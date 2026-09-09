@@ -1,0 +1,338 @@
+[
+  {
+    "output_id": "OUTPUT-001",
+    "sequence": 44,
+    "task": "sd_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-002",
+    "sequence": 2,
+    "task": "su_e04",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-003",
+    "sequence": 39,
+    "task": "ca_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-004",
+    "sequence": 22,
+    "task": "ca_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-005",
+    "sequence": 0,
+    "task": "ca_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-006",
+    "sequence": 45,
+    "task": "sd_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-007",
+    "sequence": 37,
+    "task": "su_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-008",
+    "sequence": 36,
+    "task": "su_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-009",
+    "sequence": 18,
+    "task": "ca_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-010",
+    "sequence": 9,
+    "task": "sd_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-011",
+    "sequence": 32,
+    "task": "su_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-012",
+    "sequence": 29,
+    "task": "sd_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-013",
+    "sequence": 25,
+    "task": "sd_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-014",
+    "sequence": 42,
+    "task": "su_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-015",
+    "sequence": 38,
+    "task": "ca_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-016",
+    "sequence": 16,
+    "task": "su_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-017",
+    "sequence": 23,
+    "task": "ca_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-018",
+    "sequence": 35,
+    "task": "ca_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-019",
+    "sequence": 12,
+    "task": "su_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-020",
+    "sequence": 20,
+    "task": "sd_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-021",
+    "sequence": 4,
+    "task": "ca_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-022",
+    "sequence": 14,
+    "task": "su_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-023",
+    "sequence": 47,
+    "task": "sd_e04",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-024",
+    "sequence": 11,
+    "task": "su_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-025",
+    "sequence": 41,
+    "task": "sd_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-026",
+    "sequence": 46,
+    "task": "sd_e04",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-027",
+    "sequence": 15,
+    "task": "su_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-028",
+    "sequence": 26,
+    "task": "ca_e04",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-029",
+    "sequence": 24,
+    "task": "sd_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-030",
+    "sequence": 7,
+    "task": "ca_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-031",
+    "sequence": 31,
+    "task": "sd_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-032",
+    "sequence": 28,
+    "task": "sd_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-033",
+    "sequence": 8,
+    "task": "sd_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-034",
+    "sequence": 21,
+    "task": "sd_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-035",
+    "sequence": 3,
+    "task": "su_e04",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-036",
+    "sequence": 13,
+    "task": "su_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-037",
+    "sequence": 19,
+    "task": "ca_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-038",
+    "sequence": 34,
+    "task": "ca_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-039",
+    "sequence": 6,
+    "task": "ca_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-040",
+    "sequence": 30,
+    "task": "sd_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-041",
+    "sequence": 5,
+    "task": "ca_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-042",
+    "sequence": 33,
+    "task": "su_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-043",
+    "sequence": 1,
+    "task": "ca_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-044",
+    "sequence": 17,
+    "task": "su_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-045",
+    "sequence": 40,
+    "task": "sd_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-046",
+    "sequence": 43,
+    "task": "su_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-047",
+    "sequence": 10,
+    "task": "su_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-048",
+    "sequence": 27,
+    "task": "ca_e04",
+    "rep": 2,
+    "condition": "separate"
+  }
+]

@@ -1,0 +1,907 @@
+{
+  "task_id": "ca_e01",
+  "condition": "separate",
+  "repetition": 2,
+  "started_at": "2026-09-09T02:01:05.507831+00:00",
+  "stages": [
+    {
+      "started_at": "2026-09-09T02:01:05.777020+00:00",
+      "request": {
+        "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+        "effort": "low",
+        "input": [
+          {
+            "type": "text",
+            "text": "Produce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}"
+          }
+        ],
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "answers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "enum": [
+                      "canonical_defect_count",
+                      "summary_defect_count",
+                      "summary_defect_percent",
+                      "sample_size",
+                      "population",
+                      "inspection_date"
+                    ]
+                  },
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "field",
+                  "source_ids",
+                  "value"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "answers"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "turn_id": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+      "turn": {
+        "id": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0cd0bb8cc40763a5016aa0bde6986887d0afd46b990d9351ed",
+            "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "itemsView": "summary",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1788919265,
+        "completedAt": 1788919274,
+        "durationMs": 9060
+      },
+      "usage": {
+        "totalTokens": 7938,
+        "inputTokens": 7791,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 147,
+        "reasoningOutputTokens": 0
+      },
+      "events": [
+        {
+          "method": "thread/settings/updated",
+          "params": {
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "threadSettings": {
+              "cwd": "/tmp/review-study-worker-qkgvni2v",
+              "approvalPolicy": "on-request",
+              "approvalsReviewer": "user",
+              "sandboxPolicy": {
+                "type": "readOnly",
+                "networkAccess": false
+              },
+              "activePermissionProfile": null,
+              "model": "gpt-6-astra",
+              "modelProvider": "openai",
+              "serviceTier": null,
+              "effort": "low",
+              "summary": null,
+              "collaborationMode": {
+                "mode": "default",
+                "settings": {
+                  "model": "gpt-6-astra",
+                  "reasoning_effort": "low",
+                  "developer_instructions": null
+                }
+              },
+              "multiAgentMode": "explicitRequestOnly",
+              "personality": "pragmatic"
+            }
+          },
+          "emittedAtMs": 1788919265785
+        },
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-bfe8-7c11-bcfb-c25c984b19d2",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Produce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+            "startedAtMs": 1788919267304
+          },
+          "emittedAtMs": 1788919267304
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-bfe8-7c11-bcfb-c25c984b19d2",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Produce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+            "completedAtMs": 1788919267304
+          },
+          "emittedAtMs": 1788919267304
+        },
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0cd0bb8cc40763a5016aa0bde6986887d0afd46b990d9351ed",
+              "text": "",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+            "startedAtMs": 1788919270694
+          },
+          "emittedAtMs": 1788919270694
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0cd0bb8cc40763a5016aa0bde6986887d0afd46b990d9351ed",
+              "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+            "completedAtMs": 1788919274840
+          },
+          "emittedAtMs": 1788919274840
+        },
+        {
+          "method": "thread/tokenUsage/updated",
+          "params": {
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-b9f2-7650-bd53-3cdc75c8f11f",
+            "tokenUsage": {
+              "total": {
+                "totalTokens": 7938,
+                "inputTokens": 7791,
+                "cachedInputTokens": 0,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 147,
+                "reasoningOutputTokens": 0
+              },
+              "last": {
+                "totalTokens": 7938,
+                "inputTokens": 7791,
+                "cachedInputTokens": 0,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 147,
+                "reasoningOutputTokens": 0
+              },
+              "modelContextWindow": 258400
+            }
+          },
+          "emittedAtMs": 1788919274844
+        }
+      ],
+      "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}",
+      "seconds": 9.068558382000447,
+      "finished_at": "2026-09-09T02:01:14.845577+00:00"
+    },
+    {
+      "started_at": "2026-09-09T02:01:14.888498+00:00",
+      "request": {
+        "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+        "effort": "low",
+        "input": [
+          {
+            "type": "text",
+            "text": "You are the separate reviewer. The analyst received:\nProduce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}\nThe analyst returned:\n{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}\nReview the draft against all initial evidence plus the following updates.\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nCheck source independence, latest applicable evidence, population, dates, units, uncertainty, and correction on every required record surface. Preserve claims that remain correct. Flag only an actual error or missing field; an empty flag list is valid. Each flag identifies one field, the problem, the proposed value in the specified format, and supporting document IDs. Do not rewrite the answer in the review."
+          }
+        ],
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "flags": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "enum": [
+                      "canonical_defect_count",
+                      "summary_defect_count",
+                      "summary_defect_percent",
+                      "sample_size",
+                      "population",
+                      "inspection_date"
+                    ]
+                  },
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "problem": {
+                    "type": "string"
+                  },
+                  "proposed_value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "field",
+                  "source_ids",
+                  "problem",
+                  "proposed_value"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "flags"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "turn_id": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+      "turn": {
+        "id": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0a03164c406297ff016aa0bdee889c87d088d7a7ae5402807f",
+            "text": "{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "itemsView": "summary",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1788919274,
+        "completedAt": 1788919282,
+        "durationMs": 7661
+      },
+      "usage": {
+        "totalTokens": 9008,
+        "inputTokens": 8858,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 150,
+        "reasoningOutputTokens": 0
+      },
+      "events": [
+        {
+          "method": "thread/settings/updated",
+          "params": {
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "threadSettings": {
+              "cwd": "/tmp/review-study-worker-qkgvni2v",
+              "approvalPolicy": "on-request",
+              "approvalsReviewer": "user",
+              "sandboxPolicy": {
+                "type": "readOnly",
+                "networkAccess": false
+              },
+              "activePermissionProfile": null,
+              "model": "gpt-6-astra",
+              "modelProvider": "openai",
+              "serviceTier": null,
+              "effort": "low",
+              "summary": null,
+              "collaborationMode": {
+                "mode": "default",
+                "settings": {
+                  "model": "gpt-6-astra",
+                  "reasoning_effort": "low",
+                  "developer_instructions": null
+                }
+              },
+              "multiAgentMode": "explicitRequestOnly",
+              "personality": "pragmatic"
+            }
+          },
+          "emittedAtMs": 1788919274892
+        },
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-e35f-7383-8f78-038bdd12abed",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "You are the separate reviewer. The analyst received:\nProduce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}\nThe analyst returned:\n{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}\nReview the draft against all initial evidence plus the following updates.\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nCheck source independence, latest applicable evidence, population, dates, units, uncertainty, and correction on every required record surface. Preserve claims that remain correct. Flag only an actual error or missing field; an empty flag list is valid. Each flag identifies one field, the problem, the proposed value in the specified format, and supporting document IDs. Do not rewrite the answer in the review.",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "turnId": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+            "startedAtMs": 1788919276383
+          },
+          "emittedAtMs": 1788919276384
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-e35f-7383-8f78-038bdd12abed",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "You are the separate reviewer. The analyst received:\nProduce the structured research deliverable from these initial materials.\n{\"id\": \"ca_e01\", \"question\": \"Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.\", \"fields\": [{\"id\": \"canonical_defect_count\", \"description\": \"Accepted defect count on the canonical record; integer decimal string.\"}, {\"id\": \"summary_defect_count\", \"description\": \"Accepted defect count in the downstream summary; integer decimal string.\"}, {\"id\": \"summary_defect_percent\", \"description\": \"Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign.\"}, {\"id\": \"sample_size\", \"description\": \"Number of inspected tiles; integer decimal string.\"}, {\"id\": \"population\", \"description\": \"Exact literal BLUE_TILES.\"}, {\"id\": \"inspection_date\", \"description\": \"Tile inspection date; exact YYYY-MM-DD.\"}], \"initial_documents\": [{\"id\": \"ca_e01_a\", \"text\": \"2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04.\"}, {\"id\": \"ca_e01_b\", \"text\": \"2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100.\"}, {\"id\": \"ca_e01_c\", \"text\": \"2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample.\"}], \"initial_state\": {\"canonical_defect_count\": \"17\", \"summary_defect_count\": \"17\", \"summary_defect_percent\": \"42.5\", \"sample_size\": \"40\", \"population\": \"BLUE_TILES\", \"inspection_date\": \"2031-04-04\"}}\nThe analyst returned:\n{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_a\"],\"value\":\"17\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"17\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_a\",\"ca_e01_b\"],\"value\":\"42.5\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\"],\"value\":\"2031-04-04\"}]}\nReview the draft against all initial evidence plus the following updates.\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nCheck source independence, latest applicable evidence, population, dates, units, uncertainty, and correction on every required record surface. Preserve claims that remain correct. Flag only an actual error or missing field; an empty flag list is valid. Each flag identifies one field, the problem, the proposed value in the specified format, and supporting document IDs. Do not rewrite the answer in the review.",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "turnId": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+            "completedAtMs": 1788919276383
+          },
+          "emittedAtMs": 1788919276384
+        },
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0a03164c406297ff016aa0bdee889c87d088d7a7ae5402807f",
+              "text": "",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "turnId": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+            "startedAtMs": 1788919278580
+          },
+          "emittedAtMs": 1788919278581
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0a03164c406297ff016aa0bdee889c87d088d7a7ae5402807f",
+              "text": "{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "turnId": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+            "completedAtMs": 1788919282541
+          },
+          "emittedAtMs": 1788919282541
+        },
+        {
+          "method": "thread/tokenUsage/updated",
+          "params": {
+            "threadId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+            "turnId": "01a083e5-dd89-7200-adfa-07c5bdbe7852",
+            "tokenUsage": {
+              "total": {
+                "totalTokens": 9008,
+                "inputTokens": 8858,
+                "cachedInputTokens": 0,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 150,
+                "reasoningOutputTokens": 0
+              },
+              "last": {
+                "totalTokens": 9008,
+                "inputTokens": 8858,
+                "cachedInputTokens": 0,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 150,
+                "reasoningOutputTokens": 0
+              },
+              "modelContextWindow": 258400
+            }
+          },
+          "emittedAtMs": 1788919282553
+        }
+      ],
+      "text": "{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}",
+      "seconds": 7.665738376000263,
+      "finished_at": "2026-09-09T02:01:22.554235+00:00"
+    },
+    {
+      "started_at": "2026-09-09T02:01:22.554938+00:00",
+      "request": {
+        "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+        "effort": "low",
+        "input": [
+          {
+            "type": "text",
+            "text": "Revise the deliverable using all initial evidence and these updates:\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nReview flags to evaluate, not automatically accept:\n{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}\nReturn every requested field with its current value and supporting sources. Preserve initially correct claims; no commentary."
+          }
+        ],
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "answers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "field": {
+                    "type": "string",
+                    "enum": [
+                      "canonical_defect_count",
+                      "summary_defect_count",
+                      "summary_defect_percent",
+                      "sample_size",
+                      "population",
+                      "inspection_date"
+                    ]
+                  },
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "field",
+                  "source_ids",
+                  "value"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "answers"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "turn_id": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+      "turn": {
+        "id": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0cd0bb8cc40763a5016aa0bdf5be0c87d0a9f020896f13862f",
+            "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"30\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"2031-04-04\"}]}",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "itemsView": "summary",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1788919282,
+        "completedAt": 1788919290,
+        "durationMs": 7848
+      },
+      "usage": {
+        "totalTokens": 9661,
+        "inputTokens": 9501,
+        "cachedInputTokens": 7552,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 160,
+        "reasoningOutputTokens": 0
+      },
+      "events": [
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-fba3-7572-9c91-c08af7214f71",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Revise the deliverable using all initial evidence and these updates:\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nReview flags to evaluate, not automatically accept:\n{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}\nReturn every requested field with its current value and supporting sources. Preserve initially correct claims; no commentary.",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+            "startedAtMs": 1788919282595
+          },
+          "emittedAtMs": 1788919282595
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "userMessage",
+              "id": "01a083e5-fba3-7572-9c91-c08af7214f71",
+              "clientId": null,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Revise the deliverable using all initial evidence and these updates:\n[{\"id\": \"ca_e01_d\", \"text\": \"2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04.\"}]\nReview flags to evaluate, not automatically accept:\n{\"flags\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"problem\":\"The draft retains 17, superseded by the signed correction accepting 12 defects.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The downstream summary must reflect the corrected accepted count of 12.\",\"proposed_value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"problem\":\"The percentage must be recomputed using the corrected count: 12 / 40 × 100 = 30.\",\"proposed_value\":\"30\"}]}\nReturn every requested field with its current value and supporting sources. Preserve initially correct claims; no commentary.",
+                  "text_elements": []
+                }
+              ]
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+            "completedAtMs": 1788919282595
+          },
+          "emittedAtMs": 1788919282595
+        },
+        {
+          "method": "item/started",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0cd0bb8cc40763a5016aa0bdf5be0c87d0a9f020896f13862f",
+              "text": "",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+            "startedAtMs": 1788919285818
+          },
+          "emittedAtMs": 1788919285818
+        },
+        {
+          "method": "item/completed",
+          "params": {
+            "item": {
+              "type": "agentMessage",
+              "id": "msg_0cd0bb8cc40763a5016aa0bdf5be0c87d0a9f020896f13862f",
+              "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"30\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"2031-04-04\"}]}",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            },
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+            "completedAtMs": 1788919290401
+          },
+          "emittedAtMs": 1788919290401
+        },
+        {
+          "method": "thread/tokenUsage/updated",
+          "params": {
+            "threadId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+            "turnId": "01a083e5-fb7c-7133-9ef0-eed4bf1937b6",
+            "tokenUsage": {
+              "total": {
+                "totalTokens": 17599,
+                "inputTokens": 17292,
+                "cachedInputTokens": 7552,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 307,
+                "reasoningOutputTokens": 0
+              },
+              "last": {
+                "totalTokens": 9661,
+                "inputTokens": 9501,
+                "cachedInputTokens": 7552,
+                "cacheWriteInputTokens": 0,
+                "outputTokens": 160,
+                "reasoningOutputTokens": 0
+              },
+              "modelContextWindow": 258400
+            }
+          },
+          "emittedAtMs": 1788919290405
+        }
+      ],
+      "text": "{\"answers\":[{\"field\":\"canonical_defect_count\",\"source_ids\":[\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_count\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"12\"},{\"field\":\"summary_defect_percent\",\"source_ids\":[\"ca_e01_b\",\"ca_e01_d\"],\"value\":\"30\"},{\"field\":\"sample_size\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"40\"},{\"field\":\"population\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"BLUE_TILES\"},{\"field\":\"inspection_date\",\"source_ids\":[\"ca_e01_c\",\"ca_e01_d\"],\"value\":\"2031-04-04\"}]}",
+      "seconds": 7.85186558300029,
+      "finished_at": "2026-09-09T02:01:30.406805+00:00"
+    }
+  ],
+  "threads": [
+    {
+      "thread": {
+        "id": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+        "extra": null,
+        "sessionId": "01a083e5-b9b5-7492-bd33-e6c770df9902",
+        "forkedFromId": null,
+        "parentThreadId": null,
+        "preview": "",
+        "ephemeral": true,
+        "section": null,
+        "sectionEnteredAt": null,
+        "projectId": null,
+        "historyMode": "legacy",
+        "modelProvider": "openai",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "createdAt": 1788919265,
+        "updatedAt": 1788919265,
+        "recencyAt": 1788919265,
+        "status": {
+          "type": "idle"
+        },
+        "path": null,
+        "cwd": "/tmp/review-study-worker-qkgvni2v",
+        "cliVersion": "0.153.4",
+        "source": "vscode",
+        "canAcceptDirectInput": true,
+        "threadSource": null,
+        "agentNickname": null,
+        "agentRole": null,
+        "gitInfo": null,
+        "name": null,
+        "turns": []
+      },
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "serviceTier": null,
+      "cwd": "/tmp/review-study-worker-qkgvni2v",
+      "runtimeWorkspaceRoots": [],
+      "instructionSources": [],
+      "approvalPolicy": "on-request",
+      "approvalsReviewer": "user",
+      "sandbox": {
+        "type": "readOnly",
+        "networkAccess": false
+      },
+      "activePermissionProfile": null,
+      "reasoningEffort": "high",
+      "multiAgentMode": "explicitRequestOnly"
+    },
+    {
+      "thread": {
+        "id": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+        "extra": null,
+        "sessionId": "01a083e5-dd66-77e2-b68c-9da2d03589ca",
+        "forkedFromId": null,
+        "parentThreadId": null,
+        "preview": "",
+        "ephemeral": true,
+        "section": null,
+        "sectionEnteredAt": null,
+        "projectId": null,
+        "historyMode": "legacy",
+        "modelProvider": "openai",
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "createdAt": 1788919274,
+        "updatedAt": 1788919274,
+        "recencyAt": 1788919274,
+        "status": {
+          "type": "idle"
+        },
+        "path": null,
+        "cwd": "/tmp/review-study-worker-qkgvni2v",
+        "cliVersion": "0.153.4",
+        "source": "vscode",
+        "canAcceptDirectInput": true,
+        "threadSource": null,
+        "agentNickname": null,
+        "agentRole": null,
+        "gitInfo": null,
+        "name": null,
+        "turns": []
+      },
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "serviceTier": null,
+      "cwd": "/tmp/review-study-worker-qkgvni2v",
+      "runtimeWorkspaceRoots": [],
+      "instructionSources": [],
+      "approvalPolicy": "on-request",
+      "approvalsReviewer": "user",
+      "sandbox": {
+        "type": "readOnly",
+        "networkAccess": false
+      },
+      "activePermissionProfile": null,
+      "reasoningEffort": "high",
+      "multiAgentMode": "explicitRequestOnly"
+    }
+  ],
+  "status": "COMPLETED",
+  "actual_charges_usd": null,
+  "human_validation": "PENDING",
+  "initialize": {
+    "userAgent": "prome_session_pilot/0.153.4 (Ubuntu 24.4.0; x86_64) WindowsTerminal (prome_session_pilot; 0.1)",
+    "codexHome": "/home/willi/.codex",
+    "platformFamily": "unix",
+    "platformOs": "linux"
+  },
+  "finished_at": "2026-09-09T02:01:30.415342+00:00",
+  "sequence": 4,
+  "score": {
+    "first": {
+      "acceptable": true,
+      "shape_ok": true,
+      "fields": {
+        "canonical_defect_count": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "summary_defect_count": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "summary_defect_percent": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "sample_size": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "population": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "inspection_date": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        }
+      }
+    },
+    "draft_against_final_evidence": {
+      "acceptable": false,
+      "shape_ok": true,
+      "fields": {
+        "canonical_defect_count": {
+          "value": false,
+          "citation": false,
+          "ok": false
+        },
+        "summary_defect_count": {
+          "value": false,
+          "citation": false,
+          "ok": false
+        },
+        "summary_defect_percent": {
+          "value": false,
+          "citation": false,
+          "ok": false
+        },
+        "sample_size": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "population": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "inspection_date": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        }
+      }
+    },
+    "final": {
+      "acceptable": true,
+      "shape_ok": true,
+      "fields": {
+        "canonical_defect_count": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "summary_defect_count": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "summary_defect_percent": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "sample_size": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "population": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        },
+        "inspection_date": {
+          "value": true,
+          "citation": true,
+          "ok": true
+        }
+      }
+    },
+    "repaired_fields": [
+      "canonical_defect_count",
+      "summary_defect_count",
+      "summary_defect_percent"
+    ],
+    "introduced_errors": [],
+    "flag_scores": [
+      {
+        "field": "canonical_defect_count",
+        "valid": true,
+        "acted_on": true
+      },
+      {
+        "field": "summary_defect_count",
+        "valid": true,
+        "acted_on": true
+      },
+      {
+        "field": "summary_defect_percent",
+        "valid": true,
+        "acted_on": true
+      }
+    ]
+  }
+}

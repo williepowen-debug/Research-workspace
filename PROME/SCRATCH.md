@@ -1,7 +1,9 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-08 evening · bounded workflow pilot + market publication pickup; older sections retain their stated vintages.
+**Last Updated:** 2026-09-08 evening · review-comparison pilot completed; human validation pending. Older sections retain their stated vintages.
 
 ## ★ NEXT SESSION — START HERE
+
+**REVIEW EXPERIMENT COMPLETE:** Will’s approved [self/separate comparison](experiments/review-pilot/RESULTS.md) ran48 workflows after freeze96b3b8ad5. Both arms22/24 automated acceptance; all final values correct. Citation eligibility on one task explains every rejection and needs human adjudication. [Masked review packet](experiments/review-pilot/evaluation-v1/human-review.md) ready; human validation PENDING. No public publication or claim of fleet superiority. Frozen inputs must remain unchanged; any follow-up is a new study.
 
 **FRESH-WINDOW TASK — implementation checkpoint:** Will approved market pickup then implementation. [Pilot results and next acceptance](reports/2026-09-08_session-pilot-results.md) supersede “research only”: owned-stdio Codex delivery/reuse, Claude native messaging/idle notices, local reservation tests and optional Fleet Ops inventory panel passed. Full manual/helper visibility, cross-runtime native transport and automatic lifecycle enforcement remain unimplemented. Preserve Will access AND PROME coordination of the same desk. Full scope → [six-area plan](plans/2026-09-08_mixed-agent-workflow.md).
 

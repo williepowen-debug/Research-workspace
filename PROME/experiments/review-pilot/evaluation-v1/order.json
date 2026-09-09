@@ -1,0 +1,242 @@
+[
+  {
+    "task": "ca_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e04",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "su_e04",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "su_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e01",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e01",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e04",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e04",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e02",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e02",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e03",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e03",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "ca_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e03",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e03",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_e02",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "su_e02",
+    "rep": 2,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e04",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e04",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "sd_e04",
+    "rep": 2,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_e04",
+    "rep": 2,
+    "condition": "self"
+  }
+]

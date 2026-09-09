@@ -1,0 +1,4744 @@
+[
+  {
+    "task": "sd_e04",
+    "documents": [
+      {
+        "id": "sd_e04_a",
+        "text": "2031-02-16. Collection One: original inspection of 50 violet storage boxes, with 10 bent corners."
+      },
+      {
+        "id": "sd_e04_b",
+        "text": "2031-02-17. Bulletin repeats Collection One from sd_e04_a; no boxes were examined for this bulletin."
+      },
+      {
+        "id": "sd_e04_c",
+        "text": "2031-02-18. Collection Two: a separate team independently inspected 80 different violet storage boxes, with 16 bent corners. Its observations were not taken from Collection One."
+      },
+      {
+        "id": "sd_e04_d",
+        "text": "2031-02-19. Digest reproduces Collection Two from sd_e04_c; it includes no new box observations."
+      },
+      {
+        "id": "sd_e04_e",
+        "text": "2031-02-20. Later overview cites sd_e04_b and sd_e04_d. It uses those documents solely as summaries of the two earlier collections, with no additional inspection."
+      }
+    ],
+    "question": "Assess whether at least 20 percent of sampled violet storage boxes have a bent corner. Count independent collections and preserve their separate sample sizes. Later summaries may repeat either collection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Boxes examined in sd_e04_a; integer decimal string."
+      },
+      {
+        "id": "second_sample_size",
+        "description": "Boxes examined in sd_e04_c; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "sd_e04_a;sd_e04_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_e04_a"
+          ],
+          "value": "50"
+        },
+        {
+          "field": "second_sample_size",
+          "source_ids": [
+            "sd_e04_c"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-001"
+  },
+  {
+    "task": "su_e04",
+    "documents": [
+      {
+        "id": "su_e04_a",
+        "text": "2031-03-24. Provisional Silver workroom release: 48 completed kits in the 2031-03-23 inventory."
+      },
+      {
+        "id": "su_e04_b",
+        "text": "2031-03-26. Final inventory release supersedes su_e04_a: 42 completed Silver workroom kits as of 2031-03-23; six items in the preliminary count were incomplete."
+      },
+      {
+        "id": "su_e04_c",
+        "text": "2031-03-27. Current inventory index designates su_e04_b as the final authoritative release for that inventory."
+      },
+      {
+        "id": "su_e04_d",
+        "text": "2031-03-30. Historical newsletter: \"The provisional publication announced 48 completed kits.\" This passage reproduces su_e04_a as an account of the preliminary announcement. It explicitly acknowledges the final count of 42 in su_e04_b and contains no new inventory or revision."
+      }
+    ],
+    "question": "Maintain the accepted completed-kit count for the 2031-03-23 inventory and preserve the earlier provisional publication. Determine authority by what a document says about its scope and status, not simply by its publication date.",
+    "fields": [
+      {
+        "id": "current_completed_count",
+        "description": "Accepted completed-kit count for the inventory; integer decimal string."
+      },
+      {
+        "id": "provisional_published_count",
+        "description": "Count in provisional publication su_e04_a; integer decimal string."
+      },
+      {
+        "id": "inventory_date",
+        "description": "Date the kits were inventoried; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal SILVER_WORKROOM_KITS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_completed_count",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "42"
+        },
+        {
+          "field": "provisional_published_count",
+          "source_ids": [
+            "su_e04_a"
+          ],
+          "value": "48"
+        },
+        {
+          "field": "inventory_date",
+          "source_ids": [
+            "su_e04_b"
+          ],
+          "value": "2031-03-23"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e04_b"
+          ],
+          "value": "SILVER_WORKROOM_KITS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-002"
+  },
+  {
+    "task": "ca_e04",
+    "documents": [
+      {
+        "id": "ca_e04_a",
+        "text": "2031-04-24. Signed complete Garden vault inspection: 24 marked objects out of 60 inspected on 2031-04-23. This is the accepted full-inspection result."
+      },
+      {
+        "id": "ca_e04_b",
+        "text": "2031-04-25. Record contract: canonical and downstream marked counts cover all 60 objects in the accepted Garden vault inspection. The summary percentage is marked count divided by 60 times 100."
+      },
+      {
+        "id": "ca_e04_c",
+        "text": "2031-04-25. Archive note: an earlier unfinished draft omitted the final tray. It cannot replace the signed complete inspection in ca_e04_a."
+      },
+      {
+        "id": "ca_e04_d",
+        "text": "2031-04-28. Catalog description of the recovered unfinished draft: it lists 23 marked objects out of 55 in the trays processed before the final tray. This is the incomplete draft described by ca_e04_c; it is not a correction to the accepted full-inspection result of 24 out of 60."
+      }
+    ],
+    "question": "Reconcile the canonical Garden vault record and its downstream summary with the accepted complete inspection. Preserve already-correct fields when later material describes a partial draft. Both surfaces must represent the full inspection.",
+    "fields": [
+      {
+        "id": "canonical_marked_count",
+        "description": "Marked-object count on the canonical full-inspection record; integer decimal string."
+      },
+      {
+        "id": "summary_marked_count",
+        "description": "Marked-object count on the downstream full-inspection summary; integer decimal string."
+      },
+      {
+        "id": "summary_marked_percent",
+        "description": "Full-inspection marked-object percentage; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Full-inspection sample size; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal GARDEN_VAULT_OBJECTS."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Full-inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_percent",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "60"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "GARDEN_VAULT_OBJECTS"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "2031-04-23"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-003"
+  },
+  {
+    "task": "ca_e01",
+    "documents": [
+      {
+        "id": "ca_e01_a",
+        "text": "2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04."
+      },
+      {
+        "id": "ca_e01_b",
+        "text": "2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100."
+      },
+      {
+        "id": "ca_e01_c",
+        "text": "2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample."
+      },
+      {
+        "id": "ca_e01_d",
+        "text": "2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04."
+      }
+    ],
+    "question": "Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.",
+    "fields": [
+      {
+        "id": "canonical_defect_count",
+        "description": "Accepted defect count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_defect_count",
+        "description": "Accepted defect count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_defect_percent",
+        "description": "Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected tiles; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal BLUE_TILES."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Tile inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_defect_count",
+          "source_ids": [
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_count",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_percent",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "BLUE_TILES"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "2031-04-04"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-004"
+  },
+  {
+    "task": "ca_e03",
+    "documents": [
+      {
+        "id": "ca_e03_a",
+        "text": "2031-04-18. Signed incident record I-17: a panel separation was attributed to GLUE and its cause status was CONFIRMED. The incident was found during an inspection of 24 panels."
+      },
+      {
+        "id": "ca_e03_b",
+        "text": "2031-04-19. Summary specification: the downstream cause and status reproduce the currently accepted cause and status for incident I-17, including unresolved status if the cause cannot be uniquely established."
+      },
+      {
+        "id": "ca_e03_c",
+        "text": "2031-04-19. Inspection manifest lists 24 inspected panels and incident identifier I-17. Those identifiers and the sample size are independently checked."
+      },
+      {
+        "id": "ca_e03_d",
+        "text": "2031-04-21. Signed correction to incident I-17: the label used to assign GLUE in ca_e03_a belonged to an ambiguously matched test. The available evidence cannot distinguish GLUE from HEAT. The earlier confirmed attribution is withdrawn, and the cause is UNRESOLVED with no uniquely identified cause. Incident I-17 and the sample of 24 panels are unchanged."
+      }
+    ],
+    "question": "Maintain the cause and cause-status fields for incident I-17 on both the canonical record and downstream summary. When the evidence no longer identifies a unique cause, express uncertainty on both surfaces. Preserve the incident identifier and inspection sample size.",
+    "fields": [
+      {
+        "id": "canonical_cause",
+        "description": "Canonical incident cause; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "summary_cause",
+        "description": "Cause shown in downstream summary; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "canonical_cause_status",
+        "description": "Canonical cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "summary_cause_status",
+        "description": "Downstream cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "incident_id",
+        "description": "Exact incident identifier literal I-17."
+      },
+      {
+        "id": "inspection_sample_size",
+        "description": "Objects in the incident inspection sample; integer decimal string."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_cause",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "summary_cause",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "canonical_cause_status",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "summary_cause_status",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "incident_id",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "I-17"
+        },
+        {
+          "field": "inspection_sample_size",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "24"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-005"
+  },
+  {
+    "task": "sd_e04",
+    "documents": [
+      {
+        "id": "sd_e04_a",
+        "text": "2031-02-16. Collection One: original inspection of 50 violet storage boxes, with 10 bent corners."
+      },
+      {
+        "id": "sd_e04_b",
+        "text": "2031-02-17. Bulletin repeats Collection One from sd_e04_a; no boxes were examined for this bulletin."
+      },
+      {
+        "id": "sd_e04_c",
+        "text": "2031-02-18. Collection Two: a separate team independently inspected 80 different violet storage boxes, with 16 bent corners. Its observations were not taken from Collection One."
+      },
+      {
+        "id": "sd_e04_d",
+        "text": "2031-02-19. Digest reproduces Collection Two from sd_e04_c; it includes no new box observations."
+      },
+      {
+        "id": "sd_e04_e",
+        "text": "2031-02-20. Later overview cites sd_e04_b and sd_e04_d. It uses those documents solely as summaries of the two earlier collections, with no additional inspection."
+      }
+    ],
+    "question": "Assess whether at least 20 percent of sampled violet storage boxes have a bent corner. Count independent collections and preserve their separate sample sizes. Later summaries may repeat either collection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Boxes examined in sd_e04_a; integer decimal string."
+      },
+      {
+        "id": "second_sample_size",
+        "description": "Boxes examined in sd_e04_c; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "sd_e04_a;sd_e04_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_e04_a"
+          ],
+          "value": "50"
+        },
+        {
+          "field": "second_sample_size",
+          "source_ids": [
+            "sd_e04_c"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-006"
+  },
+  {
+    "task": "su_e04",
+    "documents": [
+      {
+        "id": "su_e04_a",
+        "text": "2031-03-24. Provisional Silver workroom release: 48 completed kits in the 2031-03-23 inventory."
+      },
+      {
+        "id": "su_e04_b",
+        "text": "2031-03-26. Final inventory release supersedes su_e04_a: 42 completed Silver workroom kits as of 2031-03-23; six items in the preliminary count were incomplete."
+      },
+      {
+        "id": "su_e04_c",
+        "text": "2031-03-27. Current inventory index designates su_e04_b as the final authoritative release for that inventory."
+      },
+      {
+        "id": "su_e04_d",
+        "text": "2031-03-30. Historical newsletter: \"The provisional publication announced 48 completed kits.\" This passage reproduces su_e04_a as an account of the preliminary announcement. It explicitly acknowledges the final count of 42 in su_e04_b and contains no new inventory or revision."
+      }
+    ],
+    "question": "Maintain the accepted completed-kit count for the 2031-03-23 inventory and preserve the earlier provisional publication. Determine authority by what a document says about its scope and status, not simply by its publication date.",
+    "fields": [
+      {
+        "id": "current_completed_count",
+        "description": "Accepted completed-kit count for the inventory; integer decimal string."
+      },
+      {
+        "id": "provisional_published_count",
+        "description": "Count in provisional publication su_e04_a; integer decimal string."
+      },
+      {
+        "id": "inventory_date",
+        "description": "Date the kits were inventoried; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal SILVER_WORKROOM_KITS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_completed_count",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c",
+            "su_e04_d"
+          ],
+          "value": "42"
+        },
+        {
+          "field": "provisional_published_count",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_d"
+          ],
+          "value": "48"
+        },
+        {
+          "field": "inventory_date",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_b"
+          ],
+          "value": "2031-03-23"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_b"
+          ],
+          "value": "SILVER_WORKROOM_KITS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-007"
+  },
+  {
+    "task": "su_e04",
+    "documents": [
+      {
+        "id": "su_e04_a",
+        "text": "2031-03-24. Provisional Silver workroom release: 48 completed kits in the 2031-03-23 inventory."
+      },
+      {
+        "id": "su_e04_b",
+        "text": "2031-03-26. Final inventory release supersedes su_e04_a: 42 completed Silver workroom kits as of 2031-03-23; six items in the preliminary count were incomplete."
+      },
+      {
+        "id": "su_e04_c",
+        "text": "2031-03-27. Current inventory index designates su_e04_b as the final authoritative release for that inventory."
+      },
+      {
+        "id": "su_e04_d",
+        "text": "2031-03-30. Historical newsletter: \"The provisional publication announced 48 completed kits.\" This passage reproduces su_e04_a as an account of the preliminary announcement. It explicitly acknowledges the final count of 42 in su_e04_b and contains no new inventory or revision."
+      }
+    ],
+    "question": "Maintain the accepted completed-kit count for the 2031-03-23 inventory and preserve the earlier provisional publication. Determine authority by what a document says about its scope and status, not simply by its publication date.",
+    "fields": [
+      {
+        "id": "current_completed_count",
+        "description": "Accepted completed-kit count for the inventory; integer decimal string."
+      },
+      {
+        "id": "provisional_published_count",
+        "description": "Count in provisional publication su_e04_a; integer decimal string."
+      },
+      {
+        "id": "inventory_date",
+        "description": "Date the kits were inventoried; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal SILVER_WORKROOM_KITS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_completed_count",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "42"
+        },
+        {
+          "field": "provisional_published_count",
+          "source_ids": [
+            "su_e04_a"
+          ],
+          "value": "48"
+        },
+        {
+          "field": "inventory_date",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_b"
+          ],
+          "value": "2031-03-23"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_b"
+          ],
+          "value": "SILVER_WORKROOM_KITS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-008"
+  },
+  {
+    "task": "ca_e02",
+    "documents": [
+      {
+        "id": "ca_e02_a",
+        "text": "2031-04-11. Original timed route log: total elapsed duration 5400 seconds, covering all six stops of the full route."
+      },
+      {
+        "id": "ca_e02_b",
+        "text": "2031-04-12. Record schema: the canonical full-route duration and downstream full-route duration are both stored in minutes, where 60 seconds equals one minute. The task-local numeric entries were copied directly from the seconds column without conversion."
+      },
+      {
+        "id": "ca_e02_c",
+        "text": "2031-04-12. Route manifest confirms six stops in the full route. Both required record surfaces describe the complete six-stop route."
+      },
+      {
+        "id": "ca_e02_d",
+        "text": "2031-04-14. Segment timing: the final five stops took 80 minutes on a separate timing exercise. This report excludes the first stop and does not revise the full-route measurement in ca_e02_a."
+      }
+    ],
+    "question": "Repair the duration fields on a canonical route record and its downstream summary. Both requested surfaces use minutes for the full route. Preserve the six-stop scope; a later segment-only measurement is not a replacement for the full route.",
+    "fields": [
+      {
+        "id": "canonical_duration",
+        "description": "Full-route duration on canonical record in minutes; integer decimal string."
+      },
+      {
+        "id": "summary_duration",
+        "description": "Full-route duration on downstream summary in minutes; integer decimal string."
+      },
+      {
+        "id": "canonical_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "summary_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "stop_count",
+        "description": "Number of stops on the full route; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal FULL_ROUTE."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "summary_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "canonical_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "summary_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "stop_count",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_c"
+          ],
+          "value": "6"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_c"
+          ],
+          "value": "FULL_ROUTE"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-009"
+  },
+  {
+    "task": "sd_e03",
+    "documents": [
+      {
+        "id": "sd_e03_a",
+        "text": "2031-02-10. Original ochre-panel inspection: 22 scratched panels out of 100 inspected on 2031-02-09."
+      },
+      {
+        "id": "sd_e03_b",
+        "text": "2031-02-11. Separate inspection report: this report declares its observations to be a new independent collection of 100 other ochre panels on 2031-02-10, with 22 scratched. It declares no use of sd_e03_a."
+      },
+      {
+        "id": "sd_e03_c",
+        "text": "2031-02-12. Compilation repeats the 22 percent rate from sd_e03_a and sd_e03_b; it performs no inspection of its own."
+      },
+      {
+        "id": "sd_e03_d",
+        "text": "2031-02-13. Signed correction by the author of sd_e03_b: the claim of a separate inspection was erroneous. No panels were inspected for sd_e03_b; its counts were copied from sd_e03_a. Its claimed 2031-02-10 inspection is withdrawn. The observations and date in sd_e03_a remain valid."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that 22 percent of the inspected ochre panels had a surface scratch. Use explicit provenance statements in force at the relevant stage. If a claimed independent inspection is withdrawn, remove that root without discarding the surviving inspection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "scratch_percent",
+        "description": "Scratch rate from the surviving original inspection sd_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Panel count in inspection sd_e03_a; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of inspection sd_e03_a; exact YYYY-MM-DD."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "sd_e03_a"
+        },
+        {
+          "field": "scratch_percent",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "22"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "100"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "2031-02-09"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-010"
+  },
+  {
+    "task": "su_e01",
+    "documents": [
+      {
+        "id": "su_e01_a",
+        "text": "2031-03-05. Preliminary publication: of 120 teal archive jars inventoried on 2031-03-04, 18 were classified as cracked."
+      },
+      {
+        "id": "su_e01_b",
+        "text": "2031-03-06. Inventory scope sheet confirms that the 120 jars are all jars in the teal archive and that the observation date is 2031-03-04."
+      },
+      {
+        "id": "su_e01_c",
+        "text": "2031-03-06. Visitor summary repeats the preliminary count of 18 from su_e01_a; no new inventory was taken."
+      },
+      {
+        "id": "su_e01_d",
+        "text": "2031-03-08. Final correction of su_e01_a: three seam marks were incorrectly counted as cracks. The accepted cracked-jar count is 15 out of the same 120 jars observed on 2031-03-04. No jars were added or removed."
+      }
+    ],
+    "question": "Reconcile the current accepted cracked-jar count with the first published estimate for the same inventory. Preserve the original publication as history and keep the observation date separate from the publication date.",
+    "fields": [
+      {
+        "id": "current_cracked_count",
+        "description": "Current accepted count of cracked jars; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Cracked-jar count first published in su_e01_a, without retrospectively rewriting it; integer decimal string."
+      },
+      {
+        "id": "inspected_count",
+        "description": "Jars in the inventory population; integer decimal string."
+      },
+      {
+        "id": "observation_date",
+        "description": "Inventory observation date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal TEAL_ARCHIVE_JARS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PRELIMINARY or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_cracked_count",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "15"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_e01_a"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "inspected_count",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "120"
+        },
+        {
+          "field": "observation_date",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "2031-03-04"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "TEAL_ARCHIVE_JARS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-011"
+  },
+  {
+    "task": "sd_e02",
+    "documents": [
+      {
+        "id": "sd_e02_a",
+        "text": "2031-02-06. Original enrollment extract: west session attendance 12; east session attendance 18. Attendee identifiers are withheld. The same volunteer may enroll in both. The extract contains no overlap count."
+      },
+      {
+        "id": "sd_e02_b",
+        "text": "2031-02-07. West-session bulletin reports 12 volunteers using only the west column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_c",
+        "text": "2031-02-07. East-session bulletin reports 18 volunteers using only the east column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_d",
+        "text": "2031-02-08. Enrollment custodian clarification: sd_e02_a remains the only record source. Whether any volunteers attended both sessions cannot be recovered from the supplied extract; no unique-person total is certified."
+      }
+    ],
+    "question": "Reconcile two counts of volunteers who attended the west and east sessions. Identify underlying enrollment-record roots, preserve the separate session counts, and determine the number of distinct volunteers across both sessions only if identifiable. A volunteer may attend both sessions.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent enrollment-record roots underlying the two counts; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "west_count",
+        "description": "Volunteers attending the west session; integer decimal string."
+      },
+      {
+        "id": "east_count",
+        "description": "Volunteers attending the east session; integer decimal string."
+      },
+      {
+        "id": "distinct_volunteers",
+        "description": "Distinct volunteers across both sessions; integer decimal string if identifiable, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "population_scope",
+        "description": "Exact enum: SEPARATE_SESSION_COUNTS or DISJOINT_SESSION_COUNTS. Use DISJOINT_SESSION_COUNTS only if the evidence establishes that no attendee attended both sessions; otherwise use SEPARATE_SESSION_COUNTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "sd_e02_a"
+        },
+        {
+          "field": "west_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "east_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_c"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "distinct_volunteers",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "population_scope",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "SEPARATE_SESSION_COUNTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-012"
+  },
+  {
+    "task": "sd_e01",
+    "documents": [
+      {
+        "id": "sd_e01_a",
+        "text": "2031-02-01. Original north-room inspection: 12 of 40 north rooms had a loose latch. All 40 rooms were inspected that day."
+      },
+      {
+        "id": "sd_e01_b",
+        "text": "2031-02-02. Facilities circular reports 12 loose latches among 40 north rooms, entirely from sd_e01_a. No second inspection was performed."
+      },
+      {
+        "id": "sd_e01_c",
+        "text": "2031-02-03. Maintenance newsletter reports a 30 percent north-room loose-latch rate, citing sd_e01_b as its sole data source. It has no new observations."
+      },
+      {
+        "id": "sd_e01_d",
+        "text": "2031-02-03. Independent south-room inspection: 6 of 20 south rooms had a loose latch. No north room was included."
+      },
+      {
+        "id": "sd_e01_e",
+        "text": "2031-02-04. Archive abstract cites the later newsletter sd_e01_c for the north-room finding. The abstract contains no original inspection or additional sample."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that exactly 30 percent of inspected north rooms had a loose latch. Count independent datasets for that population. A report that cites a later relay of an earlier inspection does not create another observational root.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots for the north-room claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs for that claim; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "loose_latch_percent",
+        "description": "Percent of inspected north rooms with a loose latch; integer decimal string without percent sign."
+      },
+      {
+        "id": "population",
+        "description": "Exact population enum: NORTH_ROOMS, SOUTH_ROOMS, or ALL_ROOMS."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_e"
+          ],
+          "value": "sd_e01_a"
+        },
+        {
+          "field": "loose_latch_percent",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "NORTH_ROOMS"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-013"
+  },
+  {
+    "task": "su_e02",
+    "documents": [
+      {
+        "id": "su_e02_a",
+        "text": "2031-03-11. Cedar course register, snapshot 2031-03-10: 80 registrations in all; 52 of those registrations are eligible for the advanced session."
+      },
+      {
+        "id": "su_e02_b",
+        "text": "2031-03-11. Course definitions: eligibility for the advanced session requires completion of the introductory session. The eligible count is a subset of all registrations."
+      },
+      {
+        "id": "su_e02_c",
+        "text": "2031-03-12. Course bulletin quotes 80 total registrations from su_e02_a. It contains no later snapshot."
+      },
+      {
+        "id": "su_e02_d",
+        "text": "2031-03-15. New register, snapshot 2031-03-14: 94 registrations in all, of which 70 completed the introductory session and are eligible for the advanced session. The headline \"70 eligible registrations\" refers only to the subset. The previous snapshot remains historical."
+      }
+    ],
+    "question": "Update the registration snapshot for the Cedar craft course. Report all registrations separately from registrations eligible for the advanced session. Preserve the earlier all-registration count; never substitute an eligible subset for the full population.",
+    "fields": [
+      {
+        "id": "current_all_registrations",
+        "description": "All registrations at the latest supplied snapshot; integer decimal string."
+      },
+      {
+        "id": "current_eligible_registrations",
+        "description": "Registrations eligible for the advanced session at that same latest snapshot; integer decimal string."
+      },
+      {
+        "id": "earlier_all_registrations",
+        "description": "All registrations at the 2031-03-10 snapshot; integer decimal string."
+      },
+      {
+        "id": "current_snapshot_date",
+        "description": "Latest supplied registration snapshot date, not publication date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "all_count_population",
+        "description": "Population label for current_all_registrations; exact literal ALL_REGISTRATIONS."
+      },
+      {
+        "id": "eligibility_basis",
+        "description": "Exact literal COMPLETED_INTRODUCTORY_SESSION."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_all_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "94"
+        },
+        {
+          "field": "current_eligible_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "70"
+        },
+        {
+          "field": "earlier_all_registrations",
+          "source_ids": [
+            "su_e02_a"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "current_snapshot_date",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "2031-03-14"
+        },
+        {
+          "field": "all_count_population",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "ALL_REGISTRATIONS"
+        },
+        {
+          "field": "eligibility_basis",
+          "source_ids": [
+            "su_e02_b",
+            "su_e02_d"
+          ],
+          "value": "COMPLETED_INTRODUCTORY_SESSION"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-014"
+  },
+  {
+    "task": "ca_e04",
+    "documents": [
+      {
+        "id": "ca_e04_a",
+        "text": "2031-04-24. Signed complete Garden vault inspection: 24 marked objects out of 60 inspected on 2031-04-23. This is the accepted full-inspection result."
+      },
+      {
+        "id": "ca_e04_b",
+        "text": "2031-04-25. Record contract: canonical and downstream marked counts cover all 60 objects in the accepted Garden vault inspection. The summary percentage is marked count divided by 60 times 100."
+      },
+      {
+        "id": "ca_e04_c",
+        "text": "2031-04-25. Archive note: an earlier unfinished draft omitted the final tray. It cannot replace the signed complete inspection in ca_e04_a."
+      },
+      {
+        "id": "ca_e04_d",
+        "text": "2031-04-28. Catalog description of the recovered unfinished draft: it lists 23 marked objects out of 55 in the trays processed before the final tray. This is the incomplete draft described by ca_e04_c; it is not a correction to the accepted full-inspection result of 24 out of 60."
+      }
+    ],
+    "question": "Reconcile the canonical Garden vault record and its downstream summary with the accepted complete inspection. Preserve already-correct fields when later material describes a partial draft. Both surfaces must represent the full inspection.",
+    "fields": [
+      {
+        "id": "canonical_marked_count",
+        "description": "Marked-object count on the canonical full-inspection record; integer decimal string."
+      },
+      {
+        "id": "summary_marked_count",
+        "description": "Marked-object count on the downstream full-inspection summary; integer decimal string."
+      },
+      {
+        "id": "summary_marked_percent",
+        "description": "Full-inspection marked-object percentage; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Full-inspection sample size; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal GARDEN_VAULT_OBJECTS."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Full-inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_percent",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "60"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "GARDEN_VAULT_OBJECTS"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "2031-04-23"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-015"
+  },
+  {
+    "task": "su_e01",
+    "documents": [
+      {
+        "id": "su_e01_a",
+        "text": "2031-03-05. Preliminary publication: of 120 teal archive jars inventoried on 2031-03-04, 18 were classified as cracked."
+      },
+      {
+        "id": "su_e01_b",
+        "text": "2031-03-06. Inventory scope sheet confirms that the 120 jars are all jars in the teal archive and that the observation date is 2031-03-04."
+      },
+      {
+        "id": "su_e01_c",
+        "text": "2031-03-06. Visitor summary repeats the preliminary count of 18 from su_e01_a; no new inventory was taken."
+      },
+      {
+        "id": "su_e01_d",
+        "text": "2031-03-08. Final correction of su_e01_a: three seam marks were incorrectly counted as cracks. The accepted cracked-jar count is 15 out of the same 120 jars observed on 2031-03-04. No jars were added or removed."
+      }
+    ],
+    "question": "Reconcile the current accepted cracked-jar count with the first published estimate for the same inventory. Preserve the original publication as history and keep the observation date separate from the publication date.",
+    "fields": [
+      {
+        "id": "current_cracked_count",
+        "description": "Current accepted count of cracked jars; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Cracked-jar count first published in su_e01_a, without retrospectively rewriting it; integer decimal string."
+      },
+      {
+        "id": "inspected_count",
+        "description": "Jars in the inventory population; integer decimal string."
+      },
+      {
+        "id": "observation_date",
+        "description": "Inventory observation date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal TEAL_ARCHIVE_JARS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PRELIMINARY or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_cracked_count",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "15"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_e01_a"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "inspected_count",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "120"
+        },
+        {
+          "field": "observation_date",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "2031-03-04"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e01_b"
+          ],
+          "value": "TEAL_ARCHIVE_JARS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-016"
+  },
+  {
+    "task": "ca_e01",
+    "documents": [
+      {
+        "id": "ca_e01_a",
+        "text": "2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04."
+      },
+      {
+        "id": "ca_e01_b",
+        "text": "2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100."
+      },
+      {
+        "id": "ca_e01_c",
+        "text": "2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample."
+      },
+      {
+        "id": "ca_e01_d",
+        "text": "2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04."
+      }
+    ],
+    "question": "Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.",
+    "fields": [
+      {
+        "id": "canonical_defect_count",
+        "description": "Accepted defect count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_defect_count",
+        "description": "Accepted defect count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_defect_percent",
+        "description": "Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected tiles; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal BLUE_TILES."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Tile inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_defect_count",
+          "source_ids": [
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_count",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_percent",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "BLUE_TILES"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "2031-04-04"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-017"
+  },
+  {
+    "task": "ca_e03",
+    "documents": [
+      {
+        "id": "ca_e03_a",
+        "text": "2031-04-18. Signed incident record I-17: a panel separation was attributed to GLUE and its cause status was CONFIRMED. The incident was found during an inspection of 24 panels."
+      },
+      {
+        "id": "ca_e03_b",
+        "text": "2031-04-19. Summary specification: the downstream cause and status reproduce the currently accepted cause and status for incident I-17, including unresolved status if the cause cannot be uniquely established."
+      },
+      {
+        "id": "ca_e03_c",
+        "text": "2031-04-19. Inspection manifest lists 24 inspected panels and incident identifier I-17. Those identifiers and the sample size are independently checked."
+      },
+      {
+        "id": "ca_e03_d",
+        "text": "2031-04-21. Signed correction to incident I-17: the label used to assign GLUE in ca_e03_a belonged to an ambiguously matched test. The available evidence cannot distinguish GLUE from HEAT. The earlier confirmed attribution is withdrawn, and the cause is UNRESOLVED with no uniquely identified cause. Incident I-17 and the sample of 24 panels are unchanged."
+      }
+    ],
+    "question": "Maintain the cause and cause-status fields for incident I-17 on both the canonical record and downstream summary. When the evidence no longer identifies a unique cause, express uncertainty on both surfaces. Preserve the incident identifier and inspection sample size.",
+    "fields": [
+      {
+        "id": "canonical_cause",
+        "description": "Canonical incident cause; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "summary_cause",
+        "description": "Cause shown in downstream summary; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "canonical_cause_status",
+        "description": "Canonical cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "summary_cause_status",
+        "description": "Downstream cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "incident_id",
+        "description": "Exact incident identifier literal I-17."
+      },
+      {
+        "id": "inspection_sample_size",
+        "description": "Objects in the incident inspection sample; integer decimal string."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_cause",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "summary_cause",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "canonical_cause_status",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "summary_cause_status",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "incident_id",
+          "source_ids": [
+            "ca_e03_a",
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "I-17"
+        },
+        {
+          "field": "inspection_sample_size",
+          "source_ids": [
+            "ca_e03_a",
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "24"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-018"
+  },
+  {
+    "task": "su_e03",
+    "documents": [
+      {
+        "id": "su_e03_a",
+        "text": "2031-03-18. Provisional copper drawer inspection report for 2031-03-17: 20 drawers lacked labels out of 80 inspected drawers, a rate of 25 percent."
+      },
+      {
+        "id": "su_e03_b",
+        "text": "2031-03-18. Label incident ledger independently lists the same 20 distinct drawers missing labels on 2031-03-17. It does not enumerate all inspected drawers."
+      },
+      {
+        "id": "su_e03_c",
+        "text": "2031-03-19. Display card quotes the provisional 25 percent rate from su_e03_a."
+      },
+      {
+        "id": "su_e03_d",
+        "text": "2031-03-20. Custodian correction: the total of 80 in su_e03_a was assembled from overlapping inspection batches. The true inspected denominator cannot be reconstructed from available records. The 20 distinct missing-label incidents in su_e03_b remain verified for 2031-03-17. The 25 percent rate is withdrawn; no replacement percentage or denominator is certified."
+      }
+    ],
+    "question": "Maintain the accepted missing-label rate for the copper drawer inspection. Preserve the original published percentage and any count that remains valid if the rate is withdrawn. UNKNOWN means the supplied evidence does not establish a current accepted value.",
+    "fields": [
+      {
+        "id": "current_percent",
+        "description": "Accepted percentage of inspected drawers missing labels; integer decimal string without percent sign if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "original_published_percent",
+        "description": "Percentage printed in the original publication su_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "missing_label_count",
+        "description": "Accepted number of drawers missing labels; integer decimal string."
+      },
+      {
+        "id": "accepted_denominator",
+        "description": "Accepted number of inspected drawers used for the rate; integer decimal string if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "rate_status",
+        "description": "Exact enum: PROVISIONAL or WITHDRAWN."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of the drawer inspection; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_percent",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "original_published_percent",
+          "source_ids": [
+            "su_e03_a"
+          ],
+          "value": "25"
+        },
+        {
+          "field": "missing_label_count",
+          "source_ids": [
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "accepted_denominator",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "rate_status",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "WITHDRAWN"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_e03_a",
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "2031-03-17"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-019"
+  },
+  {
+    "task": "sd_e02",
+    "documents": [
+      {
+        "id": "sd_e02_a",
+        "text": "2031-02-06. Original enrollment extract: west session attendance 12; east session attendance 18. Attendee identifiers are withheld. The same volunteer may enroll in both. The extract contains no overlap count."
+      },
+      {
+        "id": "sd_e02_b",
+        "text": "2031-02-07. West-session bulletin reports 12 volunteers using only the west column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_c",
+        "text": "2031-02-07. East-session bulletin reports 18 volunteers using only the east column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_d",
+        "text": "2031-02-08. Enrollment custodian clarification: sd_e02_a remains the only record source. Whether any volunteers attended both sessions cannot be recovered from the supplied extract; no unique-person total is certified."
+      }
+    ],
+    "question": "Reconcile two counts of volunteers who attended the west and east sessions. Identify underlying enrollment-record roots, preserve the separate session counts, and determine the number of distinct volunteers across both sessions only if identifiable. A volunteer may attend both sessions.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent enrollment-record roots underlying the two counts; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "west_count",
+        "description": "Volunteers attending the west session; integer decimal string."
+      },
+      {
+        "id": "east_count",
+        "description": "Volunteers attending the east session; integer decimal string."
+      },
+      {
+        "id": "distinct_volunteers",
+        "description": "Distinct volunteers across both sessions; integer decimal string if identifiable, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "population_scope",
+        "description": "Exact enum: SEPARATE_SESSION_COUNTS or DISJOINT_SESSION_COUNTS. Use DISJOINT_SESSION_COUNTS only if the evidence establishes that no attendee attended both sessions; otherwise use SEPARATE_SESSION_COUNTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "sd_e02_a"
+        },
+        {
+          "field": "west_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "east_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_c"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "distinct_volunteers",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "population_scope",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "SEPARATE_SESSION_COUNTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-020"
+  },
+  {
+    "task": "ca_e01",
+    "documents": [
+      {
+        "id": "ca_e01_a",
+        "text": "2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04."
+      },
+      {
+        "id": "ca_e01_b",
+        "text": "2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100."
+      },
+      {
+        "id": "ca_e01_c",
+        "text": "2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample."
+      },
+      {
+        "id": "ca_e01_d",
+        "text": "2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04."
+      }
+    ],
+    "question": "Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.",
+    "fields": [
+      {
+        "id": "canonical_defect_count",
+        "description": "Accepted defect count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_defect_count",
+        "description": "Accepted defect count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_defect_percent",
+        "description": "Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected tiles; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal BLUE_TILES."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Tile inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_defect_count",
+          "source_ids": [
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_count",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_percent",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "BLUE_TILES"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "2031-04-04"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-021"
+  },
+  {
+    "task": "su_e02",
+    "documents": [
+      {
+        "id": "su_e02_a",
+        "text": "2031-03-11. Cedar course register, snapshot 2031-03-10: 80 registrations in all; 52 of those registrations are eligible for the advanced session."
+      },
+      {
+        "id": "su_e02_b",
+        "text": "2031-03-11. Course definitions: eligibility for the advanced session requires completion of the introductory session. The eligible count is a subset of all registrations."
+      },
+      {
+        "id": "su_e02_c",
+        "text": "2031-03-12. Course bulletin quotes 80 total registrations from su_e02_a. It contains no later snapshot."
+      },
+      {
+        "id": "su_e02_d",
+        "text": "2031-03-15. New register, snapshot 2031-03-14: 94 registrations in all, of which 70 completed the introductory session and are eligible for the advanced session. The headline \"70 eligible registrations\" refers only to the subset. The previous snapshot remains historical."
+      }
+    ],
+    "question": "Update the registration snapshot for the Cedar craft course. Report all registrations separately from registrations eligible for the advanced session. Preserve the earlier all-registration count; never substitute an eligible subset for the full population.",
+    "fields": [
+      {
+        "id": "current_all_registrations",
+        "description": "All registrations at the latest supplied snapshot; integer decimal string."
+      },
+      {
+        "id": "current_eligible_registrations",
+        "description": "Registrations eligible for the advanced session at that same latest snapshot; integer decimal string."
+      },
+      {
+        "id": "earlier_all_registrations",
+        "description": "All registrations at the 2031-03-10 snapshot; integer decimal string."
+      },
+      {
+        "id": "current_snapshot_date",
+        "description": "Latest supplied registration snapshot date, not publication date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "all_count_population",
+        "description": "Population label for current_all_registrations; exact literal ALL_REGISTRATIONS."
+      },
+      {
+        "id": "eligibility_basis",
+        "description": "Exact literal COMPLETED_INTRODUCTORY_SESSION."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_all_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "94"
+        },
+        {
+          "field": "current_eligible_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "70"
+        },
+        {
+          "field": "earlier_all_registrations",
+          "source_ids": [
+            "su_e02_a"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "current_snapshot_date",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "2031-03-14"
+        },
+        {
+          "field": "all_count_population",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "ALL_REGISTRATIONS"
+        },
+        {
+          "field": "eligibility_basis",
+          "source_ids": [
+            "su_e02_b",
+            "su_e02_d"
+          ],
+          "value": "COMPLETED_INTRODUCTORY_SESSION"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-022"
+  },
+  {
+    "task": "sd_e04",
+    "documents": [
+      {
+        "id": "sd_e04_a",
+        "text": "2031-02-16. Collection One: original inspection of 50 violet storage boxes, with 10 bent corners."
+      },
+      {
+        "id": "sd_e04_b",
+        "text": "2031-02-17. Bulletin repeats Collection One from sd_e04_a; no boxes were examined for this bulletin."
+      },
+      {
+        "id": "sd_e04_c",
+        "text": "2031-02-18. Collection Two: a separate team independently inspected 80 different violet storage boxes, with 16 bent corners. Its observations were not taken from Collection One."
+      },
+      {
+        "id": "sd_e04_d",
+        "text": "2031-02-19. Digest reproduces Collection Two from sd_e04_c; it includes no new box observations."
+      },
+      {
+        "id": "sd_e04_e",
+        "text": "2031-02-20. Later overview cites sd_e04_b and sd_e04_d. It uses those documents solely as summaries of the two earlier collections, with no additional inspection."
+      }
+    ],
+    "question": "Assess whether at least 20 percent of sampled violet storage boxes have a bent corner. Count independent collections and preserve their separate sample sizes. Later summaries may repeat either collection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Boxes examined in sd_e04_a; integer decimal string."
+      },
+      {
+        "id": "second_sample_size",
+        "description": "Boxes examined in sd_e04_c; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "sd_e04_a;sd_e04_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_e04_a"
+          ],
+          "value": "50"
+        },
+        {
+          "field": "second_sample_size",
+          "source_ids": [
+            "sd_e04_c"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-023"
+  },
+  {
+    "task": "su_e03",
+    "documents": [
+      {
+        "id": "su_e03_a",
+        "text": "2031-03-18. Provisional copper drawer inspection report for 2031-03-17: 20 drawers lacked labels out of 80 inspected drawers, a rate of 25 percent."
+      },
+      {
+        "id": "su_e03_b",
+        "text": "2031-03-18. Label incident ledger independently lists the same 20 distinct drawers missing labels on 2031-03-17. It does not enumerate all inspected drawers."
+      },
+      {
+        "id": "su_e03_c",
+        "text": "2031-03-19. Display card quotes the provisional 25 percent rate from su_e03_a."
+      },
+      {
+        "id": "su_e03_d",
+        "text": "2031-03-20. Custodian correction: the total of 80 in su_e03_a was assembled from overlapping inspection batches. The true inspected denominator cannot be reconstructed from available records. The 20 distinct missing-label incidents in su_e03_b remain verified for 2031-03-17. The 25 percent rate is withdrawn; no replacement percentage or denominator is certified."
+      }
+    ],
+    "question": "Maintain the accepted missing-label rate for the copper drawer inspection. Preserve the original published percentage and any count that remains valid if the rate is withdrawn. UNKNOWN means the supplied evidence does not establish a current accepted value.",
+    "fields": [
+      {
+        "id": "current_percent",
+        "description": "Accepted percentage of inspected drawers missing labels; integer decimal string without percent sign if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "original_published_percent",
+        "description": "Percentage printed in the original publication su_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "missing_label_count",
+        "description": "Accepted number of drawers missing labels; integer decimal string."
+      },
+      {
+        "id": "accepted_denominator",
+        "description": "Accepted number of inspected drawers used for the rate; integer decimal string if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "rate_status",
+        "description": "Exact enum: PROVISIONAL or WITHDRAWN."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of the drawer inspection; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_percent",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "original_published_percent",
+          "source_ids": [
+            "su_e03_a"
+          ],
+          "value": "25"
+        },
+        {
+          "field": "missing_label_count",
+          "source_ids": [
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "accepted_denominator",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "rate_status",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "WITHDRAWN"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_e03_a",
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "2031-03-17"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-024"
+  },
+  {
+    "task": "sd_e03",
+    "documents": [
+      {
+        "id": "sd_e03_a",
+        "text": "2031-02-10. Original ochre-panel inspection: 22 scratched panels out of 100 inspected on 2031-02-09."
+      },
+      {
+        "id": "sd_e03_b",
+        "text": "2031-02-11. Separate inspection report: this report declares its observations to be a new independent collection of 100 other ochre panels on 2031-02-10, with 22 scratched. It declares no use of sd_e03_a."
+      },
+      {
+        "id": "sd_e03_c",
+        "text": "2031-02-12. Compilation repeats the 22 percent rate from sd_e03_a and sd_e03_b; it performs no inspection of its own."
+      },
+      {
+        "id": "sd_e03_d",
+        "text": "2031-02-13. Signed correction by the author of sd_e03_b: the claim of a separate inspection was erroneous. No panels were inspected for sd_e03_b; its counts were copied from sd_e03_a. Its claimed 2031-02-10 inspection is withdrawn. The observations and date in sd_e03_a remain valid."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that 22 percent of the inspected ochre panels had a surface scratch. Use explicit provenance statements in force at the relevant stage. If a claimed independent inspection is withdrawn, remove that root without discarding the surviving inspection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "scratch_percent",
+        "description": "Scratch rate from the surviving original inspection sd_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Panel count in inspection sd_e03_a; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of inspection sd_e03_a; exact YYYY-MM-DD."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "sd_e03_a"
+        },
+        {
+          "field": "scratch_percent",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "22"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "100"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "2031-02-09"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-025"
+  },
+  {
+    "task": "sd_e04",
+    "documents": [
+      {
+        "id": "sd_e04_a",
+        "text": "2031-02-16. Collection One: original inspection of 50 violet storage boxes, with 10 bent corners."
+      },
+      {
+        "id": "sd_e04_b",
+        "text": "2031-02-17. Bulletin repeats Collection One from sd_e04_a; no boxes were examined for this bulletin."
+      },
+      {
+        "id": "sd_e04_c",
+        "text": "2031-02-18. Collection Two: a separate team independently inspected 80 different violet storage boxes, with 16 bent corners. Its observations were not taken from Collection One."
+      },
+      {
+        "id": "sd_e04_d",
+        "text": "2031-02-19. Digest reproduces Collection Two from sd_e04_c; it includes no new box observations."
+      },
+      {
+        "id": "sd_e04_e",
+        "text": "2031-02-20. Later overview cites sd_e04_b and sd_e04_d. It uses those documents solely as summaries of the two earlier collections, with no additional inspection."
+      }
+    ],
+    "question": "Assess whether at least 20 percent of sampled violet storage boxes have a bent corner. Count independent collections and preserve their separate sample sizes. Later summaries may repeat either collection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Boxes examined in sd_e04_a; integer decimal string."
+      },
+      {
+        "id": "second_sample_size",
+        "description": "Boxes examined in sd_e04_c; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "sd_e04_a;sd_e04_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_e04_a"
+          ],
+          "value": "50"
+        },
+        {
+          "field": "second_sample_size",
+          "source_ids": [
+            "sd_e04_c"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e04_a",
+            "sd_e04_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-026"
+  },
+  {
+    "task": "su_e02",
+    "documents": [
+      {
+        "id": "su_e02_a",
+        "text": "2031-03-11. Cedar course register, snapshot 2031-03-10: 80 registrations in all; 52 of those registrations are eligible for the advanced session."
+      },
+      {
+        "id": "su_e02_b",
+        "text": "2031-03-11. Course definitions: eligibility for the advanced session requires completion of the introductory session. The eligible count is a subset of all registrations."
+      },
+      {
+        "id": "su_e02_c",
+        "text": "2031-03-12. Course bulletin quotes 80 total registrations from su_e02_a. It contains no later snapshot."
+      },
+      {
+        "id": "su_e02_d",
+        "text": "2031-03-15. New register, snapshot 2031-03-14: 94 registrations in all, of which 70 completed the introductory session and are eligible for the advanced session. The headline \"70 eligible registrations\" refers only to the subset. The previous snapshot remains historical."
+      }
+    ],
+    "question": "Update the registration snapshot for the Cedar craft course. Report all registrations separately from registrations eligible for the advanced session. Preserve the earlier all-registration count; never substitute an eligible subset for the full population.",
+    "fields": [
+      {
+        "id": "current_all_registrations",
+        "description": "All registrations at the latest supplied snapshot; integer decimal string."
+      },
+      {
+        "id": "current_eligible_registrations",
+        "description": "Registrations eligible for the advanced session at that same latest snapshot; integer decimal string."
+      },
+      {
+        "id": "earlier_all_registrations",
+        "description": "All registrations at the 2031-03-10 snapshot; integer decimal string."
+      },
+      {
+        "id": "current_snapshot_date",
+        "description": "Latest supplied registration snapshot date, not publication date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "all_count_population",
+        "description": "Population label for current_all_registrations; exact literal ALL_REGISTRATIONS."
+      },
+      {
+        "id": "eligibility_basis",
+        "description": "Exact literal COMPLETED_INTRODUCTORY_SESSION."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_all_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "94"
+        },
+        {
+          "field": "current_eligible_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "70"
+        },
+        {
+          "field": "earlier_all_registrations",
+          "source_ids": [
+            "su_e02_a"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "current_snapshot_date",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "2031-03-14"
+        },
+        {
+          "field": "all_count_population",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "ALL_REGISTRATIONS"
+        },
+        {
+          "field": "eligibility_basis",
+          "source_ids": [
+            "su_e02_b",
+            "su_e02_d"
+          ],
+          "value": "COMPLETED_INTRODUCTORY_SESSION"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-027"
+  },
+  {
+    "task": "ca_e04",
+    "documents": [
+      {
+        "id": "ca_e04_a",
+        "text": "2031-04-24. Signed complete Garden vault inspection: 24 marked objects out of 60 inspected on 2031-04-23. This is the accepted full-inspection result."
+      },
+      {
+        "id": "ca_e04_b",
+        "text": "2031-04-25. Record contract: canonical and downstream marked counts cover all 60 objects in the accepted Garden vault inspection. The summary percentage is marked count divided by 60 times 100."
+      },
+      {
+        "id": "ca_e04_c",
+        "text": "2031-04-25. Archive note: an earlier unfinished draft omitted the final tray. It cannot replace the signed complete inspection in ca_e04_a."
+      },
+      {
+        "id": "ca_e04_d",
+        "text": "2031-04-28. Catalog description of the recovered unfinished draft: it lists 23 marked objects out of 55 in the trays processed before the final tray. This is the incomplete draft described by ca_e04_c; it is not a correction to the accepted full-inspection result of 24 out of 60."
+      }
+    ],
+    "question": "Reconcile the canonical Garden vault record and its downstream summary with the accepted complete inspection. Preserve already-correct fields when later material describes a partial draft. Both surfaces must represent the full inspection.",
+    "fields": [
+      {
+        "id": "canonical_marked_count",
+        "description": "Marked-object count on the canonical full-inspection record; integer decimal string."
+      },
+      {
+        "id": "summary_marked_count",
+        "description": "Marked-object count on the downstream full-inspection summary; integer decimal string."
+      },
+      {
+        "id": "summary_marked_percent",
+        "description": "Full-inspection marked-object percentage; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Full-inspection sample size; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal GARDEN_VAULT_OBJECTS."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Full-inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_percent",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "60"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "GARDEN_VAULT_OBJECTS"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "2031-04-23"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-028"
+  },
+  {
+    "task": "sd_e01",
+    "documents": [
+      {
+        "id": "sd_e01_a",
+        "text": "2031-02-01. Original north-room inspection: 12 of 40 north rooms had a loose latch. All 40 rooms were inspected that day."
+      },
+      {
+        "id": "sd_e01_b",
+        "text": "2031-02-02. Facilities circular reports 12 loose latches among 40 north rooms, entirely from sd_e01_a. No second inspection was performed."
+      },
+      {
+        "id": "sd_e01_c",
+        "text": "2031-02-03. Maintenance newsletter reports a 30 percent north-room loose-latch rate, citing sd_e01_b as its sole data source. It has no new observations."
+      },
+      {
+        "id": "sd_e01_d",
+        "text": "2031-02-03. Independent south-room inspection: 6 of 20 south rooms had a loose latch. No north room was included."
+      },
+      {
+        "id": "sd_e01_e",
+        "text": "2031-02-04. Archive abstract cites the later newsletter sd_e01_c for the north-room finding. The abstract contains no original inspection or additional sample."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that exactly 30 percent of inspected north rooms had a loose latch. Count independent datasets for that population. A report that cites a later relay of an earlier inspection does not create another observational root.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots for the north-room claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs for that claim; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "loose_latch_percent",
+        "description": "Percent of inspected north rooms with a loose latch; integer decimal string without percent sign."
+      },
+      {
+        "id": "population",
+        "description": "Exact population enum: NORTH_ROOMS, SOUTH_ROOMS, or ALL_ROOMS."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "sd_e01_a"
+        },
+        {
+          "field": "loose_latch_percent",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "NORTH_ROOMS"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-029"
+  },
+  {
+    "task": "ca_e02",
+    "documents": [
+      {
+        "id": "ca_e02_a",
+        "text": "2031-04-11. Original timed route log: total elapsed duration 5400 seconds, covering all six stops of the full route."
+      },
+      {
+        "id": "ca_e02_b",
+        "text": "2031-04-12. Record schema: the canonical full-route duration and downstream full-route duration are both stored in minutes, where 60 seconds equals one minute. The task-local numeric entries were copied directly from the seconds column without conversion."
+      },
+      {
+        "id": "ca_e02_c",
+        "text": "2031-04-12. Route manifest confirms six stops in the full route. Both required record surfaces describe the complete six-stop route."
+      },
+      {
+        "id": "ca_e02_d",
+        "text": "2031-04-14. Segment timing: the final five stops took 80 minutes on a separate timing exercise. This report excludes the first stop and does not revise the full-route measurement in ca_e02_a."
+      }
+    ],
+    "question": "Repair the duration fields on a canonical route record and its downstream summary. Both requested surfaces use minutes for the full route. Preserve the six-stop scope; a later segment-only measurement is not a replacement for the full route.",
+    "fields": [
+      {
+        "id": "canonical_duration",
+        "description": "Full-route duration on canonical record in minutes; integer decimal string."
+      },
+      {
+        "id": "summary_duration",
+        "description": "Full-route duration on downstream summary in minutes; integer decimal string."
+      },
+      {
+        "id": "canonical_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "summary_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "stop_count",
+        "description": "Number of stops on the full route; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal FULL_ROUTE."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b",
+            "ca_e02_d"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "summary_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b",
+            "ca_e02_d"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "canonical_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "summary_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "stop_count",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_c"
+          ],
+          "value": "6"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e02_c",
+            "ca_e02_d"
+          ],
+          "value": "FULL_ROUTE"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-030"
+  },
+  {
+    "task": "sd_e01",
+    "documents": [
+      {
+        "id": "sd_e01_a",
+        "text": "2031-02-01. Original north-room inspection: 12 of 40 north rooms had a loose latch. All 40 rooms were inspected that day."
+      },
+      {
+        "id": "sd_e01_b",
+        "text": "2031-02-02. Facilities circular reports 12 loose latches among 40 north rooms, entirely from sd_e01_a. No second inspection was performed."
+      },
+      {
+        "id": "sd_e01_c",
+        "text": "2031-02-03. Maintenance newsletter reports a 30 percent north-room loose-latch rate, citing sd_e01_b as its sole data source. It has no new observations."
+      },
+      {
+        "id": "sd_e01_d",
+        "text": "2031-02-03. Independent south-room inspection: 6 of 20 south rooms had a loose latch. No north room was included."
+      },
+      {
+        "id": "sd_e01_e",
+        "text": "2031-02-04. Archive abstract cites the later newsletter sd_e01_c for the north-room finding. The abstract contains no original inspection or additional sample."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that exactly 30 percent of inspected north rooms had a loose latch. Count independent datasets for that population. A report that cites a later relay of an earlier inspection does not create another observational root.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots for the north-room claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs for that claim; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "loose_latch_percent",
+        "description": "Percent of inspected north rooms with a loose latch; integer decimal string without percent sign."
+      },
+      {
+        "id": "population",
+        "description": "Exact population enum: NORTH_ROOMS, SOUTH_ROOMS, or ALL_ROOMS."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_e"
+          ],
+          "value": "sd_e01_a"
+        },
+        {
+          "field": "loose_latch_percent",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "NORTH_ROOMS"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-031"
+  },
+  {
+    "task": "sd_e02",
+    "documents": [
+      {
+        "id": "sd_e02_a",
+        "text": "2031-02-06. Original enrollment extract: west session attendance 12; east session attendance 18. Attendee identifiers are withheld. The same volunteer may enroll in both. The extract contains no overlap count."
+      },
+      {
+        "id": "sd_e02_b",
+        "text": "2031-02-07. West-session bulletin reports 12 volunteers using only the west column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_c",
+        "text": "2031-02-07. East-session bulletin reports 18 volunteers using only the east column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_d",
+        "text": "2031-02-08. Enrollment custodian clarification: sd_e02_a remains the only record source. Whether any volunteers attended both sessions cannot be recovered from the supplied extract; no unique-person total is certified."
+      }
+    ],
+    "question": "Reconcile two counts of volunteers who attended the west and east sessions. Identify underlying enrollment-record roots, preserve the separate session counts, and determine the number of distinct volunteers across both sessions only if identifiable. A volunteer may attend both sessions.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent enrollment-record roots underlying the two counts; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "west_count",
+        "description": "Volunteers attending the west session; integer decimal string."
+      },
+      {
+        "id": "east_count",
+        "description": "Volunteers attending the east session; integer decimal string."
+      },
+      {
+        "id": "distinct_volunteers",
+        "description": "Distinct volunteers across both sessions; integer decimal string if identifiable, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "population_scope",
+        "description": "Exact enum: SEPARATE_SESSION_COUNTS or DISJOINT_SESSION_COUNTS. Use DISJOINT_SESSION_COUNTS only if the evidence establishes that no attendee attended both sessions; otherwise use SEPARATE_SESSION_COUNTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "sd_e02_a"
+        },
+        {
+          "field": "west_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "east_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_c"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "distinct_volunteers",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "population_scope",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "SEPARATE_SESSION_COUNTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-032"
+  },
+  {
+    "task": "sd_e03",
+    "documents": [
+      {
+        "id": "sd_e03_a",
+        "text": "2031-02-10. Original ochre-panel inspection: 22 scratched panels out of 100 inspected on 2031-02-09."
+      },
+      {
+        "id": "sd_e03_b",
+        "text": "2031-02-11. Separate inspection report: this report declares its observations to be a new independent collection of 100 other ochre panels on 2031-02-10, with 22 scratched. It declares no use of sd_e03_a."
+      },
+      {
+        "id": "sd_e03_c",
+        "text": "2031-02-12. Compilation repeats the 22 percent rate from sd_e03_a and sd_e03_b; it performs no inspection of its own."
+      },
+      {
+        "id": "sd_e03_d",
+        "text": "2031-02-13. Signed correction by the author of sd_e03_b: the claim of a separate inspection was erroneous. No panels were inspected for sd_e03_b; its counts were copied from sd_e03_a. Its claimed 2031-02-10 inspection is withdrawn. The observations and date in sd_e03_a remain valid."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that 22 percent of the inspected ochre panels had a surface scratch. Use explicit provenance statements in force at the relevant stage. If a claimed independent inspection is withdrawn, remove that root without discarding the surviving inspection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "scratch_percent",
+        "description": "Scratch rate from the surviving original inspection sd_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Panel count in inspection sd_e03_a; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of inspection sd_e03_a; exact YYYY-MM-DD."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "sd_e03_a"
+        },
+        {
+          "field": "scratch_percent",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "22"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "100"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "2031-02-09"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-033"
+  },
+  {
+    "task": "sd_e02",
+    "documents": [
+      {
+        "id": "sd_e02_a",
+        "text": "2031-02-06. Original enrollment extract: west session attendance 12; east session attendance 18. Attendee identifiers are withheld. The same volunteer may enroll in both. The extract contains no overlap count."
+      },
+      {
+        "id": "sd_e02_b",
+        "text": "2031-02-07. West-session bulletin reports 12 volunteers using only the west column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_c",
+        "text": "2031-02-07. East-session bulletin reports 18 volunteers using only the east column in sd_e02_a. It did not collect a separate roster."
+      },
+      {
+        "id": "sd_e02_d",
+        "text": "2031-02-08. Enrollment custodian clarification: sd_e02_a remains the only record source. Whether any volunteers attended both sessions cannot be recovered from the supplied extract; no unique-person total is certified."
+      }
+    ],
+    "question": "Reconcile two counts of volunteers who attended the west and east sessions. Identify underlying enrollment-record roots, preserve the separate session counts, and determine the number of distinct volunteers across both sessions only if identifiable. A volunteer may attend both sessions.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent enrollment-record roots underlying the two counts; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "west_count",
+        "description": "Volunteers attending the west session; integer decimal string."
+      },
+      {
+        "id": "east_count",
+        "description": "Volunteers attending the east session; integer decimal string."
+      },
+      {
+        "id": "distinct_volunteers",
+        "description": "Distinct volunteers across both sessions; integer decimal string if identifiable, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "population_scope",
+        "description": "Exact enum: SEPARATE_SESSION_COUNTS or DISJOINT_SESSION_COUNTS. Use DISJOINT_SESSION_COUNTS only if the evidence establishes that no attendee attended both sessions; otherwise use SEPARATE_SESSION_COUNTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_b",
+            "sd_e02_c",
+            "sd_e02_d"
+          ],
+          "value": "sd_e02_a"
+        },
+        {
+          "field": "west_count",
+          "source_ids": [
+            "sd_e02_a"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "east_count",
+          "source_ids": [
+            "sd_e02_a"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "distinct_volunteers",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "population_scope",
+          "source_ids": [
+            "sd_e02_a",
+            "sd_e02_d"
+          ],
+          "value": "SEPARATE_SESSION_COUNTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-034"
+  },
+  {
+    "task": "su_e04",
+    "documents": [
+      {
+        "id": "su_e04_a",
+        "text": "2031-03-24. Provisional Silver workroom release: 48 completed kits in the 2031-03-23 inventory."
+      },
+      {
+        "id": "su_e04_b",
+        "text": "2031-03-26. Final inventory release supersedes su_e04_a: 42 completed Silver workroom kits as of 2031-03-23; six items in the preliminary count were incomplete."
+      },
+      {
+        "id": "su_e04_c",
+        "text": "2031-03-27. Current inventory index designates su_e04_b as the final authoritative release for that inventory."
+      },
+      {
+        "id": "su_e04_d",
+        "text": "2031-03-30. Historical newsletter: \"The provisional publication announced 48 completed kits.\" This passage reproduces su_e04_a as an account of the preliminary announcement. It explicitly acknowledges the final count of 42 in su_e04_b and contains no new inventory or revision."
+      }
+    ],
+    "question": "Maintain the accepted completed-kit count for the 2031-03-23 inventory and preserve the earlier provisional publication. Determine authority by what a document says about its scope and status, not simply by its publication date.",
+    "fields": [
+      {
+        "id": "current_completed_count",
+        "description": "Accepted completed-kit count for the inventory; integer decimal string."
+      },
+      {
+        "id": "provisional_published_count",
+        "description": "Count in provisional publication su_e04_a; integer decimal string."
+      },
+      {
+        "id": "inventory_date",
+        "description": "Date the kits were inventoried; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal SILVER_WORKROOM_KITS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_completed_count",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c",
+            "su_e04_d"
+          ],
+          "value": "42"
+        },
+        {
+          "field": "provisional_published_count",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_d"
+          ],
+          "value": "48"
+        },
+        {
+          "field": "inventory_date",
+          "source_ids": [
+            "su_e04_a",
+            "su_e04_b"
+          ],
+          "value": "2031-03-23"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e04_b"
+          ],
+          "value": "SILVER_WORKROOM_KITS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e04_b",
+            "su_e04_c"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-035"
+  },
+  {
+    "task": "su_e03",
+    "documents": [
+      {
+        "id": "su_e03_a",
+        "text": "2031-03-18. Provisional copper drawer inspection report for 2031-03-17: 20 drawers lacked labels out of 80 inspected drawers, a rate of 25 percent."
+      },
+      {
+        "id": "su_e03_b",
+        "text": "2031-03-18. Label incident ledger independently lists the same 20 distinct drawers missing labels on 2031-03-17. It does not enumerate all inspected drawers."
+      },
+      {
+        "id": "su_e03_c",
+        "text": "2031-03-19. Display card quotes the provisional 25 percent rate from su_e03_a."
+      },
+      {
+        "id": "su_e03_d",
+        "text": "2031-03-20. Custodian correction: the total of 80 in su_e03_a was assembled from overlapping inspection batches. The true inspected denominator cannot be reconstructed from available records. The 20 distinct missing-label incidents in su_e03_b remain verified for 2031-03-17. The 25 percent rate is withdrawn; no replacement percentage or denominator is certified."
+      }
+    ],
+    "question": "Maintain the accepted missing-label rate for the copper drawer inspection. Preserve the original published percentage and any count that remains valid if the rate is withdrawn. UNKNOWN means the supplied evidence does not establish a current accepted value.",
+    "fields": [
+      {
+        "id": "current_percent",
+        "description": "Accepted percentage of inspected drawers missing labels; integer decimal string without percent sign if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "original_published_percent",
+        "description": "Percentage printed in the original publication su_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "missing_label_count",
+        "description": "Accepted number of drawers missing labels; integer decimal string."
+      },
+      {
+        "id": "accepted_denominator",
+        "description": "Accepted number of inspected drawers used for the rate; integer decimal string if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "rate_status",
+        "description": "Exact enum: PROVISIONAL or WITHDRAWN."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of the drawer inspection; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_percent",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "original_published_percent",
+          "source_ids": [
+            "su_e03_a"
+          ],
+          "value": "25"
+        },
+        {
+          "field": "missing_label_count",
+          "source_ids": [
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "accepted_denominator",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "rate_status",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "WITHDRAWN"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_e03_a",
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "2031-03-17"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-036"
+  },
+  {
+    "task": "ca_e02",
+    "documents": [
+      {
+        "id": "ca_e02_a",
+        "text": "2031-04-11. Original timed route log: total elapsed duration 5400 seconds, covering all six stops of the full route."
+      },
+      {
+        "id": "ca_e02_b",
+        "text": "2031-04-12. Record schema: the canonical full-route duration and downstream full-route duration are both stored in minutes, where 60 seconds equals one minute. The task-local numeric entries were copied directly from the seconds column without conversion."
+      },
+      {
+        "id": "ca_e02_c",
+        "text": "2031-04-12. Route manifest confirms six stops in the full route. Both required record surfaces describe the complete six-stop route."
+      },
+      {
+        "id": "ca_e02_d",
+        "text": "2031-04-14. Segment timing: the final five stops took 80 minutes on a separate timing exercise. This report excludes the first stop and does not revise the full-route measurement in ca_e02_a."
+      }
+    ],
+    "question": "Repair the duration fields on a canonical route record and its downstream summary. Both requested surfaces use minutes for the full route. Preserve the six-stop scope; a later segment-only measurement is not a replacement for the full route.",
+    "fields": [
+      {
+        "id": "canonical_duration",
+        "description": "Full-route duration on canonical record in minutes; integer decimal string."
+      },
+      {
+        "id": "summary_duration",
+        "description": "Full-route duration on downstream summary in minutes; integer decimal string."
+      },
+      {
+        "id": "canonical_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "summary_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "stop_count",
+        "description": "Number of stops on the full route; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal FULL_ROUTE."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "summary_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "canonical_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "summary_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "stop_count",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_c"
+          ],
+          "value": "6"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_c"
+          ],
+          "value": "FULL_ROUTE"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-037"
+  },
+  {
+    "task": "ca_e03",
+    "documents": [
+      {
+        "id": "ca_e03_a",
+        "text": "2031-04-18. Signed incident record I-17: a panel separation was attributed to GLUE and its cause status was CONFIRMED. The incident was found during an inspection of 24 panels."
+      },
+      {
+        "id": "ca_e03_b",
+        "text": "2031-04-19. Summary specification: the downstream cause and status reproduce the currently accepted cause and status for incident I-17, including unresolved status if the cause cannot be uniquely established."
+      },
+      {
+        "id": "ca_e03_c",
+        "text": "2031-04-19. Inspection manifest lists 24 inspected panels and incident identifier I-17. Those identifiers and the sample size are independently checked."
+      },
+      {
+        "id": "ca_e03_d",
+        "text": "2031-04-21. Signed correction to incident I-17: the label used to assign GLUE in ca_e03_a belonged to an ambiguously matched test. The available evidence cannot distinguish GLUE from HEAT. The earlier confirmed attribution is withdrawn, and the cause is UNRESOLVED with no uniquely identified cause. Incident I-17 and the sample of 24 panels are unchanged."
+      }
+    ],
+    "question": "Maintain the cause and cause-status fields for incident I-17 on both the canonical record and downstream summary. When the evidence no longer identifies a unique cause, express uncertainty on both surfaces. Preserve the incident identifier and inspection sample size.",
+    "fields": [
+      {
+        "id": "canonical_cause",
+        "description": "Canonical incident cause; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "summary_cause",
+        "description": "Cause shown in downstream summary; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "canonical_cause_status",
+        "description": "Canonical cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "summary_cause_status",
+        "description": "Downstream cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "incident_id",
+        "description": "Exact incident identifier literal I-17."
+      },
+      {
+        "id": "inspection_sample_size",
+        "description": "Objects in the incident inspection sample; integer decimal string."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_cause",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "summary_cause",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "canonical_cause_status",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "summary_cause_status",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "incident_id",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "I-17"
+        },
+        {
+          "field": "inspection_sample_size",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "24"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-038"
+  },
+  {
+    "task": "ca_e02",
+    "documents": [
+      {
+        "id": "ca_e02_a",
+        "text": "2031-04-11. Original timed route log: total elapsed duration 5400 seconds, covering all six stops of the full route."
+      },
+      {
+        "id": "ca_e02_b",
+        "text": "2031-04-12. Record schema: the canonical full-route duration and downstream full-route duration are both stored in minutes, where 60 seconds equals one minute. The task-local numeric entries were copied directly from the seconds column without conversion."
+      },
+      {
+        "id": "ca_e02_c",
+        "text": "2031-04-12. Route manifest confirms six stops in the full route. Both required record surfaces describe the complete six-stop route."
+      },
+      {
+        "id": "ca_e02_d",
+        "text": "2031-04-14. Segment timing: the final five stops took 80 minutes on a separate timing exercise. This report excludes the first stop and does not revise the full-route measurement in ca_e02_a."
+      }
+    ],
+    "question": "Repair the duration fields on a canonical route record and its downstream summary. Both requested surfaces use minutes for the full route. Preserve the six-stop scope; a later segment-only measurement is not a replacement for the full route.",
+    "fields": [
+      {
+        "id": "canonical_duration",
+        "description": "Full-route duration on canonical record in minutes; integer decimal string."
+      },
+      {
+        "id": "summary_duration",
+        "description": "Full-route duration on downstream summary in minutes; integer decimal string."
+      },
+      {
+        "id": "canonical_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "summary_unit",
+        "description": "Exact literal MINUTES."
+      },
+      {
+        "id": "stop_count",
+        "description": "Number of stops on the full route; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal FULL_ROUTE."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "summary_duration",
+          "source_ids": [
+            "ca_e02_a",
+            "ca_e02_b"
+          ],
+          "value": "90"
+        },
+        {
+          "field": "canonical_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "summary_unit",
+          "source_ids": [
+            "ca_e02_b"
+          ],
+          "value": "MINUTES"
+        },
+        {
+          "field": "stop_count",
+          "source_ids": [
+            "ca_e02_c"
+          ],
+          "value": "6"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e02_c"
+          ],
+          "value": "FULL_ROUTE"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-039"
+  },
+  {
+    "task": "sd_e01",
+    "documents": [
+      {
+        "id": "sd_e01_a",
+        "text": "2031-02-01. Original north-room inspection: 12 of 40 north rooms had a loose latch. All 40 rooms were inspected that day."
+      },
+      {
+        "id": "sd_e01_b",
+        "text": "2031-02-02. Facilities circular reports 12 loose latches among 40 north rooms, entirely from sd_e01_a. No second inspection was performed."
+      },
+      {
+        "id": "sd_e01_c",
+        "text": "2031-02-03. Maintenance newsletter reports a 30 percent north-room loose-latch rate, citing sd_e01_b as its sole data source. It has no new observations."
+      },
+      {
+        "id": "sd_e01_d",
+        "text": "2031-02-03. Independent south-room inspection: 6 of 20 south rooms had a loose latch. No north room was included."
+      },
+      {
+        "id": "sd_e01_e",
+        "text": "2031-02-04. Archive abstract cites the later newsletter sd_e01_c for the north-room finding. The abstract contains no original inspection or additional sample."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that exactly 30 percent of inspected north rooms had a loose latch. Count independent datasets for that population. A report that cites a later relay of an earlier inspection does not create another observational root.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots for the north-room claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs for that claim; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "loose_latch_percent",
+        "description": "Percent of inspected north rooms with a loose latch; integer decimal string without percent sign."
+      },
+      {
+        "id": "population",
+        "description": "Exact population enum: NORTH_ROOMS, SOUTH_ROOMS, or ALL_ROOMS."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_e"
+          ],
+          "value": "sd_e01_a"
+        },
+        {
+          "field": "loose_latch_percent",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "sd_e01_a"
+          ],
+          "value": "NORTH_ROOMS"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e01_a",
+            "sd_e01_b",
+            "sd_e01_c",
+            "sd_e01_d",
+            "sd_e01_e"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-040"
+  },
+  {
+    "task": "ca_e01",
+    "documents": [
+      {
+        "id": "ca_e01_a",
+        "text": "2031-04-05. Inspection release: 17 defective blue tiles among 40 tiles inspected on 2031-04-04."
+      },
+      {
+        "id": "ca_e01_b",
+        "text": "2031-04-06. Record contract: canonical count and downstream summary count refer to the same blue-tile inspection. Summary percentage equals the accepted defect count divided by 40, multiplied by 100."
+      },
+      {
+        "id": "ca_e01_c",
+        "text": "2031-04-06. Population manifest: exactly 40 blue tiles were inspected on 2031-04-04; no other tile color is in this sample."
+      },
+      {
+        "id": "ca_e01_d",
+        "text": "2031-04-08. Signed inspection correction supersedes the defect classification in ca_e01_a: five of the 17 marks were removable dust. The accepted defect count is 12. All 40 blue tiles remain in the sample; the inspection date remains 2031-04-04."
+      }
+    ],
+    "question": "Reconcile the canonical blue-tile record and its downstream inspection summary with the currently accepted inspection. Apply any revised defect count to both surfaces and recompute the summary rate while preserving unaffected fields.",
+    "fields": [
+      {
+        "id": "canonical_defect_count",
+        "description": "Accepted defect count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_defect_count",
+        "description": "Accepted defect count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_defect_percent",
+        "description": "Defect percentage in the downstream summary; decimal string with no trailing .0 and no percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected tiles; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal BLUE_TILES."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Tile inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_defect_count",
+          "source_ids": [
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_count",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "summary_defect_percent",
+          "source_ids": [
+            "ca_e01_b",
+            "ca_e01_d"
+          ],
+          "value": "30"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "BLUE_TILES"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e01_c",
+            "ca_e01_d"
+          ],
+          "value": "2031-04-04"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-041"
+  },
+  {
+    "task": "su_e01",
+    "documents": [
+      {
+        "id": "su_e01_a",
+        "text": "2031-03-05. Preliminary publication: of 120 teal archive jars inventoried on 2031-03-04, 18 were classified as cracked."
+      },
+      {
+        "id": "su_e01_b",
+        "text": "2031-03-06. Inventory scope sheet confirms that the 120 jars are all jars in the teal archive and that the observation date is 2031-03-04."
+      },
+      {
+        "id": "su_e01_c",
+        "text": "2031-03-06. Visitor summary repeats the preliminary count of 18 from su_e01_a; no new inventory was taken."
+      },
+      {
+        "id": "su_e01_d",
+        "text": "2031-03-08. Final correction of su_e01_a: three seam marks were incorrectly counted as cracks. The accepted cracked-jar count is 15 out of the same 120 jars observed on 2031-03-04. No jars were added or removed."
+      }
+    ],
+    "question": "Reconcile the current accepted cracked-jar count with the first published estimate for the same inventory. Preserve the original publication as history and keep the observation date separate from the publication date.",
+    "fields": [
+      {
+        "id": "current_cracked_count",
+        "description": "Current accepted count of cracked jars; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Cracked-jar count first published in su_e01_a, without retrospectively rewriting it; integer decimal string."
+      },
+      {
+        "id": "inspected_count",
+        "description": "Jars in the inventory population; integer decimal string."
+      },
+      {
+        "id": "observation_date",
+        "description": "Inventory observation date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal TEAL_ARCHIVE_JARS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PRELIMINARY or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_cracked_count",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "15"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_e01_a"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "inspected_count",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "120"
+        },
+        {
+          "field": "observation_date",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "2031-03-04"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e01_b"
+          ],
+          "value": "TEAL_ARCHIVE_JARS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-042"
+  },
+  {
+    "task": "ca_e03",
+    "documents": [
+      {
+        "id": "ca_e03_a",
+        "text": "2031-04-18. Signed incident record I-17: a panel separation was attributed to GLUE and its cause status was CONFIRMED. The incident was found during an inspection of 24 panels."
+      },
+      {
+        "id": "ca_e03_b",
+        "text": "2031-04-19. Summary specification: the downstream cause and status reproduce the currently accepted cause and status for incident I-17, including unresolved status if the cause cannot be uniquely established."
+      },
+      {
+        "id": "ca_e03_c",
+        "text": "2031-04-19. Inspection manifest lists 24 inspected panels and incident identifier I-17. Those identifiers and the sample size are independently checked."
+      },
+      {
+        "id": "ca_e03_d",
+        "text": "2031-04-21. Signed correction to incident I-17: the label used to assign GLUE in ca_e03_a belonged to an ambiguously matched test. The available evidence cannot distinguish GLUE from HEAT. The earlier confirmed attribution is withdrawn, and the cause is UNRESOLVED with no uniquely identified cause. Incident I-17 and the sample of 24 panels are unchanged."
+      }
+    ],
+    "question": "Maintain the cause and cause-status fields for incident I-17 on both the canonical record and downstream summary. When the evidence no longer identifies a unique cause, express uncertainty on both surfaces. Preserve the incident identifier and inspection sample size.",
+    "fields": [
+      {
+        "id": "canonical_cause",
+        "description": "Canonical incident cause; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "summary_cause",
+        "description": "Cause shown in downstream summary; exact enum: GLUE, HEAT, or UNKNOWN."
+      },
+      {
+        "id": "canonical_cause_status",
+        "description": "Canonical cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "summary_cause_status",
+        "description": "Downstream cause status; exact enum: CONFIRMED or UNRESOLVED."
+      },
+      {
+        "id": "incident_id",
+        "description": "Exact incident identifier literal I-17."
+      },
+      {
+        "id": "inspection_sample_size",
+        "description": "Objects in the incident inspection sample; integer decimal string."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_cause",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "summary_cause",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "canonical_cause_status",
+          "source_ids": [
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "summary_cause_status",
+          "source_ids": [
+            "ca_e03_b",
+            "ca_e03_d"
+          ],
+          "value": "UNRESOLVED"
+        },
+        {
+          "field": "incident_id",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "I-17"
+        },
+        {
+          "field": "inspection_sample_size",
+          "source_ids": [
+            "ca_e03_c",
+            "ca_e03_d"
+          ],
+          "value": "24"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-043"
+  },
+  {
+    "task": "su_e01",
+    "documents": [
+      {
+        "id": "su_e01_a",
+        "text": "2031-03-05. Preliminary publication: of 120 teal archive jars inventoried on 2031-03-04, 18 were classified as cracked."
+      },
+      {
+        "id": "su_e01_b",
+        "text": "2031-03-06. Inventory scope sheet confirms that the 120 jars are all jars in the teal archive and that the observation date is 2031-03-04."
+      },
+      {
+        "id": "su_e01_c",
+        "text": "2031-03-06. Visitor summary repeats the preliminary count of 18 from su_e01_a; no new inventory was taken."
+      },
+      {
+        "id": "su_e01_d",
+        "text": "2031-03-08. Final correction of su_e01_a: three seam marks were incorrectly counted as cracks. The accepted cracked-jar count is 15 out of the same 120 jars observed on 2031-03-04. No jars were added or removed."
+      }
+    ],
+    "question": "Reconcile the current accepted cracked-jar count with the first published estimate for the same inventory. Preserve the original publication as history and keep the observation date separate from the publication date.",
+    "fields": [
+      {
+        "id": "current_cracked_count",
+        "description": "Current accepted count of cracked jars; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Cracked-jar count first published in su_e01_a, without retrospectively rewriting it; integer decimal string."
+      },
+      {
+        "id": "inspected_count",
+        "description": "Jars in the inventory population; integer decimal string."
+      },
+      {
+        "id": "observation_date",
+        "description": "Inventory observation date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal TEAL_ARCHIVE_JARS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PRELIMINARY or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_cracked_count",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "15"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_e01_a"
+          ],
+          "value": "18"
+        },
+        {
+          "field": "inspected_count",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "120"
+        },
+        {
+          "field": "observation_date",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "2031-03-04"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_e01_b",
+            "su_e01_d"
+          ],
+          "value": "TEAL_ARCHIVE_JARS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_e01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-044"
+  },
+  {
+    "task": "sd_e03",
+    "documents": [
+      {
+        "id": "sd_e03_a",
+        "text": "2031-02-10. Original ochre-panel inspection: 22 scratched panels out of 100 inspected on 2031-02-09."
+      },
+      {
+        "id": "sd_e03_b",
+        "text": "2031-02-11. Separate inspection report: this report declares its observations to be a new independent collection of 100 other ochre panels on 2031-02-10, with 22 scratched. It declares no use of sd_e03_a."
+      },
+      {
+        "id": "sd_e03_c",
+        "text": "2031-02-12. Compilation repeats the 22 percent rate from sd_e03_a and sd_e03_b; it performs no inspection of its own."
+      },
+      {
+        "id": "sd_e03_d",
+        "text": "2031-02-13. Signed correction by the author of sd_e03_b: the claim of a separate inspection was erroneous. No panels were inspected for sd_e03_b; its counts were copied from sd_e03_a. Its claimed 2031-02-10 inspection is withdrawn. The observations and date in sd_e03_a remain valid."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that 22 percent of the inspected ochre panels had a surface scratch. Use explicit provenance statements in force at the relevant stage. If a claimed independent inspection is withdrawn, remove that root without discarding the surviving inspection.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Root document IDs; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "scratch_percent",
+        "description": "Scratch rate from the surviving original inspection sd_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Panel count in inspection sd_e03_a; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of inspection sd_e03_a; exact YYYY-MM-DD."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "1"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "sd_e03_a"
+        },
+        {
+          "field": "scratch_percent",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "22"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "100"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "sd_e03_a"
+          ],
+          "value": "2031-02-09"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_e03_a",
+            "sd_e03_d"
+          ],
+          "value": "SINGLE_ROOT"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-045"
+  },
+  {
+    "task": "su_e02",
+    "documents": [
+      {
+        "id": "su_e02_a",
+        "text": "2031-03-11. Cedar course register, snapshot 2031-03-10: 80 registrations in all; 52 of those registrations are eligible for the advanced session."
+      },
+      {
+        "id": "su_e02_b",
+        "text": "2031-03-11. Course definitions: eligibility for the advanced session requires completion of the introductory session. The eligible count is a subset of all registrations."
+      },
+      {
+        "id": "su_e02_c",
+        "text": "2031-03-12. Course bulletin quotes 80 total registrations from su_e02_a. It contains no later snapshot."
+      },
+      {
+        "id": "su_e02_d",
+        "text": "2031-03-15. New register, snapshot 2031-03-14: 94 registrations in all, of which 70 completed the introductory session and are eligible for the advanced session. The headline \"70 eligible registrations\" refers only to the subset. The previous snapshot remains historical."
+      }
+    ],
+    "question": "Update the registration snapshot for the Cedar craft course. Report all registrations separately from registrations eligible for the advanced session. Preserve the earlier all-registration count; never substitute an eligible subset for the full population.",
+    "fields": [
+      {
+        "id": "current_all_registrations",
+        "description": "All registrations at the latest supplied snapshot; integer decimal string."
+      },
+      {
+        "id": "current_eligible_registrations",
+        "description": "Registrations eligible for the advanced session at that same latest snapshot; integer decimal string."
+      },
+      {
+        "id": "earlier_all_registrations",
+        "description": "All registrations at the 2031-03-10 snapshot; integer decimal string."
+      },
+      {
+        "id": "current_snapshot_date",
+        "description": "Latest supplied registration snapshot date, not publication date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "all_count_population",
+        "description": "Population label for current_all_registrations; exact literal ALL_REGISTRATIONS."
+      },
+      {
+        "id": "eligibility_basis",
+        "description": "Exact literal COMPLETED_INTRODUCTORY_SESSION."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_all_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "94"
+        },
+        {
+          "field": "current_eligible_registrations",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "70"
+        },
+        {
+          "field": "earlier_all_registrations",
+          "source_ids": [
+            "su_e02_a"
+          ],
+          "value": "80"
+        },
+        {
+          "field": "current_snapshot_date",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "2031-03-14"
+        },
+        {
+          "field": "all_count_population",
+          "source_ids": [
+            "su_e02_d"
+          ],
+          "value": "ALL_REGISTRATIONS"
+        },
+        {
+          "field": "eligibility_basis",
+          "source_ids": [
+            "su_e02_b",
+            "su_e02_d"
+          ],
+          "value": "COMPLETED_INTRODUCTORY_SESSION"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-046"
+  },
+  {
+    "task": "su_e03",
+    "documents": [
+      {
+        "id": "su_e03_a",
+        "text": "2031-03-18. Provisional copper drawer inspection report for 2031-03-17: 20 drawers lacked labels out of 80 inspected drawers, a rate of 25 percent."
+      },
+      {
+        "id": "su_e03_b",
+        "text": "2031-03-18. Label incident ledger independently lists the same 20 distinct drawers missing labels on 2031-03-17. It does not enumerate all inspected drawers."
+      },
+      {
+        "id": "su_e03_c",
+        "text": "2031-03-19. Display card quotes the provisional 25 percent rate from su_e03_a."
+      },
+      {
+        "id": "su_e03_d",
+        "text": "2031-03-20. Custodian correction: the total of 80 in su_e03_a was assembled from overlapping inspection batches. The true inspected denominator cannot be reconstructed from available records. The 20 distinct missing-label incidents in su_e03_b remain verified for 2031-03-17. The 25 percent rate is withdrawn; no replacement percentage or denominator is certified."
+      }
+    ],
+    "question": "Maintain the accepted missing-label rate for the copper drawer inspection. Preserve the original published percentage and any count that remains valid if the rate is withdrawn. UNKNOWN means the supplied evidence does not establish a current accepted value.",
+    "fields": [
+      {
+        "id": "current_percent",
+        "description": "Accepted percentage of inspected drawers missing labels; integer decimal string without percent sign if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "original_published_percent",
+        "description": "Percentage printed in the original publication su_e03_a; integer decimal string without percent sign."
+      },
+      {
+        "id": "missing_label_count",
+        "description": "Accepted number of drawers missing labels; integer decimal string."
+      },
+      {
+        "id": "accepted_denominator",
+        "description": "Accepted number of inspected drawers used for the rate; integer decimal string if established, otherwise exact literal UNKNOWN."
+      },
+      {
+        "id": "rate_status",
+        "description": "Exact enum: PROVISIONAL or WITHDRAWN."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Date of the drawer inspection; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_percent",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "original_published_percent",
+          "source_ids": [
+            "su_e03_a"
+          ],
+          "value": "25"
+        },
+        {
+          "field": "missing_label_count",
+          "source_ids": [
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "accepted_denominator",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "UNKNOWN"
+        },
+        {
+          "field": "rate_status",
+          "source_ids": [
+            "su_e03_d"
+          ],
+          "value": "WITHDRAWN"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_e03_a",
+            "su_e03_b",
+            "su_e03_d"
+          ],
+          "value": "2031-03-17"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-047"
+  },
+  {
+    "task": "ca_e04",
+    "documents": [
+      {
+        "id": "ca_e04_a",
+        "text": "2031-04-24. Signed complete Garden vault inspection: 24 marked objects out of 60 inspected on 2031-04-23. This is the accepted full-inspection result."
+      },
+      {
+        "id": "ca_e04_b",
+        "text": "2031-04-25. Record contract: canonical and downstream marked counts cover all 60 objects in the accepted Garden vault inspection. The summary percentage is marked count divided by 60 times 100."
+      },
+      {
+        "id": "ca_e04_c",
+        "text": "2031-04-25. Archive note: an earlier unfinished draft omitted the final tray. It cannot replace the signed complete inspection in ca_e04_a."
+      },
+      {
+        "id": "ca_e04_d",
+        "text": "2031-04-28. Catalog description of the recovered unfinished draft: it lists 23 marked objects out of 55 in the trays processed before the final tray. This is the incomplete draft described by ca_e04_c; it is not a correction to the accepted full-inspection result of 24 out of 60."
+      }
+    ],
+    "question": "Reconcile the canonical Garden vault record and its downstream summary with the accepted complete inspection. Preserve already-correct fields when later material describes a partial draft. Both surfaces must represent the full inspection.",
+    "fields": [
+      {
+        "id": "canonical_marked_count",
+        "description": "Marked-object count on the canonical full-inspection record; integer decimal string."
+      },
+      {
+        "id": "summary_marked_count",
+        "description": "Marked-object count on the downstream full-inspection summary; integer decimal string."
+      },
+      {
+        "id": "summary_marked_percent",
+        "description": "Full-inspection marked-object percentage; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Full-inspection sample size; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal GARDEN_VAULT_OBJECTS."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Full-inspection date; exact YYYY-MM-DD."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_count",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "24"
+        },
+        {
+          "field": "summary_marked_percent",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b",
+            "ca_e04_d"
+          ],
+          "value": "60"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_e04_a",
+            "ca_e04_b"
+          ],
+          "value": "GARDEN_VAULT_OBJECTS"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "ca_e04_a"
+          ],
+          "value": "2031-04-23"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-048"
+  }
+]

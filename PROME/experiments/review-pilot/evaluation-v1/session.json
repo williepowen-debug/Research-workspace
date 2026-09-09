@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-09-09T01:59:38.607411+00:00",
+  "settings": {
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "cli_version": "0.153.4",
+    "timeout_seconds": 90,
+    "stop_before_next_turn_tokens": 60000,
+    "random_seed": 20260908,
+    "actual_charges": "UNAVAILABLE: authenticated subscription CLI",
+    "human_validation": "PENDING",
+    "variant": "fixed-three-turn feasibility; soft inter-turn token stop, not hard-cap experiment"
+  },
+  "phase": "evaluation",
+  "automatic_retries": 0
+}
