@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py", line 736, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py", line 732, in main
+    return run(args)
+           ^^^^^^^^^
+  File "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py", line 465, in run
+    spot = args.spot if args.spot is not None else fetch_spot(ticker)
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/AGENTS/TERRY/scripts/chain_fetch.py", line 132, in fetch_spot
+    return float(info["lastPrice"])
+                 ~~~~^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/scrapers/quote.py", line 111, in __getitem__
+    return getattr(self, k)
+           ^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/scrapers/quote.py", line 248, in last_price
+    prices = self._get_1y_prices()
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/scrapers/quote.py", line 130, in _get_1y_prices
+    self._prices_1y = self._tkr.history(period="1y", auto_adjust=False, keepna=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/base.py", line 129, in history
+    return self._lazy_load_price_history().history(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/utils.py", line 95, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/willi/Research-workspace/.venv/lib/python3.12/site-packages/yfinance/scrapers/history.py", line 224, in history
+    if data['chart']['result'] is None:
+       ~~~~^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

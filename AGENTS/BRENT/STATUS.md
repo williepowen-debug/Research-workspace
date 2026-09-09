@@ -1,17 +1,19 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-09 09:58 ET — market quotes/curve only.** Futures quote times 09:46–09:49 ET, equities 09:57–09:59 ET; Yahoo vendor observations, not exchange-authenticated settlements. Weekly physical data remain August 28; option marks remain September 2 and broker receipt UNKNOWN. [Morning capture](research/2026-09-09_morning/REPORT.md). September 8 source research and September 6/7 weekly grades retain their dates.
+**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28; STEO remains August 11 at the 10:36 ET check. Broker execution receipt UNKNOWN. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 9 morning market catch-up
+## September 9 approved review — before STEO publication
 
-[CONF Yahoo capture 09:58:57 ET] November Brent BZX26 100.67 (+2.81%); October WTI CLV26 95.79 (+2.97%); USO 148.63 (+1.78%); XLE 65.535 (+1.18%). Futures observations about 10 minutes delayed; percentages versus September 8 same-instrument vendor daily closes. Brent Nov–Jan +7.54/bbl versus prior +6.62: indicative backwardation wider by 0.92, legs up to 166 seconds apart. November WTI−Brent −8.14. [Full prices, source times, product spreads and limits](research/2026-09-09_morning/REPORT.md).
+EIA September 7 retail: gasoline **4.157/gal (+8.6c)**, diesel **5.967 (+36.8c)**; all five regions higher. HTML/full-history workbooks agree. Matched November indicative ULSD−WTI **97.9358/bbl (+2.5068)** while gasoline−WTI **35.2844 (−3.2682)**. Product pressure strengthens; refinery/logistics contribution plausible, current aggregate loss unquantified. September 8–9 attacks cannot explain September 7 pump observations. Last weekly Cushing/distillate builds remain counterevidence, predating Edouard.
 
-Prompt supply-risk premium is bid; no fresh capacity-loss, settlement-counter or durable-price-floor inference. v5.8/WQ-189/192 STAND DOWN unchanged. Physical observations and source gaps retain prior vintages; XLE receipt still unknown. [Startup checks](research/2026-09-09_boot.md): eight OK, instrument WARNINGS, no unreceipted named correction; OSPREY source follow-up deferred.
+Earlier named-contract capture: BZX26 **100.67**, CLV26 **95.79**, USO **148.63**, XLE **65.535**; Brent Nov–Jan **+7.54** vs **+6.62** prior vendor bars. [Timestamps and limits](research/2026-09-09_morning/REPORT.md). New delayed option marks and corrected holding mirror live in [TRADE](TRADE.md); XLE receipt pending.
+
+August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4**, with projected supply recovery; OPEC surplus **0.020 mb/d both quarters**. September issue pending noon–12:15 ET. WPSR worksheet prepared for September 10 noon/later-file batch. BRT-29: Ryanair September 2 cut outside M window; Norse's August report does not establish a distinct new post-baseline decision. Three further eligible carriers and BRT-12 historical construction/upstream credit remain unestablished. v5.8/WQ-189/192 STAND DOWN unchanged. [Integrated evidence and exact remaining work](research/2026-09-09_squeeze-review/REPORT.md).
 
 ## September 8 workbook reconciliation
 
@@ -143,7 +145,7 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
 | **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
-| **Wed Sep 9** | EIA retail gasoline/diesel — September 7 observation, holiday release ~10:00 ET | 🟠 |
+| **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
 | **Wed Sep 9** | EIA September STEO — scheduled noon–12:15 ET | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |

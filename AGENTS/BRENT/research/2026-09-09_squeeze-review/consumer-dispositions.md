@@ -1,0 +1,9 @@
+# September 9 consumer-check dispositions
+
+Retail 4.071→4.157: own red hits are dated raw boot captures and BRT-29's historical August 31 premise observation. Preserve them; changing a historical observation would corrupt the six-print grade. Runtime row 4 and STATUS updated. External retail scan has zero certified-stale; candidate hits include unrelated bond yields.
+
+USO 35→37: corrected live CLAUDE, TRADE and BS-02 obligation inventory. Other own red hits are dated historical reviews, mail logs, archived/frozen research, the August 21 scaffold analysis, the birth-error account in MEMORY, or the retired registry-row rationale. They describe their historical quantity rather than current holdings. No wholesale replacement of 35, dates, IDs, historical positions or thresholds.
+
+External: TERRY's USO-SHARES_named-exit-condition_2026-08-23.md still uses 35 in its unratified scaffold title/position/examples; setup ID TRY-EXIT-USO35 is an identifier, not a current measurement. TERRY's newer October-call owner card already carries 37, as do PROME's September 3/9 broker mirrors. Record the proposal-quantity mismatch for any later ratification; do not edit the owner card, change its letter or treat it as approved. This is listed in NEXUS's TERRY/PROME row. No outbound packet sent in this research pass.
+
+Other cross-agent red hits reviewed are dated TERRY trade-book events/expired-arm examples, DAEDALUS September 7 structural anatomy/August reviews/render samples/test fixtures, WALTER delivery log, HENRY historical ledger, and dated PROME proposals/research. The tool's red classification does not override explicit dates or convert those records into live positions. Raw scan receipts retained beside this note. The scan also matches bare 35 in unrelated metrics; no action on unrelated/candidate hits.

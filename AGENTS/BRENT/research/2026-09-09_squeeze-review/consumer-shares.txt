@@ -1,0 +1,82 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 35 → current 37
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (25)
+        AGENTS/TERRY/TRADE_BOOK.md:29  [35]
+           | **2026-09-01** | **TRY-MGMT-USO135C — RISK_RULES #20 MANAGEMENT-ONLY write-up for the HELD `USO Oct-16 $135C ×2`** (bought 8/03 @ $7.11 = 
+        AGENTS/DAEDALUS/profiles/BRENT.md:18  [35]
+           | `TRADE.md` (897 ln) | header (two-clock stamp added 9/7 live) · CURRENT STANCE v5.0 · POSITIONS (USO 35 sh · USO Oct-16 135C ×2 · USO Sep-
+        AGENTS/DAEDALUS/upgrades/BRENT_STRUCTURAL_REVIEW_2026-08-17.md:22  [35]
+           | **9** | `thesis/THESIS.md` — EXIT PROTOCOL & POSITION VIEW | **The thesis's falsification and position sections are ~2 months behind the t
+        AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md:19  [35]
+           | 4 | `TRADE.md:3` | **The 7/28 headline defect has RECURRED in the same file and the same field.** Header: `**Updated:** 2026-08-10 Mon ~18
+        AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md:35  [35]
+           | **PENDING-row guard / position state** | ✅ Zero PENDING/⏳ rows live. Positions **agree across all three homes** — CLAUDE.md:174 / STATUS:6
+        AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md:16  [35]
+           **4. DESKS.** Waves 3 + 4 closed out on their own protocols (ORCH_LOG rows carry shas + brief-defect scores; 9/2 EVE: 12 desks). **SAM re-pi
+        AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md:44  [35]
+           ★ hand-annotation line (editorial, outside markers): **THU 9/3:** claims 08:30 + ISM Svs 10:00 → LABOR re-ping · SAM 30Y grade (running) · B
+        AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BRENT.md:18  [35]
+           | `TRADE.md` (897 ln) | header (two-clock stamp added 9/7 live) · CURRENT STANCE v5.0 · POSITIONS (USO 35 sh · USO Oct-16 135C ×2 · USO Sep-
+        AGENTS/WALTER/routed/delivery_log.tsv:1689  [35]
+           2026-08-18T14:0xZ	SIG-W-20260818-002	TERRY	action	claude-code	PRIORITY	AGENTS/TERRY/inbox/WALTER/SIG-W-20260818-002-four-instruments-give-0-
+        AGENTS/HENRY/workbook/KB.tsv:65  [35]
+           ML-HEN-091	2026-03-09	MAR9-BATCH	VIX	VOL	VIX 23.61→29.5 on Mar 9 futures open — coiled spring partially sprung	S&P futures -1.9%, Dow -1,100
+        AGENTS/TERRY/setups/INDEX.md:32  [35]
+           | **TRY-BRENT-USOARM** | 🔴 **DEAD (terminal) 2026-08-13 — ARM EXPIRED UNFIRED on day 20 of 20, Will-ruled let-expire in session.** The move 
+        AGENTS/TERRY/setups/BRENT_uso-convex-arm_2026-08-04.md:124  [35]
+           - **Concentration — N_eff = 1, and it is the sharpest thing on this card.** ~~The book owns this view **four** ways once this is added: **US
+        AGENTS/TERRY/setups/BRENT_uso-convex-arm_2026-08-04.md:129  [35]
+           | **USO 35 units** | **$4,057.55** | $4,266.90 | ✅ (est. ~$4,200 — close) |
+        AGENTS/TERRY/setups/BRENT_uso-convex-arm_2026-08-04.md:289  [35]
+           **⇒ The narrow no longer needs the limit construction to pass. It passes outright at worst-case — 7.0pp inside the line.** Net debit at mid 
+        AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md:1  [35]
+           # EXIT-CONDITION PROPOSAL (SCAFFOLD) — USO 35 shares — named exit condition
+        AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md:2  [35]
+           **Setup ID:** `TRY-EXIT-USO35` · **Class:** EXIT-CONDITION (not an entry card; no new capital contemplated)
+        AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md:22  [35]
+           **Position:** **USO 35 shares**, basis **$121.88**. Linear, long, no expiry, no theta.
+        AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md:119  [35]
+           | **A3 · Partial or whole** | **⟨A3⟩** shares of 35 on first fire. **Recommend a partial** — 35 shares is divisible, and a partial is the sh
+        AGENTS/TERRY/setups/USO-SHARES_named-exit-condition_2026-08-23.md:151  [35]
+           - **The third:** 35 shares is a small line. **An exit rule that costs more attention than the position is worth is a bad trade in itself** —
+        PROME/proposals/2026-07-27_HEARTBEAT_REBASE_DRAFT.md:50  [35]
+           **`TRY-VIOLET-VIXCS` FILLED 7/27 ~11:35 ET:** 4× VIXW Aug-05 **20C/25C** debit spread, long 20C $1.23 / short 25C $0.53 = **net $0.70 = $287
+        PROME/proposals/2026-08-21_row58-RULED-named-exit-condition-commissioned.md:1  [35]
+           # RULING RECORD — row 58 (USO 35-share exit condition) + row 31 acknowledgment
+        PROME/proposals/2026-08-21_row58-RULED-named-exit-condition-commissioned.md:9  [35]
+           **The branch:** Will chooses a **named exit condition** for the USO 35 shares over an explicit "ride it, no rule." Basis (the row's own): #9
+        PROME/research/2026-08-03_oil-vehicle-comparison-uso-vs-bno-vs-xle.md:79  [35]
+           Vehicle selection is downstream of whether to fire at all. **Will already holds two long-oil positions** — the USO 150/165 Sep-18 call sprea
+        BOARD/SIG-W-20260819-007-the-spr-is-back-to-a-level-it-has-only-ever-been-at-while-being-filled-and-it-is-draining-6-million-barrels-a-week.md:107  [35]
+           **⇒ NOT FIRED**, consistent with `-006` earlier tonight. *(Recorded as a judgement rather than a formality: the FORGE mirror does carry live
+        BOARD/SIG-W-20260819-011-a-sixth-hormuz-reading-six-crossings-tuesday-and-the-instrument-that-said-zero-for-monday-is-the-one-the-narrative-rests-on.md:56  [35]
+           Same basis TERRY itself ruled on 8/18: **the card names the transit count BY NAME** (TERRY's own correction to this desk), so a transit inst
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (2639)
+        AGENTS/CORAL/NEXUS_BRIEF.md:54  [35]  (no unit/series context on line)
+           - **Insurance amplifier is split (both legs primary-verified 7/21):** personal/reinsurance easing hard (Citizens 278,246 PIF; −8.8% eff 7/1;
+        AGENTS/CORAL/CLUSTER_FL_BANK_LEG.md:41  [35]  (no unit/series context on line)
+           | **BKU** BankUnited — Miami Lakes ~$35B, **CRE $6.9B / 47% FL** (~$3.2B, largest FL-CRE notional), 22% MF | $50.25 | ~late Jul | C&I (curre
+        AGENTS/CORAL/CALENDAR.md:12  [35]  (no unit/series context on line)
+           | ✅🔴 Jul 23 | **Parcl MSI sustain re-check — FIRED (Will-ratified)** | **DONE 7/23:** sustain MET — 5 metros still >6.0 (Tampa 6.96/Punta Go
+        AGENTS/CORAL/STATUS_DETAIL.md:35  [35]  (no unit/series context on line)
+           | Citizens commercial / condo-assoc layer | **Commercial Lines +10.4% capped, eff on/after 7/1/26** (⚠️ +18.8% uncapped indication remains u
+        AGENTS/CORAL/FL_BANK_WATCHLIST.md:9  [35]  (no unit/series context on line)
+           **Headline (updated 8/3 — Q2 WINDOW CLOSED, 7-of-7 BENIGN):** SBCF Q2 graded **BENIGN (0-of-4)** off primary 8-K acc. 0001628280-26-050147 (
+        AGENTS/CORAL/board_log.tsv:12  [35]  (no unit/series context on line)
+           2026-07-09T17:35:00-0400	NOTICE-20260626-ENSO	noted	INBOX_WALTER	Routing-notice (not a SIG): FL-transmission climate/ENSO/hurricane lane con
+        AGENTS/CORAL/board_log.tsv:13  [35]  (no unit/series context on line)
+           2026-07-09T17:35:00-0400	SIG-W-20260626-004	acted	INBOX_WALTER	Parcl builder-MSI FL fire-sale cells (Tampa DRH7.0/Toll6.5, North Port DRH5.3
+        AGENTS/CORAL/board_log.tsv:14  [35]  (no unit/series context on line)
+           2026-07-09T17:35:00-0400	SIG-W-20260626-011	acted	INBOX_WALTER	FL ~1-in-7 of all US listings + over-represented in Parcl price-cut-breadth m
+        … +2631 more 🟠 hit(s) on [35] across 945 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (129: AEOLUS, BOND, CARL, CORAL, CREED, CRUISE, DAEDALUS, DEWEY, FALCON, HANS, HAWK, HENRY, LABOR, LIQUID, MARCO, MIDAS, NEXUS, ORACLE, OSPREY, OTTO, RED, REGINALD, SAM, SHADE, TERRY, VIOLET, VULCAN, WALTER, WATT, ZHAO, inbox)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (792)  [--show-handled to audit]
+
+  🔴 25 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

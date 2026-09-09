@@ -1,0 +1,26 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 4.071 → current 4.157
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (6)
+        AGENTS/CARL/STATUS.md:139  [4.071]  (no unit/series context on line)
+           **Nothing moved. 53/70 (76%), ninth consecutive cycle.** V2 held 4 for the third grade running — and this time on the disclosed collection p
+        AGENTS/CARL/scripts/data/GAS_TRACKER.tsv:15  [4.071]  (no unit/series context on line)
+           2026-09-01	4.095	4.605	4.987	5.633	3.942	3.638	5.703	4.071	-0.014	9	0	YELLOW
+        AGENTS/CARL/scripts/data/GAS_TRACKER.tsv:16  [4.071]  (no unit/series context on line)
+           2026-09-02	4.120	4.629	5.010	5.688	3.975	3.679	5.737	4.071	-0.014	10	0	YELLOW
+        AGENTS/CARL/scripts/data/GAS_TRACKER.tsv:17  [4.071]  (no unit/series context on line)
+           2026-09-05	4.146	4.655	5.038	5.882	3.926	3.678	5.832	4.071	-0.014	11	0	YELLOW
+        AGENTS/BOND/workbook/KB.tsv:36  [4.071]  (no unit/series context on line)
+           KB-BND-035	2026-06-05	RATES	UST_AUCTIONS	Late-May coupon auctions healthy-to-soft, no stress: 5/26 2Y BTC 2.64 (HY 4.071, ind 57.6% comp), 5
+        AGENTS/BOND/monitors/AUCTION_HEALTH.md:47  [4.071]  (no unit/series context on line)
+           | 2026-05-26 | 2Y | $69B | 2.64 | 4.071% | 57.6 | 30.1 | 12.3 | 🟡 | FiscalData | BTC 28th-pctile of 81 2Y since 2023 — below-median, not "so
+     🟡 in MAIL, point-in-time — usually no action (1: CARL)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🟠 6 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

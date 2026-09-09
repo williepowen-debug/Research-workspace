@@ -1,0 +1,23 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 264 files under AGENTS/BRENT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 4.071 → current 4.157
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/BRENT/audits/2026-09-08_stale-intel/boot-network.txt:12  [4.071]
+           🟠 GASREGW                 4.071  (level 4.000, +1.8%) (2026-08-31)
+        AGENTS/BRENT/research/2026-09-08_batch2/boot-network.txt:12  [4.071]
+           🟠 GASREGW                 4.071  (level 4.000, +1.8%) (2026-08-31)
+        AGENTS/BRENT/research/2026-09-09_boot.txt:28  [4.071]
+           🟠 GASREGW                 4.071  (level 4.000, +1.8%) (2026-08-31)
+        AGENTS/BRENT/thesis/PREDICTIONS.tsv:42  [4.071]
+           BRT-29	2026-07-21	Closure-regime demand destruction, aviation-led (successor to BRT-08/09 under the NEW regime; pre-registered BEFORE the fi
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/BRENT/research/2026-09-09_boot.txt:76  [4.071]  (no unit/series context on line)
+           US Retail Gas                   4.071  as of 2026-08-31  (prior 4.085, -0.01)
+
+  🔴 4 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

@@ -1,5 +1,10 @@
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
+## 2026-09-09 — approved review before STEO (v5.8 / grades unchanged)
+
+Old view: September 7 retail unavailable; August STEO and August 28 physical data carried. New evidence: gasoline 4.157 (+0.086), diesel 5.967 (+0.368), all five PADDs higher; indicative November product margins diverge. Supports fuel-cost pressure, with no quantified new aggregate loss or phase/calibration change. August STEO baseline and WPSR worksheet saved; future releases pending. BRT-29 notes add Ryanair's out-of-window September 2 cut and Norse's unresolved new-event attribution; first nine TSV fields unchanged. BRT-12 historical construction/upstream OAS remains missing. [Integrated report](../research/2026-09-09_squeeze-review/REPORT.md).
+
+
 ## 2026-09-08 — batch 2 evidence follow-up, no version or grade change
 
 Five unresolved airline candidates → bounded dated dispositions: one supported AF-KLM group event, no established three-carrier count; April Lufthansa cuts and historical Air NZ narrative cannot be counted as new August decisions. BRT-12 missing history → 124 matched November vendor-bar observations as a diagnostic, with original construction/upstream credit still missing. April build plan’s claimed energy-series identifier → FRED-confirmed nonexistent; runtime already correctly labels broad HY. Notes readers updated; canonical first nine prediction fields unchanged. No thesis probability, trade rule, threshold or date changed. [Sources and reproducibility](../research/2026-09-08_batch2/REPORT.md).

@@ -1,0 +1,66 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 264 files under AGENTS/BRENT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 35 → current 37
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (17)
+        AGENTS/BRENT/MEMORY.md:16  [35]
+           > **`USO 2 shares`** is the figure that sat in the `TRADE.md` POSITIONS table until **2026-08-04**, when the real holding turned out to be *
+        AGENTS/BRENT/board_log.tsv:123  [35]
+           2026-08-03 10:36:00 EDT	2026-08-02_from-PROME_uso-spread-account-RESOLVED-robinhood-will-confirmed	noted	INBOX	NOTED - closes the ACCOUNT ha
+        AGENTS/BRENT/board_log.tsv:127  [35]
+           2026-08-03 15:40:00 EDT	2026-08-03_from-PROME_leg-b-routed-late-and-my-MARGINAL-verdict-was-wrong-it-passes-on-liquid-strikes	acted	INBOX	🔴 
+        AGENTS/BRENT/board_log.tsv:144  [35]
+           2026-08-07 19:35:00 EDT	MSG-PROME-20260803-003__ACTION__vehicle-check-uso-holds-but-your-brent-to-uso-translation-is-static-and-the-basis-is
+        AGENTS/BRENT/board_log.tsv:234  [35]
+           2026-08-20 20:2x EDT	2026-08-18_from-TERRY_WILL-RULED-HOLD-on-USO	acted	INBOX	Will, verbatim: 'we will hold USO.' No trim, no hedge, no size
+        AGENTS/BRENT/board_log.tsv:237  [35]
+           2026-08-21T11:5x	2026-08-21_from-PROME_row58-thesis-input-ask-USO-shares-exit-observable	deferred	INBOX	Row 58 RULED (Will in-session): name
+        AGENTS/BRENT/research/PHASE2_SHORT_PLAYBOOK.md:7  [35]
+           > ⛔ **ITS CENTRAL RECOMMENDATION IS SUPERSEDED AND POINTS THE WRONG WAY FOR THE CURRENT BOOK.** This playbook builds the case for **USO PUTS
+        AGENTS/BRENT/setups/2026-08-04_DEPLOY-GATE-v3-fillability-respec-PROPOSAL.md:129  [35]
+           - ★ **And TERRY's 13:35 finding binds here:** **a firing gate carries ZERO thesis information.** Leg (a) fires because OVX decayed; leg (b) 
+        AGENTS/BRENT/setups/2026-08-04_DEPLOY-PACKET-convex-arm-STAGED-PRECLOSE.md:107  [35]
+           - **★ N_eff = 1.** USO 35 shares (~$4,076 at $116.45), the Sep-18 150/165 spread, STNG, **and this**. All four die on one event. **Nobody sh
+        AGENTS/BRENT/setups/2026-08-04_DEPLOY-PACKET-convex-arm-v3-GATE-LEGS-a-a2-MET.md:129  [35]
+           - **★ N_eff = 1.** USO **35 shares (~$4,049 at $115.68)**, the Sep-18 150/165 spread, STNG, **and this**. **All four die on one event — a ge
+        AGENTS/BRENT/setups/2026-08-13_STEO-vintage-ladder-P1.md:67  [35]
+           A no-absorber window running **through Q1-2027** with a **repeatedly deferred** start supports **holding longer-dated oil exposure** — the *
+        AGENTS/BRENT/setups/2026-08-21_row58-shares-leg-thesis-break-observable.md:1  [35]
+           # ROW 58 — THE THESIS-BREAK OBSERVABLE FOR A LINEAR SHARES LEG (USO 35 sh)
+        AGENTS/BRENT/setups/2026-08-21_row58-shares-leg-thesis-break-observable.md:16  [35]
+           **35 USO shares are flat-price length.** The `⚑ PRIMARY FORWARD EXPRESSION (v5.0)` names the sanctioned expression as *"defined-risk long-oi
+        AGENTS/BRENT/setups/2026-08-21_uso-135c-roll-card.md:190  [35]
+           1. **🔴 It concentrates an already-concentrated book.** `N_eff = 1`; the forward oil sleeve is **95.3% in two USO lines**, and **74.7% of it 
+        AGENTS/BRENT/setups/2026-09-07_frame-breaker-adjudication-kylo.md:98  [35]
+           | Existing energy legs | **4** — USO 35 sh · USO Oct-16 135C ×2 · USO Sep-18 150/165 ×1 · XLE Sep-30 65C ×2 |
+        AGENTS/BRENT/workbook/REGISTRY.tsv:95  [35]
+           MKT-USO-BELOW-80	threshold	retired	yf	USO		below	80	risk	USO approaching drawdown watch	yf:USO	daily		4	thesis/THESIS.md §KEY THRESHOLDS	202
+        AGENTS/BRENT/workbook/TRADE_OBLIGATIONS.md:57  [35]
+           | BS-02 | USO shares 35, no scaffold ratification, LIVE | TRADE Positions; review | Before-image current position mirror retained exactly |
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (167)
+        AGENTS/BRENT/LESSONS.md:35  [35]  (no unit/series context on line)
+           15. **Bear put SPREADS not naked puts at high IV; 60-90 DTE / 10-15% OTM / 3:1.** Use spreads rather than naked options for the high-IV stru
+        AGENTS/BRENT/RULINGS.md:90  [35]  (no unit/series context on line)
+           **⚠️ LEFT UNRULED ON PURPOSE, NOT DROPPED:** the **COT-band spec gap** (does the fuller-size branch **revert** on un-fire, or is it latched?
+        AGENTS/BRENT/STATUS.md:68  [35]  (no unit/series context on line)
+           | **📊 **RETAINED — `COT-FUEL-35B` BAND + LADDER (frozen spec).** ⏱ **as-of `2026-09-01` vintage #4** · ✓ **reconciled `2026-09-07`** against
+        AGENTS/BRENT/audits/2026-09-08_stale-intel/boot-restricted.txt:118  [35]  (no unit/series context on line)
+           🔴 COT-FUEL-35B [threshold] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure 
+        AGENTS/BRENT/board_log.tsv:73  [35]  (no unit/series context on line)
+           2026-07-28 21:45:00 EDT	SIG-W-20260728-005	noted	INBOX_WALTER	Rhine at KAUB ~40cm mid-July, ~35cm Monday, ~20cm FORECAST FRIDAY - in JULY. 2
+        AGENTS/BRENT/board_log.tsv:104  [35]  (no unit/series context on line)
+           2026-07-30 19:08:00 EDT	2026-07-30_from-TERRY_diesel-packet-consumed-gate-owner-proposed-and-the-wait-is-3-weeks-not-1-day	acted	INBOX	★ TER
+        AGENTS/BRENT/board_log.tsv:117  [35]  (no unit/series context on line)
+           2026-08-03 10:35:00 EDT	SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock	acted	INBOX_WALTER	ACTED = this is the decisive
+        AGENTS/BRENT/board_log.tsv:118  [35]  (no unit/series context on line)
+           2026-08-03 10:35:00 EDT	SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test	acted	INBOX_WALTER	ACTED = inputs consumed into my frozen b
+        … +159 more 🟠 hit(s) on [35] across 64 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (32: BRENT)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (83)  [--show-handled to audit]
+
+  🔴 17 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

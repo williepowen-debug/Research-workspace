@@ -54,12 +54,12 @@ Source line ranges below refer only to the archived before-image, never to a shi
 |---|---|---|---|
 | BE-01b | Alternate no-deal transit trigger, UNRESOLVED | Entry spec BE-01b, before proposal | Original line 499 OR branch; no repaired live measurement path established |
 | BS-01 | Current stance / frame-breaker stand down, LIVE | TRADE Current stance; all decision routes | Current before-image lines 5–8; WQ-189/192 |
-| BS-02 | USO shares 35, no scaffold ratification, LIVE | TRADE Positions; review | Before-image current position mirror retained exactly |
+| BS-02 | USO shares 37, no scaffold ratification, LIVE | TRADE Positions; review | September 9 correction from newer September 3/9 broker mirrors; research/2026-09-09_squeeze-review/REPORT.md |
 | BS-03 | October 135C ×1, sale-price UNKNOWN/no re-ask, A/B/C and NO ROLL, LIVE | TRADE Positions; review | WQ-145/167/168, before-image current mirror |
 | BS-04 | September 150/165 spread ×1 HOLD to expiry, LIVE | TRADE Positions; review | WQ-168 §3, before-image current mirror |
 | BS-05 | XLE ×2 selected September 9 open exit, receipt PENDING, LIVE | TRADE Positions and execution log; step 6c + review | WQ-168 §7, before-image current mirror; no broker action inferred |
 | BS-06 | Reaffirm pending rows; execution evidence differs from a handoff, LIVE | CLAUDE step 6c → TRADE execution log | July 27 hygiene adoption, original lines 820–822; existing guard retained |
-| BS-07 | Option observation date separate from rule update, LIVE | TRADE header → existing ledger freshness reader | Original two-clock header retained exactly; no option mark refreshed |
+| BS-07 | Option observation date separate from rule update, LIVE | TRADE header → existing ledger freshness reader | Two-clock distinction retained; September 9 delayed quote capture in TRADE evidence, not a broker mark |
 | BH-06a | WAR-RISK-HALVES RETIRED | Holding spec BH-06, before proposal/review | REGISTRY retirement August 7; not the July 31 Worldscale retirement |
 | BH-06b | STAGE-A-AIS RETIRED | Holding spec BH-06, before proposal/review | REGISTRY August 7, feed did not exist |
 | BH-06c | KILL-LEG2-TRANSIT RETIRED; JWC successor prompt-only LIVE | Holding spec BH-06, before proposal/review | Will August 21 ruling linked there; instrument failure, premise not refuted |

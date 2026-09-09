@@ -1,0 +1,140 @@
+[
+  {
+    "file": "retail.html",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/",
+    "retrieved_at": "2026-09-09T14:26:46.198870+00:00",
+    "status": 200,
+    "bytes": 114336,
+    "sha256": "3f005583336b5e4ff1c2d3bfab387b03840f41652b7ef1cf7f83dbe53a558a13",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "file": "retail-gas.xls",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/xls/pswrgvwall.xls",
+    "retrieved_at": "2026-09-09T14:26:46.199431+00:00",
+    "status": 200,
+    "bytes": 7482368,
+    "sha256": "dca1dc6dbea08f517d310552f0dffd4e87579cc56d5dcd69beb862d66504dcd5",
+    "content_type": "application/vnd.ms-excel"
+  },
+  {
+    "file": "retail-diesel.xls",
+    "url": "https://www.eia.gov/petroleum/gasdiesel/xls/psw18vwall.xls",
+    "retrieved_at": "2026-09-09T14:26:46.199824+00:00",
+    "status": 200,
+    "bytes": 761856,
+    "sha256": "35241759b02e79ac4705c79163ea22cfec31e49935e0eedbd69eb2bbfbbab9a3",
+    "content_type": "application/vnd.ms-excel"
+  },
+  {
+    "file": "aug26_base.xlsx",
+    "url": "https://www.eia.gov/outlooks/steo/archives/aug26_base.xlsx",
+    "retrieved_at": "2026-09-09T14:26:46.200238+00:00",
+    "status": 200,
+    "bytes": 1096696,
+    "sha256": "2f58e3cee31c68b395bbc468673a887e5691b91bfad2c1676f2e58f5fe84b1d1",
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  {
+    "file": "steo-current.html",
+    "url": "https://www.eia.gov/outlooks/steo/",
+    "retrieved_at": "2026-09-09T14:26:46.200721+00:00",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "wpsr-current.html",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/",
+    "retrieved_at": "2026-09-09T14:26:54.526109+00:00",
+    "status": 200,
+    "bytes": 72674,
+    "sha256": "f5a31a2b8b15f0186db4d97d14f15e44dc61ad688a7f1030904c7f9b1e3debce",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "file": "wpsr-table1.xls",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/xls/wpsrsummary.xls",
+    "retrieved_at": "2026-09-09T14:26:55.440542+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "wpsr-table2.xls",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/xls/wpsr2.xls",
+    "retrieved_at": "2026-09-09T14:26:55.460996+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "cboe-USO.json",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/USO.json",
+    "retrieved_at": "2026-09-09T14:26:55.527850+00:00",
+    "status": 200,
+    "bytes": 2049730,
+    "sha256": "2432c0a1130a078d8d836c671c69c7e43d833c2f01c2f248abfb7878a76ffb7c",
+    "content_type": "application/json"
+  },
+  {
+    "file": "cboe-XLE.json",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/XLE.json",
+    "retrieved_at": "2026-09-09T14:26:55.842789+00:00",
+    "status": 200,
+    "bytes": 913882,
+    "sha256": "fb68f87c448b6198372824efc3ddb4c6e6d96f25a8fba7d285ab3380800d59f7",
+    "content_type": "application/json"
+  },
+  {
+    "file": "USO-2026-10-16-chain.json",
+    "args": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "AGENTS/TERRY/scripts/chain_fetch.py",
+      "USO",
+      "2026-10-16",
+      "--type",
+      "call",
+      "--legs",
+      "135",
+      "--json",
+      "--no-cache"
+    ],
+    "retrieved_at": "2026-09-09T14:26:56.178354+00:00",
+    "rc": 0,
+    "stdout_bytes": 17298,
+    "stderr_bytes": 0
+  },
+  {
+    "file": "USO-2026-09-18-chain.json",
+    "args": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "AGENTS/TERRY/scripts/chain_fetch.py",
+      "USO",
+      "2026-09-18",
+      "--type",
+      "call",
+      "--legs",
+      "150,165",
+      "--json",
+      "--no-cache"
+    ],
+    "retrieved_at": "2026-09-09T14:26:57.688769+00:00",
+    "rc": 0,
+    "stdout_bytes": 18384,
+    "stderr_bytes": 0
+  },
+  {
+    "file": "XLE-2026-09-30-chain.json",
+    "args": [
+      "/home/willi/Research-workspace/.venv/bin/python3",
+      "AGENTS/TERRY/scripts/chain_fetch.py",
+      "XLE",
+      "2026-09-30",
+      "--type",
+      "call",
+      "--legs",
+      "65",
+      "--json",
+      "--no-cache"
+    ],
+    "retrieved_at": "2026-09-09T14:26:59.654473+00:00",
+    "rc": 0,
+    "stdout_bytes": 2885,
+    "stderr_bytes": 0
+  }
+]

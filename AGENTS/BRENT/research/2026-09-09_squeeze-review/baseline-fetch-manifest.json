@@ -1,0 +1,50 @@
+[
+  {
+    "file": "wpsr-table1.csv",
+    "url": "https://ir.eia.gov/wpsr/table1.csv",
+    "retrieved_at": "2026-09-09T14:36:53.817801+00:00",
+    "status": 200,
+    "bytes": 6593,
+    "sha256": "f19e0a9d44cb7e2594a2fee1c2a7fc429b2e9d79c4471bbaab18297202f2402a"
+  },
+  {
+    "file": "wpsr-table2.csv",
+    "url": "https://ir.eia.gov/wpsr/table2.csv",
+    "retrieved_at": "2026-09-09T14:36:53.818435+00:00",
+    "status": 200,
+    "bytes": 8362,
+    "sha256": "ca5a9526eeb063ee65cffbad1ba913b575b9a5ded4ccb887265db186f042f89b"
+  },
+  {
+    "file": "wpsr-table9.csv",
+    "url": "https://ir.eia.gov/wpsr/table9.csv",
+    "retrieved_at": "2026-09-09T14:36:53.818920+00:00",
+    "status": 200,
+    "bytes": 46844,
+    "sha256": "732378304a986fe6c44c680ac48fcc268005c7a8ef3fe00ff8e686d55bdddf1e"
+  },
+  {
+    "file": "steo-publication-check.html",
+    "url": "https://www.eia.gov/outlooks/steo/",
+    "retrieved_at": "2026-09-09T14:36:53.819383+00:00",
+    "status": 200,
+    "bytes": 65998,
+    "sha256": "b94dc3e8c85954ba7d348c8f22789a9a3a2344ffa62c4e2e0fb14c917e36e76a"
+  },
+  {
+    "file": "wpsr-schedule.html",
+    "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+    "retrieved_at": "2026-09-09T14:36:54.162699+00:00",
+    "status": 200,
+    "bytes": 52283,
+    "sha256": "60d239a4943a2284b48c008510385b57953ac3fd2584b8453459189672c4fa91"
+  },
+  {
+    "file": "moran-sep2.html",
+    "url": "https://www.moranshipping.com/news/bulletins/port-update-port-arthur-tx-slash-sabine-slash-neches-2026-09-02",
+    "retrieved_at": "2026-09-09T14:36:54.193426+00:00",
+    "status": 200,
+    "bytes": 159859,
+    "sha256": "f95d655285e62cdfecd807c38ac9f2038dfbb5304b090a3e6d90578d449fc6dd"
+  }
+]

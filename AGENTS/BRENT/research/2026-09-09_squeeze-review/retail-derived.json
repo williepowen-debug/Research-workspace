@@ -1,0 +1,162 @@
+{
+  "gasoline": [
+    {
+      "region": "NUS",
+      "series_id": "EMM_EPMR_PTE_NUS_DPG",
+      "label": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 4.157,
+      "prior_date": "2026-08-31",
+      "prior_value": 4.071,
+      "change": 0.086,
+      "change_pct": 2.112503070498649,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 21
+    },
+    {
+      "region": "R10",
+      "series_id": "EMM_EPMR_PTE_R10_DPG",
+      "label": "Weekly East Coast Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 4.031,
+      "prior_date": "2026-08-31",
+      "prior_value": 3.937,
+      "change": 0.094,
+      "change_pct": 2.3876047752095504,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 22
+    },
+    {
+      "region": "R20",
+      "series_id": "EMM_EPMR_PTE_R20_DPG",
+      "label": "Weekly Midwest Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 3.894,
+      "prior_date": "2026-08-31",
+      "prior_value": 3.847,
+      "change": 0.047,
+      "change_pct": 1.221731219131791,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 95
+    },
+    {
+      "region": "R30",
+      "series_id": "EMM_EPMR_PTE_R30_DPG",
+      "label": "Weekly Gulf Coast Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 3.685,
+      "prior_date": "2026-08-31",
+      "prior_value": 3.618,
+      "change": 0.067,
+      "change_pct": 1.8518518518518519,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 61
+    },
+    {
+      "region": "R40",
+      "series_id": "EMM_EPMR_PTE_R40_DPG",
+      "label": "Weekly Rocky Mountain Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 4.314,
+      "prior_date": "2026-08-31",
+      "prior_value": 4.266,
+      "change": 0.048,
+      "change_pct": 1.1251758087201125,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 79
+    },
+    {
+      "region": "R50",
+      "series_id": "EMM_EPMR_PTE_R50_DPG",
+      "label": "Weekly West Coast Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.362,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.206,
+      "change": 0.156,
+      "change_pct": 2.9965424510180556,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 12
+    }
+  ],
+  "diesel": [
+    {
+      "region": "NUS",
+      "series_id": "EMD_EPD2D_PTE_NUS_DPG",
+      "label": "Weekly U.S. No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.967,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.599,
+      "change": 0.368,
+      "change_pct": 6.572602250401856,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 4
+    },
+    {
+      "region": "R10",
+      "series_id": "EMD_EPD2D_PTE_R10_DPG",
+      "label": "Weekly East Coast No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.744,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.448,
+      "change": 0.296,
+      "change_pct": 5.4331864904552125,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 7
+    },
+    {
+      "region": "R20",
+      "series_id": "EMD_EPD2D_PTE_R20_DPG",
+      "label": "Weekly Midwest No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.946,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.571,
+      "change": 0.375,
+      "change_pct": 6.731287022078622,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 5
+    },
+    {
+      "region": "R30",
+      "series_id": "EMD_EPD2D_PTE_R30_DPG",
+      "label": "Weekly Gulf Coast No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.754,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.36,
+      "change": 0.394,
+      "change_pct": 7.3507462686567155,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 4
+    },
+    {
+      "region": "R40",
+      "series_id": "EMD_EPD2D_PTE_R40_DPG",
+      "label": "Weekly Rocky Mountain No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 5.805,
+      "prior_date": "2026-08-31",
+      "prior_value": 5.555,
+      "change": 0.25,
+      "change_pct": 4.5004500450045,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 8
+    },
+    {
+      "region": "R50",
+      "series_id": "EMD_EPD2D_PTE_R50_DPG",
+      "label": "Weekly West Coast No 2 Diesel Retail Prices  (Dollars per Gallon)",
+      "date": "2026-09-07",
+      "value": 6.987,
+      "prior_date": "2026-08-31",
+      "prior_value": 6.497,
+      "change": 0.49,
+      "change_pct": 7.541942434969986,
+      "previous_weekly_changes_since_2020": 348,
+      "previous_changes_at_least_as_large": 2
+    }
+  ]
+}
