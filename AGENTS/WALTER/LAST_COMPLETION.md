@@ -6,6 +6,10 @@ Session: 2026-09-08 Tuesday; authorized Codex owner implementation under PROME. 
 
 Earlier pending-commit statements below are historical: implementation 7291317ec is on origin/master and the 33 delivery rows are reconciled. FT10 September 8 is now published: 148.86, reset to 0/4, NOT FIRED. Current boot evidence and scope limits: `outbox/2026-09-08_evening-boot.md`. This is a startup continuation; existing design decisions remain unchanged.
 
+## Approved follow-through — September8 21:11ET
+
+Will prioritizes first three next steps; older backlog approved but deferred. HAWK011/022/023 consumption verified at owner STATUS and board_log despite unmoved inbox files. SAM012 disposition not found; courtesy existing-task pointer queued (live cross-session messaging unavailable here). FALCON/BRENT next-owner sequence and required evidence table prepared in `outbox/2026-09-08_energy-and-yen-follow-through.md`. No duplicate owner sessions launched. PJM belongsWATT and23:59ET deadline is still future at check; PPI/CPI remain future releases. Foreign BRENT work dirty; local-only follow-up commit.
+
 ## Evening news continuation — Tier1 light
 
 Will requested a fleet news catch-up. Briefing: `outbox/2026-09-08_news-catchup.md`; headline audit records every166 feed item and explicitly separates body-verified evidence from held leads. Supplemental batch4/4.13 new BOARD signals011–023,42 create-only handoffs; BOARD914. Three verifier workers handled five bounded subject reports. No external messages, owner grades or trade changes. Local changes await a clean coordinated push; foreign PROME work prevents sync. Full design carry below retained.
