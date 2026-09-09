@@ -1,5 +1,7 @@
 # PROME HANDOFF
 
+**September 9 desktop boot audit:** [Outstanding-work report](reports/2026-09-09_boot-outstanding-audit.md) and [boot-gate receipt](reports/2026-09-09_boot-gate.txt). Mechanical boot PASS; PROME/DAEDALUS L4/M at the September 8 owner assessment. Five approved PROME repairs remain. OSPREY's late ruling/application record supersedes WQ196–199 pending language below; RED's August 27 Kernel interface review and re-review are delivered despite the carried OWED claim. Queue/canon reconciliation remains open. MP-0908's named temporary receipts are absent on this desktop; reconcile the original machine/session before resending. Report-only pass; no domain or market state changed.
+
 **MP-0908 live pilot checkpoint:** [Progress](reports/2026-09-08_manual-session-helper-progress.md). Existing OSPREY identified and initial native message accepted; recipient permission prompt pending. Do not resend MP-0908-INITIAL blindly. Manual parent stays open.
 
 **Purpose:** Single live continuity surface for Prome across sessions. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
