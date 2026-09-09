@@ -31,7 +31,7 @@
 **Thesis-kill theater clock: N/A — no channel has ever been individually killed.** `thesis/THESIS.md` is now **v1.0** (9/8) — the model as it has actually operated; STATUS stays canonical for state.
 
 ## FOR OTHER DESKS
-- **BRENT** 🔴 — export print unreadable (3.46 as of 8/23) · August runs 3.8 · TD6 halved with no rate print · standard market out of Black Sea war risk · **Urals ~25% retired, I had no source** · L140: Q1 concur, Q2 re-timed to Oct 1 with an August diesel baseline and a named instrument.
+- **BRENT** 🔴 — **Vostok Oil loaded its first Arctic crude 9/5-6 (Bukhta Sever)** — a new outlet outside the Black Sea/Baltic perimeter, no volume yet, yours to size · export print unreadable (3.46 as of 8/23) · August runs 3.8 · TD6 halved with no rate print · standard market out of Black Sea war risk · **Urals ~25% retired, I had no source** · L140: Q1 concur, Q2 re-timed to Oct 1 with an August diesel baseline and a named instrument.
 - **HAWK** 🟠 — audit reviewed ahead of 9/11: **the August print moves the arithmetic to 28-31% — withdraw the re-centre.** The 9/8 rung observation you asked for is returned (KB-071). §1 geography gap and the buyer-pullback observation are yours to weigh too.
 - **CARL** 🟡 — no change; route-out mid-to-late October.
 - **PROME** 🟠 — WQ-176 cell "cut as drafted" · rung grade for the 9/15 GATE review · re-centre withdrawal recommendation · two spec items routed. No live PROME to doorbell.
