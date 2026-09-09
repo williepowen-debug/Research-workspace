@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-09-09T02:31:01.597704+00:00",
+  "result": "PASS",
+  "prediction_sha256": "e43100cb26bd00f1a65880876ee3fdaa5f6197d6873586355169c923fd6a14be",
+  "prediction_bytes_unchanged": true,
+  "kb_existing_prefix_unchanged": true,
+  "new_kb_rows": "326-336, 13 columns each",
+  "vx_rows": 10,
+  "vx_bands_and_unselected_rows_unchanged": true,
+  "flow_rows": 7,
+  "flow_changes": "FLOW20 Current_Position/Notes only; registered trigger and all other rows preserved",
+  "taipower": {
+    "rows": 251,
+    "contiguous_dates": true,
+    "last_date": "2026-09-08",
+    "reserve_pct": "29.89",
+    "reserve_gw": "10.839"
+  },
+  "navy_records": 766,
+  "navy_operational_pdf": "NOT_RETRIEVED; HTTP200 HTML rejected",
+  "eia_baseline": {
+    "vintage": "August 2026",
+    "year": 2027,
+    "title": "U.S. Energy Information Administration  |  Short-Term Energy Outlook  - August 2026",
+    "workbook_sha256": "2f58e3cee31c68b395bbc468673a887e5691b91bfad2c1676f2e58f5fe84b1d1",
+    "sheet": "3dtab",
+    "series": {
+      "cops_opec": {
+        "monthly_mbd": {
+          "Jan": "0.03",
+          "Feb": "0.03",
+          "Mar": "0.03",
+          "Apr": "2.38",
+          "May": "2.38",
+          "Jun": "2.38"
+        },
+        "q2_simple_monthly_mean_mbd": "2.38"
+      },
+      "cops_opec_r05": {
+        "monthly_mbd": {
+          "Jan": "0",
+          "Feb": "0",
+          "Mar": "0",
+          "Apr": "2.35",
+          "May": "2.35",
+          "Jun": "2.35"
+        },
+        "q2_simple_monthly_mean_mbd": "2.35"
+      }
+    },
+    "verdict": "NOT_GRADED",
+    "basis": "simple mean of three monthly observations; not a day-weighted API quarter"
+  },
+  "eia_wrong_vintage_rejection": {
+    "exit_code": 2,
+    "stderr": "EXTRACTION FAILED: Expected vintage 'September 2026'; found ['U.S. Energy Information Administration  |  Short-Term Energy Outlook  - August 2026']"
+  },
+  "n6_overlap_counterexample": {
+    "opec": "2.40",
+    "me": "2.30",
+    "decay": true,
+    "extension": true,
+    "original_rule_preserved": true
+  },
+  "calendar": {
+    "original_window_days": 42,
+    "successor_final_event_observation_days": 45
+  },
+  "source_manifest_hashes": "all six match",
+  "inventory_added_paths": [
+    "AGENTS/HAWK/audits/2026-09-08_HAW-19_data-feasibility.md",
+    "AGENTS/HAWK/audits/2026-09-08_next-steps-1-3.md",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/aug26_base.xlsx",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/august-baseline.json",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/fr-2026-17925.pdf",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/fr-china-ustr-query.json",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/manifest.json",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/navy-notices-1150907.csv",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/steo_extract.py",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/taipower-daily-2026.csv",
+    "AGENTS/HAWK/domain/sources/2026-09-08_next-steps-1-3/usitc-9903.88.15.json"
+  ],
+  "scoped_checks": {
+    "derived_fingerprints": "PASS; nine inputs/eleven edges, evidence freshness excluded",
+    "corrections": "0 unreceipted named rows",
+    "ledger_staleness": "no stale alert in scanned perimeter",
+    "claim_weekday": "six files clean",
+    "read_cap": "five detected whole-read surfaces under32550B; LESSONS rotation advisory only",
+    "consumer": "no external no-longer-risk-vector carry; own Taipower missing-value history qualified",
+    "orphan": "peer-owned dirty files excluded; no authored orphan found"
+  },
+  "limitations": [
+    "September STEO still pending",
+    "No matched licensed tracker data or imagery case inspected",
+    "Dormant fuel/shipping/crude-only/posture/legal-scope gaps remain explicit",
+    "New15% product measure future-dated, not collection evidence"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "archive_created_utc": "2026-09-09T02:25:22.897684+00:00",
+  "retrieval_session_et": "2026-09-08",
+  "scope": "Dated public source snapshots, not live feeds; no licensed tracker data included.",
+  "files": [
+    {
+      "file": "taipower-daily-2026.csv",
+      "url": "https://service.taipower.com.tw/data/opendata/apply/file/d006002/001.csv",
+      "bytes": 5326,
+      "sha256": "02184d3023751c6e5ab95c8959a63fb05e90bf9d15a9a0be76aa5d293ff0355a"
+    },
+    {
+      "file": "navy-notices-1150907.csv",
+      "url": "https://navy.mnd.gov.tw/Files/Policy/%E2%97%8F%E2%97%8F%E2%97%8F%E6%B5%B7%E8%BB%8D%E8%88%AA%E8%88%B9%E5%B8%83%E5%91%8A1150907.csv",
+      "bytes": 145037,
+      "sha256": "a90f035a893c0ffa93160847b697ba9a00eddd229fc470c2b11939a847a601e2"
+    },
+    {
+      "file": "usitc-9903.88.15.json",
+      "url": "https://hts.usitc.gov/reststop/search?keyword=9903.88.15",
+      "bytes": 1050,
+      "sha256": "8634a074f56a61cd83e1f45843631489edda0e27274f64363fb93e612746cd2e"
+    },
+    {
+      "file": "fr-china-ustr-query.json",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=China&conditions%5Bagencies%5D%5B%5D=trade-representative-office-of-united-states&conditions%5Bpublication_date%5D%5Bgte%5D=2026-08-01&conditions%5Bpublication_date%5D%5Blte%5D=2026-09-08&per_page=100&order=newest",
+      "bytes": 4277,
+      "sha256": "bc7158eefb4277b7e903d7509dc8a806141d59a21b7644da6746016241121f27"
+    },
+    {
+      "file": "fr-2026-17925.pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-02/pdf/2026-17925.pdf",
+      "bytes": 193725,
+      "sha256": "5c93e3af2df335f244ab84d8726a2c9075a1799e54e59148ae73cf2e5ffb89c7"
+    },
+    {
+      "file": "aug26_base.xlsx",
+      "url": "https://www.eia.gov/outlooks/steo/archives/aug26_base.xlsx",
+      "bytes": 1096696,
+      "sha256": "2f58e3cee31c68b395bbc468673a887e5691b91bfad2c1676f2e58f5fe84b1d1"
+    }
+  ],
+  "rejected_retrievals": [
+    {
+      "url": "https://navy.mnd.gov.tw/Files/Others/26-153(%E6%B0%91).pdf",
+      "http_status": 200,
+      "actual_content": "764-byte HTML redirect, not PDF; coordinates/exercise dates unverified"
+    },
+    {
+      "url": "https://fj.msa.gov.cn/",
+      "result": "25-second timeout both sandbox and authorized network retry; no notice read"
+    }
+  ]
+}

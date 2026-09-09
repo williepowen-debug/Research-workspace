@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-09T02:03:16.151660+00:00.** Derived from both owners' WARRISK ledgers and September8 briefs. Source dates below do not advance on regeneration. Fingerprints: `registry/derived_inputs.json`.
+**Refreshed: 2026-09-09T02:28:51.087483+00:00.** Derived from both owners' WARRISK ledgers and September8 briefs. Source dates below do not advance on regeneration. Fingerprints: `registry/derived_inputs.json`.
 
 | Leg / owner | Latest recovered premium evidence | Evidence date / age on September8 | Reading |
 |---|---|---|---|
@@ -17,3 +17,5 @@ OSPREY's September4 TD6 freight observation is newer than its August7 proxy, but
 FALCON's US-on-sanctioned-Iran-hull axis must be separated from Iran/proxy-on-non-Iranian-hull attacks. **Attacker and sanctions status do not establish the actual policy covering a hull.** GCC/corridor premiums cannot automatically price Iranian-linked exposure. JWC listings define geography, not price or insurance eligibility. New GCC port threats remain threats until executed and do not guarantee repricing.
 
 Existing premium/origin/withdrawal tests remain in `thesis/FALSIFICATION.md`; none is automatically graded from stale or differently based observations. MRPL breadth resolved August20 with zero additional refiners; a forward durability test remains unregistered. Review September11: matched broker/underwriter print, coverage basis, and owner dictionary confirmation. No live external feed is represented by the dependency checker.
+
+**Later September8 delta:** OSPREY added a Greek flag-state advisory dated July22, not September. An advisory describes precautions; it does not measure buyer withdrawal or a current insurance quote. Existing premium dates and the UNKNOWN current ratio remain unchanged.

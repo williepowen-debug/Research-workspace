@@ -68,3 +68,5 @@ Moved from `CLAUDE.md` on 2026-09-08 to keep boot instructions within the whole-
 - `design/VX_GUARDS_AND_CODIFICATION.md`: live approved Guard/Watch_Source and widened CODIF ownership contract; SCHEMA defines both VX fields. HAW20's registered four-instrument set is unchanged.
 - `design/VESSEL_COUNTING_DICTIONARY_DRAFT.md`: draft shared vocabulary, owner confirmations pending; includes HAWK's response to FALCON's attacker-axis question.
 - `proposals/2026-09-08_HAW-19_repair.md`: reviewable proposal only; no register amendment. New September8 audit JSON/Markdown and CBSA HTML follow the existing audit/source class rules.
+
+**September8 steps1–3 follow-up:** actual added-path listing reconciled with the audit/source class rules. `audits/2026-09-08_next-steps-1-3*` and `audits/2026-09-08_HAW-19_data-feasibility.md` are dated evidence; `domain/sources/2026-09-08_next-steps-1-3/` contains public snapshots, manifest, baseline extraction and `steo_extract.py` (offline, explicit-vintage input; no live monitor). Existing proposal remains a draft.

@@ -1,0 +1,32 @@
+# HAW-19 successor — data feasibility
+
+September8,2026. Assessment of the existing [proposal](../proposals/2026-09-08_HAW-19_repair.md), not a registration or retrospective score change.
+
+**Result: not ready to register.** Public documentation supports potential terminal-flow queries. Available-session evidence does not establish licensed access, a matched historical sample, a complete terminal/path universe, or a reproducible qualifying-event test. No measured base rate supports the proposed65%.
+
+| Requirement | Actual check | Result |
+|---|---|---|
+| Kpler terminal crude series | Official [Flows SDK](https://python-sdk.dev.kpler.com/resources/flows.html) documents installation filters, products, daily periods, snapshot dates and realized/forecast switches. Defaults include forecasts; realized-only is not the default. | Capability documented; authenticated access and usable observations untested. Must specify settings and verify what loading/completion date means. |
+| Vortexa same population/dates | Official [Python SDK](https://github.com/VorTECHsa/python-sdk) documents CargoMovements, loading activity, time filters and an API key. | Capability documented; no authenticated terminal sample retrieved. Installation-ID match and historical revisions unproven. |
+| Existing local route | Checked HAWK/BRENT/FALCON scripts; the matching FALCON Kharg watcher actually pulls IMF PortWatch. Its docstring warns that quiet/zero is uninformative for dark-fleet exports. No vendor-named environment configuration or enabled vendor connector found in this session. | PortWatch cannot replace either required tracker. This does not establish that the team lacks a subscription elsewhere. User asked about existing access; answer pending when assessment written. No account, demo, purchase or external request made. |
+| Path inventory / physical damage | [CPC November29,2025 operator notice](https://www.cpc.ru/EN/press/releases/2025/Pages/20251129.aspx): SPM2 significantly damaged and unusable; terminal has three SPMs; all loading stopped by harbormaster order pending lifting of the drone threat. | Concrete documentary damage case. Does not prove all paths physically disabled, a45-day terminal loss or a≥90-day restoration estimate. Component damage and temporary whole-terminal closure are different facts. |
+| Independent imagery | [Copernicus Sentinel2 documentation](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel2.html) describes optical bands at10/20/60m. | Public technical route exists. No event-matched imagery inspected here; cannot claim damaged loading hardware, submerged components or daily throughput verified. Clouds, timing, resolution and independence from tracker inputs need case-specific checks. |
+| Calibration | No complete event universe with both trackers and every proposed condition assembled. | The65% remains a subjective proposal. CPC is a documentary positive for damage, not a successful positive control for the whole letter. Owner security-only closures help classification, not numerical calibration. |
+
+## Concrete measurement contract to settle before registration
+
+1. **Universe and identity:** enumerate eligible crude-export terminals in both theaters and map operator names, Kpler installations and Vortexa locations. Enumerate loading paths and their actual pre-event operability. An unknown terminal/path universe prevents a reliable “no qualifying event” conclusion.
+2. **Minimum sample:** for one candidate run, each tracker needs28 completed baseline days plus45 consecutive observation days:73 aligned daily observations. Retain retrieval times, time zone, unit, product filters, event allocation, estimated/observed flags and snapshot/revision identity. Missing is not zero. Extra dates are needed for later candidate starts or interruptions.
+3. **Throughput definition:** cargo loading/completion/departure dates can produce lumpy daily totals. A zero departure day does not establish zero terminal throughput or lost capacity. Verify the vendor's temporal allocation before applying a45-consecutive-day loss rule. Do not quietly substitute weekly averages to make the test pass.
+4. **Baseline freeze:** “at first evaluation” leaves the delay between event and snapshot undefined. Specify the freeze deadline and revision treatment prospectively, before selecting a case by its result. Confirm whether crude excludes condensate, blends and transfers.
+5. **Tracker agreement:** the1.5× clause does not say whether it compares levels, baselines or estimated losses; ratios with zero/negative losses are undefined or misleading. Specify the compared quantity and zero/missing treatment. Both trackers must independently clear the200kb/d loss condition on the same dates; no cherry-picking.
+6. **Causal and path scope:** the all-paths/only-operable-path limb is narrower than any partial≥200kb/d capacity loss. State that deliberate scope choice. Require damage attribution and distinguish a security closure from physically disabled capacity. Name imagery acquisition, analyst and independence evidence.
+7. **Calibration and resolution:** collect a reproducible positive case and a negative/control case under the final contract, then disclose sample selection and observation failures. Neither a handful of component incidents nor the original70% supplies a terminal-event base rate. Register no number merely because the dates are now feasible.
+
+These are identified defects and proposed specifications, not enacted amendments. The proposal's October1–31 event window and observation through December14 are calendar-consistent: an October31 day1 reaches day45 on December14. That fixes the original duration mismatch, but does not establish data feasibility.
+
+## Smallest useful next experiment
+
+If existing licensed access is available, obtain matched73-day exports around CPC's November29,2025 event, plus operator path/restoration records and independently dated imagery. Use it to test population mapping, time allocation, missingness and whether the composite event is actually observable; do not presume it qualifies. Then repeat on one Gulf terminal/control window. If those data cannot be obtained, narrow/redesign the forecast before registration rather than substitute a public AIS zero or revise the old forecast.
+
+Original `thesis/PREDICTIONS.tsv` SHA256 remains `e43100cb26bd00f1a65880876ee3fdaa5f6197d6873586355169c923fd6a14be`. HAW19's original70% and September30 deadline remain in force; proposed65% is neither calibrated nor registered.

@@ -1,0 +1,33 @@
+{
+  "vintage": "August 2026",
+  "year": 2027,
+  "title": "U.S. Energy Information Administration  |  Short-Term Energy Outlook  - August 2026",
+  "workbook_sha256": "2f58e3cee31c68b395bbc468673a887e5691b91bfad2c1676f2e58f5fe84b1d1",
+  "sheet": "3dtab",
+  "series": {
+    "cops_opec": {
+      "monthly_mbd": {
+        "Jan": "0.03",
+        "Feb": "0.03",
+        "Mar": "0.03",
+        "Apr": "2.38",
+        "May": "2.38",
+        "Jun": "2.38"
+      },
+      "q2_simple_monthly_mean_mbd": "2.38"
+    },
+    "cops_opec_r05": {
+      "monthly_mbd": {
+        "Jan": "0",
+        "Feb": "0",
+        "Mar": "0",
+        "Apr": "2.35",
+        "May": "2.35",
+        "Jun": "2.35"
+      },
+      "q2_simple_monthly_mean_mbd": "2.35"
+    }
+  },
+  "verdict": "NOT_GRADED",
+  "basis": "simple mean of three monthly observations; not a day-weighted API quarter"
+}

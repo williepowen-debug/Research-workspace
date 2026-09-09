@@ -1,5 +1,5 @@
 # HAWK STATUS
-**Last Updated:** 2026-09-08 ET — approved implementation and primary-source catch-up.
+**Last Updated:** 2026-09-08 ET — approved steps1–3 researched, current readings qualified, STEO extraction prepared.
 **Role:** cross-war synthesis and dormant geopolitical book. No trade book; owner theater evidence remains OSPREY/FALCON-owned.
 
 ## Current decisions and results
@@ -10,7 +10,7 @@
 | Canada exposure | CA$27.6B currency inferred, import coverage not revenue. Origin, in-transit, remission and valuation matter; employment effect UNKNOWN. Existing autos are not a new general September8 event. |
 | CODIF-01 | **ORANGE** under approved cross-domain widening: enacted/implemented Canadian counter-tariff. Actual collection UNKNOWN, not RED. TRADE-02 owns rates/exposure; CODIF owns legal stage/reversibility; do not double-count. Contract: design/VX_GUARDS_AND_CODIFICATION.md. |
 | TRADE-02 | ORANGE unchanged; “comprehensive tariff wall” RED threshold still undefined. September24 re-cut requires separate ruling. |
-| HAW-19 | OPEN70%, September30. LEG A45-day condition exceeds42-day window; redundancy N/M undefined. LEG B retains corridor counter/definition/matched-flow conditions. Reviewable successor proposal prepared; original letter untouched. |
+| HAW-19 | OPEN70%, September30. LEG A45-day condition exceeds42-day window; redundancy N/M undefined. LEG B retains corridor counter/definition/matched-flow conditions. Feasibility assessed: successor not ready to register; matched tracker sample, measurement terms, path universe and calibrated probability missing. Original letter untouched. |
 | HAW-20 | OPEN65%, October31. Frozen four instruments: US301, US338, Iran bill, Mecca pact. Canada is not a fifth instrument or an early resolution. |
 | Qatar | Edison August28 affected-buyer primary confirms additional cancellations into early November. QatarEnergy own notice still missing. Estimated early-November review is not an announced decision date. COR-20260908-04 APPLIED / COR-20260828-01 NO-OP receipts remain complete; named date-cap blank. |
 | Refining audit | Both owners confirmed basis comparison. New OSPREY August runs imply28.3–30.9% shortfall; owner recommends withdrawing33% re-centre. Existing~30%,25–35% band unchanged; PROME disposition remains owner business. |
@@ -40,24 +40,24 @@ FALCON's attacker-axis split is analytically useful; actual insurance coverage m
 
 | Dormant vector | September8 partial primary review / residual |
 |---|---|
-| VEN GREEN | OFAC August27 oil /September2 mineral licences checked; current exports and complete military posture missing. June1.2mb/d stays historical. |
-| TRADE-01 YELLOW | Corrected US/China clock: EO14389 terminated listed IEEPA additional duties February20; November10 is separate Chinese control suspension. Current all-in duties/new proposal disposition unknown. |
-| TWN YELLOW | Taipower dynamic page yielded no current reserve; ROC114 PDF was2025 and rejected. LNG/coal inventory, replacement cargoes and TSMC consequence unverified. |
-| TWNMIL YELLOW | MND September8 one-day8 sorties/8 PLAN/4 official/4 ADIZ observation; shipping-zone and rerouting leg remains unverified. |
+| VEN GREEN carry | August oil exports1.17mb/d (Reuters); crude-only <1.0mb/d test unresolved. SOUTHCOM current releases concern Eastern Pacific operations; complete Venezuela posture remains missing. |
+| TRADE-01 YELLOW carry | USITC9903.88.15 existing7.5% verified; FR exclusion amendments preserve coverage. New proposal/all-in rates unresolved. Signed future polysilicon action exposes undefined enactment/effective-date timing in the band; September11 disposition. EO14389/November10 distinction retained. |
+| TWN YELLOW carry | Taipower September8 daily operating reserve29.89%,10.839GW verified. LNG/coal inventory, replacement cargoes and rationing/TSMC consequences remain unverified. Power reserve is not fuel inventory. |
+| TWNMIL YELLOW carry | MND September5 patrol and September8 daily activity retrieved; Navy766-notice CSV obtained. Operative PDF returned HTML; Fujian MSA timed out. Shipping-zone/rerouting/premium leg remains unverified. |
 | Other rows | IRAQ RED deferred to BRENT; SULPHUR RED on stale delivered-Kolwezi acid basis; FININFRA YELLOW; TRADE02 ORANGE; CODIF ORANGE; CEASEFIRE SUPERSEDED historical. No missing feed treated as no event. |
 
-Guard and Watch_Source fields now cover all10 rows. Active rows retain45-day backstop; CEASEFIRE excluded. Partial review dates do not hide incomplete legs: review those September11. Evidence and URLs: audits/2026-09-08_primary-sweep.md; KB315–325.
+Guard and Watch_Source fields now cover all10 rows. Active rows retain45-day backstop; CEASEFIRE excluded. Partial review dates do not hide incomplete legs: review those September11. Evidence and URLs: audits/2026-09-08_primary-sweep.md and audits/2026-09-08_next-steps-1-3.md; KB315–336. Historical Status wording in VX is now explicitly separated from current findings; marks/bands unchanged.
 
 ## Next observations and remaining obligations
 
 | Date | Observation / disposition |
 |---|---|
-| September9 expected, verify | STEO RuleN6: existing2027-Q2 OPEC2.38 / ME2.35mb/d anchors; DECAY at/above, EXTENSION below. Missing table UNKNOWN; no automatic grade. |
+| September9,12:00–12:15ET normally | Official STEO schedule verified against BRENT; August2.38/2.35mb/d anchors reproduced. September table pending. Existing OR branches overlap on a straddling pair; no unique verdict without disposition. Offline extractor rejects wrong vintage. |
 | September11 | Missing dormant evidence legs; Canada SOR; QatarEnergy own notice; matched premiums and Sidi comparator; August24 CPC durability disposition. AP September29 Canadian import-ban report is a primary-verification lead only. |
-| September11 before September14 sitting | Dictionary owner confirmations; HAW01 premise/HAW04-05 provenance/HAW18 scoring; HAW19 defect disposition and separate draft successor. |
+| September11 before September14 sitting | Dictionary owner confirmations; HAW01 premise/HAW04-05 provenance/HAW18 scoring; HAW19 defect and successor data/measurement disposition; TRADE01 future-tariff band timing. |
 | September15 /September24 | OSPREY existing gate review at owner; existing dormant-book review. No blanket date overrides missing-leg follow-up. |
 | September30 /October31 | HAW19 /HAW20 frozen deadlines. Draft HAW19 successor would require registration before its proposed October1 start. |
-| EarlyNovember /November9 approximate /November10 /Q1-2027 | Estimated Qatar review; Syria/Russia MOU; Chinese controls suspension; Pearl GTL primary horizon. Exact source limits in CATALYSTS. |
+| EarlyNovember /November9 approximate /November10 /December4 /Q1-2027 | Estimated Qatar review; Syria/Russia MOU; Chinese controls; scheduled covered polysilicon measures; Pearl GTL primary horizon. Exact source limits in CATALYSTS. |
 
 - MRPL breadth resolved August20 with zero additional refiners; forward durability test still unregistered. One buyer's repeat clause is not breadth.
 - Enforcement/PGM live feed and RU/AF-language instrument remain unbuilt; legacy scripts frozen. MIDAS's September2 reply is delivered history, no new Pt/Pd cause attributed.
@@ -68,6 +68,6 @@ Guard and Watch_Source fields now cover all10 rows. Active rows retain45-day bac
 - Source-change checker implemented for both aggregates with content hashes, race refusal and tested drift/missing-input cases. It certifies matching reviewed bytes, never current external evidence. Read-only default; capture/read/reconcile/record workflow wired into boot/closeout. Legacy boot suite remains frozen.
 - Historical43 BOARD signals reviewed/dispositioned (8 action,35 info);3 duplicate WALTER deliveries reconciled. Five root packets integrated and filed; unresolved decisions are retained above. Audits preserve limits; no current source re-verification inferred from historical filing.
 
-## BOTTOM LINE
+## Approved steps1–3 result
 
-Approved HAWK maintenance is implemented, owner synthesis is caught up to their September8 artifacts, and remaining evidence gaps have explicit reviews. The next time-sensitive observation is the expected STEO release; the next decisions concern prediction defects/scoring and dictionary confirmation. No new forecast, trade or peer-owned gate has been registered.
+Current-source follow-up, STEO preparation and HAW19 feasibility assessment are recorded with raw captures and acceptance receipts. Several evidence legs remain incomplete; September9 publication and September11 source/measurement decisions are next. No new forecast, trade or peer-owned gate registered. During closeout, both owner briefs/deltas were reconciled;98/39/29 counts unchanged, Greek shipping advisory remains July22, and Vostok is an unquantified new-outlet watch.

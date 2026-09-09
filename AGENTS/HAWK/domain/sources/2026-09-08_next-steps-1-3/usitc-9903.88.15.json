@@ -1,0 +1,29 @@
+[ {
+  "htsno" : "9903.88.15",
+  "statisticalSuffix" : "",
+  "description" : "Except as provided in headings 9903.88.39, 9903.88.42, 9903.88.44, 9903.88.47, 9903.88.49, 9903.88.51, 9903.88.53, 9903.88.55, 9903.88.57, 9903.88.65, 9903.88.66, 9903.88.67, 9903.88.68, or 9903.88.69, articles the product of China, as provided for in U.S. note 20(r) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(s)",
+  "htscode" : null,
+  "indent" : "0",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "units" : null,
+  "tariff" : null,
+  "unique" : null,
+  "hasHighlight" : null,
+  "highlightHtsNo" : null,
+  "highlightStatSuffix" : null,
+  "type" : null,
+  "effectivePeriod" : null,
+  "quotaQuantity" : null,
+  "additionalDuties" : null,
+  "general" : "The duty provided in the applicable subheading + 7.5%",
+  "other" : "",
+  "special" : "",
+  "status" : null,
+  "htmlStatNote" : null,
+  "selector" : "htsno"
+} ]

@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — thin, derived
 
-**Regenerated: 2026-09-09T02:03:16.151441+00:00.** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
+**Regenerated: 2026-09-09T02:28:51.087483+00:00.** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
 
 | Owner | Ledger data rows, counted locally | Comparable meaning / limits |
 |---|---:|---|
@@ -18,3 +18,5 @@ Russian exports remain **3.46mb/d, four-week average to August23**, per OSPREY's
 **No pooled loss count or new grade:** reconcile by attacker/target, molecule, asset and flow layer. FLOW-HAWK-19 is canonical. HAW-19's existing vessel exclusion and separate LEG-B corridor/flow letter remain unchanged; repair is only a proposal. Draft count dictionary and FALCON attacker-axis response are in `design/VESSEL_COUNTING_DICTIONARY_DRAFT.md`. Owner confirmation remains due September11.
 
 **Concurrent owner delta caught by the checker:** OSPREY added Kstovo June24, Yanina sinking August1, Bourda August1 and Saratov August2. These are historical backfills, not four new September attacks. Yanina is a container ship, not a crude tanker. Rostov was reclassified non-oil cargo; Tuymazy pipeline identity resolved; Tatarstan September7 corroboration was withdrawn as July-vintage footage (claim remains C4). Owner analysis and brief second-pass updates now acknowledge the backfills; the directly counted98-row ledger controls the count. SIREN’s HUR portal listing and Russian-trade history do not prove its event cargo or formal NSDC sanction status; the open test remains. No new capacity-loss total follows.
+
+**Later September8 owner deltas reviewed:** Tatarstan remains an unnamed-facility, disputed-outcome claim; Bourda is the first IMS-managed hull, closing the suspected extra-hull gap. Russian claims concerning MAVKA/patrol craft/Izmail are not Ukraine’s unidentified Black Sea target. FALCON still lists one Minoan Pioneer crew member missing after a search found no resolution; no new casualty inferred. Vostok/Bukhta Sever first loading is a new-outlet watch in OSPREY’s brief, with volume unquantified. Counts98/39/29 unchanged. These owner updates do not establish destroyed capacity.

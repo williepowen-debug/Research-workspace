@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "recorded_at": "2026-09-09T02:03:16.185229+00:00",
+  "recorded_at": "2026-09-09T02:28:51.114014+00:00",
   "products": {
     "AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md": {
-      "sha256": "8de4ceef09202d924d3e1c8da7eecf5f2e41381279e45b9d08138e1fe8ce25bb",
+      "sha256": "43e30a646a38e94558c000084d2655b0ba43b6acfe8db602fd1396ab8245ad6d",
       "inputs": {
-        "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": "c5f9b1ec0b67048e3e07ffbc614731f924c542a27cdeb8c55f87c1cc2adcea12",
+        "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": "47578bf7e056bdc1ecd587e618cf8379003cec83dfb2f34981e8ed7d7cdaa651",
         "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv": "1c067e35403db910b868bce8e0847f79db86bb4df3a95fff3446a471c8b77226",
-        "AGENTS/OSPREY/domain/energy-strikes/ANALYSIS_2026-09-08.md": "0f38c177e6029d5fbde76fd07d5959b1d49cfbe8a1a4a0ce9ee6192f0f5258d1",
+        "AGENTS/OSPREY/domain/energy-strikes/ANALYSIS_2026-09-08.md": "bc76f04d5830aa36cae940913a9f90a9b0fe0f147f4020e9e2e78c6c1ff7ffc4",
         "AGENTS/FALCON/domain/energy-strikes/ANALYSIS_2026-09-08.md": "679d39b5d2e85b9e6769d863cf50a3cc8dd8593821aeff4b877f277c0b1d44b7",
-        "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv": "edeed657efdb044c7e74ec0f632dafa2a38cd07a6d1a8c1003dcccaad03102c1",
-        "AGENTS/OSPREY/NEXUS_BRIEF.md": "8cc57942040964041e18cbfacdfe5a832e34da760e6a7948f9c3a3525f9ecfda",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "61782ebd1bbc1f035c57339c04f3e7cda7ea0c4bca40bdff5dc33621f1a8276b"
+        "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv": "135ad2bba9d6a10634b403ffefcf13b14029dab3fd480b36ef5d6446721b00a6",
+        "AGENTS/OSPREY/NEXUS_BRIEF.md": "725add76d2eb4f13747f99e294a05d83f3f58383370ddd57b3b9607820e1da54",
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "7aab01b97350fce348348b56cdb5ad789c4db7ae30cb8e4f864f83e3eea32478"
       }
     },
     "AGENTS/HAWK/domain/war-risk/CROSS_THEATER_WAR_RISK.md": {
-      "sha256": "9e1d2c6cc1ab4659ce70f9fbf34dcaca7e2ac96826722674892f8121b14de386",
+      "sha256": "cf934148c07b5a69bb76a15170d753bdf846f4b56c39d79cfec3afd7678092e0",
       "inputs": {
-        "AGENTS/OSPREY/workbook/WARRISK.tsv": "50e113847759d9deeab7f0a92ea780c1699fbb601d30b01975e1b86d1dc11a6f",
+        "AGENTS/OSPREY/workbook/WARRISK.tsv": "1d37dc2efa67ef227d419f5d96720112dc10f90ebea0292d7e6896f5406c4bdf",
         "AGENTS/FALCON/workbook/WARRISK.tsv": "25a0de36e81ca4c5a650c9b64a7bca41efc6beacb65f60ea0d93261e07c21e1b",
-        "AGENTS/OSPREY/NEXUS_BRIEF.md": "8cc57942040964041e18cbfacdfe5a832e34da760e6a7948f9c3a3525f9ecfda",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "61782ebd1bbc1f035c57339c04f3e7cda7ea0c4bca40bdff5dc33621f1a8276b"
+        "AGENTS/OSPREY/NEXUS_BRIEF.md": "725add76d2eb4f13747f99e294a05d83f3f58383370ddd57b3b9607820e1da54",
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "7aab01b97350fce348348b56cdb5ad789c4db7ae30cb8e4f864f83e3eea32478"
       }
     }
   }
