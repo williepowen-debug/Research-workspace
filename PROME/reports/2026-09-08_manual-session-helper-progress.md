@@ -1,0 +1,15 @@
+# Manual session plus helper — live pilot checkpoint
+
+September8, MP-0908. IN PROGRESS; no completion claim. Will approved starting the saved pilot with “okay approbed go ahead abd begin”. Bounded task committed at 0ceffa38c: PROME/plans/2026-09-08_manual-pilot-live-task.md.
+
+VERIFIED: sandbox inventory has restricted PID coverage and misses the manual windows. Escalated host inventory identifies OSPREY and FALCON. Native Claude ListAgents exposes names and tmux locations but not cwd/session IDs in this run. The join of native osprey-70 [e5f22e], tmux osprey:@1.%1, host PID62065 and CLI sessionId cdba053d-83c6-4237-9fee-e0ede65affe8 establishes the existing OSPREY parent. Original first dispatch was withheld because identity was incomplete; after this join the one initial message was sent.
+
+VERIFIED: native SendMessage accepted MP-0908-INITIAL, transport ID66405b2b-e0b4-4e82-ae46-8e9bf7a7c092, with a one-shot idle subscription. Runtime subsequently reports OSPREY waiting for a permission prompt. This proves transport acceptance, not recipient execution, helper launch or verified completion. Will was asked to inspect that prompt in the existing OSPREY window. Permission boundaries were preserved; no peer accepted it for him.
+
+UNKNOWN / UNTESTED: initial calculation, nested helper identity/lifecycle, direct Will input, receiver duplicate handling, cooperative capacity release and controlled recovery. No global capacity conclusion. Default Codex managed control endpoint is absent on host; no production daemon started. No raw socket protocol guessed. The Claude CLI relay, not a direct Codex peer bridge, is the tested delivery route.
+
+The live relay runner is /tmp/prome-manual-relay.py; its owned process receipt and stream are under /tmp/prome-manual-pilot-20260908/. It stops only its own CLI child on stop-relay or timeout. Never stop manual OSPREY. If the relay exits, first inspect recipient receipts and reconcile the original message ID; do not blindly resend it as a new task.
+
+Next: after recipient approval, verify parent.json, initial.json, helper.json, lifecycle.json and completion.json. Expected initial sum17 from accepted a/c; b excluded. Will's actual follow-up in the OSPREY conversation changes the measure to accepted-count (expected2) and requests same-helper reuse if supported; this leg is separately pending. Then test duplicate ID with no extra helper, and a parent-agreed controlled helper/client recovery. Preserve exact actual handles; no invented helper IDs. One narrow independent RESULT review remains due before completion.
+
+Evidence: 2026-09-08_manual-session-helper-progress.json (metadata and native tool results). Source behavior: [Claude cross-session messaging](https://code.claude.com/docs/en/cross-session-messaging) documents delivery, permission boundaries and one-shot notices; [Codex App Server](https://learn.chatgpt.com/docs/app-server) is the OpenAI transport reference. Local installed interface and actual outcomes govern this run.

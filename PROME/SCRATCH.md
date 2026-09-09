@@ -1,6 +1,8 @@
 # SCRATCH.md — Ephemeral Session State
 **Last Updated:** 2026-09-08 evening · review-comparison pilot completed; human validation pending. Older sections retain their stated vintages.
 
+**MP-0908 live pilot checkpoint:** [Progress](reports/2026-09-08_manual-session-helper-progress.md). Existing OSPREY identified and initial native message accepted; recipient permission prompt pending. Do not resend MP-0908-INITIAL blindly. Manual parent stays open.
+
 ## ★ NEXT SESSION — START HERE
 
 **CONTEXT RESTART — September 8:** Next implementation priority: the approved [manual-session-plus-helper pilot](plans/2026-09-08_manual-session-helper-pilot.md); acceptance checks and restart prompt are saved there.
