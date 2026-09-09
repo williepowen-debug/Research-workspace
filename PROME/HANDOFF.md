@@ -4,7 +4,7 @@
 
 **Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
-**Current handoff (September8):** Will requested all six mixed-agent workflow improvements in a fresh window → [implementation plan](plans/2026-09-08_mixed-agent-workflow.md), surfaced first in SCRATCH. Direct Will conversations coexist with PROME orchestration; manual sessions and nested helpers share capacity. Product research/local CLI checks are complete; integration implementation and pilot remain. Actual Codex owner catch-up and verified Git receipts → [owner follow-through](reports/2026-09-08_owner-orchestration-completion.md); preserve its market obligations. Five prior session records below are history.
+**Current handoff (September8 evening):** Will approved market pickup then starting all-six workflow implementation. [Pilot result matrix](reports/2026-09-08_session-pilot-results.md) records tested bridge/panel, 35 passing tests, live Codex/Claude receipts and remaining rollout gaps; next step is documented manual-session/helper integration, not another research restart. [Market pickup](reports/2026-09-08_evening-market-checks.md): XLE9/9 exit selected, Cboe9/8=148.86 breaks FT-10 run, official9/8 rates and post-expiry PJM read still owed. Earlier [owner deliveries](reports/2026-09-08_owner-orchestration-completion.md) remain verified. Five prior session records below are history.
 
 ---
 

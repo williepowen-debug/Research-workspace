@@ -1,0 +1,8 @@
+{
+  "at": "2026-09-09T00:59:38.258055+00:00",
+  "fixture": "/tmp/prome-worktree-fixture-j9olfen4",
+  "separate_index": "PASS",
+  "canonical_artifact_absolute_path": "/tmp/prome-worktree-fixture-j9olfen4/shared-packet.md",
+  "production_worktree_changed": false,
+  "limits": "No production merge, conflict recovery, or capacity/launch binding tested."
+}

@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-09-09T00:54:21.678547+00:00",
+  "root": "/tmp/prome-unix-pilot-7ml5lemx",
+  "cases": [
+    {
+      "name": "error",
+      "at": "2026-09-09T00:54:21.881154+00:00",
+      "result": {
+        "error": "RPC disconnected; sent request outcome UNKNOWN",
+        "type": "BridgeError"
+      }
+    }
+  ],
+  "finished_at": "2026-09-09T00:54:21.995372+00:00"
+}

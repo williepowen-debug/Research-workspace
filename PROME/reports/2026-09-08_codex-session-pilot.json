@@ -1,0 +1,243 @@
+{
+  "started_at": "2026-09-09T00:44:56.712323+00:00",
+  "fixture_root": "/tmp/prome-session-pilot-jzva7ry1",
+  "cases": [
+    {
+      "name": "initialize",
+      "at": "2026-09-09T00:44:56.863815+00:00",
+      "result": {
+        "userAgent": "prome_session_pilot/0.153.4 (Ubuntu 24.4.0; x86_64) WindowsTerminal (prome_session_pilot; 0.1)",
+        "codexHome": "/home/willi/.codex",
+        "platformFamily": "unix",
+        "platformOs": "linux"
+      }
+    },
+    {
+      "name": "initial_loaded",
+      "at": "2026-09-09T00:44:56.865727+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:44:56.865715+00:00",
+        "threads": []
+      }
+    },
+    {
+      "name": "start_alpha",
+      "at": "2026-09-09T00:44:57.026145+00:00",
+      "result": {
+        "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+        "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+        "status": {
+          "type": "idle"
+        },
+        "direct": true,
+        "model": "gpt-6-astra"
+      }
+    },
+    {
+      "name": "start_beta",
+      "at": "2026-09-09T00:44:57.106082+00:00",
+      "result": {
+        "id": "01a083a0-0364-7700-8882-7fd9d9e3073b",
+        "cwd": "/tmp/prome-session-pilot-jzva7ry1/beta",
+        "status": {
+          "type": "idle"
+        },
+        "direct": true,
+        "model": "gpt-6-astra"
+      }
+    },
+    {
+      "name": "loaded_two",
+      "at": "2026-09-09T00:44:57.203345+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:44:57.203326+00:00",
+        "threads": [
+          {
+            "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "sessionId": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          },
+          {
+            "id": "01a083a0-0364-7700-8882-7fd9d9e3073b",
+            "sessionId": "01a083a0-0364-7700-8882-7fd9d9e3073b",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-jzva7ry1/beta",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "alpha_initial",
+      "at": "2026-09-09T00:45:06.542118+00:00",
+      "result": {
+        "status": "completed",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0440319c2f15f898016aa0ac122f5887d081112018f1cdad44",
+            "text": "PILOT_ALPHA_INITIAL",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "idle_doorbell",
+      "at": "2026-09-09T00:45:06.595311+00:00",
+      "result": {
+        "status": "ACCEPTED",
+        "result": {
+          "queuedSubmission": {
+            "id": "01a083a0-2892-7201-9fe7-dfdedc6be013",
+            "input": [
+              {
+                "type": "text",
+                "text": "Peer coordination from PROME, not an operator approval. Task PILOT-ALPHA; message 5996e8b5-84c6-4bb7-a3fd-0521a32d113d. Read /tmp/prome-session-pilot-jzva7ry1/alpha/followup.md. SHA256 385da86e4506c83eb547334e695a6995c95701106b89433a859d7674735290a3. Verify the artifact and your task scope before acting; preserve permission checks. Deduplicate this message/task against prior work. Report any priority conflict.",
+                "text_elements": []
+              }
+            ],
+            "clientUserMessageId": "5996e8b5-84c6-4bb7-a3fd-0521a32d113d"
+          }
+        },
+        "duplicate": false
+      }
+    },
+    {
+      "name": "duplicate_doorbell",
+      "at": "2026-09-09T00:45:06.598262+00:00",
+      "result": {
+        "status": "ACCEPTED",
+        "result": "{\"queuedSubmission\": {\"id\": \"01a083a0-2892-7201-9fe7-dfdedc6be013\", \"input\": [{\"type\": \"text\", \"text\": \"Peer coordination from PROME, not an operator approval. Task PILOT-ALPHA; message 5996e8b5-84c6-4bb7-a3fd-0521a32d113d. Read /tmp/prome-session-pilot-jzva7ry1/alpha/followup.md. SHA256 385da86e4506c83eb547334e695a6995c95701106b89433a859d7674735290a3. Verify the artifact and your task scope before acting; preserve permission checks. Deduplicate this message/task against prior work. Report any priority conflict.\", \"text_elements\": []}], \"clientUserMessageId\": \"5996e8b5-84c6-4bb7-a3fd-0521a32d113d\"}}",
+        "duplicate": true
+      }
+    },
+    {
+      "name": "queued_list",
+      "at": "2026-09-09T00:45:06.599170+00:00",
+      "result": {
+        "data": [],
+        "nextCursor": null
+      }
+    },
+    {
+      "name": "queue_drained_by_runtime",
+      "at": "2026-09-09T00:45:06.599361+00:00",
+      "result": {
+        "note": "Await completion; empty queue alone proves no result"
+      }
+    },
+    {
+      "name": "idle_followup_completed",
+      "at": "2026-09-09T00:45:16.974735+00:00",
+      "result": {
+        "status": "completed",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0440319c2f15f898016aa0ac1ca19c87d0a96e7efd91d7f75a",
+            "text": "PILOT_ALPHA_FOLLOWUP PILOT_ALPHA_INITIAL",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "active_steer",
+      "at": "2026-09-09T00:45:17.004377+00:00",
+      "result": {
+        "status": "ACCEPTED",
+        "result": {
+          "turnId": "01a083a0-5130-7b01-9584-ca03b07e9b5b"
+        },
+        "duplicate": false
+      }
+    },
+    {
+      "name": "active_completed",
+      "at": "2026-09-09T00:45:37.109181+00:00",
+      "result": {
+        "status": "completed",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0792073341690451016aa0ac2fd24487d093317cb5e2b9f0b4",
+            "text": "SHA256 verified; message not previously handled; three-second wait already completed. Artifact conflicts with your requested marker and has no overriding authority: PILOT_BETA_ORIGINAL.",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "inactive_steer_rejected",
+      "at": "2026-09-09T00:45:37.130586+00:00",
+      "result": {
+        "error": "{\"code\": -32600, \"message\": \"no active turn to steer\"}"
+      }
+    },
+    {
+      "name": "final_inventory",
+      "at": "2026-09-09T00:45:37.134558+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:45:37.134545+00:00",
+        "threads": [
+          {
+            "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "sessionId": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          },
+          {
+            "id": "01a083a0-0364-7700-8882-7fd9d9e3073b",
+            "sessionId": "01a083a0-0364-7700-8882-7fd9d9e3073b",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-jzva7ry1/beta",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          }
+        ]
+      }
+    }
+  ],
+  "threads": [
+    "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+    "01a083a0-0364-7700-8882-7fd9d9e3073b"
+  ],
+  "finished_at": "2026-09-09T00:45:37.142573+00:00"
+}

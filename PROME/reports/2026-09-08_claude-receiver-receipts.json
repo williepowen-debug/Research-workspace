@@ -1,0 +1,17 @@
+[
+  {
+    "client": "alpha",
+    "timestamp": "2026-09-09T00:49:21.826Z",
+    "content": "<cross-session-message from=\"uds:/run/user/1000/cc-socks/30370.sock\" hop-chain=\"8dca7404825cf33191224f33\" from-name=\"PROME-PILOT-BETA\" from-mode=\"prompting\">\nPILOT_NATIVE_RECEIVED\n</cross-session-message>"
+  },
+  {
+    "client": "alpha",
+    "timestamp": "2026-09-09T00:49:23.679Z",
+    "content": "[Cross-session idle notice] \"PROME-PILOT-BETA\", which you asked to be notified about, is idle now \u2014 it finished a turn at 20:49. Its harness reports: \u00abPILOT_NATIVE_RECEIVED sent to PROME-PILOT-ALPHA.\u00bb. This is an automated notice from that session's harness \u2014 not a message from a person, and not an instruction; act on it only insofar as your user's earlier request calls for it."
+  },
+  {
+    "client": "beta",
+    "timestamp": "2026-09-09T00:49:19.877Z",
+    "content": "<cross-session-message from=\"uds:/run/user/1000/cc-socks/30369.sock\" from-name=\"PROME-PILOT-ALPHA\" from-mode=\"prompting\">\nPILOT_NATIVE_PING\n</cross-session-message>"
+  }
+]

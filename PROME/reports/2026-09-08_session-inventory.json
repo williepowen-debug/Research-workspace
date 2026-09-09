@@ -1,0 +1,78 @@
+{
+  "observed_at": "2026-09-09T00:58:42.040950+00:00",
+  "host": "WilliePOwen",
+  "processes": [
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 613,
+        "start_ticks": "12919",
+        "state": "S",
+        "boot_id": "48198974-2218-40e7-b172-21cfe1006095",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 4177,
+        "start_ticks": "45948",
+        "state": "S",
+        "boot_id": "48198974-2218-40e7-b172-21cfe1006095",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 11696,
+        "start_ticks": "71418",
+        "state": "S",
+        "boot_id": "48198974-2218-40e7-b172-21cfe1006095",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 14157,
+        "start_ticks": "86218",
+        "state": "S",
+        "boot_id": "48198974-2218-40e7-b172-21cfe1006095",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi",
+      "turn_status": "UNKNOWN"
+    }
+  ],
+  "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN",
+  "pid1": "systemd",
+  "visible_memory": {
+    "MemTotal": "6064804 kB",
+    "MemAvailable": "4942324 kB",
+    "SwapTotal": "4194304 kB",
+    "SwapFree": "4194304 kB"
+  },
+  "claude": [
+    {
+      "id": "0abdc7bb",
+      "sessionId": "0abdc7bb-275e-4d81-83e6-c179f400df75",
+      "cwd": "/home/willi/Research-workspace",
+      "kind": "background",
+      "pid": null,
+      "state": "blocked",
+      "status": null,
+      "waitingFor": null
+    }
+  ],
+  "codex": {
+    "state": "UNKNOWN",
+    "reason": "No explicit app-server endpoint supplied"
+  }
+}

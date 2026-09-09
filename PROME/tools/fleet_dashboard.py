@@ -844,7 +844,101 @@ def panel_guard(title, owner, fn):
                 f'{esc(str(e)[:120])}) — read {esc(owner)} directly.</div>')
 
 
-def build(today, now_iso):
+def render_session_panel(path, reference_time=None):
+    """Render a supplied observation only; never discover or contact runtimes."""
+    if path is None:
+        return ""
+    start = '<div class="panel" id="runtime-sessions"><h2>Runtime sessions — supplied snapshot</h2>'
+    source = f'<p class="muted">Snapshot file: {esc(str(path))}</p>'
+    try:
+        with open(path, encoding="utf-8") as handle:
+            data = json.load(handle)
+        if not isinstance(data, dict):
+            raise ValueError("snapshot must be an object")
+        for key in ("processes", "claude", "gaps"):
+            if key in data and (not isinstance(data[key], list) or
+                                any(not isinstance(row, dict) for row in data[key])):
+                raise ValueError(f"{key} must be an array of objects")
+        codex = data.get("codex", {})
+        if not isinstance(codex, dict):
+            raise ValueError("codex must be an object")
+        if "threads" in codex and (not isinstance(codex["threads"], list) or
+                                  any(not isinstance(row, dict) for row in codex["threads"])):
+            raise ValueError("codex threads must be an array of objects")
+    except (OSError, ValueError, TypeError) as exc:
+        return (start + source + '<div class="parsefail">UNKNOWN — PARSE FAILED: '
+                + esc(f"{type(exc).__name__}: {exc}") + '</div></div>\n')
+
+    def value(item):
+        if item is None or item == "":
+            return "UNKNOWN"
+        return json.dumps(item, sort_keys=True) if isinstance(item, (dict, list)) else str(item)
+
+    reference_time = reference_time or dt.datetime.now(dt.timezone.utc)
+
+    def observation(stamp):
+        try:
+            observed = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+            if observed.tzinfo is None:
+                raise ValueError("timezone missing")
+            seconds = (reference_time - observed).total_seconds()
+            age = f"{int(seconds // 60)} minutes old at render" if seconds >= 0 else "UNKNOWN age (future timestamp)"
+        except (AttributeError, TypeError, ValueError):
+            age = "UNKNOWN age (missing or invalid observation time)"
+        return esc(value(stamp)) + " · " + esc(age)
+
+    out = [start, source,
+           '<p>Snapshot observed: ' + observation(data.get("observed_at")) + '</p>',
+           '<p class="muted">Observation time is independent of dashboard build time. '
+           'Statuses describe that observation; current liveness is UNKNOWN. '
+           'Rows from different sources may overlap. Missing rows do not prove a desk is absent. '
+           'This panel does not establish complete host or helper coverage.</p>',
+           '<p>Host: ' + esc(value(data.get("host"))) + '<br>Coverage: '
+           + esc(value(data.get("coverage"))) + '</p>']
+    gaps = list(data.get("gaps", []))
+    if data.get("error"):
+        gaps.append({"inventory_error": data["error"]})
+    if "claude" not in data:
+        gaps.append({"claude": "UNKNOWN — no native inventory supplied"})
+    if "processes" not in data:
+        gaps.append({"processes": "UNKNOWN — no process inventory supplied"})
+    if codex:
+        out.append('<p>Codex endpoint: ' + esc(value(codex.get("endpoint")))
+                   + '<br>Codex coverage: ' + esc(value(codex.get("scope")))
+                   + '<br>Codex observed: ' + observation(codex.get("observed_at")) + '</p>')
+    if "threads" not in codex:
+        gaps.append({"codex": codex or "UNKNOWN — no endpoint inventory supplied"})
+    if gaps:
+        out.append('<div class="parsefail">UNKNOWN / reported gaps<ul>'
+                   + ''.join('<li>' + esc(value(gap)) + '</li>' for gap in gaps) + '</ul></div>')
+    rows = []
+
+    def row(source_name, runtime, identity, cwd, parent, status):
+        rows.append('<tr>' + ''.join('<td>' + esc(value(cell)) + '</td>' for cell in
+                    (source_name, runtime, identity, cwd, parent, status)) + '</tr>')
+
+    for item in data.get("processes", []):
+        row("Process observation", item.get("runtime"), item.get("identity"), item.get("cwd"),
+            None, "Turn status UNKNOWN — process presence only")
+    for item in data.get("claude", []):
+        identity = {key: item[key] for key in ("id", "sessionId", "pid") if item.get(key) is not None}
+        status = {key: item[key] for key in ("state", "status", "waitingFor", "kind") if item.get(key) is not None}
+        row("Claude native observation", "Claude", identity or None, item.get("cwd"),
+            item.get("parentThreadId") or item.get("parent"), status or None)
+    for item in codex.get("threads", []):
+        identity = {key: item[key] for key in ("id", "sessionId") if item.get(key) is not None}
+        row("Codex endpoint observation", "Codex", identity or None, item.get("cwd"),
+            item.get("parentThreadId"), item.get("status"))
+    if rows:
+        out.append('<div class="tablewrap"><table><tr><th>Source</th><th>Runtime</th>'
+                   '<th>Session / process identity</th><th>Working directory</th><th>Parent</th>'
+                   '<th>Observed status</th></tr>' + ''.join(rows) + '</table></div>')
+    else:
+        out.append('<p class="parsefail">No rows in the supplied snapshot; fleet presence UNKNOWN.</p>')
+    return ''.join(out) + '</div>\n'
+
+
+def build(today, now_iso, sessions_json=None):
     active, tier2, dormant = parse_roster()
     fmap = parse_fleet_map()
     hb = parse_heartbeat()
@@ -1125,7 +1219,7 @@ def build(today, now_iso):
   absolute thresholds); gate-specific trigger lines (e.g. the 4.50 arm-#2 rule) live in the
   fire ledger below and are not restated here.</p></div>
 
-<div class="cols">
+{render_session_panel(sessions_json)}<div class="cols">
 <div>
   <div class="panel"><h2>Since last build{esc(" — vs " + prev["built"]) if prev else ""}</h2>
     <ul class="attn">{panel_guard("delta", "PROME/tools/dashboard_state.json", render_delta)}</ul></div>
@@ -1171,10 +1265,11 @@ def main():
     global now_iso_utc
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", default="/tmp/fleet_dashboard.html")
+    ap.add_argument("--sessions-json", help="Optional saved session inventory JSON; no live discovery")
     args = ap.parse_args()
     now = dt.datetime.now()
     now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"))
+    html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"), args.sessions_json)
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(html_out)
     with open(STATE_PATH, "w", encoding="utf-8") as f:

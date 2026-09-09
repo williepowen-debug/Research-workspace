@@ -1,0 +1,77 @@
+{
+  "started_at": "2026-09-09T00:48:14.723801+00:00",
+  "thread_id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+  "cases": [
+    {
+      "name": "persisted_before_resume",
+      "at": "2026-09-09T00:48:14.903368+00:00",
+      "result": {
+        "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+        "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+        "status": {
+          "type": "notLoaded"
+        },
+        "canAcceptDirectInput": null
+      }
+    },
+    {
+      "name": "resumed_same_thread",
+      "at": "2026-09-09T00:48:15.091795+00:00",
+      "result": {
+        "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+        "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+        "status": {
+          "type": "idle"
+        },
+        "canAcceptDirectInput": true
+      }
+    },
+    {
+      "name": "recovery_completed",
+      "at": "2026-09-09T00:48:20.150316+00:00",
+      "result": {
+        "id": "01a083a3-08fd-7e52-8297-dc318ae809f3",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_00137c2fe10aeaf0016aa0acd37d6887d08837e32160b81846",
+            "text": "PILOT_ALPHA_INITIAL PILOT_ALPHA_FOLLOWUP PILOT_RECOVERY_OK",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "itemsView": "summary",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1788914895,
+        "completedAt": 1788914900,
+        "durationMs": 5041
+      }
+    },
+    {
+      "name": "loaded_after_recovery",
+      "at": "2026-09-09T00:48:20.154887+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:48:20.154861+00:00",
+        "threads": [
+          {
+            "id": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "sessionId": "01a083a0-02cb-7d63-85e2-f51306d4d2e7",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-jzva7ry1/alpha",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          }
+        ]
+      }
+    }
+  ],
+  "finished_at": "2026-09-09T00:48:20.177782+00:00"
+}

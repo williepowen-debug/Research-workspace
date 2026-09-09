@@ -1,0 +1,117 @@
+{
+  "started_at": "2026-09-09T00:38:46.869185+00:00",
+  "fixture_root": "/tmp/prome-session-pilot-83xronjn",
+  "cases": [
+    {
+      "name": "initialize",
+      "at": "2026-09-09T00:38:47.033539+00:00",
+      "result": {
+        "userAgent": "prome_session_pilot/0.153.4 (Ubuntu 24.4.0; x86_64) WindowsTerminal (prome_session_pilot; 0.1)",
+        "codexHome": "/home/willi/.codex",
+        "platformFamily": "unix",
+        "platformOs": "linux"
+      }
+    },
+    {
+      "name": "initial_loaded",
+      "at": "2026-09-09T00:38:47.036624+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:38:47.036612+00:00",
+        "threads": []
+      }
+    },
+    {
+      "name": "start_alpha",
+      "at": "2026-09-09T00:38:47.199746+00:00",
+      "result": {
+        "id": "01a0839a-5e29-7f10-b997-bc4d8a32cf48",
+        "cwd": "/tmp/prome-session-pilot-83xronjn/alpha",
+        "status": {
+          "type": "idle"
+        },
+        "direct": true,
+        "model": "gpt-6-astra"
+      }
+    },
+    {
+      "name": "start_beta",
+      "at": "2026-09-09T00:38:47.276115+00:00",
+      "result": {
+        "id": "01a0839a-5ec4-7f70-80c1-49955a0fe12d",
+        "cwd": "/tmp/prome-session-pilot-83xronjn/beta",
+        "status": {
+          "type": "idle"
+        },
+        "direct": true,
+        "model": "gpt-6-astra"
+      }
+    },
+    {
+      "name": "loaded_two",
+      "at": "2026-09-09T00:38:47.375136+00:00",
+      "result": {
+        "endpoint": "owned-stdio",
+        "scope": "loaded threads on this server only",
+        "observed_at": "2026-09-09T00:38:47.375116+00:00",
+        "threads": [
+          {
+            "id": "01a0839a-5e29-7f10-b997-bc4d8a32cf48",
+            "sessionId": "01a0839a-5e29-7f10-b997-bc4d8a32cf48",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-83xronjn/alpha",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          },
+          {
+            "id": "01a0839a-5ec4-7f70-80c1-49955a0fe12d",
+            "sessionId": "01a0839a-5ec4-7f70-80c1-49955a0fe12d",
+            "parentThreadId": null,
+            "cwd": "/tmp/prome-session-pilot-83xronjn/beta",
+            "source": "vscode",
+            "status": {
+              "type": "idle"
+            },
+            "canAcceptDirectInput": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "alpha_initial",
+      "at": "2026-09-09T00:38:57.691755+00:00",
+      "result": {
+        "status": "completed",
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_0020312f794b58ef016aa0aaa15c5c87d0ae176af6a9406da7",
+            "text": "PILOT_ALPHA_INITIAL",
+            "phase": "final_answer",
+            "memoryCitation": null,
+            "delivery": null,
+            "questions": null
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "pilot_error",
+      "at": "2026-09-09T00:38:57.778456+00:00",
+      "result": {
+        "error": "{\"code\": -32600, \"message\": \"ephemeral thread does not support queued submissions: 01a0839a-5e29-7f10-b997-bc4d8a32cf48\"}",
+        "type": "BridgeError"
+      }
+    }
+  ],
+  "threads": [
+    "01a0839a-5e29-7f10-b997-bc4d8a32cf48",
+    "01a0839a-5ec4-7f70-80c1-49955a0fe12d"
+  ],
+  "finished_at": "2026-09-09T00:38:57.786356+00:00"
+}
