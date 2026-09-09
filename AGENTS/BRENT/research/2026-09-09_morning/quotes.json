@@ -1,0 +1,682 @@
+[
+  {
+    "symbol": "BZX26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZX26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.214387+00:00",
+    "name": "Brent Crude Oil Last Day Financ",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 100.67,
+    "quote_time_et": "2026-09-09T09:48:57-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 97.91999816894531,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 95.52,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 95.5199966430664,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 96.27999877929688,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 97.91999816894531,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 100.66999816894531,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.808416955145354
+  },
+  {
+    "symbol": "BZZ26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZZ26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.214986+00:00",
+    "name": "Brent Crude Oil Last Day Financ",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 96.64,
+    "quote_time_et": "2026-09-09T09:48:53-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 94.37999725341797,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 91.63,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 91.62999725341797,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 92.31999969482422,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 94.37999725341797,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 96.63999938964844,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.394578101664635
+  },
+  {
+    "symbol": "BZF27.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.215362+00:00",
+    "name": "Brent Crude Oil Last Day Financ",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 93.13,
+    "quote_time_et": "2026-09-09T09:46:11-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 91.30000305175781,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 88.32,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 88.31999969482422,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 89.1500015258789,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 91.30000305175781,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 93.12999725341797,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.0043777514495487
+  },
+  {
+    "symbol": "CLV26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CLV26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.215715+00:00",
+    "name": "Crude Oil Oct 26",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 95.79,
+    "quote_time_et": "2026-09-09T09:48:57-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 93.02999877929688,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 91.3,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 91.30000305175781,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 91.4800033569336,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 93.02999877929688,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 95.79000091552734,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.9667862591838956
+  },
+  {
+    "symbol": "CLX26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.216193+00:00",
+    "name": "Crude Oil Nov 26",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 92.53,
+    "quote_time_et": "2026-09-09T09:48:57-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 90.19000244140625,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 88.03,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 88.02999877929688,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 88.56999969482422,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 90.19000244140625,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 92.52999877929688,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.5945198971626393
+  },
+  {
+    "symbol": "HOX26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HOX26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.216758+00:00",
+    "name": "Heating Oil Nov 26",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 4.5349,
+    "quote_time_et": "2026-09-09T09:48:42-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 4.41949987411499,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 4.425,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 4.425000190734863,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 4.383699893951416,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 4.41949987411499,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 4.534900188446045,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.6111580308194826
+  },
+  {
+    "symbol": "RBX26.NYM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RBX26.NYM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.478753+00:00",
+    "name": "RBOB Gasoline Nov 26",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 3.0432,
+    "quote_time_et": "2026-09-09T09:48:57-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 3.0652999877929688,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 2.9589,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 2.958899974822998,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 3.0134999752044678,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 3.0652999877929688,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 3.0432000160217285,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": -0.7209730819488502
+  },
+  {
+    "symbol": "USO",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.487122+00:00",
+    "name": "United States Oil Fund",
+    "exchange": "PCX",
+    "currency": "USD",
+    "price": 148.63,
+    "quote_time_et": "2026-09-09T09:58:56-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 146.02999877929688,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 141.0,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 141.14999389648438,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 142.08999633789062,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 141.9600067138672,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 146.02999877929688,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 148.6300048828125,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 1.7804569214799892
+  },
+  {
+    "symbol": "XLE",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.487980+00:00",
+    "name": "State Street Energy Select Sect",
+    "exchange": "PCX",
+    "currency": "USD",
+    "price": 65.535,
+    "quote_time_et": "2026-09-09T09:58:55-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 64.7699966430664,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 64.77,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 65.0999984741211,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 64.62000274658203,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 64.05999755859375,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 64.7699966430664,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 65.53500366210938,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 1.1811076062723247
+  },
+  {
+    "symbol": "XOP",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOP?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.514045+00:00",
+    "name": "State Street SPDR S&P Oil & Gas",
+    "exchange": "PCX",
+    "currency": "USD",
+    "price": 194.54,
+    "quote_time_et": "2026-09-09T09:58:57-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 193.91000366210938,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 192.72,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 193.16000366210938,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 192.3300018310547,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 190.7100067138672,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 193.91000366210938,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 194.5399932861328,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 0.32489109689688433
+  },
+  {
+    "symbol": "EOG",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/EOG?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.517998+00:00",
+    "name": "EOG Resources, Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "price": 147.1,
+    "quote_time_et": "2026-09-09T09:58:33-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 145.36000061035156,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 148.35,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 148.9600067138672,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 145.9600067138672,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 145.19000244140625,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 145.36000061035156,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 147.10000610351562,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 1.197027643328541
+  },
+  {
+    "symbol": "XOM",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.659071+00:00",
+    "name": "ExxonMobil Holdings Corporation",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "price": 163.85,
+    "quote_time_et": "2026-09-09T09:58:55-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 160.66000366210938,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 164.55,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 164.14999389648438,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 162.2100067138672,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 159.47000122070312,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 160.66000366210938,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 163.85000610351562,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 1.9855572421121348
+  },
+  {
+    "symbol": "CVX",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.663417+00:00",
+    "name": "Chevron Corporation",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "price": 214.0,
+    "quote_time_et": "2026-09-09T09:58:56-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 209.8000030517578,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 211.05,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 211.77999877929688,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 211.32000732421875,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 208.60000610351562,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 209.8000030517578,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 214.0,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 2.0019050939699135
+  },
+  {
+    "symbol": "LNG",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LNG?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.695739+00:00",
+    "name": "Cheniere Energy, Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "price": 277.745,
+    "quote_time_et": "2026-09-09T09:58:55-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 276.0199890136719,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 294.13,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 295.8599853515625,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 290.8500061035156,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 292.0,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 276.0199890136719,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 277.7449951171875,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": 0.6249587185668259
+  },
+  {
+    "symbol": "STNG",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/STNG?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.731601+00:00",
+    "name": "Scorpio Tankers Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "price": 81.98,
+    "quote_time_et": "2026-09-09T09:57:50-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 82.12000274658203,
+      "timestamp": 1788874200
+    },
+    "chart_previous_close": 79.61,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-02",
+        "close": 81.41999816894531,
+        "timestamp": 1788355800
+      },
+      {
+        "date": "2026-09-03",
+        "close": 80.11000061035156,
+        "timestamp": 1788442200
+      },
+      {
+        "date": "2026-09-04",
+        "close": 82.3499984741211,
+        "timestamp": 1788528600
+      },
+      {
+        "date": "2026-09-08",
+        "close": 82.12000274658203,
+        "timestamp": 1788874200
+      },
+      {
+        "date": "2026-09-09",
+        "close": 81.9800033569336,
+        "timestamp": 1788960600
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": -0.17048556003348425
+  },
+  {
+    "symbol": "NG=F",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NG%3DF?range=5d&interval=1d",
+    "retrieved_at": "2026-09-09T13:58:57.737404+00:00",
+    "name": "Natural Gas Oct 26",
+    "exchange": "NYM",
+    "currency": "USD",
+    "price": 2.842,
+    "quote_time_et": "2026-09-09T09:48:55-04:00",
+    "prior_daily_bar": {
+      "date": "2026-09-08",
+      "close": 2.9159998893737793,
+      "timestamp": 1788840000
+    },
+    "chart_previous_close": 2.913,
+    "previous_close": null,
+    "bars": [
+      {
+        "date": "2026-09-03",
+        "close": 2.9130001068115234,
+        "timestamp": 1788408000
+      },
+      {
+        "date": "2026-09-04",
+        "close": 2.9749999046325684,
+        "timestamp": 1788494400
+      },
+      {
+        "date": "2026-09-08",
+        "close": 2.9159998893737793,
+        "timestamp": 1788840000
+      },
+      {
+        "date": "2026-09-09",
+        "close": 2.8420000076293945,
+        "timestamp": 1788926400
+      }
+    ],
+    "change_pct_vs_prior_vendor_bar": -2.537719210602263
+  }
+]

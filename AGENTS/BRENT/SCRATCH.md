@@ -1,17 +1,17 @@
-# BRENT SCRATCH — September 9, 2026 startup
+# BRENT SCRATCH — September 9, 2026 morning price refresh
 
 ## CHANGES SINCE LAST SESSION
 
-Network boot retrieved current market snapshots and unchanged August 28 weekly observations. OSPREY late packet adds attributed terminal/refinery follow-ups; unverified by BRENT. September 9 XLE open is elapsed, broker receipt still unknown.
+Named-contract morning capture shows Brent above 100, crude/USO higher and wider indicative Brent backwardation versus September 8 vendor daily bars. Energy equities broadly higher; STNG and natural gas lower. Full timestamped evidence in research/2026-09-09_morning/REPORT.md. No new physical release or broker receipt read.
 
 ## WHAT I DID THIS SESSION
 
-Booted as BRENT on Will's September 9 09:47 ET reference. Read startup/context/rules, ran full network boot and corrections check, manually checked conditional prediction windows and triaged the one general inbox packet as deferred. Saved research/2026-09-09_boot.md and full output. No new grade, thesis revision, proposal, order or external send. Prior research work remains in September 8 reports.
+Fetched 16 named futures/equity quotes with timestamps and prior-day bars; preserved raw JSON and calculation/capture files. Refreshed STATUS and runtime price/curve lines 9–11. Separated delayed futures from current equity quotes, specified November product cracks and confirmed comparison dates. No new rule, grade, proposal, order or external send. Startup receipt and September 8 research remain available.
 
 ## NEXT SESSION (dated, future-verifiable)
 
 1. **September 9 open elapsed — receipt outstanding:** TERRY/Will own selected XLE exit implementation and broker receipt. BRENT records no fill without receipt.
-2. **September 9 ~10:00 ET / noon–12:15 ET:** EIA September 7 retail observation / September STEO. Require new issue dates; compare the same spare-capacity definition and Q3/Q4. August STEO issue was August 11, forecast completed August 6; August 13 was BRENT’s read date.
+2. **September 9 retail release check due / STEO noon–12:15 ET:** EIA September 7 retail observation / September STEO. Require new issue dates; compare the same spare-capacity definition and Q3/Q4. August STEO issue was August 11, forecast completed August 6; August 13 was BRENT’s read date.
 3. **September 9 research:** BRT-29 remaining work is event coverage/cause attribution, not repeating the five release summaries. Seek discrete additional non-baseline carriers; do not multiply AF-KLM or IAG subsidiaries. M remains an elapsed unresolved obligation, separate from T. BRT-12 needs original contract IDs/roll method and upstream E&P OAS/refiner-stress history; recovered November vendor history is a diagnostic only.
 4. **September 9 source follow-up:** same exact PortWatch target query, August 31–September 1, in setups/2026-09-08_market-docket-owner-read.md; Vortexa weekly Sidi and official No.1097/publication/original No.954. No target or Q1/Q2/Q3 clock substitution. OSPREY’s October 1 retiming is not adopted.
 5. **September 10 noon ET:** WPSR week September 4; table 1 fuel/SPR and table 2 PADD 3 inputs/production. Preserve September 4/11 SPR windows and two-print rule; source/spec wording gap remains. Reuse the prior paired EIA comparison method.
@@ -23,7 +23,7 @@ Booted as BRENT on Will's September 9 09:47 ET reference. Read startup/context/r
 
 ## OPEN THREADS / WATCHES
 
-- Original matched futures and upstream credit evidence remain missing; broad HY is not a substitute. Air-carrier count remains unestablished; no final grade from search incompleteness.
+- BRT-12 original historical futures construction and upstream credit evidence remain missing; current named-month snapshots now captured, but they do not resolve that historical ordering question; broad HY is not a substitute. Air-carrier count remains unestablished; no final grade from search incompleteness.
 - CPC partial restart is dated August evidence; SPM-3/current throughput unverified. Jazan restart/current loss and older incident backlog remain open. No aggregate outage figure certified.
 - Treasury operative instruments and real-flow effects; SPR exact contract/current authority; same-series Russian product flows and Vortexa Sidi remain open.
 - WALTER Saudi SIG-011 / Dangote SIG-023 and prior FALCON source follow-ups remain deferred. OSPREY’s Urals differential ask also deferred: no new dated same-basis quote obtained.
@@ -42,4 +42,4 @@ Inbox: one OSPREY packet triaged DEFERRED, left in place for owner/source review
 
 ## WORKBOOK HEALTH
 
-Boot rc=0 with instrument WARNINGS, not an all-clear: partial paired/composite coverage, old Cushing observation and stale incidents. Predictions retain existing evidence gaps and dates. Git pull/push deferred because PROME has uncommitted work; own boot closeout committed locally. No data-vintage refresh inferred from file writes. Raw evidence and limitations: research/2026-09-09_boot.md.
+Boot rc=0 with instrument WARNINGS, not an all-clear: partial paired/composite coverage, old Cushing observation and stale incidents. Predictions retain existing evidence gaps and dates. Git pull now completed with network approval after shared tree cleared; normal path-scoped commit and safe-push closeout resumed. No data-vintage refresh inferred from file writes. Raw evidence and limitations: research/2026-09-09_boot.md.

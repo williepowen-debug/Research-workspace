@@ -1,15 +1,17 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-08 — scoped owner evidence read.** EIA physical primary and WPSR schedule freshly opened; named-contract vendor bars re-parsed from PROME captures; official matched settlement UNKNOWN. **Surface written: 2026-09-08 — authorized owner catch-up complete to available evidence.** Option marks remain September 2 vintage; broker execution UNKNOWN. Standing weekly grades below retain their own September 6/7 reconciliation dates. [Source record](setups/2026-09-08_market-docket-owner-read.md).
+**Last real data refresh: 2026-09-09 09:58 ET — market quotes/curve only.** Futures quote times 09:46–09:49 ET, equities 09:57–09:59 ET; Yahoo vendor observations, not exchange-authenticated settlements. Weekly physical data remain August 28; option marks remain September 2 and broker receipt UNKNOWN. [Morning capture](research/2026-09-09_morning/REPORT.md). September 8 source research and September 6/7 weekly grades retain their dates.
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 9 startup — scoped boot receipt
+## September 9 morning market catch-up
 
-Boot at 09:49 ET: eight checks OK, instrument WARNINGS; corrections register has no unreceipted named row. Live retrieval reproduced August 28 EIA weekly data; Cushing freshness, partial paired measurements and incident-source warnings remain. Monitor price labels are diagnostic, not a named-contract settlement/curve update. XLE open has elapsed and receipt remains PENDING at the read TERRY card. OSPREY late terminal-fire claims deferred for owner/source review. Thesis v5.8 and WQ-189/192 STAND DOWN unchanged. [Boot evidence and limits](research/2026-09-09_boot.md). Header above retains the prior comprehensive evidence vintage.
+[CONF Yahoo capture 09:58:57 ET] November Brent BZX26 100.67 (+2.81%); October WTI CLV26 95.79 (+2.97%); USO 148.63 (+1.78%); XLE 65.535 (+1.18%). Futures observations about 10 minutes delayed; percentages versus September 8 same-instrument vendor daily closes. Brent Nov–Jan +7.54/bbl versus prior +6.62: indicative backwardation wider by 0.92, legs up to 166 seconds apart. November WTI−Brent −8.14. [Full prices, source times, product spreads and limits](research/2026-09-09_morning/REPORT.md).
+
+Prompt supply-risk premium is bid; no fresh capacity-loss, settlement-counter or durable-price-floor inference. v5.8/WQ-189/192 STAND DOWN unchanged. Physical observations and source gaps retain prior vintages; XLE receipt still unknown. [Startup checks](research/2026-09-09_boot.md): eight OK, instrument WARNINGS, no unreceipted named correction; OSPREY source follow-up deferred.
 
 ## September 8 workbook reconciliation
 
