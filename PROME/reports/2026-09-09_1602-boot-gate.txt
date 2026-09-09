@@ -1,0 +1,42 @@
+
+======================================================================
+  PROME GATE · BOOT · ✅ PASS (7 blocking / 18 advisory)
+======================================================================
+  ✅ [BLOCKING] env_doctor: rc=0
+  ✅ [BLOCKING] position_agreement: rc=0
+  ✅ [BLOCKING] board_scan: rc=0
+  ⚠️  [advisory] firetime (owner-routed flags persist): rc=1 · → 1 flag(s). Rule: a DATE flag means FULL LOGIC RE-READ of the artifact (a date fix can break gate sequencing)
+       ↳ ⚠️  PROME/proposals/2026-09-07_wq163-183-190-191-RULED.md
+       ↳ ⚠️  DEAD POINTER: `PROME/proposals/2026-09-02_wq-batch-RULED.md` does not exist
+       → scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace
+  ⚠️  [advisory] agent freshness (ground-truth vs narrative): rc=1 · unread from-agent packets in PROME/inbox: DAEDALUS×1, FALCON×1, OSPREY×1 — drain before briefing/spawning thos
+       → run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first
+  ✅ [advisory] R1 corrections check (FORUM-6 ①): rc=0
+  ✅ [BLOCKING] GATES fired-unexecuted: none
+  ✅ [BLOCKING] GATES token vocabulary: 20 rows all lead with enumerated tokens
+  ✅ [advisory] GATES consumed_by (consumer passed / cell empty): all LIVE rows have live consumers or declared NONE
+  ✅ [BLOCKING] GATES review_by passed — LIVE INSTRUMENT rows: no live INSTRUMENT row past its review date
+  ✅ [advisory] GATES review_by passed — LIVE JUDGEMENT rows: no live JUDGEMENT row past its review date
+  ✅ [advisory] GATES last_checked blank on LIVE INSTRUMENT rows: every live INSTRUMENT row carries a last_checked
+  ✅ [advisory] DOCKET overdue-unannotated: every past-dated PENDING row carries an OVERDUE annotation
+  ✅ [advisory] docket_view drift (SCRATCH calendar prose vs DOCKET): rc=0
+  ⚠️  [advisory] WILL_QUEUE fresh + nothing due/passed/aging: ROLL-OFF **153 WQ-117 leg C axis form** (done 8d ago); ROLL-OFF **152 DAEDALUS → L5** (done 8d ago); ROLL-OFF **149 Sitting-2 mint amendment (done 8d ago); ROLL-OFF **150 Root carve-out ④ vs runb (done 8d ago); ROLL-OFF **147 Staleness sweep M1 — `-- (done 8d ago) (+6 more)
+       → PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)
+  ✅ [advisory] willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN): rc=0
+  ✅ [advisory] HEARTBEAT amendment chain (<4): chain at 2 amendment(s) (header-declared count agrees)
+  ✅ [BLOCKING] dashboard panels nonempty: one-liner/channels/levels populated
+  ✅ [advisory] dashboard vintage ≤72h: built 2026-09-09 15:22 (1h ago)
+  ✅ [advisory] dashboard content assertions (PAT-105): one-liner sane · split populated · tile floor met · grid agrees with freshness
+  ✅ [advisory] boot↔closeout symmetry: 6 boot-read surfaces all registered
+  ✅ [advisory] .claude/{agents,skills} root↔PROME parity: 7 agent/skill definition(s) identical
+  ⚠️  [advisory] desk catalyst summons (BD-02): LABOR 2026-09-08 [MED] Canadian counter-tariffs on CA$27.6B of US go (PAST-DUE 1d — ungraded?) · LABOR 2026-09-10 [HIGH] Initial claims w/e Sep 5 (+ continuing claims (in 1d)
+       → WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above
+  ⚠️  [advisory] spawn list — L0 due-row candidates (WQ-184): rc=1 · READ (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); cap
+       ↳ ⚠️ D:L189	2026-09-07	2	BROCK	DARK	last self-commit 2026-09-03 (6d ago, 76852a29f) < row start 2026-09-07	CRMT / Silver P
+       ↳ ⚠️ D:L253	2026-09-09	0	TERRY	DARK	last self-commit 2026-09-05 (4d ago, c9c381f62) < row start 2026-09-09	XLE $65C Sep-30
+       ↳ ⚠️ D:L266	2026-09-09	0	FERT	DARK	last self-commit 2026-09-05 (4d ago, 0c25283e5) < row start 2026-09-09	FERT DTN weekly 
+       → DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it
+  ✅ [advisory] byte budgets (flow-rule meter): STATUS.md 69% · ACTIVE_DECISIONS.md 60% · HEARTBEAT.md 74% · SCRATCH.md 43% · MEMORY.md 69%
+======================================================================
+  ✅ all blocking gates pass — advisories above are judgment calls, read them.
+
