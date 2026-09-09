@@ -1,0 +1,21 @@
+{
+  "retrieval_window_utc": "2026-09-09 02:57\u201303:00 UTC (approximate fetch window; file capture later)",
+  "captured_at_utc": "2026-09-09T03:06:36.530366+00:00",
+  "files": [
+    {
+      "path": "totan-page.html",
+      "source_url": "https://www.totan.com/archives/15647",
+      "sha256": "b97071d308ecaf7b8eacaef826770c381546bfcafe94dc654313cc6652472276"
+    },
+    {
+      "path": "totan-table.png",
+      "source_url": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-1983-1030x320.png",
+      "sha256": "abe72a645d8efe2022a88b542bd02033fd73f82dcafc6e6e955459da849db094"
+    },
+    {
+      "path": "boj-jp-index-linked.xlsx",
+      "source_url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jp/jp20260909.xlsx",
+      "sha256": "cbf9c2ab7f3a6e7dd638e4d5332f7cd363250e5fbb0f343707a87519e83ba67b"
+    }
+  ]
+}

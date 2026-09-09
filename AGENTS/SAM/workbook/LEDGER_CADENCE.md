@@ -1,6 +1,6 @@
 # SAM ledger cadence declaration
 
-**Written 2026-09-01** in answer to the `ledger_staleness --nudge SAM` flag (13 ledgers "behind") and PROME's owner-confirm on `GPIF_FLOWS` (DAEDALUS staleness sweep #4). **Owner: SAM.** Per root `CLAUDE.md` § Data Hygiene, every ledger is either **FROZEN** or **LIVE with a content-derived vintage** — never the silent-rot middle. **None of SAM's ledgers is frozen.**
+**Written 2026-09-01** in answer to the `ledger_staleness --nudge SAM` flag (13 ledgers "behind") and PROME's owner-confirm on `GPIF_FLOWS` (DAEDALUS staleness sweep #4). **Owner: SAM.** Per root `CLAUDE.md` § Data Hygiene, every ledger is either **FROZEN** or **LIVE with a content-derived vintage** — never the silent-rot middle. **FLOW/VX are frozen; BOJ_OIS is additionally frozen as of September 8. The September 1 disposition table below is historical; current observations live in STATUS.**
 
 ## 🔑 The finding this file exists to record
 
@@ -16,7 +16,8 @@
 | `USDJPY.tsv` | daily | 2026-09-01 | next business day | ✅ REFRESHED this session |
 | `CFTC_JPY.tsv` | weekly (Fri) | 2026-08-25 vintage | Fri 2026-09-04 | ✅ REFRESHED this session |
 | `MOF_FLOWS.tsv` | weekly (Thu) | wk 2026-08-16→22 | ~Thu 2026-09-03 | ✅ REFRESHED — already at MOF's newest published week |
-| `BOJ_OIS.tsv` | daily | 2026-08-31 as-of | next business day | ✅ REFRESHED. ⛔ **Source remains DO-NOT-CITE** (~36pp under the market); TFX rewire owed |
+| `BOJ_OIS.tsv` | FROZEN September 8 | historical source vintages only | none | Impeached source; preserved unchanged, never a current fallback. |
+| `BOJ_MEETING_OIS.tsv` | indicative quote / reviewed image | 2026-09-09 11:15 JST assumed | next publisher chart; visual review required | LIVE with source-time age limit (4 days) and nearest-decision expiry; see `BOJ_OIS_README.md`. |
 | `CPI.tsv` | monthly | Jul National / Aug Tokyo | ~2026-09-18 | ✅ REFRESHED this session |
 | `TRADE_BALANCE.tsv` | monthly | Jul (revised −¥638.3B) | 2026-09-16 | ✅ REFRESHED — picked up the sokuho→revised change this session |
 | `JGB_AUCTIONS.tsv` | per-auction | 2026-08-20 20Y | **2026-09-03 30Y** | ✅ REFRESHED this session |

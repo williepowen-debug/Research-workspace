@@ -8,7 +8,13 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
-## 2026-08-27 — 3 scripts (2 new, 1 repaired on three axes) · a TSV schema extension backfilled over 1,129 rows · the ledger-nudge disposition
+## 2026-09-08 — BOJ source replacement and KB quoting repair
++
++`boj_ois.py` now ingests visually reviewed Totan meeting-OIS images after live hash/date/term/arithmetic validation. New `BOJ_MEETING_OIS.tsv` keeps incremental 25bp equivalents and cumulative expected counts separate; old `BOJ_OIS.tsv` is frozen unchanged. Same boot slot; successful and failed reads both surface in collapsed boot output. Tool inventory now excludes regression-test modules (`test_*.py`), which had falsely flagged the prior funding test as an unwired operational tool. No automatic image decoder: a new chart requires a new SAM visual review, and failures write no current quote. Source contract and refresh recipe: `workbook/BOJ_OIS_README.md`. Ten regression tests plus live validation/ingestion passed. Code before-image is retained with the integration audit package; no historical prediction files changed.
++
++KB strict parsing exposed malformed quotes in 169, 197 and 209. Quoting-only repair committed separately (`c922e355b`); the analytical consolidation of 209 follows in its own integration change. Named-company profiles were not populated from sector totals. No other agents' files edited.
++
++## 2026-08-27 — 3 scripts (2 new, 1 repaired on three axes) · a TSV schema extension backfilled over 1,129 rows · the ledger-nudge disposition
 
 **NEW — `scripts/rate_differential.py`** (boot-wired). Mechanizes the SAM-41 bar: US leg at **Treasury par-curve primary**, JP leg at own MOF. Built because the check had been carried *"still un-run, next session"* for **eight** sessions — **a check deferred eight times is not a check**. First run found the condition had been met **eight days earlier**. Writes `workbook/RATE_DIFFERENTIAL.tsv`. Its tight-margin warning was **corrected the same day** from *"the instrument cannot resolve"* to *"fragile to the alignment choice — a prompt to TEST, not a reason to withhold a grade,"* with the reversal recorded inline so the next session cannot repeat it.
 

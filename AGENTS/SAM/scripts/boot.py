@@ -181,7 +181,9 @@ def tool_inventory():
     """
     wired = {name for _, name, _, _, _ in BOOT_SEQUENCE}
     declared = documented_manual()
-    on_disk = sorted(p.name for p in SCRIPTS_DIR.glob("*.py") if p.name != "boot.py")
+    # Regression tests are not operational tools and must not run during boot.
+    on_disk = sorted(p.name for p in SCRIPTS_DIR.glob("*.py")
+                     if p.name != "boot.py" and not p.name.startswith("test_"))
     rows = [(n, n in wired, _one_line_purpose(SCRIPTS_DIR / n)) for n in on_disk]
     unwired = [n for n in on_disk if n not in wired]
     manual = [n for n in unwired if n in declared]
