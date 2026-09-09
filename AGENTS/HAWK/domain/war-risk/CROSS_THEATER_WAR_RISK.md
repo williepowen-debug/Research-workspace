@@ -1,21 +1,19 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-09T00:53:55+00:00.** Derived from both owners' `workbook/WARRISK.tsv`, FALCON September7 brief and OSPREY September2 analysis. Data vintages do not advance on this local refresh. Prior narrative retained verbatim at `domain/sources/2026-09-08_CROSS_THEATER_WAR_RISK_before.md`.
+**Refreshed: 2026-09-09T02:03:16.151660+00:00.** Derived from both owners' WARRISK ledgers and September8 briefs. Source dates below do not advance on regeneration. Fingerprints: `registry/derived_inputs.json`.
 
-| Leg / owner | Last sourced premium | Print date | Age September8 | Present reading |
-|---|---|---|---:|---|
-| Hormuz/Arabian Gulf / FALCON | 7.5–10% of hull, Marcus Baker/Marsh via Platts | July22 | 48 days | STALE; current premium UNKNOWN |
-| Black Sea / OSPREY | >1% of hull; one broker ~1.5%, The Insurer | July21 | 49 days | STALE; current premium UNKNOWN |
-| Southern Red Sea / FALCON | >1% of hull | July23 | 47 days | STALE |
-| Bab / FALCON | ~0.5% of hull | July23 | 47 days | STALE; comparability to Red Sea quote unresolved |
-| West Coast Saudi, no transit / FALCON | 0.1% of hull | July23 | 47 days | STALE; registered origin-risk falsifier lacks a fresh print |
+| Leg / owner | Latest recovered premium evidence | Evidence date / age on September8 | Reading |
+|---|---|---|---|
+| Hormuz / FALCON | 7.5–10% of hull, Marsh via Platts | July22 /48 days | STALE; current premium UNKNOWN |
+| Black Sea / OSPREY | 1% of hull, Noah citing Gibson | August21 relay /at least18 days; Gibson assessment date UNKNOWN | Newer recovered evidence, still beyond10-day bar; not a fresh September quote |
+| Southern Red Sea / FALCON | >1% of hull | July23 /47 days | STALE |
+| Bab / FALCON | ~0.5% of hull | July23 /47 days | STALE; comparability unresolved |
+| West Coast Saudi, no transit / FALCON | 0.1% of hull | July23 /47 days | STALE; no fresh origin-risk test |
 
-All exceed the existing ten-day cross-theater bar. FALCON attempted a re-pull September7 without recovering a new premium; OSPREY's September2 analysis reports the same gap and stale August7 TD6 proxy. These are SEARCH-NOT-FOUND observations on limited channels, never proof that no new rate exists. Marsh premium and placement-capacity arithmetic trace to one individual, not independent confirmations.
+The Black Sea July21 >1% (one broker~1.5%) quote remains historical. The August21 relay does not establish an exact decline without matched coverage, voyage, deductible and assessment dates. Current cross-theater premium ratio is UNKNOWN. Named-broker dependence and retrieval gaps remain; limited searches are not proof that no newer print exists.
 
-**Perimeter correction:** FALCON's September7 WARRISK header distinguishes Iranian-linked hull insurance from Western GCC/corridor coverage. A US strike on an Iranian shadow-fleet tanker can be outside the quoted book. Silence there cannot establish unchanged risk for that hull. JWC listings describe listed geography; they are not prices or evidence that Iranian-linked hulls carry the same cover.
+OSPREY's September4 TD6 freight observation is newer than its August7 proxy, but freight is not an insurance premium and cannot independently identify a strike effect. Its recovered report of standard-market withdrawal, RNRC declining and specialist cover remaining describes a segmented insurance market; it does not prove all cover disappeared or that crude buyers withdrew. OSPREY's buyer gate requires its own buyer evidence.
 
-**Historical comparison only:** July data supported a rough Hormuz/Black-Sea contrast and a 75–100x Hormuz/West-Coast-Saudi ratio. Neither is a September8 observation. Source/basis heterogeneity and named-broker dependence remain. No re-price or ratio grade from stale prints.
+FALCON's US-on-sanctioned-Iran-hull axis must be separated from Iran/proxy-on-non-Iranian-hull attacks. **Attacker and sanctions status do not establish the actual policy covering a hull.** GCC/corridor premiums cannot automatically price Iranian-linked exposure. JWC listings define geography, not price or insurance eligibility. New GCC port threats remain threats until executed and do not guarantee repricing.
 
-**Existing tests retained, not amended:** next Black Sea print DOWN versus >1%; next Hormuz print UP versus 7.5–10%; origin leg rising materially would challenge transit-only decomposition; >10% sustained/withdrawal condition remains ungraded without source evidence. Refer to prior registered text and `thesis/FALSIFICATION.md`; HAW-18 is closed history, HAW-19's own letter governs current predictions. No threshold added.
-
-MRPL breadth test remains the August20 recorded negative (no additional refiners); clause repetition at one buyer is a distinct durability observation. New durability registration remains deferred. Follow-up September11: named broker/underwriter source upgrade and owner clarification; no feed build, scope retirement or new market claim authorized here.
+Existing premium/origin/withdrawal tests remain in `thesis/FALSIFICATION.md`; none is automatically graded from stale or differently based observations. MRPL breadth resolved August20 with zero additional refiners; a forward durability test remains unregistered. Review September11: matched broker/underwriter print, coverage basis, and owner dictionary confirmation. No live external feed is represented by the dependency checker.

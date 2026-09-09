@@ -12,3 +12,5 @@ Stale_By	Date	YYYY-MM-DD or empty		No		Expected review/expiration date; empty if
 DerivedFrom	String	Comma-separated KB IDs (KB-{AGT}-NNN) or empty		No		Parent KB entries this claim was built on (provenance chain)
 Vectors	String	Comma-separated refs (VX-{AGT}-NN, BRT-NN, →AGENT) or empty		No		Thesis connections and cross-agent links
 Notes	String	Free text		No		Catch-all: caveats, assumptions, gaps, implications, verification instructions
+VX.Guard	Categorical	CLOCK;EVENT;CLOCK+EVENT		Yes	EVENT	VX-only scheduling contract; active rows retain 45-day backstop, SUPERSEDED rows excluded.
+VX.Watch_Source	String	Named publishers and retrieval gap		Yes		VX-only named event watch sources; not evidence that a live feed exists.

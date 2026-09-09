@@ -1,0 +1,396 @@
+{
+  "read_at": "2026-09-09T01:48:56.373093+00:00",
+  "signals": [
+    {
+      "id": "SIG-W-20260424-002",
+      "path": "BOARD/SIG-W-20260424-002-ofac-hengli-dalian-teapot-sanction-iran-oil.md",
+      "sha256": "451a80ddc6fcd0d9c45f8474aee97218edf463f0c34b318481067cf9c260a162",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Hengli sanction is not automatic compliance or removed supply; past wind-down/test window, no current flow estimate."
+    },
+    {
+      "id": "SIG-W-20260424-003",
+      "path": "BOARD/SIG-W-20260424-003-iran-diplomacy-cascade-araghchi-islamabad-contradictions.md",
+      "sha256": "5c2f03519f4af3703276d549b289efded50b54a3c6ef301fffb13b59aaba1599",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Historical contradictory Islamabad talks; superseded by April26 channel update. No current scenario re-mark; FALCON owns current Gulf diplomacy."
+    },
+    {
+      "id": "SIG-W-20260424-010",
+      "path": "BOARD/SIG-W-20260424-010-usaf-me-airlift-surge-3-carrier-posture.md",
+      "sha256": "a527357fe3c9eb77bc50feb3a2f294d5b0cae107fd973ece6e8bc225f31cb6f3",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Historical force posture, not fresh kinetic damage; no revival of old carrier/airlift counts."
+    },
+    {
+      "id": "SIG-W-20260426-007",
+      "path": "BOARD/SIG-W-20260426-007-us-navy-uss-pinckney-iran-shadow-fleet-intercept-arabian-sea.md",
+      "sha256": "e60db8174b9757b15e1ec5b7363360a6ed8ed85a1cca05f4bdbe1513843bc2f6",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Sevan redirected in Arabian Sea: outside HAW19 corridor and event window, not sunk or boarded evidence."
+    },
+    {
+      "id": "SIG-W-20260426-011",
+      "path": "BOARD/SIG-W-20260426-011-ukmto-045-26-tanker-hijack-mareeyo-somalia-arabian-sea.md",
+      "sha256": "7bea72f720fba1006608fe1f5e5a64dd83437e9d5d99e0d6f63e2f276d80e547",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Somali hijack has unresolved hull/cargo/actor in this packet; do not reclassify as Iranian action."
+    },
+    {
+      "id": "SIG-W-20260426-013",
+      "path": "BOARD/SIG-W-20260426-013-iran-delegation-pakistan-departure-trump-cancel-channel-disrupted.md",
+      "sha256": "2525f362cccc85632f1f882737dd04c6e3fb9a5ae4a55bd38bea004989f3f840",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Historical April27-28 meeting watch has passed; channel disruption was not terminal failure. Current Gulf state at FALCON."
+    },
+    {
+      "id": "SIG-W-20260426-015",
+      "path": "BOARD/SIG-W-20260426-015-nbc-iran-prior-strikes-us-bases-damage-worse-than-acknowledged-billions.md",
+      "sha256": "1de7a2b3bfe2eb089f8bec7230179a642a6185cefc8f47d986eb58c26d5e0da5",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Retrospective base damage, not a new April26 strike; retain Will framing correction. No additional event count."
+    },
+    {
+      "id": "SIG-W-20260428-006",
+      "path": "BOARD/SIG-W-20260428-006-merz-german-chancellor-us-humiliated-iran-no-exit-strategy-ft.md",
+      "sha256": "7f3a8b32dc3a2453f0bdc19d7ac48b37a51b7f6455c840c1e46c85cc2981101a",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Merz quotation is rhetoric, not implemented sanctions or codification; old date/day-count framing not adopted."
+    },
+    {
+      "id": "SIG-W-20260429-001",
+      "path": "BOARD/SIG-W-20260429-001-brent-115-8-session-streak-jun-2022-high.md",
+      "sha256": "640b729fd4a5d491ea585895cc861baca5e3978f9c12b86e8c398f11c203dffc",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Historical intraday Brent price, not a live mark or daily close; BRENT owns price series."
+    },
+    {
+      "id": "SIG-W-20260429-003",
+      "path": "BOARD/SIG-W-20260429-003-iranian-rial-record-low-181m-isna-15pct-2-days.md",
+      "sha256": "0a1bc345a9f29164fcd116d9dca09f96d0704c434291e5d2459bfc878220e405",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Old rial trigger attribution unresolved; no current HAWK causal claim or late scenario change. Historical investigation retired from current action scope."
+    },
+    {
+      "id": "SIG-W-20260505-001",
+      "path": "BOARD/SIG-W-20260505-001-iea-sp-citi-crude-inventory-drawdown-205mmbbl-staunovo-ft.md",
+      "sha256": "a634ca99f03cdcbedf0df0af65ffc5da6928876bf04720721b73275575e47b40",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Inventory draw is not demand destruction; attribution and timing caveats retained. Historical only."
+    },
+    {
+      "id": "SIG-W-20260505-002",
+      "path": "BOARD/SIG-W-20260505-002-iea-apr-lng-33mt-2yr-low-qatar-driver-120bcm-2030-loss.md",
+      "sha256": "2f0b47b4454e233cf4f88830c59269ddb6cc5b6291125ef3b527f0f7fe39a507",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "April LNG 33Mt and IEA cumulative projection are different objects; YoY not MoM correction retained. Not current outage volume."
+    },
+    {
+      "id": "SIG-W-20260505-003",
+      "path": "BOARD/SIG-W-20260505-003-eia-us-gasoline-stocks-decade-low-summer-driving-ft.md",
+      "sha256": "d8f0edbcf237f2c4ee8be14e753ba4da1b3001fc001fc37e73f52608ba9a2579",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Historical seasonal gasoline chart; not a current stocks print. BRENT owns measurement."
+    },
+    {
+      "id": "SIG-W-20260505-004",
+      "path": "BOARD/SIG-W-20260505-004-irgc-hormuz-sovereign-corridor-warning-project-freedom-confrontation.md",
+      "sha256": "e29f933c6c5b3d3afd7ebc5120af87abc4c1f7ef53bac8787836befe855d7a07",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Corridor warning/map and oversight-body report are not proved collection or enforcement. No automatic CODIF RED."
+    },
+    {
+      "id": "SIG-W-20260505-005",
+      "path": "BOARD/SIG-W-20260505-005-usaf-tanker-emergency-squawks-tel-aviv-hormuz-post-break-corrected.md",
+      "sha256": "d353338da5f5c19803911a51a5d496d6b2b0a8c09a2e77e61c01453f6cc02c8a",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Emergency squawk is not fresh force buildup; no causal Iranian-action inference."
+    },
+    {
+      "id": "SIG-W-20260505-009",
+      "path": "BOARD/SIG-W-20260505-009-chevron-ceo-wirth-milken-bloomberg-physical-oil-shortages-1970s-eu-jet-fuel.md",
+      "sha256": "580fdd5bb8dcf09c1dcd91bea3d91f6c40f417cb1ad0623fcddfbddbe2ba323e",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Wirth forecast is attributed commercial judgment; mixed-cause airline cuts do not establish a single supply-loss total."
+    },
+    {
+      "id": "SIG-W-20260506-006",
+      "path": "BOARD/SIG-W-20260506-006-energy-aspects-amrita-sen-cnbc-billion-barrels-need-higher-prices-demand-destruction.md",
+      "sha256": "fe560ca6956c2cf9becece88d22a64fb582a12c127cc85bb7518728c94043e36",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Sen estimate is a forecast/rounded cumulative deficit, not observed stockout. Internal floor language inconsistent; no quantitative carry."
+    },
+    {
+      "id": "SIG-W-20260506-011",
+      "path": "BOARD/SIG-W-20260506-011-nexta-us-russia-fertilizer-record-march-243m-q1-564m-tariff-paradox-hormuz-cascade.md",
+      "sha256": "3404d46b3235630359dc130a213b14f385af73521ddde4a9e5e078690febf6c9",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Fertilizer trade figures and tariff explanations remain historical; FERT owns products. No new tariff or potash claim adopted."
+    },
+    {
+      "id": "SIG-W-20260506-012",
+      "path": "BOARD/SIG-W-20260506-012-irgc-drone-strikes-pdki-komala-camps-northern-iraq-substituted-for-visegrad-misframe.md",
+      "sha256": "7032c5653bc7f9e924ffc262f3a69dccb86e64f24081067da03632dabd3eea4f",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Iranian dissident camps, not US base; preserve target-class correction, no US-retaliation fire."
+    },
+    {
+      "id": "SIG-W-20260507-001",
+      "path": "BOARD/SIG-W-20260507-001-john-hudson-wapo-cia-iran-3-4mo-blockade-survive-75pct-launchers-70pct-missiles.md",
+      "sha256": "0b63f567c2be6978abb69b9b4c5fbd3e0d250ddb501ecaeb34a2000b20f19c19",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Intelligence estimate separates economic endurance from military capability; not realized inventory or a current survival clock."
+    },
+    {
+      "id": "SIG-W-20260509-008",
+      "path": "BOARD/SIG-W-20260509-008-energy-investment-hormuz-asia-exposure.md",
+      "sha256": "13e45b93a71cf33463f5f19a0a599c50733d83686c5f1cdf3106b7bc998f8428",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "Unverified chart composite; no new Asia exposure percentages adopted. SAM/ZHAO/BRENT own consequences."
+    },
+    {
+      "id": "SIG-W-20260509-011",
+      "path": "BOARD/SIG-W-20260509-011-iran-hormuz-undersea-cable-risk.md",
+      "sha256": "f18b6a1ba589b2214f4f69d8929adb28856e3c295f656d20967ba5a3798d2523",
+      "role": "action",
+      "disposition": "noted",
+      "read_scope": "Body read in full",
+      "notes": "Tasnim cable-fee editorial is a proposal, not state takeover; does not qualify as enacted CODIF evidence."
+    },
+    {
+      "id": "SIG-W-20260509-014",
+      "path": "BOARD/SIG-W-20260509-014-oil-products-inventory-draw-hormuz-closure-claim.md",
+      "sha256": "1f753e5ba023ef5278ef73d6024bdd975d1a77410abf8ffde1fee94faa0f5c28",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Signal/correction/caveat sections read; unrelated recipient routes omitted",
+      "notes": "AIS false-zero and stock/flow aggregation caveats retained; no literal zero-transit or current September floor claim."
+    },
+    {
+      "id": "SIG-W-20260511-001",
+      "path": "BOARD/SIG-W-20260511-001-mt-hasna-3rd-iranian-tanker-disabled-centcom-blockade-enforcement-5-6.md",
+      "sha256": "fc8b53a34cd3c4ec1cfef55e85f89d36b23c13db8c7448d52445f5623333e847",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "May6 Hasna disabling is historical. Do not splice its campaign counter into August HAW19 baseline; dictionary notes the population issue."
+    },
+    {
+      "id": "SIG-W-20260511-002",
+      "path": "BOARD/SIG-W-20260511-002-sea-star-sevda-4th-5th-tankers-disabled-3-us-destroyers-attacked-thwarted-5-8.md",
+      "sha256": "c5aa61c8c9422e1b18c4caedccced6748b6690304a5fb578dffc41608e509d3c",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "May8 Sea Star III/Sevda disabled, not confirmed sunk; historical counter differs from August population. No HAW19 increment."
+    },
+    {
+      "id": "SIG-W-20260511-003",
+      "path": "BOARD/SIG-W-20260511-003-iran-seizes-ocean-koi-barbados-false-flag-warning-5-8.md",
+      "sha256": "bf455c988dafbcae13d16233879c1d61c53af309be2ba304e81f591c7f91163f",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Ocean Koi boarding with contested flag/cargo; outside HAW19 event window, no present denial inference."
+    },
+    {
+      "id": "SIG-W-20260511-004",
+      "path": "BOARD/SIG-W-20260511-004-uae-2nd-territorial-strike-2-missiles-3-drones-3-wounded-5-8.md",
+      "sha256": "ce0154b72cb2d4427dea8b2923ff270af37689f7ecb829dfdf005b2564eaf4ec",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Old UAE attack; Project Freedom pause did not itself stop other actions. FALCON owns current event ledger."
+    },
+    {
+      "id": "SIG-W-20260511-005",
+      "path": "BOARD/SIG-W-20260511-005-trump-rejects-iran-counterproposal-totally-unacceptable-maximalist-demands-5-10.md",
+      "sha256": "e924824329615f969e30f3078faeb8f9f9c1699264b5e23a39922040cb83db30",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Historical negotiating demands/rejection; rhetoric does not establish a binding instrument."
+    },
+    {
+      "id": "SIG-W-20260511-006",
+      "path": "BOARD/SIG-W-20260511-006-al-kharaitiyat-qatari-lng-first-iran-approved-hormuz-transit-5-10.md",
+      "sha256": "bd017214044c94c9df262e3facfd772972e161979c1e92a5ea4e2971f6733b52",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Selective LNG transit is not broad reopening or crude supply; permission does not prove toll payment."
+    },
+    {
+      "id": "SIG-W-20260511-007",
+      "path": "BOARD/SIG-W-20260511-007-lma-insurance-availability-corrected-framing-crew-safety-not-pi-refusal-5-6.md",
+      "sha256": "acba6635d1e8751fece27442dc3c4428fff57a40b5008d3de0dd4a23eaccec05",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Insurance availability and masters willingness are separate; May quote not a fresh premium. Retain coverage/perimeter caveat."
+    },
+    {
+      "id": "SIG-W-20260511-032",
+      "path": "BOARD/SIG-W-20260511-032-aramco-nasser-fuel-stocks-critically-low-q1-earnings-call.md",
+      "sha256": "fc3d461be9f665bafaabd0645c8577ef33a6baae1c20edefca15e91d0f7364ff",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Refined-product stocks, cargo-on-water and forecast normalization are different objects; no current crude-loss total."
+    },
+    {
+      "id": "SIG-W-20260511-033",
+      "path": "BOARD/SIG-W-20260511-033-trump-irib-5-11-fresh-escalation-stupid-much-more-severe-nuclear-off-agenda.md",
+      "sha256": "19579deeeac4e25b3c064ee6b618636b1fa5ed3be41150fd1dc0ac6508884cdf",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "New on May11, historical now; threat of resumed escort is not execution. FALCON owns forward doctrine."
+    },
+    {
+      "id": "SIG-W-20260521-022",
+      "path": "BOARD/SIG-W-20260521-022-eia-spr-9-9-mmbbl-largest-weekly-drain-record-but-exchange-not-sale-framing-correction-kobeissi.md",
+      "sha256": "65df4212f3dd1f0e6666af3ec930dbd0021647cd71dc27b342c24ab29168de04",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "SPR exchange has current physical outflow and future return obligation; neither permanent sale nor present replenishment."
+    },
+    {
+      "id": "SIG-W-20260426-006",
+      "path": "BOARD/SIG-W-20260426-006-goldman-oil-shock-10k-jobs-month-mar26-resurfaced.md",
+      "sha256": "e86903f6453be27d0658b717b0ff33a9ae50726682dc7c4bfdeb6e66ed8bdf1a",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "March26 sensitivity was re-circulated in April; conditional jobs estimate not realized employment loss."
+    },
+    {
+      "id": "SIG-W-20260511-031",
+      "path": "BOARD/SIG-W-20260511-031-fang-diamondback-wti-brent-spread-puts-70m-q2q3.md",
+      "sha256": "4815d7eef3183960d7cb986ca0a452f77d5d6e6cd70d3ed563026fa339e12334",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Corporate hedge is real reported positioning; export-ban rationale analyst-attributed, not company statement or policy."
+    },
+    {
+      "id": "SIG-W-20260511-036",
+      "path": "BOARD/SIG-W-20260511-036-modi-india-fuel-cut-state-level-demand-destruction-fx-reserve-strain.md",
+      "sha256": "e8f24837d06a56a16af99c57fa2a26d72d9b37b8d50e96e6838e2d37f10b7adc",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Voluntary fuel-use appeal is not measured demand destruction. No current consumer-effect estimate."
+    },
+    {
+      "id": "SIG-W-20260424-008",
+      "path": "BOARD/SIG-W-20260424-008-corpus-christi-water-emergency-petrochem-sep-curtailment-risk.md",
+      "sha256": "53812156c9577746328d357483583d98a581814ce5a98ade01a27c41a9f1fc8e",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "September Corpus Christi water horizon remains potentially current; preserve BRENT/AEOLUS owner follow-up in audit, no war-loss attribution."
+    },
+    {
+      "id": "SIG-W-20260424-009",
+      "path": "BOARD/SIG-W-20260424-009-ukraine-mass-drone-missile-strike-crimea-w-russia.md",
+      "sha256": "71e151c692fd8505423e52ab2919d12a4c2798cbcf60dc4ce2c7c363c93f62f0",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Attack-in-progress map not confirmed facilities damage; old date/war-day claims not inherited."
+    },
+    {
+      "id": "SIG-W-20260424-013",
+      "path": "BOARD/SIG-W-20260424-013-gujarat-jhagadia-gidc-chemical-explosion-fire.md",
+      "sha256": "5c7d5cd886d4db22b27a09966f1b177e43df2e2c11e4dc13fcbefdb0508de5aa",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Unspecified industrial fire; commercial-promoter cascade and geography claims not adopted. No sabotage evidence."
+    },
+    {
+      "id": "SIG-W-20260426-003",
+      "path": "BOARD/SIG-W-20260426-003-louisiana-st-helena-pipeline-explosion-pine-grove.md",
+      "sha256": "fe7032658ee1434b948753d53f52e1438beb7ed514d920b55eeefa278b6dff67",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Pipeline operator/product/attribution unknown in packet; no geopolitical cause asserted."
+    },
+    {
+      "id": "SIG-W-20260511-034",
+      "path": "BOARD/SIG-W-20260511-034-hf-sinclair-tulsa-refinery-fire-3rd-us-event-7wks-amplification-corrected.md",
+      "sha256": "377ab324a79fd38d7a46790d8012cc271c6d66fccf6df0f431036dcc4570d903",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Tulsa operational upset not proved supply curtailment or sabotage; daily-fire amplification rejected."
+    },
+    {
+      "id": "SIG-W-20260511-035",
+      "path": "BOARD/SIG-W-20260511-035-spr-exchange-not-sale-blas-largest-weekly-release-corrected-framing.md",
+      "sha256": "6d284cc1db32540f68205b1eb16947bcfba65ca739c7bd7d28dfd72a6205e875",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "Exchange not sale/purchase; current inventories still depleted until return. Historical pending gross-print follow-up superseded by May21 packet."
+    },
+    {
+      "id": "SIG-W-20260506-007",
+      "path": "BOARD/SIG-W-20260506-007-who-mv-hondius-no-rats-close-contact-p2p-canary-refused-dock-pandemic-cluster-update.md",
+      "sha256": "abac0818ac247298a50b41c3e3d2c5d5690feaa33c43b0e2712901cf4d8d631f",
+      "role": "info",
+      "disposition": "info-only",
+      "read_scope": "Body read in full",
+      "notes": "WHO close-contact language not airborne classification; no military or current port-closure inference."
+    }
+  ],
+  "action": 8,
+  "info": 35,
+  "current_residue": "Corpus Christi September water exposure remains BRENT/AEOLUS scoped; no current primary measurement in historical packet. HAW19 counter population issue retained in vessel dictionary.",
+  "limits": "Archival triage, not primary world re-verification. Historical substantive checks not retrospectively claimed completed."
+}

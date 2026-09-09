@@ -1,0 +1,24 @@
+{
+  "scope": "two production aggregates;11 dependency edges;9 unique owner input files",
+  "clean_real_production": true,
+  "cwd_tmp_cli_rc": 0,
+  "missing_review_cli_rc": 2,
+  "real_stale_FALCON_blob": {
+    "commit": "7f9dfb8bf",
+    "path": "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv",
+    "sha256": "214c28bacb9a1220124de0b6c39f3449644e633519fb10db65a1176c4299a7a0",
+    "current_sha256": "1c067e35403db910b868bce8e0847f79db86bb4df3a95fff3446a471c8b77226",
+    "detected_edges": [
+      [
+        "AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md",
+        "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv"
+      ]
+    ]
+  },
+  "refused_source_change_after_capture": true,
+  "missing_empty_invalid_receipt_rejected": true,
+  "predictions_sha256_unchanged": "e43100cb26bd00f1a65880876ee3fdaa5f6197d6873586355169c923fd6a14be",
+  "entire_previous_KB_prefix_unchanged": true,
+  "tsv_widths_and_10_watch_sources": "PASS for modified VX/FLOW/SCHEMA/CATALYSTS and 11 new KB rows; existing historical KB width defects preserved",
+  "limits": "Fingerprints do not prove external freshness or semantic consumption. CLI drift branch shares inspect(); capable drift uses actual prior/current production FALCON blobs without modifying peer files."
+}

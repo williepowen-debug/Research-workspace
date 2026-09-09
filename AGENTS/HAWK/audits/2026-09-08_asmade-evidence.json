@@ -1,0 +1,244 @@
+{
+  "HAW-01": {
+    "commit": "d78a9eb2ac448b9303346454cf73b40f6d8fedf3",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-01",
+      "2026-02-18",
+      "US strikes Iranian nuclear facilities before end Q1 2026",
+      "25%",
+      "Q1 2026",
+      "CONFIRMED",
+      "2026-02-28",
+      "Operation Epic Fury launched",
+      "",
+      "Originally HAWK-01"
+    ],
+    "commit_date": "2026-03-06T17:04:24+00:00"
+  },
+  "HAW-02": {
+    "commit": "d78a9eb2ac448b9303346454cf73b40f6d8fedf3",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-02",
+      "2026-02-18",
+      "Iran retaliates by disrupting Hormuz within 72h of US strike",
+      "60%",
+      "Conditional",
+      "CONFIRMED",
+      "2026-03-03",
+      "Hormuz closed, fire-upon warning",
+      "",
+      "Originally HAWK-02"
+    ],
+    "commit_date": "2026-03-06T17:04:24+00:00"
+  },
+  "HAW-03": {
+    "commit": "d78a9eb2ac448b9303346454cf73b40f6d8fedf3",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-03",
+      "2026-02-18",
+      "No US military intervention in Venezuela in 2026",
+      "95%",
+      "2026",
+      "OPEN",
+      "",
+      "",
+      "Rhetoric only so far"
+    ],
+    "commit_date": "2026-03-06T17:04:24+00:00"
+  },
+  "HAW-04": {
+    "commit": "d78a9eb2ac448b9303346454cf73b40f6d8fedf3",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-04",
+      "2026-03-01",
+      "Scenario B (sustained campaign) is base case through Q2",
+      "55%",
+      "Q2 2026",
+      "OPEN",
+      "",
+      "Scenario C confirmed → downgrade. Watch Kuwait curtailment.",
+      "REASSESSED Mar 6: B still base (55%) but C elevated to 35%. Storage crisis = active C trigger. Kuwait forced curtailment = C confirmation event."
+    ],
+    "commit_date": "2026-03-06T17:04:24+00:00"
+  },
+  "HAW-05": {
+    "commit": "d78a9eb2ac448b9303346454cf73b40f6d8fedf3",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-05",
+      "2026-03-01",
+      "Hezbollah stays dormant (no mass activation)",
+      "65%",
+      "Conditional",
+      "OPEN",
+      "",
+      "Mass rocket/ground offensive from Lebanon",
+      "UPDATED Mar 6: Lebanon govt banning HZB ops + LAF disarmament = reduced near-term risk. Confidence DOWN slightly (was 70%) — disarmament fragile, HZB may resist."
+    ],
+    "commit_date": "2026-03-06T17:04:24+00:00"
+  },
+  "HAW-07": {
+    "commit": "cb15fa20f0a25a2f497eb1e6c20819697ca1a3c4",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-07",
+      "2026-04-20",
+      "Brent closes >$105 within 5 sessions if ceasefire lapses without extension",
+      "65%",
+      "Apr 22-26 2026",
+      "OPEN",
+      "",
+      "Ceasefire extended OR deal announced OR Brent fails to break $100 despite lapse",
+      "Already $95.42 Apr 20. Phase 3 facility targeting + Hormuz physical closure implies $105-130 range. Defer levels to BRENT."
+    ],
+    "commit_date": "2026-04-20T20:49:21-04:00"
+  },
+  "HAW-08": {
+    "commit": "cb15fa20f0a25a2f497eb1e6c20819697ca1a3c4",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-08",
+      "2026-04-20",
+      "Iran executes retaliatory kinetic action for Apr 19 US ship seizure within 7 days",
+      "55%",
+      "Apr 19-26 2026",
+      "OPEN",
+      "",
+      "Iran opts for sustained diplomatic complaint + gunboat harassment only (no escalated strike on US asset)",
+      "Retaliation could be proxy (Houthi, IRGC asymmetric) or direct (gunboat engagement). Odds weighted by IRGC Rezaie \"we are waiting\" posture and history of asymmetric response."
+    ],
+    "commit_date": "2026-04-20T20:49:21-04:00"
+  },
+  "HAW-10": {
+    "commit": "132abbd04694034fe580c7aa0438655d4da3099e",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-10",
+      "2026-06-08",
+      "Houthi commercial-vessel kinetic attack (mechanism) on Bab al-Mandab (threshold) by Jul 1.",
+      "25%",
+      "Jun 1 - Jul 1 2026",
+      "OPEN",
+      "",
+      "No clean void path; failure to occur in window = FAILED.",
+      "Date_Made Jun 8. Houthi quiet through 2026 to date (no commercial-vessel attacks per WashInstitute/MARAD); Iran rhetorical-only Jun 1 (\"activate\" threat). BRT-28 mirrors this date. Promotion of Bab al-Mandab from emerging to core convergence vector on confirm."
+    ],
+    "commit_date": "2026-06-08T10:50:26-04:00"
+  },
+  "HAW-12": {
+    "commit": "b2b64e5d34ee8c461ef78a0aafcbacb62a1e70e7",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-12",
+      "2026-06-19",
+      "First US-Iran (Switzerland/Vance) negotiating round reconvenes with a confirmed date or is held by Jul 3",
+      "55%",
+      "Jun 19 - Jul 3 2026",
+      "OPEN",
+      "",
+      "",
+      "Round reconvenes/held by Jul 3 = CONFIRMED; no firm new date by Jul 3 = FAILED",
+      "Diplomatic sub-gate = B-vs-C discriminator. First round postponed->called off 6/18-19 over Lebanon; \"direct meeting in coming days\" is mediator-sourced (low-conf timing, KB-193). Lebanon trigger defused 6/19."
+    ],
+    "commit_date": "2026-06-19T14:51:53-04:00"
+  },
+  "HAW-13": {
+    "commit": "b2b64e5d34ee8c461ef78a0aafcbacb62a1e70e7",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-13",
+      "2026-06-19",
+      "At least ONE harder Hormuz verification gate clears by Jul 4: liner majors (Maersk/MSC/CMA-CGM/Hapag) resume Hormuz transit OR JWC lifts/steps-down listed-area JWLA-033",
+      "45%",
+      "Jun 19 - Jul 4 2026",
+      "OPEN",
+      "",
+      "",
+      "Either gate clears by Jul 4 = CONFIRMED; both still unmet Jul 4 = FAILED",
+      "Physical gate already partially clearing (dark transits); this requires a HARDER gate (liner OR insurance). Sub-agent Jun 19: \"wont normalize for months\" (KB-192). Tests announced->verified."
+    ],
+    "commit_date": "2026-06-19T14:51:53-04:00"
+  },
+  "HAW-14": {
+    "commit": "b2b64e5d34ee8c461ef78a0aafcbacb62a1e70e7",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-14",
+      "2026-06-19",
+      "Iran does NOT execute direct kinetic retaliation against Israeli or US assets over the Lebanon issue within 30 days",
+      "70%",
+      "Jun 19 - Jul 19 2026",
+      "OPEN",
+      "",
+      "",
+      "No Iranian direct kinetic on Israel/US over Lebanon by Jul 19 = CONFIRMED; Iran executes such kinetic = FAILED",
+      "THE D-trigger-stays-unfired prediction (30d window per Will). Bear: Israel structural incentive to keep Lebanon hot (Netanyahu-sabotage intel KB-191) + Iran made Lebanon a precondition. Bull/base rate: this war = threat + reduced-scale not full retaliation; Trump/US pressuring Israel = stabilizer."
+    ],
+    "commit_date": "2026-06-19T14:51:53-04:00"
+  },
+  "HAW-15": {
+    "commit": "b2b64e5d34ee8c461ef78a0aafcbacb62a1e70e7",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "row": [
+      "HAW-15",
+      "2026-06-19",
+      "Ukraine does NOT strike Russian CRUDE-export infrastructure (Baltic terminals Primorsk/Ust-Luga, Novorossiysk, or Druzhba pipeline) by Jul 15",
+      "65%",
+      "Jun 19 - Jul 15 2026",
+      "OPEN",
+      "",
+      "",
+      "No crude-export-infra strike by Jul 15 = CONFIRMED; such a strike occurs = FAILED",
+      "Brent flip-trigger #2 (SUMMARY.md): targeting refinery-only since Apr = product/crack not crude. If FAILED (pivot occurs), story moves from cracks to Brent/crude. Decision-relevant for BRENT."
+    ],
+    "commit_date": "2026-06-19T14:51:53-04:00"
+  },
+  "HAW-16": {
+    "commit": "54f8356cc0bd7658f203f522e4c9b3f8abcb7d32",
+    "path": "AGENTS/HAWK/thesis/PREDICTIONS.tsv",
+    "row": [
+      "HAW-16",
+      "2026-07-12",
+      "No Gulf-ally OR Iranian oil-PRODUCTION-infrastructure hit (Aramco/ADNOC/Kharg-oil-terminal class) AND no vessel confirmed SUNK by Jul 26",
+      "70%",
+      "Jul 12 - Jul 26 2026",
+      "OPEN",
+      "",
+      "",
+      "A production-infra hit OR a vessel sunk = FAILED (C->D-runaway confirm); neither by Jul 26 = CONFIRMED (calibrated-escalation read validated)",
+      "Registered at the 7/12 D->base re-mark (B8/C34/D58). The D-becomes-RUNAWAY kill-switch: both sides have spared oil-PRODUCTION infra for the ENTIRE war (US spared Kharg oil 3x; Iran hit bases not Aramco/ADNOC) = strong base rate -> 70% NO-hit. A hit or a sunk vessel would break the oil decoupling (Brent >$85 hold) and flip D past 65. Decision-relevant for BRENT. Complements the still-open Brent-sustain test."
+    ],
+    "commit_date": "2026-07-12T08:05:44-04:00"
+  },
+  "HAW-17": {
+    "commit": "0b172009f22dec737f282a852dce1749beb4dea5",
+    "path": "AGENTS/HAWK/thesis/PREDICTIONS.tsv",
+    "row": [
+      "HAW-17",
+      "2026-07-12",
+      "Ukraine's shadow-fleet tanker campaign does NOT become a measurable Russian WORLD-CRUDE-export disruption (a NAMED crude-export terminal hit, OR a Kpler/Bloomberg-confirmed seaborne-crude-liftings drop, OR an insurer/buyer war-risk pullback) by Aug 1 — i.e., it stays attritional shadow-fleet harassment + fuel-to-Crimea military logistics, not a world-crude-supply event",
+      "60%",
+      "Jul 12 - Aug 1 2026",
+      "OPEN",
+      "",
+      "",
+      "A world-crude-supply disruption by Aug 1 (named terminal / liftings drop / buyer pullback) = FAILED (Brent-bid channel opens); stays attritional/military-logistics = CONFIRMED",
+      "Registered 7/12 to capture the NEW third channel HAW-15's wording (terminals) + the refinery campaign (products) both missed: Ukraine's industrial-scale shadow-fleet tanker strikes (7/6-12; 21-42 vessels claimed). Base rate leans CONFIRMED (Earnest-Will-style harassment != aggregate supply shock; mirrors the Iran-Hormuz decoupling read) + the campaign is MIXED (crude tankers = world-market; Azov fuel tankers = Crimea military logistics, NOT world crude). Decision-relevant for BRENT (the products->crude bridge). Cross: VX-HAWK-SHADOW-01/02, UKR-01."
+    ],
+    "commit_date": "2026-07-12T08:33:33-04:00"
+  },
+  "predecessor_markdown": {
+    "commit": "b758a8cda",
+    "path": "AGENTS/HAWK/PREDICTIONS.md",
+    "text": "# HAWK PREDICTIONS\n\nGeopolitical and military risk predictions with falsification criteria.\n\n---\n\n## Active Predictions\n\n### P-HAWK-01: Iran Strike Before Q2 2026\n**Made:** 2026-02-18  \n**Prediction:** If Geneva talks fail, US strikes Iranian nuclear facilities before end of Q1 2026  \n**Probability:** 25%  \n**Trigger:** Talks collapse + no diplomatic off-ramp  \n**Falsification:** Deal reached, or Q2 2026 arrives with no strike  \n**Market Impact:** Oil +$20-30, VIX +20, flight to safety  \n**Status:** MONITORING\n\n### P-HAWK-02: Strait of Hormuz Disruption\n**Made:** 2026-02-18  \n**Prediction:** If US strikes Iran, Iran retaliates by disrupting Hormuz shipping within 72 hours  \n**Probability:** 60% (conditional on strike)  \n**Trigger:** US strike on Iranian territory  \n**Falsification:** Strike occurs but Hormuz remains open  \n**Market Impact:** Oil +$30-50 additional, shipping chaos, inflation shock  \n**Status:** CONDITIONAL\n\n### P-HAWK-03: No Venezuela Military Intervention 2026\n**Made:** 2026-02-18  \n**Prediction:** Despite rhetoric, no US military intervention in Venezuela in 2026  \n**Probability:** 95%  \n**Trigger:** Rhetoric remains rhetoric  \n**Falsification:** Military action occurs  \n**Market Impact:** Minimal (if correct)  \n**Status:** BASELINE\n\n---\n\n## Prediction Scoring\n\n| ID | Made | Resolved | Correct | Notes |\n|----|------|----------|---------|-------|\n| — | — | — | — | No predictions resolved yet |\n\n---\n\n## Pending Predictions\n\n*Predictions to be formalized as situations develop:*\n\n- Taiwan escalation timing (needs trigger)\n- Russia-Ukraine resolution (needs signal)\n- Trade war escalation (needs policy catalyst)\n\n---\n\n## Notes\n\nHAWK predictions focus on **binary geopolitical events** rather than gradual stress transmission. These are harder to time but can have outsized market impact.\n\nPrediction confidence should account for:\n- Intelligence limitations (we see public info only)\n- Political unpredictability\n- Fog of war dynamics\n"
+  },
+  "migration": {
+    "commit": "91c301279",
+    "path": "AGENTS/HAWK/workbook/PREDICTIONS.tsv",
+    "text": "Pred_ID\tDate_Made\tPrediction\tConfidence\tTimeframe\tStatus\tDate_Resolved\tOutcome\tNotes\nHAWK-01\t2026-02-18\tUS strikes Iranian nuclear facilities before end Q1 2026\t25%\tQ1 2026\tCONFIRMED\t2026-02-28\tOperation Epic Fury launched\nHAWK-02\t2026-02-18\tIran retaliates by disrupting Hormuz within 72h of US strike\t60%\tConditional\tCONFIRMED\t2026-03-03\tHormuz closed, fire-upon warning\nHAWK-03\t2026-02-18\tNo US military intervention in Venezuela in 2026\t95%\t2026\tOPEN\t\t\n"
+  }
+}
