@@ -87,31 +87,5 @@ class IncidentQuantity(unittest.TestCase):
         self.assertEqual(self.check(), [])
 
 
-class ProbeCoverage(unittest.TestCase):
-    def evaluate(self, scope, ok=True):
-        row = dict(test_id='PAIR', probe='yf:HO=F', kind='falsifier',
-                   max_stale_days='4', window_req='daily', probe_scope=scope)
-        instrument._PROBE_CACHE.clear()
-        with patch.object(instrument, 'probe_yf', return_value=(
-                ok, instrument.datetime.now(), 'fixture: one available leg')):
-            return instrument.evaluate(row)[0]
-
-    def test_fresh_component_does_not_certify_whole_measurement(self):
-        findings = self.evaluate('component_only')
-        self.assertIn('PARTIAL_COVERAGE', [f['code'] for f in findings])
-        self.assertTrue(any(f['level'] == instrument.AMBER for f in findings))
-
-    def test_complete_legacy_probe_is_not_blanket_downgraded(self):
-        self.assertEqual([f['code'] for f in self.evaluate('')], ['REACHABLE'])
-
-    def test_dead_component_keeps_failure(self):
-        findings = self.evaluate('component_only', ok=False)
-        self.assertIn('DEAD', [f['code'] for f in findings])
-        self.assertTrue(any(f['level'] == instrument.RED for f in findings))
-
-    def test_unknown_scope_cannot_silently_pass(self):
-        self.assertIn('UNKNOWN_PROBE_SCOPE', [f['code'] for f in self.evaluate('typo')])
-
-
 if __name__ == '__main__':
     unittest.main()

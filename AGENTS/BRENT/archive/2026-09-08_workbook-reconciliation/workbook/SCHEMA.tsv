@@ -1,5 +1,3 @@
-# HISTORICAL SCHEMA — reviewed 2026-09-08. Describes the frozen KB.tsv corpus, not REGISTRY.tsv, predictions, incidents or current research.
-# Kept for archival consumers; original schema rows unchanged. Current navigation: workbook/README.md.
 variable_name	data_type	allowed_values	missing_code	required	default	description
 ID	String	KB-{AGT}-NNN (sequential per agent)		Yes		Unique identifier for each knowledge base entry
 Date	Date	YYYY-MM-DD		Yes		Date the claim was logged

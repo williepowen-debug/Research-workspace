@@ -1,0 +1,198 @@
+{
+  "reviewed_at_utc": "2026-09-09T03:33:05.339002+00:00",
+  "scope": "workbook structure, source-record reconciliation and component-probe disclosure; no new market grade",
+  "baseline_head": "46d9e21f8bcc63e585cd0a82497e918898ce5674",
+  "registry": {
+    "rows": 49,
+    "live": 31,
+    "retired": 18,
+    "protected_fields_unchanged": [
+      "test_id",
+      "kind",
+      "status",
+      "source",
+      "symbol",
+      "series_label",
+      "direction",
+      "level",
+      "classification",
+      "label",
+      "probe",
+      "window_req",
+      "co_instrument",
+      "max_stale_days",
+      "last_verified",
+      "supersedes",
+      "cadence"
+    ],
+    "changed_metadata": {
+      "MKT-BZ-F-ABOVE-140": [
+        "consumer_docs"
+      ],
+      "MKT-BZ-F-ABOVE-120": [
+        "consumer_docs"
+      ],
+      "MKT-BZ-F-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "MKT-BZ-F-BELOW-85": [
+        "consumer_docs"
+      ],
+      "MKT-BZ-F-BELOW-75": [
+        "consumer_docs"
+      ],
+      "MKT-BZ-F-BELOW-70": [
+        "consumer_docs"
+      ],
+      "MKT-CL-F-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "MKT-CL-F-BELOW-70": [
+        "consumer_docs"
+      ],
+      "MKT-USO-BELOW-80": [
+        "consumer_docs"
+      ],
+      "MKT-USO-BELOW-75": [
+        "consumer_docs"
+      ],
+      "MKT-STNG-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "MKT-XLE-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "MKT-XOP-ABOVE-150": [
+        "consumer_docs"
+      ],
+      "MKT-VLO-ABOVE-160": [
+        "consumer_docs"
+      ],
+      "FRED-DCOILBRENTEU-ABOVE-140": [
+        "consumer_docs"
+      ],
+      "FRED-DCOILBRENTEU-ABOVE-120": [
+        "consumer_docs"
+      ],
+      "FRED-DCOILBRENTEU-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "FRED-DCOILWTICO-ABOVE-100": [
+        "consumer_docs"
+      ],
+      "GATE-V3-A": [
+        "spec_home",
+        "consumer_docs"
+      ],
+      "GATE-V3-A2": [
+        "spec_home",
+        "consumer_docs"
+      ],
+      "GATE-V3-B": [
+        "spec_home",
+        "consumer_docs"
+      ],
+      "KILL-LEG2-TRANSIT": [
+        "spec_home",
+        "consumer_docs"
+      ],
+      "KILL-LEG2-JWC-LISTING": [
+        "notes",
+        "consumer_docs"
+      ],
+      "STAGE-A-AIS": [
+        "spec_home"
+      ],
+      "BRT-26-RIGS": [
+        "notes",
+        "consumer_scripts"
+      ],
+      "THESIS-BRENT": [
+        "spec_home",
+        "notes"
+      ],
+      "THESIS-WTI-BRENT": [
+        "spec_home",
+        "notes"
+      ],
+      "CUSHING-20M": [
+        "spec_home",
+        "notes",
+        "consumer_scripts",
+        "consumer_docs"
+      ],
+      "HY-ENERGY-OAS": [
+        "spec_home",
+        "notes"
+      ],
+      "WAR-RISK-HALVES": [
+        "spec_home"
+      ],
+      "COT-FUEL": [
+        "spec_home"
+      ],
+      "DIESEL-CRACK": [
+        "spec_home",
+        "notes"
+      ],
+      "EU-STORAGE": [
+        "spec_home"
+      ],
+      "SPR-OPERATIONAL-400": [
+        "notes",
+        "consumer_docs"
+      ],
+      "TANKER-LIVENESS": [
+        "spec_home",
+        "notes",
+        "consumer_docs"
+      ]
+    },
+    "all_spec_home_and_consumer_doc_paths_exist": true,
+    "history_relocated_verbatim": [
+      "BRT-26-RIGS",
+      "CUSHING-20M"
+    ],
+    "component_only_real_rows_tested": [
+      "THESIS-WTI-BRENT",
+      "DIESEL-CRACK",
+      "TANKER-LIVENESS"
+    ]
+  },
+  "preservation": {
+    "archive_hashes": "all pass",
+    "frozen_and_historical_workbook_files": "all original hashes unchanged",
+    "other_canonical_files_unchanged": [
+      "thesis/PREDICTIONS.tsv",
+      "TRADE.md",
+      "thesis/THESIS.md",
+      "docket/CATALYSTS.tsv",
+      "refinery_damage/INCIDENTS.tsv"
+    ],
+    "tracker_alert_rows": "unchanged"
+  },
+  "trade_excerpts": {
+    "original_hashes_verified": 37,
+    "exact_destination_matches": 36,
+    "relative_link_only_changes": [
+      "BE-02"
+    ]
+  },
+  "ordinary_closeout_growth": {
+    "baseline_trade_bytes": 6781,
+    "current_trade_bytes": 6781,
+    "result": "one observed post-cleanup closeout instance passed; not a future guarantee"
+  },
+  "checks": {
+    "regression": "12 passed; old behavior failed 2 intended coverage cases before fix",
+    "lessons_prose_index": "26/26 match; unchanged",
+    "calendar": "20 events and 8 standing rows match",
+    "read_cap": "PASS; STATUS rotate-tier advisory",
+    "corrections": "0 unreceipted named rows",
+    "boot": "network run: threshold/EIA OK; instrument WARNINGS; ledger nudge FINDINGS pending same-commit metadata update and unchanged-ledger reasons",
+    "ledger_nudge_reasons": "Registry metadata repaired in this commit. TRADE: no new broker receipt/rule. LESSONS_INDEX: 26/26 verified unchanged. CATALYSTS: 20/8 generated view verified, no new event/date/disposition. INCIDENTS: no fresh facility evidence in this workbook-only pass; retain explicit backlog. board_log: no packet consumed. No false observation stamps.",
+    "ledger_age": "11 ledgers scanned; no stale rows at --days 7; four frozen ledgers preserved; other independently-owned TSVs disclosed by scanner",
+    "weekday": "Two existing historical false positives: sat is a verb; Sun Jan31 refers to 2027. No calendar edit."
+  },
+  "remaining": "Original BRT-12 basis/upstream credit, BRT-29 event coverage, incident/flow evidence and publication-dependent releases remain open at canonical readers."
+}

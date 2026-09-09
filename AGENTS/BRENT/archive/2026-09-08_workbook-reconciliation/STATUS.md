@@ -7,10 +7,6 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 8 workbook reconciliation
-
-Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.
-
 ## September 8 batch 2 — airline evidence and BRT-12 instruments
 
 Five airline candidates received a second source review: AF-KLM has a supported group-level fuel-linked announcement; three additional eligible carriers remain unestablished. Lufthansa’s identifiable fleet package was announced in April; Air NZ’s annual narrative does not establish a new August decision. BRT-12 now has a reproducible fixed-November vendor-bar diagnostic; original futures construction and upstream credit history remain missing. FRED rejected the April build plan’s claimed energy-series ID while its broad-HY control worked; runtime already labels broad HY correctly. No prediction grade or rule changed. [Evidence, source receipts and exact remaining work](research/2026-09-08_batch2/REPORT.md).

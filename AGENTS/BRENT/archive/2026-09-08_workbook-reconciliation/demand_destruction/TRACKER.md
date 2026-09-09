@@ -1,10 +1,10 @@
 # DEMAND DESTRUCTION TRACKER
 
-> **SCOPED-PARTIAL 2026-09-08 workbook closeout:** registry/read-path reconciliation and saved-source caveats integrated; existing routine lines retain their observation/grade dates. No new threshold, market grade or broker receipt. Workbook navigation: `../workbook/README.md`; validation: `../workbook/RECONCILIATION_2026-09-08.json`.
+> **SCOPED-PARTIAL 2026-09-08 batch 2 closeout:** airline candidate follow-up, BRT-12 source verification and fixed-November vendor history completed to available evidence; three qualifying carriers and original crack/upstream-credit ordering remain unestablished. EIA publication state checked; September 9 fuel/STEO and September 10 WPSR have not yet published. See `../research/2026-09-08_batch2/REPORT.md`.
 
 
 > # 📟 **REGISTERED ALERT LINES — THIS BLOCK IS READ AT RUN TIME BY THE THREE CLOUD ROUTINES. IT IS THE SINGLE POINT OF TRUTH FOR WHAT THEY WATCH.**
-> **SCOPED-PARTIAL refresh: 2026-09-08 workbook closeout.** Re-verified this block’s registered reader pointers and unchanged line cells against the workbook before-image; no new observation adopted on lines 1–11. Component-only diesel/WTI–Brent/tanker probes now disclose incomplete coverage. Prior EIA publication check and fixed-November research retain their dates and limits in `research/2026-09-08_batch2/REPORT.md`.
+> **SCOPED-PARTIAL refresh: 2026-09-08 batch 2 closeout.** Re-verified line 4’s last available observation/date at the EIA primary and next release date. Lines 1–3 and 5–11 retain their previously dated observations/grades; fixed-November research does not replace lines 9–11. No alert letter, settlement counter, weekly grade or broker receipt changed. Research and exclusions: `research/2026-09-08_batch2/REPORT.md`.
 > **Next WPSR: Thursday September 10, noon ET, week ending September 4. Next Friday pair: September 11, Baker Hughes ~13:00 ET / COT ~15:30 ET.**
 > ### 🔓 **FRAME-BREAKER CLAUSE — AMENDED 2026-09-07 14:42 ET BY WILL RULING (WQ-189). IF YOU ARE A ROUTINE, THIS IS THE TEXT THAT GOVERNS; THE OLD BARE WORDING IS DEAD.**
 > **A frame-breaker is a `confirmed DESTROYED-CAPACITY event`: a clean FAL-01 · a named-major with confirmed capacity loss · or a vessel SUNK — *with confirmed loss of cargo or of Gulf export/transit throughput; an unladen hull, or a hull in a trade already interdicted, is NOT a destroyed-capacity event.*** **Canonical home: `setups/SPECS_GATES.md` BG-02; read the complete spec and `TRADE.md` decision path. The spec wins on drift.**

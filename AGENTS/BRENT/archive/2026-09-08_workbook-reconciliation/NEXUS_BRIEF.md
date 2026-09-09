@@ -3,9 +3,9 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 workbook reconciliation closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
+**As of:** 2026-09-08 batch 2 closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
 
-C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced consumer metadata, saved source corrections, trade-excerpt preservation and lesson/index agreement rechecked. Three single-component probes now report PARTIAL_COVERAGE instead of implying complete measurement. [Workbook navigation](workbook/README.md) and [validation](workbook/RECONCILIATION_2026-09-08.json). Batch 2's airline and fixed-November diagnostic findings retain their dates; market levels, incident estimates, holdings and final grades were not refreshed by this workbook pass. BRT-12 original construction/upstream credit, BRT-29 full carrier count and other source gaps remain open.
+C6 SCOPED-PARTIAL batch 2 boundary: airline announcement follow-up, FRED series metadata, fixed-November vendor crack history through September 4, and EIA publication state were checked. AF-KLM supports one group-level event; three eligible named carriers remain unestablished. The April build plan’s energy-series ID is invalid; broad HY is not upstream E&P. The recovered crack diagnostic does not reproduce the original BRT-12 construction or authenticate settlements. Prior market levels, holdings, incident states and final grades were not refreshed. [Results and remaining work](research/2026-09-08_batch2/REPORT.md). Prior catch-up source corrections remain in its dated report.
 
 ## CROSS-DOMAIN
 

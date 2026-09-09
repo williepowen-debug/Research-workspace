@@ -1,4 +1,4 @@
-# BRENT SCRATCH — September 8, 2026 workbook reconciliation closeout
+# BRENT SCRATCH — September 8, 2026 batch 2 closeout
 
 ## CHANGES SINCE LAST SESSION
 
@@ -6,7 +6,10 @@ OSPREY supplied a new L140 packet and independently retimed its Q2 flow comparis
 
 ## WHAT I DID THIS SESSION
 
-Reconciled workbook navigation and metadata with maintained research. Corrected registry spec/consumer paths; moved two historical amendments out of consumer_scripts into notes verbatim; added saved LMA/SPR/FRED corrections. Added explicit component-only scope to three probes and extended instrument_check to expose partial coverage. Falsified old behavior then passed 12 regression checks. Verified archived excerpts and their live destinations (36 exact, one relative-link-only repair); TRADE growth check remains at the cleanup baseline. Frozen ledgers, numerical rules, probe endpoints, original last_verified dates and prediction fields preserved. [Workbook entrypoint](workbook/README.md); measured receipt in workbook/RECONCILIATION_2026-09-08.json. Earlier batch 2 research remains in its report.
+- Followed all five airline candidates to dated evidence dispositions; recovered IAG’s primary transcript and Air NZ’s May filing. AF-KLM has one supported group-level fuel-linked announcement; three eligible carriers remain unestablished. Lufthansa’s identifiable package was announced in April. Full tally: research/2026-09-08_batch2/REPORT.md.
+- Verified FRED rejects the April build plan’s energy-series ID while its broad-HY control works. Marked the plan historical; runtime already labels broad HY correctly and retains the energy-row retirement.
+- Recovered 124 matching November-contract vendor observations through September 4, with raw files, reproducible crack arithmetic and exclusions. This does not reconstruct BRT-12’s original futures basis, authenticate settlements or answer upstream credit timing.
+- Checked release availability and prepared exact comparison reads. Refreshed mandatory prediction notes and scoped readers; all first nine TSV fields preserved. No thesis version/probability, registered letter, threshold or trade change.
 
 ## NEXT SESSION (dated, future-verifiable)
 
@@ -33,8 +36,8 @@ XLE September 9 receipt with TERRY/Will. TRADE.md owns holdings and rules. First
 
 ## MAIL STATE
 
-Inbox: one OSPREY L140 packet read, logged and moved to processed; source follow-ups and Urals ask deferred. The OSPREY downgrade/rulings packet remains deferred for September 9 owner-text review, with its September 15 objection window recorded in RULINGS; no packet consumed or sent in this workbook pass. No marks changed or BRENT rule adoption. WALTER lane clear. Outbox: no new external send; existing undelivered source packets retained.
+Inbox: one OSPREY L140 packet read, logged and moved to processed; source follow-ups and Urals ask deferred. A second OSPREY downgrade/rulings packet arrived during closeout and is still sender-owned/uncommitted in inbox; triaged for September 9 primary-rule review, with its September 15 objection window recorded in RULINGS. No marks changed or BRENT rule adoption. WALTER lane clear. Outbox: no new external send; existing undelivered source packets retained.
 
 ## WORKBOOK HEALTH
 
-Workbook structurally reconciled, not universally fresh intelligence. REGISTRY metadata updated; protected numeric fields, probe endpoints and observation stamps preserved. LESSONS_INDEX matches all 26 prose lessons, unchanged. Frozen KB/VX/FLOW/GROUP_MAP and earlier verification receipts preserved. Network boot has instrument warnings and ledger-nudge findings; no all-clear claim. Unchanged TRADE has no fresh broker receipt and unchanged lesson/mail ledgers have no new events; reasons recorded in the commit. Existing data-quality gaps and future releases remain live work.
+Network boot ran with Ledger Nudge FINDINGS plus instrument advisories; not clean. Mail ledger updated. Registry, TRADE and lesson index deliberately unchanged: no new registered instrument/level, broker receipt or lesson amendment. Frozen ledgers untouched. TRACKER and NEXUS restamped with exact reverified/not-reverified boundaries. Scheduled releases remain pending; no unattended follow-up claimed.

@@ -848,16 +848,6 @@ def evaluate(row, quick=False):
         add(RED, "NO_INSTRUMENT", "no instrument declared — this test CANNOT be evaluated, ever")
         return findings, probed, ""
 
-    # Extends this instrument check; supersedes the implicit full-coverage reading
-    # of a healthy component probe. L06/L23: one leg cannot verify a spread.
-    # This disclosure grades no threshold and changes no existing action rule.
-    scope = (row.get("probe_scope") or "").strip()
-    if scope == "component_only":
-        add(AMBER, "PARTIAL_COVERAGE",
-            "probe checks one component only; full paired/composite measurement remains unverified")
-    elif scope:
-        add(AMBER, "UNKNOWN_PROBE_SCOPE", f"unrecognized coverage declaration {scope!r}; coverage unverified")
-
     detail = ""
     last_dt = None
 

@@ -95,14 +95,8 @@ Every section, including the dated containers, was reviewed. The archive is prov
 | 859–873 | Calendar replaced by pointer; surviving gap watches BG-09 |
 | 874–end | Historical archive navigation retained in before-image |
 
-## September 8 workbook reconciliation follow-up
-
-All 37 original excerpt hashes match the archived source. At their live destinations, 36 excerpts match exactly; BE-02 differs only in the required relative hyperlink repair (`RULINGS.md` to `../RULINGS.md`). Its operative wording is unchanged. The earlier JSON is a dated migration receipt, not current health state. New measured receipt: [RECONCILIATION_2026-09-08.json](RECONCILIATION_2026-09-08.json).
-
-The next ordinary-closeout growth check has now been observed after the catch-up and batch 2 passes: TRADE remains 6,781 bytes, equal to the cleanup baseline, with dated findings written to research notes. This is a completed measured instance, not a promise about future growth. Remaining rule-applicability and broker-evidence gaps above remain open at their complete readers.
-
 ## Acceptance and remaining boundaries
 
 See [CLEANUP_VERIFICATION.json](CLEANUP_VERIFICATION.json) for snapshot checks and byte budgets, and [cleanup report](../setups/2026-09-08_cleanup-report.md) for live checks. Representative routes: structural proposal reads BG + BH; off-ramp proposal reads BE + BH; mid-session frame-breaker reads BG + BH; position review reads holdings + BH and the relevant owner card. Each complete named file fits the 32,550-byte budget. This verifies reachability and retained content, not that a future agent will obey it.
 
-Unresolved applicability/evidence stays explicit at the deciding reader; it is not treated as permission. Cleanup grants no capital authority. Continue to update current action state and receipts in TRADE and place dated reasoning in evidence notes. The first post-cleanup growth check is recorded above; later closeouts must retain that separation.
+Unresolved applicability/evidence stays explicit at the deciding reader; it is not treated as permission. Cleanup grants no capital authority. The next ordinary closeout remains the future test of renewed growth: update current action state and receipts in TRADE, put dated reasoning in evidence notes, and compare sizes before/after. This session can establish a baseline, not claim a future pass.

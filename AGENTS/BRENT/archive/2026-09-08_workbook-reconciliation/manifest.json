@@ -1,0 +1,55 @@
+{
+  "baseline_head": "46d9e21f8bcc63e585cd0a82497e918898ce5674",
+  "files": {
+    "workbook/REGISTRY.tsv": {
+      "bytes": 74885,
+      "sha256": "c971eba1df31cc32a32d2234d49735e17d74f771709788cb1e6e7798507fd339"
+    },
+    "workbook/SCHEMA.tsv": {
+      "bytes": 1829,
+      "sha256": "1a1b90897e7839d533e51c8f100287ef06dc440681097c05c275789aea13eb03"
+    },
+    "workbook/LEDGER_GLOB": {
+      "bytes": 6948,
+      "sha256": "3b29b37c36b398091f94b38a382458e9e1f5a318652a5c7ae562c621fe7f0c6c"
+    },
+    "workbook/TRADE_OBLIGATIONS.md": {
+      "bytes": 14958,
+      "sha256": "817355cf99ad17f0a933ae74bb0d074b9cfaa30faac96785d9430833a76750e2"
+    },
+    "scripts/instrument_check.py": {
+      "bytes": 72535,
+      "sha256": "0be00418f885cf98e4f4d9723b1954b0a2cd06d0697fc5f0c4cf4b4bd10247da"
+    },
+    "scripts/tests/test_boot_reporting.py": {
+      "bytes": 4175,
+      "sha256": "b92c1e5fab1fcf9cd05adaef70fffe7925b0aa46608ff09c04fe10d8848b3296"
+    },
+    "STATUS.md": {
+      "bytes": 29847,
+      "sha256": "c05673b4d8eecd0c50068c83702409038e08954936f4e71945a7f6e244167a3a"
+    },
+    "SCRATCH.md": {
+      "bytes": 5573,
+      "sha256": "802a11f5bbf3e30c25d6bde078685f2b412fde03dceda90fc26bac0c9faa00f9"
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 8593,
+      "sha256": "1aeb2645136a8398941377eacee89a47567a747b0c4d86de0357a553005e14a7"
+    },
+    "demand_destruction/TRACKER.md": {
+      "bytes": 144729,
+      "sha256": "7aa921d74c1e46cf9241d105762c30aa51c5803d05853181e9206e5efb154908"
+    }
+  },
+  "unchanged_workbook_sha256": {
+    "KB.tsv": "c2e985fc50ea95ec1f52485122567f1703cafd44ce232cc3e2da272c069fe5b4",
+    "VX.tsv": "d75a576afe7363d28c6df184db95ec61d2c59c422c9f6f0a52db8ee13e893f30",
+    "FLOW.tsv": "1580a5a641239d5a66bc3682823d8bbb210d2b4f4ba749db47a2959c4f0664db",
+    "GROUP_MAP.tsv": "d4f540f4df1d99fe85ac06aeba4767bcb724b540d736c4a260080234cf18791d",
+    "LESSONS_INDEX.tsv": "ec2e22073186923deb92d1dbd75e1cab578789e89fbf2ce3b29acaf80d1186fe",
+    "TRADE_CLAUSES.json": "58d40af6da4b85fd8ec7e4d3a88322179277cea5d728ac6828b84dbc3fe2f8b0",
+    "CLEANUP_VERIFICATION.json": "d407edbffaf467e1ceecd68f8bc14b06ce56242d32e712f9342619963a4e3fa4",
+    "PILOT_STATE_REPLACEMENT_MEASUREMENT.md": "bb34b30f4ebc92e6b8098d36c0281adab4979f436f956662a9a2e2d761b8b917"
+  }
+}

@@ -91,10 +91,10 @@
 #   is cheaper than running.
 # ============================================================================
 
-# workbook TSVs — REGISTRY + LESSONS_INDEX live; SCHEMA describes frozen KB history; KB/VX/FLOW/GROUP_MAP frozen
+# workbook TSVs — REGISTRY + LESSONS_INDEX + SCHEMA live; KB/VX/FLOW/GROUP_MAP frozen
 workbook/*.tsv
 
-# the cross-agent mail ledger — top level, live; updated for consumed packets
+# the cross-agent mail ledger — top level, live, 214 rows, written every session
 board_log.tsv
 
 # forward-state ledger — live, 8 cols, revised whenever a modeled date moves
