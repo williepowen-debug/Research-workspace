@@ -1,11 +1,13 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 September retail pressure verified; STEO/WPSR comparisons prepared, releases pending. WQ-189/192 STAND DOWN.
+**Status:** 🟠 File-health audit completed; monitor repairs and evidence gaps open. September STEO published, comparison pending. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-09 10:50 ET pre-STEO review | STATUS commit: 0f71c2859
+**As of:** 2026-09-09 12:18 ET file-health audit | STATUS commit: d072e66b9
 
-C6 SCOPED-PARTIAL boundary: EIA retail September 7 observation released September 9; all five PADDs higher, diesel increase exceeds gasoline. Delayed option observations captured 10:26–10:27 and newer holding mirror reconciled in TRADE; no broker receipt. Futures/curve retain 09:58 capture. August STEO baseline and August 28 WPSR inputs saved; September STEO unpublished at 10:36 ET primary check. Operator/port and two additional airline-candidate sources reviewed. No new aggregate loss, authenticated settlement, prediction grade or thesis re-mark. Remaining legal/flow/incidents/calibration below retain prior dates. [Integrated report and worksheets](research/2026-09-09_squeeze-review/REPORT.md).
+C6 SCOPED-PARTIAL audit boundary: re-verified active file/read paths, trade-excerpt preservation, script behavior, routine-output coverage and publication state. September STEO published by 12:07 ET, forecast completed September 3; full same-series comparison pending. Quote/EIA freshness and completeness defects are reproducible; three composite monitors remain partial. Network boot rc=2, twelve existing tests pass but do not cover these defects. Runtime and scheduler repairs remain pending. No new market observation, broker receipt, legal/flow authentication, incident verification or prediction grade adopted; the dated synthesis below retains its own earlier vintages. [Audit, evidence and repair order](audits/2026-09-09_file-health/REPORT.md).
+
+Prior C6 SCOPED-PARTIAL pre-release boundary: EIA retail September 7 observation released September 9; all five PADDs higher, diesel increase exceeds gasoline. Delayed option observations captured 10:26–10:27 and newer holding mirror reconciled in TRADE; no broker receipt. Futures/curve retain 09:58 capture. August STEO baseline and August 28 WPSR inputs saved; September STEO unpublished at 10:36 ET primary check. Operator/port and two additional airline-candidate sources reviewed. No new aggregate loss, authenticated settlement, prediction grade or thesis re-mark. Remaining legal/flow/incidents/calibration below retain prior dates. [Integrated report and worksheets](research/2026-09-09_squeeze-review/REPORT.md).
 
 Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced consumer metadata, saved source corrections, trade-excerpt preservation and lesson/index agreement rechecked. Three single-component probes now report PARTIAL_COVERAGE instead of implying complete measurement. [Workbook navigation](workbook/README.md) and [validation](workbook/RECONCILIATION_2026-09-08.json). Batch 2's airline and fixed-November diagnostic findings retain their dates; market levels, incident estimates, holdings and final grades were not refreshed by this workbook pass. BRT-12 original construction/upstream credit, BRT-29 full carrier count and other source gaps remain open.
 
@@ -31,7 +33,7 @@ Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced c
 | Official Russian publication / OSPREY | No.1097/publication and original No.954 scope; specified diesel/gasoil windows | Next access; full read October 1 | Policy permission differs from recovery | Q1 independent of Q2/Q3; no clock reset. |
 | Official exchange / named-contract source | Authenticated matched settlements and BRT-12 original historical crack construction | Next accessible source | Live/daily vendor quotes do not certify settlement | Upgrade only on dated matched contracts; no continuous-roll delta. |
 | TERRY / Will | XLE broker check/execution receipt | September 9 open | Selection is not fill | Close pending execution only on receipt. |
-| EIA | September STEO; retail read completed | September 9 noon–12:15 ET | August projected sharp Q4 draw slowdown through supply recovery | Compare preserved seven-series baseline with same definitions/months; forecast revision is not observed recovery. |
+| BRENT research / EIA workbooks | September STEO comparison; issue now published | September 9 next research read | August projected sharp Q4 draw slowdown through supply recovery | Compare preserved seven-series baseline with same definitions/months; forecast revision is not observed recovery. |
 | EIA | WPSR week ending September 4 | September 10 noon ET | Existing SPR/Edouard read | Frozen observations; first print cannot decide two-print test. |
 | Baker Hughes / CFTC | Friday pair, COT as-of September 8 | September 11 ~13:00 / ~15:30 ET | Registered rig/positioning tests | Existing letters; prior grades carried until release. |
 | LIQUID | Energy-credit/systemic amplification evidence | Event-driven, no new deadline | No independent energy HY OAS here | Distinguish commodity stress from systemic transmission. |
@@ -55,7 +57,7 @@ Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced c
 
 ## NEXT DECISION POINT
 
-September 9 XLE receipt belongs to TERRY/Will; current owner intent does not confirm a fill. Next research checkpoint: September STEO noon–12:15 ET, then September 10 noon/later-file WPSR. Retail release and baseline preparation are complete; future releases remain pending and no unattended monitor was installed. PortWatch required target, decree authentication, BRT-29 count and BRT-12 history retain their gaps. Missing evidence remains UNKNOWN. [Pre-release findings and exact next comparisons](research/2026-09-09_squeeze-review/REPORT.md).
+September 9 XLE receipt belongs to TERRY/Will; current owner intent does not confirm a fill. Next research checkpoint: compare the now-published September STEO with the preserved August baseline, then September 10 noon/later-file WPSR. Retail review and baseline preparation are complete; WPSR remains future and no unattended monitor was installed. Audit repairs are prioritized in the linked report. PortWatch required target, decree authentication, BRT-29 count and BRT-12 history retain their gaps. Missing evidence remains UNKNOWN. [Pre-release findings and exact next comparisons](research/2026-09-09_squeeze-review/REPORT.md).
 
 ## WATCH (next 2–4 weeks)
 
