@@ -1,0 +1,116 @@
+
+########################################################################
+#                                                                      #
+#                         BRENT BOOT SEQUENCE                          #
+#                                                                      #
+#                  Tuesday, September 08, 2026  22:51                #
+#                                                                      #
+########################################################################
+
+  ⏳ Threshold Monitor...
+      🟠 STRUCTURAL STRESS BREACHES
+      🟠 GASREGW                 4.071  (level 4.000, +1.8%) (2026-08-31)
+      ⚠️  NEAR THRESHOLDS (within 5%)
+      CRUDE & FUTURES
+      🟢 Brent futures          $   99.47  (+1.58%)
+      🟢 WTI futures            $   94.44  (+1.52%)
+      🔴 Natgas futures         $    2.90  (-0.62%)
+      POSITIONS
+      🔴 STNG (tanker)          $   82.12  (-0.28%)
+      🔴 Cheniere               $  276.02  (-5.47%)
+      🔴 Halliburton            $   36.80  (-0.73%)
+      🔴 Schlumberger           $   57.10  (-0.71%)
+      🔴 DHT (VLCC pure)        $   20.82  (-0.24%)
+      🔴 Scorpio (product)      $   82.12  (-0.28%)
+      🔴 VIX             15.72  (+8.19%)
+
+  ⏳ EIA Weekly Monitor...
+      Source: 🟢 LIVE (EIA v2 API)
+      Week ending:   2026-08-28
+      Released:      LIVE pull (EIA v2 API)
+      Commercial crude:    424.5M bbl  (-4.45M WoW)
+      🟠 Cushing:           22.51M bbl  (+0.08M WoW)  — approaching 20.0M minimum
+      🟠 Gas demand YoY:  -1.61%                     — negative YoY — first soft signal
+      🔴 Refinery util:      98.0%                     — >95.0% — crack spread squeeze territory
+      PATH B TRIGGER STATUS (demand destruction)
+
+  ⏳ Catalyst Countdown...
+      🔴 IMMINENT (≤5 trading days)
+      🔴 ~2026-09-08 (Tue)   0d cal /  0d trd  L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION
+      🔴  2026-09-09 (Wed)   1d cal /  1d trd  XLE approved exit — OPEN; receipt pending
+      🟠  2026-09-09 (Wed)   1d cal /  1d trd  EIA retail gasoline/diesel — September 7 observation, holiday release ~10:00 ET
+      🟠  2026-09-09 (Wed)   1d cal /  1d trd  EIA September STEO — scheduled noon–12:15 ET
+      🔴  2026-09-10 (Thu)   2d cal /  2d trd  SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule)
+      🔴  2026-09-11 (Fri)   3d cal /  3d trd  Friday pair — Baker Hughes / COT as-of September 8
+      🔴  2026-09-18 (Fri)   10d cal /   8d trd  USO Sep-18 150/165 call debit spread — EXPIRY
+      🟠  2026-10-01 (Thu)   23d cal /  17d trd  🟠 EU STORAGE 80% FLOOR — DECISION DATE (bindi...
+      🟠  2026-10-04 (Sun)   26d cal /  18d trd  🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the N...
+      🔴  2026-10-09 (Fri)   31d cal /  23d trd  USO October 135C remainder — approved before-...
+      🟠 ~2026-10-10 (Sat)   32d cal /  23d trd  🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d a...
+      🟠 ~2026-11-01 (Sun)   54d cal /  38d trd  🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the t...
+      🔴 HIGH PRIORITY in horizon: 6
+
+  ⏳ Predictions-Due Scan...
+          ⚪ BRT-07  timeframe='Within 7 days of Hormuz reopening'  ⚠️ carries OUTER BOUND 2027-03-06 in its STATUS cell, which this scanner does not read — check it by hand
+
+  ⏳ Lesson-Conflict Check...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Instrument Check...
+      🟠 WARNINGS (1):
+         🟠 CUSHING-20M: STALE — newest datapoint 2026-08-28 is 11d old vs a 10d budget
+      🟠 INCIDENTS.tsv — 9 ACTIVE rows past the 60d re-verify budget (ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):
+         🟠 RF-004 South Pars / Asaluyeh                  last verified 2026-03-19 (173d)
+         🟠 RF-009 Kirishi (KINEF)                        last verified 2026-03-26 (166d)
+         🟠 RF-013 Ufa                                    last verified 2026-04-02 (159d)
+         🟠 RF-014 Mina Al-Ahmadi                         last verified 2026-04-03 (158d)
+         🟠 RF-015 Ruwais                                 last verified 2026-04-05 (156d)
+         🟠 RF-017 Nizhny Novgorod (Kstovo)               last verified 2026-04-05 (156d)
+         🟠 RF-030 Ras Laffan LNG / Shell GTL             last verified 2026-04-07 (154d)
+         🟠 RF-022 Tuapse                                 last verified 2026-04-16 (145d)
+         ⚠️  Flags only — never auto-edits. Downgrading on a timer would fabricate a restart nobody observed.
+      🟠 INCIDENTS.tsv — 3 row(s) in PRESENT-TENSE statuses the 60d budget does NOT cover, also stale (DISCLOSURE, not a budget — no threshold, gates nothing):
+         🟠 RF-005 Bazan (Haifa)                    PARTIAL_RESTART last verified 2026-03-20 (173d)
+         🟠 RF-031 Mangalore (MRPL)                 DISPUTED        last verified 2026-04-17 (145d)
+         🟠 RF-008 Port Arthur                      PARTIAL_RESTART last verified 2026-06-30 (71d)
+         ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it from the re-verify queue — accuracy must not buy invisibility.
+         ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, never on a clock. Each row names that condition in its notes.
+      ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.
+
+  ⏳ Ledger Staleness...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Ledger Nudge...
+    ⚠️  nudge: [BRENT] STATUS moving without ledgers — 4 ledger(s) behind: REGISTRY.tsv (10 STATUS-writes behind), TRADE.md (2 STATUS-writes behind), LESSONS_INDEX.tsv (2 STATUS-writes behind), board_log.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+
+  ⏳ Derived Views...
+    ✓ ran cleanly, no alerts
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Script                           Status     Time
+  --------------------------------------------------
+  ✅ Threshold Monitor                OK    9.0s
+  ✅ EIA Weekly Monitor               OK    5.2s
+  ✅ Catalyst Countdown               OK    0.0s
+  ✅ Predictions-Due Scan             OK    0.0s
+  ✅ Lesson-Conflict Check            OK    0.0s
+  🟠 Instrument Check             WARNINGS    6.5s
+  ✅ Ledger Staleness                 OK    0.7s
+  🔴 Ledger Nudge                 FINDINGS    0.1s
+  ✅ Derived Views                    OK    0.0s
+
+  Total boot time: 21.6s
+  Date: 2026-09-08 | Day: Tuesday
+
+  🟠 1 check(s) reported advisory warnings; inspect the dated evidence. Warnings do not block or authorize a trade.
+
+  🔴 1 check(s) reported BLOCKING FINDINGS (script ran fine — the SPEC is the problem):
+     • Ledger Nudge
+
+  🔴 BOOT COMPLETED WITH 1 BLOCKING FINDING(S). Scripts all RAN — the SPEC/state is the problem. rc=2.
+     ⛔ This is NOT a clean boot. Do not read the run as green.
+
+  Tip: run with --verbose to see full output for each script.

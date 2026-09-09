@@ -303,3 +303,8 @@ Born from a live position that sat **mis-stated as un-filled for three days** [7
 ## R-2026-09-08 — receipt of existing position rulings, owner mirror applied
 
 TERRY September 8 packet reconciled against its XLE exit and USO Rule-20 owner cards. Existing WQ-145/167/168 govern: October-call quantity one remaining; first-sale price permanently UNKNOWN/no re-ask; XLE September 9 open exit selected, broker receipt pending; September 18 spread HOLD. This is receipt/application, not a fresh ruling. The binding live mirror is `TRADE.md` §POSITIONS (live); TERRY retains implementation ownership. WQ-189/192 STAND DOWN unchanged.
+
+
+## R-2026-09-08-OSPREY-owner-rules — received at batch 2 closeout
+
+Late incoming owner notification: `inbox/2026-09-08_from-OSPREY_downgrade-path-IN-FORCE-Will-9-8-you-have-until-9-15-to-object-plus-three-rulings.md` reports Will’s approval of OSPREY’s downgrade path, withdrawal of its band re-centre, Channel-3 geography qualification and movement of the buyer-pullback limb to Channel 2. Binding owner text is **OSPREY CLAUDE.md, EXIT RULES §1b** and the owner’s named channel rules; the packet reports no mark moved. It gives consumers an objection window through **September 15** which does not suspend its rule. These are attributed owner changes, not newly authenticated here or a BRENT gate amendment. September 9 follow-up: read owner primary text and assess consumption/double-count implications before any BRENT use. The packet remains in inbox pending that source review and sender commit; no acknowledgement, objection or external send issued. BRENT’s separate frozen Q2 date remains unchanged.

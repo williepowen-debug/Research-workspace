@@ -7,6 +7,12 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
+## September 8 batch 2 — airline evidence and BRT-12 instruments
+
+Five airline candidates received a second source review: AF-KLM has a supported group-level fuel-linked announcement; three additional eligible carriers remain unestablished. Lufthansa’s identifiable fleet package was announced in April; Air NZ’s annual narrative does not establish a new August decision. BRT-12 now has a reproducible fixed-November vendor-bar diagnostic; original futures construction and upstream credit history remain missing. FRED rejected the April build plan’s claimed energy-series ID while its broad-HY control worked; runtime already labels broad HY correctly. No prediction grade or rule changed. [Evidence, source receipts and exact remaining work](research/2026-09-08_batch2/REPORT.md).
+
+**Freshness:** this pass verified EIA publication state, not a new release: retail observation remains August 31, STEO issue August 11 (forecast August 6), WPSR week August 28. September 9–11 reads remain pending. Network boot had Ledger Nudge FINDINGS plus instrument advisories; not a clean boot. No fresh marks or broker receipt. OSPREY retimed its Q2 comparison to October 1; BRENT’s frozen September 1 comparison is unchanged and the owner-clock disagreement is explicit.
+
 ## September 8 catch-up implementation — scoped evidence update
 
 **Completed:** current v5.8 thesis and reference-reader reconciliation, with exact before-images archived. BRT-29's registration proves the −1.5% clause is sufficient failure, not an alternate pass; T still requires ≤−3.0%. Reproducible EIA comparison observes jet below gasoline in two of six post-registration weeks, not August 28. Eight issuer releases reviewed; three eligible carrier events remain unestablished. No final grade or probability change. [Results and remaining priorities](research/2026-09-08_catchup/REPORT.md).

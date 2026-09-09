@@ -3,9 +3,9 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 catch-up implementation closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
+**As of:** 2026-09-08 batch 2 closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
 
-C6 SCOPED-PARTIAL catch-up boundary: current thesis/reference readers reconciled; BRT-29 provenance and saved EIA gasoline/jet series checked, plus eight issuer releases, CPC tracker and Treasury/DOE primary statements. Jet leadership intermittent; carrier tally unresolved. CPC partial restart is dated August evidence; Jazan current state unresolved. Exact SPR contract/current authority not recovered. Existing levels, owner scenarios, holdings and final grades are carried, not refreshed. [Evidence and remaining priorities](research/2026-09-08_catchup/REPORT.md). Prior audit's −3.0/−1.5 conflict diagnosis is superseded by the sufficient-failure interpretation; no letter changed.
+C6 SCOPED-PARTIAL batch 2 boundary: airline announcement follow-up, FRED series metadata, fixed-November vendor crack history through September 4, and EIA publication state were checked. AF-KLM supports one group-level event; three eligible named carriers remain unestablished. The April build plan’s energy-series ID is invalid; broad HY is not upstream E&P. The recovered crack diagnostic does not reproduce the original BRT-12 construction or authenticate settlements. Prior market levels, holdings, incident states and final grades were not refreshed. [Results and remaining work](research/2026-09-08_batch2/REPORT.md). Prior catch-up source corrections remain in its dated report.
 
 ## CROSS-DOMAIN
 
@@ -45,7 +45,7 @@ C6 SCOPED-PARTIAL catch-up boundary: current thesis/reference readers reconciled
 
 - **Conviction:** unchanged owner calibration in thesis/THESIS.md and thesis/PREDICTIONS.tsv; no re-mark of direction, timing, level or probabilities.
 - **Diverge from market by:** prior thesis distinguishes prompt scarcity from a durable flat-price uptrend. Available vendor price structure supports the former; it does not establish authenticated settlement or sustained prices. A live approach to a round number is not a new regime grade.
-- **Cross-agent tensions known to me:** reported reopening/policy easing can coexist with restricted throughput and delivered-product costs. Q1/Q3 can disagree by design. No new adjudicated owner disagreement; OSPREY flow and FALCON target evidence still required.
+- **Cross-agent tensions known to me:** reported reopening/policy easing can coexist with restricted throughput and delivered-product costs. Q1/Q3 can disagree by design. OSPREY now uses October 1 for its Q2 flow comparison; BRENT retains its frozen September 1 comparison. This clock disagreement is unresolved; neither source substitution nor silent retiming is permitted.
 - **Uncertain about:** primary legal effectiveness, control publication, matched settlement/crack and SPR window interpretation. Multiple relays do not reduce those gaps; EIA/FRED = one measurement lineage.
 - **Counter-signal:** prior v5.8 has rebuilt Cushing, slower combined draws and weakening gasoline-demand readings. These remain dated weekly evidence, not a September 8 refresh. Missing fresh data do not rebut the existing falsifiers.
 - **Failure patterns:** minister guidance is not an effective instrument; live quote is not a close; missing target is not zero capacity. BRT-30 context correction changes no probability or October 26 resolver. Rig/COT letters and BRT-29 premise count unchanged.

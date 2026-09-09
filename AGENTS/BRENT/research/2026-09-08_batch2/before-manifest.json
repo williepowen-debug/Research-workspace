@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-09T03:10:21.276159+00:00",
+  "baseline_head": "3e1107ecdbba52c4a505aa1f8bff8b65d184c64d",
+  "before_sha256": {
+    "STATUS.md": "7d24f8a7dff68925811d55254dc0316e3d7f367d0849030ee68c8f85005da2d0",
+    "SCRATCH.md": "df1b64c2483a53bae1fd8de0c1274ecafc9d8b0b64e8e8ca77eef224843109db",
+    "NEXUS_BRIEF.md": "6f868fc3ff4e3ce706ac8ba4b6d28181de76cacebffd525858341f929d536649",
+    "demand_destruction/TRACKER.md": "21c35916bb5c8325d44ba803d4ad85ad108e767d14c721600e27bb5844142f0f",
+    "thesis/PREDICTIONS.tsv": "4fe7cdda53a6bd36d1b46645ca3df9875bd60576572908839cb304e55835f8d0",
+    "thesis/prediction_notes/BRT-12.md": "fa522b99204403eee148114b27879b2033fdd3d4710067aecccb47be2a0f4bb3",
+    "thesis/prediction_notes/BRT-29.md": "06684ea6b13ef355933d8859eed13ead682619b2bd8d29a180ed070ab53db5a3",
+    "thesis/CHANGELOG.md": "253109197395948b6377a03d70bdc72e9ac06afb284bb23e2dad0f2cf3808be5",
+    "scripts/BUILD_PLAN.md": "5e1b72f0dd813f193a43ab31f980428dbae176ec094863d9e5069bf79845a950",
+    "board_log.tsv": "1a2b7be03b5d27cc5de7352731b5501a277e182d0859f515a862fb7e7a69cb37"
+  }
+}

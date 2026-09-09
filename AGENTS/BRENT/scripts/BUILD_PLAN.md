@@ -1,5 +1,7 @@
 # BRENT Scripts Build Plan
 
+> **HISTORICAL April 16 plan — reviewed September 8, 2026. Not a current implementation or threshold specification.** FRED returns “series does not exist” for the advertised `BAMLH0A0E2Y`; broad HY is not upstream E&P OAS. The planned continuous-futures crack construction does not establish matched delivery months. Runtime truth is `boot.py` and `workbook/REGISTRY.tsv`, not the checkmarks, old thresholds, credential advice or calendar examples below. Original plan retained as history; [verification and recovered diagnostic](../research/2026-09-08_batch2/REPORT.md).
+
 **Created:** 2026-04-16
 **Modeled on:** SAM/scripts/, CARL/scripts/, REGINALD/scripts/
 **Status:** PHASE 1 IN PROGRESS

@@ -1,0 +1,66 @@
+{
+  "retrieved_on": "2026-09-08 America/New_York",
+  "generated_at": "2026-09-09T03:11:26.907122+00:00",
+  "sources": {
+    "BZX26.json": "https://query2.finance.yahoo.com/v8/finance/chart/BZX26.NYM?range=6mo&interval=1d",
+    "RBX26.json": "https://query2.finance.yahoo.com/v8/finance/chart/RBX26.NYM?range=6mo&interval=1d",
+    "HOX26.json": "https://query2.finance.yahoo.com/v8/finance/chart/HOX26.NYM?range=6mo&interval=1d",
+    "iag-h1-transcript.pdf": "https://www.iairgroup.com/media/ymmjb2dv/iag-h1-2026-results-call-transcript.pdf",
+    "airnz-may-update.pdf": "https://company-announcements.afr.com/asx/aiz/28542f8b-5e12-11f1-a05a-a62d6643211b.pdf",
+    "fred-metadata-probes.json": "https://api.stlouisfed.org/fred/series"
+  },
+  "files": {
+    "BZX26.json": {
+      "bytes": 14277,
+      "sha256": "315072a7c39577f859ccf03e16b81616e483b89fe009c24c1a9e1096bb7919e7"
+    },
+    "HOX26.json": {
+      "bytes": 15081,
+      "sha256": "c3a33c01e9921bf6e20b300e6491c61c24da29b543ae106a0671a976c604822c"
+    },
+    "RBX26.json": {
+      "bytes": 15116,
+      "sha256": "6b5ea101e65dcbf8953da86a779c4d9d36d00aca7cec71f8e4d0ece9e8fffb70"
+    },
+    "REPORT.md": {
+      "bytes": 12657,
+      "sha256": "f6d5b22ba2df19c41870464e9603e1c9ff1247b8d162b34e68c2288a80e5eb30"
+    },
+    "airnz-may-update.pdf": {
+      "bytes": 284607,
+      "sha256": "3856c732e88b363603e098f62ed2f76170423bace6541607ec74e22e70a27fc6"
+    },
+    "before-manifest.json": {
+      "bytes": 1106,
+      "sha256": "96b9846a3b5ce2ee47965810357f11c970e288aa9ad4dd170d3bd56b61599348"
+    },
+    "boot-network.txt": {
+      "bytes": 7270,
+      "sha256": "1231caf18fa92c36be2820d1369912aa1279aca2011617f976d05223a42cfa26"
+    },
+    "crack-validation.json": {
+      "bytes": 7363,
+      "sha256": "528e3a35af408f5ddf29317321eabf8766a93f504462c783dfca582d37d1c99b"
+    },
+    "fixed-november-cracks.csv": {
+      "bytes": 26948,
+      "sha256": "cdac7dabaa6d29c9eb196b580b2c784469e4d4842c5f26e1fd43f4d7bc616940"
+    },
+    "fred-metadata-probes.json": {
+      "bytes": 7727,
+      "sha256": "4567d2d105b80ade7dfc5f91e484347e0819f0da5138ab82bcb2400664531c1a"
+    },
+    "iag-h1-transcript.pdf": {
+      "bytes": 250298,
+      "sha256": "54dfa1afe90a08084f078665af99803e37df781957af993664557f253c2998c7"
+    },
+    "iag-h1-transcript.txt": {
+      "bytes": 58046,
+      "sha256": "ff729812192fba84a3a15fb7f684b88ab1cf2dc06487f18defd006a5e8228495"
+    },
+    "reproduce_cracks.py": {
+      "bytes": 3194,
+      "sha256": "8cf65f09eec2352a1d522d131bf9eea5313615050504cfc31d7ccef488aee873"
+    }
+  }
+}

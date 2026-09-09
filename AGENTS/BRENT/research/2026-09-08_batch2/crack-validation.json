@@ -1,0 +1,228 @@
+{
+  "cutoff": "2026-09-04",
+  "matched_rows": 124,
+  "first_date": "2026-03-09",
+  "last_date": "2026-09-04",
+  "excluded": [
+    {
+      "symbol": "BZX26",
+      "date": "2026-04-02",
+      "close": 80.47000122070312,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "BZX26",
+      "date": "2026-07-02",
+      "close": 72.31999969482422,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "BZX26",
+      "date": "2026-09-08",
+      "close": 99.30999755859375,
+      "volume": 4087,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "RBX26",
+      "date": "2026-04-02",
+      "close": 2.3194000720977783,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "RBX26",
+      "date": "2026-07-02",
+      "close": 2.3540000915527344,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "RBX26",
+      "date": "2026-09-08",
+      "close": 3.0652999877929688,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "RBX26",
+      "date": "2026-09-08",
+      "close": 3.091599941253662,
+      "volume": 472,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "HOX26",
+      "date": "2026-04-02",
+      "close": 3.0069000720977783,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "HOX26",
+      "date": "2026-07-02",
+      "close": 3.01200008392334,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "HOX26",
+      "date": "2026-09-08",
+      "close": 4.41949987411499,
+      "volume": 0,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    },
+    {
+      "symbol": "HOX26",
+      "date": "2026-09-08",
+      "close": 4.479800224304199,
+      "volume": 594,
+      "reason": "after cutoff / missing value / nonpositive volume"
+    }
+  ],
+  "unmatched_dates": [],
+  "minimum_321": {
+    "date": "2026-03-10",
+    "contract_month": "2026-11",
+    "brent_usd_bbl": 75.69000244140625,
+    "rb_usd_gal": 2.1273000240325928,
+    "ho_usd_gal": 2.6445999145507812,
+    "brent_volume": 12000,
+    "rb_volume": 9740,
+    "ho_volume": 10696,
+    "gasoline_crack_usd_bbl": 13.656598567962646,
+    "distillate_crack_usd_bbl": 35.38319396972656,
+    "321_crack_usd_bbl": 20.898797035217285,
+    "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+  },
+  "maximum_321": {
+    "date": "2026-09-01",
+    "contract_month": "2026-11",
+    "brent_usd_bbl": 94.6500015258789,
+    "rb_usd_gal": 2.966099977493286,
+    "ho_usd_gal": 4.50540018081665,
+    "brent_volume": 38404,
+    "rb_volume": 49324,
+    "ho_volume": 40914,
+    "gasoline_crack_usd_bbl": 29.92619752883911,
+    "distillate_crack_usd_bbl": 94.57680606842041,
+    "321_crack_usd_bbl": 51.47640037536621,
+    "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+  },
+  "selected_rows": [
+    {
+      "date": "2026-03-27",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 85.91000366210938,
+      "rb_usd_gal": 2.400899887084961,
+      "ho_usd_gal": 3.118299961090088,
+      "brent_volume": 6881,
+      "rb_volume": 4422,
+      "ho_volume": 2991,
+      "gasoline_crack_usd_bbl": 14.927791595458984,
+      "distillate_crack_usd_bbl": 45.058594703674316,
+      "321_crack_usd_bbl": 24.97139263153076,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-04-30",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 90.37000274658203,
+      "rb_usd_gal": 2.6310999393463135,
+      "ho_usd_gal": 3.3701000213623047,
+      "brent_volume": 18378,
+      "rb_volume": 5017,
+      "ho_volume": 4679,
+      "gasoline_crack_usd_bbl": 20.136194705963135,
+      "distillate_crack_usd_bbl": 51.174198150634766,
+      "321_crack_usd_bbl": 30.48219585418701,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-05-29",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 85.5999984741211,
+      "rb_usd_gal": 2.540299892425537,
+      "ho_usd_gal": 3.2848000526428223,
+      "brent_volume": 11083,
+      "rb_volume": 6497,
+      "ho_volume": 7425,
+      "gasoline_crack_usd_bbl": 21.092597007751465,
+      "distillate_crack_usd_bbl": 52.36160373687744,
+      "321_crack_usd_bbl": 31.515599250793457,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-06-11",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 86.52999877929688,
+      "rb_usd_gal": 2.6050000190734863,
+      "ho_usd_gal": 3.3619000911712646,
+      "brent_volume": 19820,
+      "rb_volume": 9617,
+      "ho_volume": 7655,
+      "gasoline_crack_usd_bbl": 22.88000202178955,
+      "distillate_crack_usd_bbl": 54.66980504989624,
+      "321_crack_usd_bbl": 33.47660303115845,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-06-30",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 72.93000030517578,
+      "rb_usd_gal": 2.3457999229431152,
+      "ho_usd_gal": 3.034600019454956,
+      "brent_volume": 13857,
+      "rb_volume": 8830,
+      "ho_volume": 8011,
+      "gasoline_crack_usd_bbl": 25.59359645843506,
+      "distillate_crack_usd_bbl": 54.52320051193237,
+      "321_crack_usd_bbl": 35.23679780960083,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-07-31",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 84.58000183105469,
+      "rb_usd_gal": 2.6777000427246094,
+      "ho_usd_gal": 3.801100015640259,
+      "brent_volume": 36016,
+      "rb_volume": 20704,
+      "ho_volume": 15487,
+      "gasoline_crack_usd_bbl": 27.883399963378906,
+      "distillate_crack_usd_bbl": 75.06619882583618,
+      "321_crack_usd_bbl": 43.610999584198,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-08-31",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 90.48999786376953,
+      "rb_usd_gal": 2.88919997215271,
+      "ho_usd_gal": 4.251699924468994,
+      "brent_volume": 23556,
+      "rb_volume": 28876,
+      "ho_volume": 26784,
+      "gasoline_crack_usd_bbl": 30.856400966644287,
+      "distillate_crack_usd_bbl": 88.08139896392822,
+      "321_crack_usd_bbl": 49.931400299072266,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    },
+    {
+      "date": "2026-09-04",
+      "contract_month": "2026-11",
+      "brent_usd_bbl": 96.27999877929688,
+      "rb_usd_gal": 3.0134999752044678,
+      "ho_usd_gal": 4.383699893951416,
+      "brent_volume": 35106,
+      "rb_volume": 51405,
+      "ho_volume": 28854,
+      "gasoline_crack_usd_bbl": 30.28700017929077,
+      "distillate_crack_usd_bbl": 87.8353967666626,
+      "321_crack_usd_bbl": 49.46979904174805,
+      "basis": "Yahoo daily close field; fixed November; NOT authenticated settlement"
+    }
+  ]
+}

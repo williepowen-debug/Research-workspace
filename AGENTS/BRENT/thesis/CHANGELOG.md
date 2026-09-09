@@ -1,5 +1,9 @@
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
+## 2026-09-08 — batch 2 evidence follow-up, no version or grade change
+
+Five unresolved airline candidates → bounded dated dispositions: one supported AF-KLM group event, no established three-carrier count; April Lufthansa cuts and historical Air NZ narrative cannot be counted as new August decisions. BRT-12 missing history → 124 matched November vendor-bar observations as a diagnostic, with original construction/upstream credit still missing. April build plan’s claimed energy-series identifier → FRED-confirmed nonexistent; runtime already correctly labels broad HY. Notes readers updated; canonical first nine prediction fields unchanged. No thesis probability, trade rule, threshold or date changed. [Sources and reproducibility](../research/2026-09-08_batch2/REPORT.md).
+
 ## 2026-09-08 — catch-up implementation, v5.8 calibration preserved
 
 Old → new: contradictory current-looking June–August thesis/reference state → reconciled current interpretation with canonical owner pointers and exact hashed before-images. Old mid-November SPR deadline → conditional extrapolation; DOE primary program evidence recovered, precise delivery contract/current authority still missing. June 10 DOE's 26% premium describes earlier exchanges, not a verified new-tranche award term.

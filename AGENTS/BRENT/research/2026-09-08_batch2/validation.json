@@ -1,0 +1,17 @@
+{
+  "prediction_first_nine_fields": "unchanged for every row",
+  "changed_notes_only": [
+    "BRT-12",
+    "BRT-29"
+  ],
+  "source_hashes": "all match manifest",
+  "fixed_november_matched_rows": 124,
+  "formula_independently_recomputed": "124/124",
+  "calendar": "20 events / 8 standing rows match",
+  "corrections": "0 unreceipted named rows",
+  "read_cap": "PASS; STATUS rotate-tier advisory",
+  "boot": "FINDINGS (ledger nudge); instrument advisories; no blanket all-clear",
+  "ledger_nudge": "reasons for unchanged registry, TRADE and lessons recorded in commit; board_log updated",
+  "weekday_check": "Two historical false positives: sat is a verb in a July31 quotation; Sun Jan31 refers to 2027. No calendar edits.",
+  "mail": "one read/logged/processed packet; no outbound send"
+}
