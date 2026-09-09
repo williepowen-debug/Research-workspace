@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-09 17:00 ET startup. FX/options/proxy retrieved Sep-9 ~16:58 ET; other clocks below. BOJ current quote UNAVAILABLE pending new-image review.**
+**Last written: 2026-09-09 17:15 ET design note. Market observations unchanged from Sep-9 startup; FX/options/proxy retrieval ~16:58 ET. BOJ current quote UNAVAILABLE pending new-image review.**
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired against `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` §2/§5; RED blind-pass header verdict **KILL-as-successor-frame**, body **UNREAD / Will-gated**). · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.** *(🔧 A label-vs-pointer contradiction on this line named different documents and PROME propagated the LABEL into HEARTBEAT §4 on 8/27 — full record in `STATUS_ARCHIVE.md`.)*
 
@@ -17,6 +17,8 @@
 ---
 
 ## 2026-09-09 — Startup orientation
+
+[Boot corrections designed](proposals/2026-09-09_boot-corrections.md); implementation pending. Offline reproductions confirm two reporting/arithmetic defects. Market and prediction judgments unchanged.
 
 [Boot record](reports/2026-09-09_orientation.md): starting context loaded; 13/14 script legs pass. BOJ changed-image guard stops current pricing. Retired threshold-script labels rejected; no thesis or prediction change.
 

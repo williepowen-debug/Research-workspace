@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-09 17:00 ET startup. **STATUS provenance:** same commit; SHA256 `eb43e6d043f8925a4150bd7f98f96ab584b37f61bd65c19750e548c70312121d`. [Boot record](reports/2026-09-09_orientation.md). September 8 mechanism assessment retained; only FX/options/proxy refreshed. Current BOJ quote unavailable pending new-image review.
+**As of:** 2026-09-09 17:15 ET documentation design. **STATUS provenance:** same commit; SHA256 `c0fac25b911f1261c826d7fecb3807c1161e0c8af3259d83a9bc9cfe312a0f85`. [Boot correction proposal](proposals/2026-09-09_boot-corrections.md) ready; implementation pending. Market observations unchanged from Sep-9 startup; source clocks below. Current BOJ quote remains unavailable.
 
 ## VIEW
 

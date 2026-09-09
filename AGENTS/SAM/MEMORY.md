@@ -26,6 +26,10 @@
 
 ## Session Notes
 
+### September 9 boot correction design
+
+Will requested a design. [Correction proposal](proposals/2026-09-09_boot-corrections.md) specifies six bounded changes, fixtures and delivery order; implementation pending. CFTC legacy storage is intentional, live display is wrong. Reproduced condensed boot false-success wording and CFTC 9.5%/10% trigger mismatch offline. No new market assessment. Local commit only while PROME has dirty work; publication deferred.
+
 ### September 9 startup orientation
 
 Starting documents and September 8 integration loaded; [boot record](reports/2026-09-09_orientation.md). 13/14 scripts passed after authorized network retry. BOJ changed-image review remains outstanding; prior 98% is historical. Old threshold-script labels are not current thesis judgments. Three OPEN predictions unchanged. WALTER courtesy pointer already satisfied by the prior owner report; archived. Inherited research backlog below remains pending.
