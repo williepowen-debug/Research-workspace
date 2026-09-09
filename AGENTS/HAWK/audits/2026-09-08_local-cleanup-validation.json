@@ -1,0 +1,234 @@
+{
+  "checked_at": "2026-09-09T00:59:49.296832+00:00",
+  "invariants": {
+    "thesis/PREDICTIONS.tsv unchanged": true,
+    "thesis/PREDICTIONS_ARCHIVE.md unchanged": true,
+    "workbook/VX.tsv unchanged": true,
+    "workbook/CATALYSTS.tsv unchanged": true,
+    "STATUS_COLD.md unchanged": true,
+    "board_log.tsv append-only": true,
+    "workbook/KB.tsv append-only": true,
+    "FLOW rows other than19 unchanged": true,
+    "BREN T packet move identical": true,
+    "final STATUS section BOTTOM LINE": true,
+    "KB additions 13 columns": true,
+    "HAWK boot surface byte budget": true
+  },
+  "measurements": [
+    {
+      "path": "AGENTS/HAWK/CLAUDE.md",
+      "bytes": 26775,
+      "lines": 223,
+      "crc32": 2581560167,
+      "crc32_no_final_nl": 3644894511
+    },
+    {
+      "path": "AGENTS/HAWK/FILES.md",
+      "bytes": 13207,
+      "lines": 62,
+      "crc32": 1982373516,
+      "crc32_no_final_nl": 4222970988
+    },
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "bytes": 12241,
+      "lines": 73,
+      "crc32": 1729549069,
+      "crc32_no_final_nl": 3304305079
+    },
+    {
+      "path": "AGENTS/HAWK/SCRATCH.md",
+      "bytes": 6965,
+      "lines": 54,
+      "crc32": 3389132337,
+      "crc32_no_final_nl": 3081161693
+    },
+    {
+      "path": "AGENTS/HAWK/LESSONS.md",
+      "bytes": 26932,
+      "lines": 58,
+      "crc32": 3717988175,
+      "crc32_no_final_nl": 2582246979
+    },
+    {
+      "path": "AGENTS/HAWK/NEXUS_BRIEF.md",
+      "bytes": 7571,
+      "lines": 58,
+      "crc32": 736515405,
+      "crc32_no_final_nl": 1566945174
+    },
+    {
+      "path": "AGENTS/HAWK/thesis/FALSIFICATION.md",
+      "bytes": 25256,
+      "lines": 155,
+      "crc32": 659980677,
+      "crc32_no_final_nl": 1537892189
+    },
+    {
+      "path": "AGENTS/OSPREY/NEXUS_BRIEF.md",
+      "bytes": 6938,
+      "lines": 43,
+      "crc32": 2257449357,
+      "crc32_no_final_nl": 1363749372
+    },
+    {
+      "path": "AGENTS/FALCON/NEXUS_BRIEF.md",
+      "bytes": 66502,
+      "lines": 190,
+      "crc32": 1658402132,
+      "crc32_no_final_nl": 188939120
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "HAWK"
+      ],
+      "returncode": 0,
+      "stdout": "READ-CAP [HAWK] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 perimeter: 2 boot section(s) in CLAUDE.md, 23 'read' line(s) scanned (0 on-demand/grep + 2 SCOPED-read token(s) excluded by marker), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \ud83d\udfe1 LESSONS.md                           26,932 B    50% of cap  rotate-tier (\u226575% of budget)  (boot-step line 44)\n  \u2705 STATUS.md                            12,241 B    23% of cap    (boot-step line 42)\n  \u2705 NEXUS_BRIEF.md                        7,571 B    14% of cap    (boot-step line 45)\n  \u2705 SCRATCH.md                            6,965 B    13% of cap    (boot-step line 43)\n  \u2705 workbook/SCHEMA.tsv                   1,829 B     3% of cap    (boot-step line 46)\n\u2705 READ-CAP 0 [HAWK]: every boot-mandated read this check found is under budget (5 file(s)).\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/corrections_boot_check.py",
+        "HAWK"
+      ],
+      "returncode": 0,
+      "stdout": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for HAWK (register 12 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 2) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/ledger_staleness.py",
+        "HAWK",
+        "--quiet"
+      ],
+      "returncode": 0,
+      "stdout": "  perimeter [HAWK]: 6 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: domain/energy-strikes/STRIKES.tsv, registry/corrections_receipts.tsv, thesis/PREDICTIONS.tsv\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/HAWK/workbook/CATALYSTS.tsv",
+        "AGENTS/HAWK/CALENDAR.md",
+        "AGENTS/HAWK/STATUS.md"
+      ],
+      "returncode": 0,
+      "stdout": "CLAIM-CHECK \u2713 6 file(s) clean [weekday]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "--",
+        "AGENTS/HAWK"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/consumer_check.py",
+        "--agent",
+        "HAWK",
+        "--self",
+        "--old",
+        "2.3",
+        "--new",
+        "2.139"
+      ],
+      "returncode": 0,
+      "stdout": "\n==================================================================\n  CONSUMER CHECK  \u00b7  who still carries a number you superseded?\n==================================================================\n  SELF mode: 114 files under AGENTS/HAWK/ (processed/ + archive/ still excluded \u2014 historical by design). Nothing outside your own dir is scanned.\n\n  \u2500\u2500 value \u00b7 superseded 2.3 \u2192 current 2.139\n     \ud83d\udfe0 CANDIDATE \u2014 series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a \ud83d\udfe0. (2)\n        AGENTS/HAWK/STATUS_COLD.md:52  [2.3]  (needle <5 sig digits)\n           | **TRANSIT** (route choice for crude already loaded) | **REROUTING, confirmed** | Hormuz redirects **12\u219255\u219264** (8/17) while the kinetic le\n        AGENTS/HAWK/domain/sources/ukrainian_energy_warfare_doctrine_thesis.md:168  [2.3]  (needle <5 sig digits)\n           ### 2.3 Druzhba Pipeline Corridor \u2014 The Key Strategic Geometry\n     \ud83d\udfe2 cleared: marker-adjacent / next to new value / frozen file (8)  [--show-handled to audit]\n\n  \ud83d\udfe0 2 CANDIDATE(s), zero certified-stale. A \ud83d\udfe0 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the \ud83d\udd34 verdict.\n==================================================================\n\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/consumer_check.py",
+        "--agent",
+        "HAWK",
+        "--old",
+        "2.3",
+        "--new",
+        "2.139"
+      ],
+      "returncode": 0,
+      "stdout": "\n==================================================================\n  CONSUMER CHECK  \u00b7  who still carries a number you superseded?\n==================================================================\n  own dir excluded: AGENTS/HAWK/   (processed/ + archive/ excluded everywhere \u2014 historical by design)\n\n  \u2500\u2500 value \u00b7 superseded 2.3 \u2192 current 2.139\n     \ud83d\udfe0 CANDIDATE \u2014 series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a \ud83d\udfe0. (816)\n        AGENTS/_INDEX.md:59  [2.3]  (needle <5 sig digits)\n           | WAL | [`WAL/`](./WAL/) | Credit (Western Alliance single-name specialist \u2014 thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc;\n        AGENTS/SELF_RULINGS.tsv:19  [2.3]  (needle <5 sig digits)\n           2026-08-20\tWAL\tRetire the v2.1 MI3 calibration table's IMPLICATION column? (P9)\tRETIRED, struck-not-deleted, verbatim preserved. Its <24% ro\n        AGENTS/_CREDIT.md:15  [2.3]  (needle <5 sig digits)\n           | WAL | [`WAL/`](./WAL/) | Western Alliance (WAL) focused surface \u2014 thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted\n        AGENTS/WALTER/SESSION_LOG.md:676  [2.3]  (needle <5 sig digits)\n           **\ud83d\udd34\ud83d\udd34 POINTER RE-STAMPED 2026-08-13 (S2). NO ADDENDUM WRITTEN TODAY \u2014 nothing met the bar: the two candidate state-changes both verified as 1\n        AGENTS/WALTER/SESSION_LOG.md:685  [2.3]  (needle <5 sig digits)\n           - **2026-08-20 (Thu \u2014 ALL-DAY, boot 12:3xZ on Will-terminal \"Hi WALTER please boot up\"; closed on \"okay lets do the tier 2 close out\"). TIER\n        AGENTS/WALTER/SESSION_LOG.md:711  [2.3]  (needle <5 sig digits)\n           **2026-08-13 (Thu, markets OPEN throughout \u2014 SESSION 2, 16:35Z boot on Will's \"Hi WALTER please boot up\", SEVEN MINUTES after the S1 Tier-2 \n        AGENTS/WALTER/SESSION_LOG.md:764  [2.3]  (needle <5 sig digits)\n           **NOTES (7, create-only \u00a73.5.1):** \u2192 FALCON Bab-el-Mandeb 8-tanker count sharpens FALCON's morning 2-hull adjudication (still anecdote-not-c\n        AGENTS/WALTER/SESSION_LOG.md:851  [2.3]  (needle <5 sig digits)\n           | 2026-06-27 Sat (~5:40-7:00 PM ET, **Will-Telegram \u2014 \"get WALTER organized\" self-audit + safe-fix batch**; **0 dispatch / 0 kill / 0 verify\n        \u2026 +808 more \ud83d\udfe0 hit(s) on [2.3] across 422 file(s) \u2014 display capped at 8/needle, count is complete; a bare needle this common certifies nothing \u2014 re-run with --unit/--series\n     \ud83d\udfe1 in MAIL, point-in-time \u2014 usually no action (94: BOND, BRENT, BROCK, CARL, CORAL, CREED, DAEDALUS, DEWEY, HENRY, LIQUID, MARCO, MIDAS, ORACLE, OTTO, REGINALD, SAM, SHADE, VULCAN, WAL, WATT, ZHAO)\n     \ud83d\udfe2 cleared: marker-adjacent / next to new value / frozen file (133)  [--show-handled to audit]\n\n  \ud83d\udfe0 816 CANDIDATE(s), zero certified-stale. A \ud83d\udfe0 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the \ud83d\udd34 verdict.\n==================================================================\n\n",
+      "stderr": ""
+    }
+  ],
+  "limits": [
+    "No external primary sweep; owner source reports retain dates and qualifications.",
+    "Historical43 BOARD bodies not consumed; see explicit metadata inventory.",
+    "Read-cap heuristic misses some paths and misidentifies sibling brief; manual byte measurements included.",
+    "Other agents active; no pull or shared-file edit."
+  ],
+  "final_board_scan": {
+    "checked_at": "2026-09-09T01:01:08.892438+00:00",
+    "method": "direct BOARD frontmatter to/action/info recipients; join signal_id/id (legacy filename fallback if absent) to all board_log sources",
+    "routed": 205,
+    "unlogged": [
+      "SIG-W-20260424-002",
+      "SIG-W-20260424-003",
+      "SIG-W-20260424-008",
+      "SIG-W-20260424-009",
+      "SIG-W-20260424-010",
+      "SIG-W-20260424-013",
+      "SIG-W-20260426-003",
+      "SIG-W-20260426-006",
+      "SIG-W-20260426-007",
+      "SIG-W-20260426-011",
+      "SIG-W-20260426-013",
+      "SIG-W-20260426-015",
+      "SIG-W-20260428-006",
+      "SIG-W-20260429-001",
+      "SIG-W-20260429-003",
+      "SIG-W-20260505-001",
+      "SIG-W-20260505-002",
+      "SIG-W-20260505-003",
+      "SIG-W-20260505-004",
+      "SIG-W-20260505-005",
+      "SIG-W-20260505-009",
+      "SIG-W-20260506-006",
+      "SIG-W-20260506-007",
+      "SIG-W-20260506-011",
+      "SIG-W-20260506-012",
+      "SIG-W-20260507-001",
+      "SIG-W-20260509-008",
+      "SIG-W-20260509-011",
+      "SIG-W-20260509-014",
+      "SIG-W-20260511-001",
+      "SIG-W-20260511-002",
+      "SIG-W-20260511-003",
+      "SIG-W-20260511-004",
+      "SIG-W-20260511-005",
+      "SIG-W-20260511-006",
+      "SIG-W-20260511-007",
+      "SIG-W-20260511-031",
+      "SIG-W-20260511-032",
+      "SIG-W-20260511-033",
+      "SIG-W-20260511-034",
+      "SIG-W-20260511-035",
+      "SIG-W-20260511-036",
+      "SIG-W-20260521-022"
+    ],
+    "new_vs_historical_snapshot": [],
+    "filename_fallbacks": []
+  }
+}

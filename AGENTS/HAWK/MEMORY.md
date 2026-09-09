@@ -14,17 +14,17 @@
 ## Findings
 - [2026-06-08] **Deferral-dynamic calibration anchor (HAW-06 FAILED).** This conflict produces armed pauses via ally-request deferrals, NOT clean breaks (or clean collapses). Don't over-predict clean state changes on deadline-shaped events.
 - [2026-06-08] **FLOW = canonical, KB = pointer for synthesis claims.** Decoupling thesis lives at FLOW-HAWK-19; KB rows are one-line pointers w/ DerivedFrom chains. One source of truth per metric prevents file drift.
-- [2026-06-08] **Falsification cross-link.** Thesis claim and its kill-switch live together via cross-ref (FLOW-19 ↔ HAW-11). Reader finds both from either entry; thesis can't drift from its kill condition.
+- [2026-06-08; pointer updated 2026-09-08] **Falsification cross-link.** Current homes: FLOW-19 ↔ `thesis/FALSIFICATION.md` ↔ HAW-19's registered letter. HAW-11 is closed history. HAW-19 LEG A's duration and N/M defects remain explicit; a pointer is not a working test.
 - [2026-06-20] **Dormant-armed framing.** Apr-damage-regime vectors/flows aren't dead — muted by de-escalation, primed to re-fire on escalation. Reconcile stale escalation vectors as "MUTED, re-fires if X," not deleted. (See LESSONS dormant-vector re-sweep.)
 - [2026-06-20] **Don't stack concurrent workflows / wide fan-out while siblings live** — API 529-overloads and drops RANDOM agents (lost the most-important theater, missed the Hormuz re-closure). Degrade to inline sequential WebSearch + harvest partials. (auto-memory finding-workflow-concurrency-529.)
 
 ## References
-- [2026-04-01] Ceasefire fade content lives in `workbook/EXIT_PROTOCOL.md` (standalone `CEASEFIRE_FADE_PROTOCOL.md` never existed — dangling ref retired 2026-07-08, DAEDALUS BATCH_03) · Four structural breaks: `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md`
+- [2026-04-01; lifecycle clarified 2026-09-08] `workbook/EXIT_PROTOCOL.md` and `workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md` are **FROZEN historical references**, not current instructions. Current falsification lives in `thesis/FALSIFICATION.md`; price/exit construction belongs to BRENT/TERRY. The standalone `CEASEFIRE_FADE_PROTOCOL.md` never existed.
 - [2026-06-08] BRENT canonical for oil prices/storage/STEO/Iraq-production/Qatar-LNG/sulphur — defer per "one source of truth per metric"
-- [2026-06-19] Cross-theater energy-strike ledger: `domain/energy-strikes/STRIKES.tsv` + `SUMMARY.md` (%-offline = sourced as-of, never sum-of-nameplates)
+- [2026-06-19; pointer updated 2026-09-08] Current cross-war aggregate: `domain/energy-strikes/CROSS_WAR_SUMMARY.md`, derived from sibling-owned ledgers. Local `STRIKES.tsv` and `SUMMARY.md` are frozen pre-split history. Never sum nameplates as observed loss.
 
 ## Session handoff → SCRATCH.md
 
-Per-session state (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail / pending push) is now the **`SCRATCH.md`** canonical handoff — read at boot, rewritten at closeout. War chronology lives in git/KB/STATUS (and the pending `thesis/TIMELINE.md` rewrite), not here.
+Per-session state (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail / pending push) lives in **`SCRATCH.md`**. HAWK's old `thesis/TIMELINE.md` is frozen; forward theater chronology belongs to the siblings.
 
 *Compressed war-history anchor (durable orientation):* Apr 21 ceasefire-extend (HAW-06 FAILED) → May armed-pause + 14-pt MOU draft → Jun 1 Iran walks → Jun 8-11 multi-front re-ignition (first US aircraft loss; Bab-al-Mandab kinetic 6/8-9; **Jun 11 Hormuz closure → Brent FELL = first strong decoupling datum**) → **Jun 17 Islamabad MOU SIGNED** → Jun 20 Iran re-declared Hormuz closed ("first step") → **Jun 22 decoupling test = SHRUG (Brent deflated, thesis held), HAW-11 FAILED (kill-switch unfired).**

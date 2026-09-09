@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-08.** Derived from both owners' `workbook/WARRISK.tsv`, FALCON September7 brief and OSPREY September2 analysis. Data vintages do not advance on this local refresh. Prior narrative retained verbatim at `domain/sources/2026-09-08_CROSS_THEATER_WAR_RISK_before.md`.
+**Refreshed: 2026-09-09T00:53:55+00:00.** Derived from both owners' `workbook/WARRISK.tsv`, FALCON September7 brief and OSPREY September2 analysis. Data vintages do not advance on this local refresh. Prior narrative retained verbatim at `domain/sources/2026-09-08_CROSS_THEATER_WAR_RISK_before.md`.
 
 | Leg / owner | Last sourced premium | Print date | Age September8 | Present reading |
 |---|---|---|---:|---|

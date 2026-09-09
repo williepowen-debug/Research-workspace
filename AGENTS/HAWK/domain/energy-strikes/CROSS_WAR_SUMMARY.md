@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — thin, derived
 
-**Regenerated: 2026-09-08.** Sources read: both owners' STRIKES.tsv headers and data rows, OSPREY ANALYSIS_2026-09-02.md, FALCON ANALYSIS_2026-08-06.md, both NEXUS_BRIEF.md, and FALCON September7 owner packet. This is a local reconciliation date, not an independent theater sweep.
+**Regenerated: 2026-09-09T00:53:55+00:00.** Sources read: both owners' STRIKES.tsv headers and data rows, OSPREY ANALYSIS_2026-09-02.md, FALCON ANALYSIS_2026-08-06.md, both NEXUS_BRIEF.md, and FALCON September7 owner packet. This is a local reconciliation date, not an independent theater sweep.
 
 | Theater | Ledger data rows | Event dates / owner sweep | Interpretation / limits |
 |---|---:|---|---|
