@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-08 evening ET. **STATUS provenance:** same SAM boot commit as this brief; source prices retrieved ~21:13 ET. This brief was written after the final STATUS edit. Earlier brief preserved verbatim at `archive/NEXUS_BRIEF_2026-09-04_before_boot.md` (history, not current instructions).
+**As of:** 2026-09-08 evening ET. **STATUS provenance:** same SAM catch-up commit as this brief; source prices retrieved ~21:13 ET. This brief was written after the final STATUS edit. Earlier brief preserved verbatim at `archive/NEXUS_BRIEF_2026-09-04_before_boot.md` (history, not current instructions).
 
 ## VIEW
 
@@ -41,6 +41,8 @@ The overdue Sep-4 JGB discriminator is measured: 2Y **1.830%, down 2.0bp**, 30Y 
 **Cross-agent tensions:** peer short-covering attribution lacks a post-move CFTC observation; the cash front-end test does not corroborate hawkish repricing. WALTER 012's measured FX leg independently verified. WALTER 021 noted as peer-sourced trade-policy context only. Legacy payroll-premise correction and confidence-audit packets remain pending under normal-boot mail scope.
 
 ## NEXT DECISION POINT
+
+**Sep-8 catch-up priorities:** FX driver → contagion → Fed/BOJ surprise scenarios, with energy costs alongside, then JGB flows. `reports/2026-09-08_catchup-priorities.md`. BLS primary confirms July +21K (revised from −23K), August +162K and current net revisions +55K; candidate labor-premise repair remains pending. No route re-mark.
 
 No entry decision. Complete the outstanding FX-mechanism evidence, then grade SAM-28/31 on their frozen terms. Sep-8 GDP revision still needs its primary read. The 40Y tail precision issue must be ruled before Sep-29; INFRA_AGENDA per-item disposition remains due around Sep-18.
 

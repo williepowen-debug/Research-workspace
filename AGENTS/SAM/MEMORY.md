@@ -34,6 +34,8 @@
 - Removed resolved SAM-39 from the Sep-18 grading task; correct OPEN pair is SAM-28/31. Full Sep-4 STATUS and brief preserved in archive before refreshing. NEXUS stale historical core replaced with current synthesis; no other agent files touched.
 - Git pull/push deferred under dirty-peer rule; SAM-only local commit. Other agents' staged work must not be swept.
 
+- Will requested catch-up priorities: `reports/2026-09-08_catchup-priorities.md`. BLS revision primary-verified; annotate candidate labor premise next. Investigations remain open; no re-mark.
+
 ### NEXT SESSION
 
 **⚡ TIER 0 — DATED:**
