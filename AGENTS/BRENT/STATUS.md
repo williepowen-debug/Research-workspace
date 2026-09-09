@@ -7,6 +7,14 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
+## September 8 stale-intelligence audit — catch-up queue
+
+**Audit, not a blanket data refresh.** Thirteen findings: current-looking thesis duplicates, BRT-29 −3.0/−1.5 threshold conflict and overdue August 31 mechanism evidence, BRT-12 measurement gaps, event-sensitive CPC/Jazan follow-ups and dated reference estimates. Reader warnings installed; no claim, confidence, prediction grade or trade rule changed. [Prioritized audit](audits/2026-09-08_stale-intel/REPORT.md).
+
+**Fresh source checks:** exact owner PortWatch curl now succeeds, latest August 30; required August 31–September 1 still absent, control UNKNOWN. LMA current page names JWLA-034; linked July 29 circular contains both Gulf areas. No current freight/premium quote or physical-reopening grade. September 9 retail fuel (~10:00 ET) and STEO (normally noon–12:15 ET) added from official schedules; WPSR stays September 10 noon ET. Prior market values retain their vintages.
+
+**Next:** current-thesis reconciliation and BRT-29 provenance/tally; scheduled EIA reads; CPC/Jazan and matched crack/credit/flow evidence. New FALCON packet deferred at triage for source/event reconciliation; no verified-zero-loss inference. Existing broker receipt remains with TERRY/Will. Network boot: threshold/EIA checks OK, instrument warnings and ledger nudge remain; no new feed-failure claim from the restricted run.
+
 ## September 8 BRENT cleanup — operating state
 
 Trade and lesson history separated from current rules; TRADE’s complete decision paths now cover proposals, position reviews and mid-session escalation. Retired v3 runtime wording removed. Existing H1 clock is announcement day+9; persistence applicability remains explicitly unresolved at its reader. [Inventory](workbook/TRADE_OBLIGATIONS.md).
@@ -117,6 +125,8 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
 | **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
+| **Wed Sep 9** | EIA retail gasoline/diesel — September 7 observation, holiday release ~10:00 ET | 🟠 |
+| **Wed Sep 9** | EIA September STEO — scheduled noon–12:15 ET | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
 | **Fri Sep 18** | USO Sep-18 150/165 call debit spread — EXPIRY | 🔴 |
@@ -128,9 +138,9 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 18 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 20 rows are modeled.*
 
-*18 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*20 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.

@@ -1,0 +1,179 @@
+
+########################################################################
+#                                                                      #
+#                         BRENT BOOT SEQUENCE                          #
+#                                                                      #
+#                  Tuesday, September 08, 2026  21:49                #
+#                                                                      #
+########################################################################
+
+  ⏳ Threshold Monitor...
+      CRUDE & FUTURES
+      POSITIONS
+      ⚠️  UNGRADED — 22 registered threshold(s) COULD NOT BE GRADED
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          ⚠️  CL=F                 [market] WTI >$100 — Phase 1 broad
+          ⚠️  CL=F                 [market] WTI <$70 — US decoupling stress
+          ⚠️  LNG                  [market] Cheniere analyst PT range — LNG beat ter
+          ⚠️  VG                   [market] VG benefitting from spot LNG windfall
+          ⚠️  NG=F                 [market] Natgas >$4 — Atlantic basin competition
+          ⚠️  NG=F                 [market] Natgas >$5 — US gas market tight
+          ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          ⚠️  DCOILWTICO           [fred  ] WTI >$100 — broad Phase 1
+          ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >450bps — credit dislocation
+          ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >350bps — stress threshold
+          ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >300bps — elevated (currently)
+          ⚠️  DHHNGSP              [fred  ] Henry Hub >$4 — gas market tight
+          ⚠️  GASREGW              [fred  ] Retail >$4.50 — next CARL breakpoint
+          ⚠️  GASREGW              [fred  ] Retail >$4.00 — behavioral breakpoint (C
+
+  ⏳ EIA Weekly Monitor...
+      Source: 🟠 LOCAL (eia_2026-09-02.md, 6d old)
+      Week ending:   unknown
+      Released:      unknown
+      🔴 Refinery util:      98.0%                     — >95.0% — crack spread squeeze territory
+      PATH B TRIGGER STATUS (demand destruction)
+
+  ⏳ Catalyst Countdown...
+      🔴 IMMINENT (≤5 trading days)
+      🔴 ~2026-09-08 (Tue)   0d cal /  0d trd  L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION
+      🔴  2026-09-09 (Wed)   1d cal /  1d trd  XLE approved exit — OPEN; receipt pending
+      🔴  2026-09-10 (Thu)   2d cal /  2d trd  SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule)
+      🔴  2026-09-11 (Fri)   3d cal /  3d trd  Friday pair — Baker Hughes / COT as-of September 8
+      🔴  2026-09-18 (Fri)   10d cal /   8d trd  USO Sep-18 150/165 call debit spread — EXPIRY
+      🟠  2026-10-01 (Thu)   23d cal /  17d trd  🟠 EU STORAGE 80% FLOOR — DECISION DATE (bindi...
+      🟠  2026-10-04 (Sun)   26d cal /  18d trd  🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the N...
+      🔴  2026-10-09 (Fri)   31d cal /  23d trd  USO October 135C remainder — approved before-...
+      🟠 ~2026-10-10 (Sat)   32d cal /  23d trd  🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d a...
+      🟠 ~2026-11-01 (Sun)   54d cal /  38d trd  🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the t...
+      🔴 HIGH PRIORITY in horizon: 6
+
+  ⏳ Predictions-Due Scan...
+          ⚪ BRT-07  timeframe='Within 7 days of Hormuz reopening'  ⚠️ carries OUTER BOUND 2027-03-06 in its STATUS cell, which this scanner does not read — check it by hand
+
+  ⏳ Lesson-Conflict Check...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Instrument Check...
+      🔴 BLOCKING — these tests cannot be graded as written (31):
+         🔴 MKT-BZ-F-ABOVE-140 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-ABOVE-140 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-BZ-F-ABOVE-120 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-ABOVE-120 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-BZ-F-ABOVE-100 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-BZ-F-BELOW-85 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-BELOW-85 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-BZ-F-BELOW-75 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-BELOW-75 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-BZ-F-BELOW-70 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-BZ-F-BELOW-70 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         🔴 MKT-CL-F-ABOVE-100 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-CL-F-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 MKT-CL-F-BELOW-70 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-CL-F-BELOW-70 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 MKT-LNG-ABOVE-285 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-LNG-ABOVE-285 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 MKT-VG-ABOVE-15 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-VG-ABOVE-15 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 MKT-NG-F-ABOVE-4 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-NG-F-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 MKT-NG-F-ABOVE-5 [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 MKT-NG-F-ABOVE-5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 FRED-DCOILBRENTEU-ABOVE-140 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-DCOILBRENTEU-ABOVE-140 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         🔴 FRED-DCOILBRENTEU-ABOVE-120 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-DCOILBRENTEU-ABOVE-120 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         🔴 FRED-DCOILBRENTEU-ABOVE-100 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-DCOILBRENTEU-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         🔴 FRED-DCOILWTICO-ABOVE-100 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-DCOILWTICO-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-4.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-4.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-3.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-3.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-3 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-BAMLH0A0HYM2-ABOVE-3 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-DHHNGSP-ABOVE-4 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-DHHNGSP-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-GASREGW-ABOVE-4.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-GASREGW-ABOVE-4.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 FRED-GASREGW-ABOVE-4 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         🔴 FRED-GASREGW-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         🔴 KILL-LEG2-JWC-LISTING [falsifier] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — ⚠️ if this is a HANG rather than an HTTP error, check the User-Agent first (L25)
+         🔴 BRT-26-RIGS [prediction] DEAD: instrument did not return usable data — listing unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — ⚠️ a 403 here is the HEADER SHAPE, not a usage ban: check BROWSER_HEADERS first, a bare User-Agent 403s on this host by design
+         🔴 THESIS-BRENT [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 THESIS-BRENT [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 THESIS-WTI-BRENT [threshold] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 THESIS-WTI-BRENT [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         🔴 CUSHING-20M [threshold] DEAD: instrument did not return usable data — API error: <urlopen error [Errno -3] Temporary failure in name resolution>
+         🔴 CUSHING-20M [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         🔴 COT-FUEL-35B [threshold] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+         🔴 DIESEL-CRACK [falsifier] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 DIESEL-CRACK [falsifier] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget  [gate/falsifier ⇒ blocking, not advisory]
+         🔴 EU-STORAGE [threshold] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+         🔴 EU-STORAGE [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         🔴 TANKER-LIVENESS [gate] DEAD: instrument did not return usable data — no daily bars returned
+         🔴 TANKER-LIVENESS [gate] STALE: newest datapoint 2026-08-05 is 34d old vs a 4d budget  [gate/falsifier ⇒ blocking, not advisory]
+      🟠 INCIDENTS.tsv — 9 ACTIVE rows past the 60d re-verify budget (ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):
+         🟠 RF-004 South Pars / Asaluyeh                  last verified 2026-03-19 (173d)
+         🟠 RF-009 Kirishi (KINEF)                        last verified 2026-03-26 (166d)
+         🟠 RF-013 Ufa                                    last verified 2026-04-02 (159d)
+         🟠 RF-014 Mina Al-Ahmadi                         last verified 2026-04-03 (158d)
+         🟠 RF-015 Ruwais                                 last verified 2026-04-05 (156d)
+         🟠 RF-017 Nizhny Novgorod (Kstovo)               last verified 2026-04-05 (156d)
+         🟠 RF-030 Ras Laffan LNG / Shell GTL             last verified 2026-04-07 (154d)
+         🟠 RF-022 Tuapse                                 last verified 2026-04-16 (145d)
+         ⚠️  Flags only — never auto-edits. Downgrading on a timer would fabricate a restart nobody observed.
+      🟠 INCIDENTS.tsv — 3 row(s) in PRESENT-TENSE statuses the 60d budget does NOT cover, also stale (DISCLOSURE, not a budget — no threshold, gates nothing):
+         🟠 RF-005 Bazan (Haifa)                    PARTIAL_RESTART last verified 2026-03-20 (173d)
+         🟠 RF-031 Mangalore (MRPL)                 DISPUTED        last verified 2026-04-17 (145d)
+         🟠 RF-008 Port Arthur                      PARTIAL_RESTART last verified 2026-06-30 (71d)
+         ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it from the re-verify queue — accuracy must not buy invisibility.
+         ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, never on a clock. Each row names that condition in its notes.
+      ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.
+
+  ⏳ Ledger Staleness...
+    ✓ ran cleanly, no alerts
+
+  ⏳ Ledger Nudge...
+    ⚠️  nudge: [BRENT] STATUS moving without ledgers — 2 ledger(s) behind: REGISTRY.tsv (8 STATUS-writes behind), CATALYSTS.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+
+  ⏳ Derived Views...
+    ✓ ran cleanly, no alerts
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Script                           Status     Time
+  --------------------------------------------------
+  🔴 Threshold Monitor            FINDINGS    0.6s
+  ✅ EIA Weekly Monitor               OK   42.1s
+  ✅ Catalyst Countdown               OK    0.0s
+  ✅ Predictions-Due Scan             OK    0.0s
+  ✅ Lesson-Conflict Check            OK    0.0s
+  🔴 Instrument Check             FINDINGS    6.6s
+  ✅ Ledger Staleness                 OK    0.8s
+  🔴 Ledger Nudge                 FINDINGS    0.1s
+  ✅ Derived Views                    OK    0.0s
+
+  Total boot time: 50.3s
+  Date: 2026-09-08 | Day: Tuesday
+
+  🔴 3 check(s) reported BLOCKING FINDINGS (script ran fine — the SPEC is the problem):
+     • Threshold Monitor
+     • Instrument Check
+     • Ledger Nudge
+
+  🔴 BOOT COMPLETED WITH 3 BLOCKING FINDING(S). Scripts all RAN — the SPEC/state is the problem. rc=2.
+     ⛔ This is NOT a clean boot. Do not read the run as green.
+
+  Tip: run with --verbose to see full output for each script.

@@ -1,5 +1,8 @@
 # BRENT — Reference Tables
 
+> **AUDIT 2026-09-08:** spare capacity, deployable bypass ceilings, quotas, breakevens and percentiles are not immutable constants. The March tables are historical baselines, not verified September inputs. Re-source the particular measure before using it; do not compare the March 4.35M OPEC+ figure mechanically with the later EIA effective OPEC series. See [audit A10](../audits/2026-09-08_stale-intel/REPORT.md).
+
+
 > **⚠️ VINTAGE: March 2026 baseline reference** (stamped 2026-07-21). Structural constants (capacities, quotas, breakevens, spare-capacity adjudication) remain the reference; **dated operational snapshots below (storage runways "Mar 5/6", Jan-2026 production) are [STALE] — do not cite as current.** Live levels → `STATUS.md`; live catalysts → `docket/CATALYSTS.tsv`. Post-March deltas NOT reflected here: Hormuz formal closure 7/11-12, KOC platform hit 7/12 (RF-037), CPC halt 7/18-21 (RF-038), Yanbu bypass now carrying 5→>6 Mbpd [GS 7/20] and itself inside the declared Houthi zone (STATUS 7/21 vector).
 
 ## Hormuz Transit Volumes

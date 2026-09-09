@@ -3,7 +3,9 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 cleanup closeout | Prior market STATUS commit: 028bb6fd1; this cleanup has a separate commit.
+**As of:** 2026-09-08 stale-intelligence audit closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
+
+C6 audit boundary: active-reader/source-gap audit only. Exact owner PortWatch retry succeeds, still latest August 30; LMA current page and July 29 JWLA-034 checked. September 9 fuel/STEO schedules verified and added. Existing market levels, owner scenarios, holdings and prediction grades are carried, not refreshed. BRT-29's claim/invalidation mismatch and overdue mechanism tally require reconciliation; lower thesis duplicates must not supply current facts. [Audit and catch-up queue](audits/2026-09-08_stale-intel/REPORT.md).
 
 C6 cleanup boundary: rule/read-path reconciliation, seven incident corrections and four-packet triage only. All market levels and weekly grades retain their previous vintages; no broker receipt or new thesis/prediction grade. [Cleanup evidence](setups/2026-09-08_cleanup-report.md).
 
@@ -31,7 +33,8 @@ Prior owner-session C6 scoped verification: fresh EIA physical/schedule web read
 | Official Russian publication / OSPREY | No.1097/publication and original No.954 scope; specified diesel/gasoil windows | Next access; full read October 1 | Policy permission differs from recovery | Q1 independent of Q2/Q3; no clock reset. |
 | Official exchange / named-contract source | Matched September 1 benchmark; September 8 settlements; matched diesel crack | Next accessible source | Live/daily vendor quotes do not certify settlement | Upgrade only on dated matched contracts; no continuous-roll delta. |
 | TERRY / Will | XLE broker check/execution receipt | September 9 open | Selection is not fill | Close pending execution only on receipt. |
-| EIA | WPSR week ending September 4 | September 10 noon ET | Existing SPR/Edouard read | Frozen observations; first print cannot decide two-print test. |
+| EIA | WPSR week ending September 4 | September 9 ~10:00 / noon–12:15 ET | EIA retail fuel / STEO | New scheduled observations; no inherited threshold change. |
+| September 10 noon ET | Existing SPR/Edouard read | Frozen observations; first print cannot decide two-print test. |
 | Baker Hughes / CFTC | Friday pair, COT as-of September 8 | September 11 ~13:00 / ~15:30 ET | Registered rig/positioning tests | Existing letters; prior grades carried until release. |
 | LIQUID | Energy-credit/systemic amplification evidence | Event-driven, no new deadline | No independent energy HY OAS here | Distinguish commodity stress from systemic transmission. |
 
@@ -53,7 +56,7 @@ Prior owner-session C6 scoped verification: fresh EIA physical/schedule web read
 
 ## NEXT DECISION POINT
 
-September 9 open XLE receipt belongs to TERRY/Will. BRENT next reads exact PortWatch target and official decree authentication, then September 10 noon EIA. Missing source remains UNKNOWN. Full endpoints/evidence/next actions: setups/2026-09-08_market-docket-owner-read.md.
+September 9 open XLE receipt belongs to TERRY/Will. BRENT reads retail fuel around 10:00 ET and STEO normally noon–12:15 ET on September 9; WPSR follows September 10 noon ET. PortWatch required target remains absent despite successful owner access; decree authentication and BRT-29 reconciliation remain open. Missing source remains UNKNOWN. Full endpoints/evidence/next actions: setups/2026-09-08_market-docket-owner-read.md.
 
 ## WATCH (next 2–4 weeks)
 

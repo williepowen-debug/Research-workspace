@@ -1,18 +1,12 @@
-# BRENT SCRATCH — September 8, 2026 cleanup closeout
+# BRENT SCRATCH — September 8, 2026 stale-intelligence audit closeout
 
 ## CHANGES SINCE LAST SESSION
 
-- Earlier owner market/docket results remain dated September 8; no new settlement or option mark authenticated by this cleanup.
-- Primary incident research found historical restoration/operating updates and remaining unit-level gaps; seven ledger rows corrected/updated. See refinery_damage/REVERIFICATION_2026-09-08.md.
-- Four late WALTER arrivals triaged and logged. Saudi/Saratov reports carry no verified incremental barrels; Dangote future expansion is not present supply; Panama advisory is awareness.
+New FALCON packet adds reported tanker/port-threat/product-side developments; source/event reconciliation deferred. Exact PortWatch owner retry succeeds but target dates are still absent. LMA current page exposes JWLA-034 and the linked circular contains both Gulf areas. No new prices, grades or broker receipts.
 
 ## WHAT I DID THIS SESSION
 
-- Implemented Will’s approved six-part cleanup entirely under BRENT. TRADE reduced to current holdings/action state and complete decision paths; binding excerpts moved with caveats, stable IDs and source hashes. TRACKER retired gate and stale proposed-closeout text replaced.
-- Reconciled all 26 lessons with their index; original narratives preserved. Prediction first nine fields unchanged across all 30 rows; scoring conventions retained, long Notes and dated preamble archived with required readers.
-- Corrected FASTOW to the generated complete calendar. Boot now separates advisory warnings from findings/failure and cannot call a failed child clean. Existing I-8 now checks both legacy and typed quantities, including CRLF input.
-- Reviewed 18 stale incident rows: seven sourced changes, eleven unresolved current-state questions. No date-only refresh or guessed zero. Eight regression tests pass; final checks recorded in setups/2026-09-08_cleanup-report.md.
-- Intake four/logged four/archived four; no external sends. Shared-agent work left untouched.
+Audited active intelligence, 30 predictions, 49 registry rows, 53 incident vintages and 18 existing catalysts. Thirteen findings and bounded coverage in audits/2026-09-08_stale-intel/REPORT.md. Found contradictory lower thesis sections, BRT-29 threshold mismatch and overdue mechanism tally, unobserved BRT-12 ordering evidence, dated reference estimates and routine timing gaps. Added reader warnings and two source-confirmed September 9 releases. Network boot restores restricted-run feed failures; dated warnings remain. First post-cleanup TRADE/spec growth is zero. No substantive thesis rewrite or prediction adjudication claimed.
 
 ## NEXT SESSION (dated, future-verifiable)
 
@@ -22,25 +16,29 @@
 4. **September 11:** Baker Hughes ~13:00 ET (GET/date-labelled workbook, never HEAD); COT ~15:30 ET raw report_date September 8. Apply unchanged letters; do not stack grades.
 5. **September 18 / September 30:** spread expiry / BRT-12/26/29 windows. BRT-12 neither-branch = VOID under August 13 ruling. BRT-26 final in-window print September 25. October 1 Q1/Q2/Q3 full read, October 9 USO time stop, October 26 BRT-30 resolution; no early tape grade.
 
-6. **September 9 cleanup follow-through:** measure the first ordinary closeout’s TRADE/spec byte growth against workbook/CLEANUP_VERIFICATION.json; put history in evidence notes. Review deferred WALTER Saudi SIG-011 and Dangote SIG-023 at primary sources before any analytical writeback.
+6. **September 9 cleanup follow-through:** first post-cleanup audit measured zero TRADE/spec growth; keep history in evidence notes. Review deferred WALTER Saudi SIG-011 and Dangote SIG-023 at primary sources before any analytical writeback.
+
+
+7. **September 9 audit priorities:** reconstruct BRT-29 −3.0 versus −1.5 letter provenance before scoring; tally its August 31 carrier AND jet/gasoline mechanism. Reconcile current thesis sections to authoritative records before using their old facts.
+8. **September 9 EIA:** retail fuel for September 7 observation around 10:00 ET; STEO normally noon–12:15 ET. Refresh same spare-capacity definition/forecast quarters. Wednesday 11:00 mirrored routine cannot observe Thursday-noon WPSR; Friday 14:00 cannot capture ~15:30 COT.
+9. **By September 30:** recover BRT-12 matched crack/energy-credit ordering evidence; resolve Jazan/CPC identity/restart gaps and old catalyst dispositions. No unavailable-series result counts as no event.
 
 ## OPEN THREADS / WATCHES
 
-- P2 restructuring is implemented; unresolved policy/evidence is now explicit at decision readers: off-ramp persistence, alternate no-deal measurement, dated mark-watch applicability, old OVX second-witness debt. No new deployment authority.
-- Eleven incident current-state questions remain unresolved; Port Arthur also remains over the age budget despite a real June-quarter source correction. Use the per-row report; do not infer ongoing outage from an old ACTIVE label.
-- Preserve prior PortWatch target / official Russian instrument / OSPREY flow / matched crack and settlement gaps from setups/2026-09-08_market-docket-owner-read.md.
-- BRT-29 premise already MET 6/6; August 31 mechanism evidence needs separate reconciliation before final September grade. BRT-07 outer bound March 6, 2027; BRT-30 October 26.
-- COT-FUEL-35B registry letter and dated grade unchanged; the old build now identifies itself as historical. No independent energy HY OAS/war-risk/export series created.
+- Audit A01–A13 is the catch-up queue; full thesis synthesis still needs reconciliation. No rule, prediction or capital authority changed by warnings.
+- Eleven prior incident current-state gaps remain, plus aged Port Arthur. Younger CPC/Jazan rows have event-sensitive follow-up debt despite being under 60 days.
+- PortWatch target remains absent, Vortexa weekly Sidi missing, Russian decree/publication/flow and matched settlement/crack gaps remain. JWC listing is checked; current war-risk/freight prices are not.
+- BRT-29 premise MET 6/6; August 31 mechanism unadjudicated and claim/invalidation thresholds inconsistent. BRT-07 outer bound March 6, 2027; BRT-30 October 26. No early final grade.
+- Off-ramp persistence, alternate no-deal measurement, dated mark-watch and historical OVX evidence obligations remain in the trade specs.
 
 ## POSITION DECISIONS PENDING
 
-No new approval question. XLE September 9 open execution receipt is pending, not a new decision. USO October one remains with existing B135/C October9/NO ROLL; first sale price permanently UNKNOWN/no re-ask. September spread HOLD to expiry. TRADE and TERRY owner cards govern; broker truth remains off-repo.
+XLE September 9 open execution receipt; TERRY/Will own broker check/execution. Current holdings and binding rules remain in TRADE.md and owner cards. First October-call sale price permanently UNKNOWN/no re-ask. No new approval question or trade proposal.
 
 ## MAIL STATE
 
-- Inbox: four late WALTER packets consumed at triage, four matching ledger rows and four archive moves. SIG-011/023 substantive source work deferred explicitly; SIG-015/022 awareness only.
-- Outbox: prior owner-session completion/evidence artifacts retained; no new external messages sent by cleanup.
+One new FALCON packet read at triage, logged deferred and archived within BRENT; analytical/source work remains explicit. Four prior WALTER triages retain their dispositions. No external sends; no other-agent files edited.
 
 ## WORKBOOK HEALTH
 
-Whole-read files and new trade specs fit 32,550 bytes. CLAUDE is near that budget and should shrink before new prose is added. Ledger nudge may retain real age/commit-lag findings; do not refresh REGISTRY grades or option timestamps merely to quiet it. See the cleanup report for final boot status.
+TRADE/spec growth zero since cleanup. Ledger age passed; network boot reports instrument warnings and commit-lag nudge. REGISTRY is not timestamped by this audit: current JWC source check is scoped in the report, existing grades/letters unchanged. Calendar generated from the two new source-confirmed events; no resolved row pruned by date alone.

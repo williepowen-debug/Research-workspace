@@ -1,5 +1,8 @@
 # DEMAND DESTRUCTION TRACKER
 
+> **SCOPED-PARTIAL 2026-09-08 audit closeout:** market table readings retain their individual vintages. Rechecked official release schedules: retail fuel September 9 ~10:00 ET; STEO September 9 normally noon–12:15 ET; WPSR September 10 noon ET. Wednesday routine must not claim a new WPSR before release. Owner PortWatch query now succeeds but target dates remain absent. BRT-29 claim/invalidation mismatch and August 31 mechanism tally remain unadjudicated; no routine grades them. See `../audits/2026-09-08_stale-intel/REPORT.md`.
+
+
 > # 📟 **REGISTERED ALERT LINES — THIS BLOCK IS READ AT RUN TIME BY THE THREE CLOUD ROUTINES. IT IS THE SINGLE POINT OF TRUTH FOR WHAT THEY WATCH.**
 > **SCOPED-PARTIAL refresh: 2026-09-08 cleanup closeout.** Rule/read-path reconciliation only this pass; observation and grade dates below are unchanged. Prior owner session: Re-verified: EIA September 1 spot, official September 10 WPSR holiday date, saved named-contract Yahoo bars and live snapshots (lines 9–11), and existing WQ-189/192 rule. Lines 1–8 retain their explicit prior observation/grade dates; no fresh weekly grade or blanket data refresh. DNS failures are UNKNOWN, not no-breach. Source detail: `setups/2026-09-08_market-docket-owner-read.md`. Prior header/cells preserved in `archive/2026-09-08_owner-writeback-before.json`.
 > **Next WPSR: Thursday September 10, noon ET, week ending September 4. Next Friday pair: September 11, Baker Hughes ~13:00 ET / COT ~15:30 ET.**

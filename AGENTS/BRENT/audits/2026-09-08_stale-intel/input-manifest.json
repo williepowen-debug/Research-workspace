@@ -1,0 +1,83 @@
+{
+  "audit_as_of_utc": "2026-09-09T01:56:41.059518+00:00",
+  "audit_local_date": "2026-09-08",
+  "baseline_commit": "7c0bc83b2ee4f937c7de6d2ff94e9fb83b3cc397",
+  "scope": "Active intelligence and decision readers; not a line-by-line audit of every historical archive or a re-research of all 53 incidents.",
+  "inputs": {
+    "STATUS.md": {
+      "bytes": 26468,
+      "sha256": "8422167d8eb5e6b18ff0d88cbb805bb13d0454c0c8ff3532c3a9707c78ab470d"
+    },
+    "SCRATCH.md": {
+      "bytes": 5315,
+      "sha256": "248741c386f48268c356405c38f2d5857b4428f056d271bc4c12c7b460677823"
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 8074,
+      "sha256": "41aa93949eca10e0f018e440ce27ac43ce06bc71291c4fab50bbc435154e39f2"
+    },
+    "TRADE.md": {
+      "bytes": 6781,
+      "sha256": "003011b0489e3ad316504047ef0e7fa3bea6f07dbc26699fdf501f8bb9e7d691"
+    },
+    "thesis/THESIS.md": {
+      "bytes": 74599,
+      "sha256": "6288df152857121974deb43d50a7107bab8ac17ca635c4b3c9e14537d12251f1"
+    },
+    "thesis/PREDICTIONS.tsv": {
+      "bytes": 65443,
+      "sha256": "a83095b9cac34b16a190c41295522c3d5e42a3ed0ae93f0a9b5ff83f698140af"
+    },
+    "docket/CATALYSTS.tsv": {
+      "bytes": 55112,
+      "sha256": "5ce0f5c60f8df1147e67679d0c50497d6bf23d995bab389fc737a12f296b2dd9"
+    },
+    "workbook/REGISTRY.tsv": {
+      "bytes": 74885,
+      "sha256": "c971eba1df31cc32a32d2234d49735e17d74f771709788cb1e6e7798507fd339"
+    },
+    "refinery_damage/INCIDENTS.tsv": {
+      "bytes": 68188,
+      "sha256": "ef5c687fa12e4be255e2d8b192c47d219217ebb9234f175b7aac54fa5b4ee0db"
+    },
+    "domain/REFERENCE_TABLES.md": {
+      "bytes": 10075,
+      "sha256": "171ab199b23bf58c1c87cb6f17229d6e7b382e19dea159357890efb672e42584"
+    },
+    "SCHEDULED_RUNS.md": {
+      "bytes": 7871,
+      "sha256": "97064eb3f0020ae49e6ac817a38406451493d1a8a74457b0219fef91d6e654ee"
+    },
+    "demand_destruction/TRACKER.md": {
+      "bytes": 144443,
+      "sha256": "35435c688c3c4258e61f1cd4657f1b76458ec3de28d316f4dd17a4d3044b9b58"
+    },
+    "thesis/prediction_notes/BRT-12.md": {
+      "bytes": 3049,
+      "sha256": "fa522b99204403eee148114b27879b2033fdd3d4710067aecccb47be2a0f4bb3"
+    },
+    "thesis/prediction_notes/BRT-29.md": {
+      "bytes": 2063,
+      "sha256": "76820a7391d504ae80cf0ec1dd78e4ed639fb97b022e391128ba29fa4902e77f"
+    },
+    "setups/2026-09-08_market-docket-owner-read.md": {
+      "bytes": 11191,
+      "sha256": "d1b6e2b6cea4bac4a2136f94f8f305b281cd35436c21a0aac04cd2412e6ccfba"
+    },
+    "refinery_damage/REVERIFICATION_2026-09-08.md": {
+      "bytes": 10686,
+      "sha256": "3a1855e238f8c34541a1f1c3e85cbf8d204b3134bde4b9e7912bac6b87e0ab16"
+    },
+    "demand_destruction/data/monday_2026-09-07.md": {
+      "bytes": 12970,
+      "sha256": "0471489d6f3c8ca082039867f7391228c8cbc74df13feab2cecf3683c4f35988"
+    }
+  },
+  "source_checks": {
+    "portwatch": "Owner curl succeeded; latest date August 30; required August 31-September 1 absent.",
+    "jwc": "LMA current page names JWLA-034; linked circular dated July 29, 2026 contains both Gulf areas. No BRT-30 final grade.",
+    "steo": "Official release September 9, normally noon-12:15 ET.",
+    "retail_fuel": "Official holiday release September 9 around 10:00 ET for September 7 observations.",
+    "wpsr": "Official September 10 noon ET release for September 4 survey week."
+  }
+}

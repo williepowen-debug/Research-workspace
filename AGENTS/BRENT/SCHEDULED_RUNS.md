@@ -1,5 +1,8 @@
 # BRENT — Cloud Routines Registry (off-repo prompt mirror)
 
+> **Audit note 2026-09-08 — source timing, not a remote schedule change:** the mirrored Wednesday 11:00 ET run precedes this week’s WPSR release (Thursday September 10 noon ET). Treat any Wednesday output as pre-release; arrange the owner read after publication. The mirrored Friday 14:00 ET run also precedes COT ~15:30 ET, so it cannot by itself capture the new Friday COT print. Server-side settings were not inspected or changed. [Audit A11](audits/2026-09-08_stale-intel/REPORT.md).
+
+
 **Created:** 2026-08-03 EVE by PROME (Will-authorized — BRENT idle; owner ratifies at next boot, see inbox packet same date).
 **Why this file exists:** routine prompt text is stored **server-side at claude.ai/code/routines — invisible to every repo grep** (VULCAN's 8/3 diagnosis: a dead delivery path survived two repo-side flags because the regression lived in off-repo prompt text). This registry is the repo-visible mirror. **Rule: any change to a routine's prompt updates this file in the same pass, and vice versa.** Pattern source: `AGENTS/VULCAN/SCHEDULED_RUNS.md`.
 

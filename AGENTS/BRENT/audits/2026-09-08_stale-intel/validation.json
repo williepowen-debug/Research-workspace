@@ -1,0 +1,37 @@
+{
+  "audit_date": "2026-09-08",
+  "calendar_check": {
+    "events": 20,
+    "standing_rows": 8,
+    "result": "PASS"
+  },
+  "read_cap_check": "PASS: all five discovered boot reads under 32550; additional audit/brief/reference/note sizes measured",
+  "canonical_unchanged": [
+    "thesis/PREDICTIONS.tsv",
+    "workbook/REGISTRY.tsv",
+    "refinery_damage/INCIDENTS.tsv",
+    "TRADE.md",
+    "setups/SPECS_GATES.md",
+    "setups/SPECS_OFFRAMP_ENTRY.md",
+    "setups/SPECS_TRADE_RULES.md"
+  ],
+  "corrections": "PASS: zero unreceipted named corrections",
+  "diff_check": "PASS",
+  "regression_tests": "Not rerun: no code change in this audit",
+  "intake": {
+    "read_at_triage": 1,
+    "logged_deferred": 1,
+    "archived": 1,
+    "external_messages": 0
+  },
+  "network_boot": {
+    "exit_code": 2,
+    "failed_scripts": 0,
+    "threshold_monitor": "OK",
+    "eia_weekly": "OK",
+    "instrument_check": "WARNINGS",
+    "ledger_age": "OK",
+    "ledger_nudge": "FINDINGS"
+  },
+  "remaining": "Research gaps are not resolved by this audit. See REPORT.md A01-A13."
+}

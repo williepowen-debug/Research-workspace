@@ -1,0 +1,393 @@
+{
+  "incident_rows_scanned": 53,
+  "incident_status_and_vintage": [
+    {
+      "id": "RF-001",
+      "facility": "Ras Tanura",
+      "status": "RESOLVED",
+      "last_verified": "2026-04-07",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-002",
+      "facility": "Kharg Island",
+      "status": "ATTACKED_INFRA_INTACT",
+      "last_verified": "2026-08-13",
+      "offline_state": "ZERO-INTACT"
+    },
+    {
+      "id": "RF-003",
+      "facility": "Dos Bocas (Olmeca)",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-17",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-004",
+      "facility": "South Pars / Asaluyeh",
+      "status": "ACTIVE",
+      "last_verified": "2026-03-19",
+      "offline_state": "NA-WRONG-UNIT"
+    },
+    {
+      "id": "RF-005",
+      "facility": "Bazan (Haifa)",
+      "status": "PARTIAL_RESTART",
+      "last_verified": "2026-03-20",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-006",
+      "facility": "Samref (Yanbu)",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-19",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-007",
+      "facility": "Mina Abdullah",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-20",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-008",
+      "facility": "Port Arthur",
+      "status": "PARTIAL_RESTART",
+      "last_verified": "2026-06-30",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-009",
+      "facility": "Kirishi (KINEF)",
+      "status": "ACTIVE",
+      "last_verified": "2026-03-26",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-010",
+      "facility": "Corpus Christi metro (water)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-04",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-011",
+      "facility": "Ust-Luga (Baltic export)",
+      "status": "RESOLVED",
+      "last_verified": "2026-07-01",
+      "offline_state": "NA-WRONG-UNIT"
+    },
+    {
+      "id": "RF-012",
+      "facility": "ADCOP Habshan-Fujairah pipeline",
+      "status": "RESOLVED",
+      "last_verified": "2026-08-13",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-013",
+      "facility": "Ufa",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-02",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-014",
+      "facility": "Mina Al-Ahmadi",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-03",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-015",
+      "facility": "Ruwais",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-05",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-016",
+      "facility": "Habshan (gas processing)",
+      "status": "PARTIAL_RESTART",
+      "last_verified": "2026-08-10",
+      "offline_state": "NA-WRONG-UNIT"
+    },
+    {
+      "id": "RF-017",
+      "facility": "Nizhny Novgorod (Kstovo)",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-05",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-018",
+      "facility": "Satorp (Jubail)",
+      "status": "PARTIAL_RESTART",
+      "last_verified": "2026-07-24",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-019",
+      "facility": "Kharg Island (strike 2)",
+      "status": "ATTACKED_INFRA_INTACT",
+      "last_verified": "2026-04-17",
+      "offline_state": "ZERO-INTACT"
+    },
+    {
+      "id": "RF-020",
+      "facility": "Dos Bocas (coke warehouse)",
+      "status": "RESOLVED",
+      "last_verified": "2026-04-10",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-021",
+      "facility": "Geelong",
+      "status": "PARTIAL_RESTART",
+      "last_verified": "2026-08-21",
+      "offline_state": "DERIVED-BOUND"
+    },
+    {
+      "id": "RF-022",
+      "facility": "Tuapse",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-16",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-023",
+      "facility": "Ardmore",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-06",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-024",
+      "facility": "Whiting",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-06",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-025",
+      "facility": "Borger",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-06",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-026",
+      "facility": "Catlettsburg",
+      "status": "RESOLVED",
+      "last_verified": "2026-03-06",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-027",
+      "facility": "Galveston Bay",
+      "status": "RESOLVED",
+      "last_verified": "2026-01-14",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-028",
+      "facility": "Wilmington (LA)",
+      "status": "PERMANENT_CLOSURE",
+      "last_verified": "2026-08-21",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-029",
+      "facility": "Benicia (SF Bay)",
+      "status": "PERMANENT_CLOSURE",
+      "last_verified": "2026-08-21",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-030",
+      "facility": "Ras Laffan LNG / Shell GTL",
+      "status": "ACTIVE",
+      "last_verified": "2026-04-07",
+      "offline_state": "NA-WRONG-UNIT"
+    },
+    {
+      "id": "RF-031",
+      "facility": "Mangalore (MRPL)",
+      "status": "DISPUTED",
+      "last_verified": "2026-04-17",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-032",
+      "facility": "Vadinar",
+      "status": "RESOLVED",
+      "last_verified": "2026-06-04",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-033",
+      "facility": "VTTI Fujairah oil terminal",
+      "status": "ACTIVE",
+      "last_verified": "2026-05-31",
+      "offline_state": "ZERO-NODOUBLECOUNT"
+    },
+    {
+      "id": "RF-034",
+      "facility": "Barakah Nuclear Power Plant",
+      "status": "ATTACKED_INFRA_INTACT",
+      "last_verified": "2026-05-31",
+      "offline_state": "ZERO-INTACT"
+    },
+    {
+      "id": "RF-035",
+      "facility": "Primorsk (Baltic export)",
+      "status": "RESOLVED",
+      "last_verified": "2026-07-01",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-036",
+      "facility": "Novorossiysk (Grushovaya/CPC)",
+      "status": "RESOLVED",
+      "last_verified": "2026-07-01",
+      "offline_state": "ZERO-RESTORED"
+    },
+    {
+      "id": "RF-037",
+      "facility": "KOC offshore drilling platform (Kuwaiti territorial waters)",
+      "status": "MONITORING",
+      "last_verified": "2026-07-21",
+      "offline_state": "UNKNOWN"
+    },
+    {
+      "id": "RF-038",
+      "facility": "CPC Marine Terminal (Yuzhnaya Ozereyevka, Novorossiysk)",
+      "status": "ACTIVE",
+      "last_verified": "2026-07-23",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-039",
+      "facility": "Jazan Refinery & Terminal (Jizan, Red Sea coast)",
+      "status": "ACTIVE",
+      "last_verified": "2026-07-30",
+      "offline_state": "MEASURED"
+    },
+    {
+      "id": "RF-040",
+      "facility": "Perm Refinery - Lukoil-Permnefteorgsintez",
+      "status": "MONITORING",
+      "last_verified": "2026-07-30",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-041",
+      "facility": "Ryazan Refinery",
+      "status": "MONITORING",
+      "last_verified": "2026-07-30",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-042",
+      "facility": "CPC Marine Terminal - SPM-3 (Yuzhnaya Ozereyevka, Novorossiysk) - RE-HALT",
+      "status": "ACTIVE",
+      "last_verified": "2026-07-30",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-043",
+      "facility": "Energos Winter LNG FSRU, Damietta (+ spread to GasLog Salem)",
+      "status": "MONITORING",
+      "last_verified": "2026-07-30",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-044",
+      "facility": "Jazan Refinery & Terminal (Jizan, Red Sea coast) - SECOND STRIKE",
+      "status": "ACTIVE",
+      "last_verified": "2026-08-10",
+      "offline_state": "ZERO-NODOUBLECOUNT"
+    },
+    {
+      "id": "RF-045",
+      "facility": "Berri Gas Plant, Al Jubail (Persian Gulf coast)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-046",
+      "facility": "Ufaneftekhim (Ufa cluster, Bashkortostan)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-047",
+      "facility": "Bashneft-UNPZ (Ufa cluster, Bashkortostan)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-048",
+      "facility": "Bashneft-Novoil (Ufa cluster, Bashkortostan)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-049",
+      "facility": "Slavneft-YANOS (Yaroslavl)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-050",
+      "facility": "Ilsky Refinery (Krasnodar Krai)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-051",
+      "facility": "Syzran Refinery (Samara Oblast)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-052",
+      "facility": "Saratov Refinery (Saratov Oblast)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    },
+    {
+      "id": "RF-053",
+      "facility": "Taneco Refinery (Nizhnekamsk, Tatarstan)",
+      "status": "MONITORING",
+      "last_verified": "2026-08-10",
+      "offline_state": "UNLOGGED"
+    }
+  ],
+  "registry_rows_scanned": 49,
+  "registry_live": 31,
+  "docket_rows_before_audit": 18,
+  "prediction_rows": 30,
+  "open_prediction_ids": [
+    "BRT-07",
+    "BRT-12",
+    "BRT-26",
+    "BRT-29",
+    "BRT-30"
+  ],
+  "trade_growth_since_cleanup": {
+    "TRADE.md": 0,
+    "SPECS_GATES.md": 0,
+    "SPECS_OFFRAMP_ENTRY.md": 0,
+    "SPECS_TRADE_RULES.md": 0
+  }
+}

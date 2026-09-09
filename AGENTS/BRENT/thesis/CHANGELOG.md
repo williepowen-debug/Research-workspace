@@ -1,5 +1,10 @@
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
+## 2026-09-08 — stale-intelligence audit (no version/grade change)
+
+Current-looking lower thesis sections contain superseded state; reader warning installed pending full reconciliation. BRT-29 claim/invalidation threshold mismatch and overdue August 31 evidence task surfaced in its mandatory note. No canonical prediction fields changed. PortWatch owner access re-established with target absent; JWC document and official EIA release schedules checked. Two release tasks added. Full findings: `../audits/2026-09-08_stale-intel/REPORT.md`.
+
+
 Historical preamble and long Notes moved to dated evidence; all 30 rows retain their first nine fields exactly. Required per-row notes carry original text, current amendment precedence and source limitations. September 7 scoring conventions remain on the TSV. No confidence or prediction claim changed.
 
 # BRENT CHANGELOG
