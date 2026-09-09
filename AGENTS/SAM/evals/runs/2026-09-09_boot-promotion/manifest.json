@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-09-09T22:14:21.538708+00:00",
+  "candidate_sha256": "fb28c158919583ce880ac23d4cd24ba424dea3c06eb4186a471ece329a2446a6",
+  "mode": "fresh Claude Code print session in actual SAM directory; tools disabled for skip-boot cases; no context/rubric injection",
+  "runs": [
+    {
+      "case": "case_01",
+      "session_id": "4cf8040c-eb75-4370-b23d-31d436975b03",
+      "pid": 10,
+      "command": [
+        "claude",
+        "--print",
+        "--verbose",
+        "--output-format",
+        "stream-json",
+        "--session-id",
+        "4cf8040c-eb75-4370-b23d-31d436975b03",
+        "--permission-mode",
+        "dontAsk",
+        "--tools",
+        ""
+      ],
+      "input_sha256": "cd3332350acce926878693885a76e279f0a1e95fb963a137fc48a251d590d28f",
+      "rubric_sha256": "5337153c8326d25ea540bbb8c8a86ea24c17e77ab429ab9515bd6f13e50b7343"
+    },
+    {
+      "case": "case_02_v1_2",
+      "session_id": "aee43b97-be3c-4b4a-ae4d-d0f270bd3803",
+      "pid": 11,
+      "command": [
+        "claude",
+        "--print",
+        "--verbose",
+        "--output-format",
+        "stream-json",
+        "--session-id",
+        "aee43b97-be3c-4b4a-ae4d-d0f270bd3803",
+        "--permission-mode",
+        "dontAsk",
+        "--tools",
+        ""
+      ],
+      "input_sha256": "0eed69ff6aaf458221c047e7f3069399d1329519cc41e412fd241ed664afe3f1",
+      "rubric_sha256": "cd98a8e96cbde9424d03b26eaa5495368d1448d08259cbab4731d0aa6a87935b"
+    }
+  ]
+}

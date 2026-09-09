@@ -26,22 +26,23 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION / LAST SESSION — September 9 boot corrections
+### CHANGES SINCE LAST SESSION / LAST SESSION — September 9 follow-through
 
-- Implemented the approved [six-part design](proposals/2026-09-09_boot-corrections.md). Tool usage → `scripts/README.md`. Neutral monitor labels, corrected live CFTC normalization/cover arithmetic, honest failure output, raw reports, BOJ review preparation and read-only prediction/orientation modes are available. Default-startup promotion awaits fresh-session eval; no simulated pass.
-- No market refresh, new prediction grade, thesis change or trade in this pass. September 8 [integration](reports/2026-09-08_integration.md) and [assessment](reports/2026-09-08_catchup-assessment.md) remain current. September 9 prior boot: 13/14; changed BOJ chart remains unreviewed.
-- Full previous handoff preserved verbatim in `MEMORY_ARCHIVE.md` § 2026-09-09. Feedback, Findings, auto-memory references and this template are retained. Historical narrative is cold; all open obligations are carried below.
+- Completed the four-task available-evidence pass: [report](reports/2026-09-09_followthrough.md). BOJ changed chart visually reviewed, validated and ingested; U.S. funding refreshed, independent pre-event Ueda fiscal forecast found, EIA and CFTC baseline captured. Official-action attribution remains OPEN.
+- Fresh boot validation: Case 01 PASS twice; corrected/versioned Case 02 FAIL twice. Separate orientation 21/21 PASS with unchanged ledger hashes. Original CLAUDE restored; startup promotion withheld. Exact responses and diagnosis → `evals/runs/2026-09-09_boot-promotion/ASSESSMENT.md`.
+- Dec26–Mar27 contract identity/expiry and official settlement anchor validated; vendor rounding and asynchronous prices block feed activation. Old fixed pair/history and expiry stop preserved. September 11/18 review packets prepared with frozen terms and explicit measurement ambiguities.
+- Original August 21 infrastructure ruling located; all four adopt/defer choices recorded in `INFRA_AGENDA.md`. Silence-triggered administrative reminder closed separately. No prediction grade, thesis change, trade or peer message. Existing feedback, findings and auto-memory references retained.
 
 ### NEXT SESSION
 
 **TIER 0 — DATED:**
-- **Sep-9/10:** BOJ actuals/forecast plus independent pre-BOJ broker baseline; Sep-8 U.S. funding and EIA outlook. **Sep-11:** post-rally CFTC + CPI. Cause OPEN. **Before Sep-14:** validate replacement futures pair; existing proxy stops at expiry.
+- **Sep-9 21:00 ET / Sep-10 JST:** Sep-9 final BOJ actuals, then MOF weekly and EIA petroleum. Independent Ueda prior baseline and Sep-8 U.S. funding are captured. **Sep-11:** CFTC/CPI release checks per `docket/2026-09-11_CFTC_REVIEW.md`. **Before Sep-14:** resolve replacement settlement-feed quality; pair selected, activation withheld, existing proxy stops at expiry.
 - **Before Sep-29 40Y:** register tenor-appropriate terms. Uniform-price 40Y has **no yield or price tail** (KB-SAM-175); do not apply the 20Y/30Y tail test. The Sep-3 30Y SOFT grade remains frozen; its 0.1bp trip margin/quote quantization is a separate precision question before the next applicable tail window. Retirement counter remains 0-of-2.
-- **~Sep-18 INFRA_AGENDA:** per-item adopt/defer review owed. This is an **estimated reminder**, not an authenticated expiry timestamp; trace the original Will ruling before any automatic retirement. KOYOMI's Aug-27 class ruling is already present in `docket/KOYOMI.md`; no duplicate class ruling owed.
-- **Sep-15/16 FOMC; Sep-17/18 BOJ; Sep-18 CPI and SAM-28/31 close review.** Exact grading conditions remain in the prediction rows; reminder sidecar supplies no new condition or automatic grade. SAM-33 runs through Dec-31.
+- **INFRA disposition CLOSED Sep-9:** original Aug-21 authority found; #2 evals and limited #4 orientation adopted, #3 observability and #1 state migration deferred. Delivery backlog remains owner-paced; no silent-retirement reminder owed.
+- **Sep-15/16 FOMC; Sep-17/18 BOJ; Sep-18 CPI and SAM-28/31 close review.** Use `docket/2026-09-18_SAM28_SAM31_REVIEW.md`; original rows govern. FXY episode endpoints and VIX-spike fixing convention remain unresolved, not silently invented. Reminder sidecar supplies no new condition or automatic grade. SAM-33 runs through Dec-31.
 
 **TIER 1 — OWED / MINE TO RULE:**
-- **BOJ chart refresh:** run `boj_ois.py --prepare-review`, visually inspect saved image/time/terms, finish a reviewed JSON, then validate and ingest per `workbook/BOJ_OIS_README.md`. Preparation does not make a quote current. Never restore the old feed.
+- **BOJ chart refresh CLOSED for Sep-9 15:15 JST-assumed vintage:** all five rows ingested; repeat zero rows. Repeat the review only when a new image appears; refresh before decision because this review expires Sep-18 00:00 JST. Never restore the old feed.
 - **SAM-39 successor:** preregister SHAPE (max single-hour move or time-to-half-move) before any reopened intervention-character window.
 - **METSUKE:** Run-18 E1 publisher-side monitor spec for STATUS figure rebases; **Run-12 flags/escalations apply pass remains owed** (July 31 deferred by design).
 - **KB:** 209 analytical consolidation DONE; 051/197 substantive cleanup remains owed. Quote repair did not resolve analytical history. FRBNY Q3 ~Nov-13 still adjudicates the U.S. account split.
@@ -49,9 +50,9 @@
 - **CFTC weekly deadband successor:** KB-SAM-231; register before next window, never retune a live one.
 - **WALTER charter edit:** mine per Aug-18 lane notice, still owed.
 - **JGB `--backfill-from`:** scope decision owed. Prediction boot instrument now implemented; no longer a build obligation.
-- **KOYOMI:** trigger-vs-convention baseline audit execute first October; Run-16 verify block roll pending. Class ruling already closed; infrastructure deadline provenance still open.
+- **KOYOMI:** trigger-vs-convention baseline audit execute first October; Run-16 verify block roll pending. Class ruling and infrastructure provenance/disposition now closed.
 - **Retired-figure relabeling auto-memory:** routing is CLOSED. Verified existing `memory/auto/finding_retired_figure_relabelled_onto_another_subject_evades_its_guard.md` (Sep-4), covering dead BOJ 74.5 relabeled as Fed; do not create a duplicate. Companion lesson: `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`.
-- Keep STATUS <20KB target / 32,550B binding cap. Default-startup promotion and deferred eval re-baseline: operator packet in `evals/BOOT_CORRECTIONS_2026-09-09_RUN_PROMPT.md`.
+- Keep STATUS <20KB target / 32,550B binding cap. Default-startup promotion WITHHELD after actual eval failure. Diagnose BOJ reaction-function and FX transaction-sign errors before a newly identified trial; frozen criteria stay fixed. Assessment in `evals/runs/2026-09-09_boot-promotion/ASSESSMENT.md`.
 
 **TIER 2 — SUCCESSOR AND RESEARCH:**
 - v2.0 KILLED; RED body UNREAD / Will-gated. **No successor; v1.7 stands.** v1.8 candidate needs separate FX terms, RED review and Will approval; historical SAM-41 remains confirmed.

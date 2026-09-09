@@ -1,0 +1,12 @@
+[
+  {
+    "case": "case_01",
+    "session_id": "f2aed515-6091-4e0a-8196-70025d5a033c",
+    "exit_code": 0
+  },
+  {
+    "case": "case_02_v1_2",
+    "session_id": "803e22ba-fd01-46ee-8227-5740cf2a61df",
+    "exit_code": 0
+  }
+]

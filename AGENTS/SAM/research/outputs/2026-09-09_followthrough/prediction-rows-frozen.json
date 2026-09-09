@@ -1,0 +1,28 @@
+{
+  "source": "thesis/PREDICTIONS.tsv",
+  "sha256": "970faed60cd17ca3844be23aed030b696bd9db178e7e0e0fd2742320294d3297",
+  "rows": [
+    [
+      "SAM-28",
+      "2026-06-22",
+      "≥1 eligible carry-unwind tail-route (risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / sustained MOF #3) fires producing a ≥+3% FXY move by Sep 18 2026",
+      "40%",
+      "Through Sep 18 2026",
+      "OPEN",
+      "—",
+      "—",
+      "v1.6 carry-convexity-tail CORE test (leg-2 SPF as a falsifiable prediction; RED #2/#3). The frame \"pays\" iff this fires; modal outcome is NO-fire — the >50% mode. If Sep 18 passes with no qualifying fire AND positioning still ≥80% → convexity-tail retires to LOW (thesis-break leg-2). Net 60d EV ≈ break-even-to-slightly-negative (RED #1). 40% anchored to EV-table union P(any route fires) ~0.42/60d, +window-length −(≥+3% move bar). Window LOCKED Sep-18 per RED #3/#5. ⚠️ Window-end mechanics (2026-07-02): the Sep 17-18 BOJ MPM decision day lands ON the Sep-18 boundary — window INCLUSIVE of Sep-18; retire-check runs at Sep-18 close AFTER the BOJ decision prints (a trigger fired by it counts). Lock unchanged."
+    ],
+    [
+      "SAM-31",
+      "2026-06-22",
+      "Cross-pair yen-haven channel re-couples (yen STRENGTHENS on a risk-off / VIX-spike episode rather than routing to USD-haven) by Sep 18 2026",
+      "35%",
+      "Through Sep 18 2026",
+      "OPEN",
+      "—",
+      "—",
+      "v1.6 reclaim-tripwire #2 (RED #1 flip-up). Channel decoupled Jun 11 (risk-off → USD-haven). Re-couple restores the joint +7%/10% risk-off route → reclaims MED-HIGH. 35% = requires a genuine VIX-spike regime, not hawkish-Fed equity bleed. Tracked w/ HENRY (cross-pair read)."
+    ]
+  ]
+}

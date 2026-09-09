@@ -1,5 +1,11 @@
 # SAM TIMELINE
 
+## 2026-09-09 — Prior fiscal baseline found; validation gates held
+
+The independent prior-baseline gap is narrowed by Ueda's September 3 monthly/day forecast, supported by its dated PDF and publisher modification timestamp. September 9's provisional fiscal drain was close to that advance expectation; the gross drain is weak evidence for intervention. September 8 remains an unexplained miss, and official attribution remains OPEN. U.S. funding and BOJ pricing refreshed; source clocks and measurements → `../../reports/2026-09-09_followthrough.md`.
+
+Fresh orientation acceptance passed, but both judgment rounds failed the corrected Case 02, so startup promotion was withheld and original instructions restored. December–March futures identity/expiry validated; feed activation held for precision/timing. September 11/18 review packets preserve original prediction terms and endpoint ambiguities. All four infrastructure dispositions recorded under the located August 21 ruling; separate administrative reminder closed. v1.7/LOW, no successor, flat book and historical grades unchanged.
+
 ## 2026-09-08 — Durable integration after the catch-up
 
 Will approved the owner-file reconciliation. Existing findings and corrections now govern policy/FX, conditional JGB demand, insurer evidence, intervention attribution and energy interpretation directly. Full changes and preserved before-images → `../../reports/2026-09-08_integration.md`. BOJ source replacement now verifies a reviewed image before ingestion; a new table appeared during validation and received a separate source vintage. No successor thesis, position action or historical prediction regrade.

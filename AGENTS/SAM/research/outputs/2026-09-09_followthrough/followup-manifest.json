@@ -1,0 +1,49 @@
+[
+  {
+    "file": "raw/boj-jx20260909.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jx/jx20260909.xlsx",
+    "sha256": "4280699cccc85ca3d0d8714d3e2d07e95cfd9d16b0feb0699be0fec0e11c39da",
+    "retrieved_at": "2026-09-09T23:13:38.099900+00:00"
+  },
+  {
+    "file": "raw/boj-jp20260910-current.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jp/jp20260910.xlsx",
+    "sha256": "618d73c89fce6c87f325eff54bd2fc4276a86b2ed7973ec4f8053fe225f62fc1",
+    "retrieved_at": "2026-09-09T23:13:37.489085+00:00"
+  },
+  {
+    "file": "raw/central-home.html",
+    "url": "https://www.central-tanshi.com/",
+    "sha256": "5d9191c8a873f9b858d798bed2e7173688a9db1ec15e06ac47031eb868b0ff0c",
+    "retrieved_at": "2026-09-09T23:13:38.510205+00:00"
+  },
+  {
+    "file": "raw/ueda-tanshi.html",
+    "url": "https://www.ueda-net.co.jp/market/forecast.html",
+    "sha256": "dd7b11262ea990480478633d805c1662d688d21437adc105e7046c16275cc339",
+    "retrieved_at": "2026-09-09T23:13:39.608227+00:00"
+  },
+  {
+    "file": "cme-yen-rulebook.pdf",
+    "url": "https://www.cmegroup.com/rulebook/CME/II/250/253.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "series": "IORB",
+    "source": "existing FORGE FRED client",
+    "exit_code": 0,
+    "retrieved_at": "2026-09-09T23:13:40.235342+00:00"
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "source": "existing FORGE FRED client",
+    "exit_code": 0,
+    "retrieved_at": "2026-09-09T23:13:40.827934+00:00"
+  },
+  {
+    "series": "BAMLC0A0CM",
+    "source": "existing FORGE FRED client",
+    "exit_code": 0,
+    "retrieved_at": "2026-09-09T23:13:41.177509+00:00"
+  }
+]

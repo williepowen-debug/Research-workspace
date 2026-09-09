@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-09 boot-correction implementation (documentation only). Market observations unchanged from Sep-9 startup; FX/options/proxy retrieval ~16:58 ET. BOJ current quote UNAVAILABLE pending new-image review.**
+**Last written: 2026-09-09 follow-through. BOJ Sep-9 15:15 JST-assumed quote reviewed/ingested, live checked 23:31 UTC. Funding Sep-8; Japan provisional Sep-9. FX/options/old proxy retain their explicitly dated startup observations. New research retrievals through 23:31 UTC.**
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired against `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` §2/§5; RED blind-pass header verdict **KILL-as-successor-frame**, body **UNREAD / Will-gated**). · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.**
 
@@ -17,13 +17,13 @@
 
 ---
 
-## 2026-09-09 — Boot corrections implemented
+## 2026-09-09 — Follow-through completed through available evidence
 
-Monitor labels, CFTC display/cover arithmetic, failure reporting, BOJ evidence preparation and read-only prediction/orientation commands are implemented. [Design and delivery status](proposals/2026-09-09_boot-corrections.md); [usage](scripts/README.md). Default-startup promotion remains pending the separate fresh-session eval described in the operator packet. No market refresh or prediction grade in this implementation pass.
+[Report and source clocks](reports/2026-09-09_followthrough.md). BOJ changed-image failure closed: five rows reviewed/ingested, repeat zero rows. U.S. funding refreshed; Ueda September 3 fiscal baseline authenticated with publisher date/metadata. Sep-9 gross drain was anticipated; Sep-8 unexplained residual and official-action attribution remain OPEN.
 
-September 8 integration remains governing context: [integration map](reports/2026-09-08_integration.md), [market assessment and source clocks](reports/2026-09-08_catchup-assessment.md). September 9 [startup record](reports/2026-09-09_orientation.md) retains the prior 13/14 result and the BOJ changed-image failure.
+Boot validation: Case 01 PASS twice; versioned Case 02 FAIL twice; fresh orientation 21/21 PASS. **Original CLAUDE restored; default-startup promotion withheld.** [Exact trial evidence](evals/runs/2026-09-09_boot-promotion/ASSESSMENT.md). Dec–Mar pair identity/expiry and official settlement anchor validated, but vendor precision/timing blocks replacement-feed activation. Current proxy still stops September 14. Sep-11/18 packets prepared; original prediction terms unchanged. All four infrastructure adopt/defer dispositions recorded under the located Aug-21 authority; administrative reminder closed.
 
-Complete pre-correction handoff is preserved verbatim in `STATUS_ARCHIVE.md` § 2026-09-09. Current target <20,000 bytes; binding whole-read cap 32,550 bytes. Rotate settled narrative to that adjacent archive; retain live thresholds, caveats and obligations here.
+September 8 [integration](reports/2026-09-08_integration.md) and [assessment](reports/2026-09-08_catchup-assessment.md) retain their historical vintages; today's report supersedes their funding/baseline availability. Pre-correction handoff preserved in `STATUS_ARCHIVE.md`. Target <20KB; binding cap 32,550B.
 
 ## LIVE MARKET DATA
 
@@ -32,7 +32,7 @@ Complete pre-correction handoff is preserved verbatim in `STATUS_ARCHIVE.md` § 
 | Instrument | Level / vintage | Note |
 |---|---|---|
 | CFTC non-commercial JPY | **−92,227; 49.0% of R=188,077**, Sep-1 | WoW −28,929; longs −11,171 / shorts +17,758; OI 411,882 (+27,666). Short build predates Sep-3/8 rally. Live script display now uses R=188,077; historical TSV percentages retain their declared legacy basis. |
-| CFTC TFF cohorts | Not refreshed | No new cohort or liquidation inference. |
+| CFTC TFF, Sep-1 | Leveraged net **−102,188**; asset-manager **−24,521** | Refreshed Sep-9; still pre-rally. Gross legs in `docket/2026-09-11_CFTC_REVIEW.md`; no post-rally covering verdict. |
 | USD/JPY | **153.56** Sep-9 fetched quote; BOJ **153.80–82 at 17:00 JST Sep-8** | BOJ range **152.90–154.36**; 155 crossed. Intraday sub-153 is not a sustained sub-153 close. Intervention and broader driver remain OPEN. |
 | FXY | **$59.70**, Sep-9 fetched quote | Retrieved ~16:58 ET; not a certified execution mark. |
 | EURJPY / GBPJPY / AUDJPY | **178.61 / 207.99 / 110.82**, retrieved Sep-9 | Current VIX/risk-off precondition not checked; no SAM-31 grade. |
@@ -42,11 +42,12 @@ Complete pre-correction handoff is preserved verbatim in `STATUS_ARCHIVE.md` § 
 | US–JP differential, Sep-8 | **5Y 2.312pp / 10Y 1.904pp** | Above 2.25/1.80 bars; current runs 0/5. SAM-41's historical confirmation unchanged. |
 | 5Y auction Sep-8 | **BTC 3.422x / tail 0.9bp** | MOF bids 6,554.3 / accepted 1,915.4 billion yen; yields 2.248% low / 2.239% average. Belly, not super-long floor test. |
 | 30Y auction Sep-3 | **BTC 3.788x / tail 2.1bp: SOFT on frozen bars** | Distinct from script's generic Orderly flag. Tail 0.1bp trip margin equals quote quantization; precision ruling owed before the next applicable tail test; uniform-price 40Y has no tail. |
-| BOJ September pricing | **CURRENT UNAVAILABLE** Sep-9 boot: changed image | Prior reviewed Sep-9 11:15 JST-assumed **98%** equivalent is historical. New image needs review; no stale fallback. |
+| BOJ September pricing | **98% incremental 25bp equivalent; OIS 1.2213%**, Sep-9 **15:15 JST assumed** | New chart reviewed; five rows ingested. Indicative OTC/model-dependent, not traded probability. Live same-image check 23:31 UTC; expires Sep-18 00:00 JST or on image change. |
 | MOF weekly foreign LT debt | **−¥824.0B**, Aug-23–29 | Source rechecked, no newer period. Four-week −¥12.1B; inward JGB +¥509.1B. Weekly inside ¥1.5T bar; not UST-specific. |
 | FXY options | Sep-18 proxy **ATM IV 14.23%, P/C .07**, Sep-9 snapshot | Sep/Oct RR implausible; no skew or cheap-vol inference. Thin ETF proxy, not underlying FX vol. |
 | JPY xccy proxy | **Sep-9**, residual **−11.78bp**; change **−1.15bp** | Sep-8 vendor mark revised to −10.63bp. Futures/bill/assumed-policy residual, not true basis; fixed pair expires Sep-14. |
-| U.S. funding / credit | SOFR−IORB **0bp**, 99th−IORB **+8bp**, Sep-4; HY **268bp**, IG **81bp**, Sep-7 | U.S. funding/credit lag Sep-8 markets. No direct offshore basis quote. |
+| U.S. funding / credit, Sep-8 | SOFR−IORB **−1bp**, 99th−IORB **+8bp**; HY **267bp**, IG **81bp** | SOFR 3.64%, matched IORB 3.65%. Refreshed Sep-9; does not establish a cascade or measure offshore yen swaps. |
+| Japan funding, Sep-9 provisional | Unsecured O/N **0.977%**; Tokyo repo T+1 **1.000%** | Central daily report; GC T/N transaction commentary ~1.005% is a different observation. |
 | Japan domestic data | Q2 GDP **+1.4% annualized**; July scheduled wages **+4.1% YoY**, released Sep-8 | Domestic-demand contribution −0.1pp; stronger wages do not make GDP domestic-led. |
 | MOF August sector flows | Life insurers foreign LT bonds **−¥137.3B**; trust accounts **+¥2,332.6B** | Report released Sep-8. Neither series identifies USTs; trust accounts ≠ GPIF. |
 
@@ -60,11 +61,11 @@ Complete pre-correction handoff is preserved verbatim in `STATUS_ARCHIVE.md` § 
 
 ## INTERVENTION STATUS — MOF posture
 
-**September 7/8 attribution remains OPEN.** No independent pre-BOJ broker fiscal baseline has been authenticated. BOJ forecast/actual residuals are not operation sizes; ordinary flows and settlement-calendar differences remain confounders. Japan's settlement instrument cannot see a U.S.-only operation, so a null cannot establish “no op.” Use `MOF_INTERVENTION_PLAYBOOK.md` S1/S1-A.
+**September 7/8 attribution remains OPEN. Independent prior baseline now found:** Ueda September 3 forecast (dated PDF and matching publisher Last-Modified) anticipated Sep-9 fiscal **−¥3,600B** versus BOJ **−¥3,590B provisional**: only **+¥10B** residual. Gross drain was already anticipated. Sep-8 final **−¥1,100B** differs from Ueda +¥100B by **−¥1,200B**, and from BOJ −¥560B by **−¥540B**; unexplained, not an operation estimate. Month-ahead error and holiday/value-date differences remain confounders. Sep-10 fiscal projection **+¥220B**; Sep-9 final still pending at capture. Japan's settlement instrument cannot exclude a U.S.-only operation. Evidence → follow-through report; `MOF_INTERVENTION_PLAYBOOK.md` S1/S1-A governs.
 
 **Earlier funding remains unresolved.** The FIMA-funded claim was retracted; the historical H.4.1 test found no foreign-official repo use. August reserve securities fell $87.773B and deposits $6.868B (released Sep-8): a securities-funding hypothesis, not identified UST sales, given valuation/FX effects and mismatched stock/intervention windows. FRBNY Q3 addresses the U.S. account split, not all Japanese financing. Details: assessment §2 and KB-SAM-209.
 
-MOF officially reported **¥15,399.3B for Jul-30–Aug-26**, released Aug-28: Japan-side aggregate only, no daily split and no U.S. euro-leg amount. Earlier official windows: Apr-28–May-27 ¥11,734.9B; Jun-29–Jul-29 ¥0. Monthly path uses `reference/feio/monthly/`, not `feint`; BOJ projections use `jp`, actuals `jd`.
+MOF officially reported **¥15,399.3B for Jul-30–Aug-26**, released Aug-28: Japan-side aggregate only, no daily split and no U.S. euro-leg amount. Earlier official windows: Apr-28–May-27 ¥11,734.9B; Jun-29–Jul-29 ¥0. Monthly path uses `reference/feio/monthly/`, not `feint`; BOJ projections use `jp`, provisional actuals `jx`, final actuals `jd`; current versus archived URL layouts differ.
 
 **Aug-3 detector disagreement remains an ambiguity:** 2.67y range exceeded the >2.5y detector bar while final settlement −¥3.29T read ordinary. Post-operation elevated ranges and the invisible U.S.-only route prevent attribution. Historical two-sovereign confirmation does not establish a new September operation.
 
@@ -94,14 +95,13 @@ Retired entry triggers remain void; this is a research docket.
 
 | When | Event | Why it matters |
 |---|---|---|
-| Sep-9/10 JST | Sep-9 actuals / Sep-10 forecast; independent broker fiscal baseline | Current forecasts preserved; residuals cannot identify official action alone. |
-| Sep-9/10 ET | EIA outlook / weekly petroleum; Sep-8 U.S. funding | Physical recovery and publication-lag checks. |
-| Sep-11 | U.S. CPI / CFTC Sep-8 positions | First post-rally position snapshot; inspect gross legs and OI. |
-| Before Sep-14 | Fixed CME proxy pair expiry | Validate replacement; existing instrument stops rather than splicing contracts. |
+| Sep-9 21:00 ET / Sep-10 JST | Sep-9 final actuals; MOF weekly flows | Provisional and independent prior baseline captured. Final/weekly release still pending; residuals are not operation sizes. |
+| Sep-10 ET | EIA weekly petroleum | September STEO and Sep-8 U.S. funding refreshed; physical recovery remains to be observed. |
+| Sep-11 | U.S. CPI / CFTC Sep-8 positions | First post-rally snapshot; `docket/2026-09-11_CFTC_REVIEW.md` prepared. |
+| Before Sep-14 | Fixed CME proxy pair expiry | Dec–Mar pair selected; settlement-feed precision/timing hold. Existing instrument stops; no splice. |
 | Sep-15/16 | 20Y auction / FOMC and Japan trade balance | Docket dates carried; source-specific verification before grading. |
 | Sep-17/18 | BOJ MPM and National CPI | Macro watch; use dated Totan pricing in market table, not old scraper output. |
-| Sep-18 close | SAM-28 and SAM-31 | Both OPEN; SAM-39 already resolved. No early failure grade. |
-| Around Sep-18 | INFRA_AGENDA disposition | Estimated review reminder; exact expiry provenance unverified. Per-item adopt/defer owed; no automatic retirement. |
+| Sep-18 close | SAM-28 and SAM-31 | Both OPEN; `docket/2026-09-18_SAM28_SAM31_REVIEW.md` carries evidence/ambiguities. |
 | Sep-29 | 40Y auction | Uniform-price 40Y has no tail. Register tenor-appropriate terms before the window; counter remains 0-of-2. Historical Sep-3 grade unchanged. |
 
 ## POSITION — FLAT
@@ -125,8 +125,8 @@ Canonical mechanism and policy interpretation → `thesis/THESIS.md` and Septemb
 
 **16 CONFIRMED / 14 FAILED / 1 special / 3 OPEN**, unchanged. Canonical rows: `thesis/PREDICTIONS.tsv`; original conditions and calibration warning remain there. `boot.py --predictions` derives OPEN rows and checks the separate reminder sidecar against their condition hashes; it never grades or changes terms.
 
-- **SAM-28:** ≥1 tail route fires ≥+3% FXY by Sep-18, 40%. Prior assessment very likely to fail; do not grade early.
-- **SAM-31:** yen-haven re-couples by Sep-18, 35%. A genuine risk-off/VIX-spike precondition is necessary; no new test audit this session. Zero genuine tests would be a weaker FALSE than an exercised test.
+- **SAM-28:** ≥1 eligible tail route produces ≥+3% FXY by Sep-18, 40%, OPEN. July-29→Aug-3 and Sep-2→9 vendor returns exceed 3%, but eligible route/episode endpoints require adjudication; no new baseline or early grade.
+- **SAM-31:** yen-haven re-couples by Sep-18, 35%, OPEN. Full-window daily screen prepared; differing FX/equity clocks prevent a new matched-event grade. Genuine risk-off/VIX-spike and historical fixing convention still require review; no numeric VIX bar invented.
 - **SAM-33:** no BOJ emergency long-end capping through Dec-31, 72%. Activation is met; no fresh operations audit, so no new absence claim. Former VOID/UNTESTED clause was lifted Aug-17.
 - **SAM-39:** resolved Sep-4 TRUE-IN-LETTER / FALSE-IN-SPIRIT; range did not prove the named official-action mechanism. A successor needs a preregistered SHAPE leg before its window opens. SAM-41's historical confirmation is unchanged by current 0/5 runs.
 

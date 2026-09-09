@@ -1,0 +1,66 @@
+{
+  "raw_sha256": "040e684e13df906be7b5164eb111077e67d471d919a60fa2906fef8f41212515",
+  "events": [
+    {
+      "type": "system",
+      "subtype": "init",
+      "cwd": "/home/willi/Research-workspace/AGENTS/SAM",
+      "session_id": "803e22ba-fd01-46ee-8227-5740cf2a61df",
+      "model": "claude-opus-4-7",
+      "tools": [],
+      "claude_code_version": "2.1.267",
+      "permissionMode": "dontAsk"
+    },
+    {
+      "type": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "## SAM — 2026-05-15 mid-session read\n\n30Y JGB at 4.000% is the \"conditional demand-floor test\" level from my threshold table — the rule says **auction and institution evidence required**, and this scenario supplies neither at the level I'd need to act. I'll answer each question, but the load-bearing sentence in advance: **the identity of today's sellers is UNKNOWN, and every downstream inference degrades to that.**\n\n### 1. Cause of the long-end move — inferable vs unproven\n\n**Observed:** tenor-specific move — 40Y +10, 30Y +11, 20Y +3, 10Y flat. Not a parallel shift. Yen WEAKENED into it (156.30→156.50).\n\n**Consistent with (not confirmed by):**\n- Term-premium repricing in super-long specifically\n- Reduced primary bid from Big 4 (observed sidelined 4–6wk) forcing dealers to clear at wider concessions\n- BOJ-hike anticipation pressuring the long end via forward-rate expectations\n\n**Argues against a foreign-driven repatriation story:** if this were foreign selling of yen assets, we'd typically expect **yen strength**, not the 20-pip weakening seen. That's a soft tell against the \"insurer-UST-sales-transmit-here\" channel today.\n\n**What is UNPROVEN:**\n- Who sold today. Primary-dealer survey speaks to *primary* demand, not secondary tape.\n- Whether Big 4 sidelining is *supply reluctance* (waiting for yields), *legacy-book constraint* (unrealized loss overhang), or *reallocation to hedged foreign bonds*. Sidelined is a behavior, not a mechanism.\n- Whether today is a discrete event or continuation of the 4–6wk drift.\n\n### 2. Could higher yields draw lifers back?\n\n**Balance-sheet mechanism, J-ICS (economic-value):** for a duration-mismatched lifer (asset duration < liability duration), a parallel rise in the long-end lifts liability discount rates by MORE than assets, so **ESR improves as yields rise** — the opposite direction to J-GAAP unrealized-loss intuition. That's why the \"sub-200% ESR via market stress\" trigger in my SIGNALS table exists in the first place: rising rates *can* help or hurt depending on the gap.\n\n**BUT** this scenario supplies no institution-level duration gap or ESR sensitivity. So I cannot say whether 4.00% is:\n- above the level that makes hedged-JPY super-long more attractive than hedged-USD credit, or\n- still short of it because the USD-hedge cost has moved too.\n\n**Evidence I'd need before calling \"insurers return\":**\n1. FY2026 asset-allocation plans naming super-long JGBs as a target-up bucket (not generic \"yen bonds\")\n2. Post-auction MOF/BOJ investor-type breakdown showing lifer share of allocation rising\n3. Named-insurer hedged-yield math vs USD IG alternatives at current cross-currency basis\n4. ESR +100bp/-100bp sensitivity disclosure from at least two Big-4 names\n\nNone of that is in today's tape. **UNKNOWN.**\n\n### 3. What the 20Y/2Y auctions tell me (and don't)\n\n| Auction | BTC | Tail | Reads as |\n|---|---|---|---|\n| Apr 14 20Y | 4.82x | 0.2bp | Healthy |\n| Apr 30 2Y | 5.24x | — | Healthy |\n\nTwo clean auctions at 20Y and 2Y **impeach a \"JGB-wide demand crisis\" reading** of today's tape. What remains consistent is a **super-long-specific** stress (30Y/40Y) rather than a whole-curve collapse. That's a narrower claim.\n\n**Discriminator I do not have:** buyer identity in either auction. A 4.82x cover measures aggregate bidding, not *who* — a healthy print does not tell me lifers participated. So the auctions constrain the shape of the story (tenor-specific, not curve-wide) without identifying the actor.\n\n### 4. BOJ and yen\n\n- BOJ at 0.75% already crossed the historical political-watch level I used to track. There is **no binding legal ceiling** implied — a hike to 1.00% is significant but not a formal break. I'd treat it as a WATCH, not a THRESHOLD.\n- No BOJ statement today ⇒ this is market-driven long-end repricing, not policy action.\n- **The yen tell is the important one.** Long-end +11bp and USDJPY *weaker* means FX is not reading this as capital-repatriation flow. Rate-differential / term-premium story still dominant. **USDJPY 156.50 is far from the 160 MOF intervention risk level** — no near-term intervention signal.\n\nForward: the next BOJ decision is the load-bearing catalyst. A 25bp move to 1.00% would resolve part of the term-premium ambiguity; anything larger or unscheduled trips my SIGNALS 🔴.\n\n### 5. Positioning change?\n\n**No, not on this evidence.**\n\n- The 30Y = 4.00% threshold's own rule is *investigate*, not *trade*. Auction + institution evidence is the gate, and this scenario explicitly supplies neither.\n- The move is tenor-specific and the FX tape argues against the repatriation transmission channel firing today — which is *my* channel to LIQUID and HENRY. A signal to those desks would be premature.\n- **Missing transaction evidence stays UNKNOWN.** I will not infer institution-level behavior from aggregate primary-dealer survey commentary; that's the exact discrimination my measurement discipline exists for.\n\n**What would change my mind, roughly ordered by lift:**\n1. MOF weekly foreign-security net-selling >¥1.5T (my 🟠 threshold to LIQUID) — closest thing to identifying flow direction\n2. A named Big-4 insurer publicly returning to super-long primary (or, symmetric, disclosing sub-200% ESR *via market stress*, not M&A)\n3. USDJPY breaking <154 into further long-end pressure — that combination would flip the transmission-channel read\n4. A poor 30Y or 40Y auction (BTC <2.5x super-long, or a tail >1bp) — confirms the tenor-specific demand hole with actual auction evidence\n\nUntil one of those lands, today is a **watchpoint entry in TIMELINE and STATUS**, not a signal out."
+        }
+      ]
+    },
+    {
+      "type": "result",
+      "subtype": "success",
+      "session_id": "803e22ba-fd01-46ee-8227-5740cf2a61df",
+      "is_error": false,
+      "duration_ms": 73198,
+      "total_cost_usd": 0.45329800000000003,
+      "usage": {
+        "input_tokens": 5,
+        "cache_creation_input_tokens": 33955,
+        "cache_read_input_tokens": 8400,
+        "output_tokens": 4316,
+        "output_tokens_details": {
+          "thinking_tokens": 2118
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 33955,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 5,
+            "output_tokens": 4316,
+            "cache_read_input_tokens": 8400,
+            "cache_creation_input_tokens": 33955,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 33955
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "permission_denials": []
+    }
+  ]
+}

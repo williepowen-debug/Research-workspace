@@ -1,0 +1,160 @@
+{
+  "checked_at": "2026-09-09T23:43:29.059436+00:00",
+  "frozen_files": {
+    "thesis/THESIS.md": "7697108c5fa80b9697dd88d419f11d1145d3dce8165239535e7c92dbea9640c5",
+    "thesis/PREDICTIONS.tsv": "970faed60cd17ca3844be23aed030b696bd9db178e7e0e0fd2742320294d3297",
+    "TRADE.md": "d73b3455c4c847ac217e8014b4b7137d8f5ea0bf693088594052942838be3cfa",
+    "CLAUDE.md": "9f32c0ae5859ca402ff29b10f9c9a31a8833eb013c2c3bc56470eaaf08db12bd"
+  },
+  "workbooks": [
+    {
+      "file": "TRADE_BALANCE.tsv",
+      "sha256": "52073ba4976ed260d1256cff45b0275af268ad38f6b634807b9c71c450c7b971",
+      "change": "unchanged"
+    },
+    {
+      "file": "JGB_AUCTIONS.tsv",
+      "sha256": "acf28f473c34dbbceeea7c6f6d8c1fdac5dc67e1dfbcfcaa4fac50f74d701636",
+      "change": "unchanged"
+    },
+    {
+      "file": "BOJ_MEETING_OIS.tsv",
+      "sha256": "588ea63a6f18704494d259ff66ce26a814714e9d04af1e85a2324598b29cacc8",
+      "change": "five appended rows"
+    },
+    {
+      "file": "KB.tsv",
+      "sha256": "27841d1b6b44d3f30d80e2f9081859fcf609c68fa24c3df07977dc487c2216b9",
+      "change": "unchanged"
+    },
+    {
+      "file": "BIS_GLI.tsv",
+      "sha256": "dae961d821e9a0bd9aa94ab3e369fd2737aada37ded99f07f5d9e13faa2c60f1",
+      "change": "unchanged"
+    },
+    {
+      "file": "BOJ_OIS.tsv",
+      "sha256": "e6405700e2aafbbba5d8334ae56ef7f5ca42f5ebb1af027fd4a8e717c0b00848",
+      "change": "unchanged"
+    },
+    {
+      "file": "KB_ARCHIVE.tsv",
+      "sha256": "96a1e5b1bd23ec5a0a8b23a3d7404c6cdeec5df4442cf311a720228ac10c1dfa",
+      "change": "unchanged"
+    },
+    {
+      "file": "GPIF_FLOWS.tsv",
+      "sha256": "7227055bf8a2985c21701a33cbc065da50200f2666e7f872701fa79f756553d1",
+      "change": "unchanged"
+    },
+    {
+      "file": "VX.tsv",
+      "sha256": "a2416a9b2083fbd916c3af5780c0a8e6207a8bf728be7f41e9f2d7ed93e1797e",
+      "change": "unchanged"
+    },
+    {
+      "file": "RATE_DIFFERENTIAL.tsv",
+      "sha256": "00a04e55b3148226ee7fd024cfc6297a8e429106e06bff56aa42cd340f524c1e",
+      "change": "unchanged"
+    },
+    {
+      "file": "FLOW_ARCHIVE.tsv",
+      "sha256": "a2a92c57e63f600f0c11b0d016937d1a3cfe19b666e67f70f0a6e40622a7181a",
+      "change": "unchanged"
+    },
+    {
+      "file": "JGB_YIELDS.tsv",
+      "sha256": "5f533f679a9b90793034fb37b363c56fe166fbfd26b0fd2d92d4a5da0033bd5b",
+      "change": "unchanged"
+    },
+    {
+      "file": "USDJPY.tsv",
+      "sha256": "6b9f2c7dcd8651557e258be20e07ce64e9406850ad2960b1b8738591e0b8504c",
+      "change": "unchanged"
+    },
+    {
+      "file": "CPI.tsv",
+      "sha256": "7f9a4c181647285953ee0bb36eb2a1c49657d4ed7688a751636fbcbccc0ef0be",
+      "change": "unchanged"
+    },
+    {
+      "file": "CFTC_JPY.tsv",
+      "sha256": "e3cf4e5e5ecb338429fd70895e2caec7816f0a01189942e2a7dc0282e7abb635",
+      "change": "unchanged"
+    },
+    {
+      "file": "XCCY_BASIS.tsv",
+      "sha256": "4fcf5dd1f163303d83944dfd479a4d9f65c9b1b0acc51d61b5cf720291975635",
+      "change": "unchanged"
+    },
+    {
+      "file": "FLOW.tsv",
+      "sha256": "1544cf034b693942d9d89df4c3b63f8f6ab785c60c8ad360f66d7135dbdc1b7d",
+      "change": "unchanged"
+    },
+    {
+      "file": "FXY_OPTIONS.tsv",
+      "sha256": "55d37090ccaa024cd4c2769266b898e1679c88ddae0cf2dfcb418044472db44e",
+      "change": "unchanged"
+    },
+    {
+      "file": "MOF_FLOWS.tsv",
+      "sha256": "9bc8d6f72f6832dcb6196215fe6229ee4cc0ab40add8ca24ca5d3927ed83ea82",
+      "change": "unchanged"
+    }
+  ],
+  "boj_added_rows": 5,
+  "eval_added_actual_runs": 4,
+  "original_eval_files_unchanged": true,
+  "current_orientation_parts": 21,
+  "orientation_issues": [],
+  "source_hashes": {
+    "research/outputs/2026-09-09_followthrough/raw/boj-current-account.html": "9c6507f218250e9b5a9bb8dfe09dc35c1a3c18ee188f2ac32cfaecb75dfe1489",
+    "research/outputs/2026-09-09_followthrough/raw/eia-security.html": "543ae77e365fd056b7baffe023dc768f98a9954cbf8811078a6a7a32f5a6e294",
+    "research/outputs/2026-09-09_followthrough/raw/6jz26-daily.csv": "1ea2ab7957fdc4c06d344dbd7fe22cd89b0b6f4d3d265f08a496c2cc530983eb",
+    "research/outputs/2026-09-09_followthrough/raw/boj-jx20260909.xlsx": "4280699cccc85ca3d0d8714d3e2d07e95cfd9d16b0feb0699be0fec0e11c39da",
+    "research/outputs/2026-09-09_followthrough/raw/ueda-tanshi.html": "dd7b11262ea990480478633d805c1662d688d21437adc105e7046c16275cc339",
+    "research/outputs/2026-09-09_followthrough/raw/usdjpy-daily.csv": "7e94bbd7959b748c26805a8e435acbb89b6067d017473acb4370bf2b5df413b0",
+    "research/outputs/2026-09-09_followthrough/raw/audjpy-daily.csv": "6623406bf2379862d016ea6e054e2e71bdc8a5c05cd9e7da5af5d7dead3492f9",
+    "research/outputs/2026-09-09_followthrough/raw/u-s-treasury.csv": "b0bc2b496c2af2279fc80c4e1f42c667b4c0225ec73da74e3bb20eb319a6e1ae",
+    "research/outputs/2026-09-09_followthrough/raw/central-september-forecast.pdf": "8cd9e1f35464579c2d1b4754d338935c6a8cb9c477ea5c07aa234999e6eb743b",
+    "research/outputs/2026-09-09_followthrough/raw/eurjpy-daily.csv": "b68072ed2b03a505b842a4b8e89e5e621d6fb91cd26715b2e5823a725d78cc26",
+    "research/outputs/2026-09-09_followthrough/raw/ueda-september-forecast.pdf": "72b9b0e8807dae861e843ab7ebe06b3d030444c33a2f330904c8325304e58d94",
+    "research/outputs/2026-09-09_followthrough/raw/move-daily.csv": "452e5d7deca689381efc19b1ec48d423d06e4f46f144eb004653132629ae899f",
+    "research/outputs/2026-09-09_followthrough/raw/central-home.html": "5d9191c8a873f9b858d798bed2e7173688a9db1ec15e06ac47031eb868b0ff0c",
+    "research/outputs/2026-09-09_followthrough/raw/ueda-september.html": "cc5777e83088294a340bbceb78f072cb0e218b1bf1556ad9573d283d961ac502",
+    "research/outputs/2026-09-09_followthrough/raw/totan-actual.html": "cf4252b65ecbd307f35cfd3efbbd5c6b77bdf5e7b9a5dff7d35c97c16deef654",
+    "research/outputs/2026-09-09_followthrough/raw/boj-jp20260910-current.xlsx": "618d73c89fce6c87f325eff54bd2fc4276a86b2ed7973ec4f8053fe225f62fc1",
+    "research/outputs/2026-09-09_followthrough/raw/6ju26-daily.csv": "08633d76a2bcc515fb5a8d18fa67abe145eeae622abd6190bf70e73ea71c1a7f",
+    "research/outputs/2026-09-09_followthrough/raw/fred-IORB.json": "a9e4e940eff61dd70f3b5368e8590a113f07048ef2e409ed222e6a89ccc86a96",
+    "research/outputs/2026-09-09_followthrough/raw/fed-calendar.html": "53ec2fd730d26814a8f18fac5c6d92811d5a071801e73765b50b55590076d8ae",
+    "research/outputs/2026-09-09_followthrough/raw/nyfed-sofr.json": "eb4b1fbf842e5db356f2c7f47a9100d06bc0d86ab6f07926769e7ae56b91625e",
+    "research/outputs/2026-09-09_followthrough/raw/fred-BAMLH0A0HYM2.json": "b41d45992082786bbc2ad6f62a576f124a0da9f38981a28b9ba3110e1f09c1a1",
+    "research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt": "14b1da2c9f54faed21a9d50ecd74eeb9817542dc66dd82cf5cbaac3adb1e87db",
+    "research/outputs/2026-09-09_followthrough/raw/sp500-daily.csv": "0ca98de360096a9cab67b92a11b96ac64d405d5d2c0c6d6a39780a8dd927c240",
+    "research/outputs/2026-09-09_followthrough/raw/fred-BAMLC0A0CM.json": "eb1db696d57ee3da9decfbdd71de4646bfa675b69478f07aab0c76882fb94460",
+    "research/outputs/2026-09-09_followthrough/raw/fred-IORB.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/outputs/2026-09-09_followthrough/raw/nyfed-effr.json": "e185cabb19620c29e8c5212ad86df0759887670e533b8cad5a1fe21c0baedd8b",
+    "research/outputs/2026-09-09_followthrough/raw/vix.csv": "111324adb843ad253de9351a2a80b649a3eba5a5350f0617ea51f38897241607",
+    "research/outputs/2026-09-09_followthrough/raw/totan-forecast.html": "faa4395790715cbafa715bb975e04ca0f78a8942241b2c7b5b97d257ab9fc2b0",
+    "research/outputs/2026-09-09_followthrough/raw/eia-steo.pdf": "4603d5713078d4f33de304caf4871d1d0c4485527cc8de72640e8282db126b18",
+    "research/outputs/2026-09-09_followthrough/raw/fxy-daily.csv": "3389d7e7e988a5481f40293ce9958ee5f3c3668b8d045ea7bff90eaec2a4cd0c",
+    "research/outputs/2026-09-09_followthrough/raw/central-sep9-provisional.pdf": "3d45ed5208c996274464b19da3ef05cc563cb1d6e643a803c6cca4a2c506128f",
+    "research/outputs/2026-09-09_followthrough/raw/boj-policy-calendar.html": "9c65f4f36c5f4a48eef893b8346b14b1563ed3c0bffb0917c14889b5f46985a5",
+    "research/outputs/2026-09-09_followthrough/raw/6jh27-daily.csv": "d37508ae2c8b6bae4b2f777bad41a670af871b2a825a7dfd93774e2ad9f6f238",
+    "research/outputs/2026-09-09_followthrough/raw/fred-BAMLC0A0CM.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/outputs/2026-09-09_followthrough/raw/cftc-tff.txt": "f30ef10e6e8f6f961f710d97222ae3a5e38e430fb91dc61b52077c35fc0f136a",
+    "research/outputs/2026-09-09_followthrough/raw/fred-BAMLH0A0HYM2.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/outputs/2026-09-09_followthrough/raw/cpi-calendar.html": "f8859cd85aca372f115a01dc1f2b40d94252d3f305327696b94f381be08f209c"
+  },
+  "script_tests": {
+    "boot_boj_context": 36,
+    "existing_futures_guards": 4,
+    "result": "PASS",
+    "test_fixture_repair": "Unavailable-source assertion no longer pinned to mutable live BOJ data"
+  },
+  "read_cap": "PASS",
+  "weekday": "PASS",
+  "consumer_scan_review": "External hits are dated historical BOND/BOARD records; own current NEXUS updated at closeout, historical snapshots preserved. No messages sent.",
+  "local_link_candidates": []
+}

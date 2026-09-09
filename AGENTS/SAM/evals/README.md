@@ -1,4 +1,4 @@
-# SAM EVAL SUITE — v1.1
+# SAM EVAL SUITE — v1.2 case set
 
 **Purpose:** Catch judgment regressions in SAM caused by prompt edits, thesis-doc rewrites, or auto-memory drift. Each case is a frozen historical scenario with pass/fail criteria. Re-run before promoting non-trivial changes to the prompt surface.
 
@@ -6,16 +6,18 @@
 
 **Version:** v1.1 (2026-05-27). v1 had a contamination flaw — INPUT + EXPECTED + DO-NOT lived in the same file, and the runner's responses showed near-verbatim phrase echo from the rubric. v1.1 fix: split each case into two files. INPUT is pasteable; RUBRIC is scorer-only and never enters the runner's context.
 
-**Last baseline run:** 2026-05-27 (v1.1 — both cases PASS clean, baseline against v1.4 thesis). **Next re-baseline scheduled:** 2026-06-07/08 (against v1.5.1) — see `REBASELINE_v1.5.1_RUN_PROMPT.md` for the operator packet.
+**Latest actual run:** September 9, 2026 — Case 01 PASS, Case 02 v1.2 FAIL in both candidate rounds; orientation 21/21 PASS. **Startup promotion withheld; original CLAUDE restored.** [Assessment and receipts](runs/2026-09-09_boot-promotion/ASSESSMENT.md). Native auto-memory loading retained, exact entries not enumerated. The May 27 v1.1 baseline and later unexecuted re-baseline packet remain historical records, not a current pass.
 
 ---
 
-## Current cases (v1.1)
+## Current cases (September 9, 2026)
 
 | ID | INPUT (pasteable) | RUBRIC (scorer only) | Tests |
 |---|---|---|---|
 | 01 | `case_01_nippon_esr_INPUT.md` | `case_01_nippon_esr_RUBRIC.md` | Threshold-vs-mechanism trap: literal ESR breach with M&A driver should NOT fire Channel 1 |
-| 02 | `case_02_jgb30y_jics_INPUT.md` | `case_02_jgb30y_jics_RUBRIC.md` | J-ICS direction-of-causation: lifer absence at long end is the CAUSE of yield blowout, not consequence |
+| 02 v1.2 | `case_02_jgb30y_jics_v1_2_INPUT.md` | `case_02_jgb30y_jics_v1_2_RUBRIC.md` | Conditional insurer demand, economic-value versus statutory constraints, aggregate versus named flows, BOJ reaction and FX mechanism |
+
+Original Case 02 is retained as historical **CASE-BUG**: its absolute no-return/higher-yield-capital-strain rule conflicts with the approved July/September owner corrections. The replacement was frozen before the September 9 runs; do not change its criteria during scoring. There are still two cases.
 
 Cases are deliberately orthogonal — they test different failure modes (mechanism-discrimination vs structural-inversion-on-causation), so passing one ≠ passing both.
 
@@ -34,7 +36,7 @@ The eval suite has two file types per case:
 2. **Open the case's INPUT file** in an editor. Find the triple-backtick block (everything between the opening ``` and the closing ```).
 3. **Copy ONLY the content inside the triple-backtick block.** Not the operator-instruction header, not the closing "End of INPUT" note. Just the block content — which starts with `DO NOT RUN BOOT` and ends with `Be direct.`
 4. **Contamination self-check before pasting:**
-   - Does your selection contain the words `EXPECTED`, `DO NOT`, or `RUBRIC`? → You've grabbed too much. Re-select.
+   - `DO NOT RUN BOOT` is the required opening and is valid. Any scorer-only `EXPECTED`, `RUBRIC`, answer-key or DO-NOT anti-pattern material means you selected too much. Copy the frozen fenced INPUT only.
    - Does your selection contain checkboxes (`- [ ]`)? → Too much. Re-select.
 5. **Paste as the first prompt.** Hit enter. Add no framing of your own.
 6. **When the runner responds, open the corresponding RUBRIC file in a separate window.** Score the response against EXPECTED + DO-NOT.

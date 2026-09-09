@@ -1,6 +1,6 @@
 # SAM boot corrections — operator validation packet
 
-**Status: pending. No judgment-eval result is claimed or appended to `results.tsv`.** The deterministic script tests are separate. The [candidate patch](../proposals/2026-09-09_boot-protocol.patch) is prepared and `git apply --check` succeeds against CLAUDE SHA256 `9f32c0ae5859ca402ff29b10f9c9a31a8833eb013c2c3bc56470eaaf08db12bd`.
+**Status: EXECUTED September 9; PROMOTION WITHHELD.** Four actual fresh judgment responses: Case 01 PASS twice, versioned Case 02 FAIL twice. Separate fresh orientation acceptance: 21/21 PASS, workbook/prediction hashes unchanged. [Assessment and exact trial surfaces](runs/2026-09-09_boot-promotion/ASSESSMENT.md); results appended to `results.tsv`. Original CLAUDE restored to SHA256 `9f32c0ae5859ca402ff29b10f9c9a31a8833eb013c2c3bc56470eaaf08db12bd`. The instructions below are the original operator procedure, retained for provenance; the BOJ unavailability expectation describes the pre-refresh snapshot.
 
 The candidate replaces fragile manual boot selection with the bounded orientation reader, documents monitoring/failure behavior, and reconciles descriptive threshold labels with the current owner thesis. Live `CLAUDE.md` has not been changed. Existing MEMORY feedback/findings/auto-memory references and template remain intact; only the session handoff and cold narrative were reconciled.
 

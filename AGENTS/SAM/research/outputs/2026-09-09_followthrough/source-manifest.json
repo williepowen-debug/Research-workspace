@@ -1,0 +1,184 @@
+[
+  {
+    "file": "raw/nyfed-sofr.json",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/10.json",
+    "final_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/10.json",
+    "retrieved_at": "2026-09-09T23:07:12.260701+00:00",
+    "bytes": 2398,
+    "sha256": "eb4b1fbf842e5db356f2c7f47a9100d06bc0d86ab6f07926769e7ae56b91625e",
+    "content_type": "application/json;charset=utf-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/nyfed-effr.json",
+    "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/10.json",
+    "final_url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/10.json",
+    "retrieved_at": "2026-09-09T23:07:12.261316+00:00",
+    "bytes": 2848,
+    "sha256": "e185cabb19620c29e8c5212ad86df0759887670e533b8cad5a1fe21c0baedd8b",
+    "content_type": "application/json;charset=utf-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/iorb.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=IORB&cosd=2026-08-20&coed=2026-09-09&fq=Daily&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&line_id=IORB&cosd=2026-08-20&coed=2026-09-09&format=csv",
+    "retrieved_at": "2026-09-09T23:07:12.261838+00:00",
+    "status": "FAILED",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "raw/vix.csv",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "final_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-09-09T23:07:12.262325+00:00",
+    "bytes": 472411,
+    "sha256": "111324adb843ad253de9351a2a80b649a3eba5a5350f0617ea51f38897241607",
+    "content_type": "text/csv",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/cftc-legacy.txt",
+    "url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "final_url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "retrieved_at": "2026-09-09T23:07:12.262757+00:00",
+    "bytes": 429512,
+    "sha256": "14b1da2c9f54faed21a9d50ecd74eeb9817542dc66dd82cf5cbaac3adb1e87db",
+    "content_type": "text/plain",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/cftc-tff.txt",
+    "url": "https://www.cftc.gov/dea/newcot/FinFutWk.txt",
+    "final_url": "https://www.cftc.gov/dea/newcot/FinFutWk.txt",
+    "retrieved_at": "2026-09-09T23:07:12.263177+00:00",
+    "bytes": 70252,
+    "sha256": "f30ef10e6e8f6f961f710d97222ae3a5e38e430fb91dc61b52077c35fc0f136a",
+    "content_type": "text/plain",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/boj-jd20260909.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260909.xlsx",
+    "retrieved_at": "2026-09-09T23:07:12.488428+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "raw/boj-jp20260910.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jp/2026/jp20260910.xlsx",
+    "retrieved_at": "2026-09-09T23:07:12.498294+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "raw/boj-current-account.html",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/index.htm",
+    "final_url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/index.htm",
+    "retrieved_at": "2026-09-09T23:07:12.564874+00:00",
+    "bytes": 50488,
+    "sha256": "9c6507f218250e9b5a9bb8dfe09dc35c1a3c18ee188f2ac32cfaecb75dfe1489",
+    "content_type": "text/html;charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/totan-forecast.html",
+    "url": "https://www.totan.com/market_report/daily_b.html",
+    "final_url": "https://www.totan.com/market_report/daily_b.html",
+    "retrieved_at": "2026-09-09T23:07:12.786855+00:00",
+    "bytes": 53494,
+    "sha256": "faa4395790715cbafa715bb975e04ca0f78a8942241b2c7b5b97d257ab9fc2b0",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/totan-actual.html",
+    "url": "https://www.totan.com/market_report/daily_a.html",
+    "final_url": "https://www.totan.com/market_report/daily_a.html",
+    "retrieved_at": "2026-09-09T23:07:12.806415+00:00",
+    "bytes": 52258,
+    "sha256": "cf4252b65ecbd307f35cfd3efbbd5c6b77bdf5e7b9a5dff7d35c97c16deef654",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/central-tanshi.html",
+    "url": "https://www.central-tanshi.com/market/market_info.html",
+    "retrieved_at": "2026-09-09T23:07:13.701706+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "raw/u-s-treasury.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "final_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "retrieved_at": "2026-09-09T23:07:13.752340+00:00",
+    "bytes": 14123,
+    "sha256": "b0bc2b496c2af2279fc80c4e1f42c667b4c0225ec73da74e3bb20eb319a6e1ae",
+    "content_type": "text/csv; charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/eia-steo.pdf",
+    "url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+    "final_url": "https://www.eia.gov/outlooks/steo/pdf/steo_full.pdf",
+    "retrieved_at": "2026-09-09T23:07:13.794279+00:00",
+    "bytes": 6783484,
+    "sha256": "4603d5713078d4f33de304caf4871d1d0c4485527cc8de72640e8282db126b18",
+    "content_type": "application/pdf",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/eia-security.html",
+    "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+    "final_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+    "retrieved_at": "2026-09-09T23:07:13.808005+00:00",
+    "bytes": 78565,
+    "sha256": "543ae77e365fd056b7baffe023dc768f98a9954cbf8811078a6a7a32f5a6e294",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/cme-delivery.html",
+    "url": "https://www.cmegroup.com/markets/fx/fx-delivery.html",
+    "retrieved_at": "2026-09-09T23:07:13.953480+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "raw/cme-2026-holidays.html",
+    "url": "https://www.cmegroup.com/trading-hours.html",
+    "retrieved_at": "2026-09-09T23:07:14.024093+00:00",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "raw/boj-policy-calendar.html",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+    "final_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+    "retrieved_at": "2026-09-09T23:07:14.083196+00:00",
+    "bytes": 41959,
+    "sha256": "9c65f4f36c5f4a48eef893b8346b14b1563ed3c0bffb0917c14889b5f46985a5",
+    "content_type": "text/html;charset=UTF-8",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/fed-calendar.html",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "final_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "retrieved_at": "2026-09-09T23:07:14.098156+00:00",
+    "bytes": 164831,
+    "sha256": "53ec2fd730d26814a8f18fac5c6d92811d5a071801e73765b50b55590076d8ae",
+    "content_type": "text/html",
+    "status": "FETCHED; inspect content and source vintage"
+  },
+  {
+    "file": "raw/cpi-calendar.html",
+    "url": "https://www.stat.go.jp/english/data/cpi/158c.html",
+    "final_url": "https://www.stat.go.jp/english/data/cpi/158c.html",
+    "retrieved_at": "2026-09-09T23:07:14.260361+00:00",
+    "bytes": 13699,
+    "sha256": "f8859cd85aca372f115a01dc1f2b40d94252d3f305327696b94f381be08f209c",
+    "content_type": "text/html",
+    "status": "FETCHED; inspect content and source vintage"
+  }
+]

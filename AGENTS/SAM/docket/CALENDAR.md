@@ -1,29 +1,29 @@
 # SAM CALENDAR
 
-**Last Updated:** KOYOMI Run 20, 2026-09-09 UTC/JST / 2026-09-08 ET. Reconciled to September 8 STATUS, catch-up assessment and integration (46d9e21f8). Source clocks below; no new market outcomes inferred. Prior calendar: `../archive/CALENDAR_2026-09-08_before_catchup.md`.
+**Follow-through September 9 ET:** funding/BOJ/EIA evidence refreshed, futures validation and Sep-11/18 packets prepared, infrastructure dispositions closed. See `../reports/2026-09-09_followthrough.md`.
+
+**Previous full audit:** KOYOMI Run 20, 2026-09-09 UTC/JST / 2026-09-08 ET. Reconciled to September 8 STATUS, catch-up assessment and integration (46d9e21f8). Source clocks below; no new market outcomes inferred. Prior calendar: `../archive/CALENDAR_2026-09-08_before_catchup.md`.
 
 ---
 
 ## SEPTEMBER — forward event set synchronized with CATALYSTS.tsv
 
-September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. The estimated INFRA_AGENDA disposition review is a separate administrative item; exact expiry provenance remains unverified. SAM-33 remains OPEN through December 31 in the prediction ledger; no new docket row or grading term is introduced here.
+September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. The separate INFRA_AGENDA disposition obligation closed September 9 under the located August 21 ruling; no estimated deadline enters prediction grading. SAM-33 remains OPEN through December 31 in the prediction ledger; no new docket row or grading term is introduced here.
 
 Tokyo September CPI is RELEASES-confirmed for **October 2** and remains the carried October-audit boundary obligation. Liquidity-enhancement auctions Sep-10/25 remain out-of-universe. Existing monthly-audit deferral is recorded in KOYOMI memory for SAM.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
-| 🟠 Wed Sep 9, JST / ET | BOJ Sep-9 provisional / Sep-10 projection; EIA outlook; Sep-8 U.S. funding | BOJ ~18:00 JST (09:00 UTC / 05:00 ET); SOFR ~08:00 ET; EIA normally 12:00–12:15 ET | Independent pre-BOJ broker baseline required. Provisional is not final; no intervention size from gross drain. | SAM |
 | 🟠 Thu Sep 10, JST / ET | BOJ Sep-9 final actuals; MOF weekly flows; EIA weekly petroleum | BOJ final ~10:00 JST (01:00 UTC / Sep-9 21:00 ET); MOF week Aug-30–Sep-5; EIA noon ET (Sep-11 01:00 JST) | Keep forecast/provisional/final vintages separate. EIA covers week ending Sep-4 under Labor Day schedule; attribution remains OPEN. | SAM |
 | 🟡 Fri Sep 11, 08:30 ET | US CPI (August data) | Headline / core | BLS primary date confirmed; inflation input to the registered Fed-side tripwire. | SAM, HENRY |
 | 🟠 Fri Sep 11, 15:30 ET | CFTC positions as of September 8 | Gross longs, shorts, open interest and cohorts | First post-rally observation. September 1 cannot establish covering in the subsequent rally. SAM-authorized one-off external follow-up; no new gate. | SAM |
-| 🟠 🔧 Mon Sep 14 | Fixed CME yen proxy near contract expires | Validate replacement fixed pair before expiry | Existing monitor stops on expiry; no silent roll. SAM-requested replacement decision reminder; script guard remains authoritative. | SAM |
+| 🟠 🔧 Mon Sep 14 | Fixed CME yen proxy near contract expires | Dec–Mar identity/expiry validated; activate only with reliable matched settlement feed | Vendor precision/timing hold; `../research/outputs/2026-09-09_followthrough/FUTURES_PAIR_REVIEW.md`. Existing monitor stops on expiry; no silent roll. SAM-requested replacement decision reminder; script guard remains authoritative. | SAM |
 | 🟡 Tue Sep 15 | JGB 20Y auction | BTC, tail | Strike-broadening watch; BOJ pre-meeting blackout ~Sep-15 is a carried T-2 convention, not independently verified here. | SAM, LIQUID |
 | 🔴 Wed Sep 16 | FOMC decision (Sep 15-16) — SEP meeting | Dots versus June 17 path | Actual dot walk-back remains the registered Fed-side tripwire. September 4 BLS revisions supersede old labor premise; no fresh Fed probability authenticated. | ALL |
 | 🟡 Wed Sep 16 | Japan trade balance, August (provisional) | Balance; export vs import legs | Oil-in-yen assessment; keep quantities, prices and currency separate. | SAM |
 | 🟠 Fri Sep 18, 08:30 JST | Japan National CPI, August | Headline / core / core-core on 2025 base | Morning input to BOJ decision. Parallel 2020/2025 publication continues through December; specify base. | SAM |
 | 🔴 Fri Sep 18, decision time not fixed | BOJ MPM day 2 decision (Sep 17-18; no Outlook Report) | Rate, guidance, vote split | Macro watch. Current reviewed Totan OTC source: `../workbook/BOJ_MEETING_OIS.tsv` and `../workbook/BOJ_OIS_README.md`; old futures ledger frozen. New images require SAM review. No pricing percentage copied. | ALL |
 | 🔴 🔧 Fri Sep 18, close | SAM-28 / SAM-31 grading at close; retired frame has no entry deadline | Grade eligible tail-route and genuine risk-off yen-haven tests on frozen terms | Both OPEN; no early grading. SAM-39 resolved Sep-4. Frame retired Aug-7; no fuel-retirement test or entry gate. Canonical terms: `../thesis/PREDICTIONS.tsv`. | SAM, PROME |
-| 🟡 🔧 ~Fri Sep 18 | AGENTS/SAM/INFRA_AGENDA.md disposition review (estimated reminder) | Has SAM adopted/deferred all four numbered items? | Per-item adopt/defer owed; trace the original Will ruling before automatic retirement. ~Sep-18 is an estimated reminder, not a verified expiry timestamp. SAM-only reminder per KOYOMI.md Aug-27 ruling. Separate from analytical stack. | SAM |
 | 🟠 Tue Sep 29 | JGB 40Y auction | SAM must rule tenor-appropriate terms prospectively before next relevant test; 40Y BTC available, tail undefined | First 40Y since Jul-22. Conditional, mixed sponsorship; no inferred buyers. KB-SAM-175: uniform-price 40Y has no yield or price tail. Do not apply the 20Y/30Y tail bar. Counter stays 0-of-2; next scheduled adjudicator requires SAM instrument-applicability ruling. Historical Sep-3 SOFT grade unchanged. | SAM, LIQUID, BOND |
 | 🟡 Wed Sep 30 | JGB 2Y auction | BTC, tail versus Aug-28 workbook result | Front-end demand; no pricing restatement. | SAM, LIQUID |
 
@@ -41,7 +41,9 @@ Publication clocks verified September 9 UTC/JST (September 8 ET): [BOJ current-a
 
 ---
 
-## INTERVENTION WATCH — September 8 owner assessment
+## INTERVENTION WATCH — September 9 follow-through
+
+Independent broker baseline found; gross Sep-9 drain was anticipated. Sep-8 residual remains unexplained; see `../reports/2026-09-09_followthrough.md`.
 
 Live observations belong in STATUS; evidence and source limits in `../reports/2026-09-08_catchup-assessment.md` §2 and `../MOF_INTERVENTION_PLAYBOOK.md`.
 
@@ -98,6 +100,10 @@ Track documented supply and delivery disruption separately from statements, clos
 ---
 
 ## ✅ RECENTLY RESOLVED (pruned next update)
+
+- **September 9 follow-through:** BOJ provisional/Sep-10 forecast, Sep-8 U.S. funding and September STEO captured. Independent Ueda Sep-3 baseline found. Sep-9 final remains pending; `../reports/2026-09-09_followthrough.md`.
+- **September 9 infrastructure disposition:** all four adopt/defer choices recorded under original Aug-21 row-56 ruling; silence-triggered retirement no longer applies. Forward estimated reminder removed; `../INFRA_AGENDA.md`.
+- Review packets: `2026-09-11_CFTC_REVIEW.md` and `2026-09-18_SAM28_SAM31_REVIEW.md`; original conditions unchanged.
 
 - **September 8 GDP/wages:** GDP +0.4% q/q / +1.4% annualized; domestic-demand contribution -0.1pp. July scheduled pay +4.1% YoY. Primaries read; report §5. Removed from forward TSV after countdown verified that resolved same-day rows otherwise remain imminent.
 

@@ -8,6 +8,12 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-09 — Evidence follow-through; no thesis version or grade change
+
+**Old → current:** BOJ changed-image quote unavailable → visually reviewed and ingested; pre-event broker baseline missing → Ueda September 3 forecast located, weakening the gross September 9 drain inference while leaving September 8 attribution open. Funding observations advanced to September 8. Timeline records these findings; detailed prices and source clocks remain in STATUS/report.
+
+Boot candidate pending → actual fresh judgment FAIL/orientation PASS, default instructions restored. Replacement fixed pair unidentified → Dec–Mar selected with official expiry/settlement evidence, vendor feed activation withheld. Sep-18 adjudication unprepared → frozen-row packet plus full-window screens and explicit convention gaps. Infrastructure authority untraced → August 21 ruling located and per-item dispositions recorded. THESIS, predictions and trade histories unchanged. [Report](../reports/2026-09-09_followthrough.md).
+
 ## 2026-09-08 — Approved catch-up integrated; v1.7 retirement unchanged
 
 **Old → current:** durable owner prose still mixed June/July blanket demand-vacuum, decaying/unsuccessful intervention and phase-clock narratives with later correction riders. The already completed September assessment and existing CH-009/010/Channel-1 rulings now govern the relevant sections directly: conditional JGB sponsorship; priced-policy versus surprise; official attribution separated from fiscal residuals; reserve stocks separated from transactions; oil/FX prices separated from physical volumes. Retired weights and EV tables are explicitly historical.

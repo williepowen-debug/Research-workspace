@@ -219,7 +219,13 @@ class ContextTests(unittest.TestCase):
 
     def test_orientation_all_content_chunk_bounds_no_mutation_or_network(self):
         with tempfile.TemporaryDirectory() as tmp:
-            root=self.fixture(tmp);before={p.relative_to(root):p.read_bytes() for p in root.rglob('*') if p.is_file()}
+            root=self.fixture(tmp)
+            # Exercise missing-source coverage independently of today's live BOJ status.
+            status=root/'STATUS.md'
+            missing='Fixture source: CURRENT UNAVAILABLE — missing source clock.'
+            status.write_text(status.read_text().replace('## LIVE MARKET DATA',
+                              '## LIVE MARKET DATA\n\n'+missing,1))
+            before={p.relative_to(root):p.read_bytes() for p in root.rglob('*') if p.is_file()}
             with patch('socket.socket',side_effect=AssertionError('network forbidden')), patch.object(boot,'run_script',side_effect=AssertionError('child forbidden')):
                 parts,issues,schedule_hash=context.orientation(root,NOW)
                 joined=''.join(p['content'] for p in parts)
@@ -229,7 +235,7 @@ class ContextTests(unittest.TestCase):
                     self.assertEqual(boot.main(['--orient','--part','1']),0)
             self.assertFalse(issues)
             self.assertIn('NO SUCCESSOR',joined.upper())
-            self.assertIn('CURRENT UNAVAILABLE',joined)
+            self.assertIn(missing,joined)
             self.assertIn('SAM-33 — OPEN',joined)
             self.assertTrue(all(p['bytes']<=context.CHUNK_BYTES for p in parts))
             memory=''.join(p['content'] for p in parts if p['path']=='MEMORY.md')

@@ -1,0 +1,133 @@
+{
+  "result": "PASS",
+  "parts": [
+    {
+      "part": 1,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 2,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 3,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 4,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 5,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 6,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 7,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 8,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 9,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 10,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 11,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 12,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 13,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 14,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 15,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 16,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 17,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 18,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 19,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 20,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    },
+    {
+      "part": 21,
+      "hashes_match_index": true,
+      "content_hash_valid": true,
+      "end_marker": true
+    }
+  ],
+  "ledger_hashes_unchanged": true,
+  "scope_note": "Captured before research writebacks; BOJ/funding gaps reflect then-current STATUS. One attempted shell loop was denied; all 21 parts subsequently read separately. No market/inbox actions."
+}

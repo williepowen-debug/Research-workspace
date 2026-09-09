@@ -1,0 +1,86 @@
+[
+  {
+    "file": "raw/ueda-september-forecast.pdf",
+    "url": "https://www.uedayagi.com/wp/wp-content/uploads/2026/09/202609jukyu.pdf",
+    "sha256": "72b9b0e8807dae861e843ab7ebe06b3d030444c33a2f330904c8325304e58d94",
+    "retrieved_at": "2026-09-09T23:26:28.061232+00:00",
+    "headers": {
+      "Server": "nginx",
+      "Date": "Wed, 09 Sep 2026 23:26:26 GMT",
+      "Content-Type": "application/pdf",
+      "Content-Length": "566657",
+      "Connection": "close",
+      "Last-Modified": "Thu, 03 Sep 2026 09:40:41 GMT",
+      "ETag": "\"8a581-65a90f1fbb9b3\"",
+      "Accept-Ranges": "bytes",
+      "X-XSS-Protection": "1; mode=block",
+      "X-Content-Type-Options": "nosniff"
+    }
+  },
+  {
+    "file": "cme-currency-sep8.pdf",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section07_Currency_Futures.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "raw/central-september-forecast.pdf",
+    "url": "https://www.central-tanshi.com/media/files/_u/market_schedule/fmjuqf202609.pdf",
+    "sha256": "8cd9e1f35464579c2d1b4754d338935c6a8cb9c477ea5c07aa234999e6eb743b",
+    "retrieved_at": "2026-09-09T23:26:27.529946+00:00",
+    "headers": {
+      "Content-Type": "application/pdf",
+      "Content-Length": "171906",
+      "Connection": "close",
+      "Date": "Wed, 09 Sep 2026 23:26:27 GMT",
+      "Last-Modified": "Wed, 09 Sep 2026 08:12:48 GMT",
+      "ETag": "\"57e23c7bea76709182e048f59d73d40a\"",
+      "x-amz-server-side-encryption": "AES256",
+      "Accept-Ranges": "bytes",
+      "Server": "AmazonS3",
+      "X-Cache": "Miss from cloudfront",
+      "Via": "1.1 50baac74a5928aba270c2957778347c4.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "MIA3-P1",
+      "X-Amz-Cf-Id": "HX0YidRFZH5XAKbR1dg2-htS3_H0LEmfqH70qtwIrbphoGSpHpxeHw=="
+    }
+  },
+  {
+    "file": "raw/central-sep9-provisional.pdf",
+    "url": "https://www.central-tanshi.com/media/files/_u/short_term_market_report/centdaily20260909.pdf",
+    "sha256": "3d45ed5208c996274464b19da3ef05cc563cb1d6e643a803c6cca4a2c506128f",
+    "retrieved_at": "2026-09-09T23:26:27.887371+00:00",
+    "headers": {
+      "Content-Type": "application/pdf",
+      "Content-Length": "370456",
+      "Connection": "close",
+      "Date": "Wed, 09 Sep 2026 23:26:27 GMT",
+      "Last-Modified": "Wed, 09 Sep 2026 09:11:59 GMT",
+      "ETag": "\"98fa7b2d6f06d68decdb94594a67aa86\"",
+      "x-amz-server-side-encryption": "AES256",
+      "Accept-Ranges": "bytes",
+      "Server": "AmazonS3",
+      "X-Cache": "Miss from cloudfront",
+      "Via": "1.1 e27c82fbcb42858202f744a49633c5a2.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Pop": "MIA3-P1",
+      "X-Amz-Cf-Id": "uTJjM8KdRd6PAHpjPjgwAcPF0xfkdIycAX9Kh6v8xlakwziMvjzSrQ=="
+    }
+  },
+  {
+    "file": "raw/ueda-september.html",
+    "url": "https://www.uedayagi.com/fundingforecast/2026-9/",
+    "sha256": "cc5777e83088294a340bbceb78f072cb0e218b1bf1556ad9573d283d961ac502",
+    "retrieved_at": "2026-09-09T23:26:28.692250+00:00",
+    "headers": {
+      "Server": "nginx",
+      "Date": "Wed, 09 Sep 2026 23:26:28 GMT",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-Content-Type-Options": "nosniff",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://ssl.google-analytics.com https://www.googletagmanager.com https://contents.bownow.jp https://code.jquery.com https://cdn.jsdelivr.net https://stackpath.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://use.fontawesome.com; img-src 'self' data: https://www.google-analytics.com https://stats.g.doubleclick.net; font-src 'self' data: https://fonts.gstatic.com https://fonts.googleapis.com https://use.fontawesome.com; frame-src 'self' https://www.youtube.com https://www.google-analytics.com/ https://www.google.com/ https://contents.bownow.jp; connect-src 'self' https://www.google-analytics.com; object-src 'none'",
+      "Link": "<https://www.uedayagi.com/wp-json/>; rel=\"https://api.w.org/\", <https://www.uedayagi.com/wp-json/wp/v2/fundingforecast/19971>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://www.uedayagi.com/?p=19971>; rel=shortlink",
+      "X-XSS-Protection": "1; mode=block"
+    }
+  }
+]

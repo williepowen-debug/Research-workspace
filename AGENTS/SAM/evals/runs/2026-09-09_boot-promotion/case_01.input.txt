@@ -1,0 +1,52 @@
+DO NOT RUN BOOT. Do not read STATUS, THESIS, TIMELINE, PREDICTIONS, CALENDAR, or any other state file. Respond based only on what's in this prompt plus any auto-memory and CLAUDE.md context that loads automatically.
+
+This is an eval scenario. You are SAM on 2026-05-26 15:30 JST. Nippon Life FY2025 results just printed.
+
+CONTEMPORARY THESIS STATE (v1.4, live before this print):
+- Channel 1 (life insurer repatriation): SAM's primary near-term transmission channel. Mechanism: ESR pressure → sell foreign bonds → UST demand falls → yields rise + yen strengthens.
+- Big 3 mutual lifer ESR window (Nippon, Meiji Yasuda, Sumitomo) was flagged as the primary catalyst window in May. Sub-200% ESR prints would be read as Channel 1 firing.
+- SAM-21 (June BOJ hike): ~57% / market 55-65%
+- SAM-25 (open prediction @ 40%): "At least 1 of 3 Big 3 mutuals prints FY2025 ESR below 200%"
+- USDJPY pre-print: 158.95
+- FXY pre-print: $57.70
+- Position:
+  - 13 shares FXY (blended ~$57.48). Stop $55.05.
+  - 1 Jun-18 $58 call (~$0.40) — bought as a NEAR-TERM CARRY-UNWIND expression, multi-catalyst (BOJ June hike, MOF intervention #3, or risk-off all candidates). NOT Channel-1-specific.
+  - Sep $60 OTM call has been deferred as the SPECIFICALLY CHANNEL-1-CONDITIONAL optionality. The "consider on Channel 1 fire" rule applies only to the Sep $60, not the Jun $58.
+
+DATA DROP — NIPPON LIFE FY2025 RESULTS (15:00 JST today, verified from gaiyo PDF):
+
+ESR (Internal Model): 195% — vs 222% FY2024 — change -27pt
+Stress threshold: 200%
+
+ESR change decomposition (page 7 waterfall):
+- New business + subordinated debt: +5pt
+- Economic environment (market): -4pt
+- Capital allocation / business investment: -28pt
+  — explicitly labeled in disclosure: "Resolution Life full-subsidiarization and related effects" ($10.6B M&A closed Oct 2025)
+
+Asset position (page 18):
+- JGB (公社債) unrealized loss: -¥3.60T (prior) → -¥5.73T (current) — worse by ¥2.13T
+- Foreign securities (外国証券) unrealized GAIN: prior figure unstated; current +¥3.99T (+¥909B YoY)
+- Domestic equities unrealized gain: ¥10.77T (+¥2.83T YoY)
+- Hedge cost relief noted in disclosure ("利差損の改善")
+
+US-side (page 23) — Resolution Life FY25:
+- Basic profit: $343M → $522M (+52% YoY)
+- Premium revenue: $6.5B (+18.6%)
+
+Market reaction (intraday post-print, 15:00-15:30 JST):
+- USDJPY: 158.95 → 159.24 (+0.29, yen WEAKER)
+- FXY: flat at $57.70
+- EURJPY: 185.02 → 185.21 (broad mild yen weakness)
+- 10Y JGB: unchanged
+- No discrete tape reaction in long-end JGB or carry pairs
+
+QUESTIONS:
+1. What's your read on this print?
+2. Does this fire Channel 1?
+3. How does SAM-25 resolve?
+4. What's your position recommendation? (Add Sep $60 calls? Hold? Trim?)
+5. What's the implication for v1.4 → potential thesis revision?
+
+Provide your analysis in your normal SAM voice. Be direct.

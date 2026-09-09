@@ -1,0 +1,231 @@
+{
+  "settlement_errors_usd_per_jpy": {
+    "6ju26": -1.496076613288766e-11,
+    "6jz26": -1.3035535845196122e-10,
+    "6jh27": 4.999946951866202e-07
+  },
+  "official_candidate_sep8_residual_bp": -9.554386135447324,
+  "cftc_legacy": {
+    "date": "2026-09-01",
+    "oi": 411882,
+    "nc_long": 117169,
+    "nc_short": 209396,
+    "nc_net": -92227,
+    "nc_spread": 36301,
+    "change_oi": 27666,
+    "change_nc_long": -11171,
+    "change_nc_short": 17758,
+    "change_nc_net": -28929
+  },
+  "cftc_tff": [
+    {
+      "cohort": "Dealer",
+      "long": 116682,
+      "short": 37361,
+      "spread": 29522,
+      "net": 79321,
+      "delta_long": 16690,
+      "delta_short": -19693,
+      "delta_spread": 12950,
+      "delta_net": 36383
+    },
+    {
+      "cohort": "Asset manager",
+      "long": 70419,
+      "short": 94940,
+      "spread": 26510,
+      "net": -24521,
+      "delta_long": -1002,
+      "delta_short": 3403,
+      "delta_spread": 1294,
+      "delta_net": -4405
+    },
+    {
+      "cohort": "Leveraged funds",
+      "long": 58529,
+      "short": 160717,
+      "spread": 20163,
+      "net": -102188,
+      "delta_long": -7999,
+      "delta_short": 17147,
+      "delta_spread": 12409,
+      "delta_net": -25146
+    },
+    {
+      "cohort": "Other reportables",
+      "long": 55035,
+      "short": 2313,
+      "spread": 1799,
+      "net": 52722,
+      "delta_long": -5380,
+      "delta_short": 657,
+      "delta_spread": 25,
+      "delta_net": -6037
+    }
+  ],
+  "pair_tenor_days": 91,
+  "candidate_last": {
+    "date": "2026-09-09",
+    "near": 0.006568499840795994,
+    "far": 0.006612999830394983,
+    "near_volume": 868,
+    "far_volume": 16,
+    "implied_pct": 2.7173475465753087,
+    "bill_pct": 3.95,
+    "assumed_jpy_pct": 1.0,
+    "residual_bp": -23.265245342469143
+  },
+  "candidate_sep8": {
+    "date": "2026-09-08",
+    "near": 0.006556999869644642,
+    "far": 0.006603999994695187,
+    "near_volume": 0,
+    "far_volume": 0,
+    "implied_pct": 2.875049395159767,
+    "bill_pct": 3.94,
+    "assumed_jpy_pct": 1.0,
+    "residual_bp": -6.495060484023307
+  },
+  "old_sep8": {
+    "date": "2026-09-08",
+    "near": 0.006510999985039234,
+    "far": 0.006556999869644642,
+    "near_volume": 0,
+    "far_volume": 0,
+    "implied_pct": 2.8337433893872004,
+    "bill_pct": 3.94,
+    "assumed_jpy_pct": 1.0,
+    "residual_bp": -10.625661061279956
+  },
+  "matched_candidate_observations": 56,
+  "top_vix_delta_screens": [
+    {
+      "date": "2026-07-29",
+      "previous_vix_date": "2026-07-28",
+      "vix_close": 20.66,
+      "vix_delta": 2.4499999999999993,
+      "vix_pct": 13.454146073585926,
+      "fxy_vendor_daily_pct": 0.23214476449149313,
+      "usdjpy_vendor_daily_pct": 0.056788028133314405,
+      "eurjpy_vendor_daily_pct": 0.20409521340012393,
+      "audjpy_vendor_daily_pct": -0.1205988857855167,
+      "sp500_vendor_daily_pct": -1.516128975010811
+    },
+    {
+      "date": "2026-06-23",
+      "previous_vix_date": "2026-06-22",
+      "vix_close": 19.49,
+      "vix_delta": 2.2099999999999973,
+      "vix_pct": 12.789351851851837,
+      "fxy_vendor_daily_pct": 0.017605778080675982,
+      "usdjpy_vendor_daily_pct": 0.08487029797612511,
+      "eurjpy_vendor_daily_pct": -0.22751752332691444,
+      "audjpy_vendor_daily_pct": -0.030081839882811767,
+      "sp500_vendor_daily_pct": -1.4362785193208105
+    },
+    {
+      "date": "2026-07-13",
+      "previous_vix_date": "2026-07-10",
+      "vix_close": 17.16,
+      "vix_delta": 2.130000000000001,
+      "vix_pct": 14.171656686626743,
+      "fxy_vendor_daily_pct": -0.49348358426363204,
+      "usdjpy_vendor_daily_pct": -0.29871374060651545,
+      "eurjpy_vendor_daily_pct": -0.5478660678308378,
+      "audjpy_vendor_daily_pct": -0.31227034217552463,
+      "sp500_vendor_daily_pct": -0.7927023147980106
+    },
+    {
+      "date": "2026-07-23",
+      "previous_vix_date": "2026-07-22",
+      "vix_close": 18.7,
+      "vix_delta": 2.0599999999999987,
+      "vix_pct": 12.379807692307686,
+      "fxy_vendor_daily_pct": -0.39125239639717924,
+      "usdjpy_vendor_daily_pct": -0.06435048554601641,
+      "eurjpy_vendor_daily_pct": 0.017196859428669775,
+      "audjpy_vendor_daily_pct": -0.218854771345256,
+      "sp500_vendor_daily_pct": -1.2089697334330851
+    },
+    {
+      "date": "2026-07-17",
+      "previous_vix_date": "2026-07-16",
+      "vix_close": 18.77,
+      "vix_delta": 2.039999999999999,
+      "vix_pct": 12.193664076509258,
+      "fxy_vendor_daily_pct": 0.10628442477034206,
+      "usdjpy_vendor_daily_pct": 0.18757147614316683,
+      "eurjpy_vendor_daily_pct": -0.026358784678615077,
+      "audjpy_vendor_daily_pct": 0.06429612474241342,
+      "sp500_vendor_daily_pct": -1.0098540030789804
+    },
+    {
+      "date": "2026-09-01",
+      "previous_vix_date": "2026-08-31",
+      "vix_close": 16.34,
+      "vix_delta": 1.42,
+      "vix_pct": 9.51742627345844,
+      "fxy_vendor_daily_pct": -0.33106574094728947,
+      "usdjpy_vendor_daily_pct": -0.23419643397429857,
+      "eurjpy_vendor_daily_pct": 0.01346965922255361,
+      "audjpy_vendor_daily_pct": -0.08199950205318718,
+      "sp500_vendor_daily_pct": -0.7112792754561781
+    },
+    {
+      "date": "2026-08-20",
+      "previous_vix_date": "2026-08-19",
+      "vix_close": 16.01,
+      "vix_delta": 1.120000000000001,
+      "vix_pct": 7.5218267293485574,
+      "fxy_vendor_daily_pct": -0.620476745107279,
+      "usdjpy_vendor_daily_pct": -0.7984970547333825,
+      "eurjpy_vendor_daily_pct": 0.03790469958790954,
+      "audjpy_vendor_daily_pct": -0.22128006818840085,
+      "sp500_vendor_daily_pct": -0.8668915122777232
+    },
+    {
+      "date": "2026-07-16",
+      "previous_vix_date": "2026-07-15",
+      "vix_close": 16.73,
+      "vix_delta": 1.0600000000000005,
+      "vix_pct": 6.76451818761965,
+      "fxy_vendor_daily_pct": -0.14151427221810176,
+      "usdjpy_vendor_daily_pct": -0.0708997865950245,
+      "eurjpy_vendor_daily_pct": 0.3189613251569856,
+      "audjpy_vendor_daily_pct": 0.35618631817562196,
+      "sp500_vendor_daily_pct": -0.5101405539945647
+    }
+  ],
+  "largest_fxy_daily_rises": [
+    {
+      "date": "2026-07-30",
+      "previous_date": "2026-07-29",
+      "return_pct": 2.5832901039496425
+    },
+    {
+      "date": "2026-09-03",
+      "previous_date": "2026-09-02",
+      "return_pct": 1.97470881463353
+    },
+    {
+      "date": "2026-09-08",
+      "previous_date": "2026-09-04",
+      "return_pct": 1.5169647726643198
+    },
+    {
+      "date": "2026-08-03",
+      "previous_date": "2026-07-31",
+      "return_pct": 1.456816085346535
+    },
+    {
+      "date": "2026-08-19",
+      "previous_date": "2026-08-18",
+      "return_pct": 0.9394588027624273
+    }
+  ],
+  "fxy_start_close": 56.790000915527344,
+  "fxy_last_date": "2026-09-09",
+  "fxy_last_close": 59.70000076293945,
+  "fxy_start_to_last_pct": 5.124141222925149,
+  "warning": "SCREENS ONLY. Daily clocks differ; no route qualification or prediction grade. No new VIX threshold or return baseline adopted."
+}

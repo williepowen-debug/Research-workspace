@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-09-09T23:11:25.119200+00:00",
+  "candidate_sha256": "db508c914c6f899f0039ab927adc36d4617fe6372d46aa078cd8cb6fe930f146",
+  "runs": [
+    {
+      "case": "case_01",
+      "session_id": "f2aed515-6091-4e0a-8196-70025d5a033c",
+      "command": [
+        "claude",
+        "--print",
+        "--verbose",
+        "--output-format",
+        "stream-json",
+        "--session-id",
+        "f2aed515-6091-4e0a-8196-70025d5a033c",
+        "--permission-mode",
+        "dontAsk",
+        "--tools",
+        ""
+      ],
+      "input_sha256": "cd3332350acce926878693885a76e279f0a1e95fb963a137fc48a251d590d28f"
+    },
+    {
+      "case": "case_02_v1_2",
+      "session_id": "803e22ba-fd01-46ee-8227-5740cf2a61df",
+      "command": [
+        "claude",
+        "--print",
+        "--verbose",
+        "--output-format",
+        "stream-json",
+        "--session-id",
+        "803e22ba-fd01-46ee-8227-5740cf2a61df",
+        "--permission-mode",
+        "dontAsk",
+        "--tools",
+        ""
+      ],
+      "input_sha256": "0eed69ff6aaf458221c047e7f3069399d1329519cc41e412fd241ed664afe3f1"
+    }
+  ]
+}

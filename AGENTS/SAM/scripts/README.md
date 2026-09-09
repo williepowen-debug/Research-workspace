@@ -13,7 +13,7 @@ Run from the repository root using `.venv/bin/python3 AGENTS/SAM/scripts/boot.py
 | `--verbose` | Show complete child stdout/stderr during market refresh. |
 | `--report /absolute/new-file.jsonl` | Choose a new raw report path; existing files are never overwritten. Monitoring only. |
 
-The live CLAUDE startup order remains in force pending fresh-session eval of the [candidate patch](../proposals/2026-09-09_boot-protocol.patch). These explicit commands are available now. Orientation is context recovery; a request for market analysis still requires appropriate source refreshes.
+The live CLAUDE startup order remains in force after the September 9 [fresh-session judgment failure](../evals/runs/2026-09-09_boot-promotion/ASSESSMENT.md); the trial [candidate patch](../proposals/2026-09-09_boot-protocol.patch) is not promoted. These explicit commands are available now. Orientation is context recovery; a request for market analysis still requires appropriate source refreshes.
 
 ## Orientation contract
 

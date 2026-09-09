@@ -1,0 +1,155 @@
+[
+  {
+    "symbol": "6JU26.CME",
+    "file": "raw/6ju26-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:47.575881+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "6JU26.CME",
+      "currency": "USD",
+      "exchangeName": "CME",
+      "instrumentType": "FUTURE",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788994625,
+      "expireDate": null,
+      "firstTradeDate": 1631505600
+    }
+  },
+  {
+    "symbol": "6JZ26.CME",
+    "file": "raw/6jz26-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:47.756133+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "6JZ26.CME",
+      "currency": "USD",
+      "exchangeName": "CME",
+      "instrumentType": "FUTURE",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788994662,
+      "expireDate": null,
+      "firstTradeDate": 1639371600
+    }
+  },
+  {
+    "symbol": "6JH27.CME",
+    "file": "raw/6jh27-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:48.039034+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "6JH27.CME",
+      "currency": "USD",
+      "exchangeName": "CME",
+      "instrumentType": "FUTURE",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788956876,
+      "expireDate": null,
+      "firstTradeDate": 1647230400
+    }
+  },
+  {
+    "symbol": "USDJPY=X",
+    "file": "raw/usdjpy-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:48.245823+00:00",
+    "rows": 58,
+    "last": "2026-09-09 00:00:00+01:00",
+    "metadata": {
+      "symbol": "USDJPY=X",
+      "currency": "JPY",
+      "exchangeName": "CCY",
+      "instrumentType": "CURRENCY",
+      "exchangeTimezoneName": "Europe/London",
+      "regularMarketTime": 1788995266,
+      "expireDate": null,
+      "firstTradeDate": 846633600
+    }
+  },
+  {
+    "symbol": "EURJPY=X",
+    "file": "raw/eurjpy-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:48.445515+00:00",
+    "rows": 58,
+    "last": "2026-09-09 00:00:00+01:00",
+    "metadata": {
+      "symbol": "EURJPY=X",
+      "currency": "JPY",
+      "exchangeName": "CCY",
+      "instrumentType": "CURRENCY",
+      "exchangeTimezoneName": "Europe/London",
+      "regularMarketTime": 1788995266,
+      "expireDate": null,
+      "firstTradeDate": 1043280000
+    }
+  },
+  {
+    "symbol": "AUDJPY=X",
+    "file": "raw/audjpy-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:48.642001+00:00",
+    "rows": 58,
+    "last": "2026-09-09 00:00:00+01:00",
+    "metadata": {
+      "symbol": "AUDJPY=X",
+      "currency": "JPY",
+      "exchangeName": "CCY",
+      "instrumentType": "CURRENCY",
+      "exchangeTimezoneName": "Europe/London",
+      "regularMarketTime": 1788995266,
+      "expireDate": null,
+      "firstTradeDate": 1070236800
+    }
+  },
+  {
+    "symbol": "FXY",
+    "file": "raw/fxy-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:48.869854+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "FXY",
+      "currency": "USD",
+      "exchangeName": "PCX",
+      "instrumentType": "ETF",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788984000,
+      "expireDate": null,
+      "firstTradeDate": 1171377000
+    }
+  },
+  {
+    "symbol": "^GSPC",
+    "file": "raw/sp500-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:49.084987+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "^GSPC",
+      "currency": "USD",
+      "exchangeName": "SNP",
+      "instrumentType": "INDEX",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788986599,
+      "expireDate": null,
+      "firstTradeDate": -1325583000
+    }
+  },
+  {
+    "symbol": "^MOVE",
+    "file": "raw/move-daily.csv",
+    "retrieved_at": "2026-09-09T23:07:49.251297+00:00",
+    "rows": 56,
+    "last": "2026-09-09 00:00:00-04:00",
+    "metadata": {
+      "symbol": "^MOVE",
+      "currency": "USD",
+      "exchangeName": "NYS",
+      "instrumentType": "INDEX",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketTime": 1788985875,
+      "expireDate": null,
+      "firstTradeDate": 1037111400
+    }
+  }
+]

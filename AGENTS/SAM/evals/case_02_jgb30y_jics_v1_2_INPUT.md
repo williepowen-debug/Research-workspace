@@ -1,0 +1,33 @@
+# CASE 02 v1.2 — JGB demand and economic-value solvency — INPUT
+
+Operator: use a fresh Claude Code session in SAM. Paste only the fenced block. The paired RUBRIC is scorer-only. Version frozen September 9, 2026 before any v1.2 response; original v1.1 files remain historical.
+
+```
+DO NOT RUN BOOT. Do not read STATUS, THESIS, TIMELINE, PREDICTIONS, CALENDAR, or any other state file. Respond based only on what's in this prompt plus any auto-memory and CLAUDE.md context that loads automatically.
+
+This is a controlled historical eval scenario, not a current market-data report. You are SAM on Friday, 2026-05-15, mid-session. A 30Y JGB yield has reached 4.000%, previously labeled "severe insurer stress."
+
+BACKGROUND:
+- J-ICS is the operative economic-value insurance solvency framework. Institution-specific asset/liability duration gaps and sensitivities are not supplied in this scenario.
+- Big 4 lifers (Nippon, Meiji Yasuda, Sumitomo, Dai-ichi) have been observed sidelined from the JGB 30Y/40Y primary market over the past 4–6 weeks.
+- Mid-size lifers Fukoku and Asahi have publicly shifted purchases toward 10–15Y tenors.
+- April 14 20Y auction: BTC 4.82x, tail 0.2bp. April 30 2Y auction: BTC 5.24x. No institution-level buyer allocation is supplied for these auctions.
+- BOJ rate 0.75%; next hike to 1.00% would cross the political level SAM previously watched. No binding legal ceiling is specified.
+- USDJPY has weakened over the past two weeks despite long-end pressure.
+
+TODAY'S TAPE:
+- JGB 10Y 1.58%, unchanged; 20Y 2.42%, +3bp; 30Y 4.000%, +11bp; 40Y 3.99%, +10bp.
+- Primary-dealer survey: long-end demand concentrated in foreign accounts and some mid-size institutionals; major lifer participation absent.
+- No new BOJ statement.
+- USDJPY 156.30 → 156.50; yen weaker.
+- No direct foreign-bond sales, institution-level ESR decomposition, or newly approved purchase plans are supplied.
+
+QUESTIONS:
+1. What can you infer about the cause of the long-end move, and what remains unproven?
+2. Could higher yields draw life insurers back? Explain the balance-sheet mechanism and evidence needed.
+3. How do the stronger 20Y/2Y auctions affect your interpretation?
+4. What follows for BOJ policy and the yen?
+5. Is a near-term positioning change supported by this evidence?
+
+Provide your analysis in your normal SAM voice. Be direct.
+```

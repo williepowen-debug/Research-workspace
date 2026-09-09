@@ -1,0 +1,36 @@
+{
+  "source_urls": [
+    "https://www.cmegroup.com/daily_bulletin/current/Section33_Japanese_Yen_Call_Options.pdf",
+    "https://www.cmegroup.com/daily_bulletin/current/Section07_Currency_Futures.pdf"
+  ],
+  "page": 1,
+  "bulletin": "172 FINAL",
+  "observation_date": "2026-09-08",
+  "checked_date": "2026-09-09",
+  "access": "Browser PDF text; direct HTTP download 403; no local source PDF or PDF hash claimed",
+  "quote_unit": "USD per JPY",
+  "rows": [
+    {
+      "contract": "SEP26",
+      "last_trade_date": "2026-09-14",
+      "settlement": 0.006511,
+      "globex_volume": 605633,
+      "open_interest": 233727
+    },
+    {
+      "contract": "DEC26",
+      "last_trade_date": "2026-12-14",
+      "settlement": 0.006557,
+      "globex_volume": 176493,
+      "open_interest": 263476
+    },
+    {
+      "contract": "MAR27",
+      "last_trade_date": "2027-03-15",
+      "settlement": 0.0066035,
+      "globex_volume": 318,
+      "open_interest": 788
+    }
+  ],
+  "activation": "HOLD: vendor rounding and asynchronous last trades; one official settlement anchor only"
+}

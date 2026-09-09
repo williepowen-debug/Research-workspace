@@ -1,0 +1,66 @@
+{
+  "raw_sha256": "4ca8c03ea8273d09f7500c33b83c6693153317082f1a97ca3c3b06a7b1dc8516",
+  "events": [
+    {
+      "type": "system",
+      "subtype": "init",
+      "cwd": "/home/willi/Research-workspace/AGENTS/SAM",
+      "session_id": "aee43b97-be3c-4b4a-ae4d-d0f270bd3803",
+      "model": "claude-opus-4-7",
+      "tools": [],
+      "claude_code_version": "2.1.267",
+      "permissionMode": "dontAsk"
+    },
+    {
+      "type": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "# SAM — 2026-05-15 mid-session read\n\nThe 30Y just printed 4.000% (+11bp) with 40Y +10bp, while 10Y is unchanged and 20Y only +3bp. This is a **long-end-only move**, not a JGB revulsion. Yen weaker into it. Below the questions in order.\n\n## 1. Cause: what the tape supports vs what it doesn't\n\n| Reading | Supported by | Unproven |\n|---|---|---|\n| Ultra-long buyers' strike (lifer absence not backfilled at clearing level) | 4-6wk sidelining + dealer survey (foreign + mid-size only in long end) | No allocation data by investor type at the recent auctions |\n| Belly demand intact | 20Y Apr-14 BTC 4.82x / tail 0.2bp; 2Y Apr-30 BTC 5.24x; mid-size stated 10–15Y shift | — |\n| **Not** acute repatriation / risk-off | USDJPY 156.30→156.50 into the move (yen WEAKER, not bid) | — |\n| **Not** yet BOJ-policy repricing | 10Y unchanged; no BOJ statement | — |\n\n**Load-bearing negatives (what's not shown):** no confirmed lifer *selling* (absence from primary ≠ liquidation); no institution-level ESR or duration-gap decomposition; no direct foreign-bond sales print; no MOF weekly for the week. Absence from primary is consistent with (a) J-ICS-driven capitulation, (b) waiting for a better entry, or (c) FY26 plan already executed earlier — the tape does not discriminate.\n\n## 2. Can higher yields draw lifers back?\n\n**Mechanism (J-ICS, economic-value):** Japanese lifers historically run **liabilities longer than assets** (negative duration gap at the ultra-long). Under an economic-value regime, a parallel rise in long rates cuts the PV of liabilities more than assets → **ESR improves** as long yields rise. That is the theoretical pull back into 30Y/40Y at some level.\n\n**Why \"at some level\" is unknowable from this prompt:**\n- No institution-specific duration gap, convexity, or J-ICS sensitivity supplied.\n- Credit spread / FX-hedge cost on the alternative (hedged UST) not supplied.\n- Announced FY2026 super-long plan revisions not supplied.\n\n**Evidence I'd need before calling a reversal:**\n1. Any Big-4 comment framing 30Y/40Y as \"attractive\" or plan revision upward.\n2. Investor-type allocation at the next 30Y (May) and 40Y auctions — a lifer print, not a survey.\n3. MOF weekly showing net JGB buying alongside foreign-bond behavior.\n4. J-ICS ESR update (interim disclosures) — direction, not just level.\n\nWithout at least #2 or #3, \"higher yields = they come back\" is a mechanism claim, not a confirmed flow.\n\n## 3. What the 20Y/2Y auctions do to the interpretation\n\nThey **narrow the story to the ultra-long**. A 4.82x / 0.2bp tail at the 20Y and 5.24x at the 2Y is not stress — it's the opposite. That:\n\n- Weakens any \"systemic JGB stress\" read.\n- Weakens the registered auction-failure trigger (BTC <2.0x) — nothing close.\n- Strengthens the tenor-specific \"who clears the ultra-long without lifers?\" question.\n- Consistent with mid-size having genuinely rotated to 10–15Y (that bid is *showing up*).\n\n## 4. BOJ and yen\n\n**Yen:** USDJPY 156.50 with long-end +11bp is the diagnostic tell. Repatriation panic bids yen; this didn't. Two consistent stories:\n- Domestic real-money rotating out of long JGBs into hedged/unhedged foreign bonds (yen-negative on the unhedged leg).\n- Foreign long-end buying is FX-hedged (yen-neutral) while carry/rate-differential dominates spot.\n\nEither way: **not the carry-unwind trigger geometry** (that needs yen strengthening +2%+ intraday). Nowhere near MOF intervention level (>160).\n\n**BOJ:** A curve steepening driven by term premium at 30Y/40Y with the belly anchored is precisely the shape that **does not force BOJ's hand**. They hike for FX and CPI, not for super-long term premium. The 1.00% \"political\" level is not made more imminent by this print. If anything, a disorderly ultra-long with a soft yen argues for BOJ *slowing*, not accelerating, given fiscal optics.\n\n## 5. Positioning change?\n\n**No — not on this evidence.** The level (30Y at 4.000%) crossed a label I wrote, but the tape does not confirm the mechanism the label was meant to flag:\n\n| Confirms stress | Contradicts stress |\n|---|---|\n| 30Y at 4.000%, +11bp; long-end concentrated in non-lifer bids | Belly (10Y unchanged, 20Y +3bp) untouched |\n| Big-4 sidelined 4-6wks | Recent 20Y/2Y auctions strong |\n| — | Yen WEAKER into the move (no repatriation bid) |\n| — | No confirmed lifer selling; no J-ICS decomposition |\n\n**What I want before moving:** (a) next 30Y auction BTC + tail + investor allocation, (b) MOF weekly (JGB net + foreign-bond net), (c) any lifer plan/commentary, (d) yen response on the next long-end leg — a bid on a further selloff flips the read.\n\n**One caveat I owe RED:** the \"yen weakening rules out repatriation\" leg is a *timing* argument, not a *mechanism* one — a slow liquidation with FX-hedged legs would print exactly this tape, and the discriminator is flow data I don't have. So the \"no positioning change\" call is conditional on getting item (b) within the week; if MOF weekly shows >¥1.5T long-end net selling, this whole read reopens."
+        }
+      ]
+    },
+    {
+      "type": "result",
+      "subtype": "success",
+      "session_id": "aee43b97-be3c-4b4a-ae4d-d0f270bd3803",
+      "is_error": false,
+      "duration_ms": 61261,
+      "total_cost_usd": 0.42711299999999996,
+      "usage": {
+        "input_tokens": 5,
+        "cache_creation_input_tokens": 33660,
+        "cache_read_input_tokens": 8400,
+        "output_tokens": 3386,
+        "output_tokens_details": {
+          "thinking_tokens": 1322
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 33660,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 5,
+            "output_tokens": 3386,
+            "cache_read_input_tokens": 8400,
+            "cache_creation_input_tokens": 33660,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 33660
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "permission_denials": []
+    }
+  ]
+}
