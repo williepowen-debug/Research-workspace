@@ -1,0 +1,34 @@
+{
+  "screenshot": {
+    "shares": "37",
+    "spot": "148.6275",
+    "shares_value": "5499.21",
+    "call_value": "1680.00",
+    "combined_value": "7179.21",
+    "account_weight_pct": "18.64245650480394702674629966",
+    "combined_open_gain": "1944.28",
+    "call_intrinsic_value": "1362.7500",
+    "call_time_value": "317.2500",
+    "fall_to_135_pct": "9.168895392844527425947418880",
+    "shares_giveback_at_135": "504.2175",
+    "shares_loss_if_down_10pct": "549.921",
+    "expiry_price_matching_16_80_sale_before_costs": "151.80"
+  },
+  "delayed_quote_sensitivity": {
+    "bid_value": "1640.0",
+    "ask_value": "1705.00",
+    "mid_value": "1672.50",
+    "call_share_equivalent": "77.2900",
+    "combined_share_equivalent": "114.2900",
+    "call_theta_dollars_per_day": "-8.3500",
+    "call_vega_dollars_per_vol_point": "14.2600"
+  },
+  "short_interest": {
+    "settlement_date": "2026-08-14",
+    "prior_settlement_date": "2026-07-31",
+    "shares": "9967247",
+    "prior_shares": "14054826",
+    "change_pct": "-29.08309928561193144618083497",
+    "days_to_cover_using_same_row_volume": "1.772097420094912515636812060"
+  }
+}
