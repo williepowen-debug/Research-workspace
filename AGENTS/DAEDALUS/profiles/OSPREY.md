@@ -1,5 +1,7 @@
 # OSPREY — DAEDALUS Comprehension Profile
 
+> **Receipt update 2026-09-08:** OSPREY is working again; strike-feed proposal received, not build-authorized. Intake/design questions: `design/2026-09-08_OSPREY_STRIKE_FEED_INTAKE.md`, reviewed at September 12 tooling sitting. Full profile remains stale; its existing >21d relative trigger is real, despite the older no-trigger banner below. No clock reset or grade change.
+
 > ⚠️ **NO DATED STALENESS TRIGGER (PR#5 2026-09-01):** this profile names no day clock or floor, so `scripts/profile_clock_check.py` reports it NO-DATED-CLOCK and cannot certify it. Add one at the next refresh (checkpoint **2026-09-15**).
 
 **Built:** 2026-08-07 (first profile — build-queue slot serviced; Mode-A single-reader full read) · **Grade at build:** L3-blocked-on-instrumentation (FLEET_MAP owns it) · **Class:** Market (war theater Russia/Ukraine; HAWK-split sibling of FALCON, spun out 7/12 — Will-approved concept, DAEDALUS build) · **Staleness (content-derived):** ~~re-read when the Will rules session adjudicates the two defective falsifiers~~ **(FIRED 8/10 + 8/15 — see Δ-block)**; next key: re-read when THESIS v0.2 lands, when the ~8/20 Channel-3 kill clock resolves, or when STATUS's stamp leads this vintage >21d.

@@ -1,5 +1,7 @@
 # WIRING SWEEP — 8/28 INPUT REGISTER (scope doc)
 
+> **September 12 input update, consumed 2026-09-08:** `runs/2026-09-08_INBOX_DISPOSITIONS.md` §Future agenda is part of this sitting's read set. It records the RED withdrawal, source/basis and disposition-proxy cases, corrected VIX session-semantics candidate, WATT content-preservation question, existing rule-19 overlap and the commissioned L292 spec. These are review inputs, not additional completed sweep legs.
+
 **Registered:** 2026-08-23 · **Runs:** 2026-08-28 · **Owner:** DAEDALUS · **Registry row:** `sweeps/REGISTRY.tsv`
 **Cadence:** one-shot dated sweep (not recurring) — `cadence_days` is a placeholder so `sweeps_due.py` can see it; the run date is the contract.
 

@@ -1,5 +1,7 @@
 # H2 — AS-MADE CONFIDENCE AUDIT, fleet run · 2026-09-07 ~19:5x ET · DAEDALUS (harvest batch, Will-ruled 2026-09-07 "Go ahead with the batch")
 
+> **HAWK receipt 2026-09-08:** the four raw candidates below were owner-classified as three false matches and one HAW-18 two-vintage question; 14 NOT-FOUND stay unresolved. The packet title / registry summary said five incorrectly. No re-score. Evidence: `AGENTS/HAWK/audits/2026-09-08_asmade-disposition.md`; next decision September 11, H2 sitting September 14.
+
 **Tool:** `scripts/asmade_audit.py --all-seeded` (built tonight; positive control = LABOR's ledger at `1d17dacfa^` fires on every row LABOR's own audit found; clean-side limits stated in the docstring). **What a MISMATCH means:** the earliest STATUS blob carrying the ID shows a different confidence from the ledger's as-made — a CANDIDATE the owner verifies at the named blob. **Two named limits:** (1) cell-only percentages, else first % after the ID on a prose line; (2) an ID can post-date the registration (a row born as prose and numbered later) — if the ledger `Date_Made` precedes the printed STATUS date, walk by prediction TEXT (LABOR's 9/7 method). **What this is for:** the 2026-03-04 rollout (`91c301279`) stamped placeholder `Date_Made` on 55 rows across 11 desks; LABOR found 4 of 12 scored rows mis-scored this way (Brier 0.299 → 0.342). Every seeded desk has the same exposure; this is the per-desk candidate list. Packets sent per desk (carve-out ①).
 
 | Desk | rows | SAME | MISMATCH | NOT-FOUND | NO-CONF |

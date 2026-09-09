@@ -5,10 +5,12 @@
 **Sources read:** `CLAUDE.md` (189 ln) · `STATUS.md` (126) · `TRADE.md` · `workbook/` (5 TSV + `EXIT_PROTOCOL.md`) · `boot.py` · `archive/CLAUDE_2026-03_SUPERSEDED.md` · `board_log.tsv` · inbox/outbox
 **Staleness:** event-keyed (next World Bank Pink Sheet / named trigger) or **>21d** → checkpoint **2026-09-26**
 
+> **Receipt update 2026-09-08.** Before this update: `archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json` (verbatim bodies + SHA-256). Evidence and dispositions: `runs/2026-09-08_INBOX_DISPOSITIONS.md`.
+
 ---
 
 ## 1. Identity
-**Fertilizer supply / price / policy → food-CPI transmission → CF Industries positioning.** Market class, **EVENT-DRIVEN SPECIALIST** (wakes on named triggers, no standing cadence). **L2 (H).**
+**Fertilizer supply / price / policy → food-CPI transmission → CF Industries positioning.** Market class, **EVENT-DRIVEN SPECIALIST** (wakes on named triggers, no standing cadence). **L3 (H), graded 2026-09-08.**
 **Re-chartered 2026-08-16, Will-ruled**, built by DAEDALUS against `BLUEPRINTS/market-agent.md`. The March-2026 charter is SUPERSEDED (`archive/CLAUDE_2026-03_SUPERSEDED.md`, whose banner lists the three verified load-bearing defects that caused the re-charter).
 
 **⭐ The tagline IS the desk's control:** *"Benchmark + unit + date on every price cell, or the cell is wrong."* This desk was **re-chartered over a basis mislabel**, and its charter is built around not repeating it: *"'urea' is NOT one price. DTN retail $/ton ≠ NOLA barge $/st ≠ India CFR $/mt ≠ Egypt FOB futures $/mt — levels differ by hundreds of dollars between benchmarks."*
@@ -20,7 +22,7 @@
 | `STATUS.md` (126 ln) | live state, rebuilt from primaries at the 8/17 session |
 | `workbook/EXIT_PROTOCOL.md` ⭐ | dated kill rail — `re-derived 2026-08-17`, **next mandatory 2026-11-15** |
 | `workbook/TRIGGERS.tsv` | the named triggers this desk wakes on (T-*, e.g. T11 World Bank Pink Sheet) |
-| `workbook/PREDICTIONS.tsv` | **10 rows, ALL resolved** — §5 F-1 |
+| `workbook/PREDICTIONS.tsv` | **12 rows: 10 resolved + FERT-11/12 OPEN** — verified 2026-09-08 |
 | `workbook/KB.tsv` · `FLOW.tsv` · `VX.tsv` · `SCHEMA.tsv` | record + transmission + vectors |
 | `boot.py` | trigger-due scan (rc=1 = something due) |
 | `TRADE.md` · `archive/` · `board_log.tsv` | CF positioning surface · superseded charter · board record |
@@ -29,7 +31,7 @@
 | Dimension | Where | Form |
 |---|---|---|
 | Thesis | `CLAUDE.md` + STATUS | supply/price/policy → food-CPI → CF |
-| Convergence | `VX.tsv` + `TRIGGERS.tsv` | trigger-keyed rather than a standing matrix — correct for an event desk |
+| Convergence | `STATUS.md` Live Vectors + `workbook/VX.tsv` | Standing eight-vector matrix, universal score /5 and Independence column; exercised 9/2 and 9/5. The prior trigger-only description was wrong. |
 | Exit / kill ⭐ | `workbook/EXIT_PROTOCOL.md` | **dated re-derivation + a dated NEXT-MANDATORY (2026-11-15)** — a rail that schedules its own re-grade |
 | Predictions | `PREDICTIONS.tsv` | full schema incl. `Resolve_By`, `If_Falsified_Action`, and a **STATE_VOCABULARY Class-3 enum declared in the file header** |
 | Routing | `TRADE.md` + outbox | GATE-FERT-G3/G5 graded and routed to PROME 9/2 |
@@ -49,13 +51,9 @@
 
 ## 5. Findings
 
-**🟠 F-1 — the L3 gate is unmet, and I want to be precise about WHY, because I have been sloppy about this elsewhere today.**
-`PREDICTIONS.tsv` holds **10 rows, every one resolved**: HIT ×3, MISS ×4, VOID ×2, plus a HIT-direction/MISS-magnitude split. **Zero OPEN.**
-The market L3 leg is *"predictions resolving."* **FERT satisfies it in the past tense and has no live loop** — nothing in the ledger can resolve next. So the gate I set (*"≥1 OPEN forward prediction with `Resolve_By`"*) **is not an invented artifact requirement** (unlike the ORACLE/ZHAO/MARCO cases found today); it is asking for the registered leg to be **live** rather than historical, which is inside the leg's plain meaning. **The gate stands** *(pending the 9/14 review below)*.
-⚠️ **Codex 2026-09-05 (relayed by Will, verified) adds the point my note did NOT resolve:** even granting "resolving" ⇒ live loop, gating L3 on "≥1 OPEN" creates an incentive to **manufacture** a prediction after correctly closing a book — a desk that grades everything (the right session outcome) DROPS BELOW L3. Codex agrees this is *"an interpretation requiring justification, not automatically a defective gate."* **So the gate is NOT retracted here** — it is registered as an input to the **9/14 LADDER-INTEGRITY sitting**: the interpretation question *"does 'predictions resolving' require ≥1 OPEN, and how is the close-your-book incentive handled?"* is Will-gated (same class as WQ-180). `runs/2026-09-05_CODEX_REVIEW_FINDINGS.md`.
-⚠️ **But the shape-mismatch on my row is real and stays recorded:** *a rebuild session produces graded rows; the gate wants a forward one.* FERT's 8/17 session did exactly what a re-charter session should do — grade the inherited book honestly, including calling two of its own predecessors' rows **VOID (unfalsifiable-as-written / broken-as-instrument)**. **Grading an inherited book to zero-open is a correct session outcome that leaves the L3 leg unmet, and the desk should not read the gate as criticism of that session.**
+**F-1 — CLOSED-VERIFIED 2026-09-08.** FERT-11 and FERT-12 are OPEN with Resolve_By 2026-10-09 / 2026-12-02, grading bases and falsified actions. Together with the existing graded book, standing matrix and dated exit rail, these meet L3. The separate policy question about requiring an OPEN count remains at the September 14 ladder sitting; registering two rows does not settle that incentive question.
 
-**🟡 F-2 — `boot.py` rc=1: T11 (World Bank Pink Sheet monthly) DUE 2026-09-04 — overdue by one day.** The trigger mechanism works; the wake did not happen. For an event-driven desk, **the trigger firing with no session is the failure mode that matters** — and it is a spawn-driver question (PROME/Will), not a FERT defect.
+**F-2 — prior T11 lapse CLOSED-VERIFIED.** The September 5 owner session checked the edition; TRIGGERS T11 now points to 2026-10-02 and requires verification before grading. Other due triggers remain the owner/PROME lane, not covered by this closure.
 
 **🟢 F-3 — the desk grades its own gates NOT FIRED and says so.** GATE-FERT-G5 and G3 both graded **NOT FIRED** and routed to PROME on 9/2, with the phosphate approach rate reported. Publishing a clean negative against a registered gate is what keeps a trigger set honest.
 
@@ -67,6 +65,8 @@ The market L3 leg is *"predictions resolving."* **FERT satisfies it in the past 
 5. **`EXIT_PROTOCOL.md`'s next-mandatory date (2026-11-15)** is a rail that schedules its own re-grade. Keep the dated form.
 6. **The superseded March charter's banner lists three verified load-bearing defects** — that is the re-charter's evidence base; do not archive it further away.
 
-## 7. Open questions
-- **UNVERIFIED from PR#5, still unverified here:** were the gates ratified? are the 4 ledgers +150d post-session? has the matrix been exercised? *(Not measured this pass — flagged so the next touch closes them rather than carrying them a third time.)*
-- Does an event-driven desk with a **trigger firing and no session** (F-2) need a registered spawn driver, or is that PROME's standing lane? Same question CRUISE raises — **PAT-051 family**, and it now has two instances in one batch.
+## 7. Receipt closure and remaining scope
+- G3/G5 ratification verified in PROME/GATES.tsv; matrix exercise verified in STATUS. The three carried questions are discharged.
+- The old “4 ledgers +150d post-session” claim was unverified and is withdrawn. Do not turn its ambiguous wording into a new 2027 audit obligation.
+- L4 not adjudicated in this bounded receipt read; TRADE remains deliberately frozen with a dated re-look. No request to create capital exposure.
+- Profile day checkpoint remains 2026-09-26; this is a targeted update, not a new full-profile clock.

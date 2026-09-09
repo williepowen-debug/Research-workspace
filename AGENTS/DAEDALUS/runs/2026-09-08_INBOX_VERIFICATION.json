@@ -1,0 +1,51 @@
+[
+  {
+    "case": "2026-09-01",
+    "rc": 0,
+    "output": [
+      "  last consumed: 2026-09-01  net/OI 54.9437%  [v.tsv]",
+      "  live at CFTC : 2026-09-01  net/OI 54.9437%  (code 088691, reconciled)",
+      "  ✓ current vintage already consumed"
+    ]
+  },
+  {
+    "case": "2026-09-08",
+    "rc": 1,
+    "output": [
+      "  last consumed: 2026-09-01  net/OI 54.9437%  [v.tsv]",
+      "  live at CFTC : 2026-09-08  net/OI 54.9437%  (code 088691, reconciled)",
+      "  ⚠️  NEW COT VINTAGE UNCONSUMED — 2026-09-08 is public and this desk has not read it. Δ net/OI vs last consumed: +0.0000pp",
+      "      grade it:  python3 AGENTS/MIDAS/cot_gold.py --expect 2026-09-08",
+      "      then append a row to sources/v.tsv — the row is what clears this flag, and it means READ, not merely published."
+    ]
+  },
+  {
+    "case": "2026-08-25",
+    "rc": 2,
+    "output": [
+      "  last consumed: 2026-09-01  net/OI 54.9437%  [v.tsv]",
+      "  live at CFTC : 2026-08-25  net/OI 54.9437%  (code 088691, reconciled)",
+      "  🔴 SOURCE IS OLDER THAN THE LEDGER — a stale file served as a clean 200 (finding_partitioned_source_returns_stale_window_at_200). Do NOT grade it."
+    ]
+  },
+  {
+    "case": "header-only",
+    "rc": 2,
+    "output": [
+      "  🔴 CANNOT CERTIFY — consumed-vintage ledger has no rows"
+    ]
+  },
+  {
+    "case": "RED-22 history",
+    "widths": [
+      10,
+      9,
+      10
+    ],
+    "invalidation_bytes": 744,
+    "invalidation_restored_exact": true,
+    "original_notes_preserved_prefix": true,
+    "current_notes_bytes": 6379,
+    "original_notes_bytes": 5829
+  }
+]

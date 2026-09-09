@@ -61,6 +61,17 @@ Role labels declaring what a surface IS, joining the banner family that declares
   - Consumers: `prome_gate` reads the LEAD token (unchanged — a `Response` cell is additive and byte-identical where absent) · `will_handbook` counts by it. Desk registries adopt on next-write; the GATES column is PROME's call, as with `Trigger`.
 - **Local richness protected (PAT-015):** HENRY's `CRACKING`/`RE-ARMED`, LIQUID's `DORMANT→TRIGGERED` ladder, and any agent's richer state machine stay canonical in their own files — the registry token is the *cross-agent handle* written beside them, and a re-arm cycle is legitimately `FIRED → STOOD-DOWN → ARMED (re-armed <date>)`.
 
+### Class 2 companion family — orchestration trigger prefixes (WQ-184)
+
+**Registered 2026-09-08.** Provenance: `PROME/proposals/2026-09-05_spawn-driver-RULED.md` §3 L1 and §6 leg ③ (Will 2026-09-05: “approve WQ-184 with your recs”). These prefixes belong to the `trigger` cell of an ORCH_LOG spawn made under that ruling; they are neither condition-state enum members nor additions to `Trigger ∈ {SCHEDULED, EVENT, MANUAL}`.
+
+| Prefix form | Referent | Reader meaning |
+|---|---|---|
+| `DUE-ROW L<n>` | Physical DOCKET row used at the spawn; positive decimal line number after `L` | Spawn attributed to the named registered dated DOCKET row |
+| `DUE-GATE <gate_id>` | Exact ID in PROME/GATES.tsv | Spawn attributed to the named gate's registered review date |
+
+The prefix leads the cell; explanation may follow after whitespace. A consumer validates the identifier and resolves the referent before claiming attribution. A missing or ambiguous referent is unresolved, never a zero or a guessed match. Preserve statement-time references; any later row migration requires an explicit old-to-new mapping (the current in-place tombstone convention preserves line references). The prefix conveys provenance, not proof of completion or additional spawn authority. PROME owns ORCH_LOG and its readers; this registration changes no runtime behavior.
+
 ## Class 3 — Prediction resolution states
 
 

@@ -1,5 +1,7 @@
 # Upgrade Card — RED (read-only re-verification, no agent files touched)
 
+> **Current receipt queue (2026-09-08):** `runs/2026-09-08_INBOX_DISPOSITIONS.md` + current FLEET_MAP row. This card’s old section table remains historical; newly verified closures and explicit deferrals are in the receipt record.
+
 > ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the 97-item backlog DRAINED 7/10 (`a6d6b745`), NEXUS_BRIEF created, FLOW.tsv consciously FROZEN 7/5. Remaining = 2 optional labels. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.
 
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Utility (adversarial analysis — thesis stress-testing, counter-evidence, confirmation-bias detection)

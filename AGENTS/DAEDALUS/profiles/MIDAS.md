@@ -5,10 +5,12 @@
 **Sources read:** `CLAUDE.md` (217 ln) · `STATUS.md` (105) · `THESIS.md` · `TRADE.md` · `LESSONS.md` · `SCRATCH.md` · `OPEN_ITEMS.md` · `NEXUS_BRIEF.md` · `workbook/` (5 TSV + a Kernel companion JSON) · the six top-level scripts · `registry/` · `kernel/` · `analysis/` · `reports/`
 **Staleness:** refresh at the next COT-grade cycle or **>21d** → checkpoint **2026-09-26**
 
+> **Receipt update 2026-09-08.** Before this update: `archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json` (verbatim bodies + SHA-256). Evidence and dispositions: `runs/2026-09-08_INBOX_DISPOSITIONS.md`.
+
 ---
 
 ## 1. Identity
-**Metals as TWO distinct macro tells** — Market class, ACTIVE, L3 (H). *Monetary* (gold/silver: debasement, real-rates, safe-haven) and *industrial* (copper/PGM: growth, China demand, supply). Built by DAEDALUS 2026-07-11 to spec (`builds/MIDAS_SPEC.md`). Feeds **BOND** (gold ↔ real rates), **ZHAO** (copper ↔ China), **LIQUID** (safe-haven flow), **HAWK** (PGM supply geopol), **HENRY** (growth/inflation tells).
+**Metals as TWO distinct macro tells** — Market class, ACTIVE, L4 (H), graded 2026-09-08. *Monetary* (gold/silver: debasement, real-rates, safe-haven) and *industrial* (copper/PGM: growth, China demand, supply). Built by DAEDALUS 2026-07-11 to spec (`builds/MIDAS_SPEC.md`). Feeds **BOND** (gold ↔ real rates), **ZHAO** (copper ↔ China), **LIQUID** (safe-haven flow), **HAWK** (PGM supply geopol), **HENRY** (growth/inflation tells).
 
 **⭐ The #1 guard is a scope guard, and it is the reason this desk exists rather than DARWIN:** *channels, not commodity-watching.* Each channel is a standing causal line (`event → mechanism → repricing`); **an empty channel is a gap to close, not idle background**; "track commodities broadly" is the named failure mode. Any upgrade proposal that widens coverage is arguing against the charter's founding constraint.
 
@@ -50,13 +52,13 @@
 
 ## 5. Findings
 
-**🔴 F-1 — MIDAS-08 is DUE 2026-09-04 and overdue.** `boot.py` rc=1 says so. It is the row that pre-commits to a **public re-read of a published line** and to routing a correction to **BOND, which adopted the carve-out verbatim**. An overdue self-correction is the one kind you cannot quietly let lapse.
+**F-1 — CLOSED-VERIFIED 2026-09-08.** MIDAS-08 is terminal INDETERMINATE, owner-graded 2026-09-05. Branch (c), which would require the public correction to BOND, did not fire. Both directions were pre-bounded; that is not a promise that every outcome creates a correction obligation.
 
 **🟢 F-2 — RESOLVED 2026-09-05 by MIDAS, and my original framing was TOO BROAD (Codex 2026-09-05, verified at `AGENTS/MIDAS/boot.py`).** *Original:* "three COT graders shipped and `boot.py` never calls them — detection built, invocation missing; fourth instance of a fleet pattern." MIDAS's correct answer was **narrower**: it wired ONLY `cot_gold.py` (a PULLER on a standing weekly cadence whose live STATUS figure was rotting — 56.86% [8/25] while the 9/1 vintage was public 9/4), and **deliberately** left `grade_cot3.py`/`settle_check.py` on-demand, documenting in `boot.py` *"so the next reader does not fix the other three."* **They grade CLOSED questions; running them on a boot cadence would reapply frozen grading logic to new data — a NEW defect.** ⚠️ **The discriminator I missed:** "invocation missing" is a defect ONLY for a detector measuring a MOVING quantity on a standing cadence (a puller); a grader for a closed question is CORRECTLY on-demand. My note treated all four uniformly. Closes F-2 (cot_gold.py wired); refines the invocation-missing class → 9/14 ladder-integrity input (`runs/2026-09-05_CODEX_REVIEW_FINDINGS.md`).
 
-**🟡 F-3 — PAT-052 instruction rot: one of two instances survives.** `CLAUDE.md:186` still reads *"`metals_watch.py` **(when built)**"* — and `metals_watch.py` exists and is running the kill rail. The `:33` instance is fixed. One line.
+**F-3 / F-4 — CLOSED-VERIFIED 2026-09-08.** No `(when built)` text remains in CLAUDE.md; STATUS labels its local scale `Instrument coverage: tier 2`. The former L2 label survives only inside an explicit correction.
 
-**🟠 F-4 — a token collision on "L2".** `STATUS:` reads **"Maturity: L2 (spot/yield/GSR/LME via metals_watch.py; COT via cot_gold.py…)"** — that is MIDAS's own **instrument-coverage** scale, but `L0–L5` is the fleet's **maturity ladder** token, and MIDAS is **L3** on it. Two different scales sharing one token on a surface other desks read. **PAT-075** (a state token is an interface). Fix is one word — *"Instrument coverage: tier 2"* — not a change to either scale.
+**New open owner item:** `OPEN_ITEMS.md` item 24 records a missing contract-identity guard, with an interim explicit-contract rule. This remains open; closing the four prior findings does not close it.
 
 **✅ Verified clean:** `boot.py` runs and its rc contract is honest (1 = prediction due) · the four self-found defects of the 9/2 session are recorded with the peers who caught them (*"three peers corrected me and all three were right"*) · `registry/corrections_receipts.tsv` present · Kernel submission path is the canonical immutable form.
 
@@ -68,6 +70,7 @@
 5. **`if_falsified` pre-commitments are binding text**, especially MIDAS-08's public-re-read clause. Do not soften one after the outcome.
 6. **The band figure has been re-based four times, each naming what it corrected** — cite the current construction *by name* (univariate 87.7–91.1% vs currency-stripped 90–93%), never a bare percentage.
 
-## 7. Open questions
-- **Does L4 even apply?** The L4 leg is *TRADE.md feeding proposals*; MIDAS is **zero-capital by design** and Will's call is pending. This is the CARL/LIQUID/ZHAO/WATT no-book-by-design family — likely **ADAPTED-PASS** on a declared-flat TRADE surface, which MIDAS already effectively has. **Flag: my map row phrases it as "Will's call whether L4 applies," which risks being another gate nobody can clear.**
-- Is the composite `/20` scale documented anywhere a reader can find it, or only inferable from STATUS?
+## 7. Grade and remaining scope
+- L4 PASS with the established declared-flat adaptation: TRADE.md states zero capital by design and requires a registered trigger, T+1 confirmation on both bases and a signal with falsifier to TERRY before unfreezing. The concrete declaration closes the prior open applicability question.
+- Cross-desk consumption is real: BOND/NEXUS_BRIEF cites MIDAS's gold evidence and source-label correction; BOND workbook holds the adopted caveat. No new position or trade proposal follows from this grade.
+- L5 not adjudicated; contract-identity guard stays open. Profile checkpoint remains 2026-09-26.

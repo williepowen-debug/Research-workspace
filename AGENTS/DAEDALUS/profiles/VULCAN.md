@@ -1,9 +1,11 @@
 # Agent Profile — VULCAN
 
 **Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + the consumption leg verified **at each reader's own STATUS**, not by filename count
-**Staleness:** **DATED TRIGGER ADDED** (the prior body had none — it was UNEVALUABLE): refresh at the **MU FQ4 print (~2026-09-30, window opens 9/17)** or **21d** → checkpoint **2026-09-26**
+**Staleness:** **DATED TRIGGER ADDED** (the prior body had none — it was UNEVALUABLE): refresh at the **MU FQ4 print (owner-confirmed 2026-09-30; grade 10/01)** or **21d** → checkpoint **2026-09-26**
 
 > **📈 CONFIDENCE M → H this pass.** The single named gate — *"one reader-side consumption confirmed at the reader's artifact"* — is met by **four** readers carrying VULCAN's figures as canonical in their own live state. §3.
+
+> **Correction 2026-09-08:** the September 5 reader-consumption evidence did not validate the adopted population definition. WATT and VULCAN now distinguish aggregate utility-reported forecast from firm coincident-peak contribution; neither is queue nameplate. Confidence stays H for the verified structural consumption leg, not as independent verification of market figures. Before this update: `archive/2026-09-08_INBOX_PROFILE_BEFORE_IMAGES.json` (verbatim bodies + SHA-256). Evidence and dispositions: `runs/2026-09-08_INBOX_DISPOSITIONS.md`.
 
 ## 1. Identity
 **AI-capex / semiconductor / memory cycle → systemic risk** — concentration, memory, power-demand, Taiwan chokepoint. Market class, ACTIVE, L4. Divides labour with WATT by explicit agreement: **"VULCAN sizes MW, WATT prices the grid."** **Spawnable by:** PROME / Will.
@@ -17,7 +19,7 @@ The gate was **one** confirmed reader-side consumption. Found four, each a reade
 | Reader | The citation | Why it counts |
 |---|---|---|
 | **WATT** | `STATUS:38` — *"**32 GW is the firm figure** (PJM's vetted system-coincident peak growth)"*; `STATUS:79` — *"🟡 **Owed to VULCAN:** the hedged-vs-floating share of neocloud load"* | Carries the seam figure **and** an open two-way obligation back |
-| **VULCAN↔WATT seam** | `VULCAN/STATUS:27,51,71` — *"**SEAM CLOSED 8/13 — adopt verbatim, never net or average:** ~55 GW nameplate / ~32 GW firm"* | A **closed, dated, verbatim-adoption** seam with an anti-averaging instruction — the strongest cross-desk form on the fleet |
+| **VULCAN↔WATT seam** | `VULCAN/STATUS.md` S3, corrected wording read 2026-09-08: aggregate utility-reported forecast versus firm coincident-peak contribution; historical misquote preserved in the before-images archive | A **closed, dated, verbatim-adoption** seam with an anti-averaging instruction — consumption evidence; population wording was wrong at the September 5 read and corrected September 6 |
 | **ZHAO** | `STATUS:18` — *"High-tech mfg 52.9 — held in expansion — **VULCAN's leg**"* | A named lane inside another desk's convergence grid |
 | **VIOLET** | `STATUS:94` — *"Equity concentration **(VULCAN-owned)**"* | Ownership acknowledged in a peer's live matrix |
 
@@ -38,13 +40,13 @@ Volume corroborates but does not carry the verdict: 8 VULCAN artifacts in WATT's
 **Next-upgrade line:** *L5 on two consecutive clean cycles. The consumption gate is closed; Conf is H.*
 
 ## 5. Findings
-**🟢 F-1 — the promotable lesson is still promotable and still unregistered:** `STATUS:8` — *"a tripwire dated later than its event cannot catch it"* (an 8/31 tripwire against a 10-Q filed 8/26). This is a clean statement of a real class and it belongs in fleet canon. **Candidate for a PATTERNS row at my next sweep — dedup first against PAT-115** (a resolver dated to an expected event inherits its slip risk), which is the *sibling*, not the same: PAT-115 is about a resolver's date **slipping**; this one is about a tripwire dated **after** the event it watches, which cannot fire at all.
+**F-1 — candidate, n=1; review 2026-09-12, not a new rule:** `STATUS:8` — *"a tripwire dated later than its event cannot catch it"* (an 8/31 tripwire against a 10-Q filed 8/26). This is a clean statement of a real class and it belongs in fleet canon. **Candidate for a PATTERNS row at my next sweep — dedup first against PAT-115** (a resolver dated to an expected event inherits its slip risk), which is the *sibling*, not the same: PAT-115 is about a resolver's date **slipping**; this one is about a tripwire dated **after** the event it watches, whose preventive function is late even though the detector can fire.
 
-**🟡 F-2 — `S4_SERIES` was 14 STATUS-writes behind** at the last read; owner-confirm still owed. Not re-measured this pass.
+**F-2 — owner confirmation consumed 2026-09-08.** S4_SERIES latest stored month is July 2026; owner confirms monthly cadence, next edition expected around September 10. STATUS-write count does not establish overdue publication. Do not freeze a monthly live ledger on that count; freshness against the next source edition remains the owner’s task.
 
-**🟢 F-3 — the profile now has a dated trigger.** The prior body had none, which made its own staleness UNEVALUABLE — a comprehension file that cannot say when it goes stale. Keyed to the MU FQ4 print (~9/30) since that is the desk's own dated rewrite trigger (`STATUS:64`, window opens 9/17).
+**🟢 F-3 — the profile now has a dated trigger.** The prior body had none, which made its own staleness UNEVALUABLE — a comprehension file that cannot say when it goes stale. Keyed to the MU FQ4 print (~9/30) since that is the desk's own dated rewrite trigger (owner STATUS dated rewrite trigger: 2026-09-30; the old 9/17 window is withdrawn).
 
 ## 6. DO NOT TOUCH
-1. **The WATT seam figures — `~55 GW nameplate / ~32 GW firm coincident-peak`. "Adopt verbatim, never net or average."** Two quantities, two meanings; averaging them destroys both. This is the seam's own instruction and it binds readers.
+1. **The WATT seam figures — `~55 GW aggregate utility-reported forecast / ~32 GW firm coincident peak`. "Adopt verbatim, never net or average."** Two quantities, two meanings; averaging them destroys both. This is the seam's own instruction and it binds readers.
 2. **The kill rail is re-read, not restated** — the desk's own hard-won practice after writing rail status from memory three times. Never summarize the rail from a prior commit message.
 3. **`catalyst_countdown.py` is the P3 consolidation donor** — the fleet-wide consolidation reads from here; changing its interface is a fleet change.
