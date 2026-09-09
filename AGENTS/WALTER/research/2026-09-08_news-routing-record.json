@@ -1,0 +1,389 @@
+[
+  {
+    "n": 11,
+    "slug": "saudi-houthi-attacks-energy-operations-attributed",
+    "title": "September 8 Saudi attacks: energy operations interrupted; loss magnitude unresolved",
+    "domain": "GEOPOL_ENERGY",
+    "cluster": "IRAN_HORMUZ",
+    "action": [
+      "FALCON",
+      "BRENT"
+    ],
+    "info": [
+      "HAWK",
+      "CARL",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Saudi-Arabia",
+      "Houthis",
+      "Aramco",
+      "Jazan"
+    ],
+    "confidence": 0.82,
+    "channel": "houthi",
+    "body": "Reuters and AP dated September 8 attribute 73 injuries and energy-site fires/temporary operational suspensions to Saudi authorities after early-Tuesday attacks. Direct Saudi-primary retrieval failed; indexed wire article text is the evidence. Named damaged units, duration and incremental barrels lost are unverified.\n\nJazan’s 400 kb/d nameplate and prior July 27 shutdown are not a new September 8 outage estimate. Monday Jazan reporting and Tuesday attacks must not be counted as two separate confirmed losses without resolving the event clock. No production-loss gate is graded here.\n\nanchor_unverified_as_of: 2026-09-08. This is a fresh, scoped kinetic check, not a full war-state re-verification. Full-WALTER follow-up: obtain operator asset status and complete the outstanding primary sweep. FALCON adjudicates event/asset class; BRENT assesses incremental supply exposure. HAWK receives the theater evidence for its existing synthesis.",
+    "sources": [
+      "https://www.streetinsider.com/Reuters/Houthi%2Battacks%2Bdisrupt%2BSaudi%2Benergy%2Bfacilities%2C%2Bwound%2B73%2C%2Bauthorities%2Bsay/27032019.html",
+      "https://apnews.com/article/4ad9446f0bb8c096750c84b6e1ba86b8"
+    ],
+    "evidence": "research/2026-09-08_verify-iran-news.md",
+    "ask": "FALCON: adjudicate named asset damage and event clock. BRENT: establish incremental operating loss before changing the supply balance."
+  },
+  {
+    "n": 12,
+    "slug": "yen-sub153-intraday-boj-primary",
+    "title": "Yen crossed below 153 intraday; intervention attribution remains open",
+    "domain": "JAPAN_BOJ",
+    "cluster": "ASIA_CHINA",
+    "action": [
+      "SAM"
+    ],
+    "info": [
+      "LIQUID",
+      "HENRY",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Bank-of-Japan",
+      "USDJPY",
+      "MOF"
+    ],
+    "confidence": 0.95,
+    "body": "BOJ’s September 8 primary FX sheet records a 152.90 intraday low, followed by 153.80–82 at 17:00 JST. The crossing is confirmed; a sustained sub-153 close is not. BOJ September 4→8 17:00 midpoints imply a calculated 1.59% USD/JPY decline across multiple sessions, not a single-day velocity grade.\n\nMOF’s retrieved monthly index ends August 28. It neither confirms nor excludes a September operation. SAM’s earlier September 2–3 exclusion cannot be extended. Reuters’ short-covering explanations and broker hike odds remain attributed; the borrowing proxy is not observed liquidation. SAM owns mechanism adjudication and the still-unmeasured September 4 JGB discriminator.",
+    "sources": [
+      "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx260908.pdf",
+      "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx260904.pdf"
+    ],
+    "evidence": "research/2026-09-08_verify-yen-news.md",
+    "ask": "SAM: incorporate the additional measured FX move and resolve its driver using dated policy/settlement evidence; retain the distinction between an intraday crossing and a velocity trigger."
+  },
+  {
+    "n": 13,
+    "slug": "texas-conditional-load-pjm-primary-filing",
+    "title": "Texas conditional load milestones and a retrieved PJM filing clarify power headlines",
+    "domain": "POWER_GRID",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "WATT"
+    ],
+    "info": [
+      "VULCAN",
+      "HENRY",
+      "CARL",
+      "AEOLUS",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "ERCOT",
+      "IREN",
+      "Sweetwater",
+      "Soluna",
+      "Kati-1",
+      "PJM",
+      "ER26-3515-000"
+    ],
+    "confidence": 0.9,
+    "body": "IREN’s September 8 issuer release says its existing 2 GW Sweetwater development received conditional Batch Zero Base Load classification. This is not 2 GW newly operating: its first 300 MW gross data-center construction targets Q4 2027. ERCOT’s September 3 notice confirms provisional classifications can fail remaining conditions.\n\nSoluna separately reports the final 14 MW energized at Kati 1, completing 83 MW of Bitcoin hosting. Its 166 MW campus classification remains conditional; the second 83 MW AI/HPC phase is planned.\n\nPJM’s 6,831 MW backstop is a July 31 proposal already in WATT knowledge. The actual August 13 IRAS filing ER26-3515-000 is now retrieved, closing KB-WATT-102’s primary-source gap: requested effective October 12; service availability June 1, 2027. No approval order retrieved. EIA’s September 3 article reports August 22 weekly-average load 74.5 GW and August 29 73.7 GW; the July 22 hourly record is a different statistic and old event.",
+    "sources": [
+      "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04",
+      "https://smb.americanpress.com/article/IRENs-2GW-Sweetwater-Hub-Included-as-Base-Load-in-ERCOT-Batch-Zero/6a9feb9806b0f49a92996986",
+      "https://www.solunacomputing.com/news/kati-1-completion/",
+      "https://www.pjm.com/pjmfiles/directory/etariff/FercDockets/9827/20260813-er26-3515-000.pdf",
+      "https://www.eia.gov/TODAYINENERGY/detail.php?id=68084"
+    ],
+    "evidence": "research/2026-09-08_verify-power-news.md",
+    "ask": "WATT: integrate the provisional Texas milestones and primary IRAS citation; preserve proposal-versus-order and authorized-versus-operating distinctions."
+  },
+  {
+    "n": 14,
+    "slug": "copper-record-outside-us-inventory-split",
+    "title": "Copper reaches $14,703 as inventories concentrate in the United States",
+    "domain": "METALS",
+    "cluster": "INFLATION_TRANSMISSION",
+    "action": [
+      "MIDAS"
+    ],
+    "info": [
+      "LIQUID",
+      "HENRY",
+      "BOND",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Copper",
+      "LME",
+      "COMEX",
+      "SHFE"
+    ],
+    "confidence": 0.85,
+    "body": "Reuters reports September 8 LME three-month copper at $14,703/metric ton in official open-outcry trading, up 1.3% and a new record. It reports COMEX stocks at 766,795 short tons (695,624 metric tons) as of September 4, versus falling LME and SHFE inventories.\n\nReuters attributes the geographic split to metal moving into the U.S. ahead of anticipated refined-copper tariffs, alongside weak mine supply and AI demand expectations. This is a wire report; exchange inventory files were not independently rebuilt. A geographic shortage and global end-demand acceleration are different hypotheses. Do not relabel this observation a settlement or a synchronized global inventory collapse.",
+    "sources": [
+      "https://www.brecorder.com/news/amp/40438491"
+    ],
+    "ask": "MIDAS: reconcile the dated exchange inventories and relative pricing against the existing copper read; distinguish geographic diversion from total demand."
+  },
+  {
+    "n": 15,
+    "slug": "panama-a33-postpones-october-draft-cut",
+    "title": "Panama A-33 postpones October draft reduction; 48 feet remains in effect",
+    "domain": "CLIMATE_MACRO",
+    "cluster": "CLIMATE_MACRO",
+    "action": [
+      "AEOLUS"
+    ],
+    "info": [
+      "BRENT",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Panama-Canal-Authority",
+      "A-33-2026",
+      "Gatun-Lake",
+      "Neopanamax"
+    ],
+    "confidence": 0.98,
+    "body": "ACP Advisory A-33-2026, dated September 4, postpones the 47.5-foot Neopanamax draft limit previously scheduled for October 1. The 48.0-foot limit remains until further notice, based on current Gatun Lake level and weather projections.\n\nThis changes AEOLUS’s live October 1 calendar in STATUS and KB-AEO-079. It does not erase earlier restrictions, withdraw the booking-slot caps, or resolve historical AEO-04. Booking slots and realized daily oceangoing transits are separate measurements; no transit-band grade follows from this advisory. Read the PDF’s September 4 date: its extracted document title misleadingly says May 4, 2007.",
+    "sources": [
+      "https://pancanal.com/wp-content/uploads/2026/09/ADV-33-2026-Postponement-of-Maximum-Authorized-Draft-Adjustment-in-the-Neopanamax-Locks.pdf"
+    ],
+    "ask": "AEOLUS: replace the scheduled October 1 draft reduction in the active C5 calendar with postponement until further notice; keep other restrictions and observation bases separate."
+  },
+  {
+    "n": 16,
+    "slug": "mistral-three-billion-euro-equity",
+    "title": "Mistral announces €3 billion equity raise for research and compute expansion",
+    "domain": "FUNDING_LIQUIDITY",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "LIQUID"
+    ],
+    "info": [
+      "VULCAN",
+      "BROCK",
+      "HENRY",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Mistral",
+      "Samsung-Electronics",
+      "EQT",
+      "PSG-Equity"
+    ],
+    "confidence": 0.94,
+    "body": "Mistral announced September 8 that it raised €3 billion in Series D equity at a post-money valuation above €21 billion. Samsung Electronics led, with Scaleup Europe Fund managed by EQT and PSG Equity co-leading. The issuer says proceeds expand frontier research, compute infrastructure and its commercial footprint.\n\nThis is evidence of equity capital availability for one AI company, not a realized spending schedule, debt issuance, sector-wide profitability, or verified customer economics. The funding mechanism belongs with LIQUID; VULCAN receives the capex-sustainability context. Issuer release read directly; no independent use-of-proceeds audit.",
+    "sources": [
+      "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    ],
+    "ask": "LIQUID: incorporate the equity-funded capital-availability observation with its company-specific scope."
+  },
+  {
+    "n": 17,
+    "slug": "asml-tsmc-high-na-mask-roadmap",
+    "title": "ASML–TSMC larger-mask roadmap targets 2031 pilots and 2033 readiness",
+    "domain": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "VIOLET",
+      "HENRY",
+      "WATT",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "ASML",
+      "TSMC",
+      "High-NA-EUV"
+    ],
+    "confidence": 0.95,
+    "body": "TSMC’s September 8 release announces an ASML–TSMC initiative formed September 7 to develop 12-inch photomasks for High NA EUV. Pilot capability targets 2031 and system readiness for advanced-node production targets 2033.\n\nThe companies expect larger masks to improve productivity and address stitching constraints. These are development targets and expected benefits, not demonstrated near-term wafer-output gains. Current adoption begins with six-inch masks. The new roadmap belongs on the technology horizon; it does not relieve 2026 memory or packaging bottlenecks by itself.",
+    "sources": [
+      "https://pr.cld.tsmc.com/english/news/3338"
+    ],
+    "ask": "VULCAN: incorporate the dated long-horizon technology roadmap without converting it into present capacity relief."
+  },
+  {
+    "n": 18,
+    "slug": "kbra-manager-resilience-dispersion",
+    "title": "KBRA finds resilient asset managers with concentrated weak spots and redemption pressure",
+    "domain": "PRIVATE_CREDIT",
+    "cluster": "PC_STRESS",
+    "action": [
+      "BROCK"
+    ],
+    "info": [
+      "SHADE",
+      "LIQUID",
+      "REGINALD",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "KBRA",
+      "Private-Credit",
+      "Alternative-Asset-Managers"
+    ],
+    "confidence": 0.92,
+    "body": "KBRA’s September 8 release summarizes Q2 performance across its roughly 70 rated asset managers and listed North American/European alternatives. AUM and fee-paying AUM were generally constructive; credit-fund performance remained broadly resilient within its coverage. It identifies pronounced dispersion, concentrated software/older-PE/office/infrastructure weaknesses, and greater liquidity-management pressure in redemption-eligible wealth products.\n\nThis supplies both resilience evidence and a distributional warning. Manager AUM and earnings are not underlying borrower nonaccrual rates. The release does not measure BROCK’s registered nonaccrual threshold or prove that gated products are healthy. Source scope: public release and its stated rated universe, not the full underlying proprietary portfolio dataset.",
+    "sources": [
+      "https://www.kbra.com/publications/HWpgBYFw/kbra-releases-research-private-credit-asset-managers-2q26-performance-recap-relatively-resilient-but-dispersion-in-performance-pronounced?format=web"
+    ],
+    "ask": "BROCK: incorporate the coverage-limited counterevidence alongside product-level redemption stress; preserve the manager-versus-borrower measurement boundary."
+  },
+  {
+    "n": 19,
+    "slug": "cboe-september8-skew-resets-ft10",
+    "title": "Published September 8 Cboe SKEW 148.86 resets FT-10 run to zero",
+    "domain": "MARKET_VOL",
+    "cluster": "POSITIONING_VALUATION",
+    "action": [
+      "RED",
+      "VIOLET"
+    ],
+    "info": [
+      "HENRY",
+      "LIQUID",
+      "PROME"
+    ],
+    "entities": [
+      "Cboe",
+      "SKEW",
+      "RED-FT-10"
+    ],
+    "confidence": 0.99,
+    "body": "The Cboe publisher CSV retrieved at WALTER’s September 8 evening boot contains the September 8 SKEW bar at 148.86. Under the registered four-consecutive-session threshold above 150, the prior two-session run resets to 0/4; FT-10 is NOT FIRED. This closes the missing-bar state carried earlier in SIG-W-20260908-010.\n\nThe prior mirror-census correction survives unchanged; the missing observation became available later. No replacement Yahoo series is used. Saved full CSV contains 9,222 data rows; source hash and dated extraction are retained in the boot receipt. RED remains the threshold owner. Earliest possible new four-session completion is no longer September 9.",
+    "sources": [
+      "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv"
+    ],
+    "evidence": "outbox/2026-09-08_evening-boot-skew-receipt.json",
+    "ask": "RED and VIOLET: integrate the now-published primary bar and reset the live FT-10 consecutive-session watch; retain the separate census correction."
+  },
+  {
+    "n": 20,
+    "slug": "china-august-trade-nominal-growth",
+    "title": "China August exports rise 25% in nominal dollars; volumes not established",
+    "domain": "TARIFF_TRADE",
+    "cluster": "ASIA_CHINA",
+    "action": [
+      "ZHAO"
+    ],
+    "info": [
+      "CARL",
+      "HENRY",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "China",
+      "GACC",
+      "August-2026-Trade"
+    ],
+    "confidence": 0.86,
+    "body": "AP’s September 8 report gives August exports up 25% year over year, imports up 28.2%, and a $119.1 billion surplus. Caixin corroborates the dollar figures, reporting the surplus as $119.09 billion. These are nominal U.S.-dollar values, not physical shipment volumes.\n\nThe AP article was available as indexed text; direct opens failed. The GACC table could not be retrieved in the bounded check. This is corroborated reporting of the release, not direct-primary verification. No matching new release found in ZHAO’s scoped Markdown/TSV search. Export strength does not by itself establish a broad domestic-demand recovery.",
+    "sources": [
+      "https://apnews.com/article/77c208d1f62270bba66b8241b1b14a4c",
+      "https://economy.caixin.com/m/2026-09-08/102482752.html"
+    ],
+    "evidence": "research/2026-09-08_verify-china-news.md",
+    "ask": "ZHAO: integrate the August nominal trade release and reconcile to GACC when reachable; separate valuation, composition and volume effects."
+  },
+  {
+    "n": 21,
+    "slug": "china-japan-dcs-provisional-deposits",
+    "title": "China imposes provisional deposits on Japanese dichlorosilane imports",
+    "domain": "TARIFF_TRADE",
+    "cluster": "ASIA_CHINA",
+    "secondary": "AI_INFRA_CAPEX",
+    "action": [
+      "ZHAO"
+    ],
+    "info": [
+      "VULCAN",
+      "SAM",
+      "CARL",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "MOFCOM",
+      "Dichlorosilane",
+      "Shin-Etsu",
+      "Denal-Silane"
+    ],
+    "confidence": 0.98,
+    "body": "MOFCOM Announcement 37, published September 7, establishes provisional anti-dumping deposits effective September 8 on Japan-origin dichlorosilane imported into China: 99.2% for Shin-Etsu and other Japanese producers; 80.8% for Denal Silane. The numbered ministry announcement was opened directly.\n\nThis is a Chinese import measure against a Japanese semiconductor input, not a Chinese export restriction, final duty determination, or blanket import ban. The announcement establishes legal terms; this check does not measure downstream inventory, substitutions or fab-output losses.",
+    "sources": [
+      "https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/art/2026/art_89051f27ba814b4a97271861d47b39b5.html"
+    ],
+    "evidence": "research/2026-09-08_verify-china-news.md",
+    "ask": "ZHAO: incorporate the effective provisional import measure and assess its input-supply exposure; preserve direction, producer-specific rates and preliminary status."
+  },
+  {
+    "n": 22,
+    "slug": "saratov-september8-fire-report",
+    "title": "September 8 Saratov refinery fire reported; incremental outage unverified",
+    "domain": "GEOPOL_ENERGY",
+    "cluster": "HYDROCARBON_INFRA",
+    "action": [
+      "OSPREY"
+    ],
+    "info": [
+      "BRENT",
+      "HAWK",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Saratov",
+      "Rosneft",
+      "ASTRA"
+    ],
+    "confidence": 0.78,
+    "body": "Kyiv Independent dates a reported refinery drone attack and fire to overnight September 8, using local footage and ASTRA analysis. Meduza reports governor-attributed city damage and injuries, but that is not operator confirmation of a refinery outage. Indexed article text was available; direct page opens and operator-primary verification were not obtained.\n\nOSPREY already holds the July shutdown and August 9 re-strike; a fresh restart was not authenticated. A new attack report does not establish additional barrels offline. No damaged-unit identity, incremental throughput loss or duration is established. This belongs in the refining channel, not a confirmed crude-production loss tally.",
+    "sources": [
+      "https://kyivindependent.com/ukrainian-drones-reportedly-strike-saratov-oil-refinery-fire-reported/",
+      "https://meduza.io/en/news/2026/09/08/ukrainian-drones-attack-russia-s-saratov-damaging-homes-and-injuring-10"
+    ],
+    "evidence": "research/2026-09-08_verify-other-energy.md",
+    "ask": "OSPREY: reconcile the new dated attack report against prior operating status before adding any incremental loss."
+  },
+  {
+    "n": 23,
+    "slug": "dangote-expansion-2029-refining-recovery",
+    "title": "Dangote expansion targets 2029; CEO warns refining recovery may outlast the war",
+    "domain": "OIL_ENERGY",
+    "cluster": "HYDROCARBON_INFRA",
+    "action": [
+      "BRENT"
+    ],
+    "info": [
+      "HAWK",
+      "HENRY",
+      "CARL",
+      "RED",
+      "PROME"
+    ],
+    "entities": [
+      "Dangote",
+      "David-Bird",
+      "Nigeria"
+    ],
+    "confidence": 0.85,
+    "body": "Reuters’ September 7 expansion report says IPO documents disclose a $14.3 billion project targeting 1.4 million b/d by 2029 from 700,000 b/d. The Reuters relay opened successfully; the prospectus itself was not retrieved. Future capacity is not current supply relief.\n\nA September 8 Reuters interview separately attributes to CEO David Bird a warning that fuel shortages could outlast the war because maintenance, damage and inventory rebuilding delay recovery. His reported full-700,000-b/d operation is an executive claim, not independently observed throughput. The interview was available as indexed text; direct opening failed. Treat the warning as a commercially interested forecast, not a measured future deficit.",
+    "sources": [
+      "https://www.marketscreener.com/news/latest/Nigeria-s-Dangote-refinery-plans-14-billion-expansion-as-it-signs-IPO-documents-11864346/",
+      "https://www.marketscreener.com/news/dangote-expects-fuel-shortages-beyond-iran-war-as-it-spurs-expansion-ce785bd8dc81f12d"
+    ],
+    "evidence": "research/2026-09-08_verify-other-energy.md",
+    "ask": "BRENT: incorporate the dated expansion target and attributed refinery-recovery warning; keep announced capacity separate from verified current supply."
+  }
+]

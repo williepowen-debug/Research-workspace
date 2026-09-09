@@ -6,6 +6,12 @@ Session: 2026-09-08 Tuesday; authorized Codex owner implementation under PROME. 
 
 Earlier pending-commit statements below are historical: implementation 7291317ec is on origin/master and the 33 delivery rows are reconciled. FT10 September 8 is now published: 148.86, reset to 0/4, NOT FIRED. Current boot evidence and scope limits: `outbox/2026-09-08_evening-boot.md`. This is a startup continuation; existing design decisions remain unchanged.
 
+## Evening news continuation — Tier1 light
+
+Will requested a fleet news catch-up. Briefing: `outbox/2026-09-08_news-catchup.md`; headline audit records every166 feed item and explicitly separates body-verified evidence from held leads. Supplemental batch4/4.13 new BOARD signals011–023,42 create-only handoffs; BOARD914. Three verifier workers handled five bounded subject reports. No external messages, owner grades or trade changes. Local changes await a clean coordinated push; foreign PROME work prevents sync. Full design carry below retained.
+
+Follow-up specific to this continuation: recipient integration of011–023; FALCON/BRENT asset-level Saudi loss; OSPREY Saratov restart/incremental loss; broad Iran primary sweep; WATT post23:59ET authority outcome. Runtime live/dark state unavailable, no doorbell inference. Signal019 closes missing September8 SKEW bar, and010 is PARTIALLY-SUPERSEDED only on that watch; census correction survives.
+
 ## STATUS
 IMPLEMENTED IN WORKING TREE; durability and recipient integration pending. BOARD891→901,10dispatches (3new correction signals),33dispatch handoffs plus2implementation NOTES. Initial active inbox7+2lateHAWK=9 consumed/filed, all lanes empty at census (scaffolds excluded). Intake BM-20260908-01 CLOSED15/15:4DISPATCH inputs→3signals,4DUP,2FOLD,4NO-ACTION(including1held/paywalled),1KILL. One verifier with2bounded assignments; verification advice consumed, not mistaken for routing. No trades/external sends/new thresholds/probability/band changes.
 
@@ -21,7 +27,7 @@ IMPLEMENTED IN WORKING TREE; durability and recipient integration pending. BOARD
 
 ## GAPS
 -Commit/push is explicitly withheld for PROME serialization;33handoffs remain written_not_delivered_pending_push. After push run existing delivery reconciler; recipient consumption needs recipient receipts. No manufactured Claude authorship for Codex work.
--Cboe9/8bar not obtained: webCSV unsupported; shell DNS Errno-3. Saved parent Cboe tail ends9/4. Last establishedFT10run2/4; neither advance nor reset missing9/8. September9earliest possible completion. PJM final post9/8 23:59ET outcome still pending; WATT’s7clear-day rule not graded early.
+-RESOLVED Cboe9/8 retrieval at evening boot:148.86 resetsFT10to0/4; signal019 prepared for owners. PJM final post9/8 23:59ET outcome still pending; WATT’s7clear-day rule not graded early.
 -HANS6daily scan has quote/settle and storage-gap limits; no14-rowall-clear. Broad Iran primary re-verification remains owed before Iran dispatch; owner-artifact reconciliation is not a full sweep. New premiums/transit/cargo-loss not established.
 -TrinityWARNprimary/date conflicts and AppleNAND/Citi contract details inaccessible; paywalled historicalABS held, no new project. CanadaSORregistration unknown; notice-based owner verdict is not a registration-ID receipt.
 -ExistingLOW historical consume-declaration gaps are not retro-certified by this session; legacy entity gaps and stale roster-date hints retained. Read-cap check has heuristic perimeter, not exhaustive READS coverage.

@@ -909,3 +909,16 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-09-08T21:29:12Z	SIG-W-20260908-008	PROME source lead verified	September 8 WAL close 79.94 remains below the registered exit	PRIORITY	REGINALD, TERRY	HENRY, LIQUID, RED, PROME	0.85
 2026-09-08T21:33:29Z	SIG-W-20260908-009	PROME source lead verified	Trinity reports 557 IT positions affected; net job loss and exact dates unresolved	ROUTINE	LABOR	CARL, RED, PROME	0.75
 2026-09-08T21:34:57Z	SIG-W-20260908-010	PROME source lead verified	SKEW mirror defect census supersedes 0.79%; missing September 8 bar stays ungraded	ROUTINE	VIOLET, HENRY, LIQUID, RED	PROME	0.9
+2026-09-09T00:50:50Z	SIG-W-20260908-011	Will-requested September 8 news catch-up	September 8 Saudi attacks: energy operations interrupted; loss magnitude unresolved	PRIORITY	FALCON,BRENT	HAWK,CARL,RED,PROME	0.82
+2026-09-09T00:50:50Z	SIG-W-20260908-012	Will-requested September 8 news catch-up	Yen crossed below 153 intraday; intervention attribution remains open	PRIORITY	SAM	LIQUID,HENRY,RED,PROME	0.95
+2026-09-09T00:50:50Z	SIG-W-20260908-013	Will-requested September 8 news catch-up	Texas conditional load milestones and a retrieved PJM filing clarify power headlines	PRIORITY	WATT	VULCAN,HENRY,CARL,AEOLUS,RED,PROME	0.9
+2026-09-09T00:50:50Z	SIG-W-20260908-014	Will-requested September 8 news catch-up	Copper reaches $14,703 as inventories concentrate in the United States	PRIORITY	MIDAS	LIQUID,HENRY,BOND,RED,PROME	0.85
+2026-09-09T00:50:50Z	SIG-W-20260908-015	Will-requested September 8 news catch-up	Panama A-33 postpones October draft reduction; 48 feet remains in effect	PRIORITY	AEOLUS	BRENT,RED,PROME	0.98
+2026-09-09T00:50:50Z	SIG-W-20260908-016	Will-requested September 8 news catch-up	Mistral announces €3 billion equity raise for research and compute expansion	PRIORITY	LIQUID	VULCAN,BROCK,HENRY,RED,PROME	0.94
+2026-09-09T00:50:50Z	SIG-W-20260908-017	Will-requested September 8 news catch-up	ASML–TSMC larger-mask roadmap targets 2031 pilots and 2033 readiness	PRIORITY	VULCAN	VIOLET,HENRY,WATT,RED,PROME	0.95
+2026-09-09T00:50:50Z	SIG-W-20260908-018	Will-requested September 8 news catch-up	KBRA finds resilient asset managers with concentrated weak spots and redemption pressure	PRIORITY	BROCK	SHADE,LIQUID,REGINALD,RED,PROME	0.92
+2026-09-09T00:50:50Z	SIG-W-20260908-019	Will-requested September 8 news catch-up	Published September 8 Cboe SKEW 148.86 resets FT-10 run to zero	PRIORITY	RED,VIOLET	HENRY,LIQUID,PROME	0.99
+2026-09-09T00:50:50Z	SIG-W-20260908-020	Will-requested September 8 news catch-up	China August exports rise 25% in nominal dollars; volumes not established	PRIORITY	ZHAO	CARL,HENRY,RED,PROME	0.86
+2026-09-09T00:50:50Z	SIG-W-20260908-021	Will-requested September 8 news catch-up	China imposes provisional deposits on Japanese dichlorosilane imports	PRIORITY	ZHAO	VULCAN,SAM,CARL,RED,PROME	0.98
+2026-09-09T00:55:08Z	SIG-W-20260908-022	September8 energy verification	September 8 Saratov refinery fire reported; incremental outage unverified	PRIORITY	OSPREY	BRENT,HAWK,RED,PROME	0.78
+2026-09-09T00:55:08Z	SIG-W-20260908-023	September8 energy verification	Dangote expansion targets 2029; CEO warns refining recovery may outlast the war	PRIORITY	BRENT	HAWK,HENRY,CARL,RED,PROME	0.85

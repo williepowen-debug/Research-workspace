@@ -14,6 +14,8 @@ confidence: 0.9
 confidence_language: confirmed
 confidence_note: Confidence applies only to the verified observations with their stated scope; forecasts and missing observations are not graded facts.
 signal_type: correction
+status: PARTIALLY-SUPERSEDED
+status_ref: SIG-W-20260908-019 — September8 bar now published; missing-bar watch superseded, census correction survives
 corrects: SIG-W-20260903-001
 corrects_direction: WEAKENS the old window-rate claim; HOLDS Cboe grading basis and missing-bar discipline.
 verdict: SKEW mirror defect census supersedes 0.79%; missing September 8 bar stays ungraded

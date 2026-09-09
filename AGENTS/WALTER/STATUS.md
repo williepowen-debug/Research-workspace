@@ -1,10 +1,12 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-08 (Tue) — Codex owner implementation, Tier-2 full. BOARD891→901;10 dispatches (3 new correction signals),1 kill,4 duplicates,2 folds,1 batch15/15 CLOSED. One Phase1.5 verifier, two bounded assignments,15/15 inputs covered. Initial inbox7 plus2 late HAWK packets consumed/filed; active0 at this write. Earlier implementation committed on origin; evening boot reconciliation saved locally, push deferred while foreign work is dirty. No external sends.
+**Latest continuation:** September8 evening, Tier1 light news closeout;13 additional signals,42 handoffs,166+4 inputs accounted for. Local commit, no sync while foreign work is dirty.
+
+**Earlier full session:** 2026-09-08 (Tue) — Codex owner implementation, Tier-2 full. BOARD891→901;10 dispatches (3 new correction signals),1 kill,4 duplicates,2 folds,1 batch15/15 CLOSED. One Phase1.5 verifier, two bounded assignments,15/15 inputs covered. Initial inbox7 plus2 late HAWK packets consumed/filed; active0 at this write. Earlier implementation committed on origin; evening boot reconciliation saved locally, push deferred while foreign work is dirty. No external sends.
 
 ## BOTTOM LINE
 
-WALTER booted in Codex on September 8 evening. BOARD 901 reconciles. Earlier owner implementation is committed on origin (7291317ec); 33 pending delivery rows reconciled to delivered, recipient integration still unverified. Cboe September 8 SKEW 148.86 resets FT-10 to 0/4, NOT FIRED. Intake current with zero new breaches. PJM's post-23:59 ET outcome and broader Iran primary re-verification remain pending. Boot receipt: outbox/2026-09-08_evening-boot.md.
+September 8 evening news catch-up completed locally: 166 feed headlines screened plus four supplemental discoveries; thirteen signals011–023,42 create-only handoffs, BOARD914. Both batches CLOSED. Main deltas: Saudi energy interruptions (wire-attributed, incremental loss unknown), yen intraday152.90, copper geographic inventory split, conditional Texas power milestones, Panama A33 postponement, AI funding/roadmap, KBRA dispersion, China trade/import measure, Saratov report and Dangote2029 expansion. FT10 148.86 resets to0/4. Briefing: outbox/2026-09-08_news-catchup.md. Push pending foreign PROME work; recipient delivery/consumption unverified. Broader Iran primary sweep and post23:59ET PJM outcome remain open.
 
 ## LIVE LEVELS AND OWNER CARRIES
 
@@ -15,7 +17,7 @@ WALTER booted in Codex on September 8 evening. BOARD 901 reconciles. Earlier own
 - WAL79.94[9/8 Yahoo saved response],below81.90×3 exit,0/3; priorREGT02 fire holds. XLE64.77 selects existing9/9-open branch; execution pending Will, no new order.008 sent to registered owners.
 - DGS10 4.78 / DFII10 2.43 [prior 9/4 observations]; T5YIFR now 2.34 [9/8 FRED web pull], below FT09 >2.55. No newer DGS10/DFII10 grade asserted here. CREED office12.00[Aug] equals rather than exceeds strict12 threshold; no new fire. HANS6daily scope/source limits in source receipt;14-row all-clear not claimed.
 - PJM007 is interim only; final9/8 23:59ET expiry/extension pending WATT. Canada006 candidate now HAWK-owner CONFIRMED by its late packet; no probability change. HANS→HAWK Qatar date correction registeredCOR-20260908-04; HAWK APPLIED receipt verified.
-- Iran state lives in anchors/IRAN_WAR.md: owner-artifact reconciliation completed, broader primary sweep PARTIAL and owed before Iran dispatch. No Iran-cluster signal newly dispatched.
+- Iran state lives in anchors/IRAN_WAR.md: newSeptember8 Saudi interruption report dispatched011 with explicit anchor_unverified_as_of caveat; broad primary sweep remains PARTIAL. Named assets, incremental barrels and restart status unresolved; no new gate grade.
 
 ## MISSION
 

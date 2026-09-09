@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-08 evening ET",
+  "feed_inputs": 166,
+  "supplemental_inputs": 4,
+  "batches_closed": [
+    "BM-20260909-01",
+    "BM-20260909-02"
+  ],
+  "new_signals": 13,
+  "new_handoffs": 42,
+  "board_total": 914,
+  "doctor_high": 0,
+  "doctor_medium": 1,
+  "doctor_medium_reason": "41 pre-existing unconsumed handoffs older than2days,7ACTION/34INFO",
+  "read_cap": "0 over-budget in heuristic9-file perimeter; routing table at rotation advisory",
+  "git_diff_check": "passed",
+  "delivery": "local commit pending origin sync; foreign PROME work dirty",
+  "limitations": [
+    "headline census is not full-article verification",
+    "Saudi and Saratov incremental operating loss unverified",
+    "GACC monthly source table not reached",
+    "broad Iran primary sweep remains partial",
+    "domain runtime live/dark unknown",
+    "PJM post23:59ET outcome not yet graded"
+  ],
+  "weekday_check": "passed",
+  "ledger_nudge": "no live workbook ledgers in declared checker scope",
+  "orphan_check": "own packets included; foreign HAWK/PROME paths excluded",
+  "consumer_check": "2/4 broad scan includes unrelated scores, dates and historical rows; same-series VIOLET and PROME already receive019. Four self red hits are historical unrelated records, retained."
+}
