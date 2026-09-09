@@ -1,0 +1,40 @@
+{
+  "previous_close_accepted_without_quote_date": {
+    "USO": {
+      "price": 101.0,
+      "prev": 101.0,
+      "chg": 0.0
+    }
+  },
+  "single_metric_live_success": {
+    "rc": 0,
+    "output": "\n========================================================================\n  BRENT EIA Weekly Monitor \u2014 2026-09-09 12:07\n========================================================================\n\n  Source: \ud83d\udfe2 LIVE (EIA v2 API)\n  Week ending:   unknown\n  Released:      LIVE pull (EIA v2 API)\n\n  HEADLINE METRICS\n  ----------------------------------------------------------------\n  \ud83d\udd34 Refinery util:      98.0%                     \u2014 >95.0% \u2014 crack spread squeeze territory\n\n  PATH B TRIGGER STATUS (demand destruction)\n  ----------------------------------------------------------------\n  Trigger #2 (Gas YoY \u2264 -5%):  \u26aa not fired\n  Cushing < 20M:               \u26aa UNGRADED \u2014 no Cushing reading in this pull. NOT a 'not breached': the datum is absent, so no verdict exists.\n\n  NOTE: LIVE pull via EIA v2 API (FORGE eia_fetch). Cross-check Cushing vs the FORGE dashboard.\n\n"
+  },
+  "missing_week_still_computes_yoy": {
+    "gas_yoy_latest": 0.0,
+    "report_date": "LIVE pull (EIA v2 API)"
+  },
+  "actual_latest_local_file": {
+    "file": "demand_destruction/data/eia_2026-09-09.md",
+    "metrics": {}
+  },
+  "old_local_report_shows_fresh_and_live_note": {
+    "rc": 0,
+    "output": "\n========================================================================\n  BRENT EIA Weekly Monitor \u2014 2026-09-09 12:07\n========================================================================\n\n  Source: \ud83d\udfe2 LOCAL (eia_2026-04-15.md, 0d old)\n  Week ending:   2026-04-10\n  Released:      unknown\n\n  HEADLINE METRICS\n  ----------------------------------------------------------------\n  \ud83d\udd34 Refinery util:      98.0%                     \u2014 >95.0% \u2014 crack spread squeeze territory\n\n  PATH B TRIGGER STATUS (demand destruction)\n  ----------------------------------------------------------------\n  Trigger #2 (Gas YoY \u2264 -5%):  \u26aa not fired\n  Cushing < 20M:               \u26aa UNGRADED \u2014 no Cushing reading in this pull. NOT a 'not breached': the datum is absent, so no verdict exists.\n\n  NOTE: LIVE pull via EIA v2 API (FORGE eia_fetch). Cross-check Cushing vs the FORGE dashboard.\n\n"
+  },
+  "cot_boundaries_correct": {
+    "109164": "SPENT",
+    "109165": "NO-VERDICT",
+    "113745": "NO-VERDICT",
+    "118325": "NO-VERDICT",
+    "118326": "NOT-SPENT"
+  },
+  "labor_day_counted_as_trading_day": 2,
+  "outer_bound_not_in_due_scan": {
+    "as_of": "2027-03-07",
+    "conditional": [
+      "BRT-07"
+    ]
+  },
+  "conditional_without_bound_display_crash": "'NoneType' object has no attribute 'group'"
+}

@@ -1,0 +1,18 @@
+{
+  "existing_unit_tests_passed": 12,
+  "calendar_events": 20,
+  "read_budget_bytes": 32550,
+  "whole_file_bytes": {
+    "CLAUDE.md": 32141,
+    "STATUS.md": 31414,
+    "SCRATCH.md": 6863
+  },
+  "BE02_only_relative_link_repair": true,
+  "rotation_checksum_matches": true,
+  "new_report_and_status_markdown_targets_missing": [],
+  "corrections_unreceipted": 0,
+  "orphan_check": "clean",
+  "diff_check": "clean",
+  "ledger_nudge": "FINDINGS; no new lesson, incident verification, mail consumption or registry amendment; retain real dates",
+  "claim_check_advisories": "Inspected: 7/31 sat is a prose verb; generated Sun Jan31 means 2027-01-31, which is Sunday."
+}

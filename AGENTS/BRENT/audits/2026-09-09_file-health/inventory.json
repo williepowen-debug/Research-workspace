@@ -1,0 +1,2922 @@
+[
+  {
+    "path": "2026-07-06_teams-session.md",
+    "bytes": 9892
+  },
+  {
+    "path": "LESSONS.md",
+    "bytes": 10261
+  },
+  {
+    "path": "NEXUS_BRIEF.md",
+    "bytes": 10383
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 32141
+  },
+  {
+    "path": "MEMORY.md",
+    "bytes": 2647
+  },
+  {
+    "path": "SCHEDULED_RUNS.md",
+    "bytes": 8365
+  },
+  {
+    "path": "SCRATCH.md",
+    "bytes": 6322
+  },
+  {
+    "path": "RULINGS.md",
+    "bytes": 49390
+  },
+  {
+    "path": "STATUS.md",
+    "bytes": 31927
+  },
+  {
+    "path": "2026-08-28_session-delivery.md",
+    "bytes": 2921
+  },
+  {
+    "path": "board_log.tsv",
+    "bytes": 312465
+  },
+  {
+    "path": "TRADE.md",
+    "bytes": 6884
+  },
+  {
+    "path": "setups/2026-08-13_P6-eu-storage-crude-transmission-PREREG.md",
+    "bytes": 13412
+  },
+  {
+    "path": "setups/2026-09-08_market-docket-owner-read.md",
+    "bytes": 11191
+  },
+  {
+    "path": "setups/2026-08-21_row58-shares-leg-thesis-break-observable.md",
+    "bytes": 25332
+  },
+  {
+    "path": "setups/2026-08-28_regime-verdict-endpoint-reconcile-DR4-rerate.md",
+    "bytes": 32046
+  },
+  {
+    "path": "setups/2026-07-30_LESSONS21a-cooldown-gate-respec-PROPOSAL.md",
+    "bytes": 11496
+  },
+  {
+    "path": "setups/2026-09-07_frame-breaker-adjudication-kylo.md",
+    "bytes": 13779
+  },
+  {
+    "path": "setups/2026-08-17_petroline-ras-tanura-discriminator.md",
+    "bytes": 26446
+  },
+  {
+    "path": "setups/2026-08-02_deploy-gate-v2-premise-audit.md",
+    "bytes": 8570
+  },
+  {
+    "path": "setups/PREREG_20260628_CME_reopen.md",
+    "bytes": 8246
+  },
+  {
+    "path": "setups/2026-08-28_wave3-lane-drain-and-two-preregistrations.md",
+    "bytes": 13766
+  },
+  {
+    "path": "setups/2026-08-04_DEPLOY-PACKET-convex-arm-v3-GATE-LEGS-a-a2-MET.md",
+    "bytes": 13417
+  },
+  {
+    "path": "setups/SPECS_OFFRAMP_ENTRY.md",
+    "bytes": 17063
+  },
+  {
+    "path": "setups/SPECS_GATES.md",
+    "bytes": 14980
+  },
+  {
+    "path": "setups/2026-07-30_offramp-stageA-v3-tanker-question-PROPOSAL.md",
+    "bytes": 16096
+  },
+  {
+    "path": "setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md",
+    "bytes": 10468
+  },
+  {
+    "path": "setups/2026-09-06_opec-q4-grade.md",
+    "bytes": 14465
+  },
+  {
+    "path": "setups/2026-07-29_EIA-wk0724-prereg.md",
+    "bytes": 23443
+  },
+  {
+    "path": "setups/2026-08-13_STEO-vintage-ladder-P1.md",
+    "bytes": 6284
+  },
+  {
+    "path": "setups/2026-08-21_kill-leg2-transit-respec-PROPOSAL-jwc-listing.md",
+    "bytes": 12178
+  },
+  {
+    "path": "setups/2026-07-17_COT-grade-and-FAL02-prereg.md",
+    "bytes": 7351
+  },
+  {
+    "path": "setups/SPECS_TRADE_RULES.md",
+    "bytes": 17286
+  },
+  {
+    "path": "setups/2026-08-04_DEPLOY-GATE-v3-fillability-respec-PROPOSAL.md",
+    "bytes": 16872
+  },
+  {
+    "path": "setups/2026-08-12_35b-COT-successor-band-N1-build.md",
+    "bytes": 10818
+  },
+  {
+    "path": "setups/2026-08-21_uso-135c-roll-card.md",
+    "bytes": 16095
+  },
+  {
+    "path": "setups/2026-09-08_cleanup-report.md",
+    "bytes": 5610
+  },
+  {
+    "path": "setups/2026-08-04_EIA-wk0731-prereg.md",
+    "bytes": 11909
+  },
+  {
+    "path": "setups/2026-08-04_DEPLOY-PACKET-convex-arm-STAGED-PRECLOSE.md",
+    "bytes": 13582
+  },
+  {
+    "path": "inbox/2026-09-08_from-OSPREY_downgrade-path-IN-FORCE-Will-9-8-you-have-until-9-15-to-object-plus-three-rulings.md",
+    "bytes": 2985
+  },
+  {
+    "path": "scripts/cot_grade.py",
+    "bytes": 8880
+  },
+  {
+    "path": "scripts/render_calendar.py",
+    "bytes": 13477
+  },
+  {
+    "path": "scripts/eia_weekly.py",
+    "bytes": 20357
+  },
+  {
+    "path": "scripts/thresholds.py",
+    "bytes": 29461
+  },
+  {
+    "path": "scripts/BUILD_PLAN.md",
+    "bytes": 7572
+  },
+  {
+    "path": "scripts/boot.py",
+    "bytes": 23851
+  },
+  {
+    "path": "scripts/predictions_due.py",
+    "bytes": 8852
+  },
+  {
+    "path": "scripts/catalyst_countdown.py",
+    "bytes": 4841
+  },
+  {
+    "path": "scripts/refiner_ratios.py",
+    "bytes": 6945
+  },
+  {
+    "path": "scripts/instrument_check.py",
+    "bytes": 73127
+  },
+  {
+    "path": "scripts/lessons_check.py",
+    "bytes": 12230
+  },
+  {
+    "path": "docket/CATALYSTS.tsv",
+    "bytes": 58571
+  },
+  {
+    "path": "docket/FASTOW.md",
+    "bytes": 18211
+  },
+  {
+    "path": "docket/FASTOW_MEMORY.md",
+    "bytes": 28516
+  },
+  {
+    "path": "archive/AUDIT_2026-08-12_self-audit-canonical-surfaces.md",
+    "bytes": 15565
+  },
+  {
+    "path": "archive/STATUS_header_history_thru_2026-09-02.md",
+    "bytes": 7812
+  },
+  {
+    "path": "archive/LAST_COMPLETION_20260813_frozen.md",
+    "bytes": 14536
+  },
+  {
+    "path": "archive/NEXUS_BRIEF_retained_history_thru_2026-08-28.md",
+    "bytes": 35413
+  },
+  {
+    "path": "archive/2026-09-08_owner-writeback-before.json",
+    "bytes": 1246093
+  },
+  {
+    "path": "archive/STATUS_DETAIL_2026-09.md",
+    "bytes": 53431
+  },
+  {
+    "path": "archive/NEXUS_BRIEF_dated_2026-08-28.md",
+    "bytes": 4206
+  },
+  {
+    "path": "archive/AUDIT_2026-08-12b_INCIDENTS-ledger-sweep.md",
+    "bytes": 19123
+  },
+  {
+    "path": "archive/STATUS_dated_2026-09-02.md",
+    "bytes": 6889
+  },
+  {
+    "path": "domain/REFERENCE_TABLES.md",
+    "bytes": 6011
+  },
+  {
+    "path": "domain/HORMUZ_TRANSIT_BASELINE.md",
+    "bytes": 12299
+  },
+  {
+    "path": ".claude/settings.local.json",
+    "bytes": 66
+  },
+  {
+    "path": "thesis/THESIS.md",
+    "bytes": 15033
+  },
+  {
+    "path": "thesis/TIMELINE.md",
+    "bytes": 8865
+  },
+  {
+    "path": "thesis/CHANGELOG.md",
+    "bytes": 149968
+  },
+  {
+    "path": "thesis/PREDICTIONS.tsv",
+    "bytes": 65518
+  },
+  {
+    "path": "thesis/PREDICTIONS_ARCHIVE.md",
+    "bytes": 26378
+  },
+  {
+    "path": "design/JOINT_PROPOSAL_2026-05-05_brent_sections.md",
+    "bytes": 21050
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_superseded_rows_aug2_aug14.md",
+    "bytes": 25616
+  },
+  {
+    "path": "workbook/STATUS_archive_20260803_jul16_jul17_jul21.md",
+    "bytes": 5261
+  },
+  {
+    "path": "workbook/TRADE_OBLIGATIONS.md",
+    "bytes": 15835
+  },
+  {
+    "path": "workbook/STATUS_archive_20260813_convergence_matrix_jul21.md",
+    "bytes": 11494
+  },
+  {
+    "path": "workbook/RECONCILIATION_2026-09-08.json",
+    "bytes": 5378
+  },
+  {
+    "path": "workbook/STATUS_archive_20260802_jul8_jul10_preRearm.md",
+    "bytes": 5134
+  },
+  {
+    "path": "workbook/GROUP_MAP.tsv",
+    "bytes": 1079
+  },
+  {
+    "path": "workbook/STATUS_archive_20260505_preMay20Refresh.md",
+    "bytes": 27253
+  },
+  {
+    "path": "workbook/KB.tsv",
+    "bytes": 93264
+  },
+  {
+    "path": "workbook/STATUS_archive_20260810_jul16_sweeps.md",
+    "bytes": 8822
+  },
+  {
+    "path": "workbook/LEDGER_GLOB",
+    "bytes": 6972
+  },
+  {
+    "path": "workbook/TRADE_CLAUSES.json",
+    "bytes": 13042
+  },
+  {
+    "path": "workbook/STATUS_archive_20260804_jul23_jul24_jul27.md",
+    "bytes": 10982
+  },
+  {
+    "path": "workbook/STATUS_archive_mar1_mar15.md",
+    "bytes": 42729
+  },
+  {
+    "path": "workbook/STATUS_archive_20260807_aug02_1715.md",
+    "bytes": 18005
+  },
+  {
+    "path": "workbook/PILOT_STATE_REPLACEMENT_MEASUREMENT.md",
+    "bytes": 11099
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_header_prior_stamps.md",
+    "bytes": 6059
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_standing_blocks_aug4_aug13.md",
+    "bytes": 11924
+  },
+  {
+    "path": "workbook/STATUS_archive_20260827_dated_history_cut.md",
+    "bytes": 26587
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_summary_priors_jul23_jul28.md",
+    "bytes": 7252
+  },
+  {
+    "path": "workbook/LESSONS_INDEX.tsv",
+    "bytes": 8413
+  },
+  {
+    "path": "workbook/STATUS_archive_20260626_preJun26Trim.md",
+    "bytes": 7128
+  },
+  {
+    "path": "workbook/SCHEMA.tsv",
+    "bytes": 2075
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_aug2_aug10_narrative_blocks.md",
+    "bytes": 62499
+  },
+  {
+    "path": "workbook/STATUS_archive_20260828_session_rows.md",
+    "bytes": 33515
+  },
+  {
+    "path": "workbook/VX.tsv",
+    "bytes": 11583
+  },
+  {
+    "path": "workbook/STATUS_archive_20260504_postProjectFreedomDay.md",
+    "bytes": 19058
+  },
+  {
+    "path": "workbook/NEXUS_BRIEF_archive_2026-08-14.md",
+    "bytes": 5236
+  },
+  {
+    "path": "workbook/STATUS_archive_20260817_jul27_dashboard.md",
+    "bytes": 8258
+  },
+  {
+    "path": "workbook/CLEANUP_VERIFICATION.json",
+    "bytes": 3785
+  },
+  {
+    "path": "workbook/REGISTRY.tsv",
+    "bytes": 79715
+  },
+  {
+    "path": "workbook/README.md",
+    "bytes": 5568
+  },
+  {
+    "path": "workbook/STATUS_archive_20260429_preApr29Refresh.md",
+    "bytes": 19250
+  },
+  {
+    "path": "workbook/STATUS_archive_20260828_dated_history_wave2.md",
+    "bytes": 89714
+  },
+  {
+    "path": "workbook/STATUS_archive_20260503_preMay4Refresh.md",
+    "bytes": 16081
+  },
+  {
+    "path": "workbook/STATUS_archive_20260804_jul28_jul31.md",
+    "bytes": 37218
+  },
+  {
+    "path": "workbook/STATUS_archive_20260716_preRearmBanners.md",
+    "bytes": 24255
+  },
+  {
+    "path": "workbook/STATUS_archive_20260325.md",
+    "bytes": 5756
+  },
+  {
+    "path": "workbook/NEXUS_BRIEF_archive_20260821_correction_banners.md",
+    "bytes": 36120
+  },
+  {
+    "path": "workbook/STATUS_archive_20260401.md",
+    "bytes": 1783
+  },
+  {
+    "path": "workbook/NEXUS_BRIEF_archive_20260804_aug03_block.md",
+    "bytes": 28809
+  },
+  {
+    "path": "workbook/FLOW.tsv",
+    "bytes": 14624
+  },
+  {
+    "path": "workbook/STATUS_archive_20260821_price_dashboard_jul30.md",
+    "bytes": 6481
+  },
+  {
+    "path": "workbook/STATUS_archive_20260417_preHormuzOpen.md",
+    "bytes": 3054
+  },
+  {
+    "path": "workbook/TRADE_archive_20260821_ordinary_dip_adjudication.md",
+    "bytes": 13626
+  },
+  {
+    "path": "outbox/2026-09-08_intended-paths.txt",
+    "bytes": 2340
+  },
+  {
+    "path": "outbox/2026-09-08_consumer-curve-self.txt",
+    "bytes": 799
+  },
+  {
+    "path": "outbox/2026-09-08_owner-fetch-evidence.json",
+    "bytes": 1923
+  },
+  {
+    "path": "outbox/2026-09-08_new-claims-check.txt",
+    "bytes": 42
+  },
+  {
+    "path": "outbox/2026-09-08_consumer-sidi.txt",
+    "bytes": 6847
+  },
+  {
+    "path": "outbox/2026-09-08_claim-check.txt",
+    "bytes": 354
+  },
+  {
+    "path": "outbox/2026-09-08_calendar-check.txt",
+    "bytes": 177
+  },
+  {
+    "path": "outbox/2026-09-08_boot-check.txt",
+    "bytes": 34748
+  },
+  {
+    "path": "outbox/2026-09-08_orphan-check.txt",
+    "bytes": 1008
+  },
+  {
+    "path": "outbox/2026-09-08_web-source-evidence.json",
+    "bytes": 132918
+  },
+  {
+    "path": "outbox/2026-09-08_owner-validation.json",
+    "bytes": 1869
+  },
+  {
+    "path": "outbox/2026-09-08_corrections-check.txt",
+    "bytes": 244
+  },
+  {
+    "path": "outbox/2026-09-08_consumer-cross.txt",
+    "bytes": 3789
+  },
+  {
+    "path": "outbox/2026-09-08_consumer-self.txt",
+    "bytes": 806
+  },
+  {
+    "path": "outbox/2026-09-08_consumer-curve-cross.txt",
+    "bytes": 3005
+  },
+  {
+    "path": "outbox/2026-09-08_ledger-nudge.txt",
+    "bytes": 373
+  },
+  {
+    "path": "outbox/2026-09-08_read-cap.txt",
+    "bytes": 1151
+  },
+  {
+    "path": "templates/SCRATCH.template.md",
+    "bytes": 1881
+  },
+  {
+    "path": "research/PHASE2_SHORT_PLAYBOOK.md",
+    "bytes": 40717
+  },
+  {
+    "path": "research/2026-09-09_boot.txt",
+    "bytes": 17068
+  },
+  {
+    "path": "research/2026-09-09_boot.md",
+    "bytes": 4488
+  },
+  {
+    "path": "demand_destruction/HAMILTON.md",
+    "bytes": 17410
+  },
+  {
+    "path": "demand_destruction/TRANSITION_MATRIX.md",
+    "bytes": 20027
+  },
+  {
+    "path": "demand_destruction/ANALOGS.md",
+    "bytes": 41165
+  },
+  {
+    "path": "demand_destruction/HOARDING.md",
+    "bytes": 19569
+  },
+  {
+    "path": "demand_destruction/TRACKER.md",
+    "bytes": 145656
+  },
+  {
+    "path": "demand_destruction/MATRIX_REVIEW.md",
+    "bytes": 12396
+  },
+  {
+    "path": "refinery_damage/INCIDENTS.tsv",
+    "bytes": 70423
+  },
+  {
+    "path": "refinery_damage/REVERIFICATION_2026-09-08.md",
+    "bytes": 10686
+  },
+  {
+    "path": "registry/corrections_receipts.tsv",
+    "bytes": 82
+  },
+  {
+    "path": "inbox/processed/2026-08-15_from-FALCON_tihamah-mass-casualty-bab-el-mandeb-8-11.md",
+    "bytes": 1802
+  },
+  {
+    "path": "inbox/processed/2026-09-02_from-PROME_canada-counter-tariffs-9-8-corrected-at-the-primary-CA27.6B-three-tiers-338-plus-232-perimeter.md",
+    "bytes": 2252
+  },
+  {
+    "path": "inbox/processed/2026-08-17_from-DAEDALUS_structure-review-13-items-falsifier-registry-lags-your-own-impeachment.md",
+    "bytes": 7711
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_item-7-zero-transit-ladder-check-plus-crowd-hormuz-marks.md",
+    "bytes": 3074
+  },
+  {
+    "path": "inbox/processed/2026-08-23_from-MIDAS_RETRACTION-you-consumed-my-correction-on-day-one-and-I-chased-you-for-nine-days.md",
+    "bytes": 3280
+  },
+  {
+    "path": "inbox/processed/2026-07-28_from-DAEDALUS_architecture-audit-findings.md",
+    "bytes": 6305
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-MARCO_the-85-run-HELD-nine-settles-and-my-series-reproduces-yours-exactly-grades-monday.md",
+    "bytes": 4169
+  },
+  {
+    "path": "inbox/processed/2026-09-02_from-OSPREY_sixth-weekly-decline-3-46-plus-I-was-carrying-your-floating-storage-45pct-high.md",
+    "bytes": 4280
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_row-27-RULED-moneyness-band-adopt-plus-a-second-defect-still-open.md",
+    "bytes": 1987
+  },
+  {
+    "path": "inbox/processed/2026-08-17_from-PROME_WILL-RULED-forum4-19-eia-deimpair-audit-folded-into-your-forward-checks.md",
+    "bytes": 2118
+  },
+  {
+    "path": "inbox/processed/2026-08-18_from-TERRY_the-sizing-rail-you-asked-about-does-not-exist-and-the-gap-is-risk-control-not-size.md",
+    "bytes": 11511
+  },
+  {
+    "path": "inbox/processed/2026-08-16_from-PROME_scheduled-runs-dead-pointer.md",
+    "bytes": 710
+  },
+  {
+    "path": "inbox/processed/2026-08-10_from-PROME_war-theaters-forum-synthesis-crack-not-barrel-window-tenor-and-two-sign-export-warning.md",
+    "bytes": 3864
+  },
+  {
+    "path": "inbox/processed/2026-07-28_from-HAWK_qatar-lng-fm-month-four-five-year-repair-turbine-constrained.md",
+    "bytes": 5139
+  },
+  {
+    "path": "inbox/processed/2026-09-04_from-PROME_Baker-Hughes-9-4-PRE-FETCHED-oil-449-plus-2-BRT-26-fail-line-457-NOT-reached-you-grade.md",
+    "bytes": 1622
+  },
+  {
+    "path": "inbox/processed/2026-07-23_from-OSPREY-via-PROME_cpc-day4-escalation-packet.md",
+    "bytes": 3038
+  },
+  {
+    "path": "inbox/processed/2026-08-06_from-FALCON_chokepoint6-backfilled-falsifier-gradeable.md",
+    "bytes": 3580
+  },
+  {
+    "path": "inbox/processed/2026-07-12_from-DAEDALUS_line158-threshold-fixed.md",
+    "bytes": 1208
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-PROME_row58-thesis-input-ask-USO-shares-exit-observable-BEHIND-todays-grades.md",
+    "bytes": 1154
+  },
+  {
+    "path": "inbox/processed/2026-08-27_from-RED_CHG-042-resolved-freight-ROSE-through-both-crude-fades-premium-reversible-refuted-on-delivered-cost.md",
+    "bytes": 2639
+  },
+  {
+    "path": "inbox/processed/2026-08-10_from-PROME_route_falcon-fatality-ordinality-correction.md",
+    "bytes": 896
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_35b-successor-RULED-all-three-as-recommended-effective-after-8-14.md",
+    "bytes": 4355
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-TERRY_diesel-crack-widened-9pct-while-crude-fell-7pct-entry-gate-moved-away.md",
+    "bytes": 6286
+  },
+  {
+    "path": "inbox/processed/2026-07-25_from-HAWK_gate-fire-asymmetry-double-count-plus-venezuela-offset.md",
+    "bytes": 5249
+  },
+  {
+    "path": "inbox/processed/.gitkeep",
+    "bytes": 0
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260803-002__ACTION__leg-a-tracking-through-the-line-intraday-disclosure-clause-binds.md",
+    "bytes": 6489
+  },
+  {
+    "path": "inbox/processed/PROME_ROUTING_2026-07-12.md",
+    "bytes": 2583
+  },
+  {
+    "path": "inbox/processed/2026-08-03_from-PROME_your-3-cloud-routines-refreshed-RATIFY-plus-registry-born.md",
+    "bytes": 2787
+  },
+  {
+    "path": "inbox/processed/2026-09-03_from-PROME_GATE-BRENT-COT-35B-letter-defects-from-a-blind-read-base-122904-vs-122905-and-SPENT-NO-VERDICT-band-overlap.md",
+    "bytes": 1967
+  },
+  {
+    "path": "inbox/processed/2026-08-02_from-DEWEY_interceptor-inventory-economics.md",
+    "bytes": 4484
+  },
+  {
+    "path": "inbox/processed/2026-08-15_from-FALCON_gate-falcon-001-leg3-FIRED-wc0803-yanbu-routing-leg-owed.md",
+    "bytes": 3137
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-FALCON_jazan-shut-molecule-split-leg3-basis-closed.md",
+    "bytes": 5787
+  },
+  {
+    "path": "inbox/processed/2026-08-28_from-DAEDALUS_P1-read-cap-RULED-your-boot-reads-measured-5-over-budget-3-over-cap.md",
+    "bytes": 3047
+  },
+  {
+    "path": "inbox/processed/2026-08-17_from-DAEDALUS_ledger-staleness-rc-contract-fixed-upstream-your-boot-updated.md",
+    "bytes": 2921
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-TERRY_LEG-B-GRADED-PASS-27pct-on-125-135-plus-two-things-you-should-rule-on.md",
+    "bytes": 8643
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_EU-STORAGE-UNBLOCKED-the-gate-was-the-user-agent-not-a-key.md",
+    "bytes": 2801
+  },
+  {
+    "path": "inbox/processed/2026-07-24_from-OSPREY-via-PROME_cpc-fire-alert.md",
+    "bytes": 4714
+  },
+  {
+    "path": "inbox/processed/2026-08-02_from-PROME_cl-daily-bar-low-artifact-and-denial-timing.md",
+    "bytes": 3477
+  },
+  {
+    "path": "inbox/processed/2026-09-07_from-PROME_WQ-189-192-RULED-stand-down-and-apply-the-SUNK-floor-on-both-surfaces.md",
+    "bytes": 2071
+  },
+  {
+    "path": "inbox/processed/2026-07-25c_from-HAWK_refinery-vs-crude-transmission-ANSWERED-from-russia-theater.md",
+    "bytes": 6079
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-PROME_ledger-glob-RULED-c-plus-a-optin-b-routed-to-DAEDALUS.md",
+    "bytes": 2832
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-TERRY_BOTH-RULINGS-ACCEPTED-125-130-built-but-it-FAILS-leg-b-worst-case-on-the-repull.md",
+    "bytes": 8259
+  },
+  {
+    "path": "inbox/processed/2026-09-07_from-DAEDALUS_architecture-review-14-findings-rule-19-is-your-remedy-plus-one-correction-of-mine.md",
+    "bytes": 8426
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-TERRY_leg-b-will-not-be-regraded-before-fire-and-a-firing-gate-is-not-thesis-confirmation.md",
+    "bytes": 5058
+  },
+  {
+    "path": "inbox/processed/2026-07-29_from-FALCON_co-belligerency-p-strike-answer.md",
+    "bytes": 6586
+  },
+  {
+    "path": "inbox/processed/2026-07-22_from-AEOLUS_bertha-gulf-shutins-muted.md",
+    "bytes": 1535
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-DEWEY_dr4-european-energy-baseline.md",
+    "bytes": 4514
+  },
+  {
+    "path": "inbox/processed/2026-08-28_from-WALTER_bz-endpoint-reconcile-RESOLVED-your-87-84-is-right-and-BZ-F-rolled-this-morning.md",
+    "bytes": 4401
+  },
+  {
+    "path": "inbox/processed/2026-09-05_from-HANS_eu-gas-fires-the-half-you-never-received-ttf-125pct-yoy-storage-lowest-since-2011.md",
+    "bytes": 4013
+  },
+  {
+    "path": "inbox/processed/2026-08-03_from-PROME_leg-b-routed-late-and-my-MARGINAL-verdict-was-wrong-it-passes-on-liquid-strikes.md",
+    "bytes": 5157
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260721-003__INFO__cpc-halt-verified-sized.md",
+    "bytes": 2213
+  },
+  {
+    "path": "inbox/processed/2026-08-22_from-PROME_s338-live-and-new-0908-canadian-counter-tariffs.md",
+    "bytes": 3825
+  },
+  {
+    "path": "inbox/processed/2026-08-27_from-ORACLE_RETRACTION-sigma-scores-from-8-09-withdrawn-entropy-findings-stand-plus-new-live-collapse.md",
+    "bytes": 5013
+  },
+  {
+    "path": "inbox/processed/2026-08-18_from-TERRY_CORRECTION-to-my-sizing-answer-I-aimed-it-at-the-wrong-risk-the-shares-are-UP-7pct.md",
+    "bytes": 4429
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-DAEDALUS_both-ledger-staleness-flags-CONFIRMED-AT-CODE-and-fixed-legend-was-inverted-since-birth.md",
+    "bytes": 1976
+  },
+  {
+    "path": "inbox/processed/2026-06-30_from-PROME_eia-alert-bands-confirm.md",
+    "bytes": 1591
+  },
+  {
+    "path": "inbox/processed/2026-08-07_from-TERRY_correction-leg-b-was-graded-5x-with-TWO-verdicts-not-four.md",
+    "bytes": 4178
+  },
+  {
+    "path": "inbox/processed/2026-09-06_from-PROME_six-rows-first-call-marks-live-only-in-history-plus-the-4-16-re-mark.md",
+    "bytes": 5464
+  },
+  {
+    "path": "inbox/processed/2026-08-09_from-PROME_route_oracle-hormuz-repin-crowd-confirms-v54-plus-forward-throughput-instrument.md",
+    "bytes": 952
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260721-004__INFO__saudi-reroute-premium-datum.md",
+    "bytes": 2298
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-DEWEY_dr5-lng-as-a-target-class.md",
+    "bytes": 3180
+  },
+  {
+    "path": "inbox/processed/2026-07-31_from-PROME_phase2-embed-packet.md",
+    "bytes": 1148
+  },
+  {
+    "path": "inbox/processed/2026-08-02_from-PROME_opec-sept-decision-gaslog-yanbu-oracle-retune.md",
+    "bytes": 2074
+  },
+  {
+    "path": "inbox/processed/2026-08-13_from-PROME_cushing-20M-reactivation-trigger-needs-a-registry-owner.md",
+    "bytes": 1298
+  },
+  {
+    "path": "inbox/processed/2026-08-11_from-PROME_rows-35a-35b-RULED-revert-plus-rebase.md",
+    "bytes": 2449
+  },
+  {
+    "path": "inbox/processed/2026-08-28_from-DAEDALUS_countdown-fork-lacks-fired-row-rule.md",
+    "bytes": 1098
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-PROME_nexus-amendment-10-brief-fold-ordering.md",
+    "bytes": 1572
+  },
+  {
+    "path": "inbox/processed/2026-08-10_from-OSPREY_refining-anchor-superseded-plus-the-export-sign-warning.md",
+    "bytes": 4424
+  },
+  {
+    "path": "inbox/processed/2026-07-17_from-FALCON_fal02-confirmed-85-settle-correction-transit-leg-fired.md",
+    "bytes": 8512
+  },
+  {
+    "path": "inbox/processed/2026-08-23_from-TERRY_all-four-consumed-tenor-mirror-LANDED-as-RISK_RULES-21-and-your-B1-refutation-reordered-the-row58-design.md",
+    "bytes": 9485
+  },
+  {
+    "path": "inbox/processed/2026-07-25_from-PROME_framespec-latent-bug-check-your-frozen-frames.md",
+    "bytes": 2027
+  },
+  {
+    "path": "inbox/processed/2026-07-25_from-PROME_uso-tail-rider-filled.md",
+    "bytes": 1776
+  },
+  {
+    "path": "inbox/processed/2026-08-11_from-MARCO_cc-my-brent-85-threshold-record-was-wrong-not-an-oil-call.md",
+    "bytes": 3640
+  },
+  {
+    "path": "inbox/processed/2026-09-08_from-FALCON_eight-hulls-kuwait-bahrain-port-threat-saudi-product-side.md",
+    "bytes": 3016
+  },
+  {
+    "path": "inbox/processed/2026-08-02_from-PROME_uso-spread-account-RESOLVED-robinhood-will-confirmed.md",
+    "bytes": 874
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260714-001__ACTION__re-score-convergence-matrix.md",
+    "bytes": 1937
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-TERRY_your-16-00-correction-ACCEPTED-and-your-N_eff-is-wrong-in-both-directions.md",
+    "bytes": 4841
+  },
+  {
+    "path": "inbox/processed/2026-06-26_from-RED-via-PROME_structural-decoupling-redteam.md",
+    "bytes": 3598
+  },
+  {
+    "path": "inbox/processed/2026-07-28_from-HAWK_magnitude-no-longer-discriminates-supply-events.md",
+    "bytes": 5021
+  },
+  {
+    "path": "inbox/processed/2026-08-27_from-DEWEY_gie-pull-shipped-owner-wire.md",
+    "bytes": 4677
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260721-001__ACTION__yanbu-declared-zone-vector.md",
+    "bytes": 2963
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-PROME_kill-leg2-respec-RULED-all-three.md",
+    "bytes": 1968
+  },
+  {
+    "path": "inbox/processed/2026-08-05_from-PROME_detached-head-verdict-no-rewrite-shallow-clone-false-fork.md",
+    "bytes": 2194
+  },
+  {
+    "path": "inbox/processed/2026-07-31_from-OSPREY_sheskharis-correction-my-channel-2-read-was-wrong-for-9-days.md",
+    "bytes": 5471
+  },
+  {
+    "path": "inbox/processed/2026-08-14_from-DAEDALUS_canonical-spellings-ADOPT-VERBATIM-class5-shipped.md",
+    "bytes": 2412
+  },
+  {
+    "path": "inbox/processed/2026-09-07_from-FALCON_gate2-FIRED-on-its-letter-kylo-and-your-limb-goes-to-will.md",
+    "bytes": 9244
+  },
+  {
+    "path": "inbox/processed/PROME_ROUTING_2026-07-16_china-demand.md",
+    "bytes": 1561
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_pinned-item-6-crude-instrument-basis-reconcile.md",
+    "bytes": 3366
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-FALCON_enforcement-degradation-raises-P-transit-normalisation-answer.md",
+    "bytes": 11598
+  },
+  {
+    "path": "inbox/processed/2026-08-28_from-PROME_dead-pointer-domain-FRESH_LEG_BASELINE-md-cited-by-TRADE-and-NEXUS_BRIEF.md",
+    "bytes": 2214
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260721-005__INFO__blacksea-warrisk-repricing.md",
+    "bytes": 1789
+  },
+  {
+    "path": "inbox/processed/2026-08-28_from-DAEDALUS_CORRECTION-P1-read-cap-packet-recut-4-over-budget-2-over-cap.md",
+    "bytes": 2532
+  },
+  {
+    "path": "inbox/processed/2026-08-21_from-DAEDALUS_boot-load-plan-review-CONCUR-plus-8-additions-line-anchors-will-dangle.md",
+    "bytes": 6252
+  },
+  {
+    "path": "inbox/processed/PROME_ROUTING_2026-07-11.md",
+    "bytes": 631
+  },
+  {
+    "path": "inbox/processed/2026-08-06_from-will-review_legT-close-basis-1p63-vs-1p68.md",
+    "bytes": 2257
+  },
+  {
+    "path": "inbox/processed/2026-09-08_from-OSPREY_L140-answered-export-print-unreadable-TD6-halved-urals-carry-retired-august-runs-3-8.md",
+    "bytes": 4866
+  },
+  {
+    "path": "inbox/processed/2026-09-01_from-PROME_WQ-112-RULED-latest-dated-machine-field-mark-governs-scoring-apply-to-BRT-26.md",
+    "bytes": 1323
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-TERRY_RULING-ACCEPTED-limit-1.50-set-plus-a-1224-chain-that-reverses-the-leg-b-sequence.md",
+    "bytes": 9450
+  },
+  {
+    "path": "inbox/processed/2026-07-22_from-PROME_war-risk-assigned-and-uso-fill-status.md",
+    "bytes": 1369
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-RED_evidence-for-your-basis-ruling-the-first-ever-superlative-may-fail-on-every-basis.md",
+    "bytes": 5137
+  },
+  {
+    "path": "inbox/processed/2026-07-25_from-WALTER_jazan-gap-base-rate-work-plus-two-pulls-i-could-not-close.md",
+    "bytes": 7378
+  },
+  {
+    "path": "inbox/processed/2026-08-03_from-PROME_ROUTED-to-TERRY-and-your-tenor-flag-caught-my-error-eligible-tenor-is-MARGINAL.md",
+    "bytes": 3891
+  },
+  {
+    "path": "inbox/processed/2026-07-23_from-FALCON_bab-transit-leg1-answer.md",
+    "bytes": 3704
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-PROME_both-packets-consumed-BUT-they-were-in-a-dead-inbox-path-plus-your-asks-executed.md",
+    "bytes": 3176
+  },
+  {
+    "path": "inbox/processed/2026-08-18_from-TERRY_TRY-FIRE-006-hit-its-own-30-day-clause-at-day-32-one-premise-question-for-you.md",
+    "bytes": 4094
+  },
+  {
+    "path": "inbox/processed/2026-08-14_from-SAM_ACCEPTED-the-agsi-feed-parked-not-built-and-one-correction-you-should-not-inherit-from-me.md",
+    "bytes": 4461
+  },
+  {
+    "path": "inbox/processed/2026-08-04_from-PROME_leg-b-verification-plus-a-width-bias-that-penalises-your-own-ruling.md",
+    "bytes": 6281
+  },
+  {
+    "path": "inbox/processed/2026-07-28_from-PROME_fighting-shape-review-9-items.md",
+    "bytes": 8747
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260804-001__INFO__deploy-declined-by-will-standing-arm-runs-to-8-13-expiry.md",
+    "bytes": 2034
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-TERRY_diesel-packet-consumed-gate-owner-proposed-and-the-wait-is-3-weeks-not-1-day.md",
+    "bytes": 5689
+  },
+  {
+    "path": "inbox/processed/2026-09-02_from-PROME_ZHAO-convergence-vector-8-scored-at-Brent-76-carried-at-95-one-line-rescore-or-3-still-right.md",
+    "bytes": 991
+  },
+  {
+    "path": "inbox/processed/2026-08-17_from-DAEDALUS_sfg-sweep-fred-key-warn-dies-on-stderr-plus-boot-note.md",
+    "bytes": 1513
+  },
+  {
+    "path": "inbox/processed/2026-07-30_from-PROME_eia-primary-now-serves-wk724-cushing-1860-vs-relayed-1910.md",
+    "bytes": 1450
+  },
+  {
+    "path": "inbox/processed/2026-07-01_from-PROME_ledger-staleness-cwd-fix.md",
+    "bytes": 2077
+  },
+  {
+    "path": "inbox/processed/2026-09-04_from-PROME_WQ-176-leg-1-CONFIRM-the-400B-condition-summary-for-BRENT-COT-35B.md",
+    "bytes": 1865
+  },
+  {
+    "path": "inbox/processed/2026-08-15_from-PROME_will-rulings-discriminator-commissioned-gie-owner-wire-kharg-lane-naming.md",
+    "bytes": 3052
+  },
+  {
+    "path": "inbox/processed/2026-08-07_from-PROME_DATA-NOTE-crude-cot-aug4-vintage-no-restack-shape-your-adjudication.md",
+    "bytes": 2325
+  },
+  {
+    "path": "inbox/processed/2026-08-07_from-PROME_self-rule-packet-cot-latched-vs-revert.md",
+    "bytes": 1618
+  },
+  {
+    "path": "inbox/processed/2026-08-12_from-PROME_audit-convention-RULED-you-are-first-application.md",
+    "bytes": 2851
+  },
+  {
+    "path": "inbox/processed/2026-08-18_from-TERRY_WILL-RULED-HOLD-on-USO-no-exit-rule-and-the-round-trip-is-accepted-not-a-defect.md",
+    "bytes": 3519
+  },
+  {
+    "path": "inbox/processed/2026-08-24_from-LIQUID_the-hormuz-lagging-tell-graded-and-it-is-blocked-on-the-energy-HY-figure-you-own.md",
+    "bytes": 5047
+  },
+  {
+    "path": "inbox/processed/2026-08-18_from-TERRY_TRY-FIRE-006-RETIRED-by-Will-your-premise-question-is-MOOT-and-the-design-is-preserved.md",
+    "bytes": 3975
+  },
+  {
+    "path": "inbox/processed/2026-08-10_from-OSPREY_addendum-eight-in-ten-relative-lull-and-first-recoverable-share-datum.md",
+    "bytes": 7419
+  },
+  {
+    "path": "inbox/processed/2026-08-14_from-MIDAS_your-CORRELATED-CONFIRM-cell-rests-on-a-number-of-mine-that-was-wrong.md",
+    "bytes": 3660
+  },
+  {
+    "path": "inbox/processed/2026-07-25b_from-HAWK_war-risk-decomposes-on-transit-not-country.md",
+    "bytes": 3662
+  },
+  {
+    "path": "inbox/processed/MSG-PROME-20260803-003__ACTION__vehicle-check-uso-holds-but-your-brent-to-uso-translation-is-static-and-the-basis-is-not.md",
+    "bytes": 5532
+  },
+  {
+    "path": "inbox/processed/2026-07-03_from-DAEDALUS_BATCH03-independence-col.md",
+    "bytes": 1451
+  },
+  {
+    "path": "inbox/processed/2026-09-08_from-PROME_market-reader-results.md",
+    "bytes": 1322
+  },
+  {
+    "path": "inbox/processed/2026-07-26_from-TERRY_diesel-scope-DELIVERED-3-ranked-structures.md",
+    "bytes": 7354
+  },
+  {
+    "path": "inbox/processed/2026-09-08_from-TERRY_XLE-exit-selected-USO-rules.md",
+    "bytes": 1829
+  },
+  {
+    "path": "inbox/processed/2026-08-13_from-TERRY_USOARM-died-at-arm-expiry-unfired-latency-finding-and-a-measured-counterfactual.md",
+    "bytes": 3957
+  },
+  {
+    "path": "inbox/processed/2026-07-23_from-LIQUID_fuel-consumer-hy-availability-and-reframe.md",
+    "bytes": 5359
+  },
+  {
+    "path": "inbox/processed/2026-09-02_from-PROME_the-5131-book-line-is-in-YOUR-CLAUDE-md-not-root-and-your-STATUS-measures-114pct-of-cap.md",
+    "bytes": 1819
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260706-002.md",
+    "bytes": 1502
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-006-a-fourth-jazan-class-strike-was-claimed-8-18-across-three-outlets-and-every-wire-calls-it-the-third-which-means-somebody-is-miscounting.md",
+    "bytes": 9112
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260731-009-irgc-tanker-claim-brent-wti-spread-says-unpriced.md",
+    "bytes": 2412
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-011-the-blockade-redirect-tally-went-12-to-55-in-two-weeks-while-disabled-and-boarded-stayed-at-two-each.md",
+    "bytes": 8371
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-018-a-truncating-read-is-not-neutral-it-drops-the-tail-and-the-tail-is-where-the-exculpatory-clause-lives.md",
+    "bytes": 6923
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260706-012.md",
+    "bytes": 653
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260730-011-rhine-closing-freight-ath.md",
+    "bytes": 882
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-016-hormuz-state-change-cluster-adnoc-tanker-plus-khezrian-plus-rezaei-appointment-institutional-hardening.md",
+    "bytes": 9022
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260702-014.md",
+    "bytes": 508
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-014-the-diesel-crack-has-now-given-back-5-08-from-mondays-record-in-two-sessions-and-the-give-back-is-accelerating.md",
+    "bytes": 6018
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-001.md",
+    "bytes": 4210
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-005-rhine-kaub-july-levels-worse-than-2018-2022-seasonally.md",
+    "bytes": 2173
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-009-api-crude-build-cushing-sign-contradiction.md",
+    "bytes": 1025
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-006-CORRECTION-brent-already-held-it.md",
+    "bytes": 2954
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260906-001-us-opens-an-investigation-into-the-sirik-wedding-strike-and-weapons-experts-read-it-as-a-direct-us-munition-hit.md",
+    "bytes": 8237
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260803-005-velos-amber-resolved-attacked-inside-the-us-designated-corridor-a-branch-i-did-not-register.md",
+    "bytes": 2118
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-020-n5-v1-1-capture-time-clause-adopted-and-the-proposals-own-boundaries-were-wrong-settlement-is-not-session-end.md",
+    "bytes": 12756
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-017-a-recipe-published-in-TIDIED-form-is-not-reproducible-and-a-broken-repro-presents-as-a-disagreement-about-the-world.md",
+    "bytes": 6960
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-042-an-11-7m-otm-vix-call-print-at-spot-18-62-and-that-spot-is-a-FUTURE-vix-cash-closed-14-43.md",
+    "bytes": 4166
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md",
+    "bytes": 8330
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260702-011.md",
+    "bytes": 673
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-009-gap-hitting-fresh-crowded-long.md",
+    "bytes": 1200
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260903-003-live-pjm-capacity-emergency-doe-202c-order-through-9-8-watt-p1-fired-2-to-5-and-the-large-load-clause-is-the-ai-capex-power-leg-made-operational.md",
+    "bytes": 4168
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260719-005.md",
+    "bytes": 1027
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-005-ft-iran-prolonging-not-damaging-frame.md",
+    "bytes": 3479
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260719-008.md",
+    "bytes": 998
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260721-001.md",
+    "bytes": 578
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-006-CORRECTION-oil-shutdown-is-the-mechanism-not-the-gas-leg.md",
+    "bytes": 4069
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260704-003.md",
+    "bytes": 823
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260704-002.md",
+    "bytes": 1122
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260702-005.md",
+    "bytes": 695
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260803-001-trump-says-talks-today-iran-says-they-dont-exist-and-oil-prices-the-deal-anyway.md",
+    "bytes": 1395
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260820-002-centcom-disabled-went-2-to-3-on-8-11-so-hawks-flat-leg-is-not-flat-and-the-replacement-instrument-has-the-same-perimeter-defect-it-was-chosen-to-escape.md",
+    "bytes": 4106
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-013-PROPAGATION-two-live-surfaces-still-carry-my-superseded-86-36-and-my-recipient-lists-could-not-have-found-them.md",
+    "bytes": 7394
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260908-011.md",
+    "bytes": 1720
+  },
+  {
+    "path": "inbox/WALTER/processed/.gitkeep",
+    "bytes": 0
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-012-correction-the-mecca-pact-extends-a-september-2025-agreement-and-the-domain-source-says-it-is-not-nato-style.md",
+    "bytes": 7416
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260731-003-volgograd-lukoil-struck-15mt-cracks-instrument.md",
+    "bytes": 1811
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-006-libya-threat-executed-mellitah-greenstream.md",
+    "bytes": 3714
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-007-sunday-reopen-oil-gap-behavioral-test.md",
+    "bytes": 1365
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260709-004.md",
+    "bytes": 1085
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-016-RESOLVED-the-bls-gate-is-a-UA-denylist-PLUS-an-impersonation-completeness-check-and-i-withdraw-an-unearned-vindication.md",
+    "bytes": 7146
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-015-ship-insurers-restricted-war-cover-for-saudi-red-sea-cargoes-on-7-24-which-is-the-mechanism-under-the-rerouting.md",
+    "bytes": 4969
+  },
+  {
+    "path": "inbox/WALTER/processed/2026-07-19_from-WALTER_red-sea-2024-conflation-correction-NOTE.md",
+    "bytes": 2408
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-016-shell-discloses-pearl-gtl-train-two-damaged-to-q1-2027-and-names-qatarenergys-force-majeure.md",
+    "bytes": 7339
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260815-004-sheskharis-halts-crude-loadings-again-on-8-14-outside-ospreys-own-sweep-window-and-the-halt-is-two-causes-not-one.md",
+    "bytes": 9301
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-016-the-spr-draw-is-a-172-million-barrel-emergency-EXCHANGE-not-a-sale-the-barrels-come-back-with-an-18-24-percent-premium-and-the-window-ends-this-month.md",
+    "bytes": 9761
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-003-jizan-aramco-second-strike-in-15-days-fire-extinguished-no-material-impact-claimed.md",
+    "bytes": 5194
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-004-qatar-lng-force-majeure-fourth-month.md",
+    "bytes": 3639
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260716-002.md",
+    "bytes": 2527
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-021-CORRECTION-the-truncation-bias-does-not-flatter-the-reader-it-sharpens-whatever-finding-was-already-forming.md",
+    "bytes": 5683
+  },
+  {
+    "path": "inbox/WALTER/processed/2026-07-30_from-WALTER_ttf-answer-fragment-NOTE.md",
+    "bytes": 1329
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-015-the-12bn-farm-aid-is-a-component-of-a-95bn-package-that-passed-216-214-and-is-stalled-in-the-senate.md",
+    "bytes": 6427
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-004-gasoline-above-4-dollars-later-in-the-year-than-ever-recorded-while-your-own-tracker-has-it-falling.md",
+    "bytes": 4223
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260831-001-kharg-was-not-struck-the-source-is-an-ai-generated-video-posted-by-the-president-and-FAL-01-does-not-fire.md",
+    "bytes": 10230
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-008-correction-iran-demands-are-six-not-four-and-war-reparations-is-in-the-list-snsc-not-mfa.md",
+    "bytes": 6513
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-006-spr-below-300m-first-since-january-1983.md",
+    "bytes": 3804
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260817-004-windward-says-58pct-of-hormuz-transits-ran-dark-which-is-external-corroboration-of-brents-own-impeachment-and-it-refutes-the-zero-claim.md",
+    "bytes": 6859
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260720-004.md",
+    "bytes": 816
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260818-002-four-instruments-give-0-3-and-12-hormuz-transits-for-the-same-day-and-the-one-the-zero-narrative-rests-on-is-9-days-stale-ais-only-and-self-impeaching.md",
+    "bytes": 11963
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-025.md",
+    "bytes": 4174
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260702-002.md",
+    "bytes": 1607
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260717-013.md",
+    "bytes": 2116
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260826-001-iran-oman-joint-statement-finalised-interim-hormuz-framework-and-crude-gave-back-8pct-in-three-sessions.md",
+    "bytes": 5632
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260710-003.md",
+    "bytes": 934
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-003-sulfur-acid-war-channel-metals-leg.md",
+    "bytes": 1339
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-002-the-record-diesel-crack-is-real-and-is-already-2-84-off-it-and-the-gasoline-crack-collapsed-10-40-the-same-session.md",
+    "bytes": 10831
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260710-001.md",
+    "bytes": 638
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260807-005-correction-the-red-sea-IS-instrumented-i-checked-for-the-events-and-not-for-the-instrument.md",
+    "bytes": 3708
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260725-008.md",
+    "bytes": 3302
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-001-strike-cancellation-deal-parameters-the-monday-tape-is-the-test.md",
+    "bytes": 2334
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260901-005-second-us-strike-wave-on-iran-at-noon-et-makes-it-a-campaign-two-vlccs-hit-by-projectiles-off-khasab-and-the-irgc-mine-claim-is-false-gate-2-does-not-fire.md",
+    "bytes": 9774
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260706-006.md",
+    "bytes": 681
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-025-the-spr-drew-a-fourth-straight-week-and-cushings-rebuild-reversed-the-week-after-brent-rescinded-boundary-3-on-it.md",
+    "bytes": 1294
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-011-goldman-supplies-an-independent-non-official-chinese-refinery-runs-series-a-global-visible-stocks-counter-and-a-yanbu-corroboration.md",
+    "bytes": 8883
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260720-003.md",
+    "bytes": 933
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-013-pause-broken-irgc-missiles-us-base.md",
+    "bytes": 1556
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-006-tehran-denies-deal-parameters-interceptor-restock.md",
+    "bytes": 1378
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260717-015.md",
+    "bytes": 1504
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260904-006-eia-postponed-the-june-petroleum-supply-monthly-past-8-31-on-a-systems-issue-NOT-the-first-time-ever-the-nov-2025-psm-slipped-a-week-in-january-weekly-data-unaffected.md",
+    "bytes": 4457
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-003-a-fifth-hormuz-transit-instrument-appears-bloomberg-ecan-hormuz-reads-zero-and-it-is-the-first-one-with-a-full-daily-history.md",
+    "bytes": 9355
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-007-berri-gas-plant-al-jubail-persian-gulf-strike-hormuz-scoped-geography-first-time-this-cycle.md",
+    "bytes": 8766
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-028-presstv-says-oman-stopped-facilitating-us-escorted-tankers-UNVERIFIED-and-the-anchor-names-the-instrument-that-settles-it.md",
+    "bytes": 2358
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-022-navy-raided-its-own-payroll-to-fund-the-iran-war-and-the-cno-needs-6-8bn-to-stay-solvent.md",
+    "bytes": 2120
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260802-010-pause-is-strikes-only-ukmto-incidents-mou-revival.md",
+    "bytes": 1581
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260728-011-gs-yanbu-loadings-leg3-data-exists.md",
+    "bytes": 1362
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260730-005-ncc-ghazal-second-blockade-enforcement.md",
+    "bytes": 711
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260719-003.md",
+    "bytes": 812
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-019-rank-recipes-by-failure-mode-LOUD-QUIET-PLAUSIBLE-and-fix-the-plausible-ones-because-they-are-what-gets-published.md",
+    "bytes": 9045
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260723-001.md",
+    "bytes": 737
+  },
+  {
+    "path": "inbox/WALTER/processed/2026-08-02_from-WALTER_correction-consumed-all-surfaces-fixed-plus-one-disclosure-NOTE.md",
+    "bytes": 2707
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260908-015.md",
+    "bytes": 1282
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-001-novorossiysk-multi-vector-strike-sheskharis-restruck-cpc-not-reported-hit-crude-refuses-to-price-it.md",
+    "bytes": 10161
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-004-dpa-invoked-sable-pipeline-restart-precedent.md",
+    "bytes": 3691
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-001-saudi-turkey-pakistan-mecca-joint-deterrence-agreement-signed-friday-missed-on-my-day.md",
+    "bytes": 6501
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260730-001-us-resumes-heavy-wave-irgc-targets.md",
+    "bytes": 1537
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-007-the-spr-is-back-to-a-level-it-has-only-ever-been-at-while-being-filled-and-it-is-draining-6-million-barrels-a-week.md",
+    "bytes": 9428
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260717-012.md",
+    "bytes": 1537
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260807-002-first-confirmed-sinking-of-the-campaign-wrong-sea-plus-a-14-nation-coalition-nobody-in-the-fleet-has.md",
+    "bytes": 3982
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-002-al-makha-strike-7-saudi-soldiers-dead-second-major-event-at-this-node-in-five-days.md",
+    "bytes": 5318
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-033-us-crude-days-of-supply-including-the-spr-is-at-a-40-50-year-low.md",
+    "bytes": 1774
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260725-012.md",
+    "bytes": 1392
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260908-022.md",
+    "bytes": 1257
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260822-003-ukraine-hit-the-perm-refinery-1600km-deep-and-it-extends-the-crude-vs-products-mechanism-osprey-already-owns.md",
+    "bytes": 932
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-004-ukraine-three-russian-refineries-in-forty-eight-hours-ilsky-syzran-saratov.md",
+    "bytes": 4567
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260812-005-russia-converts-its-syrian-bases-to-joint-training-centres-on-a-three-month-clock-zero-fleet-hits.md",
+    "bytes": 7021
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-049-ercot-cal-27-forward-power-has-fallen-to-roughly-42-mwh-and-a-falling-forward-curve-is-a-COUNTER-signal-to-the-datacenter-demand-story.md",
+    "bytes": 3316
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-008-a-wsj-sourced-irgc-war-planning-report-relayed-by-an-account-that-misquoted-its-own-chart-six-hours-ago-and-the-cable-leg-is-a-lane-nobody-owns.md",
+    "bytes": 10498
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-017.md",
+    "bytes": 4054
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260709-002.md",
+    "bytes": 945
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-007.md",
+    "bytes": 5746
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-007-iran-named-gulf-energy-target-list.md",
+    "bytes": 4740
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-015-us-imports-of-saudi-crude-flatlined-in-july-eia-4wk-avg-from-600k-to-approximately-zero.md",
+    "bytes": 4066
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260818-001-the-60-day-us-iran-mou-expired-8-17-no-deal-falcons-regime-d-mou-collapse-line-now-has-two-legs-and-crude-cleared-the-8-11-settle.md",
+    "bytes": 10607
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-030-the-amur-gas-chemical-fire-is-real-and-the-ukrainian-drone-attribution-is-false.md",
+    "bytes": 1813
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260717-004.md",
+    "bytes": 3695
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-015.md",
+    "bytes": 9334
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260820-004-the-mou-collapse-did-not-convert-into-kinetic-escalation-twenty-nights-and-no-change-on-expiry-and-the-strike-leg-rests-on-a-weaker-basis-than-the-blockade-tally.md",
+    "bytes": 4511
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260901-002-russia-is-now-tolling-crude-through-kazakhstans-kondensat-refinery-because-ukraine-took-its-own-refining-down-a-0-3pct-fix-that-confirms-the-products-short.md",
+    "bytes": 5194
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260831-002-the-5-per-day-hormuz-figure-is-a-six-week-average-not-a-weekend-low-and-four-different-series-are-in-circulation.md",
+    "bytes": 5457
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260719-004.md",
+    "bytes": 795
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-006-CORRECTION-brents-87-84-is-right-and-my-86-36-was-a-live-tick-from-the-NEXT-session-plus-BZ-F-rolled-today.md",
+    "bytes": 5926
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-014.md",
+    "bytes": 6033
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-023.md",
+    "bytes": 3873
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260709-016.md",
+    "bytes": 781
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-024-goldman-puts-hormuz-flows-at-two-thirds-of-pre-war-and-the-anchor-already-settled-which-denominator.md",
+    "bytes": 2189
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260810-003-correction-russian-refining-runs-3-91-to-3-6-mbpd-and-a-genuine-carrier-the-publisher-scan-missed.md",
+    "bytes": 5712
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260819-011-a-sixth-hormuz-reading-six-crossings-tuesday-and-the-instrument-that-said-zero-for-monday-is-the-one-the-narrative-rests-on.md",
+    "bytes": 7151
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260730-002-ukraine-two-refineries-perm-deepest.md",
+    "bytes": 874
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260706-015.md",
+    "bytes": 523
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-025-CORRECTION.md",
+    "bytes": 3582
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260908-023.md",
+    "bytes": 1523
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260901-011-tropical-storm-edouard-made-landfall-at-johnson-bayou-at-320-pm-edt-15-miles-from-port-arthur-60-mph-10-to-15-inch-rain-risk-for-the-refinery-hub.md",
+    "bytes": 4215
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-012-continuous-futures-tickers-lied-about-TWO-things-on-two-commodities-at-two-desks-inside-24-hours.md",
+    "bytes": 8638
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-024.md",
+    "bytes": 2805
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260815-005-third-jazan-strike-claimed-8-13-claim-only-two-days-before-the-8-15-restart-falcon-calls-the-highest-value-number.md",
+    "bytes": 8001
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260809-005-iran-named-four-concrete-demands-for-hormuz-reopening-the-price-of-a-signature-is-itemized.md",
+    "bytes": 6046
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260717-018.md",
+    "bytes": 2519
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-015-CORRECTION-henry-did-not-commit-that-error-it-CAUGHT-mine-flagged-the-discrepancy-and-deferred-to-my-authority.md",
+    "bytes": 8172
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260811-002-N5-futures-bar-capture-time-fleet-rule-five-clauses-ratified-never-quote-a-bar-as-a-close.md",
+    "bytes": 12338
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260901-014-iran-declares-a-decisive-operation-against-us-bases-tonight-claims-a-drone-strike-on-sheikh-isa-bahrain-sirens-in-mafraq-and-aqaba-all-claims-only.md",
+    "bytes": 4678
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260727-022.md",
+    "bytes": 3096
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260721-005.md",
+    "bytes": 556
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260901-010-ukraine-hit-ust-luga-again-fire-out-by-0930-msk-52-drones-downed-and-one-crossed-latvia-and-estonia-nato-scrambled-f-16s.md",
+    "bytes": 4372
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260828-020-the-operative-test-is-whether-the-DENOMINATOR-matches-the-claims-VERB-not-whether-the-arithmetic-is-right.md",
+    "bytes": 5872
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260709-019.md",
+    "bytes": 771
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260706-013.md",
+    "bytes": 553
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260730-004-drone-us-fsru-damietta-first-med-strike.md",
+    "bytes": 1535
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260721-006.md",
+    "bytes": 659
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260813-008-china-official-crude-balance-overstates-stockbuild-6x.md",
+    "bytes": 3262
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260723-005.md",
+    "bytes": 1406
+  },
+  {
+    "path": "inbox/WALTER/processed/SIG-W-20260721-003.md",
+    "bytes": 580
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/coverage.json",
+    "bytes": 10235
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/input-manifest.json",
+    "bytes": 3332
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/validation.json",
+    "bytes": 1062
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/boot-restricted.txt",
+    "bytes": 18513
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/portwatch-latest.json",
+    "bytes": 1112
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/REPORT.md",
+    "bytes": 14306
+  },
+  {
+    "path": "audits/2026-09-08_stale-intel/boot-network.txt",
+    "bytes": 6961
+  },
+  {
+    "path": "scripts/tests/test_boot_reporting.py",
+    "bytes": 5454
+  },
+  {
+    "path": "scripts/data/refiner_ratios.tsv",
+    "bytes": 825
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/manifest.json",
+    "bytes": 832
+  },
+  {
+    "path": "archive/research_20260321_corpus/OPEC_UNWIND_HISTORY.md",
+    "bytes": 39835
+  },
+  {
+    "path": "archive/research_20260321_corpus/HIGH_OIL_BENEFICIARIES.md",
+    "bytes": 11576
+  },
+  {
+    "path": "archive/research_20260321_corpus/REFINERY_UTILIZATION_MAR2026.md",
+    "bytes": 38452
+  },
+  {
+    "path": "archive/research_20260321_corpus/CHENIERE_Q1_EARNINGS_MODEL.docx",
+    "bytes": 3493118
+  },
+  {
+    "path": "archive/research_20260321_corpus/SULPHUR_CHAIN_RESEARCH_MAR8.md",
+    "bytes": 51144
+  },
+  {
+    "path": "archive/research_20260321_corpus/RESEARCH_PROMPTS.md",
+    "bytes": 36845
+  },
+  {
+    "path": "archive/research_20260321_corpus/LNG_SPOT_MARKET_MAR2026.md",
+    "bytes": 27097
+  },
+  {
+    "path": "archive/research_20260321_corpus/TAIWAN_CHAIN_RESEARCH_MAR8.md",
+    "bytes": 37369
+  },
+  {
+    "path": "archive/research_20260321_corpus/INGESTION_LOG_BATCH1.md",
+    "bytes": 8658
+  },
+  {
+    "path": "archive/research_20260321_corpus/HOUSEKEEPING_LOG_MAR7.md",
+    "bytes": 4770
+  },
+  {
+    "path": "archive/research_20260321_corpus/ANALYSIS.md",
+    "bytes": 13190
+  },
+  {
+    "path": "archive/research_20260321_corpus/HORMUZ_LIVE_STATUS_MAR8.docx",
+    "bytes": 3427504
+  },
+  {
+    "path": "archive/research_20260321_corpus/DOMAIN_AUDIT_MAR6.md",
+    "bytes": 23053
+  },
+  {
+    "path": "archive/research_20260321_corpus/INGESTION_LOG_BATCH2.md",
+    "bytes": 9979
+  },
+  {
+    "path": "archive/research_20260321_corpus/HY_ENERGY_CREDIT_MAR2026.md",
+    "bytes": 44056
+  },
+  {
+    "path": "archive/research_20260321_corpus/CHENIERE_ANALYSIS.md",
+    "bytes": 8805
+  },
+  {
+    "path": "archive/research_20260321_corpus/INGESTION_LOG_BATCH3.md",
+    "bytes": 15689
+  },
+  {
+    "path": "archive/research_20260321_corpus/HORMUZ_HISTORICAL_PRECEDENTS.md",
+    "bytes": 43628
+  },
+  {
+    "path": "archive/research_20260321_corpus/REFINERY_FIRES_SNAPSHOT_2026-04-17.md",
+    "bytes": 16549
+  },
+  {
+    "path": "archive/research_20260321_corpus/GULF_STORAGE_CRISIS_MAR8.docx",
+    "bytes": 3394197
+  },
+  {
+    "path": "archive/research_20260321_corpus/NOPI_Q1_CLOSE_SCENARIOS.md",
+    "bytes": 7978
+  },
+  {
+    "path": "archive/research_20260321_corpus/OPEC_CURRENT_STATE_MAR2026.md",
+    "bytes": 49022
+  },
+  {
+    "path": "archive/research_20260321_corpus/BRENT_SITUATION_REPORT_MAR6.md",
+    "bytes": 53334
+  },
+  {
+    "path": "archive/research_20260321_corpus/DIESEL_CRACK_ANALYSIS.md",
+    "bytes": 7968
+  },
+  {
+    "path": "archive/research_20260321_corpus/OIL_MACRO_TRANSMISSION_HISTORY.md",
+    "bytes": 49438
+  },
+  {
+    "path": "archive/research_20260321_corpus/US_SHALE_RESPONSE_MAR2026.md",
+    "bytes": 36468
+  },
+  {
+    "path": "archive/research_20260321_corpus/STNG_EARNINGS_MODEL_MAR2026.md",
+    "bytes": 48927
+  },
+  {
+    "path": "archive/legacy_20260721/LAST_COMPLETION.md",
+    "bytes": 6482
+  },
+  {
+    "path": "archive/legacy_20260721/ARCHIVE_MAR7.md",
+    "bytes": 8709
+  },
+  {
+    "path": "archive/legacy_20260721/OUTBOX.md",
+    "bytes": 105
+  },
+  {
+    "path": "archive/legacy_20260721/KB_old_6col.tsv",
+    "bytes": 50860
+  },
+  {
+    "path": "archive/legacy_20260721/VERIFY_2026-04-17.md",
+    "bytes": 8818
+  },
+  {
+    "path": "archive/legacy_20260721/ECON_CALENDAR.md",
+    "bytes": 1265
+  },
+  {
+    "path": "archive/legacy_20260721/TRACKER.md",
+    "bytes": 9631
+  },
+  {
+    "path": "archive/legacy_20260721/SIGNAL_INTAKE.md",
+    "bytes": 9768
+  },
+  {
+    "path": "archive/legacy_20260721/PHASE2_EXECUTION_2026-04-17.md",
+    "bytes": 10802
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/manifest.json",
+    "bytes": 3194
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/LESSONS.md",
+    "bytes": 48705
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/NEXUS_BRIEF.md",
+    "bytes": 7539
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/CLAUDE.md",
+    "bytes": 31538
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/SCRATCH.md",
+    "bytes": 5778
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/RULINGS.md",
+    "bytes": 47151
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/STATUS.md",
+    "bytes": 25272
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/TRADE.md",
+    "bytes": 156190
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/manifest.json",
+    "bytes": 2289
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/NEXUS_BRIEF.md",
+    "bytes": 8593
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/SCRATCH.md",
+    "bytes": 5573
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/STATUS.md",
+    "bytes": 29847
+  },
+  {
+    "path": "archive/scripts_spent/grade_2026_08_14.py",
+    "bytes": 5108
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/docket/CATALYSTS.tsv",
+    "bytes": 56505
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/domain/REFERENCE_TABLES.md",
+    "bytes": 10493
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/thesis/THESIS.md",
+    "bytes": 75184
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/thesis/PREDICTIONS.tsv",
+    "bytes": 65443
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/refinery_damage/INCIDENTS.tsv",
+    "bytes": 68188
+  },
+  {
+    "path": "archive/2026-09-08_thesis-reconciliation/thesis/prediction_notes/BRT-29.md",
+    "bytes": 2730
+  },
+  {
+    "path": "archive/legacy_20260721/handoff_WALTER/README.md",
+    "bytes": 5120
+  },
+  {
+    "path": "archive/legacy_20260721/recon/STAGE2_FINDINGS_2026-03-15.md",
+    "bytes": 15932
+  },
+  {
+    "path": "archive/legacy_20260721/board/BOARD_LOG.tsv",
+    "bytes": 12978
+  },
+  {
+    "path": "archive/legacy_20260721/handoff_WALTER/CLOSED/LIAISON.md",
+    "bytes": 62966
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/setups/2026-08-12_35b-COT-successor-band-N1-build.md",
+    "bytes": 9287
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/scripts/render_calendar.py",
+    "bytes": 13481
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/scripts/boot.py",
+    "bytes": 22889
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/scripts/instrument_check.py",
+    "bytes": 71736
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/docket/FASTOW.md",
+    "bytes": 18705
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/thesis/CHANGELOG.md",
+    "bytes": 145529
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/thesis/PREDICTIONS.tsv",
+    "bytes": 116966
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/thesis/PREDICTIONS_ARCHIVE.md",
+    "bytes": 26019
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/workbook/TRADE_OBLIGATIONS.md",
+    "bytes": 16845
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/workbook/LESSONS_INDEX.tsv",
+    "bytes": 11323
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/workbook/REGISTRY.tsv",
+    "bytes": 74885
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/demand_destruction/TRACKER.md",
+    "bytes": 147086
+  },
+  {
+    "path": "archive/2026-09-08_cleanup/refinery_damage/INCIDENTS.tsv",
+    "bytes": 69515
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/scripts/instrument_check.py",
+    "bytes": 72535
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/workbook/TRADE_OBLIGATIONS.md",
+    "bytes": 14958
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/workbook/LEDGER_GLOB",
+    "bytes": 6948
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/workbook/SCHEMA.tsv",
+    "bytes": 1829
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/workbook/REGISTRY.tsv",
+    "bytes": 74885
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/demand_destruction/TRACKER.md",
+    "bytes": 144729
+  },
+  {
+    "path": "archive/2026-09-08_workbook-reconciliation/scripts/tests/test_boot_reporting.py",
+    "bytes": 4175
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-26.md",
+    "bytes": 4036
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-29.md",
+    "bytes": 5611
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-16.md",
+    "bytes": 4319
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-30.md",
+    "bytes": 3057
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-21.md",
+    "bytes": 3633
+  },
+  {
+    "path": "thesis/prediction_notes/CALIBRATION.md",
+    "bytes": 2062
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-07.md",
+    "bytes": 3409
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-12.md",
+    "bytes": 3871
+  },
+  {
+    "path": "thesis/prediction_notes/BRT-17.md",
+    "bytes": 2911
+  },
+  {
+    "path": "outbox/delivered/2026-07-31_to-PROME_closeoutdoc-audit.md",
+    "bytes": 11005
+  },
+  {
+    "path": "outbox/delivered/2026-05-15_to-PROME_trigger3-fired.md",
+    "bytes": 1623
+  },
+  {
+    "path": "outbox/delivered/2026-07-27_to-PROME_oil-collapse-adjudication.md",
+    "bytes": 51758
+  },
+  {
+    "path": "outbox/delivered/2026-08-13_to-PROME_delivery-memo-five-riders-EU-STORAGE-cleared.md",
+    "bytes": 3437
+  },
+  {
+    "path": "outbox/delivered/2026-08-13_to-PROME_slate-execution-steo-ladder-and-two-refuted-rows.md",
+    "bytes": 10232
+  },
+  {
+    "path": "outbox/delivered/2026-07-08_to-PROME_decoupling-crack-adjudication.md",
+    "bytes": 11794
+  },
+  {
+    "path": "outbox/delivered/2026-05-04_to-HENRY_vix-brent-cross-asset-stress.md",
+    "bytes": 1146
+  },
+  {
+    "path": "outbox/delivered/2026-06-08_to-HAWK_brt-27-28-restructure-adopted.md",
+    "bytes": 3179
+  },
+  {
+    "path": "outbox/delivered/2026-04-17_to-CARL_airline-fuel-shortage-grounding.md",
+    "bytes": 1309
+  },
+  {
+    "path": "outbox/delivered/2026-07-31_to-PROME_bootdoc-audit.md",
+    "bytes": 11994
+  },
+  {
+    "path": "outbox/delivered/2026-05-05_to-HAWK_day2-uae-campaign-bypass-pair.md",
+    "bytes": 2071
+  },
+  {
+    "path": "outbox/delivered/2026-07-24_to-PROME_uso-tail-rider-requote-adjudication.md",
+    "bytes": 12990
+  },
+  {
+    "path": "outbox/delivered/.gitkeep",
+    "bytes": 0
+  },
+  {
+    "path": "outbox/delivered/2026-07-21_to-TERRY_diesel-expression-scope-request.md",
+    "bytes": 2363
+  },
+  {
+    "path": "outbox/delivered/2026-04-17_to-HENRY_energy-inflation-reversal.md",
+    "bytes": 1088
+  },
+  {
+    "path": "outbox/delivered/2026-08-13_to-PROME_domain-review-proposals.md",
+    "bytes": 16307
+  },
+  {
+    "path": "outbox/delivered/2026-05-04_to-HAWK_fujairah-strike-bypass-route-domino.md",
+    "bytes": 1343
+  },
+  {
+    "path": "outbox/delivered/2026-07-31_to-PROME_friday-stack.md",
+    "bytes": 11914
+  },
+  {
+    "path": "outbox/delivered/2026-08-04_to-TERRY_RULINGS-1-and-2-leg-b-is-a-floor-not-a-ranking-and-rebuild-to-125-130-x2.md",
+    "bytes": 7249
+  },
+  {
+    "path": "outbox/delivered/2026-08-07_to-PROME_optionA-defect2-ALREADY-CLOSED-plus-validation.md",
+    "bytes": 7599
+  },
+  {
+    "path": "outbox/delivered/2026-09-08_codex-owner-progress.md",
+    "bytes": 1694
+  },
+  {
+    "path": "outbox/delivered/2026-07-17_to-PROME_cot-grade-verdict.md",
+    "bytes": 10540
+  },
+  {
+    "path": "outbox/delivered/2026-05-05_to-HENRY-LIQUID_400m-iea-failed-to-dent.md",
+    "bytes": 2134
+  },
+  {
+    "path": "outbox/delivered/2026-09-08_from-BRENT_codex-owner-catchup-completion.md",
+    "bytes": 13820
+  },
+  {
+    "path": "outbox/delivered/2026-06-08_to-PROME_root-claudemd-push-protocol-conflict.md",
+    "bytes": 3449
+  },
+  {
+    "path": "outbox/delivered/2026-07-17_to-PROME_cot-preprint-prep.md",
+    "bytes": 7390
+  },
+  {
+    "path": "outbox/delivered/2026-06-20_to-HAWK_hormuz-reclosure-lebanon-reheat-deanchors-cooling.md",
+    "bytes": 2407
+  },
+  {
+    "path": "outbox/delivered/2026-07-23_to-FALCON_fresh-bab-transit-count-request.md",
+    "bytes": 1547
+  },
+  {
+    "path": "outbox/delivered/2026-08-07_to-PROME_next-session-options.md",
+    "bytes": 12248
+  },
+  {
+    "path": "outbox/delivered/2026-07-21_to-PROME_insurance-watch-gap-and-convergence-quality.md",
+    "bytes": 2661
+  },
+  {
+    "path": "outbox/delivered/2026-05-04_to-PROME_master-branch-divergence.md",
+    "bytes": 1121
+  },
+  {
+    "path": "outbox/delivered/2026-05-04_to-CARL_pump-pass-through-may4.md",
+    "bytes": 1445
+  },
+  {
+    "path": "outbox/delivered/2026-05-05_to-SAM_jkm-lng-decoupling.md",
+    "bytes": 1116
+  },
+  {
+    "path": "outbox/delivered/2026-07-16_to-PROME_rearm-adjudication.md",
+    "bytes": 10484
+  },
+  {
+    "path": "outbox/delivered/2026-04-30_to-CARL_distillate-trucking-rising-counter-narrative.md",
+    "bytes": 1581
+  },
+  {
+    "path": "outbox/delivered/2026-07-10_to-PROME_sustain-verdict.md",
+    "bytes": 9136
+  },
+  {
+    "path": "outbox/delivered/2026-07-31_to-PROME_stage-a-proposal.md",
+    "bytes": 14794
+  },
+  {
+    "path": "outbox/delivered/2026-08-05_to-PROME_wk0731-eia-repull.md",
+    "bytes": 2498
+  },
+  {
+    "path": "outbox/delivered/2026-08-05_to-PROME_stage-a-legT-window-respec-proposal.md",
+    "bytes": 9026
+  },
+  {
+    "path": "outbox/delivered/2026-07-31_to-PROME_defect2-respec-proposal.md",
+    "bytes": 13357
+  },
+  {
+    "path": "outbox/delivered/2026-05-04_to-LIQUID_energy-credit-watch-may4.md",
+    "bytes": 1381
+  },
+  {
+    "path": "outbox/delivered/2026-05-05_to-CARL_gas-pump-live-4457.md",
+    "bytes": 919
+  },
+  {
+    "path": "outbox/delivered/2026-08-13_to-PROME_p6-eu-storage-kill-or-keep.md",
+    "bytes": 8220
+  },
+  {
+    "path": "outbox/delivered/2026-07-21_to-LIQUID_fuel-consumer-hy-early-credit-tell.md",
+    "bytes": 1486
+  },
+  {
+    "path": "outbox/delivered/2026-08-07_to-PROME_cot-adjudication-arm-disposition.md",
+    "bytes": 19256
+  },
+  {
+    "path": "outbox/delivered/2026-04-17_to-CARL_pump-relief-timeline.md",
+    "bytes": 953
+  },
+  {
+    "path": "outbox/delivered/2026-07-30_to-PROME_lessons21a-respec-proposal-ready-for-will.md",
+    "bytes": 3501
+  },
+  {
+    "path": "outbox/delivered/2026-07-01_to-PROME_ledger-staleness-script-missing.md",
+    "bytes": 1080
+  },
+  {
+    "path": "outbox/delivered/2026-05-31_to-RED_chg-red-024-confirm-closure.md",
+    "bytes": 938
+  },
+  {
+    "path": "outbox/delivered/2026-06-07_to-NEXUS_fallback_rate_instrumentation.md",
+    "bytes": 5102
+  },
+  {
+    "path": "outbox/delivered/2026-08-04_to-TERRY_RULING-limit-price-construction-ENDORSED-but-set-it-at-150-not-165.md",
+    "bytes": 7486
+  },
+  {
+    "path": "outbox/delivered/2026-06-07_to-VIOLET_tension_reconciled.md",
+    "bytes": 1949
+  },
+  {
+    "path": "outbox/delivered/2026-04-17_to-HAWK_blockade-vs-strait-assessment.md",
+    "bytes": 1313
+  },
+  {
+    "path": "outbox/delivered/2026-04-17_to-SAM_japan-lng-import-cost.md",
+    "bytes": 1191
+  },
+  {
+    "path": "research/2026-09-08_batch2/HOX26.json",
+    "bytes": 15081
+  },
+  {
+    "path": "research/2026-09-08_batch2/iag-h1-transcript.pdf",
+    "bytes": 250298
+  },
+  {
+    "path": "research/2026-09-08_batch2/RBX26.json",
+    "bytes": 15116
+  },
+  {
+    "path": "research/2026-09-08_batch2/validation.json",
+    "bytes": 788
+  },
+  {
+    "path": "research/2026-09-08_batch2/fixed-november-cracks.csv",
+    "bytes": 26948
+  },
+  {
+    "path": "research/2026-09-08_batch2/evidence-manifest.json",
+    "bytes": 2567
+  },
+  {
+    "path": "research/2026-09-08_batch2/airnz-may-update.pdf",
+    "bytes": 284607
+  },
+  {
+    "path": "research/2026-09-08_batch2/before-manifest.json",
+    "bytes": 1106
+  },
+  {
+    "path": "research/2026-09-08_batch2/fred-metadata-probes.json",
+    "bytes": 7727
+  },
+  {
+    "path": "research/2026-09-08_batch2/iag-h1-transcript.txt",
+    "bytes": 58046
+  },
+  {
+    "path": "research/2026-09-08_batch2/crack-validation.json",
+    "bytes": 7363
+  },
+  {
+    "path": "research/2026-09-08_batch2/BZX26.json",
+    "bytes": 14277
+  },
+  {
+    "path": "research/2026-09-08_batch2/REPORT.md",
+    "bytes": 12657
+  },
+  {
+    "path": "research/2026-09-08_batch2/reproduce_cracks.py",
+    "bytes": 3194
+  },
+  {
+    "path": "research/2026-09-08_batch2/boot-network.txt",
+    "bytes": 7270
+  },
+  {
+    "path": "research/archive/PRODUCT_SIDE_DECOUPLING_THESIS.md",
+    "bytes": 14354
+  },
+  {
+    "path": "research/2026-09-09_morning/BZX26.NYM.json",
+    "bytes": 1657
+  },
+  {
+    "path": "research/2026-09-09_morning/USO.json",
+    "bytes": 1772
+  },
+  {
+    "path": "research/2026-09-09_morning/quotes.json",
+    "bytes": 18005
+  },
+  {
+    "path": "research/2026-09-09_morning/XLE.json",
+    "bytes": 1761
+  },
+  {
+    "path": "research/2026-09-09_morning/RBX26.NYM.json",
+    "bytes": 1650
+  },
+  {
+    "path": "research/2026-09-09_morning/XOP.json",
+    "bytes": 1808
+  },
+  {
+    "path": "research/2026-09-09_morning/derived.json",
+    "bytes": 372
+  },
+  {
+    "path": "research/2026-09-09_morning/REPORT.md",
+    "bytes": 4897
+  },
+  {
+    "path": "research/2026-09-09_morning/capture.py",
+    "bytes": 2044
+  },
+  {
+    "path": "research/2026-09-09_morning/HOX26.NYM.json",
+    "bytes": 1627
+  },
+  {
+    "path": "research/2026-09-09_morning/XOM.json",
+    "bytes": 1770
+  },
+  {
+    "path": "research/2026-09-09_morning/CVX.json",
+    "bytes": 1710
+  },
+  {
+    "path": "research/2026-09-09_morning/EOG.json",
+    "bytes": 1742
+  },
+  {
+    "path": "research/2026-09-09_morning/STNG.json",
+    "bytes": 1717
+  },
+  {
+    "path": "research/2026-09-09_morning/CLX26.NYM.json",
+    "bytes": 1625
+  },
+  {
+    "path": "research/2026-09-09_morning/BZZ26.NYM.json",
+    "bytes": 1648
+  },
+  {
+    "path": "research/2026-09-09_morning/LNG.json",
+    "bytes": 1700
+  },
+  {
+    "path": "research/2026-09-09_morning/BZF27.NYM.json",
+    "bytes": 1635
+  },
+  {
+    "path": "research/2026-09-09_morning/CLV26.NYM.json",
+    "bytes": 1621
+  },
+  {
+    "path": "research/2026-09-09_morning/NG_F.json",
+    "bytes": 1610
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/consumer-retail.txt",
+    "bytes": 2179
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/selected-option-quotes.json",
+    "bytes": 2001
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/fetch_baselines.py",
+    "bytes": 1601
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/fetch_snapshot.py",
+    "bytes": 2456
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/analyze.py",
+    "bytes": 4790
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/wpsr-schedule.html",
+    "bytes": 52283
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/wpsr-current.html",
+    "bytes": 72674
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/baseline-fetch-manifest.json",
+    "bytes": 1703
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/wpsr-table1.csv",
+    "bytes": 6593
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/retail-diesel.xls",
+    "bytes": 761856
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/fetch-manifest.json",
+    "bytes": 4242
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/steo-publication-check.html",
+    "bytes": 65998
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/VALIDATION.md",
+    "bytes": 2156
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/cboe-XLE.json",
+    "bytes": 913882
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/retail-gas.xls",
+    "bytes": 7482368
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/wpsr-table9.csv",
+    "bytes": 46844
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/USO-2026-10-16-chain.json",
+    "bytes": 17298
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/august-steo-baseline.json",
+    "bytes": 8818
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/consumer-dispositions.md",
+    "bytes": 1824
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/cboe-USO.json",
+    "bytes": 2049730
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/moran-sep2.html",
+    "bytes": 159859
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/uso-oct-chain-restricted.txt",
+    "bytes": 2271
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/writeback-before.json",
+    "bytes": 528523
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/REPORT.md",
+    "bytes": 18073
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/aug26_base.xlsx",
+    "bytes": 1096696
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/USO-2026-09-18-chain.json",
+    "bytes": 18384
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/consumer-shares.txt",
+    "bytes": 8804
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/XLE-2026-09-30-chain.json",
+    "bytes": 2885
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/wpsr-table2.csv",
+    "bytes": 8362
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/consumer-retail-self.txt",
+    "bytes": 1804
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/consumer-shares-self.txt",
+    "bytes": 6848
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/retail.html",
+    "bytes": 114336
+  },
+  {
+    "path": "research/2026-09-09_squeeze-review/retail-derived.json",
+    "bytes": 5360
+  },
+  {
+    "path": "research/2026-09-08_catchup/validation.json",
+    "bytes": 2027
+  },
+  {
+    "path": "research/2026-09-08_catchup/brt29-registration-history.json",
+    "bytes": 38620
+  },
+  {
+    "path": "research/2026-09-08_catchup/evidence-manifest.json",
+    "bytes": 1057
+  },
+  {
+    "path": "research/2026-09-08_catchup/gas-supplied.xls",
+    "bytes": 110592
+  },
+  {
+    "path": "research/2026-09-08_catchup/eia-validation.json",
+    "bytes": 578
+  },
+  {
+    "path": "research/2026-09-08_catchup/reproduce_eia.py",
+    "bytes": 2967
+  },
+  {
+    "path": "research/2026-09-08_catchup/jet-supplied.xls",
+    "bytes": 110592
+  },
+  {
+    "path": "research/2026-09-08_catchup/REPORT.md",
+    "bytes": 16220
+  },
+  {
+    "path": "research/2026-09-08_catchup/brt29-eia-comparison.csv",
+    "bytes": 708
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-05-27.md",
+    "bytes": 13060
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-07-31.md",
+    "bytes": 11930
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-06-03.md",
+    "bytes": 9064
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-09-07.md",
+    "bytes": 12970
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-04-10.md",
+    "bytes": 9667
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-06-01.md",
+    "bytes": 3429
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-06-05.md",
+    "bytes": 10313
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-08-14.md",
+    "bytes": 10790
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-09-04.md",
+    "bytes": 14152
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-06-22.md",
+    "bytes": 6616
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-04-29.md",
+    "bytes": 7126
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-04-17.md",
+    "bytes": 9981
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-06-19.md",
+    "bytes": 12319
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-04-15.md",
+    "bytes": 12909
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-04-06.md",
+    "bytes": 3742
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-08-07.md",
+    "bytes": 11148
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-05-01.md",
+    "bytes": 8757
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-07-08.md",
+    "bytes": 10720
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-07-20.md",
+    "bytes": 9761
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-06-08.md",
+    "bytes": 4872
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-04-22.md",
+    "bytes": 9584
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-07-29.md",
+    "bytes": 9161
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-05-13.md",
+    "bytes": 6777
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-08-05.md",
+    "bytes": 3523
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-07-22.md",
+    "bytes": 6688
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-06-12.md",
+    "bytes": 13030
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-08-05_wk0731_repull.md",
+    "bytes": 6721
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-08-19.md",
+    "bytes": 7784
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-05-29.md",
+    "bytes": 7421
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-09-02.md",
+    "bytes": 9251
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-04-24.md",
+    "bytes": 7941
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-05-15.md",
+    "bytes": 7958
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-05-08.md",
+    "bytes": 8101
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-05-04.md",
+    "bytes": 9494
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-07-03.md",
+    "bytes": 8381
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-07-27.md",
+    "bytes": 10035
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-06-15.md",
+    "bytes": 6255
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-04-27.md",
+    "bytes": 8540
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-05-20.md",
+    "bytes": 9703
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-08-28.md",
+    "bytes": 12787
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-06-29.md",
+    "bytes": 6375
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-07-06.md",
+    "bytes": 6123
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-07-15.md",
+    "bytes": 8955
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-04-13.md",
+    "bytes": 8024
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-08-21.md",
+    "bytes": 10294
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-05-06.md",
+    "bytes": 8286
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-08-24.md",
+    "bytes": 9847
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-08-12.md",
+    "bytes": 5853
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-08-03.md",
+    "bytes": 11642
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-05-22.md",
+    "bytes": 10708
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-08-26.md",
+    "bytes": 8167
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-08-17.md",
+    "bytes": 10943
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-04-08.md",
+    "bytes": 8388
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-06-24.md",
+    "bytes": 9981
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-07-24.md",
+    "bytes": 8849
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-09-09.md",
+    "bytes": 3080
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-07-13.md",
+    "bytes": 7351
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-05-25.md",
+    "bytes": 10773
+  },
+  {
+    "path": "demand_destruction/data/EUCRBRDT_vs_CO1_20260402.jpg",
+    "bytes": 63114
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-05-18.md",
+    "bytes": 10399
+  },
+  {
+    "path": "demand_destruction/data/friday_2026-07-17.md",
+    "bytes": 10905
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-08-10.md",
+    "bytes": 8230
+  },
+  {
+    "path": "demand_destruction/data/monday_2026-08-31.md",
+    "bytes": 21096
+  },
+  {
+    "path": "demand_destruction/data/eia_2026-06-10.md",
+    "bytes": 6482
+  },
+  {
+    "path": "messages/receipts/MSG-PROME-20260803-002__BRENT.md",
+    "bytes": 7337
+  },
+  {
+    "path": "messages/receipts/MSG-PROME-20260714-001__BRENT.md",
+    "bytes": 1210
+  },
+  {
+    "path": "messages/receipts/MSG-PROME-20260721-001__BRENT.md",
+    "bytes": 996
+  },
+  {
+    "path": "messages/receipts/MSG-PROME-20260803-003__BRENT.md",
+    "bytes": 3747
+  }
+]

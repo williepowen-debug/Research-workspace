@@ -1,17 +1,17 @@
-# BRENT SCRATCH — September 9 approved review, before STEO publication
+# BRENT SCRATCH — September 9 file-health audit
 
 ## CHANGES SINCE LAST SESSION
 
-EIA released September 7 retail observations: gasoline 4.157 (+0.086), diesel 5.967 (+0.368); five PADDs higher. New delayed options captured 10:26–10:27 ET. Newer September 3/9 broker mirrors show USO 37 shares, correcting BRENT's stale 35. XLE intent to sell is recorded by PROME; execution receipt still UNKNOWN. STEO remains August at the 10:36 ET primary check; WPSR remains week August 28.
+The autonomous September 9 EIA routine correctly recorded no new WPSR: holiday release remains September 10. September STEO published during the audit, confirmed at the primary by 12:07 ET (forecast completed September 3); full comparison remains pending. The morning retail, futures and delayed-option observations retain their original dates/times; no audit-boot quote adopted. No XLE execution receipt arrived.
 
 ## WHAT I DID THIS SESSION
 
-Executed the approved pre-release work: reconciled positions to TERRY/PROME records and complete existing specs; fetched option chains/Cboe, validated EIA retail HTML against full-history workbooks, compared regions and same-month product margins. Reviewed operator/port evidence with dates; no new current aggregate outage certified. Froze seven August STEO series with monthly/quarterly calculations and prepared the WPSR worksheet. Added bounded Ryanair/Norse announcement checks; historical BRT-12 instrument gaps persist. Raw data, manifests, offline reproducer and integrated memo: research/2026-09-09_squeeze-review/REPORT.md. Updated STATUS/TRADE/runtime/docket/BRT-29 note; no prediction grade, threshold, probability, order or external send.
+Audited the file tree, active readers, registry, trade obligations, scripts and recent work. Authorized-network boot rc=2; twelve existing tests pass; nine offline observations expose quote/EIA/deadline defects and confirm correct COT boundaries. Audit and repair/build inventory: audits/2026-09-09_file-health/REPORT.md. Kept the main directory layout; rotated one older dated STATUS block verbatim with checksum to make room. Updated publication state and continuity only; runtime repairs remain pending. No new grade, threshold, thesis probability or rule. Earlier approved research and preserved baselines remain in research/2026-09-09_squeeze-review/REPORT.md.
 
 ## NEXT SESSION (dated, future-verifiable)
 
 1. **September 9 XLE receipt pending:** user was asked for actual quantity, price and time; no response yet. Keep selected exit pending until receipt. TERRY/Will own broker checks/execution. Never infer fill from intention, quote or screenshot.
-2. **September 9 noon–12:15 ET STEO:** retrieve new issue only after publication; compare saved August baseline in research/2026-09-09_squeeze-review/august-steo-baseline.json. Key question: Q3→Q4 supply recovery/draw slowdown and 2027 effective-spare recovery date. Same IDs/units/months; flows simple monthly means, stock quarter-end. August issue August 11, forecast August 6. No September revision yet measured.
+2. **September 9 STEO PUBLISHED; comparison pending:** retrieve September workbooks and compare saved August baseline in research/2026-09-09_squeeze-review/august-steo-baseline.json. Key question: Q3→Q4 supply recovery/draw slowdown and 2027 effective-spare recovery date. Same IDs/units/months; flows simple monthly means, stock quarter-end. August issue August 11, forecast August 6. September issue dated September 9, forecast completed September 3; no full September revision comparison yet measured.
 3. **September 10 noon / later file batch 14:00 ET WPSR:** verify each file covers September 4. Worksheet in integrated report; baseline Cushing 22.508M, SPR 286.604M, utilization 98.0%, PADD3 gross inputs 9.662 mb/d. Preserve September 4/11 SPR weeks/bands and wording/premise gap. One print cannot resolve two-print test. Reuse paired EIA 52-week method; current pandas/xlrd versions require direct xlrd for legacy xls, as in the new analysis script.
 4. **September 11 after ~13:00 / ~15:30 ET:** primary Baker Hughes/CFTC as-of September 8. cot_grade.py --expect 2026-09-08; exit 3 WAIT. No schedule change installed; 14:00 Friday routine precedes COT.
 5. **BRT-29 next research:** three further eligible carriers remain unestablished. AF-KLM one group; Ryanair Sep2 outside M window; Norse distinct post-baseline announcement unestablished. Do not multiply subsidiaries, count old cuts or relabel airspace-only causes. M explicitly unresolved after Aug31; T requires <=-3.0 by Sep25 observation, final Sep30. No final grade from incomplete search.
@@ -20,6 +20,8 @@ Executed the approved pre-release work: reconciled positions to TERRY/PROME reco
 8. **Later dates:** Sep18 spread expiry; Sep25 final in-window rig/threshold week; Sep30 resolutions; Oct1 full owner read; Oct4 OPEC November decision; Oct9 USO time stop; Oct26 BRT-30. TRADE/CATALYSTS own exact letters.
 
 ## OPEN THREADS / WATCHES
+
+- **Maintenance priority:** audit A1–A4: quote timestamp/fallback, EIA completeness/date alignment/local fallback, and obsolete output branches. Then release-aware routines and complete composite probes. Extend existing tools, preserve registered letters; detailed acceptance criteria in the audit report. Conditional deadlines/countdown and old refiner-ratio entry point also need attention. No remote scheduler change installed.
 
 - CPC partial restart remains dated August evidence; SPM-3/current throughput UNKNOWN. Jazan restart/current loss and older incident backlog remain open. No aggregate outage quote.
 - Port Arthur's existing RF-008 already contains the Q2 SEC source: normal refinery throughput then does not prove diesel unit recovery or resolve September storm operations. September 2 port reopening does not certify refinery restart.
@@ -38,4 +40,4 @@ OSPREY packet remains DEFERRED in place; September 15 objection window already r
 
 ## WORKBOOK HEALTH
 
-Startup rc=0 with instrument WARNINGS, not all-clear; stale incidents/Cushing and partial composite coverage remain. Retail and option source access now succeeded; no blanket data refresh. Offline retail/STEO/quote checks and calendar/read-cap checks performed at closeout. Frozen KB/VX/FLOW, registry letters and lessons unchanged; meaningful evidence does not justify artificial ledger stamps. Future releases and missing broker receipt remain pending. No unattended monitor installed.
+Audit network boot rc=2: instrument FINDINGS (single Baker Hughes listing timeout, not permanent source failure) and ledger-nudge FINDINGS. Three partial composites, dated Cushing and nine ACTIVE plus three other stale present-status incident rows remain. Current CLAUDE is close to its byte budget; STATUS gained space through a whole-block rotation. Lessons and trade excerpt preservation pass scoped checks. Frozen KB/VX/FLOW, registry letters and prediction grades unchanged; do not fresh-stamp missing evidence. Full results and scope limits in the audit report. No unattended monitor installed.

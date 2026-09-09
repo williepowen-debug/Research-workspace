@@ -1,11 +1,15 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28; STEO remains August 11 at the 10:36 ET check. Broker execution receipt UNKNOWN. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
+**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28. September STEO published by 12:07 ET; full comparison pending (August baseline retained). Broker execution receipt UNKNOWN. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
+
+## September 9 file-health audit
+
+Quote freshness, EIA completeness/fallback, retired runtime wording and release coverage need repair. Network boot rc=2; 12 existing tests pass but targeted probes expose uncovered defects. Three composite monitors remain partial; source/spec obligations remain open. Keep the main folder structure. [Prioritized audit, reproductions and build inventory](audits/2026-09-09_file-health/REPORT.md). No runtime repair, market re-grade or execution receipt in this pass.
 
 ## September 9 approved review — before STEO publication
 
@@ -19,11 +23,7 @@ August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4
 
 Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.
 
-## September 8 batch 2 — airline evidence and BRT-12 instruments
-
-Five airline candidates received a second source review: AF-KLM has a supported group-level fuel-linked announcement; three additional eligible carriers remain unestablished. Lufthansa’s identifiable fleet package was announced in April; Air NZ’s annual narrative does not establish a new August decision. BRT-12 now has a reproducible fixed-November vendor-bar diagnostic; original futures construction and upstream credit history remain missing. FRED rejected the April build plan’s claimed energy-series ID while its broad-HY control worked; runtime already labels broad HY correctly. No prediction grade or rule changed. [Evidence, source receipts and exact remaining work](research/2026-09-08_batch2/REPORT.md).
-
-**Freshness:** this pass verified EIA publication state, not a new release: retail observation remains August 31, STEO issue August 11 (forecast August 6), WPSR week August 28. September 9–11 reads remain pending. Network boot had Ledger Nudge FINDINGS plus instrument advisories; not a clean boot. No fresh marks or broker receipt. OSPREY retimed its Q2 comparison to October 1; BRENT’s frozen September 1 comparison is unchanged and the owner-clock disagreement is explicit.
+> September 8 batch-2 dated block rotated verbatim to [archive/STATUS_dated_2026-09-09_audit.md](archive/STATUS_dated_2026-09-09_audit.md) (1274 bytes; crc32 `6b9829eb`). Open evidence work remains in SCRATCH.
 
 ## September 8 catch-up implementation — scoped evidence update
 
@@ -146,7 +146,7 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
 | **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
 | **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
-| **Wed Sep 9** | EIA September STEO — scheduled noon–12:15 ET | 🟠 |
+| **Wed Sep 9** | EIA September STEO — PUBLISHED; comparison pending | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
 | **Fri Sep 18** | USO Sep-18 150/165 call debit spread — EXPIRY | 🔴 |

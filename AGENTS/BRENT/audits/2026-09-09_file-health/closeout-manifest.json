@@ -1,0 +1,32 @@
+{
+  "base_commit": "7a6b05a583c22c3215f286d56ec6cb9e01576303",
+  "before": {
+    "STATUS.md": {
+      "bytes": 31927,
+      "sha256": "feaa4255185fe0c1ae6ac165b9bc789399ba3f8a40236773969880a8d3433bc5"
+    },
+    "SCRATCH.md": {
+      "bytes": 6322,
+      "sha256": "82d0a1344b4c30e6b10eda05ae4a5a5b11121172bb92b8f669ede83726b3b514"
+    },
+    "NEXUS_BRIEF.md": {
+      "bytes": 10383,
+      "sha256": "a00140a232c7506ebfac520a9fabd59d18da0f1a162273621dbb650d3a459e5f"
+    },
+    "demand_destruction/TRACKER.md": {
+      "bytes": 145656,
+      "sha256": "30847abd9e1ab2e578a09598186b20b3c2d0a993e2d49c8098b55b659cc74393"
+    },
+    "docket/CATALYSTS.tsv": {
+      "bytes": 58571,
+      "sha256": "c9feb869e8acd65909452534b7db0b2fe19958affb882ea2919a3b6dce6a11e5"
+    }
+  },
+  "rotation": {
+    "source": "STATUS.md",
+    "destination": "archive/STATUS_dated_2026-09-09_audit.md",
+    "bytes": 1274,
+    "crc32": "6b9829eb",
+    "sha256": "9d84982ba90d327028c9f18f74be55f99a7a701af554f2f9af1216c630ef4e4f"
+  }
+}

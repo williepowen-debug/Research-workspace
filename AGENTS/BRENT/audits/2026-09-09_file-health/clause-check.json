@@ -1,0 +1,187 @@
+[
+  {
+    "id": "BG-01",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-02",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-03",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-04",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-05",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-06",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-07",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-08",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BG-09",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-01",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-02",
+    "source_hash_matches": true,
+    "exact_in_destination": false
+  },
+  {
+    "id": "BE-03",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-04",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-05",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-06",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-07",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-08",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-09",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-10",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-11",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-12",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-13",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-14",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-15",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BE-16",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-01",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-02",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-03",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-04",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-05",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-07",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-10",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-12",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-13",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-14",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-15",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  },
+  {
+    "id": "BH-16",
+    "source_hash_matches": true,
+    "exact_in_destination": true
+  }
+]
