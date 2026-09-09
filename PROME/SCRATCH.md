@@ -3,6 +3,11 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**CONTEXT RESTART — September 8:** Next implementation priority: the approved [manual-session-plus-helper pilot](plans/2026-09-08_manual-session-helper-pilot.md); acceptance checks and restart prompt are saved there.
+Reuse a live manual owner, preserve Will’s direct access and PROME coordination, and verify one helper’s visibility, completion and recovery. No duplicate writer.
+The self-review experiment below is complete; human validation is pending. Do not rerun it as the next pilot.
+[Evening market evidence](reports/2026-09-08_evening-market-checks.md) supersedes older market UNKNOWN/earliest-fire text below. Historical desk-presence claims are not current liveness; refresh due obligations at boot.
+
 **REVIEW EXPERIMENT COMPLETE:** Will’s approved [self/separate comparison](experiments/review-pilot/RESULTS.md) ran48 workflows after freeze96b3b8ad5. Both arms22/24 automated acceptance; all final values correct. Citation eligibility on one task explains every rejection and needs human adjudication. [Masked review packet](experiments/review-pilot/evaluation-v1/human-review.md) ready; human validation PENDING. No public publication or claim of fleet superiority. Frozen inputs must remain unchanged; any follow-up is a new study.
 
 **FRESH-WINDOW TASK — implementation checkpoint:** Will approved market pickup then implementation. [Pilot results and next acceptance](reports/2026-09-08_session-pilot-results.md) supersede “research only”: owned-stdio Codex delivery/reuse, Claude native messaging/idle notices, local reservation tests and optional Fleet Ops inventory panel passed. Full manual/helper visibility, cross-runtime native transport and automatic lifecycle enforcement remain unimplemented. Preserve Will access AND PROME coordination of the same desk. Full scope → [six-area plan](plans/2026-09-08_mixed-agent-workflow.md).
