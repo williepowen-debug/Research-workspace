@@ -1,5 +1,7 @@
 # BRENT — Cloud Routines Registry (off-repo prompt mirror)
 
+> **September 9 operator decision: retain the existing Claude routines.** Their saved reports remain usable by BRENT sessions running Astra or Fable. No scheduler migration or routine-model change is selected. Apply and verify only the prepared timing/publication-handling repair; remote changes remain NOT INSTALLED. This records the hosting decision, not a changed live configuration.
+
 > **September 9 maintenance — READY, NOT INSTALLED:** [exact timing/prompt update and acceptance checks](audits/2026-09-09_maintenance/ROUTINE_UPDATE.md). This session has no RemoteTrigger or routine-control tool; server-side settings remain unverified. The live-settings mirror below is unchanged. A local plan does not provide Thursday coverage or move Friday's run.
 
 > **Audit note 2026-09-08 — source timing, not a remote schedule change:** the mirrored Wednesday 11:00 ET run precedes this week’s WPSR release (Thursday September 10 noon ET). Treat any Wednesday output as pre-release; arrange the owner read after publication. The mirrored Friday 14:00 ET run also precedes COT ~15:30 ET, so it cannot by itself capture the new Friday COT print. Server-side settings were not inspected or changed. [Audit A11](audits/2026-09-08_stale-intel/REPORT.md).

@@ -10,6 +10,8 @@ Implemented audit A1–A4 and A7–A9; extended A6 with complete STNG/FRO/DHT di
 
 ## NEXT SESSION (dated, future-verifiable)
 
+**September 9 decision:** keep existing Claude routines; Astra/Fable BRENT sessions consume the shared files. Timing/publication repair still awaits remote application; no migration or routine-model change. Next substantive task remains the published September STEO comparison.
+
 **September 9 planning addendum:** execution order and completion tests are in [remaining-work plan](audits/2026-09-09_maintenance/REMAINING_PLAN.md). Brief scheduler-access pass, release reads at their windows, BRT-12 definition/history recovery, then prioritized source gaps. Plan only; no activation or new evidence this turn.
 
 1. **September 9 XLE receipt pending:** user was asked for actual quantity, price and time; no response yet. Keep selected exit pending until receipt. TERRY/Will own broker checks/execution. Never infer fill from intention, quote or screenshot.

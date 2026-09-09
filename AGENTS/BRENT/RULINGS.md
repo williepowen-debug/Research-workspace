@@ -321,3 +321,8 @@ Additional nonbinding provenance moved from CLAUDE § KEY THRESHOLDS and § OUTP
 > ⛔ **This pointer was itself STALE 2026-07-31 → 2026-08-04** — the F3 ruling fixed ownership ONCE, the RAV pilot moved the answer to `REGISTRY.tsv`, and nothing re-asked the question. **A pointer that was correct when written is the hardest stale surface to see.** 📖 Full account → [`RULINGS.md`](RULINGS.md) § R-2026-08-04.
 
 *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
+
+
+## R-2026-09-09-routine-host — retain existing Claude routines
+
+Will selected retaining the existing routines after distinguishing BRENT files, the session model and scheduler hosting. Astra can consume Claude-produced reports; changing the live-session model does not justify migration. The selected plan is in SCHEDULED_RUNS.md and the maintenance remaining-work plan: preserve the host and apply the already prepared timing/publication repair. Remote configuration is still unverified/unmodified; no routine-model change or migration adopted.

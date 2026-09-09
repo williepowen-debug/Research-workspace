@@ -9,7 +9,7 @@
 
 ## September 9 remaining-work plan
 
-[Ordered work and completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Planning only; no market/source refresh, activation or grade.
+[Ordered work and completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Will selected retaining existing Claude routines; either live-session model can consume their shared files. Timing repair remains uninstalled. Planning only; no market/source refresh or grade.
 
 ## September 9 maintenance — implemented locally
 

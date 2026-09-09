@@ -2,6 +2,8 @@
 
 September 9, 2026 — requested by Will after the maintenance explanation. Proposed execution order; writing this plan does not activate a routine, verify a source, grade a prediction or create a new recurring obligation. Extends the existing maintenance report and SCRATCH queue; supersedes their unsequenced backlog description. Canonical rules and scoring dates remain unchanged.
 
+**September 9 operator decision: retain the existing Claude routines.** Their saved reports remain usable by BRENT sessions running Astra or Fable. No scheduler migration or routine-model change is selected. Apply and verify only the prepared timing/publication-handling repair; remote changes remain NOT INSTALLED.
+
 ## Order and completion tests
 
 | Order | Work | First pass | Completion evidence |
