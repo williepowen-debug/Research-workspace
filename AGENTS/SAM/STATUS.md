@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-08 integration closeout (ET). Market observations through Sep-8; U.S. funding Sep-4; CFTC Sep-1; monthly flows August. BOJ OIS separately refreshed to Sep-9 11:15 JST (assumed); verified 23:10 ET Sep-8. Source clocks below.**
+**Last written: 2026-09-09 17:00 ET startup. FX/options/proxy retrieved Sep-9 ~16:58 ET; other clocks below. BOJ current quote UNAVAILABLE pending new-image review.**
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired against `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` §2/§5; RED blind-pass header verdict **KILL-as-successor-frame**, body **UNREAD / Will-gated**). · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.** *(🔧 A label-vs-pointer contradiction on this line named different documents and PROME propagated the LABEL into HEARTBEAT §4 on 8/27 — full record in `STATUS_ARCHIVE.md`.)*
 
@@ -15,6 +15,10 @@
 *Detail → `thesis/THESIS.md` v1.7 · `CHANGELOG.md` 2026-08-07 · `outbox/2026-08-07_to-TERRY-PROME_RESOLVER-COMPLETE-section8-DE-LOAD-leg1-fired-frame-LOW.md` · pre-print re-pencil `thesis/REPENCIL_2026-08-07_PREPRINT.md` (committed BEFORE the print).*
 
 ---
+
+## 2026-09-09 — Startup orientation
+
+[Boot record](reports/2026-09-09_orientation.md): starting context loaded; 13/14 script legs pass. BOJ changed-image guard stops current pricing. Retired threshold-script labels rejected; no thesis or prediction change.
 
 ## 2026-09-08 — Durable integration completed
 
@@ -32,25 +36,25 @@ Integration map and validation: [integration report](reports/2026-09-08_integrat
 
 ## LIVE MARKET DATA
 
-*Boot FX/FXY quotes retrieved ~21:13 ET; research market/funding pulls ~22:00–22:08 ET. MOF curve Sep-8. Different observation clocks are not interchangeable; report retains exact raw retrieval records.*
+*FX/FXY quotes retrieved Sep-9 ~16:58 ET; older research/funding observations retain their stated dates. MOF curve Sep-8. Boot record preserves source clocks and limitations.*
 
 | Instrument | Level / vintage | Note |
 |---|---|---|
 | CFTC non-commercial JPY | **−92,227; 49.0% of R=188,077**, Sep-1 | WoW −28,929; longs −11,171 / shorts +17,758; OI 411,882 (+27,666). Short build predates Sep-3/8 rally. Script 51.2% uses retired denominator; do not cite it. |
 | CFTC TFF cohorts | Not refreshed | No new cohort or liquidation inference. |
-| USD/JPY | **153.71** pulled quote; BOJ **153.80–82 at 17:00 JST Sep-8** | BOJ range **152.90–154.36**; 155 crossed. Intraday sub-153 is not a sustained sub-153 close. Intervention and broader driver remain OPEN. |
-| FXY | **$59.56**, latest fetched US-session quote | Retrieval ~21:13 ET does not make this a live overnight execution price. |
-| EURJPY / GBPJPY / AUDJPY | **178.78 / 208.21 / 111.05**, retrieved Sep-8 | Current VIX/risk-off precondition not checked; no SAM-31 grade. |
+| USD/JPY | **153.56** Sep-9 fetched quote; BOJ **153.80–82 at 17:00 JST Sep-8** | BOJ range **152.90–154.36**; 155 crossed. Intraday sub-153 is not a sustained sub-153 close. Intervention and broader driver remain OPEN. |
+| FXY | **$59.70**, Sep-9 fetched quote | Retrieved ~16:58 ET; not a certified execution mark. |
+| EURJPY / GBPJPY / AUDJPY | **178.61 / 207.99 / 110.82**, retrieved Sep-9 | Current VIX/risk-off precondition not checked; no SAM-31 grade. |
 | DXY / VIX | **98.794 / 15.72**, September 8 vendor/CBOE observations | VIX up modestly; no systemic volatility spike established. |
 | Brent, named contract | **BZX26.NYM (November) $99.28**, September 8 vendor daily mark | Not certified settlement. Matched Sep-4/8 hourly yen-oil cost **+1.36%**; use report clocks. |
 | JGB MOF Sep-8 | **2Y 1.848 / 5Y 2.258 / 10Y 2.896 / 20Y 3.717 / 30Y 3.961 / 40Y 3.965%** | 30Y ten-close >4% run ended Sep-4 at 3.965; Sep-7 4.009 then back below Sep-8. Prior series highs 4.131/4.145 [Sep-1] remain historical. |
 | US–JP differential, Sep-8 | **5Y 2.312pp / 10Y 1.904pp** | Above 2.25/1.80 bars; current runs 0/5. SAM-41's historical confirmation unchanged. |
 | 5Y auction Sep-8 | **BTC 3.422x / tail 0.9bp** | MOF bids 6,554.3 / accepted 1,915.4 billion yen; yields 2.248% low / 2.239% average. Belly, not super-long floor test. |
 | 30Y auction Sep-3 | **BTC 3.788x / tail 2.1bp: SOFT on frozen bars** | Distinct from script's generic Orderly flag. Tail 0.1bp trip margin equals quote quantization; precision ruling owed before Sep-29. |
-| BOJ September pricing | **98% incremental 25bp equivalent**, Totan **Sep-9 11:15 JST assumed** | Indicative meeting OIS 1.2213%; reviewed chart, policy-only/25bp model. `BOJ_MEETING_OIS.tsv`; new charts require visual review. September 8 97% remains a historical observation. |
+| BOJ September pricing | **CURRENT UNAVAILABLE** Sep-9 boot: changed image | Prior reviewed Sep-9 11:15 JST-assumed **98%** equivalent is historical. New image needs review; no stale fallback. |
 | MOF weekly foreign LT debt | **−¥824.0B**, Aug-23–29 | Source rechecked, no newer period. Four-week −¥12.1B; inward JGB +¥509.1B. Weekly inside ¥1.5T bar; not UST-specific. |
-| FXY options | Sep-18 proxy **ATM IV 13.21%, RR −5.27, P/C .06**, Sep-8 snapshot | October/December RR implausible; thin ETF proxy, not underlying FX vol. No fresh directional or cheap-vol claim. |
-| JPY xccy proxy | **Sep-8**, residual −10.78bp; change −1.58bp | Freshness bug repaired. Futures/bill/assumed-policy residual, not true basis; mark timing and Sep-14 expiry matter. |
+| FXY options | Sep-18 proxy **ATM IV 14.23%, P/C .07**, Sep-9 snapshot | Sep/Oct RR implausible; no skew or cheap-vol inference. Thin ETF proxy, not underlying FX vol. |
+| JPY xccy proxy | **Sep-9**, residual **−11.78bp**; change **−1.15bp** | Sep-8 vendor mark revised to −10.63bp. Futures/bill/assumed-policy residual, not true basis; fixed pair expires Sep-14. |
 | U.S. funding / credit | SOFR−IORB **0bp**, 99th−IORB **+8bp**, Sep-4; HY **268bp**, IG **81bp**, Sep-7 | U.S. funding/credit lag Sep-8 markets. No direct offshore basis quote. |
 | Japan domestic data | Q2 GDP **+1.4% annualized**; July scheduled wages **+4.1% YoY**, released Sep-8 | Domestic-demand contribution −0.1pp; stronger wages do not make GDP domestic-led. |
 | MOF August sector flows | Life insurers foreign LT bonds **−¥137.3B**; trust accounts **+¥2,332.6B** | Report released Sep-8. Neither series identifies USTs; trust accounts ≠ GPIF. |

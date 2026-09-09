@@ -26,6 +26,10 @@
 
 ## Session Notes
 
+### September 9 startup orientation
+
+Starting documents and September 8 integration loaded; [boot record](reports/2026-09-09_orientation.md). 13/14 scripts passed after authorized network retry. BOJ changed-image review remains outstanding; prior 98% is historical. Old threshold-script labels are not current thesis judgments. Three OPEN predictions unchanged. WALTER courtesy pointer already satisfied by the prior owner report; archived. Inherited research backlog below remains pending.
+
 ### CHANGES SINCE LAST SESSION / LAST SESSION — September 8 integration
 
 - Approved catch-up is integrated into THESIS, JGB supply/demand, insurer tracker, MOF playbook and KB-209. File map: `reports/2026-09-08_integration.md`; market research: `reports/2026-09-08_catchup-assessment.md`. Before-images preserved in the integration evidence package.
