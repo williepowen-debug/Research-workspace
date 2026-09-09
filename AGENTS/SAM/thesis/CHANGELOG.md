@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-08 — monitoring update, v1.7 unchanged
+
+Old: 155 not yet crossed, Sep-4 front-end discriminator pending. New: BOJ Sep-8 low 152.90 and 17:00 JST 153.80–82; MOF Sep-4 2Y −2.0bp and 30Y −8.7bp, no hawkish front-end confirmation. Broader attribution remains OPEN; no new intervention exclusion. Threshold observation is not mechanism confirmation. THESIS monitoring note and TIMELINE updated; no gates, probabilities or prediction grades changed. Report: `../reports/2026-09-08_boot.md`.
+
 ## 2026-08-27 — ⚰️ **v2.0 CANDIDATE KILLED after RED's blind pass + the sealed cross-read · ✅ SAM-41 RESOLVED CONFIRMED.** **NO version change — THESIS v1.7 stands, no successor frame declared, book FLAT, $0 at risk.**
 
 **① THE v2.0 CANDIDATE IS DEAD, TWICE OVER.** `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` banner-killed (do-not-cite; audit record only).
