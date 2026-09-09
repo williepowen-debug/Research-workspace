@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28. September STEO published by 12:07 ET; full comparison pending (August baseline retained). USO October call CLOSED on PROME receipt; XLE receipt pending. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
+**Last real data refresh: 2026-09-09 — September STEO comparison completed, forecast cutoff September 3.** Retail retains September 7 observation; delayed options 10:26–10:27 ET; futures/equities 09:58 ET. Weekly physical data remain August 28. USO October call CLOSED on prior PROME receipt; XLE receipt pending. [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md) · [Earlier review and WPSR worksheet](research/2026-09-09_squeeze-review/REPORT.md).
 
 ---
 
@@ -9,7 +9,9 @@
 
 ## September 9 remaining-work plan
 
-[Ordered work and completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Will selected retaining existing Claude routines; either live-session model can consume their shared files. Timing repair remains uninstalled. Planning only; no market/source refresh or grade.
+**STEO read COMPLETED September 9:** [EST EIA September versus August workbooks; simple monthly means] Q4 world draw **0.6257 → 1.7091 mb/d**: supply revision **−1.5077**, partly offset by consumption **−0.4243**. Q3→Q4 supply recovery **3.9962 → 1.8963 mb/d**. Counterevidence: Q3 draw **3.8454 → 2.9846** and year-end OECD stocks **2,476.9002 → 2,568.3135M**. OPEC spare path unchanged: **0.020 mb/d H2 2026**, **0.030 Q1 2027**, **2.380 from April**; single-agency forecast, not observed recovery. September U.S. distillate stocks **104.7256 → 99.4153M**. Product-pressure case persists, but higher starting stocks prevent a blanket faster-depletion claim. Model cutoff September 3 excludes later attacks. Numeric table already builds from January 2027 despite later narrative wording; source mismatch retained. v5.8 calibration/falsifiers and STAND DOWN unchanged. [Sources, calculations and limits](research/2026-09-09_steo-comparison/REPORT.md). Next physical read: September 10 WPSR; original BRT-12 and overdue BRT-29 evidence remain open.
+
+[Prior plan and current completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Will selected retaining existing Claude routines; either live-session model can consume their shared files. Timing repair remains uninstalled. The earlier planning pass supplied no market/source refresh or grade; the completed STEO evidence is above.
 
 ## September 9 maintenance — implemented locally
 
@@ -139,20 +141,21 @@ Workbook navigation and live/history ownership are now explicit in [workbook/REA
 | **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
 | **Wed Sep 9** | USO October 135C — CLOSED; October 9 time stop discharged | 🟡 |
 | **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
-| **Wed Sep 9** | EIA September STEO — PUBLISHED; comparison pending | 🟠 |
+| **Wed Sep 9** | EIA September STEO — READ: same-series comparison completed | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
 | **Fri Sep 18** | USO Sep-18 150/165 call debit spread — EXPIRY | 🔴 |
 | **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
+| **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 20 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 21 rows are modeled.*
 
-*20 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*21 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.

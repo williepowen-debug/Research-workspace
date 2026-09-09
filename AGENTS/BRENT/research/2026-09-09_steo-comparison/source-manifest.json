@@ -1,0 +1,63 @@
+{
+  "repo_head_before": "0d8886646aa7360dec1db284184f21b3bd7fb974",
+  "september_issue": "2026-09-09",
+  "september_forecast_completed": "2026-09-03",
+  "august_issue": "2026-08-11",
+  "august_forecast_completed": "2026-08-06",
+  "august_baseline": {
+    "file": "2026-09-09_squeeze-review/aug26_base.xlsx",
+    "sha256": "2f58e3cee31c68b395bbc468673a887e5691b91bfad2c1676f2e58f5fe84b1d1"
+  },
+  "sources": [
+    {
+      "file": "sep26_base.xlsx",
+      "requested_url": "https://www.eia.gov/outlooks/steo/archives/sep26_base.xlsx",
+      "final_url": "https://www.eia.gov/outlooks/steo/archives/sep26_base.xlsx",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "retrieved_utc": "2026-09-09T19:24:18.182924+00:00",
+      "bytes": 1096855,
+      "sha256": "c06a15243b0d972045ecc59cf9376885f68c7c306c581de5d01e6b8ac1a236c5"
+    },
+    {
+      "file": "sep26.pdf",
+      "requested_url": "https://www.eia.gov/outlooks/steo/archives/sep26.pdf",
+      "final_url": "https://www.eia.gov/outlooks/steo/archives/sep26.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "retrieved_utc": "2026-09-09T19:24:18.277148+00:00",
+      "bytes": 6783484,
+      "sha256": "4603d5713078d4f33de304caf4871d1d0c4485527cc8de72640e8282db126b18"
+    },
+    {
+      "file": "overview.html",
+      "requested_url": "https://www.eia.gov/outlooks/steo/",
+      "final_url": "https://www.eia.gov/outlooks/steo/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_utc": "2026-09-09T19:24:19.134604+00:00",
+      "bytes": 64302,
+      "sha256": "85ad7a2aecd541bdee733e3c80ced96361d7a67b3240c9c852e905aaeb255d72"
+    },
+    {
+      "file": "global-oil.html",
+      "requested_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "final_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_utc": "2026-09-09T19:24:18.132210+00:00",
+      "bytes": 2803,
+      "sha256": "cf681062865e66b2169af7430ccafdfa0c5e2f38fdace68debeaeaf07ff73a3b"
+    },
+    {
+      "file": "products.html",
+      "requested_url": "https://www.eia.gov/outlooks/steo/report/petro_prod.php",
+      "final_url": "https://www.eia.gov/outlooks/steo/report/petro_prod.php",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_utc": "2026-09-09T19:24:27.577780+00:00",
+      "bytes": 2805,
+      "sha256": "4e1ce43b4918b90281da8c0ddb070e709f51fe163af838481a4e96fcecd07fff"
+    }
+  ]
+}

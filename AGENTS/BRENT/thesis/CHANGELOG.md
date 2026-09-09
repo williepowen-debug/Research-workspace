@@ -1,5 +1,9 @@
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
+## 2026-09-09 — September STEO evidence completed (v5.8 / grades unchanged)
+
+Old evidence: August forecast expected Q3→Q4 world supply recovery of 3.9962 mb/d and Q4 draw of 0.6257. New same-series September evidence: recovery 1.8963 and draw 1.7091, with weaker demand partly offsetting the supply cut. Counterevidence retained: smaller Q3 draw, higher OECD inventory base/year-end stock; April 2027 spare-capacity step unchanged. All are EIA estimates/forecasts, cutoff September 3, not measured reopening or newly confirmed capacity loss. Numeric 2027 build timing and narrative wording disagree; table used, mismatch disclosed. No phase/conviction/probability change or horizon roll. Docket research read completed; existing physical-release and prediction rules unchanged. [Primary archive, full decomposition and reproduction](../research/2026-09-09_steo-comparison/REPORT.md).
+
 ## 2026-09-09 — approved review before STEO (v5.8 / grades unchanged)
 
 Old view: September 7 retail unavailable; August STEO and August 28 physical data carried. New evidence: gasoline 4.157 (+0.086), diesel 5.967 (+0.368), all five PADDs higher; indicative November product margins diverge. Supports fuel-cost pressure, with no quantified new aggregate loss or phase/calibration change. August STEO baseline and WPSR worksheet saved; future releases pending. BRT-29 notes add Ryanair's out-of-window September 2 cut and Norse's unresolved new-event attribution; first nine TSV fields unchanged. BRT-12 historical construction/upstream OAS remains missing. [Integrated report](../research/2026-09-09_squeeze-review/REPORT.md).

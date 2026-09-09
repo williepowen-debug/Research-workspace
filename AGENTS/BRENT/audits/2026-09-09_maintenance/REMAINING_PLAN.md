@@ -20,7 +20,7 @@ Effort estimates are planning budgets, not promises that external evidence will 
 
 These are the already recorded owner checkpoints, not newly installed unattended tasks. Verify publisher timing and intended observation at execution:
 
-- September 9: complete the already-approved comparison of published September STEO with the preserved August baseline. Do this in the next substantive research block; scheduler access cannot hold it up.
+- September 9 **COMPLETED:** [September versus August STEO comparison](../../research/2026-09-09_steo-comparison/REPORT.md). Seven original series reproduced; Q4 draws higher on less supply recovery, Q3 draws lower and OECD stock base higher, April 2027 spare-capacity return unchanged. Source hashes, monthly balances, baseline reproduction and PDF cross-check pass. Forecast cutoff September 3; no observed-reopening or grade claim. Scheduler access did not hold up this read.
 - September 10: WPSR noon ET and later supporting files at 14:00, intended week ending September 4. Preserve named SPR observation weeks/bands. If scheduler activation is not verified, the read requires an attended BRENT session.
 - September 11: Baker Hughes and COT after publication; COT intended as-of September 8. The planned Friday routine is 16:15 ET. A missed or delayed release remains explicit and is not replaced with the previous print.
 

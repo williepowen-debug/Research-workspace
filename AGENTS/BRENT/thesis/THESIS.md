@@ -3,6 +3,8 @@
 **Version:** 5.8. **Thesis calibration:** September 2, 2026; unchanged by this reconciliation.
 **Reader reconciliation:** September 8, 2026. Weekly physical observations remain week ending August 28; price observations retain their own dates and source classes. This is not a new market or broker refresh.
 
+**September 9 evidence update; calibration unchanged:** [September STEO comparison](../research/2026-09-09_steo-comparison/REPORT.md), forecast cutoff September 3, revises Q4 supply recovery lower and projected draws higher. It also raises the OECD stock base and reduces Q3 draws; OPEC surplus recovery remains April 2027. This supports continued attention to supply delivery and product pressure without establishing faster depletion everywhere or observed reopening. The two-phase mechanism, September 2 probabilities/horizons and existing falsifiers below are not reissued or re-marked. Numeric monthly balances already build from January 2027; the source narrative's H2 timing wording is not adopted as a new transition date.
+
 The full previous document, including every version note, retired rule and dated claim, is preserved in [the before-image](../archive/2026-09-08_thesis-reconciliation/thesis/THESIS.md), with [hash manifest](../archive/2026-09-08_thesis-reconciliation/manifest.json). This current synthesis replaces its contradictory June–August reader paths. [Change record](CHANGELOG.md) · [catch-up evidence](../research/2026-09-08_catchup/REPORT.md).
 
 ## CORE THESIS
