@@ -191,7 +191,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 - **Early 9/8** Houthi salvo on **Abha · Khamis Mushait · Jizan · Najran** — Saudi MoE: fires at several energy facilities, *"temporary halt in some operations"*; **73 civilians injured**; Saree claims Aramco Abha/Najran/Jazan Economic City/Jizan + Khamis Mushait AB, *"dozens of ballistic missiles and drones"*, answering 121 Saudi strikes in three days. **Refining and product distribution only; Jazan already shut; zero incremental barrels.** Iran doubles the third-tier gasoline price under a security deployment. Qatar's FM: *"industrial catastrophe"* if Hormuz stays closed.
 - **9/8 ~14:30–18:30 ET** CENTCOM destroys/disables **five more Iranian tankers** — Kaviz, Charminar, Horizon 1 (LPG), Riesco (Gulf of Oman); **Derya, an empty NITC VLCC, AT Kharg** (terminal damage not reported) — crews evacuated; **none sunk**. Rubio: *"every time Iran tries to hit US Navy ships, it will lose tankers."* **Eight Iranian export hulls since 9/5.** IRGC claims a strike on the Al-Azraq hangar in Jordan.
 - **~21:00 ET (9/9 local)** 🔴 **IRGC Navy warns all oil tankers IN Kuwaiti and Bahraini PORTS to evacuate — *"they will be targeted."*** The first explicit threat to third-party hulls on GCC territory; **the class the ladder cannot record — nothing is registered above D 75.**
-- **Desk actions 9/8:** attacker-identity axis APPLIED to the sinking ledger (DOCKET L301, base rate `KB-FALCON-142`); **D→85 rung PROPOSED with base rates** (DOCKET L300, Will's word); every registered rail graded — **nothing fires; marks HELD as a rail cap.**
+- **Desk actions 9/8:** attacker-identity axis APPLIED to the sinking ledger (DOCKET L301, base rate `KB-FALCON-142`); **D→85 rung PROPOSED with base rates — and REGISTERED by Will at 2026-09-08 ~22:5x ET** (DOCKET L300 RULED); every registered rail graded — **nothing fires; marks HELD at 75, now on the rung's letter.**
 
 ---
 
@@ -199,7 +199,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 
 | Trigger | Bull fork (B/C↑) | Bear fork (D↑) | Status 2026-09-08 |
 |---|---|---|---|
-| **A rung above D 75** | — | The ladder's ability to record ANY bear fork below | ⛔ **NOT REGISTERED** — D→85 PROPOSED 9/8 (four base-rated triggers + non-triggers, report §3, DOCKET L300); **Will's ruling asked by 9/14** |
+| **A rung above D 75** | — | The ladder's ability to record ANY bear fork below | ✅ **REGISTERED 2026-09-08 ~22:5x ET (Will, *"go with your recommendations"*)** — D→85 on (a)/(b)/(c)/(d), non-triggers written; canonical letter `workbook/EXIT_PROTOCOL.md` §2; **ARMED, UNFIRED** |
 | **Class-(iii-A) sinking** — Iran/proxy sinks a NON-Iranian tanker | — | The event GATE 2 was priced on; proposed trigger (a) | 🟢 **n=0** (0 of ≥17 non-Iranian tanker hits have sunk); **under explicit IRGC threat** |
 | **IRGC/proxy hit on a merchant hull IN a GCC port/anchorage** | — | Gulf-state-territory targeting; proposed trigger (c) | 🟢 **Zero precedent in 193 days; class NAMED 9/8-9** (Kuwait/Bahrain warning). Watch Mina al-Ahmadi / Shuaiba / Sitra |
 | **FAL-05** (55%, → 10/7) — NEW confirmed crude/condensate loss | Expires CONFIRMED → regime call more robust | FIRES → crude leg broken, P→R complete; proposed trigger (b) | 🟢 **Unfired after 9/8**; routes (a)(b)(c) all tested. **Watch Kharg loadings after the Derya strike** (route c, new cause) |
@@ -241,7 +241,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 ### What remains unresolved
 | Issue | Status 9/8 | Risk |
 |---|---|---|
-| **A rung above D 75** | PROPOSED, not registered (DOCKET L300) | The ladder cannot record a (iii-A) sinking or an in-port hull hit |
+| **A rung above D 75** | ✅ **RESOLVED 2026-09-08 ~22:5x ET — registered by Will** | (moved to the resolved table in spirit; kept here so the 9/8 line count reads the same) |
 | **Kuwait/Bahrain in-port tanker threat** | Declared 9/8-9; not executed; no official responses found | The first Gulf-state-territory targeting of third-party shipping; first class Western war-risk would reprice |
 | **Five 9/8 hulls — sunk or afloat?** | "Rendered inoperable"; none confirmed sunk | A confirmed sinking = second class-(iii) → EXIT_PROTOCOL rewrite |
 | **Kharg loadings after the Derya strike** | Terminal damage not reported; loadings unverified on dark-immune routes | FAL-05 route (c) with a new cause |
@@ -271,7 +271,7 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 | **Pause + third belligerent** | Jul 24 – Jul 29 | 147-152 | US-Iran paused; **Saudi-Houthi opens** (Jazan 7/25); Iraqi militias enter (Abqaiq 7/27); one heavy wave 7/29 |
 | **The long pause** | Jul 30 – Aug 29 | 153-183 | 32 strike-free nights; Kharg halted 7/18→8/12 under the blockade; vessels not facilities (dhow sunk 8/4; Tihamah 8/12); MOU expires 8/17; leg 3 fires 8/15; Oman interim framework 8/26 |
 | **The campaign** | Aug 30 – Sep 4 | 184-189 | Larak 8/30 · wave 2 9/1; Jordan salvos; two laden Saudi VLCCs hit off Khasab 8/31 |
-| **Tanker war + southern salvo** | Sep 5 – present | 190-**193** | Kylo SUNK 9/5 (GATE 2 fires); 8 Iranian hulls by 9/8; Houthi salvo on four Saudi cities 9/8; IRGC in-port tanker threat; **ladder rail-capped at D 75** |
+| **Tanker war + southern salvo** | Sep 5 – present | 190-**193** | Kylo SUNK 9/5 (GATE 2 fires); 8 Iranian hulls by 9/8; Houthi salvo on four Saudi cities 9/8; IRGC in-port tanker threat; ladder rail-capped at D 75 until the D→85 rung was registered 2026-09-08 ~22:5x ET |
 
 **Current: War Day 193** (2026-09-08; computed from Feb 28 = Day 1, not asserted). **Tanker-war Day 4.**
 

@@ -255,3 +255,6 @@ A forward note was appended to `TIMELINE.md` recording that its narrative stoppe
 **Same-session companions (not THESIS/TIMELINE, logged for the trail):** eight of nine `VX.tsv` rows re-verified with `[Sep8]` blocks after 40 days at 7/30; `EXIT_PROTOCOL.md` §1 kill table and §4 thresholds re-graded; 68 expired `KB.tsv` rows dispositioned (SUPERSEDED / CONFIRMED / STALE); `FRESH_LEG_BASELINE.md`, `BYPASS_INTEGRITY_BASELINE.md`, `IRAQ_PMF_DISCRIMINATOR_REVIEW.md`, `SOURCES.md`, local `MEMORY.md` and the FALCON `CLAUDE.md` FILES table refreshed; `bypass_watch.py` no longer prints a hardcoded scenario mark.
 
 > *(Header still says "reverse chronological"; practice is ascending. Appended at the END to match practice — flagged 7/30, unchanged.)*
+
+## 2026-09-08 ~22:5x ET — D 75→85 rung REGISTERED by Will (no THESIS version change; v2.2 amended in place)
+Will, verbatim *"go with your recommendations"*, on the three options FALCON put to him. The rung is registered as proposed (four triggers, written non-triggers incl. further (iii-B) losses, −10 split default 8/2, nothing above 85). Canonical letter → `workbook/EXIT_PROTOCOL.md` §2; `KB-FALCON-147`. THESIS v2.2's conviction line moves LOW → MEDIUM on the ladder above 75; its KEY THRESHOLDS row and footer trigger updated; TIMELINE's branch-point row resolved. **ARMED, UNFIRED — D stays 75 on the letter.**

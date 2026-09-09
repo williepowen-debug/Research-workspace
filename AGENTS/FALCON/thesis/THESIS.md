@@ -2,9 +2,9 @@
 
 **Version:** 2.2 (2026-09-08 — v2.1's molecule-split core claim intact; a FOURTH transmission channel added, the attacker axis named, and the ladder's rail cap recorded). v2.1 (7/30) narrowed the claim on the molecule axis; v2.0 (7/27) was the first FALCON-authored thesis, superseding inherited HAWK v1.2 of 2026-04-20 wholesale.
 **Last Updated:** 2026-09-08 (staleness sweep — v2.1's own rewrite trigger, *"FAL-04 resolving either way"*, fired 2026-08-20 and went unactioned for 19 days; this is the discharge, and the footer trigger is re-dated)
-**Status:** 🔴 ACTIVE WAR, **War Day 193.** ⚠️ **THE REGIME CALL IS MOLECULE-SPLIT (v2.1): risk-premium for CRUDE — 193 days, zero confirmed crude-production barrels offline, and it survived the 9/5–9/8 TANKER WAR; SUPPLY-LOSS already realized for GAS (Ras Laffan FM, since 2026-03-24) and REFINED PRODUCT (Jazan, shut 7/27, struck again 9/7 and 9/8, restart never confirmed).** The unqualified *"premium, not supply-loss"* claim is RETIRED — do not re-export it. **v2.2 addition: the war has opened a channel that runs through HULLS rather than facilities or chokepoints — the US is destroying the Iranian export tanker fleet under a declared tit-for-tat rule — and the scenario ladder has NO RUNG ABOVE D 75 to record it.**
-**Conviction:** MEDIUM-HIGH on the regime call · MEDIUM on the marks · **LOW on the ladder's ability to record further escalation until Will rules on the rung (DOCKET L300)**
-**Scenario ladder:** **B 3 / C 22 / D 75** · **Convergence 43/50** · **P 23/25 · K 15/20 · R 13/20** *(re-marked 2026-09-07 on the registered D→75 trip — `VX-FALCON-SUNK-01` class-(iii) fired on the M/T Kylo sinking; 75 is Will's ABSOLUTE destination of 8/6; **HELD 2026-09-08 as a RAIL CAP** — nothing is registered above 75. R3 remains at the floor.)* ⚠️ **STATUS.md is canonical for marks — on conflict STATUS wins.**
+**Status:** 🔴 ACTIVE WAR, **War Day 193.** ⚠️ **THE REGIME CALL IS MOLECULE-SPLIT (v2.1): risk-premium for CRUDE — 193 days, zero confirmed crude-production barrels offline, and it survived the 9/5–9/8 TANKER WAR; SUPPLY-LOSS already realized for GAS (Ras Laffan FM, since 2026-03-24) and REFINED PRODUCT (Jazan, shut 7/27, struck again 9/7 and 9/8, restart never confirmed).** The unqualified *"premium, not supply-loss"* claim is RETIRED — do not re-export it. **v2.2 addition: the war has opened a channel that runs through HULLS rather than facilities or chokepoints — the US is destroying the Iranian export tanker fleet under a declared tit-for-tat rule — and — as of 2026-09-08 ~22:5x ET — a REGISTERED D 75→85 rung (`workbook/EXIT_PROTOCOL.md` §2) to record what comes next.**
+**Conviction:** MEDIUM-HIGH on the regime call · MEDIUM on the marks · **MEDIUM on the ladder above 75 — the D→85 rung was REGISTERED by Will 2026-09-08 ~22:5x ET (DOCKET L300 RULED)**
+**Scenario ladder:** **B 3 / C 22 / D 75** · **Convergence 43/50** · **P 23/25 · K 15/20 · R 13/20** *(re-marked 2026-09-07 on the registered D→75 trip — `VX-FALCON-SUNK-01` class-(iii) fired on the M/T Kylo sinking; 75 is Will's ABSOLUTE destination of 8/6; **HELD 2026-09-08 on the letter** — the D→85 rung was REGISTERED by Will at 2026-09-08 ~22:5x ET and is unfired. R3 remains at the floor.)* ⚠️ **STATUS.md is canonical for marks — on conflict STATUS wins.**
 
 > **⚠️ WHY v2.0 IS A MAJOR VERSION.** v1.2 was a *deadline* thesis — it modelled the Apr 21 ceasefire-expiry clock, used a 4-tier A/B/C/D ladder, and priced everything off one binary event. All of that is dead. This document is built on a different question entirely: **not "does the war escalate?" but "does the war's damage ever become lost barrels?"**
 >
@@ -94,7 +94,7 @@ What *is* priced is **willingness to move a hull**. War-risk premia across four 
 | **IRGC/proxy hit on a merchant hull IN a GCC port or anchorage** | Gulf-state-territory targeting of third-party shipping | 🟢 **Zero precedent in 193 days; class NAMED by the IRGC 9/8-9.** Proposed D→85 trigger (c). |
 | **Dated Oman framework** | B flip-up (needs framework **+ a date**) | 🟡 INTERIM framework 8/26 (temporary ~7-mile corridor + mine clearance); permanent-route window **9/25–10/26** (DOCKET L229); **no date**; Rezaei: *"under Iran's management."* |
 | **Second, larger salvo at YANBU / the Petroline** | Frame-breaker — 92% of Saudi seaborne crude | 🟢 Unfired — the 9/7–9/8 salvos hit Jazan/Abha/Najran, ~700 km south. |
-| **A rung above D 75** | The ladder's ability to record any of the above | ⛔ **NOT REGISTERED.** D→85 PROPOSED 9/8 with four base-rated triggers + non-triggers (`reports/2026-09-08_theater-catchup-and-ladder-proposal.md` §3). **Will's word registers it.** |
+| **A rung above D 75** | The ladder's ability to record any of the above | ✅ **REGISTERED 2026-09-08 ~22:5x ET by Will** (*"go with your recommendations"*): D 75→85 on (a) class-(iii-A) sinking · (b) FAL-05 FAILS · (c) in-port GCC hull hit · (d) US KIA on/after 9/8; non-triggers written. Canonical letter → `workbook/EXIT_PROTOCOL.md` §2. **ARMED, UNFIRED.** |
 
 ---
 
@@ -109,7 +109,7 @@ Registered flip-down (*"strikes resume"*) fired 7/29 (10→5) and the 9/7 trip t
 *"Oscillating, mostly-intercepted salvos with talks alive but stuck"* is still partly descriptive — every IRGC launch has been evaded, every Jordan salvo intercepted, no US casualty — and less so each day the tanker war converts launches into hulls. C absorbed 8 of the 9/7 trip's −10.
 
 ### D — Full Re-escalation / Damage Regime — **75%**
-**75 is Will's ABSOLUTE destination (ruled 8/6) for a class-(iii) hull loss, reached 9/7 on the Kylo sinking. It is HELD at 75 on 9/8 as a RAIL CAP, not as a judgement that escalation stopped** — eight hulls, a four-city Saudi salvo, a third Jordan salvo, an in-port tanker threat, a declared restricted zone and Brent at $99 produced zero registered movement because the ladder has no headroom and seven of ten convergence vectors are at ceiling. **The desk did not invent a rung mid-event; it base-rated one and proposed it.** Why 85 and not more: with B 3 / C 22, an 85 leaves C ≥12 while the Oman window breathes; above 85 the ladder would be measuring the supply-loss regime, which is FAL-05's and the thesis-kill table's job.
+**75 is Will's ABSOLUTE destination (ruled 8/6) for a class-(iii) hull loss, reached 9/7 on the Kylo sinking. It is HELD at 75 on 9/8 as a RAIL CAP, not as a judgement that escalation stopped** — eight hulls, a four-city Saudi salvo, a third Jordan salvo, an in-port tanker threat, a declared restricted zone and Brent at $99 produced zero registered movement because the ladder has no headroom and seven of ten convergence vectors are at ceiling. **The desk did not invent a rung mid-event; it base-rated one, proposed it, and Will registered it at 2026-09-08 ~22:5x ET — the hold now stands on the rung's letter, this week's events being its non-triggers.** Why 85 and not more: with B 3 / C 22, an 85 leaves C ≥12 while the Oman window breathes; above 85 the ladder would be measuring the supply-loss regime, which is FAL-05's and the thesis-kill table's job.
 
 ---
 
@@ -119,7 +119,7 @@ Registered flip-down (*"strikes resume"*) fired 7/29 (10→5) and the 9/7 trip t
 
 **MEDIUM on the marks.** The −10 split of the 9/7 trip (8 from C, 2 from B) is the desk's; the 75 is not. The weakest joint is that C at 22 still credits *"talks alive"* on a track Iran has begun describing as its own to manage.
 
-**LOW on the ladder as an instrument above 75 — and that is a statement about the apparatus, not the world.** Until Will rules on the rung, a class-(iii-A) sinking or an in-port hull hit would be graded, recorded, and unable to move the mark. **That is the desk's binding defect and it is on the docket (L300).**
+**MEDIUM on the ladder above 75 — RESOLVED 2026-09-08 ~22:5x ET: Will registered the D→85 rung.** A class-(iii-A) sinking or an in-port hull hit now moves the mark on its letter. *(The rail cap that made this LOW earlier in the evening lasted about 90 minutes of record time; it is preserved in the CHANGELOG.)*
 
 ### Thesis break condition — pre-registered, and it is a live prediction
 
@@ -137,7 +137,7 @@ Registered flip-down (*"strikes resume"*) fired 7/29 (10→5) and the 9/7 trip t
 - **→ SAM:** the Qatar LNG shortfall is **physical** (since March); Qatar's own FM now says *"industrial catastrophe"* — a state-level ceiling claim on the remaining ~83%. JKM/TTF is yours; if Asian gas has absorbed a 17% outage without repricing, that is itself a finding.
 - **→ CARL:** crude base for the pass-through lag is **$99.45** [9/8]; the product leg widened (Jazan again + three distribution sites) — cracks carry it.
 - **→ LIQUID / REGINALD:** no credit level carried here; an in-port hull hit on Gulf-state territory is a different risk-off class from a transit hit.
-- **→ PROME / RED:** the desk's binding defect is the **rail cap**; L301 discharged, **L300 proposal shipped with base rates**. RED: attack the L300 trigger set, especially (c) — zero precedent, which is both why it matters and why its base rate is weakest.
+- **→ PROME / RED:** the rail cap is **CLOSED** — L300 RULED 2026-09-08 ~22:5x ET, rung registered; L301 RULED with it. RED: attack the L300 trigger set, especially (c) — zero precedent, which is both why it matters and why its base rate is weakest.
 
 ---
 
@@ -157,4 +157,4 @@ Registered flip-down (*"strikes resume"*) fired 7/29 (10→5) and the 9/7 trip t
 
 ---
 
-*Living document. **Next rewrite trigger (DATED — read this line at every closeout step 11; the v2.1 trigger fired 8/20 and sat unread 19 days):** FAL-05 resolving (2026-10-07) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework (window opens 2026-09-25) · Will registering a rung above D 75 (DOCKET L300) · a second class-(iii) hull loss · or **2026-10-07**, whichever first. Routine mark moves belong in `STATUS.md`, not here.*
+*Living document. **Next rewrite trigger (DATED — read this line at every closeout step 11; the v2.1 trigger fired 8/20 and sat unread 19 days):** FAL-05 resolving (2026-10-07) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework (window opens 2026-09-25) · a second class-(iii) hull loss · or **2026-10-07**, whichever first. Routine mark moves belong in `STATUS.md`, not here.*
