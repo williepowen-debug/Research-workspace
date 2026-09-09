@@ -1,0 +1,4 @@
+READ-CAP [SAM] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 3 boot section(s) in CLAUDE.md, 18 'read' line(s) scanned (2 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 2 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟡 STATUS.md                            31,489 B    58% of cap  rotate-tier (≥75% of budget)  (STATUS.md — universal boot read (root canon))
+  ✅ MEMORY.md                            21,137 B    39% of cap    (boot-step line 26)
+✅ READ-CAP 0 [SAM]: every boot-mandated read this check found is under budget (2 file(s)).

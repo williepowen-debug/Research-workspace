@@ -1,0 +1,44 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 194 files under AGENTS/SAM/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── BOJ Totan September incremental equivalent · superseded 97 → current 98
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (7)
+        AGENTS/SAM/NEXUS_BRIEF.md:13  [97]
+           **Policy surprise is asymmetric.** Totan ICAP September 8 15:15 indicative chart gives a 97% September 25bp-hike equivalent under stated ass
+        AGENTS/SAM/reports/2026-09-08_catchup-assessment.md:84  [97]
+           **A usable BOJ pricing source:** Tokyo Tanshi/Totan ICAP's **September 8, 15:15** chart reports September meeting OIS **1.2200%**, change **
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/validation.md:5  [97]
+           - GDP/wage primary PDFs read; BOJ spreadsheets' forecast/provisional/final columns distinguished. Totan table visually inspected: 1.2200%, 0
+        AGENTS/SAM/research/outputs/2026-09-08_integration/before/MEMORY.md:49  [97]
+           1b. **BOJ pricing automation still owed:** manual source gap resolved via public Totan ICAP September 8 chart (97%, indicative 25bp assumpti
+        AGENTS/SAM/research/outputs/2026-09-08_integration/before/NEXUS_BRIEF.md:13  [97]
+           **Policy surprise is asymmetric.** Totan ICAP September 8 15:15 indicative chart gives a 97% September 25bp-hike equivalent under stated ass
+        AGENTS/SAM/research/outputs/2026-09-08_integration/before/STATUS.md:51  [97]
+           | BOJ September pricing | **97% 25bp-hike equivalent**, Totan ICAP **Sep-8 15:15** | Indicative meeting OIS 1.2200%; policy-only/25bp assump
+        AGENTS/SAM/thesis/V18_CANDIDATE_PILLAR1.md:13  [97]
+           **BOJ pricing:** Totan ICAP September 8 15:15 chart supplies an indicative **97%** September 25bp-hike equivalent under its stated assumptio
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (43)
+        AGENTS/SAM/MAINTENANCE.md:51  [97]  (no unit/series context on line)
+           **MEASURED COST (this is why it was worth a session, not a backlog row):** METSUKE spec 20K + state **370K** = **~100K tokens read before an
+        AGENTS/SAM/MAINTENANCE.md:136  [97]  (no unit/series context on line)
+           **Review findings (basis for the changes):** METSUKE ~97% cumulative apply rate over 10 runs, zero money-field violations; KOYOMI's best mec
+        AGENTS/SAM/METSUKE.md:7  [97]  (no unit/series context on line)
+           **Last run:** 2026-09-02 (**Run 18** — post-9/1-boot full-sweep: 2 🔴 STALE-FRAMING + 1 🟠 PUBLISHER-SIDE / 3 escalations / 0 money-field, all
+        AGENTS/SAM/METSUKE_MEMORY.md:57  [97]  (no unit/series context on line)
+           **Mode note: this run's PRIMARY deliverable was not a drift sweep.** The team-lead spawned it to fix a defect in METSUKE's OWN file: `METSUK
+        AGENTS/SAM/METSUKE_MEMORY.md:226  [97]  (no unit/series context on line)
+           - **Jun 1 — Fed-cut secondary path softened** from "24h rescue catalyst 1 day behind BOJ" to "multi-month tail, not Jun-window" (CME FedWatc
+        AGENTS/SAM/METSUKE_MEMORY.md:314  [97]  (no unit/series context on line)
+           > ### ⚖️ RETROACTIVE ADJUDICATION — 2026-08-20 (Run 16, Task 1). **BACKLOG 97 OPEN → 0 OPEN. Nothing deleted.**
+        AGENTS/SAM/METSUKE_MEMORY.md:319  [97]  (no unit/series context on line)
+           > PENDING sections (Runs 2·3·4·5·6·7·9·10·11·13, **97 items**) therefore sat open for months describing
+        AGENTS/SAM/METSUKE_MEMORY.md:676  [97]  (no unit/series context on line)
+           - **Watermark for Run 17:** anything dated **after 2026-08-20**. **Run-16 state as delivered:** the PENDING backlog is **CLOSED — 97 items a
+        … +35 more 🟠 hit(s) on [97] across 16 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (20)  [--show-handled to audit]
+
+  🔴 7 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

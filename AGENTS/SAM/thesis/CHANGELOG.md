@@ -8,6 +8,15 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-08 — Approved catch-up integrated; v1.7 retirement unchanged
+
+**Old → current:** durable owner prose still mixed June/July blanket demand-vacuum, decaying/unsuccessful intervention and phase-clock narratives with later correction riders. The already completed September assessment and existing CH-009/010/Channel-1 rulings now govern the relevant sections directly: conditional JGB sponsorship; priced-policy versus surprise; official attribution separated from fiscal residuals; reserve stocks separated from transactions; oil/FX prices separated from physical volumes. Retired weights and EV tables are explicitly historical.
+
+The insurer tracker retains the existing ≥2 named institutions / ≥2 consecutive windows reactivation requirement; sector totals do not satisfy it. KB-209's main fact now carries the FIMA retraction and official window aggregate with unresolved funding. Old text is preserved in `../research/outputs/2026-09-08_integration/before/`. No prediction grades, frozen terms, position money fields, or thesis version changed; no successor promoted.
+
+BOJ source verification found a newer Totan table during integration: September 9 11:15 (JST assumed), ingested separately from the historical September 8 observation. Mechanism interpretation unchanged. New code/ledger controls and remaining visual-review dependency → `../workbook/BOJ_OIS_README.md`; complete integration/validation map → `../reports/2026-09-08_integration.md`. No new cross-agent messages; NEXUS is the in-place handoff.
+
+
 ## 2026-09-08 — monitoring update, v1.7 unchanged
 
 Old: 155 not yet crossed, Sep-4 front-end discriminator pending. New: BOJ Sep-8 low 152.90 and 17:00 JST 153.80–82; MOF Sep-4 2Y −2.0bp and 30Y −8.7bp, no hawkish front-end confirmation. Broader attribution remains OPEN; no new intervention exclusion. Threshold observation is not mechanism confirmation. THESIS monitoring note and TIMELINE updated; no gates, probabilities or prediction grades changed. Report: `../reports/2026-09-08_boot.md`.

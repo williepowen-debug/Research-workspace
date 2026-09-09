@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/SAM/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── BOJ Totan September incremental equivalent · superseded 97 → current 98
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (545)
+        AGENTS/WALTER/SESSION_LOG.md:638  [97]  (no unit/series context on line)
+           > **`RED-FT-07` CCC-OAS 1027 [FRED 8/18, latest]** vs >930 FIRING-BANKED (exit <930 s=3, 97bp away) · **`RED-FT-09` `T5YIFR` 2.32 [FRED 8/19
+        AGENTS/WALTER/SESSION_LOG.md:756  [97]  (no unit/series context on line)
+           **Updated:** 2026-07-26 (Sat 7/25 ~4:58 PM ET → ~00:4xZ 7/26 — **US MARKETS CLOSED ALL SESSION**, Will-Telegram boot → 3 image batches (8+9+
+        AGENTS/WALTER/SESSION_LOG.md:794  [97]  (no unit/series context on line)
+           - **2026-07-25 (Sat ~4:58 PM ET → ~00:4xZ 7/26, Will-Telegram boot + 3 image batches + 2 questions; TIER-2 FULL):** **BOARD 567→585 — 18 DIS
+        AGENTS/WALTER/SESSION_LOG.md:796  [97]  (no unit/series context on line)
+           - **[rolled from STATUS spine] 2026-07-19 (Sun ~9:25 PM ET / 01:25Z 7/20 — **US MARKETS CLOSED**, Will-Telegram boot + 8-image batch + Will-
+        AGENTS/WALTER/SESSION_LOG.md:810  [97]  (no unit/series context on line)
+           - **2026-07-19 (Sun evening, Will-Telegram 8-img batch + Will-directed news sweep + 4 follow-on image drops — Tier-1 LIGHT, full deferred):*
+        AGENTS/WALTER/SESSION_LOG.md:952  [97]  (no unit/series context on line)
+           | 2026-05-10 PM → 2026-05-11 PM (Sun ~21:10 UTC → Mon ~13:45 UTC, **~16hr multi-thread session**; 4 commits / 0 BOARD dispatches / 0 KILLs /
+        AGENTS/WALTER/SESSION_LOG.md:957  [97]  (no unit/series context on line)
+           | 2026-05-08 PM extension + 2026-05-09 boot-up + closeout + discipline-fix (5/8 ~17:30-22:30 UTC two PM-extension batches + step 7c add + RE
+        AGENTS/WALTER/SESSION_LOG.md:1174  [97]  (no unit/series context on line)
+           *(Prior state, 2026-07-25 — SUPERSEDED ON SEQUENCE by the 7/27 stamp above; every FACT below stands. Re-stamped 7/25 on the anchor's OWN nam
+        … +537 more 🟠 hit(s) on [97] across 265 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (22: CARL, CORAL, FALCON, HAWK, LIQUID, MARCO, MIDAS, ORACLE, OTTO, OZK, REGINALD, WALTER, WATT)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (123)  [--show-handled to audit]
+
+  🟠 545 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================

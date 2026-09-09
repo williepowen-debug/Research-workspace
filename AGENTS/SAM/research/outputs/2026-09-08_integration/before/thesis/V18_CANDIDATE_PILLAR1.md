@@ -10,7 +10,7 @@
 
 **Labor premise revised:** BLS September 4 reports July **+21K**, revised from **−23K**; June **+31K**, revised from +20K; August **+162K**, unemployment **4.1%**. Current June/July net revisions **+55K**. The earlier −103K revision total belongs to a different release window. The original July print was revised, not retracted. This weakens the old weak-labor support for Fed easing; an actual dot walk-back is still unobserved. [BLS](https://www.bls.gov/news.release/archives/empsit_09042026.htm).
 
-**BOJ pricing (refreshed during integration):** reviewed Totan ICAP **September 9 11:15, JST assumed**, supplies a **98% incremental 25bp equivalent** for September; indicative meeting OIS 1.2213%, under the source’s policy-only/25bp model. The September 8 97% observation and older percentages below are historical. This leaves the substantially-priced interpretation unchanged. Treasury/Japan source timing remains asynchronous. [Integration and source controls](../reports/2026-09-08_integration.md).
+**BOJ pricing:** Totan ICAP September 8 15:15 chart supplies an indicative **97%** September 25bp-hike equivalent under its stated assumptions; the older percentages below are historical. Current Treasury 5Y/10Y legs were verified at primary; source timing remains asynchronous. [Full current assessment](../reports/2026-09-08_catchup-assessment.md).
 
 **Reading rule:** Sections 1–8 below retain the August 7 argument, numerical vintages and original conditions. Their “today”, “zero progress”, weak-labor and probability language is historical, superseded for current use by this rider. Prediction conditions and resolved grades have not been rewritten.
 

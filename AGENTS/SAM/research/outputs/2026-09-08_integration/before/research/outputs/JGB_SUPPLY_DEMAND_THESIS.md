@@ -1,14 +1,22 @@
-# JGB Long-End Supply/Demand — Conditional Demand and Mixed Sponsorship
+# JGB Long-End Supply/Demand Thesis — EXECUTED
 
-**Current assessment: September 8, 2026.** Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
+**Status:** ✅ **EXECUTED 2026-06-30** (3 parallel primary-source research legs: BOJ reaction function / MOF supply / lifer demand). Promoted from SCOPING (2026-06-29). **Verdict: structurally bearish long-end / steepening bias — a DEMAND-vacuum thesis. SIGNAL-ONLY (no Will-tradeable vehicle); its tradeable expression is the carry-convexity-tail / long-JPY-vol ticket if it goes disorderly.** Routed 2026-06-30 → BOND (primary, term-premium), LIQUID (conditional, repatriation-dormant), HENRY (carry trigger).
+
+**Why this thread:** SAM is FLAT and the carry-convexity-tail is break-even — so effort pivots to the **only pillar still firing, Pillar 2 (J-ICS lifer long-end abandonment)**, a DOMESTIC mechanism needing no carry trade and no yen-direction call. The Jun-29/30 macro (40-yr-low yen on a *widening yield gap + Japan fiscal expansion → JPY as funding currency*) converges on exactly this.
+
+---
 
 ## PUNCHLINE
 
-Long-end vulnerability rests on a thinner and less reliable bid, not the absence of every buyer. Meiji's announced return disproved the blanket no-clearing-yield claim; subsequent firm auctions supported market demand without identifying Meiji as their buyer. J-ICS effects depend on duration gaps and buffers. A disorderly J-GAAP impairment tail can coexist with buying by stronger institutions. There is no automatic aggregate forced-selling boundary at 4.5%.
+> **⚠️ 2026-07-02 — the bolded claim below is FALSIFIED in part: a first named demand floor exists at ~4.0% 30Y (Meiji Yasuda doubled its FY2026 super-long plan to >¥2T calling 4% a "perfect buying opportunity"; SAM-32 RESOLVED FALSE). Read § DEMAND-FLOOR UPDATE below before citing this section.**
+>
+> **🔵 2026-07-11 — CH-010 RESOLVED (THESIS v1.6.7): the "self-reinforcing seller trigger at ~4.5%" below is RE-SCOPED. Base case at higher long-end yields = net-demand-POSITIVE (ESR improves); the forced-selling mechanism survives only as a J-GAAP statutory-impairment TAIL in a DISORDERLY move, concentrated in MID-CAP lifers (Fukoku/Asahi bifurcation watch) — not an aggregate reflexive zone. The 7/7 30Y auction (BTC 4.55x/tail 0.3bp) confirmed the 4.0% floor as REAL FLOW. Read § CH-010 RESOLUTION below before citing the punchline, § Leg-3, § THE ASYMMETRY, or § TRADEABILITY #3.**
 
-September's evidence shows **mixed sponsorship**. The September 3 30Y auction was SOFT under the frozen test (2.1bp tail); September 8 5Y was firmer. August inward securities selling was mostly short-term debt; its long-term component cannot identify JGB tenor. Norway's proposed Japan increase is prospective demand, not a completed order; GPIF has published discussion, not an allocation change. A persistent structural pressure hypothesis remains useful, but it does not establish a mispricing or a one-way curve path.
+Japan's market for super-long JGBs (30Y/40Y) has structurally lost its buyer, and — unlike a normal market — **no yield near current levels brings it back.** The traditional anchor (life insurers) is now buffer-conditional under the J-ICS solvency regime and is already net-*selling*; there is **no buyer cushion** and a **self-reinforcing *seller* trigger at 30Y ~4.5%** (impairment-driven forced selling); the BOJ has signaled it will **let a gradual move run** (cap only a disorderly spike). The result is a structurally one-way path toward higher long-end yields / a steeper curve — a **grind, with a possible acceleration zone through 4.5%**, the violent tail BOJ-truncated. Live (MOF Jun-30 pub): 10Y **2.690%** / 30Y **3.873%** (bear-steepening, +11bp over 2 pubs, ~13bp below 4.0%) / 40Y **3.792%** — front end anchored (2Y 1.382, −3bp; Jun-30 2Y auction BTC 4.82x strong).
 
-Sources and exact vintages: [September assessment §5](../../reports/2026-09-08_catchup-assessment.md); current observations → `../../STATUS.md`. The original opening and trade claims are preserved verbatim in `../../research/outputs/2026-09-08_integration/before/research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`. The following dated adversarial rulings remain the historical evidence trail.
+It's a **mechanism/curve** thesis (the demand vacuum + the 4.5% reflexivity), deliberately NOT a "30Y hits X by date" threshold bet — SAM-26 already failed that trap ([[finding_threshold_vs_mechanism]]).
+
+---
 
 ## ⚠️ RED CORRECTION (2026-06-30 adversarial pass — `red/CHALLENGES.md`)
 
@@ -50,7 +58,7 @@ RED ran a 5-axis adversarial sweep on this thesis. **The demand-reduction observ
 
 ---
 
-## LEG 1 — Historical June 30 BOJ BACKSTOP (the central risk) → CONDITIONAL LET-RUN
+## LEG 1 — BOJ BACKSTOP (the central risk) → CONDITIONAL LET-RUN
 
 The one thing that could cap this thesis is the BOJ. It won't, for a gradual move.
 
@@ -65,7 +73,7 @@ The one thing that could cap this thesis is the BOJ. It won't, for a gradual mov
 
 ---
 
-## LEG 2 — Historical June 30 SUPPLY → NOT the current driver (forward amplifier only)
+## LEG 2 — SUPPLY → NOT the current driver (forward amplifier only)
 
 Counterintuitive but important: supply is *not* what's pushing yields up right now.
 
@@ -77,27 +85,44 @@ Counterintuitive but important: supply is *not* what's pushing yields up right n
 
 ---
 
-## LEG 3 — DEMAND → conditional bid, institution and tenor matter
+## LEG 3 — DEMAND (the load-bearing leg) → STRUCTURAL VACUUM, no re-entry near current
 
-| Evidence | What it supports | What it cannot establish |
+- **J-ICS makes the lifer bid buffer-conditional, not categorically absent.** The regime (effective FY-end Mar 2026) requires economic-value asset/liability matching. Rising yields mark DOWN legacy low-coupon super-long holdings *first* (hurting solvency/ESR) before higher reinvestment yields help. So lifers buy only when buffers permit — and they're tapped out: **lifers turned net SELLERS of super-long ~¥201B in May 2026** (Insurance Business Asia); **foreigners turned net sellers too — first outflow in 16 months, −¥81.3B April 2026** (Bloomberg, May 20).
+- **No re-entry yield near current; re-entry is a 2–3yr process.** Getting lifers back is portfolio rollover (legacy 0.2–0.5% coupons maturing/sold, reinvested at 3.5–3.9%, slowly lifting book yields), not a price level. "Compensation has improved. Optionality has not" (Vedanjanam, 2026).
+- ~~**The reflexive seller trigger:** at **30Y ~4.5%, legacy books hit impairment thresholds → FORCED SELLING, not buying** (Insurance Business, May 2026). So higher yields trigger *more* selling — the opposite of a normal bargain-buyer cushion.~~ **[SUPERSEDED 7/11, v1.6.7: base case = ESR-driven BUYING into a rise; forced selling = J-GAAP TAIL, disorderly-only, mid-cap-concentrated — § CH-010 RESOLUTION above.]**
+- **Marginal-buyer map at 30Y ~3.76% / 40Y ~3.69%:**
+
+| Buyer | Status | Capacity |
 |---|---|---|
-| Meiji's July super-long plan; earlier mid-size insurer pivots | Different institutions can buy and withdraw simultaneously | A permanent floor or an industry-wide buyer strike |
-| August life-insurer foreign long-term debt net sales | Sector activity worth tracking across releases | Named-insurer UST liquidation or domestic super-long allocation |
-| August trust-account buying offsetting bank-account selling abroad | Mixed sponsorship across account types | Trust accounts equal GPIF/pensions |
-| Foreign net sales of Japanese debt, dominated by short maturities | Need to decompose the headline before attributing long-end pressure | A measured foreign exit from 30Y/40Y JGBs |
-| Norway proposed Japan weight increase; GPIF portfolio discussion | Potential demand changes to monitor | Executed trades, timing or tenor |
+| Big-3 mutuals + Dai-ichi | Buffer-conditional, intermittent | Severely reduced; windows tied to ESR buffer |
+| Midsize lifers (Fukoku/Asahi/Daido/Taiyo) | Pivoted OUT (30/40Y → 10-15Y) | ~Zero for super-long |
+| Foreign | Net sellers since April 2026 | Price/hedge/yen-stability-sensitive; unreliable |
+| GPIF | Constrained by mandate | Not a structural super-long buyer |
+| Mega-banks (SMBC etc.) | Opportunistic, prefer 5-10Y | IRRBB limits duration |
+| BOJ | QT, shrinking footprint | Structurally declining at 25Y+ |
 
-Full flow table and source files → assessment §5 and `../../insurers/TRACKER.md`. Domestic roll-ups can contain sales of old JGBs and purchases of new ones; a net sign alone does not identify the program or foreign funding.
+- **Auction tells confirm the vacuum:** 30Y BTC **2.94x** (Jun 10 2026, MOF; tail widened to 2.8bp from 1.3bp); 40Y BTC **2.54–2.76x** across 2026 (Jan 2.76 / Mar 2.54 / May 2.70) — historically weak (40Y nadir was 2.127x in Jul 2025).
 
-## THE ASYMMETRY
+**Net:** ~~the structural buyer-of-last-resort is genuinely gone, no yield near current draws it back, and the next yield zone (4.5%) makes it a *seller*.~~ **[Re-scoped 7/2 + 7/11: the bid returned at ~4.0% (confirmed real flow 7/7); the 4.5% seller-zone is a mid-cap J-GAAP tail, not aggregate.]** What survives as the cause of the steepening: demand-REDUCTION (a thinner, yield-conditional bid) + supply reload FY2027+.
 
-The base case remains an orderly adjustment with a conditional bid. Disorder can expose institution-specific accounting constraints and weaken sponsorship, but BOJ intervention and higher-yield buyers can truncate that path. Direction, speed, balance-sheet mechanism and observable transmission must be tested separately; do not infer forced selling from a level tag.
+---
 
-## TRADEABILITY → SIGNAL-ONLY
+## THE ASYMMETRY (what makes this more than "yields drift up")
 
-Global term-premium spillover is a research question for BOND. Japanese foreign-asset sales matter to LIQUID only when directly evidenced; Channel 1 reactivation still requires sales across at least two consecutive disclosure windows at at least two of the Big 3 mutuals/Norinchukin. A domestic JGB selloff cannot satisfy that test. The former carry-vol entry expression and 4.5% entry trigger are retired. No market-access or vehicle recommendation is made here.
+~~**No buyer cushion + a self-reinforcing seller trigger above + a BOJ that won't cap a gradual move** = an asymmetric path higher: grind toward 4.0%+, with a potential acceleration zone through 30Y 4.5% as forced selling compounds, arrested only if/when it turns disorderly (BOJ truncates, but doesn't reverse).~~ **[Re-scoped 7/11 (v1.6.7): the asymmetry is now MILDER — a real bid at 4.0% cushions the path; the "acceleration through 4.5%" survives only as a disorderly, mid-cap-led tail (§ CH-010 RESOLUTION). The grind + BOJ let-run + FY2027 supply reload stand.]** Supply reloads the fuel from FY2027.
 
-## HISTORICAL US-TRANSMISSION MAP (2026-07-01; current authority is TRADEABILITY above) — answers the → BOND question
+---
+
+## TRADEABILITY (the gate) → SIGNAL-ONLY
+
+No clean US-retail vehicle for "long-end JGB yields rise / curve steepens": no US-listed inverse/short JGB ETF; JGB futures need a futures account + ¥ notional; curve steepeners are institutional swaps; the iShares JGB ETFs are long-only. **Conclusion (as the scoping doc anticipated): this is a SIGNAL thesis.** Its value:
+1. **→ BOND (primary):** a demand-vacuum long-end blowout in the world's 2nd-biggest govvie market is a global-term-premium input — does it transmit to US term premium / the bear-steepener BOND tracks?
+2. **→ LIQUID (conditional):** the lifer→UST repatriation channel is currently DORMANT on SAM's side (Channel 1 RETIRED — 4-of-4 grew US credit; MOF weekly net-buying). Re-arms only on a *direct foreign-SALES* print or disorderly forced selling. Do NOT double-count Pillar 2 (DOMESTIC) under a Channel-1 label.
+3. **→ SAM's own book (the payoff):** the **disorderly** version (forced lifer selling at 30Y 4.5% + BOJ losing grip) is a fiscal-dominance shock that historically forces a violent yen repricing (JGB stress → risk-off → carry unwind). So **30Y JGB 4.5% (disorderly) is now a named entry-trigger for the carry-convexity-tail / long-JPY-vol position** (the only *Will-tradeable* expression of "the Japan long-end breaks"). #1 tells us *what* breaks Japan; #2 is *how you'd own it*. **[7/11 re-characterization: the trigger is KEPT but its mechanism is J-GAAP/mid-cap/disorderly-only (§ CH-010 RESOLUTION) — an even thinner tail than the 7/2 read; do not size it as an aggregate reflexive zone.]**
+
+---
+
+## US-TRANSMISSION MAP (2026-07-01) — answers the → BOND question
 
 **Method:** live US levels + BOND/LIQUID/HENRY state pulled 2026-07-01 (multi-agent gather + adversarial synthesis). The peer reads are their *pre-existing* framing — none has processed SAM's Jun-30 signal yet (see § INTEGRATION).
 
@@ -128,11 +153,11 @@ Global term-premium spillover is a research question for BOND. Japanese foreign-
 
 ## CATALYSTS / NEXT TESTS
 
-Use the forward [calendar](../../docket/CALENDAR.md). Next tests are auction tails/BTC by tenor, new monthly investor categories, H2 insurer plans and disclosed funding sources. The September 3 tail remains SOFT under the frozen rule; resolve quote precision prospectively before the next relevant September 29 test, without regrading history.
+**Jul 7** JGB 30Y auction · **Jul 22** JGB 40Y auction — **re-framed 2026-07-02: these now test whether the Meiji Yasuda ~4% bid is REAL** (firm internals vs Jun-10 BTC 2.936x/tail 2.8bp = demand-floor confirming; soft = announcement not yet flow) · **Jul 31** BOJ MPM + FY2027 purchase-plan detail (the supply-side read). Sato Ayano seated Jun 30 (reflationist board complete). Watch: auction BTC/tail trajectory, MoF/lifer monthly flows (rotation vs abandonment), the FY2027 plan. *(Jul-2 10Y auction: BTC 3.13x / tail 2.6bp — orderly but softer vs Jun-2's 3.53x/0.7bp; belly, not the super-long test.)*
 
-## OPEN GAPS
+## OPEN GAP (next pull)
 
-GPIF's actual super-long allocation/transactions remain unknown: unchanged headline weights do not close the tenor question. Norway's proposal still needs an implementation decision and observed transactions. Named-insurer foreign-sales evidence remains distinct from the newly available August sector print. The old Uchida quotation gap is retained in the dated BOJ section; this integration does not certify it.
+GPIF's actual FY2026 super-long stance — the one demand-side offset the research leg couldn't verify. If GPIF is a meaningful marginal buyer at these yields, it softens the vacuum.
 
 ## SOURCES
 

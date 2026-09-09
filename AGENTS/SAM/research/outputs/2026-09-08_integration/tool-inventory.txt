@@ -1,0 +1,38 @@
+
+========================================================================
+  SAM TOOL INVENTORY  (generated from scripts/ — not a maintained list)
+========================================================================
+
+  Script                    Boot   Purpose
+  --------------------------------------------------------------------
+  bis_gli.py                M      YEN CREDIT TO NON-RESIDENTS.
+  boj_ois.py                ✓      SAM reviews each new chart into workbook/boj_ois_reviews/*.json. Boot verifies
+  catalyst_countdown.py     ✓      Reads docket/CATALYSTS.tsv and shows trading-day countdown to each event.
+  cftc_jpy.py               ✓      Fetches CFTC Commitments of Traders (futures-only short report) for JPY.
+  cpi_japan.py              ✓      Fetches Japan CPI (National + Tokyo Ku-area) via the e-Stat API and emits
+  fxy_options.py            ✓      Pulls FXY options chains via yfinance for the next 4 expiries.
+  gpif_flows.py             ✓      Tracks Japan's Government Pension Investment Fund (GPIF) — the world's
+  grade_8_14_branch.py      M      2026-08-14 COT branch grader (forum-4 frozen letter).
+  jgb_auctions.py           ✓      Fetches and parses MOF JGB auction result pages.
+  jgb_yields.py             ✓      Fetches daily JGB yield curve from MOF's authoritative CSV.
+  kura_proposal_roll.py     M      WHY THIS EXISTS (2026-08-27, Will-directed)
+  mof_exceedance.py         M      observations AND de-clustered episodes), each side of the median quoted separa
+  mof_flows.py              ✓      Fetches Japan MOF's weekly "International Transactions in Securities" CSV.
+  rate_differential.py      ✓      the SAM-41 bar, mechanized.
+  subagent_memory_roll.py   M      WHY THIS EXISTS (2026-08-20, Will-directed)
+  thresholds.py             ✓      Pulls live FX/oil prices via yfinance and compares against SAM thesis threshol
+  trade_balance_japan.py    ✓      Phase 1 stability lag-test feed
+  usdjpy.py                 ✓      Fetches USDJPY=X daily OHLC from Yahoo Finance, maintains workbook/USDJPY.tsv
+  xccy_basis.py             ✓      CIP residual from CME JPY futures.
+
+  19 tool(s); 14 boot-wired; 5 manual-only by design (M).
+  Run any of them directly: .venv/bin/python3 AGENTS/SAM/scripts/<name>
+
+  ℹ️  5 manual-only BY DESIGN, per CLAUDE.md — not drift:
+       bis_gli.py
+       grade_8_14_branch.py
+       kura_proposal_roll.py
+       mof_exceedance.py
+       subagent_memory_roll.py
+     (allowlist is parsed from CLAUDE.md's MANUAL-ONLY row, so removing
+      a script from that row makes this gate go loud again.)

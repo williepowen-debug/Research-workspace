@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** September 8, 2026, 23:27 ET integration closeout (September 9 JST). **STATUS provenance:** same commit as this brief; final STATUS SHA256 `f77df93d058e0e52ca4070fcaba9f2dc5c8c19420858461afc89c72a8dda24b0`. Written after final STATUS. Most market observations remain September 8; BOJ pricing has its separate September 9 quote vintage. [Integration](reports/2026-09-08_integration.md) · [source assessment](reports/2026-09-08_catchup-assessment.md).
+**As of:** September 8, 2026 catch-up closeout, evening ET. **STATUS provenance:** same commit as this brief; final STATUS SHA256 `7fcd12784650b0f002533edf1c300895db040f79d48221651d1345381a6a56e7`. Written after final STATUS. Observation clocks differ; use the [assessment](reports/2026-09-08_catchup-assessment.md) and its saved sources.
 
 ## VIEW
 
@@ -10,7 +10,7 @@ Yen strength has a Japan-specific component: matched September 2/8 hourly endpoi
 
 **Systemic liquidation is not established.** VIX 15.72 September 8; HY 268bp/IG 81bp September 7; latest SOFR−IORB 0bp and 99th−IORB +8bp September 4. Japan overnight funding also orderly. Offshore basis unavailable; CFTC September 1 predates most of the rally. These lags prevent a blanket no-stress conclusion.
 
-**Policy surprise is asymmetric.** Reviewed Totan ICAP September 9 11:15 (JST assumed) gives a **98% incremental 25bp equivalent** for September under its policy-only model; indicative OIS, not an exchange trade. The September 8 97% observation is historical. Wages strengthened; GDP’s upgrade still leaves weak domestic demand. Latest measured US–Japan gaps exceed the candidate bars. The payroll premise is corrected; no current Fed probability was authenticated.
+**Policy surprise is asymmetric.** Totan ICAP September 8 15:15 indicative chart gives a 97% September 25bp-hike equivalent under stated assumptions. Wages strengthened; GDP's upgrade still has weak domestic demand. Current 5Y/10Y US–Japan gaps exceed the candidate bars. The payroll premise is revised in the candidate; no current Fed probability was authenticated.
 
 **Energy remains a headwind:** matched September 4/8 November Brent × USDJPY increased 1.36%. Physical supply, freight and insurance are separate witnesses; no aggregate landed-cost estimate.
 
@@ -18,8 +18,8 @@ Yen strength has a Japan-specific component: matched September 2/8 hourly endpoi
 
 - OPEN SAM-28/31 due September 18; SAM-33 through December 31. Historical SAM-39/41 grades unchanged. Old 7/30/60-day probabilities are dated August 7, not fresh rolling forecasts.
 - CFTC normalization remains 49.0% of the corrected 188,077 record. Retired −153K/85% condition rearms nothing.
-- Funding proxy freshness fixed and tested; its futures/bill/assumed-policy residual is not true basis. Current fixed pair stops September 14. BOJ ingestion now verifies a reviewed image and source vintage; new charts still require SAM visual review. Legacy futures ledger frozen; incremental equivalents and cumulative expected counts remain separate.
-- Main uncertainty is mechanism identification. A gross fiscal drain, reserve-stock decline, sector flow or meeting agenda is not a named transaction. THESIS, JGB research, insurer tracker, MOF playbook and KB-209 now carry that distinction directly. Channel 1 reactivation still requires direct sales across at least two consecutive disclosure windows at at least two named institutions from its registered set.
+- Funding proxy freshness fixed and tested; its futures/bill/assumed-policy residual is not true basis. Current fixed pair stops September 14. Automatic BOJ pricing ingestion remains pending despite the manual source discovery.
+- Main uncertainty is mechanism identification. A gross fiscal drain, reserve-stock decline, sector flow or meeting agenda is not a named transaction.
 
 ## CROSS-DOMAIN
 

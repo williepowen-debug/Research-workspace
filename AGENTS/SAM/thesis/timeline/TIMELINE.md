@@ -1,5 +1,9 @@
 # SAM TIMELINE
 
+## 2026-09-08 — Durable integration after the catch-up
+
+Will approved the owner-file reconciliation. Existing findings and corrections now govern policy/FX, conditional JGB demand, insurer evidence, intervention attribution and energy interpretation directly. Full changes and preserved before-images → `../../reports/2026-09-08_integration.md`. BOJ source replacement now verifies a reviewed image before ingestion; a new table appeared during validation and received a separate source vintage. No successor thesis, position action or historical prediction regrade.
+
 ## 2026-09-08 — Catch-up research
 
 Approved primary-source pass: payroll correction, FX/settlement attribution, contagion, energy in yen, Fed/BOJ scenarios, insurer flows, China DCS and Norway/GPIF proposals. Findings, dates and open evidence: `../../reports/2026-09-08_catchup-assessment.md`. No thesis/prediction/trade change. Funding cutoff repaired; source clocks retained.

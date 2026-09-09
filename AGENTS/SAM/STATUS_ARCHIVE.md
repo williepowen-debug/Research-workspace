@@ -277,3 +277,17 @@
 **Boot quality:** 14/14 process exits OK after network rerun, but no citable BOJ pricing; xccy proxy ends Aug-27. Two WALTER signals consumed; legacy mail retained for dedicated processing. Shared pull/push deferred while peers have dirty work; changes local to SAM.
 
 ---
+
+
+## 2026-09-08 — Approved catch-up research completed through available releases
+
+Full sourced assessment and follow-ups: [catch-up report](reports/2026-09-08_catchup-assessment.md). Raw evidence and reproducible arithmetic: `research/outputs/2026-09-08_catchup/`.
+
+- Broad yen strength includes a common September 7 hourly move across USD/EUR/AUD crosses; exact trigger and official participation remain OPEN. September 8 BOJ fiscal forecast miss −¥540B is not an intervention estimate; September 9 forecast drain −¥3.36T lacks an independent pre-BOJ broker baseline.
+- No systemic unwind established: VIX modest, credit little changed and latest available U.S./Japan overnight funding orderly. Post-move CFTC and direct offshore basis remain unavailable. Current observation clocks below.
+- Payroll premise corrected in the candidate; GDP upgrade leaves domestic demand weak, July regular pay stronger. A dated public Totan source resolves the manual BOJ-pricing gap; automatic ingestion still pending.
+- Matched November Brent × USDJPY rose **1.36%** from September 4 to 8: yen strength cushioned, but did not erase, the oil headwind. Monthly insurer/foreign-investor decomposition and China/Norway investigations completed; proposals and sector aggregates are not named executed flows.
+- Funding monitor's hardcoded August 28 cutoff repaired; stale/empty/expired-input guards and four tests pass. Latest output September 8; fixed pair expires September 14. This remains a proxy, not real basis.
+- No thesis promotion, prediction regrade or trade. Legacy payroll/Norway packets consumed for this approved research; unrelated confidence-audit/architecture backlog remains separate. Peer files read-only; dirty-peer rule defers shared pull/push.
+
+<!-- End of preserved September 8 catch-up session. -->

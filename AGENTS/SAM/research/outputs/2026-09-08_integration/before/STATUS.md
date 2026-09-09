@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-08 integration closeout (ET). Market observations through Sep-8; U.S. funding Sep-4; CFTC Sep-1; monthly flows August. BOJ OIS separately refreshed to Sep-9 11:15 JST (assumed); verified 23:10 ET Sep-8. Source clocks below.**
+**Last written: 2026-09-08 catch-up closeout. Market observations through Sep-8; U.S. funding Sep-4; CFTC Sep-1; monthly flows August. Retrieval through ~22:15 ET. Source clocks below.**
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired against `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` §2/§5; RED blind-pass header verdict **KILL-as-successor-frame**, body **UNREAD / Will-gated**). · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.** *(🔧 A label-vs-pointer contradiction on this line named different documents and PROME propagated the LABEL into HEARTBEAT §4 on 8/27 — full record in `STATUS_ARCHIVE.md`.)*
 
@@ -16,15 +16,16 @@
 
 ---
 
-## 2026-09-08 — Durable integration completed
+## 2026-09-08 — Approved catch-up research completed through available releases
 
-Integration map and validation: [integration report](reports/2026-09-08_integration.md). Research and observation clocks: [assessment](reports/2026-09-08_catchup-assessment.md).
+Full sourced assessment and follow-ups: [catch-up report](reports/2026-09-08_catchup-assessment.md). Raw evidence and reproducible arithmetic: `research/outputs/2026-09-08_catchup/`.
 
-- THESIS now carries the approved policy/FX, conditional JGB-demand, intervention and oil-in-yen interpretation. LOW describes the retired carry frame; neither a successor nor a systemic-unwind finding is established.
-- JGB research and insurer tracker now distinguish mixed sponsorship, sector totals, named disclosures and proposals. The existing two-institution/two-window Channel 1 test governs; old “any one reopens” wording is retired.
-- MOF playbook separates the independent broker baseline, BOJ forecast/actual residual, settlement calendars and reserve-stock changes. KB-209 consolidated; withdrawn FIMA-use claim removed from its main fact. Original records archived; historical grades unchanged.
-- BOJ replacement verified live: reviewed Totan OTC chart, separate incremental/count schema, source-time/hash/expiry controls; 10 tests pass, repeat ingestion adds zero rows. **New charts still require SAM visual review; image decoding is not automated.** Prior futures ledger frozen.
-- No position action or fresh rolling probability forecast. Peer files untouched; dirty-peer rule defers pull/push. Next source releases and unresolved attribution remain in WHAT TO WATCH and the docket.
+- Broad yen strength includes a common September 7 hourly move across USD/EUR/AUD crosses; exact trigger and official participation remain OPEN. September 8 BOJ fiscal forecast miss −¥540B is not an intervention estimate; September 9 forecast drain −¥3.36T lacks an independent pre-BOJ broker baseline.
+- No systemic unwind established: VIX modest, credit little changed and latest available U.S./Japan overnight funding orderly. Post-move CFTC and direct offshore basis remain unavailable. Current observation clocks below.
+- Payroll premise corrected in the candidate; GDP upgrade leaves domestic demand weak, July regular pay stronger. A dated public Totan source resolves the manual BOJ-pricing gap; automatic ingestion still pending.
+- Matched November Brent × USDJPY rose **1.36%** from September 4 to 8: yen strength cushioned, but did not erase, the oil headwind. Monthly insurer/foreign-investor decomposition and China/Norway investigations completed; proposals and sector aggregates are not named executed flows.
+- Funding monitor's hardcoded August 28 cutoff repaired; stale/empty/expired-input guards and four tests pass. Latest output September 8; fixed pair expires September 14. This remains a proxy, not real basis.
+- No thesis promotion, prediction regrade or trade. Legacy payroll/Norway packets consumed for this approved research; unrelated confidence-audit/architecture backlog remains separate. Peer files read-only; dirty-peer rule defers shared pull/push.
 
 ## ↪️ ALL PRIOR SESSION BLOCKS → `STATUS_ARCHIVE.md` (cold, verbatim, never a boot read)
 
@@ -47,7 +48,7 @@ Integration map and validation: [integration report](reports/2026-09-08_integrat
 | US–JP differential, Sep-8 | **5Y 2.312pp / 10Y 1.904pp** | Above 2.25/1.80 bars; current runs 0/5. SAM-41's historical confirmation unchanged. |
 | 5Y auction Sep-8 | **BTC 3.422x / tail 0.9bp** | MOF bids 6,554.3 / accepted 1,915.4 billion yen; yields 2.248% low / 2.239% average. Belly, not super-long floor test. |
 | 30Y auction Sep-3 | **BTC 3.788x / tail 2.1bp: SOFT on frozen bars** | Distinct from script's generic Orderly flag. Tail 0.1bp trip margin equals quote quantization; precision ruling owed before Sep-29. |
-| BOJ September pricing | **98% incremental 25bp equivalent**, Totan **Sep-9 11:15 JST assumed** | Indicative meeting OIS 1.2213%; reviewed chart, policy-only/25bp model. `BOJ_MEETING_OIS.tsv`; new charts require visual review. September 8 97% remains a historical observation. |
+| BOJ September pricing | **97% 25bp-hike equivalent**, Totan ICAP **Sep-8 15:15** | Indicative meeting OIS 1.2200%; policy-only/25bp assumptions. Primary chart manually verified; `boj_ois.py` remains unusable. |
 | MOF weekly foreign LT debt | **−¥824.0B**, Aug-23–29 | Source rechecked, no newer period. Four-week −¥12.1B; inward JGB +¥509.1B. Weekly inside ¥1.5T bar; not UST-specific. |
 | FXY options | Sep-18 proxy **ATM IV 13.21%, RR −5.27, P/C .06**, Sep-8 snapshot | October/December RR implausible; thin ETF proxy, not underlying FX vol. No fresh directional or cheap-vol claim. |
 | JPY xccy proxy | **Sep-8**, residual −10.78bp; change −1.58bp | Freshness bug repaired. Futures/bill/assumed-policy residual, not true basis; mark timing and Sep-14 expiry matter. |

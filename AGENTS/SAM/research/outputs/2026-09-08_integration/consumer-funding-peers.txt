@@ -1,0 +1,13 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/SAM/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── Withdrawn funding assertion · superseded FUNDING VIA REPO, NOT SALES → current funding unresolved
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)
+        AGENTS/WALTER/SESSION_LOG.md:1259  [FUNDING VIA REPO, NOT SALES]
+           > **🔴🔴 THE SPINE — I BOOTED INTO 15 UNREAD INBOX PACKETS AND READ THEM FIRST, AND THAT ALONE CLOSED THREE OF MY TOP OPEN ITEMS BEFORE I ROUT
+
+  🔴 1 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================

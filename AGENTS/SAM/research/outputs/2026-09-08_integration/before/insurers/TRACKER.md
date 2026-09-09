@@ -1,34 +1,34 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-09-08 — August sector-flow integration; named-company disclosures retain their own dates.
-
-**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS still affects domestic duration demand, with the conditional bid described below. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
+**Last Updated:** 2026-07-02 (🔴 **Meiji Yasuda DOUBLES FY2026 super-long JGB plan to >¥2T at ~4% 30Y** — first Big-3 super-long re-entry of the cycle; SAM-32 resolved FALSE; the v1.4 "higher yields don't draw insurers back" inversion is now PARTIALLY falsified — see 2026-07-02 KEY INSIGHT below) | prior: 2026-06-10 (Norinchukin FY2025 pull — results were OUT May 21, surfaced Jun 10; CLO book record ¥10.1T, **reactivation gate (e) RESOLVED NOT REACTIVATED → 4-of-4 institutions against forced-selling direction**) | prior: 2026-05-27 (v1.5 sync — Big 3 ESR window closed 3-of-3)
+**Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS long-end abandonment (DOMESTIC mechanism) remains intact. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
 
 ---
 
-## CHANNEL 1 STATUS — RETIRED; one governing reactivation test
+## 🔴 CHANNEL 1 STATUS — RETIRED (v1.6, 2026-06-22; 4-of-4 grew US credit) — *body below is the dated DEFERRED-era evidence trail*
 
-**Reactivation requires direct net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Nippon Life, Meiji Yasuda, Sumitomo Life, Norinchukin}.** This is the existing June 22 rule. A single announcement, an aggregate MOF flow, a yen threshold, or domestic JGB stress can initiate investigation; none independently reopens the channel. ESR below 200% must be attributed to its cause: M&A capital action is different from market stress. JGB/ESR conditions are accelerants only.
+**Channel 1 cross-border forced-repatriation mechanism is demoted to deferred structural backstop (multi-year, not 2026).** All three Big 3 mutuals (Nippon, Meiji Yasuda, Sumitomo) printed FY2025 ESR on May 26 with the same pattern: ESR pressure absorbed via capital actions, equity rally, and hedge-cost relief — **NOT via foreign bond sales**. Foreign books were in unrealized GAIN at all three; Sumitomo's foreign allocation actually GREW +¥1.11T (+9.3% to 35.5% of GA). M&A direction is INTO US (Resolution Life, Allstate via Stancorp, Dearborn Life via Symetra). The "ESR cap → forced UST sale" transmission timing assumption is broken at the multi-year amplitude.
 
-The May/June named-institution evidence disconfirmed the near-term forced-repatriation mechanism. The detailed disclosure table below is historical evidence, not newly refreshed company data. The former “deferred structural backstop” and “any one reopens” rules are superseded and preserved in the before-image archive.
+**What's intact (kept in v1.5):**
+- JGB unrealized losses real and worsening (Nippon -¥5.73T, Meiji -¥2.16T)
+- **J-ICS lifer long-end abandonment driving JGB 30Y / 40Y curve instability — DOMESTIC mechanism, independent of foreign-asset transmission**
+- Hedge ratio collapse (44.4%, 14-yr low) and rotation-within (unhedged → hedged) confirmed
+- ~~Norinchukin CLO ¥9.7T shrinking — Q1 2026 ¥500B decline~~ — **FALSIFIED Jun 10 by FY2025 primary disclosure: CLO book at record ¥10.1T Mar 2026, GREW +¥1.8T YoY (8.3 → 9.7 Sep → 9.8 Dec → 10.1 Mar). CreditFlux decline claim contradicted by bank's own figures; see `norinchukin.md`**
 
-## AUGUST 2026 SECTOR FLOWS — separate from company disclosures
+**What's deferred to multi-year:**
+- "ESR cap → forced foreign bond reduction" cross-border transmission timing (multi-year, not 2026)
+- Big 3 mutual ESR window as primary near-term Channel 1 trigger (next re-test = H2 FY2026 plans Oct-Nov 2026 OR FY2026 ESR May 2027)
 
-MOF monthly outward investment, units ¥ billion, net purchases positive:
+**Channel 1 reactivation conditions (any one re-opens near-term):**
+- (a) JGB 30Y blowout to 4.5%+ AND lifers signal market-stress forced selling
+- (b) Late-Jun mid-tier print stress (T&D, Sony Life, Daido, Taiyo) with explicit foreign-bond reduction language
+- (c) Sustained MOF ITS weekly net selling >¥1.5T/month (multi-week, not single-week spike)
+- (d) FX-trigger zone breach (USDJPY <130-135 mechanical sell zone for unhedged ~$370-550B)
+- ~~(e) Norinchukin Jun FY2025 with explicit CLO-book reduction target~~ — **✅ RESOLVED AGAINST Jun 10** (FY2025 out May 21: no reduction target, book at record ¥10.1T; gate closed, next read Nov 2026 interim)
 
-| Investor/account category | Foreign long-term debt net |
-|---|---:|
-| Life insurers | −137.3 |
-| Banks, banking accounts | −1,314.9 |
-| Trust banks, banking accounts | −364.4 |
-| Trust accounts | +2,332.6 |
-| Financial instruments firms | −413.4 |
-| Investment trusts | −30.1 |
-| All reporting categories | −143.0 |
+**Implication for alerting:** Old rule "ANY ESR <200% → 🔴" is too crude (would have mis-fired on Nippon M&A action, which markets correctly priced as non-stress). New rule discriminates mechanism — see **Signal Routing** below.
 
-Life insurers also bought ¥24.9B of foreign equities. These aggregate data do not identify a named insurer, U.S. issuer, forced sale, or repatriation destination. Trust accounts are not a synonym for GPIF/pensions; long-term debt is not a synonym for USTs. Channel 1 stays retired. Company profiles were not updated from these sector totals.
-
-Source: [MOF monthly debt](https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb3.csv), [equities](https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb2.csv); August rows verified September 8. Saved files and calculation audit → [assessment §5](../reports/2026-09-08_catchup-assessment.md).
+---
 
 ## 🔴 KEY INSIGHT 2026-07-02 — MEIJI YASUDA RE-ENTERS: THE SUPER-LONG DEMAND-VACUUM HAS A YIELD FLOOR (~4.0% 30Y)
 
@@ -46,7 +46,7 @@ Source: [MOF monthly debt](https://www.mof.go.jp/policy/international_policy/ref
 
 **JGB 30Y broke 4.000% on May 15** (peak 4.205%; 10Y at 2.770% 29-yr high). The driver is NOT high-yields-attracting-buyers; it's the opposite — **J-ICS makes long-duration purchases punitive for solvency**, so mid-size lifers (Fukoku, Asahi) pivoted from 30/40Y → 10-15Y BEFORE the May ESR window. Big 4 sidelined at the long end.
 
-**Current correction:** thinner insurer demand can contribute to yield pressure, but higher yields can also draw buyers back. Meiji's July plan falsified the blanket absence claim; economic-value duration matching and J-GAAP impairment must be assessed separately. The historical v1.4 implications below are not an automatic current yen-direction forecast.
+**Critical inversion:** Lifer absence at the long end is the *cause* of the yield blowout, not the consequence. Higher yields don't draw insurers back — the traditional "yield reaches a level that brings insurers back" reflex is broken under J-ICS.
 
 **Channel 1 implication (v1.4):**
 - The thesis no longer requires forced repatriation to drive yields higher — lifer absence alone does it
@@ -58,7 +58,7 @@ Source: [MOF monthly debt](https://www.mof.go.jp/policy/international_policy/ref
 
 ---
 
-## DATED FY2026 PLAN EVIDENCE (Apr 24) — HEDGED vs UNHEDGED ROTATION
+## ⚠️ STILL ACTIVE (Apr 24) — HEDGED vs UNHEDGED ROTATION
 
 FY2026 plans revealed insurers are NOT cutting foreign bonds in aggregate. They rotate WITHIN the book:
 - **Unhedged foreign bonds:** REDUCING (hedge cost math bites)
@@ -142,7 +142,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 
 ---
 
-## HISTORICAL SIGNAL SUMMARY — March–July evidence, not current marks
+## SIGNAL SUMMARY
 
 **What's confirmed (mechanism evidence — high weight):**
 1. ~~Near-universal~~ super-long JGB buyer strike **NARROWED 2026-07-02**: Fukoku, Daido confirmed still out (J-ICS-driven); **Meiji Yasuda EXITED the strike** (doubled FY2026 super-long plan to >¥2T at ~4% 30Y — see KEY INSIGHT 2026-07-02)
@@ -158,7 +158,13 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 - ~~At least 50% of Big 10 planned overseas debt cuts (Oct 2025 survey)~~ — **superseded.** Apr 2026 FY2026 plans (Big 4) showed ZERO clean foreign-bond cuts. Pattern was rotation-within (unhedged → hedged), not net cuts. Survey kept as historical sentiment indicator only; actual capital actions overrode stated intent.
 - ~~Nippon ESR 222% trigger logic ("if drops <200% → tone changes")~~ — **superseded.** Nippon printed 195% on May 26 via M&A capital action, not stress. Tone did NOT change; foreign book in unrealized GAIN. Threshold-vs-mechanism trap.
 
-**Current follow-up:** track another monthly sector window and H2 FY2026 company plans (October–November); Norinchukin interim around November. Seek named net sales and their funding/driver, apply the governing reactivation test above. Older mid-tier disclosure gaps remain unverified research backlog, not upcoming June catalysts. July auction tests are historical; next dated checks live in `../docket/CALENDAR.md`.
+**What we're waiting for (current, post-3-of-3):**
+1. **Late-Jun mid-tier ESR** (T&D Holdings, Sony Life, Daido, Taiyo) — consistency check vs Big 3 pattern. Stress-driven sub-200% with explicit foreign-bond reduction language would partially reactivate Channel 1.
+2. ~~Norinchukin FY2025 (Jun)~~ — **✅ RESOLVED AGAINST Jun 10:** CLO book direction is UP (record ¥10.1T, +¥1.8T YoY); no reduction target. Reactivation candidate closed; next read H1 FY2026 interim (~Nov 2026).
+3. **Any insurer dropping a headline UST/foreign-bond reduction target** (Fukoku-2023-style) — would re-activate Channel 1 immediately.
+4. **MOF ITS weekly net selling >¥1.5T sustained over multi-week window** — would suggest forced-selling mechanism firing even if disclosure language stays calm.
+5. **H2 FY2026 plan announcements (Oct-Nov 2026)** — next structured re-test window for Channel 1 multi-year transmission. **+ do Nippon/Sumitomo/Dai-ichi follow Meiji Yasuda's super-long re-build?** (Dai-ichi stated rotation intent Jul-2025; Nippon duration signals Apr-2026.)
+6. **🆕 Jul-7 30Y / Jul-22 40Y auction internals + MoF/lifer monthly flows** — is the Meiji Yasuda ~4% bid REAL flow or announcement-only? (Roll-up funding means net super-long flow may print small — read the program, not just the flow sign.)
 
 **Oil-yen channel — v1.4 inversion (insurer calculus):**
 - **Phase 1 mechanism inverted under blockade severity.** v1.3 framing was "oil spike → wider trade deficit → JPY weakens → unhedged FX gains paper over JGB losses." April actual: trade balance posted ¥+302B **SURPLUS** because the blockade collapsed import VOLUMES (-64% YoY crude, -67% YoY ME crude — lowest since 1979). The deficit channel choked on physical-supply destruction, not on oil-cost arithmetic.
@@ -173,7 +179,7 @@ Reconciles why Feb TIC showed Japan UST holdings RISING (+$53.8B Dec→Feb) whil
 
 ---
 
-## HISTORICAL DATES — forward calendar is `../docket/CALENDAR.md`
+## KEY DATES
 
 | Date | Event | Watch For |
 |------|-------|-----------|

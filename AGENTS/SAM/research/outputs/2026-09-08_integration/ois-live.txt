@@ -1,0 +1,12 @@
+Latest Totan OIS — source quote 2026-09-09T11:15:00+09:00; checked 2026-09-09T03:19:04.365918+00:00
+Latest nearest meeting 2026-09: 98% incremental 25bp equivalent; OIS 1.2213%; indicative, not traded.
+INDICATIVE OTC medians; 25bp increments; JST assumed. No last-trade timestamp.
+Meeting | OIS % | incremental 25bp equivalent % | cumulative expected hikes | reference term
+2026-09 | 1.2213 | 98 | 0.98 | 2026-09-24 to 2026-10-30
+2026-10 | 1.2900 | 28 | 1.25 | 2026-11-02 to 2026-12-18
+2026-12 | 1.4425 | 61 | 1.86 | 2026-12-21 to 2027-01-22
+2027-01 | 1.5338 | 37 | 2.23 | 2027-01-25 to 2027-03-18
+2027-03 | 1.6388 | 42 | 2.65 | 2027-03-19 to 2027-04-28
+Cumulative counts are NOT cumulative probabilities; incremental equivalents depend on the model.
+⚠️ Changed chart requires visual review; cumulative counts are not probabilities. Legacy source retired.
+BOJ_MEETING_OIS.tsv: 0 new rows.

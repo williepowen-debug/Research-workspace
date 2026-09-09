@@ -1,0 +1,15 @@
+test_arithmetic_nonfinite_and_incomplete_rows_rejected (test_boj_ois.PricingTests.test_arithmetic_nonfinite_and_incomplete_rows_rejected) ... ok
+test_boot_failure_never_writes_or_uses_old_quote (test_boj_ois.PricingTests.test_boot_failure_never_writes_or_uses_old_quote) ... ok
+test_changed_image_or_error_html_rejected (test_boj_ois.PricingTests.test_changed_image_or_error_html_rejected) ... ok
+test_duplicate_and_overlapping_terms_rejected (test_boj_ois.PricingTests.test_duplicate_and_overlapping_terms_rejected) ... ok
+test_idempotency_and_same_vintage_revision_preserve_bytes (test_boj_ois.PricingTests.test_idempotency_and_same_vintage_revision_preserve_bytes) ... ok
+test_methodology_and_image_layout_drift_rejected (test_boj_ois.PricingTests.test_methodology_and_image_layout_drift_rejected) ... ok
+test_no_write_success_and_network_failure (test_boj_ois.PricingTests.test_no_write_success_and_network_failure) ... ok
+test_policy_date_expiry_even_if_quote_recent (test_boj_ois.PricingTests.test_policy_date_expiry_even_if_quote_recent) ... ok
+test_saved_primary_image_curve_and_units (test_boj_ois.PricingTests.test_saved_primary_image_curve_and_units) ... ok
+test_stale_and_future_dates_rejected (test_boj_ois.PricingTests.test_stale_and_future_dates_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.019s
+
+OK

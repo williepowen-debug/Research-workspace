@@ -26,13 +26,13 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION / LAST SESSION — September 8 integration
+### CHANGES SINCE LAST SESSION / LAST SESSION — September 8 catch-up
 
-- Approved catch-up is integrated into THESIS, JGB supply/demand, insurer tracker, MOF playbook and KB-209. File map: `reports/2026-09-08_integration.md`; market research: `reports/2026-09-08_catchup-assessment.md`. Before-images preserved in the integration evidence package.
-- Replaced contradictory current claims with conditional demand and evidence-specific interpretation. Retired carry frame stays LOW; no successor, trade or historical prediction regrade. Company profiles were not refreshed from sector aggregates.
-- BOJ source replacement shipped in `bfaea9825`: reviewed Totan image, separate meeting-OIS ledger, date/hash/term/arithmetic guards. Ten tests and live ingestion pass; repeat writes zero. New publisher image appeared during verification; source vintage is in STATUS. New chart decoding still requires SAM visual review.
-- KB quote-only repair `c922e355b` fixes 169/197/209 so strict TSV parsing succeeds; 209's analytical consolidation is separate. FLOW/VX stay frozen. Boot inventory no longer treats regression tests as market tools.
-- Local commits only while peers have dirty work. No messages sent, no peer files modified. Refresh NEXUS after final STATUS; deferred operator eval re-baseline remains outstanding (no simulated pass).
+- Approved full research pass complete through available releases: `reports/2026-09-08_catchup-assessment.md`, raw sources/calculations under `research/outputs/2026-09-08_catchup/`. Boot receipt remains separate.
+- Payroll candidate corrected; Totan September 8 15:15 chart gives dated 97% BOJ 25bp equivalent. GDP/wages read. New reserve-stock decline informs but does not identify securities/UST funding. No systemic unwind established from cross-pairs, VIX, credit and lagged funding.
+- MOF August investor-type flows primary-read: life insurer LT sales -¥137.3B; trust-account buying +¥2.3326T (not synonymous with pensions). Norway proposal and China DCS primary scope verified. No named-institution or transaction inference.
+- Fixed xccy cutoff bug repaired, four tests and live run pass. Freshness ≠ real basis; September 14 fixed-pair expiry guarded. KB-209 rider and KB-232 updated; frozen FLOW untouched.
+- Thesis LOW/retired, no successor, no prediction rescore, no trade. Payroll/Norway research packets consumed; unrelated audit/architecture mail remains pending. Own files only; peer dirty state defers pull/push, local commit only.
 
 ### NEXT SESSION
 
@@ -46,10 +46,10 @@
 1z. **Norway packet consumed:** JGB 4.6%→7.4% proposed, not a flow or specific superlong bid. Prior “nothing lands in 2026” inference withdrawn; Jan-25 expert report is not a mandatory implementation ordering. BOND ~$18B estimate remains distinct from primary weights. Report §7.
 
 1a. 🔴 **AUTO-MEMORY OWED, and it is the sharpest thing this desk produced today:** a retired figure does not merely get re-cited — it gets **RE-LABELLED onto a different subject**, where a DO-NOT list keyed to the original subject has zero coverage. (74.5: a dead Kalshi **BOJ** quote, published by me as a **CME Fed** figure.) Pairs with `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`.
-1b. **BOJ chart refresh:** replacement script is usable for reviewed images. If boot returns UNAVAILABLE on a changed image, visually review the new table, preserve its timestamp/terms/hash, add the reviewed JSON, then run validation and ingestion per `workbook/BOJ_OIS_README.md`. Unattended image decoding remains an enhancement; never restore the old feed.
+1b. **BOJ pricing automation still owed:** manual source gap resolved via public Totan ICAP September 8 chart (97%, indicative 25bp assumptions). `boj_ois.py` remains unusable. Automated source must capture quote vintage/reference period and distinguish incremental from cumulative. No silent reuse after this date.
 1c. 🆕 **SAM-39 successor spec** — if an intervention-character row is re-opened, it needs a **SHAPE** leg (max single-hour move, or hours-to-half-the-move), not only a daily range. **Register the spec BEFORE any window opens.**
 1d. **METSUKE.md spec edit** (Run-18 E1): publisher-side monitor rule for STATUS-canonical figure re-bases.
-1e. **KB cleanup:** KB-209 consolidation DONE (official aggregate plus unresolved funding/account split). FRBNY Q3 ~11/13 remains the U.S. split adjudicator, not a completed funding answer. KB-051/197 substantive cleanup remains owed; quote repair alone did not resolve their analytical history.
+1e. **KB palimpsests owed** (KURA-drafted, my ruling): **KB-051/197** (dead-Brent figures + third $90 crossing) · **KB-209 two-legged** (size leg A2→A1 via ¥15.4T; funding UNRESOLVED; FRBNY Q3 ~11/13 = split adjudicator). 🆕 **KB-SAM-209's funding leg gains a datum today:** the BOJ settlement instrument is confirmed sovereign-blind at n=3.
 1f. 🆕 **2 auto-memory routings from KURA Run-14, approved:** NEW `finding_rank_is_a_property_of_a_sovereign_window_pair` · EXTEND `finding_synthetic_artifact_defeats_provenance_tracing` w/ the Kharg 8/31 AI-video.
 1g. 🔧 **CFTC weekly deadband successor** — KB-SAM-231 named the class; register the successor spec BEFORE the next window. **Do NOT re-tune inside a live window.**
 1h. **WALTER charter edit is MINE** (`2026-08-18` lane notice) — carried since 8/20, still owed.
@@ -91,4 +91,4 @@ Generated from `scripts/` at run time (name · boot-wired? · purpose), so it ca
 
 ### NEXT INFRA SESSION (script build queue)
 
-**Historical build queue was empty on 2026-08-04; current BOJ image-decoding enhancement remains open under item 1b** — the last open item (`boj_swap_pricing.py`) shipped as `boj_ois.py`. `trade_balance_japan.py` ✅ 6/10 · `gpif_flows.py` ✅ 7/9 · `boj_ois.py` ✅ 8/4. **Before proposing any new script, run `boot.py --tools`** — it lists what already exists, generated from disk. Still-deferred, non-script: `insurer_quartr.py` (Quartr watcher, needs auth), `mof_flows.py` NISA retail-flow tripwire, `boj_events.py` (SoO/speeches/minutes).
+**Queue is EMPTY as of 2026-08-04** — the last open item (`boj_swap_pricing.py`) shipped as `boj_ois.py`. `trade_balance_japan.py` ✅ 6/10 · `gpif_flows.py` ✅ 7/9 · `boj_ois.py` ✅ 8/4. **Before proposing any new script, run `boot.py --tools`** — it lists what already exists, generated from disk. Still-deferred, non-script: `insurer_quartr.py` (Quartr watcher, needs auth), `mof_flows.py` NISA retail-flow tripwire, `boj_events.py` (SoO/speeches/minutes).
