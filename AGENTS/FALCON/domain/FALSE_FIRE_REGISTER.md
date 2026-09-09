@@ -38,6 +38,10 @@
 | **Fox "Trump agrees to 2-week ceasefire if Iran opens Hormuz"** | **April 7 2026.** |
 | **"Saudi halted Bab el-Mandeb shipments"** | **July 2018.** |
 | **Golden Leo sinking** | **CONFIRMED but Black Sea** — theater-check before gate-check. |
+| 🆕🔴 **"CENTCOM DESTROYED five Iranian tankers" (9/8)** | **"Destroyed" is CENTCOM's word; the operative phrase is "rendered inoperable" — NO sinking is reported for any of the five** (Kaviz, Charminar, Horizon 1 [LPG], Riesco — Gulf of Oman; Derya, empty NITC VLCC — at Kharg). **Tanker total losses stay at ONE (Kylo 9/5); confirmed hostile-action total losses stay at 2.** A confirmed sinking of any of the five = a SECOND class-(iii) = EXIT_PROTOCOL §5 rewrite trigger + same-day memo. `KB-FALCON-130` · `VI-2026-0025..0029` |
+| 🆕 **"IRGC destroyed three F-35s at Muwaffaq Salti"** surfacing beside the 9/8 Jordan claim | **JULY 30 2026 vintage** (Kurdistan24 dated 7/30). The 9/8 item is a NEW, separate IRGC claim on an Al-Azraq hangar with no BDA and no Jordanian casualty statement found; Jordan's "8 missiles intercepted at dawn" line is **8/31**. Date-check before theater-check. `KB-FALCON-141` |
+| 🆕 **"Jazan hit again — 400 kbpd offline" (9/7 · 9/8)** | **400 kbpd is the NAMEPLATE of a refinery ALREADY SHUT since 7/27** whose IIR 8/30 restart was never confirmed. **Two strike EVENTS, one pre-existing LOSS — zero incremental barrels.** Product molecule; FAL-05 expressly excludes it; D-indicator #2 is Yanbu/Petroline, ~700 km north. `KB-FALCON-134` · `GI-20260907-JIZAN4` / `GI-20260908-JIZAN5` |
+| 🆕 **"US struck Kharg Island" (9/8 — M/T Derya)** | **Sixth Kharg trap.** The Derya was struck AT/near Kharg; **terminal damage is NOT reported.** GATE 1 / FAL-01-class stays FIRM-NEGATIVE. What WOULD matter: a ≥72h crude-loading suspension at Kharg on two dark-immune routes (FAL-05 route (c), new initiating cause 9/8). `VI-2026-0029` |
 
 ---
 
