@@ -6,6 +6,41 @@ Boot integration (2026-09-09): `boot_session.py` runs the gate once per chosen r
 
 From the repository root, capture metadata with:
 
+The presence view also includes a desk overview of pending Git-visible files and
+the last desk-named commit. Files carry writer/liveness uncertainty; no changes
+does not imply an idle or closed session. Gitignored files are excluded. Hashing
+reads bounded regular file contents but saves only fingerprints; symlinks, special
+files, known credential/runtime/transcript paths and oversized files are unmeasured.
+
+For the PROME/SAM pilot, run from `PROME/` (repeat the same command after normal
+work to compare observations):
+
+```bash
+python3 tools/session_presence.py --desk SAM --codex-state-db /home/willi/.codex/state_5.sqlite --activity-state /tmp/prome-sam-activity.json
+```
+
+The database path is this desktop's optional metadata source, not a portable
+runtime API. It opens read-only and selects identity fields only. `CODEX_THREAD_ID`
+identifies the caller; an exact stored cwd can corroborate its desk. Other stored
+IDs remain candidates, including archived sessions and helpers. No newest-row
+assignment or working/idle inference is made. Missing stores/schema/parent data
+remain explicit gaps. Without the database option, exact caller cwd plus the
+environment ID can still identify the caller.
+
+The first activity snapshot establishes a baseline; later reports distinguish
+changed pending files, unchanged pending work and paths no longer pending. The
+last category does not establish completion. Comparison files must be outside the
+repo; host/repo/time/desk-set mismatch, malformed state or a held lock refuses
+advancement. Failed path enumeration leaves the prior snapshot intact. A complete
+path inventory can retain null fingerprints for unmeasured files; their contents
+remain unknown while measured files can still be compared. Use the same desk
+set and snapshot path for comparisons; a changed due-owner set needs a fresh
+comparison file. Without `--activity-state`, the boot gate collects current pending
+files and commits without writing a baseline. This is an on-demand snapshot view;
+it does not monitor while PROME is idle. Evidence: [presence/activity report](../reports/2026-09-09_presence-activity.md).
+
+Standalone runtime inventory and the optional dashboard projection:
+
 ```bash
 python3 PROME/tools/session_bridge.py > /tmp/prome-sessions.json
 python3 PROME/tools/fleet_dashboard.py --sessions-json /tmp/prome-sessions.json -o /tmp/fleet_dashboard.html

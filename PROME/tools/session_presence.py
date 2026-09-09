@@ -8,6 +8,8 @@ import socket
 
 import session_bridge
 import spawn_list
+import desk_activity
+import session_identity
 
 ROOT = Path(__file__).resolve().parents[2]
 MAX_AGE_SECONDS = 60
@@ -60,7 +62,7 @@ def evidence(owner, data, reference):
             "current_presence": "UNKNOWN", "spawn_authorized": False}
 
 
-def report(rows, data, reference=None, host=None):
+def report(rows, data, reference=None, host=None, activities=None, identities=None, desks=()):
     reference = reference or dt.datetime.now(dt.timezone.utc)
     host = host or socket.gethostname()
     error = None
@@ -76,6 +78,19 @@ def report(rows, data, reference=None, host=None):
     print("Codex coverage:", json.dumps(data.get("codex", {}) if isinstance(data, dict) else {}, ensure_ascii=False))
     if error:
         print(f"⚠️ UNKNOWN: {error}")
+    if activities is not None or identities is not None:
+        print("Desk overview — file activity is independent evidence; quiet files do not mean an offline desk.")
+        for owner in sorted(set(desks) | {r[3] for r in rows}):
+            if owner in ("WILL", "?"):
+                continue
+            view = evidence(owner, data, reference) if error is None else {"current_presence": "UNKNOWN", "reason": error}
+            view["spawn_authorized"] = False
+            view["identity"] = (identities or {}).get(owner, {"current_presence": "UNKNOWN"})
+            if activities and owner in activities.get("desks", {}):
+                view["file_activity"] = desk_activity.public_view(activities, owner)
+            else:
+                view["file_activity"] = {"error": (activities or {}).get("error", "not collected")}
+            print(owner + "\t" + json.dumps(view, ensure_ascii=True))
     print("key\tdue\towner\tgit_class\truntime_evidence")
     for key, due, delta, owner, git_class, basis, catalyst in rows:
         view = evidence(owner, data, reference) if error is None else {
@@ -88,7 +103,15 @@ def report(rows, data, reference=None, host=None):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--sessions-json")
+    ap.add_argument("--desk", action="append", default=[], help="Include a desk even without a due row; repeatable")
+    ap.add_argument("--activity-state", type=Path, help="Optional snapshot outside the repo for between-run comparisons")
+    ap.add_argument("--codex-state-db", type=Path, help="Optional read-only stored identity metadata; never live status")
     args = ap.parse_args()
+    try:
+        for owner in args.desk:
+            desk_activity.desk_path(owner)
+    except ValueError as exc:
+        ap.error(str(exc))
     try:
         data = json.loads(Path(args.sessions_json).read_text()) if args.sessions_json else session_bridge.inventory()
     except (OSError, ValueError) as exc:
@@ -96,7 +119,17 @@ def main():
     today = dt.date.today()
     rows = spawn_list.collect(spawn_list.read_text("PROME/DOCKET.tsv"),
         spawn_list.read_text("PROME/GATES.tsv"), today, 0, spawn_list.Liveness(None))
-    return report(rows, data)
+    owners = sorted(set(args.desk) | {r[3] for r in rows if r[3] not in ("WILL", "?")} | {"PROME"})
+    try:
+        for owner in owners:
+            desk_activity.desk_path(owner)
+        activities = desk_activity.observe(ROOT, owners, args.activity_state)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        activities = {"error": f"UNKNOWN activity: {exc}"}
+    identities = session_identity.collect(ROOT, owners, args.codex_state_db)
+    rc = report(rows, data, activities=activities, identities=identities, desks=owners)
+    return 1 if activities.get("error") or any(not d["complete"] or not d.get("content_complete", False)
+        for d in activities.get("desks", {}).values()) else rc
 
 
 if __name__ == "__main__":

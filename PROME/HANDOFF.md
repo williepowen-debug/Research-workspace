@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**September 9 boot hardening:** [Implementation and validation](reports/2026-09-09_boot-hardening.md). BOOT now points to bounded reads and a reusable gate-attempt receipt; all check output is retained. Due rows carry scoped session evidence, with incomplete host visibility UNKNOWN. Closeout uses a literal-path stage → commit → verify → push pipeline that stops on failure. Manual-window inventory comparison remains pending; no new launch authority.
+**September 9 boot hardening:** [Boot safeguards](reports/2026-09-09_boot-hardening.md) and [presence/file activity](reports/2026-09-09_presence-activity.md). Bounded reads, saved gate attempts, complete check logs and fail-stop Git persistence are installed. The presence view now shows pending files, desk-named commits and optional between-observation changes; stored session IDs remain separate from live status. PROME's caller ID is identifiable; SAM's exact session association remains unresolved. Will reported PROME and SAM open during validation. No new launch authority.
 
 **September 9 closeout:** [SCRATCH — next session](SCRATCH.md) and [closeout evidence](reports/2026-09-09_closeout.md). Saved at Will's request. Due-day owner work remains unverified and unmonitored where no live coverage was established; the final gate receipt states the actual verdict. No market-close sweep or overall fleet regrade.
 

@@ -1,0 +1,529 @@
+{
+  "source_sha256": "a8f3c84d4b5447dd31eee3fde84b591a9ddbfdfbacf32190c38e82fef0293fdd",
+  "source": "read-only presence pilot comparison; stored identity is not liveness",
+  "desks": {
+    "PROME": {
+      "sessions_observed": [],
+      "processes_observed": [
+        {
+          "runtime": "codex",
+          "identity": {
+            "pid": 1,
+            "start_ticks": "3844538",
+            "state": "S",
+            "boot_id": "d319c97d-7b1e-4d02-bc5b-6d9e4260730f",
+            "pid_namespace": "pid:[4026532302]"
+          },
+          "turn_status": "UNKNOWN"
+        }
+      ],
+      "current_presence": "UNKNOWN",
+      "spawn_authorized": false,
+      "identity": {
+        "caller_session": {
+          "id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+          "basis": "CODEX_THREAD_ID + exact stored cwd",
+          "metadata_corroborated": true
+        },
+        "stored_candidates": [
+          {
+            "id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+            "cwd": "/home/willi/Research-workspace/PROME",
+            "archived": 0,
+            "stored_updated_at": 1788995778,
+            "parent_id": null,
+            "kind": "interactive/source-declared",
+            "liveness": "UNKNOWN"
+          },
+          {
+            "id": "01a08874-c47a-7a22-8378-32533cf09e00",
+            "cwd": "/home/willi/Research-workspace/PROME",
+            "archived": 0,
+            "stored_updated_at": 1788995775,
+            "parent_id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+            "kind": "helper",
+            "liveness": "UNKNOWN"
+          },
+          {
+            "id": "01a0886c-7db8-7363-9913-0af798b52091",
+            "cwd": "/home/willi/Research-workspace/PROME",
+            "archived": 0,
+            "stored_updated_at": 1788995289,
+            "parent_id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+            "kind": "helper",
+            "liveness": "UNKNOWN"
+          },
+          {
+            "id": "01a08807-79eb-76b0-9d49-6fde9356f133",
+            "cwd": "/home/willi/Research-workspace/PROME",
+            "archived": 0,
+            "stored_updated_at": 1788988746,
+            "parent_id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+            "kind": "helper",
+            "liveness": "UNKNOWN"
+          },
+          {
+            "id": "01a087fc-82e6-74b0-a120-8d3b2415d301",
+            "cwd": "/home/willi/Research-workspace/PROME",
+            "archived": 0,
+            "stored_updated_at": 1788987953,
+            "parent_id": "01a087c0-e34c-7e20-a64a-e54cafb7d13f",
+            "kind": "helper",
+            "liveness": "UNKNOWN"
+          }
+        ],
+        "stored_coverage": "exact-cwd stored records only",
+        "current_presence": "UNKNOWN",
+        "database": "/home/willi/.codex/state_5.sqlite"
+      },
+      "file_activity": {
+        "observed_at": "2026-09-09T23:16:17.826622+00:00",
+        "coverage": "Git-visible desk files; ignored files excluded",
+        "complete": true,
+        "error": null,
+        "content_complete": true,
+        "pending_files": [
+          {
+            "path": "PROME/HANDOFF.md",
+            "status": " M",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/tools/SESSION_PILOT.md",
+            "status": " M",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/tools/session_presence.py",
+            "status": " M",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/plans/2026-09-09_presence-activity.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/reports/2026-09-09_presence-activity.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/tests/test_presence_activity.py",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/tools/desk_activity.py",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "PROME/tools/session_identity.py",
+            "status": "??",
+            "measurement": "content measured"
+          }
+        ],
+        "last_self_commit": {
+          "sha": "2504829f04f8e7fd1edbf0137bb685add79f21fc",
+          "committed_at": "2026-09-09T17:21:15-04:00",
+          "subject": "PROME: harden boot reads, retries and scoped Git persistence",
+          "basis": "desk-named commit subject; not proof of current activity"
+        },
+        "comparison": {
+          "baseline_observed_at": "2026-09-09T23:15:36.782912+00:00",
+          "baseline_head": "9899e223ce4cb63626c598d696bf2d5111ed02ec",
+          "meaning": "between saved observations; writer unknown",
+          "changed": [],
+          "no_longer_pending": [],
+          "self_commit_changed": false
+        },
+        "baseline_advanced": true,
+        "current_session_state": "UNKNOWN"
+      }
+    },
+    "SAM": {
+      "sessions_observed": [],
+      "processes_observed": [],
+      "current_presence": "UNKNOWN",
+      "spawn_authorized": false,
+      "identity": {
+        "caller_session": null,
+        "stored_candidates": [],
+        "stored_coverage": "exact-cwd stored records only",
+        "current_presence": "UNKNOWN",
+        "database": "/home/willi/.codex/state_5.sqlite"
+      },
+      "file_activity": {
+        "observed_at": "2026-09-09T23:16:17.826622+00:00",
+        "coverage": "Git-visible desk files; ignored files excluded",
+        "complete": true,
+        "error": null,
+        "content_complete": false,
+        "pending_files": [
+          {
+            "path": "AGENTS/SAM/CLAUDE.md",
+            "status": " M",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/workbook/BOJ_MEETING_OIS.tsv",
+            "status": " M",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/case_02_jgb30y_jics_v1_2_INPUT.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/case_02_jgb30y_jics_v1_2_RUBRIC.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/CLAUDE.before.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/CLAUDE.candidate.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/CLAUDE.candidate.patch",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/CLAUDE.candidate2.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.input.txt",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.live.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.live.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.rerun.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.rerun.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_01.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.input.txt",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.live.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.live.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.rerun.events.jsonl",
+            "status": "??",
+            "measurement": "excluded sensitive/runtime path"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.rerun.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/case_02_v1_2.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/first-pass-assessment.md",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/rerun-exits.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/evals/runs/2026-09-09_boot-promotion/rerun-manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/collect.py",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/followup-manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/followup_sources.py",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/market-manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/6jh27-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/6ju26-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/6jz26-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/audjpy-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/boj-current-account.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/boj-jp20260910-current.xlsx",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/boj-jx20260909.xlsx",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/boj-policy-calendar.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/central-home.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-tff.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cpi-calendar.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/eia-security.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/eia-steo.pdf",
+            "status": "??",
+            "measurement": "special/large file or scan budget exhausted"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/eurjpy-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fed-calendar.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-BAMLC0A0CM.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-BAMLC0A0CM.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-BAMLH0A0HYM2.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-BAMLH0A0HYM2.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-IORB.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fred-IORB.stderr.txt",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/fxy-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/move-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/nyfed-effr.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/nyfed-sofr.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/sp500-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/totan-actual.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/totan-forecast.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/u-s-treasury.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/ueda-tanshi.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/usdjpy-daily.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/vix.csv",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/2026-09-09_followthrough/source-manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/boj-review/2026-09-09_b48a71fb4cfec9191408059f1cfb07316eded17504cce4d103ffb8c80b5a239f/manifest.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/boj-review/2026-09-09_b48a71fb4cfec9191408059f1cfb07316eded17504cce4d103ffb8c80b5a239f/review-draft.json",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/boj-review/2026-09-09_b48a71fb4cfec9191408059f1cfb07316eded17504cce4d103ffb8c80b5a239f/source.html",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/research/outputs/boj-review/2026-09-09_b48a71fb4cfec9191408059f1cfb07316eded17504cce4d103ffb8c80b5a239f/table.png",
+            "status": "??",
+            "measurement": "content measured"
+          },
+          {
+            "path": "AGENTS/SAM/workbook/boj_ois_reviews/2026-09-09T1515-JST.json",
+            "status": "??",
+            "measurement": "content measured"
+          }
+        ],
+        "last_self_commit": {
+          "sha": "9899e223ce4cb63626c598d696bf2d5111ed02ec",
+          "committed_at": "2026-09-09T17:42:48-04:00",
+          "subject": "SAM: correct boot reporting, monitor semantics, and context recovery",
+          "basis": "desk-named commit subject; not proof of current activity"
+        },
+        "comparison": {
+          "baseline_observed_at": "2026-09-09T23:15:36.782912+00:00",
+          "baseline_head": "9899e223ce4cb63626c598d696bf2d5111ed02ec",
+          "meaning": "between saved observations; writer unknown",
+          "changed": [],
+          "no_longer_pending": [],
+          "self_commit_changed": false
+        },
+        "baseline_advanced": true,
+        "current_session_state": "UNKNOWN"
+      }
+    }
+  }
+}
