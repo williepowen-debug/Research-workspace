@@ -79,5 +79,24 @@
     "Shared read-cap check discovers only five boot reads; additional mandatory and conditional documents were measured explicitly here.",
     "Commit-based ledger age/nudge output predates committing actual changes; REGISTRY is deliberately not stamped or edited.",
     "No new market grade, capital approval or execution receipt."
-  ]
+  ],
+  "post_commit_checks": {
+    "implementation_commit": "570001b9b",
+    "ledger_age": {
+      "exit_code": 0,
+      "stale_rows": 0
+    },
+    "ledger_nudge": {
+      "exit_code": 1,
+      "remaining": {
+        "REGISTRY.tsv": 8,
+        "CATALYSTS.tsv": 1
+      },
+      "reasons": {
+        "REGISTRY.tsv": "No new registered COT print; September 11 next release.",
+        "CATALYSTS.tsv": "No new dated event or event disposition from cleanup; generated calendar reconciliation passed."
+      }
+    },
+    "brent_worktree": "clean after implementation commit"
+  }
 }
