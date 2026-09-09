@@ -436,8 +436,9 @@ def parse_positions(gate_rows):
             ticker_ctx = m.group(1) if m else None
             cols = None
         elif s.startswith("|"):
+            raw_cells = [c.strip() for c in s.strip("|").split("|")]
             cells = [re.sub(r"\*\*|~~|`|\*", "", c).strip()
-                     for c in s.strip("|").split("|")]
+                     for c in raw_cells]
             if cols is None:
                 if "Qty" in cells and ("Ticker" in cells or "Strike" in cells):
                     cols = {}
@@ -452,6 +453,15 @@ def parse_positions(gate_rows):
 
             def g(name):
                 return cells[cols[name]] if name in cols else ""
+
+            # FORGE uses struck identity/quantity cells for historical closures.
+            # Keep that state before removing Markdown, or closed options look live.
+            if any("~~" in raw_cells[cols[name]] for name in ("Ticker", "Strike", "Type", "Qty")
+                   if name in cols) or re.fullmatch(r"0(?:\.0+)?", g("Qty")):
+                continue
+            if re.search(r"\b(?:CLOSED|EXPIRED|ASSIGNED|EXERCISED|REALIZED)\b",
+                         g("P&L") or g("Outcome") or g("State"), re.I):
+                continue
 
             tick = (g("Ticker") or ticker_ctx or "").split()[0] if (g("Ticker") or ticker_ctx) else ""
             if not re.fullmatch(r"[A-Z]{1,6}", tick):

@@ -265,7 +265,7 @@ def parse_money():
     """FORGE/STATUS.md header — account total + cash %, WITH the export vintage."""
     p = ROOT / "FORGE/STATUS.md"
     try:
-        head = p.read_text(encoding="utf-8")[:4000]
+        head = p.read_text(encoding="utf-8").split("\n## ", 1)[0]
     except Exception as e:
         return fail("the book", "FORGE/STATUS.md", f"unreadable: {e}")
     total = re.search(r"account total:\*\*\s*\$([\d,]+\.\d\d)", head)

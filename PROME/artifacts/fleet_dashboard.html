@@ -1,0 +1,366 @@
+<title>Fleet Ops — PROME</title>
+<style>
+:root{
+  --paper:#F5F6F7; --panel:#FFFFFF; --ink:#1C2128; --ink2:#5A6472; --line:#DDE2E8;
+  --accent:#3D6A8F; --accent-ink:#2E5473;
+  --ok:#27754A; --watch:#7E6A00; --elev:#E27429; --crit:#A32B60;
+  --ok-bg:#E4F0E9; --watch-bg:#F1ECD6; --elev-bg:#FAE8DA; --crit-bg:#F4DFE9;
+  --mono:ui-monospace,'Cascadia Code',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root{
+  --paper:#14171B; --panel:#1C2127; --ink:#E6E9ED; --ink2:#98A2AE; --line:#2C333B;
+  --accent:#7FA6C9; --accent-ink:#9FBEDA;
+  --ok:#348157; --watch:#6E6400; --elev:#D47934; --crit:#B2476B;
+  --ok-bg:#1D2E25; --watch-bg:#2C2915; --elev-bg:#332318; --crit-bg:#301B26;
+}}
+:root[data-theme="dark"]{
+  --paper:#14171B; --panel:#1C2127; --ink:#E6E9ED; --ink2:#98A2AE; --line:#2C333B;
+  --accent:#7FA6C9; --accent-ink:#9FBEDA;
+  --ok:#348157; --watch:#6E6400; --elev:#D47934; --crit:#B2476B;
+  --ok-bg:#1D2E25; --watch-bg:#2C2915; --elev-bg:#332318; --crit-bg:#301B26;
+}
+:root[data-theme="light"]{
+  --paper:#F5F6F7; --panel:#FFFFFF; --ink:#1C2128; --ink2:#5A6472; --line:#DDE2E8;
+  --accent:#3D6A8F; --accent-ink:#2E5473;
+  --ok:#27754A; --watch:#7E6A00; --elev:#E27429; --crit:#A32B60;
+  --ok-bg:#E4F0E9; --watch-bg:#F1ECD6; --elev-bg:#FAE8DA; --crit-bg:#F4DFE9;
+}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);
+  font:15px/1.5 -apple-system,'Segoe UI',system-ui,sans-serif;padding:20px 22px 40px}
+a{color:var(--accent-ink)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+h1{font-size:19px;letter-spacing:.4px}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink2);
+  margin-bottom:10px}
+.bar{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 18px;
+  border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:16px}
+.bar .stamp{font-family:var(--mono);font-size:12.5px;color:var(--ink2)}
+#agebadge{font-family:var(--mono);font-size:12px;padding:2px 9px;border-radius:3px;
+  background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok)}
+#agebadge.aged{background:var(--watch-bg);color:var(--watch);border-color:var(--watch)}
+#agebadge.old{background:var(--crit-bg);color:var(--crit);border-color:var(--crit)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+.chip{font-family:var(--mono);font-size:11.5px;padding:2px 8px;border-radius:3px;
+  border:1px solid;white-space:nowrap}
+.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok)}
+.watch{color:var(--watch);background:var(--watch-bg);border-color:var(--watch)}
+.elev{color:var(--elev);background:var(--elev-bg);border-color:var(--elev)}
+.crit{color:var(--crit);background:var(--crit-bg);border-color:var(--crit)}
+.none{color:var(--ink2);background:var(--paper);border-color:var(--line)}
+.card.none{border-left-color:var(--line)}
+.muted{color:var(--ink2)}
+.regime{margin-bottom:16px}
+.oneliner{font-size:16.5px;font-style:italic;margin-bottom:10px;text-wrap:balance}
+.oneliner .split{font-style:normal;font-family:var(--mono);font-size:12.5px;
+  color:var(--ink2);margin-left:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:4px;
+  padding:10px 12px;border-left-width:4px}
+.card.ok{border-left-color:var(--ok);background:var(--panel)}
+.card.watch{border-left-color:var(--watch);background:var(--panel)}
+.card.elev{border-left-color:var(--elev);background:var(--panel)}
+.card.crit{border-left-color:var(--crit);background:var(--panel)}
+.card .nm{font-weight:600;font-size:13.5px}
+.card .hd{font-family:var(--mono);font-size:11.5px;margin:2px 0 6px}
+.card .bd{font-size:12.5px;color:var(--ink2);line-height:1.45}
+.ticker{overflow-x:auto;white-space:nowrap;background:var(--panel);
+  border:1px solid var(--line);border-radius:4px;padding:7px 12px;margin:12px 0 18px;
+  font-family:var(--mono);font-size:12.5px}
+.ticker span{margin-right:18px;color:var(--ink2)}
+.ticker b{color:var(--ink);font-weight:600}
+.cols{display:grid;grid-template-columns:minmax(300px,5fr) minmax(380px,7fr);gap:20px}
+@media (max-width:920px){.cols{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:4px;
+  padding:14px 16px;margin-bottom:18px}
+.attn{list-style:none}
+.attn li{display:flex;gap:9px;padding:7px 0;border-top:1px solid var(--line);
+  font-size:13px;align-items:flex-start}
+.attn li:first-child{border-top:0}
+.attn .tag{flex:none;font-family:var(--mono);font-size:10.5px;padding:1px 6px;
+  border-radius:3px;border:1px solid;margin-top:2px;text-transform:uppercase;
+  letter-spacing:.05em}
+.attn .src{display:block;font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.runway{list-style:none}
+.runway li{display:flex;gap:10px;padding:6px 0;border-top:1px solid var(--line);
+  font-size:13px;align-items:baseline}
+.runway li:first-child{border-top:0}
+.runway .d{flex:none;width:86px;font-family:var(--mono);font-size:12px}
+.runway .in{flex:none;width:52px;font-family:var(--mono);font-size:11px;
+  color:var(--ink2);text-align:right}
+.runway .own{font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.runway li.soon .d{color:var(--elev);font-weight:700}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+.tablewrap{overflow-x:auto}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--ink2);padding:4px 8px 6px;border-bottom:1px solid var(--ink)}
+td{padding:5px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+.agent{font-weight:600;white-space:nowrap}
+.lvl{font-family:var(--mono);font-size:11px;color:var(--ink2);white-space:nowrap}
+.bar30{height:5px;border-radius:2px;background:var(--accent);min-width:2px}
+.barwrap{width:64px;background:var(--line);border-radius:2px;margin-top:6px}
+.dom{color:var(--ink2);font-size:12px}
+.footer{margin-top:20px;padding-top:12px;border-top:1px solid var(--line);
+  font-size:11.5px;color:var(--ink2)}
+.footer code{font-family:var(--mono)}
+.parsefail{color:var(--crit);font-family:var(--mono);font-size:12px}
+ul.plain{list-style:none}
+ul.plain li{padding:5px 0;border-top:1px solid var(--line);font-size:13px}
+ul.plain li:first-child{border-top:0}
+.tabs{display:flex;gap:2px;margin-bottom:16px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:13px;font-weight:600;letter-spacing:.03em;
+  background:none;border:0;border-bottom:3px solid transparent;color:var(--ink2);
+  padding:6px 14px 8px;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.gloss{max-width:76ch}
+.gloss .panel h3{font-size:14.5px;margin-bottom:6px}
+.gloss .panel p{font-size:13.5px;line-height:1.55;margin-bottom:8px}
+.gloss .panel p:last-child{margin-bottom:0}
+.gloss .own{font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.gloss table{font-size:12.5px}
+.gloss td:first-child{white-space:nowrap;font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tile{border:1px solid var(--line);border-left-width:4px;border-radius:4px;
+  background:var(--panel);padding:9px 11px}
+.tile.ok{border-left-color:var(--ok)}
+.tile.watch{border-left-color:var(--watch)}
+.tile.elev{border-left-color:var(--elev)}
+.tile.crit{border-left-color:var(--crit)}
+.tile .tn{font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--ink2);display:flex;justify-content:space-between}
+.tile .tv{font-family:var(--mono);font-size:19px;font-weight:700;margin:1px 0}
+.tile .tv .asof{font-size:10.5px;font-weight:400;color:var(--ink2);margin-left:5px}
+.tile .td{font-family:var(--mono);font-size:11px;color:var(--ink2);line-height:1.5}
+.tile .td b{color:var(--ink)}
+</style>
+<div class="bar">
+  <h1>FLEET OPS · PROME</h1>
+  <span class="stamp mono">2026-09-09 12:58 ET · HEARTBEAT base 2026-09-07 · <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm →</a></span>
+  <span id="agebadge" data-generated="2026-09-09T16:58:13Z">built just now</span>
+  <div class="chips">
+    <span class="chip ok">env ✓</span>
+    <span class="chip crit">firetime ✗</span>
+    <span class="chip ok">spine audit 4d</span>
+    
+  </div>
+</div>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-view="view-ops">Operations</button>
+  <button role="tab" aria-selected="false" data-view="view-gloss">Glossary</button>
+</nav>
+
+<div id="view-ops" role="tabpanel" aria-label="Operations">
+<section class="regime">
+  
+  <p class="muted">Source: HEARTBEAT base 2026-09-07; AMENDMENT #1 — 2026-09-07 14:4x ET Mon; AMENDMENT #2 — 2026-09-08 evening ET. Source dates are separate from this page's build time.</p>
+  <div class="oneliner">“STAND DOWN, NO DEPLOY (September 7 WQ-189/192 ruling). September 8 Cboe SKEW 148.86 broke the prior run: FT-10 consumer 0/4, NOT FIRED; RED/VIOLET integration pending. XLE September 8 close 64.77 selected the approved September 9 exit; execution unverified. HY 268 bp [September 7]; DGS10 4.78% and DFII10 2.43% [September 4]. Other channels retain their dated observations.”<span class="split">Break 20 / Grind 47 / Unresolved 33</span></div>
+  <div class="cards"><div class="card crit"><div class="nm">Energy</div><div class="hd chip crit">🔴 STAND DOWN; XLE exit selected</div><div class="bd">NO DEPLOY under WQ-189/192. XLE 64.77 [September 8 vendor close] selected the approved September 9 sale; execution unverified. FALCON&#x27;s hull-loss gate FIRED; BRENT&#x27;s capacity test NOT MET.</div></div><div class="card crit"><div class="nm">Rates</div><div class="hd chip crit">🔴 Officials updated through September 4; no add</div><div class="bd">DGS10 4.78%; DFII10 2.43% [September 4 officials]. September 8 officials UNKNOWN at the amendment read. Real-yield add gate 2.50%: 7 bp away. No new threshold or owner grade.</div></div><div class="card crit"><div class="nm">Credit</div><div class="hd chip crit">🔴 HY between its lines; WAL owner grade pending</div><div class="bd">HY OAS 268 bp [September 7]: 8 bp above 260, 12 bp below 280. WAL 79.94 [September 8 vendor close] below 81.90; REGINALD grade pending. No new streak count or trade authority inferred.</div></div><div class="card elev"><div class="nm">Japan / carry</div><div class="hd chip elev">🟠 a record intervention month; USD/JPY keeps retracing and t</div><div class="bd">MOF Jul30–Aug26 = ¥15,399.3B, a record (primary). USD/JPY 154.29 [9/7, dashboard.py basis — FX trades the holiday] from 160.19 [9/1, same basis] = the second ≥160 close; the count lives on THAT basis only (never difference across …</div></div><div class="card watch"><div class="nm">Equity-vol</div><div class="hd chip watch">🟡 FT-10 consumer 0/4; NOT FIRED</div><div class="bd">Cboe SKEW 148.86 [September 8] breaks the prior &gt;=150 run. Consumer count 0/4; NOT FIRED. September 9 cannot be the fourth bar. RED/VIOLET owner integration pending; SIG-W-20260908-019 routed.</div></div><div class="card elev"><div class="nm">AI capex</div><div class="hd chip elev">🟠 frame unchanged; the tape is buying it again.</div><div class="bd">NVDA 230.36 [9/4]; Q2 FY27 [8/26] rev $96.2B · DC $89.0B · guide $108B; OpenAI guarantee book $3.5B → $108.5B (31×). VULCAN-16 graded MISS 9/3; MU FQ4 = 9/30 16:30 ET, issuer-confirmed. Source correction 9/8 16:50 ET …</div></div><div class="card crit"><div class="nm">War theaters + tariffs + housing</div><div class="hd chip crit">🔴 PJM post-expiry outcome ungraded</div><div class="bd">September 8 pre-expiry read found no successor DOE order; post-23:59 ET outcome UNKNOWN at that read. WATT owns the grade. Other theater, tariff and housing observations retain the September 7 base vintage.</div></div><div class="card crit"><div class="nm">Metals</div><div class="hd chip crit">🔴 MIDAS-06 is the first live RESOLVED + VERIFIED question …</div><div class="bd">Branch (a) DIVERGE PERSISTS (gold ≥ $4,340.70 AND DFII10 ≥ 2.40), graded on the 8/28 vintage — accepted 9/2 under LIVE-2026-0012; WQ-155 ③ RULED (a): three-outcome projection, build 9/9 (L247). MIDAS-08 (b) INDETERMINATE (9/5 …</div></div></div>
+  <div class="ticker"><span><b>Brent</b> BZX26 $96.28 [9/4 settled close, BRENT&#x27;s series] (9/1 94.65</span><span><b>9/2</b> 95.63</span><span><b>9/3</b> 95.52; ⛔ never BZ=F for a delta; ⛔ yfinance printed NO Monday bar — its &quot;$96.28 [9/7]&quot; is Friday re-stamped)</span><span><b>BZX26</b> ~$97.3–97.7 [9/7 live, BRENT web reads]</span><span><b>BZF27</b> $90.25 [9/7, Jan]</span><span><b>M1−M3</b> +$7.07 [9/7]</span><span><b>HY</b> OAS 268 bp [9/7 official] (8 bp above 260; 12 bp below 280)</span><span><b>CCC</b> OAS 1,051 [9/3]</span><span><b>DFII10</b> 2.43 [9/4 official] (add gate 2.50 = 7 bp)</span><span><b>DGS10</b> 4.78 [9/4 official]</span><span><b>DGS2</b> 4.34 [9/3]</span><span><b>DGS30</b> 5.25 [9/3] (2026 max 5.31 [8/17])</span><span><b>VIX</b> ~14.5 [9/4] (⛔ the &quot;15.30 [9/7]&quot; bar = holiday GTH print)</span><span><b>VVIX</b> 84.42</span><span><b>MOVE</b> 73.10 [9/4]</span><span><b>^SKEW</b> 148.86 [9/8 Cboe; consumer 0/4, NOT FIRED; owner integration pending]</span><span><b>TLT</b> 82.21</span><span><b>SPY</b> 770.19</span><span><b>QQQ</b> 718.96</span><span><b>NVDA</b> 230.36</span><span><b>GLD</b> 406.77</span><span><b>HBAN</b> 17.03</span><span><b>WAL</b> 79.94 [9/8 vendor close; below 81.90; owner grade pending]</span><span><b>KRE</b> 75.27</span><span><b>OZK</b> 50.43</span><span><b>APO</b> 133.67 / ARES 140.15</span><span><b>BIZD</b> 13.33 / ARCC 20.04 / FSK 12.44 / OBDC 11.40</span><span><b>USO</b> 146.03 [9/8 vendor close]</span><span><b>XLE</b> 64.77 [9/8 vendor close; approved 9/9 exit selected; execution unverified]</span><span><b>GC=F</b> $4,476.60 [9/7 electronic] (4,520.30 [9/3])</span><span><b>USD/JPY</b> 154.29 [9/7, dashboard.py basis] (160.19 [9/1, same basis] — never difference across bases)</span><span><b>JGB</b> 30Y 4.131 [9/1 MOF via SAM]</span><span><b>Cushing</b> 22.51M [wk-8/28] (re-arm floor &lt;20.0M = 2.51M away, automatic)</span><span><b>rigs</b> 449 oil [wk-9/4 Baker Hughes, BRENT-graded 9/6; BRT-26 fails on a RISE to ≥457]</span><span><b>Init</b> claims 206K [w/e 8/29]</span><span><b>Cont</b> claims 1,779K [8/22]</span><span><b>SOFR</b> 3.66 [9/3]</span><span><b>SOFR-IORB</b> 0.01 [9/3]</span><span><b>CP−TBill</b> 0.06 [9/2]</span><span><b>retail</b> gasoline $4.07/gal [GASREGW wk-8/31]</span><span><b>GC=F</b> $4,478.10 / GCZ26 $4,529.90 [8/28 = the MIDAS-06 grade vintage — basis named, do not fuse]</span><span><b>**Sept</b> FOMC: PM hike-25 50.5% / hold 49.5%</span><span><b>Kalshi</b> (differenced) hike 50.0% / hold 47.0% [9/7 ~16:10Z, ORACLE]** (⛔ a Kalshi raw &quot;Above X%&quot; ≠ P(hike))</span><span><b>recession</b> 7.0% PM / 7.0% Kalshi [9/7; unmoved since pre-NFP]</span><span><b>**NFP</b> Aug +162K</span><span><b>U-3</b> 4.1%</span><span><b>EPOP</b> 59.1</span><span><b>AHE</b> +0.3% m/m [BLS 9/4 08:30]**.</span></div>
+</section>
+
+<div class="panel"><h2>Gate distance — HEARTBEAT levels vs FORGE bands</h2>
+  <div class="tiles"><div class="tile watch"><div class="tn"><span>HY OAS</span><span>↑ worse</span></div><div class="tv">268<span class="asof">[9/7 official]</span></div><div class="td"><b>12 to red 280</b><br>y 265–280 · r ≥280</div></div><div class="tile crit"><div class="tn"><span>CCC OAS</span><span>↑ worse</span></div><div class="tv">1,051<span class="asof">[9/3]</span></div><div class="td"><b>51 PAST red 1,000</b><br>y 900–1,000 · r ≥1,000</div></div><div class="tile crit"><div class="tn"><span>10Y Yield</span><span>↑ worse</span></div><div class="tv">4.78<span class="asof">[9/4 official]</span></div><div class="td"><b>0.38 PAST red 4.4</b><br>y 4–4.4 · r ≥4.4</div></div><div class="tile ok"><div class="tn"><span>VIX</span><span>↑ worse</span></div><div class="tv">14.5<span class="asof">[9/4]</span></div><div class="td"><b>15.5 to red 30</b><br>y 20–30 · r ≥30</div></div><div class="tile ok"><div class="tn"><span>MOVE</span><span>↑ worse</span></div><div class="tv">73.1<span class="asof">[9/4]</span></div><div class="td"><b>46.9 to red 120</b><br>y 90–120 · r ≥120</div></div><div class="tile ok"><div class="tn"><span>WAL</span><span>↓ worse</span></div><div class="tv">79.94<span class="asof">[9/8 vendor clo]</span></div><div class="td"><b>14.94 to red 65</b><br>y 65–75 · r &lt;65</div></div><div class="tile ok"><div class="tn"><span>OZK</span><span>↓ worse</span></div><div class="tv">50.43<span class="asof">[?]</span></div><div class="td"><b>10.43 to red 40</b><br>y 40–48 · r &lt;40</div></div><div class="tile watch"><div class="tn"><span>USD/JPY</span><span>↑ worse</span></div><div class="tv">154.29<span class="asof">[9/7, dashboard]</span></div><div class="td"><b>2.71 to red 157</b><br>y 150–157 · r ≥157</div></div><div class="tile watch"><div class="tn"><span>Cushing</span><span>↓ worse</span></div><div class="tv">22.51<span class="asof">[wk-8/28]</span></div><div class="td"><b>2.51 to red 20</b><br>y 20–25 · r &lt;20</div></div><div class="tile ok"><div class="tn"><span>Init Claims</span><span>↑ worse</span></div><div class="tv">206,000<span class="asof">[w/e 8/29]</span></div><div class="td"><b>74,000 to red 280,000</b><br>y 225,000–280,000 · r ≥280,000</div></div><div class="tile ok"><div class="tn"><span>Cont Claims</span><span>↑ worse</span></div><div class="tv">1,779,000<span class="asof">[8/22]</span></div><div class="td"><b>171,000 to red 1,950,000</b><br>y 1,850,000–1,950,000 · r ≥1,950,000</div></div></div>
+  <p class="muted" style="font-size:11.5px;margin-top:9px">Levels come from the HEARTBEAT
+  stress dashboard and its reviewed amendments with their [as-of] stamps — a stale stamp means canon needs refreshing,
+  not this page. Bands come from <code>FORGE/tools/market-data/config.py</code> (canon
+  absolute thresholds); gate-specific trigger lines (e.g. the 4.50 arm-#2 rule) live in the
+  fire ledger below and are not restated here.</p></div>
+
+<div class="cols">
+<div>
+  <div class="panel"><h2>Since last build — vs 2026-09-08 23:09</h2>
+    <ul class="attn"><li><span class="tag elev">elev</span><span>Regime one-liner CHANGED → “STAND DOWN, NO DEPLOY (September 7 WQ-189/192 ruling). September 8 Cboe SKEW 148.86 broke the prior run: FT-10 consumer 0/4, NOT FIRED; RED/VIOLET integration pending. XLE September 8 close 64.77 selected the approved September 9 exit; execution unverified. HY 268 bp [September 7]; DGS10 4.78% and DFII10 2.43% [September 4]. Other channels retain their dated observations.”</span></li><li><span class="tag watch">watch</span><span>GATE-TERRY-USO135C: live:LIVE → resolved:RESOLVED</span></li><li><span class="tag watch">watch</span><span>Runway + 004 TLT Sep-30 $77P x25 EXPIRY — the live PROME-rail duratio (2026-09-30)</span></li><li><span class="tag watch">watch</span><span>Runway + FORUM-5 W1 opacity enumeration DUE — 4 legs (SHADE gated-US- (2026-09-30)</span></li><li><span class="tag watch">watch</span><span>Runway + MIDAS-01 + MIDAS-02 RESOLVE — moving-referent class RULED 20 (2026-09-30)</span></li><li><span class="tag watch">watch</span><span>Runway + MU FQ4 earnings (window 9/17-9/24, typical ~9/22; date_class (2026-09-30)</span></li><li><span class="tag watch">watch</span><span>Runway + RAP auto-pay enrollment deadline — 1% interest-rate reductio (2026-09-30)</span></li><li><span class="tag watch">watch</span><span>Runway + Sep-30 EXPIRY cluster — WQ-168 rows ④⑥ RULED 9/3: TLT $77P × (2026-09-30)</span></li><li><span class="tag none">info</span><span>Runway − 🔴 PJM CAPACITY EMERGENCY — LIVE (WATT P1 FIRED 2→5 on its 8/ (passed/resolved/re-dated)</span></li><li><span class="tag none">info</span><span>Runway − BRENT discriminator follow-up: full-August Sidi Kerir direct (passed/resolved/re-dated)</span></li><li><span class="tag none">info</span><span>Runway − DEFERRAL (Forum-4 N10, Will-ruled 8/11): ORACLE v3 instrumen (passed/resolved/re-dated)</span></li><li><span class="tag none">info</span><span>Runway − Russia diesel producer-direct follow-up: Q1 instrument / Q2  (passed/resolved/re-dated)</span></li><li><span class="tag none">info</span><span>HY OAS 265 → 268</span></li><li><span class="tag none">info</span><span>10Y Yield 4.77 → 4.78</span></li><li><span class="tag none">info</span><span>WAL 80.95 → 79.94</span></li></ul></div>
+  <div class="panel"><h2>Needs attention</h2>
+    <ul class="attn"><li><span class="tag crit">crit</span><span>firetime_check flagging (rc≠0) — a fire-path artifact has a real defect (allowlist filters known-benigns)<span class="src">scripts/firetime_check.py</span></span></li><li><span class="tag elev">elev</span><span>SHADE lagging — 12d own — lagging<span class="src">AGENTS/SHADE/STATUS.md</span></span></li><li><span class="tag elev">elev</span><span>AEOLUS lagging — 12d own — lagging<span class="src">AGENTS/AEOLUS/STATUS.md</span></span></li><li><span class="tag elev">elev</span><span>FLG lagging — 12d own — lagging<span class="src">AGENTS/FLG/STATUS.md</span></span></li><li><span class="tag elev">elev</span><span>OZK lagging — 9d own — lagging<span class="src">AGENTS/OZK/STATUS.md</span></span></li><li><span class="tag watch">watch</span><span>AEOLUS inbox at 9 — drain owed<span class="src">AGENTS/AEOLUS/inbox/</span></span></li><li><span class="tag watch">watch</span><span>REGINALD inbox at 19 — drain owed<span class="src">AGENTS/REGINALD/inbox/</span></span></li><li><span class="tag watch">watch</span><span>ZHAO inbox at 15 — drain owed<span class="src">AGENTS/ZHAO/inbox/</span></span></li><li><span class="tag watch">watch</span><span>LIQUID inbox at 21 — drain owed<span class="src">AGENTS/LIQUID/inbox/</span></span></li><li><span class="tag watch">watch</span><span>BROCK inbox at 12 — drain owed<span class="src">AGENTS/BROCK/inbox/</span></span></li><li><span class="tag watch">watch</span><span>HENRY inbox at 22 — drain owed<span class="src">AGENTS/HENRY/inbox/</span></span></li><li><span class="tag watch">watch</span><span>BOND inbox at 11 — drain owed<span class="src">AGENTS/BOND/inbox/</span></span></li><li><span class="tag watch">watch</span><span>VULCAN inbox at 9 — drain owed<span class="src">AGENTS/VULCAN/inbox/</span></span></li></ul></div>
+  <div class="panel"><h2>Pending Will</h2>
+    <ul class="plain"><li class='muted'>none parsed — see PROME/SCRATCH.md cautions</li></ul></div>
+  <div class="panel"><h2>Fire ledger — live gates</h2>
+    <ul class="attn"><li><span class="tag watch">LIVE</span><span><b>GATE-HY-REKILL</b> <span class="muted">(LIQUID · checked 6d ago)</span><br><span class="muted">HY OAS (FRED BAMLH0A0HYM2; bp = published percent × 100; each observation taken AS FIRST PUBLISHED — later revisions are noted on this row and never …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-LIQ-069</b> <span class="muted">(LIQUID · checked 6d ago)</span><br><span class="muted">AI-HY cohort re-arm, ANY ONE of 5 legs: BB&gt;220-while-CCC-flat [RULED 9/1 WQ-114, prospective: flat = |5-session CCC OAS change| ≤15bp] · CoreWeave 5Y …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-LIQ-072</b> <span class="muted">(LIQUID · checked 7d ago)</span><br><span class="muted">IG rating-vs-spread mispricing re-arm, ANY: 3rd/4th similar IG issuer at BB-like spreads · IG OAS &gt;94 · SpaceX gap fails to compress 4-6wk …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-LIQ-076</b> <span class="muted">(LIQUID · checked 7d ago)</span><br><span class="muted">Dealer-positioning nexus, 2-of-3 within 2wk: (a) SOFR-3M lev short at/past record or &gt;300K single-week cover · (b) PD G10&gt;10y &lt;−$12B or G5L10 …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-LIQ-079</b> <span class="muted">(LIQUID · checked 6d ago)</span><br><span class="muted">Funding-origin-scoped seizure conjunction: ARM = SOFR99-IORB ≥+30bp AND non-calendar AND ≥2 consecutive days; FIRE = armed + slow-lead backing …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-FALCON-001</b> <span class="muted">(FALCON · checked 2d ago)</span><br><span class="muted">Bab el-Mandeb EXECUTION tripwire, ANY of 3: (1) UKMTO/Ambrey/JMIC-confirmed post-7/20 Houthi enforcement attack on a Saudi/commercial hull in the …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-OSPREY-001</b> <span class="muted">(OSPREY · checked 7d ago)</span><br><span class="muted">CPC Channel-2 UPGRADE tripwire, ANY: (a) CPC SPM buoy STRUCTURAL damage confirmed by assessment [OPEN] · (b) loading suspension ≥5 sessions OR …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-NEXUS-SEAT-01</b> <span class="muted">(NEXUS/PROME · checked 32d ago)</span><br><span class="muted">FROZEN SPEC at the dissent post (zero re-tuning): count Will&#x27;s decisions 2026-08-08→10-07 whose PROXIMATE input was a NEXUS product; ≥3 = the layer …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-OP-SCALE-01</b> <span class="muted">(TERRY/PROME · checked 32d ago)</span><br><span class="muted">FROZEN SPEC (dissent post): by 2026-11-07 the agent-proposed book shows N ≥10 CLOSED positions, else a structural-shrink proposal. GUARD v2: N = …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-BRENT-COT-35B</b> <span class="muted">(BRENT · checked 3d ago)</span><br><span class="muted">Fuel-spent band 35b (ruled 8/12): crude MM gross shorts vs FROZEN base 122,904.5 (trailing-8wk median 6/16-8/4; an 8-obs median - carry the .5 or the …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-FERT-G5</b> <span class="muted">(FERT · checked 7d ago)</span><br><span class="muted">DTN retail DAP OR MAP &gt; $1,000/ton (instrument = DTN Progressive Farmer weekly retail $/ton — NEVER conflate w/ Pink Sheet $/mt or NOLA $/st). …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-FERT-G3</b> <span class="muted">(FERT · checked 7d ago)</span><br><span class="muted">EVENT GATE (un-base-rateable, n≈2 policy regime changes/12mo, accepted as-flagged): China 2026 urea export quota revised DOWN, OR a guidance floor …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-TERRY-007</b> <span class="muted">(TERRY/BOND · checked 1d ago)</span><br><span class="muted">004 EXIT gate (Will ruling C, 8/19): FIVE CONSECUTIVE official FRED DGS10 closes &lt;4.50% ⇒ TERRY builds an exit proposal → Will [Approve], never …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-CORAL-MSI-01</b> <span class="muted">(CORAL/Will · checked 7d ago)</span><br><span class="muted">MSI supply-side price-discovery leg — breadth+sustain on Parcl FL metro Motivated Seller Index (MSI, 0-10 composite scale) &gt;6.0. ⛔⛔ NOT …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-FLG-T08</b> <span class="muted">(FLG/PROME · checked 12d ago)</span><br><span class="muted">NYC RENT FREEZE takes EFFECT 2026-10-01 — instrument = the NYC Rent Guidelines Board order&#x27;s effective date (published, HARD; the RGB voted June 2026 …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-TERRY-ROLL70-EXIT</b> <span class="muted">(REGINALD (grades) / TERRY (proposal) / Will (executes) · checked 6d ago)</span><br><span class="muted">WAL OFFICIAL CLOSE ≥ $81.90 on THREE CONSECUTIVE sessions (= the REG-T-02 EXIT registered 9/1 as ROLL70&#x27;s guard; a close &lt;81.90 resets the count). …</span></span></li><li><span class="tag watch">LIVE</span><span><b>GATE-BRK-R2</b> <span class="muted">(BROCK · checked 6d ago)</span><br><span class="muted">PER-VEHICLE redemption escalation (replaces BROCK&#x27;s &#x27;≥2 vehicles gated simultaneously&#x27; line). ONE vehicle shows (a) ≥3 CONSECUTIVE sub-100% …</span></span></li><li><span class="tag ok">DONE</span><span class="muted"><b>GATE-TERRY-ROLL70</b> — RESOLVED(FILLED (last 7d)</span></li><li><span class="tag ok">DONE</span><span class="muted"><b>GATE-TERRY-USO135C</b> — RESOLVED (last 7d)</span></li></ul></div>
+</div>
+<div>
+  <div class="panel"><h2>Catalyst runway — next 21 days</h2>
+    <ul class="runway"><li class="soon"><span class="d">Fri 8/14+</span><span class="in">live now</span><span>Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/11): WT-1 (Q-C shared-purpose; size-knob axis …<br><span class="own">MIDAS/BRENT/SAM/ORACLE (own frames) / PROME (riders)</span></span></li><li class="soon"><span class="d">Tue 9/1+</span><span class="in">live now</span><span>FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23 as EA GENERAL-26-38)<br><span class="own">STUE/CARL</span></span></li><li class="soon"><span class="d">Tue 9/1+</span><span class="in">live now</span><span>Xi -&gt; Washington White House summit with Trump (exact date unannounced; Bessent-He Lifeng prep) …<br><span class="own">ZHAO (+HAWK trade-war framing)</span></span></li><li class="soon"><span class="d">Wed 9/9+</span><span class="in">today</span><span>🔴 THREE-EVENT COLLISION: Treasury stepped-up liquidity-support buybacks BEGIN 9/9 (sb0607: ≥$4bn/op, 10-20y …<br><span class="own">BOND/TERRY (+RED FT-11)</span></span></li><li class="soon"><span class="d">Wed 9/9</span><span class="in">today</span><span>KERNEL three-outcome projection vocabulary (WQ-155 ③, Will 9/2 10:57 option (a)): PROME specs + builds …<br><span class="own">PROME/DAEDALUS-or-RED</span></span></li><li class="soon"><span class="d">Wed 9/9</span><span class="in">today</span><span>XLE $65C Sep-30 ×2 — WQ-168 row ⑦ DATED EXIT, leg 2: SELL BOTH at the bid on the Wed 9/9 OPEN unless the 9/8 …<br><span class="own">TERRY/Will</span></span></li><li class="soon"><span class="d">Wed 9/9</span><span class="in">today</span><span>FERT DTN weekly retail-price article → GATE-FERT-G5 graded read (the gate&#x27;s review_by is 9/9; G5 NOT FIRED at …<br><span class="own">FERT</span></span></li><li class="soon"><span class="d">Wed 9/9</span><span class="in">today</span><span>KERNEL/IMPLEMENTATION_STATUS.md chronology → archive (Codex rec 7 + WQ-171 ② follow-up): the body&#x27;s …<br><span class="own">PROME (custodian) · DAEDALUS-or-RED (cold read)</span></span></li><li class="soon"><span class="d">Wed 9/9</span><span class="in">today</span><span>RED-FT-10 published-bar owner follow-up: September8 Cboe 148.86 broke the &gt;=150 run; September9 is no longer …<br><span class="own">RED (owner of FT-10) / VIOLET (^SKEW instrument, count carrier) / PROME (consumer read)</span></span></li><li class="soon"><span class="d">Thu 9/10</span><span class="in">in 1d</span><span>ECB Governing Council decision (13:45 CET) — HANS HNS-05 grade (hike-25 to 2.50% deposit; prior 88% …<br><span class="own">HANS (owner) / PROME (consumer read; dark-owner pre-fetch)</span></span></li><li class="soon"><span class="d">Thu 9/10</span><span class="in">in 1d</span><span>validate_all.py v1 build — DAEDALUS&#x27;s 9/14 load split, correction 1: it must land BEFORE the 9/12 tooling …<br><span class="own">DAEDALUS</span></span></li><li class="soon"><span class="d">Thu 9/10</span><span class="in">in 1d</span><span>SPR / Edouard — first WPSR for named week-endingSeptember4, noonET release (later tables14:00ET), EIA Labor …<br><span class="own">BRENT</span></span></li><li class="soon"><span class="d">Fri 9/11</span><span class="in">in 2d</span><span>August CPI (Fri 9/11, 08:30 ET — DATE VERIFIED, was carried as ~9/10) — HEN-41 oil-shock passthrough test …<br><span class="own">HENRY/CARL</span></span></li><li class="soon"><span class="d">Fri 9/11</span><span class="in">in 2d</span><span>CRMT Q2 10-Q liquidity GRADE (BROCK) — the 10-Q lands ~9/9; grade follows the 9/4 weekly liquidity test and …<br><span class="own">BROCK</span></span></li><li class="soon"><span class="d">Fri 9/11</span><span class="in">in 2d</span><span>FSA PortfolioByLoanStatus.xls last-modified-header poll (STUE FSA trigger for ES-01/04/06 — NOT ES-02; L151 …<br><span class="own">STUE (owner) / PROME (dark-owner header pre-fetch, read-only)</span></span></li><li class="soon"><span class="d">Fri 9/11</span><span class="in">in 2d</span><span>NEXUS second-C read at the August CPI print — C #1 of 2 fired 8/28 (NON-RENEWABLE clause ARMED); a second C …<br><span class="own">NEXUS</span></span></li><li class="soon"><span class="d">Fri 9/11</span><span class="in">in 2d</span><span>HAW18 scoring-vintage application: first publication60 versus corrected55. Inspect contemporaneous …<br><span class="own">HAWK/DAEDALUS (owner application) / PROME (consumer)</span></span></li><li class="soon"><span class="d">Sat 9/12</span><span class="in">in 3d</span><span>FORUM-6 deferral R10: scan_report scope-stating instrument — build WHEN a named invocation site exists …<br><span class="own">WALTER+DAEDALUS</span></span></li><li class="soon"><span class="d">Sat 9/12</span><span class="in">in 3d</span><span>FORUM-6 deferral R7-stage-2: per-desk read-set declarations (READS.tsv, BRIEFS_MAP generalized) — sequenced …<br><span class="own">DAEDALUS+all-desks</span></span></li><li class="soon"><span class="d">Sat 9/12</span><span class="in">in 3d</span><span>One-time sweep of ALREADY-REGISTERED base rates for OPERATOR MISMATCH vs the operator their letter carries …<br><span class="own">DAEDALUS</span></span></li><li class="soon"><span class="d">Sat 9/12</span><span class="in">in 3d</span><span>FLEET SWEEP — ORIGIN-PROOF INSTRUMENTS (WALTER ask 9/5, PROME-docked): for every instrument that asserts …<br><span class="own">DAEDALUS (sweep owner, at the 9/12 TOOLING/WIRING sitting with L209 + L258) / WALTER (the behavioural method + its eight defects as the reference cases) / PROME (consumer read; #101 as the human instance)</span></span></li><li><span class="d">Sun 9/13</span><span class="in">in 4d</span><span>CRU-05 prediction grade window CLOSES (CRUISE-registered at the 9/2 session; graded on CRUISE&#x27;s own …<br><span class="own">CRUISE</span></span></li><li><span class="d">Sun 9/13</span><span class="in">in 4d</span><span>WQ-185 ① EPISODE REVIEW — episode (b) GATE-REG-T02 → ROLL70 fill → EXIT guard: ONE short findings document …<br><span class="own">PROME (produces; one blind read before delivery) / Will (reads) / TERRY · REGINALD (owners of the records — read-only for the review)</span></span></li><li><span class="d">Mon 9/14</span><span class="in">in 5d</span><span>LADDER-INTEGRITY sitting: the ~33-row invented-gate audit + WQ-180&#x27;s 6-desk calibration adjudication (WALTER …<br><span class="own">DAEDALUS (presents) / PROME (consumer read; WQ-181 ② to Will)</span></span></li><li><span class="d">Tue 9/15+</span><span class="in">in 6d</span><span>September FOMC (decision Wed 9/16, 2:00 PM ET) — carries the SEP + DOT PLOT (July does not). August CPI 9/11 …<br><span class="own">HENRY/VIOLET/BOND/RED</span></span></li><li><span class="d">Tue 9/15</span><span class="in">in 6d</span><span>GATE-FERT-G3 standing re-read — China quota/floor state at MOFCOM/NDRC relay + Profercy (event gate; also …<br><span class="own">FERT</span></span></li><li><span class="d">Tue 9/15</span><span class="in">in 6d</span><span>REQ-DEWEY-20260829-002 DEADLINE (Will-directed, WALTER-commissioned 8/28 eve): how much of NVDA&#x27;s growth does …<br><span class="own">DEWEY (Will spawns)</span></span></li><li><span class="d">Tue 9/15</span><span class="in">in 6d</span><span>PREDICTION_DISCIPLINE canon ENCODE — WQ-163 item 3 (an amendment to a frozen instrument re-earns its …<br><span class="own">PROME (writes; FORGE-owned) / NEXUS (raiser; applies prospectively from its packet)</span></span></li><li><span class="d">Tue 9/15</span><span class="in">in 6d</span><span>OSPREY OWED30/32 paired scope/observability follow-up: precise reachable buyer-pullback proposal, source …<br><span class="own">OSPREY (owner) / PROME (consumer)</span></span></li><li><span class="d">Wed 9/16</span><span class="in">in 7d</span><span>VIO-FOMC-0916 GRADE, part 1 of 3 — LEGS 1 · 4 · 5 grade on the 9/16 CLOSE (leg 1: ΔVIX 9/15→9/16 close …<br><span class="own">VIOLET (owner, frozen letter) / HENRY·RED (branch-map readers) / PROME (consumer read)</span></span></li><li><span class="d">Wed 9/16</span><span class="in">in 7d</span><span>LABOR four-instrument COMMISSION (Will 9/7 brainstorm, Codex-corrected): ① Indeed postings OPERATIONAL AUDIT …<br><span class="own">LABOR (owner) / PROME (consumer read) / CORAL·MARCO (FL readers)</span></span></li><li><span class="d">Thu 9/17+</span><span class="in">in 8d</span><span>BOJ September MPM (Sep hike ~40-54% UNPRICED band [TFX primary, blend caveat]; SAM frame LOW v1.7)<br><span class="own">SAM</span></span></li><li><span class="d">Thu 9/17</span><span class="in">in 8d</span><span>P4 SITTING — correction-class validation C1–C5 (WQ-109, ruled 9/1: one sitting, DAEDALUS presents) + the …<br><span class="own">DAEDALUS (presents) / PROME (record + routing) / WALTER (register owner) / Will (rules)</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>Amendment-12 watch grades (the format-vs-recogniser discriminator&#x27;s own test): am.11 shipped 8/7 (NEXUS …<br><span class="own">DAEDALUS/NEXUS</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>USO 150/165 call-spread expiry (BRENT tail-rider — FILLED 7/24, net debit ~$300)<br><span class="own">BRENT/TERRY</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>Sep-18 EXPIRY cluster — WQ-168 rows ①②③ RULED 9/3: WAL $70P ×1 LAPSE (re-opens ONLY if WAL closes &lt;$71 any …<br><span class="own">TERRY/Will</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>WQ-171 ③ COMMISSION (Will 9/3 21:54 &#x27;Approve WQ-171 ① and ②&#x27; → ③ as a DOCKET row per PROME&#x27;s rec): DAEDALUS …<br><span class="own">DAEDALUS (blueprint) · PROME (routing) · Will (word)</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>BOND FR2004 weekly join DELIVERS = WQ-157 leg ② clock (the pairing instrument for the I′ kill leg: FR2004 …<br><span class="own">BOND (build + verdict) / PROME (register leg ② ask) / Will (rule leg ②)</span></span></li><li><span class="d">Fri 9/18</span><span class="in">in 9d</span><span>VIO-FOMC-0916 GRADE, part 2 of 3 — LEG 3 second read on the 9/18 CLOSE (T+2 after the FOMC statement, presser …<br><span class="own">VIOLET (owner) / HENRY·RED (readers) / PROME (consumer read)</span></span></li><li><span class="d">Sat 9/19</span><span class="in">in 10d</span><span>SPAWN-DRIVER REVIEW sitting (WQ-184 leg ⑦, Will 2026-09-05 21:42 &#x27;approve WQ-184 with your recs&#x27;): read M1 …<br><span class="own">PROME (presents) / Will (rules) / DAEDALUS (M2 scorecard column, offered not asked)</span></span></li><li><span class="d">Sat 9/19</span><span class="in">in 10d</span><span>Class 8 DESK CADENCE COLUMN — commission (WQ-184 leg ⑥): STATE_VOCABULARY Class 8 extension (Will-approved …<br><span class="own">DAEDALUS (spec + instrument) / PROME (applies the column; spawn_list v2)</span></span></li><li><span class="d">Tue 9/22+</span><span class="in">in 13d</span><span>DEFERRAL (Forum-4 N11-ii, Will-ruled 8/11): multi-desk LEAD-LAG STUDY, converted form — per desk on its own …<br><span class="own">PROME (charter the study) / BRENT+SAM+MIDAS</span></span></li><li><span class="d">Tue 9/22+</span><span class="in">in 13d</span><span>DEFERRAL (Forum-4 N12, Will-ruled 8/11): SUCCESSOR-QUARANTINE N — successor candidate opened within N days of …<br><span class="own">Will (set N) / PROME</span></span></li><li><span class="d">Tue 9/22+</span><span class="in">in 13d</span><span>DEFERRAL (Forum-4 N13, Will-ruled 8/11): PROVENANCE TOKENS, NARROWED form (ORC token on ORACLE figures routed …<br><span class="own">PROME/Will</span></span></li><li><span class="d">Tue 9/22</span><span class="in">in 13d</span><span>GATE-TERRY-007 EXECUTABILITY DEADLINE — the last official DGS10 close on which a qualifying …<br><span class="own">TERRY (owner) / PROME (consumer read)</span></span></li><li><span class="d">Wed 9/23</span><span class="in">in 14d</span><span>FORUM fin-cond T3 v2 — decoupling Test A, RE-SPECCED (Will-ruled row 113, 8/28; LIQUID leads, HENRY co-specs …<br><span class="own">LIQUID/HENRY</span></span></li><li><span class="d">Wed 9/23</span><span class="in">in 14d</span><span>VIO-FOMC-0916 GRADE, part 3 of 3 — LEG 2 on the 9/23 CLOSE (+5 sessions from 9/16): ΔVIX 9/16 close → 9/23 …<br><span class="own">VIOLET (owner) / PROME (consumer read → closes the VIO-FOMC-0916 set)</span></span></li><li><span class="d">Fri 9/25+</span><span class="in">in 16d</span><span>★ IRAN-OMAN PERMANENT-ROUTE WINDOW — the 8/26 finalised INTERIM framework (temporary joint maritime corridor …<br><span class="own">FALCON (owner, Regime-D/diplomacy row) / BRENT (price-decomposition leg)</span></span></li><li><span class="d">Fri 9/25</span><span class="in">in 16d</span><span>Coordination-value scorecard RENDER #4 (DAEDALUS weekly Friday render; the floor counts FULL v1 renders only …<br><span class="own">DAEDALUS (renders) / PROME (consumer read) / Will (any threshold)</span></span></li><li><span class="d">Sat 9/26</span><span class="in">in 17d</span><span>FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d numerically + leg-c event-log review …<br><span class="own">PROME+DAEDALUS</span></span></li><li><span class="d">Mon 9/28</span><span class="in">in 19d</span><span>ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure (successor to L172 / Forum-4 N10). L172&#x27;s …<br><span class="own">Will (decision) / ORACLE (options, delivered 2026-09-07) / PROME (registers)</span></span></li><li><span class="d">Tue 9/29+</span><span class="in">in 20d</span><span>SAVE→RAP FIRST-TRANCHE non-selection read — CRL-13 partial N<br><span class="own">CARL/STUE</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>004 TLT Sep-30 $77P x25 EXPIRY — the live PROME-rail duration leg<br><span class="own">TERRY/PROME</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>MU FQ4 earnings (window 9/17-9/24, typical ~9/22; date_class=modeled) — lane tripwire test #1 ⚠️ RE-DATED …<br><span class="own">VULCAN/WALTER/PROME</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>RAP auto-pay enrollment deadline — 1% interest-rate reduction through 6/30/2028<br><span class="own">STUE/CARL</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>FORUM-5 W1 opacity enumeration DUE — 4 legs (SHADE gated-US-routes + AARe Note-14 [expected result …<br><span class="own">SHADE/BROCK/CREED</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>MIDAS-01 + MIDAS-02 RESOLVE — moving-referent class RULED 2026-08-27 Option A class-wide (Will verbatim …<br><span class="own">MIDAS (grade) / PROME (verify bases printed)</span></span></li><li><span class="d">Wed 9/30</span><span class="in">in 21d</span><span>Sep-30 EXPIRY cluster — WQ-168 rows ④⑥ RULED 9/3: TLT $77P ×25 (card 004) HOLD to expiry (grind = $0 …<br><span class="own">TERRY/Will</span></span></li></ul></div>
+  <div class="panel"><h2>Fleet — 33 active (stalest first)</h2>
+    <div class="tablewrap"><table>
+      <tr><th>Agent</th><th>Domain</th><th>Maturity</th><th>Last activity</th>
+      <th>30d commits</th><th>Inbox</th></tr>
+      <tr><td class="agent">SHADE</td><td class="dom">Insurer-lender / PE-insurance-captive</td><td class="lvl">L3</td><td><span class="chip elev">12d own — lagging</span></td><td class="num">61<div class="barwrap"><div class="bar30" style="width:13px"></div></div></td><td class="num">6</td></tr><tr><td class="agent">AEOLUS</td><td class="dom">Climate → economy (macro; insurance/ag/energy-demand channels)</td><td class="lvl">L3</td><td><span class="chip elev">12d own — lagging</span></td><td class="num">59<div class="barwrap"><div class="bar30" style="width:12px"></div></div></td><td class="num">9</td></tr><tr><td class="agent">FLG</td><td class="dom">Flagstar Financial specialist (NYC rent-regulated multifamily → CRE …</td><td class="lvl">L3</td><td><span class="chip elev">12d own — lagging</span></td><td class="num">31<div class="barwrap"><div class="bar30" style="width:9px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">OZK</td><td class="dom">Bank OZK specialist (RESG construction / classified-migration watch)</td><td class="lvl">L4</td><td><span class="chip elev">9d own — lagging</span></td><td class="num">46<div class="barwrap"><div class="bar30" style="width:11px"></div></div></td><td class="num">2</td></tr><tr><td class="agent">REGINALD</td><td class="dom">Regional banks</td><td class="lvl">L4</td><td><span class="chip watch">7d (own)</span></td><td class="num">193<div class="barwrap"><div class="bar30" style="width:23px"></div></div></td><td class="num">19</td></tr><tr><td class="agent">CORAL</td><td class="dom">Florida (whole-state, 10 pillars)</td><td class="lvl">L3</td><td><span class="chip watch">7d (own)</span></td><td class="num">37<div class="barwrap"><div class="bar30" style="width:10px"></div></div></td><td class="num">4</td></tr><tr><td class="agent">ZHAO</td><td class="dom">China macro — UST demand / capital flows / Korea</td><td class="lvl">L4</td><td><span class="chip watch">7d (own)</span></td><td class="num">68<div class="barwrap"><div class="bar30" style="width:13px"></div></div></td><td class="num">15</td></tr><tr><td class="agent">HOMER</td><td class="dom">Housing — asset market + housing credit structure (pipeline, GSE+CMBS …</td><td class="lvl">L2</td><td><span class="chip watch">7d (own)</span></td><td class="num">113<div class="barwrap"><div class="bar30" style="width:17px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">WAL</td><td class="dom">Western Alliance Bancorp specialist (Office/B1-migration/MI3 …</td><td class="lvl">L4</td><td><span class="chip watch">7d (own)</span></td><td class="num">67<div class="barwrap"><div class="bar30" style="width:13px"></div></div></td><td class="num">1</td></tr><tr><td class="agent">CRUISE</td><td class="dom">Cruise-sector event specialist — CCL vehicle; fuel-cost transmission …</td><td class="lvl">L3</td><td><span class="chip watch">7d (own)</span></td><td class="num">14<div class="barwrap"><div class="bar30" style="width:6px"></div></div></td><td class="num">7</td></tr><tr><td class="agent">LIQUID</td><td class="dom">HY / credit spreads / liquidity</td><td class="lvl">L4</td><td><span class="chip watch">6d (own)</span></td><td class="num">194<div class="barwrap"><div class="bar30" style="width:23px"></div></div></td><td class="num">21</td></tr><tr><td class="agent">BROCK</td><td class="dom">Private credit / BDC / non-traded credit</td><td class="lvl">L4</td><td><span class="chip watch">6d (own)</span></td><td class="num">102<div class="barwrap"><div class="bar30" style="width:16px"></div></div></td><td class="num">12</td></tr><tr><td class="agent">MARCO</td><td class="dom">Florida migration / tourism (FL sub; reconcile w/ CORAL)</td><td class="lvl">L4</td><td><span class="chip watch">6d (own)</span></td><td class="num">118<div class="barwrap"><div class="bar30" style="width:18px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">HENRY</td><td class="dom">Macro velocity / market trends</td><td class="lvl">L4</td><td><span class="chip watch">5d (own)</span></td><td class="num">198<div class="barwrap"><div class="bar30" style="width:23px"></div></div></td><td class="num">22</td></tr><tr><td class="agent">BOND</td><td class="dom">US bond-market structure / auctions / rates</td><td class="lvl">L4</td><td><span class="chip watch">5d (own)</span></td><td class="num">241<div class="barwrap"><div class="bar30" style="width:25px"></div></div></td><td class="num">11</td></tr><tr><td class="agent">CARL</td><td class="dom">Consumer &amp; credit-transmission macro</td><td class="lvl">L4</td><td><span class="chip watch">4d (own)</span></td><td class="num">152<div class="barwrap"><div class="bar30" style="width:20px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">MIDAS</td><td class="dom">Metals — monetary (gold/silver: debasement, real-rates) + industrial …</td><td class="lvl">L4</td><td><span class="chip watch">4d (own)</span></td><td class="num">147<div class="barwrap"><div class="bar30" style="width:20px"></div></div></td><td class="num">2</td></tr><tr><td class="agent">FERT</td><td class="dom">Fertilizer supply/price/policy → food-CPI transmission → CF …</td><td class="lvl">L3</td><td><span class="chip watch">4d (own)</span></td><td class="num">21<div class="barwrap"><div class="bar30" style="width:7px"></div></div></td><td class="num">3</td></tr><tr><td class="agent">RED</td><td class="dom">Adversarial red-team</td><td class="lvl">L5</td><td><span class="chip ok">3d (own)</span></td><td class="num">203<div class="barwrap"><div class="bar30" style="width:23px"></div></div></td><td class="num">3</td></tr><tr><td class="agent">VIOLET</td><td class="dom">VIX / vol term structure / vol-of-vol</td><td class="lvl">L4</td><td><span class="chip ok">3d (own)</span></td><td class="num">130<div class="barwrap"><div class="bar30" style="width:19px"></div></div></td><td class="num">7</td></tr><tr><td class="agent">WATT</td><td class="dom">Power/grid — PJM stress → wholesale price → industrial/data-center …</td><td class="lvl">L4</td><td><span class="chip ok">3d (own)</span></td><td class="num">72<div class="barwrap"><div class="bar30" style="width:14px"></div></div></td><td class="num">7</td></tr><tr><td class="agent">VULCAN</td><td class="dom">AI-capex / semiconductor / memory cycle → systemic risk …</td><td class="lvl">L4</td><td><span class="chip ok">3d (own)</span></td><td class="num">140<div class="barwrap"><div class="bar30" style="width:19px"></div></div></td><td class="num">9</td></tr><tr><td class="agent">NEXUS</td><td class="dom">Cross-agent synthesis</td><td class="lvl">L5</td><td><span class="chip ok">2d (own)</span></td><td class="num">82<div class="barwrap"><div class="bar30" style="width:15px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">LABOR</td><td class="dom">Labor market (claims / JOLTS / NFP)</td><td class="lvl">L5</td><td><span class="chip ok">2d (own)</span></td><td class="num">176<div class="barwrap"><div class="bar30" style="width:22px"></div></div></td><td class="num">5</td></tr><tr><td class="agent">ORACLE</td><td class="dom">Prediction-market diagnostics ‡‡‡</td><td class="lvl">L4</td><td><span class="chip ok">2d (own)</span></td><td class="num">59<div class="barwrap"><div class="bar30" style="width:12px"></div></div></td><td class="num">1</td></tr><tr><td class="agent">WALTER</td><td class="dom">Signal &amp; news routing</td><td class="lvl">L4</td><td><span class="chip ok">1d (own)</span></td><td class="num">488<div class="barwrap"><div class="bar30" style="width:36px"></div></div></td><td class="num">2</td></tr><tr><td class="agent">HAWK</td><td class="dom">Geopolitical synthesis (cross-war reconciliation, oil-decoupling …</td><td class="lvl">L4</td><td><span class="chip ok">1d (own)</span></td><td class="num">131<div class="barwrap"><div class="bar30" style="width:19px"></div></div></td><td class="num">2</td></tr><tr><td class="agent">TERRY</td><td class="dom">Trade construction / risk scoring ‡‡</td><td class="lvl">L5</td><td><span class="chip ok">1d (own)</span></td><td class="num">153<div class="barwrap"><div class="bar30" style="width:20px"></div></div></td><td class="num">2</td></tr><tr><td class="agent">OSPREY</td><td class="dom">Russia/Ukraine war theater — energy-strike campaign …</td><td class="lvl">L2</td><td><span class="chip ok">1d (own)</span></td><td class="num">72<div class="barwrap"><div class="bar30" style="width:14px"></div></div></td><td class="num">1</td></tr><tr><td class="agent">FALCON</td><td class="dom">US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf …</td><td class="lvl">L4</td><td><span class="chip ok">1d (own)</span></td><td class="num">89<div class="barwrap"><div class="bar30" style="width:15px"></div></div></td><td class="num">1</td></tr><tr><td class="agent">PROME</td><td class="dom">Coordinator / chief of staff</td><td class="lvl">L4</td><td><span class="chip ok">0d (own)</span></td><td class="num">1475<div class="barwrap"><div class="bar30" style="width:64px"></div></div></td><td class="num">—</td></tr><tr><td class="agent">SAM</td><td class="dom">Japan — BOJ / JGB / carry</td><td class="lvl">L4</td><td><span class="chip ok">0d (own)</span></td><td class="num">202<div class="barwrap"><div class="bar30" style="width:23px"></div></div></td><td class="num">3</td></tr><tr><td class="agent">BRENT</td><td class="dom">Oil — Brent / WTI</td><td class="lvl">L5</td><td><span class="chip ok">0d (own)</span></td><td class="num">309<div class="barwrap"><div class="bar30" style="width:29px"></div></div></td><td class="num">1</td></tr>
+    </table></div>
+    <p class="footer" style="margin-top:10px;border:0;padding:0">Tier-2 (spawn as needed):
+    CREED · DEWEY · HANS · OTTO &nbsp;·&nbsp; Dormant: SENTRY · BARON</p></div>
+</div>
+</div>
+</div>
+
+<div id="view-gloss" role="tabpanel" aria-label="Glossary" hidden>
+<div class="gloss">
+<div class="panel"><h3>How to read this page in 20 seconds</h3>
+<p><b>Pending Will</b> = the action is on you. <b>Needs attention</b> = the action is on
+the fleet (worst first). <b>Fire ledger</b> = the tripwires armed on your behalf — every
+one ends at your desk if it trips. <b>Catalyst runway</b> = what the calendar forces.
+<b>Fleet grid</b> = who's healthy, who's drifting. Everything else is context.</p></div>
+
+<div class="panel"><h3>"Gated" vs. a heat color — two different things</h3>
+<p>A <b>gate</b> is a specific, pre-registered tripwire: a <i>measured threshold</i> + a
+<i>fixed action</i> + a <i>state</i>. Example — <span class="chip watch">GATE-RESHAPE-BC</span>:
+condition "HY OAS &gt;280 sustained OR WAL prints 7/21 AMC" → action "the bank-put reshape
+proposal comes to you." It's written down <i>before</i> the fact so it can't be rationalized
+after.</p>
+<p>To call a risk <b>"gated"</b> means we've wired that plumbing — a defined trigger and a
+defined response — so a live event produces a clean proposal at your desk instead of a
+scramble. (Kharg was an <i>open hole</i> on Fri 7/18; <i>gated</i> by Sat — same risk, now with
+a tripwire and a fire path.)</p>
+<p>A <b>heat color</b> (green/yellow/orange/red) answers a different question: <i>how hot is
+this right now.</i> A risk can be red-hot with no gate, or calm-yellow with a gate armed
+underneath it. Gates <i>watch</i>; colors <i>describe</i>. And a gate firing <b>never</b>
+executes a trade — it hands you a proposal.</p>
+<p class="own">owner: PROME/GATES.tsv (the fire-ledger canon)</p></div>
+
+<div class="panel"><h3>The fire ledger &amp; gate states</h3>
+<p>A central register of every pre-registered <i>"if X happens, someone must DO
+something"</i> rule — not predictions that merely get graded, only rules that owe an
+<b>action</b> (build a packet, arm a trade card, bring you a proposal). PROME scans it at
+every boot.</p>
+<p>Born 2026-07-09 from a real failure: two VIOLET triggers fired on 7/2 into a frozen
+session and the owed hedge-packet sat orphaned for seven days before an audit found it.
+The ledger makes that structurally impossible — the watching is centralized even though
+the trigger logic stays with the domain agents.</p>
+<table><tr><td><span class="chip watch">LIVE</span></td><td>armed tripwire — condition
+watched, not yet met</td></tr>
+<tr><td><span class="chip crit">FIRED-UNEXECUTED</span></td><td>condition came TRUE and the
+owed action hasn't happened — blocks all new PROME work until cleared or escalated to
+you. Should never survive a session.</td></tr>
+<tr><td><span class="chip ok">RESOLVED</span></td><td>condition tested, verdict landed,
+consequence executed (or explicitly not owed)</td></tr>
+<tr><td><span class="chip ok">LAPSED</span></td><td>fired but the action window passed —
+your call, recorded, not retro-built</td></tr></table>
+<p class="own">owner: PROME/GATES.tsv · full trigger logic stays in each owner's KB</p></div>
+
+<div class="panel"><h3>Arm-#1 / #2 / #3</h3>
+<p>The three independent <b>arming paths</b> for TERRY's duration/TLT-put fire card
+(TRY-FIRE-004). Each is a different way the rates thesis can prove itself: #1 was an
+auction-stress test (resolved NOT-FIRED 7/9), #2 is five consecutive 10Y closes ≥4.50,
+#3 is foreign official selling in the TIC data. Any single arm completing → TERRY arms
+the card → comes to you for [Approve] with the live broker book. "Armed" never means
+"traded" — capital moves only on your explicit approval.</p>
+<p class="own">owner: AGENTS/TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md</p></div>
+
+<div class="panel"><h3>A card's lifecycle: ARMED &rarr; FIRED &rarr; FILLED</h3>
+<p>Three distinct stages — the words are not interchangeable, and only the last one moves
+capital.</p>
+<table>
+<tr><td><span class="chip watch">ARMED</span></td><td>setup conditions met + the trade fully
+<i>built</i> (strikes, ladder, $500 cap) — loaded, safety on. Never means "traded."</td></tr>
+<tr><td><span class="chip elev">FIRED</span></td><td>the trigger condition crossed — the card
+now owes you a proposal (TERRY live-re-marks the strikes against the current book)</td></tr>
+<tr><td><span class="chip crit">FILLED</span></td><td>you gave [Approve] against a live broker
+book and it executed. <b>You are the trigger, not the tape</b> — nothing reaches here on its
+own.</td></tr></table>
+<p>Worked example (July 2026, historical): TRY-FIRE-004's arm fired 7/13 → card ARMED. Will
+first ruled <b>NO-ADD</b> (7/16 — the book already owned the grind), then approved a $330
+re-fire on a clean red-day entry (7/20). Armed ≠ auto-fill in either direction — the fill
+returns as a TERRY proposal, and the current card state lives in GATES/FORGE, never in this
+example.</p>
+<p class="own">owner: AGENTS/TERRY/setups/ (fire cards) · PROME/GATES.tsv (gate rows)</p></div>
+
+<div class="panel"><h3>Break / Grind / Unresolved</h3>
+<p><b>NEXUS's regime probability split</b> over the next 2–6 weeks — the one numeric
+regime call in the system, deliberately owned by exactly one agent (PROME runs no
+competing split, so you always know whose judgment you're reading).</p>
+<p><b>Break</b> — the accumulated stress (rates-vol, credit fuel, record equity
+complacency) cracks into an actual market repricing. <b>Grind</b> — the calm holds and
+the stress dissipates or stays latent. <b>Unresolved</b> — the honest bucket: the window
+ends and the tape still hasn't told us. A high Unresolved number means the decisive
+tests are still ahead — watch the catalyst runway, not the noise.</p>
+<p class="own">owner: AGENTS/NEXUS/STATUS.md (re-anchored after regime-moving events)</p></div>
+
+<div class="panel"><h3>Status colors (fleet-wide key)</h3>
+<table>
+<tr><td><span class="chip ok">green</span></td><td>none / healthy / fresh</td></tr>
+<tr><td><span class="chip watch">yellow</span></td><td>monitoring — armed or aging, no action owed yet</td></tr>
+<tr><td><span class="chip elev">orange</span></td><td>elevated — deserves a look this session</td></tr>
+<tr><td><span class="chip crit">red</span></td><td>active/critical — blocking or cold; act or escalate</td></tr></table>
+<p>Same key everywhere in the repo (STATUS files, HEARTBEAT, this page). Color is never
+the only signal — every chip carries its words.</p></div>
+
+<div class="panel"><h3>Needs attention — how it's composed</h3>
+<p>Auto-assembled at build time, worst first, from: fired-unexecuted gates · failing
+health checks · live gates unchecked &gt;5d · HEARTBEAT blocking rows · active agents
+cold (&gt;14d) or lagging (8–14d) · inboxes ≥8 deep · a stale spine audit (&gt;7d).
+Nothing is hand-curated; if it's listed, a rule put it there. If this rail is ever
+long every day, the thresholds need tuning — tell PROME.</p></div>
+
+<div class="panel"><h3>Fleet grid columns</h3>
+<p><b>Maturity</b> (L1–L5, DAEDALUS's scale): L1 scaffold just built → L2 first own
+data pulls → L3 predictions resolving on a clock → L4 other agents consume its output
+by name → L5 fully self-running periphery. <b>Last activity</b> = <b>business days</b>
+("bd") since any commit touched the agent's directory (≤3 fresh · ≤7 aging · 8–14
+lagging · &gt;14 cold — weekends don't age anyone). <b>30d commits</b> = volume of recent work.
+<b>Inbox</b> = unprocessed items waiting (excludes processed/). <b>newborn</b> = built
+within days, no track record yet — low bars are honest, not alarming. <b>parked →
+date</b> = quiet by plan until that date (expiry-dated register, PROME/tools/
+dashboard_parked.tsv); staleness flagging resumes automatically past the date, and
+inbox flags still apply while parked.</p>
+<p class="own">owners: PROME/ROSTER.md (classification) · AGENTS/DAEDALUS/FLEET_MAP.tsv (maturity)</p></div>
+
+<div class="panel"><h3>Catalyst runway</h3>
+<p>The canonical forward calendar (PROME/DOCKET.tsv) filtered to the next 21 days —
+scheduled events that force a test or a decision: data prints, earnings, auctions,
+policy meetings, gate-completion dates. Orange dates are ≤3 days out. When the regime
+split is heavily "Unresolved," this list is where it resolves.</p></div>
+
+<div class="panel"><h3>Shorthand that appears on this page</h3>
+<table>
+<tr><td>HY OAS / X1</td><td>high-yield credit spread (bps); &gt;280 sustained is the
+pre-registered stress line ("X1"), &lt;260 twice re-kills the axis</td></tr>
+<tr><td>HOLD FLAT</td><td>standing posture: no new capital deployed without a fired
+trigger + your approval ($500/card max-loss)</td></tr>
+<tr><td>COT</td><td>CFTC Commitments-of-Traders positioning data (weekly, Fri 3:30 PM)</td></tr>
+<tr><td>[as-of] stamps</td><td>every number carries its observation date — a Friday
+vintage shown on Sunday is disclosure, not an error; refresh before acting</td></tr>
+<tr><td>fire card</td><td>a pre-built trade construction (TERRY) that sits shelved
+until its gate fires — so decision speed never requires decision haste</td></tr>
+<tr><td>env / firetime chips</td><td>boot health checks: machine keys present ·
+fire-path artifacts free of date-drift/dead pointers (known-benigns allowlisted)</td></tr>
+<tr><td>spine audit</td><td>weekly 8-reader (+1 anchor-leg) reconciliation of PROME's core
+docs against canon — the age chip shows days since last run (&gt;7d = due)</td></tr></table></div>
+</div>
+</div>
+
+<div class="footer">
+  Generated surface — <b>points into canon, never owns it</b>. Owner files win on any
+  disagreement: <code>HEARTBEAT.md</code> (regime) · <code>PROME/GATES.tsv</code> (gates) ·
+  <code>PROME/DOCKET.tsv</code> (catalysts) · <code>PROME/ROSTER.md</code> +
+  <code>AGENTS/DAEDALUS/FLEET_MAP.tsv</code> (fleet) · <code>AGENTS/&lt;NAME&gt;/STATUS.md</code>
+  (agent state). Position/trade data excluded by design (position truth is off-repo).
+  Market levels carry their [as-of] stamps — weekend/stale vintages are shown, not hidden.
+  Regenerate: <code>python3 PROME/tools/fleet_dashboard.py</code> → republish (same URL).
+</div>
+<script>
+(function(){
+  var el=document.getElementById('agebadge');
+  var t=Date.parse(el.getAttribute('data-generated'));
+  function tick(){
+    var h=(Date.now()-t)/36e5;
+    var label=h<1?'built '+Math.round(h*60)+'m ago':'built '+(h<48?Math.round(h)+'h':Math.round(h/24)+'d')+' ago';
+    el.textContent=label;
+    el.className=h>72?'old':(h>24?'aged':'');
+    el.id='agebadge';
+    if(h>24) el.textContent=label+' — refresh before trusting';
+  }
+  tick(); setInterval(tick,600000);
+})();
+(function(){
+  var tabs=document.querySelectorAll('.tabs button');
+  tabs.forEach(function(b){b.addEventListener('click',function(){
+    tabs.forEach(function(x){
+      var on=x===b;
+      x.setAttribute('aria-selected',on?'true':'false');
+      document.getElementById(x.getAttribute('data-view')).hidden=!on;
+    });
+  });});
+})();
+</script>

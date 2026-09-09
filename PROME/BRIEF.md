@@ -10,10 +10,10 @@
 **Format:** section headers are load-bearing (the parser keys on them): `WRITTEN`, `HEADLINE`, `STORY`, `QUESTION`, `FALSIFIER`, `DISAGREEMENT`, `POSITION`, `WATCH`.
 
 ## WRITTEN
-2026-09-08 after the market close — PROME on Codex/Astra. Scope: verified owner catch-up and immediate action calendar; source dates stated below.
+2026-09-09 — PROME. Scope: reconcile the September 8 SKEW publication sequence and September 9 USO call receipt. Other observations retain the source dates stated below; this is not a fresh market-data sweep.
 
 ## HEADLINE
-The September8 close selected the already-approved XLE exit for September9. Owner records now reflect the findings; broker execution remains yours.
+The remaining USO October call is sold. XLE execution is still unverified; the September 8 volatility reading broke the prior run.
 
 ## STORY
 On September8, XLE closed at64.77, below the66.50 line in your existing instruction, so TERRY selected sale of the two recorded September30 calls at the next open after current holdings and orders are checked. The official Treasury observations available to the desk end September4: nominal ten-year4.78% and real ten-year2.43%, leaving its exit count at0/5 and no add. HAWK confirmed Canada's September8 countermeasure under its registered evidence rule after comparing629 commodity items and rates; actual importer exposure remains unknown. WALTER corrected the NVIDIA source claim, routed the corrections, consumed its current intake and completed its archive-index cutover. BRENT completed the remaining oil write-back, preserving the primary-source gaps and non-runnable Sidi test. The earlier stand-down ruling remains binding; no order or new capital decision was made by this run.
@@ -22,13 +22,13 @@ On September8, XLE closed at64.77, below the66.50 line in your existing instruct
 No new approval requested. Complete the existing XLE execution after broker verification and provide its fill; reconcile TLT85P current Activity & Orders and actual contract count before the approved replacement limit. The USO first-sale price and WAL resting-order status remain permanently UNKNOWN under your ruling and are not questions to ask again. Other open decisions are generated from WILL_QUEUE above.
 
 ## FALSIFIER
-September8's official Treasury observation is unpublished in the retained owner check and cannot be counted. The Cboe file still lacked September8 at16:50:28ET, preserving2/4. The PJM order's post23:59ET outcome remains ungraded. Canada's SOR identifiers and direct CBSA receipt remain missing even though the registered alternative supports the operative verdict. Russian decree authentication and the required PortWatch publication window remain source gaps, not negative test results.
+The earlier September 8 Cboe retrieval lacked that day's bar. A later primary-source recheck returned SKEW 148.86, breaking the >=150 run: FT-10 consumer count 0/4, NOT FIRED. September 9 cannot be its fourth bar. RED/VIOLET owner integration remains pending in this evidence record; the earlier missing-file report is superseded. September 8 Treasury observations and the PJM post-23:59 ET outcome remain ungraded in the retained September 8 checks. Canada's direct CBSA receipt, Russian decree authentication and the required PortWatch publication window remain source gaps. Source: PROME/reports/2026-09-08_evening-market-checks.md.
 
 ## DISAGREEMENT
 The war desk's hull-loss grade and the oil desk's capacity test remain distinct; your September7 stand-down ruling resolves the action. Today's verification corrected evidence descriptions without changing those tests, original forecast probabilities or trade quantities. Recipient desks must still integrate their own packets; routing alone is not agreement.
 
 ## POSITION
-XLE exit selected, not filled. TLT85P broker reconciliation remains open. TLT77P counter0/5 throughSeptember4 and no add; WAL December70P has a manual harvest and REGINALD owns newer close grades. One recorded USO October135C remains, with no second14.25 target and the existing daily-close/time-stop rules. Current broker truth governs every count and order.
+USO October 16 $135 call: the remaining one sold September 9 at $17.55, net proceeds $1,754.30, settlement September 10. Its daily-close and October 9 exit checks are discharged. The 37 USO shares remain recorded. XLE exit selected, fill unverified; TLT $85 put broker reconciliation remains open. TLT $77 put counter 0/5 through September 4, no add; WAL December $70 put has a manual harvest and REGINALD owns newer close grades. Source: PROME/reports/2026-09-09_USO135C-sale-receipt.md; current broker truth governs counts and orders.
 
 ## WATCH
 September9: approved XLE open execution; BROCK's registered CRMT read; official Treasury and Cboe publication pickup; HANS/FERT slate. September10 noonET: EIA weekly petroleum first release for week-endingSeptember4, delayed for Labor Day (EIA current notice; later tables14:00ET), correcting the earlier September9 SPR/Edouard clock. September11: CPI and existing owner reviews. Full dispositions and source limitations: PROME/reports/2026-09-08_owner-orchestration-completion.md.

@@ -40,9 +40,11 @@ import os
 import re
 import subprocess
 import sys
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import agent_freshness  # own-surface age — the grid's health instrument (8/16)
+from heartbeat_projection import apply_amendments
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -298,8 +300,13 @@ def parse_heartbeat():
     m = re.search(r"\*\*Base:\*\* (\S+)", text)
     if m:
         stamp = m.group(1)
-    return {"one": one, "split": split, "channels": channels, "ticker": ticker,
-            "blocking": blocking, "base": stamp}
+    try:
+        projections = read("PROME/HEARTBEAT_DASHBOARD.md")
+    except OSError:
+        projections = ""  # Missing companion must withhold amended state.
+    return apply_amendments(text, {"one": one, "split": split, "channels": channels,
+                                  "ticker": ticker, "blocking": blocking, "base": stamp},
+                            projection_text=projections)
 
 
 def parse_pending_will():
@@ -420,12 +427,14 @@ def parse_tiles(hb):
                 if not m:
                     break
                 val = float(m.group(0))
+                s = bands[cname]
                 sfx = re.match(r"\s*([kKM]\b|bps?\b)", rest[m.end():])
                 if sfx:
                     u = sfx.group(1)
-                    # bp tokens vs percentage-point bands (SOFR99-IORB "+5bp" / red 0.25)
-                    val *= 1e3 if u in "kK" else (1e6 if u == "M" else 1e-2)
-                s = bands[cname]
+                    # FRED percentage-point series multiplied by 100 have bp
+                    # bands (HY/CCC); unscaled spreads such as SOFR-IORB do not.
+                    val *= (1e3 if u in "kK" else (1e6 if u == "M"
+                            else s.get("multiply", 1) / 100))
                 hw = s["direction"] == "higher_worse"
                 red_line = s["red"][0] if hw else s["red"][1]
                 if red_line:
@@ -455,7 +464,7 @@ FLEET_WORD = {"ok": "fresh", "watch": "quiet", "elev": "lagging",
 
 
 def make_snapshot(built, hb, gates, docket, fleet, pending, tiles):
-    return {"v": 1, "built": built,
+    return {"v": 1, "built": built, "heartbeat_errors": hb.get("errors", []),
             "one": hb["one"], "split": hb["split"],
             "channels": {c["name"]: c["cls"] for c in hb["channels"]},
             "gates": {g["gate"]: f'{g["kind"]}:{g["state"].split(" ")[0]}'
@@ -939,6 +948,7 @@ def render_session_panel(path, reference_time=None):
 
 
 def build(today, now_iso, sessions_json=None):
+    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     active, tier2, dormant = parse_roster()
     fmap = parse_fleet_map()
     hb = parse_heartbeat()
@@ -1206,6 +1216,8 @@ def build(today, now_iso, sessions_json=None):
 
 <div id="view-ops" role="tabpanel" aria-label="Operations">
 <section class="regime">
+  {''.join('<div class="parsefail">⚠ HEARTBEAT amendment error: ' + esc(e) + '. Current summary and levels withheld; read HEARTBEAT.md.</div>' for e in hb['errors'])}
+  <p class="muted">Source: HEARTBEAT base {esc(hb['base'])}{'; ' + esc('; '.join(hb['amendments'])) if hb['amendments'] else ''}. Source dates are separate from this page's build time.</p>
   <div class="oneliner">{f'“{esc(hb["one"])}”' if hb["one"] else '<span class="parsefail">⚠ one-liner not parsed — read HEARTBEAT.md</span>'}<span class="split">{esc(hb["split"])}</span></div>
   <div class="cards">{panel_guard("regime", "HEARTBEAT.md", render_channels)}</div>
   <div class="ticker">{panel_guard("ticker", "HEARTBEAT.md", render_ticker)}</div>
@@ -1214,7 +1226,7 @@ def build(today, now_iso, sessions_json=None):
 <div class="panel"><h2>Gate distance — HEARTBEAT levels vs FORGE bands</h2>
   <div class="tiles">{panel_guard("tiles", "HEARTBEAT.md + FORGE config.py", render_tiles)}</div>
   <p class="muted" style="font-size:11.5px;margin-top:9px">Levels come from the HEARTBEAT
-  stress dashboard with their [as-of] stamps — a stale stamp means canon needs refreshing,
+  stress dashboard and its reviewed amendments with their [as-of] stamps — a stale stamp means canon needs refreshing,
   not this page. Bands come from <code>FORGE/tools/market-data/config.py</code> (canon
   absolute thresholds); gate-specific trigger lines (e.g. the 4.50 arm-#2 rule) live in the
   fire ledger below and are not restated here.</p></div>
@@ -1262,22 +1274,23 @@ def build(today, now_iso, sessions_json=None):
 
 
 def main():
-    global now_iso_utc
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", default="/tmp/fleet_dashboard.html")
     ap.add_argument("--sessions-json", help="Optional saved session inventory JSON; no live discovery")
+    ap.add_argument("--no-snapshot", action="store_true", help="Preview without advancing the change baseline")
     args = ap.parse_args()
-    now = dt.datetime.now()
-    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    now = dt.datetime.now(ZoneInfo("America/New_York"))
     html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"), args.sessions_json)
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(html_out)
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
-        json.dump(snap, f, indent=1, sort_keys=True)
-        f.write("\n")
-    print(f"wrote {args.out} ({len(html_out)//1024}KB) + state snapshot "
-          f"({os.path.relpath(STATE_PATH, REPO)})")
-    return 0
+    if not args.no_snapshot and not snap["heartbeat_errors"]:
+        with open(STATE_PATH, "w", encoding="utf-8") as f:
+            json.dump(snap, f, indent=1, sort_keys=True)
+            f.write("\n")
+        print(f"wrote {args.out}; updated {os.path.relpath(STATE_PATH, REPO)}")
+    else:
+        print(f"wrote {args.out}; change baseline unchanged")
+    return 1 if snap["heartbeat_errors"] else 0
 
 
 if __name__ == "__main__":
