@@ -34,6 +34,10 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 ## CHANGES SINCE LAST RUN
 
+### Run 19 (September 8, 2026 ET — post-catch-up/integration full-sweep; watermark Run 18, September 2)
+
+Current-state check: THESIS remains v1.7; no successor declared; historical trade interiors remain protected. Per-file git logs show TRADE last changed September 3 (`f09598269`) and STRATEGY last changed September 2 (`42a083d8f`); both Last Updated fields say September 2. Combined path history initially obscured this distinction; per-file validation corrected it before delivery. The September 8 integration (`0670d96e2`, `bfaea9825`, `46d9e21f8`; reports/2026-09-08_catchup-assessment.md and reports/2026-09-08_integration.md) deliberately preserved TRADE/STRATEGY. New owner state: SAM-39 resolved September 4; 3 OPEN remain (SAM-28/31/33); the 30Y September 3 grade stays SOFT, current long-end levels retraced; yen through 155 does not establish liquidation; Pillar 2 is conditional/mixed and oil channels are contingent rather than an automatic two-stage clock. BOJ pricing now uses reviewed Totan indicative meeting OIS in BOJ_MEETING_OIS.tsv; BOJ_OIS.tsv is frozen history, and each new chart requires SAM visual review. No BOJ percentage carried here. Audit focus: current banners, forward-use instructions, and contradictions of new owner rulings; no frozen terms, grades or money fields change.
+
 *Auto-populated by METSUKE at run start: what's moved in STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket since the previous run. Cleared at end-of-run.*
 
 ### Run 18 (Sep 2 2026, Wed — **POST-9/1-BOOT full-sweep / banner + forward-only-table audit**; watermark = Run 17, 8/27; 6 days of state movement across the largest boot session since 8/7)
@@ -233,6 +237,38 @@ State-of-truth movement since STRATEGY.md `Last Updated: 2026-05-28`:
 
 ## LAST RUN
 
+### Run 19 — 2026-09-08 ET (post-catch-up/integration full-sweep; PROPOSE ONLY)
+
+**Outcome:** five actionable clusters: **4 STALE-FRAMING** (surviving-certification, BOJ source contract, TLT reactivation logic, header vintage) and **1 CAL-DRIFT** (SAM-39 already resolved). No probability re-mark, trigger-set change, money-field escalation or historical-grade correction. Read the current owner state, not the stale Run-18 spec summary. The August 7 compress ruling remains in force; historical interiors are not a backlog of corrections.
+
+**Evidence snapshot:** TRADE/STRATEGY clean at review; TRADE last touched `f09598269` September 3; STRATEGY last touched `42a083d8f` September 2. Current owner integration: `0670d96e2`, `bfaea9825`, `46d9e21f8`; `reports/2026-09-08_integration.md` and `reports/2026-09-08_catchup-assessment.md`. CALENDAR read September 8 catch-up version (KOYOMI reviewing concurrently; provisional for any later edit). Line references below are the pre-apply source positions.
+
+1. **STALE-FRAMING — active certification, not protected body history.** Both `TRADE.md:29-38` / `STRATEGY.md:29-38` still certify “Still valid and deliberately NOT touched”, including “Pillar 2 / the JGB demand-vacuum” and repeated “mechanism certification remains correct … NOT reframed”. `thesis/THESIS.md:163-169` now makes sponsorship conditional/mixed; `:232-238` explicitly replaces an automatic phase clock with contingent price/FX/physical mechanisms. `thesis/CHANGELOG.md:11-17` logs this exact supersession. The September 3 SOFT auction rider is ALREADY present at `TRADE:36` and remains correct. **Sibling miss at STRATEGY:36:** it still says “9/3 30Y is the next auction adjudicator” and has NO September 3 result rider. `STATUS.md:49` records SOFT on frozen bars. The concise replacement below carries that existing grade into STRATEGY without regrading it. Old dated highs are still historical highs, not wrong numbers, and need not be re-marked. The defect is the current-use certification layered over multiple stale states.
+   - **Proposal:** preserve each full document verbatim in a dated before-image, then REPLACE the certification block with the concise text below. Do not append another rider. Preserve all earlier annotations in that before-image, including the September 3 SOFT/precision history. Keep the existing retirement, frozen contract-gate, position and money text outside this block unchanged.
+   - **Related live-watch sibling:** `TRADE.md:253` still has the August 27 stamp “Brent is $87.30 — still sub-$95 … price leg reads MET”. The September 2 correction at `:36`/`:302` already says that figure matched neither contract; the current `STATUS.md:45` named-contract observation also no longer supports the MET state. This is the previously missed THIRD site of the wrong-from-the-start figure. Preserve its full before-image and replace the current-use stamp with a STATUS pointer; do not paste a new price. The ongoing oil row `TRADE.md:302` likewise says “live is $96.36 [9/1]”; identify it as September 1 history and route current interpretation to STATUS/THESIS. Do not refresh the frozen risk-table oil percentages.
+
+   **Suggested replacement for both certification blocks:**
+   > **Current-use limits — September 8, 2026.** The EWJ/TLT/Japan-bank watchlists remain research ideas; the dated evidence and trigger-status notes below are not re-certified as current. Current channel conditions are in `thesis/THESIS.md` and `STATUS.md`. Pillar 2 monitors conditional, mixed JGB sponsorship; a yield tag alone establishes neither forced selling nor repatriation. The September 3 30Y SOFT grade stands on its frozen auction test; current tests and the prospective precision ruling belong in STATUS and the docket. Oil-in-yen effects are contingent: matched oil/FX prices, physical supply and funding transmission require separate evidence. The older phase labels below are historical, not an automatic sequence or an entry route. Position records, money fields and frozen prediction terms remain unchanged. Full prior certification and dated riders: [SAM to insert preserved before-image link].
+
+   **Suggested EWJ stamp:** “The August 27 price/status stamp is superseded. Evaluate both oil price and physical/framework conditions from current STATUS and the owner energy assessment; no anti-trigger is certified here.” The EWJ binary-trap sentence at `TRADE.md:241` (“yen collapse → forced UST selling”) must not be re-certified by the new banner; owner `THESIS.md:173/189/199` requires actual named evidence.
+
+2. **STALE-FRAMING — BOJ current-source instructions point to frozen history.** `TRADE.md:296` and `STRATEGY.md:229`: “live pricing lives in `workbook/BOJ_OIS.tsv` and nowhere else”; TRADE also says “Cite NO Sep figure until the `boj_ois.py` TFX second-source gate runs.” This contradicts `workbook/BOJ_OIS_README.md:3-21`, `STATUS.md:26/50`, and `THESIS.md:161`: the script now ingests reviewed Totan indicative meeting OIS into BOJ_MEETING_OIS.tsv, and the previous ledger stays frozen. This is a source/units contract correction, not a new numerical quote.
+   - **Proposed replacement current instruction in BOTH rows:** “Macro watch only. Current BOJ pricing → STATUS § LIVE MARKET DATA, with source vintage and limits from workbook/BOJ_OIS_README.md. BOJ_MEETING_OIS.tsv contains reviewed Totan indicative meeting OIS; incremental 25bp equivalents and cumulative expected hike counts are distinct. New charts require SAM visual review. BOJ_OIS.tsv and the former TFX/cumulative caveats below are historical, not current citation instructions.” Preserve the old row in the before-image and replace its operative direction; retain frozen historical pricing elsewhere. No BOJ percentage hand-carried in this report.
+
+3. **CAL-DRIFT — resolved SAM-39 still assigned a future grading check.** Both banners `TRADE.md:26-27` / `STRATEGY.md:26-27`, plus `TRADE.md:297` / `STRATEGY.md:230`, say September 18 survives as “the grading date for SAM-28 / SAM-39”. `thesis/PREDICTIONS.tsv:72` records SAM-39 RESOLVED CONFIRMED on September 4, TRUE-IN-LETTER / FALSE-IN-SPIRIT; `:41/:44` keep SAM-28/31 OPEN. `STATUS.md:130` and `docket/CALENDAR.md:9/:25` assign September 18 to SAM-28/31. This is a current banner/forward-use contradiction, not ordinary dated table age.
+   - **Proposed text at all four sites:** “September 18 remains the grading horizon for SAM-28 and SAM-31. SAM-39 resolved September 4, TRUE-IN-LETTER / FALSE-IN-SPIRIT; its frozen terms and grade remain in PREDICTIONS.tsv. The retired frame's window-end action/retire check cannot fire.” Do not grade SAM-28/31 early; do not reopen SAM-39.
+
+4. **STALE-FRAMING — TLT live-watch status weakens the Channel 1 rule.** `TRADE.md:271` says reactivation “requires new shock (JGB 30Y blowout to 4.5%+ … ESR re-test sub-200% … or a Norinchukin CLO reversal)”. Its own `:269`, current `THESIS.md:189`, and `STATUS.md:150` instead require direct foreign-credit SALES across at least two consecutive disclosure windows at at least two named institutions; JGB/ESR are accelerants only. The banner explicitly excepts watchlists from wholesale historical treatment, so this survives the compress ruling as a real logical ambiguity.
+   - **Proposed replacement of the reactivation clause only:** “Channel 1 remains retired. Reactivation requires direct net foreign-credit sales across at least two consecutive disclosure windows at at least two of the named institutions, per THESIS § Channel 1. JGB/ESR stress is an accelerant only; a single Norinchukin reversal cannot satisfy the rule.” No new institution count, threshold, money field or trade action is introduced. Leave the dated TIC evidence and all price terms historical.
+
+5. **STALE-FRAMING — header vintage again lags an actual write.** `TRADE.md:44` says “Last Updated: 2026-09-02”; per-file git shows TRADE modified September 3 (`f09598269`, named-auction result). STRATEGY last changed September 2 (`42a083d8f`), so its September 2 header is accurate. September 8 integration intentionally did not edit either; TRADE's mismatch predates integration. Proposal: roll both to the date SAM applies this review, with a short purpose and before-image pointer. Avoid another multi-session narrative in Last Updated. This is a metadata fix, not authority to refresh the historical interior.
+
+**DO-NOT-TOUCH / negative findings:** retirement LOW, no successor, leg-1 FIRED, TRY-FIRE-007 STANDS DOWN, and no CFTC-threshold rearm all match current owner state. No frame resurrection follows from USDJPY through 155. SAM-21/23/24/26 resolutions remain historical; SAM-28 40%, SAM-31 35%, SAM-33 72% stay OPEN; SAM-41's prior confirmation is intact despite widened present gaps. Historical FXY positions/costs/stops/strikes/expiries/premiums and old buckets stay untouched. September 3 SOFT is not undone by a later yield retracement or precision discussion. No generic calendar parity audit of frozen August rows; only current-use contradictions above. No live spot replacement is proposed; current marks stay at STATUS.
+
+**Backlog disposition proposed to SAM:** Run-18 flags 1/2/3 and its sibling 4 are visibly APPLIED at `TRADE:36/:296/:302` and `STRATEGY:36/:229`; the Run-18 PENDING header is nevertheless still unmarked. Mark that section CLOSED after recording these artifact references, without deleting its text. Prior Run-16/17 PENDING sections are ALREADY explicitly CLOSED; do not re-flag them as unmarked from the old Run-18 narrative. Their closure must not be reopened; the roll tool determines which block boundaries it can move. `METSUKE.md:7` should roll to Run 19 when SAM dispositions this report (outside my write-set). SAM-owned CALIBRATION remains byte-for-byte untouched.
+
+**Validation:** final checks passed: CALIBRATION byte-identical to the pre-run state; every original state line retained; git diff --check clean. Per-file verification reproduced the TRADE header mismatch and STRATEGY missing September 3 rider, correcting the initial combined-git-log assumption before delivery. Report-only memory roll result is recorded in the run's PENDING block. No owner-file edits, commit, push, pull, external retrieval, peer message or subagent spawn. Canonical state and source contract are sufficient for this owner-document comparison; no new market adjudication was attempted.
+
 ### Run 1 — 2026-06-01 (inaugural — post Jun 1 MOU break + Fed-cut soften + May 31 repricing cluster)
 
 Context: First-ever METSUKE sweep. No prior watermark. TRADE.md was refreshed twice on Jun 1 (clean as expected); STRATEGY.md last refreshed 2026-05-28 (~4 days behind two POV pivots — May 31 SAM-21 ~50%→70% repricing + Jun 1 MOU break/Fed-cut reframe). Bias of drift falls heavily on STRATEGY.md as seeded.
@@ -311,6 +347,18 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Pending from Run 19 — 2026-09-08 (SAM review required; proposals, not applied)
+
+- **F1:** replace current certification in BOTH headers after preserving full before-images; fix EWJ wrong-from-start stamp at TRADE:253 and oil current-use stamp at TRADE:302 without new live prices.
+- **F2:** both September BOJ rows: replace old BOJ_OIS.tsv/TFX citation instructions with STATUS + reviewed Totan source contract; preserve historical prices and source failures.
+- **F3:** both banners and September 18 grading rows: SAM-28/31 remain due; SAM-39 already resolved September 4. Grades and terms unchanged.
+- **F4:** TLT status reactivation clause: named two-institution/two-window sales requirement, stress only as accelerant.
+- **F5:** TRADE Last Updated missed its September 3 write; STRATEGY September 2 header is accurate. Roll BOTH on SAM's eventual apply, with concise before-image pointers.
+- **E1:** SAM closes the visibly applied Run-18 PENDING block; prior Run-16/17 CLOSED markers already exist. SAM decides/applies report-only roll; METSUKE must not pass --apply.
+- **E2:** SAM rolls METSUKE.md:7 to Run 19 at disposition. No spec or calibration edited by METSUKE.
+- Exact quotations, canonical references and proposed text: LAST RUN → Run 19.
+- **Report-only roll (executed):** 1,565 lines / 332K before; eligible blocks = PENDING Run 15 (28 lines), PENDING Run 16 (12 lines); proposed after = 1,523 lines / 322K, about 10K saved (3%, ~3K tokens/spawn). No --apply and no archive write. Run 17 is explicitly CLOSED but was not selected by this tool run; do not claim it was rolled. Final report-only run; no archive mutation.
+
 > ### ⚖️ RETROACTIVE ADJUDICATION — 2026-08-20 (Run 16, Task 1). **BACKLOG 97 OPEN → 0 OPEN. Nothing deleted.**
 >
 > **Why this exists.** The **2026-08-07 compress ruling** (path (a), commit `342d42b4b`) froze `TRADE.md` and
@@ -362,6 +410,9 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 *All 4 Run-1 PENDING items resolved this turn — see LAST RUN > SAM-applied for the Stage-3 rewrite, VOL SIGNALS reset (3-of-3 directional), Key Check Dates roll-forward, and header sync stamp. No carryover.*
 
 ## STANDING MONITORS (surface each run)
+
+- **Run-19 current override:** historical body is protected; the active exception is the banner's surviving-content certification and current-use watchlist/source/grading instructions. The September 8 conditional-demand/oil integration supersedes blanket certification even though v1.7 did not change. Before another rider, propose a concise pointer with full before-image preservation.
+- **Run-19 source-contract guard:** script name is not instrument identity. `boj_ois.py` now writes reviewed Totan BOJ_MEETING_OIS.tsv; BOJ_OIS.tsv is frozen. Test citation pointers, units and visual-review dependency, not merely numerical freshness; old BOJ hints below are historical.
 
 *Recurring drift watches METSUKE should re-check every run.*
 
@@ -493,6 +544,10 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 ---
 
 ## NEXT RUN HINTS
+
+### After Run 19 — current instructions (September 8)
+
+Verify SAM's eventual disposition against both actual docs and git before reading older hints. Hunt both banner and forward rows for SAM-39, all current citation instructions for BOJ_OIS.tsv/TFX, and TRADE:253 (the wrong-price sibling prior runs missed). Do not refresh historical probability clusters or convert a 155 breach into a mechanism/entry finding. If SAM accepts concise certification replacement, confirm full before-images preserve every old rider and money field, and that “watchlists remain ideas” does not silently waive Channel 1's named-institution sales rule. Report whether Run-18 PENDING is explicitly CLOSED, not whether an old run says it was unmarked. Check git history separately for each doc: a combined path log hid the September 3 sibling miss during this review until validation caught it. The report-only roll is mandatory; SAM alone applies it. No BOJ percentage from any older hint is a live source.
 
 *Forward-looking context to bias the next run. SAM seeds these between runs; METSUKE may also write at end-of-run when a future condition is anticipated.*
 

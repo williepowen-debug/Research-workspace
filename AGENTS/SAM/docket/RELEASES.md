@@ -112,4 +112,11 @@
 
 | 2026-08-27 | MOF monthly intervention data (feio index) — re-check, NOT a new confirm | ⚠️ **STILL UNRESOLVED between ~Fri 8/28 and ~Mon 8/31.** Fetched `mof.go.jp/english/policy/international_policy/reference/feio/` at primary: latest posted release is still Jul-31 (Jun29-Jul29 window); no August window posted as of this check. This is consistent with either candidate date — the page carries no forward-looking "next release" date, so it cannot itself distinguish 8/28 from 8/31. Re-confirm again next session (after 8/28 has passed). | `mof.go.jp/english/policy/international_policy/reference/feio/`, checked 2026-08-27 |
 
+| 2026-09-09 | BOJ Sep-9 provisional results / Sep-10 projection publication | ✅ CONFIRMED cadence-derived — normal business day around 18:00 JST; these are not final Sep-9 actuals | https://www.boj.or.jp/en/statistics/boj/fm/juq/index.htm, checked 2026-09-09 UTC/JST (2026-09-08 ET) |
+| 2026-09-10 | BOJ Sep-9 final results publication | ✅ CONFIRMED cadence-derived — following business day around 10:00 JST (= Sep-9 21:00 ET) | https://www.boj.or.jp/en/statistics/boj/fm/juq/index.htm, checked 2026-09-09 UTC/JST (2026-09-08 ET) |
+| 2026-09-09 | SOFR for Sep-8 transactions | ✅ CONFIRMED cadence-derived — next business day around 08:00 ET; publication date differs from transaction date | https://www.newyorkfed.org/markets/reference-rates/sofr, checked 2026-09-09 UTC/JST (2026-09-08 ET) |
+| 2026-09-09 | EIA September Short-Term Energy Outlook | ✅ CONFIRMED — Wednesday Sep-9; normal release window noon–12:15 ET | https://www.eia.gov/outlooks/steo/release_schedule.php, checked 2026-09-09 UTC/JST (2026-09-08 ET) |
+| 2026-09-10 | EIA Weekly Petroleum Status Report, week ending Sep-4 | ✅ CONFIRMED — Thursday Sep-10, 12:00 ET; Labor Day exception | https://www.eia.gov/petroleum/supply/weekly/schedule.php, checked 2026-09-09 UTC/JST (2026-09-08 ET) |
+| 2026-09-11 | US CPI, August data | ✅ CONFIRMED at BLS primary — Friday Sep-11, 08:30 ET; supersedes prior access-failure caveat | https://www.bls.gov/schedule/2026/09_sched.htm, checked 2026-09-09 UTC/JST (2026-09-08 ET); SAM first primary-confirmed Sep-8 |
+
 *Add rows as dates are confirmed. Keep this table short — it's a verification scratchpad, not a full calendar (the calendar is `CALENDAR.md` / `CATALYSTS.tsv`).*

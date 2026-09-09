@@ -41,13 +41,34 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 
 ## CHANGES SINCE LAST RUN
 
-*Auto-populated by KURA at run start. Cleared at end-of-run.*
-
-*(cleared 2026-09-02 at Run-14 closeout — the working set moved into `## LAST RUN` Run 14 and `## STANDING MONITORS`.)*
+Run 15 covered the 2026-09-02 watermark through September 8 catch-up/integration, including its separately dated September 9 JST Totan source. Direct ledger check: 169 live KB rows, max ID 232; no live SUPERSEDED rows. The completed integration changes which older proposals remain valid: KB-209 is consolidated, funding-cutoff repair is KB-232, Totan replacement is live with visual review required, and July wages are in the assessment. Current dispositions are in Run 15 below; old run prose remains historical.
 
 ---
 
 ## LAST RUN
+
+### Run 15 — 2026-09-08 (FULL MODE; September catch-up and integration)
+
+**Coverage:** STATUS; post-watermark TIMELINE/CHANGELOG; current THESIS framing; September 3/4 resolved session blocks; September 8 boot/catch-up/integration reports and relevant saved source contracts; current insurer TRACKER; PREDICTIONS resolutions (carve-out); KB live/archive and frozen FLOW/VX; previous proposal queue. No original research. `boot.py --tools` independently confirms 19 tools / 14 boot-wired / 5 manual-only; new BOJ_MEETING_OIS is hands-off.
+
+**Verified outputs:** 1 proposed add **KB-SAM-233** (A1 Framework — Totan meeting-OIS incremental equivalents versus cumulative expected hike counts; no daily odds). Six grouped correction proposals P1–P6 in `KURA.md` Run 15, with exact wording. **0 archive moves:** KB.tsv has 169 data rows, max ID 232, no SUPERSEDED; archive has 62. Both have 9 fields throughout; no duplicate/reused IDs. All 226–231 proposals landed; SAM's 232 is present. No ledger touched. Approval of 233 would yield 170 live rows / next free ID 234.
+
+**Dispositions requiring SAM:** P1 051/197 sustain/missed-window record and corrected named-contract history; P2 206 Aug20 AMBIGUOUS / Sep3 SOFT, named-buyer versus auction evidence and CH-016 counter; P3 211/214/229 instrument scope (including KURA's A1 monthly-aggregate-to-July31 overclaim); P4 177/204/176 align current facts with integrated conditional-demand/energy framing; P5 220 repaired-tool state, 221 retired quote instruction, 169/199 Topics; P6 228 proxy-change caveat, 183 plausibility rule, 174 pointer. Lower-priority legacy-model cluster is flagged for a bounded owner ruling, not individually adjudicated or researched.
+
+**Verified already landed / decline duplicate:** KB-209 consolidation closes the old funding/size/convergence append; do NOT paste Run-14's obsolete cash-sleeve wording. KB-232 closes funding cutoff add-candidate. KB-169's August 23 remeasurement exists; only history/Topic collapse remains, not another remeasurement. 169/197/209 quoting is syntactic repair, not substantive resolution. Frozen FLOW/VX/legacy BOJ_OIS remain frozen. KB-182 and KB-200 archive move remain closed; archive Topic convention remains an owner choice.
+
+**Strongest omission:** KB-211's current negative licence (`only MOF did not also fire`) exceeds the integrated playbook's baseline/ordinary-flow/settlement limitations; KB-229 claims day-specific confirmation from a monthly aggregate in the same paragraph that says no daily split. Both need narrower claims, with existing historical evidence retained. New operational semantics earn one row (233); all adjacent telemetry and already-homed research was declined.
+
+**Monitors:** July-wage absence closes against the primary-backed assessment; June backfill is still unverified, not evidence MHLW failed to publish. Totan replacement installed; next chart requires review, and the old mandate to wire the TFX source is obsolete. Sep3 auction resolved; prospective precision/method ruling remains before Sep29, 40Y has no tail (KB175). Sep8 funding/CFTC lag, independent intervention baseline, Sep14 proxy expiry and owner oil sustain verdict remain open. No automatic sustain firing from a repeated price tag.
+
+**Closeout validation:** live KB 169 / archive 62, 9 fields throughout; no within-file duplicates or cross-ledger ID reuse; 233 unique/free, nine-field proposal and existing cross-refs valid. KB/KB_ARCHIVE/FLOW/VX/legacy BOJ_OIS byte-identical to HEAD at KURA verification. Spec prefix/watermark and SAM CALIBRATION byte-identical; `git diff --check` clean.
+
+**Roll previews (not applied):** memory tool reports 704 lines / 184K → 645 lines / 166K, rolling terminal Run12/11 blocks (18K freed). Proposal tool reports Run13/14 fully landed, eligible to move 46K; Run15 stays (233 unlanded). SAM applies after dispositions; existing pending corrections are now restaged in Run15. No archive surface was changed because no authorized move was needed.
+
+**Watermark proposed, NOT advanced:** 2026-09-02 → 2026-09-08. Spec Last harvest unchanged. CALIBRATION preserved byte-for-byte. Memory/proposal roll previews are report-only; SAM owns application after its rulings. An initial own section edit matched an inline heading reference; inspection caught and removed that edit before this anchored-heading rewrite. Final validation checks one canonical heading for each owned section.
+
+---
+
 
 ### Run 14 — 2026-09-02 (Tue, FULL MODE, 6-day 8/27 → 9/2 window: ¥15.4T MOF monthly landed as a RECORD · USD/JPY back through 160 for the first time since the day BEFORE the op · whole JGB curve broke to NEW SERIES HIGHS at every tenor with the front leading · `jgb_yields.py` silently dropped 3 sessions across a dark month-boundary and the defect propagated to a derived tsv with no defect of its own · KB-SAM-200 archived (the one autonomous act, executed))
 
@@ -364,6 +385,16 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Opened Run 15 (2026-09-08) — current disposition index; older requests below are historical where superseded here
+
+- **NEW PROPOSED ADD: KB-SAM-233.** Full row and five-gate rationale in KURA.md Run 15; not promoted.
+- **P1–P6 correction set:** exact text in KURA.md Run 15. Core unresolved requested rows: 051/197, 206/211; integrated owner interpretation also leaves 177/204/176 and instrument labels 220/221/214/228/229 stale. SAM applies or declines; KURA made no row edits or status rulings.
+- **LANDED — 229/230/231 and 232:** ID/content verified. Earlier 'awaiting promotion' entries are stale state, not pending adds. **LANDED — 209 consolidation:** do not apply older 209 append drafts; they would restore superseded cash-only capacity reasoning. These dispositions record executed SAM work, not KURA self-approval.
+- **169 distinction:** completed August 23 measurement remains closed; syntactic repair c922e355b did not collapse the older, contradictory history. P5 proposes a current Topic/clean latest-result view with prior text preserved.
+- **183 amended recommendation:** do not mechanically carry Run14's 'no stable sign' into a blanket retirement; Sep8 nearest quote passes the existing plausibility bound while longer expiries fail. Keep a conservative warning and prohibit sign inference from invalid data (P6); no quote-quality upgrade claimed.
+- **Carried owner decisions, not new research:** legacy automatic-trigger/model rows need an owner status/label sweep; KB152 routing and Q3-availability rule; UST-denominator/hedge-ratio gaps; KB200 archive-side Topic convention. No archive move until Status already equals SUPERSEDED.
+
+
 ### Opened Run 14 (2026-09-02) — 3 proposals + 5 palimpsests (2 new, 3 carried), 1 archive-side convention clarification
 
 - 🟡 **KB-SAM-229 / 230 / 231 — 3 new proposed adds awaiting SAM's ruling.** Full rows + rationales → `KURA.md` § PROPOSED ADDS Run 14. Sourced entirely from SAM's own 2026-09-01 STATUS block (§①–⑪) and the KEY THRESHOLDS / INTERVENTION STATUS tables; no escalation-style ordering risk this run.
@@ -486,6 +517,23 @@ State file for the workbook-librarian sub-agent. Spec is in [`KURA.md`](KURA.md)
 ---
 
 ## STANDING MONITORS (surface each run until resolved)
+
+### Run-15 monitor audit — current instructions (September 8)
+
+This block supersedes all earlier live-looking quote recommendations and elapsed-date prompts below; their text is retained as the dated audit trail.
+
+| Monitor | Current disposition |
+|---|---|
+| BOJ source | Replacement INSTALLED and reviewed; next image requires a fresh SAM visual review/hash. Use BOJ_MEETING_OIS.tsv and BOJ_OIS_README.md source-age/expiry rules. Legacy BOJ_OIS remains frozen. Old requests to wire TFX, or to cite ~73/~87.5/~92%, are superseded; do not refresh those prose quotes. |
+| Wage absence | July CLOSED by September 8 MHLW assessment. June historical backfill not verified here; only carry if a time-series comparison needs it. Keep wage mechanism live; frozen VX is not reopened. |
+| 30Y / CH-016 | September 3 grade completed: separate 30Y SOFT; CH-016 NO-VERDICT from unreachable fixed auction leg, counter 0-of-2. Prospective precision/method ruling before September 29 remains; 40Y has no yield tail. P2 brings KB206 up to those owner rulings. |
+| Intervention | KB209 consolidated. Japanese funding and U.S. ESF/SOMA split are separate questions. Await independent pre-BOJ broker baseline and matching settlement calendars; reserve stocks/residuals do not identify transactions. FRBNY Q3 informs U.S. split, not all Japanese financing. |
+| Funding / positioning | KB232 repair landed. Sep8 U.S. funding transactions and Sep8 CFTC positions were unavailable at assessment capture; no post-rally liquidation verdict. Fixed proxy pair stops Sep14. |
+| Oil sustain | September 1 crossing documented; September 8 assessment supplies price/physical separation but no new owner sustain ruling. Keep the gate pending owner evidence, not a daily price refresh. Repeated arming without firing alone is not a defect in a sustain-conditioned rule. |
+| Auction completeness | Default-loop repair verified in code; Sep3 and Sep8 auction rows present. Older missing-row fix request obsolete; P5 corrects KB220. Watch for actual gaps, not unsorted append order alone. |
+| CFTC deadband / JGB month-boundary | KB231/230 landed. Keep their existing conditional checks; Sep1 short build exceeds the weekly deadband and does not validate post-rally position inference. |
+| Long-cycle | JICPA, named insurer disclosures, hedge ratios, UST denominator, MOF day-level breakdown and KB152 owner-data routing remain unchanged. GPIF/Norway proposals alone are not executed flows. |
+
 
 ### ⛔ ~~SPOT-STALENESS staging~~ — **BLOCK STRUCK 2026-08-20 (Run 12). BOTH TARGET LEDGERS ARE FROZEN.**
 
@@ -642,40 +690,14 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 
 ## NEXT RUN HINTS
 
-*(Written at the Run-14 closeout, 2026-09-02, **before SAM has ruled on this run's proposals** — so every "queue" statement below is a *pre-disposition* statement and must be re-checked at disk. Run 15 opens against this.)*
+1. Re-read actual KB rows after SAM's rulings: 233 is only a proposal; re-check max ID before using 234. Verify P1–P6 by content, not a 'promoted/applied' note.
+2. Do not re-propose KB209 consolidation, 232 cutoff repair, or a new 169 remeasurement. Keep syntactic repair separate from substantive historical collapse. Retain named-contract correction, missed-window honesty and primary/source-stage scope.
+3. Harvest from the last watermark SAM actually accepted (currently September 2, proposed September 8); no self-advance. Separate September 8 ET work date from September 9 JST OIS quote time.
+4. Re-check available funding/CFTC vintages, independent settlement baseline, next Totan review, September 14 pair expiry and September 29 precision/method ruling. No proxy null or aggregate sector flow can establish no unwind or named UST selling.
+5. Keep FLOW/VX/legacy BOJ_OIS frozen. Live wage mechanism is now sourced through July; do not keep reporting six missing runs as the present state.
+6. Memory and proposal rollers remain report-only. Never roll unresolved corrections out of reach merely because the associated ADD landed; current P1–P6 are in Run 15. Preserve CALIBRATION and original factual records before SAM collapses rows.
 
-- **Likely watermark window:** 2026-09-02 → next-run date. Run-14 was 6 days on a THIN mechanism-fact window (record MOF print + curve-break telemetry + two instrument defects + one AI-video verification), so 3 proposals is honestly-scoped. Run 15 is likely a DENSE window: 30Y 9/3 (near-term), Sep 8 Q2 GDP 2nd prelim, Sep 15-16 FOMC, Sep 17-18 BOJ MPM (highest-catalyst density of the quarter). ✅ **Boot check: `KURA.md` line 7 should read Run 14 / 2026-09-02 after SAM sets it** — keep verifying against `## LAST RUN` regardless; the header has drifted twice before and KURA does not own it.
-- **Queue on entry:** **3 proposals pending SAM's ruling — KB-SAM-229 · 230 · 231** — plus **5 palimpsest/stale-value texts awaiting application** (KB-SAM-051/197 dead-Brent-figure correction + third $90 crossing · KB-SAM-209 two-legged: size A2→A1 + convergence-claim retirement · KB-SAM-176 [Run-12 draft reinforced by 9/1] · KB-SAM-206 palimpsest #2 [Run-12 draft, TIME-CRITICAL: 9/3 30Y is imminent] · KB-SAM-199 Topic-collapse [Run-12 draft, still unapplied] · KB-SAM-183 potential re-grade or SUPERSEDED). Plus **1 archive-side convention clarification** on KB-SAM-200's preserved LIVE-era Topic. ⚠️ **Re-check every one against rows/edits that landed meanwhile, and verify the row COUNT at disk before trusting any number in this file.**
-- **State at the Run-14 closeout, verified at disk:** KB.tsv **165 × 9, 0 SUPERSEDED, no duplicate IDs**; KB_ARCHIVE **62 × 9, 11 SUPERSEDED**; **next free ID KB-SAM-232** (if all three of 229-231 promote). **`FLOW.tsv` and `VX.tsv` are FROZEN — not in the write-set, not to be re-staged.** State-file cap check on `KURA_MEMORY.md` itself: **637 lines / 165K at Run-14 start** (grew ~3K since Run-13 close), spec 158K, still over cap, still no explicitly-closed terminal block to roll (`subagent_memory_roll.py`, report-only).
-
-**🔬 THE HARVEST LENSES — carry all three standing ones into Run 15. Run 14 did not earn a fourth, but the QUIET-vs-PLAUSIBLE class distinction promoted into KB-230's Notes is a candidate for future promotion to a numbered lens if it earns a fourth instance.**
-
-| # | Lens | The question to ask a candidate |
-|---|---|---|
-| 1 | **Availability-read-as-use** (Run-11, SAM standing) | Its evidence is a capability, a policy remark, or a code path — **what would the instrument have PRINTED?** Grade on the print. |
-| 2 | **Agreement validates the OUTPUT, not the DERIVATION** (Run-12, SAM standing) | *"It agrees with an independent source"* — **on how many dates, and was the dispersion checked?** One date is an anecdote; a stable offset is an instrument; a scattered one is cancelling errors. |
-| 3 | **EFFECTIVE sample ≠ row count** (Run-12, SAM standing) | The row quotes an **n**. **Is it n INDEPENDENT draws?** Overlapping/rolling windows, ranked heads and truncated epochs all inflate it. |
-
-**Run 14 filed the QUIET-vs-PLAUSIBLE failure-class distinction inside KB-SAM-230's Notes rather than as a standalone framework row — it now has 4 named instances on the workbook (QUIET: KB-230; PLAUSIBLE: KB-217/221/223/231). If a fifth PLAUSIBLE or a second QUIET lands in a future window, this may earn promotion to lens #4.**
-
-**FIRST CHECKS (in order):**
-1. **Did SAM rule on the 3 proposals (KB-229/230/231)?** No escalation-style ordering risk this run — all three drafted entirely from SAM's own 2026-09-01 STATUS material, no unprocessed inbox artifact sourced.
-2. **Did SAM apply the 6 Run-14 palimpsest/stale-value flags** (KB-051/197 Brent correction + third crossing · KB-209 two-legged · KB-176 Run-12 draft + 9/1 reinforcement · KB-206 palimpsest #2 with (iii) UNREACHABLE addendum · KB-199 Topic-collapse · KB-183 re-grade)? Verify at disk — do not trust a "ruled" note (`finding_record_of_an_action_is_not_the_action`).
-3. **Did SAM rule on the archive-side convention question** (KB-SAM-200's LIVE-era Topic preserved verbatim on archive — Run-12 Topic-collapse convention scoped LIVE-only, or governs archive too)?
-4. **The monitor audit is a standing step.** This run: closed the MOF monthly (arbiter of perimeter → KB-229 + KB-209 palimpsest); opened THIRD $90 crossing under first live test of the sustain-conditioned re-spec; closed `jgb_yields.py` and CFTC-deadband defects into KB-230/231 (with a "re-verify anchor after prolonged dark period" residue for the first); re-based BOJ Sep to ~92% (fourth re-base in three weeks); incremented wage-print monitor to SIX runs. **Re-check ALL of these against the CURRENT row/STATUS state at Run 15 — several are time-sensitive (9/3 30Y in 24h; the third Brent crossing is under LIVE test right now).**
-
-**🔴 RUN-15 CANDIDATES, pre-flagged (each gets the full 5-gate treatment; none is pre-approved):**
-- **The 9/3 30Y auction** — separately graded on Pillar-2 Meiji-floor bars (INTERNALS, not level; SAM-26 trap). Floor series: 4.55× 7/7 · 2.83× 7/22 40Y · 3.864× 8/6 · 3.982× 8/20 — now at a materially higher level (30Y 4.131 [9/1]). A FIRM print at 4.131 tests whether the floor moved up, or was level-specific. ⛔ **DO NOT HARVEST the CH-016 leg** — it grades NO-VERDICT and OVER-DETERMINED by the letter (STATUS 9/1 ⑤) and is (iii) UNREACHABLE BY CONSTRUCTION, so a KB row about it would smuggle a verdict SAM refused. **Adjudicator counter starts at 9/29 40Y**, not 9/3.
-- **The THIRD $90 Brent crossing outcome** — if it round-trips inside ~2 weeks (Run-12 pattern), the sustain-conditioned re-spec faces its own re-examination question (a gate that arms three times without firing may itself be mis-specified in a NEW way). If BRENT/FALCON call sustain (≥2 fresh institutional legs), the re-spec finally fires as designed and KB-051/197's Status may move.
-- **9/15-16 FOMC dot plot** — route 4's actual test (walk-back of Jun-17 +40bp is the registered tripwire). Not a KURA harvest source directly, but the CHANGELOG entry that follows will be.
-- **9/17-18 BOJ MPM** — ⛔ cite **~92%** (MUFG via FXStreet 9/1); NEVER `boj_ois.py`'s 55.9%; NEVER the dead ~87.5% or the retired ~73%. Route 1 effectively dead at ~92% priced. Not a KURA-harvest event per se (the pricing telemetry itself is Gate-1) but the OUTCOME (surprise HOLD is now yen-NEGATIVE at ~92% priced) is a harvest-relevant regime datum.
-- **Q2 GDP 2nd prelim (Tue 9/8)** — private consumption sign, external demand carry rate; interpretive attribution question is likely to stay open (the same reason Run 11 declined it as a full add).
-
-**ALSO IN THE LIKELY WINDOW:** **Thu 9/3** 30Y auction (Pillar-2 floor test at higher level; CH-016 unreachable) · **Fri 9/5** CFTC vintage · **Tue 9/8** Japan Q2 GDP 2nd prelim · **Fri 9/12** CFTC vintage + possible MOF weekly follow-through · **Sep 15-16** FOMC · **Sep 17-18** BOJ MPM (cite ~92%) · **Fri 9/18** SAM-28 / SAM-31 / SAM-39 grading (SAM-31 heading toward a null-that-never-tested finding — five, possibly six, straight non-tests) · **Tue 9/29** 40Y auction (fallback CH-016 adjudicator; the counter starts here) · **~mid-Oct** first ESF Monthly Financial Statement containing the op (proposed KB-215 trap 2: watch FCDA + Other Investments TOGETHER) · **~Nov-13** FRBNY Q3 FX quarterly (settles ESF-vs-SOMA per KB-215).
-
-**INSTRUMENTS THAT LOOK CURRENT AND ARE NOT** (HANDS-OFF; surface, never edit): **`BOJ_OIS.tsv`** — still printing 55.9% at 8/26 against a live market ~92%, now ~36pp off (widest gap yet) under a live do-not-cite; **`CFTC_JPY.tsv`'s `Pct_of_Jul24_Peak`**, still on the retired −180,000 basis weekly (KB-217 is the authority); **`JGB_AUCTIONS.tsv`** — completeness fix holding, still not date-sorted (cosmetic, watch-only, candidate for closure at Run 15 if a second clean cycle holds); **`RATE_DIFFERENTIAL.tsv`** — post-Run-14 fix, but any prolonged dark period spanning a month boundary is a re-verification trigger (KB-230 caveat).
-
-**LONG-CYCLE CARRIES, no action expected:** JICPA (KB-108/125) · mid-tier ESR window · FY2026 hedge ratio (~Oct-Nov) · NISA reconciliation (KB-193) · GPIF (question answered NO; carry only for a policy-weight change) · MOF quarterly per-op (KB-184's ¥1.95T residual — carried since **Run 3**, still unclosed) · **KB-152** (blocker is ROUTING to BROCK/HANS, not data availability — stop re-asking the availability question) · the hedge-ratio <30% conflict vs KB-065/066's 44.4% (unverified since Run 1) · the UST denominator gap (KB-061/062/139/140) · the KB-076/077/083/090/094 palimpsest collapses.
+---
 
 ## ↪️ ARCHIVED RUN HISTORY — 2 terminal block(s) rolled 2026-08-20 to `KURA_MEMORY_ARCHIVE.md`
 
