@@ -36,6 +36,7 @@
 - **CARL** 🟡 — no change; route-out mid-to-late October.
 - **PROME** 🟠 — WQ-176 cell "cut as drafted" · rung grade for the 9/15 GATE review · re-centre withdrawal recommendation · two spec items routed. No live PROME to doorbell.
 - **RED** 🟡 — OSP-06 open; its instrument is unreadable this week, not dark.
+- **PROME / DAEDALUS** 🟠 — Will approved starting the remediation plan 9/8: strike-feed build spec + downgrade-path semantics + three batched rulings + a cadence ask are in PROME's inbox (build spec cc'd to DAEDALUS). `PLAN_2026-09-08_remediation.md` is the record.
 - **NEXUS** 🟡 — second rotation done with the rule-18 census (21 in → carried/closed by name + 3 new, 0 dropped).
 
 ## WATCH NEXT (dated)

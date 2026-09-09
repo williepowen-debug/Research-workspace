@@ -6,7 +6,7 @@
 
 ---
 
-## Phase 0 — this week, own authority [OWN]
+## Phase 0 — this week, own authority [OWN] — **ALL THREE DONE 2026-09-08** (0.1 → KB-097; 0.2 → LESSONS 9.4 KB hot, `archive/LESSONS_ARCHIVE_2026-09-08.md`; 0.3 → drafted in the Phase 1 packet)
 
 | # | Item | What, concretely | Done when |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | 0.2 | **LESSONS.md hot/cold split** | At ~82% of the read budget. Keep each item's headline + "what happened" (one line) + **Rule** hot; move corollaries and narrative to `archive/LESSONS_ARCHIVE_<date>.md` verbatim with a crc32 receipt. Self-check: every Rule sentence survives; item numbering unchanged (cited by number). Target ≤ 16 KB hot. | read_cap_check shows LESSONS ≤ 50% of budget; archive crc recorded in the commit body. |
 | 0.3 | **Draft the downgrade-path semantics** so the ruling has text to rule on (see 1.2). | Draft in a packet, not applied. |
 
-## Phase 1 — one packet to PROME for Will's word [WILL]
+## Phase 1 — one packet to PROME for Will's word [WILL] — **PACKET SENT 2026-09-08** on Will's in-session word *"please begin with your recommendations"* (this authorises the ASKS to be put; each ruling still needs Will's own word on the item). Build spec cc'd to DAEDALUS.
 
 | # | Ask | Proposed text / spec | Cost & risk |
 |---|---|---|---|
