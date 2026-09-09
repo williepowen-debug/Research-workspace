@@ -1,0 +1,13 @@
+{
+  "gas_source": "https://www.eia.gov/dnav/pet/hist_xls/WGFUPUS2w.xls",
+  "jet_source": "https://www.eia.gov/dnav/pet/hist_xls/WKJUPUS2w.xls",
+  "retrieval_local_date": "2026-09-08",
+  "last_observation": "2026-08-28",
+  "prior_comparison": "364 days earlier; four contiguous Friday observations on each leg",
+  "post_registration_weeks": 6,
+  "jet_below_gas_weeks": 2,
+  "mid_august_weeks": 3,
+  "mid_august_jet_below_gas_weeks": 2,
+  "final_week_jet_below_gas": false,
+  "scope": "Retrospective as-retrieved history; not an as-published vintage or final prediction grade."
+}

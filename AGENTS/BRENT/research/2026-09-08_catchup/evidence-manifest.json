@@ -1,0 +1,34 @@
+{
+  "REPORT.md": {
+    "bytes": 16220,
+    "sha256": "4edaa4510e9c10391c5bd89e01bc6e79c9e7cb3bab5e11a355cc523ac2398b0d"
+  },
+  "brt29-eia-comparison.csv": {
+    "bytes": 708,
+    "sha256": "a7037155e3c8e2ac2e712aa53f9a676e4ca74a562243afdd115bce9a4434cf26"
+  },
+  "brt29-registration-history.json": {
+    "bytes": 38620,
+    "sha256": "f3edfe0b611cfa6a897e89b5a4c6bb2731ff47934ec6d272ca834c916d14d98f"
+  },
+  "eia-validation.json": {
+    "bytes": 578,
+    "sha256": "8061c99d4ada78b801189dba99201ff660050251c47903a87366b9d13e80004a"
+  },
+  "gas-supplied.xls": {
+    "bytes": 110592,
+    "sha256": "88718e745aa2c0123391e7ed28d5f57c565db52096676db6fb69aa0159956c47"
+  },
+  "jet-supplied.xls": {
+    "bytes": 110592,
+    "sha256": "0bccce70e310bf8fb50fe2a6dde07de6983b3b6f5d7123ff65b2acb99d3fc1aa"
+  },
+  "reproduce_eia.py": {
+    "bytes": 2967,
+    "sha256": "d14be15b281797d6d75651e6f809fbf1e1c41c7ce9f61780fc6d72703091f33e"
+  },
+  "validation.json": {
+    "bytes": 2027,
+    "sha256": "8fea3f50ff3240a998b1019737fea415da4ace70c1598748f45debe5b899bbc1"
+  }
+}

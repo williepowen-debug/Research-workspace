@@ -5,13 +5,7 @@ Reconciled 2026-09-08. Read this WHOLE note with all TSV fields BEFORE grading o
 Premise window closed at six of six qualifying prints per current STATUS; older 1-of-1 note is history. August 31 mechanism sub-obligation needs its separate evidence reconciliation; September 25 threshold / September 30 final boundaries remain. No early final grade.
 
 
-## September 8 catch-up — provenance and bounded mechanism review
-
-The audit's numeric-conflict description is superseded by registration-history review. Both clauses were present in the July 21 registration commit `995a35bdfcc62d6ac24833af0a09d01af2c502b1` and all eight inspected revisions. The `never ≤−1.5%` invalidation is a sufficient failure condition, not an alternate success threshold. T still requires `≤−3.0%` by the named September 25 survey print. A −2.0% reading does not pass T merely because it avoids that invalidation. No canonical letter, confidence, grade or date changed. All contamination and mechanism clauses still apply.
-
-**August mechanism evidence, reviewed after its elapsed deadline:** EIA primary workbooks show jet four-week YoY below gasoline in two of six post-registration survey weeks (August 14 and 21), but not August 28; two of three mid-August onward observations. Early-shock weeks retain LESSONS #9's caveat. This is intermittent leadership, not continuous or end-window leadership. The letter's “during” does not specify a duration/count; do not invent one after observing the data.
-
-Eight issuer/SEC releases were inspected. Five candidates need more precise announcement/cause/individual-carrier evidence; three qualifying additional carriers are not yet established. This is bounded incomplete research, not proof that zero qualifying announcements occurred. Airspace-only suspensions, old cuts reprinted in August, aggregate seats and multiplying a parent group into subsidiaries cannot fill the count. The August 31 sub-obligation remains explicitly unresolved; final September 30 status remains OPEN. [Full tally, dates, exclusions, arithmetic and remaining work](../../research/2026-09-08_catchup/REPORT.md).
+**Audit 2026-09-08 — grading ambiguity unresolved:** the canonical Prediction field requires gasoline <= -3.0 pct by the week-ending September 25 print, while Invalidation says never reaching <= -1.5 pct by September 30 implies failure. These letters do not define the same boundary. Do not silently choose or edit either field; reconstruct registration/ruling provenance and disclose the remaining interpretation before final scoring. Separately complete the August 31 named-carrier AND jet-versus-gasoline mechanism evidence tally; aggregate seat losses cannot substitute for named announcements. [Audit A02/A03](../../audits/2026-09-08_stale-intel/REPORT.md).
 
 ## Original Notes, preserved verbatim
 

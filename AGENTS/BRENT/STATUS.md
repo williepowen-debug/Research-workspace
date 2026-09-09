@@ -7,13 +7,15 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 8 stale-intelligence audit — catch-up queue
+## September 8 catch-up implementation — scoped evidence update
 
-**Audit, not a blanket data refresh.** Thirteen findings: current-looking thesis duplicates, BRT-29 −3.0/−1.5 threshold conflict and overdue August 31 mechanism evidence, BRT-12 measurement gaps, event-sensitive CPC/Jazan follow-ups and dated reference estimates. Reader warnings installed; no claim, confidence, prediction grade or trade rule changed. [Prioritized audit](audits/2026-09-08_stale-intel/REPORT.md).
+**Completed:** current v5.8 thesis and reference-reader reconciliation, with exact before-images archived. BRT-29's registration proves the −1.5% clause is sufficient failure, not an alternate pass; T still requires ≤−3.0%. Reproducible EIA comparison observes jet below gasoline in two of six post-registration weeks, not August 28. Eight issuer releases reviewed; three eligible carrier events remain unestablished. No final grade or probability change. [Results and remaining priorities](research/2026-09-08_catchup/REPORT.md).
 
-**Fresh source checks:** exact owner PortWatch curl now succeeds, latest August 30; required August 31–September 1 still absent, control UNKNOWN. LMA current page names JWLA-034; linked July 29 circular contains both Gulf areas. No current freight/premium quote or physical-reopening grade. September 9 retail fuel (~10:00 ET) and STEO (normally noon–12:15 ET) added from official schedules; WPSR stays September 10 noon ET. Prior market values retain their vintages.
+**CPC/Jazan:** CPC loading resumed on dated August tracker evidence; RF-038 now PARTIAL_RESTART, present outage UNKNOWN rather than carried July loss. SPM-3-specific restoration remains unresolved. Jazan August 30 was an IIR estimate; actual restart/current loss unverified. No double-count or verified-zero inference. Three overdue catalyst rows now disclose partial/unresolved dispositions, including Treasury's published August 24 Operation Economic Outcast.
 
-**Next:** current-thesis reconciliation and BRT-29 provenance/tally; scheduled EIA reads; CPC/Jazan and matched crack/credit/flow evidence. New FALCON packet deferred at triage for source/event reconciliation; no verified-zero-loss inference. Existing broker receipt remains with TERRY/Will. Network boot: threshold/EIA checks OK, instrument warnings and ledger nudge remain; no new feed-failure claim from the restricted run.
+**SPR:** DOE primary confirms emergency exchanges; its early delivery plan does not authenticate the carried August deadline. Official 2023 statute locates the reference floor under limited authority; exact current contract/authority still needed. Mid-November is conditional arithmetic, not a verified deadline. Frozen two-print observations/bands unchanged.
+
+**Source/calendar boundary:** prior exact PortWatch curl succeeded but still ends August 30; required August 31–September 1 remains UNKNOWN. Prior LMA check exposes JWLA-034 with both Gulf areas. September 9 fuel/STEO, September 10 noon WPSR and September 11 post-release COT remain next reads. Market values, marks and broker receipt were not refreshed. Matched cracks/upstream credit, flow windows and incident follow-ups remain open; no blanket all-clear.
 
 ## September 8 BRENT cleanup — operating state
 
@@ -28,7 +30,7 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | Obligation | Owner result and next source |
 |---|---|
 | L198① Sidi Kerir | Full-August **2.139 mb/d** provisional Kpler via September 8 Reuters relays, versus existing **2.17** port-total benchmark (about **−1.4%**), direction only. Supersedes MTD 2.3 / +6% comparison; Vortexa weekly benchmark versus Kpler monthly relay: different trackers AND windows. Existing August 21 same-series weekly lag test **NOT RUNNABLE — NO-VERDICT**; −1.4% is contextual arithmetic, no grade. No independent tracker primary or Saudi production-loss inference. |
-| L198② PortWatch | **UNKNOWN / PENDING PUBLICATION** in parent's successful September 8 capture ending August 30. Required August 31–September 1 window absent. Exact owner retry blocked by web access / host DNS; current endpoint freshness not independently established. No substitute August 30 grade and no counter increment. Same query next boot, frozen control unchanged. |
+| L198② PortWatch | **UNKNOWN / PENDING PUBLICATION** in parent's successful September 8 capture ending August 30. Required August 31–September 1 window absent. Superseded access note: exact owner curl succeeded in the September 8 audit and independently reproduced latest August 30. Required target observations remain absent. No substitute August 30 grade and no counter increment. Same query next boot, frozen control unchanged. |
 | L140 Q1/Q2/Q3 | **Q1 UNKNOWN-AT-PRIMARY.** GARANT/ConsultantPlus transcribe No.1097 amending No.954: September 1→October 1, August 31→September 30. Official text/publication and original amended scope remain missing. October 1 is transcribed only, no imported clock change. Q2 remains OSPREY diesel/gasoil flow; Q3 fresh matched crack UNKNOWN and separate. First read completed; full registered read October 1. |
 | Physical / paper | EIA September 1 **96.02** minus Yahoo BZX26 September 1 daily **94.65** = **1.37 vendor-close proxy ONLY**. Official matched benchmark UNKNOWN. Archived intraday 95.22 retired from live use. September 8 BZX26 99.29 is a LIVE snapshot at 20:40:01Z, not settlement. Named-contract daily curve corrected: September 1 **5.98**, September 2 **6.65**, September 3 **7.20**, September 4 **7.13**; no close-counter increment from September 8 snapshots. |
 | Next physical release | **Thursday September 10, noon ET**, WPSR week ending September 4, confirmed at EIA holiday schedule. Corrects September 9. SPR two-print bands and Edouard observation rule unchanged. Named survey weeks preserved; contradictory “entirely in September” wording and secondary-only DOE-window premise flagged to PROME, no letter rewrite. |
@@ -117,9 +119,9 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 
 | Date | Release | Priority |
 |------|---------|----------|
-| **~Mon Aug 17** ⌁*modeled* | 🟠 CPC / non-Russian-tanker understanding — FALSIFIER DATE | 🟠 |
-| **Mon Aug 24** | 🔴 BESSENT TREASURY PRESS CONFERENCE — the operational mechanics of 'Economic D-Day' / Operation Economic Fury sanctions on Iran | 🔴 |
-| **~Sun Aug 30** ⌁*modeled* | JAZAN REFINERY - restart date REVISED 8/15 -> 8/30 (400 kb/d, shut 7/27) | 🟠 |
+| **~Mon Aug 17** ⌁*modeled* | CPC understanding — historical test UNRESOLVED; cargo/source coverage required | 🟠 |
+| **Mon Aug 24** | Treasury Operation Economic Outcast — announcement observed; operative-mechanism review PARTIAL | 🔴 |
+| **~Sun Aug 30** ⌁*modeled* | Jazan August 30 modeled restart — actual restart UNRESOLVED | 🟠 |
 | **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
 | **Fri Sep 4** | ✅ FRIDAY PAIR — FIRED 2026-09-04, BOTH LEGS GRADED 2026-09-06 (2d latency, desk dark Fri; no stack — graded before the 9/11 prints) | 🔴 |
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |

@@ -1,5 +1,16 @@
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
+## 2026-09-08 — catch-up implementation, v5.8 calibration preserved
+
+Old → new: contradictory current-looking June–August thesis/reference state → reconciled current interpretation with canonical owner pointers and exact hashed before-images. Old mid-November SPR deadline → conditional extrapolation; DOE primary program evidence recovered, precise delivery contract/current authority still missing. June 10 DOE's 26% premium describes earlier exchanges, not a verified new-tranche award term.
+
+BRT-29: all eight row-history revisions inspected; both numeric clauses were registered July 21. Audit conflict diagnosis → sufficient failure versus explicit T success distinction. First nine TSV fields unchanged; Notes and mandatory note now carry provenance. Reproducible EIA jet/gasoline comparison through August 28: leadership in two of six post-registration observations, not last week. Eight issuer releases reviewed; three qualifying carrier events not yet established, five candidates unresolved. No final grade/confidence change or invented duration rule.
+
+CPC RF-038: July ACTIVE/outage carry → PARTIAL_RESTART on S&P August evidence; current outage UNKNOWN. RF-042 remains separate unit event. Jazan's elapsed IIR estimate/current state and no-double-count boundary explicit. Three old catalysts now have bounded dispositions; Treasury actual Operation Economic Outcast announcement recovered, operative/flow grading incomplete. Registered letters and future windows preserved; no event pruned as fully graded. LMA/PortWatch stale-access descriptions removed from current readers.
+
+Evidence/results: [catch-up report](../research/2026-09-08_catchup/REPORT.md). Full originals: [archive manifest](../archive/2026-09-08_thesis-reconciliation/manifest.json). STATUS, TRACKER, SCRATCH and NEXUS carry scoped freshness. No registry/trade-spec edits, broker action or external send. v5.8 dated forecast and research falsifiers retained; cleanup is not a new forecast issuance.
+
+
 ## 2026-09-08 — stale-intelligence audit (no version/grade change)
 
 Current-looking lower thesis sections contain superseded state; reader warning installed pending full reconciliation. BRT-29 claim/invalidation threshold mismatch and overdue August 31 evidence task surfaced in its mandatory note. No canonical prediction fields changed. PortWatch owner access re-established with target absent; JWC document and official EIA release schedules checked. Two release tasks added. Full findings: `../audits/2026-09-08_stale-intel/REPORT.md`.

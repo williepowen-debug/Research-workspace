@@ -1,0 +1,62 @@
+{
+  "archive_hashes_verified": 6,
+  "prediction_rows": 30,
+  "first_nine_fields_unchanged": true,
+  "only_prediction_notes_changed": "BRT-29",
+  "open_ids": [
+    "BRT-07",
+    "BRT-12",
+    "BRT-26",
+    "BRT-29",
+    "BRT-30"
+  ],
+  "incident_rows": 53,
+  "changed_incident_ids": [
+    "RF-038",
+    "RF-039",
+    "RF-042",
+    "RF-044"
+  ],
+  "catalyst_rows": 20,
+  "changed_catalyst_dates": [
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-30",
+    "2026-09-10"
+  ],
+  "all_catalyst_letters_and_windows_unchanged": true,
+  "unchanged_vs_eab2531e8": [
+    "workbook/REGISTRY.tsv",
+    "TRADE.md",
+    "setups/SPECS_GATES.md",
+    "setups/SPECS_OFFRAMP_ENTRY.md",
+    "setups/SPECS_TRADE_RULES.md",
+    "workbook/KB.tsv",
+    "workbook/VX.tsv",
+    "workbook/FLOW.tsv",
+    "thesis/TIMELINE.md"
+  ],
+  "whole_reader_bytes": {
+    "STATUS.md": 28573,
+    "SCRATCH.md": 5147,
+    "NEXUS_BRIEF.md": 8502,
+    "thesis/THESIS.md": 15033,
+    "domain/REFERENCE_TABLES.md": 6011,
+    "thesis/prediction_notes/BRT-29.md": 3840
+  },
+  "new_local_links_valid": true,
+  "brief_tables_valid": true,
+  "calendar_check": "PASS: 20 events, 8 standing rows",
+  "corrections_check": "PASS: zero unreceipted named rows",
+  "lessons_spec_check": "PASS: all 15 detected lessons explicitly honoured",
+  "incident_quantity_invariant": "PASS: impossible=0",
+  "instrument_quick": "rc=2; network probes skipped, fallback registry dates stale. Not a live source outage or new market grade. Prior network audit is separately dated.",
+  "weekday_review": [
+    "7/31 sat is a verb in dated quotation, not Saturday",
+    "Sun Jan 31 is January 31, 2027; checker assumes 2026"
+  ],
+  "consumer_review": "Self clear; sole cross-agent 1300000 hit is BROCK bank-data cell, different series/unit. No genuine stale CPC consumer found, no send.",
+  "orphan_review": "Other agents active; their changes left untouched.",
+  "eia_reproduction": "PASS: eia-validation.json",
+  "scope": "No blanket market/intelligence all-clear; remaining tasks in REPORT.md."
+}

@@ -1,0 +1,26 @@
+{
+  "thesis/THESIS.md": {
+    "bytes": 75184,
+    "sha256": "8f84e5b81bec4911c4b703df041559a3b62c6288ebe96f0ef722c6347c63dd0d"
+  },
+  "domain/REFERENCE_TABLES.md": {
+    "bytes": 10493,
+    "sha256": "71146edd2f31944e50c5613781b58ec73f615c9195d6f770a14b0ca4b444e540"
+  },
+  "thesis/PREDICTIONS.tsv": {
+    "bytes": 65443,
+    "sha256": "a83095b9cac34b16a190c41295522c3d5e42a3ed0ae93f0a9b5ff83f698140af"
+  },
+  "thesis/prediction_notes/BRT-29.md": {
+    "bytes": 2730,
+    "sha256": "e3363644750ab7ee66c3a5a39cce785c415c21a0e1503cd69fb82369dfcccea2"
+  },
+  "refinery_damage/INCIDENTS.tsv": {
+    "bytes": 68188,
+    "sha256": "ef5c687fa12e4be255e2d8b192c47d219217ebb9234f175b7aac54fa5b4ee0db"
+  },
+  "docket/CATALYSTS.tsv": {
+    "bytes": 56505,
+    "sha256": "f3d6295a913b70fb7099f7adbb260659d91187f7e420738dd181f7851ddf2c69"
+  }
+}
