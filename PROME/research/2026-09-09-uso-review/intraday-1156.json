@@ -1,0 +1,71 @@
+{
+  "qualification": "Yahoo intraday vendor observations, futures delayed; no official close. Cboe delayed bid/ask not executable broker quote. Compared with same named instruments from BRENT morning capture.",
+  "quotes": [
+    {
+      "symbol": "USO",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/USO?range=5d&interval=1d",
+      "retrieved_utc": "2026-09-09T15:56:50.734072+00:00",
+      "quote_time_et": "2026-09-09T11:56:45-04:00",
+      "price": 149.45,
+      "prior_vendor_close": 146.02999877929688,
+      "change_pct_from_prior_close": 2.341985379231537,
+      "morning_price": 148.63,
+      "change_pct_from_morning": 0.5517055776088187
+    },
+    {
+      "symbol": "CLV26.NYM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLV26.NYM?range=5d&interval=1d",
+      "retrieved_utc": "2026-09-09T15:56:50.770202+00:00",
+      "quote_time_et": "2026-09-09T11:46:49-04:00",
+      "price": 96.46,
+      "prior_vendor_close": 93.02999877929688,
+      "change_pct_from_prior_close": 3.686984054294573,
+      "morning_price": 95.79,
+      "change_pct_from_morning": 0.6994467063367704
+    },
+    {
+      "symbol": "BZX26.NYM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZX26.NYM?range=5d&interval=1d",
+      "retrieved_utc": "2026-09-09T15:56:50.771415+00:00",
+      "quote_time_et": "2026-09-09T11:46:26-04:00",
+      "price": 101.32,
+      "prior_vendor_close": 97.91999816894531,
+      "change_pct_from_prior_close": 3.4722241571006895,
+      "morning_price": 100.67,
+      "change_pct_from_morning": 0.6456739843051507
+    }
+  ],
+  "option": {
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/USO.json",
+    "retrieved_utc": "2026-09-09T15:56:50.924264+00:00",
+    "feed_timestamp_raw": "2026-09-09 15:56:15",
+    "call": {
+      "option": "USO261016C00135000",
+      "bid": 17.25,
+      "bid_size": 378.0,
+      "ask": 17.95,
+      "ask_size": 157.0,
+      "iv": 0.4535,
+      "open_interest": 2014.0,
+      "volume": 51.0,
+      "delta": 0.7817,
+      "gamma": 0.0134,
+      "vega": 0.1401,
+      "theta": -0.0841,
+      "rho": 0.1061,
+      "theo": 17.6493,
+      "change": 3.225,
+      "open": 17.0,
+      "high": 17.55,
+      "low": 16.72,
+      "tick": "up",
+      "last_trade_price": 17.55,
+      "last_trade_time": "2026-09-09T11:40:17",
+      "percent_change": 22.5131,
+      "prev_day_close": 14.3249998092651
+    },
+    "prior_bid": 16.4,
+    "prior_ask": 17.05,
+    "bid_value_change_dollars": 85.0
+  }
+}
