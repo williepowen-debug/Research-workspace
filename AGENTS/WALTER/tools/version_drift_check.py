@@ -42,6 +42,8 @@ SPECS = [
 # the split created a synchronisation boundary that no instrument was watching.
 COMPANIONS = {
     "design/ROUTING_CARVEOUTS.md": "design/ROUTING_TABLE.md",
+    "design/ROUTING_OVERLAYS.md": "design/ROUTING_TABLE.md",
+    "design/THRESHOLD_SCAN.md": "design/SIGNAL_PROCESSING_CHECKLIST.md",
 }
 
 # version token: title form `# ... vX.Y` OR `**Version:** [v]X.Y`

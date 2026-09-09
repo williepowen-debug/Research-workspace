@@ -1,0 +1,57 @@
+{
+  "CLAUDE.md": {
+    "bytes": 54486,
+    "sha256": "6094b7a4b7744cec77f9dba945d2733e891c56ad69fdc82f8a9b9c7c2d4f6fff",
+    "crc32": "4ec6b65e"
+  },
+  "design/ROUTING_TABLE.md": {
+    "bytes": 31764,
+    "sha256": "f09cf74e362d13e5f50371b60e27ac2548a3bfb2236fa30dbbdad3ecff4fb469",
+    "crc32": "3c7709dc"
+  },
+  "design/SIGNAL_PROCESSING_CHECKLIST.md": {
+    "bytes": 115266,
+    "sha256": "721ce1fbe197e95fd1f0aeacb07ae9153a01fc4f79417dec46722edc28d4e972",
+    "crc32": "6785fd3c"
+  },
+  "design/BOOT_PROTOCOL.md": {
+    "bytes": 56446,
+    "sha256": "db372d4058ba7d85d4ee7e56b5129dfa7118e35c5d2f1765fbd2911465a039fb",
+    "crc32": "d7b3193d"
+  },
+  "design/ROUTING_CARVEOUTS.md": {
+    "bytes": 57573,
+    "sha256": "bddc4bce54ba349151529afecc7a805508ccdbc7c7110224586b23b9642c9a4c",
+    "crc32": "2c9d542f"
+  },
+  "design/STATE.md": {
+    "bytes": 51736,
+    "sha256": "035918dba5aa89651c73d6c91ead682b1c598e5cf1de9e2b975058945580f223",
+    "crc32": "01d42e05"
+  },
+  "design/SPEC_OWNERSHIP.md": {
+    "bytes": 20210,
+    "sha256": "cd8bb8835b12f1382b42b2629298bf89499db07140578776d02393ccc87654b4",
+    "crc32": "c9fb4e28"
+  },
+  "tools/version_drift_check.py": {
+    "bytes": 5211,
+    "sha256": "5783f84c523210d106f422b7716e1de91a7432eace601139218923dad9fa7881",
+    "crc32": "ad42a66f"
+  },
+  "LAST_COMPLETION.md": {
+    "bytes": 8065,
+    "sha256": "c6cc4df4db742fef6a5929233447c4637aa2431af46543c082c719b675f27032",
+    "crc32": "cf395263"
+  },
+  "STATUS.md": {
+    "bytes": 9725,
+    "sha256": "b220c8a4dead2a5ec218e6b98578b402cfc887830d8c1c77350e2064a590f230",
+    "crc32": "65c50aef"
+  },
+  "MEMORY.md": {
+    "bytes": 10362,
+    "sha256": "1e511277bda38d32638e51a2054b8bbcff2abcbcee7d5474d4ccc36d1d9e8cfa",
+    "crc32": "0a5e1d9b"
+  }
+}

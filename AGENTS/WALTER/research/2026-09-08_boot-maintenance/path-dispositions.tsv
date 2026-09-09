@@ -1,0 +1,57 @@
+token	lines	disposition	manifest_path	reason
+CLAUDE.md	51,59,59,59	AUTOLOAD/BASIS		Root/owner charter already loaded; root Git guard at0, no new whole Read.
+walter_doctor.py	52	READ:summary	AGENTS/WALTER/tools/walter_doctor.py	Reader-reviewed output contract: Health verdicts/counts and bounded examples, not full source files or underlying ledgers.
+AGENTS/WALTER/tools/walter_doctor.py	54	READ:summary	AGENTS/WALTER/tools/walter_doctor.py	Reader-reviewed output contract: Health verdicts/counts and bounded examples, not full source files or underlying ledgers.
+STATUS.md	57	READ:whole	AGENTS/WALTER/STATUS.md	Live operational state; whole read.
+anchors/IRAN_WAR.md	57	READ:whole	AGENTS/WALTER/anchors/IRAN_WAR.md	Whole anchor; guards/history excluded from routine boot and consulted at dispatch.
+reads_check.py	57	READ:summary	PROME/tools/reads_check.py	Reader-reviewed output contract: Measures declared manifest; raw READS.tsv not loaded whole by the session.
+MEMORY.md	57,58	READ:whole	AGENTS/WALTER/MEMORY.md	Whole trigger index; promoted archive not a boot read.
+PROME/registry/READS.tsv	57	TOOL-INTERNAL		Consumed by reads_check summary; row is declared for the tool, not a second full table read.
+read_cap_check.py	57	READ:summary	scripts/read_cap_check.py	Reader-reviewed output contract: Heuristic perimeter verdict, not file contents; retain the discovered-file count.
+anchors/IRAN_WAR_GUARDS.md	57	DISPATCH-ONLY		Explicitly excluded at boot; mandatory on Iran dispatch, not retired.
+anchors/IRAN_WAR_HISTORY.md	57	ON-DEMAND		Explicit historical grep-only archive; no unconditional boot read.
+MEMORY_PROMOTED.md	58	ON-DEMAND		Explicitly not a boot read; grep-only historical promotion record.
+LAST_COMPLETION.md	59	READ:whole	AGENTS/WALTER/LAST_COMPLETION.md	Whole closeout. Conditional evidence pointers must be evaluated, not merely carried; dynamic follow-on operations are documented in the enumeration receipt.
+REGISTRY.tsv	60,86	READ:whole	AGENTS/WALTER/REGISTRY.tsv	Whole directory.
+/COP.md	61	RETIRED		Boot5 tombstone; no current COP read.
+design/ROUTING_TABLE.md	62	READ:whole	AGENTS/WALTER/design/ROUTING_TABLE.md	Whole domain/meta/backup half; OVERLAYS is mandatory too.
+design/ROUTING_OVERLAYS.md	62	READ:whole	AGENTS/WALTER/design/ROUTING_OVERLAYS.md	Whole type/tag/boundary/convergence/safety/escalation/MINIMIZE half. Both halves remain on-path; no total-context saving.
+design/ROUTING_CARVEOUTS.md	62	DISPATCH-ONLY		Mandatory lane consult at dispatch10.7; explicitly not boot.
+/home/willi/Research-workspace/AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	64	READ:scoped	AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	Conditional canonical verification: header plus COMPLETE record selected by trigger_id for each load-bearing row; if view stale, enumerate all IDs and read every record separately. Charter makes row addressability explicit; no whole-file truncation or omitted row. Generated scan view is the owner size remedy, canon remains authority.
+AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv	65	READ:whole	AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	65	READ:scoped	AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	Conditional canonical verification: header plus COMPLETE record selected by trigger_id for each load-bearing row; if view stale, enumerate all IDs and read every record separately. Charter makes row addressability explicit; no whole-file truncation or omitted row. Generated scan view is the owner size remedy, canon remains authority.
+AGENTS/REGINALD/registry/THRESHOLDS.tsv	65	READ:whole	AGENTS/REGINALD/registry/THRESHOLDS.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+AGENTS/CREED/registry/THRESHOLDS.tsv	67	READ:whole	AGENTS/CREED/registry/THRESHOLDS.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv	67	READ:whole	AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+registry/FALSIFICATION_FIRED_LOG.tsv	68	READ:whole	AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv	Whole WALTER fire history.
+registry/REG_THRESHOLDS_FIRED_LOG.tsv	68	READ:whole	AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv	Whole WALTER fire history.
+AGENTS/HANS/registry/THRESHOLDS.tsv	69	READ:whole	AGENTS/HANS/registry/THRESHOLDS.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv	69	READ:whole	AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv	Read the complete registry/view or owner fire ledger. Current row fields govern; count rows rather than hardcoding the count. RED view hash must match canon.
+design/THRESHOLD_SCAN.md	70	READ:whole	AGENTS/WALTER/design/THRESHOLD_SCAN.md	Authoritative Phase2 step7, read WHOLE at boot and dispatch. Parent CHECKLIST is not the boot read.
+design/BOARD_CONSUMPTION_SPEC.md	70	READ:scoped	AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md	Named section 3.5.3 only when deciding whether near-trigger information changes a recipient decision; header-addressed consult, not whole-spec read. No full-file cap claim.
+/BOARD/INDEX.md	72	READ:scoped	BOARD/INDEX.md	Read the named cluster ToC, then address named cluster sections and dated/new-ID rows; do not load the whole index. The generated index is the discovery surface; no full-file read claimed.
+design/EVENT_WINDOW_STATE.md	73	READ:whole	AGENTS/WALTER/design/EVENT_WINDOW_STATE.md	Whole declared event-window state.
+FORGE/tools/news-sweep/latest.md	74	RETIRED		7c explicitly forbids the old feed read; intake7e succeeds it.
+FORGE/tools/filing-watch/latest.md	74	RETIRED		7c explicitly forbids the old feed read; intake7e succeeds it.
+SIGNALS/inbound.md	74	RETIRED		7c explicitly forbids the old feed read; intake7e succeeds it.
+AGENTS/WALTER/tools/intake_scan.py	76	READ:summary	AGENTS/WALTER/tools/intake_scan.py	Reader-reviewed output contract: Computed new-breach worklist, not complete raw feeds. Metadata is not the filing body; conditional megacap Item2.02 URL read remains mandatory and external to repo byte measurement.
+registry/intake_seen.json	76	TOOL-INTERNAL		Onset dedup state read/written by intake tool; bounded worklist enters context.
+intake_scan.py	77	READ:summary	AGENTS/WALTER/tools/intake_scan.py	Reader-reviewed output contract: Computed new-breach worklist, not complete raw feeds. Metadata is not the filing body; conditional megacap Item2.02 URL read remains mandatory and external to repo byte measurement.
+inbox/processed/2026-06-29_from-PROME_research-intake-consumer-wiring.md	77	PROVENANCE		Historical wiring source, no instruction to read each boot.
+AGENTS/WALTER/tools/phone_scan.py	80	READ:summary	AGENTS/WALTER/tools/phone_scan.py	Reader-reviewed output contract: Status and bounded preview; this never replaces the separate whole signal-body read below.
+RESEARCH-INTAKE/phone_inbox/signal_*.md	82	READ:whole	RESEARCH-INTAKE/phone_inbox/signal_*.md	Conditional new or changed phone signal bodies; separate repo, declared but not byte-graded by this tool. Read body before any Novelty disposition.
+phone_scan.py	82	READ:summary	AGENTS/WALTER/tools/phone_scan.py	Reader-reviewed output contract: Status and bounded preview; this never replaces the separate whole signal-body read below.
+registry/phone_seen.json	84	TOOL-INTERNAL		Phone dedup state, created by mark when needed; no independent session read.
+inbox/2026-07-05_from-PROME_phone-signal-ingestion-design.md	84	PROVENANCE-GAP		Old packet absent; cited format contract, not a boot read. Existing historical audit gap retained; never treat path existence as transport proof.
+AGENTS/*/STATUS.md	86	READ:scoped	AGENTS/*/STATUS.md	Header/Updated/lead block only, addressed from file start. No whole STATUS reads for a fleet refresh; conditional evidence investigations use their named sections.
+READS.tsv	86,91	TOOL-INTERNAL		Alias of PROME/registry/READS.tsv; schema/citation references, checker output used.
+AGENTS/WALTER/REGISTRY.tsv	86	READ:whole	AGENTS/WALTER/REGISTRY.tsv	Whole directory.
+LIAISON.md	87	READ:scoped	AGENTS/*/handoff_WALTER/LIAISON.md	Conditional active-channel latest turn(s), addressed by heading; class also captures future channels.
+outbox/REQ-*.md	87	READ:whole	AGENTS/WALTER/outbox/REQ-*.md	Conditional full request read, explicitly clarified in charter. Inspect disposition before unresolved-age escalation; listing alone cannot establish status.
+/scripts/corrections_boot_check.py	89	READ:summary	scripts/corrections_boot_check.py	Reader-reviewed output contract: Named correction verdicts; rc1 triggers a separate read of the pointed packet/section. Dynamic pointer destinations are documented in the enumeration receipt.
+registry/corrections_receipts.tsv	89	READ:grep	AGENTS/WALTER/registry/corrections_receipts.tsv	Own receipt ledger; read-to-append only when rc1 names a correction. Header-only scaffold contains no receipts and asserts no APPLIED result.
+registry/CORRECTIONS.tsv	89	TOOL-INTERNAL		Named correction check parses rows; session receives verdicts/pointers.
+PROME/state/ORCH_INFLIGHT.md	91	READ:whole	PROME/state/ORCH_INFLIGHT.md	Generated orchestration view; read whole. Do not read ORCH_LOG. Corroborate runtime visibility; view alone is not proof a session is alive.
+ORCH_LOG.tsv	91	FORBIDDEN-BOOT		Explicit negative at9b; generated ORCH_INFLIGHT is the mandated whole read.
+design/STATE.md	93	ON-DEMAND		Explicit reference docs not at boot.
+design/CROSS_REFS/{AGENT}.md	93	DISPATCH-ONLY		Explicit identifier-cache consult at dispatch, not boot.

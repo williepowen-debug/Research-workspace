@@ -1,0 +1,14 @@
+{
+  "authorized_by": "Will: okay cool lets do the unfinished WALTER maintenance",
+  "reader": "WALTER",
+  "before_sha256": "24e93e652992fed6910e6d482b7aca297c0c7c095b482369fa8563ef4615198f",
+  "after_sha256": "4ace2c0604b6c33171fb80b5470054cf135e39a597daa90a09508443d7dfe07f",
+  "non_walter_unchanged": true,
+  "non_walter_sha256": "8d2727fe8f674013c7faf80667ff56eecb1dcef4928805e4b4568a1638bdf475",
+  "rows": {
+    "READ": 38,
+    "BASIS": 17,
+    "ATTESTATION": 1
+  },
+  "schema_errors": []
+}

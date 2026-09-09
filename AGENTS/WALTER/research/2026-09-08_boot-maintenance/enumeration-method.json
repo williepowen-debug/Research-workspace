@@ -1,0 +1,15 @@
+{
+  "source": "AGENTS/WALTER/CLAUDE.md",
+  "source_sha256": "5e9fb8d9269ef3256e217d4ece2b91073b9d7b5d7523f1800c31f5aa0e75986c",
+  "start_marker": "### Boot (",
+  "end_marker": "### Execute",
+  "token_regex": "(?<![\\w/])(?:/?(?:[A-Za-z0-9_.*{}<>-]+/)*[A-Za-z0-9_.*{}<>-]+\\.(?:md|tsv|py|json|sh|txt))",
+  "distinct_tokens": 56,
+  "additional_passes": [
+    "Remaining backticked directories/commands",
+    "WILL unquoted directory command",
+    "Tool output contracts and implied market-data readers",
+    "Dynamic evidence/URL pointer operations"
+  ],
+  "classified_tokens": 56
+}

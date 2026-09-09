@@ -1,0 +1,70 @@
+{
+  "CLAUDE.md": {
+    "sha256": "09bc5feb3877f4fbebd989781b774727463c954622cad6d9ec3089c01cd5782b",
+    "bytes": 22633
+  },
+  "AGENTS/WALTER/CLAUDE.md": {
+    "sha256": "5e9fb8d9269ef3256e217d4ece2b91073b9d7b5d7523f1800c31f5aa0e75986c",
+    "bytes": 54999
+  },
+  "AGENTS/WALTER/design/BOOT_PROTOCOL.md": {
+    "sha256": "ce5ce1e7d1a6620e22c5fbed8f178b27b504770db1bbcbbe053fe047a3571d5f",
+    "bytes": 57480
+  },
+  "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": {
+    "sha256": "020d69daa77399e9817fb3beec0d2e460aaad806e550dfc9c06b6cb5f1d55154",
+    "bytes": 102312
+  },
+  "AGENTS/WALTER/design/ROUTING_TABLE.md": {
+    "sha256": "9cbe6f68fd0715e8bea9ac1d75fb4ff147076603db74db7a3b2592710e4a14c5",
+    "bytes": 16795
+  },
+  "AGENTS/WALTER/design/ROUTING_OVERLAYS.md": {
+    "sha256": "ad888e44bb8eeb6e695386be4cbea05a0a68b06f475eb1cd5a1c1c573557b6b6",
+    "bytes": 17150
+  },
+  "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md": {
+    "sha256": "97fb1002e93600a2b70ef16f0e7c4babde4ad77c43eaabbd2da7acacdca02bc6",
+    "bytes": 111938
+  },
+  "AGENTS/WALTER/design/THRESHOLD_SCAN.md": {
+    "sha256": "7d9c6655b267172eaff4cca42c04d84f6368f0a7b1bb78967ee6f97d6ff38f5d",
+    "bytes": 5101
+  },
+  "AGENTS/WALTER/tools/walter_doctor.py": {
+    "sha256": "b53472c5ae1e8846fe1d7f25b4a40e6f382038e230f640b5fcfa917de26fa590",
+    "bytes": 135986
+  },
+  "AGENTS/WALTER/tools/version_drift_check.py": {
+    "sha256": "ae2d9930bac9407ced65c1d6219a27799427979ddba8437ef11c148487174421",
+    "bytes": 5345
+  },
+  "AGENTS/WALTER/tools/intake_scan.py": {
+    "sha256": "279ec8e10241657762fd99e39c05b89a6bbfc2a97286541280567222f58f5d59",
+    "bytes": 14046
+  },
+  "AGENTS/WALTER/tools/phone_scan.py": {
+    "sha256": "5249386c7ca093d2c222ecf691b6b10049d83967423fd358f7f91ac8059262e6",
+    "bytes": 9632
+  },
+  "scripts/corrections_boot_check.py": {
+    "sha256": "3a88a236b6a9b8419ab58658c410a653293a56383d781ba15b2403549ce26651",
+    "bytes": 14765
+  },
+  "scripts/read_cap_check.py": {
+    "sha256": "c1c99d128fbcaa35283b22254abbe0d7c5bb207ca6c1cc6176ea91b0b2158e21",
+    "bytes": 18209
+  },
+  "PROME/tools/reads_check.py": {
+    "sha256": "6fa5e0b5f5e99ea63f43133cdce7d939198866fe682139dca62dbca0ef4fc115",
+    "bytes": 45998
+  },
+  "FORGE/tools/market-data/dashboard.py": {
+    "sha256": "81a771c599b985fa407cbda6c3a8679b10590fdbb761a9868016386725c09a34",
+    "bytes": 22039
+  },
+  "FORGE/tools/market-data/fetch.py": {
+    "sha256": "f4731cc0b141cf65bfc0ecc06442371fe1b588b737b67b69faa3fd046cb4ed08",
+    "bytes": 41571
+  }
+}

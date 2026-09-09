@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-08",
+  "routing": {
+    "before_bytes": 31764,
+    "after_files": {
+      "ROUTING_TABLE.md": 16795,
+      "ROUTING_OVERLAYS.md": 17150
+    },
+    "after_total_bytes": 33945,
+    "moved_suffix_sha256": "cca090d495c81c97abd8df4c7f6a5c2fc286ad27bd0e4cd4591d126bcf76ba53",
+    "moved_suffix_crc32": "cb5c5f20",
+    "obligations": "Every section from By Signal Type through MINIMIZE preserved byte-for-byte in OVERLAYS, still whole-read at boot; domain/meta/backup rules remain in TABLE. No off-path active obligation. Historical pre-split copy is provenance only.",
+    "legacy_section_addresses": "All seven moved ## headings remain as canonical-section links in ROUTING_TABLE.md."
+  },
+  "threshold": {
+    "moved_step_bytes": 3824,
+    "moved_step_sha256": "6198f3975634d10280c707e45510e5a32ecf7573740cf4b86db38a6aef755377",
+    "moved_step_crc32": "c48313e8",
+    "after_bytes": 5101,
+    "obligations": "Complete Phase2 step7 retained byte-for-byte in its authoritative module; boot and dispatch must open it whole. State/exit, sustain, provenance, near-trigger, recipient, precedence, cluster and fire-log requirements all retained."
+  },
+  "claim": "Per-surface cap repair, not a total-context saving. READ-CAP rules 17/18 accounted for."
+}

@@ -1,6 +1,6 @@
-# WALTER ROUTING — PER-AGENT CARVE-OUTS v0.31
+# WALTER ROUTING — PER-AGENT CARVE-OUTS v0.32
 
-**Version:** v0.31 — ⚠️ **MUST MATCH `ROUTING_TABLE.md` EXACTLY. These two files are ONE spec split across two paths for read-cap reasons, so they carry ONE version and move in LOCKSTEP: edit either, bump BOTH.** Enforced by `tools/version_drift_check.py` (companion check, added 2026-08-30 on Codex finding 3). **Why it matters:** these sections are routing LAW; before the companion check a carve-out edit could change who receives a signal with no version bump anywhere — the parent's version would still read v0.31 and every drift check would pass.
+**Version:** v0.32 — ⚠️ **MUST MATCH `ROUTING_TABLE.md` EXACTLY. These two files are ONE spec split across two paths for read-cap reasons, so they carry ONE version and move in LOCKSTEP: edit either, bump BOTH.** Enforced by `tools/version_drift_check.py` (companion check, added 2026-08-30 on Codex finding 3). **Why it matters:** these sections are routing LAW; before the companion check a carve-out edit could change who receives a signal with no version bump anywhere — the parent's version would still read v0.31 and every drift check would pass.
 
 > **Split out of `ROUTING_TABLE.md` 2026-08-30** (@ sha256 `8c4d77417a26`, 121,557 B = 224% of the read cap). **VERBATIM — nothing summarised.**
 >

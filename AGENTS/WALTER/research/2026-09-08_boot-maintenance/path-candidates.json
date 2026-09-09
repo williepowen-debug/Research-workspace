@@ -1,0 +1,362 @@
+{
+  "CLAUDE.md": [
+    {
+      "line": 51,
+      "context": "0. **`git pull`** \u2014 sync from GitHub before reading anything (pull protocol in root CLAUDE.md; GitHub = source of truth)."
+    },
+    {
+      "line": 59,
+      "context": "ted with a session's worth of authority behind it.** \ud83d\udd11 **Bought 2026-08-20, and the shape is the point: root `CLAUDE.md`'s potash guard had been DISCHARGED at 20:40 the previous evening (`897d32500`), so the corrected text was sitting in the copy of root `CLAUDE.md` THIS PROTOCO"
+    },
+    {
+      "line": 59,
+      "context": "ISCHARGED at 20:40 the previous evening (`897d32500`), so the corrected text was sitting in the copy of root `CLAUDE.md` THIS PROTOCOL AUTO-LOADS AT EVERY BOOT \u2014 and I reported the guard as still stale to Will TWICE while holding the refutation in context.** **PROME caught it; I"
+    },
+    {
+      "line": 59,
+      "context": "e refutation in context.** **PROME caught it; I did not.** **The files you are MOST guaranteed to have (root `CLAUDE.md`, your own STATUS, anything auto-loaded) are the CHEAPEST carries to check and therefore the most expensive to get wrong.** `[[finding_dated_carry_item_has_no_"
+    }
+  ],
+  "walter_doctor.py": [
+    {
+      "line": 52,
+      "context": "0.5. **Run `walter_doctor.py`** (read-only health scan):"
+    }
+  ],
+  "AGENTS/WALTER/tools/walter_doctor.py": [
+    {
+      "line": 54,
+      "context": "--show-toplevel)\"; PYTHON=\"${PYTHON:-python3}\"; [ -x .venv/bin/python3 ] && PYTHON=.venv/bin/python3; $PYTHON AGENTS/WALTER/tools/walter_doctor.py)   # cwd-proof (2026-07-01) \u2014 old form silently fell back to system python3 + failed to resolve from the own-dir launch cwd"
+    }
+  ],
+  "STATUS.md": [
+    {
+      "line": 57,
+      "context": "1. **Read `STATUS.md`** (live state, NETWORK AWARENESS, FILTER POSTURE + standing flags). **Read `anchors/IRAN_WAR.md`** \u2014 the load-bearing macro anchor, and after split \u2462 (2026-08"
+    }
+  ],
+  "anchors/IRAN_WAR.md": [
+    {
+      "line": 57,
+      "context": "1. **Read `STATUS.md`** (live state, NETWORK AWARENESS, FILTER POSTURE + standing flags). **Read `anchors/IRAN_WAR.md`** \u2014 the load-bearing macro anchor, and after split \u2462 (2026-08-31) it is a **WHOLE read that fits with headroom** (it was 263,371 B = 809% of budget and was be"
+    }
+  ],
+  "reads_check.py": [
+    {
+      "line": 57,
+      "context": "YTE FIGURE HERE, DELIBERATELY \u2014 this line's `20,288 B` went stale inside the session that wrote it. Measure: `reads_check.py --agent WALTER`.** `[[finding_plausible_stale_value_evades_review]]` \u26a0\ufe0f **Quote this against the BUDGET, never the 54,250 B physical ceiling \u2014 the ceiling is n"
+    }
+  ],
+  "MEMORY.md": [
+    {
+      "line": 57,
+      "context": "the BUDGET, never the 54,250 B physical ceiling \u2014 the ceiling is not a pass mark, and quoting it is what let `MEMORY.md` sit at 145% of budget while being reported \"0 violations\" for two sessions.** Re-rotation trigger is **\u226575% of budget = 24,412 B**. \ud83d\udd34 **AND REPORT THE VERDICT"
+    },
+    {
+      "line": 58,
+      "context": "2. **Read `MEMORY.md`** (feedback, findings, session-notes handoff) \u2014 a **WHOLE read**, and after the 2026-08-31 promotion pass it is a compact TRIGGER INDEX rather than an archive"
+    }
+  ],
+  "PROME/registry/READS.tsv": [
+    {
+      "line": 57,
+      "context": "ead belongs to the READER's perimeter, and one file may legitimately appear in several readers' manifests.** `PROME/registry/READS.tsv` is now present; check its reader attestation freshness separately. The heuristic count still travels with the `read_cap_check.py` verdict. \u26a0\ufe0f **THE OTHER TWO "
+    }
+  ],
+  "read_cap_check.py": [
+    {
+      "line": 57,
+      "context": "s now present; check its reader attestation freshness separately. The heuristic count still travels with the `read_cap_check.py` verdict. \u26a0\ufe0f **THE OTHER TWO ANCHOR FILES ARE NOT BOOT READS AND MUST NOT BE READ WHOLE HERE:** `anchors/IRAN_WAR_GUARDS.md` \u2014 the standing triage / kill-on-si"
+    }
+  ],
+  "anchors/IRAN_WAR_GUARDS.md": [
+    {
+      "line": 57,
+      "context": "cap_check.py` verdict. \u26a0\ufe0f **THE OTHER TWO ANCHOR FILES ARE NOT BOOT READS AND MUST NOT BE READ WHOLE HERE:** `anchors/IRAN_WAR_GUARDS.md` \u2014 the standing triage / kill-on-sight corpus, read **pre-dispatch on demand** per the Iran guard above, never at boot; `anchors/IRAN_WAR_HISTORY.md` \u2014 dated n"
+    }
+  ],
+  "anchors/IRAN_WAR_HISTORY.md": [
+    {
+      "line": 57,
+      "context": "ding triage / kill-on-sight corpus, read **pre-dispatch on demand** per the Iran guard above, never at boot; `anchors/IRAN_WAR_HISTORY.md` \u2014 dated narrative, **grep on demand**, never at boot. \ud83d\udd11 **This step used to name a 263 KB file and a 130 KB file as plain reads, and the operation that actual"
+    }
+  ],
+  "MEMORY_PROMOTED.md": [
+    {
+      "line": 58,
+      "context": "E FIGURE HERE \u2014 this line said `46,327 B` while the file was under 14 KB. Measure with `reads_check`.** \u26a0\ufe0f **`MEMORY_PROMOTED.md` is NOT a boot read \u2014 grep on demand**: 19 findings already promoted to fleet auto-memory (duplicates under this file's own promotion rule) plus the accumulate"
+    }
+  ],
+  "LAST_COMPLETION.md": [
+    {
+      "line": 59,
+      "context": "3. **Read `LAST_COMPLETION.md`** \u2014 **`FOLLOW-UP` + `OPEN DESIGN DECISIONS` = the canonical running list of open items** (carry forward every closeout). \ud83d\udd34 **AND EVALUATE THEM, DO NOT MERELY "
+    }
+  ],
+  "REGISTRY.tsv": [
+    {
+      "line": 60,
+      "context": "4. **Read `REGISTRY.tsv`** (agent directory; check for stale entries)."
+    },
+    {
+      "line": 86,
+      "context": "8. **Registry refresh** \u2014 refresh `REGISTRY.tsv` Status/Updated/Focus from agents' STATUS headers. \ud83d\udd34 **HEADER-ONLY \u2014 39 `AGENTS/*/STATUS.md` \u2248 1.94 MB whole; the `Updated:`/lead block is the entire input.** "
+    }
+  ],
+  "/COP.md": [
+    {
+      "line": 61,
+      "context": "5. ~~Read `/COP.md`~~ \u2014 **RETIRED 2026-06-28** (COP decommissioned, Will-approved; the paused network one-pager archived \u2192 `design/history/`). Number kept \u2014 boot steps 6+ are ext"
+    }
+  ],
+  "design/ROUTING_TABLE.md": [
+    {
+      "line": 62,
+      "context": "6. **Read `design/ROUTING_TABLE.md` WHOLE, then read `design/ROUTING_OVERLAYS.md` WHOLE.** Both files are mandatory routing law: domain defaults first, then type/tag/boundary/convergence/safety-"
+    }
+  ],
+  "design/ROUTING_OVERLAYS.md": [
+    {
+      "line": 62,
+      "context": "6. **Read `design/ROUTING_TABLE.md` WHOLE, then read `design/ROUTING_OVERLAYS.md` WHOLE.** Both files are mandatory routing law: domain defaults first, then type/tag/boundary/convergence/safety-net/escalation/MINIMIZE. Split 2026-09-08 to b"
+    }
+  ],
+  "design/ROUTING_CARVEOUTS.md": [
+    {
+      "line": 62,
+      "context": "s not a total-context saving. Measure at every Tier-2 and after an append; next calendar check 2026-09-30. **`design/ROUTING_CARVEOUTS.md` is read AT DISPATCH**, when the agent's lane applies, never substituted for either boot read. Historical routing records under `design/history/` remain on-dem"
+    }
+  ],
+  "/home/willi/Research-workspace/AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv": [
+    {
+      "line": 64,
+      "context": "ion and ruling** \u2014 the view only keeps this step under the cap. \u26a0\ufe0f **If its line-0 banner sha256 \u2260 `sha256sum /home/willi/Research-workspace/AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`, it is STALE: flag RED and read the canonical header plus each trigger-ID row separately, in full. Check the complete ID set; do not use an abbreviated view a"
+    }
+  ],
+  "AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv": [
+    {
+      "line": 65,
+      "context": "   - **`AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv`** (RED-FT \u2014 the **GENERATED scan view**, read this at boot; **count the rows; 12 as of 2026-09-03**, `RED-FT-01` \u2026 `RED-FT-12`. \u26d4 **Canon `AGENTS/RED/registry"
+    }
+  ],
+  "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv": [
+    {
+      "line": 65,
+      "context": "can view**, read this at boot; **count the rows; 12 as of 2026-09-03**, `RED-FT-01` \u2026 `RED-FT-12`. \u26d4 **Canon `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` remains the authority for every fire, citation and ruling \u2014 open it on demand when a row is load-bearing**) + `AGENTS/REGINALD/registry/THRESHOLDS.tsv` (REG-T"
+    }
+  ],
+  "AGENTS/REGINALD/registry/THRESHOLDS.tsv": [
+    {
+      "line": 65,
+      "context": "emains the authority for every fire, citation and ruling \u2014 open it on demand when a row is load-bearing**) + `AGENTS/REGINALD/registry/THRESHOLDS.tsv` (REG-T, 8 rows). *(Was 7+8=15 until 2026-08-12: RED's S29 registered **FT-08** `CORE-CPI-MOM \u22650.4 MoM` **AND** 3-mo annualized \u22653.0%, sustain 1 \u2192 Stagflation "
+    }
+  ],
+  "AGENTS/CREED/registry/THRESHOLDS.tsv": [
+    {
+      "line": 67,
+      "context": "   - **`AGENTS/CREED/registry/THRESHOLDS.tsv` (CREED-T).** Count rows and classify eligibility from the CURRENT canonical row, including `band_status`, `sustain_window` and `source_of_truth`; do not copy "
+    }
+  ],
+  "AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv": [
+    {
+      "line": 67,
+      "context": "date; event counts require owner evidence, not a daily price pull. **Fire state and repeat suppression: read `AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv`, the single owner record; never mirror it.** [\u2192 BP \u00a76b]"
+    }
+  ],
+  "registry/FALSIFICATION_FIRED_LOG.tsv": [
+    {
+      "line": 68,
+      "context": "   - Also read fire-history ledgers for stale-fire suppression: `registry/FALSIFICATION_FIRED_LOG.tsv` + `registry/REG_THRESHOLDS_FIRED_LOG.tsv`. [\u2192 BP \u00a76b]"
+    }
+  ],
+  "registry/REG_THRESHOLDS_FIRED_LOG.tsv": [
+    {
+      "line": 68,
+      "context": "   - Also read fire-history ledgers for stale-fire suppression: `registry/FALSIFICATION_FIRED_LOG.tsv` + `registry/REG_THRESHOLDS_FIRED_LOG.tsv`. [\u2192 BP \u00a76b]"
+    }
+  ],
+  "AGENTS/HANS/registry/THRESHOLDS.tsv": [
+    {
+      "line": 69,
+      "context": "   - **`AGENTS/HANS/registry/THRESHOLDS.tsv` (HANS-T).** \u26a0\ufe0f **ACTION \u2014 COUNT THE ROWS, NEVER HARDCODE A NUMBER HERE** (14 as of 2026-08-28; it went 12\u219214 inside a single evening and the scannable split m"
+    }
+  ],
+  "AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv": [
+    {
+      "line": 69,
+      "context": "xes: record both, never merge them, never let a quarantine flag suppress a fire.** **CANONICAL \u2014 fire-ledger `AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv`, HANS's single record. Read freely, NEVER mirror.** [\u2192 BP \u00a76b]"
+    }
+  ],
+  "design/THRESHOLD_SCAN.md": [
+    {
+      "line": 70,
+      "context": "6c. **Passive at-boot threshold scan** \u2014 **read `design/THRESHOLD_SCAN.md` WHOLE and execute that authoritative CHECKLIST Phase-2-step-7 procedure ONCE at boot**, regardless of whether dispatches happen. Do not open the whole parent "
+    }
+  ],
+  "design/BOARD_CONSUMPTION_SPEC.md": [
+    {
+      "line": 70,
+      "context": "hin 5% one-sided \u2192 surface as \"near-trigger watch\"; proximity alone is not an automatic fire dispatch. Apply `design/BOARD_CONSUMPTION_SPEC.md` \u00a73.5.3 to decision-changing information, including a new or re-pointed watch.** Name any fire / near-trigger in the boot reply."
+    }
+  ],
+  "/BOARD/INDEX.md": [
+    {
+      "line": 72,
+      "context": "7. **Scan `/BOARD/INDEX.md`** \u2014 cluster ToC first, then drill into clusters with new signals since last session."
+    }
+  ],
+  "design/EVENT_WINDOW_STATE.md": [
+    {
+      "line": 73,
+      "context": "7b. **Read `design/EVENT_WINDOW_STATE.md`** \u2014 **OPEN \u2192 OPEN-window posture** (Phase-2-cluster signals dispatch FLASH; cross-cluster stay normal precedence; **verify-research MANDATORY on extreme-claim"
+    }
+  ],
+  "FORGE/tools/news-sweep/latest.md": [
+    {
+      "line": 74,
+      "context": "7c. ~~**Read cron feeds** (`FORGE/tools/news-sweep/latest.md`, `FORGE/tools/filing-watch/latest.md`, `SIGNALS/inbound.md`)~~ \u2014 **DEAD as of 2026-07-11 (were \"INTERIM/dark\" since 6/28; confirmed permanently superseded, no"
+    }
+  ],
+  "FORGE/tools/filing-watch/latest.md": [
+    {
+      "line": 74,
+      "context": "7c. ~~**Read cron feeds** (`FORGE/tools/news-sweep/latest.md`, `FORGE/tools/filing-watch/latest.md`, `SIGNALS/inbound.md`)~~ \u2014 **DEAD as of 2026-07-11 (were \"INTERIM/dark\" since 6/28; confirmed permanently superseded, not reviving): news-sweep last-ran 2026-"
+    }
+  ],
+  "SIGNALS/inbound.md": [
+    {
+      "line": 74,
+      "context": "7c. ~~**Read cron feeds** (`FORGE/tools/news-sweep/latest.md`, `FORGE/tools/filing-watch/latest.md`, `SIGNALS/inbound.md`)~~ \u2014 **DEAD as of 2026-07-11 (were \"INTERIM/dark\" since 6/28; confirmed permanently superseded, not reviving): news-sweep last-ran 2026-05-17, filing-watch 20"
+    }
+  ],
+  "AGENTS/WALTER/tools/intake_scan.py": [
+    {
+      "line": 76,
+      "context": "ly` (**NEVER push to that repo**). **7e(b)** Run `(cd \"$(git rev-parse --show-toplevel)\" && .venv/bin/python3 AGENTS/WALTER/tools/intake_scan.py)` \u2192 health + NEW-breach worklist (onset-dedup already applied vs `registry/intake_seen.json`). **7e(c) Health:** lane stale >2d / any feed degraded \u2192 surface i"
+    }
+  ],
+  "registry/intake_seen.json": [
+    {
+      "line": 76,
+      "context": "/python3 AGENTS/WALTER/tools/intake_scan.py)` \u2192 health + NEW-breach worklist (onset-dedup already applied vs `registry/intake_seen.json`). **7e(c) Health:** lane stale >2d / any feed degraded \u2192 surface in boot reply + **flag PROME on a collector-death** (exception-only; doctor `intake_liveness`"
+    }
+  ],
+  "intake_scan.py": [
+    {
+      "line": 77,
+      "context": "**7e(e) After routing, run `intake_scan.py --mark`** to reconcile the seen-baseline (drops cleared keys so a clear\u2192re-appear is a fresh onset). **Reconcile w/ step 6c:** the lane is the machine-independ"
+    }
+  ],
+  "inbox/processed/2026-06-29_from-PROME_research-intake-consumer-wiring.md": [
+    {
+      "line": 77,
+      "context": "t alert flags \u2014 the lane evolved past the packet's \u00a74 EIA/CFTC-no-flag gap, so v1 covers all 6.) Provenance: `inbox/processed/2026-06-29_from-PROME_research-intake-consumer-wiring.md` + BOARD_CONSUMPTION_SPEC v0.6 (delivery lane reused). [\u2192 BP \u00a77e]"
+    }
+  ],
+  "AGENTS/WALTER/tools/phone_scan.py": [
+    {
+      "line": 80,
+      "context": "   (cd \"$(git rev-parse --show-toplevel)\" && .venv/bin/python3 AGENTS/WALTER/tools/phone_scan.py)"
+    }
+  ],
+  "RESEARCH-INTAKE/phone_inbox/signal_*.md": [
+    {
+      "line": 82,
+      "context": "   Sweeps `RESEARCH-INTAKE/phone_inbox/signal_*.md` \u2014 signals **Will PUT from his phone** via an iOS Shortcut + the GitHub Contents API (durable transport; **cannot be dropped the way a Telegram message can**, "
+    }
+  ],
+  "phone_scan.py": [
+    {
+      "line": 82,
+      "context": "ery_log`), tagged **`source: phone`**, carrying the `priority` hint (\ud83d\udd34/\ud83d\udfe0/\ud83d\udfe1, default \ud83d\udfe1). **After routing, run `phone_scan.py --mark`.**"
+    }
+  ],
+  "registry/phone_seen.json": [
+    {
+      "line": 84,
+      "context": "   \u26a0\ufe0f **DELIBERATE SPEC DEVIATION (Will-approved 7/27): consumed signals are recorded in `registry/phone_seen.json` on OUR side \u2014 NOT moved to `phone_inbox/processed/` as the original \u00a74 said.** That would require **writing** to RESEARCH-INTAKE, which **7e(a) forbids** (rea"
+    }
+  ],
+  "inbox/2026-07-05_from-PROME_phone-signal-ingestion-design.md": [
+    {
+      "line": 84,
+      "context": "ld need a second PAT. **The lane stays append-only from the phone and read-only to WALTER.** Canonical spec: `inbox/2026-07-05_from-PROME_phone-signal-ingestion-design.md` \u00a75 = the format contract both sides must match. [\u2192 BP \u00a77e]"
+    }
+  ],
+  "AGENTS/*/STATUS.md": [
+    {
+      "line": 86,
+      "context": "ry refresh** \u2014 refresh `REGISTRY.tsv` Status/Updated/Focus from agents' STATUS headers. \ud83d\udd34 **HEADER-ONLY \u2014 39 `AGENTS/*/STATUS.md` \u2248 1.94 MB whole; the `Updated:`/lead block is the entire input.** `READS.tsv`: `scoped` class row. **fs-scan for unregistered dirs:** `(cd \"$(git rev-parse --"
+    }
+  ],
+  "READS.tsv": [
+    {
+      "line": 86,
+      "context": " \ud83d\udd34 **HEADER-ONLY \u2014 39 `AGENTS/*/STATUS.md` \u2248 1.94 MB whole; the `Updated:`/lead block is the entire input.** `READS.tsv`: `scoped` class row. **fs-scan for unregistered dirs:** `(cd \"$(git rev-parse --show-toplevel)\" && for d in AGENTS/*/; do a=$(basename \"$d\"); grep -q \"^$a\"$'\\"
+    },
+    {
+      "line": 91,
+      "context": " a liveness instrument \u2014 it lags a death indefinitely; corroborate with `ListAgents` + desk write-recency.** `READS.tsv` row 104: whole, cross-agent; **(c)** everyone else with unconsumed `action:` items is DARK and is doorbell-eligible per \u00a73.5.7. **Surface in the boot reply: l"
+    }
+  ],
+  "AGENTS/WALTER/REGISTRY.tsv": [
+    {
+      "line": 86,
+      "context": "s:** `(cd \"$(git rev-parse --show-toplevel)\" && for d in AGENTS/*/; do a=$(basename \"$d\"); grep -q \"^$a\"$'\\t' AGENTS/WALTER/REGISTRY.tsv || echo \"NOT IN REGISTRY: $a\"; done)` *(cwd-proofed 2026-07-01 \u2014 from the own-dir launch cwd the old glob matched nothing and reported a FALSE all-clear)*. **L"
+    }
+  ],
+  "LIAISON.md": [
+    {
+      "line": 87,
+      "context": " **Active LIAISON discovery** \u2014 `(cd \"$(git rev-parse --show-toplevel)\" && find AGENTS/*/handoff_WALTER -name LIAISON.md)` *(cwd-proofed 2026-07-01 \u2014 old form silently returned nothing from the own-dir launch cwd)*; for ACTIVE channels (STATUS manifest) with new turns since last "
+    }
+  ],
+  "outbox/REQ-*.md": [
+    {
+      "line": 87,
+      "context": "r open one whole to see if it changed; the STATUS manifest says if it is active. **Outbox queue scan:** list `outbox/REQ-*.md`, then read each matching request WHOLE to establish disposition before treating age as unresolved work. Surface >14d unresolved requests; file age alone is no"
+    }
+  ],
+  "/scripts/corrections_boot_check.py": [
+    {
+      "line": 89,
+      "context": " check (fleet-wide \u2014 FORUM-6 ruling \u2460, Will-approved 2026-08-17):** `python3 \"$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py\" WALTER` \u2014 \u00a79 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the named correction pointer (the complete named packet, or its explicitly addressed"
+    }
+  ],
+  "registry/corrections_receipts.tsv": [
+    {
+      "line": 89,
+      "context": " explicitly addressed section), then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg \u2460, batch Will-approved in-session. \u26a0\ufe0f **Self-referential by construction and that is fine: WALTER OWNS `registr"
+    }
+  ],
+  "registry/CORRECTIONS.tsv": [
+    {
+      "line": 89,
+      "context": "p leg \u2460, batch Will-approved in-session. \u26a0\ufe0f **Self-referential by construction and that is fine: WALTER OWNS `registry/CORRECTIONS.tsv`, the register this check reads \u2014 so a correction WALTER authored can NAME WALTER, and the receipt loop still runs normally. DAEDALUS skipped this desk in the "
+    }
+  ],
+  "PROME/state/ORCH_INFLIGHT.md": [
+    {
+      "line": 91,
+      "context": "erns both routing and the doorbell:** **(a)** `ListAgents` \u2192 who is live in their own window; **(b)** **READ `PROME/state/ORCH_INFLIGHT.md` WHOLE** (~5 KB generated; DOCKET **L262**, 2026-09-04) \u2192 who is **IN-FLIGHT** as a PROME subagent (an open touch \u2014 neither live nor dark; **never doorbell one"
+    }
+  ],
+  "ORCH_LOG.tsv": [
+    {
+      "line": 91,
+      "context": " one**) + the last `drained>0` touch per desk in a 30d window = the **LEG-3b cadence input**. \u26d4 **NEVER read `ORCH_LOG.tsv` (118 KB) for this** \u2014 it stays the ledger of record, not this read. Regenerated under the writer lock \u21d2 it cannot lag; **DO NOT EDIT.** \u26a0\ufe0f **IN-FLIGHT is NOT "
+    }
+  ],
+  "design/STATE.md": [
+    {
+      "line": 93,
+      "context": "**Reference docs (on-demand, NOT at boot):** `design/STATE.md` (design/infra completeness directory); `design/CROSS_REFS/{AGENT}.md` (identifier cache, read at dispatch-time when an agent is on a routing line)."
+    }
+  ],
+  "design/CROSS_REFS/{AGENT}.md": [
+    {
+      "line": 93,
+      "context": "**Reference docs (on-demand, NOT at boot):** `design/STATE.md` (design/infra completeness directory); `design/CROSS_REFS/{AGENT}.md` (identifier cache, read at dispatch-time when an agent is on a routing line)."
+    }
+  ]
+}
