@@ -11,6 +11,8 @@
 
 ## Continuity and undated work
 
+- **Portfolio work — planned September 9:** prepare FFB-RESEARCH as a companion portfolio example to PROME: clearer introduction, one illustrated evidence-to-decision case study, contribution statement and a bounded outcome evaluation. Undated; after urgent broker/owner follow-ups, at the next portfolio-work session. Scope and pickup evidence → [FFB portfolio plan](plans/2026-09-09_ffb-portfolio.md).
+
 - **Boot/presence work delivered:** [boot safeguards](reports/2026-09-09_boot-hardening.md) and [activity pilot](reports/2026-09-09_presence-activity.md), 58 relevant tests passed. PROME can identify this caller; SAM's exact session association remains unresolved. Next tooling step: establish which app/terminal hosts SAM, then verify the exact session association. Will reported both desks open during validation; that is a dated observation. Pending files and desk-named commits are evidence of repository activity, never proof of a live writer. This is an on-demand view, with no background watcher or new launch authority. The optional metadata/state invocation and remaining partial-content/index-only limits live in [SESSION_PILOT](tools/SESSION_PILOT.md).
 
 - **MP-0908 remains pending:** [manual-session/helper progress](reports/2026-09-08_manual-session-helper-progress.md), [approved plan](plans/2026-09-08_manual-session-helper-pilot.md). Existing OSPREY initial message was accepted; recipient permission/recovery checkpoint remains unresolved. Do not resend MP-0908-INITIAL blindly; inspect original-machine/session receipts first. This is separate from the completed review experiment.
