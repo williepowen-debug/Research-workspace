@@ -3,9 +3,11 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 workbook reconciliation closeout | Prior market STATUS commit: 028bb6fd1; later cleanup/audit commits are separate.
+**As of:** 2026-09-09 startup (operator reference 09:47 ET; boot 09:49 ET) | STATUS commit: e9e32dac5
 
-C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced consumer metadata, saved source corrections, trade-excerpt preservation and lesson/index agreement rechecked. Three single-component probes now report PARTIAL_COVERAGE instead of implying complete measurement. [Workbook navigation](workbook/README.md) and [validation](workbook/RECONCILIATION_2026-09-08.json). Batch 2's airline and fixed-November diagnostic findings retain their dates; market levels, incident estimates, holdings and final grades were not refreshed by this workbook pass. BRT-12 original construction/upstream credit, BRT-29 full carrier count and other source gaps remain open.
+C6 SCOPED-PARTIAL startup boundary: current STATUS/TRADE and TERRY XLE card re-read; network boot eight OK plus instrument WARNINGS, corrections register clear. Weekly EIA remains August 28; no complete named-contract curve, new grade or broker receipt adopted. XLE open elapsed, execution still PENDING in read records. OSPREY late terminal/refinery claims remain attributed and deferred for owner/source review; September 15 objection window already recorded. CROSS-DOMAIN/VIEW/CALIBRATION below retain September 8 evidence vintages; no thesis or authority change. [Full boot receipt](research/2026-09-09_boot.md).
+
+Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced consumer metadata, saved source corrections, trade-excerpt preservation and lesson/index agreement rechecked. Three single-component probes now report PARTIAL_COVERAGE instead of implying complete measurement. [Workbook navigation](workbook/README.md) and [validation](workbook/RECONCILIATION_2026-09-08.json). Batch 2's airline and fixed-November diagnostic findings retain their dates; market levels, incident estimates, holdings and final grades were not refreshed by this workbook pass. BRT-12 original construction/upstream credit, BRT-29 full carrier count and other source gaps remain open.
 
 ## CROSS-DOMAIN
 
