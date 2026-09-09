@@ -1,0 +1,46 @@
+{
+  "state": "DIAGNOSTIC",
+  "problems": [],
+  "quotes": {
+    "CLX26.NYM": {
+      "price": 92.29,
+      "prev": 90.19,
+      "chg": 2.328417784676806,
+      "date": "2026-09-09T17:01:30+00:00",
+      "symbol": "CLX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": ""
+    },
+    "BZX26.NYM": {
+      "price": 100.45,
+      "prev": 97.92,
+      "chg": 2.583741830065356,
+      "date": "2026-09-09T17:01:21+00:00",
+      "symbol": "BZX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": ""
+    },
+    "HOX26.NYM": {
+      "price": 4.5789,
+      "prev": 4.4195,
+      "chg": 3.60674284421314,
+      "date": "2026-09-09T17:01:26+00:00",
+      "symbol": "HOX26.NYM",
+      "currency": "USD",
+      "source": "Yahoo regularMarketPrice",
+      "state": "RECENT_QUOTE",
+      "reason": ""
+    }
+  },
+  "spreads_usd_per_bbl": {
+    "WTI_minus_Brent": -8.159999999999997,
+    "ULSD_minus_Brent": 91.86379999999998,
+    "ULSD_minus_WTI": 100.02379999999998
+  },
+  "basis": "Explicit matched delivery month; ULSD USD/gallon \u00d742; timestamped vendor quotes, not settlements.",
+  "limit": "No automatic roll, t-4 comparison, historical BRT-12 reconstruction or original DIESEL-CRACK grade."
+}

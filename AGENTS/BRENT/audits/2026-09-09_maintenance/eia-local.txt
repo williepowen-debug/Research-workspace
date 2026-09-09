@@ -1,0 +1,33 @@
+BRENT EIA Weekly Monitor — retrieved 2026-09-09T17:11:46.614072+00:00
+Source: LOCAL (eia_2026-09-02.md)
+Week ending: 2026-08-28
+Released: 2026-09-02
+Coverage: FINDINGS
+  commercial_crude: +424.460 M bbl; observed 2026-08-28
+  spr: +286.604 M bbl; observed 2026-08-28
+  cushing: +22.508 M bbl; observed 2026-08-28
+  gasoline: +205.669 M bbl; observed 2026-08-28
+  distillate: +104.187 M bbl; observed 2026-08-28
+  util: +98.000 %; observed 2026-08-28
+  commercial_crude_wow: -4.450 M bbl; observed 2026-08-28
+  spr_wow: -3.122 M bbl; observed 2026-08-28
+  cushing_wow: +0.080 M bbl; observed 2026-08-28
+  gasoline_wow: -1.173 M bbl; observed 2026-08-28
+  distillate_wow: +0.796 M bbl; observed 2026-08-28
+  gas_yoy_latest: -1.600 %; observed 2026-08-28
+Gasoline YoY: record only; retired BRT-08 trigger not evaluated; BRT-29 requires owner review.
+SPR: level only; exact current contract/authority unresolved; no universal floor inferred.
+Cushing <20M: UNGRADED — absent or stale dated observation
+Refinery utilization: UNGRADED — absent or stale dated observation
+  FINDINGS: commercial_crude: STALE observation 2026-08-28
+  FINDINGS: spr: STALE observation 2026-08-28
+  FINDINGS: cushing: STALE observation 2026-08-28
+  FINDINGS: gasoline: STALE observation 2026-08-28
+  FINDINGS: distillate: STALE observation 2026-08-28
+  FINDINGS: util: STALE observation 2026-08-28
+  FINDINGS: commercial_crude_wow: STALE observation 2026-08-28
+  FINDINGS: spr_wow: STALE observation 2026-08-28
+  FINDINGS: cushing_wow: STALE observation 2026-08-28
+  FINDINGS: gasoline_wow: STALE observation 2026-08-28
+  FINDINGS: distillate_wow: STALE observation 2026-08-28
+  FINDINGS: gas_yoy_latest: STALE observation 2026-08-28

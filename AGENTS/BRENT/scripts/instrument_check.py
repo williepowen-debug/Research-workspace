@@ -835,6 +835,21 @@ def _cached(key, fn):
     return _PROBE_CACHE[key]
 
 
+def probe_tanker_basket():
+    # Full vendor-quote diagnostic, never a repeated T grade at boot.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from composites import TANKERS, get_prices, tanker_snapshot
+    result = tanker_snapshot(get_prices(TANKERS))
+    if result['problems']:
+        return False, None, '; '.join(result['problems'])
+    stamp = min(datetime.fromisoformat(q['date']) for q in result['quotes'].values())
+    detail = (f"all STNG/FRO/DHT quotes and vendor previous closes present; "
+              f"max absolute move {result['max_absolute_percent']:.3f}%; "
+              f"at/after-14:00 window {'OPEN' if result['window_open'] else 'NOT OPEN'}; "
+              "DIAGNOSTIC ONLY, no day-0/gate grade or re-poll authority")
+    return True, stamp, detail
+
+
 def evaluate(row, quick=False):
     probe = (row.get("probe") or "").strip()
     findings = []
@@ -855,7 +870,7 @@ def evaluate(row, quick=False):
     if scope == "component_only":
         add(AMBER, "PARTIAL_COVERAGE",
             "probe checks one component only; full paired/composite measurement remains unverified")
-    elif scope:
+    elif scope and not (scope == "all_components" and probe == "basket:STNG,FRO,DHT"):
         add(AMBER, "UNKNOWN_PROBE_SCOPE", f"unrecognized coverage declaration {scope!r}; coverage unverified")
 
     detail = ""
@@ -867,7 +882,10 @@ def evaluate(row, quick=False):
     elif quick:
         add(AMBER, "SKIPPED", "network probe skipped (--quick)")
     else:
-        if probe.startswith("yf:"):
+        if probe == "basket:STNG,FRO,DHT":
+            ok, last_dt, detail = _cached(probe, probe_tanker_basket)
+            add(AMBER, "OWNER_GRADE_REQUIRED", "complete T components only; grade once at/after 14:00 ET under BE-04 through BE-12; C and close veto remain separate")
+        elif probe.startswith("yf:"):
             need_intra = needs_same_session(row)
             ok, last_dt, detail = _cached((probe, need_intra), lambda: probe_yf(probe[3:], want_intraday=need_intra))
         elif probe.startswith("fred:"):

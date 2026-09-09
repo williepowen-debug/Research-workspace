@@ -369,7 +369,7 @@ def main():
         print(f"\n  🟠 {len(warnings)} check(s) reported advisory warnings; inspect the dated evidence. "
               "Warnings do not block or authorize a trade.")
     if findings:
-        print(f"\n  🔴 {len(findings)} check(s) reported BLOCKING FINDINGS (script ran fine — the SPEC is the problem):")
+        print(f"\n  🔴 {len(findings)} check(s) reported FINDINGS (checks ran; inspect data, coverage, source or rule diagnostics):")
         for label, _, _ in findings:
             print(f"     • {label}")
     if failures:
@@ -393,7 +393,7 @@ def main():
         # rc contract: 0 = clean · 2 = ran fine, blocking findings · 1 = a script broke.
         if findings:
             print(f"\n  🔴 BOOT COMPLETED WITH {len(findings)} BLOCKING FINDING(S). "
-                  f"Scripts all RAN — the SPEC/state is the problem. rc=2.")
+                  f"Scripts all RAN; inspect the named findings and their evidence. rc=2.")
             print(f"     ⛔ This is NOT a clean boot. Do not read the run as green.")
             print(f"\n  Tip: run with --verbose to see full output for each script.")
             return 2

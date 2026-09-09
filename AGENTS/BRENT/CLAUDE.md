@@ -29,13 +29,13 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
    > 📖 *Rationale: decision record § R-2026-08-17-2b (not a boot read; unlinked deliberately).*
 3. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 4. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
-5. **Run `scripts/boot.py`** — the ONE command. ~45s.
+5. **Run `scripts/boot.py`** — the ONE command. Runtime depends on feed latency.
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/BRENT/scripts/boot.py)
    ```
    **It runs every check in `boot.py`'s `BOOT_SEQUENCE` list — READ THE SUMMARY TABLE IT PRINTS. ⛔ No count is written here; one was, and it rotted.**** Read its output. `--verbose` for full detail.
    **Statuses: `OK` · `WARNINGS` (advisory; rc=0, not an all-clear) · `FINDINGS` (ran, found problems; rc=2) · `FAIL` (check broke; rc=1).** Never interchangeable.
-   **Web-search only for narrative/headline catalysts the kit does not cover.** Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed — the auto-scan intentionally skips event-conditional rows ("Within X of <event>"), **and it is structurally blind to rows marked STUCK, which can therefore never come due.**
+   **Web-search only for narrative/headline catalysts the kit does not cover.** Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed — the scan now honors explicit outer bounds and surfaces the unresolved BRT-29 M sub-deadline. Event preconditions and other internal sub-deadlines still need owner review; STUCK rows remain outside the OPEN scan. A sub-obligation alert is not a final grade.
 
    > #### 🔧 Standalone re-runs — *reference only; boot already ran all of these.*
    > `lessons_check.py` · `--prose` (index↔prose drift) · `--concept <tag>` (**before** drafting a gate) · `--spec <file>` (**after**) · `instrument_check.py [--quick|--id <TEST>|--json]` · `thresholds.py` · `cot_grade.py --expect <YYYY-MM-DD>`.
@@ -154,7 +154,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `BRT-xx` (e.g., `BRT-01`, `BRT-04`). No bare numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HAWK owns military ops, HENRY owns VIX), reference their value with `[CONF HAWK Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
-- ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET, not a line count** (`scripts/read_cap_check.py --agent BRENT`). Archive overflow to **`archive/`** — the destination actually in use since the 2026-09-07 rule-19 rotation (`archive/STATUS_DETAIL_YYYY-MM.md` for dated detail, `archive/STATUS_dated_*.md` for whole blocks), verbatim + crc. ⚠️ **`workbook/STATUS_archive_*.md` is the HISTORICAL set — 11 files, still linked from STATUS; leave them where they are, do not add to them.** *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
+- ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET, not a line count** (`scripts/read_cap_check.py --agent BRENT`). Archive overflow to **`archive/`** — the destination actually in use since the 2026-09-07 rule-19 rotation (`archive/STATUS_DETAIL_YYYY-MM.md` for dated detail, `archive/STATUS_dated_*.md` for whole blocks), verbatim + crc. ⚠️ **`workbook/STATUS_archive_*.md` is the HISTORICAL set — still linked from STATUS; leave them where they are, do not add to them.** *(Prior nonexistent archive-path failure → `RULINGS.md` § R-2026-09-09-maintenance.)*
 - Separate FACTS (what happened) from ASSESSMENT (what it means for price/positioning).
 - Price levels always include: spot, structure (contango/backwardation), and key spreads.
 
@@ -191,15 +191,15 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 > ⛔ **THE TABLE THAT STOOD HERE IS RETIRED 2026-09-07 (DAEDALUS C7, Will-authorised architecture work). CANONICAL TOPOLOGY = [`AGENTS/_NETWORK.md`](../_NETWORK.md); on any disagreement `_NETWORK.md` WINS** (root `CLAUDE.md` § Transmission chain says so in terms: *"do not reconstruct routes here or in any other mirror"*).
 
-> ★ **WHY IT WENT, and it is not tidiness — MEASURED 2026-09-07: the table listed 8 routes and OMITTED BOTH `FALCON` AND `OSPREY`, while this desk packeted FALCON TWICE on 2026-09-07 (the Kylo/GATE-2 inputs and the war-risk-split answer) and tracks OSPREY's weekly Russian-seaborne print as a dated NEXT-SESSION item.** ⇒ **The desk was running live on two routes its own charter did not know about.** A hand-copied mirror of a canonical topology does not drift loudly; it drifts by OMISSION, and an omission is exactly what a reader cannot see. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` *(Retired rows preserved verbatim in [`RULINGS.md`](RULINGS.md) § C7.)*
+> 📖 Network-mirror retirement rationale → [`RULINGS.md`](RULINGS.md) § R-2026-09-09-maintenance.
 
 ---
 
 ## KEY THRESHOLDS
 
-> # ➡️ **CANONICAL MACHINE STATE = [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv)** — every registered test's level + instrument, graded every boot by `thresholds.py`, probed by `instrument_check.py`. **CANONICAL PROSE = `thesis/THESIS.md` § KEY THRESHOLDS** (what each metric MEANS and why its level was chosen; it holds **no** live state). **DO NOT RE-CREATE A TABLE IN THIS FILE.**
+> # ➡️ **CANONICAL MACHINE STATE = [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv)** — every registered test's level + instrument. `thresholds.py` reads registered price/FRED levels; other tests retain their own readers and owner grades. `instrument_check.py` probes coverage. **CANONICAL PROSE = `thesis/THESIS.md` § KEY THRESHOLDS** (what each metric MEANS and why its level was chosen; it holds **no** live state). **DO NOT RE-CREATE A TABLE IN THIS FILE.**
 > **F3, Will-ruled 2026-07-31:** this file used to carry a SECOND table and the two had silently diverged in both directions — boot read one, the enforcer read the other. **One table, one home, boot reads the pointer.**
-> ⛔ **This pointer was itself STALE 2026-07-31 → 2026-08-04** — the F3 ruling fixed ownership ONCE, the RAV pilot moved the answer to `REGISTRY.tsv`, and nothing re-asked the question. **A pointer that was correct when written is the hardest stale surface to see.** 📖 Full account → [`RULINGS.md`](RULINGS.md) § R-2026-08-04.
+> 📖 Prior stale-pointer failure → `RULINGS.md` § R-2026-08-04.
 
 > 📖 **DATED RECORD — what the retired KEY THRESHOLDS table held and where each row went (F3/F4, Will-ruled 2026-07-31), incl. the retirements of `Gasoline crack >$30` (permanently breached ⇒ decoration) and `VLCC rate >WS200` (never measurable — no Worldscale feed) → [`RULINGS.md`](RULINGS.md) § F3/F4.** ⚠️ **Both stay RETIRED: a re-instatement is a NEW registration with base rates, never a re-level.**
 

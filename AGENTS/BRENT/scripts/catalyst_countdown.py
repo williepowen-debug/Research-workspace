@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 BRENT Catalyst Countdown
-Reads docket/CATALYSTS.tsv and shows trading-day countdown to each event.
-Flags anything within 5 trading days. Highlights 🔴 priority events within horizon.
+Reads docket/CATALYSTS.tsv and shows weekday countdown to each event.
+Flags anything within 5 weekdays. Highlights 🔴 priority events within horizon.
 
 Usage:
   .venv/bin/python3 AGENTS/BRENT/scripts/catalyst_countdown.py
@@ -34,9 +34,10 @@ def load_catalysts():
     return catalysts
 
 
-def trading_days_between(start_date, end_date):
+def weekdays_between(start_date, end_date):
     if end_date <= start_date:
         return 0
+    # Weekdays only; holidays are not excluded. This is not an exchange calendar.
     days = 0
     current = start_date + timedelta(days=1)
     while current <= end_date:
@@ -58,6 +59,7 @@ def main():
 
     print(f"\n{'='*72}")
     print(f"  BRENT Catalyst Countdown — {now}  ({horizon}-day horizon)")
+    print("  Weekday count excludes weekends only; holidays are included.")
     print(f"  {'~'} prefix = modeled/projected date (not source-confirmed; may revise)")
     print(f"{'='*72}")
 
@@ -72,7 +74,7 @@ def main():
 
     for c in catalysts:
         try:
-            edate = datetime.strptime(c["date"], "%Y-%m-%d").date()
+            edate = datetime.strptime(c["date"].lstrip("~"), "%Y-%m-%d").date()
         except (ValueError, KeyError):
             continue
         if edate < today:
@@ -92,21 +94,21 @@ def main():
     imminent = []
     later = []
     for edate, c in upcoming:
-        trd = trading_days_between(today, edate)
+        trd = weekdays_between(today, edate)
         if trd <= 5:
             imminent.append((edate, c, trd))
         else:
             later.append((edate, c, trd))
 
     if imminent:
-        print(f"\n  🔴 IMMINENT (≤5 trading days)")
+        print(f"\n  🔴 IMMINENT (≤5 weekdays)")
         print(f"  {'-'*68}")
         for edate, c, trd in imminent:
             pri = c.get("priority", "").strip() or "  "
             cal_days = (edate - today).days
             day_of_week = edate.strftime("%a")
             marker = "~" if c.get("date_class", "").strip() == "modeled" else " "
-            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d trd  {c.get('event', '')}")
+            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>2}d cal / {trd:>2}d weekday  {c.get('event', '')}")
             check = c.get("what_to_check", "")
             if check:
                 print(f"       ↳ check: {check}")
@@ -128,7 +130,7 @@ def main():
             if len(event) > 48:
                 event = event[:45] + "..."
             marker = "~" if c.get("date_class", "").strip() == "modeled" else " "
-            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d trd  {event}")
+            print(f"  {pri} {marker}{edate.strftime('%Y-%m-%d')} ({day_of_week})  {cal_days:>3}d cal / {trd:>3}d weekday  {event}")
 
     high_pri = [x for x in upcoming if "🔴" in x[1].get("priority", "")]
     if high_pri:

@@ -26,11 +26,11 @@ running it at the print:
 
 SPEC IMPLEMENTED HERE IS THE FROZEN, WILL-RULED ONE, COPIED FROM `workbook/REGISTRY.tsv`
 (row COT-FUEL-35B; build: setups/2026-08-12_35b-COT-successor-band-N1-build.md):
-    base 122,904 = trailing-8wk median (2026-06-16..2026-08-04)   [context, not graded]
+    base 122,904.5 = trailing-8wk median (2026-06-16..2026-08-04)   [context, not graded]
     median_unit  = 9,160  FROZEN  (basis n=235, 2022-02-08..2026-08-04)
-    Leg A  : MM gross shorts <= 113,745                       => SPENT
+    Leg A  : MM gross shorts <= 109,164                       => SPENT
              NO-VERDICT deadband 109,165 .. 118,325           (bar +/- 0.5 median unit)
-             shorts > 118,325                                 => NOT-SPENT
+             shorts >= 118,326                                => NOT-SPENT
     Leg B  : OI-share = MM gross shorts / Open Interest * 100
              <= 4.909% => SPENT, else NOT-SPENT.  LEG B IS GATING.
     VERDICT: both legs must AGREE; disagreement => NO-VERDICT.

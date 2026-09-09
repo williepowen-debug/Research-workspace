@@ -58,6 +58,8 @@ class Reporting(unittest.TestCase):
                     self.assertNotIn('All scripts completed successfully', output)
                 if state == 'WARNINGS':
                     self.assertIn('ADVISORY WARNINGS', output)
+                if state == 'FINDINGS':
+                    self.assertNotIn('SPEC/state is the problem', output)
 
 
 class IncidentQuantity(unittest.TestCase):

@@ -1,0 +1,14 @@
+{
+  "checked_documents": [
+    "CLAUDE.md",
+    "STATUS.md",
+    "SCRATCH.md",
+    "SCHEDULED_RUNS.md",
+    "demand_destruction/TRACKER.md",
+    "docket/FASTOW_MEMORY.md",
+    "audits/2026-09-09_maintenance/REPORT.md",
+    "audits/2026-09-09_maintenance/ROUTINE_UPDATE.md"
+  ],
+  "missing": [],
+  "scope": "Explicit local Markdown targets in eight touched active documents; anchors and verbatim archives not checked."
+}

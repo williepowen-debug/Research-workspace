@@ -15,7 +15,7 @@ Key metrics tracked:
   - Commercial crude stocks (WoW change)
   - Cushing stocks (<20M = operational minimum / WTI dislocation = ROUTING Boundary #3)
   - SPR level
-  - Gasoline stocks + 4-wk YoY demand (-5% = Phase 2 Trigger #2)
+  - Gasoline stocks + 4-wk YoY product-supplied proxy (record only)
   - Distillate stocks
   - Refinery utilization (>95% = crack squeeze territory)
 
@@ -26,9 +26,11 @@ Usage:
 """
 
 import os
+import math
+import csv
 import re
 import sys
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 BRENT_DIR = Path(__file__).resolve().parent.parent
@@ -54,30 +56,37 @@ EIA_SERIES = {
     "distillate":       ("WDISTUS1",              "petroleum/stoc/wstk", 0.001, True),
     "util":             ("WPULEUS3",              "petroleum/pnp/wiup",  1.0,   False),  # already %
 }
-# Finished motor gasoline product supplied (kbpd) — for the 4-wk YoY demand proxy (Trigger #2).
+# Finished motor gasoline product supplied (kbpd) — for the 4-wk YoY demand proxy (record only).
 GAS_SUPPLIED_SERIES = ("WGFUPUS2", "petroleum/cons/wpsup")
 
 # Thresholds
 CUSHING_MIN = 20.0          # M bbl — operational minimum / WTI dislocation
 CUSHING_WATCH = 25.0        # M bbl — approaching minimum
 UTIL_SQUEEZE = 95.0         # % — crack squeeze territory
-GAS_YOY_PHASE2 = -5.0       # % — Phase 2 demand destruction trigger
-SPR_FLOOR = None            # ⛔ RETIRED 2026-08-07 BY WILL RULING — F4 permanently-breached class.
-#   ⚑ LABELLED 2026-08-07 (BRENT) — this and THESIS's 252.4M are TWO DIFFERENT OBJECTS, not a
-#   conflict: 252.4M is the §6241 STATUTORY minimum; 400.0 is an operational watch line. The
-#   147.6M gap was two questions wearing one word. Both are correct; both are now labelled.
-#   ⚠️ AND THIS LINE IS CURRENTLY DECORATION: SPR is 304.8M, so 400.0 is PERMANENTLY BREACHED
-#   and fires red at every boot — the same F4 disease Will retired `crack >$30` for on 7/31.
-#   NOT retired unilaterally: this file's hardcoded levels are the WP3 registry-consumer
-#   residual and that is Will's call. Flagged in THESIS §KEY THRESHOLDS. supersedes: none.
+# The old SPR operational ladder and gasoline Phase-2 trigger are retired.
+# Existing monitoring readers below retain observations, never revive those rules.
+
+
+def parse_date(value):
+    if not value:
+        return None
+    for fmt in ("%Y-%m-%d", "%B %d, %Y", "%b %d, %Y", "%A, %B %d, %Y"):
+        try:
+            return datetime.strptime(value.strip(), fmt).date()
+        except (ValueError, AttributeError):
+            pass
+    return None
 
 
 def find_latest_eia_file():
-    """Find most recent eia_YYYY-MM-DD.md file."""
-    if not EIA_DATA_DIR.exists():
-        return None
-    files = sorted(EIA_DATA_DIR.glob("eia_*.md"))
-    return files[-1] if files else None
+    """Latest dated numerical report; publication notices are not observations."""
+    candidates = []
+    for path in EIA_DATA_DIR.glob("eia_*.md"):
+        metrics = extract_metrics(path.read_text())
+        observed = parse_date(metrics.get("week_ending"))
+        if observed and any(key in metrics for key in EIA_SERIES):
+            candidates.append((observed, path.name, path))
+    return max(candidates)[2] if candidates else None
 
 
 def extract_metrics(text):
@@ -248,6 +257,44 @@ def extract_metrics(text):
         if m:
             metrics["report_date"] = m.group(1)
 
+    # September consolidated report: current/prior/WoW columns, never prose
+    # mentions of older values. Modern report header is ISO-dated.
+    modern = re.search(r"(?im)^# .*Week Ending (\d{4}-\d{2}-\d{2})\s*$", text)
+    if modern:
+        metrics = {"week_ending": modern.group(1)}
+        released = re.search(r"\*\*Released:\*\*\s*(\d{4}-\d{2}-\d{2})", text)
+        if released:
+            metrics["report_date"] = released.group(1)
+        labels = {"commercial crude (excl spr)": "commercial_crude", "cushing, ok": "cushing",
+                  "spr": "spr", "total motor gasoline": "gasoline",
+                  "distillate fuel oil": "distillate", "refinery utilization": "util"}
+        for line in text.splitlines():
+            if not line.startswith("|"):
+                continue
+            cells = [cell.replace("**", "").strip() for cell in line.strip("|").split("|")]
+            if len(cells) < 4:
+                continue
+            key = labels.get(cells[0].lower())
+            if key:
+                unit = "%" if key == "util" else "M"
+                current = re.match(r"([+−-]?[\d,.]+)" + unit, cells[1])
+                if current:
+                    metrics[key] = float(current.group(1).replace(",", "").replace("−", "-"))
+                if key != "util":
+                    wow = re.match(r"([+−-]?[\d,.]+)M", cells[3])
+                    if wow:
+                        metrics[key + "_wow"] = float(wow.group(1).replace(",", "").replace("−", "-"))
+            if cells[0].lower() == "motor gasoline product supplied (4-wk avg)" and len(cells) >= 6:
+                yoy = re.match(r"([+−-]?[\d.]+)%", cells[5])
+                if yoy:
+                    metrics["gas_yoy_latest"] = float(yoy.group(1).replace("−", "-"))
+    observed = parse_date(metrics.get("week_ending"))
+    if observed:
+        metrics["week_ending"] = observed.isoformat()
+        metrics["dates"] = {k: observed.isoformat() for k in metrics if isinstance(metrics[k], (int, float))}
+    released = parse_date(metrics.get("report_date"))
+    if released:
+        metrics["report_date"] = released.isoformat()
     return metrics
 
 
@@ -272,202 +319,165 @@ def status_for_util(val):
 
 
 def status_for_gas_yoy(val):
-    if val is None:
-        return "⚪", "unknown"
-    if val <= GAS_YOY_PHASE2:
-        return "🔴", f"≤{GAS_YOY_PHASE2}% — PHASE 2 DEMAND DESTRUCTION TRIGGER"
-    if val < 0:
-        return "🟠", "negative YoY — first soft signal"
-    return "🟢", "positive — hoarding window / no destruction"
+    return "⚪", "UNKNOWN — no complete comparison" if val is None else "record only; retired BRT-08 trigger is not evaluated"
 
 
 def status_for_spr(val):
-    """SPR readout — DESCRIPTIVE ONLY. No alert level. (Will ruling 2026-08-07.)
+    return "⚪", "UNKNOWN" if val is None else "level only; exact current contract/authority unresolved; no universal statutory floor inferred"
 
-    ⛔ THE WHOLE OPERATIONAL ALERT LADDER IS RETIRED, NOT JUST THE 400.0 RED.
-    Will ruled the 400.0M watch line out as F4 (permanently breached => alerts on nothing
-    in either direction), same class as `crack >$30` and `VLCC >WS200`. Implementing that
-    ruling exposed a SECOND hardcoded level one line below it — `val < 420` -> amber —
-    which is the SAME OBJECT at a different number and is ALSO permanently breached
-    (SPR 304.8M). Retiring only the red would have DEMOTED a permanent alert to a permanent
-    amber and let me record the ruling as executed while the decoration survived.
-    `[[finding_record_of_an_action_is_not_the_action]]`
 
-    ⚑ I EXTENDED THE RULING BY ONE LEVEL AND FLAGGED IT rather than doing it silently:
-    Will ruled on "the 400.0M row"; I am also retiring the 420 amber because it is the same
-    permanently-breached watch under a different constant. Reversible in one line if Will
-    disagrees — the levels are recorded in the retired registry row SPR-OPERATIONAL-400.
+REQUIRED = tuple(EIA_SERIES) + tuple(k + "_wow" for k, v in EIA_SERIES.items() if v[3]) + ("gas_yoy_latest",)
 
-    WHAT SURVIVES: the LEVEL and the WoW change are still printed every boot. Retiring an
-    alert is not retiring the observation. A real SPR tripwire = a NEW REGISTRATION with a
-    level base-rated against the current regime. The §6241 STATUTORY floor (252.4M) is a
-    DIFFERENT OBJECT and stays live in THESIS §KEY THRESHOLDS.
-    """
-    if val is None:
-        return "⚪", "unknown"
-    return "⚪", "level only — operational alert ladder RETIRED 2026-08-07 (F4); statutory floor 252.4M is separate and live"
+
+def dated_values(rows):
+    """Keep invalid/missing observations as holes; reject conflicting duplicates."""
+    values = {}
+    conflicts = set()
+    for row in rows or []:
+        when = parse_date(row.get("date"))
+        if when is None:
+            continue
+        try:
+            val = float(row["value"])
+            if not math.isfinite(val):
+                val = None
+        except (ValueError, TypeError, KeyError):
+            val = None
+        if when in conflicts or (when in values and values[when] != val):
+            conflicts.add(when)
+            values[when] = None
+        else:
+            values[when] = val
+    return values
+
+
+def gas_comparison(values, when):
+    current = [when - timedelta(weeks=i) for i in range(4)]
+    prior = [d - timedelta(weeks=52) for d in current]
+    if any(values.get(d) is None for d in current + prior):
+        return None
+    base = sum(values[d] for d in prior)
+    return (sum(values[d] for d in current) / base - 1) * 100 if base > 0 else None
 
 
 def fetch_live_metrics():
-    """Pull the headline WPSR series live from the EIA v2 API via FORGE's eia_fetch.
-
-    Returns a metrics dict in the SAME shape as extract_metrics() (so main()'s
-    print/status logic is identical), or None if live access is unavailable.
-    The 'gasoline' series WoW maps to the printer's 'gasoline_wow'; the gasoline
-    4-wk YoY DEMAND proxy ('gas_yoy_latest') is computed from product supplied.
-    """
+    """Retrieve per-metric dates and required comparisons; never fill holes."""
     if not HAVE_FORGE or not getattr(_forge, "EIA_API_KEY", ""):
         return None
-    m = {}
+    metrics = {"dates": {}, "errors": []}
     for key, (sid, route, mult, want_wow) in EIA_SERIES.items():
-        rows = _forge.eia_fetch(sid, route=route, limit=2)
-        if not rows or (isinstance(rows[0], dict) and "error" in rows[0]):
+        try:
+            values = dated_values(_forge.eia_fetch(sid, route=route, limit=2))
+        except Exception as exc:
+            metrics["errors"].append(f"{key}: {type(exc).__name__}")
             continue
-        vals = [float(r["value"]) for r in rows if r.get("value") is not None]
-        if not vals:
+        if not values:
             continue
-        m[key] = vals[0] * mult
-        if want_wow and len(vals) >= 2:
-            m[f"{key}_wow"] = (vals[0] - vals[1]) * mult
-        if key == "cushing":
-            m["week_ending"] = rows[0]["date"]
-
-    # gasoline 4-wk YoY demand (Trigger #2) from product-supplied, newest-first
-    rows = _forge.eia_fetch(*GAS_SUPPLIED_SERIES, limit=60)
-    gv = [float(r["value"]) for r in rows if r.get("value") is not None]
-    if len(gv) >= 56:
-        cur4, yago4 = sum(gv[0:4]) / 4, sum(gv[52:56]) / 4
-        if yago4:
-            m["gas_yoy_latest"] = (cur4 / yago4 - 1) * 100.0
-
-    if not m:
+        when = max(values)
+        val = values[when]
+        if val is None:
+            continue
+        metrics[key] = val * mult
+        metrics["dates"][key] = when.isoformat()
+        previous = values.get(when - timedelta(weeks=1))
+        if want_wow and previous is not None:
+            metrics[key + "_wow"] = (val - previous) * mult
+            metrics["dates"][key + "_wow"] = when.isoformat()
+    try:
+        values = dated_values(_forge.eia_fetch(GAS_SUPPLIED_SERIES[0], route=GAS_SUPPLIED_SERIES[1], limit=60))
+        if values:
+            when = max(values)
+            result = gas_comparison(values, when)
+            if result is not None:
+                metrics["gas_yoy_latest"] = result
+                metrics["dates"]["gas_yoy_latest"] = when.isoformat()
+    except Exception as exc:
+        metrics["errors"].append(f"gas_yoy_latest: {type(exc).__name__}")
+    dates = set(metrics["dates"].values())
+    if not dates:
         return None
-    m["report_date"] = "LIVE pull (EIA v2 API)"
-    return m
+    if len(dates) == 1:
+        metrics["week_ending"] = next(iter(dates))
+    return metrics
+
+
+def observation_budget():
+    """Use the existing weekly EIA observation budget; do not change its level."""
+    path = BRENT_DIR / "workbook/REGISTRY.tsv"
+    rows = csv.DictReader([l for l in path.read_text().splitlines() if l and not l.startswith("#")], delimiter="\t")
+    return int(next(r for r in rows if r["test_id"] == "CUSHING-20M")["max_stale_days"])
+
+
+def coverage(metrics, today=None):
+    today = today or date.today()
+    issues = ["missing " + k for k in REQUIRED if metrics.get(k) is None]
+    dates = metrics.get("dates", {})
+    seen = set()
+    for key in REQUIRED:
+        if metrics.get(key) is None:
+            continue
+        when = parse_date(dates.get(key))
+        if when is None:
+            issues.append(key + ": observation date UNKNOWN")
+        else:
+            seen.add(when)
+            if when > today:
+                issues.append(key + ": future observation")
+            elif (today - when).days > observation_budget():
+                issues.append(key + ": STALE observation " + when.isoformat())
+    if len(seen) > 1:
+        issues.append("mixed observation weeks; no synchronized report")
+    return issues
 
 
 def main():
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    print(f"\n{'='*72}")
-    print(f"  BRENT EIA Weekly Monitor — {now}")
-    print(f"{'='*72}")
-
-    force_local = "--local" in sys.argv
-    force_live = "--live" in sys.argv
-
-    m = None
-    source = ""
-    if force_live or not force_local:
-        m = fetch_live_metrics()
-        if m:
-            source = "🟢 LIVE (EIA v2 API)"
-        elif force_live:
-            print(f"\n  ❌ --live requested but EIA key / FORGE module unavailable.")
-            return 1
-
-    if not m:
+    now = datetime.now(timezone.utc)
+    print(f"BRENT EIA Weekly Monitor — retrieved {now.isoformat()}")
+    force_local, force_live = "--local" in sys.argv, "--live" in sys.argv
+    if force_local and force_live:
+        print("Choose --local or --live, not both")
+        return 1
+    metrics = None if force_local else fetch_live_metrics()
+    kind = "API"
+    source = "EIA v2 API; retrieval time is not release time"
+    if metrics is None:
+        if force_live:
+            print("FINDINGS: --live unavailable or no valid dated observations; no local substitution")
+            return 2
         latest = find_latest_eia_file()
         if latest is None:
-            print(f"\n  ❌ No live EIA access and no data files in {EIA_DATA_DIR}")
-            print(f"  Set EIA_API_KEY in FORGE/.env for live, or add an eia_YYYY-MM-DD.md.")
-            return 1
-        mtime = datetime.fromtimestamp(latest.stat().st_mtime)
-        age_days = (datetime.now() - mtime).days
-        age_icon = "🟢" if age_days <= 3 else "🟠" if age_days <= 7 else "🔴"
-        source = f"{age_icon} LOCAL ({latest.name}, {age_days}d old)"
-        with open(latest) as f:
-            m = extract_metrics(f.read())
-        if not m:
-            print(f"\n  ⚠️  Could not extract metrics from {latest.name} (format mismatch).")
-            return 1
-
-    print(f"\n  Source: {source}")
-    print(f"  Week ending:   {m.get('week_ending', 'unknown')}")
-    print(f"  Released:      {m.get('report_date', 'unknown')}")
-
-    # Key metrics
-    print(f"\n  HEADLINE METRICS")
-    print(f"  {'-'*64}")
-
-    val = m.get("commercial_crude")
-    wow = m.get("commercial_crude_wow")
-    if val is not None:
-        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
-        print(f"  Commercial crude:  {val:>7.1f}M bbl{wow_str}")
-
-    val = m.get("cushing")
-    wow = m.get("cushing_wow")
-    icon, note = status_for_cushing(val)
-    if val is not None:
-        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
-        print(f"  {icon} Cushing:         {val:>7.2f}M bbl{wow_str}  — {note}")
-        if wow is not None and wow < 0 and val is not None:
-            weeks_to_floor = (val - CUSHING_MIN) / abs(wow)
-            print(f"              At current pace: {weeks_to_floor:.1f} weeks to {CUSHING_MIN}M floor")
-
-    val = m.get("spr")
-    wow = m.get("spr_wow")
-    icon, note = status_for_spr(val)
-    if val is not None:
-        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
-        print(f"  {icon} SPR:             {val:>7.1f}M bbl{wow_str}  — {note}")
-
-    val = m.get("distillate")
-    wow = m.get("distillate_wow")
-    if val is not None:
-        wow_str = f"  ({wow:+.2f}M WoW)" if wow is not None else ""
-        print(f"  Distillate:        {val:>7.1f}M bbl{wow_str}")
-
-    wow = m.get("gasoline_wow")
-    yoy = m.get("gas_yoy_latest")
-    icon, note = status_for_gas_yoy(yoy)
-    if wow is not None:
-        print(f"  Gasoline stocks:   {wow:+.2f}M bbl WoW")
-    if yoy is not None:
-        print(f"  {icon} Gas demand YoY:  {yoy:+.2f}%                     — {note}")
-
-    val = m.get("util")
-    icon, note = status_for_util(val)
-    if val is not None:
-        print(f"  {icon} Refinery util:   {val:>7.1f}%                     — {note}")
-
-    # Path B trigger status
-    print(f"\n  PATH B TRIGGER STATUS (demand destruction)")
-    print(f"  {'-'*64}")
-    gas_trigger = yoy is not None and yoy <= GAS_YOY_PHASE2
-
-    # ⛔⛔ FIXED 2026-09-07 (CODEX review, Will-approved). THIS LINE READ:
-    #     cushing_trigger = val is not None and m.get("cushing", 100) < CUSHING_MIN
-    # `val` is REASSIGNED down this whole print block and holds m.get("util") by the time it
-    # reaches here (line ~429). So the Cushing trigger was gated on REFINERY UTILIZATION: if
-    # util was missing, cushing_trigger went False NO MATTER WHAT CUSHING DID, and the board
-    # printed "⚪ not breached" over a real breach.
-    # ⚠️ SEVERITY: Cushing <20M is not decorative — it is the registered CUSHING-20M threshold
-    # that RE-ACTIVATES Routing Boundary #3 (WALTER IMMEDIATE -> LIQUID/HENRY/RED). A live
-    # routing trigger was suppressible by an unrelated absent field.
-    # ★ WHY IT SURVIVED: `val is not None` LOOKS like the right guard and reads as deliberate
-    # care. Nothing about the line is syntactically odd; only the BINDING is wrong, and a
-    # reused loop-style variable makes the wrong binding invisible at the point of use.
-    # [[finding_guard_pointed_at_another_desks_surface_inherits_its_workflow]] (same class:
-    # a guard that names the wrong referent), [[finding_silent_blank_evades_review]].
-    cushing_val = m.get("cushing")
-    cushing_trigger = cushing_val is not None and cushing_val < CUSHING_MIN
-
-    print(f"  Trigger #2 (Gas YoY ≤ -5%):  {'🔴 FIRED' if gas_trigger else '⚪ not fired'}")
-    if cushing_val is None:
-        # Fail LOUD. The old default of 100 made a MISSING reading indistinguishable from a
-        # comfortable one — "not breached" is a claim, and we cannot make it without the datum.
-        print(f"  Cushing < 20M:               ⚪ UNGRADED — no Cushing reading in this pull. "
-              f"NOT a 'not breached': the datum is absent, so no verdict exists.")
+            print("FINDINGS: no dated numerical local report available")
+            return 2
+        kind, source = "LOCAL", latest.name
+        metrics = extract_metrics(latest.read_text())
+    issues = coverage(metrics, today=now.date())
+    print(f"Source: {kind} ({source})")
+    print(f"Week ending: {metrics.get('week_ending', 'MIXED / UNKNOWN — see each metric')}")
+    print(f"Released: {metrics.get('report_date', 'UNKNOWN — API observation dates below')}")
+    print(f"Coverage: {'FINDINGS' if issues else 'COMPLETE dated observations'}")
+    for key in REQUIRED:
+        value = metrics.get(key)
+        unit = '%' if key in ('util', 'gas_yoy_latest') else 'M bbl'
+        shown = 'UNKNOWN' if value is None else f'{value:+.3f} {unit}'
+        print(f"  {key}: {shown}; observed {metrics.get('dates', {}).get(key, 'UNKNOWN')}")
+    print("Gasoline YoY: record only; retired BRT-08 trigger not evaluated; BRT-29 requires owner review.")
+    print("SPR: level only; exact current contract/authority unresolved; no universal floor inferred.")
+    cushing = metrics.get('cushing')
+    when = parse_date(metrics.get('dates', {}).get('cushing'))
+    eligible = when is not None and 0 <= (now.date() - when).days <= observation_budget()
+    if cushing is None or not eligible:
+        print("Cushing <20M: UNGRADED — absent or stale dated observation")
     else:
-        print(f"  Cushing < 20M:               {'🔴 BREACHED' if cushing_trigger else '⚪ not breached'}")
-
-    if source.startswith("🟢"):
-        print(f"\n  NOTE: LIVE pull via EIA v2 API (FORGE eia_fetch). Cross-check Cushing vs the FORGE dashboard.")
+        print(f"Cushing <20M: {'BREACHED' if cushing < CUSHING_MIN else 'not breached'} on {when}; observation check only")
+    util = metrics.get('util')
+    util_date = parse_date(metrics.get('dates', {}).get('util'))
+    if util is not None and util_date and 0 <= (now.date() - util_date).days <= observation_budget():
+        print(f"Refinery utilization: {status_for_util(util)[1]} on {util_date}; observation check only")
     else:
-        print(f"  NOTE: LOCAL parse. Live needs EIA_API_KEY in FORGE/.env (then drop --local).")
-    print()
-    return 0
+        print("Refinery utilization: UNGRADED — absent or stale dated observation")
+    for issue in issues + metrics.get('errors', []):
+        print('  FINDINGS: ' + issue)
+    return 2 if issues or metrics.get('errors') else 0
 
 
 if __name__ == "__main__":

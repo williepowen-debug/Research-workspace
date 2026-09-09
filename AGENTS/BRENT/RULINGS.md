@@ -308,3 +308,16 @@ TERRY September 8 packet reconciled against its XLE exit and USO Rule-20 owner c
 ## R-2026-09-08-OSPREY-owner-rules — received at batch 2 closeout
 
 Late incoming owner notification: `inbox/2026-09-08_from-OSPREY_downgrade-path-IN-FORCE-Will-9-8-you-have-until-9-15-to-object-plus-three-rulings.md` reports Will’s approval of OSPREY’s downgrade path, withdrawal of its band re-centre, Channel-3 geography qualification and movement of the buyer-pullback limb to Channel 2. Binding owner text is **OSPREY CLAUDE.md, EXIT RULES §1b** and the owner’s named channel rules; the packet reports no mark moved. It gives consumers an objection window through **September 15** which does not suspend its rule. These are attributed owner changes, not newly authenticated here or a BRENT gate amendment. September 9 follow-up: read owner primary text and assess consumption/double-count implications before any BRENT use. The packet remains in inbox pending that source review and sender commit; no acknowledgement, objection or external send issued. BRENT’s separate frozen Q2 date remains unchanged.
+
+
+## R-2026-09-09-maintenance — network rationale relocation
+
+Nonbinding rationale moved verbatim from CLAUDE § NETWORK CONNECTIONS under the approved maintenance; topology authority remains there. No new ruling or route.
+
+> ★ **WHY IT WENT, and it is not tidiness — MEASURED 2026-09-07: the table listed 8 routes and OMITTED BOTH `FALCON` AND `OSPREY`, while this desk packeted FALCON TWICE on 2026-09-07 (the Kylo/GATE-2 inputs and the war-risk-split answer) and tracks OSPREY's weekly Russian-seaborne print as a dated NEXT-SESSION item.** ⇒ **The desk was running live on two routes its own charter did not know about.** A hand-copied mirror of a canonical topology does not drift loudly; it drifts by OMISSION, and an omission is exactly what a reader cannot see. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` *(Retired rows preserved verbatim in [`RULINGS.md`](RULINGS.md) § C7.)*
+
+Additional nonbinding provenance moved from CLAUDE § KEY THRESHOLDS and § OUTPUT RULES; operative pointers and archive destination remain in CLAUDE.
+
+> ⛔ **This pointer was itself STALE 2026-07-31 → 2026-08-04** — the F3 ruling fixed ownership ONCE, the RAV pilot moved the answer to `REGISTRY.tsv`, and nothing re-asked the question. **A pointer that was correct when written is the hardest stale surface to see.** 📖 Full account → [`RULINGS.md`](RULINGS.md) § R-2026-08-04.
+
+*(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*

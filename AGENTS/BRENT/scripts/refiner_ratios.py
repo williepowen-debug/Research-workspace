@@ -1,30 +1,12 @@
 #!/usr/bin/env python3
-"""
-BRENT Refiner-Crude Ratio Monitor
+"""Historical refiner/USO research code; CLI retired September 9, 2026.
 
-Tracks the product-side decoupling thesis (research/PRODUCT_SIDE_DECOUPLING_THESIS.md).
-Computes refiner / USO ratio for MPC, PSX, VLO, DINO, PBF against a 6-month baseline
-and flags z-score divergences that signal crack-spread expansion / decoupling is firing.
-
-Appends daily snapshot to scripts/data/refiner_ratios.tsv for time-series tracking.
-
-Usage:
-  .venv/bin/python3 AGENTS/BRENT/scripts/refiner_ratios.py
-  .venv/bin/python3 AGENTS/BRENT/scripts/refiner_ratios.py --no-append   (skip TSV write)
-
-Interpretation (revised Apr 17 2026 — see PRODUCT_SIDE_DECOUPLING_THESIS §LIVE CONFIRMATION):
-  The thesis is mean reversion. Through the Hormuz squeeze (Nov 2025–Apr 2026), USO
-  has outperformed refiners → ratios are COMPRESSED below 6-mo mean (z typically -1.5
-  to -2). The decoupling trade captures the REVERSION back toward the mean as Phase-2
-  flushes crude. Therefore:
-
-    z < -1.0  +  1d Δ > +1%     = 🟢 REVERTING     — entry signal firing
-    -1 ≤ z ≤ +1                 = ⚪ NORMAL        — no strong setup
-    z > +1.0                    = 🟠 EXHAUSTED     — reversion played out, consider exit
-    z < -1.0  +  1d Δ negative  = 🟡 COMPRESSING   — ratio still falling, no signal yet
-
-  Also track AGGREGATE momentum: mean 1d Δ across all 5 refiners > +1% = decoupling
-  day confirmed (today Apr 17 = mean +0.84% despite PBF -5.5% outlier).
+Reference: research/archive/PRODUCT_SIDE_DECOUPLING_THESIS.md.
+The executable entry point now only prints a retirement notice. It performs no
+network retrieval or TSV write. Functions below preserve the old research
+implementation and its historical interpretations, not current trade authority.
+Recommissioning requires an identified current research reader and validated
+observation basis; the July 1 TSV is historical.
 """
 
 import os
@@ -184,21 +166,14 @@ def append_tsv(rows):
 
 
 def main():
-    no_append = "--no-append" in sys.argv
-    as_of = datetime.now().strftime("%Y-%m-%d %H:%M")
-    history = fetch_history()
-    if not history[CRUDE_PROXY]:
-        print("  ERROR: no USO history — cannot compute ratios.")
-        sys.exit(1)
-    ratio_series = compute_ratio_series(history)
-    rows = analyze(ratio_series)
-    if not rows:
-        print("  ERROR: insufficient history for any refiner.")
-        sys.exit(1)
-    print_report(rows, as_of)
-    if not no_append:
-        append_tsv(rows)
+    # Supersedes the automatic fetch/write and obsolete entry/exit readout.
+    # Preserve analysis functions as historical code; recommissioning requires
+    # a current research reader and separately validated observation basis.
+    print("RETIRED: this historical research entry point no longer fetches or writes data.")
+    print("Reference: AGENTS/BRENT/research/archive/PRODUCT_SIDE_DECOUPLING_THESIS.md")
+    print("Its historical z-score scheme is not a current entry/exit rule.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

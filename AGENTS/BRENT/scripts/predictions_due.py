@@ -9,9 +9,9 @@ END date, and flags:
   🔴 DUE     — end date <= today (resolve at closeout: resolve / re-arm / push-date)
   🟠 SOON    — end date within the next 7 days
 Event-conditional / open-ended timeframes ("Within X of <event>", "Ongoing") have
-no fixed date and are intentionally skipped (their precondition, not a calendar, gates them).
+no fixed event date. Explicit OUTER BOUND dates are monitored without assuming the precondition occurred.
 
-Run standalone or via boot.py. Exit 0 always (informational).
+Run standalone or via boot.py. Exit 2 for due/unparseable or unresolved sub-obligation findings; 0 otherwise.
 """
 import io
 import re
@@ -116,6 +116,12 @@ def scan(today=None, debug=False):
             if not status.upper().startswith("OPEN"):
                 continue
             end = parse_end_date(tf)
+            outer = re.search(r"OUTER BOUND\s+(\d{4}-\d{2}-\d{2})", status, re.I)
+            if outer:
+                bound = parse_end_date(outer.group(1))
+                if bound:
+                    end = min(end, bound) if end else bound
+                    tf += f" [explicit outer bound {bound}; event precondition not inferred]"
             if debug:
                 print(f"    {pid}: tf={tf!r} -> end={end}")
             if end is None:
@@ -134,10 +140,37 @@ def scan(today=None, debug=False):
     return due, upcoming, unparsed, event_cond
 
 
+def sub_obligations(today=None):
+    """Surface the existing unresolved BRT-29 M obligation, not a final grade.
+
+    Extends this scanner; supersedes the silent Timeframe-only treatment of M.
+    Date comes from the registered claim; current unresolved state from Notes.
+    No additional deadline/state ledger is created.
+    """
+    today = today or date.today()
+    findings = []
+    for line in PRED.read_text().splitlines():
+        fields = line.split("\t")
+        if len(fields) < 10 or fields[0] != 'BRT-29' or not fields[5].upper().startswith('OPEN'):
+            continue
+        if not re.search(r'\bM unresolved\b', fields[-1], re.I):
+            continue
+        claim = fields[2]
+        part = claim.split('(M)', 1)[-1].split('(T)', 1)[0]
+        match = re.search(r'by\s+(Aug)[- ](\d{1,2})', part, re.I)
+        end = parse_end_date(f'{match.group(1)} {match.group(2)}, {fields[1][:4]}') if match else None
+        if end is None or end <= today + timedelta(days=7):
+            findings.append((fields[0], 'M evidence review; final prediction window unchanged', end))
+    return findings
+
+
 def main():
     debug = "--debug" in sys.argv
     print("  ⏳ Predictions-Due Scan...")
     due, upcoming, unparsed, event_cond = scan(debug=debug)
+    obligations = sub_obligations()
+    for pid, label, end in obligations:
+        print(f"      ⚠️ SUB-OBLIGATION REVIEW: {pid} {label}; deadline {end or 'UNPARSEABLE'}; remains unresolved")
     # ⛔ UNPARSED IS REPORTED BEFORE THE CLEAN VERDICT, and it BLOCKS the clean verdict. An OPEN
     # prediction whose timeframe this parser cannot read is NOT evidence of "no alerts" — it is
     # evidence that the backstop did not cover that row. Printing ✅ over it is the silent-green
@@ -146,10 +179,7 @@ def main():
         print("      ⚪ EVENT-CONDITIONAL (skipped BY DESIGN — a precondition gates these, not a"
               " calendar). Listed so the exclusion is never silent:")
         for pid, tf, status in event_cond:
-            ob = re.search(r"OUTER BOUND\s+(\d{4}-\d{2}-\d{2})", status)
-            extra = f"  ⚠️ carries OUTER BOUND {ob.group(1)} in its STATUS cell, which this"
-            extra += " scanner does not read — check it by hand" if ob else ""
-            print(f"      ⚪ {pid}  timeframe={tf!r}{extra if ob else ''}")
+            print(f"      ⚪ {pid}  timeframe={tf!r}; no dated outer bound parsed")
     if unparsed:
         print("      🔴 UNPARSEABLE TIMEFRAME on an OPEN prediction — the scan DID NOT COVER these:")
         for pid, tf, status in unparsed:
@@ -157,8 +187,8 @@ def main():
         print("         ⇒ fix the Timeframe cell or extend parse_end_date. Until then these rows"
               " can NEVER come due, exactly like the STUCK-row blindness the boot doc warns of.")
     if not due and not upcoming:
-        if unparsed:
-            print("      ⚠️  no DUE/SOON rows AMONG THE ROWS THAT PARSED — scope stated, not a clean bill.")
+        if unparsed or obligations:
+            print("      ⚠️  no DUE/SOON rows AMONG THE ROWS THAT PARSED — check SUB-OBLIGATION/UNPARSEABLE findings above.")
             return 2
         print("      ✅ no OPEN predictions past (or within 7d of) their timeframe")
         return 0
@@ -170,7 +200,7 @@ def main():
         print("      🟠 SOON (≤7d) — pre-stage resolution:")
         for pid, tf, end in upcoming:
             print(f"      🟠 {pid}  (timeframe {tf!r} ends {end})")
-    return 2 if (due or unparsed) else 0
+    return 2 if (due or unparsed or obligations) else 0
 
 
 if __name__ == "__main__":

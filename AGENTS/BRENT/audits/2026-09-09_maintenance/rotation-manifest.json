@@ -1,0 +1,40 @@
+{
+  "base_commit": "7b8461779",
+  "rotations": [
+    {
+      "source": "STATUS.md",
+      "destination": "archive/STATUS_dated_2026-09-09_maintenance.md",
+      "bytes": 3087,
+      "sha256": "264923502a17be50728d4657de0f0cf511501cf57e6b581ae98cda937610dacb",
+      "crc32": "0771d87a"
+    },
+    {
+      "source": "CLAUDE.md network rationale",
+      "destination": "RULINGS.md#r-2026-09-09-maintenance--network-rationale-relocation",
+      "bytes": 688,
+      "sha256": "54127e4ae6e86b2955f8a1d89267418a07811c98474fb83e6edbd00bb28d8e4f",
+      "crc32": "1fbafb97"
+    },
+    {
+      "source": "docket/FASTOW_MEMORY.md NEXT RUN HINTS",
+      "destination": "archive/FASTOW_HINTS_2026-09-09.md",
+      "bytes": 2988,
+      "sha256": "60cf079d4edec96d7abd26b6a78648f5fa9e2a996828a7a43c6ae0be7559ea7e",
+      "crc32": "ff66a463"
+    },
+    {
+      "source": "CLAUDE.md dated provenance",
+      "destination": "RULINGS.md#r-2026-09-09-maintenance--network-rationale-relocation",
+      "bytes": 338,
+      "sha256": "8862b718a4b5d2b45669509c6bf56b3aede4e1e7f3cac8aab727e8fd3c16adf6",
+      "crc32": "73974e78"
+    },
+    {
+      "source": "CLAUDE.md dated provenance",
+      "destination": "RULINGS.md#r-2026-09-09-maintenance--network-rationale-relocation",
+      "bytes": 321,
+      "sha256": "bdb5b48a9e1be885de805bec49e4b93a48bba59a6e2bb56751f706c24bd17a25",
+      "crc32": "5f8499c3"
+    }
+  ]
+}

@@ -40,7 +40,7 @@ import os
 import sys
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone
 import io
 import math
 
@@ -66,13 +66,8 @@ def _fred_key():
         for line in p.read_text().splitlines():
             if line.startswith("FRED_API_KEY="):
                 return line.split("=", 1)[1].strip()
-    # ⚠️ STDOUT, not stderr: boot.py only surfaces stderr when rc != 0, so a stderr-only
-    # warning here was deleted on every clean run — the board rendered green with every
-    # FRED threshold silently absent. (DAEDALUS SFG sweep 2026-08-17; verified same day.)
-    # Suppressed in --json mode only, where a bare line would corrupt the payload.
-    if "--json" not in sys.argv:
-        print("  ⚠️  FRED_API_KEY not found (env or FORGE/tools/market-data/.env) "
-              "— every FRED threshold below will be UNGRADED, not un-breached")
+    # Import must stay silent for JSON consumers. Keyless fallback and per-series
+    # UNGRADED diagnostics below determine coverage; absent key alone does not.
     return ""
 
 FRED_API_KEY = _fred_key()
@@ -311,24 +306,79 @@ def fred_fetch(series_id, limit=3):
 # Market price fetcher (yfinance)
 # ---------------------------------------------------------------------------
 
-def get_prices(symbols):
-    """Fetch current prices. Returns dict symbol -> {price, prev, chg}."""
+# Extends the existing reader; supersedes silent previous-close substitution.
+# This is a retrieval-quality tolerance, not a trading threshold. Vendor quotes
+# can be delayed 15 minutes; allow 30 minutes total. Outside that window retain
+# the observation as dated context, never as a current quote/threshold verdict.
+MAX_QUOTE_AGE_SECONDS = 30 * 60
+
+
+def finite_number(value):
+    try:
+        number = float(value)
+        return number if math.isfinite(number) else None
+    except (TypeError, ValueError):
+        return None
+
+
+def quote_record(info, now=None):
+    now = now or datetime.now(timezone.utc)
+    if now.tzinfo is None:
+        raise ValueError("quote clock must be timezone-aware")
+    value = finite_number(info.get("regularMarketPrice"))
+    previous = finite_number(info.get("regularMarketPreviousClose"))
+    if previous is None:
+        previous = finite_number(info.get("previousClose"))
+    stamp = finite_number(info.get("regularMarketTime"))
+    observed = None
+    try:
+        if stamp is not None:
+            observed = datetime.fromtimestamp(stamp, timezone.utc)
+    except (ValueError, OverflowError, OSError):
+        pass
+    reason = ""
+    if value is None:
+        reason = "no regular-market quote; previous close is context only"
+    elif observed is None:
+        reason = "quote timestamp missing or invalid"
+    elif observed > now:
+        reason = "quote timestamp is in the future"
+    elif (now - observed).total_seconds() > MAX_QUOTE_AGE_SECONDS:
+        reason = "quote older than 30 minutes; dated context only (market may be closed)"
+    return dict(price=value, prev=previous,
+                chg=(value / previous - 1) * 100 if value is not None and previous else None,
+                date=observed.isoformat() if observed else None,
+                symbol=info.get('symbol'), currency=info.get('currency'),
+                source="Yahoo regularMarketPrice" if value is not None else "previousClose only",
+                state="UNGRADED" if reason else "RECENT_QUOTE", reason=reason)
+
+
+def get_prices(symbols, now=None):
+    """Return timestamped quotes; a previous close never substitutes for price."""
     prices = {}
     try:
         tickers = yf.Tickers(" ".join(symbols))
         for sym in symbols:
             try:
-                info = tickers.tickers[sym].info
-                price = info.get("regularMarketPrice") or info.get("previousClose")
-                prev = info.get("previousClose") or info.get("regularMarketPreviousClose")
-                if price:
-                    chg = ((price - prev) / prev * 100) if prev else 0
-                    prices[sym] = {"price": price, "prev": prev, "chg": chg}
-            except Exception:
-                pass
-    except Exception as e:
-        print(f"  ERROR fetching prices: {e}")
+                prices[sym] = quote_record(tickers.tickers[sym].info, now=now)
+            except Exception as exc:
+                prices[sym] = dict(quote_record({}, now=now), reason=f"quote access failed: {type(exc).__name__}")
+    except Exception as exc:
+        for sym in symbols:
+            prices[sym] = dict(quote_record({}, now=now), reason=f"quote batch failed: {type(exc).__name__}")
     return prices
+
+
+def print_quote(sym, label, prices):
+    p = prices.get(sym)
+    if not p or p.get("state") != "RECENT_QUOTE":
+        reason = p.get("reason", "no quote") if p else "no quote"
+        print(f"  ⚪ {label:<22} UNGRADED — {reason}")
+        if p and p.get("price") is not None:
+            print(f"       last observed {p['price']:.2f} at {p.get('date') or 'UNKNOWN time'}")
+        return
+    change = f"{p['chg']:+.2f}%" if p.get("chg") is not None else "change UNKNOWN"
+    print(f"  {label:<24} {p['price']:>8.2f}  ({change}) as of {p['date']} [vendor quote]")
 
 
 # ---------------------------------------------------------------------------
@@ -342,11 +392,11 @@ def check_market_thresholds(prices):
 
     for ticker, direction, level, clas, label in MARKET_THRESHOLDS:
         p = prices.get(ticker)
-        if not p:
+        if not p or p.get("state") != "RECENT_QUOTE":
             # ⚠️ NOT a silent skip: an un-fetched threshold is UNGRADED, never un-breached.
             ungraded.append({"ticker": ticker, "label": label, "class": clas,
                              "source": "market",
-                             "reason": "no price returned (fetch failed, or symbol dead)"})
+                             "reason": p.get("reason", "quote quality unverified") if p else "no quote returned"})
             continue
         price = p["price"]
         dist = (price - level) / level * 100
@@ -377,6 +427,9 @@ def check_market_thresholds(prices):
                     warning_candidates[key] = cand
 
     results.extend(warning_candidates.values())
+    for result in results:
+        result["date"] = prices[result["ticker"]]["date"]
+        result["basis"] = "recent vendor quote; not authenticated settlement"
     return results, ungraded
 
 
@@ -531,7 +584,7 @@ def main():
     print_alerts(warnings,        "⚠️  NEAR THRESHOLDS (within 5%)")
 
     if not any([breaches_thesis, breaches_risk, breaches_stress, warnings]):
-        print(f"\n  ✅ No threshold breaches or warnings.")
+        print("\n  No breaches among evaluated thresholds; see UNGRADED coverage below." if ungraded else "\n  No threshold breaches or warnings among evaluated observations.")
 
     # Crude / futures snapshot
     print(f"\n  CRUDE & FUTURES")
@@ -542,13 +595,10 @@ def main():
         ("NG=F", "Natgas futures"),
     ]
     for sym, label in crude_display:
-        p = prices.get(sym)
-        if p:
-            arrow = "🟢" if p["chg"] >= 0 else "🔴"
-            print(f"  {arrow} {label:<22} ${p['price']:>8.2f}  ({p['chg']:+.2f}%)")
+        print_quote(sym, label, prices)
 
     # Positions
-    print(f"\n  POSITIONS")
+    print(f"\n  TRACKED INSTRUMENTS — holdings are in TRADE.md")
     print(f"  {'-'*64}")
     pos_display = [
         ("USO", "USO (oil long)"),
@@ -557,10 +607,7 @@ def main():
         ("VG", "Venture Global"),
     ]
     for sym, label in pos_display:
-        p = prices.get(sym)
-        if p:
-            arrow = "🟢" if p["chg"] >= 0 else "🔴"
-            print(f"  {arrow} {label:<22} ${p['price']:>8.2f}  ({p['chg']:+.2f}%)")
+        print_quote(sym, label, prices)
 
     # Energy sector
     print(f"\n  ENERGY SECTOR")
@@ -576,13 +623,10 @@ def main():
         ("MPC", "Marathon (refiner)"),
     ]
     for sym, label in energy_display:
-        p = prices.get(sym)
-        if p:
-            arrow = "🟢" if p["chg"] >= 0 else "🔴"
-            print(f"  {arrow} {label:<22} ${p['price']:>8.2f}  ({p['chg']:+.2f}%)")
+        print_quote(sym, label, prices)
 
     # Tanker universe
-    print(f"\n  TANKERS (proxy for VLCC/LR2/MR rates)")
+    print(f"\n  TANKER EQUITIES — not freight-rate measurements")
     print(f"  {'-'*64}")
     tanker_display = [
         ("FRO",  "Frontline (VLCC)"),
@@ -591,10 +635,7 @@ def main():
         ("STNG", "Scorpio (product)"),
     ]
     for sym, label in tanker_display:
-        p = prices.get(sym)
-        if p:
-            arrow = "🟢" if p["chg"] >= 0 else "🔴"
-            print(f"  {arrow} {label:<22} ${p['price']:>8.2f}  ({p['chg']:+.2f}%)")
+        print_quote(sym, label, prices)
 
     # FRED snapshot
     print(f"\n  FRED LATEST VALUES")
@@ -625,10 +666,7 @@ def main():
     # Macro context
     print(f"\n  MACRO CONTEXT")
     print(f"  {'-'*64}")
-    p = prices.get("^VIX")
-    if p:
-        arrow = "🔴" if p["chg"] >= 0 else "🟢"  # rising VIX = risk-off
-        print(f"  {arrow} {'VIX':<10} {p['price']:>10.2f}  ({p['chg']:+.2f}%)")
+    print_quote("^VIX", "VIX", prices)
 
     # ⚠️ UNGRADED — the whole point of the 2026-08-17 fix. An un-fetched threshold used to
     # vanish from this board with no signal; absence read identically to "not breached".
