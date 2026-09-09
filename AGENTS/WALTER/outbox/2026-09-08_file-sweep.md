@@ -1,5 +1,7 @@
 # WALTER file sweep — September 8, 2026
 
+> **Maintenance follow-up completed:** the read-manifest, routing-size and CHECKLIST-scope items below are now closed by `98ea7f772`. See `outbox/2026-09-08_boot-maintenance.md` for the post-commit validation. Remaining sections are the original dated audit record; the backlog/evidence/history items remain separately carried. The original audit commit is on origin.
+
 **Completed: bounded file/operational audit, with the clear WALTER-owned defects repaired.** The largest behavioral risk was stale trigger instructions; the largest remaining maintenance gap is the declared read perimeter. Audit changes are local pending a clean coordinated push because HAWK, OSPREY and SAM have concurrent dirty work.
 
 ## Fixed

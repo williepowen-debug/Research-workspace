@@ -63,14 +63,13 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 file sweep
-- September 8 now totals 23 signals / 75 dispatch handoffs, BOARD 914; earlier implementation and evening news are on origin. The 42 late delivery states are reconciled.
-- Stale CREED boot classifier/sustain copies removed in favor of canonical row fields. STATUS header/liaison manifest, design pointers and retired COP language repaired; pre-audit continuity preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`.
-- SAM 012 acted / 021 noted verified. FALCON/OSPREY September 8 owner headers refreshed. Do not infer runtime darkness or consumption from Codex roster visibility or inbox location alone.
-- Audit report: `outbox/2026-09-08_file-sweep.md`. Audit commit local while foreign work is dirty; prior news delivery is not pending.
+### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 boot maintenance
+- Maintenance CLOSED in98ea7f772: WALTER READS applied/re-attested (38READ/17BASIS), routing v0.32 split into TABLE+OVERLAYS, and CHECKLISTv0.41 threshold procedure extracted to THRESHOLD_SCAN. Both routing halves and the threshold module are whole boot reads.
+- Post-commit READS-CAP0; heuristic cap0 across11 discovered files;67 existing behavioral assertions pass. Routing/procedure obligations preserved verbatim, non-WALTER manifest lines unchanged. Evidence: `outbox/2026-09-08_boot-maintenance.md`.
+- BOARD914, September8's23signals/75handoffs unchanged. Prior audit/news on origin; maintenance closeout local while foreign work is dirty. Old maintenance-pending statements are historical.
 
 ### NEXT SESSION
-1. Use LAST_COMPLETION FOLLOW-UP + OPEN DESIGN DECISIONS as the complete obligation list. Energy owner returns remain prioritized; older 7-ACTION backlog stays deferred.
-2. READS known amendments are prepared for PROME; WALTER full enumeration/reattestation still owed. ROUTING_TABLE is near budget and needs rotation; scoped CHECKLIST ambiguity remains open. Do not report a global read-cap all-clear.
-3. FT10 September 8 print 148.86 reset to 0/4, NOT FIRED; re-read source for a new observation. PJM final authority and registered September 9–30 clocks are carried, not graded early.
-4. Broad Iran primary verification and HANS basis/storage limits remain open. C2 measurement, MEMORY_PROMOTED coverage and verify-spawn record limitations are not resolved by this file audit.
+1. LAST_COMPLETION FOLLOW-UP + OPEN DESIGN DECISIONS remain the complete obligation list. Prioritize owner evidence returns; older7ACTION backlog stays deferred.
+2. Read BOTH routing files and THRESHOLD_SCAN as chartered. Measure at Tier-2/append; next calendar check September30. A boot-defining change needs fresh enumeration/attestation, not a date-only stamp. Keep narrative in cold history.
+3. FT10 September8 print148.86 reset0/4, NOT FIRED; new observations require new sources. PJM final authority and registered September9–30 clocks remain dated carries, not early grades.
+4. Broad Iran primary verification, HANS basis/storage limits, C2 measurement, MEMORY_PROMOTED coverage and verify-spawn record limitations remain outside this maintenance; do not certify them away.

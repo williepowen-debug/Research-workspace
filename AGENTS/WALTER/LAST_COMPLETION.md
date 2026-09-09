@@ -1,27 +1,26 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-08 evening ET, Codex WALTER. Tier-2 FULL file audit requested by Will; clears the three preceding light-closeout deferrals. Audit changes committed locally at close; push deferred while HAWK/OSPREY/SAM have concurrent dirty work. See commit history for the exact revision.
+Session: 2026-09-08 evening ET, Codex WALTER. Tier-2 FULL, Will-authorized unfinished maintenance. Implementation `98ea7f772`; post-commit READS check passed. Local closeout commits; pull/push deferred for concurrent foreign dirty work. Earlier sweep `47e9f4959` is already on origin.
 
 ## STATUS
 
-File sweep complete within the recorded perimeter. BOARD 914; September 8 signals 001–023 and 75 dispatch handoffs are on origin. The 42 evening rows formerly pending push now read delivered, verified by the existing origin-history reconciler. Delivery is not blanket recipient consumption. This audit dispatched no signals, spawned no agents, and refreshed no market prices.
+All three requested maintenance items CLOSED: read manifest applied/re-attested, routing file split below rotation target, and CHECKLIST threshold procedure made an explicit whole read. BOARD914 and September8's23 signals/75 dispatch handoffs are unchanged; no new news dispatch or owner grade. Deferred backlog and domain evidence returns remain open.
 
 ## CHANGED
 
-- Replaced stale CREED boot threshold copies with row-level canonical reads; removed generic sustain defaults. Marked the old BOOT_PROTOCOL quotation historical. Clarified near-trigger display versus the existing actionability rule; no new band or grade.
-- Reconciled 42 delivery states; repaired STATUS Updated header, missing liaison manifest, retired COP mission wording, and stale STATUS/MEMORY/closeout routing and push claims.
-- Refreshed SAM/OSPREY/FALCON registry dates and WALTER focus. SAM 012 acted / 021 noted is verified in its own board_log; the old awaiting-SAM statement is superseded.
-- Repaired archived proposal/liaison pointers, BRENT subscription state, and stale design rollout claims. Outbox diagnostic now reports artifacts and mtime without assuming an unspawned draft.
-- Prepared exact READS amendments and a self-authored PROME maintenance packet. Shared manifest remains unmodified and its stale attestation remains visible.
+- Routing v0.32: TABLE16,795B + OVERLAYS17,150B, both mandatory whole boot reads. Complete suffix preserved verbatim; all seven old section addresses redirect. Total33,945B versus31,764B before, +2,181B: per-surface remedy, no claimed context saving.
+- CHECKLIST v0.41: Phase2 step7 verbatim in THRESHOLD_SCAN5,101B; both boot6c and dispatch open the authority whole. New companions wired into the version guard.
+- WALTER manifest:38 READ/17 BASIS/one signed attestation;56 tokens fully dispositioned, dynamic operations documented. All non-WALTER manifest lines unchanged. Correct RED scan path and own receipt path; empty receipt scaffold asserts no applied correction.
+- Current continuity clears the earlier unfinished maintenance entries; historical snapshots and every open design decision are preserved. PROME receives a self-authored completion pointer.
 
 ## RESULT
 
-Existing behavioral regressions: 67/67 pass. Core spec versions and routing carve-out lockstep pass. Doctor: 0 HIGH / 1 MED (standing 41 older handoffs, 7 ACTION / 34 INFO). BOARD/route reconciliation and generated 914-row index freshness pass. Delivery reconciliation: 42 repaired, zero origin orphans. Corrections check: zero unreceipted named rows in the 12-row register. Initial Markdown-link scan: no unresolved candidates across 36 active Markdown files; backtick references required separate semantic triage. Exact perimeter and limitations: `outbox/2026-09-08_file-sweep.md`.
+Post-commit READS-CAP0, September8 attestation current;38 declared reads, including22 cap-bearing entries and16 other modes. External/empty conditional classes are separately disclosed, not all byte-measured. Heuristic READ-CAP0 across11 discovered whole reads. Existing67 behavioral assertions pass; version/companion checks pass; both injected new-companion mismatches fail as intended. Doctor0HIGH/1MED (existing41older handoffs,7ACTION/34INFO). BOARD914/generated-index fresh, zero unreceipted named corrections. Full evidence: `outbox/2026-09-08_boot-maintenance.md`.
 
 ## GAPS
 
-- Audit commit is local; no pull/push while foreign writers are dirty. Earlier implementation/news delivery is already on origin, so do not revive the old 33/42 pending-delivery claims.
-- READS remains UNKNOWN: August 31 attestation predates boot changes; RED whole-read and receipt-path declarations are stale. PROME owns applying proposed shared rows; WALTER owes a fresh complete enumeration/reader attestation. Do not clear it by merely changing a date. ROUTING_TABLE is at 31,764 B, 98% of budget; rotation is the next maintenance priority. CHECKLIST scoped-read ambiguity remains a separate protocol issue.
+- Maintenance commits remain local while foreign work is dirty; earlier sweep/news delivery is on origin. Shared READS application is complete, not awaiting PROME.
+- Mode and dynamic-source limits remain explicit: future correction/evidence pointers and external filing URLs require real reads. Large scoped/cold histories are not certified as fitting whole. Existing read-cap and re-attestation triggers remain active.
 - Historical consumption-declaration and legacy entities gaps remain uncertified. Lifecycle tool returned 195 candidates, not 195 adjudications; no lifecycle rows or sweep clock changed. Last adjudication September 3; next due September 17. Two open deep-research flags are not overdue.
 - Broad Iran primary re-verification and Saudi/Saratov incremental-loss evidence remain incomplete. Named assets, pre-attack status, outage duration and restart evidence must come from owner work; no nameplate-as-loss inference. HANS storage gap and UK30Y/TTF quote-versus-settlement scope remain partial.
 - Trinity WARN/date conflicts, Apple NAND/Citi contract details and historical paywalled ABS remain held. Canada notice-based adjudication does not supply a registration-ID receipt. No new research build follows automatically from these gaps.
@@ -33,7 +32,7 @@ No new approval needed for completed maintenance. Older backlog follow-through s
 
 ## FOLLOW-UP
 
-1. Maintenance: apply the prepared READS amendments through PROME; WALTER re-enumerates current boot obligations and re-attests. Rotate ROUTING_TABLE under the existing read-cap process; resolve CHECKLIST read-scope ambiguity without deleting authoritative rules. Report: `outbox/2026-09-08_file-sweep.md`.
+1. Maintenance CLOSED by `98ea7f772`; report `outbox/2026-09-08_boot-maintenance.md`. Measure the new boot files after relevant appends and each Tier-2; next calendar check September30. Re-enumerate/re-attest after boot-defining changes. Do not reopen the old READS/cap/CHECKLIST tasks as still unfinished.
 2. Approved energy sequence: collect FALCON's Saudi asset/event evidence, OSPREY's Saratov prior-operating/restart evidence, BRENT's incremental supply assessment, and HAWK synthesis. HAWK 011/022/023 consumption is verified. FALCON/OSPREY are operator-reported Claude Code sessions, with September 8 owner updates present; do not duplicate their launches. Existing work brief: `outbox/2026-09-08_energy-and-yen-follow-through.md`.
 3. SAM: 012 disposition is now received, so no duplicate ping or September 4 JGB ask. Its causal attribution, fresh settlement and post-move positions remain open in owner work. Correction 001/002/010 and COR04 owner integration still follows actual receipts; HAWK COR04 APPLIED is already verified. NEXUS calendar correction and WATT's final PJM authority check remain owner actions.
 4. BROCK September 9 hold remains. Older 7-ACTION backlog, including AEOLUS and REGINALD, stays deferred per Will. REGINALD REGT07 asks and RED August 28 omission question are CLOSED to their documented evidence limits. VIOLET's leading-edge writer concern remains owner-pending; reading the source does not prove a fix.

@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-08 evening ET — Tier-2 FULL file sweep, Codex WALTER. BOARD 914; September 8 signals 001–023, 75 dispatch handoffs. Earlier implementation and news catch-up are on origin; 42 late delivery rows now reconciled. This audit is local pending a clean coordinated push.
+**Updated:** 2026-09-08 evening ET — Tier-2 FULL maintenance complete, Codex WALTER. BOARD914; September8 signals001–023 and75 dispatch handoffs unchanged/on origin. READS re-attested/applied; routing and threshold boot reads fixed. Maintenance commits local pending a clean coordinated push.
 
 ## BOTTOM LINE
 
-WALTER's file sweep repaired stale boot-trigger instructions, delivery states, continuity records and design pointers. News routing remains complete on origin; recipient integration is established only where owner receipts exist. HAWK 011/022/023 and SAM 012/021 have dispositions. The shared READS manifest needs PROME-owned amendments plus WALTER re-attestation; the older 7-ACTION backlog remains deferred per Will. Audit: `outbox/2026-09-08_file-sweep.md`. No new market grade or dispatch during this audit.
+The unfinished WALTER maintenance is complete: shared READS rows applied with a fresh reader attestation, ROUTING_TABLE split into two whole boot reads below the rotation target, and the authoritative CHECKLIST threshold procedure made a small mandatory whole read. Post-commit declared-read and version checks pass. Report: `outbox/2026-09-08_boot-maintenance.md`. The older7-ACTION backlog remains deferred; owner evidence returns and historical audit gaps are separate. No market grade or news dispatch changed.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
@@ -87,4 +87,4 @@ No fresh active architectural thread is inferred from the existence of these fil
 
 ## SESSION LOG
 
-Full history: `SESSION_LOG.md`. Pre-audit continuity preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`. The September 8 Tier-2 sweep clears the preceding three light-closeout breadcrumbs; their historical entries remain intact.
+Full history: `SESSION_LOG.md`. Pre-audit continuity preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`. The September8 sweep cleared the earlier light-closeout breadcrumbs. This subsequent Tier-2 maintenance closes its three unfinished maintenance items; its pre-change continuity is in `research/2026-09-08_boot-maintenance/continuity-before.md`.

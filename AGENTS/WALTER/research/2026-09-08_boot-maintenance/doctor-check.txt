@@ -1,0 +1,156 @@
+WALTER doctor — 2026-09-08
+========================================================================
+
+[version_drift]
+  ✓ INFO all core specs match STATE.md §1
+
+[claude_md_version_drift]
+  ✓ INFO KEY-DESIGN-FILES version claims match spec headers (1 claim(s) checked across 2 file(s))
+
+[restated_set_drift]
+  ✓ INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 12; checks = 33)
+
+[board_reconcile]
+  ✓ INFO BOARD reconciles: 914 signals (ToC = sections = files = TOTAL)
+
+[log_reconcile]
+  ✓ INFO route_log reconciles with BOARD (914 signals)
+  ✓ INFO delivery_log: all 623 delivered SIG-ids have a BOARD file (post-6/17 coverage)
+
+[cron_liveness]
+  ✓ INFO FORGE/tools/news-sweep/latest.md: 114d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+  ✓ INFO FORGE/tools/filing-watch/latest.md: 114d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+  ✓ INFO SIGNALS/inbound.md: 98d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+
+[intake_liveness]
+  ✓ INFO lane live (last_run 2026-09-08T18:17:18Z, 0d / 1 missed weekday run(s), 6 feeds ok); gate via boot-7e intake_scan.py
+
+[cushing_capability]
+  ✓ INFO EIA key present (Cushing/Boundary-#3 scan live)
+
+[outbox_age]
+  ✓ INFO 2026-08-28_to-DAEDALUS_P1-read-cap-measured-live-cost.md: 11d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_board-index-cutover-receipt.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_closeout-validation.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_codex-owner-catchup-completion.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_codex-owner-progress.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-cross.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-self.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-skew-self.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-skew.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_created-paths.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_diff-hygiene.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_doctor-results.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_energy-and-yen-follow-through.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_evening-boot-skew-receipt.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_evening-boot.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_file-sweep.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_inbox-dispositions.tsv: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-after.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-dispositions.tsv: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-inputs.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intended-git-paths.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_news-catchup-validation.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_news-catchup.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_previous-completion-carry.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_read-cap-results.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_registry-header-receipt.json: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_regression-results.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_source-and-consumer-receipt.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_verify-intake-memory.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_verify-intake-other.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_version-drift-results.txt: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO VERIFY-20260831-iran-weekend-claims.md: 7d since mtime (outbox artifact; disposition not inferred)
+
+[registry_staleness]
+  · LOW  Tier-1 registry-date >14d (1): YEYOU (19d) — see registry_lag to tell dormant from lagging
+
+[registry_lag]
+  ✓ INFO dormant — registry accurate, not lagging (3): ATHENA (178d), SENTRY (122d), YEYOU (19d)
+  ✓ INFO no STATUS.md — dir-fallback unreliable (may be cross-agent commits), NOT flagged: DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +10d vs 2026-08-29), RAV (dir +3d vs 2026-08-02)
+  ✓ INFO incidental STATUS touch, not a real lag (1): MARCO (commit 2026-09-03 but STATUS hdr 2026-09-02 ≤ reg 2026-09-02)
+  ✓ INFO no registry rows lagging the agents' actual STATUS commits
+
+[registry_self_lag]
+  ✓ INFO WALTER self REGISTRY row is current vs STATUS.md header
+
+[liaison_enum]
+  ✓ INFO LIAISON files (2): CARL 114d · RED 93d
+
+[delivered_but_unconsumed]
+  ⚠ MED  41 unconsumed >2d across 13 agents (of 107 in flight — the rest are within the grace period, NOT evidence they are consumed), oldest 48d — 7 ACTION / 34 INFO: REGINALD 8(2A/6I); AEOLUS 3(2A/1I); BROCK 6(1A/5I); HOMER 2(1A/1I); ZHAO 2(1A/1I); LIQUID 6; SHADE 5; DEWEY 3; BOND 2; HENRY 1; FLG 1; CREED 1; MARCO 1 [age from delivery_log.timestamp_routed, 3 on mtime (no delivery_log row)] — ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear
+
+[written_but_undelivered]
+  ✓ INFO all WALTER handoffs delivered (on origin)
+
+[delivery_claim_vs_git]
+  ✓ INFO 2288 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
+
+[deep_research_pending_overdue]
+  ✓ INFO no overdue deep-research flags (2 open)
+
+[dewey_handoff_liveness]
+  ✓ INFO inbox/DEWEY/ clear — no unprocessed DEWEY handoffs
+
+[staleness_sweep_overdue]
+  ✓ INFO staleness sweep 5d ago (last 2026-09-03, ≤14d)
+
+[dropzone_pending]
+  ✓ INFO inbox/WILL/ drop-zone empty
+
+[boot_protocol_xref]
+  ✓ INFO boot-protocol xref clean (17 pointers ↔ 17 sections)
+
+[status_spine_overflow]
+  ✓ INFO STATUS.md spine at 1 lead(s) (≤5)
+
+[status_bottom_line]
+  ✓ INFO STATUS.md `## BOTTOM LINE` present (line 5) with a nonempty section
+
+[cluster_review_overdue]
+  ✓ INFO AI_INFRA_CAPEX (82) reviewed 8d ago (AI_CAPEX_AXIS_CHECK_2026-08-31.md) — within the 30d window
+  ✓ INFO large clusters never coherence-reviewed (9, >=25 signals): IRAN_HORMUZ 156 · CONSUMER_STAGFLATION 134 · BANK_COLLATERAL 126 · POSITIONING_VALUATION 110 · PC_STRESS 70 · FED_FRAMEWORK 63 · ASIA_CHINA 56 · HYDROCARBON_INFRA 52 · MISC 31 — informational, not a backlog; review is cheap and on-demand
+
+[registered_but_unrouted]
+  · LOW  Tier-2 registered but unrouted (7): ATHENA, BARON, CRUISE, DARWIN, HERMES, ORACLE, SENTRY — expected if spawn-on-demand; confirm it is intentional.
+
+[correction_target_declared]
+  ✓ INFO all 61 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)
+
+[batch_manifest_open]
+  ✓ INFO no OPEN batch manifests — NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped
+
+[action_line_rule]
+  · LOW  SIG-W-20260828-040-umich-august-FI...: HENRY is on `info:` but the body carries ask-language -- “HENRY should”. §3.5.4 says an ask aimed at a named recipient goes on `action:`. Verify, then re-dispatch to HENRY on action if it is a real ask.
+  ✓ INFO scanned 121 signal(s) over 14d
+
+[terry_override_ratio]
+  ✓ INFO TERRY override ratio 3/16 over the trailing 90d window (SIG-W-20260811-002, SIG-W-20260820-003, SIG-W-20260822-002) — lane CLOSED by the §3.5.5 revert 2026-08-26; log read at revert; rolls off with the window
+
+[filed_vs_consumed]
+  · LOW  FILED not CONSUMED: 2026-08-28_from-DAEDALUS_r1-boot-line-not-applied-tree-pleas moved into WALTER's processed/ (3402f91c1) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_CORRECTION-2-of-2-sig012-section5-mech moved into WALTER's processed/ (3402f91c1) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_RESOLVED-sig014-we-tested-different-us moved into WALTER's processed/ (0fbce1fc9) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_CORRECTION-bls-403-is-a-user-agent-gat moved into WALTER's processed/ (bdc5d1561) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-26_from-DAEDALUS_R1-boot-leg-LIVE-two-parser-semanti moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-27_from-CREED_SIG-019-carries-CREED-T-01b-sustain-1- moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-27_from-PROME_pointer-two-more-untracked-OTTO-drops- moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-08-27_from-PROME_two-UNTRACKED-otto-signals-sit-in-your moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  ...and 10 more undeclared post-2026-08-20 moves
+
+[entities_at_dispatch]
+  · LOW  SIG-W-20260828-016-RESOLVED-the-bls-gate...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-017-a-recipe-published-in...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-018-a-truncating-read-is-...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-019-rank-recipes-by-failu...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-020-the-operative-test-is...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-021-CORRECTION-the-trunca...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+
+[auto_load_budget]
+  ✓ INFO auto-load measured — WALTER CLAUDE.md 54,999 B (own, the only one WALTER may fix) · unconditional auto-load with root CLAUDE.md (PROME-owned) 22,633 B + fleet auto-memory index (PROME-owned) 17,731 B = 95,363 B. Reported, NOT graded: an auto-loaded charter is not a Read and does not truncate (READ_CAP.md:37), and the read cap is per surface, never joint (rule 3). There is no ruled auto-load threshold — growth here is a CONTEXT cost to watch, not a violation to clear.
+
+[index_generated_fresh]
+  ✓ INFO generated INDEX fresh (rowset c8b5b55cfd5a, 914 signals; 914 live rows hashed and matched — banner AND content)
+
+========================================================================
+✗ 1 item(s) need attention (HIGH/MED). See punch-list above.

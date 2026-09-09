@@ -1,3 +1,7 @@
+# 2026-09-08 evening — Tier-2 FULL unfinished maintenance CLOSED
+
+Will-authorized completion in98ea7f772: READS38READ/17BASIS applied/re-attested, routing v0.32 two mandatory whole reads, CHECKLISTv0.41 authoritative threshold module. Post-commit READS-CAP0; heuristic11-file cap0;67 behavioral checks and companion controls pass. Routing/procedure obligations and all non-WALTER manifest lines preserved. Deferred backlog/owner evidence remain open. Report: `outbox/2026-09-08_boot-maintenance.md`; pre-maintenance continuity at `research/2026-09-08_boot-maintenance/continuity-before.md`. Local closeout while foreign work is dirty.
+
 # 2026-09-08 evening — Tier-2 FULL file sweep
 
 Clears the preceding three light-closeout deferrals. Boot CREED copy corrected to canonical reads; 42 delivered rows reconciled; STATUS/registry/design/liaison/closeout stale state repaired; SAM 012 disposition verified. Existing 67 behavioral assertions pass; doctor 0 HIGH / 1 MED, the standing deferred backlog. READS amendments prepared, shared application and reader re-attestation remain open. Complete report: `outbox/2026-09-08_file-sweep.md`. Pre-audit STATUS/MEMORY/LAST_COMPLETION preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`. Audit commit local while foreign work is dirty; earlier news is on origin.

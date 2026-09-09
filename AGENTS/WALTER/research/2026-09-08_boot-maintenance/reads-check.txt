@@ -1,0 +1,50 @@
+READS [WALTER] — budget 32,550 B · cap 54,250 B · perimeter: 22 cap-bearing + 16 declared-not-bearing = 38 live read(s) · basis 17 surface(s) · manifest ATTESTED 2026-09-08 by WALTER itself
+  ⚠️  MODE IS A SELF-ASSERTED CLAIM — 7 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:
+       · AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (64,905 B) declared `scoped` at WALTER:6b by WALTER
+       · BOARD/INDEX.md (469,762 B) declared `scoped` at WALTER:7 by WALTER
+       · AGENTS/WALTER/tools/walter_doctor.py (135,986 B) declared `summary` at WALTER:0.5 by WALTER
+       · PROME/tools/reads_check.py (45,998 B) declared `summary` at WALTER:1 by WALTER
+       · FORGE/tools/market-data/fetch.py (41,571 B) declared `summary` at WALTER:6c by WALTER
+       · AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv (56,532 B) declared `grep` at WALTER:7d by WALTER
+       · AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md (102,312 B) declared `scoped` at WALTER:6c by WALTER
+  ✅ AGENTS/WALTER/REGISTRY.tsv                              23,055 B    71% of budget   (whole, WALTER:4)
+  ✅ AGENTS/CREED/registry/THRESHOLDS.tsv                    22,475 B    69% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/anchors/IRAN_WAR.md                       18,448 B    57% of budget   (whole, WALTER:1)
+  ✅ AGENTS/WALTER/design/ROUTING_OVERLAYS.md                17,150 B    53% of budget   (whole, WALTER:6)
+  ✅ AGENTS/WALTER/design/ROUTING_TABLE.md                   16,795 B    52% of budget   (whole, WALTER:6)
+  ✅ AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv     14,016 B    43% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/HANS/registry/THRESHOLDS.tsv                     11,112 B    34% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/MEMORY.md                                 10,306 B    32% of budget   (whole, WALTER:2)
+  ✅ AGENTS/WALTER/STATUS.md                                  9,856 B    30% of budget   (whole, WALTER:1)
+  ✅ AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv              7,808 B    24% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/LAST_COMPLETION.md                         7,740 B    24% of budget   (whole, WALTER:3)
+  ✅ AGENTS/WALTER/design/EVENT_WINDOW_STATE.md               6,157 B    19% of budget   (whole, WALTER:7b)
+  ✅ AGENTS/WALTER/design/THRESHOLD_SCAN.md                   5,101 B    16% of budget   (whole, WALTER:6c)
+  ✅ PROME/state/ORCH_INFLIGHT.md                             4,380 B    13% of budget   (whole, WALTER:9b)
+  ✅ AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv                3,411 B    10% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/REGINALD/registry/THRESHOLDS.tsv                  3,178 B    10% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv       1,924 B     6% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv      1,792 B     6% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/inbox/DEWEY/*                             1 files  largest 1,558 B (5%) = AGENTS/WALTER/inbox/DEWEY/README.md  total 1,558 B  (whole, WALTER:7d)
+  ✅ AGENTS/WALTER/inbox/WILL/*                              1 files  largest 853 B (3%) = AGENTS/WALTER/inbox/WILL/README.md  total 853 B  (whole, WALTER:7f)
+  ⇢  RESEARCH-INTAKE/phone_inbox/signal_*.md               EXTERNAL     another repo — declared for visibility, not byte-graded here (whole, WALTER:7e-f)
+  ⇢  AGENTS/WALTER/outbox/REQ-*.md                          0 files     conditional class row — no match today under existing dir AGENTS/WALTER/outbox/; the read fires only when a file lands, so it measures nothing until then (whole, WALTER:9)
+  ·  AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv          64,905 B   scoped       (WALTER:6b)  ❓ 199% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  ·  BOARD/INDEX.md                                         469,762 B   scoped       (WALTER:7)  ❓ 1443% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  · AGENTS/*/STATUS.md                                     39 files  largest 52,120 B (160%) = AGENTS/REGINALD/STATUS.md  total 1,070,454 B  (scoped, WALTER:8)
+       ℹ️  4 match(es) over budget, excluded by the declared `scoped` mode — largest is AGENTS/REGINALD/STATUS.md
+  ·  PROME/STATUS.md                                         22,342 B   scoped       (WALTER:8)
+  · AGENTS/*/handoff_WALTER/LIAISON.md                      2 files  largest 67,806 B (208%) = AGENTS/RED/handoff_WALTER/LIAISON.md  total 113,875 B  (scoped, WALTER:9)
+       ℹ️  2 match(es) over budget, excluded by the declared `scoped` mode — largest is AGENTS/RED/handoff_WALTER/LIAISON.md
+  ·  AGENTS/WALTER/tools/walter_doctor.py                   135,986 B   summary      (WALTER:0.5)  ℹ️  418% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/tools/intake_scan.py                      14,046 B   summary      (WALTER:7e)
+  ·  AGENTS/WALTER/tools/phone_scan.py                        9,632 B   summary      (WALTER:7e-f)
+  ·  scripts/corrections_boot_check.py                       14,765 B   summary      (WALTER:9a)
+  ·  PROME/tools/reads_check.py                              45,998 B   summary      (WALTER:1)  ℹ️  141% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  scripts/read_cap_check.py                               18,209 B   summary      (WALTER:1)
+  ·  FORGE/tools/market-data/dashboard.py                    22,039 B   summary      (WALTER:6c)
+  ·  FORGE/tools/market-data/fetch.py                        41,571 B   summary      (WALTER:6c)  ℹ️  128% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv    56,532 B   grep         (WALTER:7d)  ℹ️  174% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/registry/corrections_receipts.tsv             39 B   grep         (WALTER:9a)
+  ·  AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md         102,312 B   scoped       (WALTER:6c)  ❓ 314% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+✅ READS-CAP 0 [WALTER]: all 22 cap-bearing read(s) under budget, in a manifest WALTER itself attested complete on 2026-09-08. This grades the DECLARATION, not the desk — a wrong declaration yields a wrong verdict.
