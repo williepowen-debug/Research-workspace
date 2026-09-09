@@ -1,58 +1,56 @@
 # HAWK — NEXUS Brief
 
-**Status:** 🟠 — HAW-21 CONFIRMED; cross-war hull-loss count corrected; source and specification gaps remain.
-**Domain:** cross-war geopolitical synthesis and dormant book; no trade book.
-**As of:** 2026-09-09T01:03:14+00:00 | **STATUS commit:** `a0763c0cdc455405e25a9eaddd93cc864f2ddaed` (final local cleanup STATUS; source vintages remain as stated).
+**Status:** 🟠 — approved HAWK catch-up implemented; source and calibration gaps remain explicit.
+**Domain:** cross-war synthesis and dormant geopolitical book; no trade book.
+**As of:** 2026-09-09T02:04:40.173775+00:00 | **STATUS commit:** `54accb874de8b1e2506e9c9552a9098a6c78729d`
 
 ## CROSS-DOMAIN
 
 **SENDING:**
 | To | Signal | Priority | Mechanism in recipient domain |
 |---|---|---|---|
-| MARCO / LABOR / WALTER | Canadian629 item/rate match and conditional remission, HAW21 CONFIRMED | 🟠 | Line-level exposure screen; importer liability and employer effects require their own evidence. No tariff→job-loss inference. |
-| OSPREY / FALCON | Refining basis comparison delivered; band unchanged | 🟠 | National runs shortfall versus one facility shutdown cannot be pooled as destroyed crude supply. |
-| BRENT / NEXUS (brief) | FALCON total-loss2 is a hull fact; no proven crude-production loss | 🟠 | Hull/logistics capacity may transmit, but barrel effect UNKNOWN. Iranian insurance lies outside GCC/corridor quote perimeter. |
-| WALTER / PROME | Qatar COR-20260908-04 APPLIED receipt; Brent NO-OP receipt written | 🟠 | Remove stale end-September catalyst; preserve estimated early-November review and missing QatarEnergy primary. |
-| DAEDALUS / PROME | As-made candidates verified, no confidence edits | 🟡 | Three false matches; HAW18 first60 versus same-session55 remains a scoring-vintage decision. |
+| BRENT / NEXUS | Owner counts reconciled; national refining, plant nameplate and hull attrition remain separate | 🟠 | Prevent double-counting supply loss; reversible flow impairment can matter without destroyed capacity. |
+| OSPREY / FALCON | Both basis replies received; August runs imply28.3–30.9%; dictionary draft and attacker-axis response ready | 🟠 | Existing~30%,25–35% band unchanged; OSPREY recommends withdrawing33% re-centre. Coverage is independent of attacker/sanctions labels. |
+| MARCO / LABOR / WALTER | Direct CBSA notice archived; HAW21 confirmed; widened CODIF ORANGE | 🟠 | Enacted stage separate from importer exposure, actual collection and employment effects; TRADE02 ORANGE unchanged. |
+| HANS / BRENT | Edison August28 affected-buyer primary confirms extension into early November | 🟠 | LNG contract exposure; no QatarEnergy operator notice or global loss estimate implied. |
+| PROME / DAEDALUS | Approved controls implemented;14 as-made misses investigated; HAW19 repair DRAFT | 🟡 |12 confidence matches,2 provenance limits; HAW01 dropped premise and HAW18 scoring require disposition. No original register edit. |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | Effect on view |
 |---|---|---|---|---|
-| Canada Gazette / CBSA | Registration identifiers/dates and direct-host receipt | September9; fallback September11 | Separate operative inference from registration proof | Reconcile contrary evidence; not an OPEN HAW21 deferral |
-| OSPREY / FALCON | Basis-audit confirmation; OSPREY September8 CPC rung | September11 review | Owner measures and institutionalisation status | No band re-centre without separate ruling; missing rung UNKNOWN |
-| WALTER / PROME | Qatar COR-20260908-04 receipt complete | September11 source review | Named row has no date-cap; QatarEnergy primary still UNKNOWN | Register-backed local closure, source gap retained |
-| BRENT | Existing STEO table read; east-of-Suez share; Pearl GTL primary | STEO expected September9; other watches open | Window duration and exposure scale | Grade registered N6 only from actual published table |
-| PROME / Will | HAW19 defect / HAW18 scoring-vintage disposition | September11 review; original prediction deadlines remain | Registered text/scoring authority | No local amendment inferred |
+| Official sources / HAWK | Canada SOR, QatarEnergy notice, missing dormant evidence legs | September11 review | Complete specific source gaps | Partial review dates do not certify whole rows fresh. |
+| OSPREY / FALCON | Dictionary confirmations; OSPREY August24 durability disposition | September11 review | Comparable count units and observation closure | No HAWK peer-gate re-grade. |
+| BRENT | Actual STEO table; matching Vortexa week; CPC share; Pearl horizon | STEO expected September9, others September11 review | Duration, flow and exposure evidence | Existing N6 only; missing table UNKNOWN. |
+| PROME / Will | HAW01 premise, HAW04/05 provenance, HAW18 scoring, HAW19 defect/draft | September11 review before September14 sitting | Registration/calibration integrity | Preserve original predictions until explicit disposition. |
 
 ## VIEW
 
-- **HAW21 confirmed** on its unchanged letter: P.C.2026-0785/0786 and primary-indexed CBSA26-23 September7 paragraph4 support September8 application. Finance commodity scope exactly matches629 unique items;21/195/413 at15/25/50%. CA$27.6B **currency inferred**; importer remission/exceptions retained. Existing autos are not a new general September8 event. `thesis/2026-09-08_HAW-21_ADJUDICATION.md`.
-- **FALCON September7 owner evidence:** total losses2 after empty Kylo sunk September5, with no proven crude-production loss. Gate1 negative now rests on mobile-logistics/production-asset distinction, not absence of energy claims. OSPREY's latest September2 synthesis still separates reversible export impairment from capacity destruction. No pooled unlike counts; source vintages explicit.
-- **Late September8 WALTER reports:** Saudi energy interruptions and Saratov fire require incremental-loss/operating-status adjudication by FALCON/OSPREY/BRENT. Prior shutdown nameplate cannot be counted again; older no-proven-loss briefs do not certify these new events. KB-313/314; no new grade.
-- **ORACLE correction:** transit contracts grade PortWatch prints, not physical strait throughput. Price leg independent of PortWatch; attack contract is a delayed settlement expectation. Those instruments cannot independently confirm physical closure or validate crude supply loss.
-- **Qatar:** HANS September5 relays August31 cancellation extension into early November. Earlier end-September pending decision is superseded; early-November review is estimated and QatarEnergy primary remains UNKNOWN. Crude and LNG are separate molecule exposures, not corroborating measurements of one flow.
-- **Sidi Kerir, BRENT September8:** provisional Kpler full-August total **2.139 mb/d** supersedes the MTD2.3 carry for current interpretation. The **2.17** benchmark is **Vortexa, w/c-August3**. Tracker/cadence mismatch means **NOT RUNNABLE — NO-VERDICT** on BRENT's lag test; it also cannot satisfy HAW19's own matched-flow condition. No sequential-decline or Saudi production-loss inference; multiple wire relays remain one source. `KB-HAWK-312`, `thesis/FALSIFICATION.md` §3.
-- **Insurance:** July22 Hormuz and July21 BlackSea prints are48/49 days old. Historical contrast survives as dated evidence only; current ratio UNKNOWN. Iranian-linked hull coverage is a distinct perimeter. Refreshed source-owned aggregates are in domain/, canonical transmission reconciliation at FLOW19.
+- [CONF owner artifacts September8] OSPREY ledger98 mixed events, FALCON39 facilities plus29 vessel incidents; no pooled capacity-loss count. OSPREY's four latest additions are historical backfills, including a container-ship sinking, not four new September attacks. FALCON eight recent struck hulls means one sunk/seven afloat; campaign losses2. No proven incremental crude-production capacity loss from those counts; no authenticated restart means no double-counting Jazan/Saratov shutdown nameplate.
+- [CONF primary records] Canada HAW21 remains confirmed at original65%, with629 line/rate match and direct CBSA receipt. CODIF is now ORANGE under approved cross-domain widening, actual collection unknown. HAW20 retains its four-instrument set. TRADE01 November10 is a Chinese control-suspension clock; listed US IEEPA duties were terminated by EO14389, not automatically scheduled to restart.
+- [CONF owner reports] CPC September8 observation received: not formalised/not extended, holds with open SIREN cargo/attacker test. Progress IV is sugar; Yanina containers. Russian exports3.46mb/d remain four-week-to-August23 vintage. Oil-at-sea stock is not stationary storage; tank tops remain ASSUMPTION. OSPREY's unsourced May Urals25% claim, inherited from HAWK's frozen SUMMARY, is withdrawn for present use (KB325).
+- Insurance remains stale: Hormuz July22, newest recovered Black Sea1% from August21 Noah→Gibson relay with original assessment date unknown. No current matched ratio. Freight, insurer withdrawal and crude-buyer refusal are separate observations. FALCON's prospective iii-A/iii-B split is useful; actual coverage, cargo and geography still require separate evidence, and HAWK does not approve D75→85.
+- [CONF BRENT September8] Sidi Kpler full-August2.139mb/d versus Vortexa w/c-August3 benchmark2.17 is unlike cadence/tracker; lag test NOT RUNNABLE — NO-VERDICT. ORACLE PortWatch print is not physical throughput. Neither instrument can replace HAW19's matched-flow letter.
 
 ## CALIBRATION
 
-- Conviction: direction-HIGH for HAW21 operative evidence; importer cost/employment level UNKNOWN. No current market-price divergence measured.
-- HAW19 OPEN70% September30, HAW20 OPEN65% October31 unchanged. LEG A reachability/N/M defects remain visible; new tariff codification does not resolve HAW20's down-direction test.
-- Failure patterns: default versus override branch; unit-of-analysis mismatch; stale source carrying a current conclusion. See prediction preamble and LESSONS, not a reconstructed score history.
-- Strong counter-frame: destroyed capacity is too narrow to represent a large reversible flow loss. Response: keep both quantities separate; HAW19's limitations are disclosed, not repaired after evidence.
-- Source consistency checked against owner artifacts and official Canadian records, not brief-versus-STATUS equality. HAW18 scoring-vintage question is not an adopted re-score.
+- Conviction: Canada operative direction high; current flow magnitude and insurance level unknown. No live market-price divergence measured.
+- HAW19 OPEN70% September30; HAW20 OPEN65% October31. HAW19 A-duration/N-M defects are explicit; successor document is a proposal, not a new forecast.
+- Cross-agent tension: proprietary national runs versus plant shutdown cannot be summed. Both owners agree on this audit; August arithmetic changes the case for a re-centre.
+- Uncertain: current dormant evidence legs, matched insurance/flow observations, SIREN cargo, original HAW04/05 provenance. Two unresolved confidence histories are not two demonstrated wrong probabilities.
+- Failure patterns: object-class searches miss events; inherited uncited figures and superseded legal clocks survive without primary review. Frozen history retained; current-use corrections logged.
+- Counter-frame: destroyed capacity is too narrow to capture a large reversible supply loss. Keep irreversible capacity and flow transmission separate; do not repair a forecast after its outcome.
 
 ## NEXT DECISION POINT
 
-September9: expected STEO publication, verify release and apply existing N6 comparison (2027-Q2 OPEC2.38 / ME2.35 mb/d anchors). Missing table means UNKNOWN. Canada documentary follow-up and VEN/TRADE01 due-cadence sweeps also remain; September24 blanket review cannot override per-row45-day clocks.
+September9 expected STEO: verify actual publication and compare existing2027-Q2 OPEC2.38 / MiddleEast2.35mb/d anchors. DECAY at/above, EXTENSION below; no retrieved table means UNKNOWN. Monthly and weekly publication clocks remain separate.
 
 ## WATCH
 
-| Date | Event | Existing test / source limit |
+| Date | Event | Existing condition / limit |
 |---|---|---|
-| September9/11 | Canada documentary follow-up; Qatar primary review; CPC owner observation | SOR/primary/owner evidence unknown until retrieved |
-| September24 | Dormant review | No TRADE02 or CODIF band edit authorized by today's observation |
-| September30 / October31 | HAW19 / HAW20 | Frozen prediction letters, no new probabilities |
-| Early November / ~November9 / Q1-2027 | Qatar / Syria-Russia MOU / Pearl GTL | Estimated review, approximate MOU clock, unverified primary repair horizon |
+| September11 | Source gaps, dictionary, calibration review; AP September29 import-ban lead | Obtain primary text before new grade; partial sweeps remain partial. |
+| September14 /September15 | Calibration sitting /OSPREY gate review | Owner authority; no local probability or gate override. |
+| September24 | Dormant review | Active45-day backstop; superseded CEASEFIRE excluded; missing-leg follow-up remains earlier. |
+| September30 /October31 | HAW19 /HAW20 | Frozen letters; HAW19 draft would need registration before proposed October1 start. |
 
-**Continuity:** earlier catch-up and14 inbox filings are committed at `548ba44e7`; prior read-only/UNCOMMITTED labels are historical. BRENT September8 follow-up integrated and filed this pass; three deferred root packets remain and WALTER lane is empty; later BOARD info signals011/022/023 were read and dispositioned. Instruction read-budget/template/pointer defects repaired inside HAWK. Historical BOARD residual:35 info plus8 action IDs from April24–May21, bodies not consumed; exact audit in `audits/2026-09-08_local-cleanup-board-residual.json`. Remaining schema, mechanism and scoring decisions stay open in STATUS.
+**Continuity:** Guard/Watch_Source, CODIF ownership, dictionary draft and fingerprint checker implemented inside HAWK. Checker caught live OSPREY edits during validation and was tested on production clean/drift/missing-input cases; it does not prove external freshness. Historical43 BOARD gaps,3 duplicate WALTER copies and5 root packets dispositioned; remaining obligations persist in STATUS. FLOW18 routing was already closed July25 to ZHAO/BRENT; stale open wording corrected. MRPL durability, enforcement/PGM feed, direct tankage, BRENT CPC/Pearl, Kharg naming, joint memo/checklist and CSMS heading remain open. EarlyNovember estimated Qatar review, approximate November9 MOU and November10 Chinese-controls clock remain in CATALYSTS. No external message or peer-file edit made.
