@@ -45,6 +45,8 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import agent_freshness  # own-surface age — the grid's health instrument (8/16)
 from heartbeat_projection import apply_amendments
+import desk_attention as da
+from pathlib import Path
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -1195,6 +1197,11 @@ def build(today, now_iso, sessions_json=None):
     tier2_names = " · ".join(n for n, _ in tier2)
     dormant_names = " · ".join(n for n, _ in dormant)
 
+    try:
+        attention_html, attention_errors = da.render(Path(REPO))
+    except Exception as exc:
+        attention_errors = [str(exc)]
+        attention_html = '<div class="parsefail">Attention data unavailable — no all-clear.</div>'
     page = f"""<title>Fleet Ops — PROME</title>
 <style>{CSS}</style>
 <div class="bar">
@@ -1215,6 +1222,8 @@ def build(today, now_iso, sessions_json=None):
 </nav>
 
 <div id="view-ops" role="tabpanel" aria-label="Operations">
+<div class="panel"><p>Local build · hosted publication unverified. <a href="handbook.html">Open the corrected local Helm</a>.</p>
+<details><summary>Broker actions, position coverage, confirmed changes and PROME work</summary>{attention_html}</details></div>
 <section class="regime">
   {''.join('<div class="parsefail">⚠ HEARTBEAT amendment error: ' + esc(e) + '. Current summary and levels withheld; read HEARTBEAT.md.</div>' for e in hb['errors'])}
   <p class="muted">Source: HEARTBEAT base {esc(hb['base'])}{'; ' + esc('; '.join(hb['amendments'])) if hb['amendments'] else ''}. Source dates are separate from this page's build time.</p>
@@ -1264,12 +1273,13 @@ def build(today, now_iso, sessions_json=None):
   disagreement: <code>HEARTBEAT.md</code> (regime) · <code>PROME/GATES.tsv</code> (gates) ·
   <code>PROME/DOCKET.tsv</code> (catalysts) · <code>PROME/ROSTER.md</code> +
   <code>AGENTS/DAEDALUS/FLEET_MAP.tsv</code> (fleet) · <code>AGENTS/&lt;NAME&gt;/STATUS.md</code>
-  (agent state). Position/trade data excluded by design (position truth is off-repo).
+  (agent state). Position/action views derive from FORGE and linked receipts; broker truth remains off-repo.
   Market levels carry their [as-of] stamps — weekend/stale vintages are shown, not hidden.
   Regenerate: <code>python3 PROME/tools/fleet_dashboard.py</code> → republish (same URL).
 </div>
 <script>{AGE_JS}</script>
 """
+    cur_snapshot["attention_errors"] = attention_errors
     return page, cur_snapshot
 
 
@@ -1283,14 +1293,14 @@ def main():
     html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"), args.sessions_json)
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(html_out)
-    if not args.no_snapshot and not snap["heartbeat_errors"]:
+    if not args.no_snapshot and not snap["heartbeat_errors"] and not snap.get("attention_errors"):
         with open(STATE_PATH, "w", encoding="utf-8") as f:
             json.dump(snap, f, indent=1, sort_keys=True)
             f.write("\n")
         print(f"wrote {args.out}; updated {os.path.relpath(STATE_PATH, REPO)}")
     else:
         print(f"wrote {args.out}; change baseline unchanged")
-    return 1 if snap["heartbeat_errors"] else 0
+    return 1 if snap["heartbeat_errors"] or snap.get("attention_errors") else 0
 
 
 if __name__ == "__main__":

@@ -3,10 +3,10 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **September8 close:** XLE64.77 selects the existing September9-open sale of both recorded65C; verify current broker holdings/orders, execute and return fill truth. TLT85P requires current Activity & Orders and actual count before replacement2.60 limit.
-- **Owner follow-through:** WALTER cutover/corrections, TERRY management and HAWK Canada grade are committed. BRENT completed source-limited oil write-back. Details and caveats: `PROME/reports/2026-09-08_owner-orchestration-completion.md`.
-- **Observation dates matter:** TERRY007 official grades endSeptember4, counter0/5/no add;September8 unpublished. CboeSeptember8 and PJM post23:59 outcome remain ungraded. EIA weekly petroleum moves toSeptember10 noonET for Labor Day.
-- **Existing rulings:** stand-down remains binding. Do not re-ask WQ-167 USO sale price or WAL GTC. Current open decisions come from the generated queue; prior closed rows are not fresh requests.
+- **Broker actions first:** the generated action list separates approval, order and fill evidence. Check the expiring QQQ contract and unresolved XLE/TLT execution records there.
+- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The retired USO call rule does not cover shares.
+- **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
+- **Decisions:** current approvals come from WILL_QUEUE. Previously ruled items are not fresh requests; permanent unknowns are not repeated asks.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
@@ -24,7 +24,7 @@
 - **Friday's graded tests run in their desks' own windows** once spawned — the gold test, positioning data, the bond-test close; none needs a separate word beyond the spawns above.
 
 ## The daily flow
-- **Open the Helm, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
+- **Open the Helm, Your desk tab.** Check Broker actions and management gaps even when no new ruling is needed; zero pending approvals is not an all-clear. The brief tab has the story when you want it.
 - **Fleet Ops is the instrument panel** — gauges, gates, who's stale. Look when you want to know how the machine is running, not what it needs.
 - The standalone Desk-brief page is RETIRED [your word, 8/21] — its old URL shows a pointer here; the brief tab is the brief now.
 
@@ -59,7 +59,7 @@
 - **`PROME/WILL_QUEUE.md`** — your open-items ledger (the brief's top section renders it).
 - **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching.
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
-- **`HEARTBEAT.md`** — the market-regime memo (PROME-written, your-word-gated).
+- **`HEARTBEAT.md`** — the market-regime memo (PROME-maintained under its existing grant; new trade decisions still require your approval).
 - **Everything on your two pages is DERIVED** — command compression built from the canon files above; on any conflict the owner file wins [the same banner sits atop the market memo itself since 8/22].
 - **Your pages, two:** the Helm (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
 

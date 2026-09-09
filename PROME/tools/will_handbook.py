@@ -36,6 +36,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import desk_attention as da
 import will_brief as wb  # noqa: E402  (parsers + md_inline; ONE parser family)
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -413,88 +414,22 @@ def _expiry_days(txt):
 
 
 def parse_positions(gate_rows):
-    """FORGE/STATUS.md position tables → book-strip rows. Column-NAME driven (two
-    schemas live in the file: Ticker|Type|... and Strike|Expiry|... under ###
-    ticker headings). CONSERVATIVE BY CONTRACT (PROME FORGE-owner rider, 8/21):
-    any surprise → alert + omit, never a quiet wrong number; vintage/staleness is
-    rendered from parse_money()'s read of the file's OWN header, never restated
-    here (PAT-068). Gate join: first GATES row naming the ticker as a word."""
-    p = ROOT / "FORGE" / "STATUS.md"
-    try:
-        lines = p.read_text(encoding="utf-8").splitlines()
-    except Exception as e:
-        alert("positions", f"FORGE/STATUS.md unreadable: {e}")
-        return []
-    out, cols, ticker_ctx, section, skipped = [], None, None, "", 0
-    for ln in lines:
-        s = ln.strip()
-        if s.startswith("## "):
-            section = s[3:].split("—")[0].split("(")[0].strip()
-            cols, ticker_ctx = None, None
-        elif s.startswith("### "):
-            m = re.match(r"### \*{0,2}([A-Z]{1,6})\b", s)
-            ticker_ctx = m.group(1) if m else None
-            cols = None
-        elif s.startswith("|"):
-            raw_cells = [c.strip() for c in s.strip("|").split("|")]
-            cells = [re.sub(r"\*\*|~~|`|\*", "", c).strip()
-                     for c in raw_cells]
-            if cols is None:
-                if "Qty" in cells and ("Ticker" in cells or "Strike" in cells):
-                    cols = {}
-                    for i, name in enumerate(cells):
-                        cols[name.split()[0] if name else f"_{i}"] = i
-                continue
-            if all(re.fullmatch(r":?-+:?", c or "-") for c in cells):
-                continue
-            if len(cells) < max(cols.values()) + 1:
-                skipped += 1
-                continue
-
-            def g(name):
-                return cells[cols[name]] if name in cols else ""
-
-            # FORGE uses struck identity/quantity cells for historical closures.
-            # Keep that state before removing Markdown, or closed options look live.
-            if any("~~" in raw_cells[cols[name]] for name in ("Ticker", "Strike", "Type", "Qty")
-                   if name in cols) or re.fullmatch(r"0(?:\.0+)?", g("Qty")):
-                continue
-            if re.search(r"\b(?:CLOSED|EXPIRED|ASSIGNED|EXERCISED|REALIZED)\b",
-                         g("P&L") or g("Outcome") or g("State"), re.I):
-                continue
-
-            tick = (g("Ticker") or ticker_ctx or "").split()[0] if (g("Ticker") or ticker_ctx) else ""
-            if not re.fullmatch(r"[A-Z]{1,6}", tick):
-                continue
-            pos = g("Strike") or g("Type") or ""
-            exp_txt = g("Expiry") or pos
-            pl_raw = g("P&L") or g("P&L%") or ""
-            pl = re.search(r"[+\-−]\s?\$?[\d,]+(?:\.\d+)?%?(?:\s*/\s*[+\-−][\d.]+%)?", pl_raw)
-            # prefer-LIVE-then-fall-back (PROME v2 nit, 8/21 eve): a dead gate
-            # naming the ticker must never read as "watching it" — a RESOLVED/
-            # RETIRED chip under that header implies active coverage that isn't
-            # there, while the real LIVE watcher may be keyed on a series that
-            # never names the ticker string at all (TLT's is DGS10-keyed).
-            named = [r for r in gate_rows if re.search(rf"\b{tick}\b", "\t".join(r[:6]))]
-            live_g = next((r for r in named if r[5].split()[0].startswith(("LIVE", "FIRED"))), None)
-            dead_g = named[0] if named else None
-            if live_g is not None:
-                gate = {"id": live_g[0], "state": live_g[5].split("(")[0].split()[0], "live": True}
-            elif dead_g is not None:
-                gate = {"id": dead_g[0], "state": dead_g[5].split("(")[0].split()[0], "live": False}
-            else:
-                gate = None
-            out.append({
-                "section": section, "ticker": tick,
-                "pos": wb.ell(pos if pos != tick else "Stock", 22),
-                "qty": g("Qty"), "pl": pl.group(0).replace(" ", "") if pl else "—",
-                "exp_days": _expiry_days(exp_txt),
-                "gate": gate,
-            })
-    if not out:
-        alert("positions", "FORGE position tables parsed to ZERO rows — schema changed, strip omitted")
-    if skipped:
-        alert("positions", f"{skipped} ragged position row(s) skipped — verify FORGE tables")
+    """Exact-contract holdings and coverage; all FORGE table schemas supported."""
+    rows, errors = da.coverage(ROOT)
+    for error in errors:
+        alert("positions", error)
+    out = []
+    for r in rows:
+        gates = r['gates']
+        gate = None
+        if gates:
+            gid, state, _ = gates[0]
+            gate = {'id': gid, 'state': state.split()[0],
+                    'live': state.startswith(('LIVE', 'FIRED'))}
+        exp = dt.date.fromisoformat(r['expiry']) if r['expiry'] else None
+        out.append(dict(section=r['account'], ticker=r['ticker'], pos=r['instrument'],
+                        qty=r['qty'], pl=r['pl'], exp_days=(exp - dt.date.today()).days if exp else None,
+                        gate=gate, observation=r['observation']))
     return out
 
 
@@ -577,7 +512,7 @@ def render_brief_tab(written, brief, feed, first, money, positions):
                  f"{money['age']}d old — not live, re-check before any fill</div></div>")
     if positions:
         h.append("<div class='tw'><table class='postab'><tr><th>Pos</th><th>Qty</th>"
-                 "<th>P&amp;L</th><th>Expiry</th><th>Watching it</th></tr>")
+                 "<th>P&amp;L</th><th>Expiry</th><th>Explicit gate mapping</th></tr>")
         for p in positions:
             plc = "pl-neg" if p["pl"].startswith(("-", "−")) else ("pl-pos" if p["pl"].startswith("+") else "")
             expd = p["exp_days"]
@@ -590,17 +525,12 @@ def render_brief_tab(written, brief, feed, first, money, positions):
                 gch = (f"<span class='gchip'>no LIVE gate — last: "
                        f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>")
             else:
-                gch = "<span class='gchip'>no gate names it</span>"
-            h.append(f"<tr><td><strong>{html.escape(p['ticker'])}</strong> "
-                     f"{html.escape(p['pos'])}</td><td>{html.escape(p['qty'])}</td>"
+                gch = "<span class='gchip'>No explicit gate mapping verified</span>"
+            h.append(f"<tr><td>{html.escape(p['section'])}<br><strong>{html.escape(p['ticker'])}</strong> "
+                     f"{html.escape(p['pos'])}<br><small>{html.escape(p['observation'])}</small></td><td>{html.escape(p['qty'])}</td>"
                      f"<td class='{plc}'>{html.escape(p['pl'])}</td>"
                      f"<td>{exp}</td><td>{gch}</td></tr>")
-        h.append("</table></div>"
-                 "<p class='hint'>Marks inherit the broker-export vintage above — never fill "
-                 "against them. 'Watching it' = the first LIVE/FIRED GATES.tsv row naming the "
-                 "ticker; a dead gate never renders as watching — 'no LIVE gate' says so and "
-                 "names the last one; 'no gate names it' means no registered action-gate "
-                 "mentions this position at all.</p>")
+        h.append("</table></div><p class='hint'>Each holding carries its source date and account limitations. Explicit gate mappings are contract-specific; a LIVE rule does not prove a working broker order. Full management gaps and next reviews appear on Your desk.</p>")
     if brief.get("POSITION"):
         h.append("<div class='prose'>" + wb.md_block(brief["POSITION"]) + "</div>")
     h.append("</section>")
@@ -608,7 +538,7 @@ def render_brief_tab(written, brief, feed, first, money, positions):
     return "\n".join(h)
 
 
-def render(sections, dec, chore, dates, brief_tab_html, board):
+def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""):
     now = dt.datetime.now().astimezone()
 
     def take(prefix):
@@ -629,14 +559,14 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
     h = ["<title>The Helm</title>", f"<style>{CSS}</style>", "<div class='wrap'>"]
     n_w, n_s = len(live_dec), len(spawns)
     summary = (f"{n_w} word{'s' if n_w != 1 else ''} needed · "
-               f"{n_s} desk{'s' if n_s != 1 else ''} to spawn")
+               f"{n_s} desk review{'s' if n_s != 1 else ''} listed · broker actions below")
     h.append(
         "<header class='mast'><div class='eyebrow'>PROME · the operator's seat</div>"
         "<h1>The Helm</h1>"
         f"<div class='sum'>{html.escape(summary)}</div>"
         "<div class='clocks'>"
         f"<span id='built' data-built='{now.isoformat(timespec='minutes')}'>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
-        "<span>live sections generated from WILL_QUEUE / DOCKET</span>"
+        "<span>Source dates appear with each record · local build; hosted publication unverified</span>"
         f"<a href='{FLEETOPS_URL}'>Fleet Ops →</a>"
         "</div></header>")
 
@@ -665,6 +595,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
              "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
              "</nav>")
     h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
+    h.append(attention_html)
     h.append("<div class='colmain'>")
 
     # -- live: waiting on you ---------------------------------------------------
@@ -695,16 +626,16 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
         # (Class 10's shape) — badge any desk that COMMITTED after the row was
         # written, so a satisfied row can't silently pose as pending.
         hb_ts = _git_ts("PROME/HANDBOOK.md")
-        h.append(f"<section><h2>Spawn queue — {n_s} desks, decay order</h2>"
+        h.append(f"<section><h2>Desk follow-through — {n_s} recorded entries</h2>"
                  "<div class='spawns'>")
         for s in spawns:
             chip = "chip warn" if s["when"].lower().startswith("before") else "chip"
             ran = ""
             d_ts = _git_ts(f"AGENTS/{s['name']}")
             if hb_ts and d_ts > hb_ts:
-                ran = (f"<span class='chip ran'>desk ran "
+                ran = (f"<span class='chip ran'>owner commit "
                        f"{dt.datetime.fromtimestamp(d_ts):%-m/%-d %-I:%M%p} — "
-                       "row may be satisfied</span>")
+                       "files changed; completion unverified</span>")
             h.append("<div class='spawn'>"
                      f"<div class='top'><span class='nm'>{html.escape(s['name'])}</span>"
                      f"<span class='{chip}'>{html.escape(s['when'])}</span></div>"
@@ -831,8 +762,15 @@ def main():
                      "<div class='degraded'>brief tab failed to build — "
                      f"{html.escape(str(e))}</div></div>")
 
+    try:
+        attention_html, attention_errors = da.render(ROOT)
+        for error in attention_errors:
+            alert("attention", error)
+    except Exception as exc:
+        alert("attention", str(exc))
+        attention_html = "<div class='degraded'>Attention data unavailable — no all-clear.</div>"
     out = Path(a.out)
-    out.write_text(render(sections, dec, chore, dates, brief_tab, board), encoding="utf-8")
+    out.write_text(render(sections, dec, chore, dates, brief_tab, board, attention_html), encoding="utf-8")
     n = len(ALERTS)
     if n:
         print(f"handbook: REVIEW — {n} ⚠️  ({'; '.join(l for l, _ in ALERTS)}) · wrote {out} ({out.stat().st_size}B)")
