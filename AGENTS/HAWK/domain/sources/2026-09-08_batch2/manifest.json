@@ -1,0 +1,77 @@
+{
+  "scope": "Public snapshots; dynamic listing absence does not prove no notice",
+  "sources": [
+    {
+      "file": "canada-order.html",
+      "url": "https://orders-in-council.canada.ca/attachment.php?attach=48943&lang=en",
+      "bytes": 57589,
+      "sha256": "a7e5b1af3171fa6ee64ca2d8cd44826cf58637357562f6e98b8885a3e21f71bf",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.048986+00:00"
+    },
+    {
+      "file": "canada-steel-order.html",
+      "url": "https://orders-in-council.canada.ca/attachment.php?attach=48944&lang=en",
+      "bytes": 43413,
+      "sha256": "1c7238fcd5b67d22378f35f2a056f53105e45b90ab1b1c2d23b706cb28be1770",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.049201+00:00"
+    },
+    {
+      "file": "cbsa26.html",
+      "url": "https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn26-23-eng.html",
+      "bytes": 45237,
+      "sha256": "0a618606dd9128f453b7dfdcedc19707cfa23ee69d187127402850ca46733afd",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.049483+00:00"
+    },
+    {
+      "file": "cbsa-steel.html",
+      "url": "https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn25-11-eng.html",
+      "bytes": 42640,
+      "sha256": "5e1c39fcbc05b0d29da6ec2a495096b8c016e5070e7f5e27c1ecb80468348e78",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.049649+00:00"
+    },
+    {
+      "file": "gazette-index.html",
+      "url": "https://gazette.gc.ca/rp-pr/p2/2026/index-eng.html",
+      "bytes": 26989,
+      "sha256": "f53d53abdade1ea4130419179e50104d8dcb71281248ff336419e4b824c15571",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.049758+00:00"
+    },
+    {
+      "file": "navy149.pdf",
+      "url": "https://navy.mnd.gov.tw/Files/Others/26-149%28%E6%B0%91-%E5%90%AB%E9%99%84%E4%BB%B6%29.pdf",
+      "bytes": 767486,
+      "sha256": "7766416410bb67d4352389d7eaef087a19258167246b4dc587fcf5a5763c462e",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.051182+00:00"
+    },
+    {
+      "file": "navy153.pdf",
+      "url": "https://navy.mnd.gov.tw/Files/Others/26-153%28%E6%B0%91-%E5%90%AB%E9%99%84%E4%BB%B6%29.pdf",
+      "bytes": 640819,
+      "sha256": "8bb1e4285e076326aa44a995b081a17d0d3260c6aecba90cf1788914c315a2ad",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.052493+00:00"
+    },
+    {
+      "file": "qatar-news.html",
+      "url": "https://www.qatarenergy.qa/en/MediaCenter/Pages/News.aspx",
+      "bytes": 103462,
+      "sha256": "f82f5f8595d7fb2ac58f218e28f6fcf3e55e5c6128a6c0445e89e9e84cfb5258",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.052721+00:00"
+    },
+    {
+      "file": "qatar-lng-news.html",
+      "url": "https://www.qatarenergylng.qa/english/media/news",
+      "bytes": 135542,
+      "sha256": "9cee5075b055c10b574b73779ae926af3404c69756ce09409edd01c1d473559b",
+      "retrieved_date_ET": "2026-09-08",
+      "archived_at_UTC": "2026-09-09T03:11:12.053417+00:00"
+    }
+  ]
+}

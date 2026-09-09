@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-09-09T03:18:57.233778+00:00",
+  "result": "PASS",
+  "prediction_bytes_unchanged": true,
+  "prediction_sha256": "e43100cb26bd00f1a65880876ee3fdaa5f6197d6873586355169c923fd6a14be",
+  "kb_existing_rows_unchanged_except": "KB321 and327 Status/Notes only; original count/retrieval facts preserved with supersession pointers",
+  "new_kb_ids": "337\u2013346",
+  "new_kb13columns": true,
+  "historical_kb_shape_defects": "Preserved frozen pre-split rows; no assertion that whole legacy ledger is schema-clean",
+  "vx10rows_bands_unchanged": true,
+  "only_vx_row_updated": "TWNMIL Current_Value/Status/Source/Watch_Source",
+  "pdfs": {
+    "149": {
+      "pages": 5,
+      "table_date_checked": true,
+      "table_visually_inspected": true
+    },
+    "153": {
+      "pages": 3,
+      "table_date_checked": true,
+      "table_visually_inspected": true
+    }
+  },
+  "offline_verifier": {
+    "result": "PASS",
+    "source_hashes": 9,
+    "commodity_matches": 629,
+    "rate_counts": {
+      "15": 21,
+      "25": 195,
+      "50": 413
+    },
+    "synthetic_n6_cases": 5,
+    "synthetic_loss_cases": 8,
+    "calendar_and_brier_assertions": 3,
+    "limitation": "DRAFT examples only; no live rule, data access or forecast calibration certified"
+  },
+  "checks": {
+    "corrections": "0 unreceipted named rows",
+    "ledgers": "no stale alert in scanned perimeter",
+    "weekday": "six files clean",
+    "readcap": "five whole-read surfaces under32550B",
+    "consumer": "external clean; own checker still matches historical KB327 phrase despite explicit SUPERSEDED status and successor note; inspected and retained history; late100 count reconciled on current surfaces, KB321 superseded by346; earlier dated audits retained as snapshots",
+    "derived": "PASS nine inputs/eleven edges after concurrent owner briefs reconciled; external freshness excluded",
+    "orphan": "no authored external orphan; peer changes excluded"
+  },
+  "limitations": [
+    "No new rule/forecast/scoring mark enacted",
+    "General Canadian SOR and Gazette registration dates still missing; steel SOR supported by CBSA",
+    "QatarEnergy seller letter still unretrieved",
+    "Taiwan-own scheduled notices do not prove PLA action or commercial rerouting",
+    "No usable matched vendor fixture or calibrated65%",
+    "Two owner packets retain dated follow-up; no peer message sent"
+  ],
+  "late_owner_delta": {
+    "osprey_rows": 100,
+    "falcon_facilities": 39,
+    "falcon_vessel_incidents": 29,
+    "source_commit": "2a2ae41e4",
+    "effect": "Kstovo backfill and unnamed Novorossiysk report; no new measured capacity-loss or premium"
+  }
+}
