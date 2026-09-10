@@ -2482,3 +2482,9 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-10T14:41:32Z	SIG-W-20260910-005	LABOR	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LABOR/inbox/WALTER/SIG-W-20260910-005.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
 2026-09-10T14:41:32Z	SIG-W-20260910-006	VULCAN	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260910-006.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
 2026-09-10T14:41:32Z	SIG-W-20260910-006	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-006.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	FALCON	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	BRENT	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	HAWK	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	SAM	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	HENRY	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T15:10:06Z	SIG-W-20260910-007	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-007.md	written_not_delivered_pending_push	9/10 full-sweep dispatch; consumption unverified

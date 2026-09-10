@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-10 ~11:0x ET (Thu) — Full-WALTER boot + routing session. BOARD 920 (+6 today: SIG-W-20260910-001…006, 25 handoffs). Doorbell → PROME on FALCON/BRENT/BOND/CARL; HANS + LABOR found IN-FLIGHT under PROME. Local commits; **push DEFERRED** behind foreign uncommitted work (HANS, LABOR, PROME, DAEDALUS).
+**Updated:** 2026-09-10 ~11:0x ET (Thu) — Full-WALTER boot + routing session. BOARD 921 (+7 today: SIG-W-20260910-001…007, 31 handoffs). Doorbell → PROME on FALCON/BRENT/BOND/CARL; HANS + LABOR found IN-FLIGHT under PROME. Local commits; **push DEFERRED** behind foreign uncommitted work (HANS, LABOR, PROME, DAEDALUS).
 
 ## BOTTOM LINE
 
-The tanker war escalated 9/8 and the tape followed: Brent settled $101.21 (+3.4%) 9/9 and BZX26 printed $104.70 (+3.45%) intraday 9/10; CENTCOM's own account says the Riesco SANK 9/8 while FALCON's ledger still reads AFLOAT — routed IMMEDIATE to FALCON/BRENT (SIG-W-20260910-001), Houthi seizure of Mokha PRIORITY to FALCON (-002). ECB hiked to 2.50 (HANS-T-04 not met; HANS graded it itself, in flight), UK 30Y gilt 5.94 is 6bp from HANS-T-13 orange (-004, HANS+BOND), August PPI +0.4/diesel +24.1 and claims 206K carry no fire (-005 → CARL). Iran anchor: scoped check stamped 9/10; the FULL primary sweep owed since ~9/7 is STILL owed. Push deferred — foreign uncommitted work on the tree.
+The tanker war escalated 9/8 and the tape followed: Brent settled $101.21 (+3.4%) 9/9 and BZX26 printed $104.70 (+3.45%) intraday 9/10; CENTCOM's own account says the Riesco SANK 9/8 while FALCON's ledger still reads AFLOAT — routed IMMEDIATE to FALCON/BRENT (SIG-W-20260910-001), Houthi seizure of Mokha PRIORITY to FALCON (-002). ECB hiked to 2.50 (HANS-T-04 not met; HANS graded it itself, in flight), UK 30Y gilt 5.94 is 6bp from HANS-T-13 orange (-004, HANS+BOND), August PPI +0.4/diesel +24.1 and claims 206K carry no fire (-005 → CARL). Iran anchor: FULL sweep done 9/10 on Will's word (7 signals today; -007 IMMEDIATE on two non-Iranian hulls hit 9/9). Push deferred — foreign uncommitted work on the tree.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
@@ -18,7 +18,7 @@ Every level below carries its own observation date; FRED series are T+1 and a bo
 - **Claims 206K w/e 9/5 [DOL 9/10; LABOR graded in flight]** — RED-FT-05 (>250) and REG-T-05 (>300) not met. **PPI Aug +0.4% m/m, +5.4% y/y, energy +4.2, diesel +24.1, ex-FET +0.3/+4.7% [BLS 9/10]**. RED-FT-08 grades on CPI 9/11 08:30 ET.
 - **T5YIFR 2.33 [9/9]** (FT-09 >2.55 far) · DGS10 4.80 / DFII10 2.43 / DGS30 5.25 [9/8] · SOFR−IORB −1bp [9/8] (REG-T-08 far) · USD/JPY 153.94 [9/10].
 - **HANS board [9/10 TE intraday unless noted]:** UK 30Y **5.94** (T-13 orange 6.00: **6bp**) · UK 10Y **5.36** (T-06 orange 5.50: **14bp**) · Bund 3.44 (HANS's own 9/10 read 3.4879; T-05 watch open) · TTF **80.90–81.00** new leg high (T-07 L2 open, L3 100 far) · EU storage gap **−14.7pp [gas day 9/8, GIE AGSI+]** — inside the T-08 15pp band; HANS-F-004 exit grade is HANS's · EURUSD 1.16 (T-11 far) · T-04 ECB deposit **2.50 [9/10]** NOT MET (≥2.75), next GovC 10/29 per HANS.
-- **CREED-T:** office DQ 12.00 [Aug Trepp] = not ">12"; no new fire. **Iran:** anchor lead stamped 9/10 (scoped); full sweep owed. GATE 1 firm-negative; GATE 2 fired 9/5; Riesco adjudication → FALCON.
+- **CREED-T:** office DQ 12.00 [Aug Trepp] = not ">12"; no new fire. **Iran: FULL PRIMARY SWEEP DONE 9/10 ~15:3xZ** (`research/2026-09-10_iran-full-sweep.md`; anchor verified-as-of 9/10, ADDENDUM #24, 17,489 B). GATE 1 firm-negative; GATE 2 fired 9/5 (losses 2; Riesco corroborated, FALCON's word owed). **NEW 9/9: Hercules Star hit at the Dubai anchorage (1 dead, 1 missing) + VLCC New Andros ablaze off Al-Faw — neither in FALCON's ledger → SIG-W-20260910-007 IMMEDIATE; rung trigger (c) is FALCON's to read.** Next re-verify ~9/17.
 
 ## MISSION
 
@@ -34,7 +34,7 @@ WALTER filters, classifies and routes external information, and monitors receivi
 
 ### Today's routing + stale agents
 
-September 10: 6 BOARD signals (001 IMMEDIATE Iran tanker war + tape → FALCON/BRENT; 002 PRIORITY Mokha → FALCON; 003 PRIORITY ECB → HANS; 004 PRIORITY gilts/TTF/storage near-trigger → HANS+BOND; 005 IMMEDIATE PPI/claims → CARL; 006 ROUTINE Kioxia → VULCAN), 25 handoffs, 0 kills, 0 verify-spawns, 0 cluster-mediating signals. Intake lane 15/15 dispositioned (BM-20260910-01 CLOSED: 1 DISPATCH, 3 FOLD, 4 DUP, 4 KILL stale-date, 3 NO-ACTION). Doorbell: FALCON, BRENT, BOND, CARL (P0.L1.L2.L3a, YES); HANS P0-FAIL (in flight); VULCAN L3-FAIL.
+September 10: 7 BOARD signals (007 IMMEDIATE Hercules Star / New Andros → FALCON/BRENT, from the Will-directed full Iran sweep; 001 IMMEDIATE Iran tanker war + tape → FALCON/BRENT; 002 PRIORITY Mokha → FALCON; 003 PRIORITY ECB → HANS; 004 PRIORITY gilts/TTF/storage near-trigger → HANS+BOND; 005 IMMEDIATE PPI/claims → CARL; 006 ROUTINE Kioxia → VULCAN), 25 handoffs, 0 kills, 0 verify-spawns, 0 cluster-mediating signals. Intake lane 15/15 dispositioned (BM-20260910-01 CLOSED: 1 DISPATCH, 3 FOLD, 4 DUP, 4 KILL stale-date, 3 NO-ACTION). Doorbell: FALCON, BRENT, BOND, CARL (P0.L1.L2.L3a, YES); HANS P0-FAIL (in flight); VULCAN L3-FAIL.
 
 Liveness at 14:3xZ: ListAgents = PROME only; ORCH_INFLIGHT (generated 9/7) = DAEDALUS only; **`git status` showed HANS + LABOR (+PROME, DAEDALUS) modified in-session = in flight under PROME's WQ-184 driver.** A stale generated view plus an in-process spawn is invisible to both instruments; the working tree was the tell.
 
