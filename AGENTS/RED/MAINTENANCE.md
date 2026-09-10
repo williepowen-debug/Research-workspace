@@ -4,6 +4,26 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S42 — 2026-09-09 ~21:1x ET
+
+**Trigger:** PROME Tier-1 due-row spawn on DOCKET **L275** (WQ-184 L0 rule — a registered dated row naming the desk IS the approval). FT-10 published-bar owner follow-up + a 3-packet inbox drain.
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| **`STATUS.md` rotated under the READ_CAP budget.** The S42 FT-10 grade pushed it to **34,679 B** — over the **32,550 B budget** (cap 54,250 B), `read_cap_check.py` 🟠. Two blocks rotated out **VERBATIM, crc-stamped, nothing edited**: the S41 `[Prior]` header line (1,487 B, crc32 `4219352712`) and the S29 closing reflection (2,139 B, crc32 `2119793974`). Both are content-duplicated on live surfaces (§ CURRENT ASSESSMENT + the hypothesis table; `reports/2026-08-12_S29-S30_status_narrative_archive.md`). Result **31,915 B, READ-CAP 0 ✅**. | `STATUS.md`, **new** `reports/2026-09-09_S41-header_S29-reflection_folded.md` | STATUS stays a boot whole-read and is now under budget. Two pointer lines replace the folded blocks — **the pointers are the only new boot bytes.** |
+| **FT-10 card re-graded by the owner** (state col 8, `last_reviewed` col 16 → 2026-09-09, grade text appended to col 17). **No clause amended, no threshold or sustain moved.** | `registry/FALSIFICATION_TRIGGERS.tsv` | boot.py reads the card live; `gen_trigger_scan.py` re-run — **SCAN view regenerated, 12 rows, 15,210 B (22% of canon)**. `schema_check.py` ✅ ALL CONFORM. |
+| **New owner-grade research doc** — the run that broke, which bar broke it, next countable bar, earliest fire, and the `boot.py`-reads-the-publisher confirmation at line numbers. | **new** `research/2026-09-09_FT10_RUN_BROKEN_OWNER_GRADE.md` | Not boot-read; cited from STATUS, the card, OUTBOX and NEXUS. |
+| **`RED-23` amended pre-data** (append-only, both vintages left readable per the S25 rule the row invoked at registration). Confidence **HELD at 60%** — basis changed, number did not. | `workbook/PREDICTIONS.tsv` | DUE-scan unaffected (`Timeframe` cell untouched, still `2026-11-XX`). |
+| **Workbook + log rows:** ML-RED-231/232/233, KB-RED-094/095/096, 3 `board_log` dispositions (`source=INBOX_GENERAL`). | `workbook/ML.tsv`, `workbook/KB.tsv`, `board_log.tsv` | ⚠️ **`board_log.tsv` is at 28,378 B pre-append = 52% of cap, rotate-tier (≥75% of budget).** Not rotated this session — **flagged, owed at the next full closeout.** |
+| **3 inbox packets consumed and `git mv`'d** to `inbox/processed/` (2 LABOR, 1 ORACLE). Top-level inbox → 0; `inbox/WALTER/` was already 0. | `inbox/` → `inbox/processed/` | Boot 5.6 general-inbox scan reads clean next boot. |
+| **Carve-out ① packets authored + committed:** VIOLET (FT-10 reset, ≤5 lines) and the PROME delivery memo. **No file outside `AGENTS/RED/` was edited.** | `AGENTS/VIOLET/inbox/2026-09-09_from-RED_ft10-run-broken-count-is-zero.md`, `PROME/inbox/2026-09-09_from-RED_ft10-run-broken-owner-grade.md` | None. |
+
+**NOT done this session, and stated rather than left to look done:** the **boot 1.5 BOARD scan** — `boot.py` §⑤ reports **23 RED-addressed signals newer than the last disposition (2026-09-06), 2 of them action-addressed**. This was a **bounded FT-10 + inbox spawn**, not a full boot; the backlog is real, is dated, and is owed at the next full session. ⚠️ Compounding it: §⑤ itself is the **specified-not-built** check flagged at S41 — it is not set-difference based and **will read green while a backlog exists**, so its current 🔴 is informative but its future 🟢 is not.
+
+**Also still open (carried, not re-derived):** nothing compares `METRIC_MAP` against each registry row's `instrument_basis` cell. FT-10 was mis-wired to the disqualified mirror for four days **with the correct basis written on its own card** — the card and the code disagreed and **no check reads both**. Specified-not-built since S41; survives S42.
+
+---
+
 ## S40 — 2026-09-02 ~23:0x ET
 
 **Trigger:** PROME wave-4 spawn (Will 22:43, *"Spawn the next six"*); WQ-162 RULED; five inbox packets (PROME · VIOLET · BOND · CORAL · NEXUS).

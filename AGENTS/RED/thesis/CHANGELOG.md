@@ -4,6 +4,28 @@
 
 ---
 
+## S42 — 2026-09-09 ~21:1x ET — **NO WEIGHT MOVED (net-bear 58, confidence 68 stand). A REGISTERED-TRIGGER STATE CHANGED: `RED-FT-10`'s run is BROKEN at 2-of-4 and the count is 0.**
+
+**Old view → new view.** Hypothesis weights **unchanged**: Managed 32 · Stagflation 32 · Acute 13 · War 13 · Soft 6 · Rescue 4. Sum 100. **Confidence 68. Net-bear 58.** What changed is a registered instrument's state and one counter-signal display weight — logged here because A4 makes a registered-trigger state change mandatory for W3 whether or not a weight moved, and because **the absence of a move is itself the assessment**.
+
+**1. The result, and it is a RESULT, not a null.** Own CBOE pull **2026-09-09 21:05:52 ET** (9,223 obs, HTTP 200, 202,916 B): **09/08 = 148.86** — 1.14 below the line, a published, present, reconciled observation of an **open** session. Clause 7 of the declared basis: any non-satisfying observation **resets the count to 0**. The run that began 09/03 (150.63 · 151.58) reached **2 of 4** and died there. **09/09 = 149.25** published and read; it did not open a new run. **The broken clock is DEAD — the re-run is a new clock and inherits nothing.**
+
+**2. Why no weight moves, stated as a rule and not as a preference.** FT-10's registered action (`ACUTE +2 / MANAGED −2`) attaches to a **fire**. It did not fire. A non-fire on a registered trigger is the **default state** and carries no action; the exit leg (`<140 s=4`) is at 0-of-4 and 9.25 points away. ⚠️ **And the symmetric discipline, which is the part worth writing down:** I will not bank "nearly fired and reset" as *bull* evidence either. That is the FT-01 descriptor defect arriving from the other side — the object is binary, it is unfired, and both "it fired" and "the tail bid is gone" are claims the instrument does not support.
+
+**3. The one number that did move, and its size.** The `^SKEW` **counter-signal** cell: **50/50 → 55/45 bull**, roughly restoring the pre-run 60/40. It was set to 50/50 on 9/6 *explicitly because* the row was "SATISFIED and COUNTING"; it is not counting. **A counter-signal weight is a display weight — it moves no bucket and sums to nothing.**
+
+**4. The honest fence against my own steelman.** The bull steelman's vol leg now reads "the tail bid touched 150 twice and could not hold it." True — and **6 of the last 20 CBOE bars sit within 1.50 of the line** (8/28 −0.23 · 8/31 −1.47 · 9/1 −0.77 · 9/3 +0.63 · 9/4 +1.58 · 9/8 −1.14 · 9/9 −0.75). The index is **camped on** the line, not walking away from it. Sustain-4 exists precisely so a two-week camp at 148–151 does not score, and it has not. **"The run broke" ≠ "the tail bid is gone,"** and the second is the half a reader will keep.
+
+**5. The 9/6 holiday ruling was proven load-bearing on live data one session after it was written.** Both readings of Labor Day end at count 0 — but under the ruled **NON-SESSION** reading the run bridged 9/7, so the 09/08 bar sat *inside* the count domain and killed the run **on its value**. Under the rejected reading the run would have died on the **calendar**, at a gap, a session earlier. **Same state, different fact — and the fact is what the next grade inherits** (ML-RED-233; sibling of the S40 finding where the state was convention-independent and the *margin* was not).
+
+**6. Forward, registered rather than remembered.** Next countable bar **Thu 2026-09-10** (can only start a new run at 1). **Earliest possible fire Tue 2026-09-15** on `9/10 · 9/11 · 9/14 · 9/15` — arithmetic certain, the no-holiday leg **INFERRED** from the standard NYSE calendar. That chain runs **through August CPI (9/11 08:30 ET)** and lands on **FOMC day one (9/15–16, with an SEP)**. Noted, **not registered**: the row fires on its level or it does not.
+
+**7. Two packets consumed, neither moving a weight.** ① **LABOR's 9/7 CORRECTION** — the "July ranks 44/44" finding is withdrawn at source; on RED-23's own first→third cut **July 2026 has no value at all**. RED-23 **amended pre-data, both vintages readable**: confidence **HELD at 60%**, basis moved from an off-horizon n=1 to the registered **n=39, mean −33.5K, 71.8% down** plus shown arithmetic (58–71% band). ② **ORACLE's 9/7 primary read** — the Polymarket recession contract is a **disjunction**, RED's "unwinnable regardless of the economy" branch is **falsified**, the matrix row stays, and RED's 4–12% interval is **comparable in kind, not in perimeter** with the 7.0%. STATUS's "does not dispute the crowd" sentence is **qualified, not deleted**.
+
+**8. Apparatus, closed leg.** `boot.py` confirmed reading the publisher at the exact path (`AGENTS/RED/scripts/boot.py` line 94 METRIC_MAP `("cboe", …)`, line 98 the declared URL, `cboe_run_length` date-aware since 9/6). Tonight it prints `🟡 RED-FT-10 … NEAR live 149.25 [CBOE bar 09/09/2026] vs >=150 (dist -0.75) — run 0-of-4`. **The 9/3→9/6 false 🔴 FIRING off the disqualified mirror is closed.** ⚠️ Residual, still open: **nothing compares `METRIC_MAP` against each row's `instrument_basis`** — FT-10 was mis-wired for four days with a *correct basis on its own card*, and no check reads both.
+
+---
+
 ## S41 — 2026-09-06 ~10:5x ET — **WEIGHT MOVED: HOLD 69 → 68, net-bear 60 → 58.** The 16-session hold ends, and it ends against the book.
 
 **Old view → new view.** **Stagflation 34 → 32 · Soft Landing 4 → 6 · net-bear 60 → 58 · confidence 69 → 68.** Managed 32, Acute 13, War 13, Rescue 4 unchanged. Sum 100. **Both moves discretionary and labelled; neither is mechanical, and no registered trigger fired to produce them.**
