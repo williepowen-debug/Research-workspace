@@ -2,7 +2,8 @@
 """decision_deck.py — Will's Decision Deck (WQ-202, Will-ruled 2026-09-10 11:01 ET).
 
 A PROJECTION of PROME's decision rails into one scrollable page:
-  Owed      — every OPEN row of PROME/WILL_QUEUE.md (soonest first; blocked rows last)
+  Owed      — every OPEN row of PROME/WILL_QUEUE.md in three groups: needs your ruling (soonest first) ·
+              answered but your hands/a dated action still owed (a DONE tap closes it) · waiting on others (last)
   Decided   — every DONE row: WILL_QUEUE RECENTLY DONE + PROME/archive/WILL_QUEUE_ROWS_*.md
   In-flight — PROME/ACTIVE_DECISIONS.md live index
   Docket    — PROME/DOCKET.tsv rows whose owner cell names Will (non-terminal)
@@ -94,6 +95,11 @@ def parse_open(text: str) -> list[dict]:
             "by": first_date(c[3]), "since": strip_md(c[4]), "rec": c[5],
             "notes": c[6] if len(c) > 6 else "",
             "blocked": bool(re.search(r"⛔\s*wait", line)),
+            # ANSWERED (Will 2026-09-10 12:42 "these WQ that I have answered already should be moved out of OWED"):
+            # the row already carries Will's word and stays OPEN only for his HANDS or a dated action —
+            # lead reads APPROVED/RULED/RATIFIED, or the Type cell says RULED/APPROVED. Never a ruling ask.
+            "answered": bool(re.match(r"(?:Will\s+)?(?:APPROVED|RULED|SCHEDULE\s+RATIFIED|RATIFIED)\b", lead)
+                             or re.search(r"\b(?:RULED|APPROVED)\b", strip_md(c[2]))),
             "name": title_of(c[1]),
         })
     return rows
@@ -208,7 +214,14 @@ def due_pill(by: str | None, days: int | None, blocked: bool) -> str:
 
 def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
     out = []
+    seen = set()
     for r in rows:
+        grp = "blocked" if r["blocked"] else ("answered" if r.get("answered") else "owed")
+        if grp not in seen:
+            seen.add(grp)
+            label = {"owed": "Needs your ruling", "answered": "Answered — your hands or a dated action still owed",
+                     "blocked": "Waiting on others — nothing owed by you"}[grp]
+            out.append(f'<p class="grp">{label}</p>')
         days = (dt.date.fromisoformat(r["by"]) - today).days if r["by"] else None
         r["days"] = days
         e = expl.get(r["n"])
@@ -236,17 +249,29 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
             + (f'<p><span class="lbl">Notes</span> {md(r["notes"])}</p>' if r["notes"] else "")
             + '</details>'
         )
-        ctl = "" if r["blocked"] else (
-            f'<div class="tap" data-wq="{r["n"]}">'
-            '<div class="tapstate" hidden></div>'
-            '<div class="tapbtns">'
-            f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{r["n"]}">Approve</button>'
-            f'<button type="button" class="btn decline" data-v="DECLINE" id="dc-{r["n"]}">Decline</button>'
-            f'<button type="button" class="btn later" data-v="LATER" id="lt-{r["n"]}">Later</button>'
-            '</div>'
-            f'<input type="text" class="note" id="note-{r["n"]}" placeholder="Note to PROME (optional) — e.g. 200 = 1+3, or a different level" maxlength="400">'
-            '</div>'
-        )
+        if r.get("answered") and not r["blocked"]:
+            ctl = (
+                f'<div class="tap" data-wq="{r["n"]}">'
+                '<div class="tapstate" hidden></div>'
+                '<div class="tapbtns">'
+                f'<button type="button" class="btn approve" data-v="DONE" id="dn-{r["n"]}">Done — hands complete</button>'
+                f'<button type="button" class="btn later" data-v="LATER" id="lt-{r["n"]}">Later</button>'
+                '</div>'
+                f'<input type="text" class="note" id="note-{r["n"]}" placeholder="Note to PROME (optional)" maxlength="400">'
+                '</div>'
+            )
+        else:
+          ctl = "" if r["blocked"] else (
+              f'<div class="tap" data-wq="{r["n"]}">'
+              '<div class="tapstate" hidden></div>'
+              '<div class="tapbtns">'
+              f'<button type="button" class="btn approve" data-v="APPROVE" id="ap-{r["n"]}">Approve</button>'
+              f'<button type="button" class="btn decline" data-v="DECLINE" id="dc-{r["n"]}">Decline</button>'
+              f'<button type="button" class="btn later" data-v="LATER" id="lt-{r["n"]}">Later</button>'
+              '</div>'
+              f'<input type="text" class="note" id="note-{r["n"]}" placeholder="Note to PROME (optional) — e.g. 200 = 1+3, or a different level" maxlength="400">'
+              '</div>'
+          )
         out.append(
             f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}">'
             f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"])}{TOGGLE}</div>'
@@ -482,14 +507,15 @@ def build(today: dt.date, out: Path) -> dict:
     text = Q.read_text(encoding="utf-8")
     expl = load_explainers()
     owed = parse_open(text)
-    owed.sort(key=lambda r: (r["blocked"], r["by"] or "9999-99-99"))
+    owed.sort(key=lambda r: (r["blocked"], bool(r.get("answered")), r["by"] or "9999-99-99"))
     decided = parse_decided()
     active = parse_active()
     docket = parse_docket(today)
     sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
     stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
     build_id = f"{sha}·{stamp}"
-    actionable = [r for r in owed if not r["blocked"]]
+    actionable = [r for r in owed if not r["blocked"] and not r.get("answered")]
+    answered = [r for r in owed if not r["blocked"] and r.get("answered")]
     missing = [r["n"] for r in owed if r["n"] not in expl]
     page = f"""<title>Decision Deck</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -498,7 +524,7 @@ def build(today: dt.date, out: Path) -> dict:
 <header class="top"><div class="wrap">
 <div class="brand"><h1>Decision Deck</h1><span class="build">built {html.escape(stamp)} · {html.escape(sha)} · {len(actionable)} owed</span></div>
 <div class="tabs" role="tablist">
-<button type="button" class="tab" role="tab" data-for="owed" id="tab-owed">Owed<span class="n">{len(actionable)}</span></button>
+<button type="button" class="tab" role="tab" data-for="owed" id="tab-owed">Owed<span class="n">{len(actionable)}</span>{f'<span class="n" title="answered — your hands still owed">+{len(answered)} hands</span>' if answered else ''}</button>
 <button type="button" class="tab" role="tab" data-for="decided" id="tab-decided">Decided<span class="n">{len(decided)}</span></button>
 <button type="button" class="tab" role="tab" data-for="flight" id="tab-flight">In-flight<span class="n">{len(active)}</span></button>
 <button type="button" class="tab" role="tab" data-for="docket" id="tab-docket">Docket<span class="n">{len(docket)}</span></button>
@@ -517,7 +543,7 @@ def build(today: dt.date, out: Path) -> dict:
 """
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")
-    return {"owed": len(owed), "actionable": len(actionable), "decided": len(decided), "active": len(active),
+    return {"owed": len(owed), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
             "docket": len(docket), "explainers_missing": missing, "bytes": len(page.encode()), "out": str(out)}
 
 def selftest() -> int:
