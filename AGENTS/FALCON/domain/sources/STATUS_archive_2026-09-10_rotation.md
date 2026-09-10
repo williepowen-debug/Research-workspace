@@ -1,6 +1,6 @@
 # FALCON — STATUS archive, rotation of 2026-09-10
 
-**Rotated 2026-09-10 ~12:4x ET** to pay for the 2026-09-10 session block, per FALCON's own budget rule (*every session block must be paid for by an archive rotation*; `STATUS.md` was at 32,548 B = 60% of the 54,250 B cap at rotation time — measure the current figure with the instrument, never read it from this line).
+**Rotated 2026-09-10 ~11:3x ET** to pay for the 2026-09-10 session block, per FALCON's own budget rule (*every session block must be paid for by an archive rotation*; `STATUS.md` was at 32,548 B = 60% of the 54,250 B cap at rotation time — measure the current figure with the instrument, never read it from this line).
 
 **What is here:** the SESSION 2026-09-08 block, verbatim and unedited.
 

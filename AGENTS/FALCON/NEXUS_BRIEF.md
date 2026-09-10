@@ -1,6 +1,6 @@
 # FALCON — NEXUS Brief
 
-**As of:** 2026-09-10 Thu ~12:5x ET (`falcon-0910`, **PROME-spawned Tier 1**, war-triad workstream — WALTER dark-owner doorbell outcome ①) · **STATUS commit:** resolve from git (`git log -1 -- AGENTS/FALCON/STATUS.md`) — never from this line. · ⚑ **Written LAST in the session, after the final STATUS write, per NEXUS Amendment 10.**
+**As of:** 2026-09-10 Thu ~11:3x ET (`falcon-0910`, **PROME-spawned Tier 1**, war-triad workstream — WALTER dark-owner doorbell outcome ①) · **STATUS commit:** resolve from git (`git log -1 -- AGENTS/FALCON/STATUS.md`) — never from this line. · ⚑ **Written LAST in the session, after the final STATUS write, per NEXUS Amendment 10.**
 
 **Status:** 🔴 — **MARKS HOLD B 3 / C 22 / D 75 ON THE LETTER. The D→85 rung stays ARMED, UNFIRED.** 🔴 **M/T RIESCO SANK 9/8 ⇒ CONFIRMED HOSTILE-ACTION TOTAL LOSSES 2 → 3** (class-(iii-B) = the rung's REGISTERED NON-TRIGGER, so the count moved and the mark did not). 🔴 **THE FIRST TRIGGER-(c) CANDIDATE OF THE WAR ARRIVED AND I RULED IT NOT FIRED:** a projectile holed the **Hercules Star at the Dubai anchorage 9/9**, killing a seafarer — geography and corroboration MET, **held on ATTRIBUTION**. 🟠 **New Andros hit off Al-Faw 9/9 with ~2M bbl of Iraqi fuel oil aboard** — outside my letter's country perimeter. 🟠 **Houthis took Mokha 9/10** — GATE-FALCON-001 unchanged. ⚠️ **A BASE RATE I GAVE WILL AT RUNG REGISTRATION IS FALSE** — corrected and routed. **Zero confirmed CRUDE barrels offline, 195 days. $0 moved.**
 

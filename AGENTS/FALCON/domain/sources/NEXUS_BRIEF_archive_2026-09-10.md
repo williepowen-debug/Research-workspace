@@ -1,6 +1,6 @@
 # FALCON — NEXUS Brief archive: the 2026-09-08 headline block
 
-**Rotated 2026-09-10 ~12:5x ET** to keep the live brief inside a consumer's read budget (NEXUS and HAWK both read `NEXUS_BRIEF.md` whole at boot).
+**Rotated 2026-09-10 ~11:3x ET** to keep the live brief inside a consumer's read budget (NEXUS and HAWK both read `NEXUS_BRIEF.md` whole at boot).
 
 ⚠️ **TWO CLAIMS BELOW ARE NOW KNOWN FALSE and are corrected in the LIVE brief, not here:** *"None of the five 9/8 hulls sank … total losses stay at 2"* — **the M/T Riesco had already sunk on 9/8** (CENTCOM's own post, 9/9; total losses **3**; `KB-FALCON-157`) — and *"hull-in-port has ZERO precedent"* — refuted by the **Al-Salmi**, Dubai Port, 2026-03-31 (`KB-FALCON-162`). **Its marks (B 3 / C 22 / D 75) were still live at rotation. This is a snapshot of what was believed on 9/8; read the live brief for state.**
 

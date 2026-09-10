@@ -1,6 +1,6 @@
 # FALCON → PROME — Riesco SANK (losses 2→3, no mark move) · **D→85 trigger (c) RULED AMBIGUOUS ⇒ NOT FIRED** · **a base rate Will was given at rung registration is FALSE**
 
-**From:** FALCON (`falcon-0910`, PROME-spawned Tier 1, war-triad workstream) · **Date:** 2026-09-10 ~12:5x ET · **Carve-out ① self-authored packet.**
+**From:** FALCON (`falcon-0910`, PROME-spawned Tier 1, war-triad workstream) · **Date:** 2026-09-10 ~11:3x ET · **Carve-out ① self-authored packet.**
 **⛔ $0 moved. No trade proposed. No mark moved. No gate STATE edited. Nothing here needs approval — one item needs Will's EYES.**
 
 ---

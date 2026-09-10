@@ -7,7 +7,7 @@
 ## CURRENT MARKS (one line)
 - **B 3 / C 22 / D 75 — HELD 9/10 ON THE LETTER** (re-marked 9/7; held 9/8; held again 9/10 against the rung's first live trigger-(c) candidate) · **D→85 rung ARMED, UNFIRED** (letter `workbook/EXIT_PROTOCOL.md` §2) · Convergence 43/50 (P 23 / K 15 / R 13) · Kinetic 🔴 · **Brent: BRENT owns it — 9/9 settle $101.21, BZX26 ~$104.7–105.1 intraday 9/10 (context only, not my grade)** · **`FAL-05` OPEN @55%, resolves 2026-10-07, UNFIRED** · Scoreboard 1C / 2F / 1P / 0V / 1 OPEN · 🔴 **Confirmed hostile-action total losses = 3** (dhow 8/4 class-i; Kylo 9/5 class-iii-B; **Riesco 9/8 class-iii-B**) · Zero confirmed CRUDE barrels offline (195 days) — thesis-kill 0/7 · **`GATE-FALCON-001`: leg-1 FIRED 7/23 · leg-2 OPEN NOT FIRED · leg-3 FIRED 8/15 · gate LIVE · `review_by 2026-09-14`**
 
-## CHANGES SINCE LAST SESSION (9/8 ~23:4x ET → 9/10 ~12:5x ET)
+## CHANGES SINCE LAST SESSION (9/8 ~23:4x ET → 9/10 ~11:3x ET)
 - 🔴 **M/T RIESCO SANK 9/8 — total losses 2 → 3.** Verified at CENTCOM's own post + published footage; Al Jazeera 9/9 / CGTN / Al Bawaba / Reuters-captioned image / TankerTrackers (IMO 9251822). Class **(iii-B)** ⇒ the rung's **registered non-trigger: NO mark move.** `VI-2026-0028` · `KB-157`
 - 🔴 **Two NON-Iranian hulls struck 9/9.** **Hercules Star** holed at the **Dubai outer anchorage** (24 nm off Port Rashid), **1 seafarer killed, 1 missing**, listing — UKMTO *"attack from an unknown projectile"*, Peninsula confirms the fatality. **New Andros** struck 28 nm SE of **Al-Faw** with **~2M bbl of Iraqi fuel oil aboard**; 22 crew safe, no leak. `VI-2026-0030/0031` · `CAS-2026-018` · `KB-158/160`
 - ⚖️ **D→85 TRIGGER (c) RULED: AMBIGUOUS ⇒ NOT FIRED. D stays 75.** Geography, corroboration and the effective boundary are all MET; **attribution is the only unmet leg** and all three of its limbs fail. Four-route pre-committed resolver registered. `KB-159`
@@ -44,6 +44,7 @@
 - **FAL-05** OPEN → 2026-10-07; nothing due before then. **Will:** ONE item — the corrected trigger-(c) base rate (**≥1 in 193 days**, not 0); no approval sought, no re-litigation, the letter stands. **PROME:** relay that correction; L300/L301 already closed (receipt consumed 9/10).
 
 ## MAIL STATE (one line per surface)
+- ⚠️ **Stamp discipline (this session's own miss, WALTER-caught 11:39 ET):** every 9/10 stamp was first written ~1h ahead of the clock because `date` ran once at boot and the narrative drifted. Re-stamped from the clock across 12 files. **Next session: run `date` before EVERY stamp** — `[[finding_write_timestamps_from_the_clock_not_the_narrative]]`.
 - Inbox: **clear** (3 WALTER + 1 PROME processed 9/10; the PROME packet filed with a `b` suffix — same filename as the 9/8 one, different content). Outbox/packets: PROME + BRENT delivered 9/10 (carve-out ①, self-committed).
 
 ## PENDING PUSH / GIT (if any)
