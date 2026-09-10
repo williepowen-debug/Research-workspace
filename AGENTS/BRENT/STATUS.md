@@ -58,10 +58,6 @@
 > - 📋 **DOCKET L198 ①② dispositioned; WQ-112 applied to BRT-26 (scoring mark `58%` [7/28], since re-marked `85%` [9/6, window-shrink] — the STANDING row above is canonical).**
 > - 📅 **Russia diesel producer-direct carve-out: Q1 read `UNKNOWN-AT-PRIMARY`, reported NEGATIVE** — September 8 first read COMPLETE to available evidence: amendment transcriptions reached, official authentication/publication and original scope still missing. See current docket result above; no imported date change.
 
-
-
----
-
 ---
 
 ## 📚 ARCHIVE INDEX + OWNER POINTERS — *one line each; narrative lives at the link*
