@@ -125,3 +125,32 @@ frame-breaker adjudication (NOT MET) · 9/6 OPEC+ Q4 grade · 9/2 post-close / 9
 
 > **The rows below are STANDING, not dated:** they are the values and rules other surfaces cite. They were **extracted, not rewritten** — verbatim from the 9/1 table's `RETAINED` rows. ⚠️ **I keyed the extraction on the file's own `RETAINED` MARKER, not on the line numbers** — both my 9/7 SCRATCH and DAEDALUS's packet said *"rows 78–84"*, and the real block was **95–102**. Two independent surfaces carried the same stale line reference. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
 
+---
+
+# ROTATED 2026-09-10 (rule 19) — September 9 blocks: boot check · remaining-work plan (incl. completed STEO read) · maintenance · file-health audit — VERBATIM, 2973 B, crc32 `1139d716`
+
+## September 9 boot check
+
+Boot completed with FINDINGS (rc=2); all scripts ran. Quote/weekly freshness, BRT-29 M, instrument coverage and ledger-nudge findings remain explicit. Corrections and derived views passed. No new market synthesis or grade. [Boot record](audits/2026-09-09_boot/REPORT.md).
+
+## September 9 remaining-work plan
+
+**STEO read COMPLETED September 9:** [EST EIA September versus August workbooks; simple monthly means] Q4 world draw **0.6257 → 1.7091 mb/d**: supply revision **−1.5077**, partly offset by consumption **−0.4243**. Q3→Q4 supply recovery **3.9962 → 1.8963 mb/d**. Counterevidence: Q3 draw **3.8454 → 2.9846** and year-end OECD stocks **2,476.9002 → 2,568.3135M**. OPEC spare path unchanged: **0.020 mb/d H2 2026**, **0.030 Q1 2027**, **2.380 from April**; single-agency forecast, not observed recovery. September U.S. distillate stocks **104.7256 → 99.4153M**. Product-pressure case persists, but higher starting stocks prevent a blanket faster-depletion claim. Model cutoff September 3 excludes later attacks. Numeric table already builds from January 2027 despite later narrative wording; source mismatch retained. v5.8 calibration/falsifiers and STAND DOWN unchanged. [Sources, calculations and limits](research/2026-09-09_steo-comparison/REPORT.md). Next physical read: September 10 WPSR; original BRT-12 and overdue BRT-29 evidence remain open.
+
+[Prior plan and current completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Will selected retaining existing Claude routines; either live-session model can consume their shared files. Timing repair remains uninstalled. The earlier planning pass supplied no market/source refresh or grade; the completed STEO evidence is above.
+
+## September 9 maintenance — implemented locally
+
+Quote readers now require dated recent observations; EIA reports preserve metric dates, incomplete coverage and the last numerical local report. Retired runtime wording and the refiner CLI are corrected. Tanker diagnostics measure all three equities; paired futures diagnostics require explicit matched contracts. Deadline/weekday reporting repaired. Remote schedule activation and original crack/credit construction remain open. No market or prediction re-grade. [Maintenance results, validation and remaining work](audits/2026-09-09_maintenance/REPORT.md).
+
+## September 9 file-health audit
+
+Quote freshness, EIA completeness/fallback, retired runtime wording and release coverage need repair. Network boot rc=2; 12 existing tests pass but targeted probes expose uncovered defects. Three composite monitors remain partial; source/spec obligations remain open. Keep the main folder structure. [Prioritized audit, reproductions and build inventory](audits/2026-09-09_file-health/REPORT.md). No runtime repair or market re-grade; late USO closure receipt reconciled to TRADE.
+
+---
+
+# ROTATED 2026-09-10 (rule 19) — September 8 workbook reconciliation block — VERBATIM, 731 B, crc32 `ade73d1d`
+
+## September 8 workbook reconciliation
+
+Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.

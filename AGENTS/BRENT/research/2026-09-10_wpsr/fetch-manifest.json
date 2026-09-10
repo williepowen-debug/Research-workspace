@@ -1,0 +1,26 @@
+[
+ {
+  "file": "wpsr-table1.csv",
+  "url": "https://ir.eia.gov/wpsr/table1.csv",
+  "retrieved_at": "2026-09-10T16:00:03+00:00 (poll loop, first 200 after the noon-ET embargo lifted; 11:58-11:59 ET requests returned HTTP 403 via a signed-URL policy window)",
+  "status": 200,
+  "bytes": 6582,
+  "sha256": "bcc9f378150c43caf4e9065b0374f7f1d15cc73837444b41d7e315d759299305"
+ },
+ {
+  "file": "wpsr-table2.csv",
+  "url": "https://ir.eia.gov/wpsr/table2.csv",
+  "retrieved_at": "2026-09-10T16:00:03+00:00 (poll loop, first 200 after the noon-ET embargo lifted; 11:58-11:59 ET requests returned HTTP 403 via a signed-URL policy window)",
+  "status": 200,
+  "bytes": 8370,
+  "sha256": "8969f537f471d424ab962f781dfd5317a5cc2f76b21876732de7ddc56170f4ea"
+ },
+ {
+  "file": "wpsr-table9.csv",
+  "url": "https://ir.eia.gov/wpsr/table9.csv",
+  "retrieved_at": "2026-09-10T16:00:03+00:00 (poll loop, first 200 after the noon-ET embargo lifted; 11:58-11:59 ET requests returned HTTP 403 via a signed-URL policy window)",
+  "status": 200,
+  "bytes": 46816,
+  "sha256": "2cca190aac8536edea506915fba55811923f735c640019a0bcc948c58e502fbe"
+ }
+]

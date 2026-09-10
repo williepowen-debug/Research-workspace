@@ -1,29 +1,28 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-09 — September STEO comparison completed, forecast cutoff September 3.** Retail retains September 7 observation; delayed options 10:26–10:27 ET; futures/equities 09:58 ET. Weekly physical data remain August 28. USO October call CLOSED on prior PROME receipt; XLE receipt pending. [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md) · [Earlier review and WPSR worksheet](research/2026-09-09_squeeze-review/REPORT.md).
+**Last real data refresh: 2026-09-10 12:00 ET — WPSR week ending September 4 read at release (L305 first print: NO VERDICT); tape re-based on named contracts 12:00–12:03 ET, live bars.** Retail retains September 7 observation. USO October call CLOSED (PROME receipt); XLE receipt pending. [WPSR report](research/2026-09-10_wpsr/REPORT.md) · [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 9 boot check
+## September 10 — WPSR wk-9/4 read at 12:00 ET; L305 first print NO VERDICT; tape +5% for a third session; inbox drained 9/9
 
-Boot completed with FINDINGS (rc=2); all scripts ran. Quote/weekly freshness, BRT-29 M, instrument coverage and ledger-nudge findings remain explicit. Corrections and derived views passed. No new market synthesis or grade. [Boot record](audits/2026-09-09_boot/REPORT.md).
+| Line | wk-9/4 print [CONF EIA WPSR 2026-09-10] | Disposition |
+|---|---|---|
+| **SPR (L305)** | **285.360M, −1.244M** (from −3.122M; base 293.426M wk-8/14, pace was −5.27M/wk). Δ1 = −1.244M. Sixth print <300M; no build. | **NO VERDICT by letter — two-print test.** wk-9/11 print (Wed 9/16 10:30 ET): Branch A (mean ≥ −2.0) needs Δ2 ≥ −2.756M; Branch B (mean ≤ −4.0) needs Δ2 ≤ −6.756M, larger than any draw in the run; between = NO-VERDICT, re-read next two. Wording conflict + unpublished DOE window premise unchanged. |
+| **Edouard run-cut** | US utilization **97.8% (−0.2pp)**; **PADD 3 98.3% (+0.6pp, leg high)**, gross inputs 9,723 kb/d (+61), crude inputs 9,730 (+130). Dip came from PADD 2 (−2.0pp), 1 (−1.3), 4 (−1.0). | **Pre-registered narrow read RIGHT** (band: flat-to-down-1pp). Storm a non-event for the crude balance; Port Arthur partial outage invisible at PADD level. |
+| **Cushing** | **21.824M, −0.684M** (first draw after two builds); 1.824M above 20.0M. Commercial crude 424.069M (−0.390M). Crude exports 3,417 kb/d (**−1,066**, Edouard port week). | Boundary #3 stays RESCINDED; single print <20.0M re-activates. Line 2 not breached. |
+| **Distillate** | **106.274M, +2.086M** (2nd build; ULSD +2.228M). Production 5,348 (+222; PADD 3 +183). Exports 1,556 (−179). 4-wk supplied 3,715 vs 3,813 = −2.6% YoY (was −6.0%). Stocks −11.9% YoY. | Counterevidence to a US inventory-hole diesel squeeze: max-distillate runs + lower exports rebuild stocks from a very low base while the matched-Nov ULSD crack widened to ~$105.5. |
+| **Gasoline / jet (BRT-29 T)** | Gasoline stocks 206.938M (+1.269M); supplied 8,551 (−372); **4-wk −1.4% YoY** (was −1.6%). Jet 4-wk −2.3% (was −0.6%). Production 13,947 kb/d (+85). | T needs ≤ −3.0% by the wk-9/25 print (released 9/30); 3 prints left, series moved AWAY this week. Recorded, not graded. |
 
-## September 9 remaining-work plan
+**Tape re-based (Yahoo delayed, live bars 12:00–12:03 ET, not settles):** `BZX26` **106.58** (9/9 daily-bar close **101.21**, agrees to the cent with the CNBC-relayed ICE settle, +3.4%, highest since 5/22; Yahoo prev-close field prints 101.00 — vendor inconsistency noted) · `CLV26` 101.13 · `CLX26` 97.21 · **Nov–Jan `BZX26`−`BZF27` +9.17** (from +7.54 9/9, +6.62 9/8 bars) · WTI−Brent Nov **−9.37** · matched-Nov ULSD crack **105.53** (+7.6), RBOB 36.46 · OVX **56.88 (+14%)** · USO 156.74 · **XLE 65.17 (−0.5%) on a +5% crude day** · STNG/FRO/DHT +1.1/+0.9/+0.5%. Third straight +3%+ session: five Iranian hulls struck 9/8 (Riesco SANK, CENTCOM), Iran's claimed 10-vessel wave 9/9, two non-Iranian hulls hit 9/9 (Hercules Star, Dubai anchorage, 1 dead; New Andros ~2.0M bbl Iraqi fuel oil off Al-Faw, afloat), SNSC "exclusion zone" declared, ECB +25bp on energy, PPI diesel +24.1%. Full catalyst list with sources → [report §3](research/2026-09-10_wpsr/REPORT.md).
 
-**STEO read COMPLETED September 9:** [EST EIA September versus August workbooks; simple monthly means] Q4 world draw **0.6257 → 1.7091 mb/d**: supply revision **−1.5077**, partly offset by consumption **−0.4243**. Q3→Q4 supply recovery **3.9962 → 1.8963 mb/d**. Counterevidence: Q3 draw **3.8454 → 2.9846** and year-end OECD stocks **2,476.9002 → 2,568.3135M**. OPEC spare path unchanged: **0.020 mb/d H2 2026**, **0.030 Q1 2027**, **2.380 from April**; single-agency forecast, not observed recovery. September U.S. distillate stocks **104.7256 → 99.4153M**. Product-pressure case persists, but higher starting stocks prevent a blanket faster-depletion claim. Model cutoff September 3 excludes later attacks. Numeric table already builds from January 2027 despite later narrative wording; source mismatch retained. v5.8 calibration/falsifiers and STAND DOWN unchanged. [Sources, calculations and limits](research/2026-09-09_steo-comparison/REPORT.md). Next physical read: September 10 WPSR; original BRT-12 and overdue BRT-29 evidence remain open.
+**WQ-189 instance ③ graded (BG-02):** Riesco **NOT MET** on the already-interdicted limb — grade does not turn on laden state (answered FALCON's ask); New Andros and Hercules Star **NOT MET** (afloat, no cargo/throughput loss). **$0 moved; WQ-192 STAND DOWN binds; no arm, no proposal.** Positions: USO 156.7 sits between the Sep-18 150/165 strikes (HOLD through expiry, WQ-168 ③; TERRY's card); XLE exit receipt still pending (L253). Delayed option indications in [report §2](research/2026-09-10_wpsr/REPORT.md). Inbox: 5 WALTER + 4 general packets consumed, logged, moved. Completion memo → `PROME/inbox/`. Boot rc=2 (weekly-freshness finding now cleared by this read; BRT-29 M and instrument-coverage findings remain).
 
-[Prior plan and current completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Will selected retaining existing Claude routines; either live-session model can consume their shared files. Timing repair remains uninstalled. The earlier planning pass supplied no market/source refresh or grade; the completed STEO evidence is above.
 
-## September 9 maintenance — implemented locally
-
-Quote readers now require dated recent observations; EIA reports preserve metric dates, incomplete coverage and the last numerical local report. Retired runtime wording and the refiner CLI are corrected. Tanker diagnostics measure all three equities; paired futures diagnostics require explicit matched contracts. Deadline/weekday reporting repaired. Remote schedule activation and original crack/credit construction remain open. No market or prediction re-grade. [Maintenance results, validation and remaining work](audits/2026-09-09_maintenance/REPORT.md).
-
-## September 9 file-health audit
-
-Quote freshness, EIA completeness/fallback, retired runtime wording and release coverage need repair. Network boot rc=2; 12 existing tests pass but targeted probes expose uncovered defects. Three composite monitors remain partial; source/spec obligations remain open. Keep the main folder structure. [Prioritized audit, reproductions and build inventory](audits/2026-09-09_file-health/REPORT.md). No runtime repair or market re-grade; late USO closure receipt reconciled to TRADE.
+> 📦 **September 9 blocks (boot check · remaining-work plan incl. the completed STEO read · maintenance · file-health audit) rotated verbatim 2026-09-10 → [archive/STATUS_DETAIL_2026-09.md](archive/STATUS_DETAIL_2026-09.md) (2973 B; crc32 `1139d716`).** Retained: STEO Q4 world draw **0.6257 → 1.7091 mb/d**, OECD year-end stocks **2,476.9 → 2,568.3M**, spare **2.380 mb/d from April 2027** [EST EIA Sep vs Aug STEO, cutoff Sep 3] → [comparison](research/2026-09-09_steo-comparison/REPORT.md); [remaining-work plan](audits/2026-09-09_maintenance/REMAINING_PLAN.md); maintenance and file-health reports are linked from the archive.
 
 ## September 9 approved review — before STEO publication
 
@@ -33,9 +32,7 @@ Earlier named-contract capture: BZX26 **100.67**, CLV26 **95.79**, USO **148.63*
 
 August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4**, with projected supply recovery; OPEC surplus **0.020 mb/d both quarters**. September issue pending noon–12:15 ET. WPSR worksheet prepared for September 10 noon/later-file batch. BRT-29: Ryanair September 2 cut outside M window; Norse's August report does not establish a distinct new post-baseline decision. Three further eligible carriers and BRT-12 historical construction/upstream credit remain unestablished. v5.8/WQ-189/192 STAND DOWN unchanged. [Integrated evidence and exact remaining work](research/2026-09-09_squeeze-review/REPORT.md).
 
-## September 8 workbook reconciliation
-
-Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.
+> 📦 **September 8 workbook reconciliation block rotated verbatim 2026-09-10 → [archive/STATUS_DETAIL_2026-09.md](archive/STATUS_DETAIL_2026-09.md) (731 B; crc32 `ade73d1d`).** Live pointers: [workbook/README.md](workbook/README.md) · [RECONCILIATION_2026-09-08.json](workbook/RECONCILIATION_2026-09-08.json).
 
 > September 8 batch-2 dated block rotated verbatim to [archive/STATUS_dated_2026-09-09_audit.md](archive/STATUS_dated_2026-09-09_audit.md) (1274 bytes; crc32 `6b9829eb`). Open evidence work remains in SCRATCH.
 
@@ -146,8 +143,9 @@ Workbook navigation and live/history ownership are now explicit in [workbook/REA
 | **Wed Sep 9** | USO October 135C — CLOSED; October 9 time stop discharged | 🟡 |
 | **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
 | **Wed Sep 9** | EIA September STEO — READ: same-series comparison completed | 🟠 |
-| **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
+| **Thu Sep 10** | SPR / Edouard — WPSR wk-9/4 READ 9/10: FIRST PRINT NO VERDICT (SPR −1.244M); Edouard narrow read RIGHT; resolver wk-9/11 (9/16) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
+| **Wed Sep 16** | WPSR week ending September 11 — L305 SPR SECOND PRINT (resolver), Wed 10:30 ET normal schedule | 🔴 |
 | **Fri Sep 18** | USO Sep-18 150/165 call debit spread — EXPIRY | 🔴 |
 | **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
@@ -157,9 +155,9 @@ Workbook navigation and live/history ownership are now explicit in [workbook/REA
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 21 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 22 rows are modeled.*
 
-*21 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*22 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.
@@ -168,10 +166,10 @@ Workbook navigation and live/history ownership are now explicit in [workbook/REA
 
 ## SUMMARY FOR WILL
 
-The September 8 market docket is integrated. PortWatch and the official Russian instrument remain source-gated UNKNOWN; the physical/paper spread is a vendor proxy. Full evidence and exact missing limbs are in [the owner read](setups/2026-09-08_market-docket-owner-read.md).
+The September 10 WPSR is integrated ([report](research/2026-09-10_wpsr/REPORT.md)); the September 8 market docket remains integrated. PortWatch and the official Russian instrument remain source-gated UNKNOWN; the physical/paper spread is a vendor proxy. Full evidence and exact missing limbs are in [the owner read](setups/2026-09-08_market-docket-owner-read.md).
 
 Position state and existing execution rules are in [TRADE.md](TRADE.md#positions-live). TERRY owns the selected September 9 open XLE exit; live broker checks and the fill receipt remain outstanding. No new decision is requested here.
 
-STAND DOWN remains binding. Next dated work: September 10 noon ET WPSR (first September 4 survey read, no premature two-print verdict), September 11 Baker Hughes/COT, September 18 spread expiry, September 30 prediction windows and residual XLE receipt check. Existing source/spec and stale-incident audit gaps go to PROME; they are not new Will proposals.
+STAND DOWN remains binding. September 10 WPSR read: L305 first print NO VERDICT (SPR −1.244M), Edouard a non-event, Cushing 21.824M. Next dated work: September 11 Baker Hughes/COT, September 16 WPSR (SPR second print, L305 resolver), September 18 spread expiry, September 30 prediction windows and residual XLE receipt check. Existing source/spec and stale-incident audit gaps go to PROME; they are not new Will proposals.
 
 *Operational series: demand_destruction/TRACKER.md. Forward-state record: docket/CATALYSTS.tsv. Full before-image with checksums: archive/2026-09-08_owner-writeback-before.json.*
