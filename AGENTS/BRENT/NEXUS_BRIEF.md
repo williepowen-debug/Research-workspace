@@ -19,7 +19,7 @@ C6 CONTENT RE-VERIFY 2026-09-10: every claim below was re-read against `TRADE.md
 | LIQUID / HENRY / RED | Cushing 21.824M (−0.684M), 1.824M above the 20.0M floor; **Boundary #3 stays RESCINDED**; single print <20.0M re-activates. WTI−Brent Nov −9.37 (Brent leading). | P2 | No US operational-minimum warning; no WTI dislocation. |
 | FALCON / HAWK / TERRY | **WQ-189 instance ③: Riesco NOT MET on the already-interdicted limb (grade independent of laden state); New Andros (~2.0M bbl Iraqi fuel oil, afloat) and Hercules Star NOT MET.** $0 moved. Packet to FALCON answers its laden-leg ask. | P1 | Frame-breaker requires confirmed cargo or Gulf throughput loss — none of the three supplies it. Basra/Al-Faw export approach is a live-incident leg with no instrument on either desk. |
 | SAM / LIQUID / HENRY | **Curve steepened a third day:** Nov–Jan Brent +9.17 (from +7.54 / +6.62); BZX26 9/9 close 101.21 (vendor bar agrees with the CNBC-relayed ICE settle), 9/10 live ~106.5; OVX 56.9 (+14%). **XLE −0.5% on a +5% crude day; tanker equities ~flat.** | P2 | Prompt-delivery risk is bid with vol, not the OVX-decay leg; equities are not confirming a durable regime — treat the flat-price move as premium, not trend. Live bars, not settles. |
-| TERRY / PROME | USO 156.74 sits between the Sep-18 150/165 strikes — **Will ruled WQ-207 12:35 ET: mandatory close at the 9/17 open, overrides on a close ≥165 / <153, no roll; supersedes WQ-168 ③ HOLD**; delayed indications 150C 8.05/8.55, 165C 2.32/2.45. XLE exit receipt (L253) still pending; 65C 1.42/1.52. Shares 37. | P1 | Instruction CHANGED 12:35 ET: TERRY's card `TRY-MGMT-USORH150165` is the letter, TERRY tracks the nightly 165/153 close-checks and the 9/17-open execution; fill receipt owed. Structural refs only — no P/L. |
+| TERRY / PROME | **Sep-18 150/165 spread CLOSED by Will's hand ~15:1x 9/10** (PROME 16:10 capture); WQ-207 (ruled 12:35: 9/17 close / ≥165 / <153) discharged unexecuted. New Will-hand USO Sep-11 159C ×1 — no rule. XLE exit receipt (L253) still pending. Shares 37. | P1 | Tail-rider leg is off the book; TERRY card EXECUTED; no nightly check remains. Structural refs only — no P/L. |
 | OSPREY | No objection to the channel downgrade path by the 9/15 window; BRENT holds no Bloomberg 8/30 or 9/6 print. October 1 Q2 retiming still not adopted into BRENT's frozen September 1 comparison. | P2 | Clock disagreement stays on record; no substitution. |
 
 **WAITING FOR:**
@@ -52,7 +52,7 @@ C6 CONTENT RE-VERIFY 2026-09-10: every claim below was re-read against `TRADE.md
 
 ## NEXT DECISION POINT
 
-Fri 9/11 Friday pair (rigs vs 457; COT as-of 9/8). Wed 9/16 10:30 ET WPSR wk-9/11 — L305 resolves or re-reads. Thu 9/17 open: mandatory spread close under WQ-207 (TERRY tracks). XLE receipt whenever it lands. [WPSR report](research/2026-09-10_wpsr/REPORT.md).
+Fri 9/11 Friday pair (rigs vs 457; COT as-of 9/8). Wed 9/16 10:30 ET WPSR wk-9/11 — L305 resolves or re-reads. Spread closed 9/10 by Will; no position rail remains before the XLE receipt. XLE receipt whenever it lands. [WPSR report](research/2026-09-10_wpsr/REPORT.md).
 
 ## WATCH (next 2–4 weeks)
 
@@ -61,7 +61,7 @@ Fri 9/11 Friday pair (rigs vs 457; COT as-of 9/8). Wed 9/16 10:30 ET WPSR wk-9/1
 | September 11 | Baker Hughes / CFTC | 457 line (449, +2.67/wk needed); COT-FUEL-35B bands unchanged; don't stack. |
 | September 15 | OSPREY objection window closes | BRENT: no objection. |
 | September 16 | WPSR wk-9/11 — SPR second print | Δ2 ≥ −2.756 → Branch A; ≤ −6.756 → Branch B; between → NO-VERDICT. |
-| September 17 (open) | USO 150/165 spread MANDATORY CLOSE (WQ-207) | Or earlier on a USO close ≥165 / <153; TERRY tracks, Will executes; never 9/18. |
+| September 11 | USO 159C expiry (Will-hand day-trade leg) | No rule; outcome noted in TRADE from Will's activity. Spread already closed 9/10. |
 | September 30 | BRT-12 / 26 / 29 windows; XLE residual | Existing letters; BRT-29 T needs ≤ −3.0% at wk-9/25. |
 | October 1 / 4 / 6 | Q1-Q3 full read + EU storage window / OPEC+ November decision / October STEO | Existing readers. |
 | October 26 | BRT-30 | JWLA-034 baseline; fails only on a circular ≥035 removing the Gulf. |
