@@ -15,7 +15,7 @@
 ## Row 53 — FALCON
 | # | Item | Ruling |
 |---|---|---|
-| ① | Casualty-ratchet replacement instrument (rate/class-based; replaces retired Tell #5; Tihamah 8/11 = largest single-event count) | **APPROVED — build.** FALCON drafts AND base-rates before registration; threshold registers at its letter on Will's later word. Natural window: sweep #2 (8/19-21). |
+| ① | Casualty-ratchet replacement instrument (rate/class-based; replaces retired Tell #5; Tihamah 8/11 = largest single-event count) | **APPROVED — build.** FALCON drafts AND base-rates before registration; threshold registers at its letter on Will's later word. Natural window: sweep #2 (8/19-21). **BUILT 2026-09-08** — FALCON `8518224f6` (Will *"okay approved go ahead"* ~23:0x ET on FALCON's four-item list): `VX-FALCON-CASUALTY-01`, ledger `AGENTS/FALCON/domain/casualties/CASUALTIES.tsv` (25 lines on disk 9/9), letter `AGENTS/FALCON/domain/CASUALTY_RATCHET.md` §2; LIT AT REGISTRATION on the rate-step (11 vs 3 killed 8/10→9/8), class-step UNFIRED; 18 days past the natural window — recorded by PROME 2026-09-09 21:2x at packet consumption, artifacts verified on disk. |
 | ② | VX-FALCON-SUNK-01 attacker-identity axis repair (self-caught 8/10) | **APPROVED — apply the repair to the registered gate letter.** This ruling IS the gate-spec authorization. |
 | ③ | EXIT_PROTOCOL kill-#4 explicit duration bar ("sustained below $80" — 8/15 adjudication reasoned by analogy through a real 2-session excursion $79.36/$79.45) | **APPROVED IN PRINCIPLE; FALCON sets the number** with a base rate of historical sub-$80 excursion lengths (never by analogy, never a PROME number). Wording ratifies via the DAEDALUS rail-repair flow it already rides. |
 

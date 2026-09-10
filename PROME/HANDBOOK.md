@@ -59,7 +59,7 @@
 - **`PROME/WILL_QUEUE.md`** — your open-items ledger (the brief's top section renders it).
 - **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching.
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
-- **`HEARTBEAT.md`** — the market-regime memo (PROME-maintained under its existing grant; new trade decisions still require your approval).
+- **`HEARTBEAT.md`** — the market-regime memo. PROME maintains and commits it under a standing grant — **you freed it from your-word gating on 2026-08-23** (record: `PROME/AUTONOMY.md` change-log row 2026-08-23; the basis was latency, never a quality grant, and PROME says so whenever it cites its own authority on this file). Root-doc lines about HEARTBEAT stay your-word-gated; new trade decisions still require your approval.
 - **Everything on your two pages is DERIVED** — command compression built from the canon files above; on any conflict the owner file wins [the same banner sits atop the market memo itself since 8/22].
 - **Your pages, two:** the Helm (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
 
