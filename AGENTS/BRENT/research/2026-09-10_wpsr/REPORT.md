@@ -68,3 +68,18 @@ STAND DOWN (WQ-192) binds; **$0 moved; no arm, no proposal.** Root rule #6 note:
 - Every market figure is a live bar or delayed quote captured mid-session; settles post after 17:00/18:00 ET. 9/9 settle 101.21 is a press relay that the vendor daily bar agrees with, not an ICE-authenticated settlement.
 - Hormuz transit counts, Iranian claims and the exclusion-zone announcement are relays; no BRENT throughput instrument is live (PortWatch impeached 8/17).
 - Option marks are delayed-feed indications with asynchronous last trades; not P/L, not executable.
+
+## 2b. Tape update 12:25 ET (Will asked mid-session; Yahoo delayed, live bars)
+
+| Instrument | 12:25 ET | vs 9/9 bar | Note |
+|---|---:|---:|---|
+| Brent Nov `BZX26` | **107.20** (day high 107.23, low 100.19) | +6.1% (vs 101.00 vendor prev-close field; 101.21 daily-bar close) | Fresh session high, highest since May 19 (TradingEconomics). |
+| Brent Dec / Jan | 102.29 / 97.77 | | Nov–Jan **+9.43** (12:03: +9.17) — still steepening. |
+| WTI Oct `CLV26` / Nov `CLX26` | 101.86 / 97.78 | +6.0% / +5.5% | WTI–Brent Nov **−9.42**. |
+| ULSD Nov / RBOB Nov | 4.8282 / 3.1895 $/gal | +5.8% / +4.9% | Brent-basis 3:2:1 (Boundary #8): (2×133.96+202.78)/3 − 107.20 = **49.7** — a hair UNDER the $50 line at this print; WTI-basis 59.1. Settles decide. |
+| OVX | **58.34 (+17%)** | | Vol still rising with price. |
+| USO / XLE | 156.88 (+4.2%) / **65.16 (−0.5%)** | | Equity divergence persists; XLE range 64.34–66.17. |
+| STNG / FRO | 84.20 (+1.4%) / 48.22 (+1.6%) | | Tankers modestly bid, no liveness signal. |
+| SPY / TLT | 758.09 (−0.7%) / 81.01 (−0.8%) | | Stocks AND bonds down on the oil spike — stagflation tape. |
+
+**Overnight kinetic, per Iranian state media via JPost 00:40 ET / Al Jazeera 9/10 [relay, US attribution by Iran; no CENTCOM statement for 9/10 found]:** projectiles hit several areas of **Sirik** (fishing pier and a Ports and Maritime Organization tower), a fishmeal factory on **Qeshm Island**, parts of the **Hormozgan power network**, explosions in Minab County, and the civilian **Jiroft** airport in Kerman. Sirik/Qeshm are the Iranian shore of the strait — the US campaign has moved from tankers at sea to the Hormuz coastline itself. **Israel's defense minister Katz threatened strikes on Iranian energy infrastructure** (JPost 16:46 Israel time). CENTCOM's standing position (9/9): Iranian mines "highly degraded," an "effective pathway for ships to leave the Persian Gulf." Transit relays: Kpler 11 visible commodity crossings Tuesday; Lloyd's List ~12/day (8/26–9/1); JMIC 44 US-facilitated vessels over 9/1–9/2 — versus ~85–130/day pre-war depending on the counter. Exclusion zone (Rezaei, SNSC): from the US blockade line toward the strait and into the Gulf, ships identified as intending transit go on Iran's sanctions list — **still announced-in-principle, no coordinates, no enforcement event found.** No new UKMTO tanker incident found for 9/10 (one skiff approach off Yemen, 14:12 Israel time). Araghchi in Baghdad/Pakistan: "ready for dialogue" with regional states — rhetoric, no channel with Washington named.
