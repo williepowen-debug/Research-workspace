@@ -85,7 +85,10 @@ METRIC_MAP = {
     # FT-10 tail-bid-reload line. ⚠️ RE-POINTED 2026-09-06 (S41) FROM yfinance ^SKEW TO THE
     # CBOE CSV. FT-10's own instrument_basis_operative (declared under WQ-162 on 9/2)
     # DISQUALIFIES the yfinance mirror: it is "a PROVISIONAL SAME-DAY MIRROR ONLY ... cannot
-    # complete a grade" (measured defect rate 0.79%/session over 253 sessions: the 8/28 bar
+    # complete a grade" (measured defect rate CORRECTED 2026-09-10 per COR-20260908-03 -- the published
+    # 0.79%/session is WITHDRAWN: RED's 253-session window reproduces 0.40%/session, and the
+    # full 9,221-session census gives 397 unique defective sessions = 4.31%. Two DISTINCT
+    # perimeters -- never merge them, and the three defect categories OVERLAP. The 8/28 bar
     # omitted AND a 2025-12-24 value disagreement). For four days this tool graded a
     # registered trigger off the source its own registry forbids, and was correct only
     # because the two series happened to agree — guard correctness and guard WIRING are

@@ -142,6 +142,25 @@ def parse_recorded_rate(cell: str) -> float | None:
         return None
 
 
+def _arm_date_note(row):
+    """Arm-date note DERIVED from the registry row, never hardcoded.
+
+    Reads instrument_basis_operative (the operative cell) and returns the FIRST
+    'precondition live from <date>' match, which is the CURRENT date; later matches
+    in that cell are dated corrections quoting SUPERSEDED text and must not win.
+    Falls back to the state cell, then to silence. Fails to SILENT, never to a
+    stale literal: a hardcoded 2026-09-09 lived here and kept printing the old arm
+    date after the registry was corrected to 2026-09-10 (S43 2026-09-10) - the tool
+    asserted a date independently of the file it reports on.
+    """
+    import re as _re
+    for cell in ("instrument_basis_operative", "state"):
+        m = _re.search(r"precondition live from (\d{4}-\d{2}-\d{2})", row.get(cell, "") or "")
+        if m:
+            return f" (live from {m.group(1)})"
+    return ""
+
+
 def flag(ratio: float | None) -> str:
     if ratio is None:
         return "  "
@@ -193,7 +212,7 @@ def main() -> int:
             print(f"{tid:<10} {'Δ5(DGS30)<=' + str(thr) + 'bp':<24} {recorded or '—':>9} "
                   f"{full * 100:>10.1f}%({len(d5)}) {r120 * 100:>7.1f}% {'':>7}  {fl}  "
                   f"CURRENT Δ5 = {cur:+.1f}bp -> precondition {'WOULD FIRE' if cur <= thr else 'clear'}"
-                  f"{' (live from 2026-09-09)' if 'precondition live' in r.get('state', '') else ''}")
+                  f"{_arm_date_note(r)}")
             continue
         if metric not in HISTORY_MAP:
             print(f"{tid:<10} {line:<24} {'MANUAL':>9} {'—':>14} {'—':>8} {'—':>7}  ⚪ release-derived, review at each print")
