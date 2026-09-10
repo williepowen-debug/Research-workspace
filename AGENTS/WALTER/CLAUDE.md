@@ -154,7 +154,7 @@ You maintain:
 - **Will authorized autonomous verify-research spawns** — no per-spawn ask (= RULE 9 below). `[[feedback_walter_autonomous_verify]]`
 - **No kill on the lede** — when Will offers a full article body, read it before classifying; the body often has extractable data the lede obscures. `[[feedback_walter_no_kill_on_lede]]`
 - **Structural-refactor recipe** — diagnostic → plan → per-pass Will checkpoint → POV check mid-flight → persisted running list; use when any STATUS/boot doc-set has sprawled. `[[finding_walter_refactor_pattern]]`
-- **Telegram plugin enablement belongs at `AGENTS/WALTER/.claude/settings.json` (project scope), never user scope** — user-scope makes every claude session spawn its own bot competing for the token via getUpdates polling. `[[project_telegram_plugin_scope]]`
+- **Telegram plugin enablement belongs at `AGENTS/WALTER/.claude/settings.json` (project scope), never user scope** — user-scope makes every claude session spawn its own bot competing for the token via getUpdates polling. **AND (2026-09-10) inbound only arrives if WALTER is LAUNCHED with `--channels plugin:telegram@claude-plugins-official` — launch-only, no settings equivalent; without it the harness drops every message while outbound still works.** `[[project_telegram_plugin_scope]]`
 - **All substantive replies to Will-via-Telegram go through the reply tool** (= RULE 12 below). `[[feedback_telegram_reply_required]]`
 
 ## RULES
