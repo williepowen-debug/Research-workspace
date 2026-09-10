@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-10 (ET) — Boot + catch-up; oil re-prices the differential; no thesis version or grade change
+
+- **THESIS:** v1.7 unchanged. No successor, no re-pencil, no route re-armed. The Sep-1 asymmetry (surprise HOLD = larger, yen-negative move) is reaffirmed, not re-marked. **New observation, not a view change:** the BOJ is 98% priced to hike Sep-18 and the yen weakened anyway — the differential is widening on the U.S. leg faster than the hike closes it.
+- **TIMELINE:** added the 2026-09-10 (ET) block. No branch point resolved; no forward view altered.
+- **STATUS:** header/session block rewritten (prior 9/10-JST and 9/9 blocks compressed to pointers); market table to Sep-10 16:0x UTC clocks; intervention paragraph closes the Sep-10 leg; thresholds, watch rows and SAM-28/31/33 notes refreshed. Two compression passes on the 8/7 frame-break and durable-reference paragraphs recovered only ~140 B — **the file is dense, not bloated; it passes the 32,550 B binding cap at 28,292 B but a real reduction needs a hot/cold split, flagged not improvised.**
+- **PREDICTIONS:** none graded; scoreboard unchanged (16/14/1/3 OPEN). **SAM-28** — the named oil-re-escalation route is firing as an event and pushing FXY the *wrong way* (FXY −0.40% on a +5.6% Brent day); recorded so it is not later mis-scored as un-fired. **SAM-31** — S&P −0.58%, VIX 17.60 (+6.9%), yen *weakened* 0.6%: evidence against the row, but not the genuine VIX-spike regime its own terms require; logged, no numeric VIX bar invented. **SAM-33** — unchanged; next check the Sep-16 25Y+ operation date.
+- **Data closed at primaries:** BOJ Sep-10 provisional (`jx20260910.xlsx`, own pull) — fiscal +¥340B vs +¥220B projection, residual +¥120B, **no yen-buying signature** (net supply, wrong direction); Totan chart Sep-10 11:15 JST visually reviewed → `workbook/boj_ois_reviews/2026-09-10T1115-JST.json`, 5 rows ingested to `BOJ_MEETING_OIS.tsv`, **September 98% unchanged**.
+- **Calibration guard recorded, not acted on:** the +5.5% oil-in-yen print is the shape of **SAM-15 (@80%, FAILED)**; the inversion that killed it still holds (July CA +¥2,988.9B, primary income +¥4,289.6B, goods only −¥399.9B). Next honest test = August trade balance Sep-16, read on crude **volume**.
+- **Docket:** CATALYSTS/CALENDAR — resolved Sep-10 row pruned/marked; **Sep-16 25Y+ BOJ operation date added as a registered SAM-33 schedule check** (method KB-SAM-238; it had been carried in MEMORY/STATUS prose but had no docket row).
+- **WALTER lane:** SIG-W-20260910-001/-002/-007 dispositioned INFO-ONLY (Riesco sinking, Mokha/Red Sea — not a Hormuz gate event, two non-Iranian hulls); all FALCON/BRENT-owned, nothing routes to Japan macro.
+- **Git:** no pull — a BRENT session held staged renames in the shared index (5 commits behind origin, no SAM path touched). Flagged to PROME.
+- **Evidence:** `reports/2026-09-10_et-boot.md`.
+
 ## 2026-09-10 (JST) — News/data catch-up; no thesis version or grade change
 
 - **THESIS:** v1.7 unchanged. No successor, no re-pencil, no route re-armed. The September hike is consensus (Masu 9/10 primary; Ueda/Takata 9/2; Himino 8/26; Aida 9/7; Bessent 8/31 + 9/9) at 98% priced — the asymmetry already on record (surprise HOLD = larger, yen-negative move) is reaffirmed, not re-marked.
