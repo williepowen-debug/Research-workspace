@@ -59,3 +59,24 @@ A prediction row carried **two legitimate confidences in one cell**:
 **Generalises past predictions** to any two-vintage surface: as-made vs current confidence, headline vs restated figure, published threshold vs working threshold, frozen card value vs live value.
 
 *(Companions: `[[finding_rederived_signal_loses_the_senders_caveats]]` — caveats don't survive a hop, and neither does "which of these two numbers I actually believe"; `[[finding_output_shape_implies_more_than_the_measurement]]` — the number is right and the presentation implies the wider claim. Caught because the peer said out loud what it was aiming at; had it stayed silent, the mis-aim would never have surfaced.)*
+
+
+---
+
+### n+2 — **THE SAME CONFLATION WITH THE POLARITY REVERSED: the preserved DEAD value gets PICKED as live** (RED, 2026-09-10). n=3, and this instance is why the finding is about *referents*, not about suppression.
+
+The parent instances are both **suppression**: a marker near a value makes a scanner *skip* the live number. This one is **selection** — the same one-line/two-vintages structure makes a scanner *choose the dead number*. Same root, opposite failure, and the fix is the same one stated in rule 2 (classify per needle, not per line).
+
+**What happened.** RED corrected a falsification-trigger's arm date (`2026-09-09 → 2026-09-10`) and — correctly, under fleet canon — **preserved the superseded text verbatim on the row**:
+
+> `ARMED-UNFIRED (precondition live from 2026-09-10). *** ARM-DATE CORRECTED … SUPERSEDED TEXT, PRESERVED VERBATIM: "ARMED-UNFIRED (precondition live from 2026-09-09, …)"`
+
+The row now carries **both dates**, and the dead one sits inside a quoted block. **Any scanner regexing `live from (\d{4}-\d{2}-\d{2})` over that cell can return 2026-09-09** — the value the correction exists to retire — with the whole apparatus reading clean, because preserving history is *good practice* and the row is *better maintained* than before. Rule 1's bias holds exactly: **the diligent row is the vulnerable one.**
+
+🔑 **The generalisable statement, now two-sided:** *a correction that keeps its own history puts two vintages of one value on one line, and every machine reader of that line needs a rule for which one wins.* Suppression-on-proximity picks the wrong one by skipping; naive extraction picks the wrong one by matching. **Preserving history and machine-readability pull in opposite directions** — and the resolution is never "preserve less."
+
+**Fix used, and it is cheap:** give the machine a **designated cell** and read the **FIRST** match in it, ordering the live value ahead of any quoted history — the same *ordering-is-the-mechanism* fix the n+1 instance landed on from the reader side. Declare the convention where the scanner lives, because it is invisible from the row.
+
+⚠️ **And the second half of the same session, which is why this belongs here rather than in a tooling memory:** the tool that *reported* this row's arm date had the date **hardcoded as a literal** (`" (live from 2026-09-09)"`, gated on a substring test) instead of reading the row at all. So the surface had **three** copies of one fact — live cell, quoted dead cell, and a literal in the reporting code — and a fix to the registry alone would have left the boot output confidently printing the retired date forever. **Count the copies before declaring a correction complete:** this one fact lived in **eight** sites (five registry fields, one code literal, one docket row, one narrative mirror pair). [[finding_hand_fixing_named_rows_is_not_fixing_the_class]] · [[finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live]] · [[finding_instrument_reports_clean_against_the_wrong_reference]] · [[finding_loadbearing_number_must_be_reproducible]].
+
+*(Promotion flag owed to PROME per the 2026-08-21 Batch-A rule — COLD-tier memory extended with a new instance, n=3, and the third instance arrived from a different desk and a different mechanism than the first two.)*
