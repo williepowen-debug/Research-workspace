@@ -2488,3 +2488,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-10T15:10:06Z	SIG-W-20260910-007	SAM	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-007.md	delivered	9/10 full-sweep dispatch; consumption unverified
 2026-09-10T15:10:06Z	SIG-W-20260910-007	HENRY	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-007.md	delivered	9/10 full-sweep dispatch; consumption unverified
 2026-09-10T15:10:06Z	SIG-W-20260910-007	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-007.md	delivered	9/10 full-sweep dispatch; consumption unverified
+2026-09-10T16:34:18Z	SIG-W-20260910-008	VULCAN	INFO	CLAUDE_CODE	ROUTINE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260910-008.md	written_not_delivered_pending_push	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
+2026-09-10T16:34:18Z	SIG-W-20260910-008	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-008.md	written_not_delivered_pending_push	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
+2026-09-10T16:34:18Z	SIG-W-20260910-008	AEOLUS	INFO	CLAUDE_CODE	ROUTINE	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260910-008.md	written_not_delivered_pending_push	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
+2026-09-10T16:34:18Z	SIG-W-20260910-008	WATT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/WATT/inbox/WALTER/SIG-W-20260910-008.md	written_not_delivered_pending_push	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
