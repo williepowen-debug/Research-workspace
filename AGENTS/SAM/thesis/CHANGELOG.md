@@ -17,6 +17,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 - **KB:** KB-SAM-233 (Masu), 234 (consensus cluster), 235 (FY2027 requests / no 2nd extra budget), 236 (GPIF), 237 (July BoP primary), 238 (SAM-33 op-record method).
 - **Docket:** CATALYSTS/CALENDAR — Sep-10 legs resolved, Sep-11 CGPI (verified at `cgpi2607.pdf`), Sep-30 17:00 JST BOJ schedule (verified at `mpr260831a.pdf`), early-Oct Diet and Oct-8 BoP in beyond-horizon.
 - **Evidence:** `reports/2026-09-10_news-catchup.md`.
+- **Inbox pass (same session, ~02:4x UTC):** PREDICTIONS ledger — DAEDALUS as-made audit dispositioned (`audits/2026-09-10_asmade-disposition.md`): 13 false matches, five rows to the WQ-112 field form, **SAM-07 scoring vintage 75% → 48%**, five Date_Made placeholders corrected; scoreboard unchanged. NEXUS_BRIEF reordered per amendment 12 (CROSS-DOMAIN first body section; zero text change). Receipts sent to DAEDALUS and NEXUS (carve-out ①).
 
 ## 2026-09-09 — Evidence follow-through; no thesis version or grade change
 

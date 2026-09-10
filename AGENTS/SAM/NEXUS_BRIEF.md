@@ -1,27 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-10 02:09 UTC (Sep-9 22:09 ET). **STATUS provenance:** same closeout commit; SHA256 `c21350a3cecee7df4388bfca6a6ed5923dda1f1a03b959c2609c0fbd4493eb5c`. [Catch-up report](reports/2026-09-10_news-catchup.md). BOJ Sep-9 final settlement and Sep-9 operations verified at primaries; MOF weekly Aug-30–Sep-5 and MOF curve Sep-9 captured; July BoP primary read; Masu Sep-10 speech and the September pre-MPM cluster sourced. No trade, grade, thesis version or peer message.
-
-## VIEW
-
-**v1.7 carry-convexity tail remains RETIRED/LOW; no successor.** Book FLAT (not newly broker-reconciled). v1.8 remains a separately gated candidate; v2.0 remains killed, RED body unread.
-
-**The September hike is consensus, priced 98%, and the asymmetry is a HOLD.** Masu (Sep-10, primary) placed the policy rate "below the estimated range" of neutral (1.1–2.5%) and said the Bank "will continue to raise"; Ueda (9/2), Takata (9/2) and Himino (8/26) pointed the same way; Takaichi's reflationist adviser Aida (Reuters 9/7) now forecasts September, January, then ~six-monthly; Bessent (8/31, 9/9) is publicly campaigning; Katayama (9/8) "orderly markets". Totan Sep-9 15:15 JST: 98% incremental 25bp equivalent. **A hike is not a yen catalyst at this pricing; a surprise HOLD is the larger move and it is yen-negative.** Bloomberg (9/9 headline) frames the campaign as a disruption risk if the BOJ under-delivers. No re-pencil.
-
-**Sep-9 official-action leg closed; Sep-8 still open.** BOJ Sep-9 FINAL fiscal −¥3,590B = provisional, +¥10B against the independent Ueda Yagi Sep-3 forecast — an anticipated ordinary drain. Sep-8's −¥1,200B miss vs the same baseline remains unexplained. Japan's settlement series cannot see a US-only leg; attribution for Sep-7/8 stays OPEN.
-
-**SAM-33's absence claim is now checked at the record, not inferred from silence.** Sep-9 outright purchases matched the Aug-31 quarterly schedule to the yen on scheduled dates (25Y+ ¥75B, BTC 2.51×); no fixed-rate or additional op. The FY2027 halt-the-reduction (~¥2T/month) Masu restated is the scheduled plan the prediction's terms exclude. Oct–Dec schedule: Sep-30 17:00 JST.
-
-**Flows and levels:** MOF weekly LT debt +¥111.9B (Aug-30–Sep-5) with non-residents buying JGBs a third straight week (+¥449.6B); 4-week LT −¥1.55T sits above the ¥1.4T base-case upper on the script's ladder. MOF 30Y 3.956% (−16.6bp/5d) while US 10Y/30Y rose to 4.84/5.29% — the SAM-41 gaps widened on the US leg (5Y 2.367pp / 10Y 1.939pp, runs 0/5). USD/JPY 153.12 at the BOJ Sep-9 17:00 reference, 153.69 at 01:50 UTC. CFTC still Sep-1 (pre-rally).
-
-**Energy remains a headwind and got louder:** Iran escalation Sep 7–9 (US destroyed five Iranian crude carriers; IRGC missiles at Jordan; Houthi strike on Jazan) took Brent above 00 for the first time since July. Vendor oil-in-yen proxy +2.3% over two sessions — the oil leg outran the yen leg. HAWK/BRENT own the events.
-
-## CALIBRATION
-
-- SAM-28/31 remain OPEN at 40%/35% through September 18; SAM-33 (72%) through December 31. Sep-9 was a low-amplitude risk-off (VIX 16.46 +4.7%, S&P −0.48%, gold +1.3%, DXY flat) with the yen +0.45% on the BOJ reference — same sign as a haven re-coupling, trivial amplitude, domestic driver dominant in every account; logged into the Sep-18 packet's daily screen, not graded. No numeric VIX bar invented.
-- Fed: Waller (9/3) made his September vote conditional on the Sep-11 CPI; Polymarket 54% hike / 46% hold (Sep-10 01:45 UTC). The registered Fed-side tripwire is still the actual dot walk-back at the Sep-16 SEP, not CPI or a prediction market.
-- Sources: every figure in the report carries a clock; Bloomberg/Nikkei/Japan Times bodies that returned 402/403 are cited by headline and marked as such. Speech texts other than Masu were not opened at the BOJ primary.
-- Main uncertainty remains mechanism identification: yen strength ≠ measured liquidation; reserve stocks, sector totals and aggregate auctions do not identify named UST sales. Channel 1 still requires direct sales at ≥2 named institutions across ≥2 consecutive windows.
+**As of:** 2026-09-10 03:44 UTC (Sep-9 23:44 ET). **STATUS provenance:** same closeout commit; SHA256 `a32f9827ea2fdef7937637326a4299721bb72f2588ea83a34ac90e7a9f773ac9`. [Catch-up report](reports/2026-09-10_news-catchup.md). BOJ Sep-9 final settlement and Sep-9 operations verified at primaries; MOF weekly Aug-30–Sep-5 and MOF curve Sep-9 captured; July BoP primary read; Masu Sep-10 speech and the September pre-MPM cluster sourced. No trade, grade or thesis version change. Inbox processed: DAEDALUS as-made audit dispositioned; this brief reordered per schema amendment 12 (CROSS-DOMAIN first body section, zero text change).
 
 ## CROSS-DOMAIN
 
@@ -48,6 +27,27 @@
 | MOF / FRBNY | Q3 operation/account disclosures | ~Nov | Japan per-op detail; US participation split |
 
 **Cross-agent tensions:** none new. Read owner artifacts before propagating a derived claim; the Nikkei "record budget, alarming market" piece is Dec-2025, not September news.
+
+## VIEW
+
+**v1.7 carry-convexity tail remains RETIRED/LOW; no successor.** Book FLAT (not newly broker-reconciled). v1.8 remains a separately gated candidate; v2.0 remains killed, RED body unread.
+
+**The September hike is consensus, priced 98%, and the asymmetry is a HOLD.** Masu (Sep-10, primary) placed the policy rate "below the estimated range" of neutral (1.1–2.5%) and said the Bank "will continue to raise"; Ueda (9/2), Takata (9/2) and Himino (8/26) pointed the same way; Takaichi's reflationist adviser Aida (Reuters 9/7) now forecasts September, January, then ~six-monthly; Bessent (8/31, 9/9) is publicly campaigning; Katayama (9/8) "orderly markets". Totan Sep-9 15:15 JST: 98% incremental 25bp equivalent. **A hike is not a yen catalyst at this pricing; a surprise HOLD is the larger move and it is yen-negative.** Bloomberg (9/9 headline) frames the campaign as a disruption risk if the BOJ under-delivers. No re-pencil.
+
+**Sep-9 official-action leg closed; Sep-8 still open.** BOJ Sep-9 FINAL fiscal −¥3,590B = provisional, +¥10B against the independent Ueda Yagi Sep-3 forecast — an anticipated ordinary drain. Sep-8's −¥1,200B miss vs the same baseline remains unexplained. Japan's settlement series cannot see a US-only leg; attribution for Sep-7/8 stays OPEN.
+
+**SAM-33's absence claim is now checked at the record, not inferred from silence.** Sep-9 outright purchases matched the Aug-31 quarterly schedule to the yen on scheduled dates (25Y+ ¥75B, BTC 2.51×); no fixed-rate or additional op. The FY2027 halt-the-reduction (~¥2T/month) Masu restated is the scheduled plan the prediction's terms exclude. Oct–Dec schedule: Sep-30 17:00 JST.
+
+**Flows and levels:** MOF weekly LT debt +¥111.9B (Aug-30–Sep-5) with non-residents buying JGBs a third straight week (+¥449.6B); 4-week LT −¥1.55T sits above the ¥1.4T base-case upper on the script's ladder. MOF 30Y 3.956% (−16.6bp/5d) while US 10Y/30Y rose to 4.84/5.29% — the SAM-41 gaps widened on the US leg (5Y 2.367pp / 10Y 1.939pp, runs 0/5). USD/JPY 153.12 at the BOJ Sep-9 17:00 reference, 153.69 at 01:50 UTC. CFTC still Sep-1 (pre-rally).
+
+**Energy remains a headwind and got louder:** Iran escalation Sep 7–9 (US destroyed five Iranian crude carriers; IRGC missiles at Jordan; Houthi strike on Jazan) took Brent above 00 for the first time since July. Vendor oil-in-yen proxy +2.3% over two sessions — the oil leg outran the yen leg. HAWK/BRENT own the events.
+
+## CALIBRATION
+
+- SAM-28/31 remain OPEN at 40%/35% through September 18; SAM-33 (72%) through December 31. Sep-9 was a low-amplitude risk-off (VIX 16.46 +4.7%, S&P −0.48%, gold +1.3%, DXY flat) with the yen +0.45% on the BOJ reference — same sign as a haven re-coupling, trivial amplitude, domestic driver dominant in every account; logged into the Sep-18 packet's daily screen, not graded. No numeric VIX bar invented.
+- Fed: Waller (9/3) made his September vote conditional on the Sep-11 CPI; Polymarket 54% hike / 46% hold (Sep-10 01:45 UTC). The registered Fed-side tripwire is still the actual dot walk-back at the Sep-16 SEP, not CPI or a prediction market.
+- Sources: every figure in the report carries a clock; Bloomberg/Nikkei/Japan Times bodies that returned 402/403 are cited by headline and marked as such. Speech texts other than Masu were not opened at the BOJ primary.
+- Main uncertainty remains mechanism identification: yen strength ≠ measured liquidation; reserve stocks, sector totals and aggregate auctions do not identify named UST sales. Channel 1 still requires direct sales at ≥2 named institutions across ≥2 consecutive windows.
 
 ## NEXT DECISION POINT
 
