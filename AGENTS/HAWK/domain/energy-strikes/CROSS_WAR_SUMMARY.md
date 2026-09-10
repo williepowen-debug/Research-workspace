@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — thin, derived
 
-**Regenerated: 2026-09-09T03:13:27.025869+00:00.** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
+**Regenerated: 2026-09-10T16:37:29.365347+00:00.** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
 
 | Owner | Ledger data rows, counted locally | Comparable meaning / limits |
 |---|---:|---|
@@ -26,3 +26,20 @@ Russian exports remain **3.46mb/d, four-week average to August23**, per OSPREY's
 **Final owner ruling intake:** OSPREY CLAUDE EXIT RULES §1/§1b/§5 and KB098/100 record the downgrade path in force,33% re-centre withdrawn, Channel3 geography clarified and buyer-pullback limb retired to Channel2. No mark or premium moved. September15 consumer objection window retained; published fallback reads do not replace the frozen Bloomberg instrument. HAWK has not audited the new strike-feed implementation.
 
 **Final source delta (OSPREY commit2a2ae41e4):** current100 rows. Added August26 Kstovo/NORSI refinery backfill and September9 local unnamed Novorossiysk oil-terminal fire report (ASTRA; mayor confirms attack/debris, not named-terminal throughput). Operator, exact terminal and lost volume unknown; do not label Sheskharis or add700kb/d. Owner Channel2 clock reset to0/30; source uncertainty is retained. Analysis §11 also discusses Ust-Luga/Sochi evidence; those are not additional unique-hull or crude-capacity-loss counts.
+
+
+---
+
+## September10 delta — regenerated from both owners' September10/September8 briefs
+
+**🔴 CORRECTION to the block above, which is now superseded on one figure.** That block reads *"FALCON's campaign total hostile losses remains **2 unique hulls**."* **It is 3.** The **M/T Riesco SANK September8** — CENTCOM's own post carried it with footage on September9, while FALCON's `VESSELS.tsv` still read AFLOAT until September10 morning. FALCON moved the count **2 → 3** on its own word this session. Class **(iii-B)** (US attacker, sanctioned Iranian hull) is the D→85 rung's **registered non-trigger**, so the count moved and the mark correctly did not; **D remains 75**. `KB-HAWK-349`.
+
+**⚠️ Ledger-completeness limit, stated rather than papered over:** two hulls struck September9 — **Hercules Star** (Dubai anchorage, one dead one missing) and **New Andros** (28 nm SE of Al-Faw, ablaze) — were **not in FALCON's `VESSELS.tsv` (29 rows) as of its September8 record**. This aggregate does **not** add them; hull rows are FALCON's to write. **The 29-row count above therefore understates struck hulls and must not be read as a census.** WALTER also flagged an unreconciled Splash247 August25 Yanbu VLCC item against the same ledger.
+
+**Do not pool the counters.** FALCON's 3 hostile total losses are Gulf-theater; OSPREY's Black Sea losses (Yanina, a FESCO/Rosatom **container ship**, sunk August1) are a separate counter on a separate theater. Attacker, target, molecule, asset class and flow layer stay explicit. **Neither counter is a crude-capacity census** — the vessel leg is excluded from HAW-19 at any scale, because a cargo is a **stock** and productive capacity is a **flow**.
+
+**⛔ Still zero destroyed crude capacity, both theaters, independently stated.** FALCON September10: *zero confirmed crude barrels offline, 195 days.* OSPREY September8: *barrels destroyed = zero; barrels not shipped large and reversible.* The Novorossiysk oil-terminal fire of September8-9 remains an **unnamed terminal** with **no loading or throughput statement**; Kstovo/NORSI (August26), Ryazan, LUKOIL-Perm, a Tatarstan plant, Saratov and Sochi are refinery-or-depot class; Ust-Luga is a condensate/products complex, not the crude berths; the Derya was a **hull struck AT Kharg** with **no terminal damage reported** (FALCON's sixth Kharg trap, GATE 1 FIRM-NEGATIVE). **None of these is destroyed crude extraction or export capacity.**
+
+**HAW-19 status correction — the block above says the LEG-A repair "is only a proposal." That is no longer true.** **Will RULED it 2026-09-10** (WQ-160, Decision Deck tap 15:21Z / 11:21 ET, verbatim **APPROVE**, option (b)): A.3's duration is now **≥14 consecutive days** (was ≥45), **Resolve_By unextended** at September30, confidence unchanged at 70%. The row's **vessel exclusion and LEG-B corridor/flow letter are unchanged** — the repair touched the duration only. **The disclosure test was re-run at patch time and is clean**; every event named in this aggregate is in that enumeration.
+
+*Regeneration limit unchanged: this surface is **derived, never independently maintained**. A local refresh is not an independent theater sweep, and re-stamping does not advance any source date.*

@@ -1,32 +1,35 @@
-# HAWK SCRATCH — 2026-09-08 batch2
+# HAWK SCRATCH — 2026-09-10 WQ-160 implementation + full inbox drain
 
 ## CURRENT MARKS
-No trade book. CODIF/TRADE02 ORANGE; VEN GREEN carry; TWN/TWNMIL/TRADE01 YELLOW carry. HAW19 OPEN70% September30; HAW20 OPEN65% October31; HAW21 CONFIRMED65% September8. Prediction bytes and VX bands unchanged.
+No trade book. CODIF/TRADE02 ORANGE; VEN GREEN carry; TWN/TWNMIL/TRADE01 YELLOW carry. **HAW19 OPEN70% September30 — LEG A REPAIRED, both legs live again.** HAW20 OPEN65% October31; HAW21 CONFIRMED65% September8. **No confidence moved, no VX band moved, $0.**
 
 ## CHANGES SINCE LAST SESSION
-Signed Canadian P.C.2026-0785/0786 recovered; CBSA identifies steel amendment SOR/2026-187. General SOR and Gazette registration dates remain missing. Exact commodity reconciliation335+294=629 succeeds. Taiwan notices149/153 operative attachments recovered; localized Taiwan-own CGA exercises September11/15–16, not PLA activity or observed rerouting. TWNMIL advisory actor ambiguity exposed. QatarEnergy seller letter still unretrieved.
+**WQ-160 RULED and IMPLEMENTED same day** (Will, Decision Deck tap 2026-09-10 15:21Z / 11:21 ET, verbatim **APPROVE**, option (b)). HAW-19 A.3 duration **>=45 -> >=14 consecutive days**; Resolve_By **NOT extended**. **Owner state corrected: FALCON's hostile total losses are 3, not 2** — the Riesco SANK September8 (CENTCOM's own post) and HAWK's carry was stale. **Mokha taken by Houthi forces September10**, ~70 km north of Bab. **Hercules Star (Dubai anchorage) and New Andros (off Al-Faw) struck September9 and are in NEITHER of FALCON's ledgers** — FALCON's to write, not HAWK's.
 
 ## WHAT I DID THIS SESSION
-Completed all three approved batch2 tasks. Rule packet gives exact proposed N6,TRADE01,HAW19 decisions and existing-WQ112 HAW18 application. Both60/55 vintages preserved; DAEDALUS independently finds the same legacy-field eligibility gap. Measurement v2 specifies first45 complete post-event UTC days (last date December15), frozen baseline, daily shortfalls,1.5x agreement and missingness. Dictionary specifies hull/incident keys, aliases, UTC allocation, loss subtypes and independent FALCON finding HAWK-B2-FAL-01. Nine source captures and offline verifier archived; KB337–346 appended. Both aggregates reconciled with concurrent owner rulings; counts100/39/29 after late OSPREY additions; premium dates unchanged.
+1. **WQ-160.** Repaired HAW-19 LEG A, with the disclosure test re-run at patch time and written into the row cell (three legs: no non-fire is duration-keyed; every candidate-shaped event 8/20-9/10 fails on an untouched limb; both owners independently report zero destroyed crude capacity). Chose the **duration** branch over the Resolve_By branch **because extending Resolve_By extends the claim window and moves scored mass**. Stamped `thesis/HAW-19_CONSOLIDATION.md` §3 RULED so it stops reading as an open decision; rewrote the now-false K2 row in `thesis/FALSIFICATION.md`.
+2. **Whole inbox drained, 7/7, both lanes now at ZERO.** OSPREY downgrade path: **NO OBJECTION**, window closed five days early, two consumer flags routed. PROME 9/8 and 9/9 packets consumed. Three WALTER signals dispositioned and logged.
+3. **HAW-18 / DOCKET L306 delivered September10, one day early** — recommends 55% ELIGIBLE, conflict disclosed, no score edited.
+4. **Two packets written (carve-out ①):** OSPREY (no objection + flags), FALCON (attribution read, (iii-A)/(iii-B) split, Mokha).
+5. Both aggregates and the falsification surface regenerated; KB-HAWK-347..356; 7 board_log rows.
 
 ## NEXT SESSION — dated, future-verifiable
-1. September9,09:00ET inferred Gazette cadence: seek general SOR and both registration dates. Publication of these orders is not guaranteed.
-2. September9, normally12:00–12:15ET: obtain actual September STEO using prior offline extractor. N6 draft needs explicit prospective ruling; if publication arrives first, preserve overlapping original-rule outcome, do not silently apply draft.
-3. September11: review proposals/2026-09-08_batch2_rule-decisions.md. HAW18 is a legacy-field application under WQ-112 with DAEDALUS, not new scoring canon. HAW19 original disposition remains Will-gated; original row unchanged. HAW01 premise and HAW04/05 provenance remain separate.
-4. September11: establish usable matched Kpler/Vortexa access,73 paired full-day observations and complete terminal/path/product universe; validate measurement v2 snapshot convention and calibration before any registration. Draft65% remains uncalibrated.
-5. September11: PRC maritime warnings/actual commercial effects, Taiwan fuel buffers/cargoes, Venezuela crude-only flow/posture, Qatar seller notice, remaining Canadian registration evidence, matched premiums/Sidi comparator, OSPREY August24 durability and SIREN. Routine ROC warnings do not close those legs.
-6. September15: OSPREY downgrade-path consumer review/objection window and existing owner gate review. September24 dormant review; September30/October31 original prediction deadlines. Further clocks remain in CATALYSTS.
+1. **September11:** dictionary owner confirmations; HAW01 premise and HAW04-05 provenance; **HAW19 successor data/measurement disposition** (`design/HAW19_MEASUREMENT_DRAFT.md` readiness conditions — its proposed65% is uncalibrated and unregistered); TRADE01 future-tariff band timing; Canada general SOR + both Gazette registration dates; QatarEnergy own notice; matched premium print and the Sidi comparator; August24 CPC durability disposition.
+2. **September11:** dormant-book missing evidence legs (VEN crude-only <1.0mb/d test; TRADE01 all-in rates; TWN fuel inventory as distinct from power reserve; TWNMIL PRC notices and the advisory ACTOR ambiguity).
+3. **September14 (FALCON's triple touch) / September15 (OSPREY gate at owner):** **HAWK owes nothing on either** — the (iii-A)/(iii-B) view was delivered September10, ahead of its before-9/14 ask, and the objection window is closed.
+4. **September24:** dormant-book review. **September30:** HAW-19 resolves — **CONFIRMED requires a DATED SEARCH ATTEMPT inside the window** (three named pulls: FALCON+OSPREY ledgers, CENTCOM's own tally, a Kpler-or-Vortexa flow check). ⚠️ **Do not let it auto-confirm on neglect.**
+5. **October31:** HAW-20.
 
-## OPEN THREADS / WATCHES
-Dictionary owner confirmations pending. FALCON canonical D75→85 rung now registered by Will, ARMED/NOT-FIRED; D stays75. OSPREY downgrade path in force,33% re-centre withdrawn, Channel3 geography clarified, buyer-pullback limb retired to Channel2; no marks moved. Review canonical letters, not stale prose in the same owner brief. OSPREY feed implementation not audited here. MRPL durability, enforcement/PGM feed, tankage, BRENT CPC/Pearl, SUMED, Kharg naming/memo/checklist and CSMS remain open. FLOW18 routing remains CLOSED.
+## OPEN THREADS
+- **D3 is still open** — HAW-19 A.2(b)'s `>=N of M` is unparameterized and WQ-160 did not reach it; A.2 remains satisfiable only by (a). Any future repair needs its own ruling and its own disclosure test.
+- **Every war-risk leg is stale** (Hormuz 49d, Bab/Red Sea/W-Saudi 48d, Black Sea relay 20d with the origin assessment date UNKNOWN). Current cross-theater premium ratio **UNKNOWN**. This is SEARCH-NOT-FOUND, **not** "war risk did not reprice." **A named unchecked source closes it in one read** — any post-September5 JWC, broker or underwriter print.
+- **Channel 2's mark is frozen, not held** — Bloomberg unreadable since August23; HAWK does not hold the 8/30 or 9/6 prints either.
+- `LESSONS.md` is at **50% of the read cap, rotate-tier** on `scripts/read_cap_check.py`. Advisory, not breaching. Flag to PROME if it approaches budget; do not compact unilaterally.
+- Pre-existing malformed rows in `workbook/KB.tsv` (<=line 95, 12/14 cols) and `board_log.tsv` (line 67) are **known history, not this session's** — the KB header documents the class. Not swept; a fix would be a broad edit outside scope.
 
-## PREDICTIONS / DECISIONS
-Original ledger unchanged. Decision and measurement files are DRAFT. No new score, forecast or band enacted. HAW18 conditional Brier0.3600/0.3025 is sensitivity only. Proposed HAW19 disposition preserves any proved LEG-B failure and denies calibration credit from impossible LEG A.
+## PENDING DECISIONS
+- **HAW-18 eligibility: PROME/Will's word.** HAWK recommends 55% and is the interested party, so it did not rule. Both vintages preserved; no score edited.
+- HAW-19 successor instrument stays **unregistered** — its proposed 65% is uncalibrated and must not be treated as a mark.
 
 ## MAIL STATE
-PROME follow-up read; FALCON independent finding recorded locally, HAW18 application remains September11. OSPREY ruling packet read/verified; consumer review remains September15. Both packets retained active and dispositioned in board_log. No external or cross-session messages sent; NEXUS_BRIEF carries synthesis.
-
-## GIT / VALIDATION
-Own exact-path commit and safe-push closeout; verify Git receipt. Peer files excluded, no pull over their work. Acceptance: audits/2026-09-08_batch2_acceptance.json. NEXUS pins the final STATUS commit after checks. Dependency checker verifies reviewed bytes only, not fresh external evidence.
-
-**Late owner evidence:** OSPREY now100 ledger rows (prior98): Kstovo/NORSI August26 is a historical refinery backfill; September9 local Novorossiysk report names no specific terminal and provides no loading/throughput statement. Owner Channel2 clock reset; no measured crude-capacity loss follows. Preserve as an unresolved terminal watch and in any successor disclosure audit. Source: OSPREY ledger and September8 analysis §11, reviewed September8 ET.
+**Inbox: 0 root, 0 WALTER — fully drained.** Outbound this session: 2 self-authored packets (OSPREY inbox, FALCON inbox) + 1 COMPLETION memo to `PROME/inbox/`. No peer file edited. **Push deferred — PROME serializes.**

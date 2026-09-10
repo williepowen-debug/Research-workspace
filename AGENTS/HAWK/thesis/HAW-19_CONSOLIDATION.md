@@ -43,9 +43,9 @@
 
 ---
 
-## 2 · 🔴 THREE DEFECTS THE CONSOLIDATION SURFACED — none patched
+## 2 · 🔴 THREE DEFECTS THE CONSOLIDATION SURFACED — none patched *(as at 2026-08-20; **D1 was repaired 2026-09-10 under WQ-160 and D2 fell out with it — see the §3 banner. D3 remains open.** The three diagnoses below are preserved verbatim as the 8/20 record.)*
 
-### 🔴 D1 · **LEG A IS STRUCTURALLY UNFIREABLE. This is the finding.**
+### 🔴 D1 · **LEG A IS STRUCTURALLY UNFIREABLE. This is the finding.** — ✅ **REPAIRED 2026-09-10 under WQ-160 (§3 banner); the diagnosis below is preserved as written on 2026-08-20.**
 
 **`A(iii)` requires terminal throughput down ≥200 kbpd for **≥45 consecutive days**. The window is 2026-08-20 → 2026-09-30 = **42 days inclusive / 41 exclusive**.** LEG A requires **(i) AND (ii) AND (iii) AND (iv)** — all four. **⚠️ FIGURES CORRECTED 2026-08-20 (OSPREY, verifying rather than accepting):** a 45-day run beginning on the window's first day reaches **day 45 on 2026-10-03**, not 10-04 — I had computed `start+45`, which is **day 46**. And the day-count needs its convention named: **42 inclusive, 41 exclusive.** **⇒ THE COUNT-INDEPENDENT STATEMENT, adopted from OSPREY as the one that goes to Will: the LATEST START DATE for a >=45-consecutive-day run that could complete by Resolve_By is 2026-08-17 -- THREE DAYS BEFORE THE WINDOW OPENS. No in-window event can qualify, and that statement needs no arithmetic about completion dates or day-counting conventions.**
 
@@ -67,7 +67,16 @@ The band reads: *"…grades NO-VERDICT on that leg — (gamma) is unreachable fo
 
 ---
 
-## 3 · ⚖️ DECISION PUT TO WILL — not taken here
+## 3 · ⚖️ DECISION PUT TO WILL — **RULED 2026-09-10: option (b). CLOSED.**
+
+> ✅ **RULED — WQ-160.** Will approved **option (b)** by Decision Deck tap **2026-09-10 15:21Z (11:21 ET)**, verbatim word **APPROVE**; relayed PROME → HAWK 2026-09-10 11:3x ET (`inbox/processed/2026-09-10_from-PROME_WQ-160-RULED-option-b-Status-class-repair-of-HAW-19-leg-A-with-disclosure.md`).
+> **Executed the same day, 2026-09-10:** the **duration branch** — A.3's `>=45 CONSECUTIVE DAYS` → **`>=14 CONSECUTIVE DAYS`**. **`Resolve_By` was NOT extended** (extending it would extend the §0 claim window itself, adding days in which a qualifying event could occur — that raises P(FAILED) and moves scored mass; it would also destroy the registered IMMOVABLE anchor type).
+> **Latest start date for a ≥14-day run completing by 2026-09-30 = 2026-09-17** (inclusive convention: 9/17 is day 1, 9/30 is day 14) — **28 days after the window opens, inside it.** LEG A is fireable again.
+> **Confidence unchanged at 70%** — required, not merely permitted: the 70% was priced against two live legs, so restoring LEG A returns the row to its priced basis (`finding_resolvability_defect_is_status_not_confidence`).
+> **Disclosure test RE-RUN at patch time (2026-09-10) and written into the row cell** — it comes out clean a second time, on three independent legs: ① no pre-registered non-fire is duration-keyed, so shortening the duration cannot resurrect one; ② an enumerated check of every candidate-shaped event across the elapsed window 8/20→9/10 (Novorossiysk 9/8-9 · Kstovo/NORSI 8/26 · Ryazan/Perm/Tatarstan/Saratov 9/6-8 · Sochi 9/3-4 · Jazan 9/7-8 · Ust-Luga 9/1 · Derya at Kharg 9/8 · Kylo/Riesco/the five 9/8 hulls/Hercules Star/New Andros · Mokha 9/10 · Sheskharis · Bukhta Sever 9/5-6) — **every one fails on a limb this patch does not touch**; ③ both owners independently report zero destroyed crude capacity (FALCON 9/10: *zero confirmed crude barrels offline, 195 days*; OSPREY 9/8: *barrels destroyed = zero*). **No grading anywhere in the window is altered.**
+> **D2** is repaired as a side effect — the NO-VERDICT band is no longer near-vacuous and does the work it was written for; its trigger, date and effect are unchanged. **D3 stays OPEN and unpatched** — `A.2(b)`'s `≥N of M` is still unparameterized, so A.2 remains satisfiable only by (a). This ruling did not reach it.
+> **Governing record:** the `A.3-vs-WINDOW REPAIR RECORD` at the end of §A in the HAW-19 Prediction cell. **The option table below is preserved as the decision record as it stood on 2026-08-20 — it is history, not a live decision.**
+
 
 **D1 is a resolvability defect on the load-bearing leg.** Fleet canon (`finding_resolvability_defect_is_status_not_confidence`) says that is a **Status** matter, **never** a Confidence cut — pricing resolvability into confidence corrupts the record in both directions.
 
@@ -81,7 +90,7 @@ The band reads: *"…grades NO-VERDICT on that leg — (gamma) is unreachable fo
 | **(b) Authorize a resolvability repair** | Either shorten A(iii)'s duration, or extend Resolve_By past 10/04, restoring LEG A. | A fifth same-day amendment. Mitigated: disclosure test clean, and it is a **Status**-class repair. |
 | **(c) Retire and re-register** | Clean successor with the window and duration mutually consistent from the start. | Loses the calibration continuity; a row re-registered after in-window evidence needs the made-date test run explicitly. |
 
-**My recommendation: (b), scoped as a Status-class resolvability repair with the disclosure test on the record.** (a) leaves a row that cannot test what it claims — which my own falsification surface calls worthless — and (c) pays a real calibration cost to fix an arithmetic slip.
+**My recommendation: (b), scoped as a Status-class resolvability repair with the disclosure test on the record.** *(→ RULED (b) 2026-09-10; see the banner at the head of this section. Executed via the duration branch.)* (a) leaves a row that cannot test what it claims — which my own falsification surface calls worthless — and (c) pays a real calibration cost to fix an arithmetic slip.
 
 ---
 

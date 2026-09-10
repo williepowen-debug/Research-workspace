@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-09T03:13:27.025869+00:00.** Derived from both owners' WARRISK ledgers and September8 briefs. Source dates below do not advance on regeneration. Fingerprints: `registry/derived_inputs.json`.
+**Refreshed: 2026-09-10T16:37:29.365347+00:00.** Derived from both owners' WARRISK ledgers and September8 briefs. Source dates below do not advance on regeneration. Fingerprints: `registry/derived_inputs.json`.
 
 | Leg / owner | Latest recovered premium evidence | Evidence date / age on September8 | Reading |
 |---|---|---|---|
@@ -25,3 +25,27 @@ Existing premium/origin/withdrawal tests remain in `thesis/FALSIFICATION.md`; no
 **Final owner ruling intake:** OSPREY CLAUDE EXIT RULES §1/§1b/§5 and KB098/100 record the downgrade path in force,33% re-centre withdrawn, Channel3 geography clarified and buyer-pullback limb retired to Channel2. No mark or premium moved. September15 consumer objection window retained; published fallback reads do not replace the frozen Bloomberg instrument. HAWK has not audited the new strike-feed implementation.
 
 **Final source delta:** the new unnamed Novorossiysk terminal fire report and August26 Kstovo backfill carry no premium observation. Current cross-theater ratio remains UNKNOWN; no price date advanced. See cross-war aggregate for the owner’s100-row count and terminal attribution limits.
+
+
+---
+
+## September10 delta — every leg is now MORE stale, and the week that needed it is the week it broke
+
+**Ages re-computed to September10 (the table above states them as at September8; source dates do not advance on regeneration):** Hormuz **July22 → 49 days**; southern Red Sea, Bab and West-Coast-Saudi **July23 → 48 days**; Black Sea relay **August21 → 20 days**, with the underlying Gibson assessment date still **UNKNOWN**. **Every leg exceeds the 10-day bar. The current cross-theater premium ratio remains UNKNOWN.** FALCON records its own corridor rows as **5/5 EXPIRED** and its September8 re-pull as **SEARCH-NOT-FOUND at 48 days**; the Iranian leg is **structurally unwritten**, not merely stale.
+
+**🔴 The finding this week, and it is a HAWK finding rather than a leg refresh.** The **(iii-A)/(iii-B) attacker split — endorsed for the ladder — INVERTS on the insurance leg.**
+
+- An **ATTRIBUTED** strike can be underwritten: a named actor with a declared scope **bounds** the exposure, so it can be priced or excluded.
+- An **UNATTRIBUTED** strike in a GCC anchorage **bounds nothing**, and makes every anchorage in the Gulf a maybe.
+
+**Evidence for the mechanism comes from the other theater, which is why this sits in the cross-theater aggregate and not in either owner's file:** the Black Sea **standard war-risk market has stopped writing** — RNRC declined, cover is self-funded specialist capital, FESCO out, MSC out of Novorossiysk — on a theater whose hostile total-loss **count is small**. **Underwriters did not leave over the number of hulls lost; they left because perimeter and intent could not be bounded.**
+
+⇒ **Ambiguity is LESS ladder-relevant and MORE repricing-relevant.** FALCON's rung correctly did **not** move on the Hercules Star (attribution ungradeable on all three limbs); this aggregate nonetheless carries that hull as the **most repricing-relevant event of the week**. **These are not in conflict — they are different instruments measuring different things**, and the divergence is recorded rather than resolved toward either desk. `KB-HAWK-352/353`.
+
+**⚠️ And the honest limit on all of it: HAWK cannot measure whether any repricing occurred.** The week the in-port class finally occurred is the week the instrument that prices it is stalest. **This is SEARCH-NOT-FOUND on a matched premium ratio — it is NOT the claim that war risk did not reprice** (`finding_market_ignoring_is_not_market_refuting`). A named unchecked source makes the absence closable: **any desk holding a post-September5 JWC, broker or underwriter print closes this in one read.**
+
+**Unchanged and re-affirmed:** attacker identity and sanctions status **do not** establish the policy covering a hull; JWC listings define **geography, not price**; freight (TD6) is **not** a premium; insurer/carrier withdrawal is **not** crude-buyer withdrawal — and OSPREY's September8 retirement of the buyer-pullback limb from Channel 3 to Channel 2 **removes a double-count this aggregate would otherwise have carried**, without converting insurer withdrawal into an observed crude-buyer refusal.
+
+**Mokha (September10)** — a Houthi-held port ~70 km north of Bab moves **launch geography** for the southern Red Sea and the Yanbu route. **No transit or insurance print is attached to it.** Capability, not enforcement; ladder #3b (Iran *ordering* a Bab closure) **NOT established**. It changes no premium leg in this table.
+
+*Derived surface: it rots at the cadence of its own regeneration, not on its own. Re-stamped on a delta pass per closeout 13a.*
