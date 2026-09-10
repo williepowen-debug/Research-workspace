@@ -2492,3 +2492,10 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-10T16:34:18Z	SIG-W-20260910-008	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-008.md	delivered	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
 2026-09-10T16:34:18Z	SIG-W-20260910-008	AEOLUS	INFO	CLAUDE_CODE	ROUTINE	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20260910-008.md	delivered	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
 2026-09-10T16:34:18Z	SIG-W-20260910-008	WATT	INFO	CLAUDE_CODE	ROUTINE	AGENTS/WATT/inbox/WALTER/SIG-W-20260910-008.md	delivered	erratum to -013; sits beside the unconsumed -013 handoff; consumption unverified
+2026-09-10T22:15:00Z	SIG-W-20260910-009	BOND	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260910-009.md	written_not_delivered_pending_push	consolidates buyback + FRED 10Y + Hedgeye live level
+2026-09-10T22:15:00Z	SIG-W-20260910-009	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-009.md	written_not_delivered_pending_push	credit-duration read on the yield leg
+2026-09-10T22:15:00Z	SIG-W-20260910-009	REGINALD	INFO	CLAUDE_CODE	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260910-009.md	written_not_delivered_pending_push	bank AFS/HTM revaluation read
+2026-09-10T22:15:00Z	SIG-W-20260910-009	HANS	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-009.md	written_not_delivered_pending_push	US 10Y climb is a directional add to UK 30Y watch
+2026-09-10T22:15:00Z	SIG-W-20260910-009	SAM	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-009.md	written_not_delivered_pending_push	Bessent-FX-intervention narrative flagged EXTRAORDINARY, do not carry as framing yet
+2026-09-10T22:20:00Z	SIG-W-20260910-010	VIOLET	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260910-010.md	written_not_delivered_pending_push	verify at Citadel primary before pricing on the level
+2026-09-10T22:20:00Z	SIG-W-20260910-010	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-010.md	written_not_delivered_pending_push	gamma-imbalance read into FOMC-plus-OpEx
