@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-10 ~11:5x ET (Thu) — second boot of the day (light, Tier-1 state refresh after the 11:3x Tier-2 closeout): FALCON adjudicated -001/-002/-007 (Riesco SANK, losses 2→3, rung (c) NOT FIRED, D 75), COR-20260908-04 fixed on HANS packet, no new dispatches, no fires. Prior: Tier-2 FULL closeout. Full-WALTER boot + routing + Will-directed full Iran primary sweep. BOARD 921 (+7 today: SIG-W-20260910-001…007, 31 handoffs, all on origin). PUSHED on Will's word (receipt HEAD a024bc0da); delivery_log reconciled (31 → delivered, 0 orphans).
+**Updated:** 2026-09-10 ~11:5x ET (Thu) — second boot of the day (light, Tier-1 state refresh after the 11:3x Tier-2 closeout): FALCON adjudicated -001/-002/-007 (Riesco SANK, losses 2→3, rung (c) NOT FIRED, D 75), COR-20260908-04 fixed on HANS packet; 12:3x ERRATUM SIG-W-20260910-008 → -013 (6,831 MW = BRA shortfall, 7/31 = RBP filing; WATT L249 grade via PROME) — BOARD 922, 4 info handoffs pending push; WQ-204/205/206 registered from WALTER's deck packet (206 RULED). No fires. Prior: Tier-2 FULL closeout. Full-WALTER boot + routing + Will-directed full Iran primary sweep. BOARD 921 (+7 today: SIG-W-20260910-001…007, 31 handoffs, all on origin). PUSHED on Will's word (receipt HEAD a024bc0da); delivery_log reconciled (31 → delivered, 0 orphans).
 
 ## BOTTOM LINE
 
