@@ -8,6 +8,36 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-10 (Thu) — ★ **V16 DROP-BACK-TO-3 BRANCH RATIFIED AS WRITTEN (WQ-182) — provisional flag DISCHARGED, vintage rider encoded. NO score move, NO threshold move, NO confidence move, zero capital.**
+
+**Ruling:** Will, **2026-09-10 11:22 ET (15:22Z)**, Decision Deck tap **`APPROVE`** on WQ-182 (relayed by PROME `prome-81`; packet `AGENTS/CARL/inbox/processed/2026-09-10_from-PROME_WQ-182-RULED-...md`; record `PROME/WILL_QUEUE.md` RECENTLY DONE row 182).
+
+**What changed — the FLAG, not the letter.** The branch text is unchanged: *"Drop back to 3: acute legs reverse again — NFP positive WITH net up-revisions for 2 consecutive prints (single-month discipline applies in both directions)."* What is removed is `[provisional structure — mirrors the Jun-6 cut basis; Will review at next matrix pass]`, the flag that had never had its review.
+
+**RIDER, binding (new, WQ-175 ②):** **the 2-of-2 count runs on the vintage in force at each print. A later revision of print 1 ANNOTATES; it never re-counts.**
+- ⇒ August's print-1 status is **FIXED** at what BLS published 2026-09-04: **+162K WITH +55K net up-revisions.** An October revision cannot un-count it.
+- ⇒ Symmetrically, a later up-revision cannot **manufacture** a print-1 that did not exist at the time — which is precisely what the 9/4 retraction did to the escalate-to-5 leg (July −23K → +21K ⇒ **no month-1 ⇒ count 0 of 2**).
+
+**Why this mattered enough to ask:** the branch was **one print from deciding a Will-approved vector** and had never been ratified. It is now ratified **before** it resolves, not after — the thing the 9/5 escalation asked for. Amending a branch one print before it fires is the loosen-the-guard shape (PROME's rec, adopted); it was ratified as drafted rather than re-specced.
+
+**Resolver:** September NFP, **~Fri 2026-10-02**. **LABOR grades the PRINT; CARL grades the BRANCH.** Positive with net up-revisions ⇒ 2 of 2 ⇒ **4→3 candidate to Will**. Negative print OR net down-revisions ⇒ **count RESETS to 0**.
+
+**Surfaces encoded (5):** `thesis/THESIS.md` V16 matrix cell (COL7) · `STATUS.md` V16 mirror row · `docket/CATALYSTS.tsv` 2026-10-02 row · `docket/CALENDAR.md` ~Fri 10/2 row · `ROADMAP_THREADS.md` V16 thread (index rebuilt). **Score UNCHANGED: 53/70 (76%), 11th consecutive cycle. V16 holds 4.** KB-CARL-433.
+
+## 2026-09-10 (Thu) — **AS-MADE RE-DERIVATION: 10 prediction rows re-marked, 4 RESOLVED rows change Brier vintage (all four WORSE). No verdict re-graded, no threshold moved.**
+
+**Origin:** DAEDALUS H2 fleet as-made audit, 2026-09-07 (`scripts/asmade_audit.py CARL` → 29 rows · SAME 8 · MISMATCH 18 · NOT-FOUND 2 · NO-CONF 1). Candidates were explicitly **not verdicts**; CARL verified each at the named git blob.
+
+**REFUTED 9 of 19.** Three were the tool reading a percentage out of a masthead or a VALUE cell (CRL-01, CRL-04, CRL-26). **Five were the ledger's own `(was Y)` chain working exactly as WQ-112 designed it** — the tool takes the first percentage and read past the history (CRL-14/15/16/21/23). **Four were a claim-identity error**, below.
+
+**⛔ THE FINDING — an ID can be REASSIGNED to a different claim.** `4e8c98359` (2026-03-09), verified by `git log --reverse` as the earliest STATUS blob carrying CRL IDs, uses a different ID→claim map: its CRL-05 = Fannie MF, CRL-06 = Student 90+, CRL-07 = CC 90+, CRL-08 = Foreclosures ⇒ today's **CRL-03 / 04 / 05 / 06**. Four flagged mismatches therefore compared **two different predictions**, both cells real confidences for real claims — so nothing in the comparison looks wrong. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`. Routed to DAEDALUS as a third tool limit beside its two named ones. KB-CARL-434.
+
+**SUSTAINED 10, re-marked in `thesis/PREDICTIONS.tsv`:** as-made **proven** (blob date == or ≈ Date_Made, exact claim match) for CRL-03 (90%), CRL-04 (88%), CRL-05 (75%), CRL-06 (70%), CRL-12 (77%), CRL-20 (75%), CRL-13 (70%); **EARLIEST RECORDED ONLY**, and labelled as such in the cell, for CRL-10 (70%), CRL-11 (85%), CRL-17 (55%) — their `Date_Made` precedes first STATUS appearance, so DAEDALUS's limit (2) is unresolved on them. **A recovered-but-unprovable as-made is not the same object as a proven one, and collapsing the two is how a calibration audit launders its own uncertainty.**
+
+**🔴 BRIER IMPACT — 4 of 4 the same direction.** CRL-03 MISSED .5184→**.8100** (+.2916) · CRL-06 CONFIRMED .0484→**.0900** (+.0416) · CRL-11 MISSED .6889→**.7225** (+.0336) · CRL-04 CONFIRMED .0004→**.0144** (+.0140). **Sum +0.3808.** The walk is *selected for* on the hardest-to-forecast rows — those are the ones re-priced before they resolve — so it lands where Brier weight is heaviest. On the CONFIRMED rows the ledger sat **above** the as-made and on the MISSED row **below**: **both directions flatter the score**, so the drift is not mean-zero. Same shape as LABOR's 0.299→0.342. **CARL did NOT recompute the aggregate — the 9/14 ladder sitting owns the scoreboard; CARL owes it corrected inputs, not a corrected output.** KB-CARL-435.
+
+---
+
 ## 2026-08-27 (Thu) — ★ **FULL-THESIS KILL RULE RE-SPEC RATIFIED AND ENCODED (v2.6.5 → v2.6.6) · §5 gate CLEARED at primary · consecutive count RESETS 1-of-2 → 0-of-2 · NO score change, 53/70 holds**
 
 **Authority:** Will in-session **2026-08-16**, verbatim *"approved - go ahead with A as recommended"* — **Option (A)**. Ruling of record: `PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md` (**cite it, don't reconstruct**). Parent authority: `PROME/proposals/2026-08-12_rule-batch-RULED.md` **row 44**, option (b). Will re-affirmed the ruling in-session **2026-08-27** at the top of this session.

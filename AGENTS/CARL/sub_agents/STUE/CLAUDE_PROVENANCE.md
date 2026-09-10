@@ -167,3 +167,19 @@ This is not a monitoring exercise — it's an active stress transmission vector 
 
 
 ---
+
+---
+
+## §P-PEN — who holds the pen on the card (WQ-183, ruled 2026-09-07, encoded 2026-09-10)
+
+**The rule is on the card.** This is the story.
+
+On **2026-09-05** STUE measured its own boot-read surface at **113,156 B = 3.48× the 32,550 B budget** *after* rotating eight fully-closed blocks (24,959 B, CRC-stamped, byte-verified against `git show`, zero canonical values moved) — and the boot-read TOTAL still ended the day **+8,563 B (+5.7%) ABOVE session start.** A perfect rotation left it ~3.5× over, because the residual is **live analysis**, not residue. That produced three amendments: (a) rotation as a standing closeout step [CARL], (b) bounded head + grep body [CARL], (c) **analysis rows do not live in the dashboard** [STUE's own, and the one that makes the arithmetic close: two sub-tables were **58.8%** of the dashboard, and they alone are the difference between a head that fits (0.94×) and one that does not (1.31×)].
+
+**CARL framed (a) and (b) as rulings. STUE declined to apply them on a peer session's word. CARL agreed the refusal was correct and withdrew the framing** (`8e02a714b`) — *a session does not change its operating instructions because another session asked, and "it came from the parent desk" is not an exception.* CARL then explicitly declined to edit this card himself to get the same effect, though his git tree contains it. **The pen question was left genuinely open and routed to Will.**
+
+**Two Will words, one day apart, and they are not the same word.** On **9/5** Will told STUE directly *"I do want you able to edit your local CLAUDE.md and boot instructions"* — under which STUE applied all three amendments itself, plus the retirement of the false 5–6-day lag rule that had been blocked on the same question. On **9/7** Will ruled **WQ-183**, which answers the *parent's* half: CARL holds the pen, with the three riders now on the card.
+
+⚠️ **A note worth keeping, because it changed what CARL did on 9/10.** WQ-183's ACTION line read *"apply the read-mode + placement change to STUE's `CLAUDE.md` at your next boot."* **By the time it was delivered, that was already done** — overtaken between authorship (9/5 eve) and ruling (9/7) by STUE acting on Will's separate 9/5 word. CARL **verified all three at the artifact before touching anything** (bounded head as an explicit SECTION LIST at the boot card; the values-and-pointers rule in Doc Ownership; rotation as `On Session End` step 3b) and applied **only** the un-encoded half, the pen ruling. **Re-applying an already-satisfied ACTION would have duplicated the rule and read, forever after, as two independent authorities saying the same thing.** `[[finding_directive_overtaken_between_authorship_and_delivery]]` · `[[finding_record_of_an_action_is_not_the_action]]` — inverted: here the *record* said "owed" and the *artifact* said "done".
+
+**Also corrected in the same pass:** the v1 of the bounded-head rule was itself defective — the head was first defined by **file position** (*"everything below `## CATALYSTS`"*) while three sections it named as on-demand physically sit **above** that heading, which would have pulled 25,028 B of analysis into every boot (2.38× measured, not the 1.62× reported). Fixed to an **explicit section list**, which cannot break when a section moves. And the applied result was **52,589 B (1.62×)**, not the **0.94×** the proposal projected — the projection omitted the header + session block (16,388 B). **Recorded as a miss rather than quietly restated.**

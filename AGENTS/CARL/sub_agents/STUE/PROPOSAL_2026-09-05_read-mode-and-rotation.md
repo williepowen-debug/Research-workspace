@@ -8,6 +8,7 @@
 **Status when drafted:** 🟡 NOT APPLIED. Drafted 2026-09-05, measured, and held.
 **Why held:** all three change STUE's own boot/closeout protocol. CARL recommended (a) and (b) and initially framed them as rulings; **STUE declined to apply them on a peer session's word, and CARL agreed the refusal was correct** and withdrew the ruling framing (CARL commit `8e02a714b`). **A session does not change its operating instructions because another session asked, and "it came from the parent desk" is not an exception.**
 **Also open for Will:** whether CARL holds the pen on sub-agent cards at all, or each card moves only on Will's word. CARL has explicitly declined to edit this card himself to get the effect, though his git tree contains it.
+**✅ CLOSED 2026-09-07 — WQ-183 ② RULED: the PARENT holds the pen** (Will *"Approve 163, 183, 190, 191 with your recs"* 21:14 ET; record `PROME/proposals/2026-09-07_wq163-183-190-191-RULED.md`). Three riders: a card edit is a **dated ruling in the parent's tree** · the **two-correction stop** binds it · **STUE's guardrail is unchanged and was correct** — a sub-agent never rewrites its own card on a peer session's say-so; it reads the card the parent committed. **Encoded on the card 2026-09-10 (CARL); story → `CLAUDE_PROVENANCE.md` §P-PEN.** ⚠️ **The ruling's ACTION line ("apply the read-mode + placement change") was ALREADY SATISFIED when it arrived** — verified at the artifact, not re-applied.
 **Attribution:** (a) and (b) are CARL's; **(c) is STUE's, and it is the one that makes the arithmetic close.**
 
 ---

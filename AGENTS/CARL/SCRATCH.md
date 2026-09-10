@@ -1,161 +1,124 @@
 # CARL SCRATCH
-**Last session:** **2026-09-05 (Sat) ~10:28 → ~11:5x ET** — catch-up after ~2 days dark (last close 9/3 07:1x).
-**Type:** Catch-up + PROME task packet (2 asks) + STUE oversight. **NO vector moved — 53/70 (76%) holds, 10th consecutive cycle.** ⛔ **But the reason it held is the whole story: the print V16's 3→4 was executed on was RETRACTED at the issuer, and only the letter kept the score.**
+**Last session:** **2026-09-10 (Thu) ~12:23 → ~13:5x ET** — PROME-spawned Tier-1 **ruling-implementation** session (Will *"spawn all three"* 12:22). Dark since 9/5.
+**Type:** Two Will rulings encoded + whole-inbox drain (7→0) + a calibration audit worked. **NO vector moved — 53/70 (76%) holds, 11th consecutive cycle.**
 
 ---
 
-## ⏭️ NEXT SESSION, FIRST TWO THINGS (added at closeout)
-1. **The 9/30 PREDICTION CLUSTER — four resolutions inside 25 days and none touched: CRL-05** (+ its basis question, **6th session carried**), **CRL-08** (window closes ~9/30, gap 35.4¢), **CRL-17**, **CRL-21** (both Q3-2026). ⛔ **Do not let these resolve by expiry.**
-2. **`abs_monitor.py` — a monitor that cannot see its own panel is WORSE than none, because it reports clean.** Confirmed disjoint: it tracks Exeter 2026-1/2025-5/2025-4/2025-3; the registered V2 panel is EART 2022-2/2022-3/2023-1/2024-1.
-*(Read-cap: ROADMAP is fixed. **STATUS 81% is next and takes the same index/detail treatment.** MEMORY 86% / 3 lines from cap — ⛔ **flag to PROME, do NOT compact it yourself.**)*
+## ⏭️ NEXT SESSION, FIRST TWO THINGS
+1. **⛔ THE 9/30 PREDICTION CLUSTER IS NOW 20 DAYS OUT AND STILL UNTOUCHED — 3rd session carried.** **CRL-05** (+ its basis question, **7th session carried — do not carry it an eighth**), **CRL-08** (window closes ~9/30, gap 35.4¢), **CRL-17**, **CRL-21**. **Do not let these resolve by expiry.**
+2. **STATUS rotation #11 — STRUCTURAL, not a byte-trim. It grew again today (43,794 → 45,101 B, 1.39× budget).** Order is fixed and is STUE's diagnosis, not mine: **(c) audit the dashboard for rows that are not VALUES and move them out** → **(b) read-mode change** (bounded head + grep body) → **(a) rotation as a standing step.** Measure the boot-read TOTAL in **BYTES** and report it **even if it rises.**
 
 ---
 
-## PRIORITY-1: **V16's DROP-BACK-TO-3 BRANCH IS LIVE AT 1 OF 2, RESOLVER ~FRI 10/2 — AND IT HAS NEVER BEEN RATIFIED.**
-- **BLS revised July NFP −23K → +21K** on 9/4 (June +20K → +31K, net **+55K**; August **+162K**). **There was no negative payroll print in this cycle.** Verified independently off FRED `PAYEMS` levels — **6 of 6 deltas match** (214/148/63/31/21/162 Mar→Aug).
-- ⛔ **V16 HELD AT 4 AND THE REASONING MUST TRAVEL, because three things had to hold:** ① **WQ-175 ②** — a later vintage crossing the bar is a **dated annotation, never a re-grade**; ② **WQ-162** — a letter naming no vintage **grades as first published**, and V16's named none; ③ **the drop-back letter reads 1 of 2**, and its own *"single-month discipline applies in both directions"* clause is what forbids stepping down on one print — the same clause that held V16 at 3 against June's +57K on 7/2.
-- ⛔ **ESCALATE-TO-5 IS 0 OF 2, NOT 1 OF 2.** With July positive there is **no month-1**. Any grade reading *"July printed −23K, so a second negative print fires it"* is on a retracted premise. **Docket + CALENDAR + THESIS fast-table all corrected 9/5** — but check anything else that quotes it.
-- 🔴 **THE ASK OF WILL IS DATED:** the drop-back branch is flagged `[provisional structure — Will review at next matrix pass]` and **that review has never happened.** It is one print from deciding a Will-approved vector. **Ratify / amend / replace BEFORE ~10/2.** Routed to PROME 9/5; **chase it if no ruling by ~9/25.**
+## WHAT HAPPENED — the two rulings landed, and one of them was already done
+
+### ✅ WQ-182 — V16's drop-back branch RATIFIED AS WRITTEN, and the flag is discharged
+Will, **2026-09-10 11:22 ET (15:22Z)**, Decision Deck tap **`APPROVE`**. The branch letter is **unchanged**; what is removed is `[provisional structure — Will review at next matrix pass]`. **RIDER, binding (WQ-175 ②): the 2-of-2 count runs on the vintage in force at each print — a later revision of print 1 ANNOTATES, never re-counts.**
+- ⇒ **August's print-1 status is FIXED** at what published 9/4 (**+162K with +55K net up-revisions**). An October revision cannot un-count it.
+- ⇒ Symmetrically, a later up-revision cannot **manufacture** a print-1 — which is exactly what the 9/4 retraction did to the escalate leg (**escalate is 0 of 2, not 1 of 2**).
+- **Encoded on 5 surfaces** (THESIS V16 COL7 · STATUS mirror · CATALYSTS 10-02 · CALENDAR 10-02 · ROADMAP_THREADS) + CHANGELOG + KB-CARL-433.
+- 🔴 **Resolver = September NFP ~Fri 10/2. LABOR grades the PRINT; CARL grades the BRANCH.** Positive-with-up-revisions ⇒ 2 of 2 ⇒ **4→3 candidate to Will**; negative OR net down-revisions ⇒ **RESETS to 0**. ⚠️ **Do not step down on one print** — the letter's own *"single-month discipline applies in both directions"* clause held V16 at 3 against June's +57K on 7/2 and binds symmetrically.
+- 🔑 **The 9/5 escalation got exactly what it asked for: the branch was ratified BEFORE it resolves, not after.**
+
+### ✅ WQ-183 — the PARENT holds the pen on a sub-agent card. ⚠️ **Its ACTION was already satisfied when it arrived.**
+The packet said *"apply the read-mode + placement change to STUE's `CLAUDE.md` at your next boot."* **All three amendments were already on the card** — STUE applied them itself on **9/5** on Will's *separate* word (*"I do want you able to edit your local CLAUDE.md and boot instructions"*). **I verified all three at the artifact before touching anything** (bounded head as an explicit SECTION LIST · values-and-pointers in Doc Ownership · rotation as `On Session End` 3b) and applied **only the un-encoded half — the pen ruling**, as a dated ruling on the card, story to `CLAUDE_PROVENANCE.md` §P-PEN.
+- 🔑 **Re-applying would have duplicated the rule and read, forever after, as two independent authorities saying the same thing.** `[[finding_directive_overtaken_between_authorship_and_delivery]]` — and the inverse of `[[finding_record_of_an_action_is_not_the_action]]`: here the RECORD said "owed" and the ARTIFACT said "done".
+- **Riders on the card:** a card edit is a dated ruling in the parent's tree · the two-correction stop binds it · ⛔ **STUE's 9/5 refusal was CORRECT and stays its standing behaviour** — a sub-agent never rewrites its own card on a peer session's say-so.
+
+### ★ THE DAEDALUS AS-MADE AUDIT — 19 candidates, 9 refuted, 10 sustained, and the finding is bigger than the flags
+⛔ **The audit tool has a THIRD limit it did not name: an ID can be REASSIGNED to a different claim.** `4e8c98359` (2026-03-09, verified earliest by `git log --reverse`) uses a different ID→claim map — its CRL-05=Fannie MF, 06=Student 90+, 07=CC 90+, 08=Foreclosures ⇒ **today's CRL-03/04/05/06**. Four flags compared **two different predictions**, both cells real confidences.
+🔑 **This is the only branch a careful reader would have BANKED.** The two *named* limits fail loudly — a `98% → 6%` swing on a CONFIRMED row is self-evidently a value cell; two of the flags read a percentage out of a **masthead sentence**. **Five more flags were the ledger's own `(was Y)` chain working exactly as WQ-112 designed it** — the tool takes the first percentage and read past the history.
+
+🔴 **THE CALIBRATION RESULT, AND IT IS NOT A WASH.** Four SUSTAINED rows are RESOLVED, so their Brier vintage changes — **and all four move the same direction, worse:**
+
+| ID | outcome | scored at | should be | ΔBrier |
+|---|---|---|---|---|
+| CRL-03 | MISSED | .5184 | **.8100** | **+0.2916** |
+| CRL-06 | CONFIRMED | .0484 | .0900 | +0.0416 |
+| CRL-11 | MISSED | .6889 | .7225 | +0.0336 |
+| CRL-04 | CONFIRMED | .0004 | .0144 | +0.0140 |
+| | | | **sum** | **+0.3808** |
+
+⛔ **The mechanism is benign, which is why it is dangerous.** A desk re-prices a live prediction — correct behaviour — and overwrites the confidence cell. **But the walk is SELECTED FOR: the row that got re-priced is the row that was hard and moved a lot, i.e. the row carrying the most Brier weight.** ⛔ **And it flatters BOTH ways** — on the CONFIRMED rows the ledger sat **above** the as-made, on the MISSED row **below**. **A mean-zero assumption about the drift is unsafe.** Same shape as LABOR's 0.299 → 0.342. KB-CARL-434/435; new auto-memory `[[finding_confidence_walk_is_selected_for_on_the_rows_that_carry_the_most_brier_weight]]`.
+✅ **I did NOT recompute CARL's aggregate Brier** — the **9/14 ladder sitting** owns the scoreboard; I owe it corrected **inputs**. ⚠️ **CRL-10/11/17 are marked EARLIEST RECORDED, not as-made** (Date_Made precedes first STATUS appearance) — **a recovered-but-unprovable as-made is not the same object as a proven one.**
+
+### ✅ Dated rows — 2 of 4 gradeable today, both graded at the primary
+- **L281 / L151 — FSA `PortfoliobyLoanStatus.xls` POLLED 2026-09-10 16:35 UTC: `Last-Modified: Thu 18 Jun 2026 21:05 GMT`, MD5 `4732c453…d007`, 133,120 B — UNCHANGED, byte-identical to the 9/5 pull AND STUE's 8/13 copy.** ⇒ **FY2026-Q3 has NOT posted; 2nd consecutive CHECKED ABSENCE recorded as a non-event.** L281 ⇒ NO CHANGE, re-date +1wk (**~9/18, docketed**); L151 window (9/1–9/30) PENDING, 20d left. ES-01/04/06 unmoved.
+- ⛔ **TWO INSTRUMENT DEFECTS, both found only by RUNNING it (KB-CARL-437): ① the path is CASE-SENSITIVE — `PortfoliobyLoanStatus.xls`, lowercase `b`. DOCKET L281 spells it with a CAPITAL B, which returns HTTP 404 — and a 404 reads as "withdrawn", a WRONG FINDING, not an error.** ② 🔑 **The ETag IS `<MD5>:<epoch>` — a HEAD request alone proves byte identity; never download the 133KB file.** Routed to PROME (owns the DOCKET text).
+- **NOT gradeable today, dates stated:** **L152** SAVE→RAP first-tranche read — **9/29–10/1** · **L153** RAP auto-pay deadline — **9/30**.
+
+### ✅ Other inbox work
+- **LABOR claims refreshed: 206,000 w/e 9/5, 4-wk MA 206,000** (w/e 8/29 revised 206→207K; prior MA 207,250→207,500). Kill-rule leg `<220K` **stays SATISFIED — the verdict never moved, only the figures.** ⛔ **The MA's −1,500 is the 212,000 roll-off, NOT easing.** ⚠️ Next week the roll-off is 207,000 ⇒ an identical print moves it **−250, 6.0× smaller** — a reader without the roll-off sees "improvement slowing" where nothing changed. 🔴 **LABOR's T-01 now routes to CARL; its bound `X > 1,000,000 − (W2+W3+W4)` is re-solved weekly (383,000 → 382,000 on 9/10) — quote the FORMULA, never the number.**
+- **`roadmap_index.py --check` PATCHED** (PROME's 9/5 build) and **falsified before trusting it**: T1 clean ⇒ 0 · **T2 (Codex's false-pass case: Next Step mutated, thread name kept) ⇒ 1** · T7 dup anchor ⇒ 1 · restored ⇒ 0. It now compares the **rendering**, not a name set.
+- **COR-20260905-02 emitted** (ES-02 reading-rule defect, direction **HOLD** with the re-derivation figures in the cell) + **COR-20260905-01 receipted APPLIED**; `corrections_boot_check.py CARL` rc=0.
+- **STUE tracker banner-vs-body: PROME's INFERRED flag PARTLY REFUTED.** No substantive contradiction — the banner is about *generalisation*, the body about the *checker implementation*, and both are true. **The defect is one word: "FALSIFIED against live data"** describes a rule reproducing, on its own fitting data, a boundary its author had already picked. Routed to STUE with the suggested wording; **I did not edit STUE's workbook** (the pen ruling scopes to the CARD).
+
+### 🔧 Structural fix found in passing
+**The two threads the 9/5 split session added lived as PROSE in `ROADMAP.md`, outside the generated index — invisible to the drift gate.** The split's own first session used the pre-split method. Both moved into `ROADMAP_THREADS.md` as rows, one ✅-closed thread moved to RECENTLY RESOLVED, index rebuilt: **28 → 31 threads, ROADMAP 31,946 → 29,614 B.** `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` — **a new convention touches NOTHING already on disk.**
 
 ---
-
-## ⚠️ THE CONVICTION LOSS IS BIGGER THAN THE SCORE, AND IT LANDS ON CARL'S OWN AXIS
-| 8/10 execution cited | current vintage | |
-|---|---|---|
-| Retail trade **−19K** | **+13.2K** | sign-flipped; positive **6 of 6** months |
-| Club stores/supercenters **−21K** | **+9.6K** | sign-flipped; positive **5 of 6** |
-| L&H 2nd straight shed | **+62.0K** Aug | reversed |
-| Labor-force **exit** −264K, LFPR 61.4 | **+683K**, LFPR **61.6**, EPOP **59.1** | inverted; **T-03 did NOT fire** |
-| 3-mo avg **+20K/mo** "stall speed" | **+71.3K/mo** | 3.5× |
-
-**Retail trade + club stores were the leg that was MINE, not LABOR's.** ✅ **RESOLVED SAME SESSION, Will-directed: the leg is RE-BASED onto demand-side instruments** — spec `thesis/TRADEDOWN_INSTRUMENTS.md`, V8 cell + STATUS rewritten, **score HELD at 4** (instrument change, not a score move). ⛔ **The employment proxy is RETIRED for TWO independent reasons, and the first is worse than the revision: THE SIGN WAS BACKWARDS** — consumers trading *down into* discount/club retail make it **busier**, so a staff shed is closer to the opposite of the prediction; **and headcount does not measure consumer stress at all.** **The spec was wrong before the data moved.** 🔑 **NEW REGISTERED SIGNATURE: TRIPS UP *AND* REAL BASKET DOWN** — and **DEFLATE THE TICKET**, because the nominal number carries the opposite sign (DG Q2: nominal ticket **+1.5%** reads healthy; **real −1.11%** is the stress signature). ⚠️ **THE TWO TIERS DISAGREE AND I LEFT THEM UNRESOLVED: Tier 1 aggregate is 3-of-3 AGAINST, Tier 2 cohort is FOR. The leg now rests on Tier 2 ALONE — weaker than the 8/10 cell claimed, and ONE DG PRINT (~Dec) FROM DYING.** Kill rules registered so it *can* die; "Tier 1 is masked" is admissible ONLY while Tier 2 shows the signature.
-
----
-
-## CHANGES SINCE LAST SESSION (what moved while offline)
-- **NFP retraction 9/4** (above) + **AHE 3.2 → 3.1% / $37.75** — ⛔ **cite ECI, not AHE**, for any wage claim (LABOR fence; next ECI **10/30**).
-- **July PCE landed 8/28 and was never integrated.** Savings **Jun revised 2.7→2.6** (Apr 3.0→2.9, May 3.0→2.8 — the whole spring path revised DOWN), **Jul printed 3.0%.** **Real PCE +0.01% MoM vs real DPI +0.37%** ⇒ **June's "drawdown-funded consumption resumed" INVERTS for July.** ⛔ **The driver is a SPENDING STOP, not an income surge** — read beside July retail sales ex-food −0.8% as **precautionary retrenchment, not buffer repair.** August PCE ~9/25.
-- **Energy re-loaded, BOTH legs up:** **AAA regular $4.146** (+2.6¢ in 3d) and **AAA diesel $5.882 — fresh cycle high, +19.4¢ in THREE DAYS, +58.2¢ since 8/10.** Brent `DCOILBRENTEU` **$88.24 (8/25) → $96.02 (9/1), +8.8%.**
-- ⚠️ **THIS INVERTS THE 9/2 READ ON V5:** the cushion is **WIDENING, not narrowing** — **14.6¢ on AAA daily** (9/2 SCRATCH called 7.1¢ *"the narrowest since the line was crossed"*). **FRED GASREGW $4.071 w/e 8/31 is the STALE leg; next print Tue 9/8** (Labor Day shift) and it should print UP.
-- **WQ-151 RULED** (Will 9/3) and **WQ-175 RULED** (Will 9/4) — both consumed and applied; WQ-175 was applied **in anger the next day.**
-- **STUE (`stue-99`) ran live and delivered** — see below.
-
-## WHAT HAPPENED
-1. **★ A RETRACTION HIT A WILL-APPROVED VECTOR MOVE AND THE LETTER HELD — I verified it myself rather than taking LABOR's word**, because V16 is my vector and the retraction impeaches my own executed move. Re-derived off FRED levels: 6 of 6.
-2. **★ I ALMOST ROUTED A 4→3 PROPOSAL TODAY AND THE REGISTERED LETTER STOPPED ME.** My standing worry is the *asymmetry* — that letter-discipline keeps holding the score UP. So when a DOWN candidate finally arrived I was primed to move fast on it. **That would have broken my own letter in the opposite direction — the mirror-image error.** The letter is symmetric; I graded it symmetrically. ⚠️ **The uncomfortable half, on the record: letter-discipline has now preserved a high score TWICE running (V2 ×3, V16). Both are threshold verdicts, not evidence verdicts.**
-3. **★ THE SECTOR LINE REVISED ~7× HARDER THAN THE HEADLINE — and that is where my claim lived.** Headline swung 44K on a 159,075K base (**0.028%**); retail trade swung 32.2K on a 15,488K base (**0.208%**). **Vintage discipline is aimed at headlines; the load-bearing claim lives one level down, where nobody stamps a vintage.** n=1 — asked LABOR to test it against a longer CES history. **Auto-memory EXTENDED** (`feedback_single_month_subcomponent_skepticism`, revision axis — the 2nd-print remedy does **not** cover it); promotion flagged to PROME.
-4. **A forward-only rule protects the VERDICT and leaves the EVIDENCE SENTENCE standing.** WQ-175 correctly kept the grade — but 7 surfaces still asserted *"July NFP −23K = the first negative print"* in the present tense with no vintage tag. **The grade was safe; the presentation was not.** KB-CARL-422.
-5. **⚠️ V2/L131 LOCKED — and the "docket gap" I reported closing was a FABRICATED EVENT I ADDED.** There is **no 9/10 CVNA print**: CVNA Q2 was **7/29** and I graded it **7/31 (KB-CARL-366)**. PROME's 9/4 reconcile mis-re-dated compound L131; I took the date on trust and propagated it to **6 surfaces**, reporting it as a gap I had *closed*. Codex caught it, PROME owned it, **all 6 corrected 9/5.** **The grade DEFINITION stands unchanged — only its pinned event was fake.** 🔑 **My own `claim_check` flagged it and I resolved the flag BACKWARDS:** it fired *"Wed 9/10 is a Thursday"* on 5 files; I wrote *"date right, weekday wrong"* and changed Wed→Thu across all five. **In fact 2026-07-29 was a Wednesday** — the WEEKDAY was the true survivor and the DATE was the fabrication. **I erased the evidence.** KB-CARL-428.
-6. **STUE found its own instrument DEFECTIVE and said so** — ES-02's registered "5-6 day lag" is wrong (the settled boundary is a **~14-day CLIFF**); applying the documented rule on 9/5 yields **3.3/day, an 85% collapse that does not exist.** 🔑 *"A dormant instrument is a QUERY plus its READING RULES, and they rot at different rates"* — the query is exercised every run, the lag figure never was. Routed to PROME.
-7. **⚠️ I TRUNCATED STATUS.md TO ZERO BYTES MID-SESSION** — `open(p,"w")` truncates *before* the write, and my write raised on a bad argument. Restored from git, re-applied all edits, and **hardened every edit script to build the string first, assert a minimum length, write to `.tmp`, then `os.replace`.** No data lost (the file was committed clean at boot); ~2 minutes lost. **Recorded because a near-miss on a primary-memory file is worth more written down than a clean run is.**
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **V16 Employment** | **HOLDS 4** — evidence RETRACTED at the issuer, annotation not re-grade. **Escalate 0 of 2; drop-back LIVE 1 of 2, resolver ~10/2, branch UNRATIFIED.** 🔴→🟠 on the row |
-| **Savings / PCE** | Jun **2.6%** (revised), **Jul 3.0%**; real PCE **+0.01%** vs DPI **+0.37%** — drawdown read **INVERTS**. 🔴→🟠 |
-| **Gas Pump** | **$4.146 AAA (9/5)** — turned back UP; **V5 cushion WIDENING to 14.6¢**, CRL-08 gap **35.4¢** |
-| **Diesel** | **$5.882** fresh high, **+19.4¢/3d**; FRED weekly $5.599 is STALE not disagreeing (28.3¢ gap) |
-| **Brent** | **$96.02 (9/1)** vs $88.24 trough — pump lag reaches ~9/11-9/18, **INTO and PAST the CPI date** |
-| **Claims** | **206K / 4-wk 207,250** — supersedes the **197K** this desk carried and PROME re-published |
-| **Convergence** | **NO CHANGE — 53/70 (76%), 10th cycle** |
-| KB | 413 → **421** rows (KB-CARL-418…425) |
+| **V16 Employment** | **HOLDS 4.** Drop-back branch **RATIFIED (WQ-182)** + vintage rider; **LIVE 1 of 2**, resolver ~10/2. Escalate **0 of 2** |
+| **Claims** | **206,000 w/e 9/5, MA 206,000** — supersedes 206K/207,250. Kill-rule leg SATISFIED |
+| **FSA defaults** | **FY2026-Q3 NOT POSTED** (polled 9/10) — 2nd checked absence; re-poll ~9/18 |
+| **Calibration** | 🔴 **4 resolved rows re-marked, ΔBrier sum +0.3808, all WORSE.** Inputs owed 9/14 |
+| **Convergence** | **NO CHANGE — 53/70 (76%), 11th cycle** |
+| KB | 432 → **437** rows (KB-CARL-433…437) |
+| Inbox | **7 → 0**, all filed to `processed/` |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
-1. **Pull gas first** (standing rule). **Both legs now rising into a risen crude.** FRED weekly for w/e 9/7 prints **Tue 9/8** — first confirmation of the AAA turn. V5 cushion 14.6¢ and widening; CRL-08 gap 35.4¢, **window closes ~9/30.**
-2. **⛔ THERE IS NO 9/10 CVNA PRINT — do not go looking for one.** 9/10 is the **INTERNAL V2 leg-table registration sitting**, nothing more. **The L131 discriminator grades on the REAL data: ~9/15 (broad + Carvana 10-D) and 9/30 (deep tier), with the verdict deferring to the later-filing tier — so the real grade is ~9/30, not mid-month.** The frozen definition is in `docket/CATALYSTS.tsv` + `CALENDAR.md`; **both self-cutting caveats are wired into those rows and must travel to the grade cell.** Carvana's gap **WIDENED +0.23pp** — the one tier moving away, which is why it discriminates.
-3. **The V2 sitting is ≤9/10 — register OTTO's leg table (WQ-107 discharged).** WQ-151 is ruled, so the wording is settled; encode with the unit on every threshold.
-4. **9/8 PHAN spawn — now +53d**, gate fired 8/27. Affirm/Klarna **AND** the COCKROACH/REGULATORY sweep.
-5. **9/8 Canadian counter-tariffs.** ⛔ **41% capital goods / 17% consumer-visible by line count** (MARCO right-sizing) — **a CPI contribution sized off the sector headline will be too large.** Grade DIRECTION off the instrument, treat MAGNITUDE as UNSOURCED. **9/8 is NOT the auto date.**
+1. **Pull gas first** (standing rule). Last read **AAA $4.146 (9/5)**, diesel **$5.882**, Brent **$96.02 (9/1)** — **all stale by 5 days.** V5 cushion was 14.6¢ and WIDENING; CRL-08 gap 35.4¢, **window closes ~9/30.** The 9/1 crude re-rise reaches the pump ~9/11–9/18.
+2. **August CPI printed Fri 9/11 — INTEGRATE IT.** CARL's leg is the pump input and it **inverts from July**: August FRED weeklies ≈ **$4.06** vs July ≈ **$3.93** ⇒ **gasoline CPI should print POSITIVE MoM** where July was base-effect-protected negative. ⛔ **Modest, not a spike** — a positive-but-small print is compatible with BOTH HEN-41 CONFIRM and DENY, and **HEN-41 is HENRY's letter, not CARL's.** UMich Sept prelim same morning — do not let CPI absorb it.
+3. **9/14 DAEDALUS ladder sitting — the corrected as-made inputs are OWED** (docketed). Supply inputs only.
+4. **~9/15 SDART/BLAST August 10-D** — first live application of the ruled leg. **Matched collection month, YoY, per deal, in pp. ⛔ NEVER MoM.** Deep tier files ~9/30; **the tier verdict defers to the later-filing tier ⇒ the real V2 grade is ~9/30.**
+5. **FOMC 9/15-16** — V12 un-fire needs a dovish pivot returning a 2026 cut to the dots **across 2 consecutive meetings**; this is **meeting 1 of 2**, first surface where dots exist.
 
-### THIS WEEK
-6. **9/11 August CPI.** ⚠️ **CARL holds NO frozen letter here** — HEN-41 is HENRY's. **CARL's leg is the pump input and it inverts from July:** August FRED weeklies ≈ **$4.06** vs July ≈ **$3.93**, so **August gasoline CPI should print POSITIVE MoM** where July was base-effect-protected into a negative. ⛔ **Modest, not a spike** — a positive-but-small print is compatible with BOTH HEN-41 CONFIRM and DENY. **The 9/1 crude re-rise arrives AFTER this reference month.** UMich Sept prelim same 10am — do not let CPI absorb it.
-7. **9/10 falsifier report owed to DAEDALUS** (rotation #1; send unprompted, hit or not).
-8. **~9/15-17 SDART/BLAST August 10-D** — first live application of the ruled leg. Matched **collection month**, YoY, **per deal, in pp.** ⛔ **NEVER MoM.** Deep tier files ~9/30; **the tier verdict defers to the later-filing tier.**
-9. **FOMC 9/15-16 (re-dated from the 8/28 Jackson Hole row)** — V12 un-fire needs a dovish pivot returning a 2026 cut to the dots **across 2 consecutive meetings**; this is **meeting 1 of 2** and the first surface where dots exist.
-
-### BACKLOG / CARRIED
-10. **⚠️ CARL-DR-5 IS NOW +7d PAST DUE AT DEWEY** (grocery volume: POLICY vs CYCLE vs MEASUREMENT ARTIFACT). **Pre-registered both ways — it can score a strike against my own grocery-volume evidence.** Chase it.
-11. **⚠️ CRL-05 BASIS QUESTION, DATED 9/30, SIXTH SESSION CARRIED.** Resolves on a **LEVEL** (>13.74%, Equifax-3.0 era) against VantageScore-4.0 prints. **A basis change is never a threshold trigger:** re-base or declare **NO-VERDICT-by-basis**, then packet PROME. **Do not carry it a seventh time.**
-12. **⚠️ CRL-08's Aug-Sep window CLOSES ~9/30** — resolve or re-arm with a reason. Gap 35.4¢.
-13. **`abs_monitor.py` coverage fix — still owed.** It structurally cannot see V2's registered panel (tracks the four NEWEST Exeter CIKs; registered panel is EART 2022-2/2022-3/2023-1/2024-1).
-14. **Open build ask at OTTO:** widen the double-matched control (same-shelf vintages exactly 12 or 24 calendar months apart). Today it is SDART alone, **n=3.** If it will not widen, the diagnostic carries the thin-n label permanently.
-15. **Ask STUE to confirm both ES-02 nulls were computed on the EMPIRICAL cliff, not the defective 5-6 day rule** — a rule that can manufacture an 85% collapse can manufacture a null. **Re-open rather than inherit.**
-16. **STUE OQ#19 — settle on a SERVICER primary before Oct 1.** If SAVE notices really ended 8/15, CRL-13's full-population read lands **~Nov 13, a full quarter early.** Carried framing stands (ED says no end date; Nelnet → 12/31, MOHELA → Jul-Oct).
-17. `housing_pulse.py:226` hardcoded 3.98M under the live 4.06M (DAEDALUS SFG finding, still live). Fannie URL 404s.
-18. **WATT-10 (FERC Door A/Door B on the IRAS petition, ~10/12, outer 10/31)** — **Door A socialises data-center cost to ~65M PJM ratepayers = CARL's CPI channel; Door B removes it.** WATT routes the outcome. ⛔ **Do NOT put this week's $1,868/MWh spike in a CPI story** — residential bills run an ANNUAL tariff/rate-case clock, not 5-min LMP. Guards: filing ≠ order; **cite no docket number**; state commissions can partly undo a PJM-level Door B.
+### THIS WEEK / CARRIED
+6. **~9/18 FSA re-poll** (docketed). **HEAD only; lowercase `b`.**
+7. **9/8 PHAN spawn is now +56d and was NOT done today** — gate fired 8/27. Affirm/Klarna **AND** the COCKROACH/REGULATORY sweep.
+8. **⚠️ CRL-05 BASIS QUESTION, 7th session carried.** Resolves on a **LEVEL** (>13.74%, Equifax-3.0 era) against VantageScore-4.0 prints. **A basis change is never a threshold trigger:** re-base or declare **NO-VERDICT-by-basis**, then packet PROME.
+9. **`abs_monitor.py` coverage fix — still owed, 3rd session.** It structurally cannot see V2's registered panel (tracks the four newest Exeter CIKs; registered panel is EART 2022-2/2022-3/2023-1/2024-1). **A monitor that cannot see its own panel is worse than none, because it reports clean.**
+10. **CARL-DR-5 at DEWEY is now +12d past due** (grocery volume: POLICY vs CYCLE vs MEASUREMENT ARTIFACT). Pre-registered both ways — **it can score a strike against my own evidence.** Chase it.
+11. **Ask STUE to reconcile the tracker wording** (packet delivered) and to confirm at its next boot that it read the pen ruling **from the card**, not from my packet.
+12. `housing_pulse.py:226` hardcoded 3.98M under the live 4.06M; Fannie URL 404s. **Same class as the FSA case-sensitivity defect found today.**
+13. **WATT-10 (FERC Door A/Door B, ~10/12, outer 10/31)** — Door A socialises data-center cost to ~65M PJM ratepayers = CARL's CPI channel. ⛔ **Do NOT put an LMP spike in a CPI story** — residential bills run an ANNUAL tariff clock.
 
 ---
 
-## OUTBOX / PACKETS SENT (3, all committed under carve-out ①)
-- **PROME ×2** — ① V2/L131 readiness LOCKED + the NFP retraction + **the dated ASK OF WILL** (ratify the unratified drop-back branch) + the 197K correction; ② STUE integrated + the **ES-02 DEFECT wiring item** + the auto-memory promotion flag + the read-cap residual.
-- **LABOR ×1** — retraction verified 6 of 6, **plus the ~7× sector-revision finding they do not have**, offered as an addition to their INDEPENDENCE_MAP §2 (*one witness — and order its views by revision variance*).
-
-## INBOX — **8 consumed, 8 filed, GENUINELY AT ZERO**
-`find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **0**. ⛔ **Never count with `ls inbox/*.md`.**
-✅ **The MARCO lane copy deliberately left in place on 9/2 is DISCHARGED** — it became tracked, so the deferred `git mv` completed. The 9/2 ambiguity ("consumed but unfiled looks identical to unconsumed") is closed rather than re-inherited.
+## URGENT / DISCIPLINE
+- **⚠️ A RULING'S ACTION LINE CAN BE STALE ON ARRIVAL, AND THE RULING STILL BINDS.** WQ-183's ACTION was satisfied two days before the ruling was written. **Verify at the artifact before executing a directive, even a Will-ruled one** — the ruling's AUTHORITY is not evidence about the world's STATE. Re-applying it would have produced two authorities for one rule.
+- **⚠️ THE FAILURE MODE THAT LOOKS PLAUSIBLE IS THE ONE THAT GETS BANKED.** DAEDALUS's tool failed three ways today. Two produced absurdities and were caught in seconds; the third produced two believable confidences and would have been accepted. **When you list an instrument's limits, ask which of them fails QUIETLY — that is the one to engineer against.**
+- **⚠️ MY OWN BRIER IS FLATTERED AND I FOUND IT BY BEING AUDITED, NOT BY LOOKING.** Four for four in the same direction. **The re-pricing that corrupts the record is the same act as good forecasting** — there is no version of this I would have caught by being more careful. **It needed a column, not a discipline.**
+- **⚠️ A 404 IS A FINDING-SHAPED OBJECT.** The capital-B path returns HTTP 404 with a 10-byte body. Polled without care that reads as *"the release was pulled"* — a **wrong finding**, not an error. **Case-sensitivity in a wake-surface row is a silent-wrong-answer defect.**
+- **✅ Kept from 9/5 and still true:** `open(path,"w")` truncates before it writes. **Every edit this session built the string first, asserted a minimum length, wrote `.tmp`, then `os.replace`.** Zero incidents.
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Size / rows | Note |
 |---|---|---|
-| **STATUS.md** | **43,794 B** | 🟠 **81% of cap, ~11.2 KB over the 32,550 B budget.** Two rows trimmed by DE-DUPLICATION (−2,430 B) and it still GREW +4,320 net this session. **Next: the same index/detail pattern ROADMAP just got — its dashboard has the same disease** |
-| **MEMORY.md** | **46,494 B / 97 lines** | 🔴 **86% of cap, 3 LINES from the 100-line cap. NOT grown this session — the lesson went to auto-memory instead, which is what the cap rule asks for.** Next session must promote/prune BEFORE adding |
-| **ROADMAP.md** | **31,646 B** | ✅ **FIXED STRUCTURALLY — 51,744 → 0.92× budget, first time under in months.** Index/detail split, generated + drift-gated. Detail → `ROADMAP_THREADS.md` (**grep-only**, 25.5 KB, off the boot path) |
-| **NEXUS_BRIEF.md** | 109 lines | Written LAST per NEXUS Amendment 10; carries the STATUS commit ref |
-| board_log.tsv | 62 lines | 9 dispositions appended; vocabulary validated | 8 dispositions appended; vocabulary validated (`filed` → `noted`) |
-| KB.tsv | **428 data rows** | +15 this session (KB-CARL-418…432). All 15-field verified, no dup IDs | +8 (418-425). All 15-field verified, **no dup IDs** |
-| PREDICTIONS.tsv | 29 (**15 OPEN**) | ⚠️ **CRLF — binary-mode edits ONLY.** Not touched this session. **+55d behind STATUS on `ledger_staleness` — freeze or refresh next session** |
-| CATALYSTS.tsv | 21 data | 1 fired-and-replaced, **1 ADDED-then-CORRECTED (the 9/10 CVNA row was a fabricated event; relabelled to the internal registration sitting)**, 1 re-dated; **4 past-due rows still lingering, deliberately NOT pruned** |
+| **STATUS.md** | **45,101 B** | 🔴 **1.39× the 32,550 B budget, +1,307 B today.** Rotation #11 owed and STRUCTURAL — order (c) → (b) → (a). **Do NOT byte-trim** |
+| **MEMORY.md** (local) | 46,494 B / 97 lines | 🔴 **3 lines from the 100-line cap. NOT grown today — the lessons went to auto-memory, which is what the cap rule asks.** ⛔ Flag to PROME; do not compact |
+| **ROADMAP.md** | **29,614 B** | ✅ **0.91× budget.** 31 threads (28 + the 2 orphans recovered + 1 new). Index GENERATED, gate now compares the RENDERING |
+| **ROADMAP_THREADS.md** | 31,423 B | grep-only, off the boot path |
+| KB.tsv | **437 data rows** | +5 (KB-CARL-433…437). All 15-field verified, no dup IDs |
+| PREDICTIONS.tsv | 29 (15 OPEN) | ⚠️ **CRLF — binary-mode edits ONLY** (honoured today). **10 rows re-marked with as-made.** Still +60d behind STATUS on `ledger_staleness` — **freeze or refresh next session** |
+| CATALYSTS.tsv | 25 data | +2 (9/14 ladder, 9/18 FSA re-poll); CALENDAR twin synced by hand |
+| board_log.tsv | 62 lines | untouched — no BOARD lane traffic this session |
 
 ---
 
-## URGENT / DISCIPLINE
-- **⚠️ THE COMFORTABLE READING ARRIVED FROM THE OTHER DIRECTION THIS TIME, AND IT WAS STILL COMFORTABLE.** I have spent weeks worrying that letter-discipline only ever holds the score UP. So when a genuine DOWN candidate landed, the *appealing* move was to act fast and prove I am not biased. **Acting fast would itself have broken the letter.** The bias-correction impulse is not neutral — **it has its own direction, and it points at whichever action would look better.**
-- **⚠️ A FORWARD-ONLY RULE PROTECTS THE VERDICT AND LEAVES THE EVIDENCE SENTENCE STANDING.** WQ-175 worked exactly as designed and 7 surfaces still read false in the present tense. **Where a grade RESTS on a revisable figure, stamp the vintage ON THE SURFACE, not only in the changelog.**
-- **⚠️ VINTAGE DISCIPLINE IS AIMED AT HEADLINES; THE CLAIM LIVES ONE LEVEL DOWN.** The sector cut revises ~7× harder and is precisely the cut a thesis desk reaches for — **because it is the only cut that speaks to the thesis.** Prefer the LEVEL series and re-derive the delta yourself; a stored delta keeps its old vintage forever.
-- **⚠️ `open(path,"w")` TRUNCATES BEFORE IT WRITES.** I zeroed STATUS.md with a write that raised on a bad argument. **Build the string, assert a minimum length, write `.tmp`, `os.replace`.** All edit scripts hardened; the pattern is in the scratchpad if needed again.
+## OUTBOX / PACKETS SENT (3, all committed under carve-out ①)
+- **DAEDALUS ×1** — as-made audit worked; **19 triaged (9 refuted / 10 sustained)**, the **third tool limit (ID reassignment)** with a cheap fix, and the **ΔBrier table for the 9/14 sitting**.
+- **STUE ×1** — tracker banner-vs-body **partly refuted**, the one-word defect, the suggested wording, and *"read the pen ruling from the card, not from this packet."*
+- **PROME ×1** — the COMPLETION memo (this session), incl. the **DOCKET L281 case-sensitivity defect** and the **ETag=MD5** improvement.
 
----
-
-## ADDENDUM 2 (closeout 9/5) — three corrections landed AFTER the main write-up, two of them mine
-
-### ⛔ 1. THE 9/10 CVNA PRINT DOES NOT EXIST — I propagated a fabricated event to 6 surfaces
-PROME's 9/4 reconcile mis-re-dated compound DOCKET L131 from **7/29 → 9/10**; **CVNA Q2 was 2026-07-29 and I graded it 7/31 (KB-CARL-366).** I took the date on trust and reported it as a **DOCKET GAP CLOSED** — it had no row *because the event does not exist*. Codex caught it; PROME owned it. **All 6 surfaces corrected**; 9/10 is now the INTERNAL V2 leg-table registration sitting, and **the real V2 grade moves to ~9/15 broad+Carvana 10-D and the 9/30 deep-tier filing (verdict defers to the later-filing tier ⇒ ~9/30).**
-🔑 **KB-CARL-428 — MY OWN INSTRUMENT FLAGGED IT AND I RESOLVED THE FLAG BACKWARDS.** `claim_check` fired *"Wed 9/10 is a Thursday"* across **5 files**; I wrote *"date right, weekday wrong"* and sed'd Wed→Thu in one pass. **2026-07-29 was a Wednesday** — the **weekday was the surviving true fragment**, the **date was the fabrication**, and my "fix" erased the tell **five times in one pass.** ⇒ **A date/weekday mismatch is the FINGERPRINT OF A TRANSPLANTED DATE, not a typo. Ask which half is the SURVIVOR before editing either.** Promoted to fleet auto-memory by PROME as `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]`, whose own addition is sharper than mine: **resolve ONE, confirm at the primary, THEN propagate.**
-
-### ⛔ 2. THE RE-BASED TRADE-DOWN LEG HAS NO OUT-OF-SAMPLE SUPPORT (Codex, accepted in full)
-I retired the employment proxy for a **sign error**, built the replacement signature, then "confirmed" it on **the very DG Q2 print that motivated the re-base**. **In-sample fit, not a test.** I had written *"the leg survives on Tier 2 alone"* — which implies Tier 2 is evidence. **It is not: Tier 2 has ZERO out-of-sample observations.** ⇒ **Tier 1 is 3-of-3 AGAINST and Tier 2 is an in-sample construction, so the leg has NO out-of-sample support on EITHER tier.** It is a **registered hypothesis contributing NOTHING to conviction** until **DG Q3, ~Dec**. **V8 holds 4 on the vector's OTHER evidence, not on this leg.** Also mis-named the output: food-at-home CPI vs a **whole-company** ticket is an **inflation-adjusted ticket proxy (−1.11pp)**, *not* a real basket, *not* units. **KB-CARL-432.**
-⚠️ **Second instance today of the same shape: a correction pass is unreviewed work, and it is MOST unreviewed exactly where it feels most rigorous.** The session that correctly killed one instrument for a spec defect shipped its replacement with a fresh one.
-
-### ✅ 3. ROADMAP FIXED STRUCTURALLY (Will-directed) — 1.57× → 0.92× budget
-**My first assumption was wrong and measuring caught it:** I expected RECENTLY RESOLVED to be the bulk (it was 21%). **OPEN THREADS was 61%, and only 6% of its rows were closed-mis-filed — 28 were genuinely open at ~865 B each**, so rotation could not fix it. Same finding STUE produced on its own surface the same morning.
-**Fix = read-mode:** `ROADMAP.md` is now a **GENERATED index**; the per-thread narrative moved to **`ROADMAP_THREADS.md` (GREP-ONLY)**; `scripts/roadmap_index.py --rebuild` / `--check` (closeout gate, fails closed). ⛔ **Edit threads in THREADS, then rebuild — hand-edits to the index are overwritten by design.**
-**Why a split is safe here and was not for STUE:** I ruled against one on STUE's surface *because no checker reaches a sub-agent*. **CARL has one — and the index is GENERATED from the detail, so the pair cannot drift by construction.** Same pattern as `PREDICTIONS.tsv → PREDICTIONS_MIRROR.md`.
-**28 open rows + 2 closed rows asserted VERBATIM, 0 lost.** 9/02 resolved block rotated to archive, crc32 `3c75e1e1`, round-trip verified. **CLAUDE.md boot step 6 + closeout step 13 wired** *(my own card — flagged to Will plainly, reversible)*.
-
-### 📉 THE AGGREGATE, WHICH IS THE NUMBER THAT GOVERNS
-| | start | close | Δ |
-|---|---|---|---|
-| STATUS | 39,474 | **43,794** | +4,320 |
-| ROADMAP | 40,978 | **31,646** | **−9,332** |
-| SCRATCH | 15,764 | *(this file)* | + |
-| MEMORY | 46,494 | 46,494 | 0 *(lesson went to auto-memory, per the cap rule)* |
-| **BOOT-READ TOTAL** | **~157,147** | **~173,621** | **+16,474 (+10%)** |
-⛔ **ROADMAP IS FIXED; THE SESSION IS NOT.** The structural fix reclaimed **21,347 B** and the session still ended **+16,474 B up.** Over-budget boot surfaces **3 → 2** (MEMORY 86%, STATUS 81%). **Do not report this as a saving.**
-
----
-
-## ADDENDUM (late 9/5) — STUE closed the loop, and it produced a FLEET finding from a sub-agent surface
-- **Both ES-02 nulls ACCEPTED as re-derived; nothing re-opened.** My pushback was right about the cause: **null #1 (7/19) WAS selected by the defective 5-6 day rule.** Re-derived on now-settled data **28.4 → 29.3/day** vs a **>35/day** band ⇒ **HOLDS**, 16% below. Null #2 was on the empirical cliff and STUE **robustness-tested the cliff placement** (20.9 / 21.8 / 21.6 — all ~40% below band, **invariant**). **CRL-28 unchanged; window opens 10/1.**
-- 🔑 **THE FINDING IS THE CAVEAT STUE VOLUNTEERED, NOT THE NUMBERS: "both nulls survive on MARGIN, not because the rule was harmless."** Bias ~3%, margin 16-40%. ⛔ **"Did the defect change the answer?" is NOT "did the defect matter?" — and only the first gets asked, because a surviving verdict feels like an all-clear.** A series near its band would have been decided by it. **Never record "no impact here" as "benign," and never let it slow the fix.** **KB-CARL-426.**
-- 🔴 **ROTATION CANNOT CLOSE A READ-CAP GAP WHEN THE *LIVE* CONTENT IS OVER BUDGET — measured, against the sender's own interest.** STUE rotated 8 closed blocks (24,959 B, CRC-stamped, byte-verified vs `git show`, zero canonical values moved) and its boot-read **TOTAL still ended +8,563 B (+5.7%) ABOVE session start** (149,455 → 175,917 → 158,018 = **3.48× budget**; residual LIVE content ~113 KB). **"Rotated 24,959 B" is a true sentence describing a net increase — my own 9/2 trap, caught only because the aggregate was required.** **KB-CARL-427.**
-- 📌 **I RULED IT, AND AMENDED MY OWN EARLIER RULING:** ① rotation becomes a **standing closeout step** on STUE's card; ② the 3.5× residual is fixed by **changing the READ MODE, not the file** — bounded read-whole head + **grep/on-demand body**, per the `board_log.tsv` **READ_CAP rule-8 mode precedent I already hold** (*a grep read over budget owes nothing on cap grounds*). ⚠️ **I had ruled "no hot/cold split" on drift grounds; that reasoning survives and is exactly WHY a MODE change works where a FILE split does not — one file, nothing to drift.** Evidence changed, so the ruling did.
-- ⛔ **THIS IS MY PROBLEM TOO, AT SMALLER SCALE.** CARL STATUS is **43,793 B = 1.34× budget** and grew **+4,319 B today**. I wrote "rotation #11 must be structural" as an intuition; **STUE measured the thing I was guessing at.** ⇒ **Next session: do NOT attempt rotation #11 as a byte-trim.** ⚠️ **AND THE MODE FIX ALONE IS NOT ENOUGH — CORRECTED LATE 9/5 BY STUE'S OWN SAFETY TEST**, which it ran BEFORE cutting a boundary, as my ruling required, and which showed the boundary does not fit: the minimal bounded head came to **42,680 B = 1.31× budget** with the SIGNAL DASHBOARD alone at **27,402 B = 84%**. 🔑 **THE ACTUAL DIAGNOSIS IS BETTER AND IT IS STUE'S, NOT MINE: the overage is BODY MIS-FILED AS DASHBOARD, not irreducible live content.** Two sub-tables were 58.8% of its dashboard and most of that bulk was **analysis rows sitting inside a VALUES table**; trimming them to values-plus-pointers lands the head at **30,566 B = 0.94×. It fits.** ⇒ **THE ORDER FOR CARL'S STATUS IS: (c) FIRST — audit the dashboard for rows that are not values and move them out (the dashboard holds VALUES AND POINTERS, full stop); then (b) the read-mode change (bounded head + grep body); then (a) rotation as a standing step.** Measure the boot-read TOTAL in **BYTES** before and after and report it **even if it goes up.** ⚠️ **MY OWN ERROR SHAPE, WORTH RE-READING BEFORE THE NEXT ESCALATION: I measured a real number, drew the structural conclusion that flattered the HARDER remedy, and escalated it — without verifying the COMPOSITION of the residual before calling it irreducible.** The figures were right; the shape word was not measured. `[[finding_verified_figures_do_not_verify_the_shape_claim]]`. Correction sent to PROME (`8e02a714b`), H1-vs-H2 split, **sweep H2 first.** *(STUE also caught its own table written in CHARACTER counts against a BYTE cap, ~2.3% understatement.)*
-- 📌 **CORRECTED AT CLOSEOUT — MY OWN H1/H2 SPLIT WAS TOO NARROW, AND MY CASE REFUTES H1's REMEDY.** I framed the fleet ask as **H1** (*over budget on genuinely LIVE content ⇒ the cap is mis-specified ⇒ **canon change***) vs **H2** (*body mis-filed as dashboard ⇒ placement rule, **no canon change***). **ROADMAP was H1 in DIAGNOSIS** — 28 genuinely-open threads, only **6%** mis-filed, rotation could not touch it — **and I fixed it to 0.92× WITHOUT any canon change, via the READ-MODE split.** ⇒ **A THIRD OUTCOME NEITHER HYPOTHESIS NAMED: H1-diagnosis + no-canon-change remedy.** ⛔ **So my own case is evidence AGAINST moving the cap, not for it** — the hardest diagnosis still yielded to a mode change. **On the two desks measured, one was residue (STUE) and one was live content (CARL), and NEITHER needed the cap to move.** ⇒ **The sweep question is not "which hypothesis holds fleet-wide" but "which of THREE remedies does THIS surface need — placement, mode, or rotation."** Per-surface, three options not two. *(Also corrected to PROME at closeout: it relayed "both aggregates rose ~10%"; actual **STUE +5.7%, CARL +10.5%** — a single figure attached to two desks that neither produced, two hops from a Will decision.)*
-- **Escalated to PROME, cc DAEDALUS:** does the mode change belong in `READ_CAP.md` as a **named third remedy** beside rotation and hot/cold split, and is a **fleet sweep** warranted — how many boot-read-whole surfaces are over budget on **live** content rather than residue? If most dense desks are, **rotation-as-remedy is mis-specified fleet-wide.**
+## INBOX — **7 consumed, 7 filed, AT ZERO**
+`find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **0**. ⛔ **Never count with `ls inbox/*.md`.**

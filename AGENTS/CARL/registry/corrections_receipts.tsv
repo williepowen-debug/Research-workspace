@@ -2,3 +2,4 @@ receipt_date	correction_id	action	note
 2026-09-02T01:19Z	COR-20260828-02	NO-OP	
 2026-09-02T01:19Z	COR-20260828-03	NO-OP	
 2026-09-02T01:19Z	COR-20260828-04	APPLIED	
+2026-09-10T16:28Z	COR-20260905-01	APPLIED	artifact=AGENTS/CARL (six-surface CVNA unwind: STATUS.md, ROADMAP.md, docket/CATALYSTS.tsv, docket/CALENDAR.md, thesis/THESIS.md, SCRATCH.md) scope=all six surfaces owner_disposition_at=2026-09-05 11:14 ET (d2c84cc6f); the fabricated 2026-09-10 CVNA earnings event is unwound - CVNA Q2 was 2026-07-29, graded 7/31 (KB-CARL-366); grade DEFINITION unchanged, only its pinned event was fake; V2/L131 grades on the real ~9/15 broad+Carvana 10-D and the 9/30 deep tier

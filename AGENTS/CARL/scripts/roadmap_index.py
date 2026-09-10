@@ -18,7 +18,8 @@ the detail, so the pair cannot drift by construction, not merely by audit. Same 
 desk already uses for thesis/PREDICTIONS.tsv -> PREDICTIONS_MIRROR.md (Check A).
 
   --rebuild   regenerate the INDEX in ROADMAP.md from ROADMAP_THREADS.md
-  --check     exit 1 if the index thread-set != the detail thread-set   [closeout gate]
+  --check     exit 1 if the live index block != the block --rebuild would write
+              (byte comparison of the RENDERING, not a thread-name set)     [closeout gate]
 """
 import io, os, re, sys, subprocess
 
@@ -74,17 +75,28 @@ def main():
     if not rows: raise SystemExit("ERROR: no detail rows found in ROADMAP_THREADS.md")
     txt=io.open(RM, encoding="utf-8").read()
     if "--check" in sys.argv:
-        have={key(l.split("|")[2]) for l in txt.split("\n")
-              if l.startswith("| ") and len(l.split("|"))>4 and l.split("|")[1].strip().isdigit()}
-        want={key(c[0]) for c in rows}
-        miss, extra = want-have, have-want
-        if miss or extra:
-            print(f"ROADMAP-INDEX ✗ DRIFT: {len(miss)} in detail but not index, {len(extra)} in index but not detail")
-            for m in sorted(miss)[:6]:  print(f"   missing from index : {m[:88]}")
-            for e in sorted(extra)[:6]: print(f"   stale in index     : {e[:88]}")
+        # Compare the RENDERING, not a key set (Codex/PROME 2026-09-05: a changed Next Step with the
+        # same thread name passed the old name-set check -- a false PASS certifying a stale index).
+        # The generator already produces the expected block; any byte difference inside the anchors
+        # is drift. Patch built + 8-test-verified by PROME, applied by CARL 2026-09-10.
+        if txt.count(IDX_START)!=1 or txt.count(IDX_END)!=1:
+            print(f"ROADMAP-INDEX ✗ ANCHORS: START x{txt.count(IDX_START)} END x{txt.count(IDX_END)} -- exactly one of each required")
+            sys.exit(1)
+        a=txt.find(IDX_START); b=txt.find(IDX_END, a)
+        if b<0:
+            print("ROADMAP-INDEX ✗ ANCHORS: END anchor precedes START"); sys.exit(1)
+        live=txt[a:b+len(IDX_END)]
+        want=build_index(rows)
+        if live!=want:
+            lv, wv = live.split("\n"), want.split("\n")
+            diffs=[i for i in range(max(len(lv),len(wv))) if (lv[i] if i<len(lv) else None)!=(wv[i] if i<len(wv) else None)]
+            print(f"ROADMAP-INDEX ✗ DRIFT: live index block != regenerated block ({len(diffs)} differing line(s); live {len(lv)} lines, expected {len(wv)})")
+            for i in diffs[:6]:
+                print(f"   line {i+1:>3} live     : {(lv[i] if i<len(lv) else '<absent>')[:88]}")
+                print(f"   line {i+1:>3} expected : {(wv[i] if i<len(wv) else '<absent>')[:88]}")
             print("   fix: python3 AGENTS/CARL/scripts/roadmap_index.py --rebuild")
             sys.exit(1)
-        print(f"ROADMAP-INDEX ✓ index and detail agree on all {len(want)} thread(s)")
+        print(f"ROADMAP-INDEX ✓ live index block matches regeneration byte-for-byte ({len(rows)} thread(s))")
         sys.exit(0)
     if "--rebuild" in sys.argv:
         new=splice(txt, build_index(rows))
