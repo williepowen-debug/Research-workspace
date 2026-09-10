@@ -1,2 +1,4 @@
 receipt_date	correction_id	action	note
 2026-08-28T15:17Z	COR-20260828-01	APPLIED	
+2026-09-10T21:06Z	COR-20260910-01	APPLIED	DOCKET L244 state cell annotated (description text left as registered); WQ-205 RECENTLY DONE row carries the flag; no other PROME surface cites the $29B as customer-directed
+2026-09-10T21:06Z	COR-20260905-02	NO-OP	no live PROME surface carries the retired ES-02 reading rule (DOCKET/GATES/SCRATCH/STATUS/HEARTBEAT grep: 0 hits for the rule text); CARL's 9/5 memo consumed 9/5; DOCKET L150 keys to CRL-28 window 10/1, unchanged by the fix
