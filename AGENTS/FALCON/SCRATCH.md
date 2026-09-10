@@ -1,58 +1,54 @@
-# FALCON SCRATCH — 2026-09-08 Tue (`falcon-0908`, Will-directed catch-up boot) · prior 9/7 GATE-2 session block archived → `domain/sources/STATUS_archive_2026-09-08_rotation.md`
+# FALCON SCRATCH — 2026-09-10 Thu (`falcon-0910`, PROME-spawned Tier 1, war-triad workstream) · prior 9/8 session block archived → `domain/sources/STATUS_archive_2026-09-10_rotation.md`
 
-**Purpose:** ephemeral handoff — read at boot (step 2), rewritten at closeout (step 13). Full argument for this session → `reports/2026-09-08_theater-catchup-and-ladder-proposal.md`.
+**Purpose:** ephemeral handoff — read at boot (step 2), rewritten at closeout (step 13). Full ruling for this session's headline call → `domain/GCC_INPORT_HULL_WATCH.md` §6.
 
 ---
 
 ## CURRENT MARKS (one line)
-- **B 3 / C 22 / D 75 — HELD 9/8 on the letter — **D→85 rung REGISTERED by Will 2026-09-08 ~22:5x ET** (triggers a/b/c/d; (iii-B) = non-trigger; ARMED, UNFIRED; letter `EXIT_PROTOCOL.md` §2) · Convergence 43/50 (P 23/25 · K 15/20 · R 13/20, R3 HELD 1/5) · Kinetic 🔴 · Brent ~$99.45 [BRENT owns; own pull 9/8 close]** · **`FAL-05` OPEN @55%, resolves 2026-10-07, UNFIRED** · Scoreboard 1C / 2F / 1P / 0V / 1 OPEN · **Confirmed hostile-action total losses = 2** (dhow 8/4 class-i; Kylo 9/5 class-iii-B) — **8 Iranian hulls struck since 9/5, 7 afloat** · Zero confirmed CRUDE barrels offline (193 days) — thesis-kill 0/7 · **`GATE-FALCON-001`: leg-1 FIRED 7/23 · leg-2 OPEN NOT FIRED · leg-3 FIRED 8/15 · gate LIVE · `review_by 2026-09-14`**
+- **B 3 / C 22 / D 75 — HELD 9/10 ON THE LETTER** (re-marked 9/7; held 9/8; held again 9/10 against the rung's first live trigger-(c) candidate) · **D→85 rung ARMED, UNFIRED** (letter `workbook/EXIT_PROTOCOL.md` §2) · Convergence 43/50 (P 23 / K 15 / R 13) · Kinetic 🔴 · **Brent: BRENT owns it — 9/9 settle $101.21, BZX26 ~$104.7–105.1 intraday 9/10 (context only, not my grade)** · **`FAL-05` OPEN @55%, resolves 2026-10-07, UNFIRED** · Scoreboard 1C / 2F / 1P / 0V / 1 OPEN · 🔴 **Confirmed hostile-action total losses = 3** (dhow 8/4 class-i; Kylo 9/5 class-iii-B; **Riesco 9/8 class-iii-B**) · Zero confirmed CRUDE barrels offline (195 days) — thesis-kill 0/7 · **`GATE-FALCON-001`: leg-1 FIRED 7/23 · leg-2 OPEN NOT FIRED · leg-3 FIRED 8/15 · gate LIVE · `review_by 2026-09-14`**
 
-## CHANGES SINCE LAST SESSION (9/7 ~14:5x ET → 9/8 ~22:xx ET)
-- 🔴 **CENTCOM 9/8: five more Iranian tankers "destroyed"/"rendered inoperable"** (Kaviz, Charminar, Horizon 1 [LPG], Riesco — Gulf of Oman; Derya, empty NITC VLCC — AT Kharg, terminal damage not reported) after IRGC missile launches at a US warship 9/6 + 9/7. **NONE sunk ⇒ total losses stay 2.** Rubio: *"every time Iran tries to hit US Navy ships, it will lose tankers."* `KB-130/131`
-- 🔴 **IRGC Navy 9/8-9: tankers IN Kuwaiti/Bahraini PORTS told to evacuate, "they will be targeted"** — first threat to third-party hulls on GCC territory; a WATCH, not a mark move. `KB-132`
-- 🔴 **Saudi-Houthi energy front:** Jazan struck Mon 9/7 (FT); Tue 9/8 salvo on Abha/Khamis Mushait/Jizan/Najran — Saudi MoE "fires… temporary halt in some operations", 73 civilians injured. **Refining/product only; two events, one pre-existing loss (Jazan SHUT since 7/27, restart never confirmed); zero incremental barrels; FAL-05 unfired.** `KB-133/134`
-- 🟠 Iran "restricted zone" (Rezaei 9/6-7, declaratory) · gasoline price doubled 9/8 (2019 trigger class) · Kpler: Iranian crude afloat outside blockade 90M→29M bbl · Qatar FM "industrial catastrophe" · Jordan salvo #3 claimed 9/8 · Brent $99.45. `KB-136..139, 141, 143`
-- ⚖️ **Nothing registered fired** (`KB-135`): D→70+ list 2 of 8 lit unchanged; thesis-kill 0/7; convergence unchanged. **The hold was a RAIL CAP — the finding of the session — until 2026-09-08 ~22:5x ET, when Will registered the D→85 rung; it now stands on the letter.**
+## CHANGES SINCE LAST SESSION (9/8 ~23:4x ET → 9/10 ~12:5x ET)
+- 🔴 **M/T RIESCO SANK 9/8 — total losses 2 → 3.** Verified at CENTCOM's own post + published footage; Al Jazeera 9/9 / CGTN / Al Bawaba / Reuters-captioned image / TankerTrackers (IMO 9251822). Class **(iii-B)** ⇒ the rung's **registered non-trigger: NO mark move.** `VI-2026-0028` · `KB-157`
+- 🔴 **Two NON-Iranian hulls struck 9/9.** **Hercules Star** holed at the **Dubai outer anchorage** (24 nm off Port Rashid), **1 seafarer killed, 1 missing**, listing — UKMTO *"attack from an unknown projectile"*, Peninsula confirms the fatality. **New Andros** struck 28 nm SE of **Al-Faw** with **~2M bbl of Iraqi fuel oil aboard**; 22 crew safe, no leak. `VI-2026-0030/0031` · `CAS-2026-018` · `KB-158/160`
+- ⚖️ **D→85 TRIGGER (c) RULED: AMBIGUOUS ⇒ NOT FIRED. D stays 75.** Geography, corroboration and the effective boundary are all MET; **attribution is the only unmet leg** and all three of its limbs fail. Four-route pre-committed resolver registered. `KB-159`
+- 🔴 **A BASE RATE I GAVE WILL IS FALSE.** *"(c) 0 in 193 days"* — refuted by the **Al-Salmi** (laden 2M-bbl KPC VLCC, Iranian drone, **anchored at Dubai Port, 2026-03-31**, Dubai Media Office + KPC on the record). Read off a ledger whose perimeter starts 7/11. **Letter untouched; correction routed to Will via PROME.** `VI-2026-0033` · `KB-162`
+- 🟠 **Amzan backfill** (Bahri VLCC, 63 nm W of Yanbu, **8/24**, Saree ballistic-missile claim) — WALTER's Splash247 query resolved to a **genuine 23-day ledger hole**, not an NCC Wafa re-report. `VI-2026-0032` · `KB-161`
+- 🟠 **Houthis took Mokha 9/10.** GATE-FALCON-001 graded: **no leg moves**, event-override **not** triggered (capability ≠ enforcement), `review_by` 9/14 held. `KB-163`
+- 🔧 **EXIT_PROTOCOL §5's rewrite trigger FIRED** on the second class-(iii) loss and was **discharged this session** (§2 rung row, §3 #6, §5 amended; memo to PROME). First time this desk caught its own dated trigger **in the session the leg fired**.
 
 ## WHAT I DID THIS SESSION
-- Full boot (own cwd, CLAUDE.md auto-loaded): git 1 ahead/0 behind (no pull needed; BRENT/SAM dirty — pathspec commits only); all 5 scripts + 2 staleness checks + corrections check run; day-by-day sweep 9/6→9/8 + mechanism sweeps (Hormuz, Kharg, Bab, Iraq, Oman, Saudi, war-risk).
-- **Adjudicated WALTER `SIG-W-20260908-011`** (event clock + asset class) — `board_log` row; five `STRIKES.tsv` rows (34→39); `ANALYSIS_2026-09-08.md` regenerated (crude-scoped zero 152 days); 8/06 analysis bannered SUPERSEDED.
-- **`VESSELS.tsv` VI-2026-0025..0029** (five 9/8 hulls; clock advanced); **attacker-axis base rate** computed (`KB-142`).
-- **DOCKET L301 DISCHARGED:** attacker-identity axis APPLIED to `VX-FALCON-SUNK-01` (Red cell split (iii-A)/(iii-B), prospective; 9/5 fire stands per Will 9/7). **DOCKET L300 ANSWERED as a PROPOSAL:** D→85 rung, four triggers with base rates + explicit non-triggers (report §3) — NOT self-registered.
-- `FLOW-FALCON-03` → LIVE-ESCALATING (8 hulls); `EXIT_PROTOCOL.md` touched (§2 D75→higher row, §3 #2/#3/#4/#6/#8, §5 reviewed-and-held); `WARRISK.tsv` attempt clock 9/8 (search-not-found, 48d — data clock NOT advanced); false-fire register +4 rows; KB-130..144.
-- HAWK audit ACTION **CONFIRMED** (packet); BRENT 9/8 catch-up noted; inbox 3/3 drained + `git mv`'d.
-- **STALENESS SWEEP (second touch, Will-directed):** THESIS v2.2 · TIMELINE → War Day 193 · VX 8/9 rows re-verified · EXIT_PROTOCOL §1/§4 re-graded · KB 68 expired rows dispositioned + KB-145/146 · PREDICTIONS FAL-03/04 rotated · FRESH_LEG / BYPASS baseline / bypass_watch.py / IRAQ review / SOURCES / MEMORY / CLAUDE.md cells refreshed. Nothing mark-, gate- or threshold-affecting.
-- **RESEARCH ITEMS 1–4 (Will-approved ~23:0x):** `domain/GCC_INPORT_HULL_WATCH.md` built (trigger-(c) instrument; precedent split; Kuwait ~1 mb/d exposure; overnight response NONE) · war-risk P&I-channel sweep search-not-found (KB-153) · **CASUALTY RATCHET built + registered `VX-FALCON-CASUALTY-01`, LIT on the rate-step at registration, class-step unfired; D→70+ 3 of 8** (KB-155; 8/10 standing correction moved to `CASUALTY_RATCHET.md` §4) · Kharg: no post-Derya data, 72h clock from 9/2 · Jazan STILL DOWN through Aug (Kpler; KB-151) · **Bab leg 2 TankerMap 9/8: 7dma 3.1, +5% w/w ⇒ NOT FIRED on a fresh read** (KB-152) · restricted zone / protests: none found (KB-154) · Jordan 9/8 confirmed 18/20 (KB-150).
-- STATUS rewritten (9/7 block, 7/30 B/C/D subsections and 9/7+9/1 BOTTOM LINEs archived verbatim → `domain/sources/STATUS_archive_2026-09-08_rotation.md`); packets → PROME (L300/L301), BRENT (🔴 direct, HAWK cc), HAWK (receipt + split question).
+- Spawned-mode boot (cwd = PROME's; local `CLAUDE.md`, STATUS, SCRATCH read explicitly). Scripts: `hormuz_transit_watch` rc 0 (print 9/06 = 6/88, DEEPENING) · `bypass_watch` rc 0 HOLDING (print 9/04, 76,325 vs 25,316) · `ledger_staleness` FLOW +142d / WARRISK +48d · `warrisk_row_staleness` **5/5 EXPIRED +38d**.
+- Verified the Riesco at the CENTCOM primary; re-marked `VI-2026-0028`; updated `VX-FALCON-SUNK-01`; corrected §3 #6's false 9/8 annotation **in place**, with the superseded text kept verbatim.
+- Adjudicated D→85 trigger (c) leg-by-leg; wrote `GCC_INPORT_HULL_WATCH.md` **§6** (ruling + resolver) and **corrected two defects in that same file**: §2's false "NONE in 193 days" and §4's never-fire clause that **contradicted the letter it cites**.
+- `VESSELS.tsv` 29 → 33 rows (0030 Hercules Star · 0031 New Andros · 0032 Amzan backfill · 0033 Al-Salmi backfill); `CASUALTIES.tsv` +CAS-2026-018; `KB-FALCON-157..165`.
+- STATUS rewritten with the 9/8 block + its BOTTOM LINE rotated to `domain/sources/STATUS_archive_2026-09-10_rotation.md` (budget paid); **read-cap check now `READ-CAP 0`**.
+- Inbox 4/4 drained + `git mv`'d; 4 `board_log` rows. Packets → PROME (delivery memo + the base-rate correction for Will), BRENT (Riesco WQ-189 facts, New Andros cargo, Amzan).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **2026-09-14 (Mon) — THREE things on one touch:** GATE-FALCON-001 `review_by` (leg 2 on TankerMap like-for-like ONLY; event override on any Bab enforcement act) · 7-day re-mark review (EXIT_PROTOCOL §5) · ~~consume Will's ruling on the D→85 rung~~ ✅ RULED + FOLDED 2026-09-08 ~22:5x ET (letter in §2, VX, THESIS, TIMELINE) — on 9/14 confirm PROME closed DOCKET L300/L301.
-2. **Any day — the Kuwait/Bahrain in-port class:** a NAMED hull hit at Mina al-Ahmadi/Shuaiba/Sitra (operator/UKMTO/state confirmation) = REGISTERED trigger (c) → D→85 fires on confirmation; same-day memo to PROME + BRENT; log to VESSELS with `theater=GULF_STATE_PORT`.
-3. **Any day — Kharg after the Derya strike:** a ≥72h crude-loading suspension evidenced on two dark-immune routes (TankerTrackers / Kpler / Windward) = **FAL-05 route (c) candidate with a NEW initiating cause (9/8)** — grade against the registered text, not memory. `kharg_loadings_watch.py` carries NOTHING.
-4. **Any day — a confirmed SINKING of any of the five 9/8 hulls** = second class-(iii) = EXIT_PROTOCOL §5 rewrite trigger + memo; total losses 2→3; (iii-B) = registered NON-trigger of the D→85 rung, no mark move.
-5. **2026-09-10 (Thu) noon ET** — EIA week-ending 9/4 (BRENT's; tape row only; a Thursday because of the Labor Day holiday schedule — claim_check caught my 'Wed').
-6. **2026-09-25 → 10/26** — Iran-Oman PERMANENT-corridor window (DOCKET L229); Rezaei's *"under Iran's management"* framing is the thing to grade when it lands (B flip-up needs a DATE + verified reopening steps).
-7. **2026-09-30 (Wed)** — US withdrawal deadline from Iraq (Rudaw): the PMF disarmament standoff's dated catalyst; read CTP-ISW + Shafaq that week, not the embassy feed.
-8. **2026-10-07** — FAL-05 resolves; EXIT_PROTOCOL rewrite trigger.
-9. **Casualty ratchet cadence:** recompute `CASUALTY_RATCHET.md` §3's two 30-day windows at every FULL session from `domain/casualties/CASUALTIES.tsv`; a new casualty row = KB row + §3 refresh. **In-port watch:** daily log row in `GCC_INPORT_HULL_WATCH.md` §5 while the IRGC warning stands.
-9b. **Hygiene cadence (new, from the sweep):** VX rows get a `[MonDD]` check block whenever a session touches STATUS marks — a stamp older than 14 days means nobody checked; KB currency pass (expired ACTIVE rows → SUPERSEDED / CONFIRMED / STALE) at every FULL session; THESIS/EXIT_PROTOCOL footer triggers are DATED — compare to today at closeout step 11.
-10. **Owed builds, ranked:** ~~casualty-ratchet instrument~~ ✅ built 9/8 · `bypass_watch.py` empty-series guard · dark-immune Kharg instrument · WARRISK re-pull on any print · Petroline throughput · DAEDALUS rail-repair bundle · ~~STATUS to ≤60% of the read cap~~ ✅ DONE 9/8 (31,503 B = 58%; keep it there — every session block must be paid for by an archive rotation).
+1. **ANY DAY — the trigger-(c) resolver.** Any ONE of: an IRGC/proxy claim **naming** Hercules Star · attribution to Iran/proxy by UKMTO/JMIC, CENTCOM, the **UAE state**, **Gibraltar** as flag state, or **Peninsula** · a geolocated launch point / weapon debris · a published Iranian zone map enclosing the Port Rashid anchorage. **Any one ⇒ (c) FIRES ⇒ D→85 (B 1 / C 14 / D 85), same-day memo to PROME + BRENT, HAWK cc.** Check the UAE channel first — the Al-Salmi precedent proves it speaks.
+2. **ANY DAY — total-loss watch on the two 9/9 hulls.** Hercules Star was **listing with water ingress**; New Andros carries ~2M bbl. Either becoming a total loss engages trigger **(a)**, which inherits the **same open attribution leg** — grade it there, do not re-decide it.
+3. **2026-09-14 (Mon) — THREE on one touch:** GATE-FALCON-001 `review_by` (leg 2 on TankerMap like-for-like ONLY) · 7-day re-mark (EXIT_PROTOCOL §5) · confirm PROME logged the base-rate correction to Will.
+4. **ANY DAY — Kuwait/Bahrain in-port class** (`GCC_INPORT_HULL_WATCH.md` §5): a named hull hit at Mina al-Ahmadi/Shuaiba/Sitra. Still NO incident, NO state response, 2 consecutive checks.
+5. **ANY DAY — Kharg after the Derya strike:** a ≥72h crude-loading suspension on two dark-immune routes = FAL-05 route (c) candidate. `kharg_loadings_watch.py` carries NOTHING.
+6. **2026-09-25 → 10/26** Iran-Oman PERMANENT-corridor window (DOCKET L229) · **2026-09-30** US withdrawal deadline from Iraq · **2026-10-07** FAL-05 resolves + EXIT_PROTOCOL rewrite trigger.
+7. **Cadence:** casualty-ratchet §3 windows recomputed at every FULL session; VX `[MonDD]` blocks refreshed whenever STATUS marks are touched; THESIS/EXIT_PROTOCOL footer triggers compared to today at closeout step 11.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Kuwait/Bahrain in-port tanker threat** (`KB-132`; watch instrument `domain/GCC_INPORT_HULL_WATCH.md`) — daily: any named hull incident in those ports; Kuwaiti/Bahraini/US responses (none found 9/8 23:3x ET); Kuwait still exporting ~1 mb/d (KB-149).
-- 🔴 **Five 9/8 hulls** — daily: sunk-vs-afloat confirmation; any laden-state detail; Kharg loadings on dark-immune routes.
-- 🔴 **IRGC launch → US tanker strike rate** — each IRGC launch at a US ship now converts to Iranian hulls; count launches, not headlines.
-- 🟠 **Restricted zone enforcement** — first hull stopped/boarded/listed; Oman corridor announcement.
-- 🟠 **Saudi MoE unit-level damage statement / Aramco Jazan restart confirmation** — either changes R1's basis; neither exists 9/8.
-- 🟠 **Iran gasoline-price protests** — ≥3 cities / internet throttling = VX-HAWK-IRAN-01 internal-stability leg.
-- 🟠 **Jordan 9/8 claim** — Jordanian/CENTCOM statement; Iranian "two US warships damaged" claim.
-- 🟡 **Minoan Pioneer third engineer** — still unresolved. 🟡 Abqaiq "7 mb/d" aggregator claim — rejected, discrepancy-to-check only.
+- 🔴 **Hercules Star attribution** — the single item that can move the mark. Daily: UKMTO advisories, UAE state channels, IRGC/IRNA named claims, Peninsula/Gibraltar statements.
+- 🔴 **WARRISK is 49 days unmeasured on the registered falsifier leg — in the week the class it exists to price finally occurred.** SEARCH-NOT-FOUND ≠ verified absence. Named unchecked primaries: Marsh Specialty update · Lloyd's/JWC listing revision · Platts war-risk assessment.
+- 🟠 **Iranian zone boundary** — a published map is resolver route 4 *and* the thing that makes the "Iranian context" limb gradeable at all.
+- 🟠 **Iraq export approach (Basra/Al-Faw)** — a leg none of my instruments watch, now with a 2M-bbl hull hit on it. Perimeter gap in the (c) letter, recorded not read around.
+- 🟠 Restricted-zone enforcement · Saudi MoE unit-level damage / Jazan restart · Iran gasoline protests · Jordan salvo #3 follow-up. 🟡 Minoan Pioneer third engineer.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **FAL-05** OPEN → 2026-10-07; nothing due before then. **Will:** RULED 2026-09-08 ~22:5x ET — rung registered. **PROME:** close L300 RULED-REGISTERED + L301 RULED (trip consequence = registered non-trigger) — packets 9/8b + 9/8c; WQ-195 answered (interpretations, not amendments). **HAWK:** view on the (iii-A)/(iii-B) split before Will rules.
+- **FAL-05** OPEN → 2026-10-07; nothing due before then. **Will:** ONE item — the corrected trigger-(c) base rate (**≥1 in 193 days**, not 0); no approval sought, no re-litigation, the letter stands. **PROME:** relay that correction; L300/L301 already closed (receipt consumed 9/10).
 
 ## MAIL STATE (one line per surface)
-- Inbox: **clear** (2 root + 1 WALTER processed 9/8; PROME's WQ-195 clarification packet processed ~23:1x — answered in report §3.5 + packet 2026-09-08c; `git mv`'d). Outbox: packets delivered 9/8 into PROME/inbox, AGENTS/BRENT/inbox, AGENTS/HAWK/inbox (carve-out ①, self-committed). No doorbell possible — PROME/BRENT/HAWK not listed live (only osprey-70; listing perimeter caveat, LESSONS 8/20).
+- Inbox: **clear** (3 WALTER + 1 PROME processed 9/10; the PROME packet filed with a `b` suffix — same filename as the 9/8 one, different content). Outbox/packets: PROME + BRENT delivered 9/10 (carve-out ①, self-committed).
 
 ## PENDING PUSH / GIT (if any)
-- Own-cwd session ⇒ auto-push at closeout via `scripts/safe-push.sh`. BRENT + SAM dirty trees + BRENT staged renames in the shared index — every commit pathspec'd; nothing of theirs swept.
+- ⛔ **DO NOT PUSH — PROME serializes pushes this session** (spawned mid-session; several desks committed locally today). Commits are path-scoped to `AGENTS/FALCON/` + the two self-authored inbox packets. Tree was already AHEAD 34 and DIRTY at spawn — nothing of another desk's touched.
+
+## OWED BUILDS, RANKED
+1. **`VESSELS.tsv` / `CASUALTIES.tsv` staleness check** — newly demonstrated live by the Amzan 23-day hole, and it is the missing instrument that produced the false base rate. `ledger_staleness.py`'s FALCON perimeter does not scan them and says so in its own output.
+2. `bypass_watch.py` empty-series guard · 3. dark-immune Kharg instrument (FAL-05's resolver) · 4. WARRISK re-pull on any print · 5. Petroline throughput · 6. DAEDALUS rail-repair bundle.
