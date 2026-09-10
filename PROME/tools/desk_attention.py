@@ -167,6 +167,8 @@ def pending_work(root=ROOT, today=None):
         if len(r) < 6 or not re.match(r'PENDING\b|OVERDUE-ANNOTATED\b', r[3]) or not re.search(r'\bPROME\b', r[2]):
             continue
         end = r[0].split('..')[-1]
+        if end.startswith('next-'):
+            continue  # session-keyed row (DOCKET canon: `next-<DESK>-session` etc.) — not dated pending work, never an error (2026-09-10; L314 blocked the state write since 9/9)
         try:
             d = dt.date.fromisoformat(end)
         except ValueError:
