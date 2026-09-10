@@ -18,7 +18,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **Fri 9/11 — Friday pair.** Baker Hughes ~13:00 ET (GET the landing page, pick the file by date in content-disposition, never HEAD; frozen line 457, oil rigs 449 at 9/4; two independent pulls). CFTC COT as-of 9/8 ~15:30 ET: `cot_grade.py --expect 2026-09-08`, exit 3 = WAIT; cross-check raw `f_disagg.txt`. GATE-BRENT-COT-35B review_by 9/11. Don't stack.
+1. **Fri 9/11 — Friday pair.** Baker Hughes ~13:00 ET (GET the landing page, pick the file by date in content-disposition, never HEAD; frozen line 457, oil rigs 449 at 9/4; two independent pulls). CFTC COT as-of 9/8 ~15:30 ET: `cot_grade.py --expect 2026-09-08`, exit 3 = WAIT; cross-check raw `f_disagg.txt`. GATE-BRENT-COT-35B review_by 9/11. Don't stack. **Also grade WALTER Boundary #8 (Brent 3:2:1 > $50/bbl, 2–3 sessions sustained = dispatch; BRENT primary) at the 9/10 and 9/11 SETTLES on the Brent basis: (2×RBX26 + HOX26)/3 ×42 − BZX26. 9/9 bars = 47.80 (not crossed); 9/10 intraday ≈ 50.1. Letter at AGENTS/WALTER/design/ROUTING_OVERLAYS.md row 8. Dispatch to CARL/HENRY/REGINALD only if sustained; WALTER logs.**
 2. **Wed 9/16 10:30 ET — WPSR wk-9/11 = L305 SPR second print.** Δ2 vs 285.360M; Branch A needs Δ2 ≥ −2.756M, Branch B ≤ −6.756M, between = NO-VERDICT and re-read the next two. Also Cushing vs 20.0, util vs 97.8, distillate trend, gasoline 4-wk YoY (BRT-29 T).
 3. **Fri 9/18 — USO Sep-18 150/165 spread expiry.** HOLD through expiry (WQ-168 ③); TERRY's card governs; USO 156.74 between strikes at 9/10. No BRENT action beyond the price leg; the broker/Will handle settlement.
 4. **XLE receipt (L253) still pending** from the 9/9 selected exit — do not infer fill; 65C delayed 1.42/1.52 at 11:35 ET 9/10.
@@ -33,7 +33,7 @@
 - 🔴 SPR two-print test — the ONLY thing that can resolve L305 is the 9/16 print; do not pre-judge from Δ1.
 - 🟠 Distillate: two consecutive builds with the matched-Nov ULSD crack >$105 — export pull vs US hole; watch exports (1,556 kb/d, −179) and PADD 3 production next print.
 - 🟠 CPC partial restart / Jazan current state / nine stale ACTIVE incident rows (RF-004/009/013/014/015/017/022/030 + Kstovo now confirmed by OSPREY 8/26 shutdown) still need primaries; Novorossiysk terminal fire 9/8–9 (OSPREY KB-101) not logged — facility unnamed, no throughput statement.
-- 🟡 WALTER's "Boundary #8" 3:2:1 level: not on any WALTER surface I can read; asked nothing, left ungraded.
+- 🟠 WALTER Boundary #8 located (ROUTING_OVERLAYS.md row 8): Brent-basis 3:2:1 sat ≈ $50.1 intraday 9/10 vs the $50 line — right on it; the basis decides the grade and settles decide the sessions. Grade at settles 9/10 → 9/11 → 9/14; the WTI-basis 59.48 in the report is NOT the letter.
 - 🟡 Remote routine timing repair still uninstalled; A5/A6 open.
 
 ## POSITION DECISIONS PENDING
