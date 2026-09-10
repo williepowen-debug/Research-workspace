@@ -24,7 +24,7 @@ Checks, each tied to the incident that motivated it:
 
 Exit 0 clean · 1 findings. Run at closeout and after any edit to a boot-read surface.
 """
-import csv, re, sys
+import csv, re, subprocess, sys
 from pathlib import Path
 
 HANS = Path(__file__).resolve().parent.parent
@@ -77,10 +77,43 @@ def published():
         out[m] = (e[-1][2], [v for _, _, v in e[:-1]], sorted(vecs.get(m, ())))
     return out
 
-def audit():
+def _ever_existed(relpath):
+    """Did ANY commit ever add a file at this path?
+
+    C4 asks 'was this fire DISPATCHED?' — delivery is an EVENT, so it is a
+    question about HISTORY, not about live state. A historical diff cannot rot:
+    the recipient's later `git mv` is a different commit and cannot reach into
+    the one that added the file. Testing `.exists()` instead made this guard
+    inherit the RECIPIENT's workflow as a hidden dependency, and on 2026-09-10
+    it fired C4-DEAD twice on packets that were dead BECAUSE DELIVERY SUCCEEDED
+    (BRENT consumes inbound mail into inbox/processed/).
+
+    ⚠️ Globbing `processed/` too would only PATCH that: it leaves the dependency
+    in place and widens it, so the next directory the recipient invents breaks it
+    again. Diff-scoping REMOVES the dependency.
+    (DAEDALUS 2026-09-10, runs/2026-09-10_INBOX_DISPOSITIONS.md ⑦. The discriminator:
+    'did I author this?' / 'was this delivered?' => history => read the diff;
+    'is this here NOW?' => live state => glob both and order by commit time.
+    Pairing the wrong remedy to the question gives a guard that LOOKS hardened.)
+    """
+    try:
+        out = subprocess.run(
+            ['git', 'log', '--diff-filter=A', '--format=%h', '--', relpath],
+            cwd=ROOT, capture_output=True, text=True, timeout=20)
+    except (OSError, subprocess.SubprocessError):
+        return None          # git unavailable => UNKNOWN, never a silent pass
+    if out.returncode != 0:
+        return None
+    return bool(out.stdout.strip())
+
+
+def _audit_full():
     f = []
+    info = []
     def bad(code, msg):
         f.append((code, msg))
+    def note(code, msg):
+        info.append((code, msg))
 
     # ---- C1: the spec mirror carries bands, never levels -------------------
     claude = (HANS / 'CLAUDE.md').read_text()
@@ -198,8 +231,23 @@ def audit():
             if p.startswith('AGENTS/HANS/'):
                 bad('C4-SELF-DISPATCH', f"{r['fire_id']}: sender-tree path {p} — a dispatch "
                                         'record in your OWN tree can never be falsified')
-            if not (ROOT / p).exists():
-                bad('C4-DEAD', f"{r['fire_id']}: {p} does not exist")
+            if (ROOT / p).exists():
+                continue
+            # Missing NOW. That alone says nothing about delivery — ask history.
+            ever = _ever_existed(p)
+            if ever is None:
+                bad('C4-UNKNOWN', f"{r['fire_id']}: {p} missing and git could not be "
+                                  'consulted — UNKNOWN, not clean (fail closed)')
+            elif ever:
+                moved = sorted(x.relative_to(ROOT).as_posix()
+                               for x in ROOT.glob(f'AGENTS/*/**/{Path(p).name}'))
+                where = f' — now at {moved[0]}' if moved else ''
+                note('C4-MOVED', f"{r['fire_id']}: {p} was DELIVERED (a commit added it) "
+                                 f'and the recipient has since moved it{where}. Not a '
+                                 'defect; re-point the ledger when convenient')
+            else:
+                bad('C4-DEAD', f"{r['fire_id']}: {p} was NEVER added in any commit — "
+                               'not a moved file, an undelivered or wrong path')
 
     # ---- C5: ragged TSV rows -------------------------------------------------
     for name in ['registry/THRESHOLDS.tsv', 'registry/HANS_T_FIRED_LOG.tsv',
@@ -233,18 +281,30 @@ def audit():
             if any((c / p).exists() for c in (base, HANS, ROOT)):
                 continue
             bad('C7-DEAD-PATH', f'{name}: `{p}`')
-    return f
+    return f, info
+
+
+def audit():
+    """Findings only — the historical signature. Five callers in test_hans.py
+    unpack this as a flat list; changing it under them broke all five on
+    2026-09-10, which is its own small lesson about interfaces. INFO states are
+    NOT findings and are read via audit_full()."""
+    return _audit_full()[0]
 
 def main():
-    f = audit()
+    f, info = _audit_full()
     print(f'HANS DOC AUDIT — {len(f)} finding(s)')
     print('=' * 72)
     for code, msg in f:
         print(f'  {code:18s} {msg}')
+    for code, msg in info:
+        print(f'  {code:18s} {msg}')   # INFO — a visible STATE, not a finding
     if not f:
         print('  ✅ clean — spec mirror band-only · no superseded value in a current-value '
               'position · registry==VX · dispatch paths in recipient trees · TSVs square · '
               'STATUS within BOTH caps · paths resolve')
+    if info:
+        print(f'  ({len(info)} informational state(s) above — not counted as findings)')
     return 1 if f else 0
 
 if __name__ == '__main__':

@@ -389,5 +389,68 @@ class TestDocAudit(unittest.TestCase):
         self.assertEqual(d["GERMAN_MFG_PMI"][0], "54.3")
         self.assertIn("54.1", d["GERMAN_MFG_PMI"][1])
 
+class TestC4IsHistoryScopedNotLiveState(unittest.TestCase):
+    """REGRESSION, 2026-09-10. C4 asks 'was this fire DISPATCHED?' — an EVENT, so
+    a question about HISTORY — but it tested `.exists()`, i.e. LIVE STATE. That
+    made the guard inherit the RECIPIENT's workflow: BRENT consumes inbound mail
+    into inbox/processed/, so two dispatch paths went 'dead' BECAUSE DELIVERY HAD
+    SUCCEEDED. A correct-looking alarm for exactly the wrong reason.
+
+    The tempting fix — glob processed/ too — is a PATCH: it leaves the dependency
+    in place and WIDENS it, so the next directory the recipient invents breaks it
+    again. Diff-scoping REMOVES it. (DAEDALUS 2026-09-10.)
+
+    Pairing rule pinned here: 'did I author it / was it delivered?' => HISTORY =>
+    read the diff. 'Is it here NOW?' => LIVE STATE => glob both, order by commit
+    time. The wrong pairing yields a guard that LOOKS hardened and is not.
+    """
+
+    MOVED = ("AGENTS/BRENT/inbox/2026-09-05_from-HANS_eu-gas-fires-the-half-you-"
+             "never-received-ttf-125pct-yoy-storage-lowest-since-2011.md")
+
+    def setUp(self):
+        import importlib, doc_audit
+        self.da = importlib.reload(doc_audit)
+
+    def test_delivered_then_moved_is_not_dead(self):
+        """THE BUG: gone from the pinned path, but history remembers."""
+        self.assertFalse((self.da.ROOT / self.MOVED).exists(),
+                         "fixture stale: if the packet is back at its pre-move "
+                         "path the regression is no longer pinned")
+        self.assertTrue(self.da._ever_existed(self.MOVED),
+                        "a commit ADDED this packet — delivery is an event and "
+                        "history cannot rot; live-state .exists() called it DEAD")
+
+    def test_never_delivered_is_still_caught(self):
+        """The guard must not go quiet: a genuinely bad path still fails."""
+        self.assertFalse(self.da._ever_existed(
+            "AGENTS/BRENT/inbox/2026-09-05_from-HANS_this-packet-never-existed.md"))
+
+    def test_current_path_resolves(self):
+        cur = self.MOVED.replace("/inbox/", "/inbox/processed/")
+        self.assertTrue((self.da.ROOT / cur).exists())
+        self.assertTrue(self.da._ever_existed(cur))
+
+    def test_git_failure_is_UNKNOWN_not_a_silent_pass(self):
+        """FAIL CLOSED: if git cannot be consulted the answer is UNKNOWN (None),
+        never False-and-quiet — else a broken toolchain certifies the board."""
+        real = self.da.subprocess.run
+        try:
+            self.da.subprocess.run = (
+                lambda *a, **k: (_ for _ in ()).throw(OSError("no git")))
+            self.assertIsNone(self.da._ever_existed(self.MOVED))
+        finally:
+            self.da.subprocess.run = real
+
+    def test_info_states_are_not_findings_and_audit_keeps_its_signature(self):
+        """C4-MOVED is a visible STATE, not a finding — the same lesson DAEDALUS
+        ruled on WQ-112 today: quieting a false alarm by falling SILENT trades a
+        loud false alarm for a silent true miss. And audit() must keep its
+        flat-list signature: changing it broke five tests here on 2026-09-10."""
+        f, info = self.da._audit_full()
+        self.assertEqual(f, self.da.audit(), "audit() must stay findings-only")
+        self.assertIsInstance(info, list)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
