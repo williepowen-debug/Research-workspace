@@ -110,6 +110,7 @@
 - finding_fleet_selfreport_convergence
 - finding_sibling_agent_protocol_drift
 - finding_retraction_culture_cluster_ratio
+- finding_a_wait_excluded_from_the_operators_count_has_no_wake_path — a ⛔-waits row is off Will's count AND every spawn rule; give it a DOCKET row (n=3, 9/10)
 ### Doc & state-file hygiene
 - finding_refresh_not_retire_perentity_profiles
 - finding_framing_precision_overlay

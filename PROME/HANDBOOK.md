@@ -3,8 +3,8 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Broker actions first:** the generated action list separates approval, order and fill evidence. After the 9/10 ledger: the XLE 65C ×1 survivor has no rule and its sibling's sale date is unrecorded (D-49); the USO Sep-11 153C entry is unrecorded (D-53); the USO 37 shares carry no sale rule (WQ-200 declined). One scroll of Activity & Orders to before 9/10 closes D-49/D-53/D-44/D-45.
-- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The retired USO call rule does not cover shares — **TERRY's 37-share card is built and waits for your word: WQ-200** (9/11; rec lines 1 + 3).
+- **Broker actions first:** the generated action list separates approval, order and fill evidence. After the 9/10 rulings: the XLE 65C ×1 survivor SELLS at the bid at the 9/11 open (WQ-210, your hand; fill → FORGE D-49); the VLO ×3 refiner leg is PLACED at a fresh mark once TERRY re-arms the card (WQ-213); the USO Sep-11 153C/159C entries and the KRE 25P 2027 entry stay UNKNOWN by your word (D-53/D-54).
+- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The USO 37 shares carry NO rule by your 9/10 word (WQ-200 declined) — you manage them by hand at live prices; TLT 77P ×20 HOLD to expiry (WQ-217).
 - **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
 - **Decisions:** current approvals come from WILL_QUEUE. Previously ruled items are not fresh requests; permanent unknowns are not repeated asks.
 

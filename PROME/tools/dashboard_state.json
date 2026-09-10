@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-10 17:27",
+ "built": "2026-09-10 19:33",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -22,6 +22,7 @@
   "2026-09-11 NEXUS second-C read at the August CPI print \u2014 C #1 of 2 fire",
   "2026-09-11 RED-FT-11 v1.1 DGS30 leg RE-GRADE at the first boot on/after",
   "2026-09-11 RP-OTT-5.1 CRMT LETTERS 1 + 2 GRADE at the EXTENDED Schedule",
+  "2026-09-11 VULCAN drain (Will-approved 2026-09-10 19:25 ET, verbatim \"o",
   "2026-09-11 WATT executes P1 5\u21923 (composite 16\u219214/20) at its first boot ",
   "2026-09-12 FLEET SWEEP \u2014 ORIGIN-PROOF INSTRUMENTS (WALTER ask 9/5, PROM",
   "2026-09-12 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
@@ -82,7 +83,7 @@
   "BROCK": "ok",
   "CARL": "ok",
   "CORAL": "elev",
-  "CRUISE": "elev",
+  "CRUISE": "ok",
   "FALCON": "ok",
   "FERT": "ok",
   "FLG": "elev",
@@ -91,7 +92,7 @@
   "HOMER": "elev",
   "LABOR": "ok",
   "LIQUID": "watch",
-  "MARCO": "watch",
+  "MARCO": "elev",
   "MIDAS": "watch",
   "NEXUS": "ok",
   "ORACLE": "ok",
