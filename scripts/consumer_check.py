@@ -1001,8 +1001,24 @@ def main():
 
     here = Path(__file__).resolve()
     workspace = here.parents[1]                       # scripts/ -> repo root (was parents[3] at AGENTS/<X>/scripts/ pre-adoption; git mv 2026-07-28)
-    own_dir = (workspace / "AGENTS" / args.agent) if args.agent else None
+    # PROME's home is repo-root PROME/, not AGENTS/PROME/ — the same mapping
+    # read_cap_check.py:105 and orphan_check.sh already carry.  Without it
+    # `--agent PROME --self` set own_dir=None and crashed at the rglob below
+    # (AttributeError, reported 2026-09-09), so root CLAUDE.md closeout step 1c
+    # was UNEXECUTABLE for PROME and its self-scan silently never ran.
+    # [[finding_guard_correctness_and_wiring_are_independent]]
+    def _agent_home(name: str) -> Path:
+        return workspace / "PROME" if name == "PROME" else workspace / "AGENTS" / name
+
+    own_dir = _agent_home(args.agent) if args.agent else None
     if own_dir and not own_dir.exists():
+        if args.self_mode:
+            # FAIL CLOSED: --self scans that dir and nothing else, so a missing
+            # dir cannot degrade to "scan everything" — that would silently
+            # invert the mode's scope.
+            print(f"  ⛔ --agent {args.agent} --self: {own_dir} not found — "
+                  f"self mode scans that directory and nothing else; nothing scanned.")
+            return 2
         print(f"  ⚠️  --agent {args.agent}: {own_dir} not found; scanning everything.")
         own_dir = None
 
