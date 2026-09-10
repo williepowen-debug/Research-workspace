@@ -20,7 +20,7 @@
 
 1. **Fri 9/11 — Friday pair.** Baker Hughes ~13:00 ET (GET the landing page, pick the file by date in content-disposition, never HEAD; frozen line 457, oil rigs 449 at 9/4; two independent pulls). CFTC COT as-of 9/8 ~15:30 ET: `cot_grade.py --expect 2026-09-08`, exit 3 = WAIT; cross-check raw `f_disagg.txt`. GATE-BRENT-COT-35B review_by 9/11. Don't stack. **Also grade WALTER Boundary #8 (Brent 3:2:1 > $50/bbl, 2–3 sessions sustained = dispatch; BRENT primary) at the 9/10 and 9/11 SETTLES on the Brent basis: (2×RBX26 + HOX26)/3 ×42 − BZX26. 9/9 bars = 47.80 (not crossed); 9/10 intraday ≈ 50.1. Letter at AGENTS/WALTER/design/ROUTING_OVERLAYS.md row 8. Dispatch to CARL/HENRY/REGINALD only if sustained; WALTER logs.**
 2. **Wed 9/16 10:30 ET — WPSR wk-9/11 = L305 SPR second print.** Δ2 vs 285.360M; Branch A needs Δ2 ≥ −2.756M, Branch B ≤ −6.756M, between = NO-VERDICT and re-read the next two. Also Cushing vs 20.0, util vs 97.8, distillate trend, gasoline 4-wk YoY (BRT-29 T).
-3. **Fri 9/18 — USO Sep-18 150/165 spread expiry.** HOLD through expiry (WQ-168 ③); TERRY's card governs; USO 156.74 between strikes at 9/10. No BRENT action beyond the price leg; the broker/Will handle settlement.
+3. **Thu 9/17 open — USO Sep-18 150/165 spread MANDATORY CLOSE** (WQ-207 (Will 9/10 12:35 ET): close at the 9/17 open, or at the next open after a USO close ≥165 / <153; never 9/18; supersedes WQ-168 ③ HOLD). TERRY owns the nightly 165/153 close-checks and 9/17 tracking; Will executes; fill receipt owed to the EXECUTION LOG. USO 156.74 between strikes at 9/10. ⚠️ Never let it reach 9/18: auto-exercise into ~100 USO shares the Robinhood account cannot fund.
 4. **XLE receipt (L253) still pending** from the 9/9 selected exit — do not infer fill; 65C delayed 1.42/1.52 at 11:35 ET 9/10.
 5. **Before 9/30 — BRT-12 original construction** (contracts/roll/price field + dated refiner-vs-upstream credit series) per [REMAINING_PLAN](audits/2026-09-09_maintenance/REMAINING_PLAN.md); **BRT-29 M overdue since 8/31** — pursue eligible carrier events; no new grade until evidence. BRT-29 T reading −1.4% at wk-9/4; needs ≤ −3.0% by wk-9/25 (released 9/30).
 6. **Basra/Al-Faw export approach** — now a live-incident leg with no instrument on BRENT or FALCON. Candidate: Iraqi SOMO/Basra loadings via a named relay with dated observation; register only with base rates (L21/L22). Not a threshold yet.
@@ -38,7 +38,7 @@
 
 ## POSITION DECISIONS PENDING
 
-- None new. XLE exit receipt pending (TERRY/Will). USO 37 shares; USO Sep-18 150/165 ×1 HOLD through 9/18; USO Oct 135C CLOSED. STAND DOWN (WQ-192) binds; no arm, no proposal; $0 moved this session.
+- None new. XLE exit receipt pending (TERRY/Will). USO 37 shares; USO Sep-18 150/165 ×1 under WQ-207 (close 9/17 open, or on a close ≥165/<153); USO Oct 135C CLOSED. STAND DOWN (WQ-192) binds; no arm, no proposal; $0 moved this session.
 
 ## MAIL STATE
 

@@ -39,11 +39,11 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 | Date | Action | Detail |
 |---|---|---|
 | 2026-09-10 | **USO Sep-18 150/165 spread — management rule RULED** | Will, BRENT session 2026-09-10 12:35 ET: "Approve option 1" on TERRY `TRY-MGMT-USORH150165` ⇒ dated close 9/17 open · harvest override close ≥165 · BE defence close <153 · OR-joined · no roll. Rec'd by TERRY, concurred by BRENT (thesis intact). PENDING ⏳ execution: fill receipt owed when it fires. |
-| 2026-09-10 | USO Sep-18 150/165 spread — broker mark receipt | Will's Robinhood screenshot ~12:3x ET: HELD ×1, mark 6.11 ($611), avg cost 3.00, total return shown +$311 (+103.67%), today +$265. Screenshot is a position mirror, not a fill; no action taken; HOLD through expiry stands. |
+| 2026-09-10 | USO Sep-18 150/165 spread — broker mark receipt | Will's Robinhood screenshot ~12:3x ET: HELD ×1, mark 6.11 ($611), avg cost 3.00, total return shown +$311 (+103.67%), today +$265. Screenshot is a position mirror, not a fill; no action taken. ~~HOLD through expiry stands~~ **SUPERSEDED 12:35 ET the same day by WQ-207 (Will 9/10 12:35 ET): close at the 9/17 open, or at the next open after a USO close ≥165 / <153; never 9/18 — see the ruling row above.** |
 | 2026-09-09 | Final USO October 135C sold | Will’s receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settles September 10; zero remains. Execution time/account field absent from receipt; no order-cancellation inference. B/C discharged. |
 | 2026-09-08 | XLE exit selected for September 9 open | PENDING live broker check / execution / receipt. Reaffirmed September 9 approved review: TERRY card STAGED; PROME records Will intention to sell, not fill. Receipt requested; no broker quantity/price/time received or inferred. |
 | 2026-09-02 | First USO October 135C sold | One remained after this sale; final contract closed September 9 above. First-sale price permanently UNKNOWN under WQ-167; no re-ask. |
-| 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. Current holding instruction is HOLD through expiry. |
+| 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. ~~Current holding instruction is HOLD through expiry~~ **SUPERSEDED 2026-09-10 — live instruction is WQ-207 (Will 9/10 12:35 ET): close at the 9/17 open, or at the next open after a USO close ≥165 / <153; never 9/18 (POSITIONS row).** |
 | 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
 | 2026-09-08 | Convex-arm stand down | WQ-189/192 unchanged; no deployment. |
 
