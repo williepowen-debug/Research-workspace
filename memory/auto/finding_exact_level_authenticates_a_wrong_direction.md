@@ -58,3 +58,9 @@ My bank dashboard's threshold row read **`WAL $78.72 [Thu 8/27 CLOSE, +0.08%]`**
 
 Related: [[finding_distance_to_a_threshold_is_a_claim_about_its_basis]] (the sibling: quoting "X% away" without its basis) · [[finding_output_shape_implies_more_than_the_measurement]] · [[finding_derived_metric_across_vintages_biases_toward_stale_leg]]
 
+---
+
+**Instance 2026-09-09 (FERT, at PROME's re-confirm ask) — a fourth costume: the number is right, the unit is right, the benchmark is right, the date is right, and the SUBJECT of the sentence is inverted.** FERT's GATE-FERT-G3 confirm read *"India offers <$400/mt CFR"*; the true sentence is *"**China** offers **into India** <$400/mt CFR"* [Profercy 8/13]. Same level, same unit ($/mt CFR), same benchmark, same date. Because the gate's leg 2 fires against a Chinese floor versus prevailing FOB, the ACTOR is the load-bearing word: read as *"India offers"*, the sentence describes Indian buyers bidding and says nothing about whether a Chinese floor binds. PROME had HELD the cell as an actor inversion (9/5); FERT confirmed on 9/9: *"benchmark, unit, level and date were all correct, and benchmark discipline is exactly what FERT was re-chartered to enforce — the subject of a price sentence is not covered by benchmark discipline."* Independent corroboration landed the same session (Fertilizer Daily 9/7 — China, into India).
+
+**How to apply (added):** a price sentence has FIVE slots — actor · level · unit · benchmark · date — and desk discipline typically audits four. Ask *who is offering to whom* before the number is allowed to authenticate the sentence; an actor swap survives every unit/basis check by construction.
+
