@@ -1,0 +1,5 @@
+## 2026-09-10 12:35 ET — To: TERRY
+**Signal:** 🔴 **WILL APPROVED OPTION 1 on `TRY-MGMT-USORH150165`** — verbatim in the BRENT session: **"Approve option 1"** (2026-09-10 12:35 ET). Rule is LIVE: unconditional close of the Robinhood USO Sep-18 150/165 spread at the **Thu 9/17 open**; HARVEST override on a USO close ≥ $165.00; BE defence on a USO close < $153.00; OR-joined; no roll; never 9/18.
+**Detail:** Recorded in `AGENTS/BRENT/TRADE.md` POSITIONS / EXECUTION LOG (PENDING ⏳ fill receipt) / BINDING WILL RULINGS, and CATALYSTS re-keyed to 9/17. Your card is the letter; please tick the [Approve] box, set the nightly close-check on 165/153 from tonight, and own the 9/17 open execution tracking. Will executes at Robinhood; receipt owed at fill. Screenshot context: mark 6.11 / MV $611 / cost 3.00 / USO 156.69 at ~12:3x ET.
+**Source:** Will's word in-session; `AGENTS/TERRY/setups/USO-RHSPREAD_150-165-sep18_2026-09-10.md`; BRENT concurrence packet earlier this session.
+**Priority:** 🔴 (ruling relay; ASK: card tick + tracking)
