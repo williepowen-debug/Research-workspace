@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-09-10 — underlyings moved (USO 156.74 between the Sep-18 strikes; XLE 65.17, −0.5% on a +5% crude day); delayed option indications 11:35–11:47 ET in [WPSR report §2](research/2026-09-10_wpsr/REPORT.md).** No direct broker session or current open-order check. XLE fill receipt remains pending (L253). Prior evidence: [September 9 review](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
+**Updated: 2026-09-10 ~12:3x ET — Robinhood screenshot confirms the Sep-18 spread HELD (mark 6.11, cost 3.00); underlyings moved (USO 156.74 between the Sep-18 strikes; XLE 65.17, −0.5% on a +5% crude day); delayed option indications 11:35–11:47 ET in [WPSR report §2](research/2026-09-10_wpsr/REPORT.md).** No direct broker session or current open-order check. XLE fill receipt remains pending (L253). Prior evidence: [September 9 review](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
 
 ## CURRENT STANCE (v5.8 reference)
 
@@ -14,7 +14,7 @@ Broker truth remains off-repo. Three recorded open oil expressions pending the s
 |---|---|---|---|
 | USO 37 shares | Shares | HELD in newer broker mirrors; direct broker not rechecked | Corrects stale 35 from PROME September 3 transcription and September 9 screenshot review; not a new purchase. See evidence report. Share risk scaffold remains UNRATIFIED. |
 | USO Oct-16 135C ×0 | CLOSED September 9 | Remaining ×1 sold by Will at $17.55; net $1,754.30; settlement September 10 | [PROME receipt](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md). B/C discharged because no contract remains; neither trigger claimed fired. First September 2 sale price permanently UNKNOWN/no re-ask. No roll or replacement; resting-order cancellation unverified. |
-| USO Sep-18 150/165 ×1 | Call debit spread | HOLD through expiry (6 trading days left at 9/10) | WQ-168 §3, Will-approved. Former disposition question is closed. 9/10 delayed indication: 150C 8.05/8.55, 165C 2.32/2.45 ⇒ liquidation (8.05−2.45)=5.60/contract vs ~$3.00 recorded debit — indicative only, not a quoted package, no instruction change. |
+| USO Sep-18 150/165 ×1 | Call debit spread | **HELD — Will's Robinhood screenshot 2026-09-10 ~12:3x ET** (USO 156.69 +4.48%): mark **6.11**, market value $611, avg cost **3.00**, qty +1, opened 7/24, expiry 9/18, breakeven 153.00; Δ 0.4158 · Γ 0.0032 · Θ +0.0660 · V −0.0052. HOLD through expiry (6 trading days) | WQ-168 §3, Will-approved. The 9/9 'absent from the Fidelity view' ambiguity is RESOLVED: the spread lives at Robinhood and is held. Mark 6.11 sits BELOW intrinsic 6.69 because the short 165C still carries ~2.3 of time value — holding to expiry at a flat underlying converges the spread up to intrinsic. Expiry value = max(0, min(USO−150, 15)): ≥165 ⇒ $1,500; 156.69 ⇒ $669; ≤150 ⇒ $0. No instruction change; TERRY's card governs. |
 | XLE Sep-30 65C ×2 | Calls | September 9 OPEN EXIT SELECTED; fill UNKNOWN | September 8 regular-session vendor close 64.77 <66.50 selects approved WQ-168 §7 exit of both at bid next open, including red open; rebound does not replace the September 8 test. TERRY implementation; Will live broker holdings/orders/bid check and execution. L253 receipt pending (still pending 9/10; delayed 65C 1.42/1.52 at 11:35 ET vs 1.66/1.85 on 9/9). |
 
 Implementation sources: `../TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md` and `../TERRY/setups/USO-135C_rule20-management_2026-09-01.md`. September 9 USO closure is established by the PROME receipt; other owner-card history retains its date. Refiners fill status remains UNKNOWN; no re-ask.
@@ -38,6 +38,7 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 
 | Date | Action | Detail |
 |---|---|---|
+| 2026-09-10 | USO Sep-18 150/165 spread — broker mark receipt | Will's Robinhood screenshot ~12:3x ET: HELD ×1, mark 6.11 ($611), avg cost 3.00, total return shown +$311 (+103.67%), today +$265. Screenshot is a position mirror, not a fill; no action taken; HOLD through expiry stands. |
 | 2026-09-09 | Final USO October 135C sold | Will’s receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settles September 10; zero remains. Execution time/account field absent from receipt; no order-cancellation inference. B/C discharged. |
 | 2026-09-08 | XLE exit selected for September 9 open | PENDING live broker check / execution / receipt. Reaffirmed September 9 approved review: TERRY card STAGED; PROME records Will intention to sell, not fill. Receipt requested; no broker quantity/price/time received or inferred. |
 | 2026-09-02 | First USO October 135C sold | One remained after this sale; final contract closed September 9 above. First-sale price permanently UNKNOWN under WQ-167; no re-ask. |
