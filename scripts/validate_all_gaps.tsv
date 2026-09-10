@@ -1,0 +1,6 @@
+# --- validate_all.py KNOWN-GAP REGISTER (CHECK_STANDARD §1). Per-instance, expiry-dated, NEVER a pattern.
+# --- An EXPIRED row RE-FLAGS itself and takes the run to rc 2, so a quiet run means genuinely quiet.
+# --- A MALFORMED register suppresses NOTHING and says so (fail-loud, load_allowlist precedent).
+# --- Retire a row when the fix lands; the fix-shipper retires it.
+leg	artifact	reason	date_added	expiry	evidence
+A9	scripts/read_cap_check.py	No --selftest mode exists, so the fleet read-cap instrument cannot prove itself inside this suite; leg A9 is therefore NOT REGISTERED in v1 rather than registered-and-silently-skipped. Retire this row when read_cap_check gains --selftest.	2026-09-10	2026-10-10	Probed 2026-09-10: `python3 scripts/read_cap_check.py --help` -> `READ-CAP 2 USAGE: unknown flag(s) --help — modes are --agent <NAME>, --fleet, or explicit file paths`; grep -c -- '--selftest' scripts/read_cap_check.py = 0
