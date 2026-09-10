@@ -65,38 +65,3 @@ This companion keeps render metadata outside the boot-read byte budget.
   }
 }
 ```
-
-```dashboard-amendment
-{
-  "amendment": 3,
-  "source_sha256": "954d6b1f0696e8d768cbacecf0503987269d025a58fbbb04a39e37bc54a5287e",
-  "set": {
-    "one": "STAND DOWN, NO DEPLOY (September 7 WQ-189/192). Four owner grades landed September 9: GATE-TERRY-007 0-of-5 with DGS10 4.80% [September 8 official], add gate 7 bp away, NO-ADD; FT-10 owner-graded 0/4, ^SKEW 149.25 [September 9 Cboe], earliest fresh fire September 15; CRMT's waiver EXTENDED to September 11 (not lapsed), CRMT $1.475 (-40.8%); USO $149.97 [September 9] with a 37-share management card awaiting Will (WQ-200); the XLE September 9 exit fill is UNKNOWN; TLT 85P re-price ask (WQ-201). Other channels retain their dated observations.",
-    "channels": {
-      "Energy": {
-        "headline": "🔴 STAND DOWN; USO share card awaits Will (WQ-200)",
-        "body": "NO DEPLOY under WQ-189/192. USO 149.97 [September 9 close], 1.99% below the 2026 peak close 152.96; TERRY's 37-share card (harvest / give-back / time lines) is WQ-200. XLE 65.31 [September 9]; the approved September 9 exit's fill is UNKNOWN. Sleeve re-based: ENERGY $6,209, duration-short $1,220 [September 9 bids]; the $6,899 / $1,318 figures are retired."
-      },
-      "Rates": {
-        "headline": "🔴 007 graded through September 8: 0-of-5, no add",
-        "body": "DGS10 4.80% [September 8 official] = window high, 30 bp above the 4.50% exit line; DFII10 2.43% [September 8], add gate 2.50% is 7 bp away, NO-ADD. September 9 officials UNKNOWN (T+1). September 22 remains the last new-streak start."
-      },
-      "Credit": {
-        "headline": "🔴 CRMT waiver extended to September 11; HY unchanged",
-        "body": "CRMT's Silver Point waiver was EXTENDED September 4 to September 11 (8-K 0001171843-26-005895), not lapsed; the September 9 10-Q states compliance beside substantial doubt; CRMT $1.475 [September 9], -40.8%. Letter-2 branch 2A does not fire on the extension; grade at the September 11 close (OTTO). HY OAS 268 bp [September 7] unchanged at this amendment."
-      },
-      "Equity-vol": {
-        "headline": "🟡 FT-10 owner-graded 0/4; NOT FIRED",
-        "body": "RED's owner grade at Cboe: September 8 = 148.86 reset the 2-of-4 run on its value; September 9 = 149.25 published and read. Count 0/4, NOT FIRED; next countable bar September 10, earliest fresh fire September 15. Weight unmoved (net-bear 58)."
-      }
-    },
-    "ticker": {
-      "DGS10": "DGS10 4.80 [9/8 official; 007 0-of-5, 30 bp from 4.50]",
-      "DFII10": "DFII10 2.43 [9/8 official] (add gate 2.50 = 7 bp; NO-ADD)",
-      "^SKEW": "^SKEW 149.25 [9/9 Cboe; FT-10 owner-graded 0/4, NOT FIRED]",
-      "USO": "USO 149.97 [9/9 close; share card WQ-200]",
-      "XLE": "XLE 65.31 [9/9 close; approved 9/9 exit fill UNKNOWN]"
-    }
-  }
-}
-```

@@ -16,6 +16,20 @@ import heartbeat_projection as hp
 import will_brief as wb
 import will_handbook as wh
 
+# Frozen 2026-09-08 (Am.#2) snapshot of HEARTBEAT.md + its projection companion. The two
+# live-consumer regressions below pin what Am.#2 INVERTED (deploy question closed; FT-10 0/4),
+# so they must read this fixture, never the live file — on 9/9 Am.#3 broke both while every
+# amendment rule held (a snapshot assertion against a moving surface rots by construction).
+FIXTURES = Path(__file__).resolve().parent / 'fixtures'
+FIXTURE_FILES = {'HEARTBEAT.md': FIXTURES / 'HEARTBEAT_2026-09-08_am2.md',
+                 'PROME/HEARTBEAT_DASHBOARD.md': FIXTURES / 'HEARTBEAT_DASHBOARD_2026-09-08_am2.md'}
+_real_read = fd.read
+
+
+def fixture_read(rel, *args, **kwargs):
+    path = FIXTURE_FILES.get(rel)
+    return path.read_text(encoding='utf-8') if path else _real_read(rel, *args, **kwargs)
+
 BASE = {"one": "Old decision", "split": "Break 20 / Grind 47 / Unresolved 33",
         "channels": [{"name": "Energy", "headline": "Old headline", "body": "Old body", "cls": "crit"},
                      {"name": "Japan", "headline": "Unchanged", "body": "Dated evidence", "cls": "elev"}],
@@ -90,8 +104,9 @@ class LiveConsumerTests(unittest.TestCase):
         self.assertFalse(h['ticker'])
 
     def test_current_two_regressions_and_unaffected_channels(self):
-        source = fd.read('HEARTBEAT.md')
-        h = fd.parse_heartbeat()
+        with patch.object(fd, 'read', side_effect=fixture_read):
+            source = fd.read('HEARTBEAT.md')
+            h = fd.parse_heartbeat()
         self.assertFalse(h['errors'])
         self.assertIn('STAND DOWN, NO DEPLOY', h['one'])
         self.assertIn('consumer 0/4, NOT FIRED', h['one'])
@@ -116,7 +131,8 @@ class LiveConsumerTests(unittest.TestCase):
         self.assertEqual(levels['10Y Yield'], 4.78)
 
     def test_rendered_view_and_age_clock_without_global(self):
-        page, snap = fd.build(dt.date(2026, 9, 9), '2026-09-09 test')
+        with patch.object(fd, 'read', side_effect=fixture_read):
+            page, snap = fd.build(dt.date(2026, 9, 9), '2026-09-09 test')
         self.assertIn('FT-10 consumer 0/4; NOT FIRED', page)
         self.assertIn('STAND DOWN, NO DEPLOY', page)
         self.assertIn('AMENDMENT #2', page)
