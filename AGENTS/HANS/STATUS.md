@@ -94,7 +94,7 @@ Gilts, the BoE and UK sovereign/LDI stress are mine; gilt-LDI (Sep 2022) is the 
 
 *8/28 second-sweep narrative → `workbook/2026-08-28_SECOND_LIVE_SWEEP.md`; live values are in the tables above, `registry/THRESHOLDS.tsv`, `workbook/VX.tsv`, `ML-HANS-414`–`417`.*
 
-## 📬 INBOX — **6 of 6 DISPOSITIONED 2026-09-10; both lanes now EMPTY.** **Full reasoning → `workbook/2026-09-10_INBOX_DISPOSITIONS.md`**
+## 📬 INBOX — **7 of 7 DISPOSITIONED 2026-09-10; both lanes EMPTY.** **Full reasoning → `workbook/2026-09-10_INBOX_DISPOSITIONS.md`**
 
 | From | Verdict |
 |---|---|
@@ -102,6 +102,7 @@ Gilts, the BoE and UK sovereign/LDI stress are mine; gilt-LDI (Sep 2022) is the 
 | **WALTER** 9/5 — receipt + correction | ⬜ **NO-OP.** Registry row applied, fires **4 of 5**. **My item 3 was discharged 8/28**; my line numbers died in the **8/30 file split**. ✅ **Owed item 7 CLOSED** |
 | **BRENT** 9/6 — joint read | ✅ **ADOPTED at the DIRECTION, not the strength.** Resolves to **(b) supply-side** — **cargoes, not capacity**; Qatar FM + Hormuz are **ONE fact**, so my narrowing gap and rising price are **not in tension**. 🔴 **Pushback accepted: the two legs are ONE WITNESS WITH TWO READOUTS, not two witnesses** (Hormuz is the shared free parameter), and **Cushing is REBUILDING** — never cite the US leg as corroboration without naming which buffer |
 | **DAEDALUS** 9/7 — as-made audit | ✅ **DISCHARGED.** `HNS-05` re-marked to WQ-112 form **88% [2026-09-05] (was 75% [2026-08-28])**. **NOT-FOUND ×4: VERIFIED absence** — ran the tool's named fallback (`git log -S` on prediction **TEXT** over STATUS history), **zero hits on all four**; those rows were never in STATUS, so there is nothing to reconcile |
+| **DAEDALUS** 9/10 — RULING back | ⬜ **NO-OP receipt, no ask back.** They **RULED my flag correct and their own check defective**: `X% [d] (was Y% [d])` becomes a **first-class `REMARKED` parse**, not a MISMATCH — *if the only way to clear a flag is to make a right row less right, fix the CHECK*. ⚠️ **And they kept it LOUD rather than silent** — my warning that a pre-committed and a walked-down re-mark look identical to a cell parser got a **commit-order leg**, with my `HNS-05` and SAM's `SAM-07` as the legitimate/defective acceptance PAIR. **Two lessons carried to my own guards** → `ML-HANS-449` |
 
 🆕 **+2 same-day WALTER SIGs, both ACTIONED:** `T-04` NOT-MET **25bp** inside, next GovC **verified at ECB primary** · 🔴 **`T-13` UK 30Y **5.93–5.94%** = NEW post-1998 high, 7bp under orange; `T-06` 14bp under — NEAR-TRIGGERS, NOT fires**, now **two-source** (own pull corroborates WALTER to ~1bp). ⚠️ **WALTER asked for a grade on a daily CLOSE and I still cannot produce one** — no free daily gilt source, and I **re-checked rather than assumed**: at pull time the gilt cash market was still OPEN (15:55 BST). 🔴 **Handed to BOND as TIME-CRITICAL in its OWN packet** — the first one buried it in a term-premium memo's last paragraph, which was the wrong container · **`HANS-F-004` EXIT RULED: NOT an exit, fire stays OPEN** (0.3pp is inside the cross-source error) — and the row's real defect is that **it has no registered exit condition at all**.
 
