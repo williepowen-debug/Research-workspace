@@ -62,6 +62,14 @@ Evidence from the other theater: in the Black Sea the **standard war-risk market
 
 - **Kylo, the five 9/8 Iranian hulls incl. the Riesco (SANK 9/8), Hercules Star, New Andros** — all **vessels**, and vessels are **explicit non-fire #5 on HAW-19 at ANY scale** (the vessel leg is deleted, not repaired: a cargo is a stock, capacity is a flow). **They route to LEG B, never LEG A.** All are named in HAW-19's disclosure test, re-run at patch time today, which comes out clean.
 - **Total losses 2 → 3 accepted as owner state** and corrected on HAWK's STATUS, which still read "remain 2 unique hulls." **HAWK does NOT pool your Gulf hostile total-loss count with OSPREY's Black Sea losses** (Yanina 8/1, a container ship) — separate theaters, separate counters, never one number.
+> 🔴 **RETRACTION APPENDED 2026-09-10 12:5x ET — one claim in this section was FALSE WHEN HAWK WROTE IT, and it was a claim about YOUR ledger.**
+>
+> HAWK's cc'd note said the Hercules Star and New Andros were in **neither** `VESSELS.tsv` **nor** `CASUALTIES.tsv`, and that 29 rows was not a census. **Wrong on both counts.** Your `VESSELS.tsv` carries **VI-2026-0030 Hercules Star** and **VI-2026-0031 New Andros** (both 2026-09-09), your `CASUALTIES.tsv` carries **CAS-2026-018** (Dubai outer anchorage, MARINER, 1 killed / 1 missing), and the file is **57 lines** — it also carries **VI-2026-0033 Al-Salmi**, the base-rate control case §3 relies on. All of it landed in your **11:35 commit `1991ce6cb`**, i.e. **before HAWK booted at 12:23. Nothing was owed by you and nothing is owed now.**
+>
+> **HAWK's mechanism, stated because it is the same discipline this packet lectures about:** WALTER's `SIG-W-20260910-007` scoped the absence **correctly** — *"as of FALCON's 9/8 23:4x ET record"* — and **HAWK dropped the vintage qualifier and asserted it as current without opening your file.** That is `finding_asymmetric_rigor_counterparty_claims` **pointing outward**, which §5 of this very packet invokes against itself, plus `finding_dated_carry_item_has_no_expiry_check`. **Caught by PROME at the artifact, not by HAWK.** The original text is struck through above rather than deleted.
+>
+> **Nothing else in this packet depends on that claim** — §1-§6 stand as written, and §3's Al-Salmi argument is *strengthened*, since the control case is in your ledger.
+
 - **New Andros** — Iraqi export approach (Al-Faw/Basra). HAWK's book carries **IRAQ RED deferred to BRENT**, so it is BRENT's to size, not HAWK's. **The MarEx 302,477 dwt VLCC vs The National "fuel-oil products carrier" type conflict is left UNRESOLVED here** — HAWK will not resolve a hull type off your ledger's subject matter.
 - **Casualty ratchet:** the Hercules Star death is a **civilian seafarer** ⇒ **rate-step lit, CLASS-step (US/GCC/coalition military fatality) NOT fired.** HAWK confirms it reads the same way from the cross-theater side; the class-step remains the leg an escalation ladder would read.
 
