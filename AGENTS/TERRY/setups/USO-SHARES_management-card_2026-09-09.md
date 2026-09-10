@@ -3,7 +3,18 @@
 **Class:** MANAGEMENT / EXIT-CONDITION — **no new capital contemplated. `$0` moves here.**
 **Commissioned:** WILL_QUEUE row 58, RULED 2026-08-21 (Will verbatim *"Rule row 58 and row-31 off your rec."*), re-commissioned in PROME's 2026-09-09 morning priorities §2 (*"complete the already-commissioned TERRY exit proposal … Return concrete terms for Will's decision"*).
 **Built:** 2026-09-09 Wed ~21:1x–21:3x ET (`date` wall clock, copied not inferred). **Markets CLOSED** — every price below is a **9/9 regular-session close**, dated on its face, not a live executable quote.
-**Terry verdict:** 🟡 **CONDITIONAL — levels are PROPOSED and are Will's to ratify. Nothing binds until [Approve].**
+**Terry verdict:** ⛔ **PARKED — DECLINED by Will 2026-09-10 11:15 ET. NO LINE OF THIS CARD IS LIVE.** *(was 🟡 CONDITIONAL — levels PROPOSED, awaiting ratification, 2026-09-09 → 2026-09-10.)*
+**Ratification state:** **UNRATIFIED, ON FILE.** The card is kept as the dated record of a build and a measurement, not as a control.
+
+> ## ⛔ DECLINED — READ THIS BEFORE ANY LINE BELOW
+> **Will DECLINED this card 2026-09-10 11:15 ET** (Decision Deck tap, WQ-200; PROME packet `inbox/processed/2026-09-10_from-PROME_WQ-200-DECLINED-by-Will-no-USO-share-rule-is-live-he-manages-by-hand.md`), verbatim:
+> *“I am going to decline this for now. I already sold the call options for USO. I may sell a few. I will continue to monitor.”*
+>
+> ⛔ **CONSEQUENCE, STATED SO NO READER MISTAKES A SPECIFICATION FOR A CONTROL:** **LINE 1 (harvest ≥$152.96), LINE 2 (−15% give-back ratchet) and LINE 3 (10/16 mandatory review) ARE NOT LIVE.** Nothing on this card fires, arms, re-arms, ratchets or falls due. **The 37 USO shares are managed BY WILL'S HAND at live prices, on no rail this desk owns.** No TERRY grade is owed on any close, tonight's included.
+>
+> ⛔ **This is the card's `[Reject]` branch in §9, taken.** Its stated consequence stands and is not softened: **on 2026-10-01 the energy sleeve is 100% these 37 linear shares with no rule that fires on profit.** That was disclosed before the decision and the decision was made with it in view — ⛔ **it is not a re-ask, and this card must not be re-proposed off it.** *(“for now” is Will's word, not a TERRY re-arm condition; a future re-commission comes from Will or PROME, never from this file.)*
+>
+> ⚠️ **RECORDED, NOT A RE-ASK (WQ-167 discipline):** on **2026-09-10 at 12:24 ET USO traded $156.80 (+4.55%)**, a new high and **$3.84 / +2.51% ABOVE the declined LINE-1 level of $152.96** (`fetch.py price USO`, live intraday, **not** a close). Had LINE 1 been ratified it would have been a live candidate to fire on tonight's official close. ⛔ **It was not ratified, so there is nothing to grade and no proposal follows from this.** The fact is logged because a level crossed in the week it was declined is exactly the fact a future reader would otherwise have to reconstruct.
 
 ---
 
@@ -113,6 +124,8 @@ The 8/23 scaffold made one binding commitment: **"A2 is the only real parameter 
 
 ## 5. THE THREE LINES — each with its instrument and its falsifier named
 
+> ⛔ **ALL THREE LINES BELOW ARE DECLINED AND NOT LIVE (Will, 2026-09-10 11:15 ET — see the banner at the head of this card).** They are preserved verbatim as the dated record of what was proposed and measured. **No trigger below fires. No distance below is monitored. No falsifier below falls due.**
+
 > **INSTRUMENT, for all three lines, stated once:** **USO regular-session OFFICIAL CLOSE**, consolidated (NYSE Arca) — read via the Yahoo daily bar as a **MIRROR**, with regular-close metadata checked, exactly as the XLE $66.50 test was graded on 9/8. ⛔ **Never an intraday print, never a pre/post-market quote, never a mark.** A close that has not published is **UNKNOWN**, never carried forward.
 
 ### LINE 1 — HARVEST (level-keyed, PARTIAL). Zero forecast content.
@@ -130,7 +143,7 @@ The 8/23 scaffold made one binding commitment: **"A2 is the only real parameter 
 
 | Field | Term |
 |---|---|
-| **Arm state** | **ARMED at proposal.** USO is at its highest close since 6/1 and +22.64% over basis; there is a gain to protect. No separate arm level is proposed — an arm level below the current price would be a number that does nothing. |
+| **Arm state** | ~~**ARMED at proposal.**~~ → ⛔ **UNARMED AND UNRATIFIED — DECLINED 2026-09-10; this row is a specification, never a live arm state.** USO is at its highest close since 6/1 and +22.64% over basis; there is a gain to protect. No separate arm level is proposed — an arm level below the current price would be a number that does nothing. |
 | **Reference high** | The **highest regular-session CLOSE achieved on or after 2026-09-09** (today's $149.97 is the opening reference). ⛔ **Never an intraday high** — BRENT's own twice-made error in this exact metric class. |
 | **Trigger** | A regular-session close **≥ 15% below** that reference high. *(From today's reference: **$127.47**.)* |
 | **Consequence** | **SELL 12 of the then-remaining shares at the next regular open.** |
