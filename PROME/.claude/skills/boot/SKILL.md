@@ -12,6 +12,7 @@ Commands are quoted here only where they are stable interfaces; they are copied 
 
 0. **Repo state + the clock** → BOOT.md step 0 (the banner, the no-banner rule, the repo-state checks + pull-if-safe, the `NOW:` stamp).
 1. **Reads, in owner order** → BOOT.md context-injection paragraph and “Bounded reads” · `USER.md` at the repo root (per `PROME/CLAUDE.md` Boot step 1) · BOOT.md steps 1–4 (`HANDOFF` → `SCRATCH` → `ACTIVE_DECISIONS` **with `GATES.tsv`** → `STATUS`) · step 4b (§ Boot-class fleet memories) · BOOT.md step 5's non-gate items (the `HEARTBEAT.md` read and weekend rule, dashboard-before-levels).
+1b. **Decision Deck pickup** → BOOT.md step 3b (read the deck's `rulings` store; consume taps into `WILL_QUEUE.md`; never share the artifact).
 2. **One-shot gate** → BOOT.md step 5 "⚡ ONE-SHOT GATE", run ONCE:
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>`
    BOOT.md step 5 owns the gate's meaning; step 6 owns the board-scan re-run rule.

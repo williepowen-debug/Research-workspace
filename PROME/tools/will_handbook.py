@@ -42,6 +42,7 @@ import will_brief as wb  # noqa: E402  (parsers + md_inline; ONE parser family)
 ROOT = Path(__file__).resolve().parents[2]
 HANDBOOK = ROOT / "PROME" / "HANDBOOK.md"
 FLEETOPS_URL = "https://claude.ai/code/artifact/c884f088-4936-44a0-9232-30851b9427b6"
+DECK_URL = "https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca"  # Decision Deck (WQ-202) — private, never shared
 
 ALERTS = []  # (leg, reason) — the verdict keys on this count
 
@@ -568,6 +569,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board, attention_html=""
         f"<span id='built' data-built='{now.isoformat(timespec='minutes')}'>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
         "<span>Source dates appear with each record · local build; hosted publication unverified</span>"
         f"<a href='{FLEETOPS_URL}'>Fleet Ops →</a>"
+        + f" · <a href='{DECK_URL}'>Decision Deck →</a>"
         "</div></header>")
 
     for leg, reason in ALERTS:

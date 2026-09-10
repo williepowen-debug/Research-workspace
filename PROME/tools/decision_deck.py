@@ -327,11 +327,11 @@ KEY = """
 CSS = """
 :root{--bg:#F4F6F3;--surface:#FFFFFF;--ink:#1B2422;--muted:#5C6864;--line:#D6DDD8;--chip:#E8EEEB;
 --accent:#0E6B68;--accent-ink:#FFFFFF;--warn:#A8650B;--crit:#A33A2C;--ok:#2E7A4B;--wait:#6B6F8A;
---rec:#EAF3F1;--focus:#0E6B68}
+--rec:#EAF3F1;--focus:#0E6B68;--tint-ok:#EEF6F0;--tint-ok-line:#B9D9C4;--tint-no:#FAEFED;--tint-no-line:#E4C3BD;--tint-later:#F1F2EC;--tint-later-line:#D3D6C8}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121918;--surface:#1A2321;--ink:#E6ECE9;--muted:#98A5A0;--line:#2C3835;--chip:#24302D;
---accent:#45B5AF;--accent-ink:#0F1A19;--warn:#E0A44A;--crit:#E07A6A;--ok:#6CC08B;--wait:#A6ABC9;--rec:#1E2D2B;--focus:#45B5AF}}
+--accent:#45B5AF;--accent-ink:#0F1A19;--warn:#E0A44A;--crit:#E07A6A;--ok:#6CC08B;--wait:#A6ABC9;--rec:#1E2D2B;--focus:#45B5AF;--tint-ok:#182521;--tint-ok-line:#2F4C3D;--tint-no:#271C1B;--tint-no-line:#5A3631;--tint-later:#1E2422;--tint-later-line:#3A423F}}
 :root[data-theme="dark"]{--bg:#121918;--surface:#1A2321;--ink:#E6ECE9;--muted:#98A5A0;--line:#2C3835;--chip:#24302D;
---accent:#45B5AF;--accent-ink:#0F1A19;--warn:#E0A44A;--crit:#E07A6A;--ok:#6CC08B;--wait:#A6ABC9;--rec:#1E2D2B;--focus:#45B5AF}
+--accent:#45B5AF;--accent-ink:#0F1A19;--warn:#E0A44A;--crit:#E07A6A;--ok:#6CC08B;--wait:#A6ABC9;--rec:#1E2D2B;--focus:#45B5AF;--tint-ok:#182521;--tint-ok-line:#2F4C3D;--tint-no:#271C1B;--tint-no-line:#5A3631;--tint-later:#1E2422;--tint-later-line:#3A423F}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;padding-inline:16px;padding-block:0 64px}
 .wrap{max-width:820px;margin:0 auto}
@@ -353,6 +353,8 @@ h1{font:600 26px/1.15 "Fraunces",Georgia,serif;margin:0;letter-spacing:-.01em;te
 .store.live .dot{background:var(--ok)}
 .card{display:flex;flex-direction:column;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px;margin-bottom:14px}
 .card.blocked{opacity:.78}
+.card.ruled-approve{background:var(--tint-ok);border-color:var(--tint-ok-line)}.card.ruled-decline{background:var(--tint-no);border-color:var(--tint-no-line)}.card.ruled-later{background:var(--tint-later);border-color:var(--tint-later-line)}
+.card.ruled-approve .tapstate{color:var(--ok)}.card.ruled-decline .tapstate{color:var(--crit)}
 .rail{display:flex;flex-direction:row;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-bottom:6px}
 .tg{margin-left:auto;appearance:none;border:1px solid var(--line);background:transparent;color:var(--muted);font:500 11.5px/1 "IBM Plex Mono",monospace;padding:5px 9px;border-radius:999px;cursor:pointer}
 .tg .tg-max{display:none}.card.min .tg .tg-min{display:none}.card.min .tg .tg-max{display:inline}
@@ -435,10 +437,12 @@ JS = r"""
   var storeLine = document.getElementById('store');
   var buttons = Array.prototype.slice.call(document.querySelectorAll('.btn'));
   buttons.forEach(function(b){ b.disabled = true; });
-  function setState(wq, cls, text){
+  function setState(wq, cls, text, verdict){
     var card = document.getElementById('wq-'+wq); if(!card) return;
     var st = card.querySelector('.tapstate'); if(!st) return;
     st.className = 'tapstate ' + cls; st.textContent = text; st.hidden = false;
+    card.classList.remove('ruled-approve','ruled-decline','ruled-later');
+    if (cls === 'sent' && verdict) card.classList.add('ruled-' + String(verdict).toLowerCase());
   }
   function fmt(iso){ try{ return new Date(iso).toLocaleString(undefined,{month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}); }catch(e){ return iso; } }
   if (!(window.claude && window.claude.use)) { storeLine.textContent = 'Tap-to-rule is off in this view (no runtime). Reading only.'; return; }
@@ -454,8 +458,8 @@ JS = r"""
       Object.keys(latest).forEach(function(wq){
         var x = latest[wq];
         var when = x.ts ? fmt(x.ts) : '';
-        if (x.consumed) setState(wq, 'sent', 'Ruled by tap ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME');
-        else setState(wq, 'sent', 'Tapped ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup');
+        if (x.consumed) setState(wq, 'sent', 'Ruled by tap ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · picked up by PROME', x.verdict);
+        else setState(wq, 'sent', 'Tapped ' + when + ': ' + x.verdict + (x.note ? ' — ' + x.note : '') + ' · awaiting PROME pickup', x.verdict);
       });
     }, function(e){ storeLine.textContent = 'Ruling store error: ' + (e && e.code ? e.code : 'unknown'); });
     buttons.forEach(function(b){
@@ -466,7 +470,7 @@ JS = r"""
         var id = wq + '-' + ts.replace(/[^0-9]/g,'').slice(0,14);
         b.disabled = true;
         col.doc(id).set({wq: wq, verdict: verdict, note: note.trim(), ts: ts, build: BUILD, consumed: false, source: 'decision-deck'})
-          .then(function(){ toast('Recorded: WQ-' + wq + ' ' + verdict); setState(wq, 'sent', 'Tapped ' + fmt(ts) + ': ' + verdict + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup'); b.disabled = false; })
+          .then(function(){ toast('Recorded: WQ-' + wq + ' ' + verdict); setState(wq, 'sent', 'Tapped ' + fmt(ts) + ': ' + verdict + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup', verdict); b.disabled = false; })
           .catch(function(e){ b.disabled = false; var c = (e && e.code) || 'error'; setState(wq, 'err', 'Not recorded (' + c + '). Rule by message instead.'); toast('Not recorded: ' + c); });
       });
     });
