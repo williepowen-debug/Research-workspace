@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-10 (JST) — News/data catch-up; no thesis version or grade change
+
+- **THESIS:** v1.7 unchanged. No successor, no re-pencil, no route re-armed. The September hike is consensus (Masu 9/10 primary; Ueda/Takata 9/2; Himino 8/26; Aida 9/7; Bessent 8/31 + 9/9) at 98% priced — the asymmetry already on record (surprise HOLD = larger, yen-negative move) is reaffirmed, not re-marked.
+- **TIMELINE:** added the 2026-09-10 block (Sep-9 leg closed at the BOJ final; SAM-33 absence verified at the op record; consensus cluster; fiscal/GPIF/BoP/energy filed).
+- **STATUS:** market table to Sep-9/10 clocks; intervention paragraph (Sep-9 final = provisional, +¥10B vs Ueda); thresholds Sep-9; watch rows (CGPI Sep-11, BOJ Oct–Dec schedule Sep-30); channels paragraph; SAM-31 observation, SAM-33 op audit.
+- **PREDICTIONS:** none graded. SAM-33 falsifier verified un-fired through Sep-9 (`ope20260909.xlsx` vs `mpr260831a.pdf`); SAM-31 Sep-9 low-amplitude observation logged, not graded.
+- **KB:** KB-SAM-233 (Masu), 234 (consensus cluster), 235 (FY2027 requests / no 2nd extra budget), 236 (GPIF), 237 (July BoP primary), 238 (SAM-33 op-record method).
+- **Docket:** CATALYSTS/CALENDAR — Sep-10 legs resolved, Sep-11 CGPI (verified at `cgpi2607.pdf`), Sep-30 17:00 JST BOJ schedule (verified at `mpr260831a.pdf`), early-Oct Diet and Oct-8 BoP in beyond-horizon.
+- **Evidence:** `reports/2026-09-10_news-catchup.md`.
+
 ## 2026-09-09 — Evidence follow-through; no thesis version or grade change
 
 **Old → current:** BOJ changed-image quote unavailable → visually reviewed and ingested; pre-event broker baseline missing → Ueda September 3 forecast located, weakening the gross September 9 drain inference while leaving September 8 attribution open. Funding observations advanced to September 8. Timeline records these findings; detailed prices and source clocks remain in STATUS/report.

@@ -1,5 +1,7 @@
 # SAM CALENDAR
 
+**News/data catch-up September 10 JST (Sep-9 ~22:00 ET):** BOJ Sep-9 final and Sep-9 operations verified at primaries, MOF weekly Aug-30–Sep-5 captured, September speech cluster sourced, CGPI Sep-11 and BOJ Oct–Dec schedule Sep-30 added. See `../reports/2026-09-10_news-catchup.md`.
+
 **Follow-through September 9 ET:** funding/BOJ/EIA evidence refreshed, futures validation and Sep-11/18 packets prepared, infrastructure dispositions closed. See `../reports/2026-09-09_followthrough.md`.
 
 **Previous full audit:** KOYOMI Run 20, 2026-09-09 UTC/JST / 2026-09-08 ET. Reconciled to September 8 STATUS, catch-up assessment and integration (46d9e21f8). Source clocks below; no new market outcomes inferred. Prior calendar: `../archive/CALENDAR_2026-09-08_before_catchup.md`.
@@ -14,7 +16,8 @@ Tokyo September CPI is RELEASES-confirmed for **October 2** and remains the carr
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
-| 🟠 Thu Sep 10, JST / ET | BOJ Sep-9 final actuals; MOF weekly flows; EIA weekly petroleum | BOJ final ~10:00 JST (01:00 UTC / Sep-9 21:00 ET); MOF week Aug-30–Sep-5; EIA noon ET (Sep-11 01:00 JST) | Keep forecast/provisional/final vintages separate. EIA covers week ending Sep-4 under Labor Day schedule; attribution remains OPEN. | SAM |
+| 🟠 Thu Sep 10, JST / ET | ✅ BOJ Sep-9 final (= provisional −¥3,590B); ✅ MOF weekly Aug-30–Sep-5 (LT +¥111.9B). **Still due:** Totan chart 15:15 JST; BOJ Sep-10 provisional ~18:00 JST; EIA weekly petroleum noon ET | EIA covers week ending Sep-4 under Labor Day schedule | Keep forecast/provisional/final vintages separate; attribution remains OPEN. Sep-9 leg closed (+¥10B vs Ueda). | SAM |
+| 🟡 Fri Sep 11, 08:50 JST | Japan CGPI / PPI, August | Headline YoY vs Jul 7.2% | Input-cost gauge into the Sep 17-18 MPM; no registered threshold. Date verified at BOJ `cgpi2607.pdf`. | SAM |
 | 🟡 Fri Sep 11, 08:30 ET | US CPI (August data) | Headline / core | BLS primary date confirmed; inflation input to the registered Fed-side tripwire. | SAM, HENRY |
 | 🟠 Fri Sep 11, 15:30 ET | CFTC positions as of September 8 | Gross longs, shorts, open interest and cohorts | First post-rally observation. September 1 cannot establish covering in the subsequent rally. SAM-authorized one-off external follow-up; no new gate. | SAM |
 | 🟠 🔧 Mon Sep 14 | Fixed CME yen proxy near contract expires | Dec–Mar identity/expiry validated; activate only with reliable matched settlement feed | Vendor precision/timing hold; `../research/outputs/2026-09-09_followthrough/FUTURES_PAIR_REVIEW.md`. Existing monitor stops on expiry; no silent roll. SAM-requested replacement decision reminder; script guard remains authoritative. | SAM |
@@ -26,6 +29,7 @@ Tokyo September CPI is RELEASES-confirmed for **October 2** and remains the carr
 | 🔴 🔧 Fri Sep 18, close | SAM-28 / SAM-31 grading at close; retired frame has no entry deadline | Grade eligible tail-route and genuine risk-off yen-haven tests on frozen terms | Both OPEN; no early grading. SAM-39 resolved Sep-4. Frame retired Aug-7; no fuel-retirement test or entry gate. Canonical terms: `../thesis/PREDICTIONS.tsv`. | SAM, PROME |
 | 🟠 Tue Sep 29 | JGB 40Y auction | SAM must rule tenor-appropriate terms prospectively before next relevant test; 40Y BTC available, tail undefined | First 40Y since Jul-22. Conditional, mixed sponsorship; no inferred buyers. KB-SAM-175: uniform-price 40Y has no yield or price tail. Do not apply the 20Y/30Y tail bar. Counter stays 0-of-2; next scheduled adjudicator requires SAM instrument-applicability ruling. Historical Sep-3 SOFT grade unchanged. | SAM, LIQUID, BOND |
 | 🟡 Wed Sep 30 | JGB 2Y auction | BTC, tail versus Aug-28 workbook result | Front-end demand; no pricing restatement. | SAM, LIQUID |
+| 🟡 Wed Sep 30, 17:00 JST | BOJ Oct–Dec JGB purchase schedule | Per-bucket sizes/dates vs Jul–Sep plan (¥2.5T/mo; 25Y+ ¥75B per auction) | A scheduled plan change does NOT count against SAM-33; an unscheduled/fixed-rate long-end op would. Primary `mpr260831a.pdf`. | SAM, LIQUID |
 
 Publication clocks verified September 9 UTC/JST (September 8 ET): [BOJ current-account schedule](https://www.boj.or.jp/en/statistics/boj/fm/juq/index.htm), [NY Fed SOFR](https://www.newyorkfed.org/markets/reference-rates/sofr), [EIA outlook schedule](https://www.eia.gov/outlooks/steo/release_schedule.php), [EIA petroleum holiday schedule](https://www.eia.gov/petroleum/supply/weekly/schedule.php), [BLS September calendar](https://www.bls.gov/schedule/2026/09_sched.htm). CFTC Friday/prior-Tuesday and MOF Thursday/Sun–Sat periods use RELEASES.md cadence. No release outcome is asserted by a schedule check.
 
@@ -37,13 +41,15 @@ Publication clocks verified September 9 UTC/JST (September 8 ET): [BOJ current-a
 |------|-------|-----------------------------------|
 | 🟠 **~Mon Nov 9 2026** | 🆕 **MOF quarterly FX-intervention per-operation disclosure (Jul-Sep 2026 / Q3)** | **THE JAPANESE-side definitive per-op record of the 7/30-31 ops** — MOF's own `feio/quarter/` release gives the exact date + yen amount of every intervention operation in the window (own-verified this run at `feio/quarter/2026_2Qe.html`, which lists Apr-30/May-4/May-6 by date and yen amount, ¥11,734.9B total — matching STATUS's already-known MOF-monthly-sourced aggregate exactly, closing a PENDING date-pin task open since 2026-06-03). **Cadence measured, not guessed:** Q1(Jan-Mar)→published May-12 (+42d) · Q2(Apr-Jun)→published Aug-7 (+38d, own-verified) ⇒ applying +38-42d to the Sep-30 quarter-end gives **~Nov-7 to Nov-11**; this row uses the midpoint. **Lands within days of the FRBNY row below** — two independent primaries (Japan MOF + US NY-Fed), converging on the same window, for the same op. ⚠️ Estimate, not announced — re-confirm at the `feio/quarter/` index in early Nov. |
 | 🔴 **~Fri Nov 13 2026** | **FRBNY Q3-2026 FX Operations quarterly (Jul-Sep)** | **THE definitive public record of the 7/30-31 US intervention** — Table 1 *"Net Purchases and Sales"* gives the **US-leg SIZE by account**, Table 2 the post-op ESF/SOMA composition, the narrative the currencies sold and whether **warehousing** was used. **Settles the only question left open on the funding file: was the US leg Treasury/ESF-ONLY, or joint ESF+SOMA?** ⚠️ **Capacity is NOT the question** — there is no balance-sheet ceiling at the $5-10B scale (SAM 8/10, `research/outputs/US_INTERVENTION_FUNDING_ESF_SOMA_FIMA.md`). **Participation is.** A SOMA leg above $5B would have required a **full-FOMC direction** (Foreign Authorization ¶3.A; ≤$5B = Subcommittee); the ESF has no such gate. ⚠️ Date is the **cadence estimate**, not announced — re-confirm at the index page in early Nov. |
+| 🟡 **Early Oct 2026 (date TBC)** | Extraordinary Diet session (food consumption-tax suspension bill) | Aida (Reuters 9/7) frames September as the BOJ's "narrow window" before it; Takaichi will submit **no second FY2026 extra budget** (Japan Times/Jiji 9/3). Register the date when the government fixes it. |
+| 🟡 **Thu Oct 8 2026, 08:50 JST** | MOF Balance of Payments, August (preliminary) | July primary read 9/10 (`bp202607.pdf`): CA +¥2,988.9B, goods −¥399.9B. Monthly-universe row. |
 | 🟠 **Mon Jan 25 2027** | NBIM/GPFG expert-group report due | JGB weight 4.6% → 7.4% proposed; no mandate decision, implementation date or tenor-specific purchase established. Earlier “nothing lands in 2026” inference withdrawn. ~$18B remains BOND estimate. Primary read complete; report §7. |
 
 ---
 
 ## INTERVENTION WATCH — September 9 follow-through
 
-Independent broker baseline found; gross Sep-9 drain was anticipated. Sep-8 residual remains unexplained; see `../reports/2026-09-09_followthrough.md`.
+Independent broker baseline found; Sep-9 FINAL −¥3,590B = provisional, +¥10B vs the Ueda Sep-3 forecast — the Sep-9 leg is closed as anticipated fiscal. Sep-8 residual remains unexplained; see `../reports/2026-09-10_news-catchup.md` §2 and `../reports/2026-09-09_followthrough.md`.
 
 Live observations belong in STATUS; evidence and source limits in `../reports/2026-09-08_catchup-assessment.md` §2 and `../MOF_INTERVENTION_PLAYBOOK.md`.
 
@@ -101,7 +107,8 @@ Track documented supply and delivery disruption separately from statements, clos
 
 ## ✅ RECENTLY RESOLVED (pruned next update)
 
-- **September 9 follow-through:** BOJ provisional/Sep-10 forecast, Sep-8 U.S. funding and September STEO captured. Independent Ueda Sep-3 baseline found. Sep-9 final remains pending; `../reports/2026-09-09_followthrough.md`.
+- **September 10 JST catch-up:** ✅ Thu Sep-10 Masu (Fukui) speech — "continue to raise", rate below the 1.1–2.5% neutral range, FY2027 halt-the-reduction ~¥2T/mo (BOJ primary). ✅ Sep-9 BOJ final = provisional. ✅ Sep-9 BOJ ops = Aug-31 schedule (SAM-33 un-fired at the record). ✅ Tue Sep-8 July BoP (CA +¥2,988.9B, primary) · Katayama "orderly markets" · Ueno GPIF review "continuing". ✅ Mon Sep-7 Aida/Reuters (Sep → Jan → ~6-monthly). ✅ Fri Sep-4 FY2027 requests ¥143.1T (debt service ¥36.64T at 3.8% assumed). ✅ Thu Sep-3 no second extra budget · Waller conditional. `../reports/2026-09-10_news-catchup.md`.
+- **September 9 follow-through:** BOJ provisional/Sep-10 forecast, Sep-8 U.S. funding and September STEO captured. Independent Ueda Sep-3 baseline found. `../reports/2026-09-09_followthrough.md`.
 - **September 9 infrastructure disposition:** all four adopt/defer choices recorded under original Aug-21 row-56 ruling; silence-triggered retirement no longer applies. Forward estimated reminder removed; `../INFRA_AGENDA.md`.
 - Review packets: `2026-09-11_CFTC_REVIEW.md` and `2026-09-18_SAM28_SAM31_REVIEW.md`; original conditions unchanged.
 
