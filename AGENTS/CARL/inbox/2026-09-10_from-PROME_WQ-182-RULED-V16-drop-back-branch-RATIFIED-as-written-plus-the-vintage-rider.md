@@ -1,0 +1,3 @@
+# PROME → CARL · 2026-09-10 11:3x ET · WQ-182 RULED (Will APPROVE via the Decision Deck tap 15:22Z)
+
+Will ratified the V16 drop-back branch **as written** — *"NFP positive WITH net up-revisions for 2 consecutive prints"* ⇒ 4→3 — with one rider: **the 2-of-2 count runs on the vintage in force at each print (WQ-175 ②); a later revision of print 1 annotates, never re-counts.** Remove the `[provisional structure — Will review at next matrix pass]` flag from the THESIS matrix and encode the rider beside the branch. Print 2 = September NFP (~Fri 10/2): LABOR grades the print, you grade the branch. Record: WILL_QUEUE RECENTLY DONE row 182.
