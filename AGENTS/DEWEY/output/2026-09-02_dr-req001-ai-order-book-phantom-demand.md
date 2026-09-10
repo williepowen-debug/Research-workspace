@@ -4,6 +4,21 @@
 **Recipients:** VULCAN · ZHAO · WATT (action) — HENRY · VIOLET · NEXUS · LIQUID (info) — PROME (pointer)
 **Commission:** WALTER → DEWEY, 2026-08-28 20:5x ET (Will-directed). Deadline 2026-09-08.
 
+> ## ⛔ ERRATUM — 2026-09-10 (DEWEY, self-applied). ONE CELL OF §2.5 WAS WRONG. THE REPORT'S FINDINGS ARE UNAFFECTED.
+>
+> **As shipped, §2.5 claimed the phrase *"primarily related to the procurement of memory"* exists in NO NVDA primary document — a "VERIFIED absence" across all three Q2 FY27 primaries. THAT IS FALSE FOR ONE OF THE THREE.**
+>
+> **The phrase exists verbatim, 1 hit, in 8-K Exhibit 99.2** (`q2fy27cfocommentary.htm`, CFO Commentary of Colette M. Kress, accession `0001045810-26-000073`, Item 2.02, filed 2026-08-26): *"Our commitments increased from $119 billion last quarter to $279 billion, primarily related to the procurement of memory."* **Found by VULCAN 2026-09-06; re-verified at EDGAR by DEWEY's own pull 2026-09-10.** Routed as `SIG-W-20260908-001` / `COR-20260908-01`.
+>
+> **The other two cells stand, both re-confirmed 2026-09-10:** Ex-99.1 press release — 0 hits. 10-Q — 0 hits; it says *"primarily memory AND manufacturing facilities."*
+>
+> **Mechanism of the error, stated because it is the useful part:** `scripts/edgar_doc.py doc` **without an explicit `--doc` returns only the FIRST document in an accession, with no warning and no list of the others.** I ran the 8-K check, the helper handed me Ex-99.1, and I recorded that clean result as *"the 8-K."* The scan was clean against the wrong referent. `[[finding_instrument_reports_clean_against_the_wrong_reference]]` — and the irony is exact: §2.5 exists to catch an attribution nobody opened, and was itself an attribution I had not opened. Logged to `scripts/BACKLOG.md` as a build item.
+>
+> **⚠️ WHAT DOES NOT CHANGE, and it is nearly everything:** the source-absence verdict FLIPS; **the inability to size the memory leg HOLDS.** Neither document discloses a memory-only dollar amount or share, so a memory-only reconciliation of the $279B remains **not computable** — which is the load-bearing conclusion §2.5 fed into. $119B→$279B stands. The §2.1 decomposition (~2-year horizon extension = 100% of the +$160B in FY28-29; ~45%/qtr near-term acceleration like-for-like), the GEV slot-reservation finding, and the ON Semi base rate **never depended on the attribution** and are untouched (VULCAN concurs, KB-VULCAN-147).
+>
+> **🔑 The sharper finding that replaces the dead one:** *two NVDA documents filed the same day attribute the same $119B→$279B differently — the NARROW memory attribution lives in a FURNISHED exhibit (the 8-K states the press release and CFO Commentary are "furnished and shall not be deemed filed" for Section 18), while the BROADER "memory and manufacturing facilities" wording lives in the FILED 10-Q.* **Prefer the filed wording where they disagree; quote the CFO line as CFO commentary, never as the filing's operative words.** (VULCAN's formulation, adopted.)
+
+
 ## 0. PRE-REGISTRATION — written 2026-09-02 19:28 ET, BEFORE any evidence was gathered
 *(Commission requirement: "Write down, before gathering evidence, what would show the order book is CLEAN.")*
 
@@ -113,21 +128,30 @@ These are the observables that would deteriorate first if NVIDIA's own book were
 
 **Liquidity, for the record only (not a solvency claim, per scope fence):** $56.6B cash + marketable debt securities, $42.8B marketable equity securities at Jul 26, 2026 [PRIMARY].
 
-### 2.5 ⚠️ The "procurement of memory" quote does not exist in any primary — VERIFIED absence
+### 2.5 ⚠️ CORRECTED 2026-09-10 — the quote IS at a primary (a FURNISHED 8-K exhibit). The memory SHARE is still undisclosed, and that is what instrument 2 actually needed.
 
-Because the commission builds instrument 2 on it, I chased the phrase through **every primary document in NVIDIA's Q2 FY27 disclosure set**:
+*(This section as originally shipped claimed a verified absence across all three primaries. One cell was wrong — see the ERRATUM banner at the top of this report for the full record of what was claimed, what is true, and why the error happened.)*
 
-| Document | Accession | Contains "procurement of memory"? |
-|---|---|---|
-| 10-Q (Q2 FY27) | 0001045810-26-000075 | **No** — says "primarily memory **and manufacturing facilities**" |
-| 8-K Ex-99.2, CFO Commentary | 0001045810-26-000073 | **No** — does not contain the word "memory" or the figure "279" at all |
-| 8-K Ex-99.1, Press Release | 0001045810-26-000073 | **No** — does not contain "memory" or "279" |
+Because the commission builds instrument 2 on it, I chased the phrase through **every primary document in NVIDIA's Q2 FY27 disclosure set**. Corrected results, all three re-verified at EDGAR 2026-09-10:
 
-The 10-Q's actual words:
+| Document | Status | Accession | Contains "procurement of memory"? |
+|---|---|---|---|
+| 10-Q (Q2 FY27) | **FILED** | 0001045810-26-000075 | **No** — says "primarily memory **and manufacturing facilities**" |
+| 8-K **Ex-99.2, CFO Commentary** (`q2fy27cfocommentary.htm`) | **FURNISHED** (not deemed filed, §18) | 0001045810-26-000073 | ✅ **YES — verbatim, 1 hit.** ⛔ *Originally reported here as "No." That was wrong.* |
+| 8-K Ex-99.1, Press Release (`q2fy27pr.htm`) | **FURNISHED** | 0001045810-26-000073 | **No** — contains neither "memory" nor "279" |
 
-> "These supply commitments are for our **data center infrastructure systems, primarily memory and manufacturing facilities**, to produce our products for long-term demand across current and future product architectures." [PRIMARY, Q2 FY27 10-Q, Note 10]
 
-**Confidence: VERIFIED** (owner-declared path + both documented fallbacks checked, per the absence-claim standard — not a broad grep). The phrase is a **paraphrase that entered via secondary coverage** and has been circulating with a [PRIMARY] tag attached. *(It was independently re-asserted as [PRIMARY, 8-K] by one of this run's own sub-agents, which is how I came to check the 8-K — `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`, caught in-run.)*
+The Ex-99.2 sentence, in full [PRIMARY, NVDA 8-K Ex-99.2, filed 2026-08-26, DEWEY EDGAR pull 2026-09-10]:
+
+> "Our commitments increased from $119 billion last quarter to $279 billion, **primarily related to the procurement of memory**."
+
+The 10-Q's actual words, for the contrast [PRIMARY, Q2 FY27 10-Q, Note 10]:
+
+> "These supply commitments are for our **data center infrastructure systems, primarily memory and manufacturing facilities**, to produce our products for long-term demand across current and future product architectures."
+
+**🔑 What instrument 2 actually needs, and this is unchanged by the correction: NEITHER DOCUMENT DISCLOSES A MEMORY-ONLY DOLLAR AMOUNT OR SHARE.** The commission's cleanest single test — reconcile committed memory procurement against credible industry memory capacity for FY27-29 — **is not computable from either wording**, because the numerator does not exist in the disclosure. A reconciliation run against the $279B total as though it were a memory number **overstates the memory claim by an unknown amount**. That was §2.5's load-bearing output and it survives the correction intact.
+
+**Confidence: VERIFIED (corrected).** ⚠️ **The original "VERIFIED absence" carried a defect the confidence label could not express:** the finding generalised from *one exhibit my helper actually opened* to *"every primary document."* An absence claim is only as wide as the document set genuinely searched, and mine was narrower than the sentence describing it. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` · `[[finding_crosscheck_with_free_parameter_validates_nothing]]` — the 10-Q row carried two independent checks and is right; the two 8-K rows carried one each, and one of those was wrong. *(The phrase was re-asserted as [PRIMARY, 8-K] by one of this run's own sub-agents, which is how I came to check the 8-K at all — and the sub-agent was right.)*
 
 **Consequence, and it is not cosmetic:** the $279B is *not* a memory-only number. Any reconciliation of $279B against memory-industry capacity **overstates the memory claim by an undisclosed amount**, because foundry, CoWoS/advanced-packaging and prepaid capacity reservations sit inside the same total and are not broken out.
 
@@ -415,7 +439,7 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 
 | Arrival | Status |
 |---|---|
-| **NVDA memory commitments ($119B→$279B)** | **VERIFIED at the primary** — but the quote used to characterise it ("primarily related to the procurement of memory") **does not exist in any primary document** (§2.5), and the decomposition shows something more specific than the headline. |
+| **NVDA memory commitments ($119B→$279B)** | **VERIFIED at the primary.** ⛔ *Corrected 2026-09-10:* the quote used to characterise it ("primarily related to the procurement of memory") **does exist — in the FURNISHED 8-K Ex-99.2, not in the FILED 10-Q, which says "memory and manufacturing facilities"** (§2.5). **The arrival is verified and stays verified.** What §2.5 establishes is narrower and still holds: **the memory SHARE is undisclosed in both, so the memory leg cannot be sized** — and the decomposition shows something more specific than the headline. |
 | **Bernstein turbines (75% ordering above need)** | **SEARCH-NOT-FOUND** — neither the note nor a single republisher could be reached (§4.1). |
 
 ⇒ **One verified arrival and one unreached claim.** `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]` applies to both halves. **The convergence was the reason this ranked first, and the convergence is materially weaker than it appeared.**
@@ -494,7 +518,7 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 **Engine sizing:** primary-pull-first per §Engine sizing. DEWEY main session owned the entire NVDA + GEV + ON Semi primary spine (EDGAR `edgar_doc.py` × 7 filings, SEC XBRL companyconcept × 1); three targeted sub-agents (NOT the 5-angle harness) covered the breadth residual: memory market, turbine backlogs, historical base rate. **The verdict lives in the primary pull, as it has on every prior run.**
 
 **Three sub-agent claims caught and corrected at the primary — all three would have shipped as [PRIMARY]:**
-1. **"primarily related to the procurement of memory" attributed to the 8-K CFO commentary** — the 8-K contains neither the word "memory" nor "279". Chasing it produced the §2.5 VERIFIED absence across all three Q2 FY27 primary documents. `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`
+1. ⛔ **REVERSED 2026-09-10 — THIS ITEM WAS THE ERROR, NOT THE CATCH.** As shipped: *"primarily related to the procurement of memory" attributed to the 8-K CFO commentary — the 8-K contains neither the word "memory" nor "279."* **The sub-agent was RIGHT and I was wrong.** The phrase is verbatim in 8-K **Ex-99.2**; my helper had returned only **Ex-99.1** and I recorded that clean result as *"the 8-K."* **A correction pass is unreviewed work, and this one inverted a true claim into a false one and shipped it with a [VERIFIED] tag.** `[[finding_a_correction_pass_is_unreviewed_work]]` · `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]` — resolving the flag backwards did not merely miss the defect, it **manufactured** one and erased the sub-agent's correct read. See the ERRATUM banner. *(Items 2 and 3 below are unaffected and stand.)*
 2. **My own §2.1 first draft** reported "near-term commitments FLAT (−$3B)" — a **perimeter error**: the bucket covers 3 quarters in the Q1 filing and 2 in the Q2 filing. Normalised, near-term ordering **ACCELERATED 45%**. The correction reversed the sign of the finding. `[[finding_cross_entity_comparison_needs_same_perimeter]]`
 3. **HBM TAM tagged [PRIMARY, Micron call]** — Micron IR returns 403/JS-shell; downgraded to [INSTITUTIONAL, not re-verified] and logged to BACKLOG.
 
