@@ -63,13 +63,14 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 boot maintenance
-- Maintenance CLOSED in98ea7f772: WALTER READS applied/re-attested (38READ/17BASIS), routing v0.32 split into TABLE+OVERLAYS, and CHECKLISTv0.41 threshold procedure extracted to THRESHOLD_SCAN. Both routing halves and the threshold module are whole boot reads.
-- Post-commit READS-CAP0; heuristic cap0 across11 discovered files;67 existing behavioral assertions pass. Routing/procedure obligations preserved verbatim, non-WALTER manifest lines unchanged. Evidence: `outbox/2026-09-08_boot-maintenance.md`.
-- BOARD914, September8's23signals/75handoffs unchanged. Prior audit/news on origin; maintenance closeout local while foreign work is dirty. Old maintenance-pending statements are historical.
+### CHANGES SINCE LAST SESSION — 2026-09-10 Full WALTER (boot + routing + Will-directed full Iran sweep; Tier-2 closeout)
+- 7 dispatches (SIG-W-20260910-001…007; 3 IMMEDIATE), 31 handoffs, all on origin (a024bc0da); intake batch BM-20260910-01 15/15; doorbell → PROME on FALCON/BRENT/BOND/CARL, dispositioned by PROME (FALCON/BRENT DEFERRED-spawn, BOND/CARL DECLINED); HANS/LABOR were IN-FLIGHT — caught by `git status`, not by ORCH_INFLIGHT or ListAgents → charter 9b(d) + BP §9 amended.
+- Iran anchor FULL primary sweep DONE (`research/2026-09-10_iran-full-sweep.md`): verified-as-of 9/10, ADDENDUM #24; 9/8 stamps + ADD#23 → HISTORY verbatim (0 lines lost); 17,489 B. New vs owner ledgers: Hercules Star (Dubai anchorage, 1 dead 1 missing) + New Andros (Al-Faw, ablaze) — SIG-007 IMMEDIATE; rung trigger (c) is FALCON's to read.
+- Registry 10 rows refreshed; board_log sweep answered to PROME (8 desks lack the spec-path file; FERT has two).
 
 ### NEXT SESSION
-1. LAST_COMPLETION FOLLOW-UP + OPEN DESIGN DECISIONS remain the complete obligation list. Prioritize owner evidence returns; older7ACTION backlog stays deferred.
-2. Read BOTH routing files and THRESHOLD_SCAN as chartered. Measure at Tier-2/append; next calendar check September30. A boot-defining change needs fresh enumeration/attestation, not a date-only stamp. Keep narrative in cold history.
-3. FT10 September8 print148.86 reset0/4, NOT FIRED; new observations require new sources. PJM final authority and registered September9–30 clocks remain dated carries, not early grades.
-4. Broad Iran primary verification, HANS basis/storage limits, C2 measurement, MEMORY_PROMOTED coverage and verify-spawn record limitations remain outside this maintenance; do not certify them away.
+1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS remain the complete obligation list.
+2. Iran: next cadence ~9/17 or on any trigger in the anchor lead; FALCON's rung-(c) ruling and the Riesco/Hercules/New Andros ledger rows are the open owner items (SIG-001/-007). Read `IRAN_WAR.md` whole; measure it (`reads_check`) at every Tier-2 — an addendum can cross 24,412 B in one session.
+3. Run 9b(d) (`git status --porcelain` on foreign dirs) BEFORE any doorbell row.
+4. RED-FT-12 (HY <260) was 7bp away on the 9/8 print; FT-06 exit (VIX ≥18 ×5) had ^VIX 17.81 intraday 9/10 — re-read VIXCLS/HY on the 9/9–9/10 prints first. HANS-T-13 (UK 30Y) 6bp from orange on 9/10 intraday — HANS re-graded it 10:57 ET; read HANS's row, don't re-derive.
+5. Clocks: 9/11 CPI 08:30 ET (RED-FT-08; CARL L0 spawn) · 9/14 FALCON re-mark · 9/15 earliest FT-10 fire · 9/16 FOMC · 9/17 lifecycle sweep · 9/25 Oman corridor window (L229) · 9/30 Iraq pullout + all size/calendar checks.

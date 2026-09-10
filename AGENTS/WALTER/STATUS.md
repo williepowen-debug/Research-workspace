@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-10 ~11:0x ET (Thu) — Full-WALTER boot + routing session. BOARD 921 (+7 today: SIG-W-20260910-001…007, 31 handoffs). Doorbell → PROME on FALCON/BRENT/BOND/CARL; HANS + LABOR found IN-FLIGHT under PROME. Local commits; **push DEFERRED** behind foreign uncommitted work (HANS, LABOR, PROME, DAEDALUS).
+**Updated:** 2026-09-10 ~11:3x ET (Thu) — Tier-2 FULL closeout. Full-WALTER boot + routing + Will-directed full Iran primary sweep. BOARD 921 (+7 today: SIG-W-20260910-001…007, 31 handoffs, all on origin). PUSHED on Will's word (receipt HEAD a024bc0da); delivery_log reconciled (31 → delivered, 0 orphans).
 
 ## BOTTOM LINE
 
-The tanker war escalated 9/8 and the tape followed: Brent settled $101.21 (+3.4%) 9/9 and BZX26 printed $104.70 (+3.45%) intraday 9/10; CENTCOM's own account says the Riesco SANK 9/8 while FALCON's ledger still reads AFLOAT — routed IMMEDIATE to FALCON/BRENT (SIG-W-20260910-001), Houthi seizure of Mokha PRIORITY to FALCON (-002). ECB hiked to 2.50 (HANS-T-04 not met; HANS graded it itself, in flight), UK 30Y gilt 5.94 is 6bp from HANS-T-13 orange (-004, HANS+BOND), August PPI +0.4/diesel +24.1 and claims 206K carry no fire (-005 → CARL). Iran anchor: FULL sweep done 9/10 on Will's word (7 signals today; -007 IMMEDIATE on two non-Iranian hulls hit 9/9). Push deferred — foreign uncommitted work on the tree.
+The tanker war escalated 9/8 and the tape followed: Brent settled $101.21 (+3.4%) 9/9 and BZX26 printed $104.70 (+3.45%) intraday 9/10; CENTCOM's own account says the Riesco SANK 9/8 while FALCON's ledger still reads AFLOAT — routed IMMEDIATE to FALCON/BRENT (SIG-W-20260910-001), Houthi seizure of Mokha PRIORITY to FALCON (-002). ECB hiked to 2.50 (HANS-T-04 not met; HANS graded it itself, in flight), UK 30Y gilt 5.94 is 6bp from HANS-T-13 orange (-004, HANS+BOND), August PPI +0.4/diesel +24.1 and claims 206K carry no fire (-005 → CARL). Iran anchor: FULL sweep done 9/10 on Will's word (7 signals today; -007 IMMEDIATE on two non-Iranian hulls hit 9/9). Pushed on Will's word (a024bc0da); 31 handoffs delivered.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
@@ -40,9 +40,9 @@ Liveness at 14:3xZ: ListAgents = PROME only; ORCH_INFLIGHT (generated 9/7) = DAE
 
 REGISTRY refreshed from owner headers 9/10: BROCK, BOND, FERT, RED, SAM, TERRY, BRENT (9/9) and DAEDALUS (9/8) rows updated; HANS/LABOR rows left at their committed headers (in flight, uncommitted). Header dates are evidence of written work, not runtime liveness. Will reports HAWK/SAM running and OSPREY/FALCON spawned in Claude Code; this Codex session cannot inspect their live session roster. Use shared owner dispositions to establish consumption; do not relaunch them from an absent Codex roster entry.
 
-Doctor at audit: 41 handoffs older than 2 days across 13 owners, 7 ACTION / 34 INFO, oldest 48 days; ages from delivery timestamps with 3 mtime fallbacks. Grace-period items are not assumed consumed. This standing backlog remains deferred while the first three approved workstreams run.
+Doctor at closeout: 0 HIGH / 1 standing MED — 35 handoffs older than 2 days across 11 owners, 6 ACTION / 29 INFO, oldest 53 days (REGINALD 2A, AEOLUS 2A, HOMER 1A, ZHAO 1A). Deferred per Will; not assumed consumed. Registry lag cleared (10 rows refreshed today). Board_log sweep (PROME ask 9/9): 8 desks have no `board_log.tsv` at the spec path — BOND, DEWEY, FLG, HANS, OTTO, OZK, REGINALD, ZHAO; FERT holds two. Answer with PROME, routed onward to DAEDALUS.
 
-Registry dated before August 25: YEYOU 2026-08-20, RAV 2026-08-02, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-06-02. Roster membership and launch eligibility remain PROME/ROSTER.md-owned. BROCK's September 9 hold survives; REGINALD REGT07 asks and RED omission carry were already closed to the documented evidence limit.
+Registry rows dated before 2026-09-03 (>7d): REGINALD, WAL, ZHAO, MARCO, OTTO, CRUISE, CORAL, CREED, HOMER (all 9/2) · OZK 8/31 · DEWEY 8/29 · SHADE, FLG 8/28 · AEOLUS 8/27 · YEYOU 8/20 · RAV 8/2 · SENTRY 6/2 · ATHENA 3/14 · DARWIN 2/18. Roster membership and launch eligibility remain `PROME/ROSTER.md`-owned. In flight today under PROME: HANS, LABOR (committed 10:5x ET); DAEDALUS committed 10:4x.
 
 ## Active LIAISON channels
 

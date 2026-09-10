@@ -1,4 +1,8 @@
-# 2026-09-10 ~11:0x ET — light-closeout — full deferred
+# 2026-09-10 ~11:3x ET — Tier-2 FULL closeout (boot + routing + full Iran sweep; supersedes the 11:0x light breadcrumb below it)
+
+Tier-2: STATUS lead/NETWORK AWARENESS/BOTTOM LINE regenerated; registry 10 rows; MEMORY session notes; LAST_COMPLETION rewritten; charter 9b(d) + BP §9 amended (foreign-dirty scan); PROME board_log packet consumed → processed/ with declaration. Pushed on Will's word (a024bc0da), 31 handoffs delivered, 0 orphans. Doctor 0 HIGH / 1 standing MED.
+
+# 2026-09-10 ~11:0x ET — light-closeout (superseded by the Tier-2 above)
 
 Full-WALTER boot + routing. Doctor 0 HIGH / 5 MED (4 registry-lag rows refreshed; unconsumed backlog standing). 6 dispatches SIG-W-20260910-001…006 (2 IMMEDIATE, 3 PRIORITY, 1 ROUTINE), 25 handoffs, intake batch BM-20260910-01 15/15 CLOSED. Doorbell → PROME: FALCON, BRENT, BOND, CARL; HANS/LABOR found IN-FLIGHT via git status (ORCH_INFLIGHT + ListAgents both blind). Iran anchor lead stamped (scoped). Registry 8 rows refreshed. Push DEFERRED (foreign dirty tree). **~15:3xZ: Will-directed FULL Iran sweep — anchor re-verified 9/10, ADD#24, 9/8 stamps + ADD#23 → HISTORY verbatim; SIG-W-20260910-007 IMMEDIATE (Hercules Star Dubai-anchorage fatality + New Andros off Al-Faw, both absent from FALCON's ledger).**
 
