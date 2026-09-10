@@ -111,6 +111,7 @@ The packet said *"apply the read-mode + placement change to STUE's `CLAUDE.md` a
 | KB.tsv | **437 data rows** | +5 (KB-CARL-433…437). All 15-field verified, no dup IDs |
 | PREDICTIONS.tsv | 29 (15 OPEN) | ⚠️ **CRLF — binary-mode edits ONLY** (honoured today). **10 rows re-marked with as-made.** Still +60d behind STATUS on `ledger_staleness` — **freeze or refresh next session** |
 | CATALYSTS.tsv | 25 data | +2 (9/14 ladder, 9/18 FSA re-poll); CALENDAR twin synced by hand |
+| **NEXUS_BRIEF.md** | **114 lines / 44,302 B** | 🟠 **OVER the provisional 100-line cap — was already 109 at 9/5; I added 2 VIEW bullets (+5).** ⛔ **Do NOT trim the CALIBRATION bullet** (spec: protect CROSS-DOMAIN + CALIBRATION-divergence under length pressure). **The rotation candidate is the 8/27 cluster — 5 of 11 VIEW bullets are from one day a fortnight ago.** Deliberately NOT rotated late in this session; flagged instead |
 | board_log.tsv | 62 lines | untouched — no BOARD lane traffic this session |
 
 ---
