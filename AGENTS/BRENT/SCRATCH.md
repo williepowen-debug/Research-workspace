@@ -24,7 +24,7 @@
 4. **XLE receipt (L253) still pending** from the 9/9 selected exit — do not infer fill; 65C delayed 1.42/1.52 at 11:35 ET 9/10.
 5. **Before 9/30 — BRT-12 original construction** (contracts/roll/price field + dated refiner-vs-upstream credit series) per [REMAINING_PLAN](audits/2026-09-09_maintenance/REMAINING_PLAN.md); **BRT-29 M overdue since 8/31** — pursue eligible carrier events; no new grade until evidence. BRT-29 T reading −1.4% at wk-9/4; needs ≤ −3.0% by wk-9/25 (released 9/30).
 6. **Basra/Al-Faw export approach** — now a live-incident leg with no instrument on BRENT or FALCON. Candidate: Iraqi SOMO/Basra loadings via a named relay with dated observation; register only with base rates (L21/L22). Not a threshold yet.
-7. **STATUS is at the read-cap edge** (~32.4–32.5 KB of 32,550). Next session: rotate the "September 9 approved review" and "September 8 owner result" blocks before adding anything.
+7. **STATUS read-cap: 25.1 KB of 32,550 after the Will-approved 9/10 audit cut** (11 blocks rotated verbatim to `archive/STATUS_DETAIL_2026-09.md`, crc-stamped; ARCHIVE INDEX + OWNER POINTERS block replaces the pointer paragraphs). Headroom ~7 KB for the 9/11 pair and 9/16 print. Add dated blocks at the top; rotate at ≥75%.
 8. Later: 9/15 OSPREY window closes (no objection); 9/30 resolutions; 10/1 full owner read; 10/4 OPEC; 10/6 STEO; 10/26 BRT-30.
 
 ## OPEN THREADS / WATCHES
