@@ -3,20 +3,21 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Broker actions first:** the generated action list separates approval, order and fill evidence. Check the expiring QQQ contract and unresolved XLE/TLT execution records there.
-- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The retired USO call rule does not cover shares.
+- **Broker actions first:** the generated action list separates approval, order and fill evidence. Tonight's three: the **QQQ Sep-10 $715P expires 9/10** with no recorded disposition; the XLE 65C ×2 exit was SELECTED at the 9/8 close and its fill is unrecorded; the TLT Sep-30 $85P's approved $2.60 limit sits $0.65 below the bid — **WQ-201** (9/10).
+- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The retired USO call rule does not cover shares — **TERRY's 37-share card is built and waits for your word: WQ-200** (9/11; rec lines 1 + 3).
 - **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
 - **Decisions:** current approvals come from WILL_QUEUE. Previously ruled items are not fresh requests; permanent unknowns are not repeated asks.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **BROCK** · September9 · registered CRMT read; September8 launch held
-- **FERT** · September9 · registered weekly work
-- **HANS** · September9 · existing ECB prefetch slate
-- **REGINALD** · next owner pickup · newer WAL close grades requested by TERRY; ongoing exit monitoring after the entry row resolved
-- **HAWK** · September9 documentary retry · SOR/direct CBSA evidence remains incomplete; operative grade already complete
-- **BRENT** · September10 noonET weekly publication · SPR/Edouard observation on the EIA holiday calendar; remaining source work at owner receipt
-- **NEXUS · LIQUID** · by September11 · existing instrument windows and owner reviews, per DOCKET/GATES
+- **RED** · September 10, AFTER ~2:15 PM ET only · the first long-end buyback op prints 1:40–2:00 PM; RED corrects its FT-11 "live from 9/9" precondition before any 9/10 close is graded (L315)
+- **HANS** · September 10 · ECB decision 13:45 CET → HNS-05 grade (L279); PROME pre-fetches the decision read-only if HANS is dark
+- **LABOR** · next boot · claims 08:30 + the past-due 9/8 tariff summons (BD-02)
+- **BRENT** · September 10 noon ET · first WPSR for the week ending 9/4 (L305); no duplicate BRENT
+- **OTTO** · September 11 · CRMT's EXTENDED waiver date — RP-OTT-5.1 Letters 1+2 at the close (L311); BROCK staged the grade
+- **DAEDALUS** · September 12 sitting · L247 spec adversarial review (L313) beside L208/L209/L258/L294
+- **REGINALD** · next owner pickup · WAL close grades owed on the ROLL70-EXIT guard (0-of-3)
+- **FERT · TERRY** · September 16 · G5 weekly (L310) · 007 weekly review; the 9/9 officials are PROME's consumer read 9/10
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
