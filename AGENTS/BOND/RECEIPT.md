@@ -1,67 +1,30 @@
-# BOND — RUN RECEIPT
+# BOND — Run Receipt
 
-**Session:** 2026-09-04 (Fri) ~08:2x–09:0x ET · **Will-spawned boot** ("please boot up… Swedish pension cutting US treasuries — do we have this info already?") + **PROME doorbell mid-session** (`prome-9a`, two dated items + inbox drain). Overwrites the 2026-09-02 receipt.
+**Session:** 2026-09-09 (Wed) ~21:2x–22:xx ET · Will-spawned catch-up boot (bond-30), first session after five dark days (9/5–9/8) · **Overwritten each run.**
 
-## Boot gate
+## Inbox processed
+- **WALTER lane 4 → 0** → `inbox/WALTER/processed/`: SIG-W-20260904-005 (DNB gold, INFO → `KB-BND-255`) · SIG-W-20260904-007 (France>Italy, INFO → `KB-BND-256`) · SIG-W-20260908-001 (NVDA ERRATUM, ACTION → `KB-BND-257`; `KB-BND-235` → CORRECTED; R1 `COR-20260908-01` receipted **APPLIED**, `registry/corrections_receipts.tsv` created) · SIG-W-20260908-014 (copper, INFO → `KB-BND-258`).
+- **General inbox 7 → 0** → `inbox/processed/`: PROME WQ-175 (rule received, no registration this session) · MIDAS-08 (indeterminate, no correction owed) · RED ×2 (float precision; withdrawn test NOT adopted) · PROME L17 (**answered** → `KB-BND-261`, PROME packet) · PROME NVDA correction (applied) · TERRY 9/8 (consumed; date carry corrected back to TERRY). `KB-BND-263`.
 
-| Step | Result |
-|---|---|
-| 0 · `git pull` | ⛔ **NOT RUN — BLOCKED BY PROTOCOL, deliberately.** `git status` showed **5 modified files in `AGENTS/SAM/`** (uncommitted, outside BOND). Root CLAUDE.md § *Before pulling* step 2: other agents' dirs modified ⇒ **STOP, do not pull.** Session ran on local HEAD `6eb5b1b7f`. **Flagged to Will.** |
-| 5 · `docket_check.py` | **rc=0** — 3/3 September refunding legs docketed (`91282CRL7` 9/8 · `91282CRF0` 9/9 · `912810UW6` 9/10). **VERIFIED ONLY THROUGH 2026-09-10.** Blind span **9/11 → 9/25 (15d of 21) declared UNVERIFIED** as designed — human QRA step, lives as a dated DOCKET row. |
-| 6 · `boot_recompute.py` | 🔴 **rc=1 — 10 unguarded drift findings. NOT a pass. ALL FIXED THIS SESSION (see below).** |
-| 7 · WALTER lane | **2 deliveries processed** → `inbox/WALTER/processed/`. |
-| 7b · `corrections_boot_check.py` | **rc=0** — 0 unreceipted NAMED rows. |
-| 16 · `closeout_check.py` | Run; findings closed in-session (this file's own EXPIRED-PENDING clause + the inbox FILE-STATE claim, both now true). |
-| — · `kb_lint.py` | ✅ **conformant** — enums, vocabulary, dates, IDs, field-count, across 231 rows. |
-
-## Will's question — answered, and the answer is a DATE finding
-
-**"Do we have this info already?" → NO, the desk did not have it. It does now (`KB-BND-229`). The first finding is that the story is ~7.5 months old.**
-Alecta (Sweden's largest occupational pension manager, ~SEK 1.3T AUM) held ~SEK 100B (**~$11B**) of USTs at end-2024 and sold ~SEK 70–80B (**~$7.7–8.8B**) in stages **since early 2025**. Reported **Dagens Industri → Bloomberg/Reuters 2026-01-21, The Local SE 2026-01-22** (WebFetch-verified at source 9/4). Companions, same January cluster: Danish **AkademikerPension** (all USTs, ~$100M, CNBC 2026-01-20), Dutch **ABP** (−$12B during 2025, Bloomberg 2026-01-23). **Three WebSearch passes returned NO September-2026 Nordic/AP-fund item — SEARCH-NOT-FOUND, with the unchecked primary NAMED (an AP-fund or Alecta H1-2026 report, which are ZHAO's primaries, not BOND's).**
-**Verdict: not size, and it reconciles AGAINST its own headline.** $8.8B over ~18 months ≈ **7% of one quarterly refunding**; Alecta's entire former UST book is smaller than the 9/8 3Y leg. ZHAO's `KB-ZHAO-122` (June TIC) has foreign **OFFICIAL −$45.4B** vs foreign **NON-OFFICIAL +$23.2B** — **Alecta is non-official, i.e. inside the bucket that was net BUYING.** **No BOND vector moved, no trigger fired.** Routed to ZHAO (their lane; BOND keeps no foreign-holdings copy).
-
-## Inbox processed — 4 → 0
-
-| Item | Disposition | KB | Surfaces touched | Outbound |
-|---|---|---|---|---|
-| `inbox/2026-09-02_from-PROME_WQ-162-RULED-…` | **EXECUTED** → `processed/` | — | `monitors/AUCTION_HEALTH.md` § GRADING BASIS (new) | → PROME |
-| `inbox/2026-09-02_from-RED_FT-11-v1.1-ENCODED-…` | **ANSWERED** → `processed/` | — | — | → RED |
-| `inbox/WALTER/SIG-W-20260903-004` (USD/JPY 156.14) | INFO → `processed/` | `KB-BND-230` | none — SAM owns the level | — |
-| `inbox/WALTER/SIG-W-20260903-010` (gold −2.35% withdrawn) | INFO → `processed/` | `KB-BND-231` | **exposure checked: no BOND surface carries the withdrawn cell** | — |
-
-## PROME doorbell — both dated items answered in-session
-
-- **① WQ-157 leg ① rec (Will rules by 9/8):** **RETAIN `I'` standalone through 9/8–9/10 as ruled, then PAIR — never RETIRE.** Fire rate **23.2% pooled / 15.6–28.1% per tenor** vs OLD conjunctive **1.8%**; no TLT-5d separation; P(≥1 fire) ≈ 49%. **Caveat carried, not buried: TLT-5d is a PRICE yardstick, the kill is a MECHANISM claim, and the FR2004 weekly join is OWED not substituted — which is why the rec is retain-then-pair, not pair-now.**
-- **② DOCKET L235 (buybacks 9/9):** ✅ **CONFIRMED PRE-REGISTERED** — `RED-FT-11` v1.1 encoded by RED **2026-09-02, seven days before go-live**. F2 activates only on OFF-the-run. **Standing per-op routing obligation to RED from 9/9 restated.**
-- **④ Count correction returned:** doorbell said 3 unconsumed top-level; BOND held **2** top-level + 2 WALTER-lane. Offered as a fact, not a dispute.
-
-## 🔴 Corrections shipped — three carried figures, all found by `boot_recompute` rc=1
-
-1. **STATUS said 30Y 5.27 "ties the 2026 max (5.27, 7/31)". The 2026 max is 5.31 [8/17]** — verified on a full-series pull (n=169 2026 sessions). 5.27 is joint-3rd (7/31, 8/21, 9/1, 9/2). Corrected at the primary, correction stated on the row rather than silently overwritten.
-2. **The add-gate read 6bp on three surfaces; it is 5bp** [DFII10 **2.45**, 9/2] — **the closest approach of the entire episode.** 97.0th pctile full-series / 99.8th post-2010.
-3. **FR2004 was four surfaces stale at the 8/19 as-of.** New **8/26** vintage pulled: **11-21Y $68.9B → $65.0B (−$3.9B)** but **total long-end $146.3B → $151.8B (+$5.4B)** ⇒ long-end drawdown **NARROWED to −13.3%**, and the *"still widening"* clause carried on those surfaces is now **FALSE** — corrected, not carried. Rebuild sits across the 8/25–27 cluster, i.e. ordinary takedown. **Two vintages now point opposite ways; ambiguous by the monitor's own discriminator; no pre-registered trigger fired ⇒ dealer absorption HOLDS AT 2.**
-
-Also refreshed to the 9/2 close: 30Y 5.27 · 10Y 4.79 · 2Y 4.39 · **HY 266** · **CCC 1053 (another fresh 2026 high)** · IG 81 · 30Y run **42 sessions, 58 days in 2026**.
-
-## 🔴 WQ-157 leg ① — RULED MID-SESSION AND ENCODED SAME SESSION (not deferred)
-
-**Will, verbatim 2026-09-04 08:44 ET: *"Approve 157 with your rec."*** Relayed by PROME; **verified at three independent artifacts before acting** — the packet file, commit `b0b68f9fa`, and `PROME/WILL_QUEUE.md` row 157. Record: `PROME/proposals/2026-09-04_wq157-leg1-RULED.md`.
-
-**Operative sentence, now on the kill surface:** **`I'` STANDALONE THROUGH 2026-09-10; PAIRED THEREAFTER — PAIRING INSTRUMENT OWED.** Through the refunding nothing changes and a bare `I'` fire moves nothing; after it the kill is `I'` + a non-auction MECHANISM confirmation. `I'` stays the 🟠 marker permanently; **RETIRE rejected.**
-**Encoded on:** `thesis/THESIS.md` Exit §1 + version (**v1.2.1 → v1.2.2**, H1 and Version field bumped together) · `thesis/CHANGELOG.md` · `STATUS.md` Exit §1 · `docket/CATALYSTS.tsv` (9/18 row) · `KB-BND-233`. PROME's ACTION line said *"at your next boot"* — treated as a floor, not a ceiling, because the window was open.
-
-🔴 **LEG ② feasibility established BEFORE the build, and it found a hard ceiling** (`KB-BND-234`): probing the NY Fed API directly, `PDPOSGSC-G11L21` and `PDPOSGSC-G21` return **ZERO usable rows on SBN2015 and SBN2013**, while `PDPOSGSC-G7L11` returns **365 and 92**. ⇒ **the long-end bucket structure was introduced at the 2022-01-05 series break; the join is bounded at n=243 weekly prints by the ISSUER's reporting, not by tooling.** Workable — it spans the 2022–23 hiking cycle and SVB. **An empty series under a clean 200 is the exact shape of the defect `fr2004_fetch.py` was built to fix, so an unchecked build would have shipped a short reference set and reported it as the full history.** ⚠️ **SBN2022/SBN2024 bucket-definition comparability is STILL UNCHECKED** — same keyids is necessary, not sufficient; the 9/18 deliverable must state that verdict explicitly.
+## Catalysts resolved / added
+- Resolved: 9/8 3Y CLEAN · 9/9 10Y-R CLEAN (first kill evaluation, nothing fired) · 9/8 Canadian counter-tariffs (breakeven re-test null) · 9/11 blind-span row DISCHARGED for September (issuer PDF).
+- Corrected: 9/9 buyback row → **9/10 first long-end op, max $6B** · August MTS 9/10 → **9/11** (FiscalData) · FR2004 row 8/19 → 8/26 · ECB row BTP-Bund 83 [7/17] → ~89 [TE 9/9] · credit row → 9/8 levels.
+- Added: 9/15 20Y-R `912810UX4` · 9/17 10Y TIPS-R `91282CRE3` · 9/22 2Y · 9/23 5Y · 9/24 7Y · 10/1 quarterly `I'` refresh + `VX-19` "disorderly" definition.
+- Predictions: **`BND-24` TRUE** (+4bp) · `BND-23` legs 1–2 recorded NOT FIRED (OPEN) · `BND-22` path recorded (OPEN, resolves 9/14).
 
 ## Files written
+`STATUS.md` (rewritten, 3 verbatim crc-stamped rotations to `domain/sources/2026-09-09_STATUS_archive_*.md`) · `SCRATCH.md` · `RECEIPT.md` · `thesis/PREDICTIONS.tsv` · `thesis/THESIS.md` (v1.2.3) · `thesis/CHANGELOG.md` · `docket/CATALYSTS.tsv` · `workbook/KB.tsv` (`KB-BND-246`→`263`; 235 CORRECTED; 27 stale rows dispositioned) · `workbook/VX.tsv` (11 evidence cells, scores unchanged) · `monitors/AUCTION_HEALTH.md` · `monitors/DEALER_CAPACITY.md` · `monitors/grade_auction.py` (`I'` line + reopening-only alt) · `TRADE.md` · `NEXUS_BRIEF.md` (9/9 re-pin) · `analysis/2026-09-10_buyback_10-20Y_eligible_list.json` · `registry/corrections_receipts.tsv`.
 
-`STATUS.md` (dashboard, gate table, FR2004 block, matrix rows 1 & 3, trade interface, BOTTOM LINE, next-dated) · `monitors/AUCTION_HEALTH.md` (**WQ-162 grading-basis declaration — 13 elements incl. the FRN exclusion rule written ON the bar, STRICT operator, pooled-governs convention**) · `workbook/KB.tsv` (`KB-BND-229/230/231`) · `SCRATCH.md` · this file · 3 outbox packets (ZHAO · PROME · RED), each copied to the recipient inbox.
+## Outbox state
+3 packets written to `outbox/` and copied to recipients: RED (`AGENTS/RED/inbox/`) · TERRY (`AGENTS/TERRY/inbox/`) · PROME (`PROME/inbox/`, repo root). Doorbells per messaging rule 6 where the recipient is live (see closeout log).
 
-## Not done — named so it is not mistaken for done
+## Closeout checks (run after all writes)
+- `monitors/closeout_check.py` — **CLEAN, 0 findings** (kb_lint conformant · no numeric/FR2004 drift · no stale assertion of a checked shape) after three fixes: two lines still literally naming the 8/19 as-of reworded, one pending verb in SCRATCH reworded, two capability claims given `re-test: 2026-12-01`.
+- `monitors/docket_check.py` — rc=0, feed verified through 9/17, 0 missing; blind span 9/18→9/30 declared and **hand-verified at the issuer PDF this session** (`KB-BND-262`).
+- `scripts/read_cap_check.py` — **READ-CAP 0**: CATALYSTS 34,101 → 26,658 B (5 resolved rows rotated verbatim, crc32 `2773346310`), PREDICTIONS 30,220 → 14,549 B (`BND-18`→`21` rotated, crc32 `3942345676`), STATUS 26,268 B.
+- `scripts/claim_check.py --check weekday` — 5 files clean. `scripts/orphan_check.sh` — my three packets flagged `[likely YOURS]` (committed, carve-out ①); `[not yours]`: `KERNEL/OUTCOME_VECTOR_PROJECTION_SPEC_DRAFT.md`, `PROME/proposals/2026-09-09_L268-kernel-status-split-PLAN.md` — flagged to PROME in the doorbell, not swept.
+- `scripts/consumer_check.py --agent BOND --old 146.3 --new 151.8` (FR2004 long-end total) — clean. `--old 68.9 --new 65.0 --series FR2004 --unit B` (11–21Y) — 3 🔴 hits, **all a DIFFERENT series sharing the needle** (REGINALD NDFI ×2, SHADE FABN spread 68.9bp) ⇒ no packet sent, per the same-series-and-unit rule.
+- `monitors/boot_recompute.py` — three serviced date-gates (T6 · MATRIX_V2 · 8/27 7Y) retired to `monitors/WATCH_DATES_serviced.tsv` (the watcher flags every past row as PASSED regardless of `Serviced_On`); seven September gates registered.
 
-- ⛔ **No `git pull`** (SAM dirty). **Local HEAD may be behind origin.**
-- **20 ACTIVE KB rows past `Stale_By`** — un-adjudicated, carried from 9/2. Read each; do not bulk-flip.
-- **OPEN MIRROR DIVERGENCE untouched:** `VX-BND-05` = 4 and `VX-BND-16` = 4 in `VX.tsv` vs matrix 3 / 2 — components HOTTER than the matrix.
-- **`MEMORY.md` 31,839 B = 98% of the 32,550 B read budget**; **`STATUS.md` now ~31.2 KB = ~96%.** Both need rotation next session, STATUS newly so.
-- BTP-Bund **48d stale** — refresh before the 9/10 ECB. `^MOVE` not re-pulled. SOFR−IORB re-test still owed.
-
-**Position: TLT puts HOLD, no add. Book untouched. $0. Composite 12/35 — tenth consecutive unchanged session.** *(WQ-157 leg ① changed a SPEC, not a position: nothing moved, and the change TIGHTENS a kill on this desk's own live book after 9/10.)*
+## Git disposition
+No `git pull` (BROCK + TERRY dirty; origin 0 behind at boot). Path-scoped commits under `AGENTS/BOND/` + carve-out ① packets (`AGENTS/RED/inbox/`, `AGENTS/TERRY/inbox/`, `PROME/inbox/`). Auto-push via `scripts/safe-push.sh`.

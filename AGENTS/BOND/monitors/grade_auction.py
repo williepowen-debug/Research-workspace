@@ -207,8 +207,29 @@ def bench(recs, term, tips, before, n):
     def agg(k):
         v = [x[k] for x in h]
         return {"median": st.median(v), "mean": st.mean(v), "min": min(v), "max": max(v)}
-    return {"n": len(h), "from": h[0]["date"], "to": h[-1]["date"],
-            "btc": agg("btc"), "ind": agg("ind"), "dlr": agg("dlr")}
+    out = {"n": len(h), "from": h[0]["date"], "to": h[-1]["date"],
+           "btc": agg("btc"), "ind": agg("ind"), "dlr": agg("dlr")}
+    # MATRIX_V2 I' bar (Will-ruled 2026-08-27; print added 2026-09-09, the patch
+    # SCRATCH 9/4 item 8 owed "before the OLD print retires"): indirect % of
+    # competitive accepted < the tenor's own trailing-n 15th PERCENTILE, LINEAR
+    # interpolation (numpy default), STRICT operator (a print ON the bar does not
+    # fire), FRN-clean, POOLED new+reopen governs. Reopening-only alternate is
+    # computed beside it when the tenor has >= MIN_N_FOR_GATE reopenings.
+    try:
+        import numpy as _np
+        out["ind_p15"] = float(_np.percentile([x["ind"] for x in h], 15))
+        # reopening-only alt = the last n REOPENINGS of the tenor strictly prior (the
+        # construction matrix_v2_base_rate.frozen_bar(reopen_only=True) used for the
+        # 9/2 snapshot: 10Y 66.32 / 30Y 60.28) — NOT the reopenings inside the pooled
+        # window, which is a different (smaller) set and gave 66.95 / 62.10.
+        ro = [x for x in recs if x["term"] == term and x["tips"] == tips
+              and x["date"] < before and x["btc"] is not None and x.get("reopening")][-n:]
+        out["ind_p15_reopen_only"] = (float(_np.percentile([x["ind"] for x in ro], 15))
+                                      if len(ro) >= MIN_N_FOR_GATE else None)
+        out["n_reopen"] = len(ro)
+    except Exception:
+        out["ind_p15"] = None; out["ind_p15_reopen_only"] = None; out["n_reopen"] = 0
+    return out
 
 
 def show_bars(b, label):
@@ -222,6 +243,10 @@ def show_bars(b, label):
               f"| min {a['min']:7.2f} | max {a['max']:7.2f}")
     print(f"\n    ⇒ COMPOSITION-FAILURE test : indirect < {b['ind']['min']:.2f}%  AND  dealer > {b['dlr']['max']:.2f}%")
     print(f"    ⇒ COVER-MARKER test        : BTC < {b['btc']['min']:.2f} with composition intact")
+    if b.get("ind_p15") is not None:
+        alt = (f"  (reopening-only alt {b['ind_p15_reopen_only']:.2f}, n={b['n_reopen']}; POOLED governs)"
+               if b.get("ind_p15_reopen_only") is not None else "")
+        print(f"    ⇒ I' (MATRIX_V2, 8/27)     : indirect < {b['ind_p15']:.2f}%  [P15 linear over the same window, STRICT]{alt}")
     if b["n"] < MIN_N_FOR_GATE:
         print(f"    🔴 n={b['n']} < {MIN_N_FOR_GATE}: THIN BASE — this cannot support a composition gate.")
         print(f"       Report as a LEVEL read against its own thin base rate; do NOT set a gate.")
@@ -327,6 +352,18 @@ def main() -> int:
           f"({r['dlr']:.2f} vs {b['dlr']['max']:.2f}, margin {r['dlr']-b['dlr']['max']:+.2f}pp)")
     print(f"    BTC     below trailing-{b['n']} MIN ? {'YES' if cover else 'NO'}  "
           f"({r['btc']:.2f} vs {b['btc']['min']:.2f}, margin {r['btc']-b['btc']['min']:+.2f})")
+    if b.get("ind_p15") is not None and not r["tips"]:
+        ip = r["ind"] < b["ind_p15"]
+        print(f"    I' indirect below P15 (MATRIX_V2) ? {'YES — 🟠 STANDALONE MARKER' if ip else 'NO'}  "
+              f"({r['ind']:.2f} vs {b['ind_p15']:.2f}, margin {r['ind']-b['ind_p15']:+.2f}pp)")
+        if b.get("ind_p15_reopen_only") is not None:
+            ipr = r["ind"] < b["ind_p15_reopen_only"]
+            band = (ip != ipr)
+            print(f"       reopening-only alt: {'YES' if ipr else 'NO'} ({r['ind']:.2f} vs {b['ind_p15_reopen_only']:.2f}, "
+                  f"{r['ind']-b['ind_p15_reopen_only']:+.2f}pp){'  ⚠️ CONVENTION-DEPENDENT — graded both ways, pooled governs' if band else ''}")
+        print("       ⚠️ I' is the 🟠 MARKER; a bare I' fire is NOT a thesis kill (WQ-157 leg ①: standalone through")
+        print("          2026-09-10, PAIRED with a non-auction mechanism confirmation thereafter). The frozen 9/2")
+        print("          snapshot in monitors/AUCTION_HEALTH.md is the AUTHORITY for 9/8-9/10; this line is the live recompute.")
 
     if b["n"] < MIN_N_FOR_GATE:
         print(f"\n  ⚪ NO GATE VERDICT — n={b['n']} is too thin to support one. Level read only.")

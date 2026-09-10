@@ -190,8 +190,14 @@ def report(findings, title):
 
 
 def run(gates=None, today=None):
+    # IMMINENT rows are printed as a heads-up but do NOT count toward rc=1: a
+    # gate that is 0-3 days away is exactly the state the registry exists to
+    # produce, not a finding. (Until 2026-09-09 they were counted, so the boot
+    # returned "unguarded drift" on the eve of every registered auction.)
     n = 0
-    n += report(check_dates(today=today), "A · DATE-GATES (calendar vs a declared checkpoint)")
+    dates = check_dates(today=today)
+    report(dates, "A · DATE-GATES (calendar vs a declared checkpoint)")
+    n += len([f for f in dates if f[0] != "IMMINENT"])
     n += report(check_retired(), "B · RETIRED TOKENS (a retirement has no publisher)")
     if gates:
         n += report(check_distances(gates), "C · DERIVED DISTANCES (a distance never inherits a level fix)")

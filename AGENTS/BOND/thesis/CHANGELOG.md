@@ -4,6 +4,18 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.3 — 2026-09-09 (**`BND-24` TRUE — C-36 leg 2 gets its second out-of-sample observation; refunding legs 1–2 clean on both definitions; buyback carry corrected**)
+
+**Old view → new view:** the 9/1 two-part C-36 ruling (policy-path channel ALIVE AND TRANSMITTING · term premium drove the July delta) rested on ONE out-of-sample print (8/28, confounded by Warsh + a global selloff). **`BND-24` registered 9/4 before the H.15 closes published and resolved TRUE 9/9: Δ`DGS2` +3bp > Δ`DGS30` −1bp on the payroll session, full vector 2s +3 / 10s +1 / 30s −1, monotonic front-led, strict pairwise resolver, tie branch declared and not needed.** The channel now has **n=2**, the second less confounded than the first. **As the row itself required: n=2 is NOT a path and the channel's status is NOT upgraded** — the label stands exactly as ruled 9/1; nothing moved toward term premium and nothing moved away. *(Kim-Wright TP rose +8.1bp the same session — recorded, not interpreted; one session.)*
+
+**Auctions:** 9/8 3Y (ind 62.15, +3.25pp clear of `I'`) and 9/9 10Y-R (ind 79.18, +14.13pp clear pooled / +12.86pp alt; BTC 2.71 above the trailing-12 max) both CLEAN on BOTH live definitions — **the first kill evaluation on the dual-print fired nothing; 20 consecutive benign since 7/9.** Leg 3 (9/10 30Y-R, bar 62.93) is the last `I'`-standalone evaluation before WQ-157's time-split pairs it. **The OLD conjunctive add re-arm (WQ-99) did not fire at either leg.**
+
+**Carry corrected at the primary:** the first stepped-up long-end buyback op is **9/10 (10–20Y, max $6B)**, not 9/9 (a cash-management 1Mo–2Y op). F2 is scoreable only from the 9/10 results. The THESIS text names F2 as "per-op results from 9/9" — read that as *from the first long-end op, 9/10*; the flip conditions are unchanged.
+
+**No conviction change.** Composite 12/35 for an eleventh session. `KB-BND-246/247/248/250`. Minor bump per this file's own rule (prediction resolution).
+
+---
+
 ## v1.2.2 — 2026-09-04 (**WQ-157 leg ① RULED — the kill's composition leg is TIME-SPLIT: `I'` standalone through 9/10, PAIRED thereafter; RETIRE rejected**)
 
 **Old view → new view:** since the 8/27 ruling the kill's composition leg has been **`I'` standalone** (indirect < that tenor's own trailing-12 15th percentile), dual-printed against the OLD conjunctive test until the kill next evaluated. BOND's 9/2 base-rating then found that leg **cannot discriminate** — 23.2% pooled / 15.6–28.1% per tenor out-of-sample, **no TLT-5d separation** (fires down 50.0% vs 53.2% base; median +0.14% vs −0.12%; deeper margins *worse*), P(≥1 fire across 9/8–9/10) ≈ 49% — and errs toward **confirming this desk's own bear thesis**. BOND recommended **RETAIN standalone through the refunding, then PAIR; never RETIRE.** **Will ruled it verbatim 2026-09-04 08:44 ET: *"Approve 157 with your rec."*** Record `PROME/proposals/2026-09-04_wq157-leg1-RULED.md`.

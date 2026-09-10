@@ -1,0 +1,362 @@
+[
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810SR0",
+  "coupon_rate_pct": "1.125",
+  "maturity_date": "2040-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810SQ2",
+  "coupon_rate_pct": "1.125",
+  "maturity_date": "2040-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810ST6",
+  "coupon_rate_pct": "1.375",
+  "maturity_date": "2040-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810SW9",
+  "coupon_rate_pct": "1.875",
+  "maturity_date": "2041-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810QN1",
+  "coupon_rate_pct": "4.750",
+  "maturity_date": "2041-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810SY5",
+  "coupon_rate_pct": "2.250",
+  "maturity_date": "2041-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TA6",
+  "coupon_rate_pct": "1.750",
+  "maturity_date": "2041-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TC2",
+  "coupon_rate_pct": "2.000",
+  "maturity_date": "2041-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TF5",
+  "coupon_rate_pct": "2.375",
+  "maturity_date": "2042-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TH1",
+  "coupon_rate_pct": "3.250",
+  "maturity_date": "2042-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810QX9",
+  "coupon_rate_pct": "2.750",
+  "maturity_date": "2042-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TK4",
+  "coupon_rate_pct": "3.375",
+  "maturity_date": "2042-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810QY7",
+  "coupon_rate_pct": "2.750",
+  "maturity_date": "2042-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TM0",
+  "coupon_rate_pct": "4.000",
+  "maturity_date": "2042-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810QZ4",
+  "coupon_rate_pct": "3.125",
+  "maturity_date": "2043-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TQ1",
+  "coupon_rate_pct": "3.875",
+  "maturity_date": "2043-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RB6",
+  "coupon_rate_pct": "2.875",
+  "maturity_date": "2043-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TS7",
+  "coupon_rate_pct": "3.875",
+  "maturity_date": "2043-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RC4",
+  "coupon_rate_pct": "3.625",
+  "maturity_date": "2043-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810TU2",
+  "coupon_rate_pct": "4.375",
+  "maturity_date": "2043-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RD2",
+  "coupon_rate_pct": "3.750",
+  "maturity_date": "2043-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RE0",
+  "coupon_rate_pct": "3.625",
+  "maturity_date": "2044-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RG5",
+  "coupon_rate_pct": "3.375",
+  "maturity_date": "2044-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UB2",
+  "coupon_rate_pct": "4.625",
+  "maturity_date": "2044-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RH3",
+  "coupon_rate_pct": "3.125",
+  "maturity_date": "2044-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UD8",
+  "coupon_rate_pct": "4.125",
+  "maturity_date": "2044-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RJ9",
+  "coupon_rate_pct": "3.000",
+  "maturity_date": "2044-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UF3",
+  "coupon_rate_pct": "4.625",
+  "maturity_date": "2044-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RK6",
+  "coupon_rate_pct": "2.500",
+  "maturity_date": "2045-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UJ5",
+  "coupon_rate_pct": "4.750",
+  "maturity_date": "2045-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RM2",
+  "coupon_rate_pct": "3.000",
+  "maturity_date": "2045-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UL0",
+  "coupon_rate_pct": "5.000",
+  "maturity_date": "2045-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RN0",
+  "coupon_rate_pct": "2.875",
+  "maturity_date": "2045-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UN6",
+  "coupon_rate_pct": "4.875",
+  "maturity_date": "2045-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RP5",
+  "coupon_rate_pct": "3.000",
+  "maturity_date": "2045-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UQ9",
+  "coupon_rate_pct": "4.625",
+  "maturity_date": "2045-11-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RQ3",
+  "coupon_rate_pct": "2.500",
+  "maturity_date": "2046-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810UT3",
+  "coupon_rate_pct": "4.625",
+  "maturity_date": "2046-02-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RS9",
+  "coupon_rate_pct": "2.500",
+  "maturity_date": "2046-05-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ },
+ {
+  "operation_date": "2026-09-10",
+  "operation_start_time_est": "01:40 PM",
+  "cusip_nbr": "912810RT7",
+  "coupon_rate_pct": "2.250",
+  "maturity_date": "2046-08-15",
+  "par_amt_accepted": "null",
+  "weighted_avg_accepted_price": "null"
+ }
+]
