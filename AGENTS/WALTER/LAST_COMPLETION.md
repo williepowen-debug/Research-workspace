@@ -30,7 +30,7 @@ Threshold scan 6c (dated): no fire. Near-trigger watches: RED-FT-12 HY 267 [9/8]
 
 ## WILL_NEEDS
 
-Nothing blocking from WALTER. Two items sit with PROME on your word: the FALCON touch (now carries a possible D→85 rung-(c) ruling) and the BRENT touch after the noon WPSR. Carried decisions unchanged: pilot step 3 adoption, verify-spawn evidence-record design, weekend/event intake, obsolescence collection scope, pre-August correction baseline audit.
+**On the Decision Deck as of 9/10 ~12:2x ET (PROME-registered from WALTER's packet e2a949479):** WQ-204 phone-signal Part A (your PAT + iOS Shortcut; needed-by 9/19, paired with WQ-187) · WQ-205 REQ-DEWEY-20260829-002 spawn/re-date/withdraw (needed-by 9/14; rec spawn) · WQ-206 the 7-day aged-ACTION-line rule (PROME L0 drain-only) plus the rule that this section feeds the deck through PROME. Verdicts come back by deck tap or word. Otherwise nothing blocking from WALTER. Two items sit with PROME on your word: the FALCON touch (now carries a possible D→85 rung-(c) ruling) and the BRENT touch after the noon WPSR. Carried decisions unchanged: pilot step 3 adoption, verify-spawn evidence-record design, weekend/event intake, obsolescence collection scope, pre-August correction baseline audit.
 
 ## FOLLOW-UP
 
