@@ -1,6 +1,6 @@
 # FORGE/STATUS.md — ROTATION RECORD 2026-09-10 (terminal material, verbatim)
 
-> **Source:** `FORGE/STATUS.md` as edited by ANVIL 2026-09-10 (reconcile to the 9/10 ~10:3x ET intraday capture + Fidelity activity ledger; working copy at rotation time — chunk F1 is taken from `git show HEAD:FORGE/STATUS.md`, HEAD `8e7a399a8`). **Rotated:** 2026-09-10 ~11:0x ET, PROME-authorized (byte-cap relief; `prome-6d`). **Cite as history, never current** — every row here is terminal (expired, closed, or a discrepancy resolved by the 9/10 ledger); the live mirror is `FORGE/STATUS.md`. Rows are verbatim; the table header each chunk belonged under is named in the chunk title. crc32 per chunk = `PROME/tools/measure.py` on the chunk's lines (each line newline-terminated).
+> **Source:** `FORGE/STATUS.md` as edited by ANVIL 2026-09-10 (reconcile to the 9/10 ~10:3x ET intraday capture + Fidelity activity ledger; working copy at rotation time — chunk F1 is taken from `git show HEAD:FORGE/STATUS.md`, HEAD `8e7a399a8`). **Rotated:** 2026-09-10 ~11:0x ET, PROME-authorized (byte-cap relief; `prome-6d`). **Rotation 2 — 2026-09-10 ~16:5x ET, ANVIL on PROME's instruction (cap relief for the CLOSE + 16:10 pass): Chunks G–H below, verbatim; source working copy pre-rotation = `31891 B (wc -c)  168 lines (wc -l)  crc32 698795158  crc32-no-final-nl 1885830741`.** **Cite as history, never current** — every row here is terminal (expired, closed, or a discrepancy resolved by the 9/10 ledger); the live mirror is `FORGE/STATUS.md`. Rows are verbatim; the table header each chunk belonged under is named in the chunk title. crc32 per chunk = `PROME/tools/measure.py` on the chunk's lines (each line newline-terminated).
 
 ## Chunk A — 9/9 USO 135C execution-update note (header blockquote; receipt detail)
 *measure.py: 478 B (wc -c)  1 lines (wc -l)  crc32 1569397136  crc32-no-final-nl 3966296790*
@@ -65,3 +65,15 @@
 | D-50 | TLT Sep-30 77P ×5 Sell to Close, limit $0.06 (Day), filled $0.06, net $28.44; lot basis $57.82 ⇒ realized −$29.38. Deviation from WQ-168 ④ HOLD ×25 — RECORDED, never graded. CLOSED |
 | D-46 | Consumed: XLE 65C qty 2→1 on the 9/10 view; the survivor's status is the live row D-49 |
 | D-48 | USO 135C absence broker-verified on the 9/10 view. CLOSED |
+
+## Chunk G — "Events since the 9/3 reconcile, by label" (header blockquote; 10:3x pass + RH 16:10 events; rotated 16:5x)
+*measure.py: 1556 B (wc -c)  1 lines (wc -l)  crc32 2991558360  crc32-no-final-nl 4260331669*
+
+> **Events since the 9/3 reconcile, by label.** **BROKER-VERIFIED (positions view + activity ledger `[Fidelity activity, 9/10]`):** USO $135C Oct-16 absent (matches the 9/9 receipt) · **XLE $65C Sep-30 qty 2→1** (one SOLD — NOT in the ledger's visible rows, date/price UNKNOWN; ⑦ had ruled SELL BOTH 9/9) · **TLT $77P ×5 SOLD 9/10 @ $0.06, net $28.44** (④ had ruled HOLD ×25 — a deviation, recorded not graded) · **TLT $85P ×1 SOLD 9/10 @ $3.93, net $392.34** (limit $3.92 — Will re-priced the $2.60) · **QQQ $715P Sep-10 ×1 SOLD 9/10 @ $6.55, net $654.32** · **USO Sep-11 $153C ×1 SOLD 9/10 @ $2.14, net $213.34 — a leg on no positions view** · CLOSE view: same 15 rows, no qty change after ~10:3x, no new fills · cash + pending +$2,597.73 · **Robinhood `[9/10 16:10]`: USO $150/$165 Sep-18 spread CLOSED ~15:1x by Will's hand, $630.00 vs $300.00 debit ⇒ +$330.00 realized** (WQ-168 ③ had ruled HOLD) · **USO $159C Sep-11 ×1 BOUGHT @ $1.52** (day-trade class) · QQQ $713C 9/10 day trade −$11.00 · WAL 70P +$10.00 (was +$13.00 ~10:3x) · KRE 25P −$52.00 · account **$946.13**. **PROME-SUPPLIED context (queue, not broker):** WQ-201 (TLT 85P limit) — answered by the 85P fill, PROME closes the row · WQ-200 (USO 37-sh card LINE-1 harvest, *"≥$152.96 official close"*) OPEN, due 9/11. **Standing rulings (WQ-168, 9/3) and GATE-TERRY-ROLL70-EXIT:** not amended by this pass; two deviations from WQ-168 are recorded above (④: 5 of 25 sold; ⑦: consumed, the surviving ×1 has no rule) — see the position rows.
+
+## Chunk H — Fidelity day-trade-class struck row: QQQ 3 sh (gone 9/3; D-44 carried live)
+*measure.py: 278 B (wc -c)  1 lines (wc -l)  crc32 4254405913  crc32-no-final-nl 4169536310*
+
+| Position | Expiry | Qty | Cost | Mark | Value | P&L | Note |
+|----------|--------|-----|------|------|-------|-----|------|
+| ~~**QQQ**~~ | — | ~~3~~ | $714.74 | — | — | **UNRECORDED (sale)** | **GONE 9/3, still absent 9/10** (8/28: 3 sh @ $716.43; basis $2,144.23). Labeled reading SOLD (the 8/28→9/3 bridge fit it), date/price UNKNOWN. Struck so the parser carries no phantom. See **D-44** |
