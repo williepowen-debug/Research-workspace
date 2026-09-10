@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — thin, derived
 
-**Regenerated: 2026-09-10T16:37:29.365347+00:00.** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
+**Regenerated: 2026-09-10T22:08:46.524024+00:00.** **⚠️ 2026-09-10 EVENING TOUCH — STAMP REFRESHED, BODY NOT RE-DERIVED, AND THAT DISTINCTION IS THE POINT.** This session was a WILL-RULING ENCODE (WQ-208 / WQ-211 / WQ-212), not a theater pass. **NO owner ledger changed since the 16:37Z regeneration** (verified by git: OSPREY's last brief/ledger commit is 9/08, FALCON's 9/10 11:42 ET — both PRECEDE it; every later commit under those directories is inbound mail, HAWK's own packets included). **Every count, premium level and source date below is therefore carried UNCHANGED from that pass and its stated ages are the ages AS OF THAT PASS — a fresh stamp over a carried body certifies nothing new (`finding_header_edit_is_the_edit_most_mistaken_for_maintenance`).** Reconciled September8 ET from both owners' September8 analyses and briefs, both STRIKES ledgers and FALCON VESSELS. Local refresh is not an independent theater sweep. Fingerprints: `registry/derived_inputs.json`; checker: `scripts/derived_freshness.py`.
 
 | Owner | Ledger data rows, counted locally | Comparable meaning / limits |
 |---|---:|---|

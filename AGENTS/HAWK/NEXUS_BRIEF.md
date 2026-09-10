@@ -1,12 +1,22 @@
 # HAWK — NEXUS Brief
 
-**Status:** 🟠 — **HAW-19 LEG A repaired under a Will ruling; the row tests its own headline claim again.** Inbox drained 7/7 to zero. Zero destroyed crude capacity in either theater, independently stated by both owners.
+**Status:** 🟠 — **THREE WILL RULINGS ENCODED (WQ-208 / WQ-211 / WQ-212). `HAW-19` was repaired AND ruled a DEFECTIVE INSTRUMENT — it will not produce a calibration datum, and its replacement is not yet built. `VX-HAWK-TRADE-01` moved YELLOW → ORANGE on a legal-stage definition, not on new escalation evidence.** Inbox drained to zero. **Zero destroyed crude capacity in either theater, independently stated by both owners** — the migration thesis is unrefuted on the evidence.
 **Domain:** cross-war synthesis and dormant geopolitical book; **no trade book.**
-**As of:** 2026-09-10 12:3x ET (`hawk-0910`, PROME-spawned Tier 1, ruling-implementation wave) · **STATUS commit:** resolve from git (`git log -1 -- AGENTS/HAWK/STATUS.md`) — never from this line. · ⚑ Written LAST, after the STATUS write.
+**As of:** 2026-09-10 ~18:2x ET (`hawk-0910b`, PROME-spawned Tier 1 under the WQ-206 aged-ruling rule, second touch of the day; prior touch 12:3x ET) · **STATUS commit:** resolve from git (`git log -1 -- AGENTS/HAWK/STATUS.md`) — never from this line. · ⚑ Written LAST, after the STATUS write.
 
 ---
 
-## THE ONE THING — 2026-09-10
+## THE ONE THING — 2026-09-10 (evening)
+
+> 🔴 **A REPAIRED INSTRUMENT AND AN UNCREDITABLE GRADE ARE NOT A CONTRADICTION — and every desk that registers dated falsifiers should take this pair.** This morning WQ-160 repaired `HAW-19` LEG A (`≥45` → `≥14` consecutive days) and restored resolvability **forward** from 9/10. This evening **WQ-212 ruled that the row still resolves 9/30 as a DEFECTIVE INSTRUMENT with NO calibration credit** — because LEG A was structurally unfireable for the **first 21 of the row's 42 days**, and **a forward repair cannot retroactively make a window's first half gradeable.** The original letter and the 70% are kept; LEG B is still adjudicated on its own evidence. ⇒ **Fixing an instrument mid-window buys you a live test for the REMAINDER, never a scoreable one for the whole.** The scored replacement is a **capacity-only successor** owed by **2026-09-25** (windows 10/01 → 12/22) — **and it is not ready on data**: no licensed tracker access, no matched 73-observation fixture, no measured base rate behind its draft 65%. **That deadline meeting that gap is the live risk on this desk, not any market event.**
+>
+> 🟠 **SECOND ITEM, FOR TRADE/CHINA CONSUMERS — a mark moved without an event.** `VX-HAWK-TRADE-01` is now **ORANGE** (from YELLOW) under WQ-211 ②: a **legally adopted** instrument is now this vector's escalation stage, and the signed **2026-08-06 polysilicon Section 232 proclamation** fires it. **The Orange band text was NOT re-cut and no new escalation was observed** — what changed is which legal stage the row grades on. Three dates stay apart forever: **adoption 8/06 · applicability 12/04 00:01 ET · observed collection UNKNOWN.** The mark is dated **9/10, deliberately not backdated** — backdating would manufacture a 33-day escalation this book never observed. ⛔ **Do not sum it:** `CODIF-01` (ORANGE, codification axis) and `TRADE-02` (ORANGE, rates/exposure) cite the **same instrument at different axes**; it is one action, not three escalations. **`HAW-20`'s frozen four-instrument set does not expand.**
+>
+> 🟡 **THIRD, FOR BRENT/PROME — the N6 STEO branches are MECE from October, not before.** DECAY = OPEC ≥2.38 **and** MidEast ≥2.35 · EXTENSION = both below · MIXED = exactly one below (publish both series, **no joint directional verdict**). Anchors frozen at 2.38/2.35. ⚠️ **The 2026-09-09 September observation stays under the OLD OR/OR branches and is still OUTSTANDING** — a straddling pair there still prints the documented **overlap**, and missing/wrong-vintage input is **CANNOT-FIRE with the failed input named**, never a branch.
+>
+> ✅ **And HAW-18's scoring vintage is settled (WQ-208): the 55% scores, the first-call 60% stays on the calibration book, no score was hand-edited and no new canon was made.** The scoreboard tally is unchanged — HAW-18 was already FAILED on 8/04. **⚠️ Scoreboard readers: `HAW-19`'s eventual 9/30 print is NOT a calibration datum and must not enter a Brier average.**
+
+## THE ONE THING — 2026-09-10 (morning, retained)
 
 **A falsifier this desk registered on 8/20 could not fire, for eleven weeks, and it was HAWK's own arithmetic that did it.** `HAW-19` LEG A demanded terminal throughput down ≥200 kbpd for **≥45 consecutive days** inside a **42-day** window — so the latest qualifying start was **2026-08-17, three days before the window opened.** The row could not test its own headline claim; its 70% was priced against two live legs while only one was alive. **Will ruled the repair 2026-09-10** (WQ-160, Decision Deck tap 15:21Z / 11:21 ET, verbatim **APPROVE**, option (b)) and it is **executed**: duration **≥45 → ≥14 days**, `Resolve_By` **NOT extended**, confidence **unchanged at 70%**.
 

@@ -1,5 +1,12 @@
 # September8 batch2 — proposed decisions
 
+> 🔴 **RULED 2026-09-10 — NOT A DRAFT ANY MORE. Will APPROVED three of the four items by Decision Deck tap** (PROME packet `../inbox/processed/2026-09-10_from-PROME_WQ-208-211-212-RULED-55-scored-batch-2-both-legs-HAW-19-defective-plus-successor.md`):
+> - **N6 — WQ-211 leg ① APPROVED AS PROPOSED** (the AGREEMENT rule + the exact replacement basis below), **prospective from the OCTOBER STEO**. ⚠️ **The 2026-09-09 observation stays under the OLD OR/OR branches** — the timing hedge in the table below is the ruled outcome, not a lapsed contingency. `KB-HAWK-358/359`.
+> - **TRADE01 — WQ-211 leg ② APPROVED AS PROPOSED.** Legally-adopted = the escalation stage; the exact Orange timing clause below is adopted verbatim. **APPLIED 2026-09-10: `VX-HAWK-TRADE-01` moved YELLOW → ORANGE**, dated on the rule-adoption date and **not backdated** to the 8/06 signature. Band text unchanged. `KB-HAWK-362`.
+> - **HAW18 — WQ-208 APPROVED AS RECOMMENDED.** The **55% is the SCORED mark**; first-call 60% stays on the calibration book; no score hand-edited; no new canon. DOCKET L306 RESOLVED. `KB-HAWK-360`.
+> - **HAW19 — WQ-212 RULED, AND THE RULED LABEL DIFFERS FROM THIS PACKET'S.** This packet proposed **STUCK**; **Will ruled DEFECTIVE INSTRUMENT**, resolving 2026-09-30 with **no calibration credit**, original letter and 70% kept, LEG B still adjudicated on its own evidence, **D3 expressly left unparameterized**. Plus a **capacity-only SUCCESSOR** owed — windows **2026-10-01 → 2026-12-22**, registered **before 10/1**, deadline **2026-09-25** (DOCKET L321). **Read the ruled words, not this packet's recommendation, wherever they differ.** `KB-HAWK-361`.
+> **The recommendation text below is preserved verbatim as the pre-ruling record. Where it and the ruling disagree, the ruling governs.**
+
 DRAFT. Prepared for Will's September11 review, with N6 needed before the September9 STEO observation if adopted for that observation. This packet is reviewable work under the approved batch; it does not amend a register, score or band. Original letters and confidences remain intact.
 
 | Item | HAWK recommendation | Consequence if approved |

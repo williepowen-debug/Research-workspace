@@ -1,5 +1,8 @@
 # HAW19 prospective terminal measurement contract
 
+> 🔴 **WINDOWS SUPERSEDED 2026-09-10 BY WQ-212 (Will-ruled). READ THIS BEFORE USING ANY DATE ON THIS PAGE.** The successor's windows are now **2026-10-01 → 2026-12-22** (separate event and observation windows), registered **before 2026-10-01**, PROME deadline **2026-09-25** (DOCKET L321). **Every calendar figure below that derives from the 10/01→10/31 event window or the December 14/15 last-measured-day — including the 45-day interval arithmetic — is SUPERSEDED and must not be carried into the registration.** The measurement mechanics on this page (daily allocation, snapshot cutoff, baseline freeze, missingness, tracker-agreement definition) remain the current draft terms and are still needed. ⚠️ **This page is still NOT a registered instrument, and its 65% is UNCALIBRATED and UNREGISTERED** — `../audits/2026-09-08_HAW-19_data-feasibility.md` returns NOT READY (no licensed tracker access, no matched 73-observation fixture, no terminal/path universe, no measured base rate). If the data cannot be obtained by 9/25, **narrow or redesign the letter; do not register a number because the dates became feasible.**
+
+
 DRAFT v2, September8,2026. This refines the proposed successor; it is not an instrument for regrading original HAW19. Reader: HAWK readiness review September11 and any registration before October1. No vendor access, calibrated probability or owner confirmation is implied.
 
 ## Scope and identities

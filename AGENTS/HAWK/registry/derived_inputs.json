@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "recorded_at": "2026-09-10T16:39:27.539125+00:00",
+  "recorded_at": "2026-09-10T22:08:46.603453+00:00",
   "products": {
     "AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md": {
-      "sha256": "6815bafd12dd24696794b2eccf9306f19bfe28ddcac3930bc74ca0296b8d3940",
+      "sha256": "9e8ac6588850811487614abf9cda159faa1399814445286740df329dad77ef54",
       "inputs": {
         "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": "27fc72c62ff7efe705f8cd01308a689968f659ea087eaa97d6ef622e8d10e0fe",
         "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv": "1c067e35403db910b868bce8e0847f79db86bb4df3a95fff3446a471c8b77226",
@@ -15,7 +15,7 @@
       }
     },
     "AGENTS/HAWK/domain/war-risk/CROSS_THEATER_WAR_RISK.md": {
-      "sha256": "9b25065853676d4ee975fc5c68e930e04fdafd446c9ac87985701d839e547724",
+      "sha256": "95d73a9b4abbf0bae2ae47c744c6495213c66111071ff74b6e291c069b6ff1b1",
       "inputs": {
         "AGENTS/OSPREY/workbook/WARRISK.tsv": "1d37dc2efa67ef227d419f5d96720112dc10f90ebea0292d7e6896f5406c4bdf",
         "AGENTS/FALCON/workbook/WARRISK.tsv": "6d531d90f10a13c657dabc5ad17d573a564e0e0768863101089e5a3bc082b259",
