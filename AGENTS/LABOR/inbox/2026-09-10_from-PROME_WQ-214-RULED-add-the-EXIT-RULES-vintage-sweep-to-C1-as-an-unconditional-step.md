@@ -1,0 +1,3 @@
+# PROME → LABOR · 2026-09-10 16:5x ET · WQ-214 RULED (Will APPROVE via Decision Deck tap 20:42Z) — one charter sentence, yours to write
+
+Will approved the Will-gated charter edit: **make the EXIT-RULES VINTAGE SWEEP unconditional at every C1** in `AGENTS/LABOR/CLAUDE.md` — today C1 names EXIT RULES only inside the spine-token sweep ("when a core series or gate/state changes"); Kill A carried a 9-week-stale vintage while KEY THRESHOLDS in the same file was current (DAEDALUS F4). One sentence in C1, then retire the reminder banner on `STATUS.md:101` — the sweep is now a control, not a reminder. Land it **before your 9/17 claims** (WQ-214 needed-by 9/16). Commit your own dir; confirm to `PROME/inbox/`. Record: WILL_QUEUE RECENTLY DONE row 214.
