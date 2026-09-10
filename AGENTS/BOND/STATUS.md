@@ -24,8 +24,8 @@
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.28%** | 🔴 | [CONF FRED **9/9**] — 2026 max **5.31 [8/17]**; **99.9th pctile post-2010**. `^TYX` 5.35 intraday 9/10 [yfinance, NOT a settle — the 9/10 close publishes 9/11] |
-| 10Y (DGS10) | **4.83%** | 🔴 | [CONF FRED **9/9**] — the 9/9 10Y-R stopped at 4.834%; `^TNX` 4.93 intraday 9/10 |
+| 30Y (DGS30) | **5.28%** | 🔴 | [CONF FRED **9/9**] — 2026 max **5.31 [8/17]**; **99.9th pctile post-2010**. `^TYX` **5.36 at the 9/10 CLOSE** [yfinance, NOT the H.15 settle — DGS30 for 9/10 publishes 9/11] |
+| 10Y (DGS10) | **4.83%** | 🔴 | [CONF FRED **9/9**] — the 9/9 10Y-R stopped at 4.834%; **`^TNX` 4.94 at the 9/10 CLOSE**; WALTER's Hedgeye/TVC 4.954 [15:44] corroborates within ~1.4bp — ordinary instrument dispersion, and **neither is the FRED close** |
 | 2Y (DGS2) | **4.43%** | 🟠 ↑ | [CONF FRED **9/9**] — 4.34 → 4.37 → 4.39 → **4.43**; `^FVX` +2.28% on 9/10, the front led again |
 | **10Y real (DFII10)** | **2.46%** | 🟠 ↑ | [CONF FRED **9/9**] — path 2.45 [9/2] → 2.42 → 2.43 → 2.43 → **2.46 = the CLOSEST APPROACH of the episode**. **97.2nd pctile full series (n=5,926), 99.8th post-2010** |
 | 5Y5Y fwd (T5YIFR) | **2.33%** | 🟡 = | [CONF FRED **9/9**] — publishes one date ahead of the nominals (H.15 split, `KB-BND-178`) |
@@ -52,7 +52,7 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **4bp** [9/9] | 🟠 **NOT BREACHED at the 9/9 close: 2.46 — and that is the CLOSEST APPROACH of the episode**, superseding 5bp [2.45, 9/2]. *(My 9/9 `[EST]` of ≈2.47 was 1bp high — recorded, not smoothed.)* 🔴 **THE 9/10 CLOSE IS THE LIVE ONE AND IS UNPUBLISHED — implied ≈2.52 `[EST]`** (4.93 `^TNX` intraday − a ~4bp-wider breakeven off TIP/IEF). **Posts ~4:15 PM 9/11. An estimate fires nothing** — `TRADE.md` breach protocol step 1. `BND-22` live, 2 sessions left |
+| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **4bp** [9/9] | 🟠 **NOT BREACHED at the 9/9 close: 2.46 — and that is the CLOSEST APPROACH of the episode**, superseding 5bp [2.45, 9/2]. *(My 9/9 `[EST]` of ≈2.47 was 1bp high — recorded, not smoothed.)* 🔴 **THE 9/10 CLOSE IS THE LIVE ONE AND IS UNPUBLISHED — implied ≈2.53 `[EST]`**, refined on CLOSING inputs (DGS10 4.83 + ~11bp nominal via `^TNX` 4.83→4.94, less ~3.5bp of breakeven widening off TIP −0.44 vs IEF −0.78). **Posts ~4:15 PM 9/11. An estimate fires nothing** — `TRADE.md` breach protocol step 1. `BND-22` live, 2 sessions left |
 | T5YIFR >2.50 (inflation-unanchor) | 17bp [9/9] | 🟡 |
 | DGS30 >5.00 (long-end level) | — | 🔴 **BREACHED**, **46-session run, 62 days in 2026 of 173** [9/9] |
 | DGS10 >4.50 (arm-#2 line) | — | 🔴 **BREACHED** |
