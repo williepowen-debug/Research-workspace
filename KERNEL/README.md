@@ -8,7 +8,7 @@ This directory contains the completed Gate B fixture implementation and No activ
 ## Authority
 
 - Approved contract: [`SPEC.md`](SPEC.md)
-- Live implementation plan and completed work: [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md)
+- Records-derived implementation status (the build chronology is frozen at `PROME/archive/KERNEL_IMPLEMENTATION_CHRONOLOGY_FROZEN_2026-09-09.md`): [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md)
 - Gate C staged readiness plan: [`GATE_C_READINESS_PLAN.md`](GATE_C_READINESS_PLAN.md)
 - Design and ruling history: [`../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md`](../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md)
 - Hardened Gate A specification: [`../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md`](../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md)
@@ -105,7 +105,7 @@ required to prove that the cache is current. Deleting `.rw/` loses no authority,
 and rebuilding from the same durable events reproduces the same semantic state
 and view bytes. The CLI refuses the live repository and live accepted-event paths.
 
-The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
+Gate state, the record set on disk and the open legs are canonical in `IMPLEMENTATION_STATUS.md`; the Gate B increment sequence is history, frozen at the archive it names.
 
 ## Verification
 

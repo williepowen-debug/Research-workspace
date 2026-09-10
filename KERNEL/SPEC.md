@@ -10,7 +10,7 @@ Gate A was approved by Will on 2026-08-25 and recorded at commit `9bbf9c041b1b0f
 
 This file is the implementation boundary notice, not a competing restatement. If implementation and the approved proposal disagree, the approved proposal wins and implementation fails closed until reconciled.
 
-Current progress and the next implementation increment are canonical in `KERNEL/IMPLEMENTATION_STATUS.md`.
+Gate state and the open legs are canonical in `KERNEL/IMPLEMENTATION_STATUS.md`; the build chronology and its increment sequence are frozen at `PROME/archive/KERNEL_IMPLEMENTATION_CHRONOLOGY_FROZEN_2026-09-09.md`.
 
 Authorized now:
 
