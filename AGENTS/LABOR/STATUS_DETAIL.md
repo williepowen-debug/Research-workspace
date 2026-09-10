@@ -868,3 +868,18 @@ Earlier the same day, **WQ-193 executed** (charter split; `CLAUDE.md` from 769 B
 
 ---
 
+
+## `wq214-vintage-sweep-installed-20260910`
+**2026-09-10 18:0x ET — rotated verbatim from `STATUS.md` NEXT SESSION PICKUP item 9 at the closeout that wrote it (C1 rotate rule; the hot half was 746 B over the 32,550 B budget with it in place).**
+
+✅ **WQ-214 LANDED (Will-approved, Decision Deck tap 2026-09-10 20:42Z; PROME packet `inbox/processed/2026-09-10_from-PROME_WQ-214-RULED-…`).** `CLAUDE.md` C1 now carries the **EXIT-RULES VINTAGE SWEEP as an unconditional step** — a sibling bullet to the conditional SPINE-TOKEN SWEEP, which could not cover it: **an input vintage rolls even when no LABOR series "changed"**, so the conditional sweep never fired on the defect it was standing next to. Bought by DAEDALUS F4 — Kill A carried a 9-week-stale NFP vintage while KEY THRESHOLDS in the same file carried the current one.
+
+The `STATUS.md:101` reminder banner is **retired** (line number verified at the file before the edit). It had said, of itself, *"this banner is the only thing carrying the obligation: a reminder, not a control."* That is now false in the good direction — the obligation is a charter control and the banner's own stated condition for retirement was met.
+
+**First live run of the control, same session:** 4/4 rails current, no repair owed — stamped on the § EXIT RULES header.
+
+**Also this session:** a duplicated `LAB-18` row (two copies, the second lacking the *"3–4× typical EPOP MoM"* sizing clause) was removed from the PREDICTIONS table. Measure the file with `scripts/read_cap_check.py --agent LABOR`, never from a figure written here — a self-describing byte count is stale at the next edit (root canon, § Session Process Controls).
+
+**Per-rail enumeration, rotated VERBATIM from the `STATUS.md` § EXIT RULES header stamp at the same closeout (hot half was 499 B over budget with it inline):**
+
+🔧 **VINTAGE SWEEP (C1, now UNCONDITIONAL — WQ-214): run 2026-09-10 18:0x ET, 4/4 rails CURRENT, no repair owed.** Kill A on the 9/4 NFP vintage (63/31/21/162; next NFP 10/02) · Kill B on claims w/e Sep 5 (206K, `206−185 = 21,000` above the line, 0 of 5) · FREEZE-THAW v2 legs A/B/C on 9/4 NFP + Aug EPOP 59.1 + Jul/Jun-rev JOLTS (next JOLTS ~10/06) · break-confirm on the 206,000 4-wk MA. **First run of the control; it found nothing, which is the outcome a control is allowed to have.**
