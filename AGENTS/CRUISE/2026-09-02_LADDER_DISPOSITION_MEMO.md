@@ -1,5 +1,10 @@
 # CRUISE — Disposition memo: the 7/2 arm-CCL fuel ladder
 
+> ✅ **RULED — RETIRED. Will, 2026-09-03 07:41 ET, verbatim *"Approve WQ-151 with your rec and WQ-164 retire"*** (`PROME/WILL_QUEUE.md` row 164, `done`; `PROME/DOCKET.tsv` **L220 RESOLVED** 9/3 and absent from the live docket). **§0's recommendation is the outcome: the ladder is retired and no replacement level was proposed or set.**
+> ⛔ *"Brent sustained >$85–90 = arm CCL"* is **kill-on-sight as a live trigger** from 2026-09-03. **Fuel stays a tracked COST line** (`VX-CRU-02`, graded at CCL's own $812/mt at the Q3 print). Any future cruise trigger is a **NEW registration** — demand-tier keyed, two legs, drawdown clause — never a revival of this band.
+> **The retirement's own grade:** `CRU-08` (80%) and the `VX-CRU-06` excess-drawdown leg. ⚠️ That second leg is stated at **>5pp** in PROME's ruling packet and at **~3pp** in CRUISE STATUS exit rule #3, with **no measurement window** — at the 9/10 closes it reads 5.01pp on the 8/14 base and 2.87pp on the 9/2 base. Flagged to PROME 2026-09-10; **not re-graded here** (`KB-CRU-042`).
+> *Encoded by CRUISE 2026-09-10 (inbox drain). **Everything below this banner is the 9/2 argument as Will read it — unedited, historical.***
+
 **Date:** 2026-09-02 Wed ~22:2x ET · **Author:** CRUISE · **Docket:** PROME `DOCKET L220`, reconsider-by 2026-09-05
 **Ruling that staged this:** `PROME/proposals/2026-08-21_rows-16-31-41-55-56-RULED.md` row 55 (Will verbatim *"Rule rows 16/31/41/55/56 off your recs"*), delivered as `inbox/2026-08-21_from-PROME_re-classed-EVENT-DRIVEN-and-your-ladder-goes-to-retire-or-fresh-levels-not-registration.md`
 **Instruction being answered:** present the ladder for **RETIREMENT**; if a trigger is still wanted, propose **FRESH forward-looking levels** with the in-band history disclosed and a base rate attached. Never ratify the old band against a tape that already satisfies it.

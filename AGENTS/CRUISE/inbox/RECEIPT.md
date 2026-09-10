@@ -1,42 +1,45 @@
-# Inbox Processing Receipt — 2026-09-03 02:3x UTC (2026-09-02 ~22:3x ET)
+# Inbox Processing Receipt — 2026-09-10 22:1x UTC (2026-09-10 ~18:1x ET)
 ## Agent: CRUISE
+
+*Session: PROME-spawned Tier 1 under the WQ-206 aged-ACTION rule (`prome-81`). Markets closed. Six dated packets, oldest first, whole inbox, every sender.*
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | `2026-08-21_from-PROME_re-classed-EVENT-DRIVEN-and-your-ladder-goes-to-retire-or-fresh-levels-not-registration.md` | **INTEGRATE** | KB-CRU-033/034/035 (tape, discriminator, ladder counterfactual) | VX-CRU-01 🟡2 → 🟠3 · VX-CRU-06 **NEW** · FL-CRU-09 **NEW** |
-| 2 | `2026-09-01_from-DAEDALUS_staleness-4-FLOW-tsv-43d-no-banner-no-clock-Hormuz-row-reads-opposite-of-live-theater.md` | **INTEGRATE** | KB-CRU-029 (the 2.7× correction found while refreshing) | FL-CRU-01 sign flipped · FL-CRU-02 re-based to FALCON 9/1 · FL-CRU-06 corrected 2.7× · FL-CRU-08 refreshed |
-| 3 | `2026-09-02_from-DAEDALUS_route-around-WALTER-census-your-canon-instructs-direct-signal-delivery.md` **(arrived 22:06, mid-session)** | **INTEGRATE** | — (process, not domain evidence) | `CLAUDE.md` MAIL SYSTEM re-written two-lane; boundary rule, FILES table and CROSS-AGENT SIGNALS table all fixed |
-| — | `inbox/WALTER/` delivery lane | **DRAINED — EMPTY** | — | `board_log.tsv` created (v0.2 header); §8.1 consume boot-step installed in `CLAUDE.md` |
+| 1 | `2026-09-03_from-PROME_WQ-164-RULED-…ladder-is-RETIRED…` | **INTEGRATE** | KB-CRU-038 | VX-CRU-02 note (ruling encoded, **no score move**) |
+| 2 | `2026-09-03_from-DAEDALUS_TWO-LANE-class-added…` | **LOG** (nothing owed back) | — (process, not domain evidence) | — |
+| 3 | `2026-09-05_from-DAEDALUS_demote-DISARMED…` | **INTEGRATE** | — | — (reply packet sent; see below) |
+| 4 | `2026-09-05b_from-DAEDALUS_CORRECTION-L220-was-ruled-three-days-earlier` | **LOG** | — | — (consistent with #1; ruling encoded from #1, the primary) |
+| 5 | `2026-09-07_from-FALCON_total-losses-1-to-2…` | **INTEGRATE** | KB-CRU-040, KB-CRU-041 | `FL-CRU-02` re-based 9/1 → **FALCON 9/10**; VX-CRU-04 Current/Source/Notes refreshed, **HELD 🟠 3** |
+| 6 | `2026-09-10_from-PROME_WQ-218-RULED…` | **INTEGRATE** | KB-CRU-039 | VX-CRU-05 note; TRADE.md rows 5/13/14 |
+| — | `inbox/WALTER/` delivery lane | **DRAINED — EMPTY** | — | `board_log.tsv` unchanged (header only). **Still zero signals ever delivered — third consecutive check.** |
 
-**Packet 1 (PROME) — disposition:** answered in full. The ladder is presented for **RETIREMENT** with the in-band history (47 days) and a priced counterfactual disclosed; **no replacement level proposed**. Memo `AGENTS/CRUISE/2026-09-02_LADDER_DISPOSITION_MEMO.md`; decision packet to `PROME/inbox/`. The re-class to ACTIVE / EVENT-DRIVEN is acknowledged and STATUS now carries a 6-row named wake set with owners, for PROME's BD-02 summons flag to key on.
+**#1 + #6 (PROME rulings) — disposition:** both encoded in full, and the two are kept **distinct on every surface**: WQ-164 retired the **7/2 arm-CCL fuel LADDER** (a Brent-level trigger, `DOCKET L220` RESOLVED 9/3); WQ-218 retired the **CCL FUEL-CONVEXITY FRAMING** (the mechanism story). CCL stays a **WATCH at conviction 2**, NCLH a **WATCH at conviction 3, no card**. **No entry, no capital, no conviction moved by this desk, $0.** Fuel survives only as a tracked **cost line** (VX-CRU-02, graded at CCL's own $812/mt). The CCL Q3 print (~10/5) was **already registered** on this desk's catalyst surface (`TRADE.md` § Domain Catalysts) and on `DOCKET L221` — **there is no `CATALYSTS.tsv` at this desk**, so the packet's "register it on your CATALYSTS" resolves to a check, not a new row; the row now names L221.
 
-**Packet 3 (DAEDALUS, route-around census) — disposition:** all three 🔴 DEAD-ROUTER rows fixed, plus a fourth instance it did not flag (the boundary rule at line 83) and the FILES-table rows its ACTION #2 predicted would be missed. **Leg B self-judged and it was dirty:** the CROSS-AGENT SIGNALS table is the OTTO structural form — a recipient-named trigger table that reads as a delivery instruction even though no sentence says so; re-headed *"Interested desk (route via WALTER)"*, and two stale owners fixed while in there (**HAWK → FALCON** for war-risk, **WILL → via PROME**). `walter_route_check.py`: CRUISE moved 3 × DEAD-ROUTER → 2 × MIXED + 2 × PACKET-LANE and is **off `DESKS OWED A PACKET`**. Reply packet sent to `AGENTS/DAEDALUS/inbox/` with instrument feedback: **DAEDALUS's own prescribed wording necessarily scores MIXED**, so MIXED cannot be read as a defect bucket without re-flagging desks that complied. ⚠️ *Process note: this was the third distinct substantive edit to `CLAUDE.md` this session. None corrects another — boot lines, the dead-router rewrite, the leg-B table — but per the two-correction discipline, `CLAUDE.md` is now closed for this session.*
+**#5 (FALCON) — disposition:** unit question answered at the ledger — **the total-loss count is NOT `VX-CRU-04`'s input**; that band counts **Gulf itinerary cancellations**, of which there have been **none since 7/2 (70 days)**. Count encoded as **3**, not FALCON's 2: verified at FALCON STATUS 9/10 (Riesco sank 9/8), i.e. the packet was superseded before it was consumed. **The cruise-relevant finding is the link that did NOT fire:** two tankers sank and the listed war-risk area did not change (JWLA-034 byte-identical, BRENT probe 9/7) ⇒ `FL-CRU-02`'s link 2 is dead across two sinkings and link 3 (premium) is **unmeasured, not absent** (SEARCH-NOT-FOUND, path named).
 
-**Packet 2 (DAEDALUS) — disposition:** both its ACTION items executed. `workbook/FLOW.tsv` **REFRESHED** rather than frozen — the correct branch here, because the session generated real content for it and one of its rows turned out to be carrying a figure that was 2.7× wrong. Boot line `3d` added to `CLAUDE.md` wiring `ledger_staleness.py`. DAEDALUS asked for no reply packet and will read the diff at the ~9/15 Production Review; none sent.
+**#3 (DAEDALUS demote) — disposition:** demote disarmed, L3 held, noted. Reply sent on the one open item (`ledger_staleness` **is** wired, boot step 3d, 4 ledgers all `ok`) **plus one correction it did not ask for:** its re-keyed trigger and profile clock (9/26) both mature **~9 days before** the event they are keyed to, because the CCL print moved to **~10/5 ESTIMATED**.
 
 ### STATUS.md Changes
-- CCL: $28.28 [8/14] → **$23.74** [9/2] · **−15.6%**, 4-mo low $23.23 on 9/1
-- RCL: $306.43 → **$265.60** · NCLH: $19.07 → **$15.57**
-- Brent: $88.26 → **BZX26 $95.23** [9/2 close, contract named]
-- CCL fuel sensitivity: *"$145–156M per 10% move"* (unsourced) → **$56M (3Q26) / $102M (remainder-2026)**, CCL's own table
-- CCL fuel hedging: 7/2 assertion → **VERIFIED UNHEDGED at two primaries**
-- 6/25 second IG: agency unknown → **S&P Global Ratings, BBB− from BB+**
-- CCL Q3 date: ~9/28-29 → **~10/5, ESTIMATED, not company-confirmed**
-- VX-CRU-01 🟡2 → 🟠3 (and its band's basis named for the first time: $33.45, 2026-02-06 close)
-- Convergence: ~18/25 over 5 vectors → **~21/30 over 6**
+- CCL **$23.74 [9/2] → $22.47 [9/10]** · RCL **$265.60 → $259.01** · NCLH **$15.57 → $14.57**
+- CCL vs the named $33.45 reference: **−29.0% → −32.8%**; RED line (−35%) = **$21.74**, now **3.2% away** — **flagged, VX-CRU-01 HELD 🟠 3 on the letter**
+- § DOCKET L220: *"RETIREMENT recommended"* → **"RETIRED (Will 2026-09-03), no replacement level"**
+- Exit rule #2: the framing it was written to kill is **retired by ruling before the print** — CRU-08 now grades the *retirement*
+- Exit rule #3: **defect flagged** — the same falsifier is stated at **~3pp** here and **>5pp** in PROME's packet, with **no measurement window**
+- Convergence matrix: **unchanged, 6 vectors, no score moved**
 
 ### Outbox Signals Written
-- `outbox/2026-09-02_to-PROME_ladder-retirement-watchlist-sweep-flow-refresh-and-a-27x-figure-correction.md` (delivery memo; copy to `PROME/inbox/`)
-- `PROME/inbox/2026-09-02_from-CRUISE_PROPOSAL-retire-the-arm-CCL-fuel-ladder-no-replacement-level.md` (the Will decision)
-- *(none to other domain agents — no finding this session crossed a boundary in a way the owner didn't already have. FALCON, BRENT and CARL were **read**, not corrected.)*
+- `AGENTS/FALCON/inbox/` — the unit answer, the count correction (2 → 3 at their own STATUS), and agreement on the dead second link
+- `AGENTS/DAEDALUS/inbox/` — `ledger_staleness` wired; their re-keyed demote date is ~9 days early because the CCL print moved to ~10/5
+- `PROME/inbox/` — the completion block, carrying the two flagged-not-fixed defects
 
 ### Files Modified
-`STATUS.md`, `TRADE.md`, `WATCHLIST_CCL_PREANNOUNCE.md`, `CLAUDE.md`, `board_log.tsv` (new), `2026-09-02_LADDER_DISPOSITION_MEMO.md` (new), `workbook/{FLOW,KB,VX,PREDICTIONS}.tsv`, `inbox/RECEIPT.md`, plus the two `PROME/inbox/` packets and the outbox memo.
+`STATUS.md`, `TRADE.md`, `2026-09-02_LADDER_DISPOSITION_MEMO.md` (ruling banner), `workbook/{KB,VX,FLOW}.tsv`, `inbox/RECEIPT.md`, `inbox/processed/` (6 files), `outbox/` (2 copies), plus the three packets above.
 
 ### Skipped / Issues
-- **FRED `DCOILBRENTEU` unreachable from this box** — 3 attempts (HTTP/2 stream error rc 92; timeout rc 28; 120s hard kill). Blocks a Jun–Aug Brent window average, which would give prediction CRU-07 a proper prior. **SEARCH-NOT-FOUND**, path named; BRENT's EIA `RBRTE` pull works.
-- **carnivalcorp.com IR pages return the SPA shell** to direct fetch — this is the real cause of the 8/14 "404". Channel 7 stays open and cannot be closed by fetching harder.
-- **spglobal.com returns HTTP 403** — the S&P rating action was read at two secondaries, hence Conf **C2** not A1 on KB-CRU-032.
-- **Quartr MCP unavailable** (no Pro subscription on this account) — would have been the right instrument for the CCL event calendar.
-- **`inbox/WALTER/` has never received a signal.** Not an error I can fix from this side; flagged to PROME in the delivery memo as worth a WALTER-side check that the lane is wired.
+- **`VX-CRU-04`'s spec defect: NOT repaired** (counts cancellations, last scored on revenue exposure). Deliberate — repairing a band is a threshold change, and this session's grant is drain-and-encode. **Not scored against, either.**
+- **The `VX-CRU-06` excess-drawdown falsifier: flagged, NOT re-graded.** It is a registered figure grading a ruling Will already made; picking the basis after seeing which answer it gives is the tape-tuning the retirement itself refused. **PROME owes one number and one window.**
+- **`PREDICTIONS.tsv` untouched.** `CRU-05`'s window closes **2026-09-13** (3 days out) — not due, and grading it early would be the same error. `CRU-07`/`CRU-08` resolve at the Q3 print.
+- **NCLH 10-Q (8/3, acc 0001104659-26-089657) still unpulled** — the ~$1.3B funding-gap claim stays secondary-only (D3), unchanged since 9/2.
+- **CCL Q3 date still not company-confirmed** — the "to hold conference call" release has not posted.
+- **`inbox/WALTER/` has still never received a signal.** Third check. Flagged to PROME again rather than assumed quiet.
