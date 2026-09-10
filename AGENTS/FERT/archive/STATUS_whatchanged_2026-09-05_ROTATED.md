@@ -1,0 +1,22 @@
+# FERT STATUS — 'What Changed This Session' block, 2026-09-05 (T11 wake, DOCKET L283) — ROTATED VERBATIM
+
+**Rotated out of `AGENTS/FERT/STATUS.md` on 2026-09-09** under the read-cap remedy (Data Hygiene: two-state rotation, verbatim, crc-stamped, to `archive/`). STATUS measured 33,722 B against a 32,550 B budget; the live surface keeps the CURRENT session's block and points here for the prior one. **Historical record — cite as history, never as current state.** Verbatim body below, unedited.
+
+**Body CRC32 (zlib, of the text between the rules below):** `65b3c834` · bytes: 3906
+
+---
+
+## What Changed — prior session (2026-09-05 — T11 wake, spawned; DOCKET L283)
+
+1. **The third consecutive rise DID NOT HAPPEN.** Pink Sheet phosphate rock, $/mt: **$152.5 flat for 25 editions → $156.9 (Jun) → $170.0 (Jul) → $170.0 (Aug).** August printed **flat**. The plateau-break watch registered on 8/17 asked whether a third rise would confirm regime change at the raw-material root. **It did not confirm — and it did not refute.** The level held +11.5% above the plateau for a second edition; the momentum stopped.
+2. **Both ends of the phosphate channel went flat in the same month.** My 9/2 STATUS said the next Pink Sheet was *"the root-end read that decides whether this is a pause or a top."* It decided **neither**. Retail flat four prints, root flat one edition — the same shape at both ends, which makes the retail stall *less* likely to be a pass-through-lag artifact and *more* likely to be the actual state of the channel.
+3. **A kill-rail paraphrase in my own STATUS had drifted ABOVE the letter — caught and corrected.** `EXIT_PROTOCOL.md` Channel B leg 1 says rock must return to **its pre-break plateau level** ($152.5/mt). My 9/2 STATUS paraphrased that as **"≤$157/mt"** — **$4.40 looser**, and satisfiable by **June's $156.9**, i.e. by a partial retrace to the break's own starting point. A gate I would have graded as a channel kill was not the gate I had written. Corrected below; `EXIT_PROTOCOL.md` §0 now pins the *rule for choosing the number* so no future paraphrase can loosen it. `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`
+4. **Four phosphate benchmarks, four directions, one month.** August: rock **0.0%**, Pink Sheet DAP **+1.6%** ($781.3→$793.5/mt), Pink Sheet TSP **−2.1%** ($719.5→$704.4/mt), DTN retail **flat**. Independence on vector 2 stays Med and the disagreement widened. ⚠️ Note the direction of the surprise: the *international* phosphate price rose in August while the *root* and the *retail end* did not — so "the cost-push is dead" is **not** what the data says either.
+5. **Two OPEN forward predictions registered — the ledger has a live loop again.** FERT-11 (rock re-plateaus at exactly $170.0 in the Sep-2026 data month; Resolve_By 2026-10-09; base-rated at registration on n=800 months) and FERT-12 (DTN retail MAP ≤$975/ton on every print 9/9→11/25; Resolve_By 2026-12-02). Both carry all six WQ-162 basis elements. This closes DAEDALUS's L3 gate, which was correctly set: 10 rows, all resolved, nothing that could resolve next.
+6. **Potash §338 mechanism upgraded from "assert neither" to a primary read** [MARCO 9/2, triage depth held]. CBP's Section 338 Canada HTS enumeration — 1,074 lines, 65 chapters — carries **ZERO Chapter 31 lines**, `3104.*` and `3105.*` checked explicitly. Mechanism = **absence from the positive list**, not the carve-out clause. ⛔ An increment was **declined**, nothing was **relieved**: existing AD/CVD and other duties are untouched. Canada's 9/8 counter-tariff line list is a **separate instrument, still unread** (canada.ca 404).
+7. **Two instrument traps recorded so the next session pays neither.** (a) The World Bank document-hash **rotates** — the 2021-era path now 404s for *every* month while returning a 100,826-byte error page that `file` still identifies as a PDF; always resolve the current hash from the CMO page first. (b) The **`5–5.5 Mt` China quota contamination surfaced a third time** in search on 9/5.
+8. **Cross-checks re-run, both passed.** The Sep-2026 PDF's August column matches `CMO-Historical-Data-Monthly.xlsx` row 2026M08 cell-for-cell (DAP 793.5 / rock 170.0 / KCl 386.9 / TSP 704.4 / urea 390.0), and the zero-free-parameter Q2 validation held again: the PDF's 2026 Apr–Jun rock column reads **154.0** = (152.5+152.5+156.9)/3. **No restatement**: the Jun and Jul cells are unchanged from the 8/4 edition.
+
+---
+
+---

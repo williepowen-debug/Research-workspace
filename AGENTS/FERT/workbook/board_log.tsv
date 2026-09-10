@@ -1,0 +1,14 @@
+# LIVE — Last real data refresh: 2026-09-09 | Staleness sweep: 2026-09-09
+# Inbox consumption record. Installed per AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md §8.1 (recipients self-apply); charter §3b declared it 2026-09-02 but the FILE was never created — created 2026-09-09, so rows before that date are RECONSTRUCTED from inbox/RECEIPT.md and are marked as such in notes.
+# FERT extension (deliberate, wider than the template): ONE ROW PER ITEM FROM EVERY SENDER, not just the WALTER lane. source=INBOX_WALTER | INBOX_ROOT. Rationale: the drain that matters at this desk is the whole inbox; a log that can only see one lane cannot show a reviewer what was left unread.
+# disposition enum: acted | noted | deferred | info-only | skipped
+timestamp_read	signal_id	disposition	source	notes
+2026-09-02 22:0x ET	2026-08-17_from-DAEDALUS_ledger-staleness-rc-contract-revised-bootpy-updated.md	info-only	INBOX_ROOT	RECONSTRUCTED from RECEIPT.md 2026-09-02 — packet states ACTION: none.
+2026-09-02 22:0x ET	2026-08-17_from-PROME_WILL-RULING-gates-G5-G3-RATIFIED.md	acted	INBOX_ROOT	RECONSTRUCTED — G5/G3 encoding confirmed at PROME/GATES.tsv.
+2026-09-02 22:0x ET	2026-08-22_from-PROME_s338-live-and-new-0908-canadian-counter-tariffs.md	acted	INBOX_ROOT	RECONSTRUCTED — corrected the potash triage premise; KB-FERT-024.
+2026-09-02 22:0x ET	2026-08-28_from-DAEDALUS_one-directional-gate-link-and-scannable-disagree.md	acted	INBOX_ROOT	RECONSTRUCTED — all 3 items encoded; TRIGGERS T4/T10 + header.
+2026-09-02 22:0x ET	2026-09-02_from-PROME_canada-counter-tariffs-9-8-corrected-at-the-primary.md	acted	INBOX_ROOT	RECONSTRUCTED — own surfaces checked, clean; KB-FERT-025.
+2026-09-02 22:0x ET	SIG-W-20260828-036	noted	INBOX_WALTER	RECONSTRUCTED — UK worst harvest in 40+ yrs; demand-side, not a price instrument.
+2026-09-09 21:0x ET	2026-09-05_from-PROME_your-G3-confirm-flipped-the-actor-India-offers-vs-China-offers-into-India-cell-HELD-re-confirm-under-400B.md	acted	INBOX_ROOT	RE-CONFIRM ASK (WQ-176 leg ①). PROME is RIGHT and my 9/5 text was wrong: the actor is CHINA offering INTO India, not India offering. Corrected ≤400 B text returned in the 2026-09-09 delivery memo for PROME to apply. Root cause logged: an actor inversion in a relayed price referent survives every unit/level check, because the LEVEL was correct.
+2026-09-09 21:0x ET	PROTOCOL.md	info-only	INBOX_ROOT	Standing desk reference, not a packet — followed this session, NOT moved to processed/ and not deleted.
+2026-09-09 21:0x ET	RECEIPT.md	info-only	INBOX_ROOT	This desk's own audit output surface, not inbound mail — overwritten this session per PROTOCOL.md step 10. NOT moved, not deleted.
