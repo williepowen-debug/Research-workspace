@@ -154,3 +154,131 @@ Quote freshness, EIA completeness/fallback, retired runtime wording and release 
 ## September 8 workbook reconciliation
 
 Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — September 9 approved review — before STEO publication — VERBATIM, 1531 B, crc32 `a7090cee`
+
+## September 9 approved review — before STEO publication
+
+EIA September 7 retail: gasoline **4.157/gal (+8.6c)**, diesel **5.967 (+36.8c)**; all five regions higher. HTML/full-history workbooks agree. Matched November indicative ULSD−WTI **97.9358/bbl (+2.5068)** while gasoline−WTI **35.2844 (−3.2682)**. Product pressure strengthens; refinery/logistics contribution plausible, current aggregate loss unquantified. September 8–9 attacks cannot explain September 7 pump observations. Last weekly Cushing/distillate builds remain counterevidence, predating Edouard.
+
+Earlier named-contract capture: BZX26 **100.67**, CLV26 **95.79**, USO **148.63**, XLE **65.535**; Brent Nov–Jan **+7.54** vs **+6.62** prior vendor bars. [Timestamps and limits](research/2026-09-09_morning/REPORT.md). New delayed option marks and corrected holding mirror live in [TRADE](TRADE.md); XLE receipt pending.
+
+August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4**, with projected supply recovery; OPEC surplus **0.020 mb/d both quarters**. September issue pending noon–12:15 ET. WPSR worksheet prepared for September 10 noon/later-file batch. BRT-29: Ryanair September 2 cut outside M window; Norse's August report does not establish a distinct new post-baseline decision. Three further eligible carriers and BRT-12 historical construction/upstream credit remain unestablished. v5.8/WQ-189/192 STAND DOWN unchanged. [Integrated evidence and exact remaining work](research/2026-09-09_squeeze-review/REPORT.md).
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — September 8 owner result — current docket integrated (+ positions/implementation line) — VERBATIM, 2755 B, crc32 `f2c3dd60`
+
+## September 8 owner result — current docket integrated
+
+| Obligation | Owner result and next source |
+|---|---|
+| L198① Sidi Kerir | Full-August **2.139 mb/d** provisional Kpler via September 8 Reuters relays, versus existing **2.17** port-total benchmark (about **−1.4%**), direction only. Supersedes MTD 2.3 / +6% comparison; Vortexa weekly benchmark versus Kpler monthly relay: different trackers AND windows. Existing August 21 same-series weekly lag test **NOT RUNNABLE — NO-VERDICT**; −1.4% is contextual arithmetic, no grade. No independent tracker primary or Saudi production-loss inference. |
+| L198② PortWatch | **UNKNOWN / PENDING PUBLICATION** in parent's successful September 8 capture ending August 30. Required August 31–September 1 window absent. Superseded access note: exact owner curl succeeded in the September 8 audit and independently reproduced latest August 30. Required target observations remain absent. No substitute August 30 grade and no counter increment. Same query next boot, frozen control unchanged. |
+| L140 Q1/Q2/Q3 | **Q1 UNKNOWN-AT-PRIMARY.** GARANT/ConsultantPlus transcribe No.1097 amending No.954: September 1→October 1, August 31→September 30. Official text/publication and original amended scope remain missing. October 1 is transcribed only, no imported clock change. Q2 remains OSPREY diesel/gasoil flow; Q3 fresh matched crack UNKNOWN and separate. First read completed; full registered read October 1. |
+| Physical / paper | EIA September 1 **96.02** minus Yahoo BZX26 September 1 daily **94.65** = **1.37 vendor-close proxy ONLY**. Official matched benchmark UNKNOWN. Archived intraday 95.22 retired from live use. September 8 BZX26 99.29 is a LIVE snapshot at 20:40:01Z, not settlement. Named-contract daily curve corrected: September 1 **5.98**, September 2 **6.65**, September 3 **7.20**, September 4 **7.13**; no close-counter increment from September 8 snapshots. |
+| Next physical release | **Thursday September 10, noon ET**, WPSR week ending September 4, confirmed at EIA holiday schedule. Corrects September 9. SPR two-print bands and Edouard observation rule unchanged. Named survey weeks preserved; contradictory “entirely in September” wording and secondary-only DOE-window premise flagged to PROME, no letter rewrite. |
+| Owner action state | **WQ-189/192 STAND DOWN.** No deploy/arm, new thresholds, band/probability edits or new proposals. Registered weekly grades carried, not falsely refreshed by failed boot probes. |
+
+**Positions / implementation:** [TRADE.md](TRADE.md#positions-live) owns the corrected holding/rule mirror; TERRY tracks the already-selected September 9 open XLE exit and Will executes after live broker checks. Execution receipt remains UNKNOWN.
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — Retired DEPLOY GATE v3 banner: 'A FIRING GATE CARRIES ZERO THESIS INFORMATION' — VERBATIM, 360 B, crc32 `6e3c31d3`
+
+> ⚠️ **A FIRING GATE CARRIES ZERO THESIS INFORMATION** (TERRY, adopted onto the spec): leg (a) fires because OVX *decayed*, leg (b) eased because USO *fell*. **Both legs open as the market prices LESS of this thesis.** The case rests on the curve, the physical leg and the tolled-corridor reading — never on a cheap entry. **THE CLOCK IS NOT EVIDENCE.**
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — STATE pointer + v5.7→v5.8 correction narrative (2026-09-07) — VERBATIM, 1129 B, crc32 `a9a018a7`
+
+## STATE — see `thesis/THESIS.md` (canonical, currently v5.8) *(⚑ was `v5.7` until 2026-09-07 — THESIS bumped to v5.8 on 9/2 and this pointer did not follow. 4th recurrence of the class; found by DAEDALUS's architecture review, verified here at the artifact. `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`)*
+
+📦 **v5.1 (7/21) state block rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 1,371 B, `crc32 04cd2561`, VERBATIM. **Explicitly superseded — THESIS is now v5.8; a mid-file version snapshot rotted.** *(⚑ 2026-09-07: this sentence read `THESIS is now v5.7` in the PRESENT TENSE, five days after the 9/2 bump — i.e. the very sentence warning that a mid-file version snapshot rots had itself rotted, sitting two lines under the STATE pointer that was wrong the same way. Fixed with :101 and :119. ⚠️ The dated v5.7 mentions in the 8/27-8/28 blocks above are CORRECT AS HISTORY and are deliberately left alone — the defect is present-tense claims, not every occurrence of the string.)*
+---
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — POSITIONS tombstone — 8/13 stale one-liner narrative — VERBATIM, 1289 B, crc32 `4a12858a`
+
+## POSITIONS → see `TRADE.md` (canonical trade surface)
+
+⛔ **STALE ONE-LINER REMOVED 2026-08-13 — IT CONTRADICTED THIS FILE'S OWN CORRECTED POSITION BLOCK FOR NINE DAYS.** *(Superseded text, preserved verbatim: "**One-line state (7/27 closeout):** token longs USO 2sh / STNG 2sh; XLE $65C Sep-30 = LAPSE (−56%, dying). **✅ Branch-2 TAIL-RIDER — USO Sep-18 150/165 call debit spread FILLED 7/24 at ~$300** (BE USO ~$153 ≈ Brent ~$110). *(Corrected 7/27: both this surface and TRADE.md carried it as PENDING throug…")* **Why it was wrong: it said `token longs USO 2sh / STNG 2sh`. The broker-verified truth since 2026-08-04 is USO 35 SHARES, and ⛔ STNG IS NOT A POSITION AT ALL — it was carried in error 7/21→8/4 and is a TRACKED TICKER. So this line understated the book's largest undefended leg by 17× and asserted a holding that does not exist,** while the corrected block sits ~100 lines above it on the same surface. **Found by ARCHIVING, not by any check** — the 250-line cap forced a read of a region nothing routinely re-reads. `[[finding_seeded_selfsweep_secondary_surface_rot]]` ➡️ **NO POSITION STATE IS RESTATED HERE. `TRADE.md` IS CANONICAL — per my own CLAUDE.md, STATUS keeps a POINTER ONLY, and this line existing at all was the defect.**
+
+---
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — August rotation pointer paragraphs (8/21, 8/4, 8/7 archives) — VERBATIM, 966 B, crc32 `44470c04`
+
+> 📦 **Dated narrative blocks 2026-08-02 → 2026-08-10 rotated out 2026-08-21 → [`workbook/STATUS_archive_20260821_aug2_aug10_narrative_blocks.md`](workbook/STATUS_archive_20260821_aug2_aug10_narrative_blocks.md)** — 16 lines, 58,791 bytes, `crc32 ff51e797`, **VERBATIM.** Sessions **8/2 · 8/3 · 8/4 ×2 · 8/7 · 8/10**. ⛔ **Cut on this file's OWN line-7 history declaration, not a byte target.** **⛔ TOMBSTONES AND LIVE IMPEACHMENT BANNERS STAYED HERE — the story moved, the markers did not.**
+
+
+> 📦 **Dated banners 7/28 → 7/31 archived 2026-08-04 → [`workbook/STATUS_archive_20260804_jul28_jul31.md`](workbook/STATUS_archive_20260804_jul28_jul31.md)** (8 banners, 19 lines). Current state leads here; history lives there. · **8/2 ~5:15 PM ET archived 2026-08-07 → [`workbook/STATUS_archive_20260807_aug02_1715.md`](workbook/STATUS_archive_20260807_aug02_1715.md)** (**2 banners** — 8/2 ~17:15 and 8/2 ~22:00 EU-storage; cap hold).
+
+---
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — CONVERGENCE / PREDICTIONS / KEY OPEN ITEMS pointer paragraphs — VERBATIM, 1321 B, crc32 `11af01c8`
+
+## CONVERGENCE MATRIX — ARCHIVED 2026-08-13
+
+⛔ **The 7/21 re-score (62/75; prior 7/16 53/70) is ARCHIVED → [`workbook/STATUS_archive_20260813_convergence_matrix_jul21.md`](workbook/STATUS_archive_20260813_convergence_matrix_jul21.md).** It was the oldest live-formatted block here and **was never re-run after 7/21** — the 7/23 >$100 fire, the 8/6 escalation, the 8/8 ADNOC attack and the 8/13 ADCOP re-verification all post-date it. **Point-in-time record, not a lapsed live matrix; a new convergence read is a fresh scoring pass, not a revival of those numbers.**
+---
+
+## PREDICTIONS → see [`thesis/PREDICTIONS.tsv`](thesis/PREDICTIONS.tsv) (canonical ledger)
+
+📦 **7/30 sweep-narrative rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 2,470 B, `crc32 7daa152b`, VERBATIM. **BRT-xx rows and OPEN counts are re-derived from PREDICTIONS.tsv at each boot; a mid-file snapshot rotted.**
+---
+## KEY OPEN ITEMS
+
+📦 **7/21 vintage rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 3,135 B, `crc32 4a356aeb`, VERBATIM. **Superseded by `SCRATCH.md` § NEXT SESSION + `docket/CATALYSTS.tsv` as the live forward-item source.**
+---
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — Calendar preamble — 2026-08-10 rebuild narrative — VERBATIM, 583 B, crc32 `1215a639`
+
+> **⚑ REBUILT 2026-08-10 TO MATCH THE DOCKET EXACTLY.** This table is the HUMAN TWIN of `docket/CATALYSTS.tsv` and **must not diverge from it in event SET** — it had drifted badly: it was missing **eight** live rows (8/11 STEO · 8/13 coalition · 8/14 COT · 8/14 Baker Hughes · 8/17 CPC falsifier · 9/1 Russia diesel · 11/1 EU gas · 2027-01-31 fuel ban) while carrying **nine** fired July rows as if forward. **A calendar that is mostly history is one nobody reads for what is coming.** Fired rows are compressed to one line below; the docket keeps their full graded text.
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — September 8 rotation pointer lines (workbook reconciliation, batch-2, catch-up/cleanup) — VERBATIM, 785 B, crc32 `091e84bd`
+
+> 📦 **September 8 workbook reconciliation block rotated verbatim 2026-09-10 → [archive/STATUS_DETAIL_2026-09.md](archive/STATUS_DETAIL_2026-09.md) (731 B; crc32 `ade73d1d`).** Live pointers: [workbook/README.md](workbook/README.md) · [RECONCILIATION_2026-09-08.json](workbook/RECONCILIATION_2026-09-08.json).
+
+> September 8 batch-2 dated block rotated verbatim to [archive/STATUS_dated_2026-09-09_audit.md](archive/STATUS_dated_2026-09-09_audit.md) (1274 bytes; crc32 `6b9829eb`). Open evidence work remains in SCRATCH.
+
+> September 8 catch-up and cleanup blocks rotated verbatim to [archive/STATUS_dated_2026-09-09_maintenance.md](archive/STATUS_dated_2026-09-09_maintenance.md) (3087 bytes; crc32 `0771d87a`). Current obligations remain in SCRATCH and the standing rows below.
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — 7/21 Saudi dual-route vector pointer — VERBATIM, 507 B, crc32 `ef7bd51e`
+
+## 🟠 7/21 — SAUDI DUAL-ROUTE COMPRESSION VECTOR
+
+📦 **7/21 registered vector rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 2,967 B, `crc32 ebc69397`, VERBATIM. **Vector registered as a watch on 7/21 (Yanbu inside declared Houthi zone); has NOT executed. Live watch items — Bab transits, Yanbu liftings, JWC/war-risk repricing — live in `docket/CATALYSTS.tsv` + `refinery_damage/INCIDENTS.tsv`.**
+---
+
+
+---
+
+# ROTATED 2026-09-10 (rule 19, Will-approved audit cut) — PRICE DASHBOARD pointer — VERBATIM, 354 B, crc32 `b5384ec0`
+
+## PRICE DASHBOARD
+
+📦 **8/20 CLOSES dashboard rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 7,780 B, `crc32 989e5b4c`, VERBATIM. **Current-state block at top of file carries today's live tape on named contracts; the 8/20 dashboard is dated history.**
+---
+
