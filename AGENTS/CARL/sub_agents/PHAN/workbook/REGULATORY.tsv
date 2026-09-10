@@ -1,23 +1,21 @@
-# ⛔ FROZEN 2026-09-01 — not maintained; STATUS is canonical, do not cite rows as current.
-# TWO-STATE DISPOSITION (root CLAUDE.md Data Hygiene), answering DAEDALUS PR#4 ACTION 2 (2026-08-17) and Staleness Sweep #4 (2026-09-01).
-# The 2026-08-15 two-clock header below was a DISCLOSURE, not a disposition. DAEDALUS was right: it recorded the rot instead of resolving it.
-# Why FROZEN and not refreshed: the 8/15 note said 'NOT frozen -- the channels are live and a spawn is imminent.'
-# The spawn was not imminent. Its gate (Affirm FQ4 + Klarna Q2) fired 2026-08-27 and was not worked; this ledger is now +54d.
-# 'Imminent' has failed twice, so it is no longer an honest state. Frozen is.
-# UNFREEZE TRIGGER (dated, per finding_banner_is_a_warning_not_a_fix -- a banner without a dated rewrite trigger is just a label):
-#   docket/CATALYSTS.tsv row 2026-09-08 'PHAN SPAWN — OVERDUE'. On that spawn, delete this banner and either advance the DATA clock
-#   or record an explicit DID_NOT_APPEAR null. Do NOT unfreeze without doing one of those two things.
-# TWO-CLOCK HEADER (PAT-044) — added 2026-08-15 by CARL. This ledger is APPEND-ON-EVENT, not periodic-refresh.
-# Last real data refresh: 2026-07-10
-# Last hygiene/no-event check: 2026-08-15
-# ⚠️ READ THE GAP CORRECTLY: a stale DATA clock on an event log is AMBIGUOUS - it is consistent with "no qualifying events occurred"
-#    AND with "nobody looked". Only the hygiene clock distinguishes them, which is why both exist.
-#    ledger_staleness.py flagged this file at +36d behind STATUS on 2026-08-15; that flag had NO OWNER, because
-#    PHAN is DOSSIER-MODE (no standing refresh) while these two ledgers were designated "stay live-append" on 7/10.
-#    A live-append ledger owned by an agent with no boot cadence rots BY CONSTRUCTION - that is the defect, not the row count.
-# ⛔ NOT FROZEN, deliberately: the channels are genuinely live and PHAN has a spawn trigger imminent (Affirm FQ4, 8/20).
-#    OWED AT THAT SPAWN: sweep for qualifying events since 2026-07-10, then advance the DATA clock if events were added
-#    or record an explicit DID_NOT_APPEAR null if none. Advancing ONLY the hygiene clock must never launder freshness.
+# ✅ UNFROZEN 2026-09-10 — the 9/1 freeze banner's own dated trigger (docket row 2026-09-08 'PHAN SPAWN — OVERDUE') FIRED and was discharged by the WQ-209 pass.
+# Both obligations the freeze banner named were met, not laundered:
+#   (a) sweep for qualifying events since 2026-07-10 — DONE, results below;
+#   (b) advance the DATA clock OR record an explicit DID_NOT_APPEAR null — DONE (see the per-file line).
+# TWO-CLOCK HEADER (PAT-044)
+# Last real data refresh: 2026-09-10
+# Last hygiene/no-event check: 2026-09-10
+# ⚠️ CADENCE HONESTY UNCHANGED: PHAN is DOSSIER-MODE with no standing boot. This ledger is APPEND-ON-EVENT and has no scheduled
+#    reader between ad-hoc spawns, so a stale DATA clock here is ALWAYS ambiguous between "no events" and "nobody looked" —
+#    which is exactly why both clocks exist and why every pass must state which one it is.
+# NEXT UNFREEZE/REFRESH TRIGGER (dated, per finding_banner_is_a_warning_not_a_fix): **Affirm FQ1-27 + Klarna Q3-26 prints, ~2026-11-05 to 2026-11-20.**
+#    CARL owns docketing that row. If that gate passes unworked, RE-FREEZE rather than leave the clocks drifting.
+# 2026-09-10 SWEEP RESULT — 2 new rows appended (CO AG v. EarnIn; 1033 re-verification). DATA clock advanced on the strength of real events, not a hygiene touch.
+#   ⛔ NOT FOUND, and each is a named absence rather than an unchecked gap:
+#     - No 2026 HUD/FHA final guidance or Mortgagee Letter on BNPL. The 2025-06-24 RFI's comment period closed 2025-08-25; nothing has issued. The existing HUD RFI row's STALE tag stands.
+#     - No new comprehensive state BNPL statute beyond NY since the 7/10 sweep.
+#   ⚠️ The 4 STALE tags applied on 2026-07-10 to the 1033-arc rows (2024-10-22 / 2025-08-22 / 2025-09-01) and the HUD RFI row REMAIN CORRECT and are NOT cleared by this pass.
+
 Date	Entity	Target	Action	Description	Impact	Status	PHAN_Implication	Source
 2024-10-22	CFPB	Open Banking	RULE	CFPB finalized Rule 1033 — personal financial data rights. Largest banks comply Apr 1 2026. BNPL providers covered as card issuers.	Would force data sharing, making phantom debt visible to lenders and bureaus	ON_HOLD	Visibility shock DELAYED. Phantom debt stays invisible longer. Bubble grows.	CFPB / Federal Register [STALE 2026-07-10 — verify at next spawn: rule status superseded by WITHDRAWAL row (2026-04-01); ON_HOLD no longer current]
 2025-04-30	NY_AG	DailyPay / MoneyLion	LAWSUIT	NY AG James sued DailyPay and MoneyLion for allegedly pushing illegal payday loans. One worker: 450 payouts in <2 yrs, $1,400 fees. Effective APR >750%.	Regulatory pressure on cash advance apps. May force fee transparency.	ACTIVE	EWA industry facing existential regulatory challenge. If classified as loans, entire model changes.	NY AG press release
@@ -37,3 +35,5 @@ Date	Entity	Target	Action	Description	Impact	Status	PHAN_Implication	Source
 2025-05-09	NY_State	BNPL Sector	LEGISLATION	NY BNPL Act SIGNED into law by Gov. Hochul — first comprehensive STATE BNPL licensing/supervision framework: licensing regime, 16% APR cap, fee limits, required disclosures, dispute-resolution + data-privacy protections.	First comprehensive state BNPL STATUTE (enacted, not just proposed). Predates PHAN-P06 forecast (2026-04-09).	ENACTED	P06 FACT SATISFIED — statute passed 2025-05-09, before the Apr-9-2026 forecast was authored (authored blind to it). Implementation via DFS rulemaking (next row).	Cooley Finsights; Holland & Knight Mar-2026; Gov.NY 2025 (news sweep 2026-07-10)
 2026-02-23	NYDFS	BNPL Sector	RULE	NYDFS proposed implementing regulations for the 2025 NY BNPL Act — 10-day preproposal comment + 60-day public comment; final rule effective 180 days after adoption.	Operationalizes the enacted statute; licensing regime live after adoption + 180d.	PROPOSED	Rulemaking phase of an already-enacted law. Distinct from the muddled 2026-04-09 row (which conflated statute + rules).	Consumer Finance Monitor 2026-03-03; Venable; Orrick Mar-2026 (news sweep 2026-07-10)
 2026-06-10	Minnesota_AG	Brigit	LAWSUIT	MN AG sued cash-advance app Brigit alleging its EWA advances are unlicensed payday loans — effective APR regularly 300-700% vs Minnesota's 50% cap. Brigit: ~12M downloads, parent booked $64.6M quarterly revenue.	State-AG enforcement wave broadening — adds Minnesota to NY (MoneyLion/DailyPay) + DC (EarnIn).	ACTIVE	P07 — narrow state-AG enforcement count now NY+MN+DC ≈ 3 of 5; court rulings vs EWA products in 7 states (IL/NY/CA/MD/MA/PA/WA); wave accelerating (dozen states + 2 multistate coalitions).	Natl Law Review; Mondaq; getoutofdebt.org Jun-2026 (news sweep 2026-07-10)
+2026-08-27	Colorado_AG	EarnIn (Activehours)	LAWSUIT	CO AG Weiser and the state UCCC Administrator sued Activehours Inc. d/b/a EarnIn: direct-to-consumer earned-wage advances alleged to be unlicensed high-cost payday loans. 3.1M CO transactions Jan-2023 to Jul-2025, ~$300M advanced, >$16M in tips + expedited-transfer fees, average APR ~388%.	Fourth distinct state-AG action in the cash-advance/EWA lane, and the SECOND against EarnIn specifically (DC AG sued it earlier).	ACTIVE	P07 - narrow state-AG enforcement count now NY + MN + DC + CO = 4 of 5, with ~3.7 months of the 2026 window left. Re-mark 80% -> 88%, trending HIT. The pattern is now repeat-defendant as well as widening-state, which strengthens the classification theory rather than just the count.	Colorado AG press release 2026-08-27; National Law Review; Consumer Finance Monitor 2026-09-08; American Banker (pulled 2026-09-10)
+2026-09-10	CFPB	Rule 1033	VERIFY	Re-verification pass at the 9/10 vintage: Rule 1033 remains ENJOINED and under agency reconsideration; no enforcement occurred in 2026 and no compliance date became a binding trigger. NO reversal of the death arc was found.	Confirms the mechanism behind PHAN-P03 is intact with under 4 months left in the window.	ENJOINED_UNDER_RECONSIDERATION	P03 re-marked 96% -> 97%, tracking HIT. ⚠️ CONFLICT LOGGED, NOT RESOLVED: a secondary tracker states the CFPB WITHDREW its request that the court vacate the rule and instead reopened rulemaking - which would contradict the FRAMING of our own 2026-04-01 WITHDRAWAL row (that row reads the withdrawal as the agency killing the rule). The VERDICT is unaffected either way; the ROW'S CHARACTERIZATION may be wrong. Do not overwrite the 4/1 row on a secondary. OWED at the next pass: read the docket in the 1033 litigation directly.	SEARCH-NOT-FOUND on the primary: openbankingtracker.com/guides/section-1033-status returned HTTP 429 on 2026-09-10; conflict sourced from search summary only
