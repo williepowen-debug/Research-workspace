@@ -21,7 +21,9 @@ Threshold scan 6c (dated): no fire. Near-trigger watches: RED-FT-12 HY 267 [9/8]
 
 ## GAPS
 
-- FALCON owner items open: Riesco row (VI-2026-0028 still AFLOAT), Hercules Star + New Andros VI rows, a civilian-seafarer CASUALTIES row, rung-trigger-(c) reading (anchorage vs in-port). PROME's FALCON spawn pending its RC-session check.
+- Second boot 9/10 ~11:3x–11:5x ET (light): HANS packet on COR-20260908-04 consumed — pointer re-aimed to HANS KB + date_cap 2026-09-19 set; receipt note to HANS inbox (carve-out ①). Registry DAEDALUS/FALCON/WALTER rows refreshed. No dispatches, no fires; commits LOCAL, push deferred to closeout.
+
+- ✅ RESOLVED 11:35 ET (second boot, verified at artifacts, commit 1991ce6cb): FALCON's Riesco row SANK (losses 2→3), VI-2026-0030/0031 + CAS-2026-018 written, Amzan 8/24 backfilled (VI-0032), rung trigger (c) RULED AMBIGUOUS ⇒ NOT FIRED (D 75; resolver GCC_INPORT_HULL_WATCH §6). New: FALCON retracted its "(c) 0 in 193 days" base rate (Al-Salmi, Dubai Port 3/31) — my corpus never carried it; a KILL-guard line added to the anchor lead.
 - Access: centcom.mil, ukmto.org, alarabiya 403 to this box — CENTCOM/UKMTO read via their X accounts, mirrors and multi-wire; UKMTO 126-26 content not retrieved. New Andros type conflict (VLCC 302,477 dwt per MarEx vs products carrier per The National) stated, not resolved.
 - Standing unconsumed backlog (35 >2d, 6 ACTION) deferred per Will; 8 desks without a spec-path `board_log.tsv` (with PROME → DAEDALUS). Telegram not exercised (Will on terminal). Historical consumption-declaration and legacy `entities` gaps remain; lifecycle sweep due 9/17; staleness sweep last 9/3 (≤14d).
 - Verify-spawn evidence records, C2 measurement, MEMORY_PROMOTED coverage: untouched, not certified away.
@@ -32,7 +34,7 @@ Nothing blocking from WALTER. Two items sit with PROME on your word: the FALCON 
 
 ## FOLLOW-UP
 
-1. Iran: next cadence ~2026-09-17 or on any lead trigger (FALCON rung-(c) ruling · third sinking / mine · strike on territory · executed Kuwait/Bahrain in-port hit · dated Oman framework or US accept/reject · published transit print · any Iran-cluster dispatch). Measure the anchor at every Tier-2 — one addendum can cross 24,412 B.
+1. Iran: next cadence ~2026-09-17 or on any lead trigger (rung-(c) ruling RECEIVED 9/10 — trigger discharged · fourth sinking / mine · strike on territory · executed Kuwait/Bahrain in-port hit · dated Oman framework or US accept/reject · published transit print · any Iran-cluster dispatch). Measure the anchor at every Tier-2 — one addendum can cross 24,412 B.
 2. 9b(d): run `git status --porcelain` on foreign dirs BEFORE any doorbell row (charter amended 9/10).
 3. Clocks: 9/11 CPI 08:30 ET (RED-FT-08; CARL L0 spawn drains -005) · 9/14 FALCON re-mark / GATE-FALCON-001 review · 9/15 earliest FT-10 fire (chain 9/10·9/11·9/14·9/15) · 9/16 FOMC · 9/17 lifecycle sweep · 9/25 Oman permanent-corridor window (L229) · 9/30 Iraq pullout + anchor/MEMORY/routing/THRESHOLD_SCAN calendar checks.
 4. Owner evidence returns still open (unchanged from 9/8): FALCON Saudi asset evidence, OSPREY Saratov, BRENT incremental supply, HAWK synthesis; SAM 012 attribution; NEXUS calendar correction; WATT final PJM authority; BROCK 9/9 hold (CRMT waiver to 9/11); older 7-ACTION backlog deferred per Will; VIOLET leading-edge writer owner-pending.

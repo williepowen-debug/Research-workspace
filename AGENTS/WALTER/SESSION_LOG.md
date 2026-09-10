@@ -1,3 +1,7 @@
+# 2026-09-10 ~11:5x ET — second boot, light-closeout — full deferred
+
+Boot after the 11:3x Tier-2 closeout. Doctor 0 HIGH / 1 standing MED. READ-CAP 0 within 11 discovered whole-read files (heuristic perimeter). Intake 0 NEW (4 suppressed); phone/DEWEY/dropzone empty; corrections rc=0. 6c dated scan: no fire; near-trigger RED-FT-12 (HY 271 [9/9], 11bp), FT-06 exit (VIXCLS 16.46 [9/9], ^VIX 17.32 intraday), WAL 78.57 vs 78 re-entry, HANS-T-13 7bp / T-06 14bp (HANS's 11:0x grade). FALCON acted on -001/-002/-007 (1991ce6cb): Riesco SANK, losses 3, rung (c) NOT FIRED, D 75; verified at artifacts; anchor lead folded + Al-Salmi guard (18,131 B). COR-20260908-04 pointer/date_cap fixed on HANS packet; note to HANS. Registry DAEDALUS/FALCON/WALTER refreshed. Clocks: WPSR noon ET (Cushing), CPI 9/11 08:30.
+
 # 2026-09-10 ~11:3x ET — Tier-2 FULL closeout (boot + routing + full Iran sweep; supersedes the 11:0x light breadcrumb below it)
 
 Tier-2: STATUS lead/NETWORK AWARENESS/BOTTOM LINE regenerated; registry 10 rows; MEMORY session notes; LAST_COMPLETION rewritten; charter 9b(d) + BP §9 amended (foreign-dirty scan); PROME board_log packet consumed → processed/ with declaration. Pushed on Will's word (a024bc0da), 31 handoffs delivered, 0 orphans. Doctor 0 HIGH / 1 standing MED.
