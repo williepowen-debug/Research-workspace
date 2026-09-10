@@ -42,7 +42,7 @@
 ## Operator card
 - **Today:** Thu 2026-09-10 · markets OPEN · book = FORGE `20aefcf05` (9/10 ~10:3x ET intraday capture + the 9/10 ledger) · $0 moved by PROME · STAND DOWN on new energy capital (WQ-192) · D-rows for Will: D-49 (XLE ×1 sale) · D-53 (USO 153C entry) · D-44/D-45 (one ledger scroll).
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-10 · 11 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-210 (9/11) · WQ-208 (9/12) · WQ-203 (9/12) · WQ-187 (9/12) · WQ-209 (9/14) · WQ-205 (9/14) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-74 (on delivery)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-10 · 21 open, 4 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-217 (9/11) · WQ-210 (9/11) · WQ-211 (9/12) · WQ-208 (9/12) · WQ-203 (9/12) · WQ-187 (9/12) · WQ-213 (9/14) · WQ-209 (9/14) · WQ-205 (9/14) · WQ-214 (9/16) · WQ-215 (9/19) · WQ-204 (9/19) · WQ-212 (9/25) · WQ-218 (10/2) · WQ-31 (11/1) · WQ-220 (undated) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-216 (9/19) · ⛔ WQ-219 (on BROCK's dra…) · ⛔ WQ-74 (on delivery)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
