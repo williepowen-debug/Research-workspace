@@ -49,7 +49,7 @@
 - finding_investigation_routing_discriminator — route by "do I need the answer THIS session?" — yes→inline verify, no→assign it
 - finding_workflow_subagent_repo_sandbox — Workflow spawns are sandboxed to the repo tree; pass in-repo paths
 - finding_write_behavior_check_before_agent_tool_run — grep another agent's tool for write ops first; a test run can become a write
-- finding_workflow_scratch_crash_recovery — a crashed Workflow leaves spawn output in /tmp scratch; salvage it
+- finding_workflow_scratch_crash_recovery — crashed OR rate-limited spawn leaves output in /tmp; salvage can reverse your conclusion (n=3)
 - finding_workflow_rate_limit_resume_recovery — A /deep-research or Workflow killed mid-run by a session rate limit is recoverab
 - finding_teams_mode_no_split_pane — teams mode has no split-pane on WSL2; Agent View is the second pane
 - finding_batch_extraction_fanout_then_route — split mechanical extraction (fan out) from judgment (owner keeps routing)
