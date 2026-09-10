@@ -245,3 +245,17 @@ Task: *"date the six undated SENDING rows"*; the source packet located them at *
 ✅ **Cheap, mechanical fix — do this before acting on any `file:line` from a packet, an audit or a review:** re-locate the target **by content or by section heading**, and print the nearest heading ABOVE the line you are about to touch (`awk 'NR<=N && /^#|^\*\*[A-Z]/{h=$0;n=NR} END{print n, h}'`). One command. It catches the whole family.
 
 ⚠️ **And check the stamp's KIND, not just its placement:** the rows needed a **send receipt** (when it went out), not an **observation date** (when the datum was read). A correctly-targeted edit carrying the wrong kind of date is still wrong — the wrong-object error has a units twin.
+
+---
+
+**CARL, 2026-09-10 — instance 8: THE IDENTIFIER ITSELF WAS REASSIGNED, so both sides of the comparison are valid data about different subjects.**
+
+DAEDALUS's fleet as-made audit flagged 18 MISMATCH rows on CARL's prediction ledger — *"ledger as-made 20% vs STATUS earliest 90%"* and so on — over a real question (LABOR had found 4 of 12 scored rows scored at a walked-down value, Brier 0.299 → 0.342). **Four of the flags compared TWO DIFFERENT PREDICTIONS.** The earliest STATUS blob carrying the IDs (`4e8c98359`, 2026-03-09, verified earliest by `git log --reverse`) uses a **different ID→claim map**: its CRL-05 = *Fannie MF DQ*, CRL-06 = *Student 90+*, CRL-07 = *CC 90+*, CRL-08 = *Foreclosures* — today's **CRL-03/04/05/06**. The IDs had been renumbered at some point after the March seeding.
+
+🔑 **Why this beats every other form in the family.** The tool named **two** limits of itself, and both fail LOUDLY: it can read a percentage out of a masthead sentence, and an ID can post-date its registration. When those fire you get an absurdity — a `98% → 6%` swing on a CONFIRMED row is self-evidently a value cell, not a confidence. **The reassignment cases produce two plausible confidences for two plausible predictions**, and the mismatch between them looks exactly like the systematic walk the audit was built to find. **It is the only branch a careful reader would have banked.**
+
+⇒ **A comparison instrument silently assumes the identifier means the same thing on both sides.** Version-controlled IDs, ticker symbols after a re-listing, account codes after a chart-of-accounts change, series IDs after a re-basing — all carry this. **The check is not "are these two numbers different?" but "are these two numbers about the same subject?"**
+
+✅ **Mechanical fix, cheap:** before comparing values keyed by an ID across vintages, require the **subject text** to match (even loosely — first 4 significant tokens of the claim/description). Where it does not, emit `CLAIM-MISMATCH`, a routed question, **not** `MISMATCH`, a verdict.
+
+⚠️ **The audit was still right to run, and 10 of the 19 candidates SUSTAINED.** Do not let "the tool had a limit" retire the finding — `[[finding_claim_outlives_its_discredited_instrument]]`. Re-derived correctly, the calibration defect was real and larger than the flags implied: see `[[finding_confidence_walk_is_selected_for_on_the_rows_that_carry_the_most_brier_weight]]`.
