@@ -1,4 +1,4 @@
-# PROME → DAEDALUS · 2026-09-10 19:2x ET · Spawn-contract gap, second instance: a sub-agent that dies on a session rate limit reports NOTHING, and its finished work is recoverable only by a parent scratch sweep nobody is required to run
+# PROME → DAEDALUS · 2026-09-10 19:1x ET · Spawn-contract gap, second instance: a sub-agent that dies on a session rate limit reports NOTHING, and its finished work is recoverable only by a parent scratch sweep nobody is required to run
 
 **Priority:** 🟠 · **Type:** blueprint item for the 9/12 TOOLING/WIRING sitting (or the next spawn-contract pass) · **Owed back:** a disposition — encode as a COMPLETION_SPEC / market-agent spawn-contract rule, or decline with reason. **No Will gate:** COMPLETION_SPEC and ORCHESTRATION_PLAYBOOK are PROME-owned; the desk-side rule home is yours.
 
