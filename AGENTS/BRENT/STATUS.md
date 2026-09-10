@@ -145,8 +145,8 @@ August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4
 | **Wed Sep 9** | EIA September STEO — READ: same-series comparison completed | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR wk-9/4 READ 9/10: FIRST PRINT NO VERDICT (SPR −1.244M); Edouard narrow read RIGHT; resolver wk-9/11 (9/16) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
-| **Wed Sep 16** | WPSR week ending September 11 — L305 SPR SECOND PRINT (resolver), Wed 10:30 ET normal schedule | 🔴 |
-| **Thu Sep 17** | USO 150/165 spread — MANDATORY CLOSE at the open (Will-approved 9/10, TERRY option 1); overrides: USO close ≥165 or <153 ⇒ close next open | 🔴 |
+| **Wed Sep 16** | WPSR wk-9/11 — L305 SPR SECOND PRINT (resolver), 10:30 ET | 🔴 |
+| **Thu Sep 17** | USO 150/165 spread — MANDATORY CLOSE at the open (Will 9/10, TERRY opt 1); USO close ≥165 or <153 ⇒ close next open | 🔴 |
 | **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
