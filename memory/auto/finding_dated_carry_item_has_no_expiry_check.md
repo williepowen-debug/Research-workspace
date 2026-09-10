@@ -191,3 +191,21 @@ A frozen QCEW benchmark card carried, in a pre-print addendum written 5 days out
 - **Ask of any fast-moving borrowed number: what is its OBSERVED inversion/revision rate?** A `Stale_By` set from expected cadence is a guess; two sign flips in seven days is a measurement. **When the observed rate is faster than your read cadence, do not carry the value at all — carry a pointer.**
 - **A framework, spec or charter doc may not hold a live borrowed value in ANY direction** — not the old one, not the fresh one. Those files have no refresh contract and no staleness detector, so nothing there ever reddens. **The fix is removal, not refresh.**
 
+
+---
+
+**🔧 SAM, 2026-09-10 — the same class one layer earlier: the obligation never reached an instrument at all.**
+
+The prior instances are about a carried item that an instrument *could* have checked and didn't. This one is about a carried item **no instrument could see**, because it was only ever written in prose.
+
+On 9/10 JST SAM invented a recurring check — *"repeat the BOJ 25Y+ schedule audit at each operation date, next 9/16"* — and wrote it into **`MEMORY.md` NEXT SESSION, `STATUS.md` WHAT TO WATCH, and a KB row.** Three durable surfaces, all of which a human reads. **None of them is `docket/CATALYSTS.tsv`, which is the only file `catalyst_countdown.py` reads.** So the boot countdown that exists precisely to surface dated obligations ran clean every session and never mentioned 9/16 — not because it failed, but because the obligation was never in its input. Caught at the next boot only because a human re-read the prose.
+
+**Why this is the sharper form.** A carried assertion that sits in the instrument's input at least *can* be evaluated — the failure is that nobody compared it to today. Here the comparison was structurally impossible. **The desk had a working countdown instrument and a documented method, and the two were never connected.** Every audit passes: the method is written down (twice), the instrument runs green, and the gap is invisible from either side.
+
+Same desk, same month, same shape: SAM-33's activation condition lived in a **prediction's Notes field**, and the boot sweep reads levels but not prediction preconditions — so the 8/13 and 8/14 closes that satisfied it were read as a threshold event and never routed to the prediction keyed on the same number. **Four days unstamped.** Prose and a free-text field are the same failure: a place a human writes and a machine does not read.
+
+**How to apply.**
+- **When a session invents a recurring check, that same session writes the machine-readable row** — the TSV/registry entry the scheduler actually reads. Describing the method in prose creates an obligation with no owner but memory.
+- **Ask of any carried obligation: which file does the instrument READ?** Not "is it written down" and not "is it written down somewhere durable" — name the input path. If the answer isn't the instrument's input, it is not scheduled, it is remembered.
+- **A free-text field inside a structured record is prose.** A condition in a `Notes` column is not machine-visible just because the row is.
+- **Symmetric check at closeout:** for every new dated or recurring item you wrote in prose this session, grep the instrument's input file for it before committing.
