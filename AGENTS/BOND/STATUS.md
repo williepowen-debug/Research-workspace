@@ -14,7 +14,7 @@
 
 **Real-rate / higher-for-longer.** ★ **C-36 = TWO-PART, RULED 2026-09-01: the policy-path channel is ALIVE AND TRANSMITTING · term premium drove the July delta.** ✅ **`BND-24` RESOLVED TRUE 9/9 (+4bp): the 9/4 payroll session was FRONT-LED (2s +3 / 10s +1 / 30s −1) — leg 2's SECOND out-of-sample observation. n=2 is not a path; the label stands exactly as ruled.** Full ruling + caveats: `thesis/THESIS.md` v1.2.3, `thesis/CHANGELOG.md`.
 
-**The configuration, restated:** the long end is engaged (30Y in a **45-session run ≥5.00%**, 61 days in 2026 [9/8]) with **no Fed coupon backstop post-QT**, so long-end absorption is entirely private/foreign/dealer — **and from Thu 9/10 an official 10–20Y buyback bid EXISTS AND HAS RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount OFF-THE-RUN paper (`KB-BND-272`).** **Auctions remain "expensive, not broken" — 21 consecutive benign resolutions since 7/9; the LAST `I'`-STANDALONE KILL EVALUATION (9/10 30Y-R) FIRED NOTHING, by +16.55pp.** Credit is inert at the index with a live CCC tail at a fresh 2026 high.
+**The configuration, restated:** the long end is engaged (30Y in a **46-session run ≥5.00%**, 62 days in 2026 of 173 [9/9]) with **no Fed coupon backstop post-QT**, so long-end absorption is entirely private/foreign/dealer — **and from Thu 9/10 an official 10–20Y buyback bid EXISTS AND HAS RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount OFF-THE-RUN paper (`KB-BND-272`).** **Auctions remain "expensive, not broken" — 21 consecutive benign resolutions since 7/9; the LAST `I'`-STANDALONE KILL EVALUATION (9/10 30Y-R) FIRED NOTHING, by +16.55pp.** Credit is inert at the index with a live CCC tail at a fresh 2026 high.
 
 ---
 
@@ -24,10 +24,10 @@
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.25%** | 🔴 | [CONF FRED **9/8**] — 2026 max **5.31 [8/17]**; 5.27 (9/1–9/2) was joint-3rd. `^TYX` 5.29 intraday 9/9 [yfinance, not a settle] |
-| 10Y (DGS10) | **4.80%** | 🔴 | [CONF FRED **9/8**] — 10Y-R stopped at 4.834% on 9/9 (wire: highest since Aug-2007, `[med-conf]`) |
-| 2Y (DGS2) | **4.39%** | 🟠 = | [CONF FRED **9/8**] — 4.34 → 4.37 → 4.39 across 9/3–9/8 |
-| **10Y real (DFII10)** | **2.43%** | 🟠 | [CONF FRED **9/8**] — path 2.45 [9/2] → 2.42 → 2.43 → **2.43**. **96.2nd pctile full series (n=5,925), 99.4th post-2010** |
+| 30Y (DGS30) | **5.28%** | 🔴 | [CONF FRED **9/9**] — 2026 max **5.31 [8/17]**; **99.9th pctile post-2010**. `^TYX` 5.35 intraday 9/10 [yfinance, NOT a settle — the 9/10 close publishes 9/11] |
+| 10Y (DGS10) | **4.83%** | 🔴 | [CONF FRED **9/9**] — the 9/9 10Y-R stopped at 4.834%; `^TNX` 4.93 intraday 9/10 |
+| 2Y (DGS2) | **4.43%** | 🟠 ↑ | [CONF FRED **9/9**] — 4.34 → 4.37 → 4.39 → **4.43**; `^FVX` +2.28% on 9/10, the front led again |
+| **10Y real (DFII10)** | **2.46%** | 🟠 ↑ | [CONF FRED **9/9**] — path 2.45 [9/2] → 2.42 → 2.43 → 2.43 → **2.46 = the CLOSEST APPROACH of the episode**. **97.2nd pctile full series (n=5,926), 99.8th post-2010** |
 | 5Y5Y fwd (T5YIFR) | **2.33%** | 🟡 = | [CONF FRED **9/9**] — publishes one date ahead of the nominals (H.15 split, `KB-BND-178`) |
 | 10Y BE (T10YIE) | **2.37%** | 🟡 | [CONF FRED **9/9**] — +2bp across the 9/8 Canadian counter-tariff date, DFII10 flat ⇒ inside dispersion, insulation re-test NULL (`KB-BND-249`) |
 | ACM 10Y term premium | **+0.73%** | 🟠 | [CONF NY Fed, **Jul-2026 monthly — NOT daily**] |
@@ -51,9 +51,9 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **7bp** [9/8] | 🟠 Closest approach of the episode **5bp [2.45, 9/2]**; path since 2.45 → 2.42 → 2.43 → 2.43. **9/9 implied ≈2.47 `[EST]`** (10Y 4.84 yfinance close − T10YIE 2.37 FRED 9/9; the FRED print lands 9/10 ~4:15 PM and an estimate fires nothing — `TRADE.md` breach protocol). `BND-22` live, 3 sessions left |
+| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **4bp** [9/9] | 🟠 **NOT BREACHED at the 9/9 close: 2.46 — and that is the CLOSEST APPROACH of the episode**, superseding 5bp [2.45, 9/2]. *(My 9/9 `[EST]` of ≈2.47 was 1bp high — recorded, not smoothed.)* 🔴 **THE 9/10 CLOSE IS THE LIVE ONE AND IS UNPUBLISHED — implied ≈2.52 `[EST]`** (4.93 `^TNX` intraday − a ~4bp-wider breakeven off TIP/IEF). **Posts ~4:15 PM 9/11. An estimate fires nothing** — `TRADE.md` breach protocol step 1. `BND-22` live, 2 sessions left |
 | T5YIFR >2.50 (inflation-unanchor) | 17bp [9/9] | 🟡 |
-| DGS30 >5.00 (long-end level) | — | 🔴 **BREACHED**, **45-session run, 61 days in 2026 of 172** [9/8] |
+| DGS30 >5.00 (long-end level) | — | 🔴 **BREACHED**, **46-session run, 62 days in 2026 of 173** [9/9] |
 | DGS10 >4.50 (arm-#2 line) | — | 🔴 **BREACHED** |
 | HY OAS >300 (reopen HYG) | 33bp [9/8] | 🟢 |
 | CCC >1100 escalation | **36bp** [9/9] | 🟠 closing (was 44 [9/8], 47 [9/2]) |
@@ -71,7 +71,7 @@
 
 | # | Vector | Score | Status | Rolls up (`workbook/VX.tsv`) | Key Signal | Upgrade Trigger |
 |---|---|---:|:--:|---|---|---|
-| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | 30Y 5.25 [9/8] in a **45-session run ≥5.00**, 61 days in 2026 (max 5.31, 8/17); DFII10 **2.43 = 96.2nd pctile full / 99.4th post-2010**; KW TP 0.8892 [9/4] | DFII10 ≥2.50 sustained, or a fresh DGS30 high with weak composition |
+| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | 30Y 5.28 [9/9] in a **46-session run ≥5.00**, 62 days in 2026 of 173 (max 5.31, 8/17); DFII10 **2.46 = 97.2nd pctile full / 99.8th post-2010, 4bp from the gate**; KW TP 0.8892 [9/4] | DFII10 ≥2.50 sustained, or a fresh DGS30 high with weak composition |
 | 2 | Treasury auction health | **2** = | 🟡 | `VX-BND-01` · `VX-BND-08` · `VX-BND-13` · ~~`VX-BND-09`~~ RETIRED | **21 consecutive benign since 7/9.** 9/9 10Y-R ind **79.18 (+14.13pp)** · **9/10 30Y-R ind 79.48 (+16.55pp clear pooled / +19.21pp alt), BTC 2.61, dlr 2.21 — the LOWEST dealer take of all 45 nominal 30Y auctions in the corpus (2023-01-12 forward) and indirect ABOVE the trailing-12 max; end users took 97.79%** — **the LAST `I'`-standalone kill evaluation: NOTHING FIRED** | A composition failure (kill spec), or 3 consecutive auctions passing both legs (counter = **2** — 9/9 10Y-R, 9/10 30Y-R; **9/15 20Y-R is the third**) |
 | 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | **FR2004 8/26 [latest 9/9]: long-end −13.3% off peak (NARROWED, +$5.4B w/w), 11-21Y −$3.9B w/w**; SOFR−IORB −1bp. ⚠️ `VX-16` carry corrected: **first stepped-up long-end op is 9/10 (10–20Y, max $6B), not 9/9** | A further 11-21Y build **with** weak auction composition or SOFR−IORB positive |
 | 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | HY 267 inert, zero pulled deals, primary open; **CCC 1056 = fresh 2026 high**, ratio 3.96x | HY OAS >300 with velocity, or a pulled-deal cluster |
