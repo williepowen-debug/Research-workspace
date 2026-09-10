@@ -63,7 +63,7 @@
 | HY OAS >300 ×3 sessions · HY >350 + pulled deals | Credit watch reopens · issuance freeze | Price HYG/JNK downside · proposable to Will. Neither near. |
 | Fast layer breaks while cash stays tight | Synthetic leading cash — ⚠️ HYG/IEF rises MECHANICALLY in a rates-led selloff (IEF denominator); no divergence at the last run | Early short-credit support only if cash HY agrees. |
 | SOFR−IORB positive after a weak auction (non-quarter-end) | Auction stress funding through repo | Systemic confirmation; escalate LIQUID/PROME. Not met; 9/30 is quarter-end and does not count. |
-| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 (11/4 ratchet) · F2 (on-the-run concentration, from the 9/10 results) · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. |
+| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 (11/4 ratchet) · **F2 RESOLVED 9/10: OFF-THE-RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount legacy paper; the on-the-run-concentration condition is NOT met and the flip does not trigger (`KB-BND-272`)** · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. |
 
 ## Cross-Agent Dependencies
 
@@ -81,7 +81,7 @@
 
 - 🔴 **Thu 9/10 1PM — 30Y-R `912810UW6` $22B**, refunding leg 3, the last `I'`-standalone kill evaluation. OLD re-arm bars 59.95/14.74. Resolves `BND-23`.
 - 🔴 **Thu 9/10 ~2:15 PM — first long-end buyback RESULTS** (FiscalData): F2 read → RED same day. **Thu 9/10 — ECB decision** (25bp to 2.50% DFR is consensus).
-- 🟠 **Thu 9/10 ~4:15 PM — FRED publishes the 9/9 DFII10.** If ≥2.50: breach protocol step 1. **Fri 9/11 — CPI · August MTS.**
+- 🔴 **Thu 9/10 ~4:15 PM — FRED publishes DFII10.** Implied **≈2.51–2.56 `[EST]`** after the PPI selloff — at or through the gate. **An estimate fires nothing (step 1); the print decides.** If ≥2.50: decompose front-vs-long-led and real-vs-breakeven, write the margin, escalate to Will. **Fri 9/11 — CPI · August MTS.**
 - 🟠 **Mon 9/14 — `BND-22` resolves** on the 9/11 close's publication; state the closest approach.
 - 🟠 **Tue 9/15 — 20Y-R `912810UX4`** (OLD bars 55.17/17.59, both legs from one auction). **Wed 9/16 — FOMC decision + SEP** (protocol step 5). **Thu 9/17 — 10Y TIPS-R `91282CRE3`** (a real-yield referendum; no `I'` bar).
 - 🔴 **Fri 9/18 — FR2004 weekly join** (WQ-157 leg ②); from 9/11 the thesis kill is PAIRED (`I'` + mechanism confirmation).
