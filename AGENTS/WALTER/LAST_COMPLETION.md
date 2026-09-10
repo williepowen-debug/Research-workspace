@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-08 evening ET, Codex WALTER. Tier-2 FULL, Will-authorized unfinished maintenance. Implementation `98ea7f772`; post-commit READS check passed. Local closeout commits; pull/push deferred for concurrent foreign dirty work. Earlier sweep `47e9f4959` is already on origin.
+Session record: 2026-09-08 evening ET, Codex WALTER (this file NOT rewritten 9/10 — Tier-1 light closeout; FOLLOW-UP items 1–1d edited in place). Tier-2 FULL, Will-authorized unfinished maintenance. Implementation `98ea7f772`; post-commit READS check passed. Local closeout commits; pull/push deferred for concurrent foreign dirty work. Earlier sweep `47e9f4959` is already on origin.
 
 ## STATUS
 
@@ -32,7 +32,10 @@ No new approval needed for completed maintenance. Older backlog follow-through s
 
 ## FOLLOW-UP
 
-1. Maintenance CLOSED by `98ea7f772`; report `outbox/2026-09-08_boot-maintenance.md`. Measure the new boot files after relevant appends and each Tier-2; next calendar check September30. Re-enumerate/re-attest after boot-defining changes. Do not reopen the old READS/cap/CHECKLIST tasks as still unfinished.
+1. ✅ 9/10: `98ea7f772` is ON ORIGIN (verified `git branch -r --contains`); the 9/8 'local pending push' is discharged. Measure the boot files after appends and each Tier-2; next calendar check September 30.
+1b. 🆕 9/10 LIGHT CLOSEOUT — six dispatches (SIG-W-20260910-001…006) committed LOCALLY; **push DEFERRED** behind foreign uncommitted work (HANS, LABOR in flight under PROME; PROME/DAEDALUS files dirty). Next clean-tree session: `scripts/safe-push.sh` then `reconcile_delivery_log.py --apply`. Doorbell pointer + board_log sweep answer in `PROME/inbox/` (self-committed, carve-out ①); PROME messaged live.
+1c. 🆕 9/10 FINDING for step 9b: `ORCH_INFLIGHT.md` (generated 9/7) and `ListAgents` BOTH missed in-process PROME subagents (HANS, LABOR); `git status --porcelain` on foreign dirs caught them. Add the foreign-dirty scan as a standing 9b corroborator (charter edit at the next Tier-2; not done in this light closeout).
+1d. 🆕 9/10 Iran anchor: scoped check stamped in the lead, ladder #8 re-stamped → ~9/17; **the FULL primary sweep owed since ~9/7 is STILL OWED** — a scoped stamp does not discharge it. Riesco-sinking authentication → FALCON (SIG-001). Anchor size check owed at the next Tier-2 (addendum-class write today).
 2. Approved energy sequence: collect FALCON's Saudi asset/event evidence, OSPREY's Saratov prior-operating/restart evidence, BRENT's incremental supply assessment, and HAWK synthesis. HAWK 011/022/023 consumption is verified. FALCON/OSPREY are operator-reported Claude Code sessions, with September 8 owner updates present; do not duplicate their launches. Existing work brief: `outbox/2026-09-08_energy-and-yen-follow-through.md`.
 3. SAM: 012 disposition is now received, so no duplicate ping or September 4 JGB ask. Its causal attribution, fresh settlement and post-move positions remain open in owner work. Correction 001/002/010 and COR04 owner integration still follows actual receipts; HAWK COR04 APPLIED is already verified. NEXUS calendar correction and WATT's final PJM authority check remain owner actions.
 4. BROCK September 9 hold remains. Older 7-ACTION backlog, including AEOLUS and REGINALD, stays deferred per Will. REGINALD REGT07 asks and RED August 28 omission question are CLOSED to their documented evidence limits. VIOLET's leading-edge writer concern remains owner-pending; reading the source does not prove a fix.

@@ -1,23 +1,24 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-08 evening ET — Tier-2 FULL maintenance complete, Codex WALTER. BOARD914; September8 signals001–023 and75 dispatch handoffs unchanged/on origin. READS re-attested/applied; routing and threshold boot reads fixed. Maintenance commits local pending a clean coordinated push.
+**Updated:** 2026-09-10 ~11:0x ET (Thu) — Full-WALTER boot + routing session. BOARD 920 (+6 today: SIG-W-20260910-001…006, 25 handoffs). Doorbell → PROME on FALCON/BRENT/BOND/CARL; HANS + LABOR found IN-FLIGHT under PROME. Local commits; **push DEFERRED** behind foreign uncommitted work (HANS, LABOR, PROME, DAEDALUS).
 
 ## BOTTOM LINE
 
-The unfinished WALTER maintenance is complete: shared READS rows applied with a fresh reader attestation, ROUTING_TABLE split into two whole boot reads below the rotation target, and the authoritative CHECKLIST threshold procedure made a small mandatory whole read. Post-commit declared-read and version checks pass. Report: `outbox/2026-09-08_boot-maintenance.md`. The older7-ACTION backlog remains deferred; owner evidence returns and historical audit gaps are separate. No market grade or news dispatch changed.
+The tanker war escalated 9/8 and the tape followed: Brent settled $101.21 (+3.4%) 9/9 and BZX26 printed $104.70 (+3.45%) intraday 9/10; CENTCOM's own account says the Riesco SANK 9/8 while FALCON's ledger still reads AFLOAT — routed IMMEDIATE to FALCON/BRENT (SIG-W-20260910-001), Houthi seizure of Mokha PRIORITY to FALCON (-002). ECB hiked to 2.50 (HANS-T-04 not met; HANS graded it itself, in flight), UK 30Y gilt 5.94 is 6bp from HANS-T-13 orange (-004, HANS+BOND), August PPI +0.4/diesel +24.1 and claims 206K carry no fire (-005 → CARL). Iran anchor: scoped check stamped 9/10; the FULL primary sweep owed since ~9/7 is STILL owed. Push deferred — foreign uncommitted work on the tree.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
-Observation dates below are retained from the earlier source-verified boot; this file-maintenance audit did not refresh market prices.
+Every level below carries its own observation date; FRED series are T+1 and a boot before ~16:00 ET reads the session before last.
 
-- NVDA CFO Ex99.2 DOES contain procurement-of-memory wording;10-Q says memory AND manufacturing facilities;119B→279B total holds and memory share remains undisclosed.001 corrects original recipients and downstream absence carriers.
-- HBM stated4–5× versus computed5.25–7× remains unresolved; causal FX diagnosis withdrawn; Samsung70% lock is UNVERIFIED-RELAY.002 consumed VULCAN retraction.
-- FT10: Cboe 148.86 [9/8], publisher CSV retrieved September 8 evening; run RESET 2/4→0/4, NOT FIRED. Near-trigger watch: 1.14 index points below 150, computed from the 9/8 print. Source snapshot and hash: outbox/2026-09-08_evening-boot-skew-receipt.json. Earlier 010 census correction remains valid.
-- HY268bp[9/4 and9/7 FRED],FT12 strict<260 not met. September7 holiday does not erase a published FRED observation;005 requests NEXUS/LIQUID correction. FT06 remains banked; VIXCLS15.30[9/7] below18 exit.
-- WAL79.94[9/8 Yahoo saved response],below81.90×3 exit,0/3; priorREGT02 fire holds. XLE64.77 selects existing9/9-open branch; execution pending Will, no new order.008 sent to registered owners.
-- DGS10 4.78 / DFII10 2.43 [prior 9/4 observations]; T5YIFR now 2.34 [9/8 FRED web pull], below FT09 >2.55. No newer DGS10/DFII10 grade asserted here. CREED office12.00[Aug] equals rather than exceeds strict12 threshold; no new fire. HANS6daily scope/source limits in source receipt;14-row all-clear not claimed.
-- PJM007 is interim only; final9/8 23:59ET expiry/extension pending WATT. Canada006 candidate now HAWK-owner CONFIRMED by its late packet; no probability change. HANS→HAWK Qatar date correction registeredCOR-20260908-04; HAWK APPLIED receipt verified.
-- Iran state lives in anchors/IRAN_WAR.md: newSeptember8 Saudi interruption report dispatched011 with explicit anchor_unverified_as_of caveat; broad primary sweep remains PARTIAL. Named assets, incremental barrels and restart status unresolved; no new gate grade.
+- **Brent** settle $101.21 (+3.4%) [9/9, CNBC; highest close since 5/22] · **BZX26 $104.70 (+3.45%) / CL=F $99.31 [9/10 ~14:3xZ own pull]**. RED-FT-03 (>130 s5), Boundary #1 (≥120 s3), CARL override (≥115 s5): none met. EIA WPSR w/e 9/4 publishes **9/10 noon ET** (BRENT); Cushing 22.51M [8/28] vs Boundary #3 <20M.
+- **HY OAS 267bp [9/8 FRED]** — RED-FT-01 FIRING-BANKED (<280); **RED-FT-12 (<260 strict, s3): 7bp / 2.6% away → NEAR-TRIGGER WATCH, computed from the 9/8 print**; REG-T-03/-04 far. CCC 1056bp [9/8] — FT-07 fired, exit <930 ×3 not met.
+- **VIXCLS 15.72 [9/8 FRED]**; ^VIX 17.81 intraday [9/10] — FT-06 FIRED-BANKED, exit ≥18 ×5 closes: 0/5, **0.19 below the exit line intraday**. A ≥18 close today starts the exit count; VIXCLS completes it, ^VIX only indicates.
+- **WAL $78.30 (−1.71%) intraday [9/10]** — REG-T-02 FIRED 9/1 (77.26), exit ≥81.90 ×3: 0/3; a close <78 is a RE-ENTRY inside the fired state, not a new fire. KRE $73.04 [9/10]; REG-T-01 <60 far.
+- **SKEW 149.25 [9/9 Cboe, RED-graded]** — FT-10 count 0-of-4 (run broken 9/8 at 148.86); 9/10 is the next countable bar, earliest fire 9/15. RED owns the grade.
+- **Claims 206K w/e 9/5 [DOL 9/10; LABOR graded in flight]** — RED-FT-05 (>250) and REG-T-05 (>300) not met. **PPI Aug +0.4% m/m, +5.4% y/y, energy +4.2, diesel +24.1, ex-FET +0.3/+4.7% [BLS 9/10]**. RED-FT-08 grades on CPI 9/11 08:30 ET.
+- **T5YIFR 2.33 [9/9]** (FT-09 >2.55 far) · DGS10 4.80 / DFII10 2.43 / DGS30 5.25 [9/8] · SOFR−IORB −1bp [9/8] (REG-T-08 far) · USD/JPY 153.94 [9/10].
+- **HANS board [9/10 TE intraday unless noted]:** UK 30Y **5.94** (T-13 orange 6.00: **6bp**) · UK 10Y **5.36** (T-06 orange 5.50: **14bp**) · Bund 3.44 (HANS's own 9/10 read 3.4879; T-05 watch open) · TTF **80.90–81.00** new leg high (T-07 L2 open, L3 100 far) · EU storage gap **−14.7pp [gas day 9/8, GIE AGSI+]** — inside the T-08 15pp band; HANS-F-004 exit grade is HANS's · EURUSD 1.16 (T-11 far) · T-04 ECB deposit **2.50 [9/10]** NOT MET (≥2.75), next GovC 10/29 per HANS.
+- **CREED-T:** office DQ 12.00 [Aug Trepp] = not ">12"; no new fire. **Iran:** anchor lead stamped 9/10 (scoped); full sweep owed. GATE 1 firm-negative; GATE 2 fired 9/5; Riesco adjudication → FALCON.
 
 ## MISSION
 
@@ -33,9 +34,11 @@ WALTER filters, classifies and routes external information, and monitors receivi
 
 ### Today's routing + stale agents
 
-September 8: 23 BOARD signals and 75 dispatch handoffs across the earlier owner catch-up and evening news batch. Earlier intake 15/15; evening feed 166/166 plus supplemental 4/4, all CLOSED. Verifier history: one worker/two assignments earlier; three workers/five reports in evening news. This audit spawned none and dispatched none. No cluster-mediating bifurcation signals or network_uncertainty_peak flag recorded today.
+September 10: 6 BOARD signals (001 IMMEDIATE Iran tanker war + tape → FALCON/BRENT; 002 PRIORITY Mokha → FALCON; 003 PRIORITY ECB → HANS; 004 PRIORITY gilts/TTF/storage near-trigger → HANS+BOND; 005 IMMEDIATE PPI/claims → CARL; 006 ROUTINE Kioxia → VULCAN), 25 handoffs, 0 kills, 0 verify-spawns, 0 cluster-mediating signals. Intake lane 15/15 dispositioned (BM-20260910-01 CLOSED: 1 DISPATCH, 3 FOLD, 4 DUP, 4 KILL stale-date, 3 NO-ACTION). Doorbell: FALCON, BRENT, BOND, CARL (P0.L1.L2.L3a, YES); HANS P0-FAIL (in flight); VULCAN L3-FAIL.
 
-REGISTRY refreshed from owner headers, including SAM, OSPREY and FALCON dated September 8. Header dates are evidence of written work, not runtime liveness. Will reports HAWK/SAM running and OSPREY/FALCON spawned in Claude Code; this Codex session cannot inspect their live session roster. Use shared owner dispositions to establish consumption; do not relaunch them from an absent Codex roster entry.
+Liveness at 14:3xZ: ListAgents = PROME only; ORCH_INFLIGHT (generated 9/7) = DAEDALUS only; **`git status` showed HANS + LABOR (+PROME, DAEDALUS) modified in-session = in flight under PROME's WQ-184 driver.** A stale generated view plus an in-process spawn is invisible to both instruments; the working tree was the tell.
+
+REGISTRY refreshed from owner headers 9/10: BROCK, BOND, FERT, RED, SAM, TERRY, BRENT (9/9) and DAEDALUS (9/8) rows updated; HANS/LABOR rows left at their committed headers (in flight, uncommitted). Header dates are evidence of written work, not runtime liveness. Will reports HAWK/SAM running and OSPREY/FALCON spawned in Claude Code; this Codex session cannot inspect their live session roster. Use shared owner dispositions to establish consumption; do not relaunch them from an absent Codex roster entry.
 
 Doctor at audit: 41 handoffs older than 2 days across 13 owners, 7 ACTION / 34 INFO, oldest 48 days; ages from delivery timestamps with 3 mtime fallbacks. Grace-period items are not assumed consumed. This standing backlog remains deferred while the first three approved workstreams run.
 

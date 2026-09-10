@@ -2457,3 +2457,28 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-09T00:55:08Z	SIG-W-20260908-023	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260908-023.md	delivered	Foreign dirty work prevents sync; consumption unverified
 2026-09-09T00:55:08Z	SIG-W-20260908-023	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260908-023.md	delivered	Foreign dirty work prevents sync; consumption unverified
 2026-09-09T00:55:08Z	SIG-W-20260908-023	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-023.md	delivered	Foreign dirty work prevents sync; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	FALCON	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	BRENT	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	HAWK	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	SAM	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	HENRY	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-001	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-001.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-002	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-002.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-002	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-002.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-002	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-002.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-002	SAM	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-002.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-003	HANS	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-003.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-003	BOND	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260910-003.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-003	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-003.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-003	REGINALD	INFO	CLAUDE_CODE	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260910-003.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-004	HANS	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-004.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-004	BOND	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260910-004.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-004	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-004.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-004	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-004.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-004	HENRY	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-004.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-005	HENRY	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-005.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-005	LIQUID	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-005.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-005	BRENT	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-005.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-005	LABOR	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/LABOR/inbox/WALTER/SIG-W-20260910-005.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-006	VULCAN	ACTION	CLAUDE_CODE	ROUTINE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260910-006.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified
+2026-09-10T14:41:32Z	SIG-W-20260910-006	HENRY	INFO	CLAUDE_CODE	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260910-006.md	written_not_delivered_pending_push	9/10 boot dispatch; consumption unverified

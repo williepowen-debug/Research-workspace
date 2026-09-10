@@ -1,3 +1,7 @@
+# 2026-09-10 ~11:0x ET — light-closeout — full deferred
+
+Full-WALTER boot + routing. Doctor 0 HIGH / 5 MED (4 registry-lag rows refreshed; unconsumed backlog standing). 6 dispatches SIG-W-20260910-001…006 (2 IMMEDIATE, 3 PRIORITY, 1 ROUTINE), 25 handoffs, intake batch BM-20260910-01 15/15 CLOSED. Doorbell → PROME: FALCON, BRENT, BOND, CARL; HANS/LABOR found IN-FLIGHT via git status (ORCH_INFLIGHT + ListAgents both blind). Iran anchor lead stamped (scoped; full sweep still owed). Registry 8 rows refreshed. Push DEFERRED (foreign dirty tree).
+
 # 2026-09-08 evening — Tier-2 FULL unfinished maintenance CLOSED
 
 Will-authorized completion in98ea7f772: READS38READ/17BASIS applied/re-attested, routing v0.32 two mandatory whole reads, CHECKLISTv0.41 authoritative threshold module. Post-commit READS-CAP0; heuristic11-file cap0;67 behavioral checks and companion controls pass. Routing/procedure obligations and all non-WALTER manifest lines preserved. Deferred backlog/owner evidence remain open. Report: `outbox/2026-09-08_boot-maintenance.md`; pre-maintenance continuity at `research/2026-09-08_boot-maintenance/continuity-before.md`. Local closeout while foreign work is dirty.
