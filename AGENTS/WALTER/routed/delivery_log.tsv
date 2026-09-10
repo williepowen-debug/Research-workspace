@@ -2525,3 +2525,18 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-10T23:26:00Z	SIG-W-20260910-017	LIQUID	INFO	CLAUDE_CODE	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260910-017.md	written_not_delivered_pending_push	private-credit contagion read
 2026-09-10T23:26:00Z	SIG-W-20260910-017	REGINALD	INFO	CLAUDE_CODE	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260910-017.md	written_not_delivered_pending_push	bank-CRE / private-credit intersection lens
 2026-09-10T23:26:00Z	SIG-W-20260910-017	SHADE	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20260910-017.md	written_not_delivered_pending_push	insurance-partner exposure lens if any
+2026-09-10T23:35:00Z	SIG-W-20260910-018	BRENT	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-018.md	written_not_delivered_pending_push	BWET on energy tape; BDTI/BDIY/WS-TD3C cross-check
+2026-09-10T23:35:00Z	SIG-W-20260910-018	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-018.md	written_not_delivered_pending_push	market-priced version of the maritime ledger; priced-in vs more-to-run
+2026-09-10T23:35:00Z	SIG-W-20260910-018	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-018.md	written_not_delivered_pending_push	Gulf-energy freight leg
+2026-09-10T23:35:00Z	SIG-W-20260910-018	SAM	INFO	CLAUDE_CODE	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-018.md	written_not_delivered_pending_push	missing piece of Brent-up-DXY-flat
+2026-09-10T23:38:00Z	SIG-W-20260910-019	FALCON	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-019.md	written_not_delivered_pending_push	update SIG-002 with scale + confirmation; verify Tier B at primary; keep tiers separate
+2026-09-10T23:38:00Z	SIG-W-20260910-019	BRENT	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-019.md	written_not_delivered_pending_push	tanker-rate + Bab-el-Mandeb transit-collapse scenario context
+2026-09-10T23:38:00Z	SIG-W-20260910-019	HAWK	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-019.md	written_not_delivered_pending_push	situational
+2026-09-10T23:38:00Z	SIG-W-20260910-019	SAM	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260910-019.md	written_not_delivered_pending_push	situational
+2026-09-10T23:38:00Z	SIG-W-20260910-019	BOND	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/BOND/inbox/WALTER/SIG-W-20260910-019.md	written_not_delivered_pending_push	safe-haven / geopolitical premium context for rates
+2026-09-10T23:41:00Z	SIG-W-20260910-020	BRENT	ACTION	CLAUDE_CODE	IMMEDIATE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-020.md	written_not_delivered_pending_push	$216 on named-month + 3-2-1 crack grade
+2026-09-10T23:41:00Z	SIG-W-20260910-020	HANS	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-020.md	written_not_delivered_pending_push	EU energy overlay TTF + gas cost complex
+2026-09-10T23:41:00Z	SIG-W-20260910-020	FERT	INFO	CLAUDE_CODE	IMMEDIATE	AGENTS/FERT/inbox/WALTER/SIG-W-20260910-020.md	written_not_delivered_pending_push	diesel-cost transmission to ag/fertilizer distribution
+2026-09-10T23:44:00Z	SIG-W-20260910-021	FALCON	ACTION	CLAUDE_CODE	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260910-021.md	written_not_delivered_pending_push	verify at Aramco/SPA/Reuters primary; kill-guard-active dispatch
+2026-09-10T23:44:00Z	SIG-W-20260910-021	BRENT	INFO	CLAUDE_CODE	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260910-021.md	written_not_delivered_pending_push	Petroline is the strategic Hormuz bypass; hold pending FALCON verify
+2026-09-10T23:44:00Z	SIG-W-20260910-021	HAWK	INFO	CLAUDE_CODE	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260910-021.md	written_not_delivered_pending_push	flagged-source; hold pending FALCON verify
