@@ -15,6 +15,9 @@
 ## Files written
 `STATUS.md` (rewritten, 3 verbatim crc-stamped rotations to `domain/sources/2026-09-09_STATUS_archive_*.md`) · `SCRATCH.md` · `RECEIPT.md` · `thesis/PREDICTIONS.tsv` · `thesis/THESIS.md` (v1.2.3) · `thesis/CHANGELOG.md` · `docket/CATALYSTS.tsv` · `workbook/KB.tsv` (`KB-BND-246`→`263`; 235 CORRECTED; 27 stale rows dispositioned) · `workbook/VX.tsv` (11 evidence cells, scores unchanged) · `monitors/AUCTION_HEALTH.md` · `monitors/DEALER_CAPACITY.md` · `monitors/grade_auction.py` (`I'` line + reopening-only alt) · `TRADE.md` · `NEXUS_BRIEF.md` (9/9 re-pin) · `analysis/2026-09-10_buyback_10-20Y_eligible_list.json` · `registry/corrections_receipts.tsv`.
 
+## Late addition (~22:xx ET, Will-directed)
+`TRADE.md` re-based to posture-only (11,018 B; pre-rebase file archived verbatim, crc32 `2213891460`); `STATUS.md` §2 exit reconciled to the THESIS letter (the `DFII10 <2.00` exit was a 9/1 compression artifact) and the DFII10 gate row carries a 9/9 `[EST]`. Checks re-run after: boot_recompute gate table parses + no drift, closeout_check CLEAN, read-cap 0, claim_check clean.
+
 ## Outbox state
 3 packets written to `outbox/` and copied to recipients: RED (`AGENTS/RED/inbox/`) · TERRY (`AGENTS/TERRY/inbox/`) · PROME (`PROME/inbox/`, repo root). Doorbells per messaging rule 6 where the recipient is live (see closeout log).
 

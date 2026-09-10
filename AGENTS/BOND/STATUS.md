@@ -51,7 +51,7 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **7bp** [9/8] | 🟠 Closest approach of the episode **5bp [2.45, 9/2]**; path since 2.45 → 2.42 → 2.43 → 2.43. `BND-22` live, 3 sessions left |
+| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | **7bp** [9/8] | 🟠 Closest approach of the episode **5bp [2.45, 9/2]**; path since 2.45 → 2.42 → 2.43 → 2.43. **9/9 implied ≈2.47 `[EST]`** (10Y 4.84 yfinance close − T10YIE 2.37 FRED 9/9; the FRED print lands 9/10 ~4:15 PM and an estimate fires nothing — `TRADE.md` breach protocol). `BND-22` live, 3 sessions left |
 | T5YIFR >2.50 (inflation-unanchor) | 17bp [9/9] | 🟡 |
 | DGS30 >5.00 (long-end level) | — | 🔴 **BREACHED**, **45-session run, 61 days in 2026 of 172** [9/8] |
 | DGS10 >4.50 (arm-#2 line) | — | 🔴 **BREACHED** |
@@ -115,7 +115,7 @@
 - ⛔ **NAMED EXCEPTION — the TLT-put ADD re-arm in `TRADE.md` runs on the OLD, STRICTER test** (WQ-99, Will 9/1). Never loosen an add gate as a side effect of a definition reconcile.
 - 🔴 Direction disclosed: the new test is STRICTLY EASIER TO FIRE, and its firing CONFIRMS this desk's own bear thesis. Percentages are of **competitive accepted**; never reuse another tenor's numbers.
 
-**2 · POSITION-SPECIFIC.** TLT puts: exit on **DFII10 <2.00 sustained 5 sessions** or the thesis kill. 60-DTE review is TERRY's rail.
+**2 · POSITION-SPECIFIC.** TLT puts: **kill on 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** (THESIS §2 letter), or the thesis kill. ⚠️ *Corrected 9/9: this line read "DFII10 <2.00 sustained 5 sessions" from the 9/1 read-cap compression onward; that exit was never in THESIS. One spec now, on all three surfaces.* Expiry 9/30 and the 60-DTE rail are TERRY's.
 
 **3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal-coupon auctions passing **both** legs (indirect at/above median **and** dealer at/below median). **Counter = 1** (9/9 10Y-R); the 9/8 3Y did not qualify; **TIPS do not count.**
 
