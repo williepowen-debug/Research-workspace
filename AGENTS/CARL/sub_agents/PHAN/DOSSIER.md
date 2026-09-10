@@ -133,7 +133,7 @@ The hidden risk to HOMER's housing vector:
 | Cross-Firm Stacking | 32% *(CFPB Jan-2025)* | >20% | >25% ✅ | >35% | CFPB |
 | Affirm 30+ DQ | 2.3% *(Affirm Q4 FY25, 2025-09-30)* ⚠§6 | >3% | >4% | >6% | Affirm SEC |
 | Klarna Credit Loss Provision | 0.65% *(Klarna Q4-25, 2025-12-31)* ⚠**REFUTED §6** | >0.60% ✅ | >0.80% | >1.0% | Klarna 20-F |
-| BNPL Late Payment Rate | 34–41% *(ABA 2024)* ⚠§6 | >25% | >35% ✅ | >45% | ABA |
+| BNPL Late Payment Rate | **47% (2026)** — 34% ('24) → 41% ('25) → **47% ('26)** | >25% | >35% | **>45% 🔴 BREACHED 2026-08-19 (first time)** | **LendingTree BNPL Tracker** *(⚠️ source corrected at the parent 2026-09-10: the band cell said **ABA** and the parent STATUS row said **CFPB**; the reachable 34/41/47 SERIES is LendingTree's, and CARL's KB-CARL-028 credits the 34→41 step to the Richmond Fed. Three surfaces, three different named sources, one survey house. Cite LendingTree.)* |
 | Fintech Failures (cumulative) | 3 *(CURO/Tricolor/Synapse, ≤Apr-2026)* | 2 | 3 ✅ | 5+ | Public |
 | Phantom DTI Gap | ~12pp *(35%→47%, CARL est)* | >5pp | >10pp ✅ | >15pp | CARL est |
 
@@ -195,7 +195,7 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 | **Klarna Q1-2026 profitability** | STATUS.md asserts Klarna FY2025 net loss, provisions "rising," "narrative cracking," Elliott $6.5B lifeline | ⛔ **REFUTED — Klarna Q1-2026 PROFITABLE** (CARL parent, May-14-2026). The legacy Klarna deterioration narrative is wrong. |
 | **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | **KB-CARL-228 + CARL `workbook/BNPL_STRESS.tsv`** canonical. *[2026-07-10 news sweep found fresher Q1-2026 actuals: 30+ DPD **2.8%** (flat YoY), allowance $512M = **6.0%** of loans HFI — route to CARL for KB-228]* |
 | **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | **KB-CARL-228 + `BNPL_STRESS.tsv`** canonical. *[2026-07-10 news sweep: Q1-2026 provision **0.55% of GMV** (reported May-18), US 30+ DPD improved 36bps from Q2-25 peak, profitable — route to CARL]* |
-| **BNPL late-payment rate** | 41% (ABA) | Owned at parent — verify current figure at CARL |
+| **BNPL late-payment rate** | **47% (2026, LendingTree Tracker pub 2026-08-19)** | ✅ **Verified and superseded at the parent 2026-09-10** — STATUS row updated 41%→47%, band **🔴 breached**, attribution corrected off CFPB. KB-CARL-439. |
 | **CC 90+ DQ** | 12.70% (STATUS.md:156 uses this as the phantom-debt multiplier base) | **Parent now 13.1%** — use CARL's figure |
 | **ALLY-analog conclusion** (composition-masking) | FLOW-PHAN-06 + SV-PHAN-2026-04-17-01 | **KB-CARL-228** canonical; §2c here retained only as the *mechanism/trigger* framework, not for the Affirm data points |
 

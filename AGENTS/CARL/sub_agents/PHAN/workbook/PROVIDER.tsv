@@ -21,7 +21,7 @@ SECTOR	BNPL	market_GMV_2025	$560B		→$700B by 2028	N/A	2025-12-31	Industry	R	Sc
 SECTOR	BNPL	outstanding_invisible	$400B+		 	N/A	2026-04-09	NY Fed est	R	Most not reported to ANY credit bureau.
 SECTOR	BNPL	stacking_rate	63% simultaneous		 	N/A	2025-01-31	CFPB Jan 2025	R	BREACHED >45% threshold. 32% cross-firm.
 SECTOR	BNPL	subprime_users	61%		 	N/A	2025-12-31	CFPB Dec 2025	R	Majority of BNPL users are subprime/deep subprime.
-SECTOR	BNPL	late_payment_rate	34-41%		 	N/A	2024-12-31	ABA	R	~1 in 3-4 BNPL users late on a payment.
+SECTOR	BNPL	late_payment_rate	47% (2026); series 34% 2024 / 41% 2025 / 47% 2026		 	N/A	2026-08-19	LendingTree BNPL Tracker	R	SUPERSEDED 2026-09-10 at the parent: was 34-41% credited to ABA. RED band >45% BREACHED for the first time. n=2,060, fielded 2026-03-17/23, published 2026-08-19. Attribution corrected — ABA and Richmond Fed EB 26-05 are secondary carriers; the 34/41/47 series is LendingTree. KB-CARL-439.
 SECTOR	BNPL	DQ_vs_CC_ratio	2-3x higher		 	N/A	2026-04-09	NY Fed	R	For comparable borrowers. Structural, not anomaly.
 SECTOR	BNPL	distressed_invisible_est	$40-60B		 	N/A	2026-04-09	NY Fed/CARL est	R	At 10-15% DQ on $400B. None in official metrics.
 Dave	CASH_ADVANCE	28DPD	1.89%	2.15%	-26bps QoQ	NO	2025-12-31	Dave 10-K	G	Tracked by GIG sub-agent. Primary canary.

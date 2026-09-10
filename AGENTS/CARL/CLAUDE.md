@@ -189,7 +189,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 | Condition | Target | Priority |
 |-----------|--------|----------|
 | Fannie MF DQ >0.80% (GFC breach, CRL-03) | REGINALD, PROME | 🔴 |
-| CC 90+ DQ >13.74% (GFC breach, CRL-05) | PROME | 🔴 |
+| ~~CC 90+ DQ >13.74% (GFC breach, CRL-05)~~ ⛔ **RETIRED 2026-09-10 — CRL-05 closed `NO-VERDICT-BY-BASIS`; the 13.74% bar is DEAD, do not fire on it.** Replacement: **CC serious-delinquency FLOW ≥7.50% (CRL-30)** — NY Fed HHDC transition into 90+, 4-qtr annualized | PROME | 🔴 |
 | FL foreclosures +100% YoY sustained | REGINALD, MARCO | 🟠 |
 | K-shape closing (subprime improving 2+ qtrs) | PROME (thesis weakening) | 🟠 |
 | ABS subordinate tranche CE breach (Class D/E) | REGINALD, LIQUID | 🔴 |
@@ -214,7 +214,7 @@ These rules govern *how to reason about workbook mutations* — distinct from ou
 
 | Metric | Threshold | Implication |
 |--------|-----------|-------------|
-| CC 90+ DQ | >13.74% (GFC peak, CRL-05) | Consumer credit breakdown |
+| ~~CC 90+ DQ~~ → **CC 90+ FLOW** | ~~>13.74% stock (GFC peak, CRL-05)~~ **RETIRED 2026-09-10** → **>7.50% flow (CRL-30)** | Consumer credit breakdown. ⛔ **The stock-vs-2010 comparison was refuted at the primary** (NY Fed Liberty St 2026-08-11: charged-off balances stay on bureau reports ~40%→80% at 1yr, so the 2010:Q2 peak and a 2026 print are different measurements). **Never re-arm anything on 13.74%.** |
 | Fannie MF DQ | >0.80% (GFC peak, CRL-03) | MF debt wall + landlord stress confirmed |
 | Gas National Avg | >$4.50 sustained 2wk (CRL-08) | Demand destruction → V5 Gas Price Squeeze promote |
 | UMich 5-10Y Inflation | >3.5% sustained (Fed red line) | V12 Stagflation Trap promote |

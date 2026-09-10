@@ -13,6 +13,23 @@
 # NEXT SCHEDULED RUNNER: Affirm FQ1-27 + Klarna Q3-26 prints, ~2026-11-05 to 2026-11-20 (CARL owns the docket row). P01/P04/P05/P07 all expire 2026-12-31
 #   and P03's window closes then too, so the NOVEMBER pass is the LAST one before five rows come due at once. Do not let it slip the way 9/08 did.
 # Read staleness here against the RESOLUTION calendar, not against parent STATUS mtime.
+# ===== PARENT DISPOSITION 2026-09-10 (CARL, integrating the WQ-209 pass). PHAN proposes, CARL disposes - this is the disposal. =====
+# ACCEPTED IN FULL: all six re-marks stand. Each names a DATED EXTERNAL FACT (Affirm FY26 10-K XBRL, Klarna Q2-26 release, CO AG v. EarnIn 2026-08-27,
+#   LendingTree Mar-26 fielding, NY Fed Aug-26), not a re-read of old evidence, and the P04 ruled-out list (Parker / Solid pre-window / BlockFills) is the
+#   work rather than the answer. PHAN also correctly RESOLVED NOTHING.
+# ⚖️ RULING ON THE CONFIDENCE WALK PHAN FLAGGED AGAINST ITSELF - the flag was right and the mitigation is a COLUMN, not a discipline:
+#   the walk is defensible ROW BY ROW and the DIRECTION is uniform (5 of 6 toward the already-leaning verdict; P01 60->25, P04 45->12, P05 40->15 are large).
+#   ⛔ THEREFORE: P01/P03/P04/P05/P07 SCORE AS-MADE AT 2026-04-09, not at the 2026-09-10 mark. A ledger that walks OPEN rows toward their outcome and is then
+#   graded at the walked value banks a Brier gain it did not earn by forecasting. This is the same shape CARL found in its OWN ledger the same day
+#   ([[finding_confidence_walk_is_selected_for_on_the_rows_that_carry_the_most_brier_weight]], DAEDALUS as-made audit, dBrier +0.3808, all four worse).
+#   The (was X) chains already present in the Notes column ARE the as-made record - do not compress them.
+# ⛔ P02 NOT RESOLVED TODAY, AND THE REASON IS ON THE ROW: PHAN recommended MISS at FY-close. Klarna FY2026 does NOT close until 2026-12-31 and Q3-26
+#   (~Nov) is a further live datum on the same series. Resolving in September would grade a FY claim on 2 of 4 quarters. RESOLVES AT THE NOVEMBER GATE
+#   (docket/CATALYSTS.tsv 2026-11-12) or at FY-close, whichever the data supports. Direction is not in dispute: 0.55% then 0.52% of GMV against a >1.0% bar.
+# INBOX: CARL accepts PHAN's reading that zero packets in 62 days proves nothing either way. DISPOSITION - keep the lane, no deliberate test:
+#   a synthetic packet would test the FILE PATH, not the thing that matters (whether a real sender chooses this address over CARL's), and PHAN's own README
+#   correctly routes senders to CARL. Recorded as UNUSED-SINCE-CREATION in TEAM.md rather than manufactured traffic.
+# ⚠️ P03's logged 1033 conflict is NOT closed and is NOT to be resolved off a secondary. Read the 1033 docket directly at the November gate.
 # DISPOSITIONED 2026-07-10 ad-hoc pass; RE-MARKED 2026-09-10. DOSSIER.md sections 3/4 mirror this ledger (ledger of record).
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes	Instrument
 PHAN-P01	2026-04-09	BNPL stacking >70%	25%	H2 2026	OPEN			Currently 63% at build (CFPB Jan-2025); no fresh stacking print in own files or parent. [2026-07-10 pass: H2 window just opened (we are Jul-10); no premise movement; HELD 60%, OPEN. DATA-NEEDED: CFPB/NY-Fed BNPL stacking update H2 2026. Mode: unresolvable in-file, no data drop.] [2026-09-10 pass: RE-MARKED 60%->25%. The stacking series did NOT move: LendingTree (n=2,049 US consumers 18-80, fielded 2026-03-03/06, published 2026-08-19) reports 63% of BNPL users have held multiple BNPL loans at one time - IDENTICAL to the CFPB Jan-2025 build figure from a DIFFERENT instrument and a different population. Two independent vintages agreeing at 63% is evidence of a stable level, not of a measurement gap. The one leg that DID move is intensity, not breadth: 25% have held 3+ simultaneously, up from 23% (Gen Z 29%, millennials 28%). H2-2026 is ~2/3 elapsed with no series trending toward 70%. ⚠️ INSTRUMENT CAVEAT, load-bearing: the prediction's registered instrument is 'BNPL provider disclosures + survey data' and I am resolving it against a CONSUMER SURVEY, not provider data - no provider publishes cross-firm stacking, because the whole point of the phantom-debt thesis is that no provider can see it. That is a permanent instrument defect on this row, not a this-pass gap. DATA-NEEDED: a CFPB-class stacking print before 2026-12-31; none is scheduled.]	BNPL provider disclosures + survey data :: BNPL stacking rate :: >70%

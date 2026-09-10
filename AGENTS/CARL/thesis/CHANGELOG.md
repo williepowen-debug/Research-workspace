@@ -8,6 +8,68 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-10 (Thu, eve) — 🔴 **CRL-05 CLOSED `NO-VERDICT-BY-BASIS`, SUCCESSOR CRL-30 REGISTERED, CRL-27 LEG (a) STRUCK. An instrument refuted at the primary — a DEFECT REPAIR, not a forecast graded.**
+
+**Origin:** PHAN dossier pass 2026-09-10 (`sub_agents/PHAN/outbox/2026-09-10_PHAN-to-CARL_dossier-pass.md`), finding ①. **PHAN proposes, CARL disposes** — CARL graded it at the primary, accepted it, and extended it.
+
+**The primary.** NY Fed Liberty Street Economics, *"How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures"*, **published 2026-08-11**, Lee / Mangrum / Scally / Sinha / van der Klaauw — read at the primary 2026-09-10:
+
+| Claim | Figure | Verbatim / vintage |
+|---|---|---|
+| CC 90+ **stock** share | **7.6% (2022:Q3) → 12.8% (2026:Q1)** | article body |
+| CC **flow** (new-delinquency) rate | *"has remained relatively stable for almost two years"* | article body |
+| Charged-off debts still reported at 1 yr | **~40% (2004–2012) → 80% (2024)** | *"only about 40 percent … by 2024, this figure had doubled to 80 percent"* |
+| Stock rate ex-severely-derogatory | *"falls in line with both our flow delinquency rate and the Call Report delinquency rate"* | article body |
+| CC flow into 90+, 4-qtr annualized | **6.97% (2026:Q2) vs 6.93% (2025:Q2)** | NY Fed HHDC press release 2026-08-11 |
+
+**THE KILL — and this step is CARL's, not PHAN's.** CRL-05's **13.74%** reference is the HHDC stock peak at **2010:Q2**, which sits **INSIDE the NY Fed's own 2004–2012 ~40%-retention window**, while every live print is measured under the **80%** regime. The two ends of the comparison are not the same measurement, so **the threshold could be delivered by reporting practice alone.** The row is ungradeable in *either* direction.
+
+**Old → new**
+
+| Row | Old | New |
+|---|---|---|
+| **CRL-05** | OPEN, 20% (was 85), bar >13.74% on the HHDC stock share | **NO-VERDICT-BY-BASIS**, closed 2026-09-10, **NOT SCORED EITHER WAY** — excluded from the Brier record |
+| **CRL-27** | 55%, confirms on leg (a) *CC 90+ >13.74%* **OR** leg (b) issuer NCO acceleration | **50%**, **leg (a) STRUCK** (identical bar, identical defect) — resolves on **leg (b) alone**, which is issuer/Call-Report-class data and is *not* exposed |
+| **CRL-30** | — | **NEW, 25%, OPEN through 2027:Q2** — NY Fed HHDC CC transition into serious delinquency (90+), 4-qtr annualized, **≥7.50%** |
+
+**Why the successor makes NO cross-era comparison.** 7.50% is **+53bp above the 2026:Q2 print** and above the whole post-2024 plateau — a break-out bar sized to be un-deliverable by that plateau's own noise (the series moved **+4bp** across four quarters). ⛔ It is deliberately **not** anchored on the flow series' GFC-era level: the only reachable 2007-onset figure (~6.75%) came from a press-release aggregator — **SECONDARY, UNVERIFIED, SEARCH-NOT-FOUND at the primary** — and anchoring there would have rebuilt CRL-05's exact defect inside a new letter. Priced 25% against this desk's own *direction-right-magnitude-light* failure pattern (CRL-01, CRL-19).
+
+**⚠️ THE VOID COSTS ME A GOOD SCORE, WHICH IS THE FALSIFICATION OF THE SELF-SERVING-VOID WORRY.** At 20% confidence with the live print **82bps under** the bar, CRL-05 was tracking to **MISS at Brier 0.0400** — one of the best rows on the ledger. Voiding it **removes** that credit. **Corrected inputs owed to the 2026-09-14 DAEDALUS ladder sitting**, alongside the 9/10 as-made re-marks (ΔBrier +0.3808).
+
+**⚠️ SECOND INDEPENDENT DEFECT ON THE SAME CELL, AND THE FIRST ONE WAS ALREADY DISCLOSED.** The Equifax Risk 3.0 → VantageScore 4.0 break (REGINALD/WALTER SIG-W-20260812-002) was written onto the STATUS CC 90+ row on **2026-08-13** and sat there for **28 days**, correct and read at every boot, changing **nothing** about the prediction whose entire threshold depended on the comparison it declared broken. `[[finding_naming_a_caveat_can_substitute_for_fixing_it]]` — KB-CARL-441. **Rule adopted: a basis caveat must name its consequence for every registered threshold that depends on that basis, as a dated action, or it is not shipped.**
+
+**Scope of the defect — checked, not assumed (PHAN flagged CRL-03 and "the auto rows"; CARL checked and the answer is narrower than the flag).** The reporting-duration effect is a property of **bureau data** (NY Fed CCP/Equifax), so:
+
+| Row | Instrument class | Exposed? |
+|---|---|---|
+| CRL-05, CRL-27 leg (a) | NY Fed HHDC **stock** share vs a **2010** reference | ✅ **YES — both repaired 9/10** |
+| **CRL-03** (Fannie MF DQ >0.80%) | Fannie Mae Monthly Summary Table 7 — **issuer servicing records** | ❌ No. Also already RESOLVED MISSED 7/2 |
+| **CRL-02 / CRL-29** (subprime auto) | Fitch ATR + SEC 10-D EX-99.1 — **ABS trust servicer data** | ❌ No |
+| **CRL-21** (ALLY/COF/SYF NCO) | issuer quarterly filings | ❌ No — the NY Fed piece states the **Call Report rate agrees with the flow rate**, so issuer-side is the clean side |
+| **CRL-04** (student 90+ >10%, CONFIRMED) | HHDC stock share, but an **absolute** bar, not a cross-era one | 🟡 **Registered check, not closed** — the defect is about *comparing across eras*; CRL-04 asserts a level. Federal student debt also does not charge off to the bureaus the way revolving credit does. Re-examine at the next HHDC read |
+
+**⚠️ CRL-27 WAS NOT ON PHAN'S LIST.** PHAN named CRL-03 and the auto rows — the exposed row it missed was inside CARL's own ledger, carrying the identical bar in a leg. `[[finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live]]`.
+
+**Consumers swept the same day:** `STATUS.md` CC 90+ dashboard row · `PREDICTIONS_MIRROR.md` (CRL-05 moved to Resolved, CRL-27 re-priced, CRL-30 added) · `AGENTS/CARL/CLAUDE.md` **KEY THRESHOLDS** and **CROSS-AGENT SIGNALS** rows re-pointed off 13.74% · counter-evidence routed to `handoff_RED/COUNTER_LOG.md` + a packet to RED. **KB-CARL-438** (the finding), **KB-CARL-441** (the caveat-vs-repair lesson).
+
+**⛔ THE VOID IS NOT RELIEF.** The flow rate is *elevated* on the NY Fed's own word, the charged-off stock is real debt owed by real households, and the 12.92% level is unchanged. What died is the **LEVEL-VS-2010 CLAIM**. No vector moved: **53/70 (76%) holds, 12th consecutive cycle.**
+
+---
+
+## 2026-09-10 (Thu, eve) — **BNPL late rate 41% → 47% (RED-band breach) + a source mis-attribution corrected**
+
+**PHAN finding ②, verified by CARL at lendingtree.com 2026-09-10.** Series **34% (2024) → 41% (2025) → 47% (2026)** [LendingTree BNPL Tracker, n=2,060, fielded 2026-03-17/23, **published 2026-08-19**]; PHAN's registered red band is **>45%**, so this is a **first breach**.
+
+**Two defects in one STATUS row, and the second is the worse one.** ① **Stale** — the 41% was the 2025 reading, three weeks after the 2026 reading published. ② **Mis-attributed** — the row credited **CFPB**; no CFPB publication of a 41% BNPL late rate could be located, while CARL's own **KB-CARL-028** credits the 34→41 step to the **Richmond Fed** (Economic Brief 26-05) and the reachable 34/41/47 *series* is **LendingTree's**. The row named a source that never produced the figure while the desk's own KB named a different one. `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`
+
+⭐ **Why it is load-bearing:** 41→47 happened across a year in which payrolls were revised **UP** (July −23K → +21K, BLS 9/4) and **LABOR's T-03 never fired** — the shadow layer deteriorated **without** the employment leg. Direct evidence for the *rot, not detonator* core of v2.6.6, from a series this desk did not previously carry. **The uncomfortable half is carried too:** it means V16's drop-back branch can resolve **down** at the ~10/2 NFP while this series keeps deteriorating, so a V16 step-down is **not** consumer-side relief — and symmetrically this series is **not** a substitute for the employment evidence V16 grades on.
+
+⛔ **NOT carried:** a circulating *"38% used BNPL for gasoline"* breakdown — **SEARCH-NOT-FOUND at any reachable primary** (PHAN: CNBC carrier 403, PYMNTS article lacks it). It would have been the direct pump→phantom-debt link and it is **not cited**. This is the single biggest evidentiary gap in the pass and it sits exactly on the CARL link.
+
+**KB-CARL-439.** `consumer_check.py --agent CARL --old 41% --new 47%` run 2026-09-10; no threshold moved. **FLOW-PHAN-06 re-graded ACTIVE → PARTIAL (1 of 2 legs)** on Affirm FY2026 10-K + Klarna Q2-2026 primaries — **KB-CARL-440**, refreshing KB-CARL-228.
+
+---
+
 ## 2026-09-10 (Thu) — ★ **V16 DROP-BACK-TO-3 BRANCH RATIFIED AS WRITTEN (WQ-182) — provisional flag DISCHARGED, vintage rider encoded. NO score move, NO threshold move, NO confidence move, zero capital.**
 
 **Ruling:** Will, **2026-09-10 11:22 ET (15:22Z)**, Decision Deck tap **`APPROVE`** on WQ-182 (relayed by PROME `prome-81`; packet `AGENTS/CARL/inbox/processed/2026-09-10_from-PROME_WQ-182-RULED-...md`; record `PROME/WILL_QUEUE.md` RECENTLY DONE row 182).

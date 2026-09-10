@@ -1,125 +1,109 @@
 # CARL SCRATCH
-**Last session:** **2026-09-10 (Thu) ~12:23 → ~13:5x ET** — PROME-spawned Tier-1 **ruling-implementation** session (Will *"spawn all three"* 12:22). Dark since 9/5.
-**Type:** Two Will rulings encoded + whole-inbox drain (7→0) + a calibration audit worked. **NO vector moved — 53/70 (76%) holds, 11th consecutive cycle.**
+**Last session:** **2026-09-10 (Thu) ~18:00 → ~19:0x ET** — PROME-spawned Tier-1 session under **WQ-206** (ruling packet at a dark owner ⇒ L0 drain), integrating **WQ-209 / PHAN**.
+**Type:** Sub-agent integration under the parent's card. **One registered instrument KILLED at the primary and replaced; one dashboard figure superseded with its source corrected. NO vector moved — 53/70 (76%), 12th consecutive cycle.**
 
 ---
 
 ## ⏭️ NEXT SESSION, FIRST TWO THINGS
-1. **⛔ THE 9/30 PREDICTION CLUSTER IS NOW 20 DAYS OUT AND STILL UNTOUCHED — 3rd session carried.** **CRL-05** (+ its basis question, **7th session carried — do not carry it an eighth**), **CRL-08** (window closes ~9/30, gap 35.4¢), **CRL-17**, **CRL-21**. **Do not let these resolve by expiry.**
-2. **STATUS rotation #11 — STRUCTURAL, not a byte-trim. It grew again today (43,794 → 45,101 B, 1.39× budget).** Order is fixed and is STUE's diagnosis, not mine: **(c) audit the dashboard for rows that are not VALUES and move them out** → **(b) read-mode change** (bounded head + grep body) → **(a) rotation as a standing step.** Measure the boot-read TOTAL in **BYTES** and report it **even if it rises.**
+1. **⛔ AUGUST CPI PRINTED FRI 9/11 08:30 — GRADE IT AGAINST THE FRAME THAT IS ALREADY WRITTEN.** The pre-CPI frame sits at the top of STATUS DANGER WINDOW, written **~14h before** the print. It **pre-commits** that a positive-but-small gasoline MoM discriminates **nothing** (compatible with HEN-41 CONFIRM *and* DENY) and names what would: **> +2.5%** or **negative**. ⛔ **Do not re-read a directionally-friendly print as confirmation** — that is the whole reason the frame was written first. **UMich Sept prelim lands the same morning; do not let CPI absorb it.**
+2. **⛔ THE 9/30 CLUSTER IS NOW 20 DAYS OUT — CRL-05 IS OFF IT (closed today), THE REST ARE NOT.** **CRL-08** (gap **22.3¢**, narrowed 13.1¢ in five days — this is now genuinely reachable), **CRL-17** (forced call pre-registered 9/30, do not roll), **CRL-21**. **Resolve or re-arm at a sitting; do not let them go by expiry.**
 
 ---
 
-## WHAT HAPPENED — the two rulings landed, and one of them was already done
+## WHAT HAPPENED — a sub-agent killed one of my instruments, and the delay is the lesson
 
-### ✅ WQ-182 — V16's drop-back branch RATIFIED AS WRITTEN, and the flag is discharged
-Will, **2026-09-10 11:22 ET (15:22Z)**, Decision Deck tap **`APPROVE`**. The branch letter is **unchanged**; what is removed is `[provisional structure — Will review at next matrix pass]`. **RIDER, binding (WQ-175 ②): the 2-of-2 count runs on the vintage in force at each print — a later revision of print 1 ANNOTATES, never re-counts.**
-- ⇒ **August's print-1 status is FIXED** at what published 9/4 (**+162K with +55K net up-revisions**). An October revision cannot un-count it.
-- ⇒ Symmetrically, a later up-revision cannot **manufacture** a print-1 — which is exactly what the 9/4 retraction did to the escalate leg (**escalate is 0 of 2, not 1 of 2**).
-- **Encoded on 5 surfaces** (THESIS V16 COL7 · STATUS mirror · CATALYSTS 10-02 · CALENDAR 10-02 · ROADMAP_THREADS) + CHANGELOG + KB-CARL-433.
-- 🔴 **Resolver = September NFP ~Fri 10/2. LABOR grades the PRINT; CARL grades the BRANCH.** Positive-with-up-revisions ⇒ 2 of 2 ⇒ **4→3 candidate to Will**; negative OR net down-revisions ⇒ **RESETS to 0**. ⚠️ **Do not step down on one print** — the letter's own *"single-month discipline applies in both directions"* clause held V16 at 3 against June's +57K on 7/2 and binds symmetrically.
-- 🔑 **The 9/5 escalation got exactly what it asked for: the branch was ratified BEFORE it resolves, not after.**
+### 🔴 CRL-05 CLOSED `NO-VERDICT-BY-BASIS`; CRL-30 REGISTERED; CRL-27 LEG (a) STRUCK
+**Graded at the primary, not taken from the packet.** NY Fed Liberty Street, *"How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures"*, **pub 2026-08-11** (Lee/Mangrum/Scally/Sinha/van der Klaauw): CC 90+ **stock** 7.6% (2022:Q3) → 12.8% (2026:Q1) while the **flow** rate *"has remained relatively stable for almost two years"*; the reconciliation is reporting **duration** — *"Between 2004 and 2012, only about 40 percent of borrowers' charged-off debts were still being reported one year later; by 2024, this figure had doubled to 80 percent"*; ex-severely-derogatory the stock rate *"falls in line with both our flow delinquency rate and the Call Report delinquency rate."*
+- 🔑 **THE KILL IS MINE, NOT PHAN'S: 13.74% is the stock peak at 2010:Q2 — INSIDE the NY Fed's own ~40%-retention window — while every live print is measured under 80%.** The bar could be delivered by reporting practice alone ⇒ ungradeable **in either direction**.
+- ⛔ **THE VOID COSTS ME A GOOD SCORE, AND THAT IS THE POINT.** At 20% with the print 82bps under the bar, CRL-05 was tracking to **MISS at Brier 0.0400** — one of the best rows on the ledger. Voiding **removes** that credit. Written on the row so a future auditor does not have to take my word for the motive.
+- **CRL-30** (25%, OPEN → 2027:Q2): flow rate **≥7.50%**, anchored on **6.97% (2026:Q2) vs 6.93% (2025:Q2)**, **+4bp YoY**. ⛔ **Deliberately NOT anchored on the flow series' own GFC level** — the only reachable 2007-onset figure (~6.75%) is a press-release aggregator, **SECONDARY/UNVERIFIED, SEARCH-NOT-FOUND at the primary**, and anchoring there would have rebuilt the same defect inside a new letter.
+- **CRL-27 leg (a) struck, 55→50** — a removed confirmation *path*, not an evidence move. ⚠️ **PHAN did not name CRL-27; I found it.** `[[finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live]]`
+- **Exposure swept and it is NARROWER than the flag.** Bureau-data property only ⇒ **CRL-03** (Fannie servicing), **CRL-02/CRL-29** (ABS trust servicer), **CRL-21** (issuer filings) are **clean** — the NY Fed says the **Call Report rate agrees with the flow rate**. **CRL-04** = registered open check (absolute bar, not cross-era), **explicitly not closed.**
 
-### ✅ WQ-183 — the PARENT holds the pen on a sub-agent card. ⚠️ **Its ACTION was already satisfied when it arrived.**
-The packet said *"apply the read-mode + placement change to STUE's `CLAUDE.md` at your next boot."* **All three amendments were already on the card** — STUE applied them itself on **9/5** on Will's *separate* word (*"I do want you able to edit your local CLAUDE.md and boot instructions"*). **I verified all three at the artifact before touching anything** (bounded head as an explicit SECTION LIST · values-and-pointers in Doc Ownership · rotation as `On Session End` 3b) and applied **only the un-encoded half — the pen ruling**, as a dated ruling on the card, story to `CLAUDE_PROVENANCE.md` §P-PEN.
-- 🔑 **Re-applying would have duplicated the rule and read, forever after, as two independent authorities saying the same thing.** `[[finding_directive_overtaken_between_authorship_and_delivery]]` — and the inverse of `[[finding_record_of_an_action_is_not_the_action]]`: here the RECORD said "owed" and the ARTIFACT said "done".
-- **Riders on the card:** a card edit is a dated ruling in the parent's tree · the two-correction stop binds it · ⛔ **STUE's 9/5 refusal was CORRECT and stays its standing behaviour** — a sub-agent never rewrites its own card on a peer session's say-so.
+### ⚠️ THE PROCESS FAILURE IS WORSE THAN THE INSTRUMENT FAILURE
+The **Equifax 3.0 → VantageScore 4.0** caveat (REGINALD/WALTER `SIG-W-20260812-002`) was written on the STATUS CC 90+ row on **8/13**, was correct, and was read at **every boot for 28 days** — while CRL-05, whose whole threshold *was* the comparison that caveat declared broken, was re-priced twice without anyone asking whether the bar still meant anything. **The repair required a sub-agent bringing an unrelated second defect.** 🔑 **The caveat lived on a VALUES surface; the defect it invalidated lived on a PREDICTION surface. Both looked clean at every pass.** `[[finding_naming_a_caveat_can_substitute_for_fixing_it]]` extended to n=2 (KB-CARL-441).
 
-### ★ THE DAEDALUS AS-MADE AUDIT — 19 candidates, 9 refuted, 10 sustained, and the finding is bigger than the flags
-⛔ **The audit tool has a THIRD limit it did not name: an ID can be REASSIGNED to a different claim.** `4e8c98359` (2026-03-09, verified earliest by `git log --reverse`) uses a different ID→claim map — its CRL-05=Fannie MF, 06=Student 90+, 07=CC 90+, 08=Foreclosures ⇒ **today's CRL-03/04/05/06**. Four flags compared **two different predictions**, both cells real confidences.
-🔑 **This is the only branch a careful reader would have BANKED.** The two *named* limits fail loudly — a `98% → 6%` swing on a CONFIRMED row is self-evidently a value cell; two of the flags read a percentage out of a **masthead sentence**. **Five more flags were the ledger's own `(was Y)` chain working exactly as WQ-112 designed it** — the tool takes the first percentage and read past the history.
+### 🟠 BNPL LATE RATE 41% → 47% — RED-BAND BREACH, AND THE ATTRIBUTION WAS WRONG TOO
+**34% ('24) → 41% ('25) → 47% ('26)** [LendingTree BNPL Tracker, n=2,060, fielded 3/17-23/26, **pub 8/19/26**, verified at lendingtree.com 9/10]; PHAN's registered red band **>45%** ⇒ **first breach**. The row credited **CFPB**; **no CFPB publication of a 41% BNPL late rate exists that I could find**, my own **KB-CARL-028** credits the 34→41 step to the **Richmond Fed**, and PHAN's band cell said **ABA**. **Three surfaces, three different named sources, one survey house.**
+- ⭐ **Load-bearing:** 41→47 happened across a year in which payrolls were revised **UP** and **LABOR's T-03 never fired** — the shadow layer deteriorated **without** the employment leg. Direct evidence for *rot, not detonator*.
+- ⚠️ **The uncomfortable half, carried:** it also means **V16's drop-back can resolve DOWN at ~10/2 while this series keeps deteriorating** — a V16 step-down is **not** consumer-side relief, and this series is **not** a substitute for V16's employment evidence.
+- ⛔ **NOT carried:** the circulating *"38% used BNPL for gasoline"* — **SEARCH-NOT-FOUND at any reachable primary.** It would have been the direct pump→phantom-debt link. **Biggest evidentiary gap in the pass, sitting exactly on my link.**
 
-🔴 **THE CALIBRATION RESULT, AND IT IS NOT A WASH.** Four SUSTAINED rows are RESOLVED, so their Brier vintage changes — **and all four move the same direction, worse:**
+### ✅ PHAN disposed under the parent's card (PHAN proposes, CARL disposes)
+- **All six re-marks ACCEPTED** — each names a dated external fact, and PHAN's P04 ruled-out list (Parker out-of-scope · **Solid PRE-WINDOW, a 2025 filing surfaced by 2026 coverage** · BlockFills out-of-scope) is the work rather than the answer.
+- ⚖️ **RULING ON THE WALK PHAN FLAGGED AGAINST ITSELF:** defensible row-by-row, uniform in direction (5 of 6). ⛔ **P01/P03/P04/P05/P07 SCORE AS-MADE AT 2026-04-09, not at the 9/10 mark** — a ledger graded at its walked value banks a Brier gain it did not earn. Same shape as my own 9/10 as-made audit (ΔBrier +0.3808, four for four worse). **The mitigation is a column, not a discipline.**
+- ⛔ **P02 NOT resolved early, reason on the row:** Klarna FY2026 closes **12/31** and Q3-26 (~Nov) is a further live datum. Resolving in September grades a FY claim on **2 of 4 quarters**. Direction is not in dispute (0.55% → 0.52% of GMV vs a >1.0% bar).
+- **Inbox: keep the lane, no synthetic test** — a manufactured packet tests the file path, not whether a real sender picks that address over CARL, and PHAN's own README routes senders to CARL. Recorded **UNUSED-SINCE-CREATION** in TEAM.md.
+- **9/8 docket row PRUNED** (fired + discharged); **~11/12 successor gate ADDED**. ⚠️ **That November pass is the LAST before P01/P03/P04/P05/P07 all come due 12/31 — a slip there costs five gradings where the 9/8 slip cost nothing.**
 
-| ID | outcome | scored at | should be | ΔBrier |
-|---|---|---|---|---|
-| CRL-03 | MISSED | .5184 | **.8100** | **+0.2916** |
-| CRL-06 | CONFIRMED | .0484 | .0900 | +0.0416 |
-| CRL-11 | MISSED | .6889 | .7225 | +0.0336 |
-| CRL-04 | CONFIRMED | .0004 | .0144 | +0.0140 |
-| | | | **sum** | **+0.3808** |
-
-⛔ **The mechanism is benign, which is why it is dangerous.** A desk re-prices a live prediction — correct behaviour — and overwrites the confidence cell. **But the walk is SELECTED FOR: the row that got re-priced is the row that was hard and moved a lot, i.e. the row carrying the most Brier weight.** ⛔ **And it flatters BOTH ways** — on the CONFIRMED rows the ledger sat **above** the as-made, on the MISSED row **below**. **A mean-zero assumption about the drift is unsafe.** Same shape as LABOR's 0.299 → 0.342. KB-CARL-434/435; new auto-memory `[[finding_confidence_walk_is_selected_for_on_the_rows_that_carry_the_most_brier_weight]]`.
-✅ **I did NOT recompute CARL's aggregate Brier** — the **9/14 ladder sitting** owns the scoreboard; I owe it corrected **inputs**. ⚠️ **CRL-10/11/17 are marked EARLIEST RECORDED, not as-made** (Date_Made precedes first STATUS appearance) — **a recovered-but-unprovable as-made is not the same object as a proven one.**
-
-### ✅ Dated rows — 2 of 4 gradeable today, both graded at the primary
-- **L281 / L151 — FSA `PortfoliobyLoanStatus.xls` POLLED 2026-09-10 16:35 UTC: `Last-Modified: Thu 18 Jun 2026 21:05 GMT`, MD5 `4732c453…d007`, 133,120 B — UNCHANGED, byte-identical to the 9/5 pull AND STUE's 8/13 copy.** ⇒ **FY2026-Q3 has NOT posted; 2nd consecutive CHECKED ABSENCE recorded as a non-event.** L281 ⇒ NO CHANGE, re-date +1wk (**~9/18, docketed**); L151 window (9/1–9/30) PENDING, 20d left. ES-01/04/06 unmoved.
-- ⛔ **TWO INSTRUMENT DEFECTS, both found only by RUNNING it (KB-CARL-437): ① the path is CASE-SENSITIVE — `PortfoliobyLoanStatus.xls`, lowercase `b`. DOCKET L281 spells it with a CAPITAL B, which returns HTTP 404 — and a 404 reads as "withdrawn", a WRONG FINDING, not an error.** ② 🔑 **The ETag IS `<MD5>:<epoch>` — a HEAD request alone proves byte identity; never download the 133KB file.** Routed to PROME (owns the DOCKET text).
-- **NOT gradeable today, dates stated:** **L152** SAVE→RAP first-tranche read — **9/29–10/1** · **L153** RAP auto-pay deadline — **9/30**.
-
-### ✅ Other inbox work
-- **LABOR claims refreshed: 206,000 w/e 9/5, 4-wk MA 206,000** (w/e 8/29 revised 206→207K; prior MA 207,250→207,500). Kill-rule leg `<220K` **stays SATISFIED — the verdict never moved, only the figures.** ⛔ **The MA's −1,500 is the 212,000 roll-off, NOT easing.** ⚠️ Next week the roll-off is 207,000 ⇒ an identical print moves it **−250, 6.0× smaller** — a reader without the roll-off sees "improvement slowing" where nothing changed. 🔴 **LABOR's T-01 now routes to CARL; its bound `X > 1,000,000 − (W2+W3+W4)` is re-solved weekly (383,000 → 382,000 on 9/10) — quote the FORMULA, never the number.**
-- **`roadmap_index.py --check` PATCHED** (PROME's 9/5 build) and **falsified before trusting it**: T1 clean ⇒ 0 · **T2 (Codex's false-pass case: Next Step mutated, thread name kept) ⇒ 1** · T7 dup anchor ⇒ 1 · restored ⇒ 0. It now compares the **rendering**, not a name set.
-- **COR-20260905-02 emitted** (ES-02 reading-rule defect, direction **HOLD** with the re-derivation figures in the cell) + **COR-20260905-01 receipted APPLIED**; `corrections_boot_check.py CARL` rc=0.
-- **STUE tracker banner-vs-body: PROME's INFERRED flag PARTLY REFUTED.** No substantive contradiction — the banner is about *generalisation*, the body about the *checker implementation*, and both are true. **The defect is one word: "FALSIFIED against live data"** describes a rule reproducing, on its own fitting data, a boundary its author had already picked. Routed to STUE with the suggested wording; **I did not edit STUE's workbook** (the pen ruling scopes to the CARD).
-
-### 🔧 Structural fix found in passing
-**The two threads the 9/5 split session added lived as PROSE in `ROADMAP.md`, outside the generated index — invisible to the drift gate.** The split's own first session used the pre-split method. Both moved into `ROADMAP_THREADS.md` as rows, one ✅-closed thread moved to RECENTLY RESOLVED, index rebuilt: **28 → 31 threads, ROADMAP 31,946 → 29,614 B.** `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` — **a new convention touches NOTHING already on disk.**
+### ✅ Gas pulled first (standing rule) and it moved the CRL-08 arithmetic
+**AAA $4.277 (9/10 18:04 live), +13.1¢ in five days**; FRED `GASREGW` **$4.157 w/e 9/7 (+8.6¢ WoW)** — the weekly now confirms. **Diesel $5.977, fresh high, 2.3¢ off a $6 handle.** CRL-08 gap **35.4¢ → 22.3¢**. 🔑 **The 8/25→9/1 Brent re-rise is reaching the pump at the FRONT EDGE of my registered 17-18d lag — the prediction held.** ⛔ **This is SEPTEMBER data and is NOT in tomorrow's August print** (August weeklies ≈$4.06 vs July ≈$3.93); the September re-acceleration lands **10/13**.
 
 ---
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **V16 Employment** | **HOLDS 4.** Drop-back branch **RATIFIED (WQ-182)** + vintage rider; **LIVE 1 of 2**, resolver ~10/2. Escalate **0 of 2** |
-| **Claims** | **206,000 w/e 9/5, MA 206,000** — supersedes 206K/207,250. Kill-rule leg SATISFIED |
-| **FSA defaults** | **FY2026-Q3 NOT POSTED** (polled 9/10) — 2nd checked absence; re-poll ~9/18 |
-| **Calibration** | 🔴 **4 resolved rows re-marked, ΔBrier sum +0.3808, all WORSE.** Inputs owed 9/14 |
-| **Convergence** | **NO CHANGE — 53/70 (76%), 11th cycle** |
-| KB | 432 → **437** rows (KB-CARL-433…437) |
-| Inbox | **7 → 0**, all filed to `processed/` |
+| **CRL-05** | 🔴 **CLOSED `NO-VERDICT-BY-BASIS`** — instrument refuted at the primary. **NOT scored.** 15 OPEN → 15 (CRL-30 replaces it) |
+| **CRL-30** | 🆕 **REGISTERED 25%**, flow rate ≥7.50%, → 2027:Q2 |
+| **CRL-27** | **55 → 50**, leg (a) struck |
+| **BNPL late rate** | **41% → 47%**, 🟠 → 🔴, source CFPB → **LendingTree** |
+| **Gas / diesel** | **$4.277 / $5.977** (both live 9/10). CRL-08 gap **22.3¢** |
+| **FLOW-PHAN-06** | ACTIVE → **PARTIAL (1 of 2 legs)** — provisions leg FAILS on FY basis, allowance-RATE leg HOLDS (5.65→5.89%) |
+| **Convergence** | **NO CHANGE — 53/70 (76%), 12th cycle** |
+| KB | 437 → **442** (KB-CARL-438…442) |
+| Inbox | **1 → 0**, filed to `processed/` |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
-1. **Pull gas first** (standing rule). Last read **AAA $4.146 (9/5)**, diesel **$5.882**, Brent **$96.02 (9/1)** — **all stale by 5 days.** V5 cushion was 14.6¢ and WIDENING; CRL-08 gap 35.4¢, **window closes ~9/30.** The 9/1 crude re-rise reaches the pump ~9/11–9/18.
-2. **August CPI printed Fri 9/11 — INTEGRATE IT.** CARL's leg is the pump input and it **inverts from July**: August FRED weeklies ≈ **$4.06** vs July ≈ **$3.93** ⇒ **gasoline CPI should print POSITIVE MoM** where July was base-effect-protected negative. ⛔ **Modest, not a spike** — a positive-but-small print is compatible with BOTH HEN-41 CONFIRM and DENY, and **HEN-41 is HENRY's letter, not CARL's.** UMich Sept prelim same morning — do not let CPI absorb it.
-3. **9/14 DAEDALUS ladder sitting — the corrected as-made inputs are OWED** (docketed). Supply inputs only.
-4. **~9/15 SDART/BLAST August 10-D** — first live application of the ruled leg. **Matched collection month, YoY, per deal, in pp. ⛔ NEVER MoM.** Deep tier files ~9/30; **the tier verdict defers to the later-filing tier ⇒ the real V2 grade is ~9/30.**
-5. **FOMC 9/15-16** — V12 un-fire needs a dovish pivot returning a 2026 cut to the dots **across 2 consecutive meetings**; this is **meeting 1 of 2**, first surface where dots exist.
+1. **Grade August CPI against the written frame** (see FIRST TWO THINGS #1). **HEN-41 is HENRY's letter — supply the pump input, do not grade their card.**
+2. **CRL-08 at 22.3¢ with the window closing ~9/30** — the closest approach of the cycle. Pull gas daily; if $4.50 is touched, the **sustained-2wk** clause is what decides it, not the touch.
+3. **9/14 DAEDALUS ladder sitting — corrected as-made inputs owed, NOW INCLUDING CRL-05's exclusion from the Brier record.** Supply inputs only; the sitting owns the scoreboard.
+4. **~9/15 SDART/BLAST August 10-D** — first live application of the ruled leg. **Matched collection month, YoY, per deal, in pp. ⛔ NEVER MoM.** Real V2 verdict defers to the **9/30** deep tier.
+5. **FOMC 9/15-16** — meeting **1 of 2** for any V12 un-fire.
 
 ### THIS WEEK / CARRIED
-6. **~9/18 FSA re-poll** (docketed). **HEAD only; lowercase `b`.**
-7. **9/8 PHAN spawn is now +56d and was NOT done today** — gate fired 8/27. Affirm/Klarna **AND** the COCKROACH/REGULATORY sweep.
-8. **⚠️ CRL-05 BASIS QUESTION, 7th session carried.** Resolves on a **LEVEL** (>13.74%, Equifax-3.0 era) against VantageScore-4.0 prints. **A basis change is never a threshold trigger:** re-base or declare **NO-VERDICT-by-basis**, then packet PROME.
-9. **`abs_monitor.py` coverage fix — still owed, 3rd session.** It structurally cannot see V2's registered panel (tracks the four newest Exeter CIKs; registered panel is EART 2022-2/2022-3/2023-1/2024-1). **A monitor that cannot see its own panel is worse than none, because it reports clean.**
-10. **CARL-DR-5 at DEWEY is now +12d past due** (grocery volume: POLICY vs CYCLE vs MEASUREMENT ARTIFACT). Pre-registered both ways — **it can score a strike against my own evidence.** Chase it.
-11. **Ask STUE to reconcile the tracker wording** (packet delivered) and to confirm at its next boot that it read the pen ruling **from the card**, not from my packet.
-12. `housing_pulse.py:226` hardcoded 3.98M under the live 4.06M; Fannie URL 404s. **Same class as the FSA case-sensitivity defect found today.**
-13. **WATT-10 (FERC Door A/Door B, ~10/12, outer 10/31)** — Door A socialises data-center cost to ~65M PJM ratepayers = CARL's CPI channel. ⛔ **Do NOT put an LMP spike in a CPI story** — residential bills run an ANNUAL tariff clock.
+6. **⛔ STATUS ROTATION #11 IS NOW OVERDUE AND I MADE IT WORSE — see WORKBOOK HEALTH. Order is unchanged and is STUE's diagnosis: (c) → (b) → (a).**
+7. **~9/18 FSA re-poll** (docketed). **HEAD only; lowercase `b`.**
+8. **`abs_monitor.py` coverage fix — still owed, 4th session.** It structurally cannot see V2's registered panel. **A monitor that cannot see its own panel is worse than none, because it reports clean.**
+9. **CARL-DR-5 at DEWEY is +13d past due** (grocery volume: POLICY vs CYCLE vs MEASUREMENT ARTIFACT). Pre-registered both ways — **it can score a strike against my own evidence.** Chase it.
+10. **RED has the CRL-05 packet and RED WAS DARK when it was written** (`ListAgents` 9/10, no RED session) — PROME doorbelled instead. **Ask whether RED considers its 7/24 pre-registered rationalization test touched** (it named V2-on-HHDC, a pairing already corrected as unfireable; today's action is CRL-05/V1).
+11. `housing_pulse.py:226` hardcoded 3.98M under the live 4.06M; Fannie URL 404s. **Same class as the FSA case-sensitivity defect.**
+12. **WATT-10 (FERC Door A/Door B, ~10/12, outer 10/31)** — Door A socialises data-center cost to ~65M PJM ratepayers = CARL's CPI channel. ⛔ **Do NOT put an LMP spike in a CPI story** — residential bills run an ANNUAL tariff clock.
+13. **Two boot scripts FAILED today** (`thresholds.py`, `consumer_pulse.py` — 85s each, FRED-side). Not investigated; if they fail again, that is a pattern, not a timeout.
 
 ---
 
 ## URGENT / DISCIPLINE
-- **⚠️ A RULING'S ACTION LINE CAN BE STALE ON ARRIVAL, AND THE RULING STILL BINDS.** WQ-183's ACTION was satisfied two days before the ruling was written. **Verify at the artifact before executing a directive, even a Will-ruled one** — the ruling's AUTHORITY is not evidence about the world's STATE. Re-applying it would have produced two authorities for one rule.
-- **⚠️ THE FAILURE MODE THAT LOOKS PLAUSIBLE IS THE ONE THAT GETS BANKED.** DAEDALUS's tool failed three ways today. Two produced absurdities and were caught in seconds; the third produced two believable confidences and would have been accepted. **When you list an instrument's limits, ask which of them fails QUIETLY — that is the one to engineer against.**
-- **⚠️ MY OWN BRIER IS FLATTERED AND I FOUND IT BY BEING AUDITED, NOT BY LOOKING.** Four for four in the same direction. **The re-pricing that corrupts the record is the same act as good forecasting** — there is no version of this I would have caught by being more careful. **It needed a column, not a discipline.**
-- **⚠️ A 404 IS A FINDING-SHAPED OBJECT.** The capital-B path returns HTTP 404 with a 10-byte body. Polled without care that reads as *"the release was pulled"* — a **wrong finding**, not an error. **Case-sensitivity in a wake-surface row is a silent-wrong-answer defect.**
-- **✅ Kept from 9/5 and still true:** `open(path,"w")` truncates before it writes. **Every edit this session built the string first, asserted a minimum length, wrote `.tmp`, then `os.replace`.** Zero incidents.
+- **⚠️ A CORRECT CAVEAT CAN SIT FOR 28 DAYS AND FIX NOTHING.** The 8/13 basis flag was right, prominent and boot-read, and it never reached the prediction it invalidated — because the two lived on different surfaces with different review modes. **New personal rule: a basis caveat is not shipped until it NAMES every registered threshold that depends on that basis and states the consequence as a dated action.** If I can write the caveat but not name what it kills, I have not finished reading my own ledger.
+- **⚠️ THE FIX ARRIVED BECAUSE A SECOND DEFECT SHOWED UP, NOT BECAUSE ANYONE RE-READ THE FIRST.** So the rate at which I catch these is governed by how often unrelated evidence happens to land on the same cell — **which means the disclosed-but-unfixed population is systematically larger than the repaired one and cannot be estimated from the repairs.** Sweep by asking *"what does this caveat invalidate?"* of every live caveat.
+- **⚠️ I HAVE NOW VOIDED TWO CONSUMER-CREDIT ROWS WITHOUT EITHER RESOLVING AGAINST ME** (CRL-14 resolvability 7/31, CRL-05 basis today). Each is individually defensible; **the PATTERN is the thing to test, and I handed it to RED myself rather than waiting to be told.** If a third arrives, the honest prior is that this desk retires instruments about to score badly.
+- **✅ THE VOID IS NOT RELIEF, AND I WROTE THAT INTO EVERY SURFACE THAT CARRIES IT.** The flow rate is *elevated* on the NY Fed's own word; the charged-off stock is real household debt; seriously-delinquent CC **dollars ROSE** ($162.95B → $163.18B) in the very quarter the share fell. **What died is the level-vs-2010 claim.**
+- **⛔ A TSV ROUND-TRIP IS A WHOLE-FILE REWRITE.** My first pass at `PREDICTIONS.tsv` used `csv.reader`/`csv.writer` and **normalised quoting across five rows I never touched** (the file has legitimately inconsistent quoting, and `CRL-08` is absorbed into `CRL-07`'s parse). Reverted and redone as **line-surgical raw-text edits**: 3 rows changed, 5 diff lines, nothing else moved. **Never round-trip a shared TSV to edit two cells.**
+- **✅ Kept and still true:** every edit this session built the string first, asserted, wrote `.tmp`, then `os.replace`. Zero truncations.
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Size / rows | Note |
 |---|---|---|
-| **STATUS.md** | **45,101 B** | 🔴 **1.39× the 32,550 B budget, +1,307 B today.** Rotation #11 owed and STRUCTURAL — order (c) → (b) → (a). **Do NOT byte-trim** |
-| **MEMORY.md** (local) | 46,494 B / 97 lines | 🔴 **3 lines from the 100-line cap. NOT grown today — the lessons went to auto-memory, which is what the cap rule asks.** ⛔ Flag to PROME; do not compact |
-| **ROADMAP.md** | **29,614 B** | ✅ **0.91× budget.** 31 threads (28 + the 2 orphans recovered + 1 new). Index GENERATED, gate now compares the RENDERING |
-| **ROADMAP_THREADS.md** | 31,423 B | grep-only, off the boot path |
-| KB.tsv | **437 data rows** | +5 (KB-CARL-433…437). All 15-field verified, no dup IDs |
-| PREDICTIONS.tsv | 29 (15 OPEN) | ⚠️ **CRLF — binary-mode edits ONLY** (honoured today). **10 rows re-marked with as-made.** Still +60d behind STATUS on `ledger_staleness` — **freeze or refresh next session** |
-| CATALYSTS.tsv | 25 data | +2 (9/14 ladder, 9/18 FSA re-poll); CALENDAR twin synced by hand |
-| **NEXUS_BRIEF.md** | **114 lines / 44,302 B** | 🟠 **OVER the provisional 100-line cap — was already 109 at 9/5; I added 2 VIEW bullets (+5).** ⛔ **Do NOT trim the CALIBRATION bullet** (spec: protect CROSS-DOMAIN + CALIBRATION-divergence under length pressure). **The rotation candidate is the 8/27 cluster — 5 of 11 VIEW bullets are from one day a fortnight ago.** Deliberately NOT rotated late in this session; flagged instead |
-| board_log.tsv | 62 lines | untouched — no BOARD lane traffic this session |
+| **STATUS.md** | **49,204 B** | 🔴 **1.51× the 32,550 B budget, 91% of the 54,250 B CAP — and I ADDED +4,103 B net today.** Rotation **#11a** executed (2 largest narrative blocks → `status_archive/`, −2,065 B) but it is a down-payment, not the fix. **Order unchanged: (c) audit the dashboard for rows that are not VALUES → (b) read-mode change → (a) rotation as a standing step.** ⛔ **Do NOT byte-trim.** Measure with `scripts/read_cap_check.py --agent CARL` |
+| **MEMORY.md** (local) | 46,494 B / 97 lines | 🔴 **3 lines from the 100-line cap. NOT grown today** — this session's lessons went to fleet auto-memory, which is what the cap rule asks. ⛔ **Flag to PROME; do not compact** |
+| **ROADMAP.md** | **31,758 B** | ✅ 0.98× budget. **31 threads** (1 closed → RECENTLY RESOLVED, 1 opened in its place). Index GENERATED; `--check` byte-for-byte ✓ |
+| ROADMAP_THREADS.md | ~32 KB | grep-only, off the boot path |
+| KB.tsv | **442 data rows** | +5 (KB-CARL-438…442). All 15-field verified, no dup IDs |
+| PREDICTIONS.tsv | **30 rows (15 OPEN)** | ⚠️ **CRLF — line-surgical edits ONLY, never a csv round-trip (see DISCIPLINE)**. CRL-05 → NO-VERDICT, CRL-30 added, CRL-27 re-priced. `consistency_check` **0 hard** |
+| PREDICTIONS_MIRROR.md | 18,509 B | Check A clean; CRL-05 moved Open → Resolved |
+| CATALYSTS.tsv | 25 data | 9/8 PHAN row pruned, ~11/12 successor added; CALENDAR twin synced by hand |
+| **NEXUS_BRIEF.md** | see brief header | 🟠 **still over the provisional 100-line cap.** ⛔ **Do NOT trim the CALIBRATION bullet.** Rotation candidate remains the 8/27 VIEW cluster |
+| PHAN ledgers | COCKROACH/REGULATORY **UNFROZEN 9/10** | DATA clock 7/10 → **9/10**. Next dated trigger ~11/05-11/20, docketed 11/12 |
 
----
+## OUTBOX / PACKETS SENT (2)
+- **RED ×1** — the NY Fed refutation, CARL's full disposition, **and the two attacks on myself I handed over rather than waiting for** (the two-voids pattern; the 28-day caveat). ⚠️ **RED was DARK at send** (`ListAgents`), so PROME was doorbelled per messaging rule 6b.
+- **PROME ×1** — the completion memo (this session).
 
-## OUTBOX / PACKETS SENT (3, all committed under carve-out ①)
-- **DAEDALUS ×1** — as-made audit worked; **19 triaged (9 refuted / 10 sustained)**, the **third tool limit (ID reassignment)** with a cheap fix, and the **ΔBrier table for the 9/14 sitting**.
-- **STUE ×1** — tracker banner-vs-body **partly refuted**, the one-word defect, the suggested wording, and *"read the pen ruling from the card, not from this packet."*
-- **PROME ×1** — the COMPLETION memo (this session), incl. the **DOCKET L281 case-sensitivity defect** and the **ETag=MD5** improvement.
-
-## INBOX — **7 consumed, 7 filed, AT ZERO**
+## INBOX — **1 consumed, 1 filed, AT ZERO**
 `find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **0**. ⛔ **Never count with `ls inbox/*.md`.**
