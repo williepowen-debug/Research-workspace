@@ -705,3 +705,166 @@ Earlier the same day, **WQ-193 executed** (charter split; `CLAUDE.md` from 769 B
 8. 🔒 **PRE-REGISTERED, UNTOUCHED:** v4 JOLTS-August NET bands (~Oct 6) — NET >0 ⇒ v4 → 2 · NET ≤0 a 4th month ⇒ v4 → 4 · NET ≤0 but hires rate ≥3.4% ⇒ HOLD 3. **v8 restore-to-3: leg 1 of 2 banked 9/4 (+55K); leg 2 is the Oct 2 print.**
 
 1b-bis. ✅ **ACTION 4 COMPLETE — all three legs.** The third leg (EXIT RULES in C1's sweep list) shipped in the WQ-193 split and is live at `CLAUDE.md:77`, verified by reading the line 2026-09-07; this item had still read *"half done… WILL-GATED"*. Full entry → `STATUS_DETAIL.md` § `pickup-rotated-20260907c`.
+
+
+---
+
+# § ROTATIONS — 2026-09-10 claims-grade closeout
+
+> ⛔ **Moved, never edited. No figure changed, no score changed, no band changed.** Each block below is the text `STATUS.md` carried immediately before the 2026-09-10 rotation. **`STATUS.md` wins on any live figure** — cite these as what was written on the day, with their own dates.
+> **Why rotated:** the 9/10 grade appended to a file with ~660 B of headroom against the binding **32,550 B** READ_CAP budget, so rotation was required in the SAME session — exactly as PICKUP item 6 warned on 9/7. Post-rotation `STATUS.md` = **32,540 B**, i.e. **10 B of headroom**. ⚠️ **That is not lean, it is at the line** — the next append needs a rotation before it, not after.
+
+## § `thresholds-rotated-20260910` — KEY THRESHOLDS rows as they stood at the 2026-09-07 closeout (verbatim, rotated from STATUS.md 2026-09-10)
+### row: `Initial claims (4-wk MA basis)` as it stood at the 2026-09-07 closeout
+
+| Initial claims (4-wk MA basis) | **206K / MA 207,250** [w/e Aug 29 · obs 2026-08-29] | <230K drift · 230-250K accelerating (vec 13→3) · **>250K sustained 4+wk = T-01** · **251-300K single = ARM T-01 provisional** · **>300K single = T-02 FIRE** | T-01 🔴 CARL+REGINALD; T-02 🔴 REGINALD (ORANGE→RED)+HENRY. **9/3: 206K single, 42,750 below T-01 on MA basis, 94K below T-02. No fire, no arm.** Run: 200/212/207/**204**/**206**. 🔧 **CORRECTED 2026-09-07 — this read `203`.** STATUS's own MA forces it: `829,000 − 212,000 − 207,000 − 206,000 = 204,000`, and FRED `ICSA` confirms 204,000 [w/e Aug 22]. **RESOLVED as an UNFOLLOWED REVISION, not a typo:** w/e Aug 22 was published at **203,000** on 8/27 (`NEXUS_BRIEF` VIEW row + `workbook/PUBLISHED.tsv` row 59) and has since been revised to **204,000**. The MA (207,250) tracked the revision because `boot.py` refreshes it from FRED `IC4WSA`; the run digit did not, because it was hand-carried from the 8/27 print. **So the auto-refreshed and hand-carried halves of the same row disagreed by 250 and nothing compared them.** 🔴 **Third consecutive claims card to catch a revision STATUS had not followed** (8/13, 8/20, 9/10) — that is a pattern, not three incidents. ⚠️ **B2a cannot catch this class — it compares observation DATES, not VALUES.** Found by the 9/10 card's §1 reconciliation, which is now a template fill-step. |  *[carried: 42,750 · 94K]*
+
+### row: `Initial claims (bull side)` as it stood at the 2026-09-07 closeout
+
+| Initial claims (bull side) | **206K — 21K above the line** | ≤185K ×5 clean sessions = Kill B. **9/3: count stays 0 of 5** — 206K does not start it. Distance WIDENED 3K on this print (18K → 21K). Direction noted honestly; the count is what governs and it is zero | exit-all check |
+
+### row: `Continuing claims` as it stood at the 2026-09-07 closeout
+
+| **Continuing claims** | **1,779K** [w/e Aug 22 · obs 2026-08-22] — **fourth direction-change in six weeks**; range-bound 1,777-1,799K | Vector-7 drop-to-2 needs **<1,750K ×4wk** (**29K away**, and **ZERO** of the four consecutive weeks banked) | vector 7 — **a COST/duration gauge, which is what it actually measures; it is NOT an early-warning instrument and will not be used as one** |
+
+
+ — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed, no score changed)
+
+📐 **PAYROLL REVISION BIAS — MEASURED 2026-09-07, MOVES NO THRESHOLD** (ALFRED, WQ-175 ② / DOCKET L274; ledger `workbook/PAYROLL_VINTAGES.tsv`). Headline: first→current mean **−66.0K** (`−66.0/10.3 = −6.4` t), **35/44 = 79.5% DOWN**; first→third **−33.5K** stage-OK. ⚠️ **BY REGIME: NOT DETECTED ≠ absent** — CI **[−40K, +33K]**. 🔒 Full derivation + exclusions → `STATUS_DETAIL.md` § `payroll-revision-bias`.
+
+---
+
+## § `calendar-graded-20260910` — MONITORING CALENDAR rows for Sep 4 / Sep 10, before and at the grade (verbatim, rotated from STATUS.md 2026-09-10)
+### As they stood BEFORE the 2026-09-10 grade
+
+
+| 🟡 **Fri Sep 4** | **MSFT/Xbox WARN cohort separations effective** (TX 158 + WA 605 = **763**) | ⛔ **PRE-COMMITTED, INDEPENDENCE_MAP §4: `763 / 20,000 = 3.8%` of the L-08 national detection floor — **26× below it**. I will NOT attribute any national claims move to this cohort in ANY week.** Falls in the w/e Sep 5 week (prints Thu 9/10). Logged, unattributable by construction. |
+| 🔴 **Thu Sep 10 08:30** | **Initial claims w/e Sep 5** + CC w/e Aug 29 | 🔒 **CARD FROZEN 2026-09-07, 3 days ahead** → `docket/GRADING_CARD_20260910_claims.md` (first built from the new `docket/TEMPLATE_claims_card.md`). Bands A–E **partition-verified** (`card_partition_check.py`, 0 defects). 🔴 **Roll-off corrected: w/e Aug 8 = 212K rolls off ⇒ mechanical term `(X − 212)/4`, so the MA FALLS below a 212K print.** The docket carried `(X−200)/4`, which inverted the sign at the modal outcome. **Recompute on the as-published vintage BEFORE reading the level (L-02).** |
+
+### STATUS header line as it stood at the 2026-09-07 closeout
+
+**Last Updated:** 2026-09-07 ~18:1x ET *(Labor Day, market closed)* · 🔧 **NO MARKET DATA MOVED; NO VECTOR SCORED; SCORE UNCHANGED 29/75.** ✅ **9/10 CLAIMS CARD FROZEN 3 DAYS AHEAD** (+ Amendment 1, pre-print) off a new template — **BD-19 discharged.** 🔴 **The card refuted its own docket: mechanical term was `(X−200)/4`, is `(X−212)/4` — sign-inverting at the modal print.** See BOTTOM LINE. 🔴 **CALIBRATION CORRECTED AGAINST MY OWN FAVOUR: 4 of 12 predictions were scored at a walked-down confidence — mean Brier 0.299 → 0.342, ≥60% threshold record 0-for-5, not 0-for-4.** **Eight wrong-reference defects found across four review rounds, none self-caught** (recorded once → `LESSONS.md` L-30).
+
+### The graded rows as first written on 2026-09-10, before compression
+
+### MONITORING CALENDAR graded rows Sep 4 / Sep 10 — verbatim, rotated from STATUS.md 2026-09-10
+
+| ✅ **Fri Sep 4** | MSFT/Xbox WARN cohort separations effective (763) | **CLOSED 9/10 — LAPSED-LOW, as pre-committed and without re-reading the outcome.** `763 / 20,000 = 3.8%` of the L-08 floor, `20,000 / 763 = 26.2×` below it ⇒ **no part of the w/e Sep 5 move is attributed to it in EITHER direction.** Claims were flat; that is not evidence the cohort was absorbed. `docket/WARN_COHORT.tsv` rows closed. |
+| ✅ **Thu Sep 10 08:30 — GRADED** | Initial claims w/e Sep 5 **206K** + CC w/e Aug 29 **1,774K** | **BAND B / NO ACTION on all five axes; nothing fired, nothing armed, no packet routed** (§7 pre-committed: bands A/B ⇒ STATUS only). Card → `docket/graded/GRADING_CARD_20260910_claims.md` §9. 🔴 **The card's A1.2 regeneration clause fired on its FIRST live use and its named hypothetical occurred to the unit:** retained sum revised `617,000 → 618,000`, T-01 bound moved `383,000 → 382,000`. A 383,000 print would now fire T-01 **and require CARL**; the frozen number would have missed it. |
+
+
+
+---
+
+## § `matrix-rotated-20260910` — CONVERGENCE MATRIX vectors 3 / 6 / 10 / 12 graded narrative (verbatim, rotated from STATUS.md 2026-09-10)
+
+### CONVERGENCE MATRIX vector 3 — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed, no score changed)
+
+| 3 | ISM/survey employment | **2** 🟡 | flat | ✅ **GRADED 9/3 off frozen card (`docket/graded/GRADING_CARD_20260903_ISM_SERVICES.md`).** Svs Aug Emp **47.8** [+0.4 from Jul 47.4, 2nd month contraction] < 50 ⇒ **v3 HOLDS at 2**, survey layer stays SPLIT (Mfg Aug 51.2 vs Svs Aug 47.8). Drop-to-1 condition (both surveys >50 same month) NOT met and now further from the line on the Svs side. |  *[carried: 51.2 · 47.8]*
+
+### CONVERGENCE MATRIX vector 6 — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed, no score changed)
+
+| 6 | Long-term unemployed / duration | **3** 🟠 | flat | ✅ **GRADED 9/4.** Aug LT share **27.0%** (1.9M) [USDL-26-1435], up from 25.5% — lands **EXACTLY ON the >27% restore bar without crossing it**. ⛔ **v6 HOLDS at 3**: `27.0` is not `>27`, and the conjunction's second leg is **absent from the release**. **Not rounding up.** Drop-to-2 (<24% ×2) nowhere near. 🔒 → `STATUS_DETAIL.md` § `matrix-graded-20260907`. |
+
+### CONVERGENCE MATRIX vector 10 — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed, no score changed)
+
+| 10 | Healthcare cracking | **1** ⚪ | flat | ✅ **GRADED 9/4: health care Aug +13K [USDL-26-1435] — POSITIVE ⇒ T-08 does NOT fire, v10 HOLDS at 1.** Decelerating hard (+13K vs 12-mo avg **+32K**, and the average itself fell +36K→+32K) — recorded, but **there is no band for deceleration and I will not improvise one.** Net-neg aggregate print → T-08 fires CARL/REGINALD, restore 4 |
+
+### CONVERGENCE MATRIX vector 12 — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed, no score changed)
+
+| 12 | **Public-sector employment** *(renamed 8/07; /75 unchanged)* | **1** ⚪ | flat | ✅ **GRADED 9/4: federal payrolls Aug −5K (ex-USPS −3.3K) [Table B-1] vs the ≤−25K T-13 bar ⇒ does NOT fire; v12 HOLDS at 1.** Per **BD-17** the payroll line alone would not have moved the vector even had it fired. Re-fire needs a new federal RIF authority, **or** a state/local decline persisting 3+ months **and** coinciding with an EPOP drawdown. 🔒 → `STATUS_DETAIL.md` § `matrix-graded-20260907`. |
+
+
+
+---
+
+## § `exit-rules-rotated-20260910` — EXIT RULES Kill A bullet + sweep banner, and the LAB-03 / LAB-18 / LAB-19 / C2-0 rows (verbatim, rotated from STATUS.md 2026-09-10)
+
+### EXIT RULES Kill A bullet — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+- **Kill A (bull falsification): NFP ≥+200K ×3 consecutive, revised series (L-02).** 🔧 **RUN REFRESHED 2026-09-04 vintage: 63 / 31 / 21 / 162** — zero of the last 3 qualify (`162 ≥ 200` ✗). Dormant. *(This bullet carried the Jul-2 vintage `214 / 148 / 129 / 57` until 2026-09-07 while `§ KEY THRESHOLDS` in the same file carried the 9/4 revised run — same verdict, split stamps, DAEDALUS F4. The verdict never diverged, which is why nothing caught it.)* Standing rule unchanged.
+
+### EXIT RULES sweep banner — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+> ⚠️ **SWEEP THIS SECTION AT EVERY C1** — Kill A carried the Jul-2 vintage for 9 weeks while the same file's KEY THRESHOLDS carried the 9/4 one (DAEDALUS F4). ⛔ **The matching `CLAUDE.md` C1 edit is NOT made — it is Will-gated in the charter batch.** Until Will rules, this banner is the only thing carrying the obligation, which is exactly the weaker of the two mechanisms; treat it as a reminder, not a control.
+
+### C2-0 sweep line — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+> 🔒 **C2-0 STALE-HIGH-CONFIDENCE SWEEP — RE-RUN 2026-09-02, re-derived from `workbook/PREDICTIONS.tsv`, not read off a list. RESULT: ZERO ROWS TRIP IT** (LAB-03 7% · LAB-08 4% live · LAB-12 30% · LAB-11 50% — all below the ≥60% bar, so gates #3/#5/#12/#13 have nothing to sweep). The 9/1 run and the rotated 8/07 worked block → `STATUS_DETAIL.md` § `predictions-resolved` and § `session-superseded-20260902`.
+
+### LAB-18 row — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+| **LAB-19** 🆕 | **The Jun/Jul LF contraction REVERSED, not paused: LF MoM >0 in ≥2 of the 3 remaining 2026 prints** | **60%** | Sep–Nov obs | 🔒 **MECHANISM call (3-for-3 zone) — the deliberate counterpart to LAB-18, and it tests MY OWN CORE TENSION in the direction that would refute it.** 60% sits between the 2000+ and last-23mo base rates. ⚠️ **≥2-of-3 is not survive-all — gate #12 does not bind here.** 🔴 **If TRUE, my CORE TENSION needs rewriting, said at registration.** 🔒 Base rates → `STATUS_DETAIL.md` § `open-prediction-basis`. |
+
+### LAB-19 row — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+> 🔒 **Resolved-prediction tables (LAB-10 · LAB-13 · LAB-06 · LAB-17 + earlier resolutions) and the 8/07 sweep-block rotation pointer → `STATUS_DETAIL.md` § `predictions-resolved`** (verbatim, L146 · L148 · L150-159). Ledger of record stays `workbook/PREDICTIONS.tsv`.
+
+### LAB-03 row — verbatim, rotated from STATUS.md 2026-09-10 (no figure changed)
+
+| LAB-08 | BLS benchmark revision >500K downward | 🔧 **4%** *(live diagnostic; **scores AS-MADE at 65%**)* · **Status: `OPEN` — due Q1-2027** | 🔴 **GRADED-BUT-NOT-RESOLVED 2026-08-28** off card §4 BAND E. 🔒 Full reprice path (65→35→15→4%) + carried figures → `STATUS_DETAIL.md` § `lab08-reprice-path` (verbatim, rotated 2026-09-07). |
+
+---
+
+## § `pickup-rotated-20260910` — NEXT SESSION PICKUP + BOTTOM LINE as they stood at the 2026-09-07 closeout (verbatim, rotated from STATUS.md 2026-09-10)
+## NEXT SESSION PICKUP
+
+> 🔒 **Closed items (WQ-193 delivered · the six SENDING rows · ACTION 4 · the 9/7 repair history) → `STATUS_DETAIL.md` § `pickup-closed-20260907-closeout`.** This slate is FORWARD work only.
+
+1. 🔴 **THE CLOCK ITEM — Thu 9/10 08:30, claims w/e Sep 5. Card is FROZEN 3 days ahead** (`docket/GRADING_CARD_20260910_claims.md` + Amendments 1/1a/1b, all pre-print; built from `docket/TEMPLATE_claims_card.md`). **Grade order, pre-committed:** ① recompute **BOTH** window-derived quantities on the AS-PUBLISHED vintage *before* reading the level — §3's `ΔMA(X) = (X − 212,000)/4` **and** A1.2's T-01 bound `X > 1,000,000 − (W2+W3+W4)` (frozen value 383,000; **void if the window revises**) · ② grade **three independent axes** — §2 single-print bands A–E, A1.1 vector-13 `<200,000` counter, A1.2 T-01 MA basis · ③ write the outcome into KEY THRESHOLDS + the calendar row · ④ **`git mv` the card to `docket/graded/` AND build the 9/17 card in the same session** (C2a's recurring-print trigger). ⚠️ **MSFT/Xbox cohort (763) is in this week and is NOT attributed in either direction:** `763 / 20,000 = 3.8%` of the L-08 floor, `20,000 / 763 = 26.2×` below it.
+2. 📅 **PROME commission L302 — four instruments, due 2026-09-16** (packet in `inbox/processed/`; ACK `PROME/inbox/2026-09-07f`). Order: Indeed operational audit (`VX-LAB-1.04` carries a **182-day-old** figure) → LAB-19 age decomposition → private weekly hours (B-4) → state claims breadth, FL first. **Each item states the decision it could change, including against my thesis, BEFORE any build.** ⛔ Do not assume postings lead hires — test it on my own history; if it does not lead, say so and the row stays diagnostic.
+3. 📅 **9/25 — Oct-2 NFP card freeze owed** (`card_required_check.py` flags it MISSING when run at that date — verified). Also 9/25: ALFRED payroll vintage table (WQ-175 ②). **9/11 WQ-179 · 9/14 conventions — do not let them hold up authorized maintenance.**
+4. 🔴 **OWED, still not started — base-rate the CORRECTIVE, not just the original** (L-25; `35/4 = 8.75×`). **L-32 is the second instance of this class and it is now n=2 in 10 days** — the trigger to build is a comparative TIMING/performance claim.
+5. **Live build debt — `BUILD_DEBT.md` is the register (15 LIVE rows); near-term: BD-23 · BD-26 · BD-31.** BD-19 discharged 9/7. ⛔ BD-26 (no payrolls vector) settles at a full matrix re-grade, **never on a catalyst morning.**
+6. ⚠️ **READ-CAP: both boot surfaces run with almost no headroom** — STATUS ~32.4K, LESSONS ~31.2K against the 32,550 B budget. **Assume every substantive append needs a rotation in the SAME session**; it did five times on 9/7.
+7. 🔒 **PRE-REGISTERED, UNTOUCHED:** v4 JOLTS-August NET bands (~Oct 6) — NET >0 ⇒ v4 → 2 · NET ≤0 a 4th month ⇒ v4 → 4 · NET ≤0 but hires rate ≥3.4% ⇒ HOLD 3. **v8 restore-to-3: leg 1 banked 9/4 (+55K); leg 2 is the Oct 2 print.**
+8. 🔒 **C2-0 SWEEP RE-DERIVED AT THIS CLOSEOUT from `workbook/PREDICTIONS.tsv` (not read off a list) — ZERO rows trip it.** Six OPEN: LAB-03 7% · LAB-08 4% · LAB-11 50% · LAB-12 8% · LAB-18 15% · LAB-19 60%. Only LAB-19 clears the ≥60% bar and it **fails the staleness leg** (registered 2026-09-04, 3 days).
+9. 🔒 **C5 RETIREMENT CHECK RUN — nothing eligible, and the reasons are recorded so it is not re-litigated:** `STATUS_archive_20260702.md` (67d, 0 refs inside LABOR) **is referenced from `AGENTS/CORAL/inbox/processed/` — moving it breaks a path another desk has logged**, so it stays; `ARCH_REPORT_20260626.md` has 0 refs repo-wide but its last commit is **45 days**, under the 60-day bar on the git clock (the preferred clock — mtime is restamped by sync).
+
+## BOTTOM LINE
+
+**🔧 2026-09-07 — NO MARKET DATA MOVED, NO VECTOR SCORED, SCORE UNCHANGED 29/75.** The domain read is unchanged from the 9/4 grade: claims **206K / MA 207,250** [w/e Aug 29], CC **1,779K**, U-3 **4.1%** on a labor force that grew **+683K**, NFP **+162K**. Nothing fired; nothing is close except freeze-thaw **LEG B, 0.1pp away**.
+
+**The day's output was preparation and repair, and it is worth what it caught.** The **9/10 claims card is frozen three days ahead** off a new reusable template (**BD-19 discharged**), bands partition-verified, 0 defects. 🔴 **The card refuted the docket that spawned it:** the pre-computed mechanical term read `(X−200)/4` and is **`(X−212)/4`** — on a 206K repeat the docket said the 4-week MA would *rise* 1,500 when it will *fall* 1,500. **Sign inverted at the modal outcome, and it was BD-19's own predicted failure mode sitting in the docket.** Two further finds: STATUS carried an **unfollowed revision** (203K→204K, w/e Aug 22 — `B2a` compares obs DATES, not VALUES, so it cannot see this class), and the bands **omitted two existing decision rules** (vector 13's `<200,000` counter; T-01's MA basis, which also routes **CARL** — previously omitted from band E).
+
+🔴 **THE HONEST TALLY, COUNTED RATHER THAN ASSERTED** *(I first wrote "ten" here without dividing — the exact L-32 trigger, caught in the same closeout that recorded it).* **CODEX pass 1: 6 · CODEX pass 2: 5 · PROME: 1 ⇒ `6+5+1 = 12` found by others. Self-caught: 2. Total `12+2 = 14`; self-caught share `2/14 = 14%`.** The two I found were the frozen-half edit and a latent `CARD:`-matching-inside-`NOCARD:` bug — **both surfaced by checks I had just written, neither by re-reading my own prose.** *(Separately, the 9/7 morning session's 8 wrong-reference defects, none self-caught, are recorded once in L-30 and are NOT re-counted here.)* ⇒ **L-31** (a DERIVED parameter ages on a different clock than the level it came from, and only the level has a freshness check) and **L-32** (the rule I broke sat in my own charter, written after the identical break 10 days earlier — it failed because the number was an *aside*, had no external source so recall replaced measurement, and ran in my favour).
+
+🔒 **The 9/4 NFP-grade narrative** (headline call missed; count layer healing; household survey cutting against this book) → `STATUS_DETAIL.md` § `bottom-line-rotated-20260907c`.
+
+**Next — Thu Sep 10 08:30, claims w/e Sep 5.** Grade off the frozen card: recompute **both** window-derived quantities on the as-published vintage first, grade **three independent axes**, then archive the card and build the 9/17 one in the same session. **Pre-committed and unchanged: the MSFT/Xbox cohort is `763 / 20,000 = 3.8%` of the L-08 floor, `20,000 / 763 = 26.2×` below it — not attributed in either direction.** Then PROME's L302 commission (9/16), the Oct-2 NFP card freeze (9/25), JOLTS August (~Oct 6) and **NFP September Fri Oct 2**, which supplies leg 2 of vector 8's restore counter.
+
+
+---
+
+## § `pickup-rotated-20260910b` — NEXT SESSION PICKUP items 6-8 as first written on 2026-09-10 (verbatim, rotated from STATUS.md 2026-09-10)
+
+### NEXT SESSION PICKUP items 6-8 — verbatim, rotated from STATUS.md 2026-09-10
+
+6. 🔴 **STILL NOT STARTED — base-rate the CORRECTIVE, not just the original** (L-25; `35/4 = 8.75×`). L-32 is the second instance; trigger to build is a comparative TIMING/performance claim.
+7. **Live build debt — `BUILD_DEBT.md`; near-term BD-23 · BD-26 · BD-31 · BD-13.** ⚠️ **BD-13 (WA ESD primary for the MSFT 605 never pulled) is now CLOSED-BY-LAPSE, not discharged** — the cohort lapsed LOW so the primary no longer matters for attribution, but the row was carried as "verified" on two secondaries for 13 days and that defect is unfixed in kind.
+8. 🔒 **PRE-REGISTERED, UNTOUCHED:** v4 JOLTS-August NET bands (~Oct 6) — NET >0 ⇒ v4 → 2 · NET ≤0 a 4th month ⇒ v4 → 4 · NET ≤0 but hires rate ≥3.4% ⇒ HOLD 3. **v8 restore-to-3: leg 1 banked 9/4 (+55K); leg 2 is the Oct 2 print.**
+
+---
+
+## § `hotcold-split-inventory` — STATUS.md header navigation block — the full HOT/COLD inventory and dated re-trigger (verbatim, rotated from STATUS.md 2026-09-10)
+
+### STATUS.md header navigation block (HOT/COLD split + dated re-trigger) — verbatim, rotated 2026-09-10
+
+> 🔒 **HOT/COLD SPLIT 2026-09-02 — cold half is `AGENTS/LABOR/STATUS_DETAIL.md`.** This file (`STATUS.md`) is the **HOT half and is canonical for every live figure, band, score and open grade**. Moved to the cold half, **verbatim and contiguous, no figure changed**: CORE TENSION (full) · the matrix `Key Signal`+`Indep` evidence columns and its re-grade notes · SIGNAL DASHBOARD (full) · no-fire/diagnostic threshold rows · DANGER WINDOW graded rows · resolved predictions · graded calendar rows · discharged inbox windows · closed pickup items. **Read it on demand — it is NOT a boot read.**
+> 📅 **DATED RE-TRIGGER (READ_CAP rule 7):** split 2026-09-02 at **53,375 B → this file**; **re-measure at every closeout append and unconditionally on 2026-10-02, whichever first** (`python3 scripts/read_cap_check.py --agent LABOR`). Budget **32,550 B** (binding, root CLAUDE.md Data Hygiene); rotate again at ≥24,412 B. *This is a dated re-trigger, not a claim that the file is lean.*
+ — verbatim, rotated from STATUS.md 2026-09-10
+
+
+
+---
+
+## § `bottom-line-rotated-20260910` — BOTTOM LINE paragraphs (card regenerations / Canada row) as first written on 2026-09-10 (verbatim, rotated from STATUS.md 2026-09-10)
+
+### BOTTOM LINE paragraphs (card-regenerations · Canada row) — verbatim, rotated from STATUS.md 2026-09-10
+
+**THE CARD EARNED ITS KEEP ON THE REGENERATIONS, NOT THE GRADE.** ✅ **A1.2's clause fired on its FIRST live use and the hypothetical it wrote three days earlier occurred to the unit:** it said *"if the retained sum revises 617,000 → 618,000, the bound moves to `X > 382,000`"*; w/e Aug 29 revised 206→207, the sum went 617,000 → 618,000, and the T-01 bound moved **383,000 → 382,000**. A 383,000 print would now fire T-01 **and require CARL**, where the frozen number would have missed it. 🔧 **And the same step found a NEW defect in my own card:** §3 has two computed columns on **two clocks** — `ΔMA` depends only on `R` (unmoved, exact) while `MA_next` depends on the retained sum (moved, so **every row rotted by +250**). The card said "regenerate §3's table" without saying which half could rot. **That is L-31 — a derived parameter ages on a different clock than the level it came from — realized ONE PRINT after L-31 was written.** Fixed forward in the 9/17 card; the template fix is still owed (PICKUP 4).
+
+🔴 **THE CANADA ROW: GRADED, AND THE HONEST ANSWER IS "NO EVIDENCE", NOT "NO EFFECT".** Counter-tariffs on CA$27.6B took effect 9/8; **no WARN filing and no announced furlough at any US agricultural-equipment or pulp-and-paper exporter cites them.** ⚠️ **Tagged SEARCH-NOT-FOUND, explicitly NOT verified-absent** — the search was bounded web only and **four state WARN primaries are named and unchecked** (IL/MN/IA/WI). **Two days has no power anyway:** WARN's 60-day rule puts a 9/8-caused separation at ~Nov 7, and the framework's WARN→claims lag is a further 6 weeks. **Re-docketed 2026-10-08.** 🔴 **The one finding that cuts against the easy read: every named layoff the search returned runs the OTHER way** — RYAM Témiscaming, ~400–425 workers, caused by **US** tariffs on **Canadian** goods. That is Canadian employment, it is not mine, and importing it as counter-tariff evidence would be a sign error on the transmission leg.
+
+---
+

@@ -119,9 +119,83 @@ Pre-registered at freeze:
 1. ✅ **Found at freeze:** docketed roll-off week/value and mechanical term both wrong, sign-inverting at the modal print (see banner).
 2. ✅ **Found at freeze:** STATUS claims run carries `203` where FRED and STATUS's own MA force `204`.
 
-## §9 — GRADE (written 2026-09-10 off this frozen card — never re-read a band)
+## §9 — GRADE (written 2026-09-10 ~10:4x ET off this frozen card — no band re-read)
 
-*Blank until print. At grade time: recompute §3 on the as-published vintage FIRST (§4), then assign the band, then write the outcome into `STATUS.md` (KEY THRESHOLDS + calendar row) and `git mv` this card to `docket/graded/`.*
+**PRIMARY:** DOL/ETA *Unemployment Insurance Weekly Claims*, embargoed release **Thu 2026-09-10 08:30 ET** (`https://www.dol.gov/ui/data.pdf`, pulled 10:3x ET, text extracted with pdfminer). **Not FRED, not a secondary** — `[CONF]`.
+
+### §9.0 — STEP ① FIRST, AS §4 / A1.2a ORDER: regenerate BOTH window-derived quantities on the as-published vintage, BEFORE reading the level
+
+**As-published 4-week window** (oldest→newest), w/e Aug 15 · Aug 22 · Aug 29 · **Sep 5**:
+
+| Week | Frozen §1 value | As-published 2026-09-10 | Moved? |
+|---|---|---|---|
+| w/e Aug 8 (**the roll-off, `R`**) | 212,000 | **212,000** | no |
+| w/e Aug 15 | 207,000 | **207,000** | no |
+| w/e Aug 22 | 204,000 | **204,000** | no |
+| w/e Aug 29 | 206,000 | 🔧 **207,000** | **+1,000 — revised with this print** |
+| w/e Sep 5 (`X`) | — | **206,000** | new |
+
+**Retained three weeks `W2+W3+W4`: `207,000 + 204,000 + 207,000 = 618,000`** — frozen §1 had **617,000**.
+
+**① §3's mechanical term — SURVIVES.** `R` did not revise, so `ΔMA(X) = (X − 212,000)/4` stands:
+`ΔMA(206,000) = (206,000 − 212,000)/4 = −6,000/4 = **−1,500**`. **DOL publishes the 4-wk MA change as −1,500.** ✅ **Exact match.**
+🔴 **The docketed term `(X−200)/4` would have said `(206,000−200,000)/4 = +1,500` — the sign inversion the card predicted, realized at the modal print.** The correction was worth exactly what it claimed.
+⚠️ **But §3's `MA_next` COLUMN is VOID and the ΔMA column is not — they age on different clocks.** §3's modal row said `MA_next = 205,750`; on the as-published retained sum it is `(618,000 + 206,000)/4 = 824,000/4 = **206,000**`, which is what DOL publishes. **`ΔMA` is a function of `R` only (unmoved); `MA_next` is a function of the retained sum (moved +1,000, so +250 on the MA).** Recorded as defect 3 below.
+**Reconciliation of the published prior average:** `830,000/4 = 207,500` and DOL states the prior average was revised up 250 from 207,250 → 207,500. `830,000 − 618,000 = 212,000` re-derives `R` independently. ✅
+
+**② A1.2's T-01 crossing bound — REGENERATED, and the frozen number was VOID exactly as A1.2 warned:**
+`X > 1,000,000 − (W2+W3+W4) = 1,000,000 − 618,000 = **382,000**`.
+🔴 **A1.2 wrote, three days ahead: *"If the retained sum revises 617,000 → 618,000, the bound moves to `X > 382,000`."* **That is the revision that occurred, to the unit.** Frozen `383,000 / 384,000` are void; live bound is **T01-a ≤ 382,000 · T01-b ≥ 383,000**. A 383,000 print would now fire T-01 **and require CARL**, where the frozen card would have missed it. **The regeneration rule was not hypothetical hygiene; it was load-bearing on its first live use.**
+
+### §9.1 — STEP ②: THREE INDEPENDENT AXES, graded separately (a print may be state-changing on one and inert on another)
+
+| Axis | Value read | Band | Pre-committed assignment | Fired? |
+|---|---|---|---|---|
+| **§2 single-print** | **206,000** | **B** (186,000–229,000) | **NO ACTION** (drift band, `<230,000`) | ❌ no |
+| **A1.1 vector-13 counter** | 206,000 vs `<200,000` | **V13-b** (≥200,000) | counter **stays 0 of 4** — `206,000` is not `<200,000` | ❌ no |
+| **A1.2 T-01, MA basis** | 206,000 vs the regenerated **382,000** | **T01-a** (≤382,000) | 4-wk MA **206,000** ≤ 250,000 ⇒ **T-01 does NOT fire** | ❌ no |
+| **§5 continuing claims** | **1,774,000** [w/e Aug 29] vs `<1,750,000` | **CC-2** (≥1,750,000) | vector-7 count **stays 0 of 4** | ❌ no |
+| **Kill B (bull side)** | 206,000 vs `≤185,000` | — | count **stays 0 of 5** | ❌ no |
+
+**Distances, computed not asserted:**
+- T-01 (MA basis): `250,000 − 206,000 = **44,000**` *(was 42,750 on the 9/3 MA — the gap WIDENED 1,250 because the MA fell)*
+- T-02 (single print): `300,000 − 206,000 = **94,000**` — unchanged
+- Kill B: `206,000 − 185,000 = **21,000**` above the line — unchanged from 9/3
+- Vector 13 `<200,000`: `206,000 − 200,000 = **6,000**` above the line
+- Vector 7 CC: `1,774,000 − 1,750,000 = **24,000**` away *(the 9/7 card said 29,000 off a 1,779,000 that has since revised to 1,775,000; the honest prior distance was 25,000, so the true move is **−1,000**, not −5,000)*
+
+**ZERO of the five pre-committed conditions fired. Nothing armed, nothing routed.**
+
+### §9.2 — §3's PRE-COMMITTED READING RULE, applied to itself
+
+🔴 **The 4-week MA FELL 1,500 to 206,000 while the weekly level was FLAT at 206,000 and the prior week revised UP 1,000.** Per §3's rule, frozen before the print: **this is mechanical, not signal.** The decline is `R = 212,000` leaving the window and nothing else. **I will not narrate a declining MA as improvement, and there is no improvement here to narrate** — the level did not move.
+
+### §9.3 — §4 ATTRIBUTION DISCIPLINE, discharged as written
+
+- **MSFT/Xbox WARN cohort (763), effective 2026-09-04, falls in THIS claims week and is NOT attributed in either direction.** Pre-committed and unchanged: `763 / 20,000 = 3.8%` of the L-08 national detection floor; `20,000 / 763 = 26.2×` below it. **Claims were flat; that is not evidence the cohort was absorbed, and it is not evidence it was invisible. It is not evidence about the cohort at all.**
+- **A benign print is not hawkish fuel — it is nothing** (7/29 FOMC grade). Rate path → BOND, HENRY, ORACLE.
+- **One weekly print is a realization gauge, not a demand-vs-supply discriminator.** The CORE TENSION is untouched by this print.
+- 🟡 **NSA colour, reported and NOT graded:** unadjusted initial claims **176,567**, `+5,164 (+3.0%)` WoW against a seasonal factor expecting `+5,789 (+3.4%)` — i.e. the raw rise came in **625 SMALLER** than the factor expected, which is what produced the −1,000 SA move. Prior-year comparable week **204,862**, so unadjusted claims are `204,862 − 176,567 = 28,295` **below** the year-ago week (`28,295/204,862 = 13.8%` lower). **No band is denominated in NSA or in YoY and I am not improvising one.**
+
+### §9.4 — §6 held: NO new prediction registered
+
+**Unchanged from freeze.** Every band on this card is a THRESHOLD call and my as-made record is **0-for-5 at ≥60% on thresholds**. **LAB-03 (claims breach 250K, 7%, due Q2–Q3)** is the only forecast this print can touch and a 206,000 print inside a 44,000-wide gap does not move it. **LAB-03 stays 7% and stays OPEN.**
+
+### §9.5 — §7 ROUTING, executed
+
+**Band B + CC-2 ⇒ `STATUS only — no packet. Silence = received and integrated.`** ✅ **No WALTER signal, no CARL/REGINALD/HENRY packet.** Nothing crossed a routing boundary and I am not manufacturing a dispatch out of a flat print.
+
+### §9.6 — §8 DEFECT LOG, completed at grade time
+
+3. 🔧 **FOUND AT GRADE — the card labelled a vintage-dependent quantity as if it were vintage-robust.** §3's table has two computed columns; `ΔMA` depends only on `R` and survived the revision, `MA_next` depends on the retained sum and **went stale by +250 on every row.** §4/A1.2a ordered regeneration of "§3's table" as one object, which was the right instruction — but the card never said *which column could rot and why*, so a reader regenerating under time pressure could have kept the `MA_next` numbers. **→ template fix: split the two columns and mark `MA_next` `[vintage-dependent]`.** This is **L-31** (a derived parameter ages on a different clock than the level it came from) realized **one print after L-31 was written**.
+4. ✅ **NOT a defect, recorded so it is not miscounted:** w/e Aug 29 revising 206,000→207,000 and CC w/e Aug 22 revising 1,779,000→1,775,000 are **same-print revisions arriving WITH this release**. STATUS could not have followed them and did not fail to. ⛔ **The card's "third consecutive card to catch a revision STATUS had not followed" count stays at THREE (8/13, 8/20, 9/10) — today adds nothing to it.** Inflating that count would be the exact self-assessment failure `CLAUDE.md` OUTPUT RULES (b) exists to stop, running in the flattering direction for once.
+5. ✅ **A1.2's regeneration clause fired correctly on its first live use** — recorded as a WIN, with the same arithmetic discipline as a loss. The predicted 617,000→618,000 revision occurred exactly and moved the bound 1,000.
+
+### §9.7 — VERDICT
+
+**BAND B — NO ACTION, on all five axes, and the print is genuinely uninformative.** Claims **206,000** [w/e Sep 5, DOL 9/10] flat WoW on a prior revised up 1,000; **4-wk MA 206,000** (−1,500, mechanical); **CC 1,774,000** [w/e Aug 29] (−1,000, prior revised down 4,000); **IUR 1.2%**. **The realization channel has still not turned.** The card's value this week was not the grade — it was the two regenerations, one of which (A1.2) would have produced a materially wrong T-01 bound had it been skipped.
+
+**Card CLOSED. `git mv` → `docket/graded/`. Next card (w/e Sep 12, prints 2026-09-17) built in this same session per C2a's recurring-print trigger.**
 
 ---
 

@@ -65,6 +65,12 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ⚠️ **Do not read this as "add a date to derived values."** A date on `(X−200)/4` would have been today's date and would have certified it — `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`. The fix is the arithmetic, not the stamp. Now a fill-step in `docket/TEMPLATE_claims_card.md` (**stop if `MA_cur` ≠ the mean of the four W's**) and the reason §1/§3 are regenerated every week rather than copied.
 
+🔴 **CONFIRMED AT THE NEXT PRINT, 2026-09-10, and the second instance is SHARPER.** §3 of the 9/10 card holds **two computed columns on two clocks**: `ΔMA(X) = (X − R)/4` depends **only on the roll-off week**; `MA_next(X)` depends on **the retained three weeks**. w/e Aug 29 revised `206,000 → 207,000`, so the retained sum went `617,000 → 618,000`: **`ΔMA` survived and matched DOL's −1,500 to the unit; every `MA_next` value rotted by +250.** The same revision moved the T-01 bound `383,000 → 382,000`, which the card had written as a hypothetical three days earlier.
+
+🔑 **What it adds:** the 9/7 fix ("regenerate §1 and §3, never copy") **treats a card section as ONE object with ONE freshness state. It isn't** — two derived values on one line can have different inputs, so one is exact while the other is stale **with no visible difference**, and a reader regenerating under print-morning pressure keeps the table. ⚠️ **Amendment to L-31: NAME THE INPUTS EACH DERIVED VALUE DEPENDS ON, BESIDE THE VALUE.** Applied in the 9/17 card §3; **owed in `docket/TEMPLATE_claims_card.md` → BD-32.** ⚠️ **Written 9/7, recurred 9/10, in the artifact written to prevent it.** `[[finding_a_correction_pass_is_unreviewed_work]]`
+
+---
+
 ## L-30 — "Verified in git" names an ARTIFACT, and the artifact I verified against did not exist when the value I was verifying was set
 
 **Bought 2026-09-07, on my own calibration record, while sourcing a routine backfill.**
