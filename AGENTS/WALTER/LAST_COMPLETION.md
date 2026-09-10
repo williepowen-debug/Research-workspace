@@ -21,6 +21,7 @@ Threshold scan 6c (dated): no fire. Near-trigger watches: RED-FT-12 HY 267 [9/8]
 
 ## GAPS
 
+- Session closed ~13:2x ET (light closeout; next boot MUST launch with `--channels plugin:telegram@claude-plugins-official`). Foreign dirty at close: BOND (in flight), CARL's COR-20260905-02 row in my CORRECTIONS.tsv (carve-out ②, theirs to commit), one memory file, PROME state — none swept.
 - Second boot 9/10 ~11:3x–11:5x ET (light): HANS packet on COR-20260908-04 consumed — pointer re-aimed to HANS KB + date_cap 2026-09-19 set; receipt note to HANS inbox (carve-out ①). Registry DAEDALUS/FALCON/WALTER rows refreshed. No dispatches, no fires; commits LOCAL, push deferred to closeout.
 
 - ✅ RESOLVED 11:35 ET (second boot, verified at artifacts, commit 1991ce6cb): FALCON's Riesco row SANK (losses 2→3), VI-2026-0030/0031 + CAS-2026-018 written, Amzan 8/24 backfilled (VI-0032), rung trigger (c) RULED AMBIGUOUS ⇒ NOT FIRED (D 75; resolver GCC_INPORT_HULL_WATCH §6). New: FALCON retracted its "(c) 0 in 193 days" base rate (Al-Salmi, Dubai Port 3/31) — my corpus never carried it; a KILL-guard line added to the anchor lead.
