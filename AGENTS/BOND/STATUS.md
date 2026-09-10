@@ -30,7 +30,8 @@
 | **10Y real (DFII10)** | **2.46%** | 🟠 ↑ | [CONF FRED **9/9**] — path 2.45 [9/2] → 2.42 → 2.43 → 2.43 → **2.46 = the CLOSEST APPROACH of the episode**. **97.2nd pctile full series (n=5,926), 99.8th post-2010** |
 | 5Y5Y fwd (T5YIFR) | **2.33%** | 🟡 = | [CONF FRED **9/9**] — publishes one date ahead of the nominals (H.15 split, `KB-BND-178`) |
 | 10Y BE (T10YIE) | **2.37%** | 🟡 | [CONF FRED **9/9**] — +2bp across the 9/8 Canadian counter-tariff date, DFII10 flat ⇒ inside dispersion, insulation re-test NULL (`KB-BND-249`) |
-| ACM 10Y term premium | **+0.73%** | 🟠 | [CONF NY Fed, **Jul-2026 monthly — NOT daily**] |
+| **ACM 10Y term premium** | **0.7073** | 🟠 | [CONF NY Fed `ACMTermPremium` **`ACM Daily` sheet, 9/9**] — ⚠️ **UPGRADED 9/10 from the MONTHLY series this row carried at `+0.73% [Jul-2026]`. A DAILY series exists and publishes AHEAD of our FRED nominals.** 2026 max **0.8935 [8/17]**, min 0.4602 [6/29]. Risk-neutral leg **ACMRNY10 4.1146** |
+| **ACM decomposition — the C-36 discriminator, daily** | **9/4 payroll: ΔTP −7.7bp vs Δrisk-neutral +9.2bp** | 🟢 | [CONF NY Fed `ACM Daily`, computed 9/10] — **an INDEPENDENT model confirmation of `BND-24`**: the payroll session was policy-path, not term premium, decomposed rather than proxied off 2s-vs-30s. *(Prior monthly Jul reads 0.8363 now, not the 0.73 this desk carried — ACM is re-estimated, so history revises: a vintage effect, not necessarily an error.)* |
 | Kim-Wright 10Y TP (daily) | **0.8892** | 🟠 | [CONF FRED `THREEFYTP10` **9/4**] — 2026 high **0.8996 [9/1]**; +8.1bp on the 9/4 payroll session (one session, recorded not interpreted) |
 | **HY OAS** | **271bps** | 🟢 = | [CONF FRED `BAMLH0A0HYM2` **9/9**] — inert, 263–275 for a month |
 | **CCC OAS** | **1064bps** | 🟠 ↑ | [CONF FRED `BAMLH0A3HYC` **9/9**] — **another fresh 2026 high** (prior 1056 [9/8], 1053 [9/2]; series max 1137, 2025-04-07). Ratio 3.93x |
