@@ -1,0 +1,2 @@
+receipt_date	correction_id	action	note
+2026-09-11T15:28Z	COR-20260828-04	APPLIED	artifact=AGENTS/HOMER/workbook/PIPELINE.tsv#NATIONAL·INSTRUMENT-WARNING-FHA-PROCESS-BREAK-Oct-2025; artifact=AGENTS/HOMER/board_log.tsv#2026-08-31·SIG-W-20260828-009; owner_disposition_at=2026-08-31; scope=AGENTS/HOMER/**
