@@ -78,7 +78,9 @@ NEVER_ROLL = re.compile(
     re.I,
 )
 # Per-run history blocks that are candidates to roll.
-RUN_BLOCK = re.compile(r"^#{2,3}\s*(PENDING from Run|Pending from Run|Run \d+\s*—)", re.I)
+RUN_BLOCK = re.compile(
+    r"^#{2,3}\s*(?:[^\w\s#]\uFE0F?\s*)*(PENDING from Run|Pending from Run|Run \d+\s*—)", re.I
+)  # leading-emoji tolerant: "### 🆕 Run 21 …" was previously unreachable entirely
 
 # A PENDING block specifically must DECLARE its closure IN ITS HEADING.
 #
@@ -108,23 +110,61 @@ def is_terminal(heading, body):
 
 
 def split_sections(text):
-    """Split on ## / ### headings, preserving everything verbatim."""
+    """Split on ## / ### headings, preserving everything verbatim.
+
+    Returns (heading, body, parent_h2) — the PARENT matters, see classify().
+    """
     lines = text.split("\n")
     idx = [i for i, ln in enumerate(lines) if re.match(r"^#{2,3}\s", ln)]
     if not idx:
-        return [("", text)]
+        return [("", text, "")]
     out = []
     if idx[0] > 0:
-        out.append(("", "\n".join(lines[: idx[0]])))
+        out.append(("", "\n".join(lines[: idx[0]]), ""))
+    parent = ""
     for a, b in zip(idx, idx[1:] + [len(lines)]):
-        out.append((lines[a], "\n".join(lines[a:b])))
+        h = lines[a]
+        if re.match(r"^##\s", h):
+            parent = h
+        out.append((h, "\n".join(lines[a:b]), parent))
     return out
+
+
+def classify(heading, body, parent):
+    """Return ('roll'|'stay', why).
+
+    🔴 CONTAINMENT BEATS SPELLING (2026-09-11, KOYOMI self-audit, predicted then verified).
+    A '###' block inside a NEVER_ROLL parent is a PENDING sub-block whatever it is CALLED.
+    '### Run 20 — current dispositions' is a LIVE pending block merely NAMED like run
+    history: RUN_BLOCK matched it, the PENDING_BLOCK spelling rule did not, so closure was
+    judged body-wide and its body contains the word "CLOSED". It was one --keep-runs slot
+    from being archived while live. KOYOMI predicted this as a dated, falsifiable claim and
+    a direct test of the code confirmed it.
+    The same rule recovers the opposite failure: '### ✅ CLOSED by KOYOMI itself this run'
+    blocks under the PENDING parent were unreachable because RUN_BLOCK cannot skip a leading
+    emoji, leaving tens of KB of explicitly-closed material permanently unrollable while the
+    dry run reported "nothing terminal to roll".
+    """
+    if not heading:
+        return "stay", "preamble"
+    in_never_roll_parent = bool(NEVER_ROLL.match(parent)) if parent else False
+    if re.match(r"^###\s", heading) and in_never_roll_parent:
+        # Pending sub-block: rolls ONLY if its OWN HEADING declares closure.
+        if TERMINAL.search(heading):
+            return "roll", f"closed in heading, under {parent[:38]}"
+        return "stay", "pending sub-block (no closure in heading)"
+    if NEVER_ROLL.match(heading) or not RUN_BLOCK.match(heading):
+        return "stay", "never-roll or not a run block"
+    return None, None  # caller applies the existing run-block logic
 
 
 def plan(path, keep_runs):
     text = path.read_text(encoding="utf-8")
     secs = split_sections(text)
-    run_blocks = [(h, b) for h, b in secs if RUN_BLOCK.match(h)]
+    # Only TOP-LEVEL run blocks compete for the --keep-runs window. A '###' block inside a
+    # NEVER_ROLL parent is a pending sub-block and is judged by classify(), not by recency.
+    run_blocks = [(h, b) for h, b, par in secs
+                  if RUN_BLOCK.match(h) and not (re.match(r"^###\s", h) and par and NEVER_ROLL.match(par))]
     # ⚠️ DO NOT keep "the last N in FILE ORDER". Sub-agents differ: METSUKE writes
     # its run history oldest-first, KURA newest-first. On 2026-08-20 the file-order
     # version proposed archiving KURA's Run 12 -- THAT DAY'S RUN -- because it sat
@@ -137,10 +177,14 @@ def plan(path, keep_runs):
     keep_recent = {h for h, _ in run_blocks if run_no(h) in newest} if keep_runs else set()
 
     roll, stay = [], []
-    for h, b in secs:
-        if not h or NEVER_ROLL.match(h) or not RUN_BLOCK.match(h):
-            stay.append((h, b))
-        elif h in keep_recent:
+    for h, b, par in secs:
+        verdict, _why = classify(h, b, par)
+        if verdict == "roll":
+            roll.append((h, b)); continue
+        if verdict == "stay":
+            stay.append((h, b)); continue
+        # top-level run block: existing recency + closure-marker logic
+        if h in keep_recent:
             stay.append((h, b))
         elif is_terminal(h, b):
             roll.append((h, b))
