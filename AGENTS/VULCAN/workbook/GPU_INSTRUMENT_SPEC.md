@@ -2,6 +2,7 @@
 
 **Owner:** VULCAN (PROME coordination ruling, Tier 1, **2026-09-03**; WATT and DEWEY cc, nothing owed by them)
 **Status:** 🟡 **SPEC ENCODED 2026-09-06 · CADENCE PRE-COMMITTED · PANEL NOT YET FROZEN · ZERO ROWS WRITTEN — deliberately**
+**2026-09-11:** 🔴 **`GPU-PANEL-01` NOT FROZEN at the 9/11 deadline — READING 1 IS RECORDED AS MISSED** (see §4 addendum). ✅ **PROME's 9/6 AMENDMENT to ruling para. 3 is ENCODED — §3 below and the ruling now AGREE** (①a index LIVE, ①b futures 10/05; `term_normalized` + segment accepted into the registry vocabulary; PROME concurs; cc reached WATT/DEWEY as files) [KB-VULCAN-159].
 **Ledger:** `workbook/GPU_SERIES.tsv` (11th ledger; schema declared in `workbook/SCHEMA.tsv`, enforced by `scripts/validate_workbook.py` boot leg 7)
 **Register:** `docket/CATALYSTS.tsv` — readings **2026-09-11 · 09-18 · 09-25 · 10-02**, re-decide **2026-10-05**
 
@@ -75,6 +76,8 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 **The cadence was pre-committed anyway, and that ordering is the point:** PROME's ruling para. 3 requires *"cadence pre-committed BEFORE the first row."* Committing the reading dates while zero rows exist is the only moment at which the commitment is provably unselected. It is the same discipline as `semi_watch.py`'s cadence — **whoever chooses the run times chooses the readings [L-21]** — applied one step earlier.
 
 **⚠️ If `GPU-PANEL-01` is not frozen by 2026-09-11, that is a MISSED READING and is recorded as one**, exactly as a missed `semi_watch` slot is. It is not silently deferred.
+
+> 🔴 **ADDENDUM 2026-09-11 — IT WAS NOT FROZEN, AND THIS IS THE RECORD OF THE MISS.** The 9/11 session (PROME-spawned, DOCKET L323: DEWEY REQ-002 integration + a 14-item inbox drain) did not freeze the panel. **Reason, so it is a decision and not a lapse:** §5 item 1 requires a NAMED, FIXED vendor set per tier with the reason each is in, and the **contract tier has no reconnaissance behind it** — which vendors publicly quote a 12-month H100 price, and whether the ICE/Ornn endpoint exists, are both still `SEARCH-NOT-FOUND` (§3). Freezing a panel whose contract tier is unspecified would have minted a `panel_spec_id` from an unspecified composition — **the exact failure this section exists to prevent, on the instrument whose known dominant term is composition.** Recording the miss is cheaper than recording a baseline nobody chose. **What IS done:** PROME's 9/6 amendment is encoded above; `term_normalized`, the segment field and the `UNGRADEABLE` spread rule are settled. **Next:** a dedicated freeze pass BEFORE the 2026-09-18 reading 2 — vendor probes (Lambda / CoreWeave / Nebius / Crusoe reserved-term pages; Vast.ai H100 SXM n≥3; ICE/Ornn), then freeze, then read. If 9/18 is also missed it is recorded the same way. `[[finding_record_of_an_action_is_not_the_action]]` — the record here is of the NON-action, which is the honest half.
 
 ---
 
