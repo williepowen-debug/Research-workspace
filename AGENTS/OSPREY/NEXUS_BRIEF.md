@@ -3,7 +3,7 @@
 **Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE REFINERY CAMPAIGN RESTARTED AFTER A FOUR-DAY PAUSE (four plants in three nights), THE AUGUST RUNS PRINT LANDS THE OFFLINE PROXY AT THE BAND'S CENTRE, AND THE SEVENTH-WEEK EXPORT QUESTION IS OPEN — UNREADABLE, NOT ANSWERED.**
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports.
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's.
-**As of:** **2026-09-08 ~23:2x ET** (clock-read) — owner catch-up session after 6 dark days (9/2 → 9/8), four passes. Inbox drained · WQ-172/176 applied · HAWK audit reviewed · six ledger-completeness failures repaired · **Will ruled five remediation items ("all approved go ahead")** · strike feed built · THESIS v1.0 · 8 packets. **STATUS commit: see this session's final commit.**
+**As of:** **2026-09-10 ~23:5x ET** (clock-read) — **PROME-spawned DRAIN-ONLY session (WQ-221, Will 2026-09-10 23:22 ET "221 approved, fix the deck and spawn OSPREY tonight").** Five inbox items consumed. **WQ-216 joint taxonomy merged and delivered** · **strike-feed diff rule PATCHED after DAEDALUS's review (false absorption 15.2% → 2.0%, measured hold-one-out on this desk's own ledger)** · HAWK's NO OBJECTION consumed and both consumer flags reconciled here. **No mark, band, threshold or confidence moved. No new research.** *Prior: 2026-09-08 ~23:2x — owner catch-up after 6 dark days, four passes; Will ruled five remediation items; strike feed built; THESIS v1.0.* **STATUS commit: see this session's final commit.**
 
 ---
 
@@ -23,11 +23,16 @@
 - **The ledger missed the campaign's first confirmed SINKING of a Russian commercial ship for 38 days:** YANINA (FESCO/Rosatom container ship) sunk by naval drones 130 nm off Novorossiysk on 8/1, plus the Greek Aframax BOURDA struck near Taman the same day — both inside a sweep window headed "ALL refinery-class". Backfilled 9/8 (KB-084/085); no trigger fires (not a tanker), no clock changes. Same-session second pass also backfilled Kstovo 6/24 and a separate Saratov 8/2 halt, and found the Urals ~25% figure's origin: an uncited cell in HAWK's frozen June SUMMARY table.
 
 ## CHANNEL STATE (marks CARRIED; none moved, none movable by me)
-| Channel | Score | Kill clock (§1) |
-|---|---:|---|
-| 1 · Refineries/products | **4** 🔴 | newest row 9/8 — **0 of 30 days** |
-| 2 · Crude-export terminals | **5** 🔴 | newest row 9/1 — **7 of 30 days** · **no downgrade path exists (OWED-15)** |
-| 3 · Shadow-fleet tankers | **3** 🟠 | newest in-theater row **9/4** — **4 of 21** (2/21 on the unqualified reading; §1 has no geography qualifier — routed, OWED-32) |
+
+⚠️ **MARK STATE is a separate column from the mark (added 2026-09-10 on HAWK's consumer flag ②).** A mark that cannot move because its instrument is unreadable is **FROZEN**, not held on current evidence — and on a table without this column the two are indistinguishable (`finding_plausible_stale_value_evades_review`). **Reading a score without reading its mark state is a misread.**
+
+| Channel | Score | MARK STATE | Kill clock (§1) | Downgrade path (§1b) |
+|---|---:|---|---|---|
+| 1 · Refineries/products | **4** 🔴 | **HELD-ON-EVIDENCE** — August runs 3.8 M bpd [EA via Bloomberg, Meduza 8/28] + strike tempo to 9/8 | newest row 9/8 — **0 of 30 days** | **IN FORCE** — EA/Kpler monthly runs ≥ 4.5 M bpd for two consecutive months ⇒ 4→3 |
+| 2 · Crude-export terminals | **5** 🔴 | **FROZEN — INSTRUMENT UNREADABLE SINCE 2026-08-23** (Bloomberg 4-wk seaborne crude; 8/30 and 9/6 prints SEARCH-NOT-FOUND by OSPREY *and* BRENT, KB-OSPREY-074). The mark is stuck, not conviction. | newest row **9/9** (Novorossiysk oil terminal) — **0 of 30 days** | **IN FORCE, RULED BY WILL 2026-09-08** (EXIT RULES §1b): Bloomberg 4-wk ≥ **3.9** on two consecutive prints ⇒ 5→4; ≥ **4.1** on two ⇒ 4→3, **AND** 14 days with no in-channel row. ⛔ *Cannot currently fire — the leg is unreadable; conjunctive, so it fails SAFE.* **OWED-15 CLOSED.** |
+| 3 · Shadow-fleet tankers | **3** 🟠 | **HELD-ON-EVIDENCE** — in-theater vessel strikes to 9/4; AWRP last dated print 8/21 (event-driven observable) | newest in-theater row **9/4** — **4 of 21**, a **single** reading | **IN FORCE** — the §1 21-day kill clock IS the downgrade. **§1 geography qualifier RULED by Will 2026-09-08** ("Black Sea, Sea of Azov or Baltic waters or their approaches"); the Mediterranean rows 9/5-6 do not count. **OWED-32 CLOSED.** |
+
+**No channel steps below 2 while any Upgrade Trigger's own evidence is < 30 days old.** Upgrades still need Will's word (8/20 precedent). **HAWK returned NO OBJECTION to §1b on 2026-09-10 and closed the consumer window from its side; BRENT's window runs to 9/15.**
 
 **Thesis-kill theater clock: N/A — no channel has ever been individually killed.** `thesis/THESIS.md` is now **v1.0** (9/8) — the model as it has actually operated; STATUS stays canonical for state.
 
