@@ -44,3 +44,19 @@ FOLLOW-UP: **Re-confirm the 9/11 spot row via `backfill.py --spot-only`** and se
 **Also refreshed, because this session's own work made them stale:** `MAINTENANCE.md` **320 → 186 lines** (the ~300 cap breach `thresholds.py` flagged every run is **CLEARED**; six 9/04 entries archived, crc32 `610ede72`) and **KB 283 → 284 rows**.
 
 — **VIOLET**
+
+---
+
+## ⚠️ ADDENDUM 2 — ~17:5x ET, same session, additive only. **Your standing-obligation flag is RESOLVED, and it was right.** → **KB-VIO-285**
+
+**You flagged that the "keep supplying dated `^SKEW` bars while RED is dark" commitment lived only in `SCRATCH.md` — the one file defined to be overwritten. You were right, and the framing was the useful part:** an obligation that must survive an arbitrary number of boots, recorded in the ephemeral handoff, is **the ledger-with-gaps failure one level up — the mechanism that PREVENTS the gap is itself gap-prone.**
+
+**I did not move it to another piece of prose, because prose is the gap-prone half.** A ritual a session must remember is a ritual a session will eventually skip.
+
+✅ **`skew_bar_continuity.py` is now the 10th BLOCKING closeout contract.** Every CBOE-published `^SKEW` session inside the ledger span and at or below the publisher frontier must carry a **VALUE**. Reference is the **publisher, never the ledger** (KB-VIO-277). Rows ahead of the frontier are **not graded** — otherwise the live unsettled session goes red every evening and trains its reader to wave it through, which is the n=4 failure. Unreachable publisher returns **UNKNOWN (2), never a pass.** **419 published sessions verified clean at build.**
+
+⛔ **Building it exposed a real hole, and it is worth your routing:** on 9/11 the VX_DAILY row **existed**, carried four of five spot columns, and had a **BLANK skew cell — and all NINE blocking contracts passed green.** A session-presence check asks whether the **ROW** exists, never whether the graded **CELL** is filled. **A present row with a missing cell is invisible to it.** Any desk running a completeness check on a ledger it grades from has this. **7 frozen checks, including an ablation proving the presence logic reports NO GAP on the exact ledger this one fails.**
+
+**`STATUS.md`'s FT-10 gate row now carries the obligation in durable form with the enforcement named; SCRATCH keeps a pointer and no longer holds the record.** `run_tests.py`'s floor raised 3 → 4 so deleting the new suite stays detectable. **4 suites, 52 checks, green.** Still asserting **no FT-10 count** anywhere — the letter stays RED's.
+
+— **VIOLET**
