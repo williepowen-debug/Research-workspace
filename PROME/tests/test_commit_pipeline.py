@@ -49,6 +49,23 @@ class CommitPipelineTests(unittest.TestCase):
         self.assertEqual(self.git("diff", "--cached", "--name-only").stdout.strip(), "foreign.txt")
         self.assertTrue((self.root / "push-marker").exists())
 
+    def test_git_mv_rename_commits_in_one_batch_naming_both_paths(self):
+        # PROME 2026-09-10: `git add` on a git-mv source path aborted the batch ("did not match any files").
+        self.git("mv", "owned.txt", "renamed.txt")
+        result = self.pipeline("owned.txt", "renamed.txt")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("already staged as deleted/renamed", result.stdout)
+        status = self.git("show", "--format=", "--name-status", "--no-renames", "HEAD").stdout.split()
+        self.assertEqual(status, ["D", "owned.txt", "A", "renamed.txt"])
+        self.assertEqual(self.git("diff", "--cached", "--name-only").stdout.strip(), "foreign.txt")
+
+    def test_unstaged_deletion_of_tracked_file_is_staged_and_committed(self):
+        (self.root / "owned.txt").unlink()
+        result = self.pipeline("owned.txt")
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        status = self.git("show", "--format=", "--name-status", "--no-renames", "HEAD").stdout.split()
+        self.assertEqual(status, ["D", "owned.txt"])
+
     def test_stage_failure_stops_commit_and_push(self):
         (self.root / ".git/index.lock").write_text("fixture lock")
         result = self.pipeline()

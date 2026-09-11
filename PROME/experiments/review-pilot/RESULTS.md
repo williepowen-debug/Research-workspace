@@ -1,5 +1,7 @@
 # Review pilot v1: no observed acceptance advantage
 
+> **Scope fence (PROME, 2026-09-10, Will-approved):** this result is about SYNTHETIC tasks run at LOW reasoning effort on one model, with human validation still PENDING. It makes NO claim about the fleet's cold-read practice on real artifacts, where the failure classes differ (stale references, self-consistent wrong maps, unbuildable rule legs) and where separate blind reads keep paying: on 2026-09-10 alone, two separate cold reads of PROME's own L247 drafts caught 3 + 6 blocking defects the author had not seen (`PROME/plans/2026-09-10_L247-v0.3-F1-revision-PLAN.md` §E; spec §9). Do not cite the 22/24 parity below as grounds to drop a separate read; a fleet-relevant test would use real artifacts, the fleet's defect classes and the reasoning effort the fleet actually runs.
+
 **Completed September 8, 2026. Automated feasibility results; human validation PENDING.** Separate review and continued-context self-review each passed the frozen acceptance check in 22 of 24 workflows (91.7%). All final answer values were correct in both arms. Every acceptance failure came from citation eligibility on the same source-dependence task. This pilot does not establish a research-quality advantage for either workflow.
 
 ## Design and execution receipt

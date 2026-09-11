@@ -200,7 +200,7 @@ def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: 
             i += 1
         else:
             print(f"  ❌ unparseable porcelain-v2 entry {f[:40]!r} — refusing (unknown state)"); return 2
-    staged = set(sh("diff", "--cached", "--name-only", "-z", "--", *rel).split("\0"))
+    staged = set(sh("diff", "--cached", "--name-only", "-z", "--no-renames", "--", *rel).split("\0"))
     nothing = [p for p in rel if p not in dirty and p not in staged and p not in untracked]
     if nothing:
         print(f"  ❌ {len(nothing)} intended path(s) have NO change to commit — refusing before git runs "
@@ -208,10 +208,20 @@ def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: 
         for p in nothing: print(f"     - {p}")
         return 1
     if stage:
-        added = subprocess.run(["git", "--literal-pathspecs", "add", "--", *rel], cwd=ROOT)
-        if added.returncode:
-            print("  ❌ git add failed — no commit or push; inspect the index, never reset it"); return 1
-        staged = set(sh("diff", "--cached", "--name-only", "-z", "--", *rel).split("\0"))
+        # A path that is gone from disk AND already staged (the source of a `git mv`, or a staged
+        # deletion) matches nothing for `git add` — fatal "did not match any files" (PROME 2026-09-10,
+        # a memo moved to processed/ aborted the batch). Skip those; the pathspec commit below still
+        # records the deletion/rename. A tracked file removed by bash (unstaged) is still added: git ≥2.0
+        # stages the removal.
+        to_add = [p for p in rel if (ROOT / p).exists() or p not in staged]
+        skipped = [p for p in rel if p not in to_add]
+        if skipped:
+            print(f"  · {len(skipped)} path(s) already staged as deleted/renamed — no add needed: {', '.join(skipped)}")
+        if to_add:
+            added = subprocess.run(["git", "--literal-pathspecs", "add", "--", *to_add], cwd=ROOT)
+            if added.returncode:
+                print("  ❌ git add failed — no commit or push; inspect the index, never reset it"); return 1
+        staged = set(sh("diff", "--cached", "--name-only", "-z", "--no-renames", "--", *rel).split("\0"))
     still_untracked = [p for p in rel if p in untracked and p not in staged]
     if still_untracked:
         print(f"  ❌ {len(still_untracked)} intended path(s) are UNTRACKED — `git add <exact paths>` first (root recipe 2), then re-run:")
