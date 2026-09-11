@@ -42,6 +42,33 @@ No holiday calendar is synthesized anywhere in this file. That is deliberate and
 it is KB-VIO-243's rule, paid for three times: when a guard needs an external
 schedule, derive it from observed history, never from a model of the schedule.
 
+⛔ THE SECOND TRAP — THE ONE THIS FILE FELL INTO (fixed 2026-09-11)
+-------------------------------------------------------------------
+The span ran `lo = min(ledger)` → `hi = max(ledger)`. **The audit's upper bound
+was the audited artifact's own last row**, so a trailing-edge gap could not exist
+by construction: the ledger stopped at 9/7, CBOE had published through 9/10, and
+9/8·9/9·9/10 fell OUTSIDE the window the check asked about. It printed the
+identical `rc=0 … no gaps` verdict at 416 rows (three sessions missing) and at
+419 (repaired). Found 2026-09-11; the docstring above was already boasting about
+a different trap while this one ran.
+
+The same broken reference fires in the OTHER direction intraday. Boot appends a
+live TICK row for today; CBOE has not published today's bar until after settle;
+so today's legitimate row was in the ledger, absent from `sessions`, and got
+reported as a **PHANTOM**. One defect, two opposite symptoms — silent-green on a
+real gap, loud-red on a correct row.
+
+🔑 Both close with one change, and it is a change of REFERENCE, not of threshold:
+**the upper bound is the PUBLISHER'S FRONTIER** — the newest date CBOE publishes
+VIX with at least one companion — **never the ledger's own maximum.** A ledger
+cannot be its own completeness reference. Zero free parameters: no grace window,
+no holiday calendar, no "today" special case. Rows ahead of the frontier are the
+unsettled live session; they are reported as ungraded, never as defects, and they
+self-heal into the audited span as soon as CBOE publishes.
+
+`extra` was also unbounded (`have - sessions`), charging the ledger for rows
+outside the audited window whenever `--since` was passed. Now bounded both sides.
+
 Exit codes: 0 = complete; 1 = missing session(s) or phantom row(s); 2 = could not
 reach CBOE (fails CLOSED — an unreachable publisher is an unknown, not a pass).
 """
@@ -89,12 +116,17 @@ def main(argv=None) -> int:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--quiet", action="store_true", help="one verdict line only")
     p.add_argument("--since", default=None, help="ISO date; default = ledger's own first row")
+    p.add_argument("--ledger", default=None,
+                   help="ledger path to audit (default: workbook/VX_DAILY.tsv). "
+                        "Exists so this guard can be falsified against a FIXTURE "
+                        "instead of by mutating the live ledger.")
     args = p.parse_args(argv)
 
-    if not DAILY_LOG.exists():
-        print(f"🔴 GAPCHECK rc=2: {DAILY_LOG} not found")
+    ledger = Path(args.ledger) if args.ledger else DAILY_LOG
+    if not ledger.exists():
+        print(f"🔴 GAPCHECK rc=2: {ledger} not found")
         return 2
-    with open(DAILY_LOG) as f:
+    with open(ledger) as f:
         have = {r["date"] for r in csv.DictReader(f, delimiter="\t") if r.get("date")}
     if not have:
         print("🔴 GAPCHECK rc=2: ledger has no rows")
@@ -119,19 +151,36 @@ def main(argv=None) -> int:
         return 2
 
     lo = args.since or min(have)
-    hi = max(have)
+    # 🔑 THE UPPER BOUND IS THE PUBLISHER'S FRONTIER, NEVER THE LEDGER'S OWN LAST
+    # ROW. See "THE SECOND TRAP" in the docstring — `hi = max(have)` made a
+    # trailing-edge gap unrepresentable AND false-flagged the live session.
+    frontier = max((d for d in vix_dates if d in companion_dates), default=None)
+    if frontier is None:
+        print("🔴 GAPCHECK rc=2 CANNOT-CERTIFY: CBOE published no date carrying "
+              "VIX *and* a companion — cannot establish a publication frontier")
+        return 2
+    hi = frontier
     # A TRUE session: CBOE publishes VIX *and* at least one companion. See docstring.
     sessions = {d for d in vix_dates if lo <= d <= hi and d in companion_dates}
     phantoms = {d for d in vix_dates if lo <= d <= hi and d not in companion_dates}
 
     missing = sorted(sessions - have)
-    extra = sorted(have - sessions)
+    # `extra` is bounded to the audited span on BOTH sides. Unbounded, it charged
+    # the ledger for rows outside the window it was asked about.
+    extra = sorted(d for d in have if lo <= d <= hi and d not in sessions)
+    # Rows ahead of the frontier are the LIVE session CBOE has not settled yet.
+    # Not a defect and not certified either — reported so it is never silent.
+    ahead = sorted(d for d in have if d > hi)
 
     if not args.quiet:
         print(f"  span {lo} → {hi}")
         print(f"  CBOE true sessions (VIX + ≥1 companion): {len(sessions)}")
         print(f"  holiday phantoms excluded (orphan VIX):  {len(phantoms)}")
-        print(f"  ledger rows in span:                     {len(have)}")
+        print(f"  ledger rows in span:                     "
+              f"{len([d for d in have if lo <= d <= hi])}")
+        if ahead:
+            print(f"  ahead of publisher frontier (not graded): {len(ahead)} "
+                  f"— {', '.join(ahead)}")
 
     if missing:
         print(f"  🔴 MISSING {len(missing)} session(s) CBOE published and the ledger lacks:")
