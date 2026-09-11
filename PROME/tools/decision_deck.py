@@ -22,13 +22,26 @@ from __future__ import annotations
 import argparse, datetime as dt, glob, html, json, os, re, subprocess, sys
 from pathlib import Path
 
-ROOT = Path(subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True,
-                           text=True, check=True).stdout.strip())
+def _root() -> Path:
+    """Repo root: git from THIS file's directory (not the caller's cwd), else the file's known depth
+    (PROME/tools/decision_deck.py → parents[2]) — importable from any cwd and from a scratch copy."""
+    for cwd in (Path(__file__).resolve().parent, Path.cwd()):
+        try:
+            out = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True,
+                                 check=True, cwd=cwd).stdout.strip()
+            if out and (Path(out) / "PROME/WILL_QUEUE.md").exists():
+                return Path(out)
+        except Exception:
+            continue
+    return Path(__file__).resolve().parents[2]
+
+ROOT = _root()
 Q = ROOT / "PROME/WILL_QUEUE.md"
 AD = ROOT / "PROME/ACTIVE_DECISIONS.md"
 DOCKET = ROOT / "PROME/DOCKET.tsv"
 EXPL = ROOT / "PROME/registry/WQ_EXPLAINERS.tsv"
 ARCH = sorted(glob.glob(str(ROOT / "PROME/archive/WILL_QUEUE_ROWS_*.md")), reverse=True)
+LEDGER = ROOT / "PROME/registry/WQ_LEDGER.tsv"  # WQ-203: the append-only event ledger; Decided reads it FIRST
 TERMINAL = re.compile(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b|RULED\b|EXECUTED\b")
 
 # ---------------------------------------------------------------- helpers
@@ -61,6 +74,43 @@ def title_of(item: str, n: int = 88) -> str:
     t = strip_md(m.group(1)) if m else strip_md(item)
     t = re.split(r"(?<=[.?!])\s|\s—\s", t, 1)[0]
     return (t[: n - 1] + "…") if len(t) > n else t
+
+def verbatim_of(cell: str) -> str:
+    """Will's quoted word from a row cell: the FIRST quote that follows the word 'verbatim' (the fleet's
+    recording form *"…"* / "…"); EMPTY when the cell carries none — never a paraphrase (WQ-203 rule 4).
+    A desk's quoted words never follow 'verbatim' in a queue row, so the anchor word is the discriminator."""
+    m = re.search(r"verbatim[^\"“]{0,40}[\"“]([^\"”]{1,400})[\"”]", cell or "")
+    return m.group(1).strip() if m else ""
+
+LEAD_TOKENS = ("DECLINED", "RULED", "CLOSED", "RESOLVED", "EXECUTED", "SUPERSEDED", "WITHDRAWN", "TERMINAL",
+               "OVERTAKEN", "RATIFIED", "APPROVED", "DONE")
+
+def verdict_of(record: str, window: int = 140) -> tuple[str, bool]:
+    """(lead token, approve-flag) read from the LEAD of a done/record cell — the fleet writes the verdict
+    first ("RULED 2026-… — Will APPROVE …", "DECLINED …", "CLOSED … — OVERTAKEN …", "DONE 8/6 …").
+    Only the first `window` chars after the struck name count: a token 900 chars in ("doorbells PROME
+    declined", "KB-… SUPERSEDED") is narrative, not the verdict (WQ-203 result read ❌10–13).
+    Returns ("", False) when the lead carries no token."""
+    s = re.sub(r"^\s*(?:~~[^~]+~~\s*)+", "", record or "")
+    lead = strip_md(s)[:window].upper()
+    m = re.search(r"\b(" + "|".join(LEAD_TOKENS) + r")\b", lead)
+    tok = m.group(1) if m else ""
+    if not tok and re.search(r"\bWILL APPROVE[DS]?\b|\bAPPROVE[DS]?\b", lead):
+        tok = "APPROVED"  # a tap record: "Deck tap … Will APPROVE = …" carries no RULED word, only the verdict
+    approve = bool(re.search(r"\bAPPROVE[DS]?\b", lead)) and tok in ("RULED", "APPROVED", "RATIFIED", "DONE")
+    if tok == "CLOSED" and "OVERTAKEN" in lead:
+        tok = "OVERTAKEN"
+    return tok, approve
+
+def item_name(item: str, n: int = 120) -> str:
+    """The item's NAME for a ledger: the first bold span that is not a ruling stamp ("Will APPROVED …",
+    "RULED …", "DECLINED …", "CLOSED …"); falls back to title_of."""
+    for m in re.finditer(r"\*\*(.+?)\*\*", item or ""):
+        t = strip_md(m.group(1)).strip()
+        if not re.match(r"(?:Will\s+)?(?:APPROVED|RULED|DECLINED|CLOSED|RATIFIED|SCHEDULE RATIFIED|DONE)\b", t):
+            t = re.split(r"(?<=[.?!])\s|\s—\s", t, 1)[0]
+            return (t[: n - 1] + "…") if len(t) > n else t
+    return title_of(item, n)
 
 # ---------------------------------------------------------------- sources
 
@@ -148,23 +198,60 @@ def parse_done_open_style(text: str, source: str) -> list[dict]:
             continue
         lead = strip_md(c[1])
         dm = re.search(r"(?:DONE|RULED|RESOLVED|DECLINED|EXECUTED)\s*([0-9/]+)", lead)
-        rows.append({"n": c[0], "name": title_of(c[1]), "done": dm.group(1) if dm else "—",
+        struck = re.match(r"\s*~~([^~]+)~~", c[1])  # an archived open-style row keeps its NAME struck through
+        rows.append({"n": c[0], "name": strip_md(struck.group(1)).strip() if struck else title_of(c[1]), "done": dm.group(1) if dm else "—",
                      "record": c[1], "source": source})
     return rows
 
-def parse_decided() -> list[dict]:
-    text = Q.read_text(encoding="utf-8")
+def parse_ledger_decided(ledger: Path) -> list[dict]:
+    """WQ-203: terminal-state rows from the event ledger (last event per WQ wins). Empty list if absent."""
+    if not ledger.exists():
+        return []
+    last: dict[str, dict] = {}
+    with ledger.open(encoding="utf-8") as f:
+        hdr = f.readline().rstrip("\n").split("\t")
+        for line in f:
+            c = line.rstrip("\n").split("\t")
+            if len(c) != len(hdr):
+                continue
+            r = dict(zip(hdr, c)); last[r["wq"]] = r
+    out = []
+    for n, r in last.items():
+        if r.get("status_after") not in ("RULED", "DECLINED", "CLOSED"):
+            continue
+        out.append({"n": n, "name": r.get("title") or f"WQ-{n}", "done": r.get("at", "")[:10] or "—",
+                    "record": r.get("record") or r.get("will_verbatim") or "",
+                    "source": "ledger ← " + (r.get("source") or "?")})
+    return out
+
+def parse_archive(text: str, source: str) -> list[dict]:
+    """An archive can carry BOTH shapes in one file (the 8/16 rotation does): dispatch PER LINE —
+    a bare-number first cell with ≥6 cells is an open-style row; a '**NNN Title**' first cell with 3 cells
+    is a done-table row. (Before 2026-09-11 the file-level `if not got:` fallback let 29 open-style rows
+    through parse_done_table as garbage — WQ-203 plan read ❌3.)"""
+    done_lines, open_lines = [], []
+    for line in text.splitlines():
+        if not line.startswith("|"):
+            continue
+        c = cells(line)
+        if len(c) >= 6 and re.match(r"^\d+[a-z]?$", c[0]):
+            open_lines.append(line)
+        elif len(c) >= 3:
+            done_lines.append(line)
+    return parse_done_table("\n".join(done_lines), source) + parse_done_open_style("\n".join(open_lines), source)
+
+def parse_decided(q_path: Path | None = None, arch: list[str] | None = None, ledger: Path | None = None) -> list[dict]:
+    """Decided rows: the WQ-203 ledger FIRST (terminal states), then the live RECENTLY DONE table, then the
+    archives — archives are history and cover only a WQ number the ledger lacks (transition safety)."""
+    q_path = q_path or Q; arch = ARCH if arch is None else arch; ledger = LEDGER if ledger is None else ledger
+    text = q_path.read_text(encoding="utf-8")
     done_sec = text.split("## RECENTLY DONE", 1)[-1].split("\n## ", 1)[0] if "## RECENTLY DONE" in text else ""
-    out = parse_done_table(done_sec, "WILL_QUEUE.md § RECENTLY DONE")
-    for f in ARCH:
-        t = Path(f).read_text(encoding="utf-8")
-        src = "archive/" + Path(f).name
-        got = parse_done_table(t, src)
-        if not got:
-            got = parse_done_open_style(t, src)
-        out.extend(got)
+    out = parse_ledger_decided(ledger)
+    out.extend(parse_done_table(done_sec, "WILL_QUEUE.md § RECENTLY DONE"))
+    for f in arch:
+        out.extend(parse_archive(Path(f).read_text(encoding="utf-8"), "archive/" + Path(f).name))
     seen, uniq = set(), []
-    for r in out:  # first seen wins: live table, then newest archive
+    for r in out:  # first seen wins: ledger, then the live table, then newest archive
         if r["n"] in seen:
             continue
         seen.add(r["n"]); uniq.append(r)
@@ -324,7 +411,7 @@ def render_decided(rows: list[dict]) -> str:
     for r in rows:
         out.append(
             f'<article class="card done" id="wq-{r["n"]}">'
-            f'<div class="rail"><span class="num">WQ-{r["n"]}</span><span class="pill soft" title="{html.escape(r["source"])}">done {html.escape(r["done"])}</span>{TOGGLE}</div>'
+            f'<div class="rail"><span class="num">WQ-{r["n"]}</span><span class="pill soft" title="{html.escape(r["source"])}">done {html.escape(r["done"])}{" · ledger" if r["source"].startswith("ledger") else ""}</span>{TOGGLE}</div>'
             f'<div class="body"><h2>{html.escape(r["name"])}</h2>'
             f'<details class="raw" open><summary>Ruling / record</summary><p>{md(r["record"])}</p></details>'
             '</div></article>'
