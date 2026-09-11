@@ -1,4 +1,11 @@
 > ⛔ DEMOTED TO DOSSIER 2026-07-10 (DAEDALUS audit, Will-approved) — this file is FROZEN at its Apr-2026 vintage; entry surface is DOSSIER.md. WARNING: this file's Klarna narrative was REFUTED at parent (Klarna Q1-2026 profitable, CARL May-14) — do not cite any value here as current.
+>
+> ⛔ **THE PROTOCOL SECTIONS BELOW ARE SUPERSEDED TOO, NOT JUST THE DATA — added 2026-09-11.** A frozen file keeps issuing instructions, and these two have gone wrong in ways that are invisible to a reader who trusts them:
+> - **§"On Session End" step 1 — "Update STATUS.md" — POINTS AT A FROZEN FILE.** `STATUS.md` was frozen by this same 2026-07-10 demotion. The closeout was never updated for it. **Closeout is now `DOSSIER.md` §8**, which also carries the git/commit/push step this section never had.
+> - **§"On Session End" step 2 + §"State Vector Protocol" — the route is PART-DEAD.** They target `../SHARED/state_vectors/incoming/`; **`SHARED/` does not exist.** The working route is an outbox packet at `outbox/` **plus** a delivery copy into `AGENTS/CARL/inbox/` (root carve-out ①, self-committed).
+> - **§"Key Thresholds" and §"Why This Domain Matters" assert `$400B+` phantom debt — REFUTED** (`KB-CARL-367`: ~$176–216B broad / ~$30–60B credit-only; medical ~85%). Rebuilt framework → `FRAMEWORKS.md`.
+>
+> **Frozen means NOT EDITED — this banner is the maintained correction.** What is still good here: the boot **step 0 inbox scan** (incl. the AGE-IS-A-FINDING rule) and **"PHAN proposes, CARL disposes."**
 
 # PHAN — Phantom Debt & Shadow Credit Monitor
 

@@ -25,7 +25,7 @@
 | Fintech failures (cumulative) | **3** — explicit DID_NOT_APPEAR null | 🟠 unchanged | `COCKROACH.tsv` |
 | Phantom-DTI gap | ~12pp — **NOT refreshed** | 🟠 carried, stale | no HUD/FHA BNPL guidance exists to measure against |
 
-**🔴 FLOW-PHAN-06 trigger = ACTIVE** (restored 9/11; the 9/10 PARTIAL downgrade was a period-basis error). Affirm quarterly provision YoY **+1.8% → +40.0% → +33.5% → +42.5%**, Q4 outpacing Q4 GMV (+36%) by 6.5pp; NCO YoY accelerating monotonically **+12.6% → +16.5% → +22.2% → +36.9%** while headline DQ *fell*. Allowance rate up **+23–25bp** on all three denominator conventions. ⚠️ **The 3-leg BREAKPOINT is STILL NOT met, and leg 2 now cuts BOTH ways.** **Leg 2 TESTED 9/11 (PM sweep) and the read is MIXED:** AFRMT **2026-4/2026-5** (~$750M, ASR 2026-09-09) carry WA FICO **670** — *lowest of all AFFRM revolving trusts except 2022-A (668)* — vs **672** at AFRMT 2025-1 (Feb-2025). **But that −2pt drift over 19 months arrives with counter-evidence: Grade-A share ROSE 34.8%→36.7% and required CE FELL at every class** (figures in `PASSES.md`). Agencies demanding *less* enhancement is the opposite of the "lower-quality cohorts routed to ABS" prediction. ⇒ **Leg 2 weakly met at best; do not grade it as confirmed.** ⛔ **Perimeter:** Affirm Asset Securitization Trust **2026-X1** reads WA FICO **681** but is the **amortizing** shelf, not the revolving master trust — never splice it into this series. Leg 3 (gas >$4.50) not met at $4.277. *ACTIVE describes the trigger, not the breakpoint.*
+**🔴 FLOW-PHAN-06 trigger = ACTIVE** (restored 9/11 — the 9/10 PARTIAL was a **period-basis error**: a quarterly trigger tested on an FY aggregate). Quarterly provision YoY **+1.8% → +40.0% → +33.5% → +42.5%**, Q4 beating Q4 GMV by 6.5pp; **NCO YoY accelerating monotonically +12.6→+16.5→+22.2→+36.9% while headline DQ FELL** — the stronger evidence, and not in the trigger. ⚠️ **BREAKPOINT NOT MET, do not let ACTIVE travel as breakpoint-fired:** leg 2 (ABS WA FICO) **weakly met at best** — 670 vs 672, but Grade-A share ROSE and CE FELL at every class, opposite the routing prediction; leg 3 (gas >$4.50) not met. ⛔ Never splice the amortizing shelf's 681 into the revolving series. ✅ **ACCEPTED BY CARL 2026-09-11** (`KB-CARL-458`, commit `a585b5ccf`) — CARL re-verified FQ1–FQ3 independently at SEC XBRL and restored the trigger. ⚠️ **FQ4 +42.5% is labelled PHAN-DERIVED, not CARL-verified**: Affirm's fiscal Q4 has no standalone XBRL duration frame, so it exists only by differencing FY against the nine-month. **Two CARL-verified quarters above the bar, not three — do not report three.** CARL is taking the **NCO re-instrumentation** to the ~11/12 gate as a spec change rather than deciding it at closeout. *Detail → `FRAMEWORKS.md` §2.6.*
 
 **🔴 Instrument refutation standing at parent (9/10):** NY Fed Liberty Street 8/11 showed CARL's CC 90+ **stock** series rises substantially on charge-off **reporting duration** (40%→80% still-reported at 1yr). CARL closed **CRL-05 `NO-VERDICT-BY-BASIS`** and registered **CRL-30** on the flow rate. ⛔ **Never re-arm anything on 13.74%.**
 
@@ -33,9 +33,9 @@
 
 **Two live corrections to carry:** ① the **38% BNPL-for-gasoline** figure is **Protect Borrowers / Data for Progress** (n=438 likely voters, fielded 7/2–5/26) — ⛔ **never merged into the LendingTree series**, which publishes no gasoline figure and reads groceries **29%** where PB reads **46%**. ② Rule 1033 is **ENJOINED + UNDER RECONSIDERATION**, not agency-withdrawn — a rewritten, fee-permissive rule is a live 2027+ branch that our old "EFFECTIVELY DEAD" framing (still carried verbatim in §2b by audit design) concealed.
 
-**🟠 Two new DISTRESS entries (9/11 PM sweep) — the first bank-contagion rows since Tricolor, and the fleet had ZERO coverage of either:** **LendingPoint** (KBRA cut **six classes** May-26; MidCap marked loans **$40.2M vs $63.2M cost**) and **Coastal Financial (CCB/CCBX)** — Q2-26 swung to a **$42.1M net loss** on a **$68.8M credit expense** for *"a single, isolated CCBX partner relationship"*; stock **−43.5% in one day**. Full rows: `COCKROACH.tsv`. ⚠️ **The LendingPoint↔Coastal link is named by Fintech Business Weekly, NOT company-confirmed** — Coastal disclosed an *unnamed* partner. **Both are DISTRESS, not FAILURE: the cumulative failure count stays 3 and P04 stays 12%.** → CARL to route REGINALD (bank leg) / LIQUID (ABS leg) via WALTER.
+**🟠 Two new DISTRESS entries (9/11 PM sweep) — first bank contagion since Tricolor, and the fleet had ZERO coverage of either:** **LendingPoint** (KBRA cut six classes May-26; MidCap marked $40.2M vs $63.2M cost) and **Coastal Financial (CCB/CCBX)** — Q2-26 net loss **$42.1M** on a **$68.8M credit expense** for *"a single, isolated CCBX partner relationship"*; stock **−43.5% in one session**. ⚠️ The LendingPoint↔Coastal link is **named by Fintech Business Weekly, NOT company-confirmed**. **Both DISTRESS, not FAILURE — count stays 3, P04 stays 12%.** → CARL to route REGINALD/LIQUID via WALTER. *Rows → `COCKROACH.tsv`.*
 
-**⚠️ Counter-thesis datum (route to RED):** FICO Score 10 BNPL / 10 T BNPL (live since Fall-2025, adoption slow — FICO 8 still dominant) — in FICO's own testing **consumers with five or more Affirm loans typically saw scores INCREASE or stay stable.** If bureau visibility *raises* BNPL borrowers' scores, the "visibility shock → sudden repricing" mechanism in §2b is weakened at its core.
+**⚠️ Counter-thesis (route to RED):** **FICO Score 10 BNPL** — in FICO's own testing, users with 5+ Affirm loans typically saw scores **increase or stay stable**. If crossing the scoring layer *raises* scores, the visibility shock is a non-event. **Third independent hit on the transmission premise** — with the NBER medical-debt RD and Richmond Fed. *→ `FRAMEWORKS.md` §2.4.*
 
 **Next gate: ~2026-11-05 to 11-20** — Affirm FQ1-27 + Klarna Q3-26. The last pass before five PHAN rows come due 12/31.
 
@@ -46,12 +46,17 @@
 | Item | Owner | Raised | State |
 |---|---|---|---|
 | **§2 framework rebuild** (phantom-debt magnitude/composition) | PHAN | 2026-07-31 (`KB-CARL-367`) | ✅ **DONE 2026-09-11** — `FRAMEWORKS.md` |
+| **Closeout protocol rebuild** (no git step; frozen/dead targets) | PHAN | 2026-09-11 | ✅ **DONE 2026-09-11** — §8 |
 | **Is longer-term BNPL already in the aggregates?** (~$16B of ~$29B BNPL central) | PHAN | 2026-07-28 (DEWEY C4) | 🔻 **OPEN — top research item for the ~11/12 gate** |
 | **Consolidated transmission-premise memo → RED** (3 independent hits) | PHAN | 2026-09-11 | 🔻 **OPEN** |
 | **ABS tracking series** (WA FICO + grade mix + CE per deal — leg 2 has no instrument) | PHAN | 2026-09-11 | 🔻 **OPEN** |
 | **P02 resolve MISS at FY-close** (recommended 9/10) | **CARL** | 2026-09-10 | ⏳ awaiting CARL |
 | **P04 successor proposal** (failure-count measures a legal event, not the mechanism) | PHAN→CARL | 2026-09-11 | 🔻 **OPEN** |
 | **Route CARL→PHAN assignments as inbox packets, not KB Notes** | **CARL/Will** | 2026-09-11 | ⏳ recommended — `FRAMEWORKS.md` §2.8 |
+| **Sub-agent closeout template has no git step** (all 7) | **CARL** | 2026-09-11 | 📤 **packet sent** — I cannot edit sibling agents |
+| **`read_cap_check.py` cannot evaluate sub-agents** (7 invisible) | **DAEDALUS** | 2026-09-11 | 📤 **packet sent** |
+| **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL taking it to the ~11/12 gate (spec change, needs a sitting) |
+| **⚠️ CARL records ABS WA FICO as "untested since 672"** — the **PM sweep packet fills it** (670, AFRMT 2026-4/5) and is **unprocessed in CARL's inbox** | **CARL** | 2026-09-11 | ⏳ PRIORITY-1 next CARL session |
 
 ---
 
@@ -103,25 +108,25 @@ Everything terminates in *invisible → visibility → sudden adverse repricing*
 ### 2e. Also in `FRAMEWORKS.md`
 **Phantom-DTI → HOMER** (mechanism intact, magnitude re-based) · **7 de-double-counting rules** (⛔ #1: headline "BNPL $70B" is *annual volume*, not stock — **~23× overstatement**; ⛔ #2: balance sheets capture only **~47%** of BNPL) · **why G.19↔QHDC yields NO publishable gap** (common-mode blind spot, sign inverted) · **FLOW-PHAN-01..06** with breakpoints · **CFPB 1033 verbatim must-carry** + its corrected status · **§2.8 the structural fix owed** (why this rebuild was 42 days late).
 
-## 3. Thresholds (bands durable; "Current" = build-vintage snapshot, not live)
+## 3. Threshold BANDS (durable) — live values are in CURRENT STATE above
 
-*Carried from CLAUDE.md:61-69. Bands + sources are durable. The original "Current" column was hardcoded in the instructions file and rots independently of STATUS (DAEDALUS audit finding). Each snapshot value below is **re-labeled as a build-vintage reading with its as-of date** — none is live.*
+*Bands + sources are durable; they are the registered trip levels. **The live reading for each row lives ONCE, in the CURRENT STATE block** — the old "Current" column here was a hardcoded second copy that rotted independently (DAEDALUS audit finding), and keeping two copies is what let the BNPL row sit at 41% for three weeks after 47% published.*
 
-| Metric | Snapshot value (as-of) | Yellow | Orange | Red | Source |
-|---|---|---|---|---|---|
-| BNPL Stacking | 63% *(CFPB Jan-2025)* | >35% | >45% | >55% ✅ | CFPB |
-| Cross-Firm Stacking | 32% *(CFPB Jan-2025)* | >20% | >25% ✅ | >35% | CFPB |
-| Affirm 30+ DQ | 2.3% *(Affirm Q4 FY25, 2025-09-30)* ⚠§6 | >3% | >4% | >6% | Affirm SEC |
-| Klarna Credit Loss Provision | 0.65% *(Klarna Q4-25, 2025-12-31)* ⚠**REFUTED §6** | >0.60% ✅ | >0.80% | >1.0% | Klarna 20-F |
-| BNPL Late Payment Rate | **47% (2026)** — 34% ('24) → 41% ('25) → **47% ('26)** | >25% | >35% | **>45% 🔴 BREACHED 2026-08-19 (first time)** | **LendingTree BNPL Tracker** *(⚠️ source corrected at the parent 2026-09-10: the band cell said **ABA** and the parent STATUS row said **CFPB**; the reachable 34/41/47 SERIES is LendingTree's, and CARL's KB-CARL-028 credits the 34→41 step to the Richmond Fed. Three surfaces, three different named sources, one survey house. Cite LendingTree.)* |
-| Fintech Failures (cumulative) | 3 *(CURO/Tricolor/Synapse, ≤Apr-2026)* | 2 | 3 ✅ | 5+ | Public |
-| Phantom DTI Gap | ~12pp *(35%→47%, CARL est)* | >5pp | >10pp ✅ | >15pp | CARL est |
+| Metric | Yellow | Orange | Red | Source |
+|---|---|---|---|---|
+| BNPL Stacking | >35% | >45% | >55% | CFPB |
+| Cross-Firm Stacking | >20% | >25% | >35% | CFPB |
+| Affirm 30+ DQ | >3% | >4% | >6% | Affirm SEC |
+| Klarna Credit-Loss Provision | >0.60% | >0.80% | >1.0% | Klarna 20-F |
+| **BNPL Late-Payment Rate** | >25% | >35% | **>45%** | **LendingTree BNPL Tracker** |
+| Fintech Failures (cumulative) | 2 | 3 | 5+ | Public |
+| Phantom-DTI Gap | >5pp | >10pp | >15pp | CARL est |
 
-> ✅ marks the band the snapshot value had tripped **at build vintage**. These check-marks are frozen — re-evaluate against live parent data before citing any as "breached now."
+> ⛔ **SOURCE ATTRIBUTION — the BNPL late rate is LendingTree's.** Three surfaces once named three different houses for one series: this band cell said **ABA**, CARL's STATUS row said **CFPB**, and `KB-CARL-028` credits the 34→41 step to the **Richmond Fed**. The reachable 34/41/47 series is **LendingTree's**. *(Corrected at the parent 2026-09-10.)*
 >
-> ⚠️ **REFRESHED 2026-09-10, re-verified 2026-09-11 — five of seven rows have live readings; sourced values in the CURRENT STATE block above, full reasoning in `PASSES.md` (grep-only).** ⛔ **BNPL late rate 47%: cite LendingTree.** The **38% BNPL-for-gasoline** figure belongs to a DIFFERENT instrument (Protect Borrowers / Data for Progress, n=438 likely voters) and must never be spliced into this LendingTree series — LendingTree publishes no gasoline figure, and the two houses read groceries 29% vs 46%. Headline moves: **BNPL late-payment rate 34-41% → 47% = FIRST RED-band breach (>45%)**; Affirm 30+ DQ 2.3% → **2.5%** (green); Klarna provision 0.65% → **0.52% of GMV** (green); stacking **63% flat**; fintech failures **3, explicit DID_NOT_APPEAR null**. Phantom-DTI gap **not refreshed** (no HUD/FHA guidance exists to measure it against).
-
----
+> ⛔ **The 38% "BNPL for gasoline" figure is NOT on this series** — it is Protect Borrowers / Data for Progress (n=438 likely voters, fielded 7/2–5/26). **LendingTree publishes no gasoline figure**, and the two houses read groceries **29% vs 46%**. Never splice.
+>
+> ⚠️ **Klarna's 0.65% and Affirm's 2.3% are SUPERSEDED at parent** — see §6; live readings in CURRENT STATE.
 
 ## 4. Open predictions (7 rows — DISPOSITIONED 2026-07-10 ad-hoc pass)
 
@@ -179,26 +184,57 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 
 *Moved 2026-09-11 (read-cap). Source table + catalyst cadence live there. **Next catalyst: Affirm FQ1-27 + Klarna Q3-26, ~2026-11-05 to 11-20.***
 
-## 8. Refresh protocol (how an ad-hoc spawn uses this dossier)
+## 8. Refresh protocol — BOOT and CLOSEOUT. **This is PHAN's only live protocol.**
 
-A CARL-directed ad-hoc spawn against the phantom-debt domain should:
+> ⛔ **`CLAUDE.md` §"On Session End" is SUPERSEDED (2026-09-11).** Its step 1 points at the frozen `STATUS.md`; its step 2 routes to a `SHARED/` directory that does not exist; and it has **no git step at all**, so a session following it commits nothing and reaches nobody. Use this section. *(The defect is not PHAN-specific — all seven CARL sub-agents share the same skeleton. Routed to CARL 2026-09-11.)*
+>
+> **⚠️ Run the CLOSEOUT half at EVERY session end, not just end-of-day** (`[[feedback_intra_day_closeout_discipline]]`). **2026-09-11 ran five passes in one day**; an intermediate pass that skips write-back hands the next one a stale header over newer content.
 
-1. **Read this DOSSIER** (not the frozen CLAUDE.md/STATUS.md) for framework, thresholds, open predictions, and the two live ledgers. **Read the CURRENT STATE block first — it is the live summary.** **`FRAMEWORKS.md` holds the frameworks in full** (§2 summary in this file is not a substitute when you are working one). ⛔ **`PASSES.md` holds the dated pass narratives: GREP it for a specific pass, never read it whole** (read-cap split 2026-09-11; it carries no cap budget claim on grep terms). **Write each new pass narrative to `PASSES.md`, newest first — and keep `DOSSIER.md` under 32,550 B by updating the CURRENT STATE block in place rather than appending a section here.**
-2. **Append new events to the live TSVs only** — `workbook/COCKROACH.tsv` (new failures/distress/class actions) and `workbook/REGULATORY.tsv` (new EWA laws, AG actions, 1033 developments). Do not revive the frozen TSVs.
-3. **Update the as-of stamps** in §3 (thresholds) and §6 (superseded) if a value the dossier snapshots gets a fresh parent reading.
-4. **Resolve predictions at CARL, not here** — if a §4 prediction resolves, flag the outcome to CARL parent (CARL owns the resolution; this dossier's §4 stays ⚠ UNRESOLVED until CARL records it). Per DAEDALUS audit, no sub-agent due-scan machinery reaches these — resolution is a deliberate spawn action.
-5. **Route findings to CARL** via the normal SV/handoff channel; CARL's `BNPL_STRESS.tsv` + KB-CARL-228 remain the system of record for Affirm/Klarna quarterlies.
+### BOOT
+
+1. **Read this DOSSIER** — the **CURRENT STATE** block first (live summary), then the **📌 OWED / ASSIGNED WORK** block. Not the frozen `CLAUDE.md`/`STATUS.md`.
+2. **Step-0 inbox scan** — `find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*" -not -name "README.md"`. Anything present is UNPROCESSED by definition. *(⚠️ The `-not -name "README.md"` matters — `inbox/README.md` is permanent, and without it every scan reports 1 packet and the count stops meaning anything. Caught by running this step against itself, 2026-09-11.)* ⛔ **Use the lane-descending form, never `ls inbox/*.md`** — `inbox/` has sub-lanes (`inbox/WALTER/`), and the flat glob silently excludes a whole live lane. **⚠️ AGE IS A FINDING:** PHAN may go a quarter between sessions, so a packet can sit for weeks while *looking* delivered. **Older than ~30d ⇒ telling the sender outranks actioning the packet.**
+3. **`FRAMEWORKS.md`** when working a framework · **`PASSES.md`** by grep for a specific dated pass. Neither is a boot whole-read.
+
+### CLOSEOUT — write-back
+
+4. **Append new events to the live TSVs only** — `workbook/COCKROACH.tsv`, `workbook/REGULATORY.tsv`. Advance BOTH clocks in the two-clock header, and **record an explicit `DID_NOT_APPEAR` null when a sweep found nothing** — a stale DATA clock is otherwise ambiguous between "no events" and "nobody looked." Do not revive the frozen TSVs.
+5. **Update the as-of stamps** in the CURRENT STATE block, §3 (thresholds) and §6 (superseded). ⛔ **Update CURRENT STATE IN PLACE — do not append a new section to this file** (read cap; §8.1).
+6. **Resolve predictions at CARL, NOT here.** PHAN re-marks confidence and recommends; **CARL disposes.** §4 stays ⚠ UNRESOLVED until CARL records it.
+7. **Route findings to CARL** — an **outbox packet** at `outbox/<date>_PHAN-to-CARL_<subject>.md` **AND** a delivery copy into `AGENTS/CARL/inbox/` (root carve-out ①: a packet you authored into another agent's inbox is yours to commit **and you must**). ⛔ **NOT `../SHARED/`, which does not exist.** ⚠️ **A packet CARL has not graded is not a delivered finding** — say so in the report rather than implying it landed.
+8. **Inbox RE-scan** — repeat step 2. **The boot scan is a SNAPSHOT**: packets landing mid-session are invisible for the rest of it and nothing re-checks. Advisory, never blocking. *(Pattern borrowed from TERRY and REGINALD, both of which added it after being bitten.)* File consumed packets with **`git mv`** to `inbox/processed/`, never bash `mv`. Anything deliberately not actioned gets a dated **PARKED** note.
+9. **Update the 📌 OWED block** — close what you did, add what you or CARL now owe. **This is the step that would have caught the 42-day §2 miss.**
+10. **Read-cap check** — the fleet script **cannot evaluate sub-agents** (`read_cap_check.py --agent PHAN` → `CANNOT-EVALUATE: no charter at AGENTS/PHAN/CLAUDE.md`; it resolves `AGENTS/<NAME>/`). So check locally:
+    ```
+    for f in DOSSIER.md FRAMEWORKS.md PASSES.md; do
+      printf "%-16s %6s B %s\n" "$f" "$(stat -c%s $f)" \
+        "$([ $(stat -c%s $f) -le 32550 ] && echo OK || echo '⛔ OVER 32,550')"; done
+    ```
+    **Only `DOSSIER.md` is a whole-read and therefore capped**; `FRAMEWORKS.md` (read-when-working) and `PASSES.md` (grep) carry no cap claim — measured anyway so drift is visible. **Over cap ⇒ rotate to `PASSES.md`, never delete.**
+11. **Git — the step `CLAUDE.md` never had.** All ops from repo root (`cd "$(git rev-parse --show-toplevel)"`).
+    - **Modified:** `git commit AGENTS/CARL/sub_agents/PHAN/<file> -m "PHAN: <subject>"` — path-scoped, no separate staging.
+    - **New:** `git add <specific files> && git commit <same specific files> -F /tmp/msg.txt` — explicit paths, **never** `git add` a directory.
+    - ⛔ **Never `git reset HEAD`** (shared index — global unstage) and **never `git commit --amend`**.
+    - ⛔ **Never a pathspec-less commit** — it sweeps whatever another session has staged. *(Live on 2026-09-11: PROME had a file staged while PHAN committed.)*
+    - **Subject ≤100 chars**; receipts and figures go in the body (heredoc to a file).
+    - **Push:** `bash scripts/safe-push.sh`. ✅ **The receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).`** — a log tail or a bare `Pushed.` is **not** a receipt. Non-ff ⇒ `git pull --rebase --autostash` after the dirty-path overlap check; **never force**.
+12. **Auto-memory** (only if a transferable lesson was earned) — write/extend under `memory/auto/`, then `python3 scripts/memory_index_check.py --strict --slug <name>` and **self-commit the file** (root carve-out ③ makes this mandatory: an index row pointing at an uncommitted file is worse than no memory).
+
+### 8.1 Where things live — keep `DOSSIER.md` under the cap
+
+| File | Role | Read mode |
+|---|---|---|
+| **`DOSSIER.md`** | CURRENT STATE · OWED · thresholds · predictions mirror · superseded · this protocol | **whole read — capped 32,550 B** |
+| **`FRAMEWORKS.md`** | the durable analytical assets (rebuilt §2) | read when working a framework |
+| **`PASSES.md`** | dated pass narratives, newest first | **grep only** |
+
+**Write each pass narrative to `PASSES.md`; update CURRENT STATE in place here.** Appending a dated section to this file is what pushed it to **126% of cap** on 2026-09-11.
 
 ---
 
-## 9. Change history (ad-hoc pass log)
+## 9. Change history → **`PASSES.md`**
 
-| Date | Pass | What changed |
-|---|---|---|
-| **2026-07-10** | **Four passes: dossier assembly · 1st ad-hoc · staleness sweep · news sweep** — *full rows: `PASSES.md`* | Dossier assembled from PHAN's Apr-2026 frozen surfaces (transcription-with-provenance). 7 predictions dispositioned; **FLOW numbering reconciled — TSV wins** (crosswalk §2c); 6 rows STALE-tagged; **P06 CORRECTED → MIXED** (NY BNPL Act signed 2025-05-09, predating the forecast); **P07 → 80%** (MN AG v. Brigit). COCKROACH + REGULATORY kept live. |
-| **2026-09-10** | **2nd ad-hoc pass** (WQ-209, PROME-spawned under CARL's card; live data, +62d since 7/10) | **(1)** Dated `2026-09-10 pass` section added at top — Affirm FQ4-26 + Klarna Q2-26 both worked from primaries (Affirm 10-K XBRL; Klarna press release). **(2)** 🔴 **FLOW-PHAN-06 trigger DOWNGRADED ACTIVE → PARTIAL (1 of 2 legs)** — FY26 provision +29.2% is *below* GMV +37%; only the allowance-RATE leg (5.65%→5.89%) survives. **(3)** 🔴 **NY Fed Liberty Street (Aug-26) refutes the basis of CARL's CC 90+ instrument** — the stock rate's rise is substantially a charge-off REPORTING-DURATION artifact (40%→80% still reported at 1yr, 2004-12 vs 2024); routed to CARL + RED. **(4)** §3 refreshed: **BNPL late rate 41% → 47% = first RED-band breach**; Affirm DQ 2.5%; Klarna 0.52%; stacking 63% flat. **(5)** Six predictions re-marked (§4), none resolved. **(6)** `COCKROACH.tsv` + `REGULATORY.tsv` **UNFROZEN per their own dated trigger**, +1 event row each, **explicit DID_NOT_APPEAR null recorded for new consumer-fintech failures**, DATA clock advanced to 2026-09-10. **(7)** Inbox drained: **empty (0 packets) — a true null, recorded**. |
-| **2026-09-11** | **3rd ad-hoc pass** (+1d; gap-closing) — *full narrative: `PASSES.md`* | **(1)** All three 9/10 `SEARCH-NOT-FOUND` items were **fetch** failures, not absences — **all three closed**. **(2)** 🔴 **FLOW-PHAN-06 RESTORED ACTIVE** — the 9/10 PARTIAL was a **period-basis error** (quarterly-authored trigger tested on an FY aggregate a flat Q1 dragged under the bar). Rebuilt from SEC XBRL: Q4 provision **+42.5%** vs Q4 GMV +36%; NCO YoY **+12.6→+16.5→+22.2→+36.9%**. Allowance rises **+23–25bp on all three denominator conventions**. **(3)** **38% gasoline ATTRIBUTED** to Protect Borrowers/Data for Progress (**n=438 likely voters**) and ruled **NOT quotable in the LendingTree series**. LendingTree 8/19 stamp + 34→41→47 **re-verified correct**. **(4)** **P03 97%→98%** on a correction landing **against our own ledger** (CFPB withdrew its *vacatur request*, reopened rulemaking; 4/1 row re-tagged). **(5)** **READ-CAP REMEDY:** 41,078 B (126% of cap) → pass narratives split to **`PASSES.md`** ⇒ **under cap**; the 78 B breach that pre-dated this pass is cleared too. **(6)** No new state-AG action since CO 8/27 (4 of 5); six predictions unchanged; **none resolved — CARL disposes**. **(7)** 🔻 Gap named: **ABS WA FICO untested since 672 (Apr-2026)** = breakpoint leg 2. |
-| **2026-09-11** | **4th + 5th passes: PM domain sweep · §2 FRAMEWORK REBUILD** — *narratives: `PASSES.md`; frameworks: `FRAMEWORKS.md`* | **PM sweep:** ABS leg-2 gap filled **but MIXED** (AFRMT 2026-4/5 WA FICO **670** vs 672, yet Grade-A share ROSE and CE FELL at every class — opposite of the routing prediction); **amortizing-shelf 681 perimeter trap caught**; **2 new DISTRESS rows** (LendingPoint 6-class KBRA cut; **Coastal Financial −43.5% in one session on a $68.8M CCBX credit expense**) with **zero prior fleet coverage**; FICO counter-thesis staged; Klarna's 2nd guide-cut flagged as **German, not US**. **REBUILD:** discharged `KB-CARL-367`'s *"PHAN owns the sec.2 rebuild"* — **42 days late because the assignment lived only in CARL's KB.** **`$400B+` RETIRED** (broad ~$176–216B / credit-only ~$30–60B; medical ~85%); **four-visibility-layer model** added as the structural core; **bottom-60 premise cut 20–30% → 5–20%**; 7 de-double-counting rules carried; **G.19↔QHDC ruled unpublishable** (common-mode); **Klarna furnishing UNKNOWN resolved** (term loans only, not pay-in-4); transmission premise consolidated as the thesis's weak point (**3 hits**). §2 → **`FRAMEWORKS.md`**; §6 gained the missing magnitude row; PROVIDER.tsv's 2 refuted rows banner-tagged; **OWED block created**. |
+*The per-pass change table moved there 2026-09-11: §9 and `PASSES.md` were the same artifact kept twice. **9 passes logged; most recent 2026-09-11 (five in one day).** `grep -A3 '2026-09' PASSES.md`.*
 
 ---
 
