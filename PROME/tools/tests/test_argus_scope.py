@@ -197,6 +197,50 @@ class TestRepairReviewBoundaries(Fixture):
         self.assertIn("PROME/a file with spaces.md", pending)
 
 
+class TestIndependentReviewFindings(Fixture):
+    """The two ❌ the INDEPENDENT reviewer found on the live graph after 20 author tests passed.
+    Both were invisible to the author's suite: it tested a `closeout` MENTION at the end of a subject, never at
+    token 1, and it never modelled a recipient CONSUMING a PROME packet."""
+
+    def test_F1_a_subject_ABOUT_closeout_is_not_a_watermark(self):
+        """Live false positive 00afa8b99 truncated the real scope by 11 commits / 29 paths."""
+        commit(self.repo, "PROME: CLOSEOUT symmetry table — WILL_QUEUE paired-write row",
+               [write(self.repo, "PROME/notes.md")])
+        commit(self.repo, "PROME: real session work", [write(self.repo, "PROME/tools/t.py")])
+        wm, subj = A.find_watermark()
+        self.assertNotIn("symmetry", subj, "a subject ABOUT closeout must not become the watermark")
+        commits, _, _, _, _ = A.scope(wm)
+        self.assertEqual(len(commits), 2, "the mis-picked watermark silently drops everything before it")
+
+    def test_F1_every_real_closeout_shape_still_matches(self):
+        for s_ in ("PROME: STANDARD closeout 2026-09-11 — 14th re-base day",
+                   "PROME: closeout 9/10 night — deck audit", "PROME: LIGHT closeout",
+                   "PROME: closeout 9/9 night — SCRATCH/STATUS/HANDOFF"):
+            self.assertTrue(A.CLOSEOUT_RE.match(s_), s_)
+        for s_ in ("PROME: CLOSEOUT symmetry table — WILL_QUEUE row",
+                   "PROME: WQ-227 registered (exempt-desk closeout assertion)"):
+            self.assertFalse(A.CLOSEOUT_RE.match(s_), s_)
+
+    def test_F2_a_recipient_consuming_a_PROME_packet_is_not_PROME_authorship(self):
+        """`git mv` into inbox/processed/ is the RECIPIENT's act. Live: ef3a11436, 15312dc7d."""
+        commit(self.repo, "LABOR: consume PROME packet -> processed",
+               [write(self.repo, "AGENTS/LABOR/inbox/processed/2026-09-11_from-PROME_x.md")])
+        commits, paths, _, _, _ = self.scope()
+        self.assertEqual(commits, [], "consumption is the recipient's act, not PROME's")
+        self.assertEqual(paths, [])
+
+    def test_F2_a_delivered_packet_at_the_inbox_TOP_LEVEL_is_still_PROME_authorship(self):
+        commit(self.repo, "PROME -> LABOR: commission packet",
+               [write(self.repo, "AGENTS/LABOR/inbox/2026-09-11_from-PROME_x.md")])
+        commits, _, _, _, _ = self.scope()
+        self.assertEqual(len(commits), 1, "carve-out (1) delivery must still be audited")
+
+    def test_F2_a_lane_subdirectory_packet_is_not_claimed(self):
+        commit(self.repo, "WALTER -> BRENT: routed", [write(self.repo, "AGENTS/BRENT/inbox/WALTER/x_from-PROME.md")])
+        commits, _, _, _, _ = self.scope()
+        self.assertEqual(commits, [])
+
+
 class TestPerimeterUnit(unittest.TestCase):
     def test_authorship_vs_pending_perimeters_differ_exactly_where_intended(self):
         self.assertTrue(A.is_prome_authored("PROME/STATUS.md"))

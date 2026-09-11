@@ -29,7 +29,13 @@ import sys
 
 MIN_PATHS = 3          # WQ-226: skipped when PROME's commit set is < 3 paths
 MAX_LOOKBACK = 600     # commits to search for the previous closeout
-CLOSEOUT_RE = re.compile(r"^PROME:\s+(?:\w+\s+)?closeout\b", re.I)
+# ❌ F-1 (independent review 2026-09-11): the old form `…(?:\w+\s+)?closeout\b` matched a subject that is
+# ABOUT closeout — live commit 00afa8b99 "PROME: CLOSEOUT symmetry table — …" — making a non-closeout the
+# watermark and SILENTLY TRUNCATING the audit by 11 commits / 29 paths on the real graph (CE-A flipped the
+# verdict to SKIP, so ARGUS never spawned). Every genuine closeout subject in 800 commits has `closeout`
+# followed by end-of-subject or a NON-LETTER (a date, "9/10", an em-dash); only the false positive is
+# followed by a noun. The lookahead encodes exactly that and nothing else.
+CLOSEOUT_RE = re.compile(r"^PROME:\s+(?:\w+\s+)?closeout(?:\s*$|\s+(?![A-Za-z]))", re.I)
 PROME_RE = re.compile(r"^PROME\b")
 
 # TWO perimeters, deliberately different — conflating them was a self-caught false positive on the first
@@ -48,7 +54,11 @@ SHARED_PREFIXES = ("memory/auto/",)
 # PROME's daily session log — CLOSEOUT.md Chunk 2 writes it and Chunk 4 commits it (repair review 2026-09-11).
 DAILY_LOG_RE = re.compile(r"^memory/\d{4}-\d{2}-\d{2}\.md$")
 # Carve-out (1): a packet PROME authored into another desk's inbox is PROME's to commit, so it is PROME's to audit.
-PROME_PACKET_RE = re.compile(r"^AGENTS/[A-Z0-9_]+/inbox/.*from-PROME", re.I)
+# ❌ F-2 (independent review 2026-09-11): `.*from-PROME` crossed the `processed/` and lane segments, so a
+# RECIPIENT consuming a PROME packet (`git mv` into `inbox/processed/`) was claimed as PROME authorship —
+# live: ef3a11436 / 15312dc7d (LABOR consuming) and 08fa7a7b9. Consumption is the recipient's act, not
+# PROME's. Anchored to the inbox TOP LEVEL, which is exactly where carve-out (1) delivery happens.
+PROME_PACKET_RE = re.compile(r"^AGENTS/[A-Z0-9_]+/inbox/[^/]*from-PROME", re.I)
 
 
 def git(*args):
