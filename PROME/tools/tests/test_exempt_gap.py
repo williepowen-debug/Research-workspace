@@ -102,6 +102,20 @@ class ExemptGap(unittest.TestCase):
         r = self.by(self.run_scan()[0], "RED")
         self.assertEqual(r["unlogged"], [])
 
+    def test_a_filename_reference_in_another_column_does_not_clear_the_obligation(self):
+        # third cold read 9/11: a slug-form id in an artifact/source column of ANOTHER row is a reference, not a row
+        p = self.root / "AGENTS" / "RED" / "board_log.tsv"; p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text("timestamp_read\tsignal_id\tdisposition\tsource\tnotes\n"
+                     "x\tSIG-W-20260101-001\tnoted\tSIG-W-20260908-010-skew.md\tsee file\n", encoding="utf-8")
+        r = self.by(self.run_scan()[0], "RED")
+        self.assertEqual(r["unlogged"], ["SIG-W-20260908-010"])
+
+    def test_headerless_legacy_ledger_still_reads_every_cell(self):
+        p = self.root / "AGENTS" / "RED" / "board_log.tsv"; p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text("2026-09-09\tSIG-W-20260908-010\tacted\n", encoding="utf-8")   # no header at all
+        r = self.by(self.run_scan()[0], "RED")
+        self.assertEqual(r["unlogged"], [])
+
     def test_an_id_at_the_start_of_a_notes_cell_is_still_a_mention(self):
         # result cold read ❌1: the notes cell BEGINS with the id — cell-exact matching must not count it
         ledger(self.root, "CARL/board/BOARD_LOG.tsv", ["SIG-W-20260101-001"], notes="SIG-W-20260901-015 superseded, ignoring")

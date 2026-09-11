@@ -116,13 +116,29 @@ def desk_ledgers(root, desk):
     return out
 
 
+def id_column(lines):
+    """Index of the signal-id column from a header row (`signal_id` / `Signal_ID`, any case) in the first 5 lines;
+    None when no header names one — then every cell is read (legacy ledgers), which is the weaker rule."""
+    for line in lines[:5]:
+        cells = [c.strip().lower() for c in line.split("\t")]
+        if "signal_id" in cells:
+            return cells.index("signal_id")
+    return None
+
+
 def logged_ids(ledgers):
-    """Ids that appear as a CELL in any ledger. Returns (ids, errors) — an unreadable ledger is an error, not zero."""
+    """Ids logged as a ROW in any ledger — read from the signal_id COLUMN when the header names one (third cold
+    read 9/11: a column-agnostic match let a filename reference in an artifact column clear another signal's
+    obligation). Returns (ids, errors) — an unreadable ledger is an error, not zero."""
     ids, errors = set(), []
     for p in ledgers:
         try:
-            for line in p.read_text(encoding="utf-8", errors="replace").splitlines():
-                for cell in line.split("\t"):
+            lines = p.read_text(encoding="utf-8", errors="replace").splitlines()
+            col = id_column(lines)
+            for line in lines:
+                cells = line.split("\t")
+                targets = [cells[col]] if col is not None and col < len(cells) else (cells if col is None else [])
+                for cell in targets:
                     m = SIG_ID_CELL.match(cell.strip())
                     if m:
                         ids.add(m.group(1))
