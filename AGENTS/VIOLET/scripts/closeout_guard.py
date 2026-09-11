@@ -38,6 +38,8 @@ WHAT IT AGGREGATES
   · `validate_workbook.py` — KB schema conformance (errors only, not the
                              ACTIVE-past-Stale_By WARN, which is by design)
   · `run_tests.py`         — the frozen offline regression suites
+  · `skew_bar_continuity.py` — every CBOE-published `^SKEW` session carries a
+                             VALUE, not merely a row (the cell half)
   · `surface_agreement.py`  — the SAME figure must read the same on STATUS,
                              NEXUS_BRIEF, SCRATCH and LAST_COMPLETION. Added
                              2026-09-04 after the convergence score was live as
@@ -96,6 +98,17 @@ BLOCKING = [
     # run_tests.py discovers suites (so a new one needs no wiring here) and fails
     # CLOSED on an empty or shrunken discovery.
     ("Offline regression suites", "run_tests.py", ["--quiet"]),
+    # 10th contract, added 2026-09-11 evening (KB-VIO-285). The CELL half of ledger
+    # integrity. vx_daily_gapcheck.py asks whether the ROW exists; on 9/11 the row
+    # existed with a BLANK skew cell and every contract here passed green, because a
+    # present row with a missing cell is invisible to a session-presence check. The
+    # blank was a suppressed real 154.49 close -- a bar above the 150 line on a
+    # SUSTAIN-4 counter. Blocking, and the reason is that a skipped bar cannot be
+    # reconstructed after the fact: the run becomes ungradeable, silently, reading
+    # 0-of-N. This is also the DURABLE home of the standing obligation to keep
+    # supplying dated bars while RED is dark -- it lived in SCRATCH, the one file
+    # defined to be overwritten (PROME flagged it 9/11).
+    ("^SKEW bar continuity (cell half)", "skew_bar_continuity.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

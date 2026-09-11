@@ -42,7 +42,7 @@ PY = sys.executable
 # Floor, not a target. Retiring a suite is a deliberate act and must edit this
 # number in the same commit — otherwise a deleted suite is invisible to
 # discovery. It only ever moves DOWN on purpose.
-MIN_SUITES = 3
+MIN_SUITES = 4
 
 
 def main(argv=None) -> int:
