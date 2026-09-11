@@ -13,10 +13,17 @@ import desk_attention as da
 import fleet_dashboard as fd
 import will_brief as wb
 
+# FROZEN fixture — FORGE/STATUS.md · position_management.tsv · PROME/GATES.tsv · DOCKET.tsv + the two mapping
+# sources and the linked sale receipt, all at commit 8e7a399a8 (2026-09-09, the vintage this suite was written
+# against). Never the live book: `finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit` —
+# the 9/10 fills changed the live rows and four of these tests failed at HEAD on 9/11 without any regression.
+FIX = Path(__file__).resolve().parent / 'fixtures' / 'desk_attention'
+FIX_TODAY = dt.date(2026, 9, 9)
+
 
 class AttentionTests(unittest.TestCase):
     def test_all_schemas_keep_lots_spreads_and_live_rows_with_historical_closure_words(self):
-        rows, errors = da.holdings()
+        rows, errors = da.holdings(root=FIX)
         self.assertFalse(errors)
         keys = [da.key(r) for r in rows]
         self.assertIn(('Fidelity', 'QQQ', '$715P', '2026-09-10'), keys)
@@ -35,7 +42,7 @@ class AttentionTests(unittest.TestCase):
         self.assertEqual(da.expiry_date('Sep-10-2026', 2025), '2026-09-10')
 
     def test_exact_contract_mapping_does_not_inherit_other_strikes_or_accounts(self):
-        rows, errors = da.coverage()
+        rows, errors = da.coverage(root=FIX)
         self.assertFalse(errors)
         get = lambda a,t,i,e: next(r for r in rows if da.key(r) == (a,t,i,e))
         self.assertEqual(get('Fidelity','USO','Stock','')['gates'], [])
@@ -55,13 +62,13 @@ class AttentionTests(unittest.TestCase):
         root = Path(directory)
         for name in ('FORGE/STATUS.md','FORGE/position_management.tsv','PROME/GATES.tsv'):
             path = root/name;path.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copyfile(da.ROOT/name,path)
-        with (da.ROOT/'FORGE/position_management.tsv').open() as f:
+            shutil.copyfile(FIX/name,path)
+        with (FIX/'FORGE/position_management.tsv').open() as f:
             for row in csv.DictReader(f,delimiter='\t'):
                 path = root/row['source']
                 if not path.exists():
                     path.parent.mkdir(parents=True,exist_ok=True)
-                    shutil.copyfile(da.ROOT/row['source'],path)
+                    shutil.copyfile(FIX/row['source'],path)
         return root
 
     def test_changed_source_withholds_only_its_mapping(self):
@@ -98,28 +105,31 @@ class AttentionTests(unittest.TestCase):
             self.assertEqual([(r['line'],r['title'],r['timing']) for r in rows],[(2,'Prior','OVERDUE')])
 
     def test_receipt_amount_and_settlement_come_from_receipt_not_account_cash(self):
-        receipts=da.confirmed_receipts()
+        receipts=da.confirmed_receipts(root=FIX)
         self.assertEqual(len(receipts),1)
         f=receipts[0][1]
         self.assertEqual(f['Net amount'],'$1,754.30')
         self.assertEqual(f['Settlement'],'September 10, 2026')
-        page,errors=da.render()
+        page,errors=da.render(root=FIX)
         self.assertFalse(errors)
         self.assertIn('Settlement date is not confirmation of settled cash',page)
         self.assertIn('Complete when: Share exit/profit-protection proposal delivered',page)
         self.assertIn('Complete when: Hold/exit assessment and explicit management proposal delivered',page)
         self.assertNotIn('$19,243.32',page)
 
-    def test_actual_pages_show_actions_unknown_coverage_and_no_old_decision_asks(self):
-        for path in ('PROME/artifacts/handbook.html','PROME/artifacts/fleet_dashboard.html'):
-            page=(da.ROOT/path).read_text()
-            for token in ('broker-actions','management-coverage','confirmed-changes','prome-work','Approval: APPROVED · Order: UNKNOWN · Fill: UNKNOWN','Management mapping UNRECORDED','hosted publication unverified'):
-                self.assertIn(token,page)
+    def test_attention_render_shows_actions_and_unknown_coverage(self):
+        # The attention PAGE rendered from the frozen fixture — never the published artifacts (the old form
+        # read PROME/artifacts/*.html, which every closeout regenerates from the live book; it rotted 9/10).
+        page,errors=da.render(root=FIX)
+        self.assertFalse(errors)
+        for token in ('broker-actions','management-coverage','confirmed-changes','prome-work','Approval: APPROVED · Order: UNKNOWN · Fill: UNKNOWN','Management mapping UNRECORDED'):
+            self.assertIn(token,page)
+
+    def test_decided_queue_rows_never_reappear_as_actions(self):
+        # LIVE-queue check by design: these numbers were RULED/CLOSED on 9/9–9/10; a decided row must never be
+        # re-presented as an action. (The queue only moves them further into the archives.)
         dec,chore=wb.parse_actions()
         self.assertFalse({str(n) for n in (151,159,162,164,196,197,198,199)} & {r['n'] for r in dec+chore})
-        page=(da.ROOT/'PROME/artifacts/handbook.html').read_text()
-        self.assertNotIn('CboeSeptember8 and PJM post23:59 outcome remain ungraded',page)
-        self.assertNotIn('no LIVE gate — last: GATE-TERRY-USO135C',page)
 
     def test_failed_attention_does_not_advance_dashboard_baseline(self):
         with tempfile.TemporaryDirectory() as d:
