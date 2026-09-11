@@ -15,4 +15,4 @@ date	vix	vvix	skew	vix_pctile	vvix_pctile	skew_pctile	cat_days	cat_event	legs_me
 2026-09-02	15.2	86.25	144.12	32.9	35.6	87.1	9	August CPI (08:30 ET)	4/4	OPEN	window open	2026-09-03T00:16:52+00:00
 2026-09-03	14.32	83.8	150.63	26.5	27.8	93.9	7	August CPI (08:30 ET)	4/4	OPEN	window open	2026-09-04T19:28:06+00:00
 2026-09-04	14.53	84.42	151.58	28.0	29.6	94.6	7	August CPI (08:30 ET)	4/4	OPEN	window open	2026-09-04T23:47:06+00:00
-2026-09-10	17.84	102.66	147.02	53.8	76.0	90.7	0	August CPI (08:30 ET)	2/4	DORMANT	missing: VVIX cheap, VIX complacency	2026-09-11T04:57:10+00:00
+2026-09-10	17.84	102.66	147.02	53.8	76.0	90.7	0	August CPI (08:30 ET)	2/4	DORMANT	missing: VVIX cheap, VIX complacency	2026-09-11T17:46:44+00:00
