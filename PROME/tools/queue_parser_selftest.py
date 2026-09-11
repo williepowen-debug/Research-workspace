@@ -45,7 +45,7 @@ def build_synthetic(root: Path):
     rows.append(f"| 32b | Lettered successor row | ACTION | none | {recent} | — | notes |")
     rows.append(f"| 79 | Undated aging item | ACTION | none | {old.month}/{old.day} | — | notes |")
     rows.append(f"| 33 | ✅ RESOLVED closed-in-place item | ACTION | none | {recent} | — | notes |")
-    rows.append(f"| 34 | Blocked item ⛔ waiting on row 78 | ACTION | none | {recent} | — | notes |")
+    rows.append(f"| 34 | Blocked item | ACTION | none | {recent} | — | ⛔ waits: row 78 (the documented form, start of Notes) |")
     # Row 35: ⛔ as the ordinary caveat/prohibition glyph, NOT a wait declaration.
     # This row IS Will-actionable and must count. Added 8/22 after both parsers
     # were found keying `blocked` on the bare glyph — they AGREED, so this test
@@ -53,6 +53,12 @@ def build_synthetic(root: Path):
     # "in flight" and told Will 0 words were owed. Agreement is not correctness;
     # the guard needed a case that discriminates the rule, not just the pair.
     rows.append(f"| 35 | Caveat item ⛔ do not pre-empt the owner | DECISION | none | {recent} | — | notes |")
+    # Row 36: ITEM prose that MENTIONS the wait marker ("a ⛔ waits row …") but is a
+    # dated, Will-actionable RULE. Added 9/10 (WQ-221): every parser searched the
+    # whole line for "⛔ wait", so the row proposing the aged-waits rule was filed
+    # under "waiting on others" and rendered with no tap controls. The key is the
+    # declaration at the START of the Notes cell, never the glyph in prose.
+    rows.append(f"| 36 | Rule about a ⛔ waits row whose blocker is dark | DECISION | 2026-09-11 | {recent} | rec | notes |")
     text = (
         f"# WILL_QUEUE (synthetic — selftest)\n**Last reconciled:** {today.isoformat()}\n\n"
         "## OPEN\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
@@ -89,8 +95,8 @@ def main():
             if not cond:
                 fails.append(name)
 
-        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 22)",
-              gate_count == 22 and brief_count == 22)
+        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 23)",
+              gate_count == 23 and brief_count == 23)
         check("2 lettered 32b visible to brief", "32b" in ids)
         check("3a misfiled #33 invisible to brief", "33" not in ids)
         check("3b misfiled #33 flagged by gate", "MISFILED #33" in detail)
@@ -98,6 +104,8 @@ def main():
               any(r["n"] == "34" and r["blocked"] for r in vis))
         check("4b caveat-glyph #35 visible to brief and NOT blocked",
               any(r["n"] == "35" and not r["blocked"] for r in vis))
+        check("4c prose-mention #36 ('a ⛔ waits row' in ITEM) visible and NOT blocked",
+              any(r["n"] == "36" and not r["blocked"] for r in vis))
         check("5a aging #79 flagged by gate", "AGING #79" in detail)
         check("5b aging #79 visible to brief", "79" in ids)
 

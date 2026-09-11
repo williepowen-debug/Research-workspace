@@ -332,12 +332,13 @@ def check_will_queue():
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
         if section == "open" and len(cells) >= 7:
-            # Keys on the DOCUMENTED wait-declaration, not the bare glyph — see the
-            # twin comment in will_brief.parse_actions(). WILL_QUEUE canon: blocked
-            # rows carry "⛔ waits: <who>" at the start of Notes; "⛔" alone is the
-            # fleet caveat/prohibition glyph and appears in Will-ACTIONABLE rows,
-            # so the old test excluded real obligations from the cap. Fixed 8/22.
-            blocked = bool(re.search(r"⛔\s*wait", line))
+            # Keys on the DOCUMENTED wait-declaration at the START of the Notes
+            # cell — see the twin comment in will_brief.parse_actions(). WILL_QUEUE
+            # canon: blocked rows carry "⛔ waits: <who>" at the start of Notes.
+            # 8/22: bare "⛔" (the caveat glyph) had excluded actionable rows.
+            # 9/10 (WQ-221): a whole-line "⛔ wait" search matched ITEM prose
+            # ("a ⛔ waits row whose …") and hid a rulable row from the deck.
+            blocked = bool(re.match(r"^[\*\s]*⛔\s*waits?\b", cells[6]))
             # MISFILED (8/16, DAEDALUS spec off PROME's queue-look defect
             # report; ruling trail in the two packets): close-in-place is a
             # silent middle state between OPEN and RECENTLY DONE — measured

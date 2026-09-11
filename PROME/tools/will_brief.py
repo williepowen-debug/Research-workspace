@@ -244,13 +244,13 @@ def parse_actions():
             "n": c[0], "item": ell(re.sub(r"\*\*|`", "", c[1]), 70), "kind": kind,
             "due": d.group(0) if d else None,
             "due_txt": ell(re.sub(r"\*\*", "", raw), 26),
-            # Blocked keys on the DOCUMENTED marker, not on the glyph. WILL_QUEUE's
-            # Rules block: blocked rows carry "⛔ waits: <who>" at the start of Notes.
-            # Bare "⛔" is the fleet's prohibition/caveat glyph (STATE_VOCABULARY, one
-            # role each) and appears in plenty of Will-ACTIONABLE rows — keying on it
-            # silently demoted row 73 (RULE, due 2026-08-28) to "in flight", i.e. the
-            # page told Will a dated obligation was somebody else's half. Fixed 8/22.
-            "blocked": bool(re.search(r"⛔\s*wait", line)),
+            # Blocked keys on the DOCUMENTED marker at the START of the Notes cell.
+            # WILL_QUEUE's Rules block: blocked rows carry "⛔ waits: <who>" at the
+            # start of Notes. 8/22: bare "⛔" (the caveat glyph) had demoted row 73
+            # (RULE, due 2026-08-28) to "in flight". 9/10 (WQ-221): a whole-line
+            # "⛔ wait" search matched ITEM prose ("a ⛔ waits row whose …") and
+            # filed a rulable row under "waiting on others" with no tap controls.
+            "blocked": bool(re.match(r"^[\*\s]*⛔\s*waits?\b", c[6] if len(c) > 6 else "")),
             "rec": ell(re.sub(r"\*\*|`", "", c[5]), 70),
         }
         (dec if kind in DECISION_TYPES else chore).append(row)

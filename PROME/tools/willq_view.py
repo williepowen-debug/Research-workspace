@@ -32,6 +32,12 @@ class WillqError(Exception):
     pass
 
 
+# Blocked keys on the DOCUMENTED declaration in the NOTES cell only — WILL_QUEUE Rules block: blocked rows carry
+# "⛔ waits: <who>" at the START of Notes. 2026-09-10 (WQ-221): a whole-LINE search for "⛔ wait" matched the
+# ITEM prose of the row proposing the aged-waits rule ("a ⛔ waits row whose …") and filed it under "waiting on
+# others" with no tap controls — Will could not rule it. Prose mentioning a marker is not the marker.
+BLOCKED_RE = re.compile(r"^[\*\s]*⛔\s*waits?\b")
+
 def parse_open(text):
     """OPEN-table rows → [{n, due, due_txt, blocked, kind}] — the gate/brief parser rules, duplicated."""
     if "## OPEN" not in text:
@@ -50,7 +56,7 @@ def parse_open(text):
             continue  # closed-in-place rows are not open asks (gate's MISFILED rule)
         raw = re.sub(r"\*\*|`", "", c[3]).strip()
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
-        blocked = bool(re.search(r"⛔\s*wait", line))
+        blocked = bool(BLOCKED_RE.match(c[6] if len(c) > 6 else ""))
         rows.append({"n": c[0], "due": d.group(0) if d else None,
                      "due_txt": raw, "blocked": blocked,
                      "kind": re.sub(r"\*\*|`", "", c[2]).strip().upper()})
@@ -147,6 +153,7 @@ FIX_Q = """# fixture
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
 | 12 | **Dated item** | RULE | 2026-09-12 (before x) | 9/6 | rec | note |
+| 8 | **Rule about a ⛔ waits row whose blocker is dark** | RULE | 2026-09-11 | 9/6 | rec | note |
 | 11 | **Undated item** | READ | on delivery | 9/5 | rec | note |
 | 10 | **Blocked item** | RULE | 2026-09-10 | 9/4 | rec | ⛔ waits: DAEDALUS |
 | 9 | ✅ **Closed in place** | RULE | 2026-09-01 | 9/1 | rec | done |
@@ -164,11 +171,12 @@ def selftest():
         q = Path(td, "Q.md"); s = Path(td, "S.md"); q.write_text(FIX_Q); s.write_text(FIX_S)
         as_of = dt.date(2026, 9, 6)
         rows = parse_open(q.read_text())
-        ok([r["n"] for r in rows] == ["10", "12", "11"] or [r["n"] for r in rows] == ["12", "11", "10"], "parse+sort")
+        ok([r["n"] for r in rows] == ["8", "12", "11", "10"], "parse+sort")
+        ok(any(r["n"] == "8" and not r["blocked"] for r in rows), "prose-mention of the wait marker is NOT blocked (WQ-221)")
         ok([r["n"] for r in rows][-1] == "10", "blocked sorts last")
         ok(all(r["n"] != "9" for r in rows), "closed-in-place row excluded")
         do_write(str(s), str(q), as_of, False); t1 = s.read_text()
-        ok(BEGIN in t1 and END in t1 and "WQ-12 (9/12)" in t1 and "⛔ WQ-10 (9/10)" in t1, "first-run write")
+        ok(BEGIN in t1 and END in t1 and "WQ-12 (9/12)" in t1 and "⛔ WQ-10 (9/10)" in t1 and "WQ-8 (9/11)" in t1 and "⛔ WQ-8" not in t1, "first-run write")
         ok(not HAND.search(t1.replace(t1[t1.index(BEGIN):t1.index(END) + len(END)], "")), "hand copy gone")
         ok(do_check(str(s), str(q)) == 0, "check clean after write")
         do_write(str(s), str(q), as_of, False); ok(s.read_text() == t1, "idempotent")

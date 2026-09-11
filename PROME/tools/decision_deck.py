@@ -77,6 +77,21 @@ def load_explainers() -> dict[str, dict]:
         out[c[0].strip()] = dict(zip(hdr, c))
     return out
 
+# Blocked keys on the DOCUMENTED declaration in the NOTES cell only — WILL_QUEUE Rules block: blocked rows carry
+# "⛔ waits: <who>" at the START of Notes. 2026-09-10 (WQ-221): a whole-LINE search for "⛔ wait" matched the
+# ITEM prose of the row proposing the aged-waits rule ("a ⛔ waits row whose …") and filed it under "waiting on
+# others" with no tap controls — Will could not rule it. Prose mentioning a marker is not the marker.
+BLOCKED_RE = re.compile(r"^[\*\s]*⛔\s*waits?\b")
+BLOCKER_RE = re.compile(r"⛔\s*waits?:\s*(?:the\s+)?([A-Z][A-Z0-9_-]{2,})")
+
+def is_blocked(notes: str) -> bool:
+    return bool(BLOCKED_RE.match(notes or ""))
+
+def blocker_of(notes: str) -> str | None:
+    """The desk named in the wait declaration (first ALL-CAPS token after "⛔ waits:"), else None."""
+    m = BLOCKER_RE.match((notes or "").lstrip("* "))
+    return m.group(1) if m else None
+
 def parse_open(text: str) -> list[dict]:
     sec = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
     rows = []
@@ -94,7 +109,8 @@ def parse_open(text: str) -> list[dict]:
             "n": c[0], "item": c[1], "kind": strip_md(c[2]), "by_raw": c[3],
             "by": first_date(c[3]), "since": strip_md(c[4]), "rec": c[5],
             "notes": c[6] if len(c) > 6 else "",
-            "blocked": bool(re.search(r"⛔\s*wait", line)),
+            "blocked": is_blocked(c[6] if len(c) > 6 else ""),
+            "blocker": blocker_of(c[6] if len(c) > 6 else ""),
             # ANSWERED (Will 2026-09-10 12:42 "these WQ that I have answered already should be moved out of OWED"):
             # the row already carries Will's word and stays OPEN only for his HANDS or a dated action —
             # lead reads APPROVED/RULED/RATIFIED, or the Type cell says RULED/APPROVED. Never a ruling ask.
@@ -197,8 +213,27 @@ def parse_docket(today: dt.date) -> list[dict]:
 
 # ---------------------------------------------------------------- render
 
-def due_pill(by: str | None, days: int | None, blocked: bool) -> str:
+_DARK_CACHE: dict[str, int | None] = {}
+def days_dark(desk: str | None) -> int | None:
+    """Days since the desk's last self-commit (subject "DESK:" / "DESK ->"); None if no desk or no commit found.
+    WQ-221 (Will 2026-09-10): the wait pill names the blocker + days dark, so an aged wait is visible on the deck."""
+    if not desk:
+        return None
+    if desk not in _DARK_CACHE:
+        try:
+            out = subprocess.run(["git", "log", "-1", "--format=%ct", "--extended-regexp",
+                                  f"--grep=^{desk}( |:)"], cwd=ROOT, capture_output=True, text=True, timeout=20).stdout.strip()
+            _DARK_CACHE[desk] = int((dt.datetime.now(dt.timezone.utc).timestamp() - int(out)) // 86400) if out else None
+        except Exception:
+            _DARK_CACHE[desk] = None
+    return _DARK_CACHE[desk]
+
+def due_pill(by: str | None, days: int | None, blocked: bool, blocker: str | None = None) -> str:
     if blocked:
+        if blocker:
+            dd = days_dark(blocker)
+            tail = f" · dark {dd}d" if dd is not None else ""
+            return f'<span class="pill wait">waits on {html.escape(blocker)}{tail}</span>'
         return '<span class="pill wait">waits on others</span>'
     if by is None:
         return '<span class="pill soft">no hard date</span>'
@@ -274,7 +309,7 @@ def render_owed(rows: list[dict], expl: dict, today: dt.date) -> str:
           )
         out.append(
             f'<article class="card{" blocked" if r["blocked"] else ""}" id="wq-{r["n"]}" data-wq="{r["n"]}">'
-            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"])}{TOGGLE}</div>'
+            f'<div class="rail"><span class="num">WQ-{r["n"]}</span>{due_pill(r["by"], days, r["blocked"], r.get("blocker"))}{TOGGLE}</div>'
             '<div class="body">'
             f'<div class="meta"><span class="pill type">{html.escape(r["kind"])}</span>'
             f'<span class="since">open since {html.escape(r["since"])}</span></div>'

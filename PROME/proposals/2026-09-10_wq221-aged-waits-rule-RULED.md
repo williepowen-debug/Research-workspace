@@ -1,0 +1,21 @@
+# WQ-221 — aged "waits on others" rule (WQ-206 extended to the deck's third group) — RULED
+
+**Ruled by Will:** 2026-09-10 23:22 ET, in-session, verbatim *"221 approved, fix the deck and spawn OSPREY tonight"* (the same word spawned the first application, OSPREY, 23:2x). **Raiser:** PROME (the 9/10 night session's stall measurement: WQ-74 waited 20 days for a delivery that had already landed under WQ-200; WQ-216 since 8/20; WQ-219 since 8/13 — all in the deck group Will's count excludes and no rule could wake). **PROME rec was:** approve; first application = OSPREY tonight; implement as DOCKET rows so the WQ-184 driver stays the one wake mechanism.
+
+**How the word arrived (the record, not a tap):** the deck could not take a tap on this row. Every queue parser (`decision_deck.py` · `willq_view.py` · `prome_gate.py` · `will_brief.py`) classified a row as blocked by `re.search(r"⛔\s*wait", line)` over the WHOLE row line, and the WQ-221 item text itself says *"a ⛔ waits row whose BLOCKING desk…"* — so the row that proposed the rule was filed under "Waiting on others — nothing owed by you", the group the deck renders with no Approve/Decline controls. Will asked *"I thought I ruled on 221 already?"* at 23:12 and sent the screenshot at 23:13; PROME confirmed no tap and no word on record (the 19:25 *"ok approved"* answered the VULCAN drain rec, L323). Ruled by word at 23:22. Fixed the same session: the classifier keys on the documented declaration — `⛔ waits: <who>` at the START of the Notes cell (the WILL_QUEUE Rules block's own wording) — in all four parsers, with a discriminating fixture (a row whose item prose mentions "⛔ waits" but is not blocked). Class: `finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it`, n+1.
+
+## The rule (as encoded)
+1. A **⛔ waits row** in `PROME/WILL_QUEUE.md` (Notes cell begins `⛔ waits: <who>`) whose **BLOCKING desk has been DARK ≥7 days** since the wait was registered (dark = no self-commit; age from the row's Since cell or the wait's dated registration, whichever is later) **authorizes a PROME L0 drain-only spawn of that desk** — the whole inbox, every sender, no new-direction work — with **no per-item ask**. The blocker must itself exist as a packet or DOCKET item (the Rules block already forbids silent waits); the drain's brief names the wait it clears.
+2. **Cap-counted:** the cap of 4 due-row spawns per boot still binds; beyond it, a slate in the boot report for Will's word.
+3. **Wake mechanism = a DOCKET row** (PROME's rec, approved with the word): when a wait crosses 7 days dark, PROME registers a PENDING DOCKET row naming the blocking desk as owner, dated the next boot, so `spawn_list.py` (WQ-184) drives the spawn like any other due row — one wake mechanism, not two.
+4. **Deck:** the third group's wait pill names the blocker and the days dark (owed on the next deck build).
+
+## Encoded at
+`PROME/AUTONOMY.md` change-log row 2026-09-10 (second row of the day) · `PROME/CLAUDE.md` Dark-owner doorbell paragraph (one sentence after the WQ-206 sentence) · `PROME/WILL_QUEUE.md` row 221 → RECENTLY DONE · this record.
+
+## First application
+- **23:2x ET, OSPREY** (Will's word names it): the WQ-216 wait — HAWK's half of the joint strike taxonomy delivered 9/10 18:31 (`5cb0f4f2f`), OSPREY dark since 9/8, plus DAEDALUS's BLOCKING strike-feed review (9/10 10:53), HAWK's downgrade-path NO OBJECTION, and PROME's 9/8 disposition follow-up — a five-item whole-inbox drain (census: 5 top-level, 0 WALTER/). Spawned Opus, Tier 1 on the word, after `ListAgents` in the same minute showed no OSPREY session.
+- **Next candidates under the rule:** WQ-219 (BROCK's ASIF D2 draft, waiting since 8/13 — BROCK is already on the 9/11 slate via DOCKET L260, whose brief carries the ask; no second spawn) · WQ-157 (BOND's FR2004 join is DATED 9/18 by BOND, DOCKET L271 — a dated deliverable is not an aged wait; not a candidate before 9/18).
+
+## Not granted
+No new-direction work under this rule; no trade or spend consequents (Tier 3 unchanged); no WALTER spawn authority; no change to `PROME/inbox/` as the delivery surface; a wait whose blocker is a DATED deliverable (a DOCKET row with a future date) is not aged until that date passes.
