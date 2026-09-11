@@ -12,7 +12,8 @@
 
 Built 2026-06-16; mechanizes the manual domain audit. Read-only, stdlib-only, ~1s, one extra FRED-pull-free. Exit code = count of HIGH/MED. The checks below are enumerated in **append order, not `CHECKS` order** — the tool's `CHECKS` list is canonical, and `restated_set_drift` seed (c) mechanically holds this enumeration to it (name-set parity, not ordering):
 
-1. **version_drift** — core spec self-declared header versions vs `STATE.md` §1.
+1. **future_timestamps** — no WALTER-written stamp may lie in the FUTURE; also catches malformed ones. Bought 2026-09-11 by 39 wrong stamps in one session (six BOARD signals + 33 `delivery_log` rows, up to 109 minutes ahead, one rolling to the next day). ⚠️ **`delivery_log.timestamp_routed` is ALSO this doctor's AGE BASIS, so a stamping error is silently a MEASUREMENT error** — and the derived figure can read CORRECTLY anyway. A remembered "check the clock" cannot be the control for the thing it forgets.
+1b. **version_drift** — core spec self-declared header versions vs `STATE.md` §1.
 2. **claude_md_version_drift** — CLAUDE.md KEY-DESIGN-FILES version claims vs spec headers (guards the boot doc itself).
 3. **board_reconcile** — BOARD INDEX ToC counts = section rows = SIG files on disk.
 4. **log_reconcile** — route_log / delivery_log SIG-ids ↔ BOARD files (orphans / missing).

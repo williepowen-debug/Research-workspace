@@ -12,6 +12,7 @@ surfaced for awareness.
   exit N  = N HIGH+MED findings — see the punch-list
 
 Checks:
+  future_timestamps      no stamp in the FUTURE; malformed stamps (the age basis lives here)
   version_drift          spec header vs STATE.md §1            (reuses version_drift_check)
   claude_md_version_drift  CLAUDE.md spec-version citations vs spec headers (the boot doc nothing else watched)
   board_reconcile        ToC == section headers == SIG rows == files on disk
@@ -731,6 +732,57 @@ def _delivery_routed_dates():
     return out
 
 
+def _handoff_role(sig, recipient, filename, roles):
+    """ACTION / INFO / UNKNOWN for one handoff, FAIL-CLOSED. Roles are UPPERCASE,
+    matching `_delivery_roles()`.
+
+    🔴 WHY (2026-09-11, Codex-found; WALTER opened the hole the SAME EVENING).
+    Until SPEC v0.26 §3.5.8(a) WALTER wrote NO handoff to a `PULL_COMPLETE` desk, so any
+    file in one of their `inbox/WALTER/` dirs was residue and "archive, not consume" was
+    TRUE. v0.26 made `action:` asks deliverable to exempt desks (CARL and RED apply) —
+    and `check_delivered_but_unconsumed` still sorted by DESK, so an unanswered ACTION
+    ask to CARL or RED would have been filed LOW as "archive cleanup" and vanished from
+    the MED backlog count. **The rule changed and the machinery did not.**
+    `[[finding_guard_correctness_and_wiring_are_independent]]`
+
+    delivery_log is authoritative. Absent a row: a `*-NOTE*` file is note-class (§3.5.1,
+    non-actionable by §3.5.3 definition); otherwise read the BOARD row's own `action:`
+    line. ⛔ If none of that resolves, return "unknown" — and the caller must treat
+    unknown as ACTION-class, never as archive. An unclassifiable item is exactly the one
+    you cannot afford to drop, and the flattering default is what this check exists to
+    prevent."""
+    r = roles.get((sig, recipient.upper()))
+    if r in ("ACTION", "INFO"):
+        return r
+    if "NOTE" in filename.upper():
+        return "INFO"
+    # ⛔ NO RESOLVABLE SIG ⇒ NOT A DISPATCH HANDOFF. Queue manifests, READMEs and other
+    # long-lived working files legitimately sit in an inbox for months and are owned by
+    # their OWN ledgers (the DEWEY batch-2 manifest, 54d, is tracked by
+    # `deep_research_pending_overdue`). Counting them here double-counts another
+    # instrument's subject and would permanently pin "oldest ACTION" at the age of a file
+    # that is not a dispatch — which desensitises the number that matters.
+    # ⚠️ Reported as its own class, NEVER silently dropped: a check certifies its SCOPE.
+    # `[[finding_verification_zero_is_ambiguous]]`
+    # ⚠️ TEST THE PATTERN, NOT TRUTHINESS. `_bare_sig` returns the FULL STEM unchanged
+    # when no signal id is present, so `if not sig` never fires — the same shape as the
+    # defect that function's own docstring records (a lookup that silently returned
+    # something plausible instead of nothing).
+    if not re.match(r"^SIG-W-\d{8}-\d{3}$", sig or ""):
+        return "NON-DISPATCH"
+    if sig:
+        for f in (REPO / "BOARD").glob(f"{sig}*.md"):
+            try:
+                head = f.read_text(errors="replace")[:1500]
+            except OSError:
+                break
+            m = re.search(r"^action:\s*\[(.*?)\]", head, re.M)
+            if m:
+                return "ACTION" if recipient.upper() in m.group(1).upper() else "INFO"
+            break
+    return "UNKNOWN"
+
+
 def _bare_sig(stem):
     """`SIG-W-20260819-011-long-slug-here` -> `SIG-W-20260819-011`.
 
@@ -784,6 +836,9 @@ def check_delivered_but_unconsumed():
     routed_dates = _delivery_routed_dates()
     aged, pull_complete, no_row = [], [], 0
     consumed_not_filed = []
+    delivery_roles = _delivery_roles()
+    roles_seen, unknown_role = {}, 0
+    non_dispatch = []
     for p, recipient, relpath in files:
         if _sync_state(relpath, origin) != "on_origin":
             continue  # not delivered yet → written_but_undelivered owns it
@@ -824,8 +879,21 @@ def check_delivered_but_unconsumed():
             if sig and sig in _recipient_board_log(recipient):
                 consumed_not_filed.append((recipient, sig, age))
             else:
-                (pull_complete if recipient.upper() in PULL_COMPLETE else aged).append(
-                    (recipient, sig, age))
+                role = _handoff_role(sig, recipient, p.name, delivery_roles)
+                # 🔴 ROLE FIRST, DESK SECOND (v0.26 §3.5.8(a)). A pull-complete desk's
+                # handoff is "archive residue" ONLY when it is info/note-class. An
+                # `action:` ask deliberately delivered under §3.5.8(a) is a REAL
+                # unconsumed obligation and belongs in `aged`; so does an UNKNOWN,
+                # fail-closed.
+                if role == "NON-DISPATCH":
+                    non_dispatch.append((recipient, p.name, age))
+                elif recipient.upper() in PULL_COMPLETE and role == "INFO":
+                    pull_complete.append((recipient, sig, age))
+                else:
+                    aged.append((recipient, sig, age))
+                    if role == "UNKNOWN":
+                        unknown_role += 1
+                roles_seen[(recipient, sig)] = role
     # Pull-complete recipients (WALTER skips delivery, §3.5) — residual handoffs are a
     # one-time to-ARCHIVE cleanup by PROME, NOT a consume-gap (+ a re-delivery tripwire).
     pc = []
@@ -850,18 +918,21 @@ def check_delivered_but_unconsumed():
     # Collapse to a role-split summary (ACTION = the real risk; INFO cc-pile =
     # low-stakes per the 2026-06-23 delivery-telemetry calibration) — one line,
     # not one per item, so genuine boot findings aren't buried under the cc-pile.
-    roles = _delivery_roles()
     by_rcpt, action_total = {}, 0
+    oldest_action, oldest_info = 0, 0
     for recipient, sig, age in aged:
-        role = roles.get((sig, recipient.upper()), "?")
+        role = roles_seen.get((recipient, sig), "UNKNOWN")
         a, i, mx = by_rcpt.get(recipient, (0, 0, 0))
-        if role == "ACTION":
+        # UNKNOWN counts as ACTION — fail-closed. An item we cannot classify is the
+        # one we can least afford to drop into the low-stakes bucket.
+        if role in ("ACTION", "UNKNOWN"):
             a += 1
             action_total += 1
+            oldest_action = max(oldest_action, age)
         else:
             i += 1
+            oldest_info = max(oldest_info, age)
         by_rcpt[recipient] = (a, i, max(mx, age))
-    oldest = max(x[2] for x in aged)
     parts = [f"{r} {by_rcpt[r][0] + by_rcpt[r][1]}"
              + (f"({by_rcpt[r][0]}A/{by_rcpt[r][1]}I)" if by_rcpt[r][0] else "")
              for r in sorted(by_rcpt, key=lambda r: -(by_rcpt[r][0] * 100 + by_rcpt[r][1]))]
@@ -876,11 +947,24 @@ def check_delivered_but_unconsumed():
     # `[[finding_verification_zero_is_ambiguous]]` — a check certifies its SCOPE.
     total_in_flight = len(files)
     nr = f", {no_row} on mtime (no delivery_log row)" if no_row else ""
+    # 🔴 AGES REPORTED PER CLASS, NEVER ONE POOLED "oldest" (2026-09-11, Codex-found).
+    # The old line read "…oldest 54d — 6 ACTION / 18 INFO", which invites exactly one
+    # reading: that there are 54-day-old unanswered ACTION items. There were not — the
+    # 54d item was INFO and the oldest ACTION was 7d. WALTER mis-briefed the operator AND
+    # a peer desk from its own headline. Both numbers were individually correct; their
+    # JUXTAPOSITION carried a claim neither made.
+    # `[[finding_output_shape_implies_more_than_the_measurement]]`
+    uk = f", {unknown_role} UNCLASSIFIED counted as ACTION (fail-closed)" if unknown_role else ""
+    nd = (f" [+{len(non_dispatch)} non-dispatch file(s) OUT OF SCOPE — "
+          + ", ".join(f"{r}/{n} {a}d" for r, n, a in sorted(non_dispatch, key=lambda x: -x[2])[:3])
+          + "; owned by their own ledgers, not this check]") if non_dispatch else ""
+    age_bit = (f"oldest ACTION {oldest_action}d" if action_total else "no ACTION items")
+    age_bit += f" · oldest INFO {oldest_info}d" if info_total else ""
     summary = (f"{len(aged)} unconsumed >{N_UNCONSUMED_DAYS}d across {len(by_rcpt)} agents "
                f"(of {total_in_flight} in flight — the rest are within the grace period, "
-               f"NOT evidence they are consumed), oldest {oldest}d — "
-               f"{action_total} ACTION / {info_total} INFO: {'; '.join(parts)}"
-               f" [age from delivery_log.timestamp_routed{nr}]")
+               f"NOT evidence they are consumed) — "
+               f"{action_total} ACTION / {info_total} INFO, {age_bit}{uk}: {'; '.join(parts)}"
+               f" [age from delivery_log.timestamp_routed{nr}]{nd}")
     if action_total:
         return pc + [(MED, summary + " — ACTION items are the risk; install recipient "
                       "consume boot-step (CC self-apply set) to clear")]
@@ -2407,7 +2491,82 @@ def check_index_generated_fresh():
     return [(INFO, f"generated INDEX fresh (rowset {sha[:12]}, {len(sigs)} signals; "
                    f"{len(have)} live rows hashed and matched — banner AND content)")]
 
+def check_future_timestamps():
+    """No WALTER-written timestamp may lie in the FUTURE. Also catches malformed stamps.
+
+    🔴 BOUGHT 2026-09-11, 39 WRONG STAMPS ACROSS 19 FILES IN ONE SESSION. WALTER read the
+    clock ONCE at session start and then produced every later stamp from felt elapsed
+    time: six BOARD signals and 33 `delivery_log` rows landed 30, 49, 72, 95, 104 and 109
+    minutes in the FUTURE, one rolling to the next calendar day. A peer found 2 of them by
+    eye; the class was 39.
+
+    ⚠️ WHY A CHECK AND NOT A RULE. "Read the clock before every stamp" is a discipline,
+    and the discipline is exactly what failed — a remembered ritual cannot be the control
+    for the thing it forgets. `[[finding_mechanize_the_cap_not_the_ritual]]`
+
+    🔑 AND WHY IT IS MORE THAN TIDINESS: `delivery_log.timestamp_routed` is ALSO this
+    doctor's AGE BASIS, so a stamping error is silently a MEASUREMENT error — and the
+    derived figure can read CORRECTLY anyway (every affected row sat inside the 2-day
+    grace), so nothing announces it.
+    `[[finding_a_column_that_is_both_record_and_instrument_basis_fails_twice]]`"""
+    now = dt.datetime.now(dt.timezone.utc)
+    # A small forward tolerance: a stamp written seconds before the clock ticks over, or a
+    # legitimately scheduled row, must not fire this. Anything beyond it is drift.
+    tol = dt.timedelta(minutes=5)
+    bad, malformed = [], []
+
+    def _scan(label, text, path):
+        for m in re.finditer(r"(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z", text):
+            raw = m.group(0)
+            try:
+                d = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            except ValueError:
+                malformed.append((label, path, raw))
+                continue
+            if d > now + tol:
+                bad.append((label, path, raw, int((d - now).total_seconds() // 60)))
+
+    log = WALTER / "routed" / "delivery_log.tsv"
+    if log.exists():
+        for ln in log.read_text(errors="replace").splitlines()[1:]:
+            c = ln.split("\t")
+            if len(c) >= 2 and c[0].strip():
+                _scan("delivery_log", c[0].strip(), c[1].strip())
+
+    # BOARD frontmatter for signals dispatched in the last 14 days (bounded scan).
+    cutoff = (TODAY - dt.timedelta(days=14)).strftime("%Y%m%d")
+    for f in sorted((REPO / "BOARD").glob("SIG-W-*.md")):
+        try:
+            stamp = f.name.split("-")[2]
+        except IndexError:
+            continue
+        if stamp < cutoff:
+            continue
+        head = f.read_text(errors="replace")[:600]
+        for line in head.splitlines():
+            if line.startswith(("timestamp:", "time_dispatched:")):
+                _scan("BOARD", line.split(":", 1)[1].strip(), f.name)
+
+    out = []
+    if bad:
+        worst = max(b[3] for b in bad)
+        shown = ", ".join(f"{lbl}:{path} {raw} (+{mins}m)"
+                          for lbl, path, raw, mins in sorted(bad, key=lambda x: -x[3])[:4])
+        out.append((HIGH, f"{len(bad)} FUTURE timestamp(s), worst +{worst} minutes ahead of "
+                    f"the clock — a stamp you cannot have written yet. THE AGE BASIS IS "
+                    f"AMONG THESE FIELDS, so this is a measurement defect, not formatting. "
+                    f"Re-stamp from `date -u`, never from felt elapsed time: {shown}"))
+    if malformed:
+        out.append((MED, f"{len(malformed)} malformed timestamp(s): "
+                    + ", ".join(f"{l}:{p} {r}" for l, p, r in malformed[:4])))
+    if not out:
+        out.append((INFO, "no future or malformed timestamps in delivery_log or 14d of "
+                    "BOARD frontmatter"))
+    return out
+
+
 CHECKS = [
+    ("future_timestamps", check_future_timestamps),
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
     ("restated_set_drift", check_restated_set_drift),
