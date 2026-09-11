@@ -34,6 +34,12 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 ## CHANGES SINCE LAST RUN
 
+### Run 21 (September 11, 2026 ET — **SELF-AUDIT**, scope = METSUKE.md + METSUKE_MEMORY.md + METSUKE_MEMORY_ARCHIVE.md only; watermark Run 20, same day)
+
+⛔ **NOT a trade-doc run. TRADE.md and STRATEGY.md were NOT swept** — Will directed each SAM sub-agent to turn its staleness discipline on its own files. No TRADE/STRATEGY flag in this run, and the absence is by scope, not by a clean result.
+
+**What moved since Run 20 (hours, not days):** SAM applied the Run-20 block (`a7fc09dbd`, +82 lines) and then fixed `subagent_memory_roll.py` so a PENDING block's closure must be declared in its HEADING (`0226239464`, METSUKE_MEMORY −28 / ARCHIVE +29). **Consequence Run 20 could not have seen: the roller now reports `nothing terminal to roll` on this file — roll-off is 0 B/run, not the ~14K Run 20 projected.** `METSUKE.md:7` was also converted from a transcribed "Last run" date to a pointer (E3, sixth consecutive flag) — the model fix for the whole mirror class audited below.
+
 ### Run 20 (September 11, 2026 ET — post-STRUCTURAL-session full-sweep; watermark Run 19, September 8)
 
 Neither trade doc was edited this session. Per-file git: TRADE and STRATEGY both last written `94a04d39d` (2026-09-09 08:40 ET, "close out September 8 review work") — the Run-19 apply. Both `Last Updated` lines read 2026-09-08, which is the review's session date, not a lag: **the header-vintage class that fired at Runs 15/17/18/19 did NOT fire this run.** State movement 9/9 → 9/11: STATUS hot/cold split into a new WARM `STATUS_REFERENCE.md` (durable reference rows, CARRY UNWIND method/vintage, INTERVENTION evidence, CHANNELS·BOJ·FED source detail), each leaving a named pointer in STATUS; the 9/10 ET session block moved to `STATUS_ARCHIVE.md`; a 40-file retirement sweep to `archive/<original relative path>`; two new registered documents — `thesis/AUCTION_GRADING_RULING_2026-09-11.md` (RULING 1 PRECISION-LIMITED tag at ≤0.1bp trip margins; RULING 2 FIRM/SOFT bars **NOT tenor-portable to uniform-price auctions**, retroactive scope NONE) and `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (xccy proxy declined; monitor stops Sep-14). Market state: USD/JPY 153.43, Brent $104.39, FXY $59.77, oil-in-yen ¥16,017 (all 9/11 ~14:0x UTC); BOJ September 98% priced for +25bp to 1.25%, the only surprise left is a HOLD and it is yen-NEGATIVE. SAM-28's ≥+3% MAGNITUDE bar CLEARED (FXY 57.20 [9/1] → 59.77 = +4.49%) with the ROUTE leg NOT met; SAM-28/31/33 OPEN. Book FLAT, $0 at risk, THESIS v1.7, no successor. Audit focus this run: **moved content** (a class not previously faced), archived-path integrity, and the two post-structural failure modes named in the brief — sibling-instance miss and bracket-with-rotten-interior.
@@ -241,6 +247,23 @@ State-of-truth movement since STRATEGY.md `Last Updated: 2026-05-28`:
 
 ## LAST RUN
 
+### Run 21 — 2026-09-11 ET (**SELF-AUDIT**; scope = own three files; PROPOSE ONLY)
+
+**Outcome:** **1 🔴 structural (spawn-read cost) + 3 🟠 + 2 🟡.** 0 MONEY-FIELD-ESCALATION (21st consecutive run — vacuous this run, no money field was in scope).
+
+**This block is deliberately ~2.5K, not the ~12.6K/run the last four runs wrote.** Writing a 12K block into the file whose size is the finding would refute the finding. Full evidence is in the return report to SAM.
+
+**Headline arithmetic (all figures measured, UTF-8 bytes, `git cat-file -s` per commit):**
+- Post-roll floor 2026-08-20 = **260,897 B**. Today = **366,064 B**. Four runs (17-20). **ADD = +26,292 B/run.**
+- Roll-off in the same window: ARCHIVE 119,002 → 130,168 = **+11,166 B over two roll events = 5,583 B/run**; the roller's report **right now is 0 B**.
+- **Net +20,700 B/run at the historical rate, +26,292 at today's actual rate. The roller recovers 21% of a run, or 0%.**
+- **Where the growth lands: 66% of it (+69,157 of +105,167 B) is inside `NEVER_ROLL`** — NEXT RUN HINTS +18,561 · LAST RUN +24,957 · STANDING MONITORS +10,365 · CHANGES SINCE +10,058 · PENDING +5,216. Only 28% is in run-history, the only zone the roller may touch.
+- 🔑 **A roll-rate tweak cannot close this.** Rolling *every* eligible run-history block today (~71,500 B, ignoring `--keep-runs`) buys **2.7 runs** of headruom. The fix must change ELIGIBILITY, not rate.
+
+**Dead-weight census (live = last two vintages):** `## NEXT RUN HINTS` 121,830 B of which **114,743 B is consumed hints for Runs 1-19** (incl. `### Inaugural-run hints … — CONSUMED Run 1`, still present 102 days later, and a duplicated `### Forward hints for Run 11`) · `## CHANGES SINCE` 42,995 B of which **39,536 B** is 18 stacked older deltas · `## LAST RUN` holds Runs 1/3/4 + a template = **13,530 B** · `## STANDING MONITORS` ~**32,000 B**, 46 monitors, none ever retired. **Total unreachable dead weight ≈ 199,800 B = 55% of the file.**
+
+**Validation:** `## CALIBRATION` byte-identical before and after (md5 recorded in-script). No file written except this one. `METSUKE.md` NOT edited — every spec change below is a proposal. No commit, no push, no pull, no spawn, no external retrieval.
+
 ### Run 20 — 2026-09-11 ET (post-STRUCTURAL-session full-sweep; PROPOSE ONLY)
 
 **Outcome:** **3 actionable + 3 low.** 1 🔴 STALE-MARK (a Run-15 flag recorded as APPLIED that was never applied, surviving Runs 16-19), 1 🟠 STALE-FRAMING (today's auction-grading ruling undercuts a live Pillar-2 inference in both docs), 1 🟠 STALE-FRAMING (a citation instruction that promises "canonical live numbers" at two surfaces both now self-declared historical), plus 3 LOW. **0 MONEY-FIELD-ESCALATION (20th consecutive run). 0 CAL-DRIFT, 0 DUP-LIVE-SPOT, 0 CHANGELOG-GAP, 0 TRIGGER-STATUS-DRIFT.** Two of the three mandated structural hunts came back **CLEAN and that is the finding**: no TRADE/STRATEGY path reference was broken by the 40-file archive sweep, and no STATUS section pointer was broken by the hot/cold split.
@@ -395,6 +418,22 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Pending from Run 21 — 2026-09-11 (SELF-AUDIT; SAM review required; proposals, not applied)
+
+1. **🔴 STRUCTURAL — roll-off is losing ~26K B/run and the roller is aimed at the wrong 26% of the file.** Three mechanical eligibility changes to `scripts/subagent_memory_roll.py` + `METSUKE.md` §📏 rule 4, in descending value: **(a)** roll `### Forward hints for Run N` / `### After Run N` on **RECENCY**, keeping only the latest vintage — a consumed hint needs no closure marker because **consumption is proved by the existence of the next run's block** (the PROVABLE-LANDING criterion SAM already ratified for `kura_proposal_roll.py`, which is stronger than a marker): **−114,743 B**; **(b)** same recency rule for `## CHANGES SINCE LAST RUN`, keeping the current run's delta: **−39,536 B**; **(c)** keep the last two `### Run N` blocks inside `## LAST RUN`, roll the rest: **−13,530 B**. Combined **−167,809 B = 46% of the file**, spawn read ~90K → ~48K tokens, and per-run growth falls from +26,292 to roughly +4,000. ⛔ Needs a `NEVER_ROLL` amendment: those three sections are working sets **at one vintage**, which is not what the current rule says.
+2. **🟠 `## STANDING MONITORS` has never retired a monitor (46 entries, ~32,000 B), and two of them watch CLOSED predictions.** `METSUKE_MEMORY.md:484` (SAM-21) and `:485` (SAM-23) — `thesis/PREDICTIONS.tsv` records both **FAILED**. Annotated in place this run (moved, not deleted); **SAM rules the retirement.** Mechanisable check: grep each monitor's named `SAM-NN` against the PREDICTIONS Status column at closeout. Also `:502` still reads "Entry-trigger set is **SAM-28..31**" — SAM-29 FAILED, SAM-30 RESOLVED; the live OPEN set is **SAM-28 / SAM-31 / SAM-33**.
+3. **🟠 SPEC MIRROR — `METSUKE.md` names four CLOSED predictions as the OPEN set, in six places.** `:42`, `:58`, `:81`, `:106`, `:125`, `:204` all direct a fresh spawn at **SAM-21 / SAM-23 / SAM-24 / SAM-26**; PREDICTIONS.tsv reads FAILED / FAILED / RESOLVED / FAILED. `:81` also transcribes a literal trajectory `"70%→~57%→~50%→70%"`. **A cold METSUKE following the spec literally sweeps four dead rows and never looks at SAM-28/31/33.** Derivation: name no IDs — say *"the rows whose Status column reads OPEN"*, exactly as `METSUKE.md:7` was fixed today.
+4. **🟠 SCRIPT MIRROR — `subagent_memory_roll.py` hard-codes the roll date `2026-08-20` in its pointer f-string.** All three `## ↪️ ARCHIVED RUN HISTORY` stubs in this file (`:1613`, `:1617`, `:1621`) say "rolled 2026-08-20"; the real dates are 8/20, **8/27** and **9/11** (archive commits). Two of three are false on their face and every future roll — in all three sub-agents' files — mints another. Owner of the true value is the clock: `datetime.date.today().isoformat()`.
+5. **🟡 SPEC MIRROR — `METSUKE.md:222-224` transcribes a file-size table that is now wrong by up to 2.7×.** Measured today: METSUKE **23K/366K** (spec says 20K/370K) · KURA **69K/190K** (spec says 158K/176K) · KOYOMI **24K/123K** (spec says 17K/119K). The KURA spec figure moved 158K → 69K when its proposal roller ran 8/27 and the state grew 176K → 190K. Derivation: cite `subagent_memory_roll.py --all`, which prints live sizes, instead of a table. (`:218`'s "STATUS 250 / MEMORY 100 lines" transcribes faithfully — but `AGENTS/SAM/MEMORY.md` is **121 lines**, so the source is in breach. Not METSUKE's to fix; surfaced once.)
+6. **🟡 `## PENDING from Run 15` is genuinely CLOSED but can now never roll.** Its closure marker is in the BODY (*"Section CLOSED — 7/7 cleared"*), not the heading, and the 2026-09-11 fix requires it in the heading for PENDING blocks. 7,421 B stranded permanently. One-line fix, SAM's act: append the marker to the heading, as Runs 14/16/17 already carry. ⚠️ **And its body is not trustworthy as-is** — SAM established today that item 1's *"Applied exactly as scoped"* was FALSE for the third named site (`STRATEGY:41`), unapplied for Runs 16-19.
+
+**⚠️ ESCALATIONS:** see LAST RUN § Run 21 and the return report — **E1** (`## PENDING from Run 18` disposition, below) · **E2** (spec omits the 2026-08-07 compress ruling entirely — `grep -ic compress METSUKE.md` = **0** — although it has governed every run since Run 15) · **E3** (`METSUKE.md:13` asserts the working directory is the repository root; this spawn's cwd was `AGENTS/SAM`) · **E4** (the §📏 rule mandates a roll PROCESS but sets no NUMBER — that is why four runs of +26K each passed unflagged).
+
+**E1 — `## PENDING from Run 18 (2026-09-02)`: I am not closing it, and here is precisely why.**
+- **Substantively it is done.** Run 19 verified all four flags at the artifacts: *"Run-18 flags 1/2/3 and its sibling 4 are visibly APPLIED at `TRADE:36/:296/:302` and `STRATEGY:36/:229`."* I re-tested every flagged string at the current docs this run: `$87.30` 0 hits, `4.096` 0, `five consecutive` 0, `45bp` 0, `40-54` 0, `THREE inconsistent` 0, in both files.
+- ⚠️ **But that re-test is weak evidence and I will not present it as strong.** Both docs were **rewritten wholesale on 2026-09-08** (`Last Updated: 2026-09-08 — METSUKE Run 19 applied`, before-images in `research/outputs/2026-09-08_subagent_review/before/`). After a restructure, **absence of a string proves the text is gone, not that the flag was adjudicated** — and the block's own line references (`TRADE:36`, `:296`, `:302`, `STRATEGY:36`, `:229`) no longer resolve to the cited content. Run 19's verification, made **before** the rewrite against the cited lines, is the load-bearing evidence; mine is corroboration.
+- ⛔ **And the marker is not mine to write.** The standing ruling is recorded in the archive at `## PENDING from Run 16`: *"**Marking closure is SAM's act, not METSUKE's — a sub-agent must not be able to clear its own backlog.**"* Rule 4 of the §📏 discipline says the same. **What is outstanding is one act by SAM: append `— ✅ CLOSED 2026-09-11 by SAM; all four flags verified applied at the artifacts during Run 19 (see LAST RUN § Run 19 "Backlog disposition")` to the heading at `:1598`.** Heading, not body — per the 9/11 roller fix, a body marker will not roll (defect 6 above).
+
 ### Pending from Run 20 — 2026-09-11 (SAM review required; proposals, not applied)
 
 - **F1 🔴:** `STRATEGY.md:41` — strike the retired-basis `25.3% of peak` (banner canon = **24.2% of R = −188,077**); leave `−45,473` / `62,527` untouched. Sibling `TRADE.md:223` is the weaker, dated case — the `thesis/THESIS.md:5` "(as published; percentages later corrected in STATUS)" treatment fits it. **Run-15 named STRATEGY L37 and it was never edited — verify at git, not at the disposition note.**
@@ -473,6 +512,9 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## STANDING MONITORS (surface each run)
 
+- **🆕 Run-21 SELF-STATE SIZE (new, and it is the monitor whose absence caused the problem):** at every closeout report `METSUKE_MEMORY.md` bytes, the delta since the previous run, and the roller's freed-bytes figure **as three numbers in one line.** ⚠️ **Run 20 quoted the roller's projected "~14K (4%)" without checking what actually landed: the realised roll was 7,211 B and the next run's is 0 B.** A projection from a report-only tool is a forecast, not a receipt — quote the archive delta.
+- **🆕 Run-21 monitor-retirement sweep (new):** a monitor naming a `SAM-NN` whose PREDICTIONS Status is not OPEN is not a monitor. Grep the list against `thesis/PREDICTIONS.tsv` each run; propose retirement, never delete.
+
 - **Run-20 current override:** the compress ruling still holds and interiors are still protected. Two additions to *where the banner can rot*: (i) a banner clause can be **copy-pasted into a sibling doc that has no such content** (STRATEGY's watchlist certification), and (ii) a banner can carry a **forward adjective** ("the **prospective** precision ruling") that expires the day the thing it forecasts is registered. Check both every run.
 - **Run-20 archive/split guard:** after a host-doc restructure, test paths **by extraction, not by reading** — pull every `*.md/.tsv/.py/.xlsx/.csv` token (backticked, linked AND bare) out of both docs and existence-test the list, then test the movers by **name** as well as by path. This run: 26 references, 0 broken, 0 name-hits on the 40 archived files. **A 2-minute mechanical test that converts "probably fine" into a reportable negative.**
 
@@ -481,8 +523,8 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 *Recurring drift watches METSUKE should re-check every run.*
 
-- **SAM-21 mark in TRADE/STRATEGY body** vs current PREDICTIONS trajectory tail. Highest-frequency drift type historically (BOJ-hike mark moves on CPI prints, market repricing, BOJ commentary).
-- **SAM-23 mark in TRADE/STRATEGY body** vs current PREDICTIONS trajectory tail. Moves on MOF intervention zones, Iran/MOU status changes, Brent direction.
+- ⚰️ **RETIREMENT PROPOSED (Run 21, 2026-09-11 — SAM rules; not deleted).** `thesis/PREDICTIONS.tsv` records **SAM-21 FAILED**; a monitor watching a closed prediction is not a monitor. ~~**SAM-21 mark in TRADE/STRATEGY body** vs current PREDICTIONS trajectory tail.~~ Highest-frequency drift type historically (BOJ-hike mark moves on CPI prints, market repricing, BOJ commentary).
+- ⚰️ **RETIREMENT PROPOSED (Run 21, 2026-09-11 — SAM rules; not deleted).** `thesis/PREDICTIONS.tsv` records **SAM-23 FAILED**. ~~**SAM-23 mark in TRADE/STRATEGY body** vs current PREDICTIONS trajectory tail.~~ Moves on MOF intervention zones, Iran/MOU status changes, Brent direction.
 - **THESIS header banner date** vs `Last Updated:` lines in TRADE / STRATEGY headers. When THESIS banner has a more-recent POV-pivot annotation than the TRADE/STRATEGY header, downstream body drift is likely.
 - **RISK FACTORS mitigation columns** — THESIS table is canonical; TRADE's parallel table tends to lag 1-2 POV pivots on the mitigation prose.
 - **STRATEGY "WHERE WE ARE IN THE TRADE" stage-table top-row prose** — captures the live narrative; highest framing-drift watch.
@@ -614,6 +656,13 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 ---
 
 ## NEXT RUN HINTS
+
+### After Run 21 — current instructions (September 11, self-audit)
+
+**Step zero:** this was a **self-audit**, not a trade-doc run. **TRADE.md and STRATEGY.md have not been swept since Run 20.** The next normal run inherits Run 20's trade-doc backlog intact — do not read Run 21's clean categories as coverage.
+**Do NOT re-derive:** the growth arithmetic (+26,292 B/run vs 0 B/run roll-off), the 55% dead-weight census, or the six mirror sites. They are measured and recorded in `## PENDING from Run 21`; re-deriving them costs a run and changes nothing.
+**Check first:** whether SAM applied Pending-21 items 1 (roller eligibility), 4 (hard-coded roll date) and 6 (Run-15 heading marker). If item 1 landed, **this section should be ~7K, not ~122K** — measure it and say so. If it did not, report the new file size and the new per-run delta; the trend line is the argument.
+**Closeout reminder:** keep the Run-N blocks SHORT. Run 21's LAST RUN block is ~2.5K against a four-run average of ~12.6K. That average is a third of the growth rate this audit exists to stop.
 
 ### After Run 20 — current instructions (September 11)
 

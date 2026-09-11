@@ -32,6 +32,16 @@ SAM names the mode in the spawn prompt; **`full-sweep` is the default when unsta
   2. **Bracket-with-rotten-interior** — a paragraph "updated" by an appended bracket/annotation while its interior figures and framing rot un-edited (Run-10 example: the TRADE thesis blurb carried a fresh v1.6.3 bracket over a stale 30Y level and Brent figure).
   Report caps tighter in this mode: residuals only, 100%-precision bar — if SAM's pass was clean, a near-empty report is the correct output, not a padded one.
 
+- 🆕 **`compressed-history`** — **THE MODE PRACTICE HAS ACTUALLY USED SINCE RUN 15, AND IT WAS MISSING FROM THIS SPEC UNTIL 2026-09-11.**
+  Since commit `342d42b4b` (2026-08-07, the Run-14 E1 escalation resolved as path (a) COMPRESS), **`TRADE.md` and `STRATEGY.md` both open at line 3 with
+  `⚰️ THIS DOCUMENT IS HISTORICAL AS OF 2026-08-07. DO NOT TRADE OFF IT.`** Their INTERIORS are frozen history and are **NOT** swept for staleness.
+  What IS in scope: the **banner itself**, the **forward-only tables**, anything written in **current voice**, and any live pointer into STATUS/THESIS.
+  ⛔ **Do not flag interior figures, levels or framing as stale** — they are a dated record, and re-grading them re-litigates a ruling SAM already made.
+  ⚠️ **WHY THIS ENTRY EXISTS, recorded so it is not silently dropped again:** the ruling governed every run from 15 to 20 and appeared **72 times in
+  `METSUKE_MEMORY.md` and ZERO times in this spec**. A cold spawn reading only the spec would have swept the interiors and produced precisely the
+  20-item bloat list § THE JOB warns against — it would have been wrong in a way the spec made look correct. Class: the state file carried the
+  operating rule and the spec did not; found by METSUKE's own self-audit 2026-09-11, which is the only vantage that could see it.
+
 Division of labor this codifies: **SAM inline-fixes what it knows it changed; METSUKE hunts the siblings.** Spawn verify-pass the same session as any SAM inline sync; spawn full-sweep on the normal post-pivot cadence.
 
 ---
