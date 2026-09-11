@@ -325,3 +325,22 @@
 - finding_anti_ratchet_governs_state_not_prose — counts rows, never WORDS; a REWRITE pass can ADD bytes (n=2)
 - finding_synthetic_artifact_defeats_provenance_tracing — trace-to-originator INVERTS on generated media; primary for WHAT HE SAID only
 - finding_primary_is_not_one_tier — a contract is WEAK about third-party docs it recites; one source cannot see it
+
+## Demoted 2026-09-11 EVE (PROME flow pass at WALTER's 75% flag — 19,284 B = 75% of the boot-load cap, the 8/12 trip line; WALTER's two new rows tonight contributed and it flagged rather than compacting, per the 7/28 ruling. Predictable-trigger lanes: commit-moment git rows · prediction re-pricing · cross-entity comparison · source-evaluation · artifact republish. Hooks cut to the ≤80-char canon AS THEY MOVE (8/23). ZERO deletions; memory FILES unchanged; rollback = move a row back to MEMORY.md.)
+- finding_path_scoped_git_log_measures_inbound_traffic — `git log -- AGENTS/X/` is inbound mail, not a heartbeat; match the SUBJECT (n=4)
+- finding_pathspec_commit_race_safety — a scoped add does NOT bound a pathspec-less commit; it sweeps the whole index
+- finding_confidence_walk_is_selected_for_on_the_rows_that_carry_the_most_brier_weight — re-priced rows ARE the heavy-Brier rows (n=2)
+- finding_rank_is_a_property_of_a_sovereign_window_pair — a rank is a (sovereign, WINDOW) pair; 4/4→1/4 inverted on 8 shared days
+- finding_cross_entity_comparison_needs_same_perimeter — also test the stock-vs-flow twin
+- finding_apparent_confabulation_is_often_a_baseline_mismatch — check the baseline before crying fake
+- finding_derived_metric_across_vintages_biases_toward_stale_leg — a correction delta is a BASIS CHANGE, not a trigger
+- finding_self_attack_defends_the_argument_not_the_apparatus — your attack list is blind to the APPARATUS; carry one
+- finding_re_derivation_surfaces_concept_failure
+- finding_divergence_requires_fresh_likeforlike_baseline
+- finding_fail_loud_on_incomplete_data
+- finding_declared_data_wall_needs_fleet_memory_check
+- finding_fused_true_facts_false_premise
+- finding_visibility_is_layered_not_binary — "is it reported?" decomposes into independent gates
+- finding_market_ignoring_is_not_market_refuting — price refutes a TIMING claim, never a MECHANISM one
+- finding_confounds_align_with_the_prior_you_brought — every confound pointing one way is about your SEARCH
+- finding_artifact_republish_from_a_new_session_requires_reading_the_live_version_in_chunks — read live in ≤48 KB chunks, never `force`
