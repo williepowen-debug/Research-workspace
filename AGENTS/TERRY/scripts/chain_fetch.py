@@ -271,10 +271,84 @@ FLAG_XSD     = "XSD"     # bid > ask — crossed, definitionally broken
 FLAG_DEAD    = "DEAD"    # bid == 0 and ask == 0 — no market at all
 FLAG_NOBID   = "NOBID"   # bid == 0, ask > 0 — you cannot SELL this leg at any price
 FLAG_NONMONO = "NONMONO" # violates strike monotonicity vs an adjacent same-type strike
+FLAG_DIRINC  = "DIRINC"  # mark moved OPPOSITE the printed spot between two --no-cache pulls
 
 # Defects that make a row unusable for computing a net debit. NONMONO is
 # deliberately NOT here — see the docstring below.
 HARD_FLAGS = {FLAG_LOCK, FLAG_XSD, FLAG_DEAD, FLAG_NOBID}
+
+# ⛔ DIRINC is deliberately NOT in HARD_FLAGS, and the reason is the same one that keeps
+# NONMONO advisory. Every member of HARD_FLAGS is a DEFINITIONALLY BROKEN quote — locked,
+# crossed, dead, or unsellable. You cannot transact it, full stop. DIRINC is different in
+# kind: it is EVIDENCE that the quote reflects an older market state, not proof the quote
+# is unusable, and a long option's mark can legitimately fall while spot rises if IV drops
+# enough. Making it fatal would mean one ordinary vol move blocks a fire, and the cheapest
+# remedy would be "pull again until it passes" — a guard whose cheapest remedy is a bad
+# action buys nothing (the CHECK I lesson in ledger_sweep.py, applied here).
+# ⛔ AND THE DEEPER REASON: a flag cannot recover the true bid. See STALE-QUOTE DOCTRINE
+# in display() — the real fix is where the fire-time price comes FROM, not a louder tool.
+
+
+WATCH_PATH = CACHE_DIR / "quote_watch.json"
+DIRINC_SPOT_NOISE_FLOOR = 0.0005   # 0.05% of spot — below this a spot "move" is tick noise
+
+
+def _watch_load():
+    try:
+        return json.loads(WATCH_PATH.read_text())
+    except Exception:
+        return {}
+
+
+def _watch_save(d):
+    try:
+        CACHE_DIR.mkdir(exist_ok=True)
+        WATCH_PATH.write_text(json.dumps(d))
+    except Exception:
+        pass   # a broken observation store must never break a quote pull
+
+
+def _watch_key(ticker, expiry, r):
+    return f"{ticker}|{expiry}|{r['type']}|{r['strike']}"
+
+
+def add_direction_flags(rows, ticker, expiry, spot):
+    """Compare this pull against the LAST --no-cache pull of the same contract.
+
+    A long call's mark must not fall while spot rises (and a put's must not rise);
+    delta has a sign. When it does, the bid/ask is reflecting an older market state
+    than the printed spot. This exists because yfinance furnishes NO bid/ask
+    timestamp at all — only `lastTradeDate`, which is the last EXECUTED TRADE, a
+    different quantity that can be fresh while the quote is stale. Arithmetic on
+    successive pulls is the ONLY staleness signal available.
+
+    ⚠️ Fires from the SECOND --no-cache pull of a contract onward. A first-ever pull
+    has nothing to compare against and will show clean — stated, not hidden.
+    """
+    if spot is None:
+        return rows, []
+    watch = _watch_load()
+    hits, updated = [], dict(watch)
+    for r in rows:
+        if r["mark"] is None or r["strike"] is None:
+            continue
+        key = _watch_key(ticker, expiry, r)
+        prev = watch.get(key)
+        updated[key] = {"ts": datetime.now().isoformat(), "spot": spot, "mark": r["mark"]}
+        if not prev or prev.get("spot") is None or prev.get("mark") is None:
+            continue
+        d_spot = spot - prev["spot"]
+        d_mark = r["mark"] - prev["mark"]
+        if abs(d_spot) <= abs(spot) * DIRINC_SPOT_NOISE_FLOOR or d_mark == 0:
+            continue
+        want = (1 if d_spot > 0 else -1) * (1 if r["type"] == "C" else -1)
+        got = 1 if d_mark > 0 else -1
+        if want != got:
+            r["quote_flag"] = list(r.get("quote_flag") or []) + [FLAG_DIRINC]
+            hits.append({"strike": r["strike"], "type": r["type"], "d_spot": d_spot,
+                         "d_mark": d_mark, "prev_ts": prev.get("ts")})
+    _watch_save(updated)
+    return rows, hits
 
 
 def add_quote_flags(rows):
@@ -359,7 +433,7 @@ def fmt(x, dp=2):
     return "N/A" if x is None else f"{x:.{dp}f}"
 
 
-def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thin_oi):
+def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thin_oi, dir_hits=None):
     today = datetime.now().strftime("%Y-%m-%d")
     print("TERRY live option-chain fetch")
     print("=============================")
@@ -431,6 +505,36 @@ def display(ticker, expiry, opt_type, spot, spot_asof, rows, meta, wide_pct, thi
               f"Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.")
     else:
         print(f"\nFreshness: freshest trade in set = {latest or 'N/A'} (fetch {datetime.now().strftime('%Y-%m-%d %H:%M')}).")
+    # ═══ STALE-QUOTE DOCTRINE — unconditional, because it is ALWAYS true ═══
+    # Added 2026-09-11 after this tool reported the XLE Sep-30 65C at bid 1.66 while the
+    # BROKER showed 1.51 x 53 at a comparable moment: ~10% optimistic ON THE SIDE YOU
+    # TRANSACT, in the direction that FLATTERS a sale. Investigated the same session:
+    #   * yfinance/Yahoo expose NO bid/ask timestamp and NO delay flag for an option leg.
+    #     The raw payload carries neither -- MEASURED against the live JSON, not assumed.
+    #   * The UNDERLYING quote DOES carry `exchangeDataDelayedBy: 0` + `regularMarketTime`,
+    #     and the printed spot tested real-time to within ~1 min. The asymmetry is the
+    #     finding: spot is declared and timestamped, the option quote is NEITHER.
+    #   * `lastTradeDate` is the last EXECUTED TRADE. It is a DIFFERENT QUANTITY from quote
+    #     age and can be fresh while the quote is stale. The old freshness line compared it
+    #     to a DATE, so it could not see intraday staleness of ANY magnitude, by construction.
+    #   * Lag is CONFIRMED materially nonzero (sign violations appear in this tool's OWN
+    #     successive outputs, needing no external data). Magnitude order ~15 min is
+    #     PLAUSIBLE on single-session evidence and is NOT a measured constant -- do not
+    #     cite it as one.
+    print("\n⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.")
+    print("   The spot above is Yahoo-declared real-time. The option bid/ask carries NO")
+    print("   timestamp and no delay flag, and is NOT proven contemporaneous with it.")
+    print("   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you")
+    print("      actually transact on from the BROKER chain. (2026-09-11: this tool read")
+    print("      ~10% high on the bid vs the broker, on the side being sold.)")
+    if dir_hits:
+        print(f"\n🔴 DIRINC — {len(dir_hits)} row(s) moved OPPOSITE the printed spot since the last --no-cache pull:")
+        for h in dir_hits[:6]:
+            print(f"     {h['strike']:>8} {h['type']}  spot {h['d_spot']:+.3f} but mark {h['d_mark']:+.3f}"
+                  f"  [prev pull {(h['prev_ts'] or '')[11:19]}]")
+        print("     Delta has a sign; this is the shape of a quote reflecting an OLDER market state.")
+        print("     ⚠️  ADVISORY, never fatal — an IV move can do this legitimately. It is evidence,")
+        print("        not proof, and a flag cannot recover the true bid. Go to the broker.")
     print("Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.")
 
 
@@ -471,6 +575,11 @@ def run(args):
     # a row's true neighbours, not whichever ones survived a ±window filter.
     rows = add_quote_flags(rows)
     rows = add_moneyness(rows, spot)
+    # Direction-consistency only means anything on a FRESH pull — comparing a cached
+    # payload against the stored observation would diff a row against itself.
+    dir_hits = []
+    if args.no_cache:
+        rows, dir_hits = add_direction_flags(rows, ticker, args.expiry, spot)
 
     # --legs is checked against the full chain too, so a leg outside the display
     # window is still gated rather than silently reported "not found".
@@ -501,7 +610,7 @@ def run(args):
         }, indent=2))
     else:
         display(ticker, args.expiry, opt_type, spot, spot_asof, rows, meta,
-                args.wide_spread_pct, args.thin_oi)
+                args.wide_spread_pct, args.thin_oi, dir_hits)
 
     # ---- Fire-time leg gate --------------------------------------------
     # Chain-wide defects are advisory (a 58-row chain routinely has a dead strike
@@ -695,6 +804,62 @@ def selftest():
 
     # (f) NONMONO alone must NOT be a hard defect — it is advisory by design.
     assert not has_hard_defect(inv[0]), "NONMONO alone must not block a net-debit computation"
+
+    # ---- (g) DIRECTION-CONSISTENCY (FLAG_DIRINC), added 2026-09-11 -----------
+    # An untested guard is not a guard. Each case below was verified to FAIL when the
+    # detector is disabled, so these assert behaviour, not merely absence of a crash.
+    import tempfile as _tf
+    global WATCH_PATH
+    _saved_watch = WATCH_PATH
+    _dirbad = []
+    try:
+        with _tf.TemporaryDirectory() as _td:
+            def _pull(ticker, expiry, spot, strike, typ, mark):
+                """One synthetic --no-cache pull of a single contract."""
+                rws = [{"strike": strike, "type": typ, "mark": mark, "quote_flag": []}]
+                rws, hits = add_direction_flags(rws, ticker, expiry, spot)
+                return rws[0], hits
+
+            def _case(name, typ, s0, m0, s1, m1, want_flag):
+                WATCH_PATH_LOCAL = Path(_td) / f"w_{name}.json"
+                globals()["WATCH_PATH"] = WATCH_PATH_LOCAL
+                r0, h0 = _pull("T", "E", s0, 100.0, typ, m0)
+                if h0:
+                    _dirbad.append(f"{name}: first-ever pull flagged — nothing to compare against")
+                if FLAG_DIRINC in (r0.get("quote_flag") or []):
+                    _dirbad.append(f"{name}: first pull carried DIRINC")
+                r1, h1 = _pull("T", "E", s1, 100.0, typ, m1)
+                got = FLAG_DIRINC in (r1.get("quote_flag") or [])
+                if got != want_flag:
+                    _dirbad.append(f"{name}: DIRINC={got}, want {want_flag}")
+
+            # a CALL's mark must not fall while spot rises
+            _case("call_up_mark_down",  "C", 100.0, 2.00, 101.0, 1.80, True)
+            _case("call_up_mark_up",    "C", 100.0, 2.00, 101.0, 2.20, False)
+            # a PUT's mark SHOULD fall while spot rises — the mirror must not false-fire
+            _case("put_up_mark_down",   "P", 100.0, 2.00, 101.0, 1.80, False)
+            _case("put_up_mark_up",     "P", 100.0, 2.00, 101.0, 2.20, True)
+            _case("call_down_mark_up",  "C", 100.0, 2.00,  99.0, 2.20, True)
+            _case("put_down_mark_down", "P", 100.0, 2.00,  99.0, 1.80, True)
+            # noise floor: a 0.01% spot tick must NOT arm the test at all
+            _case("below_noise_floor",  "C", 100.0, 2.00, 100.01, 1.80, False)
+            # ★ PERMANENT REGRESSION — the live 2026-09-11 XLE Sep-30 65C incident.
+            # The tool's OWN successive outputs: spot 65.42 -> 65.32 (DOWN) while the
+            # call bid went 1.62 -> 1.66 (UP). This needs no lag model and no external
+            # data; it is the single strongest piece of evidence in the investigation.
+            _case("XLE_65C_2026_09_11", "C", 65.42, 1.62, 65.32, 1.66, True)
+    finally:
+        globals()["WATCH_PATH"] = _saved_watch
+    if _dirbad:
+        raise AssertionError("DIRINC selftest FAILED: " + "; ".join(_dirbad))
+
+    # DIRINC must never be a hard defect — parity with the NONMONO decision.
+    assert FLAG_DIRINC not in HARD_FLAGS, \
+        "DIRINC became a HARD flag — one ordinary IV move would now block a fire"
+
+    print("  direction-consistency: 8 cases PASS "
+          "(call/put x spot-up/down / noise-floor silence / first-pull silence / "
+          "XLE-65C 2026-09-11 live regression / advisory-not-hard)")
 
     print("  quote-sanity: 7 injection cases PASS "
           "(clean-strip / 8-4 LOCK+ASK-INVERSION regression / flat-spot silence / "
