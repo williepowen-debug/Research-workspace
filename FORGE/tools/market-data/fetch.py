@@ -544,11 +544,19 @@ def price_fetch(tickers, delta_threshold=0.0):
             if prev != prev:  # NaN previous-close is truthy — must render N/A, not +nan%
                 prev = 0
             chg = ((curr - prev) / prev * 100) if prev else None
+            # volume (SCRATCH owed ⓕ, 2026-09-11): the session's traded volume from fast_info — a LEVEL with no
+            # baseline attached; consumers compare it to their own average, never to a threshold stated here.
+            try:
+                vol = info.get("lastVolume")
+                vol = int(vol) if vol is not None and vol == vol else None
+            except Exception:
+                vol = None
             results[t] = {
                 "price": round(curr, 2),
                 "prev": round(prev, 2) if prev else None,
                 "change_pct": round(float(chg), 2) if chg is not None else None,
                 "name": ALL_PRICES.get(t, t),
+                "volume": vol,
             }
             # Data-date verification: some indices (^MOVE, ^SKEW) publish once
             # daily, so fast_info serves the PRIOR close with no staleness
@@ -676,8 +684,10 @@ def price_history(tickers, days=30):
 # ---------------------------------------------------------------------------
 
 def display_prices(results, labels=None):
-    print(f"\n {'Ticker':<10} {'Name':<22} {'Price':>10} {'Change':>10} {'As-of':>18}")
-    print(f" {'-'*73}")
+    # Volume is the LAST column (added 2026-09-11): the rendered table is a parser contract for consumers
+    # (PAT-069) — Ticker · Name · Price · Change · As-of keep their positions; a trailing column is additive.
+    print(f"\n {'Ticker':<10} {'Name':<22} {'Price':>10} {'Change':>10} {'As-of':>18} {'Volume':>13}")
+    print(f" {'-'*87}")
 
     today = time.strftime("%Y-%m-%d")
     for t, d in results.items():
@@ -689,7 +699,9 @@ def display_prices(results, labels=None):
         chg = f"{d['change_pct']:+.2f}%" if d.get("change_pct") is not None else "N/A"
         asof = d.get("asof")
         stamp = "date?" if asof is None else (asof if asof == today else f"{asof} ⚠stale")
-        print(f" {t:<10} {name:<22} {p:>10} {chg:>10} {stamp:>18}")
+        vol = d.get("volume")  # cached dicts from before 2026-09-11 carry no volume key
+        vs = f"{vol:,}" if isinstance(vol, int) else "—"
+        print(f" {t:<10} {name:<22} {p:>10} {chg:>10} {stamp:>18} {vs:>13}")
 
 
 def display_fred(series_id, label, obs):
