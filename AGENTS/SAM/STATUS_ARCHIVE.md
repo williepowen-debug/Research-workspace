@@ -490,3 +490,17 @@ SAM carries **no FXY position, and never opened one.** **$0 was at risk through 
 ---
 
 *Thesis: `thesis/THESIS.md` **v1.7** · audit trail: `thesis/CHANGELOG.md` · cross-agent surface: `NEXUS_BRIEF.md` · playbook: `MOF_INTERVENTION_PLAYBOOK.md` · decision rules: `STRATEGY.md` · v1.8 candidate (NOT a thesis): `thesis/V18_CANDIDATE_PILLAR1.md`.*
+
+---
+
+## 🧊 2026-09-10 (ET) session block — hot/cold split out of `STATUS.md` 2026-09-11 (verbatim, no edits)
+
+## 2026-09-10 (ET) — Oil re-prices the differential; both dated items closed at primaries; nothing re-arms
+
+[Session record and source clocks](reports/2026-09-10_et-boot.md). **BOJ Sep-10 provisional showed NO yen-buying signature; Sep-7/8 attribution remains OPEN** — figures and reasoning in § INTERVENTION STATUS, not repeated here.
+
+**The tape re-priced on the U.S. leg, not the Japan leg.** Brent +5.6% to $106.92 and US 10Y to 4.92% while the yen **weakened 0.6%** to 154.19 — the BOJ was 98% priced and the yen fell anyway, because the differential is widening faster than the hike closes it. Drivers (Trump 9/9 duration signal; Houthi strikes 9/8 on an already-shut Jazan, FALCON KB-151) are BRENT/FALCON's barrel, not mine. **No re-pencil; no route re-arms; v1.7 unchanged.**
+
+⚠️ **Calibration guard: a high oil-in-yen print is the shape of SAM-15 (@80%, FAILED)** — "oil-in-yen forces repatriation independent of rate differential," which died three ways (premise evaporated, **mechanism inverted** → trade SURPLUS not deficit, insurers **grew** foreign books). The inversion still holds on current data (July CA **+¥2,988.9B**, primary income +¥4,289.6B, goods only −¥399.9B). **Honest next test = August trade balance Sep-16 08:50 JST; the discriminator is crude VOLUME, not value.**
+
+**Prior (compressed 2026-09-11, line-cap pass — full bodies in `reports/2026-09-10_news-catchup.md` and `reports/2026-09-09_followthrough.md`):** BOJ Sep-9 FINAL = provisional, closed as anticipated fiscal, **Sep-8 residual still OPEN**; Sep-9 BOJ outright ops matched the Aug-31 schedule ⇒ **SAM-33 falsifier verified un-fired AT THE OPERATION RECORD**, not by silence; Dec–Mar futures pair validated, feed activation HOLD (proxy stops Sep-14). Target <20KB; **binding cap 32,550B.**
