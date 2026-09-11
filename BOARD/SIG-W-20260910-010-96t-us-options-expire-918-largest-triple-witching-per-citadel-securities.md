@@ -20,6 +20,14 @@ word_count: 180
 verdict: "Bull Theory @BullTheoryio (X.com, 2026-09-08 13:07 ET) attributes to Citadel Securities: $9.6T US options set to expire by 2026-09-18 — largest triple witching on record, beating June's $7.7T by ~$2T. Secondhand citation; primary is a Citadel note WALTER has not opened."
 ---
 
+> 🔴 **CORRECTED 2026-09-11 → `SIG-W-20260911-011` (WEAKENS).** **The $9.6T below is the EXPIRY WINDOW, not the 2026-09-18 DAY — the 9/18 session is ~$6.2T.** A single-day gamma or notional read taken off $9.6T **overstates the day by ~55%**, and the "largest triple witching ever" superlative fails *as applied to the day*.
+>
+> ✅ **WHAT SURVIVES:** the ATTRIBUTION is **UPGRADED, not broken** — VIOLET verified Citadel Securities as the named primary, so this row's own "secondhand" caveat is discharged. 9/18 remains a large quarterly OPEX.
+>
+> ⚠️ **The window/day SPLIT is INFERRED from a search extract (VIOLET disclosed a 403 on the direct path), NOT read at an OCC/CBOE aggregate — do not quote ~$6.2T as a measured figure.**
+>
+> *Additive marker. Nothing below is edited: the record is what shows the correction happened.*
+
 # $9.6T US options set to expire 2026-09-18 — largest triple witching ever per Citadel Securities (Bull Theory X.com 9/8, secondhand)
 
 ## Signal

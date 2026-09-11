@@ -2513,25 +2513,68 @@ def check_future_timestamps():
     # A small forward tolerance: a stamp written seconds before the clock ticks over, or a
     # legitimately scheduled row, must not fire this. Anything beyond it is drift.
     tol = dt.timedelta(minutes=5)
-    bad, malformed = [], []
+    bad, malformed, approx = [], [], []
+    checked = 0
+
+    CANON = re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z$")
+    # ⚠️ MUST REQUIRE an `x`, not merely ALLOW one: `[\dx]` also matches digits, so a
+    # permissive class silently swallows every CANONICAL stamp into the "convention"
+    # bucket and the check certifies 2,784 good fields as approximations.
+    APPROX = re.compile(r"^\d{4}-\d{2}-\d{2}T[\dx]{2}:[\dx]{2}(?::[\dx]{2})?Z$", re.I)
 
     def _scan(label, text, path):
-        for m in re.finditer(r"(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z", text):
-            raw = m.group(0)
+        """⛔ VALIDATE THE WHOLE FIELD — DO NOT search it for something valid-looking.
+
+        🔴 v1 of this check used `re.finditer` for a canonical-looking substring, so a
+        field that matched NOTHING produced no finding and the check reported INFO
+        "clean". Reproduced 2026-09-11 (Codex): `NOT-A-TIMESTAMP`, an EMPTY field, and
+        `2099-01-01T00:00:00+00:00` (a real future date, non-canonical offset) ALL passed
+        as clean, while the same instant written with `Z` was correctly caught HIGH.
+        **A parser that reports unparseable input as conforming behaviour is worse than
+        no parser: it certifies the rows it cannot read.**
+        `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`"""
+        nonlocal checked
+        checked += 1
+        raw = (text or "").strip()
+        if not raw:
+            malformed.append((label, path, "<EMPTY>"))
+            return
+        # 🟡 WALTER'S DELIBERATE APPROXIMATE-MINUTE CONVENTION (`2026-08-15T02:3xZ`).
+        # NOT a typo and NOT silently passed: named, counted, and reported at INFO.
+        # ⚠️ Tolerable ONLY because the age basis (`_delivery_routed_dates`) slices [:10]
+        # and reads the DATE — the approximation never reaches the instrument. If any
+        # consumer ever needs the minute, this class becomes a defect, not a convention.
+        m = CANON.match(raw)
+        if not m and APPROX.match(raw) and "x" in raw.lower().split("T", 1)[-1]:
+            approx.append((label, path, raw))
+            return
+        if not m:
+            # Named separately from a parse failure: a REAL instant in a non-canonical
+            # form (offset instead of Z) is a schema violation, not a typo, and saying so
+            # is the difference between "fix the format" and "find the value".
             try:
-                d = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                malformed.append((label, path, f"{raw} (parses, NON-CANONICAL — schema is ...Z)"))
             except ValueError:
-                malformed.append((label, path, raw))
-                continue
-            if d > now + tol:
-                bad.append((label, path, raw, int((d - now).total_seconds() // 60)))
+                malformed.append((label, path, f"{raw} (UNPARSEABLE)"))
+            return
+        try:
+            d = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            malformed.append((label, path, f"{raw} (canonical shape, impossible value)"))
+            return
+        if d > now + tol:
+            bad.append((label, path, raw, int((d - now).total_seconds() // 60)))
 
     log = WALTER / "routed" / "delivery_log.tsv"
     if log.exists():
         for ln in log.read_text(errors="replace").splitlines()[1:]:
             c = ln.split("\t")
-            if len(c) >= 2 and c[0].strip():
-                _scan("delivery_log", c[0].strip(), c[1].strip())
+            if not ln.strip():
+                continue
+            # ⚠️ A MISSING field must FAIL, not be skipped — v1's `if c[0].strip()`
+            # silently dropped every row with an empty timestamp.
+            _scan("delivery_log", c[0] if c else "", (c[1].strip() if len(c) > 1 else "<no-sig>"))
 
     # BOARD frontmatter for signals dispatched in the last 14 days (bounded scan).
     cutoff = (TODAY - dt.timedelta(days=14)).strftime("%Y%m%d")
@@ -2556,12 +2599,19 @@ def check_future_timestamps():
                     f"the clock — a stamp you cannot have written yet. THE AGE BASIS IS "
                     f"AMONG THESE FIELDS, so this is a measurement defect, not formatting. "
                     f"Re-stamp from `date -u`, never from felt elapsed time: {shown}"))
+    if approx:
+        out.append((INFO, f"{len(approx)} field(s) use WALTER's approximate-minute "
+                    f"convention (e.g. {approx[0][2]}) — a KNOWN convention, NOT a defect "
+                    f"and NOT silently passed: the age basis slices [:10] and reads the "
+                    f"DATE, so the approximation never reaches the instrument. It becomes "
+                    f"a defect the day any consumer needs the minute."))
     if malformed:
         out.append((MED, f"{len(malformed)} malformed timestamp(s): "
                     + ", ".join(f"{l}:{p} {r}" for l, p, r in malformed[:4])))
     if not out:
-        out.append((INFO, "no future or malformed timestamps in delivery_log or 14d of "
-                    "BOARD frontmatter"))
+        out.append((INFO, f"every timestamp field parsed and canonical ({checked} field(s) "
+                    f"validated in delivery_log + 14d of BOARD frontmatter) — none future, "
+                    f"none missing, none non-canonical"))
     return out
 
 

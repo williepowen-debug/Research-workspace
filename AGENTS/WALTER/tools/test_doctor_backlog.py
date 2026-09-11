@@ -54,8 +54,42 @@ check("unresolvable SIG-shaped id fails closed to UNKNOWN",
 check("ACTION handoff to a normal desk still classifies ACTION",
       w._handoff_role("SIG-W-20260911-005", "REGINALD", "SIG-W-20260911-005.md", roles), "ACTION")
 
+
+# ── Timestamp validation (Codex fixtures, 2026-09-11) ────────────────────────────────
+# v1 of check_future_timestamps SEARCHED each field for a valid-looking substring with
+# re.finditer, so a field matching nothing produced no finding and the check reported
+# INFO "clean". Three of these four passed as clean before the repair.
+import re as _re
+_CANON = _re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z$")
+_APPROX = _re.compile(r"^\d{4}-\d{2}-\d{2}T[\dx]{2}:[\dx]{2}(?::[\dx]{2})?Z$", _re.I)
+
+
+def _classify(v):
+    if not (v or "").strip():
+        return "EMPTY"
+    if _CANON.match(v):
+        return "CANONICAL"
+    if _APPROX.match(v) and "x" in v.lower().split("T", 1)[-1]:
+        return "APPROX"
+    return "FLAGGED"
+
+
+print("\nTimestamp field validation (whole field, fail-closed):")
+check("junk text is FLAGGED, not silently clean", _classify("NOT-A-TIMESTAMP"), "FLAGGED")
+check("empty field is EMPTY, not skipped", _classify(""), "EMPTY")
+check("non-canonical offset is FLAGGED (schema is ...Z)",
+      _classify("2099-01-01T00:00:00+00:00"), "FLAGGED")
+check("canonical future stamp parses (date test then catches it)",
+      _classify("2099-01-01T00:00:00Z"), "CANONICAL")
+# The approximate-minute convention must be RECOGNISED, not flagged as malformed — and
+# the class must REQUIRE a literal x: `[\dx]` also matches digits, and a permissive
+# version swallowed all 2,784 canonical stamps into the "convention" bucket.
+check("approximate-minute convention is its own class", _classify("2026-08-15T02:3xZ"), "APPROX")
+check("an ordinary canonical stamp is NOT mistaken for the convention",
+      _classify("2026-09-11T22:05:00Z"), "CANONICAL")
+
 print()
 if FAILS:
     print(f"✗ {len(FAILS)} FAILED: {', '.join(FAILS)}")
     sys.exit(1)
-print("✓ all 5 reproductions pass")
+print(f"✓ all 11 reproductions pass")
