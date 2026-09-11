@@ -39,6 +39,34 @@ Different questions of the same series ⇒ different levels are correct, not a c
 
 **Chain provenance.** Reads `REGINALD action / WAL action / Will` as of 2026-07-29. The `WAL action` leg was added post-WAL-promotion by **RAV Codex** (Will's outside continuity tool, commit `383bf581`), WALTER diff-verified 7/30 (`SIG-W-20260730-008`), and **re-verified at source by REGINALD 7/30** rather than accepted on the relay. No further edit is owed; WALTER's 7/25 packets asking for it are **superseded**.
 
+### ⚖️ EXIT GRADE 2026-09-11 (owner, REGINALD — drain session, desk dark 9/3→9/10) — **FIVE closes graded, 9/3 → 9/10: ALL NOT QUALIFYING. State stays `FIRED`; exit run `0-of-3`.** Gate row: **`GATE-TERRY-ROLL70-EXIT`** (`PROME/GATES.tsv`, registered 9/3; PROME 9/3 read-path packet — gate_id named here per GATES REGISTRATION JOIN RULE ②, so the row is DELIVERED).
+
+| Close | WAL | vs 81.90 | Day | Qualifying | Run |
+|---|---:|---|---|---|---|
+| Thu 9/3 | **$81.00** | $0.90 / 1.11% short — **closest approach of cycle 2** | +$1.88 / +2.38% | NO | 0-of-3 |
+| Fri 9/4 | $80.95 | $0.95 / 1.17% short | −$0.05 / −0.06% | NO | 0-of-3 |
+| Tue 9/8 | $79.94 | $1.96 / 2.45% short | −$1.01 / −1.25% | NO | 0-of-3 |
+| Wed 9/9 | $79.66 | $2.24 / 2.81% short | −$0.28 / −0.35% | NO | 0-of-3 |
+| Thu 9/10 | $79.28 | $2.62 / 3.30% short | −$0.38 / −0.48% | NO | 0-of-3 |
+
+> **Instrument:** yfinance daily bar (`history()`, unadjusted), pulled **2026-09-11 11:22 ET**; **VERIFIED** against the consumer captures already on the board — PROME/TERRY Yahoo-mirror 9/3 $81.00 · 9/4 $80.95 · 9/8 $79.94 (TERRY 9/8 packet, `PROME/reports/2026-09-08_owed-market-checks_evidence.json`), WALTER `SIG-W-20260903-002` ($81.00) and `SIG-W-20260908-008` ($79.94), PROME's 9/11 spawn census 9/9 $79.66 · 9/10 $79.28. **Seven pulls, zero disagreements.** Mon 9/7 = Labor Day, no session. **Fri 9/11 is INTRADAY at grading time ($78.76 at 11:22, L $77.85) and is NOT graded** — `value_basis` is the settled regular-session close.
+> **The run never started.** No close reached $81.90; the nearest was 9/3, and the tape has moved AWAY from the exit since (81.00 → 79.28, −2.12% over four sessions). Distances above are each re-derived from the named dated close (÷ close basis) — nothing carried.
+> ⛔ **Two errors this grade exists to prevent, both live on today's tape:** ① every close 9/3→9/10 was ABOVE $78 — **none is an un-fire**; the state clears ONLY on `≥81.90 ×3`. ② 9/10's intraday low $77.89 and 9/11's $77.85 are sub-78 PRINTS, not closes; **even a sub-78 CLOSE would be a SUPPRESSED re-entry inside the fired state, not a second fire** — log it, do not route it.
+> **Routing:** NONE owed at 0-of-3 (TERRY's 2-of-3 packet ask is unmet; the registered announcement fires at 3-of-3). TERRY's 9/8 ask for the 9/3 / 9/4 / 9/8 owner observations is ANSWERED by the table above + `REG_T02_EXIT_LOG.tsv`, delivered via the PROME memo `PROME/inbox/2026-09-11_from-REGINALD_*.md` (this session is boundary-scoped to `AGENTS/REGINALD/` + that one packet; no TERRY-inbox packet written).
+> **`PROME/GATES.tsv` row `GATE-TERRY-ROLL70-EXIT`:** the `state` / `last_checked` cells were NOT edited by me — the grade text is delivered in the 9/11 memo for PROME to encode (PROME is live this sitting; a concurrent edit to a PROME-owned file is root rule #2's exact case). Consequence unchanged: the Dec-18 $70P ×1 (Robinhood) stays open under TERRY's card; time stop 2026-12-04; harvest ≥$4.40 is a MANUAL act (WQ-167).
+
+### 📐 AS-MADE AUDIT RECEIPT 2026-09-11 (DAEDALUS H2 harvest packet 9/7) — re-derived by prediction TEXT, not by ID
+
+| Row | Tool flag | Re-derivation (STATUS blob `67d336e32`, 2026-02-12; ledger seed `91c301279`, 2026-03-04) | Disposition |
+|---|---|---|---|
+| REG-02 / REG-04 | MISMATCH | The 3/6 STATUS table numbered FHLB>$600B as REG-02 and Phoenix as REG-04; the ledger carries them REG-04 / REG-02. By TEXT: FHLB 60% = 60%, Phoenix 65% = 65%. | **ID cross-map, not a walk. No change.** |
+| REG-03 | MISMATCH (70 vs 50) | The "50%" is the capital-raise row under the crossed ID; "$936B maturity wall" never appears in STATUS with a %. | **NOT-FOUND by text; as-made stays 70%.** |
+| REG-06 | NOT-FOUND | "At least one Tier 1 bank capital raise **50%**" 2/12→3/6; seeded 50%; deliberately re-marked **10%** 2026-08-27 (`3ae52ac59`) with the prior value documented in Notes. | **As-made 50%. Row is Kernel-pinned (byte-frozen, Gate C a6/a7) — NOT re-formed; consumers read the 8/27 Notes entry.** |
+| REG-07 | NOT-FOUND | "SSB NPL migration >0.5% **55%**" 2/12; seeded 55%; upgraded 68% 2026-03-05 (`e30e09d50`, ML-REG-110), documented in Notes but the cell carried only 68%. | **Re-formed: `68% [2026-03-05] (was 55% [2026-02-23])`. Brier on 55%.** |
+| REG-09 / REG-17 | MISMATCH (50 vs 20) | Tool limit (1): the "20%" is prose ("0 of 1") in the 8/13 blob; neither prediction text ever appears in STATUS with a %. | **False positive; as-made stays 50%.** |
+
+No RESOLVED row's scoring vintage changed ⇒ nothing re-scored. `python3 scripts/asmade_audit.py REGINALD` will still print the same flags — it reads by ID; this table is the owner verdict.
+
 ### ⚖️ EXIT GRADE 2026-09-02 (owner, REGINALD) — **NOT QUALIFYING. State stays `FIRED`; exit run `0-of-3`.**
 
 > **WAL $79.12** settled regular-session close (+$1.86 / +2.41% vs $77.26 [9/1]); O 77.86 / H 80.55 / L 77.82 / C 79.12; vol 1,245,295. **Instruments agree:** `scripts/market.py`, the yfinance daily bar and `regularMarketPrice` all return **79.12** — no disagreement to adjudicate.

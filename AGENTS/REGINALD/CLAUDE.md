@@ -62,7 +62,7 @@ At boot, after STATUS/MEMORY — run the glob + `git mv` from repo root (cwd-pro
 
 ### Write-back
 11. **Research detail → `domain/sources/`**
-12. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only). ⛔ **PROME packets go to `PROME/inbox/` at REPO ROOT, NOT `AGENTS/PROME/inbox/`** — the latter tree was removed 2026-07-24 and *silently regrows* when a sender writes to it (PROME still services it, so delivery appears to work; the fleet auto-memory `finding_prome_inbox_is_repo_root_not_under_agents` tracks it, HELD-HOT, re-grew twice — mine on 2026-08-28 was n+1). Same for WALTER: `AGENTS/WALTER/inbox/` is the real address.
+12. **Cross-agent delivery — two lanes (re-cut 2026-09-11 per DAEDALUS route-around census 9/2): SIGNALS (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) → `AGENTS/WALTER/inbox/` for routing; WALTER owns the signal lane. ANALYSIS and PACKETS → direct to the recipient's `inbox/`, self-committed per carve-out ①.** (`outbox/` = PROME-action requests only.) ⛔ **PROME packets go to `PROME/inbox/` at REPO ROOT, NOT `AGENTS/PROME/inbox/`** — the latter tree was removed 2026-07-24 and *silently regrows* when a sender writes to it (PROME still services it, so delivery appears to work; the fleet auto-memory `finding_prome_inbox_is_repo_root_not_under_agents` tracks it, HELD-HOT, re-grew twice — mine on 2026-08-28 was n+1). Same for WALTER: `AGENTS/WALTER/inbox/` is the real address.
 13. **Run session close checklist** (see below)
 
 ### Session Close Checklist
@@ -123,7 +123,7 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` packet per signal directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
+**SIGNALS route via WALTER** (`AGENTS/WALTER/inbox/` — a threshold firing, a cross-agent trip, a datum another desk must act on; re-cut 2026-09-11, DAEDALUS census 9/2 rows :126/:303). **ANALYSIS / PACKETS** go direct: write a single `.md` packet per item to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -300,7 +300,7 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `POSITIONS.md` | Thesis-relevant positions (bank puts, credit, convergence). Updated from broker screenshots. |
 | `LESSONS.md` | Mistake patterns — read at boot. Distinct from MEMORY (lessons = verified errors, memory = learnings + handoff). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
+| `outbox/` | PROME-action requests only. SIGNALS → `AGENTS/WALTER/inbox/` (WALTER routes); analysis/packets → direct to the recipient's `inbox/` (carve-out ①). |
 | `BANK_EXPOSURE_MATRIX.md` | Multi-channel scoring ("The Matrix") — 614 lines, reference doc |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — 10-column schema (Pred_ID/Date_Made/Prediction/Confidence/Timeframe/Status/Date_Resolved/Outcome/Invalidation/Notes). Falsifiable predictions with invalidation criteria. |
 | `domain/sources/` | Primary source docs (Call Reports, FDIC, WAL research, Hidden CRE screens) |
