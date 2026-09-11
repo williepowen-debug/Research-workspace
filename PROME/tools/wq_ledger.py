@@ -13,6 +13,10 @@ Every queue row is parsed by `decision_deck.py` (ONE parser in the fleet); this 
   --selftest frozen fixture under PROME/tools/tests/fixtures/wq_ledger/ (never the live queue).
 
 Counts are printed by the commands, never typed into prose (measure with `wq_ledger.py state | wc -l`).
+`--ledger <path>` points every command at another file — the way to exercise the tool safely (a /tmp copy);
+the live registry is the default. The `.crc` sidecar beside the ledger holds `<rows>\t<crc32>` from the last
+tool write; `check` verifies BOTH (crc32 is a change detector, not a cryptographic seal — git history of the
+committed pair is the outer audit).
 """
 from __future__ import annotations
 import argparse, csv, datetime as dt, io, os, re, shutil, subprocess, sys, tempfile
@@ -286,6 +290,8 @@ def cmd_check(ledger: Path) -> int:
         raw = ledger.read_bytes()
         if int(crc_s) != (zlib.crc32(raw) & 0xffffffff):
             probs.append(f"SEAL: the ledger's bytes differ from the last tool write (hand edit, deletion or reorder) — append-only broken; restore: `git checkout -- {ledger} {crc_path(ledger)}` then re-run sync")
+        elif int(rows_s) != sum(1 for l in raw.split(b"\n")[1:] if l):
+            probs.append("SEAL: sidecar row count disagrees with the file (seal written by something other than the tool)")
     except FileNotFoundError:
         probs.append("SEAL: sidecar .crc missing — every tool write seals; a missing seal means a non-tool write")
     except ValueError:
