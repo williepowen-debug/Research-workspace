@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-11 **01:17 ET** (pre-open Friday; all vol values are the **9/10 SETTLE** unless a row says TICK. **FLAT · FT-10 0-of-4 NOT FIRED (RED's grade) · convergence 33/50 · cheap-tail CLOSED 2/4** · thesis **v4.1.1**, unbumped) | **STATUS commit:** `fb8f3f919`.
+**As of:** 2026-09-11 **01:19 ET** (pre-open Friday; all vol values are the **9/10 SETTLE** unless a row says TICK. **FLAT · FT-10 0-of-4 NOT FIRED (RED's grade) · convergence 33/50 · cheap-tail CLOSED 2/4** · thesis **v4.1.1**, unbumped) | **STATUS commit:** `a1775b000`.
 
 > ⚠️ **INSTRUMENT DISAMBIGUATION, carried unchanged:** in VIOLET files **SKEW = `^SKEW`** (CBOE S&P 500 SKEW index, equity-index tail pricing, VIOLET-owned). It is **NOT** the *3y10y swaption skew* (rates vol, BOND-owned). Qualify on first use.
 
@@ -60,6 +60,8 @@
 ⚠️ **Four sessions of this move happened with this desk DARK, and every instrument that grades it ran correctly.** `cheap_tail.py`, `ovx.py` and `move.py` all grade at boot. **There was no boot. The failure was not detection, and hardening a tool would fix nothing.**
 
 ⚠️ **Do NOT quote Principle 9** — no terminated ≥60td SKEW regime is in the sample and the termination that was live has reversed.
+
+⚠️ **TWO OF MY OWN GUARDS HAVE A WRONG REFERENCE, NOT A LOOSE THRESHOLD, AND BOTH ARE CARRIED OPEN RATHER THAN PATCHED TONIGHT.** `vx_daily_gapcheck.py` fails **silent** (rc=0 with three sessions missing, KB-VIO-273); `surface_agreement.py` fails **loud and unfixable** — it reads every past delivered memo as a LIVE surface, so it is permanently red on any figure that legitimately moved, **and its printed remedy would have me edit a delivered record** (KB-VIO-276). **The loud one is the more dangerous: a guard whose remedy is impossible trains its reader to wave reds through, which is the behaviour this guard was built to end.** Dispositions written on STATUS ⑤ and ⑦; neither re-specified at 01:2x on one session's diagnosis.
 
 ⚠️ **Residual named rather than buried, unchanged: `thresholds.py` still writes the LEADING-EDGE `VX_DAILY` row from yfinance** — authoritative in *history*, provisional at the *leading edge*, which is precisely the window an FT-10 bar is graded in.
 
