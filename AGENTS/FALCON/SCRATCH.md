@@ -35,12 +35,19 @@
 ## OPEN THREADS / WATCHES
 - 🔴 **The Petroline outage itself** — daily: Aramco newsroom · SPA · Saudi MoE · CENTCOM · Reuters/AP/Bloomberg Gulf desks. **Re-run the FIRMS pull each session** — the recipe is in the processed PROME packet and the key is at `FORGE/tools/market-data/.env`; **a fading Riyadh-zone FRP is the cheapest early tell that repairs are working.**
 - 🔴 **WARRISK ~50 days unmeasured, all 5 rows +39d past `Stale_By`, REGISTERED FALSIFIER LEG INCLUDED** — and a 5–7 mb/d crude artery just shut. **Worst-timed instrument gap on the board**, escalated to PROME again tonight. Named unchecked primaries: Marsh Specialty · Lloyd's/JWC · Platts. Propagating: HAWK + CRUISE carry my SEARCH-NOT-FOUND at second hand.
-- ⚠️ **`LESSONS.md` is 32,512 B against a 32,550 B budget — 38 BYTES of headroom. The NEXT entry breaches it.** Rotation design is mine; flagged to PROME tonight. **Do not add an entry without rotating first.**
+- ✅ **`LESSONS.md` ROTATED 2026-09-11 (PROME-cleared) — 32,512 B → 13,985 B, from 38 bytes of headroom to 26% of cap. READ-CAP 0.** **Hot/cold split, ZERO lessons lost:** all ELEVEN claim lines 1–11 stay HOT (the claim is what has to fire at boot), full text moved VERBATIM to `archive/LESSONS_archive_2026-09-11.md`; **FAL-08…FAL-11 kept full text hot** because a recent lesson is still being actively re-encountered. **Design rationale is written into the archive's header so a successor can overrule it rather than re-derive it.** No figure moved.
 - 🟠 Attribution of the Petroline strike (Iraq axis, unestablished) · **Hercules Star attribution** · Iranian zone boundary · **Iraq export approach (Basra/Al-Faw)** — a recorded perimeter gap · **Kuwait/Bahrain in-port class** (4 consecutive clean checks) · Kharg after the Derya strike (dark-immune routes only).
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **FAL-05** OPEN → 2026-10-07; nothing due before then, but **route (b) is live** — see NEXT SESSION #2.
 - **Will:** ① the corrected trigger-(c) base rate (**≥1 in 193 days**, not 0) — routed 9/10, **still owed a relay**; ② HAWK's observation that trigger (c)'s operative gate is in one limb a **state-communication** variable — **prospective only, the letter is immutable and was not touched.**
+
+## PROME RESPONSE — RECEIVED AND APPLIED (2026-09-11 ~22:0x ET)
+- ✅ **Auto-push STANDS** (Will booted directly, standard regime) — no hold.
+- ⚖️ **CORRECTION ACCEPTED: HAWK needed NO doorbell.** My own packet says *"No ASK"*, and **rule 6b's trigger is an `action:` item** — a cc with no ask fails leg 2 and waits for HAWK's normal inbox. I over-applied the rule; PROME ruled it, outcome = normal inbox. **Carry this: a cc is not a doorbell.**
+- 🔴 **BRENT IS A REAL DOORBELL AND PROME IS CARRYING IT.** BRENT went dark 14:16 ET (`f33eba9b8`) holding my acute packet + 3 unconsumed WALTER signals, **and `GATE-BRENT-COT-35B` sits at its `review_by` TODAY with the COT grade still pending** = a LIVE GATES row naming the owner (WQ-184 outcome ①). On the slate to Will. **My throughput ask #2 rides with it** — BRENT owns that primary.
+- 🔴 **WARRISK went to Will as PROME's HEADLINE item, in my framing** — 4th restatement, and PROME is *"treating the repetition as evidence, not noise."* Subscription-walled from this box ⇒ **needs Will's hand or a desk with access, not another spawn.**
+- ✅ **`LESSONS.md` rotation: PROME-cleared to my own design** (*"38 bytes is yours to spend"*), flag only if it moved a load-bearing figure — **it moved none.** Executed this session.
 
 ## MAIL STATE (one line per surface)
 - Inbox: **clear (3/3 drained 9/11 ~21:4x)**. Packets delivered: **BRENT** (acute), **HAWK** (cc), **PROME** — all three carve-out ①, self-committed.
@@ -50,4 +57,4 @@
 - **Will booted this session directly (not a PROME spawn) ⇒ auto-push at closeout per the standard regime.** Commits path-scoped to `AGENTS/FALCON/` plus three self-authored inbox packets (carve-out ①: BRENT, HAWK, `PROME/inbox/`).
 
 ## OWED BUILDS, RANKED
-1. **Petroline/Yanbu terminus-proxy throughput instrument** (`KB-168`; due 9/14) — **now urgent: route (b)'s volume leg is single-source** · 2. **`LESSONS.md` rotation — 38 bytes of headroom** · 3. VESSELS/CASUALTIES staleness check · 4. `bypass_watch.py` empty-series guard · 5. dark-immune Kharg instrument · 6. WARRISK re-pull on any print · 7. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger (still unbuilt; closeout step 11 remains its only reader) · 8. DAEDALUS rail-repair bundle.
+1. **Petroline/Yanbu terminus-proxy throughput instrument** (`KB-168`; due 9/14) — **now urgent: route (b)'s volume leg is single-source** · ~~2. `LESSONS.md` rotation~~ ✅ **DONE 9/11** · 3. VESSELS/CASUALTIES staleness check · 4. `bypass_watch.py` empty-series guard · 5. dark-immune Kharg instrument · 6. WARRISK re-pull on any print · 7. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger (still unbuilt; closeout step 11 remains its only reader) · 8. DAEDALUS rail-repair bundle.
