@@ -282,3 +282,22 @@ August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4
 📦 **8/20 CLOSES dashboard rotated 2026-08-27** → [`workbook/STATUS_archive_20260827_dated_history_cut.md`](workbook/STATUS_archive_20260827_dated_history_cut.md) — 7,780 B, `crc32 989e5b4c`, VERBATIM. **Current-state block at top of file carries today's live tape on named contracts; the 8/20 dashboard is dated history.**
 ---
 
+
+
+---
+
+## ROTATED 2026-09-11 00:5x ET from STATUS.md (rule 19, read-cap remedy) — VERBATIM, zero edits
+
+### ① September 10 WPSR wk-9/4 line-by-line table (1916 B; crc32 `6e5a836e`)
+
+| Line | wk-9/4 print [CONF EIA WPSR 2026-09-10] | Disposition |
+|---|---|---|
+| **SPR (L305)** | **285.360M, −1.244M** (from −3.122M; base 293.426M wk-8/14, pace was −5.27M/wk). Δ1 = −1.244M. Sixth print <300M; no build. | **NO VERDICT by letter — two-print test.** wk-9/11 print (Wed 9/16 10:30 ET): Branch A (mean ≥ −2.0) needs Δ2 ≥ −2.756M; Branch B (mean ≤ −4.0) needs Δ2 ≤ −6.756M, larger than any draw in the run; between = NO-VERDICT, re-read next two. Wording conflict + unpublished DOE window premise unchanged. |
+| **Edouard run-cut** | US utilization **97.8% (−0.2pp)**; **PADD 3 98.3% (+0.6pp, leg high)**, gross inputs 9,723 kb/d (+61), crude inputs 9,730 (+130). Dip came from PADD 2 (−2.0pp), 1 (−1.3), 4 (−1.0). | **Pre-registered narrow read RIGHT** (band: flat-to-down-1pp). Storm a non-event for the crude balance; Port Arthur partial outage invisible at PADD level. |
+| **Cushing** | **21.824M, −0.684M** (first draw after two builds); 1.824M above 20.0M. Commercial crude 424.069M (−0.390M). Crude exports 3,417 kb/d (**−1,066**, Edouard port week). | Boundary #3 stays RESCINDED; single print <20.0M re-activates. Line 2 not breached. |
+| **Distillate** | **106.274M, +2.086M** (2nd build; ULSD +2.228M). Production 5,348 (+222; PADD 3 +183). Exports 1,556 (−179). 4-wk supplied 3,715 vs 3,813 = −2.6% YoY (was −6.0%). Stocks −11.9% YoY. | Counterevidence to a US inventory-hole diesel squeeze: max-distillate runs + lower exports rebuild stocks from a very low base while the matched-Nov ULSD crack widened to ~$105.5. |
+| **Gasoline / jet (BRT-29 T)** | Gasoline stocks 206.938M (+1.269M); supplied 8,551 (−372); **4-wk −1.4% YoY** (was −1.6%). Jet 4-wk −2.3% (was −0.6%). Production 13,947 kb/d (+85). | T needs ≤ −3.0% by the wk-9/25 print (released 9/30); 3 prints left, series moved AWAY this week. Recorded, not graded. |
+
+### ② September 10 midday tape re-base — 12:00-12:03 ET LIVE BARS, NOT settles; superseded the same day by the 9/10 SETTLES paragraph retained in STATUS (993 B; crc32 `450b1934`)
+
+**Tape re-based (Yahoo delayed, live bars 12:00–12:03 ET, not settles):** `BZX26` **106.58** (9/9 daily-bar close **101.21**, agrees to the cent with the CNBC-relayed ICE settle, +3.4%, highest since 5/22; Yahoo prev-close field prints 101.00 — vendor inconsistency noted) · `CLV26` 101.13 · `CLX26` 97.21 · **Nov–Jan `BZX26`−`BZF27` +9.17** (from +7.54 9/9, +6.62 9/8 bars) · WTI−Brent Nov **−9.37** · matched-Nov ULSD crack **105.53** (+7.6), RBOB 36.46 · OVX **56.88 (+14%)** · USO 156.74 · **XLE 65.17 (−0.5%) on a +5% crude day** · STNG/FRO/DHT +1.1/+0.9/+0.5%. Third straight +3%+ session: five Iranian hulls struck 9/8 (Riesco SANK, CENTCOM), Iran's claimed 10-vessel wave 9/9, two non-Iranian hulls hit 9/9 (Hercules Star, Dubai anchorage, 1 dead; New Andros ~2.0M bbl Iraqi fuel oil off Al-Faw, afloat), SNSC "exclusion zone" declared, ECB +25bp on energy, PPI diesel +24.1%. Full catalyst list with sources → [report §3](research/2026-09-10_wpsr/REPORT.md).

@@ -1,10 +1,29 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-09-10 ~16:3x ET — Sep-18 150/165 spread CLOSED by Will ~15:1x for $630.00 (+$330, PROME 16:10 capture transcription); WQ-207 discharged unexecuted; new Will-hand USO Sep-11 159C ×1 @1.52 noted, no rule. Earlier: 12:3x screenshot mark 6.11; underlyings moved (USO 156.74 between the Sep-18 strikes; XLE 65.17, −0.5% on a +5% crude day); delayed option indications 11:35–11:47 ET in [WPSR report §2](research/2026-09-10_wpsr/REPORT.md).** No direct broker session or current open-order check. XLE fill receipt remains pending (L253). Prior evidence: [September 9 review](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
+**Updated: 2026-09-11 ~00:5x ET — POSTURE ONLY; no position changed, `$0` moved.** Reported Petroline (East–West pipeline) strike of 2026-09-10 ~17:56 UTC graded **⛔ NOT MET** on the BG-02 letter, all four instances; resolver PRE-REGISTERED (§CURRENT STANCE). Open Will-hand leg **USO Sep-11 159C ×1 @1.52 expires TODAY (CPI 08:30 ET)** — no rule, no BRENT instruction; record the outcome when Will's activity shows it. XLE 65C ×1 receipt (L253) still pending. Prior: **2026-09-10 ~16:3x ET — Sep-18 150/165 spread CLOSED by Will ~15:1x for $630.00 (+$330, PROME 16:10 capture transcription); WQ-207 discharged unexecuted; new Will-hand USO Sep-11 159C ×1 @1.52 noted, no rule. Earlier: 12:3x screenshot mark 6.11; underlyings moved (USO 156.74 between the Sep-18 strikes; XLE 65.17, −0.5% on a +5% crude day); delayed option indications 11:35–11:47 ET in [WPSR report §2](research/2026-09-10_wpsr/REPORT.md).** No direct broker session or current open-order check. XLE fill receipt remains pending (L253). Prior evidence: [September 9 review](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
 
 ## CURRENT STANCE (v5.8 reference)
 
 Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Existing confirmed-destroyed-capacity frame-breaker handling remains binding; a quote or source failure does not meet it. No new proposal or capital action. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`.
+
+### 🔓 FRAME-BREAKER STATE — 2026-09-11 (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
+
+**⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **No Aramco / Saudi MoE / SPA statement [VERIFIED ABSENCE, two primaries explicit]. No capacity figure on any channel. No Yanbu loadings print.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
+
+**📌 PRE-REGISTERED RESOLVER — an owner READING STANDARD, not an amendment. No registered level moved; BG-02's text is unchanged and remains Will's.**
+
+| | |
+|---|---|
+| **What meets it** | **R1** Aramco/MoE/SPA naming export or production capacity offline, or Petroline throughput reduced · **R2** Yanbu crude+condensate loadings vs the **~3.7 mb/d** early-September baseline (**Kpler/Vortexa**, FALCON leg-3) · **R3** Saudi seaborne crude exports (Yanbu = 92%, FALCON) · **R4** FALCON grades a clean FAL-01 with an output-loss figure |
+| **FLOOR** | **≥0.7 mb/d of THROUGHPUT**, 7-day moving average (≈ −19% off 3.7). The desk's only dated Petroline precedent (April 2026, Saudi MoE) applied to the variable the head clause measures — **stricter in effect than April**, which cost 0.7 mb/d of *capacity* and ≈0 barrels of *export* against a 7.0 mb/d line carrying ~3.7. |
+| **WINDOW** | opens 2026-09-11 00:0x ET · **closes Fri 2026-09-25 17:00 ET** ⇒ lapse = NOT MET, **premium not destroyed capacity**; closed, not re-opened on a later relay of the same satellite data |
+| **NO-VERDICT branch** | a confirmed fall **>0 and <0.7 mb/d** returns to Will **as a NO-VERDICT with the figure** — never a fire, never a silent dismissal |
+| ⛔ **NOT resolvers** | FIRMS/FRP · **the 9/16 WPSR (a US instrument, not a Saudi one)** · price (`$100` fired 7/23; `$120` needs a new class) · a claim of responsibility · any capacity figure with no stated export effect |
+| **Three gates, all required at a fire** | **(i)** BG-02 head clause met on the letter · **(ii)** **WQ-192 STAND DOWN lifted in Will's own words** (a relayed rec is not an approval) · **(iii)** **Will's [Approve] at the fill** (BG-02, unchanged by every re-spec) |
+
+**Staged, NOT proposed and NOT an order** — leg-(b) structure delivered to TERRY as a card INPUT: USO **Nov-20 165/180** call spread, 70 DTE, touch debit **4.80 = 32.0% of width** (BG-03 ≤33.0%), max loss **$480**, off USO **158.38** (9/10 close). ⛔ **RE-PRICE AT THE OPEN — USO gaps on any confirmation and every figure is void.** **Root rule #6 benchmark pre-registered at 32.0% of width** so the break test is falsifiable: legitimate only if the live chain at the fire shows the band-compliant vertical **cheaper than 32.0%**; *"the window is closing"* is a chase. Packet: [TERRY inbox 2026-09-11](../TERRY/inbox/2026-09-11_from-BRENT_staged-leg-b-structure-petroline-frame-breaker-NOT-A-CARD.md).
+
+**Eligible monthly rolls (compute DTE at the fire):** Nov-20 eligible **through 9/21** · Dec-18 eligible **from 9/19** · both 9/19–9/21 · Dec-18 only from 9/22. Oct-16 is out and stays out (BG-04: a shorter tenor lowers debit-as-%-of-width and would loosen the only economic gate).
 
 ## POSITIONS (live)
 
