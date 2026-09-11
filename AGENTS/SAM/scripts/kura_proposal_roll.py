@@ -111,19 +111,24 @@ def plan(keep_runs):
     blocks = []
     for j, (p, h) in enumerate(hdrs):
         e = hdrs[j + 1][0] if j + 1 < len(hdrs) else len(seg)
+        # A run owns its #### subsections, never the next peer/parent section.
+        boundary = re.search(r"^#{1,3}\s", seg[p + len(h):e], re.M)
+        if boundary:
+            e = p + len(h) + boundary.start()
         body = seg[p:e]
         n = int(re.search(r"Run (\d+)", h).group(1))
         # Capture the proposed Topic (field 5) alongside the id, so landing can be PROVED.
         rows = re.findall(r"^(KB-SAM-\d+)\t[^\t]*\t[^\t]*\t[^\t]*\t([^\t\n]*)", body, re.M)
         seen, proposed, missing, collided = set(), [], [], []
         for rid, topic in rows:
-            if rid in seen:
-                continue
+            if rid not in seen:
+                proposed.append(rid)
             seen.add(rid)
-            proposed.append(rid)
-            if rid not in done:
+            if not _norm(topic):
+                missing.append(rid + " (empty topic)")
+            elif rid not in done:
                 missing.append(rid)
-            elif _norm(topic) and _norm(done[rid])[:40] != _norm(topic)[:40]:
+            elif _norm(done[rid]) != _norm(topic):
                 # ID is spent on DIFFERENT content. Fail closed: this is not a landing.
                 collided.append(f"{rid} (id reused: ledger has {done[rid][:48]!r})")
         # Any id whose Topic could not be parsed is also unproven -> fail closed.
@@ -193,7 +198,11 @@ def main():
     if not a.apply:
         print("   report-only. --apply to write.\n"); return 0
 
-    # BYTE CONSERVATION: spec + archive must be preserved exactly.
+    # Verify source spans before writing. Every moved body is appended verbatim.
+    for block in roll:
+        if seg[block["start"]:block["end"]] != block["body"]:
+            raise ValueError("proposal span mismatch; no files written")
+    # Content lengths below are diagnostics, not a conservation proof.
     before = len(SPEC.read_text(encoding="utf-8")) + (len(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else 0)
     kept_seg = seg
     for b in sorted(roll, key=lambda x: x["start"], reverse=True):
@@ -206,15 +215,14 @@ def main():
         "**Reference-only — NOT read at spawn.** A block appears here only when every row it "
         "proposed was verified landed in `KB.tsv` or `KB_ARCHIVE.tsv`. Move, never delete.\n")
     ARCHIVE.write_text((ARCHIVE.read_text(encoding="utf-8") if ARCHIVE.exists() else arc_head)
-                       + "\n" + "\n".join(b["body"].rstrip() for b in sorted(roll, key=lambda x: x["n"])) + "\n",
+                       + "\n" + "\n".join(b["body"] for b in sorted(roll, key=lambda x: x["n"])) + "\n",
                        encoding="utf-8")
     SPEC.write_text(head + kept_seg, encoding="utf-8")
     after = len(SPEC.read_text(encoding="utf-8")) + len(ARCHIVE.read_text(encoding="utf-8"))
-    ok = after >= before - 200   # pointers replace headers; tiny net loss is the header text only
-    print(f"   {'✅' if ok else '🔴'} applied · byte-conservation {'OK' if ok else 'FAILED'} "
+    print(f"   ✅ applied · source spans verified; blocks archived verbatim "
           f"({before:,} → {after:,})")
     print(f"   KURA.md now {len(SPEC.read_text(encoding='utf-8'))//1024}K\n")
-    return 0 if ok else 1
+    return 0
 
 
 if __name__ == "__main__":

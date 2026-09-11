@@ -24,7 +24,7 @@ import csv
 import io
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 
 SAM_DIR = Path(__file__).resolve().parent.parent
@@ -102,24 +102,36 @@ def _read_drift_rows():
         return []
     out = []
     with open(CFTC_TSV) as f:
-        for row in csv.DictReader(f, delimiter="\t"):
-            try:
-                out.append((row["Date"], int(row["Change_Net"])))
-            except (KeyError, ValueError, TypeError):
-                continue
+        reader = csv.DictReader(f, delimiter="\t")
+        if not {"Date", "Change_Net"}.issubset(reader.fieldnames or []):
+            raise ValueError("CFTC ledger lacks Date/Change_Net columns")
+        for row in reader:
+            stamp = date.fromisoformat(row["Date"])
+            # Do not drop malformed observations and bridge the resulting hole.
+            out.append((stamp.isoformat(), int(row["Change_Net"])))
+    out.sort()
+    if len({d for d, _ in out}) != len(out):
+        raise ValueError("duplicate CFTC observation dates")
     return out
 
 
 def multi_print_drift_check():
     """Print the two-print aggregate drift check. Read-only; never grades or writes."""
-    rows = _read_drift_rows()
+    try:
+        rows = _read_drift_rows()
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f"\n  MULTI-PRINT DRIFT CHECK: UNKNOWN — {exc}; check NOT EVALUATED.")
+        return False
     print("\n  MULTI-PRINT DRIFT CHECK (KB-SAM-231 successor; frozen bars)")
     print(f"  {'-'*60}")
     if len(rows) < 2:
         print("  INSUFFICIENT HISTORY: fewer than 2 usable prints; check NOT EVALUATED.")
-        return
+        return False
     (d_prev, c_prev), (d_last, c_last) = rows[-2], rows[-1]
     print(f"  Deadband +/-{DRIFT_DEADBAND:,} | drift bar {DRIFT_BAR:,} ({DRIFT_BAR_BASIS})")
+    if (date.fromisoformat(d_last) - date.fromisoformat(d_prev)).days != 7:
+        print("  UNKNOWN: latest observations are not seven days apart; verify missing prints or the publisher's holiday schedule. Check NOT EVALUATED.")
+        return False
     both_b0 = abs(c_prev) <= DRIFT_DEADBAND and abs(c_last) <= DRIFT_DEADBAND
     agg = c_prev + c_last
     print(f"  {d_prev} {c_prev:+,}  +  {d_last} {c_last:+,}  =  {agg:+,}")
@@ -134,7 +146,12 @@ def multi_print_drift_check():
         print(f"  No drift flag: aggregate {abs(agg):,} is within the {DRIFT_BAR:,} bar.")
     # B0 run length, advisory
     run = 0
-    for _, c in reversed(rows):
+    newer = None
+    for d, c in reversed(rows):
+        stamp = date.fromisoformat(d)
+        if newer is not None and (newer - stamp).days != 7:
+            break
+        newer = stamp
         if abs(c) <= DRIFT_DEADBAND:
             run += 1
         else:
@@ -146,6 +163,7 @@ def multi_print_drift_check():
     n = len(mags)
     live_med = mags[n // 2] if n % 2 else (mags[n // 2 - 1] + mags[n // 2]) / 2
     print(f"  ADVISORY ONLY (never grades): live median|WoW| {live_med:,.0f} over n={n}; frozen basis used 12,325.")
+    return True
 
 
 
@@ -315,13 +333,13 @@ def _selftest():
         ("FIRE: independent April pair",
          [("2026-04-21", -11252), ("2026-04-28", -7599)], "DRIFT FLAG"),
         ("EDGE: aggregate exactly ON the bar stays silent (strict >)",
-         [("a", -9244), ("b", -9244)], "No drift flag"),
+         [("2026-08-11", -9244), ("2026-08-18", -9244)], "No drift flag"),
         ("EDGE: one contract over the bar fires",
-         [("a", -9244), ("b", -9245)], "DRIFT FLAG"),
+         [("2026-08-11", -9244), ("2026-08-18", -9245)], "DRIFT FLAG"),
         ("DEGENERATE: single row",
-         [("a", -5000)], "INSUFFICIENT HISTORY"),
+         [("2026-08-11", -5000)], "INSUFFICIENT HISTORY"),
         ("RUN: three consecutive B0 prints raise the advisory",
-         [("a", -5000), ("b", -5000), ("c", -5000)], "3 consecutive B0 prints"),
+         [("2026-08-11", -5000), ("2026-08-18", -5000), ("2026-08-25", -5000)], "3 consecutive B0 prints"),
     ]
     failures = 0
     try:
@@ -427,10 +445,10 @@ def main():
         print(f"\n  TSV already has {data['date']} — no append")
 
     # Drift check runs AFTER the append so the latest print is included.
-    multi_print_drift_check()
+    drift_ok = multi_print_drift_check()
 
     print()
-    return 0
+    return 2 if drift_ok is False else 0
 
 
 if __name__ == "__main__":

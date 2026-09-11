@@ -123,10 +123,12 @@ establishes it is **structural**: a uniform-price auction has no tail, ever, so 
 satisfied at this tenor by any publication. The grade was reached by dropping a conjunct that was not merely
 missing but impossible.
 
-⛔ **SAM-35's grade and terms are UNCHANGED and are not reopened.** It was graded on its letter, on its own
-frozen terms, with its marginality disclosed at the time — and re-grading a closed row against a ruling written
-seven weeks later is precisely the scoring-time re-tune this desk refused on 2026-08-07. RULING 1's *"Retroactive
-scope: NONE"* governs here too. What changes is **not the grade but what may be INFERRED from it.**
+⛔ **SAM-35's historical grade and registered terms are preserved here.** The original grade dropped the
+registered tail conjunct, as described above; it therefore was **not a full satisfaction of the original letter**.
+Preserving that historical record is distinct from endorsing its scoring. Correcting an application error against
+the original terms would also be distinct from retroactively changing the threshold. This amendment withdraws
+the live mechanism inference; a separate, explicit scoring disposition remains needed before using SAM-35 as
+an unqualified confirmation in calibration. No prediction row is regraded by this amendment.
 
 **What is withdrawn is the mechanism inference, which is live.** `TRADE.md` and `STRATEGY.md` carry
 *"the Meiji-Yasuda floor **extends to the longest / most J-ICS-sensitive tenor**; WEAK/disorderly-precursor

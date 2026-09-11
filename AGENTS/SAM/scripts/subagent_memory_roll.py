@@ -39,6 +39,7 @@ Usage:
     subagent_memory_roll.py --all            # report on all three
 """
 import argparse
+from collections import Counter
 import datetime as _dt
 import re
 import sys
@@ -102,10 +103,21 @@ RUN_BLOCK = re.compile(
 PENDING_BLOCK = re.compile(r"^#{2,3}\s*(PENDING from Run|Pending from Run)", re.I)
 
 
+def heading_is_closed(heading):
+    plain = re.sub(r"[*`#]", "", heading).strip()
+    # A heading discussing absent or negated closure is not a disposition.
+    if re.search(r"\b(?:not|never|unclosed|unresolved|missing|unmarked)\b", plain, re.I):
+        return False
+    return bool(re.search(
+        r"(?:^|—\s*|✅\s*)(?:ALL\s+)?"
+        r"(?:CLOSED|CLEARED|RESOLVED-BY-RULING|MOOT-BY-BANNER|ALREADY-APPLIED)\b",
+        plain, re.I))
+
+
 def is_terminal(heading, body):
     """PENDING blocks: closure must be declared in the HEADING. Others: body-wide."""
     if PENDING_BLOCK.match(heading):
-        return bool(TERMINAL.search(heading))
+        return heading_is_closed(heading)
     return bool(TERMINAL.search(body))
 
 
@@ -149,8 +161,12 @@ def classify(heading, body, parent):
         return "stay", "preamble"
     in_never_roll_parent = bool(NEVER_ROLL.match(parent)) if parent else False
     if re.match(r"^###\s", heading) and in_never_roll_parent:
+        # Only PENDING permits individually closed children to move. Calibration
+        # and the other protected sections remain live regardless of vocabulary.
+        if not re.match(r"^##\s*PENDING \(escalations", parent, re.I):
+            return "stay", "protected parent"
         # Pending sub-block: rolls ONLY if its OWN HEADING declares closure.
-        if TERMINAL.search(heading):
+        if heading_is_closed(heading):
             return "roll", f"closed in heading, under {parent[:38]}"
         return "stay", "pending sub-block (no closure in heading)"
     if NEVER_ROLL.match(heading) or not RUN_BLOCK.match(heading):
@@ -226,6 +242,11 @@ def main():
         if not a.apply:
             continue
 
+        # Validate the exact section partition BEFORE either write. Length alone
+        # cannot prove conservation (added pointer prose can hide missing content).
+        original = [(h, b) for h, b, _ in split_sections(text)]
+        if Counter(original) != Counter(stay + roll):
+            raise ValueError("section conservation failed; no files written")
         arch = path.with_name(path.stem + "_ARCHIVE.md")
         header = (
             f"# {path.stem} — ARCHIVE\n\n"
@@ -248,13 +269,7 @@ def main():
         )
         path.write_text(new_live.rstrip("\n") + "\n" + pointer, encoding="utf-8")
 
-        # rule 1: byte conservation
-        after = len(path.read_text(encoding="utf-8")) + len(arch.read_text(encoding="utf-8"))
-        before = len(text) + len(prev)
-        if after < before - len(pointer) - len(header):
-            print("   🔴 BYTE CONSERVATION FAILED — investigate before trusting this run")
-            sys.exit(1)
-        print(f"   ✅ applied · archive {arch.name} · byte-conservation OK")
+        print(f"   ✅ applied · archive {arch.name} · exact section partition verified")
 
     if not a.apply and total_saved:
         print(f"\n  report-only. --apply to write. would free ~{total_saved/1024:.0f}K "
