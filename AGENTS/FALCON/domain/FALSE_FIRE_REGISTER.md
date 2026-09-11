@@ -86,7 +86,7 @@ The row's trailing clause — *"NONE sunk, total losses stay 2"* — **was FALSE
 | *"FRP >70 MW across a stretch of only a few kilometres"* | ❌ **REFUTED as stated** — the zones are **66–156 km apart**, not a few km |
 | *"a few km SE of Medina"* | ❌ **REFUTED.** Nearest detection is **66 km** from Medina. Replicated independently by PROME's pull and my own |
 | *"Sentinel-3 plume ~100 km long"* | ❓ **UNTESTED** — different instrument family, not checked |
-| Strike time **17:56Z** | ❌ **REFUTED as an EVENT time** — first ignition **09:30Z**, **8.5 h earlier**. It is a REPORT time |
+| Strike time **17:56Z** | ❌ **REFUTED as an EVENT time** — first DETECTION **09:30Z**, **8.5 h earlier**. It is a REPORT time |
 | Houthi authorship | ❌ **STILL UNSUPPORTED** — no claim of responsibility; drones reported from **IRAQ** (one US official), responsibility unestablished |
 
 🔑 **THE LESSON, AND IT IS NOT THE COMFORTABLE ONE:** **the claimant-aligned source was directionally right and specifically wrong on every checkable particular.** Had this desk propagated row ⑤'s content, it would have carried a false hotspot count, a false geometry, a false location, a false time and a false attacker — *into a week when the Petroline is the most consequential asset on the board*. **Being right about the headline is not being right.** `[[finding_exact_level_authenticates_a_wrong_direction]]` — the precise particulars were what made it credible, and the particulars are what failed.

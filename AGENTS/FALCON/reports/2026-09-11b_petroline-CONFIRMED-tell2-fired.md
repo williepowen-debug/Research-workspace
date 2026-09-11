@@ -3,6 +3,25 @@
 **Session:** `falcon-0911b` (Will-booted 2026-09-11 ~17:3x ET) · **Supersedes the evidentiary state of** `reports/2026-09-11_petroline-tell2-adjudication.md` (that report's GRADE was correct on its evidence; its five pre-committed resolvers are what decided this one).
 **Headline:** **Tell #2 → FIRED on resolver #1.** **Marks HOLD B 3 / C 22 / D 75 on the letter.** **FAL-05 NOT fired — route (b)'s 7-day clock is now RUNNING, earliest realization 2026-09-17/18.**
 
+
+> # ⛔ CORRECTION NOTICE — 2026-09-11 ~22:3x ET, AFTER EXTERNAL REVIEW (CODEX)
+>
+> **This report was published, committed, pushed, and delivered to BRENT, HAWK and PROME before these errors were caught. They were caught by an external reviewer, not by me.** Corrections are applied IN PLACE below and listed here so the record shows what was wrong rather than only what is now right. Full review: `reviews/2026-09-11_falcon_petroline_recap_review.md`.
+>
+> **① THE "36 HOURS" FIGURE WAS NEVER COMPUTED — it is 25h21m.** The saved Riyadh observations run **2026-09-10 09:30Z → 2026-09-11 10:51Z**. The FRP rise (29.6 → 158.5 MW) is real; the duration attached to it was not measured. **A fabricated interval sitting beside two correct figures is the failure mode my own memory calls `finding_exact_level_authenticates_a_wrong_direction` — the real numbers authenticated the invented one.**
+>
+> **② THE CENTRAL CONTRADICTION, AND IT IS THE WORST ERROR HERE.** §3.4 correctly refutes any association between the detected hotspots and the pipeline — and then §3.2 uses those same hotspots' persistence to argue *"the outage is not a same-day reset,"* a claim **about the pipeline**. **You cannot disclaim the link and then reason across it.** That inference is **RETRACTED**, and it is the one that went to BRENT as forward-looking guidance. **A control that kills an association must be carried through every downstream claim that depends on it — killing it once in the section where you found it is not enough.**
+>
+> **③ NON-DETECTION IS NOT PROOF.** *"All dark on the 9/09 baseline ⇒ new fires, not flares"* and *"terminals CLEAN ⇒ mid-line event, damage bounded"* both convert an absence of detection into a positive finding. NASA documents that cloud, smoke, overpass gaps and detection limits hide fires, and VIIRS **assigns no cause**. Corrected to: **no anomalies were detected in these zones on 9/08–9/09 in this product**, and **no terminal anomaly was detected in this window** — neither establishes absence, cause, damage location, or that a terminal is undamaged or operating.
+>
+> **④ AN UNTRIGGERED PREDICTION IS NOT A MEASURED ZERO.** *"Zero confirmed crude barrels offline"* stated a **prediction state** as a **measurement**. Corrected throughout to: **net crude supply loss is UNQUANTIFIED; FAL-05 has not met its failure conditions.** Related: §4.2 called route (b)'s volume limb *"cleared many times over"* while the same report flagged its only figure as untrusted. **Both cannot be true.** The MoE stated the line is shut; it stated **no offline capacity figure**. Nameplate (~7 mb/d) ≠ routed flow (~5 mb/d, single-source relay) ≠ qualifying offline capacity ≠ net supply loss. **Duration is NOT the only unresolved limb.**
+>
+> **⑤ THE JWC "DISCOVERY" WAS ALREADY ON THIS DESK.** `domain/FRESH_LEG_BASELINE.md:21` records JWLA-034, 29 July 2026, the 25.5°N boundary and Yanbu's inclusion — **annotated 2026-08-31**, including the JWLA-035 check. **This was a reconciliation failure presented as a find.**
+>
+> **WHAT SURVIVES UNCHANGED:** the event confirmation itself (Saudi MoE statement, resolver #1 — which rests on the official statement and never on the satellite work), the refusal to grade on satellite-only evidence, the route-geometry refutation, and every registered mark and trigger. ⚠️ **Note also: multiple news relays of ONE official statement are one source, not independent corroboration.**
+>
+> **EVIDENCE GAP CLOSED:** the originally committed CSV held only the 108 four-zone rows and could not reproduce the 427-row population, the baseline, or the terminal controls. The **full 518-row population (9/08–9/11, all three sensors) is now preserved** at `domain/firms/raw_2026-09-11/`.
+
 ---
 
 ## 1. WHAT RESOLVED, AND ON WHICH PRE-COMMITTED RESOLVER
@@ -57,7 +76,7 @@ Key live since 2026-09-11 14:2x (WQ-223, Will's hand). Recipe per PROME's packet
 
 🔑 **THE BASELINE NEGATIVE IS THE STRONGEST THING HERE: zero detections in all four zones on 9/09, while the same instrument recorded 106 detections corridor-wide that day.** The instrument was working and seeing fires; these four zones were dark. They are **new fires that began on 9/10**. That rules out persistent gas flares, which appear on every pass.
 
-### 3.2 The Riyadh zone is a large fire that is still INTENSIFYING at 36 hours
+### 3.2 The Riyadh zone is a large fire that is still INTENSIFYING over a 25h21m OBSERVED SPAN
 
 | Pass (UTC) | n | max FRP | sum FRP |
 |---|---:|---:|---:|
@@ -66,7 +85,7 @@ Key live since 2026-09-11 14:2x (WQ-223, Will's hand). Recipe per PROME's packet
 | 09-10 21:57 / 22:33 / 22:54 N *(all three sensors)* | 34 | 39.5 | **559.7** |
 | 09-11 09:11 / 09:47 / 10:09 / 10:51 D | 14 | **158.5** | **770.8** |
 
-**Max FRP rose 29.6 → 158.5 MW between the 9/10 and 9/11 daytime passes — a 5× increase.** Triple-sensor, multi-pass. This fire is **not being extinguished**; it is growing. That is consistent with a burning hydrocarbon asset ~36 h after ignition, and is the single most important forward-looking fact in this report: **it argues the outage is not a same-day reset.**
+**Max FRP rose 29.6 → 158.5 MW between the 9/10 and 9/11 daytime passes — a 5× increase.** Triple-sensor, multi-pass. This fire is **not being extinguished**; it is growing. That is consistent with a burning hydrocarbon asset ~36 h after ignition, and is the single most important forward-looking fact in this report: ⛔[RETRACTED 9/11 ext-review: an anomaly NOT associated with the pipeline says NOTHING about pipeline repair].**
 
 ### 3.3 🔑 THE THERMAL RECORD CONTRADICTS THE CIRCULATING STRIKE TIME
 **First Riyadh-zone detection: 2026-09-10 at 09:30Z. The circulating strike report is timestamped 17:56Z — 8.5 hours LATER.** PROME independently noted the same inversion in the Madinah zone (a NOAA-21 daytime detection 11:13Z, 6h45m before 17:56Z). ⇒ **The fires began on the MORNING of 9/10 UTC.** The MoE says only "Thursday", which is consistent. **The 17:56Z timestamp is a REPORT time, not an event time, and must not be carried as an event time** — it was carried as one in last night's own record and in the wires.
@@ -98,7 +117,7 @@ NRT products, not the reprocessed SP archive · night FRP low-biased for small s
 | Route | Bar | State |
 |---|---|---|
 | **(a)** force majeure on CRUDE/CONDENSATE liftings | operator or state declaration | ❌ **NOT FIRED.** "Precautionary shutdown" is an operational act, **not** a force majeure. **SEARCH-NOT-FOUND.** *One declaration away.* |
-| **(b)** ≥100 kbpd crude production/export capacity **stated** offline **≥7 consecutive days, ACTUALLY ELAPSED** | volume + state/operator/trade-primary attribution + elapsed duration | 🔴 **VOLUME BAR CLEARED MANY TIMES OVER** (a ~5–7 mb/d line, shut, stated by the state). **DURATION BAR NOT CLEARED.** Initiating cause 9/10 ⇒ **earliest satisfaction 2026-09-17/18.** ⚠️ The ~5 mb/d throughput figure is **single-source relayed** — the *stated-offline volume* leg deserves a better primary before this fires. |
+| **(b)** ≥100 kbpd crude production/export capacity **stated** offline **≥7 consecutive days, ACTUALLY ELAPSED** | volume + state/operator/trade-primary attribution + elapsed duration | 🔴 **VOLUME LIMB **NOT ESTABLISHED** — no qualifying source has STATED an offline capacity figure** (a ~5–7 mb/d line, shut, stated by the state). **DURATION BAR NOT CLEARED.** Initiating cause 9/10 ⇒ **earliest satisfaction 2026-09-17/18.** ⚠️ The ~5 mb/d throughput figure is **single-source relayed** — the *stated-offline volume* leg deserves a better primary before this fires. |
 | **(c)** crude loadings suspended ≥72 h at a NAMED terminal, two dark-fleet-capable routes | evidence + non-attribution to war-risk routing | ❌ **NOT ENGAGED.** No evidence Yanbu loadings have stopped; Yanbu terminal is not damaged (§3.5); 72 h not elapsed. |
 
 ✅ **NEW-CAUSE BOUNDARY SATISFIED** — initiating cause 2026-09-10, on/after the frozen 2026-09-07 boundary. This is **not** a continuation of a pre-window loss.
@@ -123,8 +142,8 @@ A circulating headline reads **"Saudi East-West pipeline hit by drone strike jus
 ---
 
 ## 6. WHAT THIS DESK STILL CANNOT SAY
-1. **Whether one barrel of crude has actually been lost.** A shut pipeline is a *capacity* fact. Saudi Arabia holds Yanbu-side storage and an east-coast export option — **except that Hormuz is at 7% of pre-crisis** (own PortWatch run, print 9/06), which is precisely why this line mattered. **The conversion from capacity to barrels is unmeasured and is the whole question.**
-2. **How long the line stays down.** UNKNOWN at every source, and the fire was still intensifying at 36 h.
+1. **Whether one barrel of crude has actually been lost.** A shut pipeline is a *capacity* fact. Saudi Arabia holds Yanbu-side storage and an east-coast export option — **except that Hormuz VESSEL TRANSITS are at 7% of pre-crisis on the 2026-09-06 PortWatch print (a transit COUNT, not a crude-flow measurement, and not same-day)** (own PortWatch run, print 9/06), which is precisely why this line mattered. **The conversion from capacity to barrels is unmeasured and is the whole question.**
+2. **How long the line stays down.** UNKNOWN at every source, and the fire was still intensifying over a 25h21m OBSERVED SPAN.
 3. **Who did it.** "Drones from Iraq", one US official, responsibility unestablished.
 4. **Whether war-risk repriced** — 🔴 `WARRISK.tsv` is **~50 days dead**, all five rows **+39 d past their own `Stale_By`**, **the registered falsifier leg included**. *A 5–7 mb/d bypass line was just shut and this desk cannot say whether the insurance market moved.* This is the single worst-timed instrument gap on the board.
 
@@ -143,4 +162,4 @@ A circulating headline reads **"Saudi East-West pipeline hit by drone strike jus
 ---
 
 ## 8. BOTTOM LINE
-**The claim this desk refused to grade last night is now confirmed by the Saudi state, and the discipline that refused it is what produced the answer inside 24 hours.** The **East-West pipeline — Saudi Arabia's bypass around Hormuz, ~7 mb/d of capacity — is SHUT** by its own Ministry of Energy after drone attacks on **9/10** in the **Riyadh and Madinah regions**, with **Al Mesba'ah** and **Al Dhekra** named as struck pumping stations and **drones reportedly originating from Iraq**. My own first-party FIRMS pull puts **four new fire zones** in exactly those two regions, **all four dark on the 9/09 baseline**, with the Riyadh-region fire **still intensifying at 36 hours (max FRP 29.6 → 158.5 MW)** — and it shows the fires began at **09:30Z on 9/10, 8.5 hours before the report time the wires carry.** The terminals at **Abqaiq and Yanbu are not burning**, so this is a mid-line event that bounds the damage. **I could not place any cluster on the route — I tried, and my own control refuted the inference, and it is recorded rather than quietly dropped.** ⇒ **Tell #2 FIRED. FAL-05 NOT fired — the volume bar is cleared many times over and the ≥7-day elapsed bar is not, so the clock runs to 9/17–18. A pipeline is none of the D→85 triggers. B 3 / C 22 / D 75 HOLD ON THE LETTER — and the honest caveat is that the letter is now carrying more weight than at any point in the war.** **Zero confirmed crude barrels offline: 197 war-days — and that sentence has never been closer to ending. $0 moved; no trade proposed.**
+**The claim this desk refused to grade last night is now confirmed by the Saudi state, and the discipline that refused it is what produced the answer inside 24 hours.** The **East-West pipeline — Saudi Arabia's bypass around Hormuz, ~7 mb/d of capacity — is SHUT** by its own Ministry of Energy after drone attacks on **9/10** in the **Riyadh and Madinah regions**, with **Al Mesba'ah** and **Al Dhekra** named as struck pumping stations and **drones reportedly originating from Iraq**. My own first-party FIRMS pull puts **four new fire zones** in exactly those two regions, **all four dark on the 9/09 baseline**, with the Riyadh-region fire **still intensifying over a 25h21m OBSERVED SPAN (max FRP 29.6 → 158.5 MW)** — and it shows the fires began at **09:30Z on 9/10, 8.5 hours before the report time the wires carry.** The terminals at **Abqaiq and Yanbu are not burning**, so this is a mid-line event that bounds the damage. **I could not place any cluster on the route — I tried, and my own control refuted the inference, and it is recorded rather than quietly dropped.** ⇒ **Tell #2 FIRED. FAL-05 NOT fired — the volume limb NOT ESTABLISHED (no qualifying STATED offline figure; nameplate ≠ routed flow ≠ qualifying offline capacity ≠ net supply loss) and the ≥7-day elapsed bar is not, so the clock runs to 9/17–18. A pipeline is none of the D→85 triggers. B 3 / C 22 / D 75 HOLD ON THE LETTER — and the honest caveat is that the letter is now carrying more weight than at any point in the war.** **Net crude supply loss UNQUANTIFIED — FAL-05 unfired at 197 war-days, which is a PREDICTION STATE and NOT a measured zero — and that sentence has never been closer to ending. $0 moved; no trade proposed.**
