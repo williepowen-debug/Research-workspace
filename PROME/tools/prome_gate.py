@@ -700,6 +700,14 @@ def mode_boot():
                "--all", "--quiet"], "owner STATUS is canonical; fix the trade surface")
     run_script(BLOCK, "board_scan", [sys.executable, "PROME/tools/board_scan.py", "--advance"],
                "BOARD action line ⇒ disposition before proceeding (§3.5.4)")
+    # 9/11 (Will "ok go ahead" 13:37 ET): the third-party check on the §3.5 EXEMPT desks. CARL's 9/1→9/11
+    # skipped scan was invisible on every surface either side keeps (§3.5.6 at a second desk); this reads BOTH
+    # the BOARD and each exempt desk's ledgers, so it needs nothing from the desk. rc=1 = an action-line signal
+    # unlogged ≥2d at an exempt desk, or an exempt desk with no ledger at all (UNKNOWN, not PASS).
+    run_script(ADVISE, "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)",
+               [sys.executable, "PROME/tools/exempt_gap.py"],
+               "the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; "
+               "never grade on its behalf")
     run_script(ADVISE, "firetime (owner-routed flags persist)", [sys.executable,
                "scripts/firetime_check.py", "--window", "7"],  # not --quiet: the flagged lines are the payload
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
