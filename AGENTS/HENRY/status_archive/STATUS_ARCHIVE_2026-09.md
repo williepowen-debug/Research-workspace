@@ -355,3 +355,23 @@ Content is appended **verbatim** from `STATUS.md` and never deleted.
 
 | ARES/APO | **$141.52 / $134.49 [9/4 pre-open]** | alts roll-over | — | — | Both recovered the 9/1 bond-day drawdown (+2.5% / +1.7%). ⛔ **The circulating "$1.7B BCRED outflows" is the Q1-era print — no tender result filed since the 8/04 SC TO-I** |
 
+
+---
+
+## ROTATION BLOCK 18 — rotated 2026-09-11 ~02:3x ET · assert: rotation month 2026-09 == file month 2026-09 ✅
+
+*(two 9/4-vintage VOL REGIME bullets, duplicated by the VIX kill-leg row in § ACTIVE THRESHOLDS.)*
+
+### VOL REGIME bullet (9/4): - ⚠️ **THE <15 SOFT-KILL LEG IS SATISFIE
+
+- ⚠️ **THE <15 SOFT-KILL LEG IS SATISFIED AGAIN — VIX 14.16 is 0.84 BELOW the line.** ⛔ **This is a PRE-OPEN quote, not a close, and the leg grades on the `VIXCLS` CLOSE. It is NOT recorded as a satisfying session; the 9/4 close decides.** Last satisfying close **14.51 [`VIXCLS` 8/27]**, the sixth. **Under H-1 nothing banks and the count remains 0.**
+
+### VOL REGIME bullet (9/4): - **⚠️ The >23 vol-control trigger
+
+- **⚠️ The >23 vol-control trigger is ~8.8 away** — back to the 8/28 distance, on VIX falling.
+
+
+### CROSS-AGENT BROCK row (9/4, settled) — rotated 2026-09-11 ~02:4x ET, block 18
+
+| **BROCK** | 9/1's alt selloff was a global BOND day, **not** a private-credit catalyst; both names recovered 9/4. |
+
