@@ -19,21 +19,20 @@ outside. A remembered ritual does not survive that. [[finding_mechanize_the_cap_
 ⛔ NOTE ON THE PRIOR GATE, BECAUSE THE DIAGNOSIS MATTERED:
 the card's step-5 gate was "skip when INDEX hasn't moved", keyed on INDEX.md
 MTIME. That is a forbidden class under root Data Hygiene ("never key a NEW
-freshness/throttle mechanism on mtime"), but it is NOT what silenced the scan:
-git checkout restamps mtime to NOW, so the comparison always reads "newer" and
-the gate always said RUN. It failed OPEN. The scan lapsed because nothing
-MECHANICAL ran it and nothing failed when it didn't — which is why the fix is
-this file (unconditional, exits nonzero) rather than a better gate.
+freshness/throttle mechanism on mtime"). A checkout can refresh mtime when it
+rewrites a file, but does not rewrite every unchanged file. The historical gate
+decisions were not recorded: neither "always RUN" nor "the silencer" is proven.
+Sparse receipt dates establish a gap in recorded processing. This unconditional
+check removes the dependency on remembering the manual comparison.
 
 EXIT CODES:  0 = no unrecorded action:[CARL] ids · 1 = at least one (BLOCKING)
+             2 = input missing, malformed, or INDEX differs from BOARD records
 """
 import re
-import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(subprocess.run(["git", "rev-parse", "--show-toplevel"],
-                           capture_output=True, text=True).stdout.strip())
+ROOT = Path(__file__).resolve().parents[3]
 INDEX = ROOT / "BOARD" / "INDEX.md"
 LEDGER = ROOT / "AGENTS" / "CARL" / "board" / "BOARD_LOG.tsv"
 SIG_RE = re.compile(r"SIG-W-\d{8}-\d{3}")
@@ -41,39 +40,76 @@ SIG_RE = re.compile(r"SIG-W-\d{8}-\d{3}")
 
 def logged_ids():
     if not LEDGER.exists():
-        return set()
+        raise ValueError(f"missing receipt ledger: {LEDGER}")
+    lines = LEDGER.read_text(encoding="utf-8").splitlines()
+    if not lines or lines[0].split("\t")[0].strip().lower() != "signal_id":
+        raise ValueError(f"invalid receipt ledger header: {LEDGER}")
     out = set()
-    for line in LEDGER.read_text(encoding="utf-8", errors="replace").splitlines()[1:]:
+    for line in lines[1:]:
         cell = line.split("\t")[0].strip()
         if SIG_RE.fullmatch(cell):
             out.add(cell)
     return out
 
 
+def action_names(action):
+    """Legacy routes annotate desk names in parentheses; annotations are not desks."""
+    action = re.sub(r"\([^)]*\)", "", action)
+    return {name for n in re.split(r"[,/]", action)
+            if (name := n.strip().upper().strip("*_`[]"))}
+
+
 def index_rows():
     """Yield (sig_id, action_recipients, precedence, summary) per INDEX table row."""
     if not INDEX.exists():
-        return
-    for line in INDEX.read_text(encoding="utf-8", errors="replace").splitlines():
+        raise ValueError(f"missing BOARD index: {INDEX}")
+    for line in INDEX.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if len(cells) < 6 or not SIG_RE.fullmatch(cells[0]):
+        if not cells or not SIG_RE.fullmatch(cells[0]):
             continue
+        if len(cells) < 6:
+            raise ValueError(f"truncated BOARD index row: {cells[0]}")
         # "Action → Info" cell, e.g. "WALTER → CARL · info: HENRY, LIQUID"
         routing = cells[4]
         action = routing.split("·")[0]
         action = action.split("→", 1)[1] if "→" in action else action
         # ACTION recipients only — everything after "info:" is explicitly NOT action
-        names = {n.strip().upper().strip("*_`[]") for n in re.split(r"[,/]", action)}
+        names = action_names(action)
         yield cells[0], names, cells[3], cells[5][:90]
 
 
+def load_board_signals():
+    # Use the publisher's parser, including its legacy frontmatter support.
+    sys.path.insert(0, str(ROOT / "AGENTS/WALTER/tools"))
+    from gen_board_index import load_signals
+    signals, errors = load_signals()
+    if errors or not signals:
+        raise ValueError("BOARD source unavailable or malformed: " + "; ".join(errors[:3]))
+    return signals
+
+
 def main():
-    have = logged_ids()
+    try:
+        have = logged_ids()
+        rows = list(index_rows())
+        if not rows:
+            raise ValueError("empty or unparseable BOARD index")
+        indexed = {sid: (action, prec) for sid, action, prec, _ in rows}
+        if len(indexed) != len(rows):
+            raise ValueError("duplicate BOARD index signal IDs")
+        signals = load_board_signals()
+        expected = {sid: (action_names(", ".join(row["action"])), row["precedence"])
+                    for sid, row in signals.items()}
+        if indexed != expected:
+            raise ValueError("INDEX is stale or differs from BOARD signal IDs/routing/precedence; publisher regeneration needed")
+    except (OSError, ValueError, ImportError) as exc:
+        print(f"  🔴 BOARD GAP UNKNOWN: {exc} — cannot certify consumption")
+        return 2
     unrecorded, action_gap = [], []
     total = 0
-    for sig, action, prec, summary in index_rows():
+    for sig, action, prec, summary in rows:
         total += 1
         if sig in have:
             continue
@@ -93,8 +129,8 @@ def main():
         return 1
 
     if unrecorded:
-        print(f"  🟠 {len(unrecorded)} unrecorded, NONE with action:[CARL] — backlog, not an owed action.")
-        print(f"      oldest: {unrecorded[0]}   newest: {unrecorded[-1]}")
+        print(f"  🟠 {len(unrecorded)} unrecorded, NONE with action:[CARL] — no explicit CARL routing gap; relevance/disposition review remains separate.")
+        print(f"      oldest: {min(unrecorded)}   newest: {max(unrecorded)}")
     else:
         print("  ✅ no unrecorded ids.")
     return 0

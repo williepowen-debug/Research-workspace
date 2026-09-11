@@ -50,10 +50,9 @@ BOOT_SEQUENCE = [
     # ⛔ Runs UNCONDITIONALLY and exits NONZERO on any unrecorded action:[CARL]
     # id — deliberately NOT --warn-only, unlike consistency_check: an owed signal
     # someone else is waiting on is a FAILURE, not a finding.
-    # It replaces the card's step-5 mtime gate. That gate was a forbidden class
-    # under root Data Hygiene, but it was NOT the silencer: git restamps mtime to
-    # NOW, so it always read "newer" and always said RUN — it failed OPEN. The scan
-    # lapsed because nothing MECHANICAL ran it and nothing failed when it did not.
+    # It replaces the card's manual step-5 mtime comparison. Checkout can
+    # restamp rewritten files; the historical gate decisions are not recorded.
+    # Running mechanically removes that dependency without claiming its cause.
     # Two action:[CARL] signals were missed that way (9/01, 9/10), found only when
     # PROME read CARL's ledgers from outside. [[finding_mechanize_the_cap_not_the_ritual]]
     ("BOARD Gap (sole WALTER channel)", "board_gap.py", [], "BOARD GAP", False),

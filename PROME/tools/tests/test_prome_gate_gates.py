@@ -10,6 +10,7 @@ import datetime as dt
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import prome_gate  # noqa: E402
@@ -51,9 +52,6 @@ class ReviewByLeg(unittest.TestCase):
         self.assertEqual(sum(len(v) for v in o.values()), 0)
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 class AgedWaitsTests(unittest.TestCase):
     """WQ-221 instrument — pure-function tests, no git: rows shaped like decision_deck.parse_open()."""
@@ -80,3 +78,25 @@ class AgedWaitsTests(unittest.TestCase):
     def test_unknown_liveness_never_flags(self):
         self.assertEqual(prome_gate.aged_waits(self.rows(), self.TODAY, lambda d: None), [])
 
+
+    def check_advisory(self, rows, ages):
+        import decision_deck
+        with patch.object(decision_deck, "parse_open", return_value=rows), patch.object(decision_deck, "days_dark", side_effect=lambda desk: ages[desk]), patch.object(prome_gate, "results", []):
+            prome_gate.check_aged_waits()
+            return prome_gate.results[0]
+
+    def test_unknown_liveness_is_visible_not_clean(self):
+        result = self.check_advisory(self.rows()[:1], {"BROCK": None})
+        self.assertFalse(result[2])
+        self.assertIn("UNKNOWN liveness: BROCK", result[3])
+        self.assertNotIn("no ⛔-waits row", result[3])
+
+    def test_known_recent_liveness_clears(self):
+        self.assertTrue(self.check_advisory(self.rows()[:1], {"BROCK": 2})[2])
+
+    def test_dated_exclusion_does_not_require_liveness(self):
+        row = dict(self.rows()[0], notes="DATED 9999-12-31")
+        self.assertTrue(self.check_advisory([row], {})[2])
+
+if __name__ == "__main__":
+    unittest.main()

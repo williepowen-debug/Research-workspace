@@ -435,16 +435,23 @@ def check_aged_waits():
         sys.path.insert(0, str(ROOT / "PROME/tools"))
         import decision_deck as dd  # noqa: E402
         rows = dd.parse_open((ROOT / "PROME/WILL_QUEUE.md").read_text(encoding="utf-8"))
-        hits = aged_waits(rows, dt.date.today(), dd.days_dark)
+        unknown = set()
+        def checked_age(desk):
+            days = dd.days_dark(desk)
+            if days is None:
+                unknown.add(desk)
+            return days
+        hits = aged_waits(rows, dt.date.today(), checked_age)
     except Exception as e:  # never silent: UNKNOWN is a visible advisory
         record(ADVISE, "aged waits (WQ-221)", False, f"UNKNOWN — {type(e).__name__}: {e}",
                "PROME/WILL_QUEUE.md § OPEN (⛔ waits rows) — run by hand: decision_deck.parse_open + days_dark")
         return
-    record(ADVISE, "aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d", not hits,
+    record(ADVISE, "aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d", not hits and not unknown,
            "; ".join(f"WQ-{n} waits on {desk} — dark {d}d" for n, desk, d in hits[:5])
            + (f" (+{len(hits)-5} more)" if len(hits) > 5 else "")
+           + ("; UNKNOWN liveness: " + ", ".join(sorted(unknown)) if unknown else "")
            or "no ⛔-waits row has a blocker dark ≥7d without a dated deliverable",
-           "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3) — never a per-item ask")
+           "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3); UNKNOWN ⇒ verify desk history before classifying — never a per-item ask")
 
 
 def check_heartbeat_chain():
