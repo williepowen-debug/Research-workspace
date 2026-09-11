@@ -114,6 +114,16 @@ def load_baseline(path=None):
         git("cat-file", "-e", sha + "^{commit}")
     except subprocess.CalledProcessError:
         return None, f"recorded baseline {sha[:9]} is not a commit in this repository"
+    # A1 says the tool never silently picks a WRONG baseline. `cat-file -e` passes on a commit that is no longer
+    # reachable from HEAD — exactly what the routine non-ff rebase recovery in root CLAUDE.md session-end step 3
+    # produces. That is a third state the condition did not name: record PRESENT, record INVALID. Without this
+    # check the tool prints a normal verdict over a scope that silently re-includes a previous closeout and
+    # other desks' paths. (Independent review 2026-09-11, CE-2.)
+    try:
+        git("merge-base", "--is-ancestor", sha, "HEAD")
+    except subprocess.CalledProcessError:
+        return None, (f"recorded baseline {sha[:9]} is NOT an ancestor of HEAD — it was orphaned, most likely by "
+                      f"a rebase. Re-record it: --record-baseline <the closeout commit on this history>")
     return d, ""
 
 
@@ -158,8 +168,13 @@ def committed_changes(baseline_sha):
         sha = line.strip()
         if not sha:
             continue
-        # -z + --name-only so non-ASCII paths are NOT C-quoted (they are on the porcelain side either)
-        for p in [x for x in git("show", "-z", "--name-only", "--format=", sha).split("\0") if x.strip()]:
+        # -z so non-ASCII paths are NOT C-quoted (they are not on the porcelain side either).
+        # --no-renames so a `git mv` reports BOTH the deletion of the origin and the addition of the
+        # destination. With rename detection on, `--name-only` prints the destination alone and the origin
+        # vanishes from the audit — and `git mv` to archive/ is routine PROME closeout work. The pending side
+        # already synthesizes the origin; the two sides must agree. (Independent review 2026-09-11, CE-3.)
+        for p in [x for x in git("show", "-z", "--no-renames", "--name-only", "--format=", sha).split("\0")
+                  if x.strip()]:
             paths.setdefault(p, []).append(sha[:9])
     return paths
 

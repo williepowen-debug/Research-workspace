@@ -15,6 +15,7 @@
 pattern	class	reason
 PROME/inbox/**	EXCLUDED	inbound mail — other desks' output sitting in PROME's tree (finding_path_scoped_git_log_measures_inbound_traffic)
 AGENTS/*/inbox/processed/**	EXCLUDED	consumption is the RECIPIENT's act, not PROME authorship (audit F-2: LABOR's consume-moves were claimed as PROME's)
+AGENTS/*/inbox/*/*from-PROME*	SHARED	safety net for A4: PROME does not deliver into routing lanes, but an artifact of PROME's must never be INVISIBLE. Include-on-hint can only over-include; it was EXCLUDE-on-filename that silently dropped the MSG-* route (blocker F-4)
 AGENTS/*/inbox/*/**	EXCLUDED	inbox LANE subdirectories belong to the routing desk (WALTER lanes), not PROME
 AGENTS/*/inbox/*	SHARED	PROME delivers carve-out (1) packets and the ratified MSG-*.md route here under names that need not contain "from-PROME" (BLOCKER F-4: a filename key dropped these silently)
 .claude/agents/argus.md	OWNED	ARGUS's own definition — PROME-internal

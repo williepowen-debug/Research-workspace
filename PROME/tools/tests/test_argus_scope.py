@@ -227,6 +227,52 @@ class A7_AgentCopiesAgree(unittest.TestCase):
             self.assertIn(token, txt, f"the tool can emit {token}; the agent file must say how to read it")
 
 
+class ReviewFindings_L336(Repo):
+    """The three ❌ and two ⚠️ the INDEPENDENT reviewer produced against the final candidate, each with its
+    own counterexample. Kept as named anchors so the finding cannot be re-lost (A8's intent)."""
+
+    def test_A4_a_PROME_artifact_in_a_ROUTING_LANE_is_not_invisible(self):
+        """❌1: lanes are the routing desk's and stay EXCLUDED, but a PROME artifact must never vanish."""
+        commit(self.repo, "x", [write(self.repo, "AGENTS/WALTER/inbox/signals/2026-09-11_from-PROME_urgent.md")])
+        commit(self.repo, "y", [write(self.repo, "AGENTS/WALTER/inbox/signals/SIG-W-20260911-001.md")])
+        lanes, excluded = self.scope()
+        shared = {e["path"] for e in lanes["SHARED"]}
+        self.assertIn("AGENTS/WALTER/inbox/signals/2026-09-11_from-PROME_urgent.md", shared,
+                      "include-on-hint: a PROME artifact surfaces even in a lane")
+        self.assertIn("AGENTS/WALTER/inbox/signals/SIG-W-20260911-001.md", {e["path"] for e in excluded},
+                      "ordinary lane traffic stays excluded — 39 live paths of it")
+
+    def test_A1_an_orphaned_baseline_fails_loud_after_a_rebase(self):
+        """⚠️2: cat-file -e PASSES on a commit no longer reachable from HEAD."""
+        import json as _j
+        commit(self.repo, "PROME: work", [write(self.repo, "PROME/a.md")])
+        orphan = subprocess.run(["git", "rev-parse", "HEAD"], cwd=self.repo, capture_output=True,
+                                text=True, check=True).stdout.strip()
+        sh("git", "reset", "--hard", "HEAD~1", cwd=self.repo)
+        commit(self.repo, "OTHER: diverged", [write(self.repo, "AGENTS/TERRY/x.md")])
+        f = Path(self.repo) / "b.json"; f.write_text(_j.dumps({"sha": orphan}), encoding="utf-8")
+        d, why = A.load_baseline(f)
+        self.assertIsNone(d, "an orphaned baseline must not be used")
+        self.assertIn("ancestor", why)
+
+    def test_a_COMMITTED_rename_shows_the_origins_disappearance(self):
+        """⚠️3: the prior test covered only the UNCOMMITTED rename while its name claimed the property."""
+        commit(self.repo, "PROME: write", [write(self.repo, "PROME/BRIEF.md")])
+        (Path(self.repo) / "PROME/archive").mkdir(parents=True, exist_ok=True)
+        sh("git", "mv", "PROME/BRIEF.md", "PROME/archive/BRIEF.md", cwd=self.repo)
+        sh("git", "commit", "-m", "PROME: retire to archive", "-a", cwd=self.repo)
+        owned = self.paths("OWNED")
+        self.assertIn("PROME/BRIEF.md", owned, "git mv to archive/ is routine closeout work")
+        self.assertIn("PROME/archive/BRIEF.md", owned)
+
+    def test_no_pending_flag_restores_committed_only(self):
+        """❌3: this coverage was lost in the redesign and is restored here."""
+        commit(self.repo, "PROME: t", [write(self.repo, "PROME/tools/t.py")])
+        write(self.repo, "PROME/NEW.md")
+        self.assertIn("PROME/NEW.md", self.paths("OWNED"))
+        self.assertNotIn("PROME/NEW.md", self.paths("OWNED", include_pending=False))
+
+
 class C1_CompleteWorkflow(Repo):
     """C1: the COMPLETE closeout workflow, not the units — write, commit some, leave some pending, compute
     scope, confirm what an auditor actually receives, then record the next baseline and confirm it rolls."""

@@ -26,6 +26,8 @@ Category 2 is the one that stays untested, because the reproduction is almost ne
 Category 4 is the one most often "fixed" by a silent default, which converts a detectable hole into an
 undetectable one.
 
+🔢 **Counts in this table are measured, never remembered** — `grep -c 'def test_' <file>`. Three different counts for one suite appeared across three surfaces on 2026-09-11.
+
 ⚠️ **CONSIDER is the verb, not PERFORM** (external review refinement 2, 2026-09-11). Writing five tests for a
 one-line repair is the paperwork reflex this contract exists to reduce. A one-line justified **N/A** — *"no
 concurrency: single-writer tool"* — discharges a category. What is NOT allowed is silence: a category neither
@@ -50,4 +52,5 @@ nobody tested it.
 
 | Suite | Covers | Neighbour categories |
 |---|---|---|
-| `test_argus_scope.py` (20) | the ARGUS git-watermark scope | 1 · 2 (committed+pending) · 3 (other desks' commits, pending work, shared-memory lineage) · 4 (untracked shared memory ⇒ UNATTRIBUTED) · 5 partial |
+| `test_argus_scope.py` (26) | the ARGUS scope: recorded baseline + recorded perimeter (L336) | 1 · 2 (committed+pending) · 3 (other desks' commits, pending work, shared-memory lineage) · 4 (untracked shared memory ⇒ UNATTRIBUTED) · 5 partial |
+| `test_wq_ledger_L336.py` (10) | WQ ledger B1 (full-payload comparison) + B2 (consecutive-duplicate test) | 1 · 2 (A→B→A oscillation) · 4 (generated metadata absent) · 5 N/A: single-writer tool |

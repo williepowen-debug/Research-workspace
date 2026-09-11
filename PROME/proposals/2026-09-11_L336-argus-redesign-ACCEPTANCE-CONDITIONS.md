@@ -93,3 +93,55 @@ after, against the 9/11 baseline, and the token/wall-clock cost of the run.
 | Wrong owner | YES — A3, A5 |
 | Missing information | YES — A1 (no baseline record), A4 (no attribution) |
 | Concurrent activity | YES — B3 (two taps); **N/A for A1–A7**: the tool takes two non-atomic git snapshots and a second session could mutate between them — declared OUT OF SCOPE for this session and reported as such, not silently ignored |
+
+---
+
+## INDEPENDENT REVIEW RESULT (C2) — one bounded pass, 2026-09-11 ~19:1x ET
+
+Reviewed `ee79e1ef6` against these conditions. **31 tests passed and three of the reviewer's own counterexamples
+still broke behaviour the suites assert.** That is the whole argument for C2 in one line.
+
+**Graded: A1 A2 A3 A5 A6 A7 B1 C1 VERIFIED · A4 A8 B2 NOT MET · B3 verified in code, CANNOT TELL on the hosted leg.**
+
+### The three ❌ — all FIXED in this session, each with the reviewer's own counterexample as a test
+
+| ❌ | What it was | Fix |
+|---|---|---|
+| **A4** | A PROME artifact in a **routing-lane subdirectory** appeared NOWHERE — not SHARED, not UNATTRIBUTED, only inside an anonymous `excluded` integer. A drop by path rule, which is what the redesign claims to have made impossible. | Lanes stay `EXCLUDED` (39 live paths of WALTER routing traffic; reclassifying them wholesale would have doubled the audit surface with mail PROME did not write). A row placed BEFORE the lane exclusion makes `*from-PROME*` in a lane `SHARED`. **Include-on-hint can only over-include; it was EXCLUDE-on-filename that dropped the MSG-* route.** |
+| **B2** | The reviewer drove the REAL sync path — `needed_by` 10-01 → 10-08 → 10-01 on one day — and **the tool's check rejected history the tool had just written.** Audit-F3's exact failure mode surviving at n=3. And **B1 made it MORE likely**: `COMPARED` went from 3 fields to 10, every one able to oscillate. | The payload key was too coarse. A duplicate is a **NO-OP WRITE — the same payload twice IN A ROW for one WQ**. `sync` never appends an unchanged state, so an A→B→A oscillation is three legitimate changes. Not a loosening: the consecutive no-op is still rc 1. |
+| **A8** | The five string anchors did not "stay" — 25 test defs removed, 22 added. Most content was absorbed into the property classes, but **`--no-pending` coverage was lost outright** while the code path stayed live. | Restored, plus a named anchor per reviewer finding so none can be re-lost. |
+
+### ⚠️ also fixed (cheap, and each was a correctness gap rather than a preference)
+
+- **⚠️2 baseline ancestry.** `cat-file -e` PASSES on a commit orphaned by the routine non-ff rebase recovery in
+  root `CLAUDE.md` session-end step 3. A third state A1 never named: record PRESENT, record INVALID. Now
+  `merge-base --is-ancestor`, rc 2 with a re-record instruction.
+- **⚠️3 committed renames.** The pending side synthesized a rename origin; the committed side used
+  `--name-only`, which prints the destination alone — so `git mv` to `archive/`, routine closeout work, made the
+  origin vanish. Now `--no-renames`. The old test asserted the property in its NAME while covering only the
+  uncommitted half.
+- **⚠️4 / ⚠️5 stale text I introduced this session:** the agent file carried BOTH the redesign's description and
+  the deleted `watermark` output line — ARGUS's own method rule 2 ("two live versions = ❌") turned on its
+  author. And one suite had three different counts across three surfaces. Counts are now measured, with the
+  rule written into the test README.
+
+### ⛔ DECLARED RESIDUE — NOT fixed, and one of them is a design question, not a defect
+
+- **⚠️1 — B1 silently re-dates a decision on the Deck.** Every non-REGISTERED event stamps `at = today` and the
+  Deck renders the last event's date, so **correcting a typo moves the date Will was told the decision
+  happened.** Live ledger: 200 rows, **0 UPDATED events**, so this is latent until the first correction — i.e.
+  the next closeout. This is a SEMANTICS call (what does a decision's date mean after a correction?), not a
+  patch, and it belongs to Will, not to a late-session edit.
+- **⚠️6 — B3's hosted leg.** The reviewer has no access to the tap store; PROME's no-loss finding is
+  **recorded, not independently verified**. Residual in the code: "latest" compares a CLIENT-clock `ts`, so two
+  taps in the same millisecond or two devices with skewed clocks leave "latest" undefined.
+- **⚠️7 — cost, carried to C4.** Of 43 SHARED paths, ~24 are inbox packets and at least 10 are visibly other
+  desks' authorship. Nothing is mis-claimed (A5 holds, the lane is labelled) but ARGUS is told to read them, so
+  A4's no-drop guarantee nearly doubles the audit surface. **That is the price of the honest failure direction
+  and it should be reported as a price, not hidden.**
+- The session's own declared N/A: two non-atomic git snapshots under a concurrent second session.
+
+### What the reviewer could NOT break
+> *"No commit subject can influence any lane, and no classification lives in code... The prior five defects are
+> genuinely dead as a class — the three ❌ above are NEW boundaries (a lane subdirectory, a ledger revert, a
+> deleted test), not re-runs of subject or filename inference."*

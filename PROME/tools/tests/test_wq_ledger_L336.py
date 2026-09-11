@@ -75,11 +75,17 @@ class B2_SameDayUpdatesAreDistinct(unittest.TestCase):
         L.append(self.led, [row(needed_by="2026-10-02", written_at="2026-09-11 18:00")])
         self.assertEqual(L.cmd_check(self.led), 0, "identity is the payload, not the clock")
 
-    def test_a_genuinely_repeated_payload_IS_still_caught(self):
-        """The relaxation must not blind the check — that would trade a false alarm for a silent pass."""
+    def test_an_oscillation_is_not_a_duplicate_the_reviewers_counterexample(self):
+        """❌2: A -> B -> A -> B on one day is FOUR legitimate changes. The first fix rejected it, which was
+        audit-F3's own failure mode surviving at n=3. A duplicate is a CONSECUTIVE no-op, not any repeat."""
+        for nb in ("2026-10-01", "2026-10-08", "2026-10-01", "2026-10-08"):
+            L.append(self.led, [row(needed_by=nb, written_at="2026-09-11 18:0" + str(len(nb) % 10))])
+        self.assertEqual(L.cmd_check(self.led), 0)
+
+    def test_a_consecutive_noop_is_still_caught(self):
         r = row(needed_by="2026-10-01")
         L.append(self.led, [r]); L.append(self.led, [dict(r)])
-        self.assertEqual(L.cmd_check(self.led), 1, "a byte-identical payload on the same date is a duplicate")
+        self.assertEqual(L.cmd_check(self.led), 1, "the relaxation must not blind the check")
 
     def test_the_duplicate_key_includes_the_payload(self):
         a, b = row(record="X"), row(record="Y")

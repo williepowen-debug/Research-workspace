@@ -40,7 +40,7 @@ You never edit. You never propose rewrites beyond a one-line "proposed change". 
 
 ## Output (exact shape; PROME scores it and applies ❌ only under the WQ-178 read budget)
 ```
-ARGUS · watermark <sha>..HEAD · <N> PROME commits · <M> paths · <K> claims tested
+ARGUS · baseline <sha>..HEAD · OWNED <n> · SHARED <n> · UNATTRIBUTED <n> · <K> claims tested
 ❌ <n> | ⚠️ <n> | ✅ <n>
 ❌ <claim> → <artifact:line> → <command you ran> → <observed> → <proposed change (one line)>
 ⚠️ <claim> → <artifact:line> → <command> → <observed> → <what a stranger needs>

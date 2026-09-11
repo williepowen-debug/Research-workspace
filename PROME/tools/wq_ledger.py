@@ -273,6 +273,7 @@ def cmd_check(ledger: Path) -> int:
         print(f"WQ-LEDGER ✗ rc 1 — {ledger} missing"); return 1
     lines = raw.split("\n")
     probs = []
+    last_payload: dict[str, tuple] = {}   # per-WQ; the duplicate test is CONSECUTIVE, see below
     if lines[0] != HEADER:
         probs.append("L1: header is not the schema string")
     seen = set(); last_written = ""
@@ -294,11 +295,14 @@ def cmd_check(ledger: Path) -> int:
         # check on valid tool-generated history. Identity now includes the semantic PAYLOAD: two rows that
         # differ in what they say are DISTINCT CHANGES; only a byte-identical payload on the same date is a
         # real duplicate. Semantic idempotence is unchanged — sync still appends nothing when nothing moved.
-        key = (r["wq"], r["event"], r["at"], r["status_after"], payload(r))
-        if key in seen:
-            probs.append(f"L{i}: duplicate event — identical payload already recorded for "
-                         f"WQ-{r['wq']} {r['event']} on {r['at']}")
-        seen.add(key)
+        # A duplicate is a NO-OP WRITE: the same payload recorded twice IN A ROW for one WQ. An A->B->A
+        # oscillation is three distinct legitimate changes and must not be rejected — the independent review
+        # drove exactly that through sync and the tool then rejected its own output (L336 ❌2, 2026-09-11).
+        pl = payload(r)
+        if last_payload.get(r["wq"]) == pl:
+            probs.append(f"L{i}: duplicate event — WQ-{r['wq']} {r['event']} on {r['at']} repeats the "
+                         f"immediately preceding event for that row with no change; sync never writes this")
+        last_payload[r["wq"]] = pl
     for l_i, l in enumerate(lines[1:], start=2):
         if l:
             c = l.split("\t")
