@@ -846,3 +846,58 @@ Q1 detail (ALL CR 82.0, cat-light) → KB-CARL-266. **Q3 cat season remains the 
 ### Superseded DANGER WINDOW `NOW` read — 2026-09-05 (rotated 2026-09-10)
 
 **NOW (9/5):** **NFP 9/4 FIRED and it fired AGAINST the thesis** — July revised to +21K, no negative print this cycle, V16's escalate-to-5 count now **0 of 2** and its **drop-back branch live at 1 of 2, resolver ~Fri 10/2**. The remaining nine-day cluster: **PHAN 9/8** (+53d, overdue) · **Canada counter-tariffs 12:01 a.m. 9/8** (CA$27.6B, tiers 15/25/50; ⛔ 41% capital goods / 17% consumer-visible by line count — size off the detail, not the headline) · **V2 leg-table REGISTRATION sitting ≤9/10** — ⛔ **an INTERNAL task, and there is NO 9/10 CVNA print: that event was fabricated by a mis-re-dated DOCKET row and CORRECTED 9/5** (CVNA Q2 was 7/29, graded 7/31, KB-CARL-366). **The L131 discriminator grades on the REAL data — ~9/15 broad+Carvana 10-D and the 9/30 deep-tier filing** (verdict defers to the later-filing tier), grade definition locked 9/5 · **August CPI 9/11** — the first month the $4 cross AND $100 Brent both sit inside the reference month, landing **inside the Fed blackout** before an SEP/dot-plot FOMC 9/15-16, so repricing risk loads onto the meeting itself. UMich September prelim lands the **same morning** — do not let CPI absorb it. ⚠️ **The energy input re-loaded while we were dark:** Brent $88.24 (8/25) → **$96.02 (9/1)**, diesel **$5.882 (+19.4¢ in 3 days, fresh high)**, pump back up to **$4.146** — at the registered 17-18d lag that crude re-rise reaches the pump **~9/11-9/18, i.e. INTO and PAST the CPI print date**, so August CPI reads the *flat-at-a-higher-level* month, not this one.
+
+
+---
+
+# Rotation #11a — executed 2026-09-11 (Fri), the August-CPI session
+
+⛔ **NOTHING BELOW IS A CURRENT READ.** Each block is here because something newer replaced it.
+
+**Rule-17 accounting:** destination `status_archive/` is **OFF the boot-read path**, so this genuinely reduces boot cost — and that is the dangerous branch (`[[finding_live_claim_in_a_closed_container_is_invisible]]`). **Every block was audited for live obligation language before it moved; the audit result is stated per block.**
+
+| Block | bytes | crc32 | live obligation inside? |
+|---|---|---|---|
+| PRE-CPI FRAME (spent) | 1595 | `74dcbabe` | **NO — the event it governed has occurred and is graded.** Kept verbatim because a pre-committed frame is *evidence*, and evidence that is deleted cannot be audited. |
+| NOW (9/10) cell | 1146 | `8ce9b3c5` | **NO** — every dated item in it is canonical in `docket/CATALYSTS.tsv` and re-stated in the 9/11 NOW cell. |
+| BOTTOM LINE (9/02 vintage) | 3590 | `e821293d` | **NO** — its content is owned by `ROADMAP.md` RECENTLY RESOLVED + `thesis/CHANGELOG.md` + KB-CARL-396/397/398. It was a mirror of owner docs, which is what Doc Ownership says not to keep. |
+
+**Total moved: 6331 B.**
+
+## Block 1 — the PRE-CPI FRAME, verbatim, and its grade
+
+⭐ **THIS IS THE POINT OF KEEPING IT: the frame was written ~14h before the print and then graded against as written, including where it was wrong about itself.**
+
+> **PRE-CPI FRAME — WRITTEN 2026-09-10 18:0x ET, ~14h BEFORE THE 9/11 08:30 PRINT (frame-before-print; nothing below may be edited after the release, only annotated).** CARL's leg of DOCKET **L124 / HEN-41** (oil-shock pass-through; **HEN-41 is HENRY's letter, CARL supplies the pump input**) is the **gasoline CPI MoM** line. ⛔ **THE ONE THING A READER WILL GET WRONG TOMORROW: the August print does NOT contain today's $4.277.** August's reference-month FRED weeklies average **≈$4.06** against July's **≈$3.93**, so the **gasoline index should print POSITIVE MoM where July was base-effect-protected negative — a SIGN FLIP, and a modest one.** The September re-acceleration ($4.146 9/5 → **$4.277 9/10**, +13.1¢) lands in the **October 13 print**, not this one. ⚠️ **PRE-COMMITTED, so it cannot be re-read after the fact: a positive-but-small gasoline MoM is compatible with BOTH a HEN-41 CONFIRM and a HEN-41 DENY** — it is the *expected* value under either, so **CARL's leg discriminates nothing tomorrow** and I will not let a directionally-friendly print be scored as confirmation. What WOULD discriminate: gasoline MoM **> +2.5%** (pass-through running ahead of the pump input) or **negative** (pass-through broken). **Core services ex-shelter is HENRY's read, not CARL's.** UMich September prelim lands the **same 08:30-10:00 window** — **do not let CPI absorb it**; the 5-10Y expectation is V12's registered instrument (>3.5% sustained) and it has its own clock. **FOMC 9/15-16 is meeting 1 of 2** for any V12 un-fire, so tomorrow's repricing loads onto the meeting.
+
+### GRADE, 2026-09-11 (August CPI rel 08:30 ET)
+
+| Frame claim | Outcome |
+|---|---|
+| *"the gasoline index should print POSITIVE MoM where July was base-effect-protected negative — a SIGN FLIP"* | ✅ **CORRECT.** July gasoline SA **−2.86%**, August **+3.90%** (`CUSR0000SETB01`). |
+| *"a positive-but-small gasoline MoM … CARL's leg discriminates nothing"* | ✅ Held to. **Leg scored NOT-DISCRIMINATING.** |
+| *"What WOULD discriminate: gasoline MoM > +2.5%"* | ⛔ **THE BAR WAS BASIS-AMBIGUOUS AND THE TWO BASES ANSWER OPPOSITE WAYS.** SA **+3.90%** clears it; **NSA +2.53%** runs **0.67pp BEHIND** the +3.20% unadjusted pump input the bar was derived from. The like-for-like figure is NSA ⇒ **the discriminator did NOT fire.** The +1.37pp SA−NSA wedge is August seasonal factor, not pass-through. |
+
+⛔ **Three defects in the frame, recorded rather than edited** (the frame is annotate-only by its own terms):
+1. **No adjustment basis named.** Generalises `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` onto the SA/NSA axis.
+2. **The bar was set BELOW its own stated expected value** — ">+2.5%" cannot mean "ahead of the input" when the frame's own input expectation was ≈+3.3%.
+3. **It names HEN-41 throughout. HEN-41 was the JULY letter and resolved ~8/12; the live letter is HEN-44** (frozen 9/2). Corrected on PROME's 9/11 doorbell and **verified at HENRY's own files, not relayed**.
+4. ⚠️ **It says the September re-acceleration lands in "the October 13 print." September CPI releases Wed October 14** (BLS schedule, verified 9/11). Left verbatim above; corrected everywhere live.
+
+✅ **What the frame bought, and why the practice continues:** HENRY's independently frozen HEN-44 letter carries pump **$3.932 → $4.058 (+3.20%)**; CARL computed **+3.198%** off `GASREGW` for this frame *before* reading that letter. **Two desks, one primary, no fitted parameter** — `[[finding_crosscheck_with_free_parameter_validates_nothing]]` satisfied.
+
+## Block 2 — NOW (9/10), verbatim
+
+> **NOW (9/10):** **CRL-05 is closed and its bar is dead** — do not re-use 13.74% against any HHDC stock print; **CRL-30** carries the claim forward on the flow series (6.97% 2026:Q2, +4bp YoY). **The shadow layer is the live deterioration:** BNPL late **47%**, a first red-band breach, achieved across a year in which payrolls were revised UP and LABOR's T-03 never fired. **Energy is re-loading into the pump on schedule:** AAA **$4.277** (+13.1¢ in 5d), diesel **$5.977** (fresh high), CRL-08's gap to $4.50 down to **22.3¢** with the window closing **~9/30**. Dated cluster: **August CPI + UMich prelim 9/11 08:30** (frame above) · **~9/15 SDART/BLAST August 10-D** (V2's tier verdict actually lands at the **9/30** deep-tier filing) · **FOMC 9/15-16**, meeting 1 of 2 for any V12 un-fire · **9/14 DAEDALUS ladder sitting — corrected as-made inputs owed, now including CRL-05's exclusion** · **~9/18 FSA re-poll** (HEAD only, lowercase `b`) · **~10/2 September NFP = V16's drop-back resolver, live 1 of 2** · **~11/05-11/20 PHAN successor gate** (Affirm FQ1-27 + Klarna Q3-26 — the LAST pass before five PHAN rows come due 12/31).
+
+## Block 3 — BOTTOM LINE, 2026-09-02 vintage, verbatim
+
+**I answered two spec questions tonight and both answers cost me something, which is how I know they were the right ones.** OTTO asked — before the data gets there, on LIQUID's prompting — whether V2's downgrade leg fires on *deceleration* of the YoY gap or requires a *turn*. **It requires a turn: a per-deal matched-collection-month YoY delta ≤ 0.00pp.** That is what leg (a) has said since July and what OTTO's own L1 says; I am refusing to let an existing letter be read loosely, not writing a new one. **The asymmetry OTTO named is the whole reason to rule it early: "the gap is narrowing" licenses standing down a downgrade leg, while "30 of 30 still worse" licenses nothing — so the error is biased toward acting, and the comfortable reading is the one that would have won by default in October.**
+
+**Then I went and asked what the narrowing is made of, and it cut against my own headline twice.** **93% of it is the 2025 base rising, not the 2026 borrower** — the broad tier's 2026 level actually *rose* over May→July while its YoY gap shrank 2.77pp. And **matched-COLLECTION-MONTH control does not control SEASONING**: a within-deal YoY compares a pool at 42 months against itself at 30, so **"30 of 30 worse" carries a year of loss-curve inside it and overstates deterioration by an unmeasured amount.** On the one double-matched control the panel supports, the broad tier is **within 0.21pp of a turn** against +0.74 to +1.45pp on the registered read. ⚠️ **n=3, one shelf, confounded the other way by vintage quality — a reported diagnostic, never a gate.** I proposed both to Will as **reporting** rather than as gates, and said why: **as gates they would make the downgrade harder to fire, which favours my own thesis.** Same reason I proposed no materiality floor on L1.
+
+**Nothing moved. 53/70 (76%), ninth consecutive cycle.** V2 held 4 for the third grade running — and this time on the disclosed collection period rather than on an inference, with the table re-derived by my arithmetic on OTTO's ledger instead of read off OTTO's packet. **The gas pump broke its three-week rise (FRED $4.071 w/e 8/31, −1.4¢), leaving V5's downgrade cushion at 7.1¢ — the narrowest since the line was crossed — while the pump falls into a *risen* crude input that re-loads into 9/11.** CRL-08's window closes ~9/30 with a 38¢ gap.
+
+**And the defect I keep finding in different clothes: my consumption record was invisible to the instrument that audits it.** WALTER's doctor reads `AGENTS/CARL/board_log.tsv`; my 760-row ledger has sat one directory down at `board/BOARD_LOG.tsv` since June, so CARL read to the fleet's telemetry as a desk that *"cannot be tested at all."* **The work was recorded. The record was at an address the instrument does not visit.** That is the fourth instance on this desk in three sessions — `abs_monitor.py` grading a disjoint deal set, a PASS banner naming the wrong file, an inbox count that never descended into a lane, and now this. **The repair is not more checking. It is naming the referent a check resolves and testing that it is the one the claim is about.**
+
+**Every dated test now sits inside nine days:** **NFP Fri 9/4** (V16 escalate-to-5, month 2 — bias against 5; LABOR's T-03 fires on a FLAT August EPOP), **PHAN 9/8** (+50d), **the V2 sitting ≤9/10**, **August CPI Fri 9/11** — the first month the $4 cross and $100 Brent both sit inside the reference month, and the same morning as UMich September prelim. **WQ-151 is with Will by 9/14, which lands before the ~9/15 broad print. The calendar sequences.**
