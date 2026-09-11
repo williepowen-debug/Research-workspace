@@ -48,7 +48,7 @@ DESIGN RULES (inherited deliberately from subagent_memory_roll.py)
 Usage:
     kura_proposal_roll.py [--apply] [--keep-runs N]
 """
-import argparse, re, sys
+import argparse, datetime as _dt, re, sys
 from pathlib import Path
 
 SAM = Path(__file__).resolve().parent.parent
@@ -57,6 +57,17 @@ ARCHIVE = SAM / "workbook" / "KURA_PROPOSALS_ARCHIVE.md"
 KB = SAM / "workbook" / "KB.tsv"
 KB_ARC = SAM / "workbook" / "KB_ARCHIVE.tsv"
 SECTION = "## PROPOSED ADDS"
+
+
+def _today():
+    """The roll date, READ FROM THE CLOCK — was the literal "2026-08-27" until 2026-09-11.
+
+    🔴 All 12 stubs this tool wrote carried the build date. Runs 13/14 were rolled on
+    2026-09-11 and stamped 2026-08-27 — off by 15 days. SAM rewrote this file's landing
+    test the same morning and walked straight past the literal ~90 lines below the edit.
+    Found by KURA's self-audit.
+    """
+    return _dt.date.today().isoformat()
 
 
 def _norm(t):
@@ -186,7 +197,7 @@ def main():
     before = len(SPEC.read_text(encoding="utf-8")) + (len(ARCHIVE.read_text(encoding="utf-8")) if ARCHIVE.exists() else 0)
     kept_seg = seg
     for b in sorted(roll, key=lambda x: x["start"], reverse=True):
-        ptr = (f"{b['hdr']}\n\n> ⤴️ **ROLLED TO `KURA_PROPOSALS_ARCHIVE.md` 2026-08-27** — "
+        ptr = (f"{b['hdr']}\n\n> ⤴️ **ROLLED TO `KURA_PROPOSALS_ARCHIVE.md` {_today()}** — "
                f"all {len(b['proposed'])} proposed rows verified landed in KB.tsv/KB_ARCHIVE.tsv "
                f"({', '.join(b['proposed'])}). Reference-only; not spawn-read.\n\n")
         kept_seg = kept_seg[:b["start"]] + ptr + kept_seg[b["end"]:]

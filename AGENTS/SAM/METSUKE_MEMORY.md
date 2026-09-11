@@ -1667,6 +1667,8 @@ Run this at closeout per METSUKE.md §📏 STATE-FILE CAP AND ROLL-OFF:
 
 **Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**
 
-## ↪️ ARCHIVED RUN HISTORY — 2 terminal block(s) rolled 2026-08-20 to `METSUKE_MEMORY_ARCHIVE.md`
+## ↪️ ARCHIVED RUN HISTORY — 2 terminal block(s) rolled **2026-09-11** to `METSUKE_MEMORY_ARCHIVE.md`
+
+> 🔧 **Date corrected 2026-09-11.** The stub was written by `subagent_memory_roll.py`, which hardcoded the literal `"2026-08-20"` — its own BUILD date — so every stub it ever wrote claimed that day. This roll happened on **2026-09-11** (commit `022623946`). The tool now reads the clock. Found by KURA's self-audit; METSUKE's found it independently the same hour.
 
 **Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**

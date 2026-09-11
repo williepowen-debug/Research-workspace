@@ -39,6 +39,7 @@ Usage:
     subagent_memory_roll.py --all            # report on all three
 """
 import argparse
+import datetime as _dt
 import re
 import sys
 from pathlib import Path
@@ -51,6 +52,18 @@ TARGETS = [
     SAM / "METSUKE_MEMORY.md",
     SAM / "workbook" / "KURA_MEMORY.md",
 ]
+
+def _today():
+    """The roll date, READ FROM THE CLOCK.
+
+    🔴 This was the literal string "2026-08-20" until 2026-09-11 — the date this tool
+    was BUILT — so every pointer stub it ever wrote claimed the file was rolled on the
+    build date. 8 of 9 stubs fleet-wide were wrong; the one correct stamp was hand-written.
+    A stamp that cannot be right except on one day is worse than no stamp, because it
+    looks like provenance. Found by KURA's self-audit 2026-09-11.
+    """
+    return _dt.date.today().isoformat()
+
 
 # A block is TERMINAL only on an explicit closure marker. Silence != closed.
 TERMINAL = re.compile(
@@ -184,7 +197,7 @@ def main():
 
         pointer = (
             f"\n## ↪️ ARCHIVED RUN HISTORY — {len(roll)} terminal block(s) rolled "
-            f"2026-08-20 to `{arch.name}`\n\n"
+            f"{_today()} to `{arch.name}`\n\n"
             "**Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block "
             "carried an explicit closure marker at the time of the roll. **If you need a "
             "historical disposition, read the archive — do not re-open it here.**\n"

@@ -341,6 +341,147 @@ Run 16 covers the watermark SAM actually set — **2026-09-02 → 2026-09-11**, 
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### 🔍 SELF-AUDIT 2026-09-11 (NOT a harvest run — Will-directed audit of KURA's OWN four files; write-set was `KURA_MEMORY.md` only; nothing committed)
+
+Scope audited: `KURA.md` · `KURA_MEMORY.md` · `KURA_MEMORY_ARCHIVE.md` · `KURA_PROPOSALS_ARCHIVE.md`. **No KB/FLOW/VX file was read for harvest or written.** Every finding below was verified at disk or in `git show`, never inferred.
+
+**🔴 A1 — THE SAME SPLICE THAT NEAR-MISSED AT RUN 15 HAS BEEN *LANDED* IN BOTH FILES SINCE 2026-08-20, AND FOUR SPAWNS READ PAST IT.**
+
+| # | File | Injury | Commit | Days live |
+|---|---|---|---|---|
+| 1 | `KURA_MEMORY.md` L6/L35 | The Run-12 **✅ SAM RULINGS** blockquote (≈12 KB) is spliced **into the middle of the `- **KURA writes**` ownership bullet**, between `` adds/removes `## PENDING `` and `` ` items, updates ``. The file's own ownership contract is cut in half by 29 lines of ruling text. | `7944e8d16` | 22 |
+| 2 | `KURA.md` L47–51 | The Run-12 **✅ APPLIED** blockquote is spliced **into the middle of THE AUTONOMY GRADIENT table**, after row 1. Rows 2–6 — *Archive / Refresh spot / Cross-ref / Key_Fact / Dedup*, i.e. **every rule that defines the one autonomous act** — are orphaned from their header row and no longer render as one table. | `6636054b7` | 22 |
+
+**Both are LOSSLESS pure insertions — verified, no content destroyed.** L6+L35 reconcatenate byte-exact to the pre-splice bullet (215 B == 215 B); the table still holds all 6 data rows. **The damage is structural, not lexical — which is exactly why four spawns read past it.**
+
+**The anchor in BOTH cases is a string that is simultaneously prose and a real heading**: `## PENDING` (prose L6 / heading L342) and `` `## PROPOSED ADDS` `` (prose L47 / heading L204). In both files the **prose mention precedes the real heading**, so a first-match anchored edit lands in the header paragraph and splices content into the TOP of the file.
+
+**A2 — THE COMPLETE TRAP SET. Every one of `KURA_MEMORY.md`'s six real section headings is quoted in prose ABOVE itself. There are no safe anchors in this file.**
+
+| Anchor string | Prose occurrence(s) | Real heading | First match is prose? |
+|---|---|---|---|
+| `## CHANGES SINCE LAST RUN` | L35 | L42 | ⚠️ **exact-string collision** |
+| `## LAST RUN` | L6, L35, L417 | L54 | 🔴 yes — and L6 precedes it |
+| `## PENDING` | L6 | L342 *(`## PENDING (escalations…)`)* | 🔴 **yes — this is the one that fired** |
+| `## STANDING MONITORS` | L35 | L485 *(`… (surface each run…)`)* | 🔴 yes |
+| `## CALIBRATION` | L36, L681 | L603 *(`… (precision-vs-recall…)`)* | 🔴 yes |
+| `## NEXT RUN HINTS` | L35 | L672 | ⚠️ **exact-string collision** |
+
+In `KURA.md`: `## PROPOSED ADDS` is quoted in prose at **L47, 63, 99, 101, 113, 161, 163, 176** — eight times, all above the real heading at **L204** — and it is the *only* section KURA may write.
+
+**PROPOSED CONVENTION (SAM's to adopt — one line, zero new tooling).** In prose, never write a heading at its literal depth. Write section references as **`§PENDING`** / **`§PROPOSED ADDS`** (section-sign, no `#` characters); reserve a line-initial `## ` for actual headings. Enforcement is then a one-line grep that fails closed:
+```
+grep -n '^[^#].*##* [A-Z]' AGENTS/SAM/workbook/KURA*.md AGENTS/SAM/METSUKE_MEMORY.md AGENTS/SAM/docket/KOYOMI_MEMORY.md
+```
+**Plus a hard rule for KURA and SAM both: never anchor an edit to these files on a heading string. Address by line number, then verify byte-conservation and the deletion list before writing.** *(Run 15 caught its own near-miss in the deletion list; that is the check that works. Runs 12–16 never ran it against what was already on disk.)*
+
+**🔴 A3 — WHY I READ PAST THE TWO STALE ID LINES FOR TWENTY RUNS. CONCRETE, AND IT PREDICTS MORE.**
+
+First, a correction to the premise: **the "Next free ID: KB-SAM-226" line was never in the §PROPOSED ADDS header.** It lived at `KURA.md` **L49 — inside the ✅ APPLIED blockquote, inside the AUTONOMY GRADIENT table** (A1 #2). The brief mis-locates it, and that mis-location *is* the finding. Four compounding causes, each independently sufficient:
+
+1. **It was inside a block whose first token is ✅ APPLIED.** A closure marker at the head of a block turns off the read. That is `[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]` — **the identical defect SAM found in `subagent_memory_roll.py` today, except in my reading rather than in code.**
+2. **It sat in a section I am forbidden to write.** My read of THE AUTONOMY GRADIENT is *"what may I do"* — an authority read, not a data read. A live value parked in an authority section is outside the frame of the read that travels there.
+3. **The `KB-SAM-175` line sat in §KB.tsv FORMAT RULES, which I read for SHAPE.** I was reading `ID = KB-SAM-NNN` to conform a row. The number attached to it parsed as an *example of the form*, not as an assertion about the ledger.
+4. **The decisive one: my run sequence never made me compare either value to the ledger.** I derive max-ID from `KB.tsv`+`KB_ARCHIVE.tsv` every run and always have — Run 16's own block reads *"Max live ID KB-SAM-245. Next free ID = KB-SAM-246."* **Because I derived it correctly, I never consumed the mirror, so its wrongness was never load-bearing on my path.** It was load-bearing on Run 15's path and on the roller's. ⇒ **A stale mirror is invisible precisely to the reader who does not need it.** My "correct" behaviour is what kept it alive.
+
+**The predictor this yields — and it found things.** Look for a transcribed value that is (a) inside a ✅/CLOSED-marked block, (b) in a section read for authority/format rather than data, or (c) one I independently derive anyway. Applying it produced A4 and A5 below.
+
+**🔴 A4 — TEN MIS-DATED ARCHIVE-PROVENANCE STAMPS, FROM TWO HARDCODED LITERALS, INSIDE THE TWO TOOLS BUILT TO STOP THIS EXACT CLASS.** *(Escalation — `scripts/` is not KURA's write-set. Two-character fix each.)*
+
+| Tool | Line | Literal | Owner of the true value | Wrong stamps on disk |
+|---|---|---|---|---|
+| `scripts/subagent_memory_roll.py` | 187 | `"2026-08-20"` hardcoded in the pointer string | the roll event / system clock | **8 of 9** `## ↪️ ARCHIVED RUN HISTORY` pointers fleet-wide: KURA ×3, METSUKE ×3, KOYOMI ×2 |
+| `scripts/kura_proposal_roll.py` | 189 | `"2026-08-27"` hardcoded in the stub string | same | **12 of 12** `⤴️ ROLLED TO` stubs in `KURA.md` |
+
+**Measured, not asserted.** `KURA_MEMORY_ARCHIVE.md` grew **0 → 13,158 B (8/20) → 22,747 B (8/27) → 46,452 B (9/11)** — three distinct roll events, all three pointers stamped `2026-08-20`. `KURA.md`'s Run-13 and Run-14 stubs were written **today** and read `2026-08-27`, **mis-dated by 15 days**. The one correct stamp in the fleet — KOYOMI L600, `rolled 2026-09-09` — is **hand-written**: a human got it right and the tool got eight wrong. **Fix: `datetime.date.today().isoformat()` in both.** ⚠️ **`kura_proposal_roll.py` was REWRITTEN today** (`landed_ids()` → `landed_rows()`); the rewrite repaired the landing logic and walked past the hardcoded date three lines away.
+
+**🔴 A5 — REMAINING TRANSCRIBED VALUES IN `KURA.md`. Owner named, derivation proposed.** *(SAM's file — proposals only, no edits made.)*
+
+| Line | Reads | True value | Owner | Proposed replacement |
+|---|---|---|---|---|
+| **89** (Gate 3, "Not already in KB") | *"You hold all **119** rows"* | **184** | `KB.tsv` | 🔴 **Flatly false, and it is in the DEDUP gate — the gate whose whole claim is completeness.** Drop the count: *"You hold the whole ledger — dedup is your native advantage."* A gate that asserts a stale denominator invites exactly the ID/dup class that orphaned Run 15. |
+| **5** (Mandate) | *"re-read **119+** rows"* | 184 | `KB.tsv` | `+` makes it non-false and still mis-sizes the job. Same fix: drop the number. |
+| **22** *and* **62** (RUN MODES, **duplicated verbatim**) | *"earned across **9 runs**: **~85%** promote rate, **1** caught error"* | **16 runs** | `KURA_MEMORY.md` §LAST RUN / §CALIBRATION | Two hand-copies of one claim, both frozen at Run 9 — **the `KB-SAM-175` shape exactly.** Replace both with one sentence + a pointer: *"Earned across the full run history — see §CALIBRATION."* |
+| **7** (`Last harvest:`) | **Run 14 / 2026-09-02** | should be **2026-09-11** | the run record | 🔴 **Two runs behind again.** Run 16 was APPLIED today (`056bb0f78`; KB.tsv is at 184 = 181+3) and the line was not advanced. **Fourth instance of a drift this line's own inline annotation says it has had before** — the annotation warns and does not prevent. |
+| **369** | *"the line currently reads Run 14 / 2026-09-02 and **is correct**"* | now false | — | 🔴 **True when written this morning, false after the same day's apply.** A dated correctness assertion with no expiry, now actively certifying the stale value above it: `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`. |
+| **179** (DONE=) | *"**10** as of 2026-08-04"* | self-caveated | `boot.py --tools` | Acceptable — it carries *"confirm against `boot.py --tools` rather than trusting this count."* **The model the other rows should copy.** |
+| **116–118** | HANDS-OFF list of 10 tsv names | hand-maintained | `boot.py --tools` | Already annotated *"do not maintain by hand"* — but **the hand list is still the thing a reader reads.** Replace the list with the command. |
+| **381–384** ("Why this exists" table) | KURA 158K spec / 176K state | 69K / 190K | — | **Legitimate** — explicitly *"measured on 2026-08-20."* A dated measurement is a record, not a mirror. |
+
+**🔴 A6 — SPAWN-READ COST. PLAINLY: THE SPEC SIDE IS ROUGHLY BREAK-EVEN AND THE MEMORY SIDE IS LOSING, AND THE ROLLERS CANNOT REACH 70% OF THE PROBLEM.**
+
+Spawn read = `KURA.md` + `KURA_MEMORY.md` (archives are not spawn-read). **Today post-roll: 69,443 + 189,872 = 259,315 B.** Inaugural run (6/02): **33,845 B** ⇒ **7.7× in 14 weeks.** Peak **358,550 B** (8/27).
+
+*Per-run ADD, decomposed to remove roller effects (bytes measured at each apply commit):*
+
+| Run | Date | SPEC add | MEM add | Total add |
+|---|---|---|---|---|
+| 13 | 8/27 | — | — | **+25,913** |
+| 14 | 9/02 | +31,913 | +18,865 | **+50,778** |
+| 15 | 9/09 | +17,757 | +1,394 | **+19,151** |
+| 16 | 9/11 | +18,788 | +20,592 | **+39,380** |
+| | | | **mean** | **+33,806 B/run** |
+
+*Today's roll removed **71,158 B** (proposal 47,784 + memory 23,374) against **39,380 B** added — net **−31,778**. That looks like winning and it is not: it was a **one-time backlog drain** of Runs 2–14, now exhausted.*
+
+**Forward, the two sides behave completely differently:**
+
+- **SPEC (`KURA.md`) — ≈ break-even, with a ratchet.** One run-block in (+~19K), one rolled out (−~20K). **But the tightened (ID, Topic) rule KEEPS any block that is unlanded or ID-collided** — correctly. Run 15's block is now retained indefinitely because it carries P1–P6. **Every unresolved run is a permanent +19K.** Correct behaviour, real cost: **the spec side now grows at the rate SAM leaves proposals unruled.**
+- **MEM (`KURA_MEMORY.md`) — LOSING, ~+20K/run, and structurally so.** `subagent_memory_roll.py` reads **only `## LAST RUN`**:
+
+| Section | Bytes | % of file | Rollable? |
+|---|---|---|---|
+| `## LAST RUN` | 56,153 | **29.6%** | ✅ the only reachable region |
+| `## PENDING` | 55,784 | 29.4% | ❌ *never rolls — "the working set"* |
+| `## STANDING MONITORS` | 50,785 | 26.7% | ❌ *never rolls* |
+| `## CALIBRATION` | 12,132 | 6.4% | ❌ SAM's, never rolls |
+| CHANGES SINCE + NEXT RUN HINTS + stubs | 5,567 | 2.9% | ❌ |
+| | **189,872** | | **133,719 B (70.4%) is out of reach BY THE SPEC'S OWN RULE (`KURA.md` L395).** |
+
+**And inside the reachable 29.6%, the marker rule blocks most of it.** `## LAST RUN` holds 10 blocks; **7 are from June–July (Runs 1,2,3,4,7,8,9 = 29,208 B)** and have never rolled because they carry no explicit closure marker. Rule 4 — *"TERMINAL MEANS EXPLICITLY MARKED CLOSED, silence is never closure"* — is right, and it means **at the current marker discipline those 29 KB never leave.** The roller's true reach is ~**14%** of the file.
+
+**What is actually in the unreachable 70% — this is the METSUKE-97-items failure recurring in my own file:**
+- **≥13,999 B of `## PENDING` is in blocks whose OWN HEADINGS say closed:** `Opened Run 13 — ✅ ALL THREE RULED AND APPLIED … THIS BLOCK IS CLOSED` (3,749 B) · `✅ SAM RULINGS on Run-10` (6,933 B) · `✅ SAM RULINGS on Run-11` (3,318 B). **They are explicitly terminal and the roller cannot see them, because it only reads `## LAST RUN`.**
+- **6,610 B of `## STANDING MONITORS` is two `~~STRUCK~~` blocks** (L519, L529), both struck 2026-08-20.
+- **37,691 B — 20% of the entire file — is ONE sub-block, `### Monitors` (L540)**, carrying **four stacked audit layers** (Run-16 over Run-15 over Run-14 over Run-12), each opening with an instruction to read it before the older ones. 🔴 **That is the annotation-palimpsest decay mode I am chartered to flag in KB rows, running unflagged in my own state file for four runs.**
+- **`## PENDING` contradicts the ledger in at least two places.** L366 (Run-14 block): *"KB-SAM-229/230/231 — 3 new proposed adds **awaiting SAM's ruling**"* — all three are in `KB.tsv`, and L358 nine lines earlier says *"LANDED — 229/230/231."* L346–347 (Run-16 block, written today): *"KB-SAM-246/247/248 … **Not promoted.** Promotion takes KB.tsv 181 → 184"* — **all three promoted hours later; `KB.tsv` is at 184.** The file contains the number that falsifies its own entry.
+
+**Why PENDING never shrinks, named exactly:** `KURA.md` THE JOB step 8 tells me *"adjust `## PENDING` (add new items, **do NOT remove** resolved-by-SAM ones — SAM clears those)."* The rule is sound — I must not close my own escalations. **But SAM does not clear them, and nothing measures that.** Result: a monotonically growing 55 KB section, 25% of it already marked closed. **The rule assigns the clearing to the party with no prompt to do it.**
+
+**PROPOSED (SAM's call, all three are cheap):**
+1. **Extend `subagent_memory_roll.py` to `## PENDING`** under the identical explicit-marker discipline — it would move ~14 KB today on markers that already exist. The marker rule is what makes this safe.
+2. **Add a closeout obligation with a name: the roll report must print `PENDING: N blocks marked closed and still resident`.** A number SAM sees every run is the only thing that converts an unowned chore into a decision.
+3. **`### Monitors` needs a KURA-side collapse pass** — four audit layers into one current table plus an archived history. **That is the palimpsest collapse I propose on KB rows; it applies to me.** Adjudication-free (no monitor is *resolved* by it, only de-layered), so I can do it on SAM's word.
+
+**A7 — SPEC-VS-PRACTICE DRIFT (`KURA.md` line numbers).**
+
+| Line | Spec says | Practice | Verdict |
+|---|---|---|---|
+| **206** | *"SAM approves → paste the row into KB.tsv → **delete it from here**."* | Practice is `kura_proposal_roll.py`, whose **Rule 3 is ⛔ MOVE, NEVER DELETE** (L389). | 🔴 **Direct contradiction between the §PROPOSED ADDS intro and the roller rule in the same file.** Fix L206 to *"→ the roller moves the block to `KURA_PROPOSALS_ARCHIVE.md` once landing is proven by (ID, Topic)."* |
+| **157–172** (THE JOB) & **173–182** (DONE=) & **183–202** (RETURN TO SAM) | Nine-step run sequence, 7-item done list, a return template. | 🔴 **None of the three mentions the rollers.** The roller rule says *"include its output in your return block"* (L388) and the return template has **no line for it**. | The mandatory closeout step is absent from all three closeout checklists. Add step 8b to THE JOB, a DONE= bullet, and a `- Roll preview (report-only):` line to the return template. |
+| **370–395** (the whole roller rule) | — | 🔴 **There is NO `## ` heading anywhere after L204.** The roller rule is therefore syntactically **inside `## PROPOSED ADDS`** — *the one section KURA is authorized to write* — and sits **below** all 16 run blocks, so a KURA append "at the end of §PROPOSED ADDS" lands after it or over it. | **A rule that governs KURA is stored inside the region KURA edits.** Promote it to its own `## STATE-FILE ROLL DISCIPLINE` heading. |
+| **113** | *"`KURA.md` — **only** the `## PROPOSED ADDS` section."* | Consistent with practice, **but see above**: that grant now silently includes the roller rule. | Fixed by the same promotion. |
+| **43–56** (AUTONOMY GRADIENT) | *"archiving an already-SUPERSEDED row … is the only place you write to a live tsv without SAM's per-item sign-off."* — **precise, and it held today.** | Run 16 executed exactly one archive-move (KB-SAM-197), wrote `KURA.md` §PROPOSED ADDS and `KURA_MEMORY.md`, ran both rollers **report-only**, and **did not touch `scripts/`** — SAM fixed both rollers itself (`056bb0f78`, `022623946`). ✅ **Verified at the commits: the gradient held.** | ⚠️ **But L35 and L172 restate it WITHOUT the "to a live tsv" qualifier** — *"the one autonomous act"* flat. Read alone, that is false: KURA autonomously writes two `.md` files every run. **Same claim, three places, two of them imprecise.** |
+| — | Nothing in the spec describes them. | Run 16 also ran a **40-file × 4-ledger cross-ref audit with a positive control**, and is running **this audit**. | Both are outside the spec's job description. Not a violation — an **omission**: the spec describes a harvester and I am also used as an auditor. |
+
+**A8 — SUPERSEDED-BUT-UNREMOVED / FUTURE-VOICE.**
+- 🔴 **`KURA.md` L49, the ✅ APPLIED blockquote — fully superseded, and it is injury A1 #2.** All five rows landed 8/20; the Run-12 block it refers to was rolled to `KURA_PROPOSALS_ARCHIVE.md`; its ID guidance is now a derivation command. Its only surviving instruction (*"do NOT re-propose these"*) is moot. **Retire it — and doing so repairs the AUTONOMY GRADIENT table in the same edit.** *(Not KURA's file; proposed only.)*
+- 🔴 **`KURA_MEMORY.md` `## PENDING` L346–347 and L366** — promoted-and-applied rows still in "Not promoted" / "awaiting SAM's ruling" voice (A6). **L346–347 is mine, written today, and I am flagging rather than editing it: whether SAM's promotion closes a PENDING entry is SAM's clearing call under THE JOB step 8, and I will not start closing my own escalations to make my own section look smaller.**
+- ⚠️ **`## CALIBRATION`'s newest entry is Run 13 (2026-08-27).** **No calibration note exists for Runs 14, 15 or 16.** SAM's section, KURA must not write it — recorded here because the §RUN MODES promote-rate claim (A5, L22/L62) cites a section that has not been updated in three runs.
+- ⚠️ **`## STANDING MONITORS` L519 / L529** — two struck blocks, 6,610 B, superseded 2026-08-20, retained.
+
+**A9 — WHAT I CANNOT SELF-VERIFY (first-class results; no coverage manufactured).**
+1. 🔴 **Whether my DECLINES were right.** I can enumerate what I declined. I **cannot** know what I never recognized as a candidate — a durable fact in SAM's session artifacts that I failed to see leaves **no trace in any file**. The decline list is drawn from my own candidate set, so it cannot measure its own complement. **Only a reader who reads the same post-watermark artifacts independently can size this.** It is the single largest unmeasured quantity about me.
+2. 🔴 **My true promote rate.** The spec says so (`## CALIBRATION` is SAM's) and A8 shows it has not been scored for three runs — **so the "~85%" in §RUN MODES is not merely stale, it is currently unverifiable from inside or outside.**
+3. 🔴 **Whether A3's account of my own blindness is the true cause or a flattering one.** It is introspection about a *negative* — reconstructing why I did not do something — and `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` says that is exactly the reading that gets banked unverified. **Do not accept A3 on its reasoning.** Test its *prediction* instead: it says other derive-anyway/closure-marked/authority-section values will also be stale. It predicted A4 and A5 before I looked, which is weak confirmation, **not proof**.
+4. **Whether the three rows promoted today are FACTUALLY correct.** I verified 9-column conformance, ID freeness in both ledgers, cross-ref resolution, and that every named source exists. I did **not** re-derive the Ueda Yagi residuals or re-read the Totan images from primaries — those came from SAM's own reports. **Format-verified ≠ fact-verified**, and my A1/A2 grades rest on SAM's reads.
+5. **Whether the two splices are the only ones.** I proved both are lossless and found no third by enumerating every heading-string collision. **But I checked only my own four files** — `METSUKE_MEMORY.md` and `KOYOMI_MEMORY.md` carry the same 8 mis-dated pointers (A4) and were **not** audited for splice injuries. The class is fleet-shaped; my sample is not.
+6. **Whether `## PENDING`'s open items are still genuinely open.** Many turn on rulings SAM made in sessions I never saw. I status-check them; I cannot adjudicate them, and the L366 contradiction shows I get that wrong in the stale direction.
+
+**⚠️ NOTE ON THIS BLOCK'S OWN WRITE.** Inserted by **line index, not by heading anchor** — the A1/A2 hazard applies to me writing this. Byte-conservation verified before and after.
+
+---
+
 ### Opened Run 16 (2026-09-11) — 3 proposals + 1 escalation + 5 flags
 
 - **🔴 ESCALATION 1 — the Run-15 queue is orphaned and mechanically at risk.** Run 15's proposed Totan row took ID `KB-SAM-233`, which SAM then used for a different row; the proposal never landed and its content is absent from KB.tsv. `kura_proposal_roll.py` proves landing by **ID presence only**, so Run 15 now scores *all landed* and will roll next run, **taking correction proposals P1–P6 with it**. ⛔ **Do not apply the proposal roll before ruling this.** Fix is SAM's (`scripts/` is outside KURA's write-set): key the landing test on `(ID, Topic prefix)` or a content hash and fail closed on an ID-with-different-Topic. **Cheap upstream fix in the same pass: the `## PROPOSED ADDS` header still says `Next free ID: KB-SAM-226`, twenty IDs stale since Run 12.**
@@ -679,6 +820,8 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 6. **The three Run-16 proposals are all instrument-basis rows and all cross-reference KB-211/214/217/240.** If SAM amends KB-211 for the falsified NOT-BUILD, re-check KB-SAM-247's wording against the amended row before re-proposing anything adjacent — *an amendment read for one item leaves the others derived from the original live.*
 7. **Keep FLOW/VX/legacy BOJ_OIS frozen. Do not re-report closed monitors as open** — the wage gap closed at Run 15 and the independent-baseline search closed at Run 16; both were carried for many runs and both are now answered.
 8. **Rollers stay report-only. `## CALIBRATION` is SAM's and was not touched** — verified byte-identical at close.
+9. 🔍 **A SELF-AUDIT BLOCK WAS ADDED TO §PENDING ON 2026-09-11 (not a harvest run). Read its A1/A2 FIRST: `KURA_MEMORY.md` and `KURA.md` each carry a LANDED anchor-splice injury dated 2026-08-20 — one cuts this file's ownership bullet in half, one breaks THE AUTONOMY GRADIENT table. ⛔ NEVER anchor an edit to either file on a heading string; every one of this file's six section headings is quoted in prose above itself. Address by LINE INDEX and verify byte conservation.**
+10. ⚠️ **That block is itself +21.5 KB on a file the same block shows is losing ~20 KB/run.** It is written as ONE terminal-shaped block so it rolls cleanly. **Mark it CLOSED the moment SAM has ruled A1–A8, or it becomes the thing it documents.** Escalations that are `scripts/`-side and NOT KURA's to fix: the two hardcoded roll dates (A4, ten wrong stamps fleet-wide, two-character fix each).
 
 ---
 
@@ -690,6 +833,8 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 
 **Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**
 
-## ↪️ ARCHIVED RUN HISTORY — 3 terminal block(s) rolled 2026-08-20 to `KURA_MEMORY_ARCHIVE.md`
+## ↪️ ARCHIVED RUN HISTORY — 3 terminal block(s) rolled **2026-09-11** to `KURA_MEMORY_ARCHIVE.md`
+
+> 🔧 **Date corrected 2026-09-11.** The stub was written by `subagent_memory_roll.py`, which hardcoded the literal `"2026-08-20"` — its own BUILD date — so every stub it ever wrote claimed that day. This roll happened on **2026-09-11** (commit `022623946`). The tool now reads the clock. Found by KURA's self-audit; METSUKE's found it independently the same hour.
 
 **Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**
