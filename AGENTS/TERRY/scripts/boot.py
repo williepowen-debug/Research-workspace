@@ -407,9 +407,13 @@ def run(args):
     # ---- BOARD consumption (§3.5 exempt-desk warrant) --------------------
     board_unlogged = []
     try:
-        board_unlogged, _addr, _logd = board_gap(REPO_ROOT / "BOARD", TERRY_DIR, date.today())
+        board_unlogged, _addr, _logd, _skip = board_gap(REPO_ROOT / "BOARD", TERRY_DIR, date.today())
         print("\nBOARD (WALTER) — §3.5 EXEMPT desk, this step IS the pull record:")
         print(f"  action-line signals addressed to TERRY: {_addr} · logged in board_log.tsv: {_logd}")
+        if _skip:
+            print(f"  \u26a0 {len(_skip)} BOARD file(s) SKIPPED — unparseable date in front matter "
+                  f"(WALTER's files, not this desk's): {', '.join(_skip[:3])}"
+                  + (f" +{len(_skip)-3} more" if len(_skip) > 3 else ""))
         if board_unlogged:
             print(f"  \U0001F534 {len(board_unlogged)} UNLOGGED action-line signal(s) \u2265{BOARD_MIN_AGE_DAYS}d old:")
             for sid, d in board_unlogged[:12]:
@@ -529,10 +533,12 @@ def _board_action_ids(board_dir, desk="TERRY"):
 
     info-cc lines are NOT the exemption's risk and are deliberately excluded — the
     same scoping the reference uses.
+    Returns (addressed, skipped) — `skipped` names files whose front matter has an
+    id and an action line but an UNPARSEABLE date. Surfaced, never swallowed.
     """
-    out = {}
+    out, skipped = {}, []
     if not board_dir.is_dir():
-        return out
+        return out, skipped
     for f in sorted(board_dir.glob("SIG-W-*.md")):
         try:
             head = f.read_text(encoding="utf-8", errors="replace")[:1200]
@@ -574,8 +580,17 @@ def _board_action_ids(board_dir, desk="TERRY"):
             sid = _re.search(r"(SIG-W-\d{8}-\d{3})", f.name)
         d = _re.search(r"^date:\s*(\d{4})-(\d{2})-(\d{2})", head, _re.M)
         if sid and d:
-            out[sid.group(1)] = date(int(d.group(1)), int(d.group(2)), int(d.group(3)))
-    return out
+            # ⚠️ ONE MALFORMED FILE MUST NOT KILL THE WHOLE SCAN. Found 2026-09-11 when
+            # a test fixture carried `date: 2026-05-00` and the ValueError propagated
+            # out of the entire step — the boot's own try/except then printed UNKNOWN
+            # for ALL 939 files. These files are WALTER's, not this desk's: a typo in
+            # someone else's front matter must degrade to "skipped 1", never to a
+            # guard that silently stops guarding. Skip the row, count it, report it.
+            try:
+                out[sid.group(1)] = date(int(d.group(1)), int(d.group(2)), int(d.group(3)))
+            except ValueError:
+                skipped.append(f.name)
+    return out, skipped
 
 
 def _board_logged_ids(terry_dir):
@@ -590,12 +605,12 @@ def _board_logged_ids(terry_dir):
 
 
 def board_gap(board_dir, terry_dir, today):
-    """(unlogged_aged, addressed_total, logged_total) — the ID-diff, as a pure function."""
-    addressed = _board_action_ids(board_dir)
+    """(unlogged_aged, addressed_total, logged_total, skipped) — the ID-diff, pure."""
+    addressed, skipped = _board_action_ids(board_dir)
     logged = _board_logged_ids(terry_dir)
     aged = sorted((sid, d) for sid, d in addressed.items()
                   if sid not in logged and (today - d).days >= BOARD_MIN_AGE_DAYS)
-    return aged, len(addressed), len(logged)
+    return aged, len(addressed), len(logged), skipped
 
 
 _QUIET_CASES: list[tuple[str, bool]] = [
@@ -635,6 +650,15 @@ _BOARD_FM_CASES = [
     ("---\nsignal_id: SIG-W-20260505-001\ndate: 2026-05-05\nto: [TERRYX]\n", False),
     # the 34-file early-April schema: no routing line at all -> not addressed
     ("---\nsignal_id: SIG-W-20260419-014\ndate: 2026-04-19\nprecedence: PRIORITY\nsource: WALTER\n", False),
+    # The most complex shape that is actually LIVE — 125 files carry an em-dash
+    # annotation INSIDE the parens. The paren-strip already covers these, but they
+    # are pinned because "already covered" is a claim, not a test.
+    ("---\nsignal_id: SIG-W-20260506-001\ndate: 2026-05-06\nto: TERRY (ACTION \u2014 MARKET_VOL primary)\n", True),
+    ("---\nsignal_id: SIG-W-20260507-001\ndate: 2026-05-07\nto: HENRY (ACTION \u2014 MARKET_VOL primary)\n", False),
+    ("---\nsignal_id: SIG-W-20260508-001\ndate: 2026-05-08\nto: [BRENT, TERRY] (ACTION \u2014 oil primary)\n", True),
+    # A malformed date must SKIP one file, never abort the scan (expect=False here
+    # means "not in the addressed set" — the point is the other 8 still parse).
+    ("---\nsignal_id: SIG-W-20260599-001\ndate: 2026-05-00\nto: TERRY\n", False),
 ]
 
 
@@ -652,14 +676,14 @@ def _selftest_board() -> list[str]:
             (bd / f"{m.group(0)}-case{i}.md").write_text(fm, encoding="utf-8")
             if expect:
                 want.add(m.group(0))
-        got = set(_board_action_ids(bd).keys())
+        got = set(_board_action_ids(bd)[0].keys())
         if got != want:
             bad.append(f"_board_action_ids: got {sorted(got)}, want {sorted(want)}")
         # the ID-diff itself: an addressed-but-unlogged signal must surface
         td2 = Path(td) / "desk"; td2.mkdir()
         (td2 / "board_log.tsv").write_text("ts\tsignal_id\tdisposition\n"
                                            "x\tSIG-W-20260819-015\tacted\n", encoding="utf-8")
-        aged, addressed, logged = board_gap(bd, td2, date(2026, 9, 11))
+        aged, addressed, logged, _sk = board_gap(bd, td2, date(2026, 9, 11))
         ids = [a for a, _ in aged]
         if "SIG-W-20260820-003" not in ids:
             bad.append("board_gap missed an addressed-but-unlogged `id:`-form signal")
