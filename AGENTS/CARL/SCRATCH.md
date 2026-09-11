@@ -43,7 +43,7 @@ Split into **"Exeter — V2 REGISTERED PANEL"** (EART 2022-2/2022-3/2023-1/2024-
 ⚠️ **NEXT SESSION: the first run flagged all 80 as NEW (empty seen-state). That is a backfill artifact — do NOT read 80 new filings as an event.**
 
 ### 🔴 FLOW-PHAN-06 RESTORED to ACTIVE — my 9/10 grade was wrong
-PHAN self-reported a **period-basis error**: a *quarterly* trigger tested against a *fiscal-year* aggregate. **I verified at the primary rather than accepting** (SEC XBRL, CIK 0001820953): FQ1 **+1.8%**, FQ2 **+40.0%**, FQ3 **+33.5%**, matching to one decimal. ⚠️ **FQ4 +42.5% is PHAN-derived by differencing and I did NOT reproduce it.** ⛔ **3-leg breakpoint still NOT met** — ABS WA FICO untested since 672 (Apr-2026), the pathway's largest gap. ⭐ PHAN's stronger finding is outside the trigger: **NCOs accelerate +12.6 → +16.5 → +22.2 → +36.9% while headline DQ ex-Peloton FELL.**
+PHAN self-reported a **period-basis error**: a *quarterly* trigger tested against a *fiscal-year* aggregate. **I verified at the primary rather than accepting** (SEC XBRL, CIK 0001820953): FQ1 **+1.8%**, FQ2 **+40.0%**, FQ3 **+33.5%**, matching to one decimal. ⚠️ **FQ4 +42.5% is PHAN-derived by differencing and I did NOT reproduce it.** ⛔ **3-leg breakpoint still NOT met** — ABS WA FICO ⛔ **SUPERSEDED SAME EVENING — DO NOT CARRY "untested since 672" AS CURRENT.** PHAN's PM packet (unread) holds a fresher read AND reports a **provenance defect in CARL's own figure: "672, Apr-2026" traces to a Feb-2025 publication — the Apr-2026 stamp was PHAN's RECORD date, not the DATA date**, so it rode ~14 months stale. **Same shape as CARL's 8/27 ABS error (KB-CARL-396): a record date standing in for a data date.** ⚠️ Unresolved: CARL's `VX.tsv:106` sources 672 to `AFRMT 2025-X1`, PHAN's table to `AFRMT 2025-1`, and PHAN warns the **X-series is the AMORTIZING shelf** — outside the revolving perimeter the comparison is scoped to. **Two different deals may be involved.** ⛔ **Nothing adopted from the packet — grade at the primaries.** PHAN's own grade: leg 2 **WEAKLY MET AT BEST** (2 FICO pts / ~19 months; Grade-A share ROSE; required CE FELL at every class, which is the OPPOSITE of the pathway's prediction). **Breakpoint NOT met either way.** ⭐ PHAN's stronger finding is outside the trigger: **NCOs accelerate +12.6 → +16.5 → +22.2 → +36.9% while headline DQ ex-Peloton FELL.**
 
 ---
 
@@ -84,6 +84,7 @@ PHAN self-reported a **period-basis error**: a *quarterly* trigger tested agains
 10. **RED holds the CRL-10 self-report.** Ask whether its 7/24 rationalization test is touched (it named V2-on-HHDC, since corrected as unfireable).
 11. **MEMORY.md 99/100 lines — flagged to PROME, do NOT compact.**
 12. **Rotation #11 (b) read-mode change still owed** — (c) ran today and was not enough.
+13b. **⚠️ ALL SEVEN SUB-AGENTS SHARE A CLOSEOUT SKELETON WITH NO GIT STEP AND A DEAD `../SHARED/` ROUTE** (PHAN packet 9/11). PHAN fixed its own; **the other six are CARL's tree** (STUE/DOC/GIG/POLLY/POP/META). A closeout template with no git step means a sub-agent can do the work and never commit it — the same *record-vs-action* class as `[[finding_record_of_an_action_is_not_the_action]]`. Lower priority than the two 🔴 packets, but it is a defect in six cards at once.
 13. **Consider re-instrumenting FLOW-PHAN-06 onto NCO growth** at the ~11/12 gate. CARL's call.
 
 ---
