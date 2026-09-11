@@ -65,7 +65,9 @@ Exit: 0 = graded or in progress; 1 = REFUTED; 2 = data unavailable.
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import sys
+from zoneinfo import ZoneInfo
 
 import numpy as np
 
@@ -74,6 +76,10 @@ WINDOW = ["2026-09-11", "2026-09-14", "2026-09-15", "2026-09-16"]
 THRESHOLD_ANN = 17.84             # VIX spot at the 2026-09-10 settle
 TRADING_DAYS = 252
 S = np.sqrt(TRADING_DAYS)
+
+
+def now_et():
+    return dt.datetime.now(ZoneInfo("America/New_York"))
 
 
 def estimators(r: np.ndarray) -> dict[str, float]:
@@ -93,21 +99,32 @@ def main(argv=None) -> int:
 
     try:
         import yfinance as yf
-        px = yf.Ticker("^GSPC").history(period="3mo")["Close"]
+        # Fixed dates keep this dated resolver reproducible after the window ages.
+        px = yf.Ticker("^GSPC").history(start=BASE_DATE, end="2026-09-17")["Close"]
+        closes = {d.date().isoformat(): float(v) for d, v in px.items()}
     except Exception as e:                                    # noqa: BLE001
         print(f"🔴 F-B rc=2: ^GSPC unavailable ({e}) — unknown, not a pass")
         return 2
-    closes = {d.date().isoformat(): float(v) for d, v in px.items()}
-
     if BASE_DATE not in closes:
         print(f"🔴 F-B rc=2: base close {BASE_DATE} unavailable")
         return 2
 
-    have = [d for d in WINDOW if d in closes]
+    # Daily history includes today's evolving bar. Conservatively consume only
+    # prior ET dates: final grading becomes available on 9/17, never intraday 9/16.
+    today = now_et().date().isoformat()
+    have = [d for d in WINDOW if d < today]
+    missing = [d for d in have if d not in closes]
+    if missing:
+        print(f"🔴 F-B rc=2: missing completed sessions {', '.join(missing)} — unknown, not a pass")
+        return 2
+    invalid = [d for d in [BASE_DATE] + have if not np.isfinite(closes[d]) or closes[d] <= 0]
+    if invalid:
+        print(f"🔴 F-B rc=2: invalid closes {', '.join(invalid)} — unknown, not a pass")
+        return 2
     seq = [closes[BASE_DATE]] + [closes[d] for d in have]
     r = np.diff(np.log(np.array(seq)))
     if len(r) == 0:
-        print("  F-B: window has not opened yet — 0 of 4 sessions")
+        print("  F-B IN PROGRESS — 0 of 4 completed prior-date sessions available")
         return 0
 
     est = estimators(r)
@@ -121,6 +138,8 @@ def main(argv=None) -> int:
     for k, v in est.items():
         print(f"     {k:28s} {v:7.2f}% ann")
     print(f"     threshold                    {THRESHOLD_ANN:7.2f}% ann (VIX spot {BASE_DATE})")
+    print("  BASIS: four-session realized vs 30-calendar-day VIX. This grades the "
+          "registered threshold, not a matched-horizon volatility risk premium.")
 
     verdicts = {k: (v > THRESHOLD_ANN) for k, v in est.items() if v == v}
     if len(set(verdicts.values())) > 1:
@@ -130,16 +149,16 @@ def main(argv=None) -> int:
 
     if not complete:
         pace = canon / THRESHOLD_ANN * 100
-        print(f"  ⏳ IN PROGRESS — not gradeable until {WINDOW[-1]} close. "
+        print(f"  ⏳ IN PROGRESS — final grade available on 2026-09-17 ET (prior-date closes only). "
               f"Running at {pace:.0f}% of the refutation line.")
         return 0
 
     if canon > THRESHOLD_ANN:
         print(f"  🔴 F-B REFUTED — realized {canon:.2f}% > implied {THRESHOLD_ANN:.2f}% ann. "
-              f"The VRP call in KB-VIO-271 is dead on its own instrument.")
+              f"The registered F-B threshold was exceeded; the horizons differ.")
         return 1
     print(f"  ✅ F-B HELD — realized {canon:.2f}% ≤ implied {THRESHOLD_ANN:.2f}% ann. "
-          f"Vol was rich over the window, as called.")
+          f"The registered F-B threshold was not exceeded; this alone does not establish that vol was rich.")
     return 0
 
 

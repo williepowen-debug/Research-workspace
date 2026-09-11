@@ -27,6 +27,7 @@ no kit runs while HENRY is asleep. Its payoff is (1) a clean live pull that can'
 mislabeled a session-boundary stale snapshot, and (2) the predictions-due scan.
 """
 
+import csv
 import json
 import os
 import re
@@ -285,18 +286,27 @@ def _read_rows():
     if not PREDICTIONS_TSV.exists():
         return None
     rows = []
-    lines = PREDICTIONS_TSV.read_text().strip().split("\n")
-    for line in lines[1:]:
-        c = line.split("\t")
-        if len(c) >= 4:
-            rows.append((c[0], c[2], c[3]))
+    lines = [line for line in PREDICTIONS_TSV.read_text().splitlines()
+             if line.strip() and not line.startswith("#")]
+    reader = csv.DictReader(lines, delimiter="\t")
+    required = {"ID", "Status", "Resolution_Date"}
+    if not required.issubset(reader.fieldnames or []):
+        raise ValueError("prediction ledger lacks ID, Status, or Resolution_Date column")
+    for row in reader:
+        if any(row.get(key) is None for key in required):
+            raise ValueError(f"incomplete prediction row {row.get('ID', '?')}")
+        rows.append((row["ID"], row["Status"], row["Resolution_Date"]))
     return rows
 
 
 def predictions_due(today=None):
     today = today or date.today()
     print(f"\n{'─'*64}\n  (d) PREDICTIONS-DUE SCAN  ·  as of {today}\n{'─'*64}")
-    rows = _read_rows()
+    try:
+        rows = _read_rows()
+    except (OSError, ValueError, csv.Error) as exc:
+        print(f"  ⚠️  PREDICTIONS-DUE UNKNOWN — {exc}; check manually")
+        return
     if rows is None:
         print("  ⚠️  PREDICTIONS.tsv not found")
         return

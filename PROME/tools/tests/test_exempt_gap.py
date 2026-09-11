@@ -40,6 +40,27 @@ def doctor(root, names):
 
 
 class ExemptGap(unittest.TestCase):
+    def test_legacy_filename_receipt_remains_consumed(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "ledger.tsv"
+            p.write_text("timestamp_read\tsignal_id\tdisposition\tnotes\n"
+                         "x\tSIG-W-20260903-001-skew-150-first-of-leg\tacted\tDone\n")
+            self.assertEqual(exempt_gap.logged_ids([p]), {"SIG-W-20260903-001"})
+
+    def test_malformed_ledger_does_not_certify(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "ledger.tsv"
+            p.write_text("notes\nSIG-W-20260901-001\n")
+            with self.assertRaises(ValueError):
+                exempt_gap.logged_ids([p])
+
+    def test_note_reference_is_not_consumption(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / "ledger.tsv"
+            p.write_text("timestamp_read\tsignal_id\tdisposition\tnotes\n"
+                         "x\tSIG-W-20260901-001\tnoted\tCompare SIG-W-20260901-002\n")
+            self.assertEqual(exempt_gap.logged_ids([p]), {"SIG-W-20260901-001"})
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)

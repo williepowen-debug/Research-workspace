@@ -31,6 +31,7 @@ Usage:
     python3 PROME/tools/exempt_gap.py --root <dir> --today 2026-09-11   # tests / fixtures
 """
 import argparse
+import csv
 import datetime as dt
 import pathlib
 import re
@@ -82,10 +83,20 @@ def desk_ledgers(root, desk):
 def logged_ids(ledgers):
     ids = set()
     for p in ledgers:
-        try:
-            ids |= set(SIG_ID_RE.findall(p.read_text(encoding="utf-8", errors="replace")))
-        except OSError:
-            continue
+        # A reference in Notes is not a receipt for the referenced signal.
+        lines = [line for line in p.read_text(encoding="utf-8").splitlines()
+                 if line.strip() and not line.startswith("#")]
+        reader = csv.DictReader(lines, delimiter="\t")
+        key = next((k for k in (reader.fieldnames or []) if k.strip().lower() == "signal_id"), None)
+        if key is None:
+            raise ValueError(f"{p}: missing signal_id column — consumption UNKNOWN")
+        for row in reader:
+            sid = (row.get(key) or "").strip()
+            # RED's legacy signal_id cells contain filename stems, including
+            # descriptive suffixes. Normalize those, never scan the notes.
+            match = re.match(r"(SIG-W-\d{8}-\d{3})(?=$|[-.])", sid)
+            if match:
+                ids.add(match.group(1))
     return ids
 
 
@@ -137,7 +148,11 @@ def main(argv=None):
     if not (root / "BOARD").is_dir():
         print(f"EXEMPT-GAP ✗ no BOARD dir under {root}", file=sys.stderr)
         return 2
-    rows, note = scan(root, today, args.min_age_days, args.desks.split(",") if args.desks else None)
+    try:
+        rows, note = scan(root, today, args.min_age_days, args.desks.split(",") if args.desks else None)
+    except (OSError, ValueError, csv.Error) as exc:
+        print(f"EXEMPT-GAP rc=2: {exc}", file=sys.stderr)
+        return 2
     print(f"EXEMPT-GAP — §3.5 exempt desks vs their own BOARD ledgers · as-of {today} · "
           f"flag = action-line signal unlogged ≥{args.min_age_days}d · {note}")
     flagged = 0

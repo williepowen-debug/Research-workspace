@@ -48,9 +48,9 @@ def now_stamp() -> str:
         return dt.datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
-def clean(s: str, n: int) -> str:
+def clean(s: str, n: int | None) -> str:
     s = dd.strip_md(s or "").replace("\t", " ").replace("\n", " ").strip()
-    return s if len(s) <= n else s[: n - 1] + "…"
+    return s if n is None or len(s) <= n else s[: n - 1] + "…"
 
 
 def date_of(s: str, year_hint: int = 2026) -> str:
@@ -104,7 +104,9 @@ def live_state(q_path: Path | None = None, arch: list[str] | None = None) -> dic
             "wq": r["n"], "title": clean(r["name"], 120), "type": "", "needed_by": "", "since": "",
             "status_after": st, "verdict": verdict,
             "will_verbatim": clean(dd.verbatim_of(r.get("record", "")), 400),
-            "rec": "", "record": clean(r.get("record", ""), 300), "source": r.get("source", ""),
+            # Conditions at the end of a ruling are part of the record. The
+            # deck prefers this ledger, so truncating here hides those terms.
+            "rec": "", "record": clean(r.get("record", ""), None), "source": r.get("source", ""),
             "at": date_of(r.get("done", "")) or date_of(r.get("record", "")),
         }
     for r in dd.parse_open(text):
@@ -113,7 +115,7 @@ def live_state(q_path: Path | None = None, arch: list[str] | None = None) -> dic
             "needed_by": r.get("by") or clean(r.get("by_raw", ""), 40), "since": clean(r.get("since", ""), 40),
             "status_after": status_of_open(r), "verdict": "—",
             "will_verbatim": clean(dd.verbatim_of(r.get("item", "") + " " + r.get("notes", "")), 400),
-            "rec": clean(r.get("rec", ""), 300), "record": "", "source": "WILL_QUEUE.md § OPEN",
+            "rec": clean(r.get("rec", ""), None), "record": "", "source": "WILL_QUEUE.md § OPEN",
             "at": date_of(r.get("since", "")) or (dd.first_date(r.get("item", "")) or ""),
         }
     return out
@@ -151,7 +153,9 @@ def seal(path: Path) -> None:
 def seal_ok(path: Path) -> bool:
     """True when the ledger's bytes match its last tool write (or the ledger does not exist yet)."""
     import zlib
-    if not path.exists() or path.stat().st_size == 0:
+    if not path.exists():
+        return not crc_path(path).exists()
+    if path.stat().st_size == 0 and not crc_path(path).exists():
         return True
     try:
         rows_s, crc_s = crc_path(path).read_text(encoding="utf-8").split()
@@ -227,7 +231,7 @@ def diff_state(prev: dict | None, cur: dict) -> str | None:
         if cur["status_after"] in TERMINAL:
             return {"RULED": "RULED", "DECLINED": "DECLINED", "CLOSED": "CLOSED"}[cur["status_after"]]
         return "UPDATED"
-    for k in ("needed_by", "verdict", "will_verbatim"):
+    for k in ("needed_by", "verdict", "will_verbatim", "title", "type", "since", "rec", "record"):
         if (prev.get(k) or "") != (cur.get(k) or ""):
             return "UPDATED"
     return None
@@ -262,7 +266,7 @@ def cmd_check(ledger: Path) -> int:
     probs = []
     if lines[0] != HEADER:
         probs.append("L1: header is not the schema string")
-    seen = set(); last_written = ""
+    previous_event = {}; last_written = ""
     for i, l in enumerate(lines[1:], start=2):
         if not l:
             continue
@@ -276,9 +280,13 @@ def cmd_check(ledger: Path) -> int:
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}", r["written_at"]): probs.append(f"L{i}: written_at '{r['written_at']}' does not parse")
         elif r["written_at"] < last_written: probs.append(f"L{i}: written_at goes backwards ({r['written_at']} < {last_written})")
         else: last_written = r["written_at"]
-        key = (r["wq"], r["event"], r["at"], r["status_after"])
-        if key in seen: probs.append(f"L{i}: duplicate event {key}")
-        seen.add(key)
+        # Several real corrections can share a day, status, and even minute.
+        # Reject repeated payloads for the same WQ, not distinct updates. A
+        # later return to an earlier state after an intervening change is valid.
+        key = tuple(r[c] for c in SCHEMA if c != "written_at")
+        if previous_event.get(r["wq"]) == key:
+            probs.append(f"L{i}: duplicate event for WQ-{r['wq']}")
+        previous_event[r["wq"]] = key
     for l_i, l in enumerate(lines[1:], start=2):
         if l:
             c = l.split("\t")
