@@ -18,11 +18,11 @@ import exempt_gap  # noqa: E402
 TODAY = dt.date(2026, 9, 11)
 
 
-def sig(root, sid, action, date=None):
+def sig(root, sid, action, date=None, key="action", idkey="signal_id"):
     d = sid.split("-")[2]
     (root / "BOARD").mkdir(exist_ok=True)
     (root / "BOARD" / f"{sid}-fixture.md").write_text(
-        f"---\nsignal_id: {sid}\ndate: {d[:4]}-{d[4:6]}-{d[6:]}\naction: [{action}]\ninfo: [PROME]\n---\n"
+        f"---\n{idkey}: {sid}\ndate: {d[:4]}-{d[4:6]}-{d[6:]}\n{key}: [{action}]\ninfo: [PROME]\n---\n"
         f"# headline for {sid}\n", encoding="utf-8")
 
 
@@ -109,6 +109,16 @@ class ExemptGap(unittest.TestCase):
         (self.root / "AGENTS" / "WALTER" / "tools" / "walter_doctor.py").write_text("nothing here\n")
         _, note = self.run_scan()
         self.assertIn("fallback", note)
+
+
+    def test_legacy_to_key_and_bare_id_key_are_read(self):
+        # 585 April–July BOARD files use `to:` for the action line; 104 use bare `id:` (TERRY 9/11).
+        sig(self.root, "SIG-W-20260720-001", "CARL", key="to")
+        sig(self.root, "SIG-W-20260820-003", "CARL", idkey="id")
+        ledger(self.root, "CARL/board/BOARD_LOG.tsv", [])
+        c = self.by(self.run_scan()[0], "CARL")
+        self.assertIn("SIG-W-20260720-001", c["aged"])
+        self.assertIn("SIG-W-20260820-003", c["aged"])
 
 
 if __name__ == "__main__":

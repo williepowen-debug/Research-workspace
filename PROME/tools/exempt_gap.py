@@ -14,7 +14,7 @@ This script is that third party. It does not depend on the desk running anything
 What it measures, per exempt desk D (the set is READ from walter_doctor.py's PULL_COMPLETE —
 the declared reference — never re-typed here; PROME is excluded because board_scan.py is its own
 blocking check):
-  * every BOARD signal whose `action:` line names D (info-cc lines are not the exemption's risk)
+  * every BOARD signal whose `action:` line (or the legacy `to:` line, pre-v0.12) names D — info-cc lines are not the exemption's risk
   * whether that signal_id appears in ANY of D's BOARD consumption ledgers (live + archived)
   * flags an unlogged action signal once it is >= --min-age-days old (default 2 — a desk that
     booted since dispatch and did not log it is the failure; a signal dispatched an hour ago is not)
@@ -98,7 +98,10 @@ def load_signals(root):
             continue
         sid = f"SIG-W-{d}-{n:03d}"
         fm = parse_front(p)
-        acts = [a.upper() for a in fm.get("action", [])]
+        # `action:` is the v0.12 (2026-07-27) key; 585 April–July files carry the legacy `to:` key with the
+        # same meaning (measured 2026-09-11 — TERRY's bare-`id:` finding prompted the census). A key-name
+        # census that reads only the new spelling fails OPEN on every legacy row, so both are read.
+        acts = [a.upper() for a in (fm.get("action") or fm.get("to") or [])]
         sigs[sid] = (dt.date(int(d[:4]), int(d[4:6]), int(d[6:8])), acts, fm.get("_headline", ""))
     return sigs
 
