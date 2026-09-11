@@ -73,6 +73,12 @@ BOOT_SEQUENCE = [
     # STATUS asserted a sixth, same day — and no check in this agent could see it,
     # because a missed thesis bump ages nothing and reddens nothing. Built 8/4.
     ("Thesis currency (advisory; built 8/4)", "thesis_bump_check.py", ["--boot"], False),
+    # F-B is a falsifier this desk registered against its OWN cheap-vol verdict,
+    # pre-CPI, with nothing riding on it. A registered prediction whose resolver
+    # nobody runs is graded by whoever remembers it, which is how the 8/5 SOQ
+    # grade went 13 days late (KB-VIO-196). Wired at boot so the 9/16 grade is
+    # mechanical. Prints progress before the window closes; harmless after.
+    ("F-B falsifier (SPX realized vs 17.84% implied; built 9/11)", "fb_grade.py", [], False),
 ]
 
 KEY_MARKERS = (
