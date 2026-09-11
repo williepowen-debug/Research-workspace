@@ -68,3 +68,42 @@
 ## Correction 2026-09-11 to row ① (**"CENTCOM DESTROYED five tankers"**)
 
 The row's trailing clause — *"NONE sunk, total losses stay 2"* — **was FALSE and is corrected here: the M/T Riesco SANK on 2026-09-08** (CENTCOM's own post + published footage), so **confirmed hostile-action total losses are 3** (`KB-FALCON-157`). The *"destroyed" ≠ "rendered inoperable"* distinction the row exists to teach **still stands**; what failed was the count appended to it. ⚠️ **A stale clause inside a FALSE-FIRE REGISTER is the worst place for one** — the file a reader consults to avoid believing a wrong thing was itself carrying one for three days. `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`
+
+---
+
+## 🔴 RESOLUTION 2026-09-11 ~21:4x ET to row ⑤ — **THE UNDERLYING EVENT IS CONFIRMED. THE ROW WAS STILL CORRECT, AND THE DISTINCTION IS THE WHOLE POINT OF THIS FILE.**
+
+**What resolved:** the **Saudi Ministry of Energy** stated on X (Fri 2026-09-11) that the **East-West pipeline is SHUT DOWN 'as a precautionary measure'** following **'multiple' attacks in the Riyadh and Madinah regions** on Thursday 9/10. **Pre-committed resolver #1 fired.** **STATUS tell #2 → FIRED.** `KB-FALCON-172`
+
+⚠️ **DO NOT READ THIS AS "THE REGISTER WAS WRONG." A false-fire row asserts that the EVIDENCE did not support propagation — never that the claim is false.** Row ⑤ said, precisely: *"UNCONFIRMED AT EVERY PRIMARY. Do not propagate as fact."* **That was true when written and is still true about the evidence that existed then.** The desk declined to grade on a claimant-aligned source with self-contradicting instruments, wrote down five things that would decide it, and **one of them landed within 24 hours.** That is the register working exactly as designed — **it bought a correct answer at the cost of one day, and the alternative was propagating a claim on RT's word and being right by luck.**
+
+**What is confirmed, and what from row ⑤ is STILL unsupported:**
+
+| Claim | Now |
+|---|---|
+| A strike on the Petroline ~9/10 | ✅ **CONFIRMED** — attacks 9/10, line shut by the state |
+| *"6 FIRMS hotspots"* | ❌ **STILL UNSUPPORTED.** Own first-party pull finds **four distinct fire zones**, not six hotspots |
+| *"FRP >70 MW across a stretch of only a few kilometres"* | ❌ **REFUTED as stated** — the zones are **66–156 km apart**, not a few km |
+| *"a few km SE of Medina"* | ❌ **REFUTED.** Nearest detection is **66 km** from Medina. Replicated independently by PROME's pull and my own |
+| *"Sentinel-3 plume ~100 km long"* | ❓ **UNTESTED** — different instrument family, not checked |
+| Strike time **17:56Z** | ❌ **REFUTED as an EVENT time** — first ignition **09:30Z**, **8.5 h earlier**. It is a REPORT time |
+| Houthi authorship | ❌ **STILL UNSUPPORTED** — no claim of responsibility; drones reported from **IRAQ** (one US official), responsibility unestablished |
+
+🔑 **THE LESSON, AND IT IS NOT THE COMFORTABLE ONE:** **the claimant-aligned source was directionally right and specifically wrong on every checkable particular.** Had this desk propagated row ⑤'s content, it would have carried a false hotspot count, a false geometry, a false location, a false time and a false attacker — *into a week when the Petroline is the most consequential asset on the board*. **Being right about the headline is not being right.** `[[finding_exact_level_authenticates_a_wrong_direction]]` — the precise particulars were what made it credible, and the particulars are what failed.
+
+**Row ⑤ status: CLOSED — event confirmed at a primary; its specific evidentiary claims remain listed above as unsupported/refuted.**
+
+---
+
+## Row ⑥ — added 2026-09-11 ~21:4x ET · **"Saudi East-West pipeline hit by drone strike just after U.S.-Iran ceasefire announcement"** (Barchart, 2026-09-10/11)
+
+**Status: 🔴 RECIRCULATION TRAP. There is NO new US-Iran ceasefire. Do not move the B mark on this.**
+
+**The headline is half-true, which is what makes it dangerous:** the pipeline strike is real (row ⑤ resolution above). **The ceasefire is not new.** The referenced ceasefire is the **2026-04-08 Pakistan-brokered truce**, whose **MOU expired 2026-08-17** and whose collapse is already on this desk's record. **VERIFIED by independent sweep 2026-09-11: no ceasefire announcement on or near 9/11** (Britannica 2026 Iran war; House of Commons Library CBP-10637; CRS IN12678; Wikipedia *2026 Iran war ceasefire* — all date the truce to April 8).
+
+**Why it is registered rather than ignored:**
+1. **A fresh-ceasefire read would move B materially in the WRONG direction** at the exact moment the theater escalated. B **stays 3**.
+2. **A true fact and a stale fact fused into one sentence** is the `[[finding_fused_true_facts_false_premise]]` class — the verifiable half authenticates the unverifiable half.
+3. 🔑 **SECOND recirculation trap on this ONE asset in TWO days** (row ⑤ carries a 2019-attack-footage trap; this is a stale-ceasefire trap). ⇒ **THE PETROLINE IS A HIGH-RECIRCULATION SUBJECT. Every claim about it gets a DATE-CHECK FIRST** — before the theater check, before the gate check. **Promote the date-check to first position for this asset specifically.**
+
+`KB-FALCON-179`
