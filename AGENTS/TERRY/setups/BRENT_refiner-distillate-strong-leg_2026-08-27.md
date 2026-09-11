@@ -176,3 +176,49 @@ BRENT ruled the §5 definitional question **in my favour and against his own mor
 ⛔ **Both are blocked on: Will's intended oil-exposure ceiling, and a re-measured refiner day-colour on the day of the fill.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## 🔴 RE-ARM — 2026-09-11 Fri 10:59 ET (`date` wall clock, copied not inferred). **GATE MEASURED. GATE FAILS. NO FILL TODAY.**
+
+**Why this block exists:** WQ-213 (Will, 2026-09-10 16:42, ruled AGAINST PROME's WITHDRAW rec) is **PLACE IT — at a FRESH mark, on a day the refiners are red against oil**, rule #6 re-measured on the card before the fill. PROME's 9/11 morning packet reported the **9/10** tape met that gate and asked for the re-arm. **It did. Today does not.** ⛔ **`$0` MOVED · NO ORDER PLACED · NOTHING PROPOSED · NO GATE MOVED OR SHAVED.**
+
+### ① THE GATE, WRITTEN AS A MEASURABLE BIDIRECTIONAL LINE (the thing this card was missing)
+
+> **ENTRY GATE (rule #6, direct measurement — replaces "refiners red against oil" as prose):**
+> On the intended fill day, at the moment of the fill: **the refiner leg you are buying must be DOWN on the day (`%chg < 0`) AND `USO` must be UP on the day (`%chg > 0`).** Both legs, same pull, same timestamp, stamped on this card before the ticket.
+> **Corroboration (not gating):** `CRAK` and the peer set `MPC`/`PSX`/`DINO` should agree in sign with the leg being bought; **a lone-refiner divergence against its whole complex is a single-name story, not the day-colour condition this gate is testing.**
+> ⛔ **The gate is a `MOMENT` property (`RISK_RULES` #14). It answers for the session that measures it and NO other. A gate met on day D and not filled is DEAD on day D+1 — re-measure or do not fill.** *(Precedent, this desk, already in `RISK_RULES`: the open USO Oct-16 135C break — "the 8/21 figures are NOT a standing pass … they expired with the session that produced them.")*
+
+### ② TODAY'S MEASUREMENT — the gate fails, and it fails INVERTED
+
+| Instrument | 2026-09-11 10:59 ET | Gate wants | Verdict |
+|---|---:|---|---|
+| **VLO** (the leg) | **$393.88 · +2.19%** | **DOWN** | ❌ **FAILS — up** |
+| **USO** (crude) | **$153.77 · −2.91%** | **UP** | ❌ **FAILS — down** |
+| MPC | $402.70 · +2.62% | (corrob. down) | ❌ up |
+| PSX | $262.09 · +1.38% | (corrob. down) | ❌ up |
+| DINO | $111.12 · +3.16% | (corrob. down) | ❌ up |
+| CRAK | $65.93 · +0.49% | (corrob. down) | ❌ up |
+
+**⇒ BOTH legs fail, in opposite directions to the gate. This is not a marginal miss — it is the exact inverse of the 8/27 approval tape and of the 9/10 tape PROME read.** On 8/27 the entry was clean *because* the two legs decoupled with crude green and refiners red; **today they have decoupled the other way.** ✅ **PROME's independent 10:05 dashboard read agrees** (VLO +3.21% / MPC +4.17% / PSX +2.33% vs USO −3.31%) — two pulls, same sign, no dispute.
+
+### ③ FRESH MARK — the `$1,033` is dead, and the size moved against us
+
+| | 8/27 approval | **2026-09-11 10:59 ET** | Δ |
+|---|---:|---:|---:|
+| VLO last | `344.50` | **`393.88`** | **+14.33%** |
+| **3 × VLO** | **`$1,033`** | **`$1,181.64`** | **+$148.64** |
+
+⚠️ **`$1,033` is RETIRED on this card and must not be re-cited.** The approved *decision* was route (i), `3 × VLO`; **the approved SIZE was a mark that no longer exists.** The same 3 shares now cost **14.3% more**, which is a fact for Will at the fill, not a reason to re-argue the trade.
+**On the `$500` cap:** at `$1,181.64` notional the cap still binds only at **−42.3%** (was −48%). **The cap is still not the operative limit; the concentration ceiling still is.** Neither was relaxed.
+
+### ④ WHAT IS AND IS NOT LIVE
+
+- ✅ **Will's WQ-213 word STANDS and is NOT overridden.** It carries its own condition; **I am ENFORCING that condition, not re-litigating the decision.** **WQ-213 stays OPEN, hands owed — blocked on a qualifying TAPE, not on TERRY and not on Will.**
+- ⛔ **The 9/10 gate does NOT carry forward.** Graded and delivered to PROME 2026-09-11 (`PROME/inbox/2026-09-11_from-TERRY_77P-delta-answered-VLO-gate-does-NOT-carry-…`, commit `c0f4e5d35`).
+- ⛔ **No new checkpoint is invented and no review date is set.** The gate is the management; it is measured on whatever day a fill is contemplated. *(A fresh dated review clause would be the silently-renewed-clause shape this desk refused on `TRY-FIRE-006` and again on `TRY-FIRE-004`.)*
+- ⚠️ **Everything else on this card is UNCHANGED and still binding:** the 80% undefended-linear ceiling, the unset oil-exposure ceiling (**Will never named it** — route (i) settled it for the `$1,033` add ONLY, and that add has not happened), route (ii) trim-USO-first still **not approved and not dead**, and §7's single-asset operational risk at 3 shares.
+- 🔑 **The `$1,181.64` re-mark sharpens §10's standing objection rather than answering it:** a **+20%** move on this position now makes **~$236** and still will not change the book. **That objection was live at `$1,033` and is no weaker at `$1,182`.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Nothing here is a new proposal; WQ-213's approval stands and the FILL waits on a qualifying measurement.**
