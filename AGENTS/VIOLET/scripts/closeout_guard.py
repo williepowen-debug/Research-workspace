@@ -37,6 +37,7 @@ WHAT IT AGGREGATES
   · `grading_note_check.py`— catalyst notes citing retracted KB rows
   · `validate_workbook.py` — KB schema conformance (errors only, not the
                              ACTIVE-past-Stale_By WARN, which is by design)
+  · `run_tests.py`         — the frozen offline regression suites
   · `surface_agreement.py`  — the SAME figure must read the same on STATUS,
                              NEXUS_BRIEF, SCRATCH and LAST_COMPLETION. Added
                              2026-09-04 after the convergence score was live as
@@ -87,6 +88,14 @@ BLOCKING = [
     # work; at closeout it is a ledger you shipped with holes in it, and every
     # `^SKEW` sustain claim is counted from that ledger.
     ("VX_DAILY session completeness", "vx_daily_gapcheck.py", ["--quiet"]),
+    # 9th contract, added 2026-09-11 (D#14). The frozen offline suites in
+    # scripts/tests/ existed for a day with NOTHING invoking them — SCRATCH's own
+    # next-session list called it "18 checks nobody runs". Every suite there
+    # exists because a guard shipped broken, so an unrun suite is the same
+    # detection-without-action shape this whole file was built to end.
+    # run_tests.py discovers suites (so a new one needs no wiring here) and fails
+    # CLOSED on an empty or shrunken discovery.
+    ("Offline regression suites", "run_tests.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

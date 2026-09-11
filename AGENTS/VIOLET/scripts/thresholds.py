@@ -31,6 +31,10 @@ DAILY_LOG = VIOLET_DIR / "workbook" / "VX_DAILY.tsv"
 VIX_FUTURES_CLI = WORKSPACE / "FORGE" / "tools" / "market-data" / "vix_futures.py"
 VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 
+# Publisher of record for the spot complex. yfinance is the FALLBACK only
+# (KB-VIO-283) — see cboe_quote().
+CBOE_QUOTE_URL = "https://cdn.cboe.com/api/global/delayed_quotes/quotes/{sym}.json"
+
 TICKERS = {
     "vix": "^VIX",
     "vix9d": "^VIX9D",
@@ -97,8 +101,80 @@ def last_bar_et_date(sym: str) -> date | None:
         return None
 
 
+def cboe_quote(sym: str, timeout: float = 12.0) -> dict | None:
+    """Publisher-of-record quote for a CBOE index: the value AND the ET timestamp
+    it was struck at, fetched TOGETHER in ONE call.
+
+    `sym` is the yfinance spelling ('^SKEW'); CBOE's is '_SKEW'.
+
+    Returns {'value': float, 'et_date': date, 'prev_close': float|None}, or None
+    if the endpoint, the payload or any required field is unusable. **None means
+    UNUSABLE, never "stale"** — the caller falls back to yfinance; it must not
+    delete data on a None (auto-memory finding_single_witness_guard_deletes_real_data).
+
+    WHY THIS EXISTS (KB-VIO-283, built 2026-09-11):
+    `last_bar_et_date()` below answered "does this quote belong to TODAY?" from a
+    5-MINUTE INTRADAY bar feed. ^SKEW publishes EOD ONLY and therefore has no
+    same-day intraday bar AT ANY HOUR, so the witness returned T-1 for ^SKEW on
+    every post-close run while returning T correctly for the five series that do
+    quote intraday. The guard then suppressed a REAL, publisher-confirmed close
+    and printed "the quote belonged to a PRIOR session" — which was false: the
+    9/11 value 154.49 differed from the 9/10 close 147.02, so it was neither a
+    forward-fill nor a prior quote. It was a genuine print the witness could not
+    see. This is the OMISSION mode (mode 1 of the KB-VIO-281 census) arriving
+    from my own instrument rather than from the mirror.
+
+    🔑 `last_trade_time` is the publisher's OWN staleness signal — precisely the
+    thing `fast_info['lastPrice']` lacks and that the docstring below complains
+    about. It is correct in BOTH windows and for BOTH publication modes:
+    pre-open it reports T-1 for the EOD-only and the non-pre-open series (so the
+    original KB-VIO-139 defect is still caught) and T for ^VIX, which does quote
+    pre-open; post-close it reports T for everything that has printed.
+
+    Taking the VALUE from the same call closes the second half of the defect.
+    Validating a yfinance value with a CBOE timestamp is a wrong-reference pair
+    of exactly the class this desk keeps finding
+    ([[finding_instrument_reports_clean_against_the_wrong_reference]]), and it
+    also retires the standing "thresholds.py writes the leading-edge row from
+    yfinance" item — the window in which an FT-10 bar is graded.
+    """
+    import urllib.request
+
+    url = CBOE_QUOTE_URL.format(sym="_" + sym.lstrip("^"))
+    try:
+        with urllib.request.urlopen(url, timeout=timeout) as fh:
+            payload = json.loads(fh.read().decode())
+    except Exception:
+        return None
+    d = (payload or {}).get("data") or {}
+    ts = d.get("last_trade_time")
+    if not ts:
+        return None
+    try:
+        et_day = datetime.fromisoformat(str(ts)).date()
+    except (TypeError, ValueError):
+        return None
+    try:
+        value = float(d.get("close"))
+    except (TypeError, ValueError):
+        return None
+    if not value > 0:          # CBOE serves 0.0 for an index that has not printed
+        return None
+    try:
+        prev = float(d.get("prev_day_close"))
+    except (TypeError, ValueError):
+        prev = None
+    return {"value": round(value, 4), "et_date": et_day, "prev_close": prev}
+
+
 def fetch_spot(verify_dates: bool = True) -> dict:
     """Fetch spot levels for the vol complex.
+
+    SOURCE ORDER (changed 2026-09-11, KB-VIO-283): CBOE's delayed-quotes API is
+    the PUBLISHER OF RECORD and is tried first — it returns the value and the
+    timestamp it was struck at in one call. yfinance + `last_bar_et_date()` is
+    the FALLBACK, used only when CBOE is unreachable or serves an unusable
+    payload. Each column records which source answered in `<key>_src`.
 
     ⚠️ THE DEFECT THIS GUARDS (KB-VIO-139/145, built 2026-07-30 after it fired
     three consecutive sessions and nearly false-tripped a live exit guard):
@@ -114,6 +190,14 @@ def fetch_spot(verify_dates: bool = True) -> dict:
     the contaminated 7/28 row, stand-down (iv) would have read −7.05pt =
     TRIPPED against a >5pt line; the true reading was −3.43pt = not tripped.
 
+    ⚠️ AND THE DEFECT THE GUARD ITSELF CARRIED (KB-VIO-283, fixed 2026-09-11):
+    the witness must be able to SEE an EOD-only series' same-day print. A
+    5-minute intraday feed structurally cannot, so it suppressed real ^SKEW
+    closes on every post-close run — a guaranteed miss, not an occasional one.
+    Blast radius was bounded (backfill.py refills the cell from CBOE the next
+    session, so exactly one blank existed across 420 rows) but the delayed
+    session is the one a closeout reads. See `cboe_quote()` above.
+
     Per KB-VIO-139's own spec: a TICK row writes NULL for a column it cannot
     source — it never carries the prior day's. Returns values with
     `<key>_stale = True` marked and the value set to None for confirmed-stale
@@ -124,17 +208,24 @@ def fetch_spot(verify_dates: bool = True) -> dict:
     out = {}
     today_et = datetime.now(timezone.utc).astimezone(ET).date()
     for key, sym in TICKERS.items():
-        try:
-            tk = yf.Ticker(sym)
-            val = round(float(tk.fast_info["lastPrice"]), 4)
-        except Exception as e:
-            out[key] = None
-            out[f"{key}_error"] = str(e)
-            continue
+        q = cboe_quote(sym)
+        if q is not None:
+            val, bar_date, src = q["value"], q["et_date"], "CBOE"
+            out[f"{key}_prev_close"] = q["prev_close"]
+        else:
+            try:
+                tk = yf.Ticker(sym)
+                val = round(float(tk.fast_info["lastPrice"]), 4)
+            except Exception as e:
+                out[key] = None
+                out[f"{key}_error"] = str(e)
+                continue
+            bar_date = last_bar_et_date(sym) if verify_dates else None
+            src = "yfinance"
+        out[f"{key}_src"] = src
         if not verify_dates:
             out[key] = val
             continue
-        bar_date = last_bar_et_date(sym)
         if bar_date is None:
             # Could not establish a data-date. KEEP the value, flag it.
             out[key] = val
@@ -445,6 +536,8 @@ def build_report(supersede: bool = False) -> dict:
         "daily_log_status": log_status,
         "m1m2_raw": m1m2,
         "stale_suppressed": stale,
+        "stale_dates": {k: spot[f"{k}_stale_date"] for k in TICKERS if spot.get(f"{k}_stale")},
+        "spot_sources": {k: spot.get(f"{k}_src") for k in TICKERS if spot.get(f"{k}_src")},
         "unverified": unverified,
         "ratio_suppressed": bool(stale.get("vix3m") or stale.get("vix")),
     }
@@ -462,9 +555,19 @@ def print_report(rep: dict):
     # (auto-memory finding_silent_blank_evades_review).
     stale = rep.get("stale_suppressed") or {}
     if stale:
-        cols = ", ".join(f"{k}(would have written {v})" for k, v in sorted(stale.items()))
+        dates = rep.get("stale_dates") or {}
+        cols = ", ".join(
+            f"{k}(would have written {v}" + (f", last printed {dates[k]}" if dates.get(k) else "") + ")"
+            for k, v in sorted(stale.items())
+        )
         print(f"  🛡️  STALE-COLUMN GUARD FIRED — wrote NULL for: {cols}")
-        print(f"      These indices do not publish pre-open; the quote belonged to a PRIOR session.")
+        # State the WITNESSED fact, never a blanket cause. The old text asserted
+        # "these indices do not publish pre-open" unconditionally and was FALSE on
+        # every post-close run (KB-VIO-283): a guard that prints a fixed reason
+        # eventually prints it for a case it does not fit, and the wrong reason is
+        # what a reader acts on.
+        print(f"      The publisher's last-print timestamp PREDATES today's session, "
+              f"so the quote is a prior session's close.")
         if rep.get("ratio_suppressed"):
             print(f"      ↳ vix3m_vix_ratio SUPPRESSED too (a cross-date ratio is not a ratio) — "
                   f"stand-down (ii) is UNGRADEABLE off this row, by design.")
