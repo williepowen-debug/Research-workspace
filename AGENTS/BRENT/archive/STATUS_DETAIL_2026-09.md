@@ -303,7 +303,7 @@ August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4
 **Tape re-based (Yahoo delayed, live bars 12:00–12:03 ET, not settles):** `BZX26` **106.58** (9/9 daily-bar close **101.21**, agrees to the cent with the CNBC-relayed ICE settle, +3.4%, highest since 5/22; Yahoo prev-close field prints 101.00 — vendor inconsistency noted) · `CLV26` 101.13 · `CLX26` 97.21 · **Nov–Jan `BZX26`−`BZF27` +9.17** (from +7.54 9/9, +6.62 9/8 bars) · WTI−Brent Nov **−9.37** · matched-Nov ULSD crack **105.53** (+7.6), RBOB 36.46 · OVX **56.88 (+14%)** · USO 156.74 · **XLE 65.17 (−0.5%) on a +5% crude day** · STNG/FRO/DHT +1.1/+0.9/+0.5%. Third straight +3%+ session: five Iranian hulls struck 9/8 (Riesco SANK, CENTCOM), Iran's claimed 10-vessel wave 9/9, two non-Iranian hulls hit 9/9 (Hercules Star, Dubai anchorage, 1 dead; New Andros ~2.0M bbl Iraqi fuel oil off Al-Faw, afloat), SNSC "exclusion zone" declared, ECB +25bp on energy, PPI diesel +24.1%. Full catalyst list with sources → [report §3](research/2026-09-10_wpsr/REPORT.md).
 
 
-### ③ September 11 BG-02 four-instance grade table — ROTATED VERBATIM 2026-09-11 ~10:5x ET (1145 B; crc32 `cfbafe3e`)
+### ③ September 11 BG-02 four-instance grade table — ROTATED VERBATIM 2026-09-11 ~10:2x ET (1145 B; crc32 `cfbafe3e`)
 
 > **Standing value retained in STATUS:** the grade itself — **⛔ NOT MET on all four instances**, `$0` moved. Full per-instance reasoning is canonical in [`setups/2026-09-11_petroline-frame-breaker-adjudication.md`](../setups/2026-09-11_petroline-frame-breaker-adjudication.md); this table was the STATUS restatement of it, not the record.
 
@@ -314,41 +314,41 @@ August STEO baseline frozen: world inventory draw **3.8454 mb/d Q3 → 0.6257 Q4
 | ③ vessel SUNK + cargo/throughput loss | ⛔ **N/A** | No hull. The reported Hormuz two-vessel/four-missile strike is **UNVERIFIED — recorded, NOT graded** (no primary, no name, no laden state, no cargo figure). |
 | ④ measurable fall in Gulf export/transit throughput | ⛔ **NOT MET** | **No throughput instrument has printed.** Yanbu crude+condensate loadings **~3.7 mb/d early September** [CONF Gulf News 9/11]; no post-event print exists. An unprinted series is not a fall. |
 
-### ④ September 11 note on the 8/7 "no re-present absent a NEW event-class arm" rule — ROTATED VERBATIM 2026-09-11 ~10:5x ET (714 B; crc32 `667502ba`)
+### ④ September 11 note on the 8/7 "no re-present absent a NEW event-class arm" rule — ROTATED VERBATIM 2026-09-11 ~10:2x ET (714 B; crc32 `667502ba`)
 
 > **Standing value retained in STATUS:** class-novelty is NOT the gate; the carve-out deploys on leg (b) alone, so the HEAD CLAUSE is the test. The three fire gates are canonical in [`TRADE.md`](../TRADE.md) §FRAME-BREAKER STATE.
 
 **⚖️ On the 8/7 "no re-present absent a NEW event-class arm" rule — AGREE with PROME on the outcome, CONTEST the framing.** Petroline **is** a new event class on the facts. But **class-novelty is not the gate**: the 8/7 retirement of record makes the carve-out survive and deploy **on leg (b) alone**, so the test is the **head clause**. A new class reading zero barrels does not fire; a met head clause fires regardless of novelty. Letting novelty become the operative test re-creates exactly the cheap second trigger WQ-189 closed. It returns to Will as a fresh ask anyway — **because WQ-192 must be lifted in Will's own words and BG-02 requires his [Approve] at the fill**, not because the class is new.
 
 
-### ⑤ September 11 inbox-drain / SIG-014 / SIG-020 paragraph — ROTATED VERBATIM 2026-09-11 ~10:5x ET (825 B; crc32 `4c6f5c23`)
+### ⑤ September 11 inbox-drain / SIG-014 / SIG-020 paragraph — ROTATED VERBATIM 2026-09-11 ~10:2x ET (825 B; crc32 `4c6f5c23`)
 
 > **Standing values retained in STATUS:** the SIG-020 named-contract correction (HOX26 4.920 $/gal = $206.64/bbl; matched-Nov ULSD−CLX26 crack **107.08**, leg high) and the SIG-014 finding that the US gas complex is DECOUPLED from the crude/LNG war premium (EIA primary check still owed). Mail state is canonical in `board_log.tsv`.
 
 **Inbox drained: 7 consumed, 7 board_log rows, 7 `git mv`'d** (SAM ×2 · SIG-014 natgas · 018 BWET · 019 Mokha · 020 diesel · 021 Petroline). **SIG-014 SCORED:** US lower-48 dry gas record >110 Bcf/d 8/31 with HH <$3 on the day BZX26 settles 108.95 and TTF holds €80.90 ⇒ **the US gas complex is DECOUPLED from the crude/LNG war premium**; the US industrial energy-cost channel is a LIQUIDS story (PPI diesel +24.1%), not a gas story, and the US–EU arb sits at an extreme. Relay-only (Meyer citing S&P/AGA) — **check owed at the EIA primary before any surface cites it as fact**; no test registered. **SIG-020 named-contract correction applied:** $216.26 is the **continuous front (Oct)**, not my contract — on my basis **HOX26 4.920 $/gal = $206.64/bbl**, matched-Nov **ULSD−CLX26 crack 107.08** (leg high).
 
 
-### ⑥ September 11 "What IS established" FIRMS paragraph — ROTATED VERBATIM 2026-09-11 ~10:5x ET (576 B; crc32 `c9a99640`)
+### ⑥ September 11 "What IS established" FIRMS paragraph — ROTATED VERBATIM 2026-09-11 ~10:2x ET (576 B; crc32 `c9a99640`)
 
 > **Standing values retained in STATUS:** FIRMS shows FIRE, not CAUSE and not BARRELS; and the Saree *"eastern Saudi Arabia to Yanbu"* claim that surfaces in search is **27 July 2026**, a DIFFERENT event.
 
 **What IS established:** six FIRMS thermal hotspots, **FRP >70 MW**, persisting **~8 h**, clustered over a few km SE of Medina, 2026-09-10 [VERIFIED as a report of thermal data]. **FIRMS shows FIRE, not CAUSE, and not BARRELS.** No Houthi claim for this event [SEARCH-NOT-FOUND] — ⛔ the Saree *"eastern Saudi Arabia to Yanbu"* claim that surfaces in search is **27 July 2026**, a different event (date checked at the artifact). ⛔ **Both the 2019 trap and the April-2026 trap are live in search results** — WALTER's SIG-021 guard named them in advance and it was right.
 
 
-### ⑦ September 10 SETTLES paragraph — ROTATED VERBATIM 2026-09-11 ~11:0x ET (726 B; crc32 `c9d32e53`)
+### ⑦ September 10 SETTLES paragraph — ROTATED VERBATIM 2026-09-11 ~10:2x ET (726 B; crc32 `c9d32e53`)
 
 > **Superseded on tape by the 9/11 open.** Standing values retained in STATUS: the 9/10 settled basis used for the Boundary #8 retraction, and Will's 9/10 ruling NO on both sides.
 
 **9/10 SETTLES (vendor daily bars after session end; not ICE-authenticated):** `BZX26` **108.95 (+7.65%)** · `BZZ26` 103.85 · `BZF27` 99.01 ⇒ **Nov–Jan +9.94** · `CLV26` 103.93 · `CLX26` 99.56 ⇒ WTI−Brent Nov **−9.39** · `HOX26` 4.920 / `RBX26` 3.245 ⇒ **Brent-basis 3:2:1 = 50.79, WALTER Boundary #8 CROSSED (session 1 of 2–3)** · USO 158.38 · XLE 64.93 (−0.58%) · **OVX 60.76 (+21.9%)**. Will asked whether to add oil positions: **NO on both sides** — STAND DOWN, root rule #6 on a +7.65% day, no BG-02/BE-01 trigger; vehicles pre-priced in [setups/2026-09-10_new-oil-position-review.md](setups/2026-09-10_new-oil-position-review.md). XLE 65C now **×1** (FORGE 9/10: one sold, date/price unknown).
 
-### ⑧ September 10 WQ-189 instance ③ grade paragraph — ROTATED VERBATIM 2026-09-11 ~11:0x ET (768 B; crc32 `572ffa50`)
+### ⑧ September 10 WQ-189 instance ③ grade paragraph — ROTATED VERBATIM 2026-09-11 ~10:2x ET (768 B; crc32 `572ffa50`)
 
 > **Standing values retained in STATUS:** Riesco/New Andros/Hercules Star all ⛔ NOT MET; Sep-18 spread CLOSED +$330 (+110%); XLE receipt L253 still pending.
 
 **WQ-189 instance ③ graded (BG-02):** Riesco **NOT MET** on the already-interdicted limb — grade does not turn on laden state (answered FALCON's ask); New Andros and Hercules Star **NOT MET** (afloat, no cargo/throughput loss). **$0 moved; WQ-192 STAND DOWN binds; no arm, no proposal.** Positions: **Sep-18 150/165 spread CLOSED by Will ~15:1x for $630 (+$330, +110%)** — WQ-207 discharged unexecuted; new Will-hand USO 159C 9/11 ×1 @1.52 (no rule); XLE exit receipt still pending (L253). Delayed option indications in [report §2](research/2026-09-10_wpsr/REPORT.md). Inbox: 10 packets consumed, logged, moved. Completion memo → `PROME/inbox/`. Boot rc=2 (weekly-freshness finding now cleared by this read; BRT-29 M and instrument-coverage findings remain).
 
 
-### ⑨ September 11 RESOLVER PRE-REGISTERED paragraph — ROTATED VERBATIM 2026-09-11 ~11:1x ET (1214 B; crc32 `c1297d94`)
+### ⑨ September 11 RESOLVER PRE-REGISTERED paragraph — ROTATED VERBATIM 2026-09-11 ~10:3x ET (1214 B; crc32 `c1297d94`)
 
 > **Rotated because it was a DUPLICATE: the canonical resolver is the table in [`TRADE.md`](../TRADE.md) §FRAME-BREAKER STATE.** One source of truth per metric — STATUS now points, TRADE owns.
 

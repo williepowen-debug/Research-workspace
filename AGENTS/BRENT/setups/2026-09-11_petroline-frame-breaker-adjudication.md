@@ -3,7 +3,7 @@
 **Written:** 2026-09-11 ~00:0x–00:4x ET · **Session:** PROME-spawned Tier-1 follow-up (Will 2026-09-10 23:54 ET, verbatim *"ok approbed go ahead"*, war-triad workstream).
 **Adjudicated by:** BRENT against `setups/SPECS_GATES.md` BG-02 as amended 2026-09-07 14:42 ET (WQ-189).
 
-> ⛔ **CORRECTION APPENDED 2026-09-11 ~11:1x ET — ONE FIGURE IN THIS NOTE IS RETRACTED; THE BG-02 GRADE IS NOT.**
+> ⛔ **CORRECTION APPENDED 2026-09-11 ~10:3x ET — ONE FIGURE IN THIS NOTE IS RETRACTED; THE BG-02 GRADE IS NOT.**
 > The **Boundary #8 / Brent-basis 3:2:1 = 50.79 "CROSSED, session 1"** reading below (§ tape table and the basis-sensitivity note) is **WITHDRAWN**. It was computed from an **18:0x still-forming daily bar**; on the SETTLED 9/10 bar (`BZX26` 107.63 / `HOX26` 4.8459 / `RBX26` 3.2063) the composite is **49.99 — NOT crossed**. The **48.67** alternative quoted below is **arithmetically invalid** (00:00 products differenced against 18:0x crude — mixed vintage). ⛔ **Stronger: $0.01 of margin against a ~$0.80 vendor-vintage spread ⇒ this boundary is NOT MEASURABLE at the resolution its letter demands** on this desk's instruments. **The original text is left UNCHANGED below — it is the dated record of what was concluded that night.** The BG-02 ⛔ NOT MET grade on all four instances is **unaffected** and stands; Boundary #8 is a WALTER row and was never a BG-02 input. Live surfaces corrected: `STATUS.md`, `NEXUS_BRIEF.md`, `demand_destruction/TRACKER.md`; correction packet sent to `PROME/inbox/`.
 **VERDICT: ⛔ NOT MET.** `$0` moved. Nothing armed, nothing deployed, nothing proposed for execution. WQ-192 STAND DOWN intact.
 **Report-before-execute:** a deploy ASK goes to Will only if the head clause is MET on the letter. It is not.

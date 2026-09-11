@@ -23,6 +23,16 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 **Staged, NOT proposed and NOT an order** — leg-(b) structure delivered to TERRY as a card INPUT: USO **Nov-20 165/180** call spread, 70 DTE, touch debit **4.80 = 32.0% of width** (BG-03 ≤33.0%), max loss **$480**, off USO **158.38** (9/10 close). ⛔ **RE-PRICE AT THE OPEN — USO gaps on any confirmation and every figure is void.** **Root rule #6 benchmark pre-registered at 32.0% of width** so the break test is falsifiable: legitimate only if the live chain at the fire shows the band-compliant vertical **cheaper than 32.0%**; *"the window is closing"* is a chase. Packet: [TERRY inbox 2026-09-11](../TERRY/inbox/2026-09-11_from-BRENT_staged-leg-b-structure-petroline-frame-breaker-NOT-A-CARD.md).
 
+**⛔ BREACH BRANCH — PRE-REGISTERED 2026-09-11 ~11:0x ET on TERRY's finding (packet `b00cbbad0`). This STRICTLY TIGHTENS: it pre-commits a REFUSAL, moves no gate, arms nothing, proposes nothing.**
+
+**If the live chain at the fire puts the band-compliant Nov-20 165/180 vertical above a touch debit of `$4.95`, the answer is NO TRADE.** No re-cut, no strike moved, no width changed, no tenor shortened, no rounding, no "it's only $10 over." The structure is refused and the session says so in writing.
+
+**Why `$4.95` and not `$5.00` — TERRY's finding, verified independently and it is STRONGER than stated.** Width 15 pts: BG-03 (≤33.0% of width) binds at **`$4.95`**; the ~$500 max-loss cap binds at **`$5.00`**. They do not merely coincide — **BG-03 is the TIGHTER of the two, so the cap is STRICTLY DOMINATED and can never refuse anything BG-03 has not already refused.** There is no debit at which the cap binds independently ⇒ **the `$500` cap contributes ZERO refusals in this structure; it is not a redundant second guard, it is an INOPERATIVE one.** ⚠️ **The protection here is SINGLE, not double**, and from the staged `$4.80` the headroom is **`$0.15` = 3.13%, once** — inside the noise of the gap-day chain this is designed to fire on. (RISK_SCORING 2b applied to gates rather than signals.) `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
+
+⚠️ **TAKE THE FIRE-TIME DEBIT FROM THE BROKER CHAIN, NOT `chain_fetch.py`** — TERRY measured the tool reading XLE 65C bid `1.66` against a broker `1.51` today, **~10% optimistic on the side you transact**. Working hypothesis: yfinance option bid/ask run ~15 min delayed while the tool prints them as live, and the freshness guard reads `lastTradeDate` — genuine, and therefore **blind to a stale QUOTE by construction**. **n=1, carried as n=1.** On a gapping strip the error will be larger than today's 10%, and it biases toward making a breaching debit look compliant — i.e. toward firing. `[[finding_freshness_check_cannot_catch_a_fresh_lie]]`
+
+**Unchanged:** the three gates all still required at any fire (BG-02 head clause on the letter · WQ-192 lifted in Will's own words · Will's [Approve] at the fill). This branch adds a fourth REFUSAL, never a permission.
+
 **Eligible monthly rolls (compute DTE at the fire):** Nov-20 eligible **through 9/21** · Dec-18 eligible **from 9/19** · both 9/19–9/21 · Dec-18 only from 9/22. Oct-16 is out and stays out (BG-04: a shorter tenor lowers debit-as-%-of-width and would loosen the only economic gate).
 
 ## POSITIONS (live)
