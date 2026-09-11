@@ -45,8 +45,8 @@
 >
 > | order | n | desks |
 > |---|---:|---|
-> | **`A12`** (conformant) | **3** | VULCAN · HOMER · **LABOR** *(reordered `5ee78189c`, 2026-09-07 12:27 ET)* |
-> | **`pre-A12`** | **14** | 🔴 **SAM** · FALCON · OTTO · BRENT · CARL · BROCK · RED · REGINALD · HAWK · HENRY · ZHAO · LIQUID · CORAL · MARCO |
+> | **`A12`** (conformant) | **4** | VULCAN · HOMER · **LABOR** *(reordered `5ee78189c`, 2026-09-07 12:27 ET)* · **SAM** *(reordered + compressed 110,084 → 16,106 B; `## CROSS-DOMAIN` at byte 766 — VERIFIED on disk 9/11 `grep -b`; the 🔴 load-bearing case is DISSOLVED)* |
+> | **`pre-A12`** | **13** | ~~🔴 SAM~~ · FALCON · OTTO · BRENT · CARL · BROCK · RED · REGINALD · HAWK · HENRY · ZHAO · LIQUID · CORAL · MARCO |
 > | **`n/a`** (no `## CROSS-DOMAIN`) | **9** | MIDAS · BOND · WAL · AEOLUS · WATT · SHADE · ORACLE · 🟡 VIOLET · 🟡 OSPREY |
 >
 > **Measured 2026-09-07 ~13:5x ET at the artifacts.** ⛔ **`n/a` means "the amendment cannot apply," NEVER "this brief is fine."** 🟡 **VIOLET and OSPREY carry `## VIEW` with no `## CROSS-DOMAIN`** — that matches neither the FULL variant nor amendment 9's COMPACT variant (COMPACT is defined by having *no VIEW/CALIBRATION split*). Open question, owed to a later pass.

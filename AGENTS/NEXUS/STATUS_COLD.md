@@ -465,3 +465,64 @@ Historical confirmed convergences in `CONFIRMED.md`. **C-36: OWNER-RULED 9/1 —
 *(crc32 4105015354, 369 B)*
 
 | **T-24** | R | **Japan long-end driver.** ⚪ **8/20 20Y AMBIGUOUS ⇒ NO-VERDICT**; floor **MOVED UP, not held or broken**. **9/3 30Y ⚪ UNREACHABLE-BY-CONSTRUCTION — does NOT count toward "two consecutive NO-VERDICTs"; that counter starts at the 9/29 40Y.** ⛔ **Do NOT bank the JGB move as an M-03 term-premium vote.** 📦 detail → `STATUS_COLD.md` §H7f. |
+
+### §H7n — 2026-09-11 rotation (L289 grade day): 9/07 header banner · split block · two docket rows · BOTTOM LINE · LAST RUN (verbatim)
+
+*Rotated by NEXUS 2026-09-11 ~10:5x ET to keep `STATUS.md` under the 32,550 B budget while the C#2 grade landed. Each block below is byte-identical to the 9/07 text it replaced; live conclusions are carried forward in `STATUS.md`.*
+
+**[header banner — forum falsifiers 9/07]** *(crc32 795063076, 1297 B)*
+
+🔒 **FORUM FALSIFIERS GRADED 2026-09-07 — full record `research/2026-09-07_forum_falsifiers_grade.md`. Both went against me.**
+> **ABN — BRANCH 1 MET ⇒ REPLACE, not tune.** **1 fire in 30 days** (8/08–9/06 replay over every `GATES.tsv` commit) + **0 today** ⇒ ≈**0.23/wk**, so the ~5/wk **nag branch is REFUTED numerically** — but **≥4 BOND-class waits occurred and ABN was silent on every one** (HENRY's gamma flip `[STALE 8/6]` with M-04 on it · OSPREY Ch-3 · RED-FT-09 · **this desk, dark twice, drained both times by a PROME spawn**). ⛔ **SCOPE, not calibration: 1 of 4 proposed surfaces, and without the cadence clause its own §3 called "the whole point."** 🔑 **Its successor fired 3 items on this same boot** (`spawn_list.py`, WQ-184) **vs ABN's 0.**
+> **COPY-KILL — NOT ZERO ⇒ 2 of 3 classes need a DECLARED FIELD** (the registered consequent). **KILL-1: 1 new** — `AGENTS/WALTER/CLAUDE.md:64` (9/03) puts a **cwd-relative dead path INSIDE a staleness guard**. **KILL-3: named instance CURED; 1 new** — `PROME/GATES.tsv`'s header restates the READ_CAP numbers. **KILL-2: never executed, in MY file** — `BRIEFS_MAP.md` said **25 briefs** for 35 days while disk said **26**; executed today. ⭐ **Both new instances were minted BY de-duplication passes.**
+
+**[probability-split block 9/07]** *(crc32 1703147865, 1425 B)*
+
+> ## Probability split, 2–6wk: **Break 20% (↓1) · Grind-lasts 47% (↑3) · Unresolved-divergence 33% (↓2)**
+> **Why it moved (9/02):** six previously-open instrument questions were CLOSED by their owners and **five of the six closed against the bear**; Break lost two legs of its weakest root (oil-physical) and gained one new root (**R11 China property**). **Unresolved fell because the window converted ambiguity into verdicts, not because the divergence resolved.** 📦 full text → `STATUS_COLD.md` §H7j.
+> ⚠️ **Disc-J, against myself:** the registered falsifier is still the T-12 instrument, which fired **C #1 of 2** and forces nothing. **This is an evidence re-weigh, NOT a falsifier-forced move**, and is written as such. Unresolved had sat **38/38/38/35/35/35 across six marks — first move in four.**
+> 🔒 **NON-RENEWABLE CLAUSE ARMED — C #1 of 2. A second C at ~9/11 CPI is THE ANSWER and FORCES the T-12 re-spec.**
+> 🆕 **The ADMISSION GATE is pre-registered (9/02, pre-window, base-rated at primary) → `research/2026-09-02_t12_respec_admission_gate_prereg.md`.** 🔴 **Its first result killed my own draft successor** (CCC ≥1100/≤950 = **1.2%/83.3%**, n=503) and the sweep showed **no spread-LEVEL spec is admissible under 21 sessions; minimum admissible 21 sessions ±50bp.** ⭐ **The resolution WINDOW was the unmeasured construction parameter — the 8/28 falsifier ran ELEVEN.**
+
+**[docket row 9/08→9/10 pre-registered check]** *(crc32 2072863397, 1477 B)*
+
+| 🔴 **2026-09-08 → 09-10** | 🔒 **THE EXACT CHECK TOMORROW'S READER RUNS — pre-registered before the cells exist.** ① **PJM / M-09:** §202(c) Order 202-26-41 lapses **23:59 ET 9/8**. Check the DOE Electricity-Emergency-Orders page + PJM emergency postings for **(a)** an order EXTENDING past 9/8 · **(b)** an EEA-2/EEA-3, voltage reduction or load shed · **(c)** a large-load direction actually issued under the clause. **ANY ⇒ M-09's PJM type converts ARMED → COUNTED** (9/03 disposition unchanged); WATT owns the grade (DOCKET L249). **A QUIET LAPSE ⇒ the type stays ARMED at 0pp and the row CLOSES — a clause that expired unexercised is evidence AGAINST the power-constraint leg, not neutral.** ② **T-12 / C#2 — decidable BEFORE 9/11.** Window cells left: **9/4, 9/8, 9/9, 9/10** (9/7 holiday, no observation). A sustained-3 run is 3 CONSECUTIVE cells ⇒ the only possible runs are **{9/4,9/8,9/9}** and **{9/8,9/9,9/10}** — **both contain 9/8 AND 9/9.** ⇒ 🔑 **NECESSARY CONDITION for any verdict but C: the 9/8 AND 9/9 cells are BOTH ≥280 (A) or BOTH <260 (B).** From HY 265 [9/3] that is +15bp or −6bp **held two days**. **If the 9/8 cell (publishes ~9/9) sits inside 260–280, A and B are arithmetically UNREACHABLE and C is LOCKED on 9/9, two days early.** ⚠️ **Grade only at the first boot on/after 9/11** (L1a + grade-date class rule); confirming reachability early is **not** grading. | 🔴 **FORWARD — pre-registered** |
+
+**[docket row ~9/11→9/30 pre-grade]** *(crc32 1531263495, 815 B)*
+
+| 🔴 **~2026-09-11 → 09-30** | 🔒 **9/11 Aug CPI = THE NON-RENEWABLE SECOND EVALUATION** (DOCKET L289) — the grade runs on the pinned 8/28→9/10 window, **not on the print**. 🔴 **First measured consequence: no CCC-spread-LEVEL spec is admissible under 21 sessions, so the successor CANNOT resolve at a single print** — three of the four pre-named candidates are flow/volume instruments **this desk has no feed for. That is the ASK.** Also first full-301 + partial-338 month, in blackout · 9/15-16 SEP · 9/17-18 BOJ · **9/29 40Y JGB — where SAM's NO-VERDICT counter actually starts** · 9/29 MU · **9/30 CARL kill-rule deadline · ZHAO's Sept construction tripwire** (>47.5 reverses the vector-5 upgrade; a 3rd sub-47 on the same attribution retires the weather explanation). | **FORWARD 🔴** |
+
+**[BOTTOM LINE 9/07]** *(crc32 3170248965, 1696 B)*
+
+**Split UNCHANGED at 20/47/33 — and the reason is a discipline, not an absence of news.** The 9/05 US–Iran exchange is a **genuinely new evidence TYPE** for R2 and it is **ARMED, NOT COUNTED (0pp)**: every R2 instrument that could count it is impeached, three hulls is not a throughput event against ~59 transits/day, it is one episode, **and Disc-D cannot be satisfied because there is no market verdict to read — 9/4 pre-dates the event and 9/7 is a holiday, so the first tradeable close is 9/8.** BRENT and FALCON own the verification; this desk did not open the primary and says so.
+🔒 **C#2 is not a CPI event.** The window pinned 9/03 ends **9/10**; the CPI print moves the **9/11** cell, which is outside it. **A sustained-3 run can now only be {9/4,9/8,9/9} or {9/8,9/9,9/10} — both need 9/8 AND 9/9** ⇒ if the 9/8 cell lands inside 260–280, **C is LOCKED on 9/9, two days before the print it is named after.**
+🔴 **Both forum falsifiers graded against my own proposals.** ABN: **1 fire in 30 days** and ≥4 BOND-class waits it never saw ⇒ **REPLACE** — its successor (`spawn_list.py`) fired **3** on this same boot. Copy-kill: **2 new instances in 31 days, both minted BY de-duplication passes**, and the one class that was never executed at all was **in my own file**.
+✅ 9/07: C-36's 33-day-stale CONTESTED label repaired in `CONFIRMED.md` (DAEDALUS D-1 — closeout 9b's founding example, recurring in the row 9b was founded on) · `BRIEFS_MAP` census number replaced by the command · 4/4 inbox drained · STATUS rotated 35.7→34.3 KB. **Watch: 9/8 202(c) lapse + BCRED backstop + BRENT's Hormuz control → 9/9 C#2 reachability → 9/11 CPI + the C#2 grade.**
+
+**[LAST RUN 9/07]** *(crc32 3779736994, 1330 B)*
+
+See **`LAST_COMPLETION.md`** — canonical for this pass. 📦 8/28 block → `STATUS_COLD.md` §G; 9/02 + 9/03 blocks → §H7b.
+**9/07 FORUM-FALSIFIER GRADE DAY ① (PROME Tier-1 due-row spawn, DOCKET L39).** Full grade record → `research/2026-09-07_forum_falsifiers_grade.md`. Both falsifiers graded; **no convergence re-marked, no market datum consumed** beyond a live FRED window read. S1 build-or-lapse facts + recommendation delivered to Will via PROME (**decision is Will's, not taken here**).
+⚠️ **NOT done and owed:** **9/4 NFP + T-03 + MIDAS-08 owner grades NOT CONSUMED** (this was a falsifier-grade pass, not a matrix sweep) · **PRED-45 + PRED-43 re-marks still owed, ≤9/11** (queued 8/28, missed 9/02, missed again 9/07 — **3rd miss; this is now a pattern, not a slip**) · R9 unswept at owner level · fallback rollup #5 not run (#4 shipped 8/28) · 2 packets owed to WALTER (dead path in its staleness guard) and PROME (GATES header copy).
+**Next boot owes:** (a) 🔴 **a FULL matrix sweep — two consecutive delta-annotation passes is the limit** (CLAUDE.md 9c); (b) **9/8 202(c) + BCRED + BRENT control** folds; (c) 🔒 **9/11 C#2 grade** on the pinned window + the ADMISSION GATE against the flow/volume candidates, escalating the data-feed gap if none clears; (d) PRED-45/43; (e) R9 owner sweep.
+
+
+**[M-06 9/05-exchange evidence cell (9/07 text)]** *(crc32 1329453050, 930 B)*
+
+🆕 **9/05 US–IRAN DIRECT EXCHANGE — NEW EVIDENCE TYPE, ARMED NOT COUNTED, 0pp.** ⚠️ **RELAYED via PROME's packet, NOT verified at primary by NEXUS** (Disc-G) — after the Kharg own-goal this desk does not bank an unopened war fact; **BRENT + FALCON are spawned and OWN the verification.** **Why armed and not counted:** every R2 instrument that could count it is impeached (war-risk premium `[STALE 7/23]`) · **3 hulls vs ~59 transits/day is not a throughput event** · single episode (Disc-B) · 🔴 **Disc-D unsatisfiable — no market verdict exists: 9/4 PRE-DATES the event and 9/7 is a holiday ⇒ first tradeable close is 9/8.** **COUNTS when:** a FALCON/BRENT owner grade attaches a measurable flow or war-risk step · OR `WARRISK.tsv` refreshes off 7/23 and shows one · OR a 2nd independent episode inside 14d (campaign, not incident) · OR BRENT's control proves the series sees VLCCs and then shows a step.
+
+**[SLATE line 9/07]** *(crc32 1603476565, 279 B)*
+
+📄 **SLATE:** `proposals/2026-09-02_self-audit-improvement-slate.md` — 11 items. **Item 1 RULED 9/2 (Will) and CURED 9/03.** Items 3 · 4 · ⑤ with Will by 9/10 — not re-argued here. *(RED 9/2 contests item 4's AXIS — de-dup the THRESHOLD count, never the INSTRUMENT.)*
+
+**[M-09 REQ-001 evidence cell (9/02 text)]** *(crc32 1538650287, 480 B)*
+
+**DEWEY `REQ-001` (9/2) — strongest new evidence-TYPE of the window.** ⛔ **The AI order book is NOT ONE book:** semis clean at the contracted core, **power equipment is a queue-position market**; **4 of 7 clean-book tests failed, clustered in power equipment.** ★ **The base rate INVERTS the obvious instrument list** — backlog led in **0 of 3** episodes; the leader was **the price of the marginal UNCONTRACTED unit.** Commitments/COGS **1.45×→2.90× in one quarter**.
+
+**[READ-CAP cure-record line (9/07 text)]** *(crc32 2717540577, 332 B)*
+
+✅ **READ-CAP cure record (STATUS 9/02 · `PREDICTIONS_MONITOR` 9/03, WQ-163 item 1; 29-item obligation ledger, 0 deleted, 2 live obligations SURFACED) → `STATUS_COLD.md` §H7g.** ⭐ **A split is audited by OBLIGATION, not bytes.** 🆕 **9/07: 3rd rotation — settled tension/threshold rows + M-06/M-09 evidence → §H7d-f.**
+
+**[CONFIRMED-pointer line, C-36 repair narrative (9/07 text)]** *(crc32 2725292181, 688 B)*
+
+Historical confirmed convergences → `CONFIRMED.md`. 🆕 **REPAIRED 9/07 (DAEDALUS D-1): C-36's label had read `CONTESTED` there for 33 days after BOND RULED it a `SPLIT` on 9/1** — the ruling reached STATUS on 9/02 and never reached the trophy case. **Closeout 9b's founding example, recurring in the row 9b was founded on.** Cite BOTH halves: **policy-path channel ALIVE and transmitting · term premium drove the July delta.** **C-35:** its grading falsifier (transits >35/day ×2) is keyed to a series now POSITIVE-DETECTOR-ONLY, with flows ~59/day = 1.7× through the bar ⇒ ⛔ **do not grade C-35 on transit counts at all** — wait for BRENT's re-specified control (9/5-9/8).

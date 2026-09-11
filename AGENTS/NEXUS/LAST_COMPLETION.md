@@ -1,6 +1,41 @@
 # NEXUS — LAST COMPLETION
 
-## 2026-09-07 Mon ~12:1x–13:4x ET — **FORUM FALSIFIER GRADE DAY ①** (PROME Tier-1 due-row spawn, WQ-184 L0; `PROME/DOCKET.tsv` L39)
+## 2026-09-11 Fri ~10:3x–11:0x ET — **L289 GRADE DAY: T-12 C#2 + count-once evidence types** (PROME Tier-1 due-row spawn, WQ-184; `PROME/DOCKET.tsv` L289)
+
+**Box:** desktop · markets OPEN — every level written this pass is a FRED cell dated in-cell (live pull 10:37 ET) or an owner's dated settle quoted from the owner's fold; **no live equity/oil price was pulled by this desk and none is claimed.**
+
+### Files read
+`AGENTS/NEXUS/CLAUDE.md` (BOOT + closeout) · `STATUS.md` · `LAST_COMPLETION.md` · `PREDICTIONS_MONITOR.md` (whole) · `CONFIRMED.md` (header) · `SIGNALS.md` · `BRIEFS_MAP.md` (order-cell block) · 6 top-level inbox packets + 3 WALTER signals · `research/2026-09-02_t12_respec_admission_gate_prereg.md` · `research/2026-08-12_split_falsifier_RESOLUTION.md` §86 + ADDENDUM 2 · `research/2026-08-28_successor_falsifier_RESOLUTION.md` §7 · `research/2026-08-03_split_and_coverage_prereg.md` L58 · FRED `BAMLH0A0HYM2` + `BAMLH0A3HYC` (fetch.py + fredgraph.csv, 8/26→9/10) · `PROME/DOCKET.tsv` L249/L289/L291/L304/L319/L329 · `memory/2026-09-11.md` · `BOARD/SIG-W-20260908-001-ERRATUM…` · `BOARD/SIG-W-20260828-045…` (head) · `AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv:34` · `AGENTS/WATT/reports/2026-09-10_DOCKET-L249_202c-lapse-grade.md` · folds: FALCON · BRENT · HAWK · HENRY (head) · VIOLET · MIDAS · SAM `NEXUS_BRIEF.md` (all committed 9/10 23:40 → 9/11 10:28) · `AGENTS/OSPREY/STATUS.md` ACTIVE + aggregates · PROME processed memos: HENRY VECTOR-4 · FALCON + BRENT Petroline.
+
+### Work units
+1. **🔒 T-12 C#2 GRADED — BRANCH C, NO-VERDICT, EARNED, FINAL; NON-RENEWABLE CLAUSE EXHAUSTED.** Window 8/28→9/10 as pinned: HY 260 · 263 · 265 · 266 · 265 · 268 · 268 · 267 · 271 · 270 (max 271, min 260.0 — not <260); CCC 1026 → 1070 (+44bp) vs HY +10bp. A and B both NOT MET. Record `research/2026-09-11_t12_c2_grade_and_gate_run.md`.
+2. **Re-spec FORCED ⇒ ADMISSION GATE run on what exists (WQ-163 ⑤ NO SPEND): 0 of 4 pre-named candidates admissible** — CCC flow share · issuance/refi · single-name CDS have **no feed at this desk** (SEARCH-NOT-FOUND, not base-rateable); the **319bp basket launched 7/23 ⇒ ~35 sessions vs the gate's ≥250** — inadmissible by construction until ~mid-2027. **NO successor registered; the split now carries "currently un-falsifiable" on its own line (Disc-J).** The CCC-relative 21s ±50bp spec passes the arithmetic and is EXCLUDED by the letter — offered to Will as an observable. Letter unamended ⇒ WQ-163 item 3 not triggered.
+3. **L1b premise CORRECTED** (WALTER `SIG-W-20260908-005`, VERIFIED at FRED): the 9/7 cell exists (268); the necessary condition was the 9/8 cell alone. Conclusion unchanged.
+4. **L7 PJM §202(c) GRADED on WATT's L249 record: QUIET LAPSE** — (a) NO · (b) NO [VERIFIED] · (c) UNKNOWN [para-E utilisation report unpublished — named open leg]. Type stays ARMED at 0pp; row CLOSED as evidence AGAINST the power-constraint leg. **M-09 HELD 66** (the type contributed 0 going in).
+5. **Six candidate evidence TYPES weighed count-once (20/47/33 — 0 counted):** Petroline **ARMED** (FALCON tell #2 NOT FIRED · BRENT BG-02 NOT MET ×4; counts on L329 throughput resolver ≥0.7 mb/d by 9/25) · PJM GRADED quiet (AGAINST, 0pp) · Panama **ARMED, owner-ungraded** (AEOLUS dark since 8/27; new unrooted candidate row in the antecedent map) · Russia refining = existing R9 type, ~30% confirmed at centre, R9 refreshed off `[STALE 8/17]` at the owner surface, 0pp · five vector reads = desk evidence inside existing roots (HAWK corrects the "3 of 4 chokepoints" framing — Red Sea RECOVERING; VIOLET vol NOT cheap + OVX/VIX p96.6 numerator-led fire; MIDAS 2022-type real-yield regime, DFII10 nowcast ~2.53; SAM NONE; HENRY AAL/LUV gate shut) · diesel crack $110.87 > 2022 peak = a level on the products leg, 0pp. **Disc-D now satisfiable and READ for M-06:** the 9/8–9/10 tape re-priced a PREMIUM (Brent `BZX26` 107.63 settle, +~11%/3 sessions; HY +2bp; XLE −0.6% on the up-day) — stands AGAINST counting. **Split UNCHANGED on the letter (a C scores NOTHING).**
+6. **Corrections:** `COR-20260908-01` **APPLIED** — the NVDA "procurement of memory" absence claim flipped at primary; live carriers corrected (STATUS M-09 · SIGNALS header); $119B→$279B and share-undisclosed HOLD. `COR-20260910-01` **NO-OP** — NEXUS carries no $29B figure (grep VERIFIED). `corrections_boot_check.py NEXUS` rc=0.
+7. **PRED-45 + PRED-43 re-marked** (queued 8/28 · missed 9/02 · missed 9/07): PRED-45 HELD 35 with the dead 8/4–8/7 venues struck and a dated 9/30 resolver (First Brands Ch.7 sale process at BROCK/DEWEY); PRED-43 ~30 → ~10 with the 7/22 premise struck and a 9/30 resolver (no verified Dimona strike ⇒ ❌F). **Why the queue lost three times:** undated re-marks lose to dated work; both now carry dates. Duplicate ledger ID fixed (second "L7" → L10).
+8. **Inbox 8/8 drained** (5 top-level + 3 WALTER; 9 `board_log.tsv` rows incl. the task packet). BRIEFS_MAP SAM `order` cell → A12 (VERIFIED on disk: CROSS-DOMAIN at byte 766 of 16,106 B).
+9. **Read-cap:** STATUS 32,491 → 33,835 after the grade landed → **32,268 B** after rotating 10 settled blocks verbatim (crc32 each) to `STATUS_COLD.md` §H7n; `read_cap_check.py --agent NEXUS` **rc=0**.
+
+### Fallback log
+**2 rows:** OSPREY `convergence` (R9 owner-surface chase via STATUS) · HENRY `brief-gap` (9/11 header over a July-vintage CROSS-DOMAIN table — the diesel fold had to be read from the PROME memo). **HENRY's is the quality signal.**
+
+### ⚠️ NOT done and owed
+- 🔴 **FULL MATRIX SWEEP — THIRD consecutive non-sweep** (9/03 · 9/07 · 9/11). 9/4 NFP + T-03 + MIDAS-08 owner grades still unconsumed. **First act next session, before any dated item.**
+- Fallback rollup #5 (#4 shipped 8/28).
+- Verify the 9/07 PROME GATES-header copy-kill packet was sent (WALTER's twin is receipted 9/08).
+- PROME's packet asked for a "NEXUS_BRIEF fold" — NEXUS maintains no `NEXUS_BRIEF.md` (it is the consumer); nothing to fold. Noted in the memo.
+
+### Next boot owes
+(a) 🔴 full matrix sweep · (b) 9/14 Yanbu loadings (L329 R2) + GATE-FALCON-001 review folds · (c) Will's word on the T-12 successor path — (i) feed/owner · (ii) CCC-relative observable · (iii) carry the line · (d) 9/16 cluster (FOMC + VIX SOQ + WPSR SPR + July TIC + MOF trade balance) · (e) rollup #5 · (f) 9/25 L329 window close · (g) 9/30 PRED-45/43 resolvers.
+
+### Promotion scan
+None new. One extension flag carried in the memo: `finding_dated_carry_item_has_no_expiry_check` gains the L1b instance (a holiday-calendar assumption about a series that publishes on holidays) — extension, not a new file; flag to PROME, no auto-memory written this pass.
+
+---
+
+## PRIOR — ## 2026-09-07 Mon ~12:1x–13:4x ET — **FORUM FALSIFIER GRADE DAY ①** (PROME Tier-1 due-row spawn, WQ-184 L0; `PROME/DOCKET.tsv` L39)
 
 **Box:** desktop · **US Labor Day, markets CLOSED** — every level written this pass is a FRED cell (live pull 13:0x ET, series ends 9/3) or an explicitly dated prior close. No live price was available and none is claimed.
 
