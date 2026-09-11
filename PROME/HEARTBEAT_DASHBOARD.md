@@ -14,7 +14,7 @@ This companion keeps render metadata outside the boot-read byte budget.
 ```dashboard-amendment
 {
   "amendment": 1,
-  "source_sha256": "1582c3212d94274a61cd0758a7b0e7937960b1ba261fe4c1f6a7dc8872962569",
+  "source_sha256": "c6ebe16a080ee95b8dde186ac6011ac2d89b3ce670e49f7c96de8aec6873388e",
   "set": {
     "one": "September 11 midday: CPI printed in line (core unrounded +0.290% m/m sits on HEN-44's CONFIRM side by 1bp). TLT 77P delta −0.0354 ⇒ the book is net long duration through GLD. XLE 65C ×1 sold by Will at $1.51 (−$77.33 realized); VLO ×3 does not fire on the 9/10 read. NEXUS C#2 = C, clause exhausted, no successor (WQ-224). WATT P1 5→3, composite 14/20. STAND DOWN holds.",
     "channels": {
