@@ -34,7 +34,7 @@
 ## Operator card
 - **Today:** Fri 2026-09-11 · markets OPEN at closeout (12:2x ET) · book = FORGE 9/10 CLOSE (Fidelity) + 16:10 (Robinhood) + Will's 9/11 XLE sale ($1.51 fill, −$77.33 realized, TERRY 12:2x) · $0 moved by PROME · STAND DOWN on new energy capital (WQ-192) · **Will's hands:** WQ-225 (two Trends months) · the FIRMS key (WQ-223, 9/14) · VLO ×3 waits for a qualifying day · D-rows: D-49 (first contract's date/price only) · D-53 · D-54 · D-44/D-45.
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-11 · 12 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-223 (9/14) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-227 (9/19) · WQ-226 (9/19) · WQ-224 (9/19) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-219 (on BROCK's dra…)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-11 · 11 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-227 (9/19) · WQ-226 (9/19) · WQ-224 (9/19) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-219 (on BROCK's dra…)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
