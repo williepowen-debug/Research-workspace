@@ -8,6 +8,72 @@
 
 ---
 
+## 2026-09-11 PM — domain news/data sweep (4th pass; Will-directed, not gate-driven)
+
+*An unscheduled sweep of the whole domain: BNPL issuers, BNPL ABS, cash-advance/EWA, fintech-lender health, regulatory, credit-bureau furnishing. **Two findings the fleet did not have at all, and the larger one cuts AGAINST the thesis.** Nothing resolved; CARL disposes.*
+
+### ① 🔴 The ABS WA FICO gap is FILLED — and leg 2 does not confirm the way the pathway predicted
+
+This was the gap named this morning as *"the single largest open gap in the pathway."* It is now measured, and the honest read is **mixed**.
+
+**The revolving master-trust series** (AFRMT — the correct perimeter; each comparison below is the rating agency's own framing):
+
+| Deal | Pub | WA FICO | Grade-A share | Agency framing |
+|---|---|---|---|---|
+| AFFRM 2022-A | — | **668** | — | the prior low-water mark |
+| AFRMT 2025-1 | 2025-02-26 | **672** | 34.8% | *"lower than all prior AFFRM trusts with revolving assets, except AFFRM 2022-A"* |
+| **AFRMT 2026-4 / 2026-5** | **2026-09-09** | **670** | **36.7%** | *"the lowest of the master trust transactions and all previous AFFRM revolving ABS trusts, except … 2022-A"* |
+
+⚠️ **Three things cut against reading this as confirmation:**
+1. **The move is −2 FICO points across ~19 months.** Directionally right, but far too small to carry a breakpoint leg on its own.
+2. **Grade-A share ROSE, 34.8% → 36.7%.** Affirm's *internal* grade mix improved over the same window. Grade A is the tier the agency describes as historically producing the lowest defaults.
+3. **Required credit enhancement FELL at every single class:**
+
+| Class | AFRMT 2025-1 | AFRMT 2026-4 | AFRMT 2026-5 |
+|---|---|---|---|
+| A | 28.29% | 24.54% | 24.99% |
+| B | 22.04% | 18.04% | 18.84% |
+| C | 15.60% | 12.29% | 12.94% |
+| D | 10.70% | 8.64% | 9.49% |
+| E | 3.70% | 3.74% | 4.24% |
+
+**Rating agencies requiring *less* enhancement is the opposite of what "lower-quality cohorts are being routed into the ABS" predicts.** FLOW-PHAN-06's mechanism says the trust should be absorbing the degraded tail; the structure says the agencies think expected loss went *down*.
+
+⇒ **Leg 2 is WEAKLY met at best. Do not grade it confirmed, and do not report "ABS FICO declining ✅" without the grade-mix and CE columns beside it** — `[[finding_verified_figures_do_not_verify_the_shape_claim]]`. The provision/NCO evidence (§① of the AM pass) remains much stronger than the ABS evidence.
+
+⛔ **PERIMETER TRAP, caught:** **Affirm Asset Securitization Trust 2026-X1** (pub 2026-05-07) reads WA FICO **681** — higher, and mid-window. It is the **amortizing** shelf, a different product and a different borrower population; every FICO comparison above is explicitly scoped by the agency to *"trusts with revolving assets."* **Splicing 681 into the 672→670 series would have manufactured a clean-looking FICO *recovery* that does not exist.** `[[finding_cross_entity_comparison_needs_same_perimeter]]`
+
+ℹ️ **Provenance correction:** our "ABS FICO 672, Apr-2026 vintage" actually traces to **AFRMT 2025-1, published Feb-2025**. The Apr-2026 stamp was when PHAN *recorded* it, not when the data was from — the figure was ~14 months stale when it was carried as current. `[[finding_plausible_stale_value_evades_review]]`
+
+### ② 🟠 Two new cockroaches — the first bank contagion since Tricolor, and the fleet had ZERO coverage
+
+A `grep -ril` across `AGENTS/ FORGE/ PROME/` returned **nothing** for either "LendingPoint" or "Coastal Financial" before this pass.
+
+**LendingPoint** (near-prime consumer lender, FICO ~620–659): **KBRA downgraded six classes** of its consumer-loan notes in **May-2026**, citing deterioration after a servicing-platform transfer that increased missed payments. **MidCap Financial marked its LendingPoint loans at $40.2M against a $63.2M cost** as of late June (~36% markdown). Lost **Midland States Bancorp** as bank partner in 2024. Warburg Pincus holds a minority stake.
+
+**Coastal Financial Corp (NASDAQ: CCB)** — the contagion leg, and the reason this matters beyond PHAN: on **2026-07-30** CCB reported Q2-26 with a **net loss of $42.1M / $(2.76) per diluted share** (vs **+$12.0M / $0.78** a year earlier), driven by a **$68.8M credit expense** on what it called *"a single, isolated CCBX partner relationship"* (CCBX = its banking-as-a-service arm). **The stock went $70.66 → $39.91 in one session: −$30.75, −43.5%.** Securities-fraud investigations (BFA Law; Hagens Berman) into whether CCB misrepresented CCBX credit quality were still pending as of **2026-09-11**.
+
+⚠️ **The attribution is the soft part and must travel with the finding.** Coastal disclosed an **unnamed** partner. **Fintech Business Weekly (Jason Mikula) names LendingPoint**; briefs.co repeats it. Record as **named-by-credible-secondary, NOT company-confirmed** — `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`. Note also that *"single, isolated"* is the **company's** characterisation, and is precisely what the investigations are probing.
+
+⛔ **BOTH ARE DISTRESS, NOT FAILURE. Cumulative failure count stays 3; P04 stays 12%.** This is the 7/10 distress-vs-failure discriminator being **applied**, not relaxed because a count would otherwise look stuck. **This is FLOW-PHAN-04 (Fintech Cockroach Cascade) observed one step further along than we have previously seen it** — the Tricolor shape, but at a listed bank with a same-day −43.5% mark. → **CARL to route REGINALD (bank leg) and LIQUID (ABS leg) via WALTER.**
+
+### ③ ⚠️ Counter-thesis: FICO's BNPL scores may RAISE borrower scores
+
+**FICO Score 10 BNPL / 10 T BNPL** went live **Fall-2025**; adoption is expected to be slow (FICO 8, from 2009, is still the dominant model, and the BNPL scores are offered alongside existing scores at no extra cost). In **FICO's own testing, "consumers with five or more Affirm loans typically saw their scores increase or remain stable."**
+
+**This is a direct challenge to §2b's core mechanism.** The dossier's visibility-shock story is: phantom debt is invisible → when visibility arrives, repricing is *sudden and adverse*. If the actual furnishing-and-scoring path **raises** heavy BNPL users' scores, then visibility arrives as a **non-event or a tailwind**, not a shock. ⇒ **Route to RED's counter-log.** It does not kill the phantom-debt magnitude claim, but it undercuts the *transmission* claim that makes the magnitude matter.
+
+### ④ Klarna — a SECOND guidance cut, and it is not US-consumer evidence
+
+Klarna cut **2026 revenue** guidance to **$4.08–4.16B** from **$4.34B**, citing **weaker German consumer spending**; Klarna traded −5% to $13.94 and Affirm −3% to $74.94 on the day (~2026-08-20). This is **distinct from** the FY26 **GMV** guide cut to $149–151B already logged 9/10 — two different metrics, two cuts. ⚠️ **The stated driver is GERMANY.** A Klarna guide-down is *not* transferable as US-consumer evidence, and CARL should not carry it as such.
+
+### ⑤ Nulls re-confirmed
+- **HUD/FHA:** still **no BNPL Mortgagee Letter or final guidance.** The development is an **MBA comment letter** to the 2025-06-24 RFI asking FHA to standardise the BNPL debt definition for DTI purposes. **P05 unchanged at 15%** — the data needed to identify BNPL-linked FHA defaults still does not exist.
+- **No new state-AG EWA action** beyond CO v. EarnIn (8/27). Count holds **4 of 5**; **P07 88%**.
+- **No new comprehensive state BNPL statute** beyond NY.
+
+---
+
 ## 2026-09-11 pass (3rd ad-hoc, +1d) — the three SEARCH-NOT-FOUND gaps from 9/10, all closed
 
 *Purpose of this pass: the 9/10 pass shipped with three named unreachable primaries. All three were fetch failures, not absences — retried 9/11 and all three resolved. **Two of the three moved a call, and one of those moves is against yesterday's own conclusion.** Predictions: one moved (P03), none resolved — CARL disposes (§8.4).*
@@ -106,3 +172,20 @@ Rebuilt from SEC XBRL primaries — **the 10-Qs and the 10-K, differenced** (FY 
 | **2026-07-10** | **1st ad-hoc pass** (CARL-directed, ledger-hygiene only, no web data) | **(1)** 7 predictions dispositioned (§4 + `workbook/PREDICTIONS.tsv`): all 2026 windows still open → P02 **MIXED** (premise refuted, Klarna Q1 profitable), P03 re-marked 90%→96% (tracking-HIT, 1033 withdrawn), P04 60%→45%, P05 50%→40%, P06/P07 held, P01 held; calibration mode logged per row. **(2)** FLOW-numbering divergence (§2c) **reconciled — TSV numbering wins** (canonical crosswalk added; prose FLOW-PHAN-03→TSV-04, prose FLOW-PHAN-04→§2a framework/no TSV ID); TSV not renumbered. **(3)** Live ledgers COCKROACH.tsv + REGULATORY.tsv verified readable, headers clean, untouched. Header + §4 truth-stamped. |
 | **2026-07-10** | **Staleness sweep** (CARL-directed, tag-don't-refresh, no web) | 6 rows STALE-tagged: 4 REGULATORY (1033 arc superseded by 4/1 WITHDRAWAL; HUD RFI ACTIVE vs parent STALLED) + 2 COCKROACH (both Klarna rows, deterioration REFUTED). §2a given `[as-of Apr-2026]` section tag. Retirement candidates listed (SCHEMA.tsv; CARL_HANDOFF — keep, load-bearing). |
 | **2026-07-10** | **News sweep** (CARL-directed, web, last-30d) — SV-PHAN-2026-07-10-01 | **P06 CORRECTED** → MIXED: NY BNPL Act **SIGNED 2025-05-09** (predates the forecast → authored-blind-to-existing-fact); DFS rules proposed 2026-02-23 — REGULATORY.tsv +2 corrective rows, old 4/9 row STALE-tagged. **P07 → 80% trending HIT**: Minnesota AG v. Brigit 2026-06-10 (adds MN to NY/DC) — REGULATORY.tsv +1 row. **P02 → 6%**: Klarna Q1-2026 provision 0.55% GMV (May-18). **Affirm/Klarna Q1 actuals** (2.8% DQ/$512M; 0.55%) routed to CARL KB-228 (§6). **P04:** Parker/Hokodo 2026 failures found but B2B/out-of-consumer-scope → not counted, not appended. Furnishing≠visibility (Senate probe May-2026) reinforces P03/§2a. Affirm FQ4 earnings confirmed **2026-08-20** (§8). All figures year-verified 2026. |
+
+
+---
+
+## §4 predictions — the 2026-07-10 verdict table (moved from `DOSSIER.md`, 2026-09-11 PM, read-cap reclaim)
+
+*Superseded by the 9/10 re-marks and the 9/11 P03 move, both of which live in `DOSSIER.md` §4. Retained verbatim: the 7/10 column records what each row's basis was when it was dispositioned, which is calibration evidence.*
+
+| # | Prediction | Conf (Apr → 7/10) | Timeframe | Verdict + basis (2026-07-10) |
+|---|---|---|---|---|
+| **PHAN-P01** | BNPL stacking >70% | 60% → 60% | H2 2026 | **OPEN** — H2 window just opened; no fresh stacking print in-file (63% at build). DATA-NEEDED: BNPL stacking update H2 2026 |
+| **PHAN-P02** | Klarna credit losses >1.0% | 65% → 12% → **6%** | FY2026 | **MIXED (MISS-lean hardened)** — premise REFUTED (Klarna Q1-2026 profitable) **+ Q1 actual provision 0.55% of GMV** (reported May-18) is below even the 0.80% band → >1.0% remote. DATA-NEEDED: Q2 provision ~Aug-20 |
+| **PHAN-P03** | CFPB 1033 enforcement delayed beyond 2026 | 90% → **96%** | EOY 2026 | **OPEN — tracking HIT** — mechanism LOCKED (REGULATORY.tsv 2026-04-01 WITHDRAWAL; 2026 enforcement essentially impossible). Formal resolution EOY 2026 |
+| **PHAN-P04** | At least 2 more fintech failures | 60% → **45%** | 2026 | **OPEN** — 0 confirmed NEW 2026 *failures* in-file (FloatMe/Current = distress/investigations, not failures); half the window elapsed at zero. DATA-NEEDED: H2-2026 failure confirmations |
+| **PHAN-P05** | BNPL-linked mortgage defaults identifiable in FHA data | 50% → **40%** | Q3–Q4 2026 | **OPEN** — window just opened; parent notes HUD BNPL RFI **STALLED** (no final guidance) → identifiability delayed. DATA-NEEDED: FHA/HUD BNPL-attribution data |
+| **PHAN-P06** | NY passes first comprehensive BNPL licensing law | 55% → n/a | 2026 | **MIXED — fact TRUE, no forecasting credit** — NY BNPL Act was **SIGNED 2025-05-09** (predates the 4/9 forecast; authored blind to it). DFS rules proposed 2026-02-23. New calibration mode: authored-blind-to-existing-fact |
+| **PHAN-P07** | Cash-advance AG enforcement expands to 5+ states | 75% → **80%** | 2026 | **OPEN — trending HIT** — **Minnesota AG sued Brigit 2026-06-10** → narrow count NY+MN+DC ≈ 3; court rulings vs EWA in 7 states; wave accelerating. DATA-NEEDED: state-AG count H2 2026 |
