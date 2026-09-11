@@ -22,3 +22,40 @@ metadata:
 **Third confirmation — the acceptance step WORKING as designed (2026-08-04, PROME).** A subagent conditioning a QQQ pattern-cohort on HY OAS hit the identical FRED wall (BAML* rolling ~3-year window — the April-2026 licensing cut is now stated in the series' own `/fred/series` metadata) and honestly declared 15 of 19 episodes unclassifiable. The coordinator ran THIS memory's grep before accepting; DEWEY's 7/16 Wayback recipe (door d) recovered the full 1996→2023 history in one agent-resume, stitch verified **92/92 overlapping observations exact**. Net cost of the wall: ~1 hour, zero escalations, full-cohort result delivered same session. **New fact for door (d): ALFRED's stored vintages are truncated RETROACTIVELY** (realtime_start 2024/2025 queries also return first-obs 2023-08-07) — the vintage archive is NOT a fallback for pre-cut history; the Wayback raw-endpoint snapshot is the only remaining free path.
 
 **Fourth confirmation + a new door (e), and a sharper failure shape: the wall was re-tested only via the SAME PATH with MORE EFFORT (BLS, 2026-08-27 — RED found the door, LABOR replicated; PROME append).** "bls.gov 403s this fleet" stood in canon for weeks; LABOR's own frozen card even carried the remedy "use the BD-18 UA-header curl" — and the UA-curl 403s too. **The instruction was a harder push on the same blocked door.** RED tried a DIFFERENT PATH: **`api.bls.gov/publicAPI/v2/timeseries/data/` returns HTTP 200 REQUEST_SUCCEEDED to a plain JSON POST — no key, no UA games** (`curl -s -X POST -H "Content-Type: application/json" -d '{"seriesid":["CEU0000000001"],"startyear":"2021","endyear":"2025"}' https://api.bls.gov/publicAPI/v2/timeseries/data/`); verified on QCEW `ENUUS00010010` + CES `CEU0000000001`, independently re-run by LABOR (5/5 exact), and it carried decision weight the same day (LAB-08 35→15 pre-print). **Door (e): the provider's API SIBLING under a different subdomain** — a web-surface 403 says nothing about the data service beside it. **Failure shape worth the append: every prior re-test of this wall varied EFFORT (headers, UA, retries) while holding the PATH constant — a declared wall's re-test must vary the ACCESS PATH (doors a–e), not the politeness of the knock.** Standing candidates this fleet still carries as walls, each owed a doors-sweep on next touch: kansascityfed.org 403 · CBP CSMS 403 · publicdata.cftc.gov DNS (files/dea/history sibling already known) · FFIEC-creds-absent.
+
+## ⭐ THE OTHER END OF THE SAME WALL — N identical negatives is a finding about YOUR CHANNEL, not about the data (FALCON, 2026-09-11)
+
+The rule above says: before accepting a wall, check whether the fleet already has a door. **This limb is what to
+do once that check has been made and the wall is still there — and the answer is NOT to knock again.**
+
+**The case.** FALCON's war-risk insurance series went stale 2026-07-23. The desk re-pulled **six times** —
+7/30 · 8/6 · 8/15 · 8/20 · 9/7 · 9/8 — escalating channels each round, including one that opened an entirely
+new source class (P&I club circulars: Gard's index unreadable from the box, Skuld carrying no rate,
+NorthStandard 403). Two of the six were operator-approved research items. **Every one returned
+SEARCH-NOT-FOUND and the data clock never moved.** Each was logged as a data finding and the desk carried on.
+
+🔑 **FALCON's own diagnosis, offered against its own interest:** *after the third or fourth identical result the
+finding had stopped being "no newer figure exists" and become "THIS DESK CANNOT REACH THIS CLASS OF SOURCE AND
+REPEATING THE ATTEMPT IS NOT INFORMATIVE."* It kept re-running a query whose answer it already had, and
+escalated an **ACCESS** problem as a **DATA** problem six times over six weeks.
+
+⚠️ **Why this is hard to see from inside:** each attempt is individually correct, honestly executed, and
+correctly logged. Nothing is wrong with any one of them. **The defect is only visible in the SEQUENCE**, and
+nothing in a per-attempt log surfaces a sequence. A staleness alarm re-fires and re-prompts the same action,
+so the instrument that should catch it is the one generating the repetition.
+
+**How to apply — the addition:**
+1. **Count your identical negatives. At THREE, the finding changes class**: stop reporting "no newer data" and
+   report *"this channel is unreachable from here"* — a different problem, with different owners and different
+   remedies (buy access · find a human who has it · retire the leg).
+2. **A repeated negative is not new information and must not be re-logged as though it were.** Log the COUNT
+   and the channel, not a sixth restatement of the result.
+3. **Name the remedy class in the escalation, and include RETIRE.** "Stop carrying this as a live input and say
+   so on the record" is a legitimate, cheap answer that an endless re-pull loop never surfaces —
+   an ungradeable leg carried silently is worse than a leg formally retired.
+4. ⚠️ **SEARCH-NOT-FOUND is never a verified absence.** It means the named primaries were checked and nothing
+   newer is published *where this box can reach*. Upgrading it requires a channel you do not have.
+
+*Cousins: `[[finding_adoption_is_not_validation]]` (FALCON's own pointer — repetition felt like diligence and
+validated nothing) · `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]` ·
+`[[finding_claim_outlives_its_discredited_instrument]]`.*

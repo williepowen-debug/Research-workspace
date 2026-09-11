@@ -338,9 +338,10 @@
 - finding_re_derivation_surfaces_concept_failure
 - finding_divergence_requires_fresh_likeforlike_baseline
 - finding_fail_loud_on_incomplete_data
-- finding_declared_data_wall_needs_fleet_memory_check
 - finding_fused_true_facts_false_premise
 - finding_visibility_is_layered_not_binary — "is it reported?" decomposes into independent gates
 - finding_market_ignoring_is_not_market_refuting — price refutes a TIMING claim, never a MECHANISM one
 - finding_confounds_align_with_the_prior_you_brought — every confound pointing one way is about your SEARCH
 - finding_artifact_republish_from_a_new_session_requires_reading_the_live_version_in_chunks — read live in ≤48 KB chunks, never `force`
+
+## Promoted BACK to HOT — 2026-09-11 EVE (PROME, same evening as that day's demotion pass — recorded so the flow rule is visibly two-way, not a one-way drain). `finding_declared_data_wall_needs_fleet_memory_check` was demoted in the 19:0x flow pass as a predictable source-evaluation trigger. Its n+1 limb (FALCON, six identical re-pull negatives over six weeks escalated as a DATA problem when the third was already an ACCESS problem) fires mid-research on the Nth failed attempt, which is the definition of unpredictable — and it had just cost six weeks of a live pricing leg. Promotion executed, not deferred to the next pass.
