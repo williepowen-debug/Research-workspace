@@ -1,46 +1,52 @@
-# OSPREY SCRATCH — 2026-09-10 (DRAIN-ONLY)
+# OSPREY SCRATCH — 2026-09-11
 
-**Session type:** PROME-spawned **drain-only** under **WQ-221** — Will 2026-09-10 23:22 ET, verbatim *"221 approved, fix the deck and spawn OSPREY tonight"* (the aged "waits on others" rule: a Will-queue wait row whose blocking desk has been dark ≥7 days ⇒ PROME wakes that desk for a drain-only touch. **OSPREY is its first application**; WQ-216 had been waiting on this desk's merge).
-**Scope held:** inbox consumed, obligations encoded, delivered. **No new-direction research. No mark / band / threshold / confidence move. No re-grade. No push** (PROME-spawned sessions never push — Will-ruled 7/31; PROME pushes at its closeout).
+**Purpose:** Ephemeral session handoff — read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable. Durable learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+
+**This session:** PROME-spawned **DRAIN-ONLY** (Tier 1, dark-owner doorbell outcome ①, inside the WQ-216 workstream). 2 inbox items, nothing else. **No new-direction research. No mark, band, threshold, confidence or channel-mark move. $0. No trade language.**
+
+---
 
 ## CURRENT MARKS (one line)
-**C1 4 🔴 HELD-ON-EVIDENCE · C2 5 🔴 FROZEN — INSTRUMENT UNREADABLE SINCE 8/23 · C3 3 🟠 HELD-ON-EVIDENCE.** Band ~30% (25-35%, KB-029). **Nothing moved tonight.**
+- Channel state: refineries/products **4** 🔴 (HELD-ON-EVIDENCE) · crude-export terminals **5** 🔴 (**FROZEN — instrument unreadable since 8/23**) · shadow-fleet tankers **3** 🟠 (HELD-ON-EVIDENCE) · Brent ref — **defer to BRENT, this desk holds no price.**
+- Band **~30% (25-35% [EST], KB-029) UNCHANGED.** Clocks: C1 0/30 (9/8) · C2 0/30 (9/9) · C3 4/21 (9/4). Theater kill clock **not running**.
 
-## CHANGES SINCE LAST SESSION (9/8 → 9/10)
-- **DAEDALUS reviewed the strike feed and returned a BLOCKING finding** — the v1 diff rule was deleting real events into existing `strike_id`s. Verified and patched (below).
-- **HAWK delivered its half of the WQ-216 taxonomy** (9/10 18:31, `5cb0f4f2f`, KB-HAWK-364) and separately **closed its §1b objection window: NO OBJECTION**, with two consumer flags.
-- **PROME registered OWED-23 as WQ-216** (dated 9/19 on WILL_QUEUE) and asked for the joint one-pager.
-- **No theater sweep ran tonight.** `STRIKES.tsv` is still `swept-complete through 2026-09-08`. Palaemon 7-13 Sep publishes ~9/14.
+## CHANGES SINCE LAST SESSION
+- **Will RULED WQ-216 at 2026-09-11 00:01 ET** — verbatim *"216 approved with your rec"*. Joint OSPREY × HAWK taxonomy approved **as delivered**; both my amendments adopted; enforcement-not-available stands. **Prospective only.**
+- **The first facility-level capacity-offline figure of the 9/1–9/8 wave landed** (reported 9/10, routed by WALTER 9/11): **Ryazan CDU-6 8 Mt/yr ≈ 160 kb/d ("almost half the plant") + CDU-4 4 Mt/yr ≈ 80 kb/d, both shut; repairs up to several weeks; no restart as of 9/11.**
+- Nothing else swept — **the world delta was NOT canvassed this session by design.** `STRIKES.tsv` swept-complete mark is still **2026-09-08** and is now 3 days old.
 
 ## WHAT I DID THIS SESSION
-1. **WQ-216 joint taxonomy written and delivered** — `proposals/2026-09-10_WQ-216_joint-strike-taxonomy_OSPREY-HAWK.md`, copy at `PROME/inbox/2026-09-10b_from-OSPREY_WQ-216-joint-taxonomy-proposal.md`. A **mapping** of 8 event classes onto HAWK's 4 axes, each row carrying `DYAD + DIRECTION` and a **named instrument**. 3 of HAWK's 5 worked values accepted, 2 amended. **ENFORCEMENT answered: not available in this theater.** (KB-OSPREY-105)
-2. **Strike-feed diff rule verified then patched** — reproduced DAEDALUS's 15/99 exactly, shipped proper-noun + df<4 + `marine`, re-measured **2/99**. Plus the match-evidence column, `EMPTY_FEED` on every source kind, `link_pattern` after `urljoin`, `PARSER_STALE`, skipped-row count, and a **committed** `feed/MATCHES_*.tsv`. Disposition packet → `AGENTS/DAEDALUS/inbox/`. (KB-OSPREY-104)
-3. **HAWK's NO OBJECTION consumed; both flags reconciled** — the contradicting "no downgrade path" cell fixed in `NEXUS_BRIEF.md` **and in STATUS's own dashboard** (HAWK could only see the first), plus the stale Channel-3 geography cell; **MARK STATE token adopted**. (KB-OSPREY-106)
-4. **PROME's 9/8 disposition packet consumed** — WQ-196–199 registered NOT ruled (new OWED-35); OWED-30/32 write-ups dated 9/15.
-5. STATUS · NEXUS_BRIEF · KB (104-106) written back; 5 inbox files `git mv`'d to `processed/`; KB two-clock header advanced 9/2 → **9/8** (content-derived: the newest sourced rows are 9/8; the 9/8 session left it behind).
+- Consumed the **PROME WQ-216 RULING packet** and executed its ACTION block in full: axes encoded on the session's only new write · **OWED-23 → CLOSED-RULED** · **KB-OSPREY-107** logs the ruling (date, verbatim word, record path). No back-catalogue re-tag.
+- Consumed **WALTER `SIG-W-20260911-001`** — **verified at the named dated sources before adopting** (read the BOARD file, then re-searched independently). CONFIRMED; WALTER's two caveats (CDU-3 not attributable; no nameplate derived from 8+4 Mt) both held and are carried. **Added the sourcing limit WALTER understated by one degree: five outlets, ONE observation ⇒ B2.**
+- **`STRIKES.tsv` `RU-20260906-RYAZAN` updated IN PLACE** (not a new strike — the consequence, not the event). **First WQ-216-encoded write:** E1 · Ukraine→Russian energy · A refined products · B destroyed capacity · C denial · D state-attributed (row grain) · INSTRUMENT Channel 1.
+- **KB-OSPREY-108** — the capacity figure, its verification, its limits, and why it moves nothing. **Cold record written the same day:** `domain/energy-strikes/RYAZAN_CAPACITY_2026-09-11.md`.
+- **THIRD read-cap rotation executed.** 9/10 file archived verbatim, crc32 **35269338** recomputed at archive time (31,669 B). Rule-18 census: **26 named obligations in → 26 out by name + 1 new (36), 0 dropped.**
+- `board_log.tsv` +2 rows. Both packets `git mv`'d to their `processed/` directories.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. ⚠️ **ROTATE STATUS.md — third rotation, DUE.** It sits in the rotate tier (`scripts/read_cap_check.py --agent OSPREY`). Carry the obligation census by name, READ_CAP rule 18.
-2. **Run the patched feed and disposition every `NONE`** (boot 5b-iv) — **and now also read `feed/MATCHES_*.tsv`: each `<strike_id>` row is a CLAIM.** First live run of v2.
-3. **OWED-1 (armed):** the Novorossiysk terminal struck 9/8-9 is still **unnamed**. First check: loading status + terminal identity. **Do not write Sheskharis until a source does.**
-4. **Gap sweep 9/9 → boot date** — none has run; the theater was ACTIVE at the last read.
-5. **By 9/15:** OWED-30 buyer-pullback write-up · OWED-32 scope comparison + premium limb · OWED-34 feed residuals · GATE-OSPREY-001 review input (already written: NOT FORMALISED, HOLDS, one open test) · DOCKET L308 closes (BRENT's side).
-6. **OSP-06 unchanged, OPEN @45%.** Newest readable print 3.46 (8/23). Bloomberg 8/30 + 9/6 stay **SEARCH-NOT-FOUND** — never fabricate a print.
+1. **OWED-36 (next full session):** decide whether a facility-level capacity-offline figure touches the band. **The deciding sub-question is searchable: was Ryazan authenticated as RUNNING before 9/6?** (no restart was ever authenticated after 7/29; CDU-3 was down for maintenance). Argument written at `domain/energy-strikes/RYAZAN_CAPACITY_2026-09-11.md`. ⚠️ Band changes are Will-gated upward.
+2. **OWED-1 (first check):** name the Novorossiysk terminal struck 9/8-9 and find a loading/throughput statement. Fifth Sheskharis episode only if a source names it.
+3. **2026-09-15 cluster:** `GATE-OSPREY-001` review · DOCKET L308 §1b window closes (BRENT outstanding) · **OWED-30 + OWED-32 write-ups** · **OWED-34** feed residuals.
+4. **Run `python3 scripts/strike_feed.py`** and disposition every `NONE` row — **it was NOT run 9/11**, so the ledger has not been re-baselined since 9/8 (boot step 5b(iv)).
+5. **Gap sweep 9/9 → boot date**, day-by-day, LESSONS 8 order (dated-window bulletin first; Palaemon 7-13 Sep publishes ~9/14). Then advance the swept-complete mark.
+6. **2026-10-06:** strike-feed acceptance test closes — recall **and** precision legs.
 
 ## OPEN THREADS / WATCHES
-- **OWED-31 SIREN 9/3** — cargo state + attribution still open; never closed by silence. Named next checks: Eurotankers/IMS statement, Greek ministry advisory log, Lloyd's List casualty desk.
-- **OWED-8 AWRP** — data clock 8/21, event-driven observable; canvass the full source set before logging an absence row.
-- **OWED-33** — this desk holds no Urals figure until BRENT supplies a dated, based one.
-- **OWED-13 / 14 / 17 / 18 / 24** unchanged.
+- 🔴 **Seventh-week export print** — 8/30 and 9/6 SEARCH-NOT-FOUND; nobody in the OSPREY/HAWK/BRENT triad holds one. OSP-06 turns on it.
+- 🔴 **OWED-1** Novorossiysk terminal identity + loading status.
+- 🟠 **OWED-31 SIREN** cargo state + attribution — next checks named (Eurotankers/IMS statement, Greek ministry advisory log, Lloyd's List casualty desk). **Never closed by silence.**
+- 🟠 **OWED-36** the band question above.
+- 🟠 **AWRP gap now 21 days** (last print 8/21). The source set is a **starting** set, never the scope (LESSONS 7). TD6 is the tripwire for when to look.
+- 🟡 OWED-13 Transneft cadence · OWED-17 decree unverified at `pravo.gov.ru` · OWED-18 Druzhba thin · OWED-24 joint auto-memory · OWED-33 Urals (BRENT owes) · OWED-35 WQ-196–199 await Will.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-None due. OSP-06 window runs to 10/15. **Pending Will:** WQ-216 (9/19) · WQ-197/198/199 (unruled).
+- **OSP-06 OPEN** (Sep 2 – Oct 15), 45%, untouched 9/11. VOID path not armed — unreadable ≠ dark. Nothing else due.
+- **Pending Will:** OWED-36 (band, if the next session recommends a move) · WQ-196–199 (OWED-35).
 
-## MAIL STATE
-**Inbox 0 top-level, 0 in `inbox/WALTER/`.** 5 consumed → `inbox/processed/`. **Sent:** 2 carve-out ① packets — `PROME/inbox/` ×2 (proposal + drain completion), `AGENTS/DAEDALUS/inbox/` ×1. No outbox signal written (nothing 🔴 acute and unreported).
+## MAIL STATE (one line per surface)
+- Inbox: **clear** — both items consumed and `git mv`'d to `inbox/processed/` and `inbox/WALTER/processed/`.
+- WALTER lane: **clear.**
+- Outbox: clear — no 🔴 acute signal generated (no mark moved; the Ryazan read-through to BRENT rides in `NEXUS_BRIEF.md` + the Cross-Agent table).
 
-## LEDGER NUDGE — answered, not deferred
-`ledger_staleness.py --nudge OSPREY` at this closeout: **`VX.tsv` and `FLOW.tsv` are 6 STATUS-writes behind.** **Why not refreshed tonight, stated rather than skipped:** VX rows record a *vector state change* and FLOW rows a *transmission-pathway change* — **this was a drain-only session in which no mark, band or threshold moved and no theater sweep ran**, so neither ledger has a row to add. Writing one would manufacture a state change that did not happen. **Both stay LIVE, not frozen; re-evaluate at the next session that actually moves a mark.** `WARRISK.tsv` is event-driven-declared and its **re-pull clock stays 2026-09-08 — no re-pull was attempted tonight**, and "nobody looked" must not be restamped as "no print exists".
-
-## PENDING PUSH / GIT
-**Committed locally, NOT pushed — by design.** PROME pushes at its closeout.
+## PENDING PUSH / GIT (if any)
+- **Committed locally, NOT pushed — by instruction: PROME pushes at closeout.** The working tree also holds **other desks' uncommitted files (VIOLET, CARL)** — never stage, stash, reset or pull them.
