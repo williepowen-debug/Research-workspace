@@ -27,7 +27,7 @@
 
 > ⚠️ **The guard corpus is NOT optional and NOT summarised here.** It moved because it is used at DISPATCH time, not at boot — but **a pointer nobody travels is how a guard dies** (`[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`). The **named inventory below** exists so no reader can be unaware of what is in it; WALTER `CLAUDE.md`'s standing Iran pre-dispatch guard is what makes the trip mandatory.
 
-### Guard inventory (23 blocks — titles only; text lives in `IRAN_WAR_GUARDS.md`)
+### Guard inventory (24 blocks — titles only; text lives in `IRAN_WAR_GUARDS.md`)
 - KILL-ON-SIGHT recirculation classes — Abqaiq '~7 mb/d' · the July-7 date-trap · declaratory-control · flagged sources (UANI)
 - 'VESSEL SUNK' must be THEATER-checked before it is GATE-checked
 - maritime-date CLOCK COLLISION (theater-local vs UKMTO UTC) · **Mediated ≠ bilateral** · ceasefire vs the June interim instrument
@@ -51,6 +51,7 @@
 - ADD#20 — 'CEASEFIRE' is the wrong word and is KILL-ON-SIGHT
 - 🆕 ADD#22 — 🔴🔴 **THE AI-GENERATED STATE-ACTOR ARTEFACT** (defeats trace-to-originator; a head of state is primary for *what he said*, never for *the event depicted* — AUTHENTICATE, don't dismiss) · **the Kharg date-anchor amended: TWO strikes, 2026-03-13 AND 2026-04-07, both military-only** · the Kharg 'loadings resume' date trap (≥3 cycles in 2026)
 - 🆕 ADD#23 — ⚠️ **THE CONTINUOUS FRONT-MONTH TICKER ROLLS, so any delta across a roll is an artifact** (`BZ=F` — 8/27→8/28 wrong MAGNITUDE, 8/31 wrong **SIGN**; named contracts only until `fetch.py` is fixed)
+- 🆕 ADD#24 — ⚠️ **a WIRE'S GEOGRAPHY LINE IS NOT A POSITION FIX** (carry UKMTO; which-sea decides GATE-2 eligibility) · **"the state SHUT it" ≠ "it was HIT"** — carry ATTACKED / SHUT / DAMAGED as three separate states · 🔴🔴 **a tier-1 CAPACITY figure is the next day's LOSS figure — settling WHICH number is the capacity does NOT retire KILL-ON-SIGHT ①**
 
 
 ---
@@ -74,11 +75,3 @@
 
 
 ---
-
-## 🚨 ADDENDUM #24 — 2026-09-10 ~15:3xZ (Thu). FULL SWEEP. **THE TANKER WAR HAS CROSSED TO NON-IRANIAN HULLS IN GCC WATERS; GATES UNCHANGED; A RUNG TRIGGER IS FALCON'S TO READ.**
-
-**① What changed 9/8→9/10 (owner ledgers were current to 9/8 23:4x ET):** Riesco sinking corroborated (Reuters caption + TankerTrackers IMO + CENTCOM post) · **Hercules Star** struck at the Dubai anchorage 9/9, 1 killed 1 missing (Peninsula) · **New Andros** struck 28 nm SE Al-Faw 9/9, ablaze (UKMTO / Iraqi officials) · IRGC announces an expanded off-limits-zone MAP (declaratory) · Trump 9/9: war ends after the midterms, no negotiated end sought · Houthis seize Mokha 9/10. **Neither 9/9 hull is in `VESSELS.tsv`; neither is a sinking, so GATE 2's count does not move on them.**
-
-**② Guards that did work this sweep:** ADD#22 (authenticate the state-actor video — it authenticated); the Kylo/Riesco anti-merge (JPost 907662 is the KYLO story; the search layer attributed it to Riesco); which-sea (Al-Faw = Iraqi waters, Dubai = UAE anchorage — neither is a Hormuz GATE-2 event); POTUS = tape; ADD#23 named contracts. **A new one, recorded:** *The National* placed New Andros "north of Dubai" while UKMTO placed it off Al-Faw — **carry UKMTO's position; a wire's geography line is not a fix.**
-
-**③ What this does NOT do:** no probability, band or gate is moved here; no capital path; the anchorage-vs-in-port reading of rung trigger (c), the Riesco ledger row, and the casualty row are FALCON's, owed at the 9/14 re-mark or sooner (`SIG-W-20260910-007`).

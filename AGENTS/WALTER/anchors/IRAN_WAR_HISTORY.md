@@ -1116,3 +1116,17 @@ If a signal arrives whose framing depends on any of these, spawn a verify-resear
 **Confidence: HIGH** on the mine-claim negative (CENTCOM denial + absence at every neutral source + the 15h sequence) · **HIGH** on wave 2 (CENTCOM statement, wide pickup) · **HIGH** on the two hulls (UKMTO-derived, multi-wire) · **MEDIUM** on the target list and casualties (Iranian media) · **MEDIUM** on the Aqaba salvo (IRGC claim + observed interceptions).
 
 **Next re-verify: ~2026-09-07 on the 7-day cadence, or IMMEDIATELY on — a THIRD US wave or any strike on a NAMED oil asset · a FAL-01-class hit · a mine DETONATION on a hull or a confirmed hostile sinking · a US accept/reject of the 8/26 framework · a published daily Hormuz transit print · any Iran-cluster dispatch.**
+
+---
+
+# Rotated 2026-09-12 from `IRAN_WAR.md` — ADDENDUM #24 (2026-09-10 full sweep)
+
+> **Why it rotated:** its state is carried in the current lead (losses 3; both 9/9 non-Iranian hulls; IRGC map; POTUS 9/9; Mokha), and its item ③ obligations are DISCHARGED — FALCON ruled rung trigger (c) AMBIGUOUS/NOT FIRED on 2026-09-10, and the Riesco ledger row (`VI-2026-0028`) and casualty row (`CAS-2026-018`) were written. **Its one LIVE guard (the UKMTO-vs-wire geography fix) was lifted to `IRAN_WAR_GUARDS.md` ADD#24 BEFORE this move**, because a date rotation buries a standing guard. Verbatim below; nothing summarised.
+
+## 🚨 ADDENDUM #24 — 2026-09-10 ~15:3xZ (Thu). FULL SWEEP. **THE TANKER WAR HAS CROSSED TO NON-IRANIAN HULLS IN GCC WATERS; GATES UNCHANGED; A RUNG TRIGGER IS FALCON'S TO READ.**
+
+**① What changed 9/8→9/10 (owner ledgers were current to 9/8 23:4x ET):** Riesco sinking corroborated (Reuters caption + TankerTrackers IMO + CENTCOM post) · **Hercules Star** struck at the Dubai anchorage 9/9, 1 killed 1 missing (Peninsula) · **New Andros** struck 28 nm SE Al-Faw 9/9, ablaze (UKMTO / Iraqi officials) · IRGC announces an expanded off-limits-zone MAP (declaratory) · Trump 9/9: war ends after the midterms, no negotiated end sought · Houthis seize Mokha 9/10. **Neither 9/9 hull is in `VESSELS.tsv`; neither is a sinking, so GATE 2's count does not move on them.**
+
+**② Guards that did work this sweep:** ADD#22 (authenticate the state-actor video — it authenticated); the Kylo/Riesco anti-merge (JPost 907662 is the KYLO story; the search layer attributed it to Riesco); which-sea (Al-Faw = Iraqi waters, Dubai = UAE anchorage — neither is a Hormuz GATE-2 event); POTUS = tape; ADD#23 named contracts. **A new one, recorded:** *The National* placed New Andros "north of Dubai" while UKMTO placed it off Al-Faw — **carry UKMTO's position; a wire's geography line is not a fix.**
+
+**③ What this does NOT do:** no probability, band or gate is moved here; no capital path; the anchorage-vs-in-port reading of rung trigger (c), the Riesco ledger row, and the casualty row are FALCON's, owed at the 9/14 re-mark or sooner (`SIG-W-20260910-007`).
