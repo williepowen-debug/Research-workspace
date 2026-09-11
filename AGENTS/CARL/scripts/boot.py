@@ -50,10 +50,12 @@ BOOT_SEQUENCE = [
     # ⛔ Runs UNCONDITIONALLY and exits NONZERO on any unrecorded action:[CARL]
     # id — deliberately NOT --warn-only, unlike consistency_check: an owed signal
     # someone else is waiting on is a FAILURE, not a finding.
-    # It replaces the card's step-5 mtime gate. That gate was a forbidden class
-    # under root Data Hygiene, but it was NOT the silencer: git restamps mtime to
-    # NOW, so it always read "newer" and always said RUN — it failed OPEN. The scan
-    # lapsed because nothing MECHANICAL ran it and nothing failed when it did not.
+    # It replaces the card's step-5 mtime gate. That gate IS a forbidden class
+    # under root Data Hygiene. ⛔ RETRACTED 2026-09-11: I also claimed it "failed
+    # OPEN" because git restamps mtime — that is wrong (git only rewrites files it
+    # changes) and sparse receipts cannot establish it either way. The gate's actual
+    # behaviour is UNDETERMINED. What survives is sufficient: nothing MECHANICAL ran
+    # the step and nothing FAILED when it did not. See board_gap.py header.
     # Two action:[CARL] signals were missed that way (9/01, 9/10), found only when
     # PROME read CARL's ledgers from outside. [[finding_mechanize_the_cap_not_the_ritual]]
     ("BOARD Gap (sole WALTER channel)", "board_gap.py", [], "BOARD GAP", False),
