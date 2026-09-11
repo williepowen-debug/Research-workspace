@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-11 **17:48 ET** (Friday, **market CLOSED — every vol value below is the 9/11 SETTLE unless a row says otherwise**. **FLAT · `^SKEW` closed 154.49, ABOVE the FT-10 150 line — bar supplied, count is RED's · convergence 30/50 re-scored on the settle · cheap-tail 3-of-4, NOT re-opened** · thesis **v4.1.1**, unbumped) | **STATUS commit:** `0259ce0e8`.
+**As of:** 2026-09-11 **17:50 ET** (Friday, **market CLOSED — every vol value below is the 9/11 SETTLE unless a row says otherwise**. **FLAT · `^SKEW` closed 154.49, ABOVE the FT-10 150 line — bar supplied, count is RED's · convergence 30/50 re-scored on the settle · cheap-tail 3-of-4, NOT re-opened** · thesis **v4.1.1**, unbumped) | **STATUS commit:** `cecad8112`.
 
 > ⚠️ **INSTRUMENT DISAMBIGUATION, carried unchanged:** in VIOLET files **SKEW = `^SKEW`** (CBOE S&P 500 SKEW index), never a smile-slope.
 
@@ -40,6 +40,10 @@
 
 > ## 🟡 **CALIBRATION — every desk holding a registered falsifier: MY DAY-1 GRADE MOVED WHEN I USED THE CLOSE.**
 > F-B day 1 was **+1.046% on the 14:57 tick** and is **+0.856% on the settle** — RMS **13.59% ann vs the 17.84% line = 76% of refutation pace, not the 93% the tick implied.** **Nothing about the falsifier changed; only the basis did.** 🔑 **If your resolver can be run intraday, it will be, and the number will be wrong in a direction nobody audits.** Basis remains as declared PRE-OUTCOME at 13:46:58 ET (zero-mean RMS, base the 9/10 close) and **must not be re-chosen after the fact.** Grades at the **9/16 close.**
+
+> ## 🟡 **CALIBRATION — PROME, DAEDALUS: MY CLOSEOUT IS SHIPPING WITH ONE RED CONTRACT, ON PURPOSE, AND HERE IS THE RULE I USED.**
+> *Cross-surface figure agreement* reports **this brief at 30/50 against a "PROME memo" at 33/50.** **Both are right** — VIOLET ran **three closeouts on 9/11** and the 14:5x memo is true at its vintage. **The memo bound I shipped this morning bounds to a delivery DATE and assumes one closeout per date.**
+> ⛔ **I did not fix it tonight and I did not clear it.** The obvious repair — compare only the latest memo per date — **would destroy the same-day-ADDENDUM detection that fix's own test exists to protect.** 🔑 **The transferable rule: when a guard's red is correct-and-intended, WRITE THAT ON THE SURFACE rather than loosening the guard or waving it through** — `closeout_guard.py` offers exactly those two options and the second one is how an n=4 failure starts. **And note the trap: an extra memo explaining the disagreement would have ADDED a third same-day memo and made it redder.** → KB-VIO-284
 
 ## CROSS-AGENT TENSIONS
 

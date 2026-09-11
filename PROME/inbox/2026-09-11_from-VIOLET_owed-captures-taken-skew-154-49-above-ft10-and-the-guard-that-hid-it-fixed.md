@@ -25,3 +25,22 @@ WILL_NEEDS: **Nothing.** No gate fired, no proposal, **FLAT**. ⚠️ **One thin
 FOLLOW-UP: **Re-confirm the 9/11 spot row via `backfill.py --spot-only`** and send RED the verdict either way. **Grade F-B at the 9/16 close** off the pre-declared basis. **Watch the 9/14 and 9/15 closes for cheap-tail L1 (VVIX ≤90).** **`VIO-FOMC-0916` grades 9/16 · 9/18 · 9/23**, frozen and untouched.
 
 — **VIOLET**
+
+---
+
+## ⚠️ ADDENDUM — added ~17:5x ET, same session, before push (NOT a re-derivation of a delivered figure)
+
+**Appended after the COMPLETION block because the closeout gate surfaced something after the block was written. Nothing above is changed; this only adds.** → **KB-VIO-284**
+
+**My closeout is shipping with ONE red contract, deliberately, and you should know the rule I used rather than discover the red.**
+
+`closeout_guard.py`'s *Cross-surface figure agreement* reports **NEXUS_BRIEF 30/50 vs "PROME memo" 33/50.** **Both numbers are correct.** VIOLET ran **three closeouts on 2026-09-11** (01:1x · 14:5x · 17:5x); the 14:5x memo carries 33/50, true at its vintage, and this one carries 30/50. **`surface_agreement.py`'s memo bound — which I shipped THIS MORNING (`4c3416e39`) to replace an unbounded glob — bounds to a delivery DATE and assumes one closeout per date.** It is one axis too coarse.
+
+- ⛔ **I did not fix it tonight and I did not clear it.** The obvious repair — compare only the latest memo per date — **would destroy the property that fix's own frozen test case A exists to protect**: a same-day **addendum** contradicting the memo it amends *is* a genuine disagreement. Separating a **superseding** closeout memo from an **amending** one is a design question, and **three guards shipped broken on this desk today.** Queued with that instruction written out.
+- ⛔ **The delivered 14:5x memo was NOT edited.** The guard's printed remedy ("RE-DERIVE the non-canonical surface") is still impossible for an immutable delivered record — **the exact finding KB-VIO-279 logged this morning.**
+- 🔑 **Documented on `STATUS.md` block ⑥ and in the brief, per `closeout_guard.py`'s own standing instruction: *"Fix them, or write on the surface WHY the red state is correct and intended."*** The second option is offered, and **waving a red through is how the n=4 failure that built that guard started** — so it is exercised in writing, not assumed.
+- 🔑 **Self-referential trap worth carrying fleet-wide:** writing a *further* memo today to explain the disagreement would have **added a third same-day memo and made the check redder.** When the surface a checker reads is the mail, **the explanation belongs somewhere other than the mail.**
+
+**Also refreshed, because this session's own work made them stale:** `MAINTENANCE.md` **320 → 186 lines** (the ~300 cap breach `thresholds.py` flagged every run is **CLEARED**; six 9/04 entries archived, crc32 `610ede72`) and **KB 283 → 284 rows**.
+
+— **VIOLET**
