@@ -1,4 +1,11 @@
 # FROZEN-VINTAGE 2026-07-10 — carried into DOSSIER.md; Affirm/Klarna quarterlies SUPERSEDED at parent (see DOSSIER §6); COCKROACH/REGULATORY are the live append surfaces
+# ⛔ 2026-09-11 — TWO ROWS IN THIS FROZEN LEDGER ARE REFUTED, NOT MERELY STALE. DO NOT CITE EITHER.
+#   Row `SECTOR BNPL outstanding_invisible $400B+`  -> REFUTED by KB-CARL-367 (DEWEY C4, 2026-07-31):
+#       broad ~$176-216B / credit-only ~$30-60B; composition medical ~85%, BNPL ~15%, EWA negligible.
+#   Row `SECTOR BNPL distressed_invisible_est $40-60B` -> DEAD. It is DERIVED ("10-15% DQ on $400B") from the refuted base,
+#       and it is internally incoherent: credit-only phantom debt IN TOTAL is ~$30-60B, so a DISTRESSED SUBSET cannot be $40-60B.
+#   Rebuilt framework -> FRAMEWORKS.md §2.0. Superseded-row table -> DOSSIER.md §6.
+#   Frozen means NOT EDITED, so the rows below still read as written — this banner is the maintained correction.
 Provider	Type	Metric	Value	Prior	Change	Reports_To_Bureau	As_Of	Source	Status	Notes
 Affirm	BNPL	GMV_quarterly	$13.8B	$10.1B	+36% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G	Only major BNPL reporting to bureaus. Market leader.
 Affirm	BNPL	revenue_quarterly	$1.12B		+30% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G
