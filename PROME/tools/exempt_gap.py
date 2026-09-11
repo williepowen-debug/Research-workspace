@@ -12,22 +12,30 @@ They are NOT indistinguishable to a third party who reads BOTH the BOARD and the
 This script is that third party. It does not depend on the desk running anything.
 
 What it measures, per exempt desk D (the set is READ from walter_doctor.py's PULL_COMPLETE —
-the declared reference — never re-typed here; PROME is excluded because board_scan.py is its own
-blocking check):
+the declared reference; the FALLBACK set below is used, loudly, only when that line cannot be
+parsed or is empty; PROME is excluded because board_scan.py is its own blocking check):
   * every BOARD signal whose `action:` line (or the legacy `to:` line, pre-v0.12) names D — info-cc lines are not the exemption's risk
-  * whether that signal_id appears in ANY of D's BOARD consumption ledgers (live + archived)
+  * whether that signal_id appears as a CELL (line start or after a tab) in ANY of D's BOARD consumption
+    ledgers (live + archived) — a mention inside a notes cell is not a row
   * flags an unlogged action signal once it is >= --min-age-days old (default 2 — a desk that
     booted since dispatch and did not log it is the failure; a signal dispatched an hour ago is not)
   * a desk with NO ledger at all is flagged UNKNOWN — an exemption nobody can test is the
     walter_doctor phrase "cannot be tested at all", and that is a flag, not a pass.
 
-Exit codes: 0 clean · 1 at least one aged unlogged action signal or an untestable desk · 2 execution error.
+FAIL-CLOSED RULES (cold read 2026-09-11, 8 ❌ fixed in one pass): a signal file this scan cannot read
+(malformed filename date, non-matching name, no frontmatter, I/O error) is SKIPPED, COUNTED and NAMED —
+never silently dropped and never allowed to abort the other files; a duplicate signal_id MERGES its
+owners and is named; an empty exempt set or an unreadable ledger is an instrument failure, not a pass.
+
+Exit codes: 0 clean · 1 a desk owes rows (aged unlogged action signal, or no ledger) ·
+2 instrument problem (skipped files · duplicate ids · empty exempt set · unreadable ledger · crash) —
+prome_gate treats both 1 and 2 as flags, but the receipt says which.
 Advisory in `prome_gate.py boot` (a flag = packet/doorbell the desk; it is that desk's ledger to fill,
 never PROME's to grade on its behalf — §3.5.2, a spawned reader cannot integrate).
 
 Usage:
     python3 PROME/tools/exempt_gap.py                   # live repo, today
-    python3 PROME/tools/exempt_gap.py --desks CARL,RED  # subset
+    python3 PROME/tools/exempt_gap.py --desks CARL,RED  # subset (full flag list printed)
     python3 PROME/tools/exempt_gap.py --root <dir> --today 2026-09-11   # tests / fixtures
 """
 import argparse
@@ -40,17 +48,15 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from board_scan import parse_front, sig_key, clean  # noqa: E402  (same parser the PROME pull uses)
 
-SIG_ID_RE = re.compile(r"SIG-W-\d{8}-\d{3}")
+SIG_CELL_RE = re.compile(r"(?:^|\t)(SIG-W-\d{8}-\d{3})", re.M)   # an id AS A CELL, not a mention
 DOCTOR_REL = "AGENTS/WALTER/tools/walter_doctor.py"
-FALLBACK_EXEMPT = {"CARL", "RED", "TERRY"}  # used ONLY if the doctor line cannot be parsed; printed when used
+FALLBACK_EXEMPT = {"CARL", "RED", "TERRY"}  # used ONLY if the doctor line is unparseable/empty; printed when used
 LEDGER_GLOBS = (  # every surface a desk has ever used as a BOARD consumption ledger; FILED handoffs do not count (§5.1)
     "board_log.tsv",
     "board/BOARD_LOG.tsv",
     "archive/board_log*.tsv",
     "board/archive/*.tsv",
 )
-
-
 OWNER_TOKEN = re.compile(r"^[A-Z][A-Z0-9_-]{1,}$")
 
 
@@ -67,7 +73,7 @@ def owners(value):
     items = value if isinstance(value, list) else [value]
     out = []
     for item in items:
-        head = re.split(r"[(\u2014\u2013]", str(item), 1)[0]          # drop "(annotation…" and dash-led notes
+        head = re.split(r"[(—–]", str(item), 1)[0]          # drop "(annotation…" and dash-led notes
         for tok in re.split(r"[,\s;/]+", head):
             tok = tok.strip().strip("'\"[]").upper()
             if tok and OWNER_TOKEN.match(tok):
@@ -81,18 +87,19 @@ def repo_root():
 
 
 def exempt_desks(root):
-    """Read PULL_COMPLETE from walter_doctor.py. Returns (set, note)."""
+    """Read PULL_COMPLETE from walter_doctor.py. Returns (set, note, ok) — ok=False means the fallback was used."""
     p = root / DOCTOR_REL
     try:
         m = re.search(r"^PULL_COMPLETE\s*=\s*\{([^}]*)\}", p.read_text(encoding="utf-8"), re.M)
         if m:
             names = {x.strip().strip("'\"").upper() for x in m.group(1).split(",") if x.strip()}
             names.discard("PROME")
-            return names, f"exempt set read from {DOCTOR_REL}: {', '.join(sorted(names))}"
+            if names:
+                return names, f"exempt set read from {DOCTOR_REL}: {', '.join(sorted(names))}", True
     except OSError:
         pass
-    return set(FALLBACK_EXEMPT), (f"⚠️  {DOCTOR_REL} PULL_COMPLETE not parseable — using the fallback set "
-                                  f"{', '.join(sorted(FALLBACK_EXEMPT))}; fix the reference, not this script")
+    return set(FALLBACK_EXEMPT), (f"⛔ {DOCTOR_REL} PULL_COMPLETE unparseable or empty — FALLBACK set "
+                                  f"{', '.join(sorted(FALLBACK_EXEMPT))} used; fix the reference, not this script"), False
 
 
 def desk_ledgers(root, desk):
@@ -104,52 +111,71 @@ def desk_ledgers(root, desk):
 
 
 def logged_ids(ledgers):
-    ids = set()
+    """Ids that appear as a CELL in any ledger. Returns (ids, errors) — an unreadable ledger is an error, not zero."""
+    ids, errors = set(), []
     for p in ledgers:
         try:
-            ids |= set(SIG_ID_RE.findall(p.read_text(encoding="utf-8", errors="replace")))
-        except OSError:
-            continue
-    return ids
+            ids |= set(SIG_CELL_RE.findall(p.read_text(encoding="utf-8", errors="replace")))
+        except Exception as e:  # directory, permissions, decode — an instrument failure, never "nothing logged"
+            errors.append(f"{p}: {type(e).__name__}: {e}")
+    return ids, errors
 
 
 def load_signals(root):
-    """{signal_id: (date, action_upper_list, headline)} for every BOARD/SIG-W-*.md."""
-    sigs = {}
+    """Returns (sigs, skipped, dupes).
+
+    sigs = {signal_id: (date, owner_list, headline)} for every readable BOARD/SIG-W-*.md.
+    skipped = [(filename, reason)] — files the scan could NOT read; counted and named, never dropped.
+    dupes = [signal_id] — ids present in more than one file; owners MERGED (never overwritten) and named.
+    """
+    sigs, skipped, dupes = {}, [], []
     for p in sorted((root / "BOARD").glob("SIG-W-*.md"), key=lambda q: sig_key(q.name)):
-        d, n = sig_key(p.name)
-        if not d:
-            continue
-        sid = f"SIG-W-{d}-{n:03d}"
-        fm = parse_front(p)
-        # `action:` is the v0.12 (2026-07-27) key; 585 April–July files carry the legacy `to:` key with the
-        # same meaning (measured 2026-09-11 — TERRY's bare-`id:` finding prompted the census). A key-name
-        # census that reads only the new spelling fails OPEN on every legacy row, so both are read.
-        acts = owners(fm.get("action")) or owners(fm.get("to"))
-        sigs[sid] = (dt.date(int(d[:4]), int(d[4:6]), int(d[6:8])), acts, fm.get("_headline", ""))
-    return sigs
+        try:
+            d, n = sig_key(p.name)
+            if not d:
+                raise ValueError("filename does not match SIG-W-YYYYMMDD-NNN")
+            sid = f"SIG-W-{d}-{n:03d}"
+            date = dt.date(int(d[:4]), int(d[4:6]), int(d[6:8]))
+            fm = parse_front(p)
+            if "_headline" not in fm:                     # parse_front returns {} on I/O error or no --- block
+                raise ValueError("no frontmatter block or file unreadable")
+            acts = owners(fm.get("action")) or owners(fm.get("to"))
+            if sid in sigs:
+                dupes.append(sid)
+                prev = sigs[sid]
+                sigs[sid] = (prev[0], sorted(set(prev[1]) | set(acts)), prev[2])
+            else:
+                sigs[sid] = (date, acts, fm.get("_headline", ""))
+        except Exception as e:
+            skipped.append((p.name, f"{type(e).__name__}: {e}"))
+    return sigs, skipped, dupes
 
 
 def scan(root, today, min_age_days, desks=None):
-    """Pure function over the tree. Returns (rows, note) — rows = per-desk dicts."""
-    exempt, note = exempt_desks(root)
+    """Pure function over the tree. Returns (rows, note, instrument) — rows = per-desk dicts;
+    instrument = {"skipped": [...], "dupes": [...], "exempt_ok": bool, "ledger_errors": [...]}."""
+    exempt, note, ok = exempt_desks(root)
     if desks:
         exempt = {d.upper() for d in desks}
-    sigs = load_signals(root)
-    rows = []
+        note = f"desk set OVERRIDDEN by --desks: {', '.join(sorted(exempt))} (doctor set not used)"
+        ok = True
+    sigs, skipped, dupes = load_signals(root)
+    rows, ledger_errors = [], []
     for desk in sorted(exempt):
         ledgers = desk_ledgers(root, desk)
-        logged = logged_ids(ledgers)
+        logged, errs = logged_ids(ledgers)
+        ledger_errors += errs
         addressed = [sid for sid, (d, acts, hl) in sigs.items() if desk in acts]
         unlogged = [sid for sid in addressed if sid not in logged]
         aged = [sid for sid in unlogged if (today - sigs[sid][0]).days >= min_age_days]
         rows.append({
             "desk": desk, "ledgers": ledgers, "logged": len(logged),
             "addressed": len(addressed), "unlogged": unlogged, "aged": aged,
+            "fresh": len(unlogged) - len(aged),
             "detail": [(sid, (today - sigs[sid][0]).days, sigs[sid][2]) for sid in aged],
             "untestable": not ledgers,
         })
-    return rows, note
+    return rows, note, {"skipped": skipped, "dupes": dupes, "exempt_ok": ok, "ledger_errors": ledger_errors}
 
 
 def main(argv=None):
@@ -157,38 +183,68 @@ def main(argv=None):
     ap.add_argument("--root", default=None, help="repo root (default: git toplevel)")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD (default: today)")
     ap.add_argument("--min-age-days", type=int, default=2)
-    ap.add_argument("--desks", default=None, help="comma list; overrides the doctor set")
+    ap.add_argument("--desks", default=None, help="comma list; overrides the doctor set; prints the FULL flag list")
     args = ap.parse_args(argv)
-    root = pathlib.Path(args.root).resolve() if args.root else repo_root()
-    today = dt.date.fromisoformat(args.today) if args.today else dt.date.today()
-    if not (root / "BOARD").is_dir():
-        print(f"EXEMPT-GAP ✗ no BOARD dir under {root}", file=sys.stderr)
+    try:
+        root = pathlib.Path(args.root).resolve() if args.root else repo_root()
+        today = dt.date.fromisoformat(args.today) if args.today else dt.date.today()
+        if args.min_age_days < 0:
+            raise ValueError("--min-age-days must be >= 0")
+        if not (root / "BOARD").is_dir():
+            print(f"EXEMPT-GAP ✗ no BOARD dir under {root}", file=sys.stderr)
+            return 2
+        rows, note, inst = scan(root, today, args.min_age_days, args.desks.split(",") if args.desks else None)
+    except Exception as e:
+        print(f"EXEMPT-GAP ✗ rc 2 — {type(e).__name__}: {e}", file=sys.stderr)
         return 2
-    rows, note = scan(root, today, args.min_age_days, args.desks.split(",") if args.desks else None)
     print(f"EXEMPT-GAP — §3.5 exempt desks vs their own BOARD ledgers · as-of {today} · "
           f"flag = action-line signal unlogged ≥{args.min_age_days}d · {note}")
-    flagged = 0
+    desk_flags = 0
     for r in rows:
         led = ", ".join(str(p.relative_to(root)) for p in r["ledgers"]) or "NONE"
         if r["untestable"]:
-            flagged += 1
+            desk_flags += 1
             print(f"⚠️  {r['desk']}: NO BOARD consumption ledger found ({' | '.join(LEDGER_GLOBS)}) — "
                   f"{r['addressed']} action-line signals address it and none can be tested (UNKNOWN, not PASS)")
             continue
         head = (f"{r['desk']}: ledgers [{led}] · logged {r['logged']} · action-addressed {r['addressed']} · "
-                f"unlogged {len(r['unlogged'])} · aged ≥{args.min_age_days}d {len(r['aged'])}")
+                f"unlogged {len(r['unlogged'])} (fresh <{args.min_age_days}d: {r['fresh']}) · "
+                f"aged ≥{args.min_age_days}d {len(r['aged'])}")
         if r["aged"]:
-            flagged += 1
+            desk_flags += 1
             print(f"⚠️  {head}")
-            for sid, age, hl in r["detail"][-8:]:
+            shown = r["detail"] if args.desks else r["detail"][-8:]
+            for sid, age, hl in shown:
                 print(f"       {sid}  {age:>3}d  {clean(hl, 90)}")
-            if len(r["detail"]) > 8:
-                print(f"       … {len(r['detail']) - 8} older (full list: --desks {r['desk']} in a terminal)")
+            if len(r["detail"]) > len(shown):
+                print(f"       … {len(r['detail']) - len(shown)} older — full list: --desks {r['desk']}")
         else:
             print(f"✅ {head}")
-    if flagged:
-        print(f"\n→ {flagged} desk(s) flagged. Rule: the ledger is the DESK's to fill — packet/doorbell it "
+    # instrument problems — printed by name, never a bare count
+    inst_flags = 0
+    for name, why in inst["skipped"]:
+        inst_flags += 1
+        print(f"⛔ SKIPPED {name} — {why}")
+    for sid in inst["dupes"]:
+        inst_flags += 1
+        print(f"⛔ DUPLICATE signal_id {sid} in more than one file — owners merged; the BOARD needs one file per id")
+    for err in inst["ledger_errors"]:
+        inst_flags += 1
+        print(f"⛔ LEDGER UNREADABLE {err}")
+    if not inst["exempt_ok"]:
+        inst_flags += 1
+    if not rows:
+        print("⛔ no exempt desk scanned — an empty set is an instrument failure, not a clean pass")
+        return 2
+    if inst_flags:
+        print(f"\n⛔ {inst_flags} instrument problem(s) above — this scan's ✅ lines are SCOPED to the files it could "
+              f"read, not clean; fix the named files/reference first.")
+    if desk_flags:
+        print(f"\n→ {desk_flags} desk(s) flagged. Rule: the ledger is the DESK's to fill — packet/doorbell it "
               f"(§3.5.2: a reader who cannot integrate cannot discharge it); a desk with no ledger owes one.")
+    if inst_flags:
+        return 2
+    if desk_flags:
         return 1
     print("\nEXEMPT-GAP ✓ every exempt desk's action-line signals are logged or younger than the floor")
     return 0
