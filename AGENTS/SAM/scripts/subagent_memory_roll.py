@@ -67,6 +67,32 @@ NEVER_ROLL = re.compile(
 # Per-run history blocks that are candidates to roll.
 RUN_BLOCK = re.compile(r"^#{2,3}\s*(PENDING from Run|Pending from Run|Run \d+\s*—)", re.I)
 
+# A PENDING block specifically must DECLARE its closure IN ITS HEADING.
+#
+# 🔴 WHY THIS IS NARROWER THAN TERMINAL (2026-09-11, found via METSUKE Run 20 E2):
+# TERMINAL is searched over a block's whole body, and a PENDING block's body is exactly
+# where someone writes ABOUT a missing marker. `## PENDING from Run 18` contained only
+# sentences like "Run-19 E1 asked for the CLOSED marker; it has not been written" and
+# "Mark that section CLOSED after recording these artifact references" — i.e. the block
+# said IT IS NOT CLOSED, and the scanner read it as closed because the word appeared.
+# METSUKE had flagged it unmarked for three consecutive runs while this tool scored it
+# terminal; it was spared only by --keep-runs. Class:
+# [[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]].
+#
+# ⛔ AND WHY IT IS *ONLY* PENDING BLOCKS. Applying heading-anchoring to run-history
+# blocks too was tried first and reclassified 16 blocks across all three files: a run
+# narrative legitimately discusses closures, and run blocks roll on RECENCY, not on a
+# marker. That version failed in the useless direction — nothing would ever roll. The
+# defect is specific to the one block type whose subject matter is its own closure.
+PENDING_BLOCK = re.compile(r"^#{2,3}\s*(PENDING from Run|Pending from Run)", re.I)
+
+
+def is_terminal(heading, body):
+    """PENDING blocks: closure must be declared in the HEADING. Others: body-wide."""
+    if PENDING_BLOCK.match(heading):
+        return bool(TERMINAL.search(heading))
+    return bool(TERMINAL.search(body))
+
 
 def split_sections(text):
     """Split on ## / ### headings, preserving everything verbatim."""
@@ -103,7 +129,7 @@ def plan(path, keep_runs):
             stay.append((h, b))
         elif h in keep_recent:
             stay.append((h, b))
-        elif TERMINAL.search(b):
+        elif is_terminal(h, b):
             roll.append((h, b))
         else:
             stay.append((h, b))  # unmarked => LIVE, by rule 2
