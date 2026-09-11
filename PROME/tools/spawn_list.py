@@ -59,6 +59,20 @@ def state_kind(state: str) -> str:
     return "PENDING" if s.startswith(("PENDING", "★", "RE-DATED", "SLID")) else "TERMINAL"
 
 
+COVERED_SELF = re.compile(r"COVERED:[^·|]*\bPROME\b[^·|]*\b(?:L0 SPAWN|SPAWN|SLATED|SLATE)\b", re.I)
+
+
+def covered(state_cell: str, notes_cell: str) -> bool:
+    """A `COVERED:` annotation suppresses the row as a spawn candidate — EXCEPT when the coverer IS this
+    driver: "COVERED: PROME 9/11 boot slate — WATT L0 spawn (SLATED …)" names PROME's own slated spawn, and
+    reading that as coverage made the 9/11 boot skip the very rows its closeout had slated (L319 · L323 ·
+    L311 · L320 · L124 — found 2026-09-11 11:5x). A PROME-slated spawn is the driver's job, never its excuse."""
+    s = state_cell + " " + notes_cell
+    if "COVERED" not in s.upper():
+        return False
+    return not COVERED_SELF.search(s)
+
+
 def owner_token(cell: str) -> str:
     c = cell.strip()
     if c.lower().startswith("will"):
@@ -128,7 +142,7 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         if not DATE.fullmatch(end_s):
             continue
         due = dt.date.fromisoformat(end_s)
-        if due > horizon or "COVERED" in (c[3] + " " + (c[5] if len(c) > 5 else "")):
+        if due > horizon or covered(c[3], c[5] if len(c) > 5 else ""):
             continue
         start = dt.date.fromisoformat(start_s) if DATE.fullmatch(start_s) else due
         owner = owner_token(c[2])
@@ -200,6 +214,19 @@ def selftest() -> int:
         ("D:L115 (dated 9/11) absent at horizon 3", "D:L115" not in r3),
         ("GATES leg: G:GATE-FALCON-001 (review_by 9/8, JUDGEMENT) LANDS-IN-3d; none at horizon 0",
          r3.get("G:GATE-FALCON-001") == "LANDS-IN-3d" and not any(k.startswith("G:") for k in r0)),
+    ]
+    # Second frozen vintage: DOCKET at ffe54ea19 (the 2026-09-11 01:3x closeout, pushed 09:32), liveness bounded to
+    # 2026-09-11 10:00 — the rows the closeout SLATED carry "COVERED: PROME 9/11 boot slate … L0 spawn" and must
+    # still be candidates (the 11:5x finding); rows COVERED by a consumer read (L264/L265 class) stay absent.
+    today2 = dt.date(2026, 9, 11)
+    live2 = Liveness(until="2026-09-11 10:00 -0400")
+    d2 = read_text("ffe54ea19:PROME/DOCKET.tsv"); g2 = read_text("ffe54ea19:PROME/GATES.tsv")
+    q0 = {r[0]: r[4] for r in collect(d2, g2, today2, 0, live2)}
+    checks += [
+        ("9/11 vintage: D:L319 (WATT) present — 'COVERED: PROME … L0 spawn (SLATED …)' is the driver's own slate, not coverage", "D:L319" in q0),
+        ("9/11 vintage: D:L323 (VULCAN) present for the same reason", "D:L323" in q0),
+        ("9/11 vintage: D:L319 + D:L323 read DARK (owners' last self-commit before the row's 9/11 start)", q0.get("D:L319") == "DARK" and q0.get("D:L323") == "DARK"),
+        ("9/11 vintage: D:L260 (BROCK) still DARK", q0.get("D:L260") == "DARK"),
     ]
     ok = True
     for name, passed in checks:
