@@ -11,6 +11,17 @@ Schedule: M-F 8:30 AM ET auto + on-demand
 # ---------------------------------------------------------------------------
 
 GOOGLE_NEWS_QUERIES = [
+    # CRUISE domain — cruise operators / discretionary travel (added 2026-09-11, Will "yes" 16:34 ET
+    # on PROME's rec; WALTER retrospective d40e0111b: the collector had NO cruise term, one hit in 14
+    # collection days surfaced by accident on a generic BBC feed — "1 item in 3 weeks" was a zero from an
+    # unfed channel, the CARL-exemption shape). CRUISE re-classed active 8/21; Big 3 = CCL / RCL / NCLH.
+    # Flood watch: "cruise" alone is a travel-section magnet, so the query is operator- and demand-keyed.
+    {
+        "query": '"Carnival Corp" OR "Carnival Cruise Line" OR "Royal Caribbean" OR "Norwegian Cruise" OR "cruise bookings" OR "cruise demand" OR "cruise fares"',
+        "agents": ["CRUISE"],
+        "priority": "medium",
+        "label": "cruise-operators",
+    },
     # BROCK domain — private credit / BDC / insurance
     {
         "query": '"private credit" OR "BDC" OR "CLO default" OR "direct lending"',
@@ -219,6 +230,10 @@ NOISE_TITLE_PATTERNS = [
 # ---------------------------------------------------------------------------
 
 ENTITY_INDEX = {
+    # CRUISE domain (added 2026-09-11 — see the cruise-operators query note)
+    "Carnival":       {"agents": ["CRUISE"], "aliases": ["CCL", "Carnival Corp", "Carnival Cruise Line", "Carnival Corporation"]},
+    "Royal Caribbean": {"agents": ["CRUISE"], "aliases": ["RCL", "Royal Caribbean Group", "Royal Caribbean Cruises"]},
+    "Norwegian Cruise": {"agents": ["CRUISE"], "aliases": ["NCLH", "Norwegian Cruise Line", "NCL"]},
     # BROCK domain
     "Blue Owl":     {"agents": ["BROCK", "LIQUID"], "aliases": ["OWL", "OBDC", "Owl Rock", "Blue Owl Capital"]},
     "ARES":         {"agents": ["BROCK"], "aliases": ["ARCC", "ARES Capital", "ARES Management", "Ares Capital", "Ares Management"]},
