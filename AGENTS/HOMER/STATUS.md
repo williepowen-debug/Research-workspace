@@ -5,15 +5,15 @@
 > ⚠️⚠️ **HOT/COLD SPLIT 2026-09-02.** The pre-split `STATUS.md` was **148,572 B = 274% of the 54,250 B read cap**, so **every boot was reading a fragment** — and `READ_CAP.md` rule 12 says the fragment lost is whatever convention puts LAST, **which on a STATUS file is the Will-facing `## BOTTOM LINE`.**
 > ✅ **The whole pre-split file is preserved BYTE-FOR-BYTE at `STATUS_COLD.md`** (148,572 B, crc32 `3627953216`, verified by RECOMPUTE not by banner — `READ_CAP.md` rule 11). **Nothing deleted.** This file carries **values + obligations**; the cold register carries **evidence, correction narrative and session history**. ⛔ **The cold register is FROZEN at the split and NOT maintained — this file is canonical; where they disagree, this file wins.** Full rationale: `docket/CATALYSTS.tsv` row 22.
 > 🔁 **DATED RE-TRIGGER, and it is deliberately NOT a leanness claim** (`READ_CAP.md` rule 7 — *"the header did not become false by being wrong; it became false by being left"*): **re-measure every closeout via `python3 scripts/read_cap_check.py --agent HOMER`, and unconditionally by 2026-12-02.**
-> ⚠️⚠️ **STATE THE NUMBER, NOT THE VERDICT: this file is **31–32 KB against a 32,550 B budget — ~98%, well under 1 KB of headroom** — and ~58% of the 54,250 B cap. UNDER the binding budget, and the checker prints it 🟡 rotate-tier, not ✅.** ★ **It went 28.6 → 31.8 KB within this same session when the August Trepp print and CORAL's FMHPI ruling landed — I rotated the split explainer to pay for them, which is the mechanism working, and it is also the proof that a live dashboard regrows on ARRIVING DATA, not just on narrative.** ⇒ ⛔ **NEXT SESSION MUST ROTATE BEFORE IT ADDS — there is no room left to defer it. Named first candidates: the superseded builder prints (KB Home FQ2, Lennar FQ2 — both in `workbook/BUILDER.tsv`) and the Q2 realization marks.**
+> ⚠️⚠️ **STATE THE NUMBER, NOT THE VERDICT — measure this file with `python3 scripts/read_cap_check.py --agent HOMER` (boot budget 32,550 B; at the 9/2 split it printed 🟡 rotate-tier, not ✅; the 9/11 drain rotated the 9/2 BOTTOM LINE to `archive/` BEFORE adding).** ★ **It went 28.6 → 31.8 KB inside the 9/2 session when the August Trepp print and CORAL's FMHPI ruling landed — a live dashboard regrows on ARRIVING DATA, not just on narrative.** ⇒ ⛔ **EVERY SESSION ROTATES BEFORE IT ADDS.**
 > ⚠️ **The other regrowth mode: narrative. It goes to `memory/` and `reports/`. This file takes VALUES and OBLIGATIONS.**
 
-**Last Updated:** **2026-09-02 (Wed — PROME-orchestrated full owner session: MF maturity-wall kill EXECUTED + published; read-cap remediation EXECUTED; inbox drained)** | **Status:** 🔴 CRITICAL
+**Last Updated:** **2026-09-11 (Fri — PROME-spawned DRAIN-ONLY session under WQ-206: inbox 6→0, COR-20260828-04 receipted, no new prints pulled)** | prior full owner session **2026-09-02** | **Status:** 🔴 CRITICAL
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
 **Current at this session:** FMHPI **July** (PRIMARY, master file) · Census New Home Sales **July** (SECONDARY, via WALTER SIG-028-029) · MBA CREF loan-maturity survey **2026-02-09** (NEW today, publisher text via newslink mirror).
-**Everything else is as at 2026-08-23.** The desk was dark 8/24–8/30 and 8/31 was a single-purpose scoped touch.
+**Everything else is as at 2026-08-23.** The desk was dark 8/24–8/30, 8/31 was a single-purpose touch, and **9/11 was DRAIN-ONLY (no prints checked — the gap table below is now 18 days old and still UNKNOWN, not absent).**
 
 ⚠️⚠️ **UNRESOLVED GAP — a week of prints may have landed while the desk was dark and NONE has been checked.** Status **UNKNOWN**, not absent:
 | Release | Due | Status |
@@ -130,7 +130,7 @@
 | # | Item |
 |---|---|
 | **B1** | **CREED courier re-spec proposed 8/22** — courier the ROW not the print (MF DQ + MoM as a one-line paste, back-filled if missed), plus mat-adj MF and MF special servicing. ⛔ **A dated NO is more useful than a standing yes that doesn't fire** — awaiting either |
-| **B2** | **CARL owes freeze/refresh/retire on "help with mortgage"** (charter-named HOMER source, CARL-owned interpretation, NO pull owner). Chase at CARL's next boot |
+| **B2** | ✅ **RESOLVED 2026-09-11 — CARL RETIRED "help with mortgage" from its live dashboard 2026-09-01** (`CARL/status_archive/STATUS_ARCHIVE_2026-09.md:552`, found by grep — no packet). Published on my side per my own PIPELINE row-66 clause: **KB-HOMER-026 · PIPELINE row 69 · docket row 33 closed.** Will's 9/10 captures (both terms at 100, date UNKNOWN, endpoint 429 ×3) are an OBSERVATION → §C |
 | **B3** | **REGINALD `NEXUS_BRIEF:23`** carried three superseded HOMER figures at last check — their file, their edit; packet sent 8/23 |
 | **B4** | **`## VIEW` in `NEXUS_BRIEF.md` ~57 items, no cap** — schema-owned, flagged to NEXUS and Will. ⚠️ **The §4.5 line-ceiling is on the wrong axis and can NO LONGER be repaired by amendment** (schema capped at 12; a 13th needs a re-spec sitting). **The ceiling is UNENFORCED — do not cut brief content against it** |
 | **B5** | **PROME `HEARTBEAT_COLD.md:77`** still reads *"$160B+ MF maturity wall RETIRES 9/4"* — **it retired 9/2 and is published.** PROME-owned; flagged, never edited by me |
@@ -141,9 +141,10 @@
 - ⛔ **FL Foreclosures YoY** — RETIRED 7/31. **Do not read its silence as "FL is fine."**
 - ⛔ **Rent growth (% cities negative)** — no feed, last reading above Red. **Neither Red nor fine.**
 - ⛔ **Cure rates** — no feed.
-- ⛔ **Trepp maturity-adjusted MF** — unpublished three months.
+- ⛔ **Trepp maturity-adjusted MF** — **UNREACHABLE, not unpublished** (gated PDF; the word "unpublished" was withdrawn 9/2 — dashboard row). Three months without a HOMER-held value.
 - ⚠️ **FL ANNUAL + FL RATIO bands** — evaluable **once a year** at the ATTOM year-end. Silence is normal.
-- ⚠️ **Ginnie Mae APM 26-06** and **NY Fed HHDC VantageScore 4.0** — **MEASUREMENT BREAKS, not catalysts.** Any DQ-ratio or score-based series spanning them is not like-for-like.
+- ⚠️ **Ginnie Mae APM 26-06** · **NY Fed HHDC VantageScore 4.0** (2026:Q1, measurement side) · **FHFA all-lenders VantageScore order 9/3** (2026:Q3/Q4 on, ORIGINATION side — WALTER SIG-004, docket row 24, KB-025) — **MEASUREMENT BREAKS, not catalysts.** Any DQ-ratio or score-based series spanning them is not like-for-like; HOMER holds NO score-stratified series and NO score-share threshold (VERIFIED 9/11).
+- ⛔ **Google Trends "help with mortgage" / "can't sell house"** — **RETIRED at CARL 9/1**; keyword endpoint 429 (×3, last 9/11). **Will's 9/10 captures at series-max 100 are an UNDATED OBSERVATION, not a band reading** (PIPELINE row 69): direction matches the pipeline rows, magnitude is not a level, and the query also captures assistance-seeking under the Oct-2025 waterfall (caveat 1). Interpretation is CARL's.
 
 ---
 
@@ -152,7 +153,7 @@
 
 | Date | Event | Watch |
 |---|---|---|
-| **🔴 ~9/4** | **Trepp August print** | ⛔ **DATED KILL FIRES: maturity-adjusted MF rate — RE-SPEC THE LEG OFF IT if absent a THIRD consecutive month.** Successor already named: **MF special servicing.** ✅ *(The second ~9/4 kill — the $160B wall — was EXECUTED EARLY on 9/2 and is closed.)* |
+| **~9/4 → LANDED 9/1, consumed 9/2** | **Trepp August print — MF 7.69% UNCHANGED (one figure with CREED, VERIFIED 9/11)** | ⛔ **The mat-adj kill did NOT fire and must not fire on "absent": the series is UNREACHABLE (gated PDF), not unpublished** — dashboard row. Open question = can I ever reach it; successor if no: **MF special servicing** (Aug SS report due ~9/8-10 — **UNCHECKED**, drain-only 9/11) |
 | **9/17** | Census New Residential Construction (August) | Starts/permits divergence: July was starts −12.4% with permits **+5.0%** |
 | **🔴 9/21** | **HUD Mortgagee Letter 2026-08 MANDATORY COMPLIANCE** | **The clearest dated FHA foreclosure-pipeline ACCELERANT held.** ⚠️ Opposite-signed to the Oct-2025 process break — say which mechanic you mean |
 | **~9/25** | Census New Home Sales (August) | ★ **median vs AVERAGE price gap = the mix tell** (June: avg −9.5% MoM vs median −3.3%) |
@@ -188,12 +189,12 @@
 
 ## BOTTOM LINE
 
-**2026-09-02 (Wed) — a full owner session with two structural jobs and no new data: a figure died, and the desk's own boot reads came back under the cap.**
+**2026-09-11 (Fri) — DRAIN-ONLY session, spawned by PROME under WQ-206 (aged action items at a dark desk). Six items → zero. No print was pulled, no band, level, mark or prediction moved.**
 
-**① THE $160B+ MF MATURITY WALL IS RETIRED AND PUBLISHED, two days ahead of its own kill date.** CREED's 8/28 verdict (NOT ATTACHABLE — a **CF Capital sponsor quote** that acquired a Trepp label by **co-location**) held when I ran the owner-declared path myself: **MBA's CREF loan-maturity survey publishes property type as a PERCENT and lender type in DOLLARS, and there is no multifamily property-type dollar anywhere.** ★★ **The part that is not housekeeping: the dead sentence also carried a DIRECTION — "+50% YoY" — and MBA's own 2026 total is $875B, DOWN 9% from $957B in 2025. On MBA's schedule multifamily is the LEAST maturity-pressured major property type (13% vs office 17%, hotel 30%) and the aggregate wall is SHRINKING.** ⇒ **For four months this desk carried a multifamily-maturity story that pointed the wrong way, and my surface is the one REGINALD and CREED nest CRE totals against. This is a retraction of pressure, not a cleanup.** ⛔ **And the docketed dispatch list was wrong: CORAL, LIQUID and DAEDALUS do not carry the figure at all** (a rate-cap volume, ORCL debt, and a citation of the docket row) — **three desks would have received a correct-looking correction about a number they do not hold.** A string match is not a carry.
+**① ONE MULTIFAMILY FIGURE, TWO DESKS, VERIFIED AT BOTH ARTIFACTS: CMBS MF DQ 7.69% Aug-2026, 0bp MoM** [Trepp Aug report pub 9/1; CREED PRIMARY-READ, HOMER SECONDARY]. The 9/2 packets from CREED and CORAL had been CONSUMED on 9/2 (ledger rows, KB-024, dashboard) **but never filed** — a consumed item that is not `git mv`'d re-presents as unconsumed to every census. Filed today. **The CORAL vintage correction now sits on the PRICING ledger** (FL FMHPI July +1.68% SA vs CORAL's JULY SF median +3.7%, gap 2.0pp, both positive) — it had lived only on the rewritten dashboard.
 
-**② READ-CAP REMEDIATION EXECUTED — both boot reads were over the physical cap and every boot had been reading a fragment.** `STATUS.md` **148,572 B → ~31.8 KB (−79%)** and `LESSONS.md` **97,396 B → 21,676 B (−78%)**, by hot/cold split with the full pre-split text preserved **byte-for-byte** and **crc-verified by recompute** at `STATUS_COLD.md` / `LESSONS_COLD.md`. ★ **The audit that mattered was by OBLIGATION, not by bytes** — and it found one: the pre-split OPEN ITEM 18 read **"NOT DRAFTED"** for the non-funding-leverage rider **ten days after the draft existed and Will had approved it.** A byte-clean split would have carried that falsehood forward intact. **Both files carry a DATED re-trigger rather than a leanness claim, because the failure mode of a size fix is that it runs once and disarms the next check.** ⚠️ **Reported precisely rather than as a win: STATUS lands at ~98% of budget with well under 1 KB of headroom and the checker prints it 🟡 rotate-tier, not ✅ — the next append rotates before it adds.**
+**② COR-20260828-04 RECEIPTED (APPLIED)** — the FHA process-break caveat was integrated 8/31; only the receipt was missing. Boot check rc=1 → rc=0.
 
-**③ WHAT DID NOT CHANGE, and it is most of the desk.** No band moved, no level moved, no prediction moved, no capital path touched. **HOM-02 remains the only open HOMER-native prediction** and is behind on its front end. **The marquee question stands unchanged: recognition regimes differ — the CMBS MF leg oscillates and CURES (four direction changes in four months), the GSE books do not.** The domain's cleanest sentence is still **"inflow cooling, conversion accelerating"** — three instruments — and it cuts **against** HOM-02. Say both.
+**③ TWO INSTRUMENT-STATUS FACTS, NEITHER A SIGNAL: (a) FHFA ordered all GSE lenders approved for VantageScore 9/3** — the origination-side twin of the 2026:Q1 HHDC score-model break; HOMER carries no score-stratified series and no score-share threshold (VERIFIED), registered prophylactically (docket 24, KB-025). **(b) CARL retired "help with mortgage" 9/1** (endpoint 429, cannot fire); **Will's 9/10 captures at series-max 100 are an UNDATED observation** — direction matches the pipeline rows (ICE FC inventory 292K six-year high, 90+/FC 862K), magnitude is not a level, and the query also captures assistance-seeking under the Oct-2025 waterfall. **The right-edge date is knowable only in Will's browser.**
 
-⚠️ **THE HONEST GAP: a week of prints landed while the desk was dark and NOT ONE has been checked** — both GSE July MF monthlies (the highest-value recurring pull this desk owns), ICE July First Look, Case-Shiller June, BEA's second estimate, two PMMS prints. **The vintage table above says UNKNOWN, not absent.** That is the first work of the next session, ahead of any of the four approved queue items.
+⚠️ **THE HONEST GAP IS UNCHANGED AND OLDER: no print has been checked since 8/23** (GSE July MF monthlies, ICE July, Case-Shiller June, BEA, PMMS ×3+, and now the Trepp August SS report ~9/8-10). **UNKNOWN, not absent** — first work of the next full session, ahead of the approved queue.
