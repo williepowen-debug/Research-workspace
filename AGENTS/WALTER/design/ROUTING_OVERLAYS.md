@@ -1,4 +1,4 @@
-# WALTER Routing Overlays v0.32
+# WALTER Routing Overlays v0.33
 
 **Read this file WHOLE at boot immediately after `ROUTING_TABLE.md`.** This is the second part of that spec, not optional background. The parent owns domain defaults; this file owns the following type/tag, boundary, convergence, safety-net, escalation and MINIMIZE rules. Both apply at dispatch; `ROUTING_CARVEOUTS.md` remains the per-agent dispatch consult.
 

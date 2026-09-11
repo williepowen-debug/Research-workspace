@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.23
+**Version:** v0.24
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -464,7 +464,30 @@ WALTER commits locally; **pushing is Will-coordinated** (a Will-opened window or
 - **All recipients self-apply** the consume boot-step (§8.1) on next spawn — single-machine, every agent is a CC session. (The OpenClaw "PROME installs it" path is retired with the VPS.)
 - **Time-box:** the `delivered_but_unconsumed` telemetry (§6.1) makes the gap visible per recipient every boot; it is the mechanism that prevents an open-ended stall.
 
+### 3.5.8 🔴 THE DRAIN UNIT FOR AN EXEMPT DESK IS THE BOARD ID-DIFF, NOT THE INBOX (added v0.24, 2026-09-11)
+
+**This closes an interaction defect between §3.5 (the pull-complete exemption) and §3.5.7 (the dark-owner doorbell). It changes no exemption, no routing line and no precedence — it corrects an instruction that is wrong on its face for one class of recipient.**
+
+> **THE RULE.** When a doorbell, a spawn recommendation, or a PROME touch targets a **`PULL_COMPLETE`-exempt desk**, the **drain unit is the BOARD ID-DIFF** (`BOARD/INDEX.md` vs that desk's own scan ledger), **never the inbox**. A spawn instruction that says "whole-inbox drain" is a **NO-OP against an exempt desk's only real channel** and MUST NOT be issued as the remedy. WALTER states the drain unit explicitly in the doorbell packet; PROME's spawn instruction carries it.
+
+**WHY — measured, not reasoned. The 2026-09-10 CARL instance:**
+
+`SIG-W-20260910-005` (**IMMEDIATE**, `action: [CARL]`) dispatched `2026-09-10T14:41:32Z` = **10:41 ET**. WALTER's gate ran correctly: CARL was absent from `ListAgents`, its STATUS header read 9/05, no touch was open ⇒ **P0/L1/L2/L3a all passed legitimately**, `DOORBELL_LOG` row written, YES, PROME `DECLINED`.
+
+**PROME then spawned CARL anyway at 12:23 ET under the WQ-206 wave — 1h42m later. CARL drained its inbox 7 → 0 and closed. `-005` was never in that inbox, because CARL is exempt and no handoff is ever written.** The desk was delivered; **the item was not.** It sat unread until PROME's third-party `exempt_gap.py` found it ~a day later.
+
+🔑 **THE GENERALISATION, AND IT IS THE POINT:** the doorbell's remedy is defined on the inbox. For an exempt recipient **the inbox is empty by construction.** So the one class of desk where the doorbell is *most* needed — BOARD-only, no push, skip silent by §3.5.6 — is exactly the class where the standard remedy **provably does nothing.** Both halves behaved as specified and the item was still missed: `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`.
+
+⚠️ **A doorbell disposition of `SPAWNED` against an exempt desk is therefore NOT evidence the item was reached.** `DOORBELL_LOG`'s `drained` column counts inbox items and will read `0` or a number that has nothing to do with the dispatched signal. **Do not compute a MISS as cleared on the spawn alone for an exempt recipient — check the desk's scan ledger for the id.**
+
+**Relation to §3.5.6:** §3.5.6 recorded that the skip is silent by construction and proposed no behaviour change. This section does not fix that either — **`exempt_gap.py` (PROME boot gate, installed 2026-09-11 over CARL/RED/TERRY) is the control.** ⚠️ **The §3.5 exemption's safety is now load-bearing on that check: if `exempt_gap.py` leaves PROME's boot gate, the exemption question re-opens** (WALTER's 2026-09-11 answer to PROME turned on exactly that, and said so). **PROME is the fourth `PULL_COMPLETE` member and is NOT in that check's set** — smaller exposure by construction (never an `action:` owner), which is the same sentence the CARL exemption rested on; flagged, not resolved here.
+
+---
+
 ### 8.1 Recipient consumption boot-step (template WALTER provides; others apply)
+
+> ⛔ **NOT APPLICABLE TO A `PULL_COMPLETE`-EXEMPT DESK (added v0.24, 2026-09-11).** For an exempt recipient WALTER writes **no handoff and no `delivery_log` row, ever** ⇒ `inbox/WALTER/` stays permanently empty and **its emptiness is NOT evidence that nothing is unconsumed.** Installing this step at an exempt desk creates a clean instrument pointed at an unfed channel — `[[finding_instrument_reports_clean_against_the_wrong_reference]]`. **Measured 2026-09-11: CARL's card had installed this step on 9/2 and asserted "both ledgers are live", while the last `delivery_log` row naming CARL was `SIG-W-20260815-001` (2026-08-15) and its `inbox/WALTER/processed/` held 47 files all dated ≤ 8/15.** For an exempt desk the whole-INDEX BOARD ID-DIFF is the **SOLE** channel; see §3.5.8.
+
 
 ```markdown
 ### WALTER signal intake  (inbox/WALTER delivery lane)

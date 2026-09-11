@@ -2548,3 +2548,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-11T18:12:00Z	SIG-W-20260911-002	LABOR	info	claude-code	PRIORITY	AGENTS/LABOR/inbox/WALTER/SIG-W-20260911-002.md	delivered	
 2026-09-11T18:18:00Z	SIG-W-20260911-003	FALCON	action	claude-code	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260911-003.md	delivered	
 2026-09-11T18:18:00Z	SIG-W-20260911-003	BRENT	info	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260911-003.md	delivered	
+2026-09-11T19:15:00Z	SIG-W-20260911-004	HAWK	info	claude-code	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260911-004.md	written_not_delivered_pending_push	
+2026-09-11T19:15:00Z	SIG-W-20260911-004	NEXUS	info	claude-code	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260911-004.md	written_not_delivered_pending_push	
+2026-09-11T19:15:00Z	SIG-W-20260911-004	SAM	info	claude-code	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-004.md	written_not_delivered_pending_push	
+2026-09-11T19:15:00Z	SIG-W-20260911-003-CORRECTION	FALCON	action	claude-code	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260911-003-CORRECTION.md	written_not_delivered_pending_push	self-correction
+2026-09-11T19:15:00Z	SIG-W-20260911-003-CORRECTION	BRENT	info	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260911-003-CORRECTION.md	written_not_delivered_pending_push	self-correction

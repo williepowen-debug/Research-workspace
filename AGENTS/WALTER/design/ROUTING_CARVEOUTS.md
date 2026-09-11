@@ -1,6 +1,6 @@
-# WALTER ROUTING — PER-AGENT CARVE-OUTS v0.32
+# WALTER ROUTING — PER-AGENT CARVE-OUTS v0.33
 
-**Version:** v0.32 — ⚠️ **MUST MATCH `ROUTING_TABLE.md` EXACTLY. These two files are ONE spec split across two paths for read-cap reasons, so they carry ONE version and move in LOCKSTEP: edit either, bump BOTH.** Enforced by `tools/version_drift_check.py` (companion check, added 2026-08-30 on Codex finding 3). **Why it matters:** these sections are routing LAW; before the companion check a carve-out edit could change who receives a signal with no version bump anywhere — the parent's version would still read v0.31 and every drift check would pass.
+**Version:** v0.33 — ⚠️ **MUST MATCH `ROUTING_TABLE.md` EXACTLY. These two files are ONE spec split across two paths for read-cap reasons, so they carry ONE version and move in LOCKSTEP: edit either, bump BOTH.** Enforced by `tools/version_drift_check.py` (companion check, added 2026-08-30 on Codex finding 3). **Why it matters:** these sections are routing LAW; before the companion check a carve-out edit could change who receives a signal with no version bump anywhere — the parent's version would still read v0.31 and every drift check would pass.
 
 > **Split out of `ROUTING_TABLE.md` 2026-08-30** (@ sha256 `8c4d77417a26`, 121,557 B = 224% of the read cap). **VERBATIM — nothing summarised.**
 >
@@ -373,3 +373,31 @@ The previously-bundled `MARKET_VOL` row is split into two routing lines (single 
 **How to apply at intake:** ask "is this signal about the *state/structure of volatility* or about *index-level flow mechanics*?" Vol-state/structure → VIOLET. Flow mechanics/index moves → HENRY. If a signal genuinely carries both (e.g., a vol spike WITH a gamma-flip report), route VIOLET action + HENRY info with the flip named in dispatch_note, since regime implication dominates for network consumption.
 
 **Filed:** Jun 10 2026. Proposed by VIOLET (SIGNAL_INTAKE.md rebuild Appendix A, relayed per spec-change rule); Will approved same day.
+
+---
+
+### Sector-name routing — CRUISE (Sep 11 2026)
+
+**CRUISE was re-classed ACTIVE 2026-08-21** (ROSTER, Will-ruled queue row 55) and has carried **zero routes since** — `grep CRUISE` returned **0 hits** across `ROUTING_TABLE.md`, `ROUTING_OVERLAYS.md` and this file at v0.32. Three CRUISE-tagged signals exist in `route_log.tsv` ever (2026-05-06 · 06-21 · 07-10), **none after the re-class**, and CRUISE recorded an empty `inbox/WALTER/` at **four consecutive checks**. Flagged by PROME 2026-09-10 (each line verified at the artifact); answered here.
+
+🔑 **ROOT CAUSE, and it is worth stating because it will recur:** CRUISE's `REGISTRY.tsv` Domain cell reads **`DEMAND_DESTRUCTION`** — **a code that does not exist in `SIGNAL_FORMAT_SPEC.md`'s Domain Vocabulary.** So there was no domain row to hang CRUISE on, and the omission was invisible from both ends: the registry looked populated, and the table looked complete. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
+
+⛔ **A new macro domain code was CONSIDERED AND REJECTED.** CRUISE is a **three-ticker sector desk** (CCL / RCL / NCLH), not a macro channel; minting `DEMAND_DESTRUCTION` into the vocabulary would create a domain with one occupant and invite every future sector desk to do the same. **This follows the WAL / FLG / OZK single-name seam instead** — the established pattern for a narrow-perimeter desk.
+
+**Rule:**
+
+| Signal shape | Action | Info |
+|---|---|---|
+| **Ticker-`CCL` / `RCL` / `NCLH`-specific** — earnings, pre-announces, 8-Ks, bookings/pricing commentary, capacity, debt/refi | **CRUISE** | CARL |
+| **Cruise-industry demand or pricing** — net yields, occupancy, forward-booking curves, onboard spend, discounting | **CRUISE** | CARL (consumer-demand leg) |
+| **Bunker / marine-fuel cost hitting cruise operators** | **CRUISE** | **BRENT** (owns the fuel complex; CRUISE owns the pass-through to the operator) |
+| **Broad discretionary-consumer signal that merely MENTIONS cruise** | **CARL** (owns the consumer) | **CRUISE cc when a named-operator leg is present** |
+| **Florida-ported cruise operations as an FL economic exposure** | **CORAL** (FL is CORAL's, per the Florida carve above) | **CRUISE cc** |
+
+**Precedence:** default **ROUTINE**; **PRIORITY** on a named-operator pre-announce, guidance change, or a print landing inside a registered CRUISE window; **IMMEDIATE** only on a safety-net or boundary composition.
+
+⚠️ **Why this is not cosmetic and why it was answered on a boot rather than deferred: CRUISE carries a LIVE Will-ruled falsifier** — **WQ-222 / `VX-CRU-06`: CCL excess drawdown over RCL >5pp, based on the 9/3 ruling-date closes, through the CCL Q3 print (~10/5 ESTIMATED, DOCKET L221)**. **A desk with a registered window, a dated resolver and no inbound lane learns of a pre-announce only by accident.** The cost of the gap is asymmetric and the window is open now.
+
+⚠️ **Limit, stated:** WALTER has **not** established that a routable cruise signal actually arrived and was missed between 8/21 and 9/11 — **SEARCH-NOT-FOUND is not "none existed."** This carve-out fixes the lane prospectively; it makes no claim about what did or did not pass through it while it was absent.
+
+**Filed:** Sep 11 2026 — WALTER, as owner-of-record for routing (ROUTING_TABLE v0.23 note). Answers PROME's 9/10 packet. **No new domain code minted; no Will gate required** (a carve-out addition is the established in-line change class, and it moves no existing route). `REGISTRY.tsv`'s `DEMAND_DESTRUCTION` cell is left as-is deliberately — it is a descriptive label, and this carve-out is now what routes CRUISE.

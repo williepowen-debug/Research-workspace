@@ -1,4 +1,4 @@
-# WALTER Routing Table v0.32
+# WALTER Routing Table v0.33
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 
@@ -7,7 +7,7 @@ Default routing rules. WALTER uses this table to determine recipients and preced
 **Canonical domain vocabulary:** The `Domain` column uses codes from `SIGNAL_FORMAT_SPEC.md` Domain Vocabulary section (v0.3, Apr 11). Don't invent new domain codes here without updating FORMAT_SPEC first per the canonical-source rule in `WALTER/CLAUDE.md`.
 
 
-**Version history → [`history/ROUTING_TABLE_VERSION_HISTORY.md`](history/ROUTING_TABLE_VERSION_HISTORY.md)** (v0.1 → v0.31, moved verbatim 2026-08-30; `git log -p -- AGENTS/WALTER/design/ROUTING_TABLE.md` is the other copy). **Current: v0.32 (September 8)** — size split only; both routing files below are mandatory boot reads. Routing and delivery rules are unchanged. Prior v0.31: TERRY reverted to the RED-class exemption.
+**Version history → [`history/ROUTING_TABLE_VERSION_HISTORY.md`](history/ROUTING_TABLE_VERSION_HISTORY.md)** (v0.1 → v0.31, moved verbatim 2026-08-30; `git log -p -- AGENTS/WALTER/design/ROUTING_TABLE.md` is the other copy). **Current: v0.33 (September 11)** — adds the CRUISE sector-name carve-out (below), answering PROME's 9/10 flag: CRUISE had ZERO routes since its 8/21 ACTIVE re-class because its REGISTRY Domain cell (`DEMAND_DESTRUCTION`) is not a code in FORMAT_SPEC's vocabulary, so no domain row could carry it. **No new domain code minted; no existing route moved.** Prior v0.32 (September 8): size split only. Prior v0.31: TERRY reverted to the RED-class exemption.
 
 > **Size re-trigger (split 2026-09-08):** measure both boot files at every Tier-2 closeout and after an append; apply READ_CAP.md rotation tiers. Next calendar check: 2026-09-30. Both halves remain on the boot path: this controls per-read size, not total context. Exact pre-split record: `history/ROUTING_TABLE_BEFORE_SPLIT_2026-09-08.md`; obligation/byte receipt: `../research/2026-09-08_boot-maintenance/rotation-receipt.json`.
 
@@ -17,12 +17,12 @@ Default routing rules. WALTER uses this table to determine recipients and preced
 |---|---|---|
 | **`ROUTING_TABLE.md`** (this) | Domain table, meta rows and backup semantics | ✅ **BOOT — read whole first** |
 | **[`ROUTING_OVERLAYS.md`](ROUTING_OVERLAYS.md)** | By Type/Tag/Boundary/Convergence, safety net, escalation and MINIMIZE | ✅ **BOOT — read whole second; also consult at dispatch** |
-| **[`ROUTING_CARVEOUTS.md`](ROUTING_CARVEOUTS.md)** | **AT DISPATCH**, when a signal is in that agent's lane — the 20 per-agent carve-outs | ❌ not at boot |
+| **[`ROUTING_CARVEOUTS.md`](ROUTING_CARVEOUTS.md)** | **AT DISPATCH**, when a signal is in that agent's lane — the 21 per-agent carve-outs | ❌ not at boot |
 | **[`history/ROUTING_TABLE_VERSION_HISTORY.md`](history/ROUTING_TABLE_VERSION_HISTORY.md)** | provenance, on demand | ❌ not at boot |
 
 > ⚠️ **The carve-outs are ROUTING LAW, not commentary** — they are what puts CORAL on a Florida signal and the current TERRY delivery exemption. Historical T-1 gate text remains marked superseded at its owner. They moved because they are read at DISPATCH, not at boot. **A pointer nobody travels is how a rule dies** (`[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`), so the full inventory is named here and the dispatch step names the file.
 
-### Carve-out inventory (20 sections — text in `ROUTING_CARVEOUTS.md`)
+### Carve-out inventory (21 sections — text in `ROUTING_CARVEOUTS.md`)
 - Residential-housing stress exception (Apr 20 2026)
 - Florida-specific routing — CORAL (Jun 19 2026)
 - National CRE / CMBS market-stress routing — CREED (Jun 22 2026)
@@ -43,6 +43,7 @@ Default routing rules. WALTER uses this table to determine recipients and preced
 - AI-capex routing — VULCAN, and the substance-vs-financing boundary (Jul 16 2026)
 - Iran-cluster CARL-info override (May 6 2026)
 - MARKET_VOL vol-ownership split (Jun 10 2026)
+- 🆕 Sector-name routing — CRUISE (Sep 11 2026) — **the lane was ABSENT, not narrow: 0 hits across all three routing files at v0.32 while the desk sat ACTIVE with a live ruled falsifier (WQ-222 / `VX-CRU-06`, window open through the CCL Q3 print ~10/5)**
 
 
 ---
