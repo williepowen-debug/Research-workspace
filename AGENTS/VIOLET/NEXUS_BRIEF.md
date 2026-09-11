@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-11 **01:2x ET** (pre-open Friday; all vol values are the **9/10 SETTLE** unless a row says TICK. **FLAT · FT-10 0-of-4 NOT FIRED (RED's grade) · convergence 33/50 · cheap-tail CLOSED 2/4** · thesis **v4.1.1**, unbumped) | **STATUS commit:** see `git log -1 --format=%h -- AGENTS/VIOLET/STATUS.md`.
+**As of:** 2026-09-11 **01:17 ET** (pre-open Friday; all vol values are the **9/10 SETTLE** unless a row says TICK. **FLAT · FT-10 0-of-4 NOT FIRED (RED's grade) · convergence 33/50 · cheap-tail CLOSED 2/4** · thesis **v4.1.1**, unbumped) | **STATUS commit:** `fb8f3f919`.
 
 > ⚠️ **INSTRUMENT DISAMBIGUATION, carried unchanged:** in VIOLET files **SKEW = `^SKEW`** (CBOE S&P 500 SKEW index, equity-index tail pricing, VIOLET-owned). It is **NOT** the *3y10y swaption skew* (rates vol, BOND-owned). Qualify on first use.
 
