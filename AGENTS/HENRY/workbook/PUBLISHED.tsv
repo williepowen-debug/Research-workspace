@@ -25,3 +25,8 @@ gamma_flip_14d	7699	2026-09-02	cboe 2681 contracts
 net_gex_14d_Bn	-16.7	2026-09-02	$B per 1%
 gamma_flip_35d	7695	2026-09-04	cboe 7120 contracts
 net_gex_35d_Bn	39.4	2026-09-04	$B per 1%
+ulsd_crack_usd_bbl	110.87	2026-09-11	HO=F*42 - CL=F, front-month; 9/11 OVERNIGHT bar (HO=F 5.09, CL=F 102.39), NOT a settle. NYH basis ~$8 above the USGC assessment -- never mix. 2022 peak on the identical definition = 110.33 [2022-04-28].
+ulsd_crack_ref_20260723	90.16	2026-07-23	the HEN-46 reference level; F1 falsifier: crack <95 = stand down, <90.16 = thesis dead
+skew_cboe	148.86	2026-09-08	Cboe publisher CSV 9/8 bar -- SUPERSEDES 150.63 [9/3]. Back UNDER the >150 orange, above the 145 yellow. RED-FT-10 resets 0-of-4.
+spx_close	7591.70	2026-09-10	9/10 close, -0.58%; third consecutive down session (7,718.60 -> 7,591.70, -1.64%). Root rule #6 green-day gate SHUT at this mark.
+gamma_flip_35d_STALE	7695	2026-09-04	⛔ EXPIRED, NOT CURRENT -- last measured 9/4 on the 9/3 close; HENRY's own finding is a ONE-SESSION shelf life and SPX is -2.01% since. Re-run gamma_flip.py --days 35 before quoting any sign.
