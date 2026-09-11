@@ -171,7 +171,7 @@ The 8/23 scaffold made one binding commitment: **"A2 is the only real parameter 
 
 - **Root rule #6 (puts on green days, calls on red days): DOES NOT APPLY, and here is why it is named anyway.** #6 is a proxy for *"am I paying up for convexity?"* A **share sale buys no convexity**, so the proxy has no object. ⛔ **This is not a break of #6 and must not be logged as one** — a break requires a fill whose convexity price the proxy misprices, and there is none. *(The day-colour analogue that DOES bite is satisfied by construction: LINE 1 executes at the open **after** a new closing high, i.e. into strength.)*
 - **Root rule #7 (roll duration, don't trim size): SATISFIED, and it is the reason these are PARTIALS.** #7's "roll" branch has **no object** — shares have no expiry to roll. Its live half is the distinction it encodes: **trimming = thesis broken; harvesting = a profit zone the position actually reached.** Nothing here claims the oil thesis is broken; **BRENT owns that and has not said so.** ⇒ every line is a **harvest**, sized as a fraction, with the remainder left to run — which is also §7's answer to the roll-yield cost in §7 below.
-- **Non-Negotiable #12 (a fired kill-switch is held, not re-litigated):** cited here for the XLE line it governs, not for this card. Nothing on this card has fired.
+- **`RISK_RULES` durable finding #12 (a fired kill-switch is held, not re-litigated)** *(corrected 2026-09-11 — this line read "Non-Negotiable #12"; that list ends at 8. Substance was right, list name wrong. This is a LIVE line, not dated history, so it is fixed in place rather than annotated):* cited here for the XLE line it governs, not for this card. Nothing on this card has fired.
 
 ---
 

@@ -313,3 +313,38 @@ The card pre-registered: ***"ride beats salvage only if OZK <44.90 (−14.2%) by
 ⇒ **Same class as the `boot.py:93` terminal-filter defect found and fixed the same day: detection was never the gap, INVOCATION was.** A pre-registered checklist with no trigger that fires is a memory aid, and memory is what it was built to replace. **The fix is a dated re-trigger on the file itself, not a firmer intention.**
 
 **Tags:** `GOOD_PROCESS_BAD_OUTCOME` (the VLY probability work) · `MISSED_EXIT` (the OZK $41.75, decided by riding an unsellable pair into a sellable one) · `PROCESS` (13-day write-back lag; phantom state survived it).
+
+---
+
+## 2026-09-11 — **`TRY-EXIT-XLE65C`** — CLOSED, realized **−$77.33 / −33.97%**. *(Written back same session, ~2h after the fill.)*
+
+**The trade:** the ×1 survivor of a 2-lot XLE Sep-30 $65C position. `WQ-168 ⑦` (Will, 9/3) ruled SELL BOTH; one contract outlived it with no rule. `WQ-210` (Will, 9/10) ruled **BRANCH 1 — sell the ×1 at the bid at the 9/11 regular open**. Filled **$1.51** (limit, Day), gross $151.00 − $0.66 fees = **net $150.34** against a **$227.67** basis.
+
+### Graded across the six dimensions
+
+| Dimension | Grade |
+|---|---|
+| **Thesis** | Not TERRY's — BRENT's oil/energy leg. Not graded here. |
+| **Timing** | ⚠️ The ruling's moment (09:30 open) was **missed**; the fill came mid-morning. **The miss did not cost.** |
+| **Structure** | ✅ **Right, on the numbers that existed.** 83% time value, 19 DTE, BE $67.28 needing **+3.1%** from a stalled tape. **Theta was the case, and theta does not round-trip.** |
+| **Sizing** | n/a — an inherited ×1, carded retroactively for management (#20). |
+| **Entry** | n/a — no entry; this desk never owned the entry half (#20). |
+| **Exit** | ✅ **CLEAN. Hit the quoted bid exactly — zero slippage, no chase, no mid-hunting.** |
+
+### ⭐ The finding, and it is worth more than the $77
+
+**This desk recommended the ticket off a vendor quote of `bid 1.66`. The broker showed `1.51 × 53` nine minutes earlier.** ~**10% high, on the side being SOLD, in the direction that flatters the sale.**
+
+**Had the limit been set at 1.66 it would most likely never have filled** — and the position would still be open into a contract that printed **bid `1.30`** an hour later. ⇒ The realized outcome of a **correct** structural decision was nearly destroyed by a **mispriced instrument**, not by the decision.
+
+Root cause, investigated the same session: **yfinance/Yahoo expose NO bid/ask timestamp and no delay flag for an option leg** (verified against the raw payload), while the *underlying* quote is declared real-time and timestamped. The one freshness check read `lastTradeDate` — the last **executed trade**, a different quantity — and compared it to a **date**, so it could not see intraday staleness of any magnitude **by construction**. ⇒ **`RISK_RULES` 5b adopted: vendor marks are SCREENING marks; the fill price comes from the BROKER.** Guard `FLAG_DIRINC` shipped advisory, with this incident as a permanent selftest regression.
+
+### ⚠️ Two things deliberately NOT claimed
+
+1. **The delay is NOT graded as a measured gain.** This desk does not hold the option's 09:30 bid, and comparing a fill to a reconstructed mark is exactly the 21-minute gap that once manufactured a fake n=2 finding (**#6**). The honest statement is *"the delay did not cost,"* not a number.
+2. **No skill is claimed from the post-fill tape.** The contract printed bid `1.30` at 11:11 and `1.45` by 12:20 — **a round trip, not a trend.** Selling above the later bid is not evidence the timing was good.
+
+### One process note in the desk's favour
+TERRY proposed a **mid-limit at $1.73 with a 15-minute leash** to capture ~$3.50 of spread. **Will declined and took the bid. That was the better call** — the spread had tightened to 4.53%, the optimization was worth $3.50, and the tape fell 14% on the contract within the hour. **A small edge is not worth a fill risk on an exit you have already decided to take.**
+
+**Tags:** `GOOD_PROCESS` (pre-registered dated rule, executed at the quoted bid) · `STALE_DATA` (the vendor-quote defect — the founding case for 5b) · `THETA_DECAY` (what the position actually died of)
