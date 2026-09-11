@@ -121,5 +121,22 @@ class ExemptGap(unittest.TestCase):
         self.assertIn("SIG-W-20260820-003", c["aged"])
 
 
+    def test_legacy_to_value_forms_bare_and_annotated_and_near_miss(self):
+        # live forms measured 9/11: bracket 158 · bare 194 · "NAME (annotation, with, commas)" 220
+        sig(self.root, "SIG-W-20260508-004", "CARL (ACTION — load-bearing, commas, inside; more)", key="to")
+        sig(self.root, "SIG-W-20260509-001", "RED", key="to")
+        sig(self.root, "SIG-W-20260509-002", "TERRYX", key="to")        # near-miss: must NOT address TERRY
+        ledger(self.root, "CARL/board/BOARD_LOG.tsv", [])
+        ledger(self.root, "RED/board_log.tsv", [])
+        ledger(self.root, "TERRY/board_log.tsv", [])
+        rows, _ = self.run_scan()
+        self.assertIn("SIG-W-20260508-004", self.by(rows, "CARL")["aged"])
+        self.assertIn("SIG-W-20260509-001", self.by(rows, "RED")["aged"])
+        self.assertNotIn("SIG-W-20260509-002", self.by(rows, "TERRY")["unlogged"])
+        self.assertEqual(exempt_gap.owners("CARL (ACTION — x, y)"), ["CARL"])
+        self.assertEqual(exempt_gap.owners(["carl", "RED"]), ["CARL", "RED"])
+        self.assertEqual(exempt_gap.owners("C"), [])                     # a lone letter is never a desk
+
+
 if __name__ == "__main__":
     unittest.main()

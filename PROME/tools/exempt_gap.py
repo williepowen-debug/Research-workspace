@@ -51,6 +51,30 @@ LEDGER_GLOBS = (  # every surface a desk has ever used as a BOARD consumption le
 )
 
 
+OWNER_TOKEN = re.compile(r"^[A-Z][A-Z0-9_-]{1,}$")
+
+
+def owners(value):
+    """Normalize a routing-line value to a list of upper-case desk names.
+
+    Live BOARD forms (measured 2026-09-11): `[A, B]` (parse_front returns a list) · bare `A` · `A (ACTION — free
+    text, commas included)` — the last two arrive as ONE STRING, and iterating a string yields letters
+    (the 15:0x defect TERRY caught before it shipped a miss). Text after the first "(" is annotation, never a
+    name; names are exact tokens, so TERRYX never matches TERRY.
+    """
+    if not value:
+        return []
+    items = value if isinstance(value, list) else [value]
+    out = []
+    for item in items:
+        head = re.split(r"[(\u2014\u2013]", str(item), 1)[0]          # drop "(annotation…" and dash-led notes
+        for tok in re.split(r"[,\s;/]+", head):
+            tok = tok.strip().strip("'\"[]").upper()
+            if tok and OWNER_TOKEN.match(tok):
+                out.append(tok)
+    return out
+
+
 def repo_root():
     return pathlib.Path(subprocess.run(["git", "rev-parse", "--show-toplevel"],
                                        capture_output=True, text=True, check=True).stdout.strip())
@@ -101,7 +125,7 @@ def load_signals(root):
         # `action:` is the v0.12 (2026-07-27) key; 585 April–July files carry the legacy `to:` key with the
         # same meaning (measured 2026-09-11 — TERRY's bare-`id:` finding prompted the census). A key-name
         # census that reads only the new spelling fails OPEN on every legacy row, so both are read.
-        acts = [a.upper() for a in (fm.get("action") or fm.get("to") or [])]
+        acts = owners(fm.get("action")) or owners(fm.get("to"))
         sigs[sid] = (dt.date(int(d[:4]), int(d[4:6]), int(d[6:8])), acts, fm.get("_headline", ""))
     return sigs
 
