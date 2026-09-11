@@ -79,7 +79,7 @@ PHAN self-reported a **period-basis error**: a *quarterly* trigger tested agains
 7. **9/30 EART August 10-D = V2's tier verdict** — now visible to `abs_monitor` for the first time.
 
 ### CARRIED
-8. **⛔ BOARD v0.1: 183 INDEX ids undispositioned since ~8/17.** Nothing unconsumed (v0.2 lane at zero) — **the question is whether the whole-INDEX scan is still owed. Routed to PROME; do NOT retire a ledger the card calls live, and do NOT grind 183 rows before the ruling.**
+8. **⛔ BOARD v0.1 — MY 9/11 READING WAS WRONG AND PROME CORRECTED IT; 181 IDS STILL OWED.** I reported "nothing unconsumed, the v0.2 lane is at zero." **The lane is at zero BY CONSTRUCTION: CARL is on `BOARD_CONSUMPTION_SPEC` §3.5 pull-complete EXEMPTION, so WALTER does not feed `inbox/WALTER/` at all** — every processed lane file is dated **≤8/15**. **⇒ the whole-INDEX scan is CARL's SOLE WALTER CHANNEL and the gap is REAL.** §3.5.6 says this verbatim (*"reading zero … is not evidence of consumption; it is a definitional consequence of the exemption"*) and **RED made the identical error on 8/12, written up in that same sub-section.** **Two action:[CARL] signals were dispositioned 9/11** (`SIG-W-20260910-005` IMMEDIATE, `SIG-W-20260901-015` PRIORITY). ⛔ **DO NOT freeze the v0.1 ledger — it is the exemption's warrant. DO NOT decide the exemption yourself — PROME routed that to WALTER. RUN THE WHOLE-INDEX SCAN EVERY BOOT; skipping it is silent by construction.**
 9. **CARL-DR-5 at DEWEY, +13d** — chased today; it can score a strike against my own evidence.
 10. **RED holds the CRL-10 self-report.** Ask whether its 7/24 rationalization test is touched (it named V2-on-HHDC, since corrected as unfireable).
 11. **MEMORY.md 99/100 lines — flagged to PROME, do NOT compact.**
@@ -102,8 +102,8 @@ PHAN self-reported a **period-basis error**: a *quarterly* trigger tested agains
 - **DAEDALUS ×1** — 9/14 ladder inputs incl. the late-re-price flag.
 - **DEWEY ×1** — CARL-DR-5 chase.
 
-## INBOX — **3 arrived mid-session, 1 consumed, 2 OPEN**
-`find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **2**. ⛔ Never count with `ls inbox/*.md`.
+## INBOX — **4 arrived mid-session (3 PHAN + 1 PROME), 1 consumed, 3 OPEN**
+`find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **3**. ⛔ Never count with `ls inbox/*.md`. ⛔ **AND NEVER READ A ZERO ON `inbox/WALTER/` AS "NOTHING PENDING" — CARL is §3.5-EXEMPT, so WALTER never delivers there and that lane is empty by construction.** The BOARD whole-INDEX scan is the real channel.
 
 ## WORKBOOK HEALTH
 | File | Size / rows | Note |
