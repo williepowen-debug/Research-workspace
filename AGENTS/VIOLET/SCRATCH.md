@@ -57,12 +57,13 @@ F-B day 1 regrades **+1.046% → +0.856%** on the close (**RMS 13.59% ann, 76% o
 1. 🔴 **RE-CONFIRM the 9/11 spot row at `SKEW_History.csv`** — `.venv/bin/python3 AGENTS/VIOLET/scripts/backfill.py --spot-only`, which will report **`agreed`** or **`CORRECTED`**. **Everything rests on this: the STATUS headline, the convergence 5, and RED's bar.** ⚠️ **If CORRECTED, send RED the correction the same session — I promised that in writing.**
 2. 🔴 **GRADE F-B at the 9/16 close** (`fb_grade.py`). Basis fixed PRE-OUTCOME; **must not be re-chosen after the fact.**
 3. 🔴 **Watch 9/14 and 9/15 closes for cheap-tail L1 (VVIX ≤90, now 91.28).** 3-of-4 on a dated close is the tightest this window has been. **All four on ONE close, THEN two consecutive settles. Nothing re-opens on a partial.**
-4. 🟠 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — open since 9/6; **tonight was the third session it would have mattered.**
-5. 🟠 **D#8 prediction registry** — owes `VIO-FOMC-0916`'s 5 legs and F-B. **`workbook/LEDGER_GLOB` still absent.**
-6. 🟠 **`MAINTENANCE.md` 319 lines vs its ~300 cap** — `thresholds.py` flags it every single run. D#16 two phantom caps · D#17 retirement sweep.
-7. 🟠 **D#12 two-state the three silent-rot ledgers** · **D#9 KB two-state** (283 rows, 92 past `Stale_By`).
-8. 📅 **`VIO-FOMC-0916` grades 9/16 · 9/18 · 9/23**, FROZEN and untouched. **9/16 is also the VIX quarterly SOQ and the M1:M2 BASIS BREAK** (pair → VX/V6 : VX/X6).
-9. 🟡 **Thesis advisory is OVER threshold** — 14 rows since v4.1, 2 retractions. **Read the headline against KB-VIO-277→283.** ① is a bump *candidate*: the framework folds front-end and tail premium together and this settle separated them. **Do not bump on one settle.**
+4. 🟠 **FIX `surface_agreement.py`'s memo bound — it is one axis too coarse (KB-VIO-284).** It bounds to a delivery DATE and assumes ONE closeout per date; **VIOLET ran three on 9/11**, so the 14:5x memo (33/50, true then) and tonight's (30/50, true now) read as a cross-surface disagreement. ⛔ **Do NOT "fix" it by comparing only the latest memo per date** — that destroys the same-day-ADDENDUM detection its own frozen test case A protects. **Name the discriminator first: how do you tell a SUPERSEDING closeout memo from an AMENDING addendum?** Then change the bound, then extend the suite. **Tonight's red is documented correct-and-intended on STATUS ⑥ — do not silently clear it.**
+5. 🟠 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — open since 9/6; **tonight was the third session it would have mattered.**
+6. 🟠 **D#8 prediction registry** — owes `VIO-FOMC-0916`'s 5 legs and F-B. **`workbook/LEDGER_GLOB` still absent.**
+7. 🟠 **D#16 the two phantom caps** (`MAINTENANCE.md:131`, `README.md:12,17`) · **D#17 research retirement sweep.** ✅ *The ~300-line MAINTENANCE cap breach is CLEARED this session — 320 → 186 lines, six 9/04 entries archived (crc32 `610ede72`).*
+8. 🟠 **D#12 two-state the three silent-rot ledgers** · **D#9 KB two-state** (**284** rows, 92 past `Stale_By`).
+9. 📅 **`VIO-FOMC-0916` grades 9/16 · 9/18 · 9/23**, FROZEN and untouched. **9/16 is also the VIX quarterly SOQ and the M1:M2 BASIS BREAK** (pair → VX/V6 : VX/X6).
+10. 🟡 **Thesis advisory is OVER threshold** — 14 rows since v4.1, 2 retractions. **Read the headline against KB-VIO-277→284.** ① is a bump *candidate*: the framework folds front-end and tail premium together and this settle separated them. **Do not bump on one settle.**
 
 ## CARRY-FORWARD
 

@@ -12,7 +12,9 @@
 >
 > **⑤ ✅ THE TEST SUITES ARE WIRED — D#14 CLOSED.** `scripts/tests/` held 18 checks that **nothing invoked** for a day. New `run_tests.py` discovers suites (so a future one needs no wiring) and **fails CLOSED on an empty or shrunken discovery**; it is now the **9th BLOCKING contract** in `closeout_guard.py`. **3 suites · 45 checks · green.**
 >
-> 📄 *The 9/11 14:5x TICK header is superseded by this one; its substance is carried in ① and ③. The 2026-09-06 PM4 header + POST-NFP grade remain archived verbatim → `archive/STATUS_SESSION_LOG_2026-09-06_PM.md` (crc32 `03f37693`). KB-VIO-233, 246→281 stand as written.*
+> **⑥ ⚠️ ONE CLOSEOUT CONTRACT IS RED AND IT IS CORRECT AND INTENDED — recorded here because `closeout_guard.py` requires exactly that rather than a silent pass.** *Cross-surface figure agreement* reports **NEXUS_BRIEF 30/50 vs "PROME memo" 33/50**. **Both numbers are right.** VIOLET ran **THREE closeouts on 9/11** (01:1x · 14:5x · 17:5x); the 14:5x memo carries 33/50, true at its vintage, and tonight's carries 30/50. **The memo bound shipped THIS MORNING bounds to a delivery DATE and assumes one closeout per date.** ⛔ **NOT fixed tonight, deliberately:** the naive repair — compare only the latest memo per date — **would destroy the property that fix's own test exists to protect** (a same-day ADDENDUM contradicting the memo it amends is a genuine disagreement). Separating a *superseding* memo from an *amending* one is a design question, and **three guards shipped broken on this desk today.** **The delivered 14:5x memo was NOT edited** — its remedy is still impossible for an immutable record (KB-VIO-279). 🔑 **Self-referential trap noted: writing another memo today to explain this would add a third same-day memo and make the check redder** — which is why the explanation lives here and in KB, not in the mail. → **KB-VIO-284**
+>
+> 📄 *The 9/11 14:5x TICK header is superseded by this one; its substance is carried in ① and ③. The 2026-09-06 PM4 header + POST-NFP grade remain archived verbatim → `archive/STATUS_SESSION_LOG_2026-09-06_PM.md` (crc32 `03f37693`). KB-VIO-233, 246→284 stand as written.*
 
 ---
 
@@ -126,11 +128,11 @@
 3. 🔴 **Watch the 9/14 and 9/15 closes for cheap-tail L1** — VVIX ≤90, currently 91.28. All four on ONE close, then two consecutive settles.
 4. 🟠 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — the at-the-moment-of-use check. **Open since 9/6; tonight is the third session it would have mattered.**
 5. 🟠 **D#8 canonical forward-prediction registry** (thesis table · KB `Stale_By` · a new `PREDICTIONS.tsv`) — owes `VIO-FOMC-0916`'s 5 legs and F-B. **`workbook/LEDGER_GLOB` still absent.**
-6. 🟠 **D#12 two-state the three silent-rot ledgers** (`VX_M1_HISTORY` 7/29 · `VX_TERM_HISTORY` 8/3 · `vix_historical.csv` 4/10) · add `MOVE.tsv` + `IMPLIED_CORR.tsv` to `CANARIES`.
-7. 🟠 **`MAINTENANCE.md` is 319 lines against its ~300 cap** — `thresholds.py` flags it every run. **D#16 the two phantom caps** (`MAINTENANCE.md:131`, `README.md:12,17`) · **D#17 research retirement sweep.**
-8. 🟠 **D#9 KB two-state** — 283 rows, 92 ACTIVE past `Stale_By` (oldest 2026-04-22).
+6. 🟠 **FIX `surface_agreement.py`'s memo bound (KB-VIO-284)** — see ⑥ above; the design question comes before the code change. · **D#12** the three silent-rot ledgers (`VX_M1_HISTORY` 7/29 · `VX_TERM_HISTORY` 8/3 · `vix_historical.csv` 4/10) · add `MOVE.tsv` + `IMPLIED_CORR.tsv` to `CANARIES`.
+7. 🟠 **D#16 the two phantom caps** (`MAINTENANCE.md:131`, `README.md:12,17`) · **D#17 research retirement sweep.** ✅ *The ~300-line `MAINTENANCE.md` cap breach is CLEARED this session — 320 → 186 lines, the six 9/04 entries archived (crc32 `610ede72`); `thresholds.py` no longer flags it.*
+8. 🟠 **D#9 KB two-state** — **284** rows, 92 ACTIVE past `Stale_By` (oldest 2026-04-22). · **D#12 two-state the three silent-rot ledgers.**
 9. 📅 **GRADE `VIO-FOMC-0916`** at the 9/16 · 9/18 · 9/23 closes.
-10. 🟡 **Thesis currency is over the advisory threshold** — 14 KB rows since v4.1, 2 retractions. **Go READ the thesis headline against KB-VIO-277→283.** Advisory, never blocks.
+10. 🟡 **Thesis currency is over the advisory threshold** — 14 KB rows since v4.1, 2 retractions. **Go READ the thesis headline against KB-VIO-277→284.** Advisory, never blocks.
 
 **DECLINED-BY-DESIGN + the answered questions (D-Q1 scale · D-Q3 KB two-state) are archived verbatim** → `archive/STATUS_RESEARCH_QUEUE_DISPOSITIONS_2026-09-06.md` (crc32 `2f380602`).
 
