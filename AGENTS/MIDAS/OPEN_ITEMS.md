@@ -5,7 +5,7 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-05 ~20:3x ET (Sat) — item 21 CLOSED (MIDAS-08 graded terminal), item 24 OPENED (contract-identity guard).
+**Last updated:** 2026-09-11 ~01:4x ET (Fri) — **item 24 CLOSED** (the contract-identity guard is built, tested and boot-wired; KB-047's 7th instance closed with it). Items 20/22/23 unchanged and still open.
 
 ---
 
@@ -27,7 +27,21 @@ Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if t
 
 ⚠️ **STANDING INSTRUCTION TO THE 9/30 GRADER, placed here because this is the surface you read (L-48 applied to itself): if the data is unavailable, record STUCK, not MISS.**
 
-## 24. 🔴 NEW 2026-09-05 — `metals_watch.py` HAS NO CONTRACT-IDENTITY GUARD, AND ITS SPOT BLOCK PRINTED FIVE DYING CONTRACTS
+## 24. ✅ **CLOSED 2026-09-11 — the contract-identity guard is BUILT, TESTED and BOOT-WIRED (route (i)). KB-047's 7th instance is closed with it.**
+
+**What shipped:** `check_contract_identity()` + a hand-maintained `FRONT_MONTHS` map in `metals_watch.py` — a **local** volume pull, no `fetch.py` change, per PROME's rulings of 2026-09-05 ① and 2026-09-10 ①. It grades every `=F` pointer against its explicit front month **on the PRIOR settled session** (never the newest bar — KB-112's self-heal rule, encoded as rule 1 in the source), flags **DYING** below a 5% volume share, prints the level spread, and **trips rc=1 REVIEW** in the verdict: a fetch that *succeeds and returns the wrong object* is worse than one that fails, because it prints a plausible number. **A pointer whose history cannot be pulled is UNKNOWN and is listed — an absent discriminator is not a clean bill** (L-46).
+
+**Tested, not asserted:** `metals_watch.py` **rc=1**, zero failed legs, stderr empty; `boot.py` **rc=1 REVIEW — metals watch**, all four legs clean (ledger staleness quiet · no predictions due · COT vintage current). **9/10 result: ALL FIVE DYING** — `GC=F` vol **86** vs `GCZ26` **164,390** (0.05%) · `SI=F` 138/54,865 · `HG=F` 933/48,742 · `PL=F` 4/28,309 · `PA=F` **0**/5,105; spreads **0.22–1.22%**. **KB-112 reproduced on fresh data, and the volume-duplication shape with it (9/10 carried 9/9's volume on all five months while both ETFs printed distinct volumes) — third instance.**
+
+⚠️ **THE RESIDUAL RISK, NAMED RATHER THAN CLAIMED AWAY: `FRONT_MONTHS` is HAND-MAINTAINED and a stale map does not fail loudly — it just stops discriminating.** That is `finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction` waiting to happen from the other end. Mitigation shipped: the guard **prints the mapped month on every run**, so a stale map is visible in the output rather than silent. **A month-roll is now a maintenance obligation on this desk.**
+
+**Route (ii) — a `volume` field on FORGE `fetch.py` — stays PROME's** (registered on PROME's owes, 9/10 packet ②). When it lands the local pull may retire; **my call, and I would keep the local pull unless `fetch.py` also exposes the PRIOR session's row**, which is what the rule actually needs.
+
+---
+
+### Record of the 9/5 finding (preserved — this is what the guard was built against)
+
+**`metals_watch.py` had no contract-identity guard and its spot block printed five dying contracts.**
 
 Verified at the settled **9/4** bars by volume: `GC=F` **16** vs `GCZ26` **209,167** · `SI=F` 57 vs `SIZ26` 41,845 · `HG=F` **890 (= HGU26)** vs `HGZ26` 33,325 · `PL=F` 0 vs `PLV26` 19,047 · `PA=F` **11 (= PAU26)** vs `PAZ26` 4,896. **Level spreads 0.27%–1.30%.** ⛔ Standing warning ② was written as a *gold* fact; it is a property of **every** `=F` pointer this desk quotes. → **KB-112, L-50**
 

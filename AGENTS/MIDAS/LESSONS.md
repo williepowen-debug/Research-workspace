@@ -62,3 +62,4 @@
 | **L-48** | 2026-09-02 | Sharp spec to the counterparty, vague one on my own book — I graded the book. **Placement test: not "where does this belong?" but "which surface does the reader TRAVEL?"** |
 | **L-49** | 2026-09-05 | A **ratio** metric hides the move when its DENOMINATOR co-moves — net long −6.25% read as −1.92pp because OI fell too. Register ratio AND absolute; ratio binds. |
 | **L-50** | 2026-09-05 | **The correcting claim inherited the exact defect it corrected** — a roll-date re-read off an in-flight bar, fixing a roll-date claim read off an in-flight bar. Sweep the fix. |
+| **L-51** | 2026-09-11 | **A regression coefficient is a dated carry item and nothing on this desk expires one.** M1's premise was written on a 2025 gold–rate beta of **−0.0086 (t −0.45, statistically ZERO)**; it is now **−0.1860 (t −4.68)** and no surface re-measured it. Re-measure the parameter, not just the claim. |

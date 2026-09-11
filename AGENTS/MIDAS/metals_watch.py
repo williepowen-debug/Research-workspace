@@ -83,6 +83,72 @@ FUTURES = {"GC=F": "Gold fut", "SI=F": "Silver fut", "HG=F": "Copper fut",
 ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
                "PPLT": "Platinum ETF", "PALL": "Palladium ETF"}
 
+# --- Contract-identity guard (KB-112, L-50; PROME ruling 2026-09-05 + 2026-09-10
+# route (i): a LOCAL volume pull, because FORGE `fetch.py price` returns no volume
+# field — 7th instance of KB-047. When `fetch.py` gains one, this may be retired.)
+#
+# Every `=F` pointer above is a CONTINUOUS pointer, and the vendor leaves it on a
+# DYING contract for weeks: at the 9/4 2026 settles `GC=F` traded 16 lots against
+# `GCZ26`'s 209,167, and all five pointers were on expiring months (level spreads
+# 0.27%-1.30%). The discriminator is VOLUME, not price.
+#
+# ⛔ TWO RULES BOUGHT BY PUBLISHED ERRORS, both encoded below:
+#   1. NEVER identify a contract from the NEWEST futures bar. The vendor duplicates
+#      the prior session's volume into the latest futures row only, and it self-heals
+#      on the next session's pull (9/1 GCZ26 read 152,216 on 9/2, 198,560 on 9/5;
+#      re-confirmed 9/11: the 9/10 row carried 9/9's volume on all five months).
+#      => grade on the PRIOR settled session's row, index -2.
+#   2. The explicit front month is HAND-MAINTAINED and must be rolled by a human.
+#      A stale map does not fail loudly on its own — it just stops discriminating —
+#      so the guard prints the map's month with every verdict.
+FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
+                "PL=F": "PLV26.NYM", "PA=F": "PAZ26.NYM"}
+# A pointer carrying under this share of the explicit month's volume is DYING.
+DYING_VOL_SHARE = 0.05
+
+
+def check_contract_identity(front_months=None):
+    """Is each `=F` pointer sitting on the liquid front month, or a dying one?
+
+    Returns (rows, flags). `rows` is one tuple per pointer:
+        (pointer, front, asof_date, ptr_vol, front_vol, ptr_close, front_close,
+         spread_pct, state)
+    `state` is DYING / OK / UNKNOWN. `flags` lists the DYING pointers.
+
+    Fail-LOUD: a pointer whose history cannot be pulled is UNKNOWN and is listed,
+    never silently treated as OK. An absent discriminator is not a clean bill."""
+    front_months = FRONT_MONTHS if front_months is None else front_months
+    rows, flags = [], []
+    for ptr, front in front_months.items():
+        try:
+            hist = fetch.price_history([ptr, front], days=12)
+            a, b = hist.get(ptr, {}), hist.get(front, {})
+            if "error" in a or "error" in b:
+                raise ValueError(f"{a.get('error') or b.get('error')}")
+            ah, bh = a["history"], b["history"]
+            if len(ah) < 2 or len(bh) < 2:
+                raise ValueError("fewer than 2 bars — cannot use the PRIOR session")
+            # RULE 1: the PRIOR settled session, never the newest (duplicated) bar.
+            ar, br = ah[-2], bh[-2]
+            if ar["date"] != br["date"]:
+                raise ValueError(f"prior-session dates disagree: {ar['date']} vs {br['date']}")
+            pv, fv = ar["volume"], br["volume"]
+            spread = ((ar["close"] - br["close"]) / br["close"] * 100) if br["close"] else float("nan")
+            if fv <= 0:
+                state = "UNKNOWN"
+            elif pv < DYING_VOL_SHARE * fv:
+                state = "DYING"
+            else:
+                state = "OK"
+            rows.append((ptr, front, ar["date"], pv, fv, ar["close"], br["close"], spread, state))
+            if state != "OK":
+                flags.append(ptr)
+        except Exception as e:
+            rows.append((ptr, front, None, None, None, None, None, None, f"UNKNOWN ({e})"))
+            flags.append(ptr)
+    return rows, flags
+
+
 # GSR bands (MIDAS CLAUDE.md THRESHOLDS table)
 GSR_YELLOW, GSR_ORANGE, GSR_RED = 85, 90, 95
 
@@ -249,6 +315,26 @@ def main():
     except Exception as e:
         failures.append(f"etf: {e}")
         print(f"\n  ERROR ETF proxy spot fetch FAILED: {e}", file=sys.stderr)
+
+    # --- 3b. Contract-identity guard (KB-112) — are the `=F` pointers alive? ---
+    dying_pointers = []
+    try:
+        ci_rows, dying_pointers = check_contract_identity()
+        print(f"\n  CONTRACT IDENTITY — `=F` pointer vs explicit front month "
+              f"(graded on the PRIOR settled session; the newest futures bar's volume is duplicated):")
+        for ptr, front, dt, pv, fv, pc, fc, sp, state in ci_rows:
+            if dt is None:
+                print(f"    {ptr:<6} vs {front:<11} {state}")
+            else:
+                print(f"    {ptr:<6} vs {front:<11} [{dt}]  vol {pv:>9,d} vs {fv:>9,d} "
+                      f"({100.0 * pv / fv if fv else float('nan'):5.2f}%)  "
+                      f"${pc:>9,.2f} vs ${fc:>9,.2f}  spread {sp:+.2f}%  -> {state}")
+        if dying_pointers:
+            print(f"    ⛔ {len(dying_pointers)} pointer(s) NOT on the front month: {', '.join(dying_pointers)}"
+                  f" — quote the EXPLICIT month, never the `=F` level, and never a cross-roll delta.")
+    except Exception as e:
+        failures.append(f"contract-identity: {e}")
+        print(f"\n  ERROR contract-identity guard FAILED: {e}", file=sys.stderr)
 
     # --- 4. Gold/silver ratio (off futures) ---
     gsr = None
@@ -485,11 +571,20 @@ def main():
              if lme_latest else "LME Cu FETCH-FAIL")
     print(f"\n  Metals leg: {y_s} · {g_s} · {gsr_s} · {lme_s} · M1: {div_s}{kc3_s}\n")
 
+    if dying_pointers:
+        print(f"  ⛔ CONTRACT IDENTITY: {len(dying_pointers)} `=F` pointer(s) off the front month "
+              f"({', '.join(dying_pointers)}) — every level printed above for those is the WRONG CONTRACT.")
+
     rc = 0
     if failures:
         print(f"  metals_watch.py: {len(failures)} leg(s) FAILED: {'; '.join(failures)}", file=sys.stderr)
         rc = 2
-    elif (gsr_band in ("YELLOW", "ORANGE", "RED")
+    elif (dying_pointers
+          # 2026-09-11: a pointer off the front month is a REVIEW condition, not a
+          # fetch failure — the fetch SUCCEEDED and returned the wrong object, which
+          # is worse (it prints a plausible number). rc=1 so the operator re-reads
+          # the level before quoting it.
+          or gsr_band in ("YELLOW", "ORANGE", "RED")
           or (divergence_state and divergence_state.startswith("DIVERGE"))
           # 2026-08-07: the registered 3-week kill-cond-#3 window now also trips
           # REVIEW. Without this, the 90d leg alone gates rc and returns 0 while
