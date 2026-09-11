@@ -675,7 +675,12 @@ def check_claude_dir_drift():
     """8/29 (Will's .claude/ walkthrough): PROME/.claude/agents/ SHADOWS root .claude/agents/
     for every launch from PROME/ — the harness stops at the nearest copy. The two diverged
     silently (ANVIL's 8/14 hardened rule 10 never reached the copy PROME spawns from).
-    Advisory: any agent file present in one and missing/different in the other."""
+    🔴 BLOCKING since 2026-09-11 (external review, CODEX point 6). It was ADVISE and it WORKED — it would have
+    printed tonight's drift, where `.claude/agents/argus.md` was repaired and `PROME/.claude/agents/argus.md`,
+    the copy PROME actually launches from, kept the defective committed-history-only instruction. An advisory
+    check that fires and is walked past is `finding_a_check_that_only_advises_is_overridden_the_control_is_
+    downstream`: the instrument was never the problem. Promoted rather than replaced — no new checker.
+    Any agent/skill file present in one tree and missing or byte-different in the other BLOCKS."""
     bad, total = [], 0
     for sub, pat in (("agents", "*.md"), ("skills", "*/SKILL.md")):
         root_d, prome_d = ROOT / ".claude" / sub, ROOT / "PROME/.claude" / sub
@@ -688,7 +693,7 @@ def check_claude_dir_drift():
                 bad.append(f"{sub}/{n} (only in {'root' if a.exists() else 'PROME'})")
             elif a.read_bytes() != b.read_bytes():
                 bad.append(f"{sub}/{n} (differs)")
-    record(ADVISE, ".claude/{agents,skills} root↔PROME parity", not bad,
+    record(BLOCK, ".claude/{agents,skills} root↔PROME parity", not bad,
            ("drift: " + ", ".join(bad)) if bad else f"{total} agent/skill definition(s) identical",
            "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
 
