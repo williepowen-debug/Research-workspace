@@ -95,6 +95,25 @@ def index_rows():
         yield cells[0], action_names(cells[4]), cells[3], cells[5][:90]
 
 
+def closeout_line():
+    """Emit the §3.5.6 option (b) closeout self-assertion, verbatim TERRY wording.
+
+    The unconditional scan is the PULL; this line is its ARTIFACT. It exists
+    because for a §3.5-exempt desk a skipped scan and a clean scan are otherwise
+    indistinguishable on every surface either side keeps — so "no complaint" is
+    not evidence. PROME's exempt_gap.py remains the CONTROL; this is a rider.
+
+    ⛔ This line asserts the scan RAN and what it SAW. It does NOT assert the
+    signals were substantively reviewed — a logged id is a receipt, not a read.
+    """
+    have = logged_ids()
+    ids = [sig for sig, _, _, _ in index_rows()]
+    last = max(have) if have else "(none)"
+    new_since = [i for i in ids if i > last]
+    print(f"BOARD scan run, {len(new_since)} new since {last}, {len(have)} logged")
+    return 0
+
+
 def main():
     # ⛔ FAIL CLOSED. The first version returned 0 ("✅ no unrecorded ids") when
     # BOARD/INDEX.md was missing OR empty — a guard reporting CLEAN when it cannot
@@ -144,4 +163,6 @@ def main():
 
 
 if __name__ == "__main__":
+    if "--closeout" in sys.argv:
+        sys.exit(closeout_line())
     sys.exit(main())
