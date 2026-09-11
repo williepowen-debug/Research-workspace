@@ -8,6 +8,43 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-11 (Fri, eve) — 🔻 **CRL-08 RE-PRICED 45% → 7% ON PASS-THROUGH ARITHMETIC. $4.50 is not reachable at today's crude at ANY pass-through rate — and the mechanism is firing FASTER than registered, not failing.**
+
+**Second reachability re-grade of the same day** (CRL-10 62→8 this morning). Same structure, opposite mechanism state: CRL-10's driver was moving away from its bar; **CRL-08's driver is working, and working faster than CARL's registered lag — the bar is simply out of arithmetic range inside the window.**
+
+**All figures on ONE labelled series** (BZ=F front-month Brent; AAA national regular) — the label is load-bearing today because **the two Brents disagree by ~$5**: FRED `DCOILBRENTEU` **$109.51 (9/9, latest FRED obs)** vs **BZ=F $104.42 (9/11 live)**. Quoting FRED as *current* would overstate crude by ~$5 and the implied pump by ~12¢.
+
+| | |
+|---|---|
+| Crude | trough **$87.84** (8/26) → peak **$107.63** (9/10) → **$104.42** (9/11, **−3.0% off peak, first down day**) |
+| Move | trough→now **+$16.58/bbl = 39.5¢/gal** at 100% pass-through |
+| Pump | **$4.095** (9/1 low) → **$4.295** (9/11) = **+20.0¢ realized = 50.7% pass-through** |
+| To reach $4.50 | **+40.5¢ = 102.6% pass-through of the move crude actually made** |
+
+⛔ **102.6% exceeds full pass-through, so $4.50 is not reachable at today's crude at any rate.** It needs crude ≈ **$109 BZ=F at 80% PT**, **$112 at 70%**, **~$122 at the realized ~50%** (+17% from here).
+
+⛔ **Timing fails independently.** A sustained-2wk confirm must **complete** by the ~9/30 close ⇒ the cross must occur by **9/16** ⇒ **4.10¢/day required vs 2.62¢/day measured (9/5-9/10) = 1.56×** — while the marginal crude input has turned negative.
+
+**⇒ Both legs fail. 45% → 7%.** Invalidation (Brent <$80 sustained 2wk) remains far away — crude is at $104.
+
+### ⭐ Not a miss, and not a mechanism failure — the opposite
+Pass-through is working and is running **faster** than CARL's registered **17-18d** lag. Crude turned up 8/27-8/31 and the pump turned up **9/2**; crude accelerated +$9.71 across 9/8-9/10 and the pump accelerated +13.1¢ across 9/5-9/10. **Implied lag ~2-6 days** — the compressed/acute regime, with no Iran cluster declared.
+
+⚠️ **Recorded as an OBSERVATION, not a re-spec, with the confound named.** n=1 episode, and diesel is **+75.6¢ since 8/10** on a distillate-specific shock, so a gasoline-crack or refinery-side driver is not excluded and would mimic a shortened crude lag. This is the identification failure the 8/3-8/17 diesel experiment hit (KB-390) — an experiment that never stated its quiet-background precondition. **Re-pointing a registered parameter is a SPEC change → Will** (2026-08-03 precedent).
+
+**Why it matters beyond CRL-08:** the 17-18d lag is what this desk uses to time pump moves **into CPI print months**. This morning's STATUS line — *"at CARL's registered 17-18d lag, the 8/25→9/1 re-rise reaches the pump ~9/11-9/18"* — was computed on it, and is now superseded. If the true lag is materially shorter in elevated regimes, **every pump-into-CPI timing claim on this desk inherits the error in the direction of saying the move lands LATER than it does.**
+
+### ⛔ Spec defect surfaced, NOT silently resolved: CRL-08 carries TWO bars
+The Prediction text says *"hit $4.50+"* and the Instrument says *`>=$4.50`*, but the **May-29 disposition** graded the 5-6 day May episode **FIRST-CROSS-NOT-SUSTAINED** against a **2-wk sustained** requirement.
+
+**In May the two bars agreed** (the touch happened, sustained failed → re-arm), so the ambiguity cost nothing. **Today they diverge for the first time in this window: a TOUCH by 9/30 prices ~25-30%; SUSTAINED-2WK prices ~7%.**
+
+**I priced the bar this row's own grading history used, and refused to take the friendlier one** — the identical basis-shopping the August CPI frame nearly let me do twelve hours earlier (SA +3.90% vs NSA +2.53%). Same class as the **8/12 HHDC card seam**: adjacent specs that fail to partition, with the data landing in the gap. **Which bar governs is Will's to settle — surfaced, not taken.**
+
+**Files:** `thesis/PREDICTIONS.tsv` (CRL-08 Confidence + Notes) · `PREDICTIONS_MIRROR.md` · `STATUS.md` (Brent + Gas Pump rows) · KB-CARL-465, KB-CARL-466. `consistency_check` **0 hard**.
+
+---
+
 ## 2026-09-11 (Fri) — 🔻 **CRL-10 RE-PRICED 62% → 8% ON REACHABILITY ARITHMETIC. A threshold moving out of reach, NOT a mechanism refuted — and a resolvability defect recorded beside it rather than inside it.**
 
 **Origin:** August CPI, released **2026-09-11 08:30 ET**, pulled at the primary (BLS release) and re-derived independently from FRED index levels rather than read off a summary.
