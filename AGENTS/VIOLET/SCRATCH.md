@@ -64,13 +64,14 @@ STATUS rebuilt on the **9/10 SETTLE** basis (**32,067 → 25,525 B**, 47% of cap
 ## NEXT SESSION (priority order)
 
 1. 🔴 **Fix `vx_daily_gapcheck.py`'s span** — `hi` = newest CBOE VIX date with ≥1 companion, **never `max(ledger dates)`**. Then **pair it with `backfill.py`'s inability to CREATE rows** — fixing one without the other leaves the hole.
-2. 🔴 **GRADE F-B at the 9/16 close** — SPX realized 9/11–9/16 vs 17.84% annualized. **Registered pre-CPI; grade it whichever way it lands.**
-3. 🔴 **Pull the 9/11 CPI reaction and the 9/11 15:30 COT release** (the 9/8 report — first new positioning since 9/1, and the matrix has carried p51.9 for ten days).
-4. 🔴 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — the window is CLOSED now, which makes this cheap to do and easy to forget.
-5. 🟠 **`thresholds.py` still writes the leading-edge row from yfinance** — open since 9/6; it is the exact window an FT-10 bar is graded in.
-6. 📅 **`VIO-FOMC-0916` grades at the 9/16 · 9/18 · 9/23 closes.** **FROZEN and untouched by VECTOR 2.** Also **9/16 is the VIX quarterly SOQ and the M1:M2 basis break** (pair → VX/V6 : VX/X6).
-7. 🟡 **Refresh the two `[STALE]` dashboard rows** — JPY vol (9/4) and VIX options C/P (9/6). Labelled, not carried.
-8. 🟠 **D#10 `TRADE.md`** (the 7/30 close row + WQ-177 heading strike + vintage header) · **D#8 prediction registry** — now owes it **two** more sets of legs (`VIO-FOMC-0916` ×5 and F-B) · **`workbook/LEDGER_GLOB` still absent.**
+2. 🔴 **Bound `surface_agreement.py`'s memo glob to the session date** — it reads every past `*_from-VIOLET_*` memo as a LIVE surface, so it is **permanently red** on any figure that legitimately moved, and its printed remedy ("re-derive the non-canonical surface") would mean **editing a delivered record**. Pairs with #1: both are references that are wrong, not thresholds that are loose — **but #1 fails silent and this one fails loud-and-unfixable, which is the kind that trains you to wave reds through.** → KB-VIO-276
+3. 🔴 **GRADE F-B at the 9/16 close** — SPX realized 9/11–9/16 vs 17.84% annualized. **Registered pre-CPI; grade it whichever way it lands.**
+4. 🔴 **Pull the 9/11 CPI reaction and the 9/11 15:30 COT release** (the 9/8 report — first new positioning since 9/1, and the matrix has carried p51.9 for ten days).
+5. 🔴 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — the window is CLOSED now, which makes this cheap to do and easy to forget.
+6. 🟠 **`thresholds.py` still writes the leading-edge row from yfinance** — open since 9/6; it is the exact window an FT-10 bar is graded in.
+7. 📅 **`VIO-FOMC-0916` grades at the 9/16 · 9/18 · 9/23 closes.** **FROZEN and untouched by VECTOR 2.** Also **9/16 is the VIX quarterly SOQ and the M1:M2 basis break** (pair → VX/V6 : VX/X6).
+8. 🟡 **One `[STALE]` dashboard row left — VIX options C/P (9/6).** JPY vol was refreshed this session and is **0.08 from WATCH**; it needs watching, not refreshing.
+9. 🟠 **D#10 `TRADE.md`** (the 7/30 close row + WQ-177 heading strike + vintage header) · **D#8 prediction registry** — now owes it **two** more sets of legs (`VIO-FOMC-0916` ×5 and F-B) · **`workbook/LEDGER_GLOB` still absent.**
 
 ## CARRY-FORWARD
 
