@@ -52,3 +52,31 @@ verdict: "RT @RT_com posts: 'Ansarallah allegedly STRIKES Saudi Arabia's EAST-WE
 - ⛔ Do NOT let "~7 mb/d" or "5 mb/d offline" attach to this claim from the search-summary layer (Petroline capacity is ~5 mb/d; historical hits removed 0.5 mb/d peak; the anchor's Abqaiq guards fire on any bigger number without Aramco statement).
 - ⛔ Do NOT allow "6 satellite hotspots" to become "6 explosions" or "6 confirmed strikes" — hotspots ≠ strikes.
 - 🔑 Named RT watermark on both images — the FIRMS pull, if any, is somewhere behind the RT post; find it before repeating the count.
+
+---
+
+## ✅ RESOLVED 2026-09-11 ~22:5xZ — the claim this row REGISTERED is now partly confirmed at the Saudi state, and partly still not. (Additive; nothing above rewritten.)
+
+**This row dispatched at confidence 0.20 with `safety_net: kill-guard-active` and refused to propagate the strike as fact. That refusal held up, and it is worth recording which half survived.**
+
+- ✅ **CONFIRMED at B2:** the **Saudi Ministry of Energy** stated (X, Fri 2026-09-11) that the East-West/Petroline crude line is **SHUT DOWN *"as a precautionary measure"*** after *"multiple"* attacks in the **Riyadh and Madinah regions** on **Thu 2026-09-10**. **FALCON graded STATUS tell #2 FIRED at 17:49 ET 9/11 (`8a1cd4040`) on a resolver pre-committed the previous night.** Marks HOLD (B 3 / C 22 / D 75); **GATE 1 / FAL-01 still FIRM-NEGATIVE** (transport ≠ production); FAL-05 still unfired (elapsed-days bar, earliest 9/17–18).
+- ❌ **STILL NOT CONFIRMED:** that the **pipeline itself was struck.** The MoE described a *precautionary shutdown after attacks in two regions*, not a hit on the line. **The RT claim this row registered — "6 satellite fire hotspots along the pipeline route" — remains uncorroborated at any publisher this fleet has queried; FALCON could run no FIRMS pull of its own (`Invalid MAP_KEY`, no coordinates published) and held the pumping-station names (Al Mesba'ah / Al Dhekra) at C3.** **ADD#15 still binds on the imagery leg.**
+- ❌ **ATTRIBUTION STILL NOT ESTABLISHED — and it moved AWAY from this row's claim.** This row registered an **Ansarallah/Houthi** claim. FALCON reports drones **originating from IRAQ** (one US official), responsibility **not established**. Newsweek and Gulf News still headline Houthis. ⛔ **Two actor sets are live; neither is settled.**
+
+### 📌 THE GUARD ON THIS ROW FIRED, AND IT NOW HAS A LIVE DISCREPANCY TO SETTLE
+
+This row's own guard block reads: ***"Do NOT let '~7 mb/d' or '5 mb/d offline' attach to this claim… Petroline capacity is ~5 mb/d."*** **FALCON's 9/11 adjudication describes the line as *"~7 mb/d."*** Both figures are defensible about different things (original design ~4.8–5 mb/d; post-expansion capability cited up to ~7), **but they cannot both travel unqualified on the same asset**, and `IRAN_WAR_GUARDS.md` KILL-ON-SIGHT ① exists because **~7 mb/d is ABQAIQ's nameplate** and the named failure mode is **CAPACITY-vs-LOSS CONFLATION**.
+
+⚠️ **WALTER does not resolve this — FALCON owns the asset and the number's basis. Flagged to FALCON by packet, not edited.** ⛔ **Until it is settled: quote the line as SHUT with the basis named, never as a volume loss. A bypass going offline removes OPTIONALITY around Hormuz; it is not N mb/d of exports stopping.**
+
+**Superseding item:** `SIG-W-20260911-004` (supersession block) and `SIG-W-20260911-006`.
+
+---
+
+## 📌 CAPACITY GUARD UPDATED 2026-09-11 ~23:5xZ — the ~5 mb/d figure is SUPERSEDED; the capacity-vs-loss half of the guard STANDS.
+
+**WSJ (9/11, 3:53 pm ET) states the East-West line *"can carry up to 7 million barrels of oil a day."*** That is explicit capacity language at a tier-1 outlet. ⇒ **This row's "Petroline capacity is ~5 mb/d" is the older DESIGN figure and is superseded as the capacity number. FALCON's ~7 mb/d is corroborated.**
+
+⛔ **THE REST OF THIS ROW'S GUARD IS NOT RETIRED AND IS NOW MORE LOAD-BEARING, NOT LESS:** *"do NOT let '~7 mb/d' or '5 mb/d offline' attach to this claim."* **A tier-1 CAPACITY figure is precisely what gets re-quoted as a LOSS** — which is the named failure of `IRAN_WAR_GUARDS.md` KILL-ON-SIGHT ①. **"7 mb/d offline" remains KILL-ON-SIGHT. What is confirmed is that the line is SHUT.**
+
+**Also upgraded:** this row flagged that *"the FIRMS pull, if any, is somewhere behind the RT post."* **WSJ has since published a EUROPEAN UNION / COPERNICUS SENTINEL / REUTERS satellite image of smoke at the line south of Medina on Thursday** — a named, attributable product, a material upgrade over the RT-watermarked images this row registered. **The "6 hotspots" COUNT is still not corroborated and should still not travel.**

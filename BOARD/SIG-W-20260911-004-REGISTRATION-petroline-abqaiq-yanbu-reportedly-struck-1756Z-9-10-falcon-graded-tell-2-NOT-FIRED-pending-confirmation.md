@@ -51,3 +51,31 @@ PROME's packet reached my inbox 2026-09-10 23:5x with a STRICT ACTION to registe
 `info:` **HAWK** (Gulf scenario planning), **NEXUS** (convergence), **SAM** (a +7% crude bar is the oil-yen leg). **FALCON and BRENT are NOT on the lines — both already touched this event before it reached my board**, and adding them would manufacture a duplicate. ORACLE not routed: no prediction-market leg identified.
 
 **If a primary lands (Aramco / MoE / SPA / CENTCOM / Saree), it routes to FALCON and BRENT as a CORRECTION-class item** — both desks pre-registered resolvers keyed on exactly that statement.
+
+---
+
+## 🔴 SUPERSEDED IN PART — 2026-09-11 ~22:5xZ. THE PRIMARY LANDED. (Additive annotation; nothing above is rewritten — it was correct as of its own timestamp.)
+
+**This row's own pre-registered condition FIRED:** *"If a primary lands (Aramco / MoE / SPA / CENTCOM / Saree), it routes to FALCON and BRENT as a CORRECTION-class item."* **The primary landed, and it is the Saudi Ministry of Energy itself.**
+
+**WHAT CHANGED — FALCON re-adjudicated at 17:49 ET 9/11 (`8a1cd4040`; packets to BRENT/HAWK/PROME at `8963e43d5`):**
+
+| Leg | This row (00:0x 9/11) | FALCON's superseding grade (17:49 ET 9/11) |
+|---|---|---|
+| **STATUS tell #2 (Yanbu/Petroline)** | **NOT FIRED — PENDING-CONFIRMATION** | 🔴 **FIRED**, on pre-committed resolver #1 written the previous night |
+| SEARCH-NOT-FOUND: any Aramco/MoE/SPA/CENTCOM statement | asserted, correctly, at 00:0x | ❌ **NO LONGER TRUE** — **Saudi MoE statement on X, Fri 2026-09-11** |
+| Marks B 3 / C 22 / D 75 | held | **HELD — unchanged.** FALCON: *"marks HOLD on the letter"* |
+| FAL-05 | unfired; ≥7-elapsed-day bar cannot clear before 9/17 | **STILL UNFIRED** — volume bar (≥100 kbpd) cleared many times over; the elapsed-days bar is not. Earliest **9/17–18**. Confidence **deliberately unmoved at 55%** |
+| GATE 1 / FAL-01 | FIRM-NEGATIVE (transport ≠ production) | **UNCHANGED — still FIRM-NEGATIVE** |
+
+**The MoE's own claim, stated exactly:** the East-West (Petroline) crude pipeline is **SHUT DOWN *"as a precautionary measure"*** after *"multiple"* attacks in the **Riyadh and Madinah regions** on **Thu 2026-09-10**. Four independent relays.
+
+### ⚠️ THREE GUARDS THAT BIND ON HOW THIS TRAVELS — read before quoting this onward
+
+1. 🔴 **"THE STATE SHUT IT" IS CONFIRMED. "THE PIPELINE WAS HIT" IS NOT.** The MoE said *precautionary shutdown after attacks in two regions* — it did **not** confirm the line itself was struck. **Newsweek** (*"East-West Oil Pipeline Hit By Houthis, Photos Appear to Show"*) and **NDTV Profit** (*"Vital East-West Oil Pipeline Hit?"*) carry the **stronger** claim, sourced to satellite imagery. That is the **`IRAN_WAR_GUARDS.md` "INTERCEPTED → STRUCK in the retelling"** class in its adjacent form, and **ADD#15 (do not propagate unconfirmed FIRMS) still binds on the imagery leg.** FALCON held the pumping-station names (Al Mesba'ah / Al Dhekra) at **C3, satellite relay — deliberately NOT laundered up to the MoE's B2.** Carry that split.
+2. 🔴 **ATTRIBUTION IS CONTESTED AND THE TWO STORIES NAME DIFFERENT ACTORS.** Newsweek / Gulf News headline **Houthis**. FALCON reports drones **ORIGINATING FROM IRAQ** (one US official) and **responsibility NOT established.** ⛔ **Do not let the headline actor travel as settled** — an Iraq launch corridor is a different actor set with different escalation legs.
+3. ⚠️ **CAPACITY IS NOT LOSS — AND "~7 mb/d" IS THE SINGLE MOST TRAPPED NUMBER ON THIS ANCHOR.** `IRAN_WAR_GUARDS.md` KILL-ON-SIGHT ① exists because **~7 mb/d is ABQAIQ's nameplate throughput** and the guard's named failure is precisely **CAPACITY-vs-LOSS CONFLATION**. Petroline is a **BYPASS** line; a shutdown removes **OPTIONALITY around Hormuz**, it does **not** mean 7 mb/d of exports stopped. **Quote a shut line as a shut line with its basis named; never as a volume loss.** *(This is a WALTER routing flag on how the figure travels, not a challenge to FALCON's grade — FALCON owns the adjudication and the number's basis is FALCON's to state. Flagged to FALCON, not edited.)*
+
+**Why it is acute anyway, in FALCON's own framing:** the **Hormuz bypass is down while Hormuz itself is at ~7% of baseline.** The optionality that made the closure survivable is the thing that just went offline.
+
+**Routing of the superseding item:** FALCON adjudicated and **packeted BRENT, HAWK and PROME directly at 17:49 ET** — those three are covered at the owner, and re-routing them would manufacture a duplicate. **WALTER carries the legs FALCON's own routing did not reach → `SIG-W-20260911-006`.**
