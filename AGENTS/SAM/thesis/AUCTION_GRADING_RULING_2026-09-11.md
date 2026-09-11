@@ -93,3 +93,53 @@ still will not calibrate a bar; they will show whether the 40Y's own dispersion 
 
 *Sources: own MOF primaries via `workbook/JGB_AUCTIONS.tsv`; bars frozen at
 `CURVE_ATTRIBUTION_2026-08-17_PREREGISTRATION.md` §3; tenor mechanics KB-SAM-175.*
+
+---
+
+## AMENDMENT 1 (same day, 2026-09-11) — I was wrong that no 40Y bar is registered
+
+**Flagged by METSUKE Run 20 hours after this document was written.** RULING 2 above says *"No 40Y bar is
+registered today, deliberately."* That is true of what I registered and **false as a statement about the desk**,
+and the distinction matters because the second reading is the one a future session will take.
+
+**A ≥2.8× BTC bar has already been applied at the 40Y.** `SAM-35` (registered 2026-07-09) reads:
+
+> *"Jul-22 2026 JGB 40Y auction clears FIRM (**BTC ≥2.8x AND tail ≤4bp** vs the May-27 baseline BTC 2.702/soft)
+> — the Meiji-Yasuda demand floor extends to the 40Y tenor"*
+
+It resolved **CONFIRMED (firm-lean, MARGINAL)** on BTC **2.83×**.
+
+**Two things follow, and neither re-grades anything.**
+
+**(1) The bar sits between the only two observations it has.** 40Y BTC is 2.702 [May-27] and 2.824 [Jul-22]. A
+≥2.8× bar separates exactly those two points and nothing else; the Jul-22 clearance margin was **0.03×**. This is
+the defect RULING 2 names — a bar resting on its own observations — arriving at the 40Y by a different number
+than the 3.5/4.0 pair. It is why RULING 2 declines to set one at n=2, and the decline stands.
+
+**(2) The tail conjunct was unreachable BY CONSTRUCTION, and the row's own caveat states the wrong cause.**
+SAM-35's condition is a **conjunction**. Its caveat reads *"MOF published NO weighted-average yield ('—') → the
+tail … is UNVERIFIABLE"* — which describes a **publication gap**, something that might not recur. RULING 2
+establishes it is **structural**: a uniform-price auction has no tail, ever, so `tail ≤4bp` could never have been
+satisfied at this tenor by any publication. The grade was reached by dropping a conjunct that was not merely
+missing but impossible.
+
+⛔ **SAM-35's grade and terms are UNCHANGED and are not reopened.** It was graded on its letter, on its own
+frozen terms, with its marginality disclosed at the time — and re-grading a closed row against a ruling written
+seven weeks later is precisely the scoring-time re-tune this desk refused on 2026-08-07. RULING 1's *"Retroactive
+scope: NONE"* governs here too. What changes is **not the grade but what may be INFERRED from it.**
+
+**What is withdrawn is the mechanism inference, which is live.** `TRADE.md` and `STRATEGY.md` carry
+*"the Meiji-Yasuda floor **extends to the longest / most J-ICS-sensitive tenor**; WEAK/disorderly-precursor
+**RULED OUT**."* A 0.03× clearance of a bar that discriminates only its own two observations, on one leg of a
+two-leg AND whose other leg was impossible, **does not support "decisively ruled out."** Downgraded to what it
+is: *the Jul-22 40Y covered 2.83×, above the May-27 2.702, on n=2.* Direction, not a demand verdict. Corrected
+in both docs the same day.
+
+**Standing instruction for the Sep-29 40Y, unchanged by this amendment:** assign no FIRM/SOFT grade; report BTC
+descriptively against the 40Y's own series, which the Sep-29 print takes to n=3; and **do not resurrect the ≥2.8×
+bar** — it is in the same class as the bars RULING 2 declines to port, and it now has a worked instance showing
+what it certifies, which is the tenor.
+
+*(Class: [[finding_gate_pass_is_not_evidence_it_found_the_best_reason]] — a PASS says a criterion was met, never
+that it was the right criterion. And the ruling that found this defect missed the same defect one tenor over in
+its own first draft.)*

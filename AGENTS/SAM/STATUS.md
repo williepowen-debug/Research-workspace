@@ -23,7 +23,7 @@
 
 **No US-listed instrument's P&L is Japan's oil import bill** (full table in the memo): FXY/YCS = the 98% hike; bank ADRs = the rate path and they **ROSE on the +5.6% Brent day** (figures in the ADR row below) i.e. already long the leg just marked down; JGB futures **SEARCH-NOT-FOUND** for any US-listed expression; importers/utilities no liquid US listing; DXJ/EWJ = a yen bet in equity clothing. Plus correlation — the fleet energy sleeve is already ~$6,007 of "Mideast stays hot."
 
-**Re-open test, PRE-REGISTERED (all three, or the answer stays NONE):** (a) Japan Aug trade balance **9/16 08:50 JST** shows crude **VOLUME** up YoY (Jul +5.5%) — paying more AND lifting more ⇒ supply destruction not inverting Phase 1 [UNKNOWN, prints 9/16]; (b) oil-in-yen ≥**¥18,000/bbl** on **5 consecutive completed sessions** (≈ Brent $117 at ¥154) — a LEVEL, not a spike [FALSE, ¥16,594]; (c) USD/JPY weakens through **158** on the `USDJPY=X` completed-session close basis **while Brent holds** [FALSE, 154.33 and strengthening]. Leg (c) is the one that matters and it is running the wrong way.
+**Re-open test, PRE-REGISTERED (all three, or the answer stays NONE):** (a) Japan Aug trade balance **9/16 08:50 JST** shows crude **VOLUME** up YoY (Jul +5.5%) — paying more AND lifting more ⇒ supply destruction not inverting Phase 1 [UNKNOWN, prints 9/16]; (b) oil-in-yen ≥**¥18,000/bbl** on **5 consecutive completed sessions** (≈ Brent $117 at ¥154) — a LEVEL, not a spike [FALSE, ¥16,594]; (c) USD/JPY weakens through **158** on the `USDJPY=X` completed-session close basis **while Brent holds** [FALSE, 154.33 and strengthening]. Leg (c) is the one that matters and it is running the wrong way. ⚠️ **The bracketed readings above are AS REGISTERED at the 01:0x ET touch; both legs moved FURTHER false by 14:0x UTC (¥16,017 · 153.43) — live values in § KEY THRESHOLDS, which is the surface to quote.**
 
 **August CGPI read at the BOJ primary** (`cgpi2608.pdf`, rel 2026-09-11 08:50 JST — full figures in the durable reference row below): **in August Japan's import prices FELL in both currencies and terms of trade IMPROVED, with petroleum the largest single DRAG (−1.18pp).** The September oil shock reaches **none** of the 9/11 CGPI, the 9/16 trade balance or the 9/18 National CPI — **the BOJ decides on pre-shock data plus forward judgment.** 🔧 The same primary supersedes this file's July 7.2% / June 7.1% PPI pair with **July +7.7% r / June +7.4%** — do not cite the old pair.
 
@@ -81,15 +81,15 @@
 
 | Level | Significance | Status |
 |---|---|---|
-| USDJPY 160 | Historical MOF zone; disorder, not level | Below at **154.33** [9/11]. Old gate **VOID, not rearmed**. ⛔ **There is no "≥160 count" on this desk** — SEARCH-NOT-FOUND at every owner surface; DOCKET L328/L34 attribute one to SAM-39 in error (SAM-39's instrument is the ≥2.5-yen intraday RANGE detector). |
-| USDJPY 155 | Yen-strength watch; investigate mechanism | Below at **154.33**; path 160.19 [9/1] → 154.33 [9/11] — **strengthening THROUGH the oil shock**. Threshold observation is not mechanism confirmation. |
-| USDJPY 158 🆕 | **VECTOR-5 re-open leg (c)** — terms-of-trade channel moving the currency | **FALSE** — 154.33 and strengthening. Requires a weakening THROUGH 158 while Brent holds. |
+| USDJPY 160 | Historical MOF zone; disorder, not level | Below at **153.43** [9/11 14:0x UTC]. Old gate **VOID, not rearmed**. ⛔ **There is no "≥160 count" on this desk** — SEARCH-NOT-FOUND at every owner surface; DOCKET L328/L34 attribute one to SAM-39 in error (SAM-39's instrument is the ≥2.5-yen intraday RANGE detector). |
+| USDJPY 155 | Yen-strength watch; investigate mechanism | Below at **153.43**; path 160.19 [9/1] → 153.43 [9/11 14:0x UTC] = **−4.20%** — **strengthening THROUGH the oil shock**, and stronger vs EVERY cross today. Threshold observation is not mechanism confirmation. |
+| USDJPY 158 🆕 | **VECTOR-5 re-open leg (c)** — terms-of-trade channel moving the currency | **FALSE** — **153.43** and strengthening; **4.57 yen away and running the WRONG way.** Requires a weakening THROUGH 158 while Brent holds. |
 | USDJPY 147 / 145 | Carry / insurer investigation levels; no forced-flow inference | Above both. |
 | JGB 10Y 2.40% | Stress crossover | 🔴 Above: **2.920%** (MOF Sep-10). |
 | JGB 30Y 4.0% | Contested demand-floor zone, not a disorder trigger | Below: **3.995%**; **40Y 4.003% — back ABOVE 4.00%** (MOF Sep-10, +4.3bp on the oil day). SAM-33 activation remains met; falsifier un-fired through Sep-9 ops. |
 | JGB 30Y 4.5% | Contested statutory-impairment tail, disorder-only, mid-cap bifurcation | ~50.5bp away; no forced-sale inference from level alone. |
-| Brent $90 / $120 | Oil-in-yen context / shock watch | **$107.52** [BZ=F, 9/11]. $120 not tagged. **Oil-in-yen ¥16,594/bbl.** ⛔ **No repatriation grade from a high oil-in-yen print** — that is the SAM-15 (@80%, FAILED) shape; the mechanism INVERTED (supply destruction → trade SURPLUS) and the inversion still holds on current data. |
-| Oil-in-yen ¥18,000/bbl 🆕 | **VECTOR-5 re-open leg (b)** — a LEVEL, not a spike | **FALSE** — ¥16,594. Requires **5 consecutive completed sessions** ≥¥18,000 (≈ Brent $117 at ¥154). |
+| Brent $90 / $120 | Oil-in-yen context / shock watch | **$104.39** [BZ=F, 9/11 14:0x UTC, **−3.01% on the day**]. $120 not tagged. **Oil-in-yen ¥16,017/bbl.** ⛔ **No repatriation grade from a high oil-in-yen print** — that is the SAM-15 (@80%, FAILED) shape; the mechanism INVERTED (supply destruction → trade SURPLUS) and the inversion still holds on current data. |
+| Oil-in-yen ¥18,000/bbl 🆕 | **VECTOR-5 re-open leg (b)** — a LEVEL, not a spike | **FALSE** — **¥16,017**, i.e. **¥1,983 short** and widening (was ¥16,594 this morning). Requires **5 consecutive completed sessions** ≥¥18,000 (≈ Brent $117 at ¥154). |
 | CFTC −108K | Retired frame's leg-1 invalidation | Fired Aug-7. Historical gate unchanged by corrected normalization. |
 | CFTC −140K / −153K | Historical DE-LOAD / reclaim lines | No rearm; Sep-1 −92,227 is pre-rally positioning. **Sep-8 print lands 9/11 15:30 ET.** |
 | CFTC open interest | Distinguish short build from liquidation | 411,882, +27,666 WoW Sep-1; no post-rally position measurement. |
@@ -100,7 +100,7 @@ Retired entry triggers remain void; this is a research docket.
 
 | When | Event | Why it matters |
 |---|---|---|
-| Sep-10/11 | ✅ CLOSED — MOF Sep-10 curve; **Totan Sep-11 chart (Sep 98%, cumulative 2.63→2.59)**; **August CGPI (PPI +7.6% YoY, import PI yen basis −3.0% m/m)** | Sep-7/8 intervention attribution still OPEN. |
+| Sep-10/11 | ✅ CLOSED — MOF Sep-10 curve; **Totan Sep-11 — TWO charts (11:15 + 15:15 JST): Sep pinned 98% BOTH times, cumulative 2.63→2.59→2.62**; **August CGPI (PPI +7.6% YoY, import PI yen basis −3.0% m/m)** | Sep-7/8 intervention attribution still OPEN. |
 | Sep-11 15:30 ET | CFTC positions as of Sep-8 · US CPI 08:30 ET | **First post-rally positioning snapshot**; `docket/2026-09-11_CFTC_REVIEW.md` prepared. Waller's vote is keyed on this CPI. |
 | Before Sep-14 | Fixed CME proxy pair expiry | Dec–Mar pair selected; settlement-feed precision/timing hold. Existing instrument stops; **no splice**. |
 | **Sep-16** | 25Y+ BOJ operation date · **Japan August trade balance 08:50 JST** · FOMC (Sep-15 20Y auction) | 25Y+ date = repeat the KB-SAM-238 schedule check for SAM-33. **Trade balance is leg (a) of the VECTOR-5 re-open test AND the honest test of the oil-in-yen inversion — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%). |
