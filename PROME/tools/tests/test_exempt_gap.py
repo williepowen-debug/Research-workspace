@@ -96,6 +96,12 @@ class ExemptGap(unittest.TestCase):
         self.assertEqual(self.by(rows, "CARL")["aged"], [])
         self.assertEqual(self.by(rows, "RED")["unlogged"], [])   # archived ledger counts
 
+    def test_id_plus_filename_slug_in_the_id_column_is_a_logged_row(self):
+        # RED's ledgers write "SIG-W-20260908-010-skew-mirror-defect" in the id column (measured 9/11): that IS the row
+        ledger(self.root, "RED/board_log.tsv", ["SIG-W-20260908-010-skew-mirror-defect-census"])
+        r = self.by(self.run_scan()[0], "RED")
+        self.assertEqual(r["unlogged"], [])
+
     def test_an_id_at_the_start_of_a_notes_cell_is_still_a_mention(self):
         # result cold read ❌1: the notes cell BEGINS with the id — cell-exact matching must not count it
         ledger(self.root, "CARL/board/BOARD_LOG.tsv", ["SIG-W-20260101-001"], notes="SIG-W-20260901-015 superseded, ignoring")

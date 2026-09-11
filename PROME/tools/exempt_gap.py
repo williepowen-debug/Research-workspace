@@ -15,8 +15,8 @@ What it measures, per exempt desk D (the set is READ from walter_doctor.py's PUL
 the declared reference; the FALLBACK set below is used, loudly, only when that line cannot be
 parsed or is empty; PROME is excluded because board_scan.py is its own blocking check):
   * every BOARD signal whose `action:` line (or the legacy `to:` line, pre-v0.12) names D — info-cc lines are not the exemption's risk
-  * whether that signal_id IS a whole CELL in ANY of D's BOARD consumption ledgers (live + archived) —
-    a mention inside a notes cell is not a row (a notes cell consisting of nothing but an id would be; residue)
+  * whether that signal_id IS a whole CELL (bare, or id+filename-slug as RED writes it) in ANY of D's BOARD
+    consumption ledgers (live + archived) — a cell that continues with prose is a mention, not a row
   * flags an unlogged action signal once it is >= --min-age-days old (default 2 — a desk that
     booted since dispatch and did not log it is the failure; a signal dispatched an hour ago is not)
   * a desk with NO ledger at all is flagged UNKNOWN — an exemption nobody can test is the
@@ -49,7 +49,10 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from board_scan import parse_front, sig_key, clean  # noqa: E402  (same parser the PROME pull uses)
 
-SIG_ID_EXACT = re.compile(r"^SIG-W-\d{8}-\d{3}$")   # a ledger CELL that IS an id — never a mention inside a notes cell
+# a ledger CELL that IS an id: the bare id, or the id followed only by its filename slug (RED's ledgers write
+# `SIG-W-20260813-002-price-source-null-bars` in the id column — measured 9/11, 8 real dispositions). A cell that
+# continues with whitespace or prose ("SIG-W-… superseded, ignoring") is a mention, not a row.
+SIG_ID_CELL = re.compile(r"^(SIG-W-\d{8}-\d{3})(?:-[A-Za-z0-9._-]*)?$")
 V012_DATE = dt.date(2026, 7, 27)                     # BOARD_CONSUMPTION_SPEC v0.12: `action:` becomes the routing key
 NON_SIGNAL_FILES = {"INDEX.md"}                      # the only non-signal .md that belongs under BOARD/
 DOCTOR_REL = "AGENTS/WALTER/tools/walter_doctor.py"
@@ -120,9 +123,9 @@ def logged_ids(ledgers):
         try:
             for line in p.read_text(encoding="utf-8", errors="replace").splitlines():
                 for cell in line.split("\t"):
-                    cell = cell.strip()
-                    if SIG_ID_EXACT.match(cell):
-                        ids.add(cell)
+                    m = SIG_ID_CELL.match(cell.strip())
+                    if m:
+                        ids.add(m.group(1))
         except Exception as e:  # directory, permissions, decode — an instrument failure, never "nothing logged"
             errors.append(f"{p}: {type(e).__name__}: {e}")
     return ids, errors
