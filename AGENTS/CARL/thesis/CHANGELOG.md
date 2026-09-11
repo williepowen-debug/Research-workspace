@@ -8,6 +8,61 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-11 (Fri) — 🔻 **CRL-10 RE-PRICED 62% → 8% ON REACHABILITY ARITHMETIC. A threshold moving out of reach, NOT a mechanism refuted — and a resolvability defect recorded beside it rather than inside it.**
+
+**Origin:** August CPI, released **2026-09-11 08:30 ET**, pulled at the primary (BLS release) and re-derived independently from FRED index levels rather than read off a summary.
+
+**CRL-10** — *Food CPI YoY exceeds 4.0%*, Q4 2026, instrument `BLS CPI :: food CPI YoY :: >4.0%` (series `CPIUFDNS`, NSA).
+
+### The data moved away, for the second consecutive month
+
+| Ref month | Food CPI YoY (NSA) | Food-at-home YoY |
+|---|---|---|
+| Jun-2026 | +3.01% | — |
+| Jul-2026 | +2.98% | +2.68% |
+| **Aug-2026** | **+2.67%** | **+2.19%** |
+
+### The reachability arithmetic — this is what drove the re-price
+
+| Resolver month | 2025 base | Level needed for 4.0% | From Aug (350.418) | Required pace |
+|---|---|---|---|---|
+| **Oct-2026** | ⛔ **none published** | — | — | **NOT COMPUTABLE** |
+| **Nov-2026** | 341.721 | 355.390 | +1.42% over 3 mo | **+0.471%/mo** |
+| **Dec-2026** | 343.795 | 357.547 | +2.03% over 4 mo | **+0.505%/mo** |
+
+**Trailing run rate: +0.132%/mo (3mo) · +0.185 (6mo) · +0.251 (12mo)** ⇒ the bar requires **~3.6× the current pace, sustained for 3–4 months.**
+
+### Base-rated BEFORE re-pricing, not after
+
+A 3-month window averaging ≥+0.470%/mo occurred in **38 of 376 windows since 1995 = 10.1% unconditionally** — and **6 of the 8 most recent hits are the 2022 spike.** Seasonality runs against: 2015-24 mean NSA food MoM is **Sep +0.320 / Oct +0.303 / Nov −0.057 / Dec +0.185**, so the Sep–Nov window normal is **~+0.19%/mo** against a required **+0.47%**. Conditioning on a decelerating trend AND an adverse seasonal window puts it materially below the 10.1% unconditional. **⇒ 8%, and that is still arguably generous.** *(`[[finding_base_rate_the_threshold_before_building_it]]` — the incumbent number was the thing I had previously failed to base-rate.)*
+
+### ⛔ The resolvability defect, recorded SEPARATELY and deliberately NOT folded into the confidence
+
+**October 2025 CPI was never published** (Oct–Nov 2025 shutdown; `CPIUFDNS` and `CPIAUCNS` are both blank at `2025-10-01`), so **Oct-2026 YoY has no denominator** and the Q4 window resolves on **Nov and Dec only — two months, not three.**
+
+⚠️ **And the honest qualifier, so this is not reported as bigger than it is:** it costs almost nothing in reachability. Interpolating Oct-2025 at ~342.063 would have made Oct-2026 require **+0.756%/mo** — **October was the HARDEST of the three months, not a lost easy shot.** *(`[[finding_resolvability_defect_is_status_not_confidence]]`.)*
+
+### What did NOT change
+
+**The mechanism is not killed** (`[[finding_threshold_vs_mechanism]]`). Wheat acreage at a 107-year low, tightening grain stocks, QAFCO urea offline and a strengthening El Niño (≥+2.0 °C OND-2026) all remain live upside tails, and **beef +11.2% / coffee +12.9% YoY** are hot sub-channels sitting *inside* the 2.67% aggregate. **What changed is the threshold distance and the clock.**
+
+⛔ **Not cited as upside:** the 9/8 Canadian counter-tariffs are **mirror duties on US goods entering Canada** — they hurt US exporters and do **not** raise US consumer food CPI.
+
+### Discipline record
+
+- Boot **7c failure-pattern preamble read before re-pricing.** The move is a **CUT**, so it does not repeat the CRL-01 / CRL-19 *"magnitude too aggressive"* shape.
+- **No position is linked to CRL-10** (`consistency_check` Check F: open positions sit on CRL-20 / CRL-27 only) ⇒ no bias tripwire applies.
+- **AS-MADE 70% [2026-05-03] provenance preserved verbatim** in the Confidence cell — the 9/14 DAEDALUS ladder sitting owns the scoreboard and needs it intact.
+
+### Docket correction (same session)
+
+The 9/15 row asserted food CPI YoY was *"approaching/breaching 4%"*. It has **receded** for two consecutive months. **A row whose premise is inverted manufactures a catalyst out of a non-event** — corrected in both `docket/CATALYSTS.tsv` and `docket/CALENDAR.md`.
+
+**Old view:** food CPI YoY on a supply-push path to >4.0% by Q4-2026; 62%.
+**New view:** food CPI YoY decelerating to 2.67%, the Q4 bar requiring ~3.6× the trailing pace against adverse seasonality across two resolvable months; **8%**. Mechanism intact, threshold out of reach on current arithmetic.
+
+---
+
 ## 2026-09-10 (Thu, eve) — 🔴 **CRL-05 CLOSED `NO-VERDICT-BY-BASIS`, SUCCESSOR CRL-30 REGISTERED, CRL-27 LEG (a) STRUCK. An instrument refuted at the primary — a DEFECT REPAIR, not a forecast graded.**
 
 **Origin:** PHAN dossier pass 2026-09-10 (`sub_agents/PHAN/outbox/2026-09-10_PHAN-to-CARL_dossier-pass.md`), finding ①. **PHAN proposes, CARL disposes** — CARL graded it at the primary, accepted it, and extended it.
