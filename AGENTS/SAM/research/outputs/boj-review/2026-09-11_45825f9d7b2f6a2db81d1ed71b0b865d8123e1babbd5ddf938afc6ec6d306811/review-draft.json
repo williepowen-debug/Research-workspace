@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source_url": "https://www.totan.com/archives/15647",
+  "image_url": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-1989-1030x320.png",
+  "image_sha256": "45825f9d7b2f6a2db81d1ed71b0b865d8123e1babbd5ddf938afc6ec6d306811",
+  "evidence_path": "/home/willi/Research-workspace/AGENTS/SAM/research/outputs/boj-review/2026-09-11_45825f9d7b2f6a2db81d1ed71b0b865d8123e1babbd5ddf938afc6ec6d306811/table.png",
+  "quote_as_of": null,
+  "timezone_basis": "JST assumed from Japanese publisher; image has no zone",
+  "review_method": "PENDING visual transcription",
+  "quote_kind": "indicative OTC meeting-to-meeting OIS median",
+  "valid_until": null,
+  "decision_date_source": null,
+  "step_pct": null,
+  "reviewed_row_count": null,
+  "rows": [
+    {
+      "meeting_month": null,
+      "term_start": null,
+      "term_end": null,
+      "ois_pct": null,
+      "difference_pct": null,
+      "incremental_25bp_equivalent_pct": null,
+      "cumulative_expected_hikes": null
+    }
+  ]
+}
