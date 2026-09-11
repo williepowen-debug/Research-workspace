@@ -59,6 +59,95 @@ WARN_NET = -150000            # SAM alert level
 
 TSV_HEADER = "Date\tOI\tNoncomm_Long\tNoncomm_Short\tNoncomm_Net\tChange_Long\tChange_Short\tChange_Net\tPct_of_Jul24_Peak\n"
 
+# ---------------------------------------------------------------------------
+# MULTI-PRINT DRIFT CHECK — successor to the single-week deadband (KB-SAM-231)
+#
+# THE DEFECT IT FIXES: the registered single-print rule grades any |WoW| inside
+# +/-12,160 as B0 NO-VERDICT. That is calibrated to ONE-WEEK moves and is
+# structurally blind to a persistent SAME-SIGN drift: the resolver can print B0
+# four weeks running while the net walks a long way. Measured instance
+# (KB-SAM-231, 2026-09-02): 2026-08-18 (-10,808) + 2026-08-25 (-10,405)
+# = -21,213 with BOTH prints inside the deadband and both graded B0.
+#
+# THE RULE: when two CONSECUTIVE prints are both inside the deadband, test their
+# AGGREGATE against DRIFT_BAR. Breach => the pair is flagged for a read; it is
+# NOT a grade, NOT an entry condition, and re-arms nothing (the convexity frame
+# retired 2026-08-07 and the -153K/85% flip-condition is void, not unfired).
+#
+# ⛔ BOTH CONSTANTS ARE FROZEN AT REGISTRATION AND MUST NOT FLOAT.
+# Recomputing the median each run would make the bar a moving target — i.e. a
+# retune of a LIVE rule, which is exactly what the registration discipline
+# forbids. The live median is printed as ADVISORY ONLY so a future session can
+# see sample drift; nothing grades on it.
+#
+# PROVENANCE OF THE BAR: 1.5 x median|WoW| was named in KB-SAM-231 on 2026-09-02,
+# BEFORE this backtest was run — it was not fitted here. median|WoW| = 12,325
+# over n=22 weekly prints, 2026-04-07..2026-09-01; 1.5x = 18,488, frozen
+# 2026-09-11 ahead of the Sep-8-vintage print.
+# ⚠️ HONEST LIMIT ON THE EVIDENCE: over that sample the rule fires on 2 of 6
+# consecutive-B0 pairs (2026-04-21+04-28 = -18,851; 2026-08-18+08-25 = -21,213)
+# and stays silent on the 4 sign-alternating pairs — so it discriminates rather
+# than firing on everything. But the 1.5x figure was itself derived from the
+# Aug-18/25 episode, so that firing is IN-SAMPLE; only the April pair is an
+# independent confirmation. n=22, one regime. This is a REGISTERED DECISION
+# RULE, not a calibrated base rate.
+DRIFT_DEADBAND = 12160        # FROZEN — the registered single-print B0 deadband
+DRIFT_BAR = 18488             # FROZEN — 1.5 x median|WoW| (12,325), n=22, Apr-Sep 2026
+DRIFT_BAR_BASIS = "1.5 x median|WoW| 12,325 over n=22 (2026-04-07..2026-09-01), frozen 2026-09-11"
+
+
+def _read_drift_rows():
+    """Return [(date, change_net)] for rows with a usable Change_Net, oldest first."""
+    if not CFTC_TSV.exists():
+        return []
+    out = []
+    with open(CFTC_TSV) as f:
+        for row in csv.DictReader(f, delimiter="\t"):
+            try:
+                out.append((row["Date"], int(row["Change_Net"])))
+            except (KeyError, ValueError, TypeError):
+                continue
+    return out
+
+
+def multi_print_drift_check():
+    """Print the two-print aggregate drift check. Read-only; never grades or writes."""
+    rows = _read_drift_rows()
+    print("\n  MULTI-PRINT DRIFT CHECK (KB-SAM-231 successor; frozen bars)")
+    print(f"  {'-'*60}")
+    if len(rows) < 2:
+        print("  INSUFFICIENT HISTORY: fewer than 2 usable prints; check NOT EVALUATED.")
+        return
+    (d_prev, c_prev), (d_last, c_last) = rows[-2], rows[-1]
+    print(f"  Deadband +/-{DRIFT_DEADBAND:,} | drift bar {DRIFT_BAR:,} ({DRIFT_BAR_BASIS})")
+    both_b0 = abs(c_prev) <= DRIFT_DEADBAND and abs(c_last) <= DRIFT_DEADBAND
+    agg = c_prev + c_last
+    print(f"  {d_prev} {c_prev:+,}  +  {d_last} {c_last:+,}  =  {agg:+,}")
+    if not both_b0:
+        outside = d_last if abs(c_last) > DRIFT_DEADBAND else d_prev
+        print(f"  NOT APPLICABLE: {outside} moved outside the deadband and is graded on its own print.")
+    elif abs(agg) > DRIFT_BAR:
+        print(f"  DRIFT FLAG: two consecutive B0 prints aggregate {agg:+,}, beyond the {DRIFT_BAR:,} bar.")
+        print("  READ the pair as one move. This is a flag to LOOK, not a grade;")
+        print("  it re-arms nothing and is not an entry condition.")
+    else:
+        print(f"  No drift flag: aggregate {abs(agg):,} is within the {DRIFT_BAR:,} bar.")
+    # B0 run length, advisory
+    run = 0
+    for _, c in reversed(rows):
+        if abs(c) <= DRIFT_DEADBAND:
+            run += 1
+        else:
+            break
+    if run >= 3:
+        print(f"  ADVISORY: {run} consecutive B0 prints. A long B0 run is the condition this check exists for.")
+    # advisory live median — never used to grade
+    mags = sorted(abs(c) for _, c in rows)
+    n = len(mags)
+    live_med = mags[n // 2] if n % 2 else (mags[n // 2 - 1] + mags[n // 2]) / 2
+    print(f"  ADVISORY ONLY (never grades): live median|WoW| {live_med:,.0f} over n={n}; frozen basis used 12,325.")
+
+
 
 def fetch_cftc_text():
     """Fetch CFTC deafut.txt content."""
@@ -203,7 +292,66 @@ def reference_description(net):
     return f'Net short magnitude: {net / REFERENCE_NET * 100:.1f}% of the ratified historical reference'
 
 
+
+def _selftest():
+    """Frozen-fixture regression for multi_print_drift_check().
+
+    Fixtures are FROZEN LITERALS, deliberately not the live TSV: a test pinned to
+    a live surface certifies nothing past the next data append
+    ([[finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit]]).
+    Run: .venv/bin/python3 AGENTS/SAM/scripts/cftc_jpy.py --selftest
+    """
+    import contextlib
+    import tempfile
+    global CFTC_TSV
+    saved = CFTC_TSV
+    cases = [
+        ("FIRE: KB-SAM-231 worked instance",
+         [("2026-08-18", -10808), ("2026-08-25", -10405)], "DRIFT FLAG"),
+        ("SILENT: sign-alternating whipsaw",
+         [("2026-04-14", 10534), ("2026-04-21", -11252)], "No drift flag"),
+        ("NOT-APPLICABLE: last print outside deadband",
+         [("2026-08-25", -10405), ("2026-09-01", -28929)], "NOT APPLICABLE"),
+        ("FIRE: independent April pair",
+         [("2026-04-21", -11252), ("2026-04-28", -7599)], "DRIFT FLAG"),
+        ("EDGE: aggregate exactly ON the bar stays silent (strict >)",
+         [("a", -9244), ("b", -9244)], "No drift flag"),
+        ("EDGE: one contract over the bar fires",
+         [("a", -9244), ("b", -9245)], "DRIFT FLAG"),
+        ("DEGENERATE: single row",
+         [("a", -5000)], "INSUFFICIENT HISTORY"),
+        ("RUN: three consecutive B0 prints raise the advisory",
+         [("a", -5000), ("b", -5000), ("c", -5000)], "3 consecutive B0 prints"),
+    ]
+    failures = 0
+    try:
+        with tempfile.TemporaryDirectory() as td:
+            for i, (name, rows, expect) in enumerate(cases):
+                path = Path(td) / f"fixture{i}.tsv"
+                with open(path, "w") as f:
+                    f.write(TSV_HEADER)
+                    for d, cn in rows:
+                        f.write(f"{d}\t\t\t\t\t\t\t{cn}\t\n")
+                CFTC_TSV = path
+                buf = io.StringIO()
+                with contextlib.redirect_stdout(buf):
+                    multi_print_drift_check()
+                out = buf.getvalue()
+                ok = expect in out
+                failures += (not ok)
+                print(("  PASS  " if ok else "  FAIL  ") + name)
+                if not ok:
+                    print(f"        expected {expect!r} in output; got:")
+                    print("        " + out.strip().replace("\n", " | ")[:300])
+    finally:
+        CFTC_TSV = saved
+    print(f"\n  SELFTEST: {len(cases) - failures}/{len(cases)} passed.")
+    return 1 if failures else 0
+
+
 def main():
+    if "--selftest" in sys.argv:
+        return _selftest()
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"\n{'='*70}")
     print(f"  SAM CFTC JPY Positioning Monitor — {now}")
@@ -277,6 +425,9 @@ def main():
         print(f"\n  Appended to CFTC_JPY.tsv")
     else:
         print(f"\n  TSV already has {data['date']} — no append")
+
+    # Drift check runs AFTER the append so the latest print is included.
+    multi_print_drift_check()
 
     print()
     return 0
