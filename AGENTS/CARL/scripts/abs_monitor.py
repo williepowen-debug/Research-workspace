@@ -90,7 +90,32 @@ TRUSTS = [
     #  "pattern": "depositor", "ciks": ["0001407200"]},
 
     # Deep subprime auto — Exeter (S&P flagged elevated losses, fills VX-CARL-ABS-11)
-    {"label": "Exeter (deep subprime auto)", "category": "subprime_auto",
+    # ⛔ SPLIT INTO TWO ENTRIES 2026-09-11. DO NOT RE-MERGE, AND DO NOT LET THE
+    # REGISTERED PANEL "ROLL FORWARD" WITH NEW VINTAGES.
+    #
+    # THE DEFECT THIS FIXES (4 sessions owed, KB-CARL-398/399/400): this monitor
+    # tracked only the four NEWEST Exeter vintages (7-15mo seasoning) while V2's
+    # REGISTERED grading panel is EART 2022-2 / 2022-3 / 2023-1 / 2024-1 (31-52mo).
+    # The two sets are DISJOINT. So the monitor reported clean against deals the
+    # thesis does not grade, and CARL twice graded the wrong deal set off it
+    # (8/27 and again on the first pass 9/1). Both pulls were clean at the primary
+    # and collection-month matched, so nothing looked wrong — which is why a
+    # monitor that cannot see its own panel is worse than no monitor.
+    # [[finding_instrument_reports_clean_against_the_wrong_reference]]
+    #
+    # The newest-vintage set is kept: it is the NEW-ISSUE pipeline and answers a
+    # different question (origination quality). It is simply not V2's panel.
+    {"label": "Exeter — V2 REGISTERED PANEL (deep subprime, 31-52mo seasoning)",
+     "category": "subprime_auto", "registered_panel": True,
+     "pattern": "per_vintage", "ciks": [
+         "0001920761",  # EART 2022-2 — CIK verified at data.sec.gov 2026-09-11, 52 10-Ds, latest 2026-08-31
+         "0001931330",  # EART 2022-3 — verified, 50 10-Ds, latest 2026-08-31
+         "0001964225",  # EART 2023-1 — verified, 43 10-Ds, latest 2026-08-31
+         "0002005087",  # EART 2024-1 — verified, 31 10-Ds, latest 2026-08-31
+     ]},
+
+    # New-issue pipeline — NOT the V2 grading panel. Origination-quality question only.
+    {"label": "Exeter — new-issue pipeline (NOT V2's panel)", "category": "subprime_auto",
      "pattern": "per_vintage", "ciks": [
          "0002101848",  # Exeter 2026-1
          "0002092528",  # Exeter 2025-5
