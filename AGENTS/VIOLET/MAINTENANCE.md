@@ -290,3 +290,30 @@ Log material structural changes only — not routine content edits. Template ado
 - **🔑 THE NEW MAP↔LEDGER CHECK PAID FOR ITSELF ON ITS FIRST REAL RUN, ON A MARKET FACT:** CANARY_MAP and STATUS both said **OVX FIRE** while `OVX.tsv`'s 9/4 settle said **WATCH** (ratio 3.09 vs the p95 line 3.21). **I had published an intraday tick as the state of a canary that grades on the settle.** Both surfaces were fresh; one was wrong. No age check can see that.
 - **⚠️ THREE OF MY NEW CHECKS SHIPPED INERT OR NOISY, AND ONLY FALSIFICATION FOUND IT** — an option strike list (`October 30/35/60 calls`) read as a convergence score; the date `9/4` read as an FT-10 count; a state comparison whose membership test could never fire; a JPY **threshold label** read as an asserted state. **Every one was caught by running the check against the real artifact with the real defect injected. None by reading the code.**
 - **⚠️ And the cross-surface check immediately caught my own new prose** — I restated the retracted 26/55 without a history marker while *describing* the defect. **Writing about a dead number reintroduces it.** Fixed the phrasing, not the check.
+
+---
+
+## 2026-09-11 ~14:5x ET — THREE CLOSEOUT-GUARD CONTRACTS WERE WRONG, A FALSIFIER WAS BROKEN, AND A `scripts/tests/` DIRECTORY NOW EXISTS
+
+**Trigger:** boot of the 2026-09-11 midday session. `corrections_boot_check` rc=1 (3 unreceipted) and `vx_daily_gapcheck` rc=1 flagging **today's own live row** as a phantom.
+
+**What changed:**
+1. **`vx_daily_gapcheck.py` — span re-anchored to the PUBLISHER'S FRONTIER.** It ran `hi = max(ledger)`, making the audit's upper bound the audited artifact's own last row. One broken reference, two opposite symptoms: **silent-green** on a trailing-edge gap (identical `rc=0 … no gaps` at 416 rows broken and 419 repaired) and **loud-red** on the legitimate live TICK row. Also bounded `extra`, which was charging the ledger for rows outside the audited window.
+2. **`backfill.py` — can now CREATE missing sessions.** Its CBOE pass iterated `rows.items()`, so the gapcheck's own printed remedy (`--spot-only`) did nothing over a gap. Skeleton rows are created for true sessions only (VIX + ≥1 companion), bounded by the ledger's first row and the frontier; the existing pipeline fills, derives, computes regime and stamps SETTLE.
+3. **`surface_agreement.py` — memo glob bounded to ONE delivery date.** It read every `*_from-VIOLET_*` memo ever delivered as a live surface, so seven 9/06 memos held a BLOCKING check permanently red and **its printed remedy required editing a delivered record.**
+4. **`fb_grade.py` — NEW.** Resolver for the F-B falsifier, wired as a boot stage.
+5. **`scripts/tests/` — NEW DIRECTORY** (+ `tests/fixtures/`). Two frozen offline suites: `test_gap_detect_and_repair.py` (13 checks) and `test_surface_agreement_bound.py` (5 checks).
+6. **`CANARY_MAP.md:52`** — RED's withdrawn 0.79% mirror-defect rate corrected to the three-mode census.
+
+**Files touched:** `scripts/vx_daily_gapcheck.py` · `scripts/backfill.py` · `scripts/surface_agreement.py` · `scripts/fb_grade.py` (new) · `scripts/boot.py` · `scripts/tests/*` (new) · `CANARY_MAP.md` · `STATUS.md` · `CALENDAR.md` · `workbook/{KB,CATALYSTS}.tsv` · `registry/corrections_receipts.tsv` · `memory/auto/finding_write_timestamps_from_the_clock_not_the_narrative.md`.
+
+**Boot impact:** boot gains a 16th stage (`fb_grade.py`). Closeout contracts unchanged in count; two that were red are green. **The new tests are NOT wired to any step — nothing runs them automatically. Flagged, not assumed.**
+
+**Lessons:**
+- **🔑 A LEDGER CANNOT BE ITS OWN COMPLETENESS REFERENCE.** Both gapcheck defects and the backfill defect are the same shape: the instrument took its bound from the thing it was auditing. **Neither was a wrong threshold — every one was a wrong REFERENCE**, which is the class that passes every review because the arithmetic is right.
+- **⚠️ DETECTION AND REPAIR MUST BE TESTED TOGETHER.** The gapcheck could not see a trailing gap and `backfill` could not fix one; **each instrument's own verdict looked clean while the pair was useless.** That is why the new test exercises both halves in one run.
+- **🔑 WRITING ABOUT A CHECKER'S OUTPUT ON THE SURFACE IT CHECKS MAKES THE CHECKER FIRE ON YOUR DESCRIPTION OF IT.** Bounding the memo glob unmasked a real 28/50 — inside the STATUS paragraph where I had quoted the guard while explaining why its red was "correct and intended." **The tempting fix (loosen the matcher to excuse a quotation) inverts the failure direction; the honest fix was to rewrite a paragraph the repair had just made false.**
+- **⚠️ A FIX THAT ONLY MAKES A BLOCKING CHECK QUIETER IS INDISTINGUISHABLE FROM LOOSENING IT INTO USELESSNESS.** So the test asserts it still FAILS on a same-session contradiction and still fails CLOSED on an absent memo — never merely that it stopped complaining. **My first draft of that contrast case was self-deceiving**: it called `main()` with no `--date`, which defaults to today and so bounded the very path it claimed to test unbounded.
+- **🔑 A FALSIFIER WITH AN UNSPECIFIED ESTIMATOR IS NOT A FALSIFIER.** F-B named two tests 1.25× apart, and the unstated choice (demeaned σ over n=4) reports **0.00% realized vol for four consecutive +1% days** — biased toward confirming this desk's own call on the most likely path. **Basis declared pre-outcome, from git's clock, not the narrative's.**
+- **⚠️ A DESTRUCTIVE `open()` THAT PRECEDES THE OPERATION THAT CAN FAIL IS NOT ATOMIC.** A `csv.writer` rewrite of `KB.tsv` truncated the file and *then* raised, leaving 22 of 277 lines. Recovered whole from HEAD (the rows were uncommitted). **Ledger rewrites now go temp → verify line and field counts on the temp → `os.replace`.**
+
