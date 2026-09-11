@@ -1,0 +1,15 @@
+# WQ-216 — OSPREY × HAWK joint Russia/Ukraine strike taxonomy — RULED
+
+**Ruled by Will:** 2026-09-11 00:01 ET, in-session, verbatim *"216 approved with your rec"*. **Raiser:** OSPREY (OWED-23, "AWAITING WILL since 8/20"; registered as WQ-216 at the 9/10 sweep). **The artifact ruled on:** `AGENTS/OSPREY/proposals/2026-09-10_WQ-216_joint-strike-taxonomy_OSPREY-HAWK.md` (OSPREY `24c3e85c3`, delivered 2026-09-10 23:40 ET under the first WQ-221 drain; HAWK's half `5cb0f4f2f`, 9/10 18:31, KB-HAWK-364). **PROME rec was:** approve as delivered, including OSPREY's two amendments to HAWK's axes and the *enforcement not available here* finding; prospective only.
+
+## The ruling (as encoded)
+1. **The MAPPING is adopted:** OSPREY's 8 event classes (E1 refinery · E2 depot · E3 export terminal · E4 pipeline/pump/gas-infra · E5 Ukraine→Russian-linked hull in theater · E6 Russia→Ukraine-port shipping · E7 out-of-theater hull · E8 non-kinetic decree), each on HAWK's 4 scoring axes (A molecule/asset · B reversibility · C actor-economic function · D attribution state), each naming the one instrument it may move; **DYAD + DIRECTION** mandatory on every row of both desks. Never one flat list.
+2. **Two amendments to HAWK's axes ADOPTED:** axis **B** gains a fourth value *asset loss without capacity loss* (a hull destroyed with zero production, processing or export capacity lost — YANINA 8/1, Golden Leo 7/26); axis **D** carries a grain qualifier `campaign | row` (the RF MoD 9/6 claim is campaign-grain; at row grain the 9/1 and 9/3 instances are *ambiguous-symmetric*).
+3. **`C: enforcement` is Gulf-specific and NOT available in the Russia/Ukraine theater** — the sanctioned shadow fleet is the operating export fleet (53% of July loadings, CREA 8/13); a strike on it removes marginal barrels ⇒ *denial*. LADY MARIIA 9/6 graded *capability*. Re-opening the value here requires re-writing its premise to "verifiably not lifting marketed barrels", a separate word.
+4. **Prospective only.** Governs the next write on both ledgers; no band, mark, threshold, confidence or closed row moves; no registered letter re-worded; counters stay separate by theater; any back-catalogue re-tag is a separate dated sweep with its own authorization.
+
+## Encoded at
+`PROME/WILL_QUEUE.md` row 216 → RECENTLY DONE · this record · ruling packets: `AGENTS/OSPREY/inbox/2026-09-11_from-PROME_WQ-216-RULED-…` and `AGENTS/HAWK/inbox/2026-09-11_from-PROME_WQ-216-RULED-…` (carve-out ①). Owner encodes: OSPREY — DYAD+DIRECTION, A, B, INSTRUMENT on new `STRIKES.tsv`/`KB.tsv` rows (C/D on E5/E6/E7); HAWK — the two axis amendments on its axes + axes A and B written as pre-registered gates into the HAW-19 capacity-only successor letter (WQ-212, by 9/25, DOCKET L321). Both desks dark at the word ⇒ WQ-206 rule 2 drain candidates.
+
+## Not granted
+No re-grade, no re-tag, no mark move; HAWK's right to contest either amendment by NOTE is preserved (a note rides the record, never a block); nothing about the Gulf taxonomy (FALCON's ladder) is touched.
