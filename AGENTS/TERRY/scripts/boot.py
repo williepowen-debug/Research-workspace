@@ -9,6 +9,7 @@ No writes, no trade recommendations, no execution.
 from __future__ import annotations
 
 import argparse
+import re as _re
 import csv
 import re
 import subprocess
@@ -18,6 +19,7 @@ from pathlib import Path
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 TERRY_DIR = SCRIPTS_DIR.parent
+REPO_ROOT = TERRY_DIR.parent.parent          # AGENTS/TERRY -> AGENTS -> repo root
 WORKSPACE = SCRIPTS_DIR.parents[2]
 
 REQUIRED = [
@@ -402,6 +404,25 @@ def run(args):
 
     ledger_sweep_summary()
 
+    # ---- BOARD consumption (§3.5 exempt-desk warrant) --------------------
+    board_unlogged = []
+    try:
+        board_unlogged, _addr, _logd = board_gap(REPO_ROOT / "BOARD", TERRY_DIR, date.today())
+        print("\nBOARD (WALTER) — §3.5 EXEMPT desk, this step IS the pull record:")
+        print(f"  action-line signals addressed to TERRY: {_addr} · logged in board_log.tsv: {_logd}")
+        if board_unlogged:
+            print(f"  \U0001F534 {len(board_unlogged)} UNLOGGED action-line signal(s) \u2265{BOARD_MIN_AGE_DAYS}d old:")
+            for sid, d in board_unlogged[:12]:
+                print(f"     {sid}  [{d}]  {(date.today() - d).days}d")
+            if len(board_unlogged) > 12:
+                print(f"     … +{len(board_unlogged) - 12} more")
+            print("  \u2192 log EACH in board_log.tsv (acted/noted/superseded/info-only). "
+                  "\u26d4 Do NOT log a row you have not read — a false consumption record is worse than a gap.")
+        else:
+            print("  \u2713 every action-line signal is logged, or younger than the floor")
+    except Exception as e:                      # a broken BOARD must not break the boot card
+        print(f"\nBOARD (WALTER): \u26a0 step could not run ({e}) — treat as UNKNOWN, not PASS")
+
     print("\nReminder:")
     print("  Terry proposes only. Will approves/rejects. No execution.")
     print("  Use POSITION_INTAKE.md for existing positions and TRADE_CARD_TEMPLATE.md for proposals.")
@@ -417,7 +438,7 @@ def run(args):
         print("\n--- snapshot ---")
         print(sh(cmd))
 
-    return 1 if missing or errors else 0
+    return 1 if missing or errors or board_unlogged else 0
 
 
 _TERMINAL_CASES: list[tuple[str, bool]] = [
@@ -479,6 +500,88 @@ def _selftest_bars() -> list[str]:
     return bad
 
 
+# ---------------------------------------------------------------------------
+# BOARD consumption step (added 2026-09-11, PROME packet 4b35fa523 / commit of the
+# §3.5 exempt-desk finding). TERRY is a §3.5 EXEMPT desk — spec v0.21, 2026-08-26,
+# exempt BY FALSIFIER: WALTER writes this desk no handoffs and no delivery rows, so
+# nothing PUSHES a BOARD signal here. The exemption's whole warrant is that TERRY
+# PULLS at its own cadence. ⛔ Until today nothing recorded the pull: board_log.tsv
+# held 3 inbox rows and ZERO SIG-W ids, and this file had no BOARD step at all.
+#
+# ★ THE MEASURED COST OF THAT GAP, found while back-filling: of the 20 action-line
+# signals since 8/11, the 15 dated 8/22 or EARLIER all arrived in inbox/WALTER/
+# processed/ — and ALL FIVE dated 8/28 or LATER reached this desk by no route at
+# all. The boundary is the 8/26 exemption date, with ZERO exceptions. The exemption
+# did not degrade delivery gradually; it stopped it on its effective date.
+#
+# ⚠️ ACTED-AND-UNLOGGED IS THE FAILURE SHAPE THIS CANNOT SEE FROM OUTSIDE: a signal
+# consumed on a card and one never read are identical to a third party until a row
+# exists. This step makes the pull auditable from INSIDE. Logic copied from
+# PROME/tools/exempt_gap.py (the reference), deliberately NOT imported — this desk's
+# boot must not break when another desk refactors its tools.
+SIG_ID_RE = _re.compile(r"SIG-W-\d{8}-\d{3}")
+BOARD_MIN_AGE_DAYS = 2   # a signal filed today is not yet a drain failure
+BOARD_LEDGER_GLOBS = ("board_log.tsv", "archive/board_log*.tsv")
+
+
+def _board_action_ids(board_dir, desk="TERRY"):
+    """{signal_id: date} for every BOARD signal whose `action:` line names the desk.
+
+    info-cc lines are NOT the exemption's risk and are deliberately excluded — the
+    same scoping the reference uses.
+    """
+    out = {}
+    if not board_dir.is_dir():
+        return out
+    for f in sorted(board_dir.glob("SIG-W-*.md")):
+        try:
+            head = f.read_text(encoding="utf-8", errors="replace")[:1200]
+        except OSError:
+            continue
+        m = _re.search(r"^action:\s*\[(.*?)\]", head, _re.M | _re.S)
+        if not m:
+            continue
+        names = {x.strip().strip("'\"").upper() for x in m.group(1).split(",") if x.strip()}
+        if desk.upper() not in names:
+            continue
+        # ⚠️ THE BOARD CARRIES TWO FRONT-MATTER CONVENTIONS. Measured 2026-09-11 over
+        # 939 files: 835 use `signal_id:` and 104 (11%) use bare `id:`. The v1 of this
+        # parser matched only `signal_id:` and SILENTLY DROPPED all 104 — it did not
+        # error, they simply never appeared in the addressed set, so an unlogged one
+        # could never be flagged. ⛔ FAIL-OPEN, the worst direction for a guard whose
+        # whole job is to notice absence. Caught only because the addressed count came
+        # back 19 against PROME's 20 and the difference was chased instead of shrugged
+        # off (the one that differed: SIG-W-20260820-003, `id:`-form).
+        # `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
+        sid = _re.search(r"^(?:signal_id|id):\s*(SIG-W-\d{8}-\d{3})", head, _re.M)
+        if not sid:                       # last resort: the filename itself
+            sid = _re.search(r"(SIG-W-\d{8}-\d{3})", f.name)
+        d = _re.search(r"^date:\s*(\d{4})-(\d{2})-(\d{2})", head, _re.M)
+        if sid and d:
+            out[sid.group(1)] = date(int(d.group(1)), int(d.group(2)), int(d.group(3)))
+    return out
+
+
+def _board_logged_ids(terry_dir):
+    ids = set()
+    for g in BOARD_LEDGER_GLOBS:
+        for f in sorted(terry_dir.glob(g)):
+            try:
+                ids |= set(SIG_ID_RE.findall(f.read_text(encoding="utf-8", errors="replace")))
+            except OSError:
+                continue
+    return ids
+
+
+def board_gap(board_dir, terry_dir, today):
+    """(unlogged_aged, addressed_total, logged_total) — the ID-diff, as a pure function."""
+    addressed = _board_action_ids(board_dir)
+    logged = _board_logged_ids(terry_dir)
+    aged = sorted((sid, d) for sid, d in addressed.items()
+                  if sid not in logged and (today - d).days >= BOARD_MIN_AGE_DAYS)
+    return aged, len(addressed), len(logged)
+
+
 _QUIET_CASES: list[tuple[str, bool]] = [
     ("RETIRED", True), ("PIN", True), ("", True),
     ("RETIRED (terminal, Will-ruled 2026-08-18) — never armed", True),  # the described-better case
@@ -489,6 +592,56 @@ _QUIET_CASES: list[tuple[str, bool]] = [
     ("WAITING ON BOND", False),
     ("nonsense", False),
 ]
+
+
+_BOARD_FM_CASES = [
+    # (front-matter text, expect_found) — BOTH id conventions must parse, and a
+    # signal that does NOT name TERRY on the action line must NOT be picked up.
+    ("---\nsignal_id: SIG-W-20260819-015\ndate: 2026-08-19\naction: [TERRY, BOND]\ninfo: [RED]\n", True),
+    ("---\nid: SIG-W-20260820-003\ndate: 2026-08-20\naction: [BOND, TERRY]\ninfo: [HENRY]\n", True),   # the 9/11 regression
+    ("---\nsignal_id: SIG-W-20260911-004\ndate: 2026-09-11\naction: []\ninfo: [HAWK, NEXUS]\n", False),
+    ("---\nid: SIG-W-20260901-009\ndate: 2026-09-01\naction: [BROCK]\ninfo: [TERRY]\n", False),        # info-cc is NOT action
+    # ⚠️ THE CASE ABOVE DOES NOT ACTUALLY FALSIFY an action|info regex: `re.search`
+    # returns the EARLIEST match and `action:` precedes `info:`, so a broken pattern
+    # still reads the action line and still gets the right answer. Verified by
+    # injection 2026-09-11 — widening the regex to `(?:action|info):` left the suite
+    # PASSING. The case below has NO action line at all, so only a pattern that
+    # wrongly accepts `info:` can find TERRY in it. THAT is the falsifying fixture.
+    # `[[finding_test_the_guard_not_just_the_guarded]]`
+    ("---\nsignal_id: SIG-W-20260902-001\ndate: 2026-09-02\ninfo: [TERRY, RED]\n", False),
+]
+
+
+def _selftest_board() -> list[str]:
+    """The BOARD step must see BOTH front-matter conventions and must not treat an
+    info-cc as an action line. v1 matched only `signal_id:` and silently dropped 104
+    of 939 live files — a guard blind to 11% of its input, failing OPEN."""
+    import tempfile as _tf
+    bad = []
+    with _tf.TemporaryDirectory() as td:
+        bd = Path(td) / "BOARD"; bd.mkdir()
+        want = set()
+        for i, (fm, expect) in enumerate(_BOARD_FM_CASES):
+            m = _re.search(r"SIG-W-\d{8}-\d{3}", fm)
+            (bd / f"{m.group(0)}-case{i}.md").write_text(fm, encoding="utf-8")
+            if expect:
+                want.add(m.group(0))
+        got = set(_board_action_ids(bd).keys())
+        if got != want:
+            bad.append(f"_board_action_ids: got {sorted(got)}, want {sorted(want)}")
+        # the ID-diff itself: an addressed-but-unlogged signal must surface
+        td2 = Path(td) / "desk"; td2.mkdir()
+        (td2 / "board_log.tsv").write_text("ts\tsignal_id\tdisposition\n"
+                                           "x\tSIG-W-20260819-015\tacted\n", encoding="utf-8")
+        aged, addressed, logged = board_gap(bd, td2, date(2026, 9, 11))
+        ids = [a for a, _ in aged]
+        if "SIG-W-20260820-003" not in ids:
+            bad.append("board_gap missed an addressed-but-unlogged `id:`-form signal")
+        if "SIG-W-20260819-015" in ids:
+            bad.append("board_gap flagged a signal that IS logged")
+        if addressed != 2:
+            bad.append(f"board_gap addressed={addressed}, want 2")
+    return bad
 
 
 def _selftest_quiet() -> list[str]:
@@ -525,7 +678,7 @@ def selftest():
         return 1
     _, errors = setups()
     _, sig_errors = signals()
-    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars() + _selftest_quiet()
+    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars() + _selftest_quiet() + _selftest_board()
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1
