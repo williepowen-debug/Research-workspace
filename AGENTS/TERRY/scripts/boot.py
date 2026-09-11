@@ -538,10 +538,26 @@ def _board_action_ids(board_dir, desk="TERRY"):
             head = f.read_text(encoding="utf-8", errors="replace")[:1200]
         except OSError:
             continue
-        m = _re.search(r"^action:\s*\[(.*?)\]", head, _re.M | _re.S)
+        # ⚠️ THE BOARD USES TWO KEYS FOR THE SAME LINE AND THREE FORMATS FOR ITS VALUE.
+        # Census 2026-09-11 over 939 files: `action:` 352 · `to:` 552 · neither 34
+        # (an early-April schema with no routing line at all). v1 read `action:` only
+        # and so was blind to 552 files — SILENTLY, the same fail-open shape as the
+        # signal_id/id defect fixed an hour earlier. Found by PROME's wider census
+        # after my own narrower one; their exempt_gap had the identical gap.
+        # ⛔ It cost this desk NOTHING — ZERO `to:`-form files name TERRY, and none of
+        # the 34 do either, so the back-filled ledger was complete. Fixed anyway: a
+        # guard that is correct only because its blind spot happens to be empty is
+        # not a guard, it is a coincidence.
+        # Value formats seen live: `[A, B]` · `A` · `A (ACTION)` · `[A]`.
+        m = _re.search(r"^(?:action|to):\s*(.*)$", head, _re.M)
         if not m:
             continue
-        names = {x.strip().strip("'\"").upper() for x in m.group(1).split(",") if x.strip()}
+        raw = m.group(1).strip()
+        if raw.startswith("["):                       # bracketed list may wrap lines
+            mb = _re.search(r"^(?:action|to):\s*\[(.*?)\]", head, _re.M | _re.S)
+            raw = mb.group(1) if mb else raw.strip("[]")
+        names = {x.split("(")[0].strip().strip("'\"").upper()     # "CARL (ACTION)" -> CARL
+                 for x in raw.split(",") if x.strip()}
         if desk.upper() not in names:
             continue
         # ⚠️ THE BOARD CARRIES TWO FRONT-MATTER CONVENTIONS. Measured 2026-09-11 over
@@ -609,6 +625,16 @@ _BOARD_FM_CASES = [
     # wrongly accepts `info:` can find TERRY in it. THAT is the falsifying fixture.
     # `[[finding_test_the_guard_not_just_the_guarded]]`
     ("---\nsignal_id: SIG-W-20260902-001\ndate: 2026-09-02\ninfo: [TERRY, RED]\n", False),
+    # `to:` is the PRE-v0.12 key for the same line — 552 of 939 live files. Three
+    # value formats occur in the wild and all three must parse.
+    ("---\nsignal_id: SIG-W-20260501-001\ndate: 2026-05-01\nto: [TERRY, CARL]\n", True),
+    ("---\nsignal_id: SIG-W-20260502-001\ndate: 2026-05-02\nto: TERRY\n", True),
+    ("---\nsignal_id: SIG-W-20260503-001\ndate: 2026-05-03\nto: TERRY (ACTION)\n", True),
+    ("---\nsignal_id: SIG-W-20260504-001\ndate: 2026-05-04\nto: CARL (ACTION)\n", False),
+    # a near-miss name must NOT match — splitting on commas, then exact-matching
+    ("---\nsignal_id: SIG-W-20260505-001\ndate: 2026-05-05\nto: [TERRYX]\n", False),
+    # the 34-file early-April schema: no routing line at all -> not addressed
+    ("---\nsignal_id: SIG-W-20260419-014\ndate: 2026-04-19\nprecedence: PRIORITY\nsource: WALTER\n", False),
 ]
 
 
@@ -639,8 +665,13 @@ def _selftest_board() -> list[str]:
             bad.append("board_gap missed an addressed-but-unlogged `id:`-form signal")
         if "SIG-W-20260819-015" in ids:
             bad.append("board_gap flagged a signal that IS logged")
-        if addressed != 2:
-            bad.append(f"board_gap addressed={addressed}, want 2")
+        # ⚠️ DERIVED, never a literal: this assertion was `addressed != 2` and went
+        # stale the instant the `to:` fixtures were added, failing the suite for a
+        # reason that had nothing to do with the code under test. A count hardcoded
+        # beside the fixtures it counts is a maintenance trap.
+        want_n = sum(1 for _, e in _BOARD_FM_CASES if e)
+        if addressed != want_n:
+            bad.append(f"board_gap addressed={addressed}, want {want_n} (= the True fixtures)")
     return bad
 
 
