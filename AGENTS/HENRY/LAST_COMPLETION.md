@@ -1,59 +1,34 @@
-# HENRY — LAST COMPLETION
-
-**Session:** 2026-09-04 Fri ~09:2x–10:1x ET — **boot + whole-inbox drain** (Will: "please boot up"; PROME teams-coordination mid-session)
-**Status:** ✅ Complete. Committed `b97e5e83a`, **verified on origin/master by my own fresh fetch.**
-
-## RESULT
-**The gamma sign I published two days ago had already reversed, and the file that broadcasts it to eleven peers was still asserting the old one.**
+# HENRY — LAST COMPLETION (Will-facing close)
+**Session:** 2026-09-11 Fri ~00:3x–02:2x ET · PROME teams-spawn — **VECTOR 4 (DOCKET L325) + the WQ-206 whole-inbox drain** · **STATUS: ⚠️ PARTIAL**
+⚠️ **MIXED VINTAGE, STATED DELIBERATELY.** The VECTOR-4 tape is my own pull tonight. **The gamma board, the credit tanks, VIX/SKEW quotes, KRE/WAL, USD/JPY and the rate cells were NOT refreshed** — they carry 9/2–9/4 vintages and every one of them says so on its own row.
 
 ## CHANGED
-`STATUS.md` · `STATUS_COLD.md` · `NEXUS_BRIEF.md` · `MEMORY.md` · `LAST_COMPLETION.md` · `board_log.tsv` · `workbook/PREDICTIONS.tsv` · `workbook/PUBLISHED.tsv` · `status_archive/STATUS_ARCHIVE_2026-09.md` (blocks 5–8) · 14 inbox files → `processed/`
+`AGENTS/HENRY/research/2026-09-11_VECTOR-4_diesel-jet-squeeze-losers-screen.md` (new) · `STATUS.md` · `NEXUS_BRIEF.md` · `MEMORY.md` · `LAST_COMPLETION.md` · `board_log.tsv` (+33 rows) · `workbook/PREDICTIONS.tsv` (schema + HEN-46) · `workbook/KB.tsv` (ML-HEN-163/164) · `status_archive/STATUS_ARCHIVE_2026-09.md` (blocks 9–17) · 34 inbox files `git mv`'d to `processed/` · `PROME/inbox/2026-09-11_from-HENRY_…` (carve-out ①)
 
-## SESSION WORK
+## RESULT
+**The ULSD crack took out its 2022 peak tonight — $110.87/bbl [9/11 overnight] vs $110.33 [2022-04-28] on the identical definition, +23.0% since 7/23 — and the equities that pay for it outperformed the market while it happened** (9/8→9/10 the crack +11.2% to a record; **AAL −0.46%, LUV +0.05%, SPX −1.07%**). Screen delivered, **HEN-46 registered ACTIVE**, inbox **drained 34 → 0**.
 
-**1. Gamma re-measured, both horizons — the sign inverted BACK to POSITIVE.**
-| Horizon | Contracts | Flip | Spot vs flip | Net GEX |
-|---|---:|---:|---:|---:|
-| 14d | 3,861 | ~7,691 | +57 ABOVE | +$36.8B/1% |
-| **35d** *(definitive)* | **7,120** | **~7,695** | **+53 ABOVE** | **+$39.4B/1%** |
+## Session Work
+1. **VECTOR 4 — the one page.** Verdict: **AAL (#1) and LUV (#2)** are the clean defined-risk shorts; **ALK is a WATCH** only. **DAL and UAL are explicitly NOT shorts** (Trainer earned **$351M** in Q2'26 vs a −$10M loss in Q2'25; UAL **raised** FY guidance to $9–11 through a **+$6B** fuel bill). **The truckers are the wrong short** — LTL fuel surcharges ran **>60%** above June-2025 and truckload spot hit a record **$3.83/mile**: fuel passes through on a truck and does not on a wing.
+2. **The mechanism, in one number each.** Hedge coverage across the US majors is **≈0%**. AAL's own 10-Q: **$45M of annual fuel expense per $0.01/gal**, against a **$3.75/gal** Q3 assumption set **7/23** and USGC jet spot **$4.19 [EIA 9/1]** ⇒ **$280–505M of unguided Q3 cost against a guided Q3 range of −$0.10/−$0.70 adj EPS.** LUV's Q3 assumption is **$3.70–3.75 "based on the forward curve as of July 17, 2026"** — a pre-squeeze curve by construction — on **564M gallons** a quarter.
+3. **Whole-inbox drain, 34 → 0** (25 WALTER + 9 root; oldest 7 days). All three items naming HENRY as ACTION recipient are closed: one **real correction** to my own brief, two **verified NO-OPs** proven by grep rather than assumed.
+4. **Two self-corrections.** ① My NEXUS_BRIEF carried a **false VERIFIED-ABSENCE** for a week (the "procurement of memory" quote IS in the NVDA CFO Ex 99.2) while STATUS was already right — two of my own surfaces disagreed and neither reader noticed. ② My ISM row **overstated a withdrawal**: the German leg is restored and *hardened* by hard order data (backlog **8.9 months**, a record since 2015); what actually died is a different HANS caveat.
+5. **DAEDALUS H2 closed in one sitting** — `PREDICTIONS.tsv` gains `Date_Made` + `Confidence`, with the 38 historical rows carrying explicit `UNSCORED-AS-MADE` tokens rather than reconstructed numbers.
 
-Published band **7,691–7,695**, dealers **DAMPEN**. Walls **WITHHELD a 3rd session** (put wall == call wall, both horizons). ⛔ Measured on the **9/3 close, PRE-NFP**.
-🔑 **`+$20.4B [8/28] → −$16.7B [9/2] → +$36.8B [9/3]` — two inversions in seven days.** On 9/2 I flagged the sign had turned across 12 unmeasured days; it then turned again in two. **Conclusion published fleet-wide: a HENRY gamma sign has a shelf life of about one session.** PROME accepted it into the HEARTBEAT base as *flip band + date, never a regime sign.*
-
-**2. August NFP — the negative print I had been carrying was revised away.** +162,000 · U-3 4.1% on a **growing** labor force · **July −23K → +21K**, +55K net. ⇒ **The JOLTS fence I adopted on 9/2 is moot in its own direction** — the −23K it fenced no longer exists. Market moved September to hike-favoured (PM 52.5% / Kalshi 57.0%; hike 40.5 → 53.5 across the print) **while recession odds did not move at all (7.0%, both venues).**
-
-**3. Both frozen letters survive the repricing, unchanged.** HEN-44 carries **no** FOMC-distribution premise; HEN-45's registered "65–68%" was **explicitly not a leg**. Prior does not even change direction — only confidence in the level widens (a **17–22pp three-venue spread**, all relay-sourced). Erratum written to `PREDICTIONS.tsv`, **never to the frozen letters.**
-
-**4. SKEW 150.63 [CBOE 9/3] through my >150 orange.** WALTER dispatched it as *not gradeable*; CBOE published overnight and I pulled it at the publisher. RED-FT-10 → **1-of-4** (RED grades it, not me).
-
-**5. Credit: CCC 1,053 / BB 153 / HY 266, gap 900** — a new wide, second consecutive session of genuine tail deterioration.
-
-**6. Inbox: WALTER lane 8 → 0; 6 of 7 root packets dispositioned.** HEN-42 `Status` re-cut `RESOLVED-DENY` → `MISS`, after verifying DAEDALUS's claim at `scorecard.py:103` and its self-test at `:581` rather than trusting the packet.
-
-## ⚠️ HONEST SCOPE — what went wrong, in my own work
-
-- **I relapsed on rewrite-instead-of-cut, and it took four passes.** STATUS had 260 B of headroom and needed a regime reversal written in. Passes 1–4 replaced long text with long text and **net-ADDED ~1.4 kB**; one had a broken end-marker and appended a **duplicate BOTTOM LINE**. Only outright deletion worked. **This is the second consecutive session with this defect.**
-- **The regime-grep caught what reading did not.** STATUS was clean; **`NEXUS_BRIEF` was dirty on six lines** — still publishing NEGATIVE / AMPLIFY / the old flip band. **Same file, same defect, as 8/27.** The detector was never the gap; invoking it is.
-- **The sign-inverted signal never reached my surfaces because my desk was DARK, not because I caught it.** Recorded that way rather than as a save.
-- **A peer's read-only finding was wrong on the scan and I nearly inherited it.** "No `149.23` live in STATUS" — the value *is* live, as a correct CBOE 9/1 print. RED's own framing ("your STATUS still carries it") would have had me **delete a correct cell**. Both framings error, in opposite directions.
-
-## GAPS / STILL PENDING
-- **Push:** I did not push. Four desks had uncommitted work; the non-ff recovery autostashes the whole tree. **PROME pushed it and I verified independently at origin.**
-- **audit-E2 cross-horizon wall gap:** still unfixed. Did not bind today (horizons agreed); the within-horizon guard is what withheld the walls.
-- **HEN-36 successor:** still unregistered, deliberately. **Four independent reads now point at POWER, not semis** — DEWEY queue-position · GEV deposit-funded FCF · ERCOT Cal-27 · the live PJM §202(c) order directing backup generation at large loads.
-- **STATUS is back to 78 B of headroom.** Next session must DELETE before it adds.
+## GAPS / Still pending
+- ⛔ **HEN-44 (August CPI) resolves 9/11 08:30 ET, hours after this session closed. NOT graded, NOT pre-graded** — the letter is frozen and Leg C grades first. **This is the single most important thing the next session does.**
+- ⛔ **The gamma board has not been measured since 9/4** and my own finding is a one-session shelf life (SPX −2.01% since). **The credit tanks are FRED 9/2, six sessions old.** Both are labelled stale on every surface, neither was refreshed — this was a vector + drain session, not a board session.
+- **Registered as owed, not done:** the **>$3.1tn** off-balance-sheet concentration overlay (`SIG-W-20260910-013`, multi-session) · the confidence backfill for 38 historical prediction rows · a read of the **9/10 NOON ET WPSR** (BRENT's corrected date, now past).
+- **Exact AAL/LUV Q3 report dates are UNKNOWN** — not confirmed at a primary this session; HEN-46 carries a 10/31 backstop with an explicit instruction to recompute, not carry.
 
 ## COMMITS
-- `b97e5e83a` — HENRY: gamma sign inverted BACK to positive (2nd in 7d) + Aug NFP + whole-inbox drain
-
-## NEXT SESSION FOLLOW-UP (dates you care about)
-- **Wed 9/9** — Treasury `sb0607` buybacks begin; **curve attribution contaminated after this date**
-- **🔴 Fri 9/11 08:30** — August CPI. **HEN-44 grades, Leg C first.** Falsifier: core MoM ≥+0.35% **or** YoY ≥2.60%
-- **🔴 Wed 9/16 14:00** — FOMC + dot plot. **HEN-45 grades, Leg 1 first.** ⛔ Also VIX quarterly expiry — the 9/16 equity/vol reaction is unusable as evidence
-- **Fri 9/18** — SPX quarterly OPEX · **Wed 9/23** — T3 first decidable
+See the delivery memo `PROME/inbox/2026-09-11_from-HENRY_VECTOR-4-diesel-jet-squeeze-losers-screen-and-drain.md` — committed path-scoped, **not pushed** (a PROME-spawned session never pushes; PROME pushes at closeout).
 
 ## THESIS SNAPSHOT (frozen at close)
-**The asymmetry is intact and both sides moved.** Equity got its shock absorber back (gamma POSITIVE, dealers dampen) and the credit tail made a new wide anyway (CCC 1,053 vs BB 153, +101 vs −12 over 3mo). Blended **HY 266** moved 1bp *further* from my 260 observable — **the observable can be reached by composition rather than by healing; read the tranches before reading the kill.** The crowd now prices *"the Fed hikes and nothing breaks"* — hike-favoured with recession odds unmoved. **That is the same proposition my thesis has carried all year, quoted in a second market — not a second witness to it.**
+Equity vol priced for calm · a distressed credit tail making new wides · **and now a third leg: a real-economy COST shock at an all-time high that the equities carrying it have not marked.** All three are asymmetric the same way.
+
+## NEXT SESSION FOLLOW-UP (dates Will cares about)
+**Fri 9/11 08:30** August CPI → grade HEN-44 · **Wed 9/16 14:00** FOMC + dot plot + VIX quarterly expiry → HEN-45 · **Fri 9/18** SPX quarterly OPEX · **Wed 9/30** Russian product-export ban expiry = **HEN-46's F3** · **late Oct** AAL/LUV Q3 prints = HEN-46 resolves.
 
 ## WILL_NEEDS
-**One decision, nothing blocking:** DAEDALUS's census found two lines in my own `AGENTS/HENRY/CLAUDE.md` (:83, :236) instructing **signal** delivery direct to a target's inbox, which routes around WALTER's mandate. The fix is two lines — *"SIGNALS → WALTER; ANALYSIS and PACKETS → direct, self-committed."* **I read the packet myself and agree with it, but a peer session put it on a task list, and I will not edit my own charter on a peer's say-so.** Your call. The packet is left **in** my inbox, unprocessed, so the open action stays visible.
+**None for the read itself — $0 spent, no card, no order, nothing executed.** If Will wants the trade, it is **TERRY's construction and Will's approval** (root rule #5), and **root rule #6's gate is SHUT tonight**: puts go on a GREEN day, and SPX closed −0.58% after three down sessions. Size against the ~$6,007 energy sleeve, never per-card.
