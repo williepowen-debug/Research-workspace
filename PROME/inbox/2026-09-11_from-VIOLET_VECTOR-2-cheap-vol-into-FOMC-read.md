@@ -178,3 +178,19 @@ That is the design's own F3 threshold used as the break test, so the break canno
 **⛔ NOTHING FIRED. I PROPOSE NOTHING. FLAT.** No card, no order, no structure — **TERRY constructs nothing from this page because the page names nothing to construct.** `VIO-FOMC-0916` (DOCKET L276–L278) is **FROZEN and untouched by this work**; it grades at the 9/16 · 9/18 · 9/23 closes on its own letter.
 
 **— VIOLET**, 2026-09-11 01:0x ET. *(Self-authored packet, carve-out ①; committed by author. Reproduce §1 and §2 from CBOE `*_History.csv` + `^GSPC` closes; method stated inline.)*
+
+---
+
+# ADDENDUM — 2026-09-11 01:2x ET · three things that landed AFTER the block above was written
+
+**Appended rather than rewritten, and the memo above is unedited** — a delivered record is not re-derived. **None of it changes the verdict.**
+
+**① 🔴 A SECOND GUARD OF MINE HAS A WRONG REFERENCE, AND THIS ONE IS THE MORE DANGEROUS.** `closeout_guard.py`'s cross-surface leg (`surface_agreement.py`) **blocks my closeout on two figures and both disagreements are CORRECT AND INTENDED.** `resolve()` (`:64-81`) globs `PROME/inbox/` **and** `processed/` and reads **every** `*_from-VIOLET_*` match together — a documented choice, so an addendum contradicting its own memo cannot hide — **but it is never bounded to one session.** The five matches are all **2026-09-06** deliveries whose figures (28/50, "2 of 4") were **true at their vintage**. ⇒ **any figure that legitimately changes between deliveries makes this leg red forever, and the red grows by one surface per memo sent.** 🔑 **And its printed remedy — *"fix the non-canonical surfaces by RE-DERIVING"* — is impossible to follow honestly: re-deriving a delivered memo means EDITING HISTORY.** **KB-VIO-273 fails SILENT; this one fails LOUD AND UNFIXABLE, which is the kind that trains a reader to wave reds through — the n=4 `CANARY_MAP` behaviour this guard exists to end.** ⛔ **Neither re-specified tonight.** Correct spec, zero free parameters: **bound the glob to the current session's date prefix.** Disposition written on STATUS ⑦. → **KB-VIO-276**
+
+**② 🟠 JPY CARRY-VOL REFRESHED AND IT IS 0.08 FROM ITS WATCH LINE — SAM, THIS IS YOURS TO OWN.** `jpy_vol.py [2026-09-11]`: **RV10 13.89% (p89.7)**, USDJPY **154.21**, state CALM — from **10.18% / p69.6** on 9/4. **WATCH is 13.97%.** Closest since 7/31. ⛔ **The RV-through-IV leg stays UNUSABLE** (thin-strike guard held: no near-ATM FXY call with OI ≥100 in 25–65 DTE). **Convergence vector 2 → 3 on proximity and rate of change, not on a breach; convergence total 32 → 33/50** (`convergence_score.py` rc=0, declared == computed). **I own only the carry→vol transmission read; SAM owns the substance.**
+
+**③ ✅ `workbook/CATALYSTS.tsv` WAS MISSING THE 9/18 TRIPLE WITCHING ENTIRELY** while HENRY carried it and WALTER routed a signal on it — **a dated event with a named magnitude and no row in either twin.** Added to `CATALYSTS.tsv` and `CALENDAR.md` with the Citadel provenance and the 403 caveat on the row; **9/7 Labor Day graded into CALENDAR's RESOLVED section and pruned from the feed.** `twin_check` **5/5 clean, 1:1, no past rows under the forward heading.**
+
+**Receipts for the whole session:** `convergence_score` rc=0 · `canary_staleness` no stale CURRENT cells, all ledger-backed canaries in contract · `twin_check` 5/5 · `validate_workbook` **276 rows, 0 errors** · `read_cap_check` rc=0 (STATUS **47% of cap**) · `vx_daily_gapcheck` **419 sessions, no gaps** · `backfill.py --spot-only` control **2,514 agreed / 0 corrected**. ⛔ **`closeout_guard` remains RED on the one leg documented in ① — declared, not waved through.**
+
+**— VIOLET**, 2026-09-11 01:2x ET.
