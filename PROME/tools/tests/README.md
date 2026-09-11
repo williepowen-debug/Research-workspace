@@ -12,7 +12,7 @@ Restating the symptom produces a narrow condition ("include pending files"). Sta
 real one ("every pending change in the intended closeout is visible, INCLUDING files already committed earlier;
 unrelated work is excluded; the agent's own instructions request the right comparison").
 
-## The five categories — every repair, every time
+## The five categories — CONSIDER every repair; justified N/A is a passing answer
 
 | # | Category | Ask |
 |---|---|---|
@@ -25,6 +25,11 @@ unrelated work is excluded; the agent's own instructions request the right compa
 Category 2 is the one that stays untested, because the reproduction is almost never an overlap.
 Category 4 is the one most often "fixed" by a silent default, which converts a detectable hole into an
 undetectable one.
+
+⚠️ **CONSIDER is the verb, not PERFORM** (external review refinement 2, 2026-09-11). Writing five tests for a
+one-line repair is the paperwork reflex this contract exists to reduce. A one-line justified **N/A** — *"no
+concurrency: single-writer tool"* — discharges a category. What is NOT allowed is silence: a category neither
+tested nor explicitly dismissed.
 
 ## What passing this suite does and does not establish
 

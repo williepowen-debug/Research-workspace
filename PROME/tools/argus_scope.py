@@ -117,25 +117,32 @@ def porcelain_entries():
 
 
 def pending_paths():
-    """(owned, unattributed) PROME-relevant paths with UNCOMMITTED changes.
+    """(owned, lineage_inferred, unattributed) PROME-relevant paths with UNCOMMITTED changes.
+
+    ⚠️ KNOWN LIMIT, DELIBERATELY LEFT VISIBLE (external review 2026-09-11, refinement 3 — OPEN):
+    `lineage_inferred` paths in a fleet-shared directory are attributed from the LAST COMMIT'S SUBJECT. That is
+    evidence about who committed the file LAST. It is NOT evidence about who made TODAY'S uncommitted edit —
+    another desk can edit a file PROME last committed, and this cannot tell. Passing tests do not close this;
+    only an explicit ownership record does (the CODEX point-4 redesign). Reported under its own label so the
+    uncertainty travels to ARGUS instead of being laundered into "owned".
 
     Why this exists: ARGUS runs pre-commit, so the closeout's own writes are in no commit yet. Without this the
     verdict covers a scope that excludes the work being approved (audit 2026-09-11 F1).
     Perimeter-scoped: another desk's dirty paths are never handed to ARGUS.
     """
-    owned, unattributed = set(), set()
+    owned, inferred, unattributed = set(), set(), set()
     for st, path in porcelain_entries():
         if is_prome_authored(path):
             owned.add(path)
         elif is_shared_location(path):
             subj = last_commit_subject(path)
             if PROME_RE.match(subj):
-                owned.add(path)          # PROME's own lineage in a shared directory
+                inferred.add(path)       # ⚠️ INFERRED, not established — see the caveat below
             elif subj:
-                continue                 # another desk's file — not PROME's to audit
+                continue                 # another desk's last commit — not PROME's to audit
             else:
-                unattributed.add(path)   # untracked in a shared dir: no lineage, fail LOUD
-    return owned, unattributed
+                unattributed.add(path)   # untracked in a shared dir: no lineage at all, fail LOUD
+    return owned, inferred, unattributed
 
 
 def commit_paths(sha):
@@ -161,10 +168,10 @@ def scope(watermark, include_pending=True):
                             "attribution": "subject" if PROME_RE.match(subj) else "paths"})
             paths |= touched
     if include_pending:
-        pend, unattr = pending_paths()
+        pend, inferred, unattr = pending_paths()
     else:
-        pend, unattr = set(), set()
-    return commits, sorted(paths), sorted(pend), sorted(unattr)
+        pend, inferred, unattr = set(), set(), set()
+    return commits, sorted(paths), sorted(pend), sorted(inferred), sorted(unattr)
 
 
 def main(argv=None):
@@ -177,13 +184,16 @@ def main(argv=None):
     if not wm:
         print(f"ARGUS-SCOPE 2 — no closeout commit in the last {MAX_LOOKBACK} commits; scope undefined", file=sys.stderr)
         return 2
-    commits, paths, pend, unattr = scope(wm, include_pending=not args.no_pending)
-    total = len(set(paths) | set(pend))          # unique paths for the threshold
+    commits, paths, pend, inferred, unattr = scope(wm, include_pending=not args.no_pending)
+    total = len(set(paths) | set(pend) | set(inferred))     # unique paths for the threshold
     both = sorted(set(paths) & set(pend))
     verdict = "SPAWN" if total >= MIN_PATHS else f"SKIP (<{MIN_PATHS} paths)"
     if args.json:
         print(json.dumps({"watermark": wm[:9], "watermark_subject": subj, "prome_commits": commits,
                           "paths": paths, "pending_paths": pend, "both": both,
+                          "lineage_inferred_pending": inferred,
+                          "lineage_caveat": ("attributed from the LAST COMMIT's subject — evidence about who "
+                                             "committed last, NOT about who made today's uncommitted edit"),
                           "unattributed_pending": unattr, "path_count": total,
                           "read": {"committed": "git diff <watermark>..HEAD -- <path>",
                                    "pending_tracked": "git diff HEAD -- <path>",
@@ -203,6 +213,8 @@ def main(argv=None):
         for p in pend:
             if p not in set(paths):
                 print(f"    - [PENDING]   {p}   (git diff HEAD -- {p}; read whole if new)")
+        for p in inferred:
+            print(f"    - [PENDING · LINEAGE-INFERRED] {p}   ⚠️ last committed by PROME; who made TODAY's edit is NOT established")
         for p in unattr:
             print(f"    - [UNATTRIBUTED PENDING] {p}   (shared dir, no commit lineage — ask PROME whose it is)")
     return 0 if total >= MIN_PATHS else 3
