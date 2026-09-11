@@ -38,7 +38,7 @@ re-deriving from the data, never by copying the majority.
 Exit codes: 0 = every registered figure agrees; 1 = at least one disagreement.
 """
 from __future__ import annotations
-import argparse, re, sys
+import argparse, datetime as _dt, re, sys
 from pathlib import Path
 
 AGENT_DIR = Path(__file__).resolve().parent.parent
@@ -62,29 +62,56 @@ SURFACE_SPECS = [
 MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
 
 
-def resolve(spec: str) -> list[Path]:
-    """Spec -> every concrete path it names.
+def resolve(spec: str, day: str | None = None) -> list[Path]:
+    """Spec -> every concrete path it names. Memo globs are bounded to ONE day.
 
-    ⚠️ A glob returns ALL matches and the caller reads them TOGETHER, rather than
-    picking one "newest". Two reasons, and the second is the better one:
+    ⚠️ A glob returns ALL matches for that day and the caller reads them TOGETHER,
+    rather than picking one "newest". Two reasons, and the second is the better one:
     ① a date prefix cannot order two packets sent the same day (v1 picked by slug,
       so a 10:4x addendum lost to a 10:2x memo because "a" < "f"); and
-    ② **for THIS check, every delivered memo is in scope anyway** — if an addendum
+    ② **within one closeout, every delivered memo is in scope** — if an addendum
       states a different convergence score or FT-10 count from the memo it amends,
       that is a genuine cross-surface disagreement and exactly what this exists to
       catch. Reading only the "latest" would hide it.
-    An empty list means no memo — reported as MISSING, which is correct: a closeout
-    that delivered nothing to PROME has an unwritten surface, not an agreeing one."""
+
+    ⛔ FIXED 2026-09-11 — THE GLOB WAS NEVER BOUNDED TO A SESSION, AND ② IS ONLY
+    TRUE WITHIN ONE. Reason ② justifies reading same-day memos together; it says
+    nothing about memos from LAST week, and the code read those too. A figure that
+    legitimately MOVES between deliveries — a convergence score, an FT-10 count —
+    then reads as a permanent cross-surface disagreement, and **the red grows by
+    one surface per memo sent.** Live example this closeout: seven 2026-09-06
+    memos carrying 28/50 and "2 of 4", both TRUE AT THEIR VINTAGE, against a
+    STATUS correctly reading 33/50 and 0.
+
+    🔑 And the printed remedy — "fix the non-canonical surfaces by RE-DERIVING" —
+    **cannot be followed honestly for a delivered memo**, which is an immutable
+    record; re-deriving it means editing history. A guard whose remedy is
+    impossible trains its reader to wave the red through, which is the n=4
+    CANARY_MAP behaviour this guard exists to end. A permanently-red blocking
+    check is worse than no check.
+
+    The bound is a DATE, not a tunable threshold: memos whose filename begins
+    `day`. Same-day addenda are still compared together, so ② is preserved
+    exactly. An empty list means no memo FOR THAT DAY — reported as MISSING,
+    which is correct and fails closed: a closeout that has not yet delivered to
+    PROME has an unwritten surface, not an agreeing one."""
     if "*" not in spec:
         return [AGENT_DIR / spec]
     pat = spec.rsplit("/", 1)[-1]
-    return [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
+    hits = [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
+    if day is not None:
+        hits = [x for x in hits if x.name.startswith(day)]
+    return hits
 
 
 # Display label -> resolved path. Labels stay short so the report columns line up.
 SURFACES = [spec.split("/")[-1] if "*" not in spec else "PROME memo"
             for spec in SURFACE_SPECS]
-RESOLVED = dict(zip(SURFACES, (resolve(s) for s in SURFACE_SPECS)))
+
+
+def resolve_all(day: str) -> dict[str, list[Path]]:
+    """Built per RUN, not at import: the memo set depends on the session date."""
+    return dict(zip(SURFACES, (resolve(sp, day) for sp in SURFACE_SPECS)))
 
 # name -> (value regex, REQUIRED CONTEXT within ±CTX chars, human hint)
 # ⚠️ The context requirement is not decoration. v1 matched a bare `N/50|55|60`
@@ -137,14 +164,30 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--date", default=None, metavar="YYYY-MM-DD",
+                    help="session delivery date bounding the PROME memo set "
+                         "(default: today). Pass it explicitly for a session "
+                         "that crosses midnight — this desk has run at 01:1x.")
     a = ap.parse_args(argv)
+
+    day = a.date or _dt.date.today().isoformat()
+    resolved = resolve_all(day)
 
     texts = {}
     for s in SURFACES:
-        paths = [p for p in RESOLVED.get(s, []) if p.exists()]
+        paths = [p for p in resolved.get(s, []) if p.exists()]
         if not paths:
-            print(f"  🔴 {s} IS MISSING — cannot certify cross-surface agreement.")
+            if s == "PROME memo":
+                print(f"  🔴 NO PROME MEMO DATED {day} — the PROME-facing surface "
+                      f"has not been written this session, so agreement cannot be "
+                      f"certified. Write it (write-back step 11a), or pass --date "
+                      f"if this session began on a previous day.")
+            else:
+                print(f"  🔴 {s} IS MISSING — cannot certify cross-surface agreement.")
             return 1
+        if not a.quiet and s == "PROME memo":
+            print(f"  · PROME memo set: {len(paths)} dated {day} "
+                  f"({', '.join(sorted(p.name[:10] + '…' for p in paths))})")
         # Multiple memos are read TOGETHER — see resolve(). Newest first so the
         # ±CTX windows never straddle a file boundary.
         texts[s] = "\n\n".join(
