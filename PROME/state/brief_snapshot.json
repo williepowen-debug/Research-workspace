@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-09-10": "\ud83d\udd34 THREE-EVENT COLLISION: Treasury stepped-up liquidity-support buybacks B\u2026",
   "2026-09-11": "August CPI (Fri 9/11, 08:30 ET",
   "2026-09-12": "FORUM-6 deferral R7-stage-2: per-desk read-set declarations (READS.tsv, B\u2026",
   "2026-09-13": "CRU-05 prediction grade window CLOSES (CRUISE-registered at the 9/2 sessi\u2026",
   "2026-09-14": "LADDER-INTEGRITY sitting: the ~33-row invented-gate audit + WQ-180's 6-de\u2026",
-  "2026-09-15": "GATE-FERT-G3 standing re-read"
+  "2026-09-15": "GATE-FERT-G3 standing re-read",
+  "2026-09-16": "September FOMC (decision Wed 9/16, 2:00 PM ET)"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -51,12 +51,9 @@
   "204": "Phone-signal lane, Part A \u2014 your PAT + iOS Shortcut (WALTER; Part B s\u2026",
   "210": "Will APPROVED 2026-09-10 14:14 ET (tap via Decision Deck 18:14Z) = BR\u2026",
   "213": "Will APPROVED 2026-09-10 16:42 ET (tap via Decision Deck 20:42Z) = PL\u2026",
-  "215": "CREED-T-08a basis declaration: the registered threshold < -10 does no\u2026",
   "216": "OSPREY OWED-23 \u2014 Russia counter-campaign TAXONOMY (joint with HAWK),\u2026",
   "219": "BROCK \u2014 does ASIF (Ares Strategic Income Fund, ~$23B) join BRK-30's f\u2026",
-  "220": "Quartr connector is surfaced but UNENTITLED on your account (search_c\u2026",
   "221": "Aged \"waits on others\" rule \u2014 extend WQ-206 to the deck's third group\u2026",
-  "222": "CRUISE \u2014 the retired CCL fuel ladder's own falsifier needs ONE number\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
