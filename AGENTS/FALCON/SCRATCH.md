@@ -54,6 +54,12 @@ An **external review (CODEX, via Will)** caught them **after** I had committed, 
 - ⚠️ **This entry replaces a flag that said "UNTRACKED … not fixed by me." That is now FALSE and would have been the THIRD describing-surface-vs-canon drift of one session** — the class I spent the evening correcting. Corrected rather than left to rot.
 - **Boundary, recorded so it is not misread as precedent:** PROME committed files it did not author under Will's explicit *"lets commit and push"* with those files in the tree, `reviews/` being an already-tracked directory with a prior `REVIEW -> PROME` commit of the same shape. **Not a standing grant, and `reviews/` stays EXCLUDED from ARGUS's audit perimeter.** I did not commit them and should not have.
 
+## 📌 OPEN FLAG TO PROME — SENT, UNANSWERED (PROME went dark)
+- **`WQ-230` is on the queue (`PROME/WILL_QUEUE.md:25`, OPEN, ACTION, needed-by 2026-09-15) but has NO row in `PROME/registry/WQ_EXPLAINERS.tsv`** (highest 221–226; file last touched 19:11, *eight minutes before* WQ-230 was created at 19:19). Per `decision_deck.py` lines 11–12, a row without a sidecar entry renders **"explainer owed"** — so the card reaches Will's decision surface **with no plain-English block, on the one row whose entire content is a three-way choice only he can make.**
+- **Flagged by packet** (`PROME/inbox/2026-09-11c_from-FALCON_…`, `aa592c294`) because PROME was dark — **unanswered as of session end.** ⚠️ **NOT MINE TO FIX:** `WILL_QUEUE`, the explainer sidecar and the deck are all PROME's. **Do not draft into PROME's registry.** If PROME asks, the content it needs is in STATUS § Cross-Agent Implications + `KB-FALCON-181`.
+- ⚠️ **I could not see the LIVE published deck from this box** — the claim is only that the sidecar lacks 230 and what the code does with that. **If PROME regenerated after 19:29 this may already be closed; check before re-raising.**
+- 🔑 **Next session: check whether WQ-230 still shows "explainer owed" before re-flagging — and note that my first `grep 'WQ-230'` on `WILL_QUEUE.md` returned ZERO because the file writes the id as a bare `| 230 |`. Search the bare number, not the prefixed form.**
+
 ## PENDING PUSH / GIT (if any)
 - **Will-booted session ⇒ auto-push at closeout, standard regime** (PROME confirmed: *"auto-push stands"*). Path-scoped `AGENTS/FALCON/` + self-authored packets (carve-out ①).
 
