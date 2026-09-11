@@ -39,5 +39,8 @@ None due. OSP-06 window runs to 10/15. **Pending Will:** WQ-216 (9/19) · WQ-197
 ## MAIL STATE
 **Inbox 0 top-level, 0 in `inbox/WALTER/`.** 5 consumed → `inbox/processed/`. **Sent:** 2 carve-out ① packets — `PROME/inbox/` ×2 (proposal + drain completion), `AGENTS/DAEDALUS/inbox/` ×1. No outbox signal written (nothing 🔴 acute and unreported).
 
+## LEDGER NUDGE — answered, not deferred
+`ledger_staleness.py --nudge OSPREY` at this closeout: **`VX.tsv` and `FLOW.tsv` are 6 STATUS-writes behind.** **Why not refreshed tonight, stated rather than skipped:** VX rows record a *vector state change* and FLOW rows a *transmission-pathway change* — **this was a drain-only session in which no mark, band or threshold moved and no theater sweep ran**, so neither ledger has a row to add. Writing one would manufacture a state change that did not happen. **Both stay LIVE, not frozen; re-evaluate at the next session that actually moves a mark.** `WARRISK.tsv` is event-driven-declared and its **re-pull clock stays 2026-09-08 — no re-pull was attempted tonight**, and "nobody looked" must not be restamped as "no print exists".
+
 ## PENDING PUSH / GIT
 **Committed locally, NOT pushed — by design.** PROME pushes at its closeout.
