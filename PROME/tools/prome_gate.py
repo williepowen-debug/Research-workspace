@@ -406,6 +406,47 @@ def check_will_queue():
            "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)")
 
 
+def aged_waits(rows, today, dark_days, min_days: int = 7):
+    """WQ-221 (Will 2026-09-10 23:22): a ⛔-waits queue row whose BLOCKING desk has been dark ≥7 days is a
+    PROME L0 drain-only spawn — woken through a PENDING DOCKET row naming the desk (one wake mechanism).
+    Pure function: `rows` = decision_deck.parse_open() dicts (blocked / blocker / notes / n), `dark_days(desk)`
+    = days since the desk's last self-commit (None = unknown). A wait on a DATED deliverable (a date ≥ today in
+    the notes cell) is NOT aged before that date — the ruling's own exclusion (WQ-157 class)."""
+    out = []
+    for r in rows:
+        if not r.get("blocked") or not r.get("blocker"):
+            continue
+        notes = r.get("notes", "")
+        dated = [d for d in re.findall(r"\d{4}-\d{2}-\d{2}", notes) if d >= today.isoformat()]
+        if dated:
+            continue  # a dated deliverable is not an aged wait before its date
+        days = dark_days(r["blocker"])
+        if days is None or days < min_days:
+            continue
+        out.append((r["n"], r["blocker"], days))
+    return out
+
+
+def check_aged_waits():
+    """Boot advisory (WQ-221 instrument, SCRATCH ⓜ, built 2026-09-11): lists ⛔-waits rows whose blocker is
+    dark ≥7d with no dated deliverable — each is owed a PENDING DOCKET row naming the desk, which the WQ-184
+    driver then spawns. Reads the queue through decision_deck (one parser home); liveness = its days_dark."""
+    try:
+        sys.path.insert(0, str(ROOT / "PROME/tools"))
+        import decision_deck as dd  # noqa: E402
+        rows = dd.parse_open((ROOT / "PROME/WILL_QUEUE.md").read_text(encoding="utf-8"))
+        hits = aged_waits(rows, dt.date.today(), dd.days_dark)
+    except Exception as e:  # never silent: UNKNOWN is a visible advisory
+        record(ADVISE, "aged waits (WQ-221)", False, f"UNKNOWN — {type(e).__name__}: {e}",
+               "PROME/WILL_QUEUE.md § OPEN (⛔ waits rows) — run by hand: decision_deck.parse_open + days_dark")
+        return
+    record(ADVISE, "aged waits (WQ-221): ⛔-waits rows whose blocker is dark ≥7d", not hits,
+           "; ".join(f"WQ-{n} waits on {desk} — dark {d}d" for n, desk, d in hits[:5])
+           + (f" (+{len(hits)-5} more)" if len(hits) > 5 else "")
+           or "no ⛔-waits row has a blocker dark ≥7d without a dated deliverable",
+           "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3) — never a per-item ask")
+
+
 def check_heartbeat_chain():
     """HEARTBEAT amendment-chain length vs the ~5 re-base rule (Cadence section).
     The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
@@ -685,6 +726,7 @@ def mode_boot():
                "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_will_queue()
+    check_aged_waits()  # WQ-221 instrument — boot only; closeout slates via spawn_list
     run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
                "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
                "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "

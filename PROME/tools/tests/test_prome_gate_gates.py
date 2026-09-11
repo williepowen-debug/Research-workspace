@@ -53,3 +53,30 @@ class ReviewByLeg(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AgedWaitsTests(unittest.TestCase):
+    """WQ-221 instrument — pure-function tests, no git: rows shaped like decision_deck.parse_open()."""
+    TODAY = dt.date(2026, 9, 11)
+
+    def rows(self):
+        return [
+            {"n": "219", "blocked": True, "blocker": "BROCK", "notes": "⛔ waits: BROCK owes the D2 draft — open since 8/13"},
+            {"n": "157", "blocked": True, "blocker": "BOND", "notes": "⛔ waits: BOND FR2004 join — DATED 2026-09-18 by BOND (DOCKET L271)"},
+            {"n": "210", "blocked": False, "blocker": None, "notes": "hands owed"},
+            {"n": "300", "blocked": True, "blocker": "ZHAO", "notes": "⛔ waits: ZHAO — a fresh wait"},
+        ]
+
+    def test_dark_blocker_without_a_date_is_aged(self):
+        hits = prome_gate.aged_waits(self.rows(), self.TODAY, lambda d: {"BROCK": 9, "BOND": 30, "ZHAO": 2}[d])
+        self.assertEqual(hits, [("219", "BROCK", 9)])
+
+    def test_dated_deliverable_is_not_aged_before_its_date(self):
+        hits = prome_gate.aged_waits(self.rows(), self.TODAY, lambda d: 30)
+        self.assertNotIn("157", [h[0] for h in hits])
+        hits2 = prome_gate.aged_waits(self.rows(), dt.date(2026, 9, 19), lambda d: 30)
+        self.assertIn("157", [h[0] for h in hits2])  # the date passed, the wait is aged
+
+    def test_unknown_liveness_never_flags(self):
+        self.assertEqual(prome_gate.aged_waits(self.rows(), self.TODAY, lambda d: None), [])
+

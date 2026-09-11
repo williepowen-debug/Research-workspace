@@ -308,8 +308,13 @@ def days_dark(desk: str | None) -> int | None:
         return None
     if desk not in _DARK_CACHE:
         try:
-            out = subprocess.run(["git", "log", "-1", "--format=%ct", "--extended-regexp",
-                                  f"--grep=^{desk}( |:)"], cwd=ROOT, capture_output=True, text=True, timeout=20).stdout.strip()
+            # SUBJECT only: `git --grep` matches every line of a message, so a PROME body line beginning
+            # "BROCK L260 …" read as a BROCK self-commit (0d dark for a desk dark 2d — found 2026-09-11 building
+            # the WQ-221 gate check; `finding_path_scoped_git_log_measures_inbound_traffic`: match the SUBJECT).
+            log = subprocess.run(["git", "log", "-4000", "--format=%ct\t%s"], cwd=ROOT, capture_output=True,
+                                 text=True, timeout=20).stdout
+            out = next((ln.split("\t", 1)[0] for ln in log.splitlines()
+                        if re.match(rf"{re.escape(desk)}( |:)", ln.split("\t", 1)[1] if "\t" in ln else "")), "")
             _DARK_CACHE[desk] = int((dt.datetime.now(dt.timezone.utc).timestamp() - int(out)) // 86400) if out else None
         except Exception:
             _DARK_CACHE[desk] = None
