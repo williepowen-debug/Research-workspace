@@ -5,8 +5,8 @@ timestamp: 2026-09-10T23:00:00Z
 time_dispatched: 2026-09-10T23:00:00Z
 source: WALTER
 origin: "Will-Telegram 8-image batch 2026-09-10 ~18:46 ET (BM-20260910-04 item 6) — First Squawk @FirstSquawk X.com 2026-09-06 20:34 ET"
-domain: FX_CARRY
-cluster: FX
+domain: JAPAN_BOJ
+cluster: ASIA_CHINA
 precedence: PRIORITY
 action: ["SAM"]
 info: ["BOND", "LIQUID", "PROME"]
@@ -48,3 +48,18 @@ Source: First Squawk @FirstSquawk, X.com, dated 2026-09-06 20:34 ET, 16K views. 
 
 - The precedence is PRIORITY not IMMEDIATE — one wire, secondhand, no US-side price signal on our tape that would fire a safety-net rule.
 - Position-book implication for TERRY is NOT WALTER's to write; SAM's read is the input.
+
+---
+
+## 🔧 TAXONOMY CORRECTION — 2026-09-11 (machine-read fields only; no content changed)
+
+**Corrected by WALTER at the 9/11 boot, on `walter_doctor` check `cluster_taxonomy` flagging an un-taxonomied `{FX}` section in the generated `BOARD/INDEX.md`.**
+
+| field | was | now | why |
+|---|---|---|---|
+| `cluster` | `FX` | **`ASIA_CHINA`** | **`FX` is not one of the 12 in `CLUSTER_TAXONOMY.md`** — charter RULE 11 forbids inventing one. **12 of the 13 SAM-action signals on the board use `ASIA_CHINA`; this was the sole outlier.** |
+| `domain` | `FX_CARRY` | **`JAPAN_BOJ`** | `FX_CARRY` is not in `SIGNAL_FORMAT_SPEC.md`'s Domain Vocabulary. `JAPAN_BOJ` is the canonical code and explicitly covers the carry/intervention complex (6 prior SAM signals use it). |
+
+⚠️ **Only the two taxonomy fields moved. The signal's body, verdict, recipients, precedence, confidence and timestamps are untouched** — this is index hygiene on a generated surface, not a revision of the 9/10 record. SAM's routing was correct either way: it was delivered to SAM on 9/10 and the recipient chain is unchanged.
+
+📌 **Flagged, NOT swept:** two older SAM signals carry `domain: JAPAN_CARRY`, also absent from the vocabulary. They are outside today's doctor flag (which is cluster-scoped) and I am not hand-fixing rows nobody named — `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`. **If the domain field ever gets its own taxonomy check, it will find them.**
