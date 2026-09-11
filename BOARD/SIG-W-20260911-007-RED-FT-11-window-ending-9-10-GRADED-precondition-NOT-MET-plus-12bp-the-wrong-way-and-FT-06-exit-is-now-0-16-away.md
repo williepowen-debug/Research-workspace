@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-007
 date: 2026-09-11
-timestamp: 2026-09-11T23:20:00Z
-time_dispatched: 2026-09-11T23:20:00Z
+timestamp: 2026-09-11T22:08:00Z
+time_dispatched: 2026-09-11T22:08:00Z
 source: WALTER
 origin: "WALTER boot step 6c passive threshold scan, 2026-09-11 ~18:0x ET — after the ~16:15 ET FRED post that RED's own canon row named as the grading time for this window"
 domain: FUNDING_LIQUIDITY

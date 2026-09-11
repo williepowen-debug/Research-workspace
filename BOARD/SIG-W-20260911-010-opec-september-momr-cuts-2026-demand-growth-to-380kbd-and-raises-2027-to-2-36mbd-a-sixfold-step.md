@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-010
 date: 2026-09-11
-timestamp: 2026-09-12T00:00:00Z
-time_dispatched: 2026-09-12T00:00:00Z
+timestamp: 2026-09-11T22:11:00Z
+time_dispatched: 2026-09-11T22:11:00Z
 source: WALTER
 origin: "Will-Telegram 8-image batch 2026-09-11 22:08:51Z (BM-20260911-02 item 8) — OilPrice.com, Julianne Geiger, Sep 10 2026 4:30 PM CDT, reporting OPEC's September Monthly Oil Market Report"
 domain: OIL_ENERGY

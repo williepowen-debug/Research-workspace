@@ -1119,7 +1119,7 @@ If a signal arrives whose framing depends on any of these, spawn a verify-resear
 
 ---
 
-# Rotated 2026-09-12 from `IRAN_WAR.md` — ADDENDUM #24 (2026-09-10 full sweep)
+# Rotated 2026-09-11 from `IRAN_WAR.md` — ADDENDUM #24 (2026-09-10 full sweep)
 
 > **Why it rotated:** its state is carried in the current lead (losses 3; both 9/9 non-Iranian hulls; IRGC map; POTUS 9/9; Mokha), and its item ③ obligations are DISCHARGED — FALCON ruled rung trigger (c) AMBIGUOUS/NOT FIRED on 2026-09-10, and the Riesco ledger row (`VI-2026-0028`) and casualty row (`CAS-2026-018`) were written. **Its one LIVE guard (the UKMTO-vs-wire geography fix) was lifted to `IRAN_WAR_GUARDS.md` ADD#24 BEFORE this move**, because a date rotation buries a standing guard. Verbatim below; nothing summarised.
 

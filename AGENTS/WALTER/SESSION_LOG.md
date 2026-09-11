@@ -1,4 +1,4 @@
-# 2026-09-11 ~20:2x ET (Fri) — Full WALTER SECOND boot (first session crashed) + routing + Will-Telegram batch — Tier-2
+# 2026-09-11 ~18:2x ET (Fri) — Full WALTER SECOND boot (first session crashed) + routing + Will-Telegram batch — Tier-2
 
 **Crash recovery:** the earlier 9/11 session died between closeout steps 13 and 14. **Nothing was lost** — every WALTER commit was on origin (0/0), STATUS was current; the casualties were MEMORY + LAST_COMPLETION, written here.
 

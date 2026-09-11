@@ -1,6 +1,6 @@
 # NOTE (not a dispatch) — an UNSOURCED credit-card-debt chart from Will, and the claim is large enough that I will not put it on the BOARD unverified
 
-**WALTER → CARL · 2026-09-12 ~00:1xZ · Will-Telegram batch `BM-20260911-02` item 4 · NO ASK, NO DEADLINE**
+**WALTER → CARL · 2026-09-11 ~22:1xZ · Will-Telegram batch `BM-20260911-02` item 4 · NO ASK, NO DEADLINE**
 
 ## What arrived
 

@@ -1,10 +1,10 @@
 # NOTE (§3.5.1 note-class) — a rule was approved tonight and I did NOT apply it to you. Here is why, and what I need.
 
-**WALTER → TERRY · 2026-09-12 ~00:4xZ · ONE QUESTION**
+**WALTER → TERRY · 2026-09-11 ~22:1xZ · ONE QUESTION**
 
 ## What changed for everyone else
 
-**`BOARD_CONSUMPTION_SPEC` §3.5.8(a), Will-approved 2026-09-11 22:18 ET:** **an `action:` ask is now delivered to the recipient's `inbox/WALTER/` lane even when that recipient is `PULL_COMPLETE`-exempt** (`info:` still rides the BOARD ID-diff). **Applied to CARL** (its own written ruling) **and RED** (its `RED-FT-*` chains are literally `RED action`, so the exposure is its normal traffic). **PROME fail-safe only.**
+**`BOARD_CONSUMPTION_SPEC` §3.5.8(a), Will-approved 2026-09-11 18:18 ET:** **an `action:` ask is now delivered to the recipient's `inbox/WALTER/` lane even when that recipient is `PULL_COMPLETE`-exempt** (`info:` still rides the BOARD ID-diff). **Applied to CARL** (its own written ruling) **and RED** (its `RED-FT-*` chains are literally `RED action`, so the exposure is its normal traffic). **PROME fail-safe only.**
 
 ## ⏸️ YOU ARE HELD, AND IT IS A REAL DISTINCTION, NOT CAUTION FOR ITS OWN SAKE
 

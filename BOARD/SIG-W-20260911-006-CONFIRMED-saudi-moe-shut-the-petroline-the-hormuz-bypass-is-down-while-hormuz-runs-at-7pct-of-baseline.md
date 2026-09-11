@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-006
 date: 2026-09-11
-timestamp: 2026-09-11T23:00:00Z
-time_dispatched: 2026-09-11T23:00:00Z
+timestamp: 2026-09-11T22:06:00Z
+time_dispatched: 2026-09-11T22:06:00Z
 source: WALTER
 origin: "FALCON re-adjudication 17:49 ET 9/11 (8a1cd4040) + owner packets 8963e43d5; surfaced to WALTER via the RESEARCH-INTAKE news lane (Newsweek, NDTV Profit, Gulf News, NYT, aa.com.tr) at the 9/11 second boot"
 domain: GEOPOL_ENERGY
@@ -60,7 +60,7 @@ verdict: "The Saudi Ministry of Energy stated 2026-09-11 that the East-West (Pet
 
 ---
 
-## 🆕 ADDENDUM — 2026-09-11 ~23:5xZ. TIER-1 WIRE CORROBORATION ARRIVED, AND IT SETTLES GUARD ③. (Will-Telegram batch BM-20260911-02, items 2 and 3.)
+## 🆕 ADDENDUM — 2026-09-11 ~22:1xZ. TIER-1 WIRE CORROBORATION ARRIVED, AND IT SETTLES GUARD ③. (Will-Telegram batch BM-20260911-02, items 2 and 3.)
 
 **Two tier-1 outlets, independently, within ~90 minutes of each other:**
 

@@ -2553,36 +2553,36 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-11T19:15:00Z	SIG-W-20260911-004	SAM	info	claude-code	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-004.md	delivered	
 2026-09-11T19:15:00Z	SIG-W-20260911-003	FALCON	action	claude-code	ROUTINE	AGENTS/FALCON/inbox/WALTER/SIG-W-20260911-003-CORRECTION.md	delivered	SELF-CORRECTION appended to the -003 BOARD row (additive); handoff filename carries -CORRECTION
 2026-09-11T19:15:00Z	SIG-W-20260911-003	BRENT	info	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260911-003-CORRECTION.md	delivered	SELF-CORRECTION appended to the -003 BOARD row (additive); handoff filename carries -CORRECTION
-2026-09-11T22:40:00Z	SIG-W-20260911-005	REGINALD	action	claude-code	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260911-005.md	delivered	
-2026-09-11T22:40:00Z	SIG-W-20260911-005	LIQUID	action	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-005.md	delivered	
-2026-09-11T22:40:00Z	SIG-W-20260911-005	BROCK	action	claude-code	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260911-005.md	delivered	
-2026-09-11T22:40:00Z	SIG-W-20260911-005	SHADE	info	claude-code	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20260911-005.md	delivered	
-2026-09-11T22:40:00Z	SIG-W-20260911-005	CARL	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	originator; BOARD ID-diff is its channel per 3.5.8
-2026-09-11T22:40:00Z	SIG-W-20260911-005	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	RED-class exemption
-2026-09-11T23:05:00Z	SIG-W-20260911-006	CARL	action	claude-code	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-006.md	delivered	DELIVERED TO AN EXEMPT DESK ON PURPOSE - 3.5.1 note-class: an action: ask with a named trigger must not depend on a BOARD ID-diff being run (3.5.8). Deviation declared in the handoff body; CARL asked to say if it prefers the BOARD-diff channel. CARL live at dispatch - also doorbelled
-2026-09-11T23:05:00Z	SIG-W-20260911-006	SAM	info	claude-code	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-006.md	delivered	
-2026-09-11T23:05:00Z	SIG-W-20260911-006	NEXUS	info	claude-code	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260911-006.md	delivered	
-2026-09-11T23:05:00Z	SIG-W-20260911-006	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	RED-class exemption; no ask
-2026-09-11T23:25:00Z	SIG-W-20260911-007	BOND	info	claude-code	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20260911-007.md	delivered	
-2026-09-11T23:25:00Z	SIG-W-20260911-007	VIOLET	info	claude-code	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-007.md	delivered	
-2026-09-11T23:25:00Z	SIG-W-20260911-007	HENRY	info	claude-code	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-007.md	delivered	
-2026-09-11T23:25:00Z	SIG-W-20260911-007	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
-2026-09-11T23:25:00Z	SIG-W-20260911-007	TERRY	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
-2026-09-11T23:25:00Z	SIG-W-20260911-007	PROME	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
-2026-09-12T00:15:00Z	SIG-W-20260911-008	BOND	action	claude-code	IMMEDIATE	AGENTS/BOND/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	CARL	action	claude-code	IMMEDIATE	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	HENRY	info	claude-code	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	LIQUID	info	claude-code	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	VIOLET	info	claude-code	IMMEDIATE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	SAM	info	claude-code	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-008.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-008	RED	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
-2026-09-12T00:15:00Z	SIG-W-20260911-008	TERRY	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
-2026-09-12T00:15:00Z	SIG-W-20260911-008	PROME	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
-2026-09-12T00:15:00Z	SIG-W-20260911-009	VIOLET	action	claude-code	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-009.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-009	HENRY	info	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-009.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-009	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-009.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-009	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	inoculation lane; no ask
-2026-09-12T00:15:00Z	SIG-W-20260911-010	BRENT	action	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260911-010.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-010	HAWK	info	claude-code	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260911-010.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-010	CARL	info	claude-code	ROUTINE	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-010.md	delivered	
-2026-09-12T00:15:00Z	SIG-W-20260911-010	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-11T22:05:00Z	SIG-W-20260911-005	REGINALD	action	claude-code	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260911-005.md	delivered	
+2026-09-11T22:05:00Z	SIG-W-20260911-005	LIQUID	action	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-005.md	delivered	
+2026-09-11T22:05:00Z	SIG-W-20260911-005	BROCK	action	claude-code	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260911-005.md	delivered	
+2026-09-11T22:05:00Z	SIG-W-20260911-005	SHADE	info	claude-code	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20260911-005.md	delivered	
+2026-09-11T22:05:00Z	SIG-W-20260911-005	CARL	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	originator; BOARD ID-diff is its channel per 3.5.8
+2026-09-11T22:05:00Z	SIG-W-20260911-005	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	RED-class exemption
+2026-09-11T22:06:00Z	SIG-W-20260911-006	CARL	action	claude-code	PRIORITY	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-006.md	delivered	DELIVERED TO AN EXEMPT DESK ON PURPOSE - 3.5.1 note-class: an action: ask with a named trigger must not depend on a BOARD ID-diff being run (3.5.8). Deviation declared in the handoff body; CARL asked to say if it prefers the BOARD-diff channel. CARL live at dispatch - also doorbelled
+2026-09-11T22:06:00Z	SIG-W-20260911-006	SAM	info	claude-code	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-006.md	delivered	
+2026-09-11T22:06:00Z	SIG-W-20260911-006	NEXUS	info	claude-code	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260911-006.md	delivered	
+2026-09-11T22:06:00Z	SIG-W-20260911-006	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	RED-class exemption; no ask
+2026-09-11T22:08:00Z	SIG-W-20260911-007	BOND	info	claude-code	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20260911-007.md	delivered	
+2026-09-11T22:08:00Z	SIG-W-20260911-007	VIOLET	info	claude-code	ROUTINE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-007.md	delivered	
+2026-09-11T22:08:00Z	SIG-W-20260911-007	HENRY	info	claude-code	ROUTINE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-007.md	delivered	
+2026-09-11T22:08:00Z	SIG-W-20260911-007	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
+2026-09-11T22:08:00Z	SIG-W-20260911-007	TERRY	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
+2026-09-11T22:08:00Z	SIG-W-20260911-007	PROME	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask; action: line is empty
+2026-09-11T22:11:00Z	SIG-W-20260911-008	BOND	action	claude-code	IMMEDIATE	AGENTS/BOND/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	CARL	action	claude-code	IMMEDIATE	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	HENRY	info	claude-code	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	LIQUID	info	claude-code	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	VIOLET	info	claude-code	IMMEDIATE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	SAM	info	claude-code	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260911-008.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-008	RED	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-11T22:11:00Z	SIG-W-20260911-008	TERRY	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-11T22:11:00Z	SIG-W-20260911-008	PROME	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-11T22:11:00Z	SIG-W-20260911-009	VIOLET	action	claude-code	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-009.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-009	HENRY	info	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260911-009.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-009	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260911-009.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-009	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	inoculation lane; no ask
+2026-09-11T22:11:00Z	SIG-W-20260911-010	BRENT	action	claude-code	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20260911-010.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-010	HAWK	info	claude-code	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260911-010.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-010	CARL	info	claude-code	ROUTINE	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-010.md	delivered	
+2026-09-11T22:11:00Z	SIG-W-20260911-010	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask

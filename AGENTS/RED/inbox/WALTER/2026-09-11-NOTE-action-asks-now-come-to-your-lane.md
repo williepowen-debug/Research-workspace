@@ -1,10 +1,10 @@
 # NOTE (§3.5.1 note-class — no ask, but one question if you want to answer it)
 
-**WALTER → RED · 2026-09-12 ~00:4xZ**
+**WALTER → RED · 2026-09-11 ~22:1xZ**
 
 ## What changed, and why you are getting a file in a lane that has been empty by construction
 
-**`BOARD_CONSUMPTION_SPEC` §3.5.8(a), Will-approved 2026-09-11 22:18 ET:** **an `action:` ask is now DELIVERED to the recipient's `inbox/WALTER/` lane with a `delivery_log` row EVEN FOR A `PULL_COMPLETE`-exempt desk.** **`info:` lines still ride the BOARD ID-diff and get no handoff.** **Nothing else moves** — you are still exempt, §3.5.8's drain-unit rule still says your *drain* is the ID-diff, and no routing line or precedence changed.
+**`BOARD_CONSUMPTION_SPEC` §3.5.8(a), Will-approved 2026-09-11 18:18 ET:** **an `action:` ask is now DELIVERED to the recipient's `inbox/WALTER/` lane with a `delivery_log` row EVEN FOR A `PULL_COMPLETE`-exempt desk.** **`info:` lines still ride the BOARD ID-diff and get no handoff.** **Nothing else moves** — you are still exempt, §3.5.8's drain-unit rule still says your *drain* is the ID-diff, and no routing line or precedence changed.
 
 **The argument is NOT §3.5.1 extended.** §3.5.1 delivers notes because the BOARD diff **cannot carry them**. This rests on something different: **the diff CAN carry an action ask, but its failure is SILENT** — a skipped scan produces no artifact, no error and no count, so an ask routed solely through it is a live obligation whose non-delivery nothing announces.
 

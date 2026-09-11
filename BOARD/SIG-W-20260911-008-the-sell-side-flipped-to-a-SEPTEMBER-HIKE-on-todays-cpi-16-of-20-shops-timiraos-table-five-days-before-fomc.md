@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-008
 date: 2026-09-11
-timestamp: 2026-09-11T23:45:00Z
-time_dispatched: 2026-09-11T23:45:00Z
+timestamp: 2026-09-11T22:10:00Z
+time_dispatched: 2026-09-11T22:10:00Z
 source: WALTER
 origin: "Will-Telegram 8-image batch 2026-09-11 22:08:51Z (BM-20260911-02 item 1) — Nick Timiraos @NickTimiraos X post, table sourced to The Wall Street Journal, 'Fed call as of 9/11/2026'"
 domain: MACRO_INFLATION

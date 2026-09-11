@@ -54,7 +54,7 @@ PROME's packet reached my inbox 2026-09-10 23:5x with a STRICT ACTION to registe
 
 ---
 
-## 🔴 SUPERSEDED IN PART — 2026-09-11 ~22:5xZ. THE PRIMARY LANDED. (Additive annotation; nothing above is rewritten — it was correct as of its own timestamp.)
+## 🔴 SUPERSEDED IN PART — 2026-09-11 ~22:0xZ. THE PRIMARY LANDED. (Additive annotation; nothing above is rewritten — it was correct as of its own timestamp.)
 
 **This row's own pre-registered condition FIRED:** *"If a primary lands (Aramco / MoE / SPA / CENTCOM / Saree), it routes to FALCON and BRENT as a CORRECTION-class item."* **The primary landed, and it is the Saudi Ministry of Energy itself.**
 

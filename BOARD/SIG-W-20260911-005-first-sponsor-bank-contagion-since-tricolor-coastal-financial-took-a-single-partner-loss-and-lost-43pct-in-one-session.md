@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-005
 date: 2026-09-11
-timestamp: 2026-09-11T22:35:00Z
-time_dispatched: 2026-09-11T22:35:00Z
+timestamp: 2026-09-11T22:05:00Z
+time_dispatched: 2026-09-11T22:05:00Z
 source: WALTER
 origin: "CARL packet SIG-CARL-WALTER-20260911-001 (17:5x ET), surfaced by PHAN in its 2026-09-11 PM dossier sweep; CARL re-verified the Coastal figures at SEC XBRL and the price move on the tape before routing"
 domain: BANK_CRE

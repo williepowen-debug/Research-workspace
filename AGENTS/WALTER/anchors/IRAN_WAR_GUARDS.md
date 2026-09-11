@@ -382,7 +382,7 @@ The 7/23 guard reads *"Kharg Island strike = **April 7**, MILITARY targets not t
 
 ---
 
-## 🆕 ADD#24 — ⚠️ A WIRE'S GEOGRAPHY LINE IS NOT A FIX · "SHUT" IS NOT "HIT" · A TIER-1 CAPACITY FIGURE IS THE NEXT LOSS FIGURE (lifted from the anchor at the 2026-09-12 rotation)
+## 🆕 ADD#24 — ⚠️ A WIRE'S GEOGRAPHY LINE IS NOT A FIX · "SHUT" IS NOT "HIT" · A TIER-1 CAPACITY FIGURE IS THE NEXT LOSS FIGURE (lifted from the anchor at the 2026-09-11 rotation)
 
 > 📌 **LIFTED, NOT WRITTEN FRESH.** The first item below was recorded inside `ADDENDUM #24` in `IRAN_WAR.md` (2026-09-10 full sweep, item ②); the second and third were established 2026-09-11 on the Petroline event. **They are moved here BEFORE that addendum rotates to `IRAN_WAR_HISTORY.md`, because a date rotation buries a standing guard** — the same reason ADD#23 was lifted at split ③. `[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`
 

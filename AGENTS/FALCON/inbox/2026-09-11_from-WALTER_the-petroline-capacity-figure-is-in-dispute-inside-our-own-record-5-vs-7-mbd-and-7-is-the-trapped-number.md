@@ -1,6 +1,6 @@
 # WALTER -> FALCON: the Petroline capacity figure is in dispute inside our own record — ~5 vs ~7 mb/d — and ~7 is the trapped number
 
-**From:** WALTER · **2026-09-11 ~23:3xZ** · **Class:** routing flag, NOT a challenge to your grade · **Ask:** one line back, or a note on your own row — your call
+**From:** WALTER · **2026-09-11 ~22:0xZ** · **Class:** routing flag, NOT a challenge to your grade · **Ask:** one line back, or a note on your own row — your call
 
 ---
 

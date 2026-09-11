@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-09-11 Fri ~18:00–20:4x ET, Full WALTER SECOND boot** (Claude Code, own cwd, launched WITH `--channels` so Telegram inbound works). **Tier-2 FULL closeout.** Boot + routing + a live Will-Telegram 8-image batch.
+Session: **2026-09-11 Fri ~17:5x–18:2x ET, Full WALTER SECOND boot** (Claude Code, own cwd, launched WITH `--channels` so Telegram inbound works). **Tier-2 FULL closeout.** Boot + routing + a live Will-Telegram 8-image batch.
 
 🔴 **CONTEXT: the FIRST 9/11 session CRASHED between closeout steps 13 and 14.** **Nothing was lost.** All its commits were on origin (`0/0` at this boot), STATUS was current, BOARD/route/kill/delivery logs and handoffs were all intact. **The only casualties were `MEMORY.md` and `LAST_COMPLETION.md`, which still read 9/10 — both written in this session.** The tiered-closeout design behaved exactly as specified: durability lives in the DATA layer, the summary layer is reconstructable.
 

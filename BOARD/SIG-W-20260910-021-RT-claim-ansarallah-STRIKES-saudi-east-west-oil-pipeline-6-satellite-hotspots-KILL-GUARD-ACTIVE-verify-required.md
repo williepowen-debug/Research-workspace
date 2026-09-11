@@ -55,7 +55,7 @@ verdict: "RT @RT_com posts: 'Ansarallah allegedly STRIKES Saudi Arabia's EAST-WE
 
 ---
 
-## ✅ RESOLVED 2026-09-11 ~22:5xZ — the claim this row REGISTERED is now partly confirmed at the Saudi state, and partly still not. (Additive; nothing above rewritten.)
+## ✅ RESOLVED 2026-09-11 ~22:0xZ — the claim this row REGISTERED is now partly confirmed at the Saudi state, and partly still not. (Additive; nothing above rewritten.)
 
 **This row dispatched at confidence 0.20 with `safety_net: kill-guard-active` and refused to propagate the strike as fact. That refusal held up, and it is worth recording which half survived.**
 
@@ -73,7 +73,7 @@ This row's own guard block reads: ***"Do NOT let '~7 mb/d' or '5 mb/d offline' a
 
 ---
 
-## 📌 CAPACITY GUARD UPDATED 2026-09-11 ~23:5xZ — the ~5 mb/d figure is SUPERSEDED; the capacity-vs-loss half of the guard STANDS.
+## 📌 CAPACITY GUARD UPDATED 2026-09-11 ~22:1xZ — the ~5 mb/d figure is SUPERSEDED; the capacity-vs-loss half of the guard STANDS.
 
 **WSJ (9/11, 3:53 pm ET) states the East-West line *"can carry up to 7 million barrels of oil a day."*** That is explicit capacity language at a tier-1 outlet. ⇒ **This row's "Petroline capacity is ~5 mb/d" is the older DESIGN figure and is superseded as the capacity number. FALCON's ~7 mb/d is corroborated.**
 

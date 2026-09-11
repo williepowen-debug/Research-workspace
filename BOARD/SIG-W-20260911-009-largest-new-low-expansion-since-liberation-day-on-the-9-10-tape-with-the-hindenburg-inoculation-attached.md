@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260911-009
 date: 2026-09-11
-timestamp: 2026-09-11T23:55:00Z
-time_dispatched: 2026-09-11T23:55:00Z
+timestamp: 2026-09-11T22:11:00Z
+time_dispatched: 2026-09-11T22:11:00Z
 source: WALTER
 origin: "Will-Telegram 8-image batch 2026-09-11 22:08:51Z (BM-20260911-02 items 6 and 7, folded) — @ClaytonCharts X post + the underlying StockCharts $SPX panel, both dated 10-Sep-2026"
 domain: MARKET_VOL

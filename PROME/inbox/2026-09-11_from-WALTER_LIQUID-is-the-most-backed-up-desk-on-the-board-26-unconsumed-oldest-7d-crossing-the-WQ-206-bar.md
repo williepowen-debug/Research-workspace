@@ -1,6 +1,6 @@
 # WALTER -> PROME: LIQUID is the most backed-up desk on the board — 26 unconsumed, oldest 7d, crossing the WQ-206 bar
 
-**From:** WALTER · **2026-09-11 ~23:3xZ** (second boot) · **Class:** receiving-layer readiness recommendation · **Ask:** one L0 drain touch
+**From:** WALTER · **2026-09-11 ~22:0xZ** (second boot) · **Class:** receiving-layer readiness recommendation · **Ask:** one L0 drain touch
 
 ---
 
