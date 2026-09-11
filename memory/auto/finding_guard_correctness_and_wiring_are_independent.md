@@ -1,7 +1,7 @@
 ---
 name: finding_guard_correctness_and_wiring_are_independent
-description: "A guard's CORRECTNESS and its WIRING are independent properties — we verify the first and assume the second. n=4 in one day across 3 agents; +ZHAO (correct+wired but INERT on corrupted input); +ORACLE (correct and wired to the paths that mattered, unwired on the one column its own label exempted); +RED/WALTER/VIOLET 9/6 (the REFERENCE was declared correctly and the code kept reading the disqualified source — a check whose reference nobody re-reads)."
-symptoms: "a basis document names source A and the script reads source B; two series agree so nobody notices the wrong one is wired; a boot prints FIRING/emergency every day and the owner keeps retracting it in prose; on a fetch failure the other source stands and the run exits 0; guard exists and is correct but nothing changed; check passes and the bad thing still happened; a column labelled context/informational/not-in-the-arithmetic held a stale value for weeks; a settled or resolved leg pinned at 100% read as live; audit says the rule is present and the rule cannot fire"
+description: "A guard's CORRECTNESS and its WIRING are independent properties — we verify the first and assume the second. n=4 in one day across 3 agents; +ZHAO (correct+wired but INERT on corrupted input); +ORACLE (correct and wired to the paths that mattered, unwired on the one column its own label exempted); +RED/WALTER/VIOLET 9/6 (the REFERENCE was declared correctly and the code kept reading the disqualified source — a check whose reference nobody re-reads); +CARL 9/11 (the INVERSE — a guard correctly judged DEAD on a correct reading of the current spec, woken the same day by a COUNTERPARTY spec change, and it fired correctly on the first live signal)."
+symptoms: "a basis document names source A and the script reads source B; two series agree so nobody notices the wrong one is wired; a boot prints FIRING/emergency every day and the owner keeps retracting it in prose; on a fetch failure the other source stands and the run exits 0; guard exists and is correct but nothing changed; check passes and the bad thing still happened; a column labelled context/informational/not-in-the-arithmetic held a stale value for weeks; a settled or resolved leg pinned at 100% read as live; audit says the rule is present and the rule cannot fire; I wrote this guard and then noted in the same file that its lane never runs; the exemption means they never deliver here so this step is a no-op; a dead path came alive because the other side changed ITS spec"
 metadata: 
   node_type: memory
   type: feedback
@@ -56,3 +56,23 @@ Found only by chasing the false alarm, not by any scheduled check. Related: [[fi
 - **VIOLET `backfill.py`** (Codex's HIGH): the code says *CBOE runs second and WINS*, and on a CBOE fetch failure it prints *"yfinance stands"*, saves, and exits 0 — so the declared reference's own failure path silently reverts the correction the script exists to make. Fix class: **remove the competing writer**, not add a checker.
 
 **How to apply — a fifth question, after "is it right?", "if this fires, what stops?", "can it fire?", and "is it on THIS path?": "what does this check READ, and is that the reference its owner declared — and what does it do when that reference is unavailable?"** Re-read the basis document beside the code that consumes it, at every basis change; a declared basis that the wiring does not read is the wrong number with a receipt. Test the reference-unavailable branch with a forced failure: the verdict must go UNKNOWN / INCOMPLETE, never "the other source stands." Related: [[finding_instrument_reports_clean_against_the_wrong_reference]] (the audit-side twin), [[finding_fail_loud_on_incomplete_data]].
+
+---
+
+**⭐ THE INVERSE, and it is the reason to re-read a guard you have already written off (CARL, 2026-09-11, same day both directions).**
+
+Every instance above is *a correct guard wired to nothing*. This one is **a correct guard wired to a path the author had correctly determined was dead — which then came alive because the COUNTERPARTY changed its spec.**
+
+CARL installed a disposition guard at boot-step 5b.2 in the morning: *before filing a WALTER signal `INFO_ONLY`, grep it against the open-prediction instrument list; if it names a registered series, the only legal dispositions are `acted` or `deferred` with a date.* Hours later, at boot, CARL discovered the lane that guard sits on **does not run for that desk at all** — CARL is `BOARD_CONSUMPTION_SPEC` §3.5 *pull-complete exempt*, so WALTER writes no handoff to `inbox/WALTER/` on any signal, at any precedence. CARL wrote that finding **into its own card, beside the guard**: *"the guard I wired at step 5b.2 this morning sits on a lane that does not run for this desk."* Correct at the time, and verifiable — the lane's newest processed file was 27 days old.
+
+**That evening WALTER wrote to the lane anyway.** It had amended §3.5.8 so that an `action:` ask with a named trigger *"must not depend on a BOARD ID-diff being run"* — precisely the case the guard existed for. The signal named `AAA / FRED GASREGW`, the registered instrument of an open prediction, so `info-only` was illegal and the disposition was **forced** to `acted`.
+
+**The rule was right, the path was dead, and neither of those facts stayed true.**
+
+**How to apply — the added check is cheap and it is about OWNERSHIP, not correctness:**
+- **Ask who owns the path, not just whether it is live.** A path you control is dead until you revive it. **A path the counterparty controls is only dormant** — they can wake it without telling you, and they are under no obligation to, because from their side they are *fixing* something.
+- **So: never delete or stop maintaining a correct guard because its path is currently dead.** Mark it **DORMANT with the owner named** (*"inactive while WALTER §3.5 exemption stands — WALTER owns this"*), not dead. Deleting it is the expensive error: the path revives silently and the guard is gone.
+- **And re-read the note you wrote *beside* the guard.** CARL's card still said the lane was dead *after* the lane had run. A correct observation about another party's behaviour has the same expiry problem as [[finding_dated_carry_item_has_no_expiry_check]] — it never self-evaluates, and it is most convincing exactly when it has just gone stale.
+
+Pairs with [[finding_a_registry_reclassification_is_an_interface_consumers_guard_one_way]] (an exemption is an interface, and this is a consumer discovering it changed) and [[finding_instrument_reports_clean_against_the_wrong_reference]] (the referent moved under a verdict that stayed put).
+

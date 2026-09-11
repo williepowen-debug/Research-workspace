@@ -1,118 +1,95 @@
 # CARL SCRATCH
-**Last session:** **2026-09-11 (Fri) ~10:30 → ~14:0x ET** — Will-directed boot + full catch-up.
-**Type:** August CPI graded against a pre-committed frame · UMich Sept prelim · CRL-10 re-priced · dashboard staleness audit + 4 refreshes at primary · rotation #11a/#11c · two infra fixes, one of which was a wrong diagnosis of mine.
+**Last session:** **2026-09-11 (Fri) ~17:45 → ~19:0x ET** — Will-directed boot after a mid-task machine crash, then two commissioned pieces of work.
+**Type:** Boot + crash assessment · both PHAN packets disposed at the primaries · Brent/CRL-08 refresh + re-price · a BaaS coverage-gap finding routed · a WALTER action ask dispositioned.
 
-**PRIORITY-1:** **TWO PHAN PACKETS ARE UNPROCESSED AND ONE IS 🔴 — `inbox/2026-09-11_from-PHAN_sec2-rebuild-400B-retired-and-a-routing-defect.md` retires the domain's headline number ($400B+) AND names a routing defect on CARL's side; `..._pm-sweep-abs-leg2-mixed-plus-two-cockroaches.md` carries two items that cut AGAINST the thesis.** Both need grading **at the primaries** (PHAN proposes, CARL disposes), and neither should be half-read at the end of a session.
+**PRIORITY-1:** **SIX ITEMS ARE WAITING ON WILL AND NONE OF THEM IS MINE TO TAKE.** They are listed in one block below — every one is a **spec or charter change**, which is exactly the class CARL must not self-authorize (2026-08-03 precedent). Do not re-derive them; ask.
 
 ---
 
 ## ⏭️ NEXT SESSION, FIRST THREE THINGS
-1. **Drain the two PHAN packets above.** The §2 rebuild touches **KB-CARL-367** and the phantom-debt magnitude that CARL's own CLAUDE.md K-SHAPE section quotes (~$176-216B / credit-only ~$30-60B). **If that number moves, the card moves** — do not integrate it anywhere until it is graded at DEWEY's C4 source, which PHAN says it read directly rather than through the KB summary.
-2. **9/14 DAEDALUS LADDER SITTING IS MONDAY — inputs are sent** (`AGENTS/DAEDALUS/inbox/2026-09-11_from-CARL_ladder-inputs...`). ⛔ **The headline input is that CRL-10's cut is worth +0.3780 Brier on one row, larger than the entire +0.3808 four-row as-made correction the sitting exists to handle, and it is a LATE re-price.** If the sitting scores 8% at the 9/11 mark it banks a gain that was available on 8/15.
-3. **~9/15-16 is a THREE-PRINT cluster:** SDART/BLAST August 10-D (V2 broad tier) · **Census advance retail sales = the V8 Tier-1 BEHAVIOURAL half** (today only supplied the deflator) · **FOMC 9/15-16, meeting 1 of 2** for any V12 un-fire.
+1. **ASK WILL THE SIX (block below).** Two are dated: **WQ-228 needed-by 9/14**, and **CRL-08's re-arm goes unreachable after ~9/12-13** — that one expires before a Monday session.
+2. **~9/15-16 THREE-PRINT CLUSTER:** SDART/BLAST August 10-D (V2 broad tier) · **Census advance retail sales = the V8 Tier-1 BEHAVIOURAL half** · **FOMC 9/15-16, meeting 1 of 2** for any V12 un-fire. ⛔ For retail sales: **DEFLATE EVERYTHING**; Tier 1 is disconfirmation-only.
+3. **9/14 DAEDALUS LADDER SITTING IS MONDAY — inputs already sent.** The headline input stands: CRL-10's cut is worth +0.3780 Brier on one row, larger than the entire +0.3808 four-row correction the sitting exists to handle, and it is a LATE re-price.
+
+---
+
+## ⛔ WAITING ON WILL — six, all spec/charter class
+| # | Item | Why it is his |
+|---|---|---|
+| 1 | **CRL-08: which bar governs — touch or sustained-2wk?** | The row carries BOTH and they diverged for the first time today (**touch ≈25-30%, sustained ≈7%**). Picking one is a spec change. ⏰ **Also the only one with a hard clock: after ~9/12-13 the sustained bar is unreachable at ANY crude.** |
+| 2 | **Re-point the registered 17-18d crude→pump lag?** | Measured **~2-6 days** this episode. Re-specifying a registered parameter is a spec change; and a clean measurement needs the quiet-background precondition this episode lacks. |
+| 3 | **FLOW-PHAN-06 leg 2 — re-point or declare unresolvable** | Instrument is frozen at BOTH ends and has **no publisher** (Affirm ABS: 10-D = 0, ABS-EE = 0). |
+| 4 | **PHAN §6 — domain scope vs instruments** | Medical is ~85% of the phantom stock; every PHAN instrument is BNPL+EWA. |
+| 5 | **WQ-228 — who owns the BaaS/sponsor-bank perimeter** | ⏰ **needed-by 9/14.** PROME recommends REGINALD + mandatory CARL/PHAN + LIQUID feeds; recorded **UNOWNED** until Will rules, because a new perimeter is a charter change. |
+| 6 | **THREE card edits at step 5b/5b.2 — edit ONCE, together** | ① the dead-lane sentence is now FALSE ② WALTER's suggested emptiness-is-not-evidence clause ③ the WQ-227 closeout assertion line, still held for Will's own word. ⚠️ That step already carries a known two-live-instructions defect; adding a third instruction piecemeal IS the defect. |
 
 ---
 
 ## WHAT HAPPENED
 
-### ⛔ The CPI frame worked, which means it stopped me taking the friendly number
-Gasoline printed **+3.90% SA / +2.53% NSA**. The frame's *">+2.5% = pass-through ahead of the pump input"* bar **never named a basis**, and the two answer opposite ways: the bar was built from **unadjusted pump dollars**, so the like-for-like figure is **NSA — 0.67pp BEHIND the +3.20% input.** **Leg scored NOT-DISCRIMINATING.** ✅ The frame *did* call the **sign flip** (July SA −2.86% → Aug +3.90%). Three defects in my own frame recorded, not edited: no basis named · bar set **below** its own stated expectation · **named HEN-41, which resolved ~8/12** (live letter is **HEN-44**; PROME flagged it, I verified at HENRY's files rather than relaying).
-✅ **HENRY's frozen HEN-44 carries pump $3.932 → $4.058 (+3.20%); I computed +3.198% off `GASREGW` before opening it.** Two desks, one primary, no fitted parameter.
+### ✅ The crash cost nothing committed — but it ate a closeout
+HEAD was already **== origin/master**; CARL's tree held only two append-only pulse caches. **What the crash actually took was the write-back tail for the last ~1.5h of the morning session:** SCRATCH was written 15:00 and two commits landed after it (`1c4fd0461` board_gap hardening, `74bc1cbfe` WQ-227 tooling) and appeared nowhere in it. Nothing lost, but the handoff understated the session. ⇒ **A clean `git status` is not evidence the closeout ran.**
+⛔ **Pull was BLOCKED and correctly so** — FALCON and VIOLET hold uncommitted work (root protocol: STOP). Moot anyway, origin was 0 ahead.
 
-### 🔑 The squeeze narrowed to ENERGY ONLY — adverse to my own thesis wording
-YoY NSA: energy **+16.28%** ⬆ · gasoline **+27.40%** ⬆ · **core 2.48 → 2.45%** ⬇ · **food 2.98 → 2.67%** ⬇. Headline−core wedge **0.88 → 0.95pp**. v2.6.6 asserts a **multi-vector** squeeze; in August one vector carried it. Written onto the row as a **narrowing**, not corroboration.
+### 🔴 PHAN packets — two of four recommendations did not survive the primaries
+- **ABS WA FICO: REJECTED as a comparison; leg 2 is UNTESTED, not PHAN's "weakly met."** Affirm's SEC-filed deal universe (own 10-K, CIK 0001820953) is letter/Z/X-series with **no plain-numbered series**, so PHAN's *AFRMT 2025-1* names nothing Affirm discloses. ⭐ **But the deal ID is not the defect — the ASYMMETRY is:** PHAN excluded 2026-X1 (FICO **681**, *contrary*) as "the amortizing shelf" while keeping 672, which is **2025-X1, the same X-series**. Same shelf, opposite treatment, and the excluded one cut against the pathway.
+- **⭐ The finding that outranks it:** the instrument is **frozen at both ends and has no publisher** — CARL's VX.tsv FROZEN 6/26 and referenced by no live doc; PHAN's PROVIDER.tsv frozen; EDGAR **10-D = 0, ABS-EE = 0** vs control Exeter **1,966**. 5th instance of the unpublished-instrument class.
+- **Coastal Financial: CONFIRMED at SEC XBRL + tape**, with PHAN's comparator label corrected (it called Q1-2026 the "prior year"). ⭐ **And a fact PHAN didn't carry that cuts PHAN's way: CCB recovered to $47.46, +18.9% off the 7/30 close** — repricing, not unfolding failure.
+- **§2 rebuild: ACCEPTED-AS-ALREADY-HELD, nothing to integrate** — every headline number has been on CARL's card since 7/31. **A packet can read as a major delivery to its author and a no-op to its recipient, and only the recipient can tell which.**
 
-### 🔻 CRL-10 62% → 8%, and the damning part is the date
-Needs **+0.471%/mo ×3** (Nov) or **+0.505%/mo ×4** (Dec) vs a trailing **+0.132%/mo** — ~3.6× current pace. Base-rated BEFORE re-pricing: **38/376 windows since 1995 = 10.1% unconditional**; seasonality against (Nov −0.057%). Mechanism NOT killed.
-⛔ **Oct-2026 YoY is NOT COMPUTABLE — October 2025 CPI was never published.** Q4 resolves on **Nov + Dec only**. Recorded as resolvability, deliberately **not** folded into confidence — and qualified honestly: interpolated, October needed **+0.756%/mo** and was the *hardest* month, not a lost shot.
-⛔ **WALTER `SIG-W-20260812-006` gave me this argument on 8/12. My own 8/15 note says the slope is "FLATTENING" — then "CRL-10 UNCHANGED at 62%." 27 days.** Filed `INFO_ONLY`, which means recorded-and-not-acted-on by definition. **Guard now wired into CLAUDE.md 5b.2.** KB-CARL-450.
+### 🔻 CRL-08 45% → 7% — and the 20.5¢ gap was never the reason
+One labelled series throughout (**BZ=F**; AAA national regular) because **the two Brents disagree by ~$5** and FRED lags two sessions. Crude **$87.84** (8/26) → **$107.63** (9/10) → **$104.42** (9/11, first down day). Pump **+20.0¢ = 50.7% pass-through**.
+⛔ **$4.50 needs +40.5¢ = 102.6% pass-through of the move crude actually made — more than full — so it is unreachable at today's crude at ANY rate.** Timing fails independently: cross by **9/16** ⇒ 4.10¢/day vs **2.62¢/day measured** = 1.56×, marginal input now negative.
+⭐ **Mechanism is firing FASTER than registered, not failing: measured lag ~2-6 days vs 17-18d.** Recorded as an **observation with the distillate confound named**, NOT a re-spec.
 
-### Dashboard audited BY AGE, then 3 label defects + 4 stale rows fixed at primary
-- **Labels that lied** (row current, As-Of older): Student 90+ · FHA/VA · Retail Sales. They read as 57-167d stale while the data was fine.
-- **Student Loan 30+ DQ — the "16.3% WORST EVER" figure sat 195 days and had MORE THAN HALVED** (flow 16.35 → 11.03 → **7.83%**). ⛔ **Not relief: the 90+ STOCK went the other way to a series high 10.60%.** Inflow collapsing while the stock records = a cohort passing through.
-- **Total HH debt $18.7705T Q2** (flat). ⭐ **The composition is the read:** 90d **0.314 → 0.240**, 120+ **1.298 → 1.086**, **SevDerog 1.544 → 1.754 → 1.987**. Upstream buckets draining into the terminal one. Honest limit recorded: part of that is the charge-off *retention* effect that killed CRL-05.
-- **CCC refreshed after 73 days under the row's own stale warning:** broad HY **tightened** 275 → 270 while **CCC blew out 970 → 1,070bps.** CCC/HY 3.53× → **3.96×**.
-- **NFIB August:** 98.7 (−1.1) still above average, but **actual sales −9% net, worst since Nov 2025** — first split of that row's level vs rate-of-change legs.
-- **MBA NDS deliberately NOT refreshed** — a Q2 exists but the overall figure isn't in hand and `mba.org` 403s. Labelled a resolvability gap rather than inventing a number.
+### ⛔ Petroline: `acted`, NO re-price — the row's own history decided it
+Saudi MoE shut the Hormuz bypass (9/11); WALTER routed it on CARL's Iran-cluster override. **Re-arming the same day on a kinetic whose PRICE went the other way (−3.21) would repeat what this row records THREE times — Jun 11, Jun 14, Jun 25-28, each a real escalation crude fell through.** *"kinetic-real ≠ price-up."* Converted the ask into a **dated re-arm trigger** instead of answering no. All three WALTER guards honoured (no volume — ~7 mb/d is Abqaiq nameplate; no diesel double-count; FALCON's grade carried not re-derived).
 
-### ⛔ I told Will boot.py was hung. It wasn't.
-**25.0s, exit 0, 7/7 scripts OK.** The zero bytes were `| tail -120` — tail cannot emit until stdin closes, so a slow run looks dead. The 12-min run was real and consistent with FRED latency near the 90s per-script timeouts, **but the orchestrator has timeouts and cannot hang.** Guard wired into the card. **A wrong infra diagnosis reached the operator as a "pattern" and would have justified rewriting a working orchestrator.**
+### ⭐ A guard I wrote off as dead this morning fired tonight
+At boot I recorded in my own card that 5b.2 *"sits on a lane that does not run for this desk"* — correct on §3.5 exemption, **and the sentence is still there.** WALTER amended §3.5.8 and the lane ran; the signal named CRL-08's registered instrument, so `info-only` was illegal and the disposition was **forced** to `acted`. ⇒ **A guard judged dead on a correct reading of the CURRENT spec is DORMANT, not dead — the counterparty can wake it without telling you.** Auto-memory extended (n=8), hook trimmed to canon.
 
-### ✅ abs_monitor.py FIXED — 4 sessions owed
-Split into **"Exeter — V2 REGISTERED PANEL"** (EART 2022-2/2022-3/2023-1/2024-1, CIKs verified at `data.sec.gov`) and a separate new-issue pipeline. **Tested, not assumed:** post-fix run returns 80 10-Ds, filenames `eart2022-2_10d.htm`… confirming deal identity, latest 2026-08-31.
-⚠️ **NEXT SESSION: the first run flagged all 80 as NEW (empty seen-state). That is a backfill artifact — do NOT read 80 new filings as an event.**
-
-### 🔴 FLOW-PHAN-06 RESTORED to ACTIVE — my 9/10 grade was wrong
-PHAN self-reported a **period-basis error**: a *quarterly* trigger tested against a *fiscal-year* aggregate. **I verified at the primary rather than accepting** (SEC XBRL, CIK 0001820953): FQ1 **+1.8%**, FQ2 **+40.0%**, FQ3 **+33.5%**, matching to one decimal. ⚠️ **FQ4 +42.5% is PHAN-derived by differencing and I did NOT reproduce it.** ⛔ **3-leg breakpoint still NOT met** — ABS WA FICO ⛔ **SUPERSEDED SAME EVENING — DO NOT CARRY "untested since 672" AS CURRENT.** PHAN's PM packet (unread) holds a fresher read AND reports a **provenance defect in CARL's own figure: "672, Apr-2026" traces to a Feb-2025 publication — the Apr-2026 stamp was PHAN's RECORD date, not the DATA date**, so it rode ~14 months stale. **Same shape as CARL's 8/27 ABS error (KB-CARL-396): a record date standing in for a data date.** ⚠️ Unresolved: CARL's `VX.tsv:106` sources 672 to `AFRMT 2025-X1`, PHAN's table to `AFRMT 2025-1`, and PHAN warns the **X-series is the AMORTIZING shelf** — outside the revolving perimeter the comparison is scoped to. **Two different deals may be involved.** ⛔ **Nothing adopted from the packet — grade at the primaries.** PHAN's own grade: leg 2 **WEAKLY MET AT BEST** (2 FICO pts / ~19 months; Grade-A share ROSE; required CE FELL at every class, which is the OPPOSITE of the pathway's prediction). **Breakpoint NOT met either way.** ⭐ PHAN's stronger finding is outside the trigger: **NCOs accelerate +12.6 → +16.5 → +22.2 → +36.9% while headline DQ ex-Peloton FELL.**
+### 🟠 BaaS perimeter — I under-sold it and PROME caught that
+PROME's steer was right, but its verification and mine were **the same two company names** — one source, not two. Re-tested as a **perimeter**: 19 patterns, set stated. `Lead Bank` ×8 = **syndication sense**; OTTO's `sponsor bank` = **ILC charter** work; the rest archived, incl. one that **inverts the framing** (BaaS as a *bull* narrative). ⭐ **Decisive: REGINALD/STATUS = 0, LIQUID/STATUS = 0 on all 19.** **COVERAGE gap, not capture gap.** → WQ-228.
 
 ---
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **CRL-10** | 🔻 **62% → 8%**, reachability. Oct-2026 resolvability gap recorded |
-| CPI row | "Food CPI Headline" (June) → **CPI COMPOSITION (August)**, energy-only finding |
-| Student Loan 30+ | 16.3% (Q4-25) → **7.83% flow**, with the 10.60% stock divergence |
-| Total HH Debt | $18.8T Q1 → **$18.7705T Q2** + the SevDerog composition read |
-| HY OAS / CCC | CCC **970 → 1,070bps**; ratio 3.53× → **3.96×** |
-| UMich | Aug final → **Sept prelim**: 47.8 · 1Y **4.0 → 4.6%** (🟠→🔴) · 5-10Y 3.3 → 3.4 |
-| Gas / diesel | **$4.295** (CRL-08 gap **20.5¢**) · **$6.056, $6 handle broke** |
-| NFIB | July → **August 98.7**, actual sales −9% |
-| FLOW-PHAN-06 | **PARTIAL → ACTIVE** (9/10 call reversed) |
-| Cycle counter | **RETIRED** — had drifted to 3 values on 3 surfaces |
-| KB | 442 → **458** |
-| STATUS.md | 49,204 → **51,057 B** after rotating **14,548 B** out |
+| **CRL-08** | 🔻 **45% → 7%**, reachability. Two-bar spec defect surfaced |
+| Brent row | $96.02 (9/1) → **$104.42 BZ=F**, both series labelled, 17-18d lag claim superseded |
+| Gas Pump row | Re-based on the pass-through arithmetic; **$4.295**, gap 20.5¢ |
+| FLOW-PHAN-06 leg 2 | PHAN's "weakly met" → **UNTESTED** (ungradeable) |
+| KB | 460 → **468** (461-468) |
+| Auto-memory | `finding_guard_correctness_and_wiring_are_independent` extended n=7 → **n=8** (the INVERSE form) |
+| STATUS.md | 52,319 → **53,385 B** (98% of cap, zero headroom) |
 
 ---
 
 ## NEXT SESSION SHOULD
-
 ### IMMEDIATE
-1. **Two PHAN packets** (PRIORITY-1).
-2. **Mon 9/14 DAEDALUS sitting** — inputs sent; be available for the CRL-10 as-made question.
-3. **~9/15-16 three-print cluster** (above). ⛔ For retail sales: **DEFLATE EVERYTHING**; Tier 1 is disconfirmation-only.
+1. **The six Will items.** Two dated (9/14 WQ-228; CRL-08 re-arm dead after ~9/12-13).
+2. **~9/15-16 cluster** (above).
+3. **Check the CRL-08 re-arm date and CLOSE the row** rather than letting it sit OPEN looking alive — that is the CRL-21 shape and this row is now in it.
 
 ### THIS WEEK
-4. **9/25 UMich FINAL** — does the 1Y reversal hold, or was 4.6% survey noise? **First chance to verify the expectations figures at a data file.**
-5. **~9/18 FSA re-poll** (HEAD only, lowercase `b`).
-6. **CRL-08 at 20.5¢, window closes ~9/30** — pull gas daily; a touch of $4.50 is not the test, **sustained 2wk** is.
-7. **9/30 EART August 10-D = V2's tier verdict** — now visible to `abs_monitor` for the first time.
+4. **9/25 UMich FINAL** — does the 1Y reversal (4.0 → 4.6%) hold?
+5. **~9/18 FSA re-poll** (HEAD only, lowercase `b`) · **~9/18 CARL-DR-1 FHA re-commission decision**.
+6. **9/30 EART August 10-D = V2's tier verdict.**
+7. **CARL-DR-5 at DEWEY is 13d past due** — chased 9/11, still owed.
 
 ### CARRIED
-8. **⛔ BOARD v0.1 — MY 9/11 READING WAS WRONG AND PROME CORRECTED IT; 181 IDS STILL OWED.** I reported "nothing unconsumed, the v0.2 lane is at zero." **The lane is at zero BY CONSTRUCTION: CARL is on `BOARD_CONSUMPTION_SPEC` §3.5 pull-complete EXEMPTION, so WALTER does not feed `inbox/WALTER/` at all** — every processed lane file is dated **≤8/15**. **⇒ the whole-INDEX scan is CARL's SOLE WALTER CHANNEL and the gap is REAL.** §3.5.6 says this verbatim (*"reading zero … is not evidence of consumption; it is a definitional consequence of the exemption"*) and **RED made the identical error on 8/12, written up in that same sub-section.** **Two action:[CARL] signals were dispositioned 9/11** (`SIG-W-20260910-005` IMMEDIATE, `SIG-W-20260901-015` PRIORITY). ⛔ **DO NOT freeze the v0.1 ledger — it is the exemption's warrant. DO NOT decide the exemption yourself — PROME routed that to WALTER. RUN THE WHOLE-INDEX SCAN EVERY BOOT; skipping it is silent by construction.**
-9. **CARL-DR-5 at DEWEY, +13d** — chased today; it can score a strike against my own evidence.
-10. **RED holds the CRL-10 self-report.** Ask whether its 7/24 rationalization test is touched (it named V2-on-HHDC, since corrected as unfireable).
-11. **MEMORY.md 99/100 lines — flagged to PROME, do NOT compact.**
-12. **Rotation #11 (b) read-mode change still owed** — (c) ran today and was not enough.
-13b. **⚠️ ALL SEVEN SUB-AGENTS SHARE A CLOSEOUT SKELETON WITH NO GIT STEP AND A DEAD `../SHARED/` ROUTE** (PHAN packet 9/11). PHAN fixed its own; **the other six are CARL's tree** (STUE/DOC/GIG/POLLY/POP/META). A closeout template with no git step means a sub-agent can do the work and never commit it — the same *record-vs-action* class as `[[finding_record_of_an_action_is_not_the_action]]`. Lower priority than the two 🔴 packets, but it is a defect in six cards at once.
-13. **Consider re-instrumenting FLOW-PHAN-06 onto NCO growth** at the ~11/12 gate. CARL's call.
+8. **⛔ RUN THE WHOLE-INDEX BOARD SCAN EVERY BOOT.** It is CARL's SOLE WALTER channel for INFO and its skip is silent by construction. Tonight's `board_gap`: **185 unrecorded, NONE `action:[CARL]`** — backlog, not an owed action. ℹ️ **ACTION asks now also arrive in `inbox/WALTER/` under WALTER's amended §3.5.8** — CARL said yes to that.
+9. **⚠️ Rotation #11(b), the READ-MODE change, is still owed and is now the only remedy left.** STATUS closed at **98% of cap with zero headroom**, and the PM additions were *values and load-bearing basis* — remedy (c) cannot reach them. Three sessions running the surface grows on honest work alone.
+10. **6 sub-agent closeout templates still have no git step** (STUE/DOC/GIG/POLLY/POP/META). PHAN fixed its own. Third PHAN packet still OPEN in inbox.
+11. **MEMORY.md (CARL-local) at 99/100 lines — flagged to PROME, do NOT compact.**
+12. **RED holds the CRL-10 self-report**; ask whether its 7/24 rationalization test is touched.
 
 ---
 
 ## URGENT / DISCIPLINE
-- ⛔ **TWO CARRY-ITEMS WERE ALREADY DONE AND I RE-COPIED THEM ANYWAY.** `housing_pulse.py:226` was fixed **2026-09-01** — both halves, with the rationale sitting in the file the item names. `boot.py` was never broken. **The re-copying is the mechanism: it feels like diligence and is the exact act that lets a string survive without being evaluated.** New rule, not yet wired: any carried item naming a **file/line/script** gets that artifact grepped before it is re-carried; an item that cannot name a checkable artifact is prose, not an obligation.
-- ⛔ **ROTATION CANNOT WIN AND TODAY PROVED IT.** 14,548 B rotated out; STATUS still **+1,853 B** for the day. The honest handling of each new finding costs more than the spent narrative it displaces. **Remedy is (b), the read-mode change — not more rotation, and never a byte-trim.**
-- ⚠️ **I cut a row by 54 points on a day when the cut was worth +0.3780 Brier.** The arithmetic is sound and the timing is not something I can certify about myself. **Handed to RED with three specific attacks pre-written, rather than waiting to be asked.**
-- ✅ **Every load-bearing figure today was re-derived from index levels or XBRL, not read off a summary** — and the one WebFetch read (CPI) was cross-checked against six independent FRED series before use.
-
----
-
-## OUTBOX / PACKETS SENT (5)
-- **PROME ×2** — the CPI adjacency memo + HEN-44 rounding flag (doorbelled, `60a503e70`); MEMORY-cap flag + the BOARD-ledger ruling request.
-- **RED ×1** — the CRL-10 self-report with the Brier arithmetic and three attacks.
-- **DAEDALUS ×1** — 9/14 ladder inputs incl. the late-re-price flag.
-- **DEWEY ×1** — CARL-DR-5 chase.
-
-## INBOX — **4 arrived mid-session (3 PHAN + 1 PROME), 1 consumed, 3 OPEN**
-`find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"` → **3**. ⛔ Never count with `ls inbox/*.md`. ⛔ **AND NEVER READ A ZERO ON `inbox/WALTER/` AS "NOTHING PENDING" — CARL is §3.5-EXEMPT, so WALTER never delivers there and that lane is empty by construction.** The BOARD whole-INDEX scan is the real channel.
-
-## WORKBOOK HEALTH
-| File | Size / rows | Note |
-|---|---|---|
-| **STATUS.md** | **51,057 B** | 🟠 **94% of cap, 1.57× budget.** Rotation #11a+#11c ran (14,548 B). **(b) read-mode still owed** |
-| **MEMORY.md** | 48,558 B / **99 lines** | 🔴 **1 line from cap. Flagged to PROME — do NOT compact** |
-| ROADMAP.md | 32,378 B | ✅ index GENERATED, `--check` byte-for-byte, 31 threads |
-| KB.tsv | **454 rows** | +16 (KB-CARL-443…458). 15-field verified, no dup IDs |
-| PREDICTIONS.tsv | 33 rows (**15 OPEN**) | ⚠️ **CRLF — line-surgical edits ONLY.** CRL-10 re-priced. `consistency_check` **0 hard** |
-| CATALYSTS.tsv | **25 rows** | 3 pruned (integrated), 2 added (9/25 UMich final, 11/30 Q3 HHDC). CALENDAR twin synced |
-| NEXUS_BRIEF.md | 114 lines | 🟠 over the provisional 100-line cap. ⛔ Do NOT trim the CALIBRATION bullet |
+- ⭐ **TWICE TODAY THE ARITHMETIC, NOT THE NARRATIVE, DECIDED A ROW** — CRL-10 this morning, CRL-08 tonight. Both were *reachability* re-prices where the driver's direction was never the question. **Neither is a mechanism failure and both were recorded as re-prices, not misses.**
+- ⛔ **I REFUSED THE FRIENDLIER BAR TWICE IN ONE DAY** — SA vs NSA on the CPI frame this morning, touch vs sustained on CRL-08 tonight. The second only got caught because the first was still fresh. **Basis-shopping is the failure mode this desk is most exposed to and it presents as reasonableness both times.**
+- ⚠️ **I over-stated a finding in my own first draft and caught it before commit** — wrote that VX-CARL-BNPL-05's `<675` RED trigger was "live at 672, three points from RED." It is in a **FROZEN** ledger referenced by no live doc; it fires nothing. **A frozen container wins over the row's own status, in both directions.**
+- ⚠️ **`consumer_check` returned 696 "stale references" on `45%` and the correct action was to send NOTHING** — a bare 2-sig-fig needle, which root canon and the tool itself both say certifies nothing. The meaningful check (who cites *CRL-08*) returned only DAEDALUS audit rows and WALTER routing triggers. **A big number from a checker is not a finding.**
+- 📌 **Documentation debt CLOSED:** commit `36bae3350` carried a 106-char subject (cap 100). Not amended (root 4b); noted in the next commit, which is the prescribed remedy.
