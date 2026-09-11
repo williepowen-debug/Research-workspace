@@ -37,6 +37,7 @@
 - 🟠 **OWED-31 SIREN** cargo state + attribution — next checks named (Eurotankers/IMS statement, Greek ministry advisory log, Lloyd's List casualty desk). **Never closed by silence.**
 - 🟠 **OWED-36** the band question above.
 - 🟠 **AWRP gap now 21 days** (last print 8/21). The source set is a **starting** set, never the scope (LESSONS 7). TD6 is the tripwire for when to look.
+- 🟠 **LEDGER NUDGE FIRED 9/11, NOT DISCHARGED — say it rather than let it rot:** `ledger_staleness.py --nudge` reports **`workbook/VX.tsv` and `workbook/FLOW.tsv` 7 STATUS-writes behind** (VX also +42d behind STATUS on the age check). **Why not freeze-or-refreshed this session:** a vector/pathway refresh is domain re-derivation, which a drain-only scope forbids — and nothing this session changed a vector state or a transmission pathway (the Ryazan row is a capacity fact, not a channel-state move). **Next full session owes each of them the explicit freeze-or-refresh decision**, not another carry. `workbook/WARRISK.tsv`: the re-pull clock did **NOT** move — no canvass was run; the 8/21 data clock and a 21-day gap stand, and "nobody looked" is being recorded as distinct from "no print exists".
 - 🟡 OWED-13 Transneft cadence · OWED-17 decree unverified at `pravo.gov.ru` · OWED-18 Druzhba thin · OWED-24 joint auto-memory · OWED-33 Urals (BRENT owes) · OWED-35 WQ-196–199 await Will.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
