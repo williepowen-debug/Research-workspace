@@ -44,6 +44,19 @@ BOOT_SEQUENCE = [
     # as a script FAILURE — "drift found" != "script crashed". Closeout still
     # runs it without --warn-only, where exit 1 is the gate before commit.
     ("Consistency Check (A/B/D/E/F/G)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
+    # BOARD gap (2026-09-11): CARL is BOARD_CONSUMPTION_SPEC §3.5 pull-complete
+    # EXEMPT, so WALTER never delivers to inbox/WALTER/ — that lane is empty BY
+    # CONSTRUCTION and the whole-INDEX diff is CARL's SOLE WALTER CHANNEL.
+    # ⛔ Runs UNCONDITIONALLY and exits NONZERO on any unrecorded action:[CARL]
+    # id — deliberately NOT --warn-only, unlike consistency_check: an owed signal
+    # someone else is waiting on is a FAILURE, not a finding.
+    # It replaces the card's step-5 mtime gate. That gate was a forbidden class
+    # under root Data Hygiene, but it was NOT the silencer: git restamps mtime to
+    # NOW, so it always read "newer" and always said RUN — it failed OPEN. The scan
+    # lapsed because nothing MECHANICAL ran it and nothing failed when it did not.
+    # Two action:[CARL] signals were missed that way (9/01, 9/10), found only when
+    # PROME read CARL's ledgers from outside. [[finding_mechanize_the_cap_not_the_ritual]]
+    ("BOARD Gap (sole WALTER channel)", "board_gap.py", [], "BOARD GAP", False),
 ]
 
 # Key markers to show in collapsed mode.
