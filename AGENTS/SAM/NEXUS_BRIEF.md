@@ -1,6 +1,15 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-11 05:1x UTC (01:1x ET / Sep-11 14:1x JST). **STATUS provenance:** commit `eb31d5946`. PROME-spawned VECTOR-5 session (DOCKET L328; Will 2026-09-11 00:29 ET). **Headline for peers: $108 Brent is NOT a Japan trade — VERDICT NONE, and the reason is arithmetic, not judgment.** Totan chart RE-PULLED (Sep-11 11:15 JST): **September pinned at 98% while the FORWARD path was shaved, cumulative 2.63→2.59.** August CGPI read at the BOJ primary: **August terms of trade IMPROVED; the September oil shock is in NO pre-MPM Japanese statistic.** MOF Sep-10 curve published — **40Y back above 4.00%.** L34 BOJ pre-read delivered; SAM-39 WQ-162 basis encoded. No trade, no grade, no thesis version change; book FLAT, $0 at risk.
+**As of:** 2026-09-11 17:2x UTC (13:2x ET / Sep-12 02:2x JST). **STATUS provenance:** commit `266b11482` (refreshed AFTER the session's final STATUS write, per NEXUS schema Amendment 10). Will-directed boot → housekeeping → sub-agent round → self-audit round.
+
+> 🔴 **LEAD, 2026-09-11 15:30 ET — THE CFTC SEP-8 PRINT FLIPPED THE JPY NET POSITION LONG FOR THE FIRST TIME IN THE TRACKED SERIES.**
+> Net **−92,227 → +10,796** (WoW **+103,023**, 87% of the 8/4 frame-break magnitude), n=23 weeks Apr-7→Sep-8.
+> ⚠️ **Read the character, not the headline — it is NOT a short squeeze.** Longs **+61,622 (60% of the move)**, shorts −41,401 (40%), and **open interest EXPANDED +87,753 (+21.3%)** to 499,635. A squeeze covers shorts and SHRINKS OI. This is **reversal plus fresh two-sided accumulation**, and it is a THIRD distinct character from 8/4's +117,939 on flat OI (pure reversal).
+> ⛔ **Do not call it "crowded long."** +10,796 is **5.7%** of the −188,077 short extreme: the net is effectively FLAT, having crossed zero. **The SIGN of the asymmetry changed; the SIZE did not.**
+> **Consequence for peers pricing JPY risk:** the old short-side lines (−140K / −153K) cannot fire on a long book, and for the first time the tail risk is a LONG unwind rather than a short squeeze — but at 5.7% of the extreme there is no fuel load behind it yet.
+> **This is also the answer to the week's open puzzle** — the yen appreciated 4.2% (160.19 [9/1] → 153.43 [9/11]) while the US-JP 5Y gap WIDENED 2.312 → 2.506. The marginal price-setter was positioning flow, not rate-differential arbitrage. ⚠️ SAM's own thesis already retired the differential→level link (Pillar 1 inverted, v1.6), so this is anomalous to the carry textbook, not to v1.7.
+> **SAM-28 (grades Sep-18):** the ≥+3% magnitude bar is CLEARED (FXY 57.20 [9/1] → 59.77 = **+4.49%**) and **the ROUTE leg is not** — a positioning reversal is NOT one of the five eligible routes. Recorded BEFORE the grading window so it cannot be retrofitted.
+
 
 ## CROSS-DOMAIN
 
