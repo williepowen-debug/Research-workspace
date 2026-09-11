@@ -3,22 +3,22 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Broker actions first:** the generated action list separates approval, order and fill evidence. After the 9/10 rulings: the XLE 65C ×1 survivor SELLS at the bid at the 9/11 open (WQ-210, your hand; fill → FORGE D-49); the VLO ×3 refiner leg is PLACED at a fresh mark once TERRY re-arms the card (WQ-213); the USO Sep-11 153C/159C entries and the KRE 25P 2027 entry stay UNKNOWN by your word (D-53/D-54).
+- **Broker actions first:** the generated action list separates approval, order and fill evidence. After the 9/10 rulings: the XLE 65C ×1 survivor SELLS at the bid at the 9/11 open (WQ-210, your hand; fill → FORGE D-49); the VLO ×3 refiner leg is PLACED at a fresh mark once TERRY re-arms the card (WQ-213); the USO Sep-11 153C/159C entries and the KRE 25P 2027 entry stay UNKNOWN by your word (D-53/D-54). **9/11 adds:** VLO ×3 (WQ-213) — the 9/10 tape met TERRY's "refiners red against oil" gate (VLO −0.91% vs USO +5.61%); TERRY re-arms at a fresh mark, your hand if it reads red at the open. The RH USO $159C expires today. WQ-223: a free NASA FIRMS key (three minutes, both machines) — FALCON could not place a single reported pipeline hotspot without it.
 - **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The USO 37 shares carry NO rule by your 9/10 word (WQ-200 declined) — you manage them by hand at live prices; TLT 77P ×20 HOLD to expiry (WQ-217).
 - **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
 - **Decisions:** current approvals come from WILL_QUEUE. Previously ruled items are not fresh requests; permanent unknowns are not repeated asks.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **BRENT** · September 10, after the noon WPSR · Brent >$100 on the second sinking is not in its STATUS; FALCON's Riesco laden-state packet + WALTER -001/-004 in its inbox (L305)
-- **RED** · September 10, AFTER ~2:15 PM ET only · the first long-end buyback op prints 1:40–2:00 PM; RED corrects its FT-11 "live from 9/9" precondition before any 9/10 close is graded (L315)
-- **HANS** · September 10 · ECB decision 13:45 CET → HNS-05 grade (L279); PROME pre-fetches the decision read-only if HANS is dark
-- **LABOR** · next boot · claims 08:30 + the past-due 9/8 tariff summons (BD-02)
-- **BRENT** · September 10 noon ET · first WPSR for the week ending 9/4 (L305); no duplicate BRENT
-- **OTTO** · September 11 · CRMT's EXTENDED waiver date — RP-OTT-5.1 Letters 1+2 at the close (L311); BROCK staged the grade
-- **DAEDALUS** · September 12 sitting · L247 spec adversarial review (L313) beside L208/L209/L258/L294
-- **REGINALD** · next owner pickup · WAL close grades owed on the ROLL70-EXIT guard (0-of-3)
-- **FERT · TERRY** · September 16 · G5 weekly (L310) · 007 weekly review; the 9/9 officials are PROME's consumer read 9/10
+- **TERRY** · Fri 9/11 morning, first on the slate · XLE 65C ×1 at the open (WQ-210), VLO ×3 re-arm (gate met on the 9/10 tape, WQ-213), the TLT 77P delta MIDAS needs; BRENT's staged USO spread and HENRY's AAL/LUV read wait in its inbox for a gate day
+- **NEXUS** · Fri 9/11 boot · C#2 grades on the pinned 8/28→9/10 HY cells (C locks); weighs tonight's new evidence types count-once — the Petroline candidate, Panama, Russia, the five reads
+- **WATT** · Fri 9/11 boot · P1 5→3 executes on its own de-escalation letter (PJM order lapsed quiet 9/8)
+- **VULCAN** · Fri 9/11 boot (your 9/10 19:25 word) · integrates DEWEY's REQ-002 — the $36B customer-directed perimeter, the commitment-level instrument letter
+- **BRENT** · Fri 9/11 after ~15:30 ET · GATE-BRENT-COT-35B vintage #5 (as-of 9/8 posts then); fifth registered row of the day — a word from the slate
+- **BOND** · Fri 9/11 after 16:15 ET · the 9/10 DFII10 official vs the 2.50 TLT-put add-gate (MIDAS nowcast ~2.53, inferred) — NO-ADD stands until the print
+- **RED** · Fri 9/11 after 16:15 ET · FT-11 v1.1 first DGS30 cell (L320); the L247 F1 re-attack; HAWK's finding that its 9/30 freight backstop keys on a benchmark now in litigation
+- **OTTO · BROCK** · Fri 9/11 evening · CRMT Letters 1+2 at the close (L311); the Q2 10-Q liquidity grade (L260) and the ASIF draft you are waiting on (WQ-219)
+- **AEOLUS · REGINALD · ZHAO · HOMER** · the batch after, on your word · the WQ-206 backlog wave; AEOLUS gets the live Gatún level (84.09 ft, 9/9) and the 9/4 draft postponement it has not read
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
