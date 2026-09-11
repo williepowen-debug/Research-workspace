@@ -37,6 +37,19 @@ STATES = {"OPEN", "ANSWERED-OWED", "BLOCKED", "ANSWERED-BLOCKED", "RULED", "DECL
 # verdict = the lead token the fleet wrote, kept as written; status_after is the 6-way state it maps to
 VERDICTS = {"APPROVE", "RULED", "DECLINE", "CLOSED-BY-PROME", "OVERTAKEN", "RESOLVED", "EXECUTED", "SUPERSEDED", "WITHDRAWN", "TERMINAL", "DONE", "—"}
 TERMINAL = {"RULED", "DECLINED", "CLOSED"}
+# L336 B1 (external audit F2): diff_state compared status plus THREE hand-picked fields, so a correction to
+# `record`, `title`, `rec`, `type`, `since` or `source` produced NO event — and because the Deck prefers a
+# terminal ledger row over the live queue, the OBSOLETE record kept rendering while `check` passed.
+# The payload is now defined by SUBTRACTION: everything in SCHEMA that is not generated write metadata.
+# A field added to SCHEMA is therefore compared by default; forgetting to list it can no longer hide a change.
+GENERATED = ("event", "at", "written_at")           # written by the tool, never by the queue
+SEMANTIC = tuple(c for c in SCHEMA if c not in GENERATED)
+COMPARED = tuple(c for c in SEMANTIC if c not in ("wq",))   # wq is the identity, not a field that changes
+
+
+def payload(r: dict) -> tuple:
+    """The semantic content of an event — what the queue said, with tool-generated metadata removed."""
+    return tuple((r.get(c) or "") for c in SEMANTIC)
 
 
 def now_stamp() -> str:
@@ -227,7 +240,7 @@ def diff_state(prev: dict | None, cur: dict) -> str | None:
         if cur["status_after"] in TERMINAL:
             return {"RULED": "RULED", "DECLINED": "DECLINED", "CLOSED": "CLOSED"}[cur["status_after"]]
         return "UPDATED"
-    for k in ("needed_by", "verdict", "will_verbatim"):
+    for k in COMPARED:
         if (prev.get(k) or "") != (cur.get(k) or ""):
             return "UPDATED"
     return None
@@ -276,8 +289,15 @@ def cmd_check(ledger: Path) -> int:
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}", r["written_at"]): probs.append(f"L{i}: written_at '{r['written_at']}' does not parse")
         elif r["written_at"] < last_written: probs.append(f"L{i}: written_at goes backwards ({r['written_at']} < {last_written})")
         else: last_written = r["written_at"]
-        key = (r["wq"], r["event"], r["at"], r["status_after"])
-        if key in seen: probs.append(f"L{i}: duplicate event {key}")
+        # L336 B2 (external audit F3): the key was (wq, event, at, status_after) with `at` at DAY precision,
+        # so two LEGITIMATE deadline changes on one day read as a duplicate and BLOCKED the required closeout
+        # check on valid tool-generated history. Identity now includes the semantic PAYLOAD: two rows that
+        # differ in what they say are DISTINCT CHANGES; only a byte-identical payload on the same date is a
+        # real duplicate. Semantic idempotence is unchanged — sync still appends nothing when nothing moved.
+        key = (r["wq"], r["event"], r["at"], r["status_after"], payload(r))
+        if key in seen:
+            probs.append(f"L{i}: duplicate event — identical payload already recorded for "
+                         f"WQ-{r['wq']} {r['event']} on {r['at']}")
         seen.add(key)
     for l_i, l in enumerate(lines[1:], start=2):
         if l:

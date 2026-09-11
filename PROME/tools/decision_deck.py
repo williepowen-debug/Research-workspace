@@ -12,7 +12,10 @@ Plain-English blocks come ONLY from PROME/registry/WQ_EXPLAINERS.tsv (sidecar ke
 row number); a row without one renders "explainer owed" — the page never invents.
 
 Never a second truth: regenerate from the source files (every PROME closeout) and
-republish. Tap-to-rule writes to the artifact's `db` store (collection `rulings`);
+republish. Tap-to-rule writes to the artifact's `db` store (collection `rulings`), ONE DOCUMENT PER TAP
+(L336 B3): the id carries the full millisecond timestamp plus a random suffix, so a change of mind is a
+SECOND document, never an overwrite. At pickup the LATEST `ts` for a WQ is the ruling and earlier taps are
+history — PROME states which document it consumed;
 PROME reads it at boot (Artifact tool read_db) and writes the ruling into the queue.
 
 Usage:  python3 PROME/tools/decision_deck.py [-o PROME/artifacts/decision_deck.html]
@@ -619,11 +622,20 @@ JS = r"""
         var wrap = b.closest('.tap'); var wq = wrap.dataset.wq; var verdict = b.dataset.v;
         var note = (document.getElementById('note-'+wq) || {}).value || '';
         var ts = new Date().toISOString();
-        var id = wq + '-' + ts.replace(/[^0-9]/g,'').slice(0,14);
-        b.disabled = true;
+        // L336 B3 (external audit F4): the id truncated the timestamp to SECONDS and the write is doc().set(),
+        // so two taps on one WQ inside one second targeted the SAME document and the second overwrote the
+        // first. Only the clicked button was disabled, leaving the opposite verdict live — so APPROVE then
+        // DECLINE 0.8 s apart left one document reading DECLINE, with no trace that APPROVE had happened.
+        // Every tap now gets its own document: full millisecond timestamp plus a random suffix. Disabling a
+        // control is a UX courtesy and is NEVER the uniqueness guarantee.
+        var rand = Math.random().toString(36).slice(2, 8);
+        var id = wq + '-' + ts.replace(/[^0-9]/g,'') + '-' + rand;
+        // disable BOTH verdicts on this card while a write is in flight — courtesy, not correctness
+        var sibs = wrap.querySelectorAll('button[data-v]');
+        for (var si = 0; si < sibs.length; si++) { sibs[si].disabled = true; }
         col.doc(id).set({wq: wq, verdict: verdict, note: note.trim(), ts: ts, build: BUILD, consumed: false, source: 'decision-deck'})
-          .then(function(){ toast('Recorded: WQ-' + wq + ' ' + verdict); setState(wq, 'sent', 'Tapped ' + fmt(ts) + ': ' + verdict + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup', verdict); b.disabled = false; })
-          .catch(function(e){ b.disabled = false; var c = (e && e.code) || 'error'; setState(wq, 'err', 'Not recorded (' + c + '). Rule by message instead.'); toast('Not recorded: ' + c); });
+          .then(function(){ toast('Recorded: WQ-' + wq + ' ' + verdict); setState(wq, 'sent', 'Tapped ' + fmt(ts) + ': ' + verdict + (note ? ' — ' + note.trim() : '') + ' · awaiting PROME pickup · the LATEST tap rules', verdict); for (var i2 = 0; i2 < sibs.length; i2++) { sibs[i2].disabled = false; } })
+          .catch(function(e){ for (var i3 = 0; i3 < sibs.length; i3++) { sibs[i3].disabled = false; } var c = (e && e.code) || 'error'; setState(wq, 'err', 'Not recorded (' + c + '). Rule by message instead.'); toast('Not recorded: ' + c); });
       });
     });
   }).catch(function(){ storeLine.textContent = 'Tap-to-rule unavailable in this view. Reading only.'; });
