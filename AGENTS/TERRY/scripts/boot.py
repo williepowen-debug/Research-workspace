@@ -39,11 +39,33 @@ SIGNAL_STALE_DAYS = 21   # fallback ONLY — the tightest bar, used when a row d
 # believed. ⚠️ That is how an advisory dies: the desk's own ledger_sweep notes record the same
 # lesson ("a false positive here buys alert fatigue"). Fallback is the TIGHTEST bar, so a row
 # with a missing or unknown decay class still warns rather than going quiet.
-SIGNAL_DECAY_BARS = {"short": 21, "med": 45, "durable": 90}
+# `none` (added 2026-09-11, DEWEY packet 2026-09-10) is a DECLARED absence of a clock, for a
+# row whose claim is a METHOD rule — one about what data is REACHABLE, not about the tape.
+# No tape can age it. DEW-MECH-SELL claim (1) sat on a 45d bar and minted a false STALE flag
+# that cost a PROME routing hop, a TERRY sweep and a DEWEY boot slot to conclude that a rule
+# about what is purchasable had not changed in 52 days. That is a ROW-SHAPE defect, not a
+# sweep defect. ⛔ THIS IS NOT A WIDENED GUARD: the guard flags rows whose EVIDENCE has aged,
+# and a method rule has no evidence that ages. It is opt-in per row, it must be written
+# deliberately, and it is the ONLY exempt value — anything unrecognised still falls back to
+# the TIGHTEST bar below, so a typo fails LOUD rather than silently buying an exemption.
+SIGNAL_DECAY_BARS = {"short": 21, "med": 45, "durable": 90, "none": None}
+
+# Status markers that mean "deliberately not active — a human triaged this and closed it."
+# Matched as SUBSTRINGS so a row may carry its ruling inline ("RETIRED (terminal, Will-ruled
+# 2026-08-18)") without falling out of the vocabulary. Anything NOT matching still prints "?".
+_TERMINAL_STATUS_MARKERS = ("RETIRED", "RETRACTED", "HISTORICAL-PRECEDENT", "LAPSED", "CLOSED")
 
 
-def _signal_bar(row) -> int:
-    return SIGNAL_DECAY_BARS.get((row.get("decay") or "").strip().lower(), SIGNAL_STALE_DAYS)
+def _signal_bar(row):
+    """Decay bar in days, or None for an explicit `decay=none` METHOD row.
+
+    Unknown/missing -> the TIGHTEST bar (never silence). Only the literal string
+    `none` earns the no-clock exemption; `nonsense` does not.
+    """
+    raw = (row.get("decay") or "").strip().lower()
+    if raw in SIGNAL_DECAY_BARS:
+        return SIGNAL_DECAY_BARS[raw]
+    return SIGNAL_STALE_DAYS
 
 
 def _tsv_rows(path):
@@ -306,10 +328,26 @@ def run(args):
     def _is_active(r):
         st = (r.get("status") or "").upper()
         return ("LIVE" in st or "DECAYING" in st) and not st.startswith("RETIRED")
+
+    # 2026-09-11: the companion test below was an EXACT-set membership check
+    # ({"RETIRED","PIN",""}) sitting directly beneath an _is_active() that had already been
+    # widened to SUBSTRING on 7/30 for exactly this reason -- a split brain, half-fixed.
+    # Consequence: any row whose status someone described BETTER than the vocabulary
+    # ("RETIRED (terminal, Will-ruled ...)", "RETRACTED", "HISTORICAL-PRECEDENT") fell
+    # through to the "? status not recognised" line and nagged FOREVER. That is the
+    # alert-fatigue death this file's own comments keep warning about, and it is the
+    # memory-index class `finding_status_token_membership_test_desupervises_improved_rows`:
+    # a guard scoped by TOKEN drops the rows someone labelled more precisely.
+    # ⛔ NOT a widened guard: an unrecognised status STILL prints "?". Only these explicit
+    # TERMINAL markers are quiet, and each one means "a human already triaged this row".
+    def _is_deliberately_quiet(r):
+        st = (r.get("status") or "").upper().strip()
+        if st == "" or st == "PIN":
+            return True
+        return any(m in st for m in _TERMINAL_STATUS_MARKERS)
     active = [r for r in sig_rows if _is_active(r)]
     unknown = [r for r in sig_rows
-               if not _is_active(r)
-               and (r.get("status") or "").upper() not in {"RETIRED", "PIN", ""}]
+               if not _is_active(r) and not _is_deliberately_quiet(r)]
     print("\nSignals (trade-construction context — see SIGNALS.tsv):")
     for r in pins:
         d = _parse_date(r.get("as_of"))
@@ -334,7 +372,11 @@ def run(args):
             # warning (live 8/28: 3 of 12 active rows at 65d/36d/39d printed with NO flag, one of
             # them literally labelled LEVELS-STALE). Split-brain fix: same substring test here.
             bar = _signal_bar(r)
-            if "DECAYING" in st and days > bar:
+            if bar is None:
+                # Declared METHOD row: no clock, by declaration. Printed, never silent —
+                # an exemption nobody can see is indistinguishable from a guard that broke.
+                flag = "  · decay=none (METHOD) — no clock by declaration; re-verify only if its PREMISE changes"
+            elif "DECAYING" in st and days > bar:
                 flag = f"  ⚠ decaying {days}d > its {r.get('decay') or 'short'} bar ({bar}d) — reconfirm before use"
             elif "LIVE" in st and days > bar:
                 flag = f"  ⚠ STALE {days}d > its {r.get('decay') or 'short'} bar ({bar}d) — re-verify or retire"
@@ -405,11 +447,13 @@ _TERMINAL_CASES: list[tuple[str, bool]] = [
 ]
 
 
-_BAR_CASES: list[tuple[str, int]] = [
+_BAR_CASES: list[tuple[str, "int | None"]] = [
     ("short", 21), ("med", 45), ("durable", 90),
     ("DURABLE", 90),          # case-insensitive
     (" med ", 45),            # whitespace
     ("", 21), ("bogus", 21),  # unknown/missing -> TIGHTEST bar, never silence
+    ("none", None), ("NONE", None), (" none ", None),   # declared METHOD row: no clock
+    ("nonsense", 21),         # ⚠ near-miss must NOT inherit the exemption
 ]
 
 
@@ -424,6 +468,42 @@ def _selftest_bars() -> list[str]:
         bad.append("durable row at 22d would flag — the 4-of-5 false-positive bug is back")
     if 23 <= _signal_bar({"decay": "short"}):
         bad.append("short row at 23d would NOT flag — real staleness missed")
+    # 2026-09-11: a `none` row must never flag at ANY age, and the exemption must not leak
+    # to a near-miss spelling. Writing `none` into the column WITHOUT this code change was
+    # the trap: the old fallback mapped it to 21d, so the "fix" would have made the false
+    # STALE flag FIRE SOONER while reading as if it had been solved.
+    if _signal_bar({"decay": "none"}) is not None:
+        bad.append("decay=none no longer exempt — false STALE flags on METHOD rows are back")
+    if _signal_bar({"decay": "nonsense"}) != 21:
+        bad.append("a near-miss decay value inherited the none-exemption — fail-loud default broken")
+    return bad
+
+
+_QUIET_CASES: list[tuple[str, bool]] = [
+    ("RETIRED", True), ("PIN", True), ("", True),
+    ("RETIRED (terminal, Will-ruled 2026-08-18) — never armed", True),  # the described-better case
+    ("RETRACTED (terminal — never cite)", True),                        # DEW-MECH-SELL-C2
+    ("HISTORICAL-PRECEDENT (closed episode — no further bar)", True),   # DEW-MECH-SELL-C3
+    ("LAPSED", True), ("CLOSED + evaluated", True),
+    ("SUPERSEDED", False),        # ⚠ genuinely untriaged -> must still print "?"
+    ("WAITING ON BOND", False),
+    ("nonsense", False),
+]
+
+
+def _selftest_quiet() -> list[str]:
+    """The quiet-status vocabulary must cover described-better rows WITHOUT swallowing
+    a status nobody has triaged. Both directions are failures."""
+    bad = []
+    # rebuild the closure-local predicate against the module-level marker set
+    def quiet(st):
+        u = (st or "").upper().strip()
+        if u == "" or u == "PIN":
+            return True
+        return any(m in u for m in _TERMINAL_STATUS_MARKERS)
+    for st, want in _QUIET_CASES:
+        if quiet(st) != want:
+            bad.append(f"_is_deliberately_quiet({st!r}) = {not want}, want {want}")
     return bad
 
 
@@ -445,7 +525,7 @@ def selftest():
         return 1
     _, errors = setups()
     _, sig_errors = signals()
-    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars()
+    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars() + _selftest_quiet()
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1

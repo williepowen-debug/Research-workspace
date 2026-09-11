@@ -2,6 +2,18 @@
 
 FROZEN 2026-09-08; original contiguous suffix from July24 Current Session through EOF, 33294 B, crc32 `9b9558c7`. All live pickup duties are carried on current MEMORY/STATUS and cards. Historical asks do not revive WQ-167.
 
+### ⚠️ ONE LINE OF THE 2026-09-08 MOVE IS NOT IN THIS FILE — RETIRED DELIBERATELY, NOT LOST (recorded 2026-09-11)
+
+`5591d1ab7` moved 78 lines out of `MEMORY.md`; **77 landed here verbatim. The 78th did not**, and the header's "original contiguous suffix" wording implies a complete move. PROME found the gap and packeted it 2026-09-10 (`inbox/processed/`). The missing line, quoted here in full so the record is closed:
+
+> `- **No closed Terry-reviewed thesis trades yet** — POSTMORTEMS.md now has ONE *process* entry (TRY-FIRE-005: correct DENY, 7d logging lag; n…`
+
+**DISPOSITION: RETIRED, deliberately — it is not restored, and the reason is that it is now FALSE.** It was a dated STATUS claim, never a rule, and the book overtook it: the **USO Oct-16 135C** sold 9/2 + 9/9, **`TRY-WAL-ROLL70`** filled 9/2, and the **RH USO Sep-18 150/165 spread closed 9/10 at +$330 (+110%)**. `GATE-OP-SCALE-01` counts them. **Nothing grades off the retired line and no live surface cites it.**
+
+⛔ **It is NOT appended to the body, and that is the point:** the suffix below is pinned at **33,294 B / crc32 `9b9558c7`** — **re-verified byte-exact 2026-09-11 before this note was written** — and an append would silently break that pin to re-home a claim that is false anyway. **The header is the right home for a disposition; the frozen body is not.** *(A restoration would also put a false STATUS claim back into circulation inside a file readers treat as the record of what was true.)*
+
+---
+
 ## Current Session (2026-07-24 Fri — boot + 3d catch-up + position refresh + shadow-book build-out; no capital moved)
 
 **Delivered:** Booted 3 days dark → caught up 7/22 slate + 7/23 prints. **(1) Resolvers, all clean/no-trade:** WAL-GRIND **HELD DORMANT** (REGINALD Stage-1+2: narrow-middle — (b)-migration on known $99M life-sci + (a)-no new credits; no lapse/no entry; Sep puts→Q3); **monoline TRY-FIRE-003 graded NO-FIRE** (COF printed 7/21 beat/provisions-DROPPED = counter-evidence; ALLY+SYF 0/4 each → path (m) 0-fired all 3 → consumer leg defers to Q3; card grade logged; un-owned-gate closed); WALTER reconfirmed squeeze-risk signal 7/23. **(2) Position truth REFRESHED to live 7/24 marks** (STATUS snapshot rebuilt: $39,527/61% cash/−9.98% [improved from −16.6%]; 004 = +12.4%/$390 into FOMC week; day-trade QQQ 690C 0DTE ITM auto-exercise flagged to Will). **(3) Shadow-book build-out (Will-approved):** Phase-2 salary **SET $1,500/mo paper** + gate pinned ≥6/90d (now 2/6); mark-helper dedupe+retry+gate-line; `lane` column; **`Decision Logic` rulebook codified** (open/prioritize/close, 4 rulings A–D, card-is-the-algorithm). 5 commits (4 TERRY + swept HEARTBEAT), all on origin.
