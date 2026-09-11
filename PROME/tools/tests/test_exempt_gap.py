@@ -96,6 +96,31 @@ class ExemptGap(unittest.TestCase):
         self.assertEqual(self.by(rows, "CARL")["aged"], [])
         self.assertEqual(self.by(rows, "RED")["unlogged"], [])   # archived ledger counts
 
+    def test_an_id_at_the_start_of_a_notes_cell_is_still_a_mention(self):
+        # result cold read ❌1: the notes cell BEGINS with the id — cell-exact matching must not count it
+        ledger(self.root, "CARL/board/BOARD_LOG.tsv", ["SIG-W-20260101-001"], notes="SIG-W-20260901-015 superseded, ignoring")
+        c = self.by(self.run_scan()[0], "CARL")
+        self.assertIn("SIG-W-20260901-015", c["aged"])
+
+    def test_post_v012_file_with_no_routing_key_is_skipped_and_legacy_one_is_counted(self):
+        # result cold read ❌2: `routing: [CARL]` on a 9/1 file is one key away from addressing nobody silently
+        (self.root / "BOARD" / "SIG-W-20260901-016-newkey.md").write_text(
+            "---\nsignal_id: SIG-W-20260901-016\nrouting: [CARL]\n---\n# IMMEDIATE\n")
+        (self.root / "BOARD" / "SIG-W-20260401-002-earlyapril.md").write_text(
+            "---\nsignal_id: SIG-W-20260401-002\nprecedence: ROUTINE\n---\n# old\n")
+        (self.root / "BOARD" / "SIG-W-20260910-008-erratum.md").write_text(       # empty action = routed to nobody, fine
+            "---\nsignal_id: SIG-W-20260910-008\naction: []\ninfo: [RED]\n---\n# erratum\n")
+        _, _, inst = self.run_scan()
+        self.assertEqual([n for n, _ in inst["skipped"]], ["SIG-W-20260901-016-newkey.md"])
+        self.assertEqual(inst["unrouted_legacy"], 1)
+
+    def test_lowercase_or_stray_name_under_board_is_skipped_by_name_index_is_not(self):
+        # result cold read ❌3: the glob must enumerate every .md under BOARD/ except INDEX.md
+        (self.root / "BOARD" / "sig-w-20260901-017-lower.md").write_text("---\naction: [CARL]\n---\n# h\n")
+        (self.root / "BOARD" / "INDEX.md").write_text("# index\n")
+        _, _, inst = self.run_scan()
+        self.assertEqual([n for n, _ in inst["skipped"]], ["sig-w-20260901-017-lower.md"])
+
     def test_a_mention_in_a_notes_cell_is_not_a_logged_row(self):
         # the id appears only inside another row's notes cell — that is a mention, not a disposition
         ledger(self.root, "RED/board_log.tsv", ["SIG-W-20260101-001"], notes="see SIG-W-20260908-010 later")

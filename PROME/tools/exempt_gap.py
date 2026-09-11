@@ -15,15 +15,16 @@ What it measures, per exempt desk D (the set is READ from walter_doctor.py's PUL
 the declared reference; the FALLBACK set below is used, loudly, only when that line cannot be
 parsed or is empty; PROME is excluded because board_scan.py is its own blocking check):
   * every BOARD signal whose `action:` line (or the legacy `to:` line, pre-v0.12) names D — info-cc lines are not the exemption's risk
-  * whether that signal_id appears as a CELL (line start or after a tab) in ANY of D's BOARD consumption
-    ledgers (live + archived) — a mention inside a notes cell is not a row
+  * whether that signal_id IS a whole CELL in ANY of D's BOARD consumption ledgers (live + archived) —
+    a mention inside a notes cell is not a row (a notes cell consisting of nothing but an id would be; residue)
   * flags an unlogged action signal once it is >= --min-age-days old (default 2 — a desk that
     booted since dispatch and did not log it is the failure; a signal dispatched an hour ago is not)
   * a desk with NO ledger at all is flagged UNKNOWN — an exemption nobody can test is the
     walter_doctor phrase "cannot be tested at all", and that is a flag, not a pass.
 
 FAIL-CLOSED RULES (cold read 2026-09-11, 8 ❌ fixed in one pass): a signal file this scan cannot read
-(malformed filename date, non-matching name, no frontmatter, I/O error) is SKIPPED, COUNTED and NAMED —
+(malformed filename date, any non-conforming name under BOARD/ other than INDEX.md, no frontmatter, no routing
+key on a post-v0.12 file, I/O error) is SKIPPED, COUNTED and NAMED —
 never silently dropped and never allowed to abort the other files; a duplicate signal_id MERGES its
 owners and is named; an empty exempt set or an unreadable ledger is an instrument failure, not a pass.
 
@@ -48,7 +49,9 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from board_scan import parse_front, sig_key, clean  # noqa: E402  (same parser the PROME pull uses)
 
-SIG_CELL_RE = re.compile(r"(?:^|\t)(SIG-W-\d{8}-\d{3})", re.M)   # an id AS A CELL, not a mention
+SIG_ID_EXACT = re.compile(r"^SIG-W-\d{8}-\d{3}$")   # a ledger CELL that IS an id — never a mention inside a notes cell
+V012_DATE = dt.date(2026, 7, 27)                     # BOARD_CONSUMPTION_SPEC v0.12: `action:` becomes the routing key
+NON_SIGNAL_FILES = {"INDEX.md"}                      # the only non-signal .md that belongs under BOARD/
 DOCTOR_REL = "AGENTS/WALTER/tools/walter_doctor.py"
 FALLBACK_EXEMPT = {"CARL", "RED", "TERRY"}  # used ONLY if the doctor line is unparseable/empty; printed when used
 LEDGER_GLOBS = (  # every surface a desk has ever used as a BOARD consumption ledger; FILED handoffs do not count (§5.1)
@@ -115,7 +118,11 @@ def logged_ids(ledgers):
     ids, errors = set(), []
     for p in ledgers:
         try:
-            ids |= set(SIG_CELL_RE.findall(p.read_text(encoding="utf-8", errors="replace")))
+            for line in p.read_text(encoding="utf-8", errors="replace").splitlines():
+                for cell in line.split("\t"):
+                    cell = cell.strip()
+                    if SIG_ID_EXACT.match(cell):
+                        ids.add(cell)
         except Exception as e:  # directory, permissions, decode — an instrument failure, never "nothing logged"
             errors.append(f"{p}: {type(e).__name__}: {e}")
     return ids, errors
@@ -128,17 +135,22 @@ def load_signals(root):
     skipped = [(filename, reason)] — files the scan could NOT read; counted and named, never dropped.
     dupes = [signal_id] — ids present in more than one file; owners MERGED (never overwritten) and named.
     """
-    sigs, skipped, dupes = {}, [], []
-    for p in sorted((root / "BOARD").glob("SIG-W-*.md"), key=lambda q: sig_key(q.name)):
+    sigs, skipped, dupes, unrouted_legacy = {}, [], [], 0
+    files = [p for p in (root / "BOARD").glob("*.md") if p.name not in NON_SIGNAL_FILES]
+    for p in sorted(files, key=lambda q: sig_key(q.name)):
         try:
             d, n = sig_key(p.name)
-            if not d:
+            if not d:                                     # lower-case, short date, stray file — named, never dropped
                 raise ValueError("filename does not match SIG-W-YYYYMMDD-NNN")
             sid = f"SIG-W-{d}-{n:03d}"
             date = dt.date(int(d[:4]), int(d[4:6]), int(d[6:8]))
             fm = parse_front(p)
             if "_headline" not in fm:                     # parse_front returns {} on I/O error or no --- block
                 raise ValueError("no frontmatter block or file unreadable")
+            if "action" not in fm and "to" not in fm:     # NO routing key at all (an empty `action: []` is routed to nobody)
+                if date >= V012_DATE:
+                    raise ValueError("no `action:`/`to:` routing key on a post-v0.12 signal")
+                unrouted_legacy += 1                      # the 34 early-April files: counted, reported, not a flag
             acts = owners(fm.get("action")) or owners(fm.get("to"))
             if sid in sigs:
                 dupes.append(sid)
@@ -148,7 +160,7 @@ def load_signals(root):
                 sigs[sid] = (date, acts, fm.get("_headline", ""))
         except Exception as e:
             skipped.append((p.name, f"{type(e).__name__}: {e}"))
-    return sigs, skipped, dupes
+    return sigs, skipped, dupes, unrouted_legacy
 
 
 def scan(root, today, min_age_days, desks=None):
@@ -159,7 +171,7 @@ def scan(root, today, min_age_days, desks=None):
         exempt = {d.upper() for d in desks}
         note = f"desk set OVERRIDDEN by --desks: {', '.join(sorted(exempt))} (doctor set not used)"
         ok = True
-    sigs, skipped, dupes = load_signals(root)
+    sigs, skipped, dupes, unrouted_legacy = load_signals(root)
     rows, ledger_errors = [], []
     for desk in sorted(exempt):
         ledgers = desk_ledgers(root, desk)
@@ -175,7 +187,8 @@ def scan(root, today, min_age_days, desks=None):
             "detail": [(sid, (today - sigs[sid][0]).days, sigs[sid][2]) for sid in aged],
             "untestable": not ledgers,
         })
-    return rows, note, {"skipped": skipped, "dupes": dupes, "exempt_ok": ok, "ledger_errors": ledger_errors}
+    return rows, note, {"skipped": skipped, "dupes": dupes, "exempt_ok": ok, "ledger_errors": ledger_errors,
+                        "unrouted_legacy": unrouted_legacy}
 
 
 def main(argv=None):
@@ -233,6 +246,8 @@ def main(argv=None):
         print(f"⛔ LEDGER UNREADABLE {err}")
     if not inst["exempt_ok"]:
         inst_flags += 1
+    if inst["unrouted_legacy"]:
+        print(f"ℹ️  {inst['unrouted_legacy']} pre-v0.12 signal file(s) carry no routing key at all — counted, not a flag")
     if not rows:
         print("⛔ no exempt desk scanned — an empty set is an instrument failure, not a clean pass")
         return 2
