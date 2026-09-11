@@ -2,8 +2,11 @@
   "seen": {
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:orange": "2026-07-17T01:56:58Z",
-    "news:NEW_ALERT:data/2026-09-09/news.json": "2026-09-10T14:42:13Z",
-    "news:NEW_WATCH:data/2026-09-09/news.json": "2026-09-10T14:42:13Z"
+    "fred:BAMLH0A0HYM2:orange": "2026-09-11T17:51:49Z",
+    "edgar:ZION_2026_09_09_5_02_9_01_": "2026-09-11T17:51:49Z",
+    "edgar:AMZN_2026_09_09_5_02_": "2026-09-11T17:51:49Z",
+    "news:NEW_ALERT:data/2026-09-10/news.json": "2026-09-11T17:51:49Z",
+    "news:NEW_WATCH:data/2026-09-10/news.json": "2026-09-11T17:51:49Z"
   },
-  "updated": "2026-09-10T14:42:13Z"
+  "updated": "2026-09-11T17:51:49Z"
 }
