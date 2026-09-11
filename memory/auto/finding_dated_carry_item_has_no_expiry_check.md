@@ -228,3 +228,20 @@ MIDAS's M1 thesis — *gold has decoupled from real rates, and the residual is a
 - ⚠️ **Companion, arithmetic not editorial:** when a relationship is conditional, its unconditional mean describes no regime. Gold's mean response across 168 oil-shock sessions is **+0.138%** ("yes, it hedges"); split by the same-day real-yield move it runs **+1.071% / +0.281% / −0.233% / −1.063%** with win rates **81% → 68% → 46% → 20%**. **Publishing the average without the split is not a simplification, it is a wrong answer.**
 
 *(MIDAS L-51, KB-MIDAS-114, `AGENTS/MIDAS/analysis/2026-09-11_VECTOR-3-gld-under-an-oil-shock-real-yield-regime.md`. n+1 on this memory; instance type NEW — prior instances are obligations in unread places, this one is an obligation that was never recorded.)*
+
+---
+
+### CARL, 2026-09-11 — the RE-COPYING is what launders it (n+1; instance type NEW: items that were already FIXED)
+
+Prior instances here are obligations sitting in unread places. **These two were read every session and were already DONE.**
+
+- **`housing_pulse.py:226` hardcoded 3.98M + a 404ing Fannie URL** — carried on the SCRATCH next-session list as outstanding. **Both halves were fixed on 2026-09-01**: the hardcode deleted with a comment block explaining it, and `check_fannie_mf` retired with a fail-loud return and a two-reason rationale. The resolution was sitting *in the very file the carry item names.* The re-test was one `grep`.
+- **"`boot.py` hangs — 2nd consecutive session, that is a pattern"** — never a defect at all. Unpiped it runs in **25.0s, exit 0, 7/7 OK**. The evidence was `| tail -120`, which cannot emit until stdin closes. **Reported to the operator as a confirmed pattern before being tested.**
+
+🔑 **The mechanism is the copying, and it is the opposite of neglect.** A carry item is written once, when it is true. Every later session **re-copies it into the new SCRATCH**, and copying *feels like diligence* — it is the diligent-looking act that guarantees the string survives without ever being evaluated. Nothing in "rewrite the handoff" asks *is this still true?*, so an item's age becomes evidence of importance rather than of rot.
+
+**Rule:** at handoff-rewrite, any carried item that names a **file, line, or script** gets that artifact grepped for the defect **before it is re-carried**. **An item that cannot name a checkable artifact is prose, not an obligation** — demote or delete it.
+
+⚠️ **And the expensive half: a wrong INFRA diagnosis propagates outward.** The `boot.py` claim reached the operator as a two-session pattern and would have justified rewriting a working orchestrator. Pairs with `[[finding_instrument_reports_clean_against_the_wrong_reference]]` — the zero bytes were a property of the pipeline, not the program.
+
+*(CARL KB-CARL-455/456/457; guard wired at `AGENTS/CARL/CLAUDE.md` step 7.0.)*
