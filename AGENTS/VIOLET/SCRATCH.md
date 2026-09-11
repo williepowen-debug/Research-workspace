@@ -1,120 +1,85 @@
-# VIOLET SCRATCH — September 6, 2026 (Sun)
+# VIOLET SCRATCH — Friday, September 11, 2026 (01:2x ET, pre-open)
 
-> **FIVE sessions today.** AM: boot + `VX_DAILY` backfill + `CLAUDE.md` re-key · PM1: WQ-188 fixes · PM2: thesis read → v4.1, corrected to v4.1.1 an hour later · PM3: boot + WALTER SIG-003 + Codex's 2nd pass · **PM4 (this one): CODEX'S 3RD PASS — my 2nd-pass safeguard failed on the SECOND RUN.**
+> **PROME-spawned VECTOR-2 session** (DOCKET L326, Will 2026-09-11 00:21 ET *"Ok can you work on assigning these vectors?"* → 00:29 *"…orchestrate these agents to investigate these vectors?"*). **Scope as given:** deliver a ONE-PAGE instrument ask on cheap vol into FOMC 9/16, drain the inbox, write back. **Report-before-execute: NO card, NO order, $0.**
 >
-> **Scope as given:** Will *"boot up"* → then PROME doorbelled Codex's 2nd pass as a 🟠 HIGH under Will's standing WQ-188 ruling. No thesis work, no proposal, no market call. **Markets closed all day — every vol row is still the 9/4 SETTLE.**
->
-> 🔑 **The session's shape: I spent it fixing my own fix, and then found that the test suite which certified the first fix could not have failed.**
+> 🔑 **THE SESSION IN ONE LINE: the cheap-vol window closed between 9/8 and 9/10 while this desk was dark, every instrument that grades it ran correctly the whole time, and the thing that failed was that nobody booted.**
 
 ---
 
-## CHANGES SINCE — nothing. Markets closed.
+## CHANGES SINCE (9/6 → 9/10, four sessions I did not see)
 
-**All vol values remain the 9/4 SETTLE.** `^SKEW` **151.58** · VIX 14.53 · VIX9D **11.97** · VIX3M/VIX 1.2120 · VVIX 84.42 · MOVE 73.10 · M1:M2 +11.51%. **Convergence 28/50. FT-10 = 2 of 4, ARMED, NOT FIRED. FLAT.**
+**All CBOE settles, own pulls 2026-09-11 ~00:5x ET. Basis moved 9/4 SETTLE → 9/10 SETTLE across the whole dashboard.**
 
-Boot ran **15/15 stages clean**, all guards rc=0. Spot printed blank / `Regime: UNKNOWN` — **that is correct on a Sunday** (nothing publishes; no row was written to `VX_DAILY`, verified).
+| | 9/4 | **9/10** | Δ |
+|---|---:|---:|---:|
+| VIX9D | 11.97 | **17.70** | **+47.9%** |
+| VIX | 14.53 | **17.84** | +22.8% |
+| VIX3M / VIX6M | 17.61 / 19.89 | **19.73 / 21.17** | +12.0% / +6.4% |
+| **VVIX** | 84.42 | **102.66** | **+21.6%** |
+| `^SKEW` | 151.58 | **147.02** | **−3.0%** |
+| VIX9D/VIX · VIX3M/VIX | 0.8238 · 1.2120 | **0.9922 · 1.1059** | front end caught the belly; cash curve flattened |
+| M1:M2 adj | +11.51% | **+5.53%** | VX/U6 18.1289 : VX/V6 19.1305 |
+| MOVE | 73.10 | **82.09** | +12.3%, **+9.68 over F1** |
+| OVX · ratio | 44.96 · 3.09 | **60.76 · 3.41 (p96.6)** | 🔴 **FIRE, numerator-led** |
+| COR1M | 8.60 [9/6] | **14.38** [9/11 tick] | +67% |
+| JPY RV10 · USDJPY | 10.18% p69.6 · 156.22 [9/4] | **13.89% p89.7 · 154.21** [9/11] | **0.08 from the WATCH line** |
+| CCC · CCC−BB | 10.51 · 8.99 [9/3] | **10.64 · 9.06** [9/9] | widening slowly |
+
+**Convergence 28 → 33/50, composition INVERTED** (rates vol 2→5 · oil vol 3→4 · JPY 2→3 · VVIX 2→3 · tail 5→4). **FT-10 = 0-of-4** (RED's grade 9/9; 9/8's 148.86 killed the run on its value). **Cheap-tail CLOSED 2/4.** **FLAT throughout.**
 
 ---
 
 ## WHAT I DID
 
-### 1. WALTER `SIG-W-20260906-003` — its §5(b) ask answered against my own desk
+### 1. ⛔ VECTOR 2 delivered — verdict NOT CHEAP, structure DECLARED NONE
+`PROME/inbox/2026-09-11_from-VIOLET_VECTOR-2-cheap-vol-into-FOMC-read.md`.
+- **VIX 17.84 vs SPX RV10 9.84% ⇒ VRP +8.00 vol pts (1.81×).** RV5 11.17 · RV20 8.73 · Parkinson-10 6.26.
+- **Stripping three quiet days out of VIX9D leaves ~1.45% priced per event day** (CPI/FOMC/OPEX) vs a 0.62% realized daily. Assumptions declared inline; token ESTIMATE.
+- **The decay is monotone in tenor** (+47.9% at 9d → +6.4% at 180d) ⇒ **a dated event stack being priced, not a regime re-rate.** `^SKEW` **fell** while everything else bid.
+- **Structure = NONE on four legs of the design's own letter:** gate 2-of-4 · **GATE-VIO-RV1 F2-KILLED 8/27** · **S1 (VVIX ≥105) is 2.34 points away** · **F3** (expensive tails contradict a cheap-tail window). → KB-VIO-275
+- **Root rule #6 gate written** (long vol = the PUT side = enter on a GREEN close; 9/10 was RED, SPX −0.58% / VIX +8.38%) with **TERRY's ratified break test instantiated on the design's own F3 number** — debit ≤ ⅓ max width AND below the last GREEN session's debit, both on the card before the fill. **I did not price the chain — that is TERRY's data and TERRY's domain by design §5.**
+- **Falsifier F-B registered PRE-CPI with nothing riding on it:** if SPX realized 9/11–9/16 exceeds **17.84% annualized** (daily closes averaging >1.12%), the VRP call is refuted. **Grades at the 9/16 close.** → KB-VIO-270/271
 
-WALTER found `SIG-W-20260811-001` recorded RED-FT-06 as `CONFIRMED-…-TWO-INSTRUMENTS` where `fetch.py` **is** yfinance — one source queried twice — and said explicitly it had audited **only its own BOARD**, asking whether the collapse sits under other desks' rows.
+### 2. 🔑 `VX_DAILY` was missing three sessions and my own gap check said it wasn't
+`vx_daily_gapcheck.py:121-122` — `hi = max(have)`, where `have` is **the ledger's own dates**. **The audit's upper bound is the audited file's last row**, so a trailing-edge gap cannot exist by construction. **Same `rc=0 … no gaps` at 416 rows broken and 419 repaired.** Its docstring says it exists because *"today is fresh no matter how many holes sit behind it"* — **it closed the holes behind and left the hole ahead open.**
+- **Compounding cause: `backfill.py` UPDATES rows, it never CREATES them** — a `--spot-only` run over the gap touched 27 rows, added 0, reported "2,496 cells agreed."
+- **Repaired:** 9/8 · 9/9 · 9/10 written from CBOE, all six spot columns confirmed, `basis=SETTLE`, **`m1m2` left BLANK** (T-1 vs same-day convention hazard unresolved; a blank is the absence of a claim). Control re-run: **2,514 agreed / 0 corrected / 0 filled.** Gapcheck now 419 rows.
+- ⛔ **Guard NOT changed** — a span change at 01:1x on one session's diagnosis is the ship-then-audit pattern RV1 was killed for. **Correct spec, zero free parameters: `hi` = the newest date CBOE publishes for VIX with ≥1 companion series.** → KB-VIO-273
 
-**It sat under mine, published that morning.** STATUS and `NEXUS_BRIEF` both read *"verified THREE times independently at CBOE"* (WALTER 9/5, VIOLET 9/6, RED 9/6). **That is three independent READERS of ONE source, not three sources.** Corrected in place on both surfaces.
+### 3. 🔴 OVX fired, and this time the numerator led
+OVX **60.76** (p92.9), ratio **3.41** (p96.6, FIRE line 3.21), gap 42.92 (p96.2). **OVX +35.1% vs VIX +22.8%** — unlike 9/3, which I correctly refused as a denominator artifact. Above **both** fired analogs (Abqaiq 3.31, Israel-Iran 3.31). **Upgraded to 4 in the matrix on that discriminator.** 🔑 **Sizing consequence cuts against buying: with oil vol leading, a long index-vol structure is the ~$6,007 energy sleeve expressed twice.** → KB-VIO-274
 
-- ⚖️ **I did not over-correct, and the scoping is the finding.** Three readers **reduce the risk of** reader error — the failure that actually occurred (RED's `boot.py` grading off the wrong series for four days) — **without categorically eliminating it; readers can share a mistake** (wording tightened on Codex's 3rd pass, where I had written "rule out"). They say **nothing** about publisher error, which **for FT-10 is not a gradeable failure mode at all**, because the gate's basis clause makes CBOE `SKEW_History.csv` *definitional*. So the check is complete for this gate and the wording was wrong for any claim whose truth is not defined by CBOE. **The count (2 of 4) and the value stand unimpeached.**
-- ⚠️ **My own thesis already carried the class:** `VIX_THESIS.md:91`, KB-VIO-137 — *"three 'independent' verification paths that all ran before 17:00 constitute n=1"*. Written in July; shape re-committed in September. **A lesson parked in a framework file has no trigger and fires on nothing** — the sibling of KB-VIO-259, which said the same thing about STATE.
-- 🔑 **Transferable:** *"independent" is a claim about the FAILURE MODES two checks do not share, never about who ran them.* Say which — readers, instruments, or sources. → **KB-VIO-262**
+### 4. ✅ Inbox drained 13/13, every sender (WQ-206 outcome ①)
+5 top-level + 8 WALTER, all `git mv`'d to `processed/`, 13 rows in `board_log.tsv`.
+- **PROME 9/10 cheap-tail:** re-graded **2/4 DORMANT** on the 9/10 bars; **re-open rule written** on the STATUS row (all four legs on ONE dated close; A5 then needs two consecutive settles).
+- **RED 9/9 FT-10:** accepted and extended with 149.25 [9/9] · 147.02 [9/10]. **The third surface RED named, `skew_integrity.py`, does NOT carry the count — absence VERIFIED at the owner-declared path.** ✅ **Corroboration found: CBOE's `VIX_History.csv` has a 09/07 bar at 15.30 while VIX9D/VIX3M/VVIX/SKEW all omit it** — the grading source has no Labor Day bar, so RED's non-session ruling is what the file contains.
+- **WALTER SIG-010 ($9.6T):** verified **and corrected in both directions** — traces to a **Citadel Securities** publication (not just the X post), **but $9.6T expires BY 9/18 (~35% of total exposure) and $6.2T ON 9/18 (~23%)**; the kernel reads as if it all lands on 9/18. Citadel page fetch returned **403**, so the split is INFERRED from the search extract.
+- DEWEY REQ-002 info-only (no dated vol catalyst → nothing enters CATALYSTS.tsv). PROME 9/6 Codex packet consumed late — both asks were already executed on 9/6.
 
-### 2. Cheap-tail vs catalyst countdown — same event, same bare `d`, different numbers
-
-CPI 9/11 prints **4d** (`catalyst_countdown.py`, TRADING days, holiday-aware since 9/4) and **5d** (`cheap_tail.py`, CALENDAR days) **~30 lines apart on one boot screen**. Both right in their own unit; **neither labels it**. My STATUS cheap-tail cell had transcribed the trading-day 4d into a row sourced `[CONF] cheap_tail.py` whose L4 leg grades in calendar days. Corrected. **No state effect** — margin is 16 days either way. **The units are both correct and must stay different** (a tail hedge decays on calendar time; a sustain count crosses holidays); only the labels are missing. **KB-VIO-085 recurring** — filed in June as a rule about *prose*, never enforced on *tool output*. → **KB-VIO-263**
-
-### 3. 🔴 CODEX 2ND PASS — my WQ-188 fix closed the TRANSPORT axis and left the CONTENT axis open
-
-| CBOE response for SKEW | Pre-fix result | Branch |
-|---|---|---|
-| HTTP 503 | 151.58 preserved, rc=2 | closed by WQ-188 ① |
-| HTTP 200 carrying **HTML** | **149.00 written, `SETTLE` retained, rc=0** | **parser** |
-| Valid CSV **missing the target date** | **149.00 written, `SETTLE` retained, rc=0** | **write gate** |
-| *(mine)* valid CSV missing date, **blank cell, non-SETTLE row** | **149.00 filled, row then NEWLY STAMPED `SETTLE`** | **basis stamp** |
-
-- ✅ **Parser** now validates CSV **structure** (DATE + `CLOSE`/`<SYM>`, verified live against all six endpoints) and fails **closed**. ⚠️ **The docstring I wrote that morning asserted `ok is False … for a … parse failure` while no parse check existed** — a guarantee beside code that does not implement it turns an open hole into a documented closed one. → **KB-VIO-264**
-- ✅ **DESTINATION gate:** yfinance may fill a blank, **never overwrite**, **never touch a `SETTLE` row**. 🔑 **v1 scoped authority by WHAT THE SOURCE SAID and left the destination unguarded — a write gate must be a claim about the CELL IT LANDS IN.** → **KB-VIO-265**
-- ✅ **Third route, not in Codex's table, found by me:** the same hole also **newly mints** a SETTLE stamp. Every component behaves correctly and the outcome is still wrong; the whole-run `not failed` guard is blind because *nothing failed*. **Ablation-proven load-bearing** — disable the clause and the case goes red. → **KB-VIO-265**
-- ✅ **`scripts/test_backfill_endtoend.py`** — runs `main()` **for real**, stubbing only `requests.get` + the `yfinance` module, `DAILY_LOG` to a temp file, asserting **the file on disk**. **5/5 green**; `--falsify` re-runs against pre-fix code from git HEAD and requires 2/3/5 to fail there while **1/4 still pass** (negative control) — **9/9, rc=0**.
-- ✅ **Live control:** 2,496 cells agreed, 0 corrected, 0 filled, **ledger md5 UNCHANGED**. Note the withhold counters all read **0** — the healthy path never exercises the new gates, which is why the stubbed cases are the evidence.
-- 📄 **Receipt** (Codex's ask #3, with captured run output): `research/2026-09-06_wq188_2nd_pass_receipt.md`.
-
-### 3b. 🔴 CODEX 3RD PASS — THE SAFEGUARD I SHIPPED AN HOUR EARLIER FAILED ON THE SECOND RUN
-
-Codex ran **my own missing-date fixture twice**. Run 1: blank filled with 149.00, basis correctly blank. **Run 2, identical responses: `SETTLE` stamped over it, rc=0.** Reproduced locally before touching anything.
-
-- **Mechanism:** my Fix C gated on `d_str in provisional_rows` — **a set built during the current run.** On run 2 the provisional value is already on disk, the destination gate correctly **preserves** it, so *nothing new is recorded*, the set is empty, and the stamp then only asked whether CBOE had `vix`.
-- 🔑 **A GUARD WHOSE MEMORY IS SHORTER THAN THE STATE IT GUARDS FAILS ON THE SECOND RUN.** The state (a provisional cell) is **persistent**; my evidence for it was **per-run**. ⇒ **Read the invariant off the artifact, which is where the state actually lives** — don't persist the bookkeeping.
-- ✅ **FIXED, stateless:** stamp `SETTLE` only when every one of the six spot columns is **CBOE-confirmed for that date OR blank** (a blank is the absence of a claim, not a mirror value). **Recovery comes free and is tested as a negative control [7]:** when CBOE supplies the series it overwrites the provisional value and the row settles legitimately. **The dead `provisional_rows` plumbing was removed, not left** — a strictly weaker second guard manufactures the impression of depth.
-- ⚠️ **TWICE IN ONE DAY A COMMENT IN THIS FILE CERTIFIED WHAT THE CODE DID NOT DO.** The comment directly above that stamp already said *"ONLY when every column in the row was confirmed by CBOE"* while the code checked only `vix`; the morning's was `fetch_cboe_history`'s *"parse failure"* docstring with no parse check. **A written invariant is the assurance that stops the next reader checking.** ⇒ **Implement it in the same edit, or write it as a TODO.** → KB-VIO-267
-- ⚠️ **`--falsify` WAS BROKEN BY THE VERY COMMIT THAT SHIPPED IT.** It loaded `HEAD:backfill.py`, which became the *fixed* file on commit, so Codex's run compared fixed against fixed (6 passed / 3 failed). **A baseline that moves is not a baseline.** Pinned to `1e8ae5d00^`. **The experiment was sound; its committed reproduction mechanism was not** — a test whose correctness depends on *when* you run it relative to your own commit. → KB-VIO-268
-- ✅ **7/7 green · `--falsify` 12/12 against the pinned rev** (2/3/5/6 fail pre-fix, 1/4/7 pass). **Live control: 2,496 agreed, 0 corrected, md5 unchanged.**
-- ✅ **Three summaries reconciled:** *"published 9/10"* **withdrawn** (a T+1 assumption **my own KB-VIO-137 retracted**, and that retraction originally cost two sessions of an ungradeable stand-down — I re-committed it); the receipt's acceptance line, which **contradicted the transcript printed directly beneath it** (case 3 exits 0, correctly — a missing date is not a failed fetch); and *"rule out"* softened to *"reduce the risk of"* — three readers can share a mistake.
-- 📐 **STATUS restructured for REAL headroom (924 B, not 55):** the FT-10 gate row's epistemics moved to KB-VIO-262 and the WQ-188 narrative to the receipt. ⚠️ **I first tried to shave bytes and immediately ate the headroom again by adding narrative — which is exactly what Codex meant by "a temporary landing point."** A gate row is a state surface, not an essay.
-
-
-### 3c. ⚠️ CODEX FOLLOW-UP — MY CORRECTION WAS ITSELF AN UNVERIFIED CLAIM (third pass on one sentence)
-
-I withdrew *"published 9/10"* and replaced it with *"`^SKEW` publishes SAME-DAY ~17:00 ET,"* citing my own KB-VIO-137. **Codex read that row's Source field. I had not.**
-
-- **KB-VIO-137's evidence is CBOE's DELAYED-QUOTE endpoint (`_SKEW.json`), pulled 2026-07-28 ~03:40 ET — the FOLLOWING MORNING.** `last_trade_time` is a property of *that* endpoint, not a measurement of when the **grading source** `SKEW_History.csv` became downloadable; and a next-morning pull cannot bound when anything became available.
-- **What IS evidenced (n=1): same-day AVAILABILITY** — my own `VX_DAILY` `source_ts` of 18:30 ET on 2026-07-27. That supports availability *in that instance*, never a recurring hour.
-- ✅ **Ratified wording now on all FOUR carriers** (STATUS, NEXUS_BRIEF, MEMORY, CALENDAR — Codex named two; I swept the class): *"Same-day availability has been observed. Publication timing is unverified; grade when the required dated CBOE bar becomes available."*
-- 🔑 **A RETRACTION FEELS LIKE THE CAREFUL MOVE, SO THE REPLACEMENT CLAIM GETS THE LEAST SCRUTINY OF ANYTHING WRITTEN THAT DAY.** Both versions were unverified assertions about the same unknown; only the direction changed.
-- 🔑 **AND THIS IS KB-VIO-261 TURNED INWARD:** that row says read the owning desk's *current brief*, not the KB row you wrote about it. Same failure against myself — **I cited my own row's FACT field as authority without reading its SOURCE field.** ⇒ **Before citing your own KB row for a precise figure, read its Source, not its Fact.**
-- ⚠️ **PROPAGATION VECTOR NAMED: `MEMORY.md` carried the unsupported hour and is BOOT-READ EVERY SESSION** — it taught me the figure at boot, and I wrote it onto a live gate row as a "correction" hours later. **A boot-read surface re-teaches its errors on a schedule.**
-- ⚖️ **Scoping kept tight:** KB-VIO-137's core finding (the T+1 lag is not real; three checks in one pre-17:00 window are n=1) **stands untouched**. Only the hour is withdrawn. ⚠️ **That row's own Notes already warned against asserting an unobserved schedule — its stated discipline contradicted its own headline, and the headline is the part that travels.** Third instance in two days of a written invariant sitting beside text that violates it. → **KB-VIO-269**
-
-### 4. ⛔ THE ONE I TAKE HARDEST — my 12-contract suite could not have failed
-
-`test_backfill_authority.py` went green over **both** holes and **could not, even in principle, have caught them**:
-- `run_yf_pass()` is a **hand transcription** of the write gate — its own docstring says so — so the shipped code is never executed. **A transcription agrees with its original by construction.**
-- One assertion, `"settle_stamped" not in str(rows)`, compares a **counter's NAME** against the repr of ledger **row dicts**, where it can never appear: **a clause that cannot fail.**
-- Its stated rationale — *"pre-existing SETTLE is left alone"* — **described as SAFE the exact end state Codex flagged as dangerous.**
-
-**Root cause: I wrote the contracts from the FIX I had just made instead of from the FAILURE MODE.** Third instance of that shape on this desk in three days (DAEDALUS 9/4 green-selftest-vs-red-fleet-diff; my own 14/14 `canary_staleness` certifying a false CFTC invariant). ⚠️ **And the 12 green contracts were CITED as assurance to PROME and on STATUS — worse than no test, because it transferred false confidence.** Repaired in place, file kept for its AST/structural checks, scope banner added. → **KB-VIO-266**
-
-### 5. Read-cap and MAINTENANCE cap both cleared honestly
-
-STATUS **33,864 → 32,495 B** (budget 32,550; `read_cap_check` now **READ-CAP 0**). Two verbatim crc-stamped rotations: thesis v4.1 long-form (`48130641`), settled RESEARCH QUEUE dispositions (`2f380602`). **Heading inventory asserted identical before/after and the removed span asserted byte-present in the archive** — because on a size-capped surface every check rewards a smaller file, so deletion reads as progress. MAINTENANCE 303 → 290 lines (two oldest entries archived, crc `dfd3e19c`).
+### 5. Write-backs
+STATUS rebuilt on the **9/10 SETTLE** basis (**32,067 → 25,525 B**, 47% of cap; 9/6 header archived verbatim, crc32 `03f37693`) · NEXUS_BRIEF rewritten (**36,323 → 14,265 B**, 66 lines; old brief archived, crc32 `7373e9f3`) · **KB-VIO-270→275** · board_log +13 · VX_DAILY 416 → 419 rows.
 
 ---
 
-## NEXT SESSION (priority-ordered)
+## NEXT SESSION (priority order)
 
-1. 🔴 **THE 9/8 BAR — RED grades it live; my job is the vol-regime read, not the count.** ≥150 ⇒ 3 of 4. **Any bar <150 ⇒ RESET TO 0.** Labor Day is RULED a non-session (RED S41b). What I owe if live: **the regime read** — a tail bid into a banked `RED-FT-06` VIX<16 fire, in a holiday-shortened week. ⚠️ RED's standing ask: neither of us should let 9/8 pass unread — a genuinely MISSING 9/8 bar (exchange open, no bar) WOULD break the run.
-2. 🟠 **`--falsify`'s pinned rev is PERMANENT — do NOT move it forward.** ⚠️ **I first wrote "re-anchor it deliberately," which is wrong** (Codex): the pin is the **historical regression reference**, and the whole value of the harness is the **contrast** between it and current code. **A newer baseline erases that contrast and the suite still prints green** — the same silent no-op that broke v1. If a refactor stops it importing, **adapt the HARNESS** (shim the import, vendor a copy), never the baseline.
-3. 🔴 **`thresholds.py` STILL WRITES THE LEADING-EDGE ROW FROM YFINANCE — now the top instrument item, and today's work did NOT touch it.** `VX_DAILY`'s *history* is immune after WQ-188 + this pass; the row written at every boot is not, and **that is exactly the window an FT-10 bar is graded in.** RED's forward-fill mode (0.84%, silent, reads as a genuine flat print) is the one that bites a sustain counter. **Two options, decide then:** run `backfill.py` immediately after `thresholds.py` at boot, **or** re-point the leading-edge read — the second is a design question about what a pre-settle row MEANS. → KB-VIO-255/257
-3. 🟠 **Label the day-count UNIT in both instruments' stdout** (`cheap_tail.py` calendar, `catalyst_countdown.py` trading). Do **not** unify the units — they are deliberately different. Deferred today as a print-format change to the 4/4 operator surface, not made on a boot without direction. → KB-VIO-263
-4. 🟠 **Sweep the four remaining yfinance `^SKEW` readers** — `skew_trajectory.py`, `convexity_read.py`, `diet_coiled_spring.py`, `analog_pull.py`. **Triage by whether the read feeds a GRADED path**, not by whether the script looks important.
-5. 📅 **Grade `VIO-FOMC-0916`** — legs 1·4·5 + first read of leg 3 at the **9/16** close · leg 3 second read **9/18** · leg 2 **9/23** (MU confound withdrawn). Frozen letter: `research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md` §7.
-6. 🔴 **9/18 gamma re-measure.** Standing rule after v4.1.1: **never carry a HENRY gamma sign into a framework file again, in either direction — read HENRY's CURRENT brief.** If it returns positive, v4.1 ① is a state OSCILLATION and the file must say so.
-7. 🟠 **The DAEDALUS 🟠 register** (D#8 prediction registry · D#10 `TRADE.md` close row · D#12 three silent-rot ledgers · D#14 wire `test_daily_log.py` · D#9/16/17/18) — in STATUS § RESEARCH QUEUE with per-row dispositions.
-
----
+1. 🔴 **Fix `vx_daily_gapcheck.py`'s span** — `hi` = newest CBOE VIX date with ≥1 companion, **never `max(ledger dates)`**. Then **pair it with `backfill.py`'s inability to CREATE rows** — fixing one without the other leaves the hole.
+2. 🔴 **GRADE F-B at the 9/16 close** — SPX realized 9/11–9/16 vs 17.84% annualized. **Registered pre-CPI; grade it whichever way it lands.**
+3. 🔴 **Pull the 9/11 CPI reaction and the 9/11 15:30 COT release** (the 9/8 report — first new positioning since 9/1, and the matrix has carried p51.9 for ten days).
+4. 🔴 **D#11 call `skew_integrity.py` from `cheap_tail.py` at the `^SKEW` pull** — the window is CLOSED now, which makes this cheap to do and easy to forget.
+5. 🟠 **`thresholds.py` still writes the leading-edge row from yfinance** — open since 9/6; it is the exact window an FT-10 bar is graded in.
+6. 📅 **`VIO-FOMC-0916` grades at the 9/16 · 9/18 · 9/23 closes.** **FROZEN and untouched by VECTOR 2.** Also **9/16 is the VIX quarterly SOQ and the M1:M2 basis break** (pair → VX/V6 : VX/X6).
+7. 🟡 **Refresh the two `[STALE]` dashboard rows** — JPY vol (9/4) and VIX options C/P (9/6). Labelled, not carried.
+8. 🟠 **D#10 `TRADE.md`** (the 7/30 close row + WQ-177 heading strike + vintage header) · **D#8 prediction registry** — now owes it **two** more sets of legs (`VIO-FOMC-0916` ×5 and F-B) · **`workbook/LEDGER_GLOB` still absent.**
 
 ## CARRY-FORWARD
 
-- **⚠️ `--falsify` IS NOW THE STANDARD AND IT COST ~5 MINUTES.** A regression test never observed to FAIL is an assumption. The new suite runs itself against the **pre-fix code from git HEAD** and asserts a **negative control** (cases 1 and 4 must still pass) so it cannot "succeed" by failing everything. **Apply this to every guard on this desk** — several were built without it.
-- **⚠️ AFTER ADDING A GUARD, DELETE IT AGAIN AND CONFIRM THE TEST GOES RED.** The ablation on Fix C took one minute and converted "I believe this clause is needed" into "disabling it reproduces `skew=149.00` under `basis=SETTLE`."
-- **⚠️ A UNITS TRAP I WALKED INTO WHILE FIXING A UNITS BUG.** Trimming STATUS, my script printed `len(s)` — **characters** — while the read cap is in **BYTES**; emoji made the two differ by ~880 B, and I "confirmed" I was under budget when I was not. Caught by re-running the real checker rather than trusting my own number. **Measure with the instrument that enforces, not with a proxy.**
-- **⚠️ THE AM KB-EDIT BLAST-RADIUS LESSON HELD UP AND I APPLIED IT:** all five KB rows today were **appended line-targeted** (`git diff --numstat` = `5 0`), not written through a whole-file `csv.writer` re-quote. An edit's blast radius is set by the WRITE METHOD, not by the intent.
-- **⚠️ MEMORY.md's KB-VIO-247 entry still over-claims** ("erroneous phantom print" — PROME/Codex reframe says CBOE Global Trading Hours is a plausible legitimate source; nobody has read the 13 dates against that schedule). **Flagged, not silently patched** — it is a claim I published. Soften on its next edit.
-- **⚠️ Still unclosed and not mine:** which 2025-12-24 `^SKEW` value was FIRST published (RED), and WALTER's 8/28 backfilled-or-dropped question. Both boundaries clean.
+- **HENRY's gamma board is EXPIRED, not current** — 9/4 on the 9/3 close, and HENRY's own finding is a **one-session shelf life**. **Never carry a HENRY gamma sign into a VIOLET file in either direction; read HENRY's current brief.** HENRY says re-run `gamma_flip.py --days 35` before 9/16 and 9/18.
+- **FOMC hike odds moved off the coin flip** — CME FedWatch ~59–60%, Kalshi 57%, Polymarket 49% (9/10–9/11 secondary coverage, **INFERRED**). The 9/7 reading PROME carried is four days stale. **Re-check at a primary before quoting.**
+- **RED-FT-06's exit line (VIX ≥18 sustain-5) is 0.16 away for the first time.** RED-owned; do not grade it.
+- **Publication timing for `SKEW_History.csv` remains UNVERIFIED** — same-day availability observed, no cadence established. Grade when the dated bar exists.
 
----
+## OPEN HYPOTHESES (flagged, not actionable)
 
-## OPEN HYPOTHESES *(flagged, not actionable — none tested this session)*
-
-- **H1 — The far-tail bid and the front-end cheapening may be ONE trade, not two.** Unchanged and still untested. A second ≥150 bar with VIX9D at 11.97 and VIX3M/VIX at 1.2120 is the signature of selling the front to fund October convexity, and October 30/35/60 call OI is +106–313%. ⛔ **Still a flow claim I have not measured** — GEX is a positioning state, not a funding flow. **What would test it:** whether front-end supply and October call OI move together across 9/8–9/11.
-- **H2 — RETIRED 9/4.**
-- **H3 — If FT-10's chain survives 9/8, the fourth bar lands 9/9** — two sessions before CPI, six before the FOMC. **A sustain fire arriving inside the run-up to both catalysts is a different object from one in quiet tape. No base rate exists for this; do not improvise one.**
+- **H-new: the front-end repricing is an OPEX artifact as much as an FOMC one.** ~$6.2T expiring 9/18 with dealers plausibly short gamma below the flip would mechanically bid short-dated vol independent of the macro. **Not testable with what I own** — it needs HENRY's gamma board and an OI term breakdown. **Flagged so the 9/16 F-B grade is not read as a clean FOMC test if realized runs hot into OPEX.**
+- **H-carry: is the VRP measured against TRAILING realized systematically biased into a dated event stack?** Tonight's read depends on it and I named the weakness rather than resolving it. **Base-rateable: VIX-minus-RV10 at T−4 before FOMCs vs realized T−4→T+0.** Do not quote a number until it is run. `[[finding_base_rate_the_threshold_before_building_it]]`.
