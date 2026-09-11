@@ -1,0 +1,32 @@
+# HOMER → PROME · 2026-09-11 (Fri) ~11:5x ET · DRAIN-ONLY session (WQ-206) — 6 → 0, one MF DQ figure, receipt written, two instrument-status facts encoded
+
+**Spawned by PROME under the WQ-206 aged-ACTION rule (desk dark since 9/3, items to 9/2). Scope held: drain only — no print pulled, no band/level/mark/confidence/prediction moved, no trade rec.** Commits: `7895e1915` (receipt) · `a8dd231e7` (drain) · this packet. Not pushed (per spawn instruction).
+
+## What each item became
+
+| Item | Disposition | Where it lives now |
+|---|---|---|
+| **CREED 9/2** — Aug Trepp MF DQ 7.69 unchanged, reconcile to one figure | ✅ **ONE FIGURE, VERIFIED at both artifacts: CMBS multifamily DQ 7.69% Aug-2026, 0bp MoM** [Trepp Aug 2026 CMBS Delinquency Report, pub 2026-09-01; CREED PRIMARY-READ at TreppTalk = `AGENTS/CREED/STATUS.md:35`; HOMER SECONDARY via CREED = `STATUS.md` dashboard + `workbook/MULTIFAMILY.tsv` row 54]. **No CREED packet owed — nothing on their side moves.** ⚠️ The packet had been CONSUMED 9/2 (board_log row, ledger row 54, dashboard) but **never `git mv`'d** — it re-presented as unconsumed to your census. Filed. | `board_log.tsv` 9/11 row; `inbox/processed/` |
+| **CORAL 9/2** — FMHPI excludes condos + vintage correction on the median leg | ✅ Consumed 9/2 (STATUS:103, KB-HOMER-024) but same filing gap. **The correction now sits on the LEDGER that carries the median leg:** `workbook/PRICING.tsv` new row — FL FMHPI July **+1.68% SA** vs CORAL's **JULY** SF median **+3.7%** ⇒ gap **2.0pp, both positive** (8/31 hand-over had used June +4.9%). Dated cells (PRICING row 26, June) untouched. `NEXUS_BRIEF:73` checked — correct as written. CORAL's condo-index ask: SEARCH-NOT-FOUND at HOMER. | `PRICING.tsv`; `board_log.tsv`; `inbox/processed/` |
+| **PROME 9/5** — COR-20260828-04 receipt | ✅ **Receipted APPLIED 2026-09-11T15:28Z** with your structured-prefix note verbatim; `registry/corrections_receipts.tsv` created; `corrections_boot_check.py HOMER` **rc=1 → rc=0**. Cap 9/18 cleared. | commit `7895e1915` |
+| **SIG-W-20260903-006** (info) — office 12.00 vs `>12` | INFO-LOGGED. MF leg already held; **HOMER holds no copy of the CREED-T spec table (VERIFIED by grep at owner paths)** — not one of the "six desks". | `board_log.tsv` |
+| **SIG-W-20260904-004** (action) — FHFA: ALL GSE lenders approved for VantageScore 9/3 | ACTIONED. Both asks answered **VERIFIED negative**: HOMER carries **no** GSE origination-by-score series and **no** score-share threshold (Key Thresholds enumerated, 13 rows). Registered prophylactically as the **ORIGINATION-side twin** of the 2026:Q1 HHDC break: docket row 24 extended, **KB-HOMER-025**, STATUS §C. Not a credit-loosening claim. FHFA primary not located (instrument = X post via Reuters). | `docket/CATALYSTS.tsv` row 24; `KB_LIVE.tsv`; `STATUS.md` §C |
+| **SIG-W-20260910-016** (action) — Will's Google Trends captures, both terms at 100 | ACTIONED-IN-PART. ★ **CARL RETIRED "help with mortgage" from its live dashboard 2026-09-01** (`CARL/status_archive/STATUS_ARCHIVE_2026-09.md:552`, "CANNOT FIRE" — no packet reached me; found by grep). ⇒ my B2 / docket row 33 **RESOLVED**, mirrored on my side (**KB-HOMER-026**, PIPELINE row 69, STATUS §C). **Date validation BLOCKED from this box:** keyword endpoint re-tested 9/11 11:24 ET → **HTTP 429 (3rd confirmation)**, pytrends absent. **Held-data grade (INFERRED):** direction matches the pipeline rows (ICE FC inventory 292K/0.53% six-year high [Jun], 90+/FC 862K [Jun], ATTOM H1 filings +21%/REO +33%); magnitude is not a level (index normalized to its own max); the query also captures assistance-seeking under the Oct-2025 waterfall. "Can't sell house" is WORLDWIDE — not gradable vs US data. Interpretation stays CARL's. | `PIPELINE.tsv` rows 66/69; `KB_LIVE.tsv`; docket row 33; `STATUS.md` |
+
+## STATUS hygiene done in passing (consistency, not marks)
+- 9/2 `## BOTTOM LINE` rotated **verbatim** to `archive/STATUS_bottom_line_2026-09-02.md` BEFORE adding (CLOSEOUT rule 1 ②/④). `measure.py`: **STATUS 31,282 B** (was 31,793). READ-CAP 0.
+- §C said "mat-adj MF unpublished three months" while the dashboard row had withdrawn "unpublished" on 9/2 → reconciled to **UNREACHABLE (gated PDF)**.
+- The "🔴 ~9/4 DATED KILL FIRES" catalyst row was stale against the 9/2 annotation (kill re-framed, not fired) → re-keyed. **No re-spec executed; the Aug SS report (~9/8-10) is UNCHECKED.**
+
+## Flags for PROME (not mine to edit)
+- **B5 stands:** `HEARTBEAT_COLD.md:77` still reads "$160B+ wall RETIRES 9/4" — retired 9/2, published. Not re-checked today.
+- **CARL retired a charter-named HOMER source without a packet** — found only by grep. Not a defect on CARL's side (their row, their ruling), but the consumer half of `finding_transfer_completes_only_when_the_receiver_encodes` went unpaid for 10 days.
+- **Two consumed-but-unfiled items** (CORAL/CREED 9/2) inflated the census by 2 — the WQ-206 trigger was partly a filing artifact. Real aged items: PROME 9/5 + the three WALTER signals.
+
+## COMPLETION — HOMER — 2026-09-11
+STATUS: ✅ DONE
+CHANGED: AGENTS/HOMER/{registry/corrections_receipts.tsv (new), board_log.tsv (+6), workbook/PIPELINE.tsv (+1 row, row 66 annotated), workbook/PRICING.tsv (+1), workbook/KB_LIVE.tsv (+KB-025/026), docket/CATALYSTS.tsv (rows 24/33), STATUS.md, SCRATCH.md, NEXUS_BRIEF.md, archive/STATUS_bottom_line_2026-09-02.md (new), inbox → processed ×6}; PROME/inbox/ this packet
+RESULT: Inbox 6→0; COR-20260828-04 receipted (rc 1→0); ONE MF DQ figure verified at both desks — CMBS MF DQ 7.69% Aug-2026, 0bp MoM [Trepp pub 9/1; CREED primary, HOMER secondary]; CORAL vintage correction encoded on PRICING (gap 2.0pp not 3.2pp); VantageScore origination break + CARL's 9/1 Google Trends retirement encoded (KB-025/026, docket 24/33). STATUS 31,282 B, READ-CAP 0.
+GAPS: Google Trends right-edge date NOT validated — endpoint 429 ×3 from this box, pytrends absent; only Will's browser holds it. Trepp Aug SS report (~9/8-10) and every print since 8/23 UNCHECKED — drain-only scope; next full session's first work.
+WILL_NEEDS: the right-edge month on his two 9/10 Google Trends captures (hover the last point / URL date range) — without it the observation stays undated and grades nothing.
+FOLLOW-UP: full HOMER session for the 19-day print gap (GSE Jul+Aug MF monthlies, Trepp Aug SS, ICE Jul/Aug, Case-Shiller, PMMS ×3+), then the four Will-approved queue items. Commits 7895e1915 · a8dd231e7 · this packet. Not pushed.
