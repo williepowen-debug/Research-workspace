@@ -10,13 +10,75 @@ State file for the docket-steward sub-agent. Spec is in [`KOYOMI.md`](KOYOMI.md)
 
 ## CHANGES SINCE LAST RUN
 
-Run20 follows SAM's September 8 catch-up and integration (46d9e21f8), after prior steward Run19 September 2. Current owner state: v1.7 retired, no successor or entry; SAM-28/31 OPEN, SAM-39 resolved. BOJ source replaced with reviewed Totan meeting OIS; old futures ledger frozen.
+Run 21 is **2 days** after Run 20 and is an **audit of SAM, not of the calendar**. Between the two runs SAM ran a Sep-10 ET boot and a Sep-11 session, and today rewrote five docket rows, published two new thesis/research documents, and ran a **40-file retirement sweep** (commit `fbfd4fed`) moving material to `AGENTS/SAM/archive/<original relative path>`.
 
-Two resolved TSV rows remained, four approved follow-ups were unsorted, proxy expiry used unsupported type `internal`, and BOJ dates confused publication with value dates. September 29 precision obligation needs tenor-aware terms; no tail exists for uniform-price 40Y (KB-SAM-175, parent/KURA reminder). No market outcome or historical prediction condition changes are authorized.
+What moved in the read-set: `thesis/AUCTION_GRADING_RULING_2026-09-11.md` (RULING 1 — PRECISION-LIMITED tag at the Sep-15 20Y; RULING 2 — the bars are NOT tenor-portable to uniform-price auctions, so the Sep-29 40Y is NOT-APPLICABLE and the CH-016 counter stays 0-of-2) and `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (Sep-14 CME yen proxy: DO NOT ACTIVATE, plus a follow-up UNWIRE action). Sep-11 CGPI and US CPI both printed. The July PPI 7.2% / June 7.1% pair was superseded at the BOJ primary by **July +7.7% r / June +7.4%**.
 
----
-
+**The Sep-29 tenor-portability obligation Run 20 escalated is now RULED and closed** — SAM answered it in writing. The Run-19 monthly-audit deferral and the MOF September alteration-page re-check were both still open coming in; the alteration check is closed this run, the audit deferral is not.
 ## LAST RUN
+
+### Run 21 — 2026-09-11 ET (AUDIT-HEAVY: verify SAM's five same-day row rewrites · path-rot check against the 40-file sweep · figure hunt · October forward-completeness audit)
+
+**Sources/clocks:** start ~10:5x ET Fri Sep-11. Read-set: KOYOMI.md, this file, STATUS.md, CALENDAR.md, CATALYSTS.tsv, RELEASES.md, `thesis/AUCTION_GRADING_RULING_2026-09-11.md`, `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md`, `workbook/JGB_AUCTIONS.tsv`, `workbook/MOF_FLOWS.tsv`, `workbook/BOJ_MEETING_OIS.tsv`, `workbook/KB.tsv`, `scripts/boot.py`, `scripts/xccy_basis.py`, git commit `fbfd4fed`. Nine primary-source fetches (MOF Oct calendar ×2, MOF Sep alteration page, MOF BoP schedule, BOJ MPM schedule ×2, BOJ Tankan page, Fed FOMC calendar, BLS CPI schedule, Japan Customs calendar raw-HTML, Stats Bureau CPI schedule).
+
+**1 — VERIFICATION OF SAM'S FIVE REWRITTEN ROWS (checked at the source documents and the workbook, not taken on say-so).**
+
+- **Sep-14 CME yen proxy — CONFIRMED, and the follow-up ACTION is real.** Every figure in both docket files matches `ACTIVATION_DECISION_2026-09-11.md`: residual **-9.5544bp -> +15.4456bp** on a **+25.00bp** assumption shift (arithmetic checks; the "**2.6x**" is 25.00/9.55 = 2.618, the artifact-to-signal magnitude ratio, correctly stated), vendor rounding **+3.06bp** = "a third of the signal" (3.06/9.55 = 0.32), legs desynced **37,786s**, pair **6JZ26->6JH27 stands, the FEED is declined**, three-part re-open condition. **The UNWIRE action is independently verified in code, not merely asserted:** `scripts/boot.py` line 72 wires `xccy_basis.py`, and `scripts/xccy_basis.py` sets `NEAR_EXP = date(2026, 9, 14)` with `if as_of >= NEAR_EXP: print("... NO VERDICT"); return 1`. From Sep-14 the wired boot prints a permanent FAIL, exactly as the row says. ⚠️ The ACTION exists **only in the docket** — it is not in the ACTIVATION_DECISION document.
+- **Sep-15 20Y — CONFIRMED, exact.** RULING 1 states the criterion as `|observed - bar| <= 1 quantization unit (0.1bp on MOF 3-decimal yields)`; both docket files say "trip margin <=0.1bp => tag PRECISION-LIMITED; letter grade stands but may not be cited as evidence of demand without the tag". Bars `SOFT: BTC<3.5 OR tail>2.0bp` / `FIRM: BTC>=4.0 AND tail<=1.0bp` match the ruling verbatim. **The "20Y BTC spans 2.967-4.820" claim re-derived from `workbook/JGB_AUCTIONS.tsv`: 2.967 / 3.982 / 4.011 / 4.522 / 4.820 — min and max exact, n=5, tail published on all five, and the range genuinely straddles both bars.**
+- **Sep-16 Japan trade balance — CALENDAR CORRECT, TSV STALE. Defect found and fixed (item 2).**
+- **Sep-29 40Y — CONFIRMED, exact.** `workbook/JGB_AUCTIONS.tsv` holds exactly two 40Y rows: 2026-05-27 BTC **2.702** and 2026-07-22 BTC **2.824**, **both with an empty tail column** — the mechanical proof of both disqualifiers the ruling names (FIRM unreachable because no tail is published; SOFT fires with probability 1 because both observations sit ~0.7 below the 3.5 bar). "Re-assess at n=5", "counter stays 0-of-2", "no 40Y bar registered" all mirror RULING 2 in both files.
+- **Sep-11 CGPI and US CPI — CGPI correctly stamped in BOTH files; US CPI stamped in the TSV ONLY (defect, fixed — item 3).** CGPI figures agree across CALENDAR, TSV and STATUS line 28. **The 7.2% -> +7.7% r correction propagated cleanly: every surviving "7.2%" in the docket and in STATUS sits inside an explicit supersede-warning naming it as the retired value — zero live citations of the old pair.** That is the correct shape and must not be "fixed".
+
+**2 — 🔴 THREE DEFECTS FOUND IN `CATALYSTS.tsv`, ALL FIXED. They are one pattern: SAM rewrote CALENDAR today and did not carry the rewrite into the TSV — and the boot countdown reads the TSV.**
+
+- **🔴 A 10x FIGURE ERROR (the class the spawn predicted).** The Sep-30 BOJ Oct-Dec schedule row read `monthly 2,500 x 100M yen` = **¥250B/month**. The correct figure is **25,000 x ¥100M = ¥2.5T/month**, verified at **KB-SAM-238** (grade **A1**, read at the BOJ primary `mpr260831a.pdf`: "Monthly plan 計 25,000 (¥2.5T)") and at STATUS line 62. **CALENDAR already said ¥2.5T/mo — so the two docket files disagreed by an order of magnitude on the comparison baseline of a row whose entire job is "compare the Oct-Dec plan against the Jul-Sep plan."** Fixed to `monthly 25,000 x 100M yen (= 2.5T yen/mo)`. ⚠️ The neighbouring `25Y+ 750 x 100M yen per auction` = ¥75B **was and remains correct** in both files — which is precisely why the error survived: the row's other unit-converted figure checks out, so the row reads self-consistent.
+- **🟠 Sep-16 trade balance left on its pre-rewrite framing AND priority.** TSV `what_to_check` read "Balance; export vs import legs" and `threshold_signal` read "Monthly universe class; oil-in-yen Phase-1 read" — neither the **read crude VOLUME not value** instruction nor **leg (a) of the VECTOR-5 re-open test**, both of which SAM put into CALENDAR *and* STATUS line 106 today. Priority was **🟡 in the TSV vs 🟠 in CALENDAR**. Mirrored the framing across in terse form (per the TRUTH MODEL) and raised the TSV to 🟠. **ESCALATION-LOG, veto-able in one line** — the TRUTH MODEL makes the TSV authoritative on priority, and I overrode it on the reasoning that the TSV is the file that was *not* touched in today's rewrite.
+- **🟡 Invalid `type` token.** The Sep-16 BOJ 25Y+ row carried `type=operation`. The schema (KOYOMI.md § CATALYSTS.tsv format rules) admits only `external` and `sam-internal`. **`catalyst_countdown.py` silently treats any non-`sam-internal` value as external**, so the row *rendered* correctly — a wrong value producing a right-looking output, which is why it survived Run-20's own type sweep. Set to `external` (matches CALENDAR, which gives the row no 🔧, and `who_cares` = SAM,LIQUID, i.e. not SAM-only). ESCALATION-LOG.
+
+**3 — Two defects fixed in `CALENDAR.md`.**
+- **US CPI Sep-11 was RESOLVED in the TSV and still a plain forward 🟡 row in CALENDAR** — no ✅, no outcome. The spawn's premise ("SAM stamped both ✅ RESOLVED") is true of the TSV and **false of CALENDAR**. Stamped it with the TSV's own outcome (headline +0.4% m/m / 3.4% YoY in line; core +0.3% / 2.4%, one tick SOFT vs +0.4% consensus; energy +2.1%, gasoline +3.9%), cross-checked against STATUS line 64.
+- **Sep-10 row migrated out of the SEPTEMBER forward table into RECENTLY RESOLVED** (spec §1 — the date has passed). Its distinctive content (Totan Sep-10 11:15 JST review, BOJ Sep-10 provisional +¥340B vs +¥220B projection, +¥120B residual, "Sep-7/8 attribution remains OPEN") was **not** covered by the existing September-10 catch-up bullet, so it was carried across rather than dropped. Figures re-verified: MOF weekly LT **+¥111.9B** = `MOF_FLOWS.tsv` period `2026．8．30～9．5` value `0.112`; **340 - 220 = 120**.
+- Added the primary-confirmed **08:50 JST** clock to the Sep-16 trade-balance row.
+
+**4 — PRUNE DECISION ON THE TWO SEP-11 ROWS: KEEP, do not prune. Rationale logged as the spawn asked.** The spec prunes an event from the *forward* view "as soon as its date passes" — **Sep-11 is today, not past.** The CFTC 15:30 ET row on the same date had not printed at run time (~10:5x ET). The >7d RECENTLY-RESOLVED retention clock has not started for either row; it starts when they migrate. **They become migration-eligible Sep-12 and prune-eligible Sep-19.** Pruning today would delete same-day outcomes from the only surface that currently carries them machine-readably.
+
+**5 — 🔍 PATH-ROT CHECK AGAINST TODAY'S 40-FILE RETIREMENT SWEEP — CLEAN, 0 dead links.** Enumerated all 40 renames from commit `fbfd4fed` and grepped **full old relative paths** (not basenames) against CALENDAR, CATALYSTS and RELEASES: **zero hits.** A basename pass produced one hit which is a **false positive** — `research/japanese_sources/sources/README.md` matched on `README.md`, catching `workbook/BOJ_OIS_README.md`, an unrelated live file. **Nothing SAM archived today was referenced from the docket.** Separately re-resolved every path-like token in CALENDAR from the docket's own directory: **all 23 resolve.** The two new documents the spawn named both resolve: `../thesis/AUCTION_GRADING_RULING_2026-09-11.md` and `../research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md`.
+- ⚠️ **One cosmetic inconsistency, NOT fixed (flagged instead):** CALENDAR mixes two path conventions — `../thesis/X` (docket-relative, correct as a link) and bare `thesis/X` (SAM-relative). Both forms sit inside backticks rather than markdown links, so nothing is broken today, but the SAM-relative ones would not resolve if anyone turned them into links. They are mostly in historical prune-notes. Normalising is a whole-file sweep; escalated rather than done mid-audit.
+- The two review packets cited bare in RECENTLY RESOLVED (`2026-09-11_CFTC_REVIEW.md`, `2026-09-18_SAM28_SAM31_REVIEW.md`) **live in `docket/` itself**, so the bare names resolve as siblings. Not a defect.
+
+**6 — FIGURE HUNT beyond the one the spawn already knew about.** Re-derived every checkable number in CALENDAR against its own primary or workbook:
+- Sep-3 30Y: BTC **3.788** / tail **2.1bp** match the workbook. **"trailing-12 mean BTC 3.523"** — recomputed from the 12 preceding 30Y rows = **3.5231**, exact. **"10th of 13"** correct (sorted ascending, 3.788 is 10th). **"tail 2nd-widest of 13"** correct (2.80, then 2.10).
+- Sep-1 10Y: BTC **3.286** / tail **1.6bp** / high **3.011%** / WA **2.995%** — all four exact.
+- 40Y n=2 **2.702 / 2.824**; 20Y span **2.967-4.820**.
+- MOF quarterly cadence: Mar-31->May-12 = **+42d**, Jun-30->Aug-7 = **+38d**, Sep-30 + 38..42 = Nov-7..Nov-11, midpoint **Nov-9**. Arithmetic sound. Per-op split 6,278.7 + 780.2 + 4,675.9 = 11,734.8 vs stated 11,734.9 (rounding). RECORD aggregate split ~8.45T + ~6.95T = 15.40T.
+- Crude-volume conversion: 12,106 kKL x 6.2898 = 76.14 M bbl ("~76.1"); /31 = 2.456 ("~2.46 mb/d").
+- **"98% priced" — VERIFIED CURRENT, not stale.** `workbook/BOJ_MEETING_OIS.tsv` carries a `2026-09-11T11:15:00+09:00` row for `meeting_month 2026-09` with `incremental_25bp_equivalent_pct = 98`, and a later 15:15 row the same day at the same 98. CALENDAR's attribution ("Totan Sep-11 11:15 JST") is exact. The Sep-10 row's "Totan chart Sep-10 11:15 JST" likewise matches the `2026-09-10T11:15` row.
+- **ALL WEEKDAY CLAIMS CHECK:** Sep-11 Fri, Sep-14 Mon, Sep-15 Tue, Sep-16 Wed, Sep-18 Fri, Sep-29 Tue, Sep-30 Wed, Oct-2 Fri, Oct-8 Thu, Nov-9 Mon, Nov-13 Fri, Jan-25-2027 Mon — **12 of 12 correct.**
+- **No second stale figure found in the docket.** The 10x unit error in item 2 is the only wrong number.
+
+**7 — 🔍 FORWARD-COMPLETENESS AUDIT (spawn item 4) — PROPOSE-ONLY, written to PENDING.** The monthly trigger has NOT fired by the letter (September's first run was Run-19, whose deferral to "first run of October" is still open), so this ran as an explicitly-requested same-class extension under spec §2a, not as the monthly baseline audit. **Finding: the TSV forward feed ends Sep-30 and does not resume until Nov-9 — October is completely empty, a 40-day hole** — and two events SAM already tracks in CALENDAR prose have no TSV row at all. **13 proposed rows, all source-fetched today**, listed in PENDING. CALIBRATION checked first: **no declined release classes**, so nothing was excluded on that ground; liquidity-enhancement (Oct-22 / Oct-27) excluded per the universe rule.
+
+**8 — Publication clocks: 6 confirmed at primary, 1 near-miss caught, 1 standing obligation discharged, 1 broken link found.**
+- **Sep-16 Japan Aug trade balance, 08:50 JST — RE-CONFIRMED**, and confirmed the *right* way: the WebFetch summary of the Customs calendar garbled the table on the first pass (the known Run-13 failure), so it was **parsed from raw HTML**. The `Aug.` row reads `Aug.28 / Sep.8 / Sep.16 / Sep.29` and the 3rd column is the whole-month provisional — anchored empirically by the `Jul.` row's 3rd column `Aug.20`, which is the July trade balance this docket already graded. The same convention gives **Japan September TB = Oct-21**.
+- **Sep-18 BOJ MPM is NOT an Outlook Report meeting — CONFIRMED at the BOJ schedule, and this nearly became a false finding.** The first fetch of that page returned "Sept. 17-18 (Outlook Report)", which would have made both docket files wrong. A second, explicitly-targeted fetch of the same URL returned the opposite and matched the Jan/Apr/Jul/Oct Outlook pattern. **The docket is right; the first fetch was wrong.** The same thing happened on the MOF October calendar, where the first fetch silently omitted the **Oct-8 30Y auction** and an exhaustive re-fetch surfaced it. *One fetch of a schedule table is a sample, not a read.*
+- **Sep-16 FOMC = SEP meeting — RE-CONFIRMED**; Oct 27-28 no SEP; Dec 8-9 SEP.
+- **Oct-8 MOF Balance of Payments, August (Preliminary), 08:50 JST — CONFIRMED at the MOF primary**; the same release also carries **BoP Q2-2026 Second Preliminary**. CALENDAR's beyond-horizon row is correct.
+- **MOF September alteration page `2609ae.htm` = HTTP 404 today => no September alterations exist.** This **closes** the Run-20 PENDING item, which had recorded only a tool Internal Error and could therefore conclude nothing, and discharges Run-13's "re-check due early September".
+- **BROKEN LINK in RELEASES.md (SAM's to fix, not mine):** `boj.or.jp/en/statistics/outline/rele/index.htm` returns **404**. Tankan's date could therefore only be cadence-derived (June-2026 survey released Jul-1 => ~Oct-1) and is flagged ESTIMATE, not confirmed.
+
+**9 — RELEASES.md:** appended a **Run-21 source-fetch block** (17 rows) per audit step 6 — every date that became a TSV-proposal row is recorded with source URL and check date whether or not SAM applies the delta. Also appended closure clauses to **two stale notes still asking for work already done**: the Run-13 alteration-page re-check (discharged today) and the Aug-27 "MOF monthly STILL UNRESOLVED between 8/28 and 8/31" row (closed at Run-19 — it landed Fri 8/28, ¥15,399.3B). ESCALATION-LOG: those two are edits *beside* the Confirmed-dates table rather than pure appends *to* it; each is one appended clause with no restructure, and leaving a discharged obligation reading as live is the worse failure.
+
+**10 — Memory roller: report-only, NOT applied, and the candidate is the SAME FALSE POSITIVE Run 20 already caught.** `subagent_memory_roll.py` proposes rolling **Run 17** (25 lines / ~8K; 551 -> 525 lines). Run 20 diagnosed the cause: the terminal regex matches the incidental phrase *"rewriting closed history isn't this sweep's job"*, which is not a closure marker for that run. Spec rule 4 — an unmarked block stays LIVE, silence is never closure. **Not applied, second run running.** Now a tool defect at n=2, not a one-off; see PENDING E.
+
+**11 — ⚠️ SELF-REPORTED NEAR-MISS: I destroyed this file mid-run and restored it from a backup.** The first write pass computed a section span with `str.index("## NEXT RUN HINTS")`, which matched the **quoted mention on line 5 of this file's own header** ("SAM may pre-edit between runs to seed `## NEXT RUN HINTS` or `## PENDING`") instead of the real heading — splicing out everything between line 5 and `## CALIBRATION` and taking the file from **109,423 B to 9,361 B**. The falling byte count in the tool's own output is what caught it; a pre-edit `cp` to `/tmp` made the restore exact (byte-identical to the pre-run file). **This is `[[finding_anchor_splice_deletes_everything_between_nested_anchors]]` and `[[finding_a_file_that_examples_its_own_structure_is_ambiguous]]` firing together, and it is the second consecutive run to hit an unanchored-heading edit** (Run 20 hit the same class). The rewrite uses `re.finditer(r'^## ...', text, re.M)` with an **assert that exactly one line-start match exists**, a size-sanity assert per replaced block, a post-edit presence check on eight must-survive anchors, and a final assert that the file GREW. **The generalisable rule for this file specifically: never anchor on a `## ` string, because the header quotes its own section names.**
+
+**Verification (post-edit):** `awk -F'\t' '{print NF}'` = **8 on all 18 lines** (17 data rows), no drift. Date-sort: clean. `type` tokens: **15 external + 2 sam-internal, zero invalid** (was 14 / 2 / 1). `jgb_auctions.py` token filter: **3** forward rows containing "JGB"+"auction" (Sep-15 20Y, Sep-29 40Y, Sep-30 2Y), all `type=external`, zero sam-internal. `catalyst_countdown.py` **rc=0**, no parse errors. CALENDAR <-> CATALYSTS forward-event set: **September 14 = 14, exact**, and priorities and who_cares now match row-for-row on all 14 (was 13 of 14 — the Sep-16 TB priority). Beyond-horizon is **CALENDAR 5 vs TSV 3, and the gap is correct-by-design in one case and the finding itself in the other**: the early-Oct extraordinary Diet session has no fixed date and therefore cannot be a TSV row (strict `YYYY-MM-DD` rule), while **Oct-8 MOF Balance of Payments has a confirmed date and no TSV row** — that is PENDING A row 5, not an accounting discrepancy. TSV total **17 rows**. CALENDAR **30,600 B**, inside the 32,550 B read cap. Sep-18 cluster: **3 distinct event names**, **exactly 1 sam-internal** — ⚠️ down from the standing monitor's "four rows / exactly two internal", and **correctly so**: the INFRA_AGENDA row retired Sep-9 when SAM recorded all four dispositions. The monitor's own count was stale and is corrected below.
+
+**Runway:** **501d** to the furthest TSV event (2027-01-25 NBIM) — but that is a lone far-horizon marker and not the operative number. **The operative runway is 19d, to Sep-30**, after which the feed is empty until Nov-9. **11 events in the next 14 days.**
+
+**Baseline audit:** monthly trigger **NOT fired by the letter** (first September run was Run-19; October is the next). The October work above ran as the spawn's explicitly-requested completeness check under the spec §2a same-class-backfill exception — **propose-only, nothing auto-added.** The inherited deferral is **not** discharged by it.
+
+**Runtime:** ~50 min. **Did NOT commit or push** — left for SAM.
 
 ### Run 20 — 2026-09-08 ET / 2026-09-09 UTC and JST (post-integration residual sync)
 
@@ -347,6 +409,50 @@ CALIBRATION declined-classes checked first: none declined. Sources fetched: MOF 
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### 🆕 Run 21 — 2026-09-11 (4 applied ESCALATION-LOG defaults · 1 propose-only delta · 3 decisions SAM owns)
+
+**A — 🔴 PROPOSE-ONLY: the October forward feed is EMPTY. 13 rows, every date source-fetched 2026-09-11, NOT added to the TSV.**
+The TSV runs out at Sep-30 and does not resume until Nov-9 — a **40-day hole starting 19 days from now**. CALIBRATION checked first: **no declined classes**. Liquidity-enhancement (Oct-22 5-11y, Oct-27 11-39y) excluded per the universe rule.
+
+| # | Date | Event | Sugg. priority | Sugg. who_cares | Rationale / source |
+|---|---|---|---|---|---|
+| 1 | 2026-10-01 | **BOJ Tankan, September survey (Q3)** | 🟡 | SAM | ⚠️ **ESTIMATE ONLY** — cadence from the Jun-2026 survey's Jul-1 release; the BOJ release-schedule URL in RELEASES returns 404. Confirm before applying. Universe class: quarterly Tankan. |
+| 2 | 2026-10-02 | **Tokyo CPI, September (preliminary)** | 🟠 | SAM | ✅ RELEASES-CONFIRMED since 2026-07-31 and named in CALENDAR prose as the carried October-audit boundary — **but it has never had a row in either file.** First post-MPM Tokyo print. |
+| 3 | 2026-10-06 | JGB 10Y auction | 🟡 | SAM,LIQUID | MOF Oct calendar `2610e.htm`. |
+| 4 | 2026-10-08 | **JGB 30Y auction** | 🟠 | SAM,LIQUID,BOND | MOF Oct calendar. **The next auction the frozen internals bars actually apply to after Sep-15** — and the Sep-3 30Y is the auction whose 0.1bp trip margin produced RULING 1. |
+| 5 | 2026-10-08 | **MOF Balance of Payments, August (Preliminary), 08:50 JST** | 🟡 | SAM | ✅ CONFIRMED at MOF primary today. Already a CALENDAR beyond-horizon row with no TSV row; now 27d out, inside the countdown horizon. Same release carries BoP Q2-2026 Second Preliminary. |
+| 6 | 2026-10-14 | JGB 5Y auction | 🟡 | SAM,LIQUID | MOF Oct calendar. |
+| 7 | 2026-10-14 | **US CPI, September data, 08:30 ET** | 🟡 | SAM,HENRY | ✅ BLS schedule. Route-4 inflation leg; first print after the Sep-16 FOMC. |
+| 8 | 2026-10-20 | JGB 20Y auction | 🟡 | SAM,LIQUID | MOF Oct calendar. First 20Y after the Sep-15 PRECISION-LIMITED test. |
+| 9 | 2026-10-21 | **Japan trade balance, September (provisional), 08:50 JST** | 🟠 | SAM | ✅ Customs calendar, 3rd date-column. **The follow-on to the Sep-16 VECTOR-5 leg (a) read** — and the first TB that could carry the September oil shock, which SAM's own CGPI row says reaches none of the pre-MPM statistics. |
+| 10 | 2026-10-23 | **Japan National CPI, September** | 🟠 | SAM | ✅ Stats Bureau. Third print on the 2025 base; parallel 2020/2025 publication continues through December. |
+| 11 | 2026-10-28 | FOMC decision (Oct 27-28) — **no SEP** | 🟠 | ALL | ✅ Fed calendar. **No dot plot** => the registered Fed-side tripwire (dot walk-back vs Jun-17) **cannot be tested at this meeting**. Worth saying on the row so nobody grades it there. |
+| 12 | 2026-10-29 | JGB 2Y auction | 🟡 | SAM,LIQUID | MOF Oct calendar. Collides with BOJ MPM day 1. |
+| 13 | 2026-10-30 | **BOJ MPM day 2 decision (Oct 29-30)** | 🔴 | ALL | ✅ BOJ schedule. |
+
+*(Rows 2 and 5 already exist as CALENDAR prose without a TSV row, so the strict "new to both files" count is 11.)*
+⛔ **KOYOMI added none of these.** Per spec §2a SAM owns "what counts as a catalyst under the current thesis lens."
+
+**B — ESCALATION-LOG (4 applied, each veto-able in one line):**
+1. **TSV Sep-30 BOJ-schedule row: `monthly 2,500 x 100M yen` -> `monthly 25,000 x 100M yen (= 2.5T yen/mo)`.** Barely a judgment call — a 10x transcription error against an A1 primary-verified KB row, with CALENDAR already carrying the right figure.
+2. **TSV Sep-16 trade balance: framing mirrored from CALENDAR/STATUS + priority 🟡 -> 🟠.** The priority raise is the judgment part; the TRUTH MODEL makes the TSV authoritative on priority and I overrode it. **Veto this one first if any.**
+3. **TSV Sep-16 25Y+ row: `type=operation` -> `external`.** Schema conformance.
+4. **RELEASES: closure clauses appended to two stale notes** (Run-13 alteration re-check; Aug-27 MOF-monthly "still unresolved"). Strictly edits *beside* the Confirmed-dates table rather than appends *to* it.
+
+**C — 🟠 SAM DECIDES #1: the "never restate a BOJ %" convention is now self-contradictory inside the TSV.**
+The Sep-18 BOJ MPM row still carries the standing prohibition — *"No pricing percentage restated"* — while the **Sep-14 row in the same file** and **two CALENDAR rows** restate **98% priced**. The 98% is not a defect: it is dated, sourced, and verified this run against `BOJ_MEETING_OIS.tsv`'s own `2026-09-11T11:15` row. **So the figure is fine and the prohibition text sitting beside it is what has gone stale.** KOYOMI touched neither — stripping a sourced figure or retiring a standing convention is SAM's call, not maintenance. **Decide which wins and make both files say it.**
+
+**D — 🟠 SAM DECIDES #2: `✅ RESOLVED —` is now being written into the TSV `event` field.**
+Both Sep-11 rows carry it. `event` is the machine-readable identity — `jgb_auctions.py` filters on tokens inside it — and no prior run has put status there; the established form is to migrate the row out to CALENDAR's RECENTLY RESOLVED. **No harm today** (neither row is a JGB auction and both migrate tomorrow), so nothing was changed. But as a habit it will eventually land on a row a parser reads. One line of ruling: is status-in-event-name a form, or a one-off?
+
+**E — 🟡 SAM DECIDES #3 (inherited, now n=2): `subagent_memory_roll.py` has a false-positive terminal match.**
+It proposed rolling **Run 17** again. Run 20 already diagnosed it — the terminal regex matches the incidental phrase *"rewriting closed history isn't this sweep's job"*, not a closure marker. Not applied, twice. **A detector that fires wrong on the same block every run is the exact "flag that trains you to ignore it" failure SAM's own Sep-14 UNWIRE reasoning rests on.** Either mark Run 17 closed deliberately, or tighten the regex. (Script is outside KOYOMI's write-set.)
+
+**F — 🟡 Housekeeping for SAM (outside KOYOMI's write-set — flagged, not fixed):**
+- **`RELEASES.md` carries a dead URL:** `boj.or.jp/en/statistics/outline/rele/index.htm` -> **404**. It is the "Outline of Statistics and Statistical Release Schedule" link that would have confirmed the Tankan date.
+- **`CALENDAR.md` mixes `../thesis/X` and bare `thesis/X` path conventions.** Nothing is broken (all backticked, not links) but it is inconsistent, mostly in historical prune-notes. Normalising is a whole-file sweep — say the word and it can be its own run.
+- **The Sep-14 UNWIRE action lives only in the docket**, not in `ACTIVATION_DECISION_2026-09-11.md`. Verified correct in code (`boot.py:72` + the `xccy_basis.py` NEAR_EXP guard). **Once the docket row is pruned after Sep-14, the obligation's only written home disappears** unless SAM records it where the row itself says it should go — the MANUAL-ONLY list in `SAM/CLAUDE.md`.
+
 ### Run 20 — current dispositions (September 8 ET / September 9 JST)
 
 - **OPEN — inherited monthly audit deferral:** Run19 spec/convention disagreement remains for SAM. Tokyo September CPI Oct2 is confirmed but not a TSV row; preserve October boundary. MOF alteration fetch failed, current existence/absence unknown.
@@ -503,30 +609,29 @@ CALIBRATION declined-classes checked first: none declined. Sources fetched: MOF 
 
 ## STANDING MONITORS (surface each run)
 
-- **Sep9/10 sources:** distinguish BOJ projection/provisional/final and their value/publication dates. Independent broker baseline required; calendars supply no intervention finding.
-- **Sep11 CFTC:** approved one-off external observation, no new gate. CPI separate at BLS 08:30 ET.
-- **Sep14 fixed pair:** replace only after validation; existing script stops, no silent roll. Parent reviewing reminder scope.
-- **Sep18 four rows:** National CPI / BOJ decision / SAM-28+31 grading / INFRA agenda; exactly two sam-internal. No early grades or revived fuel gate; SAM-39 closed, SAM-33 Dec31 in prediction ledger. Agenda estimate remains approximate, SAM-only visibility.
-- **BOJ source:** BOJ_MEETING_OIS.tsv plus BOJ_OIS_README.md; old ledger frozen. New image needs review; no copied percentage, no conflating incremental equivalent with cumulative counts.
-- **Sep29 precision / instrument:** 40Y uniform-price means NO tail (KB-SAM-175); prospective SAM ruling owed before next relevant test. Sep3 SOFT and CH-016 counter 0-of-2 unchanged; parent owns application of counter to next eligible grade.
-- **CPI and audit boundary:** dual 2020/2025 publication through December; name base. Tokyo September release Oct2 confirmed, monthly audit deferral remains open. September MOF alteration attempt failed; recheck outstanding.
-- **Far horizon:** Nov9 MOF and Nov13 FRBNY are estimates, reverify early November; MOF stays orange. Jan25 2027 NBIM report deadline does not establish executed buying or implementation sequencing.
-- **BND-11:** no new weekly gate absent owner-ratified four-week terms; Sep10 is existing SAM-approved one-off follow-up.
-
----
+- **🆕 Sep-18 cluster is now THREE rows, not four, and ONE sam-internal, not two.** BOJ MPM decision (external) · SAM-28/31 grading at close (sam-internal) · Japan National CPI (external). **The INFRA_AGENDA row is correctly gone** — SAM recorded all four dispositions Sep-9 under the located Aug-21 ruling, so the auto-retirement never fired. *The prior "four rows / exactly two internal" monitor had been stale since Sep-9; verified and corrected at Run 21. Do not read the missing 4th row as a regression.*
+- **🆕 October gap:** the TSV runs out **Sep-30** and does not resume until **Nov-9**. Until SAM rules on the Run-21 delta (PENDING A), the boot countdown goes blank in early October. Re-surface every run until applied or declined.
+- **🆕 Sep-14 UNWIRE obligation:** on or after Mon Sep-14, `xccy_basis.py` must come out of `boot.py` (verified: `boot.py:72` wires it; the `NEAR_EXP` guard returns 1 from Sep-14 => permanent boot FAIL). **The action's only written home is the docket row that gets pruned after Sep-14** — confirm SAM has moved it to the MANUAL-ONLY list before that row goes.
+- **🆕 A schedule-table fetch is a sample, not a read.** Two of Run-21's primary fetches were wrong on the first pass and right on an explicitly-exhaustive second: the BOJ MPM page (first said Sep 17-18 *was* an Outlook meeting — it is not) and the MOF October calendar (first omitted the Oct-8 30Y). Japan Customs needs raw-HTML parsing outright. **Always re-fetch with an exhaustive prompt before acting on an absence.**
+- **🆕 Never anchor an edit to this file on a `## ` heading string.** Line 5 of the header quotes `## NEXT RUN HINTS` and `## PENDING` by name; a plain `str.index` match on either splices out the whole file body. Run 21 did exactly that and restored from a backup. Use line-start regex plus a uniqueness assert, and `cp` before editing.
+- **Sep-15 / Sep-29 grading instruments — RULED, no longer open.** 20Y: bars APPLY, PRECISION-LIMITED tag if trip margin <=0.1bp. 40Y: NOT-APPLICABLE, descriptive BTC only, **counter stays 0-of-2**, re-assess at n=5. Both verified against `thesis/AUCTION_GRADING_RULING_2026-09-11.md` at Run 21. Do not re-open; do not import 20Y/30Y tail bars to the 40Y.
+- **BOJ pricing:** current source is `workbook/BOJ_MEETING_OIS.tsv` + `BOJ_OIS_README.md`; `BOJ_OIS.tsv` is frozen history. New images need SAM review. ⚠️ **The 98% now appears in three docket cells while one TSV cell still forbids restating a percentage — PENDING C.** Never conflate the incremental 25bp equivalent with cumulative expected hike counts.
+- **CPI base:** dual 2020/2025 publication runs through December — **name the base on every CPI figure.**
+- **Far horizon:** Nov-9 MOF quarterly and Nov-13 FRBNY are **cadence ESTIMATES** — re-verify at the index pages in early November. MOF stays 🟠 per the Aug-17 ruling (confirmatory depth is not a first answer). Jan-25 2027 NBIM is a report deadline only; it establishes no executed buying and no implementation sequencing.
+- **BND-11:** no new weekly gate without BOND-ratified four-week terms. The 3-week test is SPENT; the single-week form is STOOD DOWN.
+- **Monthly baseline audit:** the inherited Run-19 spec-vs-convention deferral is **still open**; next trigger is the first run of October. Run-21's October work was an explicitly-requested completeness check, **not** the monthly audit, and does not discharge it.
 
 ## NEXT RUN HINTS
 
-Updated Run20, September 8 ET / September 9 UTC/JST. Current owner state supersedes older history hints.
+Updated Run 21, 2026-09-11 ET. Supersedes the Run-20 list.
 
-1. Check publication clocks before grading. September 9 BOJ provisional/projection is evening JST; final is September 10 morning JST. Independent broker baseline still missing.
-2. Reconcile events only after SAM records outcomes. September 1 resolved row becomes >7d at September 9 ET; retained this run at exactly seven days.
-3. Preserve four distinct September 18 rows and frozen prediction terms. No entry/fuel-retirement test; agenda per-item disposal still owed and proxy-reminder scope under parent review.
-4. September 29 is uniform-price 40Y with no tail. Flag prospective applicable-test ruling; do not import 20Y/30Y tail bars or create a price tail. Preserve historical grade and counter until SAM adjudicates.
-5. Resolve inherited audit deferral/Oct2 CPI and MOF alteration-page check. No broad monthly audit performed here.
-6. Memory roller defaults to report-only; SAM explicitly authorized this run's one closed-block application. Further unmarked histories stay live. Match section headings at line starts; check original pending/CALIBRATION preservation after edits.
-
----
+1. **First thing: prune the two Sep-11 rows.** `✅ RESOLVED — Japan CGPI / PPI, August` and `✅ RESOLVED — US CPI (August data)` become past-dated on Sep-12. Migrate both out of the TSV forward feed; CALENDAR already carries their outcomes in the September table, so move those entries to RECENTLY RESOLVED at the same time. They become >7d-prune-eligible **Sep-19**. Also check whether the Sep-11 CFTC row (15:30 ET print, still unresolved at Run 21) has been graded.
+2. **Ask SAM for a ruling on PENDING A before anything else.** October is empty from Sep-30 to Nov-9. If SAM has applied part of the delta, reconcile rather than re-propose; if SAM declined a class, **it belongs in CALIBRATION** (SAM-owned) so the next audit stops proposing it.
+3. **Check the Sep-14 UNWIRE actually happened:** `grep -n xccy AGENTS/SAM/scripts/boot.py`. If it did, the Sep-14 row is resolved and should migrate. If it did **not**, do not silently prune that row — it is the only written home of the obligation.
+4. **Sep-15 20Y and the Sep-16/18 cluster resolve inside the next week.** Grade only on the frozen bars; apply the PRECISION-LIMITED tag mechanically if |observed - bar| <= 0.1bp. Do not invent a 40Y bar for Sep-29.
+5. **The monthly baseline audit fires on the first run of October** and is now genuinely due — the inherited deferral has ridden through three runs. Run 21 already fetched and recorded the MOF October calendar, BOJ, Fed, BLS, Customs and Stats Bureau dates in `RELEASES.md`, so the October leg is mostly pre-done; **November is not** (MOF `2611e.htm` unfetched, and `2610ae.htm` was not checked).
+6. **Memory:** roller stays report-only. Do **not** apply its Run-17 proposal — false positive, now n=2 (PENDING E).
+7. **Editing this file: `cp` it first, match headings with a line-start regex, assert exactly one match, and assert the file grew.** Run 21 lost the file to an unanchored `## ` match and recovered only because of the backup.
 
 ## CALIBRATION (SAM-owned — declined release classes + scope rulings; KOYOMI reads, never writes)
 

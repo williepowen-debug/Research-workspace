@@ -59,14 +59,34 @@ KB_ARC = SAM / "workbook" / "KB_ARCHIVE.tsv"
 SECTION = "## PROPOSED ADDS"
 
 
-def landed_ids():
-    """Every KB id that PROVABLY exists — live OR archived. Both, deliberately."""
-    out = set()
+def _norm(t):
+    """Normalise a Topic for comparison: case, whitespace and dash variants only."""
+    t = (t or "").lower().replace("\u2014", "-").replace("\u2013", "-")
+    return " ".join(t.split())
+
+
+def landed_rows():
+    """Every KB id that PROVABLY exists -> its Topic. Live OR archived, both deliberately.
+
+    🔴 RETURNS TOPICS, NOT JUST IDS, AND THAT IS THE WHOLE POINT.
+    This function used to return a set of bare IDs, so "landed" meant "some row carries
+    this ID" — never "the row carries what was PROPOSED". Those come apart the moment an
+    ID is reused, and reuse is routine here because the section header that advertises the
+    next free ID is hand-maintained and goes stale.
+
+    WORKED INSTANCE (KURA Run 16, 2026-09-11, the reason this was rewritten): Run 15
+    proposed KB-SAM-233 as a Totan meeting-OIS row; SAM later spent KB-SAM-233 on the Masu
+    speech row. The proposed Topic appears NOWHERE in the ledger, yet the old test scored
+    Run 15 "all landed" — leaving it eligible to roll to the archive and take correction
+    proposals P1-P6 with it. It was spared only by the --keep-runs window, i.e. by luck.
+    """
+    out = {}
     for p in (KB, KB_ARC):
         if p.exists():
             for line in p.read_text(encoding="utf-8").split("\n")[1:]:
                 if line.strip():
-                    out.add(line.split("\t")[0])
+                    f = line.split("\t")
+                    out.setdefault(f[0], f[4] if len(f) > 4 else "")
     return out
 
 
@@ -75,17 +95,33 @@ def plan(keep_runs):
     if SECTION not in s:
         return None, "no PROPOSED ADDS section", [], []
     head, seg = s[:s.index(SECTION)], s[s.index(SECTION):]
-    done = landed_ids()
+    done = landed_rows()
     hdrs = [(m.start(), m.group(0)) for m in re.finditer(r"^### Run \d+ .*$", seg, re.M)]
     blocks = []
     for j, (p, h) in enumerate(hdrs):
         e = hdrs[j + 1][0] if j + 1 < len(hdrs) else len(seg)
         body = seg[p:e]
         n = int(re.search(r"Run (\d+)", h).group(1))
-        proposed = sorted(set(re.findall(r"^(KB-SAM-\d+)\t", body, re.M)))
-        missing = [x for x in proposed if x not in done]
+        # Capture the proposed Topic (field 5) alongside the id, so landing can be PROVED.
+        rows = re.findall(r"^(KB-SAM-\d+)\t[^\t]*\t[^\t]*\t[^\t]*\t([^\t\n]*)", body, re.M)
+        seen, proposed, missing, collided = set(), [], [], []
+        for rid, topic in rows:
+            if rid in seen:
+                continue
+            seen.add(rid)
+            proposed.append(rid)
+            if rid not in done:
+                missing.append(rid)
+            elif _norm(topic) and _norm(done[rid])[:40] != _norm(topic)[:40]:
+                # ID is spent on DIFFERENT content. Fail closed: this is not a landing.
+                collided.append(f"{rid} (id reused: ledger has {done[rid][:48]!r})")
+        # Any id whose Topic could not be parsed is also unproven -> fail closed.
+        bare = [x for x in sorted(set(re.findall(r"^(KB-SAM-\d+)\t", body, re.M))) if x not in seen]
+        for rid in bare:
+            proposed.append(rid)
+            missing.append(rid + " (topic unparseable)")
         blocks.append({"n": n, "hdr": h, "body": body, "start": p, "end": e,
-                       "proposed": proposed, "missing": missing})
+                       "proposed": proposed, "missing": missing, "collided": collided})
     newest = sorted((b["n"] for b in blocks), reverse=True)[:keep_runs] if keep_runs else []
     roll, keep = [], []
     for b in blocks:
@@ -93,8 +129,13 @@ def plan(keep_runs):
             b["why"] = f"kept: most recent {keep_runs}"; keep.append(b)
         elif not b["proposed"]:
             b["why"] = "kept: proposes no rows (nothing to prove)"; keep.append(b)
-        elif b["missing"]:
-            b["why"] = "KEPT — unlanded: " + ", ".join(b["missing"]); keep.append(b)
+        elif b["missing"] or b["collided"]:
+            bits = []
+            if b["missing"]:
+                bits.append("unlanded: " + ", ".join(b["missing"]))
+            if b["collided"]:
+                bits.append("🔴 ID COLLISION — " + "; ".join(b["collided"]))
+            b["why"] = "KEPT — " + " | ".join(bits); keep.append(b)
         else:
             roll.append(b)
     return (head, seg), None, roll, keep
@@ -113,7 +154,21 @@ def main():
     print(f"\n── KURA.md  {len(SPEC.read_text(encoding='utf-8'))//1024}K  "
           f"({len(seg)//1024}K in {SECTION})")
     for b in sorted(keep, key=lambda x: x["n"]):
-        flag = "🔴" if b["missing"] else "  "
+        # 🔴 means "a human must look". A collision ALWAYS qualifies. Plain unlanded
+        # proposals in the NEWEST block do not — those are proposals awaiting SAM, i.e.
+        # the normal state, and a flag that fires every single run for a known-good
+        # reason is what trains a reader to stop seeing it (the grade_8_14_branch.py
+        # lesson, SAM CLAUDE.md § scripts). Unlanded proposals in an OLDER block are a
+        # real backlog signal and keep the mark.
+        newest_n = max((x["n"] for x in keep + roll), default=None)
+        if b["collided"]:
+            flag = "🔴"
+        elif b["missing"] and b["n"] != newest_n:
+            flag = "🔴"
+        elif b["missing"]:
+            flag = "· "
+        else:
+            flag = "  "
         print(f"   {flag} keep  Run {b['n']:<3} {len(b['body'])//1024:>3}K  {b['why']}")
     for b in sorted(roll, key=lambda x: x["n"]):
         print(f"      roll  Run {b['n']:<3} {len(b['body'])//1024:>3}K  "
