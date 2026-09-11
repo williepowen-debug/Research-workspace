@@ -2,7 +2,7 @@
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
 **Queue reconciliation September 9:** WQ151/159/162/164 and WQ196–199 moved out of OPEN on recorded rulings; evidence and original rows → PROME/reports/2026-09-09_dashboard-attention.md. Pending owner delivery is separate from a new approval.
 
-**Last reconciled:** 2026-09-10 20:4x Thu (LAPTOP `WilliePOwen`, `prome-34`, late boot after the desktop→laptop switch): **Deck pickup #3 — three taps consumed (00:16–00:17Z 9/11): WQ-222 APPROVE · WQ-215 APPROVE · WQ-220 DECLINE (*"I dont have a subscription for this unfortunately."*) → RECENTLY DONE; owner packets CRUISE · CREED · DEWEY committed (carve-out ①).** OPEN 10 after the move; SCRATCH Pending-Will block regenerated. Prior stamp text → `git log -p -- PROME/WILL_QUEUE.md`.
+**Last reconciled:** 2026-09-10 22:4x Thu (LAPTOP `WilliePOwen`, `prome-34`, closeout): **deck pickup #3 consumed this session (WQ-222 · 215 APPROVE, WQ-220 DECLINE with Will's note) → RECENTLY DONE with packets; WQ-222 ENCODED by CRUISE the same hour (1.84pp NOT TRIPPED, note on the row).** OPEN 10 (221 · 204 · 169 for ruling; hands 210 · 187 · 213 · 31; ⛔ 157 · 216 · 219). No roll-off (no DONE row ≥7d). SCRATCH Pending-Will block regenerated; deck v21. Prior stamp text → `git log -p -- PROME/WILL_QUEUE.md`.
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
 - **Every ⚖️ decision PROME shows Will carries its row number here, registered BEFORE the ask** (Will 8/29) — Will rules by number (`WQ-118 = approved`); the row closes on the word; RECENTLY DONE is the decision log. No second numbered series.
