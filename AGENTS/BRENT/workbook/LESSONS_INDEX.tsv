@@ -4,7 +4,7 @@ L01	Agent data can be hallucinated — verify against primaries	ALL	data_verific
 L02	Source tags mandatory ([CONF]/[EST] + source + date)	ALL	data_provenance	naked_numbers=FORBIDDEN	LIVE			2026-09-08
 L03	Don't maintain stale copies — one source of truth per metric	ALL	surface_ownership	duplicate_metric=FORBIDDEN	LIVE			2026-09-08
 L04	Write synthesis .md for major data releases	ALL	output		LIVE			2026-09-08
-L05	Oil prices are 24/7 — STATUS prices go stale fast	ALL	price_freshness	price_from_state_file=FORBIDDEN	LIVE			2026-09-08
+L05	Oil prices are 24/7 — STATUS prices go stale fast, and a vendor DAILY BAR is MUTABLE until the session closes	ALL	price_freshness,bar_finality	price_from_state_file=FORBIDDEN;grade_from_forming_bar=FORBIDDEN	LIVE			2026-09-11
 L06	Crack spreads tell the real story; crude price alone is incomplete	ALL	instrument_choice|crack_spread	clean_instrument=CRACKS	LIVE			2026-09-08
 L07	Two-phase thesis is the core	ALL	phase_framework		LIVE			2026-09-08
 L08	Storage data has reporting lag	ALL	data_latency|inventory	inventory_is=LAGGED_SURVEY	LIVE			2026-09-08
