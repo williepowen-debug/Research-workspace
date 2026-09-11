@@ -99,3 +99,49 @@ a concurrent second session.
 **IMPLEMENTED** · **TESTED** (25) · **NOT INDEPENDENTLY VERIFIED** — the reviewer's verdict was *"IMPLEMENTED,
 not VERIFIED"*, and the two ❌ it found have since been changed, so **the reviewed candidate is no longer the
 current one.** A second independent pass is required before anyone calls F1 fixed. PROME does not claim it.
+
+---
+
+## ⛔ CORRECTION — F1 IS OPEN ON A CONTRACT VIOLATION, NOT MERELY UNVERIFIED (external review, 19:0x ET)
+
+> "A known violation of an acceptance condition remains a blocker, even if the reviewer labels it ⚠️. Silently
+> excluding legitimate PROME messages and claiming another agent's edits violate the scope contract. Calling
+> them 'lesser findings' doesn't reduce their effect."
+
+**This is the correction that matters most tonight, and the error is mine, not the reviewer's.** The reviewer
+graded severity; **the acceptance conditions are MINE and they are the contract.** I let an external severity
+label override my own stated conditions, then wrote "six lesser findings" over two known contract violations.
+That is `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]` — the detector fired correctly
+and the defect shipped anyway, with the flag now serving as evidence it was considered.
+
+**The two BLOCKERS, restated against the conditions they actually break:**
+
+| Was | Is | Condition broken |
+|---|---|---|
+| F-4 ⚠️ | 🔴 **BLOCKER** — a PROME pending artifact in another desk's inbox lacking `from-PROME` in its filename is SILENTLY DROPPED. Includes the ratified `MSG-*.md` coded route (root `CLAUDE.md`, Direct Messaging v1), which **can never contain that string**. | **Condition 1** — "every pending change in the intended closeout is visible." |
+| F-5 ⚠️ | 🔴 **BLOCKER** — `memory/YYYY-MM-DD.md` is claimed by FILENAME PATTERN, so another desk's pending edit to the shared daily note enters PROME's audit scope. | **Condition 2** — "unrelated work is excluded"; and it is the precise practice **Condition 3** forbids for shared directories. |
+
+⇒ **F1 STATUS: OPEN.** Not "implemented, awaiting verification." OPEN, on two known violations of its own
+acceptance conditions. Either they are resolved, or Will approves a NARROWER contract with the limitation
+written into it — an option, but his to take, not PROME's to assume by relabelling.
+
+**STOPPING RATHER THAN PATCHING, deliberately.** The correction limit exists to stop a session, not to lower a
+standard. `argus_scope.py` has taken four correction passes tonight; a fifth at 19:0x, against a contract that
+is itself being redesigned, is how the next defect enters. **The sound outcome is "stop tonight, resume with
+these blockers named,"** and that is what this is. `[[finding_a_correction_pass_is_unreviewed_work]]`.
+
+**ONE MORE OWED THING, and it is a real gap in what I shipped:** the five new tests pin the reviewer's
+discoveries as STRINGS (`"PROME: CLOSEOUT symmetry table…"`, a `processed/` path). That preserves the finding
+and does **not** test the PROPERTY — *a subject ABOUT closeout is never a watermark*; *consumption is never
+authorship*. String tests pass while the next unseen instance of the same property walks through. Property
+tests are owed with the redesign, not instead of it.
+
+## ⭐ THE PATTERN THE REVIEWER NAMED, which is the actual finding of the whole evening
+
+> "The recurring failures now cluster around inferring ownership and audit boundaries from filenames and prose.
+> That is evidence about the design, not merely missing regex cases."
+
+Every defect in this tool — F1's watermark, F2's `processed/` crossing, F-4's filename key, F-5's date pattern,
+the lineage-inference caveat — is the SAME design choice: **authorship and boundaries RECONSTRUCTED from commit
+subjects and file names rather than recorded.** Four regex repairs have not changed that, and a fifth will not.
+This is why the next session is a redesign and not another patch.
