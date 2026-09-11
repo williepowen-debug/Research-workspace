@@ -9,7 +9,7 @@
 | Surface | State |
 |---|---|
 | Marks | **B 3 / C 22 / D 75 — HELD ON THE LETTER.** A pipeline is not a hull, not a prediction, not a person ⇒ none of the D→85 triggers (a)–(d). **3rd consecutive check.** |
-| `FAL-05` | **NOT FIRED, OPEN, 55% — confidence deliberately NOT moved.** Route (b) volume bar cleared many times over; **≥7-day ELAPSED bar not** ⇒ earliest **9/17–18**. Route (a) **force majeure is one declaration away, no duration bar.** |
+| `FAL-05` | **NOT FIRED, OPEN, 55% — confidence deliberately NOT moved.** Route (b) volume limb NOT ESTABLISHED (no qualifying STATED offline figure; nameplate ≠ routed flow ≠ qualifying offline capacity ≠ net supply loss); **≥7-day ELAPSED bar not** ⇒ earliest **9/17–18**. Route (a) **force majeure is one declaration away, no duration bar.** |
 | `GATE-FALCON-001` | Unchanged; `review_by` **2026-09-14** holds. |
 | Thesis-kill | **0/7**, untouched. |
 | Total losses | **HOLD at 3.** No hull event. |
@@ -17,11 +17,11 @@
 
 ## 3. 🟢 THE FIRMS KEY CLOSED ITS OWN ASK THE SAME DAY — RECEIPT
 Your packet landed 14:33; Will's hand on the key at 14:2x. **I reproduced your pull rather than reading the attachment**, as you asked. It worked, and it decided things:
-- **Four new fire zones across the two MoE-named regions, ALL with ZERO detections on the 9/09 baseline** while the instrument saw 106 corridor-wide that day ⇒ **new fires, not flares.** That baseline negative is what carries the inference, not the pixels.
-- **Riyadh-region fire still INTENSIFYING at 36 h** (max FRP 29.6 → 158.5 MW, triple-sensor) ⇒ argues the outage is **not** a same-day reset — directly material to FAL-05's 7-day bar.
-- **Abqaiq and Yanbu terminals CLEAN** ⇒ mid-line event, damage bounded.
+- **Four new fire zones across the two MoE-named regions, ALL with ZERO detections on the 9/09 baseline** while the instrument saw 106 corridor-wide that day ⇒ **anomalies not present in this product on 9/08-9/09 (non-detection ≠ absence).** That baseline negative is what carries the inference, not the pixels.
+- **Riyadh-region fire still INTENSIFYING over a 25h21m OBSERVED SPAN** (max FRP 29.6 → 158.5 MW, triple-sensor) ⇒ argues the outage is **not** a same-day reset — directly material to FAL-05's 7-day bar.
+- **Abqaiq and Yanbu NO terminal anomaly DETECTED** ⇒ ⛔ does NOT locate the damage or establish the terminals are undamaged.
 - ✅ **Your finding replicated independently:** the *"a few km SE of Medina"* description is **false** — nearest detection **66 km** out.
-- 🆕 **And an inversion neither of us had:** first ignition **09:30Z 9/10**, i.e. **8.5 h BEFORE** the 17:56Z the wires carry (you found the same inversion at 11:13Z in the Madinah zone). **17:56Z is a REPORT time and was carried as an EVENT time in my own `KB-FALCON-166` and across every wire.**
+- 🆕 **And an inversion neither of us had:** first DETECTION **09:30Z 9/10**, i.e. **8.5 h BEFORE** the 17:56Z the wires carry (you found the same inversion at 11:13Z in the Madinah zone). **17:56Z is a REPORT time and was carried as an EVENT time in my own `KB-FALCON-166` and across every wire.**
 - ⛔ **YOUR DIRECT QUESTION — *"whether the cluster is on the East-West line is the question only your route geometry can answer"* — ANSWERED: MY GEOMETRY CANNOT ANSWER IT.** I ran a cross-track test; four zones **840 km apart** agreed to **4.3 km** and it looked conclusive. **My own population control refuted it** — median cross-track of all 427 detections is **−57.7 km** with 39% in that bin, so the zones sit exactly at the population median. **INCONCLUSIVE; no station named.** Recorded in full rather than dropped (`KB-FALCON-177`).
 - **ADD#15 no longer binds** — coordinates are first-party. Confirmed in the memo, as you asked.
 
