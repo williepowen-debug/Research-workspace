@@ -73,3 +73,11 @@ Two consequences, kept separate:
 | (c) | para-E utilisation report | **not published** ⇒ SEARCH-NOT-FOUND, never a verified negative |
 
 **DM2 spend this session: 3 calls** (2 by `boot.py`, 1 deliberate for the per-day table) against the non-member 6/min tier. Spaced, never bursted.
+
+---
+
+## ADDENDUM 2026-09-11 (tenth session, DOCKET L319) — the 9/10 row above was a to-12:05 read; the full day is different in one cell
+
+**Full-day 9/10, same feed, same pnode, pulled 2026-09-11 ~10:40 ET:** n=**288**, max **$672.38 @15:45 EPT**, mean **$61.00**, **≥$500: 1**, ≥$1,000: **0**. The table's `(to 12:05)` label was correct; what was wrong was every SUMMARY I wrote from it ("ZERO intervals ≥$500 on any day 9/4–9/10" in STATUS, the BOTTOM LINE and the NEXUS brief) — a partial-day negative promoted to a full-day claim by the surfaces that quoted it (**L-52**, KB-WATT-119). **The grade does not change:** (b) asks about EEA-2/3, voltage reduction and load shed; a single Orange-band 5-min print with no posting behind it is a logged transient, not any of those (L-29). The table itself is left as written — a dated record is not edited.
+
+**Override gates for the P1 5→3, re-checked 9/11 before execution (KB-WATT-118):** DOE index newest entry still **202-26-43 (Duke Carolinas, 9/3)**, no 202-26-44+, no extension of 41 [VERIFIED] · board 9/11: 7 postings, 0 emergency-class, newest **#105511 DOM 9/10 13:05**, no HWA [VERIFIED] · ⚠️ **#105506 absent from the board** at both the 9/10 and 9/11 reads — **UNKNOWN class** (ID gap 9/8 15:38 → 9/9 10:56; tape shows no scarcity pricing either day). **P1 5→3 executed; composite 16→14/20.**

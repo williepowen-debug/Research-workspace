@@ -565,3 +565,131 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 
 **The September emergency episode closed 9/3 without escalating** — the 9/3 evening peak, forecast at 152,496 MW, printed **$437.15 with zero intervals over $500** — and **P1 holds at 5 only because its own dated rule has not been met** (§202(c) to **9/8**; seven clear days to **9/10**). **Composite 16/20, unchanged.** **The session's work was almost entirely on my own instruments, and the last piece is deliberately narrower than it started:** on a verified-hourly reconstruction, **excluding the single highest day lowers the 8/17 window spark by $7.04 (14.6%) and the early-September one by $26.99 (50.6%)** — which shows a 6-day mean is dominated by one day, **not that the published readings were wrong.** ⛔ **"De-contaminated", "the contamination is a floor", "identifies the gas vintage" and my 17%/>100% figures are all withdrawn** — the last two used the *adjusted* value as denominator, **the same denominator error as the BRA cap, one day later.** **What survives: the reported readings do not establish persistent widening** (adjusted series **+$30.46 → +$41.09 → +$26.33 → +$28.98**), and a mid-August window still sits ~35% above the 8/4 one after excluding 8/16 — **unexplained, with no posting behind it, and asked of BRENT and AEOLUS rather than guessed at.** **Five external review rounds, ~18 claims withdrawn or scoped, and no channel score moved on any of them** — the thesis was never what was in question; my claims about it were. **Next:** §202(c) expiry **9/8**, de-escalation review **9/10**, and the 8/13–8/16 question.
 
+
+---
+
+## `P1_DEESCALATION_EXECUTION_2026-09-11` — rotated verbatim from STATUS.md at the tenth session (2026-09-11)
+
+**Rotation reason:** STATUS booted at 26,706 B = 82% of the 32,550 B fleet read-cap (rotate-tier per `boot.py` leg 3, NOT a breach) and the session REPLACED the 9/10 ARMED state with the 9/11 EXECUTED state. Blocks below are the superseded 9/10-vintage cells; each carries the surviving live read on STATUS. **Rotation, never deletion.** Source crc32 of STATUS.md before this rotation: 4065611123. Per-block crc32 over the block text as it stood (UTF-8, no terminating newline). Month-assert: every block moved in September 2026 and describes September 2026 content.
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block L | 8 | 1,227 | 507681876 |
+| Block M | 10 | 984 | 3334080567 |
+| Block N | 18 | 1,146 | 1368457711 |
+| Block O | 23, 25 | 844 | 872456413 |
+| Block P | 31, 32, 33 | 2,704 | 1723543601 |
+| Block Q | 62, 67 | 1,531 | 3761809873 |
+| Block R | 87, 101 | 439 | 2255061938 |
+| Block S | 112 | 1,228 | 2094859047 |
+
+### Block L — declared read-cap residue paragraph, 9/10 vintage (STATUS line 8)
+
+**⚠️ DECLARED RESIDUE (read-cap, 2026-09-10):** this surface measured **95% of the 32,550 B read-cap at boot**; **16,298 B were rotated verbatim to `status_archive/` this session** (Blocks A–K) and every settled 9/6 narrative was compacted, but the surface **still sits above the 75% rotation trigger** because the L249 grade is ~4.5 KB of genuinely LIVE state — **read the current figure from `boot.py` leg 3 / `PROME/tools/measure.py`, never from this sentence.** *(A "~78%" was written here first and was wrong within one edit: **declaring the residue is itself ~800 B**, so the number described a file that no longer existed by the time it was saved. Root rule #4's shape applied to our own prose — a self-describing measurement is stale at the next keystroke.)* **Not trimmed further — "rotation, never deletion; never trim live state to hit the number."** 🔑 **Structural, not a one-session miss: this desk's STATUS has run 95–102% of cap for three consecutive sessions, so every instrument keeps rewarding a smaller file.** The owner's remaining lever is a **hot/cold split**, which is a design change, not a mid-session edit — **flagged to PROME 9/10, needs a decision before the next dense session.**
+
+### Block M — ninth-session lead blockquote, 9/10 vintage (STATUS line 10)
+
+> **Ninth session, 2026-09-10.** **DOCKET L249 GRADED: outcome (d) — a QUIET LAPSE.** DOE §202(c) Order 202-26-41 expired **23:59 ET 2026-09-08 and was NOT extended**; no successor order names PJM; **no EEA-2/EEA-3, no voltage reduction, no load shed** through the lapse. **Limb (c) — whether a large-load direction was ever actually issued under the clause — stays UNKNOWN, not negative** (the para. E utilisation report is the named unchecked document). **A quiet lapse is a real finding, and per NEXUS's pre-registered rule it closes M-09's PJM row as evidence AGAINST the power-constraint leg — NEXUS owns that weighing, not me.** P1's own de-escalation rule: limb ① (order lapsed) ✅ and the HWA is lifted ✅, but **limb ② the 7-clear-day clock completes at 23:59 ET tonight** — so **P1 holds 5 today and the 5→3 is ARMED for the next boot on/after 9/11.** Composite **16/20 unchanged.** *(Full grade → `reports/2026-09-10_DOCKET-L249_202c-lapse-grade.md`.)*
+
+### Block N — CONVERGENCE MATRIX P1 cell, 9/10 vintage (STATUS line 18)
+
+| **P1** | Stress → price | **5 🔴🔴** *(held — final hours of the clock)* | **§202(c) LAPSED QUIET 23:59 9/8 — graded at DOE + PJM primaries 9/10 (DOCKET L249 = outcome (d)).** No extension, no successor PJM order, no EEA-2/3, no voltage reduction, no load shed. **5 is held by the RULE, not by the grid** — limbs ① (order lapsed) and ③ (HWA lifted) are SATISFIED; **limb ② the 7-clear-day clock completes 23:59 tonight.** ⚠️ **I am not taking the last 12 hours** | shares the heat antecedent with P4 — **count the September heat root ONCE** | **[9/10, VERIFIED]** DM2 5-min per-day max, **n=288/day, ZERO intervals ≥$500 on any day**: 9/4 $149.05 · 9/5 $157.68 · 9/6 $87.03 · 9/7 $220.29 · **9/8 $283.51** · **9/9 $457.28** · 9/10-noon $223.88. Demand 112,674 MW = **82.3%** of a 136,896 MW 24h peak. Board: **12 postings, newest 9/9 16:27, all local-relief/informational — zero emergency-class**; **no Hot Weather Alert in effect** | **5→3 ARMED, executes at the first boot on/after 9/11** absent an emergency-class posting or a new §202(c) before 23:59 9/10. An extension or a new order re-arms P1 at 5 |
+
+### Block O — composite note + status paragraph, 9/10 vintage (STATUS lines 23, 25)
+
+**Composite: 16/20** *(P1 5 + P2 5 + P3 4 + P4 2 — **unchanged, and the stillness is again the honest read.** The order lapsed quiet and the grid is benign, yet nothing moves today because P1's clock has ~12 hours left: **front-running a dated rule on a quiet tape is the exact error the rule exists to prevent.** The move is ARMED for 9/11, not withheld.)*
+**⚠️ Status 🔴 HELD, and the reason is a dated rule rather than a live reading.** The 8/17-registered band fired on its letter on 9/2; the episode closed 9/3. **5 persists only because the de-escalation clause has not been satisfied yet (9/8 order lapse, 9/10 posting clock)** — not because anything is currently stressed. ⚠️ **Still no deploy-posture change** — a fired gate is not a thesis confirmation and supplies no entry (TERRY Non-Negotiable #15); see `TRADE.md`.
+
+### Block P — P1 live-channel bullet (grade + de-escalation paragraphs), 9/10 vintage (STATUS lines 31, 32, 33)
+
+- **P1 — Stress → price** 🔴🔴 **held at 5 for the final hours of its own clock. The §202(c) order LAPSED QUIET; the 5→3 is ARMED, not yet earned** [DOE + PJM primaries + DM2 tape, all read 2026-09-10].
+  **DOCKET L249 GRADE = (d) QUIET LAPSE.** **(a) extension — NO [VERIFIED]:** the order's DOE page states *"in effect beginning on September 1, 2026, and shall expire at 11:59 PM ET on September 8, 2026"* with no amendment posted, and the **DOE 2026 202(c) index** shows **41 is the LAST PJM order of 2026** — successors went elsewhere (**42 = Orlando Utilities**, **43 = Duke Carolinas**). **(b) EEA-2/3, voltage reduction, load shed — NO [VERIFIED]:** board shows **12 postings, newest 9/9 16:27, all local-relief/informational, zero emergency-class**, and the DM2 tape has **ZERO intervals ≥$500 on every day 9/4–9/10** (n=288/day; max **$457.28 @9/9**). **(c) a large-load direction actually issued — UNKNOWN, NOT a negative [SEARCH-NOT-FOUND]:** no para-E utilisation report is published — *authority ✅ · deployment ❓ · utilisation record ❌* stands. ⚠️ **The board is a CURRENT view and cannot prove a historical negative** (#105485 has dropped while OLDER 9/1–9/2 rows persist) — **the tape carries that leg.** 🔑 **The finding: the emergency authority to direct backup generation at large loads — IRAS limb (c)'s policy, granted early — EXPIRED WITHOUT A SINGLE PUBLISHED UTILISATION RECORD. The authorised-vs-observed gap did not close; it expired unmeasured.** ⚠️ **NEXUS owns whether this counts** (M-09 ARMED→COUNTED); WATT grades the event. *Full evidence, per-day table and instrument limits → `reports/2026-09-10_DOCKET-L249_202c-lapse-grade.md`.*
+  **DE-ESCALATION RULE, graded limb by limb on its own letter:** ① no §202(c)/EEA/Max-Gen-Alert standing — **SATISFIED** · ③ **HWA lifted — SATISFIED** (PJM board 9/10) · ② **7 clear days from #105485 (EEA-1, 9/3 00:01) — NOT YET COMPLETE:** my registered letter reads *"7 clear days complete **end of 9/10**"* (clear days 9/4…9/10), and at 12:2x ET that day is still running. ⇒ **P1 = 5 today; 5→3 executes at the first boot on/after 2026-09-11**, absent an emergency-class posting or a new §202(c) before 23:59 tonight. ⚠️ **I am not taking the last 12 hours** — both halves of the rule are obligations and a quiet tape is exactly when going early feels harmless. *(⚠️ **The clock has two readings and I only noticed at grade time:** 9/3 00:01 + 7×24h = **9/10 00:01, already complete**, vs the calendar reading = **end of 9/10**. I grade on my own registered letter. **A duration rule that never said clock-vs-calendar is a defect** — **L-51**.)*
+
+### Block Q — EXIT TRIAD P1 row + fired-count line, 9/10 vintage (STATUS lines 62, 67)
+
+| P1 | **As re-specified 8/17, unchanged:** EEA2+ posting **OR** (LMP ≥$1,000 sustained 2+ **consecutive 5-min** intervals **AND** [emergency-class posting live **OR** demand ≥97% of trailing 24h peak]) | **FIRED 9/2; the fire is HISTORICAL.** 9/4–9/10 tape: **0 intervals ≥$500**, let alone ≥$1,000; no emergency-class posting; demand 82.3% of 24h peak. **Current state satisfies NEITHER limb.** 5 is held only by the **separate de-escalation clause**, whose last limb expires 23:59 tonight | **🔴 FIRED (9/2), NOT RE-FIRING.** ⚠️ *fired* is an event, *firing* is a state — **a triad that cannot say which will carry a spent fire forward for months.** Season count 2-of-4; live rail **NOT-FIRED as of 9/10** |
+**Fired-count: 2 of 4** *(P1 + P2)*. ⚠️ **P1's is a SPENT fire, not a live one** — the season count stands; the live rail reads **NOT-FIRED as of 9/10**. **Thesis-kill vs channel-kill:** the summer killed P1's live read and September brought it back at 5 — **the channel was not dead, it was out of season**; **L-42 is DISCHARGED by `WATT-11`**. Falsification: a non-heat autumn emergency **OPENS AN INVESTIGATION — it does not establish reserve-margin erosion** (outage-cluster, transmission and fuel-supply explanations eliminated first; `WATT-11` `if_falsified` governs). *Full narrative verbatim → archive § `FIRED_COUNT_CHANNEL_KILL_NARRATIVE_2026-09-06` + Block B.* The thesis dies only if the 29/30 BRA clears well below cap **AND** data-centre queues drain. Neither is in evidence.
+
+### Block R — OPEN row 2 + WAKE row P1 execution, 9/10 vintage (STATUS lines 87, 101)
+
+| 2 | 🔴 **P1 de-escalation — GRADED, ARMED, NOT YET EXECUTED.** Limbs ① (order lapsed) + ③ (HWA lifted) SATISFIED; **limb ② the 7-clear-day clock runs to 23:59 ET 9/10.** ⇒ **5→3 at the first boot on/after 9/11**, absent an emergency-class posting or new §202(c) tonight | **execute 9/11** |
+| 🔴 **P1 de-escalation EXECUTION** | **9/11** (first boot on/after) | graded + armed 9/10; only the 7-clear-day clock remained |
+
+### Block S — BOTTOM LINE, 9/10 vintage (STATUS line 112)
+
+**The §202(c) order lapsed quiet.** DOE Order 202-26-41 expired at **23:59 ET 9/8 and nothing replaced it** — no extension, no successor PJM order, and through the whole lapse window **no EEA-2/3, no voltage reduction, no load shed**, on a tape with **zero 5-min intervals ≥$500 on any day 9/4–9/10** (n=288/day; the highest print was **$457.28 on 9/9**). **That is a real finding, not a null:** the emergency authority that let PJM direct backup generation at large loads — the same policy IRAS limb (c) wants written into tariff — **expired without a single published utilisation record.** The gap between *authorised* and *observed* did not close; **it expired unmeasured**, and the one document that could still close it is the paragraph-E utilisation report. **P1 stays 5 today** because its own clock has ~12 hours left, and **front-running a dated rule on a quiet tape is precisely the error the rule exists to prevent** — the 5→3 is **armed for 9/11**, not withheld. **Composite 16/20, unchanged.** ⚠️ **NEXUS owns whether this counts** (M-09 ARMED→COUNTED); I graded the event, NEXUS weighs it. **Next:** execute the de-escalation 9/11, the 8/13–8/16 elevation, and hedged-vs-floating for VULCAN.
+
+### Blocks T–U — second rotation pass, same session (2026-09-11)
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block T | 43 | 1,394 | 2799524619 |
+| Block U | 75, 76, 77 | 750 | 4284464153 |
+
+### Block T — P2 regulatory layer, the four things paragraph, 9/10 vintage (STATUS lines 43)
+
+**The four things that must not be lost off this surface:** ① **PJM filed Door B ~8/13** (IRAS) — **NOT BANKED**, a filing is not an order. ② 🔑 **limb (c)** writes curtailment priority **into tariff**, converting the §202(c) precedent from an emergency action into a **standing commercial term of service** — ⚠️ **and the precedent itself lapsed quiet 9/8 with no utilisation record, so the tariff case cannot lean on demonstrated use.** ③ ✅ **IRAS = `ER26-3515-000`, PRIMARY-VERIFIED** (FR/GPO govinfo FR-2026-08-18), filed 8/13/26, acc. 20260813-5118, comments closed 9/3, **requested effective 10/12/2026**, ✅ **service availability 1 Jun 2027** [new 9/8, WALTER SIG-013 off the filing]. Companion RBP `ER26-3380-000` (7/31). ⛔ **EL26-67 relationship UNESTABLISHED.** ⚠️ **TWO cost questions, never merged:** *(a)* generation to serve Large Loads → **large loads pay "the full cost"** [PJM primary] = WATT-10's core, **INTACT**; *(b)* **compensation** for interruption + residual RBP → **PJM declined to allocate; left to states/EDCs**, max **50%** of the Non-Performance Charge Rate, loads may **waive**. **(b) is NOT a gutting of (a).** ④ **Door A → CARL/HENRY (~65M ratepayers) · Door B → VULCAN/HENRY (AI-capex opex)**; backstop **$555/MW-day ⇒ $27.21/MWh @85% LF**, basis = arithmetic at **assumed** load factors and **travels with the number**.
+
+### Block U — INSTRUMENT section, the three operative facts, 9/6-9/10 vintage (STATUS lines 75, 76, 77)
+
+⚠️ **DM2 `rt_unverified_fivemin_lmps` retains ~15 days and returns short windows with NO error.** `read_pjm_onpeak_mean` asserts **per-day COVERAGE** — **a count check cannot see a window shorter than the one it labels.** *(Held today: n=288 on every full day 9/4–9/9.)*
+⚠️ **The contamination flag is a SINGLE-DAY OUTLIER detector against the window median — NOT a window classifier.** It **fails by construction when the contaminated days are the majority.** **Silence means "no single day dominates," never "this window is clean."**
+✅ **`rt_hrl_lmps` retains ≥67 days (to 7/1).** The 5-min horizon is **one feed's**, not the archive's. **When one feed's horizon blocks a question, probe the siblings before recording it closed.**
+
+### Blocks V–X — third rotation pass, same session (2026-09-11)
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block V | 54 | 800 | 1751072484 |
+| Block W | 45 | 567 | 2527810490 |
+| Block X | 37 | 309 | 374078184 |
+
+### Block V — WITHDRAWN do-not-reassert one-liner list, 9/10 vintage (STATUS line 54)
+
+⛔ backup generation was **authorised, not observed** (authority ✅ · deployment ❓ · utilisation record ❌ — **and the authority has now lapsed with the record still ❌**) · ⛔ the 55 GW seam is agreed on the **number**; the "nameplate" wording was **my own** imprecision · ⛔ P2 and P3 are **linked**, not independent roots · ⛔ 28/29 cleared at **100% of its own cap** ("97.5%" was a YoY cap decrease relabelled as utilisation) · ⛔ 9/1 was the **episode's peak**, not a "season high" (July ran 159,046 MW) · ⛔ the spark neither **"widened persistently"** nor **"never moved"** · ⛔ the reconstruction is a **sensitivity analysis** — no floor, INFERRED gas vintage · ⛔ a non-heat autumn emergency **opens an investigation**, it does not establish reserve-margin erosion.
+
+### Block W — season emergency count paragraph, 9/10 vintage (STATUS line 45)
+
+**Season emergency count = 3 episodes, ALL CLOSED:** 7/3 (**EEA2**, set the DOE §202(c) precedent that PJM can curtail ≥50 MW data centers; KB-WATT-034) · 7/15-16 (EEA-1 + Order 202-26-35) · **9/1–9/3 (EEA-1 ×3 + §202(c) 202-26-41 + a dispatched load-mgmt action) — closed 9/3 with no escalation; its order lapsed quiet 9/8.** ⚠️ **All three are heat-clustered. Whether that is the MECHANISM or just the season is exactly what `WATT-11` tests** — and its window does **not** open until **9/15**, so this week is corroboration, **not a resolved leg**.
+
+### Block X — P3 VULCAN-seam sub-line, 9/6-9/10 vintage (STATUS line 37)
+
+  ⛔ **THE VULCAN SEAM IS OPEN ON MEANING** — agreed on the number, divergent on the population; `VULCAN/STATUS.md:27` still reads "55 GW **nameplate** interconnection ceiling" under "SEAM CLOSED". **Correction sent 9/6; application is PENDING — closure is at ITS artifact, not my packet.** → **L-46**.
+
+### Blocks Y–Z — fourth rotation pass, same session (2026-09-11)
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block Y | 38 | 829 | 1058925012 |
+| Block Z | 69 | 452 | 1661379627 |
+
+### Block Y — P4 live-channel bullet, 9/10 vintage (STATUS line 38)
+
+- **P4 — Gas → power coupling** 🟡 **NOT-FIRED. +$28.26/MWh same-vintage on-peak** (9/4–9/9, n=1,151, HR 7.0, gas $2.805 @9/10) — positive and flat vs the 8/4 baseline (+$29.84). ⛔ **"DE-CONTAMINATED" was an overclaim and is WITHDRAWN** *(the word survived in this headline after the body was corrected on 9/6 — a summary outliving its own correction for a fourth time; fixed 9/10)*. **What stands: the readings do NOT establish persistent widening** — adjusted series **+$30.46 → +$41.09 → +$26.33 → +$28.98**; a mid-Aug window sits ~35% above the 8/4 one even excluding 8/16, **unexplained, no posting behind it**. ⚠️ Basis: RT on-peak LMP ≠ ICE peak OTC. ⚠️ **N5 (i-b): spark stays PROVISIONAL.** *Table + method verbatim → archive § `P4_RECONSTRUCTION_AND_CLOSED_ITEMS_2026-09-10` Block A.*
+
+### Block Z — cleanest bidirectional flip paragraph, 9/6-9/10 vintage (STATUS line 69)
+
+**Cleanest bidirectional flip (BRENT discipline):** the **29/30 BRA clear** (~mid-2027) — at cap again → structural through the decade; materially below cap with queues draining → structural leg falsified. **Near-term flip:** FERC's order on IRAS (**WATT-10**, ~10/12, outer 10/31) — acceptance of the full-cost provision confirms Door B; rejection or a gutted acceptance flips near-term evidence to Door A and *removes* the AI-capex opex drag.
+
+
+### Blocks AA–AC — fifth rotation pass, same session (2026-09-11)
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block AA | 92 | 413 | 3597026841 |
+| Block AB | 104 | 376 | 279825274 |
+| Block AC | 6 | 414 | 43244531 |
+
+### Block AA — OPEN row 10 (lower-urgency list), 9/10 vintage (STATUS line 92)
+
+| 10 | 🟡 **Lower urgency:** NG=F settlement clock (N5 i-b — spark stays PROVISIONAL) · **KB-WATT-034 metered-vs-DR record-break split (PJM official due "~early Sept" = NOW;** likely home of the "season-high" error — resolve together) · **para. E utilisation report** (the one document that could still convert limb (c) from UNKNOWN) · Oracle/We Energies · Hut8 · TSMC-AZ · EIA-923 heat rate | mixed |
+
+### Block AB — WAKE row, CRWV DSCR conditional, 9/6-9/10 vintage (STATUS line 104)
+
+| ⚠️ **CONDITIONAL, NOT A CATALYST — CRWV DSCR mark absorbs September** | *~Dec 2026 **IF** the load is largely floating* | **Premise UNRESOLVED** ⇒ not a registered dated trigger: the covenant marks *Excess **UNHEDGED*** costs. **Resolve the hedged/floating share FIRST.** *(Registering a date whose premise is open is how a modelled date becomes treated as real.)* |
+
+### Block AC — header 'Superseded content' pointer line, 9/10 vintage (STATUS line 6)
+
+**Superseded content →** `status_archive/STATUS_ARCHIVE_2026-09.md` (Sept rotations; **12,921 B moved 9/2 + 11,927 B moved 9/6 + 7,541 B moved 9/10 + Blocks L–S moved 9/11 (bytes/crc in the archive manifest)**, per-block crc, month-asserted per splice) · `status_archive/STATUS_ARCHIVE_2026-08.md` (**CLOSED** — Aug-17 rotations only) · `archive/SCRATCH_ARCHIVE_2026-07-08.md` (SCRATCH cold half, 56,324 B)
+
