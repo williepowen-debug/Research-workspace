@@ -4,7 +4,47 @@ Reverse-chronological log of **structural** changes to SAM's docs, folders, and 
 
 Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-version shifts, channel re-weighting, threshold rebumps).
 
-**Archive convention:** archives live next to their active doc (e.g., `thesis/timeline/ARCHIVE.md`). Root `archive/` is preserved as a legacy graveyard for pre-Mar 18 system rebuild — do not add to it.
+**Archive convention:** topic archives live next to their active doc (e.g. `thesis/timeline/ARCHIVE.md`, `workbook/KB_ARCHIVE.tsv`, `STATUS_ARCHIVE.md`) — that is still the rule for a doc with a live twin.
+
+🔧 **CORRECTED 2026-09-11.** This line previously read *"Root `archive/` is preserved as a legacy graveyard for pre-Mar 18 system rebuild — do not add to it."* **That had been false for months and the file itself was the evidence:** `archive/` already held `NEXUS_BRIEF_2026-09-04_before_boot.md`, `STATUS_2026-09-08_before_catchup.md`, `MEMORY_2026-09-08_before_catchup.md` and `CALENDAR_2026-09-08_before_catchup.md` — four files added in the preceding week, by this desk, under a note saying not to. It also contradicted root `CLAUDE.md` § Data Hygiene, which directs retirement sweeps to `AGENTS/<NAME>/archive/` by name. **Live rule:** root `archive/` IS the retirement destination per root canon. Retired files keep their original relative path under it (`archive/research/…`, `archive/outbox/…`), which also keeps them from mixing with the flat pre-Mar-18 legacy files at its top level.
+
+*(Class: a documented convention that practice had already overtaken — every session read it, none travelled it, and the contradiction sat in the same directory it described.)*
+
+---
+
+## 2026-09-11 — Housekeeping: STATUS hot/cold split · retirement sweep · frozen-ledger banner
+
+**Boot-impact: one new on-demand read; boot-read coverage unchanged.**
+
+- **STATUS hot/cold split.** STATUS hit **13 B of headroom** against its 32,550 B budget after the morning
+  refresh, and the cheap prose-compression fix was spent. Moved the four sections that were **never in the boot
+  read** — durable reference rows, CARRY UNWIND method, INTERVENTION evidence detail, CHANNELS·BOJ·FED source
+  detail — to a new **`STATUS_REFERENCE.md` (WARM: current and citable, read on demand)**. Each left a pointer
+  in STATUS carrying its one-line LIVE state. STATUS **32,537 → 29,027 B**; `read_cap_check --agent SAM` went
+  **1 over budget → 0**. Registered in `CLAUDE.md` boot step 2 + FILES. Checked first: no external consumer
+  cites these section names; the `↪️ MOVED:` redirects peers DO cite stayed in STATUS.
+- **Also moved:** the 2026-09-10 (ET) session block → `STATUS_ARCHIVE.md` (verbatim, pointer left); all four of
+  its claims already lived elsewhere in STATUS and in TIMELINE.
+- **Retirement sweep (root CLAUDE.md § Data Hygiene).** 40 files >60 days old, not boot-read and not referenced
+  by a live doc → `archive/`, original relative paths preserved, all via `git mv`. Includes the Japanese-source
+  pipeline (on MEMORY's DEFERRED retire list since July), the four FY-end repatriation research files (Channel 1
+  is RETIRED), `FXY_ACTIVATION_CARD.md` (book is FLAT), and landed 2026-06 proposals/outbox packets.
+  **Two false negatives in my own sweep, caught and fixed before commit:** (i) the reference check keyed on
+  `name.md` while `CLAUDE.md` cites several research outputs **without the extension** — stem-matching recovered
+  3 files that a live doc travels; (ii) the check was **one-hop**, so `2026-06-10_ch009_discount_rederivation.md`
+  read as unreferenced although live `STRATEGY.md` reaches it via `ch010_011_032_responses.md` — restored.
+  **Two exclusions on judgment:** `red/` (RED's directory — SAM reads, does not edit) and
+  `OPEN_THREADS_2026-07-09.md` (still carries open rows, e.g. CH-010 above-4.5%; clause ① — needs a reconcile
+  pass before it can retire, flagged not swept).
+  ⚠️ **Known and accepted:** several other desks (RED, CARL, HENRY, LIQUID, VIOLET, DAEDALUS) link some of the
+  moved packets. Archiving is not deletion and the paths are stable under `archive/`; they cite these as history.
+- **`workbook/BOJ_OIS.tsv` bannered FROZEN.** The retired feed had **no freeze banner at all** — it opened
+  straight into a header with a plausible `39.70` September figure, and one row's quality column still read
+  *"LIVE — cite THIS row"* inside a container nobody had marked closed. This is the exact retired basis behind
+  the **"~40-54% UNPRICED band"** that went ~50pp stale and inverted the trade it implied (corrected upstream
+  the same day at PROME DOCKET L34). Nothing reads the file; `boj_ois.py` writes only `BOJ_MEETING_OIS.tsv` and
+  never falls back. Verified `boj_ois.py` still runs clean after the banner.
+- **Archive-convention note corrected** — see the corrected line at the top of this file.
 
 ---
 

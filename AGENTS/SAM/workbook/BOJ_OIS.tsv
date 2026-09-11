@@ -1,3 +1,21 @@
+# FROZEN 2026-09-11 — not maintained; STATUS is canonical, do not cite rows as current.
+# RETIRED FEED. This is the legacy futures-derived cumulative-probability ledger (centralbank.watch /
+# 3m-TONA-futures basis). It was RETIRED and superseded by workbook/BOJ_MEETING_OIS.tsv, which carries
+# reviewed Totan ICAP indicative meeting-to-meeting OIS medians. Nothing reads this file; boj_ois.py
+# writes only the MEETING ledger and never falls back to this one.
+#
+# WHY THE BANNER WAS ADDED LATE (2026-09-11 housekeeping): the file carried NO freeze banner at all, so
+# it opened straight into a header with a plausible-looking September figure (39.70% on the top row).
+# Worse, one row's quality column still reads 'LIVE -- cite THIS row' — a LIVE label inside a container
+# nobody had marked closed, which gives a reader no signal in either direction.
+# ⛔ THAT LABEL IS VOID. Every row here is superseded by construction: this ledger stops at 2026-09-03
+# and the live instrument has been re-pulled since (Sep-11 15:15 JST).
+#
+# ⚠️ THIS IS NOT A HYPOTHETICAL HAZARD. The retired basis behind this feed is the source of the
+# '~40-54% UNPRICED band' that went ~50pp stale and INVERTED the trade it implied — corrected upstream
+# on 2026-09-11 at PROME DOCKET L34 and packeted to WALTER. September is 98% priced, not 40-54% unpriced.
+# ⛔ DO NOT restore this feed, splice it, or cite any row as a current probability. Incremental 25bp
+# equivalents and cumulative expected hike counts are DIFFERENT QUANTITIES — see workbook/BOJ_OIS_README.md.
 as_of_date	meeting_date	cum_hike_pct	hold_pct	cut_pct	marginal_hike_pct	unpriced_pct	basis	instrument	source	policy_rate_pct	quality	pulled_at
 2026-08-03	2026-09-17	39.70	60.30	0.00	39.70	60.30	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	SUPERSEDED refuted model-free; cite the converged multi-source row	2026-08-04T11:17
 2026-08-03	2026-10-28	71.00	29.00	0.00	31.30	29.00	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	UNKNOWN impeached source; this leg not independently corroborated	2026-08-04T11:17
