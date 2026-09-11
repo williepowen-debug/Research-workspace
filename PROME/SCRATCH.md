@@ -35,7 +35,7 @@
 ## Operator card
 - **Today:** Thu 2026-09-10 (late) · markets CLOSED · book = FORGE 9/10 CLOSE (Fidelity) + 16:10 (Robinhood) · $0 moved by PROME · STAND DOWN on new energy capital (WQ-192) · **Will's hands 9/11:** XLE 65C ×1 sell at the bid at the open (WQ-210) · the two FFIEC `.env` lines desktop → laptop · VLO ×3 once TERRY re-arms the card (WQ-213) · RH USO 159C expires · D-rows: D-49 · D-53 · D-54 · D-44/D-45 (one ledger scroll).
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-10 · 9 open, 3 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-210 (9/11) · WQ-187 (9/12) · WQ-213 (9/18) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-216 (9/19) · ⛔ WQ-219 (on BROCK's dra…)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-10 · 9 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-210 (9/11) · WQ-187 (9/12) · WQ-213 (9/18) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-216 (RULE) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-219 (on BROCK's dra…)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
