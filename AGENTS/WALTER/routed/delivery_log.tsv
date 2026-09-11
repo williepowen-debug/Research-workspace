@@ -2586,4 +2586,3 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-12T00:15:00Z	SIG-W-20260911-010	HAWK	info	claude-code	ROUTINE	AGENTS/HAWK/inbox/WALTER/SIG-W-20260911-010.md	written_not_delivered_pending_push	
 2026-09-12T00:15:00Z	SIG-W-20260911-010	CARL	info	claude-code	ROUTINE	AGENTS/CARL/inbox/WALTER/SIG-W-20260911-010.md	written_not_delivered_pending_push	
 2026-09-12T00:15:00Z	SIG-W-20260911-010	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
-2026-09-12T00:15:00Z	NOTE-20260911-cc-debt	CARL	note	claude-code	NOTE	AGENTS/CARL/inbox/WALTER/2026-09-11-NOTE-cc-debt-chart-unsourced.md	written_not_delivered_pending_push	3.5.1 note-class - delivered to an EXEMPT desk on purpose; an unsourced chart is not a BOARD row and the inbox is its only channel
