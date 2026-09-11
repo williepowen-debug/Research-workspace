@@ -64,7 +64,13 @@ Session: **2026-09-11 Fri ~17:5x–18:2x ET, Full WALTER SECOND boot** (Claude C
 
 **NEXT SESSION, bounded:** give corrections an independently addressable delivery key; match exact parsed receipt identifiers and qualifying dispositions; **an original acknowledgment must not discharge a later correction, and adding a correction must not reset the original's age.** **Test BOTH directions — original-consumed/correction-unread AND correction-consumed/original-unread.** Review record: `reviews/2026-09-11_walter_recent_work_review.md` finding 2.
 
-### 🟠 ALSO CARRIED — bounded historical timestamp reconciliation (Codex finding 5)
+### ✅ CODEX FINDING 5 — VALIDATION HALF CLOSED 2026-09-11 (second pass)
+
+**Two more holes found by Codex AFTER `98bd090fc`, both now fixed and both mine:**
+- ⛔ **`2099-01-01T02:3xZ` and `2026-99-99T02:3xZ` passed as acceptable approximations** — the approximate-minute branch returned BEFORE any date validation. **An `x` is a claim about PRECISION, never a waiver**, and the age basis reads exactly that date part. The branch now validates the date fully: impossible ⇒ MED, future ⇒ HIGH.
+- 🔴 **MY TESTS REIMPLEMENTED THE CLASSIFIER INSTEAD OF CALLING IT.** "11 reproductions pass" was true and hollow — six timestamp tests asserted against a test-only copy, so they passed while production failed on exactly the two cases above. **A test that reimplements the thing it tests validates the reimplementation.** `[[finding_crosscheck_with_free_parameter_validates_nothing]]` ⇒ `check_future_timestamps` now takes a `_fields` test seam and **8 of the 13 tests drive the production function**; the remaining 5 exercise `_handoff_role` directly, which is also production.
+
+### 🟠 STILL CARRIED — bounded historical timestamp RECONCILIATION (Codex finding 5, data half)
 
 **16 chronology anomalies >2min remain** between recorded dispatch times and the commits that first contain those files (12 from 9/10, 4 from the first 9/11 session; e.g. `-20260910-011` +33m20s, `-20260911-004` +73m28s). ⛔ **These are NOT to be "corrected" by inventing precise historical seconds.** Commit time is corroborating evidence and an **upper bound on first recorded existence**, not proof of dispatch time. **Reconcile with contemporaneous evidence, retain uncertainty where exact times are unrecoverable, and keep occurrence time / record creation / repair time distinct.**
 

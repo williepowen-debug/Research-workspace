@@ -2491,7 +2491,7 @@ def check_index_generated_fresh():
     return [(INFO, f"generated INDEX fresh (rowset {sha[:12]}, {len(sigs)} signals; "
                    f"{len(have)} live rows hashed and matched — banner AND content)")]
 
-def check_future_timestamps():
+def check_future_timestamps(_fields=None):
     """No WALTER-written timestamp may lie in the FUTURE. Also catches malformed stamps.
 
     🔴 BOUGHT 2026-09-11, 39 WRONG STAMPS ACROSS 19 FILES IN ONE SESSION. WALTER read the
@@ -2546,6 +2546,21 @@ def check_future_timestamps():
         # consumer ever needs the minute, this class becomes a defect, not a convention.
         m = CANON.match(raw)
         if not m and APPROX.match(raw) and "x" in raw.lower().split("T", 1)[-1]:
+            # ⛔ UNCERTAINTY ABOUT THE MINUTE DOES NOT EXCUSE THE DATE (Codex, 2026-09-11).
+            # v1 returned here immediately, so `2099-01-01T02:3xZ` (decades ahead) and
+            # `2026-99-99T02:3xZ` (impossible date) both passed as acceptable
+            # approximations. The `x` is a claim about PRECISION, never a waiver of
+            # validation — and the age basis reads exactly this date part.
+            try:
+                d0 = dt.date.fromisoformat(raw[:10])
+            except ValueError:
+                malformed.append((label, path, f"{raw} (approx minute, IMPOSSIBLE DATE)"))
+                return
+            if d0 > (now + tol).date():
+                bad.append((label, path, raw,
+                            int((dt.datetime.combine(d0, dt.time(), dt.timezone.utc)
+                                 - now).total_seconds() // 60)))
+                return
             approx.append((label, path, raw))
             return
         if not m:
@@ -2566,53 +2581,67 @@ def check_future_timestamps():
         if d > now + tol:
             bad.append((label, path, raw, int((d - now).total_seconds() // 60)))
 
-    log = WALTER / "routed" / "delivery_log.tsv"
-    if log.exists():
-        for ln in log.read_text(errors="replace").splitlines()[1:]:
-            c = ln.split("\t")
-            if not ln.strip():
+    # 🔬 TEST SEAM. `_fields` lets a test drive THIS function with fixtures instead of
+    # reimplementing its logic. Bought 2026-09-11: the first test file duplicated the
+    # classifier, so the tests could pass while production failed — and they did, on the
+    # two cases above. A test that reimplements the thing it tests validates the copy.
+    # `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
+    if _fields is not None:
+        for label, path, value in _fields:
+            _scan(label, value, path)
+    else:
+        log = WALTER / "routed" / "delivery_log.tsv"
+        if log.exists():
+            for ln in log.read_text(errors="replace").splitlines()[1:]:
+                c = ln.split("\t")
+                if not ln.strip():
+                    continue
+                # ⚠️ A MISSING field must FAIL, not be skipped — v1's `if c[0].strip()`
+                # silently dropped every row with an empty timestamp.
+                _scan("delivery_log", c[0] if c else "", (c[1].strip() if len(c) > 1 else "<no-sig>"))
+
+        # BOARD frontmatter for signals dispatched in the last 14 days (bounded scan).
+        cutoff = (TODAY - dt.timedelta(days=14)).strftime("%Y%m%d")
+        for f in sorted((REPO / "BOARD").glob("SIG-W-*.md")):
+            try:
+                stamp = f.name.split("-")[2]
+            except IndexError:
                 continue
-            # ⚠️ A MISSING field must FAIL, not be skipped — v1's `if c[0].strip()`
-            # silently dropped every row with an empty timestamp.
-            _scan("delivery_log", c[0] if c else "", (c[1].strip() if len(c) > 1 else "<no-sig>"))
+            if stamp < cutoff:
+                continue
+            head = f.read_text(errors="replace")[:600]
+            for line in head.splitlines():
+                if line.startswith(("timestamp:", "time_dispatched:")):
+                    _scan("BOARD", line.split(":", 1)[1].strip(), f.name)
 
-    # BOARD frontmatter for signals dispatched in the last 14 days (bounded scan).
-    cutoff = (TODAY - dt.timedelta(days=14)).strftime("%Y%m%d")
-    for f in sorted((REPO / "BOARD").glob("SIG-W-*.md")):
-        try:
-            stamp = f.name.split("-")[2]
-        except IndexError:
-            continue
-        if stamp < cutoff:
-            continue
-        head = f.read_text(errors="replace")[:600]
-        for line in head.splitlines():
-            if line.startswith(("timestamp:", "time_dispatched:")):
-                _scan("BOARD", line.split(":", 1)[1].strip(), f.name)
+    def _verdict():
+        out = []
+        if bad:
+            worst = max(b[3] for b in bad)
+            shown = ", ".join(f"{lbl}:{path} {raw} (+{mins}m)"
+                              for lbl, path, raw, mins in sorted(bad, key=lambda x: -x[3])[:4])
+            out.append((HIGH, f"{len(bad)} FUTURE timestamp(s), worst +{worst} minutes ahead "
+                        f"of the clock — a stamp you cannot have written yet. THE AGE BASIS "
+                        f"IS AMONG THESE FIELDS, so this is a measurement defect, not "
+                        f"formatting. Re-stamp from `date -u`, never from felt elapsed "
+                        f"time: {shown}"))
+        if malformed:
+            out.append((MED, f"{len(malformed)} malformed timestamp(s): "
+                        + ", ".join(f"{l}:{p} {r}" for l, p, r in malformed[:4])))
+        if approx:
+            out.append((INFO, f"{len(approx)} field(s) use WALTER's approximate-minute "
+                        f"convention (e.g. {approx[0][2]}) — a KNOWN convention, NOT a "
+                        f"defect and NOT silently passed. ⚠️ The DATE part is still fully "
+                        f"validated: the `x` is a claim about PRECISION, not a waiver. "
+                        f"Tolerable because the age basis slices [:10] and reads that date; "
+                        f"a defect the day any consumer needs the minute."))
+        if not out:
+            out.append((INFO, f"every timestamp field parsed, dated and canonical "
+                        f"({checked} field(s) validated) — none future, none missing, none "
+                        f"non-canonical, no impossible dates"))
+        return out
 
-    out = []
-    if bad:
-        worst = max(b[3] for b in bad)
-        shown = ", ".join(f"{lbl}:{path} {raw} (+{mins}m)"
-                          for lbl, path, raw, mins in sorted(bad, key=lambda x: -x[3])[:4])
-        out.append((HIGH, f"{len(bad)} FUTURE timestamp(s), worst +{worst} minutes ahead of "
-                    f"the clock — a stamp you cannot have written yet. THE AGE BASIS IS "
-                    f"AMONG THESE FIELDS, so this is a measurement defect, not formatting. "
-                    f"Re-stamp from `date -u`, never from felt elapsed time: {shown}"))
-    if approx:
-        out.append((INFO, f"{len(approx)} field(s) use WALTER's approximate-minute "
-                    f"convention (e.g. {approx[0][2]}) — a KNOWN convention, NOT a defect "
-                    f"and NOT silently passed: the age basis slices [:10] and reads the "
-                    f"DATE, so the approximation never reaches the instrument. It becomes "
-                    f"a defect the day any consumer needs the minute."))
-    if malformed:
-        out.append((MED, f"{len(malformed)} malformed timestamp(s): "
-                    + ", ".join(f"{l}:{p} {r}" for l, p, r in malformed[:4])))
-    if not out:
-        out.append((INFO, f"every timestamp field parsed and canonical ({checked} field(s) "
-                    f"validated in delivery_log + 14d of BOARD frontmatter) — none future, "
-                    f"none missing, none non-canonical"))
-    return out
+    return _verdict()
 
 
 CHECKS = [

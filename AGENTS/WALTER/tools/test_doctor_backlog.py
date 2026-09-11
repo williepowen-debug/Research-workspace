@@ -55,41 +55,45 @@ check("ACTION handoff to a normal desk still classifies ACTION",
       w._handoff_role("SIG-W-20260911-005", "REGINALD", "SIG-W-20260911-005.md", roles), "ACTION")
 
 
-# ── Timestamp validation (Codex fixtures, 2026-09-11) ────────────────────────────────
-# v1 of check_future_timestamps SEARCHED each field for a valid-looking substring with
-# re.finditer, so a field matching nothing produced no finding and the check reported
-# INFO "clean". Three of these four passed as clean before the repair.
-import re as _re
-_CANON = _re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?Z$")
-_APPROX = _re.compile(r"^\d{4}-\d{2}-\d{2}T[\dx]{2}:[\dx]{2}(?::[\dx]{2})?Z$", _re.I)
+# ── Timestamp validation — CALLS THE PRODUCTION CHECKER ──────────────────────────────
+# ⚠️ THE FIRST VERSION OF THIS BLOCK REIMPLEMENTED THE CLASSIFIER and asserted against the
+# copy. Codex reproduced two failures by calling the real checker that the copy passed:
+# `2099-01-01T02:3xZ` (decades ahead) and `2026-99-99T02:3xZ` (impossible date) both sailed
+# through, because the approximate-minute branch returned BEFORE any date validation.
+# A test that reimplements the thing it tests validates the reimplementation.
+# `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
+# These now drive `check_future_timestamps` itself through its `_fields` seam.
+
+def sev(fields):
+    """Highest severity the PRODUCTION checker returns for these fields."""
+    out = w.check_future_timestamps(_fields=[("test", "fixture", v) for v in fields])
+    rank = {w.HIGH: "HIGH", w.MED: "MED", w.LOW: "LOW", w.INFO: "INFO"}
+    order = [w.HIGH, w.MED, w.LOW, w.INFO]
+    for lvl in order:
+        for s_, _m in out:
+            if s_ == lvl:
+                return rank[lvl]
+    return "NONE"
 
 
-def _classify(v):
-    if not (v or "").strip():
-        return "EMPTY"
-    if _CANON.match(v):
-        return "CANONICAL"
-    if _APPROX.match(v) and "x" in v.lower().split("T", 1)[-1]:
-        return "APPROX"
-    return "FLAGGED"
+print("\nTimestamp validation — production checker, via its test seam:")
+check("junk text is flagged", sev(["NOT-A-TIMESTAMP"]), "MED")
+check("empty field is flagged, not skipped", sev([""]), "MED")
+check("non-canonical offset is flagged (schema is ...Z)",
+      sev(["2099-01-01T00:00:00+00:00"]), "MED")
+check("canonical future stamp is HIGH", sev(["2099-01-01T00:00:00Z"]), "HIGH")
+check("approximate-minute convention is accepted", sev(["2026-08-15T02:3xZ"]), "INFO")
+check("a clean canonical stamp passes", sev(["2026-09-11T22:05:00Z"]), "INFO")
 
-
-print("\nTimestamp field validation (whole field, fail-closed):")
-check("junk text is FLAGGED, not silently clean", _classify("NOT-A-TIMESTAMP"), "FLAGGED")
-check("empty field is EMPTY, not skipped", _classify(""), "EMPTY")
-check("non-canonical offset is FLAGGED (schema is ...Z)",
-      _classify("2099-01-01T00:00:00+00:00"), "FLAGGED")
-check("canonical future stamp parses (date test then catches it)",
-      _classify("2099-01-01T00:00:00Z"), "CANONICAL")
-# The approximate-minute convention must be RECOGNISED, not flagged as malformed — and
-# the class must REQUIRE a literal x: `[\dx]` also matches digits, and a permissive
-# version swallowed all 2,784 canonical stamps into the "convention" bucket.
-check("approximate-minute convention is its own class", _classify("2026-08-15T02:3xZ"), "APPROX")
-check("an ordinary canonical stamp is NOT mistaken for the convention",
-      _classify("2026-09-11T22:05:00Z"), "CANONICAL")
+# The two Codex found. An `x` in the minute is a claim about PRECISION, never a waiver of
+# date validation — and the age basis reads exactly that date part.
+check("CODEX: approx minute does NOT excuse a future DATE",
+      sev(["2099-01-01T02:3xZ"]), "HIGH")
+check("CODEX: approx minute does NOT excuse an impossible DATE",
+      sev(["2026-99-99T02:3xZ"]), "MED")
 
 print()
 if FAILS:
     print(f"✗ {len(FAILS)} FAILED: {', '.join(FAILS)}")
     sys.exit(1)
-print(f"✓ all 11 reproductions pass")
+print(f"✓ all 13 reproductions pass — 5 classifier, 8 through the production checker")
