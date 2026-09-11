@@ -512,6 +512,50 @@ def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None,
         print("     Those columns are NOT written by anything this run; "
               "previously verified values are PRESERVED.")
 
+    # ── CREATE missing sessions ───────────────────────────────────────────
+    # ⚠️ ADDED 2026-09-11. This pass UPDATED rows and never CREATED them, so a
+    # ledger gap could not self-heal even when CBOE held the data: the merge loop
+    # below iterates `rows.items()`, and a date absent from `rows` was never
+    # looked at. On 2026-09-06 a `--spot-only` run over a three-session hole
+    # touched 27 rows, added 0, and reported "2,496 cells agreed" — a clean
+    # verdict over a gap it structurally could not see. It is the exact partner
+    # of the `vx_daily_gapcheck.py` span defect (KB-VIO-273): one instrument
+    # could not DETECT a trailing gap, this one could not REPAIR it, and fixing
+    # either alone leaves the hole.
+    #
+    # A row is created ONLY for a CBOE TRUE SESSION — VIX published *and* at
+    # least one companion — which is the same discriminator the gapcheck uses and
+    # is what keeps the 14 holiday phantoms (orphan VIX) out of the ledger. The
+    # window is bounded by the ledger's own first row and CBOE's publication
+    # frontier: this heals gaps, it never extends history backwards and never
+    # invents a session ahead of the publisher.
+    #
+    # Skeletons are EMPTY. Everything downstream then does the real work: the
+    # merge loop fills each spot column from CBOE, the derived ratios follow
+    # their inputs, `regime` is computed, and the stateless all-columns-confirmed
+    # test stamps `basis=SETTLE`. m1m2 columns are left BLANK — a blank is the
+    # absence of a claim, and the T-1-vs-same-day convention hazard is unresolved.
+    created: list[str] = []
+    if not failed and rows:
+        companion_cols = [c for c in CBOE_SERIES if c != "vix"]
+        lo_led = min(rows)
+        frontier = max((d for d in hist["vix"]
+                        if any(hist.get(c, {}).get(d) is not None
+                               for c in companion_cols)), default=None)
+        if frontier is not None:
+            for d_str in sorted(hist["vix"]):
+                if not (lo_led <= d_str <= frontier) or d_str in rows:
+                    continue
+                if not any(hist.get(c, {}).get(d_str) is not None
+                           for c in companion_cols):
+                    continue  # orphan VIX = holiday phantom, never create
+                rows[d_str] = {"date": d_str}
+                created.append(d_str)
+    if created:
+        print(f"  🆕 CREATED {len(created)} missing session row(s) CBOE published "
+              f"and the ledger lacked: {', '.join(created)}")
+        print("     (filled from CBOE below; m1m2 left BLANK by convention)")
+
     filled = corrected = agreed = settle_stamped = 0
     settle_withheld_provisional = 0
     corrections: list[str] = []
@@ -606,7 +650,8 @@ def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None,
             print(line)
     return {"filled": filled, "corrected": len(corrections),
             "agreed": agreed, "settle_stamped": settle_stamped,
-            "settle_withheld_provisional": settle_withheld_provisional}
+            "settle_withheld_provisional": settle_withheld_provisional,
+            "created": len(created)}
 
 
 def main(argv=None):
