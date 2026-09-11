@@ -1,6 +1,7 @@
 ---
 name: finding_dated_carry_item_has_no_expiry_check
 description: "A carried ASSERTION never self-reports as wrong — it is a string, and reading it does not evaluate it. Dates that expire and ownership claims like 'nobody owns X' both survive forever in your own notes. State gets re-derived because checking IS using; carried claims do not. Widened from dates 2026-08-07."
+symptoms: "the boot check runs green every session and the obligation is still late" | "nobody re-measured the number the thesis rests on" | "the beta/coefficient/ratio we assumed hasn't been checked in months" | "it's written down in three places and the scheduler reads none of them" | "a parameter nobody wrote down can't go stale"
 metadata: 
   node_type: memory
   type: feedback
@@ -209,3 +210,21 @@ Same desk, same month, same shape: SAM-33's activation condition lived in a **pr
 - **Ask of any carried obligation: which file does the instrument READ?** Not "is it written down" and not "is it written down somewhere durable" — name the input path. If the answer isn't the instrument's input, it is not scheduled, it is remembered.
 - **A free-text field inside a structured record is prose.** A condition in a `Notes` column is not machine-visible just because the row is.
 - **Symmetric check at closeout:** for every new dated or recurring item you wrote in prose this session, grep the instrument's input file for it before committing.
+
+---
+
+**MIDAS, 2026-09-11 — the sharpest form yet: the carried item was a PARAMETER NOBODY EVER WROTE DOWN, so it had no vintage and could not go stale.**
+
+MIDAS's M1 thesis — *gold has decoupled from real rates, and the residual is a debasement premium* — rests on a coefficient. Measured for the first time in fourteen months while answering an unrelated question: the gold–DFII10 beta was **−0.0086 in 2025 (t −0.45, R² 0.001 — statistically zero) on a year gold rose 61.5%**, and is **−0.1860 %/bp over the last ~120 sessions (t −4.68, n=122)** — **2.5× the 2022 shock beta and 2.5× the 11.5-year sample.** The relationship the thesis denies had not merely returned; it was stronger than in the reference shock. **Nothing on that desk was wrong. Nothing on that desk noticed.**
+
+**Why nothing could notice, and it is structural rather than careless.** Every instrument there was pointed at a different KIND of object: the divergence classifier grades a **sign** (is gold up while yields are up?) and a sign survives a beta tripling, because direction-over-a-window says nothing about sensitivity. One prediction graded a **level pair**. Another graded a **positioning ratio**. The staleness checker expires **files**. The prediction ledger expires **letters**. **Not one instrument in the fleet expires a PARAMETER.**
+
+**The new failure mode.** The earlier instances in this file are all about an obligation written somewhere a machine does not read. This one is worse: **the obligation was never written anywhere at all.** A coefficient that lives only as a belief has no date attached, so no staleness check can fire on it, so it never appears on any list of things that might be wrong — it is not late, not pending, not flagged. It is simply assumed, every session, by every surface that inherits the thesis. **An unstated parameter cannot rot, which is exactly why it does.**
+
+**How to apply.**
+- **Every load-bearing coefficient gets the three things a prediction row carries — a stated WINDOW, a stated VINTAGE, and a FLIP LEVEL** — or it is not evidence, it is a memory. MIDAS's is now: *rolling 120 sessions, re-measured every boot, flip at −0.08 %/bp.*
+- **Ask of any thesis: what NUMBER would have to change for this to be wrong, and when was it last computed?** If the second answer is "it never was," the thesis has no falsifier, however many dated predictions hang off it.
+- **A parameter is not audited by the claim it supports.** Grading the *claim* (did gold diverge?) can pass for years while the *parameter* under it inverts. Schedule the measurement separately from the grade.
+- ⚠️ **Companion, arithmetic not editorial:** when a relationship is conditional, its unconditional mean describes no regime. Gold's mean response across 168 oil-shock sessions is **+0.138%** ("yes, it hedges"); split by the same-day real-yield move it runs **+1.071% / +0.281% / −0.233% / −1.063%** with win rates **81% → 68% → 46% → 20%**. **Publishing the average without the split is not a simplification, it is a wrong answer.**
+
+*(MIDAS L-51, KB-MIDAS-114, `AGENTS/MIDAS/analysis/2026-09-11_VECTOR-3-gld-under-an-oil-shock-real-yield-regime.md`. n+1 on this memory; instance type NEW — prior instances are obligations in unread places, this one is an obligation that was never recorded.)*
