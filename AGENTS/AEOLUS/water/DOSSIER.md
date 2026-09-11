@@ -1,9 +1,22 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-08-27.** All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / NWS-AHPS / ACP-Gatun-CSV / OVF / UNL-FICH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 and 2026-08-27 worker passes.
+**As-of: 2026-09-10** *(drain-session refresh 9/11 of Panama/Gatún + Mead/Powell ONLY; every other figure below is 8/27 vintage — read the section dates)*. All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / NWS-AHPS / ACP-Gatun-CSV / OVF / UNL-FICH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 and 2026-08-27 worker passes.
 
-> **Last real data refresh: 2026-08-27**  ·  **Dossier written: 2026-08-27**
+> **Last real data refresh: 2026-09-10**  ·  **Dossier written: 2026-09-11**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
+
+### 🔴 9/11 DRAIN-SESSION REFRESH — Panama paused, Mead flattened (partial refresh; no worker spawned)
+
+| Instrument | Read [date · basis] | Token | Change since 8/27 |
+|---|---|---|---|
+| **Gatún Lake** | **84.04 ft** [9/10 · ACP history CSV, 22,533 rows] | VERIFIED | **+0.24 ft** from 83.80 (8/26). Same-date 9/10: 2023 **79.65** · 2024 86.04 · 2025 86.49. 2026 = 4.39 ft above the El Niño analogue; 2023-24 trough 79.53 (10/25/2023) |
+| **Neopanamax draft** | **48.0 ft TFW, floor "until further notice"** [A-33-2026, 9/4, read at primary 9/11] | VERIFIED | The 47.5 ft step scheduled 10/01 is **POSTPONED**. Slot cap 32/day (A-29) untouched |
+| ACP projection CSV | 84.0–84.4 ft and **49.0 ft** Neopanamax draft for every date 9/12→11/11 [9/11 pull] | INFERRED (reference-only artifact) | 8/27 vintage modelled 47.5 ft by ~10/9 — the planning direction **reversed**. The Advisory is binding |
+| **Transits** | **33.19/day, Aug 2026** (1,029; high 37 / low 26) [A-34-2026, 9/10] | VERIFIED | Apr 38.70 → May 37.06 → Jun 32.50 → Jul 34.03 → Aug 33.19; −7.4% vs 35.86. Neopanamax slots **98.31% used** |
+| **Mead** | **1,038.72 ft** [9/10 · USBR 921/49]; 8/31 = 1,038.83 vs Aug 24MS 1,040.04 (**−1.21**) | VERIFIED | Slope 8/28→9/10 **−0.013 ft/day** (was −0.065). Margin 3.72 ft. Datum, not signal (KB-098) |
+| **Powell** | **3,517.24 ft** [9/10 · USBR 919/49] | VERIFIED | −0.083 ft/day since 8/26; 7.24 ft above 3,510 |
+
+*KB-AEO-104/105/106 · VX-AEO-34 · FLOW-AEO-15 · AEO-12 80→60%. USDM, Rhine/Danube, Mississippi, Lees Ferry: NOT refreshed — 8/27 vintage below.*
 > **Observations → `water/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C2 · C4 · C5 · C6 (root: owns drought + reservoirs + streamflow + river stage)
 > **🔴 8/27 worker pass headline: TWO NEW INSTRUMENTS FOUND — Gatun Lake elevation (1965-present daily series + a forward projection tied to draft steps) and a working Mississippi low-water reference at Memphis (NWS AHPS, `lowThreshold -8 ft`). Both close named gaps this folder had carried as UNINSTRUMENTED. AEOLUS: register both in SOURCES.md/AGENT.md's controlled vocabulary — not done by the worker, per the no-invented-instrument-name limit.**

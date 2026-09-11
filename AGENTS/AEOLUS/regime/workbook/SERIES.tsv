@@ -37,3 +37,4 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-19	nino3_weekly	3.3	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026
 2026-08-19	nino12_weekly	4.0	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, unchanged from 12AUG
 2026-08-19	nino4_weekly	0.8	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, down from 1.0 (12AUG)
+2026-09-10	oni_jja	1.80	degC	CPC-oni.ascii	2026-09-11 11:2x ET	JJA 2026 = +1.80 (Nino-3.4 29.09), from MJJ +1.39. 'Strong' +1.5 reached at JJA. RONI URL 404 this session -- SEARCH-NOT-FOUND, re-locate

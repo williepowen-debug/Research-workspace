@@ -339,6 +339,8 @@ head -1 gatun.csv; tail -3 gatun.csv     # header: DATE_LOG,GATUN_LAKE_LEVEL(FEE
 | Advisory | Content | URL tail (prefix `https://pancanal.com/wp-content/uploads/`) |
 |---|---|---|
 | **A-29-2026** | 🔴 **Slot cap + draft postponement** (8/20) | `2026/08/ADV-29-2026-Additional-Measures-to-Address-Reduced-Precipitation-in-the-Canal-Watershed.pdf` |
+| **A-33-2026** | 🔴 **POSTPONES the 10/01 47.5 ft step; 48.0 ft stays until further notice** (9/4) — ⚠️ PDF metadata title reads *May 4 2007*; the body is dated Sep 4 2026 | `2026/09/ADV-33-2026-Postponement-of-Maximum-Authorized-Draft-Adjustment-in-the-Neopanamax-Locks.pdf` *(re-executed 9/11, HTTP 200, 287,337 B)* |
+| **A-34-2026** | Monthly Ops Summary **Aug 2026** — transits 33.19/day (9/10) | `2026/09/adv-34-2026-monthly-canal-operations-summary-august-2026.pdf` *(lower-case filename — ACP's; re-executed 9/11)* |
 | A-22-2026 | Draft adjustment (7/01) | `2026/04/ADV-22-2026-Draft-adjustment-in-the-Neopanamax-Locks.pdf` |
 | A-09 / A-14 / A-19 / A-23 / A-26 -2026 | Monthly Ops Summary Mar–Jul 2026 | `2026/04/…March-2026.pdf` · `2026/04/…April-2026-.pdf` · `2026/06/…May-2026.pdf` · `2026/07/…June-2026.pdf` · `2026/08/…July-2026.pdf` |
 | A-01-2026 · A-30-2025 · A-04-2025 · A-01-2025 · A-38-2024 · A-21-2024 | Monthly Ops Summary, archive back to Jun-2024 | *(all reachable; discover by search)* |

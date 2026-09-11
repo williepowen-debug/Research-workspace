@@ -324,3 +324,10 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-25	usdm_conus_d3d4	11.76	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total)
 2026-08-25	usdm_conus_d4	1.75	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total); +0.40pp w/w = +30% again, same pct move as the prior week
 2026-08-27	rosario_stage	2.87	m	UNL-FICH-ROSARIO	2026-08-27	grain-export gauge; delta -0.04; published ALERT level 5.00 (flood, not low-water); 91.5th pctile of 366-day trailing dist (min 1.08 P10 1.40 med 2.21 max 3.03), down from 96.2nd (8/21) and 99th (8/13)
+2026-08-31	gatun_elev	84.07	ft	ACP-GATUN-CSV	2026-09-11 11:22 ET	instrument name gatun_elev APPROVED by AEOLUS 9/11 (worker proposed 8/27). Daily series 1965-01-01 -> 2026-09-10, 22,533 data rows
+2026-09-10	gatun_elev	84.04	ft	ACP-GATUN-CSV	2026-09-11 11:22 ET	+0.24 ft vs 83.80 (8/26). Same-date 2023 79.65 / 2024 86.04 / 2025 86.49
+2026-08-31	mead_elev	1038.83	ft	USBR-921-49	2026-09-11 11:22 ET	month-end vs Aug 24MS projection 1,040.04 = -1.21 ft (AEO-10 tracking datum, KB-AEO-106)
+2026-09-10	mead_elev	1038.72	ft	USBR-921-49	2026-09-11 11:22 ET	3.72 ft above Hoover 1,035; 8/28->9/10 slope -0.013 ft/day
+2026-09-10	powell_elev	3517.24	ft	USBR-919-49	2026-09-11 11:22 ET	7.24 ft above ROD 3,510; 8/26->9/10 -0.083 ft/day
+2026-08-31	panama_transits	33.19	count	ACP-ADVISORY	2026-09-11 11:22 ET	A-34-2026 (9/10): August 2026 oceangoing transits daily average; total 1,029, high 37, low 26. Neopanamax slots used 175/178 = 98.31%; auctioned 204/227 = 89.87%
+2026-09-04	panama_max_draft_ft	48	feet	ACP-ADVISORY	2026-09-11 11:22 ET	A-33-2026: the 47.5 ft step scheduled 10/01 POSTPONED until further notice; 48.0 ft TFW remains the Neopanamax maximum

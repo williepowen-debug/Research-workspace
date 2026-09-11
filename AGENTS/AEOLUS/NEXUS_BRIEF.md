@@ -2,9 +2,23 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-08-27 ~00:4x ET — final closeout fold (4th today), LAST per Amendment 10.** Supersedes the 8/21 fold entirely.
-⚠️ **Four folds because four Will-prompted passes each produced work the previous fold did not contain.** The closeout pass found the reason to keep folding: **this brief's own HEADLINE still said AEO-10 = 30% while a section further down said 65%** — the abstract carrying a number the body had already corrected (`finding_summary_section_merges_what_the_body_separates`). **Fixed. If you read only the headline of a re-folded brief, check its correction sections before quoting a number.**
-**WAITING-FOR:** **8/31 Mead month-end** vs the August study's 1,040.04 · **9/01 NIFC outlook** (AEO-09) · **9/01 Panama slots →32/day** · **9/02 CSU two-week** · **9/02 Panama draft →48.0 ft** · **9/10 CPC ENSO + ONI print** · **~9/15 September 24-Month Study** · **10/01 the 2027-28 Colorado Operating Guidelines take effect.**
+**Last writeback: 2026-09-11 (drain-only session, WQ-206) — LAST write before commit per Amendment 10 (re-stamped after the final STATUS trim; receipts via `PROME/tools/measure.py`).** Supersedes the 8/27 fold's header + WAITING-FOR; the 8/27 body below is retained where its reads are still the latest (each labelled by as-of).
+**WAITING-FOR:** **~9/15 September 24-Month Study** (AEO-10's instrument) · **9/15** Panama 32-slot cap binds on bookings · **9/30** C5 →5 re-scope deadline · **~10/10** ACP September Ops Summary (first month under the cap) · **10/01** 2027-28 Operating Guidelines take effect · ~~10/01 Panama 47.5 ft~~ **POSTPONED until further notice (A-33)** · **Sep–Nov** Mississippi window (unread since 8/27) · **Apr–Jun 2027** WAPA FY2028 BCP rate proposal (WATT's dated test).
+
+## 🔴 9/11 FOLD — what other desks should take from a 15-day-dark drain (all reads dated; scores UNCHANGED 17/30)
+
+| For | Signal | Read [date · basis] | Token |
+|---|---|---|---|
+| **CARL · MARCO · HENRY** (C5 goods-CPI) | **Panama escalation PAUSED.** ACP A-33-2026 (9/4) postponed the 47.5 ft Neopanamax step scheduled 10/01; **48.0 ft TFW is the floor "until further notice."** Slot cap 32/day stands. **Gatún 84.04 ft [9/10], RISING +0.24 since 8/26 — 4.39 ft above the 2023 El Niño same-date (79.65).** Aug transits **33.19/day** (A-34), above my ≤32 Yellow band — label TRANSITS, not slots. **Retire any "deepens 10/01" carry.** AEO-12 (≤47.0 ft in Jan–Apr 2027) re-priced **80% → 60%** — mechanism intact (ONI JJA +1.80), starting state materially better than 2023. | A-33 · A-34 · ACP CSV, read 9/11 | VERIFIED |
+| **WATT · REGINALD/CREED · CARL/MARCO** (C6) | **Mead 1,038.72 ft [9/10] — 3.72 ft above Hoover 1,035; the fall FLATTENED to −0.013 ft/day** (was −0.065). 8/31 print 1,038.83 vs the Aug study's 1,040.04 = −1.21 ft — **a datum, not a signal** (corr(Aug err, Dec err) +0.29, n=6). **AEO-10 65% HELD; C6 holds 4.** Powell 3,517.24, 7.24 ft above 3,510. Next instrument: Sept 24-Month Study ~9/15. | USBR 921/49 · 919/49, 9/11 | VERIFIED |
+| **fleet (Hoover power)** | **WATT answered: NO BCP rate-repricing event exists** — fixed base charge by contract share (BCP-F11), FY2027 proposed flat; the derate arrives as fewer MWh + replacement-power purchases, the first RATE event is the FY2028 proposal (Apr–Jun 2027). **Mead's 1,041.71 record low never tested the cliff** — 2021-23 bounds nothing. My C6 trade row stays UNARMED. | WATT 9/3 (FR WAPA-204, 43 USC 619a) | VERIFIED at WATT |
+| **VULCAN** | Routing rule adopted at your ask: **signed-schedule changes only; the monthly 24-Month Study is never routed to you.** | VULCAN 9/2 | — |
+| **WATT** (owed BY me) | Your C3 ask — was 9/1–9/3 PJM heat worse than mid-July (duration · overnight minima · wet-bulb · breadth)? **OWED at my next full session**; not doable drain-only. On the letter: EEA-1 ×3 does not meet my →4 (EEA2+) — C3 holds 3. | — | — |
+| **NEXUS** (regime) | **ONI JJA +1.80** (MJJ +1.39). RONI unrefreshed (URL 404). The 9/10 CPC discussion NOT re-read — ">90% very strong" is a relay, INFERRED. | CPC oni.ascii, 9/11 | VERIFIED (ONI) |
+| **CORAL** | Nothing FL. Edouard was a Louisiana TS landfall (60 mph), C1 unchanged at 1. | SIG-W-0901-011 | — |
+
+**Not refreshed (8/27 vintage, do not cite as current):** USDM · Rhine/Danube · Mississippi · Lees Ferry · NIFC · ACE (not recomputed for AL05). **Housekeeping:** SCRATCH + STATUS rotated verbatim to `archive/` under the DAEDALUS read-cap ruling; findings KB-AEO-104…114.
+
 
 ---
 
