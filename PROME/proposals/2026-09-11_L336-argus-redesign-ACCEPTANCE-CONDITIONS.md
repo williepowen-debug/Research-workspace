@@ -135,10 +135,12 @@ still broke behaviour the suites assert.** That is the whole argument for C2 in 
 - **⚠️6 — B3's hosted leg.** The reviewer has no access to the tap store; PROME's no-loss finding is
   **recorded, not independently verified**. Residual in the code: "latest" compares a CLIENT-clock `ts`, so two
   taps in the same millisecond or two devices with skewed clocks leave "latest" undefined.
-- **⚠️7 — cost, carried to C4.** Of 43 SHARED paths, ~24 are inbox packets and at least 10 are visibly other
-  desks' authorship. Nothing is mis-claimed (A5 holds, the lane is labelled) but ARGUS is told to read them, so
-  A4's no-drop guarantee nearly doubles the audit surface. **That is the price of the honest failure direction
-  and it should be reported as a price, not hidden.**
+- **⚠️7 — cost, carried to C4. FIGURES CORRECTED after ARGUS trial run 1 found the first set did not sum.**
+  Measured now, after the final A4 fix, by `python3 PROME/tools/argus_scope.py --json` + a lane count:
+  **OWNED 38 · SHARED 89 = 78 inbox + 11 fleet-memory · EXCLUDED 190.** Of the 78 inbox paths only
+  **14** carry a `from-PROME` hint; **64** do not — which is exactly why no filename may decide visibility.
+  ⚠️ **A4's no-drop guarantee roughly TRIPLES the audit surface over the OWNED lane alone.** That is the
+  declared PRICE of the honest failure direction. It is a price, not a free win, and it is reported as one.
 - The session's own declared N/A: two non-atomic git snapshots under a concurrent second session.
 
 ### What the reviewer could NOT break

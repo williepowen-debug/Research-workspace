@@ -231,16 +231,38 @@ class ReviewFindings_L336(Repo):
     """The three ❌ and two ⚠️ the INDEPENDENT reviewer produced against the final candidate, each with its
     own counterexample. Kept as named anchors so the finding cannot be re-lost (A8's intent)."""
 
-    def test_A4_a_PROME_artifact_in_a_ROUTING_LANE_is_not_invisible(self):
-        """❌1: lanes are the routing desk's and stay EXCLUDED, but a PROME artifact must never vanish."""
-        commit(self.repo, "x", [write(self.repo, "AGENTS/WALTER/inbox/signals/2026-09-11_from-PROME_urgent.md")])
-        commit(self.repo, "y", [write(self.repo, "AGENTS/WALTER/inbox/signals/SIG-W-20260911-001.md")])
+    def test_A4_NO_FILENAME_decides_visibility_anywhere_in_an_inbox(self):
+        """❌1, twice. First attempt: lanes EXCLUDED outright — a PROME artifact in a lane vanished.
+        Second attempt: include-on-hint keyed on `*from-PROME*` — still a FILENAME key, and ARGUS trial run 1
+        found the live instance it misses: 888924d2e committed
+        AGENTS/FALCON/inbox/data/2026-09-11_FIRMS_VIIRS_….csv, PROME's own packet body, no hint in the name.
+        The contract is unconditional, so the rule is now unconditional: EVERY inbox path at EVERY depth is
+        SHARED. The ~44 lane paths that come with it are the declared price."""
+        names = ["2026-09-11_from-PROME_urgent.md", "SIG-W-20260911-001.md",
+                 "data/2026-09-11_FIRMS_VIIRS_corridor.csv", "MSG-2026-09-11-vector.md", "oddname.bin"]
+        for i, n in enumerate(names):
+            commit(self.repo, f"c{i}", [write(self.repo, f"AGENTS/WALTER/inbox/{n}")])
+        shared = {e["path"] for e in self.scope()[0]["SHARED"]}
+        for n in names:
+            self.assertIn(f"AGENTS/WALTER/inbox/{n}", shared,
+                          "no filename may decide visibility inside an inbox")
+
+    def test_A4_only_processed_is_excluded_inside_an_inbox(self):
+        """The one inbox exclusion that survives, and it is by ACT (consumption) not by name."""
+        commit(self.repo, "LABOR: consume", [write(self.repo, "AGENTS/LABOR/inbox/processed/x_from-PROME.md")])
         lanes, excluded = self.scope()
-        shared = {e["path"] for e in lanes["SHARED"]}
-        self.assertIn("AGENTS/WALTER/inbox/signals/2026-09-11_from-PROME_urgent.md", shared,
-                      "include-on-hint: a PROME artifact surfaces even in a lane")
-        self.assertIn("AGENTS/WALTER/inbox/signals/SIG-W-20260911-001.md", {e["path"] for e in excluded},
-                      "ordinary lane traffic stays excluded — 39 live paths of it")
+        self.assertIn("AGENTS/LABOR/inbox/processed/x_from-PROME.md", {e["path"] for e in excluded})
+        self.assertNotIn("AGENTS/LABOR/inbox/processed/x_from-PROME.md",
+                         {e["path"] for v in lanes.values() for e in v})
+
+    def test_A4_the_manifest_holds_no_filename_key_for_visibility(self):
+        """Structural guard: the defect recurred twice because a filename key kept being reintroduced."""
+        txt = LIVE_PERIMETER.read_text(encoding="utf-8")
+        rules = [l for l in txt.splitlines() if l and not l.startswith("#") and not l.startswith("pattern")]
+        for line in rules:
+            pat = line.split("\t")[0]
+            self.assertNotIn("from-PROME", pat,
+                             "a filename key decided visibility twice and failed twice; patterns are structural")
 
     def test_A1_an_orphaned_baseline_fails_loud_after_a_rebase(self):
         """⚠️2: cat-file -e PASSES on a commit no longer reachable from HEAD."""
