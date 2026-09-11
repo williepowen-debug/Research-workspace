@@ -268,7 +268,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (AEO-NN) + resolution tracking. |
 | `CALENDAR.md` | Dated-catalyst calendar (C6 Colorado River ROD clock + seasonal forecast clocks). Read at boot; act on any date within ~30d. |
 | `inbox/` `outbox/` | Cross-agent messaging. `inbox/WALTER/` = WALTER-routed signal lane (drain per boot block). |
-| `OPEN_THREADS_2026-07-09.md` | Dated self-sweep artifact — open questions / gaps / threads-to-pull. Fold into STATUS/SCRATCH or archive once integrated. |
+| `archive/` | Verbatim, crc-receipted rotations of SCRATCH/STATUS blocks (READ_CAP.md two-state rotation, first executed 2026-09-11) + retired artifacts (`OPEN_THREADS_2026-07-09.md`, archived 9/11). Cold record — never boot-read, greppable. |
 | `sources/` | Research corpus, briefings, archived data. |
 
 ### 🔑 THE LAYER CONTRACT *(Will-approved 2026-08-13 — design: `design/2026-08-13_subagent-architecture.md`)*
