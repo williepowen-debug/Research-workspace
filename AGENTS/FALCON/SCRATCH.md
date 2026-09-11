@@ -48,10 +48,11 @@ An **external review (CODEX, via Will)** caught them **after** I had committed, 
 - Inbox **clear (3/3 drained)**. Delivered: **BRENT** (acute + correction), **HAWK** (cc + correction), **PROME** (main + correction) — all carve-out ①, self-committed. PROME verified at the artifacts and confirmed marks unmoved; **nothing owed back.**
 - ⚠️ `date` re-run before every stamp; session correctly recorded as **9/11 ~17:3x → ~23:4x ET**, one evening block.
 
-## ⚠️ DANGLING CITATION — FLAGGED TO PROME, NOT FIXED BY ME
-- **`reviews/2026-09-11_falcon_petroline_recap_review.md` is UNTRACKED in git**, and I cite it from **STATUS, NEXUS_BRIEF, SCRATCH, LESSONS, the report and two KB rows** as the authority for tonight's correction. **Anyone who pulls sees the citations and not the document.**
-- **I did NOT author it and `orphan_check` classifies it `[not yours]` ⇒ I must not commit it.** Same for the three other `reviews/*.md` files present tonight (PROME ×2, WALTER ×1).
-- ⇒ **Flagged to PROME to commit or to rule on.** Until then the correction record is sound on its own terms — every retraction states the substance in place and does not depend on the reviewer's file being readable — but **the attribution pointer is broken**, which is `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`: my surfaces all cite a source, and the citation resolves to nothing.
+## ✅ DANGLING CITATION — RESOLVED 2026-09-11 ~23:5x ET (PROME, `6a63f1b85`)
+- **All five `reviews/*.md` are now TRACKED and my 8 citations resolve** — verified at the artifact, not from the message (`git ls-files` + target present on disk).
+- **The flag was right and bigger than I measured it.** I counted my own surfaces; PROME measured **13 citations across 11 committed files spanning FALCON, HAWK, BRENT, SAM and PROME** — the petroline recap alone cited by **eight** committed files. **Anyone pulling saw every citation and no document.**
+- ⚠️ **This entry replaces a flag that said "UNTRACKED … not fixed by me." That is now FALSE and would have been the THIRD describing-surface-vs-canon drift of one session** — the class I spent the evening correcting. Corrected rather than left to rot.
+- **Boundary, recorded so it is not misread as precedent:** PROME committed files it did not author under Will's explicit *"lets commit and push"* with those files in the tree, `reviews/` being an already-tracked directory with a prior `REVIEW -> PROME` commit of the same shape. **Not a standing grant, and `reviews/` stays EXCLUDED from ARGUS's audit perimeter.** I did not commit them and should not have.
 
 ## PENDING PUSH / GIT (if any)
 - **Will-booted session ⇒ auto-push at closeout, standard regime** (PROME confirmed: *"auto-push stands"*). Path-scoped `AGENTS/FALCON/` + self-authored packets (carve-out ①).
