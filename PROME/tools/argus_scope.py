@@ -35,48 +35,20 @@ PROME_RE = re.compile(r"^PROME\b")
 # TWO perimeters, deliberately different — conflating them was a self-caught false positive on the first
 # attempt at this fix (it attributed `CARL -> PROME:` and `VIOLET -> PROME:` inbound packets to PROME):
 #
-#   AUTHORSHIP — paths only PROME writes. Used for the durable attribution fallback (the `FORGE:`-subject case).
-#     EXCLUDES PROME/inbox/: inbound mail is other desks' output sitting in PROME's tree, never PROME's work
-#     (`finding_path_scoped_git_log_measures_inbound_traffic` — a path-scoped log measures INBOUND traffic).
-#     EXCLUDES memory/auto/: fleet-shared authorship, any desk commits there under carve-out (3).
-#   PENDING — paths whose UNCOMMITTED state ARGUS may be shown at a pre-commit run. Authorship plus the fleet
-#     surfaces PROME itself must self-commit at closeout. Never the whole shared dirty tree.
+#   AUTHORSHIP — paths only PROME writes. Drives the durable attribution fallback (the `FORGE:`-subject case)
+#     AND the pending perimeter. EXCLUDES PROME/inbox/: inbound mail is other desks' output sitting in PROME's
+#     tree (`finding_path_scoped_git_log_measures_inbound_traffic`).
+#   SHARED-LOCATION — memory/auto/ is FLEET-shared: any desk commits there under carve-out (3). Repair review
+#     2026-09-11: "avoid treating directory membership as authorship." A pending file there is attributed by its
+#     COMMIT LINEAGE, never by its directory; an untracked one has no lineage, so it is reported as
+#     UNATTRIBUTED rather than silently claimed or silently dropped.
 AUTHORSHIP_PREFIXES = ("PROME/", "FORGE/", "HEARTBEAT.md", ".claude/agents/argus.md")
 AUTHORSHIP_EXCLUDE = ("PROME/inbox/",)
-PENDING_EXTRA = ("memory/auto/",)
+SHARED_PREFIXES = ("memory/auto/",)
+# PROME's daily session log — CLOSEOUT.md Chunk 2 writes it and Chunk 4 commits it (repair review 2026-09-11).
+DAILY_LOG_RE = re.compile(r"^memory/\d{4}-\d{2}-\d{2}\.md$")
 # Carve-out (1): a packet PROME authored into another desk's inbox is PROME's to commit, so it is PROME's to audit.
 PROME_PACKET_RE = re.compile(r"^AGENTS/[A-Z0-9_]+/inbox/.*from-PROME", re.I)
-
-
-def is_prome_authored(path):
-    """Strict: only paths PROME itself writes. Drives the attribution fallback."""
-    if path.startswith(AUTHORSHIP_EXCLUDE):
-        return False
-    return path.startswith(AUTHORSHIP_PREFIXES) or bool(PROME_PACKET_RE.match(path))
-
-
-def is_prome_owned(path):
-    """Wider: what ARGUS may be shown UNCOMMITTED. Authorship + surfaces PROME self-commits at closeout."""
-    return is_prome_authored(path) or path.startswith(PENDING_EXTRA)
-
-
-def pending_paths():
-    """PROME-owned paths with UNCOMMITTED changes — tracked modifications and new untracked files.
-
-    Why this exists: ARGUS runs pre-commit, so the closeout's own writes are not in any commit yet. Without this
-    the audit verdict covers a scope that excludes the work being approved (audit 2026-09-11 F1).
-    Deliberately perimeter-scoped: another desk's dirty paths are never handed to ARGUS.
-    """
-    out = set()
-    for line in git("status", "--porcelain").splitlines():
-        if len(line) < 4:
-            continue
-        path = line[3:].strip().strip('"')
-        if " -> " in path:              # rename/copy: audit the destination
-            path = path.split(" -> ")[-1].strip().strip('"')
-        if is_prome_owned(path):
-            out.add(path)
-    return out
 
 
 def git(*args):
@@ -85,7 +57,12 @@ def git(*args):
 
 def find_watermark(exclude_head=True):
     """Return (sha, subject) of the most recent closeout commit — HEAD itself excluded when exclude_head, so a
-    run AFTER the closeout commit still scopes the session that just closed."""
+    run AFTER the closeout commit still scopes the session that just closed.
+
+    KNOWN LIMIT (external audit 2026-09-11 F1, completeness leg — OPEN, not fixed here): only a LITERAL HEAD is
+    excluded, so a domain commit landing immediately after a closeout makes that just-finished closeout the
+    watermark and the scope comes back empty. Tracked as an open item rather than silently patched.
+    """
     lines = git("log", f"-{MAX_LOOKBACK}", "--format=%H\t%s").splitlines()
     for i, line in enumerate(lines):
         sha, _, subj = line.partition("\t")
@@ -96,12 +73,83 @@ def find_watermark(exclude_head=True):
     return None, None
 
 
+def is_prome_authored(path):
+    """Strict: only paths PROME itself writes. Drives attribution AND the pending perimeter."""
+    if path.startswith(AUTHORSHIP_EXCLUDE):
+        return False
+    return (path.startswith(AUTHORSHIP_PREFIXES)
+            or bool(DAILY_LOG_RE.match(path))
+            or bool(PROME_PACKET_RE.match(path)))
+
+
+def is_shared_location(path):
+    return path.startswith(SHARED_PREFIXES)
+
+
+def last_commit_subject(path):
+    try:
+        out = git("log", "-1", "--format=%s", "--", path).strip()
+    except subprocess.CalledProcessError:
+        return ""
+    return out
+
+
+def porcelain_entries():
+    """(status, path) from `git status --porcelain -z -uall`.
+
+    -uall so a new DIRECTORY is listed as its individual FILES (default collapses it to `dir/`, which both
+    undercounts the threshold and hands ARGUS a directory to read). -z so paths with spaces survive.
+    """
+    raw = git("status", "--porcelain", "-z", "-uall")
+    toks = [t for t in raw.split("\0") if t]
+    out, i = [], 0
+    while i < len(toks):
+        tok = toks[i]
+        if len(tok) < 4:
+            i += 1
+            continue
+        st, path = tok[:2], tok[3:]
+        if st[0] in "RC" and i + 1 < len(toks):
+            i += 1                       # rename/copy: next token is the ORIGIN; audit the destination
+        out.append((st, path))
+        i += 1
+    return out
+
+
+def pending_paths():
+    """(owned, unattributed) PROME-relevant paths with UNCOMMITTED changes.
+
+    Why this exists: ARGUS runs pre-commit, so the closeout's own writes are in no commit yet. Without this the
+    verdict covers a scope that excludes the work being approved (audit 2026-09-11 F1).
+    Perimeter-scoped: another desk's dirty paths are never handed to ARGUS.
+    """
+    owned, unattributed = set(), set()
+    for st, path in porcelain_entries():
+        if is_prome_authored(path):
+            owned.add(path)
+        elif is_shared_location(path):
+            subj = last_commit_subject(path)
+            if PROME_RE.match(subj):
+                owned.add(path)          # PROME's own lineage in a shared directory
+            elif subj:
+                continue                 # another desk's file — not PROME's to audit
+            else:
+                unattributed.add(path)   # untracked in a shared dir: no lineage, fail LOUD
+    return owned, unattributed
+
+
 def commit_paths(sha):
     return set(p for p in git("show", "--name-only", "--format=", sha).splitlines() if p.strip())
 
 
 def scope(watermark, include_pending=True):
-    """Return (commits, committed_paths, pending_paths). The audit scope is the UNION of the last two."""
+    """Return (commits, committed_paths, pending_paths, unattributed_pending).
+
+    🔴 committed_paths and pending_paths DELIBERATELY OVERLAP. A file committed earlier in the session and
+    edited again before closeout belongs to BOTH, and needs BOTH reads — the committed diff does not contain
+    the later edit. Subtracting one from the other dropped exactly that case, which is the commonest closeout
+    shape (STATUS.md written, committed, then corrected). Repair review 2026-09-11, blocking finding #1.
+    The size threshold counts UNIQUE paths; the read instructions do not deduplicate."""
     commits, paths = [], set()
     for line in git("log", "--format=%H\t%s", f"{watermark}..HEAD").splitlines():
         sha, _, subj = line.partition("\t")
@@ -112,8 +160,11 @@ def scope(watermark, include_pending=True):
             commits.append({"sha": sha[:9], "subject": subj,
                             "attribution": "subject" if PROME_RE.match(subj) else "paths"})
             paths |= touched
-    pend = pending_paths() if include_pending else set()
-    return commits, sorted(paths), sorted(pend - paths)
+    if include_pending:
+        pend, unattr = pending_paths()
+    else:
+        pend, unattr = set(), set()
+    return commits, sorted(paths), sorted(pend), sorted(unattr)
 
 
 def main(argv=None):
@@ -126,26 +177,34 @@ def main(argv=None):
     if not wm:
         print(f"ARGUS-SCOPE 2 — no closeout commit in the last {MAX_LOOKBACK} commits; scope undefined", file=sys.stderr)
         return 2
-    commits, paths, pend = scope(wm, include_pending=not args.no_pending)
-    total = len(paths) + len(pend)
+    commits, paths, pend, unattr = scope(wm, include_pending=not args.no_pending)
+    total = len(set(paths) | set(pend))          # unique paths for the threshold
+    both = sorted(set(paths) & set(pend))
     verdict = "SPAWN" if total >= MIN_PATHS else f"SKIP (<{MIN_PATHS} paths)"
     if args.json:
         print(json.dumps({"watermark": wm[:9], "watermark_subject": subj, "prome_commits": commits,
-                          "paths": paths, "pending_paths": pend, "path_count": total,
+                          "paths": paths, "pending_paths": pend, "both": both,
+                          "unattributed_pending": unattr, "path_count": total,
                           "read": {"committed": "git diff <watermark>..HEAD -- <path>",
                                    "pending_tracked": "git diff HEAD -- <path>",
-                                   "pending_new": "read the file (it has no committed side)"},
+                                   "pending_new": "read the file (it has no committed side)",
+                                   "both": "run BOTH reads — the committed diff omits the later edit"},
                           "verdict": verdict}, indent=1))
     else:
         print(f"ARGUS-SCOPE · watermark {wm[:9]} — {subj}")
-        print(f"  PROME commits since: {len(commits)} · committed paths: {len(paths)} · "
-              f"pending paths: {len(pend)} · total: {total} · verdict: {verdict}")
+        print(f"  PROME commits since: {len(commits)} · committed: {len(paths)} · pending: {len(pend)} · "
+              f"both: {len(both)} · unique: {total} · verdict: {verdict}")
         for c in commits:
             print(f"    {c['sha']}  [{c['attribution']}]  {c['subject'][:92]}")
         for p in paths:
-            print(f"    - [committed] {p}")
+            tag = "[committed+PENDING]" if p in set(pend) else "[committed]"
+            extra = "   ⚠️ BOTH reads required" if p in set(pend) else ""
+            print(f"    - {tag} {p}{extra}")
         for p in pend:
-            print(f"    - [PENDING]   {p}   (git diff HEAD -- {p}; read whole if new)")
+            if p not in set(paths):
+                print(f"    - [PENDING]   {p}   (git diff HEAD -- {p}; read whole if new)")
+        for p in unattr:
+            print(f"    - [UNATTRIBUTED PENDING] {p}   (shared dir, no commit lineage — ask PROME whose it is)")
     return 0 if total >= MIN_PATHS else 3
 
 
