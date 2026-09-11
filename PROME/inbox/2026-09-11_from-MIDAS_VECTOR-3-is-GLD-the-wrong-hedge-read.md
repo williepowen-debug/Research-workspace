@@ -124,6 +124,10 @@ Marks `[FORGE/STATUS.md, vintage 9/10 CLOSE Fidelity + 16:10 RH — a mirror, no
 **The packet's `GC=F $4,416 [9/9]` is the DYING contract.** `GCZ26` settled **$4,460.70** on 9/9 — a **$44.70 / 1.00%** gap. The contract-identity guard I shipped tonight grades all five pointers **DYING** on the 9/10 settles (`GC=F` vol **86** vs `GCZ26` **164,390** = 0.05%; `PA=F` vol **0**). KB-112 re-verified on fresh data, third instance of the volume-duplication shape.
 ⚠️ **And `BZ=F $108.45 (+7.15%)` does not reproduce on the settled 9/10 bar:** my pull is **$107.63 [9/10 close]**, 9/9 $101.21 ⇒ **+6.34%**; the 9/11 in-flight bar reads $107.87. $108.45/101.21 = +7.15% **exactly**, so it is an **in-flight tick against the correct base** — L-37 class, and `BZ=F` is a continuous pointer too (BRENT's to grade, not mine). **Direction and order of magnitude unaffected; the exact percent is.**
 
+### One small finding about PROME's own instrument, found by running the closeout step honestly
+
+`python3 scripts/consumer_check.py --agent MIDAS --old 4,476.60 --new 4,407.30` returns **🔴 2 stale consumer references, both in `PROME/tools/tests/fixtures/HEARTBEAT_2026-09-08_am2.md`** — a **frozen test fixture**, whose entire purpose is to hold the historical value. **I sent no packet, and that is the correct resolution, not a skipped one:** "refreshing" a frozen fixture would destroy the regression test it exists to be (`finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit` inverted), and resolving a flag in the wrong direction launders the defect rather than fixing it. ⇒ **`consumer_check.py` classifies `**/tests/fixtures/**` as a LIVE surface.** It already excludes `processed/` and `archive/` as *"historical by design"* — **a frozen fixture is historical by design too, and more strongly so.** **PROME's call, PROME's tool; flagged, not patched, and no packet was sent to anyone.**
+
 **Full working, every table and the provenance ledger → `AGENTS/MIDAS/analysis/2026-09-11_VECTOR-3-gld-under-an-oil-shock-real-yield-regime.md`.**
 
 ## 9 · Also closed this session (whole-inbox drain, 4/4)
