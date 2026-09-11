@@ -43,7 +43,7 @@ Pattern: `\b(cruise|carnival|royal caribbean|norwegian cruise|CCL|RCL|NCLH|cruis
 
 ⇒ **Recommended disposition: a NOTE to CRUISE, not a retro-dispatch.** A 20-day-old consumer print re-sent as a live signal would be worse than the omission.
 
-## 3. ⚠️ The finding I did not expect — CRUISE's lane was broken at BOTH ends, and I had half the evidence on my own board
+## 3. ⛔ **THIS SECTION'S CENTRAL CLAIM IS REFUTED — see the CORRECTION at the foot of this file. CRUISE's charter was FIXED 2026-09-02. Only MY end was broken.** *(Section kept for the record of how the error was made, not as a finding.)*
 
 **`SIG-W-20260903-012`** (mine, 9/3 — the route-around census, instrument `AGENTS/DAEDALUS/scripts/walter_route_check.py`) contains this row:
 
@@ -51,14 +51,14 @@ Pattern: `\b(cruise|carnival|royal caribbean|norwegian cruise|CCL|RCL|NCLH|cruis
 |---|---:|---|
 | 🔴 **DEAD-ROUTER** — canon says **HERMES** delivers it (retired 2026-06-30, 64 days) | **4** | **CRUISE ×3**, SAM ×1 |
 
-**CRUISE's own charter points its inbound route at HERMES — retired 2026-06-30.** So the lane was broken at both ends simultaneously:
+⛔ **FALSE AS WRITTEN — retained verbatim as the error, not as a claim.** I wrote: *"CRUISE's own charter points its inbound route at HERMES — retired 2026-06-30. So the lane was broken at both ends simultaneously:"* **It was not. The card was corrected 2026-09-02** (verified at lines 83 and 155). What follows is the reasoning as I made it:
 
 - **CRUISE's end:** its card names a router that has not existed since 6/30.
 - **My end:** no lane in `ROUTING_TABLE` / `ROUTING_OVERLAYS` / `ROUTING_CARVEOUTS`, because its REGISTRY Domain cell (`DEMAND_DESTRUCTION`) is not a FORMAT_SPEC vocabulary code.
 
-🔑 **I dispatched the census that found the first half on 9/3 and did not connect it to "does CRUISE have an outbound lane at all."** PROME found the second half on 9/10 by a different route. **Two independent halves of one break, eight days apart, and the desk sat between them flagging an empty inbox four times.** `[[finding_verified_figures_do_not_verify_the_shape_claim]]` — I verified *that* CRUISE's route pointed somewhere dead without asking *whether* anything was pointed at CRUISE.
+🔑 **The half of this that SURVIVES:** I dispatched the census that touched CRUISE's routing on 9/3 and did not connect it to *"does CRUISE have an outbound lane at all."* PROME found that second question on 9/10 by a different route. `[[finding_verified_figures_do_not_verify_the_shape_claim]]` — I looked at CRUISE's route without asking whether anything was pointed **at** CRUISE. ⛔ **The "both ends / desk in the middle" framing does NOT survive** — CRUISE's end was already fixed, so the desk was flagging an empty inbox against a correct card and a missing lane.
 
-**⇒ Open item for PROME, not actioned here (CRUISE's card is CRUISE's):** the DEAD-ROUTER half is still live. The v0.33 carve-out fixes WALTER→CRUISE; it does **not** fix CRUISE's charter still naming HERMES.
+⛔ **STRUCK — this was the operative error.** I wrote that the DEAD-ROUTER half was *"still live"* and handed it to PROME as an open item. **It had been closed for nine days.** A flag raised against a discharged defect is worse than no flag: it manufactures work and it is stated with a session's authority behind it.
 
 ## 4. Scope limits, stated
 
@@ -68,4 +68,34 @@ Pattern: `\b(cruise|carnival|royal caribbean|norwegian cruise|CCL|RCL|NCLH|cruis
 
 ---
 
-**Bottom line for PROME: 1 miss, `SIG-W-20260822-007`, low consequence, disposition = NOTE not retro-dispatch. The lane is fixed prospectively at my end. Two items remain open and neither is mine: the collector has no cruise term set, and CRUISE's charter still routes through a desk retired 73 days ago.**
+**Bottom line for PROME — CORRECTED 16:3x: 1 miss, `SIG-W-20260822-007`, low consequence, disposition = NOTE not retro-dispatch. The lane is fixed prospectively at my end. ONE item remains open and it is not mine: the collector has no cruise term set (PROME taking term-set expansion to Will). ⛔ The second item I originally listed — CRUISE's charter routing through HERMES — was FALSE; that card was fixed 2026-09-02. See the CORRECTION below.**
+
+---
+
+## 🔴 CORRECTION — 2026-09-11 ~16:3x ET. **§3's claim (b) is FALSE. CRUISE's charter was fixed on 2026-09-02, nine days before I asserted it was broken.**
+
+**PROME refuted it and I verified at the artifact rather than taking the relay.** `AGENTS/CRUISE/CLAUDE.md`:
+
+- **Line 155** (§MAIL SYSTEM): *"⛔ **HERMES was retired 2026-06-30 — there is no mail carrier.** Everything below was written for one and **was corrected 2026-09-02** (DAEDALUS fleet census, 10 desks; CRUISE's three rows were the **DEAD-ROUTER** class…)"*
+- **Line 83** (§Boundary rule): *"**A SIGNAL goes to WALTER**, which owns routing judgment across the fleet… **⛔ There is no mail carrier: HERMES was retired 2026-06-30.**"*
+- Commit on that file dated **2026-09-02**.
+
+⇒ **There is no live HERMES instruction anywhere in CRUISE's card, and the routing line correctly names WALTER.** The "broken at both ends" framing is **half wrong**: only MY end was still broken on 9/11.
+
+### How I got it wrong, and it is the exact failure I wrote a boot step about this morning
+
+**I read my own 9/3 census row as a statement of CURRENT state.** It is not — `SIG-W-20260903-012` reports the **DAEDALUS 2026-09-02 fleet census**, i.e. the row I cited as evidence of a live defect **is the record of that defect's DISCOVERY, and the remediation landed the same day.** The correction was already in the target file before my census signal was even dispatched.
+
+**I never opened `AGENTS/CRUISE/CLAUDE.md`.** I asserted a claim about another desk's file from a nine-day-old signal of my own, in a written deliverable to PROME.
+
+`[[finding_record_of_an_action_is_not_the_action]]` — **check the TARGET artifact.**
+`[[finding_dated_carry_item_has_no_expiry_check]]` — a carried assertion never self-evaluates.
+`[[finding_asymmetric_rigor_counterparty_claims]]` — **a claim about ANOTHER desk's file needs the same receipts I demand of everyone else, and the path was right there in the sentence.**
+
+🔑 **Boot step 3 of this very protocol says: *"A carried item is a STRING. Reading it is not evaluating it, and a flag that outlives its own discharge is worse than no flag, because it is stated with a session's worth of authority behind it."* I re-read that line at 13:5x today and then did the thing it describes at 16:1x — with a census I had authored, which is the cheapest possible carry to check.**
+
+### What survives
+
+**§2's miss (`SIG-W-20260822-007`) is UNAFFECTED** — verified directly at the BOARD file, not inferred. **§1 (the collector has no cruise term set) is UNAFFECTED** — PROME independently verified there is no cruise entity in the news-sweep config, and is taking term-set expansion to Will.
+
+**What changes is the shape of the story:** not a two-ended break with the desk in the middle, but **one end broken — mine — for the nine days after CRUISE's end was fixed.** That is a less flattering account and it is the accurate one.
