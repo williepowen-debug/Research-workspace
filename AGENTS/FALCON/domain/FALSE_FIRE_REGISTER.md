@@ -45,3 +45,26 @@
 
 ---
 
+
+---
+
+## Row ⑤ — added 2026-09-11 ~00:0x ET · **"Ansarallah STRIKES Saudi Arabia's East-West Oil Pipeline — 6 satellite fire hotspots"** (RT, 2026-09-10)
+
+**Status: UNCONFIRMED AT EVERY PRIMARY. Do not propagate as fact.** Reported strike ~2026-09-10 17:56 UTC on the Petroline (Abqaiq→Yanbu), desert SE of Medina toward Mahd adh-Dhahab.
+
+**Why it is a trap — five independent legs, any one of which is disqualifying:**
+1. **Source class.** RT is the flagged-source class; the Sentinel-3 imagery variant is attributed by Daily Caller to *"an Iranian account."* **Claimant-aligned channels on a claim about a claimant's own operation.**
+2. **ADD#15 (WALTER anchor guard), and it is decisive here.** *Do not propagate NASA FIRMS as confirmed without published coordinates.* **No source publishes coordinates**, and this desk **could not make its own pull** — the FIRMS public API returned **`Invalid MAP_KEY`** (no key held; repo-wide search SEARCH-NOT-FOUND). ⇒ **No cluster can be placed on the route; no pumping station can be named. Do not let anyone name one.**
+3. **THE INSTRUMENTS IN CIRCULATION CONTRADICT EACH OTHER.** RT/EGYOSINT: **6 FIRMS hotspots**. investinglive: **FRP >70 MW persisting ~8 h across "a stretch of only a few kilometres."** Daily Caller / Gulf News: a **Sentinel-3 smoke plume "close to 100 kilometres long."** **A few km and 100 km are not the same event, and Sentinel-3 is not FIRMS** — two instrument families, two geometries, one unconfirmed claim.
+4. **The claimant's own statement does not support it.** Saree's 2026-09-10 claim names **Abha, Jazan, Najran and Khamis Mushait** — the product-plant-and-airbase class of `KB-FALCON-133/134`, which fires nothing. **No Houthi claim names the pipeline, a pumping station, or Yanbu.**
+5. **Published negatives exist and are quotable.** investinglive: *"as of writing there is no confirmation from Aramco, the Saudi energy ministry or major wire services that anything has happened to the line"* — *"unverified market chatter."* Gulf News (9/11 06:31 Gulf): no statement; FIRMS *"data do not by themselves identify what is burning or establish who caused it."*
+
+⛔ **AND THE ROUTING TRAP INSIDE THE DISPATCH:** `SIG-W-20260910-021` states that a confirmation *"fires FAL-01 (the ONE-that-matters rung)."* **FAL-01 does not exist as a live rung — it RESOLVED FAILED 2026-07-27.** The live letters are **FAL-05** (barrels) and **`EXIT_PROTOCOL` §3 indicator #2** (the Yanbu/Petroline tell). Routed back to WALTER.
+
+⚠️ **Noted, and it is NOT corroboration:** *"six hotspots"* is the exact figure this desk logged at **Abqaiq on 2026-07-27**. A familiar number is a reason to look harder, never a reason to believe.
+
+**What would take this off the register:** any one of the five pre-committed resolvers in `reports/2026-09-11_petroline-tell2-adjudication.md` §5. `KB-FALCON-166`
+
+## Correction 2026-09-11 to row ① (**"CENTCOM DESTROYED five tankers"**)
+
+The row's trailing clause — *"NONE sunk, total losses stay 2"* — **was FALSE and is corrected here: the M/T Riesco SANK on 2026-09-08** (CENTCOM's own post + published footage), so **confirmed hostile-action total losses are 3** (`KB-FALCON-157`). The *"destroyed" ≠ "rendered inoperable"* distinction the row exists to teach **still stands**; what failed was the count appended to it. ⚠️ **A stale clause inside a FALSE-FIRE REGISTER is the worst place for one** — the file a reader consults to avoid believing a wrong thing was itself carrying one for three days. `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`
