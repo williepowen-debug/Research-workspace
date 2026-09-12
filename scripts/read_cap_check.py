@@ -102,7 +102,30 @@ STEP_RE = re.compile(r"^\s*(?:[-*]|\d+[a-z]?[.)]|[A-Z]\d[a-z]?[.)])\s")
 
 
 def desk_home(name):
-    return os.path.join(ROOT, "PROME") if name == "PROME" else os.path.join(ROOT, "AGENTS", name)
+    """Resolve a desk to its home. SECOND LOCATION added 2026-09-12 (DAEDALUS) on PHAN's report:
+    sub-agents live at `AGENTS/<PARENT>/sub_agents/<NAME>/`, so the one-template resolver returned
+    CANNOT-EVALUATE for every one of them and the layer read as covered because the fleet sweep is
+    clean on the names it CAN resolve — `finding_scan_keyed_on_naming_reads_local_form_as_absence`.
+    It cost something real: PHAN's DOSSIER.md (a boot whole-read) hit 41,078 B = 126% of budget and
+    no fleet instrument could flag it. PHAN enumerated SEVEN, all under CARL; the sweep for the
+    PATTERN finds EIGHT — `AGENTS/MARCO/sub_agents/TOURISM/CLAUDE.md` is the eighth (PAT-136: an
+    enumeration is exhaustive only of its author's search). `--fleet` is unchanged and still walks
+    ROSTER/FLEET_DIRECTORY only: sub-agents are not fleet desks and must not be graded as such."""
+    if name == "PROME":
+        return os.path.join(ROOT, "PROME")
+    direct = os.path.join(ROOT, "AGENTS", name)
+    if os.path.isfile(os.path.join(direct, "CLAUDE.md")) or not os.path.isdir(os.path.join(ROOT, "AGENTS")):
+        return direct
+    subs = sorted(p for p in
+                  (os.path.join(ROOT, "AGENTS", parent, "sub_agents", name)
+                   for parent in sorted(os.listdir(os.path.join(ROOT, "AGENTS"))))
+                  if os.path.isfile(os.path.join(p, "CLAUDE.md")))
+    if len(subs) == 1:
+        return subs[0]
+    if len(subs) > 1:
+        # Ambiguity is a finding, never a silent pick of the first parent.
+        desk_home.ambiguous = subs
+    return direct
 
 
 def fleet_desks():
@@ -215,6 +238,104 @@ def boot_reads(name):
     return found, note
 
 
+# ── R7-stage-2: the CONSUMER half of the DECLARATION (DOCKET L209, DAEDALUS 2026-09-12) ──────
+# `PROME/registry/READS.tsv` is the desk-authored boot-read manifest (born 2026-08-31, PROME).
+# Where a desk has ATTESTED its manifest, that declaration REPLACES the charter heuristic above.
+# WHY (measured 2026-09-12, not inferred from one desk): the heuristic scans `CLAUDE.md` boot
+# sections, and 29 of 37 active+tier-2 desks delegate their boot protocol to a file it never opens
+# (`BOOT.md`, `scripts/boot.py`, `MAINTENANCE.md`, `design/BOOT_PROTOCOL.md`). PROME's own verdict
+# read "✅ 1 boot-mandated read" against a 29-row declared perimeter — a clean scan against the
+# wrong reference (`finding_instrument_reports_clean_against_the_wrong_reference`).
+# ⛔ THE MANIFEST'S OWN RULES, ENFORCED HERE — its header owns the text, this file never restates it:
+#   · `whole`/`programmatic` are CAP-BEARING. `scoped`/`grep`/`summary` are declared-and-VISIBLE but
+#     NEVER counted. Collapsing the two axes re-creates the false breach `mode` exists to prevent.
+#   · An ATTESTATION row is valid ONLY where declared_by == reader. PROME cannot attest for a desk.
+#   · An UNATTESTED desk is UNKNOWN, never clean.
+READS_TSV = os.path.join(ROOT, "PROME", "registry", "READS.tsv")
+CAP_BEARING_MODES = ("whole", "programmatic")
+VISIBLE_MODES = ("scoped", "grep", "summary")
+
+
+def load_reads(path=None):
+    """(rows, error). Parse failure => an error string, NEVER an empty row list: READS.tsv lives in
+    PROME/ and PROME edits it, so a half-written file must surface as rc 2, not as 'no rows'."""
+    p = path or READS_TSV
+    rel = os.path.relpath(p, ROOT)
+    if not os.path.isfile(p):
+        return None, f"no manifest at {rel}"
+    try:
+        lines = [l.rstrip("\n") for l in open(p, encoding="utf-8")
+                 if not l.startswith("#") and l.strip()]
+    except OSError as e:
+        return None, f"{rel} unreadable ({e.__class__.__name__})"
+    if not lines:
+        return None, f"{rel} has no rows"
+    hdr = lines[0].split("\t")
+    missing = [c for c in ("row_kind", "reader", "path", "mode", "declared_by") if c not in hdr]
+    if missing:
+        return None, f"{rel} header missing column(s): {', '.join(missing)}"
+    rows = []
+    for n, ln in enumerate(lines[1:], 2):
+        cells = ln.split("\t")
+        if len(cells) < 5:
+            return None, (f"{rel} row {n}: {len(cells)} cell(s), header has {len(hdr)} — refusing to "
+                          f"grade a partially-written manifest")
+        rows.append(dict(zip(hdr, cells)))
+    return rows, None
+
+
+def declared_reads(name, path=None, root=None):
+    """(cap_bearing, visible, problems, attested, note) from the manifest.
+    cap_bearing is None when the manifest cannot be used for this desk; `note` says why.
+    `path`/`root` exist so --selftest can drive FROZEN tempdir fixtures rather than live surfaces
+    (a regression test pinned to a live doc certifies nothing past the next edit — PROME 2026-09-09)."""
+    rows, err = load_reads(path)
+    base_root = root or ROOT
+    if rows is None:
+        return None, None, None, None, err
+    mine = [r for r in rows if r.get("reader") == name]
+    if not mine:
+        return None, None, None, None, f"desk {name} has NO rows in the manifest"
+    attested = any(r.get("row_kind") == "ATTESTATION" and r.get("declared_by") == name for r in mine)
+    cap_bearing, visible, problems = {}, [], []
+    for r in mine:
+        if r.get("row_kind") == "ATTESTATION" and r.get("declared_by") != name:
+            problems.append(f"ATTESTATION signed by `{r.get('declared_by') or '(blank)'}`, not by "
+                            f"{name} — INVALID (manifest ⛔ who-may-attest: reading someone else's "
+                            f"charter is INFERENCE, not attestation)")
+    for r in mine:
+        if r.get("row_kind") != "READ":
+            continue                                    # ATTESTATION / BASIS rows are not reads
+        mode = (r.get("mode") or "").strip()
+        pth = (r.get("path") or "").strip()
+        src = (r.get("source_boot_step") or "READS.tsv").strip()
+        if not pth or mode.startswith("RETIRED"):
+            continue
+        if "*" in pth or "?" in pth:                    # a CLASS row is declared, never one file
+            visible.append((pth, mode + " · CLASS row, not a single file", src))
+            continue
+        full = os.path.join(base_root, pth)
+        if mode not in CAP_BEARING_MODES and mode not in VISIBLE_MODES:
+            problems.append(f"`{pth}` ({src}) carries mode `{mode}` — not in the manifest's own "
+                            f"mode vocabulary")
+            continue
+        if not os.path.exists(full):
+            # The condition the heuristic STRUCTURALLY cannot produce: a scan finds only what
+            # exists, so a manifest pointing at a deleted file reads as silence.
+            problems.append(f"declared {mode} read `{pth}` ({src}) DOES NOT EXIST on disk")
+            continue
+        if mode in CAP_BEARING_MODES and os.path.isfile(full):
+            cap_bearing[full] = (mode, src)
+        else:
+            visible.append((pth, mode + (" · directory" if os.path.isdir(full) else ""), src))
+    note = (f"perimeter: DECLARED in {os.path.relpath(READS_TSV, ROOT)} — {len(cap_bearing)} "
+            f"cap-bearing (whole/programmatic) measured, {len(visible)} declared-not-counted "
+            f"(scoped/grep/summary), {len(mine)} manifest row(s) for this desk; "
+            + ("ATTESTED by the desk itself" if attested else
+               "⛔ NOT ATTESTED by this desk — the perimeter is PARTIAL"))
+    return cap_bearing, visible, problems, attested, note
+
+
 def grade(b):
     util = b / CAP_BYTES
     if b >= CAP_BYTES:
@@ -226,20 +347,46 @@ def grade(b):
     return "✅", util, ""
 
 
-def check_agent(name, quiet=False):
-    files, note = boot_reads(name)
+def check_agent(name, quiet=False, require_manifest=False):
+    # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
+    cap_bearing, visible, problems, attested, dnote = declared_reads(name)
+    declared = cap_bearing is not None
+    if declared and not attested:
+        # The manifest's own ⛔: rows without an attestation are a PARTIAL perimeter, and a check
+        # over a partial perimeter must report UNKNOWN. Reporting clean here is the exact defect
+        # this file exists to retire. Fail CLOSED, never to the heuristic (which would read clean).
+        if not quiet:
+            print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {dnote}. An unattested desk is UNKNOWN, "
+                  f"never clean — the desk itself must attest (packet to PROME/inbox/; no desk may "
+                  f"commit inside PROME/, and PROME may not attest on a desk's behalf).")
+            for pr in problems or []:
+                print(f"  ⛔ {pr}")
+        return 2, None
+    if declared:
+        files = {p: f"{mode} · {src}" for p, (mode, src) in cap_bearing.items()}
+        note = dnote
+        boot_reads.scoped_overcap = {}          # not the heuristic's run; don't carry its state
+    else:
+        if require_manifest:
+            if not quiet:
+                print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {dnote} (--require-manifest). The "
+                      f"charter heuristic is available without this flag, and says so in its verdict.")
+            return 2, None
+        files, note = boot_reads(name)
+        problems, visible = [], []
     if files is None:
         if not quiet:
             print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {note}")
         return 2, None
     rows = []
+    base = ROOT if declared else desk_home(name)      # declared rows are repo-relative + cross-agent
     for p in sorted(files, key=lambda x: -os.path.getsize(x)):
         b = os.path.getsize(p)
         mark, util, why = grade(b)
-        rows.append((mark, os.path.relpath(p, desk_home(name)), b, util, why, files[p]))
+        rows.append((mark, os.path.relpath(p, base), b, util, why, files[p]))
     n_over_cap = sum(1 for r in rows if r[0] == "🔴")
     n_over_budget = sum(1 for r in rows if r[0] in ("🔴", "🟠"))
-    rc = 1 if n_over_budget else 0
+    rc = 1 if (n_over_budget or problems) else 0
     if not quiet:
         print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · {note}")
         for mark, rel, b, util, why, src in rows:
@@ -248,22 +395,163 @@ def check_agent(name, quiet=False):
             b = os.path.getsize(sp)
             print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / CAP_BYTES:>5.0%} of cap  "
                   f"scoped read on an OVER-CAP file — honest read, not lean (READ_CAP rule 8: partial fix; not counted)  ({src})")
+        for pth, mode, src in visible or []:
+            # Declared and VISIBLE, never counted: the mode says the rows do not enter context.
+            # Printed so nobody later "discovers" one as a breach (manifest header, NOT CAP-BEARING).
+            sz = os.path.join(ROOT, pth)
+            bs = f"{os.path.getsize(sz):,} B" if os.path.isfile(sz) else "—"
+            print(f"  ◦ {pth:<34}{bs:>9}  declared `{mode}` — not cap-bearing, not counted  ({src})")
+        for pr in problems or []:
+            print(f"  ⛔ {pr}")
         if rc:
-            print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
-                  f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
-                  f"to archive/) or hot/cold split — per surface, owner's choice of HOW. "
-                  f"⛔ Never raise the budget: the read cap is not ours to move.")
+            if n_over_budget:
+                print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
+                      f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
+                      f"to archive/) or hot/cold split — per surface, owner's choice of HOW. "
+                      f"⛔ Never raise the budget: the read cap is not ours to move.")
+            if problems:
+                print(f"⚠️  READ-CAP 1 [{name}]: {len(problems)} manifest defect(s) above. A declared "
+                      f"read that does not resolve is a defect of the DECLARATION, not of the cap — "
+                      f"the owner fixes the row (or the file), never this check.")
+        elif declared:
+            print(f"✅ READ-CAP 0 [{name}]: every CAP-BEARING read in this desk's ATTESTED manifest is "
+                  f"under budget ({len(rows)} measured, {len(visible)} declared-not-counted). "
+                  f"Perimeter = the desk's own declaration, not a scan.")
         else:
             print(f"✅ READ-CAP 0 [{name}]: every boot-mandated read this check found is under budget "
-                  f"({len(rows)} file(s)).")
+                  f"({len(rows)} file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no "
+                  f"declaration in {os.path.relpath(READS_TSV, ROOT)}, so this is 'clean within what the "
+                  f"scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.")
     return rc, (name, len(rows), n_over_budget, n_over_cap, rows)
+
+
+HDR = "row_kind\treader\tpath\tmode\tsource_boot_step\tdeclared_by\tdeclared_on\tnotes"
+
+
+def _fixture(tmp, rows, sizes=None):
+    """Write a FROZEN manifest + sized files under tmp. Fixtures are frozen here, never pinned to a
+    live surface: a regression test asserting a live doc's current strings certifies nothing past the
+    next edit (PROME 2026-09-09, applied to validate_all the same day)."""
+    for rel, n in (sizes or {}).items():
+        f = os.path.join(tmp, rel)
+        os.makedirs(os.path.dirname(f), exist_ok=True)
+        open(f, "w").write("x" * n)
+    man = os.path.join(tmp, "READS.tsv")
+    open(man, "w", encoding="utf-8").write("# frozen fixture\n" + HDR + "\n" + "\n".join(rows) + "\n")
+    return man
+
+
+def selftest():
+    """CHECK_STANDARD §3: every leg watched on a CAPABLE case (the alert fires) AND a CLEAN case
+    (the clean line prints). rc 0 = all legs pass. Closes this file's own gap-register row — leg A9
+    of scripts/validate_all.py was NOT REGISTERED because this check had no --selftest."""
+    import tempfile
+    global READS_TSV, ROOT
+    ok, fail = 0, []
+
+    def chk(leg, got, want):
+        nonlocal ok
+        if got == want:
+            ok += 1
+        else:
+            fail.append(f"{leg}: expected {want!r}, got {got!r}")
+
+    A = "ATTESTATION\tD\t.\tmanifest-complete\ts\tD\t2026-09-12\tattested by the desk"
+    with tempfile.TemporaryDirectory() as t:
+        # C1/C2 — CLEAN: a whole read under budget passes; an over-cap `summary` row is NOT counted.
+        m = _fixture(t, [A,
+                         "READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-",
+                         "READ\tD\thuge.tsv\tsummary\ts2\tD\t2026-09-12\tbounded verdict only"],
+                     {"small.md": 100, "huge.tsv": CAP_BYTES + 5000})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C1 declared perimeter used", len(cb), 1)
+        chk("C2 summary not cap-bearing", len(vis), 1)
+        chk("C1 attested", att, True)
+        chk("C2/C5 no problems on a clean manifest", pr, [])
+        # C2 — CAPABLE: the SAME file declared `whole` must now be measured (and is over the cap).
+        m = _fixture(t, [A, "READ\tD\thuge.tsv\twhole\ts2\tD\t2026-09-12\t-"],
+                     {"huge.tsv": CAP_BYTES + 5000})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C2 whole IS cap-bearing", len(cb), 1)
+        chk("C2 grade fires over cap", grade(os.path.getsize(list(cb)[0]))[0], "🔴")
+        # C3 — CAPABLE: rows but no attestation => UNKNOWN, never clean.
+        m = _fixture(t, ["READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
+        chk("C3 unattested", declared_reads("D", m, t)[3], False)
+        # C5 — CAPABLE: an attestation signed by someone else is INVALID and does not clear the desk.
+        m = _fixture(t, ["ATTESTATION\tD\t.\tmanifest-complete\ts\tPROME(from-charter)\t2026-09-12\tx",
+                         "READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C5 foreign attestation rejected", att, False)
+        chk("C5 foreign attestation reported", any("INVALID" in p for p in pr), True)
+        # C6 — CAPABLE: a declared read that does not exist on disk. The heuristic CANNOT produce this.
+        m = _fixture(t, [A, "READ\tD\tgone.md\twhole\ts1\tD\t2026-09-12\t-"], {})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C6 absent declared path reported", any("DOES NOT EXIST" in p for p in pr), True)
+        chk("C6 absent path not silently measured", len(cb), 0)
+        # C7 — a RETIRED row is skipped, not measured and not a problem.
+        m = _fixture(t, [A, "READ\tD\tgone.md\tRETIRED-2026-09-01\ts1\tD\t2026-09-12\tretired"], {})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C7 retired skipped", (len(cb), len(vis), pr), (0, 0, []))
+        # C9 — a CLASS row is neither dropped nor counted as one file.
+        m = _fixture(t, [A, "READ\tD\tAGENTS/*/STATUS.md\tsummary\ts1\tD\t2026-09-12\tclass"], {})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        chk("C9 class row visible not measured", (len(cb), len(vis), pr), (0, 1, []))
+        # C10 — CAPABLE: a half-written manifest is an ERROR, never an empty (clean) row set.
+        bad = os.path.join(t, "bad.tsv")
+        open(bad, "w").write(HDR + "\nREAD\tD\n")
+        chk("C10 short row => error", declared_reads("D", bad, t)[0] is None, True)
+        open(bad, "w").write("reader\tpath\n")
+        chk("C10 bad header => error", declared_reads("D", bad, t)[0] is None, True)
+        chk("C10 missing file => error", declared_reads("D", os.path.join(t, "nope.tsv"), t)[0] is None, True)
+        # C11/C4 — a desk with NO rows falls through to the heuristic (cap_bearing is None).
+        m = _fixture(t, [A], {})
+        chk("C4 undeclared desk => heuristic", declared_reads("ZZZ", m, t)[0] is None, True)
+        # unknown mode is a manifest defect, not a silent skip
+        m = _fixture(t, [A, "READ\tD\tsmall.md\tskim\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
+        chk("unknown mode reported", any("mode vocabulary" in p for p in declared_reads("D", m, t)[2]), True)
+        # BASIS rows are not reads
+        m = _fixture(t, [A, "BASIS\tD\tsmall.md\tboot-defining\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
+        chk("BASIS row is not a read", declared_reads("D", m, t)[:2], ({}, []))
+
+        # END-TO-END rc contract, both directions (the verdict, not just the parser).
+        sav_r, sav_root = READS_TSV, ROOT
+        try:
+            ROOT = t
+            READS_TSV = _fixture(t, [A, "READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-"],
+                                 {"small.md": 100})
+            chk("E2E clean => rc 0", check_agent("D", quiet=True)[0], 0)
+            READS_TSV = _fixture(t, [A, "READ\tD\thuge.tsv\twhole\ts1\tD\t2026-09-12\t-"],
+                                 {"huge.tsv": CAP_BYTES + 5000})
+            chk("E2E over cap => rc 1", check_agent("D", quiet=True)[0], 1)
+            READS_TSV = _fixture(t, [A, "READ\tD\tgone.md\twhole\ts1\tD\t2026-09-12\t-"], {})
+            chk("E2E manifest defect => rc 1", check_agent("D", quiet=True)[0], 1)
+            READS_TSV = _fixture(t, ["READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-"],
+                                 {"small.md": 100})
+            chk("E2E unattested => rc 2 (UNKNOWN, never clean)", check_agent("D", quiet=True)[0], 2)
+            READS_TSV = _fixture(t, [A], {})
+            chk("E2E --require-manifest on an undeclared desk => rc 2",
+                check_agent("ZZZ", quiet=True, require_manifest=True)[0], 2)
+        finally:
+            READS_TSV, ROOT = sav_r, sav_root
+
+    total = ok + len(fail)
+    for f in fail:
+        print(f"  ❌ {f}")
+    print(f"{'✅' if not fail else '❌'} READ-CAP SELFTEST {ok}/{total} leg(s) pass "
+          f"(R7-stage-2 manifest consumer: C1–C11 + rc contract, frozen tempdir fixtures)")
+    return 0 if not fail else 1
 
 
 def main(argv):
     args = argv[1:]
+    if "--selftest" in args:
+        return selftest()
+    require_manifest = "--require-manifest" in args
+    if require_manifest:
+        args = [a for a in args if a != "--require-manifest"]
     if "--agent" in args:
         name = args[args.index("--agent") + 1]
-        rc, _ = check_agent(name)
+        rc, _ = check_agent(name, require_manifest=require_manifest)
         return rc
     if "--fleet" in args:
         desks = fleet_desks()
@@ -298,7 +586,9 @@ def main(argv):
     # that is not a mode is a usage error, named, rc 2. Modes: --agent NAME · --fleet · [FILE ...].
     unknown = [a for a in paths if a.startswith("--")]
     if unknown:
-        print(f"READ-CAP 2 USAGE: unknown flag(s) {', '.join(unknown)} — modes are `--agent <NAME>`, `--fleet`, or explicit file paths; there is no `--all` (fleet mode is `--fleet`)")
+        print(f"READ-CAP 2 USAGE: unknown flag(s) {', '.join(unknown)} — modes are `--agent <NAME>` "
+              f"[--require-manifest], `--fleet`, `--selftest`, or explicit file paths; there is no "
+              f"`--all` (fleet mode is `--fleet`)")
         return 2
     if not paths:
         print(__doc__); return 2

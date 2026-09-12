@@ -213,6 +213,11 @@ SELFTEST_LEGS = [
     ("A6", "scripts/consumer_check.py", ["--selftest"]),
     ("A7", "scripts/ledger_staleness.py", ["--selftest"]),
     ("A8", "scripts/memory_citation_census.py", ["--selftest"]),
+    # A9 REGISTERED 2026-09-12 (DAEDALUS): read_cap_check.py gained --selftest with the
+    # R7-stage-2 manifest consumer, so the gap-register row that kept this leg OUT of v1
+    # ("registered-and-silently-skipped is worse than NOT REGISTERED") is retired by its
+    # own terms — "the fix-shipper retires it".
+    ("A9", "scripts/read_cap_check.py", ["--selftest"]),
 ]
 
 
@@ -562,7 +567,6 @@ def build_legs():
 
 # Legs deliberately NOT in v1 — named so the perimeter line can be honest.
 NOT_CHECKED_V1 = [
-    "read_cap_check.py has no --selftest (registered in the gap file, expiry-dated)",
     "ledger completeness vs the trading calendar (needs a calendar source; v2)",
     "wiring_census / asmade_audit forward legs (agent-judged output; v2)",
     "mail-loop, watermark and contradiction-against-own-rules classes — "
