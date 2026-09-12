@@ -263,3 +263,37 @@ reason) cell and assert the state, exactly as PROME's reproduction does. **Not a
 `scripts/pipeline_rc_guard.py` is **UNWIRED** (Will's call — wiring edits `.claude/settings.json`, not mine) and
 **misses `set +o pipefail; <gate> | tail; echo "RC=$?"`** and **a command whose comment merely mentions
 PIPESTATUS**. Both are recogniser gaps in a tool nothing depends on yet. **Not fixed, not absorbed, carried.**
+
+---
+
+# 10. 🔴 SIXTH INSTANCE, AT SHUTDOWN, IN MY OWN HAND — I COLLAPSED rc 2 INTO rc 1 AGAIN
+
+Running the final pre-shutdown check I wrote a throwaway loop:
+```
+bash verify_push.sh "$s" >/dev/null 2>&1 || { f=$((f+1)); echo "  NOT ON ORIGIN: $s"; }
+```
+**It reported 32 of 32 commits NOT ON ORIGIN.** All 32 are on origin.
+
+**`verify_push.sh` returns rc 2 CANNOT-CERTIFY — correctly — for a subject match older than its 60-minute
+window**, because an old match is not evidence THIS session's work was pushed. That is a contract I wrote into
+that file, in capitals, after it false-alarmed on its own second use. **My `||` treated every non-zero as
+failure, collapsing CANNOT-CERTIFY into NOT-ON-ORIGIN.**
+
+⛔ **This is the identical collapse I fixed in `validate_all` D1 two hours earlier, and carried as L355 because
+it survived at the next rc value up.** Sixth instance in one session. And the sequence is the damning part:
+**I wrote the three-state contract · I fixed the collapse in one tool · I found it surviving in another · I
+registered a DOCKET row for it · and then I wrote it again, myself, in the last command of the session.**
+
+**Ground truth, established properly:** `git merge-base --is-ancestor` on spot-checked commits → all ON ORIGIN;
+`git log origin/master..HEAD` → **0 commits ahead.** Nothing was at risk; the alarm was mine.
+
+🔑 **THE FINDING, and it is the one that should outlive every tool in this record: a three-state rc contract is
+defeated by `||`, `and`, `if not`, and every other two-valued idiom in the language — so ANY three-state contract
+is one careless line from being two-state at every call site, including its author's.** Writing `rc 0/1/2` in a
+docstring does not make callers three-valued; **only a caller that names the states can be.** ⇒ Wherever rc 2
+means CANNOT-CERTIFY, the call site must test `-eq 0`, `-eq 1`, `-eq 2` explicitly, never truthiness.
+**That is the general form of L355 and it is bigger than L355.** Carried to 9/14 with it.
+
+*(Recorded at shutdown rather than dropped. `finding_a_correction_pass_is_unreviewed_work` — and the corollary
+this session earned six times over: the register that degrades is not the code, it is the throwaway line beside
+the code.)*
