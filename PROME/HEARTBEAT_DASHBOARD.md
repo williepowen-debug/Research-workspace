@@ -9,7 +9,7 @@ levels. Hash agreement proves synchronization, not semantic completeness.
 At a HEARTBEAT re-base, remove projections for amendments folded into the base.
 This companion keeps render metadata outside the boot-read byte budget.
 
-*Fourteenth base 2026-09-11: chain 1 — Amendment #1 (closeout write-back 12:1x) projected below.*
+*Fourteenth base 2026-09-11: chain 2 — Amendment #1 (closeout write-back 12:1x) and Amendment #2 (evening closeout 19:5x, the Saudi MoE Petroline shutdown statement) projected below.*
 
 ```dashboard-amendment
 {
@@ -39,6 +39,22 @@ This companion keeps render metadata outside the boot-read byte budget.
       "XLE": "XLE 65C ×1 SOLD by Will 9/11 at $1.51 (−$77.33 realized); line FLAT",
       "WAL": "WAL 78.50 [9/11 10:1x intraday]; ROLL70-EXIT 0-of-3 through 9/10",
       "TLT": "TLT 81.21 [9/11 10:1x intraday]; 77P delta −0.0354"
+    }
+  }
+}
+```
+
+```dashboard-amendment
+{
+  "amendment": 2,
+  "source_sha256": "4aa5a45938eef950b02f743f9e6d29de2139785d19f2ea690c433143c632e4d0",
+  "set": {
+    "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. ⛔ Attribution, damage location and barrels all remain unestablished. BRENT has NOT re-graded BG-02 — its packet predates the statement, and a shutdown statement is not a throughput measurement; the ≥0.7 mb/d resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
+    "channels": {
+      "Energy": {
+        "headline": "🔴 Saudi MoE: Petroline SHUT — tell #2 FIRED; barrels unknown",
+        "body": "The Saudi Ministry of Energy stated (X, Fri 9/11) that the East-West/Petroline crude line is shut \"as a precautionary measure\" after \"multiple\" attacks 9/10 in the Riyadh and Madinah regions — firing FALCON's pre-committed resolver #1, written before the event. Nothing else moved: marks HOLD B 3 / C 22 / D 75 (a pipeline is not a hull ⇒ no D→85 leg; 3rd consecutive check); GATE-FALCON-001 unchanged, review 9/14; thesis-kill 0/7. FAL-05 NOT FIRED, OPEN @55%, confidence deliberately unmoved — route (b)'s volume limb is unestablished and its ≥7-day bar unmet ⇒ earliest 9/17–18, but route (a) force majeure is one declaration away and has NO duration bar. ⚠️ BRENT has NOT re-graded BG-02 (its 9/11 afternoon packet predates the MoE statement; no published time of day for the statement is on file at any FALCON artifact — do not quote one): a shutdown STATEMENT is not a THROUGHPUT measurement, so BG-02 stands NOT MET on its own letter and the ≥0.7 mb/d 7-day-MA resolver runs to 9/25 (L329); BRENT's read is OWED. ⛔ ATTRIBUTION, DAMAGE LOCATION and BARRELS remain unestablished — net supply loss UNQUANTIFIED, the route-geometry test INCONCLUSIVE with no station named, and multiple relays of ONE statement are ONE source. FALCON shipped five wrong claims to three desks the same night and corrected them in place after an external review (one had gone to BRENT as forward guidance). Carried from midday: XLE 65C ×1 sold at $1.51 (−$77.33 realized), D-49 open for the first contract only; VLO ×3 does not fire on the 9/10 read — the fill waits for a day refiners are red against oil, re-arm $1,187.31. STAND DOWN holds (WQ-192); $0 moved."
+      }
     }
   }
 }
