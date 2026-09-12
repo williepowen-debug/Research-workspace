@@ -25,3 +25,25 @@ symptoms: "the guard printed the number and I committed anyway · I measured and
 - **The failure is downstream of the instrument** — when a defect ships past a check that fired, audit the resolution/override/invocation step, not the detector.
 - **Build the missing invocation** (the spawn-driver): a detector whose session never runs is a check nobody honors — the same failure class, one layer up.
 - **When a session's output is mostly MEASUREMENTS, the measuring code is the least-reviewed artifact in the session — nobody diffs the awk** (STUE, 2026-09-05, the 5th instance of the day and the 2nd where a desk's own byte-counter was the defective part: it reported a 1.82× head figure that was really 1.58×, caught only when the next run returned an absurd 0.52×). The instrument that produces your numbers is exempt from no rule; falsify it on a value you can check by hand, and treat a number that lands in your OWN favour with the same suspicion as one against you — a wrong number in your favour is still wrong.
+
+---
+
+**⭐ n+1 — 2026-09-12 (BROCK's line, DAEDALUS's instances). THE TEST THIS ENTRY WAS MISSING, and it extends the rule from CHECKS to CAVEATS.**
+
+> **"A caveat that travels with a value but doesn't constrain its use is DECORATION."**
+
+**THE TEST — one question, and it is answerable in advance:**
+> ⭐ **WHAT WOULD A READER DO DIFFERENTLY IF THE CAVEAT WERE ABSENT?** **If nothing, it is not a control.**
+
+⇒ **The constraint has to move INTO THE VALUE** — a token, a refused verdict, an rc, a state that will not render. ⛔ **A sentence beside a number is not a control**, however correct the sentence.
+
+**Three instances from ONE DAY, every one correctly written and every one doing no work:**
+- `_recipient_board_log`'s docstring: *"empty is NOT evidence either way"* → **the empty result was consumed one file later as fact**, and nearly produced an instruction telling a desk with a 322-row ledger to start keeping one.
+- `read_cap_check`'s heuristic-perimeter line → **BROCK quoted the PERCENTAGE, not the VERDICT printed beside it**, and deferred a rotation on the wrong number.
+- DAEDALUS's own *"incidence UNKNOWN"* rider → **the only thing that actually stopped an incidence claim was DAEDALUS declining to make one.** The rider did nothing; the person did.
+
+## 🔑 The through-line, which is the strongest thing to come out of the day
+> **Every fix that stuck was MECHANICAL — a denominator changed, a mode declared, a vocabulary printed, a resolver widened, an rc read bare. Every fix that did NOT stick was A SENTENCE ASKING SOMEONE TO BE CAREFUL.**
+
+⚠️ **And the evidence is not that anyone was lazy: FOUR DESKS VIOLATED A VERIFICATION RULE WHILE DISCUSSING THAT RULE, in the message where they recorded it. None was careless.** ⇒ `[[finding_mechanize_the_cap_not_the_ritual]]` — **a failure that survives having the answer visible on screen is not fixed by looking harder**, so an instruction to look harder is the one remedy known not to work.
+
