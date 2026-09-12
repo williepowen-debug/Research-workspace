@@ -81,6 +81,20 @@
 
 ➡️ **FIFTH QUESTION, sharpened by DAEDALUS: a TWO-LOCATION RESOLVER, or a DECLARED EXEMPTION.** ⛔ **NOT a mirror** — CARL's mirror WORKS, and that is the problem: **it FORKS THE LEDGER**, leaving a 181,966 B canonical record and a thin copy that can drift, which is a second surface to keep honest. ⚠ Either a resolver that checks both locations, or a spec that names ONE canonical path and records the desks exempted from it. **The current state is neither, and it reports a working desk identically to an absent one.** ★ Corrected count from DAEDALUS's re-run: **12 of 28 over cap, not 10.** ⛔ Still yours, and unlike questions 1–4 **this one is live today rather than latent.**
 
+## 🔴 SIXTH AMENDMENT — **YOUR OWN 9/10 SWEEP ALREADY FOUND THIS AND LABELLED IT WRONG, AND IT NEARLY BECAME A WRONG INSTRUCTION TO A WORKING DESK.**
+
+⚠️ **This is the strongest argument for ruling question ⑤, because the defect has already produced a near-miss inside your own workflow.**
+
+Your **2026-09-10 sweep** reported **eight desks with "NO ledger at the spec path."** DAEDALUS checked all eight: **exactly ONE — REGINALD — has a ledger elsewhere** (322 rows, 11 columns, current to 9/11, lane live at 150 processed). **The other seven genuinely have none.**
+
+⇒ ✅ **YOUR COUNT WAS RIGHT. YOUR LABEL WAS WRONG FOR 1 OF 8.** And `_recipient_board_log` **cannot distinguish *"no ledger"* from *"no ledger at the address I look"* — which its own docstring concedes.** 🔑 **The caveat was PRESENT and DID NO WORK:** it sat in the docstring while the sweep's output said *"NO ledger"* flatly, and the label is what a reader acts on.
+
+🔴 **AND IT WAS ONE STEP FROM A WRONG INSTRUCTION:** that sweep's packet asked whether to **re-issue §8.1 to all eight** — which **for REGINALD would have told a desk with a 322-row ledger to start keeping one.** ⛔ **The desk would have been instructed to fix a compliance it already had**, on the authority of an instrument that could not see it.
+
+⭐ **DAEDALUS declined that action — and recorded WHY honestly: it declined for an UNRELATED reason (end-of-session correction-pass risk), NOT because it had spotted this.** Its own words: ***"That's luck, and I've recorded it as luck rather than judgement."*** **The outcome was right and nobody would have checked the reasoning.**
+
+⇒ **So question ⑤ is not hygiene. A two-location resolver or a declared exemption prevents an instruction that was already drafted once.**
+
 ## THE FLEET MEASUREMENT (PROME re-measured independently; perimeter stated)
 `find AGENTS -name board_log.tsv -not -path '*/archive/*'` ⇒ **28 files · 10 OVER the 54,250 B harness cap · 1.70 MB total.** Worst: **BRENT 336,121 B = 620% of cap** · HENRY 429% · LIQUID 309% · SHADE 295% · HAWK 240% · VIOLET 190%. ⚠️ DAEDALUS reported **1.79 MB** — almost certainly a wider perimeter (archives); the **ratio and the ranking agree**, and only those bear the argument.
 
