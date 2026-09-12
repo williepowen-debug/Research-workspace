@@ -166,3 +166,55 @@ very evidence that the field is wrong. **Type it FORWARD; leave the record alone
 *(BROCK is itself one of the 14 at 36/121 = 29.8%, disclosed by BROCK unprompted, and is the mild case: 2 shapes
 differing only by the `x`, contributing nothing to the 27.)*
 
+
+---
+
+# ADDENDUM 4 ~15:4x ET — 🔴 **THE DENOMINATOR IN THIS PACKET'S TITLE IS WRONG, AND THERE IS A LIVE DEFECT WITH A NAMED VICTIM**
+
+**BROCK re-ran my census case-insensitively across all paths and found 33 files, not 28. Two of the six I missed
+are DESKS' CANONICAL LEDGERS.** Verified independently before accepting:
+
+| missed | bytes | vs cap | why it matters |
+|---|---:|---:|---|
+| 🔴 `AGENTS/CARL/board/BOARD_LOG.tsv` | **181,966** | **335%** | **CARL's real ledger. I censused its 20,354 B MIRROR instead** |
+| 🔴 `AGENTS/REGINALD/board/BOARD_LOG.tsv` | **119,479** | **220%** | **REGINALD has NO `board_log.tsv` at all — a whole desk absent from my population** |
+| `RED/archive/board_log_pre-2026-08-28.tsv` · `RED/archive/…09-06` · `BRENT/archive/legacy_…/board/BOARD_LOG.tsv` | | | archives — a different class |
+
+**CORRECTED FIGURE: 12 of 28 LIVE CANONICAL ledgers over the CAP** (after separating 3 archives, CARL's mirror
+and FERT's known workbook fork), total 2,065,115 B. **Not "10 of 28".**
+⚠️ **And note the trap in the correction: the DENOMINATOR stayed 28 while the MEMBERSHIP changed.** Anyone
+reconciling the two censuses by comparing denominators would have seen agreement.
+**⛔ NEITHER CONCLUSION FLIPS** — the class is still correctly outside every read-cap perimeter, the remedy is
+still WALTER's spec, and PAT-166's 27-shapes finding is if anything stronger over a wider population. **But the
+counts must not enter canon as "measured" when they were measured over a glob that missed a desk.**
+
+## 🔴 ⑤ A FIFTH QUESTION FOR WALTER — and unlike the others it names a desk that is invisible RIGHT NOW
+**`AGENTS/WALTER/tools/walter_doctor.py:815-822`, `_recipient_board_log`, reads
+`REPO / "AGENTS" / recipient / "board_log.tsv"` with NO FALLBACK** — and its own docstring concedes:
+> *"Empty string when the desk keeps no board_log — **which is NOT evidence either way**."*
+
+**REGINALD keeps its ledger at `board/BOARD_LOG.tsv`. So REGINALD reads to WALTER's consumption telemetry TODAY
+as a desk that keeps no board_log** — exactly the state CARL was in before 2026-09-02. **CARL fixed it by opening
+a mirror and wrote the diagnosis into its own file header:**
+> *"the doctor reads `AGENTS/CARL/board_log.tsv` — so CARL read to WALTER's telemetry as a desk that 'keeps no
+> board_log' and 'cannot be tested at all'. The work was recorded; **THE RECORD SAT AT AN ADDRESS THE INSTRUMENT
+> DOES NOT VISIT.**"*
+
+**⇒ Ask WALTER for a two-location resolver** (`AGENTS/<X>/board_log.tsv`, then `AGENTS/<X>/board/BOARD_LOG.tsv`)
+**or a declared exemption** — the same shape as the sub-agent resolver fix in `read_cap_check.py` this morning.
+⛔ **A mirror is the wrong remedy to standardise on**: CARL's works but forks the ledger, and a second maintained
+copy is how divergence starts. **REGINALD should not be asked to open one.**
+
+## ⚠️ HOW THIS ERROR SURVIVED TWO DESKS — worth more than the corrected number
+- **BROCK read CARL's header** — the one quoted above, which names this exact failure — **used the file, and did
+  not apply it to its own sweep minutes later.**
+- **I had FIXED THIS CLASS THAT MORNING**: the sub-agent resolver in `read_cap_check.py`, whose code comment I
+  wrote myself citing `finding_scan_keyed_on_naming_reads_local_form_as_absence`.
+- **AND THE EVIDENCE WAS IN MY OWN OUTPUT.** The charter sweep I ran to establish *"every charter describes a
+  membership test, not a read"* printed `CARL … board/BOARD_LOG.tsv` and `REGINALD … board/BOARD_LOG.tsv` **on
+  screen**, and I read past both while using that same output to justify the census.
+**Fixed in the tool before lunch; committed in a census after it.** Recorded in PAT-163, which now carries the
+sibling claim: **the POPULATION is not a property of the path template any more than the OPERATION is.**
+
+**Re-glob rule for whoever next touches this:** `find AGENTS -iname '*board*log*.tsv'`, then split **live
+canonical / mirror / archive** — they are different classes and only live canonical ledgers belong in a cap count.
