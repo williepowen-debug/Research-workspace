@@ -34,7 +34,7 @@ These are internal actions that don't change thesis, don't touch positions, don'
 These change structure, create new work streams, or have cost implications.
 
 - **New research folders/architecture that are NOT required by in-progress work** (proactive structure changes)
-- **New agent spawn for research** (costs tokens, takes time)
+- **A NEW-DIRECTION domain spawn** (costs tokens, takes time). ⚠️ **"New-direction" is the whole discriminator and this bullet omitted it until spine audit #13 (2026-09-12, blocking)** — as written it contradicted this file's own Tier-1 grants (read-only research/verification fan-outs; follow-up spawns inside an already-approved workstream) and the auto-injected `PROME/CLAUDE.md` spawn-default block, under which **a registered dated DOCKET/GATES row naming a desk owner IS an approved workstream ⇒ outcome ①, Tier 1, no nod** (WQ-184).
 - **New tracking frameworks** (new TSVs, new monitoring protocols — note the data-hygiene FROZEN/LIVE ledger rule in root `CLAUDE.md`)
 - **Protocol changes** (modifying how agents operate, new rules)
 - **Thesis-level conclusions** (upgrading/downgrading confidence, changing scenarios)
@@ -50,7 +50,7 @@ These are never autonomous regardless of trust level.
 - Anything external (emails, messages to people, public posts)
 - Position recommendations or trade proposals — **every spawn runs report-before-execute, so a trade rec returns to Will regardless of tier** (one wording with the auto-injected `PROME/CLAUDE.md` Ask-First block; aligned 9/6, audit #12)
 - Deleting files (trash > rm, but still ask)
-- Modifying `AGENTS.md` core sections (roster / routing / spawn rules) or other agents' core/identity docs
+- Modifying other agents' core/identity docs, and the **real homes** of the surfaces this bullet used to gate at `AGENTS.md` — ⚠️ **`AGENTS.md` carries neither roster nor spawn rules any more; it routes them onward, so gating it left the actual surfaces ungated until spine audit #13 (2026-09-12, blocking): roster/classification → `PROME/ROSTER.md`, orchestration + spawn contract → `PROME/ORCHESTRATION_PLAYBOOK.md`, routing topology → `AGENTS/_NETWORK.md`.** `AGENTS.md` core itself stays Will-gated as a root doc.
 - Spending money (API calls with cost, marketplace purchases)
 - Contacting anyone on Will's behalf
 

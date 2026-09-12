@@ -245,3 +245,24 @@ Prior instances here are obligations sitting in unread places. **These two were 
 ⚠️ **And the expensive half: a wrong INFRA diagnosis propagates outward.** The `boot.py` claim reached the operator as a two-session pattern and would have justified rewriting a working orchestrator. Pairs with `[[finding_instrument_reports_clean_against_the_wrong_reference]]` — the zero bytes were a property of the pipeline, not the program.
 
 *(CARL KB-CARL-455/456/457; guard wired at `AGENTS/CARL/CLAUDE.md` step 7.0.)*
+
+---
+
+### BOND `BND-22`, found by PROME 2026-09-12 (n+1; instance type NEW: **the carried item is a REGISTERED PREDICTION with a stated window, and it still did not self-evaluate**)
+
+Prior instances are obligations in unread places, obligations never recorded, and obligations already fixed but re-copied. **This one had everything the earlier instances were missing** — a row in a predictions ledger, an ID, a confidence, an explicit window, and a resolution rule written as a one-line test:
+
+> `BND-22` · made 2026-09-01 · 55% · *"DFII10 does NOT close at or above 2.50pct on any session from 2026-09-01 through 2026-09-11 inclusive."* · **"TRUE if no close ≥ 2.50 in the window. FALSE if any single close ≥ 2.50."**
+
+`DFII10` closed **2.55 on 2026-09-10**. Two days later the row read `Status = OPEN`, `Date_Resolved` blank, `Outcome` blank — and the desk that wrote it had been dark since. It was found by an outsider running a **consumer check on a superseded figure** (2.46 → 2.55), not by anything watching the prediction.
+
+🔑 **A window is not a trigger.** Every earlier instance in this memory could be blamed on the carry being vague. This one was maximally precise and still inert, because **precision describes WHEN a thing becomes gradeable; it does not cause anyone to grade it.** The row waits for its author, and the author's own boot is the only clock. If the author is dark across the window's close, the falsification is silently indistinguishable from an open question — the most valuable state a prediction ledger can hold, stored as its least visible one.
+
+⚠️ **And the asymmetry runs the dangerous way: the desk had pre-written its own `If_Falsified_Action`.** The consequence was designed, agreed and sitting in the row — *"the add-gate has fired on its LEVEL leg… grade the sustain leg"* — so the cost of the miss was not confusion, it was **a prepared action that never fired.** A pre-registered consequence makes the ungraded row worse, not safer.
+
+**How to apply (additive to the rules above).**
+- **A prediction whose window has CLOSED is a dated catalyst and belongs on the shared docket, not only in the owner's ledger.** Registered here as `PROME/DOCKET.tsv` L357 so the WQ-184 driver wakes the owner; the packet alone would have waited for the same dark boot.
+- **When you supersede a published figure, the consumer check is also a PREDICTION sweep.** Root step 1c exists to stop others citing a stale number; its 🔴 list is simultaneously the list of rows whose *resolution criteria* that number may have just met. Read the hits for graded outcomes, not only for stale quotes.
+- ⛔ **Finding the falsification does not make it yours to grade.** PROME recorded the observation, registered the date, packeted the owner, and wrote nothing into the prediction row — `[[finding_a_scope_rule_allocates_visibility_not_superior_judgement]]`.
+
+*(`AGENTS/BOND/thesis/PREDICTIONS.tsv` BND-22; PROME FRED H.15 primary pull 2026-09-12; DOCKET L356 + L357. Pairs with `[[finding_record_of_an_action_is_not_the_action]]` — an OPEN status is a record of not-yet-looking, never evidence the window is still open.)*

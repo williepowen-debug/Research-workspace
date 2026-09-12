@@ -116,7 +116,7 @@ git add -- PROME/<newfile>
 git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
 ```
 
-Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase --autostash` + re-push (full form + caveats in Push Discipline below); escalate to Will only on the tripwire signatures in Push Discipline. Root `CLAUDE.md` / `AGENTS.md`-core commits still need Will scope (HEARTBEAT and FORGE are PROME-standard since 8/23 / 7/30).
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — and ⛔ **the dirty-path overlap check comes FIRST, before any `--autostash`** (root `CLAUDE.md` Git Protocol session-end step 3: `git fetch origin && git diff --name-only "$(git merge-base HEAD origin/master)..origin/master"` against `git status --porcelain`; ANY overlap ⇒ stop and flag, because autostash sweeps the whole dirty tree including other agents' work) — then `git pull --rebase --autostash` + re-push (full form + caveats in Push Discipline below); escalate to Will only on the tripwire signatures in Push Discipline. Root `CLAUDE.md` / `AGENTS.md`-core commits still need Will scope (HEARTBEAT and FORGE are PROME-standard since 8/23 / 7/30).
 
 ## Push Discipline
 

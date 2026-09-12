@@ -17,7 +17,7 @@ Commands are quoted here only where they are stable interfaces; they are copied 
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>`
    BOOT.md step 5 owns the gate's meaning; step 6 owns the board-scan re-run rule.
 3. **Declare boot state** → BOOT.md step 7.
-4. **Flag top issues + the owed-items question to Will** → BOOT.md step 8 (the wording, the "choice not mention" rule, and the third-boot disposition all live there). Ask before any directed work.
+4. **Flag top issues + the owed-items question to Will** → BOOT.md step 8 (the wording, the "choice not mention" rule, and the third-boot disposition all live there). ⚠️ **BOTH halves of BOOT.md step 8** — the owed-items choice AND the `PROME/STATUS.md` `Last spine audit:` stamp check, whose trigger and wording live there. `prome_gate.py boot` carries no check for that stamp, so this runner is its only carrier. (Named here 2026-09-12, spine audit #13 — the runner had carried one half.) Ask before any directed work.
 5. **Conditional reads** → BOOT.md step 6.
 6. **Top proposals** → BOOT.md step 9.
 7. **Then the session's work.** Work only the scoped task (`PROME/CLAUDE.md` Boot step 4); the owed items are yours to have ASKED about (BOOT.md step 8).

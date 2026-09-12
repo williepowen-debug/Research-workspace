@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-12 16:25",
+ "built": "2026-09-12 17:14",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,7 +15,6 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
-  "2026-09-12 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
   "2026-09-12 One-time sweep of ALREADY-REGISTERED base rates for OPERATOR",
   "2026-09-12 VECTOR 1 \u2014 TANKER / GAS-CARRIER EQUITIES on ton-miles (three",
   "2026-09-12 VECTOR 4 \u2014 THE LOSERS of the diesel/jet squeeze (Jazan 400 k",
@@ -30,7 +29,9 @@
   "2026-09-14 VECTOR 2 \u2014 CHEAP VOL INTO FOMC 9/16 with Brent $108: VIX 17.",
   "2026-09-14 VECTOR 3 \u2014 IS GLD THE WRONG HEDGE in an oil-shock / real-yie",
   "2026-09-14 \ud83d\udd34 **THE validate_all D1 REPAIR IS PARTIAL \u2014 rc 2 is handled,",
+  "2026-09-14 \ud83d\udd34 BND-22 RESOLVES FALSE \u2014 a registered 55% prediction that i",
   "2026-09-14 \ud83d\udd34 RULE CONFLICT, NOT A WORDING DEFECT \u2014 SL-4 and SL-5(e) ret",
+  "2026-09-14 \ud83d\udd34 THE 004 TLT-PUT ADD LINE IS THROUGH FOR THE FIRST TIME: DF",
   "2026-09-14 \ud83d\udfe0 **THE MIRROR FAILURE \u2014 A FALSE *RED*: read_cap_check's .py",
   "2026-09-14 \ud83d\udfe0 read_cap_check WILL PRINT AN INAPPLICABLE REMEDY ON GENERA",
   "2026-09-15 BOND dual-print grades: 9/15 20Y-R 912810UX4 + 9/17 10Y TIPS",
@@ -60,7 +61,11 @@
   "2026-09-18 \ud83d\udd34 CRMT SCHEDULED TERMINATION DATE \u2014 THE THIRD BRIDGE, regist",
   "2026-09-19 ARGUS TRIAL GRADE \u2014 four Standard+ closeouts audited by the ",
   "2026-09-19 Class 8 DESK CADENCE COLUMN \u2014 commission (WQ-184 leg \u2465): STA",
+  "2026-09-19 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
   "2026-09-19 SPAWN-DRIVER REVIEW sitting (WQ-184 leg \u2466, Will 2026-09-05 2",
+  "2026-09-19 \ud83d\udfe0 SPINE AUDIT #13 MINOR RESIDUE \u2014 carried, not fixed, so it ",
+  "2026-09-19 \ud83d\udfe0 THE ARGUS SCOPE WAS COMPUTED ON A NON-QUIESCENT TREE, TWIC",
+  "2026-09-19 \ud83d\udfe0 TWO fleet_dashboard.py TILE-MAP PATTERNS HAVE NEVER PRODUC",
   "2026-09-21 CRMT \u00a72.1 conditional paths (a) equity / new warehouse and (",
   "2026-09-21 VX-BRK-020 STALE-RED DOWNGRADE CANDIDATE \u2014 its Status reads ",
   "2026-09-22 DEFERRAL (Forum-4 N11-ii, Will-ruled 8/11): multi-desk LEAD-",
@@ -76,7 +81,7 @@
   "2026-09-26 FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grad",
   "2026-09-28 ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure ",
   "2026-09-29 SAVE\u2192RAP FIRST-TRANCHE non-selection read \u2014 CRL-13 partial N",
-  "2026-09-30 004 TLT Sep-30 $77P x25 EXPIRY \u2014 the live PROME-rail duratio",
+  "2026-09-30 004 TLT Sep-30 $77P \u00d720 [was \u00d725; 5 SOLD 9/10 \u2014 receipt FORG",
   "2026-09-30 CARL SEASONING-CLOCK RULING \u2014 owed BEFORE the ~Oct 1 panel r",
   "2026-09-30 FORUM-5 W1 opacity enumeration DUE \u2014 4 legs (SHADE gated-US-",
   "2026-09-30 INFO-BACKLOG PREDICTIVE STUDY \u2014 does a desk's UNCONSUMED inf",
@@ -150,7 +155,7 @@
  },
  "heartbeat_errors": [],
  "levels": {
-  "10Y Yield": 4.83,
+  "10Y Yield": 4.95,
   "CCC OAS": 1070.0,
   "Cont Claims": 1774000.0,
   "Cushing": 21.823999999999998,
@@ -160,9 +165,9 @@
   "OZK": 48.77,
   "USD/JPY": 153.57,
   "VIX": 17.84,
-  "WAL": 78.5
+  "WAL": 79.28
  },
- "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. \u26d4 Attribution, damage location and barrels all remain unestablished. BRENT RE-GRADED BG-02 on 9/12: still NOT MET on four grounds, and it retracted its own \u201cVERIFIED ABSENCE\u201d basis \u2014 verdict unchanged, basis moved, and a shutdown statement is not a throughput measurement; the \u22650.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
+ "one": "The Saudi state has SAID the Petroline is shut; nobody has measured a barrel. BRENT re-graded BG-02 on 9/12 and it STANDS \u26d4 NOT MET on four independent grounds \u2014 the verdict did not move, the basis did \u2014 and the \u22650.7 mb/d 7-day-MA floor is ungradeable before ~9/17, window closing Fri 9/25 17:00 ET (L329). \ud83d\udd34 BRENT also found the defect in its OWN resolver and sent it to Will: the two AIS trackers disagree by 0.8 mb/d on the BASELINE \u2014 bigger than the 0.7 floor \u2014 and the bias is DIRECTIONAL, because dark share rises exactly on the events the gate watches (WQ-234). \ud83d\udd34 The 004 add line is THROUGH for the first time ever \u2014 DFII10 2.55 [9/10 official] vs 2.50 \u2014 TERRY grades it, Will's standing NO-ADD governs, $0 moved (L356). COT-35B CLEARED: vintage #5 JOINT NO-VERDICT, 4th consecutive, sizing BASE CASE. The first long-end buyback drew 1.748\u00d7 cover, the weakest of n=26 (prior min 3.22\u00d7); RED then graded FT-11 v1.1 NOT MET, WRONG SIGN. CRMT bridged again, to 9/18 \u2014 the second short bridge. STAND DOWN holds (WQ-192); $0 moved by PROME.",
  "pending": [],
  "split": "Break 20 / Grind 47 / Unresolved 33",
  "v": 1
