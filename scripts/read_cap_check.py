@@ -328,12 +328,85 @@ def declared_reads(name, path=None, root=None):
             cap_bearing[full] = (mode, src)
         else:
             visible.append((pth, mode + (" · directory" if os.path.isdir(full) else ""), src))
+    # ── AN EXECUTABLE DECLARED CAP-BEARING (added 2026-09-12, on the FIRST new desk to declare) ──
+    # The manifest's hardest distinction is `programmatic` vs `summary`, and its failure direction
+    # MANUFACTURES a breach. BROCK — the first desk to file after the consumer half shipped — declared
+    # three INVOKED TOOLS (`ledger_staleness.py`, `dashboard.py`, `corrections_boot_check.py`) as
+    # `programmatic`, which is cap-bearing, producing a 🔴 OVER THE CAP on a desk that is fine. The
+    # manifest's own rule settles it: "a programmatic read COUNTS if its CONTENTS ENTER SESSION
+    # CONTEXT; if the tool only computes a bounded output, register `summary`." BROCK RUNS those
+    # tools; it does not read their source.
+    # ⚠️ MY FIRST CUT OF THIS CHECK WAS WRONG AND THE REGRESSION RUN CAUGHT IT. I keyed on CROSS-READER
+    # disagreement — "this path is cap-bearing here and `summary` for another reader" — and it fired on
+    # PROME/STATUS.md, which PROME reads WHOLE and WALTER reads SCOPED. Both correct: READS.tsv ruling 1
+    # says in terms that ONE PATH MAY APPEAR UNDER SEVERAL READERS and that this is CORRECT, never a
+    # duplicate. Different readers legitimately do different operations on one file, and my check could
+    # not tell "same operation, two verdicts" from "two operations". The real signal is narrower and is
+    # about the FILE, not the disagreement: nobody reads an EXECUTABLE's SOURCE into context at boot —
+    # they run it. Cross-reader agreement is corroborating evidence, printed when present, never the test.
+    # ⛔ THE TOOL DOES NOT RECLASSIFY. The declaration belongs to the reader; silently correcting it
+    # would defeat the point of a declared perimeter. It reports; the owner fixes.
+    others = {}
+    for r in rows:
+        if r.get("row_kind") == "READ" and r.get("reader") != name:
+            others.setdefault((r.get("path") or "").strip(), set()).add((r.get("mode") or "").strip())
+    for full, (mode, src) in list(cap_bearing.items()):
+        rel = os.path.relpath(full, base_root)
+        if not rel.endswith((".py", ".sh")):
+            continue
+        soft = sorted(m for m in others.get(rel, set()) if m in VISIBLE_MODES)
+        corrob = (f" Another reader declares this same path `{'/'.join(soft)}` (NOT cap-bearing)."
+                  if soft else "")
+        problems.append(
+            f"`{rel}` ({src}) is an EXECUTABLE declared `{mode}`, which is CAP-BEARING — so its SOURCE "
+            f"is being measured against the read budget. A tool you INVOKE emits a bounded output and "
+            f"is `summary`; `programmatic` is for a file whose CONTENTS ENTER CONTEXT (the manifest's "
+            f"own ruling 3).{corrob} ⛔ Not reclassified here — the declaration is the reader's.")
+
     note = (f"perimeter: DECLARED in {os.path.relpath(READS_TSV, ROOT)} — {len(cap_bearing)} "
             f"cap-bearing (whole/programmatic) measured, {len(visible)} declared-not-counted "
             f"(scoped/grep/summary), {len(mine)} manifest row(s) for this desk; "
             + ("ATTESTED by the desk itself" if attested else
                "⛔ NOT ATTESTED by this desk — the perimeter is PARTIAL"))
     return cap_bearing, visible, problems, attested, note
+
+
+# ── GENERATED-FILE DETECTOR (added 2026-09-12, RED's report, and it is a REMEDY-ROUTING question) ──
+# PAT-161's remedy — rotate, or collapse pointers into one index — is WRONG for a GENERATED file, and
+# wrong in the worst way: rotation is MEANINGLESS (the next generator run restores every byte, because
+# a projection has no history to move) and rewording is IMPOSSIBLE (the generator copies its source
+# verbatim, so the file's own author cannot reword it). RED: "it tells the owner to rotate, the owner
+# complies because the instrument said so, nothing changes — and worse, the instrument then reads as
+# having been followed." `finding_record_of_an_action_is_not_the_action`, manufactured by the advice.
+# ⚠️ A GENERATED FILE'S SIZE IS NOT A PROPERTY OF ITSELF. It is a function of someone else's writing
+# habits on a different surface, so a read-cap flag on a projection is really a flag on its SOURCE and
+# routes to the SOURCE's owner. The only remedies are upstream: narrow the projected column set, or
+# type the source column so narrative cannot enter it.
+# ⛔ RED suggested keying on a line-0 `# GENERATED` banner. MEASURED BEFORE BUILDING, and the cheap
+# version is already wrong: `AGENTS/DAEDALUS/FLEET_DIRECTORY.md` is generated and its LINE 1 carries no
+# marker (the banner is on line 3), and `BOARD/INDEX.md` hides its in an HTML comment. Keying on line 0
+# would MISS them — `finding_scan_keyed_on_naming_reads_local_form_as_absence`, in a detector built to
+# answer a report about exactly that class. So: first FIVE lines, and the marker alone is not enough —
+# prose says "generated" constantly — it must sit beside an edit prohibition or a regenerate command.
+# Measured on the tree at build time: 13 files of 12,994 match, and the handful of false positives are
+# packets DESCRIBING a generated file, which are never boot whole-reads. The message is phrased
+# conditionally ("announces itself as") so a false positive is self-correcting: the reader can see the
+# banner or its absence.
+_GEN_MARK = re.compile(r"\bAUTO-?GENERATED\b|\bGENERATED\b", re.I)
+_GEN_PROHIB = re.compile(r"do not (?:hand-)?edit|never hand-edit|regenerate\b|rendered from", re.I)
+
+
+def generated_banner(path):
+    """The banner line if this file announces itself GENERATED, else None. Read-only, never raises."""
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            head = [next(fh, "") for _ in range(5)]
+    except OSError:
+        return None
+    for ln in head:
+        if _GEN_MARK.search(ln) and _GEN_PROHIB.search(ln):
+            return ln.strip()[:150]
+    return None
 
 
 def grade(b):
@@ -434,10 +507,26 @@ def check_agent(name, quiet=False, require_manifest=False):
                       # what is unclear and adds the missing qualifier. BROCK's two rewrite passes came out
                       # +242 B and +451 B; collapsing verbose pointers into one terse index is what worked.
                       # DAEDALUS reproduced it the same day on its own STATUS. PAT-161.
-                      f"   ⛔ AND DO NOT TRY TO REWRITE YOUR WAY UNDER: a careful tightening pass RELIABLY "
-                      f"ADDS bytes (measured +242 B and +451 B on two real attempts). Only MOVING text out "
-                      f"removes them — rotate, or collapse several verbose pointers into ONE terse index. "
-                      f"Both are mechanical; a rewrite is not.")
+                      f"   ⛔ AND DO NOT TRY TO REWRITE ALREADY-COMPRESSED TEXT UNDER: a tightening pass over "
+                      f"settled prose RELIABLY ADDS bytes (measured +242 B and +451 B on two real attempts) "
+                      f"because the compression is already gone and all a re-read adds is the disambiguation "
+                      f"it notices. Only MOVING text out removes them — rotate, or collapse several verbose "
+                      f"pointers into ONE terse index; both are mechanical, a rewrite is not. (RED 2026-09-12: "
+                      f"a reword DOES gain on a first draft you wrote an hour ago and have not yet compressed "
+                      f"— +584 B there — but it hits a content floor, and rotation is what clears budget.)")
+            gen = [(rel, generated_banner(os.path.join(base, rel)))
+                   for mark, rel, *_ in rows if mark in ("🔴", "🟠")]
+            gen = [(r, b) for r, b in gen if b]
+            for rel, banner in gen:
+                print(f"   ⚠️  {rel} ANNOUNCES ITSELF AS GENERATED — the remedy above does NOT apply to it.\n"
+                      f"      banner: {banner}\n"
+                      f"      Rotation is MEANINGLESS (the next generator run restores every byte; a projection\n"
+                      f"      has no history to move) and rewording is IMPOSSIBLE (the generator copies its\n"
+                      f"      source verbatim). A generated file's SIZE IS NOT A PROPERTY OF ITSELF — it is a\n"
+                      f"      function of writing habits on its SOURCE surface. ⇒ This flag is really a flag on\n"
+                      f"      the SOURCE and routes to the SOURCE's owner. The only remedies are upstream:\n"
+                      f"      narrow the projected column set, or TYPE the source column so narrative cannot\n"
+                      f"      enter it. (RED 2026-09-12, on its own FALSIFICATION_TRIGGERS_SCAN.tsv.)")
             if problems:
                 print(f"⚠️  READ-CAP 1 [{name}]: {len(problems)} manifest defect(s) above. A declared "
                       f"read that does not resolve is a defect of the DECLARATION, not of the cap — "
@@ -560,6 +649,50 @@ def selftest():
         chk("display: over-cap row still 🔴", mark, "🔴")
         chk("display: over-cap 'why' names the CAP explicitly", "of the" in why and "cap" in why, True)
         chk("display: over-cap util is still budget-denominated", util > 1.6, True)
+
+        # ── EXECUTABLE-DECLARED-CAP-BEARING (BROCK 2026-09-12) ───────────────────────────────
+        # ⚠️ This guard's v1 keyed on CROSS-READER disagreement and false-positived on PROME/STATUS.md
+        # (PROME reads it whole, WALTER scoped — both correct under READS.tsv ruling 1). The negative
+        # legs below are that regression, frozen: a .md declared `whole` must NEVER flag, however many
+        # other readers declare it differently.
+        m = _fixture(t, [A,
+                         "READ\tD\ttool.py\tprogrammatic\ts1\tD\t2026-09-12\t-",
+                         "READ\tD\tdoc.md\twhole\ts2\tD\t2026-09-12\t-",
+                         "READ\tE\tdoc.md\tscoped\ts3\tE\t2026-09-12\tanother reader, a PART",
+                         "READ\tE\ttool.py\tsummary\ts4\tE\t2026-09-12\tE invokes it"],
+                     {"tool.py": 100, "doc.md": 100})
+        cb, vis, pr, att, _ = declared_reads("D", m, t)
+        exe = [x for x in pr if "EXECUTABLE" in x]
+        chk("exe: .py declared programmatic is flagged", len(exe), 1)
+        chk("exe: the corroborating cross-reader mode is named", "summary" in exe[0], True)
+        chk("exe: a .md whole read is NOT flagged though another reader says scoped",
+            any("doc.md" in x for x in pr), False)
+        m = _fixture(t, [A, "READ\tD\ttool.py\tsummary\ts1\tD\t2026-09-12\t-"], {"tool.py": 100})
+        chk("exe: .py declared summary is clean (the correct form)",
+            [x for x in declared_reads("D", m, t)[2] if "EXECUTABLE" in x], [])
+
+        # ── GENERATED-FILE REMEDY ROUTING (RED 2026-09-12) ────────────────────────────────────
+        # The banner must be found ANYWHERE in the first five lines, not on line 0: this repo's own
+        # generated files put it on line 3 (FLEET_DIRECTORY.md) and inside an HTML comment
+        # (BOARD/INDEX.md), so a line-0 detector misses them — and the cost of a miss here is
+        # printing a remedy that CANNOT work while the instrument reads as having been followed.
+        for rel, body, want, why in [
+            ("l1.tsv", "# GENERATED VIEW — do not hand-edit. Regenerate: python3 gen.py\nx\n", True,
+             "banner line 1"),
+            ("l3.md", "# Title\n\n> **GENERATED — DO NOT EDIT.** Rendered from X\n", True,
+             "banner line 3 — a line-0 detector MISSES this"),
+            ("html.md", "# T\n\n<!-- GENERATED by gen.py — do not hand-edit. -->\n", True,
+             "banner in an HTML comment"),
+            ("prose.md", "# T\n\nThe report was generated last week from the desk's notes.\n", False,
+             "prose says 'generated' — marker alone must NOT match"),
+            ("plain.md", "# Ordinary hand-written file\nbody\n", False, "no marker"),
+            ("short.md", "", False, "empty file must not raise"),
+        ]:
+            f = os.path.join(t, rel)
+            open(f, "w").write(body)
+            chk(f"generated banner: {why}", generated_banner(f) is not None, want)
+        chk("generated banner: missing file returns None, never raises",
+            generated_banner(os.path.join(t, "nope.md")), None)
 
         # END-TO-END rc contract, both directions (the verdict, not just the parser).
         sav_r, sav_root = READS_TSV, ROOT
