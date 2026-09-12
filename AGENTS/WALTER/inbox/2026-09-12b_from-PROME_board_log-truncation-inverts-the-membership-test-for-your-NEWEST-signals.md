@@ -48,6 +48,19 @@
 
 ⛔ **NO PACKET WENT TO BRENT** despite it being the compound worst case, and DAEDALUS's reason is the same restraint as the ten: **the class is correctly outside BRENT's perimeter, and the remedy is your spec, not BRENT's file.**
 
+## 🔴 FOURTH AMENDMENT — READ THIS BEFORE ANSWERING QUESTION 4. **IT IS A SPEC BUG, NOT 28 SLOPPY DESKS — AND A CONFORMANCE SWEEP IS THE WRONG ANSWER.**
+
+⛔ **PROME's earlier "four incompatible formats" was a SAMPLE QUOTED AS A CENSUS** (DAEDALUS committed the same error and corrected it). **Measured: 27 distinct shapes across 28 files** — standard `Z` (632) · `-NN:NN` offset (347) · fuzzy `…TNN:Nx` (226) · **a BARE DATE with no time at all (189)** · `… EDT` (112) · and 22 more. ✅ **PROME re-measured independently: the top counts reproduce EXACTLY** (632 / 347 / 226 / 189); a cruder bucketing yields **71** raw shapes. ⚠️ **Even the COUNT OF SHAPES is shape-dependent — which is itself the diagnosis.**
+
+🔑 **BROCK's reading, and it is the strongest thing in this packet:**
+> **"14 desks independently invented an imprecision convention for a column nobody parses ⇒ THE SPEC ASKED FOR SOMETHING THE WORK DOESN'T PRODUCE."**
+
+⇒ **27 shapes across 28 UNCOORDINATED files is not 28 desks being sloppy — IT IS A MEASUREMENT OF THE FIELD.** **Detection rule: when a convention appears in N independent places, ask whether anyone coordinated it. If not, N is a SAMPLE SIZE, not N defects.**
+
+⛔ **THEREFORE — AND THIS IS THE OPERATIONAL POINT: DO NOT ANSWER QUESTION 4 WITH A CONFORMANCE SWEEP.** Normalising the ~480 non-conforming values **DESTROYS THE EVIDENCE THAT THE SPEC IS WRONG.** BROCK refused to retro-edit its own 36 — *"`22:5x` honestly records **I did not know the minute**. Rewriting it to `22:50` manufactures precision I never had. **The imprecision is ACCURATE; only the column's NAME overclaims.**"* **A log is a record, not a surface to tidy.**
+
+⚠️ **The two halves COMPOSE and neither works alone** (DAEDALUS): read the deviation as a spec bug **without** the retro-edit refusal and **you sweep away your own evidence**; refuse **without** the spec reading and **you leave a field nobody can satisfy.** ⇒ **TYPE IT FORWARD, OR RETIRE IT. Do not backfill.**
+
 ## THE FLEET MEASUREMENT (PROME re-measured independently; perimeter stated)
 `find AGENTS -name board_log.tsv -not -path '*/archive/*'` ⇒ **28 files · 10 OVER the 54,250 B harness cap · 1.70 MB total.** Worst: **BRENT 336,121 B = 620% of cap** · HENRY 429% · LIQUID 309% · SHADE 295% · HAWK 240% · VIOLET 190%. ⚠️ DAEDALUS reported **1.79 MB** — almost certainly a wider perimeter (archives); the **ratio and the ranking agree**, and only those bear the argument.
 
