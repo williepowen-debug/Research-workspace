@@ -224,3 +224,23 @@ WALTER's `split_verify` v2 (near-match "EDITED IN PLACE" reclassification) shipp
 ② **CITING A MEMORY IS NOT RUNNING IT — and the citation manufactures the assurance that stops you running it.** The same session produced **three** instances: this guard; a "1-cent match identifies the gas vintage" claim that was a fit with two offsetting unknowns (`[[finding_crosscheck_with_free_parameter_validates_nothing]]`, cited hours earlier in the same file); and a percentage computed on the wrong denominator **one day after** diagnosing a denominator error. **In each case the relevant memory was quoted in or beside the artifact that violated it.** ⚠️ **Invoking a lesson feels like discharging it.** The discharge is an executed check with a recorded result.
 
 ⚠️ **Environmental amplifier worth naming:** the surface was at 97–102% of a hard byte cap all session, so **every check in play rewarded a SMALLER file.** Deletion registered as progress. On a capped surface, add a content-inventory assert *before* the byte check, or the budget instrument will keep certifying the loss.
+
+---
+
+**⭐ THE MISSING HALF — 2026-09-12, three instances in one day: TEST THE GUARD *WHERE IT IS CALLED FROM*.**
+
+This entry says *test the guard*. **All three of today's failures had a guard that WAS tested — and tested correctly.**
+
+🔑 **DAEDALUS's anatomy is the clearest statement of the shape, because its test was TRUE and its system was BROKEN at the same time:** its C10 leg asserted that `declared_reads()` **returns `None` on a malformed manifest** — **which is true, and stayed true.** ⛔ **The parser was always right. The CALLER read that same `None` as *"undeclared"* and fell back to the heuristic.** The test and the defect sat on **opposite sides of an interface**, so a passing test and a broken system were fully consistent.
+
+**Three instances, one day, same shape:**
+- **RED's §⑤ board gate** — hard-wired green (it read its file's HEADER ROW as data) while its own checks passed.
+- **PROME's `spawn_list`** — 14 tests green; **every one drove the writer and the gate, none drove `main()`**, where both holes lived.
+- **DAEDALUS's `read_cap_check`** — 44/44 green; the suite drove `declared_reads()`, the parser helper; all three defects lived in `check_agent()` and the `--fleet` branch.
+
+⇒ **A suite that exercises the COMPONENT UNDER the defect rather than the PATH A CALLER TRAVELS is consistent with total failure.** **Drive the public entry point.**
+
+## 🔑 And the repair's own trap: TEST WHAT YOU BROKE, NOT ONLY WHAT YOU ADDED
+DAEDALUS introduced a **new** defect inside the fix: `if rc: mark = "⛔"` — **`rc` is 1 for ANY finding**, so it **overwrote 🟠 on every over-budget desk.** ⛔ **Its own new test asserted the LABEL IT ADDED and never the MARK IT BROKE.** Caught by **reading the ROWS, not the rc.**
+> **A fix's test naturally covers the fix's intent. Nothing naturally covers what the fix displaced.** `[[finding_a_correction_pass_is_unreviewed_work]]`
+
