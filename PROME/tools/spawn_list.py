@@ -104,10 +104,18 @@ class Liveness:
             if self.until:
                 cmd.append(f"--until={self.until}")
             hit = None
-            for line in subprocess.run(cmd, capture_output=True, text=True).stdout.split("\n"):
-                parts = line.split("\t", 2)
-                if len(parts) == 3 and pat.match(parts[2]):
-                    hit = (parts[0], parts[1]); break
+            r = subprocess.run(cmd, capture_output=True, text=True)
+            if r.returncode != 0:
+                # FAIL CLOSED. An unread returncode made a failed `git log` indistinguishable from
+                # "no commits", and DARK at a due row IS the WQ-184 Tier-1 spawn trigger — so a git
+                # failure authorised spawning every owner. Realistic trigger: index.lock contention
+                # on the shared .git while several desks commit. (DAEDALUS, L294 sweep, 2026-09-12.)
+                hit = ("!ERR", (r.stderr or "").strip().split("\n")[0][:120] or f"git log rc={r.returncode}")
+            else:
+                for line in r.stdout.split("\n"):
+                    parts = line.split("\t", 2)
+                    if len(parts) == 3 and pat.match(parts[2]):
+                        hit = (parts[0], parts[1]); break
             self._c[desk] = hit
         return self._c[desk]
 
@@ -118,7 +126,13 @@ def classify(owner, start, due, today, live: Liveness):
         return delta, "PROME-OWNED", "do it, never spawn"
     if owner == "WILL":
         return delta, "WILL-OWNED", "WILL_QUEUE / re-present, never spawn"
+    if owner == "?":
+        # An unparseable owner cell is a PARSE failure, not a liveness verdict. Letting it fall
+        # through would grep for "?", find nothing legitimately, and read DARK — the same fail-open.
+        return delta, "UNKNOWN", "owner cell unparseable — cannot resolve a desk; NOT a spawn candidate"
     lsc = live.last_self_commit(owner)
+    if lsc is not None and lsc[0] == "!ERR":
+        return delta, "UNKNOWN", f"git log FAILED, liveness not established ({lsc[1]}) — NOT a spawn candidate"
     if lsc is None:
         return delta, ("DARK" if delta >= 0 else f"LANDS-IN-{-delta}d"), "no self-commit found in history"
     lsc_date = dt.date.fromisoformat(lsc[0])
@@ -172,25 +186,30 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         scan = (g.get("scannable", "").split(" ")[0] or "unclassed")
         rows.append((f"G:{g['gate_id']}", m.group(0), delta, owner, cls, basis,
                      f"review_by [{scan}] — {re.sub(chr(9), ' ', g.get('condition', ''))[:56]}"))
-    order = {"DARK": 0, "ACTIVE": 1, "PROME-OWNED": 2, "WILL-OWNED": 3}
+    order = {"UNKNOWN": 0, "DARK": 1, "ACTIVE": 2, "PROME-OWNED": 3, "WILL-OWNED": 4}
     rows.sort(key=lambda r: (order.get(r[4], 4), -r[2], r[0]))
     return rows
 
 
 def render(rows, today, horizon_days, tsv: bool) -> int:
-    n = {k: sum(1 for r in rows if r[4] == k) for k in ("DARK", "ACTIVE", "PROME-OWNED", "WILL-OWNED")}
+    n = {k: sum(1 for r in rows if r[4] == k) for k in ("UNKNOWN", "DARK", "ACTIVE", "PROME-OWNED", "WILL-OWNED")}
     lands = sum(1 for r in rows if r[4].startswith("LANDS"))
     print(f"spawn_list · as-of {today} · horizon +{horizon_days}d · {len(rows)} row(s): DARK {n['DARK']} · ACTIVE {n['ACTIVE']} · "
-          f"lands-ahead {lands} · PROME {n['PROME-OWNED']} · WILL {n['WILL-OWNED']}")
+          f"lands-ahead {lands} · PROME {n['PROME-OWNED']} · WILL {n['WILL-OWNED']}"
+          + (f" · \u26d4 UNKNOWN {n['UNKNOWN']} (liveness NOT established — never a spawn)" if n["UNKNOWN"] else ""))
     print("key\tdue\tΔd\towner\tclass\tbasis\tcatalyst")
     for r in rows:
         line = "\t".join(str(x) for x in r)
-        print(("⚠️ " if r[4] == "DARK" else "") + line)
+        print(("\u26d4 " if r[4] == "UNKNOWN" else "⚠️ " if r[4] == "DARK" else "") + line)
     if not tsv:
         print(f"\nREAD (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); "
               f"cap {CAP_PER_BOOT}/boot, beyond → slate to Will. ACTIVE = read the owner's artifact FIRST — the row may already "
               "be graded (receipt gap). Cadence not modelled (header).")
-    return 1 if n["DARK"] else 0
+    if n["UNKNOWN"]:
+        print(f"\n\u26d4 {n['UNKNOWN']} row(s) UNKNOWN: liveness could not be established (failed git log, or an "
+              "unparseable owner cell). \u26d4 NEVER spawn on UNKNOWN \u2014 fix the read, then re-run. A failed check is "
+              "not evidence a desk is dark.")
+    return 2 if n["UNKNOWN"] else (1 if n["DARK"] else 0)
 
 
 def selftest() -> int:
