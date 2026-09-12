@@ -291,6 +291,55 @@ class MainPathCase(unittest.TestCase):
         self.run_main("--no-snapshot")
         self.assertFalse(Path(fleet_dashboard.BUILD_PATH).exists(), "A7: preview records nothing")
 
+    # ---- the hole the FIRST correction missed: failure AFTER build() -------
+    def test_output_write_failure_still_records_a_failed_build(self):
+        """Reproduced 2026-09-11 against c6889828f: build() returned errors, the
+        HTML write then raised (missing -o directory), the except-handler wrapped
+        only build() so it never ran, the previous ok:true receipt survived and
+        the gate PASSED. An except-handler is scoped to what it wraps."""
+        self.seed_clean_receipt()
+        self.set_build(errors=["each HEARTBEAT amendment needs one reviewed dashboard projection"])
+        sys.argv = ["fleet_dashboard.py", "-o", str(self.root / "no_such_dir" / "out.html")]
+        import io
+        from contextlib import redirect_stdout, redirect_stderr
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            with self.assertRaises(OSError):
+                fleet_dashboard.main()
+        self.assertFalse(self.receipt()["ok"],
+                         "a run that could not produce its outputs left an ok:true receipt")
+
+    def test_receipt_is_failed_before_any_work_happens(self):
+        """Fail-closed by default: the record says not-completed from the first
+        moment, so a process KILL — which no except-handler can catch — also
+        leaves the gate blocking rather than certifying the old snapshot."""
+        self.seed_clean_receipt()
+        seen = {}
+
+        def spy(today, built, sessions_json=None):
+            seen["receipt_during_build"] = self.receipt()
+            raise KeyboardInterrupt("operator killed the run")
+        fleet_dashboard.build = spy
+        sys.argv = ["fleet_dashboard.py", "-o", str(self.root / "out.html")]
+        import io
+        from contextlib import redirect_stdout, redirect_stderr
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            with self.assertRaises(KeyboardInterrupt):
+                fleet_dashboard.main()
+        self.assertFalse(seen["receipt_during_build"]["ok"],
+                         "the receipt must already read ok:false while the build is still running")
+
+    def test_preview_writes_no_receipt_even_when_output_write_fails(self):
+        """A7 holds on the new pre-write path: a preview still asserts nothing."""
+        self.set_build()
+        sys.argv = ["fleet_dashboard.py", "--no-snapshot",
+                    "-o", str(self.root / "no_such_dir" / "out.html")]
+        import io
+        from contextlib import redirect_stdout, redirect_stderr
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            with self.assertRaises(OSError):
+                fleet_dashboard.main()
+        self.assertFalse(Path(fleet_dashboard.BUILD_PATH).exists())
+
     # ---- ordinary: the success path through main() -------------------------
     def test_clean_build_writes_both_files_with_the_same_stamp(self):
         self.set_build()

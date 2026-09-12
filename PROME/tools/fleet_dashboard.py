@@ -1313,22 +1313,31 @@ def main():
     args = ap.parse_args()
     now = dt.datetime.now(ZoneInfo("America/New_York"))
     built = now.strftime("%Y-%m-%d %H:%M")
+    # L339 ❌1, second correction: record STARTED-NOT-COMPLETED *before* doing
+    # any work, then record the real outcome only once every required output is
+    # finished. An except-handler alone is too narrow twice over -- it covered
+    # build() but not the HTML write after it (reproduced: an -o into a missing
+    # directory raised, the handler never ran, the previous ok:true receipt
+    # survived and the gate passed), and no handler can cover a process kill.
+    # Fail-closed by default is the only shape that covers both.
+    if not args.no_snapshot:
+        write_build_receipt(built, ["build did not complete (run started, no outcome recorded)"])
     try:
         html_out, snap = build(now.date(), built, args.sessions_json)
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(html_out)
     except BaseException as exc:
-        # L339 ❌1 (independent read): build() collects SOME failures into
-        # heartbeat_errors/attention_errors, but an unguarded read() or a bad
-        # DOCKET date raises instead. A raise used to skip the receipt entirely,
-        # leaving the PREVIOUS run's ok:true in place -- so the gate certified a
-        # stale snapshot by name. A run that started and did not finish is a
-        # failed build, and must record itself as one.
+        # Best-effort detail over the started-not-completed record already on
+        # disk. If THIS write also fails, the generic record stands and the gate
+        # still blocks -- which is the point.
         if not args.no_snapshot:
-            write_build_receipt(built, [f"build did not complete: {type(exc).__name__}: {exc}"])
+            try:
+                write_build_receipt(built, [f"build did not complete: {type(exc).__name__}: {exc}"])
+            except OSError:
+                pass
         print(f"BUILD CRASHED -- {os.path.relpath(STATE_PATH, REPO)} NOT updated.",
               file=sys.stderr)
         raise
-    with open(args.out, "w", encoding="utf-8") as f:
-        f.write(html_out)
     errors = list(snap["heartbeat_errors"]) + list(snap.get("attention_errors") or [])
     if errors:
         # L339 A2 / ❌3: the error list reaches the operator on ANY failing run,
