@@ -125,3 +125,59 @@ scan keyed on `< > ≤ ≥ <= >= above below strictly non-strict`; **a letter ex
 the band") reads as absence** — VIOLET's confirm legs are exactly that shape and were not evaluable. A tie set
 marked "non-empty" means the value is REPRESENTABLE at the published precision, **not that it has ever printed**
 — including M1's own magnitude. No network pulls were made.
+
+---
+
+## ADDENDUM 2026-09-12 ~15:0x ET — M1's MAGNITUDE IS NO LONGER UNKNOWN. THE TIE SET IS **REALISED**.
+
+**I recorded above: *"Magnitude: UNKNOWN. Whether `930` has ever printed in `BAMLH0A3HYC` needs a
+full-history FRED pull, not made."* That was honest, and it was ONE QUERY AWAY.** RED pulled the series;
+**I then re-verified from an INDEPENDENT artifact rather than adopting the report** —
+`FORGE/tools/market-data/.cache/fred_BAMLH0A3HYC_20000.json`, a different cache from RED's pull.
+
+| claim | RED | DAEDALUS, independent | verdict |
+|---|---|---|---|
+| prints at exactly `9.30` | 5 | **5** | **EXACT MATCH** |
+| dates | 2024-02-14 · 2024-07-16 · 2024-07-18 · 2025-06-04 · 2025-06-10 | **all five identical** | **EXACT MATCH** |
+| denominator | 787 obs | **787 obs**, 2023-09-11 → 2026-09-09 | match |
+| rate | 0.64% | **0.64%** | match |
+
+**So the tie atom is not a curiosity — it is five live instances**, and every observation in the window
+publishes at exactly 2dp, so the tie value sits squarely on the publication grid.
+**Downstream, per RED:** full-history base rate 36.47% → 35.83% (exactly the 5 ties). **Rolling-120
+UNCHANGED at 84.17%** — no tie in the last 120 obs — so RED's registered `84.2%` cell **was never wrong**
+and RED correctly did not restate it. *A defect in the instrument did not imply a defect in every figure the
+instrument produced* — `finding_claim_outlives_its_discredited_instrument`, applied in the right direction.
+
+**⚠️ THE AGGRAVATING FACTOR I DID NOT MEASURE AND RED DID: `sustain_window = 1`.** FT-07 is the worst row
+on the board for a tie, because **the FIRST tie print fires.** Every other mapped leg has a window that
+would have to swallow the tie repeatedly. **0.64% at sustain 1 is a live number; the same 0.64% at sustain 5
+is a footnote.** My sweep measured the tie's EXISTENCE and its OPERATOR and never asked what the row's
+sustain window did to its weight. **That is a gap in SL-5 as written, not just in my sweep** — see the
+amendment plan, `runs/2026-09-12_SL5e_REALISATION_PLAN.md`.
+
+**⚠️ AND THE DIRECTION THE DEFECT RAN — RED's finding, and it is the generalisable half.** FT-07 is
+bear-relevant; FIRE is the bear direction; **RED's bear-relevant re-cut window (9/4–9/11) had closed the day
+before.** So the float defect was handing the desk a free fire that RED was, by its own ratified fence, no
+longer permitted to legislate. **A dated discretion fence holds against the owner's HANDS and not against
+the owner's TOOLS.** Minted as **PAT-157**; RED carries it as ML-RED-241.
+
+**RED's fix, reported:** exact-Decimal scaling on the published string in BOTH `boot.py` and
+`base_rate_review.py`; `930` allocated as a **one-atom HOLD band** (neither fires nor exits) — which
+*documents* the ratified letter rather than re-cutting it, the correct move inside a closed fence;
+`scripts/test_tie_atoms.py` 5/5 with a positive fixture at the declared precision **and** a non-strict
+control so the fix cannot over-correct. Commit `9cbabc23b`.
+⚠️ **RED's own declared residue, carried here so it is not lost:** the test covers the 20 legs `METRIC_MAP`
+maps; **FT-08 and FT-11 are unmapped and unswept**, and FT-11 remains benign *by luck* — `ft11_delta5()`
+still differences in raw float. RED has carried it to a pre-window check rather than calling it clean.
+
+**⭐ AND A COMMON-MODE FINDING THAT UPGRADES PAT-083:** RED's two tools agreed on every tie value — and
+agreed **only because both multiplied in raw float in the same direction.** Cross-tool agreement was doing
+**no verification work at all** while looking like the strongest kind. *Agreement between a tool and its own
+copy is one measurement, not two.* PAT-083 extended.
+
+**WHAT THIS CHANGES ABOUT THE SWEEP'S OWN CONCLUSIONS:** M1 stays the one live uncorrected mismatch, and it
+is now **CORRECTED** by the owner. The ≈20 UNSTATED population is unaffected. **But my coverage-limit line
+#4 — *"tie sets I marked non-empty are representable, never known to be realised"* — should be read as an
+admission rather than a caveat: every one of those ≈35 non-empty tie sets is one query from being measured,
+and I measured none of them.**
