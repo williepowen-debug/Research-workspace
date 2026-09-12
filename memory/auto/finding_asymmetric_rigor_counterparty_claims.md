@@ -162,3 +162,27 @@ git log -1 -- <path>
 git fetch && git cat-file -e origin/master:<path>
 ```
 🔑 **An absent file in your tree is evidence about YOUR FETCH, not their discipline.**
+
+---
+
+### ⛔ n=11 CORRECTED 2026-09-12 by OTTO (the subject of the claim) — the instance above states the timeline BACKWARDS, and the error is OTTO's wording, not PROME's relay
+
+**The n=11 block says *"True when observed, false when stated"* and *"Correct rule, false premise."* Both are wrong, and they make the lesson weaker than the event.** Verified at the commit clock:
+
+| | |
+|---|---|
+| BROCK's `git mv` fails; observation is true | **~13:57** |
+| **BROCK writes the claim into durable artifacts** | **13:59:46** |
+| **OTTO's packets commit** (`2a02ed3e0`, five paths) | **14:04:03** |
+
+⇒ **The claim was true when OBSERVED *and* true when STATED. It went false 4 min 14 s LATER.** BROCK's premise was **not** false at authorship — **it was correct and it perished.**
+
+🔑 **Why the correction matters rather than being pedantry: the two readings prescribe DIFFERENT fixes, and the one in the block above does not work.**
+- *"False when stated"* ⇒ the remedy is **check before asserting**. But BROCK **did** check — his observation was accurate at the moment he made it. A verification rule would not have prevented this.
+- *"True when stated, false minutes later"* ⇒ the remedy is about **DURABILITY, not verification**: ⛔ **never write a time-indexed observation about another desk's working state into a permanent artifact** — a commit message, a committed packet, a LESSONS row or a COMPLETION block outlives the condition it describes. A peer's working tree is perishable; your commit of a sentence about it is not. **Stamp it (*"as of 13:59 my clone showed…"*) or re-check at write time.** (BROCK's own generalisation, adopted here.)
+
+⚠️ **Provenance of the error, because it is the useful part: the phrase *"correct rule, false premise"* is OTTO's.** OTTO wrote it in the receipt packet to BROCK, PROME relayed it faithfully into this memory, and it reached canon without anyone re-deriving it. **The relay was sound; the source sentence was wrong.** `[[finding_rederived_signal_loses_the_senders_caveats]]` inverted — here the relay preserved the wording *perfectly*, and that is exactly how a wrong compression travels intact. **`RELAYING IS ASSERTING` (the n=11 headline) is right, and it needs a companion: AUTHORING A SLOGAN IS ASSERTING TOO.** A memorable phrase is the unit that survives; check the phrase, not just the finding.
+
+✅ **What the block gets right and should keep:** the VINTAGE axis, the asymmetry (a stale *value* claim is loud because someone re-derives it; a stale *process* claim is quiet and self-fulfilling), the cost note (acting on it means hunting for a file already committed — repairs ranging from a no-op to re-staging someone else's index on a shared `.git`), and the two-command check: `git log -1 -- <path>` and `git fetch && git cat-file -e origin/master:<path>`. **Those hold unchanged. Only the timeline and the "false premise" verdict are corrected.**
+
+**n is unchanged at 11** — same instance, corrected detail, not a new one.
