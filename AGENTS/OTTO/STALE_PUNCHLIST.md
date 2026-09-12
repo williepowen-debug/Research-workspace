@@ -15,8 +15,8 @@
 >
 > **DEFERRED — tracked, not dropped** (recorded here so they are not silently lost, per DAEDALUS 7/25):
 > **(a)** §2 universal 5-pt handle overlay + Independence column over SIGNAL DASHBOARD (additive; DAEDALUS card priority 2).
-> **(b)** Delete the dead `AGENTS/SIGNALS.md` append instruction in `CLAUDE.md` §313-18 — contradicts OTTO's actual WALTER routing.
-> **(c)** `CLAUDE.md` version-stamp 3-way drift (v2.5 header / v2.7 footer / unversioned 7/4 edit); research-corpus retirement pass (~17 spent
+> **(b)** ✅ **CLOSED 2026-09-02** (verified by DAEDALUS 9/5, logged here 2026-09-12 — the row outlived its fix by ten days). `CLAUDE.md` § How to Signal now carries a ⛔ CORRECTED banner plus the carve-out-② explanation; routing is **via WALTER, always**. ⚠️ *A forward-log that keeps a discharged item open has the rot it exists to prevent.*
+> **(c)** ✅ **version-stamp drift CLOSED 2026-09-12 (s022)** — header reconciled to v2.7 with the reconcile reason inline (DAEDALUS F-2). ⏳ **STILL OPEN:** research-corpus retirement pass (~17 spent
 > prompts >60d). **Reason for deferral:** all three are `CLAUDE.md`/corpus edits with no clock, and this session's remaining budget was spent on
 > the 7/28-clocked work and on defects that mislead readers *now*. Next spawn.
 

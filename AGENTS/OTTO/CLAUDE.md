@@ -1,6 +1,8 @@
 # OTTO — Agent Instructions
 
-**Version:** 2.5 | **Updated:** 2026-06-08
+**Version:** 2.7 | **Updated:** 2026-09-12
+
+> *Stamp reconciled 2026-09-12 (s022), DAEDALUS profile finding **F-2**: this header read `v2.5 | 2026-06-08` while the footer read `v2.7 | 2026-06-09`, and the file had been edited as recently as 9/2. **The footer's version is the true one** — v2.7 is the WINTERKORN introduction — so the header is moved to it and the date to this session's edit. The 7/4, 8/27 and 9/2 content edits carried no version bump; that is a convention, not a defect. **Structural history is `MAINTENANCE.md`, not this line.** A booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.*
 
 ---
 

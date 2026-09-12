@@ -131,6 +131,15 @@ purpose: root rule #4 says never cite a price from a STATUS file — fetch live.
 
 ## 3. CRITICAL TIMELINE — swept / resolved / retired rows (verbatim)
 
+**Swept 2026-09-12 (s022) — the CRMT 9/7 cluster and the Tricolor 9/4 rung. All five resolved; outcomes in the s022 pointer and in `research/outputs/RP-OTT-5.1_GRADE_CRMT_LETTERS_1_AND_2.md`. ⛔ The 9/7 Scheduled Termination Date was NEVER REACHED — extended to 9/11 then to 9/18.**
+
+| **Sep 4 (Fri)** | 🔴 **CRMT — weekly LIQUIDITY TEST, last business day before the standstill expires** | 🟠 `confirmed` **LETTER PRE-REGISTERED 9/2 — bands below.** ⚠️ **Not filed** — delivered privately to the Agent, never reaches EDGAR. Observable only via an Item 1.01/2.04 8-K, a halt, or the tape |
+| **Sep 7 (Mon, Labor Day)** | 🔴 **CRMT — Silver Point standstill SCHEDULED TERMINATION; three levers arm at once** | 🔴 `confirmed` **LETTER PRE-REGISTERED 9/2 — bands below.** Live business days are **Fri 9/4** and **Tue 9/8** |
+| **~Sep 9** | **CRMT Q1 FY2027 10-Q — the first FILED observable** | 🟠 `modeled` **Lands AFTER the decision it would have to forecast.** Prior-year Q1 filings: 9/9, 9/16, 9/8, 9/2 ⇒ early-to-mid Sept |
+| **~Sep 10** | **CARL grades V2 (Subprime Auto 60+, currently 4) — CONSUMES OTTO's panel** | 🟢 **UNBLOCKED 9/2** — `collection_period` landed 137/137; leg table registerable. **One ASK open back to CARL: which seasoning basis** |
+| ~~**Sep 4**~~ | Tricolor criminal — **privilege chain FIRST OBSERVABLE OUTPUT** (was re-keyed 8/7 → 9/4) | ✅ **RETIRED 9/2 — FIRED EARLY, on 8/7 and 8/14, INSIDE the window OTTO re-keyed forward because it believed nothing had landed.** `[PRESS Inner City Press 2026-08-07 / 2026-08-14]` Castel ordered the itemized **privilege log by 8/7**; government to select **20 exemplars for in camera review by 8/14**; **8/14 — Chu's motion to dismiss DENIED**, bill of particulars granted in part (exhaustive securitization list for Counts 7-8 owed within 14 days ⇒ **~8/28, UNVERIFIED**). **Nothing found 8/15 → 9/2** (SEARCH-NOT-FOUND). ⇒ **Ladder 8/7 → 9/4 CLOSED. Re-dated to Dec 4 (Goodgame sentencing) / Dec 9 (FPTC) as the next docketed observables.** `[[finding_dated_carry_item_has_no_expiry_check]]` |
+
+
 | Date | Event | Status |
 |------|-------|--------|
 | *Mar-Jun* | *20 resolved rows archived (Tricolor auctions, First Brands Apr-9 conversions / May-20 DS denial / Jun-12 DS approval, CVNA May-5 vote, NY Fed Q1, Jun-17 §341, OTTO-05/-28 resolves)* | ✅ → [`workbook/STATUS_archive_20260725.md`](workbook/STATUS_archive_20260725.md) |
@@ -209,3 +218,25 @@ purpose: root rule #4 says never cite a price from a STATUS file — fetch live.
 
 *Older dated check-in blocks live in `workbook/STATUS_archive_*.md` — this file is the s021 hot/cold
 split, not an archive. Archives are frozen; this file is maintained alongside `STATUS.md`.*
+
+---
+
+## 7. Session 021 boot pointer (Sep 2) — verbatim, rotated out of hot STATUS 2026-09-12 (s022)
+
+> ⛔ **ONE CLAIM IN THIS BLOCK IS REFUTED AND IS FLAGGED RATHER THAN EDITED.** The bullet reading
+> *"`months_seasoned` is issuer-stated MINUS ONE, **uniform on 7 of 7 disclosing deals**"* is **WRONG on the word
+> *uniform***. Measured at the exhibits 2026-09-12: the offset is **−1 on ordinary rows and 0 at the two
+> double-filing dates** (filed 2025-12-01 → collection 2025-10; filed 2026-03-03 → collection 2026-01), so the
+> panel's seasoning series is **non-monotone within a deal** (EART 2022-2: 41·43·43·44·46·46 against the issuer's
+> clean 42·43·44·45·46·47). The rest of the block stands. **Rotated verbatim with the refutation attached, not
+> silently corrected** — a block moved to the cold half is exactly where a wrong claim goes quiet.
+
+> **📌 Session 021 (Sep 2 eve — PROME-spawned; the 9/9 deliverable landed 7 days early and the read-cap breach is fixed).**
+> - **✅ `collection_period` LANDED on `workbook/PANEL_10D.tsv` — 137 of 137 rows, zero blanks, zero inferred.** DOCKET **L246 / WQ-107** discharged. Read off each row's own servicer-report exhibit, keyed on the **row LABEL, never a `{tag}` number** (CARL 9/1 §3: tag numbering is unstable across shelves AND across months on the same deal). **No fallback to filing-month−1**: an unreadable period is written EMPTY with the reason in `parse_misses`. Packet to CARL committed `62f658566`.
+> - **🔴 30 OF 30 matched-collection-month deal-months WORSE YoY. Zero improving. All three tiers — and it now reproduces on OTTO's OWN ledger.** Pulled the EART July print (133 → 137 rows), closing the coverage gap CARL had been filling by hand; OTTO's four July deep figures (**14.33 / 13.44 / 12.04 / 10.48**) match CARL's independent pull to the cent. **The corrected basis changes NOTHING**: BROAD **+1.92pp → +1.63pp → +1.00pp** and DEEP **+2.29pp → +1.85pp → +1.21pp** both reproduce exactly.
+> - **⭐ What the retired inference actually got wrong: 8 rows, 8 same-deal collisions, 9 series gaps → 0 / 0 / 1 on the disclosed period.** All 8 are Exeter DEEP at the two double-filing dates (filed 2026-03-03 → **2026-01** not 2026-02; filed 2025-12-01 → **2025-10** not 2025-11) — the inference was off by **TWO** months, not one. **ZERO land in the six collection months the YoY table uses**, so the 8/27 claim *"none land in the months reported, so the 26-of-26 stands"* is now **VERIFIED at the artifact**, not asserted.
+> - **⚠️ A seam found and NOT silently fixed: OTTO's `months_seasoned` is issuer-stated MINUS ONE, uniform on 7 of 7 disclosing deals** (OTTO counts the first 10-D as month 0; the issuer counts it as month 1). **Not shifted eight days before CARL's grade sitting** — Bridgecrest does not disclose the field, so adopting issuer-stated everywhere would MIX BASES across the panel, which is worse than a uniform named offset. CARL picks. `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]`
+> - **🔴 The 9/4 Tricolor rung ALREADY FIRED — on 8/7 and 8/14, and OTTO did not see it.** The privilege chain produced its first observable output **inside the window OTTO had re-keyed to 9/4**: privilege log ordered submitted **8/7**, government to select **20 exemplars for in camera review by 8/14**, and on **8/14 Chu's motion to dismiss was DENIED** with the bill of particulars granted in part. **The re-keyed 9/4 date was already stale when it was written.** `[PRESS Inner City Press 2026-08-07 / 2026-08-14]`
+> - **🔴 CRMT is trading like a lapse, not an extension — $2.23, −27.6% in two weeks, and the filing record is SILENT.** Zero CRMT filings of any type after **2026-08-14**; no 8-K, no waiver extension, no financing or sale commitment, no going-concern update, no NASDAQ notice `[VERIFIED SEC EDGAR CIK 0000799850, pulled 2026-09-02]`. Pre-registered letters for **9/4** and **9/7** below.
+> - **📐 READ-CAP breach FIXED.** `STATUS.md` was **69,591 B = 214% of the 32,550 B cap** — a boot Read was returning a PARTIAL FILE with no error. Verbatim hot/cold split executed tonight, pointers both ways → **`STATUS_COLD.md`**. **Inbox 15 → 0**, both lanes.
+>
