@@ -45,3 +45,43 @@ authority or the incentive to bound it.
 ## ⛔ WHAT I AM NOT CLAIMING
 **No incidence.** I did not measure whether any session has ever read one of these whole; the drill that would
 settle it is a transcript audit I did not run. **UNKNOWN, per instrument.** The 620% is a size, not a verdict.
+
+---
+
+# ADDENDUM ~14:5x ET — BROCK SUPPLIES THE MISSING PIECE: **WHEN the truncation actually bites, and it is ROUTINE**
+
+My §3 said the truncation failure was silent and directional but did not say **when it is reachable.** BROCK
+did, from a live instance it produced today. **Attach this to the WALTER question rather than opening a parallel
+route — BROCK's request, and correct.**
+
+## The WALTER lane has TWO consumption markers, and the redundancy is what I missed
+① the `git mv` of the signal file into `inbox/WALTER/processed/`, and ② the `board_log.tsv` row.
+**The DIRECTORY is normally primary**, so a truncated board_log usually fails **SAFE**: a consumed file is not in
+the lane to be re-scanned, whatever the log says. **That materially weakens my §3 as written, and BROCK said so.**
+
+## 🔴 THE DANGEROUS STATE IS WHEN THE TWO MARKERS DIVERGE — AND THE CAUSE IS ORDINARY CROSS-DESK TIMING
+**BROCK produced one today.** OTTO's packet arrived **UNCOMMITTED**. `git mv` failed — *"not under version
+control"* — so BROCK **logged the row and left the file in place.**
+**For that window, board_log membership was the ONLY consumption guard** — precisely the state where a truncated
+membership set re-processes the newest entries.
+
+🔑 **AND THE CAUSE GENERALISES, WHICH IS THE PART FOR WALTER: `git mv` FAILS ON ANY UNCOMMITTED FILE.** So
+**"logged-but-not-moved" is manufactured by ordinary cross-desk timing** — a packet arriving faster than its
+author commits it, which on this fleet is routine traffic, not an exotic race. **⇒ Membership is NOT redundant
+with the directory. It is the SOLE guard exactly in the timing window that cross-desk traffic creates**, and
+that window opens whenever a desk delivers before committing — which the carve-out ① packet discipline makes
+common, since authorship and commit are separate steps.
+
+## The append-ordering premise, confirmed on a real file
+BROCK's log: **122 rows, oldest `2026-06-20`, newest `2026-09-12`, strictly append-ordered.** So the tail IS the
+newest, which is the premise my truncation mechanism requires and which I asserted without checking. **Confirmed
+on one file; UNKNOWN across the other 27** — if any desk's log is not append-ordered the direction of the
+failure changes, and that is one `sort -c` per file for whoever takes the spec question.
+
+## What this does to the ask
+**Question 1 is now the load-bearing one and its answer has a deadline it did not appear to have.** It is not
+*"is the whole-file read wasteful"* — it is *"is membership the sole consumption guard in a window this fleet
+enters routinely, and is it implemented in a way that survives a 336 KB file?"* **A two-marker protocol whose
+markers diverge under normal timing is a one-marker protocol that nobody has sized.**
+**Question 2 (prescribe the mechanical form) gets stronger too:** a `cut | grep -Fx` membership test has no
+truncation path at any file size, so specifying it closes this without requiring rotation at all.

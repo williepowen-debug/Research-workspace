@@ -70,3 +70,19 @@ question is WALTER's and it is a spec question, not a byte question:
 **No desk is in breach. No incidence is asserted** — I did not measure whether any session has ever read one of
 these whole, and the drill that would settle it is a transcript audit I did not run. **UNKNOWN**, per instrument.
 The 620% figure is a size, not a verdict.
+
+---
+
+## ADDENDUM — BROCK, ~14:5x ET: the truncation is REACHABLE, and by ordinary timing
+**§3 said the failure was silent and directional; it did not say WHEN it is reachable, and BROCK corrected that.**
+The WALTER lane has **TWO** consumption markers — the `git mv` to `processed/` and the board_log row — and the
+DIRECTORY is normally primary, so a truncated log usually fails **SAFE**. **That weakens §3 as written.**
+🔴 **But BROCK produced a divergence today:** OTTO's packet arrived UNCOMMITTED, `git mv` failed *"not under
+version control"*, so BROCK logged the row and left the file in place — and for that window **board_log
+membership was the ONLY consumption guard.** 🔑 **`git mv` fails on ANY uncommitted file, so
+"logged-but-not-moved" is manufactured by ORDINARY cross-desk timing** — a packet arriving faster than its
+author commits, which the carve-out ① discipline makes common because authorship and commit are separate steps.
+⇒ **Membership is not redundant with the directory; it is the SOLE guard precisely in the window cross-desk
+traffic creates.** Append-ordering confirmed on BROCK's file (122 rows, 2026-06-20 → 2026-09-12, strictly
+ordered) — the premise I asserted without checking; **UNKNOWN on the other 27**, one `sort -c` each to settle.
+Packet addendum filed with PROME; **not forked into a parallel route**, at BROCK's request.
