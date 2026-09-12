@@ -1,6 +1,6 @@
-# L337 — STATUS RE-BASE: adoption package (PROPOSED, awaiting Will's word)
+# L337 — STATUS RE-BASE — **RULED and INSTALLED** (`ab2925504`, closeout rule corrected `1aa405df7`)
 **Created:** 2026-09-11 22:3x ET · **Owner:** PROME · **Routing:** L337 = *PROME runs + proposes / Will evaluates / CODEX external review*. L337 scoped the pass **read-only, no production changes**; this package is therefore staged, not installed.
-**Why it is not self-adopted:** `[[finding_relayed_recommendation_is_not_an_approval]]` — the external reviewer's "close enough to finish" is a recommendation relayed through Will, not Will's own word, and the row routes the decision to him.
+**Why it was not self-adopted before the word:** `[[finding_relayed_recommendation_is_not_an_approval]]` — the external reviewer's "close enough to finish" is a recommendation relayed through Will, not Will's own word, and the row routes the decision to him.
 
 ## The change
 `PROME/STATUS.md` is re-based to **current state only**; session history moves **verbatim** to `PROME/archive/STATUS_HISTORY.md`. Lossless: 0 of 66 source lines unrecoverable across the pair.
@@ -8,7 +8,7 @@
 **STATUS keeps:** a scoped queue of selected PROME operational priorities (7 rows: action · canonical record · verified state, each with an actor, a trigger and a done-condition) · owner lanes (so other desks' standing instructions survive without reading as PROME work) · restrictions in three groups · live surfaces · the spine-audit date · one completion-evidence note.
 **The archive takes:** six session recaps · the prior `Updated:` stamp chain · rotation inventories · spine-audit findings · ownership provenance · the Rules-of-Engagement originals verbatim.
 
-## Files staged (session scratchpad, nothing installed)
+## Files as installed
 | Stage → | Path |
 |---|---|
 | `PROME/STATUS.md` | `…/l337/restructure/STATUS.v4.md` — 9,448 B |

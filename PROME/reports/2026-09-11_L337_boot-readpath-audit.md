@@ -63,7 +63,7 @@ BOOT.md's bounded-reads paragraph says to follow `next_offset` until `eof: true`
 | `HEARTBEAT.md` | 27,999 | 5 | 29,143 |
 | **state total** | | | **117,567** |
 
-**Boot as written, to eof: 206,134 B. Boot's FIRST PASS tonight: 131,599 B.** ⚠️ **Revised twice. The gap is a MISS, not a licensed shortfall, and not "partly" either (CODEX).** The *"selected sections"* clause permits skipping sections a step does not send you to; it does not permit stopping before the ones it does. The first pass stopped before the operator card, the work queue, the decision rows and the Stress dashboard — all named by their steps. There is no reading on which that is compliant. **This session's boot, once completed, is the 206,134 B figure.** Reported because *any* claim about "how much work a boot is" is meaningless without saying which is being counted. The prior session's carried ~168 KB figure sits between them; it is not reproduced here and is not adopted.
+**Boot as written, to eof: 206,134 B** — ⚠️ this figure covers injected canon + procedure + the six state surfaces + the gate as consumed; it EXCLUDES the 1,353 B WALTER §WILL_NEEDS read that §1a does include, so the two totals are not the same perimeter (207,487 B on the matched one). ** Boot's FIRST PASS tonight: 131,599 B.** ⚠️ **Revised twice. The gap is a MISS, not a licensed shortfall, and not "partly" either (CODEX).** The *"selected sections"* clause permits skipping sections a step does not send you to; it does not permit stopping before the ones it does. The first pass stopped before the operator card, the work queue, the decision rows and the Stress dashboard — all named by their steps. There is no reading on which that is compliant. **This session's boot, once completed, is the 206,134 B figure.** Reported because *any* claim about "how much work a boot is" is meaningless without saying which is being counted. The prior session's carried ~168 KB figure sits between them; it is not reproduced here and is not adopted.
 
 ### 1c. Observed timing
 
@@ -246,7 +246,7 @@ Restatement counts: SCRATCH 52 mentions / 36 distinct · daily memory 79 / 39 ·
 1. **I converted a green gate into a resolution.** "COT-35B ✅ cleared — the risk did not materialise" was an inference from a check that structurally could not fire today, against a row whose `last_checked` shows the grade never arrived. Corrected in §7. The compounding detail matters more than the error: **the surface that would have contradicted me (SCRATCH p4) was in a page my own boot had skipped.**
 2. **I reported "Boot complete" over a census that recorded partial reads on five of six surfaces** — the report contradicted its own opening line. §1e is the correction, and the completed reads are now in the session.
 3. **I labelled reconstructed measurements as delivered.** §1a's byte table came from re-running the read commands, not from the session record. Re-labelled RECONSTRUCTED; the distinction now appears in §0.
-4. **I booked the proposal's savings against an execution that was already incomplete.** §4 now carries both baselines: −4,833 B against what was practised, **−43,590 B against what is prescribed**, with the note that the first comparison is unsound alone.
+4. **I booked the proposal's savings against an execution that was already incomplete.** §4 now reports **−21,251 B against the compliant read, with follow-on reads included**; the earlier −4,833 / −43,590 pair is SUPERSEDED and must not be quoted (§4 lists both as retired).
 
 **Four more found by CODEX on the revised draft:**
 
