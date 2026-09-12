@@ -49,7 +49,7 @@ This companion keeps render metadata outside the boot-read byte budget.
   "amendment": 2,
   "source_sha256": "4aa5a45938eef950b02f743f9e6d29de2139785d19f2ea690c433143c632e4d0",
   "set": {
-    "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. ⛔ Attribution, damage location and barrels all remain unestablished. BRENT has NOT re-graded BG-02 — its packet predates the statement, and a shutdown statement is not a throughput measurement; the ≥0.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
+    "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. ⛔ Attribution, damage location and barrels all remain unestablished. BRENT RE-GRADED BG-02 on 9/12: still NOT MET on four grounds, and it retracted its own “VERIFIED ABSENCE” basis — verdict unchanged, basis moved, and a shutdown statement is not a throughput measurement; the ≥0.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
     "channels": {
       "Energy": {
         "headline": "🔴 Saudi MoE: Petroline SHUT — tell #2 FIRED; barrels unknown",

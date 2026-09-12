@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-12 16:20",
+ "built": "2026-09-12 16:25",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -162,7 +162,7 @@
   "VIX": 17.84,
   "WAL": 78.5
  },
- "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. \u26d4 Attribution, damage location and barrels all remain unestablished. BRENT has NOT re-graded BG-02 \u2014 its packet predates the statement, and a shutdown statement is not a throughput measurement; the \u22650.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
+ "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. \u26d4 Attribution, damage location and barrels all remain unestablished. BRENT RE-GRADED BG-02 on 9/12: still NOT MET on four grounds, and it retracted its own \u201cVERIFIED ABSENCE\u201d basis \u2014 verdict unchanged, basis moved, and a shutdown statement is not a throughput measurement; the \u22650.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
  "pending": [],
  "split": "Break 20 / Grind 47 / Unresolved 33",
  "v": 1
