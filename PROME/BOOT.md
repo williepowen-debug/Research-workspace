@@ -93,6 +93,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 | Position reconciliation | `PROME/ACTIVE_DECISIONS.md`, relevant action cards, `FORGE/STATUS.md` + broker/Will truth (position truth is off-repo) |
 | Git commit patterns (cookbook) | `PROME/GIT_COORDINATION.md` → Commit cookbook — modified/new/mixed pathspec recipes + push/coordination rules |
 | "Works on the other machine, fails here" / missing cred, timer, tool | `PROME/MACHINE_LOCAL.md` — machine-local inventory + switching checklist (Will runs serial multi-machine, desktop ⇄ laptop) |
+| **Is surface X a WHOLE read or instrument-covered?** | **`PROME/registry/READS.tsv` — PROME's own attested read manifest: mode, protocol-mismatch and owed fix per surface.** ⚠ **Added 2026-09-12 because the answer to the GATES whole-vs-grep question was ALREADY RECORDED there and nothing on this boot path pointed at it** — PROME re-derived it by judgment and commissioned a sitting to settle what the registry already said (DAEDALUS, L209). `read_cap_check.py` now consumes this file. |
 | Tool-output / freshness-read defaults | `PROME/SYSTEM.md` → Operating Defaults (compact tool output; mtime/header-first freshness reads) |
 
 ---
