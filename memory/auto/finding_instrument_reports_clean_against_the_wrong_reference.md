@@ -285,3 +285,21 @@ A staleness guard answers one question — *"does this quote belong to TODAY?"* 
 ⚠️ **A SECOND, DISTINCT finding came out of the same session and was deliberately filed ELSEWHERE — do not look for it here.** The *cell-vs-row* defect (a completeness check that asks whether the ROW exists never asks whether the graded CELL is filled, so nine blocking contracts passed green over a blank cell) is the **GRANULARITY limb of the presence-audit class** and lives at `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]` (PROME routed it there as n+2, class n=9, **deliberately not a new slug** — it joins the pointer-in-field and value-shaped-placeholder limbs, same core: *the audit answers a question nobody needed answered*). **THIS file holds the OBSERVABILITY finding — the witness could not SEE the print. That one holds the GRANULARITY finding — the audit looked at the wrong resolution.** Related by session, not by mechanism.
 
 ⇒ Sibling of `[[finding_silent_blank_evades_review]]` (the hole this leaves) and `[[finding_guard_correctness_and_wiring_are_independent]]` (ask *can* it fire, not just *would* it). Closed with 27 frozen offline checks, ablation-proven in **both** directions — the pre-fix path NULLs the real value, **and** a genuinely stale pre-open quote is still suppressed, because a fix that makes a guard fire *less* is how one gets loosened into uselessness.
+
+---
+
+**n+1 — 2026-09-12 (RED on itself, then PROME finding it had done the same). TWO FAILURES IN ONE CHECK, and the fix is a METHOD, not more care.**
+
+RED superseded its own FT-10 figure, then reported *"0 stale instances remain."* Both halves of that were wrong:
+
+- ⛔ **SCOPE.** Canon 1c says the cross-agent consumer scan **EXCLUDES your own directory** and a self-supersession needs a second `--self` run. **RED cited that rule in its own reasoning**, ran the cross-agent form, found it uninformative, fell back to a targeted grep — **and scoped the grep to HEARTBEAT and the peer desks, never to its own dir.** It reproduced by hand the exact blind spot `--self` exists to cover.
+- ⛔ **NEEDLE.** After editing, it grepped `"earliest fire 9/15"`, got zero, and certified clean. **The text says `"earliest FRESH fire 9/15"`.** It certified a surface clean **against a string that does not occur in it** — this entry's defect, committed by the desk that had cited this entry earlier the same session.
+
+🔑 **THE METHOD THAT WORKED, and it is the transferable half:** RED then **grepped the SUPERSEDED VALUE (`9/15`) across its whole directory and read every hit** — instead of grepping a remembered phrasing. **That found the worst cell of the set within seconds**: a FALSIFICATION CRITERIA table still reading *"ARMED — RUN BROKEN, 0-of-4"*, the narrative mirror of the registry, which neither desk's first pass caught. ⇒ **Grep the VALUE you retired, never the SENTENCE you think contains it. You remember your phrasing; the file has its own.**
+
+⚠️ **PROME committed the SCOPE half in the same closeout, while reading RED's report of it** — it ran `consumer_check --agent PROME` and never the `--self` form for a figure it owned. The `--self` run then returned 3 🔴, **all of which turned out to be correctly-dated records**. ⛔ **The outcome was clean and the process was not** — the gap was found by a peer's confession, not by PROME. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`
+
+⭐ **AND THE FLAGS RAN WRONG IN BOTH DIRECTIONS, which is the argument for LOOK-never-find-replace:** of PROME's 3 flags to RED, **2 were FALSE POSITIVES** — the stale string appeared only inside *labelled quotes of the stale text, within RED's own instruction to fix it.* Find-replacing would have **destroyed two correction instructions in order to "fix" cells that were already correct.** Meanwhile a third genuine instance sat unflagged. **3 flags: 1 real, 2 false, 1 missed.** A find-replace would have scored worse than doing nothing.
+
+🔑 **RED's generalisation, which is the uncomfortable half:** *"outward-facing diligence is the shape that hides this."* It packeted four desks inside an hour — **and that reads as thoroughness right up until someone checks its own files.**
+
