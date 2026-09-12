@@ -513,7 +513,23 @@ def check_agent(name, quiet=False, require_manifest=False):
                       f"it notices. Only MOVING text out removes them — rotate, or collapse several verbose "
                       f"pointers into ONE terse index; both are mechanical, a rewrite is not. (RED 2026-09-12: "
                       f"a reword DOES gain on a first draft you wrote an hour ago and have not yet compressed "
-                      f"— +584 B there — but it hits a content floor, and rotation is what clears budget.)")
+                      f"— +584 B there — but it hits a content floor, and rotation is what clears budget.)\n"
+                      # BROCK 2026-09-12, and it cost it a cycle: it wrote "SCOPED READ, NEVER WHOLE" —
+                      # semantically exact — and this scanner STILL scored the file a WHOLE read, because
+                      # ON_DEMAND_MARKERS matches the literal substring "never read" and BROCK wrote "never
+                      # whole". A CORRECT PROTOCOL STATEMENT THE INSTRUMENT CANNOT PARSE IS WORTH ZERO.
+                      # BROCK explicitly did NOT ask for a looser matcher — fail-closed is right here, and a
+                      # fuzzy one would silently exempt real breaches — but the marker vocabulary is invisible
+                      # unless you read this source, and 29 of 37 desks have not. So: PRINT IT. Same reasoning
+                      # as PAT-161's line — tell the desk the MECHANICAL MOVE, not the principle.
+                      f"   ℹ️  IF A FLAGGED FILE IS NOT ACTUALLY READ WHOLE, the fix may be your CHARTER'S\n"
+                      f"      WORDING, not the file. This scanner keys on LITERAL phrases; a semantically exact\n"
+                      f"      paraphrase does NOT match (BROCK wrote 'never whole' and stayed flagged).\n"
+                      f"      Phrases that EXCLUDE a file: {', '.join(repr(k) for k in ON_DEMAND_MARKERS)}.\n"
+                      f"      Phrases that mark a PART read: 'header', 'section', 'the top', 'first/last N',\n"
+                      f"      'only the', 'just the', 'rows ', 'lines ', 'table', 'summary'.\n"
+                      f"      ⛔ The matcher is deliberately LITERAL and fail-closed. Say the exact words — or\n"
+                      f"      declare the file in PROME/registry/READS.tsv, which supersedes this heuristic.")
             gen = [(rel, generated_banner(os.path.join(base, rel)))
                    for mark, rel, *_ in rows if mark in ("🔴", "🟠")]
             gen = [(r, b) for r, b in gen if b]
