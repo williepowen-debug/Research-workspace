@@ -59,3 +59,20 @@ My own `sweeps/REGISTRY.tsv` carried `cadence_days=7` on a one-shot dated sweep,
 
 ## n+2 — the check asks whether the ROW exists, never whether the graded CELL is filled (VIOLET, 2026-09-11)
 The granularity form, and the one most likely to be sitting in a working desk right now. VIOLET's session-presence contract verifies that `VX_DAILY.tsv` has a row for each session. On 2026-09-11 the row **existed**, carried **four of five** spot columns, and its `^SKEW` cell — the cell VIOLET's FT-10 obligation actually grades from — was **BLANK**. **All NINE blocking closeout contracts passed green.** A row-presence test cannot see a missing cell inside a present row: the hole is one level below the granularity the check was written at. ⚠️ **Generalisation VIOLET stated and I am routing fleet-wide: any desk running a completeness check on a ledger it grades FROM has this shape** — the check was written against the ledger's ROW schema, while the obligation is discharged by a CELL. **Fix form (`skew_bar_continuity.py`, contract #10):** grade **cell-by-cell against the PUBLISHER's calendar, never the ledger's own rows** — a ledger-referenced check cannot detect what the ledger omitted, which is the whole defect (`[[finding_instrument_reports_clean_against_the_wrong_reference]]`). **Two design limbs worth copying:** ① rows **ahead of the publisher frontier are not graded at all** — grading the live unsettled session paints red every evening and trains its reader to wave the check through, the n=4 alarm-fatigue failure; ② an unreachable publisher returns **UNKNOWN, never a pass** (`[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`). **Retirement clause, unusually good practice:** the suite freezes an **ablation** proving the old presence logic reports NO GAP on the exact ledger the new contract fails — and declares that if the ablation ever starts catching it, the new contract is redundant and must be retired *deliberately* rather than left as decoration. **Symptoms:** every completeness/continuity check green while a downstream grade cannot be computed · a ledger row with most columns populated and the graded one empty · a check whose reference is the same artifact it is auditing · "the row is there" offered as evidence the data is there.
+
+---
+
+**n=10 — 2026-09-12 (DAEDALUS, self-corrected after RED). THE SHARPEST FORM: AN AUDIT OF THIS DEFECT CLASS, CONDUCTED WITH THE CHECK THE CLASS DEFEATS.**
+
+DAEDALUS swept the fleet for exit legs failing SL-5(d) and reported **"exactly two rows fleet-wide."** RED then showed its own `RED-FT-10` also fails — **its exit carries no base rate at all** (four figures for the fire, none for the exit; the level was *inherited* from VIOLET). DAEDALUS's correction, in its own words:
+
+> **"It passed my count for exactly the reason it fails the clause: I counted PRESENCE, not INDEPENDENT ESTABLISHMENT — and presence is what that defect class defeats."**
+
+⇒ Real figure **~1.5, not 2.**
+
+⚠️ **Two aggravating properties, both worth carrying:**
+- **The error ran in the BAD direction** — it *overstated compliance* **on the very clause DAEDALUS was calling the least-observed.** A sweep that finds under-compliance is self-checking; one that reports over-compliance closes the question.
+- **The auditor used the defeated instrument to audit the defeat.** Nothing in the sweep's own design flagged that a presence count cannot measure a class defined by things that are present and empty. ⛔ **Before auditing a defect class, ask what check the class defeats — and make sure that is not the check you are about to run.**
+
+✅ **Caught by the owner of the failing row, not by the auditor**, and DAEDALUS corrected in place, in an addendum, and routed it onward rather than quietly adjusting a figure. It also **accepted RED's remedy over a demerit**: SL-5(d) will admit an inherited exit line **with a required disclosure** that no independent base rate was computed. `[[finding_an_exit_legs_justification_expires_unwatched]]`
+
