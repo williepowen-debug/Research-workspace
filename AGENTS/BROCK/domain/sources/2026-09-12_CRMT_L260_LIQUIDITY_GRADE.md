@@ -53,17 +53,21 @@ Conditions enumerated: failure to comply with minimum-liquidity and minimum-CCR 
 >
 > Item 8.01: *"The Company **believes it has made significant progress towards a transaction** and that discussions remain active with third-parties, the Agent, and the Lenders."*
 
-### The bridge sequence — two consecutive 7-day extensions, both outside §2.1
+### The bridge sequence — two consecutive SHORT extensions, both outside §2.1
+
+> 🔴 **CORRECTED 2026-09-12 after OTTO's independent grade: the first bridge is +4 days, not 7.** STD-to-STD it is **9/7 → 9/11 = +4 days**, then **9/11 → 9/18 = +7 days**. My original "two consecutive 7-day bridges" measured the first from the **9/4 agreement date** rather than the prior **Scheduled Termination Date** — a **measurement-basis conflation, the same error class as the non-accrual basis finding I wrote up in the same session.** ⚠️ **The structural conclusion is UNCHANGED and is arguably strengthened: the waiver went from ~10 weeks to a +4-day stub to a +7-day stub — the cadence COMPRESSED.**
 
 | Event | Date | Scheduled Termination Date | Instrument | Inside §2.1? |
 |---|---|---|---|---|
 | First Amendment & Limited Waiver | 2026-06-19 | 2026-09-07 | 8-K 6/25 | — (the base) |
-| **Initial Extension** | 2026-09-04 | **→ 2026-09-11** (+7d) | 8-K `...-005895` | ❌ **NO** |
+| **Initial Extension** | 2026-09-04 | **→ 2026-09-11** (**+4d** STD-to-STD) | 8-K `...-005895` | ❌ **NO** |
 | **Second Extension** | 2026-09-10 | **→ 2026-09-18** (+7d) | 8-K `...-005989` | ❌ **NO** |
 | §2.1 path (a) equity/new warehouse · (b) refinancing | conditional | 2026-09-21 | unfired | ✅ registered |
 | §2.1 path (c) signed sale documents | conditional | 2026-11-06 | unfired | ✅ registered |
 
-🔑 **The structural finding, now n=2 and therefore a pattern rather than an incident:** the lender is running a **WEEKLY LEASH**. Both extensions are short bilateral agreements sitting **outside the covenant's own extension architecture**, and **9/18 lands 3 days BEFORE the §2.1(a)/(b) gate of 9/21.** The bridges are being sized to walk the borrower **to** the registered gate, not through it. On 9/9 I could call the first bridge "not one of the three registered §2.1 paths" but not yet call it a method; two identical 7-day steps make it one.
+🔑 **The structural finding, now n=2 and therefore a pattern rather than an incident:** the lender is running a **SHORT-ROLL LEASH**. Both extensions are short bilateral agreements sitting **outside the covenant's own extension architecture**, and **9/18 lands 3 days BEFORE the §2.1(a)/(b) gate of 9/21.** The bridges are being sized to walk the borrower **to** the registered gate, not through it. On 9/9 I could call the first bridge "not one of the three registered §2.1 paths" but not yet call it a method; **a second short roll makes it one — and the cadence is COMPRESSING: ~10 weeks → +4 days → +7 days.**
+
+⚠️ **OTTO's counter-read, recorded because it cuts against me:** short rolls are also what a lender grants while documentation is genuinely being papered, and the issuer says twice it *"believes it has made significant progress towards a transaction."* **The cadence discriminates WEAKLY.** What it does establish is that **the 9/21 route has not been reached by the mechanism the Amendment specifies** — neither 8-K discloses an equity financing or a new Permitted Warehouse Facility. `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
 
 **Why this matters to the private-credit thesis (and it is the reason CRMT is on my board at all):** this is the direct-lender playbook observed at primary on a public name. Rather than accelerate into a liquidation, Silver Point extends in **one-week increments** while a sale process runs. A borrower that has **failed its covenants**, carries **SUBSTANTIAL DOUBT**, and has **no warehouse line** is nonetheless **not a default** on any reported figure. That is the extend-and-pretend mechanism underlying my *"PIK masks a ~6% shadow default rate vs 2.1% reported"* thesis — here with a filing trail.
 
@@ -119,4 +123,5 @@ Revenue **$145.8M (−57.3%)** · units **2,450 (−81.9%)** · net charge-offs 
 | Second Extension → 2026-09-18 | 8-K `0001171843-26-005989`, accepted 2026-09-11T11:00:16Z | **VERIFIED** |
 | $3.0M closing payment paid in kind into principal | 10-Q Note B | **VERIFIED** |
 | CRMT $1.90 close 2026-09-11, +19.50%, vol 2,973,000 | FORGE market-data | **VERIFIED**, dated 9/11 |
-| "Lender is running a weekly leash" | inference from two 7-day bridges outside §2.1 | **INFERRED** (n=2) |
+| "Lender is running a short-roll leash" | inference from two short bridges (+4d, +7d) outside §2.1 | **INFERRED** (n=2); ⚠️ OTTO: discriminates WEAKLY |
+| First bridge = **+4 days**, not 7 | STD 9/7 → STD 9/11 | **VERIFIED** — my "7-day" label was a measurement-basis error, OTTO's catch |
