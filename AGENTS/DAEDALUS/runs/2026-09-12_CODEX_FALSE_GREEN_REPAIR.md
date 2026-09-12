@@ -195,3 +195,71 @@ usage rc 2 · local importer rc 0 · **`validate_all` 12 PASS, A9 green at 59/59
 The cold read is the independent leg; its ❌ are closed and its W2 is declared and dated. **This file is now
 CLOSED for the session** — it has had a repair, an independent read, and one ❌-fix pass, and a further edit is
 the unreviewed-correction-pass this discipline exists to stop.
+
+---
+
+# 9. ⚠️ THE D1 REPAIR IS **PARTIAL** — rc 1 still collapses to PASS. **CARRIED to 9/14 (DOCKET L355). NO CODE TONIGHT.**
+
+**CODEX re-audit, PROME-reproduced, and I reproduced it a third time before agreeing.** Drove
+`leg_read_cap_fleet` directly with an **IDENTICAL summary line** in all three cases, varying only the child's
+returncode:
+
+| child rc | D1 state |
+|---|---|
+| 0 | PASS |
+| **1** | **PASS** ← the remaining false-green |
+| 2 | CANNOT-CERTIFY ← my repair, working |
+
+**THE PATH:** a missing declared file produces a **manifest defect, rc 1, and ZERO over-budget files.** D1 reads
+those zero counts and returns PASS, **dropping the defect.** It is the same shape I fixed at rc 2 — *a verdict
+taken from the summary line rather than from the exit code* — **surviving at the next value up.**
+
+## 🔑 CODEX's framing is right, and it is the lesson I reached one layer in on this same file hours ago
+`res` never carried `problems`, so `main()` **inferred** why rc was 1 — and that inference produced the mark bug
+**and** survived one line later in the label. I removed the inference rather than patching it.
+**THIS IS THE SAME DEFECT AT THE PROCESS BOUNDARY.** D1 re-derives a reason from a **human-readable summary**
+because the child **does not pass one across**. ⇒ **The structural fix is the one I already chose: PASS THE
+REASON, NEVER RE-DERIVE IT — applied to the subprocess boundary rather than to a call.**
+
+## ⛔ WHY I AM NOT FIXING IT TONIGHT — and why that is not inconsistent with overriding the earlier carry
+Both calls turned on the same facts, which differ:
+
+| | the READS repair (fixed) | this D1 partial (carried) |
+|---|---|---|
+| live or latent? | **LIVE** — three desks quoted the output that day | **LATENT** — verified: **0 manifest defects fleet-wide today**, D1 reports **ADVISORY 5/37 not PASS**, and `validate_all` is **still UNWIRED** into any boot or closeout step |
+| my own written condition unmet? | **yes, C10** | no |
+| independent fixture available? | **yes, CODEX's** | not for the fix |
+| my defect rate on this file tonight | unknown | **demonstrated: I introduced a defect INSIDE the third repair** |
+
+**The base rate is now against me on this file**, PROME asked explicitly and more strongly than last time, and the
+path is latent. **A dated carry is the right answer and I am taking it.**
+
+## ⛔ AND THE TRAP IN THE OBVIOUS FIX, which is why this needs a sitting and not ten minutes
+**DO NOT make every rc 1 blocking.** That erases the **intentional advisory** treatment of the 5 over-budget
+desks — all legitimate size backlog — and converts a backlog into a boot blocker. **That is the false-RED
+direction, and I already have one carried and dated (W2/L354). Two false-REDs out of one repair would be worse
+than the false-green they replaced.**
+
+## ACCEPTANCE CONDITIONS FOR 9/14 — written now, in the defect's own terms (WQ-229)
+**B1 — D1's verdict is derived from a MACHINE-READABLE reason the child EMITS, never re-derived from prose.**
+The summary line is a human surface; a parser reading it for a verdict is the defect, at any rc value.
+**B2 — MANIFEST DEFECTS and SIZE-BACKLOG FINDINGS are DISTINGUISHABLE in D1's output and get DIFFERENT
+treatment.** A missing declared file is a defect someone must fix; 5 desks over budget is a tracked backlog.
+Collapsing them in either direction is a defect: PASS on the first is a false green, BLOCKING on the second is a
+false red.
+**B3 — rc 1 never collapses to PASS**, and **rc 0 never becomes a finding.** The mapping is explicit and total
+over {0,1,2} × {manifest defect present, absent}; **no cell is left to inference.**
+**B4 — the advisory/delta-keyed behaviour of the size-backlog leg is PRESERVED EXACTLY** — 5/37 today stays
+ADVISORY against its recorded baseline. Verified by diffing D1's output before and after on the live fleet.
+**B5 — W2 is fixed in the same pass or explicitly not:** the `.py`/`.sh` advisory currently drives fleet rc 1, so
+a self-described advisory is already blocking. **B2 cannot be satisfied while an advisory is indistinguishable
+from a defect inside the child**, so these two are one piece of work, not two.
+**B6 — tested at the PROCESS boundary**: drive `leg_read_cap_fleet` with a stubbed child across every (rc ×
+reason) cell and assert the state, exactly as PROME's reproduction does. **Not at the parser. Not at the helper.**
+
+**Registered: `PROME/DOCKET.tsv` L355 (9/14), beside L353 and L354.** Not riding on a message.
+
+## RESIDUE THAT STAYS RESIDUE, restated so it is not absorbed
+`scripts/pipeline_rc_guard.py` is **UNWIRED** (Will's call — wiring edits `.claude/settings.json`, not mine) and
+**misses `set +o pipefail; <gate> | tail; echo "RC=$?"`** and **a command whose comment merely mentions
+PIPESTATUS**. Both are recogniser gaps in a tool nothing depends on yet. **Not fixed, not absorbed, carried.**
