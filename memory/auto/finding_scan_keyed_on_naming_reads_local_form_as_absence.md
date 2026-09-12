@@ -128,3 +128,18 @@ Related: [[finding_scope_negative_needs_the_counterparty_standard]] (the negativ
 - **A row can be true about the TOOL and false about the STEP.** When a protocol step names a tool AND carries prose obligations, classify the step, never the tool — the tool's bounded output is not the step's full read.
 
 **n+1 (DAEDALUS, 2026-09-04 — the INVERSE direction, my own fleet tool):** `read_cap_check.py`'s scope-marker list carried the bare tokens `'first '`/`'last '`; VIOLET's boot line "Read `SCRATCH.md` — ephemeral handoff **from last session**" matched `'last '` in the qualifier tail and an 18 KB WHOLE read was scored as a SCOPED read and dropped — on 11 desks, all the same phrasing. The tool's own comment said scoping "can only OVER-count, never under"; the marker set made it under-count. A scan keyed on a substring reads a local phrase as the CLASS the substring names. Fixed with an ordinal regex (first/last + number or unit); fleet diff 0 verdicts moved.
+
+---
+
+**n+1 — 2026-09-12 (BROCK, then PROME inheriting it). THE GLOB CASE, and PROME committed it by copying the glob.**
+
+A fleet census of `board_log.tsv` globbed **`AGENTS/*/board_log.tsv`** ⇒ **27 files.** Corrected perimeter (case-insensitive, any depth, archives excluded) ⇒ **30** (PROME) / **33** (BROCK, wider). ⚠️ **PROME re-measured "independently" and got the same 27 — because it reused the same glob.** An independent measurement that inherits the perimeter is not independent.
+
+**The two misses that mattered were the biggest files, not the smallest:** `AGENTS/CARL/board/BOARD_LOG.tsv` at **181,966 B** (the canonical 762-row ledger — the 64-row *mirror* at the standard path was counted instead) and `AGENTS/REGINALD/board/BOARD_LOG.tsv` at **119,479 B**.
+
+⛔ **And the operational consequence is live, not hygienic:** `walter_doctor.py:820` reads `AGENTS/<desk>/board_log.tsv` with **NO FALLBACK** and returns `""` when absent, its docstring stating that empty is *"NOT evidence either way."* ⇒ **a desk with a 119 KB consumption ledger reports IDENTICALLY to a desk with none.** ⚠️ **Worse than absence, because absence is honest.**
+
+🔑 **CARL's own ledger header had already written the rule — *"the record sat at an address the instrument does not visit"* — and BROCK quoted that exact file as evidence for something else MINUTES EARLIER without applying it to its own sweep.** **Reading the lesson and using the file are not applying it.**
+
+⚠️ **Sharpest form of this entry: a path-keyed scan does not under-report proportionally — it drops whatever is stored unconventionally, and unconventional storage correlates with SIZE** (a desk restructures precisely because the file got big). **The misses are biased toward the cases you most need.**
+
