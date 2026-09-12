@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-11 23:43",
+ "built": "2026-09-12 11:28",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,11 +15,6 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
-  "2026-09-11 August CPI (Fri 9/11, 08:30 ET \u2014 DATE VERIFIED, was carried ",
-  "2026-09-11 CRMT Q2 10-Q liquidity GRADE (BROCK) \u2014 the 10-Q lands ~9/9; ",
-  "2026-09-11 RED-FT-11 v1.1 DGS30 leg RE-GRADE at the first boot on/after",
-  "2026-09-11 RP-OTT-5.1 CRMT LETTERS 1 + 2 GRADE at the EXTENDED Schedule",
-  "2026-09-11 VULCAN POST-CLOSE run \u2014 semi_watch slot 4 + mag7 slot 1 (the",
   "2026-09-12 FLEET DASHBOARD STATE FROZEN AT 2026-09-11 12:33 \u2014 \u26a0\ufe0f DIAGNO",
   "2026-09-12 FLEET SWEEP \u2014 ORIGIN-PROOF INSTRUMENTS (WALTER ask 9/5, PROM",
   "2026-09-12 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
@@ -97,7 +92,7 @@
   "CRUISE": "ok",
   "FALCON": "ok",
   "FERT": "ok",
-  "FLG": "elev",
+  "FLG": "crit",
   "HAWK": "ok",
   "HENRY": "ok",
   "HOMER": "ok",
@@ -113,7 +108,7 @@
   "RED": "ok",
   "REGINALD": "ok",
   "SAM": "ok",
-  "SHADE": "elev",
+  "SHADE": "crit",
   "TERRY": "ok",
   "VIOLET": "ok",
   "VULCAN": "ok",
@@ -158,7 +153,7 @@
   "VIX": 17.84,
   "WAL": 78.5
  },
- "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. \u26d4 Attribution, damage location and barrels all remain unestablished. BRENT has NOT re-graded BG-02 \u2014 its packet predates the statement, and a shutdown statement is not a throughput measurement; the \u22650.7 mb/d resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
+ "one": "Tell #2 FIRED: the Saudi Ministry of Energy stated the East-West (Petroline) crude line is SHUT \"as a precautionary measure\", firing FALCON's pre-committed resolver #1. \u26d4 Attribution, damage location and barrels all remain unestablished. BRENT has NOT re-graded BG-02 \u2014 its packet predates the statement, and a shutdown statement is not a throughput measurement; the \u22650.7 mb/d 7-day-MA resolver runs to 9/25. Marks HOLD B 3 / C 22 / D 75; FAL-05 unfired at 55%, but route (a) force majeure is one declaration away with no duration bar. STAND DOWN holds (WQ-192); $0 moved.",
  "pending": [],
  "split": "Break 20 / Grind 47 / Unresolved 33",
  "v": 1
