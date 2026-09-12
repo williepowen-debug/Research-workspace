@@ -1,7 +1,8 @@
 # WQ-232 — Light-tier SCRATCH: conditional targeted update, not a mandated full rewrite
 
-**Status:** SPEC, ready to apply. **NOT APPLIED** — `PROME/CLOSEOUT.md` is closed for the
-session (WQ-178: third read spent, residue declared). First edit of the next session.
+**Status:** **APPLIED `96e355ae3`** (Will-directed, overriding this session's WQ-178 file-closed
+state). Validation record at the foot of this file. Header corrected 21:1x — it had kept the dead
+"NOT APPLIED" state after the body recorded the application (ARGUS ❌5).
 **Drafted:** 2026-09-11 21:0x ET, session `prome-d2`. **Source:** CODEX external review.
 
 ---
@@ -66,8 +67,8 @@ obligation whose owner is unknown is still written, marked UNKNOWN, never droppe
 pathspec/index problem and is NOT in scope here.
 
 ## Completion state
-**NOT IMPLEMENTED. NOT REVIEWED.** No blind read has seen this text. It is the next session's
-first edit, and it needs its own plan read before it touches `CLOSEOUT.md`.
+**IMPLEMENTED + fixture-TESTED (4/4); NOT independently reviewed.** No blind read has seen this
+rule's text — it needs one before the next amendment touches it.
 
 ---
 
@@ -99,7 +100,7 @@ The **mandated SCRATCH full rewrite at Light tier**. Replaced by: write unregist
 changed resume pointer, or state a no-op. It removes a rewrite, not a check.
 
 ### Remaining limitations — five, none closed
-1. ⚠️ **This change ADDED 1,962 B to `CLOSEOUT.md`, now 30,176 B = 92.7% of the 32,550 B read cap
+1. ⚠️ **This change ADDED 1,417 B net (1,531 B inserted) to `CLOSEOUT.md`, now 30,176 B = 92.7% of the 32,550 B read cap
    (headroom 2,374 B).** A rule that reduces closeout work cost bytes on a capped manual. The
    saving is in operations; the price is in a surface that is read whole.
 2. **Fixture-validated, NOT execution-validated.** No Light closeout has run under this rule.

@@ -118,14 +118,18 @@ not that everything did.
 - **IMPLEMENTED.** The order is in `PROME/CLOSEOUT.md` (rule + reason) and
   `PROME/.claude/skills/closeout/SKILL.md` (sequence), root `.claude` copy synced identical.
 - **TESTED.** `prome_gate.py closeout` → ✅ PASS (7 blocking / 17 advisory); skill parity IDENTICAL.
-- **INDEPENDENTLY VERIFIED — as TEXT only.** Three blind `coldreader` passes: plan 4 ❌ → result
-  3 ❌ → narrow third read 3 ❌, all fixed. Read budget now SPENT; both files closed for the session.
+- **REVIEWED; REPORTED FINDINGS CORRECTED; final corrections and live execution NOT independently
+  verified.** (Corrected 21:1x — the earlier "INDEPENDENTLY VERIFIED" label was too strong: three
+  reviews followed by MY fixes do not verify those fixes, and the last round was never read.)
+  Three blind `coldreader` passes: plan 4 ❌ → result 3 ❌ → narrow third read 3 ❌, all fixed.
+  Read budget SPENT; both files closed for the session.
   ⛔ **No closeout has been EXECUTED under this order.** A reading pass verifies pointers; only
   execution verifies executability (`finding_adoption_is_not_validation`). The first real run is the test.
 - **STILL UNRESOLVED:**
-  - ⛔ **The WQ ledger is covered by no gate check** (`grep -c wq_ledger prome_gate.py` = 0) while the
-    Deck's Decided tab reads it. Documented in the return path, **not fixed**. This is a defect with
-    no owner-facing guard and it should become a gate check.
+  - ⚠️ **CORRECTED 2026-09-11 21:1x — the original wording here was an OVERSTATEMENT.** The WQ ledger is
+    absent from the AGGREGATE gate only (`grep -c wq_ledger prome_gate.py` = 0); it IS checked by a
+    mandated step, `CLOSEOUT.md:54` (`wq_ledger.py sync` then `check`, rc 0 required). Absence from an
+    aggregate does not prove an artifact unchecked. Open question — aggregate membership — is DOCKET L338a.
   - ⚠️ **The licence the whole order rests on is fragile by construction:** late renders are safe only
     because the gate checks none of `brief_snapshot.json` / `brief_changes.jsonl` / `WQ_EXPLAINERS.tsv`
     / `argus_baseline.json`. Adding a gate check on any of them silently invalidates this ordering.
