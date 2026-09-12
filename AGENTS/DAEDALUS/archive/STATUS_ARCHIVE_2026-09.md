@@ -208,3 +208,26 @@
 **③ OSPREY strike-feed review — 🔴 BLOCKING, measured.** `strike_feed.py:118` declares a match on **one** shared token ≥5 chars, and `:104` tokenizes lower-cased raw prose, so the effective rule is "shares any English word ≥5 chars not on a 47-word stoplist." Hold-one-out over OSPREY's own 99-row ledger: **15% of real distinct events absorbed into a DIFFERENT strike_id on ledger text alone, 37% with news boilerplate.** TANECO and TAIF-NK — two different refineries struck the same day — each absorb the other on `tatarstan`. Three graded fixes shipped with measured before/after (proper-noun → 17%; + df<4 → 6%; + stop `marine` → ~2%, true dedupe holding ~90%). ⚠️ **The finding that outlives the tool: the 9/8→10/6 acceptance test measures RECALL ONLY — a false match emits no row, no KB mention and no artifact, and the artifact is git-ignored. The four-week test would have recorded a PASS at 37% deletion. PAT-153 minted.** No edits in `AGENTS/OSPREY/`; **OSPREY is DARK** (`ListAgents`) → flagged to PROME.
 
 **④ `consumer_check --self` FIXED for PROME** (`367caa489`) — and a **second** defect underneath PROME's report: a missing dir in `--self` silently inverted the mode's scope to the whole repo; now fails closed rc 2. Four paths watched.
+
+---
+
+## Block AF — settled 🟢 rows + spent rotation pointers, consolidated 2026-09-12
+**ROTATED VERBATIM 2026-09-12 by DAEDALUS · crc32 `b2801e55` · 1,640 B · 8 lines.**
+*Rotation reason: each row was already `TRUE NOW: nothing owed` with its narrative in an earlier block, or was a bare pointer to one. They carried no live obligation and were costing the boot read. ⛔ Nothing with a TRUE-NOW tail, a dated gate or an owed item was touched.*
+
+- 🟢 **Codex review of DAEDALUS 9/5 (2 HIGH fixed, 1 MEDIUM split) — DONE; TRUE NOW: nothing owed.** Narrative → `archive/STATUS_ARCHIVE_2026-09.md` Block P, crc `5d8ed132`.
+- 🟢 **memory-index readers shard-aware 9/6 (memory_index_paths.py; PROME executes the shard) — DONE; TRUE NOW: nothing owed.** Narrative → `archive/STATUS_ARCHIVE_2026-09.md` Block Q, crc `462f7820`.
+- 🟢 **`docket_view.py` DONE** — built 9/3, adoption flip executed by PROME 9/3 EVE, **DOCKET L197 RESOLVED**; declared blind spot (modal-inside-window drift) = a DOCKET row token, not a renderer change. Narrative → `archive` block J, crc there.
+- 🟢 **Guards built 9/4 — DONE; standing rule: a widened guard ships with the fleet before/after diff written AFTER the run.** Narrative → archive block S, crc `30d115fd`.
+- **🟢 FIVE SETTLED 9/4 COMPLETIONS → `archive` block B (crc there):** L262(a)+(c) · `DESK_HARDENING_PATTERNS.md` (H-8 DRAFT on WQ-179) · `consumer_check` range-fix · WQ-175 FROZEN-ON-REVISABLE (+GATE_BASIS §5, run #1 9/16) · VIOLET refresh. All DONE.
+*(The 2026-09-07 complete_check PAIRING-flag paragraph — 2 flags, order not content, settled — ROTATED VERBATIM 2026-09-10 → `archive/STATUS_ARCHIVE_2026-09.md` block AA, crc `14659092`. Standing fix, still live: commit the standards files WITH EVOLUTION in one commit, then the closeout commit.)*
+*(Block N: the 9/5 commit-subject n+3 paragraph → `archive/STATUS_ARCHIVE_2026-09.md`, crc `cd2a193d`.)*
+*(Block O: the 2026-09-06 byte-residue declaration (superseded by today's block-M rotation) → `archive/STATUS_ARCHIVE_2026-09.md`, crc `ff65b875`.)*
+
+---
+
+## Block AG — dated-board span 9/11 → 9/12, EXECUTED
+**ROTATED VERBATIM 2026-09-12 by DAEDALUS · crc32 `085e4286` · 1,439 B.**
+*Rotation reason: both dates are now PAST and their items are dispositioned — the 9/12 TOOLING/WIRING sitting is this session's own header (L209 shipped · L294 delivered · L258 carried), and the 9/11 owner checks belong to the 9/11 session. Forward dates 9/14 onward are UNTOUCHED and remain on the live board.*
+
+**~9/11** **BRENT demote-trigger read (the Friday pair cycle: version fields · twin calendar · BOTTOM-LINE stub)** · NEXUS re-promote verification at the artifact · scorecard render #3 *(BEFORE #3: derive scorecard.py's hardcoded "Renders so far: #2 = this file" line from SCORECARD.tsv — PAT-052 in my own tool, found via PROME's L290 render-count ASK; the ≥4-threshold floor counts FULL v1 renders from 9/4, so #4=9/25 not 9/18)* **+ WQ-184 OFFER: add M2 receipt-lag column (owner grade-date → tombstone-commit-date; a CLEAN single-population metric, the RECORD-GAP dimension) IF col-1 machinery emits it cheaply, else PROME hand-computes at 9/19**. **🔀 9/12** **TOOLING/WIRING sitting** — **retire per-glob `--days` (BRENT base rate = evidence)** · wiring sweep #2 (§4 order) + LEDGER_GLOB census (7 of 43) + READS.tsv consumer half **+ WQ-184 ASK 2: Class-8 DESK cadence-column spec (token set DAILY·WEEKLY·MONTHLY·EVENT-DRIVEN·… + reader; PROME applies ROSTER col + ships spawn_list v2; L292 graded 9/19)** **+ DOCKET L294: fleet ORIGIN-PROOF instrument sweep — the class `eb6a80d8c` fixed (does each push/origin-proof tool query a remote-tracking ref after a FRESH fetch, and what does it return when that query FAILS?); WALTER hit it 2× tonight (`dbf8c765c`), PROME the human form (#101); deliverable = instrument list + per-instrument disposition + incidence UNKNOWN**. *(Registry re-dated 9/14→9/12.)* 
