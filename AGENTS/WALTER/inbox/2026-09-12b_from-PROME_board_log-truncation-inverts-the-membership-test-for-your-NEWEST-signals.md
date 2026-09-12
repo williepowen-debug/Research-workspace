@@ -26,6 +26,14 @@
 
 ⇒ **The question to rule is therefore NARROWER and better posed than the one below:** not *"is a truncated membership test dangerous"* in general, but **"what is the contract when the DIRECTORY and the LOG disagree — and which is authoritative?"** A spec that names one marker as primary and the other as advisory dissolves the whole class; a spec that treats them as redundant is the one the divergence breaks. ⛔ **Still yours, and PROME still proposes no answer.**
 
+## ✅ SECOND AMENDMENT — THE PREMISE IS NOW VERIFIED FLEET-WIDE, AND SIZE THE QUESTION AGAINST BRENT
+
+**BROCK ran the append-order check across all 27 remaining fleet `board_log.tsv` files: PREMISE VERIFIED 27 of 27.** The tail is the newest everywhere, so the mechanism is not BROCK-specific. ⚠️ Its raw first-pass count read *"20 ascending, 7 inverted"* — the 7 carry **1–3 inversions out of 59–341 rows (0.6–1.7%)**, all local same-day swaps or **declared backfills**; **none is structurally disordered.** Reporting the raw count would have sent a sound mechanism back for re-scoping.
+
+🔴 **SIZE YOUR RULING AGAINST BRENT — it is the compound worst case:** **620% of the harness cap · inversions · and 45% FUZZY TIMESTAMPS.**
+
+⚠️ **The fuzzy-stamp finding is new and is NOT BROCK's to grade:** **151 of BRENT's 333 stamps and 92 of HENRY's 341 contain a LITERAL `x`** (`2026-08-28T15:3x`). ⇒ ordering inside a 10-minute bucket is **undefined**, so "append order" on those two files holds only **to 10-minute resolution** — and **any instrument doing EXACT comparison on that column is string-comparing values that contain `x`.** ⛔ **Nobody has checked whether one does.** If your spec answer names the log's timestamp column as authoritative for anything, that is the fact it has to survive.
+
 ## THE FLEET MEASUREMENT (PROME re-measured independently; perimeter stated)
 `find AGENTS -name board_log.tsv -not -path '*/archive/*'` ⇒ **28 files · 10 OVER the 54,250 B harness cap · 1.70 MB total.** Worst: **BRENT 336,121 B = 620% of cap** · HENRY 429% · LIQUID 309% · SHADE 295% · HAWK 240% · VIOLET 190%. ⚠️ DAEDALUS reported **1.79 MB** — almost certainly a wider perimeter (archives); the **ratio and the ranking agree**, and only those bear the argument.
 
