@@ -523,6 +523,16 @@ def leg_read_cap_fleet(ctx):
     except Exception as exc:
         return Result(None, CANNOT, f"read_cap_check --fleet could not run: {exc}")
     out = (proc.stdout or "") + (proc.stderr or "")
+    # ❌F2b (cold read of the 2026-09-12 read_cap_check repair): this leg determined its verdict
+    # from the SUMMARY STRING alone and never inspected proc.returncode — so a fleet run that
+    # assessed NOTHING and exited 2 still reported PASS if the totals line happened to say 0/N.
+    # Same family as the pipeline-$? class: a verdict read from output rather than from the
+    # exit code the tool actually returned. rc 2 is CANNOT-CERTIFY and must never be a PASS.
+    if proc.returncode == 2:
+        return Result(None, CANNOT,
+                      f"read_cap_check --fleet returned rc 2 (CANNOT-EVALUATE) — no fleet figure is "
+                      f"available from this run; read its output for the desk or manifest at fault",
+                      [l for l in out.splitlines() if l.strip()][-3:])
     m = RC_FLEET_RE.search(out.replace("\n", " "))
     if not m:
         # Fail closed (finding_lenient_parser_reports_unparseable_as_a_behavior).

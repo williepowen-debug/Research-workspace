@@ -251,6 +251,11 @@ def boot_reads(name):
 #     NEVER counted. Collapsing the two axes re-creates the false breach `mode` exists to prevent.
 #   · An ATTESTATION row is valid ONLY where declared_by == reader. PROME cannot attest for a desk.
 #   · An UNATTESTED desk is UNKNOWN, never clean.
+# Sentinel distinguishing UNAVAILABLE manifest evidence from a desk ABSENT from a good manifest.
+# They are different states with different verdicts (rc 2 vs the heuristic) and one object cannot
+# carry both — CODEX finding 2.
+UNAVAILABLE = object()
+
 READS_TSV = os.path.join(ROOT, "PROME", "registry", "READS.tsv")
 CAP_BEARING_MODES = ("whole", "programmatic")
 VISIBLE_MODES = ("scoped", "grep", "summary")
@@ -286,19 +291,44 @@ def load_reads(path=None):
 
 def declared_reads(name, path=None, root=None):
     """(cap_bearing, visible, problems, attested, note) from the manifest.
-    cap_bearing is None when the manifest cannot be used for this desk; `note` says why.
+    THREE return states, and a caller MUST distinguish them (cold read F1, 2026-09-12 — this
+    line still described the merged two-state contract after the split, and it is the sentence a
+    future caller reads before writing `if cap_bearing is None: fall back`):
+      UNAVAILABLE  the manifest exists but cannot be READ -> rc 2, NEVER a heuristic fallback
+      None         this desk is simply ABSENT from a well-formed manifest -> use the heuristic
+      a dict       the desk is declared; grade it.
     `path`/`root` exist so --selftest can drive FROZEN tempdir fixtures rather than live surfaces
     (a regression test pinned to a live doc certifies nothing past the next edit — PROME 2026-09-09)."""
     rows, err = load_reads(path)
     base_root = root or ROOT
+    # ⛔ A1 (CODEX finding 2, 2026-09-12): a MALFORMED manifest and a desk merely ABSENT from a
+    # well-formed one returned the SAME absence-shaped tuple, and check_agent read both as
+    # "undeclared" and fell back to the charter heuristic — so UNAVAILABLE evidence was reported as
+    # ABSENT evidence, and absent evidence has a defined benign path. That is L294's own invariant,
+    # violated in the tool I shipped the sweep from, and it broke my own written condition C10.
+    # The two states are now distinguishable by the caller: UNAVAILABLE returns the sentinel.
     if rows is None:
-        return None, None, None, None, err
+        return UNAVAILABLE, None, None, None, err
     mine = [r for r in rows if r.get("reader") == name]
     if not mine:
         return None, None, None, None, f"desk {name} has NO rows in the manifest"
-    attested = any(r.get("row_kind") == "ATTESTATION" and r.get("declared_by") == name for r in mine)
+    # A3 (CODEX, 2026-09-12): an ATTESTATION row is only an attestation if it is WELL-FORMED.
+    # The mode leg was never checked, so a row with a bogus mode still printed "ATTESTED by the
+    # desk itself" and cleared the desk.
+    attested = any(r.get("row_kind") == "ATTESTATION" and r.get("declared_by") == name
+                   and (r.get("mode") or "").strip() == "manifest-complete" for r in mine)
     cap_bearing, visible, problems = {}, [], []
     for r in mine:
+        if (r.get("row_kind") == "ATTESTATION" and r.get("declared_by") == name
+                and (r.get("mode") or "").strip() != "manifest-complete"):
+            # F3: without this the desk got rc 2 "you must attest" while its attestation row
+            # EXISTED and was one cell wrong — sending the owner to file a duplicate instead of
+            # fixing a typo. A READ row with a bad mode already gets a precise line; an
+            # ATTESTATION row did not.
+            problems.append(
+                f"ATTESTATION row carries mode `{(r.get('mode') or '').strip() or '(blank)'}` — "
+                f"an attestation must be `manifest-complete`, so this row does NOT attest and the "
+                f"desk reads UNATTESTED. Fix the one cell; do not file a second attestation.")
         if r.get("row_kind") == "ATTESTATION" and r.get("declared_by") != name:
             problems.append(f"ATTESTATION signed by `{r.get('declared_by') or '(blank)'}`, not by "
                             f"{name} — INVALID (manifest ⛔ who-may-attest: reading someone else's "
@@ -443,6 +473,17 @@ def grade(b):
 def check_agent(name, quiet=False, require_manifest=False):
     # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
     cap_bearing, visible, problems, attested, dnote = declared_reads(name)
+    if cap_bearing is UNAVAILABLE:
+        # A1: the manifest exists but could not be READ. That is UNAVAILABLE evidence, not absent
+        # evidence, and it must NOT fall through to the charter heuristic — which would print a
+        # clean line built from a different perimeter while the declared one was unreadable.
+        # Restores acceptance condition C10 (runs/2026-09-12_R7_STAGE2_READS_CONSUMER.md), which
+        # was written, tested at the PARSER, and never enforced at the CALLER.
+        if not quiet:
+            print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {dnote}. The manifest is UNREADABLE, which is "
+                  f"NOT the same as this desk being undeclared — so the charter heuristic is NOT used "
+                  f"as a fallback here. Fix the manifest, or re-run once the writer finishes.")
+        return 2, None
     declared = cap_bearing is not None
     if declared and not attested:
         # The manifest's own ⛔: rows without an attestation are a PARTIAL perimeter, and a check
@@ -556,7 +597,10 @@ def check_agent(name, quiet=False, require_manifest=False):
                   f"({len(rows)} file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no "
                   f"declaration in {os.path.relpath(READS_TSV, ROOT)}, so this is 'clean within what the "
                   f"scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.")
-    return rc, (name, len(rows), n_over_budget, n_over_cap, rows)
+    # W3: `problems` travels with the result. main() previously inferred the REASON for rc from
+    # the over-budget counts, which is what produced the mark bug and then repeated it in the
+    # label one line later. One instance did mean two; the fix is to stop inferring.
+    return rc, (name, len(rows), n_over_budget, n_over_cap, rows, problems or [])
 
 
 HDR = "row_kind\treader\tpath\tmode\tsource_boot_step\tdeclared_by\tdeclared_on\tnotes"
@@ -579,7 +623,7 @@ def selftest():
     """CHECK_STANDARD §3: every leg watched on a CAPABLE case (the alert fires) AND a CLEAN case
     (the clean line prints). rc 0 = all legs pass. Closes this file's own gap-register row — leg A9
     of scripts/validate_all.py was NOT REGISTERED because this check had no --selftest."""
-    import tempfile
+    import tempfile, io, contextlib
     global READS_TSV, ROOT
     ok, fail = 0, []
 
@@ -633,13 +677,16 @@ def selftest():
         # C10 — CAPABLE: a half-written manifest is an ERROR, never an empty (clean) row set.
         bad = os.path.join(t, "bad.tsv")
         open(bad, "w").write(HDR + "\nREAD\tD\n")
-        chk("C10 short row => error", declared_reads("D", bad, t)[0] is None, True)
+        chk("C10 short row => UNAVAILABLE sentinel (not None: None means ABSENT)",
+            declared_reads("D", bad, t)[0] is UNAVAILABLE, True)
         open(bad, "w").write("reader\tpath\n")
-        chk("C10 bad header => error", declared_reads("D", bad, t)[0] is None, True)
-        chk("C10 missing file => error", declared_reads("D", os.path.join(t, "nope.tsv"), t)[0] is None, True)
+        chk("C10 bad header => UNAVAILABLE sentinel", declared_reads("D", bad, t)[0] is UNAVAILABLE, True)
+        chk("C10 missing manifest file => UNAVAILABLE sentinel",
+            declared_reads("D", os.path.join(t, "nope.tsv"), t)[0] is UNAVAILABLE, True)
         # C11/C4 — a desk with NO rows falls through to the heuristic (cap_bearing is None).
         m = _fixture(t, [A], {})
-        chk("C4 undeclared desk => heuristic", declared_reads("ZZZ", m, t)[0] is None, True)
+        chk("C4 desk ABSENT from a good manifest => None, which means use the heuristic",
+            declared_reads("ZZZ", m, t)[0] is None, True)
         # unknown mode is a manifest defect, not a silent skip
         m = _fixture(t, [A, "READ\tD\tsmall.md\tskim\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
         chk("unknown mode reported", any("mode vocabulary" in p for p in declared_reads("D", m, t)[2]), True)
@@ -710,6 +757,102 @@ def selftest():
         chk("generated banner: missing file returns None, never raises",
             generated_banner(os.path.join(t, "nope.md")), None)
 
+        # ── PUBLIC-PATH LEGS (CODEX findings 2 & 3, 2026-09-12) ───────────────────────────────
+        # ⛔ THESE EXIST BECAUSE THE HELPER LEGS WERE NOT ENOUGH AND A GREEN SUITE CERTIFIED A
+        # FALSE-GREEN TOOL. C10 above asserts `declared_reads(...)[0] is None` on a malformed
+        # manifest — TRUE, the parser was always right — while `check_agent` read that same value as
+        # "undeclared" and fell back to the charter heuristic, printing a clean line. I tested the
+        # COMPONENT UNDER the defect instead of the PATH THROUGH it. Third instance of that shape in
+        # one day across three desks (RED's §5 gate; PROME's spawn_list, whose tests drove the writer
+        # and the gate but never main()). Every leg below drives a PUBLIC entry point and asserts the
+        # rc a CALLER sees — never a helper's return value.
+        sav_r2, sav_root2 = READS_TSV, ROOT
+        try:
+            ROOT = t
+            os.makedirs(os.path.join(t, "AGENTS", "ZD"), exist_ok=True)
+            open(os.path.join(t, "AGENTS", "ZD", "CLAUDE.md"), "w").write(
+                "# ZD\n## SPAWN PROTOCOL\n1. Read `STATUS.md`\n")
+            open(os.path.join(t, "AGENTS", "ZD", "STATUS.md"), "w").write("s")
+            AZ = "ATTESTATION\tZD\t.\tmanifest-complete\ts\tZD\t2026-09-12\tok"
+            # A1 — UNAVAILABLE manifest must be rc 2 AT THE CALLER, never a heuristic fallback.
+            bad2 = os.path.join(t, "bad2.tsv"); open(bad2, "w").write("broken\n")
+            READS_TSV = bad2
+            chk("A1 public: malformed manifest => check_agent rc 2 (C10, at the CALLER)",
+                check_agent("ZD", quiet=True)[0], 2)
+            open(bad2, "w").write(HDR + "\nREAD\tZD\n")      # short row
+            chk("A1 public: short-row manifest => check_agent rc 2",
+                check_agent("ZD", quiet=True)[0], 2)
+            # and a desk genuinely ABSENT from a WELL-FORMED manifest still gets the heuristic
+            READS_TSV = _fixture(t, [AZ, "READ\tZD\tAGENTS/ZD/STATUS.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            os.makedirs(os.path.join(t, "AGENTS", "QQ"), exist_ok=True)
+            open(os.path.join(t, "AGENTS", "QQ", "CLAUDE.md"), "w").write(
+                "# QQ\n## SPAWN PROTOCOL\n1. Read `STATUS.md`\n")
+            open(os.path.join(t, "AGENTS", "QQ", "STATUS.md"), "w").write("s")
+            chk("A1 public: desk ABSENT from a GOOD manifest still uses the heuristic (rc 0)",
+                check_agent("QQ", quiet=True)[0], 0)
+            # A3 — an ATTESTATION with a bad mode is NOT an attestation => rc 2, not a green line.
+            READS_TSV = _fixture(t, ["ATTESTATION\tZD\t.\tbogus\ts\tZD\t2026-09-12\tx",
+                                     "READ\tZD\tAGENTS/ZD/STATUS.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            chk("A3 public: ATTESTATION with a bogus mode => rc 2 UNATTESTED",
+                check_agent("ZD", quiet=True)[0], 2)
+            # A2 — --fleet must never read greener than --agent.
+            READS_TSV = _fixture(t, [AZ, "READ\tZD\tAGENTS/ZD/gone.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            rc_agent = check_agent("ZD", quiet=True)[0]
+            chk("A2: a missing declared file is rc 1 at --agent", rc_agent, 1)
+            fd = os.path.join(t, "AGENTS", "DAEDALUS")
+            os.makedirs(fd, exist_ok=True)
+            open(os.path.join(fd, "FLEET_DIRECTORY.md"), "w").write(
+                "## ACTIVE\n| ZD | desk |\n")
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc_fleet = main(["x", "--fleet"])
+            chk("A2: and --fleet does NOT report it greener", rc_fleet >= rc_agent, True)
+            chk("A2: the fleet ROW shows the defect, not a clean tick",
+                "MANIFEST DEFECT" in buf.getvalue(), True)
+            chk("A2: a MANIFEST-only defect is marked ⛔", "⛔ ZD" in buf.getvalue(), True)
+            # …and an OVER-BUDGET desk must KEEP its cap mark, not be overwritten by ⛔.
+            open(os.path.join(t, "AGENTS", "ZD", "big.md"), "w").write("x" * (BUDGET_BYTES + 10))
+            READS_TSV = _fixture(t, [AZ, "READ\tZD\tAGENTS/ZD/big.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            buf2 = io.StringIO()
+            with contextlib.redirect_stdout(buf2):
+                main(["x", "--fleet"])
+            # ── COLD-READ REPAIR LEGS (F1/F2/F3/W1, 2026-09-12) ───────────────────────────────
+            # Every one drives a PUBLIC path and asserts what a CALLER or a DOWNSTREAM PARSER sees.
+            # F2: a run that assessed NOTHING must not print a totals line a parser can read as green.
+            broke = os.path.join(t, "broke.tsv"); open(broke, "w").write("broken\n")
+            READS_TSV = broke
+            b3 = io.StringIO()
+            with contextlib.redirect_stdout(b3):
+                rc_all = main(["x", "--fleet"])
+            o3 = b3.getvalue().replace("\n", " ")
+            chk("F2: all-CANNOT-EVALUATE fleet run returns rc 2", rc_all, 2)
+            chk("F2: and prints NO totals line a parser could read as green",
+                re.search(r"over BUDGET:\s*\d+\s*/\s*\d+.*?over the CAP", o3) is None, True)
+            chk("F2: and names the MANIFEST, not N desks", "broke.tsv" in o3, True)
+            # F3: a malformed ATTESTATION must NAME the cell, not just say "you must attest".
+            READS_TSV = _fixture(t, ["ATTESTATION\tZD\t.\tbogus\ts\tZD\t2026-09-12\tx",
+                                     "READ\tZD\tAGENTS/ZD/STATUS.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            b4 = io.StringIO()
+            with contextlib.redirect_stdout(b4):
+                rc4 = check_agent("ZD")
+            chk("F3: bogus ATTESTATION mode => rc 2", rc4[0], 2)
+            chk("F3: and the offending CELL is named, not just 'you must attest'",
+                "must be `manifest-complete`" in b4.getvalue(), True)
+            # W1: a desk BOTH over budget AND manifest-defective must show BOTH, not just the cap.
+            open(os.path.join(t, "AGENTS", "ZD", "big2.md"), "w").write("x" * (BUDGET_BYTES + 10))
+            READS_TSV = _fixture(t, [AZ,
+                                     "READ\tZD\tAGENTS/ZD/big2.md\twhole\ts\tZD\t2026-09-12\t-",
+                                     "READ\tZD\tAGENTS/ZD/gone2.md\twhole\ts\tZD\t2026-09-12\t-"], {})
+            b5 = io.StringIO()
+            with contextlib.redirect_stdout(b5):
+                main(["x", "--fleet"])
+            chk("W1: over-budget AND manifest-defective shows the cap mark AND the defect label",
+                "🟠 ZD" in b5.getvalue() and "MANIFEST DEFECT" in b5.getvalue(), True)
+            chk("A2: an OVER-BUDGET desk keeps its cap mark (🟠), not ⛔",
+                "🟠 ZD" in buf2.getvalue() and "⛔ ZD" not in buf2.getvalue(), True)
+        finally:
+            READS_TSV, ROOT = sav_r2, sav_root2
+
         # END-TO-END rc contract, both directions (the verdict, not just the parser).
         sav_r, sav_root = READS_TSV, ROOT
         try:
@@ -762,16 +905,49 @@ def main(argv):
         for d in desks:
             rc, res = check_agent(d, quiet=True)
             if res is None:
+                # A2 (CODEX finding 3): rc 2 desks were already collected here, but a desk with an
+                # rc 1 MANIFEST DEFECT returned a result whose over-budget COUNTS were zero, and the
+                # fleet verdict was computed from those counts alone — so a missing declared file or
+                # an invalid mode rendered as a GREEN, ZERO-READ row. A desk we could not assess must
+                # never read greener in --fleet than it does in --agent.
                 cant.append(d); continue
-            name, n, nb, nc, rows = res
+            name, n, nb, nc, rows, probs = res
             tot_b += (nb > 0); tot_c += (nc > 0)
             worst = rows[0] if rows else None
             w = f"{worst[1]} {worst[3]:.0%} of budget" if worst else "—"
             mark = "🔴" if nc else ("🟠" if nb else "✅")
-            print(f"  {mark} {name:8}{n:>6}{nb:>9}{nc:>6}  {w}")
-            if nb: bad.append(name)
-        print(f"\n  desks with ≥1 boot read over BUDGET: {tot_b}/{len(desks)} · over the CAP: {tot_c}/{len(desks)}"
-              + (f" · CANNOT-EVALUATE: {', '.join(cant)}" if cant else ""))
+            # ⚠️ ONLY when there is no CAP finding to show. rc is 1 for ANY finding, so an
+            # unguarded `if rc` overwrote 🟠/🔴 on every over-BUDGET desk and destroyed the
+            # cap/manifest distinction this mark exists to make — a defect I introduced in the
+            # CODEX repair and caught by READING THE ROWS, not the rc. My own A2 leg asserted the
+            # new label appeared and the rc propagated; it never asserted the MARK of a desk whose
+            # rc came from a CAP breach. Testing what I added, not what I broke.
+            if probs and not nb:
+                mark = "⛔"           # a manifest defect, with no cap finding to display
+            print(f"  {mark} {name:8}{n:>6}{nb:>9}{nc:>6}  {w}"
+                  + ("   MANIFEST DEFECT — see `--agent " + name + "`" if probs else ""))
+            # W1: the label is keyed on `probs` ALONE, not `probs and not nb` — a desk that is
+            # BOTH over budget and manifest-defective showed a plain 🟠 and the defect vanished,
+            # sending the owner to apply a rotation remedy to a declaration defect.
+            if nb or rc: bad.append(name)
+        # ❌F2 (cold read, 2026-09-12): this line printed "0/37 · 0/37" for a run that assessed
+        # NOTHING. One malformed row in a manifest PROME edits live sends EVERY desk to `cant`,
+        # and the totals still read green — while scripts/validate_all.py's D1 leg parses THIS
+        # STRING and never inspects the returncode, so a registered fleet check reported PASS.
+        # ⛔ The repair for the false-green class introduced a false green one surface downstream.
+        # Totals are now stated over what was ACTUALLY ASSESSED, and are SUPPRESSED entirely when
+        # nothing was — a number is never printed where it cannot be earned.
+        n_assessed = len(desks) - len(cant)
+        if n_assessed == 0:
+            print(f"\n  ⛔ NO DESK WAS ASSESSED — {len(cant)}/{len(desks)} CANNOT-EVALUATE. No totals are "
+                  f"printed, because none can be earned from this run.\n"
+                  f"     Most likely cause: {os.path.relpath(READS_TSV, ROOT)} is unreadable or "
+                  f"half-written — check THAT ONE FILE first, not {len(desks)} desks. "
+                  f"Run `--agent <NAME>` on any one of them for the reason.")
+        else:
+            print(f"\n  desks with ≥1 boot read over BUDGET: {tot_b}/{n_assessed} · over the CAP: "
+                  f"{tot_c}/{n_assessed}" + (f"   (of {n_assessed} ASSESSED, not {len(desks)} — "
+                  f"{len(cant)} CANNOT-EVALUATE: {', '.join(cant)})" if cant else ""))
         if cant:
             return 2
         return 1 if bad else 0
