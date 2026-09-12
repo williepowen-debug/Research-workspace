@@ -428,7 +428,16 @@ def check_agent(name, quiet=False, require_manifest=False):
                 print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
                       f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
                       f"to archive/) or hot/cold split — per surface, owner's choice of HOW. "
-                      f"⛔ Never raise the budget: the read cap is not ours to move.")
+                      f"⛔ Never raise the budget: the read cap is not ours to move.\n"
+                      # BROCK 2026-09-12, measured from inside its own repair and asked for here by name:
+                      # the first instinct is to tighten the prose, and tightening is an EDIT — it notices
+                      # what is unclear and adds the missing qualifier. BROCK's two rewrite passes came out
+                      # +242 B and +451 B; collapsing verbose pointers into one terse index is what worked.
+                      # DAEDALUS reproduced it the same day on its own STATUS. PAT-161.
+                      f"   ⛔ AND DO NOT TRY TO REWRITE YOUR WAY UNDER: a careful tightening pass RELIABLY "
+                      f"ADDS bytes (measured +242 B and +451 B on two real attempts). Only MOVING text out "
+                      f"removes them — rotate, or collapse several verbose pointers into ONE terse index. "
+                      f"Both are mechanical; a rewrite is not.")
             if problems:
                 print(f"⚠️  READ-CAP 1 [{name}]: {len(problems)} manifest defect(s) above. A declared "
                       f"read that does not resolve is a defect of the DECLARATION, not of the cap — "
