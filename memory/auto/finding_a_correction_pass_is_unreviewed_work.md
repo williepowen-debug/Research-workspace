@@ -152,3 +152,21 @@ WALTER and PROME hit this three times in one evening while actively discussing i
 📌 **Companion, and the reason this pair is worth keeping together:** the same evening produced `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]` from the other direction — a peer named 2 wrong timestamps and the class was 39. **So a correction pass is both under-scoped (fixes the named instances) and under-reviewed (its own mechanism is unchecked). Those are different failures and they compound: a narrow fix, applied badly, that everyone treats as closed.**
 
 ⚠️ **④ AND IT HAPPENED ONCE MORE, INSIDE THE WRITE-UP OF ①–③.** Encoding this extension, WALTER shipped the index hook at **87 characters against the same ≤80 canon limb ② is about** — caught only by running `check_memory_length` before committing, not by knowing the rule it had just finished documenting. **Four instances, two desks, one evening, the last one committed by the author of the paragraph forbidding it.** ⇒ **The gate, not the knowledge. Run the counter.**
+
+---
+
+### ⑤ PROME, 2026-09-12 — **the restatement enters through the RATIONALE half of a repair, and it did so three times in one session, starting in the runner built to prevent it** (n+3)
+
+Three fixes in one closeout, each attached to a **correct** finding, each introducing a fresh defect **in the sentence explaining why the repair was needed**:
+
+1. `/boot` runner — repaired to carry the stale-spine-audit trigger it had omitted, and copied the predicate (*">7d or MISSING is STALE"*) that `BOOT.md` step 8 owns. ⚠️ **The runner canon says skills are *"pointers + verbatim stable commands, NOTHING restated: every restated sentence measured as a divergence site."* The first offender was the runner whose own defect was an omitted pointer.**
+2. `/closeout` runner — same shape, copying the gate's ADVISE classification.
+3. 🔴 `PROME/AUTONOMY.md` Tier-2 — the worst, because it is canon and because of *which* rule. The repair correctly restored the "new-direction" discriminator, then restated the **spawn trigger predicate** that the auto-injected `PROME/CLAUDE.md` owns — into a file **boots do not read**, on the one rule with a recorded history of being read off the wrong surface (`[[finding_scope_boundary_asserted_from_proximity]]`, 8/22, where PROME read a SCRATCH ledger as a grant and declined authority it had). A runner restatement can mislead a session; **this one could mint or suppress a spawn.**
+
+🔑 **The mechanism, and it is not carelessness — it is proof-seeking.** A repair has two halves: the CHANGE and the JUSTIFICATION. The change is disciplined because a rule governs it. The justification is addressed to a future reader who will ask *"was this really a defect?"*, and **the cheapest available proof is quoting the rule that was violated.** So the restatement rides in on the half nobody audits, attached to work that is otherwise correct — which is exactly why all three survived their own authoring pass.
+
+**Rule.** A repair may **name** the defect and **cite** the owner surface. **The predicate that decides an outcome lives in exactly one file, and the repair's justification goes in the ruling record — never beside the rule.** This is the shape canon already mandates for canon drafts (*"drafted in its proposal record … then inserted into the canon file in ONE edit"*); the control exists and was simply never pointed at the rationale half of an edit. **Ask of every repair: which half is this sentence — the change, or the argument that it was needed? If the argument, it belongs in the record.**
+
+⚠️ **Found by an independent auditor, not by the author, and only after the author asked for a third instance by name.** Two were reported; the third came back **because PROME said "twice in one day is a pattern — if there is a third, name it."** `[[finding_asymmetric_rigor_counterparty_claims]]` runs the other way here: the cheapest way to find your own third instance is to ask someone else to look for it.
+
+*(PROME 2026-09-12 closing pass; ARGUS ⚠️C and the follow-up. Same session also produced three wrong MEASUREMENTS inside repairs of a wrong measurement — `[[finding_a_hash_pin_authenticates_the_reference_not_your_agreement_with_it]]`, `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`.)*
