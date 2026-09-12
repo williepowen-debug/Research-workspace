@@ -337,9 +337,29 @@ def declared_reads(name, path=None, root=None):
 
 
 def grade(b):
-    util = b / CAP_BYTES
+    """(mark, utilisation-of-BUDGET, why).
+
+    ⚠️ THE PERCENTAGE IS DENOMINATED IN THE BUDGET, NOT THE CAP — changed 2026-09-12 (DAEDALUS)
+    on a MEASURED second instance, not an inference. Until today this returned `b / CAP_BYTES`
+    while every verdict above is keyed to BUDGET_BYTES, so one row carried two numbers that read
+    OPPOSITELY under one word ("cap"):
+        BROCK/STATUS.md   41,162 B   displayed " 76% of cap"   =  126.5% of budget   verdict 🟠
+        BROCK/LESSONS.md  35,545 B   displayed " 66% of cap"   =  109.2% of budget   verdict 🟠
+    BROCK's 2026-09-12 completion note quoted the NUMBER and not the VERDICT — "STATUS.md still
+    75% of read-cap … still over budget; hot/cold split deliberately not started" — and deferred
+    the split partly on that reading, while the file sat 8,612 B OVER the budget it is graded on.
+    A reader taking the percentage understated severity by ~40 points; only the adjacent verdict
+    saved them, and only if they read it.
+    SAME FAMILY AS THE L258 OPERATOR MISMATCH: the letter names one denominator and the
+    instrument carries another. `finding_distance_to_a_threshold_is_a_claim_about_its_basis`.
+    ACCEPTANCE CONDITION (PROME's, in the defect's own terms rather than the symptom's):
+    a reader who quotes ONLY the percentage reaches the SAME severity conclusion as a reader who
+    quotes only the verdict. So: ≥100% now means "over the thing the verdict grades", always.
+    The CAP is still reported — but only where it binds, in the 🔴 text, which is the one place
+    the cap is the operative limit."""
+    util = b / BUDGET_BYTES
     if b >= CAP_BYTES:
-        return "🔴", util, "OVER THE CAP — cannot be read whole"
+        return "🔴", util, f"OVER THE CAP ({b / CAP_BYTES:.0%} of the {CAP_BYTES:,} B cap) — cannot be read whole"
     if b >= BUDGET_BYTES:
         return "🟠", util, "over budget (readable, no headroom)"
     if b >= BUDGET_BYTES * ROTATE_AT:
@@ -388,12 +408,12 @@ def check_agent(name, quiet=False, require_manifest=False):
     n_over_budget = sum(1 for r in rows if r[0] in ("🔴", "🟠"))
     rc = 1 if (n_over_budget or problems) else 0
     if not quiet:
-        print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · {note}")
+        print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · {note}")
         for mark, rel, b, util, why, src in rows:
-            print(f"  {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of cap  {why}  ({src})")
+            print(f"  {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of budget  {why}  ({src})")
         for sp, src in sorted(getattr(boot_reads, "scoped_overcap", {}).items(), key=lambda kv: -os.path.getsize(kv[0])):
             b = os.path.getsize(sp)
-            print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / CAP_BYTES:>5.0%} of cap  "
+            print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / BUDGET_BYTES:>5.0%} of budget  "
                   f"scoped read on an OVER-CAP file — honest read, not lean (READ_CAP rule 8: partial fix; not counted)  ({src})")
         for pth, mode, src in visible or []:
             # Declared and VISIBLE, never counted: the mode says the rows do not enter context.
@@ -513,6 +533,25 @@ def selftest():
         m = _fixture(t, [A, "BASIS\tD\tsmall.md\tboot-defining\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
         chk("BASIS row is not a read", declared_reads("D", m, t)[:2], ({}, []))
 
+        # ── DISPLAY DENOMINATOR (PROME 2026-09-12, measured second instance at BROCK) ──────────
+        # ACCEPTANCE CONDITION: a reader who quotes ONLY the percentage reaches the SAME severity
+        # conclusion as a reader who quotes only the verdict. Tested at the BOUNDARY in both
+        # directions, because the old defect lived entirely in the gap between budget and cap.
+        over_budget_under_cap = (BUDGET_BYTES + CAP_BYTES) // 2      # BROCK's actual region
+        mark, util, why = grade(over_budget_under_cap)
+        chk("display: over-budget row is flagged", mark, "🟠")
+        chk("display: over-budget row READS as over (>=100%)", util >= 1.0, True)
+        mark, util, why = grade(BUDGET_BYTES)                        # exactly on the line
+        chk("display: exactly at budget is flagged", mark, "🟠")
+        chk("display: exactly at budget reads 100%", f"{util:.0%}", "100%")
+        mark, util, why = grade(BUDGET_BYTES - 1)                    # one byte under
+        chk("display: one byte under budget is NOT flagged", mark in ("✅", "🟡"), True)
+        chk("display: one byte under budget reads <100%", util < 1.0, True)
+        mark, util, why = grade(CAP_BYTES + 1)                       # over the cap too
+        chk("display: over-cap row still 🔴", mark, "🔴")
+        chk("display: over-cap 'why' names the CAP explicitly", "of the" in why and "cap" in why, True)
+        chk("display: over-cap util is still budget-denominated", util > 1.6, True)
+
         # END-TO-END rc contract, both directions (the verdict, not just the parser).
         sav_r, sav_root = READS_TSV, ROOT
         try:
@@ -560,7 +599,7 @@ def main(argv):
             return 2
         print(f"READ-CAP FLEET — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B · {len(desks)} active+tier-2 desks · "
               f"perimeter per desk = heuristic boot-read set (see --agent for each)")
-        print(f"  {'desk':10}{'reads':>6}{'>budget':>9}{'>cap':>6}  worst file")
+        print(f"  {'desk':10}{'reads':>6}{'>budget':>9}{'>cap':>6}  worst file (% is of BUDGET — the number the verdict grades)")
         tot_b = tot_c = 0; bad = []; cant = []
         for d in desks:
             rc, res = check_agent(d, quiet=True)
@@ -569,7 +608,7 @@ def main(argv):
             name, n, nb, nc, rows = res
             tot_b += (nb > 0); tot_c += (nc > 0)
             worst = rows[0] if rows else None
-            w = f"{worst[1]} {worst[3]:.0%}" if worst else "—"
+            w = f"{worst[1]} {worst[3]:.0%} of budget" if worst else "—"
             mark = "🔴" if nc else ("🟠" if nb else "✅")
             print(f"  {mark} {name:8}{n:>6}{nb:>9}{nc:>6}  {w}")
             if nb: bad.append(name)
@@ -599,7 +638,7 @@ def main(argv):
         except OSError as e:
             print(f"READ-CAP 2 CANNOT-EVALUATE: {p} ({e.__class__.__name__})"); return 2
         mark, util, why = grade(b)
-        print(f"  {mark} {os.path.relpath(p, ROOT):<50}{b:>9,} B  {util:>5.0%} of cap  {why}")
+        print(f"  {mark} {os.path.relpath(p, ROOT):<50}{b:>9,} B  {util:>5.0%} of budget  {why}")
         rc = max(rc, 1 if mark in ("🔴", "🟠") else 0)
     return rc
 

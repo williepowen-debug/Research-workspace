@@ -133,9 +133,16 @@ def main(argv):
             lines.append(f"  {mark} {shown:<46}{b:>8,} B  ~{tok:>7,.0f} tok  {util:>5.0%} of cap"
                          + (f"  → TRIM {over:,} B" if over > 0 else "") + tag)
 
+    # ⚠️ DENOMINATOR, STATED (2026-09-12): the % column here is OF THE CAP, and the over-budget
+    # threshold is also expressed of the cap (60%), so number and verdict share a denominator and
+    # a reader quoting either reaches the same conclusion. The FLEET tool at scripts/ uses the
+    # OTHER convention (% of BUDGET) after PROME measured a live misjudgement at BROCK, where its
+    # % was of cap while its verdict was of budget. Both are now internally coherent; they are
+    # NOT interchangeable, and two tools share this basename — so each names its own denominator.
     print(f"read-cap check — budget {budget_bytes:,} B "
           f"({budget_tokens:,.0f} tok = {TARGET_UTILISATION:.0%} of the {READ_CAP_TOKENS:,}-tok read cap "
-          f"@ {BYTES_PER_TOKEN} B/tok measured)")
+          f"@ {BYTES_PER_TOKEN} B/tok measured) · % BELOW ARE OF THE CAP; over budget = {TARGET_UTILISATION:.0%} "
+          f"(the fleet tool scripts/read_cap_check.py reports % OF BUDGET — different denominator, same rule)")
     for l in lines:
         print(l)
 
