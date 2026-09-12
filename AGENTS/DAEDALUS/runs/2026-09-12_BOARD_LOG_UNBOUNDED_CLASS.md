@@ -86,3 +86,19 @@ author commits, which the carve-out ① discipline makes common because authorsh
 traffic creates.** Append-ordering confirmed on BROCK's file (122 rows, 2026-06-20 → 2026-09-12, strictly
 ordered) — the premise I asserted without checking; **UNKNOWN on the other 27**, one `sort -c` each to settle.
 Packet addendum filed with PROME; **not forked into a parallel route**, at BROCK's request.
+
+---
+
+## ADDENDUM 2 — premise VERIFIED 27/27 (BROCK), + 480 fuzzy stamps that nothing reads
+**The UNKNOWN I left is closed.** BROCK ran the 27 `sort -c`: 20 strictly ascending, 7 with **1–3 inversions of
+59–341 rows (0.6–1.7%)**, every one a local same-day swap or a declared backfill. **No file is structurally
+disordered ⇒ the tail is the newest everywhere ⇒ PREMISE VERIFIED 27/27, not 20.** ⚠️ BROCK nearly reported
+*"the premise fails on 7 desks"* first — **a strict checker's failure count measures STRICTNESS, not disorder.**
+**New, and larger than reported:** the fuzzy-timestamp convention is **480 stamps across 14 desks** in the
+spec column `timestamp_read` (NEXUS 63%; MIDAS, FERT, WAL 100%), in at least four formats.
+**I checked the consumer question BROCK flagged but did not check: NOTHING PARSES THAT COLUMN.** RED's boot
+skips the header and does ID membership; HENRY derives age from the FILENAME. **⇒ inert today, LATENT not live**
+— and primed for the first instrument that reads it, because the NAME promises a timestamp that 480 values are
+not. **PAT-163 again, in the class that produced it.** Fourth question added for WALTER: type it, or retire it
+and let the filename carry age, which is what every consumer already does.
+
