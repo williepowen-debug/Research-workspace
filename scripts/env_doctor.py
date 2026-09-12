@@ -35,7 +35,20 @@ REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY",
                  "FFIEC_CDR_TOKEN", "FFIEC_CDR_USERNAME",
                  # e-Stat app ID (added 2026-08-11, PROME 8/9 packet — gates SAM
                  # cpi_japan.py; key registered "SAM", MACHINE_LOCAL row 24):
-                 "ESTAT_APPID"]  # expected on EVERY box
+                 "ESTAT_APPID",
+                 # NASA FIRMS MAP_KEY (added 2026-09-12, DAEDALUS on PROME's packet; Will
+                 # obtained the key 2026-09-11, WQ-223; MACHINE_LOCAL row 25 names this a
+                 # DAEDALUS-lane add): gates FALCON/OSPREY strike-claim grading, WALTER ADD#15.
+                 # ⚠️ SINGLE-HOME BY CONSTRUCTION — it lives in a gitignored
+                 # FORGE/tools/market-data/.env, so it is present on the DESKTOP and absent on
+                 # the LAPTOP until Will pastes it at the next switch. That asymmetry is the
+                 # whole reason it belongs here: without the row the laptop's first FIRMS pull
+                 # fails as "Invalid MAP_KEY" inside FALCON's own workflow, where it reads as a
+                 # broken SERVICE rather than a missing key on this box — the ESTAT_APPID class
+                 # (`finding_impeachment_must_be_scoped_to_the_claim_not_the_source`).
+                 # Presence-only, like every key here: no network probe, and the key has no
+                 # expiry so it gets no JWT-style expiry check either.
+                 "FIRMS_MAP_KEY"]  # expected on EVERY box
 
 # JWT expiry probe (2026-08-07): the FFIEC token is a 90-day JWT that dies
 # SILENTLY at expiry (the ESTAT_APPID class — a dead key looks like a broken
