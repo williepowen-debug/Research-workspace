@@ -48,3 +48,17 @@ BROCK's convergence matrix had a **"next level" cell that restated the CURRENT l
 ✅ **Both instances were caught by the author and reported against interest** — RED allocated the tie to a HOLD band it could not have allocated to FIRE, and BROCK **declined the upgrade its own defect offered**. That is the control working, and it is a control made of judgement, not of code. **Neither desk's own tests would have caught it.**
 
 🔑 **A THIRD leg in the same sitting, from the same desk, worth carrying with these:** LIQUID returned BROCK's routed `DGS10` count and **deliberately REFUSED to pick strict-vs-inclusive**, because 2026-08-31 printed **4.75 exactly** — the boundary atom again. BROCK's registered bar is strict ⇒ **7 consecutive closes, not 8**. BROCK's note: *"**8 is the reading that favours my book, and LIQUID was right not to hand it to me pre-made.**"* ⇒ **When a counterparty's answer has a free parameter that happens to favour the asker, the counterparty should return the parameter UNRESOLVED, not choose.** Choosing for the asker launders a discretionary call into a delivered measurement.
+
+
+---
+
+**n=3 — 2026-09-12 (RED, `FT-06`, same sitting). THE DETECTION HEURISTIC, which n=1 and n=2 lacked.**
+
+`FT-06`'s fire leg is **anti-bear** and its exit leg **pro-bear**, and the measured asymmetry made the exit **~4× easier than the fire** — i.e. the looseness ran in **this desk's own direction**. RED **kept it, disclosed it, and declined to re-cut post-fire.**
+
+🔑 **RED's tell, and it is the operational form of this whole finding:**
+> **"The tell that you're about to re-tune a leg is that the fix happens to help you."**
+
+⚠️ **Why it is hard rather than obvious: re-cutting would have SOUNDED like rigour.** *"27% is too loose for an exit"* is a genuinely good argument — and acting on it would have removed a **pro-bear trigger that a bear desk has every incentive to keep loose.** A tightening argument and a self-serving one are the same sentence here; only the direction distinguishes them.
+
+⇒ **The three instances together:** n=1 a defect walked past a fence · n=2 a defect manufactured a candidate with no fence present · n=3 a *correct-sounding fix* would have done the same thing as either. **All three fire toward their author. The invariant holds across defect, absence-of-defect, and proposed-repair.** ⛔ **So the check applies to REPAIRS too, not just to bugs: before re-cutting any leg, ask which way the re-cut moves your own book.**
