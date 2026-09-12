@@ -12,10 +12,9 @@
  "docket": {
   "2026-09-12": "WQ-231/232 FOLLOW-UPS (all three registered NOWHERE else, so this row is\u2026",
   "2026-09-13": "CRU-05 prediction grade window CLOSES (CRUISE-registered at the 9/2 sessi\u2026",
-  "2026-09-14": "SCHEMA `state`/`state_detail` SPLIT",
+  "2026-09-14": "RED VX.tsv RE-REVIEW",
   "2026-09-15": "PREDICTION_DISCIPLINE canon ENCODE",
-  "2026-09-16": "\ud83d\udd34 **REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY",
-  "2026-09-17": "P4 SITTING"
+  "2026-09-16": "\ud83d\udd34 **REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -59,6 +58,7 @@
   "234": "BRENT FOUND A DEFECT IN ITS OWN PRE-REGISTERED BG-02 RESOLVER, AND IT\u2026",
   "235": "BRK-02's letter does not name its MEASUREMENT BASIS, and the choice i\u2026",
   "236": "DAEDALUS's read-cap checker now reads each desk's ATTESTED manifest i\u2026",
+  "237": "Root CLAUDE.md still presents YEYOU as a live fleet member with two s\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
