@@ -69,14 +69,30 @@ for attempt in 1 2 3; do
     # "days-old" one I had assumed). I checked the actual age instead of trusting the story
     # I had already written, which is the same move this whole guard exists to enforce.
     MAXAGE=${VERIFY_PUSH_MAX_AGE_SECS:-3600}
-    HITLINE=$(git log --format="%h%x09%ct%x09%s" "$REFNAME" | grep -m1 -F -- "$SUBJ")
+    # ⚠️ THE `git log` RC MUST BE READ BEFORE THE PIPE (added 2026-09-12, DOCKET L294 sweep).
+    # This line used to be a bare `git log … | grep -m1`, so a `git log` that FAILED and a
+    # `git log` that succeeded with NO MATCH were byte-identical downstream: both gave an empty
+    # HITLINE and fell through to `❌ NOT ON ORIGIN — Your work is still local.` That is the
+    # tool's OWN rc-1 verdict ("genuinely not on origin") asserted from evidence that was never
+    # gathered — and this file's whole contract is that rc 2 exists for exactly that state.
+    # It is the FALSE-ALARM direction (loud, not silent), which is why it survived the
+    # eb6a80d8c fix: that pass hardened the FETCH and the REV-PARSE, and left the one leg
+    # whose failure travelled through a pipe. `$?` after a pipeline is grep's, never git's.
+    LOGOUT=$(git log --format="%h%x09%ct%x09%s" "$REFNAME" 2>/dev/null); LOG_RC=$?
+    if [ "$LOG_RC" -ne 0 ]; then
+      echo "⚠️  CANNOT CERTIFY — 'git log $REFNAME' failed (rc=$LOG_RC)."
+      echo "   No commit list was retrieved, so ABSENCE OF A MATCH IS NOT EVIDENCE OF ABSENCE."
+      echo "   This is NOT 'not on origin' (rc 1); it is unavailable evidence (rc 2)."
+      exit 2
+    fi
+    HITLINE=$(printf '%s\n' "$LOGOUT" | grep -m1 -F -- "$SUBJ")
     if [ -n "$HITLINE" ]; then
       HIT=$(printf '%s' "$HITLINE" | cut -f1)
       HITTS=$(printf '%s' "$HITLINE" | cut -f2)
       NOW=$(date +%s)   # (2) Codex fix: WALL-CLOCK, not the branch tip — else a stale-ref match at the tip is AGE 0.
       AGE=$(( NOW - HITTS ))
       [ "$AGE" -lt 0 ] && AGE=0
-      NMATCH=$(git log --format="%s" "$REFNAME" | grep -c -F -- "$SUBJ")
+      NMATCH=$(printf '%s\n' "$LOGOUT" | cut -f3 | grep -c -F -- "$SUBJ")   # reuse the already-verified LOGOUT; no second unchecked pipe
       if [ "$AGE" -gt "$MAXAGE" ]; then
         if [ "$AGE" -ge 86400 ]; then AGEH="$((AGE/86400))d"; elif [ "$AGE" -ge 3600 ]; then AGEH="$((AGE/3600))h"; else AGEH="$((AGE/60))m"; fi
         echo "⚠️  CANNOT CERTIFY — subject matched $HIT, but that commit is $AGEH old"
