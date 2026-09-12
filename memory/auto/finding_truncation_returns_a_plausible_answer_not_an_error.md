@@ -35,3 +35,16 @@ The chain, and each step is individually reasonable:
 - **Never implement a membership test as a whole-file read on an append-only log.** `grep`/exact-ID join, or a **tail-first bounded read** so truncation cuts the OLD end where a miss is harmless.
 - **Ask of any truncating read: which END gets cut, and is that the end that answers the question?** For append-only logs the cut end is always the one that matters.
 - ⚠️ **Do not reach for a rotation trigger first.** On a grepped cold ledger the size is not the defect, and rotating to fix it treats a working split as a breach.
+
+---
+
+**⚠️ NARROWED SAME DAY BY BROCK — the exposure is REDUNDANCY LOSS, not truncation alone.**
+
+For the WALTER lane a second marker exists: the **directory** (`inbox/WALTER/` vs `processed/`). So a truncated membership test **usually fails SAFE** — the directory still answers and the log is redundant. 🔑 **The defect is live only where the two markers DIVERGE.**
+
+**And divergence is manufactured by ordinary timing, not by anything exotic:** `git mv` **fails on any uncommitted file**, so a desk that reads its inbox before another desk's commit lands will **log the row and leave the file in place** — `logged-but-not-moved`. BROCK produced exactly this on 2026-09-12 with OTTO's packet, without trying. **In that window the log was the ONLY guard.**
+
+⇒ **The general form, which is worth more than the original finding:** ⛔ **a truncating read is dangerous in proportion to how ALONE it is.** Two independent markers make truncation survivable; the danger is not the truncation but the **moment the redundancy silently drops to one** — and that moment is created by routine cross-desk timing that no one observes. **Ask not "can this read truncate?" but "what else answers this question, and when does that other thing stop answering?"**
+
+✅ **Note the shape of the correction: PROME relayed the mechanism and OVERSTATED it; the desk that had produced the real instance narrowed it.** The generaliser had the mechanism, the practitioner had the conditions. Neither alone was right.
+
