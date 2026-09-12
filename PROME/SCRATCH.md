@@ -43,7 +43,7 @@
 ## Operator card
 - **Today:** Fri 2026-09-11 · markets CLOSED at closeout (19:5x ET) · book = FORGE 9/10 CLOSE (Fidelity) + 16:10 (Robinhood) + Will's 9/11 XLE sale ($1.51 fill, −$77.33 realized) · **$0 moved by PROME this session; zero thresholds touched; no desk spawned** · STAND DOWN on new energy capital (WQ-192) holds — and it holds *through* the confirmed Petroline shutdown, because the deploy question needs BG-02 met **plus** WQ-192 lifted in Will's own words **plus** [Approve] · **Will's hands:** WQ-225 (two Trends months) · WQ-187 (9/12) · D-rows D-49 (first contract's date/price) · D-53 · D-54 · D-44/D-45.
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-12 · 12 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-228 (9/14) · WQ-230 (9/15) · WQ-229 (9/15) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-224 (9/19) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-219 (on BROCK's dra…)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-12 · 13 open, 2 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-228 (9/14) · WQ-230 (9/15) · WQ-229 (9/15) · WQ-234 (9/18) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-224 (9/19) · WQ-204 (9/19) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18) · ⛔ WQ-219 (on BROCK's dra…)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
