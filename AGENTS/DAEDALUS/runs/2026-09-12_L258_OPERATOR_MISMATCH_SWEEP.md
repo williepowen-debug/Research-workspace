@@ -89,7 +89,9 @@ evidence is the adjective *"uncommon"* with no n.
 
 ## ⚠️ SL-5(d) IS THE LEAST-OBSERVED CLAUSE — measured
 **Every one of the 9 mismatches is on a FIRE leg. Exit legs are base-rated at all on exactly TWO rows
-fleet-wide** (RED FT-06, RED FT-10). **HANS registers no exit legs whatsoever across 14 rows.** SL-5(d) exists
+fleet-wide** (RED FT-06, RED FT-10). 🔴 **CORRECTED — see ADDENDUM 2: it is ~1.5.
+FT-10's exit carries NO base rate; it passed my count because I counted PRESENCE, not independent
+establishment.** **HANS registers no exit legs whatsoever across 14 rows.** SL-5(d) exists
 because RED's realised tie set sat on FT-10's EXIT leg — and nine days on, almost nobody base-rates an exit.
 
 ## 🔴 A DISTRIBUTION GAP THAT EXPLAINS THE COMPLIANCE PATTERN — and it is mine to raise
@@ -181,3 +183,59 @@ is now **CORRECTED** by the owner. The ≈20 UNSTATED population is unaffected. 
 #4 — *"tie sets I marked non-empty are representable, never known to be realised"* — should be read as an
 admission rather than a caveat: every one of those ≈35 non-empty tie sets is one query from being measured,
 and I measured none of them.**
+
+---
+
+## ADDENDUM 2 — 2026-09-12 ~14:2x ET · **MY "TWO ROWS FLEET-WIDE" FIGURE IS WRONG. It is ~1.5, and RED found the half inside its own submission.**
+
+I wrote above, and repeated it in the PROME memo and to RED: *"Exit legs are base-rated at all on exactly TWO
+rows fleet-wide (RED FT-06, RED FT-10)."* **RED delivered the SL-5(d) worked examples I asked for, and its FIRST
+finding cuts against its own row: FT-10's exit does NOT meet SL-5(d).**
+
+Its entire `exit_source` is one sentence. **No base rate on the exit leg at all** — `rolling_base_rate` carries
+four figures for the FIRE and none for the exit. No symmetric-guess refusal, no named historical episode. The
+line is INHERITED from VIOLET, and **inheritance transfers the LEVEL, not the base rate**: nothing checked that a
+`<140 s=4` built for VIOLET's kill-switch also suits FT-10's un-fire.
+**It passes every presence audit while carrying no base rate** —
+`finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit`, **and my own count is how it passed
+mine: I counted rows that HAD an exit figure, not rows whose exit figure was independently established.** The
+sweep's unit was PRESENCE, and presence is exactly what that class defeats.
+
+**⇒ Corrected figure ~1.5 of 107 legs — and the error ran in the bad direction**, overstating fleet compliance on
+the clause I was calling the least-observed. Corrected here and in what I have told RED and PROME.
+
+**RED's remedy is better than a demerit and I accept it:** SL-5(d) should ADMIT an inherited exit line — one
+independently established, already observed firing, on an instrument and basis **stated** identical to the fire
+leg — as a legitimate, cheaper route, **WITH a required disclosure that no independent base rate was computed.**
+That converts a silent shortfall into a documented one, which is what a registration standard is for. **9/14.**
+
+## ⭐ THE FINDING I DID NOT ASK FOR, AND IT IS THE BIGGEST THING THE SWEEP PRODUCED
+**RED recomputed FT-06's two legs from the primaries today** (VIXCLS n=9,271; CBOE SKEW_History n=9,225) **and
+THE ASYMMETRY HAS INVERTED.** At registration: fire 6.9% vs exit 27.0% — the exit **~4× MORE** likely. Trailing-3y
+today: fire 28.86% vs exit 18.88% — the exit **0.65×, LESS** likely.
+**Nothing looked, and nothing was going to.** The exit never fired, so there was no event, no row, no grade and
+nothing for a staleness clock to key on. `base_rate_review.py` recomputes each LEG; **the RATIO between a row's
+two legs is not a tracked quantity anywhere in the fleet.** A fire leg that drifts gets caught because the fire
+is what people watch and what leaves a trace; **an exit leg's justification can expire in silence — and it is the
+leg that decides WHEN YOU STOP BEING WRONG.** Minted **PAT-159**.
+RED kept the two perimeters explicitly apart (only the RATIO compares across them, never the levels) and made
+**no re-cut** — window closed, and RED is the interested party. *(Incidental self-reproduction: FT-06 full-3y
+29.2% registered vs 28.86% recomputed; FT-10 17.8% vs 17.53%.)*
+**Proposed SL-5(d) content, ACCEPTED for 9/14:** the scheduled review recomputes **BOTH legs on ONE perimeter and
+records the RATIO**, not the levels.
+
+## THE GOVERNANCE HALF — PAT-160
+FT-06's **fire is anti-bear**; its **exit is pro-bear**. The ~4× looser leg ran in this bear desk's **own book
+direction** — and RED kept it, disclosed it in `action_magnitude`, and declined to re-cut post-fire.
+**RED's line, and it is the usable one: the tell that you are about to re-tune a leg improperly is that the fix
+happens to help you.** *"27% is too loose for an exit" is a real rigour argument, and acting on it would have
+removed a pro-bear trigger a bear desk has every incentive to keep loose.* The discriminator is **DIRECTION, not
+sincerity** — no judgement about motive is needed and a third party can check it from the letter alone. Minted
+**PAT-160**; it composes with the FERT `≥1 OPEN prediction` incentive risk already on the 9/14 agenda, which is
+the same shape mirrored.
+
+⚠️ **AND A NOTE ON THIS ADDENDUM'S OWN GUARD:** the script that wrote it first refused, because its
+already-applied check tested for the substring `ADDENDUM 2` and the FIRST addendum is titled
+*"ADDENDUM 2026-09-12"*. A containment test on a prefix that is also a date. Harmless here because it failed
+CLOSED — but it is `finding_lenient_parser_reports_unparseable_as_a_behavior`'s neighbour, in a guard I wrote
+thirty seconds earlier, in the record about operator and boundary precision.
