@@ -5,6 +5,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 ---
 
 
+## S44 — 2026-09-12 ~13:5x ET
+
+**Trigger:** PROME Tier-1 due-row spawn on DOCKET **L320** (WQ-184 L0 rule). Three owed grades (FT-10 / FT-11 / FT-06) + the 27-row BOARD ledger backfill + the section-⑤ rebuild that should have prevented it.
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| 🔴 **`boot.py` section ⑤ REBUILT as an ID-DIFF.** The old reader sliced `[1:]` to skip one leading line, but after the 9/10 rotation line 0 is a `#` comment and line 1 is the **HEADER**, so `max(timestamp_read)` compared the literal string `"timestamp_read"` — which sorts above every `2026-…` date. **Every signal satisfied `d <= last`: the gate was hard-wired green, not merely lossy.** Two further defects: a newest-vs-newest **date floor**, and it read **only the live ledger**, never the rotated archives. Replacement: set difference, **no date floor**, over **all three ledgers**, reading `action:` **and** legacy `to:` in all three value forms, whole-token match. | `scripts/boot.py` (new `_red_addressed()` + `_logged_ids()` helpers) | Section ⑤ now reports **27 → 0** and reproduces PROME's independent `exempt_gap.py` count exactly. Boot output unchanged in shape. |
+| 🆕 **`scripts/test_board_gap.py`** — 14 falsification tests pinned as a permanent regression guard, written as the **acceptance conditions** rather than a replay of the reproduction: routing forms · WRONG OWNER · substring (`REDACTED`) · MISSING INFO · **header-poison regression** · **archive OVERLAP**. Concurrent-activity category given a written N/A (the section is read-only). Exit 1 on any failure. | `scripts/test_board_gap.py` (new) | Not boot-read; run at closeout or after any `board_log` format change. |
+| **27 BOARD dispositions backfilled**, oldest 154d, each derived from evidence (a RED artifact citing the id) rather than asserted; 9 signals read at the source this session to disposition honestly. | `board_log.tsv` | 🟠 **Now 29,342 B = 90% of the 32,550 B read-cap budget. Rotate before the next bulk append.** |
+| **`STATUS.md` rotated** — the S43 header, the `[Prior]` pointer line and the `## PRIOR SESSIONS ARCHIVED` navigation block folded **verbatim** to `reports/2026-09-12_S43_status_header_folded.md`. Done because the S44 header pushed the file to **33,699 B, over budget**; trimming the header further would have dropped load-bearing figures, so the fix was rotation, not compression. | `STATUS.md` (156 → 148 lines, 32,250 B), `reports/2026-09-12_S43_status_header_folded.md` (new) | ✅ `read_cap_check.py --agent RED` back to **READ-CAP 0**. |
+| **Three registry rows graded**, `last_reviewed` → 2026-09-12; FT-06 gains a **pre-data holiday-bar ruling** in `instrument_basis_operative`. | `registry/FALSIFICATION_TRIGGERS.tsv` | `gen_trigger_scan.py` re-run — **SCAN view regenerated, 12 rows, 32,918 B (38% of canon)**; `--check` ✅ current. `schema_check.py` ✅ ALL CONFORM. |
+| **`docket/CATALYSTS.tsv`:** 9/12 VX re-review **pushed to 9/14 with a written reason** (W2's third option, not a silent slip); new **2026-09-16 FT-10 earliest-fire** row registered. | `docket/CATALYSTS.tsv` | Both surface in boot ③. |
+| ⚠️ **ID error caught mid-session and corrected before commit:** the holiday-bar finding was first written as ML-RED-216 / KB-RED-092 — **both already exist and are about other subjects** (a PREDICTIONS row-truncation error and the recession number). Re-keyed to **ML-RED-238 / KB-RED-100** across the registry, the SCAN view and the VIOLET packet. *Cause: next-id assumed rather than read off the file tail.* | `registry/*`, `AGENTS/VIOLET/inbox/*` | None — caught pre-commit. |
+
+
 ## S43 — 2026-09-10 ~16:1x ET
 
 **Trigger:** PROME Tier-1 due-row spawn on DOCKET **L315** (WQ-184 L0 rule — a registered dated row naming the desk IS the approval; Will's word for the 9/10 slate 11:53 ET). FT-11 arm-date correction + F2 grade + the L247 F1 re-check leg + a 3-packet inbox drain.

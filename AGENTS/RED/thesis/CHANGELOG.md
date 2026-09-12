@@ -5,6 +5,19 @@
 ---
 
 
+## S44 — 2026-09-12 ~13:5x ET — **NO WEIGHT MOVED (net-bear 58, confidence 68 stand). THREE registered-trigger grades, all non-fires; ONE new pre-data instrument ruling on `RED-FT-06`.**
+
+**Old view → new view.** Hypothesis weights **unchanged**: Managed 32 · Stagflation 32 · Acute 13 · War 13 · Soft 6 · Rescue 4. Sum 100. **Confidence 68. Net-bear 58.** Logged here because A4 makes a registered-trigger state change mandatory for W3 whether or not a weight moved — and three states were graded on one day.
+
+**1. `RED-FT-10` 0-of-4 → 1-of-4.** A count change is a state change, not a thesis change. **The registered ACUTE +2 / MANAGED −2 attaches to a FIRE**, and 1-of-4 is not a fire. ⚠️ **What this does NOT license, and the discipline is the point:** the bull steelman's leg 4 says *"the tail bid touched the line twice and could not hold it,"* with an honest fence that the index is **camped on** the line. **One bar above 150 does not retire that fence and does not confirm it** — it is the third touch. The fence was written precisely so a two-week camp at 148–154 does not score, and a 154.49 print is inside the camp's range, at its top. **The steelman stands unamended.**
+
+**2. `RED-FT-11` graded for the first time ever, and it failed by >20bp on the wrong side.** No classification entered, no branch taken, no weight move — **a non-fire is the default state and carries no action.** ⚠️ **The adversarial content is not the non-fire, it is what the non-fire revealed: in that same window the 30Y was the BEST-PERFORMING point on the curve** (DGS2 +22 · DGS5 +23 · DGS10 +18 · DGS20 +14 · DGS30 +12; 2s30s 91 → 81bp). **An absolute-Δ5 instrument is blind to a relative footprint.** This is BOND's 8/27 aim-critique arriving as a measurement. **Held open deliberately, not re-spec'd** — re-cutting a row on the single window that embarrassed it is post-data threshold selection, and "the window that made me look wrong" is not a base rate (ML-RED-240).
+
+**3. `RED-FT-06` exit 0-of-5, and the direction correction matters more than the count.** WALTER's board had said *"moving AWAY"*; VIXCLS is **17.84 [9/10], 0.16 under the ≥18 bar, after five consecutive higher closes.** ⚠️ **This is a live threat to a banked bear-favourable fire** — MANAGED-DECLINE-CONFIRM (−2 Stagflation / +2 Managed) un-fires on a sustained exit, and the counter is one-sixth of a point from starting, into FOMC. **No weight moved (0-of-5 is not an exit), but the Managed-Decline 32 is now the weight most exposed to next week's tape**, and that is a change in the *fragility* of the distribution even though no number in it moved. **Recording that explicitly rather than letting "no weight moved" imply "nothing changed."**
+
+**4. One counter-signal row's INSTRUMENT is now known-defective and the row's VALUE is unaffected.** The VIX counter-signal (70/30 bull) reads a series that carries phantom bars on ~every market holiday (KB-RED-100). **No holiday sits in any window this row currently cites, so no published figure changes** — `[[finding_claim_outlives_its_discredited_instrument]]`, applied to RED's own table rather than someone else's.
+
+
 ## S43 — 2026-09-10 ~16:1x ET — **NO WEIGHT MOVED (net-bear 58, confidence 68 stand). TWO REGISTERED-TRIGGER STATE CHANGES on `RED-FT-11`: the arm date was WRONG BY A DAY and is corrected; the F2 gate RESOLVED OFF-THE-RUN so v1.1 ACTIVATES.**
 
 **Old view → new view.** Hypothesis weights **unchanged**: Managed 32 · Stagflation 32 · Acute 13 · War 13 · Soft 6 · Rescue 4. Sum 100. **Confidence 68. Net-bear 58.** Logged here because A4 makes a registered-trigger state change mandatory for W3 whether or not a weight moved — and here **two** states changed on one card.

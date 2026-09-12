@@ -415,65 +415,127 @@ def section_due_scan():
         print(f"   • {r['CHG_ID']} ({age}d, {r['Target']}): {r['Key_Finding'][:70]}")
 
 
-def section_board_gap(verbose):
-    """⑤ BOARD-vs-board_log gap — the boot-1.5 disposition obligation, made checkable.
+def _red_addressed(head):
+    """True if a BOARD signal's frontmatter routes an ACTION to RED.
 
-    WHY THIS AND NOT A STALENESS ALERT (audit R6, fixed S30 2026-08-12): board_log.tsv is
-    EXCLUDED fleet-wide from ledger_staleness's outside-glob warning by design (~15 agents
-    carry it at top level), and staleness would be the wrong signal anyway — it cannot tell
-    "no signals arrived" from "signals arrived and went unlogged", and it would false-fire
-    in any quiet week. This compares the two things that actually matter: the newest BOARD
-    signal ADDRESSED TO RED against the newest board_log disposition. It is silent when
-    nothing is owed and loud in exactly the failure mode (2 action-addressed signals
-    consumed 8/12, zero logged).
+    Reads BOTH routing keys: v0.12+ `action:` and the legacy `to:` used by
+    585 April-July files. Three value forms occur in the corpus and all three
+    are handled: bracketed list (quoted or bare), bare scalar, and
+    `NAME (annotation...)`. Matching is WHOLE-TOKEN, so RED never matches
+    inside REDACTED or any longer word.
     """
-    print("\n⑤ BOARD DISPOSITION GAP (boot 1.5 obligation — log what you consume)")
-    log = RED / "board_log.tsv"
-    last = ""
+    for line in head.splitlines():
+        key, sep, val = line.partition(":")
+        if not sep or key.strip().lower() not in ("action", "to"):
+            continue
+        val = val.strip().strip("[]")
+        for piece in val.split(","):
+            tok = piece.strip().strip('"\'').split("(")[0].strip()
+            if tok.upper() == "RED":
+                return True
+    return False
+
+
+def _logged_ids():
+    """Every SIG-W id appearing in ANY RED BOARD ledger — live plus archives.
+
+    Reads the live board_log.tsv AND archive/board_log*.tsv, because the
+    2026-09-10 rotation moved 36 dispositions out of the live file and a
+    live-file-only reader re-reports every one of them as unlogged.
+    Comment lines and the header row are skipped; ids are matched anywhere
+    in the row, so an `id + slug` cell counts as a disposition.
+    """
+    ids, files = set(), []
+    for p in [RED / "board_log.tsv", *sorted((RED / "archive").glob("board_log*.tsv"))]:
+        if not p.is_file():
+            continue
+        files.append(p)
+        for line in p.read_text(encoding="utf-8", errors="replace").splitlines():
+            if line.startswith("#") or line.startswith("timestamp_read"):
+                continue
+            ids.update(re.findall(r"SIG-W-\d{8}-\d{3}", line))
+    return ids, files
+
+
+def section_board_gap(verbose):
+    """(5) BOARD-vs-board_log gap — the boot-1.5 disposition obligation, made checkable.
+
+    WHY THIS AND NOT A STALENESS ALERT (audit R6, S30 2026-08-12): board_log.tsv is
+    EXCLUDED fleet-wide from ledger_staleness's outside-glob warning by design, and
+    staleness is the wrong signal anyway - it cannot tell "no signals arrived" from
+    "signals arrived and went unlogged", and would false-fire in any quiet week.
+
+    *** REBUILT AS AN ID-DIFF, S44 2026-09-12. The previous implementation reported
+    GREEN while 27 action-addressed signals sat unlogged, the oldest 154 days. Three
+    independent defects, each sufficient on its own:
+
+      (1) HEADER READ AS DATA. It sliced `[1:]` to drop ONE leading line, but after the
+          2026-09-10 rotation line 0 is a `#` comment and line 1 is the HEADER. So
+          `max(timestamp_read)` compared the literal string "timestamp_read", which
+          sorts ABOVE every "2026-.." date. Every signal then satisfied `d <= last`
+          and the gate was HARD-WIRED GREEN - not merely lossy, unconditionally blind.
+      (2) DATE FLOOR. Even with a correct `last`, it only examined files dated AFTER
+          the newest disposition, so logging ANY recent signal hid every older
+          unlogged one. Newest-vs-newest cannot answer a set question.
+      (3) LIVE LEDGER ONLY. It never read archive/board_log*.tsv, so the rotation
+          would have re-flagged 36 already-dispositioned signals.
+
+    The replacement is a SET DIFFERENCE with NO DATE FLOOR: {BOARD ids routing an
+    action to RED} minus {ids in every RED ledger}. It also reads the legacy `to:`
+    routing key, absent from the old matcher entirely.
+
+    Cross-checked against PROME/tools/exempt_gap.py --desks RED, an INDEPENDENT
+    implementation over the same corpus - a different perimeter agreeing on the
+    same count, not a matching absolute (finding_crosscheck_with_free_parameter).
+    """
+    print("\n(5) BOARD DISPOSITION GAP (boot 1.5 obligation - log what you consume)")
     try:
-        rows = [l.split("\t") for l in log.read_text(encoding="utf-8").rstrip("\n").split("\n")[1:]]
-        last = max((r[0][:10] for r in rows if r and r[0]), default="")
+        logged, ledgers = _logged_ids()
     except OSError:
-        print("   ⚠️  board_log.tsv unreadable — cannot grade the disposition obligation")
+        print("   WARN board_log unreadable - cannot grade the disposition obligation")
+        return
+    if not ledgers:
+        print("   WARN no RED BOARD ledger found - a desk with no ledger owes one")
         return
     board = REPO / "BOARD"
     sigs = sorted(board.glob("SIG-W-*.md")) if board.is_dir() else []
     if not sigs:
-        print("   ⚠️  BOARD/ not found or empty — cannot grade")
+        print("   WARN BOARD/ not found or empty - cannot grade")
         return
-    newer, addressed = [], []
+    today, addressed, unrouted = date.today(), [], 0
     for p in sigs:
-        m = re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})-", p.name)
+        m = re.match(r"(SIG-W-(\d{4})(\d{2})(\d{2})-\d{3})", p.name)
         if not m:
             continue
-        d = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
-        if d <= last:
-            continue
-        newer.append((d, p))
-    for d, p in newer:                       # only read files newer than the last disposition
         try:
-            head = p.read_text(encoding="utf-8", errors="replace")[:1200]
+            head = p.read_text(encoding="utf-8", errors="replace")[:2000]
         except OSError:
             continue
-        for line in head.splitlines():
-            low = line.lower()
-            if low.startswith(("action:", "info:")) and "RED" in line:
-                addressed.append((d, low.split(":")[0], p.name))
-                break
-    print(f"   last board_log disposition : {last or '(none)'}")
-    print(f"   BOARD signals newer than it: {len(newer)}   of which RED-addressed: {len(addressed)}")
+        if not re.search(r"^\s*(action|to)\s*:", head, re.M):
+            unrouted += 1
+            continue
+        if not _red_addressed(head):
+            continue
+        sid = m.group(1)
+        age = (today - date(int(m.group(2)), int(m.group(3)), int(m.group(4)))).days
+        if sid not in logged:
+            addressed.append((age, sid, p.name))
+    addressed.sort(key=lambda r: -r[0])
+    print(f"   ledgers read      : {len(ledgers)} ({sum(1 for f in ledgers if 'archive' in str(f))} archived)"
+          f" - {len(logged)} ids logged")
+    print(f"   BOARD signals     : {len(sigs)} scanned, {unrouted} carry no routing key")
     if not addressed:
-        print("   🟢 nothing addressed to RED is undispositioned")
+        print("   OK  every action-addressed BOARD signal has a disposition row")
         return
-    act = [a for a in addressed if a[1] == "action"]
-    icon = "🔴" if act else "🟡"
-    print(f"   {icon} {len(addressed)} RED-addressed signal(s) newer than the last disposition"
-          f"{' — ' + str(len(act)) + ' are action:' if act else ' (info only)'}")
-    for d, kind, name in (addressed if verbose else addressed[:6]):
-        print(f"      {d}  {kind:<6} {name[:78]}")
-    if not verbose and len(addressed) > 6:
-        print(f"      … +{len(addressed) - 6} more (--verbose)")
-    print("   → consume, then append a row to board_log.tsv (timestamp/signal_id/disposition/source/notes)")
+    aged = [a for a in addressed if a[0] >= 2]
+    print(f"   ALERT {len(addressed)} action-addressed signal(s) UNLOGGED"
+          f" - {len(aged)} aged >=2d, oldest {addressed[0][0]}d")
+    for age, sid, name in (addressed if verbose else addressed[:8]):
+        print(f"      {sid}  {age:>4}d  {name[:64]}")
+    if not verbose and len(addressed) > 8:
+        print(f"      ... +{len(addressed) - 8} more (--verbose)")
+    print("   -> append a row per id to board_log.tsv"
+          " (timestamp/signal_id/disposition/source/notes); one word is a legitimate row")
 
 
 def main():
