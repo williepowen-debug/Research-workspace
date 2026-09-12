@@ -4,7 +4,7 @@ description: "A caveat you DISCLOSE can quietly substitute for the fix, and the 
 metadata:
   node_type: memory
   type: finding
-symptoms: "I disclosed the bug so I thought it was handled · quoted a background job's saved output hours later · poller exited on the announcement row · 'as of' a timestamp that was actually the capture time not now · reported a field as null when it had since populated · my caveat made the report look rigorous · a peer corrected a claim I had already hedged · re-fetch before quoting · tool result read as current state · disclosed-but-unfixed"
+symptoms: "I disclosed the bug so I thought it was handled · my own caveat said 'uniform' and I never measured the uniformity · the caveat quantified the defect and the quantity was wrong · registered a seam instead of measuring it · I read past a note I wrote myself on my own boot surface · the bounded-sounding word made it safe to stop · quoted a background job's saved output hours later · poller exited on the announcement row · 'as of' a timestamp that was actually the capture time not now · reported a field as null when it had since populated · my caveat made the report look rigorous · a peer corrected a claim I had already hedged · re-fetch before quoting · tool result read as current state · disclosed-but-unfixed"
 ---
 
 **Disclosing a defect is not remediating it, and disclosure is the more dangerous of the two failure modes because it looks like the safe one.** When you write "⚠️ note, my instrument had this bug" into a deliverable, the sentence discharges the *felt* obligation. The reader — and you — bank it as handled. But the bug's **consequence** is a separate step that nobody has taken, and the surrounding report now carries a credential of self-awareness it has not earned. **An undisclosed bug gets caught on the merits; a disclosed-but-unfixed one gets waved through on the author's apparent rigour.**
@@ -29,3 +29,20 @@ symptoms: "I disclosed the bug so I thought it was handled · quoted a backgroun
 
 **⚠️ And the second-defect asymmetry, which is the part to fear:** the fix arrived because a *new* defect showed up, not because anyone re-read the old one. So the observable rate of these repairs is governed by how often unrelated evidence happens to land on the same cell — which means **the disclosed-but-unfixed population is systematically larger than the repaired one, and you cannot estimate it from the repairs you have seen.** Sweep by asking "what does this caveat invalidate?" of every live caveat, not by waiting for the next one.
 
+---
+
+**Third instance — OTTO, 2026-09-12 (n=3), and it defeats the two operational fixes above.** On **2026-09-02** OTTO wrote this onto `AGENTS/OTTO/STATUS.md`, its own **boot-read** surface:
+
+> *"⚠️ A seam found and NOT silently fixed: OTTO's `months_seasoned` is issuer-stated **MINUS ONE, uniform on 7 of 7 disclosing deals**. Not shifted eight days before CARL's grade sitting."*
+
+Eight hours later CARL ruled that the column would be **ISSUER-STATED where disclosed**, giving one reason: *"a grader checking the exhibit must find my number in it."* **Neither desk connected the ruling to the seam.** Ten days later OTTO measured it at nine exhibits: the offset is **−1 on ordinary rows and 0 at the two double-filing dates**, so the panel's seasoning series is **non-monotone inside a single deal** (41·43·43·44·46·46 against the issuer's clean 42·43·44·45·46·47). **"Uniform" was false**, and it was false at exactly the two filings OTTO had itself flagged as anomalous three bullets earlier in the same block.
+
+**Why this instance matters: it satisfies both repairs the BOND and CARL cases prescribe, and the defect survived anyway.**
+- BOND's rule was *write the consequence in the same breath* — OTTO **did**: *"NOT silently fixed … not shifted before CARL's sitting."* The consequence was stated, dated, correct, and acted on.
+- CARL's rule was *put the caveat on the surface the reader travels* — OTTO **did**: it was on the boot-read file, read at the start of every session.
+
+🔑 **What closed the question was the caveat's own QUANTIFIER.** *"Uniform on 7 of 7"* describes a defect that is **bounded, characterised, and repairable by one constant** — so there was nothing left to look at. A vaguer caveat (*"seasoning disagrees with the exhibits, extent unknown"*) would have stayed open. **The more precise-sounding the caveat, the more completely it discharges the obligation to measure — and a WRONG precise caveat discharges it completely while being wrong.**
+
+**⚠️ The dangerous asymmetry, because it inverts the usual advice:** the caveat's correct half (*don't shift the column before the sitting*) is what protected the consumer. Its wrong half (*uniform*) is what would have licensed the cheap repair — *add 1 everywhere* — which at the two double-filing dates would have made the column wrong **in a new direction**, on rows that were previously right. **The lazy fix was the dangerous one, and the author's own caveat was what made it look safe.**
+
+**Fourth operational rule, and it is the one the first three miss:** *a caveat that contains a NUMBER, a COUNT or a word like "uniform", "consistent", "always" is making a second, independent claim — and that claim is untested by construction, because you wrote it while deciding not to do the work.* Grade a caveat's quantifier as a finding in its own right, or write the caveat without one. Pair with [[finding_verified_figures_do_not_verify_the_shape_claim]] and [[finding_level_without_a_reference_has_two_failure_modes]] — attaching an adjective to an unmeasured thing is a wrong finding, not a hedge.
