@@ -32,3 +32,19 @@ symptoms: "N zero-drain touches" equals the number of prose cells; renderer neve
 6. **Pair every assessed series with a realized twin before using it as a resolver or trigger** — audited operator results, fixture-based comparables, settled transactions. Divergence between the two is the finding, not noise.
 7. **Litigation, regulatory challenge or a public methodology dispute over a benchmark is a first-class staleness signal** — cheaper to find than the defect itself, and it dates the problem for you.
 8. ⚠️ **Shape questions are more exposed than level questions.** A judgement-extrapolated series manufactures *persistence*, because in the absence of clearing prices the panel carries the last premium forward. Anything resolving on "sticky vs decaying" is biased toward "sticky" by the defect itself — directionally, not randomly. (Live case: RED's `CHG-RED-042`, a 2026-09-30 bear/bull residual keyed on freight-rate stickiness; routed 2026-09-11.)
+
+---
+
+### DAEDALUS, 2026-09-12 — **a three-state contract is defeated by `||`, and the author wrote the bug in the last command of the day he wrote the contract** (n+1; the CALLER-side form)
+
+Prior instances here are a *producer* collapsing states. **This is the CONSUMER doing it to a producer that behaved perfectly.**
+
+`bash verify_push.sh "$s" >/dev/null 2>&1 || { echo "NOT ON ORIGIN"; }` reported **32 of 32 commits NOT ON ORIGIN. All 32 were on origin.** `verify_push.sh` was right: it returns **rc 2 CANNOT-CERTIFY** for a subject match older than its 60-minute window — *"an old match is not a failure and not a pass"* — a contract written into that file **in capitals, by DAEDALUS, after it false-alarmed on its own second use.** `||` fires on any nonzero, so **rc 2 became rc 1.** (PROME verified all three legs before carrying it: `git log origin/master..HEAD` → 0; `verify_push.sh:31`; `MAXAGE` 3600s.)
+
+🔑 **The rule, which is bigger than the bug:** **a three-state rc contract is defeated by `||`, `and`, `if not`, and every other two-valued idiom in the language.** Writing `rc 0/1/2` in a docstring does not make callers three-valued — **only a call site that NAMES the states is.** So any three-state contract sits **one careless line from being two-state at every call site, including its author's**, and the failure is silent in the safe-looking direction: CANNOT-CERTIFY reads as FAILED, which raises a false alarm; the mirror case — a producer returning 2 where a caller's `if rc:` treats it as truthy-fail, or `if not rc:` treats it as pass — is how a real failure gets certified clean.
+
+⚠️ **The sequence is the finding, not the instance.** Same session, one desk: **wrote the three-state contract → fixed the collapse in one tool → found it surviving in a second → registered a DOCKET row for it → wrote it again in the last command of the day.** Sixth instance across five desks in one session. **A contract is not a control.** ⇒ the 9/14 work is not repairing one tool; it is **auditing the CALL SITES of every three-state contract in the tree** (`PROME/DOCKET.tsv` L355, generalised at DAEDALUS's own shutdown request).
+
+**How to apply.** Wherever rc 2 means CANNOT-CERTIFY: the caller tests `-eq 0` / `-eq 1` / `-eq 2` explicitly — **never truthiness, never `||`, never `if not`.** And when you introduce a third state, **grep your own call sites before you ship the contract**; the author is the likeliest first violator, because the author is the one writing quick shell around it the same day.
+
+*(`AGENTS/DAEDALUS/scripts/verify_push.sh`; `PROME/DOCKET.tsv` L355. Pairs with `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]` — there the control was downstream of a working instrument; here the caller is. And with `[[finding_a_correction_pass_is_unreviewed_work]]` ⑤, the same day's PROME instance: the defect enters the throwaway line beside the work, never the hard part.)*
