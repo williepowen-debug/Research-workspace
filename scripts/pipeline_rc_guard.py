@@ -42,6 +42,17 @@ UNWIRED AT DELIVERY, BY DESIGN. Wiring a PreToolUse hook edits `.claude/settings
 not DAEDALUS's to change. PROME or Will wires it; the precedent and the exact shape to copy is the
 existing `git_guard.py` entry. Run `--selftest` before wiring.
 
+FALSE-POSITIVE RATE, MEASURED BEFORE WIRING (2026-09-12): harvested every piped shell command line
+from committed `.md`/`.sh`/`.tsv` in the repo — 3,039 of them — and ran this recogniser over all.
+**0 hits. FP rate 0.00%.** That matters because the one thing that would kill this guard is firing
+on the ordinary `cmd | head` idiom until its reader stops looking.
+⚠️ WHAT THAT MEASUREMENT DOES *NOT* ESTABLISH, and the distinction is PAT-083's: it shares a corpus
+with the census that found zero documented recipes, so the two are NOT independent confirmations
+that the repo is clean. It establishes only that the RECOGNISER does not over-fire on real committed
+command lines. The defect this guard exists for never appears in that corpus by construction — it
+lives in shell typed at the moment of use, which is why a 0% FP rate here says nothing at all about
+the TRUE-positive rate in the place it will actually run.
+
 Exit contract (CHECK_STANDARD §9): 0 always in hook mode (warn-only, fail-open by design).
                                    --selftest: 0 = every drill behaved · 1 = a drill failed.
 
