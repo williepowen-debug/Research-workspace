@@ -26,7 +26,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
 | **Bounce** | Mid-day restart; back within the hour | SCRATCH addendum (3-5 lines) | Optional 1-line checkpoint |
-| **Light** | Short session paused for hours; 1-2 artifacts | SCRATCH full rewrite + STATUS surgical | Optional |
+| **Light** | Short session paused for hours; 1-2 artifacts | SCRATCH **targeted update** (WQ-232 — never a mandated full rewrite) + STATUS surgical | Optional |
 | **Standard** *(default)* | End-of-thread / end-of-day | Chunk 1 + Chunk 2 (+ auto-memory if earned) + Chunk 4 + auto-push | Yes |
 | **Heavy** | Pattern-discovery session | Standard + design docs + Chunk 3 full sweep | Yes |
 
@@ -89,6 +89,24 @@ Update only the owner doc whose state actually changed:
 | Root `CLAUDE.md`, other shared/root docs | — | Flag to Will; never auto-edit. HEARTBEAT is the exception above. |
 
 **Default:** if no owner state changed, do not write back — state bloat is worse than a quiet closeout.
+
+**Light-tier SCRATCH — targeted update, decided by ONE test (WQ-232, 2026-09-11, Will-directed; fixture-validated):**
+**does the boot path already reach it?**
+
+| The thing that changed | Registered as | Boot reaches it via | SCRATCH |
+|---|---|---|---|
+| obligation with a date | `DOCKET.tsv` row | the generated DOCKET-VIEW block · firetime · spawn_list | **do NOT restate** |
+| decision needing Will | `WILL_QUEUE.md` § OPEN row | the generated Pending-Will block | **do NOT restate** |
+| blocker / gate state | `GATES.tsv` row | the gate's `review_by` / `consumed_by` / fired-unexecuted checks | **do NOT restate** |
+| **anything registered nowhere** | — | **nothing** | **WRITE IT — SCRATCH is its only carrier** |
+| **the resume pointer** (★ NEXT entry) | — | **no generator exists** | **write it whenever it changed** |
+
+⛔ **Preserving next-session information does NOT mean copying obligations into SCRATCH.** An
+existing obligation stays at its canonical source; restating a registered row is exactly the
+duplication this rule removes. **SCRATCH carries what no generator carries.**
+If none of the five rows changed, the correct Light closeout writes **no SCRATCH narrative** and
+says so explicitly — a stated no-op, never silence.
+*Fixture evidence + limitations: `PROME/proposals/2026-09-11_wq232-light-tier-scratch-conditional-SPEC.md`.*
 
 **Stamp canon:** an `Updated:` stamp names what the update covers. Material section additions bump it. A partially synced peer-facing surface carries a mixed-vintage banner naming which sections are current.
 

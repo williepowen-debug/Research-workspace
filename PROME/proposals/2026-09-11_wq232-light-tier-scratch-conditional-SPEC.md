@@ -68,3 +68,45 @@ pathspec/index problem and is NOT in scope here.
 ## Completion state
 **NOT IMPLEMENTED. NOT REVIEWED.** No blind read has seen this text. It is the next session's
 first edit, and it needs its own plan read before it touches `CLOSEOUT.md`.
+
+---
+
+## APPLIED 2026-09-11 21:0x ET — validation record
+
+**Will-directed** (*"Implement and validate only the Light-tier SCRATCH change"*), which overrides
+this session's WQ-178 file-closed state on `CLOSEOUT.md`. Publication cadence and every other
+state file untouched, as instructed.
+
+### The rule as applied
+One test — **does the boot path already reach it?** Registered in `DOCKET.tsv` / `WILL_QUEUE.md`
+§ OPEN / `GATES.tsv` ⇒ a generator or gate check reaches it ⇒ **SCRATCH does not restate it**.
+Registered nowhere, or the ★ NEXT resume pointer (which has no generator) ⇒ **SCRATCH writes it.**
+Nothing in those five rows changed ⇒ **stated no-op, no narrative.**
+
+### What was tested — disposable fixtures, all four PASS
+| # | Scenario | Method | Result |
+|---|---|---|---|
+| C | unchanged session | re-ran `docket_view.py --write` on an unchanged DOCKET into a SCRATCH copy | **byte-identical** ⇒ no SCRATCH edit required |
+| A | new obligation, registered in DOCKET, **no** SCRATCH narrative | appended fixture row `…-ZQ7` to a DOCKET copy, regenerated | **surfaces** in the generated block |
+| D | new decision, registered in WILL_QUEUE, **no** SCRATCH narrative | inserted fixture row `WQ-899` into a queue copy, ran `willq_view.py --queue` | **surfaces**, 1 occurrence **inside** the markers |
+| B | same obligation registered **nowhere** | regenerated against unmodified sources | **invisible to every generator** ⇒ SCRATCH is its only carrier |
+
+A+D establish that registered items need no SCRATCH copy; B establishes the floor that keeps the
+rule from silently dropping things; C establishes the no-op. No repo file was touched by any test.
+
+### What this removes from an ordinary session
+The **mandated SCRATCH full rewrite at Light tier**. Replaced by: write unregistered items and a
+changed resume pointer, or state a no-op. It removes a rewrite, not a check.
+
+### Remaining limitations — five, none closed
+1. ⚠️ **This change ADDED 1,962 B to `CLOSEOUT.md`, now 30,176 B = 92.7% of the 32,550 B read cap
+   (headroom 2,374 B).** A rule that reduces closeout work cost bytes on a capped manual. The
+   saving is in operations; the price is in a surface that is read whole.
+2. **Fixture-validated, NOT execution-validated.** No Light closeout has run under this rule.
+   A reading or fixture pass verifies mechanism; only execution verifies executability.
+3. **The test assumes the generators actually run.** If `docket_view.py --write` / `willq_view.py
+   --write` are skipped, a registered item is NOT discoverable and the rule silently under-writes.
+   It leans entirely on Chunk 1's regeneration steps.
+4. **Nothing mechanically detects "registered nowhere."** That judgment is PROME's each time; no
+   check fires when an unregistered obligation goes unwritten.
+5. **Not independently reviewed.** No plan read and no result read has seen this rule's text.
