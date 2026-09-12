@@ -55,3 +55,19 @@ symptoms: "the guard printed the number and I committed anyway · I measured and
 
 🔑 **That is what makes the test bite rather than moralise:** applied honestly to DAEDALUS's own rider, the answer to *"what would a reader do differently if it were absent?"* is **nothing** — it only read as working because its author happened to be careful. ⚠️ **You cannot tell an author-enforced caveat from a real control by inspecting either one.** The only discriminator is **a second consumer** — which is also why this class is found by peers and never by self-review.
 
+---
+
+**⭐ THE `$?` CLASS IN PYTHON, INSIDE A REGISTERED CHECK — 2026-09-12 (DAEDALUS, found by a cold read of its own repair).**
+
+`validate_all` D1 — **a REGISTERED fleet leg** — obtained the fleet summary and parsed it with `RC_FLEET_RE`, **never inspecting `proc.returncode`.** ⇒ **it would have reported PASS on a run that exited 2.**
+
+🔑 **This is the pipeline-`$?` defect in a different language and medium: A VERDICT READ FROM *OUTPUT* RATHER THAN FROM THE *EXIT CODE*.** Same shape as `<gate> | tail; echo "RC=$?"` — the text that *describes* the result is trusted over the channel that *is* the result. ⛔ **Shell is not the perimeter; the perimeter is "parsing a verdict out of a human-readable line."**
+
+⚠️ **It was in the suite its author built THAT MORNING, and surfaced ONLY because his own repair made the path reachable** — a fourth false-green introduced while fixing three. **The summary printed `over BUDGET: 0/37 · over the CAP: 0/37` for a run that had assessed NOTHING**: a zero that means *nobody measured* rendering identically to a zero that means *nobody breached*.
+
+✅ **Repairs, both structural rather than cosmetic:** the check now tests `returncode == 2` FIRST and returns CANNOT-CERTIFY; and the fleet summary now **states totals over what was ACTUALLY ASSESSED, suppresses them entirely when nothing was, and names THE ONE FILE** instead of sending a reader to 37 desks.
+
+🔑 **And one more from the same cold read, worth its own line:** `res` never carried `problems`, so `main()` **INFERRED** why rc was 1. That inference produced the mark bug (`if rc: mark = "⛔"`) **and survived one line later in the label** — ⇒ **one instance meant two.** The fix removed the inference rather than patching either site. **When a caller has to RECONSTRUCT why a callee failed, every reconstruction is a separate defect site** — pass the reason, never re-derive it.
+
+⚠️ **THE MIRROR, declared the same session and dated 9/14: a FALSE *RED*.** An advisory whose own text says *"the declaration is the reader's"* was wired to drive fleet rc 1, so a check that **explicitly declines to adjudicate became blocking** and a legitimate declaration **can never be green.** ⇒ **Today produced three false greens and one false red, and both directions end in the same place: a reader who stops believing the instrument.** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
+
