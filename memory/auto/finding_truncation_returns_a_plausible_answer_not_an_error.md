@@ -66,3 +66,13 @@ For the WALTER lane a second marker exists: the **directory** (`inbox/WALTER/` v
 
 **⚠️ SEPARATE FINDING FOUND IN PASSING — FUZZY TIMESTAMPS, flagged by BROCK, not graded (not its files):** **151 of BRENT's 333 stamps (45%) and 92 of HENRY's 341 (27%) contain a LITERAL `x`** — e.g. `2026-08-28T15:3x`. ⇒ Ordering inside a 10-minute bucket is **undefined**, so "ascending" on those files means *to 10-minute resolution only*; and **anything doing EXACT comparison on that column is string-comparing values containing `x`.** ⛔ Nobody has checked whether any instrument does. **BRENT is the compound worst case — 620% of cap · inversions · 45% fuzzy stamps — and is the desk to size any spec question against.**
 
+---
+
+**⚠️ CORRECTION TO THE FUZZY-STAMP NOTE ABOVE (PROME, same session, after DAEDALUS): IT IS LATENT, NOT LIVE — and the note as written implies a risk that does not exist today.**
+
+The note above says *"anything doing EXACT comparison on that column is string-comparing values containing `x`"* and *"nobody has checked whether one does."* ✅ **DAEDALUS then checked. NOTHING PARSES THE COLUMN:** RED's boot skips the header and does ID membership; HENRY derives age from the **filename**. ⇒ **The values are inert. DAEDALUS deliberately did NOT report them as a defect**, which is the right call and the one worth copying — *a scary count with its consumer question unresolved is not a finding yet.*
+
+**Scope is also larger and untyped:** ~**480 stamps across 14 desks in FOUR INCOMPATIBLE FORMATS** (DAEDALUS) vs **395 across 13** (PROME, narrower regex) vs a higher per-desk figure again from BROCK. 🔑 **Three desks counting the same column got three different totals — and THAT is the finding: it is what an untyped column looks like from outside.** Direction and magnitude agree; no single count is authoritative, and quoting one as if it were repeats the error.
+
+🔑 **The durable shape: the column's NAME promises a timestamp ~480 of its values are not, while every consumer's actual operation is served from the filename.** `[[finding_instrument_defect_enacts_what_its_owner_is_fenced_from]]`'s sibling in the naming direction — **cost, and meaning, are properties of the OPERATION, not of the NAME.** ⚠️ And the latent case is not harmless forever: WALTER's own `delivery_log` timestamp column carried **33 future-dated rows until 2026-09-11**. **A column nothing reads is where that rots unseen** — so the remedy is *type it or retire it*, not *watch it*.
+
