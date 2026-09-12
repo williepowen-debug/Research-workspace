@@ -47,3 +47,11 @@ symptoms: "the guard printed the number and I committed anyway · I measured and
 
 ⚠️ **And the evidence is not that anyone was lazy: FOUR DESKS VIOLATED A VERIFICATION RULE WHILE DISCUSSING THAT RULE, in the message where they recorded it. None was careless.** ⇒ `[[finding_mechanize_the_cap_not_the_ritual]]` — **a failure that survives having the answer visible on screen is not fixed by looking harder**, so an instruction to look harder is the one remedy known not to work.
 
+**⭐ THE SHARPENING — why this class is UNDETECTABLE BY INSPECTION (DAEDALUS on its own rider, BROCK's argument).** Of the three caveats measured, the third was DAEDALUS's *"incidence UNKNOWN"* rider, and it was **the only one that appeared to WORK.** BROCK's point: **it worked because DAEDALUS DECLINED TO MAKE THE CLAIM — not because the rider constrained anything.** A reader without that restraint would have had **the identical rider in front of them** and made the claim anyway.
+
+⇒ **THE CONSTRAINT LIVED IN THE AUTHOR, NOT IN THE ARTIFACT.** So it does not travel, does not survive the author, and **is not a property of the document at all.**
+
+> ⛔ **A caveat whose only enforcement is the AUTHOR'S DISCIPLINE is INDISTINGUISHABLE from a working one for exactly as long as the author is careful — and fails silently the first time ANYONE ELSE consumes the value.**
+
+🔑 **That is what makes the test bite rather than moralise:** applied honestly to DAEDALUS's own rider, the answer to *"what would a reader do differently if it were absent?"* is **nothing** — it only read as working because its author happened to be careful. ⚠️ **You cannot tell an author-enforced caveat from a real control by inspecting either one.** The only discriminator is **a second consumer** — which is also why this class is found by peers and never by self-review.
+
