@@ -99,6 +99,14 @@ SEARCH_EXTS = {".md", ".tsv", ".csv", ".txt"}
 EXCLUDE_PARTS = {
     ".git", "processed", "archive", "_archive", "archived",
     "node_modules", ".venv", "retired", "history",
+    # FROZEN TEST FIXTURES ARE NOT LIVE SURFACES — a pinned old figure there IS the point of the
+    # fixture (`finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit`). Scoring
+    # one 🔴 tells an owner to packet a file nobody should touch. MIDAS 2026-09-11, PROME-reproduced:
+    # `consumer_check --agent MIDAS --old 4,476.60 --new 4,407.30` returned two 🔴 on
+    # `PROME/tools/tests/fixtures/HEARTBEAT_2026-09-08_am2.md:37,54`. Same class as the existing
+    # history/archive components. Matched as path COMPONENTS, so a file merely NAMED "…fixtures….md"
+    # outside a tests/ dir stays scanned.
+    "tests", "fixtures",
 }
 
 # A hit line (or its neighbourhood) carrying one of these is already handled.

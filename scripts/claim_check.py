@@ -78,6 +78,28 @@ _DAY_CI = r"(?P<day>(?i:" + _DAY_ALT[1:-1] + r"))"          # named, case-insens
 _TRAIL_DAY = r"(?i:" + _DAY_ALT + r")"                         # unnamed, for trailing-pair lookups
 _MON = r"(?P<mon>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)[a-z]*\.?"
 _MON_DAY = r"\s+(?P<dd>\d{1,2})(?![\d/])(?P<rng>[-–—]\d{1,2}(?!\d))?(?:,?\s+(?P<yy>20\d{2}))?"
+# "sat" is the ONLY English verb that collides with a weekday abbreviation, and the AFTER form
+# ("<date> sat") is where it bites: DEWEY 2026-09-10 flagged `AGENTS/DEWEY/output/INDEX.tsv:49`
+# — "…and on 7/31 sat 5 sessions off a 52wk HIGH…" — as "2026-07-31 is a Friday, not sat".
+# No edit followed (the "a flag is a prompt to LOOK" guard held), but the checker runs fleet-wide
+# at every closeout step 1e, so one false positive is one per desk per run.
+# ⚠️ FAIL DIRECTION (DEWEY's rider, and it governs the shape of this fix): the defect is a false
+# POSITIVE — loud and safe. It must NOT be fixed by loosening the weekday check generally
+# (`finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction`). So this
+# suppression is scoped to the single token `sat`, LOWERCASE, and only when it is NOT bounded as
+# a weekday: a capitalised `Sat`, or a `sat` adjacent to a delimiter — `(sat)`, `sat,`, `sat.`,
+# `sat-sun`, or end-of-line — still flags. The verb form is `sat` followed by whitespace and a
+# word character ("sat 5 sessions", "sat above"). Everything else keeps today's behaviour.
+_VERB_SAT_TAIL = re.compile(r"\s+\w")
+
+
+def _verb_sat(line, m):
+    """True when this AFTER-form match is the English verb 'sat', not Saturday."""
+    if m.group("day") != "sat":            # case-sensitive on purpose: `Sat` is the weekday
+        return False
+    return bool(_VERB_SAT_TAIL.match(line, m.end("day")))
+
+
 RE_WEEKDAY_AFTER = re.compile(
     r"(?<![\w/])(?P<date>" + _NUM_DATE[1:-1] + r")(?P<rng>[-–—]\d{1,2}(?:/\d{1,2})?)?"
     r"(?:[\s,.\-–—]+\(?|\s*\()" + _DAY_CI + r"\)?(?![A-Za-z])")
@@ -244,6 +266,8 @@ def weekday_flags(rel, n, line, year):
             continue                       # date already graded by form 1
         if RE_WEEKDAY.match(line, m.start("day")):
             continue                       # "9/6 \u2014 Mon 9/8": Mon belongs to 9/8
+        if _verb_sat(line, m):
+            continue                       # "on 7/31 sat 5 sessions off a 52wk HIGH" \u2014 see _verb_sat
         d = parse_date(m.group("date"), borrow_year(line, years, m.group("date"), m.start(), year))
         if not d:
             continue
@@ -407,6 +431,16 @@ SELFTEST = [
     ("x 9/6 (Saturday) y", 1),           # was CLEAN — parenthetical
     ("x Sep 6 (Sat) y", 1),              # was CLEAN — month-name form
     ("x Saturday 9/6 y", 1),             # flagged before, must still
+    # THE ENGLISH VERB "sat" (DEWEY 2026-09-10) — both directions, per the fail-direction rider.
+    # 2026-07-31 is a FRIDAY, so every "7/31 + Saturday-token" case below is a REAL mismatch and
+    # must still flag; only the VERB reading is suppressed.
+    ("and on 7/31 sat 5 sessions off a 52wk HIGH", 0),   # the verb — the false positive, now 0
+    ("the index 7/31 sat above its 200dma", 0),          # verb, second shape
+    ("x 7/31 Sat y", 1),                 # capitalised weekday on a Friday — MUST still flag
+    ("x 7/31 (sat) y", 1),               # delimiter-bounded lowercase — MUST still flag
+    ("x 7/31 sat, and then", 1),         # comma-bounded — MUST still flag
+    ("x 7/31 sat", 1),                   # end-of-line, nothing follows — MUST still flag
+    ("x 9/12 sat 5 sessions", 0),        # verb, and 9/12 IS a Saturday — no flag either way
     # negative controls — word-boundary guards
     ("x satisfaction 9/6 y", 0),
     ("x 9/6 satisfaction y", 0),
