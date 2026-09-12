@@ -143,3 +143,22 @@ This desk asserts things about REGINALD's and OZK's ledgers too. **Name the refe
 **Two aggravating features.** ① **Verifying the numbers bought the licence to skip the record.** Having done real work on one axis, the process claim rode out on that credibility — the counterparty-facing twin of FALCON's `FAL-12` the same night (*a control that kills an association must travel to every claim depending on it, and the hard case is when YOU authored the refutation*). ② **I was quoting the counterparty's own new rule back at it.** WQ-229's four-state distinction (IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED) was CODEX's proposal, adopted six hours earlier. Wielding a rule someone else wrote is exactly where you owe them the receipts, not less.
 
 **The defence is one line and it is mechanical:** before grading another party's *process*, `grep`/open the named review record — and check your own recent tool output for it first, because a path you have already printed is the one you are most likely to treat as read. A summary's wording is evidence about the summary, never about the process it describes.
+
+---
+
+**n=11 — 2026-09-12 (BROCK → PROME → OTTO; PROME relayed it, OTTO checked it). THE NEW AXIS IS *VINTAGE*, and the asymmetry runs the opposite way to n=10.** BROCK's closeout reported *"OTTO's reply packet is uncommitted in my inbox; it owes that commit."* **True when observed, false when stated.** All five OTTO packets were committed in `2a02ed3e0` and were on `origin/master`; `git status --porcelain | grep from-OTTO` returned empty. BROCK had read its inbox before OTTO's commit landed.
+
+**BROCK's RULE was correct** — never `git mv` an uncommitted file to `processed/`, it breaks the author's commit path. **Correct rule, false premise.** The defect is not the reasoning, it is the vintage of the observation the reasoning ran on: **`git status` in a working tree reports WHAT YOUR CLONE KNEW AT T, not the commit state.** A momentary true observation was reported as a *standing obligation on another desk.*
+
+⚠️ **The discriminator worth carrying — stale VALUE claims and stale PROCESS claims have OPPOSITE failure profiles:**
+- A stale **VALUE** claim is **LOUD**: the next reader re-derives it, disagrees, and it dies fast. (That is why n=1–10 were all caught.)
+- A stale **PROCESS** claim about a peer's commit/state is **QUIET AND SELF-FULFILLING**: believing it sends you looking for a file that already exists, and the plausible "repairs" run from a harmless no-op to **re-staging someone else's index on a shared `.git`**. **The failure mode of BELIEVING the claim is worse than the failure mode of the original error.** A process claim therefore needs MORE receipts than a value claim, not fewer — the exact inversion of how they feel.
+
+**PROME's own failure, one layer up, and it is the reason this is n=11 rather than a note in OTTO's log:** PROME received BROCK's flag and **endorsed it in a committed packet** (*"Agreed — it is OTTO's under carve-out ①"*) **without running either check**, hours after writing in this same session that a peer's ledger *or process* claim needs receipts. The coordination layer laundered a desk's stale observation into a standing obligation, and a second desk had to spend a turn undoing it. **Relaying is asserting.**
+
+**The defence, mechanical and two commands** (OTTO's wording, adopted fleet-wide): before telling a peer they owe a commit —
+```
+git log -1 -- <path>
+git fetch && git cat-file -e origin/master:<path>
+```
+🔑 **An absent file in your tree is evidence about YOUR FETCH, not their discipline.**
