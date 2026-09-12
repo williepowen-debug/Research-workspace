@@ -19,6 +19,7 @@ import os
 import re
 import sys
 from datetime import date, datetime, timedelta
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
@@ -215,23 +216,48 @@ def pull_tape():
     return prices, fred
 
 
+def scaled(published, scale):
+    """Scale a PUBLISHED value exactly, in decimal, never in binary float.
+
+    WHY (DOCKET L258, DAEDALUS 2026-09-12; fixed S44 same day): every credit line is
+    registered in bps but PUBLISHED by FRED in percent at 2dp, so the tool multiplies by
+    100. In binary float `float("9.30") * 100 == 930.0000000000001`, which is `> 930`.
+    RED-FT-07's letter is `CCC-OAS > 930` STRICT with sustain 1 — so a published 9.30
+    print FIRED a band the letter says must not fire, on the first observation, with no
+    sustain window to absorb it.
+
+    NOT HYPOTHETICAL: `9.30` has printed 5 times in BAMLH0A3HYC's 787-observation history
+    (2024-02-14, 2024-07-16, 2024-07-18, 2025-06-04, 2025-06-10) and all 787 observations
+    publish at exactly 2dp, so the tie value sits squarely on the publication grid.
+
+    Decimal multiplication on the published STRING is exact: Decimal("9.30") * 100 = 930.00.
+    The float conversion afterwards is safe because the product is now an exact decimal that
+    is representable. This is a CONFORMANCE repair, not a threshold change - it makes the
+    instrument agree with the letter it was always supposed to implement.
+    """
+    try:
+        return float(Decimal(str(published)) * Decimal(str(scale)))
+    except (InvalidOperation, ValueError, TypeError):
+        return float(published) * float(scale)
+
+
 def live_value(src_type, key, field, scale, prices, fred):
     if src_type == "cboe":
         rows = cboe_skew()
-        return float(rows[-1][1]) * float(scale) if rows else None
+        return scaled(rows[-1][1], scale) if rows else None
     if src_type == "yf":
         d = prices.get(key, {})
         v = d.get(field if field else "price")
-        return float(v) * float(scale) if v is not None else None
+        return scaled(v, scale) if v is not None else None
     obs = fred.get(key) or []
     if obs and "value" in obs[0]:
-        return float(obs[0]["value"]) * float(scale)
+        return scaled(obs[0]["value"], scale)
     return None
 
 
 def fred_trail(key, scale, fred, n):
     obs = fred.get(key) or []
-    return [float(o["value"]) * float(scale) for o in obs[:n] if "value" in o]
+    return [scaled(o["value"], scale) for o in obs[:n] if "value" in o]
 
 
 def cmp_op(v, op, thr):

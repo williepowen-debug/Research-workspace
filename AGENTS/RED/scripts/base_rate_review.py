@@ -36,6 +36,7 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
+from decimal import Decimal, InvalidOperation
 from datetime import date
 from pathlib import Path
 
@@ -98,12 +99,27 @@ def series_asc(metric: str) -> list[float]:
     src, key, scale = HISTORY_MAP[metric]
     if src == "fred":
         obs = fetch.fred_fetch(key, limit=FRED_LIMIT)
-        vals = [float(o["value"]) * scale for o in reversed(obs) if "value" in o]
+        # Exact decimal scaling — see boot.py scaled(): float("9.30")*100 = 930.0000000000001,
+        # which is > 930 and silently counted 5 historical ties as FT-07 fires (DOCKET L258).
+        vals = [_scaled(o["value"], scale) for o in reversed(obs) if "value" in o]
     else:
         import yfinance as yf
         h = yf.Ticker(key).history(period="3y")
-        vals = [float(v) * scale for v in h["Close"].dropna().tolist()]
+        vals = [_scaled(v, scale) for v in h["Close"].dropna().tolist()]
     return vals
+
+
+def _scaled(published, scale):
+    """Scale a PUBLISHED value in exact decimal, never binary float (DOCKET L258).
+
+    The base-rate path must use the SAME arithmetic as the live path in boot.py, or the
+    published base rate describes a threshold the tool does not actually evaluate. Before
+    this fix the two agreed only because BOTH were wrong in the same direction.
+    """
+    try:
+        return float(Decimal(str(published)) * Decimal(str(scale)))
+    except (InvalidOperation, ValueError, TypeError):
+        return float(published) * float(scale)
 
 
 def cond(op: str, threshold: float):
