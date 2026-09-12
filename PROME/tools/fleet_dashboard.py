@@ -348,6 +348,28 @@ def parse_spine_stamp(today):
 
 STATE_PATH = os.path.join(REPO, "PROME", "tools", "dashboard_state.json")
 
+# L339: STATE_PATH is written ONLY on a clean build, so it cannot record that a
+# build was attempted and failed -- and the gate that reads it then certifies
+# whatever stale snapshot is on disk. This receipt is the missing half: every
+# NON-PREVIEW run records its own outcome here, success or failure (a failing
+# run writes a receipt but does NOT advance the baseline -- the two are
+# different things). `attempted` carries the run's own `built` stamp, so a
+# receipt and a snapshot are compared on CONTENT alone -- never on mtime, which
+# git sync restamps (root CLAUDE.md Data Hygiene; to see the divergence for
+# yourself, compare `stat` against the file's own `built` field).
+BUILD_PATH = os.path.join(REPO, "PROME", "tools", "dashboard_build.json")
+
+
+def write_build_receipt(built, errors):
+    """Record this run's outcome atomically. Previews never call this."""
+    receipt = {"v": 1, "attempted": built, "ok": not errors, "errors": list(errors)}
+    tmp = BUILD_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(receipt, f, indent=1, sort_keys=True)
+        f.write("\n")
+    os.replace(tmp, BUILD_PATH)
+    return receipt
+
 # ticker-token prefix (HEARTBEAT stress dashboard) -> SERIES name (FORGE config.py).
 # Presentation wiring only — the levels and the bands both stay canon-owned.
 # 8/16 (DAEDALUS sweep-1 item 4): tile count had attrited 13→4 across the
@@ -1290,17 +1312,47 @@ def main():
     ap.add_argument("--no-snapshot", action="store_true", help="Preview without advancing the change baseline")
     args = ap.parse_args()
     now = dt.datetime.now(ZoneInfo("America/New_York"))
-    html_out, snap = build(now.date(), now.strftime("%Y-%m-%d %H:%M"), args.sessions_json)
+    built = now.strftime("%Y-%m-%d %H:%M")
+    try:
+        html_out, snap = build(now.date(), built, args.sessions_json)
+    except BaseException as exc:
+        # L339 ❌1 (independent read): build() collects SOME failures into
+        # heartbeat_errors/attention_errors, but an unguarded read() or a bad
+        # DOCKET date raises instead. A raise used to skip the receipt entirely,
+        # leaving the PREVIOUS run's ok:true in place -- so the gate certified a
+        # stale snapshot by name. A run that started and did not finish is a
+        # failed build, and must record itself as one.
+        if not args.no_snapshot:
+            write_build_receipt(built, [f"build did not complete: {type(exc).__name__}: {exc}"])
+        print(f"BUILD CRASHED -- {os.path.relpath(STATE_PATH, REPO)} NOT updated.",
+              file=sys.stderr)
+        raise
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(html_out)
-    if not args.no_snapshot and not snap["heartbeat_errors"] and not snap.get("attention_errors"):
+    errors = list(snap["heartbeat_errors"]) + list(snap.get("attention_errors") or [])
+    if errors:
+        # L339 A2 / ❌3: the error list reaches the operator on ANY failing run,
+        # preview included. A preview is the first thing a cautious operator
+        # runs; an rc=1 with an empty stderr there is the original symptom.
+        print(f"BUILD FAILED ({len(errors)} error(s)) -- "
+              f"{os.path.relpath(STATE_PATH, REPO)} NOT updated, still at an older build.",
+              file=sys.stderr)
+        for e in errors:
+            print(f"  - {e}", file=sys.stderr)
+    if args.no_snapshot:
+        # A preview advances nothing and asserts nothing about the baseline (A7).
+        print(f"wrote {args.out}; preview only (no snapshot, no receipt)")
+    elif not errors:
         with open(STATE_PATH, "w", encoding="utf-8") as f:
             json.dump(snap, f, indent=1, sort_keys=True)
             f.write("\n")
+        write_build_receipt(built, errors)
         print(f"wrote {args.out}; updated {os.path.relpath(STATE_PATH, REPO)}")
     else:
-        print(f"wrote {args.out}; change baseline unchanged")
-    return 1 if snap["heartbeat_errors"] or snap.get("attention_errors") else 0
+        write_build_receipt(built, errors)
+        print(f"wrote {args.out}; change baseline unchanged "
+              f"({len(errors)} build error(s) -- {os.path.relpath(BUILD_PATH, REPO)})")
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":

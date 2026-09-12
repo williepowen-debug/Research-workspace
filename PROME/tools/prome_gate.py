@@ -501,28 +501,85 @@ def check_heartbeat_chain():
     record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail, src)
 
 
+def check_dashboard_build_receipt(state_built):
+    """L339: fleet_dashboard.py writes dashboard_state.json ONLY on a clean
+    build, so a FAILING build leaves the previous snapshot in place and returns
+    rc=1 silently — and every check below then certifies that stale snapshot and
+    passes. The receipt records each baseline-advancing run's own outcome; this
+    check refuses a snapshot that is not the product of the latest build.
+    Compared on CONTENT stamps only, never mtime (git sync restamps mtime).
+    Returns "" when the snapshot is certified current, else a stale-note prefix."""
+    path = ROOT / "PROME/tools/dashboard_build.json"
+    src = "PROME/tools/fleet_dashboard.py (rebuild; fix the build, never the state file)"
+    name = "dashboard state is the product of the latest build (L339)"
+    try:
+        r = json.loads(path.read_text())
+        # Everything that dereferences `r` stays INSIDE this try. A receipt that
+        # is valid JSON but not an object ([], null, "ok", 3) used to raise
+        # AttributeError out of this function, and main() wraps no check --
+        # so every LATER gate check silently never ran. Failing open on a
+        # malformed input is worse than the defect this check exists to catch.
+        if not isinstance(r, dict):
+            raise TypeError(f"receipt is {type(r).__name__}, expected an object")
+        attempted = str(r.get("attempted", ""))
+        ok = r.get("ok")
+        errs = r.get("errors") or []
+    except FileNotFoundError:
+        # NOT the same as a failed build: nothing has been recorded either way.
+        record(BLOCK, name, False,
+               "NO BUILD RECEIPT — cannot establish that dashboard_state.json came "
+               "from the latest build; run fleet_dashboard.py", src)
+        return "UNCERTIFIED SNAPSHOT — "
+    except Exception as e:
+        record(BLOCK, name, False, f"build receipt unreadable: {type(e).__name__}: {e}", src)
+        return "UNCERTIFIED SNAPSHOT — "
+    if not ok:
+        record(BLOCK, name, False,
+               f"LAST BUILD FAILED at {attempted or 'unknown'} ({len(errs)} error(s)): "
+               + " | ".join(str(e) for e in errs)
+               + f" — dashboard_state.json still at {state_built or 'unknown'}", src)
+        return "STALE SNAPSHOT (last build failed) — "
+    if attempted != state_built:
+        # Both stamps are YYYY-MM-DD HH:MM, so a string compare gives the
+        # direction for free. Asserting "older" unconditionally printed a
+        # sentence the two numbers beside it refuted, and sent a cold reader
+        # to fix the wrong file.
+        older = "OLDER than" if state_built < attempted else "NEWER than"
+        record(BLOCK, name, False,
+               f"snapshot does not match the last build — state is {older} it: "
+               f"state built {state_built or 'unknown'}, last build {attempted}", src)
+        return "STALE SNAPSHOT (does not match last build) — "
+    record(BLOCK, name, True, f"last build {attempted} succeeded and produced this snapshot", src)
+    return ""
+
+
 def check_dashboard_state():
     """The publisher's own blank panels — the 4-day silent regression class.
-    BLOCKING on emptiness (a degraded Will-facing page), advisory on vintage."""
+    BLOCKING on emptiness (a degraded Will-facing page), advisory on vintage.
+    L339: the checks below certify the FILE — the receipt check above certifies
+    that the file is the latest build's output. A green line here over a stale
+    snapshot is the exact shape that let a failed build ship."""
     path = ROOT / "PROME/tools/dashboard_state.json"
     try:
         s = json.loads(path.read_text())
     except Exception as e:
+        check_dashboard_build_receipt("")
         record(BLOCK, "dashboard panels nonempty", False, f"state unreadable: {e}",
                "PROME/tools/fleet_dashboard.py")
         return
+    built = s.get("built", "")
+    stale = check_dashboard_build_receipt(built)
     empty = [k for k, v in (("one-liner", s.get("one")), ("channels", s.get("channels")),
                             ("levels", s.get("levels"))) if not v]
     record(BLOCK, "dashboard panels nonempty", not empty,
-           ("EMPTY: " + ", ".join(empty)) if empty else "one-liner/channels/levels populated",
+           stale + (("EMPTY: " + ", ".join(empty)) if empty else "one-liner/channels/levels populated"),
            "PROME/tools/fleet_dashboard.py (rebuild; if still empty a parser broke — PAT-069)")
-    built = s.get("built", "")
     try:
         age_h = (dt.datetime.now() - dt.datetime.strptime(built, "%Y-%m-%d %H:%M")).total_seconds() / 3600
         record(ADVISE, f"dashboard vintage ≤{DASH_STALE_HOURS}h", age_h <= DASH_STALE_HOURS,
-               f"built {built} ({age_h:.0f}h ago)", "regenerate + republish to the RECORDED URL")
+               stale + f"built {built} ({age_h:.0f}h ago)", "regenerate + republish to the RECORDED URL")
     except ValueError:
-        record(ADVISE, "dashboard vintage", False, f"unparseable built stamp '{built}'",
+        record(ADVISE, "dashboard vintage", False, stale + f"unparseable built stamp '{built}'",
                "PROME/tools/fleet_dashboard.py")
     # PAT-105 content assertions (8/16, DAEDALUS sweep-1 guard rec, Will "go"):
     # nonemptiness certifies presence, not truth — every live Will-facing
@@ -556,7 +613,7 @@ def check_dashboard_state():
     except Exception as e:
         bad.append(f"grid-agreement check unavailable ({type(e).__name__})")
     record(ADVISE, "dashboard content assertions (PAT-105)", not bad,
-           "; ".join(bad) or "one-liner sane · split populated · tile floor met · grid agrees with freshness",
+           stale + ("; ".join(bad) or "one-liner sane · split populated · tile floor met · grid agrees with freshness"),
            "PROME/tools/fleet_dashboard.py (rebuild + fix the parser, never the state file)")
 
 

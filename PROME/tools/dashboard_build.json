@@ -1,0 +1,8 @@
+{
+ "attempted": "2026-09-11 23:18",
+ "errors": [
+  "each HEARTBEAT amendment needs one reviewed dashboard projection"
+ ],
+ "ok": false,
+ "v": 1
+}
