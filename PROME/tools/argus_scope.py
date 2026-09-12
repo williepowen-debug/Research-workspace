@@ -249,7 +249,8 @@ def main(argv=None):
         print(f"ARGUS-SCOPE · baseline {base['sha'][:9]} — {base.get('subject','')[:80]}")
         print(f"  recorded baseline: {BASELINE_FILE} · perimeter: {PERIMETER_FILE}")
         print(f"  OWNED {len(lanes['OWNED'])} · SHARED {len(lanes['SHARED'])} · "
-              f"UNATTRIBUTED {len(lanes['UNATTRIBUTED'])} · excluded {len(excluded)} · verdict: {verdict}")
+              f"UNATTRIBUTED {len(lanes['UNATTRIBUTED'])} · excluded {len(excluded)} entries "
+              f"(STATES, not unique paths — a path changed both in-commit and pending counts twice; do NOT add this to the shown count) · verdict: {verdict}")
         for lane in ("OWNED", "SHARED", "UNATTRIBUTED"):
             for e in lanes[lane]:
                 state = ("committed+PENDING" if e["committed"] and e["pending"]

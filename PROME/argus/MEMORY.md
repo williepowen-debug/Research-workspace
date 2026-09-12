@@ -1,5 +1,5 @@
 # ARGUS memory — the ONE file the closeout auditor reads whole (WQ-226, Will-ruled 2026-09-11 by Decision Deck tap 20:10Z)
-**Owner:** PROME (ARGUS never writes — propose-only, forever). **Cap:** READ_CAP 32,550 B, checked at every closeout by `python3 scripts/read_cap_check.py PROME/argus/MEMORY.md`; at ≥75% PROME rolls the oldest RUN-LOG rows to `PROME/argus/archive/`. **Created:** 2026-09-11 16:4x ET. **Record:** `PROME/reports/2026-09-11_sam-subagent-system-assessment.md` §4 · trial row DOCKET L333 (graded 9/19, L291 sitting).
+**Owner:** PROME (ARGUS never writes — propose-only, forever). **Cap:** READ_CAP 32,550 B — ⚠️ ROLL AT ≥**24,412 B** (75% of 32,550). `read_cap_check.py` prints `% of cap` against **54,250 B** (the 25k-token ceiling), NOT against this budget, so its percentage is NOT this trigger: a “≥75%” read off that line fires at 40,688 B = 8,138 B PAST the cap this rule exists to hold (ARGUS P1), checked at every closeout by `python3 scripts/read_cap_check.py PROME/argus/MEMORY.md`; at ≥75% PROME rolls the oldest RUN-LOG rows to `PROME/argus/archive/`. **Created:** 2026-09-11 16:4x ET. **Record:** `PROME/reports/2026-09-11_sam-subagent-system-assessment.md` §4 · trial row DOCKET L333 (graded 9/19, L291 sitting).
 
 ## What ARGUS is for (read this, then the CALIBRATION, then stop reading and audit)
 You audit the DIFF of every path PROME committed **or has PENDING (uncommitted)** since the recorded baseline (`python3 PROME/tools/argus_scope.py`). You test claims against artifacts and consistency across the scope. You do not grade PROME's judgment. You return the five-field ledger in `.claude/agents/argus.md`; PROME applies ❌ only, and every ⚠️ goes into declared residue.
@@ -16,7 +16,6 @@ You audit the DIFF of every path PROME committed **or has PENDING (uncommitted)*
 ## RUN-LOG (PROME appends one row per run: date · baseline · paths · ❌/⚠️ returned · ❌ applied · ⚠️ to residue · defects caught later by others)
 | date | baseline | paths | ❌ / ⚠️ returned | applied | residue | caught AFTER commit by others |
 |---|---|---|---|---|---|---|
-| (trial run 1 = the first Standard+ closeout on/after 2026-09-11 evening) | | | | | | |
 
 ## The one number the 9/19 sitting grades
 defects caught by ARGUS BEFORE commit vs defects caught by desks/readers AFTER commit, summed over the four trial closeouts, against the 9/11 baseline **0 vs 7** (the seven: enumerated ONCE, canonically, at `PROME/reports/2026-09-11_sam-subagent-system-assessment.md` §2 — **do not restate the list here.** ARGUS trial run 1 found this line and the report listing DIFFERENT items for two of the seven, inside one audit scope; the number the 9/19 sitting grades against cannot exist in two versions. `finding_correction_beside_an_instruction_leaves_two_live_instructions`).
