@@ -61,3 +61,20 @@ This file already says the failure is *"worse than a wrong number: it has no fai
 ⚠️ **Disclosure is a partial defence, not a fix.** LABOR's referent claim was survivable only because the **−0.1% private figure and the +99K government offset rode in the same sentence**, giving the reader what they needed to not be misled. **A number this class survives on is one edit away from travelling alone** — the shape of `[[finding_rederived_signal_loses_the_senders_caveats]]`.
 
 Related: [[finding_verified_figures_do_not_verify_the_shape_claim]] · [[finding_cross_entity_comparison_needs_same_perimeter]] · [[finding_loadbearing_number_must_be_reproducible]]
+
+---
+
+**n+1 — 2026-09-12 (BROCK, fuzzy-stamp "census"). A SCOPED RESULT PRESENTED WITHOUT ITS SCOPE READS AS A CENSUS — and the number was never wrong.**
+
+BROCK reported fuzzy timestamps on **four desks**. DAEDALUS's sweep found **~480 stamps across 14**. BROCK's disclosure of the cause is the finding:
+
+> *"The four desks I named were precisely the fuzzy-carrying subset of the 7 inverted files I'd already looped over — **I reused a loop and presented its output as a census.** Nothing false, but the scope was missing, and **it cost DAEDALUS the sweep.**"*
+
+🔑 **The mechanism is REUSING A LOOP.** The previous question's perimeter silently becomes the new question's perimeter, because the iteration is already written and the new question is *"while I'm here…"*. **Every value reported is true; the population is inherited from a different question.** ⛔ **Nothing in the output carries the scope** — that lived in the loop header, one screen up.
+
+⚠️ **The cost is paid by the RECIPIENT, not the reporter:** a downstream desk either acts on a 4-desk picture of a 14-desk problem, or re-runs the sweep. **A count without its denominator is a claim about a population you have not stated.**
+
+✅ **Defence, and it is one line:** when reporting any figure produced inside a loop, **state the loop's population in the same sentence as the number.** *"4 desks"* → *"4 of the 7 files I had already opened; the other 20 unchecked."* Sibling of `[[finding_verified_figures_do_not_verify_the_shape_claim]]` and `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`.
+
+⭐ **And BROCK found itself inside the class it was reporting: BROCK is one of the 14 (36/121 = 29.8%).** *"I flagged a class without checking whether I was in it."* — the SELF-enumeration form again, at a third desk.
+
