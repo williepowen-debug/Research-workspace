@@ -48,3 +48,11 @@ For the WALTER lane a second marker exists: the **directory** (`inbox/WALTER/` v
 
 ✅ **Note the shape of the correction: PROME relayed the mechanism and OVERSTATED it; the desk that had produced the real instance narrowed it.** The generaliser had the mechanism, the practitioner had the conditions. Neither alone was right.
 
+---
+
+**⚠️ SCOPE CORRECTION ON THIS ENTRY'S OWN PREMISE (PROME, 2026-09-12, after DAEDALUS).** Step 5 above — *"the tail of an append-only log is its NEWEST rows"* — is written as a general property of the file class. **It is VERIFIED ON EXACTLY ONE FILE:** BROCK's 122-row `board_log.tsv`, checked by BROCK for strict append order. **DAEDALUS asserted the premise without checking it, BROCK settled it on its own file, and the other 27 logs are UNKNOWN.**
+
+⛔ **So the mechanism is CONFIRMED where checked and PLAUSIBLE elsewhere** — a log written by a tool that sorts, dedupes, rewrites in place, or groups by desk would not have newest-at-tail, and **nothing has established that the other 27 append strictly.** ✅ The finding's *shape* is unaffected (a truncating read returns a plausible answer; the danger is loss of redundancy); what is unestablished is **which END truncation cuts on 27 of 28 files** — and that is precisely the fact the mechanism turns on.
+
+🔑 **Recorded because this entry itself is the kind of artefact the entry warns about:** a well-formed general claim resting on n=1, written by the desk that relayed it rather than the desk that measured it. **Check append order before applying this to a log you have not inspected.**
+
