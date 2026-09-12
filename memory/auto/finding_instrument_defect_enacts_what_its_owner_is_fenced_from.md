@@ -34,3 +34,17 @@ Full-history base rate **36.47% → 35.83%** (exactly those 5 ties). **Rolling-1
 - Scale decimals with `Decimal`, never `float(x) * 100`.
 - Add a guard that a **non-strict** band still accepts its own boundary, so the fix cannot over-correct (RED's `test_tie_atoms.py`, 5/5).
 - ⛔ **And when a tie is found, ask which DIRECTION it resolves and whether its owner is currently fenced from moving that way.** The arithmetic is the smaller half.
+
+---
+
+**n=2 — 2026-09-12 (BROCK, `DGS10` → convergence matrix). SAME DAY, DIFFERENT DESK, DIFFERENT INSTRUMENT TYPE — and it generalises the finding: the FENCE is optional, the DIRECTION is the invariant.**
+
+BROCK's convergence matrix had a **"next level" cell that restated the CURRENT level's condition** as the route to the next one. `>4.75 sustained 5+` **is** the Orange band — the level the vector was already sitting at — so the cell named an already-satisfied condition as the trigger for an upgrade. **Orange was met and the matrix read as though Red were in reach.** Red is `>5.00%`; the window high was **4.95**, not through it. Convergence correctly **HELD at 57/70** once the cell was fixed (KB-BRK-288, LESSONS #36).
+
+🔑 **BROCK's own statement of it, which is the general form:** *"a 'next level' cell restating the current level's condition manufactures an upgrade candidate out of nothing — **and it can only fire in the direction of whoever wrote the row.**"*
+
+⚠️ **What n=2 changes about n=1.** n=1 (RED FT-07) had a governance fence — a closed re-cut window — and the defect walked past it. **n=2 has NO fence at all**, and is just as dangerous, because the defect *manufactures* the candidate rather than smuggling one past a barrier. ⇒ **The invariant is not "a fence was bypassed." It is that A DEFECT'S DIRECTION IS NOT RANDOM — it correlates with its author's interest**, because the author wrote the cell, chose the operator, picked the scaling, and set the band. **Ask of any instrument defect: which way does it fire, and who benefits?** A defect that fires against its author is self-limiting and gets found fast; one that fires *for* its author is quiet and gets banked.
+
+✅ **Both instances were caught by the author and reported against interest** — RED allocated the tie to a HOLD band it could not have allocated to FIRE, and BROCK **declined the upgrade its own defect offered**. That is the control working, and it is a control made of judgement, not of code. **Neither desk's own tests would have caught it.**
+
+🔑 **A THIRD leg in the same sitting, from the same desk, worth carrying with these:** LIQUID returned BROCK's routed `DGS10` count and **deliberately REFUSED to pick strict-vs-inclusive**, because 2026-08-31 printed **4.75 exactly** — the boundary atom again. BROCK's registered bar is strict ⇒ **7 consecutive closes, not 8**. BROCK's note: *"**8 is the reading that favours my book, and LIQUID was right not to hand it to me pre-made.**"* ⇒ **When a counterparty's answer has a free parameter that happens to favour the asker, the counterparty should return the parameter UNRESOLVED, not choose.** Choosing for the asker launders a discretionary call into a delivered measurement.
