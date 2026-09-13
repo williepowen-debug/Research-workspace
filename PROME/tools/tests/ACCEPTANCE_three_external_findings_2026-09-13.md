@@ -160,3 +160,30 @@ a PASS when `--tier` is omitted) are real but all **fail closed** — they exit 
 residue, registered rather than swept into a repair pass that is already three rounds deep on one
 file. ⚠️4 is the strongest of them: the rc-1 remedy text is the wrong repair for a missing input,
 and the gate skips every check after it.
+
+---
+
+## Verification status — stated as CASES CHECKED, not as rounds
+
+Will, 2026-09-13: *"Describe verification in terms of the cases checked, rather than declaring
+whole 'rounds' universally verified."* I had written "rounds 1–2 are now INDEPENDENTLY VERIFIED",
+which is the same overreach as the claim the reviewer falsified — a real result carried to a
+wider conclusion than it supports. A review establishes the cases it drove. It does not certify
+a round.
+
+**Checked by an independent reader, with its own fixtures:** empty `--paths`; `--paths ""`;
+`--paths` omitted; a foreign CWD (clone, worktree, non-repo); `.git` moved aside; baseline absent,
+unparseable, empty, and sha-not-a-commit; a genuinely empty scope vs a failed discovery; detached
+HEAD; unreviewed additions at OWNED and at EXCLUDED paths; `mark_reviewed()`'s single call path;
+`load_perimeter()` missing, empty and malformed; manifest `paths` as list, string and null.
+
+**NOT reached, and named by the reader:** an empty repo with no commits; a valid but too-old
+baseline sha; concurrent writers mutating the manifest between freeze and verify; a hostile
+`GIT_*` environment where git exits 0 with empty stdout; ambiguous short-sha collisions;
+`prome_gate.py` driven end to end against a live repo (❌2's gate consequence was established from
+the import path plus a faithful replica of its `try/except`, not a live gate run).
+
+**Checked by me only, not independently:** the two round-3 fixes themselves — the empty-list guard
+and `cwd=ROOT` — plus the two fixture repairs. Each is pinned by a test that fails at `625cb7070`;
+none has had a second reader. L367 stays OPEN for the `excluded` integration and is the place that
+work lands.
