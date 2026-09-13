@@ -15,6 +15,8 @@ import sys
 import tempfile
 import unittest
 
+CANDIDATE = ["surface.md"]   # the complete candidate list for the content-only cases
+
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "PROME" / "tools"))
 import argus_scope  # noqa: E402
@@ -85,6 +87,11 @@ class Case2_LateFactChange(unittest.TestCase):
             self.assertNotEqual(before, after)
 
 
+# ⛔ 2026-09-13 (external F1, round 2): these are CONTENT-ONLY diagnostics and now pass
+# the explicit complete candidate list. Production verification refuses to certify when
+# it cannot establish scope — a raised discovery OR an unusable/missing baseline — and an
+# earlier fix of mine carved out the second so THESE FIXTURES would pass. That carve-out
+# was the same bypass in a quieter form. The fixtures moved; the guard did not.
 class Case3_ContentChangedAfterReview(unittest.TestCase):
     """'Content changes after ARGUS reviews: the old verdict cannot certify the
     changed content.' This is the core one."""
@@ -96,18 +103,18 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
         argus_scope.ROOT = pathlib.Path(self.d.name)
         self.addCleanup(lambda: setattr(argus_scope, "ROOT", self.orig_root))
         (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True)
-        self.f = argus_scope.ROOT / "surface.md"
+        self.f = argus_scope.ROOT / "surface.md"   # the whole candidate; see CANDIDATE
         self.f.write_text("reviewed content\n", encoding="utf-8")
 
     def test_unchanged_candidate_verifies(self):
         argus_scope.record_review(["surface.md"])
-        rc, lines = argus_scope.verify_review()
+        rc, lines = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 0, lines)
 
     def test_content_changed_after_review_fails_closed(self):
         argus_scope.record_review(["surface.md"])
         self.f.write_text("edited after the audit\n", encoding="utf-8")
-        rc, lines = argus_scope.verify_review()
+        rc, lines = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 1)
         self.assertTrue(any("CHANGED-SINCE-REVIEW" in l for l in lines), lines)
 
@@ -120,7 +127,7 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
     def test_deleting_a_reviewed_path_is_a_change(self):
         argus_scope.record_review(["surface.md"])
         self.f.unlink()
-        rc, _ = argus_scope.verify_review()
+        rc, _ = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 1)
 
     def test_no_manifest_is_UNKNOWN_never_clean(self):
@@ -132,9 +139,9 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
         """The prescribed remedy must actually work: fix, re-freeze, verify."""
         argus_scope.record_review(["surface.md"])
         self.f.write_text("fixed after a finding\n", encoding="utf-8")
-        self.assertEqual(argus_scope.verify_review()[0], 1)
+        self.assertEqual(argus_scope.verify_review(paths=CANDIDATE)[0], 1)
         argus_scope.record_review(["surface.md"])
-        self.assertEqual(argus_scope.verify_review()[0], 0)
+        self.assertEqual(argus_scope.verify_review(paths=CANDIDATE)[0], 0)
 
     def test_the_gate_treats_a_changed_candidate_as_BLOCKING(self):
         src = (ROOT / "PROME/tools/prome_gate.py").read_text(encoding="utf-8")
@@ -190,7 +197,7 @@ class Case5_ForeignDirtyFiles(unittest.TestCase):
                 self.assertIn("mine.md", entries)
                 self.assertNotIn("theirs.md", entries)
                 (argus_scope.ROOT / "theirs.md").write_text("y changed by them", encoding="utf-8")
-                self.assertEqual(argus_scope.verify_review()[0], 0,
+                self.assertEqual(argus_scope.verify_review(paths=["mine.md"])[0], 0,
                                  "another desk's edit must not fail PROME's review")
             finally:
                 argus_scope.ROOT = argus_scope_root

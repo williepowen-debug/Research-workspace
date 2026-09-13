@@ -261,18 +261,26 @@ def verify_review(paths=None, ref=None):
     # with paths=None, so a file created after the freeze passed both and was caught only by
     # the post-commit check. With no list supplied, fall back to the tool's OWN computed
     # scope — the same set the freeze was taken from. (ARGUS, 2026-09-12.)
-    scope_failed = no_baseline = None
+    scope_failed = None
     if paths is None:
         try:
             base, _why = load_baseline()
             if base is None:
-                # A DIFFERENT state from a failure, and named as such: with no baseline
-                # there is nothing to enumerate additions against. The content comparison
-                # above is still valid and still governs rc; the additions half is simply
-                # NOT APPLICABLE, and the output says so rather than implying coverage.
-                # ⛔ Deliberate, not incidental: pinned by
-                # test_absent_baseline_is_named_not_silently_passed.
-                no_baseline = _why
+                # ⛔ THIS WAS A CARVE-OUT AND THE CARVE-OUT WAS THE SAME BYPASS.
+                # I first treated "no baseline" as merely NOT APPLICABLE — content
+                # comparison still governing rc — so that four content-only fixtures
+                # would pass. But load_baseline() returns None for SEVERAL conditions,
+                # not just absence, including a recorded commit git cannot reach.
+                # Reproduced with REAL git breakage (.git moved aside), not a mock:
+                # the run printed "recorded baseline … is not a commit in this
+                # repository", then returned 0, promotion to REVIEWED succeeded, and
+                # the Standard review check passed — over an unreviewed addition.
+                # AN UNAVAILABLE BASELINE MAKES COMPLETENESS UNKNOWN; IT DOES NOT MAKE
+                # COMPLETENESS UNNECESSARY. Printing that additions were unchecked does
+                # not protect a caller that accepts rc 0.
+                # My own test docstring had written "hiding the second would re-open a
+                # quieter version of the same hole" — and then did it.
+                scope_failed = f"baseline unusable — {_why}"
             else:
                 lanes, _ = build_scope(base["sha"], load_perimeter(), include_pending=True)
                 paths = [e["path"] for e in
@@ -288,14 +296,13 @@ def verify_review(paths=None, ref=None):
     # review check passed. STAYING SILENT IS THE FAIL-OPEN: a completeness claim we could
     # not establish must read CANNOT-EVALUATE, never a pass.
     # `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`
-    if no_baseline is not None:
-        out.append(f"NOTE: additions were NOT checked — {no_baseline}. The content "
-                   "comparison above is complete; the unreviewed-additions half is not "
-                   "applicable without a baseline.")
     if scope_failed is not None:
-        out.append("CANNOT-EVALUATE: scope discovery failed, so additions could NOT be "
-                   f"checked — {scope_failed}. This run establishes nothing about unreviewed "
-                   "additions; it is NOT a pass. Supply --paths explicitly, or fix the input.")
+        out.append("CANNOT-EVALUATE: additions could NOT be checked — "
+                   f"{scope_failed}. Completeness is UNKNOWN, which is not the same as "
+                   "unnecessary: this run may NOT certify, may NOT authorize REVIEWED, and "
+                   "does NOT satisfy a tier that requires a review. The only escape is an "
+                   "EXPLICIT, COMPLETE candidate path list via --paths; fix the input "
+                   "otherwise. (Content comparison above remains a diagnostic.)")
         return 2, out
     if paths is not None:
         for path in sorted(set(paths) - set(reviewed) - RECEIPT_PATHS):

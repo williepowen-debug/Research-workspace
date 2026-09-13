@@ -62,6 +62,7 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         cls.A.record_review(paths)
         cls.A.mark_reviewed("fixture")
         cls.real_build_scope = cls.A.build_scope
+        cls.reviewed_paths = paths
 
     @classmethod
     def tearDownClass(cls):
@@ -72,6 +73,7 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         self.A = type(self).A
         self.A.build_scope = type(self).real_build_scope
         self.addition = self.fix / "PROME/zz_unreviewed_addition.md"
+        self.reviewed_paths = type(self).reviewed_paths
 
     def tearDown(self):
         self.A.build_scope = type(self).real_build_scope
@@ -124,32 +126,57 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         self.assertEqual(rc, 1)
         self.assertTrue(any("UNREVIEWED" in l for l in out))
 
-    def test_absent_baseline_is_named_not_silently_passed(self):
-        """⚠️ A DECISION, pinned so it cannot drift into an accident.
+    # ------------------------------------------------------------------
+    # ROUND 2 (external, 2026-09-13): my first fix carved out "no baseline" as
+    # merely NOT APPLICABLE so four content-only fixtures would keep passing.
+    # load_baseline() returns None for SEVERAL conditions, not just absence —
+    # including a recorded commit git cannot reach — so the carve-out WAS the
+    # same bypass in a quieter form. These drive REAL git breakage, not a mocked
+    # build_scope(), because the mock could never have found it.
+    # ------------------------------------------------------------------
 
-        Two things can stop the additions check, and they are NOT the same:
-          · scope discovery RAISED (git unavailable) — the reported bypass ⇒ rc 2.
-          · NO BASELINE recorded — nothing to enumerate against. The content
-            comparison is still complete and still governs rc, so this stays
-            non-blocking, but the output must SAY the additions half did not run.
-        Conflating them made four legitimate content-only verifications unevaluable;
-        hiding the second would re-open a quieter version of the same hole."""
-        import tempfile as _t, pathlib as _p
-        d = _p.Path(_t.mkdtemp())
-        (d / "PROME" / "state").mkdir(parents=True)
-        (d / "surface.md").write_text("x\n", encoding="utf-8")
-        saved = self.A.ROOT
-        try:
-            self.A.ROOT = d
-            self.A.record_review(["surface.md"])
-            rc, out = self.A.verify_review()
-            self.assertEqual(rc, 0, out)
-            self.assertTrue(any("additions were NOT checked" in l for l in out),
-                            "an unchecked half must be stated, never implied complete")
-            self.assertFalse(any("CANNOT-EVALUATE" in l for l in out))
-        finally:
-            self.A.ROOT = saved
-            shutil.rmtree(d, ignore_errors=True)
+    def _hide_git(self):
+        shutil.move(str(self.fix / ".git"), str(self.fix / ".git-hidden"))
+        self.addCleanup(shutil.move, str(self.fix / ".git-hidden"), str(self.fix / ".git"))
+
+    def test_real_git_breakage_makes_the_baseline_unusable(self):
+        """The precondition, stated so the tests below cannot pass vacuously."""
+        self._hide_git()
+        base, why = self.A.load_baseline()
+        self.assertIsNone(base)
+        self.assertIn("not a commit", why)
+
+    def test_unusable_baseline_cannot_certify(self):
+        """THE ROUND-2 DEFECT: rc 0 over an unreviewed addition, with the output
+        itself saying the recorded baseline was invalid."""
+        self.addition.write_text("never reviewed\n")
+        self._hide_git()
+        rc, out = self.A.verify_review(paths=None)
+        self.assertEqual(rc, 2, f"unusable baseline must not certify: {out}")
+        self.assertTrue(any("CANNOT-EVALUATE" in l for l in out))
+
+    def test_unusable_baseline_refuses_promotion_to_REVIEWED(self):
+        self._hide_git()
+        rc, msg = self.A.mark_reviewed("promote anyway")
+        self.assertEqual(rc, 2, msg)
+
+    def test_unusable_baseline_says_unknown_is_not_unnecessary(self):
+        """Printing 'additions were not checked' did not protect a caller that
+        accepts rc 0 — the message must carry the refusal, not a note."""
+        self._hide_git()
+        _, out = self.A.verify_review(paths=None)
+        joined = " ".join(out)
+        self.assertIn("Completeness is UNKNOWN", joined)
+        self.assertIn("may NOT certify", joined)
+        self.assertFalse(any("byte-identical" in l for l in out))
+
+    def test_an_explicit_complete_list_is_the_only_escape(self):
+        """Content-only comparison stays available as a DIAGNOSTIC — but only when
+        the caller supplies the complete candidate list itself."""
+        self.assertTrue(self.reviewed_paths, "fixture must have frozen a non-empty candidate")
+        self._hide_git()
+        rc, out = self.A.verify_review(paths=list(self.reviewed_paths))
+        self.assertEqual(rc, 0, f"the documented escape must still work: {out}")
 
     # A3 — the gate blocks at the tiers that require a review
     def test_the_closeout_gate_treats_rc2_as_blocking_at_standard(self):
