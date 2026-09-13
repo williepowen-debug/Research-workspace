@@ -54,9 +54,20 @@ DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 CAP_PER_BOOT = 4      # WQ-184 leg ② — informational here; PROME enforces at spawn time
 
 
-def state_kind(state: str) -> str:
-    s = state.strip().upper()
-    return "PENDING" if s.startswith(("PENDING", "★", "RE-DATED", "SLID")) else "TERMINAL"
+# ⛔ ONE interpretation of "is this row still open", imported — never re-implemented here.
+# scripts/docket_view.py is the declared authority (this file's own docstring already said so)
+# and this module used to carry a SECOND copy of the rule. The two copies happened to agree on
+# all 368 live rows when checked 2026-09-13, which is exactly why a divergence would have been
+# invisible. The real incident was neither copy: PROME prepared a spawn brief from an ad-hoc
+# `$4 ~ /PENDING/` SUBSTRING match, which matches the word PENDING inside TERMINAL rows'
+# "prior:" history chains — 77 terminal rows matched, a backlog was fabricated from it, and a
+# false premise about a Will-ruled retirement reached a desk. Fixing that with care alone does
+# not work; the fix is that the shared reading is the ONLY reading and is easy to call
+# (see --open below). (Will, 2026-09-13.)
+_DV = ROOT / "scripts"
+if str(_DV) not in sys.path:
+    sys.path.insert(0, str(_DV))
+from docket_view import state_kind            # noqa: E402  — fail LOUD if it moves; never fall back to a local copy
 
 
 COVERED_SELF = re.compile(r"COVERED:[^·|]*\bPROME\b[^·|]*\b(?:L0 SPAWN|SPAWN|SLATED|SLATE)\b", re.I)
@@ -255,6 +266,32 @@ def selftest() -> int:
     return 0 if ok else 1
 
 
+def list_open(docket_text, today):
+    """Every DOCKET row still OPEN by the SHARED lead-token reading — no spawn-candidacy filter.
+
+    This exists because "what is still owed" and "what should PROME spawn" are different
+    questions, and answering the first with the second's machinery is what hid three due rows
+    on 2026-09-13 (DOCKET L368). It is also the query to reach for when preparing a brief:
+    the alternative PROME actually reached for was an ad-hoc substring match that read 77
+    TERMINAL rows as open and put a false premise into a desk's instructions.
+
+    Returns (line_no, date_cell, owner, state_kind, overdue, description) for open rows only.
+    """
+    out = []
+    for i, line in enumerate(docket_text.split("\n"), 1):
+        if not line.strip() or line.startswith("#"):
+            continue
+        c = line.split("\t")
+        if len(c) < 4:
+            continue
+        if state_kind(c[3]) != "PENDING":
+            continue
+        m = DATE.findall(c[0])
+        due = m[-1] if m else ""                      # a range's END is the operative date
+        out.append((i, c[0], c[2], due and due <= today.isoformat(), c[1]))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--horizon", type=int, default=0, help="days ahead (boot 0; closeout 1 weekday / 3 Fri-Sat)")
@@ -262,11 +299,27 @@ def main():
     ap.add_argument("--as-of", help="YYYY-MM-DD: sets today AND bounds the liveness git log (--until)")
     ap.add_argument("--docket", default="PROME/DOCKET.tsv", help="PATH or REV:PATH")
     ap.add_argument("--gates", default="PROME/GATES.tsv", help="PATH or REV:PATH")
+    ap.add_argument("--open", action="store_true",
+                    help="list every DOCKET row still OPEN by the shared lead-token reading, with no "
+                         "spawn-candidacy filtering. USE THIS WHEN PREPARING A BRIEF. It answers 'what is "
+                         "still owed', which is a DIFFERENT question from 'what should PROME spawn' — the "
+                         "COVERED suppression that governs the latter is wrong for the former and hides "
+                         "assigned work that has not happened yet (DOCKET L368).")
     ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
     today = dt.date.fromisoformat(a.as_of) if a.as_of else dt.date.today()
+    if a.open:
+        rows = list_open(read_text(a.docket), today)
+        overdue = sum(1 for r in rows if r[3])
+        print(f"DOCKET open rows (shared lead-token reading) · as-of {today} · "
+              f"{len(rows)} open · {overdue} due or overdue")
+        print("⚠️  NOT a spawn list — no COVERED filtering. 'Owed' != 'PROME should spawn it'.")
+        for ln, date_cell, owner, is_overdue, desc in rows:
+            print(f"  {'DUE ' if is_overdue else '    '}L{ln:<4} {date_cell:<24.24} "
+                  f"{owner[:26]:<26.26} {desc[:64]}")
+        return 0
     live = Liveness(until=(a.as_of + " 23:59") if a.as_of else None)
     rows = collect(read_text(a.docket), read_text(a.gates), today, a.horizon, live)
     return render(rows, today, a.horizon, a.tsv)
