@@ -313,7 +313,17 @@ def parse_heartbeat():
 
 def parse_pending_will():
     text = read("PROME/SCRATCH.md")
-    m = re.search(r"Pending Will:([^.\n]+)", text)
+    # ⛔ FIXED 2026-09-13 after a publish-time verification found this panel
+    # rendering "none parsed" on the live page. The label is a FORMAT CONTRACT
+    # between two PROME generators, and they diverged: `willq_view.py` (WQ-185 ②,
+    # live since ~9/6) writes the block as
+    #   **Pending Will (GENERATED from ... · 17 open, 1 blocked ...):** WQ-187 ...
+    # so the colon is no longer adjacent to the label, and a regex requiring
+    # `Pending Will:` matched nothing. The panel then showed an empty list for
+    # DAYS on the Will-facing page whose entire job is saying what is owed —
+    # failing silent, because "no items" and "could not parse" rendered the same.
+    # Tolerate anything between the label and its colon; the bare form still works.
+    m = re.search(r"Pending Will[^:\n]*:([^.\n]+)", text)
     if not m:
         return []
     # 8/16 (sweep-1 trivia): split on `·` only OUTSIDE parentheses — the card

@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-12 23:54",
+ "built": "2026-09-13 00:03",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,9 +15,6 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
-  "2026-09-12 One-time sweep of ALREADY-REGISTERED base rates for OPERATOR",
-  "2026-09-12 VECTOR 1 \u2014 TANKER / GAS-CARRIER EQUITIES on ton-miles (three",
-  "2026-09-12 VECTOR 4 \u2014 THE LOSERS of the diesel/jet squeeze (Jazan 400 k",
   "2026-09-13 CRU-05 prediction grade window CLOSES (CRUISE-registered at ",
   "2026-09-13 FL JOINT TOUCH \u2014 CORAL + MARCO in ONE session (root canon: C",
   "2026-09-13 WQ-185 \u2460 EPISODE REVIEW \u2014 episode (b) GATE-REG-T02 \u2192 ROLL70 ",
@@ -97,7 +94,8 @@
   "2026-10-01 OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)",
   "2026-10-01 \u2605 CORAL thesis re-test CONVERGENCE \u2014 the two instruments tha",
   "2026-10-02 FERT T11 \u2014 World Bank Pink Sheet OCTOBER 2026 edition (Septe",
-  "2026-10-02 September NFP \u2014 BLS Employment Situation, ~08:30 ET (DATE pe"
+  "2026-10-02 September NFP \u2014 BLS Employment Situation, ~08:30 ET (DATE pe",
+  "2026-10-04 OPEC+ monthly meeting of the seven participating countries \u2014"
  ],
  "fleet": {
   "AEOLUS": "ok",
@@ -171,7 +169,25 @@
   "WAL": 79.28
  },
  "one": "The Saudi state has SAID the Petroline is shut; nobody has measured a barrel. BRENT re-graded BG-02 on 9/12 and it STANDS \u26d4 NOT MET on four independent grounds \u2014 the verdict did not move, the basis did \u2014 and the \u22650.7 mb/d 7-day-MA floor is ungradeable before ~9/17, window closing Fri 9/25 17:00 ET (L329). \ud83d\udd34 BRENT also found the defect in its OWN resolver and sent it to Will: the two AIS trackers disagree by 0.8 mb/d on the BASELINE \u2014 bigger than the 0.7 floor \u2014 and the bias is DIRECTIONAL, because dark share rises exactly on the events the gate watches (WQ-234). \ud83d\udd34 The 004 add line is THROUGH for the first time ever \u2014 DFII10 2.55 [9/10 official] vs 2.50 \u2014 TERRY grades it, Will's standing NO-ADD governs, $0 moved (L356). COT-35B CLEARED: vintage #5 JOINT NO-VERDICT, 4th consecutive, sizing BASE CASE. The first long-end buyback drew 1.748\u00d7 cover, the weakest of n=26 (prior min 3.22\u00d7); RED then graded FT-11 v1.1 NOT MET, WRONG SIGN. CRMT bridged again, to 9/18 \u2014 the second short bridge. STAND DOWN holds (WQ-192); $0 moved by PROME.",
- "pending": [],
+ "pending": [
+  "WQ-187 (9/12)",
+  "WQ-228 (9/14)",
+  "WQ-230 (9/15)",
+  "WQ-229 (9/15)",
+  "WQ-234 (9/18)",
+  "WQ-225 (9/18)",
+  "WQ-213 (9/18)",
+  "WQ-238 (9/19)",
+  "WQ-236 (9/19)",
+  "WQ-224 (9/19)",
+  "WQ-219 (9/19)",
+  "WQ-204 (9/19)",
+  "WQ-237 (9/26)",
+  "WQ-235 (9/30)",
+  "WQ-31 (11/1)",
+  "WQ-169 (facts: when co\u2026)",
+  "\u26d4 WQ-157 (9/18)"
+ ],
  "split": "Break 20 / Grind 47 / Unresolved 33",
  "v": 1
 }
