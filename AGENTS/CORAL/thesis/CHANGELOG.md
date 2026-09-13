@@ -5,6 +5,34 @@
 
 ---
 
+## 2026-09-13 — The falsify rail installed on 8/23 RESOLVED on its first live test, and firing it exposed a defect in its own construction
+
+**Trigger:** rail change under the write-back rule — a registered confirm/falsify rail **resolved**, and the resolution moved a leg's colour.
+
+### ① THE 8/23 STAND-DOWN RAIL FIRED — 🔴→🟠 on the supply-side price-discovery leg
+
+**Old view:** the leg was 🔴 (fired 7/23, Will-ratified), with the 8/23 stand-down rail installed and a clock started 9/2 by a first sub-threshold reading (3-of-5).
+**New view:** reading #6 on **2026-09-13** came in at **4-of-5 >6.0** — **<5-of-5**, therefore the second consecutive sub-threshold reading, **11 days** after the first by observation and **10 days** by page vintage (≥10 on both clocks), with no reading in between. **The Will-ratified condition is MET ⇒ 🔴→🟠, supply-side price-discovery leg ONLY.**
+**Why it matters procedurally:** this is the **first time any CORAL rail has resolved in the direction of retiring a signal.** It was graded mechanically off a letter frozen on 8/23 — **before the data turned** — which is precisely what made today an arithmetic exercise rather than a judgement call.
+**Implication:** ⛔ **Scope unchanged in both directions. CORAL's overall state stays 🟠 and the bank-transmission rail stays NOT met, NOT armed.** A supply-side leg standing down is not a Florida all-clear and says nothing about bank transmission.
+
+### ② ⚠️ THE RAIL IS DEFECTIVE — it guards SPACING but not LEVEL, and the defect only became visible by firing
+
+**What happened:** the leg stood down while its own series moved the **other way**. Between readings **three of five metros ROSE**, **Lakeland re-crossed back above 6.0** (5.97 → 6.01), and **Tampa printed the highest MSI in the series** (7.15). **Breadth failed on Cape Coral alone, 0.09 below the line.**
+**The defect:** the 8/23 letter was written to refuse a rounding-error de-fire, and it **has now produced one by a different route.** It guards the **TIME** dimension (≥10-day spacing, the anti-noise leg) and leaves the **LEVEL** dimension unguarded — so a **single laggard metro a rounding-distance under 6.0 can hold a stand-down open indefinitely while the other four strengthen.** Breadth is a count; a count cannot see that four of five went up.
+**⛔ What was NOT done about it:** nothing, today. **The grade stands as the letter gives it.** Re-fitting a rule at the grading table because its answer is inconvenient is the exact failure pre-registration exists to prevent, and it is the failure the 8/23 entry above was written to avoid. **CORAL proposes; Will rules; any amendment is PROSPECTIVE.** Registered as `STATUS.md` OQ S and escalated to PROME 2026-09-13.
+
+### ③ THE MIRROR GAP IS NOW LIVE — a stand-down with no RE-FIRE condition
+
+**Old view (8/23):** *"a trigger with no falsifier cannot be honestly retired when the data turns."* That gap was closed.
+**New view:** the letter registers a **stand-down and no re-fire.** If breadth returns to 5-of-5 tomorrow, **there is no registered rule to take the leg back to 🔴** — and improvising one at that moment would be the 8/23 error with the sign flipped. ⭐ **The generalisable lesson: installing a falsifier on a fired signal creates a NEW unfalsifiable state — the stood-down one.** Rails need to close the loop, not just open the exit. **Named, not self-answered** (OQ S, with the rule defect).
+
+### ④ Inference discipline held at the grading table
+
+The rising MSI is recorded as a **measured value**, not as "seller stress is intensifying." **Rival mechanism moving the statistic the same way:** a more-distressed *remaining listing pool* (composition) vs *more motivated sellers* (breadth) — the index level cannot separate them, and **the discriminator is unit volume**, which Parcl stopped serving (now a literal `0` placeholder, ML-CORAL-079). **The causal upgrade is declined and the gap is named** rather than bridged with the adjacent number.
+
+---
+
 ## 2026-08-23 — Two rail changes, and the first grading the falsify criteria have ever had
 
 **Trigger:** Will-approved thesis-rail pass after a 20-day dark period. Two of the three items below are **rail changes** under the write-back rule ("confirm/falsify rail change"); the third is a governance fix to how rails are read at all. *(⚠️ Note against this file's own record: it had gone unwritten since **2026-03-03** — five months — across a leg firing 🔴, a bank window closing 7-of-7, and a new financing channel opening. A changelog that skips the moves it exists to record is a defect in itself.)*

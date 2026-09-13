@@ -46,9 +46,9 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 
 | Pillar | Read (as of 2026-06-19) | Signal |
 |--------|--------------------------|--------|
-| **Migration (7)** | Net domestic **+22,517 (−93% from peak, now #8, 2025 annual Census, STALE — canonical per MARCO commit `a95631b7`)**; intl +178,674 but **−57% YoY** (−75% projected); **natural change negative**; out-migration ~510K → GA/TX/NC, driven by insurance/assessments/cost. **⚠️ 7/9 documented divergence:** BofA-internal Q1'26 claims Miami(4th)/Orlando(6th)/Tampa(>Chicago) net-negative — different vintage/basis, directionally corroborating but NOT merged into the canonical count (see 7/9 EVENING block #7). *Demand engine failing.* | 🔴 |
+| **Migration (7)** | Net domestic **+22,517 (−93% from peak, now #8, 2025 annual Census, STALE — canonical per MARCO commit `a95631b7`)**; intl **+178,674 (2025 annual Census vintage — Census Vintage 2025 state population estimates, components of change; stamped 2026-09-13 per DAEDALUS 9/5 reconcile)**, **−57% YoY** off MARCO-canonical **+411K (2024)** — ⭐ **the two desks CORROBORATE: 178,674/411,000 = −56.5%, against CORAL's stated −57%. Same series, different vintages; neither figure is wrong and neither desk owes the other a correction** (−75% projected); **natural change negative**; out-migration ~510K → GA/TX/NC, driven by insurance/assessments/cost. **⚠️ 7/9 documented divergence:** BofA-internal Q1'26 claims Miami(4th)/Orlando(6th)/Tampa(>Chicago) net-negative — different vintage/basis, directionally corroborating but NOT merged into the canonical count (see 7/9 EVENING block #7). *Demand engine failing.* | 🔴 |
 | **Tourism/snowbird (8)** | 2025 record 143.3M but Q1'26 **−1.0%**; **Canadian −12.1%** + airline capacity deleted (worst SW-FL); overseas **+8.5% record** offsets. **Orlando leg ELECTRIC (7/21 refresh): TDT June ~$34M record-June +10% YoY, May $32.8M +9.3%, 14-month YoY streak, Mar $42.9M all-time record — Epic Universe driver.** VISIT FLORIDA Q2 not yet published (Q1 stands); no fresh Canadian read. Note 7/21: FL leisure/hosp *added* jobs in June — mildly counter to tourism-collapse, reconcile sent → MARCO | 🟠 (bifurcated: Orlando strong / Canadian-SW-FL weak) |
-| **Single-family (2)** | ⚠️ **Median SALE PRICE $425K, +3.7% YoY (July, FL Realtors — DECELERATING from June $432K/+4.9%)**, **4.5mo supply**, closed 23,870 **+5.1%**, new pending **+2.4% (12th straight)**. ⚠️ **BASIS LABEL (HOMER 8/23): a MIX statistic, not a price-level trend** — ZHVI mix-controlled has all six FL top-50 counties negative for June (PB −1.3 / Miami-Dade −1.6 / Duval −1.7 / Orange −2.2 / Hillsborough −2.6 / Broward −3.6), with the luxury tier at +29-38% against total closings +9.3%. ⭐ **🔴 Parcl MSI supply-side leg FIRED (Will-ratified 7/23) — breadth HOLDS on a 4th reading 8/23: Tampa 7.05 · Punta Gorda 6.58 · North Port 6.39 · Cape Coral 6.02 · Lakeland 6.03, 5-of-5 >6.0**, price cuts 46-51%. ⚠️ **Eroding at the margin — 4-of-5 drifting down, two within ~0.03 of the line.** ✅ **Stand-down condition Will-ruled 8/23: breadth <5-of-5 on two consecutive readings ≥10d apart ⇒ 🔴→🟠 (this leg only); clock NOT started, earliest possible de-fire ≈ 2026-09-12. Canonical letter → OQ §A.** Gulf-Coast-concentrated correction. Builder cross-check: **LGI Q2 FL ASP −6.5% YoY on +14.7% closings** (SEC 8-K primary, via HOMER). | 🟠 |
+| **Single-family (2)** | ⚠️ **Median SALE PRICE $425K, +3.7% YoY (July, FL Realtors — DECELERATING from June $432K/+4.9%)**, **4.5mo supply**, closed 23,870 **+5.1%**, new pending **+2.4% (12th straight)**. ⚠️ **BASIS LABEL (HOMER 8/23): a MIX statistic, not a price-level trend** — ZHVI mix-controlled has all six FL top-50 counties negative for June (PB −1.3 / Miami-Dade −1.6 / Duval −1.7 / Orange −2.2 / Hillsborough −2.6 / Broward −3.6), with the luxury tier at +29-38% against total closings +9.3%. ⭐ **🟠 Parcl MSI supply-side leg — FIRED 7/23 (Will-ratified), STOOD DOWN 🔴→🟠 on 2026-09-13** when the 8/23 condition was met on readings #5 (9/2, 3-of-5) and #6 (9/13, 4-of-5), 11 days apart. **9/13 levels: Tampa 7.15 · Punta Gorda 6.59 · North Port 6.27 · Cape Coral 5.91 · Lakeland 6.01.** ⛔ **This leg ONLY — bank rail and overall state untouched, both directions.** ⚠️ **The stand-down fired on a strengthening series (3 of 5 rose; Tampa a series high); breadth failed on Cape Coral alone, 0.09 under.** ⚠️ **Price-cut share 46-51% is an 8/23 figure and is NO LONGER RETRIEVABLE** (Parcl moved it client-side) — do not carry it as current. **Canonical letter → `STATUS.md` OQ §A; full grading record → § "2026-09-13 session evidence" above.** Gulf-Coast-concentrated correction. Builder cross-check: **LGI Q2 FL ASP −6.5% YoY on +14.7% closings** (SEC 8-K primary, via HOMER). | 🟠 |
 | **CRE non-condo (4)** | **Condo/residential-specific, not commercial-wide:** Miami office 12.5% (tightest in US); retail/industrial mostly healthy. **New (7/9):** Blackstone $115M JPM refi on FLL W Hotel = trophy-hospitality window open (top-tier only); **MF rent concessions 16.9%** (highest since 2014) bifurcating within-state — Jax/Tampa oversupply-driven rises vs Miami tightening. | 🟢 |
 | **Labor (econ)** | **June 4.7% SA (−0.1pp MoM, FIRST decline since 2024; +0.9pp YoY vs Jun-25 3.8%)** — the ~7-straight-rise streak REVERSED (BLS LAUS June 2026, 7/21); still US +0.5pp. FL **+11,100 jobs MoM** (leisure/hosp, health care, transport/warehousing). Construction in ICE labor squeeze (immigrants 37.9% of FL constr.; national construction-hiring rate series-record-low 3.5%, WALTER SIG-704-006); permits −6.1% (Lennar −53%). **Labor leg mildly softened this print — see 7/21 pre-reg block (UNGRADED texture, not a rail move).** | 🟠→🟡-leaning (one-month; 525K unemployed +107K YoY) |
 | **State fiscal (9)** | **🔴 Property-tax Amendment 3/HJR 1F CERTIFIED for Nov-3-2026 ballot** (verified primary, DEWEY 7/9 — see EVENING block #1): homestead $50K→$150K(2027)→$250K(2028), ~$8.4B is the FY28-29 terminal figure; non-homestead cap 10%→5% (CRE/rental easing); 5yr new-resident gate (anti-migration by design); **NEW: CRE/MF/business burden-shift headwind** (levy reallocated off homesteaders onto commercial/apartments); muni-fiscal tail (protection fund stripped, S&P warning); **polling now FRAMING-DEPENDENT (UNF 7/20, n=848, ±3.8): 61/32 neutral = passes; 45/47 with budget-impact disclosure = FAILS** (supersedes Sachs 64% as latest); **ballot-language lawsuit escalated to 3 consolidated challenges, hearing 7/29** (rewrite risk, not removal). Budget deficits FY28-29 −$8.1B; condo HB913 relief valves (loans/2yr pause) soften the assessment cascade; DBPR 2026 reserve-study threshold $25,675; no 2026-session SIRS rollback (re-confirmed 7/21). | 🟠 |
@@ -73,6 +73,115 @@ The dashboard above is pillars 1/3/5/10 (condo, insurance, climate). The rest of
 
 ---
 
+
+---
+
+# 2026-09-13 FL enrollment verification (SIG-W-20260911-002 — the primary-source record)
+
+**Ask:** WALTER routed *"Orange County FL schools −7,600 students YoY on ~191,000; district names housing affordability + immigration law."* CORAL↔MARCO must reconcile FL migration figures to ONE number, so the figure had to be established at a primary before publication.
+
+## Sources reached 2026-09-13
+
+| URL | HTTP | Figure? |
+|---|---|---|
+| `files.smartsites.parentsquare.com/8070/enrollment_summary_09_15_25.pdf` | 200 | ✅ District Total **201,652** (Trad 180,282 + Charter 18,686); footer verbatim `Monday, September 15, 2025` |
+| `files.smartsites.parentsquare.com/6888/enrollment_summary_05_15_26.pdf` | 200 | ✅ District Total **199,368** (Trad 178,409 + Charter 18,000); footer `Friday, May 15, 2026` |
+| `files.smartsites.parentsquare.com/6888/fy27_adopted_budget_summary.pdf` | 200 | ✅ Table 1 *Full Time Equivalent Pupil Enrollment FY18–FY27*: **2026-27 = 228,198**, `Annual Increase 1,864`, `% Annual Increase 0.82%`; 2025-26 = 226,335. Board-adopted **2026-09-08** |
+| `ocps.net/enrollment-summary` | 200 | index of 182 PDFs, no inline figures |
+
+## Clean negatives (SEARCH-BLOCKED / absent — recorded, not passed over)
+
+- **No 2026-27 enrollment summary exists.** Series ends 5/15/2026. Probed `08_24_26`, `08_25_26`, `08_31_26`, `09_01_26`, `09_02_26`, `09_08_26`, `09_15_26` against both folder ids (`6888`, `8070`) — **all 403**, which is that store's response for an absent file. ⇒ **re-check after mid-Sep for `09_15_26`; that is the first primary on the new year.**
+- **FLDOE fully blocked**, curl AND WebFetch: `fldoe.org/` **403** · `…/students.stml` **403** · `2526MembBySchool.xlsx` / `2627MembBySchool.xlsx` **403** · `edstats.fldoe.org` **connection failed (000)**. **No FL Survey 2 figure obtained.**
+- **BoardDocs gated:** `ocps.net/134073_2` → 302 → `go.boarddocs.com/fla/orcpsfl/Board.nsf/Public` **403**; tenant guesses `fl/ocps`, `fl/ocpsfl`, `fl/ocpsb`, `fl/orangefl` all 404. **Sept-8 hearing agenda backup not reached.**
+- `ocps.net/departments/*` is a **JS-only SPA shell** — `/student_enrollment` and `/budget` returned **byte-identical** bodies (md5 `1c04017d…`, both 374,245 B). ⚠️ **A byte-identical body across two different paths is the tell that a scrape is reading a shell, not content.**
+
+## ⛔ Why the routed figures cannot be published as fact
+
+| Check | Result |
+|---|---|
+| `201,652 − 7,672` | **= 193,980**, not ~191,000 |
+| Is 191,000 a plausible traditional-only base? | **No — it EXCEEDS the traditional-only 180,282** |
+| Is FTE differenceable against headcount? | **No — 228,198 FTE > 201,652 headcount** ⇒ different/weighted population (charter + dual-enrollment weighting) |
+| Is `−7,672` in any district document? | **No.** Press-attributed to Supt. Maria Vazquez's **10-day count** report to the board (~late Aug 2026); **primary not yet published** |
+| Is the causal quote in a district document? | **No.** Press-only. No hit for `hiring freeze`, `8.5 million`, `7,672` in the FY27 budget summary |
+
+⚠️ **Do NOT quote `193,248` or `191,383` from the FY27 budget PDF as enrollment — they are DOLLAR AMOUNTS in financial tables.** A number of the right magnitude in the right document is exactly how a wrong figure gets sourced convincingly.
+
+⭐ **Three distinct instruments, none sharing a basis — the 10-day count, the 9/15 headcount series, and budget FTE.** The routed *"−7,600 on ~191,000 ≈ −3.8%"* divides one instrument's delta by another's base.
+
+⭐ **The fiscal tell that is more interesting than the enrollment number: the FY27 budget was ADOPTED 2026-09-08 — AFTER the late-August 10-day count — and still carries `+1,864 (+0.82%)`.** A budget book projecting growth against an actual count below it is exactly the shape of *"lost more than projected ⇒ $8.5M extra cuts."* **The narrative is coherent; the numbers are not comparable.**
+
+## Inference audit (step 13a) — why pillar 7 does not move
+
+1. **RIVAL MECHANISM, same direction, named by the district itself:** *"expansion of taxpayer-funded vouchers."* A voucher-driven shift from public to private schooling produces a **public-school enrollment decline with ZERO net out-migration.** **Declining birth rates** do the same. ⇒ **the statistic cannot separate migration from substitution, so it is not evidence for the migration pillar.**
+2. **What would REFUTE a migration reading:** private/voucher enrollment rising by a comparable magnitude in the same county-year, or FLDOE Survey 2 showing the decline concentrated in grades inconsistent with household relocation.
+3. **Confounds by SIGN:** the voucher and birth-rate confounds both cut **against** a migration reading; the immigration-enforcement confound cuts **toward** it. Both directions named rather than stopping at the flattering one.
+4. **Unweighted causes:** the district listed four causes and assigned **no share to any**. Assigning one is the reader's inference, not the district's claim.
+
+⇒ **Published as a press-tier claim with a named resolution path (OQ T), NOT as a CORAL finding. Pillar 7 UNCHANGED.**
+
+---
+
+# 2026-09-13 session evidence (GATE-CORAL-MSI-01 reading #6 — the grading record)
+
+**Why here:** `STATUS.md` keeps the 9/13 *grade and obligations*; this is the *evidence* — the raw stamps, the verification legs, the full series and the instrument-integrity finding.
+
+## The pull
+
+| | |
+|---|---|
+| **Pulled** | 2026-09-13 ~12:0x ET (Sun), direct `curl` + browser UA |
+| **URLs** | `https://www.parcllabs.com/research/markets/fl/{tampa,punta-gorda,north-port,cape-coral,lakeland}/metro` |
+| **HTTP** | **200 on all five** (44,127 / 44,258 / 44,241 / 44,241 / 44,189 B) |
+| **Page self-stamp** | **`Updated: 9/13/2026`** — identical verbatim string on **all five** pages |
+| **Prior stamp (reading #5)** | `Updated: 9/3/2026` ⇒ **the vintage CHANGED; this is a new observation, not a re-read of the same one** |
+
+⚠️ **Stamp-extraction gotcha, recorded because it fails silently:** the rendered DOM is `Updated: <!-- -->9/13/2026`. A naive `grep -o 'Updated:[^<]*'` stops at the intervening HTML comment and returns **an empty stamp** — a false negative that would read as "the page carries no date." The date must be read across the comment node.
+
+## Per-metro readings and verification
+
+| Metro | MSI 9/13 | `<title>` | `og:description` | JSON `"value"` | 3-way agree | vs 9/2 |
+|---|---:|---:|---:|---:|:--:|---:|
+| Tampa | **7.15** | 7.15 | 7.15 | 7.15 | ✅ | +0.14 |
+| Punta Gorda | **6.59** | 6.59 | 6.59 | 6.59 | ✅ | +0.07 |
+| North Port | **6.27** | 6.27 | 6.27 | 6.27 | ✅ | −0.02 |
+| Cape Coral | **5.91** | 5.91 | 5.91 | 5.91 | ✅ | −0.04 |
+| Lakeland | **6.01** | 6.01 | 6.01 | 6.01 | ✅ | +0.04 |
+
+**Every value read three independent ways from the fetched HTML; all agree to the hundredth on all five metros.**
+
+## Full series — 7/8 → 9/13 (six readings)
+
+| Metro | 7/8 | 7/23 | 8/3 | 8/23 | 9/2 | **9/13** |
+|---|---:|---:|---:|---:|---:|---:|
+| Tampa | 6.90 | 6.96 | 6.99 | 7.05 | 7.01 | **7.15** ⭐ series high |
+| Punta Gorda | 6.90 | 6.82 | 6.75 | 6.58 | 6.52 | **6.59** |
+| North Port | 6.45 | 6.45 | 6.43 | 6.39 | 6.29 | **6.27** |
+| Cape Coral | 6.12 | 6.20 | 6.07 | 6.02 | 5.95 | **5.91** |
+| Lakeland | 6.09 | 6.09 | 6.04 | 6.03 | 5.97 | **6.01** ⭐ re-crossed above |
+| **Breadth >6.0** | 5/5 | 5/5 | 5/5 | 5/5 | **3/5** | **4/5** |
+
+## The grade, leg by leg against the frozen 8/23 letter
+
+| Leg of the letter | Required | Observed 9/13 | ✅ |
+|---|---|---|:--:|
+| Breadth, reading 1 | <5-of-5 | 9/2 = **3-of-5** | ✅ |
+| Breadth, reading 2 | <5-of-5 | 9/13 = **4-of-5** | ✅ |
+| Spacing | **≥10 days** after reading 1 | **11d** observed (9/2→9/13); **10d** by page vintage (9/3→9/13) — ≥10 on **both** clocks | ✅ |
+| Consecutive | no countable reading between | none taken or logged: KB ends **ML-CORAL-074** (9/2); no CORAL commit between `53dc298b6` and this session | ✅ |
+
+**⇒ ALL FOUR LEGS MET ⇒ 🔴→🟠, SUPPLY-SIDE PRICE-DISCOVERY LEG ONLY.**
+
+## ⚠️ Instrument integrity — the listings field (ML-CORAL-079)
+
+| | 9/2 | **9/13** |
+|---|---|---|
+| Active-listing count in server HTML | **absent** (SEARCH-NOT-FOUND) | **present, renders `Total Active Listings · 0`** on all five |
+| Backing numeric field in payload | none | **none** — zero matches for any `*listing*` numeric key |
+| Truth | unknown | **still unknown.** Tampa had **26,801** on 8/23; a true 0 is impossible |
+
+⇒ **A hydration placeholder, not a measurement.** ⛔ **Never carry "0 listings."** The absence got **worse by becoming present**: a field that was honestly missing is now dishonestly filled, so a downstream presence/completeness check **passes** while the value is fabrication. Price-cut share likewise absent (prose only, no number). **This is the discriminator the MSI inference audit needs** — see OQ L.
 
 ---
 
