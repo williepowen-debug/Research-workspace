@@ -875,9 +875,20 @@ def check_claude_dir_drift():
     check that fires and is walked past is `finding_a_check_that_only_advises_is_overridden_the_control_is_
     downstream`: the instrument was never the problem. Promoted rather than replaced — no new checker.
     Any agent/skill file present in one tree and missing or byte-different in the other BLOCKS."""
-    bad, total = [], 0
+    # L294 F-3, reproduced 2026-09-12 and fixed here: `Path.glob()` on a MISSING
+    # directory yields nothing and raises nothing, so an empty result set was
+    # indistinguishable from "every definition agrees". Both trees absent →
+    # `bad` empty, `total` 0 → this BLOCKING gate recorded PASS with
+    # "0 agent/skill definition(s) identical". A parity gate over nothing
+    # establishes nothing; it must fail, and it must say WHICH of the three
+    # states it is in — absent tree, empty tree, or real drift. Each is a
+    # different repair. `[[finding_gate_pass_is_not_evidence_it_found_the_best_reason]]`
+    bad, missing_dirs, total = [], [], 0
     for sub, pat in (("agents", "*.md"), ("skills", "*/SKILL.md")):
         root_d, prome_d = ROOT / ".claude" / sub, ROOT / "PROME/.claude" / sub
+        for label, d in (("root", root_d), ("PROME", prome_d)):
+            if not d.is_dir():
+                missing_dirs.append(f"{label}:.claude/{sub}/")
         rel = lambda p, d: str(p.relative_to(d))
         names = {rel(p, root_d) for p in root_d.glob(pat)} | {rel(p, prome_d) for p in prome_d.glob(pat)}
         total += len(names)
@@ -887,9 +898,22 @@ def check_claude_dir_drift():
                 bad.append(f"{sub}/{n} (only in {'root' if a.exists() else 'PROME'})")
             elif a.read_bytes() != b.read_bytes():
                 bad.append(f"{sub}/{n} (differs)")
-    record(BLOCK, ".claude/{agents,skills} root↔PROME parity", not bad,
-           ("drift: " + ", ".join(bad)) if bad else f"{total} agent/skill definition(s) identical",
-           "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
+    if missing_dirs:
+        detail = ("CANNOT COMPARE — definition directory absent: " + ", ".join(missing_dirs)
+                  + ". This is not agreement; the gate inspected nothing."
+                  + (" Also found drift: " + ", ".join(bad) if bad else ""))
+    elif total == 0:
+        detail = ("CANNOT COMPARE — both trees exist and hold ZERO agent/skill definitions. "
+                  "Either the definitions were deleted or the glob patterns no longer match "
+                  "(a directory rename does this silently).")
+    elif bad:
+        detail = "drift: " + ", ".join(bad)
+    else:
+        detail = f"{total} agent/skill definition(s) identical"
+    record(BLOCK, ".claude/{agents,skills} root↔PROME parity",
+           not bad and not missing_dirs and total > 0, detail,
+           "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both; "
+           "an absent or empty tree is a MISSING-INPUT failure, never a pass")
 
 
 def check_review_manifest(tier=None):
