@@ -69,11 +69,83 @@ SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
                             # reads as ungraded — the exact BD-02 miss shape)
 
 BLOCK, ADVISE = "BLOCKING", "advisory"
+# CAPABILITY (WQ-239, Will-directed 2026-09-12): a machine capability — a credential, a
+# feed, a tool — that some workflows need and others do not.
+#   * It NEVER contributes to rc. No state of this class gates work that does not use it.
+#     (env_doctor was BLOCK until today; BLOCK means "disposition before proceeding" for
+#     ALL work, so a missing NASA key stopped a process edit. That is the defect.)
+#   * It is reported at EVERY run until RESTORED — permanence of the report, not severity,
+#     is what keeps it from going quiet. FFIEC creds sat missing from 2026-08-07 while
+#     classified BLOCKING, so severity was never the binding constraint.
+#   * THREE states, never two (Will 2026-09-12 20:49). UNKNOWN is not UNAVAILABLE and is
+#     not AVAILABLE: a crash, an unreadable config or an unrecognised rc means the check
+#     did not establish anything. Both UNAVAILABLE and UNKNOWN withhold dependent claims;
+#     only AVAILABLE permits them. `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`
+#   * AVAILABLE means PRESENT, never AUTHENTICATED. Presence of a key does not prove the
+#     credential works; the point of use stays the authority.
+CAPABILITY = "capability"
+CAP_AVAILABLE, CAP_UNAVAILABLE, CAP_UNKNOWN = "AVAILABLE", "UNAVAILABLE", "UNKNOWN"
 results = []                # (severity, name, ok, detail, owner_doc)
+capabilities = []           # (name, state, detail, owner_doc, dependents, tracker)
 
 
 def record(severity, name, ok, detail, owner):
     results.append((severity, name, ok, detail, owner))
+
+
+def run_capability(name, cmd, owner, dependents, tracker=None, unavailable_rc=(1,)):
+    """Run a capability probe. Returns its state; NEVER affects rc.
+
+    rc 0 -> AVAILABLE (present, not authenticated) · rc in unavailable_rc -> UNAVAILABLE
+    · anything else, a crash, or a timeout -> UNKNOWN (the check established nothing).
+    `dependents` names the workflows the capability gates AT THE POINT OF USE.
+    `tracker` is the WILL_QUEUE row id following the gap up; past its needed-by the
+    capability is presented as URGENT — escalation urgency only, never gating."""
+    global LOG_DIR
+    if LOG_DIR is None:
+        LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
+    log = LOG_DIR / f"cap-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:60]}.txt"
+    try:
+        with log.open("x", encoding="utf-8") as output:
+            p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
+        rc = p.returncode
+        tail = log.read_text(encoding="utf-8", errors="replace").strip().split("\n")
+        if rc == 0:
+            state, detail = CAP_AVAILABLE, "present (NOT authenticated — the point of use is the authority)"
+        elif rc in unavailable_rc:
+            state = CAP_UNAVAILABLE
+            # the marker sits INSIDE the line ("ENV-DOCTOR ✗ FFIEC_CDR_TOKEN missing…"), not at
+            # its start — a startswith() filter here selected the perimeter summary instead of the
+            # failures, i.e. it reported that a check ran rather than what it found.
+            flagged = [l.strip() for l in tail if ("✗" in l or "❌" in l)]
+            detail = ("; ".join(f[:100] for f in flagged[:3])
+                      + (f" (+{len(flagged)-3} more)" if len(flagged) > 3 else "")) \
+                     or (tail[-1][:110] if tail else f"rc={rc}")
+        else:
+            state, detail = CAP_UNKNOWN, f"unrecognised rc={rc} — the probe established nothing"
+    except Exception as e:                       # crash / timeout / unreadable config
+        state, detail = CAP_UNKNOWN, f"probe failed: {type(e).__name__}: {str(e)[:90]}"
+    capabilities.append((name, state, detail + f"\n       full output: {log}", owner, dependents, tracker))
+    return state
+
+
+def _tracker_overdue(row_id, today=None):
+    """True if the WILL_QUEUE row following a capability gap is past its needed-by.
+    Missing file, missing row or unparseable date -> False: an unreadable tracker
+    must not manufacture urgency it cannot establish (category 4, fail visible-not-loud
+    — the capability itself is already reported every run)."""
+    if not row_id:
+        return False
+    today = today or dt.date.today()
+    try:
+        for line in (ROOT / "PROME" / "WILL_QUEUE.md").read_text(encoding="utf-8").split("\n"):
+            cells = [c.strip() for c in line.split("|")]
+            if len(cells) > 4 and cells[1] == str(row_id):
+                m = re.search(r"\d{4}-\d{2}-\d{2}", cells[4])
+                return bool(m) and dt.date.fromisoformat(m.group()) < today
+    except Exception:
+        return False
+    return False
 
 
 def run_script(severity, name, cmd, owner, ok_rc=(0,)):
@@ -756,8 +828,12 @@ def check_claude_dir_drift():
 
 
 def mode_boot():
-    run_script(BLOCK, "env_doctor", [sys.executable, "scripts/env_doctor.py", "--quiet"],
-               "PROME/MACHINE_LOCAL.md")
+    run_capability("machine credentials (env_doctor)",
+                   [sys.executable, "scripts/env_doctor.py", "--quiet"],
+                   "PROME/MACHINE_LOCAL.md",
+                   dependents="FFIEC call-report pulls · NASA FIRMS hotspot grading (FALCON/OSPREY) · "
+                              "FRED/EIA-dependent levels",
+                   tracker="238")
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical; fix the trade surface")
     run_script(BLOCK, "board_scan", [sys.executable, "PROME/tools/board_scan.py", "--advance"],
@@ -878,6 +954,7 @@ def main():
     ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
     args = ap.parse_args()
     results.clear()
+    capabilities.clear()
     if args.log_dir:
         args.log_dir.mkdir(parents=True, exist_ok=False)
         LOG_DIR = args.log_dir.resolve()
@@ -897,6 +974,18 @@ def main():
         print(f"  {mark} [{sev:8}] {name}: {detail}")
         if not ok:
             print(f"       → {owner}")
+    if capabilities:
+        print(f"  {'-'*66}\n  CAPABILITIES — never gate unrelated work; reported every run until RESTORED")
+        for name, state, detail, owner, dependents, tracker in capabilities:
+            urgent = state != CAP_AVAILABLE and _tracker_overdue(tracker)
+            mark = {CAP_AVAILABLE: "✅", CAP_UNAVAILABLE: "⛔", CAP_UNKNOWN: "❓"}[state]
+            print(f"  {mark} [{state:11}] {name}: {detail}")
+            if state != CAP_AVAILABLE:
+                print(f"       ↳ withholds: {dependents}")
+                print(f"       ↳ unrelated work PROCEEDS — this is not a gate")
+                if tracker:
+                    print(f"       ↳ {'🔴 URGENT — WQ-' + tracker + ' is PAST its needed-by; escalate to Will this session' if urgent else 'tracked at WQ-' + tracker}")
+                print(f"       → {owner}")
     print(f"{'='*70}")
     if blocking_fail:
         print(f"  🔴 {len(blocking_fail)} BLOCKING gate(s) failed — disposition before new work.\n")

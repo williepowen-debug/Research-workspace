@@ -1,6 +1,6 @@
 ---
 name: boot
-description: PROME session boot runner — the execution order for `PROME/BOOT.md` (which stays canonical). Use on "please boot up", "boot", session start. Reads the chain in owner order, runs the one-shot gate, and FORCES the owed-items question to Will before any directed work starts.
+description: PROME session boot runner — the execution order for `PROME/BOOT.md` (which stays canonical). Use on "please boot up", "boot", session start. Reads the chain in owner order, runs the one-shot gate, reports owed work and urgent obligations, then CONTINUES Will's directed task — interrupting only when his answer is necessary for the next action.
 user-invocable: true
 ---
 
@@ -17,7 +17,7 @@ Commands are quoted here only where they are stable interfaces; they are copied 
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>`
    BOOT.md step 5 owns the gate's meaning; step 6 owns the board-scan re-run rule.
 3. **Declare boot state** → BOOT.md step 7.
-4. **Flag top issues + the owed-items question to Will** → BOOT.md step 8 (the wording, the "choice not mention" rule, and the third-boot disposition all live there). ⚠️ **BOTH halves of BOOT.md step 8** — the owed-items choice AND the `PROME/STATUS.md` `Last spine audit:` stamp check, whose trigger and wording live there. `prome_gate.py boot` carries no check for that stamp, so this runner is its only carrier. (Named here 2026-09-12, spine audit #13 — the runner had carried one half.) Ask before any directed work.
+4. **Report, then continue** → BOOT.md step 8 (the interrupt test, the hands-vs-answer rule, the anti-scoping clause and the third-boot disposition all live there). ⚠️ **BOTH halves of BOOT.md step 8** — the report-and-continue contract AND the `PROME/STATUS.md` `Last spine audit:` stamp check. `prome_gate.py boot` carries no check for that stamp, so this runner is its only carrier. (Named here 2026-09-12, spine audit #13 — the runner had carried one half.) ⛔ **Do not stop for an answer unless BOOT.md step 8's interrupt test returns YES.**
 5. **Conditional reads** → BOOT.md step 6.
 6. **Top proposals** → BOOT.md step 9.
-7. **Then the session's work.** Work only the scoped task (`PROME/CLAUDE.md` Boot step 4); the owed items are yours to have ASKED about (BOOT.md step 8).
+7. **Then the session's work — start it, do not wait.** Work the scoped task (`PROME/CLAUDE.md` Boot step 4); with no scoped task, the highest-priority authorized work. The owed items are yours to have REPORTED (BOOT.md step 8), not to have asked about.
