@@ -25,6 +25,27 @@ import prome_gate   # noqa: E402
 PY = sys.executable
 
 
+def _init_repo(root):
+    """Make a temp ROOT an actual git repository.
+
+    ⛔ These fixtures set `argus_scope.ROOT` to a temp dir that was NEVER a repo. That
+    worked only because `git()` carried no `cwd` and so ran in the PROCESS CWD — the live
+    checkout. `record_review()` was therefore stamping the LIVE repo's HEAD into a manifest
+    describing a temp directory, and scope was discovered from a different repository than
+    the one whose content was being compared. That is the round-3 ❌2 defect, and these
+    tests were quietly depending on it. Giving the fixture a real repo is the fix; making
+    `git()` follow the caller's CWD again would not be.
+    """
+    run = lambda *a: subprocess.run(["git", *a], cwd=root, capture_output=True, text=True,
+                                    check=True)
+    run("init", "-q", ".")
+    run("config", "user.email", "fixture@local")
+    run("config", "user.name", "fixture")
+    (pathlib.Path(root) / ".gitkeep").write_text("", encoding="utf-8")
+    run("add", "--", ".gitkeep")
+    run("commit", "-qm", "fixture root")
+
+
 class Case1_GeneratedViewsNotRestated(unittest.TestCase):
     """'A Standard closeout changes one DOCKET obligation: generated views update
     without additional narrative copies.'"""
@@ -102,6 +123,7 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
         self.orig_root = argus_scope.ROOT
         argus_scope.ROOT = pathlib.Path(self.d.name)
         self.addCleanup(lambda: setattr(argus_scope, "ROOT", self.orig_root))
+        _init_repo(argus_scope.ROOT)
         (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True)
         self.f = argus_scope.ROOT / "surface.md"   # the whole candidate; see CANDIDATE
         self.f.write_text("reviewed content\n", encoding="utf-8")
@@ -190,6 +212,7 @@ class Case5_ForeignDirtyFiles(unittest.TestCase):
             argus_scope_root = argus_scope.ROOT
             argus_scope.ROOT = pathlib.Path(d)
             try:
+                _init_repo(argus_scope.ROOT)
                 (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True)
                 (argus_scope.ROOT / "mine.md").write_text("x", encoding="utf-8")
                 (argus_scope.ROOT / "theirs.md").write_text("y", encoding="utf-8")

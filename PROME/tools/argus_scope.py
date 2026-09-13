@@ -41,7 +41,16 @@ CLASSES = ("OWNED", "SHARED", "EXCLUDED")
 
 
 def git(*args):
-    return subprocess.run(["git", *args], capture_output=True, text=True, check=True).stdout
+    # ⛔ cwd=ROOT is LOAD-BEARING, not tidiness. Without it scope was discovered from the
+    # PROCESS CWD while content was read from ROOT (_committed_content_id already passed
+    # cwd=ROOT). From a second worktree or clone of the same repo the baseline sha still
+    # resolves — the object DB is shared — so load_baseline() succeeded, build_scope()
+    # returned the OTHER checkout's scope, nothing raised, and mark_reviewed() promoted the
+    # real repo's manifest to REVIEWED over an unreviewed addition. CLOSEOUT's
+    # `cd "$(git rev-parse --show-toplevel)"` does NOT prevent it: inside a worktree that
+    # idiom resolves to the WORKTREE root. (Independent review 2026-09-13, round 3.)
+    return subprocess.run(["git", *args], cwd=ROOT,
+                          capture_output=True, text=True, check=True).stdout
 
 
 # ---------------------------------------------------------------- A2: the recorded perimeter
@@ -262,7 +271,16 @@ def verify_review(paths=None, ref=None):
     # the post-commit check. With no list supplied, fall back to the tool's OWN computed
     # scope — the same set the freeze was taken from. (ARGUS, 2026-09-12.)
     scope_failed = None
-    if paths is None:
+    if paths is not None and not paths:
+        # ⛔ An EMPTY list is not an answer, and it was the WORST of the three: `--paths`
+        # OMITTED fell through to discovery and returned rc 1, while `--paths` supplied
+        # EMPTY skipped discovery and returned rc 0 over the same unreviewed addition.
+        # `nargs="*"` + an unset shell variable in the documented step-10 command is all it
+        # took. Passing the flag must never be more dangerous than not passing it.
+        scope_failed = ("an EMPTY candidate list was supplied, which establishes nothing. "
+                        "Omitting --paths is SAFER than passing it empty (the usual cause is "
+                        "an unset shell variable expanding to no arguments)")
+    elif paths is None:
         try:
             base, _why = load_baseline()
             if base is None:
@@ -282,6 +300,17 @@ def verify_review(paths=None, ref=None):
                 # quieter version of the same hole" — and then did it.
                 scope_failed = f"baseline unusable — {_why}"
             else:
+                # ⚠️ `excluded` is DROPPED here and that is a KNOWN, REGISTERED narrowing
+                # (DOCKET L367), not an oversight. An independent review called it a bypass:
+                # an unreviewed addition at an EXCLUDED path (CLAUDE.md, scripts/**, docs/**)
+                # returns 0 from this caller while the explicit-list form returns 1 on the
+                # same tree. The DIAGNOSIS is correct. Its proposed fix — append `excluded` —
+                # was TESTED HERE AND IS WRONG: `AGENTS/**` is EXCLUDED, so one other desk's
+                # dirty STATUS.md then blocks every PROME closeout (reproduced 2026-09-13:
+                # "UNREVIEWED: AGENTS/BRENT/STATUS.md"). The real question — what "shipping"
+                # means for a path PROME does not own but may commit Will-gated — is a design
+                # decision, not a line edit, and is registered rather than guessed at inside a
+                # third correction pass on this file.
                 lanes, _ = build_scope(base["sha"], load_perimeter(), include_pending=True)
                 paths = [e["path"] for e in
                          lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]]
@@ -409,7 +438,7 @@ def main(argv=None):
     ap.add_argument("--verify-review", action="store_true",
                     help="compare against the frozen candidate; rc 1 = content changed or an unreviewed "
                          "path is shipping, rc 2 = CANNOT-EVALUATE (no manifest / prior closeout)")
-    ap.add_argument("--paths", nargs="*", metavar="PATH", default=None,
+    ap.add_argument("--paths", nargs="+", metavar="PATH", default=None,
                     help="with --verify-review: the EXACT intended commit paths, so an addition that was "
                          "never reviewed is detected (without this the check cannot see additions)")
     ap.add_argument("--ref", metavar="REF",

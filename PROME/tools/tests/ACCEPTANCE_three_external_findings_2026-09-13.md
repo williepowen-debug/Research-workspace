@@ -122,3 +122,41 @@ baseline makes completeness UNKNOWN; it does not make completeness UNNECESSARY.*
 (the category the defect lives in) TESTED. Overlap TESTED: git broken **while** an explicit list is
 supplied still returns 0. Wrong owner / concurrent activity **N/A, justified** — a single-pass
 reader over a frozen manifest, no shared state and no second writer.
+
+---
+
+## F1 ROUND 3 — an independent reviewer broke my round-2 claim three ways
+
+Written **2026-09-13 11:4x ET before any edit.** Commissioned per WQ-229 (a consequential repair
+touching a gate, on a defect that has already recurred, goes to an independent reader who devises
+its own counterexample). It did, and it was right.
+
+⛔ **I told Will "there is no longer any input or environment condition under which
+`verify_review()` returns 0 without establishing completeness." That claim was FALSE.** Round 2
+closed the door I had been shown and left three others open. All three were confirmed at the
+artifact and two reproduced empirically before this was written.
+
+| # | Defect | Confirmed |
+|---|---|---|
+| ❌1 | `--paths` **present but empty** (`nargs="*"`, an unset shell variable) is `[]`, which `is not None`, so discovery is skipped and completeness is vacuous — rc 0 over an unreviewed addition. **Omitting the flag returns rc 1.** Passing it empty is strictly worse than not passing it. | reproduced |
+| ❌2 | `git()` carries no `cwd`, so scope is discovered from the **process CWD** while content is read from `ROOT`. From a second worktree/clone the baseline resolves against the shared object DB, discovery returns the *other* checkout's scope, nothing raises, and `mark_reviewed()` promotes the real repo. `git worktree list` shows a live second worktree, so this is reachable, not theoretical. | confirmed at `argus_scope.py:43` vs `:218` |
+| ❌3 | The discovery fallback builds from `lanes[...]` and **discards `excluded`**, so an unreviewed addition at any EXCLUDED path (`CLAUDE.md`, `scripts/**`, `docs/**`, `AGENTS/**`) yields rc 0 — while the explicit-list form on the same tree yields rc 1. Two callers of one function, opposite verdicts, and the permissive one is the one that promotes to REVIEWED. | confirmed at `:285-287` |
+
+**Acceptance conditions**
+1. An empty `paths` list NEVER authorizes rc 0. It establishes nothing, and the message must say
+   that omitting the flag is safer than passing it empty.
+2. Scope discovery reads **the same repository whose content is being compared** — independent of
+   the caller's CWD.
+3. The completeness check considers the **whole commit set**. The perimeter decides what ARGUS
+   *audits*; it must not decide what counts as *shipping unreviewed*. Those are different questions
+   and one was answering the other.
+4. Round-1 and round-2 behaviour survives unchanged: discovery failure and unusable baseline ⇒ rc 2;
+   an explicit complete list ⇒ rc 0; a genuinely clean run ⇒ rc 0.
+5. Every new test **fails at `625cb7070`**. A test that passes before the fix pins nothing.
+
+**Not fixed in this pass, and why.** The reviewer's four ⚠️ (SystemExit escaping `except Exception`;
+`AttributeError` on malformed manifests; the rc-0 line not naming its scope basis; rc 2 recorded as
+a PASS when `--tier` is omitted) are real but all **fail closed** — they exit 1 or block. They are
+residue, registered rather than swept into a repair pass that is already three rounds deep on one
+file. ⚠️4 is the strongest of them: the rc-1 remedy text is the wrong repair for a missing input,
+and the gate skips every check after it.

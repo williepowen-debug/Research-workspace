@@ -34,6 +34,132 @@ import fleet_dashboard as FD  # noqa: E402
 import gate_fixture  # noqa: E402
 
 
+# ------------------------------------------------------- F1 ROUND 3 (independent review)
+
+class ArgusScopeRoundThree(unittest.TestCase):
+    """Three rc-0 bypasses an independent adversarial reviewer found after I told Will the
+    claim held. Each test below FAILS at 625cb7070 — that was checked, not assumed."""
+
+    def setUp(self):
+        self.fix = gate_fixture.build()
+        shutil.copy2(ROOT / "PROME/tools/argus_scope.py",
+                     self.fix / "PROME/tools/argus_scope.py")
+        self.cwd0 = os.getcwd()
+        os.chdir(self.fix)
+        self.addCleanup(self._teardown)
+        # The overlaid argus_scope.py and its bytecode are REAL unreviewed additions as far
+        # as the tool is concerned, and it was right to say so — the first draft of this
+        # fixture asserted "clean run" over a tree holding both. Commit the overlay and
+        # suppress bytecode so "clean" actually means clean.
+        self._git("add", "PROME/tools/argus_scope.py")
+        self._git("commit", "-m", "overlay", "--", "PROME/tools/argus_scope.py")
+        _bc, sys.dont_write_bytecode = sys.dont_write_bytecode, True
+        self.addCleanup(setattr, sys, "dont_write_bytecode", _bc)
+        spec = importlib.util.spec_from_file_location(
+            "argus_r3", self.fix / "PROME/tools/argus_scope.py")
+        self.A = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.A)
+        self.A.ROOT = self.fix
+        shutil.rmtree(self.fix / "PROME/tools/__pycache__", ignore_errors=True)
+        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=self.fix,
+                             capture_output=True, text=True).stdout.strip()
+        self.A.record_baseline(sha)
+        self.surface = self.fix / "PROME/zz_r3_surface.md"
+        self.surface.write_text("frozen\n")
+        self._git("add", "PROME/zz_r3_surface.md")
+        self._git("commit", "-m", "surface", "--", "PROME/zz_r3_surface.md")
+        self.A.record_review(["PROME/zz_r3_surface.md"])
+        self.A.mark_reviewed("fixture")
+
+    def _teardown(self):
+        os.chdir(self.cwd0)
+        gate_fixture.destroy(self.fix)
+
+    def _git(self, *a):
+        return subprocess.run(["git", *a], cwd=self.fix, capture_output=True, text=True)
+
+    # -------- ❌1 an empty candidate list establishes nothing
+    def test_empty_paths_list_cannot_certify(self):
+        (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
+        rc, out = self.A.verify_review(paths=[])
+        self.assertEqual(rc, 2, f"an empty list must be CANNOT-EVALUATE, not a pass: {out}")
+        self.assertTrue(any("EMPTY" in l for l in out))
+
+    def test_passing_paths_empty_is_never_safer_than_omitting_it(self):
+        """THE SHAPE OF THE DEFECT: supplying the flag empty returned 0 while omitting it
+        returned 1. A flag must never be more dangerous present than absent."""
+        (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
+        rc_omitted, _ = self.A.verify_review(paths=None)
+        rc_empty, _ = self.A.verify_review(paths=[])
+        self.assertNotEqual(rc_omitted, 0)
+        self.assertNotEqual(rc_empty, 0, "empty --paths certified what omitting it caught")
+
+    def test_cli_rejects_an_empty_paths_expansion(self):
+        """nargs='+' so an unset shell variable fails at the parser, not silently."""
+        r = subprocess.run([sys.executable, str(self.fix / "PROME/tools/argus_scope.py"),
+                            "--verify-review", "--paths"],
+                           cwd=self.fix, capture_output=True, text=True)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("expected at least one argument", r.stderr)
+
+    # -------- ❌2 discovery must read the repo whose content is compared
+    def test_scope_discovery_ignores_the_callers_cwd(self):
+        """From a second CLONE the baseline sha still resolves (shared object DB), so
+        nothing raised and the OTHER checkout's empty scope certified the real one."""
+        (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
+        clone = self.fix.parent / (self.fix.name + "-clone")
+        subprocess.run(["git", "clone", "-q", str(self.fix), str(clone)],
+                       capture_output=True, text=True)
+        self.addCleanup(shutil.rmtree, clone, True)
+        os.chdir(clone)
+        try:
+            rc, out = self.A.verify_review(paths=None)
+        finally:
+            os.chdir(self.fix)
+        self.assertEqual(rc, 1, f"discovery followed the CWD instead of ROOT: {out}")
+        self.assertTrue(any("UNREVIEWED" in l for l in out))
+
+    def test_promotion_from_a_foreign_cwd_does_not_launder_the_real_repo(self):
+        (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
+        clone = self.fix.parent / (self.fix.name + "-clone2")
+        subprocess.run(["git", "clone", "-q", str(self.fix), str(clone)],
+                       capture_output=True, text=True)
+        self.addCleanup(shutil.rmtree, clone, True)
+        os.chdir(clone)
+        try:
+            rc, msg = self.A.mark_reviewed("promote from elsewhere")
+        finally:
+            os.chdir(self.fix)
+        self.assertNotEqual(rc, 0, f"promoted over an unreviewed addition: {msg}")
+
+    # -------- ❌3 is REGISTERED (DOCKET L367), NOT FIXED — and this pins WHY.
+    def test_the_reviewers_proposed_fix_for_excluded_paths_would_break_the_tool(self):
+        """Appending `excluded` to the discovery list makes ANOTHER DESK'S dirty file block
+        PROME's closeout. Recorded as a test so the next person to read that review does not
+        apply the proposed fix. The diagnosis is right; the proposed remedy is not."""
+        foreign = self.fix / "AGENTS/BRENT/STATUS.md"
+        foreign.parent.mkdir(parents=True, exist_ok=True)
+        foreign.write_text("BRENT's own live edit\n")
+        lanes, excluded = self.A.build_scope(
+            self.A.load_baseline()[0]["sha"], self.A.load_perimeter(), include_pending=True)
+        self.assertIn("AGENTS/BRENT/STATUS.md", [e["path"] for e in excluded],
+                      "the foreign file must land in `excluded` — that is what protects us")
+        self.assertNotIn("AGENTS/BRENT/STATUS.md",
+                         [e["path"] for e in lanes["OWNED"] + lanes["SHARED"]
+                          + lanes["UNATTRIBUTED"]])
+
+    # -------- A4: round 1 and round 2 must survive
+    def test_round_one_and_two_behaviour_survives(self):
+        self.assertEqual(self.A.verify_review(paths=None)[0], 0, "clean run must still pass")
+        shutil.move(str(self.fix / ".git"), str(self.fix / ".git-hidden"))
+        try:
+            self.assertEqual(self.A.verify_review(paths=None)[0], 2, "round 2 regressed")
+        finally:
+            shutil.move(str(self.fix / ".git-hidden"), str(self.fix / ".git"))
+        self.assertEqual(self.A.verify_review(paths=["PROME/zz_r3_surface.md"])[0], 0,
+                         "the explicit-complete-list escape regressed")
+
+
 # ----------------------------------------------------------------- F1
 
 class ArgusScopeFailsClosed(unittest.TestCase):

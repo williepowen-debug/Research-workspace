@@ -87,6 +87,14 @@ def build(ref: str = "HEAD") -> pathlib.Path:
         (root / d).mkdir(parents=True, exist_ok=True)
 
     _run(["git", "init", "-q", "."], root)
+    # ⛔ Set the identity IN THE REPO, not only via `-c` on the first commit. Without this
+    # every later `git commit` a TEST makes inside the fixture fails rc 128 "Author identity
+    # unknown" — and tests that capture output without checking rc read as passing while the
+    # commit never happened, so the tree under test is not the tree the test believes in.
+    # Found 2026-09-13 when a round-3 case asserted a clean run over a staged-not-committed
+    # overlay. (finding_test_the_guard_not_just_the_guarded.)
+    _run(["git", "config", "user.email", "fixture@local"], root)
+    _run(["git", "config", "user.name", "fixture"], root)
     # PATHSPEC adds only. `git add -A`/`git add .` are prohibited and git_guard
     # blocks them by command text, fixture or not — correct behaviour, not a
     # limitation to work around.
