@@ -1,8 +1,8 @@
-# ORCH_LOG `zero_capital` — DECLINE the normalization; the header edit is WITHDRAWN as drafted
+# ORCH_LOG `zero_capital` — CLOSED. Normalization declined on cost/benefit; header edit withdrawn
 
 **v1 2026-09-12 22:41 ET · v2 same session after an independent cold read scored it 13✅ / 4⚠️ / 6❌.**
-Owner PROME. **Status: DECISION STANDS (decline) on CORRECTED grounds. The proposed header edit is
-WITHDRAWN — re-proposing it needs its own plan read.**
+Owner PROME. **Status: CLOSED 2026-09-12 22:5x ET on Will's word — normalization declined, header edit
+withdrawn, and NO further proposal is to be commissioned on this item.**
 
 ⛔ **v1 of this document is superseded in place, not annotated.** Its three false statements are listed at
 §4 because the correction is the most useful thing here, not because the text survives.
@@ -47,9 +47,17 @@ attached, which that memory did not previously have.
 same aggregation. v1 asserted this one paragraph after describing the Counter correctly:
 `[[finding_summary_section_merges_what_the_body_separates]]`.
 
-**The ground that survives, and it is stronger than the one v1 led with:** the `yes` band is **the only
-surviving trace of a four-day schema-adoption failure**. Normalizing it erases the evidence that a ruled
-schema did not take on the writing side for four days — the one thing this column can still teach.
+**v2 then overstated the replacement ground, and Will corrected it 2026-09-12 22:5x ET.** v2 said the
+`yes` band is *"the only surviving trace"* of the four-day adoption failure and that normalizing *"erases
+the evidence."* ⛔ **Too strong, in two independent ways: committed git history preserves every original
+value, and §2 of this record now documents the regression with its dates.** The evidence is doubly durable
+and normalization would destroy neither.
+
+★ **THE ACTUAL GROUND IS COST AND BENEFIT, AND IT IS MODEST.** Consumers already accept both tokens, the
+operational benefit of normalizing is close to nil, and a 23-row rewrite of an append-only ledger carries
+real risk for it. **That is sufficient, and it is all that is claimed.** It is a judgement, not a necessity
+imposed by evidence preservation — ⚠️ **note the direction of the error: I reached for a
+principle-shaped reason when a plain one already settled it, and the principle-shaped reason was false.**
 
 Supporting, each checked: `scripts/orch_log.py check` passes either token (rc 0, 117 rows × 13 cols; the
 cell is untyped and unvalidated) · `AGENTS/DAEDALUS/scripts/scorecard.py:350` accepts
@@ -81,16 +89,19 @@ from the cold read and all reproduced:
   `§ Session Process Controls` rule *"no live measurements in prose."* `23` is already stale; a line
   number in another desk's file rots on that desk's next edit and still resolves, silently, to the wrong line.
 
-**What a correct replacement needs** (recorded so the next attempt starts here, NOT as an approved draft):
-a **date fence** rather than a count — *rows dated ≤ 2026-09-07 stay as written* — because a date cannot go
-stale; the real reason (evidence of a post-v2 regression); coverage of the **33 archived rows** the v1 text
-left unprotected; and no count, no line number, on ONE physical line.
+⛔ **AND NO REPLACEMENT IS OWED. Will ruled the item CLOSED 2026-09-12 22:5x ET: leave it closed rather
+than commission another normalization proposal.** The notes on what a correct header would need — a **date
+fence** (*rows dated ≤ 2026-09-07 stay as written*) rather than a count, because a date cannot go stale;
+coverage of the **33 archived rows**; no count, no line number, on ONE physical line — are kept ONLY so
+that a future reader who independently reopens this does not repeat the drafting errors. **They are not a
+work item and nobody is to pick them up as one.**
 
 ⚠️ **Residue, declared not fixed:** *"the ONLY metric consumer"* remains **SEARCH-NOT-FOUND, not VERIFIED** —
 no exhaustive search was run, and under Class 13 an absence claim does not upgrade on a broad grep.
 The *"12 errors plus a broken seal"* reference names no record path.
 
-**Completion state (WQ-229):** the DECISION is **IMPLEMENTED** (recorded, no edit required, no edit made).
-The header amendment is **NOT IMPLEMENTED and NOT PROPOSED** — it is withdrawn, and a re-proposal gets its
-own plan read. **INDEPENDENTLY REVIEWED:** yes — and the reviewer overturned three of the grounds and the
-whole of the proposed text while leaving the decision standing.
+**Completion state (WQ-229):** **CLOSED.** The decision is IMPLEMENTED (recorded; no edit required, none
+made to `ORCH_LOG.tsv`). The header amendment is NOT IMPLEMENTED, NOT PROPOSED and NOT OWED.
+**INDEPENDENTLY REVIEWED — twice, and each reader took something out:** the cold reader overturned three
+grounds and the whole proposed text; **Will then overturned the replacement ground itself as overstated and
+closed the item.** The decision survived both; none of my three successive justifications for it did.

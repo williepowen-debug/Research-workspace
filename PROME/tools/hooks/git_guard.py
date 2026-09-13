@@ -90,13 +90,32 @@ def strip_text(cmd: str) -> str:
 def main():
     try:
         data = json.load(sys.stdin)
+        # L294 F-6: input that PARSES but is not an object ([], null, "ok", 3) used to
+        # reach data.get() and raise AttributeError out of main() — rc=1 with a
+        # traceback. That is the same situation as unparseable input (the hook cannot
+        # interpret what it was handed) and belongs on the same declared path, so the
+        # shape check lives INSIDE this try rather than becoming a third policy.
+        # ⛔ Scope note: the guard's blocking path was never broken — a normal request
+        # carrying `git add .` returns 2 correctly. Only this validation path was.
+        if not isinstance(data, dict):
+            raise TypeError(f"hook input is {type(data).__name__}, expected an object")
     except Exception as e:
-        sys.stderr.write(f"⚠️ git_guard: could not parse hook input ({type(e).__name__}) — "
+        sys.stderr.write(f"⚠️ git_guard: unusable hook input ({type(e).__name__}: {e}) — "
                          "ALLOWING without a check. This is fail-open, not coverage.\n")
         return 0
     if data.get("tool_name") != "Bash":
         return 0
-    cmd = (data.get("tool_input") or {}).get("command", "") or ""
+    # The SAME F-6 shape, one level down, found by this repair's own overlap test:
+    # `tool_input` present but not an object (a bare string) reached `.get` and raised
+    # AttributeError outside any try — rc=1 again. Validating only the top-level object
+    # fixed the reproduction and left its nested twin live.
+    # `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`
+    ti = data.get("tool_input")
+    if ti is not None and not isinstance(ti, dict):
+        sys.stderr.write(f"⚠️ git_guard: unusable tool_input ({type(ti).__name__}, expected an "
+                         "object) — ALLOWING without a check. This is fail-open, not coverage.\n")
+        return 0
+    cmd = (ti or {}).get("command", "") or ""
     try:
         scan = strip_text(cmd)
     except Exception as e:
