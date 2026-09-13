@@ -10,7 +10,7 @@
 
 ## §0 Acceptance conditions — written BEFORE any edit (WQ-229)
 
-Stated as properties in the defect's own terms, not as a restatement of the symptom. **Each condition below is marked with how it is exercised: `[S#]` = a scenario in §4 · `[ART]` = verified at the named artifact · `[ARG]` = argued in prose and NOT tested.** ⛔ **An earlier draft of this line claimed “these are the test list” and that was false — 8 of 15 conditions had no test at all. The marks are the honest form; `[ARG]` is a disclosure, not a pass.**
+Stated as properties in the defect's own terms, not as a restatement of the symptom. **Each condition below is marked with how it is exercised: `[S#]` = a scenario in §4 · `[ART]` = verified at the named artifact · `[ARG]` = argued in prose and NOT tested.** ⛔ **An earlier draft of this line claimed “these are the test list” and that was false — 8 of the then-15 conditions had no test at all (v3 carries 16: A1–A7, B1–B5, C1–C4). The marks are the honest form; `[ARG]` is a disclosure, not a pass.**
 
 **① Boot interrupt contract**
 - A1. `[S1]` A boot where Will named a lane, with owed items and a credential gap unrelated to that lane, **starts the lane without stopping.**
@@ -32,7 +32,7 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 - C1. `[S8]` The WQ-232 "does the boot path already reach it?" test governs **all tiers**, not Light alone.
 - C2. `[ART]` All **three** surfaces that mandate a SCRATCH full rewrite change together (`CLOSEOUT.md:29` already correct · `:46` · `:118`). The 9/11 amendment changed 1 of 3 — that is the registered defect.
 - C3. `[ARG — see residue R1]` **Unresolved obligations and evidence links survive the de-duplication** — measured, not asserted, by the blind-reader procedure already mandated for rotations.
-- C4. `[ARG — see residue R5]` ⛔ **Rotation is not the remedy and must not be reported as one.** CODEX's closing caution is correct and is confirmed by today's own evidence: `ACTIVE_DECISIONS` went 76.4% → 73.6% **by rotating an 11-deep stamp chain**, with the behaviour that fills the file untouched.
+- C4. `[ARG — see residue R2]` ⛔ **Rotation is not the remedy and must not be reported as one.** CODEX's closing caution is correct and is confirmed by today's own evidence: `ACTIVE_DECISIONS` went 76.4% → 73.6% **by rotating an 11-deep stamp chain**, with the behaviour that fills the file untouched.
 
 **Neighbour categories (WQ-229 — CONSIDER all five, justified N/A where they do not apply):**
 - **ORDINARY** — the three ordinary-path scenarios below: S1 · S2 · S4. (S3 is MISSING INFORMATION, below; S5/S6 test the removal.)
@@ -57,6 +57,8 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 >
 > **The interrupt test is ONE question: _is Will's answer necessary for PROME's next action?_**
 > - **YES ⇒ ask, and stop on that item only.** It is necessary when the next action is a decision only Will can make (a trade or spend consequent; a Will-gated surface the lane must edit; a ruling the lane's next step consumes), or when a dependency PROME **can name** blocks the directed lane.
+> - ★ **“Necessary” means PROME's next action cannot be COMPLETED without Will's answer.** Work that needs Will's **hands** but not his **answer** — a token to paste, a key to supply, a trade only he can place — is **surfaced, never asked**: PROME's own next action does not depend on it. *(This is the criterion T1 turns on, and an earlier revision decided T1 by it without stating it in the rule.)*
+> - ⛔ **Anti-scoping clause — PROME may NOT re-scope its next action to avoid an ask.** Because PROME chooses its own next action, it also fixes the term this test quantifies over, and the cheap answer is always NO. **Therefore: if ANY authorized next action on the same subject would require Will's answer, the item is a YES, whichever action PROME elects.**
 > - **NO ⇒ surface it and keep working.** A dated item, an **overdue** item, an urgent risk and a missing capability are all **SURFACED, never asked**, unless the YES branch independently applies. Urgency decides **where in the report an item appears and how loudly** — never whether work proceeds.
 >
 > ⛔ **An overdue obligation is not, by itself, an interrupt.** `WQ-187` sat at its needed-by on 2026-09-12 and needs Will's **hands**, not his **answer**; no PROME action depended on it. Stopping there would halt independent authorized work to re-ask something the digest already carried.
@@ -110,9 +112,10 @@ CODEX asked for four (S1–S4). **S5/S6 are mine — they test the REMOVAL, whic
 
 | # | Scenario | Required behaviour | Draft holds? |
 |---|---|---|---|
-| **S1** | Today's boot: lane named, owed items present, credential gap unrelated to the lane | Report owed as one line, state the first action, **start** | ✅ no trigger fires — (a) no authority needed, (b) FFIEC/FIRMS do not block process work, (c) nothing dated worsens |
-| **S2** | A `FIRED-UNEXECUTED` gate row, or a LIVE INSTRUMENT row past `review_by` | **Interrupt** | ✅ trigger (c), and both are already BLOCKING checks in `prome_gate.py` — decidable, not judged |
-| **S3** | Will asks what FIRMS shows on the Petroline route | **Refuse at the point of use**, name the missing key on this box, do not substitute a weaker source silently | ⚠️ **PARTIAL** — PROME's side holds (trigger (b) fires, WQ-238 is the named blocker). **The FALCON-side message is not PROME's to fix** and stays wrong until that desk lands it. Stated, not smoothed. |
+| **S1** | Today's boot: lane named, owed items present, credential gap unrelated to the lane | Report owed as one line, state the first action, **start** | ✅ **NO branch** — the process lane's next action completes without Will's answer, and no authorized action on the same subject needs one. *(Re-derived against v3: this verdict previously read “no trigger fires — (a)/(b)/(c)”, grading a list §1 had already deleted.)* |
+| **S2** | A `FIRED-UNEXECUTED` gate row | **Interrupt** | ✅ **YES branch** — an unexecuted fire is a trade consequent; root rule #5 makes Will's word necessary before the next action. *(Re-derived: previously justified by the deleted trigger (c).)* |
+| **S2b** 🔴 | A LIVE INSTRUMENT `GATES` row **past `review_by`** | **Surface + PROME spawns/doorbells the OWNER (Tier 1) — do NOT stop and ask Will** | ❌ **THE RULE AND THE GATE NOW DISAGREE.** The rule says NO branch (the row needs the *owner's grade*, not Will's answer) — but `prome_gate.py:183` records this as `BLOCK`, and BLOCK's contract is *“disposition before proceeding”* for ALL work. **A7 would be true of the REPORT and false of the GATE.** See §5 leg ①b — unresolved, and it EXPANDS the change's scope. |
+| **S3** | Will asks what FIRMS shows on the Petroline route | **Refuse at the point of use**, name the missing key on this box, do not substitute a weaker source silently | ⚠️ **PARTIAL** — PROME's side holds: **YES branch**, a named dependency blocks the requested lane (WQ-238). **The FALCON-side message is not PROME's to fix** and stays wrong until that desk lands it. Stated, not smoothed. *(Re-derived against v3.)* |
 | **S4** | Boot with **no** directed task | ⛔ The case CODEX's phrasing does not cover — *"boot resumes your chosen work"* presumes chosen work exists | ✅ **as drafted:** report the ranked owed digest and **start the top item as a statement, not a question** (*"starting A"*), leaving Will a one-word override. Never an idle wait, never a menu. |
 | **S5** | A dated owed item reaches its **third** boot unrun | Third-boot disposition still fires → DOCKET `COVERED:` or a WQ row | ✅ A3 — the clause is preserved verbatim and is the anti-rot carrier |
 | **S6** | The edit lands on BOOT step 8 | The `Last spine audit:` stamp check **survives** | ✅ A4 — it has no other carrier; spine audit #13 caught the runner dropping this exact half once already |
@@ -127,7 +130,7 @@ CODEX asked for four (S1–S4). **S5/S6 are mine — they test the REMOVAL, whic
 | **S8** | Standard closeout whose only change is a dated obligation **already registered in DOCKET** | SCRATCH writes **no narrative** and says so — a stated no-op, never silence | ✅ C1: the WQ-232 five-row test, applied past Light tier, returns "do NOT restate" |
 | **S9** | The step-8 edit lands | **All three** runner sites stating the old contract change together, parity gate green | ✅ A6 — frontmatter `description:`, step 4 (*"Ask before any directed work."*) **and step 7** (*"yours to have ASKED about"*). ⛔ A6 originally named only the frontmatter; the blind read found the other two. |
 
-**Not scenario-tested, and named rather than implied:** **B3** (verified at the artifact instead — and the disagreement it forbids *already exists today*: `BOOT.md` step 5 reads capability-scoped, *"fix or flag to Will before citing FRED-dependent levels"*, against a gate that is BLOCK-for-everything) · **B4** (argued, n=1) · **C2** (verified at the artifact) · **C3**/**C4** (argued; see residue).
+**Not scenario-tested, and named rather than implied:** ⚠️ **B4 is exercised by T2 for its NO-GATING half only; its “never gets quieter” half is argued, n=1 — that is what `[T2,ARG]` means and it is stated here so the two marks cannot be read as disagreeing.** **B3** (verified at the artifact instead — and the disagreement it forbids *already exists today*: `BOOT.md` step 5 reads capability-scoped, *"fix or flag to Will before citing FRED-dependent levels"*, against a gate that is BLOCK-for-everything) · **C2** (verified at the artifact) · **C3**/**C4** (argued; see residue).
 
 **S3 and T2b are the same honest weak leg, reported as PARTIAL, not passed** — one point-of-use message, owned by FALCON.
 
@@ -138,15 +141,36 @@ CODEX asked for four (S1–S4). **S5/S6 are mine — they test the REMOVAL, whic
 | | Change | Owner | Gate |
 |---|---|---|---|
 | **1st** | ① boot interrupt contract — `BOOT.md` step 8 + **both runner copies as ONE unit** (frontmatter, step 4, step 7) | PROME | **Will's word** (it is his interrupt contract). Runner-copy scope ✅ already ruled 20:41. |
-| **2nd** | ② `CAPABILITY` class in `prome_gate.py` + the matching `BOOT.md` step-5 prose (B3) | PROME | Will's word — it changes what a 🔴 boot means |
+| **①b** 🔴 | **NEW, found by the v3 verification read — the GATE's `BLOCK` set must be reconciled with the rule, or ① ships as two live instructions.** `prome_gate.py` records `BLOCK` — contract *“disposition before proceeding”* for ALL work — on **`GATES review_by` passed (:183)** · **`GATES fired-unexecuted` (:175)** · **`board_scan` ACTION lines (:763)** · **`DOCKET lands-today` (:266, closeout)**. Under the dependency rule these split: *fired-unexecuted* is a genuine YES (trade consequent, root rule #5); the others need an **owner's grade or PROME's own disposition**, not Will's answer, so they should surface and let PROME act — not stop the session. ⛔ **① was scoped as a PROSE change; this makes it a prose + gate change.** | PROME | **Will's word — this is a scope increase over what he has seen, and it changes what rc=1 means at boot** |
+| **2nd** | ② `CAPABILITY` handling in `prome_gate.py` + the matching `BOOT.md` step-5 prose (B3) | PROME | Will's word — it changes what a 🔴 boot means |
 | **2nd-b** | ② point-of-use failure message | **FALCON (not PROME)** | route a packet; do not edit |
 | **3rd** | ③ WQ-232 test to all tiers + `:46`/`:118` | PROME | **after** the L338 rotate-vs-split decision, not before |
 
 **Rec: approve ① and ② together; hold ③ behind the L338 decision.** ① and ② are the pair that changes what a restart costs you; ③ is hygiene that should not push a 94.8%-full manual higher until its own sizing question is settled.
 
+⚠️ **Two concessions the verification read forced, stated to Will rather than buried.**
+**(i) `CAPABILITY` may not need to be a new CLASS.** With gating removed, its rc contribution is 0 — identical to `advisory` — and the distinguishing properties (*cannot be silenced by a filed row, an allowlist or age*; *reported until restored*; *refused at point of use*) name **no code path and no test**. Either those properties get built and asserted, or the honest implementation is simply: **move `env_doctor` to advisory, add a permanent capability section to the boot report, and put the refusal at the point of use.** The second is smaller and delivers outcome 3 identically. ⛔ **A class whose distinguishing property is prose is a rename, and B4 is the whole remedy once gating is gone.**
+**(ii) The dependency test is more ANSWERABLE than the dated list but strictly less CHECKABLE.** A date compare is falsifiable by an instrument; *“is Will's answer necessary?”* is not. Because PROME both chooses the next action and applies the test, the cheap answer is always NO, and the failure direction becomes **under-asking, silently.** The anti-scoping clause in §1 is the mitigation and it is a rule, not an instrument. **This is a deliberate trade — Will asked for fewer interruptions and this is what fewer interruptions costs — but it should be adopted knowing the direction it fails in, and reviewed against actual behaviour rather than assumed to hold.**
+
 **Implementation discipline if approved:** each canon file is drafted **here**, cold-read here (the WQ-178 plan read), and transplanted in ONE edit; the result read may force at most one further edit per file, then residue is declared in this record. `ListAgents` preflight before any spawn. Both `.claude/` copies move together or the parity gate fails.
 
-## §6 Residue — declared, not dissolved (blind plan-read, 2026-09-12 20:3x)
+## §6 Residue — declared, not dissolved
+
+### v3 verification read (2026-09-12 20:4x) — 30/42 ✅ · 8 ⚠️ · 4 ❌
+**★ Both of Will's acceptance tests PASS against the drafted rule: T1 (WQ-187 at needed-by) and T2 (WQ-238 overdue, credentials missing) each allow unrelated process work, and the reader verified the needed-by cells and `prome_gate.py:400`'s ADVISE classification at the artifacts.** All four ❌ are fixed above. ⛔ **All four were the SAME defect: §4 and §6 still graded draft 2 — scenario verdicts cited triggers (a)/(b)/(c) that §1 had deleted, and S2 demanded an interrupt the new rule refuses.** `[[finding_summary_section_merges_what_the_body_separates]]` — the body was revised, the table that grades the body was not.
+
+- **V1 — 🔴 the one unclosed hole, now §5 leg ①b.** A7 (*“an overdue obligation is not, by itself, an interrupt”*) is true of the boot REPORT and **false of the boot GATE**: four `BLOCK` checks survive untouched, and BLOCK means *“disposition before proceeding”* for all work. **Two live instructions is the failure mode this proposal exists to remove, so ① cannot ship on prose alone.** Raised to Will as a scope increase, not absorbed.
+- **V2 (⚠️1/⚠️3)** — `CAPABILITY`'s distinguishing properties name no code path, no check and no rc; nothing fails if a boot omits the line. Carried as concession (i) in §5.
+- **V3 (⚠️2, FIXED not declared)** — the hands-vs-answer criterion decided T1 while living nowhere in the rule. Now stated in §1, with the anti-scoping clause.
+- **V4 (⚠️6)** — §6's v1 header says the ⚠️ are *“NOT fixed”* while R2 corrects a fact, R7 is ruled closed and R8 is partially fixed. The header overstates its own discipline; left standing as the honest record of what each pass did.
+- **V5 (⚠️7)** — §4 jumps S6 → S8: S7/S7b were **replaced** by Will's T1/T2, not dropped. Not renumbered, because every `[S#]` mark in §0 points at the current numbering.
+- **V6 (⚠️8)** — the §2 table states *refused at point of use* as an unconditional property while §2 prose says the change is *incomplete by construction* on this box. **A reader who copies the table into code gets the unqualified form.**
+- **V7 (⚠️36)** — R4 mis-describes DOCKET L338 leg (g): the *“prior overstatement”* there is about L339 Defect B being called *blocked behind L338*, an adjacent class, not about decision-vs-split. R4's conclusion survives; its citation does not.
+- **V8 (⚠️42, count corrected)** — §0's *“8 of 15”* was stale against v3's 16 conditions; corrected in place as a numeral.
+
+⛔ **This file is now CLOSED for the session** (two-correction stop + WQ-178: the v3 read was the independent read that permitted this pass; its ❌ are fixed and the ⚠️ are declared). Further changes need a fresh read.
+
+### v1 plan read (2026-09-12 20:3x) — 13/26 ✅ · 8 ⚠️ · 5 ❌
 
 **The read scored 13/26 ✅ · 8 ⚠️ · 5 ❌. All five ❌ are fixed above; the eight ⚠️ are declared here and NOT fixed, per the WQ-178 read budget. Two of the ❌ were failures of a condition against its own draft text — the draft violated B4 and A5 — and neither was found by me.**
 
