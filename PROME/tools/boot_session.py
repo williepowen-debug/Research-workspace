@@ -55,8 +55,21 @@ def run_once(run_dir, sessions_json=None):
     if result.returncode < 0:
         print("UNKNOWN: gate interrupted; inspect saved output. NOT retried.")
         return 2
-    write_json(run_dir / "completed.json", {**claim, "returncode": result.returncode})
-    print(f"Boot verdict rc={result.returncode}; read {run_dir / 'gate.txt'} with boot_read.py.")
+    # L294 F-7 follow-up: the gate's rc=2 means INCOMPLETE — it RAN and reported
+    # which checks did not. That is a real verdict with a real report, so it is
+    # recorded like any other; suppressing the receipt only replaced the saved
+    # verdict with an opaque "no valid completion" on the next call, which is worse.
+    # ⚠️ The receipt still prevents a second BOARD-advancing attempt through this
+    # directory (BOOT.md's one-shot contract), so after fixing the named input there
+    # is no in-session path back to a COMPLETE gate through the same --run-dir.
+    # That is a contract question for Will, NOT something to route around here:
+    # inventing another run directory is exactly what BOOT.md forbids.
+    write_json(run_dir / "completed.json",
+               {**claim, "returncode": result.returncode,
+                "incomplete": result.returncode == 2})
+    label = ("INCOMPLETE — the gate ran but some checks did NOT; their subjects are "
+             "UNKNOWN, not clean" if result.returncode == 2 else "Boot verdict")
+    print(f"{label} rc={result.returncode}; read {run_dir / 'gate.txt'} with boot_read.py.")
     return result.returncode
 
 

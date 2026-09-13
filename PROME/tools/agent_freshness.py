@@ -55,8 +55,34 @@ QUIET_DAYS = 45         # default-hidden tail (dormant/retired dirs, ROSTER is t
 # without ever reading `returncode`, so rc=128 and rc=0-with-no-output were the SAME
 # value — "" — to every caller. Two different facts, one representation. Acceptance
 # conditions: PROME/tools/tests/ACCEPTANCE_agent_freshness_L294_F4.md
-UNKNOWN = object()   # sentinel: the query FAILED. Distinct from "" (ran, found nothing)
-                     # and distinct from None (which callers already use for "no data").
+class _Unknown:
+    """Sentinel: the query FAILED. Distinct from "" (ran, found nothing) and from
+    None (which callers already use for "no data").
+
+    ⛔ FALSY, deliberately, and this is a REGRESSION FIX (independent review
+    2026-09-12): the first version was a bare `object()`, which is TRUTHY.
+    `fleet_dashboard.py:1014` reads `int(ts) if ts else None` — with a truthy
+    sentinel that became `int(<object>)` -> TypeError where it used to yield None
+    and classify the desk "no git history". Truthiness is the one property no
+    caller thinks to check, so the sentinel must answer it correctly: a failed
+    query is not a value, and `if ts:` must be False.
+    `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`"""
+    __slots__ = ()
+
+    def __bool__(self):
+        return False
+
+    def __repr__(self):
+        return "<agent_freshness.UNKNOWN: git query failed>"
+
+    def __len__(self):
+        return 0          # so `len(x)` and emptiness tests degrade to "nothing", not a raise
+
+    def __iter__(self):
+        return iter(())   # a caller iterating results gets no rows, never a crash
+
+
+UNKNOWN = _Unknown()
 
 
 def git(*args):

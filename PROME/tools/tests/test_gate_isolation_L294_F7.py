@@ -90,9 +90,27 @@ class FixtureTouchesNothingReal(unittest.TestCase):
         self.assertTrue((ROOT / "PROME/CLOSEOUT.md").exists())
 
     def test_gate_writes_landed_INSIDE_the_fixture(self):
-        """board_scan --advance and the dashboard receipt are writers. Their
-        output must exist in the fixture, which proves it went there."""
-        self.assertTrue((_FIX / "PROME/state/board_cursor.txt").exists())
+        """⛔ The first version of this asserted the cursor file EXISTS in the
+        fixture. Vacuous: it is tracked, so `git archive` puts it there and the
+        assertion passes in a fixture the gate never ran in — verified. What
+        containment actually needs is proof the gate MUTATED the fixture while
+        leaving the real tree alone."""
+        dirty = subprocess.run(["git", "status", "--porcelain"], cwd=_FIX,
+                               capture_output=True, text=True).stdout.strip()
+        self.assertTrue(dirty, "the gate wrote nothing in the fixture — "
+                               "containment is untested, not proven")
+
+    def test_that_containment_assertion_is_not_vacuous(self):
+        """Guard the guard: a fixture the gate never ran in must be CLEAN, or the
+        test above would pass without the gate having written anything."""
+        virgin = gate_fixture.build()
+        try:
+            dirty = subprocess.run(["git", "status", "--porcelain"], cwd=virgin,
+                                   capture_output=True, text=True).stdout.strip()
+            self.assertEqual(dirty, "", "a never-run fixture is already dirty; "
+                                        "the containment test proves nothing")
+        finally:
+            gate_fixture.destroy(virgin)
 
     def test_the_real_board_cursor_was_not_advanced_by_these_tests(self):
         live = ROOT / "PROME/state/board_cursor.txt"

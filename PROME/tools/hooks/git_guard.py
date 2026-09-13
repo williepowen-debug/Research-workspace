@@ -58,6 +58,21 @@ _QUOTED = re.compile(r"'([^']*)'|\"([^\"]*)\"")
 
 
 def _drop_heredocs(cmd: str) -> str:
+    """Drop heredoc BODIES so prose inside them is not scanned as commands.
+
+    ⛔ BYPASS FIXED 2026-09-12 (independent review): this used to skip forward from
+    any `<<WORD` token until it found a terminator, and if none existed it consumed
+    EVERY REMAINING LINE. So a command whose first line merely MENTIONS the token —
+    `grep -n "<<EOF" scripts/x.sh` — silently discarded the rest, and a following
+    `git add -A` was never scanned. Verified: that payload returned rc=0, allowed,
+    with no stderr, while the same payload behind `echo hi` returned rc=2.
+    ⚠️ Root CLAUDE.md 4b prescribes the heredoc idiom for every commit message, so a
+    multi-line Bash call containing `<<` is house style, not an edge case.
+
+    Now the terminator must actually EXIST before anything is skipped. An unterminated
+    or spurious marker means "this was not a heredoc" and the remaining lines are
+    scanned — fail visible, per this module's own contract.
+    `[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]`"""
     out, i, lines = [], 0, cmd.split("\n")
     while i < len(lines):
         ln = lines[i]
@@ -65,9 +80,12 @@ def _drop_heredocs(cmd: str) -> str:
         out.append(ln)
         if m:
             term = m.group(1)
-            i += 1
-            while i < len(lines) and lines[i].strip() != term:
-                i += 1
+            # Look for the terminator FIRST. No terminator => not a heredoc => skip
+            # nothing. Previously the skip happened unconditionally.
+            end = next((j for j in range(i + 1, len(lines))
+                        if lines[j].strip() == term), None)
+            if end is not None:
+                i = end
         i += 1
     return "\n".join(out)
 

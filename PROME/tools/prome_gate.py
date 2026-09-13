@@ -27,7 +27,11 @@ USAGE
   (always from repo root: cd "$(git rev-parse --show-toplevel)" first — PAT-031)
 
 rc=0 all blocking gates pass (advisories may still print — read them);
-rc=1 at least one BLOCKING gate failed — disposition before proceeding.
+rc=1 at least one BLOCKING gate failed — disposition before proceeding;
+rc=2 INCOMPLETE — one or more checks did NOT RUN, so their subjects are UNKNOWN.
+     Never read as a pass, and NOT the same as rc=1: 1 means "we looked and found a
+     problem", 2 means "we did not look". rc=2 outranks rc=1 when both apply.
+     (Added with the L294 F-7 isolation repair; this block documented only 0 and 1.)
 
 MANUAL-JUDGMENT STEPS THIS SCRIPT DOES NOT REPLACE (closeout): memory_index_check
 --slug (needs the session's slugs) · consumer_check --old/--new (needs the

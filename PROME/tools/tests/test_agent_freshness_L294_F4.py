@@ -71,6 +71,53 @@ class GitDistinguishesFailureFromEmpty(unittest.TestCase):
             self.assertIs(af.git("status", "--porcelain"), af.UNKNOWN)
 
 
+class SentinelIsFalsy(unittest.TestCase):
+    """REGRESSION, found by independent review 2026-09-12 AFTER the F-4 commit.
+
+    The first sentinel was a bare `object()` — truthy. fleet_dashboard.py:1014 reads
+    `int(ts) if ts else None`, so a truthy sentinel turned a graceful "no git history"
+    classification into a TypeError. The F-4 commit message had cited that very line
+    as proof the defects did not compose; line 1014 raises before 1019 is reached.
+    Truthiness is the one property no caller thinks to check."""
+
+    def test_unknown_is_falsy(self):
+        self.assertFalse(af.UNKNOWN)
+        self.assertFalse(bool(af.UNKNOWN))
+
+    def test_unknown_is_still_identity_distinct_from_empty_and_None(self):
+        """Falsy must not make it INDISTINGUISHABLE from "" — that was the defect
+        the sentinel exists to fix. Identity carries the distinction."""
+        self.assertIsNot(af.UNKNOWN, "")
+        self.assertIsNot(af.UNKNOWN, None)
+        self.assertNotEqual(af.UNKNOWN, "")
+
+    def test_len_and_iter_degrade_instead_of_raising(self):
+        self.assertEqual(len(af.UNKNOWN), 0)
+        self.assertEqual(list(af.UNKNOWN), [])
+
+    def test_repr_says_what_it_is(self):
+        self.assertIn("git query failed", repr(af.UNKNOWN))
+
+    def test_the_actual_fleet_dashboard_expression_yields_None_again(self):
+        """The exact idiom at fleet_dashboard.py:1014, replayed."""
+        import datetime as dt
+        ts = af.UNKNOWN
+        own = (dt.datetime.now().timestamp() - int(ts)) / 86400 if ts else None
+        self.assertIsNone(own)
+
+    def test_identity_guards_in_this_module_still_work_with_a_falsy_sentinel(self):
+        """`is UNKNOWN` must be checked BEFORE any truthiness test, or a falsy
+        sentinel silently takes the empty-result branch."""
+        import tempfile as _t
+        saved = af.ROOT
+        try:
+            af.ROOT = pathlib.Path(_t.mkdtemp())
+            self.assertEqual(af.own_surface_age_state("BRENT"), ("unknown", None))
+            self.assertIs(af.dirty_paths("BRENT"), af.UNKNOWN)
+        finally:
+            af.ROOT = saved
+
+
 class AgeHasThreeStates(unittest.TestCase):
     """Condition 2."""
 

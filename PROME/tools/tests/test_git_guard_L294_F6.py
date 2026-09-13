@@ -83,6 +83,31 @@ class BlockingPathUnchanged(unittest.TestCase):
         self.assertEqual(err, "")
 
 
+class HeredocBypass(unittest.TestCase):
+    """Independent review 2026-09-12: `_drop_heredocs` skipped forward from ANY
+    `<<WORD` token and, finding no terminator, consumed every remaining line — so a
+    command that merely MENTIONS the token hid the rest from the scanner. Root
+    CLAUDE.md 4b prescribes heredocs for every commit message, so this is house
+    style, not an edge case."""
+
+    def test_spurious_marker_no_longer_hides_a_prohibited_command(self):
+        rc, _ = hook(bash('grep -n "<<EOF" scripts/x.sh\ngit add -A'))
+        self.assertEqual(rc, 2)
+
+    def test_spurious_marker_mid_line(self):
+        self.assertEqual(hook(bash("echo use <<END here\ngit reset HEAD"))[0], 2)
+
+    def test_a_REAL_heredoc_still_shields_its_prose(self):
+        """The behaviour the dropper exists for must survive the fix."""
+        rc, _ = hook(bash("cat > /tmp/m.txt <<'EOF'\ndo not git add -A in here\nEOF\n"
+                          "git commit -F /tmp/m.txt -- PROME/STATUS.md"))
+        self.assertEqual(rc, 0)
+
+    def test_a_REAL_heredoc_does_not_shield_what_comes_AFTER_it(self):
+        rc, _ = hook(bash("cat > /tmp/m.txt <<'EOF'\nmsg\nEOF\ngit push --force"))
+        self.assertEqual(rc, 2)
+
+
 class MalformedInputTakesTheDeclaredPath(unittest.TestCase):
     """THE DEFECT. Each of these raised AttributeError → rc=1 + traceback."""
 
