@@ -892,6 +892,63 @@ def check_claude_dir_drift():
            "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
 
 
+def check_review_manifest():
+    """WQ-240 part 3: a review verdict certifies CONTENT, not a path list.
+
+    BLOCKING when the reviewed candidate CHANGED after the audit — that is the
+    case where an old verdict would certify content it never saw. Advisory when
+    no manifest exists, because Light/Bounce tiers run no audit; the wording says
+    UNKNOWN rather than clean (`[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`)."""
+    sys.path.insert(0, str(ROOT / "PROME" / "tools"))
+    try:
+        import argus_scope
+        rc, lines = argus_scope.verify_review()
+    except Exception as e:                      # tool missing/broken => UNKNOWN, never clean
+        record(ADVISE, "ARGUS review manifest", False,
+               f"UNKNOWN: {type(e).__name__}: {str(e)[:90]}", "PROME/tools/argus_scope.py")
+        return
+    detail = " · ".join(lines)[:300]
+    if rc == 1:
+        record(BLOCK, "ARGUS review manifest (content, not paths)", False, detail,
+               "re-review the CHANGED portion and regenerate affected outputs, then "
+               "`argus_scope.py --record-review` again — never ship under the old verdict")
+    elif rc == 2:
+        record(ADVISE, "ARGUS review manifest (content, not paths)", True,
+               "UNKNOWN — no review recorded this session (expected at Light/Bounce; "
+               "Standard+ owes one)", "PROME/CLOSEOUT.md")
+    else:
+        record(BLOCK, "ARGUS review manifest (content, not paths)", True, detail, "")
+
+
+def check_publication_prereqs():
+    """WQ-240 part 4: check what publication NEEDS early, not at the render.
+
+    The mechanical half only: every OPEN WILL_QUEUE row the Deck will render has
+    an explainer row. The other half — whether this session has viewed the live
+    artifact — is a harness fact the repo cannot see, and the procedure moves it
+    to Pre-closeout so it cannot ambush the end."""
+    try:
+        q = (ROOT / "PROME/WILL_QUEUE.md").read_text(encoding="utf-8")
+        opn = q.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
+        rows = set()
+        for ln in opn.splitlines():
+            cells = [c.strip() for c in ln.split("|")]
+            if len(cells) > 2 and re.fullmatch(r"\d+", cells[1]):
+                rows.add(cells[1])
+        expl = {ln.split("\t")[0].strip()
+                for ln in (ROOT / "PROME/registry/WQ_EXPLAINERS.tsv")
+                .read_text(encoding="utf-8").splitlines()[1:] if ln.strip()}
+        missing = sorted(rows - expl, key=int)
+    except Exception as e:
+        record(ADVISE, "publication prerequisites (Deck explainer coverage)", False,
+               f"UNKNOWN: {type(e).__name__}: {str(e)[:90]}", "PROME/registry/WQ_EXPLAINERS.tsv")
+        return
+    record(ADVISE, "publication prerequisites (Deck explainer coverage)", not missing,
+           (f"{len(missing)} OPEN row(s) would render with no explainer: " + ", ".join("WQ-" + m for m in missing))
+           if missing else f"all {len(rows)} OPEN row(s) have explainer rows",
+           "add the row to PROME/registry/WQ_EXPLAINERS.tsv at Pre-closeout, not at the render")
+
+
 def mode_boot():
     run_capability("machine credentials (env_doctor)",
                    [sys.executable, "scripts/env_doctor.py", "--quiet"],
@@ -964,6 +1021,8 @@ def mode_boot():
 
 
 def mode_closeout():
+    check_review_manifest()
+    check_publication_prereqs()
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session

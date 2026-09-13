@@ -24,6 +24,8 @@ Exit: 0 = spawn ARGUS · 3 = under the floor (skip, say so) · 2 = no recorded b
 """
 import argparse
 import fnmatch
+import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -127,6 +129,79 @@ def load_baseline(path=None):
     return d, ""
 
 
+REVIEW_FILE = "PROME/state/argus_review.json"
+
+
+def _content_id(path):
+    """sha256 of the WORKING-TREE bytes, or None if the path is absent.
+
+    Content, never mtime and never a commit sha: the question this answers is
+    "is what ships byte-identical to what was reviewed?", and a path can be
+    committed, amended, regenerated or reverted between review and commit
+    without its commit id telling you so."""
+    f = ROOT / path
+    if not f.exists():
+        return None
+    return hashlib.sha256(f.read_bytes()).hexdigest()
+
+
+def record_review(paths, verdict="REVIEWED"):
+    """Freeze the identity of the CANDIDATE that was actually reviewed.
+
+    WQ-240: a review verdict certifies CONTENT, not a path list. Recording the
+    list alone lets a later edit ride out under a verdict that never saw it."""
+    entries = {p: _content_id(p) for p in sorted(set(paths))}
+    f = ROOT / REVIEW_FILE
+    f.parent.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps({
+        "verdict": verdict,
+        "head": git("rev-parse", "HEAD").strip(),
+        "recorded_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "recorded_by": os.environ.get("PROME_SESSION", "PROME"),
+        "paths": entries,
+    }, indent=2) + "\n", encoding="utf-8")
+    return entries
+
+
+def verify_review(paths=None):
+    """Compare the CURRENT working tree against the recorded review manifest.
+
+    Returns (rc, lines). rc 0 = every reviewed path is byte-identical · rc 1 =
+    at least one reviewed path CHANGED, or a path is shipping that was never
+    reviewed · rc 2 = CANNOT-EVALUATE (no manifest, unreadable manifest). ⛔ rc 2
+    is not a pass: with no manifest nothing was established.
+    `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`"""
+    f = ROOT / REVIEW_FILE
+    if not f.exists():
+        return 2, [f"CANNOT-EVALUATE: no review manifest at {REVIEW_FILE} — "
+                   f"record one with --record-review before the audit"]
+    try:
+        d = json.loads(f.read_text(encoding="utf-8"))
+        reviewed = d["paths"]
+    except (json.JSONDecodeError, KeyError, TypeError) as e:
+        return 2, [f"CANNOT-EVALUATE: review manifest unreadable ({type(e).__name__}: {e})"]
+    out, bad = [], False
+    for path, was in sorted(reviewed.items()):
+        now = _content_id(path)
+        if now == was:
+            continue
+        bad = True
+        if was is None:
+            out.append(f"CHANGED-SINCE-REVIEW: {path} did not exist at review and does now")
+        elif now is None:
+            out.append(f"CHANGED-SINCE-REVIEW: {path} was reviewed and is now absent")
+        else:
+            out.append(f"CHANGED-SINCE-REVIEW: {path} ({was[:12]} → {now[:12]})")
+    if paths is not None:
+        for path in sorted(set(paths) - set(reviewed)):
+            bad = True
+            out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed")
+    if not bad:
+        out.append(f"{len(reviewed)} reviewed path(s) byte-identical to the reviewed candidate "
+                   f"(verdict {d.get('verdict','?')}, recorded {d.get('recorded_at','?')})")
+    return (1 if bad else 0), out
+
+
 def record_baseline(sha):
     full = git("rev-parse", sha).strip()
     subj = git("log", "-1", "--format=%s", full).strip()
@@ -215,12 +290,26 @@ def main(argv=None):
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--no-pending", action="store_true", help="committed only (diagnostic; NOT the closeout form)")
     ap.add_argument("--record-baseline", metavar="SHA", help="record SHA as the audit baseline (at the closeout commit)")
+    ap.add_argument("--record-review", action="store_true",
+                    help="freeze the content identity of the current scope as the REVIEWED candidate "
+                         "(run immediately before the audit)")
+    ap.add_argument("--verify-review", action="store_true",
+                    help="compare the working tree against the reviewed candidate; rc 1 = content changed "
+                         "since review, rc 2 = CANNOT-EVALUATE (no manifest)")
     args = ap.parse_args(argv)
 
     if args.record_baseline:
         sha, subj = record_baseline(args.record_baseline)
         print(f"ARGUS-SCOPE · baseline recorded: {sha[:9]} — {subj[:90]}")
         return 0
+
+    if args.verify_review:
+        rc, lines = verify_review()
+        tag = {0: "\u2705 UNCHANGED", 1: "\U0001f534 CHANGED SINCE REVIEW", 2: "\u2753 CANNOT-EVALUATE"}[rc]
+        print(f"ARGUS-REVIEW {tag}")
+        for ln in lines:
+            print(f"  {ln}")
+        return rc
 
     base, why = load_baseline()
     if base is None:
@@ -232,6 +321,17 @@ def main(argv=None):
 
     audited = lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]
     total = len(audited)
+
+    if args.record_review:
+        entries = record_review([e["path"] for e in audited])
+        missing = [p for p, h in entries.items() if h is None]
+        print(f"ARGUS-SCOPE \u00b7 review candidate frozen: {len(entries)} path(s) \u2192 {REVIEW_FILE}")
+        if missing:
+            print(f"  \u26a0\ufe0f {len(missing)} path(s) absent from the working tree at review time: "
+                  + ", ".join(missing[:5]))
+        print("  \u21b3 after the audit: `--verify-review` must read UNCHANGED before the commit; "
+              "any \u274c fix re-freezes it.")
+        return 0
     verdict = "SPAWN" if total >= MIN_PATHS else f"SKIP (<{MIN_PATHS} paths)"
 
     if args.json:
