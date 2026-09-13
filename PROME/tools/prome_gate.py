@@ -159,11 +159,31 @@ def run_capability(name, cmd, owner, dependents, tracker=None, unavailable_rc=(1
 
 
 def _named_dependents(findings):
-    """Dependents of ONLY the keys the probe actually named. Returns "" when no known
-    key appears — the caller then keeps its declared superset rather than silently
-    narrowing to nothing (category 4: never silently drop)."""
-    hit = [d for k, d in KEY_DEPENDENTS.items() if any(k in f for f in findings)]
-    return " · ".join(dict.fromkeys(hit))
+    """Dependents of ONLY the keys the probe actually named.
+
+    Three cases, and the MIXED one is the trap: when some findings map to known keys
+    and others do not, reporting just the mapped dependents presents a PARTIAL blast
+    radius as a complete one. The unmapped findings are carried explicitly instead, so
+    an unrecognised key reads as "dependents UNKNOWN", never as "no dependents".
+      * nothing mapped      -> "" (caller keeps its declared superset)
+      * all mapped          -> exactly those dependents
+      * some mapped         -> those dependents + a named UNKNOWN tail
+    `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`"""
+    hit, unmapped = [], []
+    for f in findings:
+        keys = [k for k in KEY_DEPENDENTS if k in f]
+        if keys:
+            hit += [KEY_DEPENDENTS[k] for k in keys]
+        else:
+            m = re.search(r"\b([A-Z][A-Z0-9]{2,}(?:_[A-Z0-9]+)+)\b", f)
+            unmapped.append(m.group(1) if m else f[:40])
+    if not hit:
+        return ""
+    out = " · ".join(dict.fromkeys(hit))
+    if unmapped:
+        names = ", ".join(dict.fromkeys(unmapped))
+        out += f" · ⚠️ dependents UNKNOWN for {len(set(unmapped))} unmapped finding(s): {names}"
+    return out
 
 
 def aggregate_rc(result_rows, capability_rows):
