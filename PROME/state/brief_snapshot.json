@@ -14,7 +14,8 @@
   "2026-09-13": "CRU-05 prediction grade window CLOSES (CRUISE-registered at the 9/2 sessi\u2026",
   "2026-09-14": "RED VX.tsv RE-REVIEW",
   "2026-09-15": "PREDICTION_DISCIPLINE canon ENCODE",
-  "2026-09-16": "\ud83d\udd34 **REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY"
+  "2026-09-16": "\ud83d\udd34 **REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY",
+  "2026-09-17": "P4 SITTING"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -59,6 +60,7 @@
   "235": "BRK-02's letter does not name its MEASUREMENT BASIS, and the choice i\u2026",
   "236": "DAEDALUS's read-cap checker now reads each desk's ATTESTED manifest i\u2026",
   "237": "Root CLAUDE.md still presents YEYOU as a live fleet member with two s\u2026",
+  "238": "THIS LAPTOP IS MISSING THREE API KEYS AND HAS BEEN SINCE 8/7 \u2014 env_do\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
