@@ -29,7 +29,6 @@ CONTRACT
 from __future__ import annotations
 
 import pathlib
-import shutil
 import subprocess
 import tempfile
 
@@ -52,9 +51,27 @@ def _run(args, cwd, check=True):
     return p
 
 
+# Every allocation this module makes, keyed by its resolved path. `destroy()` will
+# only ever clean up an entry it finds HERE.
+#
+# ⛔ WHY (Will, 2026-09-12 23:41, after inspecting the first version): destroy()
+# guarded with `str(root).startswith(tempfile.gettempdir())`. With deletion mocked,
+# that accepted `/tmp/../home/willi/Research-workspace` — a raw string prefix, no
+# resolve() — which is the real repository. It also accepted bare `/tmp` and any
+# path merely PREFIXED by the tempdir string, and `ignore_errors=True` meant a wrong
+# deletion would report nothing. In a module whose entire thesis is "tests must not
+# touch real state", a containment guard that can be walked past with `..` is the
+# defect it exists to prevent. The fix is not a better string test: the fixture OWNS
+# its TemporaryDirectory and cleans up that exact allocation, so an arbitrary path is
+# not something destroy() can be asked to delete at all.
+_OWNED: dict[pathlib.Path, tempfile.TemporaryDirectory] = {}
+
+
 def build(ref: str = "HEAD") -> pathlib.Path:
     """Export `ref` into a fresh temp repo and return its root."""
-    root = pathlib.Path(tempfile.mkdtemp(prefix="gate-fixture-"))
+    holder = tempfile.TemporaryDirectory(prefix="gate-fixture-")
+    root = pathlib.Path(holder.name).resolve()
+    _OWNED[root] = holder
     paths = list(BULK)
     listed = _run(["git", "ls-files", "--", *THIN_GLOBS], REPO).stdout.split()
     paths += listed
@@ -87,9 +104,23 @@ def run_gate(root: pathlib.Path, mode: str = "boot", *extra):
         cwd=root, capture_output=True, text=True)
 
 
-def destroy(root: pathlib.Path):
-    if root and str(root).startswith(tempfile.gettempdir()):
-        shutil.rmtree(root, ignore_errors=True)
+def destroy(root) -> bool:
+    """Clean up a fixture THIS MODULE allocated. Returns True if it did.
+
+    Anything else — a path we did not create, `/tmp`, a traversal that resolves
+    outside our allocations — is REFUSED and nothing is deleted. There is no
+    argument that makes this delete an arbitrary directory."""
+    if root is None:
+        return False
+    try:
+        key = pathlib.Path(root).resolve()
+    except OSError:
+        return False
+    holder = _OWNED.pop(key, None)
+    if holder is None:
+        return False          # not ours: refuse, delete nothing, say so
+    holder.cleanup()          # removes exactly the allocation, and raises on failure
+    return True
 
 
 if __name__ == "__main__":
