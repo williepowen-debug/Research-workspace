@@ -20,6 +20,7 @@ Run: python3 -m unittest PROME.tools.tests.test_capability_class_WQ239   (from r
 """
 import datetime as dt
 import sys
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -129,34 +130,131 @@ class TrackerUrgency(unittest.TestCase):
         self.assertEqual(st, prome_gate.CAP_AVAILABLE)
 
 
-class WillAcceptanceTests(unittest.TestCase):
-    """T1/T2 — Will 2026-09-12: 'Both must allow unrelated process work.'
+class ProbeFailureVsConfirmedGap(unittest.TestCase):
+    """Regressions for two failures reproduced by external review against 81e7da15e.
 
-    Executed against the real repo state and the real boot gate, not against prose.
-    """
+    Both exited rc=1 and were read as UNAVAILABLE. rc alone CANNOT distinguish
+    'the probe confirmed a gap' from 'the probe could not evaluate' — an unreadable
+    config and three missing keys are both rc=1 from env_doctor. The output decides.
+    ⛔ The original crash test used a NONEXISTENT EXECUTABLE, which fails in the PARENT
+    (subprocess.run raises) — it never exercised a child that starts and then dies."""
 
-    def test_T1_overdue_will_queue_row_does_not_block_the_boot_gate(self):
-        """WQ-187 is at its needed-by 2026-09-12 and unactioned. The queue check must be
-        advisory, so no rc=1 arises from an obligation that needs Will's HANDS."""
-        queue = (Path(prome_gate.ROOT) / "PROME" / "WILL_QUEUE.md").read_text(encoding="utf-8")
-        self.assertIn("| 187 |", queue, "fixture drift: WQ-187 left OPEN")
-        src = (Path(prome_gate.ROOT) / "PROME" / "tools" / "prome_gate.py").read_text(encoding="utf-8")
-        self.assertNotIn('record(BLOCK, "WILL_QUEUE', src)
+    def setUp(self):
+        prome_gate.results.clear()
+        prome_gate.capabilities.clear()
+        prome_gate.LOG_DIR = Path(tempfile.mkdtemp(prefix="cap-test-"))
 
-    def test_T2_unavailable_credentials_do_not_block_the_boot_gate(self):
-        """The live box is missing three keys right now. env_doctor must not be wired as
-        BLOCKING any more — that wiring is what stopped process work."""
-        src = (Path(prome_gate.ROOT) / "PROME" / "tools" / "prome_gate.py").read_text(encoding="utf-8")
-        self.assertNotIn('run_script(BLOCK, "env_doctor"', src)
-        self.assertIn('run_capability("machine credentials', src)
+    def test_in_child_exception_is_unknown_not_unavailable(self):
+        """REPORTED FAILURE 1: a Python child crashing with RuntimeError exits 1."""
+        st = prome_gate.run_capability("p", probe("raise RuntimeError('boom')"), "o", "d")
+        self.assertEqual(st, prome_gate.CAP_UNKNOWN)
 
-    def test_T2b_dependents_are_named_so_a_dependent_task_can_stop_at_the_dependency(self):
-        """A credential-dependent task must be refusable. The gate's job is to NAME the
-        dependents; the refusal itself lives at the point of use (FALCON-side, not PROME's
-        — recorded PARTIAL in the WQ-239 record and not claimed here)."""
-        src = (Path(prome_gate.ROOT) / "PROME" / "tools" / "prome_gate.py").read_text(encoding="utf-8")
-        self.assertIn("FIRMS", src)
-        self.assertIn("dependents=", src)
+    def test_real_env_doctor_with_unreadable_config_is_unknown(self):
+        """REPORTED FAILURE 2: the ACTUAL probe against an unreadable target. Runs the
+        real scripts/env_doctor.py; chmod is restored in finally, including on failure."""
+        env = Path(prome_gate.ROOT) / "FORGE" / "tools" / "market-data" / ".env"
+        if not env.exists():
+            self.skipTest("no .env on this box")
+        mode = env.stat().st_mode
+        try:
+            env.chmod(0o000)
+            st = prome_gate.run_capability(
+                "env", [PY, "scripts/env_doctor.py", "--quiet"], "o", "d")
+        finally:
+            env.chmod(mode)
+        self.assertEqual(st, prome_gate.CAP_UNKNOWN)
+
+    def test_nonzero_with_no_readable_finding_is_unknown(self):
+        st = prome_gate.run_capability("p", probe("print('weird'); raise SystemExit(1)"), "o", "d")
+        self.assertEqual(st, prome_gate.CAP_UNKNOWN)
+
+    def test_nonzero_with_a_real_finding_is_still_unavailable(self):
+        """The repair must not swing the other way and call every failure UNKNOWN."""
+        st = prome_gate.run_capability(
+            "p", probe("print('T ✗ FIRMS_MAP_KEY missing'); raise SystemExit(1)"), "o", "d")
+        self.assertEqual(st, prome_gate.CAP_UNAVAILABLE)
+
+    def test_overlap_findings_present_AND_a_traceback_is_unknown(self):
+        """Overlap: the probe emitted a real finding and THEN crashed, so its verdict is
+        partial. A partial verdict is not a verdict."""
+        st = prome_gate.run_capability("p", probe(
+            "print('T ✗ FIRMS_MAP_KEY missing'); raise RuntimeError('died after')"), "o", "d")
+        self.assertEqual(st, prome_gate.CAP_UNKNOWN)
+
+
+class DependentScoping(unittest.TestCase):
+    """Reported limitation: any environment failure printed the union of every
+    dependent workflow, including FRED/EIA when only FFIEC or NASA keys were missing."""
+
+    def setUp(self):
+        prome_gate.capabilities.clear()
+        prome_gate.LOG_DIR = Path(tempfile.mkdtemp(prefix="cap-test-"))
+
+    def dependents_for(self, line):
+        prome_gate.run_capability("p", probe(f"print({line!r}); raise SystemExit(1)"),
+                                  "o", "DECLARED-SUPERSET")
+        return prome_gate.capabilities[-1][4]
+
+    def test_only_the_named_keys_dependents_are_reported(self):
+        dep = self.dependents_for("T ✗ FIRMS_MAP_KEY missing")
+        self.assertIn("FIRMS", dep)
+        self.assertNotIn("FRED", dep)
+        self.assertNotIn("EIA", dep)
+
+    def test_ffiec_gap_does_not_withhold_fred(self):
+        dep = self.dependents_for("T ✗ FFIEC_CDR_TOKEN missing")
+        self.assertIn("FFIEC", dep)
+        self.assertNotIn("FRED", dep)
+
+    def test_unrecognised_key_keeps_the_declared_superset(self):
+        """Category 4: never silently narrow to nothing when the attribute is absent."""
+        self.assertEqual(self.dependents_for("T ✗ SOMETHING_NEW missing"), "DECLARED-SUPERSET")
+
+
+class AggregateGateBehaviour(unittest.TestCase):
+    """T1/T2 executed through the gate's real rc function with isolated fixtures.
+
+    ⛔ The previous versions of these tests asserted on SOURCE STRINGS — they established
+    wiring, never behaviour (external review 2026-09-12)."""
+
+    OK_BLOCK = (prome_gate.BLOCK, "some blocking check", True, "", "owner")
+    BAD_BLOCK = (prome_gate.BLOCK, "some blocking check", False, "", "owner")
+
+    def cap(self, state):
+        return ("machine credentials", state, "d", "o", "deps", "238")
+
+    def test_T1_overdue_tracker_plus_unavailable_capability_still_rc0(self):
+        """Will's T1/T2: both must allow unrelated process work."""
+        for state in (prome_gate.CAP_UNAVAILABLE, prome_gate.CAP_UNKNOWN,
+                      prome_gate.CAP_AVAILABLE):
+            self.assertEqual(
+                prome_gate.aggregate_rc([self.OK_BLOCK], [self.cap(state)]), 0,
+                f"capability state {state} reached rc")
+
+    def test_T2_overdue_tracker_raises_urgency_not_rc(self):
+        with tempfile.TemporaryDirectory() as d:
+            q = Path(d) / "WILL_QUEUE.md"
+            q.write_text("| 238 | item | ACTION | 2026-09-19 | 9/12 | rec | notes |\n",
+                         encoding="utf-8")
+            self.assertTrue(prome_gate._tracker_overdue("238", dt.date(2026, 9, 20), q))
+            self.assertFalse(prome_gate._tracker_overdue("238", dt.date(2026, 9, 18), q))
+        self.assertEqual(
+            prome_gate.aggregate_rc([self.OK_BLOCK],
+                                    [self.cap(prome_gate.CAP_UNAVAILABLE)]), 0)
+
+    def test_the_rc_function_can_still_fail(self):
+        """Control: a test that only ever sees 0 proves nothing."""
+        self.assertEqual(prome_gate.aggregate_rc([self.BAD_BLOCK], []), 1)
+
+    def test_end_to_end_boot_gate_passes_with_a_real_unavailable_capability(self):
+        """The live box is missing keys right now: run the WHOLE gate as a subprocess."""
+        p = subprocess.run([PY, "PROME/tools/prome_gate.py", "boot"],
+                           cwd=prome_gate.ROOT, capture_output=True, text=True, timeout=300)
+        self.assertIn("CAPABILITIES", p.stdout)
+        self.assertRegex(p.stdout, r"\[(UNAVAILABLE|UNKNOWN|AVAILABLE)\s*\]")
+        if "[UNAVAILABLE" in p.stdout or "[UNKNOWN" in p.stdout:
+            self.assertEqual(p.returncode, 0,
+                             "a non-AVAILABLE capability gated the whole boot gate")
 
 
 if __name__ == "__main__":

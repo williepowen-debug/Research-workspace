@@ -154,6 +154,21 @@ CODEX asked for four (S1–S4). **S5/S6 are mine — they test the REMOVAL, whic
 
 **Implementation discipline if approved:** each canon file is drafted **here**, cold-read here (the WQ-178 plan read), and transplanted in ONE edit; the result read may force at most one further edit per file, then residue is declared in this record. `ListAgents` preflight before any spawn. Both `.claude/` copies move together or the parity gate fails.
 
+## §5b Leg ①b — ⛔ RULED: HOLD (Will, 2026-09-12 20:5x)
+
+**Will declined the blanket demotion, and the reason is that my framing merged three different purposes under one word.** Recorded verbatim in substance: *"Separate boot continuation, dependent-action restrictions, and closeout coverage before changing their severity. Keep the fired-unexecuted protection."*
+
+| Check | What it actually is | Disposition |
+|---|---|---|
+| `GATES fired-unexecuted` (`:175`) | a fired gate with no execution — a trade consequent | ✅ **KEEP BLOCKING.** Will's word; root rule #5 |
+| `DOCKET lands-today` (`:266`) | **closeout-only**, today's obligations left unassigned | ⛔ not an overdue-row boot blocker at all — I mis-described it as one |
+| `board_scan` ACTION lines (`:763`) | **undispositioned messages**, not necessarily dated | ⛔ a different question from overdue-ness |
+| `GATES review_by` passed (`:183`) | whether a particular **instrument can still be trusted** | ⛔ a trust question, not a scheduling one |
+
+★ **The distinction to build on, and it is Will's:** ***"must handle or assign this obligation"* vs *"must wait for Will's answer."*** These are **not equivalent**, and §1's interrupt test only separates the second from everything else. A check can legitimately stop PROME — obliging it to handle or assign — without that stop ever reaching Will. ⚠️ **That third category does not exist in the installed rule**, which is why a blanket demotion would have been wrong: it would have converted *PROME must act* into *nobody acts*.
+
+⛔ **Nothing in this leg is implemented. No severity was changed.** Any future work here treats the four checks individually, not as a class.
+
 ## §6 Residue — declared, not dissolved
 
 ### v3 verification read (2026-09-12 20:4x) — 30/42 ✅ · 8 ⚠️ · 4 ❌

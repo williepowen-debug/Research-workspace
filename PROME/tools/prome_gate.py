@@ -85,6 +85,28 @@ BLOCK, ADVISE = "BLOCKING", "advisory"
 #     credential works; the point of use stays the authority.
 CAPABILITY = "capability"
 CAP_AVAILABLE, CAP_UNAVAILABLE, CAP_UNKNOWN = "AVAILABLE", "UNAVAILABLE", "UNKNOWN"
+# Per-key dependent workflows. A capability probe covers MANY keys; reporting the union
+# of every dependent whenever ANY key is missing overstates the blast radius (external
+# review 2026-09-12: "any environment failure prints the same withheld-workflow list,
+# including FRED/EIA—even when only FFIEC or NASA credentials are missing").
+KEY_DEPENDENTS = {
+    "FFIEC_CDR_TOKEN":    "FFIEC call-report pulls (WAL MI3)",
+    "FFIEC_CDR_USERNAME": "FFIEC call-report pulls (WAL MI3)",
+    "FIRMS_MAP_KEY":      "NASA FIRMS hotspot grading (FALCON/OSPREY strike claims)",
+    "FRED_API_KEY":       "FRED series pulls (rates/credit officials)",
+    "EIA_API_KEY":        "EIA weekly petroleum pulls (Cushing/SPR)",
+    "PJM_API_KEY":        "PJM load/price pulls (WATT)",
+    "ESTAT_APPID":        "Japan e-Stat CPI pulls (SAM)",
+}
+# A probe exits non-zero both when it CONFIRMS a gap and when it FAILS to evaluate.
+# rc alone cannot tell those apart (an unreadable config and three missing keys are
+# both rc=1 from env_doctor), so the output decides: a recognised finding line means
+# the probe reached a verdict; a traceback or no recognisable finding means it did not.
+# `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]` — unparseable is not
+# a behaviour, and the safe direction here is UNKNOWN, never UNAVAILABLE.
+FINDING_MARKERS = ("✗", "❌")
+PROBE_FAILURE_MARKERS = ("Traceback (most recent call last)", "SyntaxError:", "ImportError:",
+                         "ModuleNotFoundError:", "PermissionError:")
 results = []                # (severity, name, ok, detail, owner_doc)
 capabilities = []           # (name, state, detail, owner_doc, dependents, tracker)
 
@@ -109,18 +131,25 @@ def run_capability(name, cmd, owner, dependents, tracker=None, unavailable_rc=(1
         with log.open("x", encoding="utf-8") as output:
             p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
         rc = p.returncode
-        tail = log.read_text(encoding="utf-8", errors="replace").strip().split("\n")
+        raw = log.read_text(encoding="utf-8", errors="replace")
+        tail = raw.strip().split("\n")
+        findings = [l.strip() for l in tail if any(m in l for m in FINDING_MARKERS)]
+        crashed = any(m in raw for m in PROBE_FAILURE_MARKERS)
         if rc == 0:
             state, detail = CAP_AVAILABLE, "present (NOT authenticated — the point of use is the authority)"
-        elif rc in unavailable_rc:
+        elif rc in unavailable_rc and findings and not crashed:
             state = CAP_UNAVAILABLE
-            # the marker sits INSIDE the line ("ENV-DOCTOR ✗ FFIEC_CDR_TOKEN missing…"), not at
-            # its start — a startswith() filter here selected the perimeter summary instead of the
-            # failures, i.e. it reported that a check ran rather than what it found.
-            flagged = [l.strip() for l in tail if ("✗" in l or "❌" in l)]
-            detail = ("; ".join(f[:100] for f in flagged[:3])
-                      + (f" (+{len(flagged)-3} more)" if len(flagged) > 3 else "")) \
-                     or (tail[-1][:110] if tail else f"rc={rc}")
+            detail = ("; ".join(f[:100] for f in findings[:3])
+                      + (f" (+{len(findings) - 3} more)" if len(findings) > 3 else ""))
+            named = _named_dependents(findings)
+            if named:
+                dependents = named          # report only what the MISSING keys gate
+        elif rc in unavailable_rc:
+            # non-zero, but the probe did not produce a verdict we can read
+            state = CAP_UNKNOWN
+            detail = ("probe exited {} but produced no readable finding{} — it did not establish "
+                      "whether the capability is present".format(
+                          rc, " (it crashed mid-run)" if crashed else ""))
         else:
             state, detail = CAP_UNKNOWN, f"unrecognised rc={rc} — the probe established nothing"
     except Exception as e:                       # crash / timeout / unreadable config
@@ -129,7 +158,22 @@ def run_capability(name, cmd, owner, dependents, tracker=None, unavailable_rc=(1
     return state
 
 
-def _tracker_overdue(row_id, today=None):
+def _named_dependents(findings):
+    """Dependents of ONLY the keys the probe actually named. Returns "" when no known
+    key appears — the caller then keeps its declared superset rather than silently
+    narrowing to nothing (category 4: never silently drop)."""
+    hit = [d for k, d in KEY_DEPENDENTS.items() if any(k in f for f in findings)]
+    return " · ".join(dict.fromkeys(hit))
+
+
+def aggregate_rc(result_rows, capability_rows):
+    """The gate's rc, as a pure function, so the contract is testable without running a
+    boot. CAPABILITY rows are accepted and deliberately ignored: no capability state
+    contributes to rc. Only BLOCKING failures do."""
+    return 1 if [r for r in result_rows if r[0] == BLOCK and not r[2]] else 0
+
+
+def _tracker_overdue(row_id, today=None, queue_path=None):
     """True if the WILL_QUEUE row following a capability gap is past its needed-by.
     Missing file, missing row or unparseable date -> False: an unreadable tracker
     must not manufacture urgency it cannot establish (category 4, fail visible-not-loud
@@ -138,7 +182,8 @@ def _tracker_overdue(row_id, today=None):
         return False
     today = today or dt.date.today()
     try:
-        for line in (ROOT / "PROME" / "WILL_QUEUE.md").read_text(encoding="utf-8").split("\n"):
+        qp = Path(queue_path) if queue_path else (ROOT / "PROME" / "WILL_QUEUE.md")
+        for line in qp.read_text(encoding="utf-8").split("\n"):
             cells = [c.strip() for c in line.split("|")]
             if len(cells) > 4 and cells[1] == str(row_id):
                 m = re.search(r"\d{4}-\d{2}-\d{2}", cells[4])
@@ -965,6 +1010,7 @@ def main():
     (mode_boot if args.mode == "boot" else mode_closeout)()
 
     blocking_fail = [r for r in results if r[0] == BLOCK and not r[2]]
+    rc = aggregate_rc(results, capabilities)
     print(f"\n{'='*70}\n  PROME GATE · {args.mode.upper()} · "
           f"{'🔴 BLOCKED' if blocking_fail else '✅ PASS'} "
           f"({sum(1 for r in results if r[0]==BLOCK)} blocking / "
@@ -987,9 +1033,9 @@ def main():
                     print(f"       ↳ {'🔴 URGENT — WQ-' + tracker + ' is PAST its needed-by; escalate to Will this session' if urgent else 'tracked at WQ-' + tracker}")
                 print(f"       → {owner}")
     print(f"{'='*70}")
-    if blocking_fail:
+    if rc:
         print(f"  🔴 {len(blocking_fail)} BLOCKING gate(s) failed — disposition before new work.\n")
-        return 1
+        return rc
     print("  ✅ all blocking gates pass — advisories above are judgment calls, read them.\n")
     return 0
 
