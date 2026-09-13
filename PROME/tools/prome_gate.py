@@ -69,6 +69,20 @@ SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
                             # reads as ungraded — the exact BD-02 miss shape)
 
 BLOCK, ADVISE = "BLOCKING", "advisory"
+# ERROR (L294 F-7, reproduced 2026-09-12): a check that DID NOT RUN. Before this,
+# inputs were dereferenced outside any try and main() wrapped nothing, so ONE missing
+# file — PROME/CLOSEOUT.md, say — raised out of the whole gate: stdout completely
+# EMPTY, zero verdict lines, no summary, and the ~20 checks that had already passed
+# lost with it. rc was 1, the same code a legitimate blocking failure returns, so a
+# gate that evaluated NOTHING was indistinguishable from a gate that evaluated
+# everything and found a problem.
+#   * ERROR names the check that failed and why. It never substitutes a default so a
+#     dependent check can proceed — a fabricated input buys a verdict nobody can trust.
+#   * Checks that do not need the missing input still run; isolation is per-check.
+#   * ANY error makes the run INCOMPLETE and rc=2 ("could not establish",
+#     AGENTS/DAEDALUS/BLUEPRINTS/CHECK_STANDARD.md §9). Never PASS, and distinct from
+#     BLOCKED so a caller can tell "we found a problem" from "we did not look".
+ERROR = "ERROR"
 # CAPABILITY (WQ-239, Will-directed 2026-09-12): a machine capability — a credential, a
 # feed, a tool — that some workflows need and others do not.
 #   * It NEVER contributes to rc. No state of this class gates work that does not use it.
@@ -190,6 +204,8 @@ def aggregate_rc(result_rows, capability_rows):
     """The gate's rc, as a pure function, so the contract is testable without running a
     boot. CAPABILITY rows are accepted and deliberately ignored: no capability state
     contributes to rc. Only BLOCKING failures do."""
+    if [r for r in result_rows if r[0] == ERROR]:
+        return 2      # could not establish: at least one check never ran
     return 1 if [r for r in result_rows if r[0] == BLOCK and not r[2]] else 0
 
 
@@ -235,6 +251,20 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
     detail += f"\n       full output: {log}"
     record(severity, name, ok, detail, owner)
     return ok
+
+
+def guard(fn, *args, **kw):
+    """Run ONE check in isolation. An exception becomes an ERROR row naming the check
+    and the cause; every later check still runs. No value is invented for the caller."""
+    try:
+        return fn(*args, **kw)
+    except Exception as e:
+        record(ERROR, f"{fn.__name__} DID NOT RUN", False,
+               f"{type(e).__name__}: {str(e)[:160]} — this check was NOT evaluated; "
+               "its subject is UNKNOWN, not clean",
+               "fix the missing/unreadable input, then re-run the gate — "
+               "an unevaluated check is not a passed one")
+        return None
 
 
 # ---------------------------------------------------------- T3-a mechanical core
@@ -1051,22 +1081,22 @@ def mode_boot():
                "rc=1 = a NAMED correction is unreceipted: read the pointer, then "
                "`scripts/corrections_boot_check.py PROME --receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` "
                "and commit PROME/registry/corrections_receipts.tsv")
-    check_gates_tsv()
-    check_docket_overdue()
+    guard(check_gates_tsv)
+    guard(check_docket_overdue)
     run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
                "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
                "--ignore", r"\breviews?\b"],
                "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
                "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
-    check_will_queue()
-    check_aged_waits()  # WQ-221 instrument — boot only; closeout slates via spawn_list
+    guard(check_will_queue)
+    guard(check_aged_waits)  # WQ-221 instrument — boot only; closeout slates via spawn_list
     run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
                "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
                "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
-    check_heartbeat_chain()
+    guard(check_heartbeat_chain)
     # 2026-09-13: a markdown row with MORE cells than its header has the excess
     # DROPPED at render, silently. PROME/STATUS.md L21 lost two cells that way —
     # visible to a `cat`, invisible to the operator and to every rendered view,
@@ -1078,10 +1108,10 @@ def mode_boot():
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW (split the content into the existing columns or add a column to the "
                "header) — never the reader; rc=2 = a manifest path could not be opened")
-    check_dashboard_state()
-    check_symmetry()
-    check_claude_dir_drift()
-    check_desk_catalyst_summons()
+    guard(check_dashboard_state)
+    guard(check_symmetry)
+    guard(check_claude_dir_drift)
+    guard(check_desk_catalyst_summons)
     # WQ-184 L1 (Will 2026-09-05 21:42 "approve WQ-184 with your recs"): the spawn driver. rc=1 = a DARK row —
     # a registered dated row has arrived and its owner has no self-commit since; under L0 that is a Tier-1
     # spawn at THIS boot (ListAgents first; cap 4; ACTIVE ⇒ consumer read at the owner's artifact first).
@@ -1094,24 +1124,24 @@ def mode_boot():
         presence_cmd += ["--sessions-json", str(SESSION_JSON)]
     run_script(ADVISE, "session evidence beside ALL due rows — fleet presence UNKNOWN",
                presence_cmd, "read full output; snapshot is NOT native spawn preflight or proof of absence")
-    check_byte_budgets()
+    guard(check_byte_budgets)
 
 
 def mode_closeout(tier=None):
-    check_review_manifest(tier)
-    check_publication_prereqs()
+    guard(check_review_manifest, tier)
+    guard(check_publication_prereqs)
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
-    check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
-    check_docket_overdue()
-    check_docket_today()       # the pre-fire analogue: don't go dark before today's items
+    guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session
+    guard(check_docket_overdue)
+    guard(check_docket_today)       # the pre-fire analogue: don't go dark before today's items
     run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
                "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
                "--ignore", r"\breviews?\b"],
                "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
                "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
-    check_desk_catalyst_summons()  # don't go dark on a desk's catalyst eve (BD-02)
+    guard(check_desk_catalyst_summons)  # don't go dark on a desk's catalyst eve (BD-02)
     # WQ-184 L1 closeout half: what LANDS before the next likely boot (1d weekday, 3d Fri/Sat) and who is there —
     # slate them in the closeout report (8/27 precedent); the spawn itself waits for the first boot on/after the date. Never silence.
     _gap = "3" if dt.date.today().weekday() in (4, 5) else "1"
@@ -1119,22 +1149,22 @@ def mode_closeout(tier=None):
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", _gap, "--tsv"],
                "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
                "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark")
-    check_will_queue()
+    guard(check_will_queue)
     run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
                "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
                "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
-    check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
-    check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
-    check_byte_budgets()       # flow-rule meter: >=75% here means rotate NOW, in this closeout
+    guard(check_heartbeat_chain)    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
+    guard(check_dashboard_state)    # Standard+ closeouts regenerate; this catches a skipped one
+    guard(check_byte_budgets)       # flow-rule meter: >=75% here means rotate NOW, in this closeout
     # BLOCKING at closeout and advisory at boot, deliberately: closeout is where
     # these rows get WRITTEN, so this is the only run that can stop the defect
     # from shipping. Shipping it costs a rendered reader the content entirely.
     run_script(BLOCK, "boot-read tables: no over-celled rows",
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW before committing — the named cells are DROPPED in every rendered read")
-    check_claude_dir_drift()   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
+    guard(check_claude_dir_drift)   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
     record(ADVISE, "MANUAL: memory_index_check", True,
@@ -1172,19 +1202,36 @@ def main():
         LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
     SESSION_JSON = args.sessions_json.resolve() if args.sessions_json else None
 
-    if args.mode == "boot":
-        mode_boot()
-    else:
-        mode_closeout(args.tier)
+    # L294 F-7: the mode call itself is the last unguarded frame. guard() covers each
+    # check, but anything raising BETWEEN checks would still discard the whole run's
+    # output, which is the defect's worst symptom (empty stdout, no summary). The
+    # summary is now printed in every path.
+    try:
+        if args.mode == "boot":
+            mode_boot()
+        else:
+            mode_closeout(args.tier)
+    except BaseException as e:
+        record(ERROR, "GATE RUN ABORTED", False,
+               f"{type(e).__name__}: {str(e)[:160]} — the run stopped OUTSIDE any single "
+               "check; every check after this point was NOT evaluated",
+               "re-run the gate after fixing the cause; results below are PARTIAL")
 
+    errored = [r for r in results if r[0] == ERROR]
     blocking_fail = [r for r in results if r[0] == BLOCK and not r[2]]
     rc = aggregate_rc(results, capabilities)
-    print(f"\n{'='*70}\n  PROME GATE · {args.mode.upper()} · "
-          f"{'🔴 BLOCKED' if blocking_fail else '✅ PASS'} "
+    verdict = ("⚠️  INCOMPLETE — NOT A PASS" if errored
+               else "🔴 BLOCKED" if blocking_fail else "✅ PASS")
+    print(f"\n{'='*70}\n  PROME GATE · {args.mode.upper()} · {verdict} "
           f"({sum(1 for r in results if r[0]==BLOCK)} blocking / "
-          f"{sum(1 for r in results if r[0]==ADVISE)} advisory)\n{'='*70}")
+          f"{sum(1 for r in results if r[0]==ADVISE)} advisory"
+          + (f" / {len(errored)} NOT RUN" if errored else "") + f")\n{'='*70}")
+    if errored:
+        print(f"  ⚠️  {len(errored)} check(s) did not run. Their subjects are UNKNOWN, not clean.")
+        print("      rc=2 = COULD NOT ESTABLISH. Do not read this run as evidence of anything "
+              "they cover.\n")
     for sev, name, ok, detail, owner in results:
-        mark = "✅" if ok else ("🔴" if sev == BLOCK else "⚠️ ")
+        mark = "✅" if ok else ("⚠️ " if sev == ERROR else "🔴" if sev == BLOCK else "⚠️ ")
         print(f"  {mark} [{sev:8}] {name}: {detail}")
         if not ok:
             print(f"       → {owner}")
@@ -1201,6 +1248,14 @@ def main():
                     print(f"       ↳ {'🔴 URGENT — WQ-' + tracker + ' is PAST its needed-by; escalate to Will this session' if urgent else 'tracked at WQ-' + tracker}")
                 print(f"       → {owner}")
     print(f"{'='*70}")
+    if errored:
+        # rc=2 with zero blocking failures would otherwise have printed
+        # "0 BLOCKING gate(s) failed", which reads like good news.
+        print(f"  ⚠️  INCOMPLETE: {len(errored)} check(s) NOT RUN"
+              + (f", {len(blocking_fail)} BLOCKING failure(s) among those that did"
+                 if blocking_fail else "")
+              + ". rc=2 — this run establishes nothing about the unevaluated subjects.\n")
+        return rc
     if rc:
         print(f"  🔴 {len(blocking_fail)} BLOCKING gate(s) failed — disposition before new work.\n")
         return rc
