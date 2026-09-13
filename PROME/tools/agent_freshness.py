@@ -51,18 +51,52 @@ STALE_DAYS = 7          # flag threshold on own-surface age
 QUIET_DAYS = 45         # default-hidden tail (dormant/retired dirs, ROSTER is truth)
 
 
+# L294 F-4 (reproduced 2026-09-12 before repair): `git()` returned p.stdout.strip()
+# without ever reading `returncode`, so rc=128 and rc=0-with-no-output were the SAME
+# value — "" — to every caller. Two different facts, one representation. Acceptance
+# conditions: PROME/tools/tests/ACCEPTANCE_agent_freshness_L294_F4.md
+UNKNOWN = object()   # sentinel: the query FAILED. Distinct from "" (ran, found nothing)
+                     # and distinct from None (which callers already use for "no data").
+
+
 def git(*args):
-    p = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=60)
-    return p.stdout.strip()
+    """stdout on success; UNKNOWN if git exited non-zero or could not be run.
+
+    ⛔ `""` is a legitimate SUCCESS value here (no commits match, no dirty paths) and
+    must never be conflated with failure — that conflation IS F-4."""
+    try:
+        p = subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, timeout=60)
+    except Exception:
+        return UNKNOWN
+    return UNKNOWN if p.returncode != 0 else p.stdout.strip()
+
+
+def own_surface_age_state(name):
+    """Three states, because there are three facts:
+         ("aged", <float days>)  the tree has commits
+         ("never", None)         the query RAN and found no commit touching it
+         ("unknown", None)       the query FAILED — nothing was established
+    A desk with no commits is the MOST stale state, not the freshest; collapsing it
+    into a number is what made it unflaggable."""
+    ts = git("log", "-1", "--format=%ct", "--",
+             f"AGENTS/{name}", f":(exclude)AGENTS/{name}/inbox")
+    if ts is UNKNOWN:
+        return ("unknown", None)
+    if not ts:
+        return ("never", None)
+    try:
+        return ("aged", (time.time() - int(ts)) / 86400)
+    except ValueError:
+        return ("unknown", None)
 
 
 def own_surface_age_days(name):
-    """Days since the agent's own (non-inbox) tree last changed in a commit."""
-    ts = git("log", "-1", "--format=%ct", "--",
-             f"AGENTS/{name}", f":(exclude)AGENTS/{name}/inbox")
-    if not ts:
-        return None
-    return (time.time() - int(ts)) / 86400
+    """Days since the agent's own (non-inbox) tree last changed in a commit.
+    None for BOTH "never committed" and "query failed" — kept for the display
+    paths, which render None honestly as `never`/`no git history`.
+    ⚠️ Any caller that BRANCHES on the value must use own_surface_age_state()
+    instead: `(own_surface_age_days(x) or 0)` reads None as 0 days = brand new."""
+    return own_surface_age_state(name)[1]
 
 
 def pending_inbox(name):
@@ -84,7 +118,14 @@ def unread_to_prome(name):
 
 
 def dirty_paths(name):
+    """Porcelain lines for the agent's tree, or UNKNOWN if git could not tell us.
+
+    ⛔ Returning [] on a FAILED `git status` printed "clear to brief" over an
+    in-flight tree — and this feeds the pre-spawn STOP in the module header.
+    Fail closed: unknown is not clean."""
     out = git("status", "--porcelain", "--", f"AGENTS/{name}")
+    if out is UNKNOWN:
+        return UNKNOWN
     return [ln for ln in out.splitlines() if ln.strip()]
 
 
@@ -96,6 +137,7 @@ def agent_names():
 def row(name):
     return {
         "name": name,
+        "age_state": own_surface_age_state(name)[0],
         "age": own_surface_age_days(name),
         "inbox": pending_inbox(name),
         "to_prome": unread_to_prome(name),
@@ -103,8 +145,12 @@ def row(name):
     }
 
 
-def fmt_age(a):
-    return "  never" if a is None else f"{a:6.1f}d"
+def fmt_age(a, state=None):
+    """`never` = the query ran and found no commit. `  ???` = the query FAILED.
+    Rendering both as `never` would assert a fact git never supplied."""
+    if a is None:
+        return "   ???" if state == "unknown" else "  never"
+    return f"{a:6.1f}d"
 
 
 def main():
@@ -121,21 +167,32 @@ def main():
             print(f"no such agent dir: AGENTS/{n}")
             return 2
         r = row(n)
-        print(f"AGENT FRESHNESS · {n} · own-surface age {fmt_age(r['age']).strip()}"
-              f" (excludes inbound packets; lower bound, not caught-up proof)")
+        print(f"AGENT FRESHNESS · {n} · own-surface age "
+              f"{fmt_age(r['age'], r['age_state']).strip()}"
+              + (" — ⚠️ git could not answer; this is NOT a freshness claim"
+                 if r["age_state"] == "unknown" else
+                 " — NO COMMIT EVER TOUCHED ITS OWN TREE (the most stale state, not the freshest)"
+                 if r["age_state"] == "never" else "")
+              + " (excludes inbound packets; lower bound, not caught-up proof)")
         for label, items in (("unread from-agent packets in PROME/inbox — DRAIN BEFORE BRIEFING",
                               r["to_prome"]),
                              ("pending in its own inbox (brief should name these)", r["inbox"]),
                              ("uncommitted paths in its tree (in-flight or orphaned — do not sweep)",
                               r["dirty"])):
+            if items is UNKNOWN:
+                print(f"  ⚠️ UNKNOWN (git failed) {label}")
+                continue
             print(f"  {len(items)} {label}")
             for it in items[:20]:
                 print(f"      {it if isinstance(it, str) else it.relative_to(ROOT)}")
             if len(items) > 20:
                 print(f"      (+{len(items)-20} more)")
-        blocked = bool(r["to_prome"]) or bool(r["dirty"])
-        print(("  🔴 rc=1 — drain/inspect the above BEFORE writing the launch brief"
-               if blocked else "  ✅ clear to brief"))
+        unknown_dirty = r["dirty"] is UNKNOWN
+        blocked = bool(r["to_prome"]) or unknown_dirty or bool(r["dirty"])
+        print("  🔴 rc=1 — git could not report this tree's state; UNKNOWN is not CLEAN, "
+              "establish it before briefing" if unknown_dirty else
+              "  🔴 rc=1 — drain/inspect the above BEFORE writing the launch brief" if blocked else
+              "  ✅ clear to brief")
         return 1 if blocked else 0
 
     rows = [row(n) for n in agent_names()]
@@ -152,7 +209,8 @@ def main():
     shown, hidden = [], 0
     for r in rows:
         quiet = (r["age"] is not None and r["age"] > QUIET_DAYS
-                 and not r["inbox"] and not r["to_prome"] and not r["dirty"])
+                 and not r["inbox"] and not r["to_prome"]
+                 and r["dirty"] is not UNKNOWN and not r["dirty"])
         if quiet and not args.all:
             hidden += 1
             continue
@@ -165,10 +223,17 @@ def main():
             flags.append(f"STALE>{args.stale_days:g}d")
         if r["to_prome"]:
             flags.append("DRAIN-FIRST")
-        if r["dirty"]:
+        if r["age_state"] == "never":
+            flags.append("NEVER-COMMITTED")
+        elif r["age_state"] == "unknown":
+            flags.append("AGE-UNKNOWN")
+        if r["dirty"] is UNKNOWN:
+            flags.append("DIRTY-UNKNOWN")
+        elif r["dirty"]:
             flags.append("IN-FLIGHT/ORPHANED")
-        print(f"{r['name']:10} {fmt_age(r['age'])} {len(r['inbox']):6d} "
-              f"{len(r['to_prome']):7d} {len(r['dirty']):6d}   {' '.join(flags)}")
+        nd = "     ?" if r["dirty"] is UNKNOWN else f"{len(r['dirty']):6d}"
+        print(f"{r['name']:10} {fmt_age(r['age'], r['age_state'])} {len(r['inbox']):6d} "
+              f"{len(r['to_prome']):7d} {nd}   {' '.join(flags)}")
     if hidden:
         print(f"(+{hidden} quiet-tail dirs hidden: >{QUIET_DAYS}d old, zero pending signals — "
               f"--all to show; ROSTER.md is the live-vs-shelved truth, this table is activity only)")

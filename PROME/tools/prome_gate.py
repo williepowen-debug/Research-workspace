@@ -742,11 +742,29 @@ def check_dashboard_state():
                    "token-rename attrition class, 13→4 once)")
     try:
         import agent_freshness
-        wrong = [n for n, cls in (s.get("fleet") or {}).items()
-                 if cls == "ok" and n != "PROME"
-                 and (agent_freshness.own_surface_age_days(n) or 0) > 7]
+        # L294 F-4: this read `(own_surface_age_days(n) or 0) > 7`, so BOTH
+        # "never committed" and "the git query failed" arrived as 0 days = brand
+        # new. Three states now, each reported as itself — a desk whose freshness
+        # could not be established is not a desk that is fresh.
+        wrong, unknown, never = [], [], []
+        for n, cls in (s.get("fleet") or {}).items():
+            if cls != "ok" or n == "PROME":
+                continue
+            state, days = agent_freshness.own_surface_age_state(n)
+            if state == "aged" and days > 7:
+                wrong.append(f"{n} ({days:.0f}d)")
+            elif state == "never":
+                never.append(n)
+            elif state == "unknown":
+                unknown.append(n)
         if wrong:
             bad.append("fleet grid says ok but own-surface age >7d: " + ", ".join(wrong))
+        if never:
+            bad.append("fleet grid says ok but NO COMMIT has ever touched their own tree: "
+                       + ", ".join(never))
+        if unknown:
+            bad.append("fleet grid says ok but own-surface age could NOT be established "
+                       "(git query failed): " + ", ".join(unknown))
     except Exception as e:
         bad.append(f"grid-agreement check unavailable ({type(e).__name__})")
     record(ADVISE, "dashboard content assertions (PAT-105)", not bad,

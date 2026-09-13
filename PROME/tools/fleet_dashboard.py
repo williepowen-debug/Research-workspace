@@ -1002,7 +1002,13 @@ def build(today, now_iso, sessions_json=None):
         # days. agent_git stays for the 30d activity count only.
         if name == "PROME":
             # PROME's home is PROME/, not AGENTS/PROME (tree removed 7/24) —
-            # the shared helper hardcodes AGENTS/<name> and returns None here.
+            # the shared helper hardcodes AGENTS/<name>, so it must not be used
+            # for PROME. ⛔ An earlier version of this comment said the helper
+            # "returns None here"; it does NOT. The PATH still has history, so it
+            # returns the age of `fbbc17257` (2026-06-25), the commit that
+            # ARCHIVED the legacy tree — a large, plausible, wrong number.
+            # Falsified 2026-09-12 by a test that asserted the old comment and
+            # failed. The special case below is right; its stated reason was not.
             ts = agent_freshness.git("log", "-1", "--format=%ct", "--",
                                      "PROME", ":(exclude)PROME/inbox")
             own = (dt.datetime.now().timestamp() - int(ts)) / 86400 if ts else None
