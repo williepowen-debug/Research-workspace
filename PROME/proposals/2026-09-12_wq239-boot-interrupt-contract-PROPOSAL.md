@@ -1,8 +1,10 @@
 # WQ-239 — Boot interrupt contract · capability-scoped blocking · closeout duplication
-**PROPOSED 2026-09-12 20:3x ET Sat** (LAPTOP `WilliePOwen`, session `prome-cg`) · **Origin:** an external CODEX review Will relayed in-session, three bounded changes · **Status: PROPOSED, nothing edited.**
+**PROPOSED 2026-09-12 20:3x ET Sat · REVISED 20:4x on Will's direction (v3)** (LAPTOP `WilliePOwen`, session `prome-cg`) · **Origin:** an external CODEX review Will relayed in-session, three bounded changes · **Status: PROPOSED — no canon file edited.** ✅ **Will has RULED one leg already (20:41): both boot-runner copies are one unit of work, no separate approval cycle (R7 closed).** The four outcomes he set — report-then-continue · ask only when his answer is necessary for the next action · capabilities visibly unavailable until restored with deadlines driving escalation urgency only · no-task ⇒ start the highest-priority authorized work — are the spine of §1 and §2 in this revision.
 ⚠️ **`finding_relayed_recommendation_is_not_an_approval`** — a reviewer's recommendation relayed through the operator is still a recommendation. Change ① alters PROME's interrupt contract *with Will*, which is his to rule. Nothing in this record is installed without his word.
 
 **Verdict up front: ① RIGHT but under-specified (the ask must become a REPORT, not disappear) · ② RIGHT in diagnosis, WRONG in the obvious remedy (demoting the check inverts the failure direction) · ③ RIGHT, and it is a re-discovery of a defect already registered at DOCKET L338 leg (d).**
+
+★ **The revision history is the argument.** Draft 1 made the interrupt test *“a `WILL_QUEUE` row exists”* ⇒ it fired on every boot. Draft 2 made it *“a row past its needed-by”* ⇒ it fired on **`WQ-187` today**, and escalated an overdue capability to `BLOCKING` ⇒ a stale NASA key would stop a process edit. **Both drafts tried to decide the question from DATES.** Will's test decides it from **dependency** — *is my answer necessary for your next action?* — which is answerable without enumerating anything, and which fails in neither direction.
 
 ---
 
@@ -15,15 +17,16 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 - A2. `[S1,S4]` Owed work is still **visible to Will at the boot report** — reporting is not the same as asking, and dropping the report is not the goal. (⛔ CODEX's specimen report drops the owed slate entirely; I do not adopt that half.)
 - A3. `[S5]` The **third-boot disposition survives.** A dated owed item reaching its third boot unrun still leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row. **This clause, not the question, is the anti-rot carrier.**
 - A4. `[S6]` The **`Last spine audit:` stamp check survives.** It rides in the same BOOT step 8 and `prome_gate.py boot` carries no check for it, so the runner is its only carrier — spine audit #13 (2026-09-12) caught the runner having dropped exactly this half once already.
-- A5. `[S2,S7b]` The three interrupt triggers are **decidable from surfaces boot already reads** — not from judgement about what Will "would want."
-- A6. `[S9]` Both runner copies (`.claude/skills/boot/SKILL.md`, `PROME/.claude/skills/boot/SKILL.md`) change together and the parity gate stays green; the runner's `description:` frontmatter also states the old contract (*"FORCES the owed-items question"*) and must change with it.
+- A5. `[T1,T2,S2]` **The interrupt test is ONE question, and it is about DEPENDENCY, not about urgency or dates:** *is Will's answer necessary for PROME's next action?* ⛔ **Not “is it dated”, not “is it overdue”, not “is it urgent”** — those set where an item appears in the report and how loudly, never whether work proceeds.
+- A6. `[S9]` **Both runner copies are ONE unit of work** (`.claude/skills/boot/SKILL.md` at the repo root, `PROME/.claude/skills/boot/SKILL.md`) — they change in the same edit and their synchronisation is **not a separate approval cycle**. ✅ **RULED by Will 2026-09-12 20:41 ET**, settling residue R7. All three sites in each copy move together: the `description:` frontmatter, step 4, and step 7.
+- A7. `[T1,T2]` ⛔ **An overdue obligation is NOT, by itself, an interrupt.** A boot carrying a past-due `WILL_QUEUE` row, a past-due capability follow-up, or both, **still continues independent authorized work.** Overdue raises escalation urgency inside the report; it never converts a report into a question.
 
 **② Capability-scoped blocking**
 - B1. `[S1]` A missing credential **does not gate work that does not use it** (editing a process document).
 - B2. `[S3 PARTIAL]` A missing credential **does gate the dependent claim**, and the block is enforced **where the claim is made**, not only at boot.
 - B3. `[ART]` The gate's classification and `BOOT.md`'s prose **agree** — the manual must not call it blocking while the gate treats it as scoped, or vice versa.
-- B4. `[ARG n=1]` ⛔ **The check does not get quieter.** `FFIEC_CDR_TOKEN` has been missing since 2026-08-07 **while classified BLOCKING**, across five machine switches. Blocking severity was never the binding constraint, so removing severity cannot be the fix, and lowering it would trade loud-and-safe for silent-and-certifying.
-- B5. `[S7]` The scoped state is satisfiable **only by a registration that is still in date**, never by ignoring it — green requires a `WILL_QUEUE` row naming the gap **AND within its needed-by**. ⛔ **Registration alone is NOT sufficient and an earlier draft of this condition said it was** — registration is a one-time act, absence is a standing state; without the date leg, filing the row buys permanent silence.
+- B4. `[T2,ARG]` ⛔ **The check does not get quieter — and visibility, not gating, is what delivers that.** A missing capability stays **visibly unavailable at every boot until it is restored**; there is no state in which it stops being reported. `FFIEC_CDR_TOKEN` has been missing since 2026-08-07 **while classified BLOCKING** and blocking repaired nothing, so severity was never the binding constraint — **permanence of the report is.**
+- B5. `[T2]` **A follow-up deadline drives ESCALATION URGENCY ONLY, never gating.** Past its needed-by, the capability rises to the top of the report as an urgent obligation and earns a stated escalation to Will; ⛔ **it never becomes a stop on unrelated work.** *(Will-directed 2026-09-12 20:41. An earlier draft escalated the overdue state to `BLOCKING` — that reinstates the original defect under a new name, since BLOCKING's contract is “disposition before proceeding” for ALL work.)*
 
 **③ Closeout duplication**
 - C1. `[S8]` The WQ-232 "does the boot path already reach it?" test governs **all tiers**, not Light alone.
@@ -50,15 +53,17 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 
 **Draft replacement for BOOT.md step 8's owed clause** (exact text, to be transplanted in ONE edit):
 
-> — **and REPORT owed prior-session work as a ranked one-line digest with a stated first action** (*"owed: A · B · C — starting A"*), then start it. ⛔ **Do NOT stop for an answer.** PROME interrupts Will at boot **only** on a member of the closed list below. **The list is EXHAUSTIVE: an item not on it is REPORTED, never asked. Members are added by ruling, never by judgement in the moment** — an open head clause plus examples is not a decidable test, it is discretion wearing a list's clothes.
+> — **and REPORT, then CONTINUE.** The boot report carries **(i) urgent obligations, surfaced promptly**, and **(ii) a brief ranked owed-work digest**. PROME then continues the task Will directed. **If Will directed no task, PROME selects the highest-priority authorized work and starts it** — announced as a statement, never offered as a menu.
 >
-> **(a) AUTHORITY, and DUE** — a `WILL_QUEUE.md` § OPEN row **at or past its needed-by date**; a trade or spend consequent; or a Will-gated surface the named lane would have to edit. ⛔ **NOT the mere existence of a `WILL_QUEUE` row** — the queue is never empty, so that reading interrupts on every boot and the amendment changes nothing.
-> **(b) DEPENDENCY** — the named lane's next action cannot be executed without a specific missing artifact, credential or ruling, **named in the report**. Test: PROME can state what is missing. If it cannot name it, it is not (b).
-> **(c) DATED, and worse for waiting** — exactly these six: a `GATES.tsv` row `FIRED-UNEXECUTED` · a LIVE INSTRUMENT `GATES.tsv` row past `review_by` · a `WILL_QUEUE` row at or past needed-by · **a `DOCKET.tsv` row dated inside 24h** · **an expiry or roll inside 5 sessions on a live position surface** (root rule #8 puts rolls, trims and expiries before new research threads, and expiries live on position surfaces, not in `GATES`/`DOCKET`) · **an unconsumed ACTION-class packet in `PROME/inbox/`**.
+> **The interrupt test is ONE question: _is Will's answer necessary for PROME's next action?_**
+> - **YES ⇒ ask, and stop on that item only.** It is necessary when the next action is a decision only Will can make (a trade or spend consequent; a Will-gated surface the lane must edit; a ruling the lane's next step consumes), or when a dependency PROME **can name** blocks the directed lane.
+> - **NO ⇒ surface it and keep working.** A dated item, an **overdue** item, an urgent risk and a missing capability are all **SURFACED, never asked**, unless the YES branch independently applies. Urgency decides **where in the report an item appears and how loudly** — never whether work proceeds.
 >
-> ⚠️ **The last three members were added after a blind read found the first draft closed them out** — it reported a catalyst inside 24h, a Monday expiry seen at a Saturday boot, and an overnight 🔴 escalation as *not* interrupt-worthy, while BOOT step 8's own surviving sentence still opens *"Flag top issues: catalysts within 24h…"*. **A trigger list that drops what the step it replaces already required is a narrowing disguised as a clarification.**
+> ⛔ **An overdue obligation is not, by itself, an interrupt.** `WQ-187` sat at its needed-by on 2026-09-12 and needs Will's **hands**, not his **answer**; no PROME action depended on it. Stopping there would halt independent authorized work to re-ask something the digest already carried.
 >
-> Absent every member, **routine authorized maintenance is PROME's to run, not to ask about** — the tier is `AUTONOMY.md`'s, and Tier 1 already includes follow-up work inside an approved workstream. **The third-boot disposition is UNCHANGED:** a dated owed item reaching its third boot unrun leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row.
+> Absent a YES, **routine authorized maintenance is PROME's to run, not to ask about** — the tier is `AUTONOMY.md`'s, and Tier 1 already covers follow-up work inside an approved workstream. **The third-boot disposition is UNCHANGED:** a dated owed item reaching its third boot unrun leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row. **The `Last spine audit:` stamp check in this same step is UNCHANGED** — it has no other carrier.
+
+⚠️ **This replaces the six-member closed list an earlier draft carried, and the replacement is Will's (2026-09-12 20:41), not a tidy of mine.** The list tried to make the trigger decidable by enumerating dated things, and it failed in both directions at once: it **fired on every boot** (any open `WILL_QUEUE` row past needed-by — `WQ-187` today) while **missing** cases no list anticipates. Keying on *dependency* instead of *urgency* is decidable without enumeration, because PROME can always answer whether its own next action needs an answer.
 
 **What I do NOT adopt from CODEX.** Its specimen report ends *"Routine maintenance remains tracked"* and names no owed item. That is one step past the fix: it removes the interruption **and** the visibility. A1 and A2 are separate properties and the amendment must hold both.
 
@@ -74,14 +79,14 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 
 | | `BLOCKING` | **`CAPABILITY` (new)** | `advisory` |
 |---|---|---|---|
-| rc | rc=1, stops everything | **rc=0 for unrelated work** | rc=0 |
-| names | the failing check | **the failing check AND the exact dependent workflows** | the failing check |
-| goes green when | fixed | **fixed, OR a `WILL_QUEUE` row names the gap AND that row is within its needed-by date** | fixed |
-| prints when failing | yes | **yes — at EVERY boot, dependent workflows named; green here means “tracked”, never “absent from the report”** | yes |
-| escalates | — | **to `BLOCKING` the moment no row names it, or its row passes needed-by** | — |
-| ignorable | no | **no — green requires registration** | yes, in practice |
+| rc contribution | rc=1, stops **everything** | **always 0 — no state of this class ever gates unrelated work** | 0 |
+| names | the failing check | **the failing check AND its exact dependent workflows** | the failing check |
+| reported | while failing | **at EVERY boot until RESTORED — there is no green, only `AVAILABLE` / `UNAVAILABLE`** | while failing |
+| can be silenced | no | **no — not by a filed row, not by an allowlist, not by age** | yes, in practice |
+| refused at point of use | — | **yes — the dependent claim is refused where it is made** | — |
+| follow-up row past needed-by | — | **rises to the top of the report as an urgent obligation + a stated escalation — NEVER a gate** | — |
 
-⛔ **The escalation row is the whole design, and the first draft did not have it.** A blind read found that draft **failing its own B4**: green-on-registration would have turned today's rc=1 into rc=0 with all three keys still missing, and held it there for as long as the row stayed open — strictly quieter than BLOCKING, on the very instrument B4 cites. **Registration is a one-time act; absence is a standing state.** Keying green on the row's *date* rather than its *existence* is what makes the state falsifiable: the gap gets a clock, and the clock expiring restores the block. This satisfies B1/B2/B4/B5: unrelated work proceeds, the gap is named at every boot, and it cannot be parked. It is also what today's session produced by hand — WQ-238 — so the class encodes a behaviour already judged correct rather than inventing one.
+⛔ **Two drafts of this class failed before this one, and neither failure was mine to catch.** A blind read found that draft **failing its own B4**: green-on-registration would have turned today's rc=1 into rc=0 with all three keys still missing, and held it there for as long as the row stayed open — strictly quieter than BLOCKING, on the very instrument B4 cites. **Registration is a one-time act; absence is a standing state.** **Draft 2 then escalated the overdue state to `BLOCKING` — which reinstates the ORIGINAL defect under a new name**, because BLOCKING's contract is *“disposition before proceeding”* for ALL work: a stale NASA key would once again stop a process edit. **Will's correction (2026-09-12 20:41) removes gating from the class entirely**: the capability is *visibly unavailable until restored* — permanence of the REPORT is what keeps it loud — and the deadline moves only escalation urgency. This satisfies B1/B2/B4/B5 without a gate: unrelated work proceeds **in every state**, the gap is named at every boot, and it cannot be parked. It is also what today's session produced by hand — WQ-238 — so the class encodes a behaviour already judged correct rather than inventing one.
 
 **⚠️ The half that is NOT PROME's (B2, wrong-owner).** `env_doctor.py:42-47` states the real failure mode itself: without the key, *"the laptop's first FIRMS pull fails as 'Invalid MAP_KEY' inside FALCON's own workflow, where it reads as a broken SERVICE rather than a missing key on this box."* **That point-of-use fix belongs to the desk that owns the workflow.** PROME's obligation is to route it; PROME does not edit FALCON's tooling. ⛔ **Change ② is therefore incomplete by construction on this box alone — and saying so is part of the proposal, not a caveat on it.**
 
@@ -101,7 +106,7 @@ Stated as properties in the defect's own terms, not as a restatement of the symp
 
 ## §4 Scenario tests — the draft run against concrete cases
 
-CODEX asked for four. S5/S6 are mine: they test the **removal**, which is where an amendment like this actually breaks.
+CODEX asked for four (S1–S4). **S5/S6 are mine — they test the REMOVAL, which is where an amendment like this actually breaks. T1/T2 are Will's, set 2026-09-12 20:41, and they are the binding pair: _both must allow unrelated process work._** ⛔ **Draft 2 of this proposal failed BOTH of Will's tests, in opposite directions.** That is the strongest evidence in this record that the enumerate-the-dated-things approach was wrong in kind, not in detail.
 
 | # | Scenario | Required behaviour | Draft holds? |
 |---|---|---|---|
@@ -112,18 +117,19 @@ CODEX asked for four. S5/S6 are mine: they test the **removal**, which is where 
 | **S5** | A dated owed item reaches its **third** boot unrun | Third-boot disposition still fires → DOCKET `COVERED:` or a WQ row | ✅ A3 — the clause is preserved verbatim and is the anti-rot carrier |
 | **S6** | The edit lands on BOOT step 8 | The `Last spine audit:` stamp check **survives** | ✅ A4 — it has no other carrier; spine audit #13 caught the runner dropping this exact half once already |
 
-**Added after the blind read — these three exercise the conditions that had no test at all (❌5).**
+**Added after the blind read and Will's direction — T1/T2 are the binding acceptance pair; S8/S9 exercise conditions that had no test at all (❌5).**
 
 | # | Scenario | Required behaviour | Draft holds? |
 |---|---|---|---|
-| **S7** | The FFIEC/FIRMS gap with WQ-238 filed, and WQ-238 **passes its needed-by** with the keys still absent | **Escalate to `BLOCKING`** — a filed row must not buy permanent silence | ✅ **only under the repaired rule.** ⛔ The FIRST draft FAILED this: green-on-registration would have held rc=0 indefinitely, which is the silent-and-certifying outcome B4 forbids. Caught by the blind read, not by me. |
-| **S7b** | Boot with WQ-238 and WQ-239 open, both **inside** their needed-by, and no other trigger | **Do not interrupt** | ✅ under the repaired trigger (a). ⛔ The FIRST draft FAILED this too — "a `WILL_QUEUE` row" fires on every boot, because the queue is never empty. |
+| **T1** ★ | **Will's test 1 — today's actual boot.** Lane named (*"optimizing our system and catching up"*); **`WQ-187` is AT its needed-by 2026-09-12** and still unactioned; three credentials missing; owed items present | **Surface WQ-187 as an urgent obligation + the owed digest, then CONTINUE the process work** | ✅ **under the revised rule.** `WQ-187` needs Will's **hands** (a PAT + a bot token), not his **answer** — no PROME action depends on it ⇒ NO branch ⇒ surfaced, not asked. ⛔ **Draft 2 FAILED this test:** its trigger (a) fired on *"a `WILL_QUEUE` row at or past its needed-by"*, so WQ-187 would have stopped the session today. Found by Will, not by the blind read and not by me. |
+| **T2** ★ | **Will's test 2 — the same boot replayed after 2026-09-19**, `WQ-238` past its needed-by, all three credentials **still missing** | **Escalate the capability loudly — and still allow unrelated process work** | ✅ **under the revised rule.** `CAPABILITY` contributes rc=0 in every state; past needed-by it rises to the top of the report as an urgent obligation with a stated escalation. ⛔ **Draft 2 FAILED this test too:** it escalated the overdue capability to `BLOCKING`, whose contract is *"disposition before proceeding"* for ALL work — a stale NASA key would have stopped a process edit. **The two drafts failed in opposite directions; the dependency test fails in neither.** |
+| **T2b** | Same as T2, but the directed task **is** a FIRMS-dependent claim | **Refuse at the point of use, naming the missing key on this box** | ⚠️ **PARTIAL, same limit as S3** — PROME's side holds (YES branch: a named dependency blocks the lane). The FALCON-side message is not PROME's to fix. |
 | **S8** | Standard closeout whose only change is a dated obligation **already registered in DOCKET** | SCRATCH writes **no narrative** and says so — a stated no-op, never silence | ✅ C1: the WQ-232 five-row test, applied past Light tier, returns "do NOT restate" |
 | **S9** | The step-8 edit lands | **All three** runner sites stating the old contract change together, parity gate green | ✅ A6 — frontmatter `description:`, step 4 (*"Ask before any directed work."*) **and step 7** (*"yours to have ASKED about"*). ⛔ A6 originally named only the frontmatter; the blind read found the other two. |
 
 **Not scenario-tested, and named rather than implied:** **B3** (verified at the artifact instead — and the disagreement it forbids *already exists today*: `BOOT.md` step 5 reads capability-scoped, *"fix or flag to Will before citing FRED-dependent levels"*, against a gate that is BLOCK-for-everything) · **B4** (argued, n=1) · **C2** (verified at the artifact) · **C3**/**C4** (argued; see residue).
 
-**S3 is the honest weak leg and is reported as PARTIAL, not passed.**
+**S3 and T2b are the same honest weak leg, reported as PARTIAL, not passed** — one point-of-use message, owned by FALCON.
 
 ---
 
@@ -131,7 +137,7 @@ CODEX asked for four. S5/S6 are mine: they test the **removal**, which is where 
 
 | | Change | Owner | Gate |
 |---|---|---|---|
-| **1st** | ① boot interrupt contract — `BOOT.md` step 8 + both runner copies + the runner `description:` frontmatter | PROME | **Will's word** (it is his interrupt contract) |
+| **1st** | ① boot interrupt contract — `BOOT.md` step 8 + **both runner copies as ONE unit** (frontmatter, step 4, step 7) | PROME | **Will's word** (it is his interrupt contract). Runner-copy scope ✅ already ruled 20:41. |
 | **2nd** | ② `CAPABILITY` class in `prome_gate.py` + the matching `BOOT.md` step-5 prose (B3) | PROME | Will's word — it changes what a 🔴 boot means |
 | **2nd-b** | ② point-of-use failure message | **FALCON (not PROME)** | route a packet; do not edit |
 | **3rd** | ③ WQ-232 test to all tiers + `:46`/`:118` | PROME | **after** the L338 rotate-vs-split decision, not before |
@@ -150,7 +156,7 @@ CODEX asked for four. S5/S6 are mine: they test the **removal**, which is where 
 - **R4 (⚠️2)** — a stranger reading §3's *"goes LAST"* alone could take it as *after the split is executed*, which DOCKET L338 leg (g) explicitly flags as a prior overstatement: the precondition is the **decision**, not the split. §5 says so; §3 does not quote the clarification.
 - **R5 (⚠️3)** — trigger **(b)** has no instrument. Under change ②, boot-time blocking is exactly what `CAPABILITY` stops doing, so a reader cannot tell whether (b) is evaluated from the dependent-workflow list, from PROME's judgement, or from an rc that is now green. **The "name what is missing" test added above narrows it; it does not instrument it.**
 - **R6 (⚠️4)** — *"five machine switches"* is **unsourced**. `MACHINE_LOCAL` says the clause lapsed across every switch since 2026-08-07 without a count. The count should be dropped or derived before transplant.
-- **R7 (⚠️7)** — §0 calls all four artifacts PROME-owned, but one runner copy lives at the **repo root** (`.claude/skills/boot/SKILL.md`), outside `PROME/`. **Whether editing it needs a separate Will grant is not settled here and should be settled before ① is implemented** — the parity gate requires both copies to move together, so this is on the critical path, not a footnote.
+- **R7 (⚠️7) — ✅ RULED, CLOSED.** Will 2026-09-12 20:41: **both boot-runner copies are in implementation scope and their synchronisation is not a separate approval cycle.** The repo-root copy (`.claude/skills/boot/SKILL.md`) is edited in the same unit of work as the `PROME/` copy; the parity gate is a check on that unit, not a second gate to clear.
 - **R8 (⚠️6, partially fixed)** — A6 named only the runner frontmatter; the blind read found **two further sites** (steps 4 and 7). Now covered by S9. Residue: no check enumerates the sites, so the next contract change can miss one the same way.
 - **R9 (⚠️8)** — bare filenames (`prome_gate.py`, `env_doctor.py`, `board_scan.py`) resolve only by search. All 11 pointers resolved; none dead.
 
