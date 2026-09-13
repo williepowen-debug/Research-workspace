@@ -195,6 +195,10 @@ def mark_reviewed(note=""):
     if not f.exists():
         return 2, "CANNOT-EVALUATE: nothing frozen — run --record-review first"
     rc, lines = verify_review()
+    if rc == 2:
+        # A verdict may not be attached to a candidate whose completeness could not be
+        # established — that is how an unreviewed addition got promoted to REVIEWED.
+        return 2, "REFUSED (CANNOT-EVALUATE): " + "; ".join(lines)
     if rc != 0:
         return 1, "REFUSED: the frozen candidate changed since the freeze — " + "; ".join(lines)
     d = json.loads(f.read_text(encoding="utf-8"))
@@ -257,15 +261,42 @@ def verify_review(paths=None, ref=None):
     # with paths=None, so a file created after the freeze passed both and was caught only by
     # the post-commit check. With no list supplied, fall back to the tool's OWN computed
     # scope — the same set the freeze was taken from. (ARGUS, 2026-09-12.)
+    scope_failed = no_baseline = None
     if paths is None:
         try:
             base, _why = load_baseline()
-            if base is not None:
+            if base is None:
+                # A DIFFERENT state from a failure, and named as such: with no baseline
+                # there is nothing to enumerate additions against. The content comparison
+                # above is still valid and still governs rc; the additions half is simply
+                # NOT APPLICABLE, and the output says so rather than implying coverage.
+                # ⛔ Deliberate, not incidental: pinned by
+                # test_absent_baseline_is_named_not_silently_passed.
+                no_baseline = _why
+            else:
                 lanes, _ = build_scope(base["sha"], load_perimeter(), include_pending=True)
                 paths = [e["path"] for e in
                          lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]]
-        except Exception:
-            paths = None          # scope unavailable => cannot claim completeness; stay silent
+        except Exception as e:
+            scope_failed = f"{type(e).__name__}: {str(e)[:120]}"
+    # ⛔ EXTERNAL FINDING 2026-09-13, and it is the SAME bypass I previously called closed.
+    # This block used to end `except Exception: paths = None  # ... stay silent`, so a run
+    # whose scope discovery FAILED skipped the unreviewed-additions test entirely and
+    # returned 0 — reproduced in a fixture: with git working an unreviewed addition gives
+    # rc 1; with scope discovery raising it gives rc 0 AND prints "byte-identical to the
+    # frozen candidate (verdict REVIEWED)". Promotion then succeeded and the Standard
+    # review check passed. STAYING SILENT IS THE FAIL-OPEN: a completeness claim we could
+    # not establish must read CANNOT-EVALUATE, never a pass.
+    # `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`
+    if no_baseline is not None:
+        out.append(f"NOTE: additions were NOT checked — {no_baseline}. The content "
+                   "comparison above is complete; the unreviewed-additions half is not "
+                   "applicable without a baseline.")
+    if scope_failed is not None:
+        out.append("CANNOT-EVALUATE: scope discovery failed, so additions could NOT be "
+                   f"checked — {scope_failed}. This run establishes nothing about unreviewed "
+                   "additions; it is NOT a pass. Supply --paths explicitly, or fix the input.")
+        return 2, out
     if paths is not None:
         for path in sorted(set(paths) - set(reviewed) - RECEIPT_PATHS):
             bad = True

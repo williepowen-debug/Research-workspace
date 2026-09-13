@@ -311,6 +311,11 @@ def parse_heartbeat():
                             projection_text=projections)
 
 
+# Sentinel: the Pending-Will block could not be parsed. NOT the same as "nothing owed" —
+# an empty queue is a fact about the queue, an unparsed block is a fact about this tool.
+PENDING_UNPARSED = object()
+
+
 def parse_pending_will():
     text = read("PROME/SCRATCH.md")
     # ⛔ FIXED 2026-09-13 after a publish-time verification found this panel
@@ -323,9 +328,28 @@ def parse_pending_will():
     # DAYS on the Will-facing page whose entire job is saying what is owed —
     # failing silent, because "no items" and "could not parse" rendered the same.
     # Tolerate anything between the label and its colon; the bare form still works.
-    m = re.search(r"Pending Will[^:\n]*:([^.\n]+)", text)
+    # ⛔ EXTERNAL FINDING 2026-09-13. Yesterday's repair widened the LABEL match and left
+    # the TERMINATOR broken: `[^.\n]+` stops at the first PERIOD, so a generated item
+    # containing one — `WQ-169 (e.g. next week) · WQ-238 (9/19)` — truncated to
+    # "WQ-169 (e" and DROPPED every item after it. Fixing the heading while still losing
+    # the content is the shape of the original defect, not its cure.
+    #
+    # The real contract is the generator's own MARKERS, not a label regex: willq_view.py
+    # writes the block between `<!-- WILLQ-VIEW BEGIN/END -->`. Parse between those and
+    # the label may say anything, items may contain any punctuation, and the two tools
+    # stop having to agree on prose.
+    #
+    # ⛔ AND: returning [] for "no label found" made an EMPTY QUEUE and a FAILED PARSE
+    # render identically — which is exactly how the label break hid for a week. The
+    # sentinel below keeps them apart so the page can say which it is.
+    block = None
+    bm = re.search(r"<!--\s*WILLQ-VIEW BEGIN\s*-->(.*?)<!--\s*WILLQ-VIEW END\s*-->", text, re.S)
+    if bm:
+        block = bm.group(1)
+    m = re.search(r"Pending Will[^:\n]*:(.*)", block if block is not None else text)
     if not m:
-        return []
+        # Distinguishable from an empty queue: the block/label could not be read at all.
+        return PENDING_UNPARSED
     # 8/16 (sweep-1 trivia): split on `·` only OUTSIDE parentheses — the card
     # writes grouped sub-items like "(D-1 AAPL · D-10 MAIN≡IRA)", which a bare
     # split rendered as 13 items for 12. Leading "**" residue stripped by
@@ -343,7 +367,8 @@ def parse_pending_will():
         else:
             cur.append(ch)
     items.append("".join(cur))
-    return [md_clean(x.strip().lstrip("*").strip()) for x in items if x.strip()]
+    cleaned = [md_clean(x.strip().lstrip("*").strip()) for x in items]
+    return [x for x in cleaned if x]       # filter AFTER cleaning: "** " cleans to ""
 
 
 def parse_spine_stamp(today):
@@ -506,7 +531,10 @@ def make_snapshot(built, hb, gates, docket, fleet, pending, tiles):
             "docket": sorted(f'{r["start"].isoformat()} {r["catalyst"][:60]}'
                              for r in docket),
             "fleet": {r["name"]: r["cls"] for r in fleet},
-            "pending": pending,
+            # PENDING_UNPARSED is a sentinel object, not JSON. Persist it as an
+            # explicit marker so the change-diff cannot read "could not parse" as
+            # "every pending item vanished since the last build".
+            "pending": (["__UNPARSED__"] if pending is PENDING_UNPARSED else pending),
             "levels": {t["name"]: t["val"] for t in tiles}}
 
 
@@ -1153,8 +1181,14 @@ def build(today, now_iso, sessions_json=None):
         return out or "<li class='muted'>no gates registered</li>"
 
     def render_pending():
+        if pending is PENDING_UNPARSED:
+            return ('<li class="parsefail">PENDING-WILL BLOCK NOT PARSED — this panel is '
+                    'UNKNOWN, not empty. Regenerate with '
+                    '<code>willq_view.py --write PROME/SCRATCH.md</code>; if the block is '
+                    'present, the two tools have diverged on its format again.</li>')
         if not pending:
-            return "<li class='muted'>none parsed — see PROME/SCRATCH.md cautions</li>"
+            return ("<li class='muted'>nothing owed — the block parsed and the queue is "
+                    "empty</li>")
         return "".join(f'<li>{esc(p)}</li>' for p in pending)
 
     def render_runway():

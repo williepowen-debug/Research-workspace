@@ -18,6 +18,7 @@ is narrower than it reads:
     the documented pre-spawn STOP. Fixed at the shared root, not at one call site.
 """
 import pathlib
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -45,6 +46,52 @@ class _Root:
 
 
 NONREPO = pathlib.Path(tempfile.mkdtemp())     # exists, is not a git repo → rc 128
+
+# ⛔ EXTERNAL FINDING 2026-09-13 (F2): this suite WROTE INTO THE LIVE CHECKOUT —
+# AGENTS/BRENT/zz_f4_probe.md created and deleted, AGENTS/ZZ_F4_* directories created
+# and their contents unlinked in cleanup. It could overwrite a real file or collide with
+# a concurrent session, and the 9/12 fixture correction covered the F-7 suite and not
+# this one. ★ A FIXTURE THAT EXISTS AND IS NOT USED IS NOT A CONTROL — I built
+# gate_fixture.py for exactly this the day before and did not apply it here.
+# Third live-state test defect in three sessions.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import gate_fixture  # noqa: E402
+
+_FIX = None
+
+
+_LIVE_BEFORE = None
+
+
+def setUpModule():
+    """One throwaway repo for every test that WRITES. It carries real git history, so
+    the age queries have commits to find, and dirty-file cases can create their own."""
+    global _FIX
+    _FIX = gate_fixture.build()
+    # gate_fixture exports HEAD, so overlay the working-tree copy of the file under
+    # repair — otherwise the suite silently tests the last commit instead of the change.
+    shutil.copy2(ROOT / "PROME/tools/agent_freshness.py",
+                 _FIX / "PROME/tools/agent_freshness.py")
+    # Snapshot the LIVE checkout so the containment property is ASSERTED, not assumed.
+    global _LIVE_BEFORE
+    _LIVE_BEFORE = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                                  capture_output=True, text=True).stdout
+
+
+def tearDownModule():
+    gate_fixture.destroy(_FIX)
+
+
+class _InFixture:
+    """Aim agent_freshness at the throwaway repo for the duration of a block."""
+
+    def __enter__(self):
+        self.saved = (af.ROOT, af.AGENTS, af.PROME_INBOX)
+        af.ROOT, af.AGENTS, af.PROME_INBOX = _FIX, _FIX / "AGENTS", _FIX / "PROME" / "inbox"
+        return _FIX
+
+    def __exit__(self, *a):
+        af.ROOT, af.AGENTS, af.PROME_INBOX = self.saved
 
 
 class GitDistinguishesFailureFromEmpty(unittest.TestCase):
@@ -122,22 +169,19 @@ class AgeHasThreeStates(unittest.TestCase):
     """Condition 2."""
 
     def test_committed_desk_is_aged_with_a_number(self):
-        state, days = af.own_surface_age_state("BRENT")
+        with _InFixture():
+            state, days = af.own_surface_age_state("BRENT")
         self.assertEqual(state, "aged")
         self.assertIsInstance(days, float)
 
     def test_never_committed_desk_is_never_not_fresh(self):
         """THE REPORTED CASE. Pre-fix this was indistinguishable from a failure,
         and `(None or 0) > 7` read it as zero days old."""
-        d = af.AGENTS / "ZZ_F4_NEVER"
-        d.mkdir(exist_ok=True)
-        try:
+        with _InFixture():
+            d = af.AGENTS / "ZZ_F4_NEVER"
+            d.mkdir(parents=True, exist_ok=True)
             (d / "STATUS.md").write_text("never committed\n")
             self.assertEqual(af.own_surface_age_state("ZZ_F4_NEVER"), ("never", None))
-        finally:
-            for p in sorted(d.rglob("*"), reverse=True):
-                p.unlink()
-            d.rmdir()
 
     def test_failed_query_is_unknown_not_never(self):
         with _Root(NONREPO):
@@ -159,12 +203,15 @@ class DirtyPathsFailsClosed(unittest.TestCase):
     """Condition 3 — the half the source report does not contain."""
 
     def setUp(self):
+        self.ctx = _InFixture(); self.ctx.__enter__()
         self.probe = af.AGENTS / "BRENT" / "zz_f4_probe.md"
+        self.probe.parent.mkdir(parents=True, exist_ok=True)
         self.probe.write_text("probe\n")
 
     def tearDown(self):
         if self.probe.exists():
             self.probe.unlink()
+        self.ctx.__exit__(None, None, None)
 
     def test_a_real_dirty_path_is_seen(self):
         self.assertTrue(any("zz_f4_probe.md" in ln for ln in af.dirty_paths("BRENT")))
@@ -186,9 +233,11 @@ class PreSpawnStopFailsClosed(unittest.TestCase):
     Driven through the CLI, because that is what the playbook tells a session
     to run and rc is the whole contract."""
 
-    def run_cli(self, *args, cwd=None):
-        p = subprocess.run([sys.executable, str(ROOT / "PROME/tools/agent_freshness.py"), *args],
-                           cwd=cwd or ROOT, capture_output=True, text=True)
+    def run_cli(self, *args):
+        """Runs the FIXTURE's copy, inside the FIXTURE. Never the live checkout —
+        the pre-spawn STOP is exactly the path that used to dirty AGENTS/BRENT."""
+        p = subprocess.run([sys.executable, str(_FIX / "PROME/tools/agent_freshness.py"), *args],
+                           cwd=_FIX, capture_output=True, text=True)
         return p.returncode, p.stdout + p.stderr
 
     def test_clean_desk_is_clear_to_brief(self):
@@ -197,7 +246,8 @@ class PreSpawnStopFailsClosed(unittest.TestCase):
         self.assertIn("clear to brief", out)
 
     def test_unknown_dirtiness_NEVER_prints_clear_to_brief(self):
-        probe = af.AGENTS / "BRENT" / "zz_f4_probe2.md"
+        probe = _FIX / "AGENTS/BRENT/zz_f4_probe2.md"
+        probe.parent.mkdir(parents=True, exist_ok=True)
         probe.write_text("x\n")
         try:
             rc, out = self.run_cli("--agent", "BRENT")
@@ -217,9 +267,9 @@ class Overlap(unittest.TestCase):
     signal must not mask the other; they are independent facts."""
 
     def test_new_desk_reads_never_while_its_dirty_list_is_populated(self):
-        d = af.AGENTS / "ZZ_F4_OVERLAP"
-        d.mkdir(exist_ok=True)
-        try:
+        with _InFixture():
+            d = af.AGENTS / "ZZ_F4_OVERLAP"
+            d.mkdir(parents=True, exist_ok=True)
             (d / "STATUS.md").write_text("brand new and uncommitted\n")
             state, days = af.own_surface_age_state("ZZ_F4_OVERLAP")
             dirty = af.dirty_paths("ZZ_F4_OVERLAP")
@@ -228,10 +278,8 @@ class Overlap(unittest.TestCase):
             self.assertIsNot(dirty, af.UNKNOWN)
             self.assertTrue(any("ZZ_F4_OVERLAP" in ln for ln in dirty),
                             f"dirty list lost the untracked file: {dirty}")
-        finally:
-            for p in sorted(d.rglob("*"), reverse=True):
-                p.unlink()
-            d.rmdir()
+        # no cleanup needed: everything above lives inside the throwaway fixture,
+        # which tearDownModule destroys.
 
 
 class WrongOwner(unittest.TestCase):
@@ -296,6 +344,34 @@ class GateConsumer(unittest.TestCase):
                        "NO COMMIT has ever touched their own tree",
                        "could NOT be established"):
             self.assertIn(phrase, src)
+
+
+class LiveCheckoutUntouched(unittest.TestCase):
+    """F2's whole point, asserted rather than promised. Runs alphabetically late; the
+    comparison is against a snapshot taken before any test wrote anything."""
+
+    def test_git_status_of_the_live_repo_is_unchanged(self):
+        after = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                               capture_output=True, text=True).stdout
+        self.assertEqual(_LIVE_BEFORE, after,
+                         "a test in this suite wrote into the LIVE checkout")
+
+    def test_no_stray_probe_or_desk_was_left_behind(self):
+        strays = [str(x) for x in (ROOT / "AGENTS").glob("*/zz_f4_probe*")]
+        strays += [str(x) for x in (ROOT / "AGENTS").glob("ZZ_F4_*")]
+        self.assertEqual(strays, [], f"live-repo residue: {strays}")
+
+    def test_the_read_only_live_tests_are_named_so_a_future_writer_is_visible(self):
+        """Reading the live repo is deliberate in exactly two places — the inbox-exclusion
+        pathspec check and the PROME-path control. Naming them here means converting one
+        into a writer shows up as a change to THIS list, not as silent repo residue.
+        ⛔ An earlier version of this test scanned the file's own source text for a write
+        idiom; it matched its own string manipulation and proved nothing. The behavioural
+        guards above are the real assertion — this one is a roster, not a scanner."""
+        expected = {"test_inbox_is_excluded_from_own_surface_age",
+                    "test_PROMEs_real_home_is_queryable_so_the_special_case_works"}
+        actual = {n for n in dir(WrongOwner) if n.startswith("test_")}
+        self.assertTrue(expected <= actual, f"read-only live tests renamed or removed: {expected - actual}")
 
 
 if __name__ == "__main__":
