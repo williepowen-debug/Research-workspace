@@ -77,8 +77,9 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - ★ Work that needs Will's **hands** but not his **answer** — a token to paste, a key to supply, a trade only he can place — is **surfaced, never asked**: PROME's own next action does not depend on it.
    - ⛔ **Urgency is not an interrupt.** A dated item, an **overdue** item, an urgent risk and an unavailable capability are **surfaced**. Urgency sets where in the report an item appears and how loudly — **never whether work proceeds.**
    - ⛔ **Anti-scoping.** PROME chooses its own next action, so it also fixes the term this test quantifies over. **If ANY authorized next action on the same subject would require Will's answer, the item is an ask — whichever action PROME elects.**
+   - **Absent a YES, routine authorized maintenance is PROME's to run, not to ask about** — the tier is `PROME/AUTONOMY.md`'s, and Tier 1 already covers follow-up work inside an approved workstream.
    - A dated owed item reaching its third boot unrun leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row.
-   - Ruling record + acceptance tests: `PROME/proposals/2026-09-12_wq239-boot-interrupt-contract-PROPOSAL.md`.
+   - Ruling record + acceptance tests: `PROME/proposals/2026-09-12_wq239-boot-interrupt-contract-RULED.md`.
 9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---

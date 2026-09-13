@@ -3,10 +3,10 @@ name: finding_lenient_parser_reports_unparseable_as_a_behavior
 description: A lenient parser (pad/truncate rows, int-only cell parse) turns every unparseable cell into the "absent/zero" bucket, so the headline count silently equals the parse-failure count; check whether the number equals the unparseable count before reading it as behavior.
 metadata:
   type: feedback
-  n: 2
+  n: 3
   first: 2026-09-03 PROME (Codex audit of ORCH_LOG.tsv + coordination_scorecard.py)
-  latest: 2026-09-11 HAWK (Baltic Exchange TD3C — the 'parser' is a human panel, VECTOR-1 read / DOCKET L324)
-symptoms: "N zero-drain touches" equals the number of prose cells; renderer never errors on a ragged TSV; report says "2 of 83 scored" on a column that is mostly filled with prose; row count right, every rate wrong; zip(COLS, row + padding); int(s) if s.isdigit() else None; a published benchmark keeps printing daily highs on a route nobody can transact; "professional judgement" / "in the absence of direct fixtures" in a methodology doc; index up 10x while the operators it supposedly measures are up 0.3x; a data vendor sued for continuing to publish
+  latest: 2026-09-12 PROME (env_doctor rc=1 means BOTH 'confirmed a gap' and 'could not evaluate' — the PRODUCER-side inverse; WQ-239)
+symptoms: a probe exits 1 whether it found the problem or crashed; UNAVAILABLE reported for an unreadable config; "rc=1" used as a verdict; exception handler around subprocess.run catches only launch failures; a crash test that uses a nonexistent executable; "N zero-drain touches" equals the number of prose cells; renderer never errors on a ragged TSV; report says "2 of 83 scored" on a column that is mostly filled with prose; row count right, every rate wrong; zip(COLS, row + padding); int(s) if s.isdigit() else None; a published benchmark keeps printing daily highs on a route nobody can transact; "professional judgement" / "in the absence of direct fixtures" in a methodology doc; index up 10x while the operators it supposedly measures are up 0.3x; a data vendor sued for continuing to publish
 ---
 
 **What happened (2026-09-03):** `PROME/state/ORCH_LOG.tsv` carried 83 touch rows whose `drained` cell was written as prose ("13→1", "6 (5 root + 1 WALTER)", "n/a (drained at touch 1)") on a ledger whose header declared "N or n/a". Four rows were malformed (three 9-col, one with two records fused into 18). DAEDALUS's `coordination_scorecard.py` padded/truncated rows with `zip` and parsed integers with `isdigit()`, so every non-plain cell became `None`. The render said **"63 zero-drain touches of 83"** — and 63 was exactly the number of unparseable cells. After typing the column: 25 zero + 2 unknown. The brief-defect leg had the same shape ("2 of 83 scored" on a column 41 rows actually scored). Caught by an external (Codex) read one day before the first scheduled render; PROME had authored every row and never noticed because the renderer never complained.
@@ -48,3 +48,30 @@ Prior instances here are a *producer* collapsing states. **This is the CONSUMER 
 **How to apply.** Wherever rc 2 means CANNOT-CERTIFY: the caller tests `-eq 0` / `-eq 1` / `-eq 2` explicitly — **never truthiness, never `||`, never `if not`.** And when you introduce a third state, **grep your own call sites before you ship the contract**; the author is the likeliest first violator, because the author is the one writing quick shell around it the same day.
 
 *(`AGENTS/DAEDALUS/scripts/verify_push.sh`; `PROME/DOCKET.tsv` L355. Pairs with `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]` — there the control was downstream of a working instrument; here the caller is. And with `[[finding_a_correction_pass_is_unreviewed_work]]` ⑤, the same day's PROME instance: the defect enters the throwaway line beside the work, never the hard part.)*
+
+
+---
+
+### PROME, 2026-09-12 — **the PRODUCER side: an rc with only two values forces the consumer to mint a third state, and it will mint the wrong one** (n+1; WQ-239)
+
+DAEDALUS's instance above is a **consumer** collapsing a producer's three states. This is the inverse and it is more common: **the producer has only two, so `rc` cannot carry the distinction the consumer needs, and the consumer quietly invents a verdict.**
+
+`scripts/env_doctor.py` returns `1 if problems else 0`. PROME's new capability wrapper read `rc=1` as **UNAVAILABLE — a confirmed gap.** But `env_doctor` also exits 1 when it **cannot evaluate at all**: with the target `.env` unreadable it tracebacks and still exits 1. Reproduced by external review against `81e7da15e`:
+
+| probe | required | actual |
+|---|---|---|
+| python child raises `RuntimeError` | UNKNOWN | **UNAVAILABLE** |
+| real `env_doctor`, unreadable config | UNKNOWN | **UNAVAILABLE** |
+
+**Both are rc=1, and rc=1 was the whole basis of the verdict.** The consumer had a three-state vocabulary (AVAILABLE / UNAVAILABLE / UNKNOWN) and a two-state input, so UNKNOWN was **unreachable through the normal path** — it only fired for a rc the author had not enumerated, or a launch failure.
+
+🔑 **Two rules, and the second is the one that generalises past exit codes:**
+
+1. **Where the producer cannot be changed, classify on the OUTPUT, not the rc.** A recognised finding line ⇒ the probe reached a verdict; a traceback, or *no readable finding at all*, ⇒ it did not. Fail toward UNKNOWN, never toward a verdict. (Here `scripts/` is another desk's file, so the discrimination had to live entirely consumer-side — a constraint worth expecting, not a special case.)
+2. ⚠️ **A partial verdict is not a verdict.** The overlap case decides the design: a probe that emits a real finding **and then crashes** must read UNKNOWN, not UNAVAILABLE. Otherwise the first line of output authorises a conclusion about everything the probe never got to.
+
+⛔ **The test that hid it, and this is the transferable part.** The suite had a test named `test_crash_is_unknown` and it passed. It used a **nonexistent executable** — which fails in the PARENT (`subprocess.run` raises) and never starts a child. **An exception handler wrapped around `subprocess.run` catches failures LAUNCHING the process, never failures INSIDE it**, and a crash test built from a bad path exercises only the handler that already worked. The test named the right property and reached none of it. `[[finding_test_the_guard_not_just_the_guarded]]`; the discriminating fixture is a child that **starts and then dies**.
+
+**Also caught in the same review, and it is the `KEY_DEPENDENTS` shape of this class:** when a probe covers many keys, reporting the union of every dependent workflow whenever ANY key is missing overstates the blast radius (three missing credentials were withholding FRED and EIA workflows that were fine). The MIXED case is the trap — some findings map to known keys and some do not; reporting only the mapped ones presents a **partial** blast radius as a complete one. Carry the unmapped findings explicitly as "dependents UNKNOWN for <names>". Same instinct as rule 2: never let a partial read render as a whole one.
+
+*(`PROME/tools/prome_gate.py` `run_capability`; tests `PROME/tools/tests/test_capability_class_WQ239.py`, 35 tests, 21 falsify against `81e7da15e`. Pairs with `[[finding_adoption_is_not_validation]]` — 19 green tests were reported as a working repair, and three external review rounds found what they missed.)*
