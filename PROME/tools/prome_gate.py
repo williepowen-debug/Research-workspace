@@ -1025,6 +1025,17 @@ def mode_boot():
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
     check_heartbeat_chain()
+    # 2026-09-13: a markdown row with MORE cells than its header has the excess
+    # DROPPED at render, silently. PROME/STATUS.md L21 lost two cells that way —
+    # visible to a `cat`, invisible to the operator and to every rendered view,
+    # and spine audit #13 read the file the same day without seeing it. ADVISE
+    # here because the reader only needs warning; BLOCK at closeout, where the
+    # rows are written. Acceptance conditions:
+    # PROME/tools/tests/ACCEPTANCE_table_check_overcelled_rows.md
+    run_script(ADVISE, "boot-read tables: no over-celled rows",
+               [sys.executable, "PROME/tools/table_check.py", "--quiet"],
+               "fix the ROW (split the content into the existing columns or add a column to the "
+               "header) — never the reader; rc=2 = a manifest path could not be opened")
     check_dashboard_state()
     check_symmetry()
     check_claude_dir_drift()
@@ -1075,6 +1086,12 @@ def mode_closeout(tier=None):
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
     check_byte_budgets()       # flow-rule meter: >=75% here means rotate NOW, in this closeout
+    # BLOCKING at closeout and advisory at boot, deliberately: closeout is where
+    # these rows get WRITTEN, so this is the only run that can stop the defect
+    # from shipping. Shipping it costs a rendered reader the content entirely.
+    run_script(BLOCK, "boot-read tables: no over-celled rows",
+               [sys.executable, "PROME/tools/table_check.py", "--quiet"],
+               "fix the ROW before committing — the named cells are DROPPED in every rendered read")
     check_claude_dir_drift()   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
