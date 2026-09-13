@@ -34,7 +34,7 @@ End-of-day runs at least Standard. Standard+ includes the MANDATORY dashboard an
 
 ---
 
-> **⚡ Mechanical tail in one shot — RUN IT AFTER EVERY MANDATED WRITE**, including ARGUS's ❌ fixes and root steps 1b–1e, and after `fleet_dashboard.py` (which writes the `dashboard_state.json` the gate reads), immediately BEFORE the Helm/Deck render: `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout`. An early run is optional preflight, not the final verdict. **WQ-231 rule — no write to a SOURCE the gate checks may fall after the run that certifies it**, because nothing re-checks it. **Derived renders are excluded because they write no GATE-CHECKED source** — *not* because they are pure projections: they are not. The Helm run owns the change-feed baseline and writes `PROME/state/brief_snapshot.json` + `brief_changes.jsonl`; `argus_scope.py --record-baseline` writes `argus_baseline.json`. The gate checks none of the three (`grep -c brief_ / WQ_EXPLAINERS / argus_baseline prome_gate.py` = 0,0,0), which is what makes them safe to run late — a narrower and more fragile licence than "projection", and it dies the moment any of those files gains a gate check. That is why every HAND edit feeding them — BRIEF narrative, HANDBOOK priorities, Deck explainer rows — runs BEFORE the gate, and only render+publish runs after. The runner owns the resulting sequence. **On rc=1: fix, then REGENERATE EVERY DERIVED ARTIFACT whose sources the fix touched, THEN re-run the full gate.** The gate reads the generated FILE, not the sources, so re-running it alone re-checks output built before the fix. The four: `dashboard_state.json` (`fleet_dashboard.py`) · SCRATCH's DOCKET-VIEW block (`docket_view.py --write`) · SCRATCH's Pending-Will block (`willq_view.py --write`) · `WQ_LEDGER.tsv`+`.crc` (`wq_ledger.py sync` then `check`). ⛔ **`prome_gate.py` has NO wq_ledger check** — that artifact is covered by no gate run at all, so its regeneration is remembered, never caught. Loop to rc=0. ⛔ **It does not certify "the shipped state."** It establishes selected source records + `dashboard_state.json` — never the Helm, the Decision Deck, publication success, or the eventual (possibly rebased) commit. Say what passed. rc=1 means BLOCKING failures. The script also prints reminders for manual root steps 1c (consumer check) and 1d (memory index); it does not replace judgment writes. New mechanical checks go in the SCRIPT, not this prose.
+> **⚡ The gate is step 9 of § The routine, and the routine owns its placement, its `--tier` argument and the regenerate-then-re-run rule.** ⛔ This block previously restated the sequence here — ordering the render *after* the gate and quoting a `--tier`-less command — which is the duplicated-rule problem this file was simplified to remove, recurring inside its own repair. **One home: the numbered sequence below.**
 
 ## Boot↔Closeout symmetry — ONE HOME PER FACT
 
@@ -55,7 +55,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | `HEARTBEAT.md` | regime read; update on a regime-level change or >48h stale in a market week — **answer no-op explicitly, at every tier** | mirroring its base date elsewhere |
 | `memory/auto/` | durable lessons only; index row in `MEMORY.md`; **self-commit mandatory** (root carve-out ③) | activity recaps |
 | **WQ LEDGER** (`PROME/registry/WQ_LEDGER.tsv` + `.crc`) | generated — `wq_ledger.py sync` then `check`, after the WILL_QUEUE write | ⛔ hand-editing; it is sealed and append-only |
-| **Fleet-Ops dashboard** · **THE HELM** · **DECISION DECK** | Will-facing renders. **Standard+ mandatory.** Source edits (`BRIEF.md`, `HANDBOOK.md` §Top priorities, `WQ_EXPLAINERS.tsv`) run BEFORE the gate; renders run after | treating a render as a state file |
+| **Fleet-Ops dashboard** · **THE HELM** · **DECISION DECK** | Will-facing renders. **Standard+ mandatory.** Sources (`BRIEF.md`, `HANDBOOK.md` §Top priorities, `WQ_EXPLAINERS.tsv`) **AND renders both run at step 7, before the freeze** — renders write tracked files. Only **publication** follows the commit | treating a render as a state file |
 
 **Generated blocks are written by their generator, never by hand:** SCRATCH's `DOCKET-VIEW` (`scripts/docket_view.py --write`) and `Pending Will` (`PROME/tools/willq_view.py --write`), `dashboard_state.json` (`fleet_dashboard.py`), the WQ ledger. **Preserve them; stop restating their contents in prose.**
 
@@ -74,19 +74,25 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 4. **Memory** — the day's log; auto-memory only if a durable lesson was earned (root step 1d after).
 5. **Residual triggers** → **`PROME/CLOSEOUT_PROCEDURES.md` § Chunk 3**. Walk the list; do not recall it.
 6. **Root session-end steps 1b–1e** (root `CLAUDE.md` owns the text): 1b orphan · 1c consumer · 1d memory-index `--slug` · 1d-bis hot-index flow · 1e claim. **Their WRITES land here, before the audit.**
-7. **Helm/Deck SOURCE edits + Fleet-Ops build** — `BRIEF.md`, `HANDBOOK.md` §Top priorities, `WQ_EXPLAINERS.tsv`, then `python3 PROME/tools/fleet_dashboard.py`. **This is the last step that may edit anything.**
-8. 🔴 **FREEZE, then AUDIT the finished candidate (Standard/Heavy).** The candidate must be COMPLETE first — steps 1–7 done, including every check that can still produce an edit:
-   `python3 PROME/tools/argus_scope.py --record-review` → spawn `argus` → apply ❌ only, ⚠️ → residue → RUN-LOG row.
-   ⛔ **If any ❌ fix changes the candidate: re-review the CHANGED portion, regenerate affected outputs, and `--record-review` AGAIN.** A verdict certifies the content it saw, never a path list.
-9. **FINAL gate** — after every write in 1–8:
-   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout`
-   It now includes **`ARGUS review manifest (content, not paths)`** — BLOCKING when the reviewed candidate changed after the audit. **rc=1 ⇒ fix, regenerate every derived artifact whose sources the fix touched, then re-run the FULL gate.** Loop to rc=0.
-10. **Render + publish** (Standard+) — Helm, then Deck. Prerequisites were checked at Pre-closeout; a failure here is reported, never waived.
-11. **Commit + push** — exact paths, message file, wrapper:
-    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/commit_check.py commit --stage --push -F <msgfile> -- <exact paths>`
-    Then `python3 PROME/tools/argus_scope.py --verify-review` must still read **UNCHANGED** — the committed contents are the reviewed result.
+7. **ALL generation — sources then renders. This is the LAST step that may write any file INSIDE THE REVIEWED CANDIDATE.** ⚠️ Steps 8 and 12 do write two tracked files — the review receipt and the baseline record — but `RECEIPT_PATHS` excludes both from every manifest, which is exactly why they may run later. **An earlier wording said *anything tracked*, which those two steps contradict.** Helm/Deck sources (`BRIEF.md`, `HANDBOOK.md` §Top priorities, `WQ_EXPLAINERS.tsv`), then every generator: `python3 PROME/tools/fleet_dashboard.py` · `python3 PROME/tools/will_handbook.py -o <scratchpad>/handbook.html` · `python3 PROME/tools/decision_deck.py`. ⛔ **Renders are NOT read-only** — they write tracked snapshot files (`dashboard_state.json`, `PROME/state/brief_snapshot.json`, `brief_changes.jsonl`, `PROME/artifacts/*.html`). Generating after the freeze would put untracked-by-the-review bytes into the commit; that is why generation sits here and only **publication** comes after.
+8. 🔴 **FREEZE, then AUDIT (Standard/Heavy).** The candidate is complete — steps 1–7 done, including every check that can still produce an edit.
+   `python3 PROME/tools/argus_scope.py --record-review` → spawn `argus` → apply ❌ only, ⚠️ → residue → RUN-LOG row → `python3 PROME/tools/argus_scope.py --mark-reviewed "<one line>"`.
+   ⛔ **Freezing is NOT reviewing.** `--record-review` writes verdict `FROZEN`; only `--mark-reviewed` writes `REVIEWED`, and it refuses if the candidate moved in between. ⛔ **Any ❌ fix ⇒ re-review the changed portion, regenerate affected outputs, `--record-review` again, and re-mark.**
+9. **FINAL gate, with the tier:**
+   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout --tier <bounce|light|standard|heavy>`
+   At **standard/heavy** a missing, unevaluable or merely-FROZEN review is **BLOCKING**. ⛔ **Omitting `--tier` does not mean “no tier” — it means the review requirement is NOT ENFORCED**, and the gate says so in its own line. Pass the tier you actually ran. **rc=1 ⇒ fix, regenerate every derived artifact whose sources the fix touched, re-freeze, re-run the FULL gate.** Loop to rc=0.
+10. **Commit → VERIFY → push. In that order, and the verification gates the push.**
+    ```
+    cd "$(git rev-parse --show-toplevel)"
+    python3 PROME/tools/commit_check.py commit --stage -F <msgfile> -- <exact paths>   # NO --push
+    python3 PROME/tools/argus_scope.py --verify-review --ref HEAD --paths <the same exact paths>
+    bash scripts/safe-push.sh        # ONLY if the line above returned rc 0
+    ```
+    ⛔ **`--push` on the commit wrapper is forbidden at this step.** It pushes inside the same command, so the delivery check would run *after* the bytes were already on origin — detecting an unreviewed delivery once it has shipped is not a control.
+    ⛔ **Both arguments matter.** `--ref HEAD` reads the COMMIT's contents, not the working tree — a path can be edited-then-reverted, or staged differently from the file on disk. `--paths` is the only way an **addition nobody reviewed** is detected; without it the check sees only paths the manifest already knows.
     **Push receipt, verbatim:** `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` A bare `Pushed.` is not a receipt.
-12. **ARGUS baseline, AFTER the commit:** `python3 PROME/tools/argus_scope.py --record-baseline HEAD`; it rides the next commit.
+11. **Publish the verified artifacts** (Standard+) — Helm, then Deck. They were generated at step 7 and verified at step 10; this step only ships them. Prerequisites were settled at Pre-closeout; a failure here is **reported**, never waived.
+12. **ARGUS baseline, AFTER the commit:** `python3 PROME/tools/argus_scope.py --record-baseline HEAD`; it rides the next commit. ⛔ **The baseline record and the review receipt are never part of a reviewed candidate** — they are bookkeeping *about* a review, they change after the commit, and including them would make the next closeout inherit a guaranteed failure.
 
 ---
 
@@ -100,7 +106,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | **PUSHED** | the verbatim receipt above |
 | **PUBLISHED** | the artifact republished at its own URL |
 
-**Publication prerequisites are checked at Pre-closeout, not at the render** (`prome_gate closeout` → `publication prerequisites`): every OPEN `WILL_QUEUE` row has an explainer row, and the live artifact has been viewed this session so the republish cannot be refused at the end. **If a prerequisite cannot be met, say so at Pre-closeout and decide then** — an unmet prerequisite discovered at step 10 is a process defect, not a reason to skip delivery.
+**Publication prerequisites are checked at Pre-closeout, not at the render** (`prome_gate closeout` → `publication prerequisites`): every OPEN `WILL_QUEUE` row has an explainer row, and the live artifact has been viewed this session so the republish cannot be refused at the end. **If a prerequisite cannot be met, say so at Pre-closeout and decide then** — an unmet prerequisite discovered at **step 11** is a process defect, not a reason to skip delivery.
 
 **Session summary to Will:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
 

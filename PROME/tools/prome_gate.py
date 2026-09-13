@@ -892,32 +892,56 @@ def check_claude_dir_drift():
            "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
 
 
-def check_review_manifest():
+def check_review_manifest(tier=None):
     """WQ-240 part 3: a review verdict certifies CONTENT, not a path list.
 
     BLOCKING when the reviewed candidate CHANGED after the audit — that is the
     case where an old verdict would certify content it never saw. Advisory when
     no manifest exists, because Light/Bounce tiers run no audit; the wording says
     UNKNOWN rather than clean (`[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`)."""
+    # ⛔ Severity is selected BEFORE the probe runs. It used to be selected after, so a
+    # verifier CRASH — a malformed manifest, a broken import — recorded an advisory and
+    # the aggregate returned 0, letting a Standard closeout ship with required review
+    # never established. A crash is a cannot-evaluate like any other and must stop the
+    # tiers that require a review. (Reproduced by external review, 2026-09-12.)
+    required = (tier or "").lower() in ("standard", "heavy")
+    sev = BLOCK if required else ADVISE
+    untiered = " [no --tier given: review requirement NOT enforced]" if not tier else ""
     sys.path.insert(0, str(ROOT / "PROME" / "tools"))
     try:
         import argus_scope
         rc, lines = argus_scope.verify_review()
     except Exception as e:                      # tool missing/broken => UNKNOWN, never clean
-        record(ADVISE, "ARGUS review manifest", False,
-               f"UNKNOWN: {type(e).__name__}: {str(e)[:90]}", "PROME/tools/argus_scope.py")
+        record(sev, "ARGUS review manifest (content, not paths)", not required,
+               ("REQUIRED at this tier and the verifier FAILED — " if required else "UNKNOWN — ")
+               + f"{type(e).__name__}: {str(e)[:90]}", "PROME/tools/argus_scope.py")
         return
     detail = " · ".join(lines)[:300]
     if rc == 1:
         record(BLOCK, "ARGUS review manifest (content, not paths)", False, detail,
                "re-review the CHANGED portion and regenerate affected outputs, then "
                "`argus_scope.py --record-review` again — never ship under the old verdict")
-    elif rc == 2:
-        record(ADVISE, "ARGUS review manifest (content, not paths)", True,
-               "UNKNOWN — no review recorded this session (expected at Light/Bounce; "
-               "Standard+ owes one)", "PROME/CLOSEOUT.md")
+        return
+    if rc == 2:
+        # Standard/Heavy REQUIRE a review, so "cannot evaluate" is a stop, not a note.
+        # Below that tier no audit runs, and UNKNOWN is the correct resting state.
+        record(sev, "ARGUS review manifest (content, not paths)", not required,
+               ("REQUIRED at this tier and missing/unevaluable — " if required else "UNKNOWN" + untiered + " — ") + detail,
+               "run `argus_scope.py --record-review`, spawn argus, then `--mark-reviewed`")
+        return
+    # rc 0: frozen and unchanged. ⛔ A FREEZE IS NOT A REVIEW.
+    try:
+        verdict = json.loads((ROOT / "PROME/state/argus_review.json")
+                             .read_text(encoding="utf-8")).get("verdict", "?")
+    except Exception:
+        verdict = "?"
+    if required and verdict != "REVIEWED":
+        record(BLOCK, "ARGUS review manifest (content, not paths)", False,
+               f"candidate is {verdict} but never REVIEWED — freezing is not an audit",
+               "spawn argus, then `argus_scope.py --mark-reviewed`")
     else:
-        record(BLOCK, "ARGUS review manifest (content, not paths)", True, detail, "")
+        record(sev, "ARGUS review manifest (content, not paths)", True,
+               f"verdict {verdict}{untiered} · " + detail, "")
 
 
 def check_publication_prereqs():
@@ -1020,8 +1044,8 @@ def mode_boot():
     check_byte_budgets()
 
 
-def mode_closeout():
-    check_review_manifest()
+def mode_closeout(tier=None):
+    check_review_manifest(tier)
     check_publication_prereqs()
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
@@ -1076,6 +1100,9 @@ def main():
     ap.add_argument("mode", choices=["boot", "closeout"])
     ap.add_argument("--log-dir", type=Path, help="New directory for complete child-check output")
     ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
+    ap.add_argument("--tier", choices=["bounce", "light", "standard", "heavy"],
+                    help="closeout tier; standard/heavy REQUIRE a recorded ARGUS review "
+                         "(missing or unevaluable becomes BLOCKING)")
     args = ap.parse_args()
     results.clear()
     capabilities.clear()
@@ -1086,7 +1113,10 @@ def main():
         LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
     SESSION_JSON = args.sessions_json.resolve() if args.sessions_json else None
 
-    (mode_boot if args.mode == "boot" else mode_closeout)()
+    if args.mode == "boot":
+        mode_boot()
+    else:
+        mode_closeout(args.tier)
 
     blocking_fail = [r for r in results if r[0] == BLOCK and not r[2]]
     rc = aggregate_rc(results, capabilities)

@@ -1,21 +1,26 @@
 {
   "verdict": "REVIEWED",
-  "head": "3b83c687d162c6c27a6c009885f4b51e4c9c8923",
-  "recorded_at": "2026-09-13T01:32:49+00:00",
+  "baseline": "3b83c687d162c6c27a6c009885f4b51e4c9c8923",
+  "head": "24bef25d89da66fda05c6434a948b299f760b350",
+  "recorded_at": "2026-09-13T01:57:09+00:00",
   "recorded_by": "PROME",
   "paths": {
-    "PROME/.claude/skills/closeout/SKILL.md": "dbd671f2f6da6e0e8c181cc69c36bce93d3a7debf9f954555ee0a2a800c61e64",
-    "PROME/CLOSEOUT.md": "4214c63a7693de98304012b018a5bb24f2ec2c6e05503a46b7dc2a8598ba484b",
+    ".claude/skills/closeout/SKILL.md": "8a5c618fa3c14a2b89e6c8b89d9df7a55615b9b4f3d4925b5cc6ecb0879b95c5",
+    "PROME/.claude/skills/closeout/SKILL.md": "8a5c618fa3c14a2b89e6c8b89d9df7a55615b9b4f3d4925b5cc6ecb0879b95c5",
+    "PROME/CLOSEOUT.md": "db87a95adfc9623840f461d980ab10c5deb24166ac06f269c4061d71b8c1e082",
     "PROME/CLOSEOUT_PROCEDURES.md": "5447b3e0b48669b5e0c0b582c040ea146fc08e0416414248ed4522e25916ced4",
     "PROME/DOCKET.tsv": "0a33b901e4e6bb83595c7d820bc85bffa26c690fd2d74aacd4f2b5d6ffe87701",
     "PROME/SCRATCH.md": "c17b3943d44e1be7a70bba97a02c4b306594f6e5c165217cf97d3df786c6834b",
-    "PROME/WILL_QUEUE.md": "c9817d0d56e93ad1c24b2f6521e319cc91b1c47bf958f434f6e96845f33dca4d",
-    "PROME/proposals/2026-09-12_wq240-closeout-simplification-RULED.md": "5f469cd77881c2f929614819f55bcf0480b6e337c9b38a65ff13b1915c6124ba",
+    "PROME/WILL_QUEUE.md": "f4223a04fc74b297d83a23462af0cf8f2edd23672adb5e3afb8ff1b71ce32a11",
+    "PROME/proposals/2026-09-12_wq240-closeout-simplification-RULED.md": "108f8f598e5130a3a881c11e8f17cb593abc90a556b5c31a7f52e701bad50083",
     "PROME/registry/WQ_LEDGER.crc": "d4e811ad61bf32639d896d1398d521778892d4aee148d4b6d6a2417717b79e65",
     "PROME/registry/WQ_LEDGER.tsv": "a932321dba135c572d21ecc4e57319383738730c62ecc75673fc5c683570d6ab",
-    "PROME/state/argus_baseline.json": "ece983fc29d1a1ff619a450ecc7f576f4a2aff9d9200cedafd145ebb3f2690cf",
-    "PROME/tools/argus_scope.py": "693c49cf8be9f4868476a8e78b36d5517efdf08fc4f7634422df465cdc3d2231",
-    "PROME/tools/prome_gate.py": "0034c8d759731fc684b7d7650f7e3dc8c64e791d673e7826cab08f5cd5c4690c",
-    "PROME/tools/tests/test_closeout_simplification_WQ240.py": "55ddcbcee634afec8d4d0929b3db48f30f41ef55969e66b432660de4b9a4c447"
-  }
+    "PROME/state/AUDIT_PERIMETER.tsv": "1b45f8ec49f7d08107f2fe0a36243e1fb87325e2099c44cf920bc25be473bd42",
+    "PROME/tools/argus_scope.py": "0079e8ad52d285ffed452a1965202e6035d8830e147e48b8c9ad947a4d191517",
+    "PROME/tools/prome_gate.py": "97b8eef421be927145d469c238516b9c19ca9eaecca96739e09f170651053601",
+    "PROME/tools/tests/test_closeout_simplification_WQ240.py": "9adee7f1f4750f8bd574f182c9d48a4ad99e3625044bef9e1adc8e6b760f719b",
+    "PROME/tools/tests/test_review_mechanism_WQ240b.py": "3b28d096fcc5606a3775825e1b6678388077496b2047c31be51bb6697fc7a18b"
+  },
+  "reviewed_note": "ARGUS 2 passes: 7 errors applied, delta re-review 2 more applied; both were the step-7 correction failing to travel",
+  "reviewed_at": "2026-09-13T01:57:10+00:00"
 }

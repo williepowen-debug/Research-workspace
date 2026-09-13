@@ -8,6 +8,7 @@ Run: python3 PROME/tools/tests/test_closeout_simplification_WQ240.py
 """
 import hashlib
 import json
+import re
 import pathlib
 import subprocess
 import sys
@@ -65,11 +66,14 @@ class Case2_LateFactChange(unittest.TestCase):
     review freeze comes after it."""
 
     def test_the_routine_names_a_last_editing_step_before_the_freeze(self):
+        """Assert the ORDER, not the sentence. An earlier version pinned the exact
+        wording and broke when the step was correctly reworded to cover renders —
+        the same live-surface brittleness this suite exists to catch, one level down."""
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
-        self.assertIn("This is the last step that may edit anything", m)
-        i_edit = m.index("last step that may edit anything")
-        i_freeze = m.index("FREEZE, then AUDIT")
-        self.assertLess(i_edit, i_freeze, "the freeze must come after the last editing step")
+        self.assertRegex(m, r"LAST step that may (edit|write)")
+        i_edit = re.search(r"LAST step that may (edit|write)", m).start()
+        self.assertLess(i_edit, m.index("FREEZE, then AUDIT"),
+                        "the freeze must come after the last writing step")
 
     def test_a_late_edit_to_a_reviewed_path_is_detected(self):
         with tempfile.TemporaryDirectory() as d:
@@ -151,7 +155,8 @@ class Case4_PublicationFails(unittest.TestCase):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
         self.assertIn("Publication prerequisites are checked at Pre-closeout, not at the render", m)
         runner = (ROOT / ".claude/skills/closeout/SKILL.md").read_text(encoding="utf-8")
-        self.assertLess(runner.index("Publication prerequisites"), runner.index("Render + publish"))
+        self.assertLess(runner.index("Publication prerequisites"),
+                        re.search(r"Publish the verified artifacts|Render \+ publish", runner).start())
 
     def test_the_gate_carries_the_mechanical_prerequisite(self):
         src = (ROOT / "PROME/tools/prome_gate.py").read_text(encoding="utf-8")
@@ -163,7 +168,9 @@ class Case5_ForeignDirtyFiles(unittest.TestCase):
 
     def test_commit_is_by_exact_paths_only(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
-        self.assertIn("commit_check.py commit --stage --push -F <msgfile> -- <exact paths>", m)
+        self.assertIn("commit_check.py commit --stage -F <msgfile> -- <exact paths>", m)
+        self.assertNotIn("commit --stage --push", m,
+                         "the push must not ride inside the commit command — verification gates it")
 
     def test_pre_closeout_keeps_the_foreign_work_rule(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")

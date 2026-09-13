@@ -17,6 +17,8 @@ PROME/inbox/**	EXCLUDED	inbound mail — other desks' output sitting in PROME's 
 AGENTS/*/inbox/processed/**	EXCLUDED	consumption is the RECIPIENT's act, not PROME authorship (audit F-2: LABOR's consume-moves were claimed as PROME's)
 AGENTS/*/inbox/**	SHARED	EVERY inbox path at EVERY depth (processed/ is EXCLUDED by the more specific row above). ARGUS trial run 1 found A4 STILL violated after two attempts to be clever about noise: 888924d2e committed AGENTS/FALCON/inbox/data/2026-09-11_FIRMS_VIIRS_…csv — PROME's own carve-out (1) packet body, in a lane, with no 'from-PROME' in the name — and it vanished into the anonymous excluded count. Include-on-hint was still a FILENAME key, the exact thing A4 forbids. No filename decides visibility now; the ~44 lane paths of routing traffic that come with this are the declared PRICE of the honest failure direction, reported in C4.
 .claude/agents/argus.md	OWNED	ARGUS's own definition — PROME-internal
+.claude/skills/**	OWNED	PROME runner copies (boot/closeout) — CANON, not harness config; the repo-root copy and the PROME/ copy are ONE unit and the parity gate compares them. Added 2026-09-12 (WQ-240): ARGUS could only grade the root copy by going OUTSIDE its own scope list.
+.claude/agents/**	OWNED	PROME's own agent definitions (argus, coldreader, anvil) — the SAME argument as the skills row above; carving out only argus.md left the others EXCLUDED on identical grounds (finding_hand_fixing_named_rows_is_not_fixing_the_class, ARGUS 2026-09-12)
 PROME/.claude/agents/argus.md	OWNED	the PROME-launch copy of the same definition; both must stay byte-identical (A7)
 PROME/**	OWNED	PROME's own directory (root CLAUDE.md Git Protocol scope note)
 FORGE/**	OWNED	PROME-standard since 2026-07-30 (root CLAUDE.md scope note)
@@ -30,6 +32,6 @@ MESSAGING/**	EXCLUDED	ratified messaging canon — shared/root doc, Will-gated, 
 scripts/**	EXCLUDED	fleet-wide scripts — shared, not PROME's closeout output
 docs/**	EXCLUDED	shared root docs — Will-gated per root CLAUDE.md Ask-First
 reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by PROME; auditing them would be auditing the auditor
-.claude/**	EXCLUDED	harness config other than ARGUS's own definition, which is OWNED by the more specific row above
+.claude/**	EXCLUDED	harness config other than the PROME rows above (argus.md, .claude/skills/**, .claude/agents/**), which are OWNED by those more specific rows
 CLAUDE.md	EXCLUDED	root canon — Will-gated; a change here is an operator decision, not PROME closeout output
 AGENTS.md	EXCLUDED	root roster/nav core — Will-gated
