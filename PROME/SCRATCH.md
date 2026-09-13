@@ -1,8 +1,15 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-12 21:0x ET Sat · **STANDARD closeout**, LAPTOP `WilliePOwen`, Opus 5, session `prome-cg` (boot 19:34). Will's lane: the CODEX boot-review → **WQ-239 legs ①+② IMPLEMENTED**. Markets CLOSED. **$0 moved, no trade proposed, no gate state touched, no market claim made.**
+**Last Updated:** 2026-09-12 22:1x ET Sat · **LIGHT write-back** after the 16:2x STANDARD closeout, LAPTOP `WilliePOwen`, Opus 5, session `prome-cg`. Will's lane after closeout: the CODEX boot review → **WQ-239 legs ①+② and WQ-240 shipped**. Markets CLOSED. **$0 moved, no gate state touched, no market claim made.**
 **This file carries what no generator carries. Registered rows are POINTERS here, never restatements (WQ-232).**
 
 ## ★ NEXT SESSION — START HERE (Sun 9/13)
+🔴 **THE CLOSEOUT PROCEDURE CHANGED TONIGHT AND THE NEXT CLOSEOUT IS ITS FIRST FULL LIVE RUN (WQ-240).** ⛔ **Do not run closeout from memory** — the order changed, not just the wording. `PROME/CLOSEOUT.md` is now the routine only (12 numbered steps); conditional procedures moved to **`PROME/CLOSEOUT_PROCEDURES.md`**. Three things are new and none of them existed this morning:
+- **Generation (sources AND renders) is step 7, before the freeze.** Renders write tracked files.
+- **Freeze → audit → mark:** `argus_scope.py --record-review` writes `FROZEN`; only `--mark-reviewed` writes `REVIEWED`, and the gate BLOCKS a merely-FROZEN candidate at `--tier standard`.
+- **Commit → VERIFY → push**, in that order. ⛔ **`commit_check … --stage --push` is forbidden at step 10** — the push must wait on `--verify-review --ref HEAD --paths <exact paths>` returning rc 0.
+**Pass `--tier` to the gate.** Omitting it silently does NOT enforce the review requirement; the gate now says so in its own line. ⚠️ The tier is **self-declared** — no instrument knows what tier a session ran. That is the surviving limit.
+⚠️ **Running the full test suite from the repo root DIRTIES the candidate** (`test_heartbeat_projection` writes the live `dashboard_build.json` with `ok:false`). Restore it before freezing, or freeze after testing.
+
 ★ **THE NEXT BOOT IS THE FIRST ONE UNDER THE NEW INTERRUPT CONTRACT.** BOOT.md step 8 now says: report urgent obligations + a ranked owed digest, then **CONTINUE** — ask only when Will's **ANSWER** is necessary for the next action. **Registered at DOCKET L363 as an acceptance run** — the rule is INSTALLED + TESTED and has never been lived. ⛔ **Its failure direction is silent UNDER-asking** (PROME picks its own next action AND applies the test), so notice anything you surface that should have been asked.
 
 **Registered NOWHERE — this file is the only carrier:**
