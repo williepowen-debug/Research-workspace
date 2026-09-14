@@ -2772,3 +2772,13 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-14T18:02:18Z	SIG-W-20260914-016	TERRY	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
 2026-09-14T18:02:18Z	SIG-W-20260914-016	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
 2026-09-14T18:02:18Z	SIG-W-20260914-016	CARL	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T18:04:01Z	NOTE-2026-09-14-jizan-capacity-firms-contrast	FALCON	info	claude-code	NOTE	AGENTS/FALCON/inbox/WALTER/2026-09-14-NOTE-jizan-capacity-and-a-model-FIRMS-citation.md	written_not_delivered_pending_push	note - capacity figure + ADD#15 scope clarification
+2026-09-14T18:04:14Z	SIG-W-20260914-017	LABOR	action	claude-code	ROUTINE	AGENTS/LABOR/inbox/WALTER/SIG-W-20260914-017.md	written_not_delivered_pending_push	
+2026-09-14T18:04:14Z	SIG-W-20260914-017	CARL	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T18:04:14Z	SIG-W-20260914-017	MARCO	info	claude-code	ROUTINE	AGENTS/MARCO/inbox/WALTER/SIG-W-20260914-017.md	written_not_delivered_pending_push	
+2026-09-14T18:04:14Z	SIG-W-20260914-017	OTTO	info	claude-code	ROUTINE	AGENTS/OTTO/inbox/WALTER/SIG-W-20260914-017.md	written_not_delivered_pending_push	
+2026-09-14T18:04:14Z	SIG-W-20260914-017	RED	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T18:04:14Z	SIG-W-20260914-017	BOND	info	claude-code	ROUTINE	AGENTS/BOND/inbox/WALTER/SIG-W-20260914-017.md	written_not_delivered_pending_push	
+2026-09-14T18:04:14Z	SIG-W-20260914-017	REGINALD	info	claude-code	ROUTINE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260914-017.md	written_not_delivered_pending_push	
+2026-09-14T18:04:14Z	SIG-W-20260914-017	TERRY	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T18:04:14Z	SIG-W-20260914-017	PROME	info	claude-code	ROUTINE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
