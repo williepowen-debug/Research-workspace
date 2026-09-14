@@ -78,6 +78,8 @@ Distinct from the boundary-trigger CARL-side rule under "Iran-cluster CARL-info 
 >
 > 🔑 **THE ROOT IS NOT A WRONG BASIS — IT IS AN ABSENT ONE. Neither letter names a contract month, and #8's letter is the bare string `Brent 3:2:1 crack > $50/bbl`.** **These rows were Will-signed-off 2026-05-08 on a specification that is silent on the one parameter that decides the grade.** ⇒ ⛔ **NOT re-specced here. A Will-signed threshold is not WALTER's to change** (RULE 8: structural changes go to Will as a proposal FIRST), and the desk that would benefit from choosing the basis should not choose it — the same reasoning HENRY gave for refusing to re-spec `HEN-46`.
 >
+> 📌 **WALTER'S RECOMMENDATION TO WILL (asked for, 2026-09-14 22:34 ET) — DO NOT PICK A MONTH YET; settle first whether the ~\$3/month step is a CALENDAR ARTIFACT or a REAL SEASONAL, because the two answers imply OPPOSITE fixes. Blocker: it needs EXPIRED-contract history, which our source drops. Full reasoning + declared bias: `../outbox/2026-09-14_boundary-6-8-month-basis-RECOMMENDATION-to-Will.md`. DECISION PENDING.**
+>
 > ✅ **INTERIM RULE, AND IT IS DELIBERATELY *NOT* A SUPPRESSION: IF #6 OR #8 CROSSES, DISPATCH IT AND ATTACH THE ROLL DECOMPOSITION** — the crossing level with its contract month, how much of the move the last roll step(s) contributed, and the residual. ⛔ **DO NOT withhold the dispatch pending a roll check.** **Muting a noisy trigger trades loud-and-safe for silent-and-certifying, and a real crack collapse would arrive looking exactly like the artifact** (`[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`). **Fire, and say what share of the fire was the calendar.**
 
 ### Cadence convention (locked)
