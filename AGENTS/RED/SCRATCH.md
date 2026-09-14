@@ -85,3 +85,14 @@ Folded VERBATIM, 15 blocks, crc-stamped → [`reports/2026-09-14_S45_status_rota
 
 **RE-TRIGGER (rule 7 — a remedy leaves a re-trigger, never a leanness claim):**
 > **STATUS.md rotated 2026-09-14 to 22,414 B = 68.9% of budget. Re-check size at ANY append, or on 2026-09-21, whichever is first.** Rule 5 says rotation RESTARTS at ≥75% (24,412 B) — that is only **1,998 B** away, and this session alone added more than that to the file twice.
+
+### ⚠️ ADDENDUM-3 — a relay drift of mine, corrected by PROME, and the harder variant of ML-RED-249
+
+**① RELAY DRIFT (ML-RED-250).** DAEDALUS wrote *"Instrument fix **proposed in the row, NOT BUILT TODAY** … that's mine to build."* **I relayed it to PROME as *"DAEDALUS is building the instrument fix."*** One verb aspect, two different worlds — one says an instrument is in flight, the other says a row is waiting for someone to start. PROME caught it and registered **DAEDALUS's** formulation in **DOCKET L374**, so nothing downstream carries it. ⚠️ **The tell I missed: I was relaying a peer FAVOURABLY** — crediting DAEDALUS with the best idea of the day — **and applied none of the scrutiny I'd have applied to a claim I was disputing.** `[[finding_asymmetric_rigor_counterparty_claims]]` (RELAYING IS ASSERTING) is a HELD-HOT line in my own index and I did it anyway. **Rule: carry the peer's TENSE, and prefer their sentence verbatim over a compression — compression is where aspect is lost.**
+
+**② PROME's variant is harder than mine and I should not generalise from my own (ML-RED-251).** Mine rested on a **false factual premise** (*"the weights would cite nothing"*), so it was refutable — I checked it and it died. **PROME's reason was NOT false: it described the remaining work accurately as *"an editing pass, not a measurement"* — cheap by its own words — and deferred it anyway.** The metric did not need to supply a wrong reason, only a **frame** in which a correct description of cheap work read as reasonable to postpone. **That is the more common form precisely because there is nothing to catch.** The only available test is not *"is my reason true?"* but **_"would I accept this reason from another desk about work this cheap?"_**
+
+**③ n=3 in one day on one canon — registered as DOCKET L374 for the 9/19 sitting**, with DAEDALUS's diagnosis as the finding and an explicit guard: ⛔ **do not close it by fixing the three files.** All three desks have now rotated (RED 68.9% · DAEDALUS 69.8% · PROME 63.4%); closing on the instances would be hand-fixing named rows instead of the class. **Not RED's row to close.**
+
+**Not mine, recorded so I don't chase it:** the gamma board expiring at today's close is **HENRY's**.
+
