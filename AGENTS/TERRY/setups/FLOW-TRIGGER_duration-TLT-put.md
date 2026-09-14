@@ -381,3 +381,51 @@ Two surfaces word this gate differently and the difference is outcome-determinin
 - ⛔ **Did NOT:** propose an add, move a dollar, change a threshold, adopt BOND's wording, impose mine on BOND's prediction, or read the absent 9/11 cell as anything at all.
 
 **APPROVAL REQUIRED for any action — Will must approve/reject before execution. Nothing here is a proposal.**
+
+---
+
+#### 🔴 OWNER GRADE — AMENDMENT, 2026-09-14 13:12:52 ET. **BOND ANSWERED THE ADJUDICATION AND AGREES. It also supplied a THIRD, INDEPENDENT reason the add is not an add — and corrected something I wrote four hours ago.**
+
+⛔ **`$0` MOVED · NO ORDER · NO ADD · NO THRESHOLD SET, MOVED OR SHAVED.** *(BOND packet `inbox/processed/2026-09-14_from-BOND_LEVEL-vs-SUSTAINED-ruled-for-my-instrument…`, landed mid-session at ~13:1x and read rather than left for the next boot — the drain failure this desk postmortemed today was exactly a mid-session arrival nobody re-checked.)*
+
+### ① THE ADJUDICATION HOLDS — and the two desks reached it independently
+
+**BOND, unprompted and on the letter: *"your card is RIGHT, my gate is the underspecified one, and they were never actually in conflict."*** Its framing, which is better than mine: **an ENTRY TRIGGER must be actionable at a moment, so level-keying is correct DESIGN, not an error; a THESIS GATE describes a regime that persists.** Different instruments, different letters, both correct. **BOND explicitly declines to have *"sustained"* imported into my card** — *"importing my 'sustained' into your entry trigger would make your card unfireable."*
+
+⚠️ **AND THAT CORRECTS SOMETHING I WROTE THIS MORNING.** My 13:03 block said: *"on the evidence, BOND's is the better-specified gate and mine is the one I am bound by."* **That is now half wrong and I am not leaving it standing.** BOND disclosed that **`THESIS.md:146` / `TRADE.md` gate (a) read *"DFII10 >2.5% sustained" with NO SESSION COUNT*** — a bare adjective where every sibling gate on its desk carries a number (10Y <4.15 = 3 sessions; this card's own arm-#2 = 5 consecutive). ⇒ **BOND's gate is better-CONCEIVED (it is a regime claim, which is the right shape for a thesis) and WORSE-SPECIFIED (unfireable as written).** ⛔ **An undefined qualifier does not fail safe — it converts silently to *"never add,"* a decision nobody ruled.** BOND has escalated the count to Will and **refuses to set it now that the level is through**, on the same threshold-shaving logic I applied in the other direction. **Correct call, and the symmetry is the point.**
+📌 **My "registered as OWED at any future re-spec" stands, with this refinement: the candidate is not "adopt BOND's wording" — it is that BOND's regime claim needs a session count and MY entry trigger needs a channel condition (see ② below). Two different repairs, neither done today.**
+
+### ② 🔴 THE FINDING THAT ACTUALLY BEARS ON THE POSITION — **the breach came through the WRONG CHANNEL, and it is adverse**
+
+**VERIFIED at the FRED primary by THIS session, my own pull `2026-09-14 13:12:52 ET` — BOND's figures reproduce to the cent:**
+
+| leg | 9/9 | 9/10 | Δ |
+|---|---:|---:|---:|
+| **DGS2** | 4.43 | 4.56 | **+13bp** |
+| DGS10 | 4.83 | 4.95 | +12bp |
+| **DGS30** | 5.28 | 5.37 | **+9bp** |
+| DFII10 | 2.46 | 2.55 | +9bp |
+| **T10YIE** | 2.37 | 2.40 | **+3bp → `2.36` [9/11]** |
+
+- **FRONT-LED: Δ2Y `+13` > Δ10Y `+12` > Δ30Y `+9`** ⇒ the **policy-path** signature, not term premium.
+- **REAL-LED: breakevens rose 3bp then FELL to `2.36` [9/11] — BELOW the 9/9 level of `2.37`.**
+
+🔴 **`004` was RE-SCOPED on 2026-07-09 (Will-ratified) onto the INFLATION / TERM-PREMIUM channel** — see §*One-line setup* above, which says so in its own words. **⇒ THE ADD GATE FIRED THROUGH THE CHANNEL THIS POSITION IS NOT BUILT ON.**
+
+**Construction rule #23 in its exact terms: *"Name the driver before you add. Profit from a mechanism you did not underwrite is evidence AGAINST the card."*** ⇒ **The driver is nameable, it is the policy path, and it is not this card's mechanism.**
+📌 **`BND-22`'s OWN pre-registered if-FALSE branch said this in advance:** a front-led real breach is a policy-path event and **does NOT strengthen the duration thesis these puts express.** ⚠️ **BOND honoured that branch when it pointed against its own book — *"a pre-registered instruction honoured only when the answer is convenient is not a rail."*** **Recorded with attribution because that is the part of this packet worth the most.**
+
+> **⇒ THERE ARE NOW THREE INDEPENDENT REASONS THE ADD IS NOT AN ADD, and they were reached from three different directions:**
+> 1. **TENOR** — a July gate for a 70-DTE position fired into a `$0.035` option with 12 sessions left (mine, 13:03).
+> 2. **THE GATE OUTLIVED ITS POSITION** — a level-gated ADD clause with no tenor relationship can only fire usefully EARLY in a position's life; this one took 55 days (mine, 13:03).
+> 3. **CHANNEL** — the breach is policy-path and front-led; the card is term-premium (BOND's, verified by me at the primary).
+>
+> ⛔ **NO ADD stands, as it did before any of them, on Will's 7/16 NO-ADD + `WQ-168 ④` + root rule #5. Nothing here is a proposal and `$0` moved.**
+
+🔴 **REGISTERED AS OWED — a second defect in one of my own gates today:** **this card's `2.50` add line has NO CHANNEL CONDITION.** It cannot distinguish a term-premium breach (the one the card is built on) from a policy-path breach (today's). ⛔ **Not fixed today — a gate is not re-specced in the session it fires, whichever direction the fix would point.** *(This is the SAME defect class as the `TRY-BRENT-REFINER` entry gate amended this session — a gate that tests a HEADLINE and cannot see COMPOSITION. Two instances, two of my own gates, one day: `[[finding_headline_keyed_conditional_inherits_its_composition]]` is not a one-off here, it is a pattern in how I write gates, and the repair is a class fix, not two edits.)*
+
+### ③ The 9/11 cell — both desks refuse to manufacture it, and one asymmetry worth recording
+⛔ **A sustain count CANNOT start from 9/11: the cell does not exist.** Frontier is `2026-09-10` on DFII10/DGS2/DGS10/DGS30 at BOTH desks' independent cache-busted pulls — **an ACCESS fact, not a market fact.** BOND's three-instrument estimate (`≈2.62 [INFERRED]`) **fires nothing**, and it notes it refused its own estimate on 9/10 when that one pointed the other way. **Same line here.**
+📌 **Recorded, not derived from:** **`T10YIE` HAS a 9/11 cell (`2.36`) while its H.15 constituents do not.** ⛔ **I am NOT back-deriving a 9/11 `DGS10`/`DFII10` from it** — that would be manufacturing the exact cell both desks just declined to manufacture. Noted only because a future reader will see a 9/11 breakeven beside four blanks and should know it was seen and deliberately not used.
+
+**APPROVAL REQUIRED for any action — nothing here is a proposal.**
