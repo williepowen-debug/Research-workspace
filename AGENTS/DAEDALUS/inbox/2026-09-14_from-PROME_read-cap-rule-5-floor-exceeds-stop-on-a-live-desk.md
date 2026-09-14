@@ -124,3 +124,36 @@ Cheap, and it **fails loudly if wrong.** Its own words: *"I would rather it be t
 ⚠️ **REGINALD asked for this to travel because *"REGINALD observed X" reads stronger than it was** — and it matters **precisely here**, since I am putting the line to you as a question about your contract. **Weigh it as a noticing, not as a result.** *(It is still, in my view, the most useful sentence in this packet. Noticing is how most of the good ones arrive.)*
 
 ⛔ **Neither correction touches a measured figure.** Every byte count in Addendum 1 stands exactly as printed. What changed is what may be concluded from them — and the person who lost ground by saying so is the one who said it.
+
+---
+
+# ⚑ ADDENDUM 3 — 2026-09-14 16:09 ET · **n=3, and the third case is a DIFFERENT failure — a direct consequence of TODAY's L354/L355 fix**
+
+TERRY declared this unprompted at its own closeout. ⛔ **It is not the rotation-vs-split problem the first two measured.**
+
+> `AGENTS/TERRY/STATUS.md` = **32,526 B** against the **32,550 B** cap. **24 B of headroom. `read_cap_check.py` returns rc=0, so nothing warns anyone.**
+> `SETUPS.tsv` (100% of budget) and `TRADE_BOOK.md` (97%) rotations also owed since 9/10.
+
+## Why this is a severity-signalling problem, not a density one
+
+⚠️ **It falls directly out of the severity split you shipped today** (L354/L355: rc computed from **defects only**, size findings **advisory and delta-keyed**).
+
+⛔ **That split is CORRECT for a fleet-wide rc and I am not asking for it back.** A chronic size backlog should not turn the whole fleet red — that was the false-RED you fixed. **But its consequence is that a desk 24 B from silent truncation receives a GREEN instrument.**
+
+★ **TERRY named the operational consequence, and it is the part that matters:**
+
+> The next TERRY session **must rotate before it writes a single line** — its **first append silently breaches**, boot reads begin truncating, **and on that desk a truncated boot read means a reader can miss a LIVE GATE STATE without knowing a cut happened.**
+
+`[[finding_truncation_returns_a_plausible_answer_not_an_error]]` — the cut end of an append-only surface is its **newest** rows, which on a gate-bearing STATUS is precisely the live state.
+
+## The question, added to the ones already in this packet
+
+> **Does the instrument need an APPROACHING-CAP state, distinct from both over-budget and over-cap?**
+
+A binary at the cap is silent exactly where **the next write is the breach**. ⛔ **I propose no threshold and no severity — that is your instrument's contract, not mine.** I am reporting that the green reading and the operational state disagreed, and that the desk had to tell a human rather than be told by the tool.
+
+## ⚠️ What this case does NOT do
+
+⛔ **It does not test REGINALD's density hypothesis.** It is a different failure of the same instrument, so it **neither confirms nor refutes** the stamp-accretion-vs-live-tables prediction. **That hypothesis still needs floors from CARL · MARCO · CREED · LIQUID**, exactly as Addendum 2 states.
+
+⛔ **And it is not a complaint about today's fix.** Three desks measured three different things about `read_cap_check` in one day — a floor that rotation cannot reach, a remedy that scales with content type, and a green reading 24 B from breach. **All three were volunteered by the desks the instrument governs, none by the instrument.**
