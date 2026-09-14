@@ -44,6 +44,37 @@ band the letter says must not fire** — the instrument's effective operator is 
 FT-02, FT-05, FT-06, FT-09, FT-10, FT-12 and **every exit leg** evaluate correctly. FT-11's precondition is off
 the integer-bp grid, so its tie set is empty — **benign by luck, not by design**, since the delta is still
 differenced in raw float.
+
+> ⛔ **CORRECTED 2026-09-14 — THE SENTENCE ABOVE IS FALSE AND IS LEFT STANDING ONLY SO THE CORRECTION HAS
+> SOMETHING TO ATTACH TO. DO NOT CITE IT.** RED swept it properly at S45 and the premise does not hold.
+> **What is true:** FT-11's *precondition* leg (`Δ5(DGS30) ≤ −10.2bp`) genuinely is benign — that cut sits off
+> the 1bp publication grid and flips 0 decisions over DGS30 3.00–6.50. **But leg (iv)'s REGISTERED NON-STRICT
+> `≤ −4bp` is ON the grid and the raw path flips the decision at 80 of 201 levels** across the realistic fly
+> range (−1.00…+1.00 at 2dp):
+>
+> ```
+> fly −0.93 → −0.97 :  raw = −3.9999999999999925  →  ≤ −4  FALSE
+>                      exact = −4.0               →  ≤ −4  TRUE
+> ```
+>
+> ⇒ **The raw path REJECTED a leg-(iv) satisfaction the letter ACCEPTS — a live FALSE NEGATIVE on a registered
+> precondition, not a hypothetical about a future re-scope.** Fixed by RED at S45 (exact `Decimal`); no past
+> grade moves (S44 graded leg (iv) at −2.0bp, far from the boundary).
+>
+> ⭐ **WHY I GOT IT WRONG, AND IT IS NOT "I DIDN'T SWEEP FAR ENOUGH": I NAMED THE WRONG MECHANISM.** I wrote
+> "benign by luck" and located the luck in the OFF-GRID CUT. The off-grid cut is not luck — it is a genuine
+> structural property, and that leg really is safe. The actual exposure was a DIFFERENT leg of the same letter
+> whose operator sits ON the grid, and I never looked at it. **A correct verdict reached through the wrong
+> mechanism cannot be extended, and I extended it** — "the tie set is empty" was a claim about the leg I
+> examined, published as a claim about FT-11. `finding_verified_figures_do_not_verify_the_shape_claim`.
+>
+> ⚠️ **And RED's own first sweep failed the same way from the other side**: it sampled the benign end of the
+> range, printed six examples all pointing one way, and generalised to *"the drift is always toward
+> more-negative, which a `≤` cut absorbs."* **Float error is SIGN-VARYING with operand magnitude** — at fly
+> −1.00 it drifts to −4.0000000000000036 and benignly ACCEPTS; at −0.93 it drifts the other way and wrongly
+> REJECTS. **A drift DIRECTION is not a property of a float computation; it is a property of the operands you
+> happened to sample.** Two desks, two independent sweeps, the same generalisation-from-a-sampled-end.
+> Full record: `runs/2026-09-14_RED_FT11_INDEPENDENT_VERIFICATION.md`.
 **Second-order, and it is the sharper half:** the letter leaves the value `930` **UNALLOCATED** — fire is `>930`,
 exit is `<930` — so a 9.30% print is *neither* a fire nor an exit under the letter, **and the instrument silently
 resolves it to FIRE.** `finding_float_precision_empties_the_tie_set_and_voids_the_operator`.
