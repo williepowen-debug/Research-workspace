@@ -123,3 +123,12 @@
 **Corollary — the tell that saved both of us:** LIQUID caught its error by **extending the measurement** rather than extrapolating from the first read. I caught mine by **running the simulation on a correction that AGREED with me.** ⚠️ **I had just been told by the counterparty that my figure "stands unmodified." A counterparty endorsement is the weakest possible check on your own number, because it removes the only person likely to look.** `[[finding_asymmetric_rigor_counterparty_claims]]` — the rigour must point INWARD hardest exactly when the news is good.
 
 *(Rotated from `LESSONS.md` 2026-09-14 under the P1 read-cap rule; the self-contained heading stays in LESSONS.md § SETTLED RULES and still binds.)*
+
+---
+
+### [Statistics] — A Detection Band and a Near-Null Band Are Not Two Outcomes of One Test
+**Pattern (2026-08-28, LIQUID's T3 finding, verified independently here):** T3's two bands looked symmetric and cost **n=38** vs **n=348** — a **~9× asymmetry** at the same α and power. **You cannot demonstrate ABSENCE with the sample that detects PRESENCE.** At the registered n=20 the CI was **[−0.067, +0.722]**, which **contains both bands**, so the test could not separate its own two outcomes at *any* observed value.
+**Rule:** whenever a spec has a "large ⇒ X / small ⇒ Y" pair, **price both legs separately before registering.** If the null-side leg needs a sample you will never have, it is a **dead band — dead by UNREACHABILITY**, and a row-counting audit cannot see it because the cell is populated and the threshold is sane.
+**And the trap on the repair:** the obvious fix is an equivalence test (TOST) at a named margin — but **run its margin table before adopting it.** For T3, a margin that genuinely supports "the shared factor is the dollar" (≤0.20) costs **155+** sessions, while a margin reachable alongside the detection leg (0.40 → n=39) sits **0.05 from the detection threshold** — the equivalence and detection regions would nearly touch. **Computing the repair is what proved the repair wrong**; the honest answer was to go one-sided and stop claiming the null.
+
+*(Rotated from `LESSONS.md` 2026-09-14 under the P1 read-cap rule; the self-contained heading stays in LESSONS.md § SETTLED RULES and still binds.)*
