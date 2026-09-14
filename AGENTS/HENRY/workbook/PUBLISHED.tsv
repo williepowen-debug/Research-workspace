@@ -36,3 +36,8 @@ gamma_flip_14d	7671	2026-09-13	cboe 4165 contracts
 net_gex_14d_Bn	-16.1	2026-09-13	$B per 1%
 gamma_flip_35d_STALE	7695	2026-09-04	⛔ SUPERSEDED 2026-09-13 by the 7673 board measured on the 9/11 close -- this marker is closed, do not cite
 ulsd_crack_close_peak	109.93	2026-09-10	$/bbl CLOSE basis HO=Fx42-CL=F -- the episode peak; SUPERSEDES the 110.87 [9/11 overnight] figure, which mixed an overnight bar against a 2022 CLOSE. 2022 peak 110.33 [2022-04-28 close] NOT exceeded
+gamma_flip_35d	7681	2026-09-14	cboe 8318 contracts
+net_gex_35d_Bn	-40.4	2026-09-14	$B per 1%
+ulsd_crack_usd_bbl	98.34	2026-09-14	$/bbl CLOSE basis HO=F*42-CL=F (4.7526*42 - 101.35). F1 NOT FIRED (<95 stand-down, buffer $3.34; <90.16 dead, buffer $8.18). -$9.90 / -9.1% vs the 108.24 [9/11] close. Bar taken post-14:30 ET settle; contract trades to 17:00 so cent-level drift possible -- grade robust to it.
+ho_front_month_usd_gal	4.7526	2026-09-14	$/gal HO=F continuous front-month CLOSE. Q3-to-date mean $4.1712; assumption-window (7/17-7/23) mean $4.1601 => +0.3%. As of the 9/11 close the Q3TD mean was $4.1598 = -0.0%.
+ho_alltime_max_close	5.1354	2022-04-28	$/gal HO=F continuous front-month -- THE ALL-TIME CLOSE RECORD, NOT EXCEEDED in Sep-2026 (2026 max close $5.0575 [9/10], short 1.5%). All-time intraday max $5.8595 [2022-04-29] vs 2026 max high $5.1664 [9/11], short 11.8%. SETTLES SIG-W-20260910-020: Bloomberg's "Highest Since 2022" is CORRECT; the "busted the record" claim is FALSE on both consistent bases.

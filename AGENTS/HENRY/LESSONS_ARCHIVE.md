@@ -105,3 +105,10 @@
 
 *Last reviewed: 2026-07-31*
 
+---
+
+### [Authority] — When Your Own Instrument Disagrees With a Publisher of Record, Deferring SILENTLY Propagates the Error
+**Pattern (2026-08-28, WALTER `SIG-W-20260828-015`):** my `MARKET_DATA.tsv` 8/26 Brent cell took WALTER's published $86.36 over my own boot bar. **I did everything the process asks:** I pulled my own bar, found it did **not** reconcile, **wrote the disagreement into the cell**, marked my own reading **PROVISIONAL**, and cited the 8/20 precedent **by name**. WALTER's number was wrong ($87.84), and **it propagated through me anyway.**
+**Rule:** ⛔ **A stronger disclaimer is NOT the fix, and reaching for one is the trap** — the disclaimer was present, the precedent was cited, the discrepancy was measured, and the deference was explicit and reasoned. There is no note strong enough to fix correctly deferring to a wrong authority. **The fix is a ROUTE, not a NOTE:** when your instrument disagrees with a publisher of record, ① carry **both** figures with **both bases named** in the cell, and ② **route the disagreement back to the publisher the SAME session.** A measured discrepancy that stays inside your own file is a caught error you chose not to spend. `[[finding_owner_of_record_means_authoritative_not_correct]]`
+
+*(Rotated from `LESSONS.md` 2026-09-14 under the P1 read-cap rule; the self-contained heading stays in LESSONS.md § SETTLED RULES and still binds.)*
