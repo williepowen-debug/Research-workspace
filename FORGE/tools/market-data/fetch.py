@@ -657,10 +657,22 @@ def contract_identity(metadata):
             return None, f"name-ambiguous:{sorted(plausible)!r} in {name!r}"
         mon, yr4 = plausible.pop()
         return f"{mon.capitalize()} {yr4}", f"vendor-{field}"
-    nm = str(metadata.get("shortName") or metadata.get("longName") or "")
+    sn = str(metadata.get("shortName") or "")
+    ln = str(metadata.get("longName") or "")
+    nm = sn or ln
     itype = metadata.get("instrumentType")
-    # 30 chars is the observed truncation width; say so rather than just "no month".
-    if len(nm) >= 30:
+    # ⛔ THE WIDTH IS 31, NOT 30. The first version asserted "30" in a comment, in
+    # the acceptance doc, and in the >= test, while the code's OWN output said
+    # `name-truncated-at-31`. Measured: BZ=F/ZW=F/ZB=F/ZQ=F all cut at exactly 31.
+    # ⛔ AND LENGTH ALONE DOES NOT ESTABLISH TRUNCATION -- calling a long-but-
+    # COMPLETE monthless name "truncated" asserts vendor behaviour that did not
+    # occur. Where longName prefix-extends shortName the cut is PROVEN (BZ=F:
+    # 'Brent Crude Oil Last Day Financ' -> '...Financial Futures'); otherwise it is
+    # inferred from width and the basis says so.
+    _WIDTH = 31
+    if len(nm) >= _WIDTH:
+        proven = bool(ln and len(ln) > len(sn) and ln.startswith(sn))
+        how = "confirmed-by-longName" if proven else "inferred-from-width"
         # ⛔ BUT FIRST: the year is what the vendor cut, and the defect being
         # repaired is MONTH desync. Withholding a month that is legibly present
         # discards the answer we actually have. Live cases: ZW=F 'Chicago SRW
@@ -671,8 +683,8 @@ def contract_identity(metadata):
         months = {t.lower()[:3] for t in tail}
         if len(months) == 1:
             return (f"{months.pop().capitalize()} ????",
-                    f"vendor-{'shortName'}-truncated-year:{nm!r}")
-        return None, f"name-truncated-at-{len(nm)}:{nm!r}"
+                    f"vendor-name-cut-{how}-year-missing:{nm!r}")
+        return None, f"name-cut-{how}-at-{len(nm)}:{nm!r}"
     if not nm:
         return None, f"vendor-supplied-no-name (instrumentType={itype!r})"
     return None, f"name-carries-no-month:{nm!r} (instrumentType={itype!r})"

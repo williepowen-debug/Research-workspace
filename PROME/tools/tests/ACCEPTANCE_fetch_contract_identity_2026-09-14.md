@@ -34,7 +34,7 @@
 | `NG=F` | 2.883 | `Natural Gas Oct 26` | ✅ October |
 | `GC=F` | 4335.4 | `Gold Dec 26` | ✅ December |
 | `ZC=F` | 534.0 | `Corn Futures,Dec-2026` | ✅ December — ⚠️ **a second, different format** |
-| **`BZ=F`** | **106.36** | **`Brent Crude Oil Last Day Financ`** | ⛔ **NONE — truncated at 30 chars and the MONTH is what got cut** |
+| **`BZ=F`** | **106.36** | **`Brent Crude Oil Last Day Financ`** | ⛔ **NONE — cut at 31 chars and the MONTH is what got cut** *(⚠️ this row said **30** in three places while the code's own output said 31 — corrected at round 4, ⚠️12)* |
 
 ⇒ **`CL=F` is October while `HO=F` and `RB=F` are November — the desync, directly visible.** That is the finding the tool has been unable to state.
 
@@ -102,9 +102,26 @@ A read-only reviewer was given the diff and these conditions and told to devise 
 
 **Round-3 verification:** symbol-mismatch guard blocks on mismatch and passes on match · `_dated_symbol` correct for `CL=F`→`CLV26`, `HO=F`→`HOX26`, `GC=F`→`GCZ26`, and returns None rather than guessing on a truncated-year label · `.CMX`/`.CBT`/`.ICE`/bare-dated now recognised, `AAPL`/`SPY` still not · full 10-case name regression green with no regressions from rounds 1–2. **Live:** `ZW=F Dec ????` · `CL=F Oct 2026 (CLV26)` · `HO=F Nov 2026 (HOX26)` · `GC=F Dec 2026 (GCZ26)` · `BZ=F` UNKNOWN.
 
+## ✅ REVIEW ROUND 4, 19:5x — **REVIEW CLOSED. Thirteen findings total: ❌1–❌5 and ⚠️6–⚠️13.**
+
+**⚠️12 — I asserted "30 chars" three times while the code's own output said 31, and I called length alone "truncation".** Measured: `BZ=F`, `ZW=F`, `ZB=F`, `ZQ=F` all cut at **exactly 31**. ⛔ Worse than the wrong figure: `len >= 30` labelled any long monthless name *"truncated"*, **asserting vendor behaviour that did not occur.** **FIXED:** the figure is corrected in code and in this file, and truncation is now **proven where it can be** — `BZ=F`'s `longName` prefix-extends its `shortName` (`'…Last Day Financ'` → `'…Last Day Financial Futures'`), which is direct evidence — and labelled `inferred-from-width` where it cannot. The basis string now says which.
+
+**⚠️13 — already closed before it was raised, and I am recording that rather than "fixing" it.** The reviewer flagged the WQ-229 completion states as all `_pending_`. They were filled at round 1 and updated each round since; it was reading its round-1 snapshot. ⛔ Its standing caveat — *"❌1 and ❌5 were still open at my last information"* — is **superseded**: both were fixed at rounds 1 and 2 respectively, and ❌5's fix went to the **mechanism** (the regex can no longer match inside a word) rather than to its output.
+
+### §SOUND — what the reviewer could not break
+
+- **The `.NYM` retry cannot silently substitute a different contract.** Attacked across four wrong-exchange bare roots (`ZCZ26`, `SIZ26`, `GCZ26`, `ESZ26`): every one raises on **both** the bare and the `.NYM` form, so the vendor **refuses rather than nearest-matches**. This is the one it tried hardest to break and could not — safe by observation then, and safe by construction now that ⚠️9's `md['symbol']` check is wired.
+- **Condition 3 holds inside `contract_identity`** — the function contains no symbol parsing at all, and the two helpers that do parse symbols never assert a month.
+
+### ⚠️ THE RESIDUAL, in the reviewer's terms and kept rather than smoothed over
+
+Condition 3 is held **where identity is decided** but **not for renderability**: `_looks_like_future` and `_is_bare_dated_contract` are symbol-string tests that decide whether a futures row **speaks at all**. ⇒ **A symbol neither the vendor labels `FUTURE` nor the string-matcher recognises goes SILENT rather than UNKNOWN** — which is precisely why ❌2 and ⚠️7 converged on the same blank row. Narrowed at round 3 by deriving futures-ness from the vendor at fetch time, so the string test is now only a fallback for pre-fix cache entries; **not eliminated.** Documented, not closed.
+
+**The one Brent residual the reviewer named:** because the vendor month is UNKNOWN there, a `BZF27` → `BZF27.NYM` substitution had no independent cross-check from the output alone. ⚠️9's wiring closes it.
+
 ## Completion states — never merged
 
 - **IMPLEMENTED:** ✅ yes, including the three review fixes.
 - **TESTED (author's own):** ✅ all eight conditions, plus the reviewer's two counterexamples and the cross-validation above.
-- **INDEPENDENTLY VERIFIED:** ⛔ **NO.** Across three rounds a reader found **five blocking defects and five warnings**; **none of the fixes from any round has been re-reviewed**, and the report is still incomplete (⚠️11 onward outstanding, plus the SOUND section and the clean negatives). **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
-- **STILL UNRESOLVED:** the remainder of the review · re-review of the three fixes · `contract_probe` is unexercised on a root where the control should FAIL (no such case found live, so the refusal branches are reasoned-but-unobserved) · the fail-closed **spread** guard, which belongs in consumers and is not built.
+- **INDEPENDENTLY VERIFIED:** ⛔ **PARTIALLY, AND THE LIMIT IS THE POINT.** The review is **CLOSED** — thirteen findings (❌1–❌5, ⚠️6–⚠️13), all confirmed by PROME at the artifact before fixing, all fixed. **What was independently verified is the ORIGINAL code, and two things the reviewer actively tried to break and could not. NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED** — and round 2 found a blocking defect *inside* a round-1 fix, so the base rate for that is not zero. `[[finding_adoption_is_not_validation]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`. **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
+- **STILL UNRESOLVED:** re-review of the thirteen fixes (**the outstanding item**) · the renderability residual above · `contract_probe` is unexercised on a root where the control should FAIL (no such case found live, so the refusal branches are reasoned-but-unobserved) · the fail-closed **spread** guard, which belongs in consumers and is not built.
