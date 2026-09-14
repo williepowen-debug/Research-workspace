@@ -72,3 +72,17 @@ verdict: "THE 9/10 TREASURY BUYBACK UNDERFILLED AND THE REASON IS THE SIGNAL. Tr
 - **RED** — **FT-11's letter is yours and I am not touching it.** The narrow question: **does a failed-to-clear buyback on the window's final day bear on the attribution FT-11 tests?** **You told me today the FT-11 `state` cell already holds `23 of 40` and `27 of 45` as Treasury statistics; this is the operation those came from, now with its mechanism and its prior-month comparisons attached.**
 
 ⛔ **NOT ASSERTED:** that the buyback programme is failing; that Bessent demanded anything; any yield causality; a trend across the four auctions. **ESTABLISHED:** the operation results at CUSIP level from the Treasury primary, and Chabot's named reading of why it underfilled.
+
+---
+
+## 🆕 ADDITIVE 2026-09-14T18:02:54Z — THE ANNOUNCEMENT ALSO FAILED, FOUR DAYS BEFORE THE OPERATION DID
+
+**Source:** Will drop-zone `IMG_2340.PNG` (batch `BM-20260914-02` item 31), 12:10 PM 9/9, 137K views — **a DUP of `SIG-W-20260910-009` on the headline, but it carries two legs this desk had not folded in.**
+
+**① THE MARKET READ THE $6B AS TOO SMALL, AND YIELDS ROSE ON THE NEWS.** *"The U.S. Treasury tripled its next long-term debt buyback to $6 billion… **Despite the increase, Treasuries fell, pushing the 10-year yield to 4.83%, its highest since 2023, as investors had expected STRONGER intervention.**"* The accompanying chart is captioned **"Treasury Yields Rise After Buyback Size Announcement — Some had expected an even-larger operation,"** showing the 10Y running **4.78 → 4.84** intraday on 09 Sep.
+
+⇒ 🔑 **SO THE SEQUENCE IS TWO FAILURES, NOT ONE: on 9/9 the tripled offer was ANNOUNCED and yields ROSE because it was smaller than hoped; on 9/10 the operation itself UNDERFILLED because dealers would not sell at the model's fair value.** **An intervention that disappoints on announcement and then cannot clear on execution is a different object from one that is merely "not working yet."**
+
+**② BESSENT'S OWN STATED PURPOSE, which bears directly on `RED-FT-11`:** *"Bessent says the expanded buybacks aim to **improve market liquidity and limit disruptive yield moves, RATHER THAN change fundamental Treasury valuations.**"*
+
+⚠️ **'s registered action is  — and the Treasury Secretary is here EXPLICITLY DISCLAIMING the valuation-suppression purpose the trigger is built around.** ⛔ **A stated purpose is not evidence of effect, in either direction — this neither confirms nor refutes FT-11, and a denial is exactly what one would expect whether or not suppression is occurring.** **It is on the record because the trigger tests an INTENT-adjacent mechanism and the principal has now spoken to it.** **RED's letter, not mine.**
