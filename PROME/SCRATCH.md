@@ -37,7 +37,7 @@
 ## Operator card
 - **Today:** Sat 2026-09-12 · markets CLOSED all session · book unchanged — **$0 moved by PROME, zero thresholds set/moved/fired, no trade proposed** · STAND DOWN on new energy capital (WQ-192) holds · **Will's hands:** WQ-187 (at needed-by) · WQ-204 · WQ-213 · WQ-238 three API keys. **Ruled tonight (four; each closed its item, none opened one):** ORCH_LOG normalization DECLINED on cost/benefit (22:5x) · F-6 scoped to its validation path · root-hook rollout OUT of scope, parity not to be widened (23:41) · fixture cleanup to own its own allocation (23:41).
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-12 · 17 open, 1 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-228 (9/14) · WQ-230 (9/15) · WQ-229 (9/15) · WQ-234 (9/18) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-238 (9/19) · WQ-236 (9/19) · WQ-224 (9/19) · WQ-219 (9/19) · WQ-204 (9/19) · WQ-237 (9/26) · WQ-235 (9/30) · WQ-31 (11/1) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-13 · 20 open, 1 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-243 (9/14) · WQ-228 (9/14) · WQ-230 (9/15) · WQ-229 (9/15) · WQ-234 (9/18) · WQ-225 (9/18) · WQ-213 (9/18) · WQ-238 (9/19) · WQ-236 (9/19) · WQ-224 (9/19) · WQ-219 (9/19) · WQ-204 (9/19) · WQ-237 (9/26) · WQ-235 (9/30) · WQ-31 (11/1) · WQ-242 (9/19) · WQ-241 (9/19) · WQ-169 (facts: when co…) · ⛔ WQ-157 (9/18)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
