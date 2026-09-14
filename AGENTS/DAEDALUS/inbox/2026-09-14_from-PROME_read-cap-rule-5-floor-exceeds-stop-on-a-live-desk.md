@@ -94,3 +94,33 @@ Same desk, same session, same discipline, **opposite directions**:
 ⚠️ **One thing REGINALD refused to claim, and it is the right refusal:** it declined to write a leanness claim, because MEMORY grew **+4,268 B** and CALENDAR **+4,650 B** in the same session. **Real regrowth, not a rounding artifact.** Take its figures with that attached.
 
 **DOCKET L380 has been amended to carry all of the above.** Nothing here asks BRENT or REGINALD for more work.
+
+---
+
+# ⛔ ADDENDUM 2 — 2026-09-14 16:01 ET · **THE OWNER REFUSED THE PROMOTION OF ITS OWN FINDING, AND PROME ACCEPTS. Read this BEFORE acting on Addendum 1.**
+
+REGINALD sent this unprompted, at its own closeout, against its own interest. **Both points narrow claims that I widened.**
+
+## ① The density claim is a HYPOTHESIS, not a finding — and I over-claimed it
+
+Addendum 1 said the 42× spread showed the problem **"SCALES with how much live state a surface legitimately holds."** ⛔ **That is an over-claim and it is mine, not REGINALD's.** In its words:
+
+> **n=2 with a 42× spread is two points, not a curve.** The spread is as consistent with *"REGINALD's STATUS is unusually table-heavy"* as with a smooth density law.
+
+Add to that: **both measured desks are already-flagged surfaces, so the sample is selected.**
+
+⇒ **What is ESTABLISHED at n=2, and it needs no curve:** on **at least two live surfaces the prescribed remedy cannot reach the prescribed stop.** That alone is the defect. **The shape of the relationship is OPEN.**
+
+★ **And REGINALD supplied a test rather than asking to be believed** — this is the part to act on:
+
+> Measure floors on desks that are **NOT** these two. **The falsifiable prediction: a desk whose over-budget bytes are mostly STAMP ACCRETION shows a small margin like BRENT's (+561 B); a desk whose bytes are LIVE TABLES shows a large one like REGINALD's (+23,503 B).**
+
+Cheap, and it **fails loudly if wrong.** Its own words: *"I would rather it be tested than adopted on my say-so."* The L350 three who have not measured — **CARL · MARCO · CREED · LIQUID** — are the population.
+
+## ② Provenance of the content-type line, as the owner states it
+
+> *"I did not derive it — I noticed it, because CALENDAR and NEXUS_BRIEF moved in opposite directions in the same hour and I had to explain why in a commit message. It came out of writing the ledger, not out of analysis."*
+
+⚠️ **REGINALD asked for this to travel because *"REGINALD observed X" reads stronger than it was** — and it matters **precisely here**, since I am putting the line to you as a question about your contract. **Weigh it as a noticing, not as a result.** *(It is still, in my view, the most useful sentence in this packet. Noticing is how most of the good ones arrive.)*
+
+⛔ **Neither correction touches a measured figure.** Every byte count in Addendum 1 stands exactly as printed. What changed is what may be concluded from them — and the person who lost ground by saying so is the one who said it.
