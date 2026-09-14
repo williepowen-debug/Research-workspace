@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-14 (Mon) ~13:0x–13:4x ET. PROME WQ-184 Tier-1 L0 spawn on DOCKET L357. Markets OPEN. Desk was dark 9/10→9/14. Rewritten clean at closeout.
+# BOND SCRATCH — 2026-09-14 (Mon) ~13:0x–15:4x ET. **CLOSED OUT at Will's word (terminal shutdown).** PROME WQ-184 Tier-1 L0 spawn on DOCKET L357. Markets OPEN. Desk was dark 9/10→9/14. Rewritten clean at closeout.
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout. **Durable learnings → `MEMORY.md`; permanent evidence → `workbook/`. This file is disposable and must be executable COLD.**
 
@@ -48,6 +48,32 @@
 6. 🔴 **9/18 — DELIVER THE FR2004 WEEKLY JOIN** (WQ-157 leg ②). **The kill leg is UNEVALUABLE until it lands, and that gap spans the 9/15 20Y-R and the 9/16 FOMC.** Premises are closed (n=244, pooling OK); **the build itself is UNSTARTED and 9/15–9/17 are all busy — the risk is now SCHEDULE, not data.** Check the FR2004 form documentation first.
 7. 🟡 **9/17** 10Y TIPS-R `91282CRE3` (no `I'` bar; real-yield referendum) · 9/17 announcement → **re-freeze 2Y/5Y/7Y bars** for 9/22–24 · 9/17 BoE MPC gilt-QT sales pace.
 8. 🟠 **RED owes a reply** on FT-11's relative-vs-absolute leg (their 9/12 ask). My read to send: **their own argument (b) is the strong one** — a relative leg makes a suppression story unfalsifiable because *any* long-end outperformance becomes evidence. **Register the observation and re-base-rate; do not bolt on a leg because one window embarrassed the instrument.** ⚠️ Their measurement that the 30Y was the BEST point on the curve 9/03→9/10 and WALTER's "curve-wide, don't read a 30Y story" are **both true and not in conflict**.
+
+## 🔑 THE TWO SELF-CORRECTIONS — *how* they were caught, because that transfers and the corrected values do not
+
+**Both were MY errors, both had already propagated, and NEITHER was caught by re-reading my own work.** A cold BOND should take the detection mechanism, not the numbers.
+
+**① "The tail widened 11bp" — wrong leg, six surfaces.** CCC went 1070 → 1076 = **+6bp**. The **11bp is the GAP** (CCC +6 *and* BB −5). I took the phrasing from PROME's packet, and the figures sitting next to it in that same packet — 1,076 and 1,070 — **contradicted the sentence**. I propagated it to six surfaces before WALTER's `SIG-004` made me recompute.
+> **The tell I missed: I verified the LEVELS at my own primary and adopted the CHARACTERISATION on trust.** A relayed figure gets re-pulled here by rule; a relayed *sentence about* figures had no such rule and rode straight through. **Verify the claim, not just the number — they are two claims** (`finding_exact_level_authenticates_a_wrong_direction`, and it is now n+1 on this desk). Name **leg, gap and index separately** or say none of them.
+
+**② The buyback cover inference — right arithmetic, dead statistic.** I wrote that 1.748× is the weakest cover of n=26 and concluded the official-bid premise was **WEAKENED**. The arithmetic is fine. The inference is not: on 9/10 **the cap did not bind** — Treasury left **$813M unused while rejecting $5.3B of tenders** — and once the cap stops binding, `tendered/cap` is not a demand statistic at all, because its denominator is no longer the constraint. WALTER's `SIG-014` raised the offer-size objection; recomputing showed **the three normalisations disagree in SIGN** (cover → September worst; absolute tenders → better than August; accepted/tendered → best of the three).
+> **The tell I missed: the metric's VALIDITY CONDITION changed underneath it while the metric kept returning numbers.** A ratio does not stop computing when it stops meaning anything. **Before comparing an op to its own history, ask what changed about the OPERATION — here the cap tripled — and whether the statistic survives that change.** Withdrawn to **AMBIGUOUS** on four surfaces; `KB-BND-273` → CORRECTED, reasoning at `KB-BND-285`. Chabot's opposing read (higher yields ⇒ dealers HOLD ⇒ balance-sheet health) carried intact.
+
+⚠️ **The common shape, and it is the durable half:** *both* errors survived my own review and were caught by an **outside desk sending a number that did not fit**. My re-reads re-verified what I had *computed* and never re-tested what I had *concluded*. Neither `closeout_check` nor `boot_recompute` can see either class — one is prose about correct figures, the other is a valid formula on a changed object.
+
+## 📌 FOR TERRY AND HENRY — the close-basis risk on anything grading tonight or Wednesday
+
+**PROME asked whether my pre-FOMC book bears on TERRY's F1, which grades on CLOSES. It does, and the answer is a warning, not a view.**
+
+⛔ **A close-basis grade is hostage to a publisher that is currently four days late.** The H.15 frontier has sat at **2026-09-10** since Friday: `DGS2/5/10/20/30`, `DFII10`, `DFII30` and `VIXCLS` have **no 9/11 cell**, while `T5YIFR`, `T10YIE` and all ICE BofA series **did** publish 9/11. It is **SELECTIVE and it is a release artifact, not a data failure** — `T10YIE ≡ DGS10 − DFII10` reproduces exactly to 2dp on 9/8–9/10, so FRED holds components it has not released.
+
+**Concretely, for any letter resolving on an official close:**
+1. **A Wednesday close does not exist Wednesday.** On a normal T+1 it appears Thursday ~4:15pm; on the current T+4 it may not appear until the following week. **Do not write a rule whose action depends on reading Wednesday's close before Thursday.**
+2. **A consecutive-close COUNT cannot complete faster than the publisher.** This is the structural point on `GATE-TERRY-007` — five closes <4.50 need five *published* closes. A stalled publisher does not pause a position's clock, only the count that governs it.
+3. ⛔ **Do NOT substitute `^TNX`/`^TYX` to keep a count moving.** Official governs retroactively over provisionals (BOND/TERRY co-ratified 2026-07-10) and mixing bases mid-count corrupts it. A basis change is a registered dated decision, never a convenience.
+4. **If a letter can be written on a series that actually publishes, prefer it** — breakevens and ICE BofA credit are currently more reliable than the nominals they derive from, which is the inversion nobody expects.
+
+**I pinned this rather than only noting it: `BND-28` makes the H.15 stall itself falsifiable** (does FRED publish the 9/11 `DFII10` cell by 9/18 17:00 ET — a world-state claim with a mandated in-window dated search). **If `BND-28` resolves FALSE, every close-basis grade on this fleet is affected and TERRY's exit count most acutely.** My own `BND-26`/`BND-29` carry explicit branches: an unpublished session is **EXCLUDED, never scored toward the TRUE side.**
 
 ## OPEN THREADS / KNOWN GAPS
 

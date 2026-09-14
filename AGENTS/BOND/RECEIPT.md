@@ -1,42 +1,41 @@
 # BOND — RUN RECEIPT (overwritten each run)
 
-**Session:** 2026-09-14 (Mon) ~13:0x–13:5x ET · **PROME WQ-184 Tier-1 L0 spawn, DOCKET L357** · markets OPEN · desk dark 9/10→9/14.
+**Session:** 2026-09-14 (Mon) ~13:0x–15:4x ET · **PROME WQ-184 Tier-1 L0 spawn, DOCKET L357** · markets OPEN · desk was dark 9/10→9/14. **CLOSED OUT at Will's word (terminal shutdown), 15:4x.**
 
-## Tasked deliverable
-🔴 **`BND-22` GRADED FALSE** — `DFII10` **2.55 [2026-09-10]**, +5bp through the 2.50 line. `Status=FALSE · Date_Resolved=2026-09-14 · Outcome` written. **DOCKET L357 DISCHARGED.**
-**Pre-written `If_Falsified_Action` executed in full:** breach protocol steps 1–5, decomposition, **no add, no proposal, `$0` moved.**
+## Tasked deliverable — DISCHARGED
+🔴 **`BND-22` GRADED FALSE**, breached by 5bp (`DFII10` **2.55 [2026-09-10]**, +9bp in one session). Pre-written `If_Falsified_Action` executed in full: breach protocol steps 1–5, decomposition, **no add, no proposal, `$0` moved.**
 
 ## Data provenance
-**All load-bearing figures re-pulled at BOND's own primary, NOT adopted from PROME's packet** (root rule #4): `boot_recompute.py` cache-busted **2026-09-14 13:03 ET** (70 entries busted) + `fetch.fred_fetch` with explicit limits + NY Fed `/pd` API + live yfinance.
-**Every figure in PROME's packet reproduced exactly.** H.15 frontier **2026-09-10**; ICE BofA + breakevens through **9/11**.
+All load-bearing figures pulled at BOND's **own** primaries — `boot_recompute.py` cache-busted **13:03 ET**, `fetch.fred_fetch` with explicit limits, NY Fed `/pd` API, live yfinance. PROME's relayed figures were **re-pulled, not adopted** (root rule #4); all reproduced exactly.
 
-## Inbox
-**General lane 3 → 0** (PROME `BND-22`; MIDAS DFII10 nowcast; RED FT-11 grade) → `inbox/processed/`.
-**WALTER lane 6 → 0** → `inbox/WALTER/processed/`. `SIG-W-20260911-008` 🔴 IMMEDIATE **ACTION answered in full** (`KB-BND-281/282`).
-
-## Outbox / packets authored
-| → | subject |
+## Work delivered
+| # | item |
 |---|---|
-| **TERRY** | LEVEL-vs-SUSTAINED ruled for my instrument: **their card is right, mine is the underspecified one**, both terminate at NO ADD today |
-| **WALTER** | `SIG-008` answered — yes it changes the read; their curve vector is the 2nd witness; the priced-probability gap is mine and is declared |
-| **PROME** (`PROME/inbox/`) | session result + **one Will-gated item** + WQ-157 premises |
+| 1 | `BND-22` FALSE + calibration write-up (55% on the wrong side; *the row out-argued its own number*) |
+| 2 | 🔴 **Spec defect escalated to Will:** the add-gate's "sustained" has **no session count** ⇒ unfireable, and it does not fail safe. **Count NOT set by me** — the level is already through. `WQ-246`. |
+| 3 | **LEVEL vs SUSTAINED answered:** TERRY's card is right, mine is the underspecified one; both terminate at NO ADD today |
+| 4 | **WQ-157 leg ② premises CLOSED, both favourably** — ceiling **n=244** (VERIFIED); SBN pooling **defensible** (INFERRED) ⇒ the 2022–23 stress half survives |
+| 5 | **The PATH read** — the curve prices **~115–130bp more tightening**, terminal ~4.75–4.95%, no cut in 3yrs; asymmetry runs **against** a short-duration book |
+| 6 | **Book RE-ARMED: 5 predictions pre-FOMC**, each base-rated *before* the confidence; one candidate **declined as padding** |
+| 7 | **Two self-corrections** — the CCC leg/gap conflation, and the withdrawn buyback-cover inference |
 
 ## Checks
-| check | rc |
-|---|---|
-| `kb_lint` | **0** ✅ |
-| `closeout_check` (3/3) | **0** ✅ |
-| `docket_check` | **0** ✅ *(was 1 — 4 undocketed 9/22–24 CUSIPs added)* |
-| `corrections_boot_check` | **0** ✅ *(was 1 BLOCK — `COR-20260910-02` receipted APPLIED)* |
-| `read_cap_check` | **1** — STATUS at **32,550 B = 100% of budget, 0 over the hard cap**; zero headroom, flagged in SCRATCH |
-| `boot_recompute` | **1** — **7 findings, DECLARED RESIDUE**: all literal matches on correctly-labelled dated history (superseded `NEXUS_BRIEF` 9/09 block; `VX.tsv:16`'s `[9/1]`-stamped distance). Editing them would destroy a dated record to satisfy a pattern-match. **Expected rc=1 next boot — read the SCRATCH residue note first.** |
+| check | rc | |
+|---|---|---|
+| `kb_lint` | **0** | ✅ |
+| `closeout_check` (3/3) | **0** | ✅ — its FILE-STATE leg caught my own SCRATCH line going false mid-session |
+| `docket_check` | **0** | ✅ *(was 1 — four undocketed 9/22–24 CUSIPs added)* |
+| `corrections_boot_check` | **0** | ✅ *(was 1 BLOCK — `COR-20260910-02` receipted APPLIED)* |
+| `read_cap_check` | **0** | ✅ *(STATUS and PREDICTIONS both rotated back under budget)* |
+| `boot_recompute` | **1** | ⚠️ **DECLARED RESIDUE** — literal matches on correctly-labelled dated history. **Expected rc=1 next boot; read the SCRATCH residue note BEFORE "fixing" it.** |
 
-## Files written
-`thesis/PREDICTIONS.tsv` (BND-22 FALSE) · `thesis/THESIS.md` (**v1.2.5** + the gate flagged unfireable at KEY THRESHOLDS) · `thesis/CHANGELOG.md` (v1.2.5) · `STATUS.md` (rotated to exactly 32,550 B) · `TRADE.md` · `NEXUS_BRIEF.md` (**9/14 re-pin**; the 9/09 block marked SUPERSEDED) · `workbook/KB.tsv` **+7** (`KB-BND-276`→`282`) · `workbook/VX.tsv` · `docket/CATALYSTS.tsv` · `SCRATCH.md` · `registry/corrections_receipts.tsv` · **2 new `analysis/`** (breach write-up; FR2004 comparability probe) · **2 `domain/sources/` rotations** (9/10 BOTTOM LINE crc32 `1711412308`; resolved-catalysts line).
+## Mail
+**General inbox 3 → 0** (PROME · MIDAS · RED). **WALTER lane 16 → 0 in TWO waves** — 6 at boot, **10 more arrived mid-session**. Both `action:` items handled (`SIG-014` buyback underfill; `SIG-010` GPIF capacity). **Out: 3 packets** — TERRY, WALTER, PROME.
+⚠️ **With a live WALTER, an inbox count is a MOMENT property, not a session fact.**
 
 ## Position
-⛔ **UNCHANGED — TLT puts HOLD, no add, `$0`. No order, no threshold set/moved/shaved.** Will's 7/16 NO-ADD, `WQ-168 ④`, root rule #5.
+⛔ **UNCHANGED — TLT puts HOLD, no add, `$0`. No order, no threshold set, moved or shaved.** Will's 7/16 NO-ADD · `WQ-168 ④` · root rule #5.
 
-## Owed
-🔴 **WILL:** define the add-gate's "sustained" session count (3 or 5; not picked here by design).
-🔴 **BOND next session:** **RE-ARM THE PREDICTION BOOK — it is EMPTY on FOMC week** · pull DFII10 9/11+9/12 · **9/15 20Y-R** (`I'` 61.72, counter's 3rd chance) · **9/16 FOMC** · post-CPI priced hike probability (`re-test 9/16`) · **9/18 FR2004 join — premises closed, build UNSTARTED** · reply to RED on FT-11's relative leg.
+## Owed after this session
+🔴 **WILL:** the add-gate's "sustained" session count (`WQ-246`).
+🔴 **BOND next boot:** grade `BND-25`/`BND-26` off the 9/16 session · `BND-28` ceiling **9/18 17:00 ET** · **9/15 20Y-R** (`I'` 61.72, downgrade counter's 3rd chance at 2) · **9/16 FOMC + SEP** (pre-registered falsifier: terminal ≥~5.00% ⇒ my asymmetry read is wrong) · **9/18 FR2004 join — premises closed, build UNSTARTED** · reply to RED on FT-11's relative leg · CME-primary priced probability.
