@@ -509,6 +509,135 @@ def leg_kb_stale_by(ctx):
 
 RC_FLEET_RE = re.compile(r"over BUDGET:\s*(\d+)\s*/\s*(\d+).*?over the CAP:\s*(\d+)\s*/\s*(\d+)")
 
+# ── THE REASON CHANNEL (2026-09-14, DOCKET L355) ─────────────────────────────────────────────
+# This leg used to determine its verdict from RC_FLEET_RE alone — the child's TOTALS SENTENCE.
+# The 2026-09-12 repair added `if proc.returncode == 2: CANNOT`, which closed one cell and left
+# the other open, and CODEX + PROME reproduced the remainder independently: with an identical
+# `0/37 over BUDGET` summary, child rc=0 → PASS · rc=1 → PASS · rc=2 → CANNOT-CERTIFY.
+# ⇒ A MISSING DECLARED FILE yields a manifest defect, rc 1, and ZERO over-budget desks, so this
+#   leg read the zero counts and returned PASS, dropping the defect. The registered leg certified
+#   a run that had found something.
+# ⛔ THE FIX IS NOT "MAKE EVERY rc 1 BLOCKING." That erases the intentional advisory treatment of
+#   the standing over-budget backlog and converts a size queue into a boot blocker — the opposite
+#   false verdict, and the one that trains readers to ignore the instrument.
+# ★ The fix is to stop INFERRING the reason. The child now emits `READ-CAP-RESULT v1 …` as its
+#   last line, and this leg reads THAT. Same lesson one layer in from the 2026-09-12 repair, where
+#   `res` never carried `problems` so `main()` had to guess why rc was 1: pass the reason across
+#   the boundary, never re-derive it from a summary line.
+RC_RESULT_RE = re.compile(r"^READ-CAP-RESULT v1 (.+)$", re.M)
+
+
+def parse_rc_result(out):
+    """The child's machine-readable reason line as a dict, or None if it did not emit one.
+    LAST occurrence wins: a fleet run prints exactly one, but a future caller that concatenates
+    runs must read the one belonging to the run that ended."""
+    last = None
+    for m in RC_RESULT_RE.finditer(out):
+        last = m
+    if last is None:
+        return None
+    kv = {}
+    for tok in last.group(1).split():
+        if "=" in tok:
+            k, v = tok.split("=", 1)
+            kv[k] = v
+    return kv
+
+
+def _int(kv, key):
+    try:
+        return int(kv.get(key, ""))
+    except (TypeError, ValueError):
+        return None
+
+
+def classify_read_cap(rc, kv, baseline):
+    """(state, head, detail, value, baseline) from the CHILD'S OWN REASON — never from prose.
+
+    THE MAPPING IS EXPLICIT AND TOTAL over {rc 0,1,2} x {defect, no defect} (condition C3). Every
+    cell below is written out, INCLUDING the two that should be impossible: an impossible cell is
+    a CONTRADICTION between the child's exit code and the child's own reason line, and a
+    contradiction must fail CLOSED. Silently picking whichever half looks friendlier is how a
+    false green is manufactured — it is the defect this leg was rewritten to retire.
+
+        rc | defects | verdict
+        ---+---------+-------------------------------------------------------------------
+         2 |   any   | CANNOT-CERTIFY .... nothing was assessed; no figure is available
+         * | assessed=0 | CANNOT-CERTIFY . the child says no count on its line was earned
+         0 |    0    | PASS ............. clean, and the child says WHY it is clean
+         0 |   >0    | CANNOT-CERTIFY ... CONTRADICTION: rc 0 with defects reported
+         1 |   >0    | FINDINGS ......... a MANIFEST DEFECT. Never delta-gated, never PASS:
+           |         |                    a broken declaration is not a size backlog and has
+           |         |                    no baseline to be "no worse than".
+         1 |    0    | ADVISORY (delta-keyed on over_budget) ... the standing size backlog,
+           |         |                    behaviour PRESERVED EXACTLY from before this repair
+         1 |    0    | ...but if over_budget == 0 too: CANNOT-CERTIFY — CONTRADICTION: the
+           |         |                    child exited 1 and named no reason for it.
+    """
+    if rc == 2:
+        return (CANNOT, "read_cap_check --fleet returned rc 2 (CANNOT-EVALUATE) — no fleet figure "
+                        "is available from this run; read its output for the desk or manifest at "
+                        "fault", [], None, None)
+    assessed = _int(kv, "assessed")
+    if assessed is None:
+        return (CANNOT, f"read_cap_check --fleet emitted a reason line with no readable `assessed` "
+                        f"(rc={rc}) — cannot certify", [], None, None)
+    if assessed == 0:
+        return (CANNOT, f"read_cap_check --fleet assessed NOTHING (rc={rc}); its own reason line "
+                        f"says no count on it was earned — cannot certify", [], None, None)
+    defects = _int(kv, "desks_with_manifest_defect")
+    over_b = _int(kv, "desks_over_budget")
+    over_c = _int(kv, "desks_over_cap")
+    advisories = _int(kv, "desks_with_advisory")
+    if defects is None or over_b is None:
+        return (CANNOT, f"read_cap_check --fleet reason line is missing a required count "
+                        f"(rc={rc}, keys={sorted(kv)}) — cannot certify", [], None, None)
+    head = f"{over_b}/{assessed} desk(s) over BUDGET · {over_c}/{assessed} over CAP"
+    extra = []
+    if over_c:
+        extra.append(f"{over_c} desk(s) over the hard CAP — boot reads are being silently fragmented")
+    if advisories:
+        # Reported, never graded — the child refuses to adjudicate these and so does this leg
+        # (DOCKET L354: a refusal to adjudicate cannot be a blocking verdict).
+        extra.append(f"{advisories} desk(s) carry a NON-BLOCKING advisory (see `--agent <NAME>`)")
+    if rc == 0:
+        if defects:
+            return (CANNOT, f"CONTRADICTION: read_cap_check exited 0 but its reason line reports "
+                            f"{defects} manifest defect(s). Failing closed — one of the two is "
+                            f"wrong and this leg cannot tell which", extra, None, None)
+        if over_b:
+            return (CANNOT, f"CONTRADICTION: read_cap_check exited 0 but its reason line reports "
+                            f"{over_b} desk(s) over budget. Failing closed", extra, None, None)
+        return (PASS, head, extra, over_b, baseline)
+    if rc == 1:
+        if defects:
+            # NOT delta-keyed. The declared asymmetry below covers a SIZE BACKLOG with named owners
+            # and dated sittings; a manifest defect is a broken declaration, has no baseline, and
+            # its whole signature is that the size counts can read ZERO while it is live.
+            return (FINDINGS,
+                    f"{defects} desk(s) have a MANIFEST DEFECT in PROME/registry/READS.tsv "
+                    f"(declared read missing, or a mode outside the vocabulary) — {head}",
+                    extra + ["a manifest defect is a defect of the DECLARATION, not of the cap: "
+                             "the desk owner fixes the row (or the file). Run "
+                             "`python3 scripts/read_cap_check.py --agent <NAME>` for the text."],
+                    defects, None)
+        if not over_b:
+            return (CANNOT, "CONTRADICTION: read_cap_check exited 1 and its reason line names no "
+                            "defect and no over-budget desk. Failing closed — the child found "
+                            "something it did not state", extra, None, None)
+        # DECLARED ASYMMETRY (§6) — PRESERVED EXACTLY (condition C4): the read-cap backlog is a
+        # standing fleet queue with named owners and dated sittings; pinning red on the LEVEL is
+        # permanent-red = silent-green inverted (§3(e)). The DELTA flips.
+        state = ADVISORY
+        if baseline is not None and over_b > baseline:
+            extra.insert(0, f"DELTA +{over_b - baseline} above recorded baseline {baseline} — "
+                            f"a NEW desk crossed budget")
+            state = FINDINGS
+        return (state, head, extra, over_b, baseline)
+    # TOTALITY: rc is documented 0/1/2. Anything else is an unknown contract, not a pass.
+    return (CANNOT, f"read_cap_check --fleet returned rc {rc}, which is outside its documented "
+                    f"0/1/2 contract — cannot certify", extra, None, None)
+
 
 def leg_read_cap_fleet(ctx):
     root = ctx["root"]
@@ -523,36 +652,19 @@ def leg_read_cap_fleet(ctx):
     except Exception as exc:
         return Result(None, CANNOT, f"read_cap_check --fleet could not run: {exc}")
     out = (proc.stdout or "") + (proc.stderr or "")
-    # ❌F2b (cold read of the 2026-09-12 read_cap_check repair): this leg determined its verdict
-    # from the SUMMARY STRING alone and never inspected proc.returncode — so a fleet run that
-    # assessed NOTHING and exited 2 still reported PASS if the totals line happened to say 0/N.
-    # Same family as the pipeline-$? class: a verdict read from output rather than from the
-    # exit code the tool actually returned. rc 2 is CANNOT-CERTIFY and must never be a PASS.
-    if proc.returncode == 2:
+    kv = parse_rc_result(out)
+    if kv is None:
+        # MISSING INFORMATION, failed CLOSED. ⛔ There is deliberately NO fallback to RC_FLEET_RE
+        # here: parsing the totals prose when the reason line is absent is EXACTLY the defect this
+        # repair removes, and a fallback would restore it silently on any older copy of the child.
         return Result(None, CANNOT,
-                      f"read_cap_check --fleet returned rc 2 (CANNOT-EVALUATE) — no fleet figure is "
-                      f"available from this run; read its output for the desk or manifest at fault",
+                      f"read_cap_check --fleet emitted no `READ-CAP-RESULT` reason line "
+                      f"(rc={proc.returncode}) — this leg reads the child's stated reason, not its "
+                      f"prose totals, and will not guess. Check the tool version, then run it directly",
                       [l for l in out.splitlines() if l.strip()][-3:])
-    m = RC_FLEET_RE.search(out.replace("\n", " "))
-    if not m:
-        # Fail closed (finding_lenient_parser_reports_unparseable_as_a_behavior).
-        return Result(None, CANNOT,
-                      f"read_cap_check --fleet output did not carry the summary line (rc={proc.returncode}) — "
-                      "cannot certify; run it directly")
-    over_b, tot_b, over_c, tot_c = (int(m.group(i)) for i in (1, 2, 3, 4))
     base = ctx["baseline"].get("D1_read_cap_over_budget")
-    head = f"{over_b}/{tot_b} desk(s) over BUDGET · {over_c}/{tot_c} over CAP"
-    detail = []
-    state = ADVISORY if over_b else PASS
-    # DECLARED ASYMMETRY (§6): the read-cap backlog is a standing fleet queue
-    # with named owners and dated sittings; pinning red on the LEVEL is
-    # permanent-red = silent-green inverted (§3(e)).  The DELTA flips.
-    if base is not None and over_b > base:
-        detail.append(f"DELTA +{over_b - base} above recorded baseline {base} — a NEW desk crossed budget")
-        state = FINDINGS
-    if over_c:
-        detail.append(f"{over_c} desk(s) over the hard CAP — boot reads are being silently fragmented")
-    return Result(None, state, head, detail, over_b, base)
+    state, head, detail, value, used_base = classify_read_cap(proc.returncode, kv, base)
+    return Result(None, state, head, detail, value, used_base)
 
 
 # ============================================================================
@@ -978,7 +1090,84 @@ def selftest():
     drill("C1 no git history -> CANNOT-CERTIFY, rc2 (absence is never a finding)",
           c1_control, CANNOT, 2)
 
-    # --- D1 unparseable output fails CLOSED
+    # ── D1 AT THE PROCESS BOUNDARY (2026-09-14, DOCKET L355 condition C6) ────────────────────
+    # The defect lived in what crosses `subprocess.run` — a three-state rc on one side and a
+    # prose summary on the other — so the drill must CROSS subprocess.run too. Each cell writes a
+    # STUB CHILD that prints a chosen output and exits with a chosen code, and the leg runs it for
+    # real. Not at the parser, not at the helper: those both agreed with themselves while the
+    # boundary dropped the reason.
+    # ⚠️ AND THE SUMMARY PROSE IS HELD IDENTICAL ACROSS THE FIRST THREE CELLS ON PURPOSE. That
+    # identity IS the reproduction: CODEX and PROME both showed that with one `0/37 over BUDGET`
+    # line the child's rc 0, 1 and 2 produced PASS, PASS and CANNOT-CERTIFY. If a future edit
+    # re-introduces a prose fallback, these three cells stop disagreeing and the drill fails.
+    SUMMARY = "  desks with >=1 boot read over BUDGET: {ob}/37 \u00b7 over the CAP: {oc}/37"
+    RLINE = ("READ-CAP-RESULT v1 mode=fleet rc={rc} assessed={asd} desks=37 cannot_evaluate={ce} "
+             "desks_over_budget={ob} desks_over_cap={oc} desks_with_manifest_defect={df} "
+             "desks_with_advisory={ad} generated_flagged=0")
+
+    def d1_stub(rc, summary=None, rline=None, baseline=6):
+        """Write a stub child that prints `summary` then `rline` and exits `rc`. Returns the drill."""
+        def _run():
+            with tempfile.TemporaryDirectory() as td:
+                root = _fixture_repo(Path(td))
+                body = "import sys\n"
+                for ln in ([summary] if summary is not None else []) + ([rline] if rline else []):
+                    body += f"print({ln!r})\n"
+                body += f"sys.exit({rc})\n"
+                _write(root / "scripts" / "read_cap_check.py", body)
+                res, g, e, gs, gn, t = run_suite(
+                    root, only={"D1"}, today="2026-09-10",
+                    baseline=({"D1_read_cap_over_budget": baseline} if baseline is not None else {}))
+                return res[0].state, verdict(res, e, gs), res[0].headline
+        return _run
+
+    def _r(rc, asd=37, ce=0, ob=0, oc=0, df=0, ad=0):
+        return RLINE.format(rc=rc, asd=asd, ce=ce, ob=ob, oc=oc, df=df, ad=ad)
+
+    # ── THE REPRODUCTION: one identical summary, three exit codes, three verdicts ────────────
+    IDENT = SUMMARY.format(ob=0, oc=0)
+    drill("D1 BOUNDARY rc0 + no defect + identical '0/37' summary -> PASS",
+          d1_stub(0, IDENT, _r(0)), PASS, 0)
+    drill("D1 BOUNDARY rc1 + MANIFEST DEFECT + identical '0/37' summary -> FINDINGS "
+          "(the L355 defect: this returned PASS)",
+          d1_stub(1, IDENT, _r(1, df=2)), FINDINGS, 1)
+    drill("D1 BOUNDARY rc2 + identical '0/37' summary -> CANNOT-CERTIFY",
+          d1_stub(2, IDENT, _r(2, asd=0, ce=37)), CANNOT, 2)
+
+    # ── THE FORBIDDEN FIX, GUARDED: a size backlog must NOT become blocking ──────────────────
+    # If someone later "fixes" L355 by making every rc 1 blocking, THIS cell fails. It is the
+    # counterexample the repair is pinned against, not a restatement of the repair.
+    drill("D1 BOUNDARY rc1 + backlog AT baseline + no defect -> ADVISORY, rc0 (no permanent red)",
+          d1_stub(1, SUMMARY.format(ob=6, oc=1), _r(1, ob=6, oc=1)), ADVISORY, 0)
+    drill("D1 BOUNDARY rc1 + backlog ABOVE baseline -> FINDINGS (delta flips, level does not)",
+          d1_stub(1, SUMMARY.format(ob=9, oc=1), _r(1, ob=9, oc=1)), FINDINGS, 1)
+
+    # ── AN ADVISORY NEVER GRADES (DOCKET L354, the mirror row) ───────────────────────────────
+    drill("D1 BOUNDARY rc0 + desks carrying a NON-BLOCKING advisory -> still PASS",
+          d1_stub(0, IDENT, _r(0, ad=3)), PASS, 0)
+
+    # ── CONTRADICTION CELLS: the child's rc and its own reason line disagree. Fail CLOSED. ───
+    drill("D1 BOUNDARY rc0 but reason line reports defects -> CANNOT-CERTIFY (contradiction)",
+          d1_stub(0, IDENT, _r(0, df=1)), CANNOT, 2)
+    drill("D1 BOUNDARY rc0 but reason line reports over-budget desks -> CANNOT-CERTIFY",
+          d1_stub(0, SUMMARY.format(ob=4, oc=0), _r(0, ob=4)), CANNOT, 2)
+    drill("D1 BOUNDARY rc1 naming NO reason at all -> CANNOT-CERTIFY (found something, said what?)",
+          d1_stub(1, IDENT, _r(1)), CANNOT, 2)
+    drill("D1 BOUNDARY rc outside the documented 0/1/2 contract -> CANNOT-CERTIFY",
+          d1_stub(3, IDENT, _r(3, ob=1)), CANNOT, 2)
+
+    # ── MISSING INFORMATION, FAILED CLOSED: no reason line at all. ⛔ There must be NO fallback
+    # to the prose totals — a fallback is the original defect, restored silently on an old child.
+    drill("D1 BOUNDARY a PERFECTLY PARSEABLE summary with NO reason line -> CANNOT-CERTIFY",
+          d1_stub(0, IDENT, None), CANNOT, 2)
+    drill("D1 BOUNDARY no reason line AND a clean rc 0 -> still CANNOT-CERTIFY (never a PASS)",
+          d1_stub(0, SUMMARY.format(ob=0, oc=0), None), CANNOT, 2)
+    drill("D1 BOUNDARY reason line present but assessed=0 -> CANNOT-CERTIFY (no count was earned)",
+          d1_stub(1, IDENT, _r(1, asd=0, ce=37, ob=0)), CANNOT, 2)
+    drill("D1 BOUNDARY reason line missing a required count -> CANNOT-CERTIFY",
+          d1_stub(1, IDENT, "READ-CAP-RESULT v1 mode=fleet rc=1 assessed=37"), CANNOT, 2)
+
+    # --- D1 unparseable output fails CLOSED (kept: a child emitting neither shape)
     def d1_unparseable():
         with tempfile.TemporaryDirectory() as td:
             root = _fixture_repo(Path(td))
@@ -987,30 +1176,6 @@ def selftest():
             return res[0].state, verdict(res, e, gs), res[0].headline
     drill("D1 unparseable summary -> CANNOT-CERTIFY, rc2 (fails closed)",
           d1_unparseable, CANNOT, 2)
-
-    # --- D1 delta above baseline flips
-    def d1_delta():
-        with tempfile.TemporaryDirectory() as td:
-            root = _fixture_repo(Path(td))
-            _write(root / "scripts" / "read_cap_check.py",
-                   "print('  desks with >=1 boot read over BUDGET: 9/37 "
-                   "\\u00b7 over the CAP: 1/37')\n")
-            res, g, e, gs, gn, t = run_suite(root, only={"D1"}, today="2026-09-10",
-                                             baseline={"D1_read_cap_over_budget": 6})
-            return res[0].state, verdict(res, e, gs), res[0].headline
-    drill("D1 9/37 over baseline 6 -> FINDINGS (delta flips, level does not)",
-          d1_delta, FINDINGS, 1)
-
-    def d1_at_baseline():
-        with tempfile.TemporaryDirectory() as td:
-            root = _fixture_repo(Path(td))
-            _write(root / "scripts" / "read_cap_check.py",
-                   "print('  desks with >=1 boot read over BUDGET: 6/37 "
-                   "\\u00b7 over the CAP: 1/37')\n")
-            res, g, e, gs, gn, t = run_suite(root, only={"D1"}, today="2026-09-10",
-                                             baseline={"D1_read_cap_over_budget": 6})
-            return res[0].state, verdict(res, e, gs), res[0].headline
-    drill("D1 6/37 at baseline -> ADVISORY, rc0 (no permanent red)", d1_at_baseline, ADVISORY, 0)
 
     # --- rc precedence: 2 dominates 1
     def rc_precedence():

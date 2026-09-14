@@ -98,6 +98,85 @@ PIPE_THEN_RC = re.compile(
 # The two correct forms — if either is present the author already knows.
 ALREADY_SAFE = re.compile(r"PIPESTATUS|pipefail", re.I)
 
+# ── SECOND RECOGNISER: A THREE-STATE rc COLLAPSED BY A TWO-VALUED IDIOM ──────────────────────
+# ADDED 2026-09-14 (DOCKET L355, the rule the row generalises). SAME FAMILY, SAME REASON THIS FILE
+# IS A HOOK: a verdict destroyed at an EPHEMERAL call site that no repo scan can ever see.
+#
+# THE INSTANCE. DAEDALUS's last command of 2026-09-12 was
+#     bash verify_push.sh "$s" >/dev/null 2>&1 || { echo "NOT ON ORIGIN"; }
+# It reported 32 of 32 commits NOT ON ORIGIN. All 32 were on origin. `verify_push.sh` had behaved
+# CORRECTLY: it returns rc 2 CANNOT-CERTIFY for a subject match older than its 60-minute window —
+# a contract written into that file IN CAPITALS BY THE SAME AUTHOR after it false-alarmed on its
+# own second use. The `||` collapsed rc 2 into rc 1. Nothing was ever at risk; the alarm was the
+# caller's, and a caller who believes it goes looking for a push failure that never happened.
+#
+# ⛔ THE RULE: a three-state rc contract is defeated by `||`, `&&`, `!`, `if not`, and every other
+# two-valued idiom in the language. Writing `rc 0/1/2` in a docstring does not make callers
+# three-valued — ONLY A CALL SITE THAT NAMES THE STATES IS. So the author of the contract is not
+# protected by having authored it; this instance is the proof.
+#
+# WHY A HOOK AND NOT A LINT — MEASURED, NOT ASSUMED (census 2026-09-14, this repo, every committed
+# .md/.sh/.py/.tsv/.json): 31 tools reserve rc 2, and the census returned 28 raw matches of a
+# two-valued idiom near one of their names. ON INSPECTION, **TRUE POSITIVES = 0.** Every hit was
+# prose (KB/PATTERNS/DOCKET rows that merely contain `||`), a `(cd "$(git rev-parse --show-toplevel)"
+# && python3 …)` CWD-GUARD — where the `&&` precedes the tool and consumes nothing — or a
+# CORRECTLY-LABELLED QUOTATION of the defect inside its own diagnosis (the run record and the
+# memory file that document the instance above). Committed recipes are clean; the defect is typed
+# at the moment of use. Identical shape to the pipeline class this file was built for.
+# ⚠️ PAT-083: that census shares a corpus with the 2026-09-12 pipeline census, so the two are NOT
+# independent evidence that the repo is clean. It establishes WHERE the class lives, nothing more.
+#
+# FALSE-POSITIVE DISCIPLINE, the same as the recogniser above: the left side must be a tool KNOWN
+# to reserve rc 2, never any command. `cmd || echo failed` is the most ordinary idiom in shell and
+# firing on it would kill this guard's credibility inside a day.
+# The list is DERIVED, and the derivation is rerunnable rather than remembered:
+#   git ls-files '*.py' '*.sh' | xargs grep -lE 'CANNOT[- ]?(EVALUATE|CERTIFY)' \
+#     | xargs grep -lE 'sys\.exit\(2\)|return 2\b|exit 2\b'
+# Re-run it at each Wiring Sweep; a tool that gains an rc 2 and is missing here is a DORMANT guard
+# leg, not a clean one (`finding_guard_correctness_and_wiring_are_independent`).
+THREE_STATE_TOKENS = (
+    r"verify_push|read_cap_check|validate_all|complete_check|maturity_scan|sweeps_due|"
+    r"profile_clock_check|falsification_scan|walter_route_check|regen_patterns_hot|scorecard|"
+    r"corrections_boot_check|ledger_staleness|memory_index_check|memory_citation_census|"
+    r"orch_log|argus_scope|reads_check|derived_freshness|closeout_guard|run_tests|"
+    r"skew_bar_continuity|vx_daily_gapcheck|boot\.py"
+)
+# ⚠️ `&&` IS DELIBERATELY EXCLUDED from the shell idiom class. The dominant committed use of `&&`
+# beside these tools is the cwd guard `(cd "$(git rev-parse --show-toplevel)" && python3 …)`, where
+# the `&&` comes BEFORE the tool and consumes nothing — 5 of the census's 28 raw hits, and every
+# one a false positive. Requiring the `&&` to FOLLOW the tool would still fire on the ordinary
+# `check && echo ok` display idiom. `||` and `!` carry the real signal: both act ON the verdict.
+# ⛔ THE TOOL NAME MUST BE IN COMMAND POSITION, NOT ANYWHERE IN THE STRING. The first cut of this
+# recogniser was a single regex `(TOKEN)[^\n;|]*\|\|` and it fired on
+#     grep -n "verify_push" AGENTS/DAEDALUS/runs/x.md || true
+# where the name is a SEARCH ARGUMENT and the `||` belongs to grep. That is the ordinary shape of
+# every search this desk runs, so the guard would have been noise from its first hour
+# (`finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction` — the fix is to
+# make the recogniser PRECISE, never to relax the severity). So it is a function, not a regex: the
+# segment that precedes `||` must INVOKE the tool, which means the token is preceded by an
+# interpreter or a path separator and is not sitting inside quotes.
+_INVOKED = r"(?:^|[;&|(]\s*|\b(?:python3?|bash|sh|exec|command|time)\s+|[./])"
+_TOOL_IN_CMD_POSITION = re.compile(rf"{_INVOKED}[\w/.-]*(?:{THREE_STATE_TOKENS})", re.I)
+
+
+def _quoted(seg, pos):
+    """True if `pos` falls inside a quoted run in `seg` — a name inside quotes is an ARGUMENT."""
+    return seg.count('"', 0, pos) % 2 == 1 or seg.count("'", 0, pos) % 2 == 1
+
+
+def _invokes_three_state(seg):
+    """The tool name this SEGMENT actually invokes, or None. A name inside quotes is an argument."""
+    for m in _TOOL_IN_CMD_POSITION.finditer(seg):
+        if not _quoted(seg, m.start()):
+            return re.search(THREE_STATE_TOKENS, m.group(0), re.I).group(0)
+    return None
+
+
+# The author already knows if they name the states or capture the code for later comparison.
+THREE_STATE_SAFE = re.compile(
+    r"-eq\s*2|==\s*2|!=\s*2|returncode\s*==|\brc\s*=\s*\$\?|case\s+\$\?|"
+    r"CANNOT|PIPESTATUS|pipefail", re.I)
+
 
 def diagnose(cmd):
     """(hit, message). Pure; no I/O. The selftest drives THIS, so the recogniser is tested
@@ -108,7 +187,7 @@ def diagnose(cmd):
         return False, ""
     m = PIPE_THEN_RC.search(cmd)
     if not m:
-        return False, ""
+        return _diagnose_three_state(cmd)
     gate = m.group("gate")
     return True, (
         f"⚠️  pipeline_rc_guard: `$?` here reports the PAGER, not `{gate}`.\n"
@@ -121,6 +200,58 @@ def diagnose(cmd):
         f"                `out=$(cmd 2>&1); rc=$?; printf '%s\\n' \"$out\" | tail -80; echo \"RC=$rc\"`\n"
         f"   (CHECK_STANDARD §14(b). Measured 2026-09-12: this rule is written in four canon\n"
         f"    surfaces and was still walked into twice in one session, hours apart, by its namer.)\n"
+        f"   command: {cmd[:180]}\n"
+        f"   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n"
+    )
+
+
+def _diagnose_three_state(cmd):
+    """(hit, message) for the rc-2-collapsed-by-a-two-valued-idiom class. Pure; no I/O.
+
+    PERIMETER, STATED SO A CLEAN RUN CANNOT BE OVER-READ: this is a PreToolUse **Bash** hook, so
+    it sees shell commands and nothing else. The same collapse written in PYTHON source
+    (`if subprocess.run(...).returncode:` merges rc 1 and rc 2 into one branch) is REAL and is NOT
+    covered here — it lives in committed files, where a repo lint can reach it, and claiming it
+    here would be a guard whose clean line means less than a reader thinks (PAT-074).
+    """
+    if THREE_STATE_SAFE.search(cmd):
+        return False, ""
+    tool = None
+    # `||` — the verdict-consuming idiom. Only the segment IMMEDIATELY left of it matters.
+    for i, part in enumerate(re.split(r"\|\|", cmd)[:-1]):
+        # ⛔ SPLIT ON `;`, `&&` AND A SINGLE `|` — **NEVER ON A BARE `&`**. This file's OTHER
+        # recogniser carries the same warning from its own v1, which used `[^|;&\n]*` and missed
+        # BOTH real instances because each carried `2>&1`. I read that comment and wrote the bug
+        # anyway: my first cut split on `[;&]{1,2}`, so `bash verify_push.sh "$s" >/dev/null 2>&1`
+        # was cut at the `&` of `2>&1` and the segment became the string `1`. THIRD occurrence of
+        # this trap in this file, the second by the author of the warning.
+        # `[[finding_naming_a_caveat_can_substitute_for_fixing_it]]` — reading a hazard note is not
+        # the same act as applying it, and the note was four lines above the code I wrote.
+        seg = re.split(r";|&&|(?<!\|)\|(?!\|)", part)[-1]
+        tool = _invokes_three_state(seg)
+        if tool:
+            break
+    if not tool:
+        # `if ! <tool>` — negation is two-valued in exactly the same way.
+        m = re.search(r"if\s*!\s*([^\n;]*)", cmd)
+        if m:
+            tool = _invokes_three_state(m.group(1))
+    if not tool:
+        return False, ""
+    return True, (
+        f"⚠️  pipeline_rc_guard: `{tool}` has a THREE-STATE rc contract (0 clean · 1 FINDINGS ·\n"
+        f"   2 CANNOT-CERTIFY) and this call site is TWO-VALUED, so rc 2 will be read as rc 1.\n"
+        f"   rc 2 means the check COULD NOT EVALUATE — it is NOT evidence of failure. Treating it\n"
+        f"   as failure manufactures an alarm; treating it as success certifies an unchecked run.\n"
+        f"   MEASURED INSTANCE (2026-09-12): `bash verify_push.sh \"$s\" >/dev/null 2>&1 || echo NOT\n"
+        f"   ON ORIGIN` reported 32 of 32 commits NOT ON ORIGIN. All 32 were on origin — every one\n"
+        f"   was an rc 2 from the tool's own documented 60-minute window.\n"
+        f"   FIX — name the states instead of testing truthiness:\n"
+        f"       {tool} ...; rc=$?\n"
+        f"       case $rc in 0) ok ;; 1) echo REAL FINDING ;; 2) echo CANNOT-CERTIFY ;; esac\n"
+        f"   (Writing `rc 0/1/2` in a docstring does not make a caller three-valued. Only a call\n"
+        f"    site that names the states is — the 2026-09-12 instance was typed by the author of\n"
+        f"    the very contract it collapsed.)\n"
         f"   command: {cmd[:180]}\n"
         f"   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n"
     )
@@ -157,6 +288,46 @@ def selftest():
          "CLEAN — no gate on the left"),
         ('out=$(python3 scripts/validate_all.py 2>&1); rc=$?; printf "%s" "$out" | tail -5; echo "RC=$rc"',
          False, "CLEAN — the recommended form: rc read BARE before the pipe"),
+
+        # ── THREE-STATE COLLAPSE (2026-09-14, DOCKET L355) ───────────────────────────────────
+        # CAPABLE cases. The first is the REAL INSTANCE VERBATIM, not a paraphrase of it — the
+        # same discipline that caught this file's own v1 failing on the two cases it was written
+        # from. A recogniser tested against a tidied-up version of the bug is untested.
+        ('bash verify_push.sh "$s" >/dev/null 2>&1 || { f=$((f+1)); echo "  NOT ON ORIGIN: $s"; }',
+         True, "CAPABLE — the 2026-09-12 instance VERBATIM: 32/32 false alarms from rc 2"),
+        ('python3 scripts/read_cap_check.py --agent BROCK || echo "read cap FAILED"', True,
+         "CAPABLE — || on a tool whose rc 2 means CANNOT-EVALUATE, not failure"),
+        ('if ! python3 scripts/validate_all.py; then echo "suite failed"; fi', True,
+         "CAPABLE — `if !` is two-valued; rc 2 is reported as a suite failure"),
+        ('python3 scripts/ledger_staleness.py DAEDALUS || exit 1', True,
+         "CAPABLE — the most dangerous form: rc 2 aborts a closeout as though work had failed"),
+        # ⛔ OUT OF PERIMETER, PINNED AS SUCH. The identical collapse in PYTHON source is real,
+        # but this is a PreToolUse **Bash** hook and never sees Python source. My first draft
+        # asserted want=True here and the drill caught it — a guard that claims a lane it cannot
+        # see is `finding_guard_correctness_and_wiring_are_independent` in its dormant form.
+        ('if subprocess.run([sys.executable, "scripts/complete_check.py"]).returncode:', False,
+         "OUT OF PERIMETER — a Bash hook cannot see Python source; a repo lint owns that lane"),
+
+        # CLEAN cases. Each is a real idiom from THIS repo, and the first three are the exact
+        # shapes the 2026-09-14 census turned up and I classified as false positives — pinned
+        # here so that classification is a test, not an assertion in a run record.
+        ('(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/CARL/scripts/boot.py)',
+         False, "CLEAN — the CWD GUARD: `&&` PRECEDES the tool and consumes no verdict (CARL:7.0)"),
+        ('(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py)',
+         False, "CLEAN — same cwd-guard shape at a second desk (LIQUID:1b)"),
+        ('grep -n "verify_push" AGENTS/DAEDALUS/runs/x.md || true', False,
+         "CLEAN — `||` on GREP, not on the three-state tool; the name only appears as an argument"),
+        ('bash AGENTS/DAEDALUS/scripts/verify_push.sh "$s"; rc=$?; case $rc in 0) ;; 1) echo NO ;; 2) echo CANNOT ;; esac',
+         False, "CLEAN — the FIX: the call site names all three states"),
+        ('python3 scripts/read_cap_check.py --agent PROME; if [ $? -eq 2 ]; then echo CANNOT; fi',
+         False, "CLEAN — `-eq 2` tested explicitly, so the author is three-valued"),
+        # ⚠️ I originally wrote this leg as want=False with a note saying it must fire — a leg
+        # that contradicted itself. The drill failed and that is how I found it. want=True.
+        ('python3 scripts/validate_all.py || echo done', True,
+         "CAPABLE — validate_all is three-state; a bare `||` reads its rc 2 as a finding"),
+        ('make build || echo "build failed"', False,
+         "CLEAN — an ordinary two-valued command; firing here would kill the guard's credibility"),
+        ('rm -f /tmp/x || true', False, "CLEAN — the commonest shell idiom there is"),
     ]
     fails = []
     for cmd, want, label in cases:

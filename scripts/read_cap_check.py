@@ -37,8 +37,22 @@ reads performed inside boot.py, files named only in prose outside the boot secti
 whole-file reads a session decides on its own. R7 stage-2 READS.tsv (~9/14) replaces the
 heuristic with a declaration; until then a clean line says "of the files this heuristic found".
 
-Exit contract (CHECK_STANDARD §9): 0 clean · 1 FINDINGS (≥1 mandated read over budget)
-                                   · 2 CANNOT-EVALUATE (no charter / unknown desk / unreadable)
+Exit contract (CHECK_STANDARD §9): 0 clean · 1 FINDINGS (≥1 mandated read over budget, OR ≥1
+                                     MANIFEST DEFECT) · 2 CANNOT-EVALUATE (no charter / unknown
+                                     desk / unreadable)
+
+⛔ rc IS THREE-STATE AND CARRIES A ONE-BIT REASON. Do not infer WHY from rc, and never from the
+totals sentence: with an identical "0/37 over BUDGET" summary, rc 0, 1 and 2 are three different
+worlds. READ THE LAST LINE instead — `READ-CAP-RESULT v1 …`, stable key=value pairs, the reason
+channel this tool emits for its callers (added 2026-09-14, DOCKET L355). `assessed=0` on that line
+means NO COUNT ON IT WAS EARNED; a consumer must not read one. Three problem severities exist and
+only two of them move rc: P_DEFECT (the declaration is broken) does; P_ADVISORY (a reading this
+tool explicitly refuses to adjudicate, e.g. an executable declared cap-bearing) never does, and
+bundling it into rc is DOCKET L354's false RED.
+
+⛔ AND AT EVERY CALL SITE: a three-state contract is defeated by `||`, `and`, `if not`, and every
+other two-valued idiom in the language. Writing `rc 0/1/2` in a docstring does not make a caller
+three-valued — only a call site that names the states is. Test `-eq 0` / `-eq 1` / `-eq 2`.
 
 Usage (cwd-proof):
     python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent <NAME>
@@ -256,6 +270,24 @@ def boot_reads(name):
 # carry both — CODEX finding 2.
 UNAVAILABLE = object()
 
+# ── PROBLEM SEVERITY SPLIT (2026-09-14, DOCKET L354 + L355) ──────────────────────────────────
+# `problems` was a FLAT list of strings and `rc = 1 if (n_over_budget or problems)`, so THREE
+# heterogeneous classes shared one bucket and one severity. Two opposite-direction failures came
+# out of that single collapse:
+#   · L354 (false RED): the executable-declared-cap-bearing line is ADVISORY BY ITS OWN TEXT —
+#     "Not reclassified here — the declaration is the reader's." A check that explicitly declines
+#     to adjudicate drove rc 1, so a legitimate `programmatic` declaration could never be green.
+#   · L355 (false GREEN one surface downstream): validate_all's D1 leg received rc 1 plus a
+#     `0/37 over BUDGET` summary, could not tell a MANIFEST DEFECT from a SIZE BACKLOG, read the
+#     zero counts and returned PASS — dropping the defect.
+# ⛔ The forbidden fix is making every rc 1 blocking: that erases the intentional advisory
+# treatment of the over-budget desks and converts a size backlog into a boot blocker.
+# The fix is to give the reason a CHANNEL. A three-state rc carrying a one-bit reason is the
+# defect; `problems` rows are now typed, rc is computed from DEFECTS only, and the counts travel
+# to callers on an explicit machine-readable line instead of being re-derived from prose.
+P_DEFECT = "DEFECT"        # the DECLARATION is broken — owner fixes the row or the file. Drives rc.
+P_ADVISORY = "ADVISORY"    # a reading this tool will not adjudicate. Prints, counts, NEVER drives rc.
+
 READS_TSV = os.path.join(ROOT, "PROME", "registry", "READS.tsv")
 CAP_BEARING_MODES = ("whole", "programmatic")
 VISIBLE_MODES = ("scoped", "grep", "summary")
@@ -325,14 +357,14 @@ def declared_reads(name, path=None, root=None):
             # EXISTED and was one cell wrong — sending the owner to file a duplicate instead of
             # fixing a typo. A READ row with a bad mode already gets a precise line; an
             # ATTESTATION row did not.
-            problems.append(
+            problems.append((P_DEFECT,
                 f"ATTESTATION row carries mode `{(r.get('mode') or '').strip() or '(blank)'}` — "
                 f"an attestation must be `manifest-complete`, so this row does NOT attest and the "
-                f"desk reads UNATTESTED. Fix the one cell; do not file a second attestation.")
+                f"desk reads UNATTESTED. Fix the one cell; do not file a second attestation."))
         if r.get("row_kind") == "ATTESTATION" and r.get("declared_by") != name:
-            problems.append(f"ATTESTATION signed by `{r.get('declared_by') or '(blank)'}`, not by "
+            problems.append((P_DEFECT, f"ATTESTATION signed by `{r.get('declared_by') or '(blank)'}`, not by "
                             f"{name} — INVALID (manifest ⛔ who-may-attest: reading someone else's "
-                            f"charter is INFERENCE, not attestation)")
+                            f"charter is INFERENCE, not attestation)"))
     for r in mine:
         if r.get("row_kind") != "READ":
             continue                                    # ATTESTATION / BASIS rows are not reads
@@ -346,13 +378,13 @@ def declared_reads(name, path=None, root=None):
             continue
         full = os.path.join(base_root, pth)
         if mode not in CAP_BEARING_MODES and mode not in VISIBLE_MODES:
-            problems.append(f"`{pth}` ({src}) carries mode `{mode}` — not in the manifest's own "
-                            f"mode vocabulary")
+            problems.append((P_DEFECT, f"`{pth}` ({src}) carries mode `{mode}` — not in the manifest's "
+                            f"own mode vocabulary"))
             continue
         if not os.path.exists(full):
             # The condition the heuristic STRUCTURALLY cannot produce: a scan finds only what
             # exists, so a manifest pointing at a deleted file reads as silence.
-            problems.append(f"declared {mode} read `{pth}` ({src}) DOES NOT EXIST on disk")
+            problems.append((P_DEFECT, f"declared {mode} read `{pth}` ({src}) DOES NOT EXIST on disk"))
             continue
         if mode in CAP_BEARING_MODES and os.path.isfile(full):
             cap_bearing[full] = (mode, src)
@@ -387,11 +419,17 @@ def declared_reads(name, path=None, root=None):
         soft = sorted(m for m in others.get(rel, set()) if m in VISIBLE_MODES)
         corrob = (f" Another reader declares this same path `{'/'.join(soft)}` (NOT cap-bearing)."
                   if soft else "")
-        problems.append(
+        # ⚠️ ADVISORY, NOT A DEFECT (severity split 2026-09-14, DOCKET L354). The sentence this
+        # message ENDS with — "Not reclassified here — the declaration is the reader's" — is a
+        # refusal to adjudicate, and a refusal to adjudicate cannot be a blocking verdict. Before
+        # the split this line drove rc 1, so a desk whose `programmatic` declaration was CORRECT
+        # had no reachable green state. It still prints, still counts, still travels on the
+        # machine-readable line; it just does not decide.
+        problems.append((P_ADVISORY,
             f"`{rel}` ({src}) is an EXECUTABLE declared `{mode}`, which is CAP-BEARING — so its SOURCE "
             f"is being measured against the read budget. A tool you INVOKE emits a bounded output and "
             f"is `summary`; `programmatic` is for a file whose CONTENTS ENTER CONTEXT (the manifest's "
-            f"own ruling 3).{corrob} ⛔ Not reclassified here — the declaration is the reader's.")
+            f"own ruling 3).{corrob} ⛔ Not reclassified here — the declaration is the reader's."))
 
     note = (f"perimeter: DECLARED in {os.path.relpath(READS_TSV, ROOT)} — {len(cap_bearing)} "
             f"cap-bearing (whole/programmatic) measured, {len(visible)} declared-not-counted "
@@ -428,15 +466,55 @@ _GEN_PROHIB = re.compile(r"do not (?:hand-)?edit|never hand-edit|regenerate\b|re
 
 def generated_banner(path):
     """The banner line if this file announces itself GENERATED, else None. Read-only, never raises."""
-    try:
-        with open(path, encoding="utf-8", errors="replace") as fh:
-            head = [next(fh, "") for _ in range(5)]
-    except OSError:
-        return None
-    for ln in head:
+    for ln in _head_lines(path):
         if _GEN_MARK.search(ln) and _GEN_PROHIB.search(ln):
             return ln.strip()[:150]
     return None
+
+
+def _head_lines(path, n=5):
+    try:
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            return [next(fh, "") for _ in range(n)]
+    except OSError:
+        return []
+
+
+# ── WHO THE GENERATED FLAG ROUTES TO (added 2026-09-14, DOCKET L349 condition C7) ─────────────
+# The remedy paragraph shipped 2026-09-12 and says the right thing — rotation is meaningless, the
+# size is a property of the SOURCE surface, the flag routes to the SOURCE's owner. It never said
+# WHO. `finding_imperfect_level_to_the_right_owner_beats_a_perfect_one_to_nobody`: half a
+# dispatch's value is the owner re-reading its own file, and "route it upstream" with no upstream
+# named is a remedy the reader cannot execute — which is the same shape as the inapplicable remedy
+# the row was raised about. A named-but-imperfect target beats a correct-but-addressless one.
+# MEASURED BEFORE BUILDING, on the two live generated boot-reads: RED's
+# FALSIFICATION_TRIGGERS_SCAN.tsv banner carries `canon=registry/FALSIFICATION_TRIGGERS.tsv` and
+# `Regenerate: python3 AGENTS/RED/scripts/gen_trigger_scan.py`; DAEDALUS's FLEET_DIRECTORY.md names
+# PROME/ROSTER.md, AGENTS/DAEDALUS/FLEET_MAP.tsv and render_directory.py across lines 1-3. So the
+# generator and the sources ARE stated in the banner region — they just were not being read out.
+# ⛔ This DERIVES a candidate, it does not adjudicate one. Where the banner names nothing, the
+# function says so in those words rather than guessing a desk from the file's own path — a
+# generated file's location tells you its READER, which is precisely the wrong owner.
+_PATHY = re.compile(r"(?<![\w/.-])((?:[A-Za-z0-9_.-]+/)+[A-Za-z0-9_.-]+\.(?:tsv|md|py|sh|json|csv))")
+
+
+def generated_sources(path, n=5):
+    """(source_paths, owner_desks) named in this file's banner region. ([], []) when none are."""
+    me = os.path.normpath(os.path.relpath(os.path.abspath(path), ROOT))
+    srcs, owners = [], []
+    for ln in _head_lines(path, n):
+        for hit in _PATHY.findall(ln):
+            hit = os.path.normpath(hit)
+            if hit == me or os.path.basename(hit) == os.path.basename(me):
+                continue                      # the file naming itself is not its own source
+            if hit not in srcs:
+                srcs.append(hit)
+            parts = hit.split(os.sep)
+            if len(parts) >= 2 and parts[0] == "AGENTS" and parts[1] not in owners:
+                owners.append(parts[1])
+            elif len(parts) >= 2 and parts[0] == "PROME" and "PROME" not in owners:
+                owners.append("PROME")
+    return srcs, owners
 
 
 def grade(b):
@@ -493,8 +571,8 @@ def check_agent(name, quiet=False, require_manifest=False):
             print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {dnote}. An unattested desk is UNKNOWN, "
                   f"never clean — the desk itself must attest (packet to PROME/inbox/; no desk may "
                   f"commit inside PROME/, and PROME may not attest on a desk's behalf).")
-            for pr in problems or []:
-                print(f"  ⛔ {pr}")
+            for sev, pr in problems or []:
+                print(f"  {'⛔' if sev == P_DEFECT else 'ℹ️ ADVISORY:'} {pr}")
         return 2, None
     if declared:
         files = {p: f"{mode} · {src}" for p, (mode, src) in cap_bearing.items()}
@@ -520,7 +598,29 @@ def check_agent(name, quiet=False, require_manifest=False):
         rows.append((mark, os.path.relpath(p, base), b, util, why, files[p]))
     n_over_cap = sum(1 for r in rows if r[0] == "🔴")
     n_over_budget = sum(1 for r in rows if r[0] in ("🔴", "🟠"))
-    rc = 1 if (n_over_budget or problems) else 0
+    # ── rc IS COMPUTED FROM DEFECTS ONLY (severity split 2026-09-14, DOCKET L354) ──
+    # Was `1 if (n_over_budget or problems)`. An ADVISORY is a reading this tool refuses to
+    # adjudicate; it can never be the reason a desk is not green. DEFECTS and the size backlog
+    # both still drive rc 1 — what changed is that they are now SEPARATELY COUNTED and stated, so
+    # no consumer has to re-derive which one fired (DOCKET L355 condition C1/C2).
+    defects = [m for sev, m in (problems or []) if sev == P_DEFECT]
+    advisories = [m for sev, m in (problems or []) if sev == P_ADVISORY]
+    rc = 1 if (n_over_budget or defects) else 0
+    # GENERATED reads carrying a REMEDY-BEARING tier, counted so the count can travel (L349 / C7).
+    # ⚠️ THE TIER SET IS 🔴/🟠/🟡, NOT 🔴/🟠 — found by reading the LIVE instance the row was
+    # raised about instead of the row's description of it. The 9/12 generated branch sat inside
+    # `if rc:`, so it could only ever fire on an OVER-BUDGET file. But the live case,
+    # AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv (WALTER:6b, `whole`), is 30,691 B = 94%
+    # of budget — 🟡, rc 0 — and grade() hands it the word "rotate-tier (≥75% of budget)".
+    # ⇒ THE INAPPLICABLE REMEDY WAS ALREADY PRINTING, ONE TIER BELOW WHERE THE FIX WAS BUILT, and
+    # at rc 0 where no caveat could reach it. L349 was registered as "fix BEFORE the instrument
+    # starts printing at scale"; it had already started. `finding_scan_keyed_on_naming_reads_local_
+    # form_as_absence` — the branch was keyed on the two marks someone had named, and the third
+    # mark carries the same remedy word. A remedy word, not a severity, is what needs the caveat.
+    REMEDY_TIERS = ("🔴", "🟠", "🟡")
+    gen_flagged = [(rel, generated_banner(os.path.join(base, rel)))
+                   for mark, rel, *_ in rows if mark in REMEDY_TIERS]
+    gen_flagged = [(r, bn) for r, bn in gen_flagged if bn]
     if not quiet:
         print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · {note}")
         for mark, rel, b, util, why, src in rows:
@@ -535,8 +635,8 @@ def check_agent(name, quiet=False, require_manifest=False):
             sz = os.path.join(ROOT, pth)
             bs = f"{os.path.getsize(sz):,} B" if os.path.isfile(sz) else "—"
             print(f"  ◦ {pth:<34}{bs:>9}  declared `{mode}` — not cap-bearing, not counted  ({src})")
-        for pr in problems or []:
-            print(f"  ⛔ {pr}")
+        for sev, pr in problems or []:
+            print(f"  {'⛔' if sev == P_DEFECT else 'ℹ️ ADVISORY:'} {pr}")
         if rc:
             if n_over_budget:
                 print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
@@ -571,21 +671,8 @@ def check_agent(name, quiet=False, require_manifest=False):
                       f"      'only the', 'just the', 'rows ', 'lines ', 'table', 'summary'.\n"
                       f"      ⛔ The matcher is deliberately LITERAL and fail-closed. Say the exact words — or\n"
                       f"      declare the file in PROME/registry/READS.tsv, which supersedes this heuristic.")
-            gen = [(rel, generated_banner(os.path.join(base, rel)))
-                   for mark, rel, *_ in rows if mark in ("🔴", "🟠")]
-            gen = [(r, b) for r, b in gen if b]
-            for rel, banner in gen:
-                print(f"   ⚠️  {rel} ANNOUNCES ITSELF AS GENERATED — the remedy above does NOT apply to it.\n"
-                      f"      banner: {banner}\n"
-                      f"      Rotation is MEANINGLESS (the next generator run restores every byte; a projection\n"
-                      f"      has no history to move) and rewording is IMPOSSIBLE (the generator copies its\n"
-                      f"      source verbatim). A generated file's SIZE IS NOT A PROPERTY OF ITSELF — it is a\n"
-                      f"      function of writing habits on its SOURCE surface. ⇒ This flag is really a flag on\n"
-                      f"      the SOURCE and routes to the SOURCE's owner. The only remedies are upstream:\n"
-                      f"      narrow the projected column set, or TYPE the source column so narrative cannot\n"
-                      f"      enter it. (RED 2026-09-12, on its own FALSIFICATION_TRIGGERS_SCAN.tsv.)")
-            if problems:
-                print(f"⚠️  READ-CAP 1 [{name}]: {len(problems)} manifest defect(s) above. A declared "
+            if defects:
+                print(f"⚠️  READ-CAP 1 [{name}]: {len(defects)} manifest defect(s) above. A declared "
                       f"read that does not resolve is a defect of the DECLARATION, not of the cap — "
                       f"the owner fixes the row (or the file), never this check.")
         elif declared:
@@ -597,10 +684,46 @@ def check_agent(name, quiet=False, require_manifest=False):
                   f"({len(rows)} file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no "
                   f"declaration in {os.path.relpath(READS_TSV, ROOT)}, so this is 'clean within what the "
                   f"scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.")
+        # ── GENERATED PROJECTIONS: PRINTED AT EVERY REMEDY TIER, NOT ONLY INSIDE `if rc:` ──
+        # Hoisted out of the rc branch 2026-09-14 (DOCKET L349). While it lived under `if rc:` it
+        # could not reach a 🟡 rotate-tier row, which is rc 0 — and the live instance the row was
+        # raised about is exactly that: 94% of budget, rc 0, handed the word `rotate-tier` with no
+        # caveat attached. A caveat that only fires once the file is ALREADY over budget arrives
+        # after the owner has acted on the advice it was meant to qualify.
+        for rel, banner in gen_flagged:
+            print(f"   ⚠️  {rel} ANNOUNCES ITSELF AS GENERATED — every remedy this check names for it, in the\n"
+                      f"      table row above (`rotate-tier`) and in any over-budget paragraph, does NOT apply.\n"
+                  f"      banner: {banner}\n"
+                  f"      Rotation is MEANINGLESS (the next generator run restores every byte; a projection\n"
+                  f"      has no history to move) and rewording is IMPOSSIBLE (the generator copies its\n"
+                  f"      source verbatim). A generated file's SIZE IS NOT A PROPERTY OF ITSELF — it is a\n"
+                  f"      function of writing habits on its SOURCE surface. ⇒ This flag is really a flag on\n"
+                  f"      the SOURCE and routes to the SOURCE's owner. The only remedies are upstream:\n"
+                  f"      narrow the projected column set, or TYPE the source column so narrative cannot\n"
+                  f"      enter it. (RED 2026-09-12, on its own FALSIFICATION_TRIGGERS_SCAN.tsv.)")
+            # C7 (2026-09-14): say WHO. "Route it upstream" with no upstream named is itself a
+            # remedy the reader cannot execute — the same shape as the inapplicable advice this
+            # branch exists to retire. Derived from the banner region, never from the file's own
+            # path (that names its READER, which is the wrong owner by construction).
+            srcs, owners = generated_sources(os.path.join(base, rel))
+            if owners or srcs:
+                print(f"      ➜ ROUTE TO: {', '.join(owners) if owners else '(no desk named in the banner)'}"
+                      f"   SOURCE(S) the banner names: {', '.join(srcs) if srcs else '(none)'}\n"
+                      f"        ⚠️  DERIVED from this file's own banner, not adjudicated — confirm before "
+                      f"sending. The reader's desk is NOT the owner of these bytes.")
+            else:
+                print(f"      ➜ ROUTE TO: ⛔ CANNOT DERIVE — this file's banner names no source path and no\n"
+                      f"        generator. Ask its owner who regenerates it; do NOT infer the owner from the\n"
+                      f"        file's location, which names the READER, not the source.")
+
     # W3: `problems` travels with the result. main() previously inferred the REASON for rc from
     # the over-budget counts, which is what produced the mark bug and then repeated it in the
     # label one line later. One instance did mean two; the fix is to stop inferring.
-    return rc, (name, len(rows), n_over_budget, n_over_cap, rows, problems or [])
+    if advisories and not quiet:
+        print(f"ℹ️  READ-CAP ADVISORY [{name}]: {len(advisories)} reading(s) this check will NOT "
+              f"adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a "
+              f"refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).")
+    return rc, (name, len(rows), n_over_budget, n_over_cap, rows, defects, advisories, gen_flagged)
 
 
 HDR = "row_kind\treader\tpath\tmode\tsource_boot_step\tdeclared_by\tdeclared_on\tnotes"
@@ -646,6 +769,8 @@ def selftest():
         chk("C2 summary not cap-bearing", len(vis), 1)
         chk("C1 attested", att, True)
         chk("C2/C5 no problems on a clean manifest", pr, [])
+        chk("C2/C5 a clean manifest yields no DEFECT and no ADVISORY",
+            ([sev for sev, _x in pr], len(pr)), ([], 0))
         # C2 — CAPABLE: the SAME file declared `whole` must now be measured (and is over the cap).
         m = _fixture(t, [A, "READ\tD\thuge.tsv\twhole\ts2\tD\t2026-09-12\t-"],
                      {"huge.tsv": CAP_BYTES + 5000})
@@ -660,11 +785,13 @@ def selftest():
                          "READ\tD\tsmall.md\twhole\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
         cb, vis, pr, att, _ = declared_reads("D", m, t)
         chk("C5 foreign attestation rejected", att, False)
-        chk("C5 foreign attestation reported", any("INVALID" in p for p in pr), True)
+        chk("C5 foreign attestation reported", any("INVALID" in x for _s, x in pr), True)
+        chk("C5 ...and it is a DEFECT, not an advisory",
+            sorted({_s for _s, x in pr if "INVALID" in x}), [P_DEFECT])
         # C6 — CAPABLE: a declared read that does not exist on disk. The heuristic CANNOT produce this.
         m = _fixture(t, [A, "READ\tD\tgone.md\twhole\ts1\tD\t2026-09-12\t-"], {})
         cb, vis, pr, att, _ = declared_reads("D", m, t)
-        chk("C6 absent declared path reported", any("DOES NOT EXIST" in p for p in pr), True)
+        chk("C6 absent declared path reported", any("DOES NOT EXIST" in x for _s, x in pr), True)
         chk("C6 absent path not silently measured", len(cb), 0)
         # C7 — a RETIRED row is skipped, not measured and not a problem.
         m = _fixture(t, [A, "READ\tD\tgone.md\tRETIRED-2026-09-01\ts1\tD\t2026-09-12\tretired"], {})
@@ -689,7 +816,8 @@ def selftest():
             declared_reads("ZZZ", m, t)[0] is None, True)
         # unknown mode is a manifest defect, not a silent skip
         m = _fixture(t, [A, "READ\tD\tsmall.md\tskim\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
-        chk("unknown mode reported", any("mode vocabulary" in p for p in declared_reads("D", m, t)[2]), True)
+        chk("unknown mode reported",
+            any("mode vocabulary" in x for _s, x in declared_reads("D", m, t)[2]), True)
         # BASIS rows are not reads
         m = _fixture(t, [A, "BASIS\tD\tsmall.md\tboot-defining\ts1\tD\t2026-09-12\t-"], {"small.md": 100})
         chk("BASIS row is not a read", declared_reads("D", m, t)[:2], ({}, []))
@@ -725,14 +853,43 @@ def selftest():
                          "READ\tE\ttool.py\tsummary\ts4\tE\t2026-09-12\tE invokes it"],
                      {"tool.py": 100, "doc.md": 100})
         cb, vis, pr, att, _ = declared_reads("D", m, t)
-        exe = [x for x in pr if "EXECUTABLE" in x]
+        exe = [x for sev, x in pr if "EXECUTABLE" in x]
         chk("exe: .py declared programmatic is flagged", len(exe), 1)
         chk("exe: the corroborating cross-reader mode is named", "summary" in exe[0], True)
         chk("exe: a .md whole read is NOT flagged though another reader says scoped",
-            any("doc.md" in x for x in pr), False)
+            any("doc.md" in x for sev, x in pr), False)
+        # ── SEVERITY SPLIT (2026-09-14, DOCKET L354) ─ the executable line is ADVISORY, not a
+        # DEFECT, and the split is asserted on the TYPE, not on the message text: a message can be
+        # reworded, a severity token cannot drift silently. Both directions watched.
+        chk("split: the executable reading is typed ADVISORY",
+            sorted({sev for sev, x in pr if "EXECUTABLE" in x}), [P_ADVISORY])
+        _sr, _sroot = READS_TSV, ROOT
+        READS_TSV, ROOT = m, t
+        _adv_rc, _adv_res = check_agent("D", quiet=True)
+        READS_TSV, ROOT = _sr, _sroot
+        chk("split: an ADVISORY-only desk is rc 0 — a legitimate `programmatic` CAN be green",
+            _adv_rc, 0)
+        chk("split: ...and the advisory is still REPORTED, not deleted (it counts)",
+            (len(_adv_res[6]), len(_adv_res[5])), (1, 0))
+        m2 = _fixture(t, [A, "READ\tD\tgone.md\twhole\ts1\tD\t2026-09-12\t-"])
+        pr2 = declared_reads("D", m2, t)[2]
+        chk("split: a missing declared file is typed DEFECT (not advisory)",
+            sorted({sev for sev, x in pr2}), [P_DEFECT])
+        m2 = _fixture(t, [A, "READ\tD\tdoc.md\tbogusmode\ts1\tD\t2026-09-12\t-"], {"doc.md": 10})
+        chk("split: a bad mode is typed DEFECT",
+            sorted({sev for sev, x in declared_reads("D", m2, t)[2]}), [P_DEFECT])
+        # OVERLAP NEIGHBOUR (the category that would have been missed): a desk carrying BOTH an
+        # advisory and a defect must report BOTH, each under its own severity, and be rc 1 for the
+        # DEFECT — never rc 1 "because of the advisory" and never advisory-suppressed by the defect.
+        m2 = _fixture(t, [A,
+                          "READ\tD\ttool.py\tprogrammatic\ts1\tD\t2026-09-12\t-",
+                          "READ\tD\tgone.md\twhole\ts2\tD\t2026-09-12\t-"], {"tool.py": 100})
+        pr3 = declared_reads("D", m2, t)[2]
+        chk("overlap: both severities survive together",
+            (sorted({sev for sev, x in pr3}), len(pr3)), ([P_ADVISORY, P_DEFECT], 2))
         m = _fixture(t, [A, "READ\tD\ttool.py\tsummary\ts1\tD\t2026-09-12\t-"], {"tool.py": 100})
         chk("exe: .py declared summary is clean (the correct form)",
-            [x for x in declared_reads("D", m, t)[2] if "EXECUTABLE" in x], [])
+            [x for sev, x in declared_reads("D", m, t)[2] if "EXECUTABLE" in x], [])
 
         # ── GENERATED-FILE REMEDY ROUTING (RED 2026-09-12) ────────────────────────────────────
         # The banner must be found ANYWHERE in the first five lines, not on line 0: this repo's own
@@ -756,6 +913,35 @@ def selftest():
             chk(f"generated banner: {why}", generated_banner(f) is not None, want)
         chk("generated banner: missing file returns None, never raises",
             generated_banner(os.path.join(t, "nope.md")), None)
+
+        # ── ROUTING TARGET (2026-09-14, DOCKET L349 / C7) — "route it upstream" must name WHO ──
+        # Both directions: a banner that names sources yields them; a banner that names none must
+        # say CANNOT DERIVE rather than guess from the file's own path (which names its READER).
+        _sroot = ROOT
+        try:
+            ROOT = t
+            open(os.path.join(t, "r1.tsv"), "w").write(
+                "# GENERATED VIEW — do not hand-edit. Regenerate: python3 AGENTS/ZZ/scripts/gen.py "
+                "| canon=AGENTS/ZZ/registry/CANON.tsv\nrow\n")
+            srcs, owners = generated_sources(os.path.join(t, "r1.tsv"))
+            chk("route: the banner's source paths are read out",
+                sorted(srcs), ["AGENTS/ZZ/registry/CANON.tsv", "AGENTS/ZZ/scripts/gen.py"])
+            chk("route: the owning desk is derived from the source path", owners, ["ZZ"])
+            open(os.path.join(t, "r2.tsv"), "w").write(
+                "# GENERATED — do not hand-edit.\nrow\n")
+            chk("route: a banner naming nothing derives NOTHING (never guesses)",
+                generated_sources(os.path.join(t, "r2.tsv")), ([], []))
+            open(os.path.join(t, "r3.tsv"), "w").write(
+                "# GENERATED — do not hand-edit. Regenerate: python3 r3_gen.py from r3.tsv\nrow\n")
+            # A BARE filename (no directory) is deliberately NOT derived, and this leg pins that
+            # choice rather than the convenience: a bare token is relative to an unstated cwd, so it
+            # names no desk and cannot answer the only question this function is asked — WHO owns
+            # these bytes. The honest output is CANNOT DERIVE, which sends the reader to ask.
+            # Loosening the matcher to bare tokens would also start matching ordinary prose.
+            chk("route: a BARE filename derives no owner (fail closed, do not guess)",
+                generated_sources(os.path.join(t, "r3.tsv")), ([], []))
+        finally:
+            ROOT = _sroot
 
         # ── PUBLIC-PATH LEGS (CODEX findings 2 & 3, 2026-09-12) ───────────────────────────────
         # ⛔ THESE EXIST BECAUSE THE HELPER LEGS WERE NOT ENOUGH AND A GREEN SUITE CERTIFIED A
@@ -882,6 +1068,32 @@ def selftest():
     return 0 if not fail else 1
 
 
+# ── THE MACHINE-READABLE REASON CHANNEL (2026-09-14, DOCKET L355 conditions C1/C3) ───────────
+# WHY THIS EXISTS AND WHY A PROSE SUMMARY IS NOT IT. scripts/validate_all.py's D1 leg ran this
+# tool, matched a regex against the TOTALS SENTENCE, and decided PASS/ADVISORY from the two
+# numbers it found. That is re-deriving a REASON from a RESULT. With an identical
+# "0/37 over BUDGET" summary the child's rc 0, 1 and 2 are three different worlds, and the
+# summary is byte-identical in all three — so a MISSING DECLARED FILE (manifest defect, rc 1,
+# zero over-budget desks) rendered as PASS. The counts were true; the verdict was invented.
+#
+# ⛔ THE RULE THIS ENCODES: pass the reason ACROSS the boundary; never re-derive it from prose on
+# the far side. A three-state rc carrying a one-bit reason is not a contract, it is a guess with
+# an exit code attached.
+#
+# CONTRACT — one line, last line of output, stable key=value pairs, never localised, never
+# reordered by content. `assessed` GATES EVERY OTHER COUNT: assessed=0 means no number on this
+# line was earned and a consumer MUST NOT read one (the same discipline as the fleet totals
+# suppression added 2026-09-12 — a number is never printed where it cannot be earned, and never
+# BELIEVED where it could not be). Keys may be ADDED; existing keys never change meaning.
+RESULT_PREFIX = "READ-CAP-RESULT v1"
+
+
+def _result_line(mode, rc, assessed, **counts):
+    parts = [RESULT_PREFIX, f"mode={mode}", f"rc={rc}", f"assessed={assessed}"]
+    parts += [f"{k}={v}" for k, v in counts.items()]
+    return " ".join(parts)
+
+
 def main(argv):
     args = argv[1:]
     if "--selftest" in args:
@@ -891,17 +1103,30 @@ def main(argv):
         args = [a for a in args if a != "--require-manifest"]
     if "--agent" in args:
         name = args[args.index("--agent") + 1]
-        rc, _ = check_agent(name, require_manifest=require_manifest)
+        rc, res = check_agent(name, require_manifest=require_manifest)
+        if res is None:
+            # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
+            # because it is clean, and `assessed=0` is the flag that says so.
+            print(_result_line("agent", rc, 0, desk=name, reads=0, over_budget=0, over_cap=0,
+                               manifest_defects=0, advisories=0, generated_flagged=0))
+        else:
+            _, n, nb, nc, _rows, defs, advs, gen = res
+            print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
+                               manifest_defects=len(defs), advisories=len(advs),
+                               generated_flagged=len(gen)))
         return rc
     if "--fleet" in args:
         desks = fleet_desks()
         if not desks:
             print("READ-CAP 2 CANNOT-EVALUATE: FLEET_DIRECTORY.md unreadable — regenerate it")
+            print(_result_line("fleet", 2, 0, desks=0, cannot_evaluate=0, desks_over_budget=0,
+                               desks_over_cap=0, desks_with_manifest_defect=0,
+                               desks_with_advisory=0, generated_flagged=0))
             return 2
         print(f"READ-CAP FLEET — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B · {len(desks)} active+tier-2 desks · "
               f"perimeter per desk = heuristic boot-read set (see --agent for each)")
         print(f"  {'desk':10}{'reads':>6}{'>budget':>9}{'>cap':>6}  worst file (% is of BUDGET — the number the verdict grades)")
-        tot_b = tot_c = 0; bad = []; cant = []
+        tot_b = tot_c = tot_def = tot_adv = tot_gen = 0; bad = []; cant = []
         for d in desks:
             rc, res = check_agent(d, quiet=True)
             if res is None:
@@ -911,8 +1136,9 @@ def main(argv):
                 # an invalid mode rendered as a GREEN, ZERO-READ row. A desk we could not assess must
                 # never read greener in --fleet than it does in --agent.
                 cant.append(d); continue
-            name, n, nb, nc, rows, probs = res
+            name, n, nb, nc, rows, probs, advs, gen = res
             tot_b += (nb > 0); tot_c += (nc > 0)
+            tot_def += (len(probs) > 0); tot_adv += (len(advs) > 0); tot_gen += len(gen)
             worst = rows[0] if rows else None
             w = f"{worst[1]} {worst[3]:.0%} of budget" if worst else "—"
             mark = "🔴" if nc else ("🟠" if nb else "✅")
@@ -948,9 +1174,19 @@ def main(argv):
             print(f"\n  desks with ≥1 boot read over BUDGET: {tot_b}/{n_assessed} · over the CAP: "
                   f"{tot_c}/{n_assessed}" + (f"   (of {n_assessed} ASSESSED, not {len(desks)} — "
                   f"{len(cant)} CANNOT-EVALUATE: {', '.join(cant)})" if cant else ""))
-        if cant:
-            return 2
-        return 1 if bad else 0
+        if tot_adv:
+            print(f"  ℹ️  {tot_adv} desk(s) carry an ADVISORY reading this check will not adjudicate "
+                  f"(`--agent <NAME>` for the text). ⛔ Advisories do NOT drive rc — a refusal to "
+                  f"adjudicate cannot be a blocking verdict (severity split 2026-09-14, DOCKET L354).")
+        if tot_gen:
+            print(f"  ℹ️  {tot_gen} flagged read(s) are GENERATED projections — those flags route to the "
+                  f"SOURCE surface's owner, not to the reader's desk (`--agent <NAME>` names the target).")
+        rc_fleet = 2 if cant else (1 if bad else 0)
+        print(_result_line("fleet", rc_fleet, n_assessed, desks=len(desks),
+                           cannot_evaluate=len(cant), desks_over_budget=tot_b,
+                           desks_over_cap=tot_c, desks_with_manifest_defect=tot_def,
+                           desks_with_advisory=tot_adv, generated_flagged=tot_gen))
+        return rc_fleet
     # explicit files (legacy form)
     paths = args
     # UNKNOWN FLAG GUARD (2026-09-03, Codex/PROME: `--all` fell through to this legacy path, was read
