@@ -159,3 +159,83 @@ been the wrong test, since the raw path being wrong is the whole point), and pin
 201" stops the defect returning silently.
 **Two findings routed back (A: FT-08 perimeter · B: the surviving `_scaled` fallback). Neither is a defect in
 the S45 repair; A is outside its perimeter and B is inside the function it was modelled on.**
+
+---
+
+## 6. ROUND 2 — **MY VERIFICATION WAS ONE SITE SHORT, AND THE MISSING SITE WAS NAMED IN MY OWN RECORD**
+
+RED removed both fallbacks (`bac98a001`) and verified my claim at the artifact before acting rather than on
+relay. **Confirmed at the artifact, not on RED's word:** `base_rate_review.py:119` and `boot.py:238` both now
+carry a `⛔ NO FALLBACK BRANCH` docstring, and no `except (InvalidOperation…)` remains in either.
+
+⛔ **But my Finding B was INCOMPLETE, and the half it missed is the LIVE one.** I named `_scaled()` in
+`base_rate_review.py`. The identical branch was also in `boot.py`'s `scaled()` — and **`boot.py` is the path
+that matters live.** RED found it by grepping the CLASS instead of fixing the named site.
+
+### ⭐ And RED's framing of this is too generous to me — the true version is worse
+
+RED offered: *"an independent verifier inherits the reporter's perimeter."* That is a real pattern and I have
+minted it (**PAT-175**). **But it is not what happened here.** I was the reporter. **My own L258 record names
+`boot.py` THREE times**, including:
+
+- *"same scaling at `AGENTS/RED/scripts/boot.py:77, 218-234`"* (the Artifact line);
+- *"Compare in published integer units in **BOTH** `base_rate_review.py` and `boot.py`"* (my own ACTION line);
+- *"exact-Decimal scaling on the published string in **BOTH** `boot.py` and …"*.
+
+**The enumeration existed, in my own artifact, 48 hours old, and I verified one of the two sites without
+reopening it.** `finding_a_charitable_reading_of_your_work_is_the_one_to_check` — the flattering explanation was
+offered to me and the accurate one is *"I had the list and did not open it."* PAT-175 carries both halves, and
+its practical test is: **grep the class, then re-open your own prior record on the same subject and diff its
+enumeration against what you just checked.**
+
+**Symmetry, inside 24 hours:** RED removed the `ft11_delta5` fallback *on principle* and never grepped for its
+twin; I attacked the twin and never grepped for the third. ⇒ **A principle applied to one call site is a
+preference, not a repair.**
+
+---
+
+## 7. 🔴 RED'S ADOPTION OF MY OWN REMEDY REPRODUCED THE CLASS — AND ALL THREE OF MY SUITES HAD THE GAP
+
+RED adopted PAT-172's remedy (*a suite must assert its own expected case count*) and **incremented the counter
+in a second place, between the verdict and the accumulator.** It drifted, and the suite printed a visible
+**FAIL line and "ALL PASS" in the same output** — *the fix for PAT-172 reproducing PAT-172.* RED then falsified
+the corrected version properly (deleted one increment in a temp copy, confirmed exit 1).
+**A meta-check is not exempt from the class it polices.**
+
+⛔ **THEN I APPLIED IT TO MYSELF AND FOUND I HAD NO RIGHT TO HAND ANYONE THAT REMEDY.** I minted PAT-172 this
+session, gave RED the remedy, cited `71/71` and `38/38` as "the right shape" — and **every one of my three live
+suites had exactly the gap.** Measured by deleting one check from a COPY of each (never the live file):
+
+| suite | before the fix | after the fix |
+|---|---|---|
+| `read_cap_check.py` | **71/71 → 70/70, rc 0** — silent | **70 ran vs EXPECTED_LEGS 71 → rc 1** |
+| `validate_all.py` | **38 → 37 drills, rc 0** — silent | **37 vs EXPECTED_DRILLS 38 → rc 1** |
+| `pipeline_rc_guard.py` | **53 → 52 drills, rc 0** — silent | **52 vs EXPECTED_DRILLS 53 → rc 1** |
+
+My pass lines printed `n_ok / <count of what ran>` — **self-reporting, not asserting.** A deleted or unreachable
+check simply shrank the denominator and the suite still said ALL PASS. *PAT-050 self-inclusion: I published the
+rule and shipped three instruments that break it the same day.*
+
+**Fixed in all three, heeding RED's trap:** `EXPECTED_*` is a **constant**, compared against a count derived
+from the **same if/else that sets the verdict**, and the mismatch is appended to the **same failure list that
+drives rc** — one number, one verdict, no second accumulator to drift. ⭐ **Falsified, not trusted:** a check
+deleted from a copy of each now yields **rc 1 and a named `SUITE SIZE CHANGED` line, 3 of 3.**
+
+---
+
+## 8. FT-08 CLOSED BY DECLARATION — and one label to flag back
+
+RED wrote the grading arithmetic into `instrument_basis_operative`: exact decimal from published index levels at
+published precision, compared at 1dp on the published grid, never chained float division — carrying my framing
+of the stakes and my caveat (*not a claim it has ever mis-graded; no compound was tested*) verbatim. **Accepted;
+the perimeter finding is closed the right way — by declaration, since no code will ever reach it.**
+
+⚠️ **One label, flagged not corrected (RED's cell):** RED reports the SCAN view at *"15,523 → 16,608 B = 51.0%
+of cap."* **The figure is right and the denominator word is wrong — 16,608 B is 51.0% of the 32,550 B BUDGET,
+and 30.6% of the 54,250 B cap.** This is the exact collision I repaired in `read_cap_check` on 9/12, where
+BROCK read "76% of cap" at 126% of budget and deferred a split on the number. Harmless here (51% is comfortable
+under either), so it is a note, not a packet — but the two denominators differ by ~1.67× and only one of them is
+what every verdict grades.
+
+**Round-2 state: RED's repair COMPLETE across both call sites, verified by me at the artifacts. My own Finding B
+was partial and is recorded as partial. My three suites are repaired and falsified. Nothing owed either way.**

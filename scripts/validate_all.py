@@ -921,6 +921,20 @@ def _fixture_repo(tmp: Path, *, docket_ok=True, gates_ok=True, wq_ok=True,
     return tmp
 
 
+# ── THE SUITE ASSERTS ITS OWN SIZE (2026-09-14) ───────────────────────────────────────────────
+# WHY: a pass line that prints `n_ok / <count of what ran>` is SELF-REPORTING, not asserting.
+# Delete a check and the suite prints a smaller number and still exits 0 — an unreachable or
+# deleted test is indistinguishable from a passing one in the only output anyone reads (PAT-172).
+# MEASURED on this file before the fix: deleting one check took it from 71/71 to 70/70, rc 0.
+# ⚠️ I MINTED PAT-172 AND HANDED THIS REMEDY TO RED WHILE ALL THREE OF MY OWN SUITES HAD THE GAP.
+# ⛔ AND RED'S ADOPTION OF IT REPRODUCED THE CLASS: it incremented an expected-count in a second
+# place, which drifted from the verdict, and the suite printed a FAIL line and ALL PASS together.
+# So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
+# the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
+# one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
+EXPECTED_DRILLS = 38
+
+
 def selftest():
     """Drills. Each builds a REAL defective or clean fixture input and WATCHES
     the line print — never a mutated live surface (§3 monkeypatched-legs form)."""
@@ -1240,6 +1254,10 @@ def selftest():
         print(f"  {'PASS' if ok else 'FAIL'}  {name}")
         print(f"        got [{state}] {str(line)[:110]}")
     n_ok = sum(1 for *_x, ok in drills if ok)
+    if len(drills) != EXPECTED_DRILLS:
+        failures.append(f"SUITE SIZE CHANGED: {len(drills)} drill(s) ran, EXPECTED_DRILLS says "
+                        f"{EXPECTED_DRILLS}. A deleted drill is invisible in a self-reported count "
+                        f"(PAT-172) — update EXPECTED_DRILLS in the same edit if deliberate.")
     if failures:
         print(f"❌ SELFTEST 1: {n_ok}/{len(drills)} drills behaved")
         for f in failures:

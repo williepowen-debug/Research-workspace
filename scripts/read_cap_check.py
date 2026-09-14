@@ -742,6 +742,20 @@ def _fixture(tmp, rows, sizes=None):
     return man
 
 
+# ── THE SUITE ASSERTS ITS OWN SIZE (2026-09-14) ───────────────────────────────────────────────
+# WHY: a pass line that prints `n_ok / <count of what ran>` is SELF-REPORTING, not asserting.
+# Delete a check and the suite prints a smaller number and still exits 0 — an unreachable or
+# deleted test is indistinguishable from a passing one in the only output anyone reads (PAT-172).
+# MEASURED on this file before the fix: deleting one check took it from 71/71 to 70/70, rc 0.
+# ⚠️ I MINTED PAT-172 AND HANDED THIS REMEDY TO RED WHILE ALL THREE OF MY OWN SUITES HAD THE GAP.
+# ⛔ AND RED'S ADOPTION OF IT REPRODUCED THE CLASS: it incremented an expected-count in a second
+# place, which drifted from the verdict, and the suite printed a FAIL line and ALL PASS together.
+# So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
+# the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
+# one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
+EXPECTED_LEGS = 71
+
+
 def selftest():
     """CHECK_STANDARD §3: every leg watched on a CAPABLE case (the alert fires) AND a CLEAN case
     (the clean line prints). rc 0 = all legs pass. Closes this file's own gap-register row — leg A9
@@ -1061,6 +1075,10 @@ def selftest():
             READS_TSV, ROOT = sav_r, sav_root
 
     total = ok + len(fail)
+    if total != EXPECTED_LEGS:
+        fail.append(f"SUITE SIZE CHANGED: {total} leg(s) ran, EXPECTED_LEGS says {EXPECTED_LEGS}. "
+                    f"A deleted or unreachable leg is invisible in a self-reported count (PAT-172) — "
+                    f"if you added or removed legs deliberately, update EXPECTED_LEGS in the same edit.")
     for f in fail:
         print(f"  ❌ {f}")
     print(f"{'✅' if not fail else '❌'} READ-CAP SELFTEST {ok}/{total} leg(s) pass "
