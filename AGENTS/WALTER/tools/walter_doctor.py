@@ -26,6 +26,7 @@ Checks:
   registry_self_lag      WALTER's own REGISTRY row vs WALTER STATUS.md header date
   liaison_enum           LIAISON files on disk (informational)
   delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
+  board_log_path_divergence  a desk whose consumption record is NOT at the canonical board_log.tsv path (DISCLOSED, never silently resolved)
   written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
   delivery_claim_vs_git    delivery_log says 'delivered' but git says untracked/gone (2026-07-27 orphan class)
   deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
@@ -875,17 +876,70 @@ PULL_COMPLETE = {"CARL", "RED", "PROME", "TERRY"}  # TERRY added 2026-08-26: §3
 _BOARD_LOG_CACHE = {}
 
 
+# Known consumption-record locations, in priority order. The FIRST is canonical
+# (BOARD_CONSUMPTION_SPEC §5); the rest are real divergences measured in the tree.
+# ⚠️ A fallback that resolves SILENTLY is the defect it is trying to fix wearing a
+# different hat — so `_BOARD_LOG_PATH_USED` records which one answered and
+# `check_board_log_path_divergence` REPORTS it. Never paper over the divergence.
+_BOARD_LOG_PATHS = ("board_log.tsv", "board/BOARD_LOG.tsv", "board/board_log.tsv", "BOARD_LOG.tsv")
+_BOARD_LOG_PATH_USED = {}
+
+
 def _recipient_board_log(recipient):
-    """The recipient's OWN consumption record (`AGENTS/<X>/board_log.tsv`), read raw.
-    Empty string when the desk keeps no board_log — which is NOT evidence either way."""
+    """The recipient's OWN consumption record, read raw. Empty string when the desk
+    keeps none — which is NOT evidence either way.
+
+    🔴 THE DEFECT THIS FIXES (DOCKET L352, found by BROCK, root-caused 2026-09-14).
+    This looked ONLY at `AGENTS/<X>/board_log.tsv`. REGINALD keeps its record at
+    `AGENTS/REGINALD/board/BOARD_LOG.tsv` — a different DIRECTORY *and* a different
+    CAPITALISATION — so this returned 0 bytes and every WALTER instrument rendered a
+    desk that consumes and logs diligently as a desk that keeps no record at all.
+    ⚠️ The failure direction was the flattering one for the INSTRUMENT and the unfair
+    one for the DESK: `delivered_but_unconsumed` could never corroborate a REGINALD
+    consumption, so REGINALD's items sat permanently in the unverifiable `aged` bucket.
+    `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+
+    ⛔ REGINALD ruled DO NOTHING on its own side (no mirror, no schema conversion) on
+    DAEDALUS's ruling that a mirror FORKS the ledger — correctly, so the instrument side
+    is the only live half. Measured class size: CARL keeps BOTH paths; REGINALD only the
+    alternate. Schema-agnostic by construction — callers do line-scoped substring tests,
+    so a differing column layout does not matter."""
     k = recipient.upper()
     if k not in _BOARD_LOG_CACHE:
-        f = REPO / "AGENTS" / recipient / "board_log.tsv"
-        try:
-            _BOARD_LOG_CACHE[k] = f.read_text(errors="replace") if f.exists() else ""
-        except OSError:
-            _BOARD_LOG_CACHE[k] = ""
+        _BOARD_LOG_CACHE[k] = ""
+        for rel in _BOARD_LOG_PATHS:
+            f = REPO / "AGENTS" / recipient / rel
+            try:
+                if f.exists():
+                    _BOARD_LOG_CACHE[k] = f.read_text(errors="replace")
+                    _BOARD_LOG_PATH_USED[k] = rel
+                    break
+            except OSError:
+                continue
     return _BOARD_LOG_CACHE[k]
+
+
+def check_board_log_path_divergence():
+    """Desks whose consumption record is NOT at the canonical path — DISCLOSED, not hidden.
+
+    🔑 WHY THIS EXISTS AND IS NOT OPTIONAL. `_recipient_board_log` now falls back across
+    known alternate paths so REGINALD stops reading as a desk that keeps no record. A
+    silent fallback would trade one invisible divergence for another: the telemetry would
+    go green while the fleet quietly ran two conventions. This check makes the divergence
+    a REPORTED FACT at every boot. It is INFO, not MED — a desk is entitled to its own
+    layout; what is not acceptable is nobody knowing."""
+    out = []
+    for d in sorted((REPO / "AGENTS").glob("*/")):
+        name = d.name
+        _recipient_board_log(name)                      # populates the path map
+        rel = _BOARD_LOG_PATH_USED.get(name.upper())
+        if rel and rel != _BOARD_LOG_PATHS[0]:
+            out.append((INFO, f"{name}: consumption record read from `{rel}`, NOT the canonical "
+                              f"`board_log.tsv` — resolved by fallback and reported so the "
+                              f"divergence is visible; the desk is free to keep its own layout"))
+    if not out:
+        return [(INFO, "all consumption records at the canonical `board_log.tsv` path")]
+    return out
 
 
 def check_delivered_but_unconsumed():
@@ -2728,6 +2782,7 @@ CHECKS = [
     ("registry_self_lag", check_registry_self_lag),
     ("liaison_enum", check_liaison_enum),
     ("delivered_but_unconsumed", check_delivered_but_unconsumed),
+    ("board_log_path_divergence", check_board_log_path_divergence),
     ("written_but_undelivered", check_written_but_undelivered),
     ("delivery_claim_vs_git", check_delivery_claim_vs_git),
     ("deep_research_pending_overdue", check_deep_research_pending_overdue),
