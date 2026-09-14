@@ -40,7 +40,7 @@
 |---|---|---|---|---|
 | EIA | WPSR wk-9/11 (SPR second print) | Wed 9/16 10:30 ET | Only thing that resolves L305 | Frozen branches; NO-VERDICT re-reads the next two. |
 | Baker Hughes / CFTC | Friday pair, COT as-of 9/8 | Fri 9/11 ~13:00 / ~15:30 ET | BRT-26 (457 line, 449 at 9/4, 3 prints left) and COT-FUEL-35B (3 consecutive NO-VERDICT) | Unchanged letters; don't stack. |
-| TERRY / Will | XLE broker fill receipt | Since 9/9 open | Selection is not fill | Close L253 only on receipt. |
+| ~~TERRY / Will~~ | ✅ **XLE fill receipt — RESOLVED 2026-09-14** | **Existed 9/11; reached this desk 9/14** | **A receipt can exist and still not reach the desk that is waiting for it** | **FILLED 2026-09-11 @ `$1.51`, realized −$77.33 / −33.97%; `L253`/WQ-210 CLOSED.** ⚠️ **It sat at TERRY and in FORGE for three days while this brief listed it as WAITING-FOR. Delivered by WILL, via a broker screenshot — not by the routing layer and not by my own PENDING-row guard.** ⛔ First contract's date/price still UNKNOWN (FORGE `D-49`). |
 | FALCON | VI-2026-0028 laden-state note; trigger (c) adjudication on the Dubai anchorage hit; New Andros / Hercules Star VI rows | Next FALCON touch (9/14 re-mark) | Vessel ledger is FALCON's | Informs, does not move BG-02. |
 | PortWatch / FALCON | Aug 31–Sep 1 target rows | UNKNOWN | Transit instrument impeached | Frozen branches only on target match. |
 | Official Russian publication / OSPREY | No.1097 authentication | Oct 1 full read | Q1 policy vs Q2 flow vs Q3 crack | No clock reset. |

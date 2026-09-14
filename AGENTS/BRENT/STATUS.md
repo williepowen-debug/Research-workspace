@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-12 ~14:0x ET — CFTC COT as-of 2026-09-08 pulled at the RAW primary (`f_disagg.txt`); Saudi MoE/MoFA Petroline statements read at source.** ⛔ **NO LIVE TAPE THIS SESSION — markets CLOSED (Saturday).** Every price on this surface is a **9/11 observation**, labelled as such; ⛔ **do not read any level here as current** (root rule #4). **`GATE-BRENT-COT-35B` vintage #5 GRADED: JOINT NO-VERDICT, 4th consecutive — sizing BASE CASE.** **BG-02 ⛔ NOT MET** on the state's own statement; **🔴 a defect in my own R2/R3 resolver goes to Will.** WPSR wk-9/4 is the last physical read (L305 first print: NO VERDICT). Retail: Sept 7 obs. USO Oct call CLOSED; XLE receipt pending. [9/12 adjudication](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md) · [WPSR report](research/2026-09-10_wpsr/REPORT.md) · [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md).
+**Last real data refresh: 2026-09-12 ~14:0x ET — CFTC COT as-of 2026-09-08 pulled at the RAW primary (`f_disagg.txt`); Saudi MoE/MoFA Petroline statements read at source.** ⛔ **NO LIVE TAPE THIS SESSION — markets CLOSED (Saturday).** Every price on this surface is a **9/11 observation**, labelled as such; ⛔ **do not read any level here as current** (root rule #4). **`GATE-BRENT-COT-35B` vintage #5 GRADED: JOINT NO-VERDICT, 4th consecutive — sizing BASE CASE.** **BG-02 ⛔ NOT MET** on the state's own statement; **🔴 a defect in my own R2/R3 resolver goes to Will.** WPSR wk-9/4 is the last physical read (L305 first print: NO VERDICT). Retail: Sept 7 obs. 🔴 **POSITION CORRECTION 9/14: the energy book is ONE leg — `USO 37 shares`. `XLE Sep-30 65C` is FLAT, sold 2026-09-11 @ `$1.51` (realized −$77.33); this desk carried it OPEN for three days.** [9/12 adjudication](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md) · [WPSR report](research/2026-09-10_wpsr/REPORT.md) · [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md).
 
 ---
 
@@ -95,7 +95,7 @@
 | **Fri Sep 4** | ✅ FRIDAY PAIR — FIRED 2026-09-04, BOTH LEGS GRADED 2026-09-06 (2d latency, desk dark Fri; no stack — graded before the 9/11 prints) | 🔴 |
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
-| **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
+| **Wed Sep 9** | ✅ XLE approved exit — FIRED AND GRADED: FILLED 2026-09-11 @ $1.51, line FLAT | 🔴 |
 | **Wed Sep 9** | USO October 135C — CLOSED; October 9 time stop discharged | 🟡 |
 | **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
 | **Wed Sep 9** | EIA September STEO — READ: same-series comparison completed | 🟠 |
@@ -129,7 +129,7 @@
 
 **Three things worth your eye:** ⛔ **the `~700 kb/d` figure in the news cycle is an APRIL 2026 number** (same pipeline, same pumping-station damage class, same SPA phrasing) — do not price off it · **the Reuters "5–7 days" is the YANBU clock, not the EXPORT clock** (the same piece carries a second Ain Sukhna/Sidi Kerir buffer the headlines dropped) · **"restart" ≠ "full repair"** — pumping stations set throughput, so a partial restart can precede repair by weeks, which is why the ~63% restart market and the "3–5 weeks" wires are not actually in conflict.
 
-**⛔ STAND DOWN (`WQ-192`) remains binding — `$0` moved, nothing armed, nothing proposed.** Position state and execution rules: [TRADE.md](TRADE.md#positions-live). **XLE `L253` fill receipt still outstanding** (TERRY/PROME). **BG-02 stands NOT MET** and I have **pre-registered that its 9/17–9/25 window is NOT gradeable on the throughput leg alone** — lapse is now the modal outcome. **`WQ-234` (my own resolver defect) is with you, needed-by 9/18.**
+**⛔ STAND DOWN (`WQ-192`) remains binding — `$0` moved, nothing armed, nothing proposed.** Position state and execution rules: [TRADE.md](TRADE.md#positions-live). ✅ **XLE `L253` RESOLVED — sold 2026-09-11 @ `$1.51`, realized −$77.33** (receipt existed at TERRY/FORGE from 9/11; reached this desk only via Will's 9/14 screenshot). ⛔ **The FIRST contract's date/price stay UNKNOWN (FORGE `D-49`).** **BG-02 stands NOT MET** and I have **pre-registered that its 9/17–9/25 window is NOT gradeable on the throughput leg alone** — lapse is now the modal outcome. **`WQ-234` (my own resolver defect) is with you, needed-by 9/18.**
 
 **Next dated work → the generated 📅 CATALYST CALENDAR above and `docket/CATALYSTS.tsv`** (canonical). The two that bind soonest: **Wed 9/16 10:30 ET WPSR = the L305 SPR resolver** (Δ2 vs `285.360M`: A ≥ `−2.756M` · B ≤ `−6.756M`; **BRT-29 T at `−1.4%` needs ≤ `−3.0%`**) and **Thu 9/17 BG-02 earliest gradeable**.
 
