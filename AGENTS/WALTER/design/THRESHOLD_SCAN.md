@@ -1,4 +1,4 @@
-# WALTER Threshold Scan v0.43
+# WALTER Threshold Scan v0.44
 
 **This file is the authoritative CHECKLIST Phase 2 step 7 procedure. Read it WHOLE at boot step 6c and when executing Phase 2 step 7 at dispatch.** The registry-loading step is CLAUDE.md 6b; current instrument basis, sustain, state and exit come from the owner registries, not dated examples below. Read current values on their registered observation schedules and label each observation date. Boot includes the four registered owner families and Cushing as specified by CLAUDE.md 6b/6c.
 
@@ -54,6 +54,20 @@ Size re-trigger: measure after any append and every Tier-2; next calendar check 
 > 🔴 **SCOPE IS WIDER THAN v0.42 SAID: THE EXPOSURE IS "ANYTHING WITH A WTI LEG", NOT "anything RB-based."** **Both products AND Brent rolled to November; `CL=F` is the odd one out** (`BZ=F` expire 2026-10-01 == `BZX26`, a legitimate November front, NOT a fallback; `CL=F` expire 2026-09-22 == `CLV26`). ⇒ **Brent–WTI spreads taken from the two continuous tickers are ALSO mismatched** until `CL=F` rolls — **a volume event, NOT the 9/22 expiry, which is only an UPPER BOUND.**
 >
 > ✅ **HOW TO TEST CONTRACT IDENTITY — the method is part of the rule, because two obvious methods FAIL:** use **`expireDate` PLUS a negative control.** ⛔ **NOT `shortName`** (truncates) and ⛔ **NOT price identity** (cannot separate same-contract from a fallback). **This binds the `CL=F` / `BZ=F` / `HO=F` pulls THIS STEP makes.**
+
+> 🔴🔴 **v0.44 — NAME THE AXIS, AND SIZE THE SLOPE BEFORE YOU SPEND ATTENTION ON IT.** *(BRENT, reproduced at its own instruments; the numbers below are BRENT's own pull, NOT relayed from HENRY.)*
+>
+> **⚠️ THERE ARE THREE INDEPENDENT ROLL AXES AND A ROW CAN BE EXPOSED TO ANY SUBSET. "NOT EXPOSED" WITHOUT NAMING WHICH AXIS IS A FALSE-CLEAN:**
+> **(i) CROSS-SERIES MISMATCH** — the two legs sit on different months. *(Fixed by the identity check above.)*
+> **(ii) WITHIN-SERIES STEP ACROSS A LOOKBACK** — a roll falling inside an N-period window makes a **one-off jump read as a CHANGE.** **Hits NET-CHANGE / Δ rows, which the identity check does NOT protect** (both legs can be perfectly matched on every observation and the series still jumps at the roll).
+> **(iii) FIXED-LEVEL ON A SLOPING CURVE** — the 3d hazard above. **Hits LEVEL rows. Does NOT hit net-change rows**, because a slope common to both endpoints differences out.
+> 🔑 **BOUGHT BY BRENT CATCHING ITS OWN OVER-BROAD CLEARANCE: it annotated a row "MATCHED AND NOT EXPOSED", which cleared axis (i) only and READ AS CLEARING THE ROW** — that row grades on a t−4 net-change basis and `HO=F` rolled INSIDE the live window, so it was exposed on (ii) throughout. ⇒ **write the axis, never the verdict alone.**
+>
+> ⭐ **AND THE (iii) HAZARD IS NOT UNIFORM — MEASURE THE TERM-STRUCTURE SLOPE, DO NOT ASSUME IT.** **CRACKS are steep** — matched ULSD crack, BRENT's pull: **Oct 107.29 · Nov 102.88 · Dec 98.30 · Jan 96.33**, steps **−4.41 / −4.58 / −1.97** ⇒ **naming the month is CRITICAL** (one step ≈ 94% of `HEN-46`'s threshold gap). **WTI–BRENT is nearly FLAT** — **Nov −8.89 · Dec −8.59 · Jan −8.23**, steps **+0.30 / +0.36** ⇒ **month-basis specification is NEAR-IRRELEVANT there; any consistently-matched month lands within ~\$0.30.**
+>
+> ⇒ ⛔ **DO NOT APPLY (iii) UNIFORMLY ACROSS EVERY SPREAD ROW.** **Spend the month-naming requirement where the slope earns it — the crack rows (#6, #8).** ⚠️ **A check applied where its effect is \$0.30 costs attention on rows that do not need it, and a requirement that cries wolf stops being read** — which is how the ones that DO matter get skipped. **The MATCHING requirement (i) stays universal; only the month-NAMING burden is slope-scaled.**
+>
+> ⚠️ **TWO DESKS, SAME SHAPE, DIFFERENT ABSOLUTE LEVELS — RECORDED, NOT SMOOTHED (third instance today).** BRENT's matched Oct **107.29** vs HENRY's **107.72**; Nov 102.88 vs 103.15; Dec 98.30 vs 98.36; Jan 96.33 vs 96.60. **\$0.06–\$0.43 apart, same direction, same magnitude class.** 🔑 **The FINDING is the step size (~−\$4.5/month) and both desks agree on it; the LEVELS are their own and HENRY owns the series.** **Do not average them into a figure that matches neither.**
 
 > ⚠️ **A THIRD FAILURE MODE, DISCLOSED: `NO INSTRUMENT` ≠ `NOT MET`.** Boundary #5 is specified in **Worldscale** and this fleet has never had a Worldscale feed (the `VLCC > WS200` line was retired 2026-07-31, Will-ruled F4, for that reason). ⇒ **WALTER must never invite an owner to "fire it if your pull clears it" on a row whose instrument does not exist** — that manufactures a fire path and invites instrument substitution (`BWET` is a freight-futures ETF, not a route rate). **Report an uninstrumented row as UNINSTRUMENTED so the gap stays COUNTABLE** — the same treatment `HANS-T-12` already gets at boot 6b.
 
