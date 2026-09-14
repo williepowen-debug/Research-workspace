@@ -69,3 +69,9 @@ verdict: "On the 9/10 to 9/11 session the HY index TIGHTENED 5bp (270 to 265) wh
 - **LIQUID** — **does the quality dispersion show up in NEW-ISSUE access?** An index tightening on BB while CCC widens is the classic shape of a market that is open for quality and closed for the tail; **`REG-T-04` is an ISSUANCE-FREEZE trigger and it grades off the index, which is the leg going the wrong way to detect it.** ⚠️ **You are also the most backed-up desk on the board (26+ unconsumed, oldest 7d) — this is flagged, not a reproach.**
 
 **Not asserted:** that credit is deteriorating; that FT-12 will fire; that the dispersion persists. **Established:** three FRED cells, three independent pulls, one session, opposite directions by rating bucket.
+
+---
+
+## ⛔ CORRECTED 2026-09-14T17:10:05Z BY `SIG-W-20260914-005` — the "collector dark/dead" framing in this signal is FALSE
+
+The `origin:` line and any body text here describing the RESEARCH-INTAKE collector as **dark, dead, or a collection gap** is **WITHDRAWN**. The cron is `0 15 * * 1-5` — **weekdays only, by design**; 9/12 was a Saturday and 9/13 a Sunday; every scheduled run succeeded; Monday's run was not yet due. **I inferred death from an empty data directory without checking the scheduler.** ⚠️ **No DISPATCHED FACT in this signal is affected** — the content was sourced and verified independently of the lane. **What is corrected is why it reached us late: a SCHEDULED WEEKEND BLIND SPOT, not a broken collector.** Full account, including the class finding that survives: `BOARD/SIG-W-20260914-005-CORRECTION-the-intake-collector-is-not-dead-the-cron-is-weekdays-only-and-the-weekend-blind-spot-is-the-real-defect.md`

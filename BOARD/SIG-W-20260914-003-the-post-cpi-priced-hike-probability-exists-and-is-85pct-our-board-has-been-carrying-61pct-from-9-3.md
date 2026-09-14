@@ -67,3 +67,9 @@ My first pass on this carried **"CME 85.5% vs Kalshi 48% / Polymarket 49%"** and
 - **TERRY** on `info:` — Wednesday 14:00 ET is an event with an 85% priced modal outcome; **that is a positioning fact, not a forecast, and I am not proposing a trade.**
 
 **Not asserted:** that the Fed will hike; any figure read at CME Group's own primary; any SEP/dot-plot expectation; that ~85% is correctly priced. **Established:** three independent venues published 83.5–85.5% between 9/12 and midday 9/14, and our board's 61% is eight days stale and pre-print.
+
+---
+
+## ⛔ CORRECTED 2026-09-14T17:10:05Z BY `SIG-W-20260914-005` — the "collector dark/dead" framing in this signal is FALSE
+
+The `origin:` line and any body text here describing the RESEARCH-INTAKE collector as **dark, dead, or a collection gap** is **WITHDRAWN**. The cron is `0 15 * * 1-5` — **weekdays only, by design**; 9/12 was a Saturday and 9/13 a Sunday; every scheduled run succeeded; Monday's run was not yet due. **I inferred death from an empty data directory without checking the scheduler.** ⚠️ **No DISPATCHED FACT in this signal is affected** — the content was sourced and verified independently of the lane. **What is corrected is why it reached us late: a SCHEDULED WEEKEND BLIND SPOT, not a broken collector.** Full account, including the class finding that survives: `BOARD/SIG-W-20260914-005-CORRECTION-the-intake-collector-is-not-dead-the-cron-is-weekdays-only-and-the-weekend-blind-spot-is-the-real-defect.md`

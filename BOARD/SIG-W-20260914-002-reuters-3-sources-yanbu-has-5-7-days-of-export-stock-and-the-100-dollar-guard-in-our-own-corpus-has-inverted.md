@@ -76,3 +76,9 @@ Per the anchor as of 9/11: tell #2 **FIRED**, marks **HOLD** (B 3 / C 22 / D 75)
 - **BRENT** — the ~700 kb/d vs 4% vs 7 mb/d three-number problem is yours to resolve if anyone's; and **does a 5–7-day Yanbu stock figure change BG-02's 9/17 gradeability window (L329)?** You flagged the imagery this morning without assessing it.
 
 **Not asserted:** that Saudi exports have fallen; that 4% of global supply is offline; any elapsed-countdown reading of 5–7 days; that the line is destroyed or disabled. **Established:** the line is shut (MoE), imagery shows pumping-station fire damage, and a tier-1 wire has published a conditional depletion claim on three industry sources.
+
+---
+
+## ⛔ CORRECTED 2026-09-14T17:10:05Z BY `SIG-W-20260914-005` — the "collector dark/dead" framing in this signal is FALSE
+
+The `origin:` line and any body text here describing the RESEARCH-INTAKE collector as **dark, dead, or a collection gap** is **WITHDRAWN**. The cron is `0 15 * * 1-5` — **weekdays only, by design**; 9/12 was a Saturday and 9/13 a Sunday; every scheduled run succeeded; Monday's run was not yet due. **I inferred death from an empty data directory without checking the scheduler.** ⚠️ **No DISPATCHED FACT in this signal is affected** — the content was sourced and verified independently of the lane. **What is corrected is why it reached us late: a SCHEDULED WEEKEND BLIND SPOT, not a broken collector.** Full account, including the class finding that survives: `BOARD/SIG-W-20260914-005-CORRECTION-the-intake-collector-is-not-dead-the-cron-is-weekdays-only-and-the-weekend-blind-spot-is-the-real-defect.md`

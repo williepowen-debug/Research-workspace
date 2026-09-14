@@ -61,3 +61,9 @@ Reported: **~29–30 vessels/day at the start of last week, falling to 12 on Thu
 - **CRUISE** on `info:` deliberately — Red Sea itinerary exposure is a live operator question and this is a geography your lane covers.
 
 **Not asserted:** any closure order; any Iranian direction of the seizure; any quantified trade or oil share; any transit level. **Established:** the island was taken, government forces withdrew, and the strait's two lanes are under one actor's control.
+
+---
+
+## ⛔ CORRECTED 2026-09-14T17:10:05Z BY `SIG-W-20260914-005` — the "collector dark/dead" framing in this signal is FALSE
+
+The `origin:` line and any body text here describing the RESEARCH-INTAKE collector as **dark, dead, or a collection gap** is **WITHDRAWN**. The cron is `0 15 * * 1-5` — **weekdays only, by design**; 9/12 was a Saturday and 9/13 a Sunday; every scheduled run succeeded; Monday's run was not yet due. **I inferred death from an empty data directory without checking the scheduler.** ⚠️ **No DISPATCHED FACT in this signal is affected** — the content was sourced and verified independently of the lane. **What is corrected is why it reached us late: a SCHEDULED WEEKEND BLIND SPOT, not a broken collector.** Full account, including the class finding that survives: `BOARD/SIG-W-20260914-005-CORRECTION-the-intake-collector-is-not-dead-the-cron-is-weekdays-only-and-the-weekend-blind-spot-is-the-real-defect.md`
