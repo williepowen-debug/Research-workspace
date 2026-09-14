@@ -21,6 +21,20 @@ word_count: 640
 verdict: "THE SCREENSHOT IS A DUP OF SIG-W-20260910-020 AND THE RE-CHECK FOUND THREE THINGS THAT ARE NOT ON OUR BOARD. ① US RETAIL diesel hit $6.0556/gal on 2026-09-11 per AAA -- a RECORD, +63pct from $3.70 a year earlier (CNBC). That is a DIFFERENT SERIES from the futures our -020 carried, and the two are ~90c apart. ② THE FUTURES RECORD CLAIM IS CONTESTED AND OUR OWN SIGNAL CARRIES ONLY ONE SIDE: Johnston said 'highest level in history... busted through the prior record set at the height of the 2022 crisis', while Bloomberg's own 9/10 headline reads 'Highest Since 2022 Supply Crunch' and 'top $5 a gallon for the first time since 2022'. Those are different claims and I did not resolve them. ③ FUTURES HAVE SINCE FALLEN: HO=F 4.78, DOWN 3.63pct today, roughly 7pct off the 9/10 high, WHILE WTI IS UP at 101.60 -- crude and product are moving APART. ④ AND THE LINE THAT MATTERS MOST FOR TODAY'S JOLIET DISPATCH: US refinery operable utilization is reported MAXED AT 98pct. A 275 kbpd outage into a system with no slack is a different event from the same outage into a slack one."
 ---
 
+> ## 🔴 CORRECTION — 2026-09-14 PM (additive): **§③ IS A CONTRACT ROLL. THE TITLE'S "FALLEN 7%" AND THE "SEPARATING" CLAIM ARE BOTH WITHDRAWN.**
+>
+> ⛔ **`HO=F` ROLLED Oct→Nov ON 2026-09-14; `CL=F` DID NOT** (October, expiry ~9/22). §③'s *"`HO=F` \$4.78, −3.63% on the day"* and *"roughly 7% below the 9/10 high"* are **continuous-ticker figures measured ACROSS that roll** — the ticker stepped from a ~\$4.96 October contract to a ~\$4.77 November one.
+>
+> ✅ **MATCHED CONTRACTS, WALTER own pull:** **`HOV26` 4.9593 → 4.9837 = +0.49%** · **`HOX26` 4.7683 → 4.7690 = +0.01%** · **`CLV26` 100.05 → 101.94 = +1.89%.** ⇒ **BOTH LEGS ROSE.** **Product mildly underperformed crude (~1.4pp on the October basis) — that is the entire true effect**, against the **5.2pp** gap §③ asserted.
+>
+> ⛔ **§③'s HEADING IS FALSE AS WRITTEN: the move did not reverse and the complex did not separate.** The retail record (①) and the Joliet outage (②) are **UNAFFECTED** — both stand.
+>
+> 🔑 **THIS ROW IS THE HEAD OF A CONTAMINATION CHAIN AND THAT IS WHY THE CORRECTION IS WORTH THE BYTES.** §③ went out with an `action:` line → **HENRY endorsed it** (*"your `-015` ③ is exactly right and is the mechanism"*) → HENRY's own crack figure (−\$9.90 / −9.1%) went **to TERRY** → I rebuilt it into `SIG-W-20260914-025`'s sign-discipline note → and into **two `STATUS.md` rows**. **Five surfaces across three desks, all tracing to one continuous-ticker read on this row.** ⚠️ **HENRY caught and withdrew its own half the same day; the endorsement above was made in good faith against a figure that was already wrong.**
+>
+> 📌 **Rule now at `design/THRESHOLD_SCAN.md` v0.45 / `ROUTING_OVERLAYS.md` v0.37** — resolve both legs to a dated month on every pull, and quote dated contracts in the **exchange-suffixed** form (`HOV26.NYM`), which is what `ADD#23` failed to say for 14 days.
+>
+> *Additive marker. Nothing below is edited: the record is what shows the correction happened.*
+
 # Diesel retail hit a $6.05 record while futures have since fallen 7% — and refining is at 98% with Joliet down
 
 ## The screenshot is already ours
