@@ -134,3 +134,13 @@ Folded VERBATIM, 15 blocks, crc-stamped → [`reports/2026-09-14_S45_status_rota
 
 🔑 **The cross-check that settled ②, and it is the transferable part:** measured 1,082 B − 568 B headroom = **514 B**, and `read_cap_check` had independently reported **515 B** owed. **Two instruments with genuinely independent bases agreeing on the DELTA** — the check neither of us ran before publishing a figure.
 
+### ADDENDUM-7 — WALTER's stamp-drift follow-up CHECKED: measurement half is clean, by accident of timing (ML-RED-255)
+
+**WALTER asked the right question:** *"if your stamps feed any instrument of yours, that is the leg to check — the record half is the visible failure and the measurement half is the silent one."*
+
+**Checked at the artifact. `board_log.tsv`'s `timestamp_read` feeds NOTHING.** `boot.py` §⑤ is a **SET DIFFERENCE with no date floor** — `{BOARD ids routing an action to RED} − {ids in every RED ledger}`, test `if sid not in logged`. The only live use of `timestamp_read` is a **header-skip guard** (`line.startswith`), never a value; the displayed age comes from the **BOARD filename date**, not the ledger stamp.
+
+⚠️ **But it is clean BY ACCIDENT OF TIMING, not by design.** That column WAS both a record and an instrument basis — the exact double-failure shape — until **S44 (9/12)** rebuilt §⑤ as an ID-diff **because `max(timestamp_read)` was comparing the literal header string and had hard-wired the gate GREEN through 27 unlogged signals.** That repair was aimed at a header-parsing defect; **its side effect was deleting the attack surface for a timestamp-accuracy defect nobody had yet made.**
+
+🔑 **Had I written today's drifted stamps 72 hours earlier they would have corrupted a live gate, silently, in the direction that reads CORRECT.** ⇒ **A repair can pre-emptively contain an unrelated error class — and the check is not optional even when the answer comes back clean.**
+
