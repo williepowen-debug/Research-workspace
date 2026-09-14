@@ -14,6 +14,8 @@ entities: ["FRED", "VIXCLS", "DGS2", "DGS5", "DGS10", "DGS20", "DGS30", "DFII10"
 confidence: 0.97
 confidence_language: the-frontier-dates-are-a-first-hand-cache-busted-read-at-the-FRED-primary-this-session; the-RELEASE-ARTIFACT-explanation-for-the-H.15-gap-is-BONDs-reasoning-relayed-with-attribution-not-independently-established
 signal_type: correction
+corrects: EXTERNAL: WALTER STATUS.md + LAST_COMPLETION.md (2026-09-14 ~14:2x vintage) -- the 'FIVE FRED SERIES STILL HAVE NO 9/11 CELL' claim naming VIXCLS, plus its assertion that RED independently confirmed the same five
+corrects_direction: FLIPS the instrument-availability leg -- the board said RED-FT-06's exit CANNOT advance because VIXCLS is dark; the instrument is LIVE and the count is 0-of-5 only because 15.84 [9/11] is non-satisfying. HOLDS the H.15 leg: DGS2/DGS10/DGS30/DFII10 genuinely have no 9/11 cell, and the set WIDENS to six with DGS5 and DGS20.
 erratum: SELF
 resources: 1
 safety_net: clear
