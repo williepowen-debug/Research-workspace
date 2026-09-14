@@ -1,54 +1,40 @@
-# HOMER SCRATCH — 2026-09-11 (Fri) PROME-spawned DRAIN-ONLY session (WQ-206) → handoff
+# HOMER SCRATCH — 2026-09-14 (Mon) FULL CATCH-UP session (Will-authorized, DOCKET L331) → handoff
 
-**Purpose:** Canonical ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `LESSONS_COLD.md` / workbook; live state → `STATUS.md`.
+**Purpose:** Ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `workbook/` + `LESSONS_COLD_2.md`; live state → `STATUS.md`.
 
 ---
 
-## 🔴 WHAT CHANGED TODAY — READ FIRST (drain-only: no print pulled, no band/level/mark/prediction moved)
+## ✅ WHAT CHANGED TODAY — THE THREE-WEEK PRINT GAP IS CLOSED
 
-1. **Inbox 6 → 0.** 3 top-level (CORAL 9/2 · CREED 9/2 · PROME 9/5) + 3 WALTER (SIG-006 · SIG-004 · SIG-016), all `git mv`'d to `processed/` with `board_log.tsv` rows.
-   - ⚠️ **The CORAL and CREED 9/2 packets had been CONSUMED on 9/2 (board_log rows, MULTIFAMILY row 54, KB-024, dashboard) but NEVER FILED** — the `git mv` never ran, so both re-presented as unconsumed to PROME's 9/11 census. **A consumed item that is not filed is unconsumed to every reader but you.** Filed today.
-2. **✅ COR-20260828-04 RECEIPTED (APPLIED)** — commit `7895e1915`. `registry/corrections_receipts.tsv` now exists; `corrections_boot_check.py HOMER` rc=1 → **rc=0**. The work was done 8/31; only the receipt was missing.
-3. **★ ONE MF DQ FIGURE, VERIFIED AT BOTH ARTIFACTS: CMBS multifamily DQ 7.69% Aug-2026, 0bp MoM** [Trepp Aug report pub 9/1; CREED PRIMARY-READ at TreppTalk = `CREED/STATUS.md:35`; HOMER SECONDARY = STATUS dashboard + `MULTIFAMILY.tsv` row 54]. No CREED packet owed. **The Aug SS report (~9/8-10) is UNCHECKED** — CREED owes mat-adj MF + MF SS on its next whole-Trepp pull; nothing swapped blind.
-4. **CORAL's vintage correction is now on the LEDGER** — `PRICING.tsv` new row: FL FMHPI July +1.68% SA vs CORAL's **JULY** SF median +3.7% ⇒ gap 2.0pp, both positive (the 8/31 hand-over had used June +4.9%). It had lived only on STATUS:103 + KB-024. Row 26 (June +4.9%, 8/14) is a dated cell, untouched.
-5. **SIG-004 (FHFA: ALL GSE lenders approved for VantageScore, effective 9/3)** — registered as the ORIGINATION-side twin of the 2026:Q1 HHDC score-model break: docket row 24 extended, **KB-HOMER-025**, STATUS §C. Both asks answered **VERIFIED negative**: HOMER holds NO score-stratified series and NO score-share threshold. Not a credit-loosening claim.
-6. **SIG-016 (Will's 9/10 Google Trends captures, both terms at 100)** — ★ **CARL had RETIRED "help with mortgage" on 9/1** (`CARL/status_archive/STATUS_ARCHIVE_2026-09.md:552`; no packet — found by grep). ⇒ B2 RESOLVED, docket row 33 RESOLVED, my PIPELINE row-66 clause discharged by **KB-HOMER-026** + **PIPELINE row 69** + STATUS §C. Endpoint re-tested 9/11 11:24 ET → **429 (3rd confirmation)**; pytrends absent. **Right-edge date knowable only in Will's browser → WILL_NEEDS.** Held-data grade (INFERRED): direction matches the pipeline rows; magnitude is not a level; the query also captures assistance-seeking under the Oct-2025 waterfall.
-7. **SIG-006 (office CMBS 12.00 vs >12, not fired)** — INFO-LOGGED; HOMER holds no copy of the CREED-T spec table (VERIFIED).
-8. **STATUS hygiene:** 9/2 BOTTOM LINE rotated to `archive/STATUS_bottom_line_2026-09-02.md` (verbatim) BEFORE adding; §C's "mat-adj MF unpublished" contradiction with the dashboard row fixed (→ UNREACHABLE); the stale "🔴 ~9/4 kill fires" catalyst row re-keyed to the 9/2 disposition. **STATUS 31,282 B** (`measure.py`), READ-CAP 0.
+**11 releases recovered, 6 at issuer primary. Inbox 3 → 0.** Per-release ledger → `reports/2026-09-14_three-week-catchup-release-ledger.md`.
 
-## ⚠️ FIRST WORK NEXT FULL SESSION — AHEAD OF THE APPROVED QUEUE (UNCHANGED FROM 9/2, NOW 19 DAYS OLD)
+1. **🔴🔴 EXISTING-HOME SALES 3.98M SAAR (August, NAR primary, rel 9/10) — THE <4.0M RED BAND IS CROSSED.** All four regions fell MoM; inventory 1.62M = **4.9 months, a decade high**. ⚠️ **20K margin on a revising series, and "first sub-4M since June 2025" is a first-print superlative — report the cross AND the margin.**
+2. **★★★ THE MARQUEE GSE/CMBS DIVERGENCE HAS INVERTED.** Fannie MF **0.61%** July (+1bp, third month off the trough ⇒ the **mod-suppression test CONFIRMS**; the 13-month series locates the modification in **April**, inside the quarter). Freddie MF **0.60%** (+9bps, **largest single-month move in the series I hold**, fifth consecutive rise, and it has the **same** suppression channel in its own footnote and rose anyway). **Converged to 1bp apart from 35bp in March, both rising, CMBS flat at 7.69%.** ⛔ **Freddie has NO uncrossed rung** — a rung above 0.50% is **owed and Will-gated**.
+3. **★★★ SPREAD ATTRIBUTION INVERTED + a near-miss I caught.** Survey-matched, the 10Y-FRM spread is **~193bps — FLAT** vs 196 on 8/20. Three weeks ago every bp was SPREAD; **now every bp is the TREASURY** (DGS10 4.69 → 4.95). ⚠️ I nearly published *"the spread narrowed 15bps"* from a **same-day** pairing — an artifact of a +12bps DGS10 move on 9/10 **after the PMMS window closed**.
+4. **🔴 THE BASIS TRAP IS NOW A BAND DISPUTE.** **MND daily 7.17% [9/14, 52-wk high] is 17bps THROUGH my >7.0% RED; PMMS 6.76% is 24bps BELOW it.** Both correct. ✅ **Ruled (definition, zero levels moved): grade on PMMS; an MND cross is an EARLY WARNING only.** Resolves WALTER SIG-008.
+5. **⛔ I DECLINED PROME'S CALCULATEDRISK "DEAD SOURCE" SWEEP ON EVIDENCE.** It **moved to Substack and publishes daily** — including the 9/11 ICE Mortgage Monitor and 9/10 NAR EHS posts I used today. **Annotated zero of 11; blocking packet sent.** ~12 desks / 23 files were asked to retire a live feed.
+6. **A6 partly closed, against my own caveat:** the **ICE First Look DOES publish cure activity with MoM % changes** (+7% serious, +12% total, best since Oct-2025). **The Cure Rates band has a feed and it grades** (+12% fires nothing = *"cures improved"*).
+7. **Hygiene:** `STATUS.md` **31,282 → 22,773 B**, clearing the rule-5 STOP (<22,785 B) — **not stopping at the 75% trigger**. Pre-rotation file preserved byte-for-byte (crc `2001460695` verified by recompute). §B split to `OBLIGATIONS_OTHERS.md`. `LESSONS_COLD_2.md` opened (shard 1 is crc-pinned and frozen; **its crc re-verified intact: 3365692365**).
 
-**No print has been checked since 8/23. Status UNKNOWN, not absent — path-test before concluding absence.**
-| Release | Due | Why it leads |
+## 🔴 FIRST WORK NEXT SESSION
+
+| # | Item | Why |
 |---|---|---|
-| **Fannie + Freddie JULY (and now AUGUST) MF monthlies** | ~8/25-28 · ~9/25-30 | **Highest-value recurring pull the desk owns** — 2nd/3rd datapoint on the registered mod-suppression test |
-| **Trepp AUGUST special-servicing report** | ~9/8-10 | The named SUCCESSOR to the unreachable mat-adj series — read MF SS before any re-spec decision |
-| **ICE First Look JULY (+ AUGUST ~9/24)** | ~8/24-26 | Composition tell (90+ falling while FC inventory rises); FHA new-defaults, the live counter-signal to HOM-02 |
-| **Case-Shiller JUNE (+ JULY 9/29)** | 8/25 | 13th consecutive negative REAL month? |
-| **PMMS ×3+ · MBA apps** | since 8/20 | Is the 10Y still pinned — is the move still all spread? |
-| **Census NRC (August)** | 9/17 | Starts/permits divergence |
-| **HUD ML 2026-08 mandatory compliance** | **9/21** | The clearest dated FHA FC-pipeline ACCELERANT held |
+| **1** | **⛔ ICE Mortgage Monitor (Sept, published 9/11) — UNREAD** | **The highest-value unread item on this desk.** Confirming pull for the Cure Rates band (A6); also carries August home-price growth 1.5% |
+| **2** | **⛔ Trepp AUGUST special servicing — SEARCH-NOT-FOUND** | The **named successor** to the unreachable mat-adj leg is itself unreached. trepp.com unreachable, MHN 403. → CREED (B1) |
+| **3** | **PMMS 9/17 and 9/24** | ★ **RED may cross on the registered instrument.** ⚠️ 9/17 is **confounded by the 9/16 FOMC**; the clean read is **9/24** |
+| **4** | **Fannie + Freddie AUGUST MF (~9/25–30)** | Does Freddie extend past 0.60%? Both August files **path-tested 404** today |
+| **5** | **THE FOUR APPROVED QUEUE ITEMS (A2–A5), now 22 days deferred** | The catch-up consumed this session, as L331 ordered. **A3/A4 grade NOTHING until ruled** |
 
-## 🔴 THE QUEUE — WILL APPROVED FOUR ITEMS 2026-08-23, STILL DEFERRED (unchanged)
-| # | Item | Authorization |
-|---|---|---|
-| 1 | Non-funding-leverage RIDER — **ratify the NO-VERDICT PRECURSOR** (draft exists: `reports/2026-08-23_non-funding-leverage-RIDER-DRAFT-for-ratification.md`) | option (A) |
-| 2 | Rent Growth (% cities negative) RETUNE | ⛔ WORK ONLY, NOT LEVELS |
-| 3 | National Foreclosures (Qtr) RETUNE — basis STARTS (my choice) | ⛔ WORK ONLY, NOT LEVELS |
-| 4 | L3 BUILDS 3b + 3c (`thesis/THESIS.md` + kill rail; convergence handle) | BUILD |
+## ⚠️ OPEN / UNSETTLED
+1. **A1 GSE MF band re-spec — now overdue on EVIDENCE, not just calendar** (Fannie pinned at the bottom, Freddie topped out; only the DQ/provision pairing held the Q2 signal).
+2. **HOM-02** is the only open HOMER-native prediction, and **today's ICE data cuts against it** — logged against myself.
+3. **B7 (new):** PROME's CalculatedRisk census — **time-sensitive**, every hour it stands another desk may execute it.
+4. **`NEXUS_BRIEF.md` is 102,145 B** — far above any boot budget for CARL/REGINALD/HENRY who read it. ⚠️ **Schema-owned (NEXUS); B4 says do NOT cut brief content against the unenforced ceiling. Flagged, not touched.**
+5. **MBA 403 site-wide** (re-confirmed 9/14) · **ICE 403** · **Trepp unreachable** · **Google Trends 429 (4th)**. Four primaries gated at this box.
+6. **CORAL's ask** — a constant-quality statewide FL CONDO index: still SEARCH-NOT-FOUND at HOMER.
 
-## ⚠️ OPEN / UNSETTLED — carried forward
-*(Full list → `STATUS.md` § OPEN OBLIGATIONS.)*
-1. **HOM-02** the only open HOMER-native prediction; early-kill arm 1 of 2 fired; **Q3 MBA NDS ~mid-Nov decides.**
-2. **⛔ GSE MF band re-spec STILL OWED (A1)** — REGINALD's "wait until after 8/31" has expired.
-3. **Trepp mat-adj MF: UNREACHABLE, not unpublished** — the ~9/4 kill was re-framed 9/2 and did not fire; the honest question is whether I can ever reach the gated PDF. Successor MF SS — Aug report unchecked.
-4. **Cure Rates band: no feed** (A6). **Rent Growth: no feed, grades nothing** (A3).
-5. **B5 PROME `HEARTBEAT_COLD.md:77`** still says the wall "RETIRES 9/4" — flagged 9/2, not re-checked today.
-6. **CORAL's ask** — a constant-quality statewide FL CONDO index: SEARCH-NOT-FOUND at HOMER, unanswered.
-7. **MBA 403-gated site-wide** at this box; **CalculatedRisk may be gone** (UNKNOWN, not chased).
-8. **NEW — WILL_NEEDS:** the right-edge month on his two 9/10 Google Trends captures (hover the last point or read the URL date range). Without it the observation stays undated and grades nothing.
-
-## OPEN THREADS (unchanged)
-- **Marquee:** recognition regimes differ — the CMBS MF leg oscillates and CURES (four direction changes, then a flat month); the GSE books do not.
-- **"Inflow cooling / conversion accelerating"** remains the domain's cleanest sentence — and it cuts **against** HOM-02. Say both.
-- With the maturity-wall figure dead, **the MF stress case rests entirely on RECOGNITION-side instruments** (CMBS MF DQ 7.69, MF SS 8.39 July, Fannie provision +49% QoQ vs a mod-suppressed DQ) — narrower and more honest; say it that way to CARL and REGINALD.
+## OPEN THREADS
+- **Restated marquee:** CMBS MF is **flat at a high level and lumpy (it cures)**; **both GSE books are grinding up** on a book that does not cure that way. ⚠️ **Scale discipline: 0.60% vs 7.69% is an order of magnitude — the finding is the two GSE books converging with EACH OTHER, never with CMBS.**
+- **"Inflow cooling / conversion accelerating"** now has a third datapoint and remains the domain's cleanest sentence — **and it cuts against HOM-02. Say both.**
+- **New central tension: PRICES FIRMING INTO COLLAPSING VOLUME AND RECORD SUPPLY.** Three price instruments up, four supply instruments at multi-year extremes, EHS through RED. ⇒ **Likely COMPOSITION, not a price bid.**

@@ -141,3 +141,15 @@
 ---
 
 **Index integrity:** 43 entries here, 43 in `LESSONS_COLD.md` — the counts must match, and a mismatch means an append skipped one side. 39 rules are truncated and marked `…`.
+
+**44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
+**Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to the **survey's own window** (PMMS: the Wednesday close), or state the basis. Both legs issuer-primary and correctly dated does NOT make them comparable — a same-day pairing imports a move the survey could not have seen, and the error is invisible on a quiet week and maximal on a moving … → `LESSONS_COLD_2.md` §44
+
+**45. [Verification] — A False *DEAD* Flag Is More Destructive Than a False *LIVE* One, Because It Gets EXECUTED**
+**Rule:** Before executing a source-**RETIREMENT** sweep, search for the source's **CONTENT**, not just its **URL** — a publication that moved is indistinguishable from one that died if you check one address. *"The domain is frozen"* and *"the publication has stopped"* are different claims. A false *live* flag self-heals; a false *dead* flag produces edits that read as settled work and are never … → `LESSONS_COLD_2.md` §45
+
+**46. [Data] — Verify the Publication YEAR, Not Just the Month (n=3 — extends §1/§2 to RECURRING MONTHLY pulls)**
+**Rule:** On any recurring **monthly** pull, confirm the **release date before the value**; treat *"the September number"* as unverified until the publisher's calendar says September exists. ⚠️ **Plausibility is not a check — it is what makes this dangerous:** both figures caught 9/14 sat a believable distance from my held series, and one release did not exist … → `LESSONS_COLD_2.md` §46
+
+**47. [Process] — I Wrote a Measurement Claim Before Making the Measurement**
+**Rule:** A claim of the form *"I tested X and got Y"* is written **only after Y is on screen.** `finding_write_timestamps_from_the_clock_not_the_narrative` governs test results as it governs timestamps — the narrative wanted a fourth confirmation and supplied one. Caught on re-read, then actually run; **its being true was luck, not … → `LESSONS_COLD_2.md` §47
