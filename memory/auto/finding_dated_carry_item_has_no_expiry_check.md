@@ -266,3 +266,30 @@ Prior instances are obligations in unread places, obligations never recorded, an
 - ⛔ **Finding the falsification does not make it yours to grade.** PROME recorded the observation, registered the date, packeted the owner, and wrote nothing into the prediction row — `[[finding_a_scope_rule_allocates_visibility_not_superior_judgement]]`.
 
 *(`AGENTS/BOND/thesis/PREDICTIONS.tsv` BND-22; PROME FRED H.15 primary pull 2026-09-12; DOCKET L356 + L357. Pairs with `[[finding_record_of_an_action_is_not_the_action]]` — an OPEN status is a record of not-yet-looking, never evidence the window is still open.)*
+
+---
+
+## The sharpest form yet: the surface was under DAILY maintenance and still rotted — because maintenance re-checked the LEVEL and never the PREMISE
+
+**REGINALD, 2026-09-14.** `VX-REG-18.04` (CCC/HY bifurcation ratio) is a registered, REGINALD-owned tripwire in hard-fire. On **2026-08-13 Will stood its escalation down**, and the stand-down rested on a *stated factual ground*, written verbatim into the STATUS row and the VX ledger:
+
+> *"Benign: CCC is FLAT across the whole run (1034→1031, −3bp); the entire ratio rise is HY tightening (285→267). Denominator artifact ⇒ NO escalate."*
+
+**A month later that premise was simply false.** CCC **1,031 [8/26] → 1,076 [9/11]**, +45bp, rising on five consecutive published observations. Ratio 3.861× → **4.060×**. Decomposed over the same window: **CCC contributes ~85% of the ratio move, HY ~15%** — the exact inverse of the sentence licensing the stand-down.
+
+### Why this instance is different from the dates and the ownership claims above
+
+⛔ **Nothing was neglected. The row was READ AND RE-GRADED EVERY SESSION.** The level was re-pulled, the run count was incremented, the fire state was re-asserted. **The maintenance ritual touched every part of the row except the clause doing the decision work.**
+
+⇒ **A carried claim has TWO layers and only one of them is instrumented.** The **LEVEL** layer (*what is the number now?*) is checked because checking IS using — you cannot grade the row without it. The **PREMISE** layer (*why did we decide this number is benign?*) is a frozen verdict that no act of using the row ever re-evaluates. **Re-reading the sentence does not test the sentence.** The stand-down was a decision with an expiry that nobody, including its author and its owner, was watching.
+
+⚠️ **The tell that makes this class findable: a verdict clause with an empirical predicate inside it.** *"Because CCC is flat"*, *"because it sorts on nothing measurable"*, *"because it is one member, PNC"*, *"because the mechanism survives"*. **Each names a fact. Each fact has a shelf life. None of them is wired to anything.** A bare status token (`🔴 HARD-FIRE`) cannot rot this way — it asserts no reason. **It is the well-reasoned row that rots invisibly, because the reasoning is prose and the prose is never graded.**
+
+### How to apply
+
+- **Audit your own surfaces for verdict-clauses containing empirical predicates, and ask of each: what fact is this resting on, and when was that fact last checked?** Not *is the level current* — that one is already instrumented. Run it as a deliberate sweep; nothing will trigger it for you.
+- **When an operator stands something down, record the GROUND as a dated, checkable claim, not as prose beside the verdict.** A stand-down granted "because X" needs X re-tested on the same cadence as the level, or it is running on inertia.
+- ✅ **Separate the two objects when the premise fails: *the condition governs the fire* vs *the ground has changed*.** REGINALD did **not** escalate — the re-arm (`CCC ≥1050 AND HY ≥272 ×2`) was one leg short (HY 265 vs 272), and firing a gate because the story now supports it is exactly what pre-registration exists to prevent. **But it also did not bury the failed premise.** It reported the premise failure to the operator as a *decision* and routed the data to the desks owning the tail. ⛔ **Escalating neither is the correct move, and it is available only if you keep the two objects apart.** `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]`
+- ⚠️ **A stand-down can still be right after its stated reason dies — but then it needs a NEW reason, stated, or it is inertia wearing a ruling's clothes.**
+
+*(`AGENTS/REGINALD/workbook/VX.tsv` VX-REG-18.04 + `STATUS.md` §THRESHOLD STATUS; own FRED pulls of `BAMLH0A3HYC`/`BAMLH0A0HYM2` 2026-09-14, independently reproduced by WALTER, RED and PROME — PROME's partials matched the decomposition to 85.2%/14.8% and registered it `WQ-251`. Pairs with `[[finding_claim_outlives_its_discredited_instrument]]`, which is this one's mirror: there, the instrument failed and the claim survived; here, the instrument kept working and the REASON failed.)*
