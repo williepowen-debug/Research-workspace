@@ -138,6 +138,18 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 
 ⚠️ **The lesson I am recording against myself, because it is the second time tonight the same shape appeared:** ❌4 was itself a fix to a fix, and this is a defect *in* that fix — `[[finding_a_correction_pass_is_unreviewed_work]]`, now at n+2 in one session. **Five rounds, sixteen findings, and the two worst were both introduced by repairs rather than found in the original.**
 
+## 🟠 REVIEW ROUND 6, 19:4x — **CASE 1 (stale price match) produced four findings. One fired on a live root immediately.**
+
+**⚠️17 — a refusal reported the vendor's verdict when it may have been reporting the CLOCK.** The continuous leg and the candidates are fetched in **separate sequential requests**, so they can carry different observation times — and a timing miss is **retryable** while a real no-match is **structural**. `REFUSED-no-price-match` merged the two. ⭐ **`regularMarketTime` is present on BOTH sides of every comparison** (measured `dt=0` on CL/BZ/HO) **and was never read.** Same shape as ⚠️9, one level down: the vendor supplies the cross-check, the code compares only the value. **FIXED:** timestamps captured; zero hits with materially differing times now returns `REFUSED-prices-observed-at-different-times` with `retryable: true`.
+
+**⚠️18 — the negative control tests DISTINCTNESS, not FRESHNESS, and a frozen print is still distinct.** Its *stated* purpose (rule out a resolver artefact) was met; its *implied* purpose (that the comparison set is a valid basis) was not. **FIXED:** the verdict now says which. 🔴 **AND IT FIRED ON THE FIRST LIVE RUN — `BZ=F` returns `passed-distinct-prices-but-stale-candidates:['BZF27.NYM']`.** ⚠️ **That matters more than the average finding here: Brent is the ONE root that DEPENDS on `contract_probe`, because its name carries no month — so the function Brent relies on was passing a control with a stale leg in its comparison set, silently.** The identification still holds (`BZX26`), but the basis is now labelled rather than implied.
+
+**⚠️19 — rounding asymmetry across a strict equality test.** The candidate was rounded to 4dp and the continuous left raw, then compared with `< 1e-6`. On observed data the vendor returns clean ≤4dp decimals, so the rounding is a no-op and the test behaves as intended — **measured: `delta = 0.0` across seven roots, and the specific `106.36` vs `101.28` case compares correctly.** But any root quoted to >4dp shifts one side by up to **5e-5 — fifty times the tolerance** — and the *true* contract would then fail to match and silently downgrade to a refusal. **Mechanism unguarded, trigger unobserved: the same posture as the month-regex defect, fixed the same way** — both sides now quantised identically.
+
+**⚠️20 — a dropped candidate slot was invisible and shrank the control set.** An expired month and a *transient* fetch failure both left the slot absent with no tell. **FIXED:** a `dropped` map records each missing slot and why. Live: `CL` loses 1 of 5 (`CLU26` expired), `BZ` loses 2 of 5 (`BZU26`/`BZV26` — consistent with L386's expiry table).
+
+⚠️ **Case 1's honest summary: my own framing of it was half right.** I asked whether a thin `.NYM` candidate could break the **match**. It cannot, on observed data. It breaks the **control** — which is the load-bearing half, and the half I did not ask about.
+
 ## Completion states — never merged
 
 - **IMPLEMENTED:** ✅ yes, including the three review fixes.

@@ -1020,45 +1020,90 @@ def contract_probe(root, horizon=5, exchange="NYM"):
     import yfinance as yf
     root = str(root).upper().replace("=F", "")
     cont = f"{root}=F"
+    # ⛔ ROUND BOTH SIDES IDENTICALLY. The first version rounded the CANDIDATE to
+    # 4dp and left the CONTINUOUS raw, then compared them with a strict `< 1e-6`.
+    # On observed data the vendor returns clean <=4dp decimals so the rounding is a
+    # no-op and the test behaves as intended (measured: delta 0.0 across 7 roots) --
+    # but any root quoted to >4dp shifts one side by up to 5e-5, FIFTY TIMES the
+    # tolerance, and the TRUE contract would then fail to match and silently
+    # downgrade to a refusal. Mechanism unguarded, trigger unobserved: the same
+    # posture as the month-regex defect, and fixed the same way.
+    _q = lambda x: round(float(x), 4)
     try:
         cmd = yf.Ticker(cont).history_metadata
         cont_px = cmd.get("regularMarketPrice")
+        cont_t = cmd.get("regularMarketTime")
     except Exception as e:
         return {"verdict": f"REFUSED-continuous-unreadable:{type(e).__name__}", "root": root}
     if cont_px is None:
         return {"verdict": "REFUSED-continuous-has-no-price", "root": root}
+    cont_px = _q(cont_px)
 
     now = time.localtime()
-    cands = {}
+    cands, times, dropped = {}, {}, {}
     y, m = now.tm_year, now.tm_mon
     for _ in range(max(1, int(horizon))):
         sym = f"{root}{_MONTH_CODE[m]}{str(y)[-2:]}.{exchange}"
         try:
-            px = yf.Ticker(sym).history_metadata.get("regularMarketPrice")
-        except Exception:
-            px = None
+            cm = yf.Ticker(sym).history_metadata
+            px, tt = cm.get("regularMarketPrice"), cm.get("regularMarketTime")
+        except Exception as e:
+            px, tt = None, None
+            dropped[sym] = type(e).__name__
         if px is not None:
-            cands[sym] = round(float(px), 4)
+            cands[sym] = _q(px)
+            times[sym] = tt
+        elif sym not in dropped:
+            # An expired or non-existent month drops out correctly; a TRANSIENT
+            # failure drops out identically and shrinks the control set with no
+            # tell. Record which, so a thin control is distinguishable from a
+            # genuinely short curve.
+            dropped[sym] = "no-price-returned"
         m += 1
         if m > 12:
             m, y = 1, y + 1
 
+    base = {"root": root, "continuous": cont, "continuous_price": cont_px,
+            "continuous_time": cont_t, "candidates": cands,
+            "candidate_times": times, "dropped": dropped}
+
     if len(cands) < 2:
-        return {"verdict": "REFUSED-too-few-candidates-for-a-control",
-                "root": root, "continuous_price": cont_px, "candidates": cands}
+        return dict(base, verdict="REFUSED-too-few-candidates-for-a-control")
     if len(set(cands.values())) != len(cands):
         # Two dated months quoting the same price: cannot distinguish a real
         # resolution from a resolver that collapses everything onto one series.
-        return {"verdict": "REFUSED-negative-control-failed-duplicate-prices",
-                "root": root, "continuous_price": cont_px, "candidates": cands}
+        return dict(base, verdict="REFUSED-negative-control-failed-duplicate-prices")
 
-    hits = [k for k, v in cands.items() if abs(v - float(cont_px)) < 1e-6]
+    # ⛔ THE CONTROL TESTS DISTINCTNESS, NOT FRESHNESS -- and a frozen print from a
+    # thin back-month contract is still DISTINCT. Its stated purpose (rule out a
+    # resolver artefact) is met; its implied purpose (that the comparison set is a
+    # valid basis) is not. Say which, rather than emitting a bare pass.
+    STALE_S = 900
+    stale = [k for k, v in times.items()
+             if cont_t and v and abs(int(v) - int(cont_t)) > STALE_S]
+    control = "passed-distinct-prices" if not stale else \
+              f"passed-distinct-prices-but-stale-candidates:{stale}"
+
+    hits = [k for k, v in cands.items() if abs(v - cont_px) < 1e-6]
     if len(hits) == 1:
-        return {"verdict": "IDENTIFIED", "root": root, "continuous": cont,
-                "tracking": hits[0], "continuous_price": cont_px,
-                "candidates": cands, "control": "passed-distinct-prices"}
-    return {"verdict": f"REFUSED-{'no' if not hits else 'multiple'}-price-match",
-            "root": root, "continuous_price": cont_px, "candidates": cands}
+        return dict(base, verdict="IDENTIFIED", tracking=hits[0], control=control)
+    if hits:
+        return dict(base, verdict="REFUSED-multiple-price-match", control=control)
+    # ⛔ ZERO HITS IS TWO DIFFERENT FACTS AND THE VENDOR SUPPLIES THE DISCRIMINATOR.
+    # The continuous leg and the candidates are fetched in SEPARATE sequential
+    # requests, so they can carry different observation times -- and a timing miss
+    # is RETRYABLE while a real no-match is STRUCTURAL. `regularMarketTime` is
+    # present on both sides of every comparison (measured: dt=0 on CL/BZ/HO) and
+    # was never read, so a refusal reported the vendor's verdict when it may have
+    # been reporting the clock. Same shape as the price/identity endpoint split,
+    # one level down.
+    if cont_t and times and any(
+        v and abs(int(v) - int(cont_t)) > STALE_S for v in times.values()
+    ):
+        return dict(base, verdict="REFUSED-prices-observed-at-different-times",
+                    control=control, retryable=True)
+    return dict(base, verdict="REFUSED-no-price-match", control=control,
+                retryable=False)
 
 
 def _looks_like_future(ticker):
