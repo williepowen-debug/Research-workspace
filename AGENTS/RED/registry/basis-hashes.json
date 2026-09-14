@@ -1,0 +1,19 @@
+{
+  "boot_step_range": "RED:0-9e",
+  "declared_on": "2026-09-14",
+  "desk": "RED",
+  "hashes": {
+    "AGENTS/RED/CLAUDE.md": "30adb0fe3990e22458a5020092cd6ec5a9a969f92d608414e1192c8798426b1a",
+    "AGENTS/RED/scripts/base_rate_review.py": "3095001c1ec0f0a653c4501f218e49e9645131bc7d0aa8a9fd9cb6c3573a70b3",
+    "AGENTS/RED/scripts/boot.py": "f5b77be706716a3ac95b34770a7c75b23ca7b9bc9efa3d9be8b5edbe763a7723",
+    "AGENTS/RED/scripts/gen_trigger_scan.py": "5271abe763f3ffbc0a4be87770f6b413cf8f0e0ac1bbed0afd9dca1acf440faf",
+    "AGENTS/RED/scripts/review_debt.py": "0581068949e21f2a49018dd25b025adf70659762be04c02caccb4062c7ea0545",
+    "AGENTS/RED/scripts/schema_check.py": "a85d18730c996f1ae503b39acc14ab47549e554b97eaa966cee6fd71dd4dc952",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "56387186e731ef8cf9382f5b18e8e5470e08740c886bdf00650538884e7e3114",
+    "CLAUDE.md": "09bc5feb3877f4fbebd989781b774727463c954622cad6d9ec3089c01cd5782b",
+    "FORGE/tools/market-data/fetch.py": "98ef027a293643227bde70601b4aa1d407e8496edfdd431988d81b0e2b73275c",
+    "scripts/corrections_boot_check.py": "3a88a236b6a9b8419ab58658c410a653293a56383d781ba15b2403549ce26651",
+    "scripts/ledger_staleness.py": "dd961358fd120ed45b64eba731e4830c61dc820e5a87d0a5c8746da13cdd5e55"
+  },
+  "note": "Content hashes of RED's boot-defining surfaces at attestation time. A change to any of these should AGE RED's ATTESTATION row in PROME/registry/READS.tsv. Recorded by RED; regenerate with the same sha256 over the listed paths."
+}
