@@ -597,6 +597,13 @@ def _is_bare_dated_contract(sym):
     return bool(_BARE_DATED_RE.match(str(sym).upper()))
 
 
+_TRUNC_MONTH_RE = re.compile(
+    r"\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?"
+    r"|aug(?:ust)?|sep(?:t|tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b",
+    re.IGNORECASE,
+)
+
+
 def contract_identity(metadata):
     """Resolve a futures contract's delivery month from vendor metadata.
 
@@ -650,11 +657,22 @@ def contract_identity(metadata):
             return None, f"name-ambiguous:{sorted(plausible)!r} in {name!r}"
         mon, yr4 = plausible.pop()
         return f"{mon.capitalize()} {yr4}", f"vendor-{field}"
-    nm = metadata.get("shortName") or metadata.get("longName") or ""
+    nm = str(metadata.get("shortName") or metadata.get("longName") or "")
     itype = metadata.get("instrumentType")
     # 30 chars is the observed truncation width; say so rather than just "no month".
-    if len(str(nm)) >= 30:
-        return None, f"name-truncated-at-{len(str(nm))}:{nm!r}"
+    if len(nm) >= 30:
+        # ⛔ BUT FIRST: the year is what the vendor cut, and the defect being
+        # repaired is MONTH desync. Withholding a month that is legibly present
+        # discards the answer we actually have. Live cases: ZW=F 'Chicago SRW
+        # Wheat Futures,Dec-2', ZB=F 'U.S. Treasury Bond Futures,Dec-' -- both
+        # state Dec unambiguously. Month-only, and the basis says the year is
+        # missing so no reader mistakes it for a full identity.
+        tail = _TRUNC_MONTH_RE.findall(nm)
+        months = {t.lower()[:3] for t in tail}
+        if len(months) == 1:
+            return (f"{months.pop().capitalize()} ????",
+                    f"vendor-{'shortName'}-truncated-year:{nm!r}")
+        return None, f"name-truncated-at-{len(nm)}:{nm!r}"
     if not nm:
         return None, f"vendor-supplied-no-name (instrumentType={itype!r})"
     return None, f"name-carries-no-month:{nm!r} (instrumentType={itype!r})"
@@ -779,10 +797,33 @@ def price_fetch(tickers, delta_threshold=0.0):
                 # Futures only; label is None with a stated reason when the vendor
                 # will not say (Brent — see contract_identity's header).
                 md = getattr(tk, "history_metadata", None)
-                lab, basis = contract_identity(md)
+                # ⛔ PRICE AND IDENTITY COME FROM TWO DIFFERENT ENDPOINTS: `curr`
+                # is from fast_info (quote), `md` is from history() (chart). Two
+                # HTTP requests, and NOTHING asserted they describe the same
+                # instrument -- so a printed month could in principle describe a
+                # different contract than the printed price. The vendor supplies
+                # the guard for free and it was sitting unused: history_metadata
+                # carries its own `symbol`, populated on every root tested.
+                md_sym = str((md or {}).get("symbol") or "").upper()
+                if md_sym and md_sym != str(resolved).upper():
+                    lab, basis = None, f"metadata-symbol-mismatch:asked {resolved!r}, metadata says {md_sym!r}"
+                else:
+                    lab, basis = contract_identity(md)
                 results[t]["contract_month"] = lab
                 results[t]["contract_basis"] = basis
                 results[t]["instrument_type"] = (md or {}).get("instrumentType")
+                # Derive futures-ness ONCE, here, where the vendor's own answer is
+                # in hand -- rather than re-guessing from the ticker string at
+                # display time, which is how three separate paths converged on the
+                # same silent row.
+                results[t]["is_future"] = bool(
+                    str((md or {}).get("instrumentType") or "").upper().startswith("FUTURE")
+                    or _looks_like_future(t)
+                )
+                # A month LABEL still leaves the consumer to do month->code itself,
+                # which is the exact step the original error came from. Emit the
+                # dated symbol too so a leg can be pinned without that mapping.
+                results[t]["contract_symbol"] = _dated_symbol(t, lab)
             except Exception as he:
                 results[t]["asof"] = None
                 results[t]["prev_asof"] = None
@@ -797,6 +838,8 @@ def price_fetch(tickers, delta_threshold=0.0):
                 results[t]["contract_month"] = None
                 results[t]["contract_basis"] = f"metadata-unavailable:{type(he).__name__}"
                 results[t]["instrument_type"] = None
+                results[t]["is_future"] = bool(_looks_like_future(t))
+                results[t]["contract_symbol"] = None
         except Exception as e:
             results[t] = {"error": str(e), "name": ALL_PRICES.get(t, t)}
 
@@ -899,6 +942,27 @@ def price_history(tickers, days=30):
 _MONTH_CODE = {1:"F",2:"G",3:"H",4:"J",5:"K",6:"M",7:"N",8:"Q",9:"U",10:"V",11:"X",12:"Z"}
 
 
+_CODE_FOR_MONTH = {"jan":"F","feb":"G","mar":"H","apr":"J","may":"K","jun":"M",
+                   "jul":"N","aug":"Q","sep":"U","oct":"V","nov":"X","dec":"Z"}
+
+
+def _dated_symbol(ticker, month_label):
+    """'CL=F' + 'Oct 2026' -> 'CLV26'. None when either input cannot support it."""
+    if not month_label or "?" in str(month_label):
+        return None
+    try:
+        mon, yr = str(month_label).split()
+        code = _CODE_FOR_MONTH[mon.lower()[:3]]
+    except (ValueError, KeyError):
+        return None
+    root = str(ticker).upper().replace("=F", "").split(".")[0]
+    if _BARE_DATED_RE.match(root):
+        root = root[:-3]
+    if not root:
+        return None
+    return f"{root}{code}{str(yr)[-2:]}"
+
+
 def contract_probe(root, horizon=5, exchange="NYM"):
     """Which dated contract is a continuous ticker tracking? WITH the control.
 
@@ -968,7 +1032,16 @@ def _looks_like_future(ticker):
     deserves a warning line. Never used to assert a month — that is
     contract_identity's job, from vendor data (acceptance condition 3)."""
     t = str(ticker).upper()
-    return t.endswith("=F") or t.endswith(".NYM") or t.endswith(".CME") or t.endswith(".ICE")
+    # .CMX (COMEX: gold/silver/copper), .CBT (CBOT: grains/Treasuries) and .NYB
+    # were MISSING, and a bare dated symbol was not recognised either -- so a
+    # GCZ26.CMX row with no identity field rendered bare, identical to an equity,
+    # and the UNRESOLVED warning that is the whole point of this branch never
+    # fired for COMEX or CBOT.
+    if _BARE_DATED_RE.match(t):
+        return True
+    return t.endswith("=F") or any(
+        t.endswith(sfx) for sfx in (".NYM", ".CME", ".ICE", ".CMX", ".CBT", ".NYB")
+    )
 
 
 def display_prices(results, labels=None):
@@ -990,8 +1063,12 @@ def display_prices(results, labels=None):
         vol = d.get("volume")  # cached dicts from before 2026-09-11 carry no volume key
         vs = f"{vol:,}" if isinstance(vol, int) else "—"
         print(f" {t:<10} {name:<22} {p:>10} {chg:>10} {stamp:>18} {vs:>13}")
-        # CONTRACT line (2026-09-14, additive — the columns above are a parser
-        # contract, PAT-069, and none moved). Printed for FUTURES ONLY, so
+        # CONTRACT line (2026-09-14). ⚠️ THE ORIGINAL NOTE HERE REASONED ABOUT THE
+        # WRONG AXIS: it said "the columns are a parser contract and none moved",
+        # which is true and beside the point — this change adds ROWS, and a
+        # line-oriented consumer would see interleaved non-data lines. Verified no
+        # consumer parses this stdout (only the README documents it), so the risk
+        # is nil today; the claim, not the code, was the defect. Futures only, so
         # equities/indices/FX render exactly as before. A futures row that
         # cannot state its month says UNKNOWN and why: silence would read as
         # "no roll hazard here", which is the failure this exists to stop.
@@ -1002,12 +1079,18 @@ def display_prices(results, labels=None):
         # meant a futures row the vendor mislabels (CT=F -> 'ALTSYMBOL', null
         # shortName) rendered SILENT, identical to an equity, which is exactly the
         # "no roll hazard here" reading this line exists to prevent.
-        itype = str(d.get("instrument_type") or "").upper()
-        is_future = _looks_like_future(t) or itype.startswith("FUTURE")
+        # Prefer the flag derived at FETCH time from the vendor's own answer;
+        # fall back to the string guess only for entries cached before it existed.
+        is_future = d["is_future"] if "is_future" in d else (
+            _looks_like_future(t)
+            or str(d.get("instrument_type") or "").upper().startswith("FUTURE")
+        )
         if is_future:
             if "contract_basis" in d:
                 month = d.get("contract_month")
                 shown = month if month else f"UNKNOWN ({d['contract_basis']})"
+                if d.get("contract_symbol"):
+                    shown = f"{shown} ({d['contract_symbol']})"
                 extra = f"  [resolved as {d['resolved_symbol']}]" if d.get("resolved_symbol") else ""
                 print(f" {'':<10} └─ contract: {shown}{extra}")
             else:
