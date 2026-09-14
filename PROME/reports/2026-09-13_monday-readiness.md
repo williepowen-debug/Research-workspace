@@ -1,6 +1,6 @@
 # Monday readiness — the slate is over the cap, and the Friday close moved three things
 
-**Written:** 2026-09-13 ~21:1x ET (Sun, markets closed since the Fri 9/11 close) · **Author:** PROME, session `prome-27`
+**Written:** 2026-09-13 20:2x ET (Sun, markets closed since the Fri 9/11 close) · **Author:** PROME, session `prome-27`
 **Scope:** what Monday 2026-09-14 owes, who owns it, and what the Friday close changed. **$0 moved. No gate graded. No trade proposed. STAND DOWN (WQ-192) holds.**
 **Canon:** `PROME/DOCKET.tsv` owns the dates · `PROME/GATES.tsv` owns gate state · `PROME/WILL_QUEUE.md` owns Will's list. This report points; it does not become a second copy of any of them.
 
@@ -10,7 +10,7 @@
 
 **Six desks own dated 2026-09-14 work. The WQ-184 L0 cap is four spawns per boot.** Anything past four is a slate for Will's word — which is what this section is.
 
-Darkness below is the desk's own last self-commit, read from git subjects, as of Sun 21:0x. Inbox counts are `PROME/tools/inbox_census.py`, files only, lanes separate — never `ls | wc`.
+Darkness below is the desk's own last self-commit, read from git subjects, as of Sun 20:2x. Inbox counts are `PROME/tools/inbox_census.py`, files only, lanes separate — never `ls | wc`.
 
 | Rank | Desk | Dated Monday work | Dark | Inbox | Why this rank |
 |---|---|---|---|---|---|
