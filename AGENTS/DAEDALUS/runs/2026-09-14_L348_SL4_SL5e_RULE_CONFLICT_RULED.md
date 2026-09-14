@@ -185,3 +185,52 @@ split is coherent on SUBJECTS and the two escapes are parallel, not exclusive: o
 `production UNVERIFIED` and `realisation UNKNOWN`. **That is the ruling's central claim, independently
 confirmed by a reader who was not told it.** (d) heading count still accurate — five rules; the split split a
 leg, it did not add a rule.
+
+---
+
+## 8. THIRD READ (WQ-178's one permitted third read) — **THE RULING IS EXECUTABLE.** 2 ❌ fixed, file CLOSED
+
+The third read is permitted *"only when a ❌ fix on the result changed a RULE's meaning."* ❌15/16 did — the
+tie-break went from *"suspends (b)"* to *"suspends (b)'s ACTUAL-PRINT requirement and replaces it."* Spent.
+
+**Scope was deliberately narrowed** to SL-4 + the form rows, and the reader was set ONE task: *you are
+registering a letter, your grading series is a vendor terminal you cannot reach, you have the published doc —
+walk the text and state exactly what you must do.* **18 claims: 11 ✅ · 5 ⚠️ · 2 ❌.**
+
+### ⭐ THE RESULT THAT MATTERS — the acting stranger got ONE path, unaided
+
+> *"**ONE path, not more.** … Steps: (i) from the vendor doc establish definition/basis/precision and that a
+> 2dp level on a calendar month is carriable; (ii) confirm my registered level is 2dp and sits on a published
+> calendar month …; (iii) write the producibility line; (iv) write the `production UNVERIFIED — <named query>`
+> line; (v) register."*
+> *"Nothing tells me to write nothing — L29 says so in terms."*
+> **Verdict: "YES — for my case SL-4 is executable from this file alone and gives exactly one path."**
+
+**That is the ruling's acceptance condition met at the artifact, by a reader who was not told the answer.**
+The first read's ❌15/16 — *"the file asserts exactly one path while its two sentences license two"* — is
+closed by the same test that found it, which is the only way a fix to an ambiguity can be confirmed.
+
+### The 2 ❌ — both fixed, and BOTH are corrections of corrections
+
+| ❌ | what | fix |
+|---|---|---|
+| **3** | **SL-4's CHAPEAU still demanded conjunctively what the tie-break says may be omitted** — *"show that the named series … can **and does** carry the registered level"*, the PRE-SPLIT form, sitting one paragraph above the split that repudiates it. *"A stranger stopping at the chapeau fails my letter; a stranger reading to the tie-break registers it."* ⚠️ I had already declared this as residue ⚠️1 and **de-rated it** — a reader who had to ACT rated it ❌. **A residue call made by the author is not the same judgement as one made by someone who must use the file.** | Rewritten: **CAN** carry, and **where the feed is reachable, that it HAS** — with the two halves named as legs (a)/(b) and explicitly NOT jointly required. |
+| **18** | **The form's REACHABLE attestation example instantiated (b) with SL-4's own canonical FAILURE pair** — `DGS30 printed 5.28 on 2026-08-14`, where SL-4's instance says four lines up that **`DGS30` never printed 5.28** and that it cost BOND four registrations. *"A reachable-feed desk copying the example copies the defect."* ⛔ **And this row was ADDED BY TODAY'S FIX to ❌23.** | Replaced with a **TEMPLATE**, not another number. ⛔ **Inventing a plausible-looking print to illustrate a rule about unproducible prints is the same error with better camouflage.** New standing line in the table: an example here must be **REPRODUCIBLE or a template — never a number nobody pulled.** |
+
+⭐ **The sequence is the lesson, and it is the third time today:** the first read found 5 ❌ (2 of them created
+by the amendment); the fix pass created ❌18; the third read found it. `finding_a_correction_pass_is_unreviewed_
+work`, n+1 — **fix passes carry a higher defect rate, and so does the fix to the fix.** The counter-pressure is
+that the third read ALSO returned the clean verdict that matters, so the passes were not noise.
+
+### RESIDUE from the third read — 5 ⚠️, NOT fixed, added to §7's eleven
+
+12. **(a)'s spec element list is SESSION-SHAPED and a monthly vendor series is not** — *"session calendar"*, *"a non-session date … fails registration"*. A calendar-month series has neither. **No N/A convention is stated**, and (a) also says *"if the specification itself cannot be established, the letter fails"* — the reader could not tell an INAPPLICABLE element from an UNESTABLISHED one and *"must write 'no session calendar (N/A)' on my own authority."* ⚠️ **This is the sharpest of the sixteen and the first thing to fix at 9/18**: the split's whole point is that (a) is answerable from a spec, and (a)'s own element list assumes an exchange-traded series.
+13. *"takes SL-5(e)'s form **exactly**"* — shape, not string (`production UNVERIFIED` vs `realisation UNKNOWN`). De-rated by the reader because (b) supplies the literal string inline.
+14. The tie-break **quotes its own superseded wording** three words from the live one. Labelled, so not ❌ — but it is the SL-5-bloat mechanism starting inside the repair.
+15. My §4 recommendation to Will is **still unmarked as non-binding in the file** — the reader *"cannot tell if that recommendation binds me today"* — and **the `zero on GATES.tsv` claim names no query, so a reader cannot reproduce it.** *(Carried knowingly: the fix is the 9/18 move-out.)*
+16. *"WAL's §0"* names no file and `AGENTS/WAL` + `AGENTS/WALTER` both exist; the `finding_registry_names_a_concept…` slug has no path. **2 of 5 pointers dead as written.**
+
+⛔ **FILE CLOSED FOR THE SESSION.** Third read spent; two-correction stop reached. **16 ⚠️ residue total, all
+booked to the 9/18 WQ-171 ③ restructure.** ⚠️ **And the residue's own shape is now the finding: 9 of 16 are
+POINTER or PROVENANCE defects. This file's problem is not its rules — it is that it carries instance narrative
+it cannot support. The 9/18 rule/record split is the fix for the class; anything else is one line at a time.**
