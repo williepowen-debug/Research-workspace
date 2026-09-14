@@ -39,6 +39,18 @@ BOOT_SEQUENCE = [
     # still a remembered ritual -- and the whole defect class this fixes came from lessons
     # nobody re-read before drafting a spec. See finding_mechanize_the_cap_not_the_ritual.
     ("Lesson-Conflict Check", "lessons_check.py",      [], False),
+    # Wired 2026-09-14, the session XLE Sep-30 65C sat in TRADE.md as OPEN with its receipt
+    # "PENDING" for THREE DAYS after it was sold -- through two boots that ran step 6c, the
+    # prose PENDING-row guard. The receipt existed at TERRY (bcc962bbd, 9/11 12:22 ET) and in
+    # FORGE/STATUS.md from 9/11; no packet was routed here. WILL caught it, with a screenshot,
+    # after I quoted him a live bid/ask on a position that had been flat for three days.
+    #
+    # ⛔ THE OLD GUARD'S DEFECT WAS ITS VERB: "resolve-OR-REAFFIRM" lets a session discharge the
+    # step by re-reading its own label. I confirmed the row still SAID pending instead of
+    # checking whether it still WAS. Same reason Lesson-Conflict Check above lives in boot and
+    # not in prose: a documented command is still a remembered ritual.
+    ("Pending-Receipts Check", "pending_receipts.py",   [], False),
+
     # Wired 2026-08-04, the session DEPLOY GATE v2 turned out to be UNFILLABLE BY CONSTRUCTION.
     # Verifies that every registered gate/threshold/falsifier in workbook/REGISTRY.tsv has an
     # instrument that (1) exists, (2) is reachable, (3) is fresh enough for its own staleness

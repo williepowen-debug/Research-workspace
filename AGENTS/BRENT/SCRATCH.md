@@ -46,6 +46,11 @@
 12. **SAM workbook pass (carried from 9/10, STILL not executed):** replace — do not annotate — the three retracted warnings in `workbook/LEDGER_GLOB`. Name or retire the GROUP_MAP retirement condition.
 13. **Before 9/30:** `BRT-12` original construction; **`BRT-29 M` OVERDUE since 8/31** (boot surfaces it every run). Later: 10/1 EU storage · 10/4 OPEC+ · 10/6 STEO · 10/26 `BRT-30`.
 
+## ⚠️ TWO BOOT FINDINGS I OPENED TODAY BY MY OWN GRADING — recorded, NOT papered over
+
+- **`Derived Views` 🟠 — 7 of 8 STANDING STATE rows are now "reconciled BEFORE a catalyst was graded."** **Cause: I GRADED the 2026-09-09 XLE catalyst today**, so the newest graded catalyst (9/09) is now later than those rows' `✓ reconciled 2026-09-07` stamps. **The check is RIGHT and it is doing its job** — those rows are *proven UNVERIFIED, not proven wrong.* ⛔ **I deliberately did NOT bulk re-stamp them.** A fresh header over a body I did not re-read would CERTIFY it `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]` — and re-stamping to silence a check is the exact inversion the fleet keeps paying for. **Only the `COT-FUEL-35B` row was genuinely re-verified today (promoted to vintage #5, stamped `2026-09-14`).** **NEXT SESSION: re-verify `BRT-26` ladder · `JWC/BRT-30` baselines · the 17 sentinels · the dated-history row against their canonical records, then stamp — one at a time, each on an actual read.**
+- **`Ledger Nudge` 🟠 — 4 ledgers behind STATUS.** **`INCIDENTS.tsv` (29 writes behind) is the real one and the why-not is unchanged: Petroline is still not logged because the damage is UNQUANTIFIED and the station UNNAMED, so LESSONS #1 is unsatisfied** — ⚑ **decide it next session rather than carry it a fifth time.** `board_log.tsv` (3), `LESSONS_INDEX.tsv` (1), `REGISTRY.tsv` (1) all moved TODAY and are behind only in commit-count terms, not in content.
+
 ## OPEN THREADS / WATCHES
 
 - 🔴 **WATCH FOR THE RESTART ANNOUNCEMENT AS HARD AS FOR A LOSS FIGURE.** A *precautionary* shut is undone by a **DECISION**, not a repair — the MoE's own words are *"assess its safety."* **And the April 2026 precedent says the MoE announces restoration publicly.** **R1 is both the cheapest resolver and the most likely way this ends.**
