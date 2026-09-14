@@ -4,7 +4,7 @@ Session: **2026-09-14 Mon ~18:1x–23:1x ET, Full WALTER** (Claude Code, own cwd
 
 ## STATUS
 
-**BOARD 969 → 972** (`-024` · `-025` · `-026`). **Doctor 0 HIGH throughout; 2 MED, both pre-existing.** **READ-CAP rc=0.** **No fire on any registered trigger.** ⛔ **Did NOT pull at boot** — PROME dirty outside my dir (root §Before-pulling step 2); repo was 0 behind origin so the pull was a no-op regardless.
+**BOARD 969 → 973** (`-024` · `-025` · `-026` · **`-027`, dispatched DURING closeout**). **Doctor 0 HIGH throughout; 2 MED, both pre-existing.** **READ-CAP rc=0.** **No fire on any registered trigger.** ⛔ **Did NOT pull at boot** — PROME dirty outside my dir (root §Before-pulling step 2); repo was 0 behind origin so the pull was a no-op regardless.
 
 ## CHANGED
 
@@ -16,6 +16,9 @@ Session: **2026-09-14 Mon ~18:1x–23:1x ET, Full WALTER** (Claude Code, own cwd
 - ✅ **BOOT-FILE SWEEP:** 4 defects fixed (stale guard count · stale canonical version · dead canonical-spec pointer · 3 unregistered live specs), **6 verified clean and stated as such.**
 - ✅ **`ADD#23` amended** — unexecutable for 14 days because it named the bare symbol form, which errors.
 - ✅ **STATUS rotated 24,457 → 21,214 B (75% → 65%)**, old lead VERBATIM to `SESSION_LOG.md`.
+
+### ⚠️ ONE SIGNAL ARRIVED DURING CLOSEOUT AND WAS ROUTED, NOT CARRIED
+**REGINALD's post-close packet landed in `inbox/*.md` mid-closeout.** **Routed as `-027` rather than carried to next session, because its forward leg is DATED 9/16 10:30 ET and WAL sits 1.5% above `REG-T-02`** — carrying it would have left a dated catalyst unrouted through the session that precedes it. **BAC −5.14% = Barclays-conference GUIDANCE, not credit; REGINALD killed its own rates/AOCI hypothesis and pulled EDGAR to do it. Cross-section sorts on capital-markets exposure; KRE finished GREEN.** **Anti-contagion guard carried as the dispatch headline.** ⛔ **RED handoff deliberately NOT written — `info` + `PULL_COMPLETE` rides the BOARD ID-diff per §3.5.8(a).**
 
 ## RESULT
 
