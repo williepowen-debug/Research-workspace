@@ -76,3 +76,27 @@ Three life-science CRE distress events across cohorts in 6 months:
 > ⛔ **LEVELS DE-DUPLICATED 2026-09-02 — this table carries the ROUTING, never the level. Every level is canonical in §THRESHOLD STATUS above.**
 > ⚠️ **Why, and it is the third instance of the same class on this file:** on 9/2 this block was **five weeks stale and contradicting the canonical surface in the same file** — HY OAS `287bps [7/29]` against a canonical `267bps [8/26]` (20bp, in the reassuring direction), and worse, **CCC/HY read `3.530×, below line and FALLING` while §THRESHOLD STATUS read `3.861×, 🔴 HARD-FIRE, 19th consecutive session`. Two surfaces, one metric, OPPOSITE FIRE STATES.** The 8/27 pass fixed exactly this for KRE, Brent and 10Y and wrote *"duplicating the level IS the drift vector"* — and then left this table duplicating four more. **A refresh would have bought another five weeks; the de-dup ends the class.** `[[finding_status_spine_staleness_under_appended_top]]` · `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`
 > *(Pre-de-dup table rotated verbatim → `archive/STATUS_rotation_2026-09-02.md` BLOCK H.)*
+
+
+@@BLOCKT@@
+
+## BLOCK T — §CONVERGENCE MATRIX EGBN cell, full 7/25 Q2 grade detail (rotated 2026-09-14)
+
+**Verbatim, crc32 `87238c73`, 1382 B.** A settled quarter grade whose canon is `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md`.
+⛔ **What stays LIVE on the matrix and is NOT rotated:** EGBN's v2.0 score (5), its sub-100% reserve coverage (88% of its own nonaccruals), the **de-risking-through-realized-loss** verdict (escalation NOT triggered), the **0.53yr reserve runway + its inverted bias**, and the unreconciled `CRE 547%` vs EGBN's own disclosed 267.6% flag. Those are decision-relevant and remain in the v2.0 block and the coverage line.
+
+@@BODYT@@
+
+| EGBN | ~~20~~ | **★ Q2 GRADED 7/25 → DE-RISKING THROUGH REALIZED LOSS, not deterioration; escalation NOT triggered.** Coverage 114.29%→**109.01%** (NEUTRAL band, did NOT breach the <105% bear line); NCO $26.0M→**$47.9M / 2.78% ann.** attributed verbatim to *"disposition activities related to classified assets"*; ACL drawn down $26.0M (2nd consecutive qtr) to ~$121.2M. **But the bank got smaller, cleaner and better-capitalized: CRE concentration 295.1%→267.6% (now BELOW the 300% supervisory line), ADC 75.7%→66.2%, IPRE loans −9.9%, NPA 1.31%→1.17% RESOLVING, CET1 13.80%→14.58%, NIM 2.47%→2.52%.** SM+Sub flat −0.6% but composition migrated DOWN (SM −$16.6M / Sub +$12.2M). ⚠️ 30-89 "+145%" is ONE $35.4M loan **already paid off in full** — ex-item **−52%**. ⚠️ **This row's "CRE 547%" cannot be reconciled to EGBN's own stated 267.6% — basis differs; FLAGGED, not overwritten; pin at the matrix re-score.** Grade → `reports/2026-07-25_EGBN_Q2_grade_plus_FL_smalltier_watchcard_fill.md`. *(Prior: CRE 547% + DC 100% + crisis state; 6/20 drill fresh CRE nonaccrual CREEP — IPRE +23%, constr +61%, NPA 1.04→1.31%, coverage 149→114% (one CRE office relationship → nonaccrual; worst office credit migrating *past* criticized into nonaccrual). Independent confirm of OZK-style concentration creep. | **None** (Jun-18 $25P cleared) |
+
+
+@@BLOCKU@@
+
+## BLOCK U — §SUB-AGENTS CREED cell, June-Trepp detail (rotated 2026-09-14)
+
+**Verbatim, crc32 `0f754490`, 1078 B.** A 7/10-verified June-print snapshot; CREED's live state is at `../CREED/STATUS.md` and is read directly.
+⛔ **The two things that must NOT be lost and are kept live on the table:** ① the **$875B 2026 maturity wall is MY figure (MBA, ALL-CRE, all channels) and NOT CREED's** CMBS-only >$100B / $76.6B hard — confusing them misprices by ~9×, settled 7/27; ② the **RATE-vs-BALANCE basis note** — CREED's office/overall figures are RATES while WALTER's June *"distress declined $3.49B/−3.7%"* is a BALANCE, and a balance can fall while a rate rises if the pool shrinks faster.
+
+@@BODYU@@
+
+| CREED (top-level, `../CREED/`) | **Read `../CREED/STATUS.md` directly** *(pointer vintage 7/4 — REFRESH; CREED has since sent two 7/27 packets, both processed 7/30)*. Canon **as of the June Trepp print [figures verified 7/10 vs Trepp primary via ConnectCRE]**: office CMBS DQ **11.57% June (+4bps)** / overall **7.35% (−20bps, a LODGING-cure artifact −79bps: office/retail/MF ALL ROSE)** / office SS **17.11%** rising while DQ falls / **$875B 2026 wall = MY figure, MBA, ALL-CRE all channels — NOT CREED's** (nests with CREED's CMBS-only >$100B and $76.6B hard; confusing them misprices ~9×, settled 7/27). ⚠️ **BASIS NOTE, carry it wherever the June split is cited:** these are **RATES**; WALTER's June "distress declined $3.49B/−3.7%" is a **BALANCE**. A balance can fall while a rate rises if the pool shrinks faster — the split resolves WALTER's `SIG-W-20260727-028` counter-evidence **on the rate basis only**; the balance-by-property-type split is not in hand at either desk. *(Old row cited the Feb "12.34% Jan ATH" vintage — retired 7/17.)* | 🔴 |
