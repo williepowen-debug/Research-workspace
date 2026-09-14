@@ -28,3 +28,18 @@ Six passes. **Draft 1 came out at 33,655 B — OVER the 32,550 B budget, worse t
 
 ## Provenance
 Pre-re-base body → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-14.md`; receipt is a git object, never a hand crc over a line-numbered perimeter (that form broke the receipt twice at the fifteenth base).
+
+
+## ADDENDUM 2026-09-14 14:1x ET — the guard cell regrew to its pre-split size INSIDE THE SAME SESSION
+
+**Observed, not predicted.** The kill-on-sight cell was **3,865 B** before this re-base and was the single largest section in the file. The split cut it to roughly **1,500 B**. A rule-17 obligation audit then found the "this week" subset UNDER-INCLUSIVE and **re-homed twelve live guards into it** — correctly; a hot-only reader was missing *"refiners = oil beta"* on the day that misreading made a live trade look attractive. Two more entries landed from RED's FT-10 framework. **The cell reached 3,648 B with 25 entries: back to its pre-split size, in one session.**
+
+⇒ **This is PAT-055 regrowth, observed on the surface whose own re-base was supposed to have addressed it, on the same day.** ⛔ **The lesson is NOT "split harder."** Every addition was correct in isolation — that is what makes it the interesting case. **A guard cell on a capped surface has a WORKING-SET size, and it needs a DEMOTION pass as routinely as it needs a promotion one.** The demotion test that fell out of it is worth more than the byte count: **not "is this settled?" but "does the hot file already refute it WHERE THE READER TRAVELS?"** Four entries passed that test and moved to cold `§KOS.2` — the hot channels now carry the venue-by-venue FOMC pricing, the `BND-22` FALSE grade and the H.15-vs-ICE-BofA split in their own text, so a reader meets the correct fact before they could reach for the dead one.
+
+## WHERE IT STOPPED, AND WHY THAT IS NOT A DEFERRAL
+
+**23,891 B = 73.4% of budget. Over the <70% stop by 1,106 B. 521 B of headroom to the rotate line.**
+
+⛔ **Stopped deliberately, and tested against `ML-RED-251` before stopping: *would I accept this reason from another desk about work this cheap?* The work is NOT cheap — it is DESTRUCTIVE.** Everything remaining is either a live guard or the live `WQ-213` decision. Cutting a guard to green a byte line is the trade this file exists to prevent, and the day already produced the worked example: RED stopped 515 B above the same threshold rather than delete live contract definitions, and that was the first "I stopped" in the whole exchange that was not a self-chosen metric talking.
+
+🔴 **DATED RE-TRIGGER, with a NAMED target rather than a generic one (rule 7):** **the `WQ-213` block in §Book state becomes HISTORY at the 16:00 close today** — whichever way Will decides, the day-colour gate is a moment property and dies with the session. **That block is the next rotation and it is non-destructive once the decision resolves.** Re-check at the close, at any append, or on 2026-09-21 — whichever is first.
