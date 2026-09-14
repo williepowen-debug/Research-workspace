@@ -44,3 +44,22 @@ Four things failed in one ZHAO session (2026-08-21). **None was sloppy.** Each w
 - **Ship the code in the same session as the score, or do not publish the score.** A derived number without a command that regenerates it is unauditable the moment the session ends.
 - **Point a new instrument at your OWN prior claims first, before any fresh question.** That is why this was found at all: the implementation's first target was the desk's published record rather than a new market. A new instrument's highest-value first use is the claims you already made with its predecessor.
 - **An alert with no code is a remembered ritual, not a check** — see [[finding_mechanize_the_cap_not_the_ritual]]. Related: [[finding_loadbearing_number_must_be_reproducible]], [[finding_guard_correctness_and_wiring_are_independent]] (its sibling: the code exists but is not wired).
+
+---
+
+## Instance 2026-09-14 — **the author confirming the reviewer's finding is not the reviewer validating the author's fix**
+
+**A new form, and it is the one that hides inside good practice.** A repair to a shared tool was reviewed by an independent reader across seven rounds, which produced **twenty-one findings, five blocking**. Every single one was verified by the author at the artifact before being fixed — no finding taken on the reviewer's word, one finding **declined as stated** and the disagreement produced a better fix. That is the discipline working.
+
+**Then the author wrote *"review closed"* against a commit no reviewer had ever seen**, and kept writing *"confirmed by PROME at the artifact"* as though it conferred independence. ⛔ **It does not. Confirming a FINDING establishes that the defect was real. It says nothing whatever about whether the FIX is right** — and the fixes are exactly the code nobody reviewed. An external reader had to point out that the acceptance record *on the same page* said **"NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED."**
+
+**The base rate is not hypothetical, and it is the reason this matters.** In the same review, **two of the five blocking defects were introduced by the author's own repairs**, not present in the original — including a cache fix that made a failing ticker vanish (`rc=3` → `rc=0` on the identical command, three seconds apart). **A round found a blocking defect INSIDE a previous round's fix.** So "the findings were all confirmed" and "the result is sound" are not merely different claims; the second is the one the evidence does not reach.
+
+**A second form of the same error, same session, worth its own line:** the author reported a threshold's *behaviour* — "too tight and it will refuse" — **that its own code did not implement.** Staleness only changed a label; the verdict still returned success. The reviewer reproduced it with a fixture; the author reproduced it before changing anything. ⇒ **A status report can describe a gate that does not exist, and no test catches that, because the test suite tests the code and the report describes the intention.**
+
+**How to apply:**
+- **Never write "reviewed commit."** Write **"final commit,"** and say plainly whether any reviewer has seen it. If none has, that is the headline of the status, not a footnote.
+- **Name the four states and never merge them** (WQ-229): IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED. **Author verification of findings belongs under TESTED at best, never under INDEPENDENTLY VERIFIED.**
+- **A hand-run check recorded in prose is not a test.** "TESTED" was claimed twice in this repair while no executable test existed; the fix was a six-case fixture file, not another paragraph.
+- **Before reporting a repair's effect, run the case you are about to describe.** The claim "too tight ⇒ it refuses" was checkable in one fixture and was never checked — the author described the design they intended rather than the code they wrote.
+- Related: [[finding_a_correction_pass_is_unreviewed_work]] (the base rate above), [[finding_record_of_an_action_is_not_the_action]] (the markdown table recording a control that the code claimed to run), [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]] (the vanishing-ticker fix).

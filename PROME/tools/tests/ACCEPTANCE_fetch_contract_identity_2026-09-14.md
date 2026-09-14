@@ -55,7 +55,7 @@
 - ⛔ **No spread guard inside `fetch.py`** — it does not compute spreads; consumers do. A fail-closed *spread* emitter is a real idea and belongs where the differential is built. Recorded, not built here.
 - ⛔ **PROME adjudicates no desk's grade.**
 
-## 🔴 INDEPENDENT REVIEW, 2026-09-14 19:2x — **THREE BLOCKING DEFECTS, ALL CONFIRMED BY PROME AT THE VENDOR, ALL FIXED**
+## 🔴 INDEPENDENT REVIEW — ROUNDS 1–2, 2026-09-14 19:1x — **THREE BLOCKING DEFECTS, ALL CONFIRMED BY PROME AT THE VENDOR, ALL FIXED**
 
 A read-only reviewer was given the diff and these conditions and told to devise its own counterexamples rather than re-run mine. It returned **NOT YET FIXED**. Every finding was verified independently before fixing — none taken on the reviewer's word.
 
@@ -74,7 +74,7 @@ A read-only reviewer was given the diff and these conditions and told to devise 
 - **❌1:** `contract_probe('BZ')` → **IDENTIFIED, `BZ=F` is tracking `BZX26.NYM` (November)**, control `passed-distinct-prices` (106.36 / 101.28 / 97.01). **This is the answer Brent could not have from the name.**
 - ★ **Two INDEPENDENT methods cross-validated, no shared input:** name-derived vs price+control — `CL=F` `Oct 2026` ↔ `CLV26.NYM`; `HO=F` `Nov 2026` ↔ `HOX26.NYM`. Agreement of two unrelated routes, not one route checked twice.
 
-## 🔴 REVIEW ROUND 2, 19:3x — **TWO MORE BLOCKING, ONE WARNING. All confirmed by PROME before fixing.**
+## 🔴 REVIEW ROUND 2, 19:1x — **TWO MORE BLOCKING, ONE WARNING. All confirmed by PROME before fixing.**
 
 **❌4 — my "never cache a failure" fix covered ONLY my own reproduction.** The guard fired only when **every** ticker in the basket errored (`all(...)`) — i.e. the single-symbol case, `price HOX26`, and nothing else. **Every production caller is a basket** (`dashboard.py`; the `prices`/`all`/`snapshot` commands pass `list(ALL_PRICES.keys())`), so one bad ticker among thirty still cached its error for the full TTL. ⛔ **I fixed the row I had reproduced instead of the class — having cited `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]` in this same file, in this same session, for a different repair.** **FIXED:** errored entries are stripped per-ticker; the good ones cache.
 
@@ -88,7 +88,7 @@ A read-only reviewer was given the diff and these conditions and told to devise 
 
 **Round-2 verification:** 18/18 name cases pass, including all 14 live vendor names, both reviewer counterexamples, and the two I added. Mixed-basket caching keeps good entries and strips errors; all-error and empty baskets cache nothing. `6EZ26`/`6JZ26` now gated; `--no-cache`/`AAPL` still rejected.
 
-## 🟠 REVIEW ROUND 3, 19:4x — **FIVE WARNINGS, all confirmed, all fixed. One of them is the best finding in the review.**
+## 🟠 REVIEW ROUND 3, 19:21 (commit `52301eb52` 19:21:35) — **FIVE WARNINGS, all confirmed, all fixed. One of them is the best finding in the review.**
 
 **⚠️9 — PRICE AND IDENTITY CAME FROM TWO DIFFERENT ENDPOINTS, AND THE VENDOR'S OWN CROSS-CHECK WAS SITTING UNUSED.** `curr` comes from `fast_info` (quote endpoint); `md` comes from `history()` (chart endpoint). **Two separate HTTP requests, and nothing asserted they described the same instrument** — so a printed month could in principle describe a different contract than the printed price beside it, which is the exact class of error this repair exists to prevent, one level up. ⭐ **`history_metadata['symbol']` is populated on every root tested. The free guard was present and unused.** **FIXED:** the metadata symbol is compared to the symbol actually fetched; on mismatch the month is withheld with `metadata-symbol-mismatch`, never printed. *(This was one of the angles I asked the reviewer to probe, and it came back with a finding rather than a clean negative.)*
 
@@ -102,7 +102,7 @@ A read-only reviewer was given the diff and these conditions and told to devise 
 
 **Round-3 verification:** symbol-mismatch guard blocks on mismatch and passes on match · `_dated_symbol` correct for `CL=F`→`CLV26`, `HO=F`→`HOX26`, `GC=F`→`GCZ26`, and returns None rather than guessing on a truncated-year label · `.CMX`/`.CBT`/`.ICE`/bare-dated now recognised, `AAPL`/`SPY` still not · full 10-case name regression green with no regressions from rounds 1–2. **Live:** `ZW=F Dec ????` · `CL=F Oct 2026 (CLV26)` · `HO=F Nov 2026 (HOX26)` · `GC=F Dec 2026 (GCZ26)` · `BZ=F` UNKNOWN.
 
-## ✅ REVIEW ROUND 4, 19:5x — **REVIEW CLOSED. Thirteen findings total: ❌1–❌5 and ⚠️6–⚠️13.**
+## ✅ REVIEW ROUND 4, 19:2x (commit `878f0e928` 19:22:15) — **REVIEW CLOSED. Thirteen findings total: ❌1–❌5 and ⚠️6–⚠️13.**
 
 **⚠️12 — I asserted "30 chars" three times while the code's own output said 31, and I called length alone "truncation".** Measured: `BZ=F`, `ZW=F`, `ZB=F`, `ZQ=F` all cut at **exactly 31**. ⛔ Worse than the wrong figure: `len >= 30` labelled any long monthless name *"truncated"*, **asserting vendor behaviour that did not occur.** **FIXED:** the figure is corrected in code and in this file, and truncation is now **proven where it can be** — `BZ=F`'s `longName` prefix-extends its `shortName` (`'…Last Day Financ'` → `'…Last Day Financial Futures'`), which is direct evidence — and labelled `inferred-from-width` where it cannot. The basis string now says which.
 
@@ -119,7 +119,7 @@ Condition 3 is held **where identity is decided** but **not for renderability**:
 
 **The one Brent residual the reviewer named:** because the vendor month is UNKNOWN there, a `BZF27` → `BZF27.NYM` substitution had no independent cross-check from the output alone. ⚠️9's wiring closes it.
 
-## 🔴 REVIEW ROUND 5, 19:3x — **REOPENED ON WILL'S DIRECTION. THREE MORE BLOCKING, AND THE WORST IS ONE I INTRODUCED FIXING ❌4.**
+## 🔴 REVIEW ROUND 5, 19:30 (commit `20b74a97d` 19:30:29) — **REOPENED ON WILL'S DIRECTION. THREE MORE BLOCKING, AND THE WORST IS ONE I INTRODUCED FIXING ❌4.**
 
 **❌14 — MY ❌4 REPAIR MADE A FAILING TICKER VANISH. Reproduced exactly:**
 
@@ -138,7 +138,7 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 
 ⚠️ **The lesson I am recording against myself, because it is the second time tonight the same shape appeared:** ❌4 was itself a fix to a fix, and this is a defect *in* that fix — `[[finding_a_correction_pass_is_unreviewed_work]]`, now at n+2 in one session. **Five rounds, sixteen findings, and the two worst were both introduced by repairs rather than found in the original.**
 
-## 🟠 REVIEW ROUND 6, 19:4x — **CASE 1 (stale price match) produced four findings. One fired on a live root immediately.**
+## 🟠 REVIEW ROUND 6, 19:31 (commit `2deba80cc` 19:31:19) — **CASE 1 (stale price match) produced four findings. One fired on a live root immediately.**
 
 **⚠️17 — a refusal reported the vendor's verdict when it may have been reporting the CLOCK.** The continuous leg and the candidates are fetched in **separate sequential requests**, so they can carry different observation times — and a timing miss is **retryable** while a real no-match is **structural**. `REFUSED-no-price-match` merged the two. ⭐ **`regularMarketTime` is present on BOTH sides of every comparison** (measured `dt=0` on CL/BZ/HO) **and was never read.** Same shape as ⚠️9, one level down: the vendor supplies the cross-check, the code compares only the value. **FIXED:** timestamps captured; zero hits with materially differing times now returns `REFUSED-prices-observed-at-different-times` with `retryable: true`.
 
@@ -150,7 +150,7 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 
 ⚠️ **Case 1's honest summary: my own framing of it was half right.** I asked whether a thin `.NYM` candidate could break the **match**. It cannot, on observed data. It breaks the **control** — which is the load-bearing half, and the half I did not ask about.
 
-## ✅ ROUND 7, 19:4x — **REVIEW CLOSED. FINAL LEDGER: ❌1–❌5, ⚠️6–⚠️21 — TWENTY-ONE FINDINGS.**
+## ✅ ROUND 7, 19:32 (commit `43a1b6d5e` 19:32:26) — **REVIEW CLOSED. FINAL LEDGER: ❌1–❌5, ⚠️6–⚠️21 — TWENTY-ONE FINDINGS.**
 
 **⚠️20 tail — `attempted` now travels beside `dropped`.** The result showed which candidates were *obtained*, never which were **tried and lost**, so a transient failure on the **tracked** slot produced a plain no-match refusal with no tell. ⚠️ Also recorded rather than fixed: the loop starts at the current calendar month, so a root already rolled past it always wastes its first call on an expired contract — **left visible deliberately, because skipping it would encode a roll assumption.**
 
@@ -162,7 +162,7 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 
 **② ❌14's coverage sweep — "a guard keyed on *presence* rather than on *the fact*."** ⭐ **TESTED, and it holds.** Primed the cache with a good ticker, then re-requested it alongside a failing one so the **shortfall re-fetch itself fails**: `rc=3`, the key is present, and the error is **the REAL vendor error (`'currentTradingPeriod'`), not the synthesised placeholder.** ⚠️ **And one honest correction to my own description: the belt-and-braces sweep is UNREACHABLE by construction** — `results` starts as `dict(cached)` and the loop covers `missing`, whose union is every requested ticker. **It is defensive, not active, and I called it belt-and-braces without checking whether it could fire.**
 
-## ⛔ ROUND 8, 19:5x — **EXTERNAL REVIEW OF THE CLOSURE CLAIM ITSELF. TWO CONSEQUENTIAL DISCREPANCIES, BOTH MINE.**
+## ⛔ ROUND 8, 19:42 (commit `e2de0bd1b` 19:42:05) — **EXTERNAL REVIEW OF THE CLOSURE CLAIM ITSELF. TWO CONSEQUENTIAL DISCREPANCIES, BOTH MINE.**
 
 **① *"Review closed"* and *"reviewed commit `43a1b6d5e`"* OVERSTATED what the record establishes — and this file said so at the time.** The completion section read *"NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED"* while the report called the work closed against a commit **no reviewer has ever seen**: `43a1b6d5e` contains ⚠️20's tail, ⚠️21 and the `STALE_S` mitigation, all written **after** the reviewer's last look. ⛔ **And the sharper half: *author verification of reviewer findings is not independent verification of the repairs.*** I repeatedly wrote *"confirmed by PROME at the artifact"* as though it added independence. It establishes that the FINDING was real. It says nothing about whether the FIX is right. **Corrected below: there is no reviewed commit — only a final one.**
 
@@ -178,9 +178,20 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 
 `PROME/tools/tests/test_contract_probe_acceptance.py` — fixtures, **no network**, six pinned cases: the reviewer's stale-match reproduction · matched-fresh-with-another-leg-stale · all fresh · duplicate-price control failure · no match · too few candidates. **6/6 green at the final commit, live behaviour unchanged.** ⛔ **It is an acceptance check against the KNOWN failing cases, not another search for findings** — the correction cascade stops here. ⚠️ It also retires a claim this file made twice: **"TESTED" was not defensible while no executable test existed.** A markdown table recording that someone ran a check by hand is not a test.
 
+## ⚠️ DECLARED RESIDUE — closeout audit 2026-09-14 19:5x, SIX ⚠️ NOT FIXED
+
+⛔ **Listed, not silently dropped.** The closeout rule is **apply ❌ only; every ⚠️ becomes declared residue** — and that rule exists because correction passes breed defects, which this session demonstrated three separate times. **Two ⚠️ were fixed as exceptions because they were live FALSE STATEMENTS rather than imprecision** (a corrupted splice in `HANDOFF` asserting the opposite of the argument above it; *"`WILL_QUEUE` cell 2 is UNCHANGED"* when the 19:1x headline correction had rewritten it). The six below stand:
+
+1. **`31,471 B ≈ 96%` is restated on three surfaces while `read_cap_check` prints 97%** (31,471/32,550 = 96.68%). ⛔ **PROME's own "no live measurements in prose" rule says name the instrument once, not quote the percentage in three files** — so the correct fix is to DELETE the figure from all three, not to change 96 to 97. Deferred because it is a three-surface edit at the end of a session that has already tripped a correction stop.
+2. **Two figure sets for one Brent negative control:** `106.36 / 101.28 / 97.01` vs `BZX26 106.36 · BZZ26 101.35 · BZF27 97.01`. Two legs identical to the cent, the middle differs by **$0.07**, and **neither set carries an observation time.** Both are PROME's own pulls minutes apart; a stranger cannot tell that from the record.
+3. **"Twenty-one defects across seven rounds" undercounts the rounds:** headers run to **ROUND 8**, which reviewed the *closure claim* and found two further consequential findings excluded from the 21. The honest form is *"21 findings across seven code-review rounds; round 8 reviewed the closure claim and found two more."*
+4. **DOCKET L369's disposition still flags "SEPARATE AND LIVE: every `[9/14i]` cell is a dead intraday bar"** — discharged at 19:28 (`bfce451d3`) when §Stress converted to `[9/14c]`, about 2½ h after the cell was written. The row was not revisited.
+5. **`STALE_S`'s three live ages (`BZF27` 1,013 s · `HOF27` 8,494 s · `CLF27` 165 s) name no invocation** and are unreproducible as written; they need the command beside them.
+6. **The SCRATCH rotation receipt `crc32 457275158` is not reproducible from the archive file that prints it** — it matches the ★NEXT block in `HEAD:PROME/SCRATCH.md` including its trailing newline, while the sibling `HANDOFF_ROTATED_…` receipt verifies against its own archive body stripped. ⛔ **Two receipt conventions in one session** — the class the fifteenth HEARTBEAT re-base already broke twice. Each receipt needs its perimeter and command stated beside it.
+
 ## Completion states — never merged
 
-- **IMPLEMENTED:** ✅ yes, including the three review fixes.
+- **IMPLEMENTED:** ✅ yes, including **all twenty-one** review fixes. *(This line read "the three review fixes" — a round-1 snapshot left live inside the one block whose stated purpose is that the states never merge.)*
 - **TESTED (author's own):** ✅ — and only now legitimately, via `PROME/tools/tests/test_contract_probe_acceptance.py`, 6/6. Prior rounds claimed TESTED on hand-run checks recorded in prose, which does not support the word.
-- **INDEPENDENTLY VERIFIED:** ⛔ **NO — and "review closed" was the wrong phrase for it.** ⛔ **THERE IS NO REVIEWED COMMIT, ONLY A FINAL ONE.** No reviewer has seen the current code; the last rounds of fixes, ⚠️21, and the stale-match resolution were all written after the reviewer's final look. **Author verification of a reviewer's finding is not independent verification of the repair.** What the seven rounds establish is that twenty-one real defects were found and addressed — not that the result is accepted. **The limit is the point.** The review is **CLOSED** — **twenty-one findings across seven rounds** (❌1–❌5, ⚠️6–⚠️21), all confirmed by PROME at the artifact before fixing, all fixed. ⚠️ **Two of the five blocking defects were INTRODUCED BY MY OWN REPAIRS, not found in the original** (❌14 inside the ❌4 fix; ❌5's class inside the first identity build), and exactly one fix was tested by the reviewer's own follow-up hypothesis (❌14's sweep, which held). **NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED** — and round 5 proved why that matters: reopening the review on two named cases found **three more blocking defects, the worst of them introduced by my own ❌4 repair** — and round 2 found a blocking defect *inside* a round-1 fix, so the base rate for that is not zero. `[[finding_adoption_is_not_validation]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`. **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
-- **STILL UNRESOLVED:** re-review of the thirteen fixes (**the outstanding item**) · the renderability residual above · `contract_probe` is unexercised on a root where the control should FAIL (no such case found live, so the refusal branches are reasoned-but-unobserved) · the fail-closed **spread** guard, which belongs in consumers and is not built.
+- **INDEPENDENTLY VERIFIED:** ⛔ **NO — and "review closed" was the wrong phrase for it.** ⛔ **THERE IS NO REVIEWED COMMIT, ONLY A FINAL ONE.** No reviewer has seen the current code; the last rounds of fixes, ⚠️21, and the stale-match resolution were all written after the reviewer's final look. **Author verification of a reviewer's finding is not independent verification of the repair.** What the seven rounds establish is that twenty-one real defects were found and addressed — not that the result is accepted. **The limit is the point.** The review is **CLOSED** — **twenty-one findings across seven rounds — EIGHT of them BLOCKING** (❌1–❌5 · ⚠️6–⚠️13 · ❌14–❌16 · ⚠️17–⚠️21), all confirmed by PROME at the artifact before fixing, all fixed. ⛔ **CORRECTED AT THE CLOSEOUT AUDIT — the earlier line said *"two of the FIVE blocking"* and both numbers were wrong, in the direction that flattered me.** **There are EIGHT blocking findings, not five** (❌1–❌5 plus ❌14–❌16; round 5's own header says *"three more blocking"*). **And THREE of them — ❌14, ❌15, ❌16 — were ALL introduced by the single fix to ❌4**, which is worse than the claim it replaces: one repair created three blocking defects, and ❌15/❌16 are that repair's `--json` and dashboard faces. ❌1–❌5 were in the first build. Exactly one fix was tested by the reviewer's own follow-up hypothesis (❌14's coverage sweep, which held). **NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED** — and round 5 proved why that matters: reopening the review on two named cases found **three more blocking defects, the worst of them introduced by my own ❌4 repair** — and round 2 found a blocking defect *inside* a round-1 fix, so the base rate for that is not zero. `[[finding_adoption_is_not_validation]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`. **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
+- **STILL UNRESOLVED:** re-review of the **twenty-one** fixes (**the outstanding item**) *(read "thirteen" — a round-4 snapshot, same defect as the line above)* · the renderability residual above · `contract_probe` is unexercised on a root where the control should FAIL (no such case found live, so the refusal branches are reasoned-but-unobserved) · the fail-closed **spread** guard, which belongs in consumers and is not built.

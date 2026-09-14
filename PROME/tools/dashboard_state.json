@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-14 16:53",
+ "built": "2026-09-14 19:44",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -18,7 +18,6 @@
   "2026-09-14 LADDER-INTEGRITY sitting: the ~33-row invented-gate audit + ",
   "2026-09-14 VECTOR 2 \u2014 CHEAP VOL INTO FOMC 9/16 with Brent $108: VIX 17.",
   "2026-09-14 VECTOR 3 \u2014 IS GLD THE WRONG HEDGE in an oil-shock / real-yie",
-  "2026-09-14 \ud83d\udd34 HEARTBEAT SIXTEENTH RE-BASE \u2014 the 24,412 B rotate line is ",
   "2026-09-15 BOND dual-print grades: 9/15 20Y-R 912810UX4 + 9/17 10Y TIPS",
   "2026-09-15 EXTERNAL-AUDIT REMEDIATION F2/F3/F4 \u2014 three P2 defects in PR",
   "2026-09-15 GATE-FERT-G3 standing re-read \u2014 China quota/floor state at M",
@@ -37,6 +36,7 @@
   "2026-09-16 \ud83d\udd34 FT-10's LETTER HAS NO CLAUSE FOR 'THE ARCHIVE HAS NOT REGE",
   "2026-09-16 \ud83d\udd34 RE-MEASURE THE SPX GAMMA BOARD BEFORE THE 14:00 FOMC \u2014 the",
   "2026-09-16 \ud83d\udd34 REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY \u2014 it con",
+  "2026-09-16 \ud83d\udfe0 CALIBRATE contract_probe's STALE_S \u2014 AN UNCALIBRATED CONST",
   "2026-09-16 \ud83d\udfe0 FIVE DESKS HAVE A BOOT READ OVER BUDGET \u2014 the first fleet-",
   "2026-09-17 BOJ September MPM (Sep hike ~40-54% UNPRICED band [TFX prima",
   "2026-09-17 P4 SITTING \u2014 correction-class validation C1\u2013C5 (WQ-109, rule",
@@ -167,10 +167,10 @@
   "MOVE": 82.21,
   "OZK": 49.09,
   "USD/JPY": 153.57,
-  "VIX": 16.7,
-  "WAL": 79.29
+  "VIX": 17.1,
+  "WAL": 79.18
  },
- "one": "\ud83d\udd34 Wed 9/16 FOMC: CME 85.5 [9/12] \u00b7 Kalshi 83.5 \u00b7 Polymarket 84.5 \u00b7 VWAP 84.3 [all 9/14] \u2014 per venue per date, never a band \u2014 and BOND's curve read says the hike is NOT the risk event: ~115\u2013130bp of further tightening is ALREADY PAID FOR (terminal ~4.75\u20134.95%, off the H.15 9/10 par curve), so a HAWKISH plot must beat ~4.95 to surprise while a DOVISH plot is the large repricing \u2014 and a dovish SEP would UNWIND the very move that put DFII10 through 2.50. The 004 add line went THROUGH and both desks graded NO ADD by independent routes; the breach is a terminal/policy-path repricing, belly-peaked, not 004's term-premium channel. \u2705 **WQ-213: Will PASSED on the 9/14 qualifying day in his own words (15:24) \u2014 card stays ARMED, hands OWED, re-affirm at needed_by (L389). \u26d4 TERRY's do-not-fill REASON IS REFUTED, NOT MERELY SPENT: ~93% of the *crack collapse* was a CONTRACT ROLL; matched-basis the crack fell \u22120.73% [HENRY, owner \u2014 the figure to cite], not \u22129%, and products ROSE. \ud83d\udd34 HEN-F1's two thresholds are ONE ROLL APART (~$4.5 of $4.84 \u2014 \u26a0\ufe0f **a two-sig-fig percentage is RETIRED; the step measured 92.6\u201394.4% across five pulls and the robust statement is *comparable to the whole separation*) \u21d2 WQ-252 \u2014 a LETTER-DESIGN defect; F1 is NOT fired on any basis. \ud83d\udd34 The energy sleeve is USO 37 shares and nothing else \u2014 ~$5.8k [TERRY mark 9/14 13:04, INTRADAY], 100% UNDEFENDED. Bab el-Mandeb: a DATED SEQUENCE of government WITHDRAWALS, override NOT triggered, transits +47% w/w. Petroline repair 3\u20135 weeks \u21d2 restoration AFTER BG-02's 9/25 window. STAND DOWN holds (WQ-192); $0 moved by PROME.",
+ "one": "\ud83d\udd34 Wed 9/16 FOMC: CME 85.5 [9/12] \u00b7 Kalshi 83.5 \u00b7 Polymarket 84.5 \u00b7 VWAP 84.3 [all 9/14] \u2014 per venue per date, never a band \u2014 and BOND's curve read says the hike is NOT the risk event: ~115\u2013130bp of further tightening is ALREADY PAID FOR (terminal ~4.75\u20134.95%, off the H.15 9/10 par curve), so a HAWKISH plot must beat ~4.95 to surprise while a DOVISH plot is the large repricing \u2014 and a dovish SEP would UNWIND the very move that put DFII10 through 2.50. The 004 add line went THROUGH and both desks graded NO ADD by independent routes; the breach is a terminal/policy-path repricing, belly-peaked, not 004's term-premium channel. \u2705 **WQ-213: Will PASSED on the 9/14 qualifying day in his own words (15:24) \u2014 card stays ARMED, hands OWED, re-affirm at needed_by (L389). \u26d4 TERRY's do-not-fill REASON IS REFUTED, NOT MERELY SPENT: ~93% of the *crack collapse* was a CONTRACT ROLL; matched-basis the crack fell \u22120.73% [HENRY, owner \u2014 the figure to cite], not \u22129%, and products ROSE. \ud83d\udd34 ONE ROLL CONSUMES ~93% OF THE DISTANCE BETWEEN HEN-F1's two thresholds \u2014 \u26d4 NOT *\"one roll apart\"*, corrected 19:1x: the step is SMALLER than the separation and a roll from stand-down lands ABOVE thesis-dead (~$4.5 of $4.84 \u2014 \u26a0\ufe0f **a two-sig-fig percentage is RETIRED; the step measured 92.6\u201394.4% across five pulls and the robust statement is *comparable to the whole separation*) \u21d2 WQ-252 \u2014 a LETTER-DESIGN defect; F1 is NOT fired on any basis. \ud83d\udd34 The energy sleeve is USO 37 shares and nothing else \u2014 ~$5.8k [TERRY mark 9/14 13:04, INTRADAY], 100% UNDEFENDED. Bab el-Mandeb: a DATED SEQUENCE of government WITHDRAWALS, override NOT triggered, transits +47% w/w. Petroline repair 3\u20135 weeks \u21d2 restoration AFTER BG-02's 9/25 window. STAND DOWN holds (WQ-192); $0 moved by PROME.",
  "pending": [
   "WQ-187 (9/12)",
   "WQ-243 (9/14)",
