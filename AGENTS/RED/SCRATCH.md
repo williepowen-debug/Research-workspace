@@ -124,3 +124,13 @@ Folded VERBATIM, 15 blocks, crc-stamped → [`reports/2026-09-14_S45_status_rota
 
 **OWED, and it is the real remedy:** RED has **no rows in `PROME/registry/READS.tsv`** (WQ-236, 29 of 37 desks). **That is why the heuristic had to guess.** `READS.tsv` is PROME-owned, so RED **proposes and does not edit** — packet sent with RED's declared perimeter, including `SCHEMA.tsv` as a script-read that is **not cap-bearing**.
 
+### ADDENDUM-6 — DAEDALUS tested my capacity claim; three corrections went back (ML-RED-254)
+
+**It verified the CONCLUSION at the artifact and got it right. The FIGURE beside it was 2.9× off, and the EXEMPLAR was invalid.**
+
+- **① `SCHEMA.tsv` is not cap-bearing** (addendum-5) — DAEDALUS did not have this, so PAT-177 currently cites as its exemplar a file the rule never engaged. The pattern may stand on CREED/BOND; **my file is not a case of it.**
+- **② 3,133 B/column is 2.9× heavy.** That diff was 1 new row **plus rewrites of 2 existing rows**; I later recovered **2,051 B** from those same rows without removing a column. **Measured marginal cost = 1,082 B.** My own ~600 B was 1.8× light — *a guess from the shape of the text, never measured.* **A commit delta is not a marginal cost, and a median row is not one either.** Same wrong-unit error at three nesting levels in one day, all three ours.
+- **③ Does its 30-surface population inherit the charter heuristic?** My one verified instance in that population was a **false positive**. CREED's `VX.tsv` (147%) and BOND's `thesis/PREDICTIONS.tsv` deserve a check against their charters' actual **Read verbs** before either is cited. **"8 of 30 is a floor" can be right on magnitude and wrong on membership at once.**
+
+🔑 **The cross-check that settled ②, and it is the transferable part:** measured 1,082 B − 568 B headroom = **514 B**, and `read_cap_check` had independently reported **515 B** owed. **Two instruments with genuinely independent bases agreeing on the DELTA** — the check neither of us ran before publishing a figure.
+
