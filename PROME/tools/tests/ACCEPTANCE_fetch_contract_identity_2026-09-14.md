@@ -119,9 +119,28 @@ Condition 3 is held **where identity is decided** but **not for renderability**:
 
 **The one Brent residual the reviewer named:** because the vendor month is UNKNOWN there, a `BZF27` → `BZF27.NYM` substitution had no independent cross-check from the output alone. ⚠️9's wiring closes it.
 
+## 🔴 REVIEW ROUND 5, 19:3x — **REOPENED ON WILL'S DIRECTION. THREE MORE BLOCKING, AND THE WORST IS ONE I INTRODUCED FIXING ❌4.**
+
+**❌14 — MY ❌4 REPAIR MADE A FAILING TICKER VANISH. Reproduced exactly:**
+
+```
+call 1 (cold):        rc=3   CL=F row + "ZZZZNOTREAL ERROR ..."   stderr: 1 fetch failure(s)
+call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
+```
+
+**The identical command, three seconds apart, went from loud failure to clean success by deleting the evidence.** `_exit_on_fetch_errors` counts errors over the keys **present**, so a stripped ticker is not a failure — **it is not anything**, and any scripted consumer gating on rc got a green light on a basket it never received. ⛔ **Strictly worse than the defect it replaced: the cached error was wrong-but-VISIBLE; this is INVISIBLE.** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` — I traded **loud-and-stale for silent-and-certifying**, the wrong direction, in a repair whose stated purpose was that a failure must be observable.
+
+**FIXED without reverting ❌4** — both properties are kept: a cache hit now diffs its keys against the requested basket and **re-fetches the shortfall**, so a *transient* failure still heals on retry (the point of not caching errors) while a *persistent* one still reports. Plus a belt-and-braces sweep: every requested ticker leaves `price_fetch` with a key, an explicit error row if nothing came back. **Retested: three consecutive identical calls, rc=3 every time, error visible every time.** Clean single-ticker baskets still serve from cache (~0.5 s, no network).
+
+**❌15 — the machine-readable face of the same defect.** `--json` returned `['CL=F']` with **rc=0** for a two-ticker request: `data["ZZZZNOTREAL"]["price"]` → `KeyError`; `.get(t,{}).get("price")` → a silent `None`; only `len(data) == len(requested)` notices, and nothing documented that check. **This is the one most likely to reach a desk artifact.** **FIXED by the same change — verified: both keys returned, coverage complete, the bad one carries an error.**
+
+**❌16 — `dashboard.py` downgraded a failed ticker from ERROR to "unknown ⚪".** `pd = price_data.get(id, {})` then `if "error" not in pd` — **`"error" not in {}` is TRUE**, so an *absent* ticker took the **SUCCESS** branch and rendered exactly like a series that legitimately has no reading. **A broken tracked series and an empty one became indistinguishable on the surface desks actually read**, and the empty-dict default was doing the work of a sentinel it was never designed to be. **FIXED at the consumer as well as the producer** — `fetch.py` now guarantees a key per requested ticker, but a consumer that cannot tell absent from healthy must not depend on its producer being correct. Dashboard end-to-end regression green.
+
+⚠️ **The lesson I am recording against myself, because it is the second time tonight the same shape appeared:** ❌4 was itself a fix to a fix, and this is a defect *in* that fix — `[[finding_a_correction_pass_is_unreviewed_work]]`, now at n+2 in one session. **Five rounds, sixteen findings, and the two worst were both introduced by repairs rather than found in the original.**
+
 ## Completion states — never merged
 
 - **IMPLEMENTED:** ✅ yes, including the three review fixes.
 - **TESTED (author's own):** ✅ all eight conditions, plus the reviewer's two counterexamples and the cross-validation above.
-- **INDEPENDENTLY VERIFIED:** ⛔ **PARTIALLY, AND THE LIMIT IS THE POINT.** The review is **CLOSED** — thirteen findings (❌1–❌5, ⚠️6–⚠️13), all confirmed by PROME at the artifact before fixing, all fixed. **What was independently verified is the ORIGINAL code, and two things the reviewer actively tried to break and could not. NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED** — and round 2 found a blocking defect *inside* a round-1 fix, so the base rate for that is not zero. `[[finding_adoption_is_not_validation]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`. **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
+- **INDEPENDENTLY VERIFIED:** ⛔ **PARTIALLY, AND THE LIMIT IS THE POINT.** The review is **CLOSED** — thirteen findings (❌1–❌5, ⚠️6–⚠️13), all confirmed by PROME at the artifact before fixing, all fixed. **NOT ONE FIX FROM ANY ROUND HAS BEEN RE-REVIEWED** — and round 5 proved why that matters: reopening the review on two named cases found **three more blocking defects, the worst of them introduced by my own ❌4 repair** — and round 2 found a blocking defect *inside* a round-1 fix, so the base rate for that is not zero. `[[finding_adoption_is_not_validation]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`. **Passing my own tests establishes implemented, never verified** — `[[finding_adoption_is_not_validation]]`. ⚠️ **Round 2 is the argument for that rule: every round-1 fix was written carefully and round 2 still found two blocking defects in the same file, one of them INSIDE a round-1 fix.**
 - **STILL UNRESOLVED:** re-review of the thirteen fixes (**the outstanding item**) · the renderability residual above · `contract_probe` is unexercised on a root where the control should FAIL (no such case found live, so the refusal branches are reasoned-but-unobserved) · the fail-closed **spread** guard, which belongs in consumers and is not built.

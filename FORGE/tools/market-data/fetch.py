@@ -699,10 +699,22 @@ def price_fetch(tickers, delta_threshold=0.0):
         tickers = [tickers]
     
     cache_key = f"prices_{'_'.join(sorted(tickers))}"
-    cached = _cache_get(cache_key)
-    if cached:
+    cached = _cache_get(cache_key) or {}
+    # ⛔ COVERAGE CHECK ON THE CACHE HIT. Errors are no longer cached, so a cached
+    # basket can be SHORTER than the basket asked for -- and returning it as-is
+    # made a failing ticker VANISH: the identical command, 3 seconds apart, went
+    # rc=3 with a loud "1 fetch failure(s)" to rc=0, silent, ticker absent.
+    # `_exit_on_fetch_errors` counts errors over the keys PRESENT, so a stripped
+    # ticker is not a failure -- it is not anything, and a scripted consumer
+    # gating on rc got a green light on a basket it never received.
+    # ⇒ my own not-cache-failures repair traded LOUD-AND-STALE for
+    # SILENT-AND-CERTIFYING, which is the worse direction.
+    # `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
+    # Re-fetching the shortfall keeps BOTH properties: a transient failure heals
+    # on retry (the point of not caching errors), a persistent one still reports.
+    missing = [t for t in tickers if t not in cached]
+    if cached and not missing:
         _audit_log("PRICE_CACHE_HIT", {"tickers": len(tickers)})
-        # Still apply delta filtering even on cache hit
         if delta_threshold > 0:
             filtered = {}
             for t, d in cached.items():
@@ -710,10 +722,13 @@ def price_fetch(tickers, delta_threshold=0.0):
                     filtered[t] = d
             return filtered
         return cached
+    if cached and missing:
+        _audit_log("PRICE_CACHE_PARTIAL",
+                   {"cached": len(cached), "refetch": len(missing)})
 
     start_time = time.time()
-    results = {}
-    for t in tickers:
+    results = dict(cached)
+    for t in (missing if cached else tickers):
         try:
             tk = yf.Ticker(t)
             resolved = t
@@ -856,6 +871,13 @@ def price_fetch(tickers, delta_threshold=0.0):
             results[t] = {"error": str(e), "name": ALL_PRICES.get(t, t)}
 
     latency_ms = (time.time() - start_time) * 1000
+    # Belt-and-braces for the same class: whatever happened above, every REQUESTED
+    # ticker leaves this function with a key. Absent-and-silent is the failure
+    # mode being closed; an explicit error row is what rc=3 is computed from.
+    for t in tickers:
+        if t not in results:
+            results[t] = {"error": "absent from fetch result (no data returned)",
+                          "name": ALL_PRICES.get(t, t)}
     _cache_set(cache_key, results)
     _audit_log("PRICE_FETCH", {"tickers": len(tickers), "errors": sum(1 for d in results.values() if "error" in d)}, latency_ms)
     

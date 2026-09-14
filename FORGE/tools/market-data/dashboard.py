@@ -114,7 +114,19 @@ def fetch_all(series_list):
         }
 
         if s["source"] == "price":
-            pd = price_data.get(s["id"], {})
+            # ⛔ ABSENT IS NOT THE SAME AS FINE (2026-09-14). The `{}` default made
+            # `"error" not in pd` TRUE for a ticker that never came back at all, so
+            # a MISSING series took the SUCCESS branch and rendered as
+            # "unknown ⚪" -- identical to a series that legitimately has no
+            # reading. A broken tracked series and an empty one became
+            # indistinguishable on the surface desks actually read, and the empty
+            # dict was doing the work of a sentinel it was never designed to be.
+            # fetch.py now guarantees a key per requested ticker, so this branch
+            # should be unreachable; it stays because a consumer that cannot tell
+            # absent from healthy must not depend on its producer to be correct.
+            pd = price_data.get(s["id"])
+            if pd is None:
+                pd = {"error": "absent from fetch result"}
             if "error" not in pd:
                 entry["value"] = pd.get("price")
                 entry["prev"] = pd.get("prev")
