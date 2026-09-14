@@ -30,3 +30,9 @@ ulsd_crack_ref_20260723	90.16	2026-07-23	the HEN-46 reference level; F1 falsifie
 skew_cboe	148.86	2026-09-08	Cboe publisher CSV 9/8 bar -- SUPERSEDES 150.63 [9/3]. Back UNDER the >150 orange, above the 145 yellow. RED-FT-10 resets 0-of-4.
 spx_close	7591.70	2026-09-10	9/10 close, -0.58%; third consecutive down session (7,718.60 -> 7,591.70, -1.64%). Root rule #6 green-day gate SHUT at this mark.
 gamma_flip_35d_STALE	7695	2026-09-04	⛔ EXPIRED, NOT CURRENT -- last measured 9/4 on the 9/3 close; HENRY's own finding is a ONE-SESSION shelf life and SPX is -2.01% since. Re-run gamma_flip.py --days 35 before quoting any sign.
+gamma_flip_35d	7673	2026-09-13	cboe 8669 contracts
+net_gex_35d_Bn	-21.6	2026-09-13	$B per 1%
+gamma_flip_14d	7671	2026-09-13	cboe 4165 contracts
+net_gex_14d_Bn	-16.1	2026-09-13	$B per 1%
+gamma_flip_35d_STALE	7695	2026-09-04	⛔ SUPERSEDED 2026-09-13 by the 7673 board measured on the 9/11 close -- this marker is closed, do not cite
+ulsd_crack_close_peak	109.93	2026-09-10	$/bbl CLOSE basis HO=Fx42-CL=F -- the episode peak; SUPERSEDES the 110.87 [9/11 overnight] figure, which mixed an overnight bar against a 2022 CLOSE. 2022 peak 110.33 [2022-04-28 close] NOT exceeded

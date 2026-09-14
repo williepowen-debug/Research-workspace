@@ -375,3 +375,95 @@ Content is appended **verbatim** from `STATUS.md` and never deleted.
 
 | **BROCK** | 9/1's alt selloff was a global BOND day, **not** a private-credit catalyst; both names recovered 9/4. |
 
+---
+
+## Block 18 — the 2026-09-11 SESSION block, rotated verbatim 2026-09-13 to hold STATUS under the 32,550 B read cap
+
+> ⛔ **HISTORICAL. Two of its headline claims were CORRECTED on 2026-09-13 and must NOT be cited from here:** (a) *"the ULSD crack took out its 2022 peak / $110.87 / the first print above 2022 / +23.0% since 7/23"* — a BASIS MISMATCH (a 2026 overnight bar against a 2022 CLOSE); like-for-like the 2026 episode peak is **$109.93 [9/10 close]** against **$110.33 [2022-04-28 close]**, i.e. **NOT exceeded**, and the move is **+21.9%** — see `reports/2026-09-13_CORRECTION_ULSD-crack-2022-peak-basis-mismatch.md`. (b) the *$9.6T* 9/18 notional is the expiry **WINDOW**, not the DAY (~$6.2T, itself INFERRED) per `SIG-W-20260911-011`.
+
+## 9/11 — SESSION *(VECTOR 4 + WQ-206 WHOLE-INBOX DRAIN · 9/4 session block rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 9)*
+
+**Spawned by PROME 2026-09-11 ~00:3x ET on Will's 00:29 word. DOCKET L325 (dated 9/12, executed tonight). $0 spent, no card, no order, no threshold moved except on my own registered series.**
+
+🔴 **THE ULSD CRACK TOOK OUT THE 2022 PEAK TONIGHT.** `HO=F × 42 − CL=F` = **$110.87/bbl** [9/11 overnight: HO=F $5.09 +0.55%, CL=F $102.39 −0.09%, `fetch.py` 00:3x ET] vs the 2022 distillate-spike peak **$110.33 [2022-04-28]**, **identical definition, no free parameter** — the first print above 2022. **7/23 = $90.16 ⇒ +$20.71, +23.0%.** ⚠️ **NYH basis, ~$8 ABOVE the USGC assessment ($93–94 late Aug); the press's NYH $107.35 [9/1] reconciles with my $106.23 close to $1.12.** ⛔ **The 3-2-1 is the WRONG instrument — $58.47/bbl on the same bar while RB=F fell −5.65%.**
+
+🔴 **AND THE EQUITY FACE HAS NOT PRICED IT.** 9/8→9/10 the crack rose **$98.82 → $109.93 (+11.2%)**, an all-time high on the way, and **AAL fell −0.46% while LUV rose +0.05%, against SPX −1.07% — both OUTPERFORMED the market on the three days the crack made a record.** Since 7/23: **AAL −5.24% · LUV −13.46% · DAL −4.55% · UAL −7.68% vs SPX +2.48%.** **Hedge coverage across the US majors ≈ ZERO** (LUV discontinued 2025 · ALK suspended 2023, settled 2025 · UAL/AAL unhedged for years) — **the only structural hedge in the industry is Delta's Trainer refinery, which earned $351M in Q2'26 vs a −$10M loss in Q2'25.** ⇒ **Screen + falsifiers + the names NOT to short: `research/2026-09-11_VECTOR-4_diesel-jet-squeeze-losers-screen.md`. Registered HEN-46. A READ FOR TERRY, NOT AN ORDER.**
+
+**INBOX DRAINED 34 → 0** (25 WALTER + 9 root; oldest sat 7 days). Dispositions → `board_log.tsv`. **Three items named HENRY as ACTION recipient, all three closed:** ① `SIG-W-20260908-001` — **my NEXUS_BRIEF carried a FALSE VERIFIED-ABSENCE** (*"'primarily related to the procurement of memory' exists in NO primary"*); the NVDA CFO Ex 99.2 **does** contain it. **Corrected in place**; STATUS was already right. ② `-002` (HBM 4–5×) and ③ `-010` (the 0.79% SKEW defect rate) are **VERIFIED NO-OPs** — grep shows no live HENRY surface carries either; the superseding perimeters (**0.40%** at 253 sessions, **4.31%** = 397 of 9,221 full-history) are now in the SKEW row.
+
+🟠 **SKEW 148.86 [Cboe publisher CSV, 9/8 bar] SUPERSEDES 150.63 [9/3] — I am NO LONGER through my >150 ORANGE.** RED-FT-10 (≥150, sustain-4) **resets to 0-of-4, NOT FIRED**; RED grades it. ⛔ **KILL ON SIGHT: "FT-10 fired."**
+
+🔺 **THE GERMAN LEG IS RESTORED AND HARDENED, AND MY OWN ROW OVERSTATED THE WITHDRAWAL** (HANS 9/5 + 9/5b — figures in the ISM row below). Only the *"capex-led ⇒ weaker lead"* **inference** was withdrawn 8/28, and it is **UNTESTED, not refuted**; what actually died is a **different** caveat, his *"manufacturing-only"* hedge. **My row said "German-PMI leg WITHDRAWN BY ITS AUTHOR" and that was the wrong scope. Rewritten.** `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]` — second occurrence in eight days.
+
+✅ **DAEDALUS H2 CLOSED IN ONE SITTING, honestly split:** `PREDICTIONS.tsv` now carries **`Date_Made` + `Confidence`** (40 rows rewritten, field count uniform at 7). HEN-44/45 backfilled to **2026-09-02** (both letters frozen that day, verifiable). **The other 38 rows carry the explicit tokens `UNRECORDED-AS-MADE` / `UNSCORED-AS-MADE` rather than a reconstructed number — a reconstructed as-made confidence is worse than a declared absence.** Remaining backfill **registered as owed**, not silently skipped.
+
+⛔ **HEN-44 (August CPI) RESOLVES TODAY, 9/11 08:30 ET — about eight hours after this session, and this desk is dark for it. I do NOT pre-grade it**, and `SIG-W-20260910-005`'s own fence says the same: **August PPI does not pre-grade a CPI letter.** The letter is frozen; Leg C grades first.
+
+---
+
+## Block 19 — four CROSS-AGENT DEPENDENCY rows, rotated verbatim from STATUS 2026-09-13 (read-cap pressure). Nothing retired.
+
+| **VULCAN/WATT** ⚡ | 🔑 **FOUR independent reads now converge on the POWER leg, not the semi leg:** DEWEY queue-position · GEV deposit-funded FCF · ERCOT Cal-27 ~$42/MWh *(chart-read)* · 🆕 **a LIVE PJM capacity emergency — NERC EEA-1 three straight days, DOE §202(c) Order 202-26-41 through 9/8 authorising backup generation AT LARGE LOADS, RT LMP $1,868.78/MWh with congestion at $1.25 (99.85% system energy).** **A regulatory instrument treating datacenter load as dispatchable.** ⚠️ VULCAN's BCA routing: capex >$1T in 2027 with margins RISING while **D&A hits 36% of EBITDA** — and VULCAN-07 found **0 of 4 hyperscalers changed useful lives**, so the 36% comes from asset growth, not a schedule change. **A FORECAST; moves no band.** |
+| **FALCON** 🆕 | **`VX-FALCON-CASUALTY-01` LIT on RATE, UNFIRED on the US/GCC-military CLASS** (rolling-30d confirmed killed 8/10→9/8 = **11** [Tihamah 6, Sirik 5] vs **3** prior, robust ex-Sirik at 6 vs 3; **zero** military-class deaths in 74 days). **Read as FALCON asks: the regime that would change my number has NOT broken.** Indicator only — **$0, no HENRY threshold set or moved**; verify at `AGENTS/FALCON/domain/casualties/CASUALTIES.tsv` (17 rows) before any number of mine moves. |
+| **HANS** 🔺 | **German leg RESTORED AND HARDENED, not withdrawn** (9/5 + 9/5b): Mfg **54.3 final** · factory orders **+2.5% m/m July** · backlog **8.9 months, record since 2015**. **What died is his "manufacturing-only" hedge**; only the *capex-led ⇒ weaker lead* inference is withdrawn and it is **UNTESTED**. **Use the lead, don't defend a lag.** ⚠️ ECB QT folded at primary (**~€40bn/mo**, no reinvestment since Jan-2025, **€51.75bn** July-2026 scheduled); **>€500bn/€330bn+€173bn NOT folded (secondary); ~€5.7tn REFUSED (a projection).** |
+| **DEWEY** | **REQ-001 + REQ-002 — CITE, DO NOT RE-SYNTHESISE.** 🆕 **REQ-002 [9/10, NVDA Q2 FY27 10-Q primary]: equity purchases $42,404M H1 vs $1,245M LY (34.1×) = 57.0% of operating cash flow ($74,421M), self-funded; $23,707M = 16.8% of $141,410M pre-tax income is equity MARKS, "primarily unrealized"; AR concentration 5 customers = 70% [Jul-26-26] from 3 at 56%; customer-directed support $0 → $164.5B in 4 quarters, collateral 54.7% escrowed → ~zero.** `AGENTS/DEWEY/output/2026-09-10_dr-req002-nvda-vendor-financing-revenue-quality.md`. **Earnings-quality thread = an OPEN HENRY/VULCAN item (DOCKET L322 names me), NOT a folded conclusion.** |
+
+---
+
+## Block 20 — STATUS rows trimmed 2026-09-13 for read-cap headroom. Verbatim, nothing retired.
+
+| **ISM Mfg PMI** | **54.6 [Aug, rel 9/01]** | <50 | <48 | **<47** | **NOT FIRED — 7.6 above red.** 8th straight expansion month; the national survey did NOT follow Chicago's 47.1. ⚠️ **Every demand leg softened: New Orders 53.7 (−3.0) · Backlog 51.8 (−3.2) · Imports 52.5 (−3.2) · Employment 51.2 (−1.6).** 🔺 **GERMAN LEG RESTORED AND HARDENED, and my prior text overstated the withdrawal (HANS 9/5 + 9/5b):** Mfg **54.3 FINAL** (rev. from the 54.1 flash) · July factory orders **+2.5% m/m**, 3rd straight rise, June rev. **+3.7%**, beat all but 1 of 21 estimates · order backlog **8.9 months, a record since the 2015 series start** ⇒ argues against a sub-49 break **more** strongly than on 8/28. ⛔ **What actually died is a DIFFERENT caveat — his "manufacturing-only" hedge** (Services final **49.7** not 48.5 · Composite **51.8** not 51.0 · EA Mfg 52.7 · EA Q2 GDP +0.4% q/q). ⚠️ **Only the "capex-led ⇒ weaker lead" INFERENCE is withdrawn, and it is UNTESTED, not refuted** (his classifier was invalid — 62% of his "demand-led" months had negative capex growth). ✅ **Caveat that SURVIVES, verbatim at source:** drivers are **"defense spending, data center construction, and inventory rebuilding"** — fiscal/AI-capex, not organic demand. **Lead is real and directional (DE→US r=+0.573 @6mo vs US→DE +0.185); do not defend a lag.** ⚠️ Basis: TradingEconomics HCOB (S&P 403s the author), one secondary dissents at Composite 51.0, factory orders NOT fetched at Destatis primary. |
+
+SKEW mirror-defect clause: ⚠️ **Mirror defect rate: 0.40% on 253 sessions / 4.31% full-history (397 of 9,221) — the published 0.79% is WITHDRAWN. A completeness check catches omissions and is BLIND to forward-fills. Grade SKEW off the Cboe publisher CSV, never the mirror**
+
+---
+
+## Block 21 — the INVALIDATION TRIAD section as it stood before the 2026-09-13 compression. Verbatim, nothing retired.
+
+## INVALIDATION TRIAD — STANDING RULE vs STATE
+
+*Correction history + superseded-text blocks rotated 2026-08-28 → `status_archive/STATUS_ROTATION_2026-08-28_PROSE.md` (verbatim). Standing rule, leg state and the ladder stay here.*
+
+> **⚖️ STANDING RULE, Will-ruled 2026-08-10, forum FINAL §5 — full text → `status_archive/STATUS_ARCHIVE_2026-09.md` block 14.** **① H-1 SIMULTANEITY, NON-LATCHING:** the twin soft-kill needs VIX <15 **AND** HY OAS <260 for 5 consecutive sessions, **both satisfied on the SAME session**; a leg that ceases to be satisfied ceases to be fired, **nothing banks**. **② H-2 SAME-KILL COUNTING:** my leg 1 and LIQUID's `GATE-HY-REKILL` are **THE SAME KILL** (same series `BAMLH0A0HYM2`, same 260), differing only in latency — **if both fire that is ONE event reported twice.**
+
+**LEG STATE — the three legs are ALSO rows in § ACTIVE THRESHOLDS and that table is the live copy; the duplicate here is rotated → `status_archive/STATUS_ARCHIVE_2026-09.md` block 16.** **Leg 1 HY OAS 266 [FRED 9/2] = 0 of 5, and ⛔ it is a NON-KILL OBSERVABLE (WQ-106), never quotable as a standalone kill. Leg 2 VIX <15 grades on the `VIXCLS` CLOSE — last satisfying close 14.51 [8/27], the sixth, and under H-1 none is banked. Leg 3 SPX >7,100 × 5 is FIRED, deep, and sits outside the twin conjunction (the triple-AND was retired 6/23 on empirical falsification).** ⚠️ **Neither leg re-pulled 2026-09-11.**
+
+🟠 **JOINT RE-READ — STILL 0 JOINT SESSIONS, AND 0 IN THE THESIS'S LIFE.** Closest approach on record remains **8/27 (VIX close 14.51 ✓ · HY OAS 263, 3bp short)** and it has not been beaten. ⛔ **HY OAS has NEVER printed below 260** (n≈123 in the thesis's life; full 3y series n=787: one print, 259 on 2025-01-22, pre-registration). **No superlative on the HY leg alone.** ⚠️ **Not re-read 9/11 — VIXCLS/FRED were not pulled this session; the 9/4 table is rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 12.**
+
+🔴 **THE 260 LADDER — FOUR RUNGS, ONE FRED SERIES**, full text → archive blocks 2 + 6 + 12. **`GATE-HY-REKILL` (LIQUID, 2 closes) is THE kill; mine (5 sessions) is the lagging OBSERVABLE; RED's `FT-12` (sustain-3) is NECESSARY-BUT-NOT-SUFFICIENT for mine, never a countdown.** ⛔ **If 260 breaks, several desks report a fire and a reader counting agents sees several witnesses where there is ONE SERIES AND ONE EVENT (H-2).**
+
+| **HEN-46** 🆕 | **DIESEL/JET SQUEEZE — THE EQUITY FACE.** The US carriers still on a PRE-SQUEEZE fuel assumption (AAL **$3.75/gal** set 7/23; LUV **$3.70–3.75** on the **7/17 forward curve**, 8-K primary) miss Q3 fuel by ≈ their whole guided result, and the equities have not priced it. **CONFIRM** = AAL Q3 adj EPS below its own −$0.10/−$0.70 low end **and/or** LUV Q3 fuel ≥$4.10/gal. **DENY** = AAL inside/above guide **and** LUV ≤$3.85. **F1 crack <$95 stand down, <$90.16 dead · F2 Aramco-primary Jazan restart · F3 ban lapses 9/30 + crack <$95 · F4 either raises FY guide on fare recapture (UAL already did) · F5 AAL −12% pre-entry** | **Q3 prints, late Oct** | ✅ **ACTIVE, registered 9/11 — the FIRST HENRY row scored AS-MADE in the new `Confidence` column (0.60 / 0.55 / 0.35).** Screen: `research/2026-09-11_VECTOR-4_diesel-jet-squeeze-losers-screen.md`. ⛔ **No card.** 🔴 **BASIS CORRECTION 9/13: the crack did NOT take out its 2022 peak** — $110.87 [overnight] vs $110.33 [2022 **close**] mixed bases; close-to-close the peak is **$109.93 [9/10]**, short by $0.40, move **+21.9%** not +23.0%. **9/11 close $108.24. F1 ($95) UNAFFECTED and NOT fired.** ⚠️ **Airline fares +23.41% YoY [Aug CPI] is an ADVERSE datum routed to me as supporting — fare recapture is what this row bets against. F4 NOT fired (it keys on a GUIDANCE RAISE, not CPI); confidence re-mark OWED at the next touch against Q3 fare/RASM, not tonight off an adjacent series.** |
+
+---
+
+## Block 22 — resolved catalyst rows + duplicated dependency rows, rotated verbatim from STATUS 2026-09-13. Nothing retired.
+
+| ~~Wed 9/9~~ | **Treasury `sb0607` stepped-up buybacks BEGAN** (≥$4bn/op, 10–30y, → 11/4) | 🔴 **PASSED — curve attribution is CONTAMINATED from this date** (BOND's standing warning; registered as a limit in HEN-45 §6). |
+
+| ~~Fri 9/11 08:30~~ | **AUGUST CPI — DOCKET L124** | ✅ **RESOLVED. HEN-44 GRADED 9/13: CONFIRM, 3 of 3 operative legs** — core MoM **+0.2898%** ≤ +0.30% AND YoY **+2.4460%** ≤ 2.55%; gasoline SA **+3.8993%**; headline **+0.3960%**. **Contained to the energy line.** ⚠️ Binding term cleared by ~1bp. Graded **two days late** — recorded as a discipline defect. |
+
+| **LABOR** ⚡ | **Aug NFP +162K · U-3 4.1% · July −23K → +21K · +55K net revisions · AHE 3.1% (cite ECI, not AHE; next ECI 10/30).** Zero threshold packets travel. |
+
+| **SAM** | **USD/JPY 155.79 [9/4 pre-open]** after ~2.5% of yen strength over 9/2–9/3. **2% bar ARMED, DELIBERATELY UNGRADED** (unregistered basis). ⛔ **Both named policy legs FAIL as drivers; JGB front end FLAT (2Y 1.854 → 1.850) = bull flattener, not a hike signature. OPEN DISCRIMINATOR; 9/4 MOF close is the test.** |
+
+| **REGINALD** | **KRE $74.87 · WAL $81.00 [9/4 pre-open].** |
+
+| **ORACLE** 🆕 | **The September FOMC instrument read, and it is the number to carry:** PM hike-25 **52.5%** / Kalshi differenced **57.0%** [9/4 12:42Z]; hike **40.5 → 53.5** across the NFP; **recession 7.0% both venues, UNMOVED.** ⛔ Kalshi's raw 59.0 is a cumulative ladder, NOT P(hike). |
+
+> **🔑 FOMC-DISTRIBUTION PREMISE OF THE TWO FROZEN LETTERS — ANSWERED 9/4, ROTATED 9/11** → `status_archive/STATUS_ARCHIVE_2026-09.md` block 11. **Verdict, unchanged: HEN-44 carries NO FOMC-distribution premise at all; HEN-45's relayed 65–68% was EXPLICITLY never a leg. A hike-favoured base moves the prior, not either letter.**
+
+---
+
+## Block 23 — STATUS lines moved out 2026-09-13 for read-cap headroom. Verbatim, nothing retired, all still binding.
+
+- 🟠 **SKEW 154.49 [9/11 close] — BACK THROUGH my >150 ORANGE**, superseding 148.86 [Cboe 9/8]. ⛔ **`RED-FT-10` (≥150, sustain-4) IS RED'S LETTER AND I WRITE NO COUNT** — PROME reports a NEW run opened 9/11 at 1-of-4 with an earliest fire of Wed 9/16. ⚠️ **Provenance travels: VIOLET's 9/11 capture came from CBOE's DELAYED-QUOTES API, not `SKEW_History.csv`** (date alignment verified against the quote's own `prev_day_close` 147.02); **RED re-confirmed at the CBOE archive of record.** ⛔ **KILL ON SIGHT: "FT-10 fired."**
+
+- **VIX kill leg:** grades on the `VIXCLS` **CLOSE**. **15.84 [9/11] does NOT satisfy <15.** Last satisfying close **14.51 [8/27]**, the sixth; **under H-1 none is banked.** >23 vol-control trigger is **~7.2 away.**
+
+- **AI→credit conduit — DEWEY REQ-001 + REQ-002. ⛔ CITE, DO NOT RE-SYNTHESISE.** Pointers → § CROSS-AGENT DEPENDENCIES. **Headline: the order book is SECTOR-SPLIT and the soft leg is POWER, not semis.** ⛔ **DO NOT CARRY the Bernstein turbine survey (0.55 UNVERIFIED-RELAY, SEARCH-NOT-FOUND by two desks).**
+
+**Alert thresholds:** HY OAS >320 (yellow) · **HY <280 = RED-FT-01 EXIT side, crossed 8/3, holding under** · CCC >1000 orange — **FIRED, every print since 7/28** · CCC−BB gap +25/5d (**FIRED: +21/5d at 8/5, +29/5d at 8/3**) *(demoted: report alongside the tranche levels, never alone)* · HYG 5d ≤−1.5% · HYG/LQD ≤−0.75%/5d. **Structural test:** BDC Q2 marks (BROCK) + whether CCC keeps widening through a BB rally (it has for a week).
+
+| **PPI final demand** 🆕 | **+0.4% m/m SA · +5.4% y/y NSA [Aug, BLS 9/10 08:30]** | >0.4 m/m | >0.5 m/m | >0.6 m/m | 🟠 **AT YELLOW.** Energy **+4.2%**; 🔴 **DIESEL +24.1% — the producer-side leg of VECTOR 4 / HEN-46, and the single largest component move.** Ex food/energy/trade **+0.3% m/m, 4.7% y/y**; July revised to **+0.1%**. ⛔ **DOES NOT PRE-GRADE HEN-44** — different basket, different weights; the CPI letter grades on CPI only (`SIG-W-20260910-005`'s own fence, adopted). |
+
+| **HY kill leg** ⚠️ *H-2* ⛔ *observable* | **270 [FRED 9/10]** | <290 | <270 | **<260 sustained 5** | 🟠 **NOT FIRED — 0 OF 5, 10bp from the line after moving AWAY a third time.** ⛔ **NON-KILL OBSERVABLE (WQ-106)** — the registry 2-close `GATE-HY-REKILL` is THE kill. **n≈123; full series n=787: ONE print <260 — 259 on 2025-01-22** |

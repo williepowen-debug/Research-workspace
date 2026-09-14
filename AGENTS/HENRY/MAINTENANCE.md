@@ -176,3 +176,33 @@ Three findings from `AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/leg20_HENRY.md
 
 ## 2026-08-28 — charter boot step `3e.` (R1 corrections check) inserted by HENRY
 DAEDALUS wired 28 of 37 charters in the Will-approved R1 batch; **HENRY was skipped under AUTHORITY rule 2 (tree dirty, session in flight)** and inserted the line itself at DAEDALUS's request. **First run: rc=0**, 0 unreceipted NAMED rows, 6 register rows, 0 receipts on file. ⚠️ The PASS covers `AGENTS/WALTER/registry/CORRECTIONS.tsv` **and nothing else** — not a fleet-wide all-clear.
+
+---
+
+## 2026-09-13 — `boot.py` predictions-due scan: a POSITIONAL ledger reader went silently blind when I changed my own schema
+
+**Severity: HIGH. Silent, false-negative, on a boot gate. Two consumers died at once and neither said anything.**
+
+**WHAT BROKE.** On 2026-09-11 I inserted `Date_Made` and `Confidence` at columns 3–4 of `workbook/PREDICTIONS.tsv` (DAEDALUS H2). `_read_rows()` returned `(c[0], c[2], c[3])` — correct under the old 5-column schema (ID/Prediction/Status/Resolution_Date/Outcome_Notes), and under the new 7-column schema it read **(ID, Date_Made, Confidence)** as **(ID, Status, Resolution_Date)**. Every status then failed the `OPEN_STATUSES` membership test:
+- **(d) PREDICTIONS-DUE SCAN printed `✓ none overdue` for every row, on every run** — including the 2026-09-13 boot, with **HEN-44 ACTIVE and two days past its resolution date.**
+- **(f) INBOX TRIAGE:** `_live_prediction_ids()` returned `[]`, so **trigger (b) "filename carries a live PREDICTIONS.tsv ID" could never fire.**
+
+**WHY NOTHING CAUGHT IT.** `selftest()` builds `("HEN-XX", "ACTIVE", "2026-06-10")` tuples **by hand** and passes them straight to `_classify()`. It tests the classifier and **never exercises the reader**, so it passed green through the entire outage. `[[finding_test_the_guard_not_just_the_guarded]]` — the guard's own **input path** was the untested half. The failure direction is the worst available: a gate that fails false-negative **certifies that nothing is owed.**
+
+**ACCEPTANCE CONDITIONS — written BEFORE the edit, in the defect's own terms, not as a restatement of the symptom ("HEN-44 wasn't flagged"). They ARE the test list:**
+1. `Status` and `Resolution_Date` are located **by header name**, so inserting a column anywhere to their left cannot re-point the reader.
+2. A ledger in the **current 7-column** schema yields the real status and date, and an ACTIVE past-dated row reaches `due`.
+3. A ledger in the **legacy 5-column** schema still reads correctly — the fix must not trade one positional assumption for another.
+4. A header lacking the needed names **FAILS LOUD** (`SchemaError`); it is never spellable as an empty list, because `[]` prints "none overdue".
+5. A row too short to carry the columns is **REPORTED**, not dropped mutely.
+
+**NEIGHBOURS CONSIDERED (WQ-229 shape — considered, not performed mechanically):** **ordinary** = condition 2 · **overlap** = condition 3 (two schemas served by one reader) · **missing information** = conditions 4 and 5 · **wrong owner** = **N/A**, this is a single-file, single-desk reader with no ownership dimension · **concurrent activity** = **N/A**, the scan is read-only and holds no shared state.
+
+**THE FIX.** `REQUIRED_COLS = ("ID", "Status", "Resolution_Date")` bound by `header.index(...)`; `SchemaError` raised on a missing name; `predictions_due()` catches it and prints **`❌ SCHEMA ERROR — THE DUE-SCAN IS BLIND … treat this as 'unknown', NEVER as 'none overdue'`**; `_live_prediction_ids()` catches it and says so instead of going quietly dark; short rows counted and reported; **new `selftest_reader()`** exercising the reader against temp-file fixtures for all five conditions, wired into `--selftest`.
+
+**STATE, DISTINGUISHED (do not merge these):**
+- **IMPLEMENTED** ✅ · **TESTED** ✅ — 5/5 reader conditions pass, the pre-existing classifier and triage selftests still pass, and the live scan now prints `🔴 DUE HEN-44 deadline 2026-09-11` and `🟠 UPCOMING HEN-45 (4d)`.
+- **INDEPENDENTLY VERIFIED** ❌ — **passing my own tests establishes *implemented*, never *verified*.** `[[finding_adoption_is_not_validation]]`. It touches a boot gate, so it is a **consequential** repair by the WQ-229 test; offered to PROME for an independent reader (`_read_rows` / `selftest_reader`).
+- **STILL UNRESOLVED** — the same positional-read pattern may exist in other HENRY scripts. `credit_monitor.py` and `gamma_flip.py` read FRED/CBOE, not my TSVs, so they are not exposed; **no sweep of the wider script set has been done.**
+
+**GENERALISATION (the class, not the row):** ⛔ **never read a repo TSV by column index.** A schema is an interface, and mine changed under a consumer I owned, on the same day, without a word. Bind by header name and **fail loud** — for any ledger whose absence of rows would be read as "nothing is due."

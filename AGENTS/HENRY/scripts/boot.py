@@ -30,6 +30,7 @@ mislabeled a session-boundary stale snapshot, and (2) the predictions-due scan.
 import json
 import os
 import re
+import pathlib
 import subprocess
 import sys
 import time
@@ -281,22 +282,72 @@ def _classify(rows, today):
     return due, upcoming, rolling, unparseable
 
 
+# ⚠️ THE TSV SCHEMA IS NOT POSITIONALLY STABLE, AND A POSITIONAL READER FAILS
+# SILENTLY AND FALSE-NEGATIVE WHEN IT MOVES. On 2026-09-11 I inserted `Date_Made`
+# and `Confidence` at cols 3-4 (DAEDALUS H2). The old reader took (c[0], c[2],
+# c[3]) and so began reading (ID, Date_Made, Confidence) as (ID, Status,
+# Resolution_Date). Every status then failed the OPEN_STATUSES membership test,
+# so BOTH consumers died at once and neither said anything:
+#   (d) predictions-due printed "✓ none overdue" for every row, every run —
+#       including 2026-09-13, with HEN-44 ACTIVE and two days past its date;
+#   (f) inbox triage's live-ID trigger (b) got [] and could never fire.
+# The selftest kept PASSING throughout because it fed `_classify` hand-built
+# tuples and never exercised the READER. `[[finding_test_the_guard_not_just_the
+# _guarded]]` — the guard's own input path was the untested half.
+# FIX: bind columns BY HEADER NAME, and if the header does not carry them, FAIL
+# LOUD. An empty list must never be spellable as "nothing is due".
+REQUIRED_COLS = ("ID", "Status", "Resolution_Date")
+
+
+class SchemaError(RuntimeError):
+    """PREDICTIONS.tsv's header does not carry the columns this reader needs."""
+
+
 def _read_rows():
+    """(id, status, resolution_date) per row, bound by HEADER NAME.
+
+    Returns None only if the file is absent. Raises SchemaError if the header
+    is present but unusable — never returns [] for a schema problem.
+    """
     if not PREDICTIONS_TSV.exists():
         return None
-    rows = []
     lines = PREDICTIONS_TSV.read_text().strip().split("\n")
+    if not lines or not lines[0].strip():
+        raise SchemaError("PREDICTIONS.tsv has no header row")
+    header = [h.strip() for h in lines[0].split("\t")]
+    missing = [c for c in REQUIRED_COLS if c not in header]
+    if missing:
+        raise SchemaError(
+            f"PREDICTIONS.tsv header is missing {missing} — header reads {header}"
+        )
+    i_id, i_st, i_rd = (header.index(c) for c in REQUIRED_COLS)
+    width = max(i_id, i_st, i_rd) + 1
+    rows, short = [], 0
     for line in lines[1:]:
+        if not line.strip():
+            continue
         c = line.split("\t")
-        if len(c) >= 4:
-            rows.append((c[0], c[2], c[3]))
+        if len(c) >= width:
+            rows.append((c[i_id], c[i_st], c[i_rd]))
+        else:
+            short += 1
+    if short:
+        # A short row is a row this scan CANNOT see. Say so; do not drop it mutely.
+        print(f"  ⚠️  {short} PREDICTIONS.tsv row(s) too short to read "
+              f"(need >={width} fields) — NOT scanned.")
     return rows
 
 
 def predictions_due(today=None):
     today = today or date.today()
     print(f"\n{'─'*64}\n  (d) PREDICTIONS-DUE SCAN  ·  as of {today}\n{'─'*64}")
-    rows = _read_rows()
+    try:
+        rows = _read_rows()
+    except SchemaError as e:
+        print(f"  ❌ SCHEMA ERROR — THE DUE-SCAN IS BLIND: {e}")
+        print("     Treat this as 'unknown', NEVER as 'none overdue'. "
+              "Fix the header or the reader before trusting this boot.")
+        return
     if rows is None:
         print("  ⚠️  PREDICTIONS.tsv not found")
         return
@@ -418,7 +469,12 @@ MD_RE = re.compile(r"(?<![\d])(1[0-2]|[1-9])-(3[01]|[12]\d|[1-9])(?![\d])")
 
 
 def _live_prediction_ids():
-    rows = _read_rows() or []
+    try:
+        rows = _read_rows() or []
+    except SchemaError as e:
+        # Do not let trigger (b) go quietly dark the way it did 9/11-9/13.
+        print(f"  ❌ live-prediction-ID trigger is BLIND (schema): {e}")
+        return []
     return [pid.lower() for pid, status, _ in rows if status.strip().upper() in OPEN_STATUSES]
 
 
@@ -609,6 +665,80 @@ def selftest_triage():
     return 0 if ok else 1
 
 
+def selftest_reader():
+    """Exercise _read_rows ITSELF against schema fixtures.
+
+    ACCEPTANCE CONDITIONS (written before the fix, in the defect's own terms —
+    not a restatement of the symptom "HEN-44 wasn't flagged"):
+      1. Status/Resolution_Date are located by HEADER NAME, so inserting a
+         column anywhere left of them cannot re-point the reader.
+      2. A ledger in the CURRENT 7-column schema yields the real status and
+         date, and an ACTIVE past-dated row reaches `due`.
+      3. A ledger in the OLD 5-column schema still reads correctly — the fix
+         must not trade one positional assumption for another.
+      4. A header that lacks the needed names FAILS LOUD (SchemaError); it is
+         never spellable as an empty list, because [] prints "none overdue".
+      5. A row too short to carry the columns is REPORTED, not dropped mutely.
+    NEIGHBOURS CONSIDERED (WQ-229 shape): ordinary = 2 · overlap = 3 (both
+    schemas must work off one reader) · missing information = 4 and 5 ·
+    wrong owner = N/A, this is a single-file single-desk reader with no
+    ownership dimension · concurrent activity = N/A, the scan is read-only and
+    holds no shared state.
+    """
+    import tempfile
+    global PREDICTIONS_TSV
+    saved = PREDICTIONS_TSV
+    results = []
+
+    def _with(text):
+        f = tempfile.NamedTemporaryFile("w", suffix=".tsv", delete=False)
+        f.write(text)
+        f.close()
+        return pathlib.Path(f.name)
+
+    NEW_HDR = "ID\tPrediction\tDate_Made\tConfidence\tStatus\tResolution_Date\tOutcome_Notes"
+    OLD_HDR = "ID\tPrediction\tStatus\tResolution_Date\tOutcome_Notes"
+    try:
+        # (2) current 7-col schema — the exact shape that broke on 2026-09-11
+        PREDICTIONS_TSV = _with(
+            NEW_HDR + "\nHEN-44\tAug CPI\t2026-09-02\t0.6\tACTIVE\t2026-09-11\tnotes\n"
+            "HEN-99\tclosed one\t2026-08-01\t0.5\tRESOLVED\t2026-08-10\tnotes\n")
+        rows = _read_rows()
+        got = dict((r[0], (r[1], r[2])) for r in rows)
+        c2 = got.get("HEN-44") == ("ACTIVE", "2026-09-11")
+        due, _, _, _ = _classify(rows, date(2026, 9, 13))
+        c2 = c2 and [p for p, *_ in due] == ["HEN-44"]
+        results.append(("2 new-schema row reads + reaches DUE", c2))
+
+        # (3) legacy 5-col schema must still read
+        PREDICTIONS_TSV = _with(
+            OLD_HDR + "\nHEN-32\told one\tACTIVE\t2026-06-10\tnotes\n")
+        rows = _read_rows()
+        results.append(("3 old-schema row still reads", rows == [("HEN-32", "ACTIVE", "2026-06-10")]))
+
+        # (4) unusable header must RAISE, not return []
+        PREDICTIONS_TSV = _with("ID\tPrediction\tNotes\nHEN-1\tx\ty\n")
+        try:
+            _read_rows()
+            c4 = False
+        except SchemaError:
+            c4 = True
+        results.append(("4 bad header raises SchemaError (never [])", c4))
+
+        # (5) a too-short row is reported, not silently dropped
+        PREDICTIONS_TSV = _with(NEW_HDR + "\nHEN-77\tshort row\t2026-09-02\n")
+        rows = _read_rows()
+        results.append(("5 short row excluded and flagged", rows == []))
+    finally:
+        PREDICTIONS_TSV = saved
+
+    ok = all(v for _, v in results)
+    for name, v in results:
+        print(f"  {'✅' if v else '❌'} reader cond {name}")
+    print("  ✅ PASS — reader selftest." if ok else "  ❌ FAIL — reader selftest.")
+    return 0 if ok else 1
+
+
 def selftest():
     """Assert the due-scan fires on a row like HEN-32 (resolve 6/10, ACTIVE)."""
     today = date(2026, 6, 15)
@@ -634,7 +764,7 @@ def selftest():
 
 def main():
     if "--selftest" in sys.argv:
-        return selftest() or selftest_triage()
+        return selftest() or selftest_reader() or selftest_triage()
     quick = "--quick" in sys.argv
     verbose = "--verbose" in sys.argv
     t0 = time.time()
