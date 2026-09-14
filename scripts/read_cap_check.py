@@ -517,6 +517,44 @@ def generated_sources(path, n=5):
     return srcs, owners
 
 
+# ── DISTANCE TO THE STOP THRESHOLD (2026-09-14, PAT-176 — RED's ML-RED-249 + DAEDALUS's own) ──
+# ⛔ THIS IS A MECHANICAL GUARD REPLACING A REMEMBERED DISCIPLINE, and it exists because BOTH
+# DAEDALUS AND RED broke READ_CAP rule 5 THE SAME DAY, ON THE SAME CANON, WITHOUT COORDINATING.
+# Rule 5 has TWO thresholds: START rotating at >=75% of budget, STOP at <70%. This tool printed
+# only the START ("rotate-tier (>=75% of budget)") and the pass/fail mark — so the START was the
+# number in front of the reader, and BOTH desks reported against it:
+#   · RED  reported "7.6x the starting headroom" to PROME twice; STATUS ended 8,664 B ABOVE the
+#     stop threshold and RE-BREACHED WITHIN HOURS of the trim.
+#   · DAEDALUS stopped at 74.9%, called it "under the trigger", and had 32 B of headroom — so the
+#     next append re-breached. It reported the 81%->75% DELTA as the outcome.
+# ⇒ THE FAILURE IS A PROPERTY OF THIS REPORTING SURFACE, NOT OF EITHER DESK: a two-threshold rule
+# whose START is the number the instrument PRINTS will be reported against the START. A discipline
+# ("report against the threshold") is forgettable; printing the REMAINING BYTES is not.
+# ⚠️ And the stop threshold is not decoration — its whole job is that a surface does not re-breach
+# the same week (PAT-055 regrowth). Landing between 70% and 75% is NOT a completed rotation, and
+# that is exactly the band both desks stopped in and called done.
+# ⚠️ SCOPE, AND I GOT IT WRONG ON THE FIRST CUT — CAUGHT BY MEASURING THE POPULATION, NOT BY THE
+# SELFTEST, WHICH PASSED 81/81 ON THE MECHANISM WHILE THE SCOPE WAS WRONG (PAT-173, minted today).
+# The first version printed the alert for EVERY file at or above the STOP threshold: 34 of 37 desks.
+# A guard firing on 92% of the fleet is permanent-red = silent-green inverted (CHECK_STANDARD §3(e)).
+# The error: treating the STOP threshold as a STANDING OBLIGATION on every file, when rule 5 makes it
+# the TERMINAL CONDITION OF A ROTATION. A file at 72% that never breached 75% is not mid-rotation.
+# MEASURED bands fleet-wide: 63 files >=75% (obligated, and ALREADY flagged) · 8 in the 70–75% band
+# (rc 0, UNFLAGGED — the blind spot) · 93 under 70% (clean). ⇒ Two different messages: for the
+# obligated population the distance is the actionable number on a line that already alerts, so it
+# adds no noise; for the 70–75% band the check CANNOT tell a half-finished rotation from a file that
+# never breached, so it states BOTH readings and asks the owner. 8 files is nameable; 34 was not.
+def stop_distance(b):
+    """(bytes still to remove to reach rule 5's STOP threshold, the threshold) — or (0, thr) if under."""
+    thr = int(BUDGET_BYTES * ROTATE_TO)
+    return (max(0, b - thr + 1), thr)
+
+
+def in_ambiguous_band(b):
+    """True for the 70–75% band: rc 0 and unflagged, yet NOT a completed rotation."""
+    return int(BUDGET_BYTES * ROTATE_TO) <= b < int(BUDGET_BYTES * ROTATE_AT)
+
+
 def grade(b):
     """(mark, utilisation-of-BUDGET, why).
 
@@ -625,6 +663,20 @@ def check_agent(name, quiet=False, require_manifest=False):
         print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · {note}")
         for mark, rel, b, util, why, src in rows:
             print(f"  {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of budget  {why}  ({src})")
+            # PAT-176: whenever a file sits above rule 5's STOP threshold, say HOW MANY BYTES are
+            # left to remove. Printed for 🟡 too — 🟡 is rc 0, and "not flagged" is precisely where
+            # a half-finished rotation hides. The reader never has to hold the rule.
+            need, thr = stop_distance(b)
+            if need and not in_ambiguous_band(b):
+                print(f"      ↳ rule 5 STOP is <70% of budget ({thr:,} B): REMOVE {need:,} MORE B to finish "
+                      f"rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on "
+                      f"the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.")
+            elif need:
+                print(f"      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you "
+                      f"are in: if this surface was JUST ROTATED it is NOT finished and owes {need:,} B more "
+                      f"(rule 5 stops at <70% = {thr:,} B); if it has never breached 75%, NOTHING is owed. "
+                      f"Only the owner knows. ⚠️ Headroom to the trigger: "
+                      f"{int(BUDGET_BYTES * ROTATE_AT) - b:,} B.")
         for sp, src in sorted(getattr(boot_reads, "scoped_overcap", {}).items(), key=lambda kv: -os.path.getsize(kv[0])):
             b = os.path.getsize(sp)
             print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / BUDGET_BYTES:>5.0%} of budget  "
@@ -753,7 +805,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 71
+EXPECTED_LEGS = 82
 
 
 def selftest():
@@ -927,6 +979,55 @@ def selftest():
             chk(f"generated banner: {why}", generated_banner(f) is not None, want)
         chk("generated banner: missing file returns None, never raises",
             generated_banner(os.path.join(t, "nope.md")), None)
+
+        # ── STOP-THRESHOLD DISTANCE (2026-09-14, PAT-176) — BOTH DIRECTIONS, and the boundary
+        # asserted exactly, because the whole defect is that the 70–75% band reads as finished.
+        STOP = int(BUDGET_BYTES * ROTATE_TO)
+        chk("stop-distance: one byte OVER the stop threshold owes exactly 2 B", stop_distance(STOP + 1)[0], 2)
+        chk("stop-distance: exactly AT the threshold still owes 1 B (rule 5 says '<70%', not '<=')",
+            stop_distance(STOP)[0], 1)
+        chk("stop-distance: one byte UNDER the threshold owes NOTHING", stop_distance(STOP - 1)[0], 0)
+        chk("stop-distance: the threshold it reports is rule 5's STOP, not its START",
+            (stop_distance(STOP)[1], stop_distance(STOP)[1] < int(BUDGET_BYTES * ROTATE_AT)), (STOP, True))
+        # ⭐ THE CASE THE INSTRUMENT WAS BLIND TO, AND THE ONE BOTH DESKS LANDED IN: a file in the
+        # 70–75% band is rc 0, unflagged, and STILL OWES BYTES. DAEDALUS sat at 74.9% with 32 B of
+        # headroom and called it done; RED at 94.1% re-breached within hours.
+        mid = int(BUDGET_BYTES * 0.749)
+        _, util_mid, why_mid = grade(mid)
+        chk("stop-distance: a 74.9% file is NOT flagged by grade()...", why_mid, "")
+        chk("stop-distance: ...but still owes bytes to the STOP threshold", stop_distance(mid)[0] > 0, True)
+        # and it must actually PRINT on such a file, not merely be computable (CHECK_STANDARD §3)
+        _sr, _sroot = READS_TSV, ROOT
+        try:
+            ROOT = t
+            os.makedirs(os.path.join(t, "AGENTS", "MD"), exist_ok=True)
+            open(os.path.join(t, "AGENTS", "MD", "STATUS.md"), "w").write("x" * mid)
+            READS_TSV = _fixture(t, ["ATTESTATION\tMD\t.\tmanifest-complete\ts\tMD\t2026-09-14\tok",
+                                     "READ\tMD\tAGENTS/MD/STATUS.md\twhole\ts\tMD\t2026-09-14\t-"], {})
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc_mid = check_agent("MD")[0]
+            out = buf.getvalue()
+            open(os.path.join(t, "AGENTS", "MD", "STATUS.md"), "w").write("x" * (BUDGET_BYTES + 50))
+            _ob = io.StringIO()
+            with contextlib.redirect_stdout(_ob):
+                check_agent("MD")
+            _obout = _ob.getvalue()
+            chk("stop-distance: the 74.9% file is rc 0 (the alert line must not depend on rc)", rc_mid, 0)
+            chk("stop-distance: ALERT PRINTS on the unflagged 74.9% file", "70–75% BAND" in out, True)
+            chk("stop-distance: ...and STATES BOTH READINGS rather than asserting one",
+                ("NOTHING is owed" in out and "owes" in out), True)
+            chk("stop-distance: an OVER-BUDGET file gets the DIRECTIVE form, not the ambiguous one",
+                ("REMOVE" in _obout and "70–75% BAND" not in _obout), True)
+            # CLEAN case: a file under the stop threshold must print NOTHING (§3(b))
+            open(os.path.join(t, "AGENTS", "MD", "STATUS.md"), "w").write("x" * (STOP - 10))
+            buf2 = io.StringIO()
+            with contextlib.redirect_stdout(buf2):
+                check_agent("MD")
+            chk("stop-distance: CLEAN case — a file under the threshold prints NO alert",
+                "REMOVE" in buf2.getvalue(), False)
+        finally:
+            READS_TSV, ROOT = _sr, _sroot
 
         # ── ROUTING TARGET (2026-09-14, DOCKET L349 / C7) — "route it upstream" must name WHO ──
         # Both directions: a banner that names sources yields them; a banner that names none must
@@ -1144,7 +1245,7 @@ def main(argv):
         print(f"READ-CAP FLEET — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B · {len(desks)} active+tier-2 desks · "
               f"perimeter per desk = heuristic boot-read set (see --agent for each)")
         print(f"  {'desk':10}{'reads':>6}{'>budget':>9}{'>cap':>6}  worst file (% is of BUDGET — the number the verdict grades)")
-        tot_b = tot_c = tot_def = tot_adv = tot_gen = 0; bad = []; cant = []
+        tot_b = tot_c = tot_def = tot_adv = tot_gen = tot_unfinished = 0; bad = []; cant = []
         for d in desks:
             rc, res = check_agent(d, quiet=True)
             if res is None:
@@ -1157,6 +1258,9 @@ def main(argv):
             name, n, nb, nc, rows, probs, advs, gen = res
             tot_b += (nb > 0); tot_c += (nc > 0)
             tot_def += (len(probs) > 0); tot_adv += (len(advs) > 0); tot_gen += len(gen)
+            # PAT-176: how many desks hold a boot read that is above rule 5's STOP threshold —
+            # i.e. mid-rotation, whether or not it is over budget. `_r[2]` is the measured size.
+            tot_unfinished += any(in_ambiguous_band(_r[2]) for _r in rows)
             worst = rows[0] if rows else None
             w = f"{worst[1]} {worst[3]:.0%} of budget" if worst else "—"
             mark = "🔴" if nc else ("🟠" if nb else "✅")
@@ -1196,6 +1300,11 @@ def main(argv):
             print(f"  ℹ️  {tot_adv} desk(s) carry an ADVISORY reading this check will not adjudicate "
                   f"(`--agent <NAME>` for the text). ⛔ Advisories do NOT drive rc — a refusal to "
                   f"adjudicate cannot be a blocking verdict (severity split 2026-09-14, DOCKET L354).")
+        if tot_unfinished:
+            print(f"  ↳ {tot_unfinished} desk(s) hold a boot read in the 70–75% BAND — rc 0, unflagged, and "
+                  f"NOT a completed rotation if the surface was just rotated (rule 5 stops at <70% = "
+                  f"{int(BUDGET_BYTES * ROTATE_TO):,} B). ⛔ This is the band both DAEDALUS and RED stopped in "
+                  f"on 2026-09-14 and called done; `--agent <NAME>` prints the bytes owed (PAT-176).")
         if tot_gen:
             print(f"  ℹ️  {tot_gen} flagged read(s) are GENERATED projections — those flags route to the "
                   f"SOURCE surface's owner, not to the reader's desk (`--agent <NAME>` names the target).")
@@ -1203,7 +1312,8 @@ def main(argv):
         print(_result_line("fleet", rc_fleet, n_assessed, desks=len(desks),
                            cannot_evaluate=len(cant), desks_over_budget=tot_b,
                            desks_over_cap=tot_c, desks_with_manifest_defect=tot_def,
-                           desks_with_advisory=tot_adv, generated_flagged=tot_gen))
+                           desks_with_advisory=tot_adv, generated_flagged=tot_gen,
+                           desks_above_stop_threshold=tot_unfinished))
         return rc_fleet
     # explicit files (legacy form)
     paths = args
