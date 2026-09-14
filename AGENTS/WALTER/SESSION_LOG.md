@@ -4,6 +4,8 @@
 
 # 2026-09-11 ~19:57 ET (Fri) — POST-CLOSEOUT: Codex review repairs (same session, after the Tier-2)
 
+**2026-09-14 Mon PM (~14:4x–15:1x ET) — Full WALTER, Tier-2 FULL.** Maintenance session discharging the morning's deferrals. **`DOCKET L371` DISCHARGED: Iran anchor 28,857 → 22,512 B (89% → 69% of budget), five blocks VERBATIM to HISTORY, `split_verify` CONSERVED, three passes.** **BOARD 966 → 967** — `SIG-W-20260914-021`, SELF-CORRECTION: `VIXCLS` DID publish its 9/11 cell (15.84) and this board said it had not; the real outage is the H.15 set and it is SIX series. **BCS v0.27** — §3.5.8(a) TERRY row HELD → RESOLVED (TERRY chose the BOARD ID-diff). **Registry 4 rows refreshed; both `registry_lag` MEDs cleared. 47 drop-zone images → `processed/` after manifest verification. STATUS 24,004 → 23,041 B, 10 blocks rotated here.** Did NOT pull (PROME live, `PROME/` dirty). No fire on any registered trigger.
+
 **Three review findings closed, two carried.** **`SIG-W-20260911-011`** — the corrected **$9.6T** options figure (the expiry **WINDOW**, not the 9/18 **DAY** at **~$6.2T**) was finally **DELIVERED**: it had been a footer while the original's H1, verdict and generated INDEX row still read clean, and **HENRY had consumed the original with no correction ever reaching it.** All three **§3.6** surfaces plus a real handoff. **`7e(d)` now blocks on `7g`** — the inbox scan added this morning had been placed at the END of the read phase, so fresh intake still dispatched **before** existing corrections were read, which is the exact sequence that forced today's `-003` self-correction. **Three stale continuation carries discharged**, including a `WILL_NEEDS` asking the operator to spawn work my own `DEEP_RESEARCH_FLAGGED_LOG` recorded **RESOLVED and delivered 9/10** — it had survived two closeouts. **`walter_doctor`:** the v0.26 exemption hole closed (**role first, desk second; UNKNOWN fails closed**), ACTION/INFO ages split, a `NON-DISPATCH` scope class added, and timestamp validation rebuilt to validate **whole fields** — including the DATE under the approximate-minute convention, which had let a **2099** stamp and an impossible **99-99** date pass. **13 reproductions, 8 driving production code through a test seam** after the first version was caught asserting against a reimplementation. ⚠️ **FOUR self-introduced defects inside these correction passes, all caught pre-push** — `finding_a_correction_pass_is_unreviewed_work` is now **n+6 across two desks in one evening**. **CARRIED, deliberately not attempted at hour N: correction-acknowledgment identity (a cross-log design change) and the bounded reconciliation of 16 chronology anomalies.**
 
 # 2026-09-11 ~18:2x ET (Fri) — Full WALTER SECOND boot (first session crashed) + routing + Will-Telegram batch — Tier-2
@@ -1309,3 +1311,86 @@ Exploring a shift from point-to-point inbox messaging to a Common Operating Pict
 > **🩺 MY OWN DOCTOR CAUGHT A DEFECT IN A SIGNAL I HAD WRITTEN TWENTY MINUTES EARLIER.** `correction_target_declared` flagged `-001`'s `corrects: SELF-OTTO` as malformed — **the enum is SIG-IDs / `SELF` / `EXTERNAL:`, and `SELF` is reserved for WALTER-correcting-WALTER.** This corrects **another agent's** thesis ⇒ `EXTERNAL:`. **Fixed at all three surfaces (BOARD body, INDEX row, 5 handoffs) before push.** *The check earned its keep against its own author, same session — which is the only test of a lint that matters.*
 >
 > **🔴 LIVE LEVELS — 2026-08-14 Fri, own `fetch.py` pull ~23:4xZ / 7:4x PM ET, MARKETS CLOSED. Labelled under N5 v1.1 by INSTRUMENT CLOCK, not by date.** **✅ VALID CLOSES (US cash equities/ETFs 16:00 ET · Cboe VIX cash 16:15 ET):** **^VIX 14.25 (−2.60%) — `RED-FT-06` FIRED-BANKED; exit ≥18 s=5 now 3.75 away and STILL WIDENING** · **^SKEW 138.36 (+2.97%) — 🟠 the one thing moving toward a guard: RED's DIET-guard line is 140 and SKEW closed 1.64 below it** · **KRE $77.93 (+0.23%)** · **WAL $82.32 (+0.71%) = 5.5% above `REG-T-02` (<78) ⇒ 🟢 LOOSENED back outside the 5% band from 4.79% [8/13]; sustain-1, NOT fired** · OZK $52.49 · ^GSPC 7,785.76 (−0.17%) · ^NDX 30,046.14 (−0.13%) · **RSP $222.77 (+0.02%) — equal-weight OUTPERFORMED again on a down tape; breadth caveat ABSENT a second session** · TLT $82.04 (−0.67%) · **^TNX 4.70 (+1.19%) / ^TYX 5.27 (+1.00%) — 🔴 THE LONG END SOLD OFF AND REVERSED YESTERDAY'S RALLY; 30Y still >5%, so `-20260813-012`'s 27-day count keeps ACCRUING and 27 stays a FLOOR** · **^OVX 49.52 (+0.32%) — holding below the 54-55 shelf it broke on 8/13.** **⚠️ POST-SESSION DAILY BARS, NOT SETTLEMENTS — crude settled 14:30 ET and metals 13:30 ET (MIDAS's L-16, confirmed at the CME primary today); I did NOT read a settlement source, so per (i-b)'s own stated limit a late pull is STILL A BAR:** **Brent `BZ=F` $88.59 (+1.75%) — back ABOVE the $88.95 8/11 settle? NO: still 0.4% below it, a FIFTH session under** · WTI `CL=F` $82.40 (+1.42%) · **GC=F $4,432.00 (+1.57%).** ⚠️ **USD/JPY `JPY=X` 159.30 carried an 8/15 stamp and the tool flagged it STALE — NOT citable, and SAM's FX primary is authoritative regardless.** **HY OAS 271 [lane/FRED] — `RED-FT-01` stays FIRED.** **ICSA 209K [wk-8/8].** **Cushing 22.566M / SPR 298.694M [EIA wk-8/7, BRENT-held].** **🔴 `RED-FT-07` (CCC-OAS >930) and `RED-FT-09` (T5YIFR >2.55) STILL UNGRADED — FRED 403s from this box; recorded UNGRADED, never green.** **17 triggers read BY HEADER (not by column position), ZERO FIRES. Near-triggers: 🟠 ^SKEW 1.64 below RED's 140 DIET-guard · 🟢 WAL loosened outside the 5% band · 🟢 FT-06 exit 3.75 away and widening · ⚪ FT-07/FT-09 UNGRADED.** cluster_mediating = 0. **⚖️ TERRY gate CHECKED on all 5 dispatches, FIRED on NONE, ZERO OVERRIDES — and the crude items turn on a state change from ONE DAY EARLIER: `TRY-BRENT-USOARM` went DEAD terminal 8/13, so T-1 has no live/staged crude instrument and T-3 fails on its UNDERLYING leg despite the markets genuinely being closed.**
+
+
+---
+
+## Rotated from `STATUS.md` 2026-09-14 (closeout 12(f)) — FILTER POSTURE provenance + the SESSION-LOG continuity pointers
+
+> **Why rotated:** the PM session's additions took `STATUS.md` past its 75%-of-budget trigger (24,412 B). These four blocks are PROVENANCE — none states a live posture, threshold or routing rule. Their live stubs remain in `STATUS.md`. **Verbatim, nothing summarised.**
+
+### ① The FILTER POSTURE restoration banner (VERBATIM)
+
+> 🔴 **RESTORED 2026-08-20 boot, verbatim from `f29933a20` (2026-07-23) with ONE deliberate correction, marked below. This section was DELETED by the 2026-07-23 STATUS spine regeneration and was ABSENT FOR 28 DAYS — the same regeneration, and the same commit, that ate `## BOTTOM LINE`.** ⚠️ **The BOTTOM LINE loss was found and fixed 2026-08-18 (PAT-113, named into closeout step 12(e)) — and NOBODY DIFFED THAT REGENERATION FOR ITS OTHER CASUALTIES.** **Three surfaces pointed at this block while it did not exist: STATUS `STATE POINTERS` (*"Filter posture → FILTER POSTURE section below"*), `design/STATE.md` §5 (*"See STATUS.md FILTER POSTURE section — not duplicated here, STATUS.md is the canonical source"*), and closeout step 12(c) (*"refresh FILTER POSTURE only if it changed"*), which has been a silent no-op for 28 days.** 🔑 **So the posture that governs how aggressively this desk dispatches had NO WRITTEN HOME — every pointer to it resolved to nothing, and a closeout step named it every session without noticing.** ⇒ **Generalisable, and it is the lesson worth keeping: when you find ONE artifact eaten by a regeneration, DIFF THAT REGENERATION FOR THE OTHERS — a fix aimed at the instance leaves the siblings standing.** `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]` · `[[finding_record_of_an_action_is_not_the_action]]`
+
+### ② The "ONE CORRECTION" vocabulary note on the restored pre-catalyst line (VERBATIM)
+
+  > ⚠️ **THE ONE CORRECTION, AND IT IS NOT COSMETIC:** the 7/23 text read *"Iran **ceasefire** expiry."* **`anchors/IRAN_WAR.md` makes "ceasefire" KILL-ON-SIGHT — there was never a ceasefire; there was a 60-day MOU negotiation window, which EXPIRED 2026-08-17 with no deal.** A verbatim restore would have reinstated a term this desk kills on sight in other people's copy. **A 28-day-old verbatim recovery carries 28 days of stale vocabulary — restore the structure, re-verify the terms.**
+
+### ③ The `design/STATE.md` §5 pointer-status flag (VERBATIM)
+
+- 🟠 **`design/STATE.md` §5 points here and says this file is canonical — that pointer is now TRUE again.** It was false from 7/23 to 8/20.
+
+### ④ The SESSION LOG continuity pointer, long form (VERBATIM)
+
+Full history: `SESSION_LOG.md`. Pre-audit continuity preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`. The September8 sweep cleared the earlier light-closeout breadcrumbs. This subsequent Tier-2 maintenance closes its three unfinished maintenance items; its pre-change continuity is in `research/2026-09-08_boot-maintenance/continuity-before.md`.
+
+### ⑤ STATUS rows compacted at the 2026-09-14 PM closeout (12(f)) — longer forms VERBATIM. Every FIGURE survives in the live rows; only the retelling was cut.
+
+- 🔴 **THE TREASURY'S OWN CONTAINMENT FAILED TWICE IN TWO DAYS (`-014`):** the tripled **\$6B** buyback was ANNOUNCED 9/9 and **yields ROSE to 4.83% because investors expected stronger intervention**; then on 9/10 the operation **UNDERFILLED — \$10.489B tendered, only \$5.187B accepted, 23 of 40 issues.** Chabot (ex-Fed): not enough bids at Treasury's non-disclosed fair premium; *"higher yields are encouraging dealers to hold on to these bonds"* — **and he reads that as dealer balance-sheet HEALTH, a framing carried intact.** Prior same-bucket \$2B offers drew **\$16.3B · \$15.7B (Jul) · \$7.4B (Aug)** — ⚠️ **not comparable to September's \$6B offer; normalise or say you didn't.** **Bessent disclaims the valuation purpose `RED-FT-11` is built around. QRA 11/5.**
+
+- 🔴 **AI IS THE FOURTH CHANNEL (`-007`, `-011`, `-018`):** **SoftBank −10.7% — cause is NOT a carry unwind but Altman shelving OpenAI's 2026 IPO on safety grounds and Amodei calling for an industry slowdown**; contagion AI-shaped (KOSPI −3%, SK Hynix −6%, Kioxia −6%). **Morgan Stanley: >\$3.1tn of DISCLOSED OFF-BALANCE-SHEET commitments**, incl. **ORCL \$261B leases vs \$32B purchases** and **NVDA \$125B residual-value support on a reported \$500bn facility at 25% RVS.** ⛔ **NOT debt; do not quote it as such.** The DeepMind "RSI achieved" rumour is **KILLED** (an acrostic); its Reuters-confirmed background (Brin resourcing RSI, 8/12) stands.
+
+### ⑥ 2026-09-14 PM session lead blocks, long form (VERBATIM) — moved out of `STATUS.md` per closeout 12(d): session narrative lives here, STATUS keeps the pointer
+
+✅ **THREE STANDING FLAGS EVALUATED RATHER THAN RE-READ, and two were false (boot step 3).** ① **The `VIXCLS` outage — REFUTED at the primary** (cache-busted `fredgraph.csv`), dispatched as `-021`. ② **The `dropzone_pending` MED — 47 items reported "waiting" were the SAME 47 the 14:2x session dispositioned 47/47 in `BM-20260914-02`; every filename verified against the closed manifest before moving. A closed batch whose files never left the drop-zone reads to the next boot as a full backlog.** ③ **The intake lane's `STALE 3d` — NOT a collector death.** The collector is a **GitHub Actions** workflow (`0 15 * * 1-5` UTC), not a local cron, so machine-switching is irrelevant; observed runs land **18:00–18:58Z** (Actions scheduling lag), and at 18:5xZ today's run is **at the edge of that band, not outside it.** ⚠️ **But the health check reads raw elapsed days against `last_run`, so EVERY Monday boot before the run lands will emit `MED — collector likely down; flag PROME`. Friday's self-correction fixed the NARRATIVE and left the INSTRUMENT emitting the same wrong recommendation weekly.** `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`
+
+📌 **REGISTRY: the four rows the 14:2x session deliberately left stale are REFRESHED (TERRY 9/14 · HOMER 9/14 · HENRY 9/13 · SAM 9/11), on each desk's OWN declared stamp read by eye — not `git log`, which measures my own inbound handoff traffic.** That caution was right about the parser and wrong about the conclusion: **every one of the four carries a quotable self-declared date in its own STATUS body; none needed a convention to be uniform.** Both `registry_lag` MEDs cleared. **`design/OPERATOR_BRIEF_SPEC.md` v0.1 (Will-directed, msg 4557) remains live canon** — RULE 12 owns the mechanism, that spec owns the register; §3 ANTI-LAUNDERING is its load-bearing section.
+
+### ⑦ 2026-09-14 PM lead, long form (VERBATIM)
+
+🔴 **THE THREE THAT MATTER.** ① **`VIXCLS` PUBLISHED ITS 9/11 CELL AT 15.84 AND THIS BOARD SAID IT HAD NOT — `SIG-W-20260914-021`, self-correction.** The outage is the **H.15 Treasury set alone, and it is SIX series** (`DGS2` · `DGS5` · `DGS10` · `DGS20` · `DGS30` · `DFII10`), not the five this file named. ⚠️ **The tell: BOND's packet names a DIFFERENT five and the boards agreed on a CARDINALITY — four shared members, and the count was doing the authenticating** (`[[finding_crosscheck_with_free_parameter_validates_nothing]]`). ② **THE IRAN ANCHOR IS ROTATED AND THE DEBT IS PAID** — five blocks moved VERBATIM to `IRAN_WAR_HISTORY.md`, three passes needed because the first two landed at 78% and 71% and **stopping at the trigger is not finishing.** ③ **TERRY ANSWERED THE HELD §3.5.8(a) QUESTION: keep the BOARD ID-diff, do NOT restore its inbox lane** — on a SECOND instance of the founding failure, self-reported, dwell 4 days, **with `ledger_sweep` reading CLEAN A–H the entire time because all four of its surfaces agreed and were all wrong.**
+
+**`BOARD_CONSUMPTION_SPEC` v0.26 → v0.27** — §3.5.8(a)'s TERRY row HELD → RESOLVED; `STATE.md` §1 bumped in lockstep after `version_drift_check` caught the companion drift. **The `PULL_COMPLETE` table is now fully dispositioned on FOUR DIFFERENT bases — CARL apply · RED apply · PROME fail-safe-only · TERRY not-applied — and flattening them is the error the section exists to prevent.** **BOND answered `SIG-008` with an attribution ADVERSE TO ITS OWN BOOK** (policy-path, not term premium; `BND-22` resolved FALSE; position unchanged, `$0`) and declared the missing post-CPI OIS number as its own lane with named unchecked sources, re-test 9/16.
+
+### ⑧ The Active LIAISON channels table, rotated from `STATUS.md` 2026-09-14 (VERBATIM) — all four dormant/archived; live summary kept in STATUS
+
+
+No fresh active architectural thread is inferred from the existence of these files. Calibration countdowns are dormant; any reactivation uses the existing protocol.
+
+| Channel | Current file / state | Latest known turn |
+|---|---|---|
+| CARL | `AGENTS/CARL/handoff_WALTER/LIAISON.md` — converged/dormant; Will chose closure June 6, file remains at owner path | Turn 7, May 6; no new turn found |
+| RED | `AGENTS/RED/handoff_WALTER/LIAISON.md` — dormant; historical re-engagement has no Turn 8 response | WALTER Turn 7, June 6 |
+| REGINALD | `AGENTS/REGINALD/archive/handoff_WALTER/LIAISON.md` — archived | Historical channel; no live countdown |
+| BRENT | `AGENTS/BRENT/archive/legacy_20260721/handoff_WALTER/CLOSED/LIAISON.md` — closed and archived | Existing reopen triggers only |
+
+
+### ⑨ Standing-flag notes rotated from `STATUS.md` 2026-09-14 (VERBATIM)
+
+- ✅ **COP: RETIRED 2026-06-28** (Will-approved) — file archived → `design/history/COP_RETIRED_2026-06-28.md`, boot steps 5 + 10 tombstoned, all refs removed. No standing COP obligation remains.
+- ✅ **Quick WALTER: RETIRED 2026-06-26.** ONE mode — Full WALTER.
+
+### ⑪ REFINING/PRODUCTS row, prior form (VERBATIM)
+
+- **REFINING / PRODUCTS:** **Exxon Joliet/Channahon 275 kbpd (~6% of PADD-2) shut on a SUNDAY 9/13 power outage; duration UNRESOLVED** (hoodline *"for hours"* vs De Haan *"looks bad"*). ⛔ **A July 2024 outage at this refinery took THREE WEEKS — do NOT import that duration.** **US refinery utilization reported maxed ~98% — not read at the EIA primary and national, not PADD-specific.** **`HO=F` \$4.78 (−3.63%) [9/14] vs `CL=F` +1.55% — crude and product SEPARATING.** **AAA retail diesel \$6.0556 [9/11] = RECORD, +63% YoY.** ⚠️ **`SIG-W-20260910-020`'s futures "all-time record" is CONTESTED (Bloomberg: "highest since 2022") and carries one side — HENRY to settle.**
+
+### ⑫ The two pre-merge FILTER-POSTURE trigger lists, as they stood before the 2026-09-14 merge (VERBATIM) — they overlapped on VIX and HY OAS
+
+**Bypass triggers — straight to FLASH (reaffirmed pre-Apr-21):**
+- WAL or ZION gap-down >5% premarket → FLASH
+- KRE intraday drop >3% → FLASH
+- Iran kinetic-interdiction of US naval vessel → FLASH
+- HY OAS +25bps single session → FLASH (safety net)
+- VIX +5 intraday → FLASH (safety net)
+- Will explicit FLASH flag via Telegram → FLASH *(RULE 12: reply via the reply tool; form per `OPERATOR_BRIEF_SPEC`)*
+
+**Watched metrics for safety net (RULE 5):**
+- VIX > 30 or +5 intraday → auto-upgrade to IMMEDIATE
+- HY OAS widening > 25bps single session → auto-upgrade
+- 2+ agents flag same theme in 24h → convergence flag
+- Held-position liquidity drop → FLASH
+
+### ⑬ HANS board row, prior form (VERBATIM)
+
+- **HANS board — HANS's own rows [9/10], NOT re-derived (dark since 9/10):** UK 30Y **5.93** (T-13 orange 6.00: **7bp, tightest on the board**) · UK 10Y **5.36** (T-06: **14bp**) · Bund 3.4879 · TTF 81.00 · EU storage gap −14.7pp [9/8] · T-04 ECB 2.50 NOT MET, next GovC **10/29**. ⚠️ **T-09/T-10 COMPOUND two-leg — neither fires alone.** ⛔ **T-12 UNINSTRUMENTED — cannot fire, does not count toward a clean board.** 📌 **9/17 BoE MPC publishes the ANNUAL GILT-QT SALES PACE.**
