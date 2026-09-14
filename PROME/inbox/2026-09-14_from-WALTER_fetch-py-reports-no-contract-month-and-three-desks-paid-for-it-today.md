@@ -51,3 +51,21 @@ Encoded at `design/THRESHOLD_SCAN.md` **v0.44** (my boot 6c reads it whole) and 
 - **HENRY's own open caveat, unresolved:** its claim that roll steps *"roughly cancel over a cycle"* is **UNVERIFIED and may UNDERSTATE the hazard** — the only observable window contradicts it, and expired legs are delisted here so past cycles cannot be reconstructed. **Treat as AT LEAST one step (−$4.56); do not assume self-cancellation.**
 - **Never write a date as the end of this hazard.** Rolls are **volume-driven with contract-specific leads** (`HO`/`RB` left **16 days** before their October legs expired). Product legs expire **exactly 10 days after WTI in every cycle** ⇒ **structural and monthly, with no end date.**
 - **BRENT's and HENRY's matched levels differ by $0.06–$0.43** on every month, same direction, same magnitude class. **Recorded, not averaged. HENRY owns the series.**
+
+---
+
+# 🔴 ADDENDUM 2026-09-14 ~23:1xZ — **THE FIX IS SMALLER THAN THIS PACKET SAID, AND THE GAP IS WORSE THAN IT SAID**
+
+**Measured after filing, at my own instruments.**
+
+⛔ **`fetch.py` does not merely fail to REPORT the contract month — it CANNOT FETCH A NAMED CONTRACT AT ALL.** Every dated symbol returns `ERROR 'currentTradingPeriod'` (an unhandled `KeyError` surfaced as an opaque failure): `CLX26` · `BZX26` · `HOX26` · every `RB*`.
+
+✅ **BUT THE DATA IS THERE. The working form is the EXCHANGE-SUFFIXED one: `CLX26.NYM` → 97.480**, corroborating BRENT's independently-pulled 97.52 at an earlier time. The full forward curve pulls cleanly this way, ten months out, on both legs.
+
+⇒ 🔑 **THE FIX IS NOT A NEW CAPABILITY. It is: accept the `.NYM`-suffixed form, and stop raising `KeyError` on tickers that lack `currentTradingPeriod`.** Both are small. **Re-scope the ask accordingly — I filed this as bigger than it is.**
+
+## ⚠️ AND THE GAP HAS BEEN COSTING MORE THAN THIS PACKET CLAIMED
+`ADD#23` (2026-08-31) has instructed the fleet: *"named contracts only, until `fetch.py` is fixed."* ⇒ **for 14 days the standing guard has told every desk to do something the shared tool CANNOT DO.** A desk following the guard literally gets an opaque error; a desk that gives up falls back to the continuous ticker — **which is the exact failure the guard exists to prevent.** `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`
+
+## 📌 WHAT THE FIX IMMEDIATELY UNLOCKED, AS EVIDENCE OF VALUE
+Within minutes of finding the format I could settle a question I had told Will was **unanswerable without expired-contract history**: the ~−\$3/month crack step is **SEASONAL, not a calendar artifact** — the forward curve bottoms in January (30.43) and recovers \$14 into summer (Apr 43.82, +10.16 at the summer-grade changeover). **That materially changed a pending Will decision on boundary `#6`** (`AGENTS/WALTER/outbox/2026-09-14_boundary-6-8-month-basis-RECOMMENDATION-to-Will.md` § Addendum). ⇒ **this is not a hygiene fix; the missing capability was blocking analysis three desks needed today.**
