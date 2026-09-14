@@ -132,3 +132,11 @@
 **And the trap on the repair:** the obvious fix is an equivalence test (TOST) at a named margin — but **run its margin table before adopting it.** For T3, a margin that genuinely supports "the shared factor is the dollar" (≤0.20) costs **155+** sessions, while a margin reachable alongside the detection leg (0.40 → n=39) sits **0.05 from the detection threshold** — the equivalence and detection regions would nearly touch. **Computing the repair is what proved the repair wrong**; the honest answer was to go one-sided and stop claiming the null.
 
 *(Rotated from `LESSONS.md` 2026-09-14 under the P1 read-cap rule; the self-contained heading stays in LESSONS.md § SETTLED RULES and still binds.)*
+
+---
+
+### [Spec] — A Pre-Commitment That Names a VALUE Instead of a RULE Becomes a Carry-Item
+**Pattern (2026-08-28, caught by LIQUID):** I wrote *"+0.399 at n=20 is NO VERDICT and stays so unless n≥38 AND r≥0.45"* — intended as a guard against rationalising later. **As phrased it reads as though +0.399 is the number carried to the n=38 grade. It is not: r will have moved, and the graded number is the r on the then-current window.**
+**Rule:** a pre-commitment must name **the rule and the window that will be graded**, never the currently-observed value. *"At n≥38 the grade is against the r computed on the THEN-CURRENT 38-session window; today's value is superseded, not carried forward."* **The irony is the point: a device written specifically to stop a future self from drifting had drifted into a carried assertion that never self-evaluates.** `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+*(Rotated from `LESSONS.md` 2026-09-14 under the P1 read-cap rule; the self-contained heading stays in LESSONS.md § SETTLED RULES and still binds.)*
