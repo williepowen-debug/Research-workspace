@@ -170,3 +170,31 @@ Three fixes in one closeout, each attached to a **correct** finding, each introd
 ⚠️ **Found by an independent auditor, not by the author, and only after the author asked for a third instance by name.** Two were reported; the third came back **because PROME said "twice in one day is a pattern — if there is a third, name it."** `[[finding_asymmetric_rigor_counterparty_claims]]` runs the other way here: the cheapest way to find your own third instance is to ask someone else to look for it.
 
 *(PROME 2026-09-12 closing pass; ARGUS ⚠️C and the follow-up. Same session also produced three wrong MEASUREMENTS inside repairs of a wrong measurement — `[[finding_a_hash_pin_authenticates_the_reference_not_your_agreement_with_it]]`, `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`.)*
+
+---
+
+## ⚠️ EXTENSION 2026-09-13 (PROME) — the refinement pass shipped SIX defects, and the mechanism has a name: **a default convention is a claim about every cell you did not enumerate**
+
+**Case.** A one-file data refresh — folding Friday's closes into `HEARTBEAT.md`, a Will-facing regime surface. The pass ran to three sub-passes (one edit, two byte-trims), each feeling smaller and safer than the last, and its commit message stated the file was correct. A blind cold reader then scored 28 claims **10 ✅ / 12 ⚠️ / 6 ❌**, plus **2 ❌ the NEXT proposed change would have created**. **Six of the eight were introduced by that session**, not inherited.
+
+**The generative mechanism, and it is the transferable part.** To save bytes, the pass introduced a **default convention** on a table: *"an UNDATED cell is the 9/11 close."* It was written while looking at the ~25 cells being changed — all one source, all one date. The table also held **four other kinds of cell**, none of them examined:
+
+- cells DATED 9/11 but not closes (a CPI release, an overnight crack, a policy-pricing quote) ⇒ the rule's own words, *"a dated cell has no 9/11 print,"* were **false of its own table**;
+- an undated **pair** (SOFR 3.62, IORB 3.65) whose **own spread is dated 9/10** — and 3.65 − 3.62 = 0.03 exactly, so the inputs and the output could not both be right;
+- a cell carrying a warning (*"a 9/11 print is intraday, never a close"*) that the very next change would have made **self-contradictory**;
+- a policy rate that is not a close at all.
+
+And the same session left **NVDA at two different values in two sections, neither dated** — so under its own new rule, both claimed to be the Friday close.
+
+**Why a default is worse than an omission.** An undated cell before the rule said *"I don't know."* After the rule it says *"I am the 9/11 close"* — **a positive false claim, silently minted for every cell the author never looked at.** Enumeration is not optional housekeeping; it IS the rule.
+
+**Second tell, separate from the first: byte pressure manufactures correction passes.** The file sat near a hard cap. Every fix cost bytes, every overage triggered a trim, and every trim was another unreviewed pass over live text — three of them, two of which cut real content to keep a threshold green. **When a surface is at its cap, the correct move is to declare the cap tripped and schedule the re-base, not to shave.** Shaving to keep a line green is the violation the line exists to prevent, and it is how a level surface loses cells nobody decided to drop. `[[finding_disambiguation_costs_bytes_so_a_capped_surface_cannot_absorb_every_flag]]`
+
+**How to apply:**
+- **Before declaring ANY default convention** — *undated means X, unlabelled means Y, absent means none* — **list the rows that do not fit it and count them.** If you cannot enumerate the exceptions, you are not entitled to the default. One grep over the section, not a glance at the cells you are editing.
+- **A rule stated in a header is graded against the WHOLE section**, not against the subset that prompted it. Read the rule back with the section's other cells in hand.
+- **When a derived value and its own inputs appear in one table, check the arithmetic against the labels** — a spread dated differently from its legs is a dating bug you can catch with subtraction.
+- **A commit message asserting correctness is not evidence of it.** Both messages in this case said the work was verified. `[[finding_adoption_is_not_validation]]`
+- **Cap pressure is a signal to STOP, not to optimise.** `[[finding_mechanize_the_cap_not_the_ritual]]`
+
+Related: [[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]] · [[finding_live_claim_in_a_closed_container_is_invisible]] (the same session also told a reader that a delivered commission was still owed) · [[finding_write_timestamps_from_the_clock_not_the_narrative]] (four files stamped ahead of the clock in the same pass) · [[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]
