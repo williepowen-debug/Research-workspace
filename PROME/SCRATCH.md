@@ -15,6 +15,8 @@
 
 ✅ **What the tool now does, because it changes what desks can say:** every futures price states its delivery month or an explicit UNKNOWN with the reason — **`CL=F` Oct 2026 (CLV26) against `HO=F` Nov 2026 (HOX26)**, which is the desync that cost three desks on 9/14, now visible in the output. `BZ=F` is UNKNOWN by construction (vendor name truncates, month cut). Bare dated symbols resolve. **Acceptance test: `PROME/tools/tests/test_contract_probe_acceptance.py`, 6/6, fixtures, no network.**
 
+🔴 **DELIVERY WAS PARTIAL AND THE BLOCKER IS CONCRETE: the Helm PUBLISHED (v32); THE DECISION DECK DID NOT.** The hosted Deck is the **`3dfde57e9` 15:39 build** and carries **NEITHER `WQ-252` (absent entirely) NOR `WQ-251`'s corrected headline** — ⛔ **so Will cannot tap WQ-252 on his own ruling surface; it is not there.** **Cause: the republish guard requires reading the live version in full, and the Deck is 484 KB / 473 lines.** ✅ Nothing was lost by the refusal — tap state lives in the artifact DB, not the page, verified — and PROME did **NOT** force past the guard. **Registered as DOCKET L393 (9/16) rather than retried, because retrying is what has already failed twice** (the `prome-d4` closeout hit the identical cause and left it as a note instead of a row, which is why it recurred). ⚠️ **Until it publishes, rule WQ-251 and WQ-252 in chat, not on the Deck.**
+
 🟠 **ONE REGISTERED FOLLOW-UP, not urgent: DOCKET L392 (9/16)** — `contract_probe`'s `STALE_S` is an **uncalibrated 900 s** and is load-bearing for **Brent, the one root with no name fallback**. Behaviour is SETTLED (a stale MATCHED leg withholds; other legs are advisory); only the NUMBER is open. **The test is named on the row and is not runnable at midday.**
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
