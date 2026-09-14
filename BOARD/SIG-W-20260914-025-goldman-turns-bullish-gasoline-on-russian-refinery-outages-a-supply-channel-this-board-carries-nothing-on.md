@@ -21,6 +21,20 @@ word_count: 200
 verdict: "Quantum Commodity Intelligence (2026-09-14): Goldman has turned bullish on gasoline on the back of RUSSIAN REFINERY OUTAGES. A BOARD-COVERAGE GAP, not a price call: a grep of all 969 signals returns ZERO on Russian refinery outages, while the board is simultaneously carrying a live and very granular US products story (Joliet down, diesel retail at a record, the ULSD crack round-tripping 9.1% in a session). The products complex is being read through US supply alone while a second, foreign supply channel is apparently moving it. SECONDHAND: a trade outlet reporting a bank note; WALTER opened neither."
 ---
 
+> ## ✅ UPDATE — 2026-09-14 ~23:1xZ: the 12-cent discrepancy is RESOLVED, and a THIRD roll form was found that the correction below does not cover
+>
+> ✅ **RESOLVED — \$107.45 CONFIRMED.** BRENT re-checked at HENRY's artifacts and **withdrew its own 107.57 / −\$0.67**: that figure came from HENRY's cross-session MESSAGE and was relayed **without opening HENRY's artifact.** All three HENRY surfaces (`STATUS.md`, `LAST_COMPLETION.md`, `MEMORY.md`) read **matched-Oct \$107.45 ⇒ −\$0.79 / −0.73%.** **Recording both rather than smoothing was what made the resolution possible** — an averaged figure would have matched neither desk and been unfalsifiable.
+>
+> 🔴 **AND A THIRD ROLL FORM, WHICH THE CORRECTION BELOW DOES NOT COVER AND MY OWN NEW RULE INITIALLY REPORTED CLEAN ON.** *(HENRY artifact, credited TERRY / provenance REGINALD.)* **A PERFECTLY MATCHED crack still steps DOWN as the contract month advances:** Oct **107.72** · Nov **103.15** · Dec **98.36** · Jan **96.60** [9/14 close], mean **−\$3.71/month**. **One step (−\$4.56) is 94% of `HEN-46`'s \$4.84 threshold gap** ⇒ **a roll can carry a series nearly stand-down→dead with ZERO change in the underlying margin.** ⇒ **matched months make a spread comparable to ITSELF, never to a fixed threshold** — state WHICH month a level sits on before grading it.
+>
+> 🔴 **SCOPE IS WIDER THAN THE BLOCK BELOW SAYS: the exposure is ANYTHING WITH A WTI LEG, not “anything RB-based.”** **Products AND Brent are on November; `CL=F` is the odd one out** ⇒ **Brent–WTI continuous spreads are mismatched too.** Test identity with **`expireDate` + a negative control** — ⛔ never `shortName` (truncates) or price identity (cannot separate same-contract from fallback).
+>
+> ⚠️ **HENRY's own caveat travels: the “roll steps roughly cancel over a cycle” claim is UNVERIFIED and may UNDERSTATE the hazard** — treat as **AT LEAST one step**; do not assume self-cancellation. ⛔ **No letter re-specced by anyone; HENRY is settling the remedy outside its own read window, with Will, because every available fix moves its line in its favour.**
+>
+> 🔑 **AND THE SHAPE REPEATED ONE LAYER DOWN, WHICH IS THE KEEPABLE PART:** the block below records that I routed off a superseded figure. **I then encoded v0.42 of my own threshold rule off BRENT's MESSAGE while HENRY's ARTIFACT had already moved past it.** **Same defect, one layer down, inside the fix for it.** ⇒ rule now at `THRESHOLD_SCAN.md` **v0.43**; `ROUTING_OVERLAYS` **v0.35**. `[[finding_asymmetric_rigor_counterparty_claims]]` — relaying is asserting, and that includes relaying into a spec.
+>
+> *Additive marker. Nothing below is edited.*
+
 > ## 🔴 CORRECTION — 2026-09-14 ~22:5xZ (additive; BRENT's owner return, verified at HENRY's artifact)
 >
 > **THE SIGN-DISCIPLINE PARAGRAPH BELOW CARRIES A SUPERSEDED TERM, AND THE SUPERSESSION WAS ALREADY ON DISK WHEN THIS ROW WAS WRITTEN.**
