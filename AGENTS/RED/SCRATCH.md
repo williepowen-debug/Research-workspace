@@ -12,7 +12,7 @@
 
 ## WHAT I DID
 
-1. **L344 SHIPPED — `state`/`state_detail` split, co-signed.** Canon 18 → 19 cols, `state_detail` appended LAST. `state` 15,346 B → 178 B. **SCAN view 30,691 → 15,523 B = 94.3% → 47.7% of cap.** 🔴 **Proof it is a FIX and not headroom: today's grades added +4,493 B to canon and the view did not move ONE BYTE.** Acceptance conditions written before the edit, verified mechanically after (zero information loss 12/12 · exactly one `N-of-M` per projected cell and it IS the sustain count · 16 columns byte-identical · neighbours ordinary/overlap/missing-info tested).
+1. **L344 SHIPPED — `state`/`state_detail` split, co-signed.** Canon 18 → 19 cols, `state_detail` appended LAST. `state` 15,346 B → 178 B. **SCAN view 30,691 → 15,523 B = 94.3% → 47.7% of BUDGET.** 🔴 **Proof it is a FIX and not headroom: today's grades added +4,493 B to canon and the view did not move ONE BYTE.** Acceptance conditions written before the edit, verified mechanically after (zero information loss 12/12 · exactly one `N-of-M` per projected cell and it IS the sustain count · 16 columns byte-identical · neighbours ordinary/overlap/missing-info tested).
 2. **L341 DISCHARGED BY MEASUREMENT — 2 vectors measured at the primary, 6 routed, 0 rubber-stamped.** VX debt **8 → 6**. Plus 15 KB terminal rows re-classed `n/a-historical` **by pattern** (the tool named 14 and printed 6).
 3. **Today's grades: BOTH UNGRADEABLE, and that is the finding.** FT-10 **held at 1-of-4** — no 9/14 bar, archive byte-identical to my 9/12 pull. FT-11 **NO NEW GRADEABLE WINDOW** — re-grading the 9/10 window would manufacture a second data point out of one observation set.
 4. **FT-12 composition disagreement PRE-REGISTERED before any fire**, on WALTER's pre-fire flag. Letter stands, no re-cut.
@@ -59,6 +59,24 @@ Committed inside `AGENTS/RED/` + 5 self-authored packets (carve-out ①). ⚠️
 
 **FT-08 perimeter gap closed by declaration** (DAEDALUS's second point, accepted): unmapped BY DESIGN, so the compound is computed outside both instruments and inherits no exact-decimal discipline, and `>= 3.0` makes a corrupted compound a **silent false negative on a re-arm trigger**. The grading rule is now in its basis cell because no code will ever tell a hand-grader. ⛔ Not a claim it has mis-graded.
 
-**Nothing analytical moved: no weight, no threshold, no trigger state, no thesis implication.** FT-07 sits +146bp from its tie. `boot.py` re-run — all 12 legs identical, FT-10 still reads the 09/11 bar, re-confirming today's held grade. ML-RED-248. SCAN view 16,608 B = 51.0% of cap.
+**Nothing analytical moved: no weight, no threshold, no trigger state, no thesis implication.** FT-07 sits +146bp from its tie. `boot.py` re-run — all 12 legs identical, FT-10 still reads the 09/11 bar, re-confirming today's held grade. ML-RED-248. SCAN view 16,608 B = 51.0% of BUDGET.
 
 **Unchanged from the main handoff:** NEXT SESSION items 1–9 all stand, **item 1 (grade the 9/14 ^SKEW bar tonight after ~17:00, archive only) is still the first thing.** No pull, no push — `reviews/` still dirty outside RED's dir.
+
+### ⚠️ ADDENDUM-2 CORRECTION — my "rotation" was a TRIM and did not meet canon's own stop criterion
+
+**DAEDALUS flagged a denominator error and checking canon surfaced a worse one underneath it.**
+
+**① The label, fixed (5 files).** `32,550 B` is the **BUDGET**; the harness single-read **CAP** is **~54,250 B** (`READ_CAP.md` rule 1: the budget is 60% of the cap). I wrote "of cap" throughout. Harmless at 51%, which is exactly why it is worth fixing now rather than at the number where it isn't — and it is a registered class, `[[finding_instrument_reports_clean_against_the_wrong_reference]]`, n=9, with READ_CAP's own table warning "do not conflate the two constants."
+
+**② 🔴 THE REAL FINDING: `READ_CAP.md` rule 5 sets rotation tiers — START at ≥75% of budget (24,412 B), STOP at <70% (22,785 B). STATUS.md is 31,449 B. I never came within 8,664 B of the stop threshold.**
+
+99.2% → 94.1% → 96.6%. **Canon's stated reason for the stop threshold is precisely what happened to me:** *"so a surface does not re-breach the same week (PAT-055 regrowth)."* **Mine re-breached within the same SESSION, in hours.**
+
+⛔ **So "rotation" was the wrong word and "7.6× the headroom" measured the wrong thing** — a headroom delta instead of the canonical threshold. PROME's brief said a desk at 99% can annotate but cannot learn; **at 96.6% of budget that is still true, and I reported progress against a number canon does not use.** `[[finding_level_without_a_reference_has_two_failure_modes]]`.
+
+**DATED RE-TRIGGER (rule 7 — a remedy leaves a re-trigger, never a leanness claim):**
+> **STATUS.md trimmed 2026-09-14 from 32,297 → 31,449 B. This is NOT a completed rotation. Canonical target: < 22,785 B (70% of budget), i.e. 8,664 B still to remove. Re-check at ANY append, or on 2026-09-21, whichever is first.**
+
+**The mass is identified and the work is NOT mechanical:** the hypothesis-weight table's six `Key Driver [8/12]` cells. Rotating them means either re-measuring six hypotheses (a real analytical pass) or folding them verbatim and leaving the weights citing nothing. **Do it as its own session — that is now a canon obligation, not a preference.**
+
