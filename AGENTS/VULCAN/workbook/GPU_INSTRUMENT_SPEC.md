@@ -1,7 +1,7 @@
 # GPU-RENTAL PRICE INSTRUMENT — SPEC
 
 **Owner:** VULCAN (PROME coordination ruling, Tier 1, **2026-09-03**; WATT and DEWEY cc, nothing owed by them)
-**Status:** 🟡 **SPEC ENCODED 2026-09-06 · CADENCE PRE-COMMITTED · PANEL NOT YET FROZEN · ZERO ROWS WRITTEN — deliberately**
+**Status:** 🟢 **PANEL FROZEN 2026-09-13 — `GPU-PANEL-01` is SEALED (§9). CADENCE PRE-COMMITTED · ZERO ROWS WRITTEN — still deliberately: the freeze is NOT a reading, and 2026-09-13 is not a cadence date. First row is reading 2, **2026-09-18 post-close**.**
 **2026-09-11:** 🔴 **`GPU-PANEL-01` NOT FROZEN at the 9/11 deadline — READING 1 IS RECORDED AS MISSED** (see §4 addendum). ✅ **PROME's 9/6 AMENDMENT to ruling para. 3 is ENCODED — §3 below and the ruling now AGREE** (①a index LIVE, ①b futures 10/05; `term_normalized` + segment accepted into the registry vocabulary; PROME concurs; cc reached WATT/DEWEY as files) [KB-VULCAN-159].
 **Ledger:** `workbook/GPU_SERIES.tsv` (11th ledger; schema declared in `workbook/SCHEMA.tsv`, enforced by `scripts/validate_workbook.py` boot leg 7)
 **Register:** `docket/CATALYSTS.tsv` — readings **2026-09-11 · 09-18 · 09-25 · 10-02**, re-decide **2026-10-05**
@@ -41,7 +41,7 @@ This desk has carried the **compute-spot baseline as a registered open item sinc
 |---|---|---|---|
 | **①a** | **Silicon Data daily GPU rental INDEX** (the underlying) | `index_vendor` | 🔴 **LIVE NOW — CORRECTED 2026-09-06.** ⚠️ **My 9/6 row bundled this with the futures and marked the pair "not live until 2026-10-05." That conflated a CONTRACT LISTING with a PUBLISHED SERIES and it was wrong.** The H100 Rental Price Index publishes **daily**, in **USD per GPU-hour**, and a current level is publicly readable on the product page: **$2.53/GPU-hour, ticker `SDH100RT` (NEO-CLOUD reading)** [silicondata.com/products/silicon-index/h100, read 2026-09-06]. ⚠️ **The full series + history + API are PAID** (7-day trial; "distributed via web and API" behind the portal) ⇒ this is a **COST/ACCESS blocker, not a reachability unknown** — a materially different state from SEARCH-NOT-FOUND. |
 | **①b** | **CME / Silicon Data GPU-hour FUTURES** | `exchange_primary` | **Not listed until 2026-10-05** (planned launch, pending regulatory review). `cmegroup.com` **TIMED OUT** from this box (2 endpoints) ⇒ **SEARCH-NOT-FOUND: CME spec notice ser-9785, contract codes, settlement method.** Unfetched, **not** unavailable — WATT got a 403 on the same notice. |
-| **②** | **ICE / Ornn** — independent second construction | `index_vendor` | `ice.com/products` resolves **200**. Specific Ornn index endpoint **not yet located** — named as unchecked. |
+| **②** | **ICE / Ornn** — independent second construction | `index_vendor` | 🔴 **CLOSED 2026-09-13 — IT IS LIVE, AND PART OF IT IS FREE.** ~~Specific Ornn index endpoint not yet located — named as unchecked.~~ The **Ornn Compute Price Index (OCPI)** publishes **`OCPI-H100` = $2.78/GPU-hour, settled 2026-09-13**, *"a volume-weighted, winsorized average of transacted GPU rental prices"* settling **once per trading day** [data.ornn.com/preview, own read 2026-09-13]. **Three months of daily history are free**; full history / hourly grain / CSV are paid. ⚠️ **The service condition is NOT stated** — so OCPI enters as `term_normalized`, exactly like `SDH100RT` (§3b). 🔑 **And ICE's futures are tied to OCPI**, which means the 10/05 re-decide now has **two** exchange tracks, not one — see §7. |
 | **③** | **LLMTK** — fallback only | `secondary` | Not probed. Fallback tier; probing it before ①/② would invert the order. |
 | *(reference)* | **Vast.ai public bundles API** | `marketplace_api` | Resolves **200** and returns real per-GPU-hour asks. ⚠️ **The default endpoint returned 64 offers with n=3 for H100 SXM** — a thin, uncharacterised sample of one marketplace. **That is a candidate panel CELL, never the on-demand tier.** |
 
@@ -106,6 +106,8 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 
 **CME + Silicon Data list cash-settled Compute Futures on NYMEX (H100 and B200 Rental Index Futures).** At listing, rank ① becomes primary, because **an exchange-settled index is composition-controlled by construction** — that is the date the panel problem becomes *tractable* rather than merely *disclosed*.
 
+🔴 **AMENDED 2026-09-13 — THERE ARE TWO EXCHANGE TRACKS, NOT ONE.** This section assumed CME/Silicon Data was the only one. **ICE's planned GPU futures settle on Ornn's OCPI**, and OCPI is already publishing daily (§3 rank ②, §9.2). So the 10/05 re-decide is no longer *"does rank ① go live?"* — it is **which of two competing exchange-settled constructions becomes primary**, and the two underlying indices **already disagree by 9.4%** on the same silicon (§9.3). 🔑 **That disagreement is the re-decide's real input**, and it is measurable from reading 2 onward at zero cost, which is why `dispersion_D` is in the panel from the first row rather than being discovered on 10/05. ⚠️ **Neither index has published its reference contract**, so an exchange-settled figure is composition-**controlled** by construction without being composition-**disclosed** — those are not the same guarantee, and §2's trap survives the listing in the second form.
+
 ⚠️ This listing **supersedes KB-031's 2026-07-22 "NO regulated futures" finding** — correct when asked, overtaken, and **nothing here was watching for the flip.** A resolved binary is a standing bet that the world has not moved, and it expires silently.
 
 ---
@@ -116,3 +118,120 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 - **WATT tier inversion** 2026-09-03 (`b325bc906`) · **VULCAN amendment filed BEFORE PROME ruled** (`d932b817b`) — the loop closed at the decision, not after it
 - **DEWEY REQ-001** base rate — `AGENTS/DEWEY/output/2026-09-02_dr-req001-ai-order-book-phantom-demand.md`
 - KB-031 (superseded binary) · KB-144 (CME listing) · KB-148 (the FX/reproducibility discipline that applies to any foreign-currency quote entering this panel)
+
+---
+
+## 9. 🟢 `GPU-PANEL-01` — **FROZEN 2026-09-13** (the dedicated freeze pass §4's addendum demanded)
+
+**Frozen:** 2026-09-13 ~20:2x–21:0x ET, PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, COVERED annotations all SPENT). **Markets closed since the Fri 2026-09-11 close.**
+**`panel_spec_id` = `GPU-PANEL-01`.** Any later change to §9.3 mints a NEW id; old rows keep the old one (§5 closing rule).
+**What unblocked it:** the 9/11 addendum named ONE blocker — *the contract tier has no reconnaissance behind it.* That reconnaissance was run this session (§9.2). **It returned a negative, and the negative is the finding (§9.4).** A panel cannot wait forever on a tier that does not publicly exist.
+
+### 9.1 Inclusion criteria — **DECLARED BEFORE THE FIRST FETCH OF THIS SESSION**
+
+⚠️ **Ordering is the integrity claim here, so it is stated plainly:** these criteria were written to disk **before any vendor page was fetched** this session, precisely so the panel cannot have been selected on observed levels. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` — a freeze performed after seeing the prices is exactly the composition-selection defect §2 exists to prevent, and the only defence is the timestamp.
+
+A vendor/tier **cell** enters `GPU-PANEL-01` iff **all** of:
+
+| | Criterion |
+|---|---|
+| **C1** | **PUBLICLY QUOTED** — a per-GPU-hour price readable with no login, no contract and no sales contact, at a stable URL. |
+| **C2** | **MODEL-IDENTIFIED** — the quote names **H100 SXM (80GB)**, or the vendor states a form factor that maps to it under §9.3's declared mapping. A bare "H100" ambiguous with PCIe fails. |
+| **C3** | **SERVICE CONDITION DECLARABLE** — on-demand (uninterruptible, pay-as-you-go) or a **committed term with a stated DURATION**. A price whose service condition cannot be declared is **EXCLUDED, not guessed** (§3b). |
+| **C4** | **POPULATION-LABELLED** — assignable to exactly ONE of {hyperscaler, neocloud, marketplace, index} (§5.1: three populations, not three quotes). |
+| **C5** | **REPRODUCIBLE IN USD** — same URL returns the same units; quoted in USD, no FX conversion [KB-148]. |
+
+**Rules over the criteria:**
+- **R1** Tier assignment is by **SERVICE CONDITION**, never by vendor identity.
+- **R2** 🔴 **The observed PRICE LEVEL is NEVER an inclusion input.** Cells are admitted or excluded on C1–C5 alone.
+- **R3** Every exclusion is recorded **with the failed criterion**. No silent drops — an unrecorded exclusion is indistinguishable from a vendor that does not exist.
+- **R4** An index whose **reference contract is unspecified** enters as `price_basis=term_normalized` and **may not be differenced** against a single-term row (§3b resolution 2).
+- **R5** A tier below its declared minimum `n` reports the literal **`UNGRADEABLE`**, never a number.
+
+### 9.2 Reconnaissance record — 2026-09-13, own reads
+
+> 🔴 **THIS IS NOT A SERIES ROW AND MUST NEVER BE READ AS ONE.** `GPU_SERIES.tsv` still holds **zero data rows**. These are composition evidence: what the panel *looked like* at the moment it was sealed, recorded so a future reader can audit the freeze. The first series row is **reading 2, 2026-09-18 post-close**.
+
+| Tier | Vendor | Quote as read | Basis | Verdict |
+|---|---|---|---|---|
+| A on-demand | **Lambda** H100 **SXM** 80GB, 8× node | **$3.99**/GPU-hr (1× $4.29 · 2× $4.19 · 4× $4.09) | on-demand, self-serve | ✅ **IN** |
+| A on-demand | **CoreWeave** HGX H100, 8-GPU node | **$49.24**/node-hr ⇒ **$6.1550**/GPU-hr | on-demand | ✅ **IN** |
+| A on-demand | **Nebius** HGX H100 | **$3.85**/GPU-hr (preemptible $2.15, separate) | on-demand | ✅ **IN** |
+| A on-demand | **Crusoe** H100 80GB HGX | **$3.90**/GPU-hr | on-demand | ✅ **IN** |
+| B marketplace | **Vast.ai** H100 SXM, 1-GPU rentable | **n=10**; min $1.7356 · **median $1.8689** · max $4.5471 | live asks, public API | ✅ **IN** |
+| C contract 12mo | — | — | — | 🔴 **EMPTY — see §9.4** |
+| D index | **Silicon Data** `SDH100RT` (**NEO-CLOUD** segment) | **$2.53**/GPU-hr; page publishes **no as-of date** ⇒ vintage `UNSPECIFIED` | `term_normalized` | ✅ **IN** |
+| D index | **Ornn** `OCPI-H100` | **$2.78**/GPU-hr, **settled 2026-09-13** | `term_normalized` | ✅ **IN** |
+
+*Sources, all own reads 2026-09-13: lambda.ai/pricing · coreweave.com/pricing · nebius.com/prices · crusoe.ai/cloud/pricing · console.vast.ai public bundles API · silicondata.com/products/silicon-index/h100 · data.ornn.com/preview.*
+
+**One more thing the reconnaissance measured, recorded because it is WATT's warning arriving as a number:** the neocloud list mean **$4.4737** against the Vast.ai marketplace median **$1.8689** is **~2.4× for the same silicon** — WATT's *"3–6× for the same silicon … panel composition moves the index more than price does"* is no longer a caution, it is a measurement, and it is why tiers `on_demand` and `marketplace` are **never netted**. ⚠️ Still NOT a series row.
+
+**Median convention applied, not assumed:** Vast.ai's 10 sorted asks give middle values $1.8689 and $2.0022. Under §9.6's declared **lower-of-the-two-middle** rule the median is **$1.8689**; a float average would print **$1.93555**. *The convention exists so a decimal series is never decided by float* `[[finding_float_precision_empties_the_tie_set_and_voids_the_operator]]`.
+
+### 9.3 🔒 THE FROZEN PANEL
+
+**`gpu_model` (all tiers): `H100_SXM` (80GB) only.** Models are not interchangeable (§5.2).
+
+**Declared form-factor mapping (a convention, recorded so it can be overturned, not an inference left implicit):** a vendor quote reading **"HGX H100 80GB"** maps to `H100_SXM` — the HGX baseboard carries SXM5 modules. A quote reading bare **"H100"** with no form factor and no HGX label does **not** map and fails C2.
+
+🔗 **Letter → ledger token binding (so the spec and `GPU_SERIES.tsv` speak ONE vocabulary):** **A = `tier=on_demand`** · **B = `tier=marketplace`** · **C = `tier=contract`** · **D = `tier=index`**. ⚠️ **`marketplace` and `index` did not exist in the `tier` enum before this freeze** — `SCHEMA.tsv` carried only `on_demand | contract | spread`, which could not express the panel without merging a marketplace ask into a neocloud list price. **The enum was widened in the same pass** (and `source_class` gained `vendor_primary`, because a vendor’s own price page is a primary, not a secondary). The letters are for reading; **the tokens are what the ledger stores.**
+
+| Tier | Population | `price_basis` | Frozen member set | Min `n` | Rule |
+|---|---|:---:|---|:---:|---|
+| **A** | neocloud, **directly quoted** | `spot` | Lambda · CoreWeave · Nebius · Crusoe | **3 of 4** | **Scale convention: take the 8-GPU / single-node quote** where a vendor publishes several scales — 8×SXM is one HGX baseboard, which is the physical unit the other three quote. Report the **mean** across admitted vendors and **also** the member list. |
+| **B** | marketplace | `spot` | Vast.ai, H100 SXM, **1-GPU rentable** offers | **5 offers** | Report the **median** under §9.6's tie rule. **NEVER netted into tier A** — it is a different population (§3 reference row). |
+| **C** | committed term, 12mo | `12mo` | 🔴 **EMPTY SET** | — | Writes an **`ERR:` sentinel** every reading, with the reason, until a member qualifies under C1–C5. §9.4. |
+| **D** | index vendors | `term_normalized` | Silicon Data `SDH100RT` (neo-cloud) · Ornn `OCPI-H100` | **1** (2 for the cross-check) | Each index is read **for its own reference basis before its first row** (§3b res. 1). Both are currently **unspecified** ⇒ both `term_normalized`. **Segment is recorded, never just the vendor** (§3b res. 3). |
+
+**Spreads permitted at this freeze — and the one that is not:**
+- ✅ `spread_A_minus_B` — neocloud list vs marketplace ask. **Both legs are `spot`**, so it is like-for-like and gradeable.
+- ✅ `dispersion_D` — `|OCPI-H100 − SDH100RT| ÷ their mean`. At freeze: **$2.78 vs $2.53 ⇒ 9.4%** (mean basis; 9.0% on the higher leg, 9.9% on the lower — the basis is named because the three differ).
+- ⛔ **`spread_on_demand_minus_contract` — the spread §2 says the whole instrument is for — is `UNGRADEABLE` and will stay so while tier C is empty.** It may **never** be faked by differencing a tier-A row against a tier-D `term_normalized` index (R4). Part of that difference would be the vendor's own normalization, which is §2's composition trap re-entering through the units.
+
+### 9.4 🔴 THE FINDING THE RECONNAISSANCE ACTUALLY RETURNED
+
+**There is no publicly quoted 12-month H100 contract price. Not at one vendor — at any of the four.**
+
+| Excluded cell | Failed |
+|---|---|
+| **Lambda** 1-Click Clusters — $6.16 (16 GPU) / $5.85 (64) / $5.54 (256) | **C3**: the term is *"2 weeks – 1 year"*. **A duration RANGE is not a duration.** Second defect: the price moves with cluster scale, an uncontrolled axis. **1 year+ = "contact sales" ⇒ also C1.** |
+| **CoreWeave** reserved — *"up to 60% discounts"* | **C1** — contact sales; no number published. |
+| **Crusoe** committed rates | **C1** — contact sales. |
+| **Nebius** | **C1** — no committed tier published at all. |
+| **SemiAnalysis** 1-yr H100 series — **$1.70 (Oct-2025) → $2.35 (Mar-2026), the +40%** | **C1** — paid research, not a public quote. ⚠️ **This is the NAMED unreachable, not an absence** `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]`. |
+
+🔑 **And this closes a provenance question that has been open since 2026-09-03: WATT's tier-inverting datum — H100 1-year contract +40% while on-demand was flat-to-down — traces to SemiAnalysis, a third-party research vendor, NOT to any vendor price page.** That does not impeach it. It establishes that **the contract leg of this instrument is not independently reproducible by this desk from public sources**, which is a different and more useful statement than "we haven't found it yet." `[[finding_declared_data_wall_needs_fleet_memory_check]]` — at four vendors returning the same negative, the finding is **ACCESS, not data**.
+
+⚠️ **Consequence, stated so it cannot be quietly forgotten:** the instrument as conceived in §2 — *register both tiers plus the spread* — **is at freeze a ONE-TIER instrument plus two index composites.** The spread that was supposed to distinguish "genuine leading divergence" from "broken panel" **cannot be computed.** What replaces it until tier C fills: **`dispersion_D`, two independently constructed indices over the same silicon.** They disagree by **9.4%** on day one, which is precisely the panel-stability diagnostic §2 asked for, arriving from a different direction.
+
+### 9.5 Minimum `n`, precision, tie convention, basis line
+
+- **Min `n`:** tier A **3 of 4 vendors** · tier B **5 offers** · tier D **1 index** (both for `dispersion_D`). 🔴 **Below the floor, WHAT IS WRITTEN DEPENDS ON THE COLUMN’S TYPE, and getting this wrong would fail boot leg 7 on the first row:** `price_usd` is a **required Float** and **blank is forbidden**, so an ungradeable cell writes an **`ERR:` sentinel** there — the same honest-failure convention `S2_SERIES.tsv` already carries (`ERR:` values are skipped by `validate_workbook.py`, so they fail LOUD in the ledger without failing the schema) [L-16]. `n_observations` is a required Integer ≥ 1, so a zero-cell writes `ERR:` there too — **never `0`**. **`spread_pct` is the one column typed String on purpose, and it takes the literal `UNGRADEABLE`** (§5.4).
+- **Precision:** a **quoted** price is recorded **exactly as quoted** and never re-rounded. A **derived** price (node ÷ GPU count, medians, spreads) carries **4 decimal places**, and the divisor is written into `notes`.
+- **Tie / median convention:** for an even `n`, the median is the **LOWER of the two middle values**. Deterministic, exact on a decimal series, no float average.
+- **Basis line** (WQ-162 / `SPEC_LETTER_STANDARD`), required in `notes` of every row: **tier · vendor(s) · unit · vintage · precision**. A tier-D row's vintage is the **settlement date**, and `UNSPECIFIED` where the vendor publishes none (`SDH100RT` today).
+
+### 9.6 Validations — **refuse to write, never degrade silently** (§5.6)
+
+| | Validation | On failure |
+|---|---|---|
+| **V1** | **Unit** — every price is USD per **GPU**-hour. A per-node quote is divided by the node's stated GPU count and the divisor is recorded. | **REFUSE** |
+| **V2** | **Model** — `gpu_model == H100_SXM`, via a direct SXM quote or §9.3's declared HGX mapping. | **REFUSE** |
+| **V3** | **Tier purity** — no tier mixes `price_basis` values across its member cells. | **REFUSE** |
+| **V4** | **Spread gate** — `spread_pct` is written ONLY when both legs carry an **identical declared** `price_basis`; otherwise the literal `UNGRADEABLE`. | write `UNGRADEABLE` |
+| **V5** | **n-floor** — a cell under §9.5's floor reports `UNGRADEABLE`. | write `UNGRADEABLE` |
+| **V6** | **Index cross-check** — compute `dispersion_D` and record it **every reading**. | **record, no band** |
+
+⚠️ **V6 sets NO number, and that is deliberate.** §6 forbids any threshold on this instrument until ≥4 weekly rows exist *and* a base rate is stated. A dispersion band picked tonight would be a free parameter chosen from a sample of one. **`dispersion_D` is measured from reading 2 and its own base rate is stated at reading 4 (2026-10-02) — after which a band may be *proposed*, not assumed.**
+
+### 9.7 What reading 2 executes (2026-09-18, post-close)
+
+1. `.venv/bin/python tools/gpu_panel.py` — fetches tier B live, takes tiers A and D from a declared input, runs V1–V6, and **refuses to append** on any REFUSE.
+2. Tier C (`contract`) writes **`ERR:UNGRADEABLE-no-public-contract-quote`** in `price_usd` and `n_observations`, with the §9.4 reason in `notes`. **It is not left blank** — a blank cell passes every presence audit `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`.
+3. Re-confirm both tier-D levels **at their own pages**, and record whether `data.ornn.com/preview` is still the reachable surface — a **preview** page is not yet established as a source of record, and that is an open question this freeze does not close.
+4. **If 9/18 is missed it is recorded as a missed reading**, exactly as 9/11 was. The freeze removes the *reason* for a miss; it does not excuse one.
+
+### 9.8 What this freeze does NOT do
+
+**No threshold registered. No band set. No score moved. No capital path.** `GPU_SERIES.tsv` holds **zero rows** and will until 2026-09-18 post-close. The freeze is a **composition decision**, and its most important content is a **negative** — that one of its two designed tiers has no public members.

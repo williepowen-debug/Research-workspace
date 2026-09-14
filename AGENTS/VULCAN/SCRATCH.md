@@ -1,4 +1,37 @@
-> # ⛔ 2026-09-11 (Fri) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 session (DOCKET L323; Will *"ok approved"* 9/10 19:25), 10:37 ET → pre-close. 4 dark days before it (9/7 → 9/10).
+> # ⛔ 2026-09-13 (Sun) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, PENDING through two PROME boots — the 9/12 sweep printed DARK owners only and I had self-committed 9/11). ~20:2x → 21:5x ET. Markets shut since the Fri 09-11 close.
+>
+> ## ONE LINE: **`GPU-PANEL-01` IS FROZEN** — and the reconnaissance that unblocked it returned a **NEGATIVE that is worth more than the panel**: there is no publicly quoted 12-month H100 price at ANY of the four vendors, so tier `contract` is an EMPTY SET and the on-demand-minus-contract spread the instrument was designed around is **UNGRADEABLE**. Three misses recorded, none cured off-cadence. **Nothing was read tonight, and that is correct.** No score, band, threshold or capital path moved; `GPU_SERIES.tsv` still holds ZERO rows.
+>
+> ## 🟢 THE FREEZE (the live deliverable — 9/18 was five days out)
+> - **Criteria C1–C5 + rules R1–R5 written to disk BEFORE the first fetch** (spec §9.1). Freezing after seeing prices is composition-selection and the ONLY defence is the ordering, made auditable at the time. **R2: the observed LEVEL is never an inclusion input.**
+> - **Four tiers, sealed (§9.3):** `on_demand` Lambda·CoreWeave·Nebius·Crusoe (min 3 of 4; **8-GPU/single-node scale convention** — 8×SXM is one HGX baseboard) · `marketplace` Vast.ai H100 SXM 1-GPU (min 5; **n=10 tonight**, up from the n=3 that blocked 9/6) · `contract` **EMPTY** · `index` SDH100RT (neo-cloud) + OCPI-H100, both `term_normalized`.
+> - **`SCHEMA.tsv` enums WIDENED** — `tier` gained `marketplace`+`index`, `source_class` gained `vendor_primary`. The 3-token enum could not express the panel **without merging a marketplace ask into a neocloud list price**, i.e. without destroying the dispersion this instrument measures. Caught only because I checked the validator before writing a row.
+> - **`tools/gpu_panel.py` built · `--selftest` 16/16.** ⚠️ **It FAILED on its first run — on MY arithmetic, not the code's** (I asserted the dispersion fixture at 9.43%; it is 9.42%). Exactly `finding_test_the_guard_not_just_the_guarded`.
+> - **Marketplace tier is MECHANIZED; on_demand + index are HAND-READ** via `workbook/GPU_PANEL_INPUT_TEMPLATE.json` — HTML marketing pages change format silently, and scraping them fails in the one direction that matters.
+>
+> ## 🔑 WHAT THE RECONNAISSANCE ACTUALLY FOUND [KB-163/164/165]
+> - **No public 12-mo H100 quote anywhere.** Lambda's clusters are *"2 weeks – 1 year"* — **a RANGE is not a duration** (fails C3) and 1yr+ is contact-sales; CoreWeave/Crusoe/Nebius fail C1. **At four vendors returning the same negative the finding is ACCESS, not data.**
+> - ⇒ **WATT's tier-inverting +40% datum traces to SemiAnalysis, not to any vendor page.** That does not impeach it — it establishes **the contract leg is not independently reproducible by this desk from public sources.** Provenance question open since 9/03, now closed.
+> - 🔴 **Ornn's OCPI IS LIVE and partly FREE** — `OCPI-H100` **$2.78** settled 9/13, transacted-price volume-weighted winsorized average, 3 months daily history free. **Closes the §3 rank-② SEARCH-NOT-FOUND.** **ICE settles its futures on OCPI ⇒ 10/05 is a TWO-TRACK question, not a go-live question.**
+> - **The two indices disagree 9.4% day one** ($2.53 vs $2.78). **This is the panel-stability test §2 wanted, arriving from the other direction** — registered as `dispersion_index`, recorded every reading, **NO BAND** (§6: no threshold until ≥4 rows AND a stated base rate; a band tonight = a free parameter from n=1). Base rate at reading 4, **10-02**, three days before the re-decide.
+> - **Neocloud mean $4.4737 vs Vast.ai median $1.8689 = ~2.4×** — WATT's 3–6× warning as a **measurement**, not a caution. NOT a series row.
+>
+> ## 🔴 THE THREE MISSES, RECORDED — AND WHY NOTHING WAS READ
+> 1. **`semi_watch.py` slot 4 (9/11 post-close) MISSED — the FOURTH** (8/27 post-close · 8/28 · 09-04 · 09-11). Series last row 2026-08-24, **20d stale**. ✅ **The 9/30 re-arm rule survives: four slots remain (09-18·09-22·09-25·09-29) against "3+ consecutive" ⇒ margin is ONE, down from two. A fifth miss = no margin; a sixth = ungradeable.**
+> 2. **`mag7.py` slot 1 (9/11 post-close) MISSED — its FIRST.** 🔑 **And STATUS's standing line *"mag7.py has NO pre-committed cadence — named as a gap"* was RETIRED tonight: it was already false when written.** The 9/11 session registered the cadence AND wrote the complaint about its absence in the same session.
+> 3. **GPU reading 1 (9/11) stays MISSED** — a freeze is not a reading and Sunday is not a slot.
+> **Nothing licensed an off-cadence read:** all three instruments are cadenced to Friday post-close, markets have been shut since 9/11, and the remedy for a missed reading is never an extra unscheduled one [L-21].
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **FRI 09-18 POST-CLOSE IS A THREE-INSTRUMENT RUN, each independently missable:** `semi_watch.py` (slot 5 — **one slot of margin left on the 9/30 rule**) · `mag7.py` (slot 2) · `gpu_panel.py --reading-date 2026-09-18 --input <filled template> --write`. **A partial run is a FAILED run [L-16].**
+> 2. **Fill the GPU template AT the slot** — re-read all six URLs; **never carry the 9/13 freeze levels forward**, drop the vendor and let V5 write the sentinel.
+> 3. **ORCL 10-Q by ~09-19** — `edgar_watch.py`; the $3.3B lessor guarantee's handling + the $260B off-BS book.
+> 4. **STATUS is at 93% of the READ-CAP budget (30,313 B / 32,550 B).** ⚠️ **Rotate BEFORE writing next session, not after** — the 9/11 pass had to rotate mid-session for this reason. **Best candidate: the S3 matrix cell's 33-day wording-correction narrative → `CHANNEL_DETAIL.md`** (settled history; the *fact* stays). **Deferred tonight deliberately** — that cell took 33 days to get right and a rushed move at the end of an edit-heavy session is how it gets broken.
+> 5. **09-15 GATE-LIQ-069** (LIQUID's; I am the seam) · **09-16 ZHAO BIS re-check** · **09-30 = a 10-01 stack.**
+>
+> ## ❌ STILL OPEN (carried): hyperscaler long-dated-issuance check (KB-096) · QQQ sector variant (Invesco 406s) · PROME's Q3 disinflationary-productivity falsifier (8/21) · **whether `data.ornn.com/preview` is a source of record** (a preview page is not established as one — re-check every reading) · `CLAUDE.md` auto-load cost, now ~79 KB (watch, don't rotate).
+
+> # 2026-09-11 (Fri) — *(previous session; the 9/13 block above supersedes its ▶ START HERE)*. PROME-spawned Tier-1 session (DOCKET L323; Will *"ok approved"* 9/10 19:25), 10:37 ET → pre-close. 4 dark days before it (9/7 → 9/10).
 >
 > ## ONE LINE: DEWEY REQ-002 integrated into ONE instrument — **`VULCAN-17`, NVDA's guarantee-COMMITMENT level by quarter**, baseline VERIFIED at five filings by my own pulls, reading rule pre-committed (first FLAT/DOWN quarter with no successor = the signal; the fall is CLASSIFIED before it is read). Inbox **14 → 0**. TSMC August + ORCL Q1 swept. **No score, band or threshold moved.** Two misses recorded honestly: today's post-close readings (not this pre-close session's to take) and **GPU-PANEL-01 not frozen ⇒ reading 1 MISSED.**
 >
@@ -36,65 +69,4 @@
 
 # VULCAN — SCRATCH (next-session pickup)
 
-> # ⛔ 2026-09-03 CLOSEOUT — READ THIS BLOCK FIRST. Session spanned 2026-09-02 22:47 ET → 2026-09-03 07:1x ET (PROME-orchestrated, 6 dark days before it).
->
-> ## ✅ THE 8/27 DEBT IS DISCHARGED — VULCAN-16 IS GRADED **MISS**
-> **On the ESCAPE CLAUSE**, which by its own words outranks the equity spread. Trigger: **DDR5 $53.93, −0.12%**, the first decline in the retained series [TrendForce, Asia close 8/27, KB-129 — recorded contemporaneously, VERIFIED].
-> - **The registered resolver reading WAS NEVER TAKEN.** The desk went dark 8/27 PM → 9/2, so `S2_SERIES.tsv` has **no 8/27 row** and the 8/28 Friday reading was missed too. **The verdict does not depend on it** — the escape clause grades on the PHYSICAL series, which was observed.
-> - **WHICH CLAIM DIED:** the *"not memory-specific / not S2"* claim. **The *"bloc/de-risking"* claim SURVIVED** — the reconstructed 8/27 post-close spread is **+2.34pp** vs the frozen **+3.31pp**, i.e. **−0.97pp mixed-basis and −0.06pp like-for-like**, branch (a) on both, which alone would have returned CONFIRMED.
-> - 🔑 **THE RECONSTRUCTION VALIDATED ITSELF IN A USEFUL WAY:** re-running semi_watch's own method over the retained 8/24 window reproduced it EXACTLY (2026-07-24→08-24) with the only residual being intraday-vs-close on the last bar — **0.91pp**, which is the first direct MEASUREMENT of the basis wrinkle the row flagged in advance.
-> - **Graded as written, NOT narrowed** [L-11(b)]. The clause fired on a rounding-scale tick because I drafted it with no magnitude bar and no session count. **Forward rule recorded: every escape clause carries a magnitude bar AND a session count.**
-> - ⚠️ **NO re-arm evidence claimed.** The if_falsified text ties re-arm to the SPREAD widening ≥+5pp; it NARROWED. **S2's leading indicator stays DISARMED; the 9/30 rule grades on the spread basis, unchanged.**
->
-> ## 🔴 THE SESSION'S REAL HEADLINE IS A CORRECTION AGAINST MYSELF — MU FQ4 IS **CONFIRMED 2026-09-30 16:30 ET**
-> Micron press release **2026-08-26 16:01 ET**, verified at the primary 9/2. **My 8/27 "better derivation" (~9/22) was wrong by 8 days. VIOLET's ~9/29 was right to within one.**
-> - **Root cause:** the 91-day-spacing derivation **silently assumed a 52-week year.** MU runs 52/53-week years; **FY2026 is a 53-week year ending 2026-09-03**, so `fiscalYearEnd=0903` was **RIGHT**. The counter-example — FY2020's 10-K `period_end` = **2020-09-03** — was in my **own** `EDGAR_SEEN.tsv`.
-> - 🔴 **CONSEQUENCE, and it is the actionable half: VULCAN-02/-11/-12/-14 all carry `resolve_date 2026-09-30` and the print lands AFTER that day's close. REAL HEADROOM IS ~0 HOURS, not the "~6-13 days" I claimed.** Rows NOT re-dated [L-11(b)]; a **2026-10-01 grade action** is registered in `docket/CATALYSTS.tsv`. **The kill-rail rewrite trigger inherited the same error and now reads 2026-09-30.**
-> - 🔑 **Three lessons, all recorded in KB-135:** ① check whether the issuer has ANNOUNCED before modelling a date; ② my own note said the change *"moved in my favour, which is exactly when to be most careful"* **and I banked it anyway**; ③ **DAEDALUS asked me to reconcile the MU date to ONE figure with VIOLET — doing that on my authority would have destroyed the correct copy.**
-> - 🔑 **AND THE 8/27 "ADD, DON'T SWAP" DECISION IS VINDICATED:** the retained `~09-29` cadence anchor is within a day of truth; the derived `~09-22` is eight days off. **The 09-22 reading was NOT deleted** — removing a pre-committed reading after seeing the true date is the L-21 sampling defect.
->
-> ## 🔴 S1's 33% YELLOW BAND TRIPPED — on its registered instrument, first trip in the retained series
-> **Mag-7 33.5528%** [SSGA SPY holdings as-of **2026-09-01**, own `mag7.py`, validated `worst-err=0.000%`]. Chain: 32.98 [8/20] → 32.87 [8/21] → 32.91 [8/26] → **33.55** [9/1]. Breadth **+3.70pp** (94.1 pctile), down from +5.00.
-> - **BAND ≠ SCORE ≠ TRIGGER.** Red needs **≥40% AND breadth ≤−7.5pp**. **NOT FIRED, score held at 3, composite held 15/25 (eighth session).**
-> - **n=2 consecutive readings with BOTH conjunction legs adverse. n=2 is NOT "sustained" and I did not call it that.**
-> - 🔑 **THE FINDING IS THE COMPOSITION, NOT THE LEVEL:** the +0.64pp came from **AAPL +0.30pp and NVDA +0.33pp**, while over **63d the AI-hardware layer SUBTRACTED −1.22pp** against an index **+0.55pp**. **Concentration is rising WITHOUT the silicon leg — a platform-led bid, which is not the mechanism S1's thesis assumes.** ⚠️ **I have no test that distinguishes those two. That is the most interesting open question on this desk** and it is written into the brief's CALIBRATION as the named uncertainty.
->
-> ## 📖 READ-CAP SPLIT EXECUTED (the mandate, and it was the fleet's worst breach)
-> **SCRATCH 153,247 B (282%) → this file. STATUS 117,622 → 20,070 B (217% → 37%).** Boot-read total **270,869 → 34,628 B**.
-> - History → `archive/SCRATCH_ARCHIVE_2026-08.md` (145,012 B, crc `ab474db6`) + `archive/STATUS_ARCHIVE_2026-08.md` (38,950 B, crc `8b6c93e7`), **verbatim**.
-> - **LIVE per-channel evidence → `CHANNEL_DETAIL.md` (74,737 B), a COLD-BUT-LIVE on-demand surface, deliberately NOT an archive** — burying live evidence under a "do not cite as current" banner is `[[finding_live_claim_in_a_closed_container_is_invisible]]`.
-> - ⚠️ **Rule 17 says a split must MEASURE the cost it chose. The destinations are OFF the boot path, which is the dangerous branch, so every obligation was enumerated before and after: 14 standing rules/watches kept on STATUS · 4 dated commitments to CATALYSTS · 1 registered test in PREDICTIONS · 0 stranded.**
->
-> ## 📥 INBOX 17 → 0, EVERY SENDER — and `board_log.tsv` now exists
-> **ZHAO** (CXMT closed at n=4: *"17% is WAFERS"*, bits ~9%→12%, conversion rule ~35-45% of a 1γ wafer, volume bits 2H2027-28 ⇒ **S2's shortage premise survives inside the 9/30 window, on a wide error bar**; *"30% by 2030"* and the *"25K below Micron"* gap **struck**) · **DEWEY REQ-001** (two order books; the marginal UNCONTRACTED unit led 3 of 3, backlog led 0 of 3) · **NEXUS** (revert **executed**, full variant in amendment-12 order) · **DAEDALUS ×2** · **AEOLUS ×2** (water = 3rd siting constraint; **read the evening CORRECTION, not the morning packet**) · **WALTER ×8**.
-> - 🔴 **THE CROSS-DESK CATCH: WALTER's `SIG-W-20260828-034` (Bernstein double-ordering, confidence 0.75) is the SAME survey DEWEY reports SEARCH-NOT-FOUND across 11 formulations.** Reconciled: it exists as a **relayed image** (@MauiBoyMacro → Zitron/Burry → Telegram), unreachable at the originator ⇒ **UNVERIFIED-RELAY; recommended re-score.** 🔑 **And every line item on the exhibit is POWER EQUIPMENT with zero semiconductor lines — DEWEY's "two order books" conclusion falling out of the exhibit's own composition.**
-> - **`board_log.tsv` did not exist until now.** WALTER's `delivered_but_unconsumed` telemetry has been reading this desk as a permanent gap while 42 signals sat consumed in `inbox/WALTER/processed/`. **The action happened and the record did not** — the mirror of the usual failure, and invisible to a check looking for the usual one. **Boot step 7b installed.**
->
-> ## ➕ POST-CLOSEOUT — WATT REPLIED AFTER I PUSHED, AND IT CORRECTED MY OWN RECOMMENDATION AND MY OWN HANDOFF
-> - 🔴 **WATT INVERTED THE GPU-INSTRUMENT TIER.** H100 **1yr contract +40%** while **on-demand flat-to-down** ⇒ the spot series I recommended would have read *softening demand* over a window contracted pricing rose 40% in. **AMENDMENT filed to PROME BEFORE it ruled** — the loop closed at the decision, not after it.
-> - 🔑 **The fix is neither tier: register BOTH + THE SPREAD + publish the PANEL.** WATT's own trap warning (3-6× dispersion for the same silicon; *"panel composition moves the index more than price does"*) is a candidate explanation for WATT's own datum — **and it is the blocker I had already pre-declared, reached from the data side instead of the design side.**
-> - 🔴 **2026-10-05 CME/NYMEX Compute Futures listing REGISTERED** [KB-144]. **It supersedes KB-031's 7/22 "NO regulated futures" — correct when asked, overtaken, and NOTHING here was watching for the flip.** A resolved binary is a standing bet that the world has not moved and it expires silently.
-> - 🔴 **I WAS WRONG TO HAND WATT HOOVER.** I wrote *"the 1,035 ft cliff is yours to price"* — it is WAPA/Boulder Canyon in **WECC**, outside WATT's footprint. **I inferred scope from adjacency instead of reading WATT's channel definitions** `[[finding_scope_boundary_asserted_from_proximity]]`. WATT did the work anyway and inverted it: BCP charges are a **fixed base charge allocated by contract share, not generation** ⇒ **no rate-repricing event is waiting to fire.** 🔑 **And the fact worth carrying: Mead's record low is 1,041.71 ft, so the 1,035 ft cliff has NEVER been tested — a "never tested" threshold is an UNGRADED one, not a safe one.**
-> - **§202(c) Order 202-26-41 logged as CORROBORATION, NOT CONFIRMATION — S3 does NOT move** [KB-145]. WATT's guard adopted verbatim because it cuts against WATT's own interest: an emergency order **IS** the status quo limb (c) seeks to replace. **Score 3, fired-count 0 of 5, unchanged.**
-> - **Adopted:** do NOT net GEV's turbine order book against the PJM interconnection queue (different population/layer). ⚠️ **DEWEY's GEV read corroborates two-order-books hard: 116 GW "under contract" = ~53 GW firm + 63 GW SLOT RESERVATIONS, 54% outside the audited RPO.**
-
-> ## ▶ START HERE NEXT SESSION
-> 1. 🔴 **FRIDAY 2026-09-04 — `.venv/bin/python tools/semi_watch.py` POST-CLOSE.** Pre-committed cadence; **2 of 6 readings already lost.** Run it regardless of the tape. A partial run is a FAILED run [L-16].
-> 2. **The 9/30 stack is a 10/01 stack.** Do not grade VULCAN-02/-11/-12/-14 on 9/30 evening assuming the MU print is in hand unless it actually is.
-> 3. **PROME owes a ruling on GPU-rental instrument ownership** (my rec: VULCAN; WATT asked in parallel; blocker pre-named — verify the index is not composition-weighted). **Do not start building before the ruling.**
-> 4. **TSMC August 6-K ~9/10** — run `tsmc_watch.py`, cite the **cumulative**. **ORCL window opens 9/8.**
-> 5. **DAEDALUS flag ① accepted and queued:** boot step 8 (channel liveness) has **no leg in `boot.py`** and is silent by construction. Flags ② and ③ declined-for-now with reasons in the commit.
->
-> ## 📋 LEDGER-NUDGE DISPOSITION (step 1c-bis — it fired AFTER the commits, so the "say why not" goes here)
-> **3 ledgers named: `S4_SERIES` (15 STATUS-writes behind) · `S2_SERIES` (11) · `FLOW` (8). NONE is rotting, and I am not refreshing any of them.**
-> - **`S4_SERIES.tsv` — correctly event-cadenced, and the cadence is MONTHLY.** Its latest row is **Jul 2026, which is the latest month TSMC has published.** The next 6-K is **~2026-09-10**. A "refresh" today would fetch nothing; the ledger is as current as the world is. **Freezing it would be worse** — it is live and it is due in 7 days.
-> - **`S2_SERIES.tsv` — 🔴 DO NOT REFRESH IT TONIGHT, and this is the one that matters.** Its readings are on a **cadence pre-committed 2026-08-24, before the event it grades**. The S2 re-arm rule counts *"3+ **consecutive readings**"*, so **whoever chooses the run times chooses the readings** [L-21]. **Running it off-cadence to satisfy a staleness nudge would be the exact sampling-selection defect the cadence exists to prevent — a hygiene check inducing a research defect.** Next reading **Fri 2026-09-04**. ⚠️ **2 of 6 readings WERE lost to the dark period (8/27 post-close, 8/28 Fri) and that is recorded, not hidden — but the remedy for a missed reading is not an extra unscheduled one.**
-> - **`FLOW.tsv` — pathways change rarely by design.** Nothing this session created or killed a transmission pathway. `FL-VULCAN-10` (tool controls giving opposite signs on two channels) remains CANDIDATE and **unfalsified**; ZHAO's 9/2 answer strengthens its mechanism but does not test it, so the row does not move.
-> - ⚠️ **n+2 on a defect already routed to DAEDALUS: the nudge counts STATUS-WRITES, not elapsed time, so a multi-pass session inflates every count.** I wrote STATUS several times tonight (split → band trip → deferral note), which is most of the "behind" figures above. **Confirming instance, NOT a new finding — do not re-report it as one.**
-
-> ## ❌ STILL OPEN (carried, honestly)
-> - **The compute-spot baseline** (deferred since 7/22 — now the highest-value open instrument here, but ownership is PROME's).
-> - **Hyperscaler long-dated-issuance check** (KB-096, one query). **QQQ sector variant** (blocker NAMED: Invesco 406s its whole domain — PUBLIC-BUT-UNFETCHED, not unavailable).
-> - **No falsifier for the disinflationary-productivity path** (PROME's Q3, open since 8/21).
-> - **`CLAUDE.md` is 59,354 B**, over the physical cap — NOT bound by READ-CAP (auto-loaded, not a Read) but it costs context every boot. **Watch, don't rotate.**
-> - **Self-grade CHECKS 1-3 due 2026-09-11**, baselines frozen 8/21.
+> 📖 **The 2026-09-03 closeout block was rotated to `archive/SCRATCH_ARCHIVE_2026-09.md` on 2026-09-13, verbatim** (SCRATCH had reached 82% of the READ-CAP budget and the block carried a third competing *“READ THIS BLOCK FIRST”* banner). Its durable content — the MU FQ4 date correction, the S1 yellow-band trip, the READ-CAP split — is already carried in `STATUS.md` and `LESSONS.md`; the archive is the record, not a live surface.
