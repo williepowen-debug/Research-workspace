@@ -5,7 +5,8 @@
 **Thesis owner:** **BRENT** (distillate/crack domain). ⚠️ **TERRY owns construction ONLY** — I do not re-underwrite the crack thesis.
 **Tasking:** Will, relayed via BRENT 11:2x ET — verbatim ***"loop TERRY in on a VLO/MPC construction."***
 **Terry verdict:** 🟢 **STAGED — Will APPROVED 2026-08-27 ~12:1x ET, in-session, verbatim *"approved"*; route (i), `3 × VLO`. NOT YET FILLED. TERRY does not execute.** *(State token is `STAGED`, not "APPROVED": approval is the DECISION, `STAGED` is the card STATE — approved, gate clean, awaiting only the fill. `APPROVED` is on `ledger_sweep`'s deliberately-excluded list because it doubles as ordinary prose; check F caught this within a minute of the write and the fix was the SURFACE, never the vocabulary.)*
-> 🟢 **LATEST GATE STATE — 2026-09-14 13:04:54 ET: THE GATE IS MET** (VLO −2.45% / USO +0.82%, complex 4-for-4 red, both crude benchmarks green). **First qualifying tape since WQ-213 was ruled 9/10.** ⛔ Read **§ RE-ARM #2 at the foot of this card** — it supersedes the 9/11 `GATE FAILS` block, and it carries a 🔴 finding: **the 80% undefended-linear ceiling has gone DEGENERATE** (every defended leg harvested ⇒ the sleeve is 100% undefended at `X = $0`). **`$0` moved; the fill is Will's.**
+> 🔴 **LATEST — 2026-09-14 13:11 ET: THE GATE IS MET AND MY RECOMMENDATION IS *DO NOT FILL TODAY*.** The refiners are red for a **MARGIN** reason, not an oil-beta one: **ULSD crack `$98.82/bbl` [13:11 ET intraday, own pull] vs `$108.24` [9/11 CLOSE]** — `HO=F` **−3.90%** while `CL=F` **+1.47%**. **The crack IS the thesis**, so the gate opened on a move whose composition refutes the reason the gate exists (construction rules #15/#23). ⛔ **The gate is NOT re-specced and the fill is NOT blocked — the rule is applied as written and the disagreement recorded.** **Read § RE-ARM #2 AMENDMENT at the foot of this card; it is the operative block.**
+> 🟢 **GATE STATE — 2026-09-14 13:04:54 ET: MET** (VLO −2.45% / USO +0.82%, complex 4-for-4 red, both crude benchmarks green). **First qualifying tape since WQ-213 was ruled 9/10.** ⛔ Read **§ RE-ARM #2 at the foot of this card** — it supersedes the 9/11 `GATE FAILS` block, and it carries a 🔴 finding: **the 80% undefended-linear ceiling has gone DEGENERATE** (every defended leg harvested ⇒ the sleeve is 100% undefended at `X = $0`). **`$0` moved; the fill is Will's.**
 > ✅ **Rule #6 RE-MEASURED AT APPROVAL (12:12 ET), as this card required:** **VLO `345.29` −0.79%** · XLE −0.80% · **USO +0.86%.** **Refiners still RED, crude still GREEN ⇒ the entry gate is CLEAN on the direct measurement at the moment of approval.** ⚠️ **Still intraday — if the fill slips to another day, re-measure again; it is not a standing pass.**
 > ⚠️ **Will did NOT name the oil-exposure ceiling.** Approving route (i) settles it *for this `$1,033` add* (the sleeve math holds it inside the 80% undefended-linear ceiling regardless). ⛔ **It remains UNSET for any future add and the alternative route (ii) — trim-USO-first — is NOT approved and is NOT dead; it was simply not chosen here.**
 > *Prior verdict (superseded 2026-08-27): 🟡 CONDITIONAL — SHARES, NOT OPTIONS. Small, and smaller than the ask implies.*
@@ -295,3 +296,62 @@ The sizing bound on this card is **BRENT's 80% undefended-linear ceiling** (§4 
 - ⛔ **No threshold set, moved or shaved. No gate widened. No hard guard relaxed. `$0` moved by TERRY.**
 
 **PROPOSAL — the only decision open is Will's, and it is the one WQ-213 already approved: place `3 × VLO` at a fresh mark, today, while the tape qualifies. APPROVAL REQUIRED — Will must approve/reject before execution. TERRY does not execute.**
+
+---
+
+## 🔴 RE-ARM #2 — AMENDMENT, 2026-09-14 Mon 13:11:03 ET. **THE GATE IS STILL MET. MY RECOMMENDATION IS NOW *DO NOT FILL TODAY*, AND THE REASON IS A NUMBER I DID NOT MEASURE AN HOUR AGO.**
+
+⛔ **`$0` MOVED · NO ORDER · NO GATE MOVED, RE-WORDED OR SHAVED.** ⚠️ **This amendment REVERSES nothing in RE-ARM #2 above — every figure there stands and the gate is still MET on its letter. It ADDS the datum that decides the trade.**
+
+### ⓪ PROVENANCE, stated first because it is the point
+
+**PROME flagged this, not me.** Its 13:1x alert asked one question I had not answered: *why* are the refiners red? **RE-ARM #2 measured the gate's two legs and a four-name corroboration set, confirmed the sign test, and never asked what was driving it.** ⇒ `[[finding_gate_pass_is_not_evidence_it_found_the_best_reason]]` — **a PASS says A criterion was met, never that the BEST reason was found.** The gate I wrote on 9/11 is a pure day-colour sign test with no thesis condition in it, and **I ran it exactly as written and stopped there.**
+
+### ① THE MEASUREMENT — my own pull, not relayed
+
+**`fetch.py`, 2026-09-14 13:11:03 ET:** **`HO=F` `$4.77` (−3.90%)** · **`CL=F` `$101.52` (+1.47%)** · `BZ=F` `$105.97` (+1.30%) · `VLO` `$380.62` (−2.51%) · `USO` `$156.54` (+1.06%).
+
+> **ULSD crack `HO=F × 42 − CL=F` = `200.34 − 101.52` = **`$98.82/bbl`** [2026-09-14 13:11 ET, INTRADAY].**
+
+| basis | figure | |
+|---|---:|---|
+| **last graded CLOSE** (HENRY, 9/11) | **`$108.24`** | the number every construction on this desk has sized against |
+| 9/13 **electronic** bar (HENRY, flagged not graded) | `$102.64` | −$5.60 from Friday |
+| **9/14 INTRADAY, mine** | **`$98.82`** | |
+
+⚠️ **BASIS DISCIPLINE, applied to my own number inside the hour HENRY taught it:** `$108.24` is a **CLOSE** and `$98.82` is an **INTRADAY** bar. **Comparing them MIXES BASES — the exact error HENRY withdrew a superlative for on 9/13, and I will not commit it in the other direction to make a point.** ⇒ **The `−$9.42` is DIRECTIONAL ONLY and is not a graded delta.** The direction, however, is unambiguous, large, and monotone across three observations.
+⚠️ **Construction rule #22 + BRENT's `CRACK-BASIS-ROLL` (LIVE on `SIGNALS.tsv`): this is computed from TWO CONTINUOUS FRONT-MONTH tickers and is subject to roll basis. It is an ALERT-grade figure. HENRY owns the crack series and his close-basis grade is the one that counts.**
+
+### ② WHY IT DECIDES THE TRADE — and PROME asked me to say which way, explicitly
+
+> # **IT WEAKENS THE ENTRY. It is the strongest argument against filling today, and it did not exist on 9/10 when Will approved.**
+
+**The gate exists to buy the SAME thesis at a better price.** Today's refiner weakness is **not a discount on an unchanged thesis — it is the market marking the thesis down.** ⛔ **The crack IS the thesis.** This card's own §1 says so: *"Own the leg of BRENT's oil thesis the book expresses nowhere — refining margin / distillate crack."*
+
+- **Construction rule #15:** *a gate that opens on vol/price DECAY carries **zero** thesis information and will feel like confirmation.* 🔴 **Today's case is worse than the rule anticipates: the gate opened on a move carrying NEGATIVE thesis information, and it will feel like a good entry.**
+- **Construction rule #23:** *name the driver before you add.* **I can name it, and it is adverse.** The driver is not oil-beta and not rotation — **`HO=F` fell 3.90% while crude ROSE 1.47%.** That is margin compression, in the exact instrument the position is long.
+- **HENRY's `F1` buffer has collapsed:** `F1` is *crack `<$95` = stand down, `<$90.16` = dead.* At the 9/11 close the buffer was **`$13.24`**. At my 13:11 intraday print it is **`$3.82`** — ⚠️ **on a mixed basis, so directional only, and `F1` grades on CLOSES so it is NOT FIRED and CANNOT fire intraday.** ⛔ **I am not firing another desk's falsifier off an intraday bar.** But **a stand-down line that was 12% away on Friday is now ~4% away**, and a card whose thesis owner has a live stand-down clause that close is not a card to open today.
+
+### ③ ⛔ WHAT I AM NOT DOING — and this is the discipline that matters
+
+**I am NOT re-specifying the gate.** It fired correctly on its own letter. **Re-wording a gate in the session it fires is threshold-shaving whichever direction it moves** — I said exactly that about the `004` add line four hours ago, when the shaving would have been *restrictive*, and it binds identically here where it would be *permissive-blocking*.
+
+⇒ **APPLY THE RULE AS WRITTEN, THEN RECORD THE DISAGREEMENT.** `[[finding_headline_keyed_conditional_inherits_its_composition]]` — *a pre-committed rule keyed on a HEADLINE can fire on data whose composition refutes it; apply it, then record the disagreement.* **This is that case, exactly.**
+
+🔴 **REGISTERED AS OWED — a real defect in a gate I wrote:** **the 9/11 entry gate has no thesis condition.** It tests day colour and nothing else, so it **cannot distinguish "refiners cheap against oil" (the entry it was built to catch) from "the crack is collapsing" (the entry it must refuse).** Both print as *refiner red / crude green*. ⛔ **The fix is a SEPARATE, COLD build — not an edit made on the day it would change an outcome** — and it goes to Will as a proposal, not into this card by my hand today.
+
+### ④ VERDICT — both halves, because they are genuinely both true
+
+| | |
+|---|---|
+| **The `WQ-213` condition** | ✅ **MET.** Will's words — *"a day the refiners are RED AGAINST OIL"* — are satisfied in figures, one pull, one timestamp. **I am not withdrawing that and I am not blocking the fill.** |
+| **TERRY's recommendation** | 🔴 **DO NOT FILL TODAY.** Not because the gate failed — it did not — but because **the composition of today's move refutes the reason the gate exists**, and the honest response to that is a decision by Will, never a gate edit by me. |
+
+**⇒ WHAT WILL HAS TO DO — exactly one of these, and it is his call, not mine:**
+1. 🟢 **FILL ANYWAY** — his approval stands, the condition he named is met, and he may hold that a −$9 crack day is precisely when a refiner long is cheap. **`3 × VLO ≈ $1,141.86` at the 13:11 mark; re-pull at the ticket.** ⚠️ **If he takes this branch he should take it knowing the crack print, not past it** — that is the whole reason this amendment exists.
+2. 🔴 **STAND DOWN TODAY and wait for a qualifying day where the crack is NOT collapsing** — TERRY's recommendation. **Costs nothing but time; `WQ-213` stays OPEN and hands stay owed, exactly as it has since 9/10.**
+3. ⚪ **WITHDRAW `WQ-213`** — available, not recommended, and not mine to propose. The thesis is HENRY's and BRENT's and **neither has withdrawn it**; HENRY's 9/13 packet says explicitly *"HEN-46 remains ACTIVE and is NOT withdrawn."*
+
+⛔ **NOT A REASON TO FILL, named in advance so it cannot be offered later:** *"the gate finally fired and it might not fire again"* — **THE CLOCK IS NOT EVIDENCE.** The gate has fired once in 18 days; that is a fact about frequency, never about price. *(This desk's own words, `RISK_RULES.md` § "Breaking root rule #6".)*
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. `$0` moved. Root rule #5. TERRY does not execute.**
