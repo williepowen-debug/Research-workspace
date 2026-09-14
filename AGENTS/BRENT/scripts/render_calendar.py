@@ -88,7 +88,13 @@ def render():
         text = re.sub(r"\s+", " ", event).strip()
         if len(text) > 190:
             text = text[:187].rstrip() + "…"
-        stamp = ("~" if approx else "") + d.strftime("%a %b %-d").replace(" 0", " ")
+        # ⚠️ A CROSS-YEAR ROW MUST CARRY ITS YEAR. Without it "Sun Jan 31" is ambiguous to a
+        # human reader AND to scripts/claim_check.py, which assumes the current year and so
+        # reported a FALSE weekday mismatch on the 2027-01-31 row (the record was correct).
+        # [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]] — the rendered
+        # cell dropped a qualifier while the CORRECT value sat upstream in CATALYSTS.tsv.
+        _fmt = "%a %b %-d" if d.year == datetime.now().year else "%a %b %-d %Y"
+        stamp = ("~" if approx else "") + d.strftime(_fmt).replace(" 0", " ")
         mark = " ⌁*modeled*" if dclass == "modeled" else ""
         out.append(f"| **{stamp}**{mark} | {text} | {pri or ''} |")
     nmod = sum(1 for r in rows if r[4] == "modeled")
