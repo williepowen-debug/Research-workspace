@@ -54,6 +54,7 @@ import json
 import os
 import sys
 import time
+import re
 import urllib.request
 import urllib.parse
 from pathlib import Path
@@ -254,6 +255,17 @@ def _cache_get(key):
 
 
 def _cache_set(key, val):
+    # ⛔ NEVER CACHE A FAILURE (2026-09-14). Errors were cached like values, so a
+    # transient outage — or a tool DEFECT — was served back for the whole TTL.
+    # Found while fixing the bare-dated-contract KeyError: the repaired code was
+    # correct and `price HOX26` still printed the old opaque error, because the
+    # pre-fix failure was sitting in the cache. A fix that cannot be observed to
+    # work is indistinguishable from no fix, and the next reader concludes the
+    # repair failed. Values still cache normally.
+    if isinstance(val, dict) and val and all(
+        isinstance(v, dict) and "error" in v for v in val.values()
+    ):
+        return
     p = _cache_path(key)
     try:
         p.write_text(json.dumps({"ts": time.time(), "val": val}))
@@ -499,6 +511,106 @@ US_MARKET_HOLIDAYS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Contract identity for futures (WALTER packet 2026-09-14; DOCKET L386).
+#
+# WHY THIS EXISTS: a continuous futures ticker silently changes which delivery
+# month it tracks. On 2026-09-14 `HO=F` and `RB=F` rolled Oct->Nov while `CL=F`
+# did not, so every crack built from those tickers compared a November product
+# leg against an October crude leg. Three desks published off it the same day
+# (HENRY ~93% of a "crack collapse" was the roll; BRENT relayed it; WALTER built
+# a dispatch on it). Each caught its own. A written procedure cannot stop this;
+# an emitter that states the month can. `[[finding_hand_fixing_named_rows_is_not
+# _fixing_the_class]]`
+#
+# ⛔ TWO METHODS THAT DO NOT WORK. Named here so nobody re-derives them:
+#   1. There is NO `expireDate` on this vendor path. Measured 2026-09-14 across
+#      every symbol below: `history_metadata` has no expiry field at all. The
+#      original ask specified `expireDate` "at minimum" and it cannot be built.
+#   2. `shortName` TRUNCATES at 30 chars, and for Brent the month is exactly
+#      what gets cut: BZ=F, BZX26.NYM, BZZ26.NYM and BZF27.NYM all return
+#      'Brent Crude Oil Last Day Financ'. `longName` adds nothing (the full
+#      'Brent Crude Oil Last Day Financial Futures' carries no month either).
+#      => For Brent this function returns UNKNOWN, by design. Do not guess.
+#
+# ⛔ AND THE ONE THAT LOOKS LIKE IT WORKS: matching a continuous price against a
+# dated contract's price cannot, on its own, separate "same contract" from "the
+# resolver collapsed everything onto one series". It is only informative once a
+# NEGATIVE CONTROL shows different months returning different values — which is
+# L386's mandatory half. `contract_probe()` below runs that control and refuses
+# to answer without it; the free path never price-matches.
+#
+# ⚠️ THAT SENTENCE WAS FALSE WHEN FIRST WRITTEN (2026-09-14, caught on independent
+# review): it described a function that did not exist anywhere in the repo, in the
+# exact place a reader checks whether the control is mechanized. The acceptance
+# doc recorded the control being run BY HAND, in a markdown table; nothing in the
+# shipped tool re-ran it. `[[finding_record_of_an_action_is_not_the_action]]`.
+# The function below is the repair -- written, not promised.
+# ---------------------------------------------------------------------------
+
+_MONTH_NAMES = ("jan", "feb", "mar", "apr", "may", "jun",
+                "jul", "aug", "sep", "oct", "nov", "dec")
+
+# Two name formats observed, both live: "Crude Oil Oct 26" and "Corn Futures,Dec-2026".
+_NAME_MONTH_RE = re.compile(
+    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[\s\-,]+((?:19|20)?\d{2})\b",
+    re.IGNORECASE,
+)
+
+
+_BARE_DATED_RE = re.compile(r"^[A-Z]{1,3}[FGHJKMNQUVXZ]\d{2}$")
+
+
+def _is_bare_dated_contract(sym):
+    """True only for an unsuffixed dated futures symbol (CLX26, HOV26, BZF27).
+
+    Gates the `.NYM` retry. Without it ANY KeyError-raising input retried —
+    observed live: a malformed CLI arg `--no-cache` became `--NO-CACHE.NYM` and
+    generated a second pointless 404. Harmless there, but a retry that fires on
+    inputs it was not designed for is how a fallback reaches a case nobody
+    reasoned about.
+    """
+    return bool(_BARE_DATED_RE.match(str(sym).upper()))
+
+
+def contract_identity(metadata):
+    """Resolve a futures contract's delivery month from vendor metadata.
+
+    Returns (label, basis). `label` is 'Nov 2026' or None; `basis` always says
+    how the answer was reached, including why it could not be. Never guesses:
+    an unreadable name yields (None, 'name-carries-no-month:<name>') so the
+    caller can print UNKNOWN with a reason rather than a blank or a default.
+    """
+    if not isinstance(metadata, dict) or not metadata:
+        return None, "no-metadata"
+    # ⛔ DO NOT short-circuit on instrumentType (fixed 2026-09-14 on independent
+    # review). The first version returned "not-a-future" whenever the vendor's
+    # instrumentType was not exactly "FUTURE", and the renderer then skipped the
+    # row entirely -- so `CT=F`, which this vendor labels 'ALTSYMBOL' with a null
+    # shortName, printed with NO contract line at all, indistinguishable from an
+    # equity. That passed the letter of "non-futures unaffected" while defeating
+    # "a futures row never renders silent", which is the condition that matters.
+    # Parse the name regardless of label; let the CALLER decide renderability.
+    for field in ("shortName", "longName"):
+        name = metadata.get(field)
+        if not name:
+            continue
+        m = _NAME_MONTH_RE.search(str(name))
+        if m:
+            mon = m.group(1).lower()
+            yr = m.group(2)
+            yr = ("20" + yr) if len(yr) == 2 else yr
+            return f"{mon.capitalize()} {yr}", f"vendor-{field}"
+    nm = metadata.get("shortName") or metadata.get("longName") or ""
+    itype = metadata.get("instrumentType")
+    # 30 chars is the observed truncation width; say so rather than just "no month".
+    if len(str(nm)) >= 30:
+        return None, f"name-truncated-at-{len(str(nm))}:{nm!r}"
+    if not nm:
+        return None, f"vendor-supplied-no-name (instrumentType={itype!r})"
+    return None, f"name-carries-no-month:{nm!r} (instrumentType={itype!r})"
+
+
 def price_fetch(tickers, delta_threshold=0.0):
     """Fetch current prices for a list of tickers with optional delta filtering."""
     import yfinance as yf
@@ -525,8 +637,28 @@ def price_fetch(tickers, delta_threshold=0.0):
     for t in tickers:
         try:
             tk = yf.Ticker(t)
-            info = tk.fast_info
-            curr = float(info["lastPrice"])
+            resolved = t
+            try:
+                info = tk.fast_info
+                curr = float(info["lastPrice"])
+            except KeyError as ke:
+                # A BARE dated contract ("HOX26", "CLX26") raises KeyError
+                # 'currentTradingPeriod' here — an opaque failure that read as
+                # "no such contract". The data exists under the EXCHANGE-SUFFIXED
+                # form. Standing guard ADD#23 (2026-08-31) told the fleet "named
+                # contracts only, until fetch.py is fixed", and for 14 days the
+                # tool could not do what the guard instructed; a desk following it
+                # literally got this error and fell back to the continuous ticker,
+                # which is the exact failure the guard exists to prevent.
+                # ⛔ The retry is NEVER silent: `resolved_symbol` travels in the
+                # result and is printed, so nobody mistakes a NYMEX-suffixed quote
+                # for the symbol they asked for.
+                if "currentTradingPeriod" not in str(ke) or not _is_bare_dated_contract(t):
+                    raise
+                resolved = f"{t}.NYM"
+                tk = yf.Ticker(resolved)
+                info = tk.fast_info
+                curr = float(info["lastPrice"])
             # FX (=X) daily bars are DATE-SHIFTED (yahoo sparse-FX index shift),
             # so regularMarketPreviousClose — which is always the second-to-last
             # daily bar — points at a bar whose close is NOT the prior session's
@@ -558,6 +690,8 @@ def price_fetch(tickers, delta_threshold=0.0):
                 "name": ALL_PRICES.get(t, t),
                 "volume": vol,
             }
+            if resolved != t:
+                results[t]["resolved_symbol"] = resolved
             # Data-date verification: some indices (^MOVE, ^SKEW) publish once
             # daily, so fast_info serves the PRIOR close with no staleness
             # signal. Fail-safe direction: an unverifiable date KEEPS the price
@@ -581,9 +715,29 @@ def price_fetch(tickers, delta_threshold=0.0):
                 results[t]["prev_asof"] = (
                     hist.index[-2].strftime("%Y-%m-%d") if len(hist) >= 2 else None
                 )
-            except Exception:
+                # CONTRACT IDENTITY (2026-09-14). `history_metadata` is populated
+                # by the history call above, so this costs no extra request.
+                # Futures only; label is None with a stated reason when the vendor
+                # will not say (Brent — see contract_identity's header).
+                md = getattr(tk, "history_metadata", None)
+                lab, basis = contract_identity(md)
+                results[t]["contract_month"] = lab
+                results[t]["contract_basis"] = basis
+                results[t]["instrument_type"] = (md or {}).get("instrumentType")
+            except Exception as he:
                 results[t]["asof"] = None
                 results[t]["prev_asof"] = None
+                # ⛔ THESE THREE LINES ARE THE FIX (2026-09-14, independent review).
+                # Without them a live history() failure left the contract keys
+                # ABSENT, and the renderer's absent-key branch reports "cached
+                # before 2026-09-14 — re-pull with --no-cache". On a FRESH pull
+                # that cause is false and the remedy is inert: the reader
+                # concludes stale-cache artifact and uses the price anyway. Key
+                # absent must mean ONE thing — a pre-fix cache entry — so every
+                # live path sets it, including the failing one.
+                results[t]["contract_month"] = None
+                results[t]["contract_basis"] = f"metadata-unavailable:{type(he).__name__}"
+                results[t]["instrument_type"] = None
         except Exception as e:
             results[t] = {"error": str(e), "name": ALL_PRICES.get(t, t)}
 
@@ -683,6 +837,81 @@ def price_history(tickers, days=30):
 # Display — Text
 # ---------------------------------------------------------------------------
 
+_MONTH_CODE = {1:"F",2:"G",3:"H",4:"J",5:"K",6:"M",7:"N",8:"Q",9:"U",10:"V",11:"X",12:"Z"}
+
+
+def contract_probe(root, horizon=5, exchange="NYM"):
+    """Which dated contract is a continuous ticker tracking? WITH the control.
+
+    For roots whose vendor name carries the month (CL, HO, RB, ...) you never need
+    this -- `contract_identity` answers for free. It exists for the case that has
+    no free answer: BRENT, whose shortName truncates identically for every month.
+
+    Method, and the order matters:
+      1. Fetch `horizon` dated contracts ahead.
+      2. ⛔ NEGATIVE CONTROL FIRST (L386's mandatory half): the candidates must
+         return DISTINCT prices. If two or more agree, the resolver may be
+         collapsing months onto one series and a price match proves nothing --
+         REFUSE, do not answer.
+      3. Only then, match the continuous price. Exactly one match => identified.
+         Zero or several => refuse, and say which.
+
+    Returns a dict always carrying `verdict`: IDENTIFIED | REFUSED-<reason>.
+    Never guesses. Costs `horizon`+1 network calls, which is why the free path
+    does not call it.
+    """
+    import yfinance as yf
+    root = str(root).upper().replace("=F", "")
+    cont = f"{root}=F"
+    try:
+        cmd = yf.Ticker(cont).history_metadata
+        cont_px = cmd.get("regularMarketPrice")
+    except Exception as e:
+        return {"verdict": f"REFUSED-continuous-unreadable:{type(e).__name__}", "root": root}
+    if cont_px is None:
+        return {"verdict": "REFUSED-continuous-has-no-price", "root": root}
+
+    now = time.localtime()
+    cands = {}
+    y, m = now.tm_year, now.tm_mon
+    for _ in range(max(1, int(horizon))):
+        sym = f"{root}{_MONTH_CODE[m]}{str(y)[-2:]}.{exchange}"
+        try:
+            px = yf.Ticker(sym).history_metadata.get("regularMarketPrice")
+        except Exception:
+            px = None
+        if px is not None:
+            cands[sym] = round(float(px), 4)
+        m += 1
+        if m > 12:
+            m, y = 1, y + 1
+
+    if len(cands) < 2:
+        return {"verdict": "REFUSED-too-few-candidates-for-a-control",
+                "root": root, "continuous_price": cont_px, "candidates": cands}
+    if len(set(cands.values())) != len(cands):
+        # Two dated months quoting the same price: cannot distinguish a real
+        # resolution from a resolver that collapses everything onto one series.
+        return {"verdict": "REFUSED-negative-control-failed-duplicate-prices",
+                "root": root, "continuous_price": cont_px, "candidates": cands}
+
+    hits = [k for k, v in cands.items() if abs(v - float(cont_px)) < 1e-6]
+    if len(hits) == 1:
+        return {"verdict": "IDENTIFIED", "root": root, "continuous": cont,
+                "tracking": hits[0], "continuous_price": cont_px,
+                "candidates": cands, "control": "passed-distinct-prices"}
+    return {"verdict": f"REFUSED-{'no' if not hits else 'multiple'}-price-match",
+            "root": root, "continuous_price": cont_px, "candidates": cands}
+
+
+def _looks_like_future(ticker):
+    """Cheap syntactic check used ONLY to decide whether a MISSING identity field
+    deserves a warning line. Never used to assert a month — that is
+    contract_identity's job, from vendor data (acceptance condition 3)."""
+    t = str(ticker).upper()
+    return t.endswith("=F") or t.endswith(".NYM") or t.endswith(".CME") or t.endswith(".ICE")
+
+
 def display_prices(results, labels=None):
     # Volume is the LAST column (added 2026-09-11): the rendered table is a parser contract for consumers
     # (PAT-069) — Ticker · Name · Price · Change · As-of keep their positions; a trailing column is additive.
@@ -702,6 +931,30 @@ def display_prices(results, labels=None):
         vol = d.get("volume")  # cached dicts from before 2026-09-11 carry no volume key
         vs = f"{vol:,}" if isinstance(vol, int) else "—"
         print(f" {t:<10} {name:<22} {p:>10} {chg:>10} {stamp:>18} {vs:>13}")
+        # CONTRACT line (2026-09-14, additive — the columns above are a parser
+        # contract, PAT-069, and none moved). Printed for FUTURES ONLY, so
+        # equities/indices/FX render exactly as before. A futures row that
+        # cannot state its month says UNKNOWN and why: silence would read as
+        # "no roll hazard here", which is the failure this exists to stop.
+        # ⚠️ "contract_basis" absent = a pre-2026-09-14 CACHE entry, not a
+        # vendor silence. Those are different facts and must not render alike.
+        # Renderability is decided by the TICKER or the VENDOR'S OWN TYPE — never
+        # by whether identity parsing succeeded. Deciding it from `contract_basis`
+        # meant a futures row the vendor mislabels (CT=F -> 'ALTSYMBOL', null
+        # shortName) rendered SILENT, identical to an equity, which is exactly the
+        # "no roll hazard here" reading this line exists to prevent.
+        itype = str(d.get("instrument_type") or "").upper()
+        is_future = _looks_like_future(t) or itype.startswith("FUTURE")
+        if is_future:
+            if "contract_basis" in d:
+                month = d.get("contract_month")
+                shown = month if month else f"UNKNOWN ({d['contract_basis']})"
+                extra = f"  [resolved as {d['resolved_symbol']}]" if d.get("resolved_symbol") else ""
+                print(f" {'':<10} └─ contract: {shown}{extra}")
+            else:
+                # Key ABSENT now means exactly one thing: an entry cached before
+                # this field existed. Every live path sets it, success or failure.
+                print(f" {'':<10} └─ contract: UNRESOLVED (entry cached before 2026-09-14 — clear .cache to re-pull)")
 
 
 def display_fred(series_id, label, obs):
