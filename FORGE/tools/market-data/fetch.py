@@ -1108,6 +1108,24 @@ def contract_probe(root, horizon=5, exchange="NYM"):
               f"passed-distinct-prices-but-stale-candidates:{stale}"
 
     hits = [k for k, v in cands.items() if abs(v - cont_px) < 1e-6]
+    # ⛔⛔ STALENESS OF THE **MATCHED** LEG WITHHOLDS; STALENESS OF ANY OTHER LEG IS
+    # ADVISORY. The first version conflated them and returned IDENTIFIED with the
+    # matched leg arbitrarily stale -- an external reviewer reproduced it with an
+    # isolated fixture at 10,000 s and I reproduced that here before changing
+    # anything.
+    # THE DISTINCTION, which is the whole of it: a match between the continuous's
+    # CURRENT price and a candidate's price from hours ago is a COINCIDENCE CLAIM,
+    # not an identification -- the two sides were never observed at compatible
+    # times. A stale NON-matched back month only weakens the control set; the
+    # match itself was still struck on fresh data.
+    # ⚠️ This also shrinks what STALE_S decides, in the right direction: the front
+    # month tracks the continuous and is normally fresh (BZX26 age 0 live), so a
+    # tighter threshold does NOT make Brent refuse on a quiet afternoon -- it bites
+    # only when the FRONT month itself goes stale, which is rarer and means more.
+    if len(hits) == 1 and hits[0] in stale:
+        return dict(base, verdict="REFUSED-match-on-stale-candidate",
+                    would_have_matched=hits[0], control=control, retryable=True,
+                    matched_leg_age_s=ages.get(hits[0]))
     if len(hits) == 1:
         # ⚠️21: two independent answers to one question, previously never joined.
         # The free name-parse and this price-match reach a contract by COMPLETELY
