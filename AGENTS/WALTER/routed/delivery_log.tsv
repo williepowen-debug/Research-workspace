@@ -2740,3 +2740,14 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-14T17:58:34Z	SIG-W-20260914-013	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
 2026-09-14T17:58:34Z	SIG-W-20260914-013	VIOLET	info	claude-code	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-013.md	written_not_delivered_pending_push	
 2026-09-14T17:58:34Z	SIG-W-20260914-013	HENRY	info	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-013.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	BOND	action	claude-code	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	RED	action	claude-code	PRIORITY	AGENTS/RED/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	3.5.8(a) action ask to exempt desk
+2026-09-14T17:59:42Z	SIG-W-20260914-014	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	HENRY	info	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	VIOLET	info	claude-code	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	REGINALD	info	claude-code	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	SAM	info	claude-code	PRIORITY	AGENTS/SAM/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	MIDAS	info	claude-code	PRIORITY	AGENTS/MIDAS/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	
+2026-09-14T17:59:42Z	SIG-W-20260914-014	TERRY	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:59:42Z	SIG-W-20260914-014	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:59:42Z	SIG-W-20260914-014	BROCK	info	claude-code	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260914-014.md	written_not_delivered_pending_push	

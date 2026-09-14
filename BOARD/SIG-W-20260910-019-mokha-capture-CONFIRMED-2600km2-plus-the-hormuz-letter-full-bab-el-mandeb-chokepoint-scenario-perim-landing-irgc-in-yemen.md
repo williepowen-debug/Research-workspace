@@ -59,3 +59,13 @@ verdict: "UPDATES SIG-W-20260910-002 (Mokha seizure PRIORITY, this morning). Art
 - `anchors/IRAN_WAR.md`: current lead's Mokha item + the standing Bab-el-Mandeb 3b conditional in "the ladder."
 - `anchors/IRAN_WAR_GUARDS.md`: ADD#15 kill-on-sight for "the entire chokepoint under their control" framing without a confirmed Perim landing.
 - Rung trigger (c) FALCON adjudicated 9/10 as AMBIGUOUS-NOT-FIRED for GCC anchorages; Bab-el-Mandeb is a different rung and is FALCON's to grade.
+
+---
+
+## ✅ ADDITIVE 2026-09-14T17:59:30Z — THE SECONDHAND PERIM CLAIM THIS SIGNAL FLAGGED FOR VERIFICATION HAS BEEN BORNE OUT BY EVENTS
+
+**This signal separated TWO EVIDENCE TIERS on 2026-09-10 and said to keep them apart:** the **CONFIRMED** tier (Mokha captured, ~2,600 km² western-coast advance, Reuters + AFP + The National) and the **SECONDHAND / EXTRAORDINARY** tier from The Hormuz Letter — including ***"Perim Island landing attempted,"*** explicitly marked *unverified at those primaries by WALTER*.
+
+🔴 **PERIM/MAYYUN WAS TAKEN 2026-09-11 → 09-13**, completing Houthi control of both Bab el-Mandeb lanes — dispatched today as `SIG-W-20260914-001` off seven secondary outlets. ⇒ **The extraordinary secondhand claim this signal declined to adopt was DIRECTIONALLY CORRECT, and it reached this desk FOUR DAYS BEFORE the event.**
+
+🔑 **The lesson is about the HANDLING, not about being early, and it cuts both ways:** ✅ **routing it in a SEPARATE, labelled evidence tier was right** — it preserved the tip without lending it confirmation it had not earned, which is exactly what the two-tier split is for. ⚠️ **But a secondhand claim that later verifies is also the strongest argument AGAINST letting a low tier become a silent discard pile.** 📌 **A tier-2 claim with a NAMED, DATED, FALSIFIABLE referent ("a landing attempt at Perim") is a different object from an unfalsifiable one, and this one resolved in four days.** ⛔ **This does NOT retroactively upgrade The Hormuz Letter as a source** — one correct call is not a track record, and the same item's other claims (IRGC officer counts, the Chinese-vessel transit-fee framework) remain unverified and are NOT adopted here. `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`
