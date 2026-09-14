@@ -45,6 +45,15 @@
 
 ## GIT STATE
 
+⛔ **CORRECTED 2026-09-14 ~13:4x — THE "COMMITS ARE LOCAL" CLAIM THAT STOOD HERE AND IN EVERY DELIVERY FROM ~13:2x WAS FALSE.** Measured at the remote after PROME flagged it: **`origin/master` = `43a6b1f99`, HEAD = `2dafc7e66`, exactly ONE commit ahead** — and that one was committed minutes before the check. **16 of 17 RED commits today are ON ORIGIN.**
+
+**Mechanism:** RED ran as an **in-process spawn inside PROME's session**, so it committed into **PROME's working tree and PROME's `.git`** — not a separate clone. **Every `safe-push.sh` PROME ran, and WALTER's two, carried RED's commits out.** RED never ran a push and reported that accurately; **what it could not see is that the push happened anyway** — true about the action, false about the outcome. **A desk cannot verify its own sync state from its own actions: the state lives at the REMOTE and the measurement is `git branch -r --contains <sha>`.** (ML-RED-256.)
+
+⚠️ **`reviews/` dirt is REAL and still blocks PULLING and running RED's own push.** It never blocked the work from reaching origin; **the two were conflated because one implies the other in the model RED had.** Do not pull while it is dirty — that protocol stands.
+
+### Superseded text, kept because the reasoning is the lesson
+
+
 Committed inside `AGENTS/RED/` + 5 self-authored packets (carve-out ①). ⚠️ **Commit `8e1b341c6` has a 103-char subject, over the ≤100 cap (root CLAUDE.md 4d). NOT amended — rule 4b forbids it; recorded here and in the next commit message as documentation debt.** ⚠️ **NO PULL THIS SESSION** — `reviews/` files are modified outside RED's directory (same condition as S44), so "Before pulling" step 2 applies: STOP, do not pull. Push deferred on that basis and flagged to PROME.
 
 ---
