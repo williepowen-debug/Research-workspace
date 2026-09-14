@@ -62,6 +62,7 @@ Usage:
     python3 scripts/pipeline_rc_guard.py --explain "<a shell command>"    # ad hoc check
 """
 import json
+import os
 import re
 import sys
 
@@ -155,8 +156,27 @@ THREE_STATE_TOKENS = (
 # make the recogniser PRECISE, never to relax the severity). So it is a function, not a regex: the
 # segment that precedes `||` must INVOKE the tool, which means the token is preceded by an
 # interpreter or a path separator and is not sitting inside quotes.
-_INVOKED = r"(?:^|[;&|(]\s*|\b(?:python3?|bash|sh|exec|command|time)\s+|[./])"
-_TOOL_IN_CMD_POSITION = re.compile(rf"{_INVOKED}[\w/.-]*(?:{THREE_STATE_TOKENS})", re.I)
+# ⛔ THE TOOL MUST BE THE SEGMENT'S **COMMAND WORD**, not merely path-qualified somewhere in it.
+# ⚠️ REWRITTEN 2026-09-14 after an INDEPENDENT ADVERSARIAL REVIEW broke the first cut with 14 of 14
+# innocent commands. That cut allowed `[./]` as a command-position marker, so ANY path-qualified
+# MENTION counted — defeating, in one character class, the rule stated directly above it in
+# capitals. Every one of these fired:
+#     ls -la scripts/read_cap_check.py || echo missing
+#     [ -f scripts/read_cap_check.py ] || exit 1
+#     git show HEAD:scripts/read_cap_check.py > /tmp/old.py || echo fail
+#     cp scripts/read_cap_check.py /tmp/ || echo copyfail
+# Isolated mechanism: `ls read_cap_check.py || x` did NOT fire, `ls scripts/read_cap_check.py || x`
+# DID — the only difference a slash. ⛔ And my own "name as an argument" drill passed ONLY because
+# it QUOTED the name; drop the quotes, which is the ordinary form, and it fires.
+# `[ -f <tool> ] || exit 1` is a preflight any runner contains and `git show HEAD:<tool>` is
+# something THIS SESSION typed — a guard that fires on those is noise inside an hour.
+# ⚠️ The inherited 0.00% FP figure did NOT transfer: re-measured over 855 committed `||`/`if !`
+# lines it showed 8 hits, but that corpus contains almost no `||`-beside-a-tool-PATH lines and is
+# blind to this class by construction — PAT-083, the same caveat the pipeline census carries.
+# ⇒ PARSE the segment rather than pattern-match it: strip env assignments, take the COMMAND WORD.
+_INTERPRETERS = ("python3", "python", "bash", "sh", "zsh", "exec", "command", "time", "source", ".")
+_ENV_ASSIGN = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*=")
+_TOOL_RE = re.compile(THREE_STATE_TOKENS, re.I)
 
 
 def _quoted(seg, pos):
@@ -164,18 +184,60 @@ def _quoted(seg, pos):
     return seg.count('"', 0, pos) % 2 == 1 or seg.count("'", 0, pos) % 2 == 1
 
 
-def _invokes_three_state(seg):
-    """The tool name this SEGMENT actually invokes, or None. A name inside quotes is an argument."""
-    for m in _TOOL_IN_CMD_POSITION.finditer(seg):
-        if not _quoted(seg, m.start()):
-            return re.search(THREE_STATE_TOKENS, m.group(0), re.I).group(0)
+def _command_word_tool(seg):
+    """The three-state tool this SEGMENT INVOKES, or None.
+
+    INVOKED means: the tool is the segment's command word (`./verify_push.sh`, `verify_push.sh`),
+    or the first non-flag argument of an interpreter (`bash verify_push.sh`, `python3 x/tool.py`).
+    A tool appearing anywhere else is an ARGUMENT — `ls`, `cat`, `git show`, `cp`, `[ -f … ]` —
+    and is NOT an invocation."""
+    raw = seg.strip()
+    toks = [t for t in raw.split() if t]
+    while toks and _ENV_ASSIGN.match(toks[0]):
+        toks.pop(0)
+    if not toks:
+        return None
+    head = toks[0].lstrip("(")
+    cands = [head]
+    if head in _INTERPRETERS or os.path.basename(head) in _INTERPRETERS:
+        for t in toks[1:]:
+            if not t.startswith("-"):
+                cands.append(t)
+                break
+    for c in cands:
+        if c.startswith(("'", '"')):
+            continue                       # a quoted command word is a literal, not an invocation
+        pos = raw.find(c)
+        if pos >= 0 and _quoted(raw, pos):
+            continue
+        m = _TOOL_RE.search(c)
+        if m:
+            return m.group(0)
     return None
 
 
-# The author already knows if they name the states or capture the code for later comparison.
+def _segments_before(cmd, sep_re):
+    """Each segment IMMEDIATELY preceding an occurrence of `sep_re`.
+
+    ⛔ Split on `;`, `&&` and a single `|` — NEVER on a bare `&`: `2>&1` would cut the segment down
+    to the string `1`. This file's other recogniser carries that warning from its own v1; I read it
+    and wrote the bug anyway, and only a drill on the VERBATIM instance caught it."""
+    return [re.split(r";|&&|(?<!\|)\|(?!\|)", part)[-1] for part in re.split(sep_re, cmd)[:-1]]
+
+
+# The author already knows if they NAME THE STATES or capture the code for later comparison.
+# ⛔ `CANNOT` WAS REMOVED FROM THIS ALLOWLIST 2026-09-14 (adversarial review F3, mechanism 2). The
+# bare word exempted any caller who MENTIONED "CANNOT-CERTIFY" in an error string while still
+# collapsing both states — `tool || echo "CANNOT-CERTIFY: it failed"` went clean. **Naming a state
+# in a message is not branching on it**, which is this guard's entire thesis, inverted by its own
+# allowlist. Only a construct that TESTS a state earns the exemption.
 THREE_STATE_SAFE = re.compile(
     r"-eq\s*2|==\s*2|!=\s*2|returncode\s*==|\brc\s*=\s*\$\?|case\s+\$\?|"
-    r"CANNOT|PIPESTATUS|pipefail", re.I)
+    r"PIPESTATUS|pipefail", re.I)
+# A two-valued COMPARISON on `$?` — merges rc 1 and rc 2 into one branch exactly as `||` does.
+_TWO_VALUED_RC_TEST = re.compile(
+    r"\[\[?\s*\$\?\s*(?:-ne|-gt|!=|>)\s*0|\(\(\s*\$\?\s*\)\)|"
+    r"test\s+\$\?\s*(?:-ne|-gt)\s*0")
 
 
 def diagnose(cmd):
@@ -217,25 +279,26 @@ def _diagnose_three_state(cmd):
     if THREE_STATE_SAFE.search(cmd):
         return False, ""
     tool = None
-    # `||` — the verdict-consuming idiom. Only the segment IMMEDIATELY left of it matters.
-    for i, part in enumerate(re.split(r"\|\|", cmd)[:-1]):
-        # ⛔ SPLIT ON `;`, `&&` AND A SINGLE `|` — **NEVER ON A BARE `&`**. This file's OTHER
-        # recogniser carries the same warning from its own v1, which used `[^|;&\n]*` and missed
-        # BOTH real instances because each carried `2>&1`. I read that comment and wrote the bug
-        # anyway: my first cut split on `[;&]{1,2}`, so `bash verify_push.sh "$s" >/dev/null 2>&1`
-        # was cut at the `&` of `2>&1` and the segment became the string `1`. THIRD occurrence of
-        # this trap in this file, the second by the author of the warning.
-        # `[[finding_naming_a_caveat_can_substitute_for_fixing_it]]` — reading a hazard note is not
-        # the same act as applying it, and the note was four lines above the code I wrote.
-        seg = re.split(r";|&&|(?<!\|)\|(?!\|)", part)[-1]
-        tool = _invokes_three_state(seg)
+    # (1) `||` — the verdict-consuming idiom. Only the segment IMMEDIATELY left of it counts.
+    for seg in _segments_before(cmd, r"\|\|"):
+        tool = _command_word_tool(seg)
         if tool:
             break
+    # (2) `if ! <tool>` — negation is two-valued in exactly the same way.
     if not tool:
-        # `if ! <tool>` — negation is two-valued in exactly the same way.
         m = re.search(r"if\s*!\s*([^\n;]*)", cmd)
         if m:
-            tool = _invokes_three_state(m.group(1))
+            tool = _command_word_tool(re.split(r";|&&", m.group(1))[0])
+    # (3) `<tool>; [ $? -ne 0 ]` / `(( $? ))` / `test $? -gt 0` — ADDED 2026-09-14 off the same
+    # adversarial review (F3). This is the MOST IDIOMATIC way the collapse is written and NEITHER
+    # recogniser could see it: recogniser 1 needs a pipe-into-a-pager, recogniser 2 needed `||`.
+    # A two-valued COMPARISON on `$?` merges rc 1 and rc 2 exactly as `||` does.
+    if not tool and _TWO_VALUED_RC_TEST.search(cmd):
+        for seg in re.split(r";|&&|\n", cmd):
+            t = _command_word_tool(seg)
+            if t:
+                tool = t
+                break
     if not tool:
         return False, ""
     return True, (
@@ -328,6 +391,48 @@ def selftest():
         ('make build || echo "build failed"', False,
          "CLEAN — an ordinary two-valued command; firing here would kill the guard's credibility"),
         ('rm -f /tmp/x || true', False, "CLEAN — the commonest shell idiom there is"),
+
+        # ── F2 REGRESSION SET — the 14 innocent commands an INDEPENDENT ADVERSARIAL REVIEWER used
+        # to break recogniser 2's first cut (2026-09-14). Every one fired then; every one must be
+        # silent now. They are kept VERBATIM as the reviewer wrote them: a counterexample rewritten
+        # in the author's own idiom stops being the reviewer's test.
+        # ⛔ The mechanism was `[./]` in the command-position regex — ANY path-qualified mention
+        # counted. My own "name as an argument" drill above passed ONLY because it quoted.
+        ('ls -la scripts/read_cap_check.py || echo missing', False, "F2 — `ls` is the command word"),
+        ('cat scripts/validate_all.py || echo nope', False, "F2 — `cat`"),
+        ('wc -l scripts/read_cap_check.py || true', False, "F2 — `wc`"),
+        ('test -f scripts/validate_all.py || echo absent', False, "F2 — `test -f`"),
+        ('[ -f scripts/read_cap_check.py ] || exit 1', False, "F2 — a preflight any runner contains"),
+        ('git show HEAD:scripts/read_cap_check.py > /tmp/old.py || echo fail', False,
+         "F2 — and THIS SESSION typed exactly this to fetch the pre-fix code"),
+        ('git log --oneline -- scripts/validate_all.py || true', False, "F2 — `git log`"),
+        ('cp scripts/read_cap_check.py /tmp/ || echo copyfail', False, "F2 — `cp`"),
+        ('rm -f /tmp/read_cap_check.py || true', False, "F2 — `rm`"),
+        ('diff scripts/validate_all.py /tmp/validate_all.py || echo differs', False, "F2 — `diff`"),
+        ('head -20 scripts/ledger_staleness.py || true', False, "F2 — `head`"),
+        ('if ! [ -f scripts/read_cap_check.py ]; then echo missing; fi', False, "F2 — `if ! [ -f`"),
+        ('if ! grep -q foo scripts/validate_all.py; then echo no; fi', False, "F2 — `if ! grep`"),
+        ('mkdir -p out && cp scripts/orch_log.py out/ || echo nope', False, "F2 — `cp` after `&&`"),
+        # …and the UNQUOTED form of my own argument drill, which is the ordinary way it is typed.
+        ('grep -n verify_push AGENTS/DAEDALUS/runs/x.md || true', False,
+         "F2 — the drill above passed only because it QUOTED; unquoted must stay silent too"),
+
+        # ── F3 COVERAGE SET — genuine collapses recogniser 2's first cut MISSED. The `$?`
+        # two-valued COMPARISON is the most idiomatic form of this defect in the language and
+        # neither recogniser could see it.
+        ('python3 scripts/read_cap_check.py --fleet; if [ $? -ne 0 ]; then echo BAD; fi', True,
+         "F3 — `[ $? -ne 0 ]` merges rc 1 and rc 2"),
+        ('python3 scripts/validate_all.py; if (( $? )); then echo bad; fi', True,
+         "F3 — arithmetic truthiness on $?"),
+        ('python3 scripts/read_cap_check.py --fleet > /dev/null; test $? -gt 0 && echo bad', True,
+         "F3 — `test $? -gt 0`"),
+        ('python3 scripts/validate_all.py || echo "CANNOT-CERTIFY: it failed"', True,
+         "F3 — MENTIONING a state is not BRANCHING on it; the bare-CANNOT allowlist exempted this"),
+        # …and the correct forms must still be exempt.
+        ('python3 scripts/read_cap_check.py --fleet; if [ $? -eq 2 ]; then echo CANNOT; fi', False,
+         "CLEAN — `-eq 2` names the state; that is the whole fix"),
+        ('python3 scripts/validate_all.py; rc=$?; case $rc in 0|1|2) ;; esac', False,
+         "CLEAN — captured and cased"),
     ]
     fails = []
     for cmd, want, label in cases:

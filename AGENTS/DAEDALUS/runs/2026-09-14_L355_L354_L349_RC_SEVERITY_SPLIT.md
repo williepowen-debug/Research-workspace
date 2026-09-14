@@ -195,3 +195,120 @@ that shape is a CONTRADICTION, correctly; the drills were re-cut to emit rc 1, w
   the drills; it is uncovered and would need a repo lint. (c) The `THREE_STATE_TOKENS` list is derived by a
   rerunnable command, not self-maintaining — a tool that gains an rc 2 and is not added is a dormant leg.
   Re-run at each Wiring Sweep.
+
+---
+
+## 5. INDEPENDENT ADVERSARIAL REVIEW (WQ-229) — **IT BROKE TWO OF MY SIX CLAIMS, WITH REPRODUCTIONS**
+
+Commissioned before I called anything fixed, with the instruction *not* to re-run my tests but to devise its
+own counterexamples. It built its probes in tempdirs and stub children; **nothing in the live checkout was
+mutated.** Result: **claims 3 and 6 BROKEN · claims 1 and 4 broken in narrower latent ways · claims 2 and 5
+held against everything it threw at them.** This is the WQ-229 "consequential repair" gate doing its job, and
+it found things my own 36 drills structurally could not.
+
+### 🔴 F1 — HIGH, FIXED. My repair made `--rebaseline` write the WRONG NUMBER, in the SILENT-GREEN direction
+
+`classify_read_cap` returned `value = defects` in the defect branch and `None` in every CANNOT branch;
+`main(--rebaseline)` writes `r.count` into `scripts/validate_all_baseline.json` unconditionally. Measured
+end-to-end on a stub:
+
+| child | OLD wrote | MY NEW CODE wrote | truth |
+|---|---:|---:|---:|
+| backlog 6 + **12 manifest-defect desks** | 6 | **12** | 6 |
+| rc 2, unreadable manifest | 0 | **`None`** | (must refuse) |
+
+⇒ With a baseline of 12, **the backlog could grow 6 → 12 with no flip.** With `None`, the delta gate is
+disabled outright — the reviewer measured `99/37 desks over budget → ADVISORY rc 0` instead of FINDINGS rc 1.
+⚠️ **And `--rebaseline` is registered at `CHECKS.tsv:41` as D1's OWN remediation path**, so it runs precisely
+when someone has just seen a red line — exactly when the leg is least likely to be measuring.
+⛔ **The old code failed LOUD here (wrote 0, over-flagging); mine failed SILENT.**
+`finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction`, introduced BY the repair.
+
+**FIXED, both halves:** `count` is now always the backlog level `over_b` in every cell; and `--rebaseline`
+**REFUSES** to write from a leg that is not in a measuring state, prints why, and leaves the previous baseline
+standing. Verified end-to-end: `rc 2 child → REFUSED, baseline stays 6`; `defect child → writes 6, not 12`.
+
+⭐ **Why my suite could not see it, which is the more useful half: all 36 drills asserted `state` and `verdict`
+and NOT ONE asserted `r.count`** — so the value the baseline file receives was never tested.
+`finding_test_the_guard_not_just_the_guarded`, on my own suite. **Two drills added.**
+
+### 🔴 F2 — HIGH, FIXED. The guard fired on **14 of 14 innocent commands**
+
+`_INVOKED` allowed `[./]` as a command-position marker, so ANY path-qualified MENTION counted — defeating, in
+one character class, the rule stated above it in capitals. `ls -la scripts/read_cap_check.py || echo missing`
+fired. So did `[ -f scripts/read_cap_check.py ] || exit 1` (a preflight any runner contains) and
+`git show HEAD:scripts/read_cap_check.py > /tmp/old.py || echo fail` — **which is what THIS SESSION typed to
+fetch the pre-fix code.** Isolated: `ls read_cap_check.py || x` silent, `ls scripts/read_cap_check.py || x`
+fires; the only difference is a slash.
+
+⛔ **And my own "name as an argument" drill passed ONLY because it QUOTED the name.** Unquoted — the ordinary
+form — it fires. A drill whose pass depends on an incidental quoting choice is not testing the class.
+
+**FIXED:** the recogniser now PARSES the segment instead of pattern-matching it — strip env assignments, take
+the **command word**, and require the tool to BE that word or be an interpreter's first non-flag argument.
+**All 14 reviewer commands are kept VERBATIM as drills** (a counterexample rewritten in the author's idiom
+stops being the reviewer's test). **FP re-measured: 966 candidate lines → 2 hits, BOTH true positives** (the
+documented 9/12 instance and the guard's own fixture); the 4 prose/TSV false positives are gone.
+
+### 🟠 F3 — PARTIALLY FIXED, and the rest is declared
+
+The guard missed the **most idiomatic form of the defect in the language**: a two-valued COMPARISON on `$?`
+(`[ $? -ne 0 ]`, `(( $? ))`, `test $? -gt 0`). Neither recogniser could see it — the first needs a
+pipe-into-a-pager, the second needed `||`. **Added as recogniser leg (3), with drills.**
+⛔ **And `THREE_STATE_SAFE` matched the bare word `CANNOT`**, exempting any caller who MENTIONED
+"CANNOT-CERTIFY" in an error string while still collapsing both states. **Naming a state in a message is not
+branching on it — this guard's entire thesis, inverted by its own allowlist.** Removed; drilled both ways.
+**STILL UNFIXED and declared:** `bash -c '…'` wrappers (quote-suppressed) and `cmd | tail -5 || echo FAILED`,
+which both recognisers miss and which is *worse* than the form the guard was built for — there the `||` is
+real control flow acting on `tail`'s always-0 status, so the alarm can never fire at all.
+
+### 🔴 F4 — NOT A CODE DEFECT: **A FALSE MEASUREMENT IN MY OWN COMMIT BODY AND STATUS. CORRECTED BELOW.**
+
+### 🟡 F5–F10 — DECLARED RESIDUE, not fixed this session
+
+- **F5** — on the rc-2 **quiet** fleet path, `check_agent` returns `(2, None)` before any typed problem reaches
+  the caller and prints nothing, so `desks_with_manifest_defect=0` **while a manifest defect exists**. rc 2 →
+  CANNOT, so not a false green — but **"advisories are never silently dropped" does not hold**, and that count
+  on the reason line is not merely unearned, it is *wrong*. ⭐ **The L355 shape, one level up, inside the fix
+  for L355.**
+- **F6** — `assessed` gates per-RUN, not per-DESK: a desk whose declared reads are all CLASS/RETIRED/scoped
+  rows prints ✅ with `assessed=1 reads=0` and **inflates the fleet denominator**. Wants `measured=`.
+- **F7** — one `cant` desk sends the whole fleet to rc 2, discarding the backlog figure; the R7 stage-2
+  onboarding path walks through that state between two commits. Pre-existing; my mapping locks it in.
+- **F8** — the reason line is unescaped: a desk name containing `=` injects keys. Not reachable from `--fleet`.
+- **F9** — `--agent` with no value raises `IndexError` at **rc 1**, the dangerous direction, and emits no
+  reason line; `--selftest` and the legacy FILE mode emit none either, so the "last line" contract is an
+  `--agent`/`--fleet` contract, not a tool contract, and the docstring should say so.
+- **F10** — under `PYTHONIOENCODING=ascii` the suite computes verdict 2 and then **exits 1** when `report()`
+  dies on its own em-dash. A suite whose subject is rc contracts misreporting its own rc.
+- Dead `RC_FLEET_RE` remains defined — "a loaded gun for the next editor."
+
+**All booked to the 9/18 pass.** ⚠️ **F5 and F7 are the two that matter** and they are the same shape as the
+defect this session repaired: a state reached before the reason channel is populated.
+
+---
+
+## 6. ⛔ CORRECTION — F4: MY OWN JUSTIFYING MEASUREMENT WAS STALE AT COMMIT TIME
+
+**What I wrote** (commit `c7d0b6739` body, this record §3b, and the STATUS header): *"the live case,
+`AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv`, is **30,691 B = 94% of budget — 🟡, rc 0**."*
+
+**What was true when I committed it:** RED's `882fffeb5` landed at **13:06 today** and cut that file to
+**15,523 B = 48% of budget — ✅**. My commit was **13:09**. Verified three ways: the live `--agent WALTER`
+line; `git show c7d0b6739^:<path> | wc -c` → **15523**; and `generated_flagged=0` across all 37 desks.
+
+⇒ **The tier-widening is still CORRECT — a 🟡 generated file handed the word `rotate-tier` is a real defect
+class and the branch is right — but its LIVE CASE had evaporated three minutes before I cited it, and the
+branch has NO live instance today. Its only evidence is its own fixture.**
+
+⭐ **The lesson is precise and it is mine: I checked concurrency for C4 and did not re-check it for C7.** I
+explicitly declared "concurrent activity" **N/A** in the neighbour table, then watched TERRY and RED move the
+fleet 5/37 → 6/37 mid-session, correctly refused to use a live diff for C4 *because of that movement* — and
+still quoted a live byte figure for C7 that the same desk had already changed.
+`finding_plausible_stale_value_evades_review` + `finding_write_timestamps_from_the_clock_not_the_narrative`.
+**Declaring a neighbour N/A is a judgement with an expiry, and mine expired inside one session.**
+
+**Status of the L349 claim after correction:** branch **IMPLEMENTED + TESTED against fixtures**;
+**NOT demonstrated on a live instance** — `generated_flagged=0` fleet-wide. ⛔ It must not be reported as
+"caught a live case." **The honest claim is: a defect class RED identified, fixed one tier lower than the row
+described, with no live instance remaining to confirm it against.**

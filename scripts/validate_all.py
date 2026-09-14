@@ -614,13 +614,23 @@ def classify_read_cap(rc, kv, baseline):
             # NOT delta-keyed. The declared asymmetry below covers a SIZE BACKLOG with named owners
             # and dated sittings; a manifest defect is a broken declaration, has no baseline, and
             # its whole signature is that the size counts can read ZERO while it is live.
+            # ⛔ `count` IS ALWAYS THE BACKLOG LEVEL (`over_b`), NEVER the defect count — F1,
+            # independent adversarial review 2026-09-14, and it was MY defect, introduced by this
+            # very repair. `main(--rebaseline)` writes `r.count` into
+            # scripts/validate_all_baseline.json as D1_read_cap_over_budget, unconditionally. With
+            # `defects` returned here, a run with 12 defect desks and a real backlog of 6 wrote a
+            # baseline of 12 — after which THE BACKLOG COULD GROW 6 -> 12 WITH NO FLIP.
+            # ⚠️ The old code failed LOUD here (wrote 0, over-flagging); this failed SILENT.
+            # `finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction`.
+            # The 36 drills never saw it because every one asserts `state` and `verdict` and not
+            # one asserts `r.count` — `finding_test_the_guard_not_just_the_guarded`, on my own suite.
             return (FINDINGS,
                     f"{defects} desk(s) have a MANIFEST DEFECT in PROME/registry/READS.tsv "
                     f"(declared read missing, or a mode outside the vocabulary) — {head}",
                     extra + ["a manifest defect is a defect of the DECLARATION, not of the cap: "
                              "the desk owner fixes the row (or the file). Run "
                              "`python3 scripts/read_cap_check.py --agent <NAME>` for the text."],
-                    defects, None)
+                    over_b, None)
         if not over_b:
             return (CANNOT, "CONTRADICTION: read_cap_check exited 1 and its reason line names no "
                             "defect and no over-budget desk. Failing closed — the child found "
@@ -1167,6 +1177,29 @@ def selftest():
     drill("D1 BOUNDARY reason line missing a required count -> CANNOT-CERTIFY",
           d1_stub(1, IDENT, "READ-CAP-RESULT v1 mode=fleet rc=1 assessed=37"), CANNOT, 2)
 
+    # ── F1 REGRESSION — `count` IS THE BACKLOG LEVEL IN EVERY CELL, never the defect count.
+    # ⛔ Found by an INDEPENDENT ADVERSARIAL REVIEWER, not by this suite, and the reason this suite
+    # missed it is worth more than the fix: all 36 drills asserted `state` and `verdict` and NOT ONE
+    # asserted `r.count` — so the value that `--rebaseline` writes into the baseline file was
+    # untested end to end. `finding_test_the_guard_not_just_the_guarded`, on my own suite.
+    def d1_count(rc, summary, rline, baseline=6):
+        def _run():
+            with tempfile.TemporaryDirectory() as td:
+                root = _fixture_repo(Path(td))
+                body = "import sys\n"
+                for ln in [x for x in (summary, rline) if x is not None]:
+                    body += f"print({ln!r})\n"
+                body += f"sys.exit({rc})\n"
+                _write(root / "scripts" / "read_cap_check.py", body)
+                res, g, e, gs, gn, t = run_suite(root, only={"D1"}, today="2026-09-10",
+                                                 baseline={"D1_read_cap_over_budget": baseline})
+                return f"count={res[0].count}", verdict(res, e, gs), res[0].headline
+        return _run
+    drill("F1: a MANIFEST-DEFECT run reports count = the BACKLOG (6), not the defect count (12)",
+          d1_count(1, SUMMARY.format(ob=6, oc=0), _r(1, ob=6, df=12)), "count=6", 1)
+    drill("F1: a CANNOT run reports count=None and must never be rebaselined from",
+          d1_count(2, IDENT, _r(2, asd=0, ce=37)), "count=None", 2)
+
     # --- D1 unparseable output fails CLOSED (kept: a child emitting neither shape)
     def d1_unparseable():
         with tempfile.TemporaryDirectory() as td:
@@ -1259,12 +1292,31 @@ def main(argv=None):
     rc = verdict(results, expired, gap_state)
 
     if args.rebaseline:
+        # ⛔ A BASELINE IS ONLY WRITTEN FROM A LEG THAT ACTUALLY MEASURED SOMETHING — second half of
+        # the F1 fix (adversarial review 2026-09-14). This loop wrote `r.count` unconditionally, so a
+        # CANNOT-CERTIFY leg (rc 2: unreadable manifest, no reason line, a contradiction) wrote its
+        # `count` of None into the baseline file. `None` then disables the delta gate outright —
+        # `if baseline is not None and over_b > baseline` never fires again — measured: with
+        # baseline None, 99/37 desks over budget returns ADVISORY rc 0 instead of FINDINGS rc 1.
+        # ⚠️ A rebaseline is a REMEDIATION step (CHECKS.tsv:41 registers it as D1's own), so it runs
+        # exactly when someone has just seen a red line — which is exactly when the leg is most
+        # likely NOT to be in a measuring state. Refuse, loudly, and leave the old baseline standing.
+        MEASURING = (PASS, ADVISORY, FINDINGS)
         base = load_baseline(root)
+        refused = []
         for r in results:
-            if r.leg.id == "C2":
-                base["C2_kb_stale_by"] = r.count
-            if r.leg.id == "D1":
-                base["D1_read_cap_over_budget"] = r.count
+            key = {"C2": "C2_kb_stale_by", "D1": "D1_read_cap_over_budget"}.get(r.leg.id)
+            if not key:
+                continue
+            if r.state not in MEASURING or not isinstance(r.count, int):
+                refused.append(f"{r.leg.id} ({r.state}, count={r.count!r})")
+                continue
+            base[key] = r.count
+        if refused:
+            print(f"{TOOL}: ⛔ REFUSED to rebaseline from a leg that measured nothing: "
+                  f"{', '.join(refused)}. The PREVIOUS baseline stands — a baseline written from a "
+                  f"CANNOT-CERTIFY run silently disables the delta gate it exists to arm. "
+                  f"Fix the leg, then re-run `--rebaseline`.")
         base["swept"] = today
         (root / BASELINE_FILE).write_text(json.dumps(base, indent=2) + "\n", encoding="utf-8")
         print(f"{TOOL}: baseline written to {BASELINE_FILE}: {json.dumps(base)}")
