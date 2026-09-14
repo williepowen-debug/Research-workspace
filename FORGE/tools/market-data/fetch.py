@@ -262,10 +262,22 @@ def _cache_set(key, val):
     # pre-fix failure was sitting in the cache. A fix that cannot be observed to
     # work is indistinguishable from no fix, and the next reader concludes the
     # repair failed. Values still cache normally.
-    if isinstance(val, dict) and val and all(
-        isinstance(v, dict) and "error" in v for v in val.values()
-    ):
-        return
+    # ⛔ THE FIRST VERSION OF THIS GUARD ONLY FIRED WHEN **EVERY** TICKER ERRORED
+    # (`all(...)`), which is the single-symbol case -- exactly my own reproduction,
+    # `price HOX26`, and nothing else. Every production caller is a BASKET
+    # (`dashboard.py`, and the `prices`/`all`/`snapshot` commands pass
+    # `list(ALL_PRICES.keys())`), so one bad ticker among thirty still cached its
+    # error for the full TTL and the class defect survived in ~all traffic.
+    # I fixed the row I had reproduced instead of the class -- and had cited
+    # `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]` in this same
+    # file, in this same session, for a different repair.
+    # Strip errored tickers PER ENTRY; cache the good ones.
+    if isinstance(val, dict):
+        clean = {k: v for k, v in val.items()
+                 if not (isinstance(v, dict) and "error" in v)}
+        if not clean:
+            return  # nothing worth caching (covers the all-error and empty cases)
+        val = clean
     p = _cache_path(key)
     try:
         p.write_text(json.dumps({"ts": time.time(), "val": val}))
@@ -552,13 +564,25 @@ _MONTH_NAMES = ("jan", "feb", "mar", "apr", "may", "jun",
                 "jul", "aug", "sep", "oct", "nov", "dec")
 
 # Two name formats observed, both live: "Crude Oil Oct 26" and "Corn Futures,Dec-2026".
+# ⛔ `[a-z]*` after the month token was the bug engine: it let "Oct"+"ane" match
+# inside "Gasoline Octane 87", so a month word buried in a PRODUCT NAME parsed as
+# a delivery month. The plausibility bound below would have filtered that
+# particular artifact, but filtering an output is weaker than removing the
+# mechanism -- "Gasoline Octane 26" has no competing real month and no filter can
+# save it. Match only real month tokens, abbreviated or full, ending on a word
+# boundary. All 14 live vendor names still parse (regression-tested).
 _NAME_MONTH_RE = re.compile(
-    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[\s\-,]+((?:19|20)?\d{2})\b",
+    r"\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?"
+    r"|aug(?:ust)?|sep(?:t|tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b"
+    r"[\s\-,]+((?:19|20)?\d{2})\b",
     re.IGNORECASE,
 )
 
 
-_BARE_DATED_RE = re.compile(r"^[A-Z]{1,3}[FGHJKMNQUVXZ]\d{2}$")
+# [A-Z0-9] not [A-Z]: CME FX roots lead with a DIGIT (6E, 6J, 6B, 6A, 6C), and
+# `6EZ26` was still dying on the opaque KeyError this gate exists to catch --
+# condition 1's named symptom, for a whole asset class.
+_BARE_DATED_RE = re.compile(r"^[A-Z0-9]{1,3}[FGHJKMNQUVXZ]\d{2}$")
 
 
 def _is_bare_dated_contract(sym):
@@ -591,16 +615,41 @@ def contract_identity(metadata):
     # equity. That passed the letter of "non-futures unaffected" while defeating
     # "a futures row never renders silent", which is the condition that matters.
     # Parse the name regardless of label; let the CALLER decide renderability.
+    this_year = time.localtime().tm_year
     for field in ("shortName", "longName"):
         name = metadata.get(field)
         if not name:
             continue
-        m = _NAME_MONTH_RE.search(str(name))
-        if m:
-            mon = m.group(1).lower()
-            yr = m.group(2)
-            yr = ("20" + yr) if len(yr) == 2 else yr
-            return f"{mon.capitalize()} {yr}", f"vendor-{field}"
+        # ⛔ `search()` + first-match-wins SHIPPED A CONFIDENT WRONG MONTH
+        # (found on independent review): "Gasoline Octane 87 Dec 26" matched
+        # "Oct"+"ane" then "87" and returned ('Oct 2087', 'vendor-shortName') --
+        # the real "Dec 26" later in the string never reached. A wrong month
+        # carrying a basis that reads as fully sourced is STRICTLY WORSE than
+        # UNKNOWN, and it is the very Nov-vs-Oct leg error this repair exists to
+        # prevent. No live vendor name triggers it today; the mechanism was
+        # unguarded and the trigger merely unobserved, which is not a defence.
+        found = _NAME_MONTH_RE.findall(str(name))
+        cands = set()
+        for mon, yr in found:
+            yr4 = int(("20" + yr) if len(yr) == 2 else yr)
+            # NORMALISE to the 3-letter form. The regex accepts both "Oct 26" and
+            # "October 26", and without this the SAME contract labels differently
+            # depending on vendor phrasing -- which defeats the string comparison
+            # this field exists to support.
+            cands.add((mon.lower()[:3], yr4))
+        # A real delivery month is near-dated. 2087 and 1926 are parse artifacts,
+        # not contracts. Wide enough for long-dated crude (~9y out).
+        plausible = {c for c in cands if this_year - 1 <= c[1] <= this_year + 10}
+        if len(cands) > 1 and len(plausible) != 1:
+            return None, f"name-ambiguous:{sorted(cands)!r} in {name!r}"
+        if not plausible:
+            if cands:
+                return None, f"implausible-year:{sorted(cands)!r} in {name!r}"
+            continue
+        if len(plausible) > 1:
+            return None, f"name-ambiguous:{sorted(plausible)!r} in {name!r}"
+        mon, yr4 = plausible.pop()
+        return f"{mon.capitalize()} {yr4}", f"vendor-{field}"
     nm = metadata.get("shortName") or metadata.get("longName") or ""
     itype = metadata.get("instrumentType")
     # 30 chars is the observed truncation width; say so rather than just "no month".
@@ -656,9 +705,19 @@ def price_fetch(tickers, delta_threshold=0.0):
                 if "currentTradingPeriod" not in str(ke) or not _is_bare_dated_contract(t):
                     raise
                 resolved = f"{t}.NYM"
-                tk = yf.Ticker(resolved)
-                info = tk.fast_info
-                curr = float(info["lastPrice"])
+                try:
+                    tk = yf.Ticker(resolved)
+                    info = tk.fast_info
+                    curr = float(info["lastPrice"])
+                except Exception:
+                    # Condition 1's SECOND limb, which the first version never
+                    # implemented: if it does not resolve, FAIL WITH A MESSAGE
+                    # NAMING THE WORKING FORM. A bare KeyError told the reader
+                    # nothing and sent desks back to the continuous ticker.
+                    raise RuntimeError(
+                        f"dated contract {t!r} not resolvable bare or as {resolved!r} — "
+                        f"try an exchange suffix (.NYM/.CME/.CBT) or use contract_probe()"
+                    )
             # FX (=X) daily bars are DATE-SHIFTED (yahoo sparse-FX index shift),
             # so regularMarketPreviousClose — which is always the second-to-last
             # daily bar — points at a bar whose close is NOT the prior session's
