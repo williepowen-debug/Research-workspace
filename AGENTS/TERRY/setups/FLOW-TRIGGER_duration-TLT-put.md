@@ -429,3 +429,28 @@ Two surfaces word this gate differently and the difference is outcome-determinin
 📌 **Recorded, not derived from:** **`T10YIE` HAS a 9/11 cell (`2.36`) while its H.15 constituents do not.** ⛔ **I am NOT back-deriving a 9/11 `DGS10`/`DFII10` from it** — that would be manufacturing the exact cell both desks just declined to manufacture. Noted only because a future reader will see a 9/11 breakeven beside four blanks and should know it was seen and deliberately not used.
 
 **APPROVAL REQUIRED for any action — nothing here is a proposal.**
+
+---
+
+#### 📋 INPUT WITHDRAWN BY ITS OWNER — 2026-09-14 ~14:1x ET. **NOTHING OF MINE IS WITHDRAWN, AND THE DIRECTION IS THE OPPOSITE OF A QUICK READ.**
+
+⛔ **NO GRADE MOVED · NO THRESHOLD TOUCHED · `$0` MOVED. Recorded because an inherited claim propagates even when both ends behave correctly** `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`.
+
+**BOND withdrew its inference *"1.748× cover ⇒ the official bid is WEAKENED."*** The arithmetic stands; the conclusion does not. It used **tendered/cap as a DEMAND statistic on an operation where THE CAP DID NOT BIND** — Treasury left **$813M of capacity unused while rejecting $5.3B of tenders.** Once the cap stops binding, that ratio says nothing about the offer side. **AMBIGUOUS, not reversed:** the three normalisations disagree in **sign** — cover ratio makes September the worst ever · absolute tenders ($15.7 → $7.4 → $10.5B) make it **better** than August · accepted/tendered (12.7 → 27.0 → **49.5%**) makes it the **highest** share accepted of the three.
+
+### ① Did this card adopt it? **NO — and that is checked, not assumed.**
+✅ **`grep` across `AGENTS/TERRY/` returns ZERO hits for `1.748`.** The figure was never carried onto any surface of mine.
+✅ **The passage it would have fed — the `Auction/liquidity-tail route: DIRECTLY BACKSTOPPED` block — is dated 2026-08-19 and is sourced from the buyback programme's existence and terms plus BOND's own 8/19 adopted premise.** ⛔ **It CANNOT have been derived from a 2026-09-10 datum; it predates it by three weeks.** *(Provenance: `outbox/delivered/2026-08-19_to-PROME_004-rulings-encoded-arm3-reconciled-buyback-priced.md`.)*
+
+### ② 🔑 THE DIRECTION — and PROME's framing needs one correction
+**PROME relayed this as *"it removes an input your card's thesis was leaning on."* On this card the sign runs the other way, and saying so is the point of recording it at all.**
+
+**The `official bid` argument on this card is ADVERSE to the position, not supportive:** it is the backstop that *"suppresses the tail-VOL pop that the 8/18 gate-reachability block showed does almost all the harvest-gate work"* ⇒ **harvest-gate reachability via the auction route materially worsens.** ⇒ **BOND's withdrawn inference — that the official bid is WEAKENED — would have SOFTENED that adverse reading, i.e. it would have been a COMFORT to this position.**
+
+> **⇒ Its withdrawal removes a would-be TAILWIND, not a support. The card's adverse backstop reading stands UN-SOFTENED. Mildly adverse, not neutral — and definitely not a loss of support.**
+
+⚠️ **Not overstated either:** what BOND says survives every normalisation is a **PRICE statement, not a demand one — *"Treasury would not pay the offered liquidity premium."*** That is *marginally* the other way for this card (a price-disciplined backstop is a weaker vol-suppressant than an unconditional one). ⛔ **I am NOT grading it — the official-bid mechanism is BOND's and RED's, not TERRY's** (HARD BOUNDARY #3). Logged as an input whose sign I have named and whose magnitude I have not.
+📌 **Carried intact rather than trimmed to fit:** BOND notes Chabot's reading — higher yields encourage dealers to **HOLD**, i.e. balance-sheet health. **Recorded as BOND relayed it, including the half that does not suit a stress read.**
+
+### ③ ⛔ CONSEQUENCE: NONE
+**No grade moves. `GATE-TERRY-007` stays `0 of 5`. `NO ADD` stands on Will's 7/16 NO-ADD + `WQ-168 ④` + root rule #5.** **This is an INPUT that changed, not a grade that moved** — and the three independent reasons the add is not an add (TENOR · the gate outliving its position · CHANNEL) are untouched by it.
