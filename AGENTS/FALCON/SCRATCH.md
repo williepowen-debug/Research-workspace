@@ -26,7 +26,8 @@
 2. 🔴 **THE APRIL-2026 PETROLINE REPAIR PRECEDENT IS DISPUTED INSIDE MY OWN RECORD** — my ledger says *one station, −700 kb/d, restored ~2 weeks*; Al Jazeera 9/14 says capacity restored *"within three days"* and separately cites a **March** Yanbu-area strike recovering *"within days."* ⛔ **Cite NO repair precedent until one is pinned at a primary.** This number has already gone to BRENT twice.
 3. 🔴 **WARRISK — ALL 5 ROWS EXPIRED +42d**, registered falsifier included (West Coast Saudi 0.1%, age 53d). ⛔ **This is `WQ-230`, an ACCESS decision owed by WILL — a 7th research pass returns the same answer. Do NOT re-run it as a data task.**
 4. **STATUS hot/cold split** — the file sits at **32,273 B against a 32,550 B cap** after two rotations tonight; residue is declared in the file itself. **The next append breaches.**
-5. VESSELS/CASUALTIES staleness check · 6. `bypass_watch.py` empty-series guard · 7. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger.
+5. 🔴 **A DESK-LOCAL SELF-POINTER GUARD — NEW, and PROME is right that this earns a guard rather than a memory.** **Two self-pointer defects in four days** (9/11 dangling `reviews/*.md` citations; 9/14 the STATUS block whose own pointer named an archive holding a DIFFERENT block). **Both are the class where a PRESENCE check passes and the CONTENT is wrong** — the file exists, so every "does the target resolve?" test goes green. **Spec:** for each `→ domain/sources/STATUS_archive_*.md` or `→ reports/*.md` pointer in STATUS/SCRATCH, resolve the target AND `grep -F` it for a distinctive string from the block the pointer claims it holds; a resolving path with no matching content is the defect. ⛔ **Run it BEFORE any rotation that deletes the source — that is the only moment it is load-bearing.** `[[finding_record_of_an_action_is_not_the_action]]` · `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`
+6. VESSELS/CASUALTIES staleness check · 7. `bypass_watch.py` empty-series guard · 8. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger.
 
 ## OPEN THREADS / WATCHES
 - 🔴 **The Petroline outage, day 4** — daily: Aramco newsroom · SPA · Saudi MoE · CENTCOM · Reuters/AP/Bloomberg Gulf desks. ⛔ **FIRMS cannot tell you about the pipeline; the association is refuted.**
@@ -40,6 +41,12 @@
 ## MAIL STATE
 - **Inbox 10/10 drained** (3 direct + 7 WALTER), all `git mv`'d to `processed/`, all 11 dispositions in `board_log.tsv`. Delivered: **PROME** (completion memo + the HEARTBEAT one-liner), **BRENT** (the Kpler figure + the disputed repair precedent). Flagged back to **WALTER**: the `$100` guard inversion is confirmed (price half retires, Jazan/Yanbu anti-merge half stays) — **anchors corpus is WALTER's file, not edited by me.**
 - ⚠️ `date` re-run before every stamp; one stamp written as ~16:2x was corrected to the clock mid-session.
+
+## ✅ SESSION CLOSED OUT — 2026-09-14, PROME's WQ-249 ask ANSWERED
+- **PROME consumed the grade and accepted both corrections in-file** (the CONTESTED→dated-sequence flip on HEARTBEAT §7, and the refusal of the "broken ladder" framing in favour of saturation-as-designed). **Hanish's ~160 km-north scoping is on both surfaces.** `review_by` flipped to **2026-09-21** in `GATES.tsv` by PROME; **I never touched the registry.**
+- **PROME owes ME one relay** (logged as PROME's, not mine): the corrected **trigger-(c) base rate — ≥1 in 193 days, not 0** — routed 9/10, still unrelayed onward.
+- 🔑 **BRENT's catch composes with mine and BOTH belong in the next session's head:** the circulating **"~700 kb/d" is an APRIL 2026 figure** for the same asset and damage class. ⇒ **TWO of the four loose Petroline objects now have KNOWN PROVENANCE PROBLEMS** (the ~700 kb/d vintage, and my own disputed April repair precedent). **Only Kpler's ~2 mb/d and the nameplate have clean provenance — and the nameplate is the one being misused.**
+- **Push receipt CONFIRMED:** `Pushed. CONFIRMED: HEAD fa98b5bb7 is on origin/master (fresh fetch).`
 
 ## PENDING PUSH / GIT
 - **PROME-spawned; the spawn prompt directs auto-push at closeout** via `scripts/safe-push.sh`. ⚠️ **Six other sessions live on this box — non-ff abort is ROUTINE; never force, recover per Git Protocol session-end step 3 INCLUDING its dirty-path overlap check before any `--autostash`.**
