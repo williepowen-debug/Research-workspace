@@ -146,8 +146,50 @@ def base_rate(vals: list[float], op: str, threshold: float, sustain: int, window
 
 
 def ft11_delta5(vals_pct: list[float]) -> list[float]:
-    """5-session changes in bp on a percent-quoted series (DGS30)."""
-    return [(vals_pct[i] - vals_pct[i - 5]) * 100.0 for i in range(5, len(vals_pct))]
+    """5-session changes in bp on a percent-quoted series (DGS30), in EXACT DECIMAL.
+
+    WHY (S45 2026-09-14, closing the item SCRATCH carried from S44 and DAEDALUS's
+    DOCKET L258 packet): this differenced in raw binary float.
+
+    ⚠️ THE FIRST MEASUREMENT OF THIS WAS WRONG IN RED'S OWN FAVOUR AND IS CORRECTED
+    HERE. S44's note, and this repair's own first draft, recorded FT-11 as "benign by
+    luck" - allegedly 0 decision flips under leg (iv)'s REGISTERED NON-STRICT `<=-4`
+    and flips only under a hypothetical STRICT `<`. That is FALSE. Swept properly over
+    the realistic fly range (-1.00..+1.00 pct, 2dp), the raw path flips the decision
+    on the REGISTERED operator at 80 distinct levels, e.g.:
+
+        fly -0.93 -> -0.97 : raw = -3.9999999999999925  ->  <= -4 is FALSE
+                             exact = -4.0               ->  <= -4 is TRUE
+
+    i.e. the raw path REJECTED A LEG-(iv) SATISFACTION THAT THE LETTER ACCEPTS - a
+    live FALSE NEGATIVE on a registered precondition, not a hypothetical. The float
+    error is SIGN-VARYING with operand magnitude (at fly -1.00 it drifts to
+    -4.0000000000000036 and benignly accepts; at -0.93 it drifts the other way and
+    wrongly rejects), which is exactly why "the drift is always in the safe
+    direction" was an unsafe thing to have believed.
+
+    The precondition leg IS benign: Delta5(DGS30) <= -10.2bp over DGS30 3.00-6.50
+    flips 0 decisions, because that cut sits OFF the 1bp publication grid. Only the
+    on-grid -4bp leg was exposed.
+
+    NO PAST GRADE MOVES: S44 graded leg (iv) at -2.0bp, nowhere near the boundary,
+    and its Delta5(DGS30) 5.25 -> 5.37 = +12.0bp reproduces exactly. The exposure was
+    live and unfired, not retrospective.
+
+    conformance repair, not a threshold change - identical in kind to scaled().
+
+    ⚠️ NO FLOAT FALLBACK, DELIBERATELY. A first draft of this repair wrapped the
+    Decimal conversion in try/except and fell back to raw float. That fallback was
+    worthless and dangerous: it crashed on exactly the inputs (None, "") that make
+    the Decimal path fail, so it added no robustness, and on any input where it HAD
+    worked it would have silently restored the corrupted arithmetic this function
+    exists to remove - a guard that fails OPEN into the defect it guards. Caught by
+    this repair's own acceptance test, not in review. Bad input must fail loudly here.
+    """
+    return [
+        float((Decimal(str(vals_pct[i])) - Decimal(str(vals_pct[i - 5]))) * 100)
+        for i in range(5, len(vals_pct))
+    ]
 
 
 def parse_recorded_rate(cell: str) -> float | None:

@@ -94,5 +94,62 @@ acc = scaled("1.50", 100) >= 150 and scaled("150", 1) >= 150
 print(f"  {'PASS' if acc else 'FAIL'}  a NON-STRICT band still accepts its own boundary (no over-correction)")
 bad += not acc
 
+# --- 6. FT-11's 5-session differencing must be exact (S45 2026-09-14) ---
+# S44 recorded FT-11 as "benign by luck". THAT WAS FALSE and this section is the
+# falsifier. Swept over the realistic fly range, the RAW path flips the decision on
+# leg (iv)'s REGISTERED NON-STRICT `<=-4` at 80 levels — e.g. fly -0.93 -> -0.97 gives
+# raw -3.9999999999999925, which FAILS `<= -4`, while the exact value is -4.0, which
+# PASSES. The raw path REJECTED a satisfaction the letter ACCEPTS: a live false
+# negative. The drift is SIGN-VARYING with operand magnitude, so "the error is always
+# in the safe direction" was an unsafe belief, not a property.
+# The precondition leg is genuinely benign (its cut is OFF the 1bp grid) — only the
+# on-grid -4bp leg was exposed. Each operator is swept ONLY over the range its own
+# quantity can occupy; sweeping both over both ranges manufactures decisions that
+# cannot occur and reported 123 phantom failures in this repair's first draft.
+def _raw_d5(v):
+    return [(v[i] - v[i - 5]) * 100.0 for i in range(5, len(v))]
+
+
+def _exact_d5(v):
+    return [float((Decimal(str(v[i])) - Decimal(str(v[i - 5]))) * 100) for i in range(5, len(v))]
+
+
+def _fly(a):
+    return [a, 0, 0, 0, 0, round(a - 0.04, 2)]
+
+
+_v = _fly(-0.93)
+_r = _raw_d5(_v)[-1] > -4 and _exact_d5(_v)[-1] == -4.0
+print(f"  {'PASS' if _r else 'FAIL'}  FT-11 false-negative pinned: raw={_raw_d5(_v)[-1]!r} fails <=-4, exact=-4.0 passes")
+bad += not _r
+
+# THE LOAD-BEARING ASSERTION: at every exact -4bp tie on the realistic grid, the
+# exact path must ACCEPT (the letter is non-strict). Invariance vs the raw path is
+# NOT the property to test — the whole point is that the raw path was wrong.
+_ties = [round(c * 0.01, 2) for c in range(-100, 101)]
+_acc = sum(_exact_d5(_fly(a))[-1] <= -4 for a in _ties)
+print(f"  {'PASS' if _acc == len(_ties) else 'FAIL'}  exact path accepts its own boundary at every tie ({_acc}/{len(_ties)})")
+bad += _acc != len(_ties)
+
+_rawacc = sum(_raw_d5(_fly(a))[-1] <= -4 for a in _ties)
+print(f"  {'PASS' if _rawacc < len(_ties) else 'FAIL'}  the raw path DID mis-reject its own boundary ({len(_ties) - _rawacc} of {len(_ties)})")
+bad += not (_rawacc < len(_ties))
+
+# The precondition leg was and remains benign — recorded so a future reader does not
+# over-generalise the leg-(iv) defect to the whole row.
+_pm = 0
+for _c in range(300, 651):
+    _a = round(_c * 0.01, 2)
+    for _dl in (-0.102, -0.10, -0.11, -0.12):
+        _vv = [_a, 0, 0, 0, 0, round(_a + _dl, 2)]
+        _pm += (_raw_d5(_vv)[-1] <= -10.2) != (_exact_d5(_vv)[-1] <= -10.2)
+print(f"  {'PASS' if _pm == 0 else 'FAIL'}  precondition leg (off-grid cut) was already benign: {_pm} flips")
+bad += _pm != 0
+
+_g = _exact_d5([5.25, 0, 0, 0, 0, 5.37])[-1] == 12.0
+print(f"  {'PASS' if _g else 'FAIL'}  S44's Delta5(DGS30) 5.25 -> 5.37 still reproduces as +12.0bp")
+bad += not _g
+
+
 print(f"\n{'ALL PASS' if bad == 0 else str(bad) + ' FAILURE(S)'}")
 sys.exit(1 if bad else 0)
