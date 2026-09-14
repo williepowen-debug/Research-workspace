@@ -1,4 +1,4 @@
-# WALTER Threshold Scan v0.41
+# WALTER Threshold Scan v0.42
 
 **This file is the authoritative CHECKLIST Phase 2 step 7 procedure. Read it WHOLE at boot step 6c and when executing Phase 2 step 7 at dispatch.** The registry-loading step is CLAUDE.md 6b; current instrument basis, sustain, state and exit come from the owner registries, not dated examples below. Read current values on their registered observation schedules and label each observation date. Boot includes the four registered owner families and Cushing as specified by CLAUDE.md 6b/6c.
 
@@ -28,5 +28,21 @@ Size re-trigger: measure after any append and every Tier-2; next calendar check 
    > 📌 **Generalises to every exit-carrying row on the board** (`RED-FT-01`/`-06`/`-07`/`-09`/`-10`, `REG-T-*`, `CREED-T-*`): **read the exit column before reporting a state, and report the STATE, not the last event.** `[[finding_record_of_an_action_is_not_the_action]]`
 
    Append fire row to `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` (5-col schema: trigger_id / fired_date / metric_value_at_fire / dispatched_signal_id / sustain_confirmation — per JOINT_PROPOSAL §2.4, preserves Critical Rule #2 by keeping fire-history out of RED's tree). Approaching-threshold (within 5% one-sided per `threshold_op`) flagged in WALTER closeout SESSION LOG as "near-trigger watch", not auto-dispatched. Stale-fire suppression: skip a trigger if it fired within prior `sustain_window` sessions per the ledger.
+
+> 🔴🔴 **CROSS-SERIES ROLL DESYNC — added v0.42, 2026-09-14 (BRENT's finding, verified at HENRY's artifact; canon `AGENTS/BRENT/demand_destruction/TRACKER.md` § CONTRACT-ROLL CAVEAT).**
+>
+> **ANY threshold or boundary defined as a SPREAD between two continuous front-month tickers can be wrong while BOTH legs are individually correct and current.** Continuous tickers roll **independently**, so a spread silently becomes *one month's product minus another month's crude*.
+>
+> **The instance:** `HO=F` and `RB=F` rolled Oct→Nov on **2026-09-14**; `CL=F` did not (Oct, expiry ~9/22). The continuous ULSD crack printed **−\$9.90 (−9.1%)** — read across the fleet as a collapse. **On matched October contracts it was 108.24 → 107.45 = −\$0.79 (−0.73%). ~93% of the move was the roll.** A falsifier (`HEN-46` F1, crack <\$95) **could have fired on the artifact.**
+>
+> ⛔ **THE TRAP IS THAT EVERY SANITY CHECK PASSES.** Both legs are live, current, correctly labelled and plausible; the magnitude is in-range. **There is no error to notice** — `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
+>
+> ⛔ **DO NOT KEY A FIX TO A DATE.** A continuous series rolls on **VOLUME MIGRATION, not expiry** — the product legs left **16 days before** their October legs expired. Product legs expire ~the 30th, WTI ~the 20th, leads are contract-specific ⇒ **the desync is STRUCTURAL and recurs EVERY month. There is no date after which this is safe.**
+>
+> ✅ **ACTION AT THIS STEP: resolve BOTH legs to their DATED contract month on EVERY pull, and state the months beside any spread figure.** If the months differ, the spread is **NOT GRADEABLE** — report `MONTHS MISMATCHED`, never a number. This binds every spread-defined row (Boundary #6 and #8, any crack, any basis) **and the `CL=F`/`BZ=F`/`HO=F` pulls this step makes.**
+>
+> 📌 **THIS IS A NEW FORM OF `ADD#23`, NOT AN INSTANCE OF IT.** ADD#23 (`anchors/IRAN_WAR_GUARDS.md`) kills differencing **ONE** series across **ITS OWN** roll — temporal. **This is TWO series rolling at DIFFERENT times, differenced against each other — cross-sectional.** A desk that has correctly internalised ADD#23 is **not** protected against this.
+>
+> ⚠️ **A THIRD FAILURE MODE, DISCLOSED: `NO INSTRUMENT` ≠ `NOT MET`.** Boundary #5 is specified in **Worldscale** and this fleet has never had a Worldscale feed (the `VLCC > WS200` line was retired 2026-07-31, Will-ruled F4, for that reason). ⇒ **WALTER must never invite an owner to "fire it if your pull clears it" on a row whose instrument does not exist** — that manufactures a fire path and invites instrument substitution (`BWET` is a freight-futures ETF, not a route rate). **Report an uninstrumented row as UNINSTRUMENTED so the gap stays COUNTABLE** — the same treatment `HANS-T-12` already gets at boot 6b.
 
 <!-- End of authoritative Phase 2 step 7. -->
