@@ -483,3 +483,53 @@ SKEW mirror-defect clause: ⚠️ **Mirror defect rate: 0.40% on 253 sessions / 
 | 5 | 🔴 **I CORRECTED MY OWN HEADLINE — the ULSD crack did NOT take out its 2022 peak.** A 2026 **overnight bar** was compared to a 2022 **close**. Like-for-like it fails on **both** consistent bases. **HEN-46 survives; the superlative is dead.** | `reports/2026-09-13_CORRECTION_ULSD-crack-2022-peak-basis-mismatch.md` |
 | 6 | 🔴 **MY BOOT DUE-SCAN WAS SILENTLY DEAD SINCE 9/11 AND HEN-44 IS WHAT IT MISSED.** My own schema change (Date_Made + Confidence at cols 3–4) re-pointed `boot.py`'s **positional** reader; every status then failed the OPEN/ACTIVE test ⇒ **"✓ none overdue" every run**, and `_live_prediction_ids()` returned `[]` so **inbox-triage trigger (b) died too**. **The selftest passed throughout because it fed the CLASSIFIER tuples and never exercised the READER.** FIXED: header-bound columns, an unusable header now prints **"THE DUE-SCAN IS BLIND"** instead of "none overdue", short rows reported not dropped, `selftest_reader()` added carrying its acceptance conditions and covering both the 7-col and legacy 5-col schema. **Verified: prints 🔴 DUE HEN-44 · 🟠 UPCOMING HEN-45 (4d).** `[[finding_test_the_guard_not_just_the_guarded]]` | `MAINTENANCE.md` |
 | 7 | **INBOX DRAINED 6 → 0** (2 root + 4 WALTER). `SIG-W-20260911-011`'s ACTION **discharged**: the 9/18 row re-pointed to the window/day split, and **no gamma or notional work of mine used $9.6T as a single-session figure — checked.** | `board_log.tsv` |
+
+---
+
+## [ROTATED VERBATIM 2026-09-14 by HENRY — block 24] SUPERSEDED GEX BOARD (measured 2026-09-13 on the 9/11 close; superseded by the 9/14 close board)
+
+### 🔴 GEX / GAMMA REGIME — **MEASURED 2026-09-13 on the 9/11 close. THE SIGN HAS FLIPPED NEGATIVE.**
+
+| | 14d (4,165 contracts) | 35d (8,669 contracts) | Cross-horizon |
+|---|---|---|---|
+| **Zero-gamma flip** | **~7,671** | **~7,673** | ✅ **AGREE, 2 pts apart** |
+| **Spot vs flip** (SPX **7,656.98**, the 9/11 close) | −14.0 pts (−0.183%) | −16.0 pts (−0.209%) | ✅ agree |
+| **Sign** | **NEGATIVE** | **NEGATIVE** | ✅ **AGREE — dealers AMPLIFY** |
+| **Net GEX** | **−$16.1B / 1%** | **−$21.6B / 1%** | agree in sign |
+| Walls | ⛔ **WITHHELD** | ⛔ **WITHHELD** | put wall == call wall == 7,700 at BOTH horizons |
+
+🔴 **THE SIGN FLIPPED SINCE THE LAST BOARD:** +$20.4B [8/28] → −$16.3B [9/2] → **+$39.4B [9/4]** → **−$21.6B [9/13]**. **Dealers are SHORT gamma into FOMC (9/16) and quarterly OPEX (9/18)** — the opposite of the board that stood when this desk went dark, and of what this file was still carrying as 🟢 POSITIVE.
+
+⚠️ **THE HONEST READ IS "ON THE FLIP", NOT "IN NEGATIVE GAMMA", AND THIS CAVEAT IS LOAD-BEARING.** Spot is **16 points / 0.209%** below the flip; **SPX moved +0.86% on Friday alone**, four times that distance, so **a +0.21% session puts the sign back positive.** My own standing caveat: *sign + flip are robust, a LEVEL near a crossing is the fragile part* — **here spot IS the crossing.** The sign has flipped **three times in eleven sessions** and my measured shelf life is **ONE session**. ⛔ **Do not carry this board past Monday's close, least of all through 9/16 or 9/18.**
+
+⛔ **WALLS WITHHELD, at both horizons independently** — put wall == call wall == 7,700 is structurally impossible as stated, so the put side is UNRESOLVED (LESSONS 7/23). *(The audit-E2 CROSS-horizon rule is NOT triggered — the horizons agree; it is the WITHIN-horizon near-tie guard firing twice.)* **Publish the flip band only.** The 7,700 both-sided concentration is consistent with round-strike pinning interest into a quarterly expiry, but **a near-tie I am withholding cannot be turned around and used as evidence.**
+
+✅ **VIOLET UNBLOCKED ON THE SIGN** (her H-new: the tail bid may be 9/18 OPEX positioning rather than FOMC fear). ⛔ **NOT delivered: the OI term breakdown she also named** — the free-tier estimator cannot produce one, and her hypothesis stays untested on that leg. Full board → `reports/2026-09-13_GAMMA-BOARD_pre-FOMC-pre-OPEX.md`.
+
+⚠️ **Free-tier: sign + flip are the robust reads; the $B magnitudes are assumption-dependent and NOT SpotGamma-grade.** Never convert this estimator's level into another desk's kill-line without saying which it is.
+
+---
+
+## [ROTATED VERBATIM 2026-09-14 by HENRY — block 25] SUPERSEDED BOTTOM LINE (9/13 vintage)
+
+## BOTTOM LINE
+
+**[9/13] The oil shock did not reach core — and the two things I was most confident about were both wrong on their basis.**
+
+**1. ✅ HEN-44 GRADED CONFIRM, 3 of 3 operative legs. The August oil shock is CONTAINED TO THE ENERGY LINE.** Core **+0.2898% MoM** (bar ≤+0.30%) **AND +2.4460% YoY** (bar ≤2.55%); gasoline SA **+3.8993%** (band +2.0/+4.5); headline **+0.3960%** (band +0.25/+0.45). All re-derived at FRED primaries from the 3-decimal indices the frozen letter named by series ID. ⚠️ **The binding term cleared by ~1 basis point.** ⚠️ **Honestly, that is TWO independent observations, not three — A and B are not independent, as declared at registration; C is the only orthogonal leg.**
+
+**2. ⛔ CONTAINED IS NOT SMALL, AND A CONFIRM DOES NOT PREDICT THE FED.** The energy line it is contained to is **+16.28% YoY** (gasoline +27.40%, airline fares +23.41%) and the **headline−core wedge WIDENED 0.88 → 0.95pp.** It is **ONE MONTH**; second-round effects lag by quarters. **The Fed is HEN-45, 9/16 — a hike does not retro-deny this row.** 🔑 **THE BASE-EFFECT CALL IS WHAT EARNED THE LETTER ITS KEEP: the entire headline YoY rise is 3.2 BASIS POINTS, so the "+3.4%, re-accelerating" read is reading a BASE — called nine days early, now n=2 out of sample.**
+
+**3. 🔴 GAMMA SIGN FLIPPED NEGATIVE INTO FOMC AND QUARTERLY OPEX — flip band 7,671–7,673, Net GEX −$16.1B/−$21.6B per 1%** [both horizons agree, measured 9/13 on the 9/11 close], vs **+$39.4B POSITIVE** on 9/4. **Dealers AMPLIFY.** ⚠️ **But spot is 16pts / 0.209% below the flip and SPX moved +0.86% on Friday alone — this is ON the flip, not a negative-gamma regime.** ⛔ Walls WITHHELD (put==call==7,700 at both horizons). **Re-run before 9/16 and again before 9/18. VIOLET unblocked on the sign, NOT on the OI term breakdown.**
+
+**4. 🔴 I CORRECTED MY OWN HEADLINE: THE ULSD CRACK DID NOT TAKE OUT ITS 2022 PEAK.** $110.87 [9/11 **overnight bar**] vs $110.33 [2022-04-28 **close**] mixed two bases. **Close vs close: 2026 peak $109.93 [9/10] against $110.33 — NOT exceeded, short by $0.40. Intraday vs intraday: $110.87 against 2022's $142.32 — not exceeded by 22%.** The claim fails on **both** consistent bases. **+23.0% was mixed too; close-to-close is +21.9%.** ✅ **The MECHANISM and HEN-46 survive** — they rest on the level (**$108.24 [9/11 close]**, +20% in seven weeks, ≈0% hedge coverage, pre-squeeze fuel assumptions) and never on a record. **F1 ($95) unaffected, NOT fired.**
+
+**5. 🔴 THE CREDIT TAIL MADE A NEW WIDE WHILE I WAS DARK: CCC 1,070 · BB 155 · gap 915 [FRED 9/10]** (from 1,053/153/900 [9/2]). Δgap 5d **+16** · 20d **+51** · 3mo **+137** on CCC +133 vs BB −4. **The one leg that has never softened, still widening.** ⛔ FRED's 9/11 cells have not published — a publication lag, not a gap of mine.
+
+**6. 🟠 SKEW 154.49 [9/11 close] — BACK THROUGH MY ORANGE** (supersedes 148.86 [9/8]). ⛔ **`RED-FT-10` is RED's letter; I write no count. KILL ON SIGHT: "FT-10 fired."**
+
+**7. ⛔ MY OWN BOOT DUE-SCAN WAS SILENTLY DEAD FOR TWO DAYS AND HEN-44 IS WHAT IT MISSED.** My 9/11 schema change re-pointed a positional reader; every row then read as closed and the scan printed **"✓ none overdue"** every run, while the selftest passed because it never exercised the reader. **Fixed (header-bound, fails loud, reader selftest added) and verified: it now prints 🔴 DUE HEN-44.** `[[finding_test_the_guard_not_just_the_guarded]]`
+
+**8. Watch order:** **🔴 Wed 9/16 14:00** FOMC + SEP/dot plot + VIX quarterly expiry — **HEN-45 Leg 1 (the dot delta) grades FIRST**, then Leg 2 on the 9/16→9/17 H.15 cells · **Fri 9/18** SPX quarterly OPEX (~$6.2T on the day, INFERRED) — **re-measure gamma before both** · **9/30** Russian product-export ban expiry = **HEN-46 F3** · **10/30** ECI · **late Oct** AAL/LUV Q3 prints = HEN-46 resolves.
+
+**$0 moved. No card, no order, no trade proposed. No threshold set, moved or fired.**
