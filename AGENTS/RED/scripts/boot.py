@@ -234,11 +234,20 @@ def scaled(published, scale):
     The float conversion afterwards is safe because the product is now an exact decimal that
     is representable. This is a CONFORMANCE repair, not a threshold change - it makes the
     instrument agree with the letter it was always supposed to implement.
+    
+    ⛔ NO FALLBACK BRANCH. A try/except here that returns `float(published) * float(scale)`
+    RESTORES THE EXACT L258 DEFECT THIS FUNCTION EXISTS TO REMOVE: forced, it returns
+    930.0000000000001, which fires RED-FT-07's `> 930` STRICT band that the letter says
+    must not fire. And it buys nothing - it re-raises on the very inputs it was written
+    for (None -> TypeError, "" -> ValueError), so behaviour on bad input is IDENTICAL
+    with or without it. All it can ever do is convert a loud failure into a silent wrong
+    number. Removed 2026-09-14 (S45) after DAEDALUS forced the branch and demonstrated the
+    restoration; the twin fallback in ft11_delta5() was removed the same session for the
+    same reason, caught there by this repair's own acceptance test rather than by review.
+    ⚠️ An error handler whose fallback is the PRE-REPAIR behaviour is invisible in review
+    BECAUSE A try/except READS AS CAUTION (DAEDALUS PAT-171). Bad input must raise here.
     """
-    try:
-        return float(Decimal(str(published)) * Decimal(str(scale)))
-    except (InvalidOperation, ValueError, TypeError):
-        return float(published) * float(scale)
+    return float(Decimal(str(published)) * Decimal(str(scale)))
 
 
 def live_value(src_type, key, field, scale, prices, fred):
