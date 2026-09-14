@@ -96,3 +96,15 @@ Folded VERBATIM, 15 blocks, crc-stamped → [`reports/2026-09-14_S45_status_rota
 
 **Not mine, recorded so I don't chase it:** the gamma board expiring at today's close is **HENRY's**.
 
+### ADDENDUM-4 — I ran DAEDALUS's 20-minute-old instrument on my own desk and it found two surfaces I did not know were in rotate-tier
+
+**DAEDALUS built the stop-threshold distance line (`09d182ae8`) and I verified it at the artifact before relaying it anywhere — the ML-RED-250 lesson, applied within the hour.** Then I ran it on RED. It flagged **two** of my boot-read surfaces.
+
+**① 🔴 `workbook/SCHEMA.tsv` — MY L344 SPLIT PUT IT THERE AND I NEVER MEASURED IT.** 22,217 B (68.3%, under the stop) → 25,350 B (77.9%, rotate-tier): **+3,136 B in the same commit whose win I reported three times.** `READ_CAP` rule 17 names this exactly — *"a split that reports only its win is a claim, not a fix"* — and its one question is *"where did the cut material go, and is that destination ON THE READING PATH?"* SCHEMA is on the reading path. I asked that question of the SCAN view and never of the file I was editing beside it. Compressed my own rows three times: **77.9% → 71.6%.**
+> ⛔ **STOPS THERE, registered not forced.** The remaining **515 B** would come from LIVE contract definitions other desks depend on. **STRUCTURAL FINDING: SCHEMA had only 568 B of headroom to the stop and a new column legitimately costs ~600 B to document — the file CANNOT ABSORB A COLUMN without crossing.** That is a capacity limit on a **co-signed** surface; the remedy is a hot/cold split needing **WALTER**, not more trimming by me. **Packeted to WALTER.**
+
+**② ✅ `CALENDAR.md` 28,062 → 11,827 B (86% → 36.3%)** — pre-existing, not from today. Folded verbatim + crc-stamped: **two sections already self-declared ⛔ FROZEN** on 7/31 (*"not maintained"*, *"ALL REALIZED/EXPIRED"*) and **seven stacked `[Prior] Last Updated` headers, 11,745 B** — this file had never folded its header stack though STATUS has done so for months. All dead by its own banners; **mechanical, and *"it's cheap"* is not a reason to postpone (ML-RED-251).**
+> ⚠️ **NOT fixed and deliberately not restamped:** CALENDAR's CURRENT header is dated **2026-08-20 — 25 days stale** — on a file whose line 3 promises *"Updated each session."* A fresh header over a stale body certifies it. **Content obligation, owed.**
+
+**Desk state now: STATUS 68.9% · CALENDAR 36.3% · SCHEMA 71.6% · board_log 43% · MEMORY 62% · SCRATCH ~50%.** Every boot-read surface under budget; one (SCHEMA) in the 70–75% band with 515 B registered as owed on a co-signed structural fix.
+
