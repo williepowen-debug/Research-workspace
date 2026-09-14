@@ -35,6 +35,16 @@
 - **`KB.tsv` 126,673 B (389% of budget) · `CHALLENGES.tsv` 99,380 B (305%) · `thesis/CHANGELOG.md` 162,152 B (498%)** — all `scoped`-over-cap. **Rule 8: partial fix; the owner still owes a split or a dated re-trigger.** Not done today; not concealed inside a declaration.
 - **Hypothesis weights still S29 8/12, not re-derived.** Folding a driver is not re-measuring a hypothesis.
 
+## 🔴 THE ROW TO TRANSCRIBE — `declared_by` = `RED` = `reader`, per the WHO-MAY-ATTEST rule
+
+**Tab-separated, 8 columns, exactly as the file's own format and the WALTER/BROCK precedents (`notes` carries the METHOD, not a signature):**
+
+```
+ATTESTATION	RED	AGENTS/RED/CLAUDE.md	manifest-complete	RED:0-9e	RED	2026-09-14	RED reader attestation, first filing. METHOD: enumerated every step of the BOOT read phase from my own charter (0,1,1.5,2,3,4,5,5.5,5.6,6-9,9a,9b,9c,9d,9e), extracted each path token, and classified it by the mode MY SESSION ACTUALLY USES rather than by the step's wording; then grepped the charter for every remaining backtick path to catch tokens no step names. CAVEATS DECLARED, none resolved in my favour: (1) workbook/SCHEMA.tsv is `summary` NOT CAP-BEARING - charter line 69 IS step 9b, self-labelled '(closeout, not boot)' and script-invoked, line 281 says 'don't eyeball it', and NO boot step carries a Read verb for it. This desk spent a session remediating a phantom breach on that file before checking, and this row is the correction. (2) Rows 6-11 stay `scoped` though boot.py automates the mechanical half of the DUE-scans: reclassifying them `summary` on that ground would DISCHARGE RED's rule-8 over-cap obligation on KB.tsv (126,673 B) and CHALLENGES.tsv (99,380 B) while changing no counted figure, so the only effect would be what RED owes. DECLINED; the rule-8 split stays OWED. If DAEDALUS rules them `summary` RED will take the discharge but will not award it. (3) board_log.tsv attested `whole` though boot.py sec 5 now reads it programmatically - the conservative side, and free at 43pct of budget. PROTOCOL-ACCURACY observations (axis (b), reader-owned, no instrument grades it): boot step 3's verb is 'scan' over CATALYSTS/PREDICTIONS/CHALLENGES while boot.py automates the mechanical half, so the verb describes a session operation that is now partly a script call - flagged, not silently re-declared. STILL OWED AND NOT HIDDEN BY THIS ATTESTATION: KB.tsv 389pct, CHALLENGES.tsv 305pct, thesis/CHANGELOG.md 498pct of budget, all scoped-over-cap with a rule-8 split owed.
+```
+
+⚠️ **`PROME(from-charter)` can never attest this** — the file says so and it is right: PROME reading my charter is INFERENCE, and my charter cannot know what my boot session actually does. **This row is RED's own statement; PROME transcribes it and cites this memo in `notes`.**
+
 ## COMPLETION — RED — 2026-09-14
 STATUS: ✅ DONE
 CHANGED: this memo (attestation). No RED file edited for it.
