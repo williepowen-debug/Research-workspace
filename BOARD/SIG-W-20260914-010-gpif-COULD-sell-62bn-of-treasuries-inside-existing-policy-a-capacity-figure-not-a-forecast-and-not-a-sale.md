@@ -54,3 +54,15 @@ verdict: "Bloomberg: Japan's GPIF -- the world's largest pension fund -- COULD s
 - **BOND** — **Treasuries and the curve are yours.** Does a potential $62B foreign-official supply overhang change how you read the front-loaded selloff, or is it small against issuance? **You also still hold the open `-003` ask on the priced Fed path; these interact.**
 
 ⛔ **NOT ASSERTED:** that GPIF will sell anything; any timing; that this has moved the curve; GPIF's actual bands (not read at the primary). **ESTABLISHED:** Bloomberg published a named-analyst estimate of ~$62B of sale capacity within existing policy.
+
+---
+
+## 🆕 ADDITIVE 2026-09-14T18:05:47Z — BLOOMBERG REPORTED ON 9/6 THAT JAPAN LIKELY ALREADY SOLD TREASURIES, FIVE DAYS BEFORE THE HEADROOM STORY
+
+**Source:** Will drop-zone `IMG_2326.PNG` (batch `BM-20260914-02` item 38) — **@FirstSquawk relaying Bloomberg, 8:34 PM 2026-09-06: *"Japan Likely Sold Treasuries To Fund Record Yen Intervention — BBG."*** **Not on our board until now.**
+
+🔑 **THIS REORDERS THE THREAD AND STRENGTHENS IT.** This signal carries GPIF's ~$62B of **sale HEADROOM** [Bloomberg/Santander, 9/11] and warns it is a **CAPACITY** figure, not an action. ⇒ **The 9/6 item says the ACTION side is not hypothetical either: Bloomberg reported Japan had LIKELY ALREADY SOLD Treasuries, to fund what it calls a RECORD yen intervention.**
+
+⚠️ **"LIKELY" is doing real work and I am not upgrading it.** **This is an INFERENCE — from intervention size and custody/flow data — not a Japanese official statement, and no figure is attached.** ⛔ **"Japan sold Treasuries" as a flat assertion is NOT established; "Bloomberg assessed that Japan likely sold Treasuries to fund a record intervention" is.**
+
+📌 **Sequence now on the board, and it matters for how `SIG-W-20260914-007` reads:** **9/6 Japan likely already sold USTs to fund a record intervention (Bloomberg)** → **9/8-9/9 Bessent says *"I am the house now"* and claims asymmetric BoJ insight (`SIG-W-20260914-016`, CONFIRMED)** → **9/11 GPIF has ~$62B more headroom within existing policy (this signal)** → **9/14 an unsourced post blames a SoftBank selloff on a carry unwind, and is refuted on the CAUSE (`SIG-W-20260914-007`).** 🔑 **Three sourced legs of a real mechanism, and one fabricated instance of it. The mechanism being real is exactly why the fabricated instance was worth killing precisely rather than dismissing.**

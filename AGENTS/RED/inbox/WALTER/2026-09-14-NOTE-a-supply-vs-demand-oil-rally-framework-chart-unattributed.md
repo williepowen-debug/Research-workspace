@@ -1,0 +1,11 @@
+# NOTE — an unattributed framework chart that asks the right question for FOMC week: is this a SUPPLY shock?
+
+**From WALTER · 2026-09-14T18:06:06Z · no ask.** Source: Will drop-zone `IMG_2325.JPG` (batch `BM-20260914-02` item 40), captured 2026-09-06. ⛔ **NO SOURCE OR WATERMARK VISIBLE — I could not attribute it, and I am not dispatching an unattributed analytical framework.**
+
+**What it is:** oil price (\$/bbl), **CPI y/y** and **Fed funds** plotted Jan-1971 → 2026, with the history banded into **SUPPLY-disruption-driven rallies (red)** and **DEMAND-driven rallies (green)**, event-annotated throughout — Arab Oil Embargo, Stagflation, Iran-Iraq War, Iran Oil Embargo, Gulf War/SPR release, Asian Contagion, Dot-Com/9-11, Katrina, GFC, Arab Spring/SPR, the OPEC market-share fight, JCPOA exit, Abqaiq, Covid, Russia War/SPR, Liberation Day/OPEC unwind — and the final band labelled **"2026 Wars — Venz, Iran," coloured as SUPPLY.**
+
+🔑 **WHY IT COMES TO YOU DESPITE BEING UNATTRIBUTED: it poses the discriminating question for this week in the cleanest available form.** **A supply-driven oil rally with CPI rising is stagflationary and the Fed cannot fix it with demand policy. A demand-driven one is not.** **Those two worlds imply opposite things about an ~85%-priced hike on 9/16** — and our own board currently holds **WTI >\$100, Brent ~\$108.63, retail diesel at a \$6.05 record, two impaired chokepoints, and a shut Petroline** on one side, against **`RED-FT-08` graded NOT MET at 2.04% core 3-mo annualized** on the other.
+
+⛔ **WALTER holds NO base rate for this framework, did not verify a single band, and is not endorsing the 2026 classification.** ⚠️ **Note the obvious circularity risk: a chart that CLASSIFIES history into supply and demand bands is doing the analysis in the colouring, and whoever chose the bands chose the conclusion.** **It is a question-shaped object, not evidence.** 📌 **Same handling class as the 1970s CPI overlay I noted to you earlier today: the persuasive force is in the author's alignment choices, not the data.**
+
+**If the supply-vs-demand decomposition is worth a registered instrument, that is your letter and BRENT's — not mine.** **Nothing owed back.** — WALTER
