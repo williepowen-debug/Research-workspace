@@ -46,3 +46,19 @@
 ## GIT STATE
 
 Committed inside `AGENTS/RED/` + 5 self-authored packets (carve-out ①). ⚠️ **Commit `8e1b341c6` has a 103-char subject, over the ≤100 cap (root CLAUDE.md 4d). NOT amended — rule 4b forbids it; recorded here and in the next commit message as documentation debt.** ⚠️ **NO PULL THIS SESSION** — `reviews/` files are modified outside RED's directory (same condition as S44), so "Before pulling" step 2 applies: STOP, do not pull. Push deferred on that basis and flagged to PROME.
+
+---
+
+## ADDENDUM — 2026-09-14 ~14:1x ET (second ending; W-A floor A1/A2/A3 + A5/A6/A7)
+
+**DAEDALUS INDEPENDENTLY VERIFIED the FT-11 leg-(iv) repair** — it attacked with two counterexamples of its own and its own tests refuted both. **State on that repair upgrades: IMPLEMENTED → TESTED → INDEPENDENTLY VERIFIED.** Its correction to its own L258 record is accepted: it had put the "luck" in the off-grid cut, which is a real structural property, not luck — the exposure was a *different leg of the same letter*.
+
+**What it found, and what it missed.** The fail-open `try/except` raw-float fallback I removed from `ft11_delta5()` on principle **was still live in `_scaled()`** — the function my own docstring called "identical in kind." Forced, it returns `930.0000000000001` and fires FT-07's `>930` that the letter forbids. ⚠️ **DAEDALUS named only `_scaled`; the same branch was ALSO in `boot.py scaled()` — the live path, by its own L258 packet's words.** Both removed. **A peer verification narrowed the perimeter without closing it; checking the CLASS rather than the named site is the only reason the live path got fixed.**
+
+🔴 **My own fix for the unreachable-test defect REPRODUCED the unreachable-test defect.** Adopting PAT-172's remedy I made the suite assert its own case count, incremented the counter between the verdict and the accumulator, and **the suite printed a visible FAIL line and "ALL PASS" in the same output.** A meta-check is not exempt from the class it polices. Now computed once and **FALSIFIED rather than trusted** — deleting one check's increment makes the suite exit 1, verified in a temp copy.
+
+**FT-08 perimeter gap closed by declaration** (DAEDALUS's second point, accepted): unmapped BY DESIGN, so the compound is computed outside both instruments and inherits no exact-decimal discipline, and `>= 3.0` makes a corrupted compound a **silent false negative on a re-arm trigger**. The grading rule is now in its basis cell because no code will ever tell a hand-grader. ⛔ Not a claim it has mis-graded.
+
+**Nothing analytical moved: no weight, no threshold, no trigger state, no thesis implication.** FT-07 sits +146bp from its tie. `boot.py` re-run — all 12 legs identical, FT-10 still reads the 09/11 bar, re-confirming today's held grade. ML-RED-248. SCAN view 16,608 B = 51.0% of cap.
+
+**Unchanged from the main handoff:** NEXT SESSION items 1–9 all stand, **item 1 (grade the 9/14 ^SKEW bar tonight after ~17:00, archive only) is still the first thing.** No pull, no push — `reviews/` still dirty outside RED's dir.
