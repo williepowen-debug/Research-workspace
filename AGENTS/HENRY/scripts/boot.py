@@ -567,7 +567,9 @@ def walter_lane_backlog(today=None):
     print(f"  {mark} {len(unlogged)} unlogged signal(s) in the WALTER lane; oldest {oldest}d.")
     print("     Step 3a: read → append a board_log row (source=INBOX_WALTER) → git mv to processed/.")
     for f in sorted(unlogged, key=lambda x: (_age(x) or 0), reverse=True)[:8]:
-        print(f"       {_age(f):>3}d  {f.name[:96]}")
+        a = _age(f)
+        # a is None for lane files that are not SIG-W-YYYYMMDD-nnn (e.g. NOTE-*): print '?', never crash.
+        print(f"       {a:>3}d  {f.name[:96]}" if a is not None else f"         ?  {f.name[:96]}")
     if len(unlogged) > 8:
         print(f"       … and {len(unlogged)-8} more (filenames only; `ls inbox/WALTER/`)")
     return [f.name for f in unlogged]
