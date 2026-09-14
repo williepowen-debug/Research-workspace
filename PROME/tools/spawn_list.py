@@ -275,7 +275,7 @@ def list_open(docket_text, today):
     the alternative PROME actually reached for was an ad-hoc substring match that read 77
     TERMINAL rows as open and put a false premise into a desk's instructions.
 
-    Returns (line_no, date_cell, owner, state_kind, overdue, description) for open rows only.
+    Returns (line_no, date_cell, owner, overdue, description) for open rows only.
     """
     out = []
     for i, line in enumerate(docket_text.split("\n"), 1):
