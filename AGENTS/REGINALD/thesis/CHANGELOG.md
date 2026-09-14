@@ -14,6 +14,32 @@
 
 > ⚠️ **STRUCTURAL FIX 2026-09-02, and it was a real navigation defect:** this file declares *"reverse chronological"* at the top, and the **newest entry (2026-09-01) was sitting at the very BOTTOM — below the file's footer and below a banner reading `THIS CHANGELOG IS CLOSED FOR THESIS-DOCUMENT ENTRIES`.** A reader travelling top-down hit *CLOSED*, read it as the end of the file, and never reached the live entries. **The banner is scoped to thesis-DOCUMENT entries and these are STATUS thesis-STATE entries — a different class that the container silently suppressed.** `[[finding_live_claim_in_a_closed_container_is_invisible]]` Post-retirement entries now sit at the TOP where the stated ordering says they belong.
 
+## 2026-09-14 — Stagflation Trap channel 🟠→🔴: BOTH LEGS STANDING for the first time — thesis-STATE change on `STATUS.md` §THESIS
+
+**Authority:** owner re-grade, REGINALD, at my own instruments (yfinance daily bars + FRED primary pulls, 2026-09-14). Logged here because §THESIS of the thesis-canonical `STATUS.md` carries this channel's status token and the claim itself moved, not merely a price.
+
+**Old view → new view:**
+
+| | Old (9/1 → 9/11) | **New (9/14)** |
+|---|---|---|
+| Channel status | 🟠 | **🔴** |
+| Framing | *"the structure is TWO LEGS and only ONE is standing"* | **"both legs are standing — the first time this row has been able to say that"** |
+| Rate leg | 10Y 4.80% [9/1]; 30Y 5.17% [8/25] | **10Y 4.97% [9/11] · 30Y 5.37% [9/10] — past BOND's 5.31 19-yr high on the graded series** |
+| Energy leg | Brent $95.16 [9/1], *"round-tripped, then re-armed"*, $5.5 below the $100.69 [7/23] tag | **Brent $104.61 [9/11], cycle high $107.63 [9/10] — the tag was TAKEN OUT on 9/9 ($101.21). It did not re-arm; it BROKE OUT.** |
+| Joint mechanism | none named | **9/16 FOMC priced ~85% for a 25bp HIKE** (CME 85.5% [9/12]; Kalshi 83.5 / Polymarket 84.5 / VWAP 84.3 [9/14]) — hot energy → hot CPI → hiking Fed → AOCI/NIM/capital |
+
+**Why this is a thesis-level move and not a price update:** the row's own stated test is conjunctive — *"a stagflation call needs both legs; a bank-capital call needs only the rate leg."* Until 9/9 the energy leg had round-tripped and the row said so. Both legs now satisfy the test simultaneously, which changes what the channel asserts, not merely where it sits.
+
+⚠️ **Calibration note carried INTO the upgrade, because this row has been wrong in this exact direction before:** it asserted *"oil leg FIRING"* for **41 days off a stale 7/17 level**, was re-graded down 8/27, re-upgraded 9/1, and is only now correct for the reason it originally claimed. **A row with that history earns a harder look at an upgrade than at a downgrade.** Every leg above was re-pulled end-to-end this session rather than carried, and the Brent trajectory was verified point-by-point specifically because `LESSONS.md` holds a Brent-phantom entry ($118-125 asserted against an actual $81.40).
+
+⛔ **What did NOT move, stated so the entry cannot be over-read:** the LIVE thesis claim — **severity is CONCENTRATED, not tier-wide** (3 of 14 filers elevated, 8 at ≤2) — is UNCHANGED. No matrix score moved, no bank-level threshold moved, no prediction was re-marked. `REG-T-01` stays UN-FIRED and `REG-T-02` stays FIRED at 0-of-3 on its exit. This entry upgrades ONE channel row in the §THESIS table.
+
+🔴 **And the counter-evidence, which belongs in the record beside the upgrade: KRE did not move through any of it** — 74.31 [9/8] · 73.45 · 73.81 · 73.90 [9/11] · 74.08 [9/14], flat through an 11% oil move, a 17bp 10Y move, a 19-year-high 30Y and an 85% priced hike. **The regional complex is pricing none of this.** That is the third consecutive null of the same shape (8/14 de-rating, 9/1 fire, now this) ⇒ **the transmission is a thesis, not yet a tape**, and the upgrade is a claim about the INPUT, never about confirmed bank transmission.
+
+⚠️ **Ownership fence:** HAWK / BRENT / FALCON own the oil verdict and its causes (Bab el-Mandeb, Petroline/Yanbu, Oman); BOND owns the curve and its high-water claim. **I re-graded only my own channel row, through the AOCI/NIM/capital transmission I own end-to-end**, and flagged the 30Y high to BOND rather than re-grading BOND's series. FOMC pricing is WALTER-relayed and was **NOT read at the CME primary** — the 8/31 Forbes 66% leg is unreconciled, so the probability trajectory must not be presented as monotonic.
+
+---
+
 ## 2026-09-01 — `REG-T-02` FIRED (WAL $77.26 close) — thesis-STATE change on `STATUS.md#wal-v1v3-thesis`; the mechanism claim did NOT move
 
 **Authority:** owner grade, REGINALD, at the registered instrument (`registry/NOTES.md §REG-T-02` ruling 2026-09-01). Logged here because the trigger's `threshold_thesis_ref` is the WAL V1/V3 leg of the thesis-canonical `STATUS.md`, and a registered-trigger state flip is a thesis-state change under the RE-SCOPED rule (2026-08-20).
