@@ -30,6 +30,36 @@
 #     scoped        a named part only — a section, a header, a ToC-first drill (READ_CAP.md rule 8).
 #     grep          matched lines only.
 #     summary       a tool reads it and emits a BOUNDED output; the rows never enter context (ruling 3).
+#                   ⭐ THIS IS THE 'A SCRIPT READS IT, NO SESSION DOES' CASE — say it that way, because the
+#                   TOKEN DOES NOT. 2026-09-14: RED proposed mode `script` for exactly this and PROME
+#                   transcribed it to `summary`, flagged in the row. The token was never missing; its NAME
+#                   did not find the declarer. ⛔ Do NOT mint a `script` token — `summary` already means this
+#                   and a second token for one meaning is how a vocabulary starts lying.
+#                   WORKED EXAMPLE, and the single row that would have prevented the whole 9/14 episode:
+#                   AGENTS/RED/workbook/SCHEMA.tsv — flagged at 77.9%% of budget by the charter heuristic,
+#                   attributed to a 'boot step' that self-labels '(closeout, not boot)' and invokes a script.
+#                   There was never a breach; RED was one commit from splitting a live co-signed contract.
+#   RE-CLASSIFICATION IS ROUTINE MAINTENANCE, NEVER A FINDING AGAINST THE DESK (added 2026-09-14, PROME,
+#   on WALTER's flag; RED's declaration is the worked example of the honesty it depends on).
+#   ⛔ THE STRUCTURAL RISK THIS RULE EXISTS TO STOP: a self-declared perimeter is worth exactly the honesty
+#   of its declarer, and EVERY declarer under cap pressure has an incentive to declare SMALL — in good
+#   faith, by choosing the reading that clears. Without a cheap way to be moved UP, this manifest becomes a
+#   SECOND HEURISTIC WEARING A DECLARATION'S COSTUME, and WORSE than the heuristic it replaces, because a
+#   declared number carries authority a guess does not
+#   (`finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit` — a present row with a
+#   self-serving cell passes every presence audit ever written).
+#   ⇒ Moving a row `scoped` -> `whole` (or `summary` -> `programmatic`) is a CORRECTION, filed like any
+#   other: new mode, `declared_by` unchanged (the READER still owns the claim), reason in notes, no blame
+#   language, no ruling required. A desk that asks to be re-classified UPWARD has done the expensive thing
+#   and the record should read that way — RED flagged AGAINST ITS OWN INTEREST that several of its `scoped`
+#   claims are predicate-shaped and may be `whole` under READ_CAP rule 16, and asked to be moved up rather
+#   than accept a flattering mode it had itself proposed.
+#   ⚠️ SWEEP DESIGN CONSEQUENCE (WALTER, 9/14): SEED each desk's rows FROM ITS OWN CHARTER and ask it to
+#   CORRECT them — do NOT ask it to author its footprint from scratch. Correcting a wrong row is a different
+#   cognitive task from declaring your own reach, and it does not reward under-declaring. ⚠️ RED had to be
+#   WRONG FIRST to know to write its SCHEMA row; the other undeclared desks have not had that moment, so
+#   their first declarations come from intuition about what their boot 'really' reads. THAT is the
+#   population this sweep samples.
 #   ATTESTATION rows carry mode `manifest-complete` and are NOT reads.
 #
 # ⛔ NO BYTE COLUMN, AND THAT IS DELIBERATE. This file declares WHAT IS READ; the checker MEASURES at run
