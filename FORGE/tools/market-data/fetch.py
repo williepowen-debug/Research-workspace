@@ -1040,10 +1040,11 @@ def contract_probe(root, horizon=5, exchange="NYM"):
     cont_px = _q(cont_px)
 
     now = time.localtime()
-    cands, times, dropped = {}, {}, {}
+    cands, times, dropped, attempted = {}, {}, {}, []
     y, m = now.tm_year, now.tm_mon
     for _ in range(max(1, int(horizon))):
         sym = f"{root}{_MONTH_CODE[m]}{str(y)[-2:]}.{exchange}"
+        attempted.append(sym)
         try:
             cm = yf.Ticker(sym).history_metadata
             px, tt = cm.get("regularMarketPrice"), cm.get("regularMarketTime")
@@ -1063,9 +1064,18 @@ def contract_probe(root, horizon=5, exchange="NYM"):
         if m > 12:
             m, y = 1, y + 1
 
+    # `attempted` beside `dropped`: the result showed which candidates were
+    # OBTAINED, never which were tried and lost, so a transient failure on the
+    # TRACKED slot produced a plain no-match refusal with no tell. ⚠️ The loop
+    # starts at the current calendar month, so for a root already rolled past it
+    # the first slot is always a wasted call on an expired contract -- visible
+    # here rather than fixed, because skipping it would encode a roll assumption.
+    ages = {k: (abs(int(v) - int(cont_t)) if (v and cont_t) else None)
+            for k, v in times.items()}
     base = {"root": root, "continuous": cont, "continuous_price": cont_px,
             "continuous_time": cont_t, "candidates": cands,
-            "candidate_times": times, "dropped": dropped}
+            "candidate_times": times, "candidate_age_s": ages,
+            "attempted": attempted, "dropped": dropped}
 
     if len(cands) < 2:
         return dict(base, verdict="REFUSED-too-few-candidates-for-a-control")
@@ -1078,7 +1088,20 @@ def contract_probe(root, horizon=5, exchange="NYM"):
     # thin back-month contract is still DISTINCT. Its stated purpose (rule out a
     # resolver artefact) is met; its implied purpose (that the comparison set is a
     # valid basis) is not. Say which, rather than emitting a bare pass.
-    STALE_S = 900
+    # ⚠️⚠️ STALE_S IS UNCALIBRATED AND IT IS LOAD-BEARING FOR EXACTLY THE ONE ROOT
+    # WITH NO FALLBACK. The review gave the PROPERTY ("materially older"); the
+    # number is mine and rests on nothing. Set too tight, BZ refuses on every
+    # quiet afternoon and desks lose the only Brent identity they have; too loose
+    # and a frozen leg passes the control again. It also has no natural scale --
+    # a back-month's staleness is measured against a continuous that reprices
+    # every second, so any fixed second-count encodes a liquidity assumption that
+    # differs per root and per session.
+    # ⇒ MITIGATION, not a fix: `candidate_age_s` reports the OBSERVED age of every
+    # candidate unconditionally, so a consumer can judge without trusting this
+    # constant, and the label below is advisory beside a measurement rather than
+    # a verdict standing alone. Calibration needs BZ observed in the last hour
+    # before a close and overnight -- NOT at midday, which is when it first fired.
+    STALE_S = 900  # UNCALIBRATED -- see above; DOCKET row owns the calibration
     stale = [k for k, v in times.items()
              if cont_t and v and abs(int(v) - int(cont_t)) > STALE_S]
     control = "passed-distinct-prices" if not stale else \
@@ -1086,7 +1109,22 @@ def contract_probe(root, horizon=5, exchange="NYM"):
 
     hits = [k for k, v in cands.items() if abs(v - cont_px) < 1e-6]
     if len(hits) == 1:
-        return dict(base, verdict="IDENTIFIED", tracking=hits[0], control=control)
+        # ⚠️21: two independent answers to one question, previously never joined.
+        # The free name-parse and this price-match reach a contract by COMPLETELY
+        # different routes, so when both exist their agreement is the strongest
+        # available evidence the design is right -- and it was being discarded.
+        # (It is free only for roots whose name carries a month, i.e. not Brent,
+        # which is the root this function exists for; that is why it is a
+        # cross-check and not the mechanism.)
+        name_lab, _ = contract_identity(cmd)
+        name_sym = _dated_symbol(cont, name_lab) if name_lab else None
+        if name_sym and not hits[0].upper().startswith(name_sym.upper()):
+            return dict(base, verdict="REFUSED-disagrees-with-vendor-name",
+                        tracking_by_price=hits[0], tracking_by_name=name_sym,
+                        control=control)
+        return dict(base, verdict="IDENTIFIED", tracking=hits[0], control=control,
+                    cross_check=(f"agrees-with-vendor-name:{name_sym}" if name_sym
+                                 else "no-vendor-name-to-compare"))
     if hits:
         return dict(base, verdict="REFUSED-multiple-price-match", control=control)
     # ⛔ ZERO HITS IS TWO DIFFERENT FACTS AND THE VENDOR SUPPLIES THE DISCRIMINATOR.
