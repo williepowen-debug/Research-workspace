@@ -1,69 +1,45 @@
-# FALCON SCRATCH — 2026-09-11 Fri ~23:4x ET (`falcon-0911b`, **Will-booted** ~17:3x ET, closed out ~23:4x) · full session block archived → `domain/sources/STATUS_archive_2026-09-11b_rotation.md`
+# FALCON SCRATCH — 2026-09-14 Mon (`falcon-0914`, **PROME-spawned Tier-1 WQ-184 L0 due-row spawn**, ~15:4x → ~16:4x ET)
 
-**Purpose:** ephemeral handoff — read at boot (step 2), rewritten at closeout. Tonight's argument → `reports/2026-09-11b_petroline-CONFIRMED-tell2-fired.md` (**read its CORRECTION banner first**).
+**Purpose:** ephemeral handoff — read at boot (step 2), rewritten at closeout. **Tonight's full argument + the 12-row evidence register → `reports/2026-09-14_gate-review-and-bab-seizures.md`.**
 
 ---
 
 ## CURRENT MARKS (one line)
-- **B 3 / C 22 / D 75 — HELD 2026-09-11 ON THE LETTER**, and re-confirmed unmoved by PROME at its end · **D→85 rung ARMED, UNFIRED, 3rd consecutive check** · Convergence 43/50 · Kinetic 🔴 · **Brent: BRENT owns it** · **`FAL-05` OPEN @55%, resolves 2026-10-07 — route (b) live but NOT one limb from firing** · Scoreboard 1C / 2F / 1P / 0V / 1 OPEN · 🔴 **Total losses = 3** (unchanged) · **Net crude supply loss UNQUANTIFIED — FAL-05 unfired at 197 war-days; a PREDICTION STATE, not a measured zero** · thesis-kill 0/7 · **`GATE-FALCON-001` LIVE, `review_by 2026-09-14`**
+- **B 3 / C 22 / D 75 — HELD 2026-09-14 ON THE LETTER** against three Bab seizures, all registered non-triggers · **D→85 rung ARMED, UNFIRED, 4th consecutive check** · Convergence **43/50 (unchanged since 7/30 — see the instrument finding)** · Kinetic 🔴 · **Brent: BRENT owns it, I carry no live price** · **`FAL-05` OPEN @55%, resolves 2026-10-07 — day 4 of the ≥7-elapsed bar, earliest 9/17–18** · Scoreboard 1C / 2F / 1P / 0V / 1 OPEN · 🔴 **Total losses = 3** · thesis-kill 0/7 · **`GATE-FALCON-001` LIVE, `review_by` ADVANCED → 2026-09-21**
 
-## ⛔ READ THIS FIRST — FIVE CLAIMS FROM THIS SESSION WERE WRONG AND ARE CORRECTED
-An **external review (CODEX, via Will)** caught them **after** I had committed, pushed and delivered to BRENT, HAWK and PROME. Both checkable findings were verified against my own artifacts before I accepted any of it. Review: `reviews/2026-09-11_falcon_petroline_recap_review.md`. `KB-180`
-1. **"36 hours" was never computed — it is 25h21m** (09:30Z 9/10 → 10:51Z 9/11).
-2. 🔴 **WORST: I refuted the hotspot↔pipeline link with my own control, then reasoned across it** to claim *"the outage is not a same-day reset"* — **and that went to BRENT as forward guidance. RETRACTED. I have NO evidence bearing on repair duration.**
-3. **Non-detection is not proof** — neither "not flares" nor "terminals undamaged" follows from a blank; VIIRS assigns no cause.
-4. **An untriggered prediction is not a measured zero**, and route (b)'s volume limb is **NOT established** (no STATED offline figure) ⇒ **duration is NOT the only open limb.**
-5. **The JWC "find" was already at `domain/FRESH_LEG_BASELINE.md:21`, annotated 8/31** — a consumption failure I reported to Will as a discovery.
-✅ **SURVIVED:** the event confirmation (rests on the MoE statement, never the satellite work), the refusal to grade satellite-only, the geometry refutation, **every registered mark and trigger**. ⚠️ Four relays of ONE official statement = ONE source.
+## ✅ WHAT THIS SESSION ACTUALLY SETTLED
+1. ⭐ **THE GATE WAS REVIEWED ON ITS REGISTERED DATE, ALL THREE LEGS — and leg 2 is no longer UNGRADED-ON-BASIS** (it was, at both the 9/7 and 9/11 touches). **Own TankerMap read 9/14: 7dma 4.0 tankers/day · 7d total 28 · +47% w/w · 5 in zone.** The letter needs a step-**DOWN**; the 7dma **ROSE 3.1 → 4.0**. **Leg 2 OPEN, NOT FIRED, on a fresh sourced negative.**
+2. 🔴 **Both lanes of Bab el-Mandeb are hostile-held and the override still does not trip.** Control ≠ enforcement: nothing interdicted, no toll, no restriction executed, and **transits rose 47%**. Saree's statement is a DECLARATION **and** a RESTATEMENT of the 7/22 embargo.
+3. ⛔ **Hanish: my 9/11 REPULSED grade is SUPERSEDED, NOT REFUTED** (9/11 assault repulsed → 9/14 withdrawal-handover). **Two events, two mechanisms.** Plus the scoping nobody made: **Hanish is ~160 km N of the strait — Red Sea reach, not strait control.**
+4. 🔑 **The Petroline volume limb has its first qualifying-class number: Kpler ~2 mb/d August throughput** — **3.5× below the ~7 mb/d nameplate everyone is sizing off.** Four objects now circulating; the measured one is the smallest.
+5. **Inbox 10/10 drained** after 3 days dark. **WALTER's `board_log` truncation hypothesis checked at my own artifact: ZERO duplicates across 133 rows** — mechanism real, has not manifested here; boot step 6c switched to a grep membership test anyway.
 
-## CHANGES SINCE LAST SESSION (9/11 ~00:0x → ~23:4x ET)
-- ✅🔴 **TELL #2 FIRED.** Saudi MoE (X, 9/11): the **East-West/Petroline crude pipeline SHUT** "as a precautionary measure" after "multiple" attacks 9/10 in the Riyadh and Madinah regions. Stations **Al Mesba'ah**/**Al Dhekra** at C3. **Drones reported from IRAQ; responsibility NOT established.** `KB-172/173`
-- 🛰️ **FIRMS key live; own pull run.** Full **518-row population (9/08–9/11)** preserved at `domain/firms/raw_2026-09-11/` after review found the first CSV couldn't reproduce its own controls. Four candidate zones, **no detections in-product 9/08–9/09**, Riyadh max FRP 29.6→158.5 MW over **25h21m**. **ADD#15 no longer binds.** ⛔ **Corrections 2/3 govern every use.** `KB-174/175/176`
-- ⛔ **Route geometry INCONCLUSIVE — own control refuted own inference.** `KB-177`
-- ⚖️ **FAL-05 NOT fired, confidence UNMOVED at 55%.** `KB-178` · **rung UNFIRED** · **`FLOW-FALCON-04`** opened (crude-bypass interdiction) · 2 **STRIKES.tsv** rows — **first CRUDE-PIPELINE rows of the war** · sweep mark → 9/11 · `ANALYSIS_2026-09-11.md` regenerated.
-- ⛔ **FALSE-FIRE ⑥** — the "US-Iran ceasefire" headline is the **2026-04-08** truce recirculating. **B stays 3.** Row ⑤ CLOSED. `KB-179`
-- 🔴 **WARRISK RE-CLASSIFIED: an ACCESS problem, not a data problem** (`KB-181`, **WQ-230**). **Six** documented attempts (7/30·8/6·8/15·8/20·9/7·9/8), two Will-approved, **all SEARCH-NOT-FOUND**, clock unmoved at 7/23. **Marsh sells no subscription (broker); Lloyd's List/JWC and Platts paywalled.** ⇒ **a 7th tasking returns the same answer; what resolves it is ACCESS — Will's call.** ⚠️ **My defect: six identical negatives filed as a data gap.**
-- ✅ **`LESSONS.md` FAL-12**, then **reconciled to PROME's encoding** — it is the **SELF-AUTHORED LIMB** of `[[finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live]]`, not a distinct class (PROME overrode my call; correctly). Two operational points adopted: **search by DEPENDENCY not keyword** · **a disclaimed link is not a severed one**.
-- ✅ **`LESSONS.md` ROTATED** 32,512 B → now 19,420 B (hot/cold, **zero lessons lost**, all 11 claim lines hot, full text → `archive/LESSONS_archive_2026-09-11.md`).
+## 🔴 NEXT SESSION (dated, future-verifiable)
+1. 🔴 **ANY DAY — A FORCE MAJEURE DECLARATION** ⇒ fires FAL-05 route (a) **instantly, no duration bar.** Highest-value watch on the board. State: **SEARCH-NOT-FOUND, corroborated** (Aramco newsroom + targeted search + press reporting none declared) — **still NOT a verified absence.**
+2. 🔴 **2026-09-17/18 — route (b)'s ≥7-consecutive-days-ELAPSED bar is earliest satisfiable.** Today was day 4. ⚠️ **Needs the volume limb TOO — and Kpler's ~2 mb/d is a pre-outage THROUGHPUT figure, NOT a statement that 2 mb/d is offline.** Do not merge them.
+3. 🔴 **ANY DAY — a restart / repair / "line secured" statement.** Ends the clock. ⛔ **I still hold NO primary on repair duration**; the two press estimates (3–5 wk BNN, 5–6 wk Reuters/AlJaz) disagree ⇒ ~10/02–10/26. **Do not re-derive a duration from hotspots — that association is refuted.**
+4. **2026-09-21 (Mon) — `GATE-FALCON-001` `review_by`.** Next tanker-weekly. **Event override is the real trigger: review IMMEDIATELY on any Bab ENFORCEMENT event** — an interdiction, a toll actually levied, a restriction executed, or a hull attacked in the zone.
+5. **2026-09-25 → 10/26** Iran-Oman corridor window (L229) — ⚠️ **the 9/14 meeting was POSTPONED, the only live de-escalation channel** · **2026-09-30** US withdrawal deadline from Iraq, **now with a SAUDI STATE attribution to Iraqi militias** · **2026-10-07** FAL-05 resolves + EXIT_PROTOCOL §5 rewrite trigger.
 
-## NEXT SESSION (dated, future-verifiable)
-1. 🔴 **ANY DAY — A FORCE MAJEURE DECLARATION** on crude liftings/deliveries ⇒ fires FAL-05 route (a) **instantly, no duration bar**. Highest-value watch on the board. Current state **SEARCH-NOT-FOUND, not a verified absence.**
-2. 🔴 **ANY DAY — a QUALIFYING STATED offline-capacity figure** (operator / state / named trade primary). **Route (b) cannot fire without it** — this is the limb I wrongly reported as cleared. Asked of BRENT.
-3. **2026-09-17/18 — earliest date route (b)'s ≥7-consecutive-days-ACTUALLY-ELAPSED bar can be met** from the 9/10 cause. **Dated carry item; will not self-evaluate. Needs #2 as well as elapsed time.**
-4. **ANY DAY — a restart / repair / "line secured" statement.** Ends the clock. ⚠️ **I have NO evidence on repair duration — do not re-derive one from the hotspots.**
-5. **2026-09-14 (Mon) — FOUR on one touch:** `GATE-FALCON-001` `review_by` (leg 2, TankerMap like-for-like ONLY) · **Yanbu weekly loadings print** (leg-3 instrument **and** FAL-05 route (c) **and** tell-#2 resolver #5) · **build the terminus proxy** (`KB-168`) · 7-day re-mark. ⚠️ **WALTER's two-sided caveat: the print carries TWO live causes and does not discriminate alone.**
-6. **ANY DAY** — trigger-(c) Hercules Star resolver (3rd failed check; **HAWK's base rate says do not expect it**) · total-loss watch Hercules Star + New Andros.
-7. **2026-09-25 → 10/26** Iran-Oman corridor window (L229) · **2026-09-30** US withdrawal deadline from Iraq — **now with a live Iraqi-origin strike axis** · **2026-10-07** FAL-05 resolves + EXIT_PROTOCOL rewrite trigger.
+## ⚠️ OWED BUILDS, RANKED — #1 IS A STATED MISS FROM TONIGHT
+1. 🔴 **THE YANBU TERMINUS PROXY IS STILL UNBUILT** (`KB-168`, spec'd 9/10, **due today**) — and it is now the **BINDING gap on FAL-05 route (b)**. **I did not build it: the gate review and a 10-item backlog after 3 days dark took the session. Recorded as a miss, not silently deferred.**
+2. 🔴 **THE APRIL-2026 PETROLINE REPAIR PRECEDENT IS DISPUTED INSIDE MY OWN RECORD** — my ledger says *one station, −700 kb/d, restored ~2 weeks*; Al Jazeera 9/14 says capacity restored *"within three days"* and separately cites a **March** Yanbu-area strike recovering *"within days."* ⛔ **Cite NO repair precedent until one is pinned at a primary.** This number has already gone to BRENT twice.
+3. 🔴 **WARRISK — ALL 5 ROWS EXPIRED +42d**, registered falsifier included (West Coast Saudi 0.1%, age 53d). ⛔ **This is `WQ-230`, an ACCESS decision owed by WILL — a 7th research pass returns the same answer. Do NOT re-run it as a data task.**
+4. **STATUS hot/cold split** — the file sits at **32,273 B against a 32,550 B cap** after two rotations tonight; residue is declared in the file itself. **The next append breaches.**
+5. VESSELS/CASUALTIES staleness check · 6. `bypass_watch.py` empty-series guard · 7. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **The Petroline outage** — daily: Aramco newsroom · SPA · Saudi MoE · CENTCOM · Reuters/AP/Bloomberg Gulf desks. **Re-running the FIRMS pull is cheap** (recipe in the processed PROME packet; key at `FORGE/tools/market-data/.env`) — but ⛔ **it cannot tell you about the pipeline; the association is refuted.** Treat any new zone as a candidate anomaly only.
-- 🔴 **WARRISK — now an ACCESS ask (WQ-230), not a research task.** Do **not** re-run the search as though it were a data gap.
-- 🟠 Petroline attribution (Iraq axis, unestablished) · Hercules Star attribution · Iranian zone boundary · **Iraq export approach (Basra/Al-Faw)** — recorded perimeter gap · Kuwait/Bahrain in-port class (4 clean checks) · Kharg after the Derya strike (dark-immune routes only).
+- 🔴 **The Petroline outage, day 4** — daily: Aramco newsroom · SPA · Saudi MoE · CENTCOM · Reuters/AP/Bloomberg Gulf desks. ⛔ **FIRMS cannot tell you about the pipeline; the association is refuted.**
+- 🔴 **Bab ENFORCEMENT watch** — the override's real trigger. Control is established; **exercise is not.**
+- 🟠 Petroline attribution (now a Saudi STATE claim naming Iraqi militias — the Iraq/PMF discriminator is the instrument) · Hercules Star attribution (4th failed check) · Iraq export approach (Basra/Al-Faw) · Kuwait/Bahrain in-port class (still **no precedent in 196 war-days** — the D→85 rung's trigger (c)).
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **FAL-05** OPEN → 2026-10-07; **nothing due before then**, but route (b) is live — see NEXT SESSION #2/#3.
-- **Will:** ① corrected trigger-(c) base rate (**≥1 in 193 days**, not 0) — routed 9/10, **still owed a relay**; ② HAWK's state-communication observation on (c) — **prospective only, letter untouched**; ③ 🔴 **WQ-230 / WARRISK access decision.**
+- **FAL-05** OPEN → 2026-10-07; nothing due before then, **but route (b)'s clock runs 9/17–18.**
+- **Will:** ① 🔴 **`WQ-230` / WARRISK ACCESS decision — still owed, now beside 5 expired rows** ② corrected trigger-(c) base rate (**≥1 in 193 days**, not 0) — routed 9/10, **still owed a relay** ③ HAWK's state-communication observation on (c) — prospective only.
 
-## MAIL STATE (one line per surface)
-- Inbox **clear (3/3 drained)**. Delivered: **BRENT** (acute + correction), **HAWK** (cc + correction), **PROME** (main + correction) — all carve-out ①, self-committed. PROME verified at the artifacts and confirmed marks unmoved; **nothing owed back.**
-- ⚠️ `date` re-run before every stamp; session correctly recorded as **9/11 ~17:3x → ~23:4x ET**, one evening block.
+## MAIL STATE
+- **Inbox 10/10 drained** (3 direct + 7 WALTER), all `git mv`'d to `processed/`, all 11 dispositions in `board_log.tsv`. Delivered: **PROME** (completion memo + the HEARTBEAT one-liner), **BRENT** (the Kpler figure + the disputed repair precedent). Flagged back to **WALTER**: the `$100` guard inversion is confirmed (price half retires, Jazan/Yanbu anti-merge half stays) — **anchors corpus is WALTER's file, not edited by me.**
+- ⚠️ `date` re-run before every stamp; one stamp written as ~16:2x was corrected to the clock mid-session.
 
-## ✅ DANGLING CITATION — RESOLVED 2026-09-11 ~23:5x ET (PROME, `6a63f1b85`)
-- **All five `reviews/*.md` are now TRACKED and my 8 citations resolve** — verified at the artifact, not from the message (`git ls-files` + target present on disk).
-- **The flag was right and bigger than I measured it.** I counted my own surfaces; PROME measured **13 citations across 11 committed files spanning FALCON, HAWK, BRENT, SAM and PROME** — the petroline recap alone cited by **eight** committed files. **Anyone pulling saw every citation and no document.**
-- ⚠️ **This entry replaces a flag that said "UNTRACKED … not fixed by me." That is now FALSE and would have been the THIRD describing-surface-vs-canon drift of one session** — the class I spent the evening correcting. Corrected rather than left to rot.
-- **Boundary, recorded so it is not misread as precedent:** PROME committed files it did not author under Will's explicit *"lets commit and push"* with those files in the tree, `reviews/` being an already-tracked directory with a prior `REVIEW -> PROME` commit of the same shape. **Not a standing grant, and `reviews/` stays EXCLUDED from ARGUS's audit perimeter.** I did not commit them and should not have.
-
-## 📌 OPEN FLAG TO PROME — SENT, UNANSWERED (PROME went dark)
-- **`WQ-230` is on the queue (`PROME/WILL_QUEUE.md:25`, OPEN, ACTION, needed-by 2026-09-15) but has NO row in `PROME/registry/WQ_EXPLAINERS.tsv`** (highest 221–226; file last touched 19:11, *eight minutes before* WQ-230 was created at 19:19). Per `decision_deck.py` lines 11–12, a row without a sidecar entry renders **"explainer owed"** — so the card reaches Will's decision surface **with no plain-English block, on the one row whose entire content is a three-way choice only he can make.**
-- **Flagged by packet** (`PROME/inbox/2026-09-11c_from-FALCON_…`, `aa592c294`) because PROME was dark — **unanswered as of session end.** ⚠️ **NOT MINE TO FIX:** `WILL_QUEUE`, the explainer sidecar and the deck are all PROME's. **Do not draft into PROME's registry.** If PROME asks, the content it needs is in STATUS § Cross-Agent Implications + `KB-FALCON-181`.
-- ⚠️ **I could not see the LIVE published deck from this box** — the claim is only that the sidecar lacks 230 and what the code does with that. **If PROME regenerated after 19:29 this may already be closed; check before re-raising.**
-- 🔑 **Next session: check whether WQ-230 still shows "explainer owed" before re-flagging — and note that my first `grep 'WQ-230'` on `WILL_QUEUE.md` returned ZERO because the file writes the id as a bare `| 230 |`. Search the bare number, not the prefixed form.**
-
-## PENDING PUSH / GIT (if any)
-- **Will-booted session ⇒ auto-push at closeout, standard regime** (PROME confirmed: *"auto-push stands"*). Path-scoped `AGENTS/FALCON/` + self-authored packets (carve-out ①).
-
-## OWED BUILDS, RANKED
-1. **Bounded free-source WARRISK pass — THREE SEPARATE outputs** (geographic listings · cover restrictions · dated premium observations), each with source, date, contract/voyage basis and limitations, + an explicit statement of which questions the free sources answer and which stay UNKNOWN; **reconcile `FRESH_LEG_BASELINE.md:21`**; ⛔ **never refresh the premium clock from a listing circular.** *(Spec carried verbatim into WQ-230.)*
-2. **Petroline/Yanbu terminus-proxy throughput instrument** (`KB-168`, due 9/14) — **urgent: route (b)'s volume leg has no qualifying source.**
-3. VESSELS/CASUALTIES staleness check · 4. `bypass_watch.py` empty-series guard · 5. dark-immune Kharg instrument · 6. a boot-step reader for `EXIT_PROTOCOL` §5's dated rewrite trigger (still unbuilt; closeout step 11 remains its only reader) · 7. DAEDALUS rail-repair bundle.
+## PENDING PUSH / GIT
+- **PROME-spawned; the spawn prompt directs auto-push at closeout** via `scripts/safe-push.sh`. ⚠️ **Six other sessions live on this box — non-ff abort is ROUTINE; never force, recover per Git Protocol session-end step 3 INCLUDING its dirty-path overlap check before any `--autostash`.**
