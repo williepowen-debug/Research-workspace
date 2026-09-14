@@ -5,7 +5,8 @@
 **Thesis owner:** **BRENT** (distillate/crack domain). ⚠️ **TERRY owns construction ONLY** — I do not re-underwrite the crack thesis.
 **Tasking:** Will, relayed via BRENT 11:2x ET — verbatim ***"loop TERRY in on a VLO/MPC construction."***
 **Terry verdict:** 🟢 **STAGED — Will APPROVED 2026-08-27 ~12:1x ET, in-session, verbatim *"approved"*; route (i), `3 × VLO`. NOT YET FILLED. TERRY does not execute.** *(State token is `STAGED`, not "APPROVED": approval is the DECISION, `STAGED` is the card STATE — approved, gate clean, awaiting only the fill. `APPROVED` is on `ledger_sweep`'s deliberately-excluded list because it doubles as ordinary prose; check F caught this within a minute of the write and the fix was the SURFACE, never the vocabulary.)*
-> 🔴 **LATEST — 2026-09-14 13:11 ET: THE GATE IS MET AND MY RECOMMENDATION IS *DO NOT FILL TODAY*.** The refiners are red for a **MARGIN** reason, not an oil-beta one: **ULSD crack `$98.82/bbl` [13:11 ET intraday, own pull] vs `$108.24` [9/11 CLOSE]** — `HO=F` **−3.90%** while `CL=F` **+1.47%**. **The crack IS the thesis**, so the gate opened on a move whose composition refutes the reason the gate exists (construction rules #15/#23). ⛔ **The gate is NOT re-specced and the fill is NOT blocked — the rule is applied as written and the disagreement recorded.** **Read § RE-ARM #2 AMENDMENT at the foot of this card; it is the operative block.**
+> ⚪ **LATEST — 2026-09-14 15:24 ET: QUALIFYING DAY #1 CAME AND WAS PASSED OVER. Will, verbatim: *"ok we wont fill today."*** ⛔ **The 9/10 APPROVE is NOT withdrawn — the card stays ARMED, hands OWED, `needed_by` 2026-09-18.** My margin rec carried; **it is SPENT with the session that produced it** — on the next qualifying day, **if the crack is STABLE the recommendation is FILL** (§ QUALIFYING DAY #1 ④, binding on me). ⛔ **The setup is NOT broken and NO WQ row is raised: HENRY has not withdrawn `HEN-46`, `F1` has not fired (`$98.15` at 15:25:59 vs the `$95` stand-down), and one session is not a regime.** ⛔ **Three retired marks, kill-on-sight: `$1,033` · `$1,187.31` · `≈$1,140`.** **Read § QUALIFYING DAY #1 at the foot — it is the operative block.**
+> 🔴 **13:11 ET: THE GATE WAS MET AND MY RECOMMENDATION WAS *DO NOT FILL TODAY*.** The refiners are red for a **MARGIN** reason, not an oil-beta one: **ULSD crack `$98.82/bbl` [13:11 ET intraday, own pull] vs `$108.24` [9/11 CLOSE]** — `HO=F` **−3.90%** while `CL=F` **+1.47%**. **The crack IS the thesis**, so the gate opened on a move whose composition refutes the reason the gate exists (construction rules #15/#23). ⛔ **The gate is NOT re-specced and the fill is NOT blocked — the rule is applied as written and the disagreement recorded.** **Read § RE-ARM #2 AMENDMENT at the foot of this card; it is the operative block.**
 > 🟢 **GATE STATE — 2026-09-14 13:04:54 ET: MET** (VLO −2.45% / USO +0.82%, complex 4-for-4 red, both crude benchmarks green). **First qualifying tape since WQ-213 was ruled 9/10.** ⛔ Read **§ RE-ARM #2 at the foot of this card** — it supersedes the 9/11 `GATE FAILS` block, and it carries a 🔴 finding: **the 80% undefended-linear ceiling has gone DEGENERATE** (every defended leg harvested ⇒ the sleeve is 100% undefended at `X = $0`). **`$0` moved; the fill is Will's.**
 > ✅ **Rule #6 RE-MEASURED AT APPROVAL (12:12 ET), as this card required:** **VLO `345.29` −0.79%** · XLE −0.80% · **USO +0.86%.** **Refiners still RED, crude still GREEN ⇒ the entry gate is CLEAN on the direct measurement at the moment of approval.** ⚠️ **Still intraday — if the fill slips to another day, re-measure again; it is not a standing pass.**
 > ⚠️ **Will did NOT name the oil-exposure ceiling.** Approving route (i) settles it *for this `$1,033` add* (the sleeve math holds it inside the 80% undefended-linear ceiling regardless). ⛔ **It remains UNSET for any future add and the alternative route (ii) — trim-USO-first — is NOT approved and is NOT dead; it was simply not chosen here.**
@@ -355,3 +356,47 @@ The sizing bound on this card is **BRENT's 80% undefended-linear ceiling** (§4 
 ⛔ **NOT A REASON TO FILL, named in advance so it cannot be offered later:** *"the gate finally fired and it might not fire again"* — **THE CLOCK IS NOT EVIDENCE.** The gate has fired once in 18 days; that is a fact about frequency, never about price. *(This desk's own words, `RISK_RULES.md` § "Breaking root rule #6".)*
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. `$0` moved. Root rule #5. TERRY does not execute.**
+
+---
+
+## ⚪ QUALIFYING DAY #1 — **CAME, AND WAS PASSED OVER BY WILL'S OWN WORD. 2026-09-14.**
+
+**Will, verbatim, 2026-09-14 15:24 ET:** ***"ok we wont fill today."*** *(PROME packet `inbox/2026-09-14_from-PROME_wq213-will-passed-…`, commit `05bde0b28`; Decision Deck v30 build `4e270539b`, carrying BOTH halves of my 13:12 grade `1fe5ce488`.)*
+
+⛔ **`$0` MOVED · NO ORDER · THE 9/10 `APPROVE` IS **NOT** WITHDRAWN.** What was declined is **the fill on ONE qualifying day**, on my margin recommendation. **The card stays ARMED, the hands stay OWED, `needed_by` 2026-09-18 unchanged.**
+
+### ① 🔴 THE RECORD THAT MATTERS — my 9/11 grade said *"the fill waits on a qualifying measurement."* **ONE HAS NOW COME AND GONE.**
+
+**A later reader must not infer that no qualifying day has occurred. One has: 2026-09-14.** The gate was **MET** (VLO **−2.50%** / USO **+0.55%** at 15:25:59, red all session, complex-wide) and the day was **passed over deliberately, by the operator, with both halves of the grade in front of him.** ⇒ **This is the DISPOSITION of qualifying day #1, not a re-litigation of it, and not a gate failure.**
+
+⛔ **RETIRED, KILL-ON-SIGHT — three marks now, not two:** ~~`$1,033`~~ (8/27) · ~~`$1,187.31`~~ (9/11 10:11) · ~~`≈$1,140`~~ (9/14 intraday). **Every one is a dated mark, not a quote. Any re-arm RE-PULLS at the ticket.**
+
+### ② PROME'S QUESTION, ANSWERED: **TIMING — but about a THESIS-SIDE VARIABLE, which is a real third category and not a fudge.**
+
+PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** objection wearing a day-colour objection's clothes, and that if it holds it argues the **setup has changed** since 8/27 rather than that 9/14 was mistimed. **It deserves a straight answer.**
+
+> ### ⛔ **NO. I do NOT conclude the setup is broken, and I am NOT raising a WQ row.** Four reasons, and the fourth is the one I would want used against me:
+
+1. ⛔ **HENRY OWNS THIS THESIS AND HAS NOT WITHDRAWN IT** — in writing, 2026-09-13: *"HEN-46 remains ACTIVE and is NOT withdrawn."* **HARD BOUNDARY #3: I do not re-underwrite domain truth.** A construction desk retiring an owner's live thesis off its own read is the boundary violation this card's own §1 was written to avoid.
+2. ⛔ **THE PRE-REGISTERED FALSIFIER HAS NOT FIRED.** `F1` = crack **<$95 stand down** · **<$90.16 dead**, graded on **CLOSES**. **My 15:25:59 print is `$98.15/bbl`** (`HO=F` 4.74 ×42 − `CL=F` 100.93) — **above both lines.** ⛔ **A falsifier that exists and has not fired is the answer to "is the thesis broken," and inventing a second, unregistered one because I do not like the tape is precisely threshold-shaving.**
+3. ⛔ **MY EVIDENCE IS AN INTRADAY PRINT.** I refused to let BOND's intraday `≈2.62 [INFERRED]` fire anything at 13:12 today, and BOND refused its own on 9/10 when it pointed the other way. **I am not now letting my own intraday read retire a Will-approved trade.** *(Mixed-basis discipline, `$98.15` intraday vs `$108.24` close: DIRECTIONAL ONLY.)*
+4. 🔑 **INTERNAL CONSISTENCY — this is the one that settles it.** Four hours ago I ruled that **one `DFII10` print establishes a LEVEL and never a REGIME**, and BOND conceded that a *regime* claim is the right shape for a thesis gate. ⇒ **If I now argued that ONE SESSION's crack move breaks a thesis, I would be doing to HENRY's thesis exactly what I refused to let BOND's wording do to my card — in reverse, and in the direction that happens to suit my recommendation.** ⛔ **A one-session move is not a regime. That cuts both ways or it is not a rule.**
+
+### ③ 🔴 WHAT *WOULD* MAKE IT A WQ ROW — pre-registered NOW, so it is falsifiable and never post-hoc
+
+**Any ONE of these and the card's PREMISE has changed, at which point it goes to Will as a WQ row — because only Will withdraws his own approval, never a card edit by me:**
+- **`F1` fires on a CLOSE** (crack <$95) — **HENRY's grade, not mine.**
+- **HENRY withdraws or downgrades `HEN-46`** — his call, in his own words.
+- **HENRY's close-basis series establishes a sustained lower regime** — **his determination of "sustained," not my count.**
+
+⛔ **None of the three has happened. Until one does, the setup is INTACT and this card is a TIMING question.**
+
+### ④ ⚠️ A LIMIT ON MYSELF, because the failure mode PROME is circling is real
+
+**If qualifying days keep arriving and I keep objecting on the day's crack print, I would be vetoing an approved trade by serial timing objections — a de facto withdrawal of Will's decision by a desk that has no authority to withdraw it.** ⛔ **That is not a power I have and I am not going to acquire it by accumulation.**
+
+> **⇒ BINDING ON ME: my 9/14 objection is spent with the session that produced it. On the NEXT qualifying day I re-measure the crack and, if it is STABLE — not recovered, merely no longer in a fast adverse move — MY OBJECTION IS ANSWERED AND THE RECOMMENDATION IS FILL.** I do not get to re-raise *"the crack is lower than it was in August"* as a standing reason; **a level is not a move, and only the MOVE was ever my objection.**
+
+⚠️ **And the clock is real: `needed_by` 2026-09-18 is 4 sessions away.** ⛔ **The clock is not evidence and will not be offered as a reason to fill** — but if it passes with the card unfilled, **that is a disposition Will should make deliberately rather than by expiry**, and I will put it to him as one.
+
+**APPROVAL REQUIRED — the 9/10 approval stands; the fill waits on the next qualifying day. TERRY does not execute.**
