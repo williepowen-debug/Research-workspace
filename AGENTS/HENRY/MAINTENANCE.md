@@ -206,3 +206,19 @@ DAEDALUS wired 28 of 37 charters in the Will-approved R1 batch; **HENRY was skip
 - **STILL UNRESOLVED** — the same positional-read pattern may exist in other HENRY scripts. `credit_monitor.py` and `gamma_flip.py` read FRED/CBOE, not my TSVs, so they are not exposed; **no sweep of the wider script set has been done.**
 
 **GENERALISATION (the class, not the row):** ⛔ **never read a repo TSV by column index.** A schema is an interface, and mine changed under a consumer I owned, on the same day, without a word. Bind by header name and **fail loud** — for any ledger whose absence of rows would be read as "nothing is due."
+
+### 2026-09-13 — three commit subjects breached the 100-character cap. NOT amended, recorded here instead.
+
+**Defect:** root `CLAUDE.md` §Git Protocol **4d** caps a commit SUBJECT at **100 characters**. Three of tonight's five packet commits breached it:
+
+| SHA | chars | subject |
+|---|---:|---|
+| `6dcc97cf8` | **105** | `HENRY -> PROME: HEN-44 graded CONFIRM, gamma sign flipped, and two figures you relayed are mine and wrong` |
+| `2319ff254` | **113** | `HENRY -> CARL: HEN-44 CONFIRM, your rounding flag was right in shape, and the airline-fares datum cuts against me` |
+| `1e82f954c` | **108** | `HENRY -> TERRY: HEN-46 basis correction - the crack never took out 2022; F1 unaffected, and an adverse datum` |
+
+**NOT FIXED, DELIBERATELY.** Rule **4b** forbids `git commit --amend` outright — with concurrent sessions on a shared index, an amend rewrites whoever holds HEAD, which may not be me. *"A damaged message over a correct tree is documentation debt — note it in the next commit, never rewrite."* **This is that note.** The trees are correct; only the subject lines are long.
+
+**CAUSE, so it does not recur:** carve-out ① requires the subject to carry `<YOU> -> <RECIPIENT>: <what>`, which spends ~16 characters before the description starts, and I wrote each subject to carry the *finding* rather than the *change*. **4d's own instruction is the fix: the subject NAMES THE CHANGE; the ledger goes in the body.** ⇒ **Standing correction for this desk: on a packet commit, write `HENRY -> X: <one short noun phrase>` and put the finding in the body.** A compliant version of the CARL subject would have been `HENRY -> CARL: HEN-44 grade, your rounding flag, and an adverse HEN-46 datum` (74).
+
+**No length check runs before commit.** I am not adding a bespoke one — `claim_check.py` / `orphan_check.sh` are the fleet pattern and a subject-length gate belongs with them, not in an agent directory. **Flagged to PROME as a candidate for the shared closeout checks rather than built here.**
