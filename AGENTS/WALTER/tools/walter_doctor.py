@@ -732,6 +732,69 @@ def _delivery_routed_dates():
     return out
 
 
+def _delivery_routed_dates_by_path():
+    """{handoff_path: date} from delivery_log.tsv — the CORRECTION-SAFE age basis.
+
+    🔴 THE DEFECT THIS EXISTS TO FIX (Codex finding 2, 2026-09-11; fixed 2026-09-14).
+    `_delivery_routed_dates` keys on `(signal_id, recipient)`, and delivery_log stores the
+    BARE signal id for a correction as well as for its original — measured 2026-09-14:
+    ZERO of 2,800+ rows carry a `-CORRECTION` suffix in `signal_id`, while 33 (signal_id,
+    recipient) keys appear TWICE. A plain dict assignment means the LAST row silently wins,
+    so one member of every such pair is aged off the OTHER member's timestamp.
+
+    ✅ WHY handoff_path IS THE RIGHT KEY: all 33 collided pairs differ by `handoff_path`
+    and NONE are identical (measured, not assumed) — the path is one-per-delivered-artifact,
+    which is exactly the identity the age basis needs. The legacy `(sig, recipient)` map is
+    kept for callers that genuinely want signal-level lookup; it is NOT the consume basis."""
+    out = {}
+    log = WALTER / "routed" / "delivery_log.tsv"
+    try:
+        rows = log.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return out
+    for ln in rows[1:]:
+        c = ln.split("\t")
+        if len(c) >= 7 and c[0].strip() and c[6].strip():
+            out[c[6].strip()] = c[0].strip()[:10]
+    return out
+
+
+def _sig_variant(stem):
+    """('SIG-W-20260911-003', 'CORRECTION') for a correction handoff; (id, '') otherwise.
+
+    🔴 `_bare_sig` DELIBERATELY collapses `-003-CORRECTION` onto `-003`, which is right
+    for "which signal is this about?" and WRONG for "has THIS artifact been consumed?".
+    Consuming an ORIGINAL must never discharge its CORRECTION — that is a correction going
+    silent, the one failure this desk exists to prevent."""
+    m = re.match(r"(SIG-W-\d{8}-\d{3})", stem or "")
+    if not m:
+        return (stem, "")
+    return (m.group(1), "CORRECTION" if "CORRECTION" in (stem or "").upper() else "")
+
+
+def _board_log_has(recipient, sig, variant):
+    """LINE-SCOPED consumption test, variant-aware. Fails CLOSED (says NOT consumed).
+
+    ⚠️ The old test was `sig in <raw file text>` — a WHOLE-FILE SUBSTRING match on the
+    BARE id, so an original and its correction were indistinguishable in BOTH directions
+    (demonstrated on live data 2026-09-14 against AGENTS/BRENT/board_log.tsv, which holds
+    both `SIG-W-20260911-003.md` and `SIG-W-20260911-003-CORRECTION.md`).
+
+    🔑 FAILURE DIRECTION IS DELIBERATE. A desk that logs a correction under its bare id
+    now reads as NOT consumed — a FALSE UNCONSUMED, which is LOUD and safe. The defect it
+    replaces was a FALSE CONSUMED, which silently discharges a correction.
+    `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`"""
+    text = _recipient_board_log(recipient)
+    if not text or not sig:
+        return False
+    for ln in text.splitlines():
+        if sig not in ln:
+            continue
+        if ("CORRECTION" in ln.upper()) == (variant == "CORRECTION"):
+            return True
+    return False
+
+
 def _handoff_role(sig, recipient, filename, roles):
     """ACTION / INFO / UNKNOWN for one handoff, FAIL-CLOSED. Roles are UPPERCASE,
     matching `_delivery_roles()`.
@@ -834,6 +897,7 @@ def check_delivered_but_unconsumed():
         return [(INFO, "no WALTER handoffs in flight")]
     origin = _origin_ref()
     routed_dates = _delivery_routed_dates()
+    routed_by_path = _delivery_routed_dates_by_path()
     aged, pull_complete, no_row = [], [], 0
     consumed_not_filed = []
     delivery_roles = _delivery_roles()
@@ -844,7 +908,11 @@ def check_delivered_but_unconsumed():
             continue  # not delivered yet → written_but_undelivered owns it
         stem = p.name[:-3] if p.name.endswith(".md") else p.name
         sig = _bare_sig(stem)
-        routed = routed_dates.get((sig, recipient.upper()))
+        sig_base, sig_variant = _sig_variant(stem)
+        # 🔴 PATH-KEYED, not (sig, recipient) — a correction and its original share the
+        # bare id in delivery_log (33 collided keys, measured), so the legacy key aged one
+        # of every pair off the other's timestamp. Codex finding 2, fixed 2026-09-14.
+        routed = routed_by_path.get(relpath) or routed_dates.get((sig, recipient.upper()))
         if routed:
             try:
                 age = _age_days(dt.date.fromisoformat(routed))
@@ -876,7 +944,7 @@ def check_delivered_but_unconsumed():
             # ⚠️ ABSENCE FROM A board_log IS NOT PROOF OF NON-CONSUMPTION, and a desk with
             # NO board_log (ZHAO, OTTO, WATT, HANS …) cannot be tested at all — those stay
             # in `aged` as an UPPER BOUND, never as a measurement.
-            if sig and sig in _recipient_board_log(recipient):
+            if _board_log_has(recipient, sig_base, sig_variant):
                 consumed_not_filed.append((recipient, sig, age))
             else:
                 role = _handoff_role(sig, recipient, p.name, delivery_roles)
