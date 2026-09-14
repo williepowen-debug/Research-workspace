@@ -71,7 +71,7 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 **The test stood as written and was MET** — figures on the card, before any fill, no hard guard relaxed. **The measurement argued the same way:** honest day-colour cost was **~$21 / 2.8%** — vega **+18.58/pt into OVX 50.62 (+1.97%)** — **not** the `$1.99` the delta leg alone implies. **Worth ~$21. Noise.**
 
-⛔ **STATUS: OPEN-BY-DESIGN. If a same-strike calendar roll is proposed again, RE-MEASURE the day-colour cost on THAT day's tape. The 8/21 figures are NOT a standing pass** — they are a `MOMENT` property (#14) and they expired with the session that produced them. ⚠️ **A met-but-unruled break is the easiest thing in this file to mistake for a granted one.**
+⛔ **STATUS: OPEN-BY-DESIGN. If a same-strike calendar roll is proposed again, RE-MEASURE the day-colour cost on THAT day's tape. The 8/21 figures are NOT a standing pass** — they are a `MOMENT` property (**construction rule #14**) and they expired with the session that produced them. ⚠️ **A met-but-unruled break is the easiest thing in this file to mistake for a granted one.**
 
 ---
 
@@ -123,6 +123,8 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 13. **Demote a dormant ledger by verification, not by assumption.** Before freezing an agent ledger: verify **live consumers** and **cross-agent counterparties** first; triage by **Group, not ID-range**; use `UNVERIFIED-RETIRED` for LLM-sourced rows; and **re-verify your correction's own provenance.** `[[finding_workbook_demote_by_verification]]`
 
 ### Construction rules 14–23 — **HOT INDEX over a cold register** (full text: `RISK_RULES_CONSTRUCTION.md`)
+
+🔴 **CITATION FORM — cite these as "construction rule #N", never as a bare "#N" and never as "Non-Negotiable #N".** This desk holds **THREE** independently numbered lists that are all cited by number — **Non-Negotiables `1–8`** (above), **durable findings `1–13`** (below), and **construction rules `14–23`** (here) — on top of root `CLAUDE.md`'s own Critical Rules, whose ⚠️ warns that two lists already do not line up. **A bare `#14` is unresolvable and a reader who tries the Non-Negotiables list finds it ends at 8.** *(Flagged by PROME 2026-09-12 from a blind cold read of `HEARTBEAT.md`, which had faithfully relayed the ambiguous form — **the relay was correct and the citation was still unresolvable.** PROME fixed its own surfaces to cite `RISK_RULES.md` §"Breaking root rule #6"; this line fixes the source.)* ⚠️ **DECLARED RESIDUE 2026-09-14 — NOT SWEPT:** `grep` finds the ambiguous `RISK_RULES #14` form on **~15 further sites across 9 live trade cards**. They are **substantively correct** (every one means this rule) and a 15-site find-replace across live cards is a broad-batch edit that needs its own cold read — **it is not done today and is not pretended to be done.** **Forward-only: new writes use `construction rule #N`.** `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`
 
 ⛔ **These are RULES, not history. They are numbered, cited by number, and every one is LIVE.** Only their full text and worked cases moved; nothing here is retired, weakened or optional. **Read `RISK_RULES_CONSTRUCTION.md` in full before producing any actionable trade card** (`CLAUDE.md` BOOT step 7) — and on demand the moment one of the *binds-at* triggers below fires.
 

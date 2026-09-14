@@ -170,3 +170,41 @@ The card was written for the Fidelity IRA — same account as the Sep-18 $67.5P/
 - **2026-09-02 ~19:3x ET — RECORDED (this desk, PROME-spawned).** Verdict → FIRED / LIVE; §5c account-placement analysis written; §10 reconstructed with per-cell provenance; harvest line fixed at **$4.40** (GTC in Robinhood — Will's placement, OPEN); §5b alt retired; SETUPS.tsv / INDEX / TRADE_BOOK / PAPER_BOOK `lane=real` row updated. No threshold moved. **Open on Will:** ~~(a) confirm the $4.40 GTC is resting in Robinhood;~~ **retired WQ-167 September 3, permanently UNKNOWN, no re-ask;** (b) a Robinhood confirm/history line for the record at the next FORGE export; (c) account terms for the ITM-at-time-stop branch (§5c ⑥), before 12/04 — not urgent.
 
 - **2026-09-08 owner catch-up:** WQ-167 mirrored to operative harvest fields. Consumed REGINALD September 2 owner grade; September 3/4/8 consumer bars routed to REGINALD. No execution, quote-based harvest verdict or threshold change.
+
+---
+
+## 📋 OWNER TOUCH — 2026-09-14 Mon 13:0x ET · `DOCKET L254`'s live half, and `GATE-TERRY-ROLL70-EXIT`
+
+⛔ **`$0` MOVED · NO ORDER · NO PROPOSAL. Measurement and grade only.**
+
+### ① 🟢 **`DOCKET L254` — THE `$70P` RE-OPEN WINDOW IS OPEN THIS WEEK, AND IT IS A LONG WAY OFF**
+
+**The pre-registered condition (mine, WQ-168 ① 9/3):** the lapsed **Sep-18 `WAL $70P` ×1 re-opens ONLY if `WAL` closes `<$71` on any day in the week of 2026-09-14.**
+
+| | |
+|---|---|
+| **Live WAL** | **`$79.93` · +0.81%** `[fetch.py, 2026-09-14 13:02 ET — intraday, NOT a close]` |
+| **Re-open line** | `<$71.00` on a CLOSE |
+| **Distance** | **`$8.93` above the line — the close must fall `11.2%` inside this week** |
+
+⛔ **That is a DISTANCE, not a forecast, and I am not converting it into one.** The window has **five** chances (9/14–9/18); **today is the first and it has not closed.** **No probability is quoted and none is needed** — the condition is mechanical, it grades on official closes, and it either happens or it does not.
+
+**Context for scale, not a forecast:** WAL's last ten closes run `78.13 · 77.26 · 79.12 · 81.00 · 80.95 · 79.94 · 79.66 · 79.28 · 79.29` and today's live `79.93` — **a `$3.74` range over ten sessions, and the window's low (`77.26`, 9/1) is still `$6.26` above `$71`.** `n=10` bars, `yfinance` daily, pulled this session (construction rule #19).
+
+⚠️ **The one dated thing inside the window: FOMC 9/15–16, with quarterly OPEX 9/18 at its end.** Named because a regional-bank name can move on a rate decision — **not because it changes the rule.** ⛔ **The rule is the rule; it is not re-specced, not widened, and not pre-judged.**
+
+🔑 **And if it fires, what re-opens is a `Sep-18` option with `0–4` sessions left.** ⇒ **A re-open would NOT be automatic and is NOT pre-approved: it would be a NEW entry into a near-zero-DTE instrument and must be underwritten as one** (construction rules #16/#20), then go to Will as a fresh card. ⛔ **Nothing here pre-authorizes a fill.**
+
+### ② `GATE-TERRY-ROLL70-EXIT` — **9/11 CLOSE GRADED NOT QUALIFYING. RUN STAYS `0-of-3`.**
+
+**`WAL $79.29` [2026-09-11 official close, yfinance, this session's own pull]** vs the **`$81.90` ×3** exit line ⇒ **`$2.61` below ⇒ DOES NOT QUALIFY.** Count **`0 of 3`**; **nothing has ever counted.**
+
+**Six sessions now graded against the line, all NOT QUALIFYING:** 9/3 `81.00` (closest of the window, `$0.90` short) · 9/4 `80.95` · 9/8 `79.94` · 9/9 `79.66` · 9/10 `79.28` · **9/11 `79.29`.**
+
+⛔ **THIS IS A CONSUMER READ, NOT THE OWNER GRADE. `REGINALD` owns the WAL close grades** (`GATE-TERRY-ROLL70-EXIT`, grading surface `AGENTS/REGINALD/registry/NOTES.md` §REG-T-02 + `REG_T02_EXIT_LOG.tsv`). **The 9/11 cell stays OWED to REGINALD and my read does not close it.** *(PROME made the same read 9/14 10:1x and labelled it the same way — two consumer reads agreeing is still not an owner grade.)*
+
+**Live at this touch: `$79.93` = `$1.97` below the `$81.90` line (`2.41%` of the line).** ⛔ **A MOMENT property (construction rule #14) — the gate grades on OFFICIAL CLOSES only; an intraday quote counts toward nothing in either direction.** The guard is **receding**, price drifting toward the `$70` strike rather than away — ⛔ **context, not a gate event; a trend toward or away from a threshold is never a partial count.**
+
+**Unchanged and still binding:** harvest is a **MANUAL act by Will at ≥`$4.40`** (the GTC's resting status is **permanently UNKNOWN**, WQ-167 — closed to asks) · **time stop Fri 2026-12-04** · the exit proposal is **mine to build and Will's to approve** when and only when the count reaches 3.
+
+**APPROVAL REQUIRED for any action — nothing above is a proposal.**

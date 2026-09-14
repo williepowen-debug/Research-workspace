@@ -348,3 +348,26 @@ Root cause, investigated the same session: **yfinance/Yahoo expose NO bid/ask ti
 TERRY proposed a **mid-limit at $1.73 with a 15-minute leash** to capture ~$3.50 of spread. **Will declined and took the bid. That was the better call** — the spread had tightened to 4.53%, the optimization was worth $3.50, and the tape fell 14% on the contract within the hour. **A small edge is not worth a fill risk on an exit you have already decided to take.**
 
 **Tags:** `GOOD_PROCESS` (pre-registered dated rule, executed at the quoted bid) · `STALE_DATA` (the vendor-quote defect — the founding case for 5b) · `THETA_DECAY` (what the position actually died of)
+
+---
+
+## 2026-09-14 — `TRY-MGMT-USORH150165` (RH USO Sep-18 $150/$165 call spread ×1) — **PRE-EMPTED. The trade was fine; the bookkeeping was the failure.**
+
+**Outcome:** Will closed by hand 2026-09-10 ~15:1x ET, **`$630.00` vs `$300.00` net debit ⇒ `+$330.00` / `+110%` realized.** Not a TERRY fill and not a TERRY exit.
+**Rule outcome:** ⛔ **`NO-VERDICT` — the card's OR-joined rule (TIME 9/17 open · HARVEST ≥$165 close · BE-defence <$153 close) never got to act.** The close came seven sessions early; USO closed `$158.38` on 9/10, between the two override levels. **Do not score any leg of this card as right or wrong.**
+
+### What actually went wrong, and it is not the trade
+
+**PROME's packet of 2026-09-10 16:2x ET carried the close AND the explicit ACTION** — *"TERRY marks `TRY-MGMT-USORH150165` EXECUTED-EARLY … the nightly 165/153 close-check and the 9/17 tracking are RETIRED."* **It sat undrained in `inbox/` for FOUR DAYS**, including through a full Will-directed desk session on 2026-09-11 that produced a six-row obligations table and never opened it.
+
+For those four days the card, `setups/INDEX.md`, `SETUPS.tsv` and `TRADE_BOOK.md` all carried a **LIVE management rule with a nightly close-check obligation on a position that did not exist.**
+
+### 🔑 THE FINDING — `ledger_sweep` WAS CLEAN THE ENTIRE TIME, AND IT WAS RIGHT TO BE
+
+Check **A** asks: *does every surface naming this `setup_id` claim the same current state?* **All four claimed `STAGED`. Perfect agreement. All four wrong.**
+
+⇒ **An internal-consistency guard cannot see a position that died OUTSIDE the repo.** Its reference is the other surfaces, never the broker. **Adding a check would not have helped and I am not proposing one** — the instrument that carried the truth was the inbox, and the inbox is drained by hand. **The control that failed is a HUMAN step, and the honest fix is that the whole inbox gets drained at boot, every sender, before any analytical work** — which is exactly the WQ-184 outcome-① rule that found this, four days late, by reading a packet rather than by running anything.
+
+⚠️ **The near-miss that makes this worth a postmortem rather than a note:** this card's own binding clause says a USO settle between `$150` and `$165` on 9/18 auto-exercises the `150C` into ~100 shares (**~$15,680**) against a Robinhood account last captured at **`$946.13`**. **Had Will not already closed it, four days of a card operating on a stale premise would have been running a real broker-liquidation exposure into expiry week.** The cost was zero only because the position was already flat. ⇒ **A stale management card is not a documentation problem; it is an unmonitored position that believes it is monitored.**
+
+**Tags:** `record-of-an-action-is-not-the-action` · `internal-consistency-guard-blind-to-external-truth` · `undrained-inbox` · `pre-empted-rule-is-NO-VERDICT`

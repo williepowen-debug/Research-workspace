@@ -5,6 +5,7 @@
 **Thesis owner:** **BRENT** (distillate/crack domain). ⚠️ **TERRY owns construction ONLY** — I do not re-underwrite the crack thesis.
 **Tasking:** Will, relayed via BRENT 11:2x ET — verbatim ***"loop TERRY in on a VLO/MPC construction."***
 **Terry verdict:** 🟢 **STAGED — Will APPROVED 2026-08-27 ~12:1x ET, in-session, verbatim *"approved"*; route (i), `3 × VLO`. NOT YET FILLED. TERRY does not execute.** *(State token is `STAGED`, not "APPROVED": approval is the DECISION, `STAGED` is the card STATE — approved, gate clean, awaiting only the fill. `APPROVED` is on `ledger_sweep`'s deliberately-excluded list because it doubles as ordinary prose; check F caught this within a minute of the write and the fix was the SURFACE, never the vocabulary.)*
+> 🟢 **LATEST GATE STATE — 2026-09-14 13:04:54 ET: THE GATE IS MET** (VLO −2.45% / USO +0.82%, complex 4-for-4 red, both crude benchmarks green). **First qualifying tape since WQ-213 was ruled 9/10.** ⛔ Read **§ RE-ARM #2 at the foot of this card** — it supersedes the 9/11 `GATE FAILS` block, and it carries a 🔴 finding: **the 80% undefended-linear ceiling has gone DEGENERATE** (every defended leg harvested ⇒ the sleeve is 100% undefended at `X = $0`). **`$0` moved; the fill is Will's.**
 > ✅ **Rule #6 RE-MEASURED AT APPROVAL (12:12 ET), as this card required:** **VLO `345.29` −0.79%** · XLE −0.80% · **USO +0.86%.** **Refiners still RED, crude still GREEN ⇒ the entry gate is CLEAN on the direct measurement at the moment of approval.** ⚠️ **Still intraday — if the fill slips to another day, re-measure again; it is not a standing pass.**
 > ⚠️ **Will did NOT name the oil-exposure ceiling.** Approving route (i) settles it *for this `$1,033` add* (the sleeve math holds it inside the 80% undefended-linear ceiling regardless). ⛔ **It remains UNSET for any future add and the alternative route (ii) — trim-USO-first — is NOT approved and is NOT dead; it was simply not chosen here.**
 > *Prior verdict (superseded 2026-08-27): 🟡 CONDITIONAL — SHARES, NOT OPTIONS. Small, and smaller than the ask implies.*
@@ -222,3 +223,75 @@ BRENT ruled the §5 definitional question **in my favour and against his own mor
 - 🔑 **The `$1,181.64` re-mark sharpens §10's standing objection rather than answering it:** a **+20%** move on this position now makes **~$236** and still will not change the book. **That objection was live at `$1,033` and is no weaker at `$1,182`.**
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Nothing here is a new proposal; WQ-213's approval stands and the FILL waits on a qualifying measurement.**
+
+---
+
+## 🟢 RE-ARM #2 — 2026-09-14 Mon 13:04:54 ET (`date` wall clock, copied not inferred). **GATE MEASURED. GATE IS MET. FIRST QUALIFYING TAPE SINCE WQ-213.**
+
+⛔ **`$0` MOVED · NO ORDER PLACED · NOTHING EXECUTED. This block is a MEASUREMENT, not a fill.** WQ-213's approval already stands (Will 2026-09-10 16:42); what was missing was a qualifying tape, and today supplies one. **Will's hand at the broker. Root rule #5.**
+
+### ① THE MEASUREMENT — one pull, one timestamp, both legs, stamped before any ticket
+
+**Gate as written in RE-ARM ① above:** *the refiner leg you are buying must be DOWN on the day (`%chg < 0`) AND `USO` must be UP on the day (`%chg > 0`), same pull, same timestamp.*
+
+| Instrument | 2026-09-14 13:04:54 ET | Gate wants | Verdict |
+|---|---:|---|---|
+| **VLO** (the leg) | **$380.87 · −2.45%** | **DOWN** | ✅ **MET — down** |
+| **USO** (crude) | **$156.18 · +0.82%** | **UP** | ✅ **MET — up** |
+| MPC | $392.22 · −0.94% | (corrob. down) | ✅ down |
+| PSX | $255.43 · −1.56% | (corrob. down) | ✅ down |
+| DINO | $106.49 · −1.25% | (corrob. down) | ✅ down |
+| CRAK (the complex ETF) | $64.27 · −2.10% | (corrob. down) | ✅ down |
+| XLE | $64.64 · −0.76% | — | context |
+
+**Crude, second and third benchmarks (not required by the gate, recorded because a one-instrument crude read is the weak form):** **Brent `BZ=F` $105.43 · +0.78%** · **WTI `CL=F` $100.92 · +0.87%.** *(Continuous front-month tickers — safe for a LEVEL and for a day's SIGN, and this is a sign test; construction rule #22.)*
+
+**⇒ BOTH gate legs MET, and the corroboration set agrees in sign 4-for-4 plus both crude benchmarks. This is not a lone-refiner divergence** — it is the whole complex red against a green crude tape, which is the exact decoupling the 8/27 approval was built on and the exact inverse of 9/11. **The gate is MET on its own written terms, with nothing widened, nothing reinterpreted and no leg dropped.**
+
+⛔ **It is still a `MOMENT` property (construction rule #14). It answers for THIS session and no other. If the ticket is not placed today, this block is DEAD tomorrow and the measurement must be run again.** Empirical half-life at this desk is ~40 min — **re-pull at the ticket; do not fill off the figures above if the hour has turned.**
+
+### ② FRESH MARK — the size Will is being asked to commit
+
+| | 8/27 approval | 9/11 re-arm | **2026-09-14 13:04:54 ET** |
+|---|---:|---:|---:|
+| VLO last | `344.50` | `393.88` | **`380.87`** |
+| **3 × VLO** | ~~`$1,033`~~ | ~~`$1,181.64`~~ | **`$1,142.61`** |
+
+⚠️ **`$1,033` and `$1,181.64` are both RETIRED on this card and must not be re-cited.** The approved *decision* was route (i), `3 × VLO`; the size is whatever the tape says at the fill. **On the `$500` cap:** at `$1,142.61` notional the cap binds only at **−43.8%**. The cap is not the operative limit.
+
+### ③ 🔴 THE HARD GUARD HAS NOT "FAILED" — IT HAS GONE **DEGENERATE**, AND THAT IS A WORSE THING TO REPORT
+
+WQ-213 instructed: *"if a hard guard fails at re-quote, say so in figures and the fill waits."* **Here is the figure, and the honest word for it is not "fails."**
+
+The sizing bound on this card is **BRENT's 80% undefended-linear ceiling** (§4 above), which at 8/27 read: oil sleeve gross `$5,831`, undefended-linear `76.4% = $4,455`, ⇒ `(4,455 + X)/(5,831 + X) ≤ 0.80` ⇒ **X ≤ `$1,050`**. The `$1,376` of headroom was the **defended** bucket — `USO Oct-16 $135C ×2`.
+
+**Every defended leg in that bucket has since been harvested, all by Will's own hand:**
+
+| leg | disposition |
+|---|---|
+| `USO Oct-16 $135C ×2` | SOLD 9/2 (×1, price UNKNOWN) and 9/9 (×1 @ $17.55) — **CLOSED** |
+| `XLE Sep-30 $65C ×2` | first ×1 sold (date/price UNKNOWN, `D-49`); survivor SOLD 9/11 @ $1.51 — **FLAT** |
+| RH `USO Sep-18 150/165` spread ×1 | CLOSED 9/10 by hand, +$330.00 — **GONE** |
+| RH `USO Sep-11 $159C` ×1 | expired/closed 9/11 — **GONE** |
+
+**⇒ The energy sleeve today is `USO 37 shares` and nothing else: `37 × $156.18` = `$5,778.66` [live 13:04:54 ET], of which `$5,778.66` = `100.0%` is undefended-linear.**
+
+> **The ceiling is therefore ALREADY breached at `X = $0`, before this add, and the add does not move the ratio:**
+> `(5,778.66 + 1,142.61) / (5,778.66 + 1,142.61) = 100.0%` — **identical to the 100.0% it is now.**
+
+🔑 **This matters more than a pass or a fail.** A guard whose value is **invariant to the decision it is supposed to govern has stopped being an instrument.** It cannot be cited to permit the add (that would be **exploiting a degenerate guard** — the thing §"Breaking root rule #6" ①/RISK_RULES forbids by name) and it cannot honestly be cited to block it either, because it is equally breached if Will does nothing at all. **⛔ I am not relaxing it, re-deriving it, or re-basing it to fit. I am reporting that it no longer discriminates, and naming what actually binds instead.**
+
+**What actually binds, in figures, is the ABSOLUTE number:** the add takes the energy sleeve **`$5,778.66` → `$6,921.27`, +19.8%, 100% of it undefended-linear.** That is the sentence Will should fill against.
+
+⚠️ **The argument that cuts the OTHER way, stated because it is real and it is against my own restrictive finding:** VLO is **refining margin**, USO is **crude**, and today's tape is direct evidence they are not the same exposure — the complex fell 0.9–2.5% while both crude benchmarks rose. So *"concentration on concentration"* is the wrong frame for this add even though the undefended-share metric cannot see the difference. **BRENT reached the same conclusion from the other side on 9/11** (§5 of its staged-leg packet: the harvested convexity makes a new leg a *re-establishment*, not a deepening) — ⚠️ **but that argument was made for a DEFINED-RISK spread. Applied to UNDEFENDED shares it points the opposite way, and I will not let it carry across the bucket boundary.**
+
+⛔ **`Will has still never named his oil-exposure ceiling.`** The card has carried that flag since 8/27 and it is now the only thing standing between this book and an unbounded energy sleeve. **Route (ii) — trim USO first, then size the leg properly — remains NOT approved and NOT dead.** It is the construction answer to this finding and it needs one number from Will.
+
+### ④ VERDICT
+
+- ✅ **The WQ-213 condition is MET.** Hands are owed, the tape qualifies, and **TERRY is not blocking the fill.** Declaring a block on a guard that is equally breached at `X = $0` would be inventing a veto after the operator ruled — the mirror image of the error RE-ARM ① refused when it declined to let a met gate carry forward.
+- 🔴 **Will fills knowing the sleeve fact, or he does not fill.** `3 × VLO ≈ $1,142.61` at the 13:04:54 mark ⇒ energy sleeve **+19.8% to ~$6,921, 100% undefended**.
+- ⛔ **Re-pull both legs at the ticket.** These figures are ~40-minute goods.
+- ⛔ **No threshold set, moved or shaved. No gate widened. No hard guard relaxed. `$0` moved by TERRY.**
+
+**PROPOSAL — the only decision open is Will's, and it is the one WQ-213 already approved: place `3 × VLO` at a fresh mark, today, while the tape qualifies. APPROVAL REQUIRED — Will must approve/reject before execution. TERRY does not execute.**

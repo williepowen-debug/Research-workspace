@@ -3,7 +3,7 @@
 **Thesis owner:** BOND (BND-11 / VX-BND-05) + LIQUID (demand-hole workbook, now secondary context post-7/9 re-scope) + SAM/ZHAO (TIC flow) — routed by PROME 2026-07-06 xdomain synthesis. **Primary channel re-scoped 2026-07-09 (Will-ratified) to inflation/term-premium (BOND HEN-40 two-channel frame) — see CHANGELOG.**
 **Card pre-built:** 2026-07-09 (spec routed to TERRY inbox 2026-07-06 as a PRE-BUILD task, ID-corrected 2026-07-08; the card file itself was not actually written until this session — flagged as a process gap in the outbox note to PROME)
 **Fired:** ~~____ (fill at fire)~~ → ✅ **2026-07-20 ~09:50 ET — 30× TLT Sep-30-26 77P @ $0.11** ($330 at risk, basis **$0.11563** fees-in). **Will sold 5 at 3.23× on 7/31; 25 remain.**
-**Terry verdict:** 🟢 **FIRED / ACTIVE — 20 contracts recorded remaining (×20 live)** *(was ~~25×~~; 5 SOLD by Will 2026-09-10 @ $0.06 OFF-RULING — recorded, not graded)*; ✅ **BROKER-VERIFIED 2026-09-11 ~10:07 ET — ×20 @ basis `$231.26`, value `$80.00`, reconciles exactly with `PB-0002b`** *(Fidelity Traditional IRA screen, Will-supplied; supersedes the standing `unverified` marker carried since 9/10).* *(Owner review **2026-09-11** — the **9/9 official is GRADED at `4.83`**, counter `0 of 5`, **gate 33bp away and WIDENING (2026 YTD high, highest since Oct-2023)**; see the **2026-09-11** grade block in MANAGEMENT, which supersedes the 2026-09-09 / 2026-09-10 blocks and the 2026-09-08 observation table below — including their `DFII10` **2.42–2.45** window, superseded by **2.46 [9/9]**. Prior header dated 2026-08-04. The dated `CONDITIONAL` verdict below is the **2026-07-17 pre-fire** reasoning and is preserved as history — do not read it as current.)* **Management is pre-registered: harvest ≥3× (~~$0.33~~ → **≥$0.3469 FEES-IN — Will-ruled 2026-08-19, queue row 61: the gate keys to the fees-in basis $0.11563, never the $0.11 pre-fee fill; the ~5% dead band flagged 8/7 is CLOSED**) → take half · ~~disarm on an official DGS10 close <4.50~~ → **RULED 2026-08-19 (Will, B+C): ONE official DGS10 close <4.50 = arm-#2 counter RESET only — not a kill, not a lapse, not an exit of the filled position; FIVE consecutive official DGS10 closes <4.50 ⇒ EXIT 004 (`GATE-TERRY-007`)** · defined-risk, no stop.** ⚠️ **The ≥3× harvest still owes 10 contracts — the 7/31 sale did NOT consume it** (ruled 8/3). **Mark is a MOMENT property** (`RISK_RULES` #14) — pull it live, never read one off this card.
+**Terry verdict:** 🟢 **FIRED / ACTIVE — 20 contracts recorded remaining (×20 live)** *(was ~~25×~~; 5 SOLD by Will 2026-09-10 @ $0.06 OFF-RULING — recorded, not graded)*; ✅ **BROKER-VERIFIED 2026-09-11 ~10:07 ET — ×20 @ basis `$231.26`, value `$80.00`, reconciles exactly with `PB-0002b`** *(Fidelity Traditional IRA screen, Will-supplied; supersedes the standing `unverified` marker carried since 9/10).* *(Owner review **2026-09-11** — the **9/9 official is GRADED at `4.83`**, counter `0 of 5`, **gate 33bp away and WIDENING (2026 YTD high, highest since Oct-2023)**; see the **2026-09-11** grade block in MANAGEMENT, which supersedes the 2026-09-09 / 2026-09-10 blocks and the 2026-09-08 observation table below — including their `DFII10` **2.42–2.45** window, superseded by **2.46 [9/9]**. Prior header dated 2026-08-04. The dated `CONDITIONAL` verdict below is the **2026-07-17 pre-fire** reasoning and is preserved as history — do not read it as current.)* *(🔴 **LATEST OWNER GRADE 2026-09-14 13:03 ET — supersedes every block below it:** the **ADD LINE IS THROUGH for the first time, `DFII10` `2.55` [9/10 official], `+5bp`** — graded on this card's letter as a LEVEL, with the level-vs-`sustained` disagreement against BOND ruled **for this card only**. **NO ADD, NO PROPOSAL, `$0` moved.** `GATE-TERRY-007` 9/10 cell graded `DGS10` `4.95` ⇒ **counter stays `0 of 5`, distance widened to `45bp`**; **the 9/11 cells are ABSENT (4th day) and stay OWED.**)* **Management is pre-registered: harvest ≥3× (~~$0.33~~ → **≥$0.3469 FEES-IN — Will-ruled 2026-08-19, queue row 61: the gate keys to the fees-in basis $0.11563, never the $0.11 pre-fee fill; the ~5% dead band flagged 8/7 is CLOSED**) → take half · ~~disarm on an official DGS10 close <4.50~~ → **RULED 2026-08-19 (Will, B+C): ONE official DGS10 close <4.50 = arm-#2 counter RESET only — not a kill, not a lapse, not an exit of the filled position; FIVE consecutive official DGS10 closes <4.50 ⇒ EXIT 004 (`GATE-TERRY-007`)** · defined-risk, no stop.** ⚠️ **The ≥3× harvest still owes 10 contracts — the 7/31 sale did NOT consume it** (ruled 8/3). **Mark is a MOMENT property** (`RISK_RULES` #14) — pull it live, never read one off this card.
 
 ## Owner observation — 2026-09-08
 
@@ -17,7 +17,7 @@ Read date **2026-09-08**; evidence `../outbox/2026-09-08_owner-market-evidence.j
 
 RULING B does not reset the arm-#2 arming count on these ≥4.50 observations. RULING C's separate consecutive **exit** count remains **0 of 5**. Strict <4.50 on the published two-decimal DGS10: 4.50 itself does not qualify. **September 7 is a holiday**, explicitly blank/markets-closed in H.15, count-neutral. **September 8 is unpublished in the available pull, UNKNOWN and still owed**, not discharged under the holiday rider. ^TNX is count-neutral and unused. Next official read September 9 after publication; grade the observation date, not the release date.
 
-Latest DFII10 **2.43% [September 4]** is **7bp below the existing 2.50% add line**; September 3 was 2.42%. No add condition reached on these observations. Will's NO-ADD / no-roll ruling and WQ-168 HOLD stand; no sizing change. **September 8 17:32 ET parent-retrieved vendor MID $0.035 < $0.3469: harvest line not met at this post-close sample.** Source: PROME/reports/2026-09-08_terry-parent-option-mark-retry.txt (Yahoo MIRROR, paper mark dry-run). No raw bid/ask/sanity fields; not an executable quote. Intraday harvest history and broker fills remain UNKNOWN; retain **≥$0.3469 fees-in fast-spike harvest, 10 contracts still owed**, deep-ITM management via the existing stress table, and September 30 expiry. Neither a missed nor a completed harvest is inferred. Prior marks are dated history, not current forward loss. Remaining recorded fees-in basis is **$289.08** (PB-0002b); $212.50 was an earlier mark, not basis.
+⛔ **SUPERSEDED 2026-09-14 — see the `OWNER GRADE — 2026-09-14` block at the foot of this card: `DFII10` **2.55% [September 10, official]** is **5bp ABOVE** the 2.50% add line and the add condition IS reached on this card's letter (a level). A GRADE IS NOT AN ADD — Will's 7/16 NO-ADD, `WQ-168 ④` HOLD and root rule #5 all stand, and the gate has outlived the tenor it was written for.** *(Dated record, true when written:* ~~Latest DFII10 **2.43% [September 4]** is **7bp below the existing 2.50% add line**; September 3 was 2.42%. No add condition reached on these observations.*)* Will's NO-ADD / no-roll ruling and WQ-168 HOLD stand; no sizing change. **September 8 17:32 ET parent-retrieved vendor MID $0.035 < $0.3469: harvest line not met at this post-close sample.** Source: PROME/reports/2026-09-08_terry-parent-option-mark-retry.txt (Yahoo MIRROR, paper mark dry-run). No raw bid/ask/sanity fields; not an executable quote. Intraday harvest history and broker fills remain UNKNOWN; retain **≥$0.3469 fees-in fast-spike harvest, 10 contracts still owed**, deep-ITM management via the existing stress table, and September 30 expiry. Neither a missed nor a completed harvest is inferred. Prior marks are dated history, not current forward loss. Remaining recorded fees-in basis is **$289.08** (PB-0002b); $212.50 was an earlier mark, not basis.
 
 **Calendar wording correction:** September 22 is the last start for a *new* five-close streak that can complete September 28, publish September 29 after the close and be acted on September 30 under the existing next-session assumption. A streak already underway remains evaluable after September 22. This clarifies the existing arithmetic; it does not terminate the gate early or add a threshold. If expiry beats resolution, retain NO-VERDICT. Forward catalysts retained: sb0607 window opens September 9 (BOND owns operation attribution), CPI September 11, FOMC September 15–16. These are the registered calendar, not new event research.
 
@@ -308,3 +308,76 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 **Decision (WILL, 2026-07-16 ~10:30 ET):** **NO ADD — book-aware rec accepted.** Redundant + deepens a concentrated "Mideast-stays-hot" bet (shared Hormuz-de-escalation falsifier across his rates-short AND oil-long books). **Card stays ARMED; the $500 is BANKED for a re-fire** (arm-#3 4pm, or a red-day/vol-cooldown entry). **Crash-ladder (77/76/75) = approved fallback shape** if a re-fire warrants deploying — the one non-redundant exposure.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+#### 🔴 OWNER GRADE — 2026-09-14 Mon 13:03 ET (`date` wall clock, copied not inferred) · **markets OPEN** · WQ-184 Tier-1 L0 spawn on `DOCKET L356`
+
+⛔ **`$0` MOVED · NO ORDER · NO ADD · NO THRESHOLD SET, MOVED OR SHAVED. This block GRADES. It does not propose.**
+
+**Primary pulled by THIS session, not relayed** (`fredgraph.csv?id=DFII10,DGS10,DGS30,DGS2&cosd=2026-09-01`, pull stamp **`2026-09-14 13:03:28 ET`**) — **VERIFIED at the artifact:**
+
+| series | 9/8 | 9/9 | **9/10** | 9/11 |
+|---|---:|---:|---:|---:|
+| **DFII10** | 2.43 | 2.46 | **2.55** | ⛔ **ABSENT** |
+| **DGS10** | 4.80 | 4.83 | **4.95** | ⛔ **ABSENT** |
+| DGS30 | 5.25 | 5.28 | **5.37** | ⛔ ABSENT |
+| DGS2 | 4.39 | 4.43 | **4.56** | ⛔ ABSENT |
+
+⚠️ **The frontier is `2026-09-10`. The 9/11 cells have NOT published — this is the FOURTH day** (T+1 plus a weekend plus one). **The 9/11 cell is `UNKNOWN` and `OWED`. It is NOT a missed grade, NOT a carry-forward, and NOT the start of anything.** *(Construction rule #19: absent bars carry no nulls to detect — coverage is a property of the pull. A grader who treats an unpublished cell as a datum has manufactured one.)*
+
+---
+
+### ① 🔴 **THE ADD LINE IS THROUGH. FIRST TIME IN THE POSITION'S LIFE.**
+
+**`DFII10` = `2.55` [2026-09-10, official FRED H.15] vs this card's `2.50%` add line ⇒ `+5bp` ABOVE. The condition stated on this card's own letter is REACHED.**
+
+⛔ **KILL ON SIGHT, retired by this block:** *"no print has ever touched 2.50"* (carried in the **9/8**, **9/9** and **9/10** grade blocks above) and *"window 9/1–9/8 = 2.42–2.45"* (already superseded 9/11 by `2.46`). **Those blocks stay as dated records of what was true when written; this line is the live one.** The 9/10 cell published *after* the 9/11 reading and refutes it — ⚠️ **the reading was correct at its pull and false within 24 hours, which is the whole reason a "never" claim about a live series is a liability on a card.**
+
+### ② ⚖️ **THE ADJUDICATION PROME DECLINED TO MAKE — AND IT IS MINE TO MAKE ONLY FOR MY OWN CARD**
+
+Two surfaces word this gate differently and the difference is outcome-determining:
+
+| surface | wording | verdict on `2.55` [9/10] |
+|---|---|---|
+| **this card** (`TERRY`) | a **`2.50` add LINE** — a level | ✅ **THROUGH on one print** |
+| **`AGENTS/BOND/STATUS.md`** (`BOND`) | **`DFII10 ≥2.50` *sustained*** | ⛔ one print clears nothing |
+
+**RULING, for this card only: THE LEVEL GOVERNS, because it is what this card says.**
+
+**Why, and the reasoning is deliberately narrow:**
+1. **A card is graded on its own letter.** This card has said *"the 2.50% add line"* in every grade block it has ever carried, and *"the 2.5 re-arm"* since the 7/17 build. **The word "sustained" has never appeared on it.** Reading BOND's qualifier into my own gate after the print would be **retro-fitting a threshold to the outcome it produced** — the exact move this desk forbids, and it would be doing it in the direction that *conveniently* denies an uncomfortable result.
+2. ⛔ **I am NOT adopting BOND's wording by default, and I am NOT imposing mine on BOND.** `BND-22` is BOND's prediction on BOND's letter and grades there; my level-reading has **no authority over it** and must not be cited against it. *(`finding_impeachment_must_be_scoped_to_the_claim_not_the_source`.)* **Two surfaces can hold two different gates on one series and both be correctly graded — what is forbidden is a grader silently inheriting the other one.**
+3. 🔑 **The disagreement is not free, and I am naming the cost rather than burying it:** a level fires on one print and can be a data artifact; a sustain requirement is slower and cannot be gamed by a single revision. **On the evidence, BOND's is the better-specified gate and mine is the one I am bound by.** ⇒ **Registered as OWED: at any future re-spec of this add gate, the sustain form is the candidate.** ⛔ **Not changed today** — re-wording a gate in the session its level fires is threshold-shaving whichever direction it moves.
+
+### ③ ⛔ **AND IT CHANGES NOTHING. THE ADD IS NOT TAKEN AND IS NOT PROPOSED.**
+
+**A grade is not an add.** Three independent blocks stand, any ONE of which is sufficient:
+
+1. ⛔ **Will's standing 7/16 `NO-ADD`** — never lifted.
+2. ⛔ **`WQ-168 ④ HOLD`** — TLT `$77P ×20` to expiry, re-confirmed by Will 9/10 (*"I sold a few today. Lets keep monitoring."*).
+3. ⛔ **Root rule #5** — no execution without Will's `[Approve]`.
+
+🔴 **AND A FOURTH, WHICH IS MINE AND IS THE ONE THAT WOULD MATTER IF THE OTHER THREE LIFTED — this gate has outlived the position it was written for.**
+
+> **The `2.50` add line was written in JULY for a `70-DTE` position with `$500` of fresh capital behind it. It has fired into a `$0.035` option with `12 sessions` left.**
+>
+> **Live at grade time** (a `MOMENT` property, construction rule #14 — recorded, never a gate input): **TLT spot `$81.21`**, Sep-30 **`77P` bid `0.03` / ask `0.04` / mark `0.035`**, spread `28.57%`, IV `14.16%`, OI `1,076`, **no quote flag** (`chain_fetch.py --no-cache --legs 77`, **13:05 ET**, last print 11:59 today; leg gate ✓ usable). **×20 ⇒ `$60.00` at the bid** vs **`$231.26`** fees-in basis = **−$171.26 / −74.1%**, `0.26×` fees-in. **BE `76.89` is `$4.32` BELOW spot.** Harvest gate **`≥$0.3469` fees-in is ~9.9× away — NOT close.**
+>
+> ⇒ **Buying more `77P` today is NOT an add to a July trade. It is a NEW trade — a 12-session, ~5.2%-OTM lottery ticket — wearing an old gate's clothes, and it must be underwritten as one, at its own entry, its own strike, its own tenor and its own cap.** ⛔ **It is not underwritten here and I am not underwriting it.** *(Construction rule #20: the ENTRY half of a card is unrecoverable after the fill. Construction rule #16: match the expiry to the view's horizon — a structural real-yield view in a 12-session instrument is a different and far worse trade. Construction rule #23: name the driver before you add — and the driver of the 9/10 step is BOND's and RED's to name, not mine.)*
+
+⚠️ **The gate firing is still INFORMATION and is recorded as such:** the real-yield channel this card was re-scoped onto in July has, for the first time, produced the print the card said would justify more size. **That the card can no longer use it is a finding about the card's construction, not about the channel.** *(Registered for the postmortem: a level-gated ADD clause with no tenor condition and no expiry relationship is a clause that can only fire usefully EARLY in a position's life — and this one took 55 days.)*
+
+### ④ `GATE-TERRY-007` — **9/10 CELL GRADED. COUNTER STAYS `0 of 5`.**
+
+**`DGS10` `4.95` [9/10 official] ≥ 4.50 ⇒ DOES NOT QUALIFY.** The 9/10 cell, owed since 9/11, is **CLOSED**. **9/11 is ABSENT and stays OWED.**
+
+- **Distance widened again: `45bp` above the 4.50 exit line** (was 33bp at 9/9, 30bp at 9/8). **`4.95` is a fresh 2026 high**, exceeding the `4.83` [9/9] this card called the YTD high three days ago. ⛔ **CONTEXT, NOT A GATE EVENT — the gate counts CROSSINGS. There is no such thing as a partial count, in either direction.**
+- **Counter `0 of 5`. No streak has ever begun.** 12 sessions to the 9/30 expiry; **`9/22` remains the registered last NEW-streak start** (L267) and is **6 sessions away**. ⚠️ **A publication risk now sits on the gate itself: the 9/11 cell is 4 days late, and a 5-consecutive-close count that can only be graded on officials cannot be completed faster than they publish.** Flagged, not re-specced. **NO-VERDICT remains the correct read if expiry beats the count** (a non-event is never scored as a miss).
+
+### ⑤ WHAT THIS BLOCK DID AND DID NOT DO
+
+- ✅ Pulled the primary myself · graded the add line THROUGH on this card's letter · ruled the level-vs-sustain disagreement **for this card only** · graded the 9/10 `007` cell · retired two superseded claims · recorded the live mark.
+- ⛔ **Did NOT:** propose an add, move a dollar, change a threshold, adopt BOND's wording, impose mine on BOND's prediction, or read the absent 9/11 cell as anything at all.
+
+**APPROVAL REQUIRED for any action — Will must approve/reject before execution. Nothing here is a proposal.**
