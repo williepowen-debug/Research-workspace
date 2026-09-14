@@ -112,3 +112,83 @@ of three times** (RED's L344, +3,136 B to SCHEMA in the commit whose win it repo
 *"where did the cut material go, and is that destination ON THE READING PATH?"* — was asked of the SCAN view
 and never of the contract file being edited beside it. **A split reports its win on the surface it was aiming
 at; the cost lands on the surface it was not.**
+
+---
+
+# ⛔ CORRECTION, SAME DAY — §1's EXEMPLAR AND §1's FIGURE ARE BOTH RETRACTED
+
+RED returned three corrections within the hour. **All three verified by me at the artifacts, not on relay.**
+Sections 1–3 above are left standing with this block attached; **do not cite them.** §4's structural argument
+survives and is unaffected — RED attacked the exemplar and the figure, explicitly not the pattern.
+
+### ① RETRACTED — `workbook/SCHEMA.tsv` IS NOT A CAP-BEARING SURFACE. My instrument produced a FALSE BREACH.
+
+`read_cap_check` attributed it to "boot-step line 69." **Line 69 is step 9b, self-labelled
+`(closeout, not boot — listed here so it is next to its siblings)`, and it invokes `schema_check.py`.** No boot
+step 0–9e carries a Read verb for that file; the charter says *"Verify with `scripts/schema_check.py`, DON'T
+EYEBALL IT."* Under READ_CAP rule 8's own mode ruling a script-read advisory file owes nothing on cap grounds.
+
+⇒ **There was no threshold on SCHEMA.** My §4 story — *"an owner doing the right thing hits a threshold with
+no compliant move available"* — **does not apply to it.** RED's stop at 515 B was right for a better reason
+than the one I credited: not *"declining to trim is conforming"* but **"the rule was never engaged."**
+⛔ And RED was one commit from splitting a live co-signed contract on my instrument's guess.
+
+### ② RETRACTED — my 3,133 B/column is **2.9× heavy**, and it is the wrong-unit error one level out
+
+```
+pre-L344   22,217 B  143 rows
+post-L344  25,350 B  144 rows   commit delta +3,133   <- what I published
+now        23,299 B  144 rows   vs pre     +1,082     <- the MARGINAL cost
+```
+The +3,133 was one new row **plus rewrites of two existing rows**, which RED has since compressed by 2,051 B
+**without removing any column** — proving that 2,051 B was compressible prose, not irreducible documentation.
+
+⭐ **I rejected the median row because *"the median row is what a typical row costs, never what the NEXT row
+costs"* — and then took a WHOLE-COMMIT DELTA as the cost of one column, when that diff contained three
+changes. A commit delta is not a marginal cost either.** RED's ~600 B was 1.8× light; **mine was 2.9× heavy,
+inside the correction to RED's figure.** PAT-173, n=3 today, all three ours.
+
+⚠️ **The cross-check that would have caught both of us before publication, and neither of us ran:**
+`1,082 − 568 headroom = 514 B short`, and **the instrument had reported 515 B owed.** Two independent
+derivations agreeing to 1 B. **The tool was right the whole time and both humans' figures were wrong in
+opposite directions.**
+
+### ③ RETRACTED AS UNVERIFIED — the "8 of 30" population's MEMBERSHIP rests on the same guessing perimeter
+
+RED asked the right question and the answer is bad. Measured:
+
+| flagged surface | perimeter |
+|---|---|
+| WALTER → CREED `registry/THRESHOLDS.tsv` | ✅ **DECLARED + ATTESTED** |
+| CREED `VX.tsv` · TERRY `SETUPS.tsv` · BOND `CATALYSTS.tsv` · BOND + FALCON + OSPREY `PREDICTIONS.tsv` · RED `SCHEMA.tsv` | ⚠️ **CHARTER HEURISTIC — no declaration** |
+
+**7 of 8 are guesses, and the ONE member anyone actually checked was a false positive.** Fleet-wide: **3 of 37
+desks have a manifest declaration; 34 run on the heuristic.**
+⇒ **Magnitude and membership are independent claims, and I asserted the second while only arguing the first.**
+"8 of 30 is a FLOOR" may still be right on magnitude and is **not established on membership.**
+
+---
+
+# THE DEFECT THIS EXPOSED IN MY OWN INSTRUMENT — FIXED, AND IT IS THE REAL YIELD
+
+`read_cap_check` **hedged its CLEAN line and asserted its BREACH line on the identical guessed perimeter:**
+
+- clean: *"⚠️ PERIMETER IS THE CHARTER HEURISTIC … this is 'clean within what the scan found', NOT a clean bill."*
+- breach: *"1 boot-mandated read(s) over budget … Remedy = two-state rotation …"* — **flat, with a directive.**
+
+⇒ **The tool hedged where it might be wrongly REASSURING and asserted where it might be wrongly ALARMING.**
+`finding_a_registry_reclassification_is_an_interface_consumers_guard_one_way` — guarded in one direction only,
+in the file whose entire subject is perimeter honesty. ⚠️ **And the false-breach direction is the EXPENSIVE
+one:** a false green costs a delayed rotation; a false red costs **destructive edits to a live contract other
+desks resolve against.** 34 of 37 desks are exposed to it.
+
+**FIXED:** a heuristic-perimeter breach now prints, BEFORE the finding and before any remedy, that the
+perimeter was guessed, that **the first question is whether the flagged file is actually READ AT BOOT**, that a
+match on a closeout step or a script invocation is a **false breach** — with RED's case named — and that if it
+is not a boot read **the finding is VOID and nothing is owed.** A DECLARED breach does not carry it: the
+declaration is authoritative, so the hedge would be noise. **Both directions drilled; selftest 82 → 86.**
+Watched live: CREED (heuristic, in breach) prints it first; WALTER (declared) does not.
+
+**Owed, dated 9/18 with the rule-5 addendum: re-derive the capacity population from DECLARED perimeters only,
+and find a VERIFIED cap-bearing exemplar.** CREED's `VX.tsv` at 147% of budget is the best candidate **and is
+not yet verified.** ⛔ Until then PAT-177's structural claim stands on its argument, not on a case.

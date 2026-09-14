@@ -690,6 +690,32 @@ def check_agent(name, quiet=False, require_manifest=False):
         for sev, pr in problems or []:
             print(f"  {'⛔' if sev == P_DEFECT else 'ℹ️ ADVISORY:'} {pr}")
         if rc:
+            # ── THE BREACH LINE CARRIES THE SAME PERIMETER CAVEAT AS THE CLEAN LINE (2026-09-14) ──
+            # ⛔ FOUND BY RED FALLING INTO IT, ON THIS INSTRUMENT, TWENTY MINUTES AFTER I SHIPPED THE
+            # STOP-DISTANCE BUILD. The clean line said "PERIMETER IS THE CHARTER HEURISTIC … NOT a
+            # clean bill"; the BREACH line asserted flatly and handed over a directive remedy. So the
+            # tool HEDGED WHERE IT MIGHT BE WRONGLY REASSURING AND ASSERTED WHERE IT MIGHT BE WRONGLY
+            # ALARMING — `finding_a_registry_reclassification_is_an_interface_consumers_guard_one_way`,
+            # guarded in one direction only, in a file whose whole subject is perimeter honesty.
+            # THE LIVE COST: RED's `workbook/SCHEMA.tsv` was reported over budget off a heuristic match
+            # on CHARTER LINE 69 — which is step **9b, self-labelled "(closeout, not boot)"**, invoking
+            # `schema_check.py`. No boot step carries a Read verb for that file. RED was one commit away
+            # from splitting a live co-signed contract that owes NOTHING on cap grounds.
+            # ⚠️ AND THE FALSE-BREACH DIRECTION IS THE EXPENSIVE ONE: a false green costs a delayed
+            # rotation; a false red costs destructive edits to a contract other desks resolve against.
+            # 34 of 37 desks currently run on this heuristic.
+            if not declared:
+                print(f"⚠️  READ-CAP [{name}] — READ THIS BEFORE ACTING ON THE FINDING BELOW. The perimeter "
+                      f"is the CHARTER HEURISTIC, not a declaration: this check GUESSED which files this "
+                      f"desk reads at boot, by matching a `.md`/`.tsv` token on a line containing 'read' "
+                      f"inside the boot section.\n"
+                      f"   ⛔ FIRST QUESTION, BEFORE ANY TRIM: is the flagged file actually READ AT BOOT? "
+                      f"A match on a CLOSEOUT step, a script invocation, or a file merely NAMED in the "
+                      f"boot section is a FALSE BREACH — measured live 2026-09-14 on a desk whose match "
+                      f"was a step self-labelled '(closeout, not boot)'.\n"
+                      f"   ⇒ If it is NOT a boot read, this finding is VOID and nothing is owed; declare "
+                      f"the file in {os.path.relpath(READS_TSV, ROOT)} so no later run repeats the guess. "
+                      f"⛔ NEVER trim a live contract to satisfy a guessed perimeter.")
             if n_over_budget:
                 print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
                       f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
@@ -805,7 +831,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 82
+EXPECTED_LEGS = 86
 
 
 def selftest():
@@ -1019,6 +1045,27 @@ def selftest():
                 ("NOTHING is owed" in out and "owes" in out), True)
             chk("stop-distance: an OVER-BUDGET file gets the DIRECTIVE form, not the ambiguous one",
                 ("REMOVE" in _obout and "70–75% BAND" not in _obout), True)
+            # ── PERIMETER CAVEAT ON A BREACH (2026-09-14, RED's false breach) — BOTH DIRECTIONS ──
+            # A heuristic-perimeter breach must warn; a DECLARED-perimeter breach must NOT (the
+            # declaration is authoritative, so the hedge would be noise). The asymmetry the fix
+            # removes is between CLEAN and BREACH, never between guessed and declared.
+            os.makedirs(os.path.join(t, "AGENTS", "HEU"), exist_ok=True)
+            open(os.path.join(t, "AGENTS", "HEU", "CLAUDE.md"), "w").write(
+                "# HEU\n## SPAWN PROTOCOL\n1. Read `STATUS.md`\n")
+            open(os.path.join(t, "AGENTS", "HEU", "STATUS.md"), "w").write("x" * (BUDGET_BYTES + 99))
+            READS_TSV = _fixture(t, ["ATTESTATION\tMD\t.\tmanifest-complete\ts\tMD\t2026-09-14\tok"], {})
+            _hb = io.StringIO()
+            with contextlib.redirect_stdout(_hb):
+                check_agent("HEU")
+            _hbo = _hb.getvalue()
+            chk("perimeter caveat: a HEURISTIC breach warns before the remedy",
+                "READ THIS BEFORE ACTING" in _hbo, True)
+            chk("perimeter caveat: ...and asks the boot-read question first",
+                "is the flagged file actually READ AT BOOT?" in _hbo, True)
+            chk("perimeter caveat: ...and says the finding is VOID if it is not",
+                "VOID" in _hbo, True)
+            chk("perimeter caveat: a DECLARED breach does NOT carry it (declaration is authoritative)",
+                "READ THIS BEFORE ACTING" in _obout, False)
             # CLEAN case: a file under the stop threshold must print NOTHING (§3(b))
             open(os.path.join(t, "AGENTS", "MD", "STATUS.md"), "w").write("x" * (STOP - 10))
             buf2 = io.StringIO()
