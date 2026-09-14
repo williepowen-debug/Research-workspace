@@ -136,3 +136,52 @@ receipt-lifecycle blueprint is already on the board and the rule/record split is
 ## 6. THE ONE CANON EDIT (transplanted once, verbatim, into SL-4)
 
 See `AGENTS/DAEDALUS/BLUEPRINTS/SPEC_LETTER_STANDARD.md` SL-4 — *The rule:* paragraph, this commit.
+
+---
+
+## 7. RESULT READ + DECLARED RESIDUE (WQ-178)
+
+**Plan read** = §3 of this record, before the canon edit. **Result read** = blind `coldreader` on the amended
+file, 2026-09-14 ~13:0x ET. **28 claims scored: 12 ✅ · 11 ⚠️ · 5 ❌.**
+
+### The 5 ❌ — all fixed, in ONE edit
+
+| # | ❌ | fix |
+|---|---|---|
+| **15/16** | ⭐ **The tie-break sentence contradicted (b)'s own escape.** *"an unreachable feed suspends (b), NEVER (a)"* — if (b) is *suspended*, its DECLARATION DUTY goes with it, so the compliant path reads as "(a) only, write nothing." **The load-bearing sentence of the whole ruling licensed the one outcome it exists to forbid**, and the reader said in terms: *"The file asserts exactly one path while its two sentences license two."* | Rewritten: an unreachable feed **suspends (b)'s ACTUAL-PRINT requirement and REPLACES it with the `production UNVERIFIED — <query>` line; it never touches (a), and never excuses writing nothing** — then the one path stated explicitly. |
+| **23** | **The Registration form still carried the PRE-SPLIT single `Producibility (SL-4)` row** — no (b) field, no example of the escape. A desk filling in the form would be non-compliant with (b). **Two live definitions of a conforming letter**, and the SL-5 row had already been given exactly the treatment SL-4's was denied. | Split into two rows: `Producibility — SL-4(a), NEVER waivable` and `Production attestation — SL-4(b), data-gated`, the latter showing BOTH the reachable and the unreachable form. |
+| **6** | **The record pointer did not resolve.** `runs/…RULED.md` is agent-root-relative while the file's other paths are repo-root-relative — and it is *the one pointer a reader must open to adjudicate the new split*. | Repointed repo-root, and the base stated in the line. |
+| **28** | **The Enforcement section claimed `REGISTRATION_CHECKLIST.md` row 15 "gains this file as a cited standard" — and `grep -c SPEC_LETTER` on that checklist returned 0.** The enforcement hook the standard named as its own had not existed since 2026-09-01. `finding_record_of_an_action_is_not_the_action`, in the Enforcement section. | **Made TRUE, not re-worded:** row 15 now cites this standard, in the same commit. `grep -c` now returns 1. |
+| **25** | **A stale line number that still resolved to real text** — `PREDICTION_DISCIPLINE.md L42` had drifted onto a different finding; the intended bullet is at L44. `finding_instrument_reports_clean_against_the_wrong_reference`, 9th form. | Re-cited by **anchor text**, not line number, so it cannot drift again. |
+
+⭐ **Two of the five (15/16 and 23) were introduced BY TODAY'S EDIT; three (6, 28, 25) are pre-existing and
+were simply never read.** `finding_a_correction_pass_is_unreviewed_work` — the amendment carried a defect rate
+of its own, and the defect was in its single most load-bearing sentence.
+
+### DECLARED RESIDUE — 11 ⚠️ NOT fixed, listed so none is discovered later as a surprise
+
+1. SL-4's one-sentence summary (*"can and does carry"*) is still the **pre-split conjunctive form**; a reader quoting the rule quotes the merged version the split repudiates.
+2. **SL-4(a) says published precision is spec-derived and never data-gated; SL-5 says it is *"a property of the series to VERIFY across the window."*** A stranger cannot tell whether documentation-only precision clears (a) for an unreachable feed. *(SL-5 itself de-rates this to "a PROMPT, not an established hazard," so it does not block — but it is the sharpest residual friction and is the first thing to settle at 9/18.)*
+3. A bare **"(a)"** inside SL-5 means SL-5(a), but SL-4(a) is now the other clause using the words "published precision" — a live misread the split created.
+4. **Nothing says what EVIDENCE establishes a specification for a vendor you cannot reach** (publisher doc? a cache? a peer's cell?) — i.e. exactly the case the split exists for.
+5. **"(b) … takes SL-5(e)'s form exactly"** is false at the string level: `production UNVERIFIED` vs `realisation UNKNOWN`. Neither is declared a machine-read state token.
+6. The form's `5.28 producible` example sits beside *"`DGS30` never printed 5.28"*; reconcilable only by inferring the (a)/(b) distinction.
+7. **"WAL's §0 spec-executability rail"** — no path; `AGENTS/WAL` and `AGENTS/WALTER` both exist.
+8. **"PR#5"** never expanded; the four BOND instances are nowhere enumerated.
+9. **"T6"** carries SL-1…SL-4's entire evidentiary weight and is never defined or pointed at.
+10. My §4 **recommendation to Will lives inside a STRICT rules file** with no state token and no review date — *"a stranger will reasonably apply it as the rule."* ⚠️ **This one is a genuine hazard and I am carrying it deliberately**: moving it out is the 9/18 restructure, and deleting it would lose the escalation.
+11. The **file header's amendment list ends 9/3** while the body carries 9/12 and 9/14 changes — *"a stranger checking currency from the header concludes the file is 11 days older than it is."*
+
+⛔ **THE FILE IS NOW CLOSED FOR THIS SESSION.** Two-correction stop reached. ⚠️ **The residue is dominated by
+POINTER and PROVENANCE defects (7, 8, 9, 11), which is the same diagnosis as the SL-5 bloat: this file has
+accreted instance narrative it cannot carry. All eleven are booked to the 9/18 WQ-171 ③ restructure, where
+the rule/record split is the move that fixes them as a class rather than one line at a time**
+(`finding_hand_fixing_named_rows_is_not_fixing_the_class`).
+
+### Reader's verdict on the four tests it was set
+(a) one compliant path — **NO before the fix, and the fix is ❌15/16.** (b) which leg is suspended —
+unambiguous; *what "suspends" meant* was not. (c) **SL-4 and SL-5 CAN be satisfied simultaneously** — the
+split is coherent on SUBJECTS and the two escapes are parallel, not exclusive: one letter may carry both
+`production UNVERIFIED` and `realisation UNKNOWN`. **That is the ruling's central claim, independently
+confirmed by a reader who was not told it.** (d) heading count still accurate — five rules; the split split a
+leg, it did not add a rule.
