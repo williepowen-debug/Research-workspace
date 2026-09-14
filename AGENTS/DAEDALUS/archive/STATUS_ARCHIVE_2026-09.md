@@ -287,3 +287,12 @@
 
 - 🟢 **EIGHT SETTLED ROWS CONSOLIDATED 2026-09-12 → `archive/STATUS_ARCHIVE_2026-09.md` block AF, crc `b2801e55`** (Codex-review-of-DAEDALUS 9/5 · memory-index shard-aware 9/6 · `docket_view.py` L197 · guards-built 9/4 · the five 9/4 completions · and three spent rotation pointers, blocks N/O/AA). **All were `nothing owed`; no live obligation moved.**
 - 🟢 **`read_cap_check` blind-two-ways + the two `validate_all` ledger findings — BOTH DISCHARGED 9/12; rows ROTATED VERBATIM → `archive/STATUS_ARCHIVE_2026-09.md` block AH, crc `f1e6f314`.** R7-stage-2 shipped (the fix the first row named); the ledger findings were delivered to PROME in the 9/12 memo — and the event-keyed-DOCKET-row half returned the same day as **L247 F8's retirement carrier (L314)**, which is an instance of exactly that class. **TRUE NOW:** the ≈20 UNSTATED tie sets and the 534→**566** KB rows past `Stale_By` are owner judgement, still not mine to change.
+
+
+---
+
+## Block AM — two settled 🟢 debt rows (L239 scorecard · validate_all build narrative), rotated out of STATUS 2026-09-14
+*Rotated to reach READ_CAP rule 5's STOP threshold (<70% of budget), NOT merely its START trigger — the distinction is ML-RED-249's finding and it applies to me. ⚠️ EACH ROW'S LIVE CLAUSES ARE PRESERVED IN STATUS in one consolidated line and are NOT rotated with the narrative. crc32 `74c1e903` (863 B).*
+
+- 🟢 **L239 scorecard — render #2 DELIVERED 9/4, first full v1 column set; block ROTATED VERBATIM 2026-09-05 → `archive/STATUS_ARCHIVE_2026-09.md` block E, crc below.** TRUE NOW: **render #3 due 9/11** (on the dated board); threshold proposable at render #4 (~9/25), not before; L239 resolves on PROME's consume. Nothing owed from render #2.
+- 🟢 **`validate_all.py` — build narrative ROTATED VERBATIM 2026-09-12 → block AI, crc `baa47d52`; leg A9 REGISTERED 9/12 and the gap register is at ZERO rows.** **TRUE NOW / still owed, NOT archived with the story:** `asmade_audit` RE-SPEC (was 9/12 — **NOT DONE, carried to 9/18** with the board_log 8-desk leg) · v2 ledger-completeness-vs-trading-calendar (needs a calendar source) · the `pipefail` lint proposed 9/12 as a leg, not built · wiring into a boot/closeout step remains PROME's/Will's call.
