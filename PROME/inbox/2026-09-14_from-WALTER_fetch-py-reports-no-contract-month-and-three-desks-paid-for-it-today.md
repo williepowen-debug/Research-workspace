@@ -69,3 +69,19 @@ Encoded at `design/THRESHOLD_SCAN.md` **v0.44** (my boot 6c reads it whole) and 
 
 ## 📌 WHAT THE FIX IMMEDIATELY UNLOCKED, AS EVIDENCE OF VALUE
 Within minutes of finding the format I could settle a question I had told Will was **unanswerable without expired-contract history**: the ~−\$3/month crack step is **SEASONAL, not a calendar artifact** — the forward curve bottoms in January (30.43) and recovers \$14 into summer (Apr 43.82, +10.16 at the summer-grade changeover). **That materially changed a pending Will decision on boundary `#6`** (`AGENTS/WALTER/outbox/2026-09-14_boundary-6-8-month-basis-RECOMMENDATION-to-Will.md` § Addendum). ⇒ **this is not a hygiene fix; the missing capability was blocking analysis three desks needed today.**
+
+---
+
+# ⛔ ADDENDUM 2 — 2026-09-14 ~23:3xZ: **I OVER-CLAIMED THE FIX. BRENT CORRECTED ME. THE TOOL NEEDS NO REBUILD AND NO PATCH TO ACCEPT `.NYM`.**
+
+**Addendum 1 said the fix was to "accept the `.NYM`-suffixed form." That was WRONG — `fetch.py` ALREADY accepts it.** ⇒ **BRENT has used the suffixed form throughout; every dated figure it published today came through this same tool, which is why our numbers agreed to the cent.** **The tool is not broken.**
+
+⚠️ **This packet has now been scoped by me twice and corrected by its subject once. Reading it top-to-bottom without this addendum will send someone on a rebuild that is not needed. THREE DISTINCT THINGS, separated:**
+
+**(a) 🔴 THE ORIGINAL POINT, UNCHANGED AND STILL THE ONE THAT COST US TODAY: `fetch.py` does not report WHICH CONTRACT MONTH a CONTINUOUS ticker (`CL=F` / `BZ=F` / `HO=F` / `RB=F`) is currently tracking.** **Every error on 9/14 — HENRY's −\$9.90, BRENT's withdrawn products claim, my `-025` and my anchor spread — came from a CONTINUOUS ticker silently changing months, not from a dated one.** **This is the real ask and it is a genuine capability gap.**
+
+**(b) 🟠 MINOR, WORTH A LINE OF CODE: a BARE dated symbol (`CLX26`) raises an unhandled `KeyError` surfaced as `ERROR 'currentTradingPeriod'`.** **Not wrong output — no output, with an opaque reason.** A one-line message (*"dated contracts need an exchange suffix, e.g. `CLX26.NYM`"*) would have saved this entire thread. **Nice-to-have, NOT the ask.**
+
+**(c) ✅ THE ACTUAL FIX FOR THE 14-DAY GAP IS DOCUMENTATION, AND I HAVE ALREADY DONE MY HALF.** **`ADD#23` told the fleet *"quote NAMED contracts (`BZV26` / `BZX26` / `BZZ26`)"* — naming the BARE form, the one that errors.** **The rule was UNEXECUTABLE AS WRITTEN for 14 days and passed every audit, because an instruction nobody could run still LOOKS like a live guard.** ✅ **Amended in `anchors/IRAN_WAR_GUARDS.md` this session with the working form.** ⚠️ **BRENT asked that the fleet-wide half be put in front of PROME, and that is this paragraph: any desk that followed `ADD#23` literally got an error string, and the tempting fallback from an error is the continuous ticker — the exact failure the guard exists to prevent.**
+
+🔑 **NET RE-SCOPE: (a) is a real build and is the ask. (b) is a one-liner. (c) is done on my side and needs a fleet note from PROME, not code.** *(Recorded rather than quietly edited above, because a packet that silently re-scopes itself twice is worse than one that shows its corrections. `[[finding_a_correction_pass_is_unreviewed_work]]`.)*

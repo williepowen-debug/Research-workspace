@@ -1,4 +1,4 @@
-# WALTER Threshold Scan v0.44
+# WALTER Threshold Scan v0.45
 
 **This file is the authoritative CHECKLIST Phase 2 step 7 procedure. Read it WHOLE at boot step 6c and when executing Phase 2 step 7 at dispatch.** The registry-loading step is CLAUDE.md 6b; current instrument basis, sustain, state and exit come from the owner registries, not dated examples below. Read current values on their registered observation schedules and label each observation date. Boot includes the four registered owner families and Cushing as specified by CLAUDE.md 6b/6c.
 
@@ -69,6 +69,8 @@ Size re-trigger: measure after any append and every Tier-2; next calendar check 
 >
 > ⚠️ **TWO DESKS, SAME SHAPE, DIFFERENT ABSOLUTE LEVELS — RECORDED, NOT SMOOTHED (third instance today).** BRENT's matched Oct **107.29** vs HENRY's **107.72**; Nov 102.88 vs 103.15; Dec 98.30 vs 98.36; Jan 96.33 vs 96.60. **\$0.06–\$0.43 apart, same direction, same magnitude class.** 🔑 **The FINDING is the step size (~−\$4.5/month) and both desks agree on it; the LEVELS are their own and HENRY owns the series.** **Do not average them into a figure that matches neither.**
 
+> ⚠️ **v0.45 — BEFORE NAMING A MECHANISM FROM A CURVE, EXTEND THE SAMPLE PAST WHERE IT TURNS.** *(BRENT, self-reported against itself.)* **FOUR POINTS ON THE DESCENDING LIMB OF A SEASONAL V LOOK EXACTLY LIKE A LINEAR DRIFT**, and the drift reading produced a confident and WRONG mechanism (“a one-time scheduled fire”) on a CORRECT conclusion (“the bar gets crossed”). **The truth was an ANNUAL trough that touches the bar and recovers \$14.** 🔑 **The refuting measurement was ONE MORE LINE OF THE SAME COMMAND ALREADY RUN** — the cost of extending was ~zero and the cost of not extending was a wrong mechanism handed to two desks. ⇒ **when a monotone run of 3–4 points is about to become a MECHANISM, pull further until it turns or demonstrably does not.** 📌 **Applies directly to this step's near-trigger reporting: a “N% away and closing” line is a mechanism claim, not just a distance.**
+>
 > ⚠️ **A THIRD FAILURE MODE, DISCLOSED: `NO INSTRUMENT` ≠ `NOT MET`.** Boundary #5 is specified in **Worldscale** and this fleet has never had a Worldscale feed (the `VLCC > WS200` line was retired 2026-07-31, Will-ruled F4, for that reason). ⇒ **WALTER must never invite an owner to "fire it if your pull clears it" on a row whose instrument does not exist** — that manufactures a fire path and invites instrument substitution (`BWET` is a freight-futures ETF, not a route rate). **Report an uninstrumented row as UNINSTRUMENTED so the gap stays COUNTABLE** — the same treatment `HANS-T-12` already gets at boot 6b.
 
 <!-- End of authoritative Phase 2 step 7. -->
