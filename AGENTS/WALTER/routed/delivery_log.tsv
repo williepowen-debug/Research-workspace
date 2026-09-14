@@ -2653,3 +2653,35 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-14T17:10:14Z	SIG-W-20260914-005	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
 2026-09-14T17:10:14Z	SIG-W-20260914-005	TERRY	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
 2026-09-14T17:10:14Z	SIG-W-20260914-005	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-006	HENRY	action	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-006.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-006	BRENT	action	claude-code	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260914-006.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-006	CARL	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-006	NEXUS	info	claude-code	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260914-006.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-006	HAWK	info	claude-code	PRIORITY	AGENTS/HAWK/inbox/WALTER/SIG-W-20260914-006.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-006	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-006	TERRY	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-006	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-006	VIOLET	info	claude-code	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-006.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	VULCAN	action	claude-code	IMMEDIATE	AGENTS/VULCAN/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	SAM	action	claude-code	IMMEDIATE	AGENTS/SAM/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	HENRY	info	claude-code	IMMEDIATE	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	VIOLET	info	claude-code	IMMEDIATE	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	BOND	info	claude-code	IMMEDIATE	AGENTS/BOND/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	WATT	info	claude-code	IMMEDIATE	AGENTS/WATT/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	BROCK	info	claude-code	IMMEDIATE	AGENTS/BROCK/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	LIQUID	info	claude-code	IMMEDIATE	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	RED	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-007	TERRY	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-007	PROME	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-007	NEXUS	info	claude-code	IMMEDIATE	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260914-007.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-007	CARL	info	claude-code	IMMEDIATE	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-008	HOMER	action	claude-code	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	CORAL	info	claude-code	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	REGINALD	info	claude-code	PRIORITY	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	CARL	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-008	BOND	info	claude-code	PRIORITY	AGENTS/BOND/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	MARCO	info	claude-code	PRIORITY	AGENTS/MARCO/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260914-008.md	written_not_delivered_pending_push	
+2026-09-14T17:52:13Z	SIG-W-20260914-008	RED	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-008	TERRY	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
+2026-09-14T17:52:13Z	SIG-W-20260914-008	PROME	info	claude-code	PRIORITY	(exempt - pull-complete per BOARD_CONSUMPTION_SPEC 3.5)	exempt_no_handoff	no ask
