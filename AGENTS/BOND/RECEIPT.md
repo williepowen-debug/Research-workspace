@@ -1,50 +1,42 @@
-# BOND — Run Receipt
+# BOND — RUN RECEIPT (overwritten each run)
 
-**Session:** 2026-09-10 (Thu) ~12:2x–16:4x ET · Will-spawned live-event session · **Overwritten each run.**
-**Shape:** four regime-relevant events inside four hours — August PPI (08:30), the 30Y-R (1PM), the first stepped-up long-end buyback op (1:40–2:00), the ECB (presser) — plus a peer correction to a claim this desk had already published.
+**Session:** 2026-09-14 (Mon) ~13:0x–13:5x ET · **PROME WQ-184 Tier-1 L0 spawn, DOCKET L357** · markets OPEN · desk dark 9/10→9/14.
 
----
+## Tasked deliverable
+🔴 **`BND-22` GRADED FALSE** — `DFII10` **2.55 [2026-09-10]**, +5bp through the 2.50 line. `Status=FALSE · Date_Resolved=2026-09-14 · Outcome` written. **DOCKET L357 DISCHARGED.**
+**Pre-written `If_Falsified_Action` executed in full:** breach protocol steps 1–5, decomposition, **no add, no proposal, `$0` moved.**
 
-## Inbox processed — 5 → 0
+## Data provenance
+**All load-bearing figures re-pulled at BOND's own primary, NOT adopted from PROME's packet** (root rule #4): `boot_recompute.py` cache-busted **2026-09-14 13:03 ET** (70 entries busted) + `fetch.fred_fetch` with explicit limits + NY Fed `/pd` API + live yfinance.
+**Every figure in PROME's packet reproduced exactly.** H.15 frontier **2026-09-10**; ICE BofA + breakevens through **9/11**.
 
-| Item | From | Disposition |
-|---|---|---|
-| `SIG-W-20260910-003` | WALTER | ECB hiked 25bp to 2.50% DFR → `KB-BND-267`; `processed/` |
-| `SIG-W-20260910-004` | WALTER | UK 30Y gilt 5.94% post-1998 high, TTF/storage → `KB-BND-269`; `processed/` |
-| TIME-CRITICAL UK gilt handoff | HANS | Carried as **near-trigger, NOT a fire** → `KB-BND-269`; `processed/` |
-| Term-premium walk-back (SOURCE → CONTRIBUTOR) | HANS | **Accepted as sent** → `KB-BND-270`; `processed/` |
-| Offer-to-cover correction | RED | **ACCEPTED — my claim was false** → `KB-BND-272` CORRECTED, `KB-BND-273`; `processed/` |
+## Inbox
+**General lane 3 → 0** (PROME `BND-22`; MIDAS DFII10 nowcast; RED FT-11 grade) → `inbox/processed/`.
+**WALTER lane 6 → 0** → `inbox/WALTER/processed/`. `SIG-W-20260911-008` 🔴 IMMEDIATE **ACTION answered in full** (`KB-BND-281/282`).
 
-## Catalysts resolved — 3
+## Outbox / packets authored
+| → | subject |
+|---|---|
+| **TERRY** | LEVEL-vs-SUSTAINED ruled for my instrument: **their card is right, mine is the underspecified one**, both terminate at NO ADD today |
+| **WALTER** | `SIG-008` answered — yes it changes the read; their curve vector is the 2nd witness; the priced-probability gap is mine and is declared |
+| **PROME** (`PROME/inbox/`) | session result + **one Will-gated item** + WQ-157 premises |
 
-- ✅ **9/10 30Y-R `912810UW6` $22B — GRADED CLEAN on every test.** `I'` NOT FIRED +16.55pp · OLD not fired both legs · cover not fired. **The LAST `I'`-standalone kill evaluation; it fired nothing.**
-- ✅ **9/10 first stepped-up long-end buyback op** — $5.187B of a $6.0B cap, **OFF-THE-RUN decisively**; F2 read delivered to RED.
-- ✅ **9/10 ECB** — hiked 25bp to 2.50% DFR, consensus met, guidance verbatim unchanged.
-
-## Predictions
-
-- ✅ **`BND-23` RESOLVED TRUE** (registered base rate 51%). Margins **+3.25 / +14.13 / +16.55pp**.
-- 🟠 **`BND-22` stays OPEN.** 9/9 printed **2.46 — NOT breached, 4bp = the closest approach of the episode** (supersedes 5bp, 9/2). **The 9/10 cell is unpublished (posts ~4:15 PM 9/11); implied ≈2.52 `[EST]` and an estimate resolves nothing.** Do not resolve before the 9/14 publication.
+## Checks
+| check | rc |
+|---|---|
+| `kb_lint` | **0** ✅ |
+| `closeout_check` (3/3) | **0** ✅ |
+| `docket_check` | **0** ✅ *(was 1 — 4 undocketed 9/22–24 CUSIPs added)* |
+| `corrections_boot_check` | **0** ✅ *(was 1 BLOCK — `COR-20260910-02` receipted APPLIED)* |
+| `read_cap_check` | **1** — STATUS at **32,550 B = 100% of budget, 0 over the hard cap**; zero headroom, flagged in SCRATCH |
+| `boot_recompute` | **1** — **7 findings, DECLARED RESIDUE**: all literal matches on correctly-labelled dated history (superseded `NEXUS_BRIEF` 9/09 block; `VX.tsv:16`'s `[9/1]`-stamped distance). Editing them would destroy a dated record to satisfy a pattern-match. **Expected rc=1 next boot — read the SCRATCH residue note first.** |
 
 ## Files written
+`thesis/PREDICTIONS.tsv` (BND-22 FALSE) · `thesis/THESIS.md` (**v1.2.5** + the gate flagged unfireable at KEY THRESHOLDS) · `thesis/CHANGELOG.md` (v1.2.5) · `STATUS.md` (rotated to exactly 32,550 B) · `TRADE.md` · `NEXUS_BRIEF.md` (**9/14 re-pin**; the 9/09 block marked SUPERSEDED) · `workbook/KB.tsv` **+7** (`KB-BND-276`→`282`) · `workbook/VX.tsv` · `docket/CATALYSTS.tsv` · `SCRATCH.md` · `registry/corrections_receipts.tsv` · **2 new `analysis/`** (breach write-up; FR2004 comparability probe) · **2 `domain/sources/` rotations** (9/10 BOTTOM LINE crc32 `1711412308`; resolved-catalysts line).
 
-`STATUS.md` (dashboard to the 9/9 vintage, gate table, matrix rows 1–2, composite, scoreboard, 3 catalyst rows, BOTTOM LINE, **ACM row upgraded monthly → daily**) · `thesis/THESIS.md` **v1.2.3 → v1.2.4** · `thesis/CHANGELOG.md` (v1.2.4 entry) · `thesis/PREDICTIONS.tsv` (`BND-23` TRUE; `BND-22` path to 9/9) · `TRADE.md` (F2 resolved, breach protocol re-pointed) · `SCRATCH.md` (full rewrite) · `workbook/KB.tsv` (**`KB-BND-264` → `273`**) · this receipt.
+## Position
+⛔ **UNCHANGED — TLT puts HOLD, no add, `$0`. No order, no threshold set/moved/shaved.** Will's 7/16 NO-ADD, `WQ-168 ④`, root rule #5.
 
-## Outbox — 2, both committed
-
-- `AGENTS/RED/inbox/…F2-READ…` — commit **`cf4187769`**. Confirmed received by PROME; RED spawned 15:38 with it as primary read.
-- `AGENTS/RED/inbox/…you-are-right…` — commit **`4e90cb939`**. RED's session had exited (stale socket); the committed packet is the durable channel.
-
-## Gates
-
-`docket_check` **rc=0** (3/3 coupon auctions through 9/17 docketed; 9/18→10/1 blind span already hand-verified 9/9) · `boot_recompute` **rc=0**, no unguarded drift · `corrections_boot_check` **rc=0** · `kb_lint` **rc=0** · `closeout_check` **rc=0** *(after fixing one genuine finding — a CAPABILITY claim with no `re-test:`, fixed BY PATTERN across three surfaces)* · `read_cap_check` **rc=0** · `consumer_check` on CCC 1056→1064 and HY 267→271: **zero certified-stale, no packets owed**.
-
-## Git
-
-`cf4187769` · `27d942e36` · `d6b11eef6` · `4e90cb939` · `0d04ed951` · `490105b2d` · closeout commit. **NO PULL** (CARL/SAM/WATT/PROME dirty at boot — root protocol §Before pulling step 2). **NO PUSH — PROME serializes.**
-
-## ⚠️ Errors this session, on the record
-
-1. **I published "offer-to-cover NOT computable" and it was FALSE.** RED caught it. **Cause: my poller exited on its FIRST fetch (~13:31) on the pre-op ANNOUNCEMENT row, and at ~15:40 I quoted that ~2-hour-old capture as current state without re-fetching the ops row.** Not an endpoint problem — the ops row did carry the results.
-2. **Compounding tell, worth more than the error:** I *disclosed* the poller bug in the packet. **The disclosure made the report look self-aware while its actual consequence — re-fetch before quoting — went unexamined.** A disclosed bug not followed through buys credibility it has not earned.
-3. **Ambiguous phrasing that propagated:** "the F2 FLIP DOES NOT TRIGGER" reached PROME's commit subject `313d526d8` reading as the opposite of canon. Restated on both surfaces; PROME notified.
+## Owed
+🔴 **WILL:** define the add-gate's "sustained" session count (3 or 5; not picked here by design).
+🔴 **BOND next session:** **RE-ARM THE PREDICTION BOOK — it is EMPTY on FOMC week** · pull DFII10 9/11+9/12 · **9/15 20Y-R** (`I'` 61.72, counter's 3rd chance) · **9/16 FOMC** · post-CPI priced hike probability (`re-test 9/16`) · **9/18 FR2004 join — premises closed, build UNSTARTED** · reply to RED on FT-11's relative leg.
