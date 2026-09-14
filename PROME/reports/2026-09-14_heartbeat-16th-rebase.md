@@ -38,8 +38,17 @@ Pre-re-base body → `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-14.md`;
 
 ## WHERE IT STOPPED, AND WHY THAT IS NOT A DEFERRAL
 
-**23,891 B = 73.4% of budget. Over the <70% stop by 1,106 B. 521 B of headroom to the rotate line.**
+⛔ **FIGURE WITHDRAWN — it was UNSTAMPED and went stale within the hour.** It read *"23,891 B = 73.4%, 521 B of headroom to the rotate line"*; at the closeout the file measured **24,278 B = 74.6%, 134 B of headroom** — **a FOUR-FOLD overstatement of headroom, on the figure that decides whether the next append re-bases or shaves.** ⚠️ **Caught by ARGUS, and the mechanism is PROME's own canon: `HEARTBEAT.md:66` names `measure.py` as the authority and this report then carried a hand-copied number anyway.** ⇒ **Read every byte figure for this file from `python3 PROME/tools/measure.py HEARTBEAT.md`; this report states none.** ★ **The lesson is not 'stamp it' — an earlier line in this same report hedged correctly and survived. It is that a hedge protects the FIGURE and not a VERDICT built on it, which is exactly the defect ARGUS found simultaneously on `STATUS.md`'s ACTIVE_DECISIONS row.**
 
 ⛔ **Stopped deliberately, and tested against `ML-RED-251` before stopping: *would I accept this reason from another desk about work this cheap?* The work is NOT cheap — it is DESTRUCTIVE.** Everything remaining is either a live guard or the live `WQ-213` decision. Cutting a guard to green a byte line is the trade this file exists to prevent, and the day already produced the worked example: RED stopped 515 B above the same threshold rather than delete live contract definitions, and that was the first "I stopped" in the whole exchange that was not a self-chosen metric talking.
 
 🔴 **DATED RE-TRIGGER, with a NAMED target rather than a generic one (rule 7):** **the `WQ-213` block in §Book state becomes HISTORY at the 16:00 close today** — whichever way Will decides, the day-colour gate is a moment property and dies with the session. **That block is the next rotation and it is non-destructive once the decision resolves.** Re-check at the close, at any append, or on 2026-09-21 — whichever is first.
+
+
+## ADDENDUM 2 — 2026-09-14 14:5x ET: the ROTATE LINE IS TRIPPED, BY CORRECTNESS FIXES
+
+**ARGUS returned 12 ❌ at the closeout freeze and applying them put the file OVER the 24,412 B rotate line.** The additions were: §7 gaining the housing content its own heading had promised and carried NONE of (a band crossed unobserved — NAR EHS 3.98M through a RED), the §3 header corrected from *tail* to *GAP*, the desk list corrected (WALTER was doorbelled, not orchestrated; HOMER was the fifth), and `§KOS.2` added to two pointer lists that called a strict subset *the FULL binding set*.
+
+⛔ **Every one of those is a correctness fix and none is deferrable. The line is tripped and DECLARED rather than shaved back under** — the same call RED made 515 B above its own threshold and DAEDALUS made on a canon amendment, both today: **when the remaining work is destructive rather than cheap, you stop and say so.**
+
+🔴 **NAMED next rotation, unchanged and now overdue rather than pending: the `WQ-213` block in §Book state becomes history at the 16:00 close** — the day-colour gate is a moment property and dies with the session whichever way Will decides. **That block is non-destructive to rotate once the decision resolves, and it is the first act on this file at the next touch.** Re-check at ANY append or 2026-09-21, whichever is first.
