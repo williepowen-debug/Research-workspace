@@ -2861,7 +2861,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-09-14T23:4xZ	NOTE-2026-09-14-sig015-sec3-roll-artifact	PROME	info	claude-code	PRIORITY	PROME/inbox/2026-09-14_from-WALTER_NOTE-sig015-sec3-separation-claim-was-a-contract-roll-withdrawn.md	delivered	sec3 separation claim withdrawn; contract roll
 2026-09-14T23:4xZ	NOTE-2026-09-14-sig015-sec3-roll-artifact	LABOR	info	claude-code	PRIORITY	AGENTS/LABOR/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md	delivered	sec3 separation claim withdrawn; contract roll
 2026-09-14T23:4xZ	NOTE-2026-09-14-sig015-sec3-roll-artifact	MARCO	info	claude-code	PRIORITY	AGENTS/MARCO/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md	delivered	sec3 separation claim withdrawn; contract roll
-2026-09-14T23:2xZ	SIG-W-20260914-027	WAL	action	claude-code	PRIORITY	AGENTS/WAL/inbox/WALTER/SIG-W-20260914-027.md	written_not_delivered_pending_push	
-2026-09-14T23:2xZ	SIG-W-20260914-027	HENRY	action	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-027.md	written_not_delivered_pending_push	
-2026-09-14T23:2xZ	SIG-W-20260914-027	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260914-027.md	written_not_delivered_pending_push	
-2026-09-14T23:2xZ	SIG-W-20260914-027	BROCK	info	claude-code	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260914-027.md	written_not_delivered_pending_push	
+2026-09-14T23:2xZ	SIG-W-20260914-027	WAL	action	claude-code	PRIORITY	AGENTS/WAL/inbox/WALTER/SIG-W-20260914-027.md	delivered	
+2026-09-14T23:2xZ	SIG-W-20260914-027	HENRY	action	claude-code	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-027.md	delivered	
+2026-09-14T23:2xZ	SIG-W-20260914-027	LIQUID	info	claude-code	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260914-027.md	delivered	
+2026-09-14T23:2xZ	SIG-W-20260914-027	BROCK	info	claude-code	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20260914-027.md	delivered	
