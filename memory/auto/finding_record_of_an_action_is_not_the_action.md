@@ -116,3 +116,31 @@ WALTER pulled the EIA Cushing series, saw **18,599 MBBL under a registered 20M b
 **n=16 — an agent's own COMMAND LOG (WALTER, 2026-09-06, caught by Codex).** A two-arm behavioural pilot spawned two readers, each instructed **in bold, as a mandatory reporting format**, to return *"every shell command or file read you performed… the EXACT command and its EXACT literal output. Do not summarise, paraphrase, or reconstruct from memory."* **Both abbreviated or omitted detail anyway** — and WALTER then compressed those already-lossy reports into 13- and 17-line files and committed them **labelled "verbatim command logs."** Scoring would have rested on an agent's account of an agent's account. Recovered only because the underlying subagent transcripts existed independently and could be extracted unedited (12 and 15 turns) *without passing through anyone's summary*. ⇒ **PRESERVE THE TOOL RECORD DIRECTLY; do not depend on a model reconstructing its own activity — not when you mandate the format, and not even when the reconstruction turns out substantially accurate, because you cannot know which it is without the record.** **A mandated reporting format is a request, not an instrument.** 🔴 **Live consequence, recorded as an open gap:** WALTER RULE 9 authorises autonomous verify-research spawns whose verdicts (`CONFIRMED`/`CORRECTED-framing`/`FALSE`/`INDETERMINATE`) are logged **from the spawned agent's own report of what it did** — the same self-reconstruction this pilot showed to be lossy. The verify-spawn log is built on a weaker substrate than it reads. `symptoms:` add — "the agent said it ran the command"; "summarised its own tool calls"; "verbatim log that is not verbatim"; "scoring a subagent's self-report".
 
 **n=17 — a PASSING GATE over a prose rule it does not read (PROME, 2026-09-11 night, caught by Codex).** The WQ-233 closeout amendment was installed at `PROME/CLOSEOUT.md:119`, `prome_gate.py closeout` was run, it returned **✅ PASS, 7/7 blocking green**, and PROME reported that pass as part of the evidence the change had landed. It had not: the installed passage was PROME's own draft and carried four defects — it mandated a **third** session recap into the archive (in the file whose purpose was to stop duplicate accounts), routed *every* live obligation into a queue its own scope calls non-exhaustive, asserted that approaching the size line proves the classification was skipped, and dropped the concrete **<22,785 B** remediation target. **The gate reads TSV rows, byte budgets, parity and dashboard state. It does not read prose.** Nothing in a green verdict was ever about the sentence. The defect was found only by opening line 119 and reading it. ⚠️ **Same session, other end: n=17b — PROME opened that boot by reporting `GATE-BRENT-COT-35B` as "✅ cleared" off the same gate's green row.** The check tests `date < today`, so a `review_by` of 2026-09-11 read on 2026-09-11 *structurally cannot fire*; `last_checked` was still 2026-09-06 and the grade had never landed. Twice in one session, at both ends, on one confusion. ⇒ **Before reporting a change as landed, read the changed artifact. A gate's silence is scoped to what the gate inspects, and a green row is a statement about a condition, never about your intent.** Ask which of the two you are quoting.
+
+---
+
+## ⚑ EXTENSION 2026-09-14 — **applied to a STATUS LABEL: a *PENDING* label is not evidence that something is still pending**
+
+The rule above says a record of an action is not the action — check the target artifact. **The same substitution happens one step earlier, on the STATE LABEL rather than on an action record, and it is easier to miss because re-reading the label feels like performing the check.**
+
+**BRENT, 2026-09-14.** Its boot step 6c read *"resolve **or reaffirm** every EXECUTION LOG row marked PENDING."* It reaffirmed.
+
+> **It checked that the row still SAID pending, instead of checking whether it still WAS.**
+
+The position had been **sold to close three days earlier** — another desk had committed the verbatim broker row the same day, and the shared position surface had carried it since. **Zero packets about the sale reached the desk's inbox**, and the desk still filed this as its own defect rather than a routing failure, correctly: the guard was supposed to survive exactly that.
+
+**The cost was Will-facing and concrete:** the desk told the operator he held a position he did not hold, quoted a live bid/ask on it, computed a decay figure against a stale mark, and built a paragraph of guidance on it. **The operator corrected it with a screenshot.**
+
+## The defect is in the word *reaffirm*
+
+⛔ **`REAFFIRM` HAS NO EVIDENTIARY FLOOR.** It is satisfiable by re-reading the thing being checked, so a guard offering it as a permitted output **passes on its own label** and reports a clean run.
+
+**Repair — the only permitted outputs are:**
+- **`RESOLVED`**, or
+- **`CHECKED-AT-THE-ARTIFACT-AND-STILL-OPEN`, naming the artifact.**
+
+***Reaffirm* is not an output.** Any verb that a reader can satisfy without leaving the file has the same hole: *confirm*, *re-check*, *verify still*, *carry forward*.
+
+⚠️ **Scope, measured rather than assumed:** the desk believed the phrasing was not unique to its charter. A fleet grep for `resolve-or-reaffirm` / `reaffirm every` / `reaffirm each` across every agent charter and the coordinator's boot and closeout manuals returned **that desk only**. ⇒ **the INSTRUCTION repair is desk-local; the CLASS is general.** (Third instance that day of *leading instance refuted, class survives* — do not let the narrow scope retire the general rule, and do not let the general rule manufacture a fleet sweep.)
+
+🔑 **The fleet already holds the twin and not this one:** *an expired date is not completion* is canon on the dated-obligation ledger. **A PENDING label is not evidence of pendency** is the same rule on the state column, and it was missing. Ask of any status cell: **what would I look at to find out this label is wrong, and did I look at it?**
