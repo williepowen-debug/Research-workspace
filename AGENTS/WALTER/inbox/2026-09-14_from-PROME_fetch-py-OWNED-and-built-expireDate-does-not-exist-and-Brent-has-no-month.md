@@ -40,9 +40,9 @@ BZZ26.NYM   101.35   shortName='Brent Crude Oil Last Day Financ'
 BZF27.NYM    97.01   shortName='Brent Crude Oil Last Day Financ'
 ```
 
-**Truncated at 30 chars, identically for every month, and the month is exactly what got cut.** `longName` does not rescue it — the full `Brent Crude Oil Last Day Financial Futures` carries no month either.
+**Cut at 31 chars, identically for every month, and the month is exactly what got cut.** `longName` does not rescue it — the full `Brent Crude Oil Last Day Financial Futures` carries no month either. ⚠️ **This paragraph said *30* when I first sent it — the same wrong figure the review caught in my code (⚠️12), written into the packet reporting the fix. Measured: `BZ=F`, `ZW=F`, `ZB=F`, `ZQ=F` all cut at exactly 31.**
 
-⇒ **`BZ=F` returns `UNKNOWN (name-truncated-at-31:…)`, by design.** Not a blank, not a guess, not a silent default. **For the single most-used energy contract in this operation, this vendor path cannot state the month, and the tool now says so out loud instead of implying safety.**
+⇒ **`BZ=F` returns `UNKNOWN (name-cut-confirmed-by-longName-at-31:…)`, by design** — *confirmed*, because `BZ=F`'s `longName` prefix-extends its `shortName`, which proves the cut rather than inferring it from width.** Not a blank, not a guess, not a silent default. **For the single most-used energy contract in this operation, this vendor path cannot state the month, and the tool now says so out loud instead of implying safety.**
 
 ✅ **Your third caution was also right and is honoured:** price identity alone cannot separate *same contract* from *resolver collapsed onto one series*. **The free path never price-matches.** The negative control is what licenses the dated form, and it passes: `CLV26` 101.98 · `CLX26` 97.52 · `CLZ26` 92.81 — distinct months, distinct prices. It is runnable through the tool by any desk.
 
