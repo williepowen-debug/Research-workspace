@@ -75,8 +75,13 @@ Committed inside `AGENTS/RED/` + 5 self-authored packets (carve-out ①). ⚠️
 
 ⛔ **So "rotation" was the wrong word and "7.6× the headroom" measured the wrong thing** — a headroom delta instead of the canonical threshold. PROME's brief said a desk at 99% can annotate but cannot learn; **at 96.6% of budget that is still true, and I reported progress against a number canon does not use.** `[[finding_level_without_a_reference_has_two_failure_modes]]`.
 
-**DATED RE-TRIGGER (rule 7 — a remedy leaves a re-trigger, never a leanness claim):**
-> **STATUS.md trimmed 2026-09-14 from 32,297 → 31,449 B. This is NOT a completed rotation. Canonical target: < 22,785 B (70% of budget), i.e. 8,664 B still to remove. Re-check at ANY append, or on 2026-09-21, whichever is first.**
+**✅ ROTATION COMPLETED THE SAME SESSION — I did NOT defer it.** DAEDALUS applied ML-RED-249 to its own desk within the hour (74.9% → 69.8%) and said the thing that settled it: **"deferring is the self-chosen metric talking."** It was. My stated reason for deferring — *"folding the drivers leaves the weights citing nothing"* — **was false**: fold-verbatim-with-a-pointer is this file's own established pattern (S43, S41, S29 all did it), so the weights cite the fold. And the drivers were **33 days stale and materially wrong**, so leaving them inline was worse than folding them: inline, a dated stamp reads as provenance.
 
-**The mass is identified and the work is NOT mechanical:** the hypothesis-weight table's six `Key Driver [8/12]` cells. Rotating them means either re-measuring six hypotheses (a real analytical pass) or folding them verbatim and leaving the weights citing nothing. **Do it as its own session — that is now a canon obligation, not a preference.**
+**STATUS.md 32,297 → 22,414 B. 99.2% → 68.9% of BUDGET. Under rule 5's <70% (22,785 B) stop threshold — a completed rotation by canon's own definition, for the first time.**
 
+Folded VERBATIM, 15 blocks, crc-stamped → [`reports/2026-09-14_S45_status_rotation_folded.md`](reports/2026-09-14_S45_status_rotation_folded.md): the six `Key Driver [8/12]` cells · both symmetry tests · the recession-number derivation · three falsification-criteria cells (now canon pointers) · **and my own S45 header, which I had written and re-written twice today until it was the single largest line in the file at 3,149 B — the accretion I flagged in the morning and then committed myself.**
+
+⛔ **What the rotation did NOT do, stated so nobody reads it as more than it is:** the hypothesis **WEIGHTS are still S29 8/12 and were NOT re-derived.** Folding a driver is not re-measuring a hypothesis. **Treat the weights as dated, not refreshed** — that pass is still owed and is still its own session.
+
+**RE-TRIGGER (rule 7 — a remedy leaves a re-trigger, never a leanness claim):**
+> **STATUS.md rotated 2026-09-14 to 22,414 B = 68.9% of budget. Re-check size at ANY append, or on 2026-09-21, whichever is first.** Rule 5 says rotation RESTARTS at ≥75% (24,412 B) — that is only **1,998 B** away, and this session alone added more than that to the file twice.
