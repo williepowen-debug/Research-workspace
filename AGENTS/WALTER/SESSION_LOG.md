@@ -1394,3 +1394,21 @@ No fresh active architectural thread is inferred from the existence of these fil
 ### ⑬ HANS board row, prior form (VERBATIM)
 
 - **HANS board — HANS's own rows [9/10], NOT re-derived (dark since 9/10):** UK 30Y **5.93** (T-13 orange 6.00: **7bp, tightest on the board**) · UK 10Y **5.36** (T-06: **14bp**) · Bund 3.4879 · TTF 81.00 · EU storage gap −14.7pp [9/8] · T-04 ECB 2.50 NOT MET, next GovC **10/29**. ⚠️ **T-09/T-10 COMPOUND two-leg — neither fires alone.** ⛔ **T-12 UNINSTRUMENTED — cannot fire, does not count toward a clean board.** 📌 **9/17 BoE MPC publishes the ANNUAL GILT-QT SALES PACE.**
+
+### ⑭ 2026-09-14 PM lead blocks rotated at closeout 12(f) (VERBATIM) — standing-flag evaluation, registry refresh, BCS v0.27
+
+✅ **THREE STANDING FLAGS EVALUATED RATHER THAN RE-READ (boot step 3), AND TWO WERE FALSE:** the `VIXCLS` outage (**REFUTED at the primary** → `-021`) · the 47-item `dropzone_pending` MED (**the SAME 47 already dispositioned 47/47 in the CLOSED `BM-20260914-02`** — verified filename-by-filename, then moved to `processed/`) · the intake lane's `STALE 3d` (**NOT a collector death** — GitHub Actions `0 15 * * 1-5` UTC, observed runs 18:00–18:58Z, today's at the EDGE of that band). ⚠️ **Standing instrument defect from the third: the health check reads raw elapsed days against `last_run`, so EVERY Monday boot before the run lands emits `MED — collector likely down; flag PROME`. Friday's self-correction fixed the NARRATIVE and left the INSTRUMENT wrong weekly** — `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`. Full working in `SESSION_LOG.md`.
+
+📌 **REGISTRY: the four rows the 14:2x closeout deliberately left stale are REFRESHED (TERRY 9/14 · HOMER 9/14 · HENRY 9/13 · SAM 9/11), each off its OWN declared stamp — never `git log -- AGENTS/<desk>/`, which measures WALTER's own inbound handoff traffic** (`[[finding_path_scoped_git_log_measures_inbound_traffic]]`). **Both `registry_lag` MEDs cleared.** **`design/OPERATOR_BRIEF_SPEC.md` v0.1 remains live canon** (RULE 12 owns the mechanism; §3 ANTI-LAUNDERING is load-bearing).
+
+**`BOARD_CONSUMPTION_SPEC` v0.26 → v0.27** (§3.5.8(a) TERRY row HELD → RESOLVED; `STATE.md` §1 bumped in lockstep after `version_drift_check` caught the companion drift). **The `PULL_COMPLETE` table is now fully dispositioned on FOUR DIFFERENT bases — CARL apply · RED apply · PROME fail-safe-only · TERRY not-applied — flattening them is the error the section exists to prevent.** **BOND answered `SIG-008` with an attribution ADVERSE TO ITS OWN BOOK** (policy path, not term premium; `BND-22` FALSE; position unchanged, `$0`) and declared the missing post-CPI OIS number as its own lane, re-test 9/16.
+
+### ⑮ AI-channel STATUS row, prior longer form (VERBATIM)
+
+- 🔴 **AI IS THE FOURTH CHANNEL (`-007`, `-011`, `-018`):** **SoftBank −10.7% — cause is NOT a carry unwind but Altman shelving OpenAI's 2026 IPO on safety grounds and Amodei calling for an industry slowdown**; contagion AI-shaped (KOSPI −3%, SK Hynix −6%, Kioxia −6%). **Morgan Stanley: >\$3.1tn of DISCLOSED OFF-BALANCE-SHEET commitments**, incl. **ORCL \$261B leases vs \$32B purchases** and **NVDA \$125B residual-value support on a reported \$500bn facility at 25% RVS.** ⛔ **NOT debt — do not quote it as such; screenshot-only, neither the note nor any filing opened.** The DeepMind "RSI achieved" rumour is **KILLED** (an acrostic); its Reuters-confirmed background (Brin resourcing RSI, 8/12) stands.
+
+### ⑯ FILTER-POSTURE standing-flags block, rotated from `STATUS.md` 2026-09-14 (VERBATIM)
+
+**Standing flags (active operational state, not posture):**
+- ✅ **COP RETIRED 2026-06-28 · Quick WALTER RETIRED 2026-06-26 — ONE mode, Full WALTER.** No standing obligation from either; boot steps 5 + 10 are tombstones. (Longer notes rotated to `SESSION_LOG.md`.)
+- ✅ **`design/STATE.md` §5's pointer to this section is TRUE** (it was false 7/23→8/20).
