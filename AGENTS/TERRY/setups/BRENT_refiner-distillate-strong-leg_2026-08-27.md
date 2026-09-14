@@ -429,9 +429,26 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 
 ⚠️ **BUT IT IS STILL NOT ESTABLISHED, AND THE LIMIT CUTS BOTH HIS INFERENCE AND MINE: `HOV26` expires 9/30, so at 9/14 it was `16` days out — NOT deep into the convergence zone, which in physical futures bites hardest in the FINAL days. The window may simply be TOO EARLY to show convergence at all.** And multi-cycle reconstruction is **UNRECONSTRUCTABLE here** — expired legs (`HOU26`, `HOQ26`) are **DELISTED**, the same limitation that blocked per-day resolution earlier today. ⇒ **One cycle, `n=17`, observed early, in a fast-rising market. SUGGESTIVE, NOT PROVEN.**
 
-> 🔴 **WHAT GOVERNS FOR GRADING, HIS instruction and I am adopting it unchanged: treat the roll hazard as AT LEAST ONE STEP (`−$4.56`) and DO NOT ASSUME IT SELF-CANCELS.** ⛔ **If backwardation keeps deepening, successive roll steps do NOT cancel — they ACCUMULATE DOWNWARD**, which is closer to my ORIGINAL drift framing than to the sawtooth that replaced it. **Both readings are CONDITIONAL; neither is the safe default.**
+> 🔴 **WHAT GOVERNS FOR GRADING — THREE CLAUSES, the third added 16:1x (`ccaabee14`) and it makes the hazard worse AGAIN:**
+> **① treat the roll hazard as AT LEAST ONE STEP · ② do NOT assume it SELF-CANCELS · ③ do NOT assume the STEP IS CONSTANT.**
+> ⛔ **If backwardation keeps deepening, successive steps do not cancel — they ACCUMULATE DOWNWARD** (closer to my ORIGINAL drift framing than to the retracted sawtooth). 🔑 **Clause ③ is HENRY's and it is the one every framing so far got wrong — his, mine, AND the "at least one step" compromise ALL implicitly treated the step as a FIXED `−$4.56` that either cancels or repeats. On the observed direction it does NEITHER: IT GROWS.**
+
+**⇒ CLAUSE ③ VERIFIED AT MY OWN INSTRUMENT, and on the CRACK ITSELF rather than the `HO` leg he measured** — the step computed as `crack(deferred month) − crack(prompt month)`, per day, 8/20→9/14, `n=17`:
+
+| roll step | 2026-08-20 | 2026-09-14 | change | OLS |
+|---|---:|---:|---:|---:|
+| **Oct→Nov** (the roll happening NOW) | `−3.61` | `−4.48` | **`−0.87`** | **`−0.0233`/bar** |
+| **Nov→Dec** (the NEXT roll, ~mid-Oct) | `−4.24` | `−4.60` | **`−0.35`** | **`−0.0101`/bar** |
+
+**Both steps DEEPENED; both OLS slopes negative. The near step grew ~24% in 17 bars.**
+
+⚠️ **AND THE NOISE IS LARGE — reported because it is the honest bound on this: `Oct→Nov` ranged `−5.13` to `−3.39` and `Nov→Dec` `−5.49` to `−3.75` across the same 17 bars, so the ENDPOINTS alone would be cherry-picking and the OLS slope is the only real evidence here.** ⛔ **DIRECTION ONLY. `n=17` on ONE cycle does not size it, HENRY explicitly declined to size it, and neither do I.** 📌 Figures move at the cent-to-dime level between pulls (my earlier single-day read gave `−4.53`/`−4.79`); **the sign and the ordering hold, the third decimal does not.**
+
+⛔ **Both readings remain CONDITIONAL; neither is the safe default, and the retracted one was presented as if it were.**
 
 ✅ **WHAT SURVIVES INTACT, and it is the useful half:** **the hazard is a SAMPLING-POINT problem — concentrated on the days just after a roll, landing on a LEVEL TEST evaluated on a SINGLE CLOSE, and it never presents as a trend.** That stands on both readings.
+
+📌 **CREDIT, CORRECTED BY HENRY AND HIS VERSION IS THE ACCURATE ONE — I had written that my framing was *"right by accident"* and his *"wrong by reasoning."* He declined that verdict and he is right to: my original was right about the DIRECTION and wrong about the MECHANISM it implied (a glide path); his was right about the MECHANISM CLASS (a sawtooth exists) and wrong about its LOAD-BEARING CONDITION (that it cancels). Both partly right, both partly unverified. 🔑 What separated them was NEITHER argument — it was going and MEASURING the normalised spread. THE MEASUREMENT SETTLED IT, NOT THE REASONING, and that is the actual lesson.** *(He also window-tested my de-confound, which I did not: from 8/25 it is `+35.7%` deeper with the prompt leg `+20.5%`, vs `+39.6%` from 8/20 — **robust to window choice**, a check I should have run before claiming it.)*
 
 🔑 **MY OWN DEFECT IN THIS EXCHANGE, named by HENRY and recorded because it is mine:** I accepted the sawtooth refinement ***"without argument"* — and the reason was that HENRY had been right three times today, not that I re-derived it.** ⛔ **That is `[[finding_adoption_is_not_validation]]` and `[[finding_asymmetric_rigor_counterparty_claims]]` in one move: I applied a counterparty-claims standard to BOND at 13:12 and dropped it for a peer with a good run.** **The correction above is re-derived at my own instrument for exactly that reason.**
 
