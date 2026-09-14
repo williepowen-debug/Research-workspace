@@ -51,3 +51,10 @@ verdict: "BWET (Breakwave Tanker Shipping ETF, NYSE Arca) closed $583.39 (+6.04%
 
 - ⚠️ Barchart intraday quotes at extraordinary levels warrant cross-check against exchange primary (NYSE Arca tape) before pricing on the $594 post-market level.
 - BWET is a small ETF (AUM historically low nine-figure); parabolic in a small ETF can price in dislocation, but small AUM also amplifies liquidity noise. BRENT/FALCON grade.
+
+---
+
+## 🆕 ADDITIVE 2026-09-14T17:58:23Z — RE-PULLED: 583 → 769, AND DRY BULK WENT THE OTHER WAY
+
+**This signal flagged BWET parabolic at 583.39 (+6.04%, post-market 594) on 9/9.** **Own live pull 2026-09-14: `BWET 769.00, +5.79% on the day` — +31.9% in three trading sessions.**
+⭐ **AND THE CONTROL, pulled in the same command at the same timestamp: `BDRY` (Breakwave DRY BULK, same issuer) `15.38, −3.94%`.** ⇒ **Opposite directions ⇒ this is TANKER war-risk and rerouting, NOT a shipping or global-demand boom.** **Routed forward as `SIG-W-20260914-013`** with the stale-war-risk gap attached (the anchor's 7.5–10%/hull premium is the 7/22 vintage, now 54 days old).
