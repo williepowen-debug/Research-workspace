@@ -152,7 +152,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 |---|---|---|
 | **★ RH USO $159C Sep-11 ×1 — expires TOMORROW** (CPI day; ≈$216 derived) | 🔴 1 DTE; Will's hand, no rail, no ask | **Will** |
 | **★ Fidelity Activity view — rows BEFORE 9/10** (D-49 · D-53 · D-45 · D-44) | 🟠 Dates the XLE ×1 sale and the USO 153C entry; attributes −$190.35 | **Will** — scroll back and post |
-| **XLE 65C ×1 survivor — no ruling on file** (D-49) | 🟠 20 DTE; ⑦ consumed | **Will** intent → TERRY re-registers or closes the card |
+| ~~**XLE 65C ×1 survivor — no ruling on file** (D-49)~~ | ✅ **DISCHARGED — the survivor was SOLD 9/11 at $1.51** (see the XLE position row above; TERRY `bcc962bbd`). ⛔ **This row was asking Will to rule on a contract he had already closed, and it stood for two days.** Nothing is owed on the survivor | ~~Will~~ — **nothing.** D-49 stays open ONLY for the FIRST contract's date/price, which is the row ABOVE this one (Activity-view scroll-back) |
 | **WQ-200 USO 37-share card — DECLINED 9/10 11:15 ET** | ⚪ no line live; $158.38 close informational | **Will's hand** |
 | **Sep-18 cluster** (WAL pair LAPSE; RH USO 150/165 **CLOSED 9/10 +$330.00** — WQ-207 / TERRY card / BRENT row to close) | 🟡 8 DTE; bookkeeping only | REGINALD / PROME / TERRY-BRENT |
 | **TLT 77P ×20 HOLD; 5 sold 9/10 off-ruling; GATE-TERRY-007 0-of-5** (D-31) | 🟡 20 DTE | TERRY |
