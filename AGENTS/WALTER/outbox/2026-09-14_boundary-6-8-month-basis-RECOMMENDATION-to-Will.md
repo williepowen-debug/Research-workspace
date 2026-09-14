@@ -32,3 +32,43 @@ HENRY assumed the roll steps *"roughly cancel over a cycle"*, **checked, could n
 
 ---
 *Substance and measurements: `ROUTING_OVERLAYS.md` v0.37 boundary block (#6 Oct 39.11 · Nov 35.58 · Dec 32.14 · Jan 30.27; #8 Nov 49.14, \\$0.86 below bar; no live Brent Oct leg). Source: BRENT own pull 2026-09-14 post-close, matched months — BRENT sized the month-DEPENDENCE and explicitly did not claim a grade is wrong.*
+
+---
+
+# 🔴 ADDENDUM 2026-09-14 ~23:0xZ — **THE QUESTION IS ANSWERED. IT IS SEASONAL, NOT A CALENDAR ARTIFACT — AND THAT MAKES THE ALARM WORSE, NOT BETTER.**
+
+**I said settling this needed EXPIRED-contract history we do not have. THAT WAS WRONG — it needed the FORWARD curve, which is live, and which I could not previously pull because I had the symbol format wrong.** *(Working format: `<ROOT><MONTH><YY>.NYM`, e.g. `CLX26.NYM`. See §Instrument below.)*
+
+## THE MEASUREMENT (own pull, 2026-09-14 post-close, matched months, `crack = RB×42 − CL`)
+
+| Month | RB | CL | Crack | Step |
+|---|---:|---:|---:|---:|
+| Nov26 | 3.1662 | 97.480 | **35.50** | |
+| Dec26 | 2.9719 | 92.770 | **32.05** | −3.45 |
+| **Jan27** | 2.8360 | 88.680 | **30.43** | −1.62 ← **TROUGH** |
+| Feb27 | 2.7757 | 85.330 | **31.25** | +0.82 |
+| Mar27 | 2.7712 | 82.730 | **33.66** | +2.41 |
+| **Apr27** | 2.9617 | 80.570 | **43.82** | **+10.16** ← **summer-grade changeover** |
+| May27 | 2.9300 | 78.680 | **44.38** | +0.56 |
+| Jun27 | 2.8708 | 77.180 | **43.39** | −0.99 |
+| Jul27 | 2.8004 | 75.850 | **41.77** | −1.63 |
+| Aug27 | 2.7408 | 74.710 | **40.40** | −1.36 |
+
+## ⇒ THE VERDICT
+
+⛔ **READING (1), "CALENDAR ARTIFACT", IS REFUTED.** A uniform calendar drift declines monotonically. **This bottoms in January and recovers \\$14 into summer.** It is a **textbook gasoline seasonal V.**
+
+✅ **READING (2), "REAL SEASONAL", IS SUPPORTED** — and the **+\\$10.16 April step** is the tell: that is the **summer-grade gasoline changeover**, a physical/regulatory fact about how gasoline is made, not a data effect. *(The mechanism is WALTER's attribution; the NUMBERS are the measurement.)*
+
+## 🔑 BUT THE CONSEQUENCE INVERTS THE COMFORTABLE CONCLUSION
+
+**"It's real, so the alarm is telling the truth" is WRONG.** ⇒ **A FLAT \\$30 BAR ON A SERIES THAT SEASONALLY TRAVELS ~\\$30–\\$44 WILL BE CROSSED BY THE FRONT MONTH ESSENTIALLY EVERY WINTER, AS ROUTINE.** **`#6` is not mis-calibrated on the wrong month — it is UN-SEASONALISED, and it has an annual false-fire built in.**
+
+📌 **Neither of the two options I put to Will was right.** The fix is not "pick a month" and not "constant maturity" — **it is that a flat bar cannot grade a seasonal series.** ⚠️ **On today's curve the trough (\\$30.43) sits \\$0.43 above the bar** — so the seasonal low is currently near-touching it **without any stress at all.**
+
+## ⚠️ WHAT THIS IS AND IS NOT
+- **IS:** the forward curve — **the market's EXPECTED seasonality, priced today.** Strong evidence of SHAPE (nobody prices a +\\$10 April step unless the seasonality is well understood).
+- **IS NOT:** a realized-history measurement. **It does not tell us how big the seasonal swing turns out to be in practice**, only what is priced. **HENRY's caveat is therefore NOT discharged** — its unverified "roll steps roughly cancel" question is about REALIZED cycles and still needs expired-contract history.
+
+## §INSTRUMENT — and it upgrades the PROME packet
+⛔ **`FORGE/tools/market-data/fetch.py` returns `ERROR 'currentTradingPeriod'` on EVERY dated contract** (`CLX26`, `BZX26`, `HOX26`, all `RB*`) — a KeyError surfaced as an opaque failure. ✅ **But the data EXISTS: `CLX26.NYM` returns 97.480**, corroborating BRENT's 97.52 at a different pull time. ⇒ **the fix is SMALLER than the packet said — accept the `.NYM`-suffixed form and stop crashing — not build a new capability.** 🔑 **And ADD#23 has been telling the fleet to "quote named contracts" for 14 days while the shared tool could not fetch one.**
