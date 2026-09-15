@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15, BRENT/WALTER review. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, authorized BRENT/WALTER repair. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
-**Latest review:** Will asked to examine BRENT/WALTER updates. [Review and reproduction](runs/2026-09-15_1821_brent-walter-review.md): one medium rig-reader missing-cell defect; two low closeout issues (BRENT consumed-mail filing and WALTER publication reconciliation after our shared push). Forty existing tests passed; independent counterexample reproduces a false-success count. Owner files untouched, no messages sent, fixes not implemented. Review delivered; next startup orient and await Will. If follow-up is assigned, start with F1. Prior PROME repair described below is completed history.
+**Latest assignment — repaired:** Will authorized fixing all three findings from the [BRENT/WALTER review](runs/2026-09-15_1821_brent-walter-review.md). [Repair receipt](runs/2026-09-15_1904_brent-walter-repair.md): rig reader binds the current column and rejects missing data; five previously triaged handoffs filed byte-identically with additive receipts; WALTER publication record reconciled. All 77 tests pass and the prior missing-cell counterexample now rejects the input. CATO implemented these repairs: subsequent CATO checks are author follow-up, not independent verification. No new grades, trades or sends. Commit/push and post-push check receipt are delivered in-session. Next startup orient and await Will; no further work is assigned.
 
 **First foundation complete:** `ebeee2832`, confirmed pushed to `origin/master`. CATO has manual startup, charter, continuity and an Astra-configured launcher. The fresh read-only startup check passed, and independent result review found no blockers; exact backend model identity and ordinary interactive use remain unverified. PROME added the provisional CLASSIFICATION PENDING roster entry in `f1bd2147a`, confirmed on origin. This records the manual-only boundary; permanent classification, instrument integration and RAV succession remain unresolved. Automatic launch/routing is excluded.
 

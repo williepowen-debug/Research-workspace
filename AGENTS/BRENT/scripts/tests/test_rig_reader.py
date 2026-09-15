@@ -35,12 +35,23 @@ def workbook(us_oil=450, stamp='11/09/2026', duplicate=False):
     ws.title = 'NAM Summary'
     ws['D4'] = stamp
     ws['B19'] = 'U.S. Breakout Information'
+    ws['D19'], ws['E19'], ws['F19'] = 'This Week', '+/-', 'Last Week'
     if us_oil is not None:
         ws['B22'], ws['D22'] = 'Oil', us_oil
     if duplicate:
         ws['B23'], ws['D23'] = 'Oil', 451
     ws['B29'] = 'Canada Breakout Information'
     ws['B32'], ws['D32'] = 'Oil', 141
+    blob = io.BytesIO()
+    wb.save(blob)
+    return blob.getvalue()
+
+
+def changed_cells(**values):
+    wb = openpyxl.load_workbook(io.BytesIO(workbook()))
+    ws = wb['NAM Summary']
+    for address, value in values.items():
+        ws[address] = value
     blob = io.BytesIO()
     wb.save(blob)
     return blob.getvalue()
@@ -93,6 +104,46 @@ class RigReader(unittest.TestCase):
         result, calls = self.run_probe(extra_anchor=extra)
         self.assertFalse(result[0])
         self.assertEqual(len(calls), 1)
+
+    def test_blank_current_never_uses_change_or_prior_count(self):
+        for values in [dict(D22=None, E22=1, F22=449),
+                       dict(D22=None, F22=450), dict(D22=None)]:
+            with self.subTest(values=values):
+                result, _ = self.run_probe(changed_cells(**values))
+                self.assertFalse(result[0])
+                self.assertIn('invalid US Oil count None', result[2])
+
+    def test_missing_or_duplicate_current_header_fails(self):
+        for values in [dict(D19=None), dict(F19='This Week')]:
+            with self.subTest(values=values):
+                result, _ = self.run_probe(changed_cells(**values))
+                self.assertFalse(result[0])
+                self.assertIn('exactly one This Week', result[2])
+
+    def test_current_column_follows_header_not_old_offset(self):
+        blob = changed_cells(D19='Last Week', F19='This Week',
+                             D22=450, E22=10, F22=460)
+        result, _ = self.run_probe(blob)
+        self.assertTrue(result[0])
+        self.assertIn('US OIL rig count 460', result[2])
+
+    def test_invalid_current_values_fail_even_with_valid_prior(self):
+        for value in [True, '450', -1, 450.5]:
+            with self.subTest(value=value):
+                result, _ = self.run_probe(changed_cells(D22=value, F22=449))
+                self.assertFalse(result[0])
+                self.assertIn('invalid US Oil count', result[2])
+
+    def test_duplicate_us_header_fails(self):
+        result, _ = self.run_probe(changed_cells(
+            B20='U.S. Breakout Information', D20='This Week'))
+        self.assertFalse(result[0])
+        self.assertIn('duplicate U.S. Breakout', result[2])
+
+    def test_real_zero_current_count_is_not_missing(self):
+        result, _ = self.run_probe(changed_cells(D22=0, F22=449))
+        self.assertTrue(result[0])
+        self.assertIn('US OIL rig count 0 ', result[2])
 
 
 if __name__ == '__main__':

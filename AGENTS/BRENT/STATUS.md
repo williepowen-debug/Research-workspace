@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+> **CATO bounded repair, 2026-09-15:** rig-reader missing-current-cell failure fixed; prior mail filing reconciled. [Repair and checks](../CATO/runs/2026-09-15_1904_brent-walter-repair.md). No new market observation, prediction grade or position change.
+
 > **Workdown 2026-09-15 — SCOPED-PARTIAL:** Receipt/rig readers and diesel metadata repaired; September 11 rig observation graded. [Evidence and remaining queue](research/2026-09-15_workdown/REPORT.md). All six previously flagged standing rows reconciled with content corrections. EIA retains September 4 vintage; older market analysis was not re-underwritten. Positions are owned by TRADE.md.
 
 **Last real data refresh: 2026-09-15 — scoped:** JWC index/body and KNPC nameplate checked; dated Shell/airline evidence and Reuters cargo update reviewed. Prior same-day rig/source/call-sale records retained. Market quotes in the boot log retain their timestamps; EIA remains September 4 vintage. Thesis v5.8 and recorded stand-down unchanged. Live position/action owner: [TRADE.md](TRADE.md). Twelve aged incident rows reviewed; current unit states remain unestablished.

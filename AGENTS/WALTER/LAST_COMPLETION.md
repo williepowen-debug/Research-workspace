@@ -28,9 +28,9 @@ Existing decision only: #6/#8 contract-month basis. No month selected. Frozen te
 
 ## FOLLOW-UP
 
-- Next safe sync: publish closeout-consistency implementation3fe9a55d3 and its receipt follow-up; verify origin, update receipt state to published, rerun closeout_check.
+- Publication reconciled September15 by CATO under Will’s repair authorization: implementation3fe9a55d3 and follow-up68c60ed00 verified on freshly fetched origin. Current closeout check and bounded repair evidence: [CATO receipt](../CATO/runs/2026-09-15_1904_brent-walter-repair.md).
 
-1. Delivery obligation CLOSED September15:29/29 verified on origin; five BRENT rows reconciled. BRENT owns subsequent filing and unfinished research. Receipt: `research/2026-09-15_follow-through/brent-delivery-receipt.md`.
+1. Delivery obligation CLOSED September15:29/29 verified on origin; five BRENT rows reconciled. CATO filed the five already-triaged BRENT handoffs under Will’s repair authorization; BRENT retains the unfinished research. Filing changes no owner grade. Receipt: `research/2026-09-15_follow-through/brent-delivery-receipt.md`.
 2. September16: review owner artifacts for the seven old ACTIONs and new corrective/source packets; matrix and backlog report name exact completion surfaces. RED/HANS/CREED/PROME received maintenance requests. BROCK/RED own read-manifest re-attestation after shared basis changes.
 3. Oversized-signal repair CLOSED for SIG-W-20260619-008; independent11-obligation/13-qualification census and guarded companion replace the failed scoping attempt. September16 repair check completed early. Recheck September30 or any source/companion change; every new over-budget selected signal still triggers review. Reading-repair commits70a2bc593/f05cb5b20 verified ancestors of origin at closeout; no publication debt remains for that repair.
 4. AboutSeptember17: full Iran primary sweep still owed; last full9/10, partial9/14 plus early9/15 source check; rotations/repair do not reset the clock. Source-check preserves the fresh Oman contact and unverified Axios unmanned-vessel lead for primary/date/theater/novelty verification; neither graded as an event.
@@ -45,12 +45,12 @@ Previous completion's design-decision index remains preserved; seasonal threshol
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: prior full closeout200078af4; September15 handoffs29/29. Owner review retains unverified/partial obligations above; BRENT chart disposition comes from its later backlog report. Next review September16. Consistency implementation3fe9a55d3 is committed locally; publication is pending while concurrent foreign CATO work is present. Receipt-only follow-up publication is likewise deferred.
+Dated evidence snapshot, not a live publication promise. Checked scope: prior full closeout200078af4; September15 handoffs29/29. Owner review retains unverified/partial obligations above; BRENT chart disposition comes from its later backlog report. Next review September16. CATO reconciled publication under Will’s repair authorization after a fresh fetch: implementation3fe9a55d3 and receipt follow-up68c60ed00 are both on origin. This supersedes the earlier pending-publication statement; remaining owner research is unchanged.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-15T20:55:43.652731+00:00",
+  "as_of": "2026-09-15T23:11:13+00:00",
   "publication": [
     {
       "commit": "200078af4",
@@ -58,7 +58,11 @@ Dated evidence snapshot, not a live publication promise. Checked scope: prior fu
     },
     {
       "commit": "3fe9a55d3",
-      "state": "pending"
+      "state": "published"
+    },
+    {
+      "commit": "68c60ed00",
+      "state": "published"
     }
   ],
   "delivery": {

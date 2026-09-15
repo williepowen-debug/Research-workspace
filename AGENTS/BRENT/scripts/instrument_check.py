@@ -668,19 +668,34 @@ def probe_bhrigs(spec):
             return False, None, f"workbook date {content_date.date()} disagrees with filename date {print_dt.date()}"
         oil_values = []
         in_us = False
+        current_column = None
+        label_column = None
         for row in ws.iter_rows(min_row=1, max_row=60, values_only=True):
-            cells = [c for c in row if c is not None]
+            # Keep column positions: a blank current count must never shift a
+            # change/last-week value into its place. Supersedes blank compression.
+            cells = [(i, c) for i, c in enumerate(row) if c is not None]
             if not cells:
                 continue
-            label_text = str(cells[0]).strip().lower()
+            first_column, first_value = cells[0]
+            label_text = str(first_value).strip().lower()
             if label_text == "u.s. breakout information":
+                if in_us:
+                    return False, None, "duplicate U.S. Breakout header"
+                headers = [i for i, value in cells
+                           if str(value).strip().lower() == "this week"]
+                if len(headers) != 1 or headers[0] <= first_column:
+                    return False, None, "U.S. Breakout needs exactly one This Week column after its label"
+                label_column, current_column = first_column, headers[0]
                 in_us = True
                 continue
             if label_text == "canada breakout information":
                 break
-            if in_us and len(cells) >= 2 and label_text == "oil":
-                value = cells[1]
-                if isinstance(value, bool) or not isinstance(value, (int, float)) or value < 0 or value != int(value):
+            if in_us and label_text == "oil":
+                if first_column != label_column:
+                    return False, None, "US Oil label is outside the U.S. Breakout label column"
+                value = row[current_column]
+                if (isinstance(value, bool) or not isinstance(value, (int, float))
+                        or not math.isfinite(value) or value < 0 or value != int(value)):
                     return False, None, f"invalid US Oil count {value!r}"
                 oil_values.append(int(value))
         oil = oil_values[0] if len(oil_values) == 1 else None

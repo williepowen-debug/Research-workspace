@@ -8,6 +8,8 @@
 
 ## WHAT I DID THIS SESSION
 
+- CATO follow-up, Will-authorized September 15: rig reader now binds the count to the unique This Week column and rejects missing current data. Five already-triaged WALTER handoffs filed with additive log receipts; acted/deferred dispositions and research limits preserved. [Repair evidence](../CATO/runs/2026-09-15_1904_brent-walter-repair.md). This is a bounded repair, not a new BRENT market review.
+
 - Completed all five requested review areas: [report](research/2026-09-15_backlog-review/REPORT.md).
 - Reconciled six standing rows with actual corrections: archive byte counts/checksums, JWC Amended wording, old request-cause assertion, dated storage forecast, conditional export mechanism, owner/gate pointers. Calendar/standing checker now passes.
 - Reviewed twelve incident rows. Corrected KNPC nameplate to its owner description; removed seven obsolete current outage amounts and one residual typed UNKNOWN amount. Operating-evidence dates/statuses preserved; no inferred restart. New Shell component evidence recorded without laundering it into the combined parent row.
@@ -40,7 +42,7 @@
 - SIG-005 reviewed; quantitative scope unresolved, board log updated.
 - SIG-007 reviewed; chart UNVERIFIED, Will source request closed, board log updated.
 - SIG-001 noted; SIG-004 deferred to FALCON; SIG-006 already integrated earlier today.
-- Five WALTER handoffs were committed by their owner during this review; they remain in the live inbox with dispositions recorded. No sends; other unresolved outbound loops unchanged.
+- Five WALTER handoffs were committed by their sender in b7a187129. CATO subsequently filed those exact copies in inbox/WALTER/processed/ under Will’s repair authorization, preserving their bytes and recording five additive filing receipts. The 16:29 sender-untracked explanations are superseded. Deferred INFO items and unresolved research remain as listed above. No sends; other unresolved outbound loops unchanged.
 
 ## WORKBOOK HEALTH
 
