@@ -108,6 +108,25 @@ This record drafted the pointer into **§Grading & re-marking**. That is WRONG a
 
 ⇒ **The pointer WORKS as shipped.** ~50 B separates it from working well. **CONTEXT DAMAGE: none** — :31 and :33 read unchanged, no duplication anywhere in :5–:33, §Registration confirmed the correct home.
 
+### 🔴 THE PLAN READ'S RESIDUE WAS NEVER DECLARED — added 2026-09-15 13:5x ET
+
+⛔ **§8 above declared the RESULT read's 8 ⚠️ and NOTHING from the PLAN read.** WQ-178's residue rule governs BOTH reads; PROME fixed the plan read's 2 ❌ and the rest silently vanished — **because PROME never received them.** The plan reader's report was **TRUNCATED IN DELIVERY at ⚠️5**, and PROME did not notice until the reader confirmed, at closeout, that it had posted complete. Recovered on request.
+
+⚠️ **This is the SAME defect as ⚠️8 one level up: a record certifying a completeness it does not have.** PROME wrote an auto-memory that afternoon whose thesis is *"a truncated delivery leaves no absence behind to detect"* — and did not then check the OTHER reader sitting beside it. **Writing the lesson down is not applying it.**
+
+| # | Plan-read flag | Status against the SHIPPED text |
+|---|---|---|
+| ⚠️3 | *"Read SL-5 at its home"* misses the actual template: the copyable cell is at `SPEC_LETTER_STANDARD.md:47` in § Registration form, not under § SL-5. | ✅ **FIXED** — the shipped bullet names *"§ SL-5 + its Registration-form row"*. |
+| ⚠️4 | The summary carries the HAZARD and none of the six DUTIES (a)–(f); a reader writes "ties at 12.00" and stops. **(c), a base rate on the letter's OWN operator, cost RED 1.7× on FT-11.** | ◐ **PARTIAL** — the shipped bullet names *"six fields (a)–(f)"* but not what they require. Deliberate: ❌2 was a byte overrun. |
+| ⚠️5 | The instance ends at *"the sign of `value − 12` is unknowable"*, inverting SL-5's own clause (b) default — **an on-the-line print DOES grade**. | ✅ **SUPERSEDED** — the shipped bullet cut the CREED instance entirely, so there is no instance left to invert. |
+| ⚠️6 | `APPROVED Will` where **all 10** peer ratified bullets say `RATIFIED Will` (grep: **10 vs 0**). A stranger auditing ratified canon by grepping `RATIFIED` misses this bullet. | 🔴 **LIVE, AND WORSE THAN FOUND** — the shipped stamp is `(WQ-253, Will 9/15)`: no RATIFIED, no ISO date, no ET time, no record path. |
+| ⚠️7 | The quoted `"point, do not copy"` is **PROME's own §3 heading**, not Will's words, and reads as the operator's. Will's verbatim is *"go with your rec - approved"*. | ✅ **SUPERSEDED** — no quoted string survived the cut. |
+| ⚠️8 | Undeclared overlap with line 31 (WQ-162 already requires *"the operator and boundary (strict / inclusive, decimal precision)"*). House form carries the fix pattern at line 40: *"(extends …)"*. | 🔴 **LIVE** — the seam is still unmarked. |
+
+★ **THE RESULT WORTH MORE THAN ANY SINGLE FLAG: TWO BLIND READERS, GIVEN TWO DIFFERENT TEXTS, CONVERGED ON THE SAME TWO.** Plan ⚠️6 ≡ result ⚠️6 (house-form stamp); plan ⚠️8 ≡ result ⚠️7 (the unmarked WQ-162 seam). The plan reader read a DRAFT that was never shipped and the result reader read the SHIPPED bullet — **different artifacts, same two findings.** Neither read alone justified reopening a file the read budget had closed; together they identify exactly where DOCKET L400's bounded pass starts. ⛔ This is NOT the weak form warned against in `[[finding_crosscheck_with_free_parameter_validates_nothing]]` — the two readers had no shared parameter and no sight of each other.
+
+✅ **Plan-read PASSES worth keeping, because they validate decisions PROME made under uncertainty:** placement in §Registration after line 31 confirmed **by reading all 28 §Registration bullets** (*"no existing bullet covers ties"*) — that is the placement PROME corrected against its own §3 draft · invariants held (one line added, insertion between two complete bullets, no anchor inside an example, neither neighbour shifted) · pointers 3/3 resolve · the CREED-T-01a figures verbatim-faithful to SL-5:35 · **no `[[slug]]` trailer is CORRECT — all nine peer ratified prose bullets carry none** (both readers agreed independently). ★ It also caught a **moving artifact mid-read**: this record was `…-PROPOSAL.md` when it began and `…-RULED.md` when it finished, and it asked PROME to confirm the rename shipped. It did — `7c405ef62`.
+
 ### What happens to these
 ⛔ **Not carried in prose where they will rot.** Registered as a DOCKET row for ONE bounded follow-up pass — ⚠️1 · ⚠️2 · ⚠️4 · ⚠️6 are the load-bearing four (meaning · usability · drift · provenance); ⚠️3/5/7 ride along. ⚠️8 is recorded as permanently incomplete.
 
