@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated 2026-09-15 — WALTER closeout-consistency repair.** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-09-15 — WALTER full closeout.** BOARD982; nine September15 signals,29/29 required handoffs verified delivered, two kills. No new dispatch at closeout. Repair evidence: `research/2026-09-15_signal-reading/RESULTS.md`; final receipt: `research/2026-09-15_closeout/`.
 
 ## BOTTOM LINE
 
-Boot and reading safeguards are implemented. Operational market coverage remains PARTIAL; the table below is dated historical evidence, not a fresh closing-price scan. Current obligations, decisions and the checked closeout receipt live only in [LAST_COMPLETION.md](LAST_COMPLETION.md).
+Approved repairs and the reviewed reading companion are complete and on origin. All29 handoffs are delivered. Operational market coverage remains PARTIAL; dated observations below are historical snapshots, not a new closing-price scan. Doctor0HIGH/2MED (retained NOTE exceptions and aged owner handoffs). Remaining work: owner evidence review September16, full Iran sweep aboutSeptember17, and September30 study/companion review. Contract-month choice for #6/#8 remains with Will.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
@@ -17,7 +17,7 @@ Boot and reading safeguards are implemented. Operational market coverage remains
 | HY / CCC / claims | FRED9/14 HY271bp,CCC1081bp; ICSA206K week9/5. Existing owner-bank states are distinct from fresh alerts; full conditions in matrix. |
 | Core CPI | FRED Aug MoM0.2898%,3mo annualized1.97084%; owner2.04% remains a source/vintage reconciliation, not silently replaced. BLS-primary grade belongs to RED/CARL. |
 | HANS / CREED | Current canonical rows and operative rulings, not historical cell prose, govern. HANS daily closes/manual sweep and T12 feed remain gaps. CREED-T01b sustain2; T03 level suspended; T06b instrumented and FIRED. See all45 rows. |
-| #6/#8 | Governing interim rule: frozen registered tests and fire-and-decompose. Seasonal shape does not establish annual false-fire recurrence. Decision status: LAST_COMPLETION.md. |
+| #6/#8 | Will has not selected contract-month basis. Frozen registered tests unchanged; fire-and-decompose interim rule stands. Seasonal shape does not establish annual false-fire recurrence. |
 | Position/calendar context | FORGE mirror retains9/10 broker vintage; off-repo Will/broker authority. RED CALENDAR forwards to docket/CATALYSTS.tsv.9/16 FOMC/SEP and conditional FT10 clock remain dated watches, not event outcomes. |
 
 ## MISSION
@@ -32,7 +32,9 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Evidence/verification
 
 ### Today's routing + stale agents
 
-Latest scoped header inventory: `research/2026-09-15_closeout/registry-header-receipt.json`; current directory is REGISTRY.tsv. Header dates describe metadata freshness, not live sessions. Fleet liveness remains UNKNOWN. Dated routing/owner-evidence results and ongoing obligations are in LAST_COMPLETION.md; do not infer owner completion from an inbox location or a header read.
+Regenerated after final REGISTRY refresh. Nine signals/29 required handoffs today, all verified delivered; no new closeout dispatch. Registry header inventory and unchanged-versus-refreshed scope: `research/2026-09-15_closeout/registry-header-receipt.json`. Registry contains 45 entries; source-header dates are metadata freshness, not fleet liveness. Fleet liveness remains UNKNOWN. No foreign dirty work at closeout start; prior reading-repair commits70a2bc593/f05cb5b20 are now on origin.
+
+Doctor’s aged delivery cohort remains31 (7ACTION/24INFO); no automatic owner-completion inference. One CARL item is consumed-but-unfiled. BRENT subsequently recovered cargo reporting/IATA basis and closed Shanghai chart UNVERIFIED; quantities and actual replacement receipts remain gaps. Header reads do not clear other owner tasks. Dates and packet-level evidence remain in LAST_COMPLETION and the source reports.
 
 ## Active LIAISON channels
 

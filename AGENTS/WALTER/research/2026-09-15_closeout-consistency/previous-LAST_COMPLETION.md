@@ -8,8 +8,6 @@ Current reading repair: `research/2026-09-15_signal-reading/RESULTS.md`. Current
 
 ## CHANGED
 
-Closeout-consistency repair: sole current obligation list here; STATUS duplication removed; read-only closeout checker validates explicit publication/delivery receipt and detects changed owner-review evidence.
-
 Reading repair: compact companion + exact source/review hash guard, 10 regression tests, charter/manifest wiring and independent preservation review. Follow-through: retired WALTER’s obsolete price-only $100 rejection while retaining incident/source guards; audited owner receipts; exercised all174 lines of the oversized signal; froze ledger bytes and prepared the existing September30 study analysis plan. Early Iran source check remains partial.
 
 Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive guards wired; exact retrospective receipt path specified/tested; all20 NOTE rows and16 chronology anomalies audited;18 own retrospective receipts. Source-qualified images dispatched; gasoline/natural-gas and WAL new-cycle errors corrected through BOARD+normal owner paths. Complete review/test details in RESULTS.
@@ -40,39 +38,3 @@ Existing decision only: #6/#8 contract-month basis. No month selected. Frozen te
 ## OPEN DESIGN DECISIONS
 
 Previous completion's design-decision index remains preserved; seasonal threshold form, non-uniform addresses and broader automatic receiving-readiness changes are not silently ratified. Current recurrence controls and historical audit are complete within their documented scopes; exact unknowable historical transport times remain UNKNOWN permanently unless new evidence appears.
-
-## CLOSEOUT RECEIPT
-
-Dated evidence snapshot, not a live publication promise. Checked scope: prior full closeout200078af4; September15 handoffs29/29. Owner review retains unverified/partial obligations above; BRENT chart disposition comes from its later backlog report. Next review September16. Current consistency implementation publication will be recorded after its commit.
-
-<!-- CLOSEOUT_RECEIPT_JSON
-{
-  "schema": 1,
-  "as_of": "2026-09-15T20:53:52.467635+00:00",
-  "publication": [
-    {
-      "commit": "200078af4",
-      "state": "published"
-    }
-  ],
-  "delivery": {
-    "signal_date": "20260915",
-    "total": 29,
-    "delivered": 29
-  },
-  "owner_review": {
-    "scope": "manual evidence review; no automatic completion",
-    "evidence": [
-      {
-        "path": "AGENTS/WALTER/research/2026-09-15_follow-through/owner-receipts.md",
-        "sha256": "2a5474e16826efb2aacde9bdd0a4423903b37c1da5961562b777419809a64798"
-      },
-      {
-        "path": "AGENTS/BRENT/research/2026-09-15_backlog-review/REPORT.md",
-        "sha256": "47c513da361992b627d41a273ec0bbfee737f22ceda02b95b339f563f6838ca1"
-      }
-    ]
-  },
-  "next_review": "2026-09-16"
-}
-END_CLOSEOUT_RECEIPT -->

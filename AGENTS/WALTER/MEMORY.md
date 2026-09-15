@@ -63,9 +63,9 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-15 full closeout
+### CHANGES SINCE LAST SESSION — 2026-09-15 closeout consistency
 
-Approved repairs and reviewed reading companion are complete and published;29/29 handoffs delivered. Ten companion tests and current read/hash checks passed; source/owner gaps remain separate. Doctor0HIGH/2MED at closeout, Will drop-zone0. BRENT chart review closed UNVERIFIED with no further Will ask; cargo quantities/replacements unresolved. Next obligations and sole existing month-basis decision live in LAST_COMPLETION.md. September16 owner review, ~September17 full Iran sweep and September30 study/companion recheck remain.
+LAST_COMPLETION is now the sole current obligation list; STATUS points there. Closeout checker validates explicit publication/delivery evidence and changed owner-review artifacts, with11 regression tests. Interpretation/owner completion remain manual; local origin is not a fresh remote fetch. Results: research/2026-09-15_closeout-consistency/RESULTS.md. Existing dates and Will decision unchanged in LAST_COMPLETION.
 
 ### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
 

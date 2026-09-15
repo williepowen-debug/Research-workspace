@@ -1,0 +1,11 @@
+# WALTER closeout consistency — September 15
+
+User-approved scope implemented: LAST_COMPLETION is the sole current obligation list; STATUS now points there instead of repeating task deadlines, completed-delivery counts and publication state. Previous documents preserved verbatim. Existing duties/decisions retained, with no inferred owner completion.
+
+New read-only tools/closeout_check.py validates the explicit JSON evidence receipt in LAST_COMPLETION: named commit ancestry against local origin/master; signal-date delivery counts against nine-column production ledger and origin tree/history; unchanged owner-review evidence hashes; required obligation sections; and a bounded set of duplicate volatile STATUS phrases. Exit0 PASS,1 REVIEW,2 UNKNOWN. No Git mutation/fetch, no owner state writes and no semantic completion inference. A publication assertion always names its commit scope; receipt-only commits are verified by safe-push to avoid self-reference.
+
+11 isolated Git-fixture regression tests pass. Tests reproduce stale pending publication, unpushed-as-published, actual held/local-only STATUS text, wrong delivery counts, unreconciled ledger state, missing receipt/ref, changed owner evidence and historical delivery paths. Market-data publication is explicitly distinguished from Git publication after an observed false positive. Current repository check passes: September15 cohort29/29 delivered; no contradictions in the checked scope.
+
+Human review still owns arbitrary prose, action completion and freshness/meaning of owner evidence. Hash match only pins the reviewed artifact, and changed evidence requests reassessment; a read is never owner consumption. Historical artifacts are not scanned as current claims. Remote freshness is supplied by separate safe-push/fetch; checker prints exact observed local origin ref. This does not promise a general natural-language contradiction detector.
+
+Closeout instructions now require this check after summary edits and after publication/reconciliation, with a dated receipt/output, evidence limits and next review. WALTER boot-basis hashes re-attested only for changed charter and rationale; no fleet-wide policy or other agent file edits.
