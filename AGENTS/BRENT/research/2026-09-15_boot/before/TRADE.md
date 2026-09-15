@@ -8,7 +8,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ### 🔓 FRAME-BREAKER STATE — 2026-09-11 (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
 
-**⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **Historical September 11 assessment; the statement-absence assertion was RETRACTED September 12. Current grounds are in BG-02 RE-GRADE 2026-09-12 below; the September 11 paragraph is not a current evidence assessment.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
+**⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **No Aramco / Saudi MoE / SPA statement [VERIFIED ABSENCE, two primaries explicit]. No capacity figure on any channel. No Yanbu loadings print.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
 
 **📌 PRE-REGISTERED RESOLVER — an owner READING STANDARD, not an amendment. No registered level moved; BG-02's text is unchanged and remains Will's.**
 
@@ -104,7 +104,7 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 | 2026-09-09 | Final USO October 135C sold | Will’s receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settles September 10; zero remains. Execution time/account field absent from receipt; no order-cancellation inference. B/C discharged. |
 | 2026-09-08 → **RESOLVED 2026-09-11** | XLE exit selected for the 9/9 open → **FILLED 9/11** | ✅ **RECEIPT IN HAND: Sell to Close 1 XLE Sep-30-2026 65 Call, Limit `$1.51`, FILLED 2026-09-11 ~10:07 ET.** Net `$150.34`; realized **−$77.33 / −33.97%**. Source: Will's Fidelity activity row, verbatim, via TERRY `bcc962bbd` 9/11 12:22 ET. **WQ-210 DISCHARGED.** ⚠️ **BRENT did not record this until 2026-09-14, when WILL supplied a broker screenshot** — the row sat `PENDING` for three days while the receipt existed at TERRY and in FORGE. **Boot step 6c (the PENDING-row guard) was run as a re-assertion rather than a resolution: I confirmed the row still SAID pending instead of checking whether it still WAS.** ⛔ **The FIRST contract's date/price stay UNKNOWN (FORGE `D-49`).** |
 | 2026-09-02 | First USO October 135C sold | One remained after this sale; final contract closed September 9 above. First-sale price permanently UNKNOWN under WQ-167; no re-ask. |
-| 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. ~~Current holding instruction is HOLD through expiry~~ **DISCHARGED by early closure September 10; see the closure receipt above. No live holding or sale instruction remains on this closed spread.** |
+| 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. ~~Current holding instruction is HOLD through expiry~~ **SUPERSEDED 2026-09-10 — live instruction is WQ-207 (Will 9/10 12:35 ET): close at the 9/17 open, or at the next open after a USO close ≥165 / <153; never 9/18 (POSITIONS row).** |
 | 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
 | 2026-09-08 | Convex-arm stand down | WQ-189/192 unchanged; no deployment. |
 

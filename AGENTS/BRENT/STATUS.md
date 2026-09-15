@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+> **Boot audit 2026-09-15 — SCOPED-PARTIAL:** 10 checks ran, four finding groups. [Situation, owed work and repairs](research/2026-09-15_boot/REPORT.md). EIA September 4 observations re-retrieved; seven standing rows remain unreconciled. Dated market analysis below was not re-underwritten today. Positions remain owned by TRADE.md.
+
 **Last real data refresh: 2026-09-12 ~14:0x ET — CFTC COT as-of 2026-09-08 pulled at the RAW primary (`f_disagg.txt`); Saudi MoE/MoFA Petroline statements read at source.** ⛔ **NO LIVE TAPE THIS SESSION — markets CLOSED (Saturday).** Every price on this surface is a **9/11 observation**, labelled as such; ⛔ **do not read any level here as current** (root rule #4). **`GATE-BRENT-COT-35B` vintage #5 GRADED: JOINT NO-VERDICT, 4th consecutive — sizing BASE CASE.** **BG-02 ⛔ NOT MET** on the state's own statement; **🔴 a defect in my own R2/R3 resolver goes to Will.** WPSR wk-9/4 is the last physical read (L305 first print: NO VERDICT). Retail: Sept 7 obs. 🔴 **POSITION CORRECTION 9/14: the energy book is ONE leg — `USO 37 shares`. `XLE Sep-30 65C` is FLAT, sold 2026-09-11 @ `$1.51` (realized −$77.33); this desk carried it OPEN for three days.** [9/12 adjudication](setups/2026-09-12_petroline-four-quantities-and-resolver-defect.md) · [WPSR report](research/2026-09-10_wpsr/REPORT.md) · [STEO comparison](research/2026-09-09_steo-comparison/REPORT.md).
 
 ---
@@ -102,7 +104,7 @@
 | **Thu Sep 10** | SPR / Edouard — WPSR wk-9/4 READ 9/10: FIRST PRINT NO VERDICT (SPR −1.244M); Edouard narrow read RIGHT; resolver wk-9/11 (9/16) | 🔴 |
 | **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
 | **Wed Sep 16** | WPSR wk-9/11 — L305 SPR SECOND PRINT (resolver), 10:30 ET | 🔴 |
-| **Thu Sep 17** | ✅ USO 150/165 spread — CLOSED EARLY 2026-09-10 ~15:1x by Will's hand, $630 proceeds (+$330); WQ-207 9/17 rail discharged unexecuted | 🔴 |
+| **Thu Sep 17** | ✅ USO 150/165 spread — CLOSED EARLY 2026-09-10 ~15:1x by Will's hand, $630 proceeds (+$330); WQ-207 9/17 rail discharged unexecuted | 🟡 |
 | **Thu Sep 17** | Petroline BG-02 — EARLIEST GRADEABLE DATE on the 7-day-MA floor (not an event; an arithmetic gate) | 🔴 |
 | **~Fri Sep 18** ⌁*modeled* | YANBU EXPORT-STOCK DEPLETION WINDOW — the date routing would convert to BARRELS (modeled from Reuters 5-7 days off the 2026-09-11 shut) | 🔴 |
 | **Fri Sep 25** | Petroline frame-breaker resolver WINDOW CLOSES 17:00 ET — BG-02 instance (4) lapse date | 🔴 |

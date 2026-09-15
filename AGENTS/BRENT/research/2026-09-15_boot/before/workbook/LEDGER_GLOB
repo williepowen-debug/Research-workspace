@@ -64,13 +64,31 @@
 #       --days  5 -> STALE     --days 10 -> ok      --days 30 -> ok
 #       --days  9 -> STALE     --days 11 -> ok      (boot's actual call: ok)
 #
-#   CURRENT IMPLEMENTATION (verified 2026-09-15): boot.py passes --days 7.
-#   The September 7 measured cadence superseded the inherited-default warning
-#   and the assertion that no base rate had been measured. Basis and limits
-#   live with BOOT_SEQUENCE in scripts/boot.py; do not duplicate that parameter here.
-#   scripts/ledger_staleness.py now agrees on default 30 in docstring and argparse.
-#   The historical August falsification above remains evidence of the old build.
-#   Supersedes: the three retracted warnings identified by SAM September 10.
+#   The 11-day-stale file registers as +10d and only trips at --days <= 9.
+#   boot.py invokes `ledger_staleness.py BRENT` with NO --days, so the CODE
+#   DEFAULT applies. ⇒ AS SHIPPED, THIS WIDENING WOULD NOT HAVE CAUGHT THE
+#   DEFECT IT WAS ADDED FOR. The path resolves; the THRESHOLD is too loose.
+#
+#   ★ That is precisely the silent-fallback-green this file's own opening
+#   paragraph exists to prevent — "a check that reports CLEAN because it is not
+#   looking" — reproduced by the amendment meant to close a coverage gap. Adding
+#   the path and adding the ALERT are two different changes and only one is done.
+#
+#   ⛔ THE --days NUMBER IS DELIBERATELY NOT SET HERE. Picking one now would be
+#   an un-base-rated threshold, which L21/L22 forbid and which is the exact
+#   defect [[finding_inherited_default_threshold_is_a_silent_decision]] names.
+#   What is MEASURED and can be carried forward: the real defect sat at +10d, so
+#   any threshold above 9 misses it, and TRADE.md's healthy-state gap vs STATUS
+#   should be ~0 because BOTH are written at every closeout. Setting it needs a
+#   base rate of the historical TRADE-vs-STATUS gap, which is a git measurement
+#   nobody has run. OWED, and this row is INERT AT BOOT until it is.
+#
+#   ⚠️ SECOND DEFECT FOUND BY THE SAME RUN, NOT MINE TO FIX: the shared script's
+#   DOCSTRING says "threshold (default 14)" while its argparse says default=30.
+#   AGENTS/BRENT/CLAUDE.md had copied the docstring's 14 and was therefore wrong
+#   too — corrected 2026-08-21, and flagged to PROME as a shared-script doc/code
+#   drift. A doc that disagrees with its code will be believed, because reading
+#   is cheaper than running.
 # ============================================================================
 
 # workbook TSVs — REGISTRY + LESSONS_INDEX live; SCHEMA describes frozen KB history; KB/VX/FLOW/GROUP_MAP frozen

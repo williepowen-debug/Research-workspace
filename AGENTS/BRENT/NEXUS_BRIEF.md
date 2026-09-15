@@ -1,5 +1,7 @@
 # BRENT — NEXUS Brief
 
+> **2026-09-15 boot — C6 SCOPED-PARTIAL:** Rechecked recorded position/stand-down state against TRADE and FORGE, OSPREY disposition against board_log, and boot coverage. [Audit and next actions](research/2026-09-15_boot/REPORT.md). September 14 market/geopolitical synthesis below is NOT re-verified today; EIA re-pull retains September 4 vintage. Four finding groups remain; no new gate grade. Late WALTER SIG-005/006/007 add September 16 source/basis tasks (Saudi cargo deferrals, IATA jet crack, Shanghai differential); all DEFERRED, no unverified loss adopted.
+
 **Status:** 🔴 **BARRELS vs ROUTING DECOMPOSED (Will's own question, 9/14): the tape priced this escalation ONCE — on 9/10, the ATTACK day — and has NOT revised the barrels judgment through four sessions of worse news; only FREIGHT is still repricing (BWET +31.9% / 3 sessions while DRY BULK FELL).** ⇒ **the move is proportional to the BARRELS, not to the RISK — and on today's evidence that is CORRECT, because no barrels are lost yet.** **BG-02 UNCHANGED — ⛔ still NOT MET on its four 9/12 grounds — and its 9/17→9/25 window is now PRE-REGISTERED NOT GRADEABLE on the throughput leg alone; LAPSE is the modal outcome.** ⛔ **`$0` moved, nothing armed, nothing proposed, `WQ-192` STAND DOWN intact.**
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
