@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**As of:** 2026-09-14T22:44:19-04:00. Market basis: **September 14, 2026 close**, except cells explicitly dated otherwise. Thesis **v4.1.1**. Detailed evidence: [sweep report](reports/2026-09-14_sweep/README.md), [news and sources](reports/2026-09-14_sweep/news.md).
+**As of:** 2026-09-14T23:40:53-04:00. Market basis: **September 14, 2026 close**, except cells explicitly dated otherwise. Thesis **v4.1.1**. Detailed evidence: [sweep report](reports/2026-09-14_sweep/README.md), [news and sources](reports/2026-09-14_sweep/news.md).
 
 ## BOTTOM LINE
 
@@ -40,7 +40,7 @@ The main external context is the Fed/BOJ/expiry cluster, energy-supply risk and 
 | Cheap-tail alert | **CLOSED, 2/4** | VIX 17.10 >16 and VVIX 94.89 >90 fail; SKEW ≥140 and dated catalyst ≤21d pass. A partial never reopens it. |
 | GATE-VIO-RV1 | **RETIRED**, F2-killed Aug 27 | Alert observations do not revive the retired gate. Any successor requires its own authorization and validated specification. |
 | July tail-hedge packet | **RETIRED-SUPERSEDED** | Will stood it down Sep 4; no remaining fire condition. |
-| RED-FT-10 | **RED-OWNED** | Supply dated SKEW 154.49 [Sep 11], 152.09 [Sep 14]. No VIOLET count or grade. Read RED's current record; do not adopt pending amendments. |
+| RED-FT-10 | **RED-OWNED** | Supply dated SKEW 154.49 [Sep 11], 152.09 [Sep 14]. No VIOLET count or grade. VIOLET returned CONCUR WITH REPAIR on publication handling; RED/PROME adoption remains pending at L376. See inbox review; no VIOLET count/grade. |
 | RED-FT-06 | **RED-OWNED** | Its exit uses its registered VIXCLS series and sustain rule; VIOLET does not grade it. |
 | KB-VIO-123 crack/fade tree | MOVE leg above line | MOVE >75.50; VVIX >120, VIX >20, inversion, and COT ≥95 not met. Credit leg requires LIQUID's owner determination; do not imply all six freshly adjudicated. |
 | BIN-A / BIN-B | **BIN-A STUCK; BIN-B block active** | Retired BIN-A level lines produce no verdict. BIN-B CCC ≥9.55 remains met on Sep 11 FRED. |
@@ -85,8 +85,11 @@ Last recorded VIOLET book: **FLAT**. `TRY-VIOLET-VIXCS` closed July 30; FORGE's 
 3. Obtain usable regular-hours VIX options OI; retain H-new OPEX-vs-FOMC as untested without term decomposition.
 4. Tooling debt found during this sweep: thresholds can write an empty SETTLE row on source failure; implied-correlation can display a false zero daily change; cheap-tail use-time mirror check remains unwired. Data recovered; no code fix claimed.
 5. Existing research: Path-A F2 audit, H-carry event-conditioned realized-vol study, directional-vs-level signal sample enlargement. No new gate calibrated in this sweep.
-6. Historical-ledger quality: VX_M1_HISTORY is not a pure front-month sample; VX_TERM_HISTORY and DIET study are frozen research inputs, not live daily measures. See workbook state register.
+6. Before Thanksgiving (L342), audit holiday VIX observations in any session counter; intake is consumed, implementation is not claimed.
+7. Historical-ledger quality: VX_M1_HISTORY is not a pure front-month sample; VX_TERM_HISTORY and DIET study are frozen research inputs, not live daily measures. See workbook state register.
 
 ## OPERATING LIMITS
 
-Full data/news sweep completed locally. Other desks' dirty work prevented pulling. Incoming packets were reviewed for context; no outbound messages sent. Completion delivery and remote artifact publication are separate from this file refresh; **Full closeout guard: 8/10 contracts pass; two delivery checks remain red because no PROME memo was sent.** This is an explicit scope exception, not a clean guard certification. Details are in the sweep report.
+Data/news sweep is complete on the dated close above. **Inbox: 24 reviewed files formally consumed, 19 signal receipts appended, no active files left at verification.** Docket L276 description corrected in commit `666c299e4`; frozen letter unchanged. **L376 remains pending RED/PROME adoption** of VIOLET's reviewed publication allocation. [Inbox/decision receipt](reports/2026-09-14_inbox/README.md).
+
+This session delivers authorized RED/PROME/WALTER packets and a dated completion memo. The earlier sweep's two unsent-delivery reds are historical; all 10 current blocking closeout checks passed. Details are in the inbox report. No remote HTML redeployment. Pull/push deferred while other desks have dirty work.

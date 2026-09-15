@@ -1,0 +1,24 @@
+══════════════════════════════════════════════════════════════
+  VIOLET CLOSEOUT GUARD
+══════════════════════════════════════════════════════════════
+  ✓ CANARY_MAP staleness contract
+  ✓ Grading-note citations
+  ✓ KB schema conformance
+  ✓ Write-back ordering (handoff surfaces vs STATUS)
+  ✓ CALENDAR/CATALYSTS twin consistency
+  ✓ Convergence matrix arithmetic
+  ✓ Cross-surface figure agreement
+  ✓ VX_DAILY session completeness
+  ✓ Offline regression suites
+  ✓ ^SKEW bar continuity (cell half)
+
+  ℹ️  Thesis currency (advisory — never blocks)
+  🔴 thesis 4.1 (2026-09-06) — 25 KB row(s) since: 2 retraction(s), 9 resolved, 14 active
+     retractions: KB-VIO-273, KB-VIO-276
+     ⚠️  Over review threshold (>12 findings or >3 retractions).
+     ⚠️  ADVISORY — go READ the thesis headline against what those rows now say.
+     ⚠️  This counter cannot see a semantic contradiction; it can only tell you when to look.
+
+──────────────────────────────────────────────────────────────
+  ✓ All blocking contracts green — clear to close out.
+

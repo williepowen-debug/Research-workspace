@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** 2026-09-14 22:55 ET. September 14 close. Canonical current figures and gates: [STATUS](STATUS.md). Full sweep: [report](reports/2026-09-14_sweep/README.md). Previous handoff preserved in `archive/sweep_2026-09-14/SCRATCH.md`.
+**As of:** 2026-09-14 23:40 ET. September 14 close. Canonical current figures and gates: [STATUS](STATUS.md). Full sweep: [report](reports/2026-09-14_sweep/README.md). Previous handoff preserved in `archive/sweep_2026-09-14/SCRATCH.md`.
 
 ## CHANGES SINCE
 
@@ -10,6 +10,10 @@
 - Primary news and owner evidence reconciled: Fed/BOJ/expiry overlap, macro hedge demand, concentrated AI losses, energy persistence. See the sourced news report for attribution and counter-evidence.
 
 ## WHAT I DID
+
+- **Follow-up requested by Will:** formally consumed all 24 reviewed inbox files with SHA-256 receipts and 19 new board dispositions; exact field-2 lookup now in CLAUDE. No duplicates or log rotation. Full disposition record: `reports/2026-09-14_inbox/README.md`.
+- **Wednesday rule:** VIOLET CONCUR WITH REPAIR response committed and delivered to RED/PROME (a19f4cb44); 13 offline specification cases. Unknown publication frontier holds without a new fire; a later published completed session witnesses a genuine internal hole. **RED/PROME adoption remains pending at L376.** No FT-10 grade or unilateral registry change.
+- **Docket L276 corrected and committed (666c299e4):** exact Leg 4 MOVE/VIX anchors and earlier adjusted-roll timing. All other owner edits excluded. WALTER receives the explicit breadth answer and processing/correction linkage.
 
 - Reran all 16 boot stages with working network. Confirmed 2,526 spot cells across 421 sessions; no archive corrections. Current SKEW mirror check: 20 sessions agree within 0.005, rc=0.
 - Recovered an all-six-spot-blank SETTLE row left by an earlier source failure. The same-date skip path required `thresholds.py --supersede`. Data recovered; writer robustness remains code debt.
@@ -21,6 +25,7 @@
 
 ## NEXT SESSION
 
+0. **Before Wednesday grade:** obtain RED owner disposition/PROME chain response to the committed L376 allocation. Review is complete; adoption is not. Do not use the original byte/row-count discriminator.
 1. **Sep 15 close:** capture all spot fields; test frozen Leg 1 applicability against that close (VIX >16 makes it VOID). Current >16 cannot void it early. Preserve dated SKEW bars; RED grades FT-10.
 2. **Sep 16:** morning VIX SOQ, afternoon FOMC/SEP. Resolve F-B only after the fourth close; frozen letter legs on their registered Sep 16/18/23 dates. Do not change anchors or retroactively repair its process grade. `workbook/PREDICTIONS.tsv` is navigation, not replacement criteria.
 3. **Sep 18:** BOJ decision and quarterly equity expiry. Refresh HENRY context before Sep 16/18; usable regular-hours options OI and a term decomposition are needed for H-new.
@@ -34,7 +39,7 @@
 - RV1 remains retired; July packet retired; no proposal pending. Partial cheap-tail observations cannot reopen it. Old BIN-A numeric levels remain unusable.
 - VIX_OPTIONS September 14 OI is an after-hours artifact. Its reported C/P ratio is not current positioning. FXY IV is also unverified off-hours.
 - Sources and source dates matter: quote `prev_day_close` may be unsuitable, a timestamp cannot prove unavailable OI, and the adjusted futures pair must be identified before interpreting a change.
-- Full closeout validation and any delivery-related exceptions are recorded in the report. No outbound messages sent; completion draft stays in own reports. Inbox packets reviewed as context, not drained.
+- Current follow-up delivers authorized owner packets and a dated completion memo; all 24 reviewed inbox items formally consumed. Current checks: reports/2026-09-14_inbox/. Earlier sweep unsent-delivery reds remain historical receipts. L342 holiday-counter audit is still owed before Nov 26.
 - Other desks have uncommitted work: no pull; local commit with push deferred under root Git protocol. No shared or other-agent files included.
 
 ## OPEN HYPOTHESES

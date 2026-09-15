@@ -9,6 +9,15 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## September 14, 2026 — user-directed inbox consumption and boot lookup
+
+**Trigger:** Will asked to resolve the Wednesday question, formally process the reviewed inbox, and reconcile docket descriptions.
+**What changed:** explicit field-2 search/error handling in CLAUDE boot step; 24 byte-preserving consume moves and individual receipts; offline rule-specification examples; self-authored coordination replies; user-authorized L276 description-only correction.
+**Boot-impact:** no truncating board-log membership reads; historical log stays cold and intact. Processed packets' open obligations persist in STATUS/SCRATCH and the docket.
+**Lesson:** processing intake closes the intake record, not the underlying owner decision. A changed archive is not proof of coverage through a target session.
+
+---
+
 ## September 14, 2026 — important-file and current-data sweep
 
 **Trigger:** Will asked to bring VIOLET up to speed with current data/news and sweep its important files.

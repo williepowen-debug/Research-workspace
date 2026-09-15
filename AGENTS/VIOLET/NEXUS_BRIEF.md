@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-14 23:19 ET, September 14 close. **STATUS commit:** `same-commit`. Framework v4.1.1. Current numerical dashboard: [STATUS](STATUS.md); dated evidence: [sweep](reports/2026-09-14_sweep/README.md).
+**As of:** 2026-09-14 23:46 ET, September 14 close. **STATUS commit:** `same-commit`. Framework v4.1.1. Current numerical dashboard: [STATUS](STATUS.md); dated evidence: [sweep](reports/2026-09-14_sweep/README.md).
 
 ## CROSS-DOMAIN
 
@@ -8,7 +8,7 @@
 
 **HENRY / LIQUID / SAM / BRENT context:** HENRY's September 14 gamma measurement is negative at both horizons and carries a one-session shelf life. Credit observations and rates vol remain firm; oil-vol stress persists without a new ratio-based upgrade. JPY realized vol remains below its recalculated WATCH line. Concentrated AI losses do not establish a carry unwind. The Fed/BOJ/equity-expiry cluster increases overlap and complicates attribution. [Sourced news and owner reconciliation](reports/2026-09-14_sweep/news.md).
 
-**RED context:** September 11 and September 14 SKEW closes are recorded and archive-confirmed. Current use-time check: all 20 compared sessions agree within 0.005, no omission/disagreement, rc=0. VIOLET supplies dated bars; RED owns FT-10 rules, counts and grades. No pending rule amendment adopted or assent sent.
+**RED context:** September 11 and September 14 SKEW closes are recorded and archive-confirmed. Current use-time check: all 20 compared sessions agree within 0.005, no omission/disagreement, rc=0. VIOLET supplies dated bars; RED owns FT-10 rules, counts and grades. VIOLET returned CONCUR WITH REPAIR on L376; RED/PROME adoption pending. No FT-10 count or grade made here.
 
 ## CALIBRATION
 
@@ -19,7 +19,9 @@
 
 ## CROSS-AGENT TENSIONS
 
-No new adjudicated disagreement. H-new remains untested because no OI term decomposition is available. HENRY's gamma sign is measured context with a short shelf life, not a substitute for that missing input. Incoming correction/framework packets were read; no outbound coordination or rule assent was sent.
+**L376 publication allocation remains pending at RED/PROME.** VIOLET concurs with the intent but rejects changed/unchanged bytes or row counts as a coverage witness. The [review](reports/2026-09-14_inbox/FT10-publication-review.md) supplies exact repaired handling and 13 offline specification cases. A known internal gap and an unresolved latest bar remain distinct. Owner packets are delivered; adoption is not claimed. H-new's separate missing OI decomposition remains unchanged.
+
+**Inbox and docket:** all 24 reviewed items formally consumed with original bytes preserved, 19 board receipts and zero duplicate IDs; WALTER's breadth action answered. L276's Leg 4 and rollover descriptions corrected in 666c299e4; L376 records VIOLET's returned review in 4b570a23b, preserving pending owner adoption. [Completion receipt](reports/2026-09-14_inbox/README.md).
 
 ## FORWARD CATALYSTS
 
