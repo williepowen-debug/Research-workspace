@@ -1,5 +1,5 @@
 # ORCHESTRATION PLAYBOOK
-**Created:** 2026-06-26 | **Updated:** 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
+**Created:** 2026-06-26 | **Updated:** 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
 **Purpose:** Operating rules for running a multi-agent session. Read when Will says "let's orchestrate" / before spawning >1 agent. Born from the 2026-06-26 debrief: the orchestration layer works, but we were paying live-orchestration prices for fan-out work and absorbing a fragile-concurrency tax.
 
 ---
@@ -90,10 +90,10 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 
 ### Lifecycle
 1. **Boot + declare** (`PROME/BOOT.md` in full). End the declaration with: regime + live tape, the top catalyst (especially one that already printed while offline — say that FIRST), pending decisions, blockers.
-2. **Co-plan with Will.** Will sets direction; PROME proposes the wave as a table (task · agent · model · why-now), marking what's *sequenced* (true dependency only) vs *parallel*. Get ONE launch approval for the whole wave — not per-agent drip.
+2. **Co-plan with Will.** Will sets direction; PROME proposes the wave as a table (task · agent · model · why-now), marking what's *sequenced* (true dependency only) vs *parallel*. Apply the existing grants, conditions, caps and preflight in `PROME/CLAUDE.md` § Ask First / Do Not Do Autonomously and § Session Process Controls; batch only approvals those rules actually require.
 3. **Launch.** Parallel spawns go in one message. Sequence only on real data dependency (7/9: TERRY waited for BOND because arm-#1 *was* BOND's verdict; VIOLET/LIQUID ran parallel because nothing coupled them).
 4. **While agents work: PROME verifies, and otherwise stays quiet** (§discipline 2). Fable time goes to primary-checking verdicts as they land — not to narrating progress or relaying idle pings.
-5. **Canon the same hour a verdict verifies** — HEARTBEAT amendment, DOCKET row, GATES.tsv state flip. Never batch canon to closeout; a crash loses it.
+5. **Integrate the same hour a verdict verifies** — follow `PROME/COMPLETION_SPEC.md` § How Prome Uses This to update the affected owner records, including WILL_QUEUE when applicable. Carry changed decisions through the affected Helm/Deck sources and renders; publication and its prerequisites follow `PROME/CLOSEOUT.md` § The routine and § Delivery. Record incomplete publication explicitly. Do not defer verified owner-record updates to closeout; a crash loses them.
 6. **Synthesize at milestones, batched.** Lead with the outcome; N agent reports → one synthesis.
 7. **Closeout** (`PROME/CLOSEOUT.md` tier): write-back tail, GATES.tsv states current, auto-memory for new *classes* (not instances), safe-push sweeps every agent's local commits.
 
@@ -101,8 +101,8 @@ The target shape for a PROME-on-Fable working session. Everything here is the *h
 1. Identity line: *"You are X, the <domain> agent in Will's fleet. PROME spawned you."* + **today's date AND time** + repo root.
 2. **Boot-read list** — own `CLAUDE.md` + `STATUS.md` + task-specific files/inbox items *by path* (subagents auto-load nothing).
 3. Scoped task **with the tape numbers PROME already has** (don't make a Sonnet agent re-fetch what Fable already verified) — and with traps flagged (e.g. 7/9 LIQUID: "do NOT grade the pre-reg early, it's conditioned on Friday's close").
-4. Domain rules restated in one line: numbers > narrative · source + date every claim · no trade recommendations · **no files outside `AGENTS/<NAME>/`**.
-5. Deliverables, exactly: files in own dir → **pathspec commit recipe from repo root** (incl. the pre-commit `git status -- AGENTS/<NAME>/` check) → do-not-push → **word-capped SendMessage summary (≤150-200 words)**.
+4. Domain rules restated in one line: numbers > narrative · source + date every claim · no trade recommendations · **path scope and self-authored delivery packets per root `CLAUDE.md` Git Protocol, including its existing carve-outs**.
+5. Deliverables: artifacts and owner-state write-back → pathspec commits from repo root under root Git Protocol → delivery per `PROME/COMPLETION_SPEC.md`, with a **SendMessage summary ≤150–200 words**. The final touch runs the desk closeout specified in § Two-tier orchestrated-desk model; delivery alone does not establish closeout.
 6. The deliver-before-idle line, verbatim (§discipline 1).
 7. Web tools note when relevant: *"NOT autoloaded — ToolSearch 'select:WebSearch,WebFetch' first."*
 
@@ -226,7 +226,7 @@ Independently-launched sessions on the same box can now message each other direc
 
 **Failure path (amendment 5b — written so the first real failure runs from a rule, not improvisation):** subagent dies mid-task ⇒ **STEP 0, before any respawn: CONFIRM DEATH — `ps` for the agent process AND `ListAgents` shows it absent AND the desk dir has had no writes for several minutes** *(the third limb is WALTER's, 8/23 packet, convergent-found within the hour: dirty paths are EVIDENCE ABOUT LIVENESS, not only about what to keep — SAM's residue was in-flight because the "dead" session was actively writing it)*. **A harness failure notice is NOT a death certificate** *(measured live 8/23, first day: SAM's "credit wall" notice arrived while the session never exited; it resumed on the credit reload and completed its tasking while PROME spawned a duplicate off the notice — the duplicate, correctly, halted itself at the process table and touched nothing; `[[finding_record_of_an_action_is_not_the_action]]` inverse form — a record of a failure is not the failure)*. Exit confirmed ⇒ respawn from repo state; check the desk dir for uncommitted residue — **residue is IN-FLIGHT work, not orphaned trash** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`): the respawned desk integrates it, nobody sweeps it. ⛔ Never let two sessions path-scope-commit one desk tree (shared-`.git/index` race + two competing STATUS narratives).
 
-**PROME closeout hook:** before closing, send each live spawned desk the final run-your-closeout ping, then verify idle + last delivery committed (`PROME/CLOSEOUT.md` pre-closeout step).
+**PROME closeout hook:** follow `PROME/CLOSEOUT.md` § Pre-closeout item 3; idle status and committed delivery do not establish that the closeout ask occurred.
 
 ## Related
 - `PROME/ORCHESTRAL_LAYER_DESIGN.md` — fleet-scan / ranking / revival-proxy layer (the *what to work on*; this doc is the *how to run it*).

@@ -1,6 +1,6 @@
 # PROME CLOSEOUT
 
-**Created:** 2026-05-18 · **Updated:** 2026-09-11 (Will-directed simplification: remove historical explanations; retain procedures, thresholds, exceptions, section names and runner interfaces). Amendment history: `git log -p -- PROME/CLOSEOUT.md`; pre-simplification text: `git show 4a0757370074f1a5ed48353894298b465f842047:PROME/CLOSEOUT.md` (on-demand).
+**Created:** 2026-05-18 · **Updated:** 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-09-11 (Will-directed simplification: remove historical explanations; retain procedures, thresholds, exceptions, section names and runner interfaces). Amendment history: `git log -p -- PROME/CLOSEOUT.md`; pre-simplification text: `git show 4a0757370074f1a5ed48353894298b465f842047:PROME/CLOSEOUT.md` (on-demand).
 **Owner:** Prome
 **Commit-pipeline approval/review:** `plans/2026-09-09_boot-hardening.md` (on-demand).
 **Purpose:** Repeatable session-end procedure. Run before `/clear`, `/new`, or session handoff.
@@ -20,7 +20,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 
 1. `git status --short` — review what changed.
 2. **Foreign uncommitted work does NOT block closeout:** commit only your authored scope using exact pathspecs and safe-push. Include daily memory and self-authored auto-memory under the root grants; never sweep the tree. Non-ff recovery requires root step 3's dirty-path overlap check before autostash. If `AGENTS/PROME/` reappears, migrate its contents to `PROME/inbox/` and flag the sender (BOOT step 6).
-3. **Orchestrated-desk release (ANY tier):** tell each named desk spawned this session to run its own closeout; verify idle + last delivery committed (desk `(orch)` commits). Desk-dir residue is in-flight; never sweep it on respawn. Log final touch in `PROME/state/ORCH_LOG.tsv`. Single home: `PROME/ORCHESTRATION_PLAYBOOK.md` §Two-tier.
+3. **Orchestrated-desk release (ANY tier):** enumerate and disposition the desk touches required by `PROME/CLAUDE.md` § Session Process Controls, Spawn-closeout discipline (WQ-249), including its scope and four reported outcomes. Record the closeout ask and answer, or that the desk went dark before the ask, in `PROME/state/ORCH_LOG.tsv` before the closeout commit. Idle status and committed delivery are supporting evidence, not proof of the ask. Desk-dir residue is in-flight; never sweep it on respawn. Desk lifecycle: `PROME/ORCHESTRATION_PLAYBOOK.md` § Two-tier orchestrated-desk model.
 4. List this session's artifacts; check transcript hygiene (preserve durable results in files, not restated dumps); pick the tier:
 
 | Tier | When | Touches | Commit? |
