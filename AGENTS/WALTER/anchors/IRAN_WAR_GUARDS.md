@@ -9,6 +9,9 @@
 > **Provenance:** each block carries its original line range in `IRAN_WAR.md` @ sha256 `dfe042a1012f` (263,371 B). Narrative context → [`IRAN_WAR_HISTORY.md`](IRAN_WAR_HISTORY.md).
 
 
+> **OPERATIVE AMENDMENT — 2026-09-15, WALTER:** the historical **price-only rejection of “oil above $100” is RETIRED**. July's $87.73/$89.17 observations are dated evidence, not a current ceiling. FALCON returned this as WALTER-owned (`AGENTS/FALCON/STATUS.md`, September 14 guard-corpus section); the September 14 named BZX26 observation in the anchor already contradicts the old ceiling. Evaluate each new price claim on its own instrument, contract, timestamp and source; this amendment supplies no live quote or settlement grade. **Jazan/Yanbu anti-merge, event-date, attribution, causal-link and independent-source checks remain operative.** A verified price above $100 does not authenticate a refinery strike or establish what caused the move. Original July wording below is preserved as historical evidence and is overridden on this price limb wherever repeated.
+
+
 ---
 
 ## KILL-ON-SIGHT recirculation classes — Abqaiq '~7 mb/d' · the July-7 date-trap · declaratory-control · flagged sources (UANI)
@@ -57,6 +60,7 @@
 
 **🚨 TRIAGE GUARDS — ADDENDUM #2 additions (pre-kill on sight; ALL prior guard sections stay live):**
 - **🔴🔴 THE APRIL-7 "TWO-WEEK CEASEFIRE" TRAP — CAUGHT LIVE 7/27, and it is the most dangerous recirculation yet on this file.** A search for today's pause returns **Fox News, *"Trump agrees to 2-week ceasefire if Iran opens Strait of Hormuz"*** — Trump quoted: *"This will be a double sided CEASEFIRE!"*, conditional on *"the COMPLETE, IMMEDIATE, and SAFE OPENING of the Strait of Hormuz."* **DATED APRIL 7, 2026 — three and a half months old, ranking against 7/27 queries.** **Its SHAPE is nearly identical to today's story: a pause, a Hormuz condition, a deal under discussion.** Merged, it asserts as current that **Trump has agreed to a two-week ceasefire contingent on Hormuz opening — HE HAS NOT.** **Date-check any "Trump agrees / ceasefire / two weeks" item before it touches this anchor.** *(Same class as the 2018 Saudi-halt trap and the April Bandar-Abbas refinery trap — a real event, correctly reported, at the wrong date.)*
+> **September 15 amendment applies: historical price verdict only; anti-merge and causality checks remain live.**
 - **🔴 "BRENT SURGED PAST $100 ON JAZAN" IS STILL FALSE AND STILL CIRCULATING** — techtimes AND hngn are both still running it today; **Brent is $89.17.** **kingdomexploration.com appears in these results again** — standing flag holds.
 - **⚠️ "The pause means de-escalation"** — read §2. **Capability is not intent.**
 - **⚠️ "Iran is negotiating with the US"** — refuted by Iran itself today (§4). **Mediated ≠ bilateral.**
@@ -72,7 +76,9 @@
 
 **🚨 TRIAGE GUARDS — ADDENDUM #3 additions (pre-kill on sight; ALL prior guard sections stay live):**
 - **🔴🔴 THE MAY-2019 PETROLINE ATTACK IS A LIVE RECIRCULATION TRAP AND IT RANKED IN TODAY'S RESULTS.** Al Jazeera *"Houthi drone attacks in Saudi 'show new level of sophistication'"* and The National *"Condemnation as Houthi drones hit oil pipeline in Saudi Arabia"* — **both 15 May 2019**, both surfacing against a 2026 query, and **near-identical in description** (Houthi drones · East-West pipeline · pumping stations). **The 7/27/2026 event IS separately real** (Reuters-syndicated, Saree named, dated) — **but date-check EVERY "Houthi drones hit Saudi pipeline" item before carrying it.** *(Checked at intake precisely because the description matched 2019 almost word for word — the same discipline that caught the April-7 "two-week ceasefire" trap.)*
+> **September 15 amendment applies: historical price verdict only; anti-merge and causality checks remain live.**
 - **🔴 THE "$100" ERROR IS STILL LIVE FROM THE SAME TWO OUTLETS — 3rd confirmation.** **techtimes** and **hngn** both surfaced again today: *"Houthi Rebels Strike Saudi Aramco Refineries In Jizan, Yanbu As Oil Prices Surge Past $100."* **Brent is $87.73.** Standing flag holds.
+> **September 15 amendment applies: historical price verdict only; anti-merge and causality checks remain live.**
 - **🔴 THE SEARCH-SUMMARY LAYER IS CONTAMINATED ON BOTH COUNTS.** A summary generated during this very check asserted that Houthis *"struck Aramco refineries in **Jizan and Yanbu**"* and that it *"pushed Brent back **above $100**."* **Both refuted in this file.** **The Jazan-vs-Yanbu anti-merge guard is doing ACTIVE work — do not let a summary layer re-merge them.**
 
 ---

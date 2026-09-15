@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-09-15T19:10:16.292131+00:00",
+  "head": "a45213b81ad660d74a7be50e1bcbe0d5551729f5",
+  "scope": "local byte baseline; no read/consumption/origin assertions",
+  "files": {
+    "AGENTS/WALTER/routed/delivery_log.tsv": {
+      "snapshot": "delivery-baseline.tsv",
+      "sha256": "7760885e543d147bab473c7c32a711f5bbf9d2e38bd1f29977453e842a76effd",
+      "bytes": 714855
+    },
+    "AGENTS/WALTER/routed/route_log.tsv": {
+      "snapshot": "route-baseline.tsv",
+      "sha256": "ab56b3c80ebc99e749d8630f312a25e24106ffa9a15b8b4e175fb2171f673095",
+      "bytes": 990913
+    },
+    "AGENTS/WALTER/registry/DOORBELL_LOG.tsv": {
+      "snapshot": "doorbell-baseline.tsv",
+      "sha256": "12126b7c186ec82c6730a3eafd3b14aea3cfb2c5b0452c53b66974fc12ec0675",
+      "bytes": 70191
+    }
+  }
+}

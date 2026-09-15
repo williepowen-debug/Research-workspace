@@ -63,9 +63,9 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-15 resolution pass
+### CHANGES SINCE LAST SESSION — 2026-09-15 follow-through
 
-Approved repair and routing completed locally; independent regression review and45-row coverage audit recorded in `research/2026-09-15_resolution-pass/RESULTS.md`. Dashboard finite/quiet/baseline guards, exact drop-zone scan, hash-bound boot attestation and staged archive pairing are executable. Historical16 chronology anomalies annotated;18 own retrospective evidence receipts reconcile undeclared moves without inventing read times. New signals correct the gasoline/natural-gas comparison and WAL cycle. Source/owner gaps remain explicit; no blanket market-clear claim.
+Prior repairs remain documented in resolution-pass/RESULTS.md. Follow-through retired the obsolete $100 price-only guard, verified explicit BRENT deferments, found no safe cold exclusion in the oversized signal, and prepared a hashed baseline/analysis plan for the September30 INFO study. Early Iran source check does not reset9/17. Current exact obligations: LAST_COMPLETION.md; evidence: research/2026-09-15_follow-through/RESULTS.md.
 
 ### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
 
