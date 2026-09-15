@@ -6,3 +6,7 @@ PASS: prediction ledger, frozen schedule, TRADE and STRATEGY unchanged byte-for-
 PASS: independent CFTC TFF sides reconcile to OI; GPIF component rounding/scope reconciles (calculations.json).
 Consumer checks: no external stale references for TFF −102188→−49098 or customs 634.5→638.3. Self TFF checker flags four historical records (dated September 9 report, explicitly historical baseline, two before-images); all intentionally retained.
 Orphan check: peer PROME files dirty; leave untouched and defer pull/push. No SAM-authored orphan outside own directory.
+PASS: 22 startup/orientation regression tests and 2 BIS revision tests (24 total).
+PASS: weekday checker, authored whitespace check, and content-size checks. STATUS 22518 B / 136 lines before final timestamp; MEMORY 22091 B; warm reference 8109 B. STATUS and MEMORY below 70% rotation-completion target.
+Consumer BIS 65.83→65.91: no external stale citations found.
+Historical notes retained verbatim in completed-status-notes.md and before-images.

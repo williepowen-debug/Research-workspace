@@ -1,3 +1,4 @@
+# FROZEN 2026-09-14 — fixed pair expired; no replacement feed activated. Historical futures/cash residual, NOT true offshore basis.
 Date	Near_Px	Far_Px	Implied_Diff_pct	Cash_Diff_pct	Residual_bp
 2026-07-01	0.0061900	0.0062370	3.0455	2.8500	19.55
 2026-07-02	0.0062450	0.0062910	2.9545	2.8200	13.45

@@ -1,0 +1,20 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 276 files under AGENTS/SAM/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded −102,188 → current −49,098
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/SAM/docket/2026-09-11_CFTC_REVIEW.md:31  [102188]
+           | TFF leveraged funds | 58,529 | 160,717 | −102,188 | −7,999 | +17,147 |
+        AGENTS/SAM/reports/2026-09-09_followthrough.md:45  [102188]
+           CFTC's current publication remains **September 1**, rechecked September 9. Legacy non-commercial net **−92,227**, longs 117,169, shorts 209,
+        AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/before/STATUS.md:59  [102188]
+           | CFTC TFF, Sep-1 | Leveraged net **−102,188**; asset-manager **−24,521** | Still pre-rally; no post-rally covering verdict. Gross legs in `
+        AGENTS/SAM/research/outputs/2026-09-14_stale-sweep/before/docket/2026-09-11_CFTC_REVIEW.md:12  [102188]
+           | TFF leveraged funds | 58,529 | 160,717 | −102,188 | −7,999 | +17,147 |
+
+  🔴 4 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

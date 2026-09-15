@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/SAM/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 65.83 → current 65.91
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

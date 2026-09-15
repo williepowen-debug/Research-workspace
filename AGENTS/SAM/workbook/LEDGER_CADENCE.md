@@ -1,30 +1,35 @@
 # SAM ledger cadence declaration
 
-**Written 2026-09-01** in answer to the `ledger_staleness --nudge SAM` flag (13 ledgers "behind") and PROME's owner-confirm on `GPIF_FLOWS` (DAEDALUS staleness sweep #4). **Owner: SAM.** Per root `CLAUDE.md` § Data Hygiene, every ledger is either **FROZEN** or **LIVE with a content-derived vintage** — never the silent-rot middle. **FLOW/VX are frozen; BOJ_OIS is additionally frozen as of September 8. The September 1 disposition table below is historical; current observations live in STATUS.**
+**Source audit: September 14 ET / September 15 JST, 2026. Owner: SAM.** All 19 root workbook TSVs inspected for schema and source cadence. [Machine-readable inventory](../research/outputs/2026-09-14_stale-sweep/ledger-inventory.tsv) contains row counts, vintage and next check for every ledger. Frozen/archive rows are deliberately historical.
 
-## 🔑 The finding this file exists to record
+| Ledger | Class | Latest observation | Next check |
+|---|---|---|---|
+| `BIS_GLI.tsv` | LIVE quarterly | 2026-Q1 | Next BIS GLI quarter; check publication, not STATUS-write count |
+| `BOJ_MEETING_OIS.tsv` | LIVE reviewed image | 2026-09-15 11:15 JST assumed | New image or Sep-18 00:00 JST expiry |
+| `BOJ_OIS.tsv` | FROZEN 2026-09-08 | 2026-09-03 historical | None |
+| `CFTC_JPY.tsv` | LIVE weekly | 2026-09-08 | 2026-09-18 release, September 15 positions |
+| `CPI.tsv` | LIVE monthly | National Jul / Tokyo Aug 2026, 2025 base | National Aug Sep-18; Tokyo Sep Oct-02 |
+| `FLOW.tsv` | FROZEN 2026-08-17 | Historical | None |
+| `FLOW_ARCHIVE.tsv` | ARCHIVE | Historical | None |
+| `FXY_OPTIONS.tsv` | LIVE snapshot | 2026-09-14 | Next snapshot |
+| `GPIF_FLOWS.tsv` | LIVE quarterly | FY2026 Q1, 2026-06-30; released Aug-07 | FY2026 Q2, approximately November |
+| `JGB_AUCTIONS.tsv` | LIVE per auction | 2026-09-08 5Y | 2026-09-15 20Y result |
+| `JGB_YIELDS.tsv` | LIVE daily | 2026-09-14 | Next MOF business-day release |
+| `KB.tsv` | LIVE event knowledge | Latest entry 2026-09-11 | Material evidence or correction |
+| `KB_ARCHIVE.tsv` | ARCHIVE | Historical | None |
+| `MOF_FLOWS.tsv` | LIVE weekly | 2026-08-30 through 2026-09-05 | 2026-09-17 usual Thursday cadence |
+| `RATE_DIFFERENTIAL.tsv` | LIVE daily | 2026-09-14 | Next common US/JP source date |
+| `TRADE_BALANCE.tsv` | LIVE monthly | 2026-07 kakusoku | 2026-09-16 August provisional |
+| `USDJPY.tsv` | LIVE daily | 2026-09-14 completed session | Next completed London-labelled session |
+| `VX.tsv` | FROZEN 2026-08-17 | Historical | None |
+| `XCCY_BASIS.tsv` | FROZEN expired 2026-09-14 | 2026-09-10 | None; replacement feed not activated |
 
-**`ledger_staleness.py` counts STATUS-WRITES behind, and a STATUS-write counter cannot measure a QUARTERLY ledger's staleness — it is the wrong clock.** `GPIF_FLOWS.tsv` reads "30 STATUS-writes behind" while being **exactly as current as its source permits**: GPIF publishes quarterly, and the newest release (FY2026 1Q) is already in the file. The counter is measuring my writing cadence, not the data's. ⇒ **A high count on a cadence-bound source is not evidence of rot, and treating it as one would train the desk to ignore the counter on the daily ledgers where it IS informative.** *(Same class as `[[finding_instrument_cadence_cannot_resolve_the_claims_window]]`.)*
+## GPIF accounting scope — necessary when using the existing schema
 
-⚠️ **This is a declaration, not an exemption.** Each row below carries the date its source last published and the date its next release is due. **If a "next expected" date passes with no new row, that IS rot and the nudge should be believed.**
+`asset_size_jpy_bn` is the GPIF headline total. The four allocation balances and percentages in the Q1 report include GPIF **and the Pension Special Account**. At June 30, headline ¥317,759.6B differs from the composition total ¥320,373.2B; approximately ¥2.6T of special-account assets explains the difference. Displayed components sum to ¥320,373.1B because of rounding. Do not “repair” either total to force equality. Hedged foreign bonds can be classified as domestic bonds; this table cannot identify UST holdings or transactions. See the [sweep assessment](../reports/2026-09-14_stale-sweep.md).
 
-## Disposition — all 13, 2026-09-01
+## Historical declaration
 
-| Ledger | Class | Last real data | Next expected | Disposition |
-|---|---|---|---|---|
-| `JGB_YIELDS.tsv` | daily (MOF) | **2026-09-01** | next business day | ✅ **REFRESHED this session** — plus 8/27, 8/28, 8/31 **backfilled** from MOF's all-history file after a basis control. ⚠️ **Known defect: `jgb_yields.py` reads only the CURRENT-MONTH CSV and silently loses the prior month's tail across a dark month boundary. Fix owed.** |
-| `USDJPY.tsv` | daily | 2026-09-01 | next business day | ✅ REFRESHED this session |
-| `CFTC_JPY.tsv` | weekly (Fri) | 2026-08-25 vintage | Fri 2026-09-04 | ✅ REFRESHED this session |
-| `MOF_FLOWS.tsv` | weekly (Thu) | wk 2026-08-16→22 | ~Thu 2026-09-03 | ✅ REFRESHED — already at MOF's newest published week |
-| `BOJ_OIS.tsv` | FROZEN September 8 | historical source vintages only | none | Impeached source; preserved unchanged, never a current fallback. |
-| `BOJ_MEETING_OIS.tsv` | indicative quote / reviewed image | 2026-09-09 11:15 JST assumed | next publisher chart; visual review required | LIVE with source-time age limit (4 days) and nearest-decision expiry; see `BOJ_OIS_README.md`. |
-| `CPI.tsv` | monthly | Jul National / Aug Tokyo | ~2026-09-18 | ✅ REFRESHED this session |
-| `TRADE_BALANCE.tsv` | monthly | Jul (revised −¥638.3B) | 2026-09-16 | ✅ REFRESHED — picked up the sokuho→revised change this session |
-| `JGB_AUCTIONS.tsv` | per-auction | 2026-08-20 20Y | **2026-09-03 30Y** | ✅ REFRESHED this session |
-| `FXY_OPTIONS.tsv` | weekly | 2026-09-01 | weekly | ✅ REFRESHED. ⚠️ **Proxy misbehaving — RR printed −42.63, non-physical; no directional read** |
-| `RATE_DIFFERENTIAL.tsv` | daily | 2026-09-01 | next business day | ✅ REFRESHED this session |
-| `XCCY_BASIS.tsv` | daily | 2026-09-01 | next business day | ✅ REFRESHED. ⚠️ 41 obs, one regime — a percentile here does not calibrate |
-| **`GPIF_FLOWS.tsv`** | **QUARTERLY** | **2026-08-07 (FY2026 1Q)** | **~Nov 2026 (FY2026 2Q interim)** | 🟢 **LIVE, CADENCE-BOUND — NOT frozen, NOT stale.** The "30 STATUS-writes behind" is the wrong clock; the newest GPIF release is already in the file. **Re-examine if ~Nov 2026 passes with no row.** |
-| **`BIS_GLI.tsv`** | **QUARTERLY, manual-only** | per last manual run | next BIS quarterly | 🟢 **LIVE, CADENCE-BOUND.** Manual by design — a daily pull would be noise. ⚠️ **Not the carry trade**: an upper bound, excludes FX swaps, is a STOCK. |
+The September 1 disposition table, including then-open defects and obsolete next-release dates, is preserved in [the before-image](../research/outputs/2026-09-14_stale-sweep/before/workbook/LEDGER_CADENCE.md). A STATUS-write count is not a quarterly freshness clock. Missing an actual scheduled release still requires investigation.
 
-**Hand-maintained and already FROZEN (unchanged 2026-08-17):** `FLOW.tsv`, `VX.tsv`.
+**BIS revision control, September 14 sweep:** Q1 total ¥65.91T / loans ¥42.01T / debt securities ¥23.90T. The loader now upserts same-quarter revisions; USD values explicitly state the conversion convention. A matching quarter label alone does not establish freshness.

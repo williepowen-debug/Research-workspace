@@ -72,4 +72,4 @@ BOJ fiscal factors, ¥B (source units ¥100M converted): September 10 final **+3
 
 Scope: boot/live surfaces, all root workbook ledgers, seven institution profiles, owner research review, forward docket, candidate rider and current thesis sections. Historical reports, frozen predictions, old trade records and archives are preserved. This is a stale-data sweep, not a fresh full geopolitical or successor-thesis study. Shared VIOLET/PROME edits prevent pull/push under repository rules; SAM changes are committed locally with explicit paths.
 
-Validation results are recorded in `research/outputs/2026-09-14_stale-sweep/validation.txt` after final checks.
+**Validation complete:** 24 regression tests pass; all 19 TSV schemas and 32 calendar-event mirrors pass; source hashes and arithmetic reconcile; STATUS/MEMORY below rotation-completion limits. Three external consumer checks found no stale citations; self-check hits were retained historical records. Validation results are recorded in `research/outputs/2026-09-14_stale-sweep/validation.txt` after final checks.

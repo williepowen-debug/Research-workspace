@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-15T03:40:43.649904+00:00 (September 14 ET / September 15 JST). **STATUS provenance:** final STATUS write committed together with this brief; prior boot STATUS commit `299b798aa`. Brief written after STATUS.
+**As of:** 2026-09-15T03:42:19.811041+00:00 (September 14 ET / September 15 JST). **STATUS provenance:** final STATUS write committed together with this brief; prior STATUS propagation commit `0ce654ebb`. Brief written after STATUS.
 
 ## VIEW
 

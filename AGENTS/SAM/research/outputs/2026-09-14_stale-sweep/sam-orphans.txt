@@ -1,0 +1,8 @@
+⚠️  uncommitted files outside AGENTS/SAM/:
+     [not yours]    PROME/reports/2026-09-14_codex-boot-status.md
+     [not yours]    PROME/reports/2026-09-14_decision-deck-review.md
+     [not yours]    PROME/reports/2026-09-14_owed-work-review.md
+     [not yours]    PROME/state/board_cursor.txt
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
