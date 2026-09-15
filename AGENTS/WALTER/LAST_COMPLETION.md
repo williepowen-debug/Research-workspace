@@ -14,11 +14,11 @@ Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive gu
 
 ## RESULT
 
-Prior repair regression suites passed. Follow-through:21 BASIS hashes match; read-cap0 within18 measured declared reads,30 scoped/other declarations not counted. Doctor now0HIGH/2MED (20 historical NOTE rows and31 aged handoffs as two aggregates), five held BRENT copies LOW. Oversized-signal textual read COMPLETE but scoped-cap remedy PARTIAL; no safe cold exclusion established. See follow-through evidence.
+Prior repair regression suites passed. Follow-through:21 BASIS hashes match; read-cap0 within18 measured declared reads,30 scoped/other declarations not counted. Prior doctor snapshot0HIGH/2MED (20 historical NOTE rows and31 aged handoffs as two aggregates); its five held BRENT warnings are discharged by the later verified delivery. Oversized-signal textual read COMPLETE but scoped-cap remedy PARTIAL; no safe cold exclusion established. See follow-through evidence.
 
 ## GAPS
 
-September15 local origin/master a45213b81 contains the prior repair/receipt/reconciliation train, including9e59a0021.24 of29 handoffs verified delivered. Five BRENT handoffs remain uncommitted while BRENT is actively editing; exact tracked recovery copies exist. BRENT acknowledged all five with deferred receipts, three ACTION and two INFO; acknowledgment is not completion or origin delivery. This follow-through commit awaits safe sync. Fleet liveness UNKNOWN. Seven old ACTIONs remain completion-unverified; nine of twelve new ACTION pairs lack an established exact receipt, three are explicitly deferred. Four maintenance completion receipts unverified. Primary-source/settlement gaps remain; no owner state cleared.
+September15 delivery closeout: all29 of29 handoffs verified delivered. Five BRENT copies matched saved hashes, committed as b7a187129 and verified on freshly fetched origin; exactly five ledger cells reconciled. Earlier follow-through022d36547 is also on origin. No held delivery remains. Fleet liveness UNKNOWN. Seven old ACTIONs remain completion-unverified. BRENT’s later board_log records cargo-report recovery (005, quantitative scope PARTIAL) and IATA basis integration (006, exact latest endpoint unavailable); Shanghai comparison007 remains deferred. Other new ACTION receipts require their next scoped review. Delivery does not establish owner filing or completed research. Four maintenance completion receipts unverified. Primary-source/settlement gaps remain; no owner state cleared.
 
 ## WILL_NEEDS
 
@@ -26,7 +26,7 @@ Existing decision only: #6/#8 contract-month basis. No month selected. Frozen te
 
 ## FOLLOW-UP
 
-1. Next safe recipient-write window: commit the five exact held BRENT handoffs (verify recovery hashes first). Next clean sync: push those files plus this follow-through work, verify origin and reconcile the remaining five rows.24 of29 are already verified delivered; five are not.
+1. Delivery obligation CLOSED September15:29/29 verified on origin; five BRENT rows reconciled. BRENT owns subsequent filing and unfinished research. Receipt: `research/2026-09-15_follow-through/brent-delivery-receipt.md`.
 2. September16: review owner artifacts for the seven old ACTIONs and new corrective/source packets; matrix and backlog report name exact completion surfaces. RED/HANS/CREED/PROME received maintenance requests. BROCK/RED own read-manifest re-attestation after shared basis changes.
 3. September16/on oversized selected signal: scoped-cap remedy remains PARTIAL after the actual174-line read found no safe exclusions. A compact companion reading surface needs a checked relation preserving all material caveats; historical BOARD remains append-only. See signal-read-review.md; do not mistake chunked complete reading for a cap remedy.
 4. AboutSeptember17: full Iran primary sweep still owed; last full9/10, partial9/14 plus early9/15 source check; rotations/repair do not reset the clock. Source-check preserves the fresh Oman contact and unverified Axios unmanned-vessel lead for primary/date/theater/novelty verification; neither graded as an event.

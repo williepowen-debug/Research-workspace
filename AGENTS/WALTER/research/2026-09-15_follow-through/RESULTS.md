@@ -17,3 +17,7 @@ Origin/master a45213b81 contains9e59a0021 and the earlier repair train.24 handof
 ## Carry forward
 
 September16 owner evidence checkpoint and oversized-reading remedy; aboutSeptember17 full Iran sweep; September30 study/review. Before interpreting new Iran leads, resolve the Axios unmanned-vessel report’s event date/theater/novelty at a primary and distinguish routine diplomatic contact from a dated agreement. No fresh lead adopted as an event grade. Existing #6/#8 month choice remains with Will, frozen terms/fire-and-decompose unchanged. No new approval requested.
+
+## Later delivery closure — September15
+
+Supersedes the held/push-pending state above: b7a187129 verified on origin; all five BRENT hashes match; five ledger cells reconciled;29/29 delivered. See brent-delivery-receipt.md. Owner work remains separate.

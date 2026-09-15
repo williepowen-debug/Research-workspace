@@ -1,3 +1,5 @@
+- **2026-09-15 — BRENT deliveries CLOSED, light-closeout.** Five saved hashes matched; handoffs committed/pushed b7a187129 and five ledger cells reconciled.29/29 delivered. Earlier follow-through also on origin. Recipient filing/research remain separate; other LAST_COMPLETION obligations retained.
+
 - **2026-09-15 — approved WALTER follow-through.** Obsolete $100 guard retired; owner receipts audited (BRENT deferred, not complete); oversized read complete but cap remedy partial; INFO study baseline frozen. Early Iran check partial;9/17 sweep retained. Own work committed locally; push and five recipient commits deferred during BRENT activity. Evidence: research/2026-09-15_follow-through/RESULTS.md.
 
 - **2026-09-15 — WALTER status follow-up, light-closeout.** Origin ancestry now proves both repair commits landed;24 handoffs reconciled to delivered. Five held BRENT paths still uncommitted, exact recovery copies preserved. Next owner reviews9/16, full Iran primary sweep~9/17, registered review9/30; #6/#8 basis remains with Will. No new market grade or owner-consumption claim.
