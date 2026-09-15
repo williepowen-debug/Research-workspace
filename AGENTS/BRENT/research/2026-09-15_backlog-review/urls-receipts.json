@@ -1,0 +1,209 @@
+[
+  {
+    "name": "jwc",
+    "url": "https://www.iua.co.uk/IUA_Member/IUANew/UnderwritingItems/Committees/Joint_War_Committee_Risk_List.aspx",
+    "retrieved": "2026-09-15T19:32:39.702306+00:00",
+    "status": 200,
+    "final_url": "https://www.iua.co.uk/IUA_Member/IUANew/UnderwritingItems/Committees/Joint_War_Committee_Risk_List.aspx",
+    "bytes": 85302,
+    "sha256": "7bd26e871f5f28a1602a3d8ed188c378558edf2fdd8e81be54fe2bca4c28d89c",
+    "links": []
+  },
+  {
+    "name": "orlen-reuters",
+    "url": "https://www.reuters.com/business/energy/polands-orlen-rushes-find-alternatives-saudi-oil-supply-traders-say-2026-09-15/",
+    "retrieved": "2026-09-15T19:32:39.703118+00:00",
+    "error": "HTTPError: HTTP Error 401: HTTP Forbidden"
+  },
+  {
+    "name": "klm",
+    "url": "https://news.klm.com/klm-half-year-results-improved-but-not-sufficient-for-the-long-term/",
+    "retrieved": "2026-09-15T19:32:39.703651+00:00",
+    "status": 200,
+    "final_url": "https://news.klm.com/klm-half-year-results-improved-but-not-sufficient-for-the-long-term/",
+    "bytes": 41171,
+    "sha256": "1e97af3848d503405c873fd5423c1382272cf05128504d1813f08e1f6be10c9e",
+    "links": []
+  },
+  {
+    "name": "bazan",
+    "url": "https://eng.bazan.co.il/page_18816/",
+    "retrieved": "2026-09-15T19:32:39.704123+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "shell",
+    "url": "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item3.stream/1785372070983/98cbdbb52bce065cec3d5f16c5599c4f169c9cbc/q2-2026-slides.pdf",
+    "retrieved": "2026-09-15T19:32:40.143452+00:00",
+    "status": 200,
+    "final_url": "https://www.shell.com/investors/results-and-reporting/quarterly-results/_jcr_content/root/main/section/simple/promo_1962010312_cop/links/item3.stream/1785372070983/98cbdbb52bce065cec3d5f16c5599c4f169c9cbc/q2-2026-slides.pdf",
+    "bytes": 1587150,
+    "sha256": "1cb1bdeee639dca2f7ab08b8502aab4a5fb2b6dd0c1b09219906eb4a963acdc2"
+  },
+  {
+    "name": "knpc",
+    "url": "https://www.knpc.com/en/our-business/oil-refining/mina-al-ahmadi-refinery",
+    "retrieved": "2026-09-15T19:32:40.160032+00:00",
+    "status": 200,
+    "final_url": "https://www.knpc.com/en/our-business/oil-refining/mina-al-ahmadi-refinery",
+    "bytes": 79380,
+    "sha256": "fa8b06f35cea35271a513694e2374d981ddaec8461406f03de1269f71333476b",
+    "links": [
+      {
+        "text": "Local Content Electronic Magazine",
+        "href": "/KNPC/media/PDFs/Local%20Content/1-Home-\u0627\u0644\u0635\u0641\u062d\u0629-\u0627\u0644\u0631\u064a\u064a\u0633\u064a\u0629-2026.pdf"
+      },
+      {
+        "text": "The Right of Access to Information",
+        "href": "https://www.knpc.com/KNPC/media/PDFs/Right-to-Access-of-Information.pdf"
+      }
+    ]
+  },
+  {
+    "name": "valero",
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026050937/vlo-20260630.htm",
+    "retrieved": "2026-09-15T19:32:40.536609+00:00",
+    "status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026050937/vlo-20260630.htm",
+    "bytes": 2408322,
+    "sha256": "44d35827fe36d3a33f36c1414880153d4f675b4bf7aca4f92d153a7a05075f73",
+    "links": []
+  },
+  {
+    "name": "vtti",
+    "url": "https://www.vtti.com/location/fujairah-united-arab-emirates-vtti/",
+    "retrieved": "2026-09-15T19:32:40.882544+00:00",
+    "status": 200,
+    "final_url": "https://www.vtti.com/location/fujairah-united-arab-emirates-vtti/",
+    "bytes": 141916,
+    "sha256": "4258720e62100eaefe9a5c6ba38caeb8a457ee62e39c1d35205daa446c7c8c48",
+    "links": [
+      {
+        "text": "Purchase terms and conditions",
+        "href": "https://www.vtti.com/wp-content/uploads/2025/04/VTTI-Purchase-Conditions-2025-JAN.pdf"
+      }
+    ]
+  },
+  {
+    "name": "mrpl",
+    "url": "https://mrpl.co.in/StatutoryDisclosure/Disclosures-Equity",
+    "retrieved": "2026-09-15T19:32:41.000343+00:00",
+    "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+  },
+  {
+    "name": "rosneft",
+    "url": "https://www.rosneft.com/press/releases/2026/8/",
+    "retrieved": "2026-09-15T19:32:41.683212+00:00",
+    "status": 200,
+    "final_url": "https://www.rosneft.com/press/releases/2026/8/",
+    "bytes": 66965,
+    "sha256": "8482ea75e474f179b71dc293aa6217ff3d3fbeb9c57b2cb0596ec6af147d6ffb",
+    "links": []
+  },
+  {
+    "name": "ruwais",
+    "url": "https://www.qcintel.com/article/adnoc-s-ruwais-refinery-returns-to-full-capacity-after-march-drone-strike-71968.html",
+    "retrieved": "2026-09-15T19:32:41.952360+00:00",
+    "status": 200,
+    "final_url": "https://www.qcintel.com/article/adnoc-s-ruwais-refinery-returns-to-full-capacity-after-march-drone-strike-71968.html",
+    "bytes": 31830,
+    "sha256": "28c4d1296e8db04818faf146ebb95ebdd118973f041eb1a7ed50ac85b4186cb2",
+    "links": []
+  },
+  {
+    "name": "russia-sep15",
+    "url": "https://energynow.com/2026/09/half-of-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes/",
+    "retrieved": "2026-09-15T19:32:42.194839+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ine-contract",
+    "url": "https://www.ine.com.cn/eng/market/futures/energy/sc/contract/",
+    "retrieved": "2026-09-15T19:32:42.211741+00:00",
+    "status": 200,
+    "final_url": "https://www.ine.com.cn/eng/market/futures/energy/sc/contract/",
+    "bytes": 10648,
+    "sha256": "a70a0d8e575d2f3b8584be277e95f2b9f18693512bb70a519335c0001c53fb75",
+    "links": []
+  },
+  {
+    "name": "lufthansa",
+    "url": "https://investor-relations.lufthansagroup.com/en/financial-reports-publications/shareholder-information/2-2026.html",
+    "retrieved": "2026-09-15T19:32:42.384296+00:00",
+    "status": 200,
+    "final_url": "https://investor-relations.lufthansagroup.com/en/financial-reports-publications/shareholder-information/2-2026.html",
+    "bytes": 159931,
+    "sha256": "684d177350314625ce9673c00a1ae1d0256c12a7046d879b00b78791cf6e8d26",
+    "links": [
+      {
+        "text": "2nd \u00a0Interim Report",
+        "href": "/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-2-e.pdf"
+      },
+      {
+        "text": "2nd Interim Report 2026 starting on p. 28",
+        "href": "/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-2-e.pdf#page=28"
+      },
+      {
+        "text": "Annual Report 2025\u00a0starting on p. 93",
+        "href": "/fileadmin/downloads/en/financial-reports/annual-reports/LH-AR-2025-e.pdf#page=93"
+      },
+      {
+        "text": "2nd Interim Report 2026",
+        "href": "/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-2-e.pdf"
+      },
+      {
+        "text": "1st Interim Report 2026",
+        "href": "/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-1-e.pdf"
+      },
+      {
+        "text": "Annual Report 2025",
+        "href": "/fileadmin/downloads/en/financial-reports/annual-reports/LH-AR-2025-e.pdf"
+      },
+      {
+        "text": "3rd Interim Report 2025",
+        "href": "/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2025-3-e.pdf"
+      }
+    ]
+  },
+  {
+    "name": "wizz",
+    "url": "https://corporate.wizzair.com/investors/business-results-calendar/",
+    "retrieved": "2026-09-15T19:32:42.810373+00:00",
+    "status": 200,
+    "final_url": "https://corporate.wizzair.com/investors/business-results-calendar/",
+    "bytes": 694158,
+    "sha256": "590fb7ee2c1ab404ea52b9d33b2022ea3fa96495ebff78edc041a76dd2ec1ac5",
+    "links": [
+      {
+        "text": "Download",
+        "href": "https://filemanager-cdn.mziq.com/published/f33cff8c-9600-4e77-8b65-b797eb10bc4e/0099bfc5-8276-44bf-8b1c-461e4d0b1132_wizz_air_holdings_plc_h1_report_f26_2025_09_30_1.pdf"
+      },
+      {
+        "text": "Download",
+        "href": "https://filemanager-cdn.mziq.com/published/f33cff8c-9600-4e77-8b65-b797eb10bc4e/d3fdce8b-ece5-45a5-b753-ca4ae386c519_f26_h1_presentation_20251113t1207_01.pdf"
+      },
+      {
+        "text": "Release",
+        "href": "https://filemanager-cdn.mziq.com/published/f33cff8c-9600-4e77-8b65-b797eb10bc4e/0099bfc5-8276-44bf-8b1c-461e4d0b1132_wizz_air_holdings_plc_h1_report_f26_2025_09_30_1.pdf"
+      },
+      {
+        "text": "Presentation",
+        "href": "https://filemanager-cdn.mziq.com/published/f33cff8c-9600-4e77-8b65-b797eb10bc4e/d3fdce8b-ece5-45a5-b753-ca4ae386c519_f26_h1_presentation_20251113t1207_01.pdf"
+      },
+      {
+        "text": "Download",
+        "href": "https://filemanager-cdn.mziq.com/published/f33cff8c-9600-4e77-8b65-b797eb10bc4e/b48ff962-b286-44d9-9b8c-f1c588dacfb7_wizz_air_holdings_plc_annual_report_and_accounts_f25.pdf"
+      }
+    ]
+  },
+  {
+    "name": "southpars",
+    "url": "https://www.presstv.co.uk/Detail/2026/08/28/775202/Iran-restores-40--of-South-Pars-capacity-after-terrorist-US-Israeli-strikes",
+    "retrieved": "2026-09-15T19:32:43.497160+00:00",
+    "status": 200,
+    "final_url": "https://www.presstv.co.uk/Detail/2026/08/28/775202/Iran-restores-40--of-South-Pars-capacity-after-terrorist-US-Israeli-strikes",
+    "bytes": 65245,
+    "sha256": "9d53b306cba38d0f59b8510ea2b52e4a8f845f5587096f9bfef6be9548309b46",
+    "links": []
+  }
+]

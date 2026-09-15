@@ -1,0 +1,120 @@
+{
+  "archives": [
+    {
+      "path": "workbook/STATUS_archive_20260828_dated_history_wave2.md",
+      "bytes": 86674,
+      "expected_crc": "4bb7aad6",
+      "payload_rule": "bytes after first standalone ---; outer whitespace stripped",
+      "actual_payload_bytes": 88876,
+      "actual_crc": "4bb7aad6",
+      "checksum_matches": true
+    },
+    {
+      "path": "workbook/STATUS_archive_20260821_standing_blocks_aug4_aug13.md",
+      "bytes": 9710,
+      "expected_crc": "d82761d3",
+      "payload_rule": "bytes after first standalone ---; outer whitespace stripped",
+      "actual_payload_bytes": 9970,
+      "actual_crc": "d82761d3",
+      "checksum_matches": true
+    }
+  ],
+  "links": [
+    {
+      "target": "research/2026-09-15_workdown/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "TRADE.md",
+      "exists": true
+    },
+    {
+      "target": "research/2026-09-15_workdown/REPORT.md",
+      "exists": true
+    },
+    {
+      "target": "archive/STATUS_dated_2026-09-14.md",
+      "exists": true
+    },
+    {
+      "target": "workbook/STATUS_archive_20260828_dated_history_wave2.md",
+      "exists": true
+    },
+    {
+      "target": "research/2026-09-15_workdown/before/STATUS.md",
+      "exists": true
+    },
+    {
+      "target": "thesis/prediction_notes/BRT-26.md",
+      "exists": true
+    },
+    {
+      "target": "workbook/STATUS_archive_20260821_standing_blocks_aug4_aug13.md",
+      "exists": true
+    },
+    {
+      "target": "TRADE.md",
+      "exists": true
+    },
+    {
+      "target": "SCRATCH.md",
+      "exists": true
+    },
+    {
+      "target": "thesis/THESIS.md",
+      "exists": true
+    },
+    {
+      "target": "workbook/REGISTRY.tsv",
+      "exists": true
+    },
+    {
+      "target": "archive/STATUS_DETAIL_2026-09.md",
+      "exists": true
+    },
+    {
+      "target": "setups/SPECS_GATES.md",
+      "exists": true
+    },
+    {
+      "target": "archive/STATUS_DETAIL_2026-09.md",
+      "exists": true
+    },
+    {
+      "target": "workbook/",
+      "exists": true
+    },
+    {
+      "target": "archive/STATUS_dated_2026-09-09_audit.md",
+      "exists": true
+    },
+    {
+      "target": "archive/STATUS_dated_2026-09-09_maintenance.md",
+      "exists": true
+    },
+    {
+      "target": "thesis/THESIS.md",
+      "exists": true
+    },
+    {
+      "target": "TRADE.md",
+      "exists": true
+    },
+    {
+      "target": "thesis/PREDICTIONS.tsv",
+      "exists": true
+    },
+    {
+      "target": "workbook/REGISTRY.tsv",
+      "exists": true
+    },
+    {
+      "target": "SCRATCH.md",
+      "exists": true
+    },
+    {
+      "target": "research/2026-09-15_workdown/REPORT.md",
+      "exists": true
+    }
+  ]
+}

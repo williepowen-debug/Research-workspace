@@ -1,0 +1,59 @@
+BRENT backlog review validation — 2026-09-15
+
+## calendar: exit 0
+✅ CALENDAR: STATUS block matches docket/CATALYSTS.tsv (25 events)
+✅ STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-09-11).
+
+## readcap: exit 0
+READ-CAP [BRENT] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 3 boot section(s) in CLAUDE.md, 29 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟡 TRADE.md                             25,166 B    77% of budget  rotate-tier (≥75% of budget)  (boot-step line 26)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,382 MORE B to finish rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  ✅ STATUS.md                            19,104 B    59% of budget    (boot-step line 26)
+  ✅ LESSONS.md                           13,931 B    43% of budget    (boot-step line 30)
+  ✅ domain/REFERENCE_TABLES.md            6,174 B    19% of budget    (boot-step line 31)
+  ✅ SCRATCH.md                            4,177 B    13% of budget    (boot-step line 27)
+✅ READ-CAP 0 [BRENT]: every boot-mandated read this check found is under budget (5 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in PROME/registry/READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=BRENT reads=5 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0
+
+## lessons: exit 0
+
+  SPEC SWEEP — AGENTS/BRENT/workbook/REGISTRY.tsv
+  concepts detected: announcement_vs_physical, crack_spread, data_latency, demand_measurement, entry_timing, gate_design, instrument_choice, inventory, price_freshness, tanker_equity, tenor, threshold_spec, vol
+
+  13 LESSON(S) GOVERN THIS SPEC — reconcile each before shipping:
+  --------------------------------------------------------------------------
+  cited  L06 [LIVE] Crack spreads tell the real story; crude price alone is incomplete
+  cited  L08 [LIVE] Storage data has reporting lag
+  cited  L09 [LIVE] EIA 'product supplied' MISLEADS in weeks 1-4 of a shock (stockpiling mask)
+  cited  L10 [LIVE] OPEC+ paper quotas != physical production
+  cited  L11 [LIVE] Announcement entry precedes physical delivery; approved conditions still govern
+  cited  L15 [SCOPED] Bear put SPREADS not naked puts at high IV; 60-90 DTE / 10-15% OTM / 3:1
+  cited  L16 [LIVE] Equity stocks LEAD physical rates — exit on announcement, not delivery
+  cited  L18 [AMENDED] Separate signature, paired tanker liveness and physical retention
+  cited  L19 [LIVE] A signed deal is not an operational one; reopening is NOT uniformly tanker-beari
+  cited  L21 [LIVE] A threshold fails on its SPEC before it fails on the world; match each leg's win
+  cited  L22 [AMENDED] A pre-registration must name an instrument that actually TRADES and a THRESHOLD 
+  cited  L23 [LIVE] A continuous front-month ticker (=F) silently re-points at the contract roll — a
+  cited  L25 [LIVE] A source that HANGS is not a source that is DOWN — a WAF tarpitting your User-Ag
+
+  'NOT CITED' is not automatically wrong — it means the spec never says
+  whether it honours or overrides that lesson. That silence is the failure mode.
+
+## claims: exit 0
+CLAIM-CHECK ✓ 8 file(s) clean [weekday]
+
+## diff: exit 0
+(no diagnostics)
+## orphan: exit 0
+✓ orphan check clean — nothing uncommitted outside AGENTS/BRENT/
+
+## nudge: exit 1
+⚠️  nudge: [BRENT] STATUS moving without ledgers — 2 ledger(s) behind: INCIDENTS.tsv (31 STATUS-writes behind), LESSONS_INDEX.tsv (3 STATUS-writes behind) — freeze-or-refresh EACH, or say why not in the commit
+
+
+Schema checks: PASS. Prediction row/column counts stable; only BRT-29 Notes changed, all frozen fields unchanged. Registry changes limited to JWC last_verified and notes. Incident row/column counts stable; status, source tier and operating-evidence date unchanged for every row. Exact changed columns recorded in incident-change-audit.json. Authored report links resolve. Source/before hashes saved in manifest.json.
+Corrections check: no BRENT-named unreceipted correction found.
+Consumer scans: self clean; cross-agent numeric matches manually inspected. OZK 466,000 SF is unrelated. FORGE OIL_FACILITY_DAMAGE_TRACKER.md retains Mina al-Ahmadi 466,000 bpd; owner follow-up recorded in NEXUS, no outbound send authorized. Source is undated current KNPC nameplate, not proof of historical pre-conflict configuration.
+Ledger nudge: INCIDENTS refreshed in this commit; LESSONS_INDEX unchanged because no lesson was authored or revised. Stale operating-evidence dates deliberately retained.
+No production code changed; no new test suite required. Raw source HTML/text and before snapshots preserve original whitespace; authored files checked separately.
+Closeout status: the five WALTER handoffs were untracked at boot but were committed by their owner during this session. No sender content edited or staged by BRENT.

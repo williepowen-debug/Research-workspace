@@ -1,0 +1,11 @@
+[
+  {
+    "name": "wizz-f27q1",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/f33cff8c-9600-4e77-8b65-b797eb10bc4e/95382e43-9ba3-0f91-5feb-f8215fd634fe?origin=2",
+    "retrieved": "2026-09-15T20:22:17.004248+00:00",
+    "status": 200,
+    "final_url": "https://api.mziq.com/mzfilemanager/v2/d/f33cff8c-9600-4e77-8b65-b797eb10bc4e/95382e43-9ba3-0f91-5feb-f8215fd634fe?origin=2",
+    "bytes": 232759,
+    "sha256": "e01d33120743d393559fe8f8c4ee6c83eff994c76bbfb4d4f60fa2c6e4d5fe9b"
+  }
+]

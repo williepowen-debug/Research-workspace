@@ -1,0 +1,61 @@
+[
+  {
+    "name": "orlen-yahoo",
+    "url": "https://currently.att.yahoo.com/att/poland-orlen-rushes-alternatives-saudi-111029114.html",
+    "retrieved": "2026-09-15T19:34:11.894794+00:00",
+    "status": 200,
+    "final_url": "https://currently.att.yahoo.com/att/poland-orlen-rushes-alternatives-saudi-111029114.html",
+    "bytes": 457287,
+    "sha256": "2d43317f293aa3ed8f4463befd07169623433a93b6406d1735797d8469d35773",
+    "links": []
+  },
+  {
+    "name": "ine-pdf",
+    "url": "https://www.ine.cn/upload/20240605/1717571185052.pdf",
+    "retrieved": "2026-09-15T19:34:11.895677+00:00",
+    "status": 200,
+    "final_url": "https://www.ine.cn/upload/20240605/1717571185052.pdf",
+    "bytes": 22096934,
+    "sha256": "353959d600a8a1091966362d9c77fe266d0181a80f89aa995c35a9f07559c5a3"
+  },
+  {
+    "name": "malaysia",
+    "url": "https://www.klsescreener.com/v2/news/view/1781865/cover-story-2-we-are-not-cancelling-destinations",
+    "retrieved": "2026-09-15T19:34:11.896381+00:00",
+    "status": 200,
+    "final_url": "https://www.klsescreener.com/v2/news/view/1781865/cover-story-2-we-are-not-cancelling-destinations",
+    "bytes": 85348,
+    "sha256": "88e4217a829deefb5422fd3c5ccd98ee71cf9494a897975df512a6f2d336a14d",
+    "links": []
+  },
+  {
+    "name": "bazan-march",
+    "url": "https://media.bazan.co.il/bazan/media/uwyl3liv/bazan-fa-march-2026_eng.pdf",
+    "retrieved": "2026-09-15T19:34:11.896943+00:00",
+    "status": 200,
+    "final_url": "https://media.bazan.co.il/bazan/media/uwyl3liv/bazan-fa-march-2026_eng.pdf",
+    "bytes": 398753,
+    "sha256": "1774cfc5135925fc6d6f004e65dd69111f59e763158d78fc0f8e10d6768b0124"
+  },
+  {
+    "name": "lufthansa-report",
+    "url": "https://investor-relations.lufthansagroup.com/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-2-e.pdf",
+    "retrieved": "2026-09-15T19:34:12.806707+00:00",
+    "status": 200,
+    "final_url": "https://investor-relations.lufthansagroup.com/fileadmin/downloads/en/financial-reports/interims-reports/LH-QR-2026-2-e.pdf",
+    "bytes": 2433996,
+    "sha256": "40607c6f77f697cad65217baf162256292ad483c3336a0d8acf20f1718a4d7ed"
+  },
+  {
+    "name": "frontier",
+    "url": "https://ir.flyfrontier.com/news-events/news/news-details/2026/Frontier-Airlines-Delivers-Record-Second-Quarter-2026-Revenue-of-1-3-billion-up-38-percent-Year-over-Year-and-Significantly-Beats-Wall-Street-Estimates/default.aspx",
+    "retrieved": "2026-09-15T19:34:12.965181+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "russia-boe",
+    "url": "https://boereport.com/2026/09/15/half-of-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes/",
+    "retrieved": "2026-09-15T19:34:13.103197+00:00",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+]

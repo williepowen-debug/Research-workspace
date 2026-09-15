@@ -1,0 +1,130 @@
+{
+  "adnoc.html": {
+    "bytes": 340489,
+    "sha256": "7a88c39eca43365efe55c64c8086c16d35893d47ad3ae8569a8a351c75ae6c7e"
+  },
+  "bazan-march.pdf": {
+    "bytes": 398753,
+    "sha256": "1774cfc5135925fc6d6f004e65dd69111f59e763158d78fc0f8e10d6768b0124"
+  },
+  "before/NEXUS_BRIEF.md": {
+    "bytes": 22449,
+    "sha256": "a3013618d68b63bc74836dc507ec2866f940e23643f7d476f54c58f8cac4f000"
+  },
+  "before/SCRATCH.md": {
+    "bytes": 3581,
+    "sha256": "40615527e6ad18c209d94449345dac41fa43d2333eceedd3e3b313e6f936ae28"
+  },
+  "before/STATUS.md": {
+    "bytes": 19066,
+    "sha256": "e3d91f1873e1d0105014a83da30de3c1af9c39ac88d134e38f78aacb6d06356a"
+  },
+  "before/demand_destruction/TRACKER.md": {
+    "bytes": 176778,
+    "sha256": "0673f0dd8e9a57f1f5a196ede7300efe3a95a56fe869c5783e60ed4dade43de5"
+  },
+  "before/refinery_damage/INCIDENTS.tsv": {
+    "bytes": 70423,
+    "sha256": "f5ae5b7a6beb39e73b70a8e5abb8de67a671175f167ccef67d264b108f705cdc"
+  },
+  "before/thesis/PREDICTIONS.tsv": {
+    "bytes": 65328,
+    "sha256": "ba8e15960a99aee52a4b1ac8eaac9ac1f74cdfe27a671bfd49849679d4a4bdfe"
+  },
+  "before/thesis/prediction_notes/BRT-29.md": {
+    "bytes": 6295,
+    "sha256": "43b9d604cd829d8c87cfbb167fc6b3ebb0984b3b2128623ef8894e4e610f88ce"
+  },
+  "before/workbook/REGISTRY.tsv": {
+    "bytes": 82725,
+    "sha256": "c24aa19e1745eb2c2158d1012aed2a8ce78b91c1bbb6a09a92ab981b051ec33b"
+  },
+  "ine-contract.html": {
+    "bytes": 10648,
+    "sha256": "a70a0d8e575d2f3b8584be277e95f2b9f18693512bb70a519335c0001c53fb75"
+  },
+  "ine-pdf.pdf": {
+    "bytes": 22096934,
+    "sha256": "353959d600a8a1091966362d9c77fe266d0181a80f89aa995c35a9f07559c5a3"
+  },
+  "jwc-body.pdf": {
+    "bytes": 189219,
+    "sha256": "125e507bbd187051315bdf80ae30583bc92ec9ad2d280d02fac2d10a019d03b9"
+  },
+  "jwc.html": {
+    "bytes": 85302,
+    "sha256": "7bd26e871f5f28a1602a3d8ed188c378558edf2fdd8e81be54fe2bca4c28d89c"
+  },
+  "klm.html": {
+    "bytes": 41171,
+    "sha256": "1e97af3848d503405c873fd5423c1382272cf05128504d1813f08e1f6be10c9e"
+  },
+  "knpc.html": {
+    "bytes": 79380,
+    "sha256": "fa8b06f35cea35271a513694e2374d981ddaec8461406f03de1269f71333476b"
+  },
+  "lufthansa-report.pdf": {
+    "bytes": 2433996,
+    "sha256": "40607c6f77f697cad65217baf162256292ad483c3336a0d8acf20f1718a4d7ed"
+  },
+  "lufthansa.html": {
+    "bytes": 159931,
+    "sha256": "684d177350314625ce9673c00a1ae1d0256c12a7046d879b00b78791cf6e8d26"
+  },
+  "malaysia.html": {
+    "bytes": 85348,
+    "sha256": "88e4217a829deefb5422fd3c5ccd98ee71cf9494a897975df512a6f2d336a14d"
+  },
+  "mrpl-secondary.html": {
+    "bytes": 88796,
+    "sha256": "5edea1165615381e0e651d34c139562218a08a6a176f613a9c039545f36692f2"
+  },
+  "orlen-yahoo.html": {
+    "bytes": 457287,
+    "sha256": "2d43317f293aa3ed8f4463befd07169623433a93b6406d1735797d8469d35773"
+  },
+  "rosneft.html": {
+    "bytes": 66965,
+    "sha256": "8482ea75e474f179b71dc293aa6217ff3d3fbeb9c57b2cb0596ec6af147d6ffb"
+  },
+  "russia-meduza.html": {
+    "bytes": 64150,
+    "sha256": "6f03daa3e7fbbd2e964376cd55da0a77892e7eca880b56e42a91a840e3479375"
+  },
+  "ruwais.html": {
+    "bytes": 31830,
+    "sha256": "28c4d1296e8db04818faf146ebb95ebdd118973f041eb1a7ed50ac85b4186cb2"
+  },
+  "shanghai-original.jfif": {
+    "bytes": 157945,
+    "sha256": "476d0c56cdf81a9d9be0c87c1980d26678a377b997e22231b1da4cffa29bfe71"
+  },
+  "shell.pdf": {
+    "bytes": 1587150,
+    "sha256": "1cb1bdeee639dca2f7ab08b8502aab4a5fb2b6dd0c1b09219906eb4a963acdc2"
+  },
+  "southpars.html": {
+    "bytes": 65245,
+    "sha256": "9d53b306cba38d0f59b8510ea2b52e4a8f845f5587096f9bfef6be9548309b46"
+  },
+  "ufa.html": {
+    "bytes": 24270,
+    "sha256": "41aefe3d965d804b6f96b4248559505bfeb47092727e6ed23c91042f933c17f6"
+  },
+  "valero.html": {
+    "bytes": 2408322,
+    "sha256": "44d35827fe36d3a33f36c1414880153d4f675b4bf7aca4f92d153a7a05075f73"
+  },
+  "vtti.html": {
+    "bytes": 141916,
+    "sha256": "4258720e62100eaefe9a5c6ba38caeb8a457ee62e39c1d35205daa446c7c8c48"
+  },
+  "wizz-f27q1.pdf": {
+    "bytes": 232759,
+    "sha256": "e01d33120743d393559fe8f8c4ee6c83eff994c76bbfb4d4f60fa2c6e4d5fe9b"
+  },
+  "wizz.html": {
+    "bytes": 694158,
+    "sha256": "590fb7ee2c1ab404ea52b9d33b2022ea3fa96495ebff78edc041a76dd2ec1ac5"
+  }
+}

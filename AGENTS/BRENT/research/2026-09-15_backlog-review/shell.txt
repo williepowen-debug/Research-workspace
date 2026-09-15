@@ -1,0 +1,531 @@
+                      Shell plc
+
+Second quarter 2026 results
+ Operational performance drives exceptional results
+
+                   July 30, 2026
+Definitions & cautionary note
+The companies in which Shell plc directly and indirectly owns investments are separate legal entities. In this presentation “Shell”, “Shell Group” and “Group” are sometimes used for convenience to reference Shell plc and its subsidiaries in general. Likewise, the words
+“we”, “us” and “our” are also used to refer to Shell plc and its subsidiaries in general or to those who work for them. These terms are also used where no useful purpose is served by identifying the particular entity or entities. “Subsidiaries”, “Shell subsidiaries” and
+“Shell companies” as used in this presentation refer to entities over which Shell plc either directly or indirectly has control. The terms “joint venture”, “joint operations”, “joint arrangements”, and “associates” may also be used to refer to a commercial arrangement in
+which Shell has a direct or indirect ownership interest with one or more parties. The term “Shell interest” is used for convenience to indicate the direct and/or indirect ownership interest held by Shell in an entity or unincorporated joint arrangement, after exclusion of all
+third-party interest.
+
+This presentation contains forward-looking statements (within the meaning of the U.S. Private Securities Litigation Reform Act of 1995) concerning the financial condition, results of operations and businesses of Shell. All statements other than statements of historical fact
+are, or may be deemed to be, forward-looking statements. Forward-looking statements are statements of future expectations that are based on management’s current expectations and assumptions and involve known and unknown risks and uncertainties that could
+cause actual results, performance or events to differ materially from those expressed or implied in these statements. Forward-looking statements include, among other things, statements concerning the potential exposure of Shell to market risks and statements
+expressing management’s expectations, beliefs, estimates, forecasts, projections and assumptions. These forward-looking statements are identified by their use of terms and phrases such as “aim”; “ambition”; ‘‘anticipate’’; “aspire”; “aspiration”; ‘‘believe’’; “commit”;
+“commitment”; ‘‘could’’; “desire”; ‘‘estimate’’; ‘‘expect’’; ‘‘goals’’; ‘‘intend’’; ‘‘may’’; “milestones”; ‘‘objectives’’; ‘‘outlook’’; ‘‘plan’’; ‘‘probably’’; ‘‘project’’; ‘‘risks’’; “schedule”; ‘‘seek’’; ‘‘should’’; ‘‘target’’; “vision”; ‘‘will’’; “would” and similar terms and phrases. There
+are a number of factors that could affect the future operations of Shell and could cause those results to differ materially from those expressed in the forward-looking statements included in this presentation, including (without limitation): (a) price fluctuations in crude oil
+and natural gas; (b) changes in demand for Shell’s products; (c) currency fluctuations; (d) drilling and production results; (e) reserves estimates; (f) loss of market share and industry competition; (g) environmental and physical risks, including climate change; (h) risks
+associated with the identification of suitable potential acquisition properties and targets, and successful negotiation and completion of such transactions; (i) the risk of doing business in developing countries and countries subject to international sanctions; (j) legislative,
+judicial, fiscal and regulatory developments including tariffs and regulatory measures addressing climate change; (k) economic and financial market conditions in various countries and regions; (l) political risks, including the risks of expropriation and renegotiation of
+the terms of contracts with governmental entities, delays or advancements in the approval of projects and delays in the reimbursement for shared costs; (m) risks associated with the impact of pandemics, regional conflicts, such as the Russia-Ukraine war and the conflict
+in the Middle East, and a significant cyber security, data privacy or IT incident; (n) the pace of the energy transition; and (o) changes in trading conditions. No assurance is provided that future dividend payments will match or exceed previous dividend payments. All
+forward-looking statements contained in this presentation are expressly qualified in their entirety by the cautionary statements contained or referred to in this section. Readers should not place undue reliance on forward-looking statements. Additional risk factors that
+may affect future results are contained in Shell plc’s Form 20-F for the year ended December 31, 2025 (available at www.shell.com/investors/news-and-filings/sec-filings.html and www.sec.gov). These risk factors also expressly qualify all forward-looking statements
+contained in this presentation and should be considered by the reader. Each forward-looking statement speaks only as of the date of this presentation, July 30, 2026. Neither Shell plc nor any of its subsidiaries undertake any obligation to publicly update or revise any
+forward-looking statement as a result of new information, future events or other information. In light of these risks, results could differ materially from those stated, implied or inferred from the forward-looking statements contained in this presentation.
+
+Also, in this presentation we may refer to Shell’s “net carbon intensity” (NCI), which includes Shell’s carbon emissions from the production of our energy products, our suppliers’ carbon emissions in supplying energy for that production and our customers’ carbon
+emissions associated with their use of the energy products we sell. Shell’s NCI also includes the emissions associated with the production and use of energy products produced by others which Shell purchases for resale. Shell only controls its own emissions. The use of
+the terms Shell’s “net carbon intensity” or NCI is for convenience only and not intended to suggest these emissions are those of Shell plc or its subsidiaries.
+
+Shell’s operating plan and outlook are forecasted for a three-year period and ten-year period, respectively, and are updated every year. They reflect the current economic environment and what we can reasonably expect to see over the next three and ten years.
+Accordingly, the outlook reflects our combined Scope 1 and 2 target, NCI target and our oil products ambition over the next ten years. However, Shell’s operating plan and outlook cannot reflect our 2050 net-zero emissions target, as this target is outside our planning
+period. Such future operating plans and outlooks could include changes to our portfolio, efficiency improvements and the use of carbon capture and storage and carbon credits. In the future, as society moves towards net-zero emissions, we expect Shell’s operating
+plans and outlooks to reflect this movement. However, if society is not net zero in 2050, as of today, there would be significant risk that Shell may not meet this target.
+
+This presentation may contain certain forward-looking non-GAAP measures such as free cash flow and underlying operating expenses. We are unable to provide a reconciliation of these forward-looking non-GAAP measures to the most comparable GAAP financial
+measures because certain information needed to reconcile those non-GAAP measures to the most comparable GAAP financial measures is dependent on future events some of which are outside the control of Shell, such as oil and gas prices, interest rates and
+exchange rates. Moreover, estimating such GAAP measures with the required precision necessary to provide a meaningful reconciliation is extremely difficult and could not be accomplished without unreasonable effort. Non-GAAP measures in respect of future periods
+which cannot be reconciled to the most comparable GAAP financial measure are calculated in a manner which is consistent with the accounting policies applied in Shell plc’s consolidated financial statements.
+
+The contents of websites referred to in this presentation do not form part of this presentation.
+
+We may have used certain terms, such as resources, in this presentation that the United States Securities and Exchange Commission (SEC) strictly prohibits us from including in our filings with the SEC. Investors are urged to consider closely the disclosure in our Form
+20-F, File No 1-32575, available on the SEC website www.sec.gov.
+
+
+Contacts Media: International +44 207 934 5550; U.S. and Canada: Contact form
+
+
+
+
+            Shell plc | July 30, 2026                                                                                                                                                                                                                                                                    2
+Second quarter 2026 results
+
+Key messages
+
+
+
+
+                                  Performance                                           $9.8 billion                           Strong operational performance drives very strong financial results
+                                                                                       Adjusted Earnings1
+                                      Discipline                                                                               Repositioning our advantaged portfolio by divesting non-core positions
+
+
+                                  Simplification                                       $21.4 billion                           2026 Cash capex outlook unchanged: $24 - 26 billion (incl. ARC)
+                                                                                                CFFO
+
+
+
+
+                                                                                           $0.3906
+                                      Attractive                                       Dividend per share
+                                                                                                                               44% of CFFO distributed over the last 12 months
+
+
+                                   Shareholder                                                                                 Announced buybacks ≥ $3 billion for the 19th consecutive quarter
+
+                                                                                         $3.0 billion
+                                        Returns                                                                                Supported by strong balance sheet: net debt of $41.8 billion ($12.1 billion excl. leases)
+                                                                                          New Buyback2
+
+
+
+
+APM reconciliations are available in the Q2 2026 Quarterly Databook here. 1 Income attributable to shareholders is $10.8 billion in Q2 2026. 2 The Q2 2026 share buyback programme comprises $3 billion of new share buybacks, plus $1.2 billion of share
+buybacks that were not undertaken during the previous programme due to the announced suspension of such programme in connection with Shell’s agreement to acquire ARC Resources.
+
+
+
+        Shell plc | July 30, 2026                                                                                                                                                                                                                           3
+Macro environment
+
+Key price markers and inputs
+
+
+  Oil                                                                    Gas                                                  Shell Indicative Refining Margin (IRM)
+                                                                                                                              and Indicative Chemical Margin (ICM)
+
+  $/bbl                                                                  $/MMBtu                                              $/bbl              IRM          ICM    $/tonne
+                             Brent     JCC - 3                                              Henry Hub      EU TTF
+   120                                                                   20                                                    40                                          300
+                                                                                                                                                                     270
+                                                              104                                                                                                          250
+                                                                                                                       15.5
+   100                                                                                                                         30
+                                                                                                                                                                      24 200
+
+   80                                                                    10                                                    20                                          150
+
+
+                                                              67                                                                                                           100
+   60                                                                                                                          10
+                                                                                                                                                                           50
+                                                                                                                        3.0
+   40                                                                                                                           0                                          0
+                                                                          0
+
+
+
+
+     Brent:                          JCC - 3:                                 Henry Hub:                EU TTF:                     IRM:               ICM:
+     Q2’26: $104                     Q2’26: $67                               Q2’26: $3.0               Q2’26: $15.5                Q2’26: $24         Q2’26: $270
+     Q1’26: $81                      Q1’26: $72                               Q1’26: $4.2               Q1’26: $13.7                Q1’26: $17         Q1’26: $139
+
+
+
+
+        Shell plc | July 30, 2026    Data based on quarterly averages.                                                                                                           4
+Second quarter 2026 results
+
+Exceptional delivery across integrated portfolio
+
+
+                        Q2 2026                                                                                              H1 2026
+
+                        $10.8 billion                                        Income attributable to Shell plc shareholders   $16.5 billion
+
+
+                         $9.8 billion                                                     Adjusted Earnings                  $16.8 billion
+
+
+                        $20.7 billion                                                      Adjusted EBITDA                   $38.5 billion
+
+
+                        $21.4 billion                                                 Cash flow from operations              $27.5 billion
+
+
+                         $4.2 billion                                                 Cash capital expenditure               $8.4 billion
+
+
+                        $17.5 billion                                                       Free cash flow                   $20.5 billion
+
+
+                        $41.8 billion                                                          Net debt                      $41.8 billion
+
+
+
+ APM reconciliations are available in the Q2 2026 Quarterly Databook here.
+
+
+
+
+       Shell plc | July 30, 2026                                                                                                             5
+Second quarter 2026 results
+
+Strong performance across segments
+
+
+        Brent $/bbl
+                                                                                       Adjusted                            Adjusted
+                                                                                                                                                      CFFO
+    Q2 2026                  104                                                       Earnings                            EBITDA
+    Q1 2026                  81
+                                      $ billion                     Q2 2026                        Q1 2026       Q2 2026        Q1 2026     Q2 2026          Q1 2026
+
+                   Integrated Gas                                          2.7                            1.8      4.8                4.1     4.6              0.5
+
+                              Upstream                                     3.5                           2.4       8.9            7.3         6.8              3.2
+
+                             Marketing                                     1.3                            1.3      2.4            2.4         2.5              2.2
+
+       Chemicals & Products                                                2.9                            1.9      4.7            3.5         7.9              (2.3)
+
+                                       R&ES                                0.1                           0.3       0.2            0.5         (0.1)            2.9
+
+               Corporate & NCI1                                          (0.6)                           (0.9)    (0.2)           (0.2)      (0.5)             (0.5)
+
+                                        Total                              9.8                           6.9      20.7            17.7        21.4              6.1
+
+
+
+ APM reconciliations are available in the Q2 2026 Quarterly Databook here. 1 Non-controlling interest.
+
+
+
+
+        Shell plc | July 30, 2026                                                                                                                                      6
+First half 2026 results
+
+Strong performance across segments
+
+
+        Brent $/bbl
+                                                                                       Adjusted                            Adjusted
+                                                                                                                                                    CFFO
+    H1 2026                  92                                                        Earnings                            EBITDA
+    H1 2025                  72
+                                      $ billion                      H1 2026                       H1 2025       H1 2026        H1 2025   H1 2026          H1 2025
+
+                    Integrated Gas                                         4.5                           4.2       8.9            8.6       5.1              7.1
+
+                              Upstream                                     5.9                           4.1       16.2           14.0     10.0              10.4
+
+                             Marketing                                     2.7                           2.1       4.8            4.0       4.8              4.6
+
+       Chemicals & Products                                                4.8                           0.6       8.2            2.3       5.6              1.5
+
+                                       R&ES                                0.4                           (0.1)     0.8            0.2       2.9              0.4
+
+               Corporate & NCI1                                           (1.5)                          (1.1)    (0.4)           (0.6)    (0.9)             (2.8)
+
+                                        Total                             16.8                           9.8      38.5            28.6     27.5              21.2
+
+
+
+ APM reconciliations are available in the Q2 2026 Quarterly Databook here. 1 Non-controlling interest.
+
+
+
+
+        Shell plc | July 30, 2026                                                                                                                                    7
+Second quarter 2026 results
+
+Strong operational performance drives very strong cash delivery
+
+
+    Adjusted Earnings Q1 2026 to Q2 2026                                                                   Cash conversion Q2 2026
+    $ billion                                                                                              $ billion
+                                                                                                                                                                                3.4
+
+    10                                                                     1.0                 0.3         24
+                                              1.1                                                                                                                              2.9
+                                                                                       (0.3)                                        4.5
+                                                           (0.0)                                           20                                                                         (0.3)
+     8                        0.9                                                                                                                (0.2)                   0.9
+                                                                                                                                                         (0.4)
+                                                                                                                        5.6   0.8                                (2.1)
+                                                                                                           16
+     6
+
+                                                                                                     9.8   12
+                                                                                                                                          20.7                                                21.4
+     4
+               6.9                                                                                          8
+
+     2                                                                                                            9.8
+                                                                                                            4
+
+     0                                                                                                      0
+
+
+
+
+ 1 Non-controlling interest. 2 AR/AP & other includes JV deposits & initial margins.
+
+
+
+
+         Shell plc | July 30, 2026                                                                                                                                                                   8
+Structural cost reductions
+
+Continued progress with $5.8 billion of structural cost reductions
+
+
+    Reducing structural costs by $5 - 7 billion1 by 2028                                                                                       ~$5.8 billion delivered, ~57% non-portfolio
+    Underlying operating expenditure, $ billion
+                                                                                                                                               Non-portfolio activities delivered $3.3 billion since 2022
+                                        5.1
+
+                                                                                                                                                             $ billion                      2023 – 2025                    H1 2026                    Total
+                                         3.1
+                                                                                                                                                Operational, maintenance &
+                                                                                                                                                                                                   1.4                         0.1                      1.5
+                                                                                                                                                supply chain efficiencies
+                39.5
+                                                                                                                                                Focus on a leaner corporate
+                                                                0.7                                                                                                                                1.0                         0.1                      1.2
+                                                                                                                                                centre
+                                                                 0.3
+                                                                                                                35.5                            Faster value-based decision-
+                                                                                                                                                                                                   0.6                         0.1                      0.7
+                                                                                                                                                making
+
+                                                                                                                                                         Non-portfolio                             3.0                        0.3                       3.3
+
+
+
+                                                                                                                                               Portfolio activities delivered $2.5 billion since 2022
+
+                                                                                                                                               Portfolio high-grading through focused divestments such as SPDC Nigeria3,
+            Portfolio                     Non-portfolio                                                                                        the Singapore Energy & Chemicals Park, Aera Energy JV (California),
+                                                                                                                                               Canadian Oil Sands, and the Home Energy retail business (UK).
+
+
+ Numbers may not precisely reflect the absolute figures, due to rounding. 4QR: four-quarter rolling. 1 Compared to 2022. 2 Growth reflects changes in activity levels and costs associated with new operations. Other includes non-structural cost reductions (e.g.
+ D&R revisions, provision updates) and underlying opex reductions as a part of the Adura JV formation. 3 The Shell Petroleum Development Company of Nigeria Limited.
+
+
+
+         Shell plc | July 30, 2026                                                                                                                                                                                                                                    9
+2026 portfolio actions
+                                                                                                                                                                                       For additional portfolio information visit
+Repositioning the portfolio                                                                                                                                                            our investors page on shell.com
+
+
+
+
+                      Growth
+                                                                                         Acquisition of ARC Resources
+                                                                                                 ($16.4 billion)
+
+
+                                                               Jiffy Lube sale completed
+                   Longevity                                           ($1.3 billion)                           Na Kika and Coulomb sale
+                                                                                                                      ($1.7 billion)                                                            Sprng Energy sale
+                                                                                                                                                                                                  ($1.8 billion)
+
+
+
+
+              High-grading                                                                                                                                                     South African Downstream sale
+
+
+
+                                                                                                                                                                                                                         Map not to scale
+
+
+
+ Click on the icons on the map for further details on the deal/project. All $ amounts refer to total transaction consideration, subject to customary completion adjustments.
+
+
+
+
+        Shell plc | July 30, 2026                                                                                                                                                                                                           10
+Financial framework
+
+Value led approach
+
+
+
+                                                                                 Dynamic Capital Allocation
+
+                                      Total Distributions                                                                                                           Cash Capex
+                                   Enhanced shareholder distributions                                                                                               Disciplined investment
+                                 40–50% of CFFO through the cycle                                                                                                2026: $24–26 billion2
+                                                                                                                                                         2027–2028: $20–22 billion p.a.
+
+
+
+                          New Buyback                                         Progressive Dividend                                            IGU 2026 Capex                                              DSR 2026 Capex
+
+                             $3.0 billion1                                       4% annual increase                                              ~$16–18 billion                                                 ~$8 billion
+
+
+
+                                                                                                               Balance Sheet
+                                                                      Maintain a Strong Investment Grade Rating through the cycle
+
+1 The Q2 2026 share buyback programme comprises $3 billion of new share buybacks, plus $1.2 billion of share buybacks that were not undertaken during the previous programme due to the announced suspension of such programme in connection with Shell’s
+
+agreement to acquire ARC Resources. 2 Updated post announced ARC Resources acquisition
+
+
+
+         Shell plc | July 30, 2026                                                                                                                                                                                                                          11
+ARC acquisition
+
+Combination establishes Canada as a low-cost heartland for Shell
+
+
+    Our in-country position                                                                                                               Deal summary
+
+                                                                                                                                             TRANSACTION                           STRUCTURE                             FREE CASH FLOW
+      #1 LNG operator                       #3 Shales operator                    Advantaged cost position
+                                                                                                                                             $16.4 billion2                        75% / 25%3                            ~$1.5 billion4
+      in the country                        in the Montney Basin                  versus Montney peers
+                                                                                                                                             Enterprise Value                      Stock / Cash                          Average annual
+
+
+                                                                                                                                            Status on completion and 2026 outlook
+
+                           Attachie
+                                              Sunrise
+                                                                                                                                                   ARC shareholders approved the acquisition, with 99.54% of the
+                                                                                                                                                    votes cast supporting the deal.
+                                                  Gold Creek
+                           Groundbirch
+                                                                                                                                                   The last remaining regulatory approval, the Investment Canada Act
+      LNG Canada Phase 2¹
+                                      Greater
+                                            KakwaKakwa                                                                                              (ICA) review, is ongoing.
+                                      Dawson
+                                                                                                                                                   Completion expected in Q3 2026.
+     LNG Canada Phase 1
+                                                                                                                                                   Increases Integrated Gas & Upstream 2030 production CAGR to 4%
+                                                                                                                                                    versus 20255.
+                                             Scotford Refining & Chemicals
+                                             Quest & Polaris CCS
+                                             Atlas Carbon Storage Hub
+                                                                                       ~1,500 mobility sites
+      Shell
+                                                                                         Brockville Lubricants Plant
+      ARC
+                                                        Sarnia Manufacturing Centre
+      Multiple locations
+
+
+1
+ Subject to Final Investment Decision. 2 Based upon the closing price of Shell shares on the LSE and the British pound sterling to Canadian dollar daily exchange rate published by the Bank of Canada as of April 24, 2026. 3 ARC’s shareholders will receive CAD
+8.20 in cash for each ARC share. 4 2026 - 2030 average; price-normalised, for price assumptions see presentation ‘Shell to acquire ARC Resources’. 5 Capital Markets Day 2025 aim of 1% CAGR production growth in Upstream and Integrated Gas combined from
+2024 to 2030 increases to 3%.
+
+
+        Shell plc | July 30, 2026                                                                                                                                                                                                                               13
+Macro environment
+
+Middle East conflict: impact on Shell operations
+
+
+   Exposure centred around Qatar                                                                          Qatar
+   ~20% (~550 kboe/d) of Shell’s oil and gas production comes from the Middle East, ~10% Qatar-related.      Pearl GTL
+   Oman assets continue to be operational. Upstream segment production not impacted.
+                                                                                                                 100% Shell, with 140 kboe/d of GTL products split over two
+                                                                                                                  processing trains.
+                                                                                                                 Train Two damaged; repairs expected to take until Q1 2027.
+                                                                                                                 Train One not impacted; will be ready to restart operations as soon
+                                                                                                                  as geopolitical developments and the ability to safely export
+                                                                                                                  products allow.
+
+                                                Iraq
+                                                                                                             LNG
+                                            Basra Gas                                                            QatarEnergy shut in production on March 2, 2026 across all LNG
+                                                                                                                  facilities and subsequently declared force majeure.
+                                                   Kuwait                                                        QatarEnergy LNG N(4) not directly impacted; Shell interest 30%
+                                              Technical Service                                                   (2.4 mtpa equity production).
+                   Egypt
+                      E-LNG                                                                                      Shell has LNG supply contracts from existing QatarEnergy facilities.
+                                                                       Qatar
+                                                                                                                 Construction on new facilities in which Shell has an equity interest
+                                                                      U.A.E.                                      was temporarily paused but has resumed.
+                                                        ADNOC Gas Processing
+                                                                                                             Integrated Gas Q3 outlook
+                                                                   Ruwais LNG
+                                                                                                                  Oil & Gas Production (kboe/d): 570 – 630
+                                                                           Oman
+                                                                                                              
+
+
+                                                                       PDO / Block 6                              (Q2 2026: 631; Q1 2026: 909)
+                                                                  Oman & Qalhat LNG                              Liquefaction (MT): 7.1 – 7.7
+                                                                                                                  (Q2 2026: 7.7; Q1 2026: 7.9)
+
+
+
+
+      Shell plc | July 30, 2026                                                                                                                                                          14
+Capital Markets Day 2025
+
+Delivering more value, with less emissions
+
+
+
+                                                                                                                                                              CO2                                                            CH4
+
+
+   >10% nFCF per share growth p.a.                               Distributing 40–50% of CFFO to                                         Halve Scope 1 and 2 emissions                               Achieve near-zero methane
+   through 20301                                                 shareholders through the cycle                                         under operational control by 2030, on a
+                                                                                                                                                                                                    emissions intensity by 20305
+                                                                                                                                        net basis4
+
+
+
+
+                                                                                                                                                                CO2                                                         CO2
+
+
+
+   $5–7 billion structural cost                                  Cash capex $20–22 billion p.a.                                         Reduce the net carbon intensity (NCI) of                    Ambition to reduce customer emissions
+   reductions by end 20282                                       2027–2028; 2026: $24–26 billion3                                       the products we sell by 15–20% by                           from the use of our oil products by
+
+                                                                                                                                        20304                                                       15–20% by 20306
+
+
+
+
+ 1 2024 to 2030, price-normalised (refer to CMD25 materials for price assumptions). 2 Cumulative from 2022 levels. 3 Updated post announced ARC Resources acquisition. 4 2016 reference year. 5 On an intensity basis. 6 Compared with 2021.
+
+
+
+
+        Shell plc | July 30, 2026                                                                                                                                                                                                              15
+                  Upcoming events & useful links
+
+
+
+
+October 29, 2026             Useful links:
+Q3 2026 results
+                             Shell Investment Case
+
+                             Capital Markets Day 2025
+
+                             Shell Energy Transition Strategy
+
+                             Shell Scenarios
+
+                             ARC Resources acquisition agreement
+
+                             LNG Portfolio Strategic Spotlight
+
+                             LNG Outlook 2026
+
+                             Annual Report 2025
+
+                             Data supplements
+
+                             Middle East conflict update           16
+

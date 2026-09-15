@@ -1,14 +1,14 @@
 # BRENT — NEXUS Brief
 
-> **2026-09-15 workdown — C6 SCOPED-PARTIAL:** [Completed repairs, source evidence and remaining queue](research/2026-09-15_workdown/REPORT.md). BRT-26 September 11 observation graded; full prediction OPEN. Receipt parser repaired and Will confirmed the September 11 call was sold before expiry. SIG-005 direct article recovered (quantities still owed); SIG-006 integrated; SIG-007 remains deferred. Six standing rows and incident states still require review.
+> **2026-09-15 backlog review — C6 SCOPED-PARTIAL:** [Five-area review results](research/2026-09-15_backlog-review/REPORT.md). Six standing rows reconciled; twelve incident rows reviewed with unsupported quantities withdrawn, current unit statuses still unknown. Airline M remains indeterminate. Cargo scope updated; Shanghai chart closed UNVERIFIED after Will confirmed no source details. Earlier market/geopolitical tables below retain September 14 vintage and are not re-certified.
 
-**Status:** September 15 workdown. Recorded v5.8 / WQ-192 unchanged; no new BG-02 grade. Current evidence and remaining obligations: [report](research/2026-09-15_workdown/REPORT.md).
+**Status:** September 15 backlog review. Recorded v5.8 / WQ-192 unchanged; no new BG-02 grade. Current evidence and remaining obligations: [report](research/2026-09-15_backlog-review/REPORT.md).
 **Domain:** Oil/energy physical balance, structure and transmission.
-**As of:** 2026-09-15; C6 SCOPED-PARTIAL. Reverified: Baker Hughes September 11 observation, direct Argus cargo reporting, IATA PDF basis, Will's call-sale outcome. Not reverified: remaining incident states, matched live spreads, prior geopolitical claims or remaining six standing rows. Older table rows retain their original vintages; yesterday's zero-loss assertion does not certify today's conditions.
+**As of:** 2026-09-15; C6 SCOPED-PARTIAL. Reverified this pass: JWC index/body, KNPC nameplate, six standing-row source/pointer relationships, exact chart image/arithmetic, and the named dated sources in the backlog report. Earlier same-day rig and call-sale records retained. Not reverified: current incident operating states, matched live spreads, prior geopolitical claims or historical market measurements. Older table rows retain their original vintages; yesterday's zero-loss assertion does not certify today's conditions.
 
 ## CROSS-DOMAIN
 
-September 15 update: Argus source recovered; cargo quantities/attribution still unknown. IATA jet basis integrated without an exact latest-price assertion. Rig primary grade and user-confirmed call closure are in the report/TRADE. SIG-007 chart verification remains owed. These supersede older rows only on those named items.
+September 15 owner review: [incident matrix](research/2026-09-15_backlog-review/INCIDENT_REVIEW.md) corrects KNPC nameplate and withdraws seven old current-loss estimates without implying restart. Shell's distinct GTL/LNG conditions must not be collapsed into one outage. [Cargo review](research/2026-09-15_backlog-review/CARGO_REVIEW.md) records replacement windows and Orlen's uninterrupted-delivery statement; aggregate cancelled volume unknown. [SIG-007 disposition](research/2026-09-15_backlog-review/CHART_REVIEW.md): chart unverified, no pending source request to Will; metadata required to reopen. [Airline review](research/2026-09-15_backlog-review/AIRLINE_REVIEW.md): new group guidance and Malaysia timing lead, still no established three-carrier tally. No new capital grade or threshold change.
 
 **SENDING:**
 
@@ -55,6 +55,8 @@ September 15 update: Argus source recovered; cargo quantities/attribution still 
 - Equities diverging from crude (XLE down, tankers flat) is the same shape as 9/9: the market is pricing a corridor that is interdicted, not one that is reopening — the tanker-liveness composite stays quiet.
 - 🔴 **Petroline is a genuinely NEW event class on the facts** — the first strike aimed at the **Hormuz bypass itself**, not at a hull at sea or an already-shut plant. **But class-novelty is not the gate:** the 8/7 retirement of record makes the carve-out deploy on leg (b) alone, so the test is the **head clause**, and it reads zero barrels. A new class reading zero does not fire; a met head clause fires regardless of novelty. It returns to Will as a fresh ask either way — because **WQ-192 must be lifted in his own words** and BG-02 requires his **[Approve]** at the fill.
 - STAND DOWN binds; no deploy/arm/new proposal. **Will asked 9/10 evening whether to add oil positions: NO on both sides** — no BG-02 destroyed-capacity event, no BE-01 signature; +7.65% day bars a new long under root rule #6; vehicles pre-priced and triggers pre-registered in `setups/2026-09-10_new-oil-position-review.md`.
+
+Consumer follow-up: `FORGE/research/iran-war/reference/OIL_FACILITY_DAMAGE_TRACKER.md` still carries Mina al-Ahmadi 466,000 bpd. KNPC currently lists 346,000; owner should reconcile the historical-capacity basis before reusing it as current. OZK’s numeric match is unrelated square footage. No outbound packet sent.
 
 ## CALIBRATION
 

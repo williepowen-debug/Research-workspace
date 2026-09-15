@@ -1,0 +1,60 @@
+[
+  {
+    "name": "jwc-body",
+    "url": "https://lmalloyds.com/wp-content/uploads/2025/06/JWLA-034-Saudi-Arabia.pdf",
+    "retrieved": "2026-09-15T20:21:14.514605+00:00",
+    "status": 200,
+    "final_url": "https://lmalloyds.com/wp-content/uploads/2025/06/JWLA-034-Saudi-Arabia.pdf",
+    "bytes": 189219,
+    "sha256": "125e507bbd187051315bdf80ae30583bc92ec9ad2d280d02fac2d10a019d03b9"
+  },
+  {
+    "name": "russia-meduza",
+    "url": "https://meduza.io/en/news/2026/09/15/reuters-three-of-russia-s-largest-oil-refineries-cut-diesel-output-after-ukrainian-strikes",
+    "retrieved": "2026-09-15T20:21:14.515253+00:00",
+    "status": 200,
+    "final_url": "https://meduza.io/en/news/2026/09/15/reuters-three-of-russia-s-largest-oil-refineries-cut-diesel-output-after-ukrainian-strikes",
+    "bytes": 64150,
+    "sha256": "6f03daa3e7fbbd2e964376cd55da0a77892e7eca880b56e42a91a840e3479375",
+    "links": []
+  },
+  {
+    "name": "wizz-result",
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/f33cff8c-9600-4e77-8b65-b797eb10bc4e/a74f27d4-01fe-49eb-917e-f4bafe4c997d?origin=2",
+    "retrieved": "2026-09-15T20:21:14.515692+00:00",
+    "status": 200,
+    "final_url": "https://api.mziq.com/mzfilemanager/v2/d/f33cff8c-9600-4e77-8b65-b797eb10bc4e/a74f27d4-01fe-49eb-917e-f4bafe4c997d?origin=2",
+    "bytes": 11695035,
+    "sha256": "e4e39d6acde84e34cfbb35da4b630aec5a9f76e76feff0eb149d0a3b2bd2d22b"
+  },
+  {
+    "name": "ufa",
+    "url": "https://www.ukrinform.net/amp/rubric-ato/4155574-fire-breaks-out-at-oil-refinery-under-repair-in-ufa-following-drone-attack.html",
+    "retrieved": "2026-09-15T20:21:14.516087+00:00",
+    "status": 200,
+    "final_url": "https://www.ukrinform.net/amp/rubric-ato/4155574-fire-breaks-out-at-oil-refinery-under-repair-in-ufa-following-drone-attack.html",
+    "bytes": 24270,
+    "sha256": "41aefe3d965d804b6f96b4248559505bfeb47092727e6ed23c91042f933c17f6",
+    "links": []
+  },
+  {
+    "name": "adnoc",
+    "url": "https://adnoc.ae/en/adnoc-refining/about-us/locations",
+    "retrieved": "2026-09-15T20:21:14.769190+00:00",
+    "status": 200,
+    "final_url": "https://adnoc.ae/en/adnoc-refining/about-us/locations",
+    "bytes": 340489,
+    "sha256": "7a88c39eca43365efe55c64c8086c16d35893d47ad3ae8569a8a351c75ae6c7e",
+    "links": []
+  },
+  {
+    "name": "mrpl-secondary",
+    "url": "https://informistmedia.com/EquityWire/46191/Crude-Supply-MRPL-official-says-not-shut-unit-have-crude-oil-to-run-ops-for-10-more-days",
+    "retrieved": "2026-09-15T20:21:15.374703+00:00",
+    "status": 200,
+    "final_url": "https://informistmedia.com/EquityWire/46191/Crude-Supply-MRPL-official-says-not-shut-unit-have-crude-oil-to-run-ops-for-10-more-days",
+    "bytes": 88796,
+    "sha256": "5edea1165615381e0e651d34c139562218a08a6a176f613a9c039545f36692f2",
+    "links": []
+  }
+]

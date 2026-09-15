@@ -1,0 +1,486 @@
+Oil Refineries Ltd.
+March 25, 2026
+
+Rating Affirmation
+‘ilA+’ Rating Affirmed, Outlook Negative
+Primary Credit Analyst:
+Tom Dar 972-3-7539722 tom.dar@spglobal.com
+
+Additional Contact:
+Evgeni Silishtian 972-3-7539733 evgeni.silishtian@spglobal.com
+
+Please note that this translation was made for convenience purposes and for the
+company's use only and under no circumstances shall obligate S&P Global Ratings
+Maalot Ltd. The translation has no legal status and S&P Global Ratings Maalot Ltd. does
+not assume any responsibility whatsoever as to its accuracy and is not bound by its
+contents. In the case of any discrepancy with the official Hebrew version published on
+March 25, 2026, the Hebrew version shall apply.
+
+Table of Contents
+Rating Action Overview .................................................................................................... 3
+Rating Action Rationale .................................................................................................... 3
+Outlook............................................................................................................................. 6
+     Downside Scenario..................................................................................................... 6
+     Upside Scenario ......................................................................................................... 6
+Company Description ....................................................................................................... 6
+Base Case Scenario......................................................................................................... 7
+Liquidity ............................................................................................................................ 7
+Covenant Analysis............................................................................................................ 8
+Modifiers .......................................................................................................................... 8
+Environmental, Social, And Governance .......................................................................... 8
+Recovery Analysis ............................................................................................................ 8
+     Key Factors ................................................................................................................ 8
+     Simulated Default Assumptions .................................................................................. 9
+
+
+
+1 | March 25, 2026                                                                                       Rating Affirmation
+                                                                                                   Oil Refineries Ltd.
+     Simplified Waterfall ..................................................................................................... 9
+Related Criteria And Research ......................................................................................... 9
+Ratings List .................................................................................................................... 10
+
+
+
+
+2 ‫ ׀‬March 25, 2026                                                                                    Rating Affirmation
+                                                                                         Oil Refineries Ltd.
+
+
+
+Rating Action Overview
+•   On March 20, 2026, Oil Refineries Ltd. ("Bazan" or the "Company") reported that as a result of an
+    Iranian missile attack, localized damage occurred to the infrastructure supplying electricity to a utility
+    facility and in an open area near an administrative building, at the Company's compound in Haifa
+    Bay. Also damaged was external infrastructure owned by a third party located outside the
+    compound, which is essential to the Company's operations. According to company reports, most of
+    the production facilities are operating and the rest are in the process of resuming operation in the
+    immediate term.
+
+• Bazan continues to implement the rehabilitation plan for its facilities damaged in the Iranian missile
+    attack in June 2025. As of the date of approval of its financial statements, the Company has
+    completed the operation of steam facilities that enable full ongoing operation of its facilities with
+    sufficient redundancy, and is working to achieve full redundancy. Due to the damage to the
+    electricity turbines, the Company is currently relying on purchasing electricity.
+
+• Despite the lower EBITDA in 2025, Bazan maintained a leverage ratio commensurate with the
+    rating, due in part to substantial amounts it received from its insurance company for lost profits and
+    advances it received from the Compensation Fund to cover costs for the damage caused.
+
+• Due to the intensification of security risks, including the additional localized physical damage to
+    Bazan's assets, in light of the Company's strategic importance to the local economy and given the
+    geographic concentration of its operations, its facilities remain at risk and a deviation from our base
+    scenario is possible.
+
+• Accordingly, on March 25, 2026, we affirmed our ‘iilA+’ issuer rating on Oil Refineries Ltd. and our
+    ‘ilA+’ issue rating on its unsecured bonds.
+
+• The negative outlook reflects our concerns regarding Bazan's ability to consistently maintain
+    operating and financial performance commensurate with the rating, given the additional damage to
+    the Company’s facilities and the increased risk due to the war with Iran and the conflict in Lebanon.
+
+
+Rating Action Rationale
+In the missile attack on northern Israel on March 19, 2026, there were localized hits at the
+Company's compound in Haifa Bay, but Bazan estimates that the damage is negligible and that
+the expected loss of profits is not material. The Company reported damage to the electrical
+infrastructure that supplies a utility facility, as well as damage to an open area near an administrative
+building. Also damaged was external infrastructure owned by a third party located outside the
+
+
+3 ‫ ׀‬March 25, 2026                                                                       Rating Affirmation
+                                                                                          Oil Refineries Ltd.
+
+
+compound, which is essential to the Company's operations. This is the second impact on the
+Company's facilities, following more significant damange sustained in the Iranian missile attack in
+June 2025, after which the facilities were shut down. We understand that most of the production
+facilities were already operating after the current impact, and Bazan estimates that the remaining
+facilities will gradually resume operations, until full completion and a return to optimal production
+outputs, in the coming days. The Company reported that the damaged external infrastructure has
+been restored to operation. According to the Company's preliminary assessment, the direct damage
+caused to its facilities is negligible, and it has begun procedures with the Property Tax and
+Compensation Fund. The Company estimates that fixing the damages would only take a few days,
+and accordingly, the loss of profits would not be significant. In addition, the Company has an
+insurance policy that provides some coverage against loss of profits resulting from acts of terrorism
+and war. The scope of coverage is $400 million above initial damage of $50 million, for an indemnity
+period of up to 30 months, subject to a 30-day deductible. In the event of additional physical damage
+or if the rehabilitation period is prolonged and the date of return to full operation is significantly
+delayed, we believe that receiving property tax payments for physical damage and compensation for
+loss of profits will mitigate the impact on financial results. In such a scenario, if the costs of damage or
+production are higher than the Company’s estimates and compensation and insurance payments are
+insufficient, the likelihood that the Company will deviate from the characteristics commensurate with
+the rating will increase, as well as the negative pressure on the rating.
+
+Bazan continues to implement the rehabilitation plan for its facilities damaged in the Iranian
+missile attack in June 2025. As a result of the attack, the energy center responsible for a significant
+portion of steam and electricity production used by the Company's facilities was directly damaged. In
+order to reinstate steam production, which is crucial for the distilling process, as of the date of
+approval of its financial statements the Company has completed the operation of steam facilities that
+enable full ongoing operation with sufficient redundancy, and is working to achieve full redundancy.
+Due to the damage to the electricity turbines, the Company is currently relying on purchasing
+electricity, which increases its production costs and adversely affects its profitability.
+
+Despite the damage to its facilities, Bazan maintained a coverage ratio commensurate with the
+rating, thanks in part to significant insurance receipts and advances from the Compensation
+Fund. In 2025, the Company posted a decrease in adjusted EBITDA, but it was higher than our
+expectations, despite only partial recognition of the collection amounts for lost profits, and amounted
+to about $365 million compared to about $380 million in 2024. The decrease in EBITDA was mainly
+due to the facilities’ shutdown due to the missile strike, periodic maintenance and lower polymer
+prices. However, the Company recognized revenue of about $160 million in respect of an insurance
+
+
+4 ‫ ׀‬March 25, 2026                                                                        Rating Affirmation
+                                                                                      Oil Refineries Ltd.
+
+
+policy claim for loss of profits resulting from acts of terrorism and war (the Company claimed $218
+million), of which it has received about $155 million to date. In addition, the Company received an
+advance of about $48 million from the Compensation fund to cover rehabilitation costs, and is working
+to receive additional advances in accordance with its expenses. As a result, and despite investments
+in renovation and the acquisition of about 52% of Management Cantium LLC and the corporations it
+controls ("Cantium"), Bazan posted only moderate growth in adjusted debt to about $1.4 billion in 2025
+from about $1.3 billion in 2024, and its gross debt-to-EBITDA leverage ratio was about 3.8x, at the
+upper end of the range commensurate with the rating.
+
+We believe that despite the additional damage to facilities, Bazan will post growth in adjusted
+EBITDA in 2026 and its leverage ratio will remain within the range commensurate with the
+rating, but there may be a deviation from our base case scenario due to increased security
+risks. In our base case scenario, we estimate that the Company will post growth in adjusted EBITDA
+to $400 million - $420 million, mainly in light of higher refining margins and in accordance with the
+hedging the Company has implemented to date and our expectations for dividend receipts from
+Cantium. Also, based on the Company's business strategy and financial policy, we do not expect a
+material change in debt levels, so that the adjusted gross debt-to-EBITDA ratio will remain in the
+3.0x-4.0x range.
+
+The war with Iran disrupted oil supplies and led to a sharp increase in oil prices and refining margins.
+We believe that in the short term, the higher refining margins contribute to Bazan’s and Cantium’s
+profitability. If oil prices remain high in 2027, the Company's working capital needs may increase to a
+certain extent, and cash flows may come under pressure, which may lead to a deviation from our base
+case scenario. In accordance with S&P Global Ratings' assumptions, in our base case scenario we
+assume a gradual decline in oil prices and refining margins later this year, resulting in limited impact
+on the Company's 2026 results.
+
+We believe that Bazan constitutes essential national infrastructure for the Israeli economy,
+which supports our business risk assessment. In 2025, the Company's market share of diesel
+consumption in the domestic market was about 67% and its market share of gasoline consumption
+was about 59%, in addition to the production of jet fuel, which is especially essential in times of war,
+and the increased supply of diesel for electricity producers due to the shutdown of some gas rigs. The
+temporary exemption the Company received from obtaining a permit under the Planning and
+Construction Law for the construction of buildings, facilities and steam boilers required to replace
+buildings and facilities damaged by missiles, reinforces our assessment of the importance of the
+Company's operations to the economy. Therefore, and in the absence of infrastructure required to
+
+
+
+5 ‫ ׀‬March 25, 2026                                                                    Rating Affirmation
+                                                                                       Oil Refineries Ltd.
+
+
+import refined fuel products sufficient for the local economy, at this stage the government's decision to
+evacuate petrochemical activity from Haifa Bay is not part of our base case scenario. We understand
+that the evacuation should be done while maintaining energy security and a regular supply of fuels to
+the Israeli economy and there is no clear timeline for its implementation, including the construction of
+crucial new infrastructures. Acceleration of the evacuation plan and implementation of operative
+actions that will affect the Company’s operations may exert negative pressure on the rating.
+
+
+Outlook
+The negative outlook reflects our concerns regarding Bazan's ability to consistently maintain operating
+and financial performance commensurate with the rating, given the additional damage to the
+Company’s facilities and the increased risk due to the war with Iran and the conflict in Lebanon.
+
+We acknowledge that, with the onset of another round of fighting with Iran, security and geopolitical
+risks may increase, which may affect macroeconomic indicators in Israel and increase capital market
+volatility. At this point, uncertainty remains regarding the scope, duration and effects of the war. As the
+situation evolves, we will update our assumptions and estimates accordingly.
+
+Downside Scenario
+We may lower the rating by one notch or more if Bazan’s operational continuity is jeopardized and we
+estimate that its business risk profile has deteriorated. We may also consider a downgrade if the
+Company posts adjusted gross debt to EBITDA above 4x over time, or in the event of a deterioration
+in its liquidity position.
+
+Upside Scenario
+We may consider revising the outlook to stable if we assess that security risks have materially and
+consistently subsided, and that the Company continues to maintain stable business operations. We
+believe that gross debt to EBITDA of 3x-4x is commensurate with the rating given the business cycle.
+Revising the outlook to stable also depends on the implementation of Bazan’s financial policy, which
+includes maintaining a balance between investments and dividends, and its ability to handle any
+changes that may arise due to volatile market conditions.
+
+
+Company Description
+Bazan operates in the refining and petrochemical markets, mainly through a single manufacturing site
+in the Haifa Bay. It uses a combined manufacturing process such that some of the refining products
+are used in petrochemical production and some petrochemical products are used in the refinery.
+Refining activity generates about 90% of the Company’s revenue, and petrochemical activity
+
+
+
+
+6 ‫ ׀‬March 25, 2026                                                                    Rating Affirmation
+                                                                                        Oil Refineries Ltd.
+
+
+generates the remainder. In addition, the Company holds about 52% in Cantium (a nonconsolidated
+affiliated company), which operates shallow water oil and gas assets in the Gulf of Mexico.
+
+The main shareholder in the Company is Israel Petrochemical Enterprises Ltd., which holds about
+24.7% of its shares. About 7.2% of the shares are held by Mr. Jeremy Blank, and the remaining
+shares are held by the public.
+
+
+Base Case Scenario
+Our base case scenario is underpinned by the following assumptions:
+•   In 2026: about 5% GDP growth in Israel and inflation rate of about 2.2%. In 2027: about 3.8%
+    growth and inflation rate of about 2%.
+•   Refining spread of about $9-$10 per barrel in 2026-2027.
+•   A margin of about $680-$700 per ton of polyethylene in 2026-2027.
+•   A margin of about $640-$660 per ton of polypropylene in 2026-2027.
+•   Utilization rate of about 86%-90% in the refining facilities and about 80%-90% in the petrochemical
+    facilities in 2026-2027, taking into account planned periodic maintenance.
+•   Annual investments as part of the restoration plan, as well as planned maintenance activities,
+    totaling about $300 million - $320 million in 2026-2027.
+•   Dividend receipts from Cantium totaling about $30 million - $35 million in 2026-2027.
+•   Dividend distribution according to company policy.
+
+Under our base case scenario, the expected adjusted ratios in 2026-2027 are as follows:
+•   Adjusted gross debt to EBITDA of about 3.0x-4.0x
+•   Adjusted EBITDA interest coverage of about 4.1x-4.7x
+•   Adjusted EBITDA margin of 7%-9%
+
+
+Liquidity
+According to our criteria, the Company’s liquidity is “adequate”. We estimate that the ratio between the
+Company's sources and its uses will exceed 1.2x in the 12 months starting January 1, 2026,
+considering refining margins in line with our base case scenario and the large cash balance at
+year-end 2025. Over the years Bazan has maintained a good relationship with the banking system
+and benefits from access to the capital market, which contribute to our assessment of its financial
+flexibility. On the other hand, our assessment of the liquidity profile is constrained at this stage by the
+exposure to business cycle and refining spread volatility.
+
+
+
+
+7 ‫ ׀‬March 25, 2026                                                                     Rating Affirmation
+                                                                                          Oil Refineries Ltd.
+
+
+We estimate the Company's main sources and uses in the 12 months starting January 1, 2026, to be
+as follows:
+
+               Principal Liquidity Sources                            Principal Liquidity Uses
+
+    •    About $615 million in cash and cash              •   Ongoing maturities of about $180 million.
+         equivalents.
+                                                          •   Capital expenditure (capex) of about $180
+    •    Cash FFO (funds from operations) of about            million - $190 million.
+         $290 million - $300 million.
+
+Covenant Analysis
+The Company has several financial covenants, including minimum equity, minimum cash and cash
+equivalents and maximum debt to EBITDA, as per specific definitions in the Company’s financing
+agreements and bond debentures. The Company is also required to maintain stand-alone cash and
+unused committed credit facilities, as defined in the financing agreements, of at least $75 million. We
+understand the Company meets all its financial covenants.
+
+
+Modifiers
+Diversification/portfolio effect: Neutral (no impact)
+Capital structure: Neutral (no impact)
+Liquidity: Adequate (no impact)
+Financial policy: Neutral (no impact)
+Management and governance: Neutral (no impact)
+Comparative analysis assessment: Neutral (no impact)
+
+Environmental, Social, And Governance
+Environmental factors are a negative consideration in our credit rating analysis of Bazan. As part of
+the refining industry, Bazan is subject to the risks inherent in the growing decarbonization of the
+economy and expected decreasing demand for oil over time. It is experiencing growing scrutiny of its
+activities alongside increasing legal claims of environmental damage. Its location in the Haifa Bay
+increases the negative sentiment towards its operations.
+
+
+Recovery Analysis
+Key Factors
+•       We are affirming our 'ilA+' issue rating, identical to the issuer rating, on Bazan's unsecured bond
+        series (Series 10, 12, 13, 15). The recovery rating for these series is ‘4', reflecting our assessment
+        that in the hypothetical default scenario, the recovery rate would be 30%-50%.
+
+
+8 ‫ ׀‬March 25, 2026                                                                        Rating Affirmation
+                                                                                         Oil Refineries Ltd.
+
+
+Simulated Default Assumptions
+•   Simulated year of default: 2030
+•   A deep recession in the Israeli economy accompanied by a sharp decline in refining margins will
+    lead to lower cash flows and jeopardize the Company's ability to service its debt.
+•   The Company will continue operating as a going concern, an assessment supported by its
+    strategic importance as the supplier of about 60% of local liquid fuel demand.
+•   In the hypothetical default scenario, the Company will utilize credit facilities, including factoring
+    facilities.
+
+Simplified Waterfall
+•   Gross enterprise value according to DAV method: about $630 million
+•   Administrative costs: 5%
+•   Available value to cover senior secured debt: about $600 million
+•   Senior secured debt: about $353 million
+•   Net value available for unsecured debt: about $246 million
+•   Unsecured debt: about $797 million
+•   Rated debt recovery expectations: 30%-50%
+All debt amounts include six months' prepetition interest.
+Mapping Recovery Percentages To Recovery Ratings
+       Recovery                                                                  Notching above/below
+    expectations (%)               Description            Recovery rating            issuer rating
+         100%                      Full recovery               1+                     +3 notches
+         90%-100%               Very high recovery                 1                    +2 notches
+         70%-90%               Substantial recovery                2                      +1 notch
+         50%-70%               Meaningful recovery                 3                     0 notches
+         30%-50%                Average recovery                   4                     0 notches
+         10%-30%                 Modest recovery                   5                      -1 notch
+          0%-10%              Negligible recovery                 6                 -2 notches
+Recovery ratings are capped in certain countries to adjust for reduced creditor recovery prospects in
+these jurisdictions. Recovery ratings on unsecured debt issues are generally also subject to caps (see
+Step 6, paragraphs 90-98 of Recovery Rating Criteria For Speculative-Grade Corporate Issuers,
+December 7, 2016, for further detail). ICR--Issuer credit rating.
+
+Related Criteria And Research
+• Principles Of Credit Ratings, February 16, 2011
+• Methodology: Industry Risk, November 19, 2013
+• Country Risk Assessment Methodology And Assumptions, November 19, 2013
+
+
+
+9 ‫ ׀‬March 25, 2026                                                                      Rating Affirmation
+                                                                                 Oil Refineries Ltd.
+
+
+• Methodology And Assumptions: Liquidity Descriptors For Global Corporate Issuers, December 16,
+  2014
+• Recovery Rating Criteria For Speculative-Grade Corporate Issuers, December 7, 2016
+• Corporate Methodology: Ratios And Adjustments, April 1, 2019
+• Group Rating Methodology, July 1, 2019
+• Environmental, Social, And Governance Principles In Credit Ratings, October 10, 2021
+• Methodology For National And Regional Scale Credit Ratings, June 8, 2023
+• Corporate Methodology, January 7, 2024
+• Methodology: Management And Governance Credit Factors For Corporate Entities And Insurers,
+  January 7, 2024
+• S&P Global Ratings Definitions, December 16, 2025
+
+
+Ratings List
+ Oil Refineries Ltd.                  Rating                  Date when the       Date when the
+                                                              rating was first    rating was last
+                                                              published           updated
+ Issuer rating(s)
+ Long term                            ilA+/Negative           01/07/1995          11/08/2025
+
+ Issue rating(s)
+ Senior unsecured debt
+ Series 13                            ilA+                    09/03/2023          11/08/2025
+ Series 15                            ilA+                    16/09/2024          11/08/2025
+ Series 10                            ilA+                    19/08/2019          11/08/2025
+ Series 12                            ilA+                    01/09/2020          11/08/2025
+
+ Issuer Credit Rating history
+ Long term
+ August 11, 2025                      ilA+/Negative
+ June 17, 2025                        ilA+/Watch Neg
+ March 08, 2023                       ilA+/Stable
+ March 15, 2022                       ilA/Stable
+ March 31, 2020                       ilA-/Negative
+ April 07, 2019                       ilA/Stable
+ April 03, 2018                       ilA-/Positive
+ April 09, 2017                       ilA-/Stable
+ May 31, 2016                         ilBBB+/Positive
+ May 17, 2015                         ilBBB+/Stable
+ January 01, 2015                     ilBBB/Positive
+ December 18, 2013                    ilBBB/Stable
+ October 14, 2013                     ilBBB-/Watch Neg
+ December 02, 2012                    ilBBB+/Negative
+ May 06, 2012                         ilBBB+/Stable
+ November 30, 2011                    ilA-/Watch Neg
+ March 25, 2010                       ilA-/Stable
+
+
+10 ‫ ׀‬March 25, 2026                                                              Rating Affirmation
+                                                                             Oil Refineries Ltd.
+
+
+Oil Refineries Ltd.                  Rating               Date when the       Date when the
+                                                          rating was first    rating was last
+                                                          published           updated
+July 07, 2009                        ilA/Negative
+April 23, 2009                       ilA/Watch Neg
+November 12, 2008                    ilA/Negative
+November 11, 2007                    ilAA/Stable
+March 16, 2003                       ilAA
+September 21, 1992                   ilAAA
+
+Additional details                     Item
+Time of the event                      25/03/2026 16:48
+Time when the event was learned of     25/03/2026 16:48
+Rating requested by                    Issuer
+
+
+
+
+11 ‫ ׀‬March 25, 2026                                                          Rating Affirmation
+                                                                                      Oil Refineries Ltd.
+
+
+S&P Maalot is the commercial name of S&P Global Ratings Maalot Ltd. For a list of the most up-to-
+date ratings and for additional information regarding S&P Maalot’s surveillance policy, see S&P Global
+Ratings Maalot Ltd. website at www.maalot.co.il.
+All rights reserved © No content (including ratings, credit-related analyses and data, valuations,
+model, software or other application or output therefrom) or any part thereof (collectively, “the
+Content”) may be modified, reverse engineered, reproduced or distributed in any form by any means,
+or stored in a database or retrieval system, without the prior written permission of S&P Global Ratings
+Maalot Ltd. or its affiliates (collectively, S&P). The Content shall not be used for any unlawful or
+unauthorized purposes. &P and any third-party providers, as well as their directors, officers,
+shareholders, employees or agents (collectively, “S&P Parties”) do not guarantee the accuracy,
+completeness, timeliness or availability of the Content. S&P Parties are not responsible for any errors
+or omissions (negligent or otherwise), regardless of the cause, for the results obtained from the use of
+the Content, or for the security or maintenance of any data input by the user. The Content is provided
+on an "as is" basis. S&P PARTIES DISCLAIM ANY AND ALL EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY
+OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS, SOFTWARE
+ERRORS OR DEFECTS, THAT THE CONTENT’S FUNCTIONING WILL BE UNINTERRUPTED OR
+THAT THE CONTENT WILL OPERATE WITH ANY SOFTWARE OR HARDWARE
+CONFIGURATION. In no event shall S&P Parties be liable to any party for any direct, indirect,
+incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses,
+legal fees, or losses (including, without limitation, lost income or lost profits and opportunity costs or
+losses caused by negligence) in connection with any use of the Content even if advised of the
+possibility of such damages.
+Credit-related and other analyses, including ratings, and statements in the Content are statements of
+opinion as of the date they are expressed and not statements of fact. S&P’s ratings and other
+analyses are not recommendations to purchase, hold, or sell any securities or to make any investment
+decisions, and do not address the suitability of any security. S&P assumes no obligation to update the
+Content following publication in any form or format. The Content should not be relied on in making
+investment decisions or any other business decision, and is not a substitute for the skill, judgment and
+experience of the user, its management, employees, advisors and/or clients when making such
+decisions. S&P does not act as a fiduciary or an investment advisor except where registered as such.
+Rating reports are correct as of the time of their publication. S&P updates rating reports following
+ongoing surveillance of events or annual surveillance.
+While S&P obtains information from sources it believes to be reliable, S&P does not perform an audit
+and undertakes no duty of due diligence or independent verification of any information it receives. S&P
+publishes rating-related reports for a variety of reasons that are not necessarily dependent on action
+by rating committees, including, but not limited to, the publication of a periodic update on a credit
+rating and related analyses.
+S&P keeps certain activities of its business units separate from each other in order to preserve the
+independence and objectivity of their respective activities. S&P has established policies and
+procedures to maintain the confidentiality of certain non-public information received in connection with
+each analytical process.
+S&P receives compensation for its ratings and certain analyses, normally from issuers or underwriters
+of securities or from obligors. S&P reserves the right to disseminate its opinions and analyses. S&P's
+public ratings and analyses are made available on S&P Maalot’s website, www.maalot.co.il and on
+S&P Global’s website, www.spglobal.com/ratings, and may be distributed through other means,
+including via S&P publications and third-party redistributors.
+
+
+
+
+12 ‫ ׀‬March 25, 2026                                                                   Rating Affirmation
+

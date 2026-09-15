@@ -1,0 +1,12 @@
+{
+  "brent_display": "106.36",
+  "shanghai_display": "124.59492",
+  "spread_display": "18.25626",
+  "calculated_spread": "18.23492",
+  "discrepancy": "0.02134",
+  "brent_implied_by_spread": "106.33866",
+  "max_combined_display_rounding_error": "0.005010",
+  "image_sha256": "476d0c56cdf81a9d9be0c87c1980d26678a377b997e22231b1da4cffa29bfe71",
+  "operator_source_reply": "Will: I dont think I have that no",
+  "disposition": "UNVERIFIED; not reproducible as a market spread"
+}

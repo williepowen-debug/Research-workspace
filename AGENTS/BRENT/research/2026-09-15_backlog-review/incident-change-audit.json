@@ -1,0 +1,122 @@
+[
+  {
+    "id": "RF-004",
+    "fields_changed": [
+      "notes"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-005",
+    "fields_changed": [
+      "notes",
+      "offline_qty"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-008",
+    "fields_changed": [
+      "notes"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-009",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-013",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-014",
+    "fields_changed": [
+      "capacity_bpd",
+      "bpd_offline_est",
+      "notes",
+      "capacity_qty",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-015",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-017",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-022",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-030",
+    "fields_changed": [
+      "notes"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-031",
+    "fields_changed": [
+      "bpd_offline_est",
+      "notes",
+      "offline_qty",
+      "offline_state"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  },
+  {
+    "id": "RF-033",
+    "fields_changed": [
+      "notes"
+    ],
+    "status_preserved": true,
+    "evidence_date_preserved": true
+  }
+]

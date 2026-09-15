@@ -2,43 +2,47 @@
 
 ## CHANGES SINCE LAST SESSION
 
-- Will authorized work through the backlog and confirmed USO September 11 $159 call sold before expiry.
-- Direct Baker Hughes workbook, Argus September 15 cargo report and IATA September 11 PDF recovered; no new live market-price pass.
+- Will requested airline evidence, six standing reviews, twelve incident reviews and cargo/chart verification.
+- Will confirmed no original chart link/series details available. Chart task now closed UNVERIFIED; no pending re-ask.
+- No new broker session, order or capital ruling. Earlier call-sale confirmation retained in TRADE.
 
 ## WHAT I DID THIS SESSION
 
-- Fixed receipt parser, explicit-expiry check, rig-reader transport/date/US-row validation and DIESEL-CRACK probe_scope metadata. Regression cases include defective inputs.
-- Graded September 11 BRT-26 observation at the primary; full prediction remains OPEN. Updated registry, note, predictions, changelog and docket.
-- Integrated IATA at its actual jet/Dated-Brent basis; recovered Argus reporting with quantities/attribution still unknown. Reviewed additional airline primary announcements; BRT-29 M still unresolved, not established.
-- Recorded call CLOSED with unknown price/proceeds; cleaned TRADE header, rotated September 14 STATUS detail verbatim, refreshed owner summaries with explicit vintage boundaries.
-- Evidence and validation: [workdown report](research/2026-09-15_workdown/REPORT.md). No thesis bump, trade, threshold change or outbound send.
+- Completed all five requested review areas: [report](research/2026-09-15_backlog-review/REPORT.md).
+- Reconciled six standing rows with actual corrections: archive byte counts/checksums, JWC Amended wording, old request-cause assertion, dated storage forecast, conditional export mechanism, owner/gate pointers. Calendar/standing checker now passes.
+- Reviewed twelve incident rows. Corrected KNPC nameplate to its owner description; removed seven obsolete current outage amounts and one residual typed UNKNOWN amount. Operating-evidence dates/statuses preserved; no inferred restart. New Shell component evidence recorded without laundering it into the combined parent row.
+- Reviewed additional carrier sources. New Lufthansa group guidance and Malaysia carrier-specific timing lead improve coverage; three qualifying named carriers still unestablished. M indeterminate, final OPEN, original scoring fields unchanged.
+- Recovered updated Reuters cargo report: replacement tenders/windows versus actual arrivals kept separate; aggregate cancelled barrels unknown. Exact chart arithmetic fails rounding reconciliation; source metadata absent.
+- No new lesson, thesis calibration, capital action or outbound send.
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. September 16 10:30 ET WPSR: L305 SPR second print, Cushing, BRT-29 T; use frozen docket arithmetic.
-2. September 16: SIG-005 cargo quantities/windows/replacements and SIG-007 synchronized Shanghai/Brent chart. FALCON owns SIG-004 YASREF verification.
-3. OVERDUE August 31 BRT-29 M: next review September 16, carrier-specific first-announcement dates beyond group releases; retain original deadline and unresolved status. Six standing rows and 12 incident-status reviews also owed.
-4. September 17–25 BG-02 window: operator/state evidence and restrictive resolver; WQ-234 existing Will deadline September 18.
-5. September 18 next rig print and COT after ~15:30 ET (expect September 15 observation); September 25 17:00 ET BG-02 window close; September 30 BRT-12/BRT-29 adjudication.
+1. September 16 10:30 ET: WPSR L305 second print, Cushing and BRT-29 T; use frozen docket arithmetic.
+2. September 17–18: existing Saudi resolver window; buyer/operator notices and matched seven-day tracker/dark-share evidence. WQ-234 existing owner deadline September 18 unchanged.
+3. September 18: rigs and COT after ~15:30 ET, expect September 15 COT observation; grade separate prints.
+4. September 25 17:00 ET: BG-02 window closes; September 30 BRT-12/BRT-29 adjudication.
+5. OVERDUE August 31 BRT-29 M remains indeterminate: target Malaysia first-announcement date and named operating carriers behind group guidance. Review complete September 15; do not repeat the same broad earnings search as if new work.
 
 ## OPEN THREADS / WATCHES
 
-- Yanbu offtake/two trackers/AIS, gas primary, war-risk terms, incident additions, seasonality/month basis, GROUP_MAP, separate resolver lesson: retained in workdown and prior boot report.
-- Nine ACTIVE and three other incident rows need operating evidence. Six standing rows unreconciled; no automatic restart or clean stamp.
-- DAEDALUS read-floor dependency remains open; no widening of read budgets. Friday COT remote schedule repair prepared previously, installation unverified.
+- Twelve incident operating-state questions remain unresolved after this review. Named source/unit requirements in INCIDENT_REVIEW.md; no search-only last_verified refresh. Nine ACTIVE and three other stale-status warnings remain legitimate.
+- Cargo cancelled volume/duration and replacement receipts unknown. Chart closed UNVERIFIED, reopen only on metadata; SIG-004 YASREF still FALCON-owned verification.
+- Prior unrelated queue retained: gas primary, Yanbu offtake/two trackers/AIS, war-risk terms, incident additions, GROUP_MAP, separate resolver lesson, seasonality/month basis and BRT-12 measurement.
+- TRADE remains in read-cap rotation advisory tier. DAEDALUS read-floor dependency and prepared-but-unverified remote Friday COT schedule installation remain open.
 
 ## POSITION DECISIONS PENDING
 
-- WQ-192 stand-down remains. TRADE owns holdings/specs; September 11 call outcome resolved by Will, exact sale date/price/proceeds unknown.
-- Staged November 20 165/180 remains unproposed; existing approval/economics constraints unchanged. No broker session/current order review.
+- WQ-192 stand-down unchanged. TRADE owns holdings/approval rules. September 11 call sold before expiry; exact sale economics unknown.
+- No new proposal. Staged November 20 structure remains subject to its complete existing constraints; no new chain review.
 
 ## MAIL STATE (one line per signal)
 
-- SIG-001 commodity distinction noted; SIG-004 YASREF verification deferred to FALCON.
-- SIG-005 direct article recovered, quantities partial; SIG-006 source/basis integrated; SIG-007 chart still deferred.
-- Five sender-owned WALTER files remain untracked, archive pending sender commit; board log records integration. No sends this session; prior unresolved outbound loops retained.
+- SIG-005 reviewed; quantitative scope unresolved, board log updated.
+- SIG-007 reviewed; chart UNVERIFIED, Will source request closed, board log updated.
+- SIG-001 noted; SIG-004 deferred to FALCON; SIG-006 already integrated earlier today.
+- Five WALTER handoffs were committed by their owner during this review; they remain in the live inbox with dispositions recorded. No sends; other unresolved outbound loops unchanged.
 
 ## WORKBOOK HEALTH
 
-- Tests and closeout checks recorded with their limits in workdown report. INCIDENTS and LESSONS unchanged: no verified operating-state evidence or new lesson written in this batch.
-- Local exact-path commit; no sender-owned files staged. Pull deferred while sender work is uncommitted.
+- Incident and registry schema checked; no frozen KB/VX/FLOW/TIMELINE writes. LESSONS_INDEX unchanged because no new lesson authored.
+- Exact own paths committed at closeout; sender files excluded. Safe-push receipt reported separately.

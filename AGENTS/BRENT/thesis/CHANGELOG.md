@@ -1,3 +1,7 @@
+## 2026-09-15 — backlog review; calibration unchanged
+
+BRT-29 M: expanded carrier evidence and corrected overbroad Lufthansa exclusion; three eligible named carriers remain unestablished. Six standing rows reconciled; incident current-loss quantities corrected and KNPC nameplate fixed. Cargo replacement scope updated; chart unverified. No thesis probability, frozen prediction field or gate letter changed. [Full evidence](../research/2026-09-15_backlog-review/REPORT.md).
+
 ## 2026-09-15 — first workdown batch (v5.8 unchanged)
 
 September 11 rig observation moves from secondary/ungraded to primary-verified 450 (+1), NOT BREACHED against 457; BRT-26 remains OPEN, no confidence change. BRT-29 M coverage extends to AirAsia and first-announcement controls; still unresolved, no final grade. Direct Saudi cargo reporting recovered and IATA physical jet basis integrated; no aggregate lost barrels, BG-02 fire or phase change established. Sale outcome supplied directly by Will recorded in TRADE. [Evidence and repair report](../research/2026-09-15_workdown/REPORT.md).
