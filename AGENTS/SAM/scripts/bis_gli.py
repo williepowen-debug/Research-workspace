@@ -35,14 +35,16 @@ lagged" was wrong on BOTH counts.)
 
 Two-clock by design: the BIS observation period is stored separately from
 pulled_at, so a stale source cannot masquerade as fresh data.
-Idempotent by (period, series_id).
+Upserts revisions by (period, series_id); unchanged observations retain their refresh stamp.
+USD translation uses SAM_USDJPY or the legacy 158.65 convention, stated in basis;
+it is not a fresh FX quote.
 """
 import csv
 import io
 import os
 import sys
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -77,6 +79,40 @@ def fetch():
         return r.read().decode("utf-8", errors="replace")
 
 
+def upsert_observations(path, observed):
+    """Keep historical quarters and replace same-quarter revisions, never duplicate keys."""
+    existing = {}
+    if path.exists():
+        with path.open(encoding="utf-8", newline="") as fh:
+            reader = csv.DictReader(fh, delimiter="\t")
+            if reader.fieldnames != COLUMNS:
+                raise ValueError("BIS ledger schema mismatch")
+            for row in reader:
+                key = (row["period"], row["series_id"])
+                if key in existing:
+                    raise ValueError(f"Duplicate BIS key: {key}")
+                existing[key] = [row[c] for c in COLUMNS]
+    changed = 0
+    seen = set()
+    for row in observed:
+        key = tuple(row[:2])
+        if key in seen or len(row) != len(COLUMNS):
+            raise ValueError("Duplicate observation or invalid BIS row")
+        seen.add(key)
+        if key not in existing or existing[key][:-1] != row[:-1]:
+            existing[key] = row
+            changed += 1
+    if changed:
+        text = io.StringIO()
+        writer = csv.writer(text, delimiter="\t", lineterminator="\n")
+        writer.writerow(COLUMNS)
+        writer.writerows(existing[key] for key in sorted(existing))
+        tmp = path.with_name(path.name + ".tmp")
+        tmp.write_text(text.getvalue(), encoding="utf-8")
+        tmp.replace(path)
+    return changed
+
+
 def main():
     fx = float(os.environ.get("SAM_USDJPY", "158.65"))
     rows = list(csv.DictReader(io.StringIO(fetch())))
@@ -100,14 +136,8 @@ def main():
                  f"expected ¥{ANCHOR_MIN_TN}-{ANCHOR_MAX_TN}T. UNIT_MULT misread — NOT writing.")
     print(f"  ✓ unit anchor OK: JPY credit to Japan govt = ¥{a_tn:,.0f}T (~¥1,280T expected)")
 
-    existing = set()
-    if TSV.exists():
-        with TSV.open(encoding="utf-8") as fh:
-            for r in csv.DictReader(fh, delimiter="\t"):
-                existing.add((r["period"], r["series_id"]))
-
-    pulled = datetime.now().strftime("%Y-%m-%dT%H:%M")
-    new, shown = [], {}
+    pulled = datetime.now(timezone.utc).isoformat()
+    observed, shown = [], {}
     for sid, sub, instr in WANTED:
         r = find(sub)
         if not r:
@@ -116,12 +146,9 @@ def main():
         tn = float(r["OBS_VALUE"]) * 10 ** int(r["UNIT_MULT"]) / 1e12
         bn = tn * 1e12 / fx / 1e9
         shown[sid] = (r["TIME_PERIOD"], tn, bn)
-        key = (r["TIME_PERIOD"], sid)
-        if key in existing:
-            continue
-        new.append([r["TIME_PERIOD"], sid, (r.get("TITLE") or "")[:120],
+        observed.append([r["TIME_PERIOD"], sid, (r.get("TITLE") or "")[:120],
                     f"{tn:.2f}", f"{bn:.1f}", r.get("BORROWERS_CTY", ""), instr,
-                    "BIS WS_GLI (stats.bis.org/api/v1)", "stock, quarterly", pulled])
+                    "BIS WS_GLI (stats.bis.org/api/v1)", f"stock, quarterly; USD translated at {fx:g} JPY/USD (not live FX)", pulled])
 
     print(f"\n  BIS Global Liquidity Indicators — JPY credit to non-residents")
     for sid, (per, tn, bn) in shown.items():
@@ -133,14 +160,8 @@ def main():
         print(f"    ⚠️  NOT the carry trade: upper bound on this channel, EXCLUDES FX swaps, "
               f"is a STOCK. Order-of-magnitude only.")
 
-    if not TSV.exists():
-        TSV.write_text("\t".join(COLUMNS) + "\n", encoding="utf-8")
-    if new:
-        with TSV.open("a", encoding="utf-8", newline="") as fh:
-            csv.writer(fh, delimiter="\t", lineterminator="\n").writerows(new)
-        print(f"\n  ✓ appended {len(new)} row(s) to BIS_GLI.tsv")
-    else:
-        print(f"\n  ✓ BIS_GLI.tsv already current for {list(shown.values())[0][0] if shown else 'n/a'}")
+    changed = upsert_observations(TSV, observed)
+    print(f"\n  ✓ BIS_GLI.tsv: {changed} new/revised row(s); unchanged rows retain source-refresh stamps")
 
 
 if __name__ == "__main__":
