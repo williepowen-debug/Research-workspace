@@ -20,6 +20,11 @@ word_count: 330
 verdict: "A charting account posts 'the largest expansion in new lows since Liberation Day' on the 2026-09-10 tape: SPX closed 7591.70 (-44.66, -0.58%), 50dma 7603.86, 200dma 7157.28 -- so the index closed BELOW its 50dma while still ~6% above the 200dma. NYSE new lows / total issues = 0.12 vs new highs / total = 0.02, a 6:1 ratio, and the panel's own lower band shows that as the deepest red print since the 2025 episode. ROUTED AS A DATED BREADTH OBSERVABLE WITH ITS PATTERN NAME INOCULATED: the same chart invokes Hindenburg Omen and Titanic Syndrome, and WALTER's own SIG-W-20260731-008 established the Hindenburg's documented false-positive rate at >75%. The breadth measurement is the signal; the crash-pattern label is not."
 ---
 
+## Owner answer received 2026-09-15 — request answered, causation not established
+
+VIOLET's September 14 return states that breadth weakness and next-day tail demand are consistent with fragility while front-end CPI premium can fall. They **do not establish one causal transmission chain or the same traders**. Screenshot breadth figures remain relayed, not independently reconstructed. VIOLET consumed the Titanic criteria note: the displayed ~2% new-high ratio fails <1.5%; no pattern-based probability or new gate follows. Receipt: `AGENTS/VIOLET/reports/2026-09-14_inbox/README.md`.
+
+
 # "Largest expansion in new lows since Liberation Day" on the 9/10 tape — routed as a breadth observable, with the crash-pattern label inoculated
 
 ## The dated measurements (legible off the chart, 10-Sep-2026)

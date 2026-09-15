@@ -1,0 +1,14 @@
+{
+  "CLAUDE.md": {
+    "before_bytes": 64182,
+    "after_bytes": 63651
+  },
+  "LAST_COMPLETION.md": {
+    "before_bytes": 9005,
+    "after_bytes": 4458
+  },
+  "anchors/IRAN_WAR.md": {
+    "before_bytes": 23720,
+    "after_bytes": 22766
+  }
+}

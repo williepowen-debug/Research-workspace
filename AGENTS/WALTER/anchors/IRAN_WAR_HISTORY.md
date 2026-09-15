@@ -1160,3 +1160,12 @@ If a signal arrives whose framing depends on any of these, spawn a verify-resear
 ## ⑥ The 6/28-header lesson, rotated from the live anchor 2026-09-14 (VERBATIM) — why nobody checked the size for two months
 
 > 🔑 **The 6/28 header said "this file holds ONLY the current verified state." That was TRUE WHEN WRITTEN and became a certification of a condition that no longer obtained — which is why nobody checked the size for two months, and why a 4%-of-file read then published two operator-facing defects** (an absence asserted from the unread 96%; a denominator settled five weeks earlier re-raised as open).
+
+
+## September 15 maintenance rotation — prior size narrative (verbatim)
+
+> **📏 SIZE RE-TRIGGER — A DATED CONDITION, NOT A CLAIM OF LEANNESS.**
+> ✅ **TRIGGER DISCHARGED 2026-09-14 PM (`DOCKET L371`) — 28,857 B (89% of budget) → under the 70% STOP.** Four blocks moved VERBATIM to `IRAN_WAR_HISTORY.md` § "Rotated 2026-09-14": the 9/11 POST-SWEEP narrative (6,328 B), the provenance-of-the-lag note (508 B, its lesson now boot step 7g), the prior-splits history (1,478 B), and the deferred-rotation order itself (1,572 B). Conservation proved with `tools/split_verify.py`, not asserted in prose. ⚠️ **The breach was carried ACROSS a session boundary and survived because it was registered in THREE places, not because it was remembered.** Full account: HISTORY §③④. ⛔ **The ~9/17 full primary sweep is SEPARATE and NOT dischargeable by this rotation.**
+>
+> ⇒ **RE-CHECK ON A DATE, NOT ON A FEELING.** `stat -c %s anchors/IRAN_WAR.md` at every Tier-2 closeout; **RE-ROTATE above 24,412 B (≥75% of the 32,550 B budget)** — ⚠️ **that is the trigger that actually fired on 8/31, and it fires ~6 KB BEFORE the budget itself; a threshold set at the budget would have let this file sit in breach.** **NEXT MANDATORY CHECK: 2026-09-30 — or sooner: at the observed rate ONE addendum can cross the trigger, so check it at the CLOSE OF ANY SESSION THAT WRITES AN ADDENDUM.**
+> ⛔ **DO NOT replace this block with a leanness claim.** A size remedy that runs once and leaves a boast behind is worse than no remedy: it disarms the next check. `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`

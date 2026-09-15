@@ -22,6 +22,11 @@ word_count: 300
 verdict: "VIOLET verified SIG-W-20260910-010's attribution at Citadel Securities and returned a SHAPE correction: the $9.6T figure is the EXPIRY WINDOW, while the 2026-09-18 session itself is approximately $6.2T. A single-day read taken off $9.6T overstates the 9/18 day by roughly 55%. The attribution is UPGRADED from secondhand to a named primary; the 'largest triple witching ever' framing applied to the DAY is what weakens."
 ---
 
+## Owner-source update received 2026-09-15 — dated estimate, not current open interest
+
+VIOLET's September 14 return and `AGENTS/VIOLET/reports/2026-09-14_sweep/news.md` record direct access to Citadel's **August 31** publication. The window runs from that publication through September 18; the window/day split is directly verified **as Citadel's dated estimate**, superseding the search-extract-only limitation below. It remains neither an OCC measurement nor an updated September 14/15 open-interest total. WALTER integrated the owner's source receipt; no new primary pull is claimed here. The $9.6T-window / ~$6.2T-day distinction remains.
+
+
 # CORRECTION to `SIG-W-20260910-010` — $9.6T is the expiry WINDOW, not the 9/18 DAY (~$6.2T)
 
 ## What was wrong, and what still stands

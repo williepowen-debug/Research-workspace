@@ -12,6 +12,7 @@ Usage:
   python3 dashboard.py --compact      # One-line format (good for Telegram)
 
 Exit codes:
+  All modes return 3 when selected data is missing/unclassified (before alert codes).
   Normal/compact/json successful output returns 0, even when red zones exist.
   --cron/--notify preserve alert semantics: 2 = new red, 1 = existing red, 0 = no red.
 """
@@ -527,9 +528,16 @@ def main():
     # Fetch
     results = fetch_all(series)
 
-    # Filter quiet mode
-    if args.quiet:
-        results = [r for r in results if r["zone"] == "red"]
+    # Completeness is independent of stress and display filters. Zero is a valid value.
+    unavailable = [r["name"] for r in results
+                   if r.get("value") is None or r.get("zone") not in {"red", "yellow", "green"}]
+    completeness = {
+        "status": "COMPLETE" if results and not unavailable else "INCOMPLETE",
+        "selected": len(results),
+        "available": len(results) - len(unavailable),
+        "unavailable": unavailable,
+    }
+    display_results = [r for r in results if r["zone"] == "red"] if args.quiet else results
 
     # Transitions
     last_state = load_last_state()
@@ -555,11 +563,12 @@ def main():
     if args.cron:
         # Cron mode: silent unless transitions
         if transitions:
-            print_compact(results, transitions)
+            print_compact(display_results, transitions)
     elif args.json:
         output = {
             "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-            "results": results,
+            "results": display_results,
+            "data_completeness": completeness,
             "transitions": transitions,
             "summary": {
                 "red": sum(1 for r in results if r["zone"] == "red"),
@@ -569,9 +578,15 @@ def main():
         }
         print(json.dumps(output, indent=2, default=str))
     elif args.compact:
-        print_compact(results, transitions)
+        print_compact(display_results, transitions)
     else:
-        print_dashboard(results, transitions)
+        print_dashboard(display_results, transitions)
+
+    if completeness["status"] != "COMPLETE":
+        print(f"DATA INCOMPLETE: {completeness['available']}/{completeness['selected']} "
+              f"selected series available; missing/unclassified: {', '.join(unavailable) or '(empty selection)'}",
+              file=sys.stderr)
+        sys.exit(3)
 
     # Exit codes:
     # - Human/data modes should return 0 after successful output; red zones are data, not command failure.

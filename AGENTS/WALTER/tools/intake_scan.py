@@ -32,6 +32,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from intake_cadence import missed_weekday_runs
 
 HERE = Path(__file__).resolve().parent
 WALTER = HERE.parent
@@ -39,7 +40,7 @@ LANE = Path("/home/willi/Research-Intake")
 LIVENESS = LANE / "liveness.json"
 SEEN = WALTER / "registry" / "intake_seen.json"
 
-STALE_DAYS = 2  # weekday-daily; >2 calendar days (spans a weekend) => collector likely down
+STALE_RUNS = 2  # Weekday daily; holidays still count, consistently with doctor.
 
 # ── §3 significance gate: feed → owner map (defaults from PROME packet + ROUTING_TABLE) ──
 # fred is per-series; the rest are per-feed. Owners are the ACTION target; info-cc in INFO_CC.
@@ -218,14 +219,18 @@ def collect_alerts(live):
 def health(live):
     out = []
     lr = _parse_iso_z(live.get("last_run_utc", ""))
-    if lr is None:
+    if lr is None or lr.tzinfo is None:
         out.append(("MED", "last_run_utc missing/unparseable"))
     else:
-        age = (_now_utc() - lr).days
-        if age > STALE_DAYS:
-            out.append(("MED", f"lane STALE {age}d (last_run {live.get('last_run_utc')}; >{STALE_DAYS}d) — collector likely down; flag PROME"))
+        now = _now_utc()
+        age = (now - lr).days
+        missed = missed_weekday_runs(lr.astimezone(dt.timezone.utc).date(), now.date())
+        if lr > now:
+            out.append(("MED", "last_run_utc is in the future — freshness UNVERIFIED"))
+        elif missed > STALE_RUNS:
+            out.append(("MED", f"lane STALE: {missed} missed weekday runs, {age} calendar days — collector likely down; flag PROME"))
         else:
-            out.append(("OK", f"last_run {live.get('last_run_utc')} ({age}d)"))
+            out.append(("OK", f"last_run {live.get('last_run_utc')} ({missed} missed weekday runs, {age} calendar days)"))
     if live.get("status") != "ok":
         out.append(("MED", f"lane status={live.get('status')}"))
     for feed, j in live.get("jobs", {}).items():

@@ -33,6 +33,9 @@ SPECS = [
     "design/SIGNAL_PROCESSING_CHECKLIST.md",
     "design/CLUSTER_TAXONOMY.md",
     "design/BOARD_CONSUMPTION_SPEC.md",
+    "design/OPERATOR_BRIEF_SPEC.md",
+    "design/SIGNAL_INTAKE_TEMPLATE.md",
+    "design/PHONE_SIGNAL_INGESTION.md",
 ]
 
 # COMPANION SPECS (added 2026-08-30, Codex finding 3): files that are ONE spec split
@@ -53,11 +56,23 @@ _FIELD = re.compile(r"\*\*Version:\*\*\s*v?(\d+\.\d+)\b")
 
 def spec_version(path: Path) -> str | None:
     """First version token in the spec's header (first 6 lines)."""
-    for line in path.read_text(errors="replace").splitlines()[:6]:
+    try:
+        lines = path.read_text(errors="replace").splitlines()[:6]
+    except OSError:
+        return None
+    for line in lines:
         m = _TITLE.match(line) or _FIELD.search(line)
         if m:
             return m.group(1)
     return None
+
+
+def current_version_claims(text, base):
+    """Registered current-claim forms only; historical feature/version prose excluded."""
+    escaped = re.escape(base)
+    table = rf"^\|\s*`?[^|\n]*{escaped}[^|\n]*`?\s*\|\s*\*{{0,2}}v(\d+\.\d+)"
+    canonical = rf"CANONICAL\s*—\*{{0,2}}\s*`(?:design/)?{escaped}`\s*\(\*{{0,2}}v(\d+\.\d+)"
+    return re.findall(table, text, re.M) + re.findall(canonical, text)
 
 
 def state_versions() -> dict[str, str]:

@@ -1,5 +1,7 @@
 # Signal Intake Spec — Template
 
+**Version:** v0.1 (header restored 2026-09-15 to match the existing STATE registration; template behavior unchanged).
+
 **Instructions for agents:** Copy this template to your agent directory as `SIGNAL_INTAKE.md`. Fill in every section with your domain-specific needs. This file tells the routing system exactly what information you need, how urgently, and what to ignore. You own this file — update it when your thesis evolves, thresholds shift, or new vectors emerge.
 
 **Where it lives:** `AGENTS/<YOUR_NAME>/SIGNAL_INTAKE.md`

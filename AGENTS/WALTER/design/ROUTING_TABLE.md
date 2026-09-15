@@ -1,4 +1,4 @@
-# WALTER Routing Table v0.37
+# WALTER Routing Table v0.38
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 

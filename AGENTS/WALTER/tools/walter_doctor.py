@@ -61,6 +61,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from intake_cadence import missed_weekday_runs
 
 HERE = Path(__file__).resolve().parent
 WALTER = HERE.parent
@@ -109,7 +110,7 @@ def _git_last_commit_date(relpath: str) -> dt.date | None:
         return None
 
 
-_UPDATED_RE = re.compile(r"(?i)\b(?:last\s+)?updated\b[\s:*]*?(\d{4}-\d{2}-\d{2})")
+_UPDATED_RE = re.compile(r"(?i)\b(?:(?:last\s+)?updated|last\s+(?:written|session)|as\s+of)\b[\s:*]*?(\d{4}-\d{2}-\d{2})")
 
 
 def _agent_paths(agent: str) -> "tuple[str | None, str]":
@@ -146,7 +147,8 @@ def _agent_paths(agent: str) -> "tuple[str | None, str]":
 
 def _status_header_date(agent: str) -> "dt.date | None":
     """The agent's OWN self-declared last-update date — the first date directly
-    after an 'Updated:' / 'Last Updated:' marker in the first ~25 STATUS.md lines.
+    after an Updated / Last Updated / Last written / Last session / As of marker
+    in the first ~25 STATUS.md lines.
     Distinguishes a real self-update from an incidental cross-agent commit that
     merely touched the file (the registry_lag false-positive class, e.g. the 6/19
     REGINALD CORAL-promotion ref-sweep). Returns None if no canonical marker is
@@ -330,14 +332,7 @@ def _missed_weekday_runs(last_run_date, today):
     counts as a missed run. That is the FALSE-POSITIVE direction, which is the correct
     way for this to fail — it over-reports at most a handful of days a year, versus a
     false NEGATIVE that would hide a dead collector."""
-    if last_run_date > today:
-        return 0
-    n, d = 0, last_run_date + dt.timedelta(days=1)
-    while d <= today:
-        if d.weekday() < 5:
-            n += 1
-        d += dt.timedelta(days=1)
-    return n
+    return missed_weekday_runs(last_run_date, today)
 
 
 def check_intake_liveness():
@@ -366,9 +361,13 @@ def check_intake_liveness():
     age = missed = None
     try:
         lrt = dt.datetime.fromisoformat(lr.replace("Z", "+00:00"))
+        if lrt.tzinfo is None:
+            raise ValueError("timezone missing")
         now = dt.datetime.now(dt.timezone.utc)
         age = (now - lrt).days
-        missed = _missed_weekday_runs(lrt.date(), now.date())
+        missed = _missed_weekday_runs(lrt.astimezone(dt.timezone.utc).date(), now.date())
+        if lrt > now:
+            out.append((MED, "last_run_utc is in the future — freshness UNVERIFIED"))
     except (ValueError, AttributeError):
         pass
     if missed is None:
@@ -1325,7 +1324,7 @@ def check_claude_md_version_drift():
     """version_drift_check guards spec headers vs STATE.md §1, but nothing watched
     CLAUDE.md — the most-read doc — so its 'BOARD_CONSUMPTION_SPEC v0.2' KEY-DESIGN-
     FILES row sat 4 versions stale (caught only by the 2026-06-27 6-agent self-audit).
-    Scoped to the ONE unambiguous current-version-claim location: a KEY DESIGN FILES
+    Registered current claims: inline CANONICAL references and a KEY DESIGN FILES
     table row whose first cell is `design/<SPEC>.md` and whose description cell LEADS
     with `vN.M`. Historical 'feature X landed in FORMAT_SPEC v0.8' provenance (the
     CANONICAL-SOURCE table — filename in one cell, version in another) is deliberately
@@ -1338,7 +1337,7 @@ def check_claude_md_version_drift():
     # ⇒ Scan BOTH files, and FAIL LOUD when zero claims are found anywhere: a check that
     # finds nothing to check must say so, never pass. Silence and success must not render
     # identically. [[finding_verification_zero_is_ambiguous]]
-    from version_drift_check import SPECS, spec_version
+    from version_drift_check import SPECS, COMPANIONS, spec_version, current_version_claims
     srcs, missing = [], []
     for fn in ("CLAUDE.md", "design/SPEC_OWNERSHIP.md"):
         try:
@@ -1349,19 +1348,18 @@ def check_claude_md_version_drift():
         return [(MED, f"neither CLAUDE.md nor design/SPEC_OWNERSHIP.md readable "
                       f"({', '.join(missing)}) — version claims UNVERIFIED, not clean")]
     claude = "\n".join(t for _, t in srcs)
-    out, claims = [], 0
-    for rel in SPECS:
+    out, claims = [(MED, f"{fn} unreadable — version claims UNVERIFIED") for fn in missing], 0
+    for rel in [*SPECS, *COMPANIONS]:
         base = Path(rel).name
         hv = spec_version(WALTER / rel)
         if hv is None:
+            out.append((MED, f"{rel} missing/unreadable version — claims UNVERIFIED"))
             continue
         # | `design/<base>` | **vN.M ...  — filename in cell-1, version leads cell-2
-        m = re.search(rf"^\|\s*`?[^|]*{re.escape(base)}[^|]*`?\s*\|\s*\*{{0,2}}v(\d+\.\d+)",
-                      claude, re.M)
-        if m:
+        for claim in current_version_claims(claude, base):
             claims += 1
-            if m.group(1) != hv:
-                out.append((MED, f"KEY DESIGN FILES row cites {base} at v{m.group(1)} "
+            if claim != hv:
+                out.append((MED, f"Current version claim cites {base} at v{claim} "
                                 f"but spec header is v{hv} — update the owning doc"))
     if claims == 0:
         out.append((MED, "ZERO KEY-DESIGN-FILES version claims found in CLAUDE.md or "
@@ -1369,7 +1367,7 @@ def check_claude_md_version_drift():
                          "row format changed. This is NOT a pass: the check has nothing to "
                          "verify. Re-anchor it to wherever the table now lives."))
     elif not out:
-        out.append((INFO, f"KEY-DESIGN-FILES version claims match spec headers "
+        out.append((INFO, f"Registered table/inline CANONICAL version claims match spec headers "
                           f"({claims} claim(s) checked across {len(srcs)} file(s))"))
     return out
 
@@ -1386,6 +1384,8 @@ def check_log_reconcile():
         if m:
             board_ids.add(m.group(1))
 
+    note_rows = []
+
     def log_ids(relpath, field):
         p = WALTER / relpath
         if not p.exists():
@@ -1400,6 +1400,9 @@ def check_log_reconcile():
                     m = SIG_ID_RE.fullmatch(sig)
                     if m:
                         ids.add(m.group(1))
+                    elif relpath == "routed/delivery_log.tsv" and re.fullmatch(
+                            r"NOTE-\d{4}-\d{2}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*", sig):
+                        note_rows.append(f"L{n}:{sig}")
                     else:
                         malformed.append(f"L{n}:{sig or '<blank>'}")
         except (OSError, csv.Error) as e:
@@ -1441,6 +1444,11 @@ def check_log_reconcile():
         elif not deliv_bad:
             out.append((INFO, f"delivery_log: all {len(deliv)} delivered SIG-ids have a "
                             f"BOARD file (post-6/17 coverage)"))
+    if note_rows:
+        out.append((MED, f"delivery_log: {len(note_rows)} non-dispatch NOTE row(s) outside "
+                         "the signal schema, preserved for audit; NOT BOARD-reconciled. "
+                         "Review note-versus-actionability classification; no new note telemetry "
+                         "authorized by this check. These are not malformed SIG ids."))
     return out
 
 
@@ -1530,7 +1538,8 @@ def check_dropzone_pending():
     skip = {"processed", ".gitignore", ".gitkeep", ".DS_Store", "README.md"}
     pending = sorted(
         p.name for p in dz.iterdir()
-        if p.name not in skip and not p.name.startswith(".")
+        if p.is_file() and p.name not in skip and not p.name.startswith(".")
+        and not p.name.endswith(":Zone.Identifier")
     )
     if pending:
         shown = ", ".join(pending[:8]) + (" …" if len(pending) > 8 else "")
@@ -1751,7 +1760,9 @@ def check_restated_set_drift():
     claude = _read(WALTER / "CLAUDE.md")
     if claude:
         m = re.search(r"BP §0\.5 for the (\d+) checks", claude)
-        if not m:
+        if not m and "BP §0.5" in claude and "CHECKS" in claude:
+            pass  # Canonical pointer replaces the deliberately retired numeric claim.
+        elif not m:
             out.append((LOW, "CLAUDE.md step 0.5: check-count claim didn't match — "
                              "phrasing changed? re-anchor the regex"))
         elif int(m.group(1)) != len(names):
