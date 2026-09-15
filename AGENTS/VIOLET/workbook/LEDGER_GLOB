@@ -1,0 +1,4 @@
+# Paths relative to AGENTS/VIOLET; cold logs are searched, not whole-read.
+workbook/*.tsv
+registry/*.tsv
+board_log.tsv

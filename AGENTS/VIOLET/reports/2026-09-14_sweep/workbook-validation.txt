@@ -1,0 +1,3 @@
+KB.tsv — 291 rows validated against SCHEMA.tsv
+  ⚠️  WARN    94 ACTIVE row(s) past Stale_By (oldest 2026-04-22) — see the module docstring: this measures dated facts aging, not reviews owed
+  ✓ no errors

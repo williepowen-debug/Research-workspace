@@ -1,0 +1,14 @@
+Loaded 421 existing rows from VX_DAILY.tsv
+
+[1a] Fetching CBOE (publisher of record) BEFORE any write...
+  Fetching CBOE daily-prices CSVs (publisher of record) for ['VIX', 'VIX9D', 'VIX3M', 'VIX6M', 'VVIX', 'SKEW']
+
+[1b] yfinance provisional pass (90 days)...
+  Fetching yfinance history (100d) for ['^VIX', '^VIX9D', '^VIX3M', '^VIX6M', '^VVIX', '^SKEW']
+  yfinance (provisional): 0 cell(s) written where CBOE publishes nothing, 479 deferred to CBOE, 0 WITHHELD (CBOE series failed this run), 0 WITHHELD (row already basis=SETTLE), 0 WITHHELD (cell already holds a value — no overwrite)
+  touched 100 rows
+
+[1c] Writing spot columns from CBOE (authoritative)...
+  CBOE: 2526 cell(s) agreed, 0 blank(s) filled, 0 CORRECTED, 0 row(s) stamped SETTLE, 0 row(s) NOT stamped (hold an unconfirmed cell)
+
+✓ wrote 421 rows to /home/willi/Research-workspace/AGENTS/VIOLET/workbook/VX_DAILY.tsv

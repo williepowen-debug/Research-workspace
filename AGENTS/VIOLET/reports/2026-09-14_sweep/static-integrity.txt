@@ -1,0 +1,19 @@
+PASS: all 11 pre-sweep snapshots match manifest SHA-256.
+PASS: frozen FOMC letter unchanged: ead84431b516854a991dc036693500d0d260ad3e2b693672a24d19f01739e222
+PASS: KB, 291 rows, consistent field count.
+PASS: CATALYSTS, 6 rows, consistent field count.
+PASS: PREDICTIONS, 6 rows, consistent field count.
+PASS: VX_DAILY, 421 rows, consistent field count.
+LATEST SPOT: {'date': '2026-09-14', 'vix': '17.1', 'vix3m': '19.28', 'vix6m': '20.71', 'vvix': '94.89', 'skew': '152.09', 'basis': 'SETTLE', 'vix9d': '16.91'}
+PASS: MOVE, 50 rows, consistent field count.
+PASS: OVX, 20 rows, consistent field count.
+PASS: JPY_VOL, 20 rows, consistent field count.
+PASS: IMPLIED_CORR, 14 rows, consistent field count.
+PASS: VIX_OPTIONS, 192 rows, consistent field count.
+PASS: CHEAP_TAIL, 18 rows, consistent field count.
+PASS: vol_cheatsheet.html tag nesting, unique IDs, four current gauges; no browser-render assertion.
+PASS: violet_operating_picture.html tag nesting, unique IDs, four current gauges; no browser-render assertion.
+PASS: STATUS current convergence score aligned.
+PASS: SCRATCH current convergence score aligned.
+PASS: NEXUS_BRIEF current convergence score aligned.
+PASS: diff whitespace check (terminal empty TSV fields allowed).

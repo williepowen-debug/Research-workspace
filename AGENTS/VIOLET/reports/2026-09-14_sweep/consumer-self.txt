@@ -1,0 +1,25 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 145 files under AGENTS/VIOLET/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 0.274 → current 0.500
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (6)
+        AGENTS/VIOLET/research/2026-07-30_vehicle_selection_prereg.md:25  [0.274]  (needle <5 sig digits)
+           **That mechanism does not follow from its own premise.** The measured gradient is **0.274 @21–35 DTE · 0.505 @11–20 · 0.591 @≤10** — beta is
+        AGENTS/VIOLET/research/2026-08-27_beta_reconciliation_bucketing_bug.md:60  [0.274]  (needle <5 sig digits)
+           **Even the exact packet method (M1-only, 12-month window) gives β 0.533 at 21-35 DTE, not 0.274.**
+        AGENTS/VIOLET/research/2026-08-27_beta_reconciliation_bucketing_bug.md:74  [0.274]  (needle <5 sig digits)
+           - **DTE ≥ 21 UNBOUNDED, n=201, β 0.279** ← matches packet's β 0.274 / n=200 to within rounding
+        AGENTS/VIOLET/workbook/FLOW.tsv:16  [0.274]  (needle <5 sig digits)
+           2026-07-30	VIOLET	TERRY	calibration-reply	FORWARD BETA RE-DERIVED INDEPENDENTLY after TERRY's self-audit corrected 0.28 -> 0.53. OLS of 246 
+        AGENTS/VIOLET/workbook/FLOW.tsv:19  [0.274]  (needle <5 sig digits)
+           2026-07-30	VIOLET	TERRY	liaison-packet	VEHICLE-SELECTION SCOPING + PRE-REGISTRATION (Will-approved to draft/send; RUNS AFTER the 8/5 grader 
+        AGENTS/VIOLET/workbook/KB.tsv:155  [0.274]  (needle <5 sig digits)
+           KB-VIO-154	2026-07-30	VOL	VIX	TRY-VIOLET-VIXCS CLOSED -$111.60 (-38.8%): THE VOL CALL WAS RIGHT AND THE TRADE STILL LOST, AND THE REASON IS 
+     🟢 cleared: marker-adjacent / next to new value / frozen file (22)  [--show-handled to audit]
+
+  🟠 6 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

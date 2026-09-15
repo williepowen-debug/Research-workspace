@@ -1,0 +1,7 @@
+id	resolve_date	status	navigation_summary	source
+VIO-FOMC-0916-L1	2026-09-16	PENDING	9/15 VIX <=16 or VOID; otherwise 9/15->9/16 VIX change >-3.66% confirms	research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md#4
+VIO-FOMC-0916-L2	2026-09-23	PENDING	9/16->9/23 VIX change >0 confirms; <-1.41% kills; remainder inconclusive	research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md#4
+VIO-FOMC-0916-L3	2026-09-18	PENDING	9/16 preliminary and 9/18 final; exactly one branch >=2/3; original branch cells authoritative	research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md#4
+VIO-FOMC-0916-L4	2026-09-16	PENDING	MOVE % 8/26->9/16 exceeds VIX % 8/27->9/16; preserve separate anchors	research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md#4
+VIO-FOMC-0916-L5	2026-09-16	PENDING	Process leg: do not misread contract substitution as market move; date error documented, not silently amended	research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md#7
+F-B	2026-09-16	PENDING	Four-session zero-mean log-return RMS annualized vs 17.84%; source implementation and original pre-outcome basis govern	scripts/fb_grade.py

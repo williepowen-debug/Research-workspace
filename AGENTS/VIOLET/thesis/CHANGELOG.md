@@ -6,6 +6,10 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## September 14, 2026 — source-pointer housekeeping; no version bump
+
+Removed the header's stale “CURRENT STATE: UNKNOWN / newest measurement September 3” paragraph. The owner has newer observations; the framework now points to the live surfaces without copying a sign or another dated board. No prior, threshold, base rate or frozen prediction changed. Current tape, Cboe commentary and the newer gamma board do not yet warrant promoting an n=1 front/tail hypothesis. Historical v4.1/v4.1.1 entries below remain records of their dates.
+
 ## v4.1.1 — 2026-09-06 (~1h after v4.1) · **CORRECTION: the sign flipped BACK on 9/3 and I missed it — the GEX sign is an OSCILLATOR, and this file now carries no sign at all**
 
 **OLD VIEW (v4.1, one hour earlier):** *"Dealers AMPLIFY. They no longer dampen."* — asserted off HENRY's **9/2** measurement (−$16.7B/1%, flip 7,689–7,699, spot below the band), with a vintage stamp and a 9/18 falsifier.

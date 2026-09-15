@@ -1,0 +1,215 @@
+
+══════════════════════════════════════════════════════════════════════
+  VIOLET BOOT  •  Monday 2026-09-14 22:29
+  Volatility / Term Structure Monitoring
+══════════════════════════════════════════════════════════════════════
+
+  ⏳ Live thresholds + daily log...
+VIOLET THRESHOLDS  2026-09-14  UTC 34+00:00
+  Regime: LOW_VOL
+
+  🟡 VIX           17.1
+     VIX9D        16.91
+     VIX3M        19.28
+     VIX6M        20.71
+  🟡 VVIX         94.89
+  🔴 SKEW        152.09
+  🟡 VIX9D/VIX   0.9889
+  🟡 VIX3M/VIX   1.1275
+  🟢 M1:M2 adj    +3.23%  (VX/V6/VX/X6)  [BELOW_AVG]  [settle 2026-09-14 — SAME DAY as row]
+     M1:M2 strict +9.81%  (2d to M1 expiry, roll-contaminated)
+
+  · skip (skip-exists): row for 2026-09-14 already present — pass --supersede to replace a TICK with the SETTLE
+     ↳ to repair a stale PRIOR-date row, use backfill.py (--supersede only ever targets today)
+  ⚠️  ALERT  skew=🔴
+
+
+  ⏳ Credit gate (FRED · KB-VIO-096 block; BIN-A STUCK)...
+
+--- credit ---
+[FRED] BAMLH0A0HYM2: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLC0A0CM: 510 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A3HYC: 511 rows (cached, latest 2026-09-11)
+
+--- credit_ladder ---
+[FRED] BAMLH0A1HYBB: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A2HYB: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLC0A4CBBB: 511 rows (cached, latest 2026-09-11)
+
+--- credit_global ---
+[FRED] BAMLHE00EHYIOAS: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLEMHBHYCRPIOAS: 511 rows (cached, latest 2026-09-11)
+
+--- rates ---
+[FRED] DGS2: 486 rows (cached, latest 2026-09-11)
+[FRED] DGS10: 486 rows (cached, latest 2026-09-11)
+[FRED] DFII10: 486 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A0HYM2: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A3HYC: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A1HYBB: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLH0A2HYB: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLC0A4CBBB: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLC0A0CM: 510 rows (cached, latest 2026-09-11)
+[FRED] BAMLHE00EHYIOAS: 511 rows (cached, latest 2026-09-11)
+[FRED] BAMLEMHBHYCRPIOAS: 511 rows (cached, latest 2026-09-11)
+
+============================================================
+  CREDIT GATE SUMMARY (KB-VIO-096 block · BIN-A = STUCK)
+============================================================
+  HY        2.65   [2026-09-11]
+  CCC      10.76   [2026-09-11]
+  BB        1.50   [2026-09-11]
+  B         2.73   [2026-09-11]
+  BBB       0.97   [2026-09-11]
+  IG        0.80   [2026-09-11]
+  EuroHY    2.68   [2026-09-11]
+  EM_HY     2.76   [2026-09-11]
+  CCC-BB    9.26
+------------------------------------------------------------
+  ⛔ BIN-A: STUCK [since 2026-08-04] — no escalation verdict is emitted.
+     BIN-A **STUCK** since 2026-08-04 — the four level lines were retired as an anti-signal (fired 80.7% of days, 0.78x baseline; KB-VIO-184). Replacement derived but NOT ratified (thin: ~7 episodes, no credit crisis in the 3y window). BIN-A answers nothing right now. Scope when it returns: tail/convexity detector, no demonstrated edge below VIX 20.
+------------------------------------------------------------
+  VERDICT [2026-09-11]: 🟠 BIN-B BLOCK ACTIVE (CCC 10.76 ≥ 9.55)
+============================================================
+
+
+  ⏳ VIX options positioning...
+VIX OPTIONS POSITIONING  2026-09-14  spot=17.1
+  Forward (6 expiries, 0 < DTE ≤ 60): Call OI=5,542  Put OI=557  C/P OI=9.95  C/P Vol=2.06
+  2026-09-16 ( 2d) Call OI     5,542 Vol 205,521 | Put OI       138 Vol 164,413 | C/P OI 40.16
+  2026-09-23 ( 9d) Call OI         0 Vol 27,917 | Put OI         0 Vol  1,515 | C/P OI 0.00
+  2026-09-30 (16d) Call OI         0 Vol  4,452 | Put OI         0 Vol  2,356 | C/P OI 0.00
+  2026-10-07 (23d) Call OI         0 Vol  1,621 | Put OI         0 Vol     86 | C/P OI 0.00
+  2026-10-14 (30d) Call OI         0 Vol    866 | Put OI         0 Vol     63 | C/P OI 0.00
+  2026-10-21 (37d) Call OI         0 Vol 177,581 | Put OI       419 Vol 34,170 | C/P OI 0.00
+
+  ⚠️  5 OI comparison(s) SKIPPED (after-hours OI artifact):
+    · 2026-09-16: OI comparison SKIPPED — today row carries the after-hours OI artifact (prior oi=3,741,074/vol=257,011, today oi=5,542/vol=205,521)
+    · 2026-09-23: OI comparison SKIPPED — today row carries the after-hours OI artifact (prior oi=89,105/vol=27,260, today oi=0/vol=27,917)
+    · 2026-09-30: OI comparison SKIPPED — today row carries the after-hours OI artifact (prior oi=30,786/vol=3,712, today oi=0/vol=4,452)
+    · 2026-10-07: OI comparison SKIPPED — today row carries the after-hours OI artifact (prior oi=6,118/vol=2,728, today oi=0/vol=1,621)
+    · 2026-10-21: OI comparison SKIPPED — today row carries the after-hours OI artifact (prior oi=3,727,317/vol=321,604, today oi=0/vol=177,581)
+
+  ✓ ↻ UPDATED 2 existing row(s) — intraday values moved in VIX_OPTIONS.tsv
+
+
+  ⏳ CFTC COT VIX positioning...
+
+Latest COT VIX positioning (2026-09-08):
+  Open Interest: 431,671
+  Category            Long     Short       Net   pct3y
+  Dealer            97,201    44,307   +52,894    76.3
+  Asset Mgr         52,955    90,368   -37,413     7.7
+  Lev Money         91,185   114,455   -23,270    56.4
+  Other              5,430     2,270    +3,160        
+  NonRept           28,857    24,228    +4,629        
+  flag: NORMAL
+
+
+  ⏳ MOVE rates-vol (investing.com PRIMARY; built 8/4)...
+  MOVE [2026-09-14]: 83.90  (+1.69 vs 2026-09-11)   [PRIMARY investing.com]
+     ✅ F1 (KB-VIO-116)            above  72.41   margin +11.49
+     ✅ confirm-3 (KB-VIO-123)     above  75.50   margin  +8.40
+     ⬜ N1 stand-down              below  66.00   margin +17.90
+
+
+  ⏳ JPY carry-vol canary (scope 7/11; built 7/16)...
+JPY VOL [2026-09-14]: USDJPY 153.42 · RV10 13.53% · RV20 10.78% · pctile p87.6 · state CALM
+🟢 CALM: 10d RV 13.53% (p87.6 of 3y) vs WATCH 13.98% / FIRE 15.22%.
+IV/RV 1.12x — no outsized event premium (collapse toward 1x post-event w/o an RV spike = risk passed).
+FXY confirm leg: spot 59.43 · 2026-10-16 (32 DTE) OI-weighted near-ATM call IV 15.1% (3 strikes, OI>=100) ⚠️ STALE quotes (off-RTH pull) — confirm intraday before acting on the IV leg
+2026-09-14 row already current in workbook/JPY_VOL.tsv (unchanged)
+
+
+  ⏳ OVX oil-vol→equity-vol transmission canary (built 7/17)...
+OVX [2026-09-14]: OVX 59.46 (p92.5) · VIX 17.1 · gap 42.36 (p95.9) · OVX/VIX 3.48 (p97.1) · state FIRE
+🔴 FIRE: OVX/VIX ratio 3.48 >= p95 3.21 (oil-vol 59.46 at p92.5 >= p75 44.51) — oil-vol→equity-vol transmission channel LOADED (Abqaiq / II-2025 class). ROUTE: BRENT/HAWK reference + NEXUS_BRIEF cross-domain (context canary, not an action-gate).
+2026-09-14 row already current in workbook/OVX.tsv (unchanged)
+
+
+  ⏳ Cheap-tail window alert (operator decision surface; built 7/23)...
+CHEAP-TAIL [2026-09-14]: ⚪ DORMANT (2/4) · VIX 17.1 · VVIX 94.89 · SKEW 152.09 · nearest HIGH/MED catalyst 2d (VIX September expiration (quarterly))
+    ⬜ L1 VVIX cheap: VVIX 94.89 (p61.1) > 90.0
+    ⬜ L2 VIX complacency: VIX 17.1 (p49.0) > 16.0
+    ✅ L3 SKEW divergence: SKEW 152.09 (p95.2) >= 140.0
+    ✅ L4 event-boxed: nearest HIGH/MED catalyst 2d (VIX September expiration (quarterly)) <= 21d
+  2026-09-14 row already current in workbook/CHEAP_TAIL.tsv (unchanged)
+
+
+  ⏳ Implied correlation (KB-VIO-126 mechanism; built 7/30)...
+IMPLIED CORR [2026-09-14 SETTLE]: COR1M 13.1  (+0.0% d/d) · COR3M 12.03 · COR30D 8.66 · VIX 17.1 · constituent-vol[EST] 47.2 · DISPERSED (index vol suppressed)
+  2026-09-14 row already current in workbook/IMPLIED_CORR.tsv (unchanged)
+
+
+  ⏳ Catalyst countdown...
+VIOLET CATALYST COUNTDOWN  •  2026-09-14 (Monday)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Date           TD  Status             Impact  Domain             Event
+────────────────────────────────────────────────────────────────────────────────────────────────────
+2026-09-16     2d  🔴 IMMINENT HIGH    HIGH    VIOLET/HENRY/CARL  FOMC Rate Decision + SEP
+2026-09-16     2d  🟠 IMMINENT         MEDIUM  VIOLET/HENRY       VIX September expiration (quarterly)
+2026-09-18     4d  🟠 IMMINENT         MEDIUM  VIOLET/HENRY       SPX September quarterly OPEX (triple witching)
+2026-09-30    12d  🟡 near             MEDIUM  VULCAN/VIOLET      Micron (MU) FQ4 earnings, AFTER THE CLOSE 16:30 ET -- date_class CONFIRMED
+
+⚠️  IMMINENT (≤5 trading days):
+  • 2026-09-16 (2d) — FOMC Rate Decision + SEP
+    Note: Quarterly dot-plot (Warsh). First SEP after the 6/17 hike-signal flip; tests whether the dot-plot follows through to an actual hike. ⚠️ DUAL EVENT, ORDER MATTERS (VIOLET 2026-09-02, KB-VIO-216): 9/16 is ALSO the September VIX quarterly expiry and THE EXPIRY COMES FIRST -- VIX futures/options settle at the special opening quotation that MORNING, the statement is 14:00 ET. Derived zero-free-parameter: 3rd Friday Oct 2026 = 10/16, minus 30d = 2026-09-16 Wed. => The expiring September contract (VX/U6) CANNOT express the FOMC outcome; the event premium sits in October (VX/V6), which becomes M1 that same morning. Anyone reading VIX futures M1 into 9/16 is reading a contract that expires hours before the event. Pre-registered letter: research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md. ⚠️ VX_DAILY m1m2_adj_pct BASIS BREAK at 9/16 (KB-VIO-218) -- the 9/15->9/16 change measures a CONTRACT ROLL, not a market move. ⚠️ BRANCH SET IS HIKE vs HOLD, NOT hold-vs-cut: Kalshi Sept-HIKE 0.48 [8/28 settled].
+  • 2026-09-16 (2d) — VIX September expiration (quarterly)
+    Note: Quarterly.
+  • 2026-09-18 (4d) — SPX September quarterly OPEX (triple witching)
+    Note: ADDED 2026-09-11. Was ABSENT from this feed while HENRY carried it and WALTER routed a signal on it -- a dated event with a named magnitude and no row. MAGNITUDE: ~$9.6T of US options exposure expires BETWEEN 2026-09-10 AND 9/18 (~35% of total US options exposure); ~$6.2T expires ON 9/18 ITSELF (~23%). Tracking to exceed June's $7.7T record. PROVENANCE: traces to a Citadel Securities publication, NOT merely the X post that relayed it -- but a direct fetch of the Citadel page returned HTTP 403, so the 9.6/6.2 split is INFERRED from a search extract of that page, not read at the primary. The SHAPE (largest quarterly OpEx of the year) survives either way. VOL RELEVANCE: HENRY owns dealer gamma and says re-measure the board BEFORE this date; VIOLET owns only the transmission read. NOT a VIOLET gate leg -- no base rate exists for it at this desk.
+
+
+  ⏳ CANARY_MAP staleness contract (built 7/30)...
+
+  ⏳ VX_DAILY session completeness (built 9/6)...
+✅ VX_DAILY GAPCHECK rc=0 — 421 session(s) 2025-01-08→2026-09-14, no gaps, no phantoms (14 holiday phantom(s) correctly absent)
+
+
+  ⏳ KB schema conformance (built 7/30 PM)...
+    ✓ KB.tsv 285 rows — schema clean (94 past Stale_By, informational)
+
+
+  ⏳ Grading-note citations (built 8/4)...
+
+  ⏳ Thesis currency (advisory; built 8/4)...
+  🔴 thesis 4.1 (2026-09-06) — 16 KB row(s) since: 2 retraction(s), 0 resolved, 14 active
+     ⚠️  Over review threshold (>12 findings or >3 retractions).
+     ⚠️  ADVISORY — go READ the thesis headline against what those rows now say.
+     ⚠️  This counter cannot see a semantic contradiction; it can only tell you when to look.
+
+
+  ⏳ F-B falsifier (SPX realized vs 17.84% implied; built 9/11)...
+  F-B window 2026-09-11 → 2026-09-16  (2 of 4 sessions)
+     2026-09-11  +0.856%
+     2026-09-14  -0.484%
+     zero-mean RMS  (CANONICAL)     11.04% ann
+     demeaned sigma (memo RV)       15.05% ann
+     mean|r| (parenthetical)        10.64% ann
+     threshold                      17.84% ann (VIX spot 2026-09-10)
+  ⏳ IN PROGRESS — not gradeable until 2026-09-16 close. Running at 62% of the refutation line.
+
+
+──────────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────────
+  ✅ Live thresholds + daily log                 OK   2.6s
+  ✅ Credit gate (FRED · KB-VIO-096 block; BIN-A STUCK)    OK   0.8s
+  ✅ VIX options positioning                     OK   2.2s
+  ✅ CFTC COT VIX positioning                    OK   0.2s
+  ✅ MOVE rates-vol (investing.com PRIMARY; built 8/4)    OK   2.4s
+  ✅ JPY carry-vol canary (scope 7/11; built 7/16)    OK   2.0s
+  ✅ OVX oil-vol→equity-vol transmission canary (built 7/17)    OK   1.8s
+  ✅ Cheap-tail window alert (operator decision surface; built 7/23)    OK   1.7s
+  ✅ Implied correlation (KB-VIO-126 mechanism; built 7/30)    OK   3.1s
+  ✅ Catalyst countdown                          OK   0.1s
+  ✅ CANARY_MAP staleness contract (built 7/30)    OK   0.1s
+  ✅ VX_DAILY session completeness (built 9/6)    OK   2.7s
+  ✅ KB schema conformance (built 7/30 PM)       OK   0.1s
+  ✅ Grading-note citations (built 8/4)          OK   0.1s
+  ✅ Thesis currency (advisory; built 8/4)       OK   0.0s
+  ✅ F-B falsifier (SPX realized vs 17.84% implied; built 9/11)    OK   7.0s
+
+  Total: 26.8s  •  Daily log: AGENTS/VIOLET/workbook/VX_DAILY.tsv
+  Tips:  --verbose for full output  •  --json for machine format
+

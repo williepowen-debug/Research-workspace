@@ -1,0 +1,21 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/VIOLET/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 0.274 → current 0.500
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (4)
+        AGENTS/TERRY/POSTMORTEMS.md:166  [0.274]  (needle <5 sig digits)
+           > 1. **The beta figure was wrong.** ≈0.28 came from a single **0.36-point** intraday move at the fill — noise. **Realized fill→exit beta was
+        AGENTS/TERRY/POSTMORTEMS.md:177  [0.274]  (needle <5 sig digits)
+           1b. **State triggers on the variable the payoff SETTLES on**, and treat the forward's beta as **`beta(tenor)`, never a scalar** — quoting on
+        AGENTS/TERRY/PAPER_BOOK.tsv:51  [0.274]  (needle <5 sig digits)
+           PB-0003	TRY-VIOLET-VIXCS-ZONE2-FILL	2026-07-27 11:38 ET	APPROVED	VIX (VIXW) Aug-05 20C/25C call debit spread x4	0.70	VIX exp 2026-08-05 20C 
+        AGENTS/ORACLE/workbook/HISTORY.tsv:3111  [0.274]  (needle <5 sig digits)
+           what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-07-13	0.274
+     🟢 cleared: marker-adjacent / next to new value / frozen file (4)  [--show-handled to audit]
+
+  🟠 4 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

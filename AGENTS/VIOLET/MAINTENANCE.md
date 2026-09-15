@@ -8,6 +8,15 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
+
+## September 14, 2026 — important-file and current-data sweep
+
+**Trigger:** Will asked to bring VIOLET up to speed with current data/news and sweep its important files.
+**What changed:** archived pre-sweep live documents with SHA-256 manifest; rebuilt current dashboard/calendar/handoff; created a navigation-only prediction index, workbook state register and explicit ledger coverage; corrected stale trade state, beta citation, futures roll date and source references; refreshed local artifact live bands. No script, frozen letter, threshold or charter changed.
+**Files touched:** root desk surfaces, workbook ledgers/index/KB, thesis pointer/changelog, reports, separate frozen-letter erratum and local HTML.
+**Boot-impact:** STATUS/README/CALENDAR now contain current owner-grounded state; README no longer claims nonexistent enforcement or an obsolete stage count. Exact-ID lookup prevents truncating board-log membership checks; CLAUDE remains unchanged.
+**Lessons:** file age does not certify section currency; source-date windows must begin at the source's publication, not the day a relay arrived; recovering data is separate from fixing the writer that produced an empty row.
+
 ---
 
 > 📄 *The **2026-08-18** and **2026-08-20** entries are archived verbatim → `archive/MAINTENANCE_ARCHIVE.md` (crc32 `dfd3e19c`), rotated 2026-09-06 PM2 on the ~300-line cap.*

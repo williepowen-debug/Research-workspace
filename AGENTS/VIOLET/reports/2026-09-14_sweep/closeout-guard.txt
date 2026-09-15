@@ -1,0 +1,39 @@
+══════════════════════════════════════════════════════════════
+  VIOLET CLOSEOUT GUARD
+══════════════════════════════════════════════════════════════
+  ✓ CANARY_MAP staleness contract
+  ✓ Grading-note citations
+  ✓ KB schema conformance
+
+  🔴 Write-back ordering (handoff surfaces vs STATUS)
+  reference  STATUS.md            dirty (being written now)
+  ✓          NEXUS_BRIEF.md       dirty (being written now)
+  ✓          SCRATCH.md           dirty (being written now)
+  🔴 LAGS    PROME/inbox/*_from-VIOLET_*.md committed 09-12 17:15 (b96bc0521)  — 3,242 min behind STATUS.md
+
+  🔴 WRITE-BACK ORDERING BREACH — 1 surface(s) lag STATUS.md.
+     Each of these is read by someone who is NOT me:
+       · PROME/inbox/*_from-VIOLET_*.md — PROME reads this to update its STATUS/SCRATCH/WILL_QUEUE
+     Fix: finish the write-back tail (CLAUDE.md steps 11, 11a, 12) before committing.
+     ⚠️  A PASS here means FRESH, never CORRECT — this check cannot read content.
+  ✓ CALENDAR/CATALYSTS twin consistency
+  ✓ Convergence matrix arithmetic
+
+  🔴 Cross-surface figure agreement
+  🔴 NO PROME MEMO DATED 2026-09-14 — the PROME-facing surface has not been written this session, so agreement cannot be certified. Write it (write-back step 11a), or pass --date if this session began on a previous day.
+  ✓ VX_DAILY session completeness
+  ✓ Offline regression suites
+  ✓ ^SKEW bar continuity (cell half)
+
+  ℹ️  Thesis currency (advisory — never blocks)
+  🔴 thesis 4.1 (2026-09-06) — 22 KB row(s) since: 2 retraction(s), 6 resolved, 14 active
+     retractions: KB-VIO-273, KB-VIO-276
+     ⚠️  Over review threshold (>12 findings or >3 retractions).
+     ⚠️  ADVISORY — go READ the thesis headline against what those rows now say.
+     ⚠️  This counter cannot see a semantic contradiction; it can only tell you when to look.
+
+──────────────────────────────────────────────────────────────
+  🔴 CLOSEOUT BLOCKED — 2 contract(s) RED: Write-back ordering (handoff surfaces vs STATUS), Cross-surface figure agreement
+  Fix them, or write on the surface WHY the red state is correct and intended.
+  ⚠️  Do not close out on a red contract just because boot also warned about it —
+      that is the exact n=4 failure this guard was built to end.

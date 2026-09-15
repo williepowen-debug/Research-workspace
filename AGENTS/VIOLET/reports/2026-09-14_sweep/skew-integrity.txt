@@ -1,0 +1,8 @@
+^SKEW MIRROR INTEGRITY  •  2026-08-15 .. 2026-09-14  •  20 CBOE session(s)  •  2026-09-14 22:40 EDT
+  publisher of record : CBOE SKEW_History.csv (9,226 rows, 1990-01-02 .. 2026-09-14)
+  mirror              : yfinance ^SKEW  period=3mo
+  tolerance           : |Δ| > 0.005 counts as disagreement
+──────────────────────────────────────────────────────────────────────────────
+  ✅ 20 session(s) agree to within 0.005 — no omission, no disagreement.
+──────────────────────────────────────────────────────────────────────────────
+[SKEW-INTEGRITY 2026-09-14 22:40 EDT] ✅ CBOE and yfinance agree on all 20 sessions 2026-08-15..2026-09-14 (|Δ| ≤ 0.005). Verified AT TIME OF USE — this bounds THIS read only, not any earlier one.

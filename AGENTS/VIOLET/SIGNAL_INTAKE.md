@@ -20,7 +20,7 @@ Routing rules are durable; **dated state is not in this file.** Live source map:
 
 Per auto-memory `[[project_messaging_overhaul]]`: don't extend or patch routing infra here. New operational routing logic (auto-scan/auto-dispatch trigger rows) is negotiated via LIAISON with Will sign-off — registry pattern (future `VIO-T-NN` per the RED-FT-NN / REG-T-NN schema), not this file. **This file is scope-of-attention + exclusions + keywords + a short durable-lines table.**
 
-VIOLET self-pulls at boot (don't route raw data): vol surface (yfinance), FRED credit, CFTC COT VIX, VIX options OI. What VIOLET needs routed is what boot can't compute: **news, narrative, structural events, and other agents' domain reads.**
+VIOLET self-pulls at boot (don't route raw data): vol surface (Cboe publisher quotes and archive; yfinance cross-check), FRED credit, CFTC COT VIX, VIX options OI. What VIOLET needs routed is what boot can't compute: **news, narrative, structural events, and other agents' domain reads.**
 
 ---
 
@@ -38,7 +38,7 @@ VIOLET self-pulls at boot (don't route raw data): vol surface (yfinance), FRED c
 
 ### Vol-market structural events
 - Vol ETP stress or termination events (SVIX/UVXY/VXX-class rebalance stress, AP withdrawal, fund blowup)
-- Vol-targeting / vol-control / CTA de-risking flow reports (the structural un-pinning class — record-GEX suppression is the active mechanism hypothesis, KB-VIO-055/062)
+- Vol-targeting / vol-control / CTA de-risking flow reports (the structural un-pinning class — dealer gamma can dampen or amplify; current sign lives with HENRY, KB-VIO-055/062)
 - Dealer gamma FLIP reports (HENRY owns the mechanics; VIOLET needs the flip event itself)
 - CBOE/VIX product or methodology changes; vol-market microstructure breakdowns
 
