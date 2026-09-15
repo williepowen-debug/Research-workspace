@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-15T13:09:32.071125+00:00 (September 15 ET/JST). **STATUS provenance:** final STATUS and this brief committed together; prior STATUS commit `8b19fb8cb`. Brief written last, after STATUS.
+**As of:** 2026-09-15T13:35:40.312154+00:00 — closeout verification only; no new market observations. **STATUS provenance:** `17873d941`, confirmed on origin/master. Research snapshot remains September 15; brief written last after handoff updates.
 
 ## VIEW
 

@@ -1,3 +1,9 @@
+# Historical completion record — FROZEN September 15, 2026
+
+This July 29 record is historical, not the current handoff. Current continuity lives in MEMORY.md and STATUS.md; this session closed in [the September 15 closeout](reports/2026-09-15_closeout.md). Legacy completion files are optional under PROME/COMPLETION_SPEC.md (August 13 migration); no peer delivery is implied.
+
+---
+
 ## COMPLETION — SAM — 2026-07-29 (~10:10 PM ET — PROME pre-BOJ spawn: refresh Japan surfaces + freeze the BOJ MPM pre-registration)
 STATUS: ✅ DONE
 CHANGED: AGENTS/SAM/STATUS.md (new banner + 7/29 boot note + "BOJ MPM PRE-REGISTRATION" section) · AGENTS/SAM/thesis/PREDICTIONS.tsv (new SAM-38 + preamble) · AGENTS/SAM/MEMORY.md · AGENTS/SAM/NEXUS_BRIEF.md (status/VIEW/forward-catalysts) · AGENTS/SAM/docket/CALENDAR.md + docket/CATALYSTS.tsv (BOJ row synced) · AGENTS/SAM/board_log.tsv (+18 rows) · AGENTS/SAM/inbox/WALTER/processed/ (18 files moved) · AGENTS/SAM/inbox/processed/ (4 files moved: NEXUS, VIOLET, HAWK, DEWEY) · AGENTS/SAM/outbox/2026-07-29_to-PROME_boj-preregistration-and-preboj-flags.md (new) · AGENTS/SAM/LAST_COMPLETION.md

@@ -35,6 +35,8 @@ Will requested Japan news specifically for SAM. Integrated six items into curren
 
 Correction: previous auction 404 used the wrong filename; absence inference withdrawn. Original predictions, registration and money fields unchanged; no peer messages. Save sources, dates and failed accesses with findings. Closeout uses a path-scoped commit and the safe-push receipt.
 
+**Closeout September 15:** news commit `17873d941` confirmed on origin/master; verification passed and worktree clean at entry. [Closeout record](reports/2026-09-15_closeout.md). July LAST_COMPLETION is now explicitly historical. No further sweep writeback owed; dated research checks below remain.
+
 ### NEXT SESSION
 
 **TIER 0 — DATED:**
