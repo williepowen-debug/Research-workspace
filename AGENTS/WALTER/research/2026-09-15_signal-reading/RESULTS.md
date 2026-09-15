@@ -23,3 +23,7 @@ Obligations before/after:11/11; material qualification groups13/13; none retired
 The prior September16 repair checkpoint is completed early for this case by the actual read, independent census and implementation tests. Review again **September30 or upon any source/companion change**, whichever first; the checker rejects at the deadline. This does not move owner-evidence or market-observation deadlines. Original source citation and internal-consistency gaps remain explicit research limitations, not defects this reading repair pretends to resolve.
 
 Current foreign PROME/CATO work prevents auto-push under WALTER closeout rules. Commit exact authorized paths locally; no foreign work swept. Postcommit verification and publication status will be recorded separately.
+
+## Postcommit verification
+
+Implementation committed **70a2bc593**. After commit, PROME reads_check returns READS-CAP0 across23 cap-bearing reads; the missing-history condition is resolved (postcommit-reads.txt). Boot BASIS23 paths match and exact companion/source/review guard passes. Fleet checker’s19 measured files and PROME checker’s23 expanded cap-bearing reads are different documented perimeters, not interchangeable counts. Foreign BRENT research remains untracked at closeout; push deferred. The repair is complete locally; publication remains pending.
