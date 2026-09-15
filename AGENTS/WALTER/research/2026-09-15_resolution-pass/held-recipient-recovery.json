@@ -1,0 +1,27 @@
+[
+  {
+    "recipient_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260915-001.md",
+    "recovery_copy": "AGENTS/WALTER/research/2026-09-15_resolution-pass/held-recipient-copies/SIG-W-20260915-001.md",
+    "sha256": "49867f2556a0c7234e3d5c47df81db9e7dddfd8be8d81832281e2e1f0966e56c"
+  },
+  {
+    "recipient_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260915-004.md",
+    "recovery_copy": "AGENTS/WALTER/research/2026-09-15_resolution-pass/held-recipient-copies/SIG-W-20260915-004.md",
+    "sha256": "ac4acddf9e9260542c1aec2fb8598bdb25cf10113d42c069a6a510c3458b4d0f"
+  },
+  {
+    "recipient_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260915-005.md",
+    "recovery_copy": "AGENTS/WALTER/research/2026-09-15_resolution-pass/held-recipient-copies/SIG-W-20260915-005.md",
+    "sha256": "dab8fdfb66c5fe5f604a09c2a5884b2f28d7087bd040c05aadeb677f862463f2"
+  },
+  {
+    "recipient_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260915-006.md",
+    "recovery_copy": "AGENTS/WALTER/research/2026-09-15_resolution-pass/held-recipient-copies/SIG-W-20260915-006.md",
+    "sha256": "41de241a772c1cf2d8bd7eb11079fefb3aabfc659cf4cfb0802b93c1e7054eb8"
+  },
+  {
+    "recipient_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260915-007.md",
+    "recovery_copy": "AGENTS/WALTER/research/2026-09-15_resolution-pass/held-recipient-copies/SIG-W-20260915-007.md",
+    "sha256": "d4030186a46bb8bca65e7145bf612b58937e2011404efcf80355d2b764bdb5f9"
+  }
+]

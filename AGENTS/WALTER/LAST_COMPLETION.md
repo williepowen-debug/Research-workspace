@@ -12,11 +12,11 @@ Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive gu
 
 ## RESULT
 
-Five regression suites pass. Doctor0HIGH/2MED:20 retained NOTE schema exceptions and31 old aged handoffs, audited individually. Not an owner integration or all-market-clear claim. Reads/BASIS/commit results: RESULTS and `commit-receipt.md`.
+Five regression suites pass. Doctor postcommit0HIGH/26MED:24 pending-origin handoffs plus20 retained NOTE schema exceptions and31 old aged handoffs (the latter two are aggregated findings). Five held BRENT copies are LOW. Not an owner integration or all-market-clear claim. Reads/BASIS/commit results: RESULTS and `commit-receipt.md`.
 
 ## GAPS
 
-Origin sync deferred under charter step16 after observed foreign CATO dirty work; local packets remain pending delivery until origin proof. Fleet liveness UNKNOWN. Source/settlement/owner-judgment gaps are named row-by-row in `operational-matrix.md`; seven old ACTION closures remain unverified in `backlog-review.md`. No recipient state cleared by this session.
+Implementation0951f361e committed; five BRENT handoffs remain uncommitted while BRENT is being written, with exact tracked recovery copies in resolution-pass. Origin sync deferred under charter step16 after observed foreign CATO/BRENT dirty work; local packets remain pending delivery until origin proof. Fleet liveness UNKNOWN. Source/settlement/owner-judgment gaps are named row-by-row in `operational-matrix.md`; seven old ACTION closures remain unverified in `backlog-review.md`. No recipient state cleared by this session.
 
 ## WILL_NEEDS
 

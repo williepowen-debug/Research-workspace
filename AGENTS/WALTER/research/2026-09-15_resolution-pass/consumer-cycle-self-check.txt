@@ -1,0 +1,18 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 200 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded FIRST FIRE of a NEW cycle → current cycle 2 already FIRED
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)
+        AGENTS/WALTER/research/2026-09-15_resolution-pass/consumer-cycle-check.txt:9  [FIRST FIRE of a NEW cycle]
+           BOARD/SIG-W-20260914-027-the-bac-5pct-drop-is-conference-guidance-not-credit-and-WALs-ceo-speaks-at-the-same-conference-wednesday-1030-ET.md
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/WALTER/routed/route_log.tsv:984  [FIRST FIRE of a NEW cycle]  (dated TSV row (2026-09-14) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-14	SIG-W-20260914-027	REGINALD packet post-close (own EDGAR + tape; WAL 9/14 press release verified at the primary BY REGINALD)	BAC 
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  🔴 1 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

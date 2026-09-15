@@ -34,7 +34,7 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Evidence/verification
 
 Nine new signals,29 handoffs: exact recipients and roles in route/delivery logs. Sources remain qualified; no observed source uncertainty was promoted to a fire. Prior31 aged warnings reconciled individually:7ACTION/24INFO;29 age from delivery timestamps,2 use provisional mtime. CARL has one separately recorded consumed-but-unfiled item plus two archive residues. No recipient inbox was cleared by WALTER. `backlog-review.md` names actions, artifacts and September16 review.
 
-Fleet-session visibility UNKNOWN in this runtime. ORCH_INFLIGHT is datedSeptember12 and is not live-session proof. CATO foreign dirty work observed during this pass; WALTER leaves it untouched and defers push under charter step16. Local commit details belong in RESULTS/closeout, not a delivery assertion. Primary-owner boot/header dates are carried in REGISTRY; no new liveness inferred.
+Fleet-session visibility UNKNOWN in this runtime. ORCH_INFLIGHT is datedSeptember12 and is not live-session proof. CATO and BRENT foreign dirty work observed during this pass; WALTER leaves it untouched and defers push under charter step16. Implementation0951f361e is local; five BRENT recipient-path commits await a safe write window, with exact recovery copies tracked under resolution-pass. Doctor postcommit0HIGH/26MED includes24 pending-origin copies plus two audited historical/backlog findings. Primary-owner boot/header dates are carried in REGISTRY; no new liveness inferred.
 
 ## Active LIAISON channels
 
