@@ -1,0 +1,450 @@
+SAM monitoring started 2026-09-15T02:27:45.695269+00:00 | raw report: /tmp/sam-boot-20260914-network.jsonl
+
+Running Market / Threshold Monitor...
+SAM watch-level observations — run started 2026-09-15T02:27:45.733403+00:00
+
+QUOTES: vendor field and observation clock; session freshness not certified
+AUDJPY=X: 110.38 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-15T02:27:46+00:00 | retrieved_at=2026-09-15T02:27:47.878908+00:00
+BZ=F: 106.90 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-15T02:15:18+00:00 | retrieved_at=2026-09-15T02:27:48.190251+00:00
+EURJPY=X: 178.62 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-15T02:27:47+00:00 | retrieved_at=2026-09-15T02:27:48.492765+00:00
+FXY: 59.43 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-14T20:00:00+00:00 | retrieved_at=2026-09-15T02:27:48.800866+00:00
+GBPJPY=X: 208.79 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-15T02:27:47+00:00 | retrieved_at=2026-09-15T02:27:49.071145+00:00
+USDJPY=X: 154.82 | vendor regular-market observation | field=regularMarketPrice | as_of=2026-09-15T02:27:47+00:00 | retrieved_at=2026-09-15T02:27:49.383430+00:00
+BZ=F is a continuous context quote; automated oil thresholds suspended pending a contract/roll specification.
+
+Watch levels crossed / near (5% descriptive proximity):
+BREACHED: USDJPY=X 154.82 vs below 155.00: Yen-strength watch; mechanism unconfirmed.
+WARNING: USDJPY=X 154.82 vs above 160.00: Intervention-risk watch; check speed and official evidence.
+Crossings refer to the displayed vendor observation clocks; no mechanism or trade grade.
+
+JGBs NOT EVALUATED HERE: jgb_yields.py owns the comparison.
+Stored echo as_of=2026-09-10
+  JGB 10Y: 2.920 vs 2.40% — Stress crossover
+  JGB 30Y: 3.995 vs 4.00% — Conditional demand-floor test; auction and institution evidence required
+  JGB 40Y: 4.003 vs 4.00% — Long-end context; no mechanism grade from level alone
+
+Freshness unverified here; consult explicit source clocks in child output.
+
+Running USDJPY History...
+
+======================================================================
+  SAM USDJPY Monitor — 2026-09-14 22:27
+======================================================================
+
+  ✓ USDJPY.tsv — appended 2 new row(s)
+  ✓ hourly cross-check: 59 session(s) (revision window 10d)
+
+  🟡 USDJPY 154.31 (5d: +0.1) | 30d: 152.9-160.4 | 90d: 152.9-164.0 | 52wk: 146.2-164.0
+  🟡 Days since touch: 160 → 12d, no op | 155 → 0d, no op | 150 → 332d, no op | 145 → 434d, no op | 140 → 510d, no op
+  🟢 Intraday range (5d max): 1.63y on 2026-09-14 | latest: 1.63y | normal daily range
+
+
+USDJPY.tsv: latest stored Date=2026-09-14; execution success does not certify source freshness.
+
+Running JGB Yields...
+
+======================================================================
+  SAM JGB Yield Monitor — 2026-09-14 22:27
+======================================================================
+
+  Source: MOF (authoritative)
+  Latest publication: 2026-09-14
+
+  LATEST CURVE (2026-09-14)
+  ------------------------------------------------------------
+  2Y     1.841%
+  5Y     2.302%
+  10Y    2.988%  🔴 BREACHED
+  20Y    3.808%
+  30Y    4.040%  🔴 BREACHED
+  40Y    4.040%  🔴 BREACHED
+
+  🔴 ACTIVE BREACHES
+  ------------------------------------------------------------
+  🔴 10Y at 2.988%  (threshold 2.40%, +24.5%)  Stress crossover
+  🔴 30Y at 4.040%  (threshold 4.00%, +1.0%)  Conditional demand-floor test; auction and institution evidence required
+  🔴 40Y at 4.040%  (threshold 4.00%, +1.0%)  Long-end context; no mechanism grade from level alone
+
+  RECENT HISTORY (last 5 days)
+  ------------------------------------------------------------
+  Date              2Y      5Y     10Y     20Y     30Y     40Y
+  2026-09-08     1.848   2.258   2.896   3.717   3.961   3.965
+  2026-09-09     1.833   2.243   2.891   3.713   3.956   3.960
+  2026-09-10     1.823   2.244   2.920   3.754   3.995   4.003
+  2026-09-11     1.844   2.296   2.987   3.799   4.024   4.027
+  2026-09-14     1.841   2.302   2.988   3.808   4.040   4.040
+
+  5-DAY CHANGE (2026-09-07 → 2026-09-14)
+  ------------------------------------------------------------
+  2Y    1.852% → 1.841%  (↓1.1bp)
+  5Y    2.272% → 2.302%  (↑3.0bp)
+  10Y   2.935% → 2.988%  (↑5.3bp)
+  20Y   3.751% → 3.808%  (↑5.7bp)
+  30Y   4.009% → 4.040%  (↑3.1bp)
+  40Y   4.013% → 4.040%  (↑2.7bp)
+
+  Appended 2 row(s) to JGB_YIELDS.tsv
+
+
+JGB_YIELDS.tsv: latest stored Date=2026-09-14; execution success does not certify source freshness.
+
+Running JGB Auctions...
+
+======================================================================
+  SAM JGB Auction Parser — 2026-09-14 22:27
+======================================================================
+
+  2026-09-08  —  5-Year  (Issue #187)
+  ------------------------------------------------------------
+  Competitive bids:  ¥6,554.3B
+  Accepted:          ¥1,915.4B
+  BTC ratio:         3.422x
+  Lowest accepted:   2.248% yield
+  Weighted average:  2.239% yield
+  Tail:              0.9 bp
+  Status:            ✅ Orderly
+  Source:            https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20260908.htm
+
+  TSV already has this auction
+
+
+JGB_AUCTIONS.tsv: latest stored Date=2026-09-08; execution success does not certify source freshness.
+
+Running BOJ OIS (hike pricing)...
+FAIL: Child exited 2
+
+STDERR:
+ALERT BOJ OIS UNAVAILABLE — Unreviewed/ambiguous chart https://www.tokyotanshi.co.jp/wp-content/uploads/image-1993-1030x320.png SHA256 614fef2d351acb03a5de3a394f144b55379b13fa748b65eb1d14684c89720947; visual review required; run boj_ois.py --prepare-review. No current quote written.
+
+BOJ_MEETING_OIS.tsv: latest stored quote_as_of=2026-09-11T15:15:00+09:00; execution success does not certify source freshness.
+
+Running CFTC JPY Positioning...
+
+======================================================================
+  SAM CFTC JPY Positioning Monitor — 2026-09-14 22:28
+======================================================================
+
+  As of:             2026-09-08
+  Open Interest:        499,635
+
+  NON-COMMERCIAL (speculative) POSITIONING
+  ------------------------------------------------------------
+  Long:                 178,791 contracts
+  Short:                167,995 contracts
+  Net:                  +10,796 contracts
+  Spread:                28,735 contracts
+
+  WEEK-OVER-WEEK CHANGE
+  ------------------------------------------------------------
+  Long  Δ:              +61,622  ↑
+  Short Δ:              -41,401  ↓
+  Net   Δ:             +103,023  ↑
+
+  OBSERVED POSITION CHANGES
+  SHORT COVER: gross shorts down 19.8% versus prior week (>10% watch)
+  Gross longs increased
+  Position changes alone do not establish forced liquidation.
+
+  REFERENCE: -188,077 contracts on 2007-06-26; ratified from the record reviewed August 2026
+  Current net: +10,796
+  NET LONG; short-reference percentage not applicable
+  Historical storage: Pct_of_Jul24_Peak retains legacy -180,000 basis; not the current reference.
+
+  TSV already has 2026-09-08 — no append
+
+  MULTI-PRINT DRIFT CHECK (KB-SAM-231 successor; frozen bars)
+  ------------------------------------------------------------
+  Deadband +/-12,160 | drift bar 18,488 (1.5 x median|WoW| 12,325 over n=22 (2026-04-07..2026-09-01), frozen 2026-09-11)
+  2026-09-01 -28,929  +  2026-09-08 +103,023  =  +74,094
+  NOT APPLICABLE: 2026-09-08 moved outside the deadband and is graded on its own print.
+  ADVISORY ONLY (never grades): live median|WoW| 13,364 over n=23; frozen basis used 12,325.
+
+
+CFTC_JPY.tsv: latest stored Date=2026-09-08; execution success does not certify source freshness.
+
+Running Rate Differential (SAM-41)...
+
+======================================================================
+  SAM-41 — US-JAPAN RATE DIFFERENTIAL  (2026-09-14 22:28)
+======================================================================
+  Bar: 5Y gap < 2.25%  OR  10Y gap < 1.8%  on 5 CONSECUTIVE closes, by 2026-10-31
+  Overlapping observations: 342  (2025-04-02 → 2026-09-14)
+
+  Date           US5Y   JP5Y    gap5     US10Y  JP10Y   gap10
+  2026-09-02    4.540  2.332   2.208  ◀  4.790  3.006   1.784◀
+  2026-09-03    4.520  2.303   2.217  ◀  4.770  2.966   1.804 
+  2026-09-04    4.540  2.250   2.290     4.780  2.910   1.870 
+  2026-09-08    4.570  2.258   2.312     4.800  2.896   1.904 
+  2026-09-09    4.610  2.243   2.367     4.830  2.891   1.939 
+  2026-09-10    4.750  2.244   2.506     4.950  2.920   2.030 
+  2026-09-11    4.780  2.296   2.484     4.960  2.987   1.973 
+  2026-09-14    4.800  2.302   2.498     4.970  2.988   1.982 
+
+  CURRENT: 5Y gap 2.498% (+24.8bp vs bar) · 10Y gap 1.982% (+18.2bp vs bar)
+  CONSECUTIVE CLOSES THROUGH BAR: 5Y 0/5 · 10Y 0/5
+
+  🟢 no active run.
+
+  BASE RATE over the 342 observations held: 5Y below bar 123 (36%) · 10Y below 28 (8%) · either 129 (38%)
+  ⚠️  Short window (342 obs, one regime) — a base rate here does NOT calibrate
+     the 40%. SAM's own note stands: 40% is judgment, not calibration.
+
+  → RATE_DIFFERENTIAL.tsv (342 rows)
+
+
+RATE_DIFFERENTIAL.tsv: latest stored Date=2026-09-14; execution success does not certify source freshness.
+
+Running MOF Weekly Flows...
+
+======================================================================
+  SAM MOF Weekly Foreign Securities Flows — 2026-09-14 22:28
+======================================================================
+
+  Source: MOF ITS (authoritative)
+  Latest period: 2026．8．30～9．5
+  Total weeks available: 1131
+
+  LATEST WEEK — FOREIGN ASSET FLOWS (Japan residents)
+  ------------------------------------------------------------
+  Equity net:          ¥-481.6B
+  LT debt net:         ¥+111.9B  ~$+746M
+  Short-term debt net: ¥+103.8B
+  Subtotal net:        ¥-369.6B
+  Total net:           ¥-265.8B
+
+  INWARD — non-residents buying/selling JAPANESE securities
+  ------------------------------------------------------------
+  Equity net:          ¥+690.0B
+  LT debt net (JGBs):  ¥+449.6B
+  Total net:           ¥+864.4B
+
+  WEEKLY ALERT (SAM registered bar: >¥-1.50T selling in ONE week)
+  ------------------------------------------------------------
+  🟢 Weekly net buying ¥+111.9B — bar not applicable
+
+  ROLLING LT-DEBT NET (key repatriation signal)
+  ------------------------------------------------------------
+  4-week rolling:   ¥-1.55T  ~$-10.3B
+  12-week rolling:  ¥-266.6B  ~$-1.8B
+  12-week avg/week: ¥-22.2B
+
+  ALERT STATUS (vs THESIS Channel 1 scenario buckets)
+  ------------------------------------------------------------
+  🟡 ELEVATED — 4W selling > ¥1.4T (above base case upper): ¥-1.55T
+     → Base case upper breached. Monitor trajectory.
+
+  RECENT HISTORY (last 8 weeks — LT debt net)
+  ------------------------------------------------------------
+  2026．7．12～7．18      SELL    ¥-723.7B  ██████████████
+  2026．7．19～7．25      SELL    ¥-810.1B  ████████████████
+  2026．7．26～8．1       BUY    ¥+477.9B  ░░░░░░░░░
+  2026．8．2～8．8        BUY     ¥+1.54T  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  2026．8．9～8．15       BUY     ¥+1.14T  ░░░░░░░░░░░░░░░░░░░░░░
+  2026．8．16～8．22      SELL     ¥-1.98T  ███████████████████████████████████████
+  2026．8．23～8．29      SELL    ¥-824.0B  ████████████████
+  2026．8．30～9．5       BUY    ¥+111.9B  ░░
+
+  TSV already current
+
+
+MOF_FLOWS.tsv: no recognized observation-date column; freshness unverified.
+
+Running JPY xccy basis PROXY...
+FAIL: Child exited 1
+  🔴 Fixed near contract expired — NO VERDICT; existing history preserved
+
+XCCY_BASIS.tsv: latest stored Date=2026-09-10; execution success does not certify source freshness.
+
+Running GPIF Portfolio / Flows...
+
+======================================================================
+  SAM GPIF Portfolio / Flows Tracker — 2026-09-14 22:28
+======================================================================
+  Cadence: quarterly update PDFs (~5wk lag) + annual summary/holdings (~Jul 1-3).
+  Source:  https://www.gpif.go.jp/en/performance/latest-results.html
+
+  Found 1 report link(s) on page; 0 new since last run.
+  Nothing new — correct behavior between GPIF release windows, not a stale pull.
+
+  Appended 0 row(s) to GPIF_FLOWS.tsv
+  Next expected release: 1Q update should be posted (~Aug 1); next is 2Q ~early Nov
+
+
+GPIF_FLOWS.tsv: no recognized observation-date column; freshness unverified.
+
+Running Japan Trade Balance...
+  ⚪ No new trade-balance release. Latest in TSV: 2026-07 (sokuho).  Next: Japan trade balance, August (provisional) — 2026-09-16 08:50 JST.
+
+
+TRADE_BALANCE.tsv: no recognized observation-date column; freshness unverified.
+
+Running Japan CPI...
+
+======================================================================
+  SAM Japan CPI Monitor — 2026-09-14 22:28
+  BASIS: 2025-base  (statsDataId 0004052037, Tokyo cdArea 13100)
+======================================================================
+
+  ✓ CPI.tsv up to date (no new prints)
+
+  🟢 National 2026-07: headline 1.9 | core 1.8 (Toward consensus) | core-core 1.9 (Sticky) | gap +0.1pp → broad-based softening (less BOJ cover)
+  🟢 Tokyo    2026-08: headline 1.9 | core 1.8 (Toward consensus) | core-core 2.0 (Sticky) | gap +0.2pp → broad-based softening (less BOJ cover)
+  ℹ️  PAIRED 2026-07 core-core (Tokyo 1.8 / National 1.9): Tokyo -0.1pp vs National — narrower than the typical 30-40bp; Tokyo softness closing
+  ℹ️  LEAD 2026-08 Tokyo core-core 2.0 — National 2026-08 unpublished (latest 2026-07). Leading read, NOT a gap: do not difference across months.
+      (CALENDAR <1.9% trigger applies as <1.95% for Tokyo.)
+
+
+CPI.tsv: no recognized observation-date column; freshness unverified.
+
+Running Catalyst Countdown...
+
+======================================================================
+  SAM Catalyst Countdown — 2026-09-14 22:28  (45-day horizon)
+======================================================================
+
+  🔴 IMMINENT (≤5 trading days)
+  ------------------------------------------------------------------
+  🟠 🔧 2026-09-14 (Mon)   0d cal /  0d trd  Fixed CME yen proxy near contract expires
+       ↳ check: DECIDED 2026-09-11: DO NOT ACTIVATE. The existing monitor STOPS at expiry as designed. No splice, no silent roll. Pair selection 6JZ26->6JH27 stands; the FEED is declined, not the contracts.
+       ↳ signal: Decisive reason: the residual hard-codes assumed JPY 1.00% and the BOJ is 98% priced to 1.25% on 9/18 - holding it through the hike moves the residual +25.00bp and FLIPS THE SIGN (-9.55 -> +15.45bp) with no funding-market change, a 2.6x artifact reading as a regime break (KB-SAM-221 class). Also vendor rounding +3.06bp of a -9.55bp signal; legs desynced 37,786s; requirement 1 still needs a 2nd official anchor plus a reader that rejects rounded/desynced legs. Re-open needs ALL of: rejecting reader, two same-session official pairs, policy rate as an INPUT. Full record: research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md
+       ↳ send to: SAM
+  🟡    2026-09-15 (Tue)   1d cal /  1d trd  JGB 20Y auction
+       ↳ check: BTC ratio, tail
+       ↳ signal: Frozen bars APPLY at 20Y (BTC spans 2.967-4.820, straddles both bars; tail published): SOFT=BTC<3.5 OR tail>2.0bp; FIRM=BTC>=4.0 AND tail<=1.0bp. If the trip margin is <=0.1bp, tag PRECISION-LIMITED (MOF 3-decimal quantization IS 0.1bp) per thesis/AUCTION_GRADING_RULING_2026-09-11.md RULING 1 - letter grade stands, but may not be cited as evidence of demand without the tag. Strike-broadening watch continues; BOJ pre-meeting blackout T-2 of the Sep 17-18 MPM.
+       ↳ send to: SAM,LIQUID
+  🔴    2026-09-16 (Wed)   2d cal /  2d trd  FOMC decision (Sep 15-16) — SEP meeting
+       ↳ check: Dot plot; any walk-back of the Jun-17 +40bp dot revision
+       ↳ signal: Actual dot walk-back versus June 17 remains the registered Fed-side tripwire. August 7 labor premise superseded by September 4 BLS revisions; no current Fed probability authenticated.
+       ↳ send to: ALL
+  🟠    2026-09-16 (Wed)   2d cal /  2d trd  Japan trade balance, August (provisional)
+       ↳ check: Balance; export vs import legs - read crude VOLUME, not crude value (Jul: value +87.8% YoY, volume +5.5%; 12,106 kKL ~ 76.1 M bbl/mo ~ 2.46 mb/d, value 1,408.9B yen). 08:50 JST.
+       ↳ signal: The honest test of the oil-in-yen inversion (supply destruction => SURPLUS not deficit - the mechanism that killed SAM-15 @80%) AND leg (a) of the 2026-09-11 VECTOR-5 re-open test; legs (b) oil-in-yen >=18,000 yen/bbl on 5 consecutive completed sessions and (c) USD/JPY through 158 on the USDJPY=X completed-session basis were both FALSE at 2026-09-11. Keep quantities, prices and currency separate.
+       ↳ send to: SAM
+  🟠    2026-09-16 (Wed)   2d cal /  2d trd  BOJ 25Y+ JGB purchase operation date (SAM-33 schedule check)
+       ↳ check: Offer date, bucket size and BTC vs the Aug-31 quarterly schedule mpr260831a.pdf (25Y+ 750 x 100M yen per auction); read ope2026MMDD.xlsx at the operation record
+       ↳ signal: A scheduled-date/scheduled-size op does NOT count against SAM-33; an unscheduled fixed-rate op or a purchase increase explicitly capping a GRADUAL rise WOULD. Verify at the record, never infer from silence.
+       ↳ send to: SAM,LIQUID
+  🔴    2026-09-18 (Fri)   4d cal /  4d trd  BOJ MPM day 2 decision (Sep 17-18; no Outlook Report)
+       ↳ check: Policy rate; guidance; vote split (Takada dissented for 1.25% in July)
+       ↳ signal: MACRO WATCH; retired frame has no entry gate. Use dated reviewed Totan OTC meeting OIS in workbook/BOJ_MEETING_OIS.tsv and workbook/BOJ_OIS_README.md; prior BOJ_OIS.tsv is frozen history. No pricing percentage restated; incremental hike equivalent and cumulative expected counts are different measures. New images require SAM review.
+       ↳ send to: ALL
+  🔴 🔧 2026-09-18 (Fri)   4d cal /  4d trd  SAM-28 / SAM-31 grading at close; retired frame has no entry deadline
+       ↳ check: Grade eligible FXY tail-route and genuine risk-off yen-haven recoupling against frozen prediction terms.
+       ↳ signal: SAM-28 and SAM-31 remain OPEN. SAM-39 resolved Sep-4. Frame already retired Aug-7; no 80%-fuel retirement test or entry gate to rerun.
+       ↳ send to: SAM,PROME
+  🟠    2026-09-18 (Fri)   4d cal /  4d trd  Japan National CPI, August
+       ↳ check: Headline / core / core-core on the 2025 base
+       ↳ signal: Second National print on the new base; morning-of input (8:30 JST) to the same-day BOJ decision
+       ↳ send to: SAM
+
+  📅 UPCOMING (within 45 days)
+  ------------------------------------------------------------------
+  🟠    2026-09-29 (Tue)   15d cal /   8d trd  JGB 40Y auction
+  🟡    2026-09-30 (Wed)   16d cal /   9d trd  JGB 2Y auction
+  🟡    2026-09-30 (Wed)   16d cal /   9d trd  BOJ Oct-Dec 2026 JGB purchase schedule (17...
+  🟡    2026-10-01 (Thu)   17d cal /  10d trd  BOJ Tankan, September 2026 survey (Q3) — D...
+  🟠    2026-10-01 (Thu)   17d cal /  10d trd  BOJ Summary of Opinions — September 17-18 MPM
+  🟡    2026-10-02 (Fri)   18d cal /  11d trd  Tokyo CPI, September (preliminary)
+  🟡    2026-10-06 (Tue)   22d cal /  13d trd  JGB 10Y auction
+  🟠    2026-10-08 (Thu)   24d cal /  15d trd  JGB 30Y auction — THE NEXT TEST THE FROZEN...
+  🟡    2026-10-08 (Thu)   24d cal /  15d trd  MOF Balance of Payments, August (prelimina...
+  🟡    2026-10-14 (Wed)   30d cal /  18d trd  JGB 5Y auction
+  🟡    2026-10-14 (Wed)   30d cal /  18d trd  US CPI, September data, 08:30 ET
+  🟡    2026-10-20 (Tue)   36d cal /  22d trd  JGB 20Y auction
+  🟠    2026-10-21 (Wed)   37d cal /  23d trd  Japan trade balance, September (provisiona...
+  🟡    2026-10-23 (Fri)   39d cal /  25d trd  Japan National CPI, September
+  🟠    2026-10-28 (Wed)   44d cal /  28d trd  FOMC decision (Oct 27-28) — NO SEP
+  🟡    2026-10-29 (Thu)   45d cal /  29d trd  JGB 2Y auction
+
+  🔴 HIGH PRIORITY in horizon: 3
+     • Wed Sep 16 (2d) — FOMC decision (Sep 15-16) — SEP meeting
+     • Fri Sep 18 (4d) — BOJ MPM day 2 decision (Sep 17-18; no Outlook Report)
+     • Fri Sep 18 (4d) — SAM-28 / SAM-31 grading at close; retired frame has no entry deadline
+
+
+Freshness unverified here; consult explicit source clocks in child output.
+
+Running FXY Options OI...
+
+======================================================================
+  SAM FXY Options Monitor — 2026-09-14 22:28
+======================================================================
+
+  FXY spot: $59.43   [source: live]
+  Thesis strike zone: $58–$65 (target $60-62)
+  Expiries scanned: 4
+
+  AGGREGATE
+  ------------------------------------------------------------
+  Total Put OI:              13,602
+  Total Call OI:             97,722
+  P/C Ratio:                   0.14x  🟢 Call-heavy (bullish)
+  Thesis-zone Call OI:       83,142  (85.1% of total call OI)
+  🟢 Meaningful positioning in $58-$65 zone
+
+  VOL PROXY (FXY-derived; 2026-10-16, ~32d)
+  ------------------------------------------------------------
+  ATM IV (CVOL proxy):       16.24%  🟠 elevated
+  25d RR (USDJPY-conv):       -6.42  ↓ FXY calls bid = yen-strength demand (thesis-side)
+  (proxy: FXY ETF options ≠ CME CVOL / OTC RR — compare to own history)
+  Self-cal (22 priors, mean +0.17, σ 4.41):  z=-1.49  (Δ -6.59 vs norm)
+     ↓↓ RR well below own norm — yen-strength demand intensifying (thesis-side)
+
+  PER EXPIRY
+  ------------------------------------------------------------
+
+  2026-09-18, ~4d  (P/C 0.07x)
+     Puts:   2,502  Calls:  37,012  Zone-call: 35,019
+     ATM IV: 18.97%   25d RR: +3.71
+     Top puts:  $57=794, $58=738, $56=548
+     Top calls: $60=28025, $58=3593, $59=969
+
+  2026-10-16, ~32d  (P/C 0.55x)
+     Puts:     651  Calls:   1,187  Zone-call:  1,103
+     ATM IV: 16.24%   25d RR: -6.42
+     Top puts:  $57=268, $58=211, $60=88
+     Top calls: $60=485, $62=293, $61=112
+
+  2026-12-18, ~95d  (P/C 0.12x)
+     Puts:   2,838  Calls:  24,557  Zone-call: 23,503
+     ATM IV: 14.66%   25d RR: +2.20
+     Top puts:  $57=1091, $58=620, $56=333
+     Top calls: $60=18756, $58=1459, $63=1178
+
+  2027-01-15, ~123d  (P/C 0.22x)
+     Puts:   7,611  Calls:  34,966  Zone-call: 23,517
+     ATM IV: 11.97%   25d RR: -3.81
+     Top puts:  $50=2398, $55=1881, $58=1324
+     Top calls: $65=10830, $60=8672, $66=2367
+
+  Wrote/updated 4 row(s) in FXY_OPTIONS.tsv
+
+
+FXY_OPTIONS.tsv: latest stored Date=2026-09-14; execution success does not certify source freshness.
+
+PREDICTIONS: 3 OPEN from 34 validated rows (preamble counts ignored).
+Read-only reminders; no activation, resolution or grade performed.
+
+SAM-28 — OPEN
+Timeframe: Through Sep 18 2026
+Prediction: ≥1 eligible carry-unwind tail-route (risk-off / Fed-dot walk-back / oil-MOU re-escalation / hawkish-of-priced BOJ / sustained MOF #3) fires producing a ≥+3% FXY move by Sep 18 2026
+Notes: v1.6 carry-convexity-tail CORE test (leg-2 SPF as a falsifiable prediction; RED #2/#3). The frame "pays" iff this fires; modal outcome is NO-fire — the >50% mode. If Sep 18 passes with no qualifying fire AND positioning still ≥80% → convexity-tail retires to LOW (thesis-break leg-2). Net 60d EV ≈ break-even-to-slightly-negative (RED #1). 40% anchored to EV-table union P(any route fires) ~0.42/60d, +window-length −(≥+3% move bar). Window LOCKED Sep-18 per RED #3/#5. ⚠️ Window-end mechanics (2026-07-02): the Sep 17-18 BOJ MPM decision day lands ON the Sep-18 boundary — window INCLUSIVE of Sep-18; retire-check runs at Sep-18 close AFTER the BOJ decision prints (a trigger fired by it counts). Lock unchanged.
+Reminder: 4 calendar days remaining; 2026-09-18 [America/New_York]; At September 18 close after the BOJ decision. Close has no exact timestamp in the original terms; SAM reviews after the boundary.
+
+SAM-31 — OPEN
+Timeframe: Through Sep 18 2026
+Prediction: Cross-pair yen-haven channel re-couples (yen STRENGTHENS on a risk-off / VIX-spike episode rather than routing to USD-haven) by Sep 18 2026
+Notes: v1.6 reclaim-tripwire #2 (RED #1 flip-up). Channel decoupled Jun 11 (risk-off → USD-haven). Re-couple restores the joint +7%/10% risk-off route → reclaims MED-HIGH. 35% = requires a genuine VIX-spike regime, not hawkish-Fed equity bleed. Tracked w/ HENRY (cross-pair read).
+Reminder: 4 calendar days remaining; 2026-09-18 [America/New_York]; At September 18 close after the BOJ decision. Close has no exact timestamp in the original terms; SAM reviews after the boundary.
+
+SAM-33 — OPEN
+Timeframe: Through Dec 31 2026
+Prediction: Through Dec 31 2026 the BOJ does NOT deploy emergency/unscheduled long-end capping ops (fixed-rate purchase ops, or unscheduled increases to scheduled JGB purchases) to cap a GRADUAL super-long (30Y/40Y) yield rise
+Notes: v1.6.2 — tests the JGB demand-vacuum thesis's CENTRAL RISK (the BOJ-backstop leg) + RED CH-011. Mechanism-based: the BOJ reaction function is PACE-not-LEVEL; 2025 precedent = the BOJ let 30Y run +100bp to a record ~3.20% UNCAPPED (slowed taper, kept 25Y+ purchases). ⚠️ VOID/UNTESTED if no material long-end stress occurs in-window (30Y never tags ~4.0%+) — else it is a free TRUE; resolves only if the long end actually rises materially. FALSIFIER: BOJ announces an unscheduled fixed-rate op / JGB-purchase increase explicitly to cap a GRADUAL (non-disorderly) rise. A response to a genuinely DISORDERLY spike (≥~20-40bp/session, auction failure) does NOT falsify (that IS the let-run-truncates-disorder model). A scheduled taper-plan adjustment does NOT count. 72% = strong (2025 precedent + stated reaction function), discounted for the unverified Uchida quote (RED CH-013) + Takaichi-fiscal-pressure tail. Reads: BOJ ops announcements, FSR, Jul-31 FY2027 purchase plan. || 🔴 ACTIVATION STAMPED 2026-08-17 (flagged by the DAEDALUS structure review — a pre-registered gate the 8/17 break satisfied with NO READER). ⛔ THE VOID/UNTESTED CLAUSE IS LIFTED. Its condition was '30Y never tags ~4.0%+'; the 30Y has now tagged and HELD above it — MOF closes 4.002 on 8/13 AND 8/14 (the first closes above 4.00% since 5/20) and ~4.080 on 8/17 (Investing.com on-the-run basis, +1.3bp vs the MOF curve; never blend). ⇒ SAM-33 IS NO LONGER A FREE TRUE. It is now a genuine test earning its 72%: the BOJ either does or does not deploy emergency/unscheduled long-end capping while the super-long sits above 4.0%. ⚠️ The material-stress precondition is MET; the FALSIFIER is unchanged and still un-fired (an unscheduled fixed-rate op or JGB-purchase increase explicitly to cap a GRADUAL rise — a response to genuine DISORDER does not falsify). Grading horizon unchanged: Dec 31 2026. 📌 Why it went unstamped for four days: the activation condition lives in a PREDICTION's notes field, and nothing in the boot sweep reads prediction preconditions against live levels — the 8/13 and 8/14 MOF closes that satisfied it were read as a THRESHOLD event (Pillar 2) and never routed to the PREDICTION that keyed on the same number. Class: a carried assertion is a string; reading the level never evaluates the clause.
+Reminder: 108 calendar days remaining; 2026-12-31 [America/New_York]; Through the named date; exact cutoff not specified in the original row. SAM reviews; no automatic grade.
+
+
+BOOT SUMMARY: 12/14 executed scripts completed; 2 failed.
+Prediction reader: OK; inventory: OK.
+Elapsed 43.6s | Raw stdout/stderr and diagnostics: /tmp/sam-boot-20260914-network.jsonl
+Completion counts measure execution, not market freshness or analytical approval.

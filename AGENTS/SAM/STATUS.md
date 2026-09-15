@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-11 14:1x UTC (10:1x ET / Sep-11 23:1x JST) — Will-directed boot.** Market refresh only: **USD/JPY 153.43 (−0.62%), Brent $104.39 (−3.01%), FXY $59.77 (+0.62%)**; US Aug CPI printed (core one tick SOFT); **second Totan chart of the day (15:15 JST) reviewed + ingested — September pinned 98% a third stamp**; COR-20260910-02 receipted NO-OP; 9/10 block moved to `STATUS_ARCHIVE.md`. 🔴 **SAM-28's ≥+3% magnitude bar is CLEARED (+4.49%) with NO eligible route identified — see PREDICTIONS.** Book FLAT, $0 at risk, v1.7 unchanged, nothing re-arms.
+**Last written: 2026-09-15T02:44:04.083479+00:00 (September 14 ET / September 15 JST) — Will-directed boot.** Fresh source clocks below; report `reports/2026-09-14_boot.md`. v1.7 unchanged; book last recorded FLAT, not newly broker-reconciled.
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired; RED's blind pass CHG-RED-048 killed it four more ways independently). 🔧 **STALE FLAG CLEARED 2026-09-11: this line read "body UNREAD / Will-gated" for 15 days and was FALSE.** It described the 8/20→8/27 window; the **Will-authorized unseal and cross-read on 8/27 read RED's report IN FULL FIRST** (`thesis/V20_CROSSREAD_2026-08-27.md`; proven by verbatim body strings — "$53.3B", "0/7 discriminate", "the killer would sit green while the thesis died"). Nothing was owed to Will. ⚠️ **And the stale flag HID a real obligation — see § WHAT TO WATCH, salvage ④.** · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.**
 
@@ -14,6 +14,12 @@
 
 
 ---
+
+## 2026-09-14 (ET) — Startup refresh ahead of the policy week
+
+MOF September 14 curve places 30Y/40Y back above 4%; the same-date US–Japan gaps remain above both SAM-41 bars (0/5). CFTC Sep-8 net +10,796 reverified; gross shorts fell and gross longs/OI rose. This does not identify forced liquidation or the marginal price-setter. BOJ chart changed during review; latest Sep-15 11:15 JST image reviewed, validated and ingested: September 99% incremental 25bp equivalent. No thesis or prediction grade changes.
+
+Expired CME proxy unwired under the Sep-11 decision; real offshore basis remains unavailable. WALTER intake receipted with three analytical ACTION packets deferred explicitly to the report (SoftBank/JGB bills, GPIF headroom, Bessent attribution). These source claims are not adopted by receiving them. Pull/push deferred under shared-worktree rules.
 
 ## 2026-09-11 (ET) — $108 Brent is NOT a Japan trade: the arithmetic is ~20x short and the hike is 98% priced
 
@@ -41,20 +47,20 @@
 
 ## LIVE MARKET DATA
 
-*Vendor quotes Sep-10 16:0x UTC (12:0x ET) unless stated; MOF curve Sep-9 (Sep-10 not yet published); older research/funding observations retain their stated dates. Boot record preserves source clocks and limitations.*
+*Refreshed September 14 ET / September 15 JST. Each row retains its observation clock; rows not refreshed retain older dates. Intraday observations and completed sessions are distinct.*
 
 | Instrument | Level / vintage | Note |
 |---|---|---|
-| USD/JPY | **153.43** [2026-09-11 14:0x UTC, `USDJPY=X`]; BOJ **153.11–13 at 17:00 JST Sep-9** | 🆕 **−0.62% on the day, post-US-CPI.** Path 160.19 [9/1] → 153.43 = **−4.20%** — **strengthening THROUGH the oil shock**, and stronger vs EVERY cross today (EURJPY −0.59%, AUDJPY −0.33%) ⇒ broad yen, not only USD. ⛔ The `USDJPY=X` vendor series and the BOJ 17:00 JST fix are **different bases; never blend or difference across them** (WQ-162 basis line under KEY THRESHOLDS). |
-| **BOJ September pricing** 🆕 | **98% incremental 25bp equivalent; OIS 1.2213%**, **Sep-11 15:15 JST** | 🆕 **SECOND chart of the day** (15:15 JST, SHA `a500b396…`) reviewed and ingested: **September pinned at 98% for a THIRD consecutive publisher stamp**, OIS 1.2213 identical to 4dp, through +5.6% Brent, a $107–108 hold AND today's −3% pullback. **The forward path PARTLY UN-SHAVED in four hours** — Oct 25→**26%**, Dec 61→**63%**, Jan 36→**35%**, Mar 40→**41%**, cumulative 2.59→**2.62** (vs 2.63 at 9/10). ⚠️ **±0.03 cumulative on indicative medians does not discriminate any hypothesis — an observation, not a test of KB-SAM-240.** Indicative OTC/model-dependent, **not traded probability**; incremental 25bp equivalents ≠ cumulative hike counts. Expires Sep-18 00:00 JST or on image change. |
-| Brent / oil-in-yen 🆕 | **$104.39** (BZ=F continuous, 2026-09-11 14:0x UTC, **−3.01% on the day**); **oil-in-yen ¥16,017/bbl** | Proxy = BZ=F × `USDJPY=X` at matched timestamps. vs July average **¥15,291** (Brent $94.1 × ¥162.5): **+4.7% = oil +10.9%, yen −5.6%** ⇒ **the yen leg now absorbs ~57% of the oil move** (was ~40% at ¥16,594 this morning). Both VECTOR-5 legs (b)/(c) moved FURTHER false. ⚠️ `dashboard.py` reads **BZX26 Nov $107.80** — a different contract; never difference across them. Proxy excludes freight (spiking). |
-| JGB MOF **Sep-10** 🆕 | **2Y 1.823 / 5Y 2.244 / 10Y 2.920 / 20Y 3.754 / 30Y 3.995 / 40Y 4.003%** | Curve now published and ingested. Long end sold off **+3.9 to +4.3bp** on the oil day; **40Y back above 4.00%**. Vendor on-the-run and the MOF curve are **different bases, never blended**. Series highs 4.131/4.145 [Sep-1] historical. |
+| USD/JPY | **154.82** [Sep-15 02:27:47 UTC, Yahoo `USDJPY=X`] | Completed Sep-14 session **154.31**, 5-session max range **1.63 yen**. Separate completed-session basis from the live observation. |
+| **BOJ September pricing** | **99% incremental 25bp equivalent; OIS 1.2238%**, **Sep-15 11:15 JST** | Visually reviewed Totan image `785768b4…`; JST assumed. Later meeting equivalents Oct 27 / Dec 64 / Jan 33 / Mar 42%; cumulative count 2.63. Indicative OTC, not traded probability; expires Sep-18 00:00 JST or on image change. |
+| Brent / oil-in-yen | **$106.90**, BZ=F [Sep-15 02:15:18 UTC] | Continuous context quote; FX clock differs by 12 minutes. No fresh synchronized oil-in-yen product or completed-session five-day count asserted. |
+| JGB MOF **Sep-14** | **2Y 1.841 / 5Y 2.302 / 10Y 2.988 / 20Y 3.808 / 30Y 4.040 / 40Y 4.040%** | MOF curve, distinct from on-the-run quotes. Above the 30Y demand-floor watch; level alone does not identify sales or emergency capping. |
 | CFTC non-commercial JPY 🆕🔴 | **+10,796 — NET LONG**, Sep-8 (from −92,227) | 🔴 **FIRST NET-LONG WEEK IN THE TRACKED SERIES** (n=23, Apr-7→Sep-8). WoW **+103,023** = 87% of the 8/4 frame-break magnitude. ⚠️ **CHARACTER IS NOT A SQUEEZE:** longs **+61,622 (60% of the move)**, shorts −41,401 (40%), and **OI EXPANDED +87,753 (+21.3%)** to 499,635. A squeeze covers shorts and SHRINKS OI; this added participation on both sides with the LONG leg dominant ⇒ **reversal plus fresh accumulation, not forced covering.** Contrast 8/4: +117,939 on ~flat OI (−12,973) = pure reversal — a third distinct character. ⛔ **NOT 'crowded long': +10,796 is 5.7% of the −188,077 short extreme — the net is effectively FLAT, having crossed zero.** What changed is the SIGN of the asymmetry, not its size. |
 | CFTC TFF, Sep-1 | Leveraged net **−102,188**; asset-manager **−24,521** | Still pre-rally; no post-rally covering verdict. Gross legs in `docket/2026-09-11_CFTC_REVIEW.md`. |
-| FXY / YCS / EWJ / DXJ | 🆕 **FXY $59.77 (+0.62%, 9/11 14:0x UTC)**; YCS / EWJ / DXJ **$51.57 / $96.44 / $173.47**, 9/10 close | 🔴 **FXY 57.20 [9/1 close] → 59.77 = +4.49%, CLEARING SAM-28's ≥+3% magnitude bar — with NO eligible route identified as its cause.** See PREDICTIONS. **None is an oil instrument**: FXY/YCS are the 98%-priced hike, DXJ is currency-HEDGED and exporter-tilted. Vendor quotes, not certified execution marks. |
+| FXY / YCS / EWJ / DXJ | **FXY $59.43**, Sep-14 20:00 UTC; others retain Sep-10 marks in history | Refreshed FXY vendor close; no SAM-28 route attribution or grade. |
 | Japanese bank ADRs 🆕 | **MUFG $23.29 (+0.65%) / SMFG $26.55 (+0.91%) / MFG $11.06 (+1.10%)**, 9/10 | **ROSE on the +5.6% Brent day while EWJ fell −0.58%** — they price the RATE path (cumulative 2.59 hikes to Mar-2027), i.e. the leg just marked down, and are confounded by US rates. A rate trade, not an oil trade. |
 | DXY / VIX / S&P | **98.91 / 17.60 (+6.9%) / 7,592 (−0.58%)**, Sep-10 16:07 UTC | Gold 4,409.50; **US 10Y ^TNX 4.92%** (+8bp). Mild risk-off; **still no systemic volatility spike** (2026 VIX low 14.13). |
-| US–JP differential, Sep-9 | **5Y 2.367pp / 10Y 1.939pp** (US 4.61 / 4.83) | +11.7/+13.9bp above the 2.25/1.80 bars, widening on the US leg; runs 0/5. ^TNX is a different series from this script's US input; `RATE_DIFFERENTIAL.tsv` owns the number. SAM-41's historical confirmation unchanged. |
+| US–JP differential, Sep-14 | **5Y 2.498pp / 10Y 1.982pp** (US 4.800 / 4.970%) | Same-date script inputs; +24.8/+18.2bp above bars; runs **0/5**. Historical SAM-41 confirmation unchanged. |
 | JGB auctions | **5Y Sep-8 BTC 3.422× / tail 0.9bp**; **30Y Sep-3 BTC 3.788× / tail 2.1bp SOFT** on frozen bars | 5Y = belly, not a super-long floor test. 30Y tail 0.1bp trip margin equals quote quantization; precision ruling owed before the next tail test; uniform-price 40Y has no tail. |
 | MOF weekly foreign LT debt | **+¥111.9B**, Aug-30–Sep-5 | Inward JGB **+¥449.6B** (3rd straight inflow week). **4-week LT −¥1.55T = 🟡 above the ¥1.4T base-case upper**. Weekly inside the ¥1.5T bar; not UST-specific. |
 | U.S. / Japan funding, Sep-8–9 | SOFR−IORB **−1bp**; HY **271bp** [9/9]; Japan O/N **0.977%**, Tokyo repo T+1 **1.000%** [9/9 prov.] | Does not establish a cascade or measure offshore yen swaps. GC T/N commentary ~1.005% is a different observation. |
@@ -81,15 +87,15 @@
 
 | Level | Significance | Status |
 |---|---|---|
-| USDJPY 160 | Historical MOF zone; disorder, not level | Below at **153.43** [9/11 14:0x UTC]. Old gate **VOID, not rearmed**. ⛔ **There is no "≥160 count" on this desk** — SEARCH-NOT-FOUND at every owner surface; DOCKET L328/L34 attribute one to SAM-39 in error (SAM-39's instrument is the ≥2.5-yen intraday RANGE detector). |
-| USDJPY 155 | Yen-strength watch; investigate mechanism | Below at **153.43**; path 160.19 [9/1] → 153.43 [9/11 14:0x UTC] = **−4.20%** — **strengthening THROUGH the oil shock**, and stronger vs EVERY cross today. Threshold observation is not mechanism confirmation. |
-| USDJPY 158 🆕 | **VECTOR-5 re-open leg (c)** — terms-of-trade channel moving the currency | **FALSE** — **153.43** and strengthening; **4.57 yen away and running the WRONG way.** Requires a weakening THROUGH 158 while Brent holds. |
+| USDJPY 160 | Historical MOF zone; disorder, not level | Below at live 154.82; completed Sep-14 154.31. Retired gate remains VOID; no ≥160 count registered. |
+| USDJPY 155 | Yen-strength watch; investigate mechanism | Below at live 154.82; completed Sep-14 154.31. No mechanism grade. |
+| USDJPY 158 | VECTOR-5 re-open leg (c) | Not crossed on latest completed Sep-14 close 154.31. Joint Brent condition not re-evaluated; no re-open. |
 | USDJPY 147 / 145 | Carry / insurer investigation levels; no forced-flow inference | Above both. |
-| JGB 10Y 2.40% | Stress crossover | 🔴 Above: **2.920%** (MOF Sep-10). |
-| JGB 30Y 4.0% | Contested demand-floor zone, not a disorder trigger | Below: **3.995%**; **40Y 4.003% — back ABOVE 4.00%** (MOF Sep-10, +4.3bp on the oil day). SAM-33 activation remains met; falsifier un-fired through Sep-9 ops. |
-| JGB 30Y 4.5% | Contested statutory-impairment tail, disorder-only, mid-cap bifurcation | ~50.5bp away; no forced-sale inference from level alone. |
-| Brent $90 / $120 | Oil-in-yen context / shock watch | **$104.39** [BZ=F, 9/11 14:0x UTC, **−3.01% on the day**]. $120 not tagged. **Oil-in-yen ¥16,017/bbl.** ⛔ **No repatriation grade from a high oil-in-yen print** — that is the SAM-15 (@80%, FAILED) shape; the mechanism INVERTED (supply destruction → trade SURPLUS) and the inversion still holds on current data. |
-| Oil-in-yen ¥18,000/bbl 🆕 | **VECTOR-5 re-open leg (b)** — a LEVEL, not a spike | **FALSE** — **¥16,017**, i.e. **¥1,983 short** and widening (was ¥16,594 this morning). Requires **5 consecutive completed sessions** ≥¥18,000 (≈ Brent $117 at ¥154). |
+| JGB 10Y 2.40% | Stress crossover | Above at 2.988%, MOF Sep-14. |
+| JGB 30Y 4.0% | Contested demand-floor zone | Above: 30Y and 40Y 4.040%, MOF Sep-14. SAM-33 op-record review remains through Sep-9; next Sep-16. |
+| JGB 30Y 4.5% | Contested impairment tail | 46bp away on MOF Sep-14; no forced-sale inference. |
+| Brent $90 / $120 | Oil context / shock watch | BZ=F $106.90, Sep-15 02:15:18 UTC. Continuous context quote, not a registered contract-specific count. |
+| Oil-in-yen ¥18,000/bbl | VECTOR-5 re-open leg (b) | Not re-evaluated this boot: synchronized contract-specific five-completed-session observations required. Prior Sep-11 assessment FALSE; no fresh count. |
 | CFTC −108K | Retired frame's leg-1 invalidation | Fired Aug-7. Historical gate unchanged by corrected normalization. |
 | CFTC −140K / −153K | Historical DE-LOAD / reclaim lines | No rearm — and the question is now moot in direction: **Sep-8 printed +10,796, NET LONG.** Retired short-side lines cannot fire on a long book. |
 | CFTC open interest | Distinguish short build from liquidation | 🆕 **499,635, +87,753 (+21.3%) WoW Sep-8** — the discriminator did its job: OI RISING alongside a +103,023 net swing rules OUT a pure short squeeze and points to fresh two-sided participation. |
@@ -100,14 +106,11 @@ Retired entry triggers remain void; this is a research docket.
 
 | When | Event | Why it matters |
 |---|---|---|
-| Sep-10/11 | ✅ CLOSED — MOF Sep-10 curve; **Totan Sep-11 — TWO charts (11:15 + 15:15 JST): Sep pinned 98% BOTH times, cumulative 2.63→2.59→2.62**; **August CGPI (PPI +7.6% YoY, import PI yen basis −3.0% m/m)** | Sep-7/8 intervention attribution still OPEN. |
-| Sep-11 15:30 ET | CFTC positions as of Sep-8 · US CPI 08:30 ET | **First post-rally positioning snapshot**; `docket/2026-09-11_CFTC_REVIEW.md` prepared. Waller's vote is keyed on this CPI. |
-| Before Sep-14 | Fixed CME proxy pair expiry | Dec–Mar pair selected; settlement-feed precision/timing hold. Existing instrument stops; **no splice**. |
 | **Sep-16** | 25Y+ BOJ operation date · **Japan August trade balance 08:50 JST** · FOMC (Sep-15 20Y auction) | 25Y+ date = repeat the KB-SAM-238 schedule check for SAM-33. **Trade balance is leg (a) of the VECTOR-5 re-open test AND the honest test of the oil-in-yen inversion — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%). |
 | Sep-17/18 | **BOJ MPM** (98% priced, +25bp to 1.25%) and National CPI | **Read the VOTE SPLIT, not the rate** — a 2+ dissent *for a faster pace* is the only hawkish surprise left. Second: whether the statement NAMES oil, and how (downside-risk-to-activity ⇒ dovish-for-pace; second-round-price-risk ⇒ hawkish). Third: the balance-sheet line (FY2027 halt-the-reduction ~¥2T/mo is the KNOWN June-MPM plan; a change is the surprise). **The surprise is a HOLD, and it is yen-NEGATIVE.** |
 | Sep-18 close | SAM-28 and SAM-31 | Both OPEN; `docket/2026-09-18_SAM28_SAM31_REVIEW.md` carries evidence/ambiguities. |
 | ⚠️ **owed, undated** | 🆕 **RED salvage ④ — a REAL JPY xccy-basis instrument** | **The v2.0 kill salvaged four things; ④ is the sizing/basis instruments, and RED called the JPY cross-currency basis *"the single highest-value output of the review… the nearest thing to a DISCRIMINATING observation that exists"* — a ~$400B swap-funded book is invisible to CFTC but **not to its funding market**. ⛔ **On 2026-09-11 I let the fixed CME proxy lapse (correctly — it sign-flips on the 9/18 hike) and wrote that "no threshold, gate, prediction or trade trigger depends on it." That was true and INCOMPLETE: this salvage obligation did, and it was tracked nowhere.** The defective proxy still should not be activated; what is owed is a genuine instrument (policy rate as an INPUT, a reader that rejects rounded/desynced legs, two same-session official pairs). Registered here so it stops being invisible. |
-| Sep-29 | 40Y auction | Uniform-price 40Y has no tail. Register tenor-appropriate terms before the window; counter remains 0-of-2. |
+| Sep-29 | 40Y auction | September 11 ruling: descriptive BTC only, no FIRM/SOFT grade; uniform-price has no tail. Counter remains 0-of-2. |
 | Sep-30 17:00 JST | BOJ Oct–Dec JGB purchase schedule | Per `mpr260831a.pdf`. A scheduled taper-plan adjustment does **NOT** count against SAM-33; an unscheduled capping op would. |
 
 ## POSITION — FLAT
@@ -116,7 +119,7 @@ No FXY position was ever opened; $0 was at risk through the convexity-tail episo
 
 ## CHANNELS · BOJ · FED
 
-**BOJ policy rate is 1.00%; the September MPM is 98% priced for +25bp to 1.25% (read the VOTE SPLIT, not the rate — see the 9/11 block).** Channel 1 remains RETIRED and requires direct foreign SALES at ≥2 institutions across ≥2 consecutive windows; yields and ESR are co-conditions, never substitutes. Carry-convexity/positioning frames remain retired. **Mechanism canon → `thesis/THESIS.md`; September MPM source detail and the officials' record → `STATUS_REFERENCE.md` § CHANNELS · BOJ · FED.**
+**BOJ policy rate last recorded 1.00%; current indicative September pricing is in LIVE MARKET DATA.** Channel 1 remains RETIRED and requires direct foreign SALES at ≥2 institutions across ≥2 consecutive windows; yields and ESR are co-conditions, never substitutes. Carry-convexity/positioning frames remain retired. **Mechanism canon → `thesis/THESIS.md`; September MPM source detail and the officials' record → `STATUS_REFERENCE.md` § CHANNELS · BOJ · FED.**
 
 ## COMPRESSED SESSION-NOTE POINTERS
 *Narratives → `thesis/timeline/TIMELINE.md`; full bodies in git history. Compression passes: 7/11, 7/23, 8/02, 8/13, 8/14, 8/17, 8/20, **8/23**.*
@@ -140,7 +143,7 @@ No FXY position was ever opened; $0 was at risk through the convexity-tail episo
 
 **As-made audit (DAEDALUS H2, dispositioned 9/10 → `audits/2026-09-10_asmade-disposition.md`):** 13 of 15 MISMATCH candidates were level percentages the tool read as confidence — no edit; five two-vintage rows converted to the WQ-112 field form; **one scoring vintage changes: SAM-07 75% → 48%.** Scoreboard unchanged.
 
-Calibration residue: **naming a risk and underweighting it is distinct from missing it** (Aug-7 confirmation assigned 45%, realized branch ~25%; provisional grade and flat book preserved). CFTC weekly deadband misses multi-week rebuilds; successor terms remain owed. JGB cross-month series defect was repaired September 1; backfill scope decision remains open. Full post-mortems → `thesis/PREDICTIONS_ARCHIVE.md`.
+Calibration residue: **naming a risk and underweighting it is distinct from missing it** (Aug-7 confirmation assigned 45%, realized branch ~25%; provisional grade and flat book preserved). CFTC multi-print drift check and FY2025 JGB backfill were completed September 11; see MEMORY and KB-SAM-243/245. Full post-mortems → `thesis/PREDICTIONS_ARCHIVE.md`.
 
 ---
 

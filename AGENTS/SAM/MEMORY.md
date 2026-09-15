@@ -29,6 +29,12 @@
 
 ## Session Notes
 
+### BOOT — September 14 ET / September 15 JST
+- Full market sweep and bounded orientation completed; BOJ chart changed during validation, latest reviewed chart ingested. Expired CME proxy unwired and resolved calendar rows preserved outside forward feed. Report: `reports/2026-09-14_boot.md`.
+- WALTER 15 deliveries receipted; three analytical tasks remain DEFERRED (007/010/016), exact asks in report. Membership lookup now explicitly searches exact IDs; log preserved.
+- Next: Sep-15 auction; Sep-16 trade/ops/FOMC; Sep-18 CPI/BOJ and original SAM-28/31 review. No thesis or grade change. Pull/push deferred while peers hold dirty files.
+
+
 ### CHANGES SINCE LAST SESSION (found at the Sep-11 ~01:00 ET PROME-spawned boot, ~9h gap)
 - **August CGPI printed (9/11 08:50 JST, BOJ `cgpi2608.pdf`, own primary): PPI −0.2% m/m / +7.6% YoY; Import PI yen basis −3.0% m/m / +24.8% YoY, contract-currency −1.0% m/m / +16.7% YoY; petroleum/coal/natural gas contributed −1.18pp** to the contract-currency monthly fall. **August import prices FELL in BOTH currencies and oil was the largest single DRAG — terms of trade IMPROVED.** 🔧 The same primary shows **July PPI +7.7% r / June +7.4%**, superseding the 7.2%/7.1% pair this desk carried from the 8/13 release.
 - **New Totan chart (publisher stamp 9/11 11:15 JST, SHA `45825f9d…`) reviewed and ingested: September UNCHANGED at 98%** (OIS 1.2213%, unchanged to 4dp) while **Oct 28→25%, Dec 62→61%, Jan 35→36%, Mar 42→40%, cumulative 2.63→2.59**. Two consecutive oil-shock sessions moved September by ZERO and shaved the forward path.
@@ -70,8 +76,8 @@
 ### NEXT SESSION
 
 **TIER 0 — DATED:**
-- **Sep-11 (partially resolved):** ✅ CGPI done at the primary (above). **STILL OPEN TODAY:** 08:30 ET **US CPI** (Waller's vote keys on it; consensus +0.4/+0.4, 3.4/2.4 y/y) and **15:30 ET CFTC Sep-8 positions — FIRST POST-RALLY READ**, packet ready at `docket/2026-09-11_CFTC_REVIEW.md`. Sep-1 was −92,227 and predates the move; do not read it as a post-rally position.
-- ✅ **Sep-14 feed — DECIDED: DO NOT ACTIVATE; monitor STOPS at expiry.** Why → KB-SAM-244 + `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (the residual hard-codes JPY 1.00% ⇒ the 9/18 hike flips its sign, +25.00bp). Pair 6JZ26→6JH27 stands; the FEED was declined. **🆕 ACTION ON/AFTER SEP-14: unwire `xccy_basis.py` from `boot.py`** — its guard returns 1 forever once expired, and a FAIL every boot for a known-good reason is what trained this desk to read past `grade_8_14_branch.py`.
+- **Sep-11 (partially resolved):** ✅ CGPI done at the primary (above). **Historical Sep-11 reminder, now resolved (CPI and CFTC verified in later sessions):** 08:30 ET **US CPI** (Waller's vote keys on it; consensus +0.4/+0.4, 3.4/2.4 y/y) and **15:30 ET CFTC Sep-8 positions — FIRST POST-RALLY READ**, packet ready at `docket/2026-09-11_CFTC_REVIEW.md`. Sep-1 was −92,227 and predates the move; do not read it as a post-rally position.
+- ✅ **Sep-14 feed — DECIDED: DO NOT ACTIVATE; monitor STOPS at expiry.** Why → KB-SAM-244 + `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (the residual hard-codes JPY 1.00% ⇒ the 9/18 hike flips its sign, +25.00bp). Pair 6JZ26→6JH27 stands; the FEED was declined. **DONE Sep-14: `xccy_basis.py` unwired from `boot.py` and listed manual-only** — its guard returns 1 forever once expired, and a FAIL every boot for a known-good reason is what trained this desk to read past `grade_8_14_branch.py`.
 - **Sep-16:** 25Y+ op date → repeat the KB-SAM-238 record check (now a docket row) · **Japan August trade balance 08:50 JST — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%) · FOMC.
 - **Sep-17/18:** BOJ MPM · National CPI · **SAM-28/31 grading at close** per `docket/2026-09-18_SAM28_SAM31_REVIEW.md`; original rows govern. FXY episode endpoints and the VIX-spike fixing convention remain UNRESOLVED — do not silently invent either at grading time.
 - ✅ **Auction terms RULED → `thesis/AUCTION_GRADING_RULING_2026-09-11.md`.** **Sep-29 40Y = NOT-APPLICABLE** (uniform-price: FIRM unreachable, SOFT fires w.p.1) — descriptive BTC only, NO grade, counter stays 0-of-2. **Sep-15 20Y: bars APPLY**, but tag **PRECISION-LIMITED** if the trip margin ≤0.1bp. No 40Y bar registered (n=2 ⇒ unfalsifiable); re-assess at n=5. Old note:
