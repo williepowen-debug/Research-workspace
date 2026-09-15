@@ -63,7 +63,11 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
+### CHANGES SINCE LAST SESSION — 2026-09-15
+
+Boot repair pass implemented in Codex; owner state, delivery rules, diagnostics, read manifest and thirteen directory summaries repaired. Operational boot remains PARTIAL. Current evidence and remaining work: `research/2026-09-15_boot-repairs/RESULTS.md` and `LAST_COMPLETION.md`.
+
+### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
 
 - **BOARD 969 → 973 (four dispatches; final -027 landed during closeout).** No fire on any registered trigger. Doctor 0 HIGH throughout.
 - **A CONTRACT-ROLL ARTIFACT SWEPT TO ITS SOURCE** on Will's instruction — origin `-015` §③; five surfaces, three desks; matched contracts showed BOTH legs rose.

@@ -46,15 +46,13 @@ Routing + receiving-layer readiness (`CLAUDE.md` IDENTITY owns the statement). D
 
 ### Today's routing + stale agents
 
-**September 14 (Mon, evening ~18:1x–23:1x ET): 3 BOARD signals, 10 dispatch handoffs + 12 correction notes, 2 kill rows (3 items), 0 verify-spawns, 0 cluster-mediating.** `-024` PRIORITY (action BRENT) · `-025` PRIORITY (action OSPREY+BRENT) · `-026` ROUTINE info-only (VULCAN/HENRY/WATT). **Corrections delivered: `-025` to OSPREY+HENRY; `-015` §③ withdrawal to ALL TEN original recipients.**
+**2026-09-15 maintenance:** no new dispatches or recipient messages; three existing BOARD entries received additive owner-return corrections. September 14 evening total was **four signals (-024 through -027), BOARD 969→973**; the three-signal recap omitted the final closeout dispatch. Route/delivery logs own recipient counts.
 
-**Exempt-no-handoff: CARL · RED · PROME · TERRY** — but **all four received the `-015` correction NOTE**, because a create-only note cannot be surfaced by a BOARD ID-diff and the lane is its only channel (§3.5.1). **PROME's copy went to `PROME/inbox/` at repo root, NOT `AGENTS/PROME/`** — see the regression note in the lead.
+**REGISTRY refreshed:** thirteen Focus rows reconciled with dated owner evidence, including OSPREY's September 15 return and DEWEY's resolved September 10 delivery. This is a header/state reconciliation, not a new market pull. The former “no refresh needed” assertion was wrong.
 
-**REGISTRY: NO refresh needed and none manufactured.** Every active desk's OWN declared stamp was read (never `git log`, which measures my inbound traffic) and **no row lags** — `registry_lag` agrees. Step 13 was a genuine no-op today and is recorded as one.
+**Receiving layer:** full fleet-session visibility unavailable in this Codex runtime; UNKNOWN is not DARK. Latest doctor snapshot: 31 aged items across 10 desks, 7 ACTION/24 INFO; no owner inbox was cleared by this maintenance. OSPREY's dated return supersedes the old dark/two-item claim.
 
-**Liveness:** `ListAgents` showed **brent-95, prome-54, reginald-29 — all idle**; `ORCH_INFLIGHT.md` 0 IN-FLIGHT, corroborated by 9b(d) foreign-dirty `git status` finding no `AGENTS/<DESK>/` tree modified. **One doorbell row logged, NOT doorbelled: OSPREY is DARK carrying two unconsumed `action:` items (`-023`, `-025`) — gate passed P0/L1/L2, FAILED L3** (no dated referent; last drained 9/11). ⚠️ **Accumulation deliberately not treated as a gate leg — the gate is about DECAY, not COUNT.**
-
-**Did NOT pull at boot** (PROME dirty outside my dir — root §Before-pulling step 2); repo was 0 behind origin, so the pull was a no-op either way. **Pushed throughout; every push receipt confirmed.**
+**Git:** repair implementation committed locally as `2701229d4`; push deferred because concurrent foreign dirty work was observed. Previous operating-session routing/liveness narrative preserved in SESSION_LOG.md as historical. Current results: `research/2026-09-15_boot-repairs/RESULTS.md`.
 
 ## Active LIAISON channels
 

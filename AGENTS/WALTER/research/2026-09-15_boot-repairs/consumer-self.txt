@@ -1,0 +1,14 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 160 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded -12.4 → current -11.21
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/WALTER/SESSION_LOG.md:801  [12.4]  (needle <5 sig digits)
+           **Updated:** 2026-07-27 (Mon ~3:20 PM ET boot → ~4:2xZ closeout / **US MARKETS OPEN**; Will-terminal. **THIRD WALTER session of the day — a 
+
+  🟠 1 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

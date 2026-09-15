@@ -1,0 +1,18 @@
+spec                                     spec-header  STATE §1  status
+--------------------------------------------------------------------------
+design/SIGNAL_FORMAT_SPEC.md                   v0.21     v0.21  ok
+design/ROUTING_TABLE.md                        v0.38     v0.38  ok
+design/FILTER_SPEC.md                           v0.7      v0.7  ok
+design/SIGNAL_PROCESSING_CHECKLIST.md          v0.46     v0.46  ok
+design/CLUSTER_TAXONOMY.md                      v0.7      v0.7  ok
+design/BOARD_CONSUMPTION_SPEC.md               v0.30     v0.30  ok
+design/OPERATOR_BRIEF_SPEC.md                   v0.1      v0.1  ok
+design/SIGNAL_INTAKE_TEMPLATE.md                v0.1      v0.1  ok
+design/PHONE_SIGNAL_INGESTION.md                v1.2      v1.2  ok
+--------------------------------------------------------------------------
+design/ROUTING_CARVEOUTS.md                    v0.38     v0.38  ok (lockstep with design/ROUTING_TABLE.md)
+design/ROUTING_OVERLAYS.md                     v0.38     v0.38  ok (lockstep with design/ROUTING_TABLE.md)
+design/THRESHOLD_SCAN.md                       v0.46     v0.46  ok (lockstep with design/SIGNAL_PROCESSING_CHECKLIST.md)
+--------------------------------------------------------------------------
+
+✓ STATE.md §1 matches every spec header; companions in lockstep.

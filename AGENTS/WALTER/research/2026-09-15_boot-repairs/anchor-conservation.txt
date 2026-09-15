@@ -1,0 +1,7 @@
+source      : AGENTS/WALTER/research/2026-09-15_boot-repairs/anchor-rotation-source.md
+destinations: AGENTS/WALTER/anchors/IRAN_WAR_HISTORY.md
+source lines: 5 (5 distinct)  [blank lines ignored]
+output lines: 717
+added (scaffolding, expected): 712
+
+✅ CONSERVED: every source line appears in the outputs. Nothing lost.

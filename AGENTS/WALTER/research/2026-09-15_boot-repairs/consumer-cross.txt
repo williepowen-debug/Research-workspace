@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded -12.4 → current -11.21
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (30)
+        AGENTS/VIOLET/board_log.tsv:134  [12.4]  (needle <5 sig digits)
+           2026-09-15T03:38:03+00:00	SIG-W-20260911-007	noted	INBOX_WALTER	Dated RED FT-11/FT-06 context only; RED owns grades. Sep 7 VIX bar is a holi
+        AGENTS/CRUISE/STATUS.md:28  [12.4]  (needle <5 sig digits)
+           | RCL price | **$260.14** (9/11 +0.44% d) — −2.1% since 9/2, −14.7% since 8/14; **−12.4% BELOW its own 3-mo mean $296.96 — the leg that fail
+        AGENTS/HOMER/STATUS_COLD.md:25  [12.4]  (needle <5 sig digits)
+           > **★★ 8/23 (Sun) — WILL-DIRECTED CURRENCY SWEEP. I WENT LOOKING FOR STALE *STRINGS* AND THE REAL DEFECT WAS FOUND BY AUDITING FOR *AGE*.** 
+        AGENTS/HOMER/STATUS_COLD.md:109  [12.4]  (needle <5 sig digits)
+           | **★★ Housing Starts / Permits / Completions — JULY (REFRESHED 8/23, CB26-127 rel 8/18; I was carrying JUNE). THE COMPOSITION INVERTED.** |
+        AGENTS/HOMER/LESSONS_COLD.md:188  [12.4]  (needle <5 sig digits)
+           **Mistake, caught before publishing (2026-08-23).** Census CB26-127 (July New Residential Construction). Search summaries and trade press le
+        AGENTS/HOMER/LESSONS_COLD.md:189  [12.4]  (needle <5 sig digits)
+           ★ **Second, subtler trap in the SAME release: permits and starts have DIFFERENT ERROR STRUCTURES.** Permits (Table 1) come from a **non-prob
+        AGENTS/HOMER/STATUS.md:59  [12.4]  (needle <5 sig digits)
+           | **★★ Starts / permits** | **STARTS 1,239K SAAR, −12.4% MoM, −13.5% YoY — but PERMITS ROSE 1,443K, +5.0% MoM** *(July CB26-127)* | 🔴 |
+        AGENTS/DEWEY/output/2026-07-10_criticized-credit-migration.md:46  [12.4]  (needle <5 sig digits)
+           - **Cohort-wide reserve RELEASES** (OZK −3.4, EGBN −12.4, BKU −11, SBCF −2.6; only WAL a token +0.5): banks are NOT provisioning alongside t
+        … +22 more 🟠 hit(s) on [12.4] across 25 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  🟠 30 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

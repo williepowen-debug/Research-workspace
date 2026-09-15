@@ -1,3 +1,24 @@
+- **2026-09-15 — Codex WALTER, Will-directed boot repairs (maintenance; operational boot PARTIAL).** Corrected owner state/routing rules, diagnostic failure modes, reader declaration and stale directory summaries. Two owner packets integrated and consume-declared; three existing BOARD entries annotated. No new dispatch or market grade. Evidence: `research/2026-09-15_boot-repairs/RESULTS.md`. Local implementation commit `2701229d4`; push deferred because foreign dirty work was observed.
+
+  **Correction to the September 14 historical narrative below:** evening total was FOUR signals, BOARD 969→973 (final -027 arrived during closeout). The seasonal curve did not establish an annual bar crossing; the sampled winter minimum was ABOVE $30. These historical claims are superseded, not current instructions.
+
+### September 14 network recap, preserved verbatim during September 15 repair — superseded
+
+### Today's routing + stale agents
+
+**September 14 (Mon, evening ~18:1x–23:1x ET): 3 BOARD signals, 10 dispatch handoffs + 12 correction notes, 2 kill rows (3 items), 0 verify-spawns, 0 cluster-mediating.** `-024` PRIORITY (action BRENT) · `-025` PRIORITY (action OSPREY+BRENT) · `-026` ROUTINE info-only (VULCAN/HENRY/WATT). **Corrections delivered: `-025` to OSPREY+HENRY; `-015` §③ withdrawal to ALL TEN original recipients.**
+
+**Exempt-no-handoff: CARL · RED · PROME · TERRY** — but **all four received the `-015` correction NOTE**, because a create-only note cannot be surfaced by a BOARD ID-diff and the lane is its only channel (§3.5.1). **PROME's copy went to `PROME/inbox/` at repo root, NOT `AGENTS/PROME/`** — see the regression note in the lead.
+
+**REGISTRY: NO refresh needed and none manufactured.** Every active desk's OWN declared stamp was read (never `git log`, which measures my inbound traffic) and **no row lags** — `registry_lag` agrees. Step 13 was a genuine no-op today and is recorded as one.
+
+**Liveness:** `ListAgents` showed **brent-95, prome-54, reginald-29 — all idle**; `ORCH_INFLIGHT.md` 0 IN-FLIGHT, corroborated by 9b(d) foreign-dirty `git status` finding no `AGENTS/<DESK>/` tree modified. **One doorbell row logged, NOT doorbelled: OSPREY is DARK carrying two unconsumed `action:` items (`-023`, `-025`) — gate passed P0/L1/L2, FAILED L3** (no dated referent; last drained 9/11). ⚠️ **Accumulation deliberately not treated as a gate leg — the gate is about DECAY, not COUNT.**
+
+**Did NOT pull at boot** (PROME dirty outside my dir — root §Before-pulling step 2); repo was 0 behind origin, so the pull was a no-op either way. **Pushed throughout; every push receipt confirmed.**
+
+
+---
+
 - **2026-09-14 Mon ~18:1x–23:1x ET — Full WALTER, TIER-2 FULL closeout.** **BOARD 969 → 972** (`-024` Petroline→Yanbu tanker freight · `-025` Goldman/Russian refinery outages · `-026` semis memory-cost, 7 lane items consolidated to 1 because 5 shared a publisher). **2 kill rows / 3 items, all date-kills; 4 DUP/NO-ACTION.** **No fire on any registered trigger. Doctor 0 HIGH throughout.**
 
   **BOOT STEP 7g EARNED ITS EXISTENCE AGAIN.** HENRY's 15:52 packet settling the 2022 diesel record sat UNREAD in `inbox/*.md` while `LAST_COMPLETION` and `MEMORY` both said that leg was "SETTLED — discharged this session." **Both were true about HENRY's WORK and false about MY OBLIGATION:** `SIG-W-20260910-020` was still telling the fleet, at IMMEDIATE with `action: BRENT`, that the record was broken. The 14:01 annotation had gone onto a NEW row (`-015`), never onto `-020`. Corrected additively (55→78 lines).

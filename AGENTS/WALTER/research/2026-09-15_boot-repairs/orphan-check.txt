@@ -1,0 +1,1 @@
+✓ orphan check clean — nothing uncommitted outside AGENTS/WALTER/

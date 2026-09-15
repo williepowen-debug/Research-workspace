@@ -21,7 +21,7 @@ The first repair pass is implemented. This is a maintenance completion, **not a 
 - Doctor: **0 HIGH, 3 MED** on the saved run. The remaining warnings are listed below; changes in recipient backlog during this session are other desks' activity, not evidence these repairs consumed their work.
 - Both text-move conservation checks pass. Iran anchor is **22,766 B**, below the 22,785 B post-rotation stop. See size-changes.json for measured reductions; the charter remains a substantial boot cost.
 - Git whitespace and STATUS weekday checks pass. Consumer-number scan returned candidates, not certified stale consumers; VIOLET's matching entry is its correction receipt. No bulk numeric replacement was made.
-- Post-commit read-manifest freshness check is pending the implementation commit because the new BASIS helper must first have git history. Final receipt will replace this line after that check.
+- Post-commit read-manifest freshness check **rc=0**, attested September 15: 39 declared live reads and 18 basis sources. The separate size checker **rc=0**, 18 concrete files measured, zero over budget. Class/conditional reads and scoped exclusions remain explicit; this is not all-content coverage.
 
 ## Remaining work and limits
 
@@ -29,7 +29,7 @@ The first repair pass is implemented. This is a maintenance completion, **not a 
 2. **Operational work:** full current trigger grading, image triage/routing, the Iran full primary sweep due about September 17, and owner instrument gaps. Old data retains its observation date. No fresh market pull was necessary to verify these software/document repairs.
 3. **Existing carries:** historical timestamp anomalies, old undeclared processed moves, staged-deletion/archive-pair checker, broader semantic/path drift detection and other design proposals in LAST_COMPLETION. These pre-existing follow-ups are not claimed fixed by a narrower checker.
 4. **Owner/Will decisions:** #6/#8 contract-month basis remains unresolved; do not redesign bars to eliminate seasonal alerts. Fetch identity review/calibration and consumer spread guards remain separate from the implemented metadata fix.
-5. **Git:** local commit only; push deferred under the WALTER rule because concurrent foreign dirty work was observed earlier in the session. Delivery is not claimed on unpushed changes. No post-push ledger reconciliation should run before a successful push.
+5. **Git:** implementation commit **2701229d4**, local only; push deferred under the WALTER rule because concurrent foreign dirty work was observed earlier in the session. Delivery is not claimed on unpushed changes. No post-push ledger reconciliation should run before a successful push.
 
 ## Evidence
 
