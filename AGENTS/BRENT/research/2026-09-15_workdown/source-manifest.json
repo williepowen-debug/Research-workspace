@@ -1,0 +1,42 @@
+{
+  "air-india.html": {
+    "bytes": 113414,
+    "sha256": "d812d38cf51fa31c05edf954d6b8472a0199884f4c61439c34e545d011fab47c"
+  },
+  "airasia-group.html": {
+    "bytes": 143098,
+    "sha256": "435bf8b5fd6f2ce0d1a18cfc178bf4c3cc889547ed6a505c6bae6661474f403e"
+  },
+  "airasia-philippines.html": {
+    "bytes": 145929,
+    "sha256": "5c2fabf0a3ef9ece0ce683b24f5508c3755d67044a265cdcdf308c359cac2a72"
+  },
+  "argus.html": {
+    "bytes": 191509,
+    "sha256": "7f23f00614ead62fd84a39038cdd91c17d1663575bb3df360d05e26918683054"
+  },
+  "bh-current.xlsx": {
+    "bytes": 7271026,
+    "sha256": "6d532e68ce0b4c445a9a841728d1f26c805463e4aaed64390a6e4116b0f0fc71"
+  },
+  "bh-listing.html": {
+    "bytes": 27407,
+    "sha256": "d44d8df409668f308ecefe9186e4c34ff16c62b5ba98beecdd29db053eabe628"
+  },
+  "iata-index.html": {
+    "bytes": 555273,
+    "sha256": "40720666a390b23d4f6f790af454f18d69930d858b8ae7a7360a5c55fc374d43"
+  },
+  "iata-report-page.html": {
+    "bytes": 93897,
+    "sha256": "b63d4a005a6b64c488d40d88555613c45dde87d6c0af8625ba3f71912329a44a"
+  },
+  "iata-report.pdf": {
+    "bytes": 174850,
+    "sha256": "0b0c8e7d867bf3287b2f15178debec3717b0402cb7f6b90483b351d9aa225b59"
+  },
+  "thai-airasia.html": {
+    "bytes": 145073,
+    "sha256": "efe84f2993ce31b0611fb1f1bde806bd396128e1488b4a9be6643b34fcf79298"
+  }
+}

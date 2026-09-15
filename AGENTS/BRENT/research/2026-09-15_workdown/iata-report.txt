@@ -1,0 +1,61 @@
+Chart of the Week                                                                                                 11 September 2026
+
+Structural Shifts Increase Jet Fuel Crack Risks
+Jet fuel crack spread, USD per barrel
+     USD per barrel
+                                                  Jet fuel crack spread (Global jet fuel prices index less Dated Brent)
+     100                                          Post-Covid average (2022–present)
+                                                  Pre-Covid average (2012–19)
+
+      80                                          Covid average (2020–21)
+
+
+
+      60
+
+
+
+      40
+
+
+
+      20
+
+
+
+       0
+        2012                2014                2016                  2018             2020           2022        2024        2026
+
+Source: S&P Global Energy Platts, IATA Sustainability and Economics
+
+
+ ▪    Fuel is the largest operating expense for airlines. Jet fuel costs more than crude oil, and the difference
+      between the two is called the jet fuel crack spread. Given the historically strong correlation between jet fuel
+      and crude oil prices, airlines have been able to manage fuel price exposure primarily through crude oil
+      market risks.
+ ▪    However, this strong correlation has weakened in recent years following the post-covid recovery in oil
+      demand. The market is now experiencing higher and more volatile crack spreads, and the recent average
+      crack spread is over USD 12 per barrel higher than the pre-covid average. Challenges in the refining sector
+      were already lifting expectations for higher average crack spreads from the lows seen in 2020-2021, but
+      the increased volatility since then was unexpected.
+ ▪    A consistent but uneven decline in refining capacity, particularly in developed economies, has intensified
+      the supply concentration risks that were already present in crude oil markets. Regions with shrinking
+      refining capacity have become increasingly dependent on imports from surplus regions, exposing them to
+      external supply shocks. Moreover, the International Maritime Organization’s low-sulfur regulation, effective
+      since 2020, supported a higher floor for middle-distillate premiums, including diesel and jet fuel. The
+      regulation requires shippers to use lower-sulfur fuel oil, increasing demand for the middle-distillate product
+      stream (refined petroleum products captured from the middle boiling range during the fractional distillation
+      of crude oil, and key products include diesel, jet fuel, heating oil, and marine diesel oil).
+ ▪    Diesel tends to be the major driver of refinery profits. Disruptions in the middle-distillate and notably diesel
+      markets can have a disproportionate impact on jet fuel availability and pricing. The war in Iran has crystalized
+      the vulnerabilities in the jet fuel supply chains yet further, making fuel cost management increasingly
+      challenging for airlines, in addition to the impact of the higher price of jet fuel.
+
+Terms and Conditions for the use of this IATA Economics Report and its contents can be found here:
+                                                                                                      IATA Sustainability & Economics
+By using this IATA Economics Report and its contents in any manner, you agree that the IATA                        economics@iata.org
+Economics Report Terms and Conditions apply to you and agree to abide by them. If you do not accept
+these Terms and Conditions, do not use this report.
+
+www.iata.org/economics
+

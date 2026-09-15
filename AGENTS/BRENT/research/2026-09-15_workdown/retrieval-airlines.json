@@ -1,0 +1,42 @@
+[
+  {
+    "name": "airasia-group",
+    "url": "https://newsroom.airasia.com/news/airasia-group-financial-results-second-quarter-2026",
+    "retrieved_at": "2026-09-15T19:03:23.690097+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "disposition": null,
+    "final_url": "https://newsroom.airasia.com/news/airasia-group-financial-results-second-quarter-2026",
+    "bytes": 143098
+  },
+  {
+    "name": "thai-airasia",
+    "url": "https://newsroom.airasia.com/news/2026/8/14/aav-announces-financial-results-second-quarter-2026",
+    "retrieved_at": "2026-09-15T19:03:24.033948+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "disposition": null,
+    "final_url": "https://newsroom.airasia.com/news/2026/8/14/aav-announces-financial-results-second-quarter-2026",
+    "bytes": 145073
+  },
+  {
+    "name": "airasia-philippines",
+    "url": "https://newsroom.airasia.com/news/2026/8/8/airasia-philippines-ranks-no-1-among-the-worlds-most-punctual-low-cost-airlines-in-july-2026",
+    "retrieved_at": "2026-09-15T19:03:24.747737+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "disposition": null,
+    "final_url": "https://newsroom.airasia.com/news/2026/8/8/airasia-philippines-ranks-no-1-among-the-worlds-most-punctual-low-cost-airlines-in-july-2026",
+    "bytes": 145929
+  },
+  {
+    "name": "air-india",
+    "url": "https://www.airindia.com/in/en/newsroom/press-release/Air-India-rationalises-international-route-network-through-August-2026.html",
+    "retrieved_at": "2026-09-15T19:03:25.342153+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "disposition": null,
+    "final_url": "https://www.airindia.com/in/en/newsroom/press-release/Air-India-rationalises-international-route-network-through-August-2026.html",
+    "bytes": 113414
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "iata-report-page",
+    "url": "https://www.iata.org/en/publications/economics/chart-week/chart-of-the-week-11-september-2026/",
+    "retrieved_at": "2026-09-15T18:56:58.497177+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "disposition": null,
+    "final_url": "https://www.iata.org/en/publications/economics/chart-week/chart-of-the-week-11-september-2026/",
+    "bytes": 93897
+  },
+  {
+    "name": "iata-report",
+    "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/structural-shifts-increase-jet-fuel-crack-risks/",
+    "retrieved_at": "2026-09-15T18:56:59.010044+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "disposition": null,
+    "final_url": "https://www.iata.org/en/iata-repository/publications/economic-reports/structural-shifts-increase-jet-fuel-crack-risks/",
+    "bytes": 174850
+  }
+]

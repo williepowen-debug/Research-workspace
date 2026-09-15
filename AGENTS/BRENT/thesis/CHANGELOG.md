@@ -1,3 +1,7 @@
+## 2026-09-15 — first workdown batch (v5.8 unchanged)
+
+September 11 rig observation moves from secondary/ungraded to primary-verified 450 (+1), NOT BREACHED against 457; BRT-26 remains OPEN, no confidence change. BRT-29 M coverage extends to AirAsia and first-announcement controls; still unresolved, no final grade. Direct Saudi cargo reporting recovered and IATA physical jet basis integrated; no aggregate lost barrels, BG-02 fire or phase change established. Sale outcome supplied directly by Will recorded in TRADE. [Evidence and repair report](../research/2026-09-15_workdown/REPORT.md).
+
 # 2026-09-08 — Prediction history cleanup (no thesis or grade change)
 
 ## 2026-09-09 — September STEO evidence completed (v5.8 / grades unchanged)

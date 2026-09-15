@@ -1,0 +1,42 @@
+[
+  {
+    "name": "bh-listing",
+    "url": "https://rigcount.bakerhughes.com/na-rig-count",
+    "retrieved_at": "2026-09-15T17:46:13.154810+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "disposition": null,
+    "final_url": "https://rigcount.bakerhughes.com/na-rig-count",
+    "bytes": 27407
+  },
+  {
+    "name": "bh-current",
+    "url": "https://rigcount.bakerhughes.com/static-files/ac9a8c23-3a35-4a0c-88d3-d8678af2f5c6",
+    "retrieved_at": "2026-09-15T17:46:13.475482+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "disposition": "attachment; filename=\"09-11-2026 North_America Rig_Count Report.xlsx\"",
+    "final_url": "https://rigcount.bakerhughes.com/static-files/ac9a8c23-3a35-4a0c-88d3-d8678af2f5c6",
+    "bytes": 7271026
+  },
+  {
+    "name": "argus",
+    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2878080-aramco-defers-cancels-some-european-sep-crude-sources",
+    "retrieved_at": "2026-09-15T17:46:13.926874+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "disposition": null,
+    "final_url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2878080-aramco-defers-cancels-some-european-sep-crude-sources",
+    "bytes": 191509
+  },
+  {
+    "name": "iata-index",
+    "url": "https://www.iata.org/en/publications/economics/chart-week/",
+    "retrieved_at": "2026-09-15T17:46:14.615370+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "disposition": null,
+    "final_url": "https://www.iata.org/en/publications/economics/chart-week/",
+    "bytes": 555273
+  }
+]

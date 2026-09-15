@@ -2,43 +2,43 @@
 
 ## CHANGES SINCE LAST SESSION
 
-- Boot/audit requested by Will. Network retry successful; four finding groups remain. September 14 analysis remains dated; no fresh thesis adjudication.
-- One PROME correction packet, then five late WALTER packets (001/004/005/006/007); no MSG files.
+- Will authorized work through the backlog and confirmed USO September 11 $159 call sold before expiry.
+- Direct Baker Hughes workbook, Argus September 15 cargo report and IATA September 11 PDF recovered; no new live market-price pass.
 
 ## WHAT I DID THIS SESSION
 
-- Completed boot and manual pending/corrections review. Full results and durable queue: [report](research/2026-09-15_boot/REPORT.md).
-- Fixed OSPREY ruling pointer, obsolete ledger warnings, closed-spread action cells, and the current-looking retracted absence claim.
-- Rewrote this contradictory handoff; exact prior version and edited trade/docket/glob before-images are in research/2026-09-15_boot/before/.
-- No new prediction grade, thesis bump, trade, threshold or send. L27 already exists; separate September 12 resolver lesson remains owed.
+- Fixed receipt parser, explicit-expiry check, rig-reader transport/date/US-row validation and DIESEL-CRACK probe_scope metadata. Regression cases include defective inputs.
+- Graded September 11 BRT-26 observation at the primary; full prediction remains OPEN. Updated registry, note, predictions, changelog and docket.
+- Integrated IATA at its actual jet/Dated-Brent basis; recovered Argus reporting with quantities/attribution still unknown. Reviewed additional airline primary announcements; BRT-29 M still unresolved, not established.
+- Recorded call CLOSED with unknown price/proceeds; cleaned TRADE header, rotated September 14 STATUS detail verbatim, refreshed owner summaries with explicit vintage boundaries.
+- Evidence and validation: [workdown report](research/2026-09-15_workdown/REPORT.md). No thesis bump, trade, threshold change or outbound send.
 
 ## NEXT SESSION (dated, future-verifiable)
 
-- NEW, due September 16: SIG-005 Saudi cargo deferral sources/volumes; SIG-006 IATA jet physical basis; SIG-007 synchronized Shanghai/Brent chart. SIG-004 YASREF verification owed by FALCON; SIG-001 gasoline/natural-gas correction noted.
-
-1. September 16 10:30 ET WPSR: L305 SPR second print, Cushing, BRT-29 T; frozen arithmetic in docket.
-2. OVERDUE: BRT-29 M (August 31 deadline); September 11 BRT-26 primary grade; incident reviews. Research limits and remaining candidates in report and BRT-29 note.
-3. September 17–25 BG-02 window: operator/state evidence first, existing restrictive resolver only. WQ-234 awaiting Will by September 18 in existing record.
-4. September 18 Friday pair: rigs; COT after ~15:30 ET, expect September 15 observation, raw primary cross-check.
-5. September 25 17:00 ET BG-02 window close; September 30 BRT-12/BRT-29 evidence and adjudication. Full later calendar in docket.
+1. September 16 10:30 ET WPSR: L305 SPR second print, Cushing, BRT-29 T; use frozen docket arithmetic.
+2. September 16: SIG-005 cargo quantities/windows/replacements and SIG-007 synchronized Shanghai/Brent chart. FALCON owns SIG-004 YASREF verification.
+3. OVERDUE August 31 BRT-29 M: next review September 16, carrier-specific first-announcement dates beyond group releases; retain original deadline and unresolved status. Six standing rows and 12 incident-status reviews also owed.
+4. September 17–25 BG-02 window: operator/state evidence and restrictive resolver; WQ-234 existing Will deadline September 18.
+5. September 18 next rig print and COT after ~15:30 ET (expect September 15 observation); September 25 17:00 ET BG-02 window close; September 30 BRT-12/BRT-29 adjudication.
 
 ## OPEN THREADS / WATCHES
 
-- All prior unresolved threads retained in report: Yanbu offtake/two trackers/AIS, gas primary check, war-risk terms, incident additions, seasonality/month basis, GROUP_MAP and separate resolver lesson.
-- Nine ACTIVE incident rows and three other present-tense rows stale; seven standing rows unreconciled.
-- New repair debt: DIESEL-CRACK probe_scope contains narrative; pending_receipts parser counts a navigation label and misses the unmarked expired option outcome. TRADE's stacked historical header also needs cleanup.
-- Prior DAEDALUS read-floor dependency remains open; no automatic widening of read budgets.
+- Yanbu offtake/two trackers/AIS, gas primary, war-risk terms, incident additions, seasonality/month basis, GROUP_MAP, separate resolver lesson: retained in workdown and prior boot report.
+- Nine ACTIVE and three other incident rows need operating evidence. Six standing rows unreconciled; no automatic restart or clean stamp.
+- DAEDALUS read-floor dependency remains open; no widening of read budgets. Friday COT remote schedule repair prepared previously, installation unverified.
 
 ## POSITION DECISIONS PENDING
 
-- Recorded WQ-192 stand-down. TRADE owns holdings and binding specs. September 11 USO 159C outcome unrecorded; do not infer sale, worthless expiry or exercise.
-- Staged Nov-20 165/180 remains unproposed; existing four approval/economics constraints unchanged. No broker session or current order review.
+- WQ-192 stand-down remains. TRADE owns holdings/specs; September 11 call outcome resolved by Will, exact sale date/price/proceeds unknown.
+- Staged November 20 165/180 remains unproposed; existing approval/economics constraints unchanged. No broker session/current order review.
 
-## MAIL STATE
+## MAIL STATE (one line per signal)
 
-- One PROME packet consumed/logged/archived. Five late WALTER packets read and DEFERRED with log rows; still untracked sender work, left in inbox/WALTER pending sender commit. No sends.
+- SIG-001 commodity distinction noted; SIG-004 YASREF verification deferred to FALCON.
+- SIG-005 direct article recovered, quantities partial; SIG-006 source/basis integrated; SIG-007 chart still deferred.
+- Five sender-owned WALTER files remain untracked, archive pending sender commit; board log records integration. No sends this session; prior unresolved outbound loops retained.
 
 ## WORKBOOK HEALTH
 
-- Calendar regenerated; seven standing-row findings retained. L27 was written September 14; the old claim 'no lesson written' was stale.
-- Startup pull and closeout push deferred under root Git Protocol: unrelated WALTER/shared changes. Own work committed locally; no shared files staged.
+- Tests and closeout checks recorded with their limits in workdown report. INCIDENTS and LESSONS unchanged: no verified operating-state evidence or new lesson written in this batch.
+- Local exact-path commit; no sender-owned files staged. Pull deferred while sender work is uncommitted.

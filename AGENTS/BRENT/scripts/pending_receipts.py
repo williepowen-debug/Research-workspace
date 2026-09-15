@@ -26,105 +26,131 @@ passes on the strength of the thing it is supposed to doubt.
   it never opens. This check closes that loop from the READER's side, which is the only side
   this desk controls. It does not fix routing and does not pretend to.
 
-⇒ The check: for every EXECUTION LOG row still marked PENDING/⏳, look the ticker up in the
-FORGE mirror and report when FORGE shows closure language the pending row has not absorbed.
+September 15 extension: scan only EXECUTION LOG and POSITIONS (live). Explicit
+receipt_status markers take precedence; outstanding receipts always produce findings.
+FORGE closure text is a candidate for contract/account matching, never proof by ticker.
+Positions with explicit expiry=YYYY-MM-DD and no terminal outcome also produce findings.
 
-FAIL-CLOSED: if FORGE is unreadable, that is FINDINGS, not OK -- an unreadable mirror is
-exactly when a stale PENDING row is most dangerous. A check that certifies clean when its
-own input is missing is the silent-fallback-green class boot.py exists to kill.
+Scope: text-only checks cannot see fills absent from both files, infer expiry dates
+from contract prose, or establish sale prices. Missing required inputs fail closed.
+A clean run means no unresolved receipt or explicitly dated expired holding was found
+within these sections; it does not certify broker holdings or profit/loss.
 
-⚠️ WHAT THIS CANNOT DO, so nobody reads a clean run as an all-clear: it compares TEXT in two
-files. It cannot see a fill that reached NEITHER surface, it cannot price or date anything,
-and a clean run means "FORGE does not contradict my pending rows" -- never "my pending rows
-are true." Only the broker settles that. [[finding_freshness_check_cannot_catch_a_fresh_lie]]
+Exit: 0 = no scoped outstanding item · 2 = FINDINGS · 1 = check itself broke.
 
-Exit: 0 = no contradiction found · 2 = FINDINGS · 1 = check itself broke (desk convention).
 """
 import re
 import sys
 from pathlib import Path
+from datetime import date
 
 BRENT = Path(__file__).resolve().parent.parent
 ROOT = BRENT.parent.parent
 TRADE = BRENT / "TRADE.md"
 FORGE = ROOT / "FORGE" / "STATUS.md"
 
-PENDING_RE = re.compile(r"PENDING|⏳", re.I)
-# ⛔ v1 OF THIS CHECK FAILED ON ITS FIRST LIVE RUN, both ways, and the fixes are below.
-# [[finding_test_the_guard_not_just_the_guarded]] — a guard's own v1 fails on first RUN.
-#
-# ① A RESOLVED row that NARRATES its own former pendingness re-triggered the scanner: my
-#    corrected XLE row contains the sentence "the row sat PENDING for three days". Prose
-#    MENTIONING the marker reclassified the row.
-#    [[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]
-RESOLVED_RE = re.compile(
-    r"RESOLVED|RECEIPT IN HAND|\bFILLED\b|DISCHARGED|✅", re.I)
-# Closure language a mirror uses. Deliberately broad: a FALSE POSITIVE costs one lookup,
-# a FALSE NEGATIVE costs what the XLE row cost.
-CLOSED_RE = re.compile(r"\bSOLD\b|\bCLOSED\b|\bFLAT\b|×0|\bx0\b|qty\s*0\b|\b0\s*—\s*SOLD", re.I)
-# Tickers this desk can own. Explicit allowlist beats a regex that harvests every capital word.
+# September 15: extends the existing receipt check; supersedes whole-file table
+# scanning and false-green unresolved receipts. L20/L22/L27: falsify with real
+# navigation, historical fill prose, a different contract, and a missing section.
+PENDING_RE = re.compile(r"\bPENDING\b|\bUNRESOLVED\b|⏳", re.I)
+CLOSED_RE = re.compile(r"\bSOLD\b|\bCLOSED\b|\bFLAT\b|×0|\bx0\b", re.I)
 TICKERS = ("USO", "XLE", "XOP", "STNG", "EOG", "VLO", "MPC", "OXY", "CVX", "XOM", "BNO", "LNG")
+
+
+def section_rows(text, title):
+    """Read one exact level-2 section. Missing/empty perimeter cannot pass."""
+    match = re.search(r"^## " + re.escape(title) + r"\s*$", text, re.M)
+    if not match:
+        raise ValueError(f"missing TRADE section: {title}")
+    body = re.split(r"^## ", text[match.end():], maxsplit=1, flags=re.M)[0]
+    rows = []
+    for line in body.splitlines():
+        if not line.lstrip().startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if cells[0] in ("Date", "Position") or all(re.fullmatch(r"[-: ]+", c) for c in cells):
+            continue
+        rows.append((line, cells))
+    if not rows:
+        raise ValueError(f"no data rows in TRADE section: {title}")
+    return rows
 
 
 def rows_with_pending(text):
     out = []
-    for ln in text.splitlines():
-        if not ln.lstrip().startswith("|"):
+    for line, cells in section_rows(text, "EXECUTION LOG"):
+        if len(cells) != 3:
+            raise ValueError("EXECUTION LOG row must have Date / Action / Detail")
+        # An explicit marker wins; an entry fill elsewhere in the prose must
+        # never suppress an outstanding exit receipt on the same row.
+        explicit = re.search(r"receipt_status=(PENDING|RESOLVED)\b", line, re.I)
+        if explicit:
+            if explicit[1].upper() == "PENDING":
+                out.append(line)
             continue
-        if PENDING_RE.search(ln) and not RESOLVED_RE.search(ln):
-            out.append(ln)
+        detail = re.sub(r"[*`]|✅|⏳", "", cells[2]).strip()
+        resolved = re.match(r"(?:RESOLVED\b|RECEIPT IN HAND\b|DISCHARGED\b)", detail, re.I)
+        # The legacy closed-spread row uses an hourglass immediately qualified
+        # by RESOLVED. Ignore that pair, not a separate PENDING in the same row.
+        markers = re.sub(r"⏳\s*RESOLVED\b", "RESOLVED", line, flags=re.I)
+        if PENDING_RE.search(markers) and not resolved:
+            out.append(line)
+    return out
+
+
+def expired_without_outcome(text, today):
+    out = []
+    for line, cells in section_rows(text, "POSITIONS (live)"):
+        if len(cells) != 4:
+            raise ValueError("POSITIONS row must have four cells")
+        # Examine identity/type/status only. A different historical sale in the
+        # source cell does not close this position. Never infer a year from today.
+        state = " ".join(cells[:3])
+        if CLOSED_RE.search(state):
+            continue
+        expiry = re.search(r"expiry=(\d{4}-\d{2}-\d{2})\b", state)
+        if expiry and date.fromisoformat(expiry[1]) < today:
+            out.append(line)
     return out
 
 
 def main():
-    if not TRADE.exists():
-        print("🔴 FAIL: TRADE.md not found", file=sys.stderr)
-        return 1
-    trade = TRADE.read_text(encoding="utf-8")
+    try:
+        trade = TRADE.read_text(encoding="utf-8")
+        pend = rows_with_pending(trade)
+        expired = expired_without_outcome(trade, date.today())
+    except (OSError, ValueError) as exc:
+        print(f"  🔴 PENDING-RECEIPTS: CANNOT CERTIFY: {exc}")
+        return 2
 
-    pend = rows_with_pending(trade)
-    if not pend:
-        print("  ✅ PENDING-RECEIPTS: no EXECUTION LOG row is marked PENDING/⏳.")
-        print("     ⚠️  Clean here means FORGE does not CONTRADICT this surface — never that")
-        print("        the surface is true. Only the broker settles a position.")
+    if not pend and not expired:
+        print("  ✅ PENDING-RECEIPTS: no unresolved execution receipts or elapsed explicit expiries.")
+        print("     Scope: EXECUTION LOG markers and POSITIONS expiry=YYYY-MM-DD fields only.")
+        print("     Broker truth and unrecorded trades remain outside this text check.")
         return 0
 
-    if not FORGE.exists():
-        print(f"  🔴 FINDINGS: {len(pend)} PENDING row(s) and the FORGE mirror is UNREADABLE at {FORGE}.")
-        print("     Fail-closed by design: an unreadable mirror is exactly when a stale PENDING")
-        print("     row is most dangerous. Verify each row at the broker before trusting it.")
-        return 2
-    forge = FORGE.read_text(encoding="utf-8")
-
-    findings = []
+    print(f"  🔴 PENDING-RECEIPTS: {len(pend)} unresolved receipt(s); {len(expired)} elapsed expiry row(s).")
     for row in pend:
+        print("     UNRESOLVED RECEIPT: " + row.strip())
+    for row in expired:
+        print("     EXPIRY OUTCOME REQUIRED: " + row.strip())
+    try:
+        forge = FORGE.read_text(encoding="utf-8")
+    except OSError as exc:
+        print(f"     FORGE unavailable: {exc}. Resolve at owner/broker; never reaffirm from the label.")
+        return 2
+    for row in pend + expired:
         for tic in TICKERS:
             if not re.search(rf"\b{tic}\b", row):
                 continue
-            for fl in forge.splitlines():
-                # ② v1 matched FORGE's long PROSE banners, which contain tickers and the word
-                #    "SOLD" in narrative. Require an actual TABLE ROW: pipe-delimited with
-                #    enough cells to be a position row, not a paragraph that starts with ">".
-                if not fl.lstrip().startswith("|") or fl.count("|") < 4:
-                    continue
-                if re.search(rf"\b{tic}\b", fl) and CLOSED_RE.search(fl):
-                    findings.append((tic, row.strip()[:150], fl.strip()[:200]))
-                    break
-
-    if not findings:
-        print(f"  ✅ PENDING-RECEIPTS: {len(pend)} PENDING row(s); FORGE shows no closure "
-              f"language for any of their tickers.")
-        print("     ⚠️  NOT an all-clear — a fill that reached neither surface is invisible here.")
-        return 0
-
-    print(f"  🔴 PENDING-RECEIPTS — FINDINGS ({len(findings)}): FORGE contradicts a PENDING row.")
-    print("     ⛔ Do NOT 'reaffirm' these. Resolve each at the artifact FORGE names, or at the broker.")
-    for tic, row, fl in findings:
-        print(f"\n     ── {tic} ──")
-        print(f"        TRADE.md (still PENDING): {row}")
-        print(f"        FORGE mirror says       : {fl}")
-    print("\n     ⚠️  FORGE is a MIRROR, not the broker. It can itself be stale; it is evidence")
-    print("        that the two surfaces disagree, never a fill receipt on its own.")
+            candidates = [ln for ln in forge.splitlines()
+                          if ln.lstrip().startswith("|") and ln.count("|") >= 4
+                          and re.search(rf"\b{tic}\b", ln) and CLOSED_RE.search(ln)]
+            if candidates:
+                print(f"     {tic}: FORGE has closure CANDIDATES. Match contract/account before resolving:")
+                for candidate in candidates:
+                    print("       " + candidate.strip())
+    print("     Absence of a FORGE contradiction does not resolve an owed receipt.")
     return 2
 
 
