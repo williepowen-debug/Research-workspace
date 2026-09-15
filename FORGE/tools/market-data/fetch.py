@@ -51,6 +51,7 @@ elif not _VENV_PY.exists():
         _sys.exit(2)
 
 import json
+import math
 import os
 import sys
 import time
@@ -59,6 +60,7 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 from datetime import datetime
+from decimal import Decimal
 
 # ---------------------------------------------------------------------------
 # Config
@@ -710,9 +712,8 @@ def price_fetch(tickers, delta_threshold=0.0):
     # ⇒ my own not-cache-failures repair traded LOUD-AND-STALE for
     # SILENT-AND-CERTIFYING, which is the worse direction.
     # `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
-    # Re-fetching the shortfall keeps BOTH properties: a transient failure heals
-    # on retry (the point of not caching errors), a persistent one still reports.
-    missing = [t for t in tickers if t not in cached]
+    # A legacy cached error also needs retrying; presence alone is not success.
+    missing = [t for t in tickers if t not in cached or "error" in cached[t]]
     if cached and not missing:
         _audit_log("PRICE_CACHE_HIT", {"tickers": len(tickers)})
         if delta_threshold > 0:
@@ -725,6 +726,10 @@ def price_fetch(tickers, delta_threshold=0.0):
     if cached and missing:
         _audit_log("PRICE_CACHE_PARTIAL",
                    {"cached": len(cached), "refetch": len(missing)})
+        # L394/R1: merging old successes and then writing a new basket timestamp
+        # renewed quotes we never fetched. Refresh ALL members before renewing
+        # that timestamp. Complete baskets still use the ordinary cache hit.
+        cached = {}
 
     start_time = time.time()
     results = dict(cached)
@@ -997,6 +1002,38 @@ def _dated_symbol(ticker, month_label):
     return f"{root}{code}{str(yr)[-2:]}"
 
 
+def _probe_number(value):
+    """Finite vendor number, or None. Zero/negative prices remain valid."""
+    if isinstance(value, bool) or not isinstance(value, (int, float, str)):
+        return None
+    try:
+        number = float(value)
+    except (ValueError, OverflowError):
+        return None
+    return number if math.isfinite(number) else None
+
+
+def _probe_timestamp(value):
+    """A usable quote timestamp is a positive integral epoch-second value."""
+    number = _probe_number(value)
+    if number is None or number <= 0:
+        return None
+    # Validate the original representation: float("1000000.00000000001")
+    # rounds away its fractional part before an is_integer() check can see it.
+    exact = Decimal(str(value))
+    return int(exact) if exact == exact.to_integral_value() else None
+
+
+def _probe_symbol_issue(metadata, requested):
+    """Only case and surrounding whitespace are known equivalent here."""
+    symbol = metadata.get("symbol")
+    if not isinstance(symbol, str) or not symbol.strip():
+        return "metadata-symbol-missing"
+    if symbol.strip().upper() != requested.upper():
+        return f"metadata-symbol-mismatch:asked {requested!r}, metadata says {symbol!r}"
+    return None
+
+
 def contract_probe(root, horizon=5, exchange="NYM"):
     """Which dated contract is a continuous ticker tracking? WITH the control.
 
@@ -1028,15 +1065,24 @@ def contract_probe(root, horizon=5, exchange="NYM"):
     # tolerance, and the TRUE contract would then fail to match and silently
     # downgrade to a refusal. Mechanism unguarded, trigger unobserved: the same
     # posture as the month-regex defect, and fixed the same way.
-    _q = lambda x: round(float(x), 4)
+    _q = lambda x: round(x, 4)
     try:
         cmd = yf.Ticker(cont).history_metadata
+        symbol_issue = _probe_symbol_issue(cmd, cont)
+        if symbol_issue:
+            return {"verdict": f"REFUSED-continuous-{symbol_issue}", "root": root}
         cont_px = cmd.get("regularMarketPrice")
-        cont_t = cmd.get("regularMarketTime")
+        cont_t = _probe_timestamp(cmd.get("regularMarketTime"))
     except Exception as e:
         return {"verdict": f"REFUSED-continuous-unreadable:{type(e).__name__}", "root": root}
     if cont_px is None:
         return {"verdict": "REFUSED-continuous-has-no-price", "root": root}
+    cont_px = _probe_number(cont_px)
+    if cont_px is None:
+        return {"verdict": "REFUSED-continuous-invalid-price", "root": root}
+    if cont_t is None:
+        return {"verdict": "REFUSED-continuous-invalid-timestamp", "root": root,
+                "retryable": True}
     cont_px = _q(cont_px)
 
     now = time.localtime()
@@ -1047,7 +1093,14 @@ def contract_probe(root, horizon=5, exchange="NYM"):
         attempted.append(sym)
         try:
             cm = yf.Ticker(sym).history_metadata
-            px, tt = cm.get("regularMarketPrice"), cm.get("regularMarketTime")
+            symbol_issue = _probe_symbol_issue(cm, sym)
+            raw_px = cm.get("regularMarketPrice")
+            px, tt = _probe_number(raw_px), _probe_timestamp(cm.get("regularMarketTime"))
+            if symbol_issue:
+                dropped[sym] = symbol_issue
+                px = None
+            elif px is None:
+                dropped[sym] = "no-price-returned" if raw_px is None else "invalid-price"
         except Exception as e:
             px, tt = None, None
             dropped[sym] = type(e).__name__
@@ -1070,7 +1123,7 @@ def contract_probe(root, horizon=5, exchange="NYM"):
     # starts at the current calendar month, so for a root already rolled past it
     # the first slot is always a wasted call on an expired contract -- visible
     # here rather than fixed, because skipping it would encode a roll assumption.
-    ages = {k: (abs(int(v) - int(cont_t)) if (v and cont_t) else None)
+    ages = {k: (abs(v - cont_t) if v is not None else None)
             for k, v in times.items()}
     base = {"root": root, "continuous": cont, "continuous_price": cont_px,
             "continuous_time": cont_t, "candidates": cands,
@@ -1106,8 +1159,15 @@ def contract_probe(root, horizon=5, exchange="NYM"):
              if cont_t and v and abs(int(v) - int(cont_t)) > STALE_S]
     control = "passed-distinct-prices" if not stale else \
               f"passed-distinct-prices-but-stale-candidates:{stale}"
+    unknown_times = [k for k, v in times.items() if v is None]
+    if unknown_times:
+        control += f";unknown-candidate-times:{unknown_times}"
 
     hits = [k for k, v in cands.items() if abs(v - cont_px) < 1e-6]
+    if len(hits) == 1 and times[hits[0]] is None:
+        return dict(base, verdict="REFUSED-match-with-invalid-timestamp",
+                    would_have_matched=hits[0], control=control, retryable=True,
+                    matched_leg_age_s=None)
     # ⛔⛔ STALENESS OF THE **MATCHED** LEG WITHHOLDS; STALENESS OF ANY OTHER LEG IS
     # ADVISORY. The first version conflated them and returned IDENTIFIED with the
     # matched leg arbitrarily stale -- an external reviewer reproduced it with an

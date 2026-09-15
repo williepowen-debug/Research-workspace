@@ -15,6 +15,8 @@ a reason.
 import sys
 import types
 import pathlib
+import time
+from unittest.mock import patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3] /
                        "FORGE" / "tools" / "market-data"))
@@ -89,7 +91,11 @@ def main():
         for mod in ("fetch",):
             sys.modules.pop(mod, None)
         import fetch
-        got = fetch.contract_probe("BZ")["verdict"]
+        # The dated fixture spans Sep 2026 through Jan 2027, regardless of when
+        # the regression is run. Do not let wall-clock month expire the fixture.
+        with patch.object(fetch.time, "localtime", return_value=time.struct_time(
+                (2026, 9, 14, 12, 0, 0, 0, 257, -1))):
+            got = fetch.contract_probe("BZ")["verdict"]
         ok = got == expected
         if not ok:
             failures.append((label, expected, got))
