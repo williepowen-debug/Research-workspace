@@ -15,12 +15,15 @@ These rows currently mix an account of a repaired scheduling omission with a liv
 
 ### Proposed replacement
 
+Remove the completed scheduling-incident row from STATUS, preserving its account in history. Add no replacement WQ-213 reminder: `PROME/SCRATCH.md` § NEXT SESSION already directs the boot to Will's reassessment appointment, and `PROME/WILL_QUEUE.md` owns the appointment and deadline. Confirm that route still exists when applying this sample.
+
+Replace only the recurring roll-hazard row with:
+
 | PROME action | Canonical record | State / next action |
 |---|---|---|
-| WQ-213 follow-up | `PROME/WILL_QUEUE.md` WQ-213 · `PROME/DOCKET.tsv` L389 | Read Will's reassessment appointment before the separate needed-by deadline; take both from WQ-213. |
-| Recurring roll-hazard method | `PROME/DOCKET.tsv` L386; instances L384/L385 | **Keep L386 undated.** The method must cover both disagreement between legs and a matched pair changing relative to its own history. Read L386 for the owed work. |
+| Recurring roll-hazard method | `PROME/DOCKET.tsv` L386; instances L384/L385 | **Before using a continuous energy spread, read and apply L386's contract-identity and threshold-basis checks. Keep L386 undated: the hazard recurs across rolls.** |
 
-The scheduling row follows the existing reassessment-first instruction in SCRATCH and the September 14 Codex closeout. It does not set or change an appointment. The roll row preserves the specific method distinction; a bare “see docket” would lose that guard on the startup path.
+The roll row supplies the trigger and next action. L386 owns the detailed method: identify the contracts with its required control and check whether the observed level uses the same contract basis as the threshold. Matching the two current legs alone is insufficient. That procedure remains at its source rather than being reproduced in STATUS.
 
 ## 2. HANDOFF — the machine-change paragraph only
 
@@ -30,16 +33,16 @@ The scheduling row follows the existing reassessment-first instruction in SCRATC
 
 ### Proposed replacement
 
-> **Verify the current host and capabilities before preparing a launch brief:** run `hostname` and the capability check in `PROME/BOOT.md` step 5. Do not infer the machine or available credentials from earlier handoff entries. `PROME/MACHINE_LOCAL.md` is the inventory; capability presence does not establish authentication.
+> Verify the current host and use `PROME/BOOT.md` step 5's capability checks; do not inherit machine assumptions from earlier handoffs.
 
-This replaces only the quoted paragraph, not the surrounding handoff entry or its live blockers. It avoids carrying a dated claim about which machine has which credentials as if it described the current session.
+This replaces only the quoted paragraph. BOOT retains the commands, capability states, inventory pointer and distinction between credential presence and authentication. The surrounding handoff entry and its live blockers remain outside this sample.
 
 ## What stays, and where history would go
 
 | Material | Treatment if this sample is approved |
 |---|---|
-| WQ-213 appointment, deadline and decision authority | Stay at WILL_QUEUE; STATUS points there. No trade or ruling changes. |
-| L386 undated guard and the two comparison types | Stay explicit in STATUS; detailed work stays at DOCKET L386. |
+| WQ-213 appointment, deadline and decision authority | Stay at WILL_QUEUE, reached through the existing SCRATCH resume instruction. No additional STATUS reminder. |
+| L386 undated guard and use-time instruction | Stay explicit in STATUS; contract-identity and threshold-basis procedures remain at DOCKET L386. |
 | Other roll restrictions and market caveats | Unchanged elsewhere in STATUS/HANDOFF; this sample does not remove them. |
 | Original STATUS incident narrative | Preserve verbatim in existing `PROME/archive/STATUS_HISTORY.md` with source revision and section label. |
 | Original HANDOFF machine incident | Preserve verbatim in the existing HANDOFF archive structure with a pointer from the rewritten entry. |
@@ -47,10 +50,11 @@ This replaces only the quoted paragraph, not the surrounding handoff entry or it
 
 ## Fresh-session walkthrough
 
-- **Where is the appointment?** WQ-213, reached directly from the queue row; it precedes the separate deadline.
+- **Where is the appointment after removing the STATUS row?** The existing SCRATCH resume instruction directs the session to WQ-213 before the implementation queue. WILL_QUEUE owns the appointment and separate deadline.
 - **Can the recurring roll work be given a date?** No; that prohibition remains visible.
-- **Is comparing the two current legs enough?** No; comparison with the pair's own history remains explicit.
+- **When must the session read the roll method?** Before using a continuous energy spread, as the replacement row explicitly states.
+- **Is comparing the two current legs enough?** No; the row also names threshold-basis checks and requires reading and applying L386, where the full method remains.
 - **Which machine/capabilities are available now?** Measure them through the existing boot checks; the old desktop narrative does not answer this.
 - **Did any research grade, authority or completed task change?** No. This is proposed organization of existing instructions.
 
-This walkthrough is an author check, not an independent cold-read result. Before implementation, the existing plan/result review requirements for archival moves still apply. The broader STATUS/HANDOFF rewrite remains outside this sample. The immediate decision is whether this amount of startup detail is useful to Will.
+This walkthrough is an author check, not an independent cold-read result. Before implementation, the existing plan/result review requirements for archival moves still apply. The broader STATUS/HANDOFF rewrite remains outside this sample.
