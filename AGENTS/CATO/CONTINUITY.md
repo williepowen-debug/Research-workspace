@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15 13:00 ET. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
-Will approved the RAV review’s direction and asked to build **the first part**, explicitly allowing staged work. This phase creates CATO’s manual startup, charter, continuity and Astra launcher. Fleet registration, automatic routing and the RAV succession migration remain later work; do not silently complete them during orientation.
+**Session closed at Will’s request. First foundation complete:** `ebeee2832`, confirmed pushed to `origin/master`. CATO has manual startup, charter, continuity and an Astra-configured launcher. The fresh read-only startup check passed, and independent result review found no blockers; exact backend model identity and ordinary interactive use remain unverified. Will approved this first part and staged work. Fleet registration, automatic routing and the RAV succession migration remain later work; do not silently complete them during orientation.
 
 The build acceptance and verification receipt live in [the foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md). Start there if continuing CATO setup. Next setup step: review the remaining integration work with Will and complete a bounded RAV/CATO transition when that pass is requested. Do not retire RAV or transfer its old findings as live obligations merely because CATO now has a home.
 
