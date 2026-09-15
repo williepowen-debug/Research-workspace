@@ -33,3 +33,9 @@ Other checks: WALTER boot-basis 23 paths match; BRENT calendar matches 25 events
 All three findings repaired and author-tested. No independent verification of this implementation is claimed; the earlier independent defect review does not become independent review of CATO's own fixes. Source access/market conditions, broader desk health and previously disclosed research gaps remain outside this repair. No owner acknowledgment or external send is claimed.
 
 Exact commit scope: BRENT reader/tests, STATUS/SCRATCH/board_log, five source/destination mail pairs; WALTER LAST_COMPLETION; this CATO report and CATO continuity. Verify commit paths, rename identity, post-push checker and remaining residue before delivering the final receipt. Next startup: orient and await Will; no task remains assigned after this closeout.
+
+## Session closeout — 2026-09-15
+
+Will requested closeout after delivery. Repair commit `63b4ff703` matched the exact 18-path manifest (13 changed files when five byte-identical renames are counted as pairs). Safe-push confirmed it on origin/master by fresh fetch; the push carried only this CATO-authored repair commit. The post-push WALTER checker returned PASS, no findings, 29/29 deliveries, with origin `63b4ff7037112826054255e308ebd36218768977`. Working tree and staging were clean and the orphan advisory found no residue. The 77-test result and author-verification limit above stand; documentation closeout does not require rerunning unchanged code tests.
+
+All assigned work is complete. Existing hosted-publication, broader integration and domain research gaps remain at their owners; none was started during closeout. Next session: orient and await Will's assignment. This closeout updates only this receipt and CATO continuity; its own push receipt is delivered in-session.
