@@ -189,7 +189,15 @@ call 2 (inside TTL):  rc=0   CL=F row only.  ZZZZNOTREAL ABSENT.  stderr: (none)
 5. **`STALE_S`'s three live ages (`BZF27` 1,013 s · `HOF27` 8,494 s · `CLF27` 165 s) name no invocation** and are unreproducible as written; they need the command beside them.
 6. **The SCRATCH rotation receipt `crc32 457275158` is not reproducible from the archive file that prints it** — it matches the ★NEXT block in `HEAD:PROME/SCRATCH.md` including its trailing newline, while the sibling `HANDOFF_ROTATED_…` receipt verifies against its own archive body stripped. ⛔ **Two receipt conventions in one session** — the class the fifteenth HEARTBEAT re-base already broke twice. Each receipt needs its perimeter and command stated beside it.
 
-## Completion states — never merged
+## Current review disposition — September 14, 2026, Codex / L394
+
+**Independent review performed; acceptance FAIL.** Reviewed `fetch.py` at `e2de0bd1b68dcb3e87a57fd7246f44ef1886ecbc`, identical at review-start HEAD `bd46a3b82c9d55c542f069dffd50085c7c92d759`. The author suite passes 6/6. Reviewer-devised offline fixtures reproduce four remaining findings: partial-cache retries extend old successful quotes beyond their TTL; missing matched/continuous timestamps permit identification; the probe ignores vendor symbol mismatches; nonfinite prices count toward its negative control. **VERIFIED in fixtures, live vendor occurrence UNKNOWN.**
+
+Receipt and proposed acceptance properties: `PROME/reports/2026-09-14_contract-identification-review.md`. Reproducer: `PROME/reports/2026-09-14_contract-review-counterexamples.py`. **IMPLEMENTED:** original repairs present, R1–R4 unmodified. **TESTED:** author suite passes; independent counterexamples fail as documented. **INDEPENDENTLY VERIFIED:** review completed with findings, implementation not accepted. **STILL UNRESOLVED:** R1–R4 remediation and review of the repaired revision at L394; L392 calibration and previously declared consumer/renderability limitations remain separate.
+
+The following completion block is retained as the **pre-review historical snapshot**. Its claims that no reviewer has seen the final code and that there is no reviewed commit are superseded by the named review above; its historical closure claims do not establish current acceptance.
+
+## Historical completion states — before the L394 independent review
 
 - **IMPLEMENTED:** ✅ yes, including **all twenty-one** review fixes. *(This line read "the three review fixes" — a round-1 snapshot left live inside the one block whose stated purpose is that the states never merge.)*
 - **TESTED (author's own):** ✅ — and only now legitimately, via `PROME/tools/tests/test_contract_probe_acceptance.py`, 6/6. Prior rounds claimed TESTED on hand-run checks recorded in prose, which does not support the word.
