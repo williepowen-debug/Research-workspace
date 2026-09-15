@@ -12,11 +12,11 @@ Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive gu
 
 ## RESULT
 
-Five regression suites pass. Doctor postcommit0HIGH/26MED:24 pending-origin handoffs plus20 retained NOTE schema exceptions and31 old aged handoffs (the latter two are aggregated findings). Five held BRENT copies are LOW. Not an owner integration or all-market-clear claim. Reads/BASIS/commit results: RESULTS and `commit-receipt.md`.
+Five regression suites pass. Prior closeout doctor snapshot (before the later origin sync):0HIGH/26MED:24 pending-origin handoffs plus20 retained NOTE schema exceptions and31 old aged handoffs (the latter two are aggregated findings). Five held BRENT copies are LOW. Not an owner integration or all-market-clear claim. Reads/BASIS/commit results: RESULTS and `commit-receipt.md`.
 
 ## GAPS
 
-Implementation0951f361e committed; five BRENT handoffs remain uncommitted while BRENT is being written, with exact tracked recovery copies in resolution-pass. Origin sync deferred under charter step16 after observed foreign CATO/BRENT dirty work; local packets remain pending delivery until origin proof. Fleet liveness UNKNOWN. Source/settlement/owner-judgment gaps are named row-by-row in `operational-matrix.md`; seven old ACTION closures remain unverified in `backlog-review.md`. No recipient state cleared by this session.
+Update September15: implementation0951f361e and receipt46e32f456 are both ancestors of origin/master f1bd2147a;24 handoffs verified on origin and delivery_log reconciled. Five BRENT handoffs remain uncommitted while BRENT has foreign work in progress, with exact tracked recovery copies in resolution-pass. The new reconciliation commit awaits the next safe sync; current foreign work also exists in PROME. Delivery is not owner consumption. Fleet liveness UNKNOWN. Source/settlement/owner-judgment gaps are named row-by-row in `operational-matrix.md`; seven old ACTION closures remain unverified in `backlog-review.md`. No recipient state cleared by this session.
 
 ## WILL_NEEDS
 
@@ -24,7 +24,7 @@ Existing decision only: #6/#8 contract-month basis. No month selected. Frozen te
 
 ## FOLLOW-UP
 
-1. Next clean sync: push the scoped local commit train, verify origin, run delivery reconciliation, commit/push resulting one-column changes. Do not report29 new handoffs delivered before proof.
+1. Next safe recipient-write window: commit the five exact held BRENT handoffs (verify recovery hashes first). Next clean sync: push those files plus the new delivery-reconciliation receipt, verify origin and reconcile the remaining five rows.24 of29 are already verified delivered; five are not.
 2. September16: review owner artifacts for the seven old ACTIONs and new corrective/source packets; matrix and backlog report name exact completion surfaces. RED/HANS/CREED/PROME received maintenance requests. BROCK/RED own read-manifest re-attestation after shared basis changes.
 3. September16/on oversized selected signal: recheck the bounded signal-section read operation against heading inventory; incomplete load-bearing content means PARTIAL.
 4. AboutSeptember17: full Iran primary sweep still owed; last full9/10, partial9/14; rotations/repair do not reset the clock.
