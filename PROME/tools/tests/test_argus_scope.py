@@ -10,6 +10,7 @@ Every fixture is a throwaway repo — no assertion reads the live tree.
 """
 import importlib.util, itertools, os, subprocess, tempfile, unittest
 from pathlib import Path
+from unittest.mock import patch
 
 TOOLS = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("argus_scope", TOOLS / "argus_scope.py")
@@ -36,6 +37,10 @@ class Repo(unittest.TestCase):
         self.base = subprocess.run(["git", "rev-parse", "HEAD"], cwd=self.repo, capture_output=True,
                                    text=True, check=True).stdout.strip()
         self.cwd = os.getcwd(); os.chdir(self.repo)
+        # Production Git and content reads are anchored to ROOT, not process cwd.
+        root_patch = patch.object(A, "ROOT", Path(self.repo))
+        root_patch.start()
+        self.addCleanup(root_patch.stop)
         self.rules = A.load_perimeter(LIVE_PERIMETER)
     def tearDown(self): os.chdir(self.cwd); self.tmp.cleanup()
     def scope(self, **kw): return A.build_scope(self.base, self.rules, **kw)
@@ -113,7 +118,8 @@ class A3_AttributionByRecordedOwnership(Repo):
                 commit(r, s or "x", [write(r, "FORGE/STATUS.md")])
                 cwd = os.getcwd(); os.chdir(r)
                 try:
-                    got = self._lane_of("FORGE/STATUS.md", A.build_scope(base, self.rules))
+                    with patch.object(A, "ROOT", Path(r)):
+                        got = self._lane_of("FORGE/STATUS.md", A.build_scope(base, self.rules))
                 finally:
                     os.chdir(cwd); sub.cleanup()
                 lanes.add(got)

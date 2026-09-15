@@ -51,10 +51,6 @@ class ReviewByLeg(unittest.TestCase):
         self.assertEqual(sum(len(v) for v in o.values()), 0)
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class AgedWaitsTests(unittest.TestCase):
     """WQ-221 instrument — pure-function tests, no git: rows shaped like decision_deck.parse_open()."""
     TODAY = dt.date(2026, 9, 11)
@@ -80,3 +76,6 @@ class AgedWaitsTests(unittest.TestCase):
     def test_unknown_liveness_never_flags(self):
         self.assertEqual(prome_gate.aged_waits(self.rows(), self.TODAY, lambda d: None), [])
 
+
+if __name__ == "__main__":
+    unittest.main()
