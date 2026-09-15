@@ -9,3 +9,5 @@ New read-only tools/closeout_check.py validates the explicit JSON evidence recei
 Human review still owns arbitrary prose, action completion and freshness/meaning of owner evidence. Hash match only pins the reviewed artifact, and changed evidence requests reassessment; a read is never owner consumption. Historical artifacts are not scanned as current claims. Remote freshness is supplied by separate safe-push/fetch; checker prints exact observed local origin ref. This does not promise a general natural-language contradiction detector.
 
 Closeout instructions now require this check after summary edits and after publication/reconciliation, with a dated receipt/output, evidence limits and next review. WALTER boot-basis hashes re-attested only for changed charter and rationale; no fleet-wide policy or other agent file edits.
+
+Implementation committed3fe9a55d3. Publication deferred under WALTER charter16 after concurrent CATO edits appeared. LAST_COMPLETION records the exact pending commit; postcommit checker passes against current local origin. No foreign work staged or edited.
