@@ -91,3 +91,24 @@ Several choices in the reviewed work were sound:
 - Source limitations were often carried explicitly: the Citadel search-extract qualification, secondary-image provenance, and owner-versus-router judgment boundaries were visible. The issue is ensuring those qualifications and corrections reach every consuming surface.
 
 **Suggested order:** finish the options correction's publication/delivery path; fix correction acknowledgment identity; move inbox reconciliation before dispatch; clear the three stale continuation items; extend the timestamp validation already underway. These are bounded repairs to demonstrated failures. More narrative rules or another broad process audit are not prerequisites.
+
+**Follow-up verification — repair `98bd090fc`.**
+
+Inspected the committed patch and reran checks against an isolated copy of this revision. The local `origin/master` tracking ref contains the commit. Findings 1, 3, and 4 are addressed at the reviewed surfaces: a standalone `SIG-W-20260911-011` correction now produces the original's INDEX back-marker and entry banner, with a committed HENRY ACTION handoff preserving the extract-based uncertainty; step 7e(d) explicitly blocks on completion of 7g; the three stale pending requests have been discharged. This verifies WALTER's publication/delivery repair, not HENRY's subsequent integration. Findings 2 and the historical part of 5 are explicitly carried in LAST_COMPLETION, with a next-session scope for the identity repair. Deferring that cross-log change is reasonable.
+
+The production timestamp function now correctly flags the earlier junk, empty, and noncanonical-offset fixtures and detects a canonical future timestamp. However, its new approximate-minute exception (`walter_doctor.py:2548`) returns before validating either the calendar date or whether it lies in the future. Direct calls to **the production `check_future_timestamps()`** with isolated delivery rows reproduced:
+
+| Field | Actual result |
+|---|---|
+| `2099-01-01T02:3xZ` | INFO: known convention, “NOT a defect” |
+| `2026-99-99T02:3xZ` | Same INFO despite an impossible calendar date |
+
+Minute uncertainty cannot excuse an impossible or clearly future **date**, which is the part the backlog instrument actually reads. Preserve valid historical approximations, validate their certain components, and compare their possible time interval with the clock without inventing an exact minute. Also correct the explanation that no consumer needs minutes: `check_terry_override_ratio()` already parses this same timestamp column for a 72-hour condition.
+
+All 11 supplied reproductions pass with the committed delivery-log fixture. **That does not exercise the production timestamp validator:** six of the tests call a separate `_classify()` defined inside `test_doctor_backlog.py:67`, with duplicated regular expressions. They would still pass if production stopped flagging those inputs. Replace those tests with calls to the production checker under isolated fixtures (or a shared production parser plus integration tests), including the two approximate-date failures above. This is a focused addition to finding 5, not a request for another broad audit.
+
+**Follow-up verification — repair `4cff9feb9`.**
+
+Both specific follow-up defects are addressed. All 13 tests passed against isolated committed code and its committed delivery-log fixture: five invoke the production role helper and eight invoke the production timestamp checker. The test-only timestamp classifier has been removed. Independently exercised the normal file-reading path, without `_fields`: `2099-01-01T02:3xZ` now produces HIGH, `2026-99-99T02:3xZ` produces MED, and valid historical `2026-08-15T02:3xZ` remains INFO. The local origin tracking ref contains the commit.
+
+This establishes the named approximate-date fixes and test wiring, not exhaustive timestamp correctness or a full fleet health certification. Approximate time-of-day interval validation and the earlier explanatory note about the existing TERRY hour-based consumer are outside this closure. The two substantive carried repairs remain correction-acknowledgment identity and historical chronology reconciliation. The reviewed fixes are at a reasonable stopping point; resume those bounded tasks in a fresh session.

@@ -1,0 +1,1 @@
+WQ-LEDGER ✓ /tmp/prome-audit-20260912/before.tsv: 212 event row(s) × 14 columns; append-only order holds

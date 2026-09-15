@@ -1,0 +1,13 @@
+WQ-LEDGER ✗ rc 1 — 12 problem(s) in /tmp/prome-audit-20260912/after.tsv:
+  L214: event 'OPENED' not in vocabulary
+  L214: written_at '2026-09-12' does not parse
+  L215: event 'OPENED' not in vocabulary
+  L215: written_at '2026-09-12' does not parse
+  L216: written_at '2026-09-12' does not parse
+  L217: event 'OPENED' not in vocabulary
+  L217: written_at '2026-09-12' does not parse
+  L214: verdict '' not in vocabulary
+  L215: verdict '' not in vocabulary
+  L216: verdict '' not in vocabulary
+  L217: verdict '' not in vocabulary
+  SEAL: the ledger's bytes differ from the last tool write (hand edit, deletion or reorder) — append-only broken; restore: `git checkout -- /tmp/prome-audit-20260912/after.tsv /tmp/prome-audit-20260912/after.crc` then re-run sync

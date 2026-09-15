@@ -1,0 +1,26 @@
+
+REV f222c6e15
+WQ219 blocked True blocker BROCK ledger status calculation BLOCKED
+aged_wait hypothetical darkness 0 []
+aged_wait hypothetical darkness 7 [('219', 'BROCK', 7)]
+WQ219 latest ledger state BLOCKED
+L355 token CARRIED 2026-09-12 with WRITTEN CONDITIONS (DAEDALUS — reproduced it a docket_class TERMINAL spawn_class TERMINAL
+SCRATCH generated L355 count 0
+LIQ last_checked 2026-09-12 (PROME consumer read of LIQUID's L0-drain delivery, commit 15fee9a63: graded AT its review_by, ARMED 1-of-2, no leg added, owner did not move its own date. ★ LIQUID also reports WQ-176 leg ① all four CONFIRMED AS DRAFTED — and that **PROME's 069 draft already matched the WQ-170 ruling while LIQUID's own KB row did not, for nine days: canon stale, mirror fresh.** Prior: 2026-09-03 21:5x WQ-170 any-one-name wording encoded in condition (Will's word; no level/count/st
+STATUS table header | PROME action | Canonical record | State — each checked at the named source between 22:10 and 22:51 ET on 2026-09-11 |
+dashboard stale assertion True new assertion False
+backlog mention []
+11th packets 12
+
+REV 303267de8
+WQ219 blocked False blocker None ledger status calculation OPEN
+aged_wait hypothetical darkness 0 []
+aged_wait hypothetical darkness 7 []
+WQ219 latest ledger state OPEN
+L355 token PENDING — CARRIED 2026-09-12 with WRITTEN CONDITIONS (DAEDALUS — repro docket_class PENDING spawn_class PENDING
+SCRATCH generated L355 count 1
+LIQ last_checked 2026-09-12 (PROME consumer read of LIQUID's L0-drain delivery, commit 15fee9a63: graded 2026-09-12, THREE DAYS AHEAD of its 2026-09-15 review_by; ARMED 1-of-2, no leg added, owner did not move its own date. ★ LIQUID also reports WQ-176 leg ① all four CONFIRMED AS DRAFTED — and that **PROME's 069 draft already matched the WQ-170 ruling while LIQUID's own KB row did not, for nine days: canon stale, mirror fresh.** Prior: 2026-09-03 21:5x WQ-170 any-one-name wording encoded in c
+STATUS table header | PROME action | Canonical record | State — each checked at the named source between 16:0x and 16:2x ET on 2026-09-12 |
+dashboard stale assertion False new assertion True
+backlog mention [(13, '5. **⚠ `PROME/inbox/` BACKLOG — THIS FILE IS ITS ONLY CARRIER, and the 9/12 rewrite DELETED it (ARGUS ❕).** The 12 packets the 9/12 session drained (WALTER ×5 · FALCON ×3 · VIOLET ')]
+11th packets 12

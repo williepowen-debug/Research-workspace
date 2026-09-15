@@ -1,0 +1,51 @@
+MALFORMED HEADER ['--agent', 'TEST'] rc= 0
+READ-CAP [TEST] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: 1 boot section(s) in CLAUDE.md, 1 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 1 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ STATUS.md                                 5 B     0% of budget    (boot-step line 3)
+✅ READ-CAP 0 [TEST]: every boot-mandated read this check found is under budget (1 file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no declaration in READS.tsv, so this is 'clean within what the scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.
+
+MALFORMED HEADER ['--fleet'] rc= 0
+READ-CAP FLEET — cap 54,250 B · budget 32,550 B · 1 active+tier-2 desks · perimeter per desk = heuristic boot-read set (see --agent for each)
+  desk       reads  >budget  >cap  worst file (% is of BUDGET — the number the verdict grades)
+  ✅ TEST         1        0     0  STATUS.md 0% of budget
+
+  desks with ≥1 boot read over BUDGET: 0/1 · over the CAP: 0/1
+
+MISSING DECLARED FILE ['--agent', 'TEST'] rc= 1
+READ-CAP [TEST] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in READS.tsv — 0 cap-bearing (whole/programmatic) measured, 0 declared-not-counted (scoped/grep/summary), 2 manifest row(s) for this desk; ATTESTED by the desk itself
+  ⛔ declared whole read `AGENTS/TEST/deleted.md` (boot) DOES NOT EXIST on disk
+⚠️  READ-CAP 1 [TEST]: 1 manifest defect(s) above. A declared read that does not resolve is a defect of the DECLARATION, not of the cap — the owner fixes the row (or the file), never this check.
+
+MISSING DECLARED FILE ['--fleet'] rc= 0
+READ-CAP FLEET — cap 54,250 B · budget 32,550 B · 1 active+tier-2 desks · perimeter per desk = heuristic boot-read set (see --agent for each)
+  desk       reads  >budget  >cap  worst file (% is of BUDGET — the number the verdict grades)
+  ✅ TEST         0        0     0  —
+
+  desks with ≥1 boot read over BUDGET: 0/1 · over the CAP: 0/1
+
+INVALID READ MODE ['--agent', 'TEST'] rc= 1
+READ-CAP [TEST] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in READS.tsv — 0 cap-bearing (whole/programmatic) measured, 0 declared-not-counted (scoped/grep/summary), 2 manifest row(s) for this desk; ATTESTED by the desk itself
+  ⛔ `AGENTS/TEST/large.md` (boot) carries mode `whloe` — not in the manifest's own mode vocabulary
+⚠️  READ-CAP 1 [TEST]: 1 manifest defect(s) above. A declared read that does not resolve is a defect of the DECLARATION, not of the cap — the owner fixes the row (or the file), never this check.
+
+INVALID READ MODE ['--fleet'] rc= 0
+READ-CAP FLEET — cap 54,250 B · budget 32,550 B · 1 active+tier-2 desks · perimeter per desk = heuristic boot-read set (see --agent for each)
+  desk       reads  >budget  >cap  worst file (% is of BUDGET — the number the verdict grades)
+  ✅ TEST         0        0     0  —
+
+  desks with ≥1 boot read over BUDGET: 0/1 · over the CAP: 0/1
+
+INVALID ATTESTATION MODE ['--agent', 'TEST'] rc= 0
+READ-CAP [TEST] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in READS.tsv — 1 cap-bearing (whole/programmatic) measured, 0 declared-not-counted (scoped/grep/summary), 2 manifest row(s) for this desk; ATTESTED by the desk itself
+  ✅ AGENTS/TEST/STATUS.md                     5 B     0% of budget    (whole · boot)
+✅ READ-CAP 0 [TEST]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (1 measured, 0 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+
+INVALID ATTESTATION MODE ['--fleet'] rc= 0
+READ-CAP FLEET — cap 54,250 B · budget 32,550 B · 1 active+tier-2 desks · perimeter per desk = heuristic boot-read set (see --agent for each)
+  desk       reads  >budget  >cap  worst file (% is of BUDGET — the number the verdict grades)
+  ✅ TEST         1        0     0  AGENTS/TEST/STATUS.md 0% of budget
+
+  desks with ≥1 boot read over BUDGET: 0/1 · over the CAP: 0/1
+
+GUARD 'set +o pipefail; python3 scripts/read_cap_check.py --agent PROME | tail -2; echo "RC=$?"' hit= False
+GUARD 'python3 scripts/read_cap_check.py --agent PROME | tail -2; echo "RC=$?"; # use PIPESTATUS next time' hit= False
+GUARD 'python3 scripts/read_cap_check.py --agent PROME | tail -2\nrc=$?\necho "$rc"' hit= True
