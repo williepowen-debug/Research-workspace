@@ -1,5 +1,17 @@
 # Norinchukin Bank — World's Largest CLO Investor
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+June 30 consolidated assets **¥85,085.9B**; quarterly profit attributable to owners **¥81.1B**. Non-consolidated market-portfolio credit and other assets **¥21.8T**, versus ¥22.2T March.
+
+The bank describes structured-product redemptions alongside new investment. Non-consolidated securities revaluation improves from −¥219.9B to +¥54.8B. The summary does not identify June CLO holdings separately: **¥10.1T remains a March observation, not a current all-time-high claim**. Do not equate structured products with CLOs or redemptions with forced sales. June CET1 was not established; March 17.81% retains its date.
+
+Source: [August 5, PDF pages 3, 7–8 and 10](https://www.nochubank.or.jp/en/ir/results/pdf/cap_results2026_en_01_02.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/norin-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **Not a life insurer** — agricultural cooperative bank. Included in this folder because its CLO book (record ¥10.1T Mar 2026) is the critical node in the Japan → US contagion chain, independent of Channel 1 mutual-lifer mechanism.
 
 **CLO Holdings:** **¥10.1T (~$63B) — ALL-TIME HIGH** (Mar 31, 2026) | **CET1:** 17.81% (Mar 2026) | **FY2025 results:** OUT May 21, 2026 — net income ¥121.4B (beat ¥30-70B guidance)

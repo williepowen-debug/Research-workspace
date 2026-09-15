@@ -1,0 +1,329 @@
+PAGE 1
+August 5, 2026
+Financial Statements for the First Quarter of Fiscal 2026
+Name：
+（ＵＲＬ https://www.nochubank.or.jp/ ）
+Name of the President: KITABAYASHI Taro, Representative Director, President and Chief Executive Officer
+The Person Responsible for Inquiries： HASHIMOTO Tetsuya, General Manager of Financial Planning Division
+(Note) Amounts less than one million Yen are rounded down.
+1. Consolidated Financial Results for the First Quarter of Fiscal 2026
+(For the three-month period ended June 30, 2026)
+(1)Consolidated Results of Operations (Accumulated Period)
+(Percentage represents change from the same period of the preceding year)
+Profit Attributable to
+Ordinary Income Ordinary Profits
+Owners of Parent
+Millions of Yen ％ Millions of Yen ％ Millions of Yen ％
+1Q Fiscal 2026 612,648 11.5 86,821 53.2 81,112 39.1
+1Q Fiscal 2025 549,666 (11.7) 56,676 － 58,299 －
+(Note) Comprehensive Income for 1Q Fiscal 2026 328,788 millions of Yen 125.7% for 1Q Fiscal 2025 145,645 millions of Yen －%
+(2)Consolidated Financial Conditions
+Net Assets
+Total Assets Total Net Assets
+Ratio (Note)
+Millions of Yen Millions of Yen ％
+1Q Fiscal 2026 85,085,918 5,557,429 6.5
+Fiscal 2025 83,854,322 5,224,679 6.2
+(Ref) Net Assets – Non-controlling Interests for 1Q Fiscal 2026 5,545,844 millions of Yen for Fiscal 2025 5,212,572 millions of Yen
+(Note) Net Assets Ratio is computed by dividing ( Net Assets － Non-controlling Interests ) by Total Assets.
+Net Assets Ratio above is not the one calculated on the formula found in Notification No.4 of the Financial Services Agency and the Ministry
+of Agriculture, Forestry and Fisheries (Standards for Judging the Soundness of Management of the Norinchukin Bank).
+※ Notes
+(1)Significant changes in the scope of consolidation during the Period : None
+Newly included: None
+Excluded: None
+(2) Adoption of Specified Accounting Methods for the Preparation of Quarterly Consolidated Financial Statements
+: None
+(3)Changes in Accounting Policies, Changes in Accounting Estimates, and Restatements
+① Changes in Accounting Policies due to revisions of Accounting Standards : Yes
+② Changes in Accounting Policies other than ① above : None
+③ Changes in Accounting Estimates : None
+④ Restatements : None
+PAGE 2
+2.Non-consolidated Financial Results for the First Quarter of Fiscal 2026
+(For the three-month period ended June 30, 2026)
+(1) Non-consolidated Results of Operations (Accumulated Period)
+(Percentage represents change from the same period of the preceding year)
+Ordinary Income Ordinary Profits Net Income
+Millions of Yen ％ Millions of Yen ％ Millions of Yen ％
+1Q Fiscal 2026 598,854 8.7 82,369 15.6 79,406 5.6
+1Q Fiscal 2025 551,173 (10.6) 71,239 － 75,205 －
+(2) Non-consolidated Financial Conditions
+Net Assets
+Total Assets Total Net Assets
+Ratio (Note)
+Millions of Yen Millions of Yen ％
+1Q Fiscal 2026 80,590,821 5,193,379 6.4
+Fiscal 2025 79,452,524 4,861,388 6.1
+(Ref) Net Assets for 1Q Fiscal 2026 5,193,379 millions of Yen for Fiscal 2025 4,861,388 millions of Yen
+(Note) Net Assets Ratio is computed by dividing Net Assets by Total Assets.
+Net Assets Ratio above is not the one calculated on the formula found in Notification No.4 of the Financial Services Agency and the Ministry
+of Agriculture, Forestry and Fisheries (Standards for Judging the Soundness of Management of the Norinchukin Bank).
+※ Review of the Japanese-language originals of the attached quarterly consolidated financial statements by certified
+public accountants or an audit firm : Yes (voluntary)
+PAGE 3
+Table of Contents
+Attached Documents
+1 Quarterly Consolidated Financial Statements ··································································· 2
+(1) Consolidated Balance Sheet ······················································································· 2
+(2) Consolidated Statements of Operations and Comprehensive Income ······························ 3
+(3) Notes to Quarterly Consolidated Financial Statements ················································· 5
+Reference Documents
+1 Quarterly Non-consolidated Financial Statements ····························································· 6
+(1) Non-consolidated Balance Sheet ················································································· 6
+(2) Non-consolidated Statement of Operations ·································································· 7
+2 Summary of Performance (Non-consolidated) ···································································· 8
+11
+PAGE 4
+Attached Documents
+1 Quarterly Consolidated Financial Statements
+(1) Consolidated Balance Sheet
+(Millions of Yen)
+Fiscal 2025 First Quarter of Fiscal 2026
+(As of March 31, 2026) (As of June 30, 2026)
+(Assets)
+Loans and Bills Discounted 20,377,955 18,696,671
+Foreign Exchange Assets 256,092 229,329
+Securities 37,069,164 38,680,658
+Money Held in Trust 7,282,126 7,319,273
+Trading Assets 4 1,215 203,055
+Monetary Claims Bought 181,535 170,750
+Receivables under Resale Agreements 29 7,778
+Cash and Due from Banks 12,823,378 13,853,847
+Other Assets 1,629,438 1,613,393
+Tangible Fixed Assets 135,549 134,291
+Intangible Fixed Assets 7 6,586 77,676
+Net Defined Benefit Asset 105,450 106,339
+Deferred Tax Assets 3,531 3,182
+Customers' Liabilities for Acceptances and Guarantees 3,978,629 4,095,916
+Reserve for Possible Loan Losses (106,363) (106,246)
+Total Assets 83,854,322 85,085,918
+(Liabilities)
+Deposits 54,255,453 53,315,113
+Negotiable Certificates of Deposit 835,353 1,115,111
+Debentures 800,467 827,054
+Trading Liabilities 4 0,795 4 2,991
+Borrowed Money 3,427,655 3,309,771
+Call Money and Bills Sold 9 00,400 1,045,500
+Payables under Repurchase Agreements 7,464,546 8,121,570
+Foreign Exchange Liabilities 27 51
+Short-term Entrusted Funds 2,387,672 3,445,505
+Other Liabilities 4,435,180 4,094,844
+Reserve for Bonus Payments 7,370 4,374
+Net Defined Benefit Liability 2,153 2,164
+Reserve for Directors' Retirement Benefits 1,320 1,306
+Deferred Tax Liabilities 9 2,075 106,670
+Deferred Tax Liabilities for Land Revaluation 5 41 541
+Acceptances and Guarantees 3,978,629 4,095,916
+Total Liabilities 78,629,643 79,528,489
+(Net Assets)
+Paid-in Capital 4,817,427 4,822,385
+Capital Surplus 2 3,399 23,399
+Retained Earnings 495,414 576,527
+Total Owners' Equity 5,336,242 5,422,312
+Net Unrealized Gains (Losses) on Other Securities (215,671) 46,488
+Net Deferred Gains (Losses) on Hedging Instruments 2 6,480 16,851
+Revaluation Reserve for Land (4,678) (4,678)
+Foreign Currency Transaction Adjustment 9,366 7,109
+Remeasurements of Defined Benefit Plans 6 0,833 57,759
+Total Accumulated Other Comprehensive Income (123,669) 123,531
+Non-controlling Interests 1 2,106 11,585
+Total Net Assets 5,224,679 5,557,429
+Total Liabilities and Net Assets 83,854,322 85,085,918
+2
+PAGE 5
+(2) Consolidated Statements of Operations and Comprehensive Income
+Consolidated Statement of Operations
+(Millions of Yen)
+First Quarter of Fiscal 2025 First Quarter of Fiscal 2026
+(Three-Month period ended (Three-Month period ended
+June 30, 2025) June 30, 2026)
+Ordinary Income 549,666 612,648
+Interest Income 417,839 478,603
+Interest on Loans and Bills Discounted 105,534 124,696
+Interest and Dividends on Securities 274,727 318,637
+Fees and Commissions 8,271 10,074
+Trading Income 7 69 1,147
+Other Operating Income 23,190 48,267
+Other Ordinary Income 99,595 74,555
+Ordinary Expenses 492,989 525,827
+Interest Expenses 413,010 429,950
+Interest on Deposits 51,214 82,744
+Fees and Commissions 3,467 3,900
+Other Operating Expenses 16,497 40,297
+General and Administrative Expenses 43,963 45,642
+Other Ordinary Expenses 16,051 6,036
+Ordinary Profits 56,676 86,821
+Extraordinary Losses 182 842
+Income before Income Taxes 56,493 85,979
+Income Taxes - Current 1,543 2,455
+Income Taxes - Refund of Income Taxes (4,628) -
+Income Taxes - Deferred 1,028 1,945
+Total Income Taxes (2,056) 4,401
+Profit 58,550 81,578
+Profit Attributable to Non-controlling Interests 251 465
+Profit Attributable to Owners of Parent 58,299 81,112
+3
+PAGE 6
+Consolidated Statement of Comprehensive Income
+(Millions of Yen)
+First Quarter of Fiscal 2025 First Quarter of Fiscal 2026
+(Three-Month period ended (Three-Month period ended
+June 30, 2025) June 30, 2026)
+Profit 58,550 81,578
+Other Comprehensive Income 87,095 2 47,210
+Net Unrealized Gains (Losses) on Other Securities 122,655 262,413
+Net Deferred Gains (Losses) on Hedging Instruments (26,182) (10,117)
+Foreign Currency Transaction Adjustment (4,756) (2,996)
+Remeasurements of Defined Benefit Plans (1,687) (3,064)
+Share of Other Comprehensive Income of Affiliates accounted for
+by the equity method (2,932) 974
+Total Comprehensive Income 1 45,645 3 28,788
+Attributable to:
+Owners of Parent 145,387 328,314
+Non-controlling Interests 258 474
+4
+PAGE 7
+(3) Notes to Quarterly Consolidated Financial Statements
+1 The Framework for Financial Reporting applied to Quarterly Consolidated Financial Statements
+The quarterly consolidated financial statements, that is, the quarterly consolidated balance sheet, the
+quarterly consolidated statement of operations, the quarterly consolidated statement of comprehensive
+income, and these notes, have been prepared in accordance with Article 4, Paragraph 1 of the Accounting
+Standards for the Preparation of Quarterly Financial Statements, etc. of Tokyo Stock Exchange, Inc.,
+as well as the accounting standards for quarterly financial statements generally recognized as fair and
+reasonable in our country (however, the omission of disclosures as prescribed in Article 4, Paragraph 2
+of the Accounting Standards for the Preparation of Quarterly Financial Statements, etc. applies).
+2 Notes on Going-Concern Assumption
+Not applicable.
+3 Changes in Accounting Policies, Changes in Accounting Estimates, and Restatements of Quarterly
+Consolidated Financial Statements
+(Changes in Accounting Policies)
+Adoption of Practical Guidelines on Accounting for Financial Instruments
+The Norinchukin Bank (“the Bank”) and its consolidated subsidiaries have adopted Practical
+Guidelines on Accounting for Financial Instruments (The Accounting Standards Board of Japan (ASBJ)
+Transferred Guidance No.9, revised on 11th March 2025) at the beginning of the first quarter of this
+fiscal year. As a result, the change had no impact on the consolidated financial statements in this period.
+4 Notes on Significant Changes in Shareholders’ Equity
+Not applicable.
+5 Consolidated Statement of Cash Flows
+The Bank has not prepared a consolidated statement of cash flows during the Period. Depreciation
+(including amortization related to intangible fixed assets except for goodwill) for the three-month period
+ended June 30, 2025 and 2026 is as follows.
+(Millions of yen)
+For the three-month period ended For the three-month period ended
+June 30, 2025 June 30, 2026
+Depreciation 6,554 6,352
+6 Segment Information
+Segment Information is not shown in these statements, since the banking business is the only
+reportable segment.
+5
+PAGE 8
+Reference Documents
+1 Quarterly Non-consolidated Financial Statements
+(1) Non-consolidated Balance Sheet
+(Millions of Yen)
+Fiscal 2025 First Quarter of Fiscal 2026
+(As of March 31, 2026) (As of June 30, 2026)
+(Assets)
+Loans and Bills Discounted 19,629,978 1 7,924,363
+Foreign Exchange Assets 2 56,092 2 29,329
+Securities 3 7,384,100 3 8,986,484
+Money Held in Trust 7 ,281,713 7 ,318,845
+Trading Assets 4 1,215 2 03,055
+Monetary Claims Bought 1 81,535 1 70,750
+Receivables under Resale Agreements - 7 ,766
+Cash and Due from Banks 1 2,731,228 1 3,764,960
+Other Assets 1,606,330 1 ,587,273
+Tangible Fixed Assets 132,706 1 31,476
+Intangible Fixed Assets 73,111 74,470
+Prepaid Pension Cost 2 1,745 26,927
+Customers' Liabilities for Acceptances and Guarantees 201,179 2 49,700
+Reserve for Possible Loan Losses (88,414) (84,581)
+Total Assets 7 9,452,524 8 0,590,821
+(Liabilities)
+Deposits 54,274,254 5 3,298,350
+Negotiable Certificates of Deposit 819,788 1 ,093,142
+Debentures 8 00,467 8 27,054
+Trading Liabilities 4 0,795 42,991
+Borrowed Money 3,370,812 3 ,252,897
+Call Money 900,400 1 ,045,500
+Payables under Repurchase Agreements 7,357,312 8 ,023,681
+Foreign Exchange Liabilities 2 7 51
+Short-term Entrusted Funds 2,387,672 3 ,445,505
+Other Liabilities 4,363,612 4 ,030,155
+Reserve for Bonus Payments 5 ,169 2,939
+Reserve for Directors' Retirement Benefits 9 66 972
+Deferred Tax Liabilities 6 8,135 83,958
+Deferred Tax Liabilities for Land Revaluation 5 41 541
+Acceptances and Guarantees 2 01,179 2 49,700
+Total Liabilities 74,591,136 7 5,397,442
+(Net Assets)
+Paid-in Capital 4,817,427 4 ,822,385
+Capital Surplus 2 5,020 25,020
+Retained Earnings 4 15,384 4 94,791
+Total Owners' Equity 5,257,832 5 ,342,197
+Net Unrealized Gains (Losses) on Other Securities, net of taxes ( 219,958) 42,267
+Net Deferred Gains (Losses) on Hedging Instruments, net of taxes ( 171,807) ( 186,407)
+Revaluation Reserve for Land, net of taxes ( 4,678) ( 4,678)
+Total Valuation and Translation Adjustments ( 396,443) ( 148,817)
+Total Net Assets 4,861,388 5 ,193,379
+Total Liabilities and Net Assets 79,452,524 8 0,590,821
+6
+PAGE 9
+(2) Non-consolidated Statement of Operations
+(Millions of Yen)
+First Quarter of Fiscal 2025 First Quarter of Fiscal 2026
+(Three-Month period ended (Three-Month period ended
+June 30, 2025) June 30, 2026)
+Ordinary Income 551,173 598,854
+Interest Income 424,290 476,147
+Interest on Loans and Bills Discounted 91,904 111,319
+Interest and Dividends on Securities 295,639 329,999
+Fees and Commissions 4,347 3,897
+Trading Income 7 69 1,147
+Other Operating Income 26,793 45,723
+Other Ordinary Income 94,972 71,937
+Ordinary Expenses 479,933 516,484
+Interest Expenses 412,039 429,279
+Interest on Deposits 50,965 82,716
+Fees and Commissions 3,805 3,794
+Other Operating Expenses 12,640 40,101
+General and Administrative Expenses 38,335 39,245
+Other Ordinary Expenses 13,111 4,063
+Ordinary Profits 7 1,239 82,369
+Extraordinary Losses 3 8 842
+Income before Income Taxes 7 1,200 81,527
+Income Taxes - Current 508 440
+Income Taxes - Refund of Income Taxes ( 4,628) -
+Income Taxes - Deferred 114 1,681
+Total Income Taxes (4,005) 2,121
+Net Income 7 5,205 79,406
+7
+PAGE 10
+
+PAGE 11
+Net Operating Profit (Loss) including Gains (Losses) on Money Held in Trust-Related Transactions
+The Bank invests in securities utilizing Money Held in Trust on a large scale. Therefore, the Bank
+discloses gross operating profit (loss) and net operating profit (loss) below including gains (losses) on
+Money Held in Trust-related transactions, which are substantially the same as investment in securities.
+(100 millions of yen)
+First Quarter First Quarter
+Difference
+of Fiscal 2025 of Fiscal 2026
+(B)-(A)
+(A) (B)
+Gross Operating Profit (Loss) 20 741 1,015 274
+Operating Profit (Loss) (before Provision of
+21 358 623 264
+General Reserve for Possible Loan Losses)
+Net Operating Profit (Loss) 22 345 623 278
+Core Net Operating Profit (Loss) 23 268 571 302
+Core Net Operating Profit (Loss) (Excluding Gains
+(Losses) from Redemption of Investment Trusts
+24 243 813 569
+and from Sales of Assets included in Money Held
+in Trust) (※6)
+(※6) Core Net Operating Profit (Loss) (Excluding Gains (Losses) from Redemption of Investment Trusts and from
+Sales of Assets included in Money Held in Trust) [24] = Core Net Operating Profit (Loss) [23] - “Gains (Losses)
+from Redemption of Investment Trusts and from Sales of Assets included in Money Held in Trust”
+9

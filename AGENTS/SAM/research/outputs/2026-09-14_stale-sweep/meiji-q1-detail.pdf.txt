@@ -1,0 +1,331 @@
+
+=== PDF PAGE 1 ===
+August 7, 2026
+Financial Results for the Three Months Ended June 30, 2026
+Meiji Yasuda Life Insurance Company (Hideki Nagashima, President and Group CEO)
+announces financial results for the Three Months ended June 30, 2026.
+≪Contents≫
+1. Unaudited Consolidated Balance Sheets P1
+2. Unaudited Consolidated Statements of Income P3
+3. Unaudited Consolidated Statements of Comprehensive Income P4
+4. Notes to the Unaudited Consolidated Financial Statements P5
+Note:
+This document is a translation from the Japanese original for reference purposes only. In the event of
+any discrepancy between this translated document and the Japanese original, the original shall prevail．
+Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 2 ===
+1. Unaudited Consolidated Balance Sheets
+(Millions of Yen)
+As of Mar. As of Jun.
+31, 2026 30, 2026
+ASSETS:
+Cash and deposits 917,307 906,229
+Call loans 236,800 153,300
+Monetary claims bought 142,957 141,091
+Money held in trust 231,832 298,083
+Securities 46,903,005 48,445,233
+Loans 5,996,924 6,051,109
+Tangible fixed assets 1,066,089 1,075,712
+Intangible fixed assets 1,231,266 1,169,949
+Due from agents 10,700 14,846
+Reinsurance receivables 233,233 233,940
+Other assets 1,402,074 1,247,994
+Net defined benefit assets 724,053 723,951
+Deferred tax assets 5,000 6,344
+Customers' liabilities under acceptances and guarantees 4,812 4,855
+Allowance for possible loan losses (7,542) (7,786)
+Total assets 59,098,516 60,464,856
+1 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 3 ===
+1. Unaudited Consolidated Balance Sheets (continued)
+(Millions of Yen)
+As of Mar. As of Jun.
+31, 2026 30, 2026
+LIABILITIES:
+Policy reserves and other reserves 44,425,995 44,784,372
+Reserve for outstanding claims 929,416 928,226
+Policy reserves 43,197,985 43,446,436
+Policyholders' dividend reserves (mutual company) 297,795 408,970
+Policyholders' dividend reserves (limited company) 798 739
+Due to agents 12,149 14,372
+Reinsurance payables 142,315 145,409
+Bonds payable 1,298,037 1,337,787
+Other liabilities 4,205,057 4,437,435
+Net defined benefit liabilities 9,526 9,934
+Reserve for price fluctuation 1,144,726 928,498
+Deferred tax liabilities 1,033,619 1,345,675
+Deferred tax liabilities for land revaluation 79,310 79,422
+Acceptances and guarantees 4,812 4,855
+Total liabilities 52,355,552 53,087,764
+NET ASSETS:
+Reserve for redemption of foundation funds 980,000 980,000
+Reserve for revaluation 452 452
+Surplus 167,760 1,060
+Total funds, reserve and surplus 1,148,213 981,513
+Net unrealized gains (losses) on available-for-sale securities 4,970,200 5,755,433
+Deferred unrealized gains (losses) on derivatives under hedge accounting (147,699) (178,333)
+Land revaluation differences 123,067 123,342
+Foreign currency translation adjustments 275,069 310,236
+Remeasurements of defined benefit plans 324,422 314,430
+Net unrealized gains (losses) on policy reserves and other reserves of overseas
+subsidiaries 43,580 64,212
+Total accumulated other comprehensive income 5,588,640 6,389,322
+Non-controlling interests 6,109 6,255
+Total net assets 6,742,964 7,377,092
+Total liabilities and net assets 59,098,516 60,464,856
+2 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 4 ===
+2. Unaudited Consolidated Statements of Income
+(Millions of Yen)
+Three months ended Jun. 30
+2025 2026
+ORDINARY INCOME: 1,737,581 1,784,701
+Insurance premiums and other 1,261,420 1,160,927
+Investment income 433,569 573,238
+Interest, dividends and other income 356,850 377,939
+Gains on money held in trust 502 822
+Gains on sales of securities 47,074 82,399
+Investment gains on separate accounts 13,665 39,055
+Other ordinary income 42,591 50,534
+ORDINARY EXPENSES: 1,798,268 1,981,872
+Benefits and other payments 990,815 1,160,094
+Claims paid 196,352 296,433
+Annuity payments 168,909 181,299
+Benefit payments 191,407 221,827
+Surrender benefits 349,992 346,881
+Provision for policy reserves and other reserves 202,445 46,840
+Provision for policy reserves 202,318 46,713
+Provision for interest on policyholders' dividend reserves (mutual company) 126 126
+Investment expenses 360,787 485,466
+Interest expenses 39,539 51,012
+Losses on trading securities ― 27,576
+Losses on sales of securities 113,009 228,274
+Losses on valuation of securities 33,732 25,685
+Foreign exchange losses 105,965 ―
+Operating expenses 177,655 241,149
+Other ordinary expenses 66,563 48,321
+Ordinary profit (loss) (60,687) 197,171
+Extraordinary gains 72,335 217,974
+Gains on disposals of fixed assets 3,433 1,676
+Reversal of reserve for price fluctuation 68,902 216,297
+Extraordinary losses 8,542 3,350
+Losses on disposals of fixed assets 5,547 890
+Impairment losses ― 237
+Losses on reduction entry of real estate 2,008 1,209
+Contributions for promotion of social welfare project 983 1,013
+Other extraordinary losses 3 ―
+Provision for policyholders' dividend reserves (limited company) ― 357
+Surplus before income taxes and non-controlling interests 3,106 17,094
+Income taxes 3,116 34
+Current 5,426 3,621
+Deferred (2,310) (3,586)
+Net surplus (loss) (10) 17,059
+Net surplus (loss) attributable to non-controlling interests ― 136
+Net surplus (loss) attributable to the Parent Company (10) 16,922
+3 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 5 ===
+3. Unaudited Consolidated Statements of Comprehensive Income
+(Millions of Yen)
+Three months ended Jun. 30
+2025 2026
+Net surplus (loss) (10) 17,059
+Other comprehensive income (loss) 152,582 799,017
+Net unrealized gains (losses) on available-for-sale securities 249,938 820,852
+Deferred unrealized gains (losses) on derivatives under hedge accounting (1,578) (28,774)
+Foreign currency translation adjustments (77,551) 38,697
+Remeasurements of defined benefit plans (7,855) (9,992)
+Net unrealized gains (losses) on policy reserves and other reserves of overseas
+subsidiaries (5,832) 7,062
+Share of other comprehensive income (loss) of associates accounted for
+under the equity method (4,538) (28,828)
+Comprehensive income (loss) 152,572 816,076
+Comprehensive income (loss) attributable to the Parent Company 152,572 815,930
+Comprehensive income (loss) attributable to non-controlling interests ― 145
+4 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 6 ===
+4. Notes to the Unaudited Consolidated Financial Statements
+Notes to the Unaudited Consolidated Balance Sheet as of June 30, 2026
+1. Change in Significant Accounting Policy
+(1) Change in the method of recognizing for “Insurance premiums and other” and “Benefits and other
+payments” of consolidated overseas insurance companies.
+Insurance premiums and other of consolidated overseas insurance companies had previously
+been recognized on a net basis, as insurance premiums net of reinsurance premiums. Beginning
+with the three months ended June 30, 2026, the Company changed to a gross basis, under which
+insurance premiums and other are recognized as the sum of insurance premiums and reinsurance
+income. Benefits and other payments of consolidated overseas insurance companies had
+previously been recognized on a net basis, as insurance claims, annuities, benefits, surrender
+benefits, other refunds and others related to direct insurance contracts, hereinafter referred to as
+"insurance claims and others," less reinsurance income. Beginning with the three months ended
+June 30, 2026, the Company changed to a gross basis, under which benefits and other payments
+are recognized as insurance claims and others plus reinsurance premiums.
+This change was made because, along with the expansion of the overseas insurance business of
+Meiji Yasuda Group, the significance of income and expenses related to reinsurance transactions
+of consolidated overseas insurance companies is expected to further increase, and the Company
+considers that the gross basis more appropriately reflects the results of operations of overseas
+insurance companies in the consolidated financial statements.
+This change in accounting policy has been applied retroactively. There is no impact on retained
+earnings at the beginning of the three months ended June 30, 2026.
+(2) Certain affiliates accounted for by the equity method have applied IFRS 9 Financial Instruments
+and IFRS 17 Insurance Contracts
+Effective January 1, 2026, certain affiliates accounted for by the equity method have applied IFRS
+9 Financial Instruments and IFRS 17 Insurance Contracts to measure insurance contract liabilities
+to reflect the effects of the time value of money, financial risks arising from cash flows from
+insurance contracts, and uncertainties in cash flows arising from insurance contracts.
+This change in accounting policy has been applied retroactively and the cumulative effects of the
+change in accounting policy are reflected in the beginning balance of the book value of net assets
+for the three months ended June 30, 2026.
+Accordingly, for the three months ended June 30, 2026, the beginning balance of securities
+decreased by ¥7,952 million, retained earnings decreased by ¥9,352 million, net unrealized gains
+(losses) on available-for-sale securities decreased by ¥836 million, foreign currency translation
+adjustments decreased by ¥546 million, net unrealized gains (losses) on policy reserves and other
+reserves of overseas subsidiaries increased by ¥2,782 million.
+5 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 7 ===
+2. Specific Accounting Treatment for the Preparation of the Quarterly Financial Statements
+(1) The proposed appropriation of surplus of the Company for the fiscal year ended March 31, 2026
+approved at the annual meeting of the representatives of policyholders held on July 2, 2026 is
+reflected in the consolidated balance sheet as of June 30, 2026.
+(2) Income taxes of the Company are calculated by applying a reasonably estimated effective tax rate
+for the full fiscal year to surplus before income taxes and non-controlling interests for the three
+months ended June 30, 2026. The effective tax rate is determined by estimating the effective tax
+rate for the full fiscal year, which includes the three months ended June 30, 2026, after taking into
+account the effect of deferred tax accounting.
+However, if the results calculated by applying the effective tax rate are significantly unreasonable,
+income taxes of the Company are calculated by applying the statutory tax rate.
+Therefore, income taxes-deferred of the Company for the three months ended June 30, 2026 are
+included in the income taxes-current in the consolidated statements of income.
+3. Policy Reserves
+The policy reserves of the Company which are additionally set aside pursuant to Article 69,
+Paragraph 5 of the “Ordinance for Enforcement of the Insurance Business Act” include the
+following:
+⚫ The policy reserves set aside in the fiscal year ended March 31, 2015 for single premium
+endowment contracts concluded on or after September 2, 1995.
+⚫ The policy reserves set aside in the fiscal year ended March 31, 2018 for single premium
+individual annuity contracts concluded on or after April 2, 1998.
+⚫ The policy reserves for the difference arising from calculations of premium reserves using the
+expected rate of interest of 2.00% over 2 years beginning with the fiscal year ended March 31,
+2021, for individual annuity contracts concluded on or before April 1, 1999 (excluding the single
+premium Individual annuity policies listed above).
+⚫ The policy reserves set aside in the fiscal years ended March 31, 2015 and 2024 for variable
+life insurance contracts.
+⚫ The policy reserves for the difference arising from calculations of premium reserves using the
+expected rate of interest of 3.75% over 2 years beginning with the fiscal year ended March 31,
+2025, for whole life insurance contracts concluded on or before April 1, 1994 with the expected
+rate of interest exceeding 3.75% at the time of signing.
+⚫ In the fiscal year ending March 31, 2027, the Company intends to set aside the difference
+arising from calculations of premium reserves using the expected rate of interest of 2.00% for
+whole life insurance contracts concluded on or before April 1, 1999 with the expected rate of
+interest exceeding 2.00% at the time of signing, including the above contracts whose expected
+rate of interest exceeds 3.75%. (This difference excludes amounts that have already been set
+aside in the fiscal year ended March 31, 2026 or earlier.) Although the amount of additional
+reserves to be set aside has yet to be finalized, the Company expects to set aside
+approximately ¥480,000 million in total. As of the end of the first quarter of the current
+consolidated fiscal year, the Company has set aside ¥120,000 million, representing 25.0% of
+the estimated amount.
+Policy reserves of certain overseas consolidated subsidiaries are calculated based on each
+country’s accounting standard, such as U.S. generally accepted accounting principles.
+6 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 8 ===
+4. Reserve for Incurred But Not Reported (IBNR) Claims
+Reserve for Incurred But Not Reported (IBNR) claims is defined as a reserve for claims and
+benefits for which incidents prescribed in policy clauses are incurred but not reported to the
+Company (hereinafter “IBNR claims”). The amount of reserve for IBNR claims can no longer be
+calculated appropriately by using the formula stipulated in the main text of Article 1, Paragraph 1
+of the Ministry of Finance Notification No. 234 (hereinafter referred to as “IBNR Notification”) in
+1998, due to the May 8, 2023 termination of special treatments applied for payments of
+hospitalization and other benefits to policyholders in such status as “quasi hospitalization,” which
+requires obtaining diagnosis of COVID-19 infection and undergoing treatment at accommodation
+facilities or their homes under the supervision of physicians or other specialists (hereinafter
+referred to as “quasi hospitalization”). Accordingly, the Company now records the amount of such
+reserve by using the following method in accordance with a proviso of Article 1, Paragraph 1 of
+the IBNR Notification.
+(Outline of Calculation Method)
+The Company first deducts the amount pertaining to quasi hospitalization from the total amount of
+required reserve for IBNR claims and payments of benefits and others of all fiscal years set forth
+in the main text of Article 1, Paragraph 1 of the IBNR Notification, and then calculates the amount
+of reserve for IBNR claims in the same manner as that stipulated in the main text of Article 1,
+Paragraph 1 of the IBNR Notification.
+5. Policyholders’ Dividend Reserves (Mutual Company)
+Changes in policyholders’ dividend reserves for the three months ended June 30, 2026 were as
+follows:
+Millions of Yen
+Balance at the beginning of the period ¥ 297,795
+Expected transfer from surplus in the previous fiscal year 173,995
+Dividend payments to policyholders (mutual company)
+d uring the period (62,946)
+Interest accrued during the period 126
+Balance at the end of the period 408,970
+6. Policyholders’ Dividend Reserves (Limited Company)
+Changes in policyholders’ dividend reserves for the three months ended June 30, 2026 were as
+follows:
+Millions of Yen
+Balance at the beginning of the period 798
+Dividend payments to policyholders (limited company)
+d uring the period 416
+Interest accrued during the period -
+Provision for policyholders’ dividend reserves (limited
+company) 357
+Balance at the end of the period ¥739
+7 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 9 ===
+7. Securities Lending
+Securities loaned under security lending agreements, including securities under securities
+borrowing transactions, amounted to ¥6,747,711 million as of June 30, 2026.
+8. Securities Sold Under Repurchase Agreements
+Securities sold under repurchase agreements amounted to ¥243,422 million as of June 30, 2026.
+9. Subordinated Bonds
+As of June 30, 2026, bonds payable in liabilities consisted entirely of yen currency-denominated
+subordinated bonds and foreign currency-denominated subordinated bonds, the repayments of
+which are subordinated to other obligations.
+10. Subordinated Borrowing
+As of June 30, 2026, other liabilities in liabilities included subordinated borrowing of ¥271,600
+million, the repayments of which are subordinated to other obligations.
+Notes to the Unaudited Consolidated Statement of Income for the Three Months
+Ended June 30, 2026
+1. Impairment of Fixed Assets
+The details of the impairment losses on fixed assets are as follows:
+(1) Method for grouping the assets
+The Company and certain consolidated subsidiaries group assets held and utilized for the insurance
+business as one asset group for the impairment test.
+For real estate for non-insurance business and idle assets, each asset is treated as an independent
+unit for the impairment test.
+(2) Description of impairment losses recognized
+For the three months ended June 30, 2026, the Company recognized impairment losses on real
+estate for non-insurance business that experienced a significant deterioration of profitability and on
+the idle assets that experienced a significant decline in fair value. For these assets, the Company
+reduced the carrying amount to a recoverable amount which is either fair value less costs to dispose
+or value in use, and recognized impairment losses as extraordinary losses in the consolidated
+statement of income.
+(3) Details of fixed assets resulting in impairment losses
+Number of
+properties
+impaired Millions of Yen
+Asset group Land Buildings Software Total
+Assets held and utilized for the
+1 - - 12 12
+insurance business
+Real estate for non-insurance business - - - - -
+Idle assets 2 82 142 - 224
+Total 3 82 142 12 237
+8 Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 10 ===
+(4) Calculation method of recoverable amounts
+The recoverable amounts of real estate for non-insurance business are determined at net realizable
+value or value in use. The recoverable amounts for idle assets are net realizable value. Value in use
+is mainly determined as the estimated net future cash flows, reflecting the volatility risk, discounted
+at 1.79% for the three months ended June 30, 2026. Net realizable value is calculated based on the
+appraisal value with reference to “Real Estate Appraisal Standards” or the publicly announced
+appraisal value.
+2. Depreciation of Fixed Assets and Amortization of Goodwill
+The total amount of depreciation of tangible fixed assets and amortization of goodwill were
+¥24,639 million and ¥15,310 million respectively for the three months ended June 30, 2026.
+9 Meiji Yasuda Life Insurance Company

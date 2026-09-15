@@ -1,0 +1,128 @@
+[
+  {
+    "file": "raw/norin-q1.pdf",
+    "url": "https://www.nochubank.or.jp/en/ir/results/pdf/cap_results2026_en_01_02.pdf",
+    "retrieved_at": "2026-09-15T03:19:10.715877+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "ee93f8feb9ac99e5aea4a0e02cf9f210dc4d7067ceeb9e2a3fe829a9cf09ab9c",
+    "bytes": 1995641
+  },
+  {
+    "file": "raw/nippon-q1.pdf",
+    "url": "https://www.nissay.co.jp/sites/default/files/assets/global/news/files/08062026_2.pdf",
+    "retrieved_at": "2026-09-15T03:19:10.716541+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "fe5bd133dabd6e5575d97d2968212c451a86784ed2362a8ea69778ad681d5bcd",
+    "bytes": 718677
+  },
+  {
+    "file": "raw/sumitomo-q1.pdf",
+    "url": "https://www.sumitomolife.co.jp/about/pdf/company/ir/settlement/260807.pdf",
+    "retrieved_at": "2026-09-15T03:19:10.719882+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "37cd016fc0b07c5ece78dbda383f876f1646218e079681dee4abba03c7659b9f",
+    "bytes": 714908
+  },
+  {
+    "file": "raw/meiji-q1.pdf",
+    "url": "https://www.meijiyasuda.co.jp/english/disclosure/pdf/20260807_04.pdf",
+    "retrieved_at": "2026-09-15T03:19:10.721500+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "164b3af73e55e766c11ad98bea034bcec50d31753934c34dd17edfb7db1fee57",
+    "bytes": 748006
+  },
+  {
+    "file": "raw/meiji-q1-detail.pdf",
+    "url": "https://www.meijiyasuda.co.jp/english/disclosure/pdf/20260807_03.pdf",
+    "retrieved_at": "2026-09-15T03:19:10.722463+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "1e7d6ef49bdbd06eea020562a957eb622343521362be632ae979795b06ae4081",
+    "bytes": 488313
+  },
+  {
+    "file": "raw/fukoku-q1.pdf",
+    "url": "https://www.fukoku-life.co.jp/about/ir/news/upload/2026080601.pdf",
+    "retrieved_at": "2026-09-15T03:19:11.117193+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "15af850058bfc68234dc4c7b71b52be7f60eed039dc7c3ab69826ab817d5079c",
+    "bytes": 1137474
+  },
+  {
+    "file": "raw/daiichi-q1.pdf",
+    "url": "https://www.dai-ichi-life.co.jp/company/results/kessan/2026/pdf/quarter_001.pdf",
+    "retrieved_at": "2026-09-15T03:19:11.458202+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "e93263b2f57726fff55ba6d57b4deaabc78b0f8b2bddbb41b299c5761a1784c3",
+    "bytes": 239634
+  },
+  {
+    "file": "raw/daiichi-group-q1.pdf",
+    "url": "https://www.daiichilife-group.com/en/investor/library/presentation/pdf/2026_quarter_phone.pdf",
+    "retrieved_at": "2026-09-15T03:19:12.631023+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "6308f2a759fe3463b4e004d6cdefc3afd933761f381bdf83e46becbf08a1cc9a",
+    "bytes": 3812083
+  },
+  {
+    "file": "raw/japanpost-q1-index.html",
+    "url": "https://www.jp-life.japanpost.jp/IR/en/library/conference.html",
+    "retrieved_at": "2026-09-15T03:19:12.740444+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "2525e1142282a09e87215d9eb52b6cd24c8dbf9942c5b0b7d3132e8868a0a20b",
+    "bytes": 12455
+  },
+  {
+    "file": "raw/bis-q1.pdf",
+    "url": "https://www.bis.org/statistics/rppb2607.pdf",
+    "retrieved_at": "2026-09-15T03:19:12.830269+00:00",
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "801e0532d3048d79fc6092ea30a4675d5f1929e4625d048f56b5a7ffe4845933",
+    "bytes": 111902
+  },
+  {
+    "file": "raw/boj-jd20260914.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260914.xlsx",
+    "retrieved_at": "2026-09-15T03:19:13.179964+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "a8c20e5b61ebd8978a87e492830d782d1d764f9c9e9e20aba36f00e2c15d7906",
+    "bytes": 18571
+  },
+  {
+    "file": "raw/fred-data-IORB.csv",
+    "url": "https://fred.stlouisfed.org/graph.csv?id=IORB&cosd=2026-09-01",
+    "retrieved_at": "2026-09-15T03:19:13.289522+00:00",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "dc054fc5c39e65de0fafbbdc4870d2884eb080f968f5125be8a9cbe1f8789b5e",
+    "bytes": 28940
+  },
+  {
+    "file": "raw/fred-data-BAMLH0A0HYM2.csv",
+    "url": "https://fred.stlouisfed.org/graph.csv?id=BAMLH0A0HYM2&cosd=2026-09-01",
+    "retrieved_at": "2026-09-15T03:19:13.508423+00:00",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "dc054fc5c39e65de0fafbbdc4870d2884eb080f968f5125be8a9cbe1f8789b5e",
+    "bytes": 28940
+  },
+  {
+    "file": "raw/fred-data-BAMLC0A0CM.csv",
+    "url": "https://fred.stlouisfed.org/graph.csv?id=BAMLC0A0CM&cosd=2026-09-01",
+    "retrieved_at": "2026-09-15T03:19:13.548301+00:00",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "dc054fc5c39e65de0fafbbdc4870d2884eb080f968f5125be8a9cbe1f8789b5e",
+    "bytes": 28940
+  }
+]

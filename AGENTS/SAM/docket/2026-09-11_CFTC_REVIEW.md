@@ -1,3 +1,22 @@
+# September 11 positioning review — resolved September 14 ET
+
+**RELEASE VERIFIED: September 8 positions, published September 11.** Both legacy and TFF are futures-only, JPY code 097741, OI 499,635 (+87,753). Saved [TFF primary](../research/outputs/2026-09-14_stale-sweep/raw/cftc-tff.html), [manifest](../research/outputs/2026-09-14_stale-sweep/source-manifest.json), [reconciled arithmetic](../research/outputs/2026-09-14_stale-sweep/calculations.json). Legacy print is in `../workbook/CFTC_JPY.tsv` and the September 14 boot evidence.
+
+| September 8 population | Long | Short | Net | Δ long | Δ short | Spreading |
+|---|---:|---:|---:|---:|---:|---:|
+| Legacy non-commercial | 178,791 | 167,995 | +10,796 | +61,622 | -41,401 | separate taxonomy |
+| TFF dealer | 98,552 | 138,029 | -39,477 | -18,130 | +100,668 | 64494 |
+| TFF asset manager | 77,576 | 78,146 | -570 | +7,157 | -16,794 | 23582 |
+| TFF leveraged funds | 81,760 | 130,858 | -49,098 | +23,231 | -29,859 | 18500 |
+| TFF other reportables | 90,518 | 4,618 | +85,900 | +35,483 | +2,305 | 2013 |
+| TFF non-reportable | 42,640 | 39,395 | +3,245 | +9,417 | +838 | 0 |
+
+**Finding:** the legacy net swing of +103,023 combines 61,622 new longs with 41,401 fewer shorts (19.8% of prior shorts). Leveraged funds remain net short 49,098 despite covering 29,859 shorts (18.6% of prior shorts) and adding 23,231 longs. Their net improves 53,090; asset-manager net is −570. TFF longs plus spreading and shorts plus spreading each sum to OI. Taxonomies overlap: never add legacy to TFF.
+
+Rising OI does not rule out forced covering within a cohort; these stock snapshots establish neither motive nor causal price impact. They cover through September 8, not September 9–14. The old “not a squeeze / rules out forced covering” STATUS inference is withdrawn. This is a data-interpretation correction, not a new thesis or prediction grade. Retired contract gates remain retired.
+
+## Preparation record — historical September 9
+
 # September 11 positioning review — prepared September 9
 
 **PENDING RELEASE.** September 11 at 15:30 ET is the carried CFTC publication cadence for September 8 positions. The September 9 fetch still reports September 1. No post-rally covering verdict exists yet.

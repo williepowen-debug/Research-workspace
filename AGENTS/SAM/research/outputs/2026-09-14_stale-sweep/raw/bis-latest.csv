@@ -1,0 +1,226 @@
+FREQ,CURR_DENOM,BORROWERS_CTY,BORROWERS_SECTOR,LENDERS_SECTOR,L_POS_TYPE,L_INSTR,UNIT_MEASURE,TITLE,UNIT_MULT,DECIMALS,COLLECTION,AVAILABILITY,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+Q,TO1,5C,S,B,R,B,770,"Local bank claims on Euro area, Non-financial private sector",0,2,,A,2026-Q1,73.99,A,,F
+Q,EUR,ZA,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,6,0,,A,2026-Q1,4185.919,A,,F
+Q,USD,CN,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in China,6,0,,A,2026-Q1,200513.476,A,,F
+Q,JPY,4U,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,6,0,,A,2026-Q1,2275595.325,A,,F
+Q,JPY,BR,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,0,2,,A,2026-Q1,-1.163,A,,F
+Q,JPY,JP,G,A,A,B,JPY,JPY denominated credit to borrowers in Japan (government),6,0,,A,2026-Q1,1280921200,A,,F
+Q,TO1,4Y,S,B,A,B,771,"Total bank claims on emerging Asia, Non-financial private sector",0,2,,A,2026-Q1,7.303,A,,F
+Q,EUR,AR,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,6,0,,A,2026-Q1,17583.157,A,,F
+Q,USD,IN,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in India,6,0,,A,2026-Q1,117643.129,A,,F
+Q,EUR,AR,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,0,2,,A,2026-Q1,1.027,A,,F
+Q,JPY,3P,N,A,I,D,771,JPY denominated international debt securities issued by non-bank borrowers located outside Japan,0,2,,A,2026-Q1,2.176,A,,F
+Q,USD,MX,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,0,2,,A,2026-Q1,3.064,A,,F
+Q,TO1,2A,S,B,R,B,771,"Local bank claims on other EMEs, Non-financial private sector",0,2,,A,2026-Q1,7.311,A,,F
+Q,JPY,3C,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,6,0,,A,2026-Q1,792441.941,A,,F
+Q,USD,ID,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,0,2,,A,2026-Q1,3.778,A,,F
+Q,USD,4T,N,A,I,D,USD,USD denominated international debt securities issued by non-bank borrowers located in EMEs,6,0,,A,2026-Q1,2520937.099,A,,F
+Q,TO1,6E,S,B,A,B,770,"Total bank claims on central Europe, Non-financial private sector",0,2,,A,2026-Q1,50.088,A,,F
+Q,EUR,4T,P,A,I,D,EUR,EUR denominated international debt securities issued by non-financial borrowers located in EMEs,6,0,,A,2026-Q1,331938.571,A,,F
+Q,EUR,CL,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,0,2,,A,2026-Q1,20.205,A,,F
+Q,TO1,6E,S,B,R,B,771,"Local bank claims on central Europe, Non-financial private sector",0,2,,A,2026-Q1,15.557,A,,F
+Q,EUR,3C,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,6,0,,A,2026-Q1,415058.926,A,,F
+Q,EUR,ZA,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,0,2,,A,2026-Q1,10.655,A,,F
+Q,JPY,3P,P,A,I,D,JPY,JPY denominated international debt securities issued by non-financial borrowers located outside Japan,6,0,,A,2026-Q1,6710920.66,A,,F
+Q,JPY,MY,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,6,0,,A,2026-Q1,274949.052,A,,F
+Q,EUR,4T,P,A,I,D,771,EUR denominated international debt securities issued by non-financial borrowers located in EMEs,0,2,,A,2026-Q1,14.479,A,,F
+Q,USD,4T,N,B,I,G,771,USD denominated bank loans to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,5.38,A,,F
+Q,USD,4T,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,7.797,A,,F
+Q,TO1,2A,S,B,A,B,770,"Total bank claims on other EMEs, Non-financial private sector",0,2,,A,2026-Q1,72.449,A,,F
+Q,EUR,CL,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,6,0,,A,2026-Q1,18462.191,A,,F
+Q,USD,CN,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in China,6,0,,A,2026-Q1,317954.477,A,,F
+Q,TO1,2R,S,B,A,B,770,"Total bank claims on other advanced economies, Non-financial private sector",0,2,,A,2026-Q1,138.454,A,,F
+Q,TO1,2R,S,B,R,B,771,"Local bank claims on other advanced economies, Non-financial private sector",0,2,,A,2026-Q1,5.14,A,,F
+Q,USD,US,G,A,A,B,USD,USD denominated credit to borrowers in the US (government),6,0,,A,2026-Q1,38198280,A,,F
+Q,USD,CL,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,0,2,,A,2026-Q1,4.663,A,,F
+Q,JPY,4Y,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,6,0,,A,2026-Q1,5335598.622,A,,F
+Q,JPY,ZA,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,6,0,,A,2026-Q1,734.166,A,,F
+Q,JPY,IN,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in India,6,0,,A,2026-Q1,1095685.615,A,,F
+Q,USD,IN,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in India,6,0,,A,2026-Q1,61164.939,A,,F
+Q,TO1,5J,S,B,A,B,771,"Total bank claims on All countries (total), Non-financial private sector",0,2,,A,2026-Q1,7.315,A,,F
+Q,EUR,MY,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,6,0,,A,2026-Q1,888.113,A,,F
+Q,JPY,CN,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in China,0,2,,A,2026-Q1,-10.165,A,,F
+Q,EUR,MY,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,0,2,,A,2026-Q1,-1.328,A,,F
+Q,JPY,4T,P,A,I,D,JPY,JPY denominated international debt securities issued by non-financial borrowers located in EMEs,6,0,,A,2026-Q1,2836557.929,A,,F
+Q,TO1,5J,B,B,I,A,USD,International claims on banks (worldwide),6,0,,A,2026-Q1,23547278.193,A,,F
+Q,EUR,ID,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,6,0,,A,2026-Q1,29300.11,A,,F
+Q,EUR,4Y,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,0,2,,A,2026-Q1,3.598,A,,F
+Q,TO1,5J,A,B,I,A,771,International claims on all sectors (worldwide),0,2,,A,2026-Q1,11.402,A,,F
+Q,EUR,ID,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,0,2,,A,2026-Q1,5.742,A,,F
+Q,EUR,4Y,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,6,0,,A,2026-Q1,127014.167,A,,F
+Q,JPY,4T,N,A,I,D,JPY,JPY denominated international debt securities issued by non-bank borrowers located in EMEs,6,0,,A,2026-Q1,3092357.922,A,,F
+Q,USD,3C,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,6,0,,A,2026-Q1,398242.762,A,,F
+Q,TO1,5C,N,B,N,A,771,"Cross-border bank claims on Euro area, non-banks",0,2,,A,2026-Q1,15.616,A,,F
+Q,USD,4U,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,6,0,,A,2026-Q1,1374062.517,A,,F
+Q,USD,RU,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,0,2,,A,2026-Q1,-3.383,A,,F
+Q,TO1,4U,S,B,A,B,771,"Total bank claims on Latin America, Non-financial private sector",0,2,,A,2026-Q1,13.415,A,,F
+Q,JPY,4W,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,0,2,,A,2026-Q1,-11.748,A,,F
+Q,TO1,US,S,B,A,B,771,"Total bank claims on United States, Non-financial private sector",0,2,,A,2026-Q1,6.685,A,,F
+Q,TO1,5J,B,B,I,A,770,International claims on banks (worldwide),0,2,,A,2026-Q1,19.589,A,,F
+Q,USD,SA,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Saudi Arabia,6,0,,A,2026-Q1,73497.042,A,,F
+Q,USD,4Y,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,6,0,,A,2026-Q1,1084570.192,A,,F
+Q,USD,TR,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,6,0,,A,2026-Q1,223853.386,A,,F
+Q,TO1,5J,N,B,I,A,USD,International claims on non-banks (worldwide),6,0,,A,2026-Q1,26542941.823,A,,F
+Q,USD,AR,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,0,2,,A,2026-Q1,24.178,A,,F
+Q,JPY,4U,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,0,2,,A,2026-Q1,-7.719,A,,F
+Q,JPY,4T,N,B,I,G,771,JPY denominated bank loans to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,-12.684,A,,F
+Q,USD,4T,P,A,I,D,USD,USD denominated international debt securities issued by non-financial borrowers located in EMEs,6,0,,A,2026-Q1,2230463.471,A,,F
+Q,EUR,5C,G,A,A,B,EUR,EUR denominated credit to borrowers in the euro area (government),6,0,,A,2026-Q1,14810400.5,A,,F
+Q,JPY,4T,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,-7.469,A,,F
+Q,JPY,BR,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,6,0,,A,2026-Q1,316780.458,A,,F
+Q,EUR,5C,G,A,A,B,771,EUR denominated credit to borrowers in the euro area (government),0,2,,A,2026-Q1,4.578,A,,F
+Q,JPY,3P,N,A,I,D,JPY,JPY denominated international debt securities issued by non-bank borrowers located outside Japan,6,0,,A,2026-Q1,23901912.912,A,,F
+Q,JPY,RU,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,0,2,,A,2026-Q1,-3.631,A,,F
+Q,USD,ZA,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,6,0,,A,2026-Q1,37215.157,A,,F
+Q,JPY,3C,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,0,2,,A,2026-Q1,30.524,A,,F
+Q,USD,BR,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,0,2,,A,2026-Q1,7.909,A,,F
+Q,USD,4W,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,6,0,,A,2026-Q1,1640849.95,A,,F
+Q,EUR,4U,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,0,2,,A,2026-Q1,12.354,A,,F
+Q,USD,ZA,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in South Africa,6,0,,A,2026-Q1,6838.497,A,,F
+Q,TO1,2A,N,B,N,A,771,"Cross-border bank claims on other EMEs, non-banks",0,2,,A,2026-Q1,26.773,A,,F
+Q,EUR,RU,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,0,2,,A,2026-Q1,-20.642,A,,F
+Q,JPY,MY,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,0,2,,A,2026-Q1,-2.066,A,,F
+Q,EUR,4U,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,6,0,,A,2026-Q1,128116.454,A,,F
+Q,TO1,6E,S,B,R,B,770,"Local bank claims on central Europe, Non-financial private sector",0,2,,A,2026-Q1,46.589,A,,F
+Q,USD,SA,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,6,0,,A,2026-Q1,263170.472,A,,F
+Q,TO1,2A,S,B,A,B,771,"Total bank claims on other EMEs, Non-financial private sector",0,2,,A,2026-Q1,9.131,A,,F
+Q,EUR,4W,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,0,2,,A,2026-Q1,9.357,A,,F
+Q,EUR,3P,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located outside the euro area,0,2,,A,2026-Q1,11.622,A,,F
+Q,TO1,4U,S,B,R,B,771,"Local bank claims on Latin America, Non-financial private sector",0,2,,A,2026-Q1,14.061,A,,F
+Q,USD,US,P,A,A,B,USD,USD denominated credit to borrowers in the US (non-financial sector),6,0,,A,2026-Q1,80595909.946,A,,F
+Q,TO1,4U,S,B,A,B,770,"Total bank claims on Latin America, Non-financial private sector",0,2,,A,2026-Q1,53.588,A,,F
+Q,EUR,3P,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located outside the euro area,6,0,,A,2026-Q1,5119197.746,A,,F
+Q,EUR,CN,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in China,0,2,,A,2026-Q1,-5.82,A,,F
+Q,EUR,SA,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,0,2,,A,2026-Q1,0.275,A,,F
+Q,JPY,3P,P,A,I,D,771,JPY denominated international debt securities issued by non-financial borrowers located outside Japan,0,2,,A,2026-Q1,3.635,A,,F
+Q,EUR,CN,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in China,6,0,,A,2026-Q1,28215.31,A,,F
+Q,EUR,3C,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,0,2,,A,2026-Q1,12.29,A,,F
+Q,TO1,5J,S,B,A,B,770,"Total bank claims on All countries (total), Non-financial private sector",0,2,,A,2026-Q1,109.484,A,,F
+Q,EUR,3P,N,B,I,G,771,EUR denominated bank loans to non-bank borrowers located outside the euro area,0,2,,A,2026-Q1,9.135,A,,F
+Q,TO1,2R,S,B,R,B,770,"Local bank claims on other advanced economies, Non-financial private sector",0,2,,A,2026-Q1,111.144,A,,F
+Q,EUR,3P,N,B,I,G,EUR,EUR denominated bank loans to non-bank borrowers located outside the euro area,6,0,,A,2026-Q1,1980152.624,A,,F
+Q,TO1,5J,S,B,R,B,771,"Local bank claims on All countries (total), Non-financial private sector",0,2,,A,2026-Q1,5.813,A,,F
+Q,EUR,4W,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,6,0,,A,2026-Q1,200386.024,A,,F
+Q,TO1,5J,N,B,N,A,770,"Cross-border bank claims on All countries (total), non-banks",0,2,,A,2026-Q1,16.807,A,,F
+Q,JPY,MX,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,6,0,,A,2026-Q1,477151.985,A,,F
+Q,TO1,US,S,B,R,B,771,"Local bank claims on United States, Non-financial private sector",0,2,,A,2026-Q1,3.156,A,,F
+Q,USD,ID,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Indonesia,6,0,,A,2026-Q1,71800.554,A,,F
+Q,EUR,SA,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,6,0,,A,2026-Q1,12268.431,A,,F
+Q,USD,3P,N,A,I,D,771,USD denominated international debt securities issued by non-bank borrowers located outside the US,0,2,,A,2026-Q1,6.583,A,,F
+Q,TO1,US,S,B,A,B,770,"Total bank claims on United States, Non-financial private sector",0,2,,A,2026-Q1,63.294,A,,F
+Q,JPY,AR,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,6,0,,A,2026-Q1,17906.506,A,,F
+Q,TO1,US,N,B,N,A,770,"Cross-border bank claims on United States, non-banks",0,2,,A,2026-Q1,20.211,A,,F
+Q,USD,TR,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Turkey,6,0,,A,2026-Q1,109356.062,A,,F
+Q,TO1,4U,N,B,N,A,770,"Cross-border bank claims on Latin America, non-banks",0,2,,A,2026-Q1,6.285,A,,F
+Q,JPY,JP,P,A,A,B,771,JPY denominated credit to borrowers in Japan (non-financial sector),0,2,,A,2026-Q1,0.678,A,,F
+Q,JPY,4T,N,B,I,G,JPY,JPY denominated bank loans to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,6680784.135,A,,F
+Q,USD,ID,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,6,0,,A,2026-Q1,213842.262,A,,F
+Q,TO1,4Y,N,B,N,A,771,"Cross-border bank claims on emerging Asia, non-banks",0,2,,A,2026-Q1,1.313,A,,F
+Q,TO1,5J,B,B,I,A,771,International claims on banks (worldwide),0,2,,A,2026-Q1,10.094,A,,F
+Q,USD,4T,N,A,I,D,771,USD denominated international debt securities issued by non-bank borrowers located in EMEs,0,2,,A,2026-Q1,9.77,A,,F
+Q,JPY,CL,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,0,2,,A,2026-Q1,76.527,A,,F
+Q,EUR,5C,P,A,A,B,771,EUR denominated credit to borrowers in the euro area (non-financial sector),0,2,,A,2026-Q1,2.947,A,,F
+Q,USD,3P,P,A,I,D,771,USD denominated international debt securities issued by non-financial borrowers located outside the US,0,2,,A,2026-Q1,8.855,A,,F
+Q,EUR,5C,P,A,A,B,EUR,EUR denominated credit to borrowers in the euro area (non-financial sector),6,0,,A,2026-Q1,37402975.629,A,,F
+Q,JPY,4T,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,9773142.057,A,,F
+Q,EUR,TR,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,6,0,,A,2026-Q1,116197.613,A,,F
+Q,JPY,RU,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,6,0,,A,2026-Q1,1168.956,A,,F
+Q,USD,CL,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Chile,6,0,,A,2026-Q1,62215.292,A,,F
+Q,USD,MY,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,0,2,,A,2026-Q1,10.096,A,,F
+Q,TO1,6E,N,B,N,A,770,"Cross-border bank claims on central Europe, non-banks",0,2,,A,2026-Q1,3.499,A,,F
+Q,TO1,5J,N,B,N,A,771,"Cross-border bank claims on All countries (total), non-banks",0,2,,A,2026-Q1,10.085,A,,F
+Q,TO1,4Y,S,B,R,B,770,"Local bank claims on emerging Asia, Non-financial private sector",0,2,,A,2026-Q1,170.823,A,,F
+Q,USD,3P,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located outside the US,6,0,,A,2026-Q1,14747653.746,A,,F
+Q,EUR,3P,N,A,I,D,EUR,EUR denominated international debt securities issued by non-bank borrowers located outside the euro area,6,0,,A,2026-Q1,3139045.122,A,,F
+Q,USD,MX,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,6,0,,A,2026-Q1,380369.175,A,,F
+Q,TO1,5J,A,B,I,A,USD,International claims on all sectors (worldwide),6,0,,A,2026-Q1,52675792.275,A,,F
+Q,TO1,2A,N,B,N,A,770,"Cross-border bank claims on other EMEs, non-banks",0,2,,A,2026-Q1,7.588,A,,F
+Q,JPY,TR,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,6,0,,A,2026-Q1,68686.592,A,,F
+Q,USD,3P,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located outside the US,6,0,,A,2026-Q1,6683005.559,A,,F
+Q,EUR,3P,N,A,I,D,771,EUR denominated international debt securities issued by non-bank borrowers located outside the euro area,0,2,,A,2026-Q1,13.252,A,,F
+Q,TO1,2R,N,B,N,A,770,"Cross-border bank claims on other advanced economies, non-banks",0,2,,A,2026-Q1,27.31,A,,F
+Q,USD,AR,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Argentina,6,0,,A,2026-Q1,31763.153,A,,F
+Q,EUR,RU,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,6,0,,A,2026-Q1,17604.513,A,,F
+Q,TO1,5J,S,B,R,B,770,"Local bank claims on All countries (total), Non-financial private sector",0,2,,A,2026-Q1,92.677,A,,F
+Q,JPY,ID,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,6,0,,A,2026-Q1,861457.848,A,,F
+Q,USD,MX,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Mexico,6,0,,A,2026-Q1,120581.644,A,,F
+Q,TO1,4U,S,B,R,B,770,"Local bank claims on Latin America, Non-financial private sector",0,2,,A,2026-Q1,47.303,A,,F
+Q,USD,4U,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Latin America and Caribbean,0,2,,A,2026-Q1,6.267,A,,F
+Q,EUR,4T,N,B,I,G,EUR,EUR denominated bank loans to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,523933.981,A,,F
+Q,TO1,5J,N,B,I,A,770,International claims on non-banks (worldwide),0,2,,A,2026-Q1,22.081,A,,F
+Q,USD,3C,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Europe,0,2,,A,2026-Q1,7.221,A,,F
+Q,USD,RU,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Russia,6,0,,A,2026-Q1,47087.599,A,,F
+Q,JPY,SA,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,0,2,,A,2026-Q1,-10.394,A,,F
+Q,EUR,TR,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,0,2,,A,2026-Q1,3.093,A,,F
+Q,EUR,BR,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,6,0,,A,2026-Q1,13262.817,A,,F
+Q,EUR,4T,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,870575.571,A,,F
+Q,JPY,MX,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,0,2,,A,2026-Q1,-15.094,A,,F
+Q,EUR,BR,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,0,2,,A,2026-Q1,-2.957,A,,F
+Q,JPY,3P,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located outside Japan,0,2,,A,2026-Q1,0.324,A,,F
+Q,EUR,4T,N,B,I,G,771,EUR denominated bank loans to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,7.668,A,,F
+Q,USD,CL,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,6,0,,A,2026-Q1,168742.112,A,,F
+Q,TO1,US,S,B,R,B,770,"Local bank claims on United States, Non-financial private sector",0,2,,A,2026-Q1,43.083,A,,F
+Q,USD,US,G,A,A,B,771,USD denominated credit to borrowers in the US (government),0,2,,A,2026-Q1,7.825,A,,F
+Q,TO1,4U,N,B,N,A,771,"Cross-border bank claims on Latin America, non-banks",0,2,,A,2026-Q1,12.342,A,,F
+Q,USD,IN,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in India,0,2,,A,2026-Q1,-5.176,A,,F
+Q,TO1,5C,S,B,A,B,771,"Total bank claims on Euro area, Non-financial private sector",0,2,,A,2026-Q1,5.015,A,,F
+Q,USD,ZA,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,0,2,,A,2026-Q1,-1.601,A,,F
+Q,EUR,4T,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,0,2,,A,2026-Q1,10.277,A,,F
+Q,TO1,US,N,B,N,A,771,"Cross-border bank claims on United States, non-banks",0,2,,A,2026-Q1,15.066,A,,F
+Q,USD,4T,P,A,I,D,771,USD denominated international debt securities issued by non-financial borrowers located in EMEs,0,2,,A,2026-Q1,9.407,A,,F
+Q,JPY,3P,N,B,I,G,771,JPY denominated bank loans to non-bank borrowers located outside Japan,0,2,,A,2026-Q1,-0.7,A,,F
+Q,JPY,AR,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,0,2,,A,2026-Q1,0.642,A,,F
+Q,JPY,JP,P,A,A,B,JPY,JPY denominated credit to borrowers in Japan (non-financial sector),6,0,,A,2026-Q1,2392026640.367,A,,F
+Q,TO1,4Y,N,B,N,A,770,"Cross-border bank claims on emerging Asia, non-banks",0,2,,A,2026-Q1,2.439,A,,F
+Q,TO1,5C,S,B,R,B,771,"Local bank claims on Euro area, Non-financial private sector",0,2,,A,2026-Q1,2.765,A,,F
+Q,EUR,4T,N,A,I,D,EUR,EUR denominated international debt securities issued by non-bank borrowers located in EMEs,6,0,,A,2026-Q1,346641.591,A,,F
+Q,EUR,MX,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,0,2,,A,2026-Q1,15.768,A,,F
+Q,EUR,MX,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in Mexico,6,0,,A,2026-Q1,41927.925,A,,F
+Q,EUR,4T,N,A,I,D,771,EUR denominated international debt securities issued by non-bank borrowers located in EMEs,0,2,,A,2026-Q1,14.496,A,,F
+Q,JPY,JP,G,A,A,B,771,JPY denominated credit to borrowers in Japan (government),0,2,,A,2026-Q1,-3.177,A,,F
+Q,TO1,4Y,S,B,A,B,770,"Total bank claims on emerging Asia, Non-financial private sector",0,2,,A,2026-Q1,173.262,A,,F
+Q,EUR,3P,P,A,I,D,771,EUR denominated international debt securities issued by non-financial borrowers located outside the euro area,0,2,,A,2026-Q1,14.113,A,,F
+Q,EUR,3P,P,A,I,D,EUR,EUR denominated international debt securities issued by non-financial borrowers located outside the euro area,6,0,,A,2026-Q1,2345009.709,A,,F
+Q,JPY,CL,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Chile,6,0,,A,2026-Q1,47582.842,A,,F
+Q,USD,TR,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,0,2,,A,2026-Q1,4.677,A,,F
+Q,TO1,2A,S,B,R,B,770,"Local bank claims on other EMEs, Non-financial private sector",0,2,,A,2026-Q1,64.861,A,,F
+Q,TO1,6E,N,B,N,A,771,"Cross-border bank claims on central Europe, non-banks",0,2,,A,2026-Q1,-4.172,A,,F
+Q,USD,RU,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Russia,6,0,,A,2026-Q1,2361.909,A,,F
+Q,TO1,6E,S,B,A,B,771,"Total bank claims on central Europe, Non-financial private sector",0,2,,A,2026-Q1,14.211,A,,F
+Q,TO1,4Y,S,B,R,B,771,"Local bank claims on emerging Asia, Non-financial private sector",0,2,,A,2026-Q1,7.475,A,,F
+Q,EUR,IN,N,A,I,B,771,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in India,0,2,,A,2026-Q1,1.463,A,,F
+Q,JPY,TR,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Turkey,0,2,,A,2026-Q1,16.756,A,,F
+Q,USD,AR,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Argentina,6,0,,A,2026-Q1,101394.917,A,,F
+Q,EUR,IN,N,A,I,B,EUR,EUR denominated credit (bank loans & debt securities) to non-bank borrowers located in India,6,0,,A,2026-Q1,14307.364,A,,F
+Q,USD,4Y,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,0,2,,A,2026-Q1,-2.317,A,,F
+Q,USD,BR,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Brazil,6,0,,A,2026-Q1,198039.821,A,,F
+Q,USD,3P,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located outside the US,0,2,,A,2026-Q1,7.298,A,,F
+Q,TO1,2R,S,B,A,B,771,"Total bank claims on other advanced economies, Non-financial private sector",0,2,,A,2026-Q1,6.454,A,,F
+Q,USD,4W,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,0,2,,A,2026-Q1,17.408,A,,F
+Q,JPY,ID,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Indonesia,0,2,,A,2026-Q1,-14.255,A,,F
+Q,USD,MY,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Malaysia,6,0,,A,2026-Q1,40114.603,A,,F
+Q,USD,3P,N,A,I,D,USD,USD denominated international debt securities issued by non-bank borrowers located outside the US,6,0,,A,2026-Q1,8064648.187,A,,F
+Q,USD,4T,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,1976788.322,A,,F
+Q,USD,SA,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,0,2,,A,2026-Q1,25.038,A,,F
+Q,JPY,ZA,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in South Africa,0,2,,A,2026-Q1,2.079,A,,F
+Q,USD,3P,N,B,I,G,771,USD denominated bank loans to non-bank borrowers located outside the US,0,2,,A,2026-Q1,8.175,A,,F
+Q,JPY,4Y,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Asia and Pacific,0,2,,A,2026-Q1,-10.136,A,,F
+Q,JPY,IN,N,A,I,B,771,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in India,0,2,,A,2026-Q1,26.128,A,,F
+Q,USD,CN,N,A,I,B,771,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in China,0,2,,A,2026-Q1,-7.052,A,,F
+Q,TO1,5J,N,B,I,A,771,International claims on non-banks (worldwide),0,2,,A,2026-Q1,11.992,A,,F
+Q,USD,4T,N,A,I,B,USD,USD denominated credit (bank loans & debt securities) to non-bank borrowers located in EMEs,6,0,,A,2026-Q1,4497725.421,A,,F
+Q,JPY,4T,P,A,I,D,771,JPY denominated international debt securities issued by non-financial borrowers located in EMEs,0,2,,A,2026-Q1,6.363,A,,F
+Q,JPY,SA,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Saudi Arabia,6,0,,A,2026-Q1,8784.314,A,,F
+Q,JPY,CN,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in China,6,0,,A,2026-Q1,1464698.749,A,,F
+Q,JPY,3P,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located outside Japan,6,0,,A,2026-Q1,65907982.646,A,,F
+Q,JPY,4T,N,A,I,D,771,JPY denominated international debt securities issued by non-bank borrowers located in EMEs,0,2,,A,2026-Q1,6.237,A,,F
+Q,TO1,5J,A,B,I,A,770,International claims on all sectors (worldwide),0,2,,A,2026-Q1,43.821,A,,F
+Q,USD,3P,P,A,I,D,USD,USD denominated international debt securities issued by non-financial borrowers located outside the US,6,0,,A,2026-Q1,4452676.012,A,,F
+Q,TO1,5C,N,B,N,A,770,"Cross-border bank claims on Euro area, non-banks",0,2,,A,2026-Q1,29.43,A,,F
+Q,USD,BR,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Brazil,6,0,,A,2026-Q1,104692.861,A,,F
+Q,JPY,3P,N,B,I,G,JPY,JPY denominated bank loans to non-bank borrowers located outside Japan,6,0,,A,2026-Q1,42006069.735,A,,F
+Q,TO1,2R,N,B,N,A,771,"Cross-border bank claims on other advanced economies, non-banks",0,2,,A,2026-Q1,10.939,A,,F
+Q,JPY,4W,N,A,I,B,JPY,JPY denominated credit (bank loans & debt securities) to non-bank borrowers located in Developing Africa and Middle East,6,0,,A,2026-Q1,1369506.169,A,,F
+Q,USD,MY,N,B,I,G,USD,USD denominated bank loans to non-bank borrowers located in Malaysia,6,0,,A,2026-Q1,8686.713,A,,F
+Q,USD,US,P,A,A,B,771,USD denominated credit to borrowers in the US (non-financial sector),0,2,,A,2026-Q1,5.474,A,,F
+Q,TO1,5C,S,B,A,B,770,"Total bank claims on Euro area, Non-financial private sector",0,2,,A,2026-Q1,103.419,A,,F

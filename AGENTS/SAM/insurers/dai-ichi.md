@@ -1,5 +1,17 @@
 # Dai-ichi Life Holdings
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+Daiichi Life Group internal ESR **approximately 206%**, June 30; source reports a decline of approximately 13 percentage points.
+
+The group attributes the decline to higher required capital, including mass-lapse risk as domestic rates rose, and effects including M&A goodwill. Do not mechanically subtract rounded ~220 and ~206 to override its reported change. These are group figures, not Daiichi Life standalone.
+
+Source: [August 7, PDF page 12](https://www.daiichilife-group.com/en/investor/library/presentation/pdf/2026_quarter_phone.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/daiichi-group-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥72.4T (~$483B) | **ESR (FY2025):** **~220%** (+~10pp YoY, above 170-200% target band) | **FY2026 Plan:** No formal Apr announcement (prior stance: doubling overseas strategic investment ¥600B)
 **Last Updated:** 2026-05-27 (v1.5 sync — FY2025 ESR integrated; pre-FY2025 "ESR mid-200s estimated" resolved)
 

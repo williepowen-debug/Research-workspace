@@ -1,0 +1,128 @@
+
+Financial Markets Department | 日本銀行金融市場局
+Bank of Japan
+日銀当座預金増減要因と金融調節（9月10日＜木＞分）
+Sources of Changes in Current Account Balances at the Bank of Japan and Market Operations for September 10 (Thu)
+
+（単位：億円）
+（100 million yen）
+予　想 | 速　報 | 確　報
+Projections | Provisional results | Final results
+銀行券要因（発行超＝マイナス） | 100 | 100 | 100
+Banknotes (Minus: net issuance)
+財政等要因（受超＝マイナス） | 2200 | 3400 | 3400
+Treasury funds and others (Minus: net receipt of funds)
+資金過不足（不足＝マイナス） | 2300 | 3500 | 3500
+Surplus/Shortage of funds (Minus: shortage)
+金融調節
+BOJ Loans and Market Operations
+ | 金融調節（除く貸出支援基金） | 7600 | 7000 | 7000
+ | BOJ Loans and Market Operations (excluding the Loan Support Program) |  |  | 
+ | 国債買入 | 7200 | 7200 | 7200
+ | Outright purchases of JGBs |  |  | 
+ | 国庫短期証券買入 |  |  | 
+ | Outright purchases of T-Bills |  |  | 
+ | 国庫短期証券売却 |  |  | 
+ | Outright sales of T-Bills |  |  | 
+ | 国債買現先 |  |  | 
+ | Purchases of JGSs under repurchase agreements |  |  | 
+ | 国債売現先 |  |  | 
+ | Sales of JGSs under repurchase agreements |  |  | 
+ | 共通担保オペ（本店） |  |  | 
+ | Funds-supplying operations against pooled collateral (at Head office) |  |  | 
+ | 共通担保オペ（全店） |  |  | 
+ | Funds-supplying operations against pooled collateral (at All offices) |  |  | 
+ | ＣＰ買現先 |  |  | 
+ | Purchases of CP under repurchase agreements |  |  | 
+ | 手形売出 |  |  | 
+ | Outright sales of bills drawn by BOJ |  |  | 
+ | 社債等買入 |  |  | 
+ | Outright purchases of Corporate Bonds |  |  | 
+ | 被災地金融機関支援オペ |  |  | 
+ | Funds-supplying operation to support financial institutions in disaster areas |  |  | 
+ | 気候変動対応オペ |  |  | 
+ | Climate response financing operations |  |  | 
+ | 貸出 |  |  | 
+ | Loans |  |  | 
+ | 国債補完供給 | 400 | 400 | 400
+ | Securities lending as a secondary source of JGSs |  | -600 | -600
+ | 米ドルオペ用担保国債供給 |  |  | 
+ | Securities lending to provide JGSs as collateral for the U.S. dollar funds-supplying operations |  |  | 
+ | 金融調節（貸出支援基金） | 0 | 0 | 0
+ | BOJ Loans and Market Operations (Loan Support Program) |  |  | 
+ | 貸出増加支援資金供給 |  |  | 
+ | Fund-provisioning measure to stimulate bank lending |  |  | 
+ | 小計 | 7600 | 7000 | 7000
+ | Subtotal |  |  | 
+当座預金増減 | 9900 | 10500 | 10500
+Net change in current account balances
+
+当座預金残高 | 4126500 | 4127100 | 4127100
+Current account balances (amount outstanding)
+ | 準備預金残高 |  | 3809700 | 3809700
+ | Reserve balances held by institutions subject to reserve requirements
+ | 積み終了先 |  | 3809700 | 3809700
+ | Held by institutions that have satisfied reserve requirements for the current period
+ | 超過準備 |  | 3809700 | 3809700
+ | Excess reserves
+ | 非準預先残高 |  | 317400 | 317400
+ | Current account balances held by institutions NOT subject to reserve requirements
+
+マネタリーベース |  |  | 5317700
+Monetary base
+（参　考）
+積み期間（8/16～9/15日）の所要準備額（積数） | 4178800
+Required reserves for the current maintenance period (Aug.16-Sep.15, cumulative total)
+積み期間（8/16～9/15日）の所要準備額（１日平均） | 134800
+Required reserves for the current maintenance period (Aug.16-Sep.15, daily average)
+9/11日以降の残り要積立額（積数） | 0
+Remaining required reserves on and after Sep.11 (cumulative total)
+9/11日以降の残り要積立額（１日平均） | 0
+Remaining required reserves on and after Sep.11 (daily average)
+
+備考
+1. | 計数は、100億円単位で端数を四捨五入したもの。
+2. | 当座預金残高は、日本銀行と当座預金取引のある金融機関等が日本銀行に保有している残高の合計（準備預金残高を含む）。
+3. | 積み期間の所要準備額は、原則として毎月７日（休日の場合は前営業日）に改定される。
+4. | 貸出欄の数値は補完貸付。
+5. | 予想欄の調節部分は、公表時までにオファーの終了した調節を記入したもの。また、予想欄の当座預金増減および当座預金残高は、当日分の貸出（補完貸付）の実行がないことを前提に算出したもの。
+6. | 照会先：金融市場局市場調節課（直通03-3277-1362）
+
+
+Notes:
+1. | Figures are rounded off to 10 billion yen.
+2. | The total current account balances held with the BOJ by financial institutions.Reserve balances are included in this.
+3. | The figure for required reserves is usually revised on the 7th of every month (or the preceding business day when the 7th falls on a bank holiday).
+4. | "Loans" in this chart means the loans under Complementary Lending Facility.
+5. | Projections of market operations are the amounts offered prior to the compilation of this report.Projections of net change in current account balances are made without considering the execution of loans under Complementary Lending Facility on the same day.
+6. | Inquiries: Market Operations Division,Financial Markets Department E-mail: post.cmmd3@boj.or.jp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

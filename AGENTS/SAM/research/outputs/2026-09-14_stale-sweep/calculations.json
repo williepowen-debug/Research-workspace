@@ -1,0 +1,73 @@
+{
+  "as_of": "2026-09-08",
+  "market_code": "097741",
+  "scope": "futures only",
+  "OI": 499635,
+  "change_OI": 87753,
+  "cohorts": [
+    {
+      "cohort": "Legacy non-commercial",
+      "long": 178791,
+      "short": 167995,
+      "change_long": 61622,
+      "change_short": -41401,
+      "spreading": null,
+      "net": 10796
+    },
+    {
+      "cohort": "TFF dealer",
+      "long": 98552,
+      "short": 138029,
+      "change_long": -18130,
+      "change_short": 100668,
+      "spreading": 64494,
+      "net": -39477
+    },
+    {
+      "cohort": "TFF asset manager",
+      "long": 77576,
+      "short": 78146,
+      "change_long": 7157,
+      "change_short": -16794,
+      "spreading": 23582,
+      "net": -570
+    },
+    {
+      "cohort": "TFF leveraged funds",
+      "long": 81760,
+      "short": 130858,
+      "change_long": 23231,
+      "change_short": -29859,
+      "spreading": 18500,
+      "net": -49098
+    },
+    {
+      "cohort": "TFF other reportables",
+      "long": 90518,
+      "short": 4618,
+      "change_long": 35483,
+      "change_short": 2305,
+      "spreading": 2013,
+      "net": 85900
+    },
+    {
+      "cohort": "TFF non-reportable",
+      "long": 42640,
+      "short": 39395,
+      "change_long": 9417,
+      "change_short": 838,
+      "spreading": 0,
+      "net": 3245
+    }
+  ],
+  "legacy_short_cover_pct": 19.771628875432196,
+  "leveraged_short_cover_pct": 18.57861956109186,
+  "gpif": {
+    "headline_gpif_assets_bn": 317759.6,
+    "composition_total_including_special_account_bn": 320373.2,
+    "displayed_components_sum_bn": 320373.1,
+    "foreign_bonds_bn": 81145.4,
+    "foreign_bond_policy_floor_pct": 20,
+    "static_broad_foreign_bond_headroom_bn": 17070.759999999987
+  }
+}

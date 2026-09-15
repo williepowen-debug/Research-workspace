@@ -1,5 +1,13 @@
 # SAM TIMELINE
 
+## 2026-09-14 (ET) — Stale-data sweep; official revisions and missing quarter reports integrated
+
+Will requested a sweep for stale/incomplete data after boot. CFTC September 8 TFF review resolved: leveraged funds remain net −49,098 despite legacy net +10,796; OI growth cannot exclude forced covering. Seven institution profiles updated to FY2026 Q1 with model/balance-sheet scope. GPIF composition includes the Pension Special Account and must not be forced to equal its headline assets. July customs revision and Tokyo August CPI propagated; funding/settlement/market clocks refreshed. Raw BOJ schedule resolves October 1 Tankan and October 30 Outlook, and forward calendars now match.
+
+A same-quarter BIS revision was missed by append-only logic: Q1 total yen credit 65.83→65.91T and debt securities 23.82→23.90T. Loader corrected, saved-source regeneration and two regression tests passed. This small revision does not change the v2.0 kill; GLI remains a broad stock excluding FX swaps.
+
+v1.7 remains retired/LOW, no successor; original prediction terms and historical book unchanged. Remaining evidence gaps are named, not filled by stale values. [Full source report](../../reports/2026-09-14_stale-sweep.md). Local commits; shared peer changes block pull/push.
+
 ## 2026-09-10 (ET) — Oil re-prices the differential against the hike; both dated items closed at primaries
 
 Will-directed boot and catch-up. Two dated obligations closed at their own records rather than by inference. The BOJ's September 10 provisional settlement printed fiscal **+¥340B against a +¥220B projection** — a net *supply* of funds, the opposite direction from a yen-buying operation, with a residual (+¥120B) trivial at this scale: **no operation signature on September 10**, while September 7/8 attribution stays OPEN and the instrument's Japan-only blindness to a U.S.-side operation is unchanged. The Totan meeting-OIS publisher issued a **new chart (September 10, 11:15 JST)**, which was visually reviewed and ingested: the September meeting held at **98%**, unchanged, through a session in which Brent rose 5.6%.

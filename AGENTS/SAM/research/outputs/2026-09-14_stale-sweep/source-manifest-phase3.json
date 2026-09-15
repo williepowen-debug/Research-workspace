@@ -1,0 +1,62 @@
+[
+  {
+    "file": "raw/bis-latest.csv",
+    "url": "https://stats.bis.org/api/v1/data/WS_GLI/all/all?lastNObservations=1&format=csv",
+    "retrieved_at": "2026-09-15T03:21:30.047639+00:00",
+    "status": 200,
+    "content_type": "text/csv;charset=UTF-8",
+    "sha256": "4be047e379a7d982c21ebf2dcb08dfe269634d21e4037d84a3cd9736693f2993",
+    "bytes": 30463
+  },
+  {
+    "file": "raw/customs-july-revised.xml",
+    "url": "https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026075.xml",
+    "retrieved_at": "2026-09-15T03:21:30.048334+00:00",
+    "status": 200,
+    "content_type": "application/xml",
+    "sha256": "0ce9633ac9ce31a4133a53a2985bc92fc852a0e2320524d1f5dfa3dda7873b6b",
+    "bytes": 362331
+  },
+  {
+    "file": "raw/japanpost-data-index.html",
+    "url": "https://www.jp-life.japanpost.jp/IR/en/finance/data.html",
+    "retrieved_at": "2026-09-15T03:21:30.051329+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "ade425f614bf8c05dd05336258986a2c31b4105ac70f50ebe657946d17aec54e",
+    "bytes": 28754
+  },
+  {
+    "file": "raw/mof-20y-sep15.html",
+    "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/resul20260915.htm",
+    "retrieved_at": "2026-09-15T03:21:30.052539+00:00",
+    "status": 404,
+    "content_type": "text/html",
+    "sha256": "d6999cb26ec312deb4abbcc86a9c66580a7e737c37628652d5ac706e8ff68f0a",
+    "bytes": 20481
+  },
+  {
+    "file": "raw/fred-api-IORB.json",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series_id": "IORB",
+    "retrieved_at": "2026-09-15T03:21:31.133688+00:00",
+    "status": 200,
+    "sha256": "878ddc4c96a570281bfa19cb867fd4a1ad347e9f89fc74be4d94ce046130134c"
+  },
+  {
+    "file": "raw/fred-api-BAMLH0A0HYM2.json",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series_id": "BAMLH0A0HYM2",
+    "retrieved_at": "2026-09-15T03:21:31.459548+00:00",
+    "status": 200,
+    "sha256": "89d23d39937d79b579d9a0dc1e278749dac45fe13dbac8cb2d96eb6e137620ec"
+  },
+  {
+    "file": "raw/fred-api-BAMLC0A0CM.json",
+    "url": "https://api.stlouisfed.org/fred/series/observations",
+    "series_id": "BAMLC0A0CM",
+    "retrieved_at": "2026-09-15T03:21:32.167411+00:00",
+    "status": 200,
+    "sha256": "4c03e869ccc2aa66157a63a4c36a5465d5522a23a44cf41732ab2c635f58341b"
+  }
+]

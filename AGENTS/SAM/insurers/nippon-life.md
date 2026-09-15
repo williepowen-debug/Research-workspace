@@ -1,5 +1,17 @@
 # Nippon Life — Japan's Largest Life Insurer
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+Internal model ESR **190%**, June 30 (195% March 31); regulatory ESR **195% consolidated / 206% non-consolidated**. These are different measures.
+
+The company attributes the internal-model decline mainly to rising interest rates. This differs from the earlier M&A-driven annual decline. Non-consolidated domestic-bond unrealized losses are ¥6,283.2B, ¥554.2B worse than March; total net securities gains rose to ¥10,993.2B. These are valuations, not sale flows.
+
+Source: [August 6, PDF pages 8 and 16](https://www.nissay.co.jp/sites/default/files/assets/global/news/files/08062026_2.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/nippon-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥96T (~$640B) | **ESR (FY2025):** **195%** (vs 222% FY2024, **-27pt**) | **FY2026 Plan:** Disclosed Apr 22 (Ishida — paring yen bonds; foreign direction ambiguous)
 **Last Updated:** 2026-05-27 (v1.5 sync — FY2025 ESR + decomposition integrated)
 

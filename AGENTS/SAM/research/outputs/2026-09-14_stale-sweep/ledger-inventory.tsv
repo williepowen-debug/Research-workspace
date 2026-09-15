@@ -1,0 +1,20 @@
+ledger	class	latest_observation	next_check	scope_or_limit	rows	columns
+BIS_GLI.tsv	LIVE quarterly	2026-Q1	Next BIS GLI quarter; check publication, not STATUS-write count	Q1 revised values ingested; loader upserts same-quarter changes; no Q2 rows.	3	10
+BOJ_MEETING_OIS.tsv	LIVE reviewed image	2026-09-15 11:15 JST assumed	New image or Sep-18 00:00 JST expiry	Indicative 25bp equivalents; review required before ingestion.	30	18
+BOJ_OIS.tsv	FROZEN 2026-09-08	2026-09-03 historical	None	Impeached source; never a fallback.	44	13
+CFTC_JPY.tsv	LIVE weekly	2026-09-08	2026-09-18 release, September 15 positions	Legacy taxonomy; old peak-percentage storage is historical, current display uses 188077.	23	9
+CPI.tsv	LIVE monthly	National Jul / Tokyo Aug 2026, 2025 base	National Aug Sep-18; Tokyo Sep Oct-02	Separate geographical series and base years.	30	7
+FLOW.tsv	FROZEN 2026-08-17	Historical	None	Use current STATUS.	10	10
+FLOW_ARCHIVE.tsv	ARCHIVE	Historical	None	Do not cite as current.	4	10
+FXY_OPTIONS.tsv	LIVE snapshot	2026-09-14	Next snapshot	Thin ETF proxy; quote-quality and expiry controls apply.	228	16
+GPIF_FLOWS.tsv	LIVE quarterly	FY2026 Q1, 2026-06-30; released Aug-07	FY2026 Q2, approximately November	Already latest source; accounting-scope note below.	6	19
+JGB_AUCTIONS.tsv	LIVE per auction	2026-09-08 5Y	2026-09-15 20Y result	Result not yet available at sweep check; 40Y descriptive only per Sep-11 ruling.	38	10
+JGB_YIELDS.tsv	LIVE daily	2026-09-14	Next MOF business-day release	FY2025 backfill completed Sep-11; old month-boundary defect is historical.	356	8
+KB.tsv	LIVE event knowledge	Latest entry 2026-09-11	Material evidence or correction	Dated evidence; LIVE does not make old market quotes current.	184	9
+KB_ARCHIVE.tsv	ARCHIVE	Historical	None	Do not cite as current.	63	9
+MOF_FLOWS.tsv	LIVE weekly	2026-08-30 through 2026-09-05	2026-09-17 usual Thursday cadence	Latest source; unpadded Japanese period labels must be parsed as dates.	1131	12
+RATE_DIFFERENTIAL.tsv	LIVE daily	2026-09-14	Next common US/JP source date	342 unique matched-date rows; 5Y 2.498 / 10Y 1.982pp, 0/5.	342	7
+TRADE_BALANCE.tsv	LIVE monthly	2026-07 kakusoku	2026-09-16 August provisional	July revised balance −638.3B; imports +27.9%.	22	24
+USDJPY.tsv	LIVE daily	2026-09-14 completed session	Next completed London-labelled session	Last-revised hourly-derived session basis; no incomplete session grading.	1395	5
+VX.tsv	FROZEN 2026-08-17	Historical	None	Use current STATUS.	3	12
+XCCY_BASIS.tsv	FROZEN expired 2026-09-14	2026-09-10	None; replacement feed not activated	CME futures/cash residual is not actual cross-currency basis.	50	6

@@ -1,5 +1,17 @@
 # Meiji Yasuda Life
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+Group ESR **209%**, June 30; standard model 214%, internal model 209%. Group definition uses the lower measure.
+
+General-account domestic-bond unrealized losses ¥2,278.6B versus ¥2,161.8B March; total unrealized gains ¥6,694.3B versus ¥5,603.4B. Domestic/foreign equity appreciation can offset bond marks. The July purchase-plan announcement remains a dated intention; quarterly valuation changes do not measure execution.
+
+Source: [August 7, PDF pages 6 and 11](https://www.meijiyasuda.co.jp/english/disclosure/pdf/20260807_04.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/meiji-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥52.9T (~$353B) | **ESR (FY2025):** **208%** (vs 216% FY2024, **-8pt**) — manageable band | **FY2026 Plan:** INCREASING hedged foreign credit (ALM) + **🔴 super-long JGB plan DOUBLED to >¥2T (Jul-1 revision)**
 **Last Updated:** 2026-07-02 (🔴 super-long re-entry — FY2026 plan revision doubles JGB purchases; SAM-32 falsifier fired) | prior 2026-05-27 (v1.5 sync — FY2025 ESR + decomposition integrated)
 

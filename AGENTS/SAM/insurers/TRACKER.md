@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-09-08 — August sector-flow integration; named-company disclosures retain their own dates.
+**Last Updated:** 2026-09-14 ET — all seven named profiles checked against FY2026 Q1 releases; August aggregate flows remain latest.
 
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS still affects domestic duration demand, with the conditional bid described below. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
 
@@ -11,6 +11,20 @@
 **Reactivation requires direct net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Nippon Life, Meiji Yasuda, Sumitomo Life, Norinchukin}.** This is the existing June 22 rule. A single announcement, an aggregate MOF flow, a yen threshold, or domestic JGB stress can initiate investigation; none independently reopens the channel. ESR below 200% must be attributed to its cause: M&A capital action is different from market stress. JGB/ESR conditions are accelerants only.
 
 The May/June named-institution evidence disconfirmed the near-term forced-repatriation mechanism. The detailed disclosure table below is historical evidence, not newly refreshed company data. The former “deferred structural backstop” and “any one reopens” rules are superseded and preserved in the before-image archive.
+
+## FY2026 Q1 disclosures — June 30 balances, reviewed September 14 ET
+
+| Institution | Latest verified item | Source / limitation |
+|---|---|---|
+| [Nippon](nippon-life.md) | Internal ESR 190%, down 5pp; regulatory 195% consolidated / 206% standalone | Rising-rate explanation; separate measure from annual M&A effect |
+| [Meiji Yasuda](meiji-yasuda.md) | Group ESR 209%; standard 214% / internal 209% | Uses lower model; general-account bond unrealized loss ¥2,278.6B |
+| [Sumitomo](sumitomo.md) | Internal ESR 197%, flat | Preliminary; ESR page revised August 27 |
+| [Daiichi](dai-ichi.md) | Group internal ESR approximately 206%, source-reported −13pp | Higher lapse risk and M&A effects; rounded estimates |
+| [Fukoku](fukoku.md) | Foreign securities ¥1,875.779B; foreign bonds ¥974.463B | June balances increased; do not infer flows |
+| [Japan Post](japan-post.md) | Consolidated assets ¥58,286.805B; standalone foreign securities ¥2,134.726B | Current comparable ESR not established in reviewed workbook |
+| [Norinchukin](norinchukin.md) | Credit/other assets ¥21.8T vs ¥22.2T March; securities revaluation +¥54.8B | June CLO-only balance unavailable in summary; March ¥10.1T remains dated |
+
+**Interpretation:** direct net foreign-credit sales over two consecutive windows at two eligible institutions are not established. Stock changes and ESR levels cannot fill that evidentiary gap. Channel 1 remains retired. Historical company tables and industry market quotes below retain their stated vintages; the current market curve is in STATUS.
 
 ## AUGUST 2026 SECTOR FLOWS — separate from company disclosures
 

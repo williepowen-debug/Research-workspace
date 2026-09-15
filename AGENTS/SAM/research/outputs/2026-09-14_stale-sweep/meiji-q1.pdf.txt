@@ -1,0 +1,384 @@
+
+=== PDF PAGE 1 ===
+Financial Results Summary
+for the 1st Quarter of FY2026
+Ended June 30, 2026
+August 7, 2026
+Meiji Yasuda Life Insurance Company
+
+=== PDF PAGE 2 ===
+I. Financial Results Summary for 1Q FY2026 P.2
+II. Results of Meiji Yasuda Group P.3
+III. Results of Meiji Yasuda P.6
+IV. Results of StanCorp and Banner Life (Reference) P.11
+V. Business Outlook for FY2026 P.12
+1
+
+=== PDF PAGE 3 ===
+Ⅰ. Financial Results Summary 1Q FY2026
+Insurance Premiums Decreased by 153.4 billion yen (-12.2%) year-on-year
+of the Group
+• Insurance premiums of the Group (excluding reinsurance income)
+(Excluding Reinsurance
+decreased year-on-year, mainly due to a rebound decline in sales of
+Income) defined benefit corporate pensions, for which Meiji Yasuda resumed
+1,106.6 billion yen selling in April 2025.
+Increased by 37.4 billion yen (+33.7%) year-on-year
+Net Operating Profit • Net operating profit of the Group increased year-on-year, mainly due to an
+increase in “interest, dividends and other income” at Meiji Yasuda and
+of the Group*
+higher profit in overseas insurance businesses following the acquisition of
+148.3 billion yen
+Banner Life and StanCorp’s acquisition of Allstate’s voluntary group
+insurance business.
+Increased by 0.3 pts from the end of FY2025
+Group ESR
+209% • Maintaining solid financial soundness.
+• Insurance premiums of the Group (excluding reinsurance income)
+Outlook for FY2026 are expected to “increase” and net operating profit of the Group is
+expected to remain “flat” (no change from the previous report of FY2025).
+• Net operating profit of the Group: Net operating profit (base profit excluding the impact of provision or reversal of standard policy reserves) of Meiji Yasuda +
+Net operating profit equivalents (which are pretax profit excluding capital gains/losses, etc.; adjusted based on the ratio of equity stakes held by Meiji Yasuda) of
+consolidated subsidiaries and affiliates, as well as equity-method affiliates. This figure also offsets some internal transactions within Meiji Yasuda Group.
+2
+
+=== PDF PAGE 4 ===
+II. Results of Meiji Yasuda Group
+1. Insurance Premiums of the Group
+■ Insurance Premiums of the Group ○ Insurance premiums of the Group
+(Billions of yen)
+(excluding reinsurance income)
+- 1Q FY2025 1Q FY2026 Change decreased by 12.2% year-on-year,
+mainly due to a rebound decline in
+Insurance premiums of the Group
+1,260.0 1,106.6 -12.2% sales of defined benefit corporate
+(excluding reinsurance income)*1
+pensions, for which Meiji Yasuda
+Overseas insurance business
+156.3 312.8 +100.1% resumed selling in April 2025.
+and other businesses*2
+○ Insurance premiums of overseas
+StanCorp 147.8 206.7 +39.8%
+insurance and other businesses
+increased by 100.1% year-on-year,
+Banner Life ― 90.8 ―
+mainly due to the acquisition of
+Insurance premiums of the Group*3 1,261.4 1,160.9 -8.0% Banner Life and StanCorp’s
+acquisition of Allstate’s voluntary
+group insurance business.
+■ Trend of Insurance Premiums of the Group
+*1 “Insurance premiums of the Group (excluding reinsurance
+(Excluding Reinsurance Income)
+income)” refers to the amount after deducting reinsurance
+(Billions of yen)
+income (for FY2025, reinsurance income of Meiji Yasuda) from
+1,260.0 “Insurance premiums of the Group”.
+*2 The sum of overseas insurance business and domestic business
+1,106.6
+except for domestic insurance business. The accounting period
+for consolidated overseas subsidiaries and affiliates is from
+875.7 884.3
+January to March.
+769.3
+*3“Insurance premiums of the Group” refers to insurance premiums
+and other in the consolidated statements of income. The method
+for calculating premiums and other income of overseas
+insurance companies was revised: through FY2025, reinsurance
+premiums were deducted from premiums, but from FY2026,
+reinsurance premiums are no longer deducted, and reinsurance
+income is added.
+1Q FY2022 1Q FY2023 1Q FY2024 1Q FY2025 1Q FY2026
+3
+
+=== PDF PAGE 5 ===
+II. Results of Meiji Yasuda Group
+2. Net Operating Profit of the Group
+■ Net Operating Profit of the Group
+(Billions of yen) ○ Net operating profit of the Group
+1Q FY2025 1Q FY2026 Change increased by 33.7% year-on-year,
+mainly due to an increase in
+Net operating profit of the
+110.9 148.3 +33.7% “interest, dividends and other
+Group*1
+income” at Meiji Yasuda.
+Overseas insurance
+business and other 27.9 39.9 +42.6% ○ Net operating profit of overseas
+businesses*2
+insurance and other businesses
+StanCorp 21.0 29.8 +42.1% increased by 42.6% year-on-year,
+mainly due to the acquisition of
+Banner Life ― 5.1 ―
+Banner Life and StanCorp’s
+■ Trend of Net Operating Profit of the Group acquisition of Allstate’s voluntary
+(Billions of yen) group insurance business.
+*1Net operating profit of the Group: Net operating profit
+148.3
+(base profit excluding the impact of provision or reversal of
+standard policy reserves) of Meiji Yasuda + Net operating
+116.2 profit equivalents (which are pretax profit excluding capital
+110.9
+gains/losses, etc.; adjusted based on the ratio of equity
+91.5 90.6 stakes held by Meiji Yasuda) of consolidated subsidiaries
+and affiliates, as well as equity-method affiliates. This
+figure also offsets some internal transactions within Meiji
+Yasuda Group.
+*2 The sum of overseas insurance business and domestic
+business except for domestic insurance business. The
+accounting period for consolidated overseas subsidiaries
+1Q FY2022 1Q FY2023 1Q FY2024 1Q FY2025 1Q FY2026 and affiliates is from January to March.
+4
+
+=== PDF PAGE 6 ===
+Ⅱ. Results of Meiji Yasuda Group
+3. Indicators of Soundness
+■ Group ESR
+Our company has set the Group ESR*3 defined as the lowerof the standard ○ Group ESR was 209%, still maintaining
+model ESR*1and the internal model ESR*2. We ensure soundness and make
+a high level of soundness.
+management decisions such as policyholder dividends and other matters.
+○ We will work towards the sustainable
+improvement of corporate value and the
+Level for Group ESR
+<Policyholder Dividend Concept stable realization of policyholder
+According to the ESR level> dividends while continuing to prioritize
+220%
+maintaining financial soundness.
+• Deliver a stable stream of policyholder
+Target Appro- dividends
+priate
+Level
+Level 209% • Consider and implement the additional payout *1 A solvency indicator used by Financial Services
+of dividends if the ESR level is expected to Agency of Japan (JFSA) in supervising insurers (its
+200% stably exceed 220% statutory name is the “Solvency Margin Ratio”),
+referring to the ESR calculated using a standard model
+based on industry-wide common standards.
+165% *2 ESR calculated using an internal model that reflects
+our actual business practices.
+Standard model ESR Internal model ESR
+• Consider and implement risk mitigation and
+214% 209%
+other measures to ensure the steady payout
+of policyholder dividends
+*3 Quarterly figures are calculated using a simplified
+120% method.
+• Prioritize securing reserves to maintain
+soundness while considering, for example, the
+downward revision of the level of policyholder
+dividends
+5
+
+=== PDF PAGE 7 ===
+III. Results of Meiji Yasuda
+1. Insurance Premiums and Other
+■ Insurance Premiums and Other
+(Billions of yen)
+1Q FY2025 1Q FY2026 Change
+○ Insurance premiums decreased by
+Insurance premiums 1,103.6 793.7 -28.1%
+28.1% year-on-year to 793.7 billion
+Individual life insurance and
+592.7 542.1 -8.5 %
+annuities yen.
+Agency channel 508.0 466.6 -8.2 %
+○ Mainly due to a rebound decline
+Bancassurance channel 74.9 65.7 -12.3 %
+in sales of defined benefit
+Group insurance 75.7 76.3 +0.7%
+corporate pensions, for which
+Group pensions 427.1 167.1 -60.9%
+Meiji Yasuda resumed selling in
+Insurance premiums and other* 1,105.0 798.5 -27.7% April 2025.
+* “Insurance premiums and other” refers to the income
+from insurance premiums stated in the unconsolidated
+statement of income, which includes both insurance
+■ Trend of Insurance Premiums and Other premium income and reinsurance income.
+(Billions of yen)
+1,103.6
+766.0 793.7
+735.7
+644.9
+1Q FY2022 1Q FY2023 1Q FY2024 1Q FY2025 1Q FY2026
+6
+
+=== PDF PAGE 8 ===
+III. Results of Meiji Yasuda
+2. Annualized New Premiums and Premiums in Force (Individual Life Insurance and Annuities)
+■ Annualized New Premiums (Individual Life Insurance and Annuities)
+(Billions of yen)
+1Q FY2025 1Q FY2026 Change ○ Annualized new premiums
+decreased by 7.8% year-on-
+Annualized new premiums 42.0 38.7 -7.8%
+year to 38.7 billion yen.
+○ Mainly due to a decline in
+Agency channel 36.6 33.9 -7.3%
+sales of foreign currency-
+Bancassurance channel 5.1 4.4 -12.3% denominated insurance
+products due to the continued
+depreciation of the yen.
+Protection-type products premiums*1 8.0 6.8 -14.6%
+*1 Consist of comprehensive protection insurance
+such as “Best Style”, and protection-type products
+Saving-type products premiums*2 31.4 29.8 -5.0% including medical and nursing care insurance.
+*2 Consist of whole life insurance, annuity insurance,
+endowment insurance and others.
+*3 Third-sector insurance premiums reflect medical
+Third-sector insurance premiums*3 9.5 7.8 -17.7%
+benefit, living needs, premium waiver benefit and
+others.
+7
+
+=== PDF PAGE 9 ===
+III. Results of Meiji Yasuda
+3. Annualized Premiums in Force (Individual Life Insurance and Annuities)
+■ Annualized Premiums in Force (Individual Life Insurance and Annuities)
+(Billions of yen)
+End of End of
+Change ○ Annualized premiums in force
+FY2025 1Q FY2026
+were at the same level as of
+Annualized premiums in force 2,144.0 2,147.0 +0.1%
+the end of FY2025.
+Agency channel 1,651.5 1,660.5 +0.5%
+*1 Consist of comprehensive protection insurance
+such as “Best Style”, and protection-type products
+Bancassurance channel 448.3 442.8 -1.2% including medical and nursing care insurance.
+*2 Consist of whole life insurance, annuity insurance,
+endowment insurance and others.
+*3 Third-sector insurance premiums reflect medical
+Protection-type products premiums*1 610.1 608.3 -0.3% benefit, living needs, premium waiver benefit and
+others.
+Saving-type products premiums*2 1,438.0 1,445.3 +0.5%
+Third-sector insurance premiums*3 521.1 520.9 -0.0%
+8
+
+=== PDF PAGE 10 ===
+III. Results of Meiji Yasuda
+4. Net Operating Profit
+■ Net Operating Profit
+(Billions of yen)
+1Q FY2025 1Q FY2026 Change ○ Net operating profit increased by
+20.2% year-on-year to 116.0
+Net operating profit 96.5 116.0 +20.2%
+billion yen, mainly due to an
+increase in “interest, dividends
+and other income."
+■ Trend of Net Operating Profit
+(Billions of yen)
+* Net operating profit is Base profit of Meiji Yasuda
+excluding the impact of provision or reversal of
+116.0 standard policy reserves.
+104.6
+96.5
+92.3
+80.0
+1Q FY2022 1Q FY2023 1Q FY2024 1Q FY2025 1Q FY2026
+9
+
+=== PDF PAGE 11 ===
+III. Results of Meiji Yasuda
+5. Unrealized Gains and Breakeven Point of Domestic Stocks
+■ Unrealized Gains in General Account Investment Assets
+(Billions of yen)
+End of End of
+Difference ○ Unrealized gains in general
+FY2025 1Q FY2026
+account assets increased by
+Unrealized gains in general
+5,603.4 6,694.3 1,090.9 1,090.9 billion yen from the end
+account assets
+of FY2025 to 6,694.3 billion yen.
+Securities with market price*1 4,880.6 5,976.8 1,096.1
+○ Unrealized losses on domestic
+Domestic bonds -2,161.8 -2,278.6 -116.8
+bonds expanded due to the rise
+Domestic stocks 6,141.7 6,995.4 853.6
+in domestic interest rates, while
+the rise in domestic stock prices
+Foreign securities 709.4 968.2 258.7
+and the depreciation of the yen
+Real estate 695.0 690.2 -4.8
+led to an increase in unrealized
+gains on domestic stocks and
+foreign securities, resulting in an
+■ Breakeven Point of Domestic Stocks
+overall increase in unrealized
+If Meiji Yasuda’s portfolio fully correlates with TOPIX. gains.
+End of End of
+*1 Including securities that are deemed appropriate to be
+FY2025 1Q FY2026
+handled under the Financial Instruments and
+TOPIX Approx. 660 pts Approx. 680 pts*2 Exchange Act.
+*2 Breakeven point in Nikkei 225 basis was estimated
+approximately 12,000 yen.
+10
+
+=== PDF PAGE 12 ===
+IV. Results of StanCorp and Banner Life (Reference)
+Insurance Premiums and Net Operating Profit Equivalents of StanCorp and Banner Life
+■ Insurance Premiums and Net Operating Profit Equivalents
+○ Insurance premiums of StanCorp
+of StanCorp*1 (Billions of yen)
+increased by 39.8% year-on-year,
+1Q FY2025 1Q FY2026 Change *
+mainly due to the acquisition of
+Insurance premiums*2 147.8 206.7 +39.8% Allstate’s voluntary group insurance
+business.
+Net operating profit equivalents*3 21.0 29.8 +42.1%
+○ Net operating profit equivalents of
+* Changes based on US dollar were +30.8% in insurance premiums and other, and +32.9% in
+net operating profit equivalents. StanCorp increased by 42.1% year-
+* Exchange rate used was 149.52 to 1 US dollar at the end of March 2025 for 1Q FY2025,
+on-year, due to the acquisition of
+and 159.88 to 1 US dollar at the end of March 2026 for 1Q FY2026.
+Allstate’s voluntary group insurance
+■ Insurance Premiums and Net Operating Profit Equivalents
+of Banner Life*1 (Billions of yen) business, a favorable deviation in the
+benefit ratio and other factors.
+1Q FY2025 1Q FY2026 Change *
+○ New policy sales in the term life
+Insurance premiums*2 ― 90.8 ―
+insurance business of Banner Life
+Net operating profit equivalents*3 ― 5.1 ―
+remained strong.
+* Exchange rate used was 159.88 to 1 US dollar at the end of March 2026 for 1Q FY2026. * Banner Life, acquired in February
+*1 The accounting period is from January to March.
+2026, is included in the Group’s
+*2 “Insurance premiums” refers to the amount after deducting reinsurance income from
+“Insurance premiums and other”.
+results from 1Q FY2026.
+*3 Net operating profit equivalents are pretax profit excluding expenses such as expenses for
+capital gains/losses and intangible asset amortization associated with purchase accounting.
+11
+
+=== PDF PAGE 13 ===
+V. Business Outlook for FY2026
+Business Outlook for FY2026 * Outlook is based on our current information and reasonable assumptions. Actual financial results may be
+different from this outlook due to various factors.
+■ Outlook for Insurance Premiums of the Group
+(Billions of yen)
+○ Business outlook for FY2026
+FY2026 Outlook Change FY2025 Actual
+has not changed from the
+Insurance premiums of
+previous report of FY2025,
+the Group (excluding Approx. 5,000.0 Increase 4,485.4
+reinsurance income) with insurance premiums of
+Overseas insurance the Group expected to
+Approx. 1,450.0 Increase 754.7
+business
+“increase” and net operating
+profit of the Group expected to
+■ Outlook for Net Operating Profit of the Group
+remain “flat.”
+(Billions of yen)
+FY2026 Outlook Change FY2025 Actual
+Net operating profit of
+Approx. 760.0 Flat 760.2
+the Group
+Overseas insurance
+Approx. 130.0 Decrease* 167.4
+business
+• Excluding special factors from the FY2025 results, such as the performance of the sold Europa and
+Warta businesses and the impact of the reversal of policy reserves at StanCorp, the outlook is expected
+to remain “flat.”
+12

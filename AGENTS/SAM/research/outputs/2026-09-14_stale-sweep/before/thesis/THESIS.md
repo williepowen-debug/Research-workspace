@@ -1,0 +1,314 @@
+# SAM THESIS — v1.7
+
+> **Current integration — September 8, 2026; v1.7 unchanged.** LOW applies to the retired carry-convexity frame, not to every Japan risk. Book last recorded FLAT; no successor declared. The current policy, domestic-demand, intervention and energy interpretations are in the pillar/channel sections below. Historical conviction weights, route EVs and pre-registered contract gates elsewhere in this document are the as-published record, not an entry engine. Current observations and corrected CFTC normalization live in `../STATUS.md`; source evidence and inference limits in [the catch-up assessment](../reports/2026-09-08_catchup-assessment.md).
+
+**Version:** 1.7
+**Retirement record (as published; percentages later corrected in STATUS):** 2026-08-07 (v1.7 — 🔴 **THE CARRY-CONVEXITY TAIL IS RETIRED TO LOW. Leg-1 SPF FIRED; a registered thesis-BREAK condition is MET.** CFTC Aug-4 data: net **−45,473 = 25.3%** of the −180K peak, from −163,412/90.8% — **through the −108K/60% leg-1 invalidation line by 62,527 contracts and 34.7pp**, 42 days before the Sep-18 horizon. WoW **+117,939** (longs +45,957 / shorts −71,982) = **3.8× the largest prior weekly cover in the series**. Open interest barely moved (−12,973) ⇒ **position REVERSAL, not liquidation** — the crowd turned around *inside* the intervention window (7/30, 7/31, 8/3, 8/4) after a ~5.3% adverse move. Verified twice before propagation (`cftc_jpy.py` + independent raw `deafut.txt` parse, agreeing to the contract). **SAM-29 FAILED · SAM-40 FAILED** (the 45% CONFIRM modal missed; the ~25% DE-LOAD branch fired; resolver run ON THE LETTER, terms frozen 8/4, not re-tuned). Amplifier **+8-10pp → OFF**, residual **OFF**. Buckets **~8/23/32 → ~3/8/13**. **Book was FLAT; $0 at risk; nothing executed.** ⚠️ **NO SUCCESSOR FRAME IS DECLARED — see § WHAT REPLACES IT.** See `CHANGELOG.md` 2026-08-07 + `outbox/2026-08-07_to-TERRY-PROME_RESOLVER-COMPLETE-...`.)
+
+> ## 🪦 v1.7 — WHY THIS IS **NOT** v2.0, AND WHAT IS DELIBERATELY LEFT BLANK
+>
+> v1.6's center was the **carry-convexity tail**. That center is now **dead by its own pre-registered rule** — not
+> re-interpreted, not downgraded: leg-1 fired and the frame retires to LOW exactly as written since 2026-06-22.
+>
+> **A major bump to v2.0 would assert a replacement structure. There isn't one yet, and inventing one tonight —
+> in the same hours as the print that killed the old one — is precisely the improvisation this thesis has spent
+> two months building rails against.** v1.7 records the retirement honestly and leaves the successor blank.
+>
+> **What survived at the August 7 break (dated record; current pillar audit below supersedes these level/demand descriptions):** Pillar 1 LEVEL (the ~280-300bp differential is
+> still the carry) · **Pillar 2** (J-ICS lifer long-end abandonment — DOMESTIC, still firing, with the Meiji
+> ~4.0% floor now confirmed 3× in flow) · Pillar 3 (hedge ratio 44.4%, unchanged in fact) · the **oil-in-yen**
+> two-phase dynamic · **Channel 1 RETIRED** · the JGB demand-vacuum thesis and its BOND/LIQUID routing.
+>
+> **What DIED with the frame:** Channel 4 (POSITIONING-CONVEXITY) as a live channel · the N-tail-route EV table
+> as an *entry* engine · the Sep-18 eligibility window as an *action* deadline (it survives only as the SAM-28
+> grading horizon).
+>
+> **🕯️ A v1.8 CANDIDATE IS NOW OPEN AND IS NOT A THESIS: `thesis/V18_CANDIDATE_PILLAR1.md`** (opened 8/7, Will-directed) — *is Pillar 1 / rate-differential compression coming back?* **August 7 verdict as written: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.** Both policy legs finally point the same way and, unlike the frame that just died, it **does not depend on a crowd** — but the gap sits where it was in **mid-June**, when v1.6 declared this pillar broken (5Y 2.316 vs 2.327; 10Y 1.887 vs 1.823 = **wider**). Bar registered as **SAM-41**. ⚠️ **THIS DOES NOT CHANGE v1.7. Promotion requires a separate session: bar graded on fresh data + RED adversarial pass + Will sign-off.**
+>
+> **The open question v1.8+ must answer, written down now so it cannot be quietly skipped:** *the carry trade
+> substantially unwound — and the yen is at 157.5, not 145. What is the thesis when the positioning fuel has
+> ALREADY burned and the level barely moved?* **Do not answer this from within the old frame.**
+> *(Owed, with it: TERRY's §6 branch — "yen strengthens but BOJ does nothing" — which the old route table never
+> had an exit for.)*
+
+**Prior:** v1.6.11 (2026-08-02 (v1.6.11 — **PROXY RUN (PROME-directed phone-session spawn; real-SAM integrates at next boot). GATE-SAM-30 RE-FIRE ADJUDICATED VALID: CFTC Jul-28-data net −163,412 = 90.8% of the −180K peak** [own primary re-pull 8/2 reproduces PROME/NEXUS to the contract; through the −153K/85% re-fire bar by 10,412; WoW −11,287 REBUILD, episode-deepest] → **the registered flip-condition fired: convexity-tail MEDIUM → MED-HIGH, amplifier +5pp → +8-10pp, buckets 5/19/29 → ~8/23/32** (net EV reclaims ~+1.3% per the registered RED-#1 flip-up math). ⚠️ **PROVISIONAL by construction on the 8/7 print:** the flip-up math equates measured fuel [7/28-vintage] with current fuel, and the 7/30 suspected ¥8.45T op + 7/31 hawkish hold landed AFTER measurement on a max-short crowd — SAM-22 [intervention → mass cover] and the 7/10 <12h whipsaw are the two named reversion paths. Composition note: for the first time BOTH frame legs are simultaneously evidenced — fuel at episode-max AND two trigger routes partially fired [MOF #3: record-size op whose yen gains EXTENDED day+1, first of cycle, n=2 reclaim base rate broken, Fri close 157.3950 < 157.92 op-day low; BOJ-hawkish: Oct OIS ~64%, Sep ~23% named, Sep 17-18 MPM in-window at ~77% unpriced]. Entry rec to Will = wait-for-8/7 + TERRY re-mark now [Aug-21 tenor excludes the Sep 17-18 MPM — must roll] + pre-registered resolver + early-entry override. FLAT stands; nothing executed. See `CHANGELOG.md` 2026-08-02 + `outbox/2026-08-02_to-PROME_sam30-refire-adjudication.md`.)
+**Prior:** v1.6.10 (2026-07-31 — **BOJ July MPM graded: SAM-38 RESOLVED CONFIRMED at FULL Branch C** [HOLD 8-1 w/ Takada HAWKISH dissent for 1.25% + Outlook overshoot-risk guidance + FY2027 plan untouched + presser: Oct OIS ~26-40%→~64% through the registered bar, Ueda names SEPTEMBER as the start of upside-risk debate]; SAM-34 CONFIRMED [hold @85%, 3rd straight calibrated BOJ binary]. **The pre-registered Branch-C(c) telegraph trigger FIRED → carry buckets 5/18/27 → 5/19/29** [BOJ-hawkish-of-priced route ~8-9→~11-12%/60d — the Sep 17-18 MPM is IN the locked Sep-18 window at 77% unpriced]; **conviction stays MEDIUM** [flip-conditions unchanged: CFTC-through-85% OR yen-haven re-couple]. MOF monthly ¥0 [Jun-29→Jul-29] = the 7/2 no-strike adjudication HARD-CONFIRMED [CH-011 cleanest stamp]. Context, attribution OPEN: yen +2.7% 7/30 spike [suspected-unconfirmed MOF op; 8/7 CFTC = first attribution print; hard confirm ~Aug-31]. See `CHANGELOG.md` 2026-07-31 ×2.)
+**Prior:** v1.6.9 (2026-07-17 — **CFTC JPY COT Jul-14 (first post-Hormuz-closure print) GRADED STALL: net −122,663 / 68.1% of the −180K peak (dNet +1,115 = flat, two-sided/both legs grew) → positioning STICKY ~68% post-flush; SAM-37 RESOLVED CONFIRMED (core band; 55% modal sub-lean narrowly missed cover-side by 0.7pp). No registered line crossed → convexity-tail MEDIUM · amplifier +5pp · buckets 7d~5/30d~18/60d~27 · TRY-FIRE-005 SHELVED — ALL UNCHANGED; FLAT stands. Oil-leg durability caveat: $76→$87 = risk-premium not supply-loss [FAL-01 unfired] → softer 60d oil-tail ~10-11%, no bucket change. See `CHANGELOG.md` 2026-07-17.**) *[7/21 boot — CONFIRMATORY, no version change: USD/JPY 163.16 through the 162–163 zone but ORDERLY (ARMED not FIRED); Brent $92.54 oil-escalation cluster all risk-premium not supply-loss; Japan June TB = deficit/import-driven = Phase-1 oil-in-yen inversion CONFIRMED (cost-side); JGB 30Y jawbone-rally hard-verified 4.013→3.905. Live values → STATUS.]*
+**Prior:** v1.6.8 (2026-07-16 — **DOUBLE-DISCRIMINATOR DAY: MOF ITS weekly wk-7/5–7/11 = +¥1,090.1B foreign-LT-debt net BUYING (>2× the registered ≥+¥500B durable bar; reverses 2 prior selling weeks) → the 7/9 BND-11 "safe-haven-transient MEDIUM" read on the US-30Y 77.74% indirect surge is FALSIFIED by its own pre-registered arbiter → re-marked DURABLE-leaning at MEDIUM.** Caveats: MOF weekly = foreign LT debt globally not USTs-specific [TIC 4 PM ET today = UST check but predates the event; June TIC ~mid-Aug = direct]; single week; yen-NEGATIVE structural outflow (reinforces no-near-term-unwind + UST-demand-positive for LIQUID/BOND). **Four-anchor carry-unwind re-pencil (owed item CLOSED): 7d ~5 / 30d ~18 / 60d ~27** after the CFTC round-trip (86.2% Jun-30 → 68.8% Jul-7) + oil shock + USD/JPY 162 — net ≈ baseline, composition rotated (7d↓ on cover+Phase-1 yen-weakness, 60d↑ on the oil Phase-2 tail). **Oil/MOU route re-armed 8%→~10-11%/60d** (Iran FORMALLY closed Hormuz 7/11-12, Brent ~$86 held — more severe than the faded 7/8 truce-collapse; Phase-1 yen-NEGATIVE near-term; BRENT owns the sustain verdict). Convexity-tail stays MEDIUM; no structural/EV change; FLAT stands. Closes MSG-PROME-20260714-002 (Direct Messaging v1 first live test); CFTC next-print reconciled to Fri 7/17 (Jul-14 data). See `CHANGELOG.md` 2026-07-16.)
+**Prior:** v1.6.7 (2026-07-11 — **CH-010 RE-SCOPED (mechanism-split): the 30Y-~4.5% zone is a J-GAAP statutory-impairment TAIL on low-coupon legacy holdings (disorderly path only), NOT a clean level-triggered forced-seller; base case at higher long-end yields = net-demand-POSITIVE under J-ICS/ESR economic value — RED's CH-010 read wins round 2.** Trigger: DEWEY prompt-08 (via WALTER SIG-W-20260710-004, routed 7/10, consumed at the 7/11 sweep; source `AGENTS/DEWEY/output/2026-07-10_004`); Will-approved sweep follow-up. Evidence [DEWEY 7/10]: higher yields IMPROVE lifer ESR (Nippon Life −2pp to 222%, still comfortably strong); May's −¥201.2bn super-long sell print partially offset by Apr +¥327.2bn = **2-mo net +¥126bn BUYING** (the v1.6.1 "lifers turned net-SELLERS" leg does not survive the 2-month window); GPIF NOT the marginal buyer (25% policy weight unchanged; Katayama 7/10 jawbone rhetorical, not flow). **Surviving falsifiable edge = BIFURCATION WATCH: mid-cap lifers (Fukoku/Asahi) could face J-GAAP impairment selling near 4.5% while majors buy** — if 30Y re-tests 4.0-4.5%, watch mid-cap-specific selling, not aggregate. 30Y-4.5% carry-tail route KEPT, mechanism re-characterized (disorderly-only, consistent with SAM-33); no EV-table number moves. Next test: 40Y auction 7/22 (SAM-35). See `CHANGELOG.md` 2026-07-11.)
+**Prior:** v1.6.6 (2026-07-10 PM — **Oil/MOU tail-route EV-weight RECOMPUTED (was flagged pending-recompute since 7/9) — REAFFIRMED at 8%/+3%, unchanged.** Three fresh datapoints reviewed against the stale flag: the 7/8 truce-collapse re-arm (real, but delivered Phase-1 yen-weakening not the Phase-2 yen-haven bid this route needs), BRENT's independent GATE-BRENT-SUSTAIN DENY tonight (only 1 of ≥2 required fresh institutional legs — energy tail reverts to fragile-watch), and SAM's own Jul-7 COT print showing yen shorts covering sharply through the same window (not building). Net: a real trial of the route ran and faded fast, consistent with an 8% base rate — reaffirming rather than adjusting off one fired-then-faded instance. No downstream EV-table change (route contribution unchanged at +0.24%). See `CHANGELOG.md` 2026-07-10 (PM, 2nd entry).)
+**Prior:** v1.6.5 (2026-07-10 PM — **🔴 SAM-36 RESOLVED FALSE/DE-LOAD: the Jul-7-data CFTC print (released 3:30 PM ET) covered to −123,778 = 68.8% of cycle peak — DOWN from 86.2% (Jun-30), past the −140K DE-LOAD line, not merely short of the −153K/85% CONFIRM line.** This closes the TRY-FIRE-005 entry-gate question Will registered this AM: **DE-LOAD, no entry recommended.** Registered consequence: amplifier reverts +8-10pp → +5pp, carry-convexity-tail conviction MED-HIGH → **MEDIUM** — v1.6.4's single-anchor MED-HIGH step (this morning, on the Jun-30 print alone) is unwound one print later. Note SAM-30 itself stays RESOLVED CONFIRMED (it graded the Jun-30 print correctly against its own terms — the build to 86.2% was real); SAM-36 is the *next* print closing the gate SAM-30 opened, not a re-litigation of SAM-30. Timing: the covering is dated to Tue 7/7, BEFORE the Katayama jawbone (7/10 JST) — reads as pre-jawbone risk-reduction (plausibly the 7/7 firm 30Y auction + PPI/yield stack denting directional conviction), not jawbone-caused. See `CHANGELOG.md` 2026-07-10 (PM).)
+**Prior:** v1.6.4 (2026-07-10 AM — **🔴 SAM-30 reclaim tripwire FIRED: CFTC Jun-30 print −155,092 = 86.2% of cycle peak, through the pre-registered −153K/85% line → amplifier +5pp→+8-10pp → carry-convexity-tail conviction MEDIUM → MED-HIGH (net EV ~+1.3%, per the registered RED-#1 flip-up math).** Buckets re-mark ~5-6/17-20/24-28 → ~8-10/20-24/27-31 (7/30/60d; single-anchor mechanical step). Superseded same-day by v1.6.5 above.)
+**Prior:** v1.6.3 (2026-07-02 — **JGB demand-FLOOR found at ~4% 30Y; SAM-32 RESOLVED FALSE 48h after opening.** Meiji Yasuda (Big-3 mutual) doubled FY2026 SUPER-LONG purchases to >¥2T, AM head calling ~4% 30Y a "perfect buying opportunity," funded by selling low-coupon legacy JGBs (Nikkei Jul-1 / Bloomberg Jun-30, 2-outlet verified) → the pre-registered CH-015 plan-leg falsifier fired. **Demand-vacuum re-scoped:** "no re-entry yield near current" is dead — the vacuum is buffer-AND-yield-conditional with a first named demand floor ~4.0%; May's ¥201B net-selling re-read as a yield-ROLLUP sell-leg (Dai-ichi stated the same intent Jul-2025), not abandonment; **RED CH-010's economic-value read won its first live test** (4.5% forced-seller zone doubly suspect); JGB-disorderly carry tail thins further (a bid under 4.0 cushions the break path). Demand-REDUCTION + orderly-grind base case survive. See `CHANGELOG.md` 2026-07-02.)
+**Prior:** v1.6.2 (2026-06-30) — RED adversarial pass walked back the JGB over-claims: "one-way reflexive street" → slow structural grind (CH-009); 30Y-4.5% forced-seller CONTESTED (CH-010) + demoted from KEY THRESHOLD (CH-014); JGB-disorderly route = thin timing-window tail (CH-011); regime-map not edge (CH-012); GPIF/2nd-month-flow/Uchida = load-bearing gaps (CH-013). v1.6.1 (2026-06-30) executed the JGB demand-vacuum thesis; routed → BOND/LIQUID/HENRY. v1.6 finalized 2026-06-22 (COMPRESSION → CONVEXITY-TAIL; SAM⇄RED 6-of-6 — `V16_RED_DIALOGUE.md`). Supersedes v1.5.1 (archived).
+**Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW 2026-08-07 (v1.7).** Leg-1 SPF fired: CFTC Aug-4 net **−45,473 / 25.3%** of the −180K peak, through the −108K/60% invalidation line by **62,527 contracts and 34.7pp**. **Book FLAT. No entry. $0 at risk. No successor frame declared** (see the v1.7 note at the top). *The MED-HIGH grade (8/2 → 8/7) stood 5 days and died exactly the way its own PROVISIONAL caveat said it might — the fuel was measured 7/28, before the op.* **Grade history:** MEDIUM (v1.6, Jun-22) → MED-HIGH (7/10 AM) → MEDIUM (7/10 PM, **<12h**) → MED-HIGH (8/2, flagged PROVISIONAL at award) → **LOW (8/7)**. ⚠️ **Two of three MED-HIGH awards were reversed by the very next print.** The amplifier step is a single-anchor mechanical move; the record now says that is too fast an instrument to grade conviction on by itself — a lesson that outlives this frame.
+
+> 🔧 **STANDING CORRECTION (2026-08-17) — THE PEAK DENOMINATOR. Read this before citing ANY "% of peak" figure anywhere in this file.**
+> **`−180,000` is RETIRED. It was a ROUNDING, never a print.** The publisher's full record gives **R = −188,077 [2007-06-26, n = 1,354 weekly rows back to 2000-08-29]** — forum-4, **Will-ratified 2026-08-11**. **Every percentage label in this document moves DOWN by ~2.3%:** the Jul-28 episode peak reads **86.9%, not 90.8%**; the 2026-08-04 print reads **24.2%, not 25.3%**; the `34.7pp` through-distance re-derives. **The percentage-form leg-1 line is −112,846** (60% of R).
+> 🔴 **THE CONTRACT GATES ARE UNAFFECTED, AND THAT IS THE LOAD-BEARING HALF** — every registered threshold in the retired frame was written in **contracts** (leg-1 −108K · DE-LOAD −140K · the VOID flip-condition −153K), so this **re-labels readings and re-grades NOTHING.** `−45,473` and `62,527` are contract counts and are correct as written.
+> ⚠️ **WHY A STANDING CORRECTION AND NOT 10+ EDITS:** the old percentages appear almost entirely inside **version-history entries and correctly-stamped RETIRED/FIRED rows** — i.e. the audit record of what was believed on a given date. **Rewriting those would corrupt history to fix a label.** *(Flagged 2026-08-17 by the DAEDALUS structure review: every DERIVED surface already carried this correction and the OWNER did not — the inverse of the drift direction `RECONCILIATION.md` sweeps for, and structurally invisible to it.)* ⛔ **The one genuinely LIVE mis-statement it found — the § CROSS-AGENT LINKS → HENRY grade — was corrected in place, not banner-covered.**
+>
+> 🔧 **STANDING CORRECTION (2026-08-04) — read this before citing the "~77% unpriced" figure that appears in the version notes above.** Sep BOJ pricing repriced **~23% → ~39.7%** (centralbank.watch as-of 8/3; corroborated by a wire's *"the swaps curve raised the implied odds of a September BOJ hike to roughly 40% from 20%"*); Oct ~64% → ~71%. **The in-window Sep 17-18 MPM is therefore ~60% unpriced, not ~77%.** The version notes above are left intact as the audit record of what was believed at v1.6.10/v1.6.11 — they are **history, not the live figure**.
+>
+> ⚠️ **And the sign matters more than the level.** Route 1 is **BOJ hawkish-*of-priced***: it pays on **surprise**. Rising priced probability **destroys** surprise room, and **CH-004 is confirmed** — a *fully-priced* hike does **not** unwind carry (Jun-16 delivered as priced, zero unwind). So US rate pressure being **absorbed into pricing** is **neutral-to-NEGATIVE** for this route, even as it raises P(a hike lands in-window). Combined with route-5 (oil/MOU) decaying on the Iran de-escalation, **both named anchors are moving the same way (down)** — the 60d bucket (~32) is flagged **likely-generous**. **Not re-marked:** a full four-anchor re-pencil is owed and is deliberately deferred to the **8/7 print**, which resolves the fuel leg in the same pass. Basis caveat: the source states **cumulative** probabilities and the 7/31 wire basis is unverified — deltas are directional, not exact.
+
+## HISTORICAL CONVICTION DECOMPOSITION (v1.6; not fresh probabilities)
+
+| Dimension | v1.5.1 | **v1.6** | Reasoning |
+|---|---|---|---|
+| Yen-strengthening direction / level (multi-year) | HIGH | **MEDIUM** | Pillar 1 directional vector INVERTED post-Warsh; Pillar 3 moved FARTHER from its <145 trigger (USDJPY 161+); Pillar 4 stayed loaded but FAILED to fire on its expected catalyst (3 distinct failure modes). Pillar 2 + the structural-LEVEL argument still operate, but directional *convergence* is gone. |
+| Near-term timing (3-6mo modal path) | MEDIUM | **LOW** | Dominant catalyst spent without firing; no near-term trigger in the modal window; cross-pair yen-bid-on-risk-off channel decoupled Jun 11. Live 7d/30d/60d carry-unwind buckets in STATUS. |
+| **Carry-trade convexity TAIL (60d+)** | (not graded) | ⚰️ **RETIRED — LOW** *(v1.7, 2026-08-07)* | **Leg-1 SPF fired.** CFTC −45,473 / **25.3%** of peak (Aug-4 data) — through the −108K/60% invalidation by 62,527 contracts and 34.7pp, 42 days before the Sep-18 horizon. WoW +117,939 on ~flat OI = position REVERSAL. Amplifier +8-10pp → **OFF**; residual → **OFF**. Buckets ~8/23/32 → **~3/8/13**. Grade history: MEDIUM (v1.6, Jun-22) → MED-HIGH (v1.6.4, 7/10 AM) → MEDIUM (v1.6.5, 7/10 PM, <12h) → MED-HIGH (v1.6.11, 8/2, flagged PROVISIONAL at award) → **LOW (v1.7, 8/7)**. **Two of the three MED-HIGH awards were reversed by the very next print** — the amplifier step is a single-anchor mechanical move and the record now says it is too fast an instrument to grade conviction on alone. |
+| Position vehicle fit | (FXY-spot+near-call) | **N/A — book is FLAT; the RED #4 gate is RETIRED 2026-08-03 (Will-approved)** | The v1.6 row asked whether to swap a *live spot holding* for a vol structure. There is no holding. Superseded by the two-question split in § VEHICLE: **instrument choice is answered (defined-risk options > spot) and ungated**; vol-cheapness is a standing TERRY pricing input, not a strategy gate. |
+
+**Current state (daily snapshot):** see `STATUS.md`. **Live carry-unwind buckets:** see `STATUS.md` § CARRY UNWIND PROBABILITY.
+
+---
+
+## ONE-LINER — ⚰️ **THIS IS THE v1.6 ONE-LINER AND IT IS HISTORICAL. THE LIVE ONE-LINER IS: the carry-convexity tail is RETIRED TO LOW (v1.7, 2026-08-07), the book is FLAT, and NO SUCCESSOR FRAME IS DECLARED.**
+
+> 🔴 **STAMPED 2026-08-17 (DAEDALUS structure review).** The paragraph below read *"the CONVEXITY case **survives** — at **MED-HIGH** since 2026-08-02, provisional on the 8/7 print"* in **present tense, under a header whose only marker of pastness was the parenthetical "(v1.6)"**. That print landed on 8/7 and killed the frame. ⚠️ **A version tag in a heading is not a supersede marker** — it dates the *authorship*, not the *validity*, and the ONE-LINER is the paragraph a reader hits first and quotes most. **Kept verbatim below as the v1.6 record; do not cite it as the current view.**
+
+The carry-trade **direction-conditional** case for being long yen is wrong (or directionally inverted) near-term — but the carry-trade **CONVEXITY** case survives — **at MED-HIGH since 2026-08-02, provisional on the 8/7 print** (MEDIUM Jun-22→Aug-2). Pillar 1's directional vector flipped across the Jun 16-17 sequence (BOJ +25bp compression < Fed Jun-17 +40bp dot re-widening); the BOJ normalization-as-priced was delivered without a violent move (CH-004 confirmed); the Fed-cut path is replaced by a Fed-HIKE regime under new Chair Warsh. What remains is (a) CFTC at **83.4% of cycle peak** (Jun-16 data) that held *through* the spent catalyst **with no cover** — Pillar 4 empirically confirmed; (b) Pillar 2 (J-ICS DOMESTIC long-end abandonment) still firing; (c) the tail-routes (risk-off, Fed walk-back, oil/MOU re-escalation, fresh hawkish-of-pricing BOJ, MOF #3). **The narrative re-centers from "structural compression delivers via the Channel 2 catalyst" → "carry-trade convexity tail at peak positioning fuel; the modal near-term path bleeds, the tail pays if any route fires inside the eligibility window (locked Sep 18 2026)."** v1.6's load-bearing question is not "should we be long yen-direction" (answer: not as a near-term directional bet) — it is now **resolved**: hold the small tail-exposure with a tighter stop, or trim; FXY-vehicle change is OFF unless FXY-vol prints confirmed-cheap.
+
+---
+
+## HISTORICAL CORE THESIS (v1.6)
+
+v1.5.1 narrative: *yen strengthens via rate-differential compression (BOJ hike + Fed-cut multi-month tail) plus structural pillars.* Under v1.6 the **compression vector is broken near-term** (Pillar 1 inverted; Fed-cut path replaced by Fed-HIKE). The structural pillars are not gone, but their *directional convergence* is.
+
+**v1.6 narrative:** the carry trade was structurally over-positioned **into** the catalyst (CFTC 81% of the −180K cycle peak, 6 build weeks, no cover into the meeting), and — the decisive observable — positioning **held through** the spent BOJ catalyst (**Jun-16 data −150,132 / 83.4%, +4,314 WoW build, zero cover**). The thesis is no longer "compression delivers." It is: **an asymmetric convexity payoff when ANY of N tail-routes fires within a bounded eligibility window, conditional on positioning remaining loaded.** This is a TAIL bet whose modal outcome is a small bleed, sized small and risk-controlled.
+
+---
+
+## HISTORICAL CARRY-CONVEXITY TAIL (v1.6; entry engine retired August 7)
+
+### The single-point-failure is two-legged (RED #2 — SURVIVES)
+
+> ⚰️ **RESOLVED 2026-08-07 — LEG 1 FIRED. This section is the derivation record of a frame that is now RETIRED.**
+> The two-legged SPF worked exactly as designed: it named, in writing on 2026-06-22, the condition that would kill
+> the frame, and that condition arrived. **Leg 1 was called "a tail." It was not** — it was a single-week regime
+> break (+117,939 WoW) inside an intervention window. *The rule was right; the probability on it was wrong.*
+> **Read everything below as history, not as a live test.**
+
+The frame pays **⟺ (fuel stays loaded) AND (an eligible trigger fires in-window).** Both legs carry a written invalidation threshold:
+
+- **Leg 1 — COVER (a tail).** CFTC covers below **−108K / 60% line** → frame → **LOW.** 🔴 **FIRED 2026-08-07: −45,473 / 25.3%, through by 62,527 contracts and 34.7pp. SAM-29 FAILED.**
+- **Leg 2 — NO-TRIGGER (the MODE).** No eligible trigger fires by **Sep 18 2026** → frame → **LOW.** This is the *binding* SPF: the no-trigger outcome is the distribution's central case (60d bucket prices P(no meaningful unwind) ≈ 0.68; P(no eligible trigger) ≈ 0.55-0.60). A convexity hold whose named failure mode is its >50% central case is honest only because it is bounded by the window + the bleed is small.
+- **Union:** convexity-tail → LOW if **EITHER** leg fires.
+
+### Eligibility window — LOCKED Sep 18 2026 (RED #3 / #5 — SURVIVES)
+
+≈90d from the Jun-22 CFTC peak-confirm; captures **both** the Jul-31 BOJ MPM and the mid-September FOMC inside one box, with neither as the deadline (anchoring to the next BOJ meeting would smuggle the spent BOJ catalyst back in as the deadline — rejected).
+
+> **Disposition (identical for #3 and #5, zero daylight):** By **Sep 18 2026**, if NO eligible trigger (risk-off shock / Fed-dot walk-back / oil-MOU re-escalation / MOF #3) has fired → **convexity-tail RETIRED to LOW.** Combined with leg-1: cover below −108K before Sep 18 (absent a trigger) → also LOW.
+
+Flip-condition on the window: it may move only if (i) ≤90d AND (ii) it carries this same thesis-broken disposition — no open-ended slip.
+
+> **Window-end mechanics (clarified 2026-07-02 — KOYOMI Run-11 baseline-audit find):** the **Sep 17-18 BOJ MPM decision day lands exactly ON the Sep-18 boundary** (FOMC SEP is Sep 15-16, same week). The window is **INCLUSIVE of Sep-18**: the retire-check runs at Sep-18 close, AFTER the BOJ decision prints — a trigger fired by that decision counts as in-window. Interpretation note only; the lock is unchanged (no slip).
+
+### The N tail-routes (the same CH-004 triggers, reframed)
+
+| Route | v1.6 framing | P(60d) | FXY move \| fires | Expected payoff |
+|---|---|---|---|---|
+| BOJ hawkish-of-pricing | Residual tail — most hike-mass burned Jun 16; only a 50bp/accelerated-QT/hawkish-path *next* surprise counts (Jul 31 next) | 8% | +4% blended | +0.32% |
+| MOF #3 sustained | DECAYING — 48h+ at 161+ no strike; CH-011 disorder-not-level; sustained-unwind\|fires ~0.20 (CH-003) | 10% | +2% blended | +0.20% |
+| **Risk-off shock** | **Strongest single route.** Cross-pair yen-haven decoupled Jun 11 (risk-off → USD-haven); re-snap needs a VIX spike, not hawkish-Fed equity bleed | **~6-7%** (was 10%) | **+7% conditional** (Aug-2024-flavored) | **≈ +0.45%** |
+| Fed walk-back of Jun-17 dots | Requires a US-credit event to force Warsh's hand; PC redemption peak Q2 (BCRED ~12%, Ares ~14%) live but labor/inflation too firm pre-Jul-29 | 5% | +5% | +0.25% |
+| Oil/MOU re-escalation | Deal SIGNED Jun 17, verification leg OPEN; Brent already ~−19%; Sat Jun-20 declaratory Hormuz re-closure = SHRUG (decoupling test) → TAIL only. **✅ RECOMPUTED 2026-07-10 PM (was flagged pending-recompute 7/9) — REAFFIRMED at 8%, unchanged.** Three fresh datapoints reviewed: (1) the truce DID collapse 7/7→7/8 (US-Iran strikes, Brent +6.3%→~$79) — a real instance of this route's trigger condition; BUT the realized mechanism was Phase-1 oil-driven YEN WEAKNESS (Japan 90% ME-oil-dependent, terms-of-trade hit), NOT the Phase-2 risk-off yen-haven bid this route's +3% payoff needs — the wrong-direction move for the route's own thesis. (2) BRENT's independently-graded GATE-BRENT-SUSTAIN test tonight (7/10 ~21:15 ET) came back **DENY**: level held (~$76 both sessions) but only 1 of ≥2 required fresh institutional legs fired (war-risk premium only; sanctions down-weighted per RED red-team #3; transits/P&I had no fresh print) — energy tail reverts ACTIVE → 🟡 fragile-watch, i.e. this specific re-escalation attempt did NOT durably establish. (3) SAM's own Jul-7 CFTC print (same session, SAM-36) shows JPY shorts COVERING sharply through this exact event window (86.2%→68.8%, largest WoW reduction in the series) — FX positioning was NOT building into the oil shock, the opposite of what a live/gripping re-escalation-route would produce. **Net read: a real trial of this route just ran and resolved consistent with an 8% base rate — fired, but faded fast without producing its own payoff mechanism (no Phase-2, no positioning build).** Per the fleet lesson against overreacting to one data point (15-25pp swings need more than a single print), REAFFIRMING 8%/+3% rather than adjusting off a single fired-then-faded instance — a genuine second re-escalation attempt (fresh Iran leg, sustained >2 sessions, ≥2 institutional legs per BRENT's own gate) would warrant a fresh look. | 8% | +3% | +0.24% |
+| **Residual positioning cascade** | The convexity itself — at 83.4% peak, any trigger lights a move dominated by the unwind, not the trigger's direct mechanism | 10% | +5% | +0.50% |
+
+> **🆕 7/16→7/21 route-weight update (carry-anchor reconciliation):** the **Oil/MOU re-escalation** route was re-armed **8% → ~10-11% / 60d** at the 7/16 four-anchor re-pencil (formal Hormuz closure 7/11-12); 7/21 reinforces it — Brent $92.54 through $90, Japan June TB −¥406.9B deficit = **Phase-1 LIVE but yen-NEGATIVE** (cluster is risk-premium not supply-loss, FAL-01 unfired → reversible; BRENT owns sustain). The **live carry-anchor is STATUS § CARRY UNWIND (~10-11%)**; the per-route EV cell above (8% / +0.24%) is the v1.6.6-stamped computation, **NOT cascaded because aggregate conviction is UNCHANGED at MEDIUM** — the 60d bucket already holds this re-weight (~27, top of range) and no single anchor moved >5pp. A full route-EV-table recompute is deferred (analytical, not a freshness fix).
+
+**Added route (v1.6.1) — JGB-disorderly → carry unwind — ⚠️ DOWNGRADED to a THIN timing-window tail (RED CH-011, v1.6.2):** a *disorderly* break of the Japanese long end could force a violent yen repricing (JGB stress → risk-off → carry unwind). **But the route is partly self-defeating on SAM's own Leg-1 finding** — the BOJ's reaction function *truncates disorderly moves*, i.e. it caps the very disorder this route needs. So it survives only in a **narrow Aug-2024-style timing sliver** (yen spasms before the BOJ caps the JGB move), stacked on SAM-31 re-couple — **not the "named clean entry-trigger" v1.6.1 implied.** Folded into the risk-off/residual-cascade family (does NOT change the headline EV table — magnitude conditional, currently un-fired; 30Y ~3.76% orderly). See `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` § RED CORRECTION. **v1.6.3 thins it further:** the ~4.0% lifer demand floor (Meiji Yasuda) puts a buyer cushion under the break path the route needs — the disorderly tail now requires yields to punch through a NAMED bid, not fall into a void.
+
+**#1a "pick one" (RED #1a — conceded):** you cannot keep both the 10% risk-off probability AND the +7% magnitude while the yen-haven channel is decoupled — high prob assumes re-snap is easy, high magnitude assumes it is violent & rare. v1.6 keeps the **+7% conditional magnitude** (a *true* yen-haven risk-off is Aug-2024-flavored when it fires) and drops the **probability to ~6-7%** (most risk-off currently routes USD-haven; only the severe subset flips flows back to yen). Robust to the choice — the mirror (10% × +5%) lands ≈ +0.50%; the verdict is identical.
+
+### EV — honest, marginal, break-even-to-negative (RED #1 — BROKEN at MED-HIGH / SURVIVES at MEDIUM)
+
+| Leg | Value |
+|---|---|
+| Gross expected payoff (sum of routes) | **+2.21%** (DRAFT center) → **~+2.0%** after the #1b haircut |
+| Overlap discount (routes 3+5 / 2+3 / 4+6) | −3 to −5pp → discounted gross ~**+1.55-1.75%** |
+| Modal bleed (P(no trigger) ≈ 0.55-0.60 × ~−2% drift) | **−1.10 to −1.20%** |
+| Stop-loss tail (P(stop \| no trigger & deep drift) ≈ 0.15-0.20 × −3.2%) | **−0.48 to −0.64%** |
+| **Net 60d EV** | **≈ −0.2% to +0.05% per share at $798 — break-even-to-slightly-NEGATIVE** |
+
+> **⚠️ SUPERSEDED 2026-08-02 — the paragraph below is the v1.6 derivation record, retained because its flip-condition is what fired.** The EV-gate it describes named exactly one escalation: a CFTC build *through* the −153K/85% line. **That fired on the Jul-28 print (−163,412 / 90.8%)** → amplifier +8-10pp, grade MED-HIGH, net EV ~+1.3%. **PROVISIONAL on the 8/7 print** (the flip-up math equates 7/28-vintage measured fuel with current fuel). Read the paragraph below as *why the grade was MEDIUM through Aug-2*, not as the live grade.
+
+**Why MEDIUM, not MEDIUM-HIGH (and not broken) — as written at v1.6, June 2026:** my own pre-registered EV-gate placed it at MEDIUM unless the CFTC build re-loaded the fuel *through* the −153K/85% strengthened line — it did NOT (83.4% = top of the HOLD band, 2,868 contracts / 1.6pp shy; amplifier stayed +5pp, not +8-10pp). The #1b haircut I already leaned toward (+7%→+5% magnitude) alone takes the center-case net to break-even-to-negative, failing the "EV-positive" bar. **MEDIUM is the residual honest grade, NOT an EV-positive one** — which makes a ≤0-EV hold analytically a **TRIM signal**, not an add. The frame is *not broken*: positioning held through the catalyst with zero cover (genuine Pillar-4 confirmation), the asymmetry is real, and with the window time-boxed and no option theta left, the cost is bounded carry/FX drift.
+
+**Flip-condition (reclaims MEDIUM-HIGH):** a future CFTC print builds **through −153K/85%** (amplifier → +8-10pp, strengthened band) **OR** cross-pair yen-haven **re-couples** (risk-off resumes producing yen bids), restoring the joint +7%/10% claim.
+
+### Sensitivity (what breaks the frame)
+
+| Stress | Net EV | Survives? |
+|---|---|---|
+| CFTC covers below −108K (residual OFF) | ≈ −0.2 to −0.5% | **NO** → LOW (leg-1 fired) |
+| Risk-off P(60d) → 5% (channel stays decoupled) | ≈ −0.1 to +0.0% | Marginal |
+| Modal bleed drift widens to −3% (Warsh-hawkish + USD-haven persists) | ≈ −0.5 to −0.3% | **NO** |
+| Sep 18 reached, ≥80% fuel, no trigger | — | **NO** → retire to LOW (leg-2 fired) |
+| Risk-off P → 15% (genuine VIX-spike regime) | ≈ +0.5 to +0.7% | **YES** (still small) — flips toward MED-HIGH |
+
+---
+
+## PILLAR AUDIT (1-4)
+
+### Pillar 1 — Rate differential — **LEVEL survives; renewed compression is a candidate**
+
+BOJ/Fed relative paths can move the yen without a crowded carry position. The August candidate's payroll premise has been corrected against the September 4 BLS release; SAM-41's historical confirmation stands, but September 8 same-date 5Y/10Y gaps are back above both registered bars. This is not sustained achieved convergence. GDP's upward revision coexists with weak domestic demand; stronger regular pay supports normalization but does not guarantee its pace.
+
+For a substantially priced BOJ hike, surprise size, guidance and the Fed path matter more than the binary hike headline. Use dated meeting-to-meeting OTC OIS indications with their reference terms, not the impeached futures-derived cumulative-probability feed. The source's incremental 25bp equivalents and cumulative expected hike counts are different quantities. Current data → STATUS; candidate → `V18_CANDIDATE_PILLAR1.md`; primary-source assessment §§1/3. Promotion still needs the separate FX condition, RED review and Will sign-off.
+
+### Pillar 2 — JGB long-end demand — **DOMESTIC, conditional and mixed**
+
+The surviving mechanism is a thinner, yield- and balance-sheet-dependent bid. The old blanket demand vacuum and aggregate 4.5% forced-selling claim were already narrowed by Meiji's return and CH-009/010. Under economic-value J-ICS, a duration-short insurer can improve solvency as yields rise and buy to close the gap; disorderly J-GAAP impairment remains a separate, institution-specific tail. A yield level alone establishes neither forced selling nor cross-border repatriation.
+
+September evidence reinforces mixed sponsorship: the 30Y auction was soft under its frozen test while the 5Y auction was firmer; August foreign sales of Japanese securities were dominated by short-term debt. The long-term category does not isolate sovereigns or super-long tenors. Norway's proposed higher Japan weight is potential future sponsorship, not executed buying; GPIF discussion is not an allocation change. Do not identify an auction buyer from aggregate auction strength.
+
+Current synthesis and tests → [JGB supply/demand](../research/outputs/JGB_SUPPLY_DEMAND_THESIS.md), [insurer tracker](../insurers/TRACKER.md), assessment §5. Signal research only; the old carry-vol expression is retired. Channel 1 remains a separate, retired mechanism.
+
+### Pillar 3 — Unhedged foreign exposure — **structural sensitivity; stale size estimates**
+
+The March 2025 hedge-ratio estimate is historical, not a September portfolio census. Yen appreciation can erode unhedged returns, but FX entry-price zones and sector flows do not prove a particular insurer is forced to sell. Use the named-institution disclosure test in Channel 1; treat the 145 and 130–135 reference zones as investigation levels, not measured current loss distributions. Domestic JGB roll-up funding, new hedges and outright foreign-asset sales must remain separate.
+
+### Pillar 4 — Positioning fuel load — ⚰️ **BROKEN 2026-08-07. Was "ALIVE; strongest; the convexity itself."**
+🔴 **The fuel BURNED.** −163,412 / 90.8% (Jul-28) → **−45,473 / 25.3%** (Aug-4) in one week, +117,939 WoW, on ~unchanged open interest = **position reversal, not liquidation**. The pillar's own stated invalidation ("cover below −108K") fired. **This is the single largest positioning event in the tracked series** and it happened inside the two-sovereign intervention window. *Historical text retained below.*
+- CFTC 63.7% (May 26) → 81.0% (Jun 9) → **83.4% (Jun 16 data), +4,314 WoW, zero cover through the catalyst.** Amplifier +5pp ON, residual ON; 2,868 contracts / 1.6pp shy of the −153K/85% escalation.
+- The fuel held *through* the hawkening catalyst — the single strongest empirical confirmation of the convexity frame. **Promoted to the v1.6 center → Channel 4 (POSITIONING-CONVEXITY).** Invalidation: cover below −108K.
+
+---
+
+## CARRY-UNWIND PROBABILITY METHOD — historical calibration only
++
++The old 7d/30d/60d buckets are dated decomposed estimates, not refreshed rolling forecasts. Their hand-set anchors, overlap discount and CFTC amplifier method remain in `THESIS_v1.5.1_ARCHIVE.md` for audit. The retired positioning framework cannot be restarted by weekly recalibration. STATUS identifies the vintage of any retained numbers; a fresh probability system requires a separately argued replacement rather than carrying August values forward.
++
++## CHANNEL RE-CLASSIFICATION (v1.6)
+
+### Channel 1 — Life Insurer Repatriation — **RETIRED** (RED #6 — was "deferred")
+4-of-4 institutions (Big 3 mutuals + Norinchukin) grew US credit through their cited 2026 disclosure windows; Norinchukin CLO at record ¥10.1T (+¥1.8T YoY); those disclosures, rather than a current aggregate weekly flow sign, underpin retirement; ESR pressure absorbs via M&A + equity rally + hedge-cost relief, not foreign bond sales. "Deferred pending new mechanism" with 4-of-4 disconfirmations and no specified path = functionally RETIRED. **Re-add tripwire = the DIRECT observable: net foreign-credit SALES (not merely slower buying) across ≥2 consecutive disclosure windows at ≥2 of {Big-3 mutuals, Norinchukin}.** JGB-30Y-blowout-to-4.5%+ or ESR-sub-200%-via-market-stress are permitted **accelerant co-conditions only, never the necessary leg** — JGB-30Y is Pillar 2's DOMESTIC mechanism (already firing); re-arming Channel 1 on it would double-count Pillar 2 under a Channel-1 label ([[finding_threshold_vs_mechanism]]). Next disclosure reads: Norinchukin interim ~Nov 2026; H2 FY2026 plans Oct-Nov 2026; FY2026 ESR May 2027.
+
+### Channel 2 — Carry unwind — **retired trade frame; transmission still monitored**
+
+The carry-convexity entry framework retired August 7. Broad yen strength is an FX observation, not proof of funding stress or forced liquidation. September's cross-pair evidence supports a Japan-specific component, while available volatility, credit and overnight funding do not establish systemic transmission. CFTC predates most of the move and direct offshore basis is missing. These are measurement limits, not a blanket all-clear. Old route tables remain historical and cannot reactivate the book.
+
+### Channel 3 — Policy and official FX action — **independent attribution questions**
+
+BOJ/Fed relative repricing, stop/position flows and official participation can coexist. September's failed front-end hawkish confirmation weakens a simple BOJ-only explanation without proving another cause. The July/August joint-action record supersedes the old June/July “armed, not fired” narrative. Neither a yen level nor absent rate checks excludes an unsignalled operation.
+
+Use the [MOF playbook](../MOF_INTERVENTION_PLAYBOOK.md) for the confirmation ladder: a comparable independent broker forecast, dated BOJ projection/actuals, both currencies' settlement calendars, then official reporting. A gross fiscal drain or forecast error alone is not an intervention estimate. The August reserve-securities decline makes securities funding more plausible but cannot identify UST sales; FIMA capacity is not evidence of use. Japanese reserve funding and U.S. ESF/SOMA account participation remain separate investigations. Current confirmed totals and pending releases → STATUS; evidence → assessment §2.
+
+### Channel 4 — POSITIONING-CONVEXITY — ⚰️ **DEAD 2026-08-07 (v1.7). Its invalidation fired.**
+*Was the v1.6 center.* Promoted from Pillar-4/amplifier to a standalone channel on the strength of 83.4% peak positioning holding through a spent catalyst with zero cover. **Invalidation was written as: cover below −108K / 60% (leg 1) OR Sep-18 no-trigger (leg 2). Leg 1 fired on the Aug-4 CFTC data: −45,473 / 25.3%.**
+🔴 **The channel is dead in the strongest sense — not "the signal weakened" but THE OBJECT IS GONE.** A positioning-convexity channel requires a crowded position to convex. At 25.3% of peak there is no crowd. **Do not re-arm this channel on a partial re-build; re-arming requires a fresh, independently-argued build thesis, not a return through 60%.** *(The 7/10 lesson generalised: a single print through a line is not a regime — and that cuts both ways.)*
+
+---
+
+## VEHICLE — ⚰️ THE RED #4 GATE IS RETIRED (2026-08-03, Will-approved). Replaced by the two questions it actually decomposes into.
+
+> **RULING (Will, 2026-08-03).** The gate-text divergence flagged on 8/2 — THESIS listing **one** re-open leg (vol-cheapness) where TRADE/STRATEGY listed **two** (MED-HIGH-reclaim **OR** vol-cheapness) — is resolved by **retiring the gate**, not by reconciling the wording. Three reasons, recorded so the decision is auditable:
+>
+> 1. **The canonical one-leg text was a RATCHET.** The gate *closed* on conviction (*"a break-even MEDIUM frame does not generate enough edge to pay a vol structure's spread + theta"*) but was written to *re-open* only on price. A gate whose closing reason is absent from its opening conditions can never re-open on a recovery in the very thing that shut it. TRADE/STRATEGY's two-leg text was **not drift — it repaired an incomplete canonical text**, and the repair was never back-propagated. *(Class: [[finding_count_the_connectives_in_versus_out]] — count the connectives BOTH ways.)*
+> 2. **Its sole canonical re-open condition was effectively unobtainable.** "A clean second source" for FXY vol: CME JPY CVOL is licence-gated (~$290/mo) and the USD/JPY 25d risk-reversal has no free source — both documented in `STRATEGY.md` § Feed migration. **A gate whose only opening condition requires data we have already recorded as unavailable is a permanently-closed gate wearing a conditional's clothing.**
+> 3. **The question it gated no longer exists.** RED #4 asked: *"should we swap our existing FXY spot holding for a vol structure?"* **The book is FLAT — there is nothing to swap.** Keeping a live gate premised on a position we do not hold is exactly what produced the 8/2 incident: a registered gate fired, no document said so, and the derived docs contradicted canonical while TERRY was building an options card.
+>
+> **WHAT REPLACES IT — two separate questions, each with a clear owner:**
+>
+> | Question | Status | Owner |
+> |---|---|---|
+> | **(1) Instrument choice on entry** — options vs spot | **ANSWERED AND UNGATED: defined-risk options > spot when a trigger fires.** This was never governed by RED #4; it lives in § POSITION VIEW and applies whenever an entry trigger fires | **SAM** (thesis-level) |
+> | **(2) Is the vol cheap enough to pay for** | **STANDING PRICING INPUT — permanently live, never a gate on strategy.** Priced at construction against the live chain, not against a registered threshold. ⚠️ KB-183 stands: read the FXY proxy's **sign, not its level** — non-physical at extremes | **TERRY** (at construction) |
+>
+> **Consequences, stated so nothing changes silently:** the 8/2 "vehicle RE-OPENED (provisionally)" adjudication is **superseded, not reversed** — it reached the right practical answer (options are the entry vehicle) through a gate that should not have existed. **No money field moves. No entry recommendation changes: WAIT-FOR-8/7 stands. TERRY's TRY-FIRE-007 is unaffected** — its justification always came from § POSITION VIEW's entry-vehicle answer, not from this gate.
+
+*The v1.6 derivation record is retained below and in `V16_RED_DIALOGUE.md` § RED #4 — historical, no longer operative:*
+
+~~The vehicle-change argument assumed the convexity frame generates enough edge to justify a more efficient expression. With #1 at break-even MEDIUM, it does not. Vehicle-change options (b) FXY-vol overlay / (c) USDJPY-put = JPY-call do NOT propagate to finalize.~~ ~~*Original re-open condition as written at v1.6: post-CPI FXY-vol prints demonstrably cheap on a CLEAN second source.*~~
+
+*Direction note: long yen = USDJPY DOWN = a USDJPY **put** / JPY **call**; a USDJPY call would be the wrong (short-yen) direction.*
+
+---
+
+## OIL-IN-YEN STRUCTURAL DYNAMIC — **price, currency and physical supply separately**
+
+The import-price proxy is the same oil contract multiplied by USDJPY at matched timestamps. September's matched November Brent example shows that yen appreciation cushioned, but did not erase, the oil increase. This measures a price proxy, not Japan's landed import bill: freight, insurance, contract mix, volumes and inventories remain separate.
+
+A cost increase can weaken terms of trade and the yen; recession risk and position unwinds can instead support it. These are contingent mechanisms, not an automatic two-stage clock. Severe physical disruption can shrink import volumes and improve the reported trade balance while worsening energy security. Subsidies can damp headline CPI and move part of the burden onto the fiscal balance; do not assume complete passthrough or complete insulation. Refresh strategic stocks and shipment evidence at their own vintages, rather than carrying an old “days of cover” estimate as current.
+
+Current observations → STATUS; evidence, contract correction and next source checks → assessment §6. The July 21 regime narrative is preserved in `../research/outputs/2026-09-08_integration/before/thesis/THESIS.md`; its dated quotes and phase label are not current marks.
+
+## KEY THRESHOLDS
+
+Structural levels that gate thesis paths. *Current values + breach status live in `STATUS.md`.*
+
+| Level | Significance |
+|-------|-------------|
+| USD/JPY 160 | Intervention-risk watch; speed/disorder and official evidence determine interpretation. No automatic entry. |
+| USD/JPY 155 | Yen-strength watch level; a breach alone does not establish Phase 2 or forced liquidation. |
+| USD/JPY 147 | Forced-unwind investigation level; require positioning/funding and transmission evidence. |
+| USD/JPY 145 | Historical unhedged-loss watch zone; current entry-price distribution and forced sales require evidence (Pillar 3). |
+| USD/JPY 130-135 | Historical deeper insurer-loss watch zone; investigate named exposures and selling, not an automatic reactivation. |
+| JGB 10Y 2.40% | Stress crossover |
+| JGB 30Y 4.0% | ~~Severe insurer stress / J-ICS acceleration zone~~ **RE-SCOPED v1.6.3: CONTESTED ZONE WITH A NAMED BID UNDER IT** — Meiji Yasuda calls ~4% a "perfect buying opportunity" (doubled FY2026 super-long plan to >¥2T). A 4.0% tag now tests whether the announced bid is real (auction internals), not whether the vacuum accelerates. |
+| **JGB 30Y 4.5% (⚠️ CONTESTED mechanism — not a clean level)** | **DOWNGRADED by RED CH-010/014 (v1.6.2):** claimed lifer impairment / forced-selling reflexive zone, but the forced-SELLER *sign* is contested (economic-value J-ICS argues duration-gap-closing BUYING; SAM's asset-markdown read is single-sourced on the 4.5% acceleration). **Treat as a contested mechanism, NOT a level target** (re-installing a "30Y X%" threshold is the SAM-26 trap). **v1.6.3: doubly suspect — CH-010's first live test resolved toward RED at 4.0%** (a Big-3 lifer buying 50bp below the claimed forced-selling zone). **v1.6.7 (7/11): RE-SCOPED — base case net-demand-POSITIVE under ESR (RED round 2); surviving tail = J-GAAP statutory impairment in a DISORDERLY move, concentrated in mid-cap lifers (Fukoku/Asahi bifurcation watch); 2-mo net flow +¥126bn BUYING [DEWEY 7/10].** See JGB_SUPPLY_DEMAND_THESIS § RED CORRECTION + § DEMAND-FLOOR UPDATE + CHANGELOG 2026-07-11. |
+| Brent $120 | Kharg-scenario Phase 1 oil shock |
+| BOJ rate 0.75% | (breached — now 1.00%) Takaichi mortgage-ceiling collision zone for the *next* hike |
+| **CFTC −108K / 60%** | 🔴 **FIRED 2026-08-07 — leg-1 invalidation MET. Net −45,473 / 25.3%, through by 62,527 contracts / 34.7pp. Convexity-tail RETIRED to LOW; SAM-29 FAILED.** |
+| **CFTC −153K / 85%** | **✅ FIRED then REVERSED same-day (2026-07-10): AM Jun-30 print −155,092/86.2% fired the line (SAM-30 CONFIRMED, v1.6.4 MED-HIGH) → PM Jul-7 print covered to −123,778/68.8%, past the −140K DE-LOAD line (SAM-36 FALSE/DE-LOAD, v1.6.5 reverts to MEDIUM). Amplifier +5pp→+8-10pp→+5pp.** **🔴 RE-FIRED 2026-07-31, adjudicated VALID 2026-08-02 (v1.6.11): Jul-28 print −163,412/90.8% — amplifier +8-10pp ON, MED-HIGH provisional on the 8/7 attribution print (data predates the 7/30 op + hawkish hold).** |
+
+---
+
+## HISTORICAL RISK FACTORS (v1.6)
+
+| Risk | Prob | Impact | Mitigation |
+|------|------|--------|-----------|
+| **No trigger fires by Sep 18 (the MODE — leg-2 SPF)** | **>50%** | Modal bleed; frame retires to LOW | Window time-boxed; bleed bounded (small size + $55.05-or-tighter stop); pre-registered retire disposition |
+| **CFTC covers below −108K (leg-1 SPF)** | Tail | Frame → LOW | Weekly CFTC re-check; pre-registered downgrade |
+| Modal bleed widens (Warsh-hawkish + USD-haven persists → USDJPY 165-167) | Medium | FXY tests $55.05 stop | Stop in place; trim-tilt on the (a)/(d) decision |
+| Oil/MOU re-escalation (verification-leg failure) | 8% (tail) | Phase-2 yen bid (thesis-aligned) | Route 5; declaratory ≠ physical (Jun-20 shrug) |
+| Channel 1 reactivates (direct foreign-SALES print) | Low | Re-add Channel 1 | Direct-repatriation tripwire; JGB-30Y/ESR = accelerant only |
+
+**Thesis-break condition (v1.6):** EITHER leg of the two-legged SPF — cover below −108K, OR Sep 18 2026 reached with ≥80% fuel and no eligible trigger fired → convexity-tail retired to LOW.
+
+**Non-constraint (verified 2026-06-15):** bank + BOJ-balance-sheet duration stress is NOT a binding brake on the hike path (banks net-benefit from rising rates; BOJ's ¥45.4T JGB unrealized loss is inert/HTM; Ueda dismisses balance-sheet losses). The brake stays fiscal/JGB-market (Pillar 2), per the BOJ's own FSR.
+
+---
+
+## POSITION VIEW — FLAT; v1.6 sizing below is historical
+
+> **🟢 POSITION FLAT (Will-confirmed 2026-06-29; still flat through the 8/7 break — nothing was ever executed).** SAM carries no FXY position.
+>
+> ⚰️ **2026-08-07 (v1.7): THERE IS NO LONGER AN ENTRY TRIGGER LIST. The convexity frame that those triggers served is RETIRED to LOW.** The old re-entry gate — *disorderly MOF spike / CFTC through −153K/85% / haven re-couple / Fed-dot walk-back* — **is void, not merely unfired**, because every one of those triggers paid off *through the positioning fuel*, and the fuel is gone (25.3% of peak). ⚠️ **A future CFTC re-build back through −153K/85% does NOT re-arm anything on its own** — that line was a *reclaim* condition inside a live frame, and the frame no longer exists. Re-entry requires a **fresh, independently-argued build thesis** (v1.8+), not a threshold tag.
+>
+> **What survives as a live watch (not as entry triggers):** Pillar 2 / JGB super-long demand (routed to BOND/LIQUID) · the oil-in-yen two-phase dynamic · SAM-33's BOJ-capping test. SAM-39 closed September 4; its original terms/grade are retained in PREDICTIONS. The sizing decisions and stop levels below are **HISTORICAL** (the prior position's framing) and should not be read as a plan.
+
+**Vehicle:** FXY (long), **re-framed as CARRY-CONVEXITY TAIL EXPOSURE** — no longer a directional/structural-compression bet. Accepts the modal-direction bleed in exchange for participation if any tail-route fires inside the Sep-18 window. **Stop (interim, Will-decided 2026-06-18, Step 1.5 re-arm):** single-leg FXY ≤ $55.05 (the original AND-spec's BOJ-dovish leg is permanently false post-hike → collapsed to single-leg).
+
+*Current size, blended entry, tranche state live in `STATUS.md` + `TRADE.md`. Decision playbook lives in `STRATEGY.md`.*
+
+**Sizing decisions — Will's call (v1.6 narrows them):**
+1. **Retain 13 shares with a tighter stop, or trim?** — RED's read: break-even MEDIUM = analytically a TRIM signal; finalize tilt = **(a) hold-with-tighter-stop as default / (d) trim if the bleed regime persists**, NOT hold-as-is.
+2. **Tighten the stop** from interim $55.05 → e.g. USDJPY ≥162.5 / FXY ~$55.50?
+3. ~~**Vehicle change — OFF** (per the RED #4 gate)~~ — **the RED #4 gate is RETIRED 2026-08-03 (Will-approved).** No vehicle decision is gated. Entry instrument = **defined-risk options > spot** (§ VEHICLE / § POSITION VIEW); vol-cheapness is TERRY's pricing input at construction, not a strategy gate.
+4. Eligibility window — **LOCKED Sep 18 2026** (no decision needed; pre-registered).
+5. ~~Vol-overlay / USDJPY-put structure~~ — gated OFF.
+
+---
+
+## PREDICTIONS
+
+*Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv) — 🔧 **4 OPEN as of 2026-08-27** *(SAM-41 RESOLVED CONFIRMED 8/27; the list below is the superseded 8/13 set)*: **was 5 as of 2026-08-13: SAM-28 / SAM-31 (convexity-tail tripwires, now graded on their own terms against a retired frame) · SAM-33 (BOJ let-run) · SAM-39 (intervention-character) · SAM-41 (v1.8 Pillar-1 candidate bar).** Scoreboard **14 CONFIRMED / 14 FAILED / 1 special**. ⚠️ **This line read "4 OPEN as of 2026-07-31 … 14/12/1" until 2026-08-13** — two errors at once: the scoreboard predated the 8/7 double-failure (SAM-29 + SAM-40), and **SAM-41 was never counted anywhere** despite being registered 8/7 (see the `PREDICTIONS.tsv` count-correction header). **Re-run the count from the file at every closeout; do not carry it forward by hand.** Recently closed: **SAM-38 CONFIRMED 7/31 (BOJ 4-branch pre-registration — modal Branch C fired: hold 8-1 w/ Takada hawkish dissent + Outlook overshoot-risk guidance; FULL-vs-WEAK sub-grade pending presser/OIS)**; **SAM-34 CONFIRMED 7/31 (hold @85% — 3rd straight well-calibrated BOJ binary)**; SAM-35 CONFIRMED 7/22 (40Y auction firm-lean marginal, BTC 2.83x; tail unverifiable); SAM-30 CONFIRMED 7/10 (−153K/85% reclaim); SAM-36 FALSE/DE-LOAD 7/10 (Jul-7 cover); SAM-37 CONFIRMED 7/17 (Jul-14 STALL); SAM-32 FALSE 7/2 (Meiji Yasuda super-long re-build; `PREDICTIONS_ARCHIVE.md#sam-32`). Calibration scoreboard + failure-pattern synthesis (political-ceiling, stock-vs-flow **+ rotation-sell-leg-vs-abandonment**, threshold-vs-mechanism, mechanism-direction, premise-dependence) is the working warning before writing any new prediction.*
+
+---
+
+## CROSS-AGENT LINKS
+
+- **→ BOND (🆕 v1.6.1, primary recipient of the JGB thesis):** Japan long-end = a DEMAND-VACUUM bear-steepener (structural mirror of the supply/term-premium bear-steepener BOND tracks). Open question routed to BOND: does it transmit to US term premium / the global long-end, or is it ring-fenced (JGB↔UST correlation low; repatriation leg dormant)? See `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md`. **🆕 2026-07-01 PARTIAL ANSWER (package § US-TRANSMISSION MAP):** transmits **DIFFUSELY via correlated global term premium, NOT repatriation** (repatriation DORMANT — Japan a net UST buyer). Live: US 30Y **4.96%** co-moving UP with JGB 30Y on a shared fiscal/term-premium driver, onto *softer* US ground (NY Fed ACM 10Y term premium **+0.73%**, positive 1st time since 2023; thin dealer long-end backstop). **Correlation TIGHTENS in stress** — a *disorderly* JGB auction break could drag the US long end via term premium ALONE, no repatriation flow. The only mechanically-live Japan→US flow (capital export / weak-yen carry) is risk-POSITIVE (mild tailwind). ⚠️ BOND has NOT yet processed SAM's Jun-30 signal (unprocessed inbox). **🆕 2026-07-02 UPDATE for BOND before it integrates: the demand-vacuum has a FLOOR — Meiji Yasuda bid at ~4% 30Y (SAM-32 FALSE) → the disorderly-break tail (the US-transmission tail) THINS; the diffuse term-premium correlation channel is unaffected.** **🆕 2026-07-06 READ-THROUGH HANDSHAKE (integrated into BOND BND-11 `cc0d7a10`):** the 7/7 JGB 30Y auction is a LEADING pre-arm for BOND's US 30Y reopen 7/9 (~2-day lead) — firm / soft / weak JGB → **−3-5 / +5-8 / +10-15pp** tilt to BOND's P(soft US 30Y). Load-bearing caveat: it's a sentiment/term-premium CORRELATION read-through, NOT flow — the JGB moves BOND's term-premium/tail leg, near-SILENT on the indirect-composition leg (foreign-official/CB base ≠ the Meiji-Yasuda domestic bid). BOND's two-axis refinement: a soft-COMPOSITION print reads soft-to-SAM but mechanically-clean-to-BOND = the auction-level analog of the packet-C "masked hole." Gated on the US 10Y reopen 7/8. Full map: `research/outputs/PACKET_C_ASIA_DEMAND_HOLE.md` §2a.
+- **→ LIQUID:** Channel 1 **RETIRED** (4-of-4 grew US credit; re-add only on a direct foreign-SALES print). Norinchukin CLO record ¥10.1T +¥1.8T YoY = demand-side signal, not seller-overhang. Japan holds $1,239.3B USTs (Feb 2026). No acute UST sell signal from the Japan lifer side. JGB 30Y mechanism (Pillar 2) intact but DOMESTIC — does not transmit to UST demand on the prior-framed timescale. **JGB thesis routed to LIQUID as a *conditional* watch only** (repatriation leg re-arms on a disorderly forced-selling event; not a live UST-demand signal today — don't double-count the DOMESTIC Pillar 2 as a Channel-1 re-arm).
+- **→ HENRY:** ⚰️ **CARRY-UNWIND CONVEXITY TAIL IS RETIRED TO LOW (v1.7, 2026-08-07). Leg-1 SPF fired: net −45,473 = 24.2% of the corrected R = −188,077, through the −108K/60% invalidation by 62,527 contracts.** 🔴 **CORRECTED 2026-08-17 (DAEDALUS structure review) — THIS LINE STILL READ "MED-HIGH … PROVISIONAL on the Fri 8/7 CFTC print" FOR TEN DAYS AFTER THAT PRINT RESOLVED IT.** It was the **only unstamped live-voice grade left in this file**, it sat in the **cross-agent routing section**, and it therefore told HENRY the opposite of what every other surface said. ⚠️ **Class — and it is the INVERSE of the drift I sweep for: every DERIVED surface carried the correct grade and the OWNER doc did not.** My `RECONCILIATION.md` sweep runs owner→derived and is structurally blind to that direction; **a derived surface being FRESHER than its owner is a defect my process cannot see.** *(Superseded text retained for the audit trail: "convexity TAIL at MED-HIGH since 2026-08-02 — PROVISIONAL on the Fri 8/7 CFTC print (was MEDIUM Jun-22→Aug-2; reclaimed on the registered CFTC-through-−153K/85% flip-condition)".)* **Live state for HENRY: buckets ~3/8/13, amplifier + residual OFF, book FLAT, no entry trigger, and a CFTC re-build back through −153K/85% re-arms NOTHING.** Still not a near-term directional bet. **CFTC 90.8% of peak (−163,412, Jul-28 data — episode-deepest)**, after holding through the catalyst at 83.4% (Pillar 4 confirmed) and round-tripping via 68.1%. **Cross-pair yen-haven channel DECOUPLED Jun 11** (risk-off → USD-haven) — track whether it re-couples on a VIX-spike. Aug-2024 speed is the upside-tail conditional on a hawkish-of-pricing trigger + at-peak positioning, NOT a base-case property. Live buckets in STATUS.
+- **← HAWK / BRENT:** Iran deal SIGNED Jun 17 (verification leg open); oil-in-yen DORMANT through 7/6; re-escalation = TAIL route 5. Declaratory ≠ physical (Jun-20 shrug). **⚠️ 7/9 self-sweep STALENESS FIX: the truce COLLAPSED 7/7→7/8** (US struck Iran, Brent +6.3%→~$79 [7/8], fleet-wide "ENERGY TAIL ACTIVE" regime per PROME digest, capital-gated on the Fri 7/10 sustain verdict) — TAIL route 5 is no longer dormant-hypothetical, it's LIVE (re-armed). Japan read: oil-driven yen weakness (Japan ~90% ME-oil-dependent), NOT risk-off yen-haven bid; ARMED-not-FIRED on the MOF strike-watch, no carry-bucket re-mark (already a named 60d driver, this is re-escalation of the same route). Current state → STATUS 7/8 + 7/9 EVE notes; this THESIS line was last synced pre-collapse and is corrected here, not version-bumped (no analytical-view change, only a factual freshness sync).
+- **← HANS/BROCK:** US private-credit cascade → Fed walk-back of Jun-17 dots → USD/JPY compression independent of BOJ = tail route 4 (requires breaking the Warsh frame; PC redemption peak Q2 live but labor/inflation too firm pre-Jul-29).
+
+---
+
+*This is a living document. Update when: thesis changes, thresholds breach, predictions resolve, or new transmission channels identified. v1.6 finalized 2026-06-22 via the SAM⇄RED dialogue (`V16_RED_DIALOGUE.md`, 6-of-6 converged). v1.5.1 archived at `thesis/THESIS_v1.5.1_ARCHIVE.md`.*

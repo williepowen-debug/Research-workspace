@@ -1,0 +1,29 @@
+[
+  {
+    "file": "raw/japanpost-data.xlsx",
+    "url": "https://www.jp-life.japanpost.jp/IR/en/finance/xls/kampo_finance_eng.xlsx",
+    "retrieved_at": "2026-09-15T03:22:24.373326+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "731892e575305e90020ff307380374b3bddba177161955bc026bda621dae0229",
+    "bytes": 666719
+  },
+  {
+    "file": "raw/norin-q1-statements.pdf",
+    "url": "https://www.nochubank.or.jp/en/ir/results/pdf/cap_results2026_en_01_01.pdf",
+    "retrieved_at": "2026-09-15T03:22:24.374220+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "a0c8f8f8268a468ed0b32f959cb03597417d7d170ffe4da49f7ce89e3b310570",
+    "bytes": 380545
+  },
+  {
+    "file": "raw/norin-basel-index.html",
+    "url": "https://www.nochubank.or.jp/en/ir/basel3/",
+    "retrieved_at": "2026-09-15T03:22:24.377444+00:00",
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "439bc6a915303c4267b6a73b35485204abcfcda80b40ad0eee2ef5e04cd6794b",
+    "bytes": 5470
+  }
+]

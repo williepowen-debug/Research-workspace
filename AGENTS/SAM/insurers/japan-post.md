@@ -1,5 +1,17 @@
 # Japan Post Insurance
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+Q1 FY2026 consolidated assets **¥58,286.805B**; standalone foreign securities **¥2,134.726B**, versus ¥2,104.952B March.
+
+The issuer workbook labels the last column 1Q FY2026 and units millions of yen. Assets, accounting categories and valuations are not transaction flows. August 7 results are already published, so the old “FY2025 disclosure pending” reminder is closed. A comparable current ESR was not established in the reviewed workbook; do not treat that as proof of non-disclosure or a Big-3-only exemption. The historical “zero private credit” claim is not refreshed by this source.
+
+Source: [August 7 results; issuer quarterly workbook, BS consolidated and non-consolidated](https://www.jp-life.japanpost.jp/IR/en/finance/xls/kampo_finance_eng.xlsx); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/japanpost-data.xlsx). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥55T | **ESR:** Not disclosed (mid-cap; outside Big 3 mandatory disclosure cohort) | **FY2026 Plan:** CEO announced Mar 3 (sell low-yield JGBs; expects BOJ hike — timing call missed)
 **Last Updated:** 2026-05-27 (v1.5 sync — CEO Mar-3 "April hike" expectation marked stale; FY2025 disclosure still pending)
 

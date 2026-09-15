@@ -1,0 +1,8 @@
+PASS: every saved source hash matches its manifest; rejected endpoints distinguished in source-dispositions.json.
+PASS: all three revised BIS 2026-Q1 yen values equal fresh primary API at stored precision; no newer quarter.
+PASS: all 19 root workbook TSVs retain uniform field counts.
+PASS: all 32 forward catalyst date/event rows mirrored in CALENDAR; unique, sorted and no elapsed date.
+PASS: prediction ledger, frozen schedule, TRADE and STRATEGY unchanged byte-for-byte from HEAD.
+PASS: independent CFTC TFF sides reconcile to OI; GPIF component rounding/scope reconciles (calculations.json).
+Consumer checks: no external stale references for TFF −102188→−49098 or customs 634.5→638.3. Self TFF checker flags four historical records (dated September 9 report, explicitly historical baseline, two before-images); all intentionally retained.
+Orphan check: peer PROME files dirty; leave untouched and defer pull/push. No SAM-authored orphan outside own directory.

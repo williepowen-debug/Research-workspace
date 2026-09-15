@@ -1,0 +1,3879 @@
+
+=== PDF PAGE 1 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Financial Results
+for the Three
+Months Ended
+June 30, 2026
+Financial Results
+FY2026 Q1
+August 7, 2026
+Daiichi Life Group, Inc.
+Financial Results
+FY2026Q1
+Copyright © 2026 Daiichi LifeGroup, Inc.
+
+=== PDF PAGE 2 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Agenda / Exchange Rates
+検証中
+※ページ数は和
+文に準拠(要最終
+チェック)
+Currency Exchange Rates (TTM)
+• Today’s Highlights 3
+As of end ¥/US$ ¥/Euro ¥/AU$
+• Group Companies
+Performance Overview 14
+Jun. 2026 ¥162.39 ¥185.35 ¥111.56
+DL 15 Mar. 2026 ¥159.88 ¥183.41 ¥109.68
+Dec. 2025 ¥156.56 ¥184.33 ¥104.82
+DFL 20
+Sep. 2025 ¥148.88 ¥174.47 ¥97.89
+DNL 22
+Jun. 2025 ¥144.81 ¥169.66 ¥94.50
+PLC 23
+Mar. 2025 ¥149.52 ¥162.08 ¥93.97
+TAL 25 Dec. 2024 ¥158.18 ¥164.92 ¥98.50
+Sep. 2024 ¥142.73 ¥159.43 ¥98.73
+DLVN 26
+Jun. 2024 ¥161.07 ¥172.33 ¥107.00
+• Group EV 28
+• Reference Data 30
+←要CPを追加
+(1) In this document, the ESR calculated using an internal model is referred to as “ESR.”
+(2) ESR is the ratio of eligible capital to required capital on an economic value basis. ESR is calculated for the management decision-making purposes,
+DL Investment 32 with reference to new economic value-based solvency frameworks (such as J-ICS). Certain simplified methodologies are applied in the calculation,
+and neither the methodology nor the results have been validated or reviewed by any third-party organization.
+Copyright © 2026 Daiichi Life Group, Inc. 2
+
+=== PDF PAGE 3 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+Key Highlights for FY2026 Q1 Result
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+Group Adjusted Profit achieved 28% progress rate, with strong YoY growth
+Up 113% YoY
+DL drove the Group’s performance, reflecting higher positive spread and gains
+Group Adjusted Profit 158.1
+¥ bn on the sale of securities exceeding expectations.
+FY2026 Q1
+Ca. 28% progress toward the full-year target of ¥560 billion.
+New business ANP
+Up 7% YoY (Up 4% excluding FX impact)
+135.0 New business ANP increased steadily YoY in both the domestic and overseas
+¥
+bn
+businesses. Lapse rates at DL and DFL remained low and stable.
+New Business Results
+VNB (Domestic, estimated)
+FY2026 Q1 Progress rate 20%
+20.0 DL achieved solid new business sales; however, lower new business margins
+¥
+ca. bn
+driven by cost factors resulted in outcomes below the initial outlook.
+Down 13%pt from March 2026
+Group ESR 206 Eligible capital increased due to higher domestic equity valuations. However,
+ca. ％
+As of June 2026 ESR decreased, mainly reflecting higher mass lapse risk and an increase in
+goodwill arising from M&A transactions.
+（estimated）
+Copyright © 2026 Daiichi Life Group, Inc. 3
+
+=== PDF PAGE 4 ===
+23 0 0 78
+70 0 145 218
+▶ The progress toward the full-year forecast for Group Adjusted Profit reached 56%, driven by the accelerated sales of domestic equities at DL in
+255 100 255 255
+the domestic business and higher-than-planned profit contributions from PLC in the overseas business.
+Full Year Forecast Financial Result Performance Reference
+Progress toward the full-year forecast
+図A生I形成コンテンツは誤りを含む可能性があります。
+Led by domestic business,
+the Group made steady progress toward its full-year forecast.
+Progress Rate
+(vs. Full-Year Forecast)
+Domestic Business(1)
+Group Adjusted Profit DLは進捗は低いものの想定通りの進捗。DFLは 円高の影響を受け利息配当金収入の減少があり
+- (DL) Exceeded the budget, driven by a higher-than-expected positive spread due to
+increased interest and dividend income, as well as higher-than-expected gains on securities
+32
+sales.
+％
+（¥in billions）
+- (DFL) Exceeded the budget, as the positive spread increased due to steady AUM growth
+and favorable foreign exchange effects. Domestic Business
+Domestic
+158.1
+Overseas Overseas Business
+Asset Management - (PLC) Broadly in line with the budget, despite investment losses from yield-enhancing asset
+rebalancing.
+Oversea Business
+New Fields 21
+- (TAL) Slightly below plan due to a slower-than-expected recovery in insurance claim payments. ％
+Others - (DLVN) Exceeded the budget, as lower sales volumes resulted in reduced new business
+129.2 expenses.
+HD・その他
+74.2
+Asset Management Business
+- DLRBは市況の良化に伴い、２Q区間は予算並みも、１Qの未達が響き2Q累計は未達 －
+Non-Insurance Business
+42.7 - AMOne, VTX and Canyon performed well, supported by mandate growth, broadly in line 19
+with budget. ％
+33.3 33.8 4.3 New Fields of Business
+2.5 0.8
+-4.7 0.4 -10.0 - （BO） Employee benefits business: Strong new customer acquisition drove membership fee HD/Others
+income above plan, while expense discipline contributed to results exceeding budget.
+27 ➢ （DLRB）前年の一時益の剥落（△114億円）に加え、スプレッド拡大の影響（１）を受け減益
+％
+(For Reference) FY2026Q1
+➢ （HD）インフレ影響やコーポレート機能拡張に伴う費用増等
+FY2025Q1
+(1) For the comparison by business segment and against the full-year forecast, figures are adjusted to exclude the impact of intra-group reinsurance atDFL and DNL. Copyright © 2026 Daiichi Life Group, Inc. 4 4
+
+=== PDF PAGE 5 ===
+23 0 78 決算のポイント － グループ修正利益（前期比増減）
+0
+70 0 145 218
+255
+255 100 255
+Full Year Forecast Financial Result Performance Reference
+YoY Comparison
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+Group adjusted profit increased significantly, up 113% YoY.
+Group Adjusted Profit: YoY Change
+Domestic Business
+(¥ in billions)
+- (DL) Profit increased significantly, driven by a substantial improvement in capital
++113%
+gains/losses, primarily due to the steady sale of domestic equities. A higher positive
+spread, supported by the rebalancing of yen-denominated bonds, also contributed.
++86.4 +0.6 +2.3 158.1
+- (DFL) Profit increased YoY, supported by higher positive spread, following steady AUM
+growth, as well as favorable foreign exchange effects.
+-5.3
+74.2
+Oversea Business
+- (PLC) Profit decreased, reflecting a one-off gain from the sale of an agency subsidiary
+FY2025 Domestic Overseas Asset HD, Others FY2026 recorded in the prior period.
+Q1 Manegement/ Q1
+- (TAL) Profit increased as the profit contributions from Challenger more than offset the
+New Fields impact of higher claims payments.
+DL +80.9 PLC -3.9 AMOne +0.4 DLRB -0.8 - (DLVN) Profit increased, mainly due to lower new business expenses.
+DFL +5.7 TAL +4.1 CP +0.4 HD etc. -4.5
+DLVN +1.2 Capula +0.4 Asset Management / New Fields
+DMRE +0.6
+- (AM Business) Profit increased, driven by contributions from AMOne, CP, Capula and
+BO +0.4 DMRE.
+- (BO) Profit increased, mainly driven by higher membership fee income and disciplined
+FY2026
+129.2 33.8 5.1 -10.0 158.1 expense management in the employee benefit business.
+Q1
+HD/Others
+FY2025
+42.7 33.3 2.9 -4.7 74.2
+Q1 - (DLRB) Profit decreased due to wider corporate bond spreads, although the factors
+weighing on profit had largely dissipated by the end of June 2026.
+Copyright © 2026 Daiichi Life Group, Inc. 5
+
+=== PDF PAGE 6 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+57 131 146 194 226
+51 116 132 183 221
+39 88 110 168 212
+Adjusted Profit to Net Income Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+40 192 217 217 242
+15 80 150 150 219
+No Significant Difference Between Group Adjusted Profit and Net Income
+14 77 148 148 218
+完成
+20 63 113 140 198
+34 108 153 163 208 ▶ Despite differences arising from MVA-related gains/losses and goodwill amortization, there was no significant divergence between accounting
+52 163 201 192 223
+profit and Group adjusted profit.
+31 98 127 162 209 ▶ In the previous fiscal year, there were a number of factors that created temporary differences, including reinsurance-related valuation losses DLDLRe におけるグループ修正利益の取扱いについて
+45 140 165 190 223 at PLC. In the current fiscal year, those one-off factors have rolled off, leading to a narrower difference from adjusted profit.
+39 122 149 179 216
+Key Factors behind Differences between Adjusted Profit and Net Income
+56 218 224 235 246 25/3末
+8.2
+(旧基準対比)
+46 180 192 215 236 (新基準・概算値) 兆円 △4％
+分子(修正利益)要因 分母(純資産)要因
+10 42 76 141 200 （¥in billions）
+102
++1.9グ％ルpーt プ +0.P6％LCpt
+*Details of the reconciliation are provided on p43
+51
+FY2026
+0 Key Factors （新基準と旧基準の差異）
+Q1 △0.3兆円
+(－)認識する将来CFの短縮
+（団体保険）
+111 199 225 240 MVA-related 8.9兆円
+0
+8
+0
+13
+1
+9
+3
+4
+0 1
+1
+9
+7
+5
+1 158.1
++11.1 -13.1
+160.1
+Gains/Losses +11.1 -
+DFL/NFL
+8.2兆円
+自己 取 株 得 式 △0 ・ 株 . 含 3兆 主 み 円 資 益 本 等
++3.8
+231 244 Amortization of Goodwill -13.1 [－] Amortization by executing M&A transactions 億円) 24/30.期9兆円25変/動3期
++0.1
+191 223 0.9兆円
+ROE
+131 193
+グループ
+LTDI impact
+Adjustment for Valuation
+20(331.3) 229
+Gains/Losses
++0.1 ROE用純資産 0.6兆円 △0.1兆円
+214 235
+ROE 0.7兆円
+145 202 0.6兆円 0.6兆円
+DL
+191 222 Others +3.8 - ROE用純資産
+171 213 FY2026Q1 MVA-related Amortization Adjustment Others FY2026Q1
+Group Adj. Gains of Goodwill for Net Income
+194 226
+profit /Losses Valuation
+Gains
+228 242 【Note】
+/Losses [旧基準] [新基準] [旧基準] [新基準] [旧基準] [新基準]
+185 221 2023年度 2023年度 2024年度 2023年度 2023年度 2024年度 2023年度 2023年度 2024年度
+205 231
+Copyright © 2026 Daiichi Life Group, Inc. 6
+172 215
+210 233 PLC
+230 243 その他
+DLRB
+DFL MVA関連損益 +80
+のれん償却額 △91等
+DLRB における評価性損益の取扱い
+✓ 負債の評価益がPLでは認識されない（対応する資産の評価損のみPL計上）
+✓ 当該損益は、期間の経過とともに損益が解消される評価性損益のため、修
+正利益の調整項目としている（MVA損益と同様の取扱い）
+資産・負債で
+P/L認識 P/L認識
+概ね相殺
+B/S認識
+P/L認識 ミスマッチ
+（OCI）
+DLRB
+(△)資産負債のスプレッドミスマッチに伴う評価性損益
+
+=== PDF PAGE 7 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Impacts of Rising Domestic Interest Rates 検証中
+▶ Continued improvement in yields on the yen-denominated bond portfolio through the rebalancing of liability-matching bonds, taking advantage of the higher interest rate
+environment.
+▶ Lapse rates at both DL and DFL remained low and stable. While the matching ratio continued to be controlled below 100%, Group ESR declined by 13%pt from the end of
+FY2025 to ca. 206%, mainly due to higher mass lapse risk associated with rising interest rates and an effect from M&A transactions.
+▶ DL will continue to manage interest rate risk appropriately while flexibly rebalancing bonds to further increase its positive spread.
+Impact of Rising Interest Rates
+Impact of FY2026Q1 Operations
+Investment
+Positive Spread • The yield on the yen-denominated fixed-income
+Interest Rate Environment(1) 17.0
+(DL) +
+portfolio continued to improve through bond ca. ¥ bn
+See p9for details rebalancing implemented amid rising interest rates.
+As of end-Jun.2026
+10Y 30Y • The net short position of bond at the end of FY2025 was
+Matching Ratio eliminated. Although the matching ratio increased 91
+%
+slightly, it remained below 100% and continued to be
+Risk p18 managed at a stable level.
+(+4%pt vs. end-Mar.2026)
+Mar. 2025 ca. 1.5% ca. 2.5% Monitoring • Although the lapse rate for DL’s single-premium
+products increased slightly, DL’s overall lapse rate
+Low and stable lapse rates
+（+20bps） （+60bps） Lapse Rate (DL/DFL) remained low and stable.
+• DFL’s lapse rate is disclosed from this quarter and at both DL and DFL
+p19 p21
+Sep. 2025 ca. 1.7% ca. 3.1% likewise remained low and stable.
+As of end-Jun.2026
+（+70bps） （+60bps）
+• Group EV increased by ca. ¥0.2tn from the end of
+9.8
+EV(2) FY2025, mainly due to higher domestic equity prices. ca.¥ tn
+Mar. 2026 ca. 2.4% ca. 3.6%
+Economic p29 （ca.+¥0.2tn vs. end-March 2026）
+（+30bps） （+20bps）
+Value
+As of end-Jun.2026
+• Mass lapse risk increased as interest rates rose. ESR
+Jun.2026 ca. 2.7% ca. 3.9% ESR(2) d in e c c r l e in a e s d e f in ro g m o o th d e w e il n l a d s o s f o F c Y ia 2 te 0 d 2 5 w , it p h a n rt e ly w d M ue & t A o s a . n ca. 206 ％ TBU
+p12 （ca. -13% vs. end-March 2026）
+(1) Source: Ministry of Finance Japan (2) Approximatevalue Copyright © 2026 Daiichi Life Group, Inc. 7
+▶ Group ROE was 12.7%, up by 2%pt YoY, as the increase in Group adjusted profit more than offset the impact of higher shareholders’ equity, mainly reflecting an
+increase in net assets due to factors such as a rise in domestic equity prices.
+▶ Group ESR increased to ca. 220%, up by ca.10%pt from FY2024. While required capital increased due to factors such as a rise in mass lapse risk associated with
+higher interest rates and an increase in equity risk linked to rising stock prices, the increase in eligible capital exceeded this, mainly driven by rising domestic equities.
+
+=== PDF PAGE 8 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Sales of domestic equities progressed as planned,
+while the balance increased due to higher equity prices
+▶ Taking advantage of favorable market conditions amid rising equity prices, DL sold ca. ¥300bn of domestic equities in Q1, making solid progress
+toward its FY2026 sales forecast of ca. ¥800bn.
+▶ Meanwhile, unrealized gains from higher equity prices exceeded the amount of equities sold, resulting in an increase in the balance of domestic
+equities to ca. ¥3.7tn as of the end of June 2026. The selling policy remains unchanged at this time, and planned sales will continue from Q2
+onward.
+History and Outlook for DL’s Domestic Equity Holdings
+(¥ in trillions) FY2024 FY2025
+3.99 300
+FY2026Q1 Sales ca. ¥ bn
+Actual Equity Sales Actual Equity Sales
+ca.¥480.0bn ca.¥800.0bn
+3.66 FY2026 Forecast for Sales of 800
+ca. ¥ bn
+Domestic Listed Equities
+Market Value
+3.38
+Increase
+3.28
++ca.¥0.6tn
+≤¥2.8tn
+≤¥1.5tn
+M2a4r/-32末4 M25a/r3-末25 M2a6/r3-2末6 J2u6n/6-2末6 M27a/r3-2末7 M31a/r3-末31
+Copyright © 2026 Daiichi Life Group, Inc. 8
+
+=== PDF PAGE 9 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Capitalizing on rising interest rates to execute large-scale bond rebalancing
+Steady expansion of the positive spread strengthens underlying earnings capacity
+▶ Rebalancing of the yen-denominated fixed-income portfolio is progressing steadily, supported by higher-than-expected gains on equity sales and rising
+domestic interest rates. Approximately ¥500bn of bond rebalancing were executed in Q1, and the positive spread for FY2026 is expected to exceed the
+initial forecast.
+▶ Given the upside in gains on equity sales following the recent rise in equity prices, yen-denominated fixed-income asset rebalancing in FY2026 are
+expected to exceed the initial plan. DL will continue to rebalance the portfolio while closely monitoring changes in financial market conditions.
+[DL] Domestic Bond Portfolio Rebalancing [DL]Positive Spread and Yield Trends and Outlook(2)
+(Future yield outlook is for illustrative purposes only.)
+Q1 FY2026 Results
+Risk Asset Yield
+Approximately
+（増益）
+Rebalancing Amount and P/L Impact 5.6％
+Yen-denominated fixed-income asset rebalancing Positive Spread Base Yield
+ca. ¥500bn Improvement
+Losses on sales associated with rebalancing ca. ¥17bn per year ⁽¹⁾ 2.80%
+ca. ¥200bn 2.43％
+2.60%
+Spread expanding on
+2.40%
+higher fixed-income Fixed-Income
+FY2026 Full-Year Forecast⁽³⁾
+Assets Yield
+2.20% yields and lower
+Significantly improved
+assumed rates
+Positive Spread Improvement 2.00%
+Estimated amount of
+¥34.0 1.77％
+domestic bond rebalancing(4) ca. bn（1） per year 1.80% Yield on fixed-income assets
+(as assumed for FY2025)
+(¥26.0bn to be realized in FY2026)
+1.601%.74％
+Expected to exceed the initial plan Average
+Estimated sale losses 1.40% Assumed rate
+Positive Spread
+ca.¥540.0 bn ¥169.3bn
+1.20%
+1.00%
+(1) On an annualized basis （2） Estimated based on the economic environment at end-March 2026 FY25 FY30
+(3) Estimated based on the economic environment as of the end of June 2026.(4) Planned rebalancing amount for policy reserve-matching bonds.
+Copyright © 2026 Daiichi Life Group, Inc. 9
+
+=== PDF PAGE 10 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Adjusted Profit Progress by Major Subsidiary | FY2026
+FY2026 FY2025 YoY FY2026
+Key Factors of Variance Progress Rate
+（¥in billions） Q1 Q1 Change Forecast
+[+] Positive spread improvement: yen-denominated bonds, alternative asset dividends, lower
+DL 119.1 38.3 + 80.9 371.0 32%
+assumed interest payments / Improved gains/losses on securities sales
+DFL 11.1 5.4 + 5.7 [+] Positive spread increase from AUM growth 38.5 29％
+DNL・DIPT (1.1) (0.9) (0.1) - (4.5) -
+PLC 16.8 20.7 (3.9) [－] Absence of prior-period one-off gain: sale of agency subsidiary 84.5 20％
+[+] TAL: Profit contribution from Challenger (Commencement of equity method accounting in
+Oceania 13.3 9.1 + 4.2 64.0 21％
+FY2025 Q2)
+Asia / Other overseas 3.8 3.5 + 0.3 [+] DLVN: lower new business expenses 15.5 25％
+[+] AMO / VTX: Growth in net inflows
+Asset Management 4.3 2.5 + 1.8 22.5 19％
+CP: Higher management fees, etc.
+BO 0.8 0.4 + 0.4 [+] Employee benefits business: higher membership fee income and expense control 3.0 27％
+DLRB (2.4) (1.6) (0.8) [－] Valuation loss: asset spread widening beyond the A-rated liability valuation spread 16.5 -
+HD/Others (7.6) (3.1) (4.5) [－] Higher operating expenses and interest expenses (45.0) -
+Total 158.1 74.2 + 84.0 ca. 560.0 28％
+Copyright © 2026 Daiichi Life Group, Inc. 10 10
+
+=== PDF PAGE 11 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+VNB / New Business and In-force Business ANP
+▶ Domestic new business value decreased 26% YoY to ca. ¥20.0bn for the three domestic companies combined, mainly due to higher costs associated with rising
+inflation at DL.
+▶ New business annualized premium increased 6.7% YoY to ¥135.0bn on a Group-wide basis, or 3.9% excluding the impact of foreign exchange movements, supported
+by solid sales at DL, strong fixed annuity sales in PLC’s retirement business, and the earlier renewal of a group insurance contract at TAL.
+Value of New Business
+(Approximate Figures of Domestic Business) New Business ANP In-force Business ANP
+FY2025 FY2026 Change As of As of
+Change (￥ in billions) Q1 Q1 YoY Mar-25 Jun-26
++0.9%
+Domestic 89.4 89.5 +0.1% 3,557.8 3,591.1
++0.6%
+DL 23.7 25.6 +8.0% 1,962.0 1,963.3 +0.1%
++2.1%
+DFL 60.3 58.6 (2.8%) 1,446.3 1,476.5
++1.2%
+DNL 3.6 3.5 (2.5%) 104.9 105.6 +0.7%
+(26%)
+DDIIPPTT 1.8 1.8 (1.3%) 44.5 45.7 +2.7%
+ca.27.0 +22.4% +3.0%
+Overseas 37.2 45.6 1,875.8 1,932.7
+ca.2.0 +12.8% +1.1%
+DNL
++18.5% +2.4%
+PLC 27.2 32.2 998.5 1,022.3
+DFL ca.6.0 ca.20.0 +10.8% +0.3%
+ca.1.0 TAL 4.4 8.2 +85.0% 686.5 716.1 +4.3%
++56.7% +2.5%
+ca.6.0 (12.4%) +2.0%
+PNZ 1.3 1.2 64.2 65.4
+(16.1%) +1.8%
+(16.7%) +1.2%
+DLVN 3.6 3.0 120.0 121.4
+DL ca.19.0 (19.8%) (0.9%)
++48.3% +12.8%
+ca.13.0 DLKH/DLMM 0.7 1.0 6.6 7.5
++38.7% +10.3%
++6.7% +1.7%
+Dai-ichi Life Group 126.6 135.0 5,433.6 5,523.8
++3.9% +0.7%
+【Note】
+FY2025 FY2026
+% change shown belowexcludes FX impact
+Q1 Q1
+Copyright © 2026 Daiichi Life Group, Inc. 11
+(¥
+D
+D
+D
+in b
+L
+F L
+N L
+illio n s )
+F
+c
+c
+Y
+a
+a
+c
+c
+2 0 2 5
+Q 1
+2 7 .0
+1 9 .0
+a 6 .0
+a 2 .0
+F
+c
+c
+Y
+a
+a
+c
+c
+2 0 2 6
+Q 1
+2 0 .0
+1 3 .0
+a 6 .0
+a 1 .0
+C h a n
+( 7
+( 6
+( 0
+( 1
+g e
+.0 )
+.0 )
+.0 )
+.0 )
+v
+P r o
+s f u
+f o
+g r e
+ll- y e
+r e c a
+2 0
+2 0
+2 0
+s
+a
+s
+%
+%
+%
+s
+r
+t
+Before model change
+
+=== PDF PAGE 12 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+Economic Value Indicators (Group EV and Group ESR, Approximate Figures)
+▶ Group EV increased slightly from the end of FY2025 to ca. ¥9.8tn, as the positive impact of higher domestic equity valuations at DL more than offset
+negative factors, including an increase in goodwill arising from M&A transactions.
+▶ ESR decreased by ca. 13%pt from the end of the previous fiscal year to around 206%, as eligible capital remained broadly unchanged for reasons
+similar to those affecting Group EV, while required capital increased, reflecting factors including higher mass lapse risk associated with rising domestic
+interest rates.
+Group ESR
+Group EV (Economic Solvency Ratio)
+(approximate)
+(approximate)
+End of 9.8 (vs. FY2025 year-end)
+June 2026 Ca. ¥ tn +2% End of Ca. 206 % (vs. FY2025 year-end)
+June 2026 Ca. -13％pt
+End of
+End of
+June 2026
+Group DL March 2026
+206
+220 % Ca. %
+(¥ in trillions) (¥ in trillions)
+9.7 9.8 10.7 10.9
+Increase of ca. ¥180.0bn
+6.5 6.5
+5.3
+4.9
+Increase of ca.¥400.0bn
+End of End of End of End of Eligible Required Eligible Required
+Mar 26 Jun 26 Mar 26 Jun 26 Capital Capital Capital Capital
+Copyright © 2026 Daiichi Life Group, Inc. 12
+
+=== PDF PAGE 13 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+FY2026 Group Earnings Forecast
+検証中
+FY2025 FY2026 Change Actual FY2025 FY2026 Change
+(￥ in billions unless otherwise noted) Q1 Q1 YoY （％） vs. Forecast Actual Forecast YoY （％）
+Ordinary revenues 2,308.3 2,893.0 + 584.7 + 25% 27% 11,308.3 10,666.0 (642.3) (6%)
+Daiichi Life 1,016.5 1,494.9 + 478.4 + 47% 32% 4,699.2 4,670.0 (29.2) (1%)
+Daiichi Frontier Life 697.2 834.5 + 137.2 + 20% 24% 3,773.5 3,504.0 (269.5) (7%)
+Protective (US$ in millions) (1)(3) 2,569 3,258 + 690 + 27% 33% 13,479 9,900 (3,579) (27%)
+TAL (AU$ in millions) (1) 2,186 2,378 + 192 + 9% 31% 8,540 7,620 (920) (11%)
+Ordinary profit 84.9 251.1 + 166.1 + 196% 29% 753.7 869.0 + 115.3 + 15%
+Daiichi Life 78.6 197.0 + 118.4 + 151% 30% 652.8 662.0 + 9.2 + 1%
+Daiichi Frontier Life 20.4 31.6 + 11.3 + 55% 54% 29.2 59.0 + 29.8 + 102%
+Protective (US$ in millions) (1)(3) 28 210 + 182 + 648% 33% 149 640 + 491 + 330%
+TAL (AU$ in millions) (1) 155 158 + 3 + 2% 22% 501 720 + 219 + 44%
+Net income(2) 34.2 160.1 + 125.8 + 368% 31% 436.6 513.0 + 76.4 + 17%
+Daiichi Life 38.3 119.1 + 80.9 + 211% 32% 377.9 371.0 (6.9) (2%)
+Daiichi Frontier Life 13.3 21.7 + 8.4 + 63% 56% 18.7 39.0 + 20.3 + 109%
+Protective (US$ in millions) (1)(3) 29 171 + 142 + 498% 33% 127 510 + 383 + 301%
+TAL (AU$ in millions) (1) 100 114 + 14 + 14% 21% 363 540 + 177 + 49%
+Group Adjusted Profit 74.2 158.1 + 84.0 + 113% 28% 551.5 ca.560.0 + 8.5 + 2%
+Group VNB - - - - - 173.8 ca.188.0 + 14.2 + 8%
+Dividends per share (JPY) 54.5 72 + 17.5 + 32%
+(Reference) Fundamental Profit 89.4 155.1 + 65.8 + 74% 24% 629.5 ca.650.0 + 20.5 + 3%
+Daiichi Life 63.0 91.5 + 28.5 + 45% 25% 372.7 ca.360.0 (12.7) (3%)
+(1) Figures for Protective and TAL are disclosed after re-classifying items from Protective and TAL’s financial statements underUS and Australian accounting standards, respectively to conform to Daiichi Life Group’ disclosure standards.
+(2) “Net Income” represent “Net income attributable to shareholders of parent company.“
+(3) Upon LDTI （Long-Duration Targeted Improvements） adoption, FY2025 figures are also restated on LDTI basis. Copyright © 2026 Daiichi Life Group, Inc. 13
+
+=== PDF PAGE 14 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group Companies Performance Overview
+Copyright © 2026 Daiichi Life Group, Inc. 14
+
+=== PDF PAGE 15 ===
+23 0 0 78
+70 0 145 218
+単体業績
+255 100 255 255
+57 131 146 194 226
+51 116 132 183 221
+39 88 110 168 212 Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+40 192 217 217 242 [Group Companies Performance Overview]
+15 80 150 150 219
+14 77 148 148 218 Domestic Life Insurance Business: Daiichi Life
+20 63 113 140 198
+34 108 153 163 208
+52 163 201 192 223
+▶ Positive spread increased 224% YoY to ¥44.4bn, driven by higher interest
+FY2025 FY2026
+Change （％）
+31 98 127 162 209 income from yen bonds following portfolio rebalancing in a rising interest (\ in billions) Q1 Q1
+45 140 165 190 223 rate environment and increased dividend income from alternative assets. Premium and other income 556.9 624.9 +68.0 + 12%
+39 122 149 179 216
+▶ Fundamental profit increased 45% YoY to ¥91.5bn, as increased positive Fundamental profit 63.0 91.5 +28.5 + 45%
+56 218 224 235 246 spread more than offset a slight decline in gains from core insurance Positive spread 13.7 44.4 +30.7 + 224%
+46 180 192 215 236 Foreign exchange hedging cost (6.4) (4.8) +1.6
+activities due to higher operating expenses and lower margins on in-force
+10 42 76 141 200 Gains from core insurance activities 49.3 47.1 (2.2) (5%)
+policies.
+Net capital gains (losses) 23.2 113.7 +90.5 + 390% 当期純利益(損失)の変動要因および修正利益との差異
+102
+▶ Net income increased 221% YoY to ¥119.1bn, driven by higher Net gains (losses) on sales of securities 32.5 128.6 +96.1
+51
+fundamental profit as well as improved net gains on sales of securities, Gains (losses) from mutual investment funds cancellation 8.7 3.0 (5.7) (億円)
+0
+Derivative transaction gains (losses) (15.6) (26.0) (10.4)
+mainly due to increased gains on sales of domestic equities.
+111 199 225 240 Foreign exchange gains (losses) exclude hedging cost (2.0) 8.1 +10.0
+0 0 130 195 Loss on valuation of securities (0.3) (0.7) (0.4)
+8 13 94 171 Non-recurrent gains (losses) (7.7) (8.2) (0.6) -
++211%
+Provision for additional policy reserve (9.5) (7.2) +2.3
+231 244
+119.1 Provision for contingency reserve 2.0 - (2.0)
+191 223
+Reinsurance income (loss) - - -
+131 193
+Ordinary profit 78.6 197.0 +118.4 + 151%
+203 229 Extraordinary gains (losses) (3.5) (3.3) +0.2
+214 235 Provision for price fluctuation reserve (3.0) (3.0) -
+145 202
+38.3 Provision for reserve for PH dividends (23.0) (26.2) (3.2)
+Total of corporate income taxes (13.8) (48.4) (34.6) △54%
+191 222 Adj. Profit
+Net income (loss) 38.3 119.1 +80.9 + 211%
+171 213 (JPY billions) 当期利益 基礎利益 キャピタル 臨時損益 法人税等 当期利益 MVA 修正利益 グループ内 グループ
+194 226 FY2025 FY2026 ( ( R R e e f f e e r r e e n n c c e e ) ) R C e o i r n e s p u r r o a f n it c (a e f c te e r d t i a n x g ) impact(1) ca.+6.5 - ca.+ 4 6 6 . . 5 3 ca.+0.0 - 25 1 / Q 3期 損益 準 契 特 備 約 別 金 者 損 繰 配 益 入 当 額 26 1 / Q 3期 関連損益等 26 1 / Q 3期 グ 再 ル 保 ー 調 険 プ 整 に 修 額 伴 正 う 利益 修 2 寄 6 正 与 / 利 3 額 期 益
+【Note】 1Q
+228 242 Q1 Q1
+185 221
+(1) Estimated impact of strategic reinsurance transactions (ceding) for whole life insurance, which has been implemented since FY2018, reduces assumed interest rate burden and impacts gains from core insurance activities.
+205 231 Copyright © 2026 Daiichi Life Group, Inc. 15
+172 215
+210 233
+25/3期 26/3期 前期同期比 達成率
+230 243
+億円) 1Q 1Q [％] （対通期予想）
+△444
+修正利益 XX
+[△54％]
+
+=== PDF PAGE 16 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview]
+Daiichi Life – Factors affecting changes in fundamental profit and capital gains/losses
+Factors affecting changes in fundamental profit
+Assumedinterest Operating (¥in billions)
+Investment income expenses（1）
+for policy reserve
+in the general account +3.4 -5.6
+(excl. hedging cost) +1.6 +4.6 91.5 ✓ General account investment income increased YoY, driven by the benefits of
+Gains from rebalancing yen-denominated bonds in a rising interest rate environment and higher
+Hedging cost
++24.6 core insurance activities
+63.0 (excl. operating expenses) interest and dividend income from alternative assets.
+✓ Insurance-related profit decreased slightly YoY. Although loading income decreased
+Loading -3.0
+Mortality Margin +2.5 and expenses increased, these impacts were offset by improved mortality margins
+Retirement benefit provision release: +4.0
+Yen Bond Interest +9.5 etc. and lower retirement benefit expenses.
+Alternatives Dividend +13.0
+FY2025 FY2026
+Q1 Q1
+FY2025 FY2026 YoY
+Factors affecting changes in capital gains/losses, etc. Budget Variance and Key Drivers (YoY)
+(¥in billions) Q1 Q1 Change
+Gains/Losses on Sales of
+32.5 128.6 + 96.1 ca. +16.5
+Securities
+(¥in billions)
+Gains/losses on sales of
+domestic equities Domestic Equities 63.0 316.4 + 253.4 (+) Higher gains driven by rising stock prices
+Yen Bonds (43.3) (204.1) (160.9) (-) Rebalancing of policy-reserve-matching bonds
+-157.3 Non-recurrent Foreign Bonds (2.9) +4.7 + 7.5 (+) Absence of losses from sales
+Derivative& gains/losses
+Foreignexchange & extraordinary Others 15.7 11.7 (4.0) (–) Decreased profit from replacement of foreign equity
++253.4 gains/losses gains/losses, etc.
+-5.4 -3.5 -34.6
+Gains/losses -0.3
+FY2025 on sales of securities Other capital 27.6 ✓ Gains/losses on sales of domestic equities increased significantly, driven by higher
+gains/losses
+Q1 (excl. domestic equities) Income taxes stock prices and steady progress in equity sales. Despite losses from the rebalancing
+FY2026 of yen-denominated bonds increased, overall gains/losses on sales of securities
+-24.8 FX Gain/Loss +10.0 Ｑ1 exceeded both the prior-year level and budget.
+Deriv. Gain/Loss -10.0
+(1) Incl. HD Management Charge
+Copyright © 2026 Daiichi Life Group, Inc. 16
+
+=== PDF PAGE 17 ===
+未修正
+23 0 0 78
+70 0 145 218 甲斐メモ：生D推移はThinkCell組合せグラフ
+255 100 255 255
+でサイズ調整可能に
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+New Business and Number of Sales Rep at DL
+25年4月入社は1,000名を上回り
+推移。採用面の基調は引き続き
+DL New Business Performance (Sales Rep Channel) # Sales Reps (thousand ppl)
+順調
+Recalculated from FY2025 Q1
+New hires for quarter 1.24
+following a change in the interest 1.00 1.09 1.08 1.02 1.01 1.18 1.19
+rate used in the calculation Value of Sales # sales reps (1st year) 1.09 1.34
+revenue(2) # sales reps (2nd year onwards) 0.95 1.21
+2.73 2.68
+2.49 2.34 2.46 0.62 0.66
+2.03
+1.94 1.89 Premiums per 【Note】
+policy（1）
+1.00 1.17 37 37 36 36 35 35 34 34 34 34 34 35 34 35 35 35 35
+3 4 4 5 5 3 3 4 4 4 4 4 4 4 5 5 5
+1.17
+1.00 0.73 1.14 0.98 1.05 34 33 32 31 30 31 31 31 30 30 30 30 30 30 30 30 30
+1.11 1.11 1.14 # cases per 25/1Q
+0.99 （速報）
+sales rep(1)(3)
+22/1Q 22/4Q 23/4Q 24/4Q 25/4Q 22/1Q 22/4Q 23/4Q 24/4Q 26/1Q
+(1) Figures indexed with FY2022 Q1 as 1 （2）A proprietary indicator of revenue earned by the sales force, before deducting cost components and variable factors of the economic environment.
+(3) Denominator is the number of sales reps excluding those in their first year after joining the company. Copyright © 2026 Daiichi Life Group, Inc. 17
+
+=== PDF PAGE 18 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+[Group Companies Performance Overview]
+Daiichi Life – Initiatives for Market Risk Reduction
+Duration / Policy-Reserve-Matching Bonds(1) Domestic Equity (Market Value/Book Value)(3)
+(Years)
+Duration of Assets Duration of Liabilities Dollar Duration Ratio(right axis)
+Net sales amount Gains/losses
+25
+97% 99% 120% Status of buying and selling of (Market-value basis) on sales
+20 87% 91% (2) 100% domestic equities （FY2026Q1）
+¥307.5bn +¥316.6bn
+15.6 15.8 14.5 14.9 13.8 13.8 80%
+15 12.2 11.8 (¥in billions)
+60% Market Value Book Value
+10
+40%
+4,000
+5 3,663.6
+20%
+3,377.7
+3,276.2
+0 0%
+Mar-25 Sep-25 Mar-26 Jun-26
+3,000
+(¥in trillions) Balance of Policy-Reserve-Matching Bonds and Derivatives
+15 Market Value of PRMBs Book Value
+14
+13.10
+12.59 12.57 12.81 2,000
+13
+12.03
+12 11.31
+11 1,036.1
+886.3 895.3
+1,000
+10 9.39 9.44
+9
++¥237.5 bn
+8
+0
+7
+Mar-23 Mar-24 Mar-25 Mar-26 Jun-26
+Mar-23 Mar-24 Mar-25 Mar-26 Jun-26
+Interest Rate Swaps Domestic Equity Hedging Positions
+¥700.0bn ¥200.0bn - ¥556.4bn ¥729.1bn ¥483.9bn
+(Hedged insurance liabilities, hedgeaccounting (Futures sold and put options bought, etc.)
+applied portion)
+Interest Rate Swaption [Reference]
+- - - - ¥30.0bn ¥30.0bn
+(Receipts fixed, payments floating) Foreign Equity Hedging Positions
+【Note】
+(1) Economic value-based duration of insurance liabilities associated with individual insurance and annuities in the general account, duration of yen-based fixed income assets (including interest rate swaps), and the balance of policy-reserve-matching
+bonds(PRMB) and derivatives. “Dollar Duration Ratio” is calculated as “(Duration of Assets x Market Value of Assets) / (Duration of Liabilities x Present Value of Liability)” with respect to the above assets and liabilities. PRMB is a unique category for bonds,
+accepted under Japanese GAAP. PRMB is reported at amortized cost if the bonds meet certain requirements. （2）90% when derivative positions with optionality are included (as of Jun. 2026)
+(3) Within domestic equity (excluding stocks of subsidiaries, affiliates and not-listed domestic stocks) the book value of equity held for purposes other than pure investment as of end of Jun-26 was ¥45.2bn. Copyright © 2026 Daiichi Life Group, Inc. 18
+
+=== PDF PAGE 19 ===
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Excerpts] Surrender risk of savings-type insurance products
+Trends in Market Interest Rates and Surrender Rates for Fixed Income Assets / Insurance Liabilities Cash Flow
+Savings-Type Products (1)(2) (5-year cumulative/estimate)
+Excerpt from IR Materials
+(Disclosed in May)
+(¥ in trillions)
+2.5%
+Surrender Peaks During Periods
+Currency hedged foreign bond
+of Rising Overseas Interest Rates
+Yen-denominated bonds and loans
+Shift from DL single-premium savings-type
+products to DFL foreign currency–denominated Insurance Liabilities
+products. Peak surrender amount: approximately 2.0%
+Assets and Liabilities Net position Shortage of assets in
+¥70.0 bn (FY2023Q3)
+ultra-long-term zone
+(Factors behind existing
+interest rate risk)
+1.5% +1.7
+Single-Premium
+Savings-Type Insurance +0.6
+–Surrender Rate
+0.0
+1.0%
+-0.4 -0.5
+-1.1
+-1.1 -1.0
+-1.6 -1.7
+Area for main legacy blocks
+0.5%
+Other Products with high assumed interest rate *5-year cumulative/estimate
+Surrender Rate (burden of high assumed interest)
+0.0% 1-5 6-10 11-15 16-20 21-25 26-30 31-35 36-40 41-45 46-50
+Mar 2019 Mar 2020 Mar 2021 Mar 2022 Mar 2023 Mar 2024 Mar 2025 Mar 2026 years years years years years years years years years years
+(1)Based on ANP. Quarterly results plotted at the midpoint of each quarter. (2)As of the end of June 2026 Copyright © 2026 Daiichi Life Group, Inc. 19
+
+=== PDF PAGE 20 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview] 検証中
+Domestic Life Insurance Business: Daiichi Frontier Life
+▶ Net income increased by 63% YoY to ¥21.7bn, driven by higher
+FY2025 FY2026
+fundamental profit, reflecting growth in the positive spread and Change （％）
+(\ in billions) Q1 Q1
+insurance-related gains due mainly to an expansion of in-force policies,
+Premium and other income 618.3 665.8 + 47.6 +8%
+as well as an increase in capital gains.
+Fundamental profit 16.8 24.8 + 8.1 +48%
+▶ Adjusted profit excluding MVA-related gains/losses increased by 118% Positive spread 11.0 14.2 + 3.2
+Gains from core insurance activities 5.7 10.7 + 4.9
+YoY to ¥10.5bn. Group adjusted profit contribution, including profit from
+Net capital gains (losses) 5.6 11.3 + 5.7
+internal reinsurance transactions, rose by 170% YoY to ¥9.0bn, despite Gains (losses) related to MVA 11.7 15.7 + 3.9
+losses at DLRB due to widening U.S. corporate bond spreads. Other capital gains(losses)(sale of securities, etc.) (6.1) (4.3) + 1.8
+Non-recurrent gains (losses) (2.0) (4.5) (2.5)
+Provision/reversal for contingency reserve (2.0) (4.5) (2.5)
+Other non-recurrent gains (losses) (reinsurance income(loss), etc.) (0.0) - + 0.0
+Profit that includes the Ordinary profit (loss) 20.4 31.6 + 11.3 +55%
++118%
+block that executed the
+Extraordinary gains (losses) (1.5) (0.9) + 0.6
+reinsurance to DLRB
+10.5 Provision for price fluctuation reserve (1.5) (0.9) + 0.6
+Total of corporate income taxes (5.6) (9.1) (3.5)
+9.0
+Net income (loss) 13.3 21.7 + 8.4 +63%
+Gains (losses) related to MVA (before tax) (11.7) (15.7) (3.9)
+Adj. Profit 4.8 10.5 + 5.7 +118%
+Adj. Profit
+4.8 Consolidation adjustments for intragroup reinsurance 0.5 0.5 -
+(JPY billions)
+Group adj. profit contribution 5.4 11.1 + 5.7 +106%
+Profit that includes the block that executed the reinsurance to DLRB 3.3 9.0 + 5.7 +170%
+FY2025 FY2026 FY2026
+Q1 Q1 Q1
+Copyright © 2026 Daiichi Life Group, Inc. 20
+
+=== PDF PAGE 21 ===
+未修正
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+DFL’s Profitability and Lapse Rates
+➢ DFL’s stock business model generates profit growth through the accumulation of AUM. Supported by a comprehensive product lineup and
+multi-channel distribution, AUM has grown significantly, and EV has increased to over ¥1tn. Profit from the in-force business, including DLRB’s
+adjusted profit, has also grown steadily.⁽¹⁾
+➢ DFL’s lapse rate, excluding policies surrendered upon reaching customer-designated target amounts, has remained stable.
+AUM and Profit Lapse Rate （5）
+AUM: ¥ trillion 69.5
+8.0%
+EV: ¥ trillion（2） 60.0
+（3）(4)
+Core profit (DFL + DLRB) 53.4
+Adjusted profit (DFL + DLRB) 57.8 7.0%
+55.0
+34.9 32.4 【Note】
+6.0%
+(¥in billions)
+27.8
+19.1 14.3 5.0%
+-18.6 1.0
+12.2 Incl. target-triggered surrenders
+11.6 0.9 4.0%
+0.8
+9.1 9.5 Excl. target-triggered surrenders 25/1Q
+3.0% （速報）
+0.6 0.6
+2.0%
+1.0%
+0.0%
+2021/04 2022/04 2023/04 2024/04 2025/04 2026/04
+2021 2022 2023 2024 2025
+(1)As DLRB reinsures a significant portion of DFL’s business, DFL and DLRB are treated as a single entity when evaluating theprofitability of the proprietary distribution channel. (2) Based on the new J-ICS regime effective from FY2023 onwards. (3)Core profit is an internal profitability indicator
+designed to show the sustainable profit-generating capacity of the business, excluding temporary factors and market fluctuation factors. (4)DLRB profit is based on core profit for FY2024 onward and on adjusted profit for FY2023 and prior years. (5)Based on Sum Assured. Quarterly lapse experience
+is plotted at the midpoint of each quarter. Copyright © 2026 Daiichi Life Group, Inc. 21
+
+=== PDF PAGE 22 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview] 検証中
+Domestic Life Insurance Business: Daiichi Neo Life
+FY2025 FY2026
+▶ Premium and other income (excluding reinsurance income) increased Change （％）
+Q1 Q1
+(￥ in billions)
+by 3% YoY to ¥24.6bn, as policies in force grew, supported by
+Premium and other income
+23.9 24.6 + 0.8 + 3%
+continued strong sales of cancer insurance following product revisions. (excluding Reinsurance income)
+▶ Net income was negative ¥1.1bn (negative ¥1.1bn in FY2025), mainly Benefits and claims (excluding Reinsurance income) (15.3) (16.3) (1.1)
+Claims, annuities, benefits (4.9) (4.6) + 0.3
+due to an increase in operating expenses, including higher agent
+Surrender value, other refunds (10.4) (11.8) (1.4)
+commissions associated with the recovery in sales.
+Provision for policy reserves, etc. (3.6) (2.3) + 1.3
+Provision/reversal for contingency reserve (0.0) + 0.0 + 0.1
+Operating expenses (9.5) (10.9) (1.4)
+Reinsurance income 1.1 1.8 + 0.7
+Investment and other ordinary gains (losses) 2.0 1.6 (0.4)
+Investment gains (losses) 0.3 0.4 + 0.1
+Other ordinary gains (losses) 1.6 1.2 (0.4)
+Ordinary profit (loss) (1.5) (1.5) (0.0) -
+Extraordinary gains (losses) (0.0) (0.0) (0.0)
+Adj. Profit
+Total of corporate income taxes 0.4 0.4 (0.0)
+(JPY billions)
+Net income (loss) (1.1) (1.1) (0.0) -
+(1.1) (1.1) Fundamental profit (1.4) (1.6) (0.1) -
+(Ref.) Consolidated adjustment for intra-group
+FY2025 FY2026 0.5 0.5 (0.1)
+reinsurance
+Q1 Q1
+Copyright © 2026 Daiichi Life Group, Inc. 22
+
+=== PDF PAGE 23 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview]
+Overseas Insurance Business – Protective, USA (Note: PLC’s financial results for Q2 (April –June)
+of FY2026 are scheduled for release on August 13, local time.)
+検証中
+▶ Operating income increased by 55% YoY to USD 203mn. Although the gain
+on the sale of a subsidiary in the Retirement recognized in FY2025 did not
+FY2025 FY2026
+Change （％）
+recur, this was more than offset by assumption updates and related Q1 Q1
+(USD in millions)
+adjustments in the Protection, as well as favorable mortality experience in Premiums and policy fees 1,422 1,431 + 9 + 1%
+both the Protection and Acquisitions. Pre-tax adj. operating income(1) 131 203 + 72 + 55%
+Protection (2) 70 + 72 -
+▶ Net income on a standalone basis increased by 498% YoY to USD 171mn. In
+Retirement 93 53 (39) (42%)
+addition to the increase in operating income, this was driven by higher
+Acquisitions 65 94 + 29 + 44%
+valuation gains on embedded derivatives associated with the reinsurance of Stable Value Products (SV) 15 23 + 8 + 57%
+an in-force block executed in prior years, as well as lower valuation losses on Asset Protection (AP) 8 7 (1) (15%)
+Employee Benefits(2) (5) (1) + 4 -
+market risk benefits (MRB).
+Corporate & Other (42) (43) (1) -
+▶ Adjusted profit decreased by 24% YoY to USD 105mn. FY2025 figure was Non-operating income (loss) (103) 7 + 110
+Net investment realized gains (losses) (18) (18) (0)
+calculated under the pre-LDTI accounting standard and has not been restated
+Credit losses etc. (24) (25) (1)
+on an LDTI basis, whereas the current-period figure was calculated under
+Commercial mortgage loans (3) (0) + 2
+LDTI.
+Modco - net realized gains (losses) 11 88 + 78
+(19%) Net MRB and derivative impacts (75) (41) + 34
+Other 6 3 (3)
+20.7
+16.8 Income tax expense 1 (39) (40)
+Adj. Profit Net income (loss) 29 171 + 142 + 498%
+Adjustment 110.0 (66) (176)
+(JPY billions)
+Adjusted profit(3) 138 105 (34) (24%)
+Adjusted profit (JPY in billions) 20.7 16.8 (3.9) (19%)
+FY2025 FY2026
+Exchange rate (JPY/USD) 149.52 159.88 + 10.36 + 7%
+Q1 Q1
+(1) Derived from net income by excluding realized gains and losses on investments and derivatives, etc.
+(2) Upon LDTI adoption, prior comparative period figures are also restated on LDTI basis
+(3) The impact of LDTI is excluded from adjusted profit for FY2025, while it is included for FY2026. Copyright © 2026 Daiichi Life Group, Inc. 23
+
+=== PDF PAGE 24 ===
+Full Year Forecast Financial Result Performance Reference
+[Reference] Introduction of New Accounting Standard “LDTI” in PLC
+▶ Long-Duration Targeted Improvements (LDTI) has been introduced under US GAAP, and PLC’s net income for FY2025 will be presented on an LDTI basis, with
+FY2024 recast accordingly.
+▶ Net income for FY2025 was significantly impacted by unlocking, mainly due to the revision of previously locked-in assumptions. Although earnings volatility may
+continue from FY2026 onward, there is no change to PLC’s medium-to long-term growth trajectory.
+適用の影響範囲
+Key changes and financial impact from the adoption
+PLCの6事業のうち3事業に影響
+FY2025 Impact on
+参考：税引前営業利益（
+Impact Adjusted Profit
+Changes Overview LDTI
+（USD in (from FY2026
+影響
+millions） onward) 23/12 24/12
+▲
+• Assumptions such as mortality rates used in measuring insurance liabilities
+are reviewed periodically, and changes (excluding those arising from
+discount rate revisions) are reflected in profit and loss.
+Measurement of • Discount rates are based on market interest rates, determined using
+A ca. (20) Impact
+insurance liabilities observed yield curves with appropriate adjustments to reflect the
+characteristics of insurance liabilities.
+• Changes in discount rates are recognized in Other Comprehensive Income
+(OCI). ▲
+Short-term downward pressure on
+Expansion of • Unlocking is extended to certain long-duration insurance contracts for which earnings due to LDTI adoption is
+ca. (160) No impact
+unlocking scope assumptions have been fixed at inception under the current standard. expected to be limited to several
+LDTIの概要
+tens of millions USD per year
+Introduction of
+• Certain minimum death benefit guarantees, previously measured as
+B market risk benefits ca. (30) No impact
+(MRBs)（1） insurance liabilities, are reclassified and measured at fair value. • 米国会計基準における長期保険契約の会計処理を見直し、保険負債の測定の適時性向上
+や情報開示の充実を目的として導入された改正基準
+Changes in DAC • Deferred Acquisition Costs (DAC) amortization is changed from a pattern Impact
+C ca. (35)
+amortization pattern based on premiums or profits to a straight-line basis over the contract period. • 保険負債に用いる死亡率等の前提は定期的に見直し、割引率の見直しによる変動を除き、
+影響は損益に反映
+(1) A contract or contractual feature that protects policyholders from market risks (such as equity, interest rate, or foreign exchange risks) associated with minimum guarantees on death protection or
+withdrawal/benefit amounts in variable annuity products. These components are measured at fair value Copyright © 2026 Daiichi Life Group, Inc. 24 • 保険契約費用（DAC（1）等）に関する取扱いが簡素化
+
+=== PDF PAGE 25 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview]
+Overseas Insurance Business – TAL, Australia
+検証中
+▶ Underlying profit increased by 34% YoY to AUD 123mn, driven by strong
+performance in the group insurance business.
+▶ Net income increased by 14% YoY to AUD 114mn, despite the absence of
+market impact that benefited the previous year.
++48%
+12.7
+8.6
+Adj. Profit
+(JPY billions)
+FY2025 FY2026
+Q1 Q1
+Copyright © 2026 Daiichi Life Group, Inc. 25
+( A
+P
+U(ar
+e
+N
+N
+A
+E
+U D in m illio n s )
+r e m iu m a n d o t h e r in
+n d e r ly in g p r o f it
+fte r ta x , e x c lu d in g in tr a
+in s u r a n c e )
+P r o te c tio n b u s in e s s
+O th e r s
+o n - u n d e r ly in g it e m
+In te r e s t r a te im p a c t o
+S u b n o te s c o s ts
+O th e r s
+e t in c o m e ( lo s s )
+A d ju s tm e n t
+d ju s t e d p r o f it
+A d ju s te d p r o fit J P Y in
+x c h a n g e r a te ( J P Y /A U
+c o m e
+g r o u p
+s ( a f t e
+n A & L , e
+b illio n s
+D )
+r
+tc
+t a
+.
+x )
+F
+1
+Y
+,
+9
+2 0 2 5
+Q 1
+9 5 6
+9 2
+9 9
+( 7 )
+8
+9
+ー
+( 1 )
+1 0 0
+( 9 )
+9 1
+8 . 6
+4 . 5 0
+F
+2
+1
+Y 2 0 2Q
+, 1 0 5
+1 2 3
+1 0 5
+1 8
+( 9
+( 0
+( 2
+( 7
+1 1 4
+0
+1 1 4
+1 2 . 7
+1 1 . 5
+61
+)
+)
+)
+)
+6
+C
++
+h
++
+1
+a n g e
+1 4 9
++ 3 1
++ 6
++ 2 6
+( 1 7 )
+( 9 )
+( 2 )
+( 6 )
++ 1 4
++ 9
++ 2 3
+4 . 1
+7 . 0 6
++
++
++
++
++
+（ ％
++ 8
+3 4
++ 6
+1 4
+2 5
+4 8
+1 8
+%
+%
+%
+%
+%
+%
+%
+）
+-
+
+=== PDF PAGE 26 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Group Companies Performance Overview]
+Overseas Insurance Business – Dai-ichi Life Vietnam
+検証中
+FY2025 FY2026
+Change （％）
+Q1 Q1
+(VND in billions)
+▶ Premium and other income decreased by 8% YoY to VND 3,916bn,
+Premium and other income
+4,277 3,916 (361) (8%)
+mainly due to lower new business sales. (excluding Reinsurance income)
+First year premium 634 514 (121) (19%)
+▶ Net income for the period increased by 28% YoY to VND 663bn,
+Renewal premium(1) 3,643 3,402 (240) (7%)
+mainly due to lower operating expenses resulting from cost control
+Other incomes 675 839 + 164
+and reductions, including lower new business acquisition costs.
+Investment related income, etc. 788 945 + 158
+Reinsurance related income (113) (107) + 7
+Operating expenses (1,408) (1,125) + 283
+First year commission, distribution expense, etc. (864) (603) + 260
+Renewal commission, administration expense (545) (522) + 23
++33% Claims, payments and refunds, etc. (1,183) (1,298) (115)
+Provision for policy reserves, etc. (1,715) (1,472) + 243
+4.0
+Provision for policy reserves (before revaluation) (1,689) (1,447) + 242
+3.0 Revaluation of policy reserves interest rate, etc. (26) (25) + 1
+Income tax expense, etc. (128) (197) (69)
+Adj. Profit Net income (loss) 516 663 + 146 + 28%
+(JPY billions) Net income (loss) JPY in billions 3.0 4.0 + 1.0 + 33%
+Exchange rate (JPY/VND) 0.0058 0.0061 + 0.0002 + 4%
+Net income excl. revaluation impacts (after tax) 534 689 + 154 + 29%
+FY2025 FY2026
+Q1 Q1
+(1) Insurance premium received from second year forward.
+Copyright © 2026 Daiichi Life Group, Inc. 26
+
+=== PDF PAGE 27 ===
+図A生I形成コンテンツは誤りを含む可能性があります。
+Copyright © 2026 Daiichi Life Group, Inc.
+(
+B
+[
+B
+\
+R
+in b
+O
+e f e
+O
+illio
+r e n
+n
+c
+s
+e
+)
+] N u m b
+A
+e r
+s
+o
+o
+F
+f m
+f M
+Y
+e
+1
+2
+m
+a
+1
+0 2
+Q
+1 .
+1 .
+b e
+r - 2
+. 1
+5
+1
+1
+1
+r
+6
+8
+s ( m
+A
+illio
+s o
+F
+n
+f
+Y
+p p
+J u
+1
+2 0 2
+Q
+1 .
+1 .
+l)
+n - 2
+1 . 4
+6
+1
+5
+5
+6
+6
+C
+C
+h
+h
+a
+a
+n
++
++
+n
+g
+g
++
+e
+3
+3
+e
+(
+6
+6
+(
+3
+%
+%
+%
+%
+%
+)
+)
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+[Group Companies Performance Overview]
+（1）
+Non-Insurance Business (Asset Management Business and New Fields of Business)
+検証中
+▶ Adjusted profit for the asset management business increased by 74% YoY to ¥4.8bn, supported by steady AUM growth at each company.
+▶ Benefit One’s adjusted profit increased by 36% YoY to ¥1.5bn,supported by customer growth in its employee benefits. Membership also expanded to 11.46mn as of the end
+of Jun. 2026.
+Asset Management Adj. Profit New Fields of Business Adj. Profit
+FY2025 FY2026
+(\ in billions) Q1 Q1 Change(%)
+VTX 0.1 0.2 + 137%
+AMO 1.3 1.7 + 30%
+DMRE - 0.8 -
+CP 0.3 0.7 + 114%
+Capula 0.8 1.2 + 54%
+Others（2） 0.3 0.3 (7%)
+2.8 4.8 + 74%
+[Reference] AUM
+(\ in trillions) As of Mar-26 As of Jun-26 Change(%)
+VTX 3.0 3.2 + 7% [Reference] Amortization of intangible assets of BO
+AMO 79.1 88.0 + 11%
+DMRE 2.1 2.1 + 2% Amortization of goodwill (ca. ¥20.0bn/year, amortized over 10 years)
+Amortization of intangible assets (ca. ¥3.0bn/year, amortized over 24 years)
+(USD in billions) As of Dec-25 As of Mar-26 Change(%)
+CP 29.0 29.7 + 3%
+Capula 34.2 34.3 + 0%
+(1) VTX:Vertex, AMO:Asset Management One, DMRE: Daiichi Life Marubeni Real Estate, CP: Canyon Partners, BO: Benefit One
+(2) Includes Asset Management One USA, &Do Holdings, Japan Excellent Asset Management, Wealth Management 27
+
+=== PDF PAGE 28 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group EV
+Copyright © 2026 Daiichi Life Group, Inc. 28
+
+=== PDF PAGE 29 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group EV（1）
+検証中
+▶ Group EV increased by ca.¥190.0bn to around ¥9.85tn, mainly due to higher domestic equity valuations at DL.
+(1) The figures as of the end of Jun. 2026 (and as of the end of Mar.2026 for PLC) are approximate.
+(2) ANW: Abbreviation of “Adjusted net worth”
+(3) VIF: Abbreviation of “Value of in-force business” Copyright © 2026 Daiichi Life Group, Inc.
+D
+(
+D
+a i i c h
+\ in b illio n s
+a iic h i L if
+A N W e
+V IF e q u
+i L
+)
+e G r
+q u iv a
+iv a le
+i f
+o u
+le
+n t
+e
+p
+n t
+G r o u p
+M
+9
+1
+8
+A
+a
+,6
+,5
+,1
+s
+r
+5
+2
+3
+o f
+- 2 6
+8 .4
+1 .2
+7 .1
+A s o
+c a
+c a
+c a
+f J
+. 9
+. 1
+. 8
+u
+,8
+,3
+,5
+n
+E
+5
+3
+1
+- 2
+s
+0
+0
+0
+6
+t
+.0
+.0
+.0
+.
+c
+c
+c
+a
+a
+a
+C h a
+. + 1
+. ( 1 9
+. + 3
+n
+9
+0
+8
+g e
+0 .0
+.0 )
+0 .0
+Full Year Forecast Financial Result Performance Reference
+<Outstanding in local currency>
+As of As of Jun-26 As of As of Mar-26 As of As of Mar-26
+Change Change Change
+(\ in billions) Mar-26 Est. (\ in billions) Dec-25 Est. Dec-25 Est.
+DL 6,456.7 ca. 6,480.0 ca. + 30.0 PLC 1,332.3 ca. 1,150.0 ca. (190.0) 8,510 ca. 7,200 ca. (1,300)
+ANW equivalent 1,327.8 ca. 1,040.0 ca. (290.0) ANW equivalent 209.4 ca. 10.0 ca. (200.0) 1,338 ca. 100 ca. (1,300)
+VIF equivalent 5,128.9 ca. 5,440.0 ca. + 310.0 VIF equivalent 1,122.8 ca. 1,130.0 ca. + 10.0 7,172 ca. 7,100 ca. (100)
+As of As of Jun-26 As of As of Jun-26 As of As of Jun-26
+Change Change Change
+Mar-26 Est. Mar-26 Est. Mar-26 Est.
+(\ in billions) (\ in billions)
+DFL 1,035.2 ca. 960.0 ca. (70.0) TAL 786.7 ca. 800.0 ca. + 20.0 7,173 ca. 7,200 ca. + 0
+ANW equivalent 229.2 ca. 160.0 ca. (70.0) ANW equivalent 159.4 ca. 150.0 ca. (10.0) 1,454 ca. 1,300 ca. (100)
+VIF equivalent 806.0 ca. 800.0 ca. (0.0) VIF equivalent 627.3 ca. 660.0 ca. + 30.0 5,719 ca. 5,900 ca. + 200
+PLC: US$ in millions, TAL: AU$ in millions
+29
+
+=== PDF PAGE 30 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Reference Data
+Copyright © 2026 Daiichi Life Group, Inc. 30
+
+=== PDF PAGE 31 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life’s Results – 検証中
+Quality of In-force Business, Sales Force & Productivity
+ANP based Surrender & Lapse
+Number of Sales Reps and Productivity
+(Individual Insurance & Annuities)
+Surrender & Lapse Rate
+(ANP based Surrender & Lapse / in-force business ANP at fiscal year start)
+Premiums per policy(1)
+(Indexed Sep-24 as 1.0)
+4% 1.17
+35,000 40%
+3.70% 1.00 1.02
+3.56% 0.82
+3.48%
+3.26%
+0.93%
+0.91%
+3% 0.88%
+32.6% 30%
+0.90% 30.9%
+30,000 28.8%
+Q4
+27.8%
+0.96%
+0.83% 0.87%
+2% 0.81% Share of highly efficient 20%
+sales reps(2)
+Q3
+0.91% 0.85% 0.88% 25,000
+0.73%
+1% Q2 10%
+0.82% 0.90% 0.91% 0.90% 0.88%
+Q1
+0% 20,000 0%
+FY2022 FY2023 FY2024 FY2025 FY2026 Sep-24 Mar-25 Sep-25 Mar-26
+[Reference] Total Life Plan Designers (including Life Professionals) 【Note】
+・
+(1) Calculated by excluding agency channel
+(2) The share of sales representatives with high customer consulting ability who meet prescribed qualification level. Copyright © 2026 Daiichi Life Group, Inc. 31
+
+=== PDF PAGE 32 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life’s Results – General Account Assets 検証中
+[1] Breakdown of Investment Income and Expenses
+Interest and Dividends(1) Gains/Losses on Sale and Valuation of Securities
+FY2025 FY2026 FY2025 FY2026
+(\ in billions) Change （％） (\ in billions) Change （％）
+Q1 Q1 Q1 Q1
+Interest and dividends 177.9 197.6 +19.7 + 11%
+Gains on sale of securities 105.6 346.5 +240.9 + 228%
+Domestic bonds 74.5 82.1 +7.5 + 10%
+Domestic bonds 6.4 0.1 (6.3) (99%)
+Domestic equities 7.1 7.3 +0.2 + 3%
+Domestic equities 70.3 321.3 +251.0 + 357%
+Foreign bonds 20.2 25.6 +5.4 + 27%
+Foreign bonds 8.3 4.9 (3.4) (41%)
+Foreign equities 26.8 25.8 (1.0) (4%)
+Foreign equities 20.7 17.3 (3.4) (17%)
+Other securities 10.5 18.4 +7.9 + 75% Others 0.0 3.0 +3.0 + 34,588%
+Loans 18.7 18.4 (0.3) (2%)
+Losses on sale of securities 73.1 217.8 +144.7 + 198%
+Real estate(3) 17.2 17.2 (0.0) (0%)
+Domestic bonds 49.2 203.7 +154.5 + 314%
+[Reference] Rates of return during FY2025 Domestic equities 7.3 4.8 (2.4) (34%)
+Average Foreign bonds 11.6 0.7 (10.9) (94%)
+(\ in billions) Interest and dividends Yield(2)
+daily balance
+Foreign equities 4.3 1.9 (2.4) (55%)
+General account total 811.7 31,430.2 2.58%
+Others 0.7 6.6 +5.9 + 837%
+Domestic bonds 309.2 18,129.7 1.71%
+Net gains or losses 32.5 128.6 +96.1 + 296%
+Domestic equities 79.4 1,011.0 7.86%
+Foreign bonds 92.3 2,961.4 3.12% Losses on valuation of securities 0.3 0.7 +0.4 + 157%
+Foreign equities 110.3 1,382.8 7.97% Domestic bonds - - - -
+Other securities 67.8 1,373.0 4.94% Domestic equities 0.2 0.2 (0.1) (31%)
+Loans 74.1 3,317.6 2.23% Foreign bonds - - - -
+Real estate(3) 68.8 942.2 7.30% Foreign equities 0.0 0.6 +0.5 + 1,038%
+Others - - - -
+【Note】
+(1) Including gains (losses) from mutual investment funds cancellation ・
+(2) Ratio of interest and dividends to the average daily balance
+(3) Real estate held with investment purpose
+Copyright © 2026 Daiichi Life Group, Inc. 32
+
+=== PDF PAGE 33 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life’s Results – General Account Assets
+[2] Investment Portfolio, Return and Average Assumed Rate of Return
+検証中
+Investment Portfolio （General Account）(1)(2) Investment Yield & Ave. Assumed Rate of Return(3)
+General Account Asset Portfolio (¥ in trillions)
+Investment yield Ave. Assumed rate of return
+33.1 34.7 33.9 33.9 34.6 Yield on fixed-income assets Yield on risk assets
+FY2024 FY2025 FY2026
+5.7% 6.2% 6.1% 7.5% 6.9% Others FY2023 FY2024 FY2025 Q1 Q1 Q1
+3.6% 3.4% 3.6% 3.5% 3.4% Real estate 6.0% 1.3%
+4.5% 4.8% 4.6% 5.59% 1.28%
+5.2% 5.6% Foreign equities
+5.5%
+9.7% 9.8% Domestic equities
+11.6%
+10.1% 10.7% Foreign bonds
+(currency-unhedged) 1.1%
+3.4% 2.3% 5.0% 4.74%
+2.8% 1.9% 2.1% 2.1% Foreign bonds
+5.4% 2.5% 3.1% 1.9% 1.8% （currency-hedged with
+1.3% 2.8% 2.2% 3.5% 3.4% currency forward）
+4.5%
+3.3% 2.5% 2.2% 2.4% 1.00%
+10.1%
+8.2% 9.0% 9.7% 9.3% 3.89% 0.9%
+4.0%
+3.5% 0.81%
+Foreign bonds
+（currency-hedged with 0.7%
+currency swaps, etc.） 0.61%
+3.0%
+Short-term rate
+investments
+2.43%
+0.50%
+Loans 2.5% 2.29% 0.50%
+0.47%
+54.9% 54.4% 56.3% 54.4% 54.3% Yen-denominated 2.04% 0.45% 0.5%
+0.45%
+bonds 2.0% 1.85% 1.81% 1.77%
+Yen Fixed Income 0.43% 0.44%
+0.39%
+1.5% 1.74%
+69.4% 1.62% 0.3%
+1.49%
+1.0%
+【Note】
+Mar-23 Mar-24 Mar-25 Mar-26 Jun-26 0.5% 0.1% ・
+(1) Carrying amount -basis (2) Floating-rate foreign bonds hedged with currency forwards are classified under “Foreign bonds currency-hedged with currency swaps, etc.” (3) The yield for each asset is calculated by dividing the amount of interest and
+dividend income (excluding equity-like dividends), net of hedging costs and other expenses, by the average balance of each asset Copyright © 2026 Daiichi Life Group, Inc. 33
+
+=== PDF PAGE 34 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life’s Results – General Account Assets
+[3] Yen-denominated Bonds
+検証中
+Yen-denominated Bonds (1) JPY and Currency-hedged Foreign Bonds(1)(2) Domestic Government Bonds (3) by Maturity (Jun-26)
+*Figures in brackets are as of March 31, 2026.
+(¥in trillions)
+Government/Municipal bonds Total Currency-hedged foreign bonds
+8.6
+Yen-denominated bonds other than PRMB
+[8.3]
+(¥in trillions)
+Policy-reserve-matching yen bonds (PRMB)
+(¥in trillions)
+8
+20 18.6 19.0 20.1 19.7 20
+20
+1.0 1.0
+1.0
+2.9
+2.8
+2.9 3.1 3.3 6
+15
+15
+4.3
+[4.4]
+4
+10
+10
+15.8 16.1
+16.1 15.5 15.7
+5 2
+5 1.1
+0.9
+[1.2]
+[0.8] 0.5
+0.2 0.2 [0.5]
+[0.1] [0.2]
+0 0 0
+Mar-26 Jun-26
+Mar-25 Mar-26 Jun-26 Up to 1-3 3-5 5-7 7-10 10-20 Over
+1 year years years years years years 20 years
+(1) Book value -basis
+(2) Of the currency-hedged foreign bonds (with currency forward), floating rate bonds are classified as currency-hedged foreign bonds (currency swaps, etc.)
+(3) Carrying amount -basis Copyright © 2026 Daiichi Life Group, Inc. 34
+
+=== PDF PAGE 35 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life’s Results – General Account Assets
+[4] Foreign Currency Bonds
+検証中
+Foreign Currency Bond Portfolio (1)(2) (Jun-26) Breakdown of Currency Hedged Bonds (Carrying amount) (1)(3)
+*Figures in brackets are as of March 31, 2026.
+Government, No Rating Carrying amount share
+municipal bonds BB & Others 8.0% AAA in general account
+Mortgage, etc. 19.1%
+14.9% 0.4% [8.4%] 5.9%
+18.4% [14.8%] [0.4%] [6.0%] AA
+[18.7%]
+16.0%
+[16.5%] （¥in trillions） 16.8%
+BBB
+As of Jun-26 23.7% 7.23
+Foreign bonds [22.8%]
+0.51
+¥2.5tn Unrealized gains
+0.13
+A （losses) 6.28
+46.0% 0.28
+Corporate bonds 0.14
+[45.8%]
+66.6% 0.50
+[66.5%]
+Currency hedging 0.29
+accounting impact
+Foreign Currency Bonds by Currency (1)
+6.7%
+100%
+8.9% 5.6% 7.3% 6.5% 6.4% Book value before
+3.0% 3.0% 3.3% 3.7% 2.7% 3.3% 2.8% Others currency hedging
+7.0%
+80% 20.6% accounting impact 5.3% 5.2%
+22.9% 22.0% 22.1% GBP (Currency swap, etc.) 6.31
+17.9%
+5.35 2.23
+60% 15.3% AUD Book value before 0.20
+19.2% currency hedging 1.80 1.81
+0.40
+EUR accounting impact 0.13 0.11 0.14 0.11
+(Currency forward)
+40%
+64.4% 65.1% 65.3% USD 1.76 1.01 1.00
+55.4%
+45.8%
+20%
+0.55 0.55
+(0.13)
+0% 21M/a3r-末21 2M2a/r3-2末2 ２M３/a3r-2末3 2M4a/r3-2末6 25Ju/n3-末26 【Note】
+Mar-23 Mar-24 Mar-25 Mar-26 Jun-26
+(1) Book value –basis (2) Rating breakdown based on ratings from S&P & Moody’s, excluding mortgage etc.
+(3) Of the currency-hedged foreign bonds (with currency forward), floating rate bonds are classified as currency-hedged foreign bonds (currency swaps, etc.) Copyright © 2026 Daiichi Life Group, Inc. 35
+
+=== PDF PAGE 36 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+Daiichi Life’s Results – General Account Assets
+[5] Risk Assets
+Breakdown of Risk Assets (1) Expansion of Alternative Investments(1)
+*Figures in brackets are as of March 31, 2026. 3.85
+（¥in trillions） 3.75
+Others
+6.8%
+Real Estate [8.3％] 3.09
+2.97
+10.5% 1.64
+1.58
+[10.9％]
+2.56
+End of Equity 1.35 1.03
+38.5%
+Investment trust Jun.2026
+0.13 0.14 投In信ve等stment trust
+14.8% [36.1％] 1.11
+[14.7％] ¥11.1tn 0.08
+0.03 プ P ラ riv イ at ベ e ー De ト b ・ t デット
+[¥10.8tn] 0.84 0.86
+0.72
+0.00
+0.61
+Private Debt イInンfrフasラtru・c不tu動re産 fuフndァン
+1.3% 0.47
+ド等
+[1.2％]
+Infras 7 tr . u 7 c % ture fund(2) Foreign Bond 0.33 0.43 0.48 0.54 0.53 PPErivate Equity
+[7.8％] Hedge Fund 9.6%
+[9.8％] ヘHッedジgフe fァunンdド
+Private Equity 6.1% 0.66 0.67 0.67 0.66 0.68
+[6.2％]
+4.8%
+[5.0％]
+23/3末 24/3末 25/3末 26/3末 26/6末
+Mar-23 Mar-24 Mar-25 Mar-26 Jun-26
+【Note】
+(1) On a balance sheet value basis
+(2) Infrastructure investments, including real estate funds Copyright © 2026 Daiichi Life Group, Inc. 36
+
+=== PDF PAGE 37 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Private Credit Exposure（1）
+▶ Our private credit portfolio is focused primarily on direct lending and private ABS/ABF, and continues to represent a limited share of 0.8% of the Group’s
+total investment assets.
+▶ In our private credit investments, each group company follows a disciplined investment approach based on its respective investment strategy. We
+conduct portfolio management through the appropriate classification, assessment, and ongoing monitoring of investment exposures, taking into account
+characteristics such as liquidity, origination structure, and underlying assets. No material concerns have been identified at this point.
+Private Credit Exposure (as of Mar. 2026)
+Investment Approaches by Group Company
+% of
+Total Investment
+Private Credit
+Assets Direct lending Private ABS/ABF（2） In Total • Direct lending is the primary investment
+(¥in trillions） （¥in billions） （¥in billions） Investment approach
+Group 60.6 300.0 190.0 0.8% • Investments are made through carefully selected
+high-quality managers, with a diversified portfolio
+structure and no use of leverage
+DL 33.9 120.0 - 0.4%
+• Sophisticated credit risk management will be
+conducted utilizing look-through data.
+DFL 10.0 65.0 25.0 0.9%
+• SMA（2） and RSNs（2） are the primary investment
+PLC 13.5 95.0 165.0 1.9% vehicles
+• Investment grade (IG) assets account for the
+majority with a portfolio largely comprising
+DLRB 3.2 20.0 - 0.6%
+investments where ratings are assigned through
+structuring (e.g., securitization and tranche
+structures)
+(1) This slide focuses on direct lending—primarily direct loans to private companies—which represents the core of private creditdiscussed in the market, as well as private ABS/ABF.
+(2) ABS (Asset-Backed Securities), ABF (Asset-Backed Financing), RSN (Rated Structured Note), and SMA (Separately Managed Account)
+Copyright © 2026 Daiichi Life Group, Inc. 37
+
+=== PDF PAGE 38 ===
+図A生I形成コンテンツは誤りを含む可能性があります。
+Copyright © 2026 Daiichi Life Group, Inc.
+(
+S
+R
+G
+\
+e
+e
+e
+in b illio
+c u r i t i e
+D o m e
+o /w P
+o /w O
+F o r e ig
+o /w H
+D o m e
+F o r e ig
+a l e s ta
+n e r a l A
+n s )
+s
+s tic b o n d s
+o lic y R e s e r v e - M
+th e r In v e s tm e n
+n b o n d s
+e d g e d f o r e ig n c u
+s tic e q u itie s
+n e q u itie s
+te
+c c o u n t t o t a l
+a
+t B
+r r
+tc
+o
+e n
+h
+n
+c
+in
+d
+y
+g
+s
+b
+B
+o n
+o
+d
+n
+s
+d s
+(
+(
+3
+3
+(
+,
+,
+2
+(
+A
+M a
+6 7 8
+8 0 2
+7 1 0
+( 9 1
+1 4
+1 2
+, 4 9
+3 6
+6 5
+2 2 2
+s o f
+r - 2 6
+. 5 )
+. 3 )
+. 6 )
+. 7 )
+8 . 2
+7 . 1
+1 . 4
+1 . 8
+5 . 3
+. 0 )
+(
+(
+4
+3
+(
+,
+,
+(
+2
+A s o f
+J u n - 2 6
+5 0 5 . 2 )
+0 4 0 . 6 )
+9 3 3 . 8 )
+1 0 6 . 8 )
+1 5 7 . 9
+1 4 3 . 0
+, 7 6 8 . 3
+4 5 1 . 3
+6 6 2 . 2
+( 2 0 . 9 )
+C
++
+(
+(
++
++
+h a n g e
+1 7 3 .4
+2 3 8 .3 )
+2 2 3 .1 )
+( 1 5 .2 )
++ 9 .7
++ 1 5 .9
+2 7 6 .9
++ 8 9 .5
++ 6 .8
+2 0 1 .0
++
++
++
+（
++
+1
+1
+2
++
+％
+7
+2
+1
+5
+1
+%
+%
+%
+%
+%
+）
+-
+-
+-
+-
+-
+D
+D
+S
+o
+b
+o
+s
+F
+e
+m e s tic
+o n d s
+m e s tic
+to c k s
+o re ig n
+c u ritie s
+[1 0 -y e a
+J
+（ M
+* A v a
+J
+(M
+[N ik k
+J
+(M
+[U S
+J
+(M
+(1 ) S e n s it iv it ie s
+r J G B Y ie ld ] 1 0 b p c h a n
+￥ u n e 2 0 2 6 : ± 1 8 0 b n *
+￥ a rc h 2 0 2 6 : ± 1 9 0 b n )
+ila b le -fo r-s a le s e c u ritie s
+￥ u n e 2 0 2 6 : ± 1 0 b n
+￥ a rc h 2 0 2 6 : ± 1 0 b n )
+￥ e i 2 2 5 ] 1 ,0 0 0 c h a n g e
+￥ u n e 2 0 2 6 : ± 5 0 b n
+￥ a rc h 2 0 2 6 : ± 6 0 b n )
+￥ D / J P Y ] 1 c h a n g e :
+￥ u n e 2 0 2 6 : ± 1 4 b n
+￥ a rc h 2 0 2 6 : ± 1 3 b n )
+g
+:
+:
+e :
+* A
+(2 ) B r e a k - e v e n P o in t s
+[1 0 -y e a r J G B Y ie ld ]
+J u n e 2 0 2 6 : 0 .5 % *
+(M a rc h 2 0 2 6 : 0 .4 % )
+v a ila b le -fo r-s a le s e c u ritie
+J u n e 2 0 2 6 : 1 .7 %
+(M a rc h 2 0 2 6 : 1 .6 % )
+[N ik k e i 2 2 5 ]
+￥ J u n e 2 0 2 6 : 1 7 ,1 0 0
+￥ (M a rc h 2 0 2 6 : 1 3 ,3 0 0 )
+[U S D / J P Y ]
+￥ J u n e 2 0 2 6 : $ 1 = 1 3 7
+￥ (M a rc h 2 0 2 6 : 1 3 4 )
+s :
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+未修正
+Daiichi Life’s Results – General Account Assets
+[6] Unrealized Gains/Losses
+Unrealized Gains/Losses (General Account)
+As of the end of
+Jun. 2026
+【Note】
+(1) Sensitivities indicate the impact of fluctuations in the market value of related assets.
+(2) Breakeven points indicate assumptions when unrealized gains or losses of the related assets would be zero. Figures for foreign securities are calculated for foreign exchange factors only, based on the USD/JPY exchange rate (assuming all are in USD).
+38
+
+=== PDF PAGE 39 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。 未修正
+[Daiichi Frontier Life] Investment Portfolio
+Investment Portfolio (General Account)(1) Book Value / Market Value Information on Securities (Jun-26)
+General Account Asset Portfolio (¥ in trillions)
+8.6 9.8 10.0
+3.8% 5.4% 5.4% Others
+6.2% 3.4% Cash, deposits, 5.9%
+2.3% 3.0% and call loans
+3.0%
+10.4% Other securities
+16.1% 14.1%
+Money held in
+Trust
+Investment Amounts by Product Fund & Foreign Currency Bond
+*Figures in brackets are as of March 31, 2026.
+52.4% 46.5% 45.6% Foreign bonds
+Domestic
+24.8% 25.2% 26.6%
+bonds
+Mar-25 Mar-26 Jun-26
+(1) Carrying amount -basis
+(2) Includes structured bonds backed by government bonds and corporate bonds.
+Copyright © 2026 Daiichi Life Group, Inc.
+(
+P
+S
+\ in b illio n s )
+o lic y -r e s
+e c u r itie s
+D o m e s
+F o r e ig n
+O th e r s
+e r v e m a
+a v a ila b
+tic b o n d s
+s e c u r itie
+e c u ritie s
+tc
+le
+s
+h in
+fo
+g b
+r s a
+o
+le
+n d s 5
+3
+1
+B
+V
+,1
+,3
+4
+,8
+3
+o o k
+a lu e
+1 2 .0
+9 0 .8
+8 7 .9
+3 0 .0
+0 2 .0
+M a rk e t
+V a lu e
+4 ,6 9 6 .9
+3 ,3 2 1 .4
+4 6 0 .8
+1 ,7 9 0 .5
+2 9 9 .4
+G a
+U
+in
+n
+s
+re a liz
+/L o s s
+(4 1 5
+(6 9
+( 2 7
+( 3 9
+( 2
+e d
+e s
+.1 )
+.4 )
+.1 )
+.5 )
+.6 )
+Full Year Forecast Financial Result Performance Reference
+BB & No Rating
+Government Others(2) 4.2% AAA
+Others(2) 13.3% 0.3% [4.2%] 6.8% Others 1.7% [13.1%] [0.3%] [6.9%]
+4.4% [1.7%] State/Munincipal
+AA
+[5.4%] AUD, etc. 1.6%
+23.4%
+[1.7%]
+15.3%
+[23.8%]
+[15.2%]
+BBB
+Supranational
+22.8%
+JPY As of Jun-26 7.9%
+[7.9%] [22.7%]
+40.2%
+Foreign bonds
+[39.1%] USD Corporate
+¥4.1tn
+40.0% 75.5%
+[40.3%] [75.5%]
+A
+42.4%
+[42.2%]
+39
+
+=== PDF PAGE 40 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Reference] Gains and Losses on Market Value Adjustment (MVA)
+▶ For products with MVA option, the J-GAAP liabilities are recognized as the greater of surrender value or the value of policy reserves determined by assumed interest rate.
+When interest rate decreases, the surrender value will be higher than the value of policy reserves, resulting in an accrual of MVA related policy reserves.
+▶ Gains/losses on MVA are offset on an accounting basis over time, therefore excluded from group adjustedprofit calculation.
+Policy Reserves Accrual on MVA Reversal of Policy Reserves Accrued on MVA
+Assuming flat interest rate after booking MVA related
+Interest rate decrease
+policy reserves
+At booking MVA related
+≒ Accrue MVA related reserves
+Actually, the amount of reserves is recalculated according
+reserves
+to the market interest rate
+② Surrender value
+based on interest rate
+movements Reserves
+Interest rate
+balance At
+increase Reversal
+maturity
+impact
+d
+n
+m
+u
+u ① Policy reserves determined by F
+im
+assumed interest rate y
+e t iu
+r
+P n
+e
+n
+A Over the investment period, accrued MVA policy reserves are reversed.
+lg
+(in case of surrender prior to maturity
+n
+iS the gain on sales of corresponding bonds is recorded)
+At Start of
+pension
+contract start Investment period
+payment
+J-GAAP liabilities at the end of each period are based on the higher of ①or ②.
+Accounting loss
+When interest rate decline and ②＞①, additional policy reserves are accrued.
+at time of booking reserves
+Copyright © 2026 Daiichi Life Group, Inc. 40
+
+=== PDF PAGE 41 ===
+23 0 0 78
+102
+70 0 145 218
+102
+255 100 255 255
+162
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Overseas] Adjusted Profit, PLC and TAL Sales Performance etc.
+Overseas Insurance Business Adj. Profit PLC Sales Performance etc.
++1%
++4％ 33.4 33.8
+0.5 4.0
+3.0 0.5 0.6
+62.2 64.5
+8.6
+12.7
+20.7
+16.8
+-0.5
+FY2025 FY2026
+Q1 Q1 TAL Sales Performance
+PLC DLVN
+Other overseas TAL Other overseas
+PNZ
+(1) Fiscal year ends on December 31, for PLC, DLVN, DLKH, DLMM, PDL
+(2) Figures include the performance of Thailand-based Ocean Life (capital relationship terminated in FY2025), in addition to the results
+of the four other subsidiaries and affiliates (DLKH, DLMM, SUD, and PDL).
+(3) Bank Owned Life Insurance (BOLI)/Company Owned Life Insurance (COLI) are policies that are purchased by banks or companies
+to insure the lives of executives and employees as a corporate benefit.
+(4) Change in in-force due to renewal of insurance contract, premium adjustment, and TLIS integration etc.
+Copyright © 2026 Daiichi Life Group, Inc. 41
+(
+P
+T
+P
+D
+O
+O
+￥
+L
+A
+N
+L
+t
+v
+in
+(1 C
+L
+Z
+V N
+h e r
+e r s
+b illio
+)
+(1 )
+e a s
+n s
+(2 )
+) F Y 2
+2
+3
+0 2
+Q
+0 .
+8 .
+0 .
+3 .
+0 .
+3 .
+5
+1
+7
+6
+5
+0
+5
+4
+F Y 2
+1
+1
+( 0
+3
+0 2
+Q
+6 .
+2 .
+0 .
+4 .
+. 3
+3 .
+6
+1
+8
+7
+6
+0
+)
+8
+C h
+(
++
++
++
+a n g
+( %
+1 9 %
+4 8 %
+1 8 %
+3 3 %
+－
++ 1 %
+e
+)
+)
+(U S D in m illio n s )
+R e t a il L if e & A n n u it y
+T ra d itio n a l life
+U n iv e rs a l life
+(3 ) B O L I/C O L I
+F ix e d a n n u ity
+V a ria b le a n n u ity
+A s s e t P r o t e c t io n
+E m p lo y e e B e n e f it s
+S ta b le V a lu e (F Y B e g in n in g A
+D e p o s its
+M a tu ritie s /P a y d o w n s
+O th e r, n e t
+E n d in g A c c o u n t V a lu e
+c c o u
+s ( Q
+n t V
+1 )
+a lu e s )
+F Y 2 0 2 5
+Q 1
+1 ,2 9 3
+5 7
+2 4
+2 7 3
+6 2 2
+3 1 7
+2 1 3
+2 6
+1 3 ,1 5 0
+1 ,6 7 0
+(1 ,6 3 3 )
+1 6 8
+1 3 ,3 5 4
+F Y 2 0 2 6
+Q 1
+1 ,8 5 6
+4 4
+1 7
+1 4 6
+1 ,2 9 8
+3 5 0
+2 4 0
+3 1
+1 3 ,7 8 7
+6 0 2
+(1 ,4 5 6 )
+1 1 1
+1 3 ,0 4 5
+C h a n
+Y o Y
+＋ 5 6 3
+(1 2 )
+(7 )
+(1 2 8 )
+＋ 6 7 6
+＋ 3 4
+＋ 2 7
+＋ 5
+＋ 6 3 8
+(1 ,0 6 8 )
+1 7 8
+(5 7 )
+(3 0 9 )
+g e
+＋
+＋
+＋
+＋
+＋
+（ ％
+4 4 %
+(2 2 %
+(2 8 %
+(4 7 %
+1 0 9 %
+1 1 %
+1 3 %
+1 9 %
+＋ 5 %
+(2 %
+）
+)
+)
+)
+)
+FY2025 FY2026 Change
+(AUD in millions) Q1 Q1 YoY （％）
+New Business ANP 47 73 + 26 + 57%
+(TAL) Individual 23 26 + 2 + 9%
+Group 23 48 + 24 + 105%
+Change in in-force(4) 120 200 + 80 + 67%
+(TAL) Individual 95 101 + 7 + 7%
+Group 25 99 + 74 + 296%
+
+=== PDF PAGE 42 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[PLC] Investment Portfolio
+検証中
+Investment Portfolio (General Account)(1)(2) Commercial Mortgage Loans(2)
+Total Investments (USD in billions)
+(USD in millions) Dec. 2025 Mar. 2026 Change
+Mortgage Loans (Gross) 12,840 12,920 ＋80
+77.3 74.8 71.7
+o/w Non-performing 31 60 ＋29
+6.1% 6.4% Others 4.8% Allowance for credit losses 84 84 (0)
+2.1% Short-Term Investments 4.2% (% of Mortgage loans) 0.7% 0.7% (0.0%pt)
+0.7% 5.4% Equity Securities 0.8%
+0.7%
+Commercial
+16.2%
+Mortgage Loans Fixed Income Allocation and Credit Quality (As of Mar. 2026)(2)
+16.2%
+16.8%
+*Figures in brackets are as of Dec. 2025
+Others
+US Gov., etc. 0.3% BB or below
+4.3% [0.3%] 3.9%
+[4.6%] [4.2%] AAA & AA
+30.1%
+[28.6%]
+Fixed Income RMBS/CMBS, etc.
+BBB
+74.8% 73.4% 32.9%
+71.4%
+37.5%
+[30.5%]
+(As of Mar. 2026)
+[39.5%]
+Fixed income assets
+$52.6bn
+Corporate
+62.5% A
+[64.5%] 28.5%
+Dec. 2024 Dec. 2025 Mar. 2026
+[27.7%]
+(1) Carrying amount –basis (2) Figures as of Dec. 2025 and Mar. 2026 exclude assets associated with Modcoand Co FWH (Funds Withheld). CCooppyyrriigghhtt ©© 22002266 DDaaiiiicchhii LLiiffee GGrroouupp,, IInncc.. 42
+
+=== PDF PAGE 43 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Reconciliation of Group Adjusted Profit
+検証中
+FY2025 FY2026
+Change （％）
+(\ in billions) Q1 Q1
+Net income (losses) （１） 34.2 160.1 + 125.8 + 368%
+Provision for contingency reserve
+- - -
+(in excess of statutory amount, net of tax)
+Provision for price fluctuation reserve
+- - -
+(in excess of statutory amount, net of tax)
+Gains or losses on accounting
+(8.5) (11.1) (2.7)
+for market value adjustment, net of tax
+Amortization of goodwill 9.1 13.1 + 4.0
+Valuation-based gains/losses
+（2） 16.4 (10.5) (27.0)
+that deviate from economic reality, etc. (PLC)
+Interest rate impact on A&L, etc. (TAL) (0.8) 0.0 + 0.8
+Interest rate impact on A&L (PNZ) 0.1 0.1 + 0.0
+Adjustments to asset and liability valuations (DLRB) 25.0 10.3 (14.8)
+Others (1.5) (3.8) (2.3)
+Group Adjusted Profit 74.2 158.1 + 84.0 + 113%
+(1) Results for FY2025 have been recast on an LDTI basis.
+(2) Including the difference between the already-disclosed adjusted profit, which excludes the impact of LDTI, and net income after the application of LDTI. Copyright © 2026 Daiichi Life Group, Inc. 43
+
+=== PDF PAGE 44 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Reference] Partial Amendment of Adj. Profit Calculation
+▶ PLC, TAL, and PNZ will exclude the valuation gains/losses under the accounting purposes, which will align the original purpose of adjusted
+profit and will improve a stability of profit and predictability of shareholder payouts.
+▶ For the adjusted profit of 3 years which are the basis of dividend calculation, it is not restated for the FY2023 and before.
+Case for Protective Case for TAL and Partners Life
+Image for the gains/losses related to Fluctuation of assets and liabilities
+CECL
+the investment and hedging activity due to the interest rate movement, etc.
+Market Value Portion which the
+Provision
+fluctuation of market Investment
+/Reversal of
+Face value is recognized Assets,
+General
+amounts in net income Allowance Exclude from Reinsurance Insurance
+(Allowance adj. profit Assets Liability
+Exclude from based on the
+economic
+Investment adj. profit outlook)
+Maturity
+Market Value
+Provision Net income fluctuate due to the fluctuation of
+Face Portion applicable to /Reversal of assets and liabilities caused by;
+Individual
+amounts the impairment Include in ◼ The shape of the future CF of investment
+Allowance
+or losses on sales assets and insurance liability
+adj. profit
+(Allowance for
+◼ Difference of the accounting treatment
+individual
+Include in between the original contract and reinsurance
+securities
+Investment
+Maturity adj. profit and loans） contract (PAA(1) and GMM (2))
+Exclude from
+Items in which the portion of market value fluctuation is to be excluded from adj. profit
+adj. profit
+Unrealized gains/losses of preferred stock, Modco-related gains/losses, ICOLI gains/losses,
+gains/losses related to the minimum guarantee (both hedged item and hedging instruments), and the fluctuation of DAC amortization related to them.
+Copyright © 2026 Daiichi Life Group, Inc. 44
+(1) Premium Allocation Approach (2) General Measurement Model
+
+=== PDF PAGE 45 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+[Reference] FY2026 Forecast for the Full-Year Adjusted Profit (by Major Subsidiary)
+FY2025 FY2026
+（¥in billions） Change Key Factors
+Actual Forecast
+[＋] Positive spread +32.0（o/w Income & dividend +18.0, Assumed interest +16.0）, Hedging cost+7.0
+DL 377.9 371.0 (7.0) [－] Gains from core insurance activities (37.0) （o/w Investment for business model transformation (8.0）),
+Capital gains +10.0 （o/w Gains from sales of securities＋110.0, Losses from derivatives (30.0), FX Losses (50.0)）
+DFL 43.0 38.5 (4.5) [－] Absence of one-off gains from target triggered-surrenders in FY2025 (8.0)
+DNL・DIPT (4.5) (4.5) - -
+[+] Increased investment yield and decreased operating expenses +15.0
+PLC 79.3 84.5 + 5.0
+[－] Effect from LDTI Adoption (6.5)
+Oceania 38.7 64.0 + 25.0 [+] （TAL）Absence of the impact from higher claim payments in FY2025 and changes in assumptions +25.0
+Asia / Other overseas 1.2 15.5 + 14.0 [+] （DLVN）Absence of upfront fee impairment recorded in FY2025 +8.0
+Asset Management 19.0 22.5 + 3.5 [+] (Real Estate Asset Management) +1.0
+BO 3.1 3.0 (0) [－] Absence of one-off gain in FY2025 and a temporary rise in expenses aimed at improving operational efficiency (0.5)
+DLRB 19.2 16.5 (3.0) [－] A partial reversal of profits due to changes in the economic environment (U.S. corporate bond spreads).
+HD/Others (25.4) (45.0) (20.0) [－] Increase in operating expenses and personnel costs (−15.0), and higher interest expenses (−5.0)
+Total 551.5 ca. 560.0 ca.+10.0
+Copyright © 2026 Daiichi Life Group, Inc. 45 45
+
+=== PDF PAGE 46 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Adjusted ROE Definition and Past Results
+Adjusted ROE ＝ [Numerator] Adjusted profit ÷ [Denominator] Adjusted net assets (Average of year beginnning and ending value)
+完成
+Adjusted net assets ＝ Net assets - Goodwill - Unrealized gains/losses on fixed-income assets*
++ MVA balance at Daiichi Frontier Life(net of tax)
+* DL,DFL,DNL,PLC,PNZ: Amount recognized in accumulated other comprehensive income within unrealized gains/losses on fixed-income assets, net of tax(1)
+Definition of Group Adjusted Profit
+Adjusted ROE historical data
+Adjusted profit of
+FY2021 FY2022 (2) FY2023 FY2024 FY2025
+subsidiaries
+(JPY in billions / %)
+Group Adjusted ROE 8.0% 4.9% 8.2% 10.7% 12.7%
+Numerator (Adjusted Profit) 296.1 170.6 319.4 439.5 551.5 Group
+Denominator (Average Adjusted net assets) 3,714.6 3,451.8 3,887.1 4,116.9 4,356.8 Adjusted profit of
+Adjusted
+Denominator (FY end Adjusted net assets) 3,744.5 3,357.2 4,417.0 3,884.4 4,753.7 affiliates
+Profit
+[Calculation of denominator]
+Net assets 4,407.8 2,661.3 3,881.9 3,469.4 4,254.0
+(－)Goodwill 56.2 117.2 115.2 328.4 441.7 Holding company profit
+(－)Unrealized gains / losses on fixed-income assets 628.7 (812.3) (648.9) (742.6) (940.9) and loss, etc.
+(＋)[DFL] MVA balance 21.6 0.9 1.4 0.8 0.6
+Net assets for Adjusted ROE 3,744.5 3,357.2 4,417.0 3,884.4 4,753.7 [Adjustment 1] Provision for contingency and price fluctuation reserves, etc.
+o/w Shareholders’ equity 1,996.3 1,753.8 1,872.1 2,014.6 2,270.2 (in excess of statutory requirement, net of tax)
+In addition, if there are similar provisions at overseas subsidiaries and affiliates,
+adjustments will be made case-by-case basis.
+Daiichi Life Adjusted ROE 8.2% 7.3% 8.2% 11.3% 14.4%
+Numerator (Adjusted Profit) 199.8 165.6 203.9 287.1 377.9 [Adjustment 2] MVA related gains (losses), net of tax, etc.
+Denominator (Average Adjusted net assets) 2,450.6 2,264.2 2,497.2 2,547.8 2,624.4
+Adjusted for technical accounting valuation gains and losses
+Denominator (FY end Adjusted net assets) 2,396.8 2,131.5 2,862.8 2,300.3 2,822.5
+[Adjustment 3]
+[Calculation of denominator] Amortization of goodwill, gains/losses on acquisition phase,
+Net assets 2,757.0 2,100.0 2,898.0 2,346.8 2,658.4 gains/losses on change in shareholding, etc.
+(－)Unrealized gains / losses on fixed-income assets 360.2 (31.5) 35.2 46.5 (164.1)
+Adjusted for gains/losses on organizational restructuring and amortization of goodwill,
+Net assets for Adjusted ROE 2,396.8 2,131.5 2,862.8 2,300.3 2,822.5
+etc. in the consolidation procedures of each company.
+o/w Shareholders' equity 631.6 583.7 552.6 581.2 652.7
+(1) It mainly defines unrealized gains/losses on yen-denominated bonds, purchased monetary claims, hedged foreign currency-denominated bonds, and investment trusts whose main investment targets are fixed-income assets.
+(2) As TAL and PNZ have adopted IFRS 17, the figures for TAL and PNZ in FY2022 are restated on IFRS 17 basis and it resulted in restating Group Adjusted ROE and related figures. Copyright © 2026 Daiichi Life Group, Inc. 46
+
+=== PDF PAGE 47 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Shareholder Payout Policy
+過去3
+Shareholder Payout Policy
+Elimination of the total payout ratio target
+Considerations for additional payout
+完成
+[Dividend payout ratio] 50%+ each FY In line with the increase in the dividend payout ratio target (to
+Stable dividend Effective from the FY2026 interim dividend ESR Level at least 50% each fiscal year), the total payout ratio target 更新不要
+based on profit • Average group adjusted profit for past 3 years Status of market risk and sensitivity (guideline: 50% or higher on average over the medium term)
+• Basically no reduction of dividend per share. reduction has been discontinued.
+Cash position of the holding
+company (円/株)
+72
+• Flexible and timely decision-making based Group Financial Leverage
+Flexible additional
+on HD cash, investment pipelines, ESR
+約
+shareholder returns Existence of strategic
+and share price.
+investment opportunities 54.5
+Our stock price, etc.
+[Policy on cancellation of treasury stock] (3)
+The treasury stock is expected to be cancelled at an appropriate timing unless it is held for any specific reason. 34.25
+28.25
+Shareholder Payouts Dynamics
+15.5
+14.5 15.5 20.75 21.5
+Share buybacks 12.50
+10.75
+8.75
+7.00
+Total Dividend 4.00 4.00 4.00 5.00
+200.0 100.0
+DPS(￥) 100.0
+120.0 120.0
+260.6 （208）
+198.1
+(¥in billions) 33.5 23.0 39.0 28.0 30.0 126.7 (113) (137)
+16.0 16.0 16.0 20.0 15.0 1 4 6 1 . . 0 7 50.7 58.5 66.7 70.3 69.1 85.4 84.8 107.2 (35)(43)(50) (58)(62)(62) (83)(86)
+(16) (16) (16) (20)(28)
+FY2010FY2011FY2012FY2013FY2014FY2015FY2016FY2017FY2018FY2019FY2020FY2021FY2022FY2023FY2024FY2025FY2026
+Adjusted profit - - 100.1 116.0 214.8 204.6 210.1 243.3 236.3 274.6 282.8 296.1 184.5 319.3 439.5 551.5 560.0
+Adjusted profit (Average 3years) 436.8 517.0
+【Note】
+(1) Although TAL and PNZ have adopted IFRS17 from FY2023 Q1, retroactive application of prior years‘ figures are not applied inthe calculation of the three-year average of the Group adj. profit, which is the basis for dividend calculations. Group adj. profit
+figures are rounded down through FY2023 and rounded to the nearest unit from FY2024 onward. (2) Figures represent dividends after the stock split (1:4). For FY2024 and earlier, figures have been adjusted to reflect the stocksplit. Figures in parentheses
+represent dividends before the stock split (actual figures for FY2024 and earlier, and the converted amount for FY2025). Copyright © 2026 Daiichi Life Group, Inc. 47
+192
+133
+113
+83 86
+16 16 16 20 28 35 43 50 58 62 62
+
+=== PDF PAGE 48 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group – Summary of Consolidated Financial Statements
+検証中
+Statement of Earnings Balance Sheet
+FY2025 FY2026
+Change
+(\ in billions) Q1 Q1
+Ordinary revenues 2,308.3 2,893.0 +584.7
+Premium and other income 1,587.5 1,760.8 +173.3
+Investment income 595.1 1,001.4 +406.3
+Interest and dividends 373.5 421.6 +48.1
+Gains on sale of securities 105.8 359.7 +253.9
+Derivative transaction gains 18.7 14.5 (4.3)
+Foreign exchange gains - 69.6 +69.6
+Gains on investments in separate accounts 24.9 99.5 +74.6
+Other ordinary revenues 125.7 130.9 +5.1
+Ordinary expenses 2,223.4 2,641.9 +418.6
+Benefits and claims 1,397.9 1,815.5 +417.6
+Provision for policy reserves and others 241.1 110.6 (130.5)
+Investment expenses 252.2 341.4 +89.2
+Losses on sale of securities 74.3 241.8 +167.5
+Losses on valuation of securities 1.7 2.4 +0.8
+Foreign exchange losses 127.3 - (127.3)
+Operating expenses 241.5 274.7 +33.3
+Ordinary profit（loss） 84.9 251.1 +166.1
+Extraordinary gains 1.0 2.0 +1.0
+Extraordinary losses 5.9 6.2 +0.3
+Provision for reserve for policyholder dividends 23.0 26.2 +3.2
+Income before income taxes, etc.（losses) 57.0 220.7 +163.7
+Gains(losses) on investments in separate accounts, foreign exchange gains(losses) and derivative
+Total of corporate income taxes 22.8 60.6 +37.8 transaction gains(losses) include items that are offset by provision for (reversal of) policy reserves and
+unrealized gains (losses) on investments.
+Net income attributable to non-controlling interests - - -
+Upon PLC’s adoption of LDTI (Long-Duration Targeted Improvements), prior comparative period figure
+Net income attributable to shareholders of parent company（loss) 34.2 160.1 +125.8 of PLC (FY2025 Q1) is restated on LDTI basis.
+Effective FY2026, DL’s prior-period figures have been reclassified following a change in DL’s presentation of income
+and expenses related to limited partnerships, with no impact on net income.
+Copyright © 2026 Daiichi Life Group, Inc. 48
+(
+T
+T
+T
+\
+o
+o
+o
+in b illio n s )
+t a l a s s e t s
+C a s h , d e p o s its a n d c a ll lo a n s
+M o n e ta r y c la im s b o u g h t
+S e c u r itie s
+L o a n s
+T a n g ib le fix e d a s s e ts
+D e fe r r e d ta x a s s e ts
+t a l lia b ilit ie s
+P o lic y r e s e r v e s a n d o th e r s
+P o lic y r e s e r v e s
+S h o r t- te r m b o n d s p a y a b le
+B o n d s p a y a b le
+O th e r lia b ilitie s
+N e t d e fin e d b e n e fit lia b ilitie s
+R e s e r v e fo r p r ic e flu c tu a tio n s
+D e fe r r e d ta x lia b ilitie s
+t a l n e t a s s e t s
+T o ta l s h a r e h o ld e r s ' e q u ity
+T o ta l a c c u m u la te d o th e r c o m p r e
+N e t u n re a liz e d g a in s (lo s s e s ) o n s
+R e s e r v e fo r la n d r e v a lu a tio n
+h
+e
+e
+c
+n s iv
+u ritie
+e
+s
+in c o
+, n e t o
+m e
+f ta x
+7
+6
+A s o f
+M a r - 2 6
+4 ,1 5 9 .1
+2 ,5 6 5 .7
+1 8 6 .0
+5 5 ,5 7 6 .3
+4 ,9 9 7 .1
+1 ,2 3 9 .3
+1 2 5 .2
+9 ,9 0 4 .9
+6 1 ,2 5 5 .1
+5 9 ,1 9 2 .7
+7 .8
+1 ,3 3 7 .3
+5 ,1 0 9 .0
+1 9 .4
+3 5 7 .5
+2 3 3 .4
+4 ,2 5 4 .2
+2 ,2 7 0 .2
+1 ,9 8 3 .8
+1 ,3 7 2 .7
+5 4 .1
+7
+7
+A s o f
+J u n - 2 6
+6 ,3 2 2 .7
+2 ,2 0 4 .5
+1 8 1 .4
+5 7 ,3 3 3 .0
+4 ,9 9 9 .6
+1 ,2 3 0 .9
+1 4 4 .2
+1 ,7 4 9 .7
+6 1 ,9 7 2 .0
+5 9 ,8 8 2 .4
+3 1 .9
+1 ,3 4 6 .7
+6 ,0 7 1 .6
+2 1 .4
+3 6 1 .4
+3 4 1 .4
+4 ,5 7 3 .1
+2 ,3 2 2 .2
+2 ,2 5 0 .7
+1 ,5 7 6 .0
+5 3 .4
+C h a n g e
++ 2 ,1 6 3 .6
+( 3 6 1 .1 )
+( 4 .6 )
++ 1 ,7 5 6 .7
++ 2 .4
+( 8 .4 )
++ 1 9 .0
++ 1 ,8 4 4 .8
++ 7 1 6 .9
++ 6 8 9 .6
++ 2 4 .1
++ 9 .4
++ 9 6 2 .6
++ 2 .0
++ 3 .9
++ 1 0 7 .9
++ 3 1 8 .8
++ 5 2 .0
++ 2 6 6 .9
++ 2 0 3 .3
+( 0 .8 )
+
+=== PDF PAGE 49 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Life – Summary Financial Statements
+検証中
+Statement of Earnings Balance Sheet
+FY2025 FY2026 As of As of
+Change Change
+(￥ in billions) Q1 Q1 (￥ in billions) Mar-26 Jun-26
+Ordinary revenues 1,016.5 1,494.9 +478.4 Total assets 35,185.3 35,952.4 +767.1
+Premium and other income 556.9 624.9 +68.0 Cash, deposits and call loans 768.4 835.2 +66.8
+Investment income 312.1 651.5 +339.4 Monetary claims bought 174.1 170.0 (4.1)
+Interest and dividends 176.3 197.6 +21.3 Securities 28,912.5 29,867.1 +954.6
+Gains on sale of securities 105.6 346.5 +240.9 Loans 3,273.6 3,214.9 (58.7)
+Foreign exchange gains - 3.2 +3.2 Tangible fixed assets 1,186.8 1,178.2 (8.7)
+Gains on investments in separate accounts 25.6 94.5 +68.9 Total liabilities 32,527.9 33,226.4 +698.5
+Other ordinary revenues 147.6 218.5 +70.9 Policy reserves and others 28,454.9 28,265.2 (189.7)
+Ordinary expenses 938.0 1,297.9 +359.9 Policy reserves 27,844.7 27,692.0 (152.7)
+Benefits and claims 642.8 836.3 +193.6 Contingency reserve 552.9 552.9 -
+Provision for policy reserves and others 2.2 2.2 +0.0 Bonds payable 576.8 576.8 -
+Investment expenses 132.0 286.5 +154.5 Other liabilities 2,673.2 3,459.9 +786.7
+Losses on sale of securities 73.1 217.8 +144.7 Reserve for employees' retirement benefits 284.6 272.5 (12.1)
+Losses on valuation of securities 0.3 0.7 +0.4 Reserve for price fluctuations 300.5 303.5 +3.0
+Derivative transaction losses 15.6 26.0 +10.4 Deferred tax liabilities 166.2 277.3 +111.1
+Foreign exchange losses 8.4 - (8.4) Total net assets 2,657.4 2,726.0 +68.6
+Operating expenses 101.1 106.7 +5.6 Total shareholders' equity 651.7 443.7 (208.0)
+Other ordinary expenses 59.9 66.1 +6.2 Total of valuation and translation adjustments 2,005.8 2,282.3 +276.6
+Depreciation expenses 10.5 10.7 +0.1
+Net unrealized gains(losses) on securities net of tax 2,157.1 2,438.9 +281.7
+Ordinary profit (loss) 78.6 197.0 +118.4
+Reserve for land revaluation 54.0 53.3 (0.8)
+Extraordinary gains 0.8 2.0 +1.2
+Extraordinary losses 4.3 5.3 +1.0
+Gains(losses) on investments in separate accounts, foreign exchange gains(losses) and derivative
+Provision for reserve for policyholder dividends 23.0 26.2 +3.2
+transaction gains(losses) include items that are offset by provision for (reversal of) policy reserves and
+Income before income taxes, etc. (losses) 52.1 167.5 +115.4 unrealized gains (losses) on investments.
+Total of corporate income taxes 13.8 48.4 +34.6
+Effective FY2026, prior-period figures have been reclassified following a change in the presentation of
+Net income (loss) 38.3 119.1 +80.9 income and expenses related to limited partnerships, with no impact on net income.
+Copyright © 2026 Daiichi Life Group, Inc. 49
+
+=== PDF PAGE 50 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Daiichi Frontier Life – Summary Financial Statements
+作成中
+Statement of Earnings Balance Sheet
+Gains(losses) on investments in separate accounts, foreign exchange gains(losses) and derivative
+transaction gains(losses) include items that are offset by provision for (reversal of) policy reserves and
+unrealized gains (losses) on investments.
+Copyright © 2026 Daiichi Life Group, Inc. 50
+(
+O
+O
+O
+E
+E
+T
+N
+￥ ） in b illio n s
+r d in a r y r e v e n u e s
+P r e m iu m a n d o th e r in c o m e
+In v e s tm e n t in c o m e
+F o r e ig n e x c h a n g e g a in s
+O th e r o r d in a r y r e v e n u e s
+r d in a r y e x p e n s e s
+B e n e fits a n d c la im s
+P ro v is io n fo r p o lic y re s e rv e s a n d o
+C o n tin g e n c y r e s e r v e
+In v e s tm e n t e x p e n s e s
+F o r e ig n e x c h a n g e lo s s e s
+O p e r a tin g e x p e n s e s
+O th e r o r d in a r y e x p e n c e s
+r d in a r y p r o f it ( lo s s )
+x tr a o r d in a r y g a in s
+x tr a o r d in a r y lo s s e s
+o ta l o f c o r p o r a te in c o m e ta
+e t in c o m e ( lo s s )
+th e
+x e
+rs
+s
+(n e g a tiv e in d ic a te s a re v e rs a l)
+F Y
+6
+6
+6
+5
+1
+2 0 2 5
+Q 1
+9 7 .2
+1 8 .3
+7 2 .6
+-
+6 .4
+7 6 .8
+3 0 .2
+1 .9
+2 .0
+2 2 .0
+1 1 8 .6
+1 8 .3
+4 .4
+2 0 .4
+-
+1 .5
+5 .6
+1 3 .3
+F Y
+8
+6
+1
+8
+6
+1
+2 0 2 6
+Q 1
+3 4 .5
+6 5 .8
+6 6 .0
+6 7 .2
+2 .6
+0 2 .8
+4 6 .3
+2 5 .0
+4 .5
+5 .3
+-
+2 1 .4
+4 .9
+3 1 .6
+-
+0 .9
+9 .1
+2 1 .7
+C
++
++
+h a n g e
+1 3 7 .2
++ 4 7 .6
++ 9 3 .4
++ 6 7 .2
+( 3 .8 )
+1 2 6 .0
++ 1 1 6 .1
++ 1 2 3 .0
++ 2 .5
+( 1 1 6 .7 )
+( 1 1 8 .6 )
++ 3 .1
++ 0 .4
++ 1 1 .3
+-
+( 0 .6 )
++ 3 .5
++ 8 .4
+(
+T
+T
+T
+￥
+o
+o
+o
+） in b illio n s
+t a l a s s e t s
+C a s h , d e p o s its a n d c a ll lo a n s
+S e c u r itie s
+t a l lia b ilit ie s
+P o lic y r e s e r v e s a n d o th e r s
+P o lic y r e s e r v e s
+( M V A b a la n c e )
+C o n tin g e n c y r e s e r v e
+t a l n e t a s s e t s
+T o ta l s h a r e h o ld e r s ' e q u ity
+C a p ita l s to c k
+C a p ita l s u r p lu s
+R e ta in e d e a r n in g s
+N e t u n r e a liz e d g a in s o n s e c u r itie s , n e t o f ta x
+A s o f
+M a r - 2 6
+9 ,9 5 1 .5
+5 7 8 .4
+7 ,5 5 3 .5
+9 ,7 0 0 .7
+8 ,8 6 8 .1
+8 ,8 2 2 .3
+0 .8
+1 2 7 .6
+2 5 0 .8
+3 0 8 .8
+5 0 .0
+1 3 5 .0
+1 2 3 .8
+( 5 8 .0 )
+1
+A s o f
+J u n - 2 6
+0 ,1 6 7 .9
+3 4 2 .0
+7 ,7 8 7 .8
+9 ,9 8 1 .4
+8 ,9 9 0 .5
+8 ,9 4 7 .3
+0 .0
+1 3 2 .1
+1 8 6 .5
+2 3 7 .5
+5 0 .0
+5 0 .0
+1 3 7 .5
+( 5 1 .0 )
+C h a n g e
++ 2 1 6 .4
+( 2 3 6 .4 )
++ 2 3 4 .3
++ 2 8 0 .8
++ 1 2 2 .4
++ 1 2 5 .0
+( 0 .8 )
++ 4 .5
+( 6 4 .3 )
+( 7 1 .3 )
+-
+( 8 5 .0 )
++ 1 3 .7
++ 7 .0
+
+=== PDF PAGE 51 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Protective – Summary Financial Statements(1)
+検証中
+Statement of Earnings Balance Sheet
+（2）
+FY2025 FY2026
+As of As of
+Change
+Change
+Q1 Q1
+(USD in millions) (USD in millions) Dec-25 Mar-26
+Ordinary revenues 2,569 3,258 +690 Total assets 141,503 142,160 +657
+Cash and deposits 1,507 1,536 +29
+Premium and other income 1,422 1,431 +9
+Securities 87,709 84,611 (3,098)
+Investment income 1,010 1,280 +270
+Loans 14,251 14,331 +80
+Other ordinary revenues 137 547 +410
+Tangible fixed assets 193 193 (1)
+Ordinary expenses 2,540 3,048 +508
+Intangible fixed assets 3,503 4,871 +1,368
+Benefits and claims 1,406 1,994 +588
+Goodwill 1,213 2,051 +838
+Provision for policy reserves and others 431 - (431)
+Other intangible fixed assets 2,229 2,763 +533
+Investment expenses 243 561 +318
+Reinsurance receivable 12,873 12,503 (371)
+Operating expenses 346 381 +35 Total liabilities 136,091 137,318 +1,228
+Other ordinary expenses 115 113 (3) Policy reserves and others 118,273 119,648 +1,375
+Ordinary profit (loss) 28 210 +182 Reinsurance payables 8,535 8,610 +75
+Extraordinary gains - - - Short-term bonds payable 50 200 +150
+Bonds payable 2,822 2,821 (1)
+Extraordinary losses 0 0 (0)
+Other liabilities 6,361 5,990 (371)
+Total of corporate income taxes (1) 39 +40
+Total net assets 5,412 4,842 (570)
+Net income (loss) 29 171 +142
+Total shareholders' equity 8,635 8,553 (83)
+Total accumulated other comprehensive income (3,223) (3,711) (488)
+(1) Disclosed after re-classifying items from PLC’s financial statements under U.S. accounting standards to conform to Daiichi Life Group’s disclosure standards.
+(2) Upon LDTI（Long-Duration Targeted Improvements ）adoption, prior comparative period figures are also restated on LDTI basis.
+Copyright © 2026 Daiichi Life Group, Inc. 51
+
+=== PDF PAGE 52 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+TAL – Summary Financial Statements(1)
+検証中
+Statement of Earnings Balance Sheet
+FY2025 FY2026
+Change
+Q1 Q1
+(AUD in millions)
+Ordinary revenues 2,186 2,378 +192
+Premium and other income 1,956 2,105 +149
+Premium income 1,565 1,741 +176
+Reinsurance income 392 364 (27)
+Investment income 224 242 +18
+Other ordinary revenues 5 30 +25
+Ordinary expenses 2,031 2,220 +189
+Benefits and claims 1,532 1,693 +161
+Claims 1,189 1,348 +159
+Ceding reinsurance commissions 343 344 +2
+Provision for policy reserves and others 142 160 +18
+Investment expenses 13 13 (0)
+Operating expenses 340 353 +13
+Other ordinary expenses 4 2 (2)
+Ordinary profit (loss) 155 158 +3
+Extraordinary gains (losses) - - -
+Total of corporate income taxes 55 44 (11)
+Net income (loss) 100 114 +14
+Underlying profit 92 123 +31
+(1) Figures for TAL (excluding underlying profit) are disclosed after re-classifying items from TAL’s financial statements under
+Australian accounting standards to conform to Daiichi Life Group’s disclosure standards.
+Copyright © 2026 Daiichi Life Group, Inc. 52
+(
+T
+T
+T
+A U
+o
+o
+o
+D
+t a
+C
+S
+T
+I n
+O
+D
+t a
+P
+O
+t a
+T
+in m illio n s )
+l a s s e t s
+a s h a n d d e p o s it s
+e c u r it ie s
+a n g ib le f ix e d a s s e t s
+t a n g ib le f ix e d a s s e t s
+G o o d w ill
+t h e r a s s e t s
+e f e r r e d t a x a s s e t s
+l lia b ilit ie s
+o lic y r e s e r v e s a n d o t
+t h e r lia b ilit ie s
+l n e t a s s e t s
+o t a l s h a r e h o ld e r s ' e q
+C a p ita l s to c k
+R e ta in e d e a r n in g s
+h
+u
+e
+it
+r
+y
+s
+M
+1
+1
+1
+1
+A s o f
+a r - 2 6
+8 , 9 3 4
+6 2 8
+1 , 4 5 1
+1 4 7
+7 8 6
+7 8 6
+4 , 9 0 5
+1 , 0 1 7
+6 , 3 8 8
+4 , 1 8 6
+2 , 2 0 1
+2 , 5 4 7
+2 , 5 4 7
+3 ,0 5 6
+( 5 0 9 )
+J
+1
+1
+1
+1
+A s o f
+u n - 2 6
+9 , 2 8 5
+8 3 2
+1 , 5 8 3
+1 4 3
+7 8 6
+7 8 6
+4 , 9 6 8
+9 7 4
+6 , 8 8 1
+4 , 4 7 7
+2 , 4 0 4
+2 , 4 0 5
+2 , 4 0 5
+3 ,0 5 6
+( 6 5 1 )
+C h a n g e
++ 3 5 1
++ 2 0 4
++ 1 3 2
+( 4 )
+-
+-
++ 6 2
+( 4 4 )
++ 4 9 3
++ 2 9 1
++ 2 0 3
+( 1 4 2 )
+( 1 4 2 )
+-
+( 1 4 2 )
+
+=== PDF PAGE 53 ===
+図A生I形成コンテンツは誤りを含む可能性があります。
+Copyright © 2026 Daiichi Life Group, Inc.
+(
+O
+O
+O
+E
+E
+T
+N
+V N D in b illio n s )
+r d in a r y r e v e n u e s
+P r e m iu m a n d o t h e r in c o m
+I n v e s t m e n t in c o m e
+O t h e r o r d in a r y r e v e n u e s
+r d in a r y e x p e n s e s
+B e n e f it s a n d c la im s
+P r o v is io n f o r p o lic y r e s e r
+I n v e s t m e n t e x p e n s e s
+O p e r a t in g e x p e n s e s
+O t h e r o r d in a r y e x p e n s e s
+r d in a r y p r o f it ( lo s s )
+x t r a o r d in a r y g a in s
+x t r a o r d in a r y lo s s e s
+o t a l o f c o r p o r a t e in c o m e
+e t in c o m e ( lo s s )
+e
+v e
+t
+s
+a x
+a
+e
+n
+s
+d o t h e r s
+F Y
+5
+4
+4
+1
+1
+1
+2 0
+, 1
+, 3
+8
+, 5
+, 3
+, 7
+, 3
+6
+1
+5
+2
+Q
+9
+7
+2
+5
+5
+5
+3
+8
+2
+4
+2
+1
+5
+1
+9
+6
+2
+0
+2
+1
+8
+4
+1
+7
+7
+1
+3
+8
+6
+F Y
+4
+4
+4
+1
+1
+1
+2 0
+, 9
+, 0
+9
+, 1
+, 5
+, 4
+, 1
+8
+1
+6
+2
+Q
+6
+0
+4
+1
+0
+0
+4
+3
+2
+5
+9
+6
+6
+1
+5
+9
+4
+2
+6
+5
+4
+-
+4
+3
+9
+1
+0
+7
+3
+C h a n g e
+( 2 3 4 )
+( 3 6 7 )
++ 1 2 2
++ 1 2
+( 4 4 6 )
++ 1 5 4
+( 3 1 4 )
+( 3 4 )
+( 2 4 7 )
+( 4 )
++ 2 1 2
+( 0 )
+( 3 )
++ 6 9
++ 1 4 6
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+Dai-ichi Life Vietnam – Summary Financial Statements(1)
+検証中
+Statement of Earnings Balance Sheet
+(1) Disclosed after re-classifying items from DLVN’s financial statements under local accounting standards to conform to Daiichi Life Group’s disclosure standards.
+(2) Following a change in tax treatment in DLVN Q2 results, the consolidated financial statements were revised, creating some differences between the consolidated and DLVN’s standalone financial statements
+53
+(
+T
+T
+T
+V N
+o
+o
+o
+D in b illio n s )
+t a l a s s e t s
+C a s h a n d d e p o s it s
+S e c u r it ie s
+L o a n s
+T a n g ib le f ix e d a s s e t s
+I n t a n g ib le f ix e d a s s e t s
+R e in s u r a n c e r e c e iv a b le
+t a l lia b ilit ie s
+P o lic y r e s e r v e s a n d o t h
+R e in s u r a n c e p a y a b le s
+O t h e r lia b ilit ie s
+t a l n e t a s s e t s
+T o t a l s h a r e h o ld e r s ' e q u
+e
+it
+r
+y
+D
+8
+1
+5
+6
+5
+1
+1
+A s
+e c
+0 , 5
+5 , 5
+3 , 8
+2 , 3
+1
+1 , 7
+9 , 7
+1 , 9
+8 , 8
+8 , 8
+o f
+- 2 5
+4 9
+3 2
+7 3
+8 6
+0 9
+3 3
+-
+2 9
+1 2
+8 0
+2 4
+2 0
+2 0
+M
+8
+1
+5
+6
+6
+1
+1
+A s
+a r
+2 , 4
+7 , 6
+3 , 6
+2 , 4
+1
+2 , 9
+1 , 1
+1 , 7
+9 , 4
+9 , 4
+o f
+- 2 6
+5 3
+9 2
+9 2
+8 4
+0 2
+2 8
+-
+7 1
+4 5
+8 5
+2 8
+8 3
+8 3
+C h a n
++ 1 , 9
++ 2 ,1
+( 1
++
++ 1 , 2
++ 1 ,4
+( 1
++ 6
++ 6
+g e
+0 4
+6 1
+8 2
+9 8
+( 7
+( 5
+4 1
+3 4
++ 5
+9 7
+6 3
+6 3
+)
+)
+)
+-
+)
+(２)
+注釈確認中
+
+=== PDF PAGE 54 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group Summary Statement of Earnings Matrix
+検証中
+(2) (1) (1)(2)
+Daiichi Life Daiichi Frontier Life Daiichi Neo Life Protective TAL DLVN Consolidated
+FY2025 FY2026 FY2025 FY2026 FY2025 FY2026 FY2025 FY2026 FY2025 FY2026 FY2025 FY2026 FY2025 FY2026
+Change Change Change Change Change Change Change
+(\ in billions) Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1
+Ordinary revenues 1,016.5 1,494.9 +478.4 697.2 834.5 +137.2 38.4 40.7 +2.3 384.0 521.0 +136.9 206.6 265.3 +58.7 30.4 30.1 (0.2) 2,308.3 2,893.0 +584.7
+Premium and other income 556.9 624.9 +68.0 618.3 665.8 +47.6 35.4 38.0 +2.6 212.6 228.8 +16.2 184.9 234.9 +50.0 25.6 24.3 (1.2) 1,587.5 1,760.8 +173.3
+Investment income 312.1 651.5 +339.4 72.6 166.0 +93.4 0.3 0.4 +0.1 151.0 204.7 +53.7 21.2 27.1 +5.9 4.8 5.7 +0.9 595.1 1,001.4 +406.3
+Interest and dividends 176.3 197.6 +21.3 48.4 56.5 +8.1 0.3 0.4 +0.1 143.2 160.7 +17.5 0.8 0.6 (0.1) 4.8 5.6 +0.9 373.5 421.6 +48.1
+Gains on sale of securities 105.6 346.5 +240.9 0.1 0.3 +0.3 - - - 0.2 12.4 +12.3 - - - - - - 105.8 359.7 +253.9
+Derivative transaction gains - - - 23.9 11.1 (12.8) - - - 7.5 31.2 +23.6 - - - - - - 18.7 14.5 (4.3)
+Foreign exchange gains - 3.2 +3.2 - 67.2 +67.2 - - - 0.0 - (0.0) - - - 0.0 0.0 (0.0) - 69.6 +69.6
+Gains on investments in separate accounts 25.6 94.5 +68.9 - 5.0 +5.0 - - - - - - - - - - - - 24.9 99.5 +74.6
+Other ordinary revenues 147.6 218.5 +70.9 6.4 2.6 (3.8) 2.7 2.3 (0.4) 20.4 87.4 +67.0 0.5 3.4 +2.9 0.0 0.1 +0.1 125.7 130.9 +5.1
+Ordinary expenses 938.0 1,297.9 +359.9 676.8 802.8 +126.0 39.9 42.3 +2.4 379.8 487.4 +107.5 191.9 247.7 +55.7 26.6 24.9 (1.7) 2,223.4 2,641.9 +418.6
+Benefits and claims 642.8 836.3 +193.6 530.2 646.3 +116.1 25.7 27.9 +2.2 210.2 318.8 +108.6 144.8 188.9 +44.1 7.9 9.1 +1.2 1,397.9 1,815.5 +417.6
+Provision for policy reserves and others 2.2 2.2 +0.0 1.9 125.0 +123.0 3.6 2.3 (1.3) 64.4 - (64.4) 13.4 17.8 +4.4 10.3 8.8 (1.5) 241.1 110.6 (130.5)
+Investment expenses 132.0 286.5 +154.5 122.0 5.3 (116.7) 0.0 0.0 +0.0 36.3 89.6 +53.3 1.2 1.4 +0.2 0.2 - (0.2) 252.2 341.4 +89.2
+Losses on sale of securities 73.1 217.8 +144.7 1.1 3.6 +2.5 - - - 0.0 20.3 +20.3 - - - - - - 74.3 241.8 +167.5
+Losses on valuation of securities 0.3 0.7 +0.4 - - - - - - 1.4 1.7 +0.4 - - - - - - 1.7 2.4 +0.8
+Derivative transaction losses 15.6 26.0 +10.4 - - - - - - - - - - - - - - - - - -
+Foreign exchange losses 8.4 - (8.4) 118.6 - (118.6) - - - - 0.0 +0.0 0.0 0.0 (0.0) - - - 127.3 - (127.3)
+Losses on investments in separate accounts - - - 0.7 - (0.7) - - - - - - - - - - - - - - -
+Operating expenses 101.1 106.7 +5.6 18.3 21.4 +3.1 9.5 10.9 +1.4 51.8 60.9 +9.2 32.1 39.4 +7.2 8.1 6.9 (1.2) 241.5 274.7 +33.3
+Ordinary profit (loss) 78.6 197.0 +118.4 20.4 31.6 +11.3 (1.5) (1.5) (0.0) 4.2 33.6 +29.4 14.6 17.6 +3.0 3.8 5.2 +1.4 84.9 251.1 +166.1
+Extraordinary gains 0.8 2.0 +1.2 - - - - - - - - - - - - 0.0 0.0 (0.0) 1.0 2.0 +1.0
+Extraordinary losses 4.3 5.3 +1.0 1.5 0.9 (0.6) 0.0 0.0 +0.0 0.0 0.0 (0.0) - - - 0.0 0.0 (0.0) 5.9 6.2 +0.3
+Provision for reserve for policyholder dividends 23.0 26.2 +3.2 - - - - - - - - - - - - - - - 23.0 26.2 +3.2
+Income before income taxes, etc. 52.1 167.5 +115.4 18.9 30.7 +11.9 (1.5) (1.5) (0.0) 4.2 33.6 +29.4 14.6 17.6 +3.0 3.8 5.2 +1.5 57.0 220.7 +163.7
+Total of corporate income taxes 13.8 48.4 +34.6 5.6 9.1 +3.5 (0.4) (0.4) +0.0 (0.1) 6.3 +6.4 5.2 4.9 (0.3) 0.8 1.2 +0.4 22.8 60.6 +37.8
+Net income attributable to non-controlling interests - - - - - - - - - - - - - - - - - - - - -
+Net income (loss) 38.3 119.1 +80.9 13.3 21.7 +8.4 (1.1) (1.1) (0.0) 4.3 27.3 +23.0 9.5 12.7 +3.3 3.0 4.0 +1.0 34.2 160.1 +125.8
+(1) Upon PLC’s LDTI（Long-Duration Targeted Improvements）adoption, prior comparative period figures of PLC are also restated on LDTI basis.
+(2) Effective FY2026, DL’s prior-period figures have been reclassified following a change in DL’s presentation of income and expenses related to limited partnerships, with no impact on net income.
+Copyright © 2026 Daiichi Life Group, Inc. 54
+
+=== PDF PAGE 55 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Group Summary Balance Sheet Matrix
+検証中
+Daiichi Life Daiichi Frontier Life Daiichi Neo Life Protective TAL DLVN Consolidated
+As of As of As of As of As of As of As of As of As of As of As of(1) As of As of As of
+(\ in billions) Mar-26 Jun-26 Change Mar-26 Jun-26 Change Mar-26 Jun-26 Change Dec-25 Mar-26 Change Mar-26 Jun-26 Change Dec-25 Mar-26 Change Mar-26 Jun-26 Change
+Total assets 35,185.3 35,952.4 +767.1 9,951.5 10,167.9 +216.4 360.3 357.2 (3.1) 22,153.7 22,728.6 +574.9 2,076.7 2,151.5 +74.8 478.9 500.4 +21.5 74,159.1 76,322.7 +2,163.6
+Cash, deposits and call loans 768.4 835.2 +66.8 578.4 342.0 (236.4) 77.9 76.2 (1.7) 235.9 245.6 +9.7 68.8 92.8 +23.9 92.3 107.4 +15.0 2,565.7 2,204.5 (361.1)
+Monetary claims bought 174.1 170.0 (4.1) 11.9 11.4 (0.5) - - - - - - - - - - - - 186.0 181.4 (4.6)
+Securities 28,912.5 29,867.1 +954.6 7,553.5 7,787.8 +234.3 196.3 192.5 (3.7) 13,731.7 13,527.7 (204.0) 1,255.9 1,292.2 +36.3 320.3 325.9 +5.6 55,576.3 57,333.0 +1,756.7
+Loans 3,273.6 3,214.9 (58.7) - - - 1.7 1.8 +0.1 2,231.2 2,291.3 +60.1 - - - 14.2 15.1 +0.9 4,997.1 4,999.6 +2.4
+Tangible fixed assets 1,186.8 1,178.2 (8.7) 0.8 0.8 (0.0) 0.3 0.3 (0.0) 30.3 30.8 +0.5 16.1 16.0 (0.1) 0.6 0.6 (0.0) 1,239.3 1,230.9 (8.4)
+Intangible fixed assets 118.1 118.5 +0.4 16.9 16.7 (0.1) 11.7 11.8 +0.1 548.4 778.8 +230.4 86.2 87.7 +1.5 0.2 0.2 (0.0) 963.4 1,179.6 +216.1
+Deferred tax assets - - - 72.0 71.2 (0.8) 2.9 2.8 (0.2) 11.6 33.9 +22.3 111.6 108.6 (3.0) 0.5 0.5 (0.0) 125.2 144.2 +19.0
+Total liabilities 32,527.9 33,226.4 +698.5 9,700.7 9,981.4 +280.8 337.6 335.6 (2.0) 21,306.4 21,954.5 +648.1 1,797.4 1,883.2 +85.8 367.0 382.2 +15.2 69,904.9 71,749.7 +1,844.8
+Policy reserves and others 28,454.9 28,265.2 (189.7) 8,868.1 8,990.5 +122.4 327.3 327.5 +0.2 18,516.9 19,129.4 +612.5 1,556.0 1,615.0 +59.1 355.0 371.1 +16.1 61,255.1 61,972.0 +716.9
+Policy reserves 27,844.7 27,692.0 (152.7) 8,822.3 8,947.3 +125.0 307.6 309.9 +2.3 18,372.1 18,970.8 +598.6 354.2 355.5 +1.3 346.7 362.7 +16.0 59,192.7 59,882.4 +689.6
+Short-term bonds payable - - - - - - - - - 7.8 31.9 +24.1 - - - - - - 7.8 31.9 +24.1
+Bonds payable 576.8 576.8 - - - - - - - 441.8 451.0 +9.3 - - - - - - 1,337.3 1,346.7 +9.4
+Other liabilities 2,673.2 3,459.9 +786.7 569.8 718.4 +148.6 6.7 4.7 (2.0) 995.9 957.7 (38.2) 241.4 268.2 +26.7 11.4 10.5 (1.0) 5,109.0 6,071.6 +962.6
+Net defined benefit liabilities 284.6 272.5 (12.1) - - - - - - 7.8 7.9 +0.1 - - - 0.1 0.1 (0.0) 19.4 21.4 +2.0
+Reserve for price fluctuations 300.5 303.5 +3.0 57.0 57.9 +0.9 0.0 0.0 +0.0 - - - - - - - - - 357.5 361.4 +3.9
+Deferred tax liabilities 166.2 277.3 +111.1 0.1 0.1 - - - - - - - - - - - - - 233.4 341.4 +107.9
+Total net assets 2,657.4 2,726.0 +68.6 250.8 186.5 (64.3) 22.7 21.6 (1.1) 847.3 774.1 (73.2) 279.3 268.3 (11.1) 111.9 118.2 +6.4 4,254.2 4,573.1 +318.8
+Total shareholders' equity 651.7 443.7 (208.0) 308.8 237.5 (71.3) 22.9 21.8 (1.1) 1,040.3 1,027.4 (12.9) 206.1 190.0 (16.1) 97.8 101.8 +4.0 2,270.2 2,322.2 +52.0
+Total accumulated other comprehensive income 2,005.8 2,282.3 +276.6 (58.0) (51.0) +7.0 (0.2) (0.1) +0.0 (192.9) (253.2) (60.3) 73.2 78.3 +5.1 14.1 16.4 +2.3 1,983.8 2,250.7 +266.9
+Net unrealized gains on securities, net of tax 2,157.1 2,438.9 +281.7 (58.0) (51.0) +7.0 (0.2) (0.1) +0.0 (716.8) (830.4) (113.6) - - - - - - 1,372.7 1,576.0 +203.3
+Reserve for land revaluation 54.0 53.3 (0.8) - - - - - - - - - - - - - - - 54.1 53.4 (0.8)
+(1) Following a change in tax treatment in DLVN Q2 results, the consolidated financial statements were revised, creating some differences between the consolidated and DLVN’s standalone financial statements
+Copyright © 2026 Daiichi Life Group, Inc. 55
+
+=== PDF PAGE 56 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+検証中
+Ref. Capital Reduction of Daiichi Frontier Life
+▶ In light of the transition of the solvency margin regulations to an economic value–based framework, which allows for a certain release of capital based
+on the capital levels required under the new regulatory regime, we plan to reduce its capital and reserves, subject to approval by the relevant regulatory
+authorities.
+▶ In line with the Group’s capital circulation management approach, which aims to enhance the efficient utilization of capital within the Group, the surplus
+funds generated through this transaction will be allocated to dividends to HD and redeployed to growth businesses, thereby seeking to improve the
+Group’s capital efficiency and corporate value. The dividend amount to HD, including proceeds from the capital reduction, will be determined after
+assessing DFL’s capital position as of end-March under the new economic value-based regulatory regime.
+Details Capital Circulation Management
+Before After
+✓ The Group promotes “capital circulation management,” under which
+（¥in billions） Change Allocation
+Reduction Reduction
+capital released through earned capital and risk reduction is
+redeployed to high-capital-efficiency and high-growth businesses while
+Capital Stock 117.5 (67.5) 50.0 Other Capital Surplus
+maintaining financial soundness, thereby aiming to enhance corporate
+value through a virtuous cycle of capital and cash generation.
+Capital Surplus 67.5 (17.5) 50.0 Other Capital Surplus
+✓ The capital generated through this initiative is expected to be used as
+a source of dividends to HD, in order to incorporate it into the Group’s
+Retained Earnings Retained Earnings
+8.0 (8.0) 0.0 overall financial strategy.
+Reserves Brought Forward
+Schedules Strategic utilization of
+capital as a source of funds
+Date of Filing for Approval Feb. 2026 Dividends for growth investments and
+（DFL）
+shareholder returns
+Date of Effect Mar. 23, 2026
+Copyright © 2026 Daiichi Life Group, Inc. 56
+
+=== PDF PAGE 57 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+Full Year Forecast Financial Result Performance Reference
+図A生I形成コンテンツは誤りを含む可能性があります。
+Upcoming IR Events (Planned)
+Event Main Speakers
+Group CFO
+Aug 31, 2026 CFO Dialogue
+PLC CFO
+Company- Special IR Meeting with Outside Directors Outside Directors
+Oct 13
+Special IR Meeting (Sustainability) Group CSuO
+Hosted Event
+Nov 13 Q2 FY2026 Financial Results Conference Call Group CFO
+(- Nov. 2026)
+Group CEO
+Nov 27 H1 FY2027 Financial Analyst Meeting
+Group CFO
+Securities Firm Main Speakers
+Sep 3, 2026 BofASecurities Group CFO
+IR
+Sep 18 Mizuho Securities Group CEO
+Conference
+(- Oct 2026) Oct 20, 21 Citigroup Global Markets (Sydney) Group CFO
+(1) We plan to hold the second Business Strategy Presentation in the second half of FY2026, and all business heads are scheduled to present within the fiscal year. Copyright © 2026 Daiichi Life Group, Inc. 57
+ate Event Main Speaker
+FY2026 Earnings &
+Management Briefing
+
+=== PDF PAGE 58 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。 検証中
+※ページ数は和
+List of Group Companies, Ownership Ratios, and Fiscal Year-Ends
+文に準拠(要最終
+チェック)
+Non-Insurance Business
+Fiscal
+Domestic Insurance Business Equity Share
+Year (Asset Management Business, New Fields of Business)
+DL Daiichi Life 100％ 49％(Voting rights)
+AMO Asset Management One Apr -Mar
+30％(Economic interest)
+DFL Daiichi Frontier Life 100％
+Apr –Mar AMO（US) [USA] Asset Management One USA 49％(Voting rights) Jan –Dec
+DNL Daiichi Neo Life 100％ 30％(Economic interest)
+DIPT ipet Insurance 100％ VTX Vertex Investment Solutions 100％ Apr -Mar
+Overseas Insurance Business
+CP [USA] CP New Co (“Canyon Partners”) 19.9％ Jan –Dec
+PLC [USA] Protective Life Corporation 100％ Jan –Dec
+BO Benefit One 100％ Apr –Mar
+TAL [Australia] TAL Daiichi Life Australia 100％
+Apr -Mar
+PNZ [NewZealand] Partners Group Holdings 100％ [UK] Capula Investment Management 15% Jan –Dec
+DLVN [Vietnam] Dai-ichi Life Insurance Company of Vietnam 100％ &Do Holdings 15.7% Jul –Jun
+DLKH [Cambodia] Daiichi Life Insurance (Cambodia) 100％ Jan –Dec
+DMRE Daiichi Life Marubeni Real Estate 50％ Apr -Mar
+DLMM [Myanmar] Daiichi Life Insurance Myanmar 100％
+SUD [India] Star Union Dai-ichi Life Insurance Company 47.4% Apr -Mar Others ←要CPを追加
+DLRB [Bermuda]Daiichi Life Reinsurance Bermuda 100％ Jan –Dec
+PDL [Indonesia] PT Panin Dai-ichi Life 40％ Jan –Dec
+Copyright © 2026 Daiichi Life Group, Inc. 58
+
+=== PDF PAGE 59 ===
+23 0 0 78
+70 0 145 218
+255 100 255 255
+図A生I形成コンテンツは誤りを含む可能性があります。
+Investor Contact
+Daiichi Life Group, Inc.
+Investor Relations Group
+Corporate Planning Unit
+Disclaimer
+The information in this presentation is subject to change without prior notice. Neither this presentation nor any of its contents may be disclosed or used by any other party for any
+otherpurposewithout theprior writtenconsentofDaiichi LifeGroup,Inc.(the“Company”).
+Statements contained herein that relate to the future operating performance of the Company are forward-looking statements. Forward-looking statements may include – but are
+not limited to – words such as “believe,” “anticipate,” “plan,” “strategy,” “expect,” “forecast,” “predict,” “possibility” and similar words that describe future operating activities,
+business performance, events or conditions. Forward-looking statements are based on judgments made by the Company’s management based on information that is currently
+available toit andare subjecttosignificant assumptions. As such,theseforward-looking statements are subject tovarious risks anduncertainties, and actual business resultsmay
+vary substantially from the forecasts expressed or implied in forward-looking statements. Consequently, you are cautioned not to place undue reliance on forward-looking
+statements.TheCompanydisclaims anyobligation torevise forward-lookingstatementsinlight ofnew information,futureevents orotherfindings.
+Copyright © 2026 Daiichi Life Group, Inc. 59

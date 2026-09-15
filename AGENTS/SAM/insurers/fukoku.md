@@ -1,5 +1,17 @@
 # Fukoku Mutual Life
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+General-account assets **¥8,026.456B**, June 30, versus ¥7,779.532B March. Foreign securities **¥1,875.779B**, versus ¥1,776.793B.
+
+Foreign bonds within that category are ¥974.463B versus ¥951.930B. These balance-sheet increases include valuation effects and do not prove net purchases. A comparable June ESR was not found in the reviewed quarterly report; the old claim that disclosure obligations apply only to Big-3 insurers is unsupported and withdrawn.
+
+Source: [August 6, PDF page 4](https://www.fukoku-life.co.jp/about/ir/news/upload/2026080601.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/fukoku-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥8T | **ESR:** Not disclosed (mid-size mutual; outside Big 3 mandatory disclosure cohort) | **FY2025/FY2026 status:** Super-long exit confirmed structural; FY2026 plan formalized super-long avoidance
 **Last Updated:** 2026-05-27 (v1.5 sync — first-mover historical-marker preserved; pre-FY2025 forward-looking framing resolved)
 

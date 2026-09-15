@@ -1,0 +1,200 @@
+[
+  {
+    "file": "raw/cftc-tff.html",
+    "url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+    "retrieved_at": "2026-09-15T03:16:45.874011+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "2d11b9dbf2e079dfe2ce95eeee58d01411b1dce7daba8a0f15105de59d6ecc9f",
+    "bytes": 223182
+  },
+  {
+    "file": "raw/gpif-q1.pdf",
+    "url": "https://www.gpif.go.jp/operation/38371785gpif/2026_1Q_0807_en.pdf",
+    "retrieved_at": "2026-09-15T03:16:45.874789+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "d579d873c13817c5addb26fb72a7b48eebe4466d50ea9d7ce7918dc12b51708c",
+    "bytes": 431761
+  },
+  {
+    "file": "raw/gpif-policy.html",
+    "url": "https://www.gpif.go.jp/gpif/portfolio.html",
+    "retrieved_at": "2026-09-15T03:16:45.875271+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "48dd34ee501b61ed4c4c7158e59d178ba888d41e85ab953d55ead8841955ac09",
+    "bytes": 40088
+  },
+  {
+    "file": "raw/boj-calendar.html",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "retrieved_at": "2026-09-15T03:16:45.875748+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "00d3bb411829f06405ee4d5e355650233087295fec874a9707f3f75daaf58e72",
+    "bytes": 42585
+  },
+  {
+    "file": "raw/boj-mpm.html",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+    "retrieved_at": "2026-09-15T03:16:45.876225+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "9c65f4f36c5f4a48eef893b8346b14b1563ed3c0bffb0917c14889b5f46985a5",
+    "bytes": 41959
+  },
+  {
+    "file": "raw/bill-3m.html",
+    "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/etbill/etbillresul/eresul20260911.htm",
+    "retrieved_at": "2026-09-15T03:16:46.038661+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "18d89ba8a0bd2119d382d8a7a22daf26c9887ab64af600430958751bfd89fd6c",
+    "bytes": 18018
+  },
+  {
+    "file": "raw/bill-6m.html",
+    "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/etbill/etbillresul/eresul20260909.htm",
+    "retrieved_at": "2026-09-15T03:16:46.192090+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "68cda466d7595004c28d61e3f5ed7821a32ad68a5cabb676d284241ac48d6076",
+    "bytes": 18008
+  },
+  {
+    "file": "raw/nyfed-sofr.json",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/10.json",
+    "retrieved_at": "2026-09-15T03:16:46.257974+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "sha256": "6d9b38600a03064156b08566ef2ad6dc4daa1766be3ab59d8b74c682e49619de",
+    "bytes": 2398
+  },
+  {
+    "file": "raw/nyfed-effr.json",
+    "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/last/10.json",
+    "retrieved_at": "2026-09-15T03:16:46.502871+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "sha256": "a9fa389b3362084f75a9df2a9aa0246cfeb20b9bb0b005b1657d161733c1d2ae",
+    "bytes": 2848
+  },
+  {
+    "file": "raw/boj-jd20260910.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260910.xlsx",
+    "retrieved_at": "2026-09-15T03:16:46.914180+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "ca4c697a9a6b0ee0d4c12a0e09c5e7dbec09151151a7248a4aea4f4d13984431",
+    "bytes": 18574
+  },
+  {
+    "file": "raw/boj-jd20260911.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260911.xlsx",
+    "retrieved_at": "2026-09-15T03:16:47.214053+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "a4eff6f6ac73cf8f16e2df993d645c48f7c1a045a54e3f5464bdf6dcfc96d258",
+    "bytes": 18578
+  },
+  {
+    "file": "raw/boj-jx20260914.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jx/jx20260914.xlsx",
+    "retrieved_at": "2026-09-15T03:16:47.263076+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "e164b3d4b5f99a98e9408b56d716ec6a3d25f7beb60a1ad7a1b83a1ba65ef62b",
+    "bytes": 18571
+  },
+  {
+    "file": "raw/boj-jp20260915.xlsx",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jp/jp20260915.xlsx",
+    "retrieved_at": "2026-09-15T03:16:47.311434+00:00",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "31a6f45ab90ec6fc0f6dd5e09996cdbdc44a6c7b6ba9bef1a727baae18dd95f7",
+    "bytes": 18340
+  },
+  {
+    "file": "raw/central-sep14.pdf",
+    "url": "https://www.central-tanshi.com/media/files/_u/short_term_market_report/centdaily20260914.pdf",
+    "retrieved_at": "2026-09-15T03:16:47.532271+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "ad7abbc67e1cbc6d53550a7d89046ec4605b335146903c1cbeb02b251df98847",
+    "bytes": 152694
+  },
+  {
+    "file": "raw/boj-ops-index.html",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/ope/index.htm",
+    "retrieved_at": "2026-09-15T03:16:47.579410+00:00",
+    "status": 404,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "016ec1299bc1c35649e422c9bc6f0e0d47048080e2eb4da67d9c57a0b65ff68c",
+    "bytes": 3297
+  },
+  {
+    "file": "raw/mof-monthb2.csv",
+    "url": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb2.csv",
+    "retrieved_at": "2026-09-15T03:16:47.592735+00:00",
+    "status": 200,
+    "content_type": "text/csv",
+    "sha256": "65fe8627cd062a7ffa917e7813f356485168b2f2ef85d5e5a5f22e6be3d964f0",
+    "bytes": 95971
+  },
+  {
+    "file": "raw/mof-monthb3.csv",
+    "url": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb3.csv",
+    "retrieved_at": "2026-09-15T03:16:47.679821+00:00",
+    "status": 200,
+    "content_type": "text/csv",
+    "sha256": "37df1bb85a1e68a0b1f08e36af8744b2c7c7e9a022ede9c08bbd6e6d0de784a3",
+    "bytes": 113517
+  },
+  {
+    "file": "raw/fred-IORB.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=IORB&cosd=2026-09-01&coed=2026-09-15",
+    "retrieved_at": "2026-09-15T03:16:47.856659+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "d8b1cc338cd3ed4c8d823bdbfb6c488b023552c49cf87fa0120fa049629584a9",
+    "bytes": 76634
+  },
+  {
+    "file": "raw/fred-BAMLH0A0HYM2.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=BAMLH0A0HYM2&cosd=2026-09-01&coed=2026-09-15",
+    "retrieved_at": "2026-09-15T03:16:48.246166+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "cce386cfc041097be8f6c4c77301045b98f3024d700de2056358444133413684",
+    "bytes": 87102
+  },
+  {
+    "file": "raw/fred-BAMLC0A0CM.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=BAMLC0A0CM&cosd=2026-09-01&coed=2026-09-15",
+    "retrieved_at": "2026-09-15T03:16:48.665895+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "0f7f0a2a05ef7b747be4e10d704fd0e22b9191fd1beefab1e08fc75cea9d15e1",
+    "bytes": 85547
+  },
+  {
+    "file": "raw/fred-DGS10.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=DGS10&cosd=2026-09-01&coed=2026-09-15",
+    "retrieved_at": "2026-09-15T03:16:48.979775+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "260a564e6a7fc32e74684d8a5c31053884039440445f2808483feb81320ead68",
+    "bytes": 84302
+  },
+  {
+    "file": "raw/fred-DGS2.csv",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=DGS2&cosd=2026-09-01&coed=2026-09-15",
+    "retrieved_at": "2026-09-15T03:16:48.992918+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "b86dc39c6e3682aa465d34ae2332ba350222143abe5de65fdabaeaec6048ba74",
+    "bytes": 76577
+  }
+]

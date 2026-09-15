@@ -1,56 +1,53 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-15T02:45:15.728293+00:00 (September 14 ET / September 15 JST). **STATUS provenance:** current write committed together with this brief; prior STATUS commit `266b11482`. This brief is the final write-back after STATUS.
+**As of:** 2026-09-15T03:40:43.649904+00:00 (September 14 ET / September 15 JST). **STATUS provenance:** final STATUS write committed together with this brief; prior boot STATUS commit `299b798aa`. Brief written after STATUS.
 
 ## VIEW
 
-v1.7 carry-convexity frame remains RETIRED/LOW; no successor declared. Book last recorded FLAT, not newly broker-reconciled. v2.0 was killed and its RED review consumed August 27; the old unread flag was stale. v1.8 remains separately gated.
+v1.7 carry-convexity remains RETIRED/LOW, no successor; v1.8 separately gated. Book last recorded FLAT, not newly broker-reconciled. The v2.0 review was consumed August 27; no unread/approval flag remains.
 
-Latest MOF curve returns the 30Y/40Y to the conditional 4% demand-floor watch. Auction evidence and named-holder disclosures determine the mechanism; yield level does not establish forced selling. Latest same-date US–Japan differentials remain above both SAM-41 bars, runs 0/5.
+CFTC September 8 **legacy net +10,796, leveraged funds net −49,098, asset managers −570**. Short covering and new longs coexist with higher OI. This neither proves nor excludes forced liquidation within a cohort, and does not cover later sessions or OTC swaps. The old categorical “not a squeeze” inference is withdrawn.
 
-September BOJ remains substantially priced: reviewed Totan Sep-15 11:15 JST image gives **99% incremental 25bp equivalent**, **1.2238% OIS**. Indicative OTC, JST assumed; not exchange-traded probability. Later incremental equivalents Oct/Dec/Jan/Mar 27/64/33/42%; cumulative expected hike count 2.63. Guidance, decision versus pricing, vote and balance-sheet surprise remain the questions. No fresh probability framework or entry inference.
+Named institutions now have FY2026 Q1 profiles: Nippon internal ESR **190%**, Meiji group **209%**, Sumitomo internal **197%**, Daiichi internal **~206%**. Definitions and causes differ. No two-institution/two-window direct foreign-credit-sales evidence establishes Channel 1 reactivation. Norinchukin's June credit/other assets fell with redemptions and new investments; its CLO-only June balance remains unavailable in reviewed sources.
 
-CFTC Sep-8 net **+10,796**, reverified at primary. Gross longs rose, shorts fell and OI expanded. This supports a change in participation but does not identify forced liquidation, uniquely establish the cause of FX moves, or exclude stress in offshore swaps. The latter instrument remains missing.
+BIS Q1 was revised within the same period: total yen nonresident nonbank credit **¥65.91T**, loans **¥42.01T**, debt securities **¥23.90T**. Loader now ingests same-quarter revisions. Broad borrowing stocks exclude FX swaps and do not measure carry positions; this does not change the v2.0 kill.
+
+BOJ September remains substantially priced: reviewed Totan **September 15 11:15 JST assumed**, **99% incremental 25bp equivalent**, OIS **1.2238%**. Indicative OTC, expires September 18 00:00 JST or image change. Guidance, vote and decision versus pricing matter. No fresh authenticated CME FedWatch probability.
 
 ## CALIBRATION
 
-Three OPEN predictions: SAM-28 40% / SAM-31 35% through Sep-18 close; SAM-33 72% through Dec-31. No terms or grades changed. SAM-28 needs an eligible route and the required FXY move; SAM-31 requires the genuine risk-off episode in its original terms. No retrospective route or numeric VIX cutoff supplied. Historical SAM-41 confirmation unchanged by current 0/5 runs.
+SAM-28 40% / SAM-31 35% remain OPEN through September 18 close; SAM-33 72% through December 31. Original terms and grades unchanged; route/episode ambiguities remain explicit. SAM-41 historical confirmation remains, current matched-date gaps above both bars, 0/5. No retired gate rearmed.
 
 ## CROSS-DOMAIN
 
-**SENDING — in-place findings only; no peer messages sent.**
+**SENDING — in-place findings; no peer messages sent.**
 
 | Consumers | Finding | Limit |
 |---|---|---|
-| LIQUID / BOND | MOF Sep-14: 10Y 2.988%, 30Y/40Y 4.040%; 5Y/10Y US–Japan gaps 2.498/1.982pp | Domestic yield stress is not named UST selling. SAM-33 operation verification still through Sep-9; next scheduled record check Sep-16. |
-| HENRY / VIOLET | USDJPY live 154.82 at Sep-15 02:27:47 UTC; completed Sep-14 154.31, max 5-session range 1.63 yen; FXY Sep-14 close 59.43 | Different clocks; no synchronized causal regression or prediction grade. |
-| BRENT / NEXUS | BZ=F 106.90 at Sep-15 02:15:18 UTC | Continuous context quote. No fresh matched-clock oil-in-yen product or five-session count. Supply, freight and currency remain separate. |
-| BOND / LIQUID | WALTER GPIF-headroom packet received, source arithmetic review pending | Third-party capacity is not flow. GPIF assets and intervention reserve assets belong to different holders; the two stories cannot establish one transaction. |
+| LIQUID / BOND | MOF September 14: 10Y 2.988%, 30Y/40Y 4.040%; US–JP 5Y/10Y gaps 2.498/1.982pp | Yield level is not foreign-asset selling. SAM-33 op check through Sep-9; next Sep-16. |
+| HENRY / VIOLET | Sep-14 FXY close 59.43; USDJPY completed session 154.31; VIX 17.10 | Different observation clocks; no mechanism or prediction grade. |
+| LIQUID | Sep-11 SOFR 3.62%, IORB 3.65%, spread −3bp; HY 265bp, IG 80bp | Latest obtainable funding/credit dates; no actual offshore yen basis. |
+| BOND / LIQUID | GPIF Q1 composition includes pension special-account assets; broad foreign-bond headroom ¥17.07T to its 20% floor | Not UST-specific capacity, actual sales, or official FX reserves. |
+| BRENT / NEXUS | July revised customs balance −¥638.3B; crude volume +5.5% YoY; BZ=F 106.90 at Sep-15 02:15 UTC | August volume next Sep-16. No mixed-clock oil-in-yen count. |
 
-**WAITING FOR — dependencies and receipted deferred work.**
+**WAITING FOR — genuine remaining evidence gaps.**
 
-| Input | Next work |
-|---|---|
-| WALTER 007: short-dated JGB figures and independent carry story | Primary 3M/6M verification and mechanism review; no adoption of SoftBank/AI causal claims at boot. |
-| WALTER 010: reported GPIF $62B capacity | Verify actual bands, security composition and Santander arithmetic. |
-| WALTER 016: Bessent quotation and policy implications | Own-source review; no September operation or FIMA inference. |
-| Genuine offshore JPY basis | Expired CME proxy unwired under prior decision; replacement feed remains declined. |
-| Fed pricing | WALTER's updated probabilities are secondary/aggregator readings; primary verification outstanding. |
-| MOF / FRBNY | Q3 operation/account disclosures around November; exact release dates still estimates. |
+Actual offshore JPY basis; June CLO-only/CET1 detail and comparable June ESR for Fukoku/Japan Post not established in reviewed sources; primary Bessent SMU transcript; current authenticated CME pricing; future MOF/FRBNY operation/account disclosures. Bill auction yields were verified, but social-media secondary yields and historical-high claims remain unverified. WALTER GPIF arithmetic review is completed at the broad-category level; its UST-specific $62B estimate is not reproducible from GPIF's published category table.
+
+September 10/11/14 BOJ final fiscal residuals against forecast are +¥120B/−¥20B/+¥90B, not intervention amounts. September 7–8 attribution remains open; Japan settlement records cannot exclude US-only action.
 
 ## NEXT DECISION POINT
 
-Sep-15 20Y auction under frozen applicable bars; tag PRECISION-LIMITED at ≤0.1bp trip margin. Then Sep-16 trade balance on crude VOLUME, BOJ 25Y+ operations against schedule, and actual FOMC dots. Sep-18 National CPI/BOJ precede original SAM-28/31 review at close.
-
-VECTOR-5 re-open terms remain ALL three: crude volume up YoY at Sep-16 release; oil-in-yen ≥18,000 on five completed sessions; USDJPY weakens through 158 while Brent holds. Volume pending, synchronized oil count not refreshed, latest completed USDJPY close below 158. No re-open.
+September 15 20Y auction: apply existing frozen bars and PRECISION-LIMITED qualifier at ≤0.1bp margin. September 16: August trade/crude volume, scheduled BOJ 25Y+ operation, FOMC dots. September 18: National CPI, BOJ decision, then original SAM-28/31 review at close. VECTOR-5 still requires all three registered legs; no re-open.
 
 ## FORWARD CATALYSTS
 
-| Date | Event | Check |
-|---|---|---|
-| Sep-15 | 20Y auction | BTC/tail, frozen bars and precision qualifier |
-| Sep-16 | August trade balance 08:50 JST; BOJ 25Y+ ops; FOMC | Volume; scheduled versus emergency operation; actual dots |
-| Sep-17/18 | BOJ meeting; National CPI; SAM-28/31 close | Fresh source pricing and original conditions |
-| Sep-29/30 | 40Y / 2Y auctions; BOJ quarterly schedule | 40Y descriptive only, no FIRM/SOFT grade; scheduled plan change excluded from SAM-33 |
+| Date | Event |
+|---|---|
+| Sep-15 / Sep-16 | 20Y auction / trade balance, BOJ operation, FOMC |
+| Sep-17 / Sep-18 | Flow of Funds, MOF flows / CPI, BOJ, CFTC and prediction review |
+| Sep-25 / Sep-28 | Japan BIS banking release / July MPM minutes |
+| Sep-29 / Sep-30 | 40Y descriptive auction / 2Y auction and BOJ quarterly schedule |
+| Oct-1 / Oct-30 | Tankan and September Summary of Opinions / BOJ decision plus Outlook, now primary-confirmed |
 
-Boot evidence, limitations and pending asks: [report](reports/2026-09-14_boot.md). Root pull/push deferred while peers hold uncommitted work. Checks: 22 boot regression tests pass; read-cap and weekday checks pass, with STATUS/MEMORY rotation advisories.
+[Full sweep, sources, gaps and validation](reports/2026-09-14_stale-sweep.md). All 19 workbook ledgers classified; 32 forward calendar events mirrored. Shared peer edits require local commits and deferred pull/push.

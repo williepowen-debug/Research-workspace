@@ -1,0 +1,332 @@
+[
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-VIX.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-DX-Y.NYB.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-GSPC.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-MUFG.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-SMFG.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-MFG.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-EWJ.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-DXJ.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-market.json",
+    "file": "raw/yahoo-YCS.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/norin-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/nippon-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/sumitomo-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/meiji-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/meiji-q1-detail.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/fukoku-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/daiichi-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/daiichi-group-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/japanpost-q1-index.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/bis-q1.pdf",
+    "status": 404,
+    "disposition": "failed retrieval; not data"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/boj-jd20260914.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/fred-data-IORB.csv",
+    "status": 404,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/fred-data-BAMLH0A0HYM2.csv",
+    "status": 404,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest-phase2.json",
+    "file": "raw/fred-data-BAMLC0A0CM.csv",
+    "status": 404,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/bis-latest.csv",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/customs-july-revised.xml",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/japanpost-data-index.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/mof-20y-sep15.html",
+    "status": 404,
+    "disposition": "failed retrieval; not data"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/fred-api-IORB.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/fred-api-BAMLH0A0HYM2.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase3.json",
+    "file": "raw/fred-api-BAMLC0A0CM.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase4.json",
+    "file": "raw/japanpost-data.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase4.json",
+    "file": "raw/norin-q1-statements.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest-phase4.json",
+    "file": "raw/norin-basel-index.html",
+    "status": 403,
+    "disposition": "failed retrieval; not data"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/cftc-tff.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/gpif-q1.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/gpif-policy.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-calendar.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-mpm.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/bill-3m.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/bill-6m.html",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/nyfed-sofr.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/nyfed-effr.json",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-jd20260910.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-jd20260911.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-jx20260914.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-jp20260915.xlsx",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/central-sep14.pdf",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/boj-ops-index.html",
+    "status": 404,
+    "disposition": "failed guessed endpoint; not evidence of no operations"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/mof-monthb2.csv",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/mof-monthb3.csv",
+    "status": 200,
+    "disposition": "accepted source evidence"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/fred-IORB.csv",
+    "status": 200,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/fred-BAMLH0A0HYM2.csv",
+    "status": 200,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/fred-BAMLC0A0CM.csv",
+    "status": 200,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/fred-DGS10.csv",
+    "status": 200,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  },
+  {
+    "manifest": "source-manifest.json",
+    "file": "raw/fred-DGS2.csv",
+    "status": 200,
+    "disposition": "rejected wrong format/endpoint; use fred-api files"
+  }
+]

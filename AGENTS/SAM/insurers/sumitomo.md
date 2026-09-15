@@ -1,5 +1,17 @@
 # Sumitomo Life
 
+## Current disclosure — reviewed September 14 ET, 2026
+
+Consolidated internal-management ESR **197%**, June 30, unchanged from March. This is a preliminary internal measure.
+
+The August 7 presentation was updated on **August 27** on its ESR page. Use the updated page, not an assumed original-release vintage. An unchanged ratio supplies no direct evidence of forced foreign-credit sales.
+
+Source: [August 7, revised August 27, PDF page 9](https://www.sumitomolife.co.jp/about/pdf/company/ir/settlement/260807.pdf); [saved evidence](../research/outputs/2026-09-14_stale-sweep/raw/sumitomo-q1.pdf). Next routine window: FY2026 half-year reports, approximately November; verify issuer date. Channel 1 remains retired; the two-institution/two-window direct foreign-credit-sales rule in [TRACKER](TRACKER.md) governs.
+
+## Historical profile — superseded current header and reminders
+
+The dated figures and then-forward reminders below are retained as the evidence trail. They are not current observations or new deadlines.
+
 **AUM:** ~¥37.5T (~$250B) | **ESR (FY2025):** **197%** (vs 178% FY2024, **↑+19pt** — ESR INCREASED) | **FY2026 Plan:** Disclosed Mar 18 (PC expansion + Symetra restructuring); FY2025 results May 26
 **Last Updated:** 2026-05-27 (v1.5 sync — FY2025 ESR + foreign-book-growing punchline integrated; prior "ESR Unknown" framing resolved)
 
