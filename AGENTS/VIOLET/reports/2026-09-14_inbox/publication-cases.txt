@@ -1,0 +1,14 @@
+PASS: unchanged latest archive => UNKNOWN
+PASS: historical correction changes bytes only => UNKNOWN
+PASS: same row count but later session proves hole => MISSING_SESSION
+PASS: valid target tie is an observation, not a fire by itself => PUBLISHED
+PASS: valid sub-threshold target remains available to reset => PUBLISHED
+PASS: HTTP error => UNKNOWN
+PASS: HTML 200 / invalid schema => UNKNOWN
+PASS: session still in progress => SESSION_IN_PROGRESS
+PASS: known exchange closure even with stray feed bar => NON_SESSION
+PASS: calendar not established => UNKNOWN
+PASS: empty valid historical archive cannot prove coverage => UNKNOWN
+PASS: explicit target-specific publisher omission notice => MISSING_SESSION
+PASS: later recovery now supplies target => PUBLISHED
+13 offline specification cases passed. No FT-10 count or grade computed.

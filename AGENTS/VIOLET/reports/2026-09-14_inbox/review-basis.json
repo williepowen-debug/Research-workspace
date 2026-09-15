@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-09-14T23:34:11-04:00",
+  "pre_contact": true,
+  "known_data": "September 14 SKEW close already known; September 15/16 bars not yet observed. This is not a pre-September-14 registration.",
+  "sources": {
+    "AGENTS/RED/research/2026-09-14_FT10_WEDNESDAY_DECISION_FRAMEWORK.md": "08e2a7698dbacdee9f02cc86da3aef8563ee70be589c5604920cdb29f006ed71",
+    "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv": "457330cdce483414cc0c6a21b9255ba742c4ea77291b29d86fc84b2c67ac5701",
+    "AGENTS/VIOLET/research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md": "ead84431b516854a991dc036693500d0d260ad3e2b693672a24d19f01739e222"
+  }
+}

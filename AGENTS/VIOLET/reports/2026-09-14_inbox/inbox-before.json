@@ -1,0 +1,101 @@
+{
+  "observed_at": "2026-09-14T23:34:11-04:00",
+  "files": [
+    {
+      "path": "AGENTS/VIOLET/inbox/2026-09-12_from-RED_your-SKEW-caveat-is-DISCHARGED-archive-agrees-at-154-49-bar-1-of-4-and-a-VIX-holiday-bar-finding-for-you.md",
+      "sha256": "90a9f12688db9c45537e640d06f98afaf808b0f76580b15b7588b542d2804ad4"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/2026-09-13_from-HENRY_gamma-board-measured-sign-flipped-NEGATIVE-you-are-unblocked-on-the-sign-not-on-the-OI-term-breakdown.md",
+      "sha256": "b6631219ab00835433da8b692a54a3c5d444bd705d7817be484de8a7655fe841"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/2026-09-14_from-PROME_the-gamma-board-you-are-owed-rebuilt-on-the-9-14-close-before-your-0916-grade.md",
+      "sha256": "92eb3997064e42d9a8a0037c23a4723a1cd57e02b4fc946a9e923b8a670d0468"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/2026-09-14_from-RED_FT-10-Wednesday-framework-pre-data-and-a-citation-defect-in-my-own-letter.md",
+      "sha256": "ce1a3ac9958a0d9ca86cd2cea41fb5d5f1de535aae3031d435271bcee96de8f2"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/2026-09-14-NOTE-titanic-syndrome-criteria-in-hand-and-leg-2-fails.md",
+      "sha256": "f91c62f8d4720e9b859e448f540e52eb7439116cca2ff59d8d926065b2bba5b5"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-007.md",
+      "sha256": "5cf4711dd2b1521085574e168a721de9f6afc44226cdbe48c767793b81a4a808"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-008.md",
+      "sha256": "43a5a7111108110bd59d84cf4713c71c0ddc2d547020bec5da109bd77fe2b5d5"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-009.md",
+      "sha256": "1470eb868d8c7f57a0f42a3fe0144a6b1790b479a1c3d7407a23d86f9e3538df"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260911-011.md",
+      "sha256": "d8043fcdb1388051514d7a64403770ff6c68e0f18580091976632a0e51939da3"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-001.md",
+      "sha256": "d10a766ea29b25808f8c5a7bab6aa5a8ca73d3a0109f16dfad57e9a54d321f9c"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-002.md",
+      "sha256": "72b37843437be04cc52445b397bcda1a6f5fcb43c25d39811948b5009ef5b5c8"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-003.md",
+      "sha256": "57ac4e25123a48a441f2487eb6c9faa19ea752e87c916ad31b8170e9ba84225f"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-005.md",
+      "sha256": "06014b845aca16504a203d2a202c14256cc96372cd7212d024496312bdcb948f"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-006.md",
+      "sha256": "82247418ce001272f298b9ef5a103929aeaea597724efdd01e3f54ecadc75279"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-007.md",
+      "sha256": "0fa6db420abc3626c6e89680ebef2c9922b832e26854f9f3b7f5cc1399f5880c"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-010.md",
+      "sha256": "6709b546e740c8a2f217b087d632c0531bc1757c57397ffa6eaf006a232865d9"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-011.md",
+      "sha256": "41573a0930560210e50175eb2ab2a58b534b4f846e7fe70b5c0f8848ec19e4a1"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-012.md",
+      "sha256": "d51b5e1932e938e94a395565b1ffdd7e6b4d26316b0db16f45beb692608dc8ee"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-013.md",
+      "sha256": "9f7c6c2a1647331051d387eb673dab785f448b8cc694c229eb3e5a744eef042d"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-014.md",
+      "sha256": "d980e64d2f4b530f1f372d53a2d3954ff938ef54c7409d3939dd60820699368f"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-016.md",
+      "sha256": "f8e988d6f94ce9684b8f9730832e99758922c0e40331c3e77bf7b31e5f6de3be"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-018.md",
+      "sha256": "8f18c6910e5108d40a90148c57f0e338e906af9d95caca47e585894128377174"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-021.md",
+      "sha256": "b87fc94d4b779e152a240623eefc3b66b49cf4ace6da4e0f8f52f0570cab9750"
+    },
+    {
+      "path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20260914-022.md",
+      "sha256": "72b9096c2a9ec2c9e333e9fdc2a528ce944b27a93abb53281d6d6d8b6183c87a"
+    }
+  ]
+}
