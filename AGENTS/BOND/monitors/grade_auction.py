@@ -208,7 +208,7 @@ def bench(recs, term, tips, before, n):
         v = [x[k] for x in h]
         return {"median": st.median(v), "mean": st.mean(v), "min": min(v), "max": max(v)}
     out = {"n": len(h), "from": h[0]["date"], "to": h[-1]["date"],
-           "btc": agg("btc"), "ind": agg("ind"), "dlr": agg("dlr")}
+           "btc": agg("btc"), "ind": agg("ind"), "dlr": agg("dlr"), "tips": tips}
     # MATRIX_V2 I' bar (Will-ruled 2026-08-27; print added 2026-09-09, the patch
     # SCRATCH 9/4 item 8 owed "before the OLD print retires"): indirect % of
     # competitive accepted < the tenor's own trailing-n 15th PERCENTILE, LINEAR
@@ -227,8 +227,16 @@ def bench(recs, term, tips, before, n):
         out["ind_p15_reopen_only"] = (float(_np.percentile([x["ind"] for x in ro], 15))
                                       if len(ro) >= MIN_N_FOR_GATE else None)
         out["n_reopen"] = len(ro)
-    except Exception:
+    except Exception as _e:
+        # ⛔ DO NOT make this silent again. Until 2026-09-15 this handler swallowed the
+        # failure and the tool then printed a confident VERDICT built on the OLD
+        # conjunctive test ALONE — i.e. it degraded in the FALSE-NEGATIVE direction on
+        # the GOVERNING kill leg, with no error, no warning and a clean exit. Found on
+        # the 9/15 20Y-R, where the OLD test read "does NOT meet the failure test" while
+        # I' fired by -9.25pp. The cause is environmental (numpy absent outside .venv),
+        # which is exactly the condition under which a grader gets run in a hurry.
         out["ind_p15"] = None; out["ind_p15_reopen_only"] = None; out["n_reopen"] = 0
+        out["ind_p15_error"] = f"{type(_e).__name__}: {_e}"
     return out
 
 
@@ -247,6 +255,11 @@ def show_bars(b, label):
         alt = (f"  (reopening-only alt {b['ind_p15_reopen_only']:.2f}, n={b['n_reopen']}; POOLED governs)"
                if b.get("ind_p15_reopen_only") is not None else "")
         print(f"    ⇒ I' (MATRIX_V2, 8/27)     : indirect < {b['ind_p15']:.2f}%  [P15 linear over the same window, STRICT]{alt}")
+    elif b.get("ind_p15_error") and not b.get("tips"):
+        print(f"    ⛔ I' (MATRIX_V2, 8/27) NOT COMPUTED — {b['ind_p15_error']}")
+        print(f"       THIS IS NOT A PASS. I' is the GOVERNING composition test; the OLD")
+        print(f"       conjunctive line above is retained only for the TLT-put ADD re-arm.")
+        print(f"       Re-run inside the repo venv (source .venv/bin/activate) before grading.")
     if b["n"] < MIN_N_FOR_GATE:
         print(f"    🔴 n={b['n']} < {MIN_N_FOR_GATE}: THIN BASE — this cannot support a composition gate.")
         print(f"       Report as a LEVEL read against its own thin base rate; do NOT set a gate.")
@@ -352,6 +365,9 @@ def main() -> int:
           f"({r['dlr']:.2f} vs {b['dlr']['max']:.2f}, margin {r['dlr']-b['dlr']['max']:+.2f}pp)")
     print(f"    BTC     below trailing-{b['n']} MIN ? {'YES' if cover else 'NO'}  "
           f"({r['btc']:.2f} vs {b['btc']['min']:.2f}, margin {r['btc']-b['btc']['min']:+.2f})")
+    if b.get("ind_p15") is None and b.get("ind_p15_error") and not r["tips"]:
+        print(f"    ⛔ I' indirect below P15 (MATRIX_V2) ? NOT COMPUTED — {b['ind_p15_error']}")
+        print( "       ⚠️ THE GOVERNING TEST DID NOT RUN. Do not read the verdict above as 'nothing fired'.")
     if b.get("ind_p15") is not None and not r["tips"]:
         ip = r["ind"] < b["ind_p15"]
         print(f"    I' indirect below P15 (MATRIX_V2) ? {'YES — 🟠 STANDALONE MARKER' if ip else 'NO'}  "

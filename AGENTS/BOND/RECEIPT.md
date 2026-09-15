@@ -1,41 +1,42 @@
-# BOND — RUN RECEIPT (overwritten each run)
+# BOND RUN RECEIPT — 2026-09-15 (Tue) ~10:0x–13:4x ET
 
-**Session:** 2026-09-14 (Mon) ~13:0x–15:4x ET · **PROME WQ-184 Tier-1 L0 spawn, DOCKET L357** · markets OPEN · desk was dark 9/10→9/14. **CLOSED OUT at Will's word (terminal shutdown), 15:4x.**
+**Driver:** PROME WQ-184 Tier-1 L0 spawn on **`PROME/DOCKET.tsv` L316** (dated today, names BOND). Overwritten each run.
 
-## Tasked deliverable — DISCHARGED
-🔴 **`BND-22` GRADED FALSE**, breached by 5bp (`DFII10` **2.55 [2026-09-10]**, +9bp in one session). Pre-written `If_Falsified_Action` executed in full: breach protocol steps 1–5, decomposition, **no add, no proposal, `$0` moved.**
+## TASKED DELIVERABLE — L316
 
-## Data provenance
-All load-bearing figures pulled at BOND's **own** primaries — `boot_recompute.py` cache-busted **13:03 ET**, `fetch.fred_fetch` with explicit limits, NY Fed `/pd` API, live yfinance. PROME's relayed figures were **re-pulled, not adopted** (root rule #4); all reproduced exactly.
-
-## Work delivered
-| # | item |
+| Leg | State |
 |---|---|
-| 1 | `BND-22` FALSE + calibration write-up (55% on the wrong side; *the row out-argued its own number*) |
-| 2 | 🔴 **Spec defect escalated to Will:** the add-gate's "sustained" has **no session count** ⇒ unfireable, and it does not fail safe. **Count NOT set by me** — the level is already through. `WQ-246`. |
-| 3 | **LEVEL vs SUSTAINED answered:** TERRY's card is right, mine is the underspecified one; both terminate at NO ADD today |
-| 4 | **WQ-157 leg ② premises CLOSED, both favourably** — ceiling **n=244** (VERIFIED); SBN pooling **defensible** (INFERRED) ⇒ the 2022–23 stress half survives |
-| 5 | **The PATH read** — the curve prices **~115–130bp more tightening**, terminal ~4.75–4.95%, no cut in 3yrs; asymmetry runs **against** a short-duration book |
-| 6 | **Book RE-ARMED: 5 predictions pre-FOMC**, each base-rated *before* the confidence; one candidate **declined as padding** |
-| 7 | **Two self-corrections** — the CCC leg/gap conflation, and the withdrawn buyback-cover inference |
+| 9/15 20Y-R `912810UX4` — grade against pre-frozen bars | ✅ **DELIVERED.** `I'` FIRED both conventions (−9.25pp / −12.20pp); OLD conjunctive NOT fired (dealer −0.74pp); cover not fired; counter RESET 2→0. **🟠 marker, NOT a kill.** |
+| 9/17 10Y TIPS-R `91282CRE3` — confirm bars frozen, **do not grade** | ✅ **CONFIRMED, NOT GRADED**, as instructed. ind <56.08 AND dlr >17.79 · cover <2.20 · no `I'` bar. Size **$19B** resolved from "TBA" at the primary. |
+| Pre-print half worked before the result existed | ✅ Committed `f1266a416` at **10:06:44 ET**; auction 13:00. |
+| September blind span 9/11→9/30 | ✅ Already docketed. **October span found UNDOCKETED and closed — 7 rows.** |
 
-## Checks
-| check | rc | |
-|---|---|---|
-| `kb_lint` | **0** | ✅ |
-| `closeout_check` (3/3) | **0** | ✅ — its FILE-STATE leg caught my own SCRATCH line going false mid-session |
-| `docket_check` | **0** | ✅ *(was 1 — four undocketed 9/22–24 CUSIPs added)* |
-| `corrections_boot_check` | **0** | ✅ *(was 1 BLOCK — `COR-20260910-02` receipted APPLIED)* |
-| `read_cap_check` | **0** | ✅ *(STATUS and PREDICTIONS both rotated back under budget)* |
-| `boot_recompute` | **1** | ⚠️ **DECLARED RESIDUE** — literal matches on correctly-labelled dated history. **Expected rc=1 next boot; read the SCRATCH residue note BEFORE "fixing" it.** |
+## FILES WRITTEN
 
-## Mail
-**General inbox 3 → 0** (PROME · MIDAS · RED). **WALTER lane 16 → 0 in TWO waves** — 6 at boot, **10 more arrived mid-session**. Both `action:` items handled (`SIG-014` buyback underfill; `SIG-010` GPIF capacity). **Out: 3 packets** — TERRY, WALTER, PROME.
-⚠️ **With a live WALTER, an inbox count is a MOMENT property, not a session fact.**
+- `analysis/2026-09-15_PREPRINT_20Y-R_912810UX4_and_TIPS-R_91282CRE3.md` (13,012 B, crc32 `3845596360`) — **pre-print, committed before the auction**
+- `analysis/2026-09-15_GRADE_20Y-R_912810UX4.md` (11,113 B, crc32 `2212910547`)
+- `STATUS.md` (32,537 B, 100% of budget) · `SCRATCH.md` (11,744 B, crc32 `3907279351`) · `RECEIPT.md`
+- `docket/CATALYSTS.tsv` (32,338 B) · `monitors/AUCTION_HEALTH.md` · `monitors/grade_auction.py` (defect patched)
+- `workbook/KB.tsv` +6 rows (**KB-BND-287 … KB-BND-292**) · `thesis/PREDICTIONS.tsv` (`BND-28` → TRUE)
+- `thesis/THESIS.md` → **v1.2.6** (H1 drift `v1.2.3` vs Version `1.2.5` corrected) · `thesis/CHANGELOG.md`
+- `domain/sources/` ×5 rotations, all verbatim + crc-stamped (see SCRATCH item 0)
 
-## Position
-⛔ **UNCHANGED — TLT puts HOLD, no add, `$0`. No order, no threshold set, moved or shaved.** Will's 7/16 NO-ADD · `WQ-168 ④` · root rule #5.
+## CHECKS
 
-## Owed after this session
-🔴 **WILL:** the add-gate's "sustained" session count (`WQ-246`).
-🔴 **BOND next boot:** grade `BND-25`/`BND-26` off the 9/16 session · `BND-28` ceiling **9/18 17:00 ET** · **9/15 20Y-R** (`I'` 61.72, downgrade counter's 3rd chance at 2) · **9/16 FOMC + SEP** (pre-registered falsifier: terminal ≥~5.00% ⇒ my asymmetry read is wrong) · **9/18 FR2004 join — premises closed, build UNSTARTED** · reply to RED on FT-11's relative leg · CME-primary priced probability.
+| Check | Result |
+|---|---|
+| `docket_check.py` | **rc=0**, MISSING 0. ⚠️ Coverage PROVEN only through 9/24 — rc=0 is NOT "window covered" |
+| `boot_recompute.py` | **rc=1**, 13 → **11** findings; the 2 substantive STATUS distances cleared, remaining 11 are **declared residue** (correctly-stamped dated history) |
+| `kb_lint.py` | **rc=0** (caught my `Epistemic='VERIFIED'` off-enum on first write — SCHEMA read skipped, then done) |
+| `corrections_boot_check.py` | **rc=0** |
+| `read_cap_check.py --agent BOND` | **rc=0** after rotation (I had pushed CATALYSTS to 124% of budget by repeating a ~1.1 KB provenance block in 7 rows — self-inflicted, deduplicated) |
+| `grade_auction.py --selftest` | ⛔ **DOES NOT EXIST** — today's repair has no regression guard. Owed. |
+
+## GIT
+
+Commits (all pathspec-scoped to `AGENTS/BOND/`, no `git add .`/`-A`, no bare commits — FERT held staged renames in the shared index for part of the session): `f1266a416` · `63b6abbac` · `dfe5e0f0c` (all membership-verified on origin by PROME) + the closeout commit.
+
+## OUTBOX / MAIL
+
+**In 0 · Out 2 to PROME** (`SendMessage`: pre-print interim, then grade + COMPLETION). No packet written to another desk's `inbox/`.
+🔴 **STILL OWED: the F2 buyback read to RED** — the 9/10 op has published, RED's FT-11 v1.1 is gated on it and will not rebuild.

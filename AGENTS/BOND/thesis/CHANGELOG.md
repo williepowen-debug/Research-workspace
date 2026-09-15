@@ -4,6 +4,24 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.6 — 2026-09-15 (**the `I'` composition test FIRES FOR THE FIRST TIME — and it is a 🟠 marker, not a kill, by a rule written before the print; `BND-28` TRUE**)
+
+**Old view → new view:** v1.2.5 left the `I'` test adopted (Will-ruled 8/27) but **never fired** — every graded print since had cleared it, the closest being the 8/27 7Y at +3.54pp. **On 2026-09-15 the 20Y-R `912810UX4` ($13B) printed indirect 52.47% against a bar of 61.72 frozen 2026-09-09 — FIRED by −9.25pp, and by −12.20pp against the reopening-only alt, so both conventions agree and this is not the ambiguous band case.** The thesis's composition leg is therefore LIT for the first time.
+
+**⛔ AND IT CHANGES NO POSITION, BY A CEILING WRITTEN BEFORE THE RESULT EXISTED.** From 2026-09-11 the kill is **PAIRED** — `I'` **AND** a non-auction mechanism confirmation (WQ-157 leg ①) — and the pairing instrument, the **FR2004 weekly join (leg ②), is UNBUILT, dated 9/18**. The ceiling was registered in a pre-print record committed at **10:06:44 ET, before the auction existed**, precisely so a bearish print could not be promoted afterwards. **A live `I'` fire now sits on the other side of an unbuilt instrument — that is the thesis's sharpest open gap.**
+
+**🔑 THE COMPOSITION READ IS A SUBSTITUTION, NOT A WITHDRAWAL, AND THIS QUALIFIES THE FOREIGN-DEMAND CHANNEL.** Indirect **52.47% is the LOWEST on any 20Y in the TreasuryDirect feed**; **direct 30.68% is the HIGHEST of the modern series (n=78)** — in the same print. Dealers took 16.85%, **below** the trailing-12 max (17.59) and below the 18% contrarian-bullish line; **BTC 2.57, fully covered.** ⇒ **the mechanism did NOT fail.** The high yield **5.4200% is the richest any 20Y has ever cleared at in the modern series**: the indirect bid stepped back at a record yield while domestic real money took the other side. **The thesis's 'foreign demand steps away' channel gains its first composition evidence AND simultaneously gains its strongest qualifier — someone still cleared it, at size, at the highest yield on record.**
+
+**⚠️ ATTRIBUTION IS NOT SETTLED AND THE PRE-REGISTRATION BINDS THIS DESK.** It was registered before the print that a WEAK result would be **FOMC-confounded** (the SEP/dot plot lands 9/16) and that the STRONG result was the high-information one. The weak result arrived, so **its informativeness may not now be promoted.** But the signature does not match pure deferral — deferral predicts weak cover and stuffed dealers; cover held and direct set a record. **Both readings stay live and this print does not separate them.**
+
+**⬜ The OLD conjunctive test did NOT fire** (dealer leg missed by 0.74pp) — it is calibrated to reproduce ONE auction (2026-02-18) and today was worse on indirect, better on dealer. **This is the first live print where the two tests disagree in verdict**, the strongest evidence yet that the 8/27 ruling changed something real. **The TLT-put ADD re-arm keys on the OLD test, so the add is NOT re-armed.** Convergence-downgrade counter **RESET 2 → 0**; no trim signal.
+
+**`BND-28` RESOLVED TRUE** (80% ⇒ a hit): FRED published the 9/11 `DFII10` cell at **2.60**, so the four-day H.15 stall was a release artifact as its registration argued. The add-gate breach **EXTENDED to +10bp through**; "sustained" still has no session count (**WQ-246, with Will**). **Position UNCHANGED: TLT puts HOLD, no add, `$0`.**
+
+**Record:** `analysis/2026-09-15_GRADE_20Y-R_912810UX4.md` · pre-print `analysis/2026-09-15_PREPRINT_20Y-R_912810UX4_and_TIPS-R_91282CRE3.md` · `KB-BND-290/291/292`.
+
+---
+
 ## v1.2.5 — 2026-09-14 (**the add-gate's LEVEL leg fires for the first time — and it fires through the WRONG CHANNEL; `BND-22` FALSE; the gate is found to be unfireable as written**)
 
 **Old view → new view:** v1.2.4 left `BND-22` OPEN with the 9/10 `DFII10` cell unpublished and the add-gate described as the desk's one live decision number. **`DFII10` closed 2.55 on 2026-09-10 — 5bp THROUGH the 2.50 line, +9bp in a single session, the first breach in the position's life. `BND-22` RESOLVED FALSE**, registered at 55% on the no-breach side ⇒ **a miss**, and graded **four days late**.
