@@ -1,0 +1,60 @@
+READS [WALTER] — budget 32,550 B · cap 54,250 B · perimeter: 22 cap-bearing + 16 declared-not-bearing = 38 live read(s) · basis 17 surface(s) · manifest ⛔ ATTESTATION STALE (dated 2026-09-08)
+  ⛔ STALE ATTESTATION: 'AGENTS/WALTER/CLAUDE.md' was committed 2026-09-14, AFTER the attestation dated 2026-09-08 — a boot-defining surface moved, so the enumeration may be missing a dependency. Re-enumerate and re-attest.
+  ⚠️  MODE IS A SELF-ASSERTED CLAIM — 8 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:
+       · AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (97,204 B) declared `scoped` at WALTER:6b by WALTER
+       · BOARD/INDEX.md (501,175 B) declared `scoped` at WALTER:7 by WALTER
+       · AGENTS/WALTER/tools/walter_doctor.py (156,737 B) declared `summary` at WALTER:0.5 by WALTER
+       · PROME/tools/reads_check.py (45,998 B) declared `summary` at WALTER:1 by WALTER
+       · scripts/read_cap_check.py (97,373 B) declared `summary` at WALTER:1 by WALTER
+       · FORGE/tools/market-data/fetch.py (76,505 B) declared `summary` at WALTER:6c by WALTER
+       · AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv (59,079 B) declared `grep` at WALTER:7d by WALTER
+       · AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md (131,600 B) declared `scoped` at WALTER:6c by WALTER
+  ✅ AGENTS/WALTER/anchors/IRAN_WAR.md                       23,720 B    73% of budget   (whole, WALTER:1)
+  ✅ AGENTS/WALTER/REGISTRY.tsv                              23,574 B    72% of budget   (whole, WALTER:4)
+  ✅ AGENTS/WALTER/design/ROUTING_OVERLAYS.md                22,785 B    70% of budget   (whole, WALTER:6)
+  ✅ AGENTS/CREED/registry/THRESHOLDS.tsv                    22,475 B    69% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/STATUS.md                                 21,537 B    66% of budget   (whole, WALTER:1)
+  ✅ AGENTS/WALTER/design/ROUTING_TABLE.md                   18,637 B    57% of budget   (whole, WALTER:6)
+  ✅ AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv     16,608 B    51% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/MEMORY.md                                 14,518 B    45% of budget   (whole, WALTER:2)
+  ✅ AGENTS/WALTER/design/THRESHOLD_SCAN.md                  14,502 B    45% of budget   (whole, WALTER:6c)
+  ✅ AGENTS/HANS/registry/THRESHOLDS.tsv                     12,779 B    39% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/LAST_COMPLETION.md                         9,005 B    28% of budget   (whole, WALTER:3)
+  ✅ AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv                8,074 B    25% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv              7,808 B    24% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/design/EVENT_WINDOW_STATE.md               6,157 B    19% of budget   (whole, WALTER:7b)
+  ✅ PROME/state/ORCH_INFLIGHT.md                             4,599 B    14% of budget   (whole, WALTER:9b)
+  ✅ AGENTS/REGINALD/registry/THRESHOLDS.tsv                  3,523 B    11% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv       1,924 B     6% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv      1,792 B     6% of budget   (whole, WALTER:6b)
+  ✅ AGENTS/WALTER/inbox/DEWEY/*                             1 files  largest 1,558 B (5%) = AGENTS/WALTER/inbox/DEWEY/README.md  total 1,558 B  (whole, WALTER:7d)
+  ⚠️  AGENTS/WALTER/inbox/WILL/*                             10 files  largest 157,945 B (485%) = AGENTS/WALTER/inbox/WILL/shanghai crude.jfif  total 600,121 B  (whole, WALTER:7f)
+  ⇢  RESEARCH-INTAKE/phone_inbox/signal_*.md               EXTERNAL     another repo — declared for visibility, not byte-graded here (whole, WALTER:7e-f)
+  ⇢  AGENTS/WALTER/outbox/REQ-*.md                          0 files     conditional class row — no match today under existing dir AGENTS/WALTER/outbox/; the read fires only when a file lands, so it measures nothing until then (whole, WALTER:9)
+  ·  AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv          97,204 B   scoped       (WALTER:6b)  ❓ 299% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  ·  BOARD/INDEX.md                                         501,175 B   scoped       (WALTER:7)  ❓ 1540% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  · AGENTS/*/STATUS.md                                     39 files  largest 53,385 B (164%) = AGENTS/CARL/STATUS.md  total 1,099,226 B  (scoped, WALTER:8)
+       ℹ️  4 match(es) over budget, excluded by the declared `scoped` mode — largest is AGENTS/CARL/STATUS.md
+  ·  PROME/STATUS.md                                         20,735 B   scoped       (WALTER:8)
+  · AGENTS/*/handoff_WALTER/LIAISON.md                      2 files  largest 67,806 B (208%) = AGENTS/RED/handoff_WALTER/LIAISON.md  total 113,875 B  (scoped, WALTER:9)
+       ℹ️  2 match(es) over budget, excluded by the declared `scoped` mode — largest is AGENTS/RED/handoff_WALTER/LIAISON.md
+  ·  AGENTS/WALTER/tools/walter_doctor.py                   156,737 B   summary      (WALTER:0.5)  ℹ️  482% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/tools/intake_scan.py                      14,046 B   summary      (WALTER:7e)
+  ·  AGENTS/WALTER/tools/phone_scan.py                        9,632 B   summary      (WALTER:7e-f)
+  ·  scripts/corrections_boot_check.py                       14,765 B   summary      (WALTER:9a)
+  ·  PROME/tools/reads_check.py                              45,998 B   summary      (WALTER:1)  ℹ️  141% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  scripts/read_cap_check.py                               97,373 B   summary      (WALTER:1)  ℹ️  299% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  FORGE/tools/market-data/dashboard.py                    22,917 B   summary      (WALTER:6c)
+  ·  FORGE/tools/market-data/fetch.py                        76,505 B   summary      (WALTER:6c)  ℹ️  235% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv    59,079 B   grep         (WALTER:7d)  ℹ️  182% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.
+  ·  AGENTS/WALTER/registry/corrections_receipts.tsv             39 B   grep         (WALTER:9a)
+  ·  AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md         131,600 B   scoped       (WALTER:6c)  ❓ 404% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/shanghai crude.jfif is 157,945 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/Data Center CMBS.JPG is 131,308 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/four poists from twitter.JPG is 100,618 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/Yemen HOUTHIS YASSREF.JPG is 78,988 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/MAX OTTE OIL INVENTORIES.jfif is 64,968 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+  🔴 FINDING: AGENTS/WALTER/inbox/WILL/HSO_4w6WwAAC0NV.jfif is 64,968 B — OVER THE PHYSICAL CAP on a `whole` read declared by WALTER
+❓ READS-CAP UNKNOWN [WALTER]: 22 cap-bearing row(s) checked, but WALTER attested on a date its own boot protocol has since moved past — this is a partial perimeter, never a clean bill.
+
+EXIT_CODE=1

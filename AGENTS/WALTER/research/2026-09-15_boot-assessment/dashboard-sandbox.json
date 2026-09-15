@@ -1,0 +1,483 @@
+{
+  "timestamp": "2026-09-15T14:34:08Z",
+  "results": [
+    {
+      "name": "HY OAS",
+      "agent": "REGINALD/LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "X1 >280 master; <260x2closes=bear-axis kill; 350=issuance freeze",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "CCC OAS",
+      "agent": "LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "Forced selling regime",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "Brent (BZX26 Nov)",
+      "agent": "HENRY",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "Hormuz closed",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "Gas (wkly)",
+      "agent": "HENRY/CARL",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "$4=behavioral breakpoint",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "USD/JPY",
+      "agent": "SAM",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "160=MOF intervention",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "Init Claims",
+      "agent": "LABOR",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "Cont Claims",
+      "agent": "LABOR",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "SOFR",
+      "agent": "LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "Quarter-end sensitive",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "10Y Yield",
+      "agent": "LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": ">4.40 sustained=AOCI path-(b) confirm; 5.0%=danger level",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "CP-TBill Spread",
+      "agent": "LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "LIBOR-OIS replacement #1. 1.50+=alarm, 3.0+=GFC",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "SOFR-IORB",
+      "agent": "LIQUID",
+      "tier": 1,
+      "direction": "higher_worse",
+      "notes": "Reserve scarcity. >+5bps=watch, >+25bps=alarm",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "formatted": "N/A"
+    },
+    {
+      "name": "Cushing",
+      "agent": "BRENT",
+      "tier": 1,
+      "direction": "lower_worse",
+      "notes": "<20M bbl = operational min / WTI dislocation (ROUTING_TABLE Boundary #3)",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "formatted": "N/A"
+    },
+    {
+      "name": "KRE",
+      "agent": "LIQUID",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "$60=major support (red); re-centered to ~75 regime 6/26",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "APO",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Short thesis \u2014 \ud83d\udd34=stress working",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "ARES",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Short thesis \u2014 \ud83d\udd34=stress working",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "OZK",
+      "agent": "REGINALD",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Short thesis; re-centered to ~52 regime 6/26",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "WAL",
+      "agent": "REGINALD",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Fast-transmission; path-(c) single-name; re-centered to ~82 regime 6/26",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "TLT",
+      "agent": "LIQUID",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "30Y approaching 5%",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "BIZD",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "BDC ETF \u2014 ABX equivalent. NAV discount = PC stress",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "ARCC",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Wrapper basket; absolute placeholder \u2014 true trigger is RELATIVE (leads managers down)",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "FSK",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Wrapper basket; absolute placeholder \u2014 true trigger is RELATIVE (leads managers down)",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "OBDC",
+      "agent": "BROCK",
+      "tier": 2,
+      "direction": "lower_worse",
+      "notes": "Wrapper basket; absolute placeholder \u2014 true trigger is RELATIVE (leads managers down)",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "VIX",
+      "agent": "REGINALD",
+      "tier": 2,
+      "direction": "higher_worse",
+      "notes": ">30=regime change",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    },
+    {
+      "name": "MOVE",
+      "agent": "VIOLET/HENRY",
+      "tier": 2,
+      "direction": "higher_worse",
+      "notes": "Rates-vol (ICE BofAML). Yahoo feed is SPARSE (days can be missing) \u2014 check the print's date, not just the value; direction/streak vs VIX is the live read (HEN-40 / VIOLET vol node)",
+      "value": null,
+      "zone": "unknown",
+      "emoji": "\u26aa",
+      "date": null,
+      "prev": null,
+      "change": null,
+      "shadow": null,
+      "error": "'NoneType' object is not subscriptable",
+      "formatted": "N/A"
+    }
+  ],
+  "transitions": {
+    "HY OAS": [
+      "yellow",
+      "unknown"
+    ],
+    "CCC OAS": [
+      "red",
+      "unknown"
+    ],
+    "Brent (BZX26 Nov)": [
+      "red",
+      "unknown"
+    ],
+    "Gas (wkly)": [
+      "red",
+      "unknown"
+    ],
+    "USD/JPY": [
+      "yellow",
+      "unknown"
+    ],
+    "Init Claims": [
+      "green",
+      "unknown"
+    ],
+    "Cont Claims": [
+      "green",
+      "unknown"
+    ],
+    "SOFR": [
+      "yellow",
+      "unknown"
+    ],
+    "10Y Yield": [
+      "red",
+      "unknown"
+    ],
+    "CP-TBill Spread": [
+      "green",
+      "unknown"
+    ],
+    "SOFR-IORB": [
+      "green",
+      "unknown"
+    ],
+    "Cushing": [
+      "yellow",
+      "unknown"
+    ],
+    "KRE": [
+      "green",
+      "unknown"
+    ],
+    "APO": [
+      "yellow",
+      "unknown"
+    ],
+    "ARES": [
+      "yellow",
+      "unknown"
+    ],
+    "OZK": [
+      "green",
+      "unknown"
+    ],
+    "WAL": [
+      "green",
+      "unknown"
+    ],
+    "TLT": [
+      "red",
+      "unknown"
+    ],
+    "BIZD": [
+      "red",
+      "unknown"
+    ],
+    "ARCC": [
+      "yellow",
+      "unknown"
+    ],
+    "FSK": [
+      "red",
+      "unknown"
+    ],
+    "OBDC": [
+      "red",
+      "unknown"
+    ],
+    "VIX": [
+      "green",
+      "unknown"
+    ],
+    "MOVE": [
+      "green",
+      "unknown"
+    ]
+  },
+  "summary": {
+    "red": 0,
+    "yellow": 0,
+    "green": 0
+  }
+}

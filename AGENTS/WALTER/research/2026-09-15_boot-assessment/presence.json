@@ -1,0 +1,43 @@
+{
+  "observed_at": "2026-09-15T14:33:20.192026+00:00",
+  "host": "DESKTOP-BC6EF81",
+  "processes": [
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 1,
+        "start_ticks": "252116",
+        "state": "S",
+        "boot_id": "931a0d17-0a57-455d-98bf-95fae24cfb18",
+        "pid_namespace": "pid:[4026532305]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    }
+  ],
+  "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN",
+  "codex": {
+    "state": "UNKNOWN",
+    "reason": "No explicit app-server endpoint supplied"
+  },
+  "pid1": "codex",
+  "visible_memory": {
+    "MemTotal": "11213468 kB",
+    "MemAvailable": "8086628 kB",
+    "SwapTotal": "16777216 kB",
+    "SwapFree": "16732520 kB"
+  },
+  "claude": [
+    {
+      "id": "6cf5e598",
+      "sessionId": "6cf5e598-a455-4a5b-ba03-9105ffe56186",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/PROME",
+      "kind": "background",
+      "pid": null,
+      "state": "blocked",
+      "status": null,
+      "waitingFor": null
+    }
+  ]
+}
