@@ -63,9 +63,9 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-15 follow-through
+### CHANGES SINCE LAST SESSION — 2026-09-15 full closeout
 
-Prior repairs remain documented in resolution-pass/RESULTS.md. Follow-through retired the obsolete $100 price-only guard, verified explicit BRENT deferments, found no safe cold exclusion, then repaired that selected read with an independently reviewed compact companion and hash/date/budget guard (signal-reading/RESULTS.md), and prepared a hashed baseline/analysis plan for the September30 INFO study. Early Iran source check does not reset9/17. Current exact obligations: LAST_COMPLETION.md; evidence: research/2026-09-15_follow-through/RESULTS.md.
+Approved repairs and reviewed reading companion are complete and published;29/29 handoffs delivered. Ten companion tests and current read/hash checks passed; source/owner gaps remain separate. Doctor0HIGH/2MED at closeout, Will drop-zone0. BRENT chart review closed UNVERIFIED with no further Will ask; cargo quantities/replacements unresolved. Next obligations and sole existing month-basis decision live in LAST_COMPLETION.md. September16 owner review, ~September17 full Iran sweep and September30 study/companion recheck remain.
 
 ### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
 

@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated 2026-09-15 — WALTER full closeout.** BOARD982; nine September15 signals,29/29 required handoffs verified delivered, two kills. No new dispatch at closeout. Repair evidence: `research/2026-09-15_signal-reading/RESULTS.md`; final receipt: `research/2026-09-15_closeout/`.
+**Updated 2026-09-15 — Codex WALTER, Will-approved resolution pass.** Nine BOARD signals (`SIG-W-20260915-001`–`009`), 29 required recipient handoffs, two kills. BOARD **982**. Original six-image batch CLOSED 7/7 content items; the later private-credit image separately dispositioned. Evidence: `research/2026-09-15_resolution-pass/RESULTS.md`.
 
 ## BOTTOM LINE
 
-Approved repairs and the reviewed reading companion are complete and on origin. All29 handoffs are delivered. Operational market coverage remains PARTIAL; dated observations below are historical snapshots, not a new closing-price scan. Doctor0HIGH/2MED (retained NOTE exceptions and aged owner handoffs). Remaining work: owner evidence review September16, full Iran sweep aboutSeptember17, and September30 study/companion review. Contract-month choice for #6/#8 remains with Will.
+Follow-through retired the obsolete $100 price rejection, checked owner receipts and froze a September30 study baseline. All29 handoffs are now verified delivered, including the five BRENT copies (b7a187129). BRENT recovered the cargo report and integrated IATA basis; quantitative cargo gaps and Shanghai comparison remain. Oversized-signal remedy completed for SIG-W-20260619-008: independently reviewed21,889B companion with hash/date/budget guard; original untouched. Other source/market gaps remain. Full Iran sweep still due about9/17. Details: `research/2026-09-15_follow-through/RESULTS.md`. Boot mechanics repaired and independently reviewed; all **45 registry rows accounted for**, but **operational market coverage remains PARTIAL**. Current owner/manual/settlement gaps are itemized in `research/2026-09-15_resolution-pass/operational-matrix.md`. No claim that all thresholds cleared. Gasoline-vs-natural-gas and WAL new-cycle errors now have corrective signals. Owner integration remains pending where no receipt exists. Original narrative preserved verbatim in `research/2026-09-15_resolution-pass/previous-STATUS.md`.
 
 ## DATED MARKET OBSERVATIONS AND OWNER CARRIES
 
@@ -32,9 +32,9 @@ Current work and next-owner actions: `LAST_COMPLETION.md`. Evidence/verification
 
 ### Today's routing + stale agents
 
-Regenerated after final REGISTRY refresh. Nine signals/29 required handoffs today, all verified delivered; no new closeout dispatch. Registry header inventory and unchanged-versus-refreshed scope: `research/2026-09-15_closeout/registry-header-receipt.json`. Registry contains 45 entries; source-header dates are metadata freshness, not fleet liveness. Fleet liveness remains UNKNOWN. No foreign dirty work at closeout start; prior reading-repair commits70a2bc593/f05cb5b20 are now on origin.
+Nine new signals,29 handoffs: exact recipients and roles in route/delivery logs. Sources remain qualified; no observed source uncertainty was promoted to a fire. Prior31 aged warnings reconciled individually:7ACTION/24INFO;29 age from delivery timestamps,2 use provisional mtime. CARL has one separately recorded consumed-but-unfiled item plus two archive residues. No recipient inbox was cleared by WALTER. `backlog-review.md` names actions, artifacts and September16 review.
 
-Doctor’s aged delivery cohort remains31 (7ACTION/24INFO); no automatic owner-completion inference. One CARL item is consumed-but-unfiled. BRENT subsequently recovered cargo reporting/IATA basis and closed Shanghai chart UNVERIFIED; quantities and actual replacement receipts remain gaps. Header reads do not clear other owner tasks. Dates and packet-level evidence remain in LAST_COMPLETION and the source reports.
+Fleet-session visibility UNKNOWN in this runtime. ORCH_INFLIGHT is datedSeptember12 and is not live-session proof. CATO and BRENT foreign dirty work observed during this pass; WALTER leaves it untouched and defers push under charter step16. Implementation0951f361e is local; five BRENT recipient-path commits await a safe write window, with exact recovery copies tracked under resolution-pass. Doctor postcommit0HIGH/26MED includes24 pending-origin copies plus two audited historical/backlog findings. Primary-owner boot/header dates are carried in REGISTRY; no new liveness inferred.
 
 ## Active LIAISON channels
 

@@ -1,0 +1,159 @@
+WALTER doctor — 2026-09-15
+========================================================================
+
+[future_timestamps]
+  ✓ INFO 439 field(s) use WALTER's approximate-minute convention (e.g. 2026-08-15T02:3xZ) — a KNOWN convention, NOT a defect and NOT silently passed. ⚠️ The DATE part is still fully validated: the `x` is a claim about PRECISION, not a waiver. Tolerable because the age basis slices [:10] and reads that date; a defect the day any consumer needs the minute.
+
+[version_drift]
+  ✓ INFO all core specs match STATE.md §1
+
+[claude_md_version_drift]
+  ✓ INFO Registered table/inline CANONICAL version claims match spec headers (2 claim(s) checked across 2 file(s))
+
+[restated_set_drift]
+  ✓ INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 12; checks = 35)
+
+[board_reconcile]
+  ✓ INFO BOARD reconciles: 982 signals (ToC = sections = files = TOTAL)
+
+[log_reconcile]
+  ✓ INFO route_log reconciles with BOARD (982 signals)
+  ✓ INFO delivery_log: all 691 delivered SIG-ids have a BOARD file (post-6/17 coverage)
+  ⚠ MED  delivery_log: 20 non-dispatch NOTE row(s) outside the signal schema, preserved for audit; NOT BOARD-reconciled. Review note-versus-actionability classification; no new note telemetry authorized by this check. These are not malformed SIG ids.
+
+[cron_liveness]
+  ✓ INFO FORGE/tools/news-sweep/latest.md: 121d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+  ✓ INFO FORGE/tools/filing-watch/latest.md: 131d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+  ✓ INFO SIGNALS/inbound.md: 105d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input
+
+[intake_liveness]
+  ✓ INFO lane live (last_run 2026-09-14T19:44:19Z, 1d / 1 missed weekday run(s), 6 feeds ok); gate via boot-7e intake_scan.py
+
+[cushing_capability]
+  ✓ INFO EIA key present (Cushing/Boundary-#3 scan live)
+
+[outbox_age]
+  ✓ INFO 2026-08-28_to-DAEDALUS_P1-read-cap-measured-live-cost.md: 18d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_board-index-cutover-receipt.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_boot-maintenance.md: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_closeout-validation.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_codex-owner-catchup-completion.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_codex-owner-progress.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-cross.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-self.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-skew-self.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_consumer-skew.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_created-paths.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_diff-hygiene.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_doctor-results.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_energy-and-yen-follow-through.md: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_evening-boot-skew-receipt.json: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_evening-boot.md: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_file-sweep.md: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_inbox-dispositions.tsv: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-after.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-dispositions.tsv: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intake-inputs.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_intended-git-paths.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_news-catchup-validation.json: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_news-catchup.md: 6d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_previous-completion-carry.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_read-cap-results.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_registry-header-receipt.json: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_regression-results.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_source-and-consumer-receipt.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_verify-intake-memory.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_verify-intake-other.md: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-08_version-drift-results.txt: 7d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-14_boundary-6-8-month-basis-RECOMMENDATION-to-Will.md: 1d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO 2026-09-15_boot-assessment.md: 0d since mtime (outbox artifact; disposition not inferred)
+  ✓ INFO VERIFY-20260831-iran-weekend-claims.md: 15d since mtime (outbox artifact; disposition not inferred)
+
+[registry_staleness]
+  · LOW  Tier-1 registry-date >14d (3): YEYOU (26d), FLG (18d), OZK (15d) — see registry_lag to tell dormant from lagging
+
+[registry_lag]
+  · LOW  BRENT: registry 2026-09-14 < last commit 2026-09-15 (0d ago, +1d) → refresh row
+  ✓ INFO dormant — registry accurate, not lagging (6): ATHENA (185d), SENTRY (129d), YEYOU (26d), SHADE (18d), FLG (18d), OZK (15d)
+  ✓ INFO no STATUS.md — dir-fallback unreliable (may be cross-agent commits), NOT flagged: DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +4d vs 2026-09-10), RAV (dir +3d vs 2026-08-02)
+  ✓ INFO incidental STATUS touch, not a real lag (2): BOND (commit 2026-09-15 but STATUS hdr 2026-09-14 ≤ reg 2026-09-14), MARCO (commit 2026-09-03 but STATUS hdr 2026-09-02 ≤ reg 2026-09-02)
+
+[registry_self_lag]
+  ✓ INFO WALTER self REGISTRY row is current vs STATUS.md header
+
+[liaison_enum]
+  ✓ INFO LIAISON files (2): CARL 133d · RED 101d
+
+[delivered_but_unconsumed]
+  · LOW  CONSUMED but never filed to processed/ — the recipient's OWN board_log records these, so they are filing hygiene, NOT a consume-gap: CARL 1 — excluded from the unconsumed count below (they were being counted)
+  · LOW  pull-complete agents (WALTER skips delivery per §3.5) have handoffs to ARCHIVE not consume: CARL 2 — owner filing review (one-time; if NEW, WALTER mis-delivered)
+  ⚠ MED  31 unconsumed >2d across 10 agents (of 172 in flight — the rest are within the grace period, NOT evidence they are consumed) — 7 ACTION / 24 INFO, oldest ACTION 11d · oldest INFO 18d: ZHAO 6(5A/1I); MARCO 3(1A/2I); CARL 1(1A/0I); SHADE 8; HANS 3; HAWK 3; LABOR 2; CREED 2; NEXUS 2; FLG 1 [age from delivery_log.timestamp_routed, 4 on mtime across the full delivered-file scan (not the aged-warning denominator; no delivery_log row)] [+1 non-dispatch file(s) OUT OF SCOPE — DEWEY/2026-07-02_BATCH-2_MANIFEST.md 58d; owned by their own ledgers, not this check] — ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear
+
+[board_log_path_divergence]
+  ✓ INFO REGINALD: consumption record read from `board/BOARD_LOG.tsv`, NOT the canonical `board_log.tsv` — resolved by fallback and reported so the divergence is visible; the desk is free to keep its own layout
+
+[written_but_undelivered]
+  ✓ INFO all WALTER handoffs delivered (on origin)
+
+[delivery_claim_vs_git]
+  ✓ INFO 2571 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
+
+[deep_research_pending_overdue]
+  ✓ INFO no overdue deep-research flags (1 open)
+
+[dewey_handoff_liveness]
+  ✓ INFO inbox/DEWEY/ clear — no unprocessed DEWEY handoffs
+
+[staleness_sweep_overdue]
+  ✓ INFO staleness sweep 12d ago (last 2026-09-03, ≤14d)
+
+[dropzone_pending]
+  ✓ INFO inbox/WILL/ drop-zone empty
+
+[boot_protocol_xref]
+  ✓ INFO boot-protocol xref clean (18 pointers ↔ 18 sections)
+
+[status_spine_overflow]
+  ✓ INFO STATUS.md spine at 0 lead(s) (≤5)
+
+[status_bottom_line]
+  ✓ INFO STATUS.md `## BOTTOM LINE` present (line 5) with a nonempty section
+
+[cluster_review_overdue]
+  ✓ INFO AI_INFRA_CAPEX (90) reviewed 15d ago (AI_CAPEX_AXIS_CHECK_2026-08-31.md) — within the 30d window
+  ✓ INFO large clusters never coherence-reviewed (9, >=25 signals): IRAN_HORMUZ 170 · CONSUMER_STAGFLATION 142 · BANK_COLLATERAL 133 · POSITIONING_VALUATION 113 · PC_STRESS 73 · FED_FRAMEWORK 71 · HYDROCARBON_INFRA 64 · ASIA_CHINA 58 · MISC 34 — informational, not a backlog; review is cheap and on-demand
+
+[registered_but_unrouted]
+  · LOW  Tier-2 registered but unrouted (6): ATHENA, BARON, DARWIN, HERMES, ORACLE, SENTRY — expected if spawn-on-demand; confirm it is intentional.
+
+[correction_target_declared]
+  ✓ INFO all 69 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)
+
+[batch_manifest_open]
+  ✓ INFO no OPEN batch manifests — NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped
+
+[action_line_rule]
+  ✓ INFO no §3.5.4 candidates in 131 signal(s) over 14d -- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the registered constructions is invisible here
+
+[terry_override_ratio]
+  ✓ INFO TERRY override ratio 3/16 over the trailing 90d window (SIG-W-20260811-002, SIG-W-20260820-003, SIG-W-20260822-002) — lane CLOSED by the §3.5.5 revert 2026-08-26; log read at revert; rolls off with the window
+
+[filed_vs_consumed]
+  ✓ INFO processed/ moves in 90d: 93 declared-consumed, 114 pre-grammar (upper bound only, not graded), 0 undeclared since 2026-08-20
+
+[entities_at_dispatch]
+  · LOW  SIG-W-20260828-016-RESOLVED-the-bls-gate...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-017-a-recipe-published-in...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-018-a-truncating-read-is-...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-019-rank-recipes-by-failu...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-020-the-operative-test-is...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+  · LOW  SIG-W-20260828-021-CORRECTION-the-trunca...: no `entities:` header on a post-2026-08-19 signal — mandatory at dispatch per FORMAT_SPEC v0.18
+
+[auto_load_budget]
+  ✓ INFO auto-load measured — WALTER CLAUDE.md 62,475 B (own, the only one WALTER may fix) · unconditional auto-load with root CLAUDE.md (PROME-owned) 22,633 B + fleet auto-memory index (PROME-owned) 18,831 B = 103,939 B. Reported, NOT graded: an auto-loaded charter is not a Read and does not truncate (READ_CAP.md:37), and the read cap is per surface, never joint (rule 3). There is no ruled auto-load threshold — growth here is a CONTEXT cost to watch, not a violation to clear.
+
+[index_generated_fresh]
+  ✓ INFO generated INDEX fresh (rowset c7b8e6e99e71, 982 signals; 982 live rows hashed and matched — banner AND content)
+
+========================================================================
+✗ 2 item(s) need attention (HIGH/MED). See punch-list above.
