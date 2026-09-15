@@ -1,10 +1,12 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15 13:00 ET. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, foundation feedback repairs. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
-**Session closed at Will’s request. First foundation complete:** `ebeee2832`, confirmed pushed to `origin/master`. CATO has manual startup, charter, continuity and an Astra-configured launcher. The fresh read-only startup check passed, and independent result review found no blockers; exact backend model identity and ordinary interactive use remain unverified. Will approved this first part and staged work. Fleet registration, automatic routing and the RAV succession migration remain later work; do not silently complete them during orientation.
+**First foundation complete:** `ebeee2832`, confirmed pushed to `origin/master`. CATO has manual startup, charter, continuity and an Astra-configured launcher. The fresh read-only startup check passed, and independent result review found no blockers; exact backend model identity and ordinary interactive use remain unverified. Will approved this first part and staged work. Fleet registration, automatic routing and the RAV succession migration remain later work; do not silently complete them during orientation.
+
+Will approved the local fixes responding to PROME's feedback: launcher inspection without Codex, explicit commit attribution and the self-review boundary. [Repair report and historical authorship map](runs/2026-09-15_1324_foundation-feedback.md). PROME, WALTER and BRENT are active in Will's separate windows; leave their active files alone. [PROME inbox proposal](../../PROME/inbox/2026-09-15_from-CATO_manual-integration-proposal.md) carries the remaining manual-only roster/instrument integration. Next setup action: inspect PROME's disposition when available and coordinate that bounded pass; do not infer activation from the packet.
 
 The build acceptance and verification receipt live in [the foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md). Start there if continuing CATO setup. Next setup step: review the remaining integration work with Will and complete a bounded RAV/CATO transition when that pass is requested. Do not retire RAV or transfer its old findings as live obligations merely because CATO now has a home.
 
@@ -15,6 +17,8 @@ Will wants an independent second pair of eyes, with PROME first. He cares about 
 Repository root is two directories above this home. Root AGENTS.md/CLAUDE.md describe the research fleet; USER.md describes working with Will. PROME owns coordination; domain agents own their evidence; Will owns capital decisions. `PROME/ROSTER.md` governs fleet membership. Historical onboarding and completed-work details: [September 15 Codex handoff](../../reviews/2026-09-15_codex_handoff.md), read on demand.
 
 ## Existing work — resume only as assigned
+
+The following includes work implemented by CATO's preceding Codex session, despite `PROME:` commit subjects. Use the authorship map above before selecting an independent review; further CATO checks of those same changes are author follow-up. PROME's operational obligations remain with PROME.
 
 | Work | Last established state | Next action / owner record |
 |---|---|---|

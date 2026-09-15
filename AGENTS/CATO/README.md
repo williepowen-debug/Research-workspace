@@ -18,7 +18,7 @@ bash AGENTS/CATO/launch.sh 'Review the current L333 trial evidence; report gaps 
 
 The launcher requests **`gpt-6-astra`**, starts in this directory so Codex finds its AGENTS.md, and uses workspace-write with on-request approvals. Repository access permits authorized repairs; it is not permission to edit arbitrary files. It uses the machine’s existing Codex installation/authentication and does not change global configuration or fall back to another model.
 
-Inspect the command without starting a model:
+Inspect the command without starting a model or requiring Codex on PATH (the repository, Bash and Git must still be available):
 
 ```bash
 bash AGENTS/CATO/launch.sh --check
