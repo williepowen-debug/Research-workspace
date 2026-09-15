@@ -4,17 +4,17 @@ Session:2026-09-15, Codex as WALTER; approved follow-through after the resolutio
 
 ## STATUS
 
-Current reading repair: `research/2026-09-15_signal-reading/RESULTS.md`. Current follow-through: `research/2026-09-15_follow-through/RESULTS.md`. Prior repair result: `research/2026-09-15_resolution-pass/RESULTS.md`. Prior completion preserved verbatim there as `previous-LAST_COMPLETION.md`, including every prior follow-up/design carry. Nine BOARD signals/29 required handoffs, four maintenance packets, two kills;982 signals total. Original batch CLOSED7/7; later image separately handled.
+Current follow-through: `research/2026-09-15_follow-through/RESULTS.md`. Prior repair result: `research/2026-09-15_resolution-pass/RESULTS.md`. Prior completion preserved verbatim there as `previous-LAST_COMPLETION.md`, including every prior follow-up/design carry. Nine BOARD signals/29 required handoffs, four maintenance packets, two kills;982 signals total. Original batch CLOSED7/7; later image separately handled.
 
 ## CHANGED
 
-Reading repair: compact companion + exact source/review hash guard, 10 regression tests, charter/manifest wiring and independent preservation review. Follow-through: retired WALTER’s obsolete price-only $100 rejection while retaining incident/source guards; audited owner receipts; exercised all174 lines of the oversized signal; froze ledger bytes and prepared the existing September30 study analysis plan. Early Iran source check remains partial.
+Follow-through: retired WALTER’s obsolete price-only $100 rejection while retaining incident/source guards; audited owner receipts; exercised all174 lines of the oversized signal; froze ledger bytes and prepared the existing September30 study analysis plan. Early Iran source check remains partial.
 
 Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive guards wired; exact retrospective receipt path specified/tested; all20 NOTE rows and16 chronology anomalies audited;18 own retrospective receipts. Source-qualified images dispatched; gasoline/natural-gas and WAL new-cycle errors corrected through BOARD+normal owner paths. Complete review/test details in RESULTS.
 
 ## RESULT
 
-Prior repair regression suites passed. Follow-through:21 BASIS hashes match; read-cap0 within18 measured declared reads,30 scoped/other declarations not counted. Prior doctor snapshot0HIGH/2MED (20 historical NOTE rows and31 aged handoffs as two aggregates); its five held BRENT warnings are discharged by the later verified delivery. Oversized-signal historical reading remedy COMPLETE for SIG-W-20260619-008: reviewed21,889B companion, guarded source/review hashes and whole-read boot path. Original remains canonical; other signals are not blanket-cleared. See follow-through evidence.
+Prior repair regression suites passed. Follow-through:21 BASIS hashes match; read-cap0 within18 measured declared reads,30 scoped/other declarations not counted. Prior doctor snapshot0HIGH/2MED (20 historical NOTE rows and31 aged handoffs as two aggregates); its five held BRENT warnings are discharged by the later verified delivery. Oversized-signal textual read COMPLETE but scoped-cap remedy PARTIAL; no safe cold exclusion established. See follow-through evidence.
 
 ## GAPS
 
@@ -28,7 +28,7 @@ Existing decision only: #6/#8 contract-month basis. No month selected. Frozen te
 
 1. Delivery obligation CLOSED September15:29/29 verified on origin; five BRENT rows reconciled. BRENT owns subsequent filing and unfinished research. Receipt: `research/2026-09-15_follow-through/brent-delivery-receipt.md`.
 2. September16: review owner artifacts for the seven old ACTIONs and new corrective/source packets; matrix and backlog report name exact completion surfaces. RED/HANS/CREED/PROME received maintenance requests. BROCK/RED own read-manifest re-attestation after shared basis changes.
-3. Oversized-signal repair CLOSED for SIG-W-20260619-008; independent11-obligation/13-qualification census and guarded companion replace the failed scoping attempt. September16 repair check completed early. Recheck September30 or any source/companion change; every new over-budget selected signal still triggers review. Reading-repair commit needs safe sync while foreign edits remain.
+3. September16/on oversized selected signal: scoped-cap remedy remains PARTIAL after the actual174-line read found no safe exclusions. A compact companion reading surface needs a checked relation preserving all material caveats; historical BOARD remains append-only. See signal-read-review.md; do not mistake chunked complete reading for a cap remedy.
 4. AboutSeptember17: full Iran primary sweep still owed; last full9/10, partial9/14 plus early9/15 source check; rotations/repair do not reset the clock. Source-check preserves the fresh Oman contact and unverified Axios unmanned-vessel lead for primary/date/theater/novelty verification; neither graded as an event.
 5. September30: INFO-backlog study and existing registered review retained. Prospective analysis plan and hashed September15 ledger baseline now in follow-through. Gather subsequent observed snapshots/outcomes; no outcome or power claim yet. PROME docket’s broken state/delivery_log.tsv pointer needs owner reconciliation to routed/delivery_log.tsv; recorded in owner-receipts.md, not edited at owner.
 6. Prior explicit owner follow-ups remain: FALCON on -023; LIQUID/SHADE/HAWK/SAM on -022; BRENT if month choice changes a #6/#8 grade; BROCK/VULCAN/LABOR/HOMER/SAM/BOND on their dated tasks. OSPREY/VIOLET returns already integrated; do not re-open those from old prose.

@@ -1,0 +1,25 @@
+{
+  "source_bytes": 39509,
+  "companion_bytes": 21889,
+  "selected_content_saving_bytes": 17620,
+  "charter_before_bytes": 62115,
+  "charter_after_bytes": 62475,
+  "charter_delta_bytes": 360,
+  "guard_output_banner_bytes": 149,
+  "full_emit_exact": true,
+  "unknown_id_rejected": true,
+  "source_unchanged": true,
+  "registry": {
+    "SIG-W-20260619-008": {
+      "status": "reviewed",
+      "reviewed_on": "2026-09-15",
+      "review_due": "2026-09-30",
+      "source": "BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md",
+      "companion": "AGENTS/WALTER/reading/SIG-W-20260619-008.md",
+      "review": "AGENTS/WALTER/research/2026-09-15_signal-reading/independent-review.md",
+      "source_sha256": "17e64d21e944e628139719841335f18e059bb3d1c652a7d93b3998d90274ddd9",
+      "companion_sha256": "5d0b19d81e41aaa5e99672cdc95c4e747e91732a394b09b5713dcf5e7ed30d2d",
+      "review_sha256": "653eb6dbd0f321ce698d7fe83252577673985423e5e2b9339a6fbd5717912431"
+    }
+  }
+}

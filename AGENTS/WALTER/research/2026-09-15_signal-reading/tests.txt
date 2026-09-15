@@ -1,0 +1,15 @@
+test_budget (test_signal_read_check.CompanionCheck.test_budget) ... ok
+test_changed_source_companion_or_review (test_signal_read_check.CompanionCheck.test_changed_source_companion_or_review) ... ok
+test_due_and_future (test_signal_read_check.CompanionCheck.test_due_and_future) ... ok
+test_escaped_path (test_signal_read_check.CompanionCheck.test_escaped_path) ... ok
+test_invalid_utf8 (test_signal_read_check.CompanionCheck.test_invalid_utf8) ... ok
+test_missing_id (test_signal_read_check.CompanionCheck.test_missing_id) ... ok
+test_missing_source (test_signal_read_check.CompanionCheck.test_missing_source) ... ok
+test_unapproved_even_with_matching_hash (test_signal_read_check.CompanionCheck.test_unapproved_even_with_matching_hash) ... ok
+test_valid (test_signal_read_check.CompanionCheck.test_valid) ... ok
+test_wrong_source_id (test_signal_read_check.CompanionCheck.test_wrong_source_id) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.023s
+
+OK
