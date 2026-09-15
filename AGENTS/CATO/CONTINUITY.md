@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15, PROME closeout review. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, authorized PROME repair. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
@@ -8,7 +8,7 @@
 
 Will approved the local fixes responding to PROME's feedback: launcher inspection without Codex, explicit commit attribution and the self-review boundary. Implemented in `bd1c1b683`, now confirmed on origin; [repair report and historical authorship map](runs/2026-09-15_1324_foundation-feedback.md). The [PROME inbox proposal](../../PROME/inbox/2026-09-15_from-CATO_manual-integration-proposal.md) remains the original integration proposal, not an activation grant.
 
-**Latest assignment:** Will requested analysis of PROME's completed session. [Closeout review](runs/2026-09-15_1506_prome-closeout-review.md), snapshot `a45213b81`: FERT summary reverses the $500/$443 comparison; BOND's September 17 grade lacks a correctly dated coordinator obligation; four completed dispositions still parse PENDING; ordinary agent_freshness enumerates CATO despite the claimed exclusion. No PROME repairs made. Next action: discuss this bounded repair order with Will; no broader control build authorized by the review request. Will reports PROME closed out; BRENT still has dirty work. Do not infer other sessions' liveness from Git alone.
+**Latest assignment:** Will authorized correcting the closeout findings while PROME was closed. [Repair and review receipt](runs/2026-09-15_1525_prome-repair.md): FERT arithmetic/caveats corrected; four completed rows use terminal state tokens; September 17 BOND grading is pending at L404; freshness distinguishes CATO manual inspection from launch eligibility. L402 now requires implementing-session evidence. Local views regenerated; hosted publication remains pending. Next: PROME can consume the top HANDOFF repair note and original CATO integration proposal on its next boot. No broader classifier, fleet activation or RAV transition authorized. BRENT and WALTER remained active; their work was preserved. Commit/push receipt is delivered in-session; locate this repair by its CATO subject/trailer if resuming before a receipt update.
 
 The build acceptance and verification receipt live in [the foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md). Start there if continuing CATO setup. Next setup step: review the remaining integration work with Will and complete a bounded RAV/CATO transition when that pass is requested. Do not retire RAV or transfer its old findings as live obligations merely because CATO now has a home.
 

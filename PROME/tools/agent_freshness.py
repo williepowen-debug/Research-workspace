@@ -23,7 +23,7 @@ CONTRACT (encoded in ORCHESTRATION_PLAYBOOK pre-spawn checklist, 2026-08-14):
   brief written against undrained packets tasks work that may already be done.
 
 USAGE
-  agent_freshness.py                # fleet table, quiet tail (>45d + no signals) hidden
+  agent_freshness.py                # activity table; manual sessions labeled, quiet tail hidden
   agent_freshness.py --all          # include the quiet tail (dormant/retired dirs)
   agent_freshness.py --agent HOMER  # scoped pre-spawn check; rc=1 = drain first
   agent_freshness.py --gate         # prome_gate mode: one line; rc=1 if ANY unread
@@ -35,6 +35,12 @@ same_day_commits). Committer time, not mtime (finding_mtime_is_corrupted_by_
 git_sync). Own-surface age is a LOWER bound on staleness, not proof of
 caught-up (finding_freshness_audit_vs_caught_up): a fresh agent can still be
 behind on its inbox — which is why inbox depth prints beside age.
+
+Manual sessions: read the explicit exclusion in ROSTER's CLASSIFICATION PENDING
+section once per invocation. Activity and messages remain visible, without fleet
+staleness or launch-clearance cues. An unreadable or ambiguous declaration exits
+2 (CANNOT-EVALUATE), never clearance. --gate still reports unread manual messages
+with rc=1 for inspection; it does not authorize launching or routing to them.
 """
 import argparse
 import re
@@ -160,6 +166,37 @@ def agent_names():
                   if d.is_dir() and not d.name.startswith("."))
 
 
+def manual_only_names():
+    """Read the existing roster hold; never infer manual status from directories."""
+    lines = (ROOT / "PROME/ROSTER.md").read_text(encoding="utf-8").splitlines()
+    starts = [i for i, line in enumerate(lines)
+              if re.match(r"^## CLASSIFICATION PENDING(?:\s|$)", line)]
+    if len(starts) != 1:
+        raise ValueError("ROSTER needs exactly one CLASSIFICATION PENDING section")
+    start = starts[0]
+    count = re.search(r"\((\d+)\)\s*$", lines[start])
+    if count is None:
+        raise ValueError("CLASSIFICATION PENDING needs its declared member count")
+    names = set()
+    for line in lines[start + 1:]:
+        if line.startswith("## "):
+            break
+        if re.match(r"^\s*(?:[-+*]|\d+[.)])\s", line) and not line.startswith("- "):
+            raise ValueError("unsupported manual-session bullet in CLASSIFICATION PENDING")
+        if not line.startswith("- "):
+            continue
+        match = re.match(r"^- \*\*([A-Z][A-Z0-9_-]*)\*\*", line)
+        if match is None or "Excluded from automatic launch and signal routing." not in line:
+            raise ValueError("malformed manual-session row in CLASSIFICATION PENDING")
+        name = match.group(1)
+        if name in names:
+            raise ValueError(f"duplicate manual-session row: {name}")
+        names.add(name)
+    if len(names) != int(count.group(1)):
+        raise ValueError("CLASSIFICATION PENDING count disagrees with its named rows")
+    return names
+
+
 def row(name):
     return {
         "name": name,
@@ -187,12 +224,37 @@ def main():
     ap.add_argument("--stale-days", type=float, default=STALE_DAYS)
     args = ap.parse_args()
 
+    try:
+        manual = manual_only_names()
+    except (OSError, UnicodeError, ValueError) as exc:
+        print(f"CANNOT-EVALUATE: manual-session classification unavailable: {exc}")
+        return 2
+
     if args.agent:
         n = args.agent.upper()
         if not (AGENTS / n).is_dir():
             print(f"no such agent dir: AGENTS/{n}")
             return 2
         r = row(n)
+        if n in manual:
+            print(f"MANUAL SESSION · {n} · no automatic launch or signal routing")
+            print(f"  own-surface age {fmt_age(r['age'], r['age_state']).strip()} "
+                  "(activity only; no cadence expectation)")
+            for label, items in (("messages in PROME/inbox awaiting inspection", r["to_prome"]),
+                                 ("files in the session inbox", r["inbox"]),
+                                 ("uncommitted paths; do not sweep", r["dirty"])):
+                if items is UNKNOWN:
+                    print(f"  UNKNOWN {label}")
+                else:
+                    print(f"  {len(items)} {label}")
+                    for item in items[:20]:
+                        print(f"      {item if isinstance(item, str) else item.relative_to(ROOT)}")
+                    if len(items) > 20:
+                        print(f"      (+{len(items)-20} more)")
+            blocked = bool(r["to_prome"]) or r["dirty"] is UNKNOWN or bool(r["dirty"])
+            print("  inspection needed; no launch authorization" if blocked else
+                  "  manual-session inspection complete; no launch authorization")
+            return 1 if blocked else 0
         print(f"AGENT FRESHNESS · {n} · own-surface age "
               f"{fmt_age(r['age'], r['age_state']).strip()}"
               + (" — ⚠️ git could not answer; this is NOT a freshness claim"
@@ -225,9 +287,16 @@ def main():
     if args.gate:
         unread = [(r["name"], len(r["to_prome"])) for r in rows if r["to_prome"]]
         if unread:
-            print("unread from-agent packets in PROME/inbox: "
-                  + ", ".join(f"{n}×{c}" for n, c in unread)
-                  + " — drain before briefing/spawning those agents")
+            domain_unread = [(n, c) for n, c in unread if n not in manual]
+            manual_unread = [(n, c) for n, c in unread if n in manual]
+            if domain_unread:
+                print("unread from-agent packets in PROME/inbox: "
+                      + ", ".join(f"{n}×{c}" for n, c in domain_unread)
+                      + " — drain before briefing/spawning those agents")
+            if manual_unread:
+                print("manual-session messages awaiting inspection: "
+                      + ", ".join(f"{n}×{c}" for n, c in manual_unread)
+                      + " — no automatic launch or routing")
             return 1
         print("PROME/inbox holds no unread from-agent packets")
         return 0
@@ -244,6 +313,18 @@ def main():
     shown.sort(key=lambda r: -(r["age"] or 1e9))
     print(f"{'agent':10} {'own-age':>8} {'inbox':>6} {'→PROME':>7} {'dirty':>6}   flags")
     for r in shown:
+        if r["name"] in manual:
+            flags = ["manual session; no automatic launch/routing"]
+            if r["to_prome"]:
+                flags.append("inspect messages")
+            if r["age_state"] == "unknown" or r["dirty"] is UNKNOWN:
+                flags.append("state UNKNOWN")
+            elif r["dirty"]:
+                flags.append("uncommitted work")
+            nd = "     ?" if r["dirty"] is UNKNOWN else f"{len(r['dirty']):6d}"
+            print(f"{r['name']:10} {fmt_age(r['age'], r['age_state'])} {len(r['inbox']):6d} "
+                  f"{len(r['to_prome']):7d} {nd}   {'; '.join(flags)}")
+            continue
         flags = []
         if r["age"] is not None and r["age"] > args.stale_days:
             flags.append(f"STALE>{args.stale_days:g}d")
