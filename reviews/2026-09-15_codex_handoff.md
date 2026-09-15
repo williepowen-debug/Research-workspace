@@ -2,9 +2,11 @@
 
 **Session:** September 15, 2026. **Last implementation commit:** `f12c6dc94`, confirmed pushed to `origin/master`. This handoff is a snapshot; verify current Git state and owner records before acting.
 
-## Subsequent discussion: CATO / RAV review
+## Current entry point: CATO first foundation
 
-Will is considering a persistent independent reviewer running on Astra through Codex and prefers the name **CATO**. He asked us to review RAV’s maturity and identify what to reuse. [RAV assessment and proposed CATO direction](2026-09-15_rav-maturity-and-cato.md) is the latest review: useful methods/history, underbuilt continuity and stale instructions/dispositions; recommend a deliberate successor rather than a wholesale rename. **No CATO creation, RAV retirement or authority migration has been approved or performed.** The PROME work below remains open as recorded.
+Will approved the [RAV assessment](2026-09-15_rav-maturity-and-cato.md) recommendations and requested the first part of a staged rebuild. The manual CATO home now lives at [AGENTS/CATO/README.md](../AGENTS/CATO/README.md); its [CONTINUITY.md](../AGENTS/CATO/CONTINUITY.md) is the current resume map. Start there for a new CATO session. Build scope and verification: [foundation record](../PROME/plans/2026-09-15_CATO-foundation.md).
+
+CATO’s manual foundation is approved. Fleet registration, automatic routing and the RAV transition are deferred; RAV has not been retired or renamed. The rest of this document is historical onboarding/context, not a competing current CATO queue. Earlier statements that creation was unapproved are superseded by Will’s first-part instruction.
 
 ## Start here
 
