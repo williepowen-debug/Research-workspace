@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15, authorized PROME repair. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, CATO session closed at Will’s request. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
@@ -8,7 +8,7 @@
 
 Will approved the local fixes responding to PROME's feedback: launcher inspection without Codex, explicit commit attribution and the self-review boundary. Implemented in `bd1c1b683`, now confirmed on origin; [repair report and historical authorship map](runs/2026-09-15_1324_foundation-feedback.md). The [PROME inbox proposal](../../PROME/inbox/2026-09-15_from-CATO_manual-integration-proposal.md) remains the original integration proposal, not an activation grant.
 
-**Latest assignment:** Will authorized correcting the closeout findings while PROME was closed. [Repair and review receipt](runs/2026-09-15_1525_prome-repair.md): FERT arithmetic/caveats corrected; four completed rows use terminal state tokens; September 17 BOND grading is pending at L404; freshness distinguishes CATO manual inspection from launch eligibility. L402 now requires implementing-session evidence. Local views regenerated; hosted publication remains pending. Next: PROME can consume the top HANDOFF repair note and original CATO integration proposal on its next boot. No broader classifier, fleet activation or RAV transition authorized. BRENT and WALTER remained active; their work was preserved. Commit/push receipt is delivered in-session; locate this repair by its CATO subject/trailer if resuming before a receipt update.
+**Latest assignment:** Will authorized correcting the closeout findings while PROME was closed. [Repair and review receipt](runs/2026-09-15_1525_prome-repair.md): FERT arithmetic/caveats corrected; four completed rows use terminal state tokens; September 17 BOND grading is pending at L404; freshness distinguishes CATO manual inspection from launch eligibility. L402 now requires implementing-session evidence. Local views regenerated; hosted publication remains pending. Next: PROME can consume the top HANDOFF repair note and original CATO integration proposal on its next boot. No broader classifier, fleet activation or RAV transition authorized. BRENT and WALTER remained active; their work was preserved. Repair committed as `06e72cc11`, exact eleven-file manifest verified, and confirmed on origin/master by safe-push fresh fetch. All 53 tests passed; independent result review passed after one blocker correction. No CATO task is currently in progress. On next startup, orient and await Will’s assignment; do not automatically begin the remaining work below.
 
 The build acceptance and verification receipt live in [the foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md). Start there if continuing CATO setup. Next setup step: review the remaining integration work with Will and complete a bounded RAV/CATO transition when that pass is requested. Do not retire RAV or transfer its old findings as live obligations merely because CATO now has a home.
 
@@ -24,7 +24,7 @@ The following includes work implemented by CATO's preceding Codex session, despi
 
 | Work | Last established state | Next action / owner record |
 |---|---|---|
-| L393 Deck split | Approved by Will; implemented and independently code-reviewed in `f12c6dc94`. **Not published.** Local pair uses relative links. | [Publication handoff](../../PROME/plans/2026-09-15_L393-deck-split.md): native Artifact tools, private reference URL, WQ-253 explainer and hosted verification still needed. Do not ask again for layout approval. |
+| L393 Deck split | Approved by Will; implemented and independently code-reviewed in `f12c6dc94`. **Not published.** Local pair uses relative links. | [Publication handoff](../../PROME/plans/2026-09-15_L393-deck-split.md): native Artifact tools, private reference URL and hosted verification still needed. Local explainer coverage passed during the repair; recheck current coverage before publishing. Do not ask again for layout approval. |
 | L333 ARGUS trial | Useful catches, but no defensible aggregate score or full operating-cost comparison established. Grade scheduled September 19. | [Evidence reconciliation](../../PROME/reports/2026-09-15_L333-L393-followup.md); reconstruct first four eligible sessions and finding timing without cherry-picking clean runs. |
 | L381 instruction reconciliation | Implemented/source-verified in `2ae76c7c4`. Two ordinary completed-session observations still owed. | [Record](../../PROME/plans/2026-09-15_L381-reconciliation.md); use existing evidence, no new scorecard. L378 mechanization remains separate. |
 | Continuity cleanup | Sample revised, **not applied** to live STATUS/HANDOFF. | [Sample](../../reviews/2026-09-15_prome_continuity_sample.md); re-check current text before proposing application. |
