@@ -19,7 +19,7 @@ tool write; `check` verifies BOTH (crc32 is a change detector, not a cryptograph
 committed pair is the outer audit).
 """
 from __future__ import annotations
-import argparse, csv, datetime as dt, io, os, re, shutil, subprocess, sys, tempfile
+import argparse, csv, datetime as dt, io, json, os, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -105,6 +105,18 @@ def status_of_done(r: dict) -> tuple[str, str]:
     return st, verdict
 
 
+def open_record(r: dict) -> str:
+    """L335: full parsed source, not the capped/derived display summaries.
+
+    OPEN had no record cell, so this existing ledger column was empty. Terminal
+    rows still carry their ruling record; status, never record text, controls
+    whether the Deck consumes a ledger row. JSON keeps TSV control bytes escaped.
+    """
+    return json.dumps({"format": "wq-open-source-v1", **{
+        k: r.get(k, "") for k in ("item", "kind", "by_raw", "since", "rec", "notes")
+    }}, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
 def live_state(q_path: Path | None = None, arch: list[str] | None = None) -> dict[str, dict]:
     """wq → the state the deck sees now. Live OPEN wins over decided (a row can be both mid-rotation)."""
     text = (q_path or dd.Q).read_text(encoding="utf-8")
@@ -126,7 +138,7 @@ def live_state(q_path: Path | None = None, arch: list[str] | None = None) -> dic
             "needed_by": r.get("by") or clean(r.get("by_raw", ""), 40), "since": clean(r.get("since", ""), 40),
             "status_after": status_of_open(r), "verdict": "—",
             "will_verbatim": clean(dd.verbatim_of(r.get("item", "") + " " + r.get("notes", "")), 400),
-            "rec": clean(r.get("rec", ""), 300), "record": "", "source": "WILL_QUEUE.md § OPEN",
+            "rec": clean(r.get("rec", ""), 300), "record": open_record(r), "source": "WILL_QUEUE.md § OPEN",
             "at": date_of(r.get("since", "")) or (dd.first_date(r.get("item", "")) or ""),
         }
     return out
@@ -137,9 +149,17 @@ def live_state(q_path: Path | None = None, arch: list[str] | None = None) -> dic
 def read_rows(path: Path) -> list[dict]:
     if not path.exists():
         return []
-    with path.open(encoding="utf-8", newline="") as f:
-        rd = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
-        return [dict(r) for r in rd]
+    # Full source snapshots can exceed csv's default 128 KiB field limit. A
+    # field cannot contain more characters than the file's encoded byte size.
+    # Restore the process-wide setting after this serial reader finishes.
+    previous_limit = csv.field_size_limit()
+    try:
+        csv.field_size_limit(max(previous_limit, path.stat().st_size))
+        with path.open(encoding="utf-8", newline="") as f:
+            rd = csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+            return [dict(r) for r in rd]
+    finally:
+        csv.field_size_limit(previous_limit)
 
 
 def last_state(rows: list[dict]) -> dict[str, dict]:
