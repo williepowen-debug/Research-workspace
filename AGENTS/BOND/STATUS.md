@@ -131,7 +131,7 @@
 
 **2 · POSITION-SPECIFIC.** TLT puts: **kill on 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** (THESIS §2 letter), or the thesis kill. ⚠️ *Corrected 9/9: this line read "DFII10 <2.00 sustained 5 sessions" from the 9/1 read-cap compression onward; that exit was never in THESIS. One spec now, on all three surfaces.* Expiry 9/30 and the 60-DTE rail are TERRY's.
 
-**3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal-coupon auctions passing **both** legs (indirect at/above median **and** dealer at/below median). **Counter = 1** (9/9 10Y-R); the 9/8 3Y did not qualify; **TIPS do not count.**
+**3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal-coupon auctions passing **both** legs (indirect at/above median **and** dealer at/below median). **Counter = 2** (9/9 10Y-R, 9/10 30Y-R); the 9/8 3Y did not qualify; **TIPS do not count.**
 
 **4 · TIME-BASED.** FR2004 weekly join **9/18** (WQ-157 leg ②). Quarterly percentile-snapshot refresh + `VX-19` "disorderly" definition **10/1**. `VX-20` review **10/6**. FHLB Q3 report **11/9**. FRBNY FX report **11/13**. US-sovereign-CDS re-test **12/1** (L17 answered 9/9: exists at S&P Global, paywalled; no free primary found on 9/9, `re-test: 2026-12-01` — `KB-BND-261`).
 
