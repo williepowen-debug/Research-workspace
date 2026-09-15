@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15, CATO session closed at Will’s request. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, closeout checklist clarified at Will’s request. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
@@ -9,6 +9,8 @@
 Will approved the local fixes responding to PROME's feedback: launcher inspection without Codex, explicit commit attribution and the self-review boundary. Implemented in `bd1c1b683`, now confirmed on origin; [repair report and historical authorship map](runs/2026-09-15_1324_foundation-feedback.md). The [PROME inbox proposal](../../PROME/inbox/2026-09-15_from-CATO_manual-integration-proposal.md) remains the original integration proposal, not an activation grant.
 
 **Latest assignment:** Will authorized correcting the closeout findings while PROME was closed. [Repair and review receipt](runs/2026-09-15_1525_prome-repair.md): FERT arithmetic/caveats corrected; four completed rows use terminal state tokens; September 17 BOND grading is pending at L404; freshness distinguishes CATO manual inspection from launch eligibility. L402 now requires implementing-session evidence. Local views regenerated; hosted publication remains pending. Next: PROME can consume the top HANDOFF repair note and original CATO integration proposal on its next boot. No broader classifier, fleet activation or RAV transition authorized. BRENT and WALTER remained active; their work was preserved. Repair committed as `06e72cc11`, exact eleven-file manifest verified, and confirmed on origin/master by safe-push fresh fetch. All 53 tests passed; independent result review passed after one blocker correction. No CATO task is currently in progress. On next startup, orient and await Will’s assignment; do not automatically begin the remaining work below.
+
+**Closeout follow-up recovered:** Will approved an ordered checklist in AGENTS.md, then authorized finishing its interrupted closeout. The prior “complete” wording preceded the commit; recovery found the two edited files and untracked report intact. [Change and recovery receipt](runs/2026-09-15_1654_closeout-checklist.md). Implementation is complete; the commit/push receipt is delivered in-session after verification. Root Git mechanics remain canonical. After this closeout, orient and await Will’s next assignment; publication and integration are not newly assigned.
 
 The build acceptance and verification receipt live in [the foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md). Start there if continuing CATO setup. Next setup step: review the remaining integration work with Will and complete a bounded RAV/CATO transition when that pass is requested. Do not retire RAV or transfer its old findings as live obligations merely because CATO now has a home.
 
