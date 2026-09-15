@@ -24,12 +24,12 @@
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.37%** | 🔴 | [CONF FRED **9/10**] — **a NEW 2026 HIGH**, supersedes 5.31 [8/17]; **100.0th pctile post-2010**. 47-session run ≥5.00 |
-| 10Y (DGS10) | **4.95%** | 🔴 | [CONF FRED **9/10**] — +12bp on the session; 99.9th pctile post-2010. `GATE-TERRY-007` counter stays **0 of 5** (counts closes <4.50), distance **45bp** |
-| 2Y (DGS2) | **4.56%** | 🟠 ↑ | [CONF FRED **9/10**] — 4.39 → 4.43 → **4.56**, +13bp on 9/10; the front led again |
-| **10Y real (DFII10)** | **2.55%** | 🔴 **GATE THROUGH** | [CONF FRED **9/10**] — **+9bp in one session and 5bp ABOVE the 2.50 add-gate: the FIRST breach in the position's life.** `BND-22` FALSE. **98.5th pctile full series (n=5,927), 100.0th post-2010** |
-| 5Y5Y fwd (T5YIFR) | **2.32%** | 🟡 = | [CONF FRED **9/11**] — publishes ahead of the nominals (H.15 split, `KB-BND-178`); 18bp from its bar |
-| 10Y BE (T10YIE) | **2.36%** | 🟡 ↓ | [CONF FRED **9/11**] — 2.40 [9/10] → 2.36: **breakevens FELL while the real leg rose ⇒ the 9/10–9/11 move is REAL-led, not inflation-led** (`KB-BND-276`) |
+| 30Y (DGS30) | **5.35%** | 🔴 | [CONF FRED **9/11**] — off the 5.37 [9/10] 2026 high by 2bp; **100.0th pctile post-2010**. 48-session run ≥5.00 |
+| 10Y (DGS10) | **4.96%** | 🔴 | [CONF FRED **9/11**] — 100.0th pctile post-2010. `GATE-TERRY-007` counter stays **0 of 5** (counts closes <4.50), distance **46bp** |
+| 2Y (DGS2) | **4.63%** | 🟠 ↑ | [CONF FRED **9/11**] — 4.43 → 4.56 → **4.63**, +7bp more on 9/11; the front keeps leading |
+| **10Y real (DFII10)** | **2.60%** | 🔴 **GATE THROUGH** | [CONF FRED **9/11**] — breach EXTENDED, now **10bp ABOVE the 2.50 add-gate** (2.55 [9/10] → 2.60). `BND-22` FALSE; `BND-28` TRUE. **98.7th pctile full series (n=5,928), 100.0th post-2010** |
+| 5Y5Y fwd (T5YIFR) | **2.34%** | 🟡 = | [CONF FRED **9/14**] — publishes ahead of the nominals (H.15 split, `KB-BND-178`); 16bp from its bar |
+| 10Y BE (T10YIE) | **2.37%** | 🟡 ↓ | [CONF FRED **9/14**] — 2.40 [9/10] → 2.36 → 2.37: **breakevens fell while the real leg rose ⇒ the 9/10–9/11 move is REAL-led** (`KB-BND-276`) |
 | **ACM 10Y term premium** | **0.7073** | 🟠 | [CONF NY Fed `ACMTermPremium` **`ACM Daily` sheet, 9/9**] — ⚠️ **UPGRADED 9/10 from the MONTHLY series this row carried at `+0.73% [Jul-2026]`. A DAILY series exists and publishes AHEAD of our FRED nominals.** 2026 max **0.8935 [8/17]**, min 0.4602 [6/29]. Risk-neutral leg **ACMRNY10 4.1146** |
 | **ACM decomposition — the C-36 discriminator, daily** | **9/4 payroll: ΔTP −7.7bp vs Δrisk-neutral +9.2bp** | 🟢 | [CONF NY Fed `ACM Daily`, computed 9/10] — **an INDEPENDENT model confirmation of `BND-24`**: the payroll session was policy-path, not term premium, decomposed rather than proxied off 2s-vs-30s. *(Prior monthly Jul reads 0.8363 now, not the 0.73 this desk carried — ACM is re-estimated, so history revises: a vintage effect, not necessarily an error.)* |
 | Kim-Wright 10Y TP (daily) | **0.8892** | 🟠 | [CONF FRED `THREEFYTP10` **9/4**] — 2026 high **0.8996 [9/1]**; +8.1bp on the 9/4 payroll session (one session, recorded not interpreted) |
