@@ -1,10 +1,6 @@
 # JGB Long-End Supply/Demand — Conditional Demand and Mixed Sponsorship
 
-**Current assessment: September 15, 2026.** Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
-
-## September 15 evidence update
-
-20Y auction BTC 4.005× / tail 1.3bp = **AMBIGUOUS**, not FIRM; 0/2 counter unchanged. MOF FY2027 requests total ¥143.0656T, including ¥36.6386T debt service (¥16.5888T interest/discount charges). Requests and executed issuance differ; no buyer or fiscal attribution identified. September 3 SOFT remains PRECISION-LIMITED under the September 11 ruling. [Sources and arithmetic](../../reports/2026-09-15_news-sweep.md).
+**Current assessment: September 8, 2026.** Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
 
 ## PUNCHLINE
 

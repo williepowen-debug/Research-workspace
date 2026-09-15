@@ -61,7 +61,7 @@ BOJ fiscal factors, ¥B (source units ¥100M converted): September 10 final **+3
 | Actual offshore yen cross-currency basis | Unavailable; expired CME residual frozen/unwired. No replacement feed activated. Requires an actual instrument and source controls. |
 | Current CME FedWatch probabilities | CME tool opened, but QuikStrike returned access denied; old Sep-10 54% removed from current table. Secondary/other-venue probabilities not substituted as CME. |
 | June Norinchukin CLO-only balance/CET1; comparable June Fukoku/Japan Post ESR | Not established in the reviewed sources. Named gaps remain in profiles; no stale-number carry-forward as current. |
-| September 15 20Y auction | **Corrected September 15:** the 12:21 JST request used the wrong filename (`resul` instead of `eresul`); HTTP 404 did not establish publication timing. Correct endpoint now verified: BTC 4.005× / tail 1.3bp, AMBIGUOUS. [Correction and result](2026-09-15_news-sweep.md). |
+| September 15 20Y auction | Not published at the 12:21 JST check (HTTP 404); stays forward until actual result. |
 | SAM-28/31 episode conventions | Existing ambiguity preserved; no retrospective term changes. Review September 18 close. |
 | Intervention funding/account split | Pending future MOF/FRBNY disclosures; approximate November dates remain estimates. |
 | New half-year institutional disclosures | Approximately November, issuer dates to confirm. Quarterly stocks alone cannot prove flows. |

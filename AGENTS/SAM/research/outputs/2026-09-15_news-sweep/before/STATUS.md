@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-09-15T13:07:09.419193+00:00 — Will-directed news sweep (September 15 ET/JST).** [Report](reports/2026-09-15_news-sweep.md). Book last recorded FLAT, not newly broker-reconciled.
+**Last written: 2026-09-15T03:42:19.769867+00:00 (September 14 ET / September 15 JST) — Will-directed stale-data sweep.** [Report](reports/2026-09-14_stale-sweep.md). Book last recorded FLAT, not newly broker-reconciled.
 
 **Signal Status:** ⚰️ **CARRY-CONVEXITY TAIL — RETIRED TO LOW (THESIS v1.7, 2026-08-07). Leg-1 SPF FIRED. Position FLAT; $0 was at risk.** · **v2.0 KILLED 8/20-27** (BIS K1 fired; RED's blind pass CHG-RED-048 killed it four more ways independently). 🔧 **STALE FLAG CLEARED 2026-09-11: this line read "body UNREAD / Will-gated" for 15 days and was FALSE.** It described the 8/20→8/27 window; the **Will-authorized unseal and cross-read on 8/27 read RED's report IN FULL FIRST** (`thesis/V20_CROSSREAD_2026-08-27.md`; proven by verbatim body strings — "$53.3B", "0/7 discriminate", "the killer would sit green while the thesis died"). Nothing was owed to Will. ⚠️ **And the stale flag HID a real obligation — see § WHAT TO WATCH, salvage ④.** · **v1.8 (`thesis/V18_CANDIDATE_PILLAR1.md`) is a SEPARATE document**, gated on SAM-41 + a separately-registered FX co-condition + RED pass + Will sign-off — **never on BIS**. ⛔ **NO SUCCESSOR FRAME DECLARED — v1.7 stands, and that is the honest state, not a gap to be filled.**
 
@@ -15,11 +15,17 @@
 
 ---
 
-## 2026-09-15 — News integration
+## 2026-09-14 (ET) — Stale-data sweep; current evidence
 
-20Y auction **AMBIGUOUS** (BTC 4.005× / tail 1.3bp); 0/2 firm counter unchanged. July production revised to −0.2% m/m, with shipments +2.1%. FY2027 fiscal requests and August foreign-equity/fund buying add context; neither identifies forced foreign sales. Newly published BOJ remarks date from May. Japan–IEA cooperation carries no new quantified physical supply in the reviewed readout. [Six findings, sources and corrections](reports/2026-09-15_news-sweep.md).
+CFTC cohort review resolved: legacy net +10,796 coexists with leveraged funds net −49,098. Rising OI cannot exclude forced covering; the old categorical inference is withdrawn. Seven profiles now carry June quarterly disclosures: Nippon internal ESR 190%, Meiji group 209%, Sumitomo internal 197%, Daiichi internal ~206%, with differing definitions and causes. Channel 1's direct-sales test is not established.
 
-v1.7 retirement, probabilities and original prediction terms unchanged. Prior stale-data/startup blocks preserved in the [before-image](research/outputs/2026-09-15_news-sweep/before/STATUS.md); their resolved source and profile findings remain in current tables and references.
+BIS Q1 revised total ¥65.91T / debt securities ¥23.90T; append-only revision bug fixed. Broad credit stock, not measured carry. GPIF Q1 is source-current; headline assets and allocation components have different accounting scope. July customs revision and Tokyo August CPI propagated. Funding and settlement records extended through the latest obtainable dates. Calendar October coverage and BOJ Outlook/Tankan status fixed. Research dispositions and remaining data gaps: [sweep report](reports/2026-09-14_stale-sweep.md). No thesis promotion or prediction term/grade changes.
+
+## 2026-09-14 (ET) — Startup refresh ahead of the policy week
+
+MOF September 14 curve places 30Y/40Y back above 4%; the same-date US–Japan gaps remain above both SAM-41 bars (0/5). CFTC Sep-8 net +10,796 reverified; gross shorts fell and gross longs/OI rose. This does not identify forced liquidation or the marginal price-setter. BOJ chart changed during review; latest Sep-15 11:15 JST image reviewed, validated and ingested: September 99% incremental 25bp equivalent. No thesis or prediction grade changes.
+
+Expired CME proxy unwired under the Sep-11 decision; real offshore basis remains unavailable. WALTER boot deferrals were subsequently investigated in the stale-data sweep; item-level findings and remaining verification gaps are in its report. Pull/push deferred under shared-worktree rules.
 
 ## Historical September 10–11 notes
 
@@ -41,11 +47,10 @@ Completed event narratives, the VECTOR-5 arithmetic and as-registered readings a
 | Japanese bank ADRs | **MUFG 23.89 / SMFG 27.24 / MFG 11.33**, Sep-14 ~20:00 UTC | Current vendor prices; earlier Sep-10 event returns remain historical. |
 | DXY / VIX / S&P | **99.583** [Sep-15 03:18:51 UTC] / **17.10** [Sep-14 20:15 UTC] / **7,619.98** [Sep-14 20:00 UTC] | Source clocks differ; no invented VIX cutoff or mechanism grade. |
 | US–JP differential, Sep-14 | **5Y 2.498pp / 10Y 1.982pp** (US 4.800 / 4.970%) | Same-date script inputs; +24.8/+18.2bp above bars; runs **0/5**. Historical SAM-41 confirmation unchanged. |
-| JGB auctions | **20Y Sep-15 BTC 4.005× / tail 1.3bp; cutoff 3.869%: AMBIGUOUS** | Neither frozen branch fires; tail misses FIRM by 0.3bp. Generic script “Orderly” is not the grade. Counter 0/2; Sep-29 40Y descriptive only. Sep-3 30Y SOFT remains PRECISION-LIMITED. |
+| JGB auctions | **5Y Sep-8 BTC 3.422× / tail 0.9bp**; **30Y Sep-3 BTC 3.788× / tail 2.1bp SOFT** on frozen bars | 5Y = belly, not a super-long floor test. Sep-11 ruling complete: ≤0.1bp trip margin requires PRECISION-LIMITED label; uniform-price 40Y descriptive only, no tail grade. |
 | MOF weekly foreign LT debt | **+¥111.9B**, Aug-30–Sep-5 | Inward JGB **+¥449.6B** (3rd straight inflow week). **4-week LT −¥1.55T = 🟡 above the ¥1.4T base-case upper**. Weekly inside the ¥1.5T bar; not UST-specific. |
 | U.S. / Japan funding | Sep-11 SOFR **3.62%**, IORB **3.65%**, spread **−3bp**; HY **265bp**, IG **80bp** | Sep-14 Japan O/N provisional **0.977%**, repo T+1 **1.000%**. GC T/N ~1.005% is separate; none measures offshore swaps. |
 | Japan domestic data | Q2 GDP **+1.4% ann.**; July wages **+4.1% YoY**; **July current account +¥2,988.9B (+15.6% YoY)**, rel Sep-8 | BoP goods −¥399.9B, services −¥512.9B, **primary income +¥4,289.6B** (MOF `bp202607.pdf`). BoP goods ≠ customs (revised −¥638.3B). **The VECTOR-5 denominator: the oil shock is 4.0% of ONE month's CA surplus.** |
-| New macro/flow context | July IIP **−0.2% m/m** (METI Sep-14); FY2027 requests **¥143.0656T** (MOF Sep-4); August foreign equity/fund net **+¥1.2983T** (MOF Sep-8) | IIP shipments +2.1%; requests ≠ enacted spending/issuance; flows ≠ NISA-only or measured FX trades. [Sources](reports/2026-09-15_news-sweep.md). |
 | BOJ Sep-9 JGB purchase ops | **1–3Y ¥355B / 5–10Y ¥335B / 25Y+ ¥75B**; 25Y+ BTC **2.51×** | Exactly the Aug-31 schedule (`mpr260831a.pdf`, monthly ¥2.5T); no fixed-rate/additional op ⇒ SAM-33 falsifier un-fired at the record. **Next check: the Sep-16 25Y+ date.** Oct–Dec schedule Sep-30 17:00 JST. |
 | Secondary observations | EURJPY/GBPJPY/AUDJPY **178.62 / 208.79 / 110.38** [Sep-15 02:27 UTC]; Sep-14 FXY Oct-16 ATM IV **16.24%**, Sep-18 **18.97%** (both quality=ok) | Thin ETF proxy, not underlying FX vol. Expired CME residual frozen. August MOF lifer LT −¥137.3B / trust +¥2,332.6B unchanged; trust ≠ GPIF, LT debt ≠ UST. |
 | Fed Sep-16 pricing | **Current primary probability unavailable** | CME/QuikStrike access denied. Old Sep-10 Polymarket 54% predates CPI and is historical. August CPI already verified: headline +0.4% m/m / 3.4% YoY, core +0.3% / 2.4%. Actual dots on Sep-16 govern. |
@@ -87,8 +92,8 @@ Retired entry triggers remain void; this is a research docket.
 
 | When | Event | Why it matters |
 |---|---|---|
-| **Sep-16** | 25Y+ BOJ operation date · **Japan August trade balance 08:50 JST** · FOMC | 25Y+ date = repeat the KB-SAM-238 schedule check for SAM-33. **Trade balance is leg (a) of the VECTOR-5 re-open test AND the honest test of the oil-in-yen inversion — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%). |
-| Sep-17/18 | **BOJ MPM** (99% at the Sep-15 11:15 JST reviewed image; recheck before decision) and National CPI | **Read the VOTE SPLIT, not the rate** — a 2+ dissent *for a faster pace* is the only hawkish surprise left. Second: whether the statement NAMES oil, and how (downside-risk-to-activity ⇒ dovish-for-pace; second-round-price-risk ⇒ hawkish). Third: the balance-sheet line (FY2027 halt-the-reduction ~¥2T/mo is the KNOWN June-MPM plan; a change is the surprise). **The surprise is a HOLD, and it is yen-NEGATIVE.** |
+| **Sep-16** | 25Y+ BOJ operation date · **Japan August trade balance 08:50 JST** · FOMC (Sep-15 20Y auction) | 25Y+ date = repeat the KB-SAM-238 schedule check for SAM-33. **Trade balance is leg (a) of the VECTOR-5 re-open test AND the honest test of the oil-in-yen inversion — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%). |
+| Sep-17/18 | **BOJ MPM** (99% indicative 25bp equivalent, latest reviewed image) and National CPI | **Read the VOTE SPLIT, not the rate** — a 2+ dissent *for a faster pace* is the only hawkish surprise left. Second: whether the statement NAMES oil, and how (downside-risk-to-activity ⇒ dovish-for-pace; second-round-price-risk ⇒ hawkish). Third: the balance-sheet line (FY2027 halt-the-reduction ~¥2T/mo is the KNOWN June-MPM plan; a change is the surprise). **The surprise is a HOLD, and it is yen-NEGATIVE.** |
 | Sep-18 close | SAM-28 and SAM-31 | Both OPEN; `docket/2026-09-18_SAM28_SAM31_REVIEW.md` carries evidence/ambiguities. |
 | ⚠️ **owed, undated** | 🆕 **RED salvage ④ — a REAL JPY xccy-basis instrument** | **The v2.0 kill salvaged four things; ④ is the sizing/basis instruments, and RED called the JPY cross-currency basis *"the single highest-value output of the review… the nearest thing to a DISCRIMINATING observation that exists"* — a ~$400B swap-funded book is invisible to CFTC but **not to its funding market**. ⛔ **On 2026-09-11 I let the fixed CME proxy lapse (correctly — it sign-flips on the 9/18 hike) and wrote that "no threshold, gate, prediction or trade trigger depends on it." That was true and INCOMPLETE: this salvage obligation did, and it was tracked nowhere.** The defective proxy still should not be activated; what is owed is a genuine instrument (policy rate as an INPUT, a reader that rejects rounded/desynced legs, two same-session official pairs). Registered here so it stops being invisible. |
 | Sep-29 | 40Y auction | September 11 ruling: descriptive BTC only, no FIRM/SOFT grade; uniform-price has no tail. Counter remains 0-of-2. |

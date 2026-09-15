@@ -29,22 +29,28 @@
 
 ## Session Notes
 
-### LAST SESSION — September 15: news sweep
+### LAST SESSION — September 14 ET / September 15 JST: stale-data sweep
 
-Will requested Japan news specifically for SAM. Integrated six items into current state and [a sourced report](reports/2026-09-15_news-sweep.md). Auction graded AMBIGUOUS; two forward docket feeds reconciled. Verified growth revision via e-Stat after METI 403. MOF budget table corrected a syndicated-news total; BOJ May remarks kept separate from September publication. Monthly equity flows are not NISA-only; energy cooperation is not delivered volume. Prior stale-data session preserved in [before-image](research/outputs/2026-09-15_news-sweep/before/MEMORY.md).
+Will requested a stale/incomplete-data sweep after boot. [Assessment](reports/2026-09-14_stale-sweep.md) and `research/outputs/2026-09-14_stale-sweep/` hold manifests, raw sources, before-images, arithmetic and all-19-ledger inventory. Previous completed session blocks are preserved in the [before-image](research/outputs/2026-09-14_stale-sweep/before/MEMORY.md).
 
-Correction: previous auction 404 used the wrong filename; absence inference withdrawn. Original predictions, registration and money fields unchanged; no peer messages. Save sources, dates and failed accesses with findings. Closeout uses a path-scoped commit and the safe-push receipt.
+- CFTC September 8 review RESOLVED: legacy +10,796; leveraged −49,098; asset-manager −570. Gross covering + new longs; OI growth cannot exclude forced covering. Retired gates unchanged.
+- Seven institution profiles now have Q1 June 30 data from August releases. Internal ESR Nippon 190 / Sumitomo 197 / Daiichi ~206%; Meiji lower-of-model group 209%. Source definitions and causes travel with figures. Direct two-institution/two-window foreign-credit sales not established.
+- BIS Q1 same-quarter revisions caught: total ¥65.91T, debt securities ¥23.90T (was 65.83/23.82). Loader now upserts revisions; two tests pass. USD translation convention explicit, not live FX. No v2.0 rearm.
+- GPIF Q1 remains latest. Headline GPIF assets differ from composition including Pension Special Account; no corrupted row. Broad foreign-bond headroom is not UST sale capacity or FX-reserve financing.
+- July customs −638.3B / imports +27.9% revised and Tokyo August CPI propagated; newer funding/settlement data added. October calendar restored; October 1 Tankan and October 30 Outlook confirmed at raw BOJ HTML. CME residual FROZEN expired.
+- WALTER 007/010/016 investigated; bill secondary quotes, GPIF UST subset and Bessent primary transcript remain named verification gaps, not adopted facts. No peer messages sent.
+- Shared VIOLET/PROME edits prevented pull/push. SAM work committed locally; push pending safe shared-worktree conditions. No broker reconciliation, thesis promotion or prediction term/grade changes.
 
 ### NEXT SESSION
 
 **TIER 0 — DATED:**
-- **Sep-15 DONE:** 20Y AMBIGUOUS; result and URL correction in news report. Next auction Sep-29 40Y descriptive only; Oct-8 30Y frozen bars.
+- **Sep-15:** 20Y auction still forward until publication; apply September 11 precision ruling.
 - **Oct-1 / Oct-30:** Tankan and October Outlook now primary-confirmed; prior date/status disputes closed.
 - **Sep-11 (partially resolved):** ✅ CGPI done at the primary (above). **Historical Sep-11 reminder, now resolved (CPI and CFTC verified in later sessions):** 08:30 ET **US CPI** (Waller's vote keys on it; consensus +0.4/+0.4, 3.4/2.4 y/y) and **15:30 ET CFTC Sep-8 positions — FIRST POST-RALLY READ**, review now RESOLVED at `docket/2026-09-11_CFTC_REVIEW.md`. Sep-1 was −92,227 and predates the move; do not read it as a post-rally position.
 - ✅ **Sep-14 feed — DECIDED: DO NOT ACTIVATE; monitor STOPS at expiry.** Why → KB-SAM-244 + `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (the residual hard-codes JPY 1.00% ⇒ the 9/18 hike flips its sign, +25.00bp). Pair 6JZ26→6JH27 stands; the FEED was declined. **DONE Sep-14: `xccy_basis.py` unwired from `boot.py` and listed manual-only** — its guard returns 1 forever once expired, and a FAIL every boot for a known-good reason is what trained this desk to read past `grade_8_14_branch.py`.
 - **Sep-16:** 25Y+ op date → repeat the KB-SAM-238 record check (now a docket row) · **Japan August trade balance 08:50 JST — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%) · FOMC.
 - **Sep-17/18:** BOJ MPM · National CPI · **SAM-28/31 grading at close** per `docket/2026-09-18_SAM28_SAM31_REVIEW.md`; original rows govern. FXY episode endpoints and the VIX-spike fixing convention remain UNRESOLVED — do not silently invent either at grading time.
-- ✅ **Auction terms RULED → `thesis/AUCTION_GRADING_RULING_2026-09-11.md`.** **Sep-29 40Y = NOT-APPLICABLE** (uniform-price: FIRM unreachable, SOFT fires w.p.1) — descriptive BTC only, NO grade, counter stays 0-of-2. **Sep-15 20Y resolved AMBIGUOUS**, beyond the precision margin; 0/2 unchanged. No 40Y bar registered (n=2 ⇒ unfalsifiable); re-assess at n=5. Old note:
+- ✅ **Auction terms RULED → `thesis/AUCTION_GRADING_RULING_2026-09-11.md`.** **Sep-29 40Y = NOT-APPLICABLE** (uniform-price: FIRM unreachable, SOFT fires w.p.1) — descriptive BTC only, NO grade, counter stays 0-of-2. **Sep-15 20Y: bars APPLY**, but tag **PRECISION-LIMITED** if the trip margin ≤0.1bp. No 40Y bar registered (n=2 ⇒ unfalsifiable); re-assess at n=5. Old note:
 - **Sep-30 17:00 JST:** BOJ Oct–Dec schedule. A scheduled taper-plan change does NOT count against SAM-33; an unscheduled capping op would.
 
 **TIER 1 — OWED / MINE TO RULE:**

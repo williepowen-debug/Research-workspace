@@ -13,7 +13,7 @@
 | `FLOW_ARCHIVE.tsv` | ARCHIVE | Historical | None |
 | `FXY_OPTIONS.tsv` | LIVE snapshot | 2026-09-14 | Next snapshot |
 | `GPIF_FLOWS.tsv` | LIVE quarterly | FY2026 Q1, 2026-06-30; released Aug-07 | FY2026 Q2, approximately November |
-| `JGB_AUCTIONS.tsv` | LIVE per auction | 2026-09-15 20Y | 2026-09-29 40Y result (descriptive only) |
+| `JGB_AUCTIONS.tsv` | LIVE per auction | 2026-09-08 5Y | 2026-09-15 20Y result |
 | `JGB_YIELDS.tsv` | LIVE daily | 2026-09-14 | Next MOF business-day release |
 | `KB.tsv` | LIVE event knowledge | Latest entry 2026-09-11 | Material evidence or correction |
 | `KB_ARCHIVE.tsv` | ARCHIVE | Historical | None |

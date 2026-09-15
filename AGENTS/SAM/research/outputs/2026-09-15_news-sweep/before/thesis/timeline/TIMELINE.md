@@ -1,9 +1,5 @@
 # SAM TIMELINE
 
-## 2026-09-15 — 20Y auction resolved; news integrated without a thesis change
-
-The 20Y auction covered 4.005× but its 1.3bp tail missed the FIRM conjunction. Frozen result AMBIGUOUS; 0/2 unchanged. Prior 404 used an incorrect filename and cannot establish publication timing. July output revised lower; FY2027 requests and outward August equity/fund flows added to context. Nakamura’s newly published remarks date to May, and September 14 Japan–IEA cooperation supplies no new quantified delivery in the reviewed readout. [Report and sources](../../reports/2026-09-15_news-sweep.md). No original prediction resolved or term changed; v1.7 retirement and last recorded FLAT book unchanged.
-
 ## 2026-09-14 (ET) — Stale-data sweep; official revisions and missing quarter reports integrated
 
 Will requested a sweep for stale/incomplete data after boot. CFTC September 8 TFF review resolved: leveraged funds remain net −49,098 despite legacy net +10,796; OI growth cannot exclude forced covering. Seven institution profiles updated to FY2026 Q1 with model/balance-sheet scope. GPIF composition includes the Pension Special Account and must not be forced to equal its headline assets. July customs revision and Tokyo August CPI propagated; funding/settlement/market clocks refreshed. Raw BOJ schedule resolves October 1 Tankan and October 30 Outlook, and forward calendars now match.

@@ -1,13 +1,14 @@
 # SAM CALENDAR
 
-**Reconciled September 15, 2026.** Forward dates/events match `CATALYSTS.tsv`, including the October rows omitted from the previous human calendar. Raw BOJ sources settle October 1 Tankan and October 30 Outlook. Earlier preparation and historical resolutions remain in the [before-image](../research/outputs/2026-09-14_stale-sweep/before/docket/CALENDAR.md).
+**Reconciled September 14 ET / September 15 JST, 2026.** Forward dates/events match `CATALYSTS.tsv`, including the October rows omitted from the previous human calendar. Raw BOJ sources settle October 1 Tankan and October 30 Outlook. Earlier preparation and historical resolutions remain in the [before-image](../research/outputs/2026-09-14_stale-sweep/before/docket/CALENDAR.md).
 
 ## SEPTEMBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
 
-September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. Prediction terms are unchanged. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y resolved AMBIGUOUS (see completed record). Recurring releases below are the near-term watch set, not a complete annual calendar.
+September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. Prediction terms are unchanged. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y uses the existing precision ruling. Recurring releases below are the near-term watch set, not a complete annual calendar.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
+| 🟡 Tue Sep 15 2026 | JGB 20Y auction | BTC ratio, tail | Frozen bars APPLY at 20Y (BTC spans 2.967-4.820, straddles both bars; tail published): SOFT=BTC<3.5 OR tail>2.0bp; FIRM=BTC>=4.0 AND tail<=1.0bp. If the trip margin is <=0.1bp, tag PRECISION-LIMITED (MOF 3-decimal quantization IS 0.1bp) per thesis/AUCTION_GRADING_RULING_2026-09-11.md RULING 1 - letter grade stands, but may not be cited as evidence of demand without the tag. Strike-broadening watch continues; BOJ pre-meeting blackout T-2 of the Sep 17-18 MPM. | SAM,LIQUID |
 | 🟠 Wed Sep 16 2026 | BOJ 25Y+ JGB purchase operation date (SAM-33 schedule check) | Offer date, bucket size and BTC vs the Aug-31 quarterly schedule mpr260831a.pdf (25Y+ 750 x 100M yen per auction); read ope2026MMDD.xlsx at the operation record | A scheduled-date/scheduled-size op does NOT count against SAM-33; an unscheduled fixed-rate op or a purchase increase explicitly capping a GRADUAL rise WOULD. Verify at the record, never infer from silence. | SAM,LIQUID |
 | 🔴 Wed Sep 16 2026 | FOMC decision (Sep 15-16) — SEP meeting | Dot plot; any walk-back of the Jun-17 +40bp dot revision | Actual dot walk-back versus June 17 remains the registered Fed-side tripwire. August 7 labor premise superseded by September 4 BLS revisions; no current Fed probability authenticated. | ALL |
 | 🟠 Wed Sep 16 2026 | Japan trade balance, August (provisional) | Balance; export vs import legs - read crude VOLUME, not crude value (Jul: value +87.8% YoY, volume +5.5%; 12,106 kKL ~ 76.1 M bbl/mo ~ 2.46 mb/d, value 1,408.9B yen). 08:50 JST. | The honest test of the oil-in-yen inversion (supply destruction => SURPLUS not deficit - the mechanism that killed SAM-15 @80%) AND leg (a) of the 2026-09-11 VECTOR-5 re-open test; legs (b) oil-in-yen >=18,000 yen/bbl on 5 consecutive completed sessions and (c) USD/JPY through 158 on the USDJPY=X completed-session basis were both FALSE at 2026-09-11. Keep quantities, prices and currency separate. | SAM |
@@ -69,7 +70,7 @@ Live observations belong in STATUS; evidence and source limits in `../reports/20
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Aggregate auction strength does not identify named buyers; use the current JGB supply/demand owner assessment. **Sep-15 20Y resolved AMBIGUOUS. Next: Sep-29 40Y descriptive only; Oct-8 30Y uses frozen bars and precision ruling.** |
+| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Aggregate auction strength does not identify named buyers; use the current JGB supply/demand owner assessment. **Next: Sep-15 20Y, Sep-29 40Y; rule tenor-appropriate terms before next test; uniform-price 40Y has no tail.** |
 | JGB 30Y | **4.5% disorderly** | v1.6.7 J-GAAP statutory-impairment **TAIL** — mid-cap Fukoku/Asahi bifurcation watch; precursor only, not an entry trigger |
 | JGB 10Y | >2.40% = stress crossover | Structural watch only; current level and applicability belong in STATUS. |
 | Lifer long-end demand | absence = J-ICS amplifier active | DOMESTIC mechanism; **not** transmitting to foreign-asset selling — that is the whole reason Ch1 retired |
@@ -105,10 +106,6 @@ Track documented supply and delivery disruption separately from statements, clos
 ---
 
 ## ✅ RECENTLY RESOLVED (pruned next update)
-
-| Date | Event | Observation | Grade / limit | Consumers |
-|---|---|---|---|---|
-| Sep 15 2026 | 20Y JGB auction, issue 197 | BTC 4.005×; cutoff 3.869%; average 3.856%; tail 1.3bp | AMBIGUOUS on frozen bars; 0/2 unchanged. Source: MOF eresul20260915.htm; details in ../reports/2026-09-15_news-sweep.md. | SAM,LIQUID |
 
 September 14 boot: CFTC Sep-8 reverified at primary; proxy expired and unwired. Preserved prior rows:
 

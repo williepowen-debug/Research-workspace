@@ -1,0 +1,23 @@
+{
+  "auction": {
+    "bids_billion_yen": "2131.3",
+    "accepted_billion_yen": "532.1",
+    "btc": "4.005450103364029317797406503",
+    "tail_bp": "1.300",
+    "frozen_grade": "AMBIGUOUS",
+    "firm_counter": "0/2"
+  },
+  "fy2027": {
+    "requests_trillion_yen": "143.0656",
+    "prior_combined_trillion_yen": "140.6126",
+    "difference_trillion_yen": "2.453",
+    "debt_service_trillion_yen": "36.6386",
+    "interest_discount_trillion_yen": "16.5888"
+  },
+  "august_foreign_equity_funds": {
+    "net_trillion_yen": "1.2983",
+    "investment_trust_managers_trillion_yen": "1.3458",
+    "reference_month": "2026-08",
+    "source_release": "2026-09-08"
+  }
+}

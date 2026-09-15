@@ -8,12 +8,6 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
-## 2026-09-15 — News integration; v1.7 unchanged
-
-- Updated pillar/channel references for auction, July output revision, fiscal requests, August outward equity/fund allocation and dated BOJ/energy context. Six findings in `../reports/2026-09-15_news-sweep.md`.
-- September 15 20Y resolved AMBIGUOUS under existing terms; removed completed row from both forward feeds. Corrected previous wrong-URL absence inference. Current state propagated to STATUS, MEMORY, KB and NEXUS.
-- No analytical promotion, probability change, prediction term/grade change or trade-field change. The old → new transition is pending auction → observed ambiguous result.
-
 ## 2026-09-10 (ET) — Boot + catch-up; oil re-prices the differential; no thesis version or grade change
 
 - **THESIS:** v1.7 unchanged. No successor, no re-pencil, no route re-armed. The Sep-1 asymmetry (surprise HOLD = larger, yen-negative move) is reaffirmed, not re-marked. **New observation, not a view change:** the BOJ is 98% priced to hike Sep-18 and the yen weakened anyway — the differential is widening on the U.S. leg faster than the hike closes it.
