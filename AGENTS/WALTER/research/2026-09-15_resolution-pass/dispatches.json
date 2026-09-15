@@ -1,0 +1,123 @@
+[
+  {
+    "signal_id": "SIG-W-20260915-001",
+    "path": "BOARD/SIG-W-20260915-001-CORRECTION-retail-gasoline-is-not-natural-gas.md",
+    "action": [
+      "WATT",
+      "HENRY"
+    ],
+    "info": [
+      "BRENT",
+      "CARL",
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-002",
+    "path": "BOARD/SIG-W-20260915-002-CORRECTION-wal-cycle-two-already-fired.md",
+    "action": [
+      "WAL",
+      "HENRY"
+    ],
+    "info": [
+      "REGINALD",
+      "LIQUID",
+      "BROCK",
+      "RED",
+      "TERRY",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-003",
+    "path": "BOARD/SIG-W-20260915-003-data-center-cmbs-source-qualified-financing-review.md",
+    "action": [
+      "CREED"
+    ],
+    "info": [
+      "REGINALD",
+      "BROCK",
+      "VULCAN",
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-004",
+    "path": "BOARD/SIG-W-20260915-004-yasref-verification-lead-event-date-unresolved.md",
+    "action": [
+      "FALCON"
+    ],
+    "info": [
+      "BRENT",
+      "HAWK",
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-005",
+    "path": "BOARD/SIG-W-20260915-005-some-european-september-saudi-cargoes-reported-deferred.md",
+    "action": [
+      "BRENT"
+    ],
+    "info": [
+      "FALCON",
+      "HAWK",
+      "HANS",
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-006",
+    "path": "BOARD/SIG-W-20260915-006-iata-jet-fuel-crack-basis-separated-from-ulsd.md",
+    "action": [
+      "BRENT"
+    ],
+    "info": [
+      "HENRY",
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-007",
+    "path": "BOARD/SIG-W-20260915-007-shanghai-crude-chart-basis-and-arithmetic-unresolved.md",
+    "action": [
+      "ZHAO",
+      "BRENT"
+    ],
+    "info": [
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-008",
+    "path": "BOARD/SIG-W-20260915-008-credit-card-trend-ask-promoted-from-note.md",
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "RED",
+      "PROME"
+    ]
+  },
+  {
+    "signal_id": "SIG-W-20260915-009",
+    "path": "BOARD/SIG-W-20260915-009-fitch-august-private-credit-cohort-defaults-source-qualified.md",
+    "action": [
+      "BROCK"
+    ],
+    "info": [
+      "SHADE",
+      "LIQUID",
+      "HENRY",
+      "REGINALD",
+      "RED",
+      "PROME"
+    ]
+  }
+]

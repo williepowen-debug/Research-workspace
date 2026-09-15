@@ -63,9 +63,9 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-15
+### CHANGES SINCE LAST SESSION — 2026-09-15 resolution pass
 
-Boot repair pass implemented in Codex; owner state, delivery rules, diagnostics, read manifest and thirteen directory summaries repaired. Operational boot remains PARTIAL. Current evidence and remaining work: `research/2026-09-15_boot-repairs/RESULTS.md` and `LAST_COMPLETION.md`.
+Approved repair and routing completed locally; independent regression review and45-row coverage audit recorded in `research/2026-09-15_resolution-pass/RESULTS.md`. Dashboard finite/quiet/baseline guards, exact drop-zone scan, hash-bound boot attestation and staged archive pairing are executable. Historical16 chronology anomalies annotated;18 own retrospective evidence receipts reconcile undeclared moves without inventing read times. New signals correct the gasoline/natural-gas comparison and WAL cycle. Source/owner gaps remain explicit; no blanket market-clear claim.
 
 ### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
 
@@ -88,6 +88,6 @@ Boot repair pass implemented in Codex; owner state, delivery rules, diagnostics,
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS remain the complete obligation list.
 2. 🔴 **The Iran FULL PRIMARY SWEEP is owed ~9/17** — last full 9/10; 9/14's was PARTIAL and neither the rotation nor tonight's basis flag discharged it.
 3. 🔴 **`#6`/`#8` month basis is WITH WILL.** He has ruled *no month picked yet*. **Do not re-spec; do not let the interim fire-and-decompose rule quietly become a suppression.**
-4. 🟠 **Widen `claude_md_version_drift` past its one-claim perimeter** — it is the instrument that should have caught tonight's stale canonical version and reported clean instead.
+4. **Version-drift widening and recurrence guards implemented/tested September15.** Run the current checks; basis-match proves declared bytes, not executed boot.
 5. **Clocks: 9/16 FOMC + SEP + VIX SOQ + WPSR + earliest `RED-FT-10`, ALL ONE SESSION · 9/17 BoE gilt-QT + Iran full sweep + P4 sitting · 9/17–18 BOJ MPM + earliest FAL-05 · 9/18 ~\$6.2T opex · 9/25 Oman corridor · 9/30 Iraq pullout + `DOCKET L334`.**
 6. Owner receipts integrated 9/15: OSPREY returned and consumed three items; VIOLET answered breadth and applied BOARD lookup; PROME built fetch.py identity support. Remaining owner follow-ups and limits are single-homed in LAST_COMPLETION.md.

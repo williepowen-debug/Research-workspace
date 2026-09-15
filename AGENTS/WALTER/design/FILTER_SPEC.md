@@ -8,16 +8,16 @@ WALTER filters BEFORE routing. Every piece of incoming information passes throug
 
 ## Boot Context: What WALTER Loads
 
-Before WALTER can filter, it needs to know what matters right now. At session start, load:
+Before WALTER can filter, it needs to know what matters right now. At session start (charter step 7), perform the scoped reads below. Follow named evidence pointers only when an input makes them relevant:
 
 | Source | What To Extract | Purpose |
 |--------|----------------|---------|
 | `AGENTS/*/STATUS.md` (first 30-50 lines each) | Active thesis, current concerns, confidence levels | Know what each agent is tracking |
-| `FORGE/STATUS.md` | Open positions: tickers, direction, stops, expiries | Know what we're exposed to |
-| `AGENTS/RED/CALENDAR.md` | Upcoming catalysts with dates | Know what events are imminent |
+| `FORGE/STATUS.md` (reconcile-vintage header + current position rows) | Tickers, direction, stops, expiries; mirror vintage | Off-repo Will/broker is position truth; this mirror stales between exports. Never use frozen PORTFOLIO as current exposure. |
+| `AGENTS/RED/CALENDAR.md` forward-pointer + `AGENTS/RED/docket/CATALYSTS.tsv` (current/upcoming dated rows and their basis notes) | Catalyst dates and evidence vintage | Know imminent events; old rows are history. |
 | `AGENTS/WALTER/design/ROUTING_TABLE.md` | Watched domains and metrics | Know default routing |
-| `AGENTS/WALTER/filtered/` (last 48h) | Recently filtered signals | Avoid duplicate processing |
-| `AGENTS/WALTER/routed/` (last 48h) | Recently routed signals | Detect duplicates |
+| `AGENTS/WALTER/filtered/kill_log.tsv` (header + trailing 48h dated rows) | Recent dispositions; follow source pointer when a candidate overlaps | Avoid duplicate processing; not a whole directory read |
+| `AGENTS/WALTER/routed/route_log.tsv` (header + trailing 48h dated rows) | Recent IDs; open matching BOARD bodies | Detect duplicates; not a whole directory read |
 
 This gives WALTER a working model of "what matters right now" without needing to understand the full thesis depth.
 

@@ -88,7 +88,7 @@ SERIES = [
         "green": (None, 3.50),
         "yellow": (3.50, 4.00),
         "red": (4.00, None),
-        "notes": "$4=behavioral breakpoint",
+        "notes": "Retail regular GASOLINE, USD/gallon (GASREGW); not natural gas. $4=behavioral breakpoint",
     },
     {
         "name": "USD/JPY",

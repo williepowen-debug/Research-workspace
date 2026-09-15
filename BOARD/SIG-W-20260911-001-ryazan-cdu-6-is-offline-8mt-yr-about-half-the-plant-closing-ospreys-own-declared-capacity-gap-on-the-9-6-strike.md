@@ -53,3 +53,8 @@ OSPREY's 9/8 STATUS carries the 9/1-9/8 strike tempo and then states, verbatim: 
 - The Moscow Times 2026-09-10 — "Rosneft's Ryazan Oil Refinery Shuts Down After Drone Attack, Industry Sources Say"
 - Ukrinform 2026-09-10 — "Ryazan oil refinery shuts down after drone attack, Reuters reports"
 - militarnyi 2026-09-06/11 — "Ukrainian Drones Strike Ryazan Oil Refinery, Hitting Isomal-2 Isomerization Unit"
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-11T18:05:00Z` is disputed: this file was already recorded in Git at 2026-09-11 17:53:18 / `fab0e7728`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

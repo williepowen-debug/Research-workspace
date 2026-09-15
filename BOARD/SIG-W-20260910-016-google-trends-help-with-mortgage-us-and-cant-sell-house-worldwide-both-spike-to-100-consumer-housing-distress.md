@@ -39,3 +39,8 @@ Two Google Trends captures (Will image #3 = "help with mortgage" search term, Un
 ## Ask
 
 **HOMER (action):** validate the right-edge date (query the underlying trends yourself for reproducibility), and grade whether these search-interest highs align with realised housing-stress data (delinquencies, inventory, price-cuts, listings). CARL: consumer-stress lens. REGINALD/CREED: mortgage-servicer / MSR / CRE spillover if the search interest translates to actual defaults.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:24:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:55:35 / `e1b5cbbd9`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

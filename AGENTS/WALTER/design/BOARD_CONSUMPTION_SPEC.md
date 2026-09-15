@@ -1,8 +1,10 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.30
+**Version:** v0.31
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
+
+**v0.31 (2026-09-15, approved resolution pass):** §5.1 names exact evidence-backed retrospective owner receipts and their review-date limits. Delivery remains distinct from consumption; original move timestamps remain intact.
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
 
 ---
@@ -379,7 +381,7 @@ File: `AGENTS/WALTER/routed/delivery_log.tsv` — **WALTER-owned**, append-only,
 | `written_state` | enum (reconciled after push) | Default `written_not_delivered_pending_push`. After a successful push, run `tools/reconcile_delivery_log.py --apply` per CLAUDE.md step 16. It may promote pending rows to `delivered` only with origin-history proof; current local tracking alone is insufficient. Git remains authoritative. Preserve legacy values and all other columns; never infer consumption from delivery. This corrects the obsolete creation-stamp-only description to the existing operational workflow. |
 | `notes` | free text | Optional. |
 
-**Critical (requirement B):** WALTER records *written/committed* state only. Whether a committed handoff is **on origin / delivered** is **derived read-only from git by `walter_doctor`** (see §6) — PROME does **not** edit this log after pushing. WALTER owns the log; PROME owns the sync/push *action*; the doctor derives sync state. This keeps the log a WALTER-only write surface and avoids a cross-agent edit race.
+**Critical (requirement B):** WALTER alone writes this log. It records creation, then may reconcile `written_state` after a successful push using origin-history proof (§4 table; charter step 16). The doctor independently derives and verifies delivery from git; the stored claim is never authority over git and never proves consumption. PROME does not edit the log after pushing. Push authority follows §7 and root Git Protocol.
 
 **UTC discipline:** `Z` means UTC. Convert ET/local clock before writing; never append `Z` to local wall-clock time.
 
@@ -461,6 +463,9 @@ Commit `9be6a5ee6` (2026-07-10, *"WALTER 7/11: BOARD-consumption cleanup — arc
 Two states, machine-distinguishable, and **no new ledger for the 14 recipients P3 correctly refuses to burden.** Without it, S7 would hand S1 a measurement that reports six items as read by a desk that never opened them — and S1's entire value is that its output is a **fact**, not a status.
 
 **Status: BUILT 2026-08-20 (v0.19, Will-directed execution of the 8/08 forum-carry packet).** The declaration grammar, precisely: **a moving commit is a CONSUMPTION record iff (a) its message (subject or body) contains the literal token `consume:<AGENT>`** (case-insensitive on the token, `<AGENT>` = the owner of the processed/ dir the file moved into), **or (b) the same commit appends to that dir's `processed/.consumed.tsv`.** Anything else is FILED. Enforced by `walter_doctor` **`filed_vs_consumed`**: undeclared moves dated on/after 2026-08-20 flag LOW by name; **moves before that date predate the grammar and are counted as an upper bound only, never flagged** — a ruling governs the next write, not the existing state. First live run: 9 declared-consumed, 114 pre-grammar, 0 undeclared. **The consumption numbers in the 2026-08-07 forum posts predate this distinction and do not separate FILED from CONSUMED** — they should be read as an upper bound on consumption until the declaration ships.
+
+
+**Retrospective reconciliation (2026-09-15, Will-approved repair):** the consuming owner may later review an undeclared move and append a four-column row to that exact processed directory's `.consumed.tsv`: `YYYY-MM-DD<TAB>exact basename<TAB>OWNER<TAB>review note; evidence: repo/relative/file.md`. Use the actual review date, on/after the move date and no later than today. Identify whether integration is artifact-verified or whether the item was informational and is being consumed now. A historical filename alias requires an explicit reconciliation, not a guessed match. The checker requires the exact filename and owner, a valid date, and an existing repository evidence file; it does not certify the evidence's semantic adequacy or the original read time. Only the owner may attest its own review; a spawned reader cannot attest recipient consumption (§3.5.2). Original move dates and receipts stay intact.
 
 ---
 

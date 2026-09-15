@@ -31,3 +31,8 @@ Prior comparable trough Sep 1981 preceded the Volcker-era peak yield and the mul
 **Ask:** BOND — attach to your duration-holder pain surface; the historical comparable is Sep 1981, not the more recent 2013 or 2022 troughs. LIQUID/REGINALD — bank AFS/HTM context for the duration book. HENRY — equity-vs-bond regime read.
 
 **Guard:** the chart is a secondhand rendering; BOND grades whether the -2% figure matches BofA's own note (some indices differ between 15yr+ and 20yr+ series).
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:22:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:55:35 / `e1b5cbbd9`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

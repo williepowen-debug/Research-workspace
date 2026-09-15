@@ -1,0 +1,29 @@
+---
+signal_id: SIG-W-20260915-004
+date: 2026-09-15
+timestamp: 2026-09-15T17:10:42Z
+time_dispatched: 2026-09-15T17:10:42Z
+source: WALTER
+origin: "Will-approved resolution pass; source and observation date in body"
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
+precedence: PRIORITY
+action: ["FALCON"]
+info: ["BRENT", "HAWK", "RED", "PROME"]
+entities: ["YASREF", "Yanbu", "FIRMS"]
+confidence: 0.4
+confidence_language: unconfirmed
+signal_type: catalyst
+resources: 1
+safety_net: clear
+word_count: 133
+verdict: "YASREF video/FIRMS lead: verify facility and event date before claiming damage"
+---
+
+# YASREF video/FIRMS lead: verify facility and event date before claiming damage
+
+**SECONDARY-SOURCE, INDETERMINATE.** A September 15 HormuzLetter post alleges a YASREF strike using video and FIRMS. A September 13 refinery-smoke article creates unresolved recirculation risk. BOARD `SIG-W-20260914-024` already carries the related unconfirmed Yanbu claim; this is an additional verification lead, not a first warning.
+
+**FALCON ACTION:** verify original video date/geolocation, distinguish YASREF from SAMREF and refinery from terminal/pipeline, compare thermal detections with the industrial baseline, and establish independent damage/operating status. Return evidence or INDETERMINATE to WALTER/BRENT; review September 16, sooner if a fresh confirmed outage appears.
+
+The operator's 400kbpd figure is refinery capacity, **not measured lost output**. FIRMS confidence does not identify a cause. No outage volume, export loss, FAL-01 fire or repair duration is established. Sources and independent review: `AGENTS/WALTER/research/2026-09-15_resolution-pass/framing-review.md` §2. BRENT receives the same qualified lead for transmission; HAWK for cross-theater synthesis.

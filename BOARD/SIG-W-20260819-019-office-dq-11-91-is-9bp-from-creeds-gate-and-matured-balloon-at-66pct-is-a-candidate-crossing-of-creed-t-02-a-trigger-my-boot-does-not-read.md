@@ -16,6 +16,8 @@ verdict: ONE CANDIDATE CROSSING (CREED-T-02, leg 1 of 2) + ONE NEAR-TRIGGER AT 9
 consumer_lens: CREED owns the series and three of its eleven Will-FROZEN triggers are gradable off the two documents Will sent this hour. CREED-T-02's own recipient chain puts CREED, REGINALD **and LIQUID** all on `action` — the only three-way action chain in that registry — which is why this is IMMEDIATE rather than PRIORITY.
 cluster_secondary: PC_STRESS
 corrects: SIG-W-20260819-018
+status: PARTIALLY-SUPERSEDED
+status_ref: "SELF — September15 spec-field annotation; CREED-T-01b sustain changed August27"
 ---
 
 > ⚠️🔴 **ROUTING-CORRECTED 2026-08-19 by `SIG-W-20260819-023` — the FINDINGS stand; the RECIPIENTS were wrong on two legs. Additive; nothing below is edited.**
@@ -137,3 +139,8 @@ T-1: no registered TERRY instrument grades off CMBS delinquency; `TRY-RESHAPE-BC
 - **No property in the newly-delinquent list is individually identified** by name or CUSIP.
 - **Whether office DQ's three-month climb continues.** One 34bp month after a 4bp month; **sustain windows exist for this reason.**
 - **`CREED-T-03`** (`FDIC-NONOWNER-CRE-PDNA-LARGEBANK` >3.40, quarterly QBP) — CREED's self-described *"THE decision-relevant trigger"* — **is NOT gradable from either document** and needs the FDIC QBP.
+
+
+## Spec-field supersession — 2026-09-15
+
+The original August19 `CREED-T-01b` sustain of one monthly print was correct at dispatch. Will changed it to **two consecutive monthly prints** on August27 (`PROME/proposals/2026-08-27_creed-band-asks-RULED.md`, owner commit `90ef46778`). The >18 level and original July16.58 observation are unchanged; no retrospective fire is claimed. Current authority: `AGENTS/CREED/registry/THRESHOLDS.tsv`. This completes WALTER’s August28 promised additive marker; it does not rewrite the dated record.

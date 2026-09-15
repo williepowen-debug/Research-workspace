@@ -80,3 +80,8 @@ This row's own guard block reads: ***"Do NOT let '~7 mb/d' or '5 mb/d offline' a
 ⛔ **THE REST OF THIS ROW'S GUARD IS NOT RETIRED AND IS NOW MORE LOAD-BEARING, NOT LESS:** *"do NOT let '~7 mb/d' or '5 mb/d offline' attach to this claim."* **A tier-1 CAPACITY figure is precisely what gets re-quoted as a LOSS** — which is the named failure of `IRAN_WAR_GUARDS.md` KILL-ON-SIGHT ①. **"7 mb/d offline" remains KILL-ON-SIGHT. What is confirmed is that the line is SHUT.**
 
 **Also upgraded:** this row flagged that *"the FIRMS pull, if any, is somewhere behind the RT post."* **WSJ has since published a EUROPEAN UNION / COPERNICUS SENTINEL / REUTERS satellite image of smoke at the line south of Medina on Thursday** — a named, attributable product, a material upgrade over the RT-watermarked images this row registered. **The "6 hotspots" COUNT is still not corroborated and should still not travel.**
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:44:00Z` is disputed: this file was already recorded in Git at 2026-09-10 23:33:15 / `735e55387`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

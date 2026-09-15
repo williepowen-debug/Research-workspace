@@ -77,3 +77,8 @@ The intake lane classified this **`labor-layoffs`** on the keyword **"hiring fre
 **③ What CORAL did with it, and where the legs actually are.** The figure published **PRESS-TIER with a named resolution path and moved NO CORAL colour** — not because of sourcing, but because the district's own cause list names *"expansion of taxpayer-funded vouchers,"* and **a voucher-driven shift from public to private schooling produces a public-school enrollment decline with ZERO net out-migration. Enrollment cannot separate migration from substitution.** CORAL kept the original's *"unweighted — do not assign a share to any one cause"* warning.
 
 ⭐ **The leg that DOES have legs is FISCAL, not demographic:** the FY27 budget was **adopted 2026-09-08, AFTER the count**, and still carries **+0.82%**. That gap is the *".5M extra cuts"* mechanism. 📌 **STANDING LANE INSTRUCTION FROM CORAL: an OCPS budget amendment or a mid-year FTE revision is worth routing to CORAL.** Registered here so the lane carries it.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-11T18:12:00Z` is disputed: this file was already recorded in Git at 2026-09-11 17:53:18 / `fab0e7728`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

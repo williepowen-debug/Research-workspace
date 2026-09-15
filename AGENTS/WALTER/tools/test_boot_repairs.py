@@ -109,6 +109,58 @@ class BootRepairs(unittest.TestCase):
             self.assertEqual(data["data_completeness"]["available"], 1)
             self.assertEqual(err, "")
 
+    def invoke_real_transitions(self, rows, state, *args):
+        out, err = io.StringIO(), io.StringIO()
+        with patch.object(sys, 'argv', ['dashboard.py', '--json', *args]), \
+                patch.object(dashboard, 'fetch_all', return_value=rows) as fetch, \
+                patch.object(dashboard, 'load_last_state', return_value=state), \
+                patch.object(dashboard, 'save_state') as save, \
+                patch.object(dashboard, 'append_log'), \
+                contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+            with self.assertRaises(SystemExit) as result:
+                dashboard.main()
+        return result.exception.code, json.loads(out.getvalue()), save, fetch
+
+    def test_quiet_uses_final_hysteresis_zone(self):
+        for value, zone, prior, count in [(279, 'yellow', 'red', 1), (281, 'red', 'yellow', 0)]:
+            rows = [dict(name='HY OAS', value=value, zone=zone)]
+            code, data, _, _ = self.invoke_real_transitions(
+                rows, {'HY OAS': dict(value=280, zone=prior)}, '--quiet', '--no-save')
+            self.assertEqual(code, 0)
+            self.assertEqual(len(data['results']), count)
+            self.assertEqual(data['summary']['red'], count)
+
+    def test_nonfinite_fetch_to_main(self):
+        series = next(s for s in dashboard.SERIES if s['name'] == 'HY OAS')
+        for value in ['NaN', 'Infinity', '-Infinity']:
+            with patch.object(dashboard, 'fred_fetch', return_value=[dict(value=value, date='2026-09-15')]):
+                rows = dashboard.fetch_all([series])
+            self.assertIsNone(rows[0]['value'])
+            self.assertEqual(rows[0]['zone'], 'unknown')
+            code, data, _, _ = self.invoke_real_transitions(rows, {}, '--no-save')
+            self.assertEqual(code, 3)
+            json.dumps(data, allow_nan=False)
+
+    def test_unavailable_preserves_baseline_and_recovery_is_not_new_alert(self):
+        valid = dict(name='HY OAS', value=300, zone='red')
+        _, _, first, _ = self.invoke_real_transitions([valid.copy()], {})
+        baseline = first.call_args.args[0]
+        code, failed, saved, _ = self.invoke_real_transitions(
+            [dict(name='HY OAS', value=None, zone='unknown')], baseline)
+        self.assertEqual(code, 3)
+        self.assertEqual(failed['transitions'], {})
+        self.assertEqual(saved.call_args.args[0], baseline)
+        _, recovered, _, _ = self.invoke_real_transitions([valid.copy()], saved.call_args.args[0])
+        self.assertEqual(recovered['transitions'], {})
+
+    def test_scoped_run_preserves_unselected_baselines_without_second_fetch(self):
+        baseline = {'WAL': dict(value=77, zone='red', timestamp='2026-09-14T20:00:00Z')}
+        for args in [('--tier', '1'), ('--agent', 'LIQUID')]:
+            _, _, save, fetch = self.invoke_real_transitions(
+                [dict(name='HY OAS', value=279, zone='yellow')], baseline, *args)
+            self.assertEqual(save.call_args.args[0]['WAL'], baseline['WAL'])
+            fetch.assert_called_once()
+
 
 if __name__ == "__main__":
     unittest.main()

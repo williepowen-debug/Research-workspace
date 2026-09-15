@@ -29,3 +29,8 @@ Record marked All-Time High: Aug 31, 2026 on the chart. Lines shown: 2026 (dark)
 **Why routes ROUTINE not PRIORITY:** 5 days old; BRENT's own STATUS may already carry the 8/31 record.
 
 **Ask:** BRENT confirm this is on your surface. If not, grade the divergence between production record + all-time demand + sub-$3 price — the classical over-supply resolution. FERT: nitrogen-input cost tell (Henry Hub feedstock). WATT: gas-power stack margin context. CARL: heating-cost transmission (winter setup at low prices). AEOLUS: climate/summer-demand overlay.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:20:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:55:35 / `e1b5cbbd9`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

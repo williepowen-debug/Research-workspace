@@ -63,3 +63,8 @@ No registered RED-FT or REG-T on DGS10 outright. BOND owns rates thresholds via 
 - Image #5 (Michael Gayed) killed as pundit narrative around 9/8 index closes; not carried here.
 - ⚠️ **TVC "continuous" tickers roll — a delta across a roll is an artifact** (anchors/IRAN_WAR_GUARDS.md ADD#23 class, applied to any `US10Y` TVC series here as well). BOND: confirm 4.954% at a NAMED-CONTRACT/spot benchmark before quoting.
 - No mine claim, no Iran cross, no ceasefire. No batch numerator errors — 6 declared items dispositioned in BM-02, seventh in BM-03.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T22:15:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:07:47 / `16a21b530`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

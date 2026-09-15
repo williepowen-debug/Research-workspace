@@ -63,3 +63,8 @@ Source: First Squawk @FirstSquawk, X.com, dated 2026-09-06 20:34 ET, 16K views. 
 ⚠️ **Only the two taxonomy fields moved. The signal's body, verdict, recipients, precedence, confidence and timestamps are untouched** — this is index hygiene on a generated surface, not a revision of the 9/10 record. SAM's routing was correct either way: it was delivered to SAM on 9/10 and the recipient chain is unchanged.
 
 📌 **Flagged, NOT swept:** two older SAM signals carry `domain: JAPAN_CARRY`, also absent from the vocabulary. They are outside today's doctor flag (which is cluster-scoped) and I am not hand-fixing rows nobody named — `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`. **If the domain field ever gets its own taxonomy check, it will find them.**
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:00:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:51:26 / `fe80673eb`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

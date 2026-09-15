@@ -1,0 +1,222 @@
+[
+  {
+    "timestamp_routed": "2026-09-14T17:55:42Z",
+    "signal_id": "NOTE-2026-09-14-three-inflation-numbers",
+    "recipient": "RED",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/RED/inbox/WALTER/2026-09-14-NOTE-three-inflation-numbers-one-print.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1 delivered to exempt desk"
+  },
+  {
+    "timestamp_routed": "2026-09-14T17:55:42Z",
+    "signal_id": "NOTE-2026-09-14-three-inflation-numbers",
+    "recipient": "CARL",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/CARL/inbox/WALTER/2026-09-14-NOTE-three-inflation-numbers-one-print.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1 delivered to exempt desk"
+  },
+  {
+    "timestamp_routed": "2026-09-14T17:57:05Z",
+    "signal_id": "NOTE-2026-09-14-credit-card-chart-recirculated",
+    "recipient": "CARL",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/CARL/inbox/WALTER/2026-09-14-NOTE-the-credit-card-chart-recirculated-and-its-endpoint-checks-out.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1 delivered to exempt desk; discharges carried FOLLOW-UP item 6"
+  },
+  {
+    "timestamp_routed": "2026-09-14T17:58:23Z",
+    "signal_id": "NOTE-2026-09-14-titanic-criteria-leg2-fails",
+    "recipient": "VIOLET",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/VIOLET/inbox/WALTER/2026-09-14-NOTE-titanic-syndrome-criteria-in-hand-and-leg-2-fails.md",
+    "written_state": "delivered",
+    "notes": "note - criteria arrived, leg 2 fails on the charts own data"
+  },
+  {
+    "timestamp_routed": "2026-09-14T18:04:01Z",
+    "signal_id": "NOTE-2026-09-14-jizan-capacity-firms-contrast",
+    "recipient": "FALCON",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/FALCON/inbox/WALTER/2026-09-14-NOTE-jizan-capacity-and-a-model-FIRMS-citation.md",
+    "written_state": "delivered",
+    "notes": "note - capacity figure + ADD#15 scope clarification"
+  },
+  {
+    "timestamp_routed": "2026-09-14T18:06:06Z",
+    "signal_id": "NOTE-2026-09-14-gas-record-supply-and-demand",
+    "recipient": "WATT",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/WATT/inbox/WALTER/2026-09-14-NOTE-record-gas-production-AND-record-seasonal-demand.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1"
+  },
+  {
+    "timestamp_routed": "2026-09-14T18:06:06Z",
+    "signal_id": "NOTE-2026-09-14-gas-record-supply-and-demand",
+    "recipient": "HENRY",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/HENRY/inbox/WALTER/2026-09-14-NOTE-record-gas-production-AND-record-seasonal-demand.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1"
+  },
+  {
+    "timestamp_routed": "2026-09-14T18:06:06Z",
+    "signal_id": "NOTE-2026-09-14-supply-vs-demand-oil-framework",
+    "recipient": "RED",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "NOTE",
+    "handoff_path": "AGENTS/RED/inbox/WALTER/2026-09-14-NOTE-a-supply-vs-demand-oil-rally-framework-chart-unattributed.md",
+    "written_state": "delivered",
+    "notes": "note - 3.5.1 delivered to exempt desk"
+  },
+  {
+    "timestamp_routed": "2026-09-14T22:5xZ",
+    "signal_id": "NOTE-2026-09-14-sig025-ulsd-term-superseded",
+    "recipient": "OSPREY",
+    "role": "action",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20260914-025-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "additive correction to the -025 handoff; ULSD-collapse term superseded (93pct contract roll)"
+  },
+  {
+    "timestamp_routed": "2026-09-14T22:5xZ",
+    "signal_id": "NOTE-2026-09-14-sig025-ulsd-term-superseded",
+    "recipient": "HENRY",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-025-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "additive correction to the -025 handoff; ULSD-collapse term superseded (93pct contract roll)"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "HENRY",
+    "role": "action",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "BRENT",
+    "role": "action",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "CARL",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/CARL/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "NEXUS",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/NEXUS/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "HAWK",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "RED",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/RED/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "TERRY",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/TERRY/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "PROME",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "PROME/inbox/2026-09-14_from-WALTER_NOTE-sig015-sec3-separation-claim-was-a-contract-roll-withdrawn.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "LABOR",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/LABOR/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  },
+  {
+    "timestamp_routed": "2026-09-14T23:4xZ",
+    "signal_id": "NOTE-2026-09-14-sig015-sec3-roll-artifact",
+    "recipient": "MARCO",
+    "role": "info",
+    "recipient_platform": "claude-code",
+    "precedence": "PRIORITY",
+    "handoff_path": "AGENTS/MARCO/inbox/WALTER/SIG-W-20260914-015-CORRECTION-NOTE.md",
+    "written_state": "delivered",
+    "notes": "sec3 separation claim withdrawn; contract roll"
+  }
+]

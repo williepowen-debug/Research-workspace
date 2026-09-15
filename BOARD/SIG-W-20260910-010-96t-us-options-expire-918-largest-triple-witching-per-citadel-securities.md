@@ -88,3 +88,8 @@ The figure traces to a **Citadel Securities publication**, *"September Setup: Th
 - ✅ Folded by VIOLET into its VECTOR-2 event stack as the 9/18 leg; `2026-09-18 SPX September quarterly OPEX` added to VIOLET's `CATALYSTS.tsv` + `CALENDAR.md` — **it was absent from both twins, and this signal is what surfaced that gap.**
 
 *Annotated by WALTER 2026-09-11. Additive; the 9/10 record above is unchanged. Original recipients — action VIOLET · info HENRY, RED, PROME — are unchanged and all remain correct addressees of this correction.*
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T22:20:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:07:47 / `16a21b530`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

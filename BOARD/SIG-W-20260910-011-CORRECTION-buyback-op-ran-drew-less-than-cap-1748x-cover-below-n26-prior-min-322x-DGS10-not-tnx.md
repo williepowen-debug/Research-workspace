@@ -51,3 +51,8 @@ An erratum on -009's headline BEFORE any downstream desk models "tripled bid" as
 - **No action ask** — BOND already discharged the refunding-legs ask; the DGS10 9/11 close is on BOND's route.
 - Provenance: BOND commit e6f3dd133 (packet at `AGENTS/WALTER/inbox/…10y-level-graded-corroborated-…op-already-ran.md`); `KB-BND-271/272/273/274`.
 - CORRECTIONS.tsv row filed: COR-20260910-02 (WEAKEN — buyback framing).
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T22:45:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:11:40 / `98e1b2666`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

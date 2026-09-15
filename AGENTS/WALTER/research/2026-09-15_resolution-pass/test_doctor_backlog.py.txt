@@ -1,0 +1,19 @@
+Reproductions of the defects fixed 2026-09-11:
+
+  PASS  aged ACTION handoff to CARL (pull-complete) classifies ACTION: got 'ACTION', want 'ACTION'
+  PASS  INFO/note handoff to CARL stays INFO: got 'INFO', want 'INFO'
+  PASS  queue manifest is NON-DISPATCH, not ACTION: got 'NON-DISPATCH', want 'NON-DISPATCH'
+  PASS  unresolvable SIG-shaped id fails closed to UNKNOWN: got 'UNKNOWN', want 'UNKNOWN'
+  PASS  ACTION handoff to a normal desk still classifies ACTION: got 'ACTION', want 'ACTION'
+
+Timestamp validation — production checker, via its test seam:
+  PASS  junk text is flagged: got 'MED', want 'MED'
+  PASS  empty field is flagged, not skipped: got 'MED', want 'MED'
+  PASS  non-canonical offset is flagged (schema is ...Z): got 'MED', want 'MED'
+  PASS  canonical future stamp is HIGH: got 'HIGH', want 'HIGH'
+  PASS  approximate-minute convention is accepted: got 'INFO', want 'INFO'
+  PASS  a clean canonical stamp passes: got 'INFO', want 'INFO'
+  PASS  CODEX: approx minute does NOT excuse a future DATE: got 'HIGH', want 'HIGH'
+  PASS  CODEX: approx minute does NOT excuse an impossible DATE: got 'MED', want 'MED'
+
+✓ all 13 reproductions pass — 5 classifier, 8 through the production checker

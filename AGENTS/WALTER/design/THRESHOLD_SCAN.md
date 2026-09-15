@@ -27,7 +27,7 @@ Size re-trigger: measure after any append and every Tier-2; next calendar check 
    >
    > 📌 **Generalises to every exit-carrying row on the board** (`RED-FT-01`/`-06`/`-07`/`-09`/`-10`, `REG-T-*`, `CREED-T-*`): **read the exit column before reporting a state, and report the STATE, not the last event.** `[[finding_record_of_an_action_is_not_the_action]]`
 
-   Append fire row to `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` (5-col schema: trigger_id / fired_date / metric_value_at_fire / dispatched_signal_id / sustain_confirmation — per JOINT_PROPOSAL §2.4, preserves Critical Rule #2 by keeping fire-history out of RED's tree). Approaching-threshold (within 5% one-sided per `threshold_op`) flagged in WALTER closeout SESSION LOG as "near-trigger watch", not auto-dispatched. Stale-fire suppression: skip a trigger if it fired within prior `sustain_window` sessions per the ledger.
+   Append fire row to `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv` (5-col schema: trigger_id / fired_date / metric_value_at_fire / dispatched_signal_id / sustain_confirmation — per JOINT_PROPOSAL §2.4, preserves Critical Rule #2 by keeping fire-history out of RED's tree). Approaching-threshold (within 5% one-sided per `threshold_op`) flagged in WALTER closeout SESSION LOG as "near-trigger watch", not auto-dispatched. Stale-fire suppression: for exit-carrying rows, apply the STATE RULE above and the current owner exit. The elapsed `sustain_window` heuristic must never suppress a new cycle after a registered exit, or re-fire an ongoing fired state.
 
 > 🔴🔴 **CROSS-SERIES ROLL DESYNC — added v0.42, 2026-09-14 (BRENT's finding, verified at HENRY's artifact; canon `AGENTS/BRENT/demand_destruction/TRACKER.md` § CONTRACT-ROLL CAVEAT).**
 >

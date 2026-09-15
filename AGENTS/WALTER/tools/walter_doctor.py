@@ -1030,9 +1030,9 @@ def check_delivered_but_unconsumed():
         cnt = {}
         for r, _s, _a in pull_complete:
             cnt[r] = cnt.get(r, 0) + 1
-        pc = [(LOW, "pull-complete agents (WALTER skips delivery per §3.5) have handoffs to "
+        pc.append((LOW, "pull-complete agents (WALTER skips delivery per §3.5) have handoffs to "
                "ARCHIVE not consume: " + ", ".join(f"{r} {n}" for r, n in sorted(cnt.items()))
-               + " — bulk-`git mv` to processed/ (one-time; if NEW, WALTER mis-delivered)")]
+               + " — owner filing review (one-time; if NEW, WALTER mis-delivered)"))
     if not aged:
         return pc + [(INFO, f"all delivered handoffs consumed or ≤{N_UNCONSUMED_DAYS}d old "
                       f"({len(files)} in flight)")]
@@ -1067,7 +1067,7 @@ def check_delivered_but_unconsumed():
     # for what it measured; the LABEL overstated its scope.
     # `[[finding_verification_zero_is_ambiguous]]` — a check certifies its SCOPE.
     total_in_flight = len(files)
-    nr = f", {no_row} on mtime (no delivery_log row)" if no_row else ""
+    nr = f", {no_row} on mtime across the full delivered-file scan (not the aged-warning denominator; no delivery_log row)" if no_row else ""
     # 🔴 AGES REPORTED PER CLASS, NEVER ONE POOLED "oldest" (2026-09-11, Codex-found).
     # The old line read "…oldest 54d — 6 ACTION / 18 INFO", which invites exactly one
     # reading: that there are 54-day-old unanswered ACTION items. There were not — the
@@ -1535,12 +1535,8 @@ def check_dropzone_pending():
     if not dz.is_dir():
         out.append((LOW, "inbox/WILL/ drop-zone absent — scaffold not present"))
         return out
-    skip = {"processed", ".gitignore", ".gitkeep", ".DS_Store", "README.md"}
-    pending = sorted(
-        p.name for p in dz.iterdir()
-        if p.is_file() and p.name not in skip and not p.name.startswith(".")
-        and not p.name.endswith(":Zone.Identifier")
-    )
+    from dropzone_scan import pending_files
+    pending = [p.name for p in pending_files(dz)]
     if pending:
         shown = ", ".join(pending[:8]) + (" …" if len(pending) > 8 else "")
         out.append((MED, f"{len(pending)} item(s) waiting in inbox/WILL/ drop-zone — "
@@ -2062,6 +2058,15 @@ def check_correction_target_declared():
         if not m or not m.group(1).strip():
             missing.append(sid); continue
         val = m.group(1).strip()
+        # YAML permits quoted scalars; retain support for legacy unquoted EXTERNAL:.
+        if len(val) >= 2 and val[0] == val[-1] and val[0] in ('"', "'"):
+            if val[0] == '"':
+                try:
+                    val = json.loads(val)
+                except ValueError:
+                    malformed.append(f"{sid} (invalid quoted correction target)"); continue
+            else:
+                val = val[1:-1].replace("''", "'")
         if val == "SELF" or val.startswith("EXTERNAL:"):
             if val.startswith("EXTERNAL:") and not val[len("EXTERNAL:"):].strip():
                 malformed.append(f"{sid} (EXTERNAL: with no target)")
@@ -2375,11 +2380,46 @@ def check_terry_override_ratio():
     return out
 
 
+def _later_consume_receipt(owner, dest, moved_date):
+    """A later exact receipt can resolve an earlier undeclared move.
+
+    New retrospective receipts name local evidence; a basename alias, wrong owner,
+    malformed row or mere existence of a ledger cannot clear a specific move.
+    The receipt date is the review date, not invented historical consumption time.
+    """
+    ledger = REPO / Path(dest).parent / ".consumed.tsv"
+    if not ledger.is_file():
+        return False
+    for line in ledger.read_text(errors="replace").splitlines():
+        fields = line.split("\t")
+        if len(fields) != 4:
+            continue
+        stamp, filename, consumer, note = fields
+        if filename != Path(dest).name or consumer.removeprefix("consume:") != owner:
+            continue
+        try:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", stamp):
+                continue
+            reviewed = dt.date.fromisoformat(stamp)
+        except ValueError:
+            continue
+        if reviewed < dt.date.fromisoformat(moved_date) or reviewed > dt.datetime.now(dt.timezone.utc).date():
+            continue
+        evidence = re.search(r"\bevidence: ([^\s;]+)", note)
+        if evidence:
+            relative = Path(evidence.group(1).split("#", 1)[0])
+            if not relative.is_absolute() and ".." not in relative.parts and (REPO / relative).is_file():
+                return True
+    return False
+
+
 def check_filed_vs_consumed():
     """S7 — FILED ≠ CONSUMED made machine-readable (built 2026-08-20, 8/08 forum-carry
     item 3, SPEC v0.19 §5.1). A `git mv` into a processed/ dir is a CONSUMPTION record
     only when the moving commit DECLARES the consuming agent — a `consume:<AGENT>` token
-    in the message, or a same-commit append to that dir's `.consumed.tsv`. An undeclared
+    in the message, a same-commit append to that dir's `.consumed.tsv`, or a later
+    exact owner receipt with a valid review date and an existing evidence file. This
+    last route records retrospective review, not historical consumption time. An undeclared
     move is FILED: every agent commits as one git identity, so authorship cannot
     discriminate (commit 9be6a5ee6 filed six items into TERRY's processed/ that no TERRY
     surface cites). Moves before S7_TOKEN_ADOPTED predate the grammar and are counted as
@@ -2416,6 +2456,7 @@ def check_filed_vs_consumed():
                 continue
             owner = om.group(1)
             declared = bool(re.search(rf"consume:{owner}\b", msg, re.I)) or owner in tsv_owners
+            declared = declared or _later_consume_receipt(owner, dest, cdate)
             if declared:
                 consumed += 1
             elif cdate >= S7_TOKEN_ADOPTED:

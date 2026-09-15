@@ -60,3 +60,8 @@ Source: **MS Research Exhibit 1; underlying is Company Filings + Morgan Stanley 
 
 - ⚠️ **Chart-scale-read caveat:** dollar values are read off the chart bars — VULCAN should verify each number against the MS note text before citing.
 - **NVDA's $125B "Potential Chip Credit Facility Residual Value Support (reported $500bn facility with 25% RVS)"** is the biggest single new number here — verify against 10-Q disclosure of the actual facility.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:05:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:51:26 / `fe80673eb`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

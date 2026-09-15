@@ -1,0 +1,23 @@
+=== _sig_variant splits identity from subject ===
+  PASS  original -> no variant: got ('SIG-W-20260911-003', ''), want ('SIG-W-20260911-003', '')
+  PASS  correction -> CORRECTION: got ('SIG-W-20260911-003', 'CORRECTION'), want ('SIG-W-20260911-003', 'CORRECTION')
+
+=== DIRECTION 1 — consuming the ORIGINAL must NOT discharge the CORRECTION ===
+  PASS  original reads consumed: got True, want True
+  PASS  CORRECTION reads NOT consumed: got False, want False
+
+=== DIRECTION 2 — consuming the CORRECTION must NOT discharge the ORIGINAL ===
+  PASS  correction reads consumed: got True, want True
+  PASS  ORIGINAL reads NOT consumed: got False, want False
+
+=== control — both consumed, and neither consumed ===
+  PASS  both: original: got True, want True
+  PASS  both: correction: got True, want True
+  PASS  neither: original: got False, want False
+  PASS  neither: correction: got False, want False
+
+=== fail-closed: unknown desk / empty log is NEVER 'consumed' ===
+  PASS  absent desk: got False, want False
+  PASS  empty sig: got False, want False
+
+ALL PASS — a correction and its original are distinct objects in both directions.

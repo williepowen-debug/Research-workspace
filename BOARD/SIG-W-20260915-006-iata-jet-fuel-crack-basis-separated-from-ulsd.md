@@ -1,0 +1,29 @@
+---
+signal_id: SIG-W-20260915-006
+date: 2026-09-15
+timestamp: 2026-09-15T17:10:42Z
+time_dispatched: 2026-09-15T17:10:42Z
+source: WALTER
+origin: "Will-approved resolution pass; source and observation date in body"
+domain: OIL_ENERGY
+cluster: HYDROCARBON_INFRA
+precedence: PRIORITY
+action: ["BRENT"]
+info: ["HENRY", "RED", "PROME"]
+entities: ["IATA", "Dated-Brent", "Jet-fuel"]
+confidence: 0.95
+confidence_language: confirmed
+signal_type: catalyst
+resources: 1
+safety_net: clear
+word_count: 135
+verdict: "IATA September 11 jet-fuel crack report provides a dated physical-price basis"
+---
+
+# IATA September 11 jet-fuel crack report provides a dated physical-price basis
+
+**PRIMARY-VERIFIED report, dated September 11.** [IATA's chart](https://www.iata.org/en/iata-repository/publications/economic-reports/structural-shifts-increase-jet-fuel-crack-risks/) uses the global jet-fuel price index less Dated Brent, dollars/barrel, sourced to S&P Global Energy Platts/IATA. It describes a higher and more volatile crack environment linked to refinery concentration and import dependence.
+
+**BRENT ACTION:** place this jet-specific physical-price basis alongside the existing products analysis; establish exact observation dates/levels before any latest-price comparison. Return the integration path or a no-change explanation to WALTER; review September 16.
+
+The report does not establish a September 15 close, a matched HO futures crack, or Boundary #6/#8. The screenshot's approximate $70 endpoint is not graded as an exact current observation. HENRY receives the transmission context. No named cruise issuer or bunker-fuel leg is supplied, so the sector-name routing condition is not met. Input is the bottom Hedgeye post in `four poists from twitter.JPG`.

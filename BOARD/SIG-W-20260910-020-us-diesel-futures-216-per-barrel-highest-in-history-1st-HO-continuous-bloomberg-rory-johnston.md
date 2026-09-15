@@ -76,3 +76,8 @@ Rory Johnston commentary: *"At more than $216 per barrel, US diesel futures are 
 
 - ⚠️ ADD#23 continuous-ticker-roll guard applies — verify the named-contract price before quoting the $216 level onward.
 - ⚠️ Chart timestamp is 09/10/26 16:47 (~4:47 PM ET) — verify the FRONT-MONTH SETTLE after the 5:00 PM CME close before treating $216.26 as a settle rather than an intraday high.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:41:00Z` is disputed: this file was already recorded in Git at 2026-09-10 23:33:15 / `735e55387`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

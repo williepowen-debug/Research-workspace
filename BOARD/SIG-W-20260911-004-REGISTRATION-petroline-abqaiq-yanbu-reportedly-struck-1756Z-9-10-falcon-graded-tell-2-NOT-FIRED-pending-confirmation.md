@@ -79,3 +79,8 @@ PROME's packet reached my inbox 2026-09-10 23:5x with a STRICT ACTION to registe
 **Why it is acute anyway, in FALCON's own framing:** the **Hormuz bypass is down while Hormuz itself is at ~7% of baseline.** The optionality that made the closure survivable is the thing that just went offline.
 
 **Routing of the superseding item:** FALCON adjudicated and **packeted BRENT, HAWK and PROME directly at 17:49 ET** — those three are covered at the owner, and re-routing them would manufacture a duplicate. **WALTER carries the legs FALCON's own routing did not reach → `SIG-W-20260911-006`.**
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-11T19:15:00Z` is disputed: this file was already recorded in Git at 2026-09-11 18:01:32 / `235d1792c`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.

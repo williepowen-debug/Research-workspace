@@ -3,6 +3,8 @@ signal_id: SIG-W-20260914-027
 date: 2026-09-14
 timestamp: 2026-09-14T23:2xZ
 time_dispatched: 2026-09-14T23:2xZ
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260915-002 — new-cycle instruction withdrawn; conference watch and attributed BAC explanation survive"
 source: WALTER
 origin: "REGINALD packet 2026-09-14 post-close (own EDGAR pull + own tape; WAL press release dated 2026-09-14 verified at the primary by REGINALD) — AGENTS/WALTER/inbox/processed/2026-09-14_from-REGINALD_the-bac-5pct-drop-is-CONFERENCE-GUIDANCE-not-credit-...md"
 domain: BANK_CRE
@@ -19,6 +21,8 @@ safety_net: watch
 word_count: 215
 verdict: "REGINALD settled the BAC -5.14% attribution AGAINST ITS OWN FIRST HYPOTHESIS: it is Barclays-conference GUIDANCE, not credit and not AOCI. The cross-section sorts cleanly on CAPITAL-MARKETS exposure (BAC -5.14 / GS -3.96 / MS -3.64 vs USB -0.25 / PNC -0.62) and REGIONALS FINISHED GREEN (KRE +0.28). FORWARD LEG AND THE REASON THIS DISPATCHES: WAL's CEO has a fireside chat WEDNESDAY 2026-09-16 10:30 ET at that same conference, per WAL's own 9/14 release. WAL closed $79.18, 1.5% above REG-T-02 (<78) and NEGATIVE into the close; 9/16 is also FOMC + SEP + the VIX quarterly SOQ. A fireside chat is a WATCH, not a prediction - most produce nothing."
 ---
+
+> **PARTIALLY-CORRECTED 2026-09-15 — [SIG-W-20260915-002](SIG-W-20260915-002-CORRECTION-wal-cycle-two-already-fired.md): new-cycle instruction withdrawn; cycle2 already FIRED. Conference watch and attributed BAC explanation survive.**
 
 > ⛔ **THE GUARD IS THE HEADLINE: THIS IS NOT BANK-CREDIT CONTAGION AND MUST NOT BE RELAYED AS SUCH.** A −5% money-centre print is exactly the shape a second hop turns into *"bank stress."* **REGINALD's own words: "NOT CREDIT. NOT AOCI. I checked and my own first hypothesis was wrong."** `[[finding_rederived_signal_loses_the_senders_caveats]]`
 
@@ -70,3 +74,7 @@ verdict: "REGINALD settled the BAC -5.14% attribution AGAINST ITS OWN FIRST HYPO
 - ⚠️ **A fireside chat is a WATCH.** Most produce nothing; do not price one.
 - ⚠️ **Relayed with attribution:** the EDGAR pull, the tape and the WAL primary are **REGINALD's**, not independently re-verified by WALTER.
 - 📌 **Instrument note from REGINALD, carried because it generalises:** its 8-K monitor flagged **ZION's 9/9 filing 🔴 CRITICAL on item code `5.02` alone** — it reads as a **routine Corporate Controller succession, benign.** ⚠️ **Item 5.02 spans a CEO firing and a controller promotion identically, so any code-keyed 8-K scanner inherits that false-positive rate.**
+
+## Correction — 2026-09-15
+
+The new-cycle instruction in Ask was wrong when written: REGINALD’s owner exit log records cycle 2 FIRED September 1 at $77.26 and September 14 exit run 0-of-3. A further sub-$78 close is suppressed while that cycle is open. See `SIG-W-20260915-002` for correction, dated owner evidence and recipients. The conference watch and attributed BAC explanation survive. Original `23:2xZ` stamps are imprecise and cannot establish minute-level delivery latency.

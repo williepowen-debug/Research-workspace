@@ -43,6 +43,7 @@ elif not _VENV_PY.exists():
 import argparse
 import datetime
 import json
+import math
 import os
 import sys
 import time
@@ -87,6 +88,15 @@ def save_state(state):
 # ---------------------------------------------------------------------------
 # Data fetching
 # ---------------------------------------------------------------------------
+
+def finite_value(value):
+    """A missing or non-finite observation cannot classify market stress."""
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
+
+
+def available(result):
+    return finite_value(result.get("value")) and result.get("zone") in {"red", "yellow", "green"}
+
 
 def fetch_all(series_list):
     """Fetch current values for all series. Returns list of result dicts."""
@@ -178,6 +188,15 @@ def fetch_all(series_list):
                     entry["change"] = entry["value"] - entry["prev"]
             elif obs:
                 entry["error"] = obs[0].get("error", "fetch failed")
+
+        # Keep invalid current and comparison values out of classification and JSON.
+        for field in ("value", "prev", "change"):
+            if entry[field] is not None and not finite_value(entry[field]):
+                entry[field] = None
+                if field == "value":
+                    entry["error"] = "non-finite or invalid numeric observation"
+        if entry["value"] is None or entry["prev"] is None:
+            entry["change"] = None
 
         # Classify
         if entry["value"] is not None:
@@ -372,8 +391,12 @@ def detect_transitions(results, last_state):
     """
     transitions = {}
     for r in results:
+        if not available(r):
+            continue
         name = r["name"]
         old_zone = last_state.get(name, {}).get("zone")
+        if old_zone not in {"red", "yellow", "green"}:
+            old_zone = None
         if old_zone and old_zone != r["zone"]:
             # Check if this series has hysteresis configured
             series_def = next((s for s in SERIES if s["name"] == name), None)
@@ -392,16 +415,22 @@ def detect_transitions(results, last_state):
     return transitions
 
 
-def build_state(results):
-    """Build state dict from results for persistence."""
-    return {
+def build_state(results, last_state=None):
+    """Preserve each last valid baseline when its current observation is unavailable.
+
+    Preserved timestamps are deliberately unchanged: this is comparison state,
+    never a claim that a missing current observation was refreshed.
+    """
+    state = dict(last_state or {})
+    state.update({
         r["name"]: {
             "zone": r["zone"],
             "value": r["value"],
             "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         }
-        for r in results
-    }
+        for r in results if available(r)
+    })
+    return state
 
 
 # ---------------------------------------------------------------------------
@@ -529,24 +558,24 @@ def main():
     results = fetch_all(series)
 
     # Completeness is independent of stress and display filters. Zero is a valid value.
-    unavailable = [r["name"] for r in results
-                   if r.get("value") is None or r.get("zone") not in {"red", "yellow", "green"}]
+    unavailable = [r["name"] for r in results if not available(r)]
     completeness = {
         "status": "COMPLETE" if results and not unavailable else "INCOMPLETE",
         "selected": len(results),
         "available": len(results) - len(unavailable),
         "unavailable": unavailable,
     }
-    display_results = [r for r in results if r["zone"] == "red"] if args.quiet else results
 
     # Transitions
     last_state = load_last_state()
     transitions = detect_transitions(results, last_state)
+    display_results = [r for r in results if r["zone"] == "red"] if args.quiet else results
 
     # Save state
     if not args.no_save:
-        full_results = fetch_all(SERIES) if (args.tier or args.agent) else results
-        save_state(build_state(full_results))
+        # A scoped run must not consume unseen alerts or refetch different values
+        # for its baseline. Update only displayed scope; preserve all other series.
+        save_state(build_state(results, last_state))
 
     # Always log (unless dry run)
     if not args.no_save:

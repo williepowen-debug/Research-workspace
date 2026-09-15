@@ -44,3 +44,8 @@ Source: Unicus @UnicusResearch, X.com 2026-09-05 18:35 ET, 46K views. Attributio
 
 - ⚠️ Unicus is a research-shop account with a book position; verify the underlying at Moody's + Bloomberg primary before pricing.
 - ⚠️ "Rating agencies are always the last" is editorial framing from Unicus — not a fleet stipulation.
+
+
+## Chronology annotation — 2026-09-15
+
+The recorded dispatch stamp `2026-09-10T23:26:00Z` is disputed: this file was already recorded in Git at 2026-09-10 22:55:35 / `e1b5cbbd9`. Git time is an existence bound, not a transport receipt. Exact dispatch time is UNKNOWN; do not use this stamp for minute-level latency. Original metadata is preserved. Evidence: `AGENTS/WALTER/research/2026-09-15_resolution-pass/historical-audit.md` §A. This annotation changes no market claim.
