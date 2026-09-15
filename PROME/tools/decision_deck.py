@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """decision_deck.py — Will's Decision Deck (WQ-202, Will-ruled 2026-09-10 11:01 ET).
 
-A PROJECTION of PROME's decision rails into one scrollable page:
+A PROJECTION of PROME's decision rails into a linked pair (L393, Will-approved 2026-09-15):
+  decision_deck.html — Owed + Key; retains the existing private ruling store.
+  decision_reference.html — Decided / In-flight / Docket; read-only, no store client.
   Owed      — every OPEN row of PROME/WILL_QUEUE.md in three groups: needs your ruling (soonest first) ·
               answered but your hands/a dated action still owed (a DONE tap closes it) · waiting on others (last)
   Decided   — every DONE row: WILL_QUEUE RECENTLY DONE + PROME/archive/WILL_QUEUE_ROWS_*.md
@@ -19,11 +21,15 @@ history — PROME states which document it consumed;
 PROME reads it at boot (Artifact tool read_db) and writes the ruling into the queue.
 
 Usage:  python3 PROME/tools/decision_deck.py [-o PROME/artifacts/decision_deck.html]
+        --reference-out PATH  optional reference output (default: sibling decision_reference.html)
+        --owed-url URL --reference-url URL  paired native artifact URLs for hosted navigation
+        Without hosted URLs the pair uses local relative links; never publish those as hosted links.
         --selftest   parse-shape drills on the live sources (counts + required fields)
 """
 from __future__ import annotations
 import argparse, datetime as dt, glob, html, json, os, re, subprocess, sys
 from pathlib import Path
+from urllib.parse import quote
 
 def _root() -> Path:
     """Repo root: git from THIS file's directory (not the caller's cwd), else the file's known depth
@@ -553,23 +559,21 @@ details.raw code,.expl code,.key code{font:12.5px/1.4 "IBM Plex Mono",monospace;
 @media (prefers-reduced-motion:reduce){.toast{transition:none}}
 """
 
-JS = r"""
+UI_JS = r"""
 (function(){
-  var BUILD = document.body.dataset.build;
-  var toastEl = document.getElementById('toast');
-  function toast(m){ toastEl.textContent = m; toastEl.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(function(){toastEl.classList.remove('on');}, 2600); }
   // tabs
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
   var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
   function show(id){
     tabs.forEach(function(t){ t.setAttribute('aria-selected', t.dataset.for===id ? 'true':'false'); });
     panels.forEach(function(p){ p.hidden = p.id!==id; });
-    try{ localStorage.setItem('deck.tab', id); }catch(e){}
+    try{ localStorage.setItem(tabKey, id); }catch(e){}
   }
   tabs.forEach(function(t){ t.addEventListener('click', function(){ show(t.dataset.for); }); });
-  var start = 'owed';
-  try{ var s = localStorage.getItem('deck.tab'); if (s && document.getElementById(s)) start = s; }catch(e){}
-  if (location.hash && /^#wq-/.test(location.hash)) { var el = document.querySelector(location.hash); if (el) start = el.closest('.panel').id; }
+  var start = panels.length ? panels[0].id : '';
+  var tabKey = 'deck.tab.' + document.body.dataset.view;
+  try{ var s = localStorage.getItem(tabKey); if (panels.some(function(p){return p.id===s;})) start = s; }catch(e){}
+  if (location.hash) { var el = document.getElementById(location.hash.slice(1)); var panel = el && el.closest('.panel'); if (panel) start = panel.id; }
   show(start);
   // minimize / expand cards (remembered per card in this browser)
   function setMin(card, on, remember){
@@ -588,6 +592,14 @@ JS = r"""
       Array.prototype.slice.call(panel.querySelectorAll('.card')).forEach(function(c){ setMin(c, on, true); });
     });
   });
+})();
+"""
+
+RULING_JS = r"""
+(function(){
+  var BUILD = document.body.dataset.build;
+  var toastEl = document.getElementById('toast');
+  function toast(m){ toastEl.textContent = m; toastEl.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(function(){toastEl.classList.remove('on');}, 2600); }
   // tap-to-rule
   var storeLine = document.getElementById('store');
   var buttons = Array.prototype.slice.call(document.querySelectorAll('.btn'));
@@ -642,48 +654,97 @@ JS = r"""
 })();
 """
 
-def build(today: dt.date, out: Path) -> dict:
+JS = UI_JS + RULING_JS
+
+
+OWED_ARTIFACT_URL = "https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb0ff304bca"
+
+
+def _artifact_url(value: str) -> str:
+    match = re.fullmatch(r"https://claude\.ai/code/artifact/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})/?", value)
+    if not match:
+        raise ValueError("Hosted links must be native https://claude.ai/code/artifact/<UUID> URLs")
+    return "https://claude.ai/code/artifact/" + match[1].lower()
+
+
+def _page(title: str, view: str, panels: list[tuple[str, str, int | None, str]],
+          nav: str, build_id: str, stamp: str, sha: str) -> str:
+    tabs = "".join(f'<button type="button" class="tab" role="tab" data-for="{key}" id="tab-{key}">{label}'
+                   + (f'<span class="n">{count}</span>' if count is not None else "") + '</button>'
+                   for key, label, count, _ in panels)
+    body = "\n".join(f'<section class="panel" id="{key}" role="tabpanel"{" hidden" if i else ""}>{content}</section>'
+                       for i, (key, _, _, content) in enumerate(panels))
+    script = JS if view == "owed" else UI_JS
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>{CSS}</style></head><body data-view="{view}" data-build="{html.escape(build_id, quote=True)}">
+<header class="top"><div class="wrap"><div class="brand"><h1>{title}</h1><span class="build">built {stamp} · {sha}</span></div>
+<nav aria-label="Decision views">{nav}</nav><div class="tabs" role="tablist">{tabs}</div></div></header>
+<main class="wrap">{body}</main><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>{script}</script></body></html>
+"""
+
+
+def _panelbar(text: str, *, store: bool = False) -> str:
+    return ('<div class="panelbar"><p class="store"' + (' id="store"' if store else '') + '>' + text +
+            '</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button>'
+            '<button type="button" class="lnk" data-all="max">Expand all</button></span></div>')
+
+
+def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
+          owed_url: str | None = None, reference_url: str | None = None) -> dict:
+    reference_out = reference_out or out.with_name("decision_reference.html")
+    if out.resolve() == reference_out.resolve() or (out.exists() and reference_out.exists() and os.path.samefile(out, reference_out)):
+        raise ValueError("Owed and reference outputs must be different files")
+    if bool(owed_url) != bool(reference_url):
+        raise ValueError("Provide both --owed-url and --reference-url, or neither for local viewing")
+    if owed_url:
+        owed_link, reference_link = _artifact_url(owed_url), _artifact_url(reference_url)
+        if owed_link == reference_link:
+            raise ValueError("Owed and reference must use distinct native artifact IDs")
+        if owed_link != OWED_ARTIFACT_URL:
+            raise ValueError("Keep Owed at the existing ruling artifact to preserve its store")
+        link_mode = "hosted"
+    else:
+        owed_link = quote(os.path.relpath(out.resolve(), reference_out.resolve().parent), safe="/")
+        reference_link = quote(os.path.relpath(reference_out.resolve(), out.resolve().parent), safe="/")
+        link_mode = "local"
     text = Q.read_text(encoding="utf-8")
     expl = load_explainers()
     owed = parse_open(text)
     owed.sort(key=lambda r: (r["blocked"], bool(r.get("answered")), r["by"] or "9999-99-99"))
-    decided = parse_decided()
-    active = parse_active()
-    docket = parse_docket(today)
+    decided, active, docket = parse_decided(), parse_active(), parse_docket(today)
     sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
     stamp = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
     build_id = f"{sha}·{stamp}"
     actionable = [r for r in owed if not r["blocked"] and not r.get("answered")]
     answered = [r for r in owed if not r["blocked"] and r.get("answered")]
     missing = [r["n"] for r in owed if r["n"] not in expl]
-    page = f"""<title>Decision Deck</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<style>{CSS}</style>
-<header class="top"><div class="wrap">
-<div class="brand"><h1>Decision Deck</h1><span class="build">built {html.escape(stamp)} · {html.escape(sha)} · {len(actionable)} owed</span></div>
-<div class="tabs" role="tablist">
-<button type="button" class="tab" role="tab" data-for="owed" id="tab-owed">Owed<span class="n">{len(actionable)}</span>{f'<span class="n" title="answered — your hands still owed">+{len(answered)} hands</span>' if answered else ''}</button>
-<button type="button" class="tab" role="tab" data-for="decided" id="tab-decided">Decided<span class="n">{len(decided)}</span></button>
-<button type="button" class="tab" role="tab" data-for="flight" id="tab-flight">In-flight<span class="n">{len(active)}</span></button>
-<button type="button" class="tab" role="tab" data-for="docket" id="tab-docket">Docket<span class="n">{len(docket)}</span></button>
-<button type="button" class="tab" role="tab" data-for="key" id="tab-key">Key</button>
-</div></div></header>
-<main class="wrap">
-<section class="panel" id="owed" role="tabpanel"><div class="panelbar"><p class="store" id="store"><span class="dot"></span> Reading only.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div>{render_owed(owed, expl, today)}</section>
-<section class="panel" id="decided" role="tabpanel" hidden><div class="panelbar"><p class="store">Every ruled or done row, newest first. Your word is quoted verbatim where it was recorded.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div>{render_decided(decided)}</section>
-<section class="panel" id="flight" role="tabpanel" hidden><div class="panelbar"><p class="store">Approved or in motion, not finished. Nothing here is owed by you unless a card says so.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div>{render_active(active)}</section>
-<section class="panel" id="docket" role="tabpanel" hidden><div class="panelbar"><p class="store">Dated catalysts whose owner cell names you.</p><span class="panelctl"><button type="button" class="lnk" data-all="min">Collapse all</button><button type="button" class="lnk" data-all="max">Expand all</button></span></div>{render_docket(docket)}</section>
-<section class="panel" id="key" role="tabpanel" hidden>{KEY}</section>
-</main>
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script>document.body.dataset.build={json.dumps(build_id)};</script>
-<script>{JS}</script>
-"""
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page, encoding="utf-8")
+    owed_panels = [
+        ("owed", "Owed", len(actionable), _panelbar('<span class="dot"></span> Reading only.', store=True)
+         + (f'<p>{len(answered)} answered — hands or a dated action still owed.</p>' if answered else "")
+         + (render_owed(owed, expl, today) or '<p class="empty">Nothing owed.</p>')),
+        ("key", "Key", None, KEY),
+    ]
+    reference_panels = [
+        ("decided", "Decided", len(decided), _panelbar('Every ruled or done row, newest first. Your word is quoted verbatim where it was recorded.') + render_decided(decided)),
+        ("flight", "In-flight", len(active), _panelbar('Approved or in motion, not finished. Nothing here is owed by you unless a card says so.') + render_active(active)),
+        ("docket", "Docket", len(docket), _panelbar('Dated catalysts whose owner cell names you.') + render_docket(docket)),
+    ]
+    page = _page("Decision Deck", "owed", owed_panels,
+                 f'<a class="lnk" href="{html.escape(reference_link, quote=True)}">Reference: Decided · In-flight · Docket</a>', build_id, stamp, sha)
+    reference = _page("Decision reference", "reference", reference_panels,
+                     f'<a class="lnk" href="{html.escape(owed_link, quote=True)}">Back to Owed decisions</a>', build_id, stamp, sha)
+    # Construct both outputs before writing. The normal candidate freeze covers the pair.
+    for path, content in ((out, page), (reference_out, reference)):
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
     return {"owed": len(owed), "actionable": len(actionable), "answered_hands": len(answered), "decided": len(decided), "active": len(active),
-            "docket": len(docket), "explainers_missing": missing, "bytes": len(page.encode()), "out": str(out)}
+            "docket": len(docket), "explainers_missing": missing, "bytes": len(page.encode()), "out": str(out),
+            "reference_out": str(reference_out), "reference_bytes": len(reference.encode()), "link_mode": link_mode}
 
 def selftest() -> int:
     today = dt.date.today()
@@ -715,11 +776,18 @@ def selftest() -> int:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", default=str(ROOT / "PROME/artifacts/decision_deck.html"))
+    ap.add_argument("--reference-out", help="default: decision_reference.html beside Owed output")
+    ap.add_argument("--owed-url", help="existing private Owed artifact URL; requires --reference-url")
+    ap.add_argument("--reference-url", help="private reference artifact URL; requires --owed-url")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD (default: system date)")
     ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
     if a.selftest:
         sys.exit(selftest())
     today = dt.date.fromisoformat(a.today) if a.today else dt.date.today()
-    r = build(today, Path(a.out))
+    try:
+        r = build(today, Path(a.out), reference_out=Path(a.reference_out) if a.reference_out else None,
+                  owed_url=a.owed_url, reference_url=a.reference_url)
+    except ValueError as error:
+        ap.error(str(error))
     print(json.dumps(r, indent=1))
