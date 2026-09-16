@@ -1,48 +1,42 @@
 # CARL SCRATCH
-**Last session:** 2026-09-16 ~16:40 UTC
-**Type:** Will-directed recent-news catch-up after explicit Codex/Astra startup.
-
-**PRIORITY-1:** September16 FOMC after14:00 ET: read statement/SEP/presser; grade V12 on its registered two-meeting easing condition. Decision NOT available at this session's predecision cutoff.
+**Last session:** September16, key-file audit (statement18:02UTC; SEP18:18UTC).
+**PRIORITY-1:** Review September16 Fed press conference; statement/SEP already integrated. Event remains partially open. Do not call an unreviewed presser unavailable or completed.
 
 ## CHANGES SINCE LAST SESSION
-August retail rebounded; September pump pressure rose; September14–15 issuer releases give mixed credit direction. HENRY corrected airfare→margin attribution; RED accepts CRL-10 arithmetic. PROME delivered an independent retail analysis during this session, reconciled at the primary.
+Refreshed NFIB earnings, USDA planted acreage, ATTOM July, MBA Q2 and Brent spot; integrated Fed25bp hike/SEP. Corrected kill-rule and matrix mirrors, stale estimate labels, stock-flow causal overstatement and WalletHub saved-source attribution. Score53/70,v2.6.6 and all probabilities/registered triggers unchanged.
 
 ## WHAT HAPPENED
-1. Retained Census/FRED/WalletHub source vintages and reproducible calculations; report `domain/sources/2026-09-16_news-catchup.md`.
-2. Refreshed STATUS retail, T1, fuel, credit spreads and monthly issuer evidence; KB469–477. Old dashboard/handoff snapshots archived. All3 T1 tests against; meaningful aggregate retail counterevidence.
-3. Acted on the3 named BOARD actions: Petroline receipt reconciliation, Fed/V12 assessment, and chart verification. Consumed6 WALTER packets filed. Chart original provenance remains INDETERMINATE; candidate-source endpoint match is invalid.
-4. Pruned both integrated August retail docket rows; added September28 revisions/October15 September retail in both twins. Other overdue items not declared complete.
-5. No prediction/spec/score/capital changes. Frozen workbooks preserved. No subagents launched; Claude cross-session doorbell tools unavailable. Other sessions have dirty paths: NO PULL.
+Audit report: `domain/sources/2026-09-16_key-file-audit.md`; primary artifacts and retrieval limits in `research/2026-09-16_key-file-audit/`. Prior documents verbatim in `archive/2026-09-16_before-key-file-audit.md`, checksum receipt retained. KB478–486 added;KB476 provenance corrected;KB120/121 marked historical STALE, not blanket superseded by partial replacement.
 
 ## STATUS CHANGES
-| Item | Change |
-|---|---|
-| Spending | July weakness → August broad rebound; T1 remains3/3 adverse |
-| Fuel | September16 AAA regular4.3672, diesel6.3103; current snapshot only |
-| Chart | Deferred source check → investigated, not verified; KB476 |
-| Score | Unchanged53/70, thesisv2.6.6; existing approvals preserved |
+- Fed3.75–4.00%,12–0;2026 funds median4.1%. Statement/SEP fail easing leg; presser not reviewed.
+- NFIB earnings−19%net, ending July improvement; mortgage totalDQ4.37%SA, slightly lower QoQ.
+- Wheat42.650M/corn96.777M planted acres; revisable estimates, not locked intentions.
+- Correct full-thesis kill usesFLOW≥100bp cumulative decline;16bp does not meet floor. Stock rule shadow remains.
+- Six prediction-mirror timeframes fixed; no canonical prediction change. CRL06 already closed, no new resolution.
 
 ## NEXT SESSION SHOULD
 ### IMMEDIATE (24hrs)
-- September16 after14:00 ET: FOMC release/press conference, no predecision grade.
-- September17: refresh pump if grading CRL-08; obtain Will's touch-versus-sustained ruling before resolving the ambiguous letter. Model cutoff alone is not a realized miss.
+- Review Fed press conference. Canonical V12: cut in dots OR credible presser easing, for2 consecutive meetings.
+- Refresh registered BZ=F before new CRL08 pass-through arithmetic; spot130.80 is not futures. Existing7% and touch/sustained question preserved.
 ### UPCOMING (this week)
-- September18: FSA re-poll; FHA/CARL-DR-1 re-commission decision per docket. Not performed here.
-- Broad-tier August ABS filings detected at boot still need substantive review; full V2 grade waits for deep tier.
+- September18 FSA scheduled re-poll: early9/16 named-file HEAD unchanged, not exhaustive site absence.
+- Read August broad-tier ABS exhibits; complete grade after deep-tier collection data~9/30.
+- Verify V2 L1–L4 table encoding completion. WQ151 already approved; do not ask again.
 ### UPCOMING (next2weeks)
-- September25 UMich final; September28 Census vintage revision; September30 deep-tier ABS and September-window predictions.
+- September25 UMich/PCE; September28 Census revisions; September30 forced calls and full ABS grade; October2 V16 drop-back resolver.
 ### BACKLOG
-- 225 unrecorded BOARD IDs remain; no unrecorded action:[CARL] at closeout scan. Receipt coverage is NOT substantive review.
-- RED full revision-denominator audit; OTTO control seasoning-label correction; no panel/parser edit undertaken.
-- Remaining overdue docket entries and DR-5 receipt; see canonical docket/ROADMAP.
-- Read-cap debt remains: STATUS/MEMORY/ROADMAP exceed32,550B whole-read budget; no architecture change authorized by this news task.
-- Six subagent closeout templates' git step; scope and remaining card wording remain separate work.
+- Current UI income-loss actuals, private SoFi certificate, EART contractual-versus-initial-CE basis, Qatar outage update remain unavailable/unverified here.
+- OTTO n=3 seasoning labels; RED denominator audit; overdue research/calibration tasks remain open.
+- MEMORY whole-read budget debt persists. STATUS below32550B but with little headroom; ROADMAP below budget but in rotation tier. Neither has reached the <70% rotation target.
+-16 subagent ledgers stale; no child run or refresh claimed. Six child closeout templates still separate work.
+-225 unrecorded non-action BOARD IDs from prior diff; no claim all reviewed.
 
 ## APPROVAL CONTINUITY
-WQ-227 APPROVED September11 16:34 ET; no repeat permission request. Existing closeout assertion tool used below. WQ-182 and vintage rider remain ratified; WQ-183 approved; WQ-209 delivered/closed, not blanket launch authority. WQ-228 ownership still awaiting ruling. CRL-08 basis, registered pump lag, FLOW-PHAN-06 instrument, PHAN medical scope and remaining bundled card wording remain unresolved. No approval revoked or inferred.
+WQ151/182/183/227 remain approved, including V16 vintage rider. WQ209 delivered/closed, not general launch authority. WQ228,CRL08 touch/sustained,lag re-spec,PHAN instrument/medical scope and remaining card wording unresolved. No approval reset, inferred or revoked.
 
 ## OUTBOX
-No new dispatch made. Analysis is available in CARL's committed report; no native cross-session acknowledgment claimed.
+No new external dispatch; report available under CARL. Native Claude session visibility/doorbell unavailable; no acknowledgment claimed.
 
 ## INBOX
 Files below remain on the live surface; some were read for context and have follow-up work, so presence does not mean unread.
@@ -62,28 +56,16 @@ Files below remain on the live surface; some were read for context and have foll
 | `inbox/WALTER/SIG-W-20260911-010.md` | Retained; report/startup audit records any limited review. |
 
 ## WORKBOOK HEALTH
-| TSV | Lines | Last modified | Note |
-|---|---|---|---|
-| ABS_BASELINE.tsv | 74 | 2026-07-10 16:44 UTC | Frozen/reference; not refreshed this session |
-| BNPL_STRESS.tsv | 61 | 2026-06-26 20:10 UTC | Frozen/reference; not refreshed this session |
-| FLOW.tsv | 26 | 2026-06-26 20:06 UTC | Frozen/reference; not refreshed this session |
-| KB.tsv | 474 | 2026-09-16 16:37 UTC | Refreshed |
-| SCHEMA.tsv | 17 | 2026-07-24 20:25 UTC | Frozen/reference; not refreshed this session |
-| STATE_DIFFUSION.tsv | 64 | 2026-06-26 20:10 UTC | Frozen/reference; not refreshed this session |
-| TRENDS.tsv | 41 | 2026-06-26 20:10 UTC | Frozen/reference; not refreshed this session |
-| VX.tsv | 122 | 2026-07-10 19:10 UTC | Frozen/reference; not refreshed this session |
-
-Parent KB refreshed; staleness tool flags16 subagent ledgers, not refreshed by this news pass. No false clean assertion.
+Parent KB refreshed; predictions event-driven and unchanged. VX/FLOW/BNPL/STATE/TRENDS frozen and untouched; ABS_BASELINE remains frozen/reference.16 child-ledger findings remain, not cleared by parent changes.
 
 ## URGENT
-- FOMC remains pending at cutoff; no probability or score change from sellside votes.
-- CRL-08 sustained clock not satisfied; preserve unresolved basis.
+Press conference review is outstanding; statement/SEP are complete. Old March/April figures must not be cited as current. Trade and instrument authority unchanged.
 
 BOARD scan run, 1 new since SIG-W-20260915-008, 757 logged
-Whole-index set difference225;3 action IDs substantively addressed/reconciled this session. The lexical cursor line is not the backlog count.
+This cursor assertion is not the225-ID backlog or evidence of substantive review.
 
 ## VALIDATION
-Consistency gate exit0 (0 hard,12 existing soft advisories); roadmap index matches; weekday check clean; named corrections0 unreceipted. Consumer label scan: outside hits are unrelated CPI/PPI, so no correction packet warranted; own KB420 retail label corrected, historical snapshots preserved. Docket twins checked for both retail removals and both successor additions. Retirement scan found6 age candidates; primary-reference checks retain canonical-linked research; remaining historical-reference review not treated as completed retirement. Git whitespace check passes with empty TSV terminal columns permitted.
+Consistency gate0hard/6soft (down from12 after mirror fixes); roadmap generated index matches; weekday clean;0 unreceipted named corrections. Consumer scans find no external old acreage values. Own historical archive and dated CRL10 original rationale remain history;KB120/121 now STALE with updated acreage pointers. No alteration of as-made prediction history. Read-cap gate remains non-clean due to MEMORY; STATUS/ROADMAP below budget but above rotation stop target. Retirement review remains incomplete; no source deleted/moved on an unproven reference check.
 
 ## GIT CLOSEOUT
-Local findings905594e5b and final brief33dd9874e committed. Root safe-push ABORTED non-fast-forward: origin has BRENT3beea13b9 absent locally. Shared FORGE/KERNEL/PROME dirty paths remain, so no pull/rebase/autostash attempted. Own tree was clean before recording this receipt; push remains PENDING. Other sessions preserved.
+Pending explicit-path commits and root safe-push. Other sessions' working files remain untouched; no pull/rebase/autostash performed.

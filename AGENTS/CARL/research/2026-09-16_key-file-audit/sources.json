@@ -1,0 +1,335 @@
+{
+  "retrieved_utc": "2026-09-16T18:02:45.632021+00:00",
+  "sources": {
+    "nfib_august.pdf": {
+      "url": "https://www.nfib.com/wp-content/uploads/2026/09/NFIB-SBET-Report-August-2026.pdf",
+      "checked_utc": "2026-09-16T18:02:30.260106+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "1712328",
+        "ETag": "\"6a9b1c7a-1a20c8\"",
+        "Last-Modified": "Fri, 04 Sep 2026 19:31:06 GMT"
+      },
+      "bytes": 1712328
+    },
+    "crop0926.txt": {
+      "url": "https://esmis.nal.usda.gov/sites/default/release-files/796056/crop0926.txt",
+      "checked_utc": "2026-09-16T18:02:30.260686+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/plain",
+        "Content-Length": "185858",
+        "Last-Modified": "Fri, 11 Sep 2026 16:03:03 GMT",
+        "ETag": "\"2d602-65b373826c75c\""
+      },
+      "bytes": 185858
+    },
+    "mba_q2.html": {
+      "url": "https://www.mba.org/news-and-research/newsroom/news/2026/08/13/mortgage-delinquencies-decrease-slightly-in-the-second-quarter-of-2026",
+      "checked_utc": "2026-09-16T18:02:30.261230+00:00",
+      "error_type": "HTTPError",
+      "status": 403
+    },
+    "attom_july.html": {
+      "url": "https://www.attomdata.com/news/market-trends/foreclosures/july-2026-foreclosure-market-report/",
+      "checked_utc": "2026-09-16T18:02:30.261679+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "242977",
+        "Last-Modified": "Thu, 27 Aug 2026 10:24:06 GMT"
+      },
+      "bytes": 242977
+    },
+    "fair.html": {
+      "url": "https://www.cfpnet.com/key-statistics-data/",
+      "checked_utc": "2026-09-16T18:02:30.262114+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "44325"
+      },
+      "bytes": 44325
+    },
+    "fomc_statement.html": {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "checked_utc": "2026-09-16T18:02:30.262831+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Wed, 16 Sep 2026 18:00:17 GMT"
+      },
+      "bytes": 82636
+    },
+    "fsa_head": {
+      "url": "https://studentaid.gov/sites/default/files/fsawg/datacenter/library/PortfoliobyLoanStatus.xls",
+      "checked_utc": "2026-09-16T18:02:30.443781+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/vnd.ms-excel",
+        "ETag": "\"4732c453bc281433b6417304b919d007:1782343188.686249\"",
+        "Last-Modified": "Thu, 18 Jun 2026 21:05:00 GMT",
+        "Content-Length": "133120"
+      }
+    }
+  },
+  "series": {
+    "PSAVERT": {
+      "url": "https://fred.stlouisfed.org/series/PSAVERT",
+      "observations": [
+        {
+          "date": "2026-07-01",
+          "value": "3.0"
+        },
+        {
+          "date": "2026-06-01",
+          "value": "2.6"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "2.8"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "2.9"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "3.5"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "3.8"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "4.4"
+        },
+        {
+          "date": "2025-12-01",
+          "value": "3.6"
+        },
+        {
+          "date": "2025-11-01",
+          "value": "3.8"
+        },
+        {
+          "date": "2025-10-01",
+          "value": "3.9"
+        },
+        {
+          "date": "2025-09-01",
+          "value": "4.3"
+        },
+        {
+          "date": "2025-08-01",
+          "value": "4.4"
+        },
+        {
+          "date": "2025-07-01",
+          "value": "4.5"
+        },
+        {
+          "date": "2025-06-01",
+          "value": "4.6"
+        },
+        {
+          "date": "2025-05-01",
+          "value": "4.9"
+        }
+      ]
+    },
+    "PCEC96": {
+      "url": "https://fred.stlouisfed.org/series/PCEC96",
+      "observations": [
+        {
+          "date": "2026-07-01",
+          "value": "16901.3"
+        },
+        {
+          "date": "2026-06-01",
+          "value": "16900.0"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "16825.5"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "16763.5"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "16730.1"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "16684.6"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "16648.5"
+        },
+        {
+          "date": "2025-12-01",
+          "value": "16680.7"
+        },
+        {
+          "date": "2025-11-01",
+          "value": "16665.7"
+        },
+        {
+          "date": "2025-10-01",
+          "value": "16649.3"
+        },
+        {
+          "date": "2025-09-01",
+          "value": "16614.3"
+        },
+        {
+          "date": "2025-08-01",
+          "value": "16595.8"
+        },
+        {
+          "date": "2025-07-01",
+          "value": "16547.5"
+        },
+        {
+          "date": "2025-06-01",
+          "value": "16466.3"
+        },
+        {
+          "date": "2025-05-01",
+          "value": "16423.9"
+        }
+      ]
+    },
+    "DSPIC96": {
+      "url": "https://fred.stlouisfed.org/series/DSPIC96",
+      "observations": [
+        {
+          "date": "2026-07-01",
+          "value": "18122.5"
+        },
+        {
+          "date": "2026-06-01",
+          "value": "18054.9"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "18000.1"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "17957.1"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "18030.5"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "18051.9"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "18134.6"
+        },
+        {
+          "date": "2025-12-01",
+          "value": "18018.5"
+        },
+        {
+          "date": "2025-11-01",
+          "value": "18035.1"
+        },
+        {
+          "date": "2025-10-01",
+          "value": "18037.3"
+        },
+        {
+          "date": "2025-09-01",
+          "value": "18094.6"
+        },
+        {
+          "date": "2025-08-01",
+          "value": "18076.9"
+        },
+        {
+          "date": "2025-07-01",
+          "value": "18040.9"
+        },
+        {
+          "date": "2025-06-01",
+          "value": "17962.1"
+        },
+        {
+          "date": "2025-05-01",
+          "value": "17980.9"
+        }
+      ]
+    },
+    "DCOILBRENTEU": {
+      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "observations": [
+        {
+          "date": "2026-09-15",
+          "value": "130.8"
+        },
+        {
+          "date": "2026-09-14",
+          "value": "121.25"
+        },
+        {
+          "date": "2026-09-11",
+          "value": "118.06"
+        },
+        {
+          "date": "2026-09-10",
+          "value": "120.98"
+        },
+        {
+          "date": "2026-09-09",
+          "value": "109.51"
+        },
+        {
+          "date": "2026-09-08",
+          "value": "106.12"
+        },
+        {
+          "date": "2026-09-07",
+          "value": "104.47"
+        },
+        {
+          "date": "2026-09-04",
+          "value": "102.24"
+        },
+        {
+          "date": "2026-09-03",
+          "value": "100.52"
+        },
+        {
+          "date": "2026-09-02",
+          "value": "97.59"
+        },
+        {
+          "date": "2026-09-01",
+          "value": "96.02"
+        },
+        {
+          "date": "2026-08-28",
+          "value": "89.75"
+        },
+        {
+          "date": "2026-08-27",
+          "value": "90.18"
+        },
+        {
+          "date": "2026-08-26",
+          "value": "87.77"
+        }
+      ]
+    }
+  }
+}

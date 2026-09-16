@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-16 — Key-file evidence reconciliation; no model change
+
+Updated V1/V4/V8/V12 evidence cells and STATUS mirrors; unchanged score53/70,v2.6.6,probabilities and registered downgrade cells. Corrected STATUS to the already-ratified flow-based full-thesis kill; retired stock rule remains shadow. CRL-05 closure and CRL-06 starts-basis closure are reconciled, not regraded. Fed hiked25bp; statement/SEP integrated, presser still unreviewed. Six prediction-mirror timeframes now match the canonical ledger; no canonical prediction edit. Historical text preserved in `archive/2026-09-16_before-key-file-audit.md`; audit/source report at `domain/sources/2026-09-16_key-file-audit.md`.
+
 ## 2026-09-11 (Fri, eve) — 🔻 **CRL-08 RE-PRICED 45% → 7% ON PASS-THROUGH ARITHMETIC. $4.50 is not reachable at today's crude at ANY pass-through rate — and the mechanism is firing FASTER than registered, not failing.**
 
 **Second reachability re-grade of the same day** (CRL-10 62→8 this morning). Same structure, opposite mechanism state: CRL-10's driver was moving away from its bar; **CRL-08's driver is working, and working faster than CARL's registered lag — the bar is simply out of arithmetic range inside the window.**

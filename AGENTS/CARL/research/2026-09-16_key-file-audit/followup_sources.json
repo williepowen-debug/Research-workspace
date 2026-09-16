@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-09-16T18:18:25.348668+00:00",
+  "sources": {
+    "fomc_sep.pdf": {
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260916.pdf",
+      "checked_utc": "2026-09-16T18:18:25.098749+00:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "1227336",
+        "ETag": "\"781a8c39546dd1:0\"",
+        "Last-Modified": "Wed, 16 Sep 2026 18:00:14 GMT"
+      },
+      "bytes": 1227336
+    }
+  },
+  "series": {}
+}
