@@ -1,0 +1,92 @@
+{
+  "total": {
+    "aug_million": 773947,
+    "jul_million": 764462,
+    "jun_million": 768587,
+    "aug_mom_pct": 1.2407418550562266,
+    "jul_mom_pct": -0.5366991635299634,
+    "aug_vs_june_pct": 0.6973836403686207,
+    "headline_contribution_pp": 1.2407418550562357,
+    "share_headline_increase_pct": 100.0
+  },
+  "auto": {
+    "aug_million": 142379,
+    "jul_million": 141565,
+    "jun_million": 144140,
+    "aug_mom_pct": 0.5750008829866093,
+    "jul_mom_pct": -1.7864576106563113,
+    "aug_vs_june_pct": -1.2217288747051525,
+    "headline_contribution_pp": 0.10648011281136276,
+    "share_headline_increase_pct": 8.581971534001054
+  },
+  "gas": {
+    "aug_million": 62303,
+    "jul_million": 60455,
+    "jun_million": 60586,
+    "aug_mom_pct": 3.0568191216607365,
+    "jul_mom_pct": -0.21622156933944758,
+    "aug_vs_june_pct": 2.833988050044556,
+    "headline_contribution_pp": 0.2417386344906614,
+    "share_headline_increase_pct": 19.48339483394834
+  },
+  "building": {
+    "aug_million": 42227,
+    "jul_million": 42318,
+    "jun_million": 42380,
+    "aug_mom_pct": -0.21503851788836625,
+    "jul_mom_pct": -0.14629542236904713,
+    "aug_vs_june_pct": -0.361019348749414,
+    "headline_contribution_pp": -0.011903796395373478,
+    "share_headline_increase_pct": -0.959409594095941
+  },
+  "foodservice": {
+    "aug_million": 105070,
+    "jul_million": 103824,
+    "jun_million": 103340,
+    "aug_mom_pct": 1.2001078748651528,
+    "jul_mom_pct": 0.46835688020128163,
+    "aug_vs_june_pct": 1.6740855428682089,
+    "headline_contribution_pp": 0.16299044295203685,
+    "share_headline_increase_pct": 13.136531365313653
+  },
+  "nonstore": {
+    "aug_million": 141339,
+    "jul_million": 137772,
+    "jun_million": 140207,
+    "aug_mom_pct": 2.589060186394909,
+    "jul_mom_pct": -1.736717852888947,
+    "aug_vs_june_pct": 0.8073776630268092,
+    "headline_contribution_pp": 0.4666026565087604,
+    "share_headline_increase_pct": 37.60674749604639
+  },
+  "control": {
+    "aug_million": 421968,
+    "jul_million": 416300,
+    "jun_million": 418141,
+    "aug_mom_pct": 1.3615181359596384,
+    "jul_mom_pct": -0.440282105796852,
+    "aug_vs_june_pct": 0.9152415094429767,
+    "headline_contribution_pp": 0.741436461197548,
+    "share_headline_increase_pct": 59.75751186083289
+  },
+  "control_ex_nonstore": {
+    "aug_million": 280629,
+    "jul_million": 278528,
+    "jun_million": 277934,
+    "aug_mom_pct": 0.7543227251838314,
+    "jul_mom_pct": 0.21371980398223744,
+    "aug_vs_june_pct": 0.9696546662157246,
+    "headline_contribution_pp": 0.27483380468878765,
+    "share_headline_increase_pct": 22.150764364786504
+  },
+  "ex_gas_nonstore": {
+    "aug_million": 570305,
+    "jul_million": 566235,
+    "jun_million": 567794,
+    "aug_mom_pct": 0.7187828375144534,
+    "jul_mom_pct": -0.27457141146260966,
+    "aug_vs_june_pct": 0.4422378538695426,
+    "headline_contribution_pp": 0.5324005640568138,
+    "share_headline_increase_pct": 42.90985767000527
+  }
+}
