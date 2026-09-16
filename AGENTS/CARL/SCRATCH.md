@@ -1,11 +1,16 @@
 # CARL SCRATCH
-**Last session:** September16, key-file audit (statement18:02UTC; SEP18:18UTC).
-**PRIORITY-1:** Review September16 Fed press conference; statement/SEP already integrated. Event remains partially open. Do not call an unreviewed presser unavailable or completed.
+**Last session:** 2026-09-16 ~19:15 UTC
+**Type:** Will-directed session closeout; no new research or model changes. Audit evidence cutoff remains statement18:02UTC/SEP18:18UTC.
+**PRIORITY-1:** By September17, review the September16 Fed press conference and complete the open docket disposition; statement/SEP already integrated. Presser remains UNREVIEWED, not unavailable.
 
 ## CHANGES SINCE LAST SESSION
-Refreshed NFIB earnings, USDA planted acreage, ATTOM July, MBA Q2 and Brent spot; integrated Fed25bp hike/SEP. Corrected kill-rule and matrix mirrors, stale estimate labels, stock-flow causal overstatement and WalletHub saved-source attribution. Score53/70,v2.6.6 and all probabilities/registered triggers unchanged.
+Closeout only; no new market/source refresh. BOARD scan and named-correction checks rerun; no claim of fresh market coverage. Audit findings below remain the retained evidence.
 
 ## WHAT HAPPENED
+1. Re-ran mandatory consistency, BOARD assertion, roadmap-index, named-correction and weekday checks.
+2. Preserved open work and approvals; no other session files staged or edited.
+3. Closed the handoff after the completed audit described below.
+
 Audit report: `domain/sources/2026-09-16_key-file-audit.md`; primary artifacts and retrieval limits in `research/2026-09-16_key-file-audit/`. Prior documents verbatim in `archive/2026-09-16_before-key-file-audit.md`, checksum receipt retained. KB478–486 added;KB476 provenance corrected;KB120/121 marked historical STALE, not blanket superseded by partial replacement.
 
 ## STATUS CHANGES
@@ -17,8 +22,8 @@ Audit report: `domain/sources/2026-09-16_key-file-audit.md`; primary artifacts a
 
 ## NEXT SESSION SHOULD
 ### IMMEDIATE (24hrs)
-- Review Fed press conference. Canonical V12: cut in dots OR credible presser easing, for2 consecutive meetings.
-- Refresh registered BZ=F before new CRL08 pass-through arithmetic; spot130.80 is not futures. Existing7% and touch/sustained question preserved.
+- By September17: review September16 Fed press conference. Canonical V12: cut in dots OR credible presser easing, for2 consecutive meetings.
+- September17 next research pass: refresh registered BZ=F before new CRL08 pass-through arithmetic; spot130.80 is not futures. Existing7% and touch/sustained question preserved.
 ### UPCOMING (this week)
 - September18 FSA scheduled re-poll: early9/16 named-file HEAD unchanged, not exhaustive site absence.
 - Read August broad-tier ABS exhibits; complete grade after deep-tier collection data~9/30.
@@ -56,7 +61,18 @@ Files below remain on the live surface; some were read for context and have foll
 | `inbox/WALTER/SIG-W-20260911-010.md` | Retained; report/startup audit records any limited review. |
 
 ## WORKBOOK HEALTH
-Parent KB refreshed; predictions event-driven and unchanged. VX/FLOW/BNPL/STATE/TRENDS frozen and untouched; ABS_BASELINE remains frozen/reference.16 child-ledger findings remain, not cleared by parent changes.
+| TSV | Lines | Last modified UTC | Note |
+|---|---|---|---|
+| ABS_BASELINE.tsv | 74 | 2026-07-10 16:44 | Frozen/reference; not refreshed |
+| BNPL_STRESS.tsv | 61 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
+| FLOW.tsv | 26 | 2026-06-26 20:06 | Frozen/reference; not refreshed |
+| KB.tsv | 483 | 2026-09-16 18:29 | Refreshed in completed audit |
+| SCHEMA.tsv | 17 | 2026-07-24 20:25 | Schema reference; no data refresh claimed |
+| STATE_DIFFUSION.tsv | 64 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
+| TRENDS.tsv | 41 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
+| VX.tsv | 122 | 2026-07-10 19:10 | Frozen/reference; not refreshed |
+
+Predictions event-driven and unchanged;16 prior child-ledger findings remain unresolved.
 
 ## URGENT
 Press conference review is outstanding; statement/SEP are complete. Old March/April figures must not be cited as current. Trade and instrument authority unchanged.
@@ -68,4 +84,4 @@ This cursor assertion is not the225-ID backlog or evidence of substantive review
 Consistency gate0hard/6soft (down from12 after mirror fixes); roadmap generated index matches; weekday clean;0 unreceipted named corrections. Consumer scans find no external old acreage values. Own historical archive and dated CRL10 original rationale remain history;KB120/121 now STALE with updated acreage pointers. No alteration of as-made prediction history. Read-cap gate remains non-clean due to MEMORY; STATUS/ROADMAP below budget but above rotation stop target. Retirement review remains incomplete; no source deleted/moved on an unproven reference check.
 
 ## GIT CLOSEOUT
-Audit commit011901bac PUSH CONFIRMED by root safe-push and fresh fetch. The earlier non-FF obstruction was integrated by another session; CARL performed no pull/rebase/autostash. Other sessions' working files remain untouched. Final handoff/brief follows in a separate explicit-path commit.
+Audit commit011901bac PUSH CONFIRMED by root safe-push and fresh fetch. The earlier non-FF obstruction was integrated by another session; CARL performed no pull/rebase/autostash. Other sessions' working files remain untouched. Final audit handoff dd71d926b also PUSH CONFIRMED. This closeout adds only handoff bookkeeping; its delivery is verified by root safe-push after commit. Other desks have active staged/working changes; no pull or global index operation authorized or attempted.

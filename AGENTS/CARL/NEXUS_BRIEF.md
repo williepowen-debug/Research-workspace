@@ -68,3 +68,5 @@
 Earlier brief retained verbatim in `archive/NEXUS_BRIEF_before_2026-09-16_news.md`; historical assertions there are not current. WQ-227 approval preserved. Consistency gate passed with6 existing soft advisories after six mirror fixes;225 BOARD IDs remain unrecorded. Native Claude cross-session messaging remains unavailable.
 
 **Git delivery:** research011901bac PUSH CONFIRMED by root safe-push/fresh fetch. Prior blockage was integrated by another session. CARL performed no pull/rebase/autostash; other desks' dirty files remain untouched. This final brief pins the completed research commit.
+
+**Session closed at Will’s direction, September16 ~19:15UTC:** no fresh market evidence added after the audit cutoff. Next research action by September17 is the unreviewed Fed presser; August ABS and other documented gaps remain open. Consistency0hard/6soft, roadmap index clean, named corrections0unreceipted; existing approvals preserved. Audit and final audit handoff already push-confirmed; this bookkeeping closeout is committed separately.
