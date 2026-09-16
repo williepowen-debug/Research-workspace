@@ -40,10 +40,11 @@
 | T1-b | **General-merchandise share of retail** | `RSGMS` ÷ `RSXFS` | share **RISING** |
 | T1-c | **Discretionary apparel, real** | `RSCCAS` ÷ `CPIAPPSL` | **falling** (deferral category) |
 
-**Reading 2026-09-05 [obs 2026-07-01] — ALL THREE AGAINST THE LEG:**
-- **T1-a: grocery real −1.70% vs restaurants real +1.63% ⇒ spread −3.33pp. WRONG DIRECTION**, and by a wide margin.
-- **T1-b: GM share 12.237% (Jul-25) → 12.084% (Jul-26), FALLING** ~15bps YoY *(though off a 11.963% June low)*.
-- **T1-c: apparel real +1.18% — GROWING**, not deferred.
+**Reading 2026-09-16 [obs 2026-08-01] — ALL THREE AGAINST:**
+- T1-a: grocery price-adjusted proxy **−1.61% YoY**, restaurants **+2.40%**, spread **−4.01pp**.
+- T1-b: GM share **12.191% (Aug25) → 12.018% (Aug26)**; falling YoY and from July12.087%.
+- T1-c: apparel **+0.62% real YoY**, growing rather than deferred.
+- Current-vintage July also remains3/3 against: grocery−2.02%, restaurants+1.74%, apparel+0.57%; not the old September5-vintage deltas. Source/derivation: `research/2026-09-16_news-catchup/sources.json`, `derive.py`, `derived.json`. Prior reading retained in `status_archive/STATUS_before_2026-09-16_news.md`. Proxies are not measured units; food/beverage-store sales against food-at-home CPI have a coverage mismatch. No instrument, direction rule or score changed.
 
 ⚠️ **`MRTSSM45291USS` (Warehouse Clubs & Superstores) — the single most on-point series — is DISCONTINUED, last obs 2025-02-01.** The best-fitting instrument for this leg no longer publishes. `RSGMS` is the surviving proxy and it is broader.
 
