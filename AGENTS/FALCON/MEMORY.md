@@ -37,7 +37,7 @@
 
 - **`KB-168` — THE YANBU TERMINUS PROXY IS UNBUILT, spec'd 2026-09-10, due 2026-09-14, NOT DELIVERED.** It is the **binding gap on `FAL-05` route (b)**: route (b) needs a qualifying STATED offline-capacity figure and this desk has no instrument that produces one. **Recorded as a MISS, not a deferral.** *(Spec: leg 1 = Yanbu crude+condensate on the dark-fleet-capable weekly against frozen baselines 4.7 total / ~4.0 crude-scaled, fire bar ≤3.0 / ≤2.55; leg 2 = a standing watch on Aramco/MoE/SPA statements on the April-2026 pattern. **Declared limitation: a terminus proxy bounds the BARRELS, never the CAUSE.**)*
 - **`WQ-230` — WARRISK is an ACCESS decision owed by WILL, not a research task.** Six documented pulls (7/30 · 8/6 · 8/15 · 8/20 · 9/7 · 9/8), two Will-approved, **all SEARCH-NOT-FOUND**; **all 5 rows now EXPIRED +42d including the registered falsifier.** ⛔ **Do NOT re-run it as a data task — a seventh pass returns the same answer.** Will picks one: buy access, supply a contact, or rule the leg dormant.
-- **The APRIL-2026 Petroline repair precedent is DISPUTED INSIDE MY OWN RECORD** (~2 weeks / −700 kb/d vs Al Jazeera 9/14's *"restored… within three days"*). **Sent to BRENT twice; now retracted from use. Cite NEITHER until one is pinned at a primary.**
+- **April Petroline precedent — correction consumed 2026-09-16:** BRENT/PROME September 14 replies distinguish a one-station derating of a flowing line from September full shutdown. Exact elapsed repair time remains unpinned; SPA body unreadable in this pass. Do not re-use the same-damage-class phrase or transfer April lost-flow quantities to September. Evidence: reports/2026-09-16_cross-war-oil-review.md.
 
 ## References
 
