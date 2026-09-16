@@ -12,7 +12,7 @@ Ukraine's campaign against Russian oil runs through **three parallel, independen
 2. **Crude-export terminals.** Baltic (Primorsk, Ust-Luga, Vysotsk) and Black Sea / Azov (Sheskharis-Novorossiysk, Tuapse, Taman, CPC) loading infrastructure. The Brent-relevant channel *if* barrels actually stop leaving.
 3. **Shadow-fleet tankers and the port perimeter.** Kinetic strikes on hulls in the Russian trade — Russian-flagged, "shadow", and (since August) Western-managed tonnage — plus Russia's counter-strikes on Ukrainian-port shipping.
 
-**What the campaign has actually done to world crude (the finding that reorganised the model on 8/20):** it has removed barrels **without destroying any capacity**. No crude-export berth has been confirmed destroyed; every individual halt reversed in 2–7 days. Yet Russian seaborne crude fell from a wartime high of **4.22 M bpd (4-wk to 7/5) to 3.46 (to 8/23), six consecutive weekly falls, ~-760 kbpd** [Bloomberg tanker-tracking]. The mechanism is **deterrence of offtake at the perimeter** (`FLOW-OSPREY-03`): a credible threat at or near a berth → charterers, owners and insurers decline → loadings stop → shore tanks fill → the terminal stops accepting pipeline deliveries → upstream cuts. It is observable at every step except the last and it is **symmetrically fast to reverse**. HAWK's sentence, adopted verbatim so consumers hear one phrasing: **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, rising, reversible.**
+**Historical 8/20 model evidence (superseded as a current flow reading by KB-114, 3.54 M bpd to 9/13):** it has removed barrels **without destroying any capacity**. No crude-export berth has been confirmed destroyed; every individual halt reversed in 2–7 days. Yet Russian seaborne crude fell from a wartime high of **4.22 M bpd (4-wk to 7/5) to 3.46 (to 8/23), six consecutive weekly falls, ~-760 kbpd** [Bloomberg tanker-tracking]. The mechanism is **deterrence of offtake at the perimeter** (`FLOW-OSPREY-03`): a credible threat at or near a berth → charterers, owners and insurers decline → loadings stop → shore tanks fill → the terminal stops accepting pipeline deliveries → upstream cuts. It is observable at every step except the last and it is **symmetrically fast to reverse**. HAWK's sentence, adopted verbatim so consumers hear one phrasing: **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, rising, reversible.**
 
 **The products side is the durable half.** Refinery runs printed **3.6 M bpd in July and ~3.8 in August** against a 5.3–5.5 norm [EA Analytics via Bloomberg] — roughly **30% below norm on the runs proxy**, which is the canonical refining-offline band (**~30%, 25–35% [EST], KB-OSPREY-029**). Seaborne diesel/gasoil exports ran ~80–150 kb/d in August, ~80% below the seasonal norm [Vortexa via Bloomberg]; producers' diesel exports are banned to 9/30, traders' diesel and gasoline to 1/31/27, jet to end-November. Russia is tolling its own crude through a Kazakh refinery. **This half is not reversible in days; it is reversible in repair cycles of 2–3 weeks per plant against a strike cadence of ~20 refinery hits a month.**
 
@@ -31,20 +31,20 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 - **Two ledger-completeness failures found late** (Taman 7/30 after 21 days; the Yanina sinking 8/1 after 38 days): a sweep anchored on a facility list or an object class certifies coverage it cannot deliver. **The Channel-3 instrument is now a dated-window maritime bulletin run first**, before any name query (LESSONS 7, 8).
 - **Two label failures (9/2, 9/8):** a DARK mark licensed a ~45%-stale floating-storage figure, and an uncited June table cell travelled as a "May-vintage" Urals discount. **A label is not provenance**; this desk now carries no figure it cannot trace to a KB row.
 
-## 5. Channel state and what to watch (as of 2026-09-08 — `STATUS.md` is canonical)
+## 5. Channel state and what to watch (state commentary reconciled 2026-09-16 — `STATUS.md` is canonical)
 
 | Channel | Mark | What would move it |
 |---|---|---|
-| Refineries/products | **4 🔴** | Up: sustained runs <3 M bpd or an independent >40% offline aggregate. **No downgrade path exists** (OWED-15). |
-| Crude-export terminals | **5 🔴** (Will, 8/20, liftings limb) | **No downgrade path exists** — the largest spec hole on the desk. A snap-back print (≥3.9 M bpd, OSP-06's bar) is the evidence a downgrade would need. |
-| Shadow-fleet / perimeter | **3 🟠** | Up: a named crude tanker sunk/total-loss, or a war-risk *buyer* pullback (three adjacent withdrawals — MSC, FESCO, the standard war-risk market — none a buyer). |
+| Refineries/products | **4 🔴** | Up: sustained runs <3 M bpd or an independent >40% offline aggregate. Downgrades follow `CLAUDE.md` EXIT RULES §1b, approved 9/8; no rule duplicated here. |
+| Crude-export terminals | **5 🔴** (Will, 8/20, liftings limb) | Downgrade path in force under `CLAUDE.md` EXIT RULES §1b; latest evidence in STATUS. |
+| Shadow-fleet / perimeter | **3 🟠** | Up: named crude tanker sunk/total-loss in ruled geography; buyer-pullback limb retired 9/8 to Channel 2. See EXIT RULES. |
 
-**The single most important observable is the weekly Bloomberg seaborne-crude print: a seventh week, or the snap-back.** Second: any strike on CPC infrastructure or a non-Russian hull without Russian cargo (the understanding breaking). Third: the September runs print (~4.2 expected) — if it lands, the band's *lower* edge, not its centre, becomes the question.
+**The single most important observable is the weekly Bloomberg seaborne-crude print: the next comparable observation after the recovered September 13 print; missing intermediate weeks stay open.** Second: any strike on CPC infrastructure or a non-Russian hull without Russian cargo (the understanding breaking). Third: the September runs print (~4.2 expected) — if it lands, the band's *lower* edge, not its centre, becomes the question.
 
 ## 6. Known holes in the model, written down so they are distinguishable from blind spots
 
-- **No downgrade path for any channel** (approved to build; blocked on BRENT+HAWK score semantics).
-- **Channel-3 kill letter has no geography qualifier** (Mediterranean strikes on Russian hulls, 9/5-6) — routed, not self-ruled.
+- **Resolved 9/8:** downgrade path approved; consumer objection window closed 9/15 without objection. Canonical rules remain in CLAUDE.
+- **Geography resolved 9/8:** Channel-3 qualifier in force. OWED-39 retains Channel-2 Caspian and Channel-3 vessel-class ambiguities; 9/13 unidentified merchant event adds uncertainty.
 - **Gas/LNG** is represented (`VX-OSPREY-GAS-01`, `FLOW-OSPREY-01`) but thinly swept; **vol/credit** transmission (`FLOW-OSPREY-02`) is seeded and has never had an own-theater observation.
 - **Druzhba / EU** remains a pointer, not a tracked series.
 - The **war-risk rate** is event-driven observable and has printed twice in seven weeks; the TD6 freight proxy is a tripwire, not a level.

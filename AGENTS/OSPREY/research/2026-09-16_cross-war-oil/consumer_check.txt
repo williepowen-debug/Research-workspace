@@ -1,0 +1,42 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/OSPREY/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 3.46 → current 3.54
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (5)
+        AGENTS/NEXUS/STATUS.md:49  [3.46]
+           | **R9 Russia/Ukraine + Red Sea** | **OSPREY 9/10 read (owner surface, first since 8/17):** refining offline **~30% (band 25–35%) CONFIRMED 
+        AGENTS/BRENT/board_log.tsv:283  [3.46]
+           2026-09-06T10:1x	2026-09-02_from-OSPREY_sixth-weekly-decline-3-46-plus-floating-storage-45pct-high	acted	INBOX	CONSUMED, ACTED. THESIS.md:20
+        AGENTS/BRENT/setups/2026-09-08_market-docket-owner-read.md:28  [3.46]
+           Q2 = UNKNOWN, OSPREY-owned Russian diesel/gasoil four-weeks-after versus four-weeks-before September 1. Crude flows are not diesel flows. OS
+        AGENTS/HAWK/workbook/FLOW.tsv:8  [3.46]
+           FLOW-HAWK-19	Cross-War Supply-Risk Transmission - insurer/owner WILLINGNESS as the binding constraint (RE-CUT 2026-07-25; supersedes the bin
+        AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md:16  [3.46]
+           Russian exports remain **3.46mb/d, four-week average to August23**, per OSPREY's source record; newer completed-week prints were not retriev
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (28)
+        AGENTS/VIOLET/MEMORY.md:42  [3.46]  (no unit/series context on line)
+           | Mar 2026 stress episode | Macro-geopolitical Fed-trap convergence, VIX-led | HY widened to 3.46 but did NOT sustain | Vol can fire and ful
+        AGENTS/REGINALD/LESSONS.md:22  [3.46]  (no unit/series context on line)
+           > | ex-mortgage | $4.3B | **$4.92B** (business-credit $3.46B + PE funds $1.46B) |
+        AGENTS/VIOLET/workbook/KB.tsv:96  [3.46]  (no unit/series context on line)
+           KB-VIO-095	2026-06-11	CREDIT	CCC_OAS	HISTORICAL CONTEXT FOR THE 9.55 CROSS (Will perspective query): RETRACE, NOT NEW TERRITORY. Full series
+        AGENTS/VIOLET/research/2026-06-11_march_episode_ccc_analog.md:22  [3.46]  (no unit/series context on line)
+           | Mar 30 | Credit peaks (CCC 10.20 / HY 3.46 / BB 2.22 / CCC−BB dispersion 7.98 — the origin of the A3 line's 60td max) + SPX troughs (−9.1%
+        AGENTS/VIOLET/research/2024-11_2025-01_cluster_analog.md:101  [3.46]  (no unit/series context on line)
+           | **HY OAS at cycle low** | 2.61 (tightened 15% from 3.07) | 2.84 (tightened from 3.46 Mar peak, near 2.64 Jan low) | ✅ **YES** — credit re-
+        AGENTS/VIOLET/research/crisis_analogs/feb2021_meme_stocks.csv:31  [3.46]  (no unit/series context on line)
+           2021-02-18,22.489999771118164,27.86000061035156,121.0500030517578,144.4499969482422,66.16893005371094,3.46
+        AGENTS/VIOLET/research/crisis_analogs/feb2018_vix_spike.csv:26  [3.46]  (no unit/series context on line)
+           2018-02-07,27.729999542236328,23.030000686645508,159.02999877929688,136.89999389648438,55.71611022949219,3.46
+        AGENTS/VIOLET/research/crisis_analogs/feb2018_vix_spike.csv:34  [3.46]  (no unit/series context on line)
+           2018-02-21,20.020000457763672,20.030000686645508,125.7300033569336,130.02999877929688,55.59943389892578,3.46
+        … +20 more 🟠 hit(s) on [3.46] across 22 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (1: LIQUID)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (42)  [--show-handled to audit]
+
+  🔴 5 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

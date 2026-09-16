@@ -1,0 +1,47 @@
+[
+  {
+    "file": "pravda.txt",
+    "sha256": "527de3cf3ec406858f52fef9b6805a15b6b80f1d0f2b4e685855f43fc3aee2f5",
+    "bytes": 4785
+  },
+  {
+    "file": "securewest.txt",
+    "sha256": "e5a675e349e426a882642f782148fa0db85fdb810188df633b379b65fbd2741d",
+    "bytes": 6319
+  },
+  {
+    "file": "ukrinform.txt",
+    "sha256": "65677db2b643b5ff35d4a430f730d05163738dd2a74a5200f2f5d8f2f202b35e",
+    "bytes": 6225
+  },
+  {
+    "file": "insurance.txt",
+    "sha256": "52e8a856e6edcb09bfba4e103f5a78454e4dd31fb32fc6fe29e3c34ae50ed76b",
+    "bytes": 6910
+  },
+  {
+    "file": "bbg_mirror.txt",
+    "sha256": "685a68a90d729b9d3f9059a983a524eb62caa52d20fe7585ccf624398fb2fc5a",
+    "bytes": 9293
+  },
+  {
+    "file": "ryazan.txt",
+    "sha256": "1da1f63788b2d4b2945dc351aafcf6c03d3ebb724d1778c20a716e163a4b8732",
+    "bytes": 5694
+  },
+  {
+    "file": "kyiv_diesel.txt",
+    "sha256": "cc0b6b7b7ed812e2776ce3ea9b8654d435b8c9a8fded7944de5775eabdd60ff8",
+    "bytes": 8937
+  },
+  {
+    "file": "palaemon.txt",
+    "sha256": "c48ae5bbbbb7b899c68ab3f82827f70948e93e3f4b298f45b3861bbe732b23a5",
+    "bytes": 9775
+  },
+  {
+    "file": "moscow_refineries.txt",
+    "sha256": "0300521f3f0a4bcb187974127481ce3d56038cc476eb4c008ec6f4873884cc35",
+    "bytes": 6410
+  }
+]

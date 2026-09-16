@@ -1,0 +1,82 @@
+# Russia/Ukraine energy impact — 16 September 2026
+
+Author: OSPREY, Codex/Astra. Commission: `inbox/processed/2026-09-16_from-PROME_cross-war-oil-review.md`.
+Retrieval cutoff: **2026-09-16 18:28 UTC / 14:28 EDT**. Public reporting reviewed through that cutoff; observations have their own dates below. Research only: no trade, band, threshold, standing approval or channel-score change.
+
+## Decision summary
+
+**Products disruption is better evidenced; the crude-export deterioration story has a fresh counter-signal.** Bloomberg's own weekly series is readable through a syndication again. The new observation does not reach the existing downgrade threshold. Keep scores **4 / 5 / 3** and the **~30%, 25–35% [EST]** refining band; the band is an inherited July/August runs proxy, not a newly measured September outage share.
+
+The refinery delta is operational, not just more fires: Syzran and Saratov shutdown reports, plus an independent-reporting read on Kirishi/NORSI/Volgograd. Already-disabled units and attempted restarts prevent a defensible sum of incremental lost barrels. The September 9 Novorossiysk event remains **products storage**, not evidence of a Sheskharis crude-berth outage. BRENT already acknowledged that correction on September 15.
+
+**Most useful next evidence:** actual pre/post-attack unit throughput and restarts; the next Bloomberg four-week print; the producer diesel-ban decree. A report of an extension is not enacted policy. No fresh Russian crude-tanker total loss is established in this sweep. An unnamed Crimea merchant-vessel report means the Channel-3 quiet clock is uncertain, not confirmed quiet.
+
+## Reconcile against BRENT's demonstrably consumed baseline
+
+Evidence checked at recipient artifacts, not inferred from a sent packet:
+
+| BRENT artifact and receipt | What BRENT actually held | This review's delta |
+|---|---|---|
+| `AGENTS/BRENT/board_log.tsv`, 9/6 OSPREY packet, 9/9 owner-market packet; 9/10 12:06:59 downgrade packet | August 23 export observation; later prints unavailable; August runs attributed, not freshly verified | New September 13 observation [S1]; prior missing weekly observations remain unrecovered. |
+| Same log, 9/12 13:53:19, SIG-W-20260911-001 | Ryazan CDU-6/4 shutdown; CDU-3 maintenance excluded; no BRENT incident grade | Re-read original Reuters syndication [S4]. No measured incremental pre-strike throughput recovered. |
+| Same log, 9/14 18:18:14, SIG-W-20260914-025 | Awaited OSPREY outage scale; matched-contract crack guard | [S2–S3] supply operational detail, but still no national September lost-output total. Price/crack grading stays with owners. |
+| Same log, **9/15 13:11:32**; `AGENTS/BRENT/research/2026-09-15_boot/REPORT.md`, Additional errors | Novorossiysk products correction consumed as attributed owner input; no corresponding September crude entry on current BRENT surfaces; older incidents distinct | Correction **already consumed**, not an outstanding first notification. Fresh external recheck [S5]; no older April/July crude incident relabelled. |
+
+Latest demonstrable theater-baseline consumption: **September 15**, assembled from those specific receipts. This does not certify that BRENT independently verified all underlying sources or subsequently consumed this report.
+
+## Sourced event and operating-state table
+
+All rows retrieved by the stated cutoff. `UNKNOWN` means not measured or not recovered, never zero. `[MIRROR-WALLED]` identifies original reporting read through a relay because the originating publisher was inaccessible. Source IDs link to dated URLs below.
+
+| Channel; event/observation date | Publication | Location / asset; claim versus confirmation | Observed flow/output effect | Duration / restart evidence | Uncertainty and falsifier |
+|---|---|---|---|---|---|
+| Crude; 4 weeks ending **9/13** | 9/15 | Russian seaborne crude, Bloomberg tanker tracking [S1, MIRROR-WALLED] | **3.54 M bpd**, versus inherited 3.46 to 8/23. Weekly shipments **27.06M barrels**, versus 23.88M previous week; weekly is not four-week. | Novorossiysk loading acceleration after late-August resumption; Ust-Luga Russian shipments up about **160 kb/d MTD versus August**, with Kazakh cargo rerouting. | One Bloomberg observation, no independent tracker replication. Port rerouting is not new production. Reversal: renewed loading halt or next comparable print down. |
+| Products; strike/halt **9/15** | 9/16 | Syzran, Reuters / three industry sources [S2, MIRROR-WALLED], B2 | Processing halted; damaged CDU/AVT-6 rated **17,100 tonnes/day**. This is unit capacity, not measured loss. | Repairs could take **at least one month**. CDU/AVT-5 **7,100 tonnes/day** already in repair after July attack. | Never count CDU-5 again. Prior CDU-6 utilization UNKNOWN; no new bpd conversion. Falsifier: authenticated unit restart/throughput. |
+| Products; **9/8 and 9/11**, same outage sequence | 9/16 | Saratov, same Reuters report [S2], B2 | Halt after 9/8 damage; another halt reported 9/11. No incremental volume given. | Preparing restart **9/10–11** when struck again; completed sustained restart not established. | Count as outage persistence/interrupted recovery, not two additive plant losses. Falsifier: dated sustained runs. |
+| Products; September operating state | 9/15; relay 9/16 | Kirishi / NORSI / Volgograd, Reuters market-participant analysis [S3, MIRROR-WALLED], B2 | Kirishi shut; NORSI and Volgograd around **one-quarter of nameplate**. Three of six major diesel plants impaired, **not all six**. | Restart dates not supplied. NORSI partial operation supersedes blanket current “shut” carry from 8/26. | No diesel-yield or national-offline extrapolation. Falsifier: dated plant output/restart. |
+| Products; strike **9/6**, state 9/10 | 9/10 | Ryazan, Reuters / two industry sources [S4, MIRROR-WALLED], B2 | CDU-6 **8 Mt/year (~160 kb/d)** and CDU-4 **4 Mt/year** shut. | Repairs several weeks; July interruption described as two–three weeks, but exact pre-9/6 unit runs unverified. | **CDU-3 maintenance since mid-May excluded.** No arithmetic addition to national band. Falsifier: unit-specific restart or measured baseline. |
+| Products; **9/13** | 9/13; Reuters follow-up 9/15 | Slavyansk ECO / TANECO [S6; S3] | Fire reports; TANECO storage-tank damage in inherited ledger, processing consequence still unassessed in Reuters follow-up. | No authenticated halt duration or restart. | Names/plant capacity do not establish lost output; do not retroactively identify the unnamed 9/7 Tatarstan plant. Falsifier: units/actual flows. |
+| Products storage; **9/9** | Bulletin covers 9/7–13; search lists 9/14, exact publication timestamp unresolved | **Novorossiysk Fuel Oil Terminal**, named by Palaemon [S5] | Storage fire reported; no crude-loading loss quantified. | Tank-fire duration, loading suspension and restart UNKNOWN. | No Sheskharis identity inferred. Falsifier: operator asset identification/dated loading evidence. |
+| Caspian logistics; **9/10** | Same bulletin | Makhachkala port, oil infrastructure [S5] | Attack/fire reported; molecule and throughput loss UNKNOWN. | No duration/restart evidence recovered. | Landlocked port is not automatically a world-crude export closure. Channel-2 clock scope remains OWED-39; no ruling invented. |
+| Transport; **9/3–4** | 9/11 follow-up | SIREN, IMO **9405423**, Liberian crude tanker [S7], secondary casualty account | Superstructure damage reported; no verified cargo loss or total loss. | Repair-completion evidence UNKNOWN. | Cargo identity/origin/loading state and attacker still unresolved. **SIREN II is a different hull.** Falsifier: operator/cargo record. |
+| Transport; **9/13** | 9/15 | Unnamed merchant vessel, **Komysh Burunska, occupied Crimea** [S8], C3 | Attack reported; cargo, hull type, attacker and physical consequence UNKNOWN. | No duration/restart. | Provisional event only. Could reset broad vessel clock; cannot establish tanker loss. Falsifier: casualty identification, retraction or non-qualifying class. |
+| Transport/insurance; 9/8–14 incidents, discussion reported 9/16 | 9/15–16 | Ukrainian ports and commercial shipping [S8–S9] | Further cargo-vessel attacks; Reuters reports shipowner refusal at Odesa hub and discussion of extra insurance. | No newly measured Russian-port hull premium, cover reinstatement or end date. | Ukrainian grain/shipowner evidence **not Russian crude-buyer withdrawal**. Falsifier: actual calls, written cover terms. |
+| Products policy; meeting **9/14**, prospective extension | 9/16 | Producer diesel-export ban through **10/31**, Vedomosti via Reuters headline [S10] | Reported policy intention; no quantified incremental export loss. | Prior carried producer deadline **9/30**; replacement decree not recovered. | **Not authenticated legislation.** Do not reset BRENT's frozen September 1 test or automatically replace October 1 review. Falsifier: decree, official denial or contrary scope. |
+
+[S1] is counterevidence to continuous export deterioration, not a declaration that all impediments cleared. **3.54 < 3.9**, so no downgrade print qualifies; no two-print threshold met. It exceeds 3.5, but the independent 30-day strike-pause leg is unmet. OSP-06 remains OPEN at 45%; the missing intermediate prints cannot be reconstructed from a later average and cannot prove no earlier failure. The named series is demonstrably publishing, so instrument silence does not arm VOID.
+
+## Coverage, exclusions and unresolved evidence
+
+- Window: rechecked the September 6–15 baseline events above; date-specific mechanism queries for September 15 and 16; dated maritime bulletins through September 14. Feed run: **29 candidates, 22 NONE, five matched, one bulletin, one unread source**. Every NONE disposition is recorded in the local feed TSV and the committed VALIDATION.md table; matched refinery headlines were opened because matching an event does not mean its consequence is already known.
+- **Not exhaustive:** September 15–16 maritime coverage is search/feed-based, not a completed weekly bulletin. Militarnyi returned HTTP 200 with zero items and was not read. Broad Black Sea/Baltic/Caspian searches plus CPC, Primorsk and Druzhba probes did not recover new verified throughput. No AIS/Kpler/Vortexa subscription access, no terminal-by-terminal physical audit, no fresh September national runs/capacity aggregate. Older strike rows were not fully reverified.
+- Bloomberg origin remains inaccessible; Transport Topics full syndication returned HTTP 200. **8/30 and 9/6 four-week totals still missing**. The prior-week *weekly* volume in [S1] must not fill either missing cell.
+- Reuters origin returned **401**; full Ukrinform, Moscow Times and Pravda relays were retrieved. Multiple relays of the same Reuters dispatch are **one observation**. The diesel-plant report is a separate September 15 dispatch, not a second witness for Syzran.
+- Latest national refining band remains inherited, runs-proxy based. Actual pre-strike throughput at Ryazan and Syzran, September aggregate losses and product-export volumes remain inaccessible/unestablished. An attack on an already-disabled unit can delay recovery without causing a new immediate loss.
+- **OWED-37 disposed:** the ambiguous S&P “over 30%” snippet was traced to a September 11 article referencing **late-July national** reporting [S11]. Drop it from current September evidence; S&P original was not recovered. No band move.
+- War-risk search was **partial**, including the named trade/broker set and outlet-free search; not a complete fresh canvass or TD6 retrieval. WARRISK data vintage stays **8/21**, 26 days old. No rate found is not evidence that rates stayed flat. [S9] is a different country/cargo exposure.
+- **Clock ambiguity preserved:** C1 **1/30** from 9/15. C2 **7/30** from Novorossiysk 9/9 under carried interpretation, **6/30** including Makhachkala 9/10 under unqualified letter. C3 **12/21** from 9/4 subject reading; **3/21** if the unidentified 9/13 merchant event qualifies (also prior 9/12 USV ambiguity). No kill/downgrade under either reading. Theater kill clock not running; no channel killed. No verified physical ceasefire; no BRENT-supplied named-driver/model-falsification test newly established.
+- No forced comparison of crude losses with product losses, no summing either into Gulf losses. FALCON owns Gulf evidence; HAWK owns cross-war synthesis; BRENT owns oil interpretation. No price series independently maintained here.
+
+## Sources and access record
+
+| ID | Dated source / access |
+|---|---|
+| S1 | [Julian Lee / Bloomberg, Transport Topics syndication, 9/15 09:51 EDT](https://www.ttnews.com/articles/russia-boosts-oil-flows). Full text retrieved directly; Bloomberg origin inaccessible. |
+| S2 | [Ukrinform, 9/16 17:38 displayed](https://www.ukrinform.net/rubric-ato/4164723-russias-syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-reuters.html), [Pravda](https://www.pravda.com.ua/eng/news/2026/09/16/8053776/), [Moscow Times](https://www.themoscowtimes.com/2026/09/16/syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-sources-say-a93726). Same [Reuters 9/16 origin](https://www.reuters.com/business/energy/russias-syzran-saratov-oil-refineries-hold-after-drone-attacks-sources-say-2026-09-16/). |
+| S3 | [Reuters, 9/15 05:41 EDT, MarketScreener syndication](https://www.marketscreener.com/news/half-of-russia-s-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-ce785bdddb80f621); [Kyiv Independent 9/16 relay, full text](https://kyivindependent.com/ukraines-drone-strikes-force-russias-6-largest-diesel-refineries-to-halt-or-slash-output-reuters-reports/). URL says six; article says three of six. |
+| S4 | [Reuters / Moscow Times, 9/10](https://www.themoscowtimes.com/2026/09/10/rosnefts-ryazan-oil-refinery-shuts-down-after-drone-attack-industry-sources-say-a93678), full text. |
+| S5 | [Palaemon, bulletin covering 9/7–13](https://www.palaemonmaritime.com/post/maritime-security-report-7th-13th-september-2026), full text. Feed's 9/7 date parses coverage, not publication. |
+| S6 | [Kyiv Independent, 9/13](https://kyivindependent.com/drone-attack-hits-industrial-hub-in-russias-tatarstan-casualties-reported/), inherited strike source plus fresh feed; consequence recheck S3. |
+| S7 | [Vessel Hunter, 9/11](https://vesselhunter.io/news/siren-suezmax-drone-strike-black-sea), secondary account discloses AI assistance; does not independently establish cargo. |
+| S8 | [Securewest, published 9/15, window 9/8–14](https://www.securewest.com/news/weekly-mts/weekly-maritime-incident-summary-08-14-september-2026/), full text. |
+| S9 | [Reuters / Insurance Journal, 9/16](https://www.insurancejournal.com/news/international/2026/09/16/885279.htm), full text. |
+| S10 | [Reuters headline via MarketScreener, 9/16 04:03 EDT](https://www.marketscreener.com/news/russia-set-to-extend-diesel-export-ban-until-end-of-october-vedomosti-reports-ce785bd2db80ff2c). No decree retrieved. |
+| S11 | [Ukrainian News, 9/11](https://ukranews.com/en/amp/news/1174348-drones-attack-oil-refinery-and-ozon-logistics-center-in-saratov), article identifies July national source vintage. |
+
+Reproducible public-source collector and HTTP/timestamp metadata: `collect.py`, `retrieval.json`. Source-body hashes: `source_hashes.json`; full transient article bodies remain outside the committed report. Research logs distinguish retrieval failure from source silence.
+
+## Handoff and ownership
+
+HAWK receives the report for routine synthesis, PROME a copy. BRENT receives a direct timely evidence packet for newly reported shutdown duration, fresh crude-export counterevidence and reported policy extension; no acute crude-loss/total-loss trigger claimed. Packet committed means DELIVERED only, not ACKNOWLEDGED or INTEGRATED. Native independent-session discovery/doorbell unavailable in this runtime; recipient session availability UNKNOWN. No substitute agent launched.
+
+Start pull deferred: CARL uncommitted files. Closeout follows root ownership boundary; shared-file changes left untouched. Existing unresolved approvals and frozen prediction letters preserved.

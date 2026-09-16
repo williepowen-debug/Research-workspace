@@ -1,0 +1,89 @@
+[
+  {
+    "name": "securewest",
+    "url": "https://www.securewest.com/news/weekly-mts/weekly-maritime-incident-summary-08-14-september-2026/",
+    "retrieved_at": "2026-09-16T18:26:23.598139+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 169249
+  },
+  {
+    "name": "insurance",
+    "url": "https://www.insurancejournal.com/news/international/2026/09/16/885279.htm",
+    "retrieved_at": "2026-09-16T18:26:23.598803+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 94008
+  },
+  {
+    "name": "reuters",
+    "url": "https://www.reuters.com/business/energy/russias-syzran-saratov-oil-refineries-hold-after-drone-attacks-sources-say-2026-09-16/",
+    "retrieved_at": "2026-09-16T18:26:23.599272+00:00",
+    "error": "HTTP Error 401: HTTP Forbidden"
+  },
+  {
+    "name": "ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4164723-russias-syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-reuters.html",
+    "retrieved_at": "2026-09-16T18:26:23.599727+00:00",
+    "reuters_links": [
+      "https://www.reuters.com/business/energy/russias-syzran-saratov-oil-refineries-hold-after-drone-attacks-sources-say-2026-09-16/"
+    ],
+    "status": 200,
+    "bytes": 55200
+  },
+  {
+    "name": "kyiv_diesel",
+    "url": "https://kyivindependent.com/ukraines-drone-strikes-force-russias-6-largest-diesel-refineries-to-halt-or-slash-output-reuters-reports/",
+    "retrieved_at": "2026-09-16T18:26:23.746543+00:00",
+    "reuters_links": [
+      "https://www.reuters.com/business/energy/half-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-2026-09-15/",
+      "https://www.reuters.com/business/energy/half-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-2026-09-15/?fbclid=IwY2xjawUWL2RwZG9mBWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4larSUJkBfyqVeQN0O1W-TNu8B6mMRlyuW73QrxOvX3Xrh1n4SaYy0uTCj4w_aem_Rzxs_v4ckMC5S1l9Wqn-Vg",
+      "https://www.reuters.com/business/energy/half-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-2026-09-15/\\",
+      "https://www.reuters.com/business/energy/half-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-2026-09-15/?fbclid=IwY2xjawUWL2RwZG9mBWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4larSUJkBfyqVeQN0O1W-TNu8B6mMRlyuW73QrxOvX3Xrh1n4SaYy0uTCj4w_aem_Rzxs_v4ckMC5S1l9Wqn-Vg\\"
+    ],
+    "status": 200,
+    "bytes": 272517
+  },
+  {
+    "name": "moscow_refineries",
+    "url": "https://www.themoscowtimes.com/2026/09/16/syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-sources-say-a93726",
+    "retrieved_at": "2026-09-16T18:26:23.912537+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 52778
+  },
+  {
+    "name": "pravda",
+    "url": "https://www.pravda.com.ua/eng/news/2026/09/16/8053776/",
+    "retrieved_at": "2026-09-16T18:26:24.112995+00:00",
+    "reuters_links": [
+      "https://www.reuters.com/business/energy/russias-syzran-saratov-oil-refineries-hold-after-drone-attacks-sources-say-2026-09-16/"
+    ],
+    "status": 200,
+    "bytes": 155123
+  },
+  {
+    "name": "bbg_mirror",
+    "url": "https://www.ttnews.com/articles/russia-boosts-oil-flows",
+    "retrieved_at": "2026-09-16T18:26:24.249247+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 245882
+  },
+  {
+    "name": "ryazan",
+    "url": "https://www.themoscowtimes.com/2026/09/10/rosnefts-ryazan-oil-refinery-shuts-down-after-drone-attack-industry-sources-say-a93678",
+    "retrieved_at": "2026-09-16T18:26:24.411083+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 51705
+  },
+  {
+    "name": "palaemon",
+    "url": "https://www.palaemonmaritime.com/post/maritime-security-report-7th-13th-september-2026",
+    "retrieved_at": "2026-09-16T18:26:24.466644+00:00",
+    "reuters_links": [],
+    "status": 200,
+    "bytes": 1093833
+  }
+]

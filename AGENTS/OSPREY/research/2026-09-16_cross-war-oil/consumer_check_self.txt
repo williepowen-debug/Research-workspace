@@ -1,0 +1,49 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 54 files under AGENTS/OSPREY/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 3.46 → current 3.54
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (13)
+        AGENTS/OSPREY/NEXUS_BRIEF.md:51  [3.46]
+           - **BRENT** 🔴 — **Vostok Oil loaded its first Arctic crude 9/5-6 (Bukhta Sever)** — a new outlet outside the Black Sea/Baltic perimeter, no 
+        AGENTS/OSPREY/domain/energy-strikes/L308_DOWNGRADE_WINDOW_CLOSED_2026-09-15.md:46  [3.46]
+           | **2** (crude-export terminals) | Bloomberg 4-wk ≥ 3.9 M bpd × 2 prints — **cannot be evaluated; instrument unreadable since 8/23**, newest
+        AGENTS/OSPREY/proposals/2026-09-10_WQ-216_joint-strike-taxonomy_OSPREY-HAWK.md:71  [3.46]
+           The Gulf premise that makes enforcement ≈ zero marginal barrels is that **the sanctioned hull was already blockaded**, so removing it remove
+        AGENTS/OSPREY/thesis/PREDICTIONS.tsv:2  [3.46]
+           # As of 2026-09-02: 2 CONFIRMED / 3 FAILED / 0 PARTIALLY / 0 VOIDED / 1 OPEN (OSP-06). CALIBRATION READ, NOT JUST A COUNT: OSP-02 (70% -> CO
+        AGENTS/OSPREY/thesis/THESIS.md:15  [3.46]
+           **What the campaign has actually done to world crude (the finding that reorganised the model on 8/20):** it has removed barrels **without de
+        AGENTS/OSPREY/workbook/FLOW.tsv:1  [3.46]
+           # Last real data refresh: 2026-09-15 — POSITION MOVED (content-derived vintage, PAT-044): FLOW-OSPREY-03's evidence set LOSES the 9/9 Novoro
+        AGENTS/OSPREY/workbook/FLOW.tsv:9  [3.46]
+           FLOW-HAWK-07	Shadow Fleet Disruption → Russian Revenue	Months	WARMING	Seizures + enforcement escalation	[2026-09-08] Revenue leg is BRENT/HA
+        AGENTS/OSPREY/workbook/FLOW.tsv:11  [3.46]
+           FLOW-HAWK-20	Russia Refinery Strikes → Product/Crack (Freed Crude, NOT Brent)	Weeks	FIRING	Ukraine refinery (not crude-terminal) strikes	[20
+        AGENTS/OSPREY/workbook/FLOW.tsv:14  [3.46]
+           FLOW-OSPREY-03	Strike THREAT -> Charterer/Owner Offtake Refusal -> Loadings Halt -> Tank-Tops -> Upstream Shut-In (WORLD CRUDE, no capacity 
+        AGENTS/OSPREY/workbook/KB.tsv:80  [3.46]
+           KB-OSPREY-074	2026-09-08	UKR_ENERGY	Bloomberg weekly Russian seaborne crude exports — 4-wk to 8/30 and 9/6	SEARCH-NOT-FOUND 2026-09-08: no r
+        AGENTS/OSPREY/workbook/KB.tsv:105  [3.46]
+           KB-OSPREY-100	2026-09-08	FLEET_PROCESS	Downgrade path §1b — back-test and first live test	BACK-TEST AT RULING: Bloomberg 4-wk-average prints
+        AGENTS/OSPREY/workbook/KB.tsv:111  [3.46]
+           KB-OSPREY-105	2026-09-10	UKR_ENERGY	WQ-216 (was OWED-23) — joint Russia counter-campaign taxonomy MERGED with HAWK's half and delivered to P
+        AGENTS/OSPREY/workbook/VX.tsv:9  [3.46]
+           VX-HAWK-UKR-01	Russia-Ukraine Energy	[2026-09-08 REFRESH — bands unchanged: C1 4 / C2 5 / C3 3, all carried, none owner-movable] Refinery ca
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (4)
+        AGENTS/OSPREY/NEXUS_BRIEF.md:26  [3.46]  (no unit/series context on line)
+           - **★ The seventh week is UNREADABLE, not answered.** Newest Bloomberg print remains **3.46 M bpd, 4-wk to 8/23**; the 8/30 and 9/6 prints c
+        AGENTS/OSPREY/domain/energy-strikes/ANALYSIS_2026-09-02.md:32  [3.46]  (no unit/series context on line)
+           `4.22 (to 7/5, wartime high) -> 3.71 (to 8/9) -> 3.58 (to 8/16) -> 3.46 (to 8/23)` — **six consecutive weekly declines, ~-760 kbpd off the h
+        AGENTS/OSPREY/domain/energy-strikes/ANALYSIS_2026-09-08.md:39  [3.46]  (no unit/series context on line)
+           - **The seventh-week question is UNRESOLVED.** Six queries, a bloomberg.com-restricted search, EnergyConnects and Yahoo relays: nothing newe
+        AGENTS/OSPREY/workbook/KB.tsv:66  [3.46]  ('×N obs'/'consecutive'/'kill line' within 40 chars of the value — FROZEN-THRESHOLD candidate: a registered kill/trigger level is SUPPOSED to hold its registration value)
+           KB-OSPREY-060	2026-09-02	UKR_ENERGY	Russian seaborne crude exports	SIXTH CONSECUTIVE WEEKLY DECLINE CONFIRMED: 3.46 M bpd on the 4-week aver
+     🟡 in MAIL, point-in-time — usually no action (2: OSPREY)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  🔴 13 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

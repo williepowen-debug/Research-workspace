@@ -1,0 +1,45 @@
+# Validation / ownership — 2026-09-16
+
+Consumer check 3.46 -> 3.54, same Bloomberg four-week Russian crude series: HAWK and NEXUS current carries require packets; BRENT's dated board receipt and September 8 report are historical, not errors to rewrite. BRENT receives the new observation nonetheless. Orange candidates in other domains are not this series.
+Self scan: refreshed STATUS, brief, FLOW/VX and thesis current framing; historical dated analyses, the September 15 closure record, approved taxonomy proposal, calibration history and fixed prediction registration retain their dates and values. KB historical rows carry a successor pointer. No historical decision or letter rewritten to manufacture prior knowledge.
+STATUS before-image: 30,791 bytes; crc32 4090956517. Existing obligation register retained by extraction; OWED-37 and OWED-38 explicitly dispositioned, OWED-40 added. Remaining obligations preserved. Original SCRATCH and FLOW/VX before-images archived.
+Source-body files are transient in /tmp/osprey-20260916-sources; hashes and timestamp/HTTP receipts committed. Initial sandbox DNS failures recovered on approved network retry; Reuters origin 401 and Militarnyi empty feed remain access failures.
+Start pull deferred for CARL dirty files. Shared CARL/FALCON work untouched. Push deferred under root Git Protocol while other desks have uncommitted changes; self-authored handoffs committed under carve-out 1 and Will's explicit request, superseding local stale instruction to leave packets untracked.
+
+Checks: TSV widths and unique IDs PASS (KB 119 rows, STRIKES 106 rows, FLOW 6, VX 4); obligation census 18 existing IDs retained, one added. Read-cap PASS; STATUS 15,828 bytes (49% budget). Weekday check PASS. git diff --check PASS. WARRISK attention updated honestly as partial, data clock unchanged; VX color data clock deliberately retained because bands did not change.
+
+## Reviewed feed dispositions
+
+Generated feed TSVs are ignored by repository policy. This table preserves the reviewed evidence in the committed record.
+
+| Source | Publication field | Title | Disposition |
+|---|---|---|---|
+| palaemon | 2026-09-07 | Maritime Security Report: 7th - 13th September 2026 | READ: full Palaemon dated window; report S5. pub_date is coverage start, publication timestamp unresolved. |
+| kyivindependent | 2026-09-16 | Europe must respond to Russia’s ‘hybrid’ attacks, Landsbergis says | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| kyivindependent | 2026-09-16 | Ukraine hits Russian bomber in occupied Crimea, General Staff says | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| kyivindependent | 2026-09-16 | Putin weaponizing migration to destabilize Europe, Kyiv says | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| kyivindependent | 2026-09-16 | Ukraine's drone strikes force 3 of Russia's largest diesel refineries to halt or slash output, Reuters reports | INTEGRATE: Reuters 9/15 operational states; report S3 / KB-115. Not a new attack row. |
+| kyivindependent | 2026-09-15 | There's one massive problem with Trump's Ukraine diesel price theory | LOG: policy commentary/declaration, no physical ceasefire; report coverage. |
+| kyivindependent | 2026-09-15 | US could hit Putin's Arctic gas empire by sanctioning 14 LNG tankers | LOG: proposed sanction option, not enacted restriction or observed energy loss; gas flow unchanged. |
+| kyivindependent | 2026-09-15 | EU approves $115 million to turn Baltic port near Russia into NATO naval hub | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| kyivindependent | 2026-09-15 | Ukrainian forces strike Russia's Syzran Oil Refinery, drone production facility in Taganrog, military confirms | LOG: existing 9/15 strike; fresh consequence supplied by S2. |
+| kyivindependent | 2026-09-14 | Zelensky to push energy, Black Sea ceasefire at possible Trump meeting in New York | LOG: policy commentary/declaration, no physical ceasefire; report coverage. |
+| kyivindependent | 2026-09-14 | Explosion, fires reported in Russia's Sochi following Ukrainian drone attack | DISCARD from energy ledger: 9/14 attack report names no verified energy asset or merchant hull; no clock reset inferred. |
+| kyivindependent | 2026-09-13 | Ukraine war latest: Kyiv-Warsaw train struck by Russian drone near Polish border as mass attack targets western Ukraine | LOG: prior 9/12 military-USV scope ambiguity OWED-39; not a new tanker event. |
+| kyivindependent | 2026-09-13 | Ukraine strikes 2 major Russian oil refineries in Krasnodar and Tatarstan, General Staff says | LOG: existing Slavyansk ECO and TANECO 9/13 rows; consequence remains unresolved. |
+| kyivindependent | 2026-09-12 | 'First-ever battle' — Ukrainian naval drone destroys Russian unmanned boat in Black Sea, Navy says | LOG: prior 9/12 military-USV scope ambiguity OWED-39; not a new tanker event. |
+| ukrinform | 2026-09-16 | Russia's Syzran and Saratov oil refineries halt operations after drone attacks — Reuters | INTEGRATE: same Reuters 9/16 dispatch; update Syzran/Saratov consequences, not duplicate attacks; KB-113. |
+| ukrinform | 2026-09-16 | Putin aims to trigger migration to Europe through food crisis — FM Sybiha | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| ukrinform | 2026-09-16 | Defense Forces strike Russian Su-24 at Saky airfield | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| moscowtimes | 2026-09-16 | Syzran and Saratov Oil Refineries Halt Operations After Drone Attacks, Sources Say | INTEGRATE: same Reuters 9/16 dispatch; update Syzran/Saratov consequences, not duplicate attacks; KB-113. |
+| moscowtimes | 2026-09-15 | Ukrainian Attack Kills One in Belgorod, Hits Commercial and Industrial Sites Across Russia | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| moscowtimes | 2026-09-14 | Russian Convoy Resupplies Syrian Coastal Facilities for First Time Since Moscow-Damascus Deal | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| moscowtimes | 2026-09-14 | Ukrainian Drone Strike in Sochi Wounds 5 | DISCARD from energy ledger: 9/14 attack report names no verified energy asset or merchant hull; no clock reset inferred. |
+| moscowtimes | 2026-09-11 | Russian Central Bank Holds Key Rate at 14% | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| moscowtimes | 2026-09-11 | Ukrainian Drone Barrage Sets Ozon Warehouse in Saratov Ablaze | LOG: warehouse non-energy; Saratov refinery event already rowed and consequence updated from Reuters. |
+| moscowtimes | 2026-09-10 | Rosneft’s Ryazan Oil Refinery Shuts Down After Drone Attack, Industry Sources Say | LOG: re-read Reuters 9/10 relay; existing RU-20260906-RYAZAN / KB-108; maintenance excluded. |
+| moscowtimes | 2026-09-10 | Voronezh Woman Killed and Caspian Seaport Hit in Ukrainian Drone Strikes | LOG: existing RU-20260910-MAKHACHKALA; no throughput figure. |
+| militarnyi |  | EMPTY_FEED (HTTP 200, zero items — indistinguishable from a bot-block stub; treat as NOT read) | NOT READ: HTTP200 zero entries; no absence inference. |
+| ukrainska_pravda_en | 2026-09-16 | Lithuanian president believes Russia deliberately allows drones to enter Baltic states | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
+| ukrainska_pravda_en | 2026-09-16 | Ukrainian drone attacks halt operations at two Rosneft refineries in Russia | INTEGRATE: same Reuters 9/16 dispatch; update Syzran/Saratov consequences, not duplicate attacks; KB-113. |
+| ukrainska_pravda_en | 2026-09-16 | Ukrainian foreign minister: Putin seeks to trigger migration to Europe by causing food crisis | DISCARD from energy ledger: headline concerns military, migration, general politics, rate policy or non-energy industry; no qualifying energy consequence established in bounded intake. |
