@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "retrieved_at": "2026-09-16T18:33:53.004496+00:00",
+    "status": 200,
+    "bytes": 82636,
+    "sha256": "ae77789911a9edf824fcfb225b5193539985ade951ca8edceeef5fe8e162dc91"
+  },
+  {
+    "url": "https://www.marketscreener.com/news/oil-falls-as-us-crude-inventories-rise-despite-saudi-supply-concerns-ce785bd2d980f225",
+    "retrieved_at": "2026-09-16T18:33:53.181001+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.ttnews.com/articles/russia-boosts-oil-flows",
+    "retrieved_at": "2026-09-16T18:33:53.267562+00:00",
+    "status": 200,
+    "bytes": 164780,
+    "sha256": "502ef15df341c380d1bcfd342bfbbbafd03480d3a439d0c9b61a9a3e0cd7abaa"
+  },
+  {
+    "url": "https://www.ttnews.com/articles/saudis-seek-resume-half-key-oil-pipeline-within-days",
+    "retrieved_at": "2026-09-16T18:33:55.091223+00:00",
+    "status": 200,
+    "bytes": 243611,
+    "sha256": "bcd9747f7f8392f08fa436bcbbdca2a074acb4a05bc4a3be7b1560a78dbc63a1"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4164723-russias-syzran-and-saratov-oil-refineries-halt-operations-after-drone-attacks-reuters.html",
+    "retrieved_at": "2026-09-16T18:33:55.463316+00:00",
+    "status": 200,
+    "bytes": 55308,
+    "sha256": "cd274ae04afb3159278e6230f61400c59231e9062dc2b5f7d7bf95db1c273d6f"
+  },
+  {
+    "url": "https://kyivindependent.com/ukraines-drone-strikes-force-russias-6-largest-diesel-refineries-to-halt-or-slash-output-reuters-reports/",
+    "retrieved_at": "2026-09-16T18:33:56.286379+00:00",
+    "status": 200,
+    "bytes": 272709,
+    "sha256": "4c43483f55f3b11176e37c23bf5c4c8d0d9c63109db2ea2c1d4515ae599e349f"
+  },
+  {
+    "url": "https://www.yasref.com/about-us",
+    "retrieved_at": "2026-09-16T18:33:56.722635+00:00",
+    "status": 200,
+    "bytes": 155836,
+    "sha256": "217cb553fd29cc465bac528a7e4ee8c40660d1bb3678ea63a154e9c385cd77a3"
+  },
+  {
+    "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-strait-of-hormuz.aspx",
+    "retrieved_at": "2026-09-16T18:33:58.990366+00:00",
+    "status": 200,
+    "bytes": 78225,
+    "sha256": "3fb19afb179ded34e5d1a6793339d7bd3db0c2d1dee4aa79f41cb91dae4a29d9"
+  }
+]
