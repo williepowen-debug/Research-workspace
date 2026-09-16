@@ -1,0 +1,26 @@
+[
+  {
+    "file": "table1.csv",
+    "url": "https://ir.eia.gov/wpsr/table1.csv",
+    "retrieved_at": "2026-09-16T18:28:54.253896+00:00",
+    "status": 200,
+    "bytes": 6598,
+    "sha256": "2327003d0a318a0624b29e461310b3e62a182b11129416a5597d9436ff7b9c8e"
+  },
+  {
+    "file": "table9.csv",
+    "url": "https://ir.eia.gov/wpsr/table9.csv",
+    "retrieved_at": "2026-09-16T18:28:54.541734+00:00",
+    "status": 200,
+    "bytes": 46803,
+    "sha256": "3c511b4c4b291a1cecdf6aab524b92f16d93e5493be841dfc80d4d2613072c7a"
+  },
+  {
+    "file": "summary.pdf",
+    "url": "https://ir.eia.gov/wpsr/wpsrsummary.pdf",
+    "retrieved_at": "2026-09-16T18:28:54.843804+00:00",
+    "status": 200,
+    "bytes": 68990,
+    "sha256": "a821336feb2c579cddd856d4e04536d5e13dad0aa12fd8db0afeb0feebeb8958"
+  }
+]
