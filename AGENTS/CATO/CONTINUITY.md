@@ -8,6 +8,8 @@
 
 **Prior review:** September 15 [PROME follow-up](runs/2026-09-15_2147_prome-latest-session-review.md) examined `prome-9e` through `a45213b81`. Its remaining obligations and author-verification limits are historical context, not the latest session state.
 
+**September 16 closeout correction:** CARL `33dd9874e` has now refreshed NEXUS_BRIEF with retail counterevidence and WQ-182 ratification; that in-flight finding is resolved, not an outstanding repair. PROME's overnight-touch coverage issue and CARL's smaller WalletHub vintage-receipt gap remain. Report appendix preserves timing and Git recovery context. Await Will; no further work assigned.
+
 **Prior closeout:** BRENT/WALTER repair `63b4ff703` confirmed on origin/master; exact paths and five byte-identical renames verified. Post-push WALTER checker PASS, 29/29 deliveries.
 
 **Latest assignment — repaired:** Will authorized fixing all three findings from the [BRENT/WALTER review](runs/2026-09-15_1821_brent-walter-review.md). [Repair receipt](runs/2026-09-15_1904_brent-walter-repair.md): rig reader binds the current column and rejects missing data; five previously triaged handoffs filed byte-identically with additive receipts; WALTER publication record reconciled. All 77 tests pass and the prior missing-cell counterexample now rejects the input. CATO implemented these repairs: subsequent CATO checks are author follow-up, not independent verification. No new grades, trades or sends. Commit/push and post-push check receipt are delivered in-session. Next startup orient and await Will; no further work is assigned.

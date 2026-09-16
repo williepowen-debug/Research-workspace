@@ -56,3 +56,9 @@ SHA-256 of reviewed files:
 CARL paths above are under AGENTS/. Owner files changed during review, so findings apply to these pins and stated commits. Full BOARD backlog, complete market-source validation, all prediction grades, source-authenticity of every stored series, all runtime messages and final publication remain outside the inspected perimeter. Prior CATO repairs are not independently recertified by this pass. CARL read-cap debt is already declared; no unsolicited restructuring undertaken.
 
 Review complete. No repair or owner-message task assigned. Next CATO session: orient and await Will; if assigned follow-up, first check whether owners already corrected these exact findings. Shared working tree still contains PROME's in-flight edits. Commit/push outcome is delivered in-session; no synchronization through another owner's active edits is authorized by this review.
+
+## Closeout correction — newer owner work verified
+
+While CATO's Git operations were awaiting sandbox approval, newer owner commits became visible. CARL `33dd9874e` updates NEXUS_BRIEF after its STATUS commit: lines 15/36 carry the August retail/control counterevidence, and line 28 carries the ratified WQ-182 branch. **Finding 1 is RESOLVED in that newer revision.** It was an in-flight gap, not a completed-session failure; do not present it as still open. No CATO instruction or owner response caused this update. PROME `976534a93` also integrates CARL's result into its morning report. Findings 2 and 3 remain at their inspected sources.
+
+CATO's first commit is `21042d027`; safe-push correctly aborted on remote-only BRENT `3beea13b9`. Subsequent working-tree check is clean; incoming paths are BRENT's two WPSR files and its PROME inbox packet, with no dirty-path overlap. Standard root recovery and final commit/push receipts follow in-session. No claim that the earlier unpushed state persisted after recovery.
