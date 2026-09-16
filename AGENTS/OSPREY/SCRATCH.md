@@ -25,7 +25,7 @@ All inherited OWED IDs preserved in STATUS; 37 dropped from current September ev
 OSP-06 OPEN 45%, 10/15; no prediction due. No new trade proposal or approval request.
 
 ## MAIL STATE
-Commission consumed and moved to processed. WALTER lane clear at check. Self-authored report packets to HAWK, PROME, BRENT and NEXUS; delivery on commit, integration UNKNOWN. No native independent-session doorbell available.
+Commission and late HAWK coordination packet consumed; report receipt ba3898d86 sent to HAWK. WALTER lane clear at check. Self-authored report packets to HAWK, PROME, BRENT and NEXUS; delivery on commit, integration UNKNOWN. No native independent-session doorbell available.
 
 ## PENDING PUSH / GIT
-Pull/push deferred while CARL/FALCON shared work is dirty; own work and inbox packets committed locally. Do not stage or stash other desks. Exact hashes in git history; NEXUS brief pins final STATUS commit.
+Pull/push deferred while other desks’ shared work is dirty; own work and inbox packets committed locally. Do not stage or stash other desks. Exact hashes in git history; NEXUS brief pins final STATUS commit.

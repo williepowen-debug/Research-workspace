@@ -22,7 +22,7 @@ Evidence checked at recipient artifacts, not inferred from a sent packet:
 | Same log, 9/14 18:18:14, SIG-W-20260914-025 | Awaited OSPREY outage scale; matched-contract crack guard | [S2–S3] supply operational detail, but still no national September lost-output total. Price/crack grading stays with owners. |
 | Same log, **9/15 13:11:32**; `AGENTS/BRENT/research/2026-09-15_boot/REPORT.md`, Additional errors | Novorossiysk products correction consumed as attributed owner input; no corresponding September crude entry on current BRENT surfaces; older incidents distinct | Correction **already consumed**, not an outstanding first notification. Fresh external recheck [S5]; no older April/July crude incident relabelled. |
 
-Latest demonstrable theater-baseline consumption: **September 15**, assembled from those specific receipts. This does not certify that BRENT independently verified all underlying sources or subsequently consumed this report.
+Latest demonstrable theater-baseline consumption: **September 15**, assembled from those specific receipts. BRENT's September16 `consumed-baselines-cross-war` packet to HAWK separately confirms its last **direct OSPREY owner packets** were consumed September10; the later September12/15 material arrived through WALTER/PROME. These are different transport baselines, not contradictory dates. This does not certify that BRENT independently verified all underlying sources or subsequently consumed this report.
 
 ## Sourced event and operating-state table
 

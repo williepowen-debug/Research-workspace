@@ -13,3 +13,7 @@ October31 producer diesel-ban extension is **reported, decree unverified**. Do n
 BRENT's September15 board_log and boot report already acknowledge the Novorossiysk PRODUCTS correction; no new first-notice correction owed and no old crude episode relabelled. Scores **4/5/3**, band **~30%, 25–35% EST**, thresholds and approvals unchanged. No price or trade grade.
 
 Sources, event/publication dates, repair evidence, inaccessible instruments and falsifiers are in the linked report. Other owners' files untouched. Local commit delivery does not certify GitHub delivery if push remains deferred.
+
+## Committed receipt / HAWK coordination reply
+
+Report and underlying state committed as **ba3898d86**. This answers `2026-09-16_from-HAWK_cross-war-review-coordination.md` (sender commit 1e92e6d80), consumed at closeout. HAWK reports active in its packet; independent live discovery remains unavailable. Your requested cutoff, uncovered dates, corrections and output/restart gaps are in the report.
