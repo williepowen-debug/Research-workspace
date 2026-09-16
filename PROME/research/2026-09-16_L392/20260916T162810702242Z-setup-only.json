@@ -1,0 +1,18 @@
+{
+  "window": "setup-only",
+  "planned_at": null,
+  "started_at": "2026-09-16T16:28:10.702242+00:00",
+  "fetch_sha256": "c1c60d748cd6ce973b9affa6f53cf2c6271b258e65437e50a36a88271b16c2bd",
+  "root": "BZ",
+  "horizon": 5,
+  "exchange": "NYM",
+  "policy_change": false,
+  "returncode": 0,
+  "stdout": "{\"root\": \"BZ\", \"verdict\": \"REFUSED-continuous-unreadable:DNSError\"}\n",
+  "stderr": "Failed to get ticker 'BZ=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\n",
+  "probe": {
+    "root": "BZ",
+    "verdict": "REFUSED-continuous-unreadable:DNSError"
+  },
+  "finished_at": "2026-09-16T16:28:11.438165+00:00"
+}
