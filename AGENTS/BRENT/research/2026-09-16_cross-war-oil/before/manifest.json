@@ -1,0 +1,52 @@
+[
+  {
+    "file": "STATUS.md",
+    "bytes": 19359,
+    "sha256": "292ce7510fc682f3a7512d192f6dbea4370a2feb0fd7d199736b3a56f6d89582"
+  },
+  {
+    "file": "SCRATCH.md",
+    "bytes": 4857,
+    "sha256": "419c05cae1c11c9146e44da96310232aae32e18d6070331844dba41ef68a85d5"
+  },
+  {
+    "file": "NEXUS_BRIEF.md",
+    "bytes": 23409,
+    "sha256": "c7b45cdc3c35e3823e36233eab4b522102f24eaddc3a07fa930658de2eb38f4a"
+  },
+  {
+    "file": "TRADE.md",
+    "bytes": 25166,
+    "sha256": "ca062a9cc81a34d3198580c490a4cef0810cf7d50e272c6cf09f2cbacfe83be3"
+  },
+  {
+    "file": "demand_destruction/TRACKER.md",
+    "bytes": 178202,
+    "sha256": "45dbe25f2c459871a42ae850a63787fe5a2d071037da1e6edf3055b10ff8e86c"
+  },
+  {
+    "file": "docket/CATALYSTS.tsv",
+    "bytes": 72469,
+    "sha256": "aea714b942aa6a65e5a2e3fe5f394a33f2a012bc7c2de2b4abf7bd01bf328cba"
+  },
+  {
+    "file": "thesis/THESIS.md",
+    "bytes": 15765,
+    "sha256": "e85ad21ccf8ca174220588db3a5d70c16458ec10ad6a68494eca1dd8b569d7dc"
+  },
+  {
+    "file": "thesis/CHANGELOG.md",
+    "bytes": 152932,
+    "sha256": "f9d45fbf4cc503ad57e1081c597e5f39389904bb0843b077d4c2b17647c19c46"
+  },
+  {
+    "file": "thesis/prediction_notes/BRT-29.md",
+    "bytes": 6865,
+    "sha256": "1864f08ff1507b45a9ff3cbd7e3b52e861728d13bff6fbd3bc8a111d51603b9c"
+  },
+  {
+    "file": "CLAUDE.md",
+    "bytes": 31406,
+    "sha256": "191d3ef26e818b1d9ee9382eb23f19f7538d1d220132eec2caf16af5f15b79dc"
+  }
+]

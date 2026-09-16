@@ -1,0 +1,1846 @@
+[
+  {
+    "symbol": "BZX26.NYM",
+    "retrieved_at": "2026-09-16T18:28:52.642044+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 99.52999877929688,
+        "High": 101.70999908447266,
+        "Low": 98.83000183105469,
+        "Close": 101.20999908447266,
+        "Adj Close": 101.20999908447266,
+        "Volume": 51567.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 101.80000305175781,
+        "High": 109.05000305175781,
+        "Low": 100.19000244140625,
+        "Close": 107.62999725341797,
+        "Adj Close": 107.62999725341797,
+        "Volume": 72538.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 109.16000366210938,
+        "High": 110.19000244140625,
+        "Low": 103.4800033569336,
+        "Close": 104.61000061035156,
+        "Adj Close": 104.61000061035156,
+        "Volume": 61285.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 106.88999938964844,
+        "High": 109.77999877929688,
+        "Low": 104.81999969482422,
+        "Close": 105.68000030517578,
+        "Adj Close": 105.68000030517578,
+        "Volume": 69743.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 106.30999755859375,
+        "High": 109.44999694824219,
+        "Low": 105.11000061035156,
+        "Close": 108.75,
+        "Adj Close": 108.75,
+        "Volume": 69743.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 108.55000305175781,
+        "High": 108.58999633789062,
+        "Low": 104.05999755859375,
+        "Close": 105.54000091552734,
+        "Adj Close": 105.54000091552734,
+        "Volume": 47069.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "BZX26.NYM",
+      "shortName": "Brent Crude Oil Last Day Financ",
+      "longName": "Brent Crude Oil Last Day Financ",
+      "regularMarketPrice": 105.54,
+      "regularMarketTime": 1789582727,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "BZF27.NYM",
+    "retrieved_at": "2026-09-16T18:28:52.642811+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 92.0,
+        "High": 93.91999816894531,
+        "Low": 91.81999969482422,
+        "Close": 93.5999984741211,
+        "Adj Close": 93.5999984741211,
+        "Volume": 30500.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 93.91999816894531,
+        "High": 99.04000091552734,
+        "Low": 92.80999755859375,
+        "Close": 98.36000061035156,
+        "Adj Close": 98.36000061035156,
+        "Volume": 46271.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 99.70999908447266,
+        "High": 100.19999694824219,
+        "Low": 94.91999816894531,
+        "Close": 95.69000244140625,
+        "Adj Close": 95.69000244140625,
+        "Volume": 35500.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 97.0,
+        "High": 98.6500015258789,
+        "Low": 95.91999816894531,
+        "Close": 96.8499984741211,
+        "Adj Close": 96.8499984741211,
+        "Volume": 38160.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 97.12999725341797,
+        "High": 99.37999725341797,
+        "Low": 96.72000122070312,
+        "Close": 98.75,
+        "Adj Close": 98.75,
+        "Volume": 38160.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 98.51000213623047,
+        "High": 98.69999694824219,
+        "Low": 95.31999969482422,
+        "Close": 96.58999633789062,
+        "Adj Close": 96.58999633789062,
+        "Volume": 23613.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "BZF27.NYM",
+      "shortName": "Brent Crude Oil Last Day Financ",
+      "longName": "Brent Crude Oil Last Day Financ",
+      "regularMarketPrice": 96.59,
+      "regularMarketTime": 1789582250,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "CLV26.NYM",
+    "retrieved_at": "2026-09-16T18:28:52.643138+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 94.30999755859375,
+        "High": 96.93000030517578,
+        "Low": 93.76000213623047,
+        "Close": 96.05000305175781,
+        "Adj Close": 96.05000305175781,
+        "Volume": 325209.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 96.87999725341797,
+        "High": 104.04000091552734,
+        "Low": 95.37000274658203,
+        "Close": 102.4800033569336,
+        "Adj Close": 102.4800033569336,
+        "Volume": 437382.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 104.31999969482422,
+        "High": 104.45999908447266,
+        "Low": 98.4800033569336,
+        "Close": 100.05000305175781,
+        "Adj Close": 100.05000305175781,
+        "Volume": 399142.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 102.25,
+        "High": 104.94999694824219,
+        "Low": 100.52999877929688,
+        "Close": 101.38999938964844,
+        "Adj Close": 101.38999938964844,
+        "Volume": 413090.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 102.01000213623047,
+        "High": 106.75,
+        "Low": 101.20999908447266,
+        "Close": 105.83000183105469,
+        "Adj Close": 105.83000183105469,
+        "Volume": 413090.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 105.4800033569336,
+        "High": 105.62999725341797,
+        "Low": 100.97000122070312,
+        "Close": 102.22000122070312,
+        "Adj Close": 102.22000122070312,
+        "Volume": 244008.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "CLV26.NYM",
+      "shortName": "Crude Oil Oct 26",
+      "longName": "Crude Oil Oct 26",
+      "regularMarketPrice": 102.22,
+      "regularMarketTime": 1789582733,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "CLX26.NYM",
+    "retrieved_at": "2026-09-16T18:28:52.643657+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 91.30000305175781,
+        "High": 93.58999633789062,
+        "Low": 90.80999755859375,
+        "Close": 92.87000274658203,
+        "Adj Close": 92.87000274658203,
+        "Volume": 182575.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 93.54000091552734,
+        "High": 99.6500015258789,
+        "Low": 92.05999755859375,
+        "Close": 98.4000015258789,
+        "Adj Close": 98.4000015258789,
+        "Volume": 256276.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 99.88999938964844,
+        "High": 100.02999877929688,
+        "Low": 94.79000091552734,
+        "Close": 95.94000244140625,
+        "Adj Close": 95.94000244140625,
+        "Volume": 250434.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 98.0,
+        "High": 100.02999877929688,
+        "Low": 96.29000091552734,
+        "Close": 97.13999938964844,
+        "Adj Close": 97.13999938964844,
+        "Volume": 277161.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 97.4000015258789,
+        "High": 101.69000244140625,
+        "Low": 97.16000366210938,
+        "Close": 100.75,
+        "Adj Close": 100.75,
+        "Volume": 277161.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 100.45999908447266,
+        "High": 100.61000061035156,
+        "Low": 96.05999755859375,
+        "Close": 97.33000183105469,
+        "Adj Close": 97.33000183105469,
+        "Volume": 190308.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "CLX26.NYM",
+      "shortName": "Crude Oil Nov 26",
+      "longName": "Crude Oil Nov 26",
+      "regularMarketPrice": 97.31,
+      "regularMarketTime": 1789582733,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "CLZ26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.118021+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 88.0999984741211,
+        "High": 89.87000274658203,
+        "Low": 87.58999633789062,
+        "Close": 89.31999969482422,
+        "Adj Close": 89.31999969482422,
+        "Volume": 143391.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 89.9000015258789,
+        "High": 94.87000274658203,
+        "Low": 88.48999786376953,
+        "Close": 93.93000030517578,
+        "Adj Close": 93.93000030517578,
+        "Volume": 212632.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 95.0,
+        "High": 95.23999786376953,
+        "Low": 90.61000061035156,
+        "Close": 91.43000030517578,
+        "Adj Close": 91.43000030517578,
+        "Volume": 185347.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 93.01000213623047,
+        "High": 94.66999816894531,
+        "Low": 91.80000305175781,
+        "Close": 92.5999984741211,
+        "Adj Close": 92.5999984741211,
+        "Volume": 197674.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 92.95999908447266,
+        "High": 96.41000366210938,
+        "Low": 92.72000122070312,
+        "Close": 95.51000213623047,
+        "Adj Close": 95.51000213623047,
+        "Volume": 197674.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 95.2699966430664,
+        "High": 95.38999938964844,
+        "Low": 91.55000305175781,
+        "Close": 92.63999938964844,
+        "Adj Close": 92.63999938964844,
+        "Volume": 123358.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "CLZ26.NYM",
+      "shortName": "Crude Oil Dec 26",
+      "longName": "Crude Oil Dec 26",
+      "regularMarketPrice": 92.64,
+      "regularMarketTime": 1789582732,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "HOV26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.133143+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 4.620500087738037,
+        "High": 4.819399833679199,
+        "Low": 4.620500087738037,
+        "Close": 4.801000118255615,
+        "Adj Close": 4.801000118255615,
+        "Volume": 58628.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 4.79640007019043,
+        "High": 5.161900043487549,
+        "Low": 4.707799911499023,
+        "Close": 5.057499885559082,
+        "Adj Close": 5.057499885559082,
+        "Volume": 62190.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 5.148099899291992,
+        "High": 5.166399955749512,
+        "Low": 4.938000202178955,
+        "Close": 4.9593000411987305,
+        "Adj Close": 4.9593000411987305,
+        "Volume": 58861.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 5.019999980926514,
+        "High": 5.19189977645874,
+        "Low": 4.908400058746338,
+        "Close": 4.96150016784668,
+        "Adj Close": 4.96150016784668,
+        "Volume": 62319.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 4.974400043487549,
+        "High": 5.284200191497803,
+        "Low": 4.974400043487549,
+        "Close": 5.26200008392334,
+        "Adj Close": 5.26200008392334,
+        "Volume": 62319.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 5.238900184631348,
+        "High": 5.296800136566162,
+        "Low": 5.122700214385986,
+        "Close": 5.223499774932861,
+        "Adj Close": 5.223499774932861,
+        "Volume": 29827.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "HOV26.NYM",
+      "shortName": "Heating Oil Oct 26",
+      "longName": "Heating Oil Oct 26",
+      "regularMarketPrice": 5.223,
+      "regularMarketTime": 1789582729,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "HOX26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.189505+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 4.474100112915039,
+        "High": 4.639800071716309,
+        "Low": 4.467400074005127,
+        "Close": 4.62470006942749,
+        "Adj Close": 4.62470006942749,
+        "Volume": 48757.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 4.629199981689453,
+        "High": 4.9319000244140625,
+        "Low": 4.536399841308594,
+        "Close": 4.845900058746338,
+        "Adj Close": 4.845900058746338,
+        "Volume": 54656.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 4.917699813842773,
+        "High": 4.9344000816345215,
+        "Low": 4.740799903869629,
+        "Close": 4.7683000564575195,
+        "Adj Close": 4.7683000564575195,
+        "Volume": 55837.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 4.85260009765625,
+        "High": 4.946899890899658,
+        "Low": 4.710999965667725,
+        "Close": 4.755300045013428,
+        "Adj Close": 4.755300045013428,
+        "Volume": 57072.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 4.76039981842041,
+        "High": 5.049900054931641,
+        "Low": 4.76039981842041,
+        "Close": 5.010000228881836,
+        "Adj Close": 5.010000228881836,
+        "Volume": 57072.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 4.992400169372559,
+        "High": 5.0493998527526855,
+        "Low": 4.900000095367432,
+        "Close": 4.985000133514404,
+        "Adj Close": 4.985000133514404,
+        "Volume": 35547.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "HOX26.NYM",
+      "shortName": "Heating Oil Nov 26",
+      "longName": "Heating Oil Nov 26",
+      "regularMarketPrice": 4.985,
+      "regularMarketTime": 1789582729,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "HOZ26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.206682+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 4.304100036621094,
+        "High": 4.447500228881836,
+        "Low": 4.293900012969971,
+        "Close": 4.434599876403809,
+        "Adj Close": 4.434599876403809,
+        "Volume": 30400.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 4.454400062561035,
+        "High": 4.700300216674805,
+        "Low": 4.3516998291015625,
+        "Close": 4.627099990844727,
+        "Adj Close": 4.627099990844727,
+        "Volume": 40823.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 4.68720006942749,
+        "High": 4.707600116729736,
+        "Low": 4.529799938201904,
+        "Close": 4.5584001541137695,
+        "Adj Close": 4.5584001541137695,
+        "Volume": 38587.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 4.61299991607666,
+        "High": 4.700099945068359,
+        "Low": 4.501299858093262,
+        "Close": 4.539999961853027,
+        "Adj Close": 4.539999961853027,
+        "Volume": 37669.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 4.5503997802734375,
+        "High": 4.792600154876709,
+        "Low": 4.547900199890137,
+        "Close": 4.735199928283691,
+        "Adj Close": 4.735199928283691,
+        "Volume": 37669.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 4.717400074005127,
+        "High": 4.772200107574463,
+        "Low": 4.63129997253418,
+        "Close": 4.7032999992370605,
+        "Adj Close": 4.7032999992370605,
+        "Volume": 25621.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "HOZ26.NYM",
+      "shortName": "Heating Oil Dec 26",
+      "longName": "Heating Oil Dec 26",
+      "regularMarketPrice": 4.7033,
+      "regularMarketTime": 1789582729,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "RBV26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.301655+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 3.2925000190734863,
+        "High": 3.2925000190734863,
+        "Low": 3.1809000968933105,
+        "Close": 3.210599899291992,
+        "Adj Close": 3.210599899291992,
+        "Volume": 69373.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 3.228800058364868,
+        "High": 3.4395999908447266,
+        "Low": 3.1944000720977783,
+        "Close": 3.393199920654297,
+        "Adj Close": 3.393199920654297,
+        "Volume": 73349.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 3.446500062942505,
+        "High": 3.4697999954223633,
+        "Low": 3.2980000972747803,
+        "Close": 3.3071999549865723,
+        "Adj Close": 3.3071999549865723,
+        "Volume": 66839.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 3.3371999263763428,
+        "High": 3.4602999687194824,
+        "Low": 3.2964000701904297,
+        "Close": 3.3171000480651855,
+        "Adj Close": 3.3171000480651855,
+        "Volume": 67771.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 3.3494999408721924,
+        "High": 3.477099895477295,
+        "Low": 3.3341000080108643,
+        "Close": 3.4651999473571777,
+        "Adj Close": 3.4651999473571777,
+        "Volume": 67771.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 3.468400001525879,
+        "High": 3.486599922180176,
+        "Low": 3.3891000747680664,
+        "Close": 3.4828999042510986,
+        "Adj Close": 3.4828999042510986,
+        "Volume": 40365.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "RBV26.NYM",
+      "shortName": "RBOB Gasoline Oct 26",
+      "longName": "RBOB Gasoline Oct 26",
+      "regularMarketPrice": 3.4829,
+      "regularMarketTime": 1789582731,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "RBX26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.323401+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 3.0994999408721924,
+        "High": 3.103600025177002,
+        "Low": 3.022200107574463,
+        "Close": 3.048099994659424,
+        "Adj Close": 3.048099994659424,
+        "Volume": 77783.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 3.063999891281128,
+        "High": 3.246000051498413,
+        "Low": 3.031599998474121,
+        "Close": 3.2063000202178955,
+        "Adj Close": 3.2063000202178955,
+        "Volume": 79314.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 3.2458999156951904,
+        "High": 3.274199962615967,
+        "Low": 3.112499952316284,
+        "Close": 3.119800090789795,
+        "Adj Close": 3.119800090789795,
+        "Volume": 68731.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 3.1435999870300293,
+        "High": 3.2578001022338867,
+        "Low": 3.1171998977661133,
+        "Close": 3.137399911880493,
+        "Adj Close": 3.137399911880493,
+        "Volume": 78518.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 3.171999931335449,
+        "High": 3.2669999599456787,
+        "Low": 3.1505000591278076,
+        "Close": 3.2464001178741455,
+        "Adj Close": 3.2464001178741455,
+        "Volume": 78518.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 3.2464001178741455,
+        "High": 3.2465999126434326,
+        "Low": 3.1642000675201416,
+        "Close": 3.2309999465942383,
+        "Adj Close": 3.2309999465942383,
+        "Volume": 55133.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "RBX26.NYM",
+      "shortName": "RBOB Gasoline Nov 26",
+      "longName": "RBOB Gasoline Nov 26",
+      "regularMarketPrice": 3.231,
+      "regularMarketTime": 1789582730,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "RBZ26.NYM",
+    "retrieved_at": "2026-09-16T18:28:53.408976+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 2.924999952316284,
+        "High": 2.934499979019165,
+        "Low": 2.8721001148223877,
+        "Close": 2.896899938583374,
+        "Adj Close": 2.896899938583374,
+        "Volume": 48249.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 2.9084999561309814,
+        "High": 3.0550999641418457,
+        "Low": 2.8766000270843506,
+        "Close": 3.0239999294281006,
+        "Adj Close": 3.0239999294281006,
+        "Volume": 52677.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 3.0560998916625977,
+        "High": 3.080399990081787,
+        "Low": 2.930000066757202,
+        "Close": 2.938999891281128,
+        "Adj Close": 2.938999891281128,
+        "Volume": 39378.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 2.9591000080108643,
+        "High": 3.0495998859405518,
+        "Low": 2.9330999851226807,
+        "Close": 2.952199935913086,
+        "Adj Close": 2.952199935913086,
+        "Volume": 44039.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 2.9621999263763428,
+        "High": 3.0518999099731445,
+        "Low": 2.9595999717712402,
+        "Close": 3.0292999744415283,
+        "Adj Close": 3.0292999744415283,
+        "Volume": 44039.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 3.021399974822998,
+        "High": 3.025700092315674,
+        "Low": 2.9403998851776123,
+        "Close": 2.9851999282836914,
+        "Adj Close": 2.9851999282836914,
+        "Volume": 28702.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "RBZ26.NYM",
+      "shortName": "RBOB Gasoline Dec 26",
+      "longName": "RBOB Gasoline Dec 26",
+      "regularMarketPrice": 2.9852,
+      "regularMarketTime": 1789582731,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "USO",
+    "retrieved_at": "2026-09-16T18:28:53.457702+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 148.8000030517578,
+        "High": 150.0399932861328,
+        "Low": 147.75999450683594,
+        "Close": 149.97000122070312,
+        "Adj Close": 149.97000122070312,
+        "Volume": 5523700.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 154.77999877929688,
+        "High": 158.8800048828125,
+        "Low": 152.47999572753906,
+        "Close": 158.3800048828125,
+        "Adj Close": 158.3800048828125,
+        "Volume": 10095000.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 152.5,
+        "High": 155.02000427246094,
+        "Low": 152.35000610351562,
+        "Close": 154.89999389648438,
+        "Adj Close": 154.89999389648438,
+        "Volume": 6710600.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 159.42999267578125,
+        "High": 160.27000427246094,
+        "Low": 154.77000427246094,
+        "Close": 156.66000366210938,
+        "Adj Close": 156.66000366210938,
+        "Volume": 7691800.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 158.35000610351562,
+        "High": 163.35000610351562,
+        "Low": 158.25999450683594,
+        "Close": 161.86000061035156,
+        "Adj Close": 161.86000061035156,
+        "Volume": 6831400.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 159.30999755859375,
+        "High": 159.36000061035156,
+        "Low": 154.5,
+        "Close": 156.69000244140625,
+        "Adj Close": 156.69000244140625,
+        "Volume": 4686001.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "USO",
+      "shortName": "United States Oil Fund",
+      "longName": "United States Oil Fund, LP",
+      "regularMarketPrice": 156.69,
+      "regularMarketTime": 1789583298,
+      "exchangeName": "PCX",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "VLO",
+    "retrieved_at": "2026-09-16T18:28:53.505898+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 386.3699951171875,
+        "High": 389.17999267578125,
+        "Low": 379.5899963378906,
+        "Close": 388.95001220703125,
+        "Adj Close": 388.95001220703125,
+        "Volume": 3207000.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 393.5400085449219,
+        "High": 393.5400085449219,
+        "Low": 382.1499938964844,
+        "Close": 385.42999267578125,
+        "Adj Close": 385.42999267578125,
+        "Volume": 3157800.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 388.0,
+        "High": 399.260009765625,
+        "Low": 385.3999938964844,
+        "Close": 390.4200134277344,
+        "Adj Close": 390.4200134277344,
+        "Volume": 3055800.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 395.260009765625,
+        "High": 399.760009765625,
+        "Low": 375.1000061035156,
+        "Close": 382.95001220703125,
+        "Adj Close": 382.95001220703125,
+        "Volume": 4832100.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 383.510009765625,
+        "High": 398.510009765625,
+        "Low": 381.2300109863281,
+        "Close": 397.0400085449219,
+        "Adj Close": 397.0400085449219,
+        "Volume": 3616100.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 391.67999267578125,
+        "High": 407.2699890136719,
+        "Low": 388.0,
+        "Close": 406.7699890136719,
+        "Adj Close": 406.7699890136719,
+        "Volume": 2074057.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "VLO",
+      "shortName": "Valero Energy Corporation",
+      "longName": "Valero Energy Corporation",
+      "regularMarketPrice": 406.77,
+      "regularMarketTime": 1789583325,
+      "exchangeName": "NYQ",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "MPC",
+    "retrieved_at": "2026-09-16T18:28:53.554374+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 401.5799865722656,
+        "High": 402.0,
+        "Low": 393.5400085449219,
+        "Close": 399.44000244140625,
+        "Adj Close": 399.44000244140625,
+        "Volume": 1973400.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 405.010009765625,
+        "High": 405.1300048828125,
+        "Low": 392.2200012207031,
+        "Close": 392.4200134277344,
+        "Adj Close": 392.4200134277344,
+        "Volume": 2567800.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 394.989990234375,
+        "High": 409.1099853515625,
+        "Low": 394.239990234375,
+        "Close": 395.92999267578125,
+        "Adj Close": 395.92999267578125,
+        "Volume": 2357900.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 401.0,
+        "High": 409.5,
+        "Low": 388.1600036621094,
+        "Close": 396.45001220703125,
+        "Adj Close": 396.45001220703125,
+        "Volume": 3571300.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 397.69000244140625,
+        "High": 413.2799987792969,
+        "Low": 396.760009765625,
+        "Close": 410.8399963378906,
+        "Adj Close": 410.8399963378906,
+        "Volume": 2875200.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 405.30999755859375,
+        "High": 419.3900146484375,
+        "Low": 402.6600036621094,
+        "Close": 418.55999755859375,
+        "Adj Close": 418.55999755859375,
+        "Volume": 1390658.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "MPC",
+      "shortName": "Marathon Petroleum Corporation",
+      "longName": "Marathon Petroleum Corporation",
+      "regularMarketPrice": 418.56,
+      "regularMarketTime": 1789583325,
+      "exchangeName": "NYQ",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "PSX",
+    "retrieved_at": "2026-09-16T18:28:53.606245+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 262.19000244140625,
+        "High": 263.6600036621094,
+        "Low": 257.92999267578125,
+        "Close": 260.7799987792969,
+        "Adj Close": 260.7799987792969,
+        "Volume": 2181300.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 263.760009765625,
+        "High": 263.760009765625,
+        "Low": 257.8599853515625,
+        "Close": 258.510009765625,
+        "Adj Close": 258.510009765625,
+        "Volume": 2942400.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 258.6300048828125,
+        "High": 265.42999267578125,
+        "Low": 258.5,
+        "Close": 259.4700012207031,
+        "Adj Close": 259.4700012207031,
+        "Volume": 2581100.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 263.1000061035156,
+        "High": 264.8599853515625,
+        "Low": 253.41000366210938,
+        "Close": 257.05999755859375,
+        "Adj Close": 257.05999755859375,
+        "Volume": 3530100.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 258.1199951171875,
+        "High": 266.70001220703125,
+        "Low": 257.9700012207031,
+        "Close": 264.92999267578125,
+        "Adj Close": 264.92999267578125,
+        "Volume": 2877600.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 260.4599914550781,
+        "High": 267.2900085449219,
+        "Low": 259.3550109863281,
+        "Close": 266.69500732421875,
+        "Adj Close": 266.69500732421875,
+        "Volume": 1428064.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "PSX",
+      "shortName": "Phillips 66",
+      "longName": "Phillips 66",
+      "regularMarketPrice": 266.695,
+      "regularMarketTime": 1789583280,
+      "exchangeName": "NYQ",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "BWET",
+    "retrieved_at": "2026-09-16T18:28:53.684737+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 550.0,
+        "High": 605.0700073242188,
+        "Low": 550.0,
+        "Close": 583.3900146484375,
+        "Adj Close": 583.3900146484375,
+        "Volume": 209800.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 629.6099853515625,
+        "High": 650.0,
+        "Low": 619.1599731445312,
+        "Close": 650.0,
+        "Adj Close": 650.0,
+        "Volume": 239500.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 708.0,
+        "High": 743.5700073242188,
+        "Low": 689.0,
+        "Close": 726.9199829101562,
+        "Adj Close": 726.9199829101562,
+        "Volume": 284200.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 773.2100219726562,
+        "High": 804.5599975585938,
+        "Low": 695.0,
+        "Close": 769.719970703125,
+        "Adj Close": 769.719970703125,
+        "Volume": 454300.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 721.47998046875,
+        "High": 744.7150268554688,
+        "Low": 678.489990234375,
+        "Close": 725.97998046875,
+        "Adj Close": 725.97998046875,
+        "Volume": 285100.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 749.0,
+        "High": 794.0,
+        "Low": 750.010986328125,
+        "Close": 775.1799926757812,
+        "Adj Close": 775.1799926757812,
+        "Volume": 177091.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "BWET",
+      "shortName": "Breakwave Tanker Shipping ETF",
+      "longName": "Breakwave Tanker Shipping ETF",
+      "regularMarketPrice": 775.18,
+      "regularMarketTime": 1789583218,
+      "exchangeName": "PCX",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "BDRY",
+    "retrieved_at": "2026-09-16T18:28:53.730145+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 16.100000381469727,
+        "High": 16.389999389648438,
+        "Low": 15.600000381469727,
+        "Close": 16.100000381469727,
+        "Adj Close": 16.100000381469727,
+        "Volume": 110500.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 15.739999771118164,
+        "High": 16.100000381469727,
+        "Low": 15.739999771118164,
+        "Close": 15.920000076293945,
+        "Adj Close": 15.920000076293945,
+        "Volume": 91900.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 16.0,
+        "High": 16.049999237060547,
+        "Low": 15.9399995803833,
+        "Close": 16.010000228881836,
+        "Adj Close": 16.010000228881836,
+        "Volume": 51200.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 15.550000190734863,
+        "High": 15.550000190734863,
+        "Low": 14.779999732971191,
+        "Close": 15.300000190734863,
+        "Adj Close": 15.300000190734863,
+        "Volume": 124900.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 15.449999809265137,
+        "High": 15.449999809265137,
+        "Low": 14.979999542236328,
+        "Close": 15.329999923706055,
+        "Adj Close": 15.329999923706055,
+        "Volume": 111700.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 15.399999618530273,
+        "High": 15.399999618530273,
+        "Low": 15.140000343322754,
+        "Close": 15.259400367736816,
+        "Adj Close": 15.259400367736816,
+        "Volume": 60720.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0,
+        "Capital Gains": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "BDRY",
+      "shortName": "Breakwave Dry Bulk Shipping ETF",
+      "longName": "Breakwave Dry Bulk Shipping ETF",
+      "regularMarketPrice": 15.259,
+      "regularMarketTime": 1789581948,
+      "exchangeName": "PCX",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "DX-Y.NYB",
+    "retrieved_at": "2026-09-16T18:28:53.751100+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 98.80999755859375,
+        "High": 98.9000015258789,
+        "Low": 98.5999984741211,
+        "Close": 98.7699966430664,
+        "Adj Close": 98.7699966430664,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 98.76000213623047,
+        "High": 99.19999694824219,
+        "Low": 98.70999908447266,
+        "Close": 99.08999633789062,
+        "Adj Close": 99.08999633789062,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 99.0999984741211,
+        "High": 99.37000274658203,
+        "Low": 98.97000122070312,
+        "Close": 99.12000274658203,
+        "Adj Close": 99.12000274658203,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 99.0999984741211,
+        "High": 99.73999786376953,
+        "Low": 99.06999969482422,
+        "Close": 99.45999908447266,
+        "Adj Close": 99.45999908447266,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 99.4800033569336,
+        "High": 99.69000244140625,
+        "Low": 99.4800033569336,
+        "Close": 99.6500015258789,
+        "Adj Close": 99.6500015258789,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 99.69599914550781,
+        "High": 99.9990005493164,
+        "Low": 99.53700256347656,
+        "Close": 99.99600219726562,
+        "Adj Close": 99.99600219726562,
+        "Volume": 0.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "DX-Y.NYB",
+      "shortName": "ICE US Dollar Index - Index - C",
+      "longName": "US Dollar Index",
+      "regularMarketPrice": 99.996,
+      "regularMarketTime": 1789582731,
+      "exchangeName": "NYB",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "BZ=F",
+    "retrieved_at": "2026-09-16T18:28:53.850647+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 99.52999877929688,
+        "High": 101.70999908447266,
+        "Low": 98.83000183105469,
+        "Close": 101.20999908447266,
+        "Adj Close": 101.20999908447266,
+        "Volume": 51567.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 101.80000305175781,
+        "High": 109.05000305175781,
+        "Low": 100.19000244140625,
+        "Close": 107.62999725341797,
+        "Adj Close": 107.62999725341797,
+        "Volume": 72538.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 109.16000366210938,
+        "High": 110.19000244140625,
+        "Low": 103.4800033569336,
+        "Close": 104.61000061035156,
+        "Adj Close": 104.61000061035156,
+        "Volume": 61285.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 106.88999938964844,
+        "High": 109.77999877929688,
+        "Low": 104.81999969482422,
+        "Close": 105.68000030517578,
+        "Adj Close": 105.68000030517578,
+        "Volume": 69743.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 106.30999755859375,
+        "High": 109.44999694824219,
+        "Low": 105.11000061035156,
+        "Close": 108.75,
+        "Adj Close": 108.75,
+        "Volume": 69743.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 108.55000305175781,
+        "High": 108.58999633789062,
+        "Low": 104.05999755859375,
+        "Close": 105.54000091552734,
+        "Adj Close": 105.54000091552734,
+        "Volume": 47069.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "BZ=F",
+      "shortName": "Brent Crude Oil Last Day Financ",
+      "longName": "Brent Crude Oil Last Day Financial Futures",
+      "regularMarketPrice": 105.54,
+      "regularMarketTime": 1789582727,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "CL=F",
+    "retrieved_at": "2026-09-16T18:28:53.876558+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 94.30999755859375,
+        "High": 96.93000030517578,
+        "Low": 93.76000213623047,
+        "Close": 96.05000305175781,
+        "Adj Close": 96.05000305175781,
+        "Volume": 325209.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 96.87999725341797,
+        "High": 104.04000091552734,
+        "Low": 95.37000274658203,
+        "Close": 102.4800033569336,
+        "Adj Close": 102.4800033569336,
+        "Volume": 437382.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 104.31999969482422,
+        "High": 104.45999908447266,
+        "Low": 98.4800033569336,
+        "Close": 100.05000305175781,
+        "Adj Close": 100.05000305175781,
+        "Volume": 399142.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 102.25,
+        "High": 104.94999694824219,
+        "Low": 100.52999877929688,
+        "Close": 101.38999938964844,
+        "Adj Close": 101.38999938964844,
+        "Volume": 413090.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 102.01000213623047,
+        "High": 106.75,
+        "Low": 101.20999908447266,
+        "Close": 105.83000183105469,
+        "Adj Close": 105.83000183105469,
+        "Volume": 413090.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 105.4800033569336,
+        "High": 105.62999725341797,
+        "Low": 100.97000122070312,
+        "Close": 102.22000122070312,
+        "Adj Close": 102.22000122070312,
+        "Volume": 244008.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "CL=F",
+      "shortName": "Crude Oil Oct 26",
+      "longName": null,
+      "regularMarketPrice": 102.22,
+      "regularMarketTime": 1789582733,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "HO=F",
+    "retrieved_at": "2026-09-16T18:28:53.920971+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 4.620500087738037,
+        "High": 4.819399833679199,
+        "Low": 4.620500087738037,
+        "Close": 4.801000118255615,
+        "Adj Close": 4.801000118255615,
+        "Volume": 58628.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 4.79640007019043,
+        "High": 5.161900043487549,
+        "Low": 4.707799911499023,
+        "Close": 5.057499885559082,
+        "Adj Close": 5.057499885559082,
+        "Volume": 62190.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 5.148099899291992,
+        "High": 5.166399955749512,
+        "Low": 4.938000202178955,
+        "Close": 4.9593000411987305,
+        "Adj Close": 4.9593000411987305,
+        "Volume": 58861.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 5.019999980926514,
+        "High": 5.19189977645874,
+        "Low": 4.908400058746338,
+        "Close": 4.96150016784668,
+        "Adj Close": 4.96150016784668,
+        "Volume": 62319.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 4.974400043487549,
+        "High": 5.284200191497803,
+        "Low": 4.974400043487549,
+        "Close": 5.26200008392334,
+        "Adj Close": 5.26200008392334,
+        "Volume": 62319.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 4.992400169372559,
+        "High": 5.0493998527526855,
+        "Low": 4.900000095367432,
+        "Close": 4.985000133514404,
+        "Adj Close": 4.985000133514404,
+        "Volume": 35547.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "HO=F",
+      "shortName": "Heating Oil Nov 26",
+      "longName": null,
+      "regularMarketPrice": 4.985,
+      "regularMarketTime": 1789582729,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  },
+  {
+    "symbol": "RB=F",
+    "retrieved_at": "2026-09-16T18:28:54.000068+00:00",
+    "bars": [
+      {
+        "date": "2026-09-09 00:00:00-04:00",
+        "Open": 3.2925000190734863,
+        "High": 3.2925000190734863,
+        "Low": 3.1809000968933105,
+        "Close": 3.210599899291992,
+        "Adj Close": 3.210599899291992,
+        "Volume": 69373.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-10 00:00:00-04:00",
+        "Open": 3.228800058364868,
+        "High": 3.4395999908447266,
+        "Low": 3.1944000720977783,
+        "Close": 3.393199920654297,
+        "Adj Close": 3.393199920654297,
+        "Volume": 73349.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-11 00:00:00-04:00",
+        "Open": 3.446500062942505,
+        "High": 3.4697999954223633,
+        "Low": 3.2980000972747803,
+        "Close": 3.3071999549865723,
+        "Adj Close": 3.3071999549865723,
+        "Volume": 66839.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-14 00:00:00-04:00",
+        "Open": 3.3371999263763428,
+        "High": 3.4602999687194824,
+        "Low": 3.2964000701904297,
+        "Close": 3.3171000480651855,
+        "Adj Close": 3.3171000480651855,
+        "Volume": 67771.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-15 00:00:00-04:00",
+        "Open": 3.3494999408721924,
+        "High": 3.477099895477295,
+        "Low": 3.3341000080108643,
+        "Close": 3.4651999473571777,
+        "Adj Close": 3.4651999473571777,
+        "Volume": 67771.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      },
+      {
+        "date": "2026-09-16 00:00:00-04:00",
+        "Open": 3.2464001178741455,
+        "High": 3.2465999126434326,
+        "Low": 3.1642000675201416,
+        "Close": 3.2309999465942383,
+        "Adj Close": 3.2309999465942383,
+        "Volume": 55133.0,
+        "Dividends": 0.0,
+        "Stock Splits": 0.0
+      }
+    ],
+    "metadata": {
+      "symbol": "RB=F",
+      "shortName": "RBOB Gasoline Nov 26",
+      "longName": null,
+      "regularMarketPrice": 3.231,
+      "regularMarketTime": 1789582730,
+      "exchangeName": "NYM",
+      "expireDate": null,
+      "currency": "USD",
+      "dataGranularity": "1h"
+    }
+  }
+]

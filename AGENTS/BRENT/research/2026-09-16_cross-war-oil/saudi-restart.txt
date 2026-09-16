@@ -1,0 +1,4 @@
+BRENT source-access receipt, September 16 2026 18:34 UTC
+URL: https://www.ttnews.com/articles/saudis-seek-resume-half-key-oil-pipeline-within-days
+Full Bloomberg/Transport Topics article directly retrieved and read. Durable paraphrase: partial pipeline restoration targeted within days, full capability around six weeks; actual throughput unverified. Roughly 20M barrels reportedly sold for September/October pickup outside Hormuz; sales are not completed deliveries. Article onset September 10 differs from September 11 official-notice anchor; no gate clock changed.
+See SOURCE_CHECKS.md and source-retrieval.json for attribution, response status and original raw-response hash. This text is a summary, not the hashed raw response.

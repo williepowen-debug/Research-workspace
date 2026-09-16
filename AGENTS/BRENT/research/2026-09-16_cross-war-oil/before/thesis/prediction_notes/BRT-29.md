@@ -1,0 +1,34 @@
+# BRT-29 — grading notes and history
+
+Reconciled 2026-09-08. Read this WHOLE note with all TSV fields BEFORE grading or revising this prediction. Claim, confidence, timeframe and outcome fields remain canonical in PREDICTIONS.tsv.
+
+Premise window closed at six of six qualifying prints per current STATUS; older 1-of-1 note is history. August 31 mechanism sub-obligation needs its separate evidence reconciliation; September 25 threshold / September 30 final boundaries remain. No early final grade.
+
+
+## September 8 catch-up — provenance and bounded mechanism review
+
+The audit's numeric-conflict description is superseded by registration-history review. Both clauses were present in the July 21 registration commit `995a35bdfcc62d6ac24833af0a09d01af2c502b1` and all eight inspected revisions. The `never ≤−1.5%` invalidation is a sufficient failure condition, not an alternate success threshold. T still requires `≤−3.0%` by the named September 25 survey print. A −2.0% reading does not pass T merely because it avoids that invalidation. No canonical letter, confidence, grade or date changed. All contamination and mechanism clauses still apply.
+
+**August mechanism evidence, reviewed after its elapsed deadline:** EIA primary workbooks show jet four-week YoY below gasoline in two of six post-registration survey weeks (August 14 and 21), but not August 28; two of three mid-August onward observations. Early-shock weeks retain LESSONS #9's caveat. This is intermittent leadership, not continuous or end-window leadership. The letter's “during” does not specify a duration/count; do not invent one after observing the data.
+
+Eight issuer/SEC releases were inspected. Five candidates need more precise announcement/cause/individual-carrier evidence; three qualifying additional carriers are not yet established. This is bounded incomplete research, not proof that zero qualifying announcements occurred. Airspace-only suspensions, old cuts reprinted in August, aggregate seats and multiplying a parent group into subsidiaries cannot fill the count. The August 31 sub-obligation remains explicitly unresolved; final September 30 status remains OPEN. [Full tally, dates, exclusions, arithmetic and remaining work](../../research/2026-09-08_catchup/REPORT.md).
+
+## September 8 batch 2 — candidate follow-up
+
+Completed the five-candidate source follow-up to available evidence. AF-KLM has a supported July 30 group-level fuel/economics announcement, but it is not three distinct named carriers. Lufthansa’s identifiable fleet package dates to April 16; Air NZ’s annual-results narrative does not establish a new August decision. Southwest’s required cause and IAG’s separate non-baseline carrier/cause remain unestablished. Recovered IAG issuer transcript and Air NZ issuer May filing; no inference from suspensions, old decisions or subsidiary multiplication. Three qualifying further carriers remain NOT ESTABLISHED by bounded research, not proven zero and not an early final MISS. M-duration ambiguity and all original scoring clauses remain. [Candidate-by-candidate dispositions and source dates](../../research/2026-09-08_batch2/REPORT.md).
+
+## September 9 — two additional candidate checks
+
+Ryanair's fuel-linked traffic reduction was announced September 2, after the August 31 M deadline; July 20 guidance retained the higher target. Norse's August 7 fuel-linked July capacity report describes continuing reductions already evident in the July 8 release; no distinct eligible post-baseline decision established. July 31 IndiGo ACMI redelivery is a separate event, not proof of a new own-network fuel cut. AF-KLM group event remains supported; three further eligible named carriers remain unestablished by bounded research, not proven zero. M unresolved; no final grade, date, probability or eligibility-rule change. September 7 retail is outside the already-closed premise window. [Sources and dispositions](../../research/2026-09-09_squeeze-review/REPORT.md#5-bounded-airline-and-historical-credit-dispositions).
+
+## September 15 — additional Asian-carrier coverage
+
+AirAsia's August 13 issuer release supplies a new group-level Q3-cut candidate. Thai AirAsia's August 14 statement reports earlier Q2 cuts and ongoing restraint; Philippines' August 8 statement does not date a new cut; Air India's August operating cuts were announced May 13. No subsidiary multiplication or announcement-date substitution. Three eligible additional named carriers remain unestablished; M remains unresolved, final OPEN and all registered conditions unchanged. [Dated issuer sources and dispositions](../../research/2026-09-15_workdown/REPORT.md#brt-29-m--additional-candidate-review-still-not-enough-to-grade).
+
+## September 15 — second review of named-carrier eligibility
+
+KLM issuer statement supplies no distinct cut. Lufthansa has a newer group outlook reduction (the earlier April-package exclusion was too broad if applied to all group guidance), but its named Eurowings fuel cut is H1 history. Malaysia CEO confirms cuts/cause but dates them only to preceding months. Wizz reports growth/reallocation. M remains INDETERMINATE/unresolved; no final mark or letter change. [Complete candidate/source dispositions](../../research/2026-09-15_backlog-review/AIRLINE_REVIEW.md).
+
+## Original Notes, preserved verbatim
+
+PRE-REGISTERED 2026-07-21 (before post-closure data; pre-registration discipline). Calibration anchors applied per header: consumer-transmission ~55 pct (BRT-08 lesson - EV-era inelasticity; LESSONS #12 timeline stretch 28-32wk from onset; sustained-$90+ onset ~7/13 so <= -3.0 pct by late-Sep is ~11wk = aggressive-but-testable). -5 pct deliberately NOT reused (unreached last cycle, peak -2.58 pct). Aviation lead ALREADY firing at registration (Virgin Atlantic 5 routes/-14 pct US 7/15; Aer Lingus 4 routes/500 jobs Iran-war-cited 7/16; Spirit Ch.7 May precedent). LESSONS #9: EIA product-supplied misleads wks 1-4 of a shock (wholesale stockpiling) - do NOT grade off late-July prints; first clean reads ~mid-Aug. Cross-refs: BRT-16 (macro chain), TRACKER Path-B, CARL (consumer end), GS 7/20 (demand-elasticity assumption higher this cycle).  ||| 🔎 PREDICTIONS SWEEP 2026-07-30 (Will-directed; same 'can this even fire / can it resolve' tests applied to the gates today). CLAIM AND CONFIDENCE DELIBERATELY UNCHANGED — retroactively editing either is a calibration sin; STATUS and NOTES only. ✅ SOUND — no defect found. Premise/mechanism/threshold are cleanly separated, the threshold is REACHABLE (gasoline <=-3.0% YoY 4wk = 18.4% of weeks ex-COVID; the 29.6% full-sample figure is COVID-contaminated and was de-contaminated before use), and it carries an explicit no-grade-off-July-prints guard (LESSONS #9). PREMISE TRACKING: GASREGW >=$4.00 needs 4 of 6 prints 7/27-8/31 — 7/27 $4.096 = 1 of 1 so far.
