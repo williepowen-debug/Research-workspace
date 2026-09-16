@@ -131,3 +131,15 @@ This record drafted the pointer into **§Grading & re-marking**. That is WRONG a
 ⛔ **Not carried in prose where they will rot.** Registered as a DOCKET row for ONE bounded follow-up pass — ⚠️1 · ⚠️2 · ⚠️4 · ⚠️6 are the load-bearing four (meaning · usability · drift · provenance); ⚠️3/5/7 ride along. ⚠️8 was recovered and fixed in §7/§8; it is excluded from the remaining L400 pass. This conclusion supersedes the earlier false "permanently incomplete" statement (CATO reconciliation, 2026-09-15).
 
 ⚠️ **Honest summary of this amendment's quality: a 301-byte bullet drew 2 ❌ at plan and 8 ⚠️ at result. Both gates paid for themselves — the plan read caught a false scope claim that had already reached Will and a 6× cost overrun against the figure he approved on.** The residue is real and the bullet is live and correct on every claim that was checked.
+
+## L400 bounded rewrite — September 16 plan
+
+Will authorized priorities 1–5, including this bounded repair. Replace only the installed SL-5 bullet, same or smaller byte count, with:
+
+- **For fixed-precision series, complete the tie-set row in `AGENTS/DAEDALUS/BLUEPRINTS/SPEC_LETTER_STANDARD.md` §SL-5 Registration form.** No re-grade. Flagging-sweep record: DOCKET L258. WQ-253, 2026-09-15: `PROME/proposals/2026-09-15_L395-sl5-transplant-RULED.md`.
+
+Acceptance: precision belongs to the series; explicit complete instruction; no copied field count; source and ruling pointers resolve; L258 described as record, not a newly owed sweep. This extends WQ-162 via SL-5's existing declaration; no new duty or grading change. Preserve every other canon byte. Four load-bearing flags fixed by rewrite; overlap with WQ-162 remains evident from adjacency and this record, deliberately not repeated in the byte-limited bullet. Plan/result read required. Measure old/candidate using measure.py before transplant.
+
+L400 plan read: `/root/coldread_l400_plan`, 0 blocking, 3 advisory. Four load-bearing flags pass; measure.py confirms candidate below installed size on equal newline basis. Declared residue: compressed inequality scope is supplied by destination SL-5; §SL-5 and Registration form are separate headings; provenance omits the house-form RATIFIED Will phrase. WQ-162 overlap remains intentionally carried. Single-line transplant performed; all other bytes verified unchanged against the prior committed source. Result read pending.
+
+L400 result read: 0 blocking; `PROME/reports/2026-09-16_L400-result-coldread.md`. Candidate exact, all other canon bytes preserved. IMPLEMENTED / TESTED by exact diff and measure.py / INDEPENDENTLY VERIFIED. Advisory residues above remain; L400 bounded obligation resolved, no new duties.
