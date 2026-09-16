@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged; September fuel squeeze strengthened, August spending rebounded and issuer credit is mixed.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-16 key-file audit; statement18:02UTC/SEP18:18UTC | **STATUS commit:** `011901bac`
+**As of:** 2026-09-16 16:13 ET | **STATUS commit:** `32d92aeb5`
 **Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -70,3 +70,5 @@ Earlier brief retained verbatim in `archive/NEXUS_BRIEF_before_2026-09-16_news.m
 **Git delivery:** research011901bac PUSH CONFIRMED by root safe-push/fresh fetch. Prior blockage was integrated by another session. CARL performed no pull/rebase/autostash; other desks' dirty files remain untouched. This final brief pins the completed research commit.
 
 **Session closed at Will’s direction, September16 ~19:15UTC:** no fresh market evidence added after the audit cutoff. Next research action by September17 is the unreviewed Fed presser; August ABS and other documented gaps remain open. Consistency0hard/6soft, roadmap index clean, named corrections0unreceipted; existing approvals preserved. Audit and final audit handoff already push-confirmed; this bookkeeping closeout is committed separately.
+
+**Procedure review:** CARL charter/template corrected; local push delegates to root (9 isolated checks passed). Report: `domain/sources/2026-09-16_closeout-procedure-review.md`. No new market evidence, score or approval changes. This timestamp marks handoff review, not a fresh market pull. Existing MEMORY/read-cap and retirement obligations remain incomplete; overall closeout execution is PARTIAL even after verified delivery. Other agents’ procedures were read only.
