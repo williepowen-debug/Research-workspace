@@ -1049,7 +1049,17 @@ def check_publication_prereqs():
            "add the row to PROME/registry/WQ_EXPLAINERS.tsv at Pre-closeout, not at the render")
 
 
+def check_orch_closeout():
+    run_script(ADVISE, "orchestrated touch closeout evidence (WQ-249)",
+               [sys.executable, "PROME/tools/orch_closeout.py"],
+               "Enumerate ORCH_LOG touches, including read-only helpers. Request closeout via the actual "
+               "runtime before handoff; record evidence in notes. UNKNOWN is not DARK or a receipt. "
+               "Reconcile --expected-key values from the tool record with --inventory-complete; "
+               "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.")
+
+
 def mode_boot():
+    check_orch_closeout()
     run_capability("machine credentials (env_doctor)",
                    [sys.executable, "scripts/env_doctor.py", "--quiet"],
                    "PROME/MACHINE_LOCAL.md",
@@ -1132,6 +1142,7 @@ def mode_boot():
 
 
 def mode_closeout(tier=None):
+    check_orch_closeout()
     guard(check_review_manifest, tier)
     guard(check_publication_prereqs)
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
