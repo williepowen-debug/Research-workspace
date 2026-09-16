@@ -1,24 +1,23 @@
 # CARL SCRATCH
-**Last session:** 2026-09-16 ~19:15 UTC
-**Type:** Will-directed session closeout; no new research or model changes. Audit evidence cutoff remains statement18:02UTC/SEP18:18UTC.
+**Last session:** 2026-09-16 19:57 UTC
+**Type:** Will-directed closeout-procedure review and bounded correction; no new market research.
 **PRIORITY-1:** By September17, review the September16 Fed press conference and complete the open docket disposition; statement/SEP already integrated. Presser remains UNREVIEWED, not unavailable.
 
 ## CHANGES SINCE LAST SESSION
 Closeout only; no new market/source refresh. BOARD scan and named-correction checks rerun; no claim of fresh market coverage. Audit findings below remain the retained evidence.
 
 ## WHAT HAPPENED
-1. Re-ran mandatory consistency, BOARD assertion, roadmap-index, named-correction and weekday checks.
-2. Preserved open work and approvals; no other session files staged or edited.
-3. Closed the handoff after the completed audit described below.
-
-Audit report: `domain/sources/2026-09-16_key-file-audit.md`; primary artifacts and retrieval limits in `research/2026-09-16_key-file-audit/`. Prior documents verbatim in `archive/2026-09-16_before-key-file-audit.md`, checksum receipt retained. KB478–486 added;KB476 provenance corrected;KB120/121 marked historical STALE, not blanket superseded by partial replacement.
+1. Compared CARL with root rules, PROME, BRENT, SAM and NEXUS schema; report `domain/sources/2026-09-16_closeout-procedure-review.md`.
+2. Corrected CARL charter and template: BOARD assertion wiring, mirror path, retirement exceptions, byte-budget checks, conditional root checks, delivery/disposition language and honest partial-closeout reporting.
+3. Replaced unsafe local push fork with root delegate;9 isolated cwd/argument/exit-code checks passed.
+4. Preserved approvals, model and unresolved research. Did not clean child ledgers, reorganize memory or declare the unfinished retirement review complete.
 
 ## STATUS CHANGES
-- Fed3.75–4.00%,12–0;2026 funds median4.1%. Statement/SEP fail easing leg; presser not reviewed.
-- NFIB earnings−19%net, ending July improvement; mortgage totalDQ4.37%SA, slightly lower QoQ.
-- Wheat42.650M/corn96.777M planted acres; revisable estimates, not locked intentions.
-- Correct full-thesis kill usesFLOW≥100bp cumulative decline;16bp does not meet floor. Stock rule shadow remains.
-- Six prediction-mirror timeframes fixed; no canonical prediction change. CRL06 already closed, no new resolution.
+| Item | Change |
+|---|---|
+| Procedure | Stale instructions corrected; review linked from STATUS/ROADMAP |
+| Market data/model | Unchanged; last audit evidence remains individually dated |
+| Closeout assessment | Prior “complete” claim corrected to partial; housekeeping debt persists |
 
 ## NEXT SESSION SHOULD
 ### IMMEDIATE (24hrs)
@@ -83,5 +82,19 @@ This cursor assertion is not the225-ID backlog or evidence of substantive review
 ## VALIDATION
 Consistency gate0hard/6soft (down from12 after mirror fixes); roadmap generated index matches; weekday clean;0 unreceipted named corrections. Consumer scans find no external old acreage values. Own historical archive and dated CRL10 original rationale remain history;KB120/121 now STALE with updated acreage pointers. No alteration of as-made prediction history. Read-cap gate remains non-clean due to MEMORY; STATUS/ROADMAP below budget but above rotation stop target. Retirement review remains incomplete; no source deleted/moved on an unproven reference check.
 
-## GIT CLOSEOUT
+## PRIOR GIT DELIVERY
 Audit commit011901bac PUSH CONFIRMED by root safe-push and fresh fetch. The earlier non-FF obstruction was integrated by another session; CARL performed no pull/rebase/autostash. Other sessions' working files remain untouched. Final audit handoff dd71d926b also PUSH CONFIRMED. This closeout adds only handoff bookkeeping; its delivery is verified by root safe-push after commit. Other desks have active staged/working changes; no pull or global index operation authorized or attempted.
+
+## CLOSEOUT RECEIPT
+| Obligation | Result | Evidence / remaining action |
+|---|---|---|
+| Consistency | PASS,0hard/6existing soft | No probability/trigger changes |
+| BOARD and roadmap | PASS within stated scope | Existing assertion above; receipt coverage is not substantive review |
+| Read cap | FAIL | MEMORY over32550B; STATUS/ROADMAP above rotation target |
+| Retirement | INCOMPLETE | Prior reference review unfinished; no source moved on an unproven eligibility claim |
+| Root conditional checks | Scoped | Orphan check leaves foreign work alone; weekday checked; ledger nudge explains process-only STATUS pointer; no market figure superseded or new auto-memory this turn |
+| Push delegate | PASS |9 isolated cases, syntax check; root owns remote verification |
+| Approvals | Preserved | WQ227 explicitly wired; no reapproval/new tiers |
+| Delivery | Pending this turn's scoped commit/push | Prior audit commits and closeout e1a24c4e1 already push-confirmed |
+
+**Overall procedure execution remains PARTIAL because mandatory hygiene obligations remain unresolved.** Native Claude doorbell unavailable; no external dispatch claimed. Procedure corrections do not retroactively satisfy previous omissions.

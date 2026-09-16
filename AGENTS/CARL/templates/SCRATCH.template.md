@@ -3,7 +3,7 @@
 Every session rewrites `SCRATCH.md` using the structure below. Boot reads SCRATCH first, so the template is optimized for next-session triage in <30 seconds.
 
 **Enforcement rules (also referenced in `CLAUDE.md` § SPAWN PROTOCOL step 14):**
-- **PRIORITY-1 must be future-verifiable** — never carry forward event references without checking the date is still in the future.
+- **PRIORITY-1 names a dated next action.** A past event awaiting review is UNREVIEWED, with a future review date; do not erase it because the release date passed.
 - **IMMEDIATE items must have dates.** If a date has passed, remove or reclassify.
 - **Outbox/inbox summaries: one line per signal** so the next session can triage without reading files.
 - **Workbook health:** run `wc -l` and `stat` on TSVs to populate.
@@ -50,25 +50,35 @@ Every session rewrites `SCRATCH.md` using the structure below. Boot reads SCRATC
 
 ---
 
-## OUTBOX ([N] signals, awaiting HERMES)
+## OUTBOX ([N] items; delivery state)
 | File | To | Summary |
 |------|----|---------|
-[One row per outbox signal with one-line summary.]
+[One row per item: routed recipient, authored/committed/delivered state, remaining acknowledgment if required. SIGNAL routing is WALTER; analysis/packets follow active authority. A brief is not proof of dispatch.]
 
-## INBOX ([N] items, unprocessed)
-| File | From | Summary |
+## INBOX ([N] live items; disposition)
+| File | From | Disposition / next action |
 |------|------|---------|
-[One row per inbox item with one-line summary.]
+[One row per live item: unread, reviewed, acted, or deferred with date. Presence alone is not unread status. Archive consumed delivery copies per CLAUDE.md; preserve pending work.]
 
 ---
 
 ## WORKBOOK HEALTH
 | TSV | Rows | Last Modified | Note |
 |-----|------|---------------|------|
-[One row per workbook TSV. Flag anything >7 days as stale.]
+[One row per workbook TSV. Mtime is a filesystem timestamp, not data freshness: distinguish FROZEN/reference, live data date, and event-driven next resolver. Do not mark frozen ledgers stale merely for age.]
 
 ---
 
 ## URGENT
 [Max 3 bullet points. Only truly time-sensitive items.]
+
+## CLOSEOUT RECEIPT
+| Obligation | Result | Evidence / remaining action |
+|---|---|---|
+| Required checks | PASS / FAIL / NOT RUN, per check | Exact result and scope; consistency alone does not certify full closeout |
+| Conditional work | Complete / not applicable / incomplete | Include retirement review, consumer propagation and memory when applicable |
+| Approvals | Preserved | Existing approvals and unresolved decisions; no reset |
+| Delivery | Local commit / remote verified / blocked | Commit and fresh-fetch receipt; no bare-Pushed claim |
+
+[Copy actual WQ-227 BOARD assertion. Keep receipt count distinct from backlog and substantive review. Name unavailable capabilities and outstanding mandatory failures. A safely committed session may still have a PARTIAL closeout.]
 ```

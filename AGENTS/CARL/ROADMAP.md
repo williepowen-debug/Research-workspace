@@ -96,6 +96,8 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 
 ## RECENTLY RESOLVED
 
+**September16 closeout procedure repair:** corrected charter/template drift and replaced local push fork with a root delegate; no new tiers or approvals. Comparison and tests: `domain/sources/2026-09-16_closeout-procedure-review.md`. Existing MEMORY/retirement debt remains open.
+
 **2026-09-16:** Key-file audit corrected the live kill-rule mirror, retired GFC comparator, CRL-06 closure, V2 monitor coverage and obsolete estimates. NFIB/USDA/ATTOM/MBA refreshed; Fed statement/SEP integrated. Scores and prediction letters unchanged. Report: `domain/sources/2026-09-16_key-file-audit.md`.
  → ROTATED
 

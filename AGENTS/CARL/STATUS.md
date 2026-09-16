@@ -138,3 +138,5 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain). **Independence 
 **Fuel pressure strengthened; August spending and issuer evidence do not show a synchronized consumer collapse.** Retail's rebound survives exclusion of autos, gasoline and nonstore sales. All three aggregate trade-down tests remain against the mechanism. Capital One deteriorated sequentially; Bread improved YoY in both delinquency rate and delinquent dollars. Keep the cohort limitation, but do not use it to dismiss counterevidence.
 
 The unsourced **+83% household credit-card debt** chart is not verified: its proposed WalletHub endpoint has a different date/basis; comparable retained arrays show +15.12% nominal, +5.44% inflation-adjusted Q4-2022→Q4-2025. Original provenance remains INDETERMINATE. No score or probability change. [Primary links and arithmetic: `domain/sources/2026-09-16_news-catchup.md`; KB-CARL-476.]
+
+Procedure review (no data change): `domain/sources/2026-09-16_closeout-procedure-review.md`.
