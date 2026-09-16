@@ -1,0 +1,105 @@
+{
+  "source": "/home/willi/.codex/sessions/2026/09/16/rollout-2026-09-16T10-22-18-01a0aa98-d7c1-7911-b928-40846f88e3e0.jsonl",
+  "caller_thread": "01a0aa98-d7c1-7911-b928-40846f88e3e0",
+  "scope": "own session tool-call metadata only; no encrypted message content copied",
+  "events": [
+    {
+      "timestamp": "2026-09-16T16:19:17.830Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l247_plan",
+      "call_id": "call_ezjroZnQ4LP7KlYr6VBiJlrh",
+      "source_line_sha256": "5766c1690078abad904b3a8f8562d1ed96abe2c035c222b8a1992b649a388db2"
+    },
+    {
+      "timestamp": "2026-09-16T16:20:33.910Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l378_plan",
+      "call_id": "call_4uoYwCgEmqGuDToOVjcP5j35",
+      "source_line_sha256": "588b040eacc27f17803868646921f3fc68c6d939c0c4373dde28b63bfc706bf1"
+    },
+    {
+      "timestamp": "2026-09-16T16:21:56.382Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l400_plan",
+      "call_id": "call_G1u7q72zIVW9uLZq1YogcQBE",
+      "source_line_sha256": "5e331da4e87f9a6386b14b883c76ef41b3c749ca1242408e3180c35c3b37caae"
+    },
+    {
+      "timestamp": "2026-09-16T16:22:01.759Z",
+      "tool": "followup_task",
+      "task": "coldread_l247_plan",
+      "call_id": "call_ckYfiFD5YuaW5ZE68YKTV74f",
+      "source_line_sha256": "a62bdb4513f936af424f66500469e01ec388d59e6279fd5dfd63677be395a22c"
+    },
+    {
+      "timestamp": "2026-09-16T16:22:07.149Z",
+      "tool": "followup_task",
+      "task": "coldread_l378_plan",
+      "call_id": "call_dG666xqMWWbVCjOafktoKqXf",
+      "source_line_sha256": "184cf9c2f22f648823a38d1dbda905df3ac137d37d595f0cf80488e94ed8022a"
+    },
+    {
+      "timestamp": "2026-09-16T16:23:17.554Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l247_result",
+      "call_id": "call_nG34p0svhbob2BJPRn5apidS",
+      "source_line_sha256": "3e76996a5e5c1902d2ef1492adc5c99a150c012059f71e59568a3f52ad56c0ba"
+    },
+    {
+      "timestamp": "2026-09-16T16:26:00.519Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l378_result",
+      "call_id": "call_vxmP18JmgSSc0kXJP92heeF5",
+      "source_line_sha256": "b64807f312bab34d59b978d6fd83e3f4f6d19d94b5eafddc9b1bc835d31fd6ce"
+    },
+    {
+      "timestamp": "2026-09-16T16:26:33.956Z",
+      "tool": "spawn_agent",
+      "task": "coldread_l400_result",
+      "call_id": "call_XZR8INicX1yCCf4PJAyrnJvA",
+      "source_line_sha256": "c7b8a145a362de86eb78b313b5da5054d59e767cd29bcae9534486d6fd2edeec"
+    },
+    {
+      "timestamp": "2026-09-16T16:44:04.412Z",
+      "tool": "followup_task",
+      "task": "coldread_l247_result",
+      "call_id": "call_iM2qk37TCEgTG4BNE3WV8BX2",
+      "source_line_sha256": "1bfb8212fb833fe2af40681c83bfc0d5d925f4aaa71985cf98a3e070ce6a847d"
+    },
+    {
+      "timestamp": "2026-09-16T16:44:19.512Z",
+      "tool": "followup_task",
+      "task": "coldread_l378_result",
+      "call_id": "call_jwXuFvldTcIKpyMyJGZI61IN",
+      "source_line_sha256": "b8d1c3606596b8c02e7a3cb8bf54d04a9225ee3f48845f9e6d5b8aba6232547d"
+    },
+    {
+      "timestamp": "2026-09-16T16:44:25.358Z",
+      "tool": "followup_task",
+      "task": "coldread_l400_plan",
+      "call_id": "call_PfFb0hzM5WHXXxEmetI1s56S",
+      "source_line_sha256": "e8fd863356cc02e92b93cf00424e664e7abe2d07fb31d28411ee29fa35f81e41"
+    },
+    {
+      "timestamp": "2026-09-16T16:44:36.841Z",
+      "tool": "followup_task",
+      "task": "coldread_l400_result",
+      "call_id": "call_PPf6VLoLe6q9zrluhKekx5UV",
+      "source_line_sha256": "6cc030d43888b109f4185f956db5e7cdc08a1d401cf08357cb813c2c1eeef778"
+    },
+    {
+      "timestamp": "2026-09-16T16:46:43.328Z",
+      "tool": "spawn_agent",
+      "task": "completion_execution",
+      "call_id": "call_ibKb4ac9uXpAjSdDX5LXJLSs",
+      "source_line_sha256": "be6df9936a47253bbdf8282ad1d812a624655a93b743692c7b1b593ff75858ef"
+    },
+    {
+      "timestamp": "2026-09-16T16:48:19.474Z",
+      "tool": "followup_task",
+      "task": "completion_execution",
+      "call_id": "call_D309r6cQPb7xqkqoCS440L2t",
+      "source_line_sha256": "d9e5933e6cf507b539f0a2d8be5a48fd6dbb9c79cadb76eb7dcbec54636fd96b"
+    }
+  ]
+}

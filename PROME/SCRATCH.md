@@ -8,7 +8,7 @@
 
 **First:** read `PROME/WILL_QUEUE.md` OPEN rows — **WQ-230 and WQ-229 are PAST their 9/15 needed-by**, and WQ-187 / WQ-243 / WQ-228 are still past theirs. All want Will's hands or word; none blocks PROME work.
 
-**PROME's own next lane, in order:** **L247** (KERNEL three-outcome projection vocabulary — PROME owes the **F3** source_masses/normalization spec and **F8** carrier reconciliation; RED owes the F1 v0.3 recheck. ⛔ Its own rule: **spec letter first, code second; no code before the required review passes**) → **L400** (ONE bounded fix pass on the SL-5 pointer, 7 flags, ⚠️8 already fixed) → **L378** (mechanize the WQ-249 spawn-closeout ask; acceptance conditions written FIRST per WQ-229).
+**PROME's own next lane (September 16 checkpoint):** L247 F3/F8 specification delivered, named RED/DAEDALUS approval still owed before code; L400 and L399 resolved; L378 reader implemented/tested/independently verified, runtime inventory/transport fulfillment remains open. L392 bounded collector running for later windows, calibration still open. Resume and evidence: `PROME/reports/2026-09-16_morning-work.md`; canonical states remain in DOCKET. Event brief and WQ-213 reassessment delivered; no fill proposed on sampled green-refiners/red-oil tape.
 
 **CATO is a Will-directed manual Codex/Astra reviewer**, home `AGENTS/CATO/`; its CLASSIFICATION PENDING roster row excludes automatic launch and signal routing. Launcher inspection and commit attribution are implemented. Freshness now labels its activity/messages as manual inspection; this is not launch clearance. Permanent classification and RAV succession remain deferred. Repair receipt: `AGENTS/CATO/runs/2026-09-15_1525_prome-repair.md`.
 
