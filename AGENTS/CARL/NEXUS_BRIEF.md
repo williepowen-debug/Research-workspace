@@ -3,15 +3,16 @@
 **Status:** 🔴 53/70 unchanged; September fuel squeeze strengthened, August spending rebounded and issuer credit is mixed.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-16 12:49 ET | **STATUS commit:** `905594e5b`
+**As of:** 2026-09-16 key-file audit; statement18:02UTC/SEP18:18UTC | **STATUS commit:** `011901bac`
 **Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
 
 ## CROSS-DOMAIN
 
-**SENDING:** Analysis available in CARL's canonical report; these are synthesis routes, not claims of new packet delivery or acknowledgment. Primary evidence/limits: `domain/sources/2026-09-16_news-catchup.md`.
+**SENDING:** Analysis available in CARL's canonical report; these are synthesis routes, not claims of new packet delivery or acknowledgment. Primary evidence/limits: `domain/sources/2026-09-16_key-file-audit.md` and the prior news report. No new external packet sent.
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / HENRY | September16 Fed25bp hike to3.75–4.00%,12–0;2026 funds median4.1% | 🔴 | Statement/SEP do not meet V12 easing leg; presser remains unreviewed. Score5 unchanged. |
 | PROME / RED | August retail/control rebound; all three T1 trade-down tests remain against | 🟠 | Weakens imminent aggregate retrenchment. CARL independently reproduced PROME's control calculation at Census; no bottom-cohort verdict. |
 | REGINALD | August COF delinquency worsens sequentially; SYF adjusted NCO flat; Bread delinquent dollars fall YoY | 🟠 | Mixed issuer evidence; survivor selection alone cannot explain Bread's improvement. No CRL-20/21 quarterly resolution. |
 | BRENT / HAWK / PROME | September16 AAA regular $4.3672, diesel $6.3103 | 🟠 | Pump-side pressure; $4.50 not crossed. CRL-08 touch/sustained basis still awaits Will; registered lag unchanged. |
@@ -33,6 +34,7 @@
 
 ## VIEW
 
+- Key-file refresh: NFIB earnings−19%net versus−16%July; MBA totalDQ4.37%SA (−7bpQoQ); July FL foreclosure rate1/2232. Wheat42.650M/corn96.777M planted estimates replace March intentions. Mixed consumer evidence; source/period limitations in audit report.
 - Fuel pressure is stronger, but August retail is meaningful counterevidence: control +1.36%, control excluding nonstore +0.75%. August cannot test September's energy shock.
 - T1 trade-down remains three against; DG Q2 is in-sample and supplies no out-of-sample support. V8 holds4 on its other evidence.
 - Credit evidence is mixed, not synchronized deterioration. Do not merge quarterly household stocks, monthly issuer loss flows and daily spreads into one count.
@@ -49,20 +51,20 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** September16 FOMC statement, SEP and presser after14:00 ET; not available at this catch-up's12:30 ET evidence cutoff.
-- **What changes the view:** grade registered V12 easing condition over two consecutive meetings; sellside votes do not resolve it. V12 is already5; no promotion from forecast consensus.
+- **What / when:** September16 press conference review remains. Official statement and SEP already integrated:25bp hike; funds median4.1%,PCE3.7%,GDP2.3% for2026.
+- **What changes the view:** canonical V12 condition is a2026 cut in dots OR credible presser easing, for two consecutive meetings. Statement/SEP fail the easing leg; presser not graded. V12 is already5; no promotion from forecast consensus.
 
 ## WATCH (next2–4weeks)
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| September18 | FSA re-poll / FHA research decision | Docket obligations, not performed here |
+| September18 | FSA scheduled re-poll / FHA research decision | Early9/16 named-file HEAD unchanged; research decision unperformed |
 | September25 | UMich final | Test preliminary expectations reversal |
 | September28 | Census revisions, tentative10:00 ET | Recompute vintage; not a new monthly observation |
 | September30 | Deep-tier ABS / September prediction windows | Registered letters; no automatic closure from model cutoff |
 | October2 | September NFP | V16 ratified drop-back branch |
 | October14–15 | September CPI / retail | September fuel transmission and spending response |
 
-Earlier brief retained verbatim in `archive/NEXUS_BRIEF_before_2026-09-16_news.md`; historical assertions there are not current. WQ-227 approval preserved. Consistency gate passed with12 existing soft advisories;225 BOARD IDs remain unrecorded. Native Claude cross-session messaging remains unavailable.
+Earlier brief retained verbatim in `archive/NEXUS_BRIEF_before_2026-09-16_news.md`; historical assertions there are not current. WQ-227 approval preserved. Consistency gate passed with6 existing soft advisories after six mirror fixes;225 BOARD IDs remain unrecorded. Native Claude cross-session messaging remains unavailable.
 
-**Git delivery:** locally committed; root safe-push aborted because remote BRENT3beea13b9 is absent locally. Other sessions have dirty paths, so no shared-tree pull/rebase attempted. Push pending; STATUS pin above remains the correct research commit.
+**Git delivery:** research011901bac PUSH CONFIRMED by root safe-push/fresh fetch. Prior blockage was integrated by another session. CARL performed no pull/rebase/autostash; other desks' dirty files remain untouched. This final brief pins the completed research commit.
