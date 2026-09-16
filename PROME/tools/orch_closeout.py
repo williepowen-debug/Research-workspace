@@ -3,6 +3,8 @@
 
 Evidence is an attributed record, not authentication of the referenced receipt.
 No messaging, file mutation, or closeout-blocking authority is provided here.
+Coverage includes the selected ET day and all unresolved prior-date touches.
+Historical evidence gaps remain UNKNOWN until reconciled, never aged away.
 """
 import argparse
 import csv
@@ -29,6 +31,7 @@ def touch_key(row):
 
 
 def read_touches(path, day):
+    """Read candidate touches through day; closure filtering happens after validation."""
     rows = []
     header = False
     seen = set()
@@ -49,7 +52,7 @@ def read_touches(path, day):
             raise ValueError(f'line {line_no}: invalid touch date') from exc
         if fields[3] != 'CLOSE' and not re.fullmatch(r'[1-9][0-9]*(?:[A-Za-z][A-Za-z0-9_-]*|-[A-Za-z0-9_-]+)?', fields[3]):
             raise ValueError(f'line {line_no}: invalid TOUCH/CLOSE token {fields[3]!r}')
-        if row_day != day or fields[3] == 'CLOSE':
+        if row_day > day or fields[3] == 'CLOSE':
             continue
         key = touch_key(fields)
         if key in seen:
@@ -107,8 +110,14 @@ def disposition(row, now):
 
 def evaluate(path, day, expected=(), inventory_complete=False, now=None):
     now = now or dt.datetime.now(dt.timezone.utc)
-    rows = read_touches(path, day)
-    actual = {key for key, _ in rows}
+    results = []
+    for key, row in read_touches(path, day):
+        state, detail = disposition(row, now)
+        if row[0] < day.isoformat() and state in ('ASKED_RECEIPT', 'ALREADY_CLOSED', 'OUT_OF_SCOPE'):
+            continue
+        results.append({'key': key, 'date': row[0], 'desk': row[1], 'touch': row[3],
+                        'state': state, 'detail': detail})
+    actual = {row['key'] for row in results}
     expected = set(expected)
     issues = []
     if not inventory_complete:
@@ -118,10 +127,6 @@ def evaluate(path, day, expected=(), inventory_complete=False, now=None):
     if inventory_complete:
         for key in sorted(actual - expected):
             issues.append(f'ledger touch absent from declared complete inventory: {key}; UNKNOWN')
-    results = []
-    for key, row in rows:
-        state, detail = disposition(row, now)
-        results.append({'key': key, 'desk': row[1], 'touch': row[3], 'state': state, 'detail': detail})
     return results, issues
 
 
@@ -131,7 +136,7 @@ def main(argv=None):
     ap.add_argument('--date', type=dt.date.fromisoformat, default=dt.datetime.now(ET).date())
     ap.add_argument('--expected-key', action='append', default=[])
     ap.add_argument('--inventory-complete', action='store_true',
-                    help='attest expected keys cover the actual selected-day tool/spawn record; not fleet liveness')
+                    help='attest expected keys cover selected-day touches and unresolved prior touches; not fleet liveness')
     args = ap.parse_args(argv)
     try:
         rows, issues = evaluate(args.ledger, args.date, args.expected_key, args.inventory_complete)
@@ -140,15 +145,15 @@ def main(argv=None):
         return 2
     if not rows and not issues:
         return 0
-    print(f'ORCH_LOG closeout evidence — {args.date}; attributed records, not native receipt authentication')
+    print(f'ORCH_LOG closeout evidence — {args.date} + unresolved prior touches; attributed records, not native receipt authentication')
     for state, label in LABELS.items():
         matching = [r for r in rows if r['state'] == state]
         print(f'{label}: {len(matching)}')
         for row in matching:
-            print(f"  {row['desk']} touch {row['touch']} [{row['key']}]: {row['detail']}")
+            print(f"  {row['date']} {row['desk']} touch {row['touch']} [{row['key']}]: {row['detail']}")
     for row in rows:
         if row['state'] not in LABELS:
-            print(f"{row['state']}: {row['desk']} touch {row['touch']} [{row['key']}]: {row['detail']}")
+            print(f"{row['state']}: {row['date']} {row['desk']} touch {row['touch']} [{row['key']}]: {row['detail']}")
     for issue in issues:
         print(f'UNKNOWN: {issue}')
     return 1 if issues or any(r['state'] == 'UNKNOWN' for r in rows) else 0

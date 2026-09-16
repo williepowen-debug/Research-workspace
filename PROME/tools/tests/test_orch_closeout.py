@@ -91,6 +91,79 @@ class CloseoutTests(unittest.TestCase):
         result, issues = oc.evaluate(self.path, DAY, inventory_complete=True, now=NOW)
         self.assertEqual((result, issues), ([], []))
 
+    def prior_row(self, state='ASKED_WORKING', owner='PROME'):
+        r = row(state=state, owner=owner)
+        r[0] = '2026-09-15'
+        data = json.loads(r[8].split(oc.MARKER)[1])
+        data.update(session_id='overnight-helper', touch_at='2026-09-15T23:55:00-04:00',
+                    observed_at='2026-09-15T23:56:00-04:00')
+        r[8] = oc.MARKER + json.dumps(data)
+        return r
+
+    def test_overnight_working_retains_identity_and_inventory_uncertainty(self):
+        r = self.prior_row()
+        self.write([r])
+        result, issues = oc.evaluate(self.path, DAY, now=NOW)
+        self.assertEqual([(x['key'], x['state']) for x in result],
+                         [(oc.touch_key(r), 'ASKED_WORKING')])
+        self.assertIn('coverage UNKNOWN', issues[0])
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            rc = oc.main(['--ledger', str(self.path), '--date', str(DAY), '--inventory-complete'])
+        self.assertEqual(rc, 1)
+        self.assertIn(oc.touch_key(r), out.getvalue())
+        self.assertIn('still working', out.getvalue())
+
+    def test_prior_unresolved_persists_beyond_one_day(self):
+        for state in ('ASKED_WORKING', 'DARK_BEFORE_ASK', 'UNKNOWN'):
+            r = self.prior_row(state)
+            self.write([r])
+            result, issues = oc.evaluate(self.path, DAY + dt.timedelta(days=3),
+                                        [oc.touch_key(r)], True, NOW + dt.timedelta(days=3))
+            self.assertEqual([x['state'] for x in result], [state])
+            self.assertEqual(issues, [])
+
+    def test_prior_unknown_prose_is_not_silently_closed(self):
+        r = self.prior_row(); r[8] = 'delivered and committed'
+        self.write([r])
+        result, _ = oc.evaluate(self.path, DAY, now=NOW)
+        self.assertEqual([x['state'] for x in result], ['UNKNOWN'])
+
+    def test_valid_prior_completion_and_will_ownership_leave_carryover(self):
+        for state, owner in [('ASKED_RECEIPT', 'PROME'), ('ALREADY_CLOSED', 'PROME'),
+                             ('ASKED_WORKING', 'WILL')]:
+            r = self.prior_row(state, owner)
+            self.write([r])
+            result, issues = oc.evaluate(self.path, DAY, inventory_complete=True, now=NOW)
+            self.assertEqual((result, issues), ([], []))
+
+    def test_later_touch_cannot_clear_prior_unresolved_touch(self):
+        old, current = self.prior_row(), row(touch='2')
+        result, issues = self.evaluate([old, current])
+        self.assertEqual([x['state'] for x in result], ['ASKED_WORKING', 'ASKED_RECEIPT'])
+        self.assertEqual(issues, [])
+
+    def test_future_touch_not_in_current_population(self):
+        r = row(); r[0] = '2026-09-17'
+        self.write([r])
+        result, issues = oc.evaluate(self.path, DAY, inventory_complete=True, now=NOW)
+        self.assertEqual((result, issues), ([], []))
+
+    def test_overnight_completion_must_have_valid_receipt(self):
+        r = self.prior_row('ASKED_RECEIPT')
+        data = json.loads(r[8].split(oc.MARKER)[1])
+        data['observed_at'] = '2026-09-16T00:30:00-04:00'
+        data['receipt'] = ''
+        r[8] = oc.MARKER + json.dumps(data)
+        self.write([r])
+        result, _ = oc.evaluate(self.path, DAY, now=NOW)
+        self.assertEqual([x['state'] for x in result], ['UNKNOWN'])
+        data['receipt'] = 'runtime completion after midnight'
+        r[8] = oc.MARKER + json.dumps(data)
+        self.write([r])
+        result, issues = oc.evaluate(self.path, DAY, inventory_complete=True, now=NOW)
+        self.assertEqual((result, issues), ([], []))
+
     def test_gate_calls_reader_at_both_boundaries(self):
         import prome_gate as gate
         import ast
