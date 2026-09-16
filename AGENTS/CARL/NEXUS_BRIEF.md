@@ -64,3 +64,5 @@
 | October14–15 | September CPI / retail | September fuel transmission and spending response |
 
 Earlier brief retained verbatim in `archive/NEXUS_BRIEF_before_2026-09-16_news.md`; historical assertions there are not current. WQ-227 approval preserved. Consistency gate passed with12 existing soft advisories;225 BOARD IDs remain unrecorded. Native Claude cross-session messaging remains unavailable.
+
+**Git delivery:** locally committed; root safe-push aborted because remote BRENT3beea13b9 is absent locally. Other sessions have dirty paths, so no shared-tree pull/rebase attempted. Push pending; STATUS pin above remains the correct research commit.
