@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-16, CARL/PROME local-work review complete. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-16, PROME closeout assessment complete. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest task:** [PROME closeout assessment](runs/2026-09-16_1436_prome-closeout-assessment.md). Reviewed the reported Bounce/Standard gap; supplied a concrete Standard pass and bounded clarification proposal. Reproduced docket false negatives for NOT COVERED and annotated PENDING. Overnight repair `fa7bfe77d` now passes 17 tests and resolves the prior date-boundary finding. No PROME changes or operational closeout performed. ARGUS's named Opus trial is not silently substitutable with CATO/Astra, and CATO cannot independently certify its own earlier changes. No rewrite, send or new repair task assigned. Next: orient and await Will; a requested final-candidate review must begin with frozen scope and authorship.
 
 **Latest assignment complete:** [CARL/PROME local-work review](runs/2026-09-16_1249_carl-prome-local-review.md), including work committed during the pass (CARL `905594e5b`, PROME checker `7ac1d4569`). Two medium findings: CARL's NEXUS brief misses current counterevidence/approval state; PROME's selected-day checker drops unresolved prior-day touches. One low WalletHub source-vintage receipt gap. Retail calculations reproduce; sampled primary-source checks support the main spending/issuer observations. Owner work remains active; no owner files edited or messages sent. No repair task assigned. Only CATO report/continuity authored; commit/push outcome delivered in-session. Next: orient and await Will; if follow-up is assigned, verify whether owners already fixed the pinned findings.
 
