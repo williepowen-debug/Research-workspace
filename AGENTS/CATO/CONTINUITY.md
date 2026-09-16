@@ -1,10 +1,12 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-15, session closed at Will’s request. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-15, latest-session follow-up review complete. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
 
-**Closed out:** all assigned work complete. BRENT/WALTER repair `63b4ff703` confirmed on origin/master; exact paths and five byte-identical renames verified. Post-push WALTER checker PASS, 29/29 deliveries; working tree and staging clean before this receipt. No new task started. Next session: orient and await Will.
+**Latest assignment complete:** startup + review of PROME’s latest completed session. Fresh sync establishes that it is still `prome-9e` through `a45213b81`, already reviewed earlier today. [Follow-up review](runs/2026-09-15_2147_prome-latest-session-review.md): earlier CATO repairs still hold; hosted publication, independent coverage of final PROME corrections and spawn-path controls remain unresolved at their existing owner records. No additional high-severity finding in the bounded pass. CATO repair checks are author follow-up, not independent certification. Only report/continuity changed; commit/push receipt delivered in-session. No repair task newly assigned. Next session: orient and await Will.
+
+**Prior closeout:** BRENT/WALTER repair `63b4ff703` confirmed on origin/master; exact paths and five byte-identical renames verified. Post-push WALTER checker PASS, 29/29 deliveries.
 
 **Latest assignment — repaired:** Will authorized fixing all three findings from the [BRENT/WALTER review](runs/2026-09-15_1821_brent-walter-review.md). [Repair receipt](runs/2026-09-15_1904_brent-walter-repair.md): rig reader binds the current column and rejects missing data; five previously triaged handoffs filed byte-identically with additive receipts; WALTER publication record reconciled. All 77 tests pass and the prior missing-cell counterexample now rejects the input. CATO implemented these repairs: subsequent CATO checks are author follow-up, not independent verification. No new grades, trades or sends. Commit/push and post-push check receipt are delivered in-session. Next startup orient and await Will; no further work is assigned.
 
