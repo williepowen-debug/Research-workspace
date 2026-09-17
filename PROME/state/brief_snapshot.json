@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-09-15": "GATE-FERT-G3 standing re-read",
-  "2026-09-16": "\ud83d\udd34 **REGINALD IS INVISIBLE TO WALTER'S TELEMETRY TODAY",
   "2026-09-17": "\ud83d\udfe0 TERRY's STATUS.md IS AT THE READ CAP AND FOUR ROTATIONS IN ONE DAY DID\u2026",
   "2026-09-18": "BOJ September MPM (Sep hike ~40-54% UNPRICED band [TFX primary, blend cav\u2026",
   "2026-09-19": "\ud83d\udfe0 **TWO `fleet_dashboard.py` TILE-MAP PATTERNS HAVE NEVER PRODUCED A TILE\u2026",
-  "2026-09-21": "CRMT \u00a72.1 conditional paths (a) equity / new warehouse and (b) refinancin\u2026"
+  "2026-09-21": "CRMT \u00a72.1 conditional paths (a) equity / new warehouse and (b) refinancin\u2026",
+  "2026-09-22": "\u26d4\u26d4 **RE-KEYED 2026-09-14 16:09 FROM A DATE TO A CONDITION",
+  "2026-09-23": "FORUM fin-cond T3 v2"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -53,7 +53,6 @@
   "219": "BROCK \u2014 does ASIF (Ares Strategic Income Fund, ~$10.67B NET ASSETS \u2014\u2026",
   "224": "T-12 successor path \u2014 the non-renewable clause is EXHAUSTED (C #2 of\u2026",
   "225": "HOMER needs the RIGHT-EDGE MONTH on your two 9/10 Google Trends captu\u2026",
-  "228": "The BaaS / sponsor-bank credit perimeter has NO OWNER \u2014 name one, or\u2026",
   "229": "Repair-completion discipline \u2014 ADOPT as PROME practice, and one stand\u2026",
   "230": "WAR-RISK INSURANCE DATA IS ~51 DAYS DEAD, falsifier leg included \u2014 FA\u2026",
   "234": "BRENT FOUND A DEFECT IN ITS OWN PRE-REGISTERED BG-02 RESOLVER, AND IT\u2026",
@@ -63,7 +62,6 @@
   "238": "THIS LAPTOP IS MISSING THREE API KEYS AND HAS BEEN SINCE 8/7 \u2014 env_do\u2026",
   "241": "The MSI stand-down rule guards SPACING but not LEVEL, and registers n\u2026",
   "242": "CRU-05 graded FAILED at its window close \u2014 and the letter it was grad\u2026",
-  "243": "The MARCO half of the FL joint touch (DOCKET L332) has not run, and S\u2026",
   "244": "Root rule #4d \u2014 YOUR OWN ruling \u2014 is breached on 11.4% of fleet commi\u2026",
   "245": "THE INTAKE LANE DOES NOT COLLECT ON WEEKENDS, BY DESIGN \u2014 and this we\u2026",
   "246": "\ud83d\udd34 THE ONLY ADD-GATE ON THE 004 POSITION HAS AN UNDEFINED QUALIFIER, A\u2026",
@@ -72,6 +70,7 @@
   "250": "\u2696\ufe0f MAY A LETTER THAT SAYS *\"I COULD NOT CHECK THIS\"* BE CITED AGAINST\u2026",
   "251": "\u2696\ufe0f RE-BASE THE 2026-08-13 CCC/HY STAND-DOWN ON THE TIER TEST \u2014 DO NOT\u2026",
   "252": "\u2696\ufe0f ONE CONTRACT ROLL CONSUMES ~93% OF THE DISTANCE BETWEEN HEN-F1's T\u2026",
+  "254": "\u2696\ufe0f P4 SITTING (DOCKET L282, WQ-109 ruled 9/1 *\"one sitting, DAEDALUS\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
