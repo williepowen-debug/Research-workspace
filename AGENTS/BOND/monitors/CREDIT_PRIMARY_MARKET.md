@@ -1,9 +1,26 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** 2026-08-27 ~12:2x ET by BOND — **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
+**Last Updated:** **2026-09-17 ~10:0x ET by BOND — full refresh to the 9/15 close, whole table on ONE date, all levels cache-busted at write time.** 🔴 **AND THIS FILE JUST REPEATED ITS OWN RECORDED DEFECT, 21 DAYS THIS TIME INSTEAD OF FOUR — n+1 on the class named in the paragraph below, found again by an audit (Will-requested stale sweep) and again by no instrument.** `boot_recompute` and `closeout_check` both returned clean on this directory today, correctly: the numbers were internally consistent *with each other*, and neither check has a shape for *"this whole surface is three weeks behind its siblings."* **The fix that would actually bite is an age check on boot-unread surfaces, not another resolution to remember.** *(Prior header, 2026-08-27 ~12:2x ET, retained:)* **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
 
-## Current Read — 2026-08-27 ~12:2x ET (all credit levels **8/26**, one date, cache-busted)
+## Current Read — 2026-09-17 ~10:0x ET (all credit levels **9/15**, one date, cache-busted at write time)
+
+| Metric | Level | Date | vs threshold |
+|---|--:|---|---|
+| **HY OAS** | **276bp** | FRED **9/15** | **24bp** below the 300 watch · **74bp** below the 350 freeze *(both recomputed off 276)*. **+11bp in two sessions** (265 [9/11] → 271 → 276) — the first real travel after a month of 263–276 inertia. 2026 max 346 [3/30] |
+| **CCC OAS** | **1085bp** | FRED **9/15** | **15bp** below the 1100 escalation, **closing ~5bp/session** (44 → 30 → 24 → 19 → 15). ★ **FRESH 2026 HIGH — the 2026 max IS the latest print** (1076 → 1081 → 1085), computed at write time. ⚠️ **NOT a series high** — series max **1137 (2025-04-07)**, n=786 |
+| **BB OAS** | **161bp** | FRED **9/15** | **+11bp in two sessions** (150 → 156 → 161) — the BB leg widened **WITH** the tail this time |
+| **IG OAS** | **80bp** | FRED **9/15** | **flat three consecutive sessions** (80/80/80). 2026 max 94 [3/16]; 40bp below the 120 trigger |
+| **CCC−BB tail gap** | **924bp** | FRED **9/15** | span max **926bp [9/11]** (n=786) — **the gap PAUSED 2bp under its high because BB (+11) widened with CCC (+9)**: index and tail moved the SAME way. **Dispersion paused, not reversed** |
+| **CCC/HY ratio** | **3.93x** | FRED **9/15** | ⚠️ **unlike the 8/26 read, ratio and levels now agree** — both legs widened, so the ratio's rise is real rather than a compositional artifact |
+| **Pulled deals** | **ZERO** | 9/17 | the access test — unimpaired |
+| IG primary volume | record-September forecast **~$215B** | Bloomberg poll, **secondary 9/3, NOT pulled at primary** | IG yields >5.5% pulling issuance **FORWARD** (`KB-BND-259`) |
+
+**Verdict: PRIMARY MARKET ACCESS IS FULLY OPEN, AND THE TAIL IS 15bp FROM ITS REGISTERED ESCALATION.** Both true, not in tension: zero pulled deals, IG flat in a 3bp band, issuers *accelerating* into a record month — that is a functioning primary market — while the worst credits keep repricing. **A quality-tail event, not a market-function event.** ⚠️ **What changed since 8/27 and is the thing to watch: the index leg is no longer perfectly inert.** HY +11bp and BB +11bp mean the freeze thesis moved **closer** (74bp vs 83bp) rather than further for the first time in three weeks, and `VX-BND-07`'s credit-equity reactivation band is now 62–87bp away off the 263 trough. **Still: no registered condition fired, and the live escalation remains CCC 1100, 15bp away with momentum against it (`BND-27`, 65%).** ⚠️ **If it arms, the expression is single-name/CCC — never HYG.**
+
+> *(Prior read retained below.)*
+
+### Prior Read — 2026-08-27 ~12:2x ET (all credit levels **8/26**, one date, cache-busted)
 
 | Metric | Level | Date | vs threshold |
 |---|--:|---|---|

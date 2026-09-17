@@ -30,7 +30,7 @@
 | **10Y real (DFII10)** | **2.62%** | 🔴 **GATE THROUGH** | [CONF FRED **9/15**] — **+12bp above 2.50**; 2.55 · 2.60 · 2.60 · **2.62** = **4 published sessions ≥2.50 ⇒ `BND-29` TRUE**. 98.8th pctile full (n=5,930), 100.0th post-2010 |
 | 5Y5Y fwd (T5YIFR) | **2.31%** | 🟡 ↓ | [CONF FRED **9/16**] — −4bp on FOMC day; 19bp from its bar |
 | 10Y BE (T10YIE) | **2.33%** | 🟡 ↓ | [CONF FRED **9/16**] — 2.38 → **2.33** on FOMC day: **breakevens FELL while TIP −0.38% ⇒ the 9/16 move is REAL-led again** (`KB-BND-293`); Brent −4% like-for-like (BZX26 $101.62 pre-open, −3.98% vs its $105.83 9/16 settle; ⚠️ PROME correction 9/17 ~09:0x — this desk first wrote −7.05%, which was the continuous BZ=F rolling Nov→Dec, not a price move) on 9/17 morning pushes the same way (BRENT's lane) |
-| ACM 10Y TP · KW TP | 0.7073 [9/9] · 0.8892 [9/4] | 🟠 `[STALE 9/17]` | [NY Fed `ACM Daily` · FRED `THREEFYTP10`] — not re-pulled this session; 2026 max 0.8935 [8/17] / 0.8996 [9/1] |
+| ACM 10Y TP · **KW TP** | 0.7090 [9/15] · **0.9610 [9/11]** | 🔴 ↑ | [NY Fed `ACM Daily` · FRED `THREEFYTP10`, both re-pulled **9/17 09:5x**] — **KW = FRESH 2026 HIGH, highest since 2011-02-11**; +4.8bp on 9/10 alone (**the add-gate breach session**), 97.9th pctile post-2010 (n=4,176). ⚠️ **THE MODELS DISAGREE: matched window 9/9→9/11 ACM +1.0bp vs KW +6.1bp = a 5.1bp model gap — name WHICH model in any TP claim** (`KB-BND-298`/`299`). ACM 2026 max 0.8935 [8/17] verified |
 | **HY OAS** | **276bps** | 🟢 ↑ | [CONF FRED `BAMLH0A0HYM2` **9/15**] — 265 [9/11] → 271 → **276**: +11bp in two sessions, still inert at the index (2026 max 346) |
 | **CCC OAS** | **1085bps** | 🟠 ↑ | [CONF FRED `BAMLH0A3HYC` **9/15**] — **fresh 2026 high** (1076 → 1081 → 1085); ratio 3.93x; **15bp from the 1100 line** |
 | IG OAS | **80bps** | 🟢 = | [CONF FRED `BAMLC0A0CM` **9/15**] — zero pulled deals; record-September supply forecast (~$215B, secondary 9/3) |
@@ -75,7 +75,7 @@
 
 **Tracked OUTSIDE the composite:** `VX-BND-15` inflation-expectations anchoring (2) · `VX-BND-17` MBS / housing-finance relay (1) · `VX-BND-18` FHLB advances (2) · `VX-BND-19` eurozone rates / ECB shock (3 — ECB 2.50% DFR eff. 9/16; **"disorderly" qualifier UNDEFINED, define at the 10/1 refresh, `KB-BND-256`**) · `VX-BND-20` benchmark-driven structural UST demand (2 — GPFG proposal; checkpoint **10/6**; `monitors/BENCHMARK_DEMAND.md`).
 
-> ⚠️ **OPEN MIRROR DIVERGENCE, un-reconciled (9th session): `VX-BND-05` = 4 and `VX-BND-16` = 4 in `workbook/VX.tsv` vs matrix rows 3 and 2 — components HOTTER ⇒ the divergence UNDER-states risk.** Flagged, not silently reconciled. Notice archived at `domain/sources/2026-09-04_STATUS_archive_mirror-divergence-notice.md` (crc32 `2218422141`).
+> ✅ **"MIRROR DIVERGENCE" CLOSED 2026-09-17 — never a defect.** `VX-BND-05`=4 / `VX-BND-16`=4 vs matrix rows 1 and 3 is **BY DESIGN: the matrix rows are CONJUNCTIVE, the components are not** (row 1 = level **AND** weak auction; row 3 = letter **AND** mechanism). Both VX rows' Notes have said so since 9/9. Full record + why it survived nine sessions → `KB-BND-300`.
 
 ### Prediction scoreboard *(canonical: `thesis/PREDICTIONS.tsv`)*
 
