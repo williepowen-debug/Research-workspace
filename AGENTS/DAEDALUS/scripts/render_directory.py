@@ -66,6 +66,12 @@ NON_AGENT_SECTIONS = {
     "Spinouts & promotions": "provenance prose",
     "Coverage notes":       "explicit-unowned gaps",
     "Transmission chain":   "reference prose",
+    # ADDED 2026-09-17 (PR#6 reader R1): Will registered CATO 2026-09-15 (ROSTER f1bd2147a) under a
+    # NEW heading. The guard fired as designed and this renderer was DEAD for two days — the directory
+    # sat at "Generated 2026-09-08". CATO has NO FLEET_MAP row BY RULING (class unresolved, manual-only,
+    # excluded from launch/routing), so it is not rendered as an agent; its existence is written into
+    # the generated footer so a reader of the directory can see the hold, not infer it from absence.
+    "CLASSIFICATION PENDING": "Will's deliberate hold — class unresolved, no FLEET_MAP row by ruling; named in the footer",
 }
 DROP = {"HERMES",   # retired 2026-06, folder removed
         "YEYOU"}    # RETIRED 2026-09-05 (Will "retire yeyou" 11:56 ET; WQ-181 (i); ROSTER 1627f77a3).
@@ -269,6 +275,11 @@ def main():
     L.append(f"*{counts['ACTIVE']} active · {counts['TIER-2']} tier-2 · {counts['DORMANT']} dormant · "
              f"{counts['SPECIAL']} special. Dropped (retired): {', '.join(sorted(DROP))}. "
              f"Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*")
+    if "CLASSIFICATION PENDING" in set(skipped_sections):
+        L.append("")
+        L.append("*⏸ **CLASSIFICATION PENDING (ROSTER, Will's hold):** entries under that heading are NOT graded "
+                 "and carry no FLEET_MAP row by ruling — read the section in `PROME/ROSTER.md` for the names "
+                 "and the restriction. Absence from the tables above is the hold, not an omission.*")
     L.append("")
 
     OUT.write_text("\n".join(L), encoding="utf-8")

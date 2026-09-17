@@ -34,3 +34,4 @@ Detection read-only. Dispositions are TASK-PACKET-ONLY to the gate owner (re-wri
 | # | date | gates | BASIS-UNNAMED | OPERATOR-MISMATCH | stranger findings | notes |
 |---|---|---|---|---|---|---|
 | 0 | 2026-09-02 | 5 (LIQUID's, at dispatch) | 4 | — | 8 | pre-registration evidence in the WQ-162 packet; not a run of this playbook |
+| 1 | 2026-09-17 | 12 in-scope of 20 (8 NOT GRADED w/ reason) | 10 | 1 (FERT-G5) | 4 of 8 letters ungradeable by a stranger: quantifier words with no integer ×2, undefined leg dataset ×1, undefined-and-unfetchable ×1; vintage 0-for-8 named, reset 1-for-8 | +1d; 3 non-owner readers; ALFRED control VINTAGE-PATH-VERIFIED; 7 owner packets; SL-5 amendment candidate → Will. `runs/2026-09-17_GATE_BASIS_SWEEP_01.md` |
