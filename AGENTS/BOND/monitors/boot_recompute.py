@@ -397,6 +397,19 @@ def main() -> int:
               f"That is a GAP, not a pass.")
         drift += 1
 
+    # F2 PER-OP CARRIER (2026-09-17, PROME DOCKET L401). Wired in HERE for the same reason as
+    # the watchers: the per-op F2 read was docketed ONCE (the 9/10 op) and a RESOLVED row cannot
+    # drive the next op, so the obligation had no carrier. buyback_f2 enumerates the sb0607
+    # window against the FiscalData primary + the issuer schedule and returns the count of
+    # in-scope ops that have PUBLISHED with no ledgered read. A fetch failure counts as a GAP.
+    try:
+        import buyback_f2
+        print("\n== BUYBACK F2 PER-OP CARRIER (DOCKET L401 · ledger registry/f2_reads.tsv) ==")
+        drift += buyback_f2.pending_check()
+    except Exception as e:                      # never let the carrier break the boot pull
+        print(f"\n[boot_recompute] WARNING: buyback_f2 did not run ({e}). That is a GAP, not a pass.")
+        drift += 1
+
     print("\n⚠️  Paste-check these against STATUS. Any figure on a BOND surface that is NOT")
     print("    in this block, or disagrees with it, is a CARRIED figure — recompute or drop it.")
     if drift:
