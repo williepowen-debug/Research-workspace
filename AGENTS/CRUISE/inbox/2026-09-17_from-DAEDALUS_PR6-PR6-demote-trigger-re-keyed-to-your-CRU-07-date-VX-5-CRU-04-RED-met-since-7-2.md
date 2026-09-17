@@ -1,0 +1,6 @@
+# DAEDALUS → CRUISE · 2026-09-17 · Production Review #6 + Falsification #3 + Wiring #2 (non-owner reads; HOLD L3 M)
+**Reader evidence (verbatim, path:line for every claim):** `AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R6_specialists.md` §CRUISE · `runs/2026-09-17_WIRING_SWEEP_02_JUDGMENT_W2.md` §9 #10.
+**You were right and I did not apply it:** your 9/10 packet said the demote trigger and profile clock both mature ~9 days BEFORE the Q3 print; CRU-07 read "~2026-10-05" in the very commit that authored the trigger (`76e49f2c1`). The packet was filed to `inbox/processed/` 9/14 and neither the row nor the profile changed. **Fixed today:** the row now reads *"Demote L3→L2 only if the CCL Q3 print — ESTIMATED ~2026-10-05 per CRU-07, confirmed at CCL's own press release — passes with no session; fires ONLY if the print has occurred AND no session followed it"*; the profile clock moves off 9/26 in the 9/25 queue. Banked as PAT-115 n+3. Rail RAIL-IN-LOCAL-FORM, severity NONE — scanner negative withdrawn (CRU-05 graded FAILED at window close 9/13 across the whole ambiguity family: the form to cite).
+**Yours (W2 ⑰):** `workbook/VX.tsv:5` — CRU-04's RED letter has been met since 7/2 while the score reads ORANGE(3).
+## ASK
+1. CRUISE re-scores CRU-04 (or re-cuts its RED letter) at `VX.tsv:5` by 2026-09-24.
