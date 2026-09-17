@@ -23,9 +23,25 @@ WHAT IT DOES
                             PUBLISHED + ledger row     ->  routed (shows the packet path)
                             ANNOUNCED (results null)   ->  pending, with the op time
                             on the issuer schedule only ->  scheduled (announcement D-1 11:00 ET)
-      rc=0 = nothing OWED (explicitly NOT "every read is done forever");
-      rc=1 = an in-scope op has published and no read is ledgered;
-      rc=2 = fetch failure, NOT a pass.
+      rc=0 = nothing OWED and no DATA GAP (explicitly NOT "every read is done forever");
+      rc=1 = OWED (an in-scope op has published with no VALID ledgered read) and/or a DATA GAP
+             (past op with null results · scheduled date absent from the feed · unclassifiable
+             in-window op · details rows with no ops row · details/ops totals disagree · window
+             expired) -- the two counters are printed SEPARATELY and named in the summary;
+      rc=2 = fetch failure, NOT a pass (from the CLI; from boot it is counted as one GAP).
+      ⛔ WINDOW EXPIRY ALARM: past WINDOW[1] this tool returns non-zero every boot until the next
+      QRA's schedule is parsed in -- a carrier that dates itself is L401's defect one quarter out.
+  BLIND READ 2026-09-17 (coldreader, 17 findings): 10 ❌ fixed the same session (window expiry
+  alarm · same-date multi-op guard + blocking totals check · OWED/GAP counters split · ledger row
+  validity = packet_path present AND resolvable (inbox/ or processed/) AND verdict · normalised
+  scope match with null-field ⇒ UNCLASSIFIED (a gap, never "no read owed") · --op refuses to render
+  an out-of-scope packet · one-sided selftest assertions tightened · rc=2 reachable from the CLI ·
+  enumeration = ops ∪ details dates · null cap guard). ⚠️ RESIDUE declared, not fixed: the
+  "newest quartile" cut is 20-50% of DISTINCT maturities under banker's rounding (q=5 ⇒ 1 of 5) --
+  the base rate was computed with the same rule, so the 0/52 stands, but the label overstates the
+  precision; buybacks_operations has no total-count truncation guard (223 < 500 today); an all-zero
+  par published op yields verdict None (counted OWED, packet header reads None); printed "rc=" lines
+  are prose, the function returns a COUNT that boot adds to drift.
   --op YYYY-MM-DD   Compute the F2 metrics for one op and print the packet body to route to RED.
   --history         Base-rate the metric over EVERY long-end LS op on record (n=52 on 2026-09-17).
   --selftest        Fixtures: the real 9/10 op + synthetic neighbours (see selftest()).
@@ -69,6 +85,7 @@ FIXTURE = os.path.join(HERE, "fixtures", "buyback_20260910.json")
 WINDOW = ("2026-09-10", "2026-11-04")          # sb0607: stepped-up sizes 9/9 -> 11/4 QRA
 IN_SCOPE_BUCKETS = ("10Y to 20Y", "20Y to 30Y")
 ON_THE_RUN_CUT = Decimal("0.50")               # STRICT '>' -- see docstring
+LEDGER_PROCESSED_FALLBACK = ("inbox/", "inbox/processed/")   # RED git-mv's consumed packets
 
 # Issuer schedule -- "Tentative Schedule of Treasury Buyback Operations, August 2026 Refunding
 # Quarter, For Publication September 9, 2026" (home.treasury.gov/system/files/221/
@@ -116,16 +133,27 @@ def _dec(s):
     return Decimal(s)
 
 
+def _norm(x):
+    if x is None:
+        return None
+    x = " ".join(str(x).split()).casefold()
+    return None if x in ("", "null", "none") else x
+
+
 def in_scope(op):
-    """Return (bool, reason)."""
+    """Return (verdict, reason) with verdict in {True, False, None}; None = UNCLASSIFIED (a null or
+    unrecognised field on an in-window op) -- reported as a GAP, never as 'no F2 read owed'."""
     d = op.get("operation_date", "")
     if not (WINDOW[0] <= d <= WINDOW[1]):
         return False, "outside the sb0607 window"
-    if op.get("operation_type") != "Liquidity Support":
+    ot, st, mb = _norm(op.get("operation_type")), _norm(op.get("security_type")), _norm(op.get("maturity_bucket"))
+    if ot is None or st is None or mb is None:
+        return None, f"UNCLASSIFIED -- null field(s) on an in-window op (type={op.get('operation_type')!r}, sec={op.get('security_type')!r}, bucket={op.get('maturity_bucket')!r}); verify at the primary"
+    if ot != "liquidity support":
         return False, f"operation_type {op.get('operation_type')!r} (F2 reads liquidity-support ops only)"
-    if op.get("security_type") != "Nominal Coupons":
+    if st != "nominal coupons":
         return False, f"security_type {op.get('security_type')!r} (F2 reads NOMINAL long-end ops; FT-11 reads nominal benchmarks)"
-    if op.get("maturity_bucket") not in IN_SCOPE_BUCKETS:
+    if mb not in {b.casefold() for b in IN_SCOPE_BUCKETS}:
         return False, f"bucket {op.get('maturity_bucket')!r} is not a stepped-up sector (sb0607 = 10Y-20Y and 20Y-30Y only)"
     return True, "stepped-up long-end nominal LS op"
 
@@ -157,7 +185,7 @@ def metrics(op, rows):
     rs, ls, t3 = share(recent), share(legacy), share(top3)
     verdict = None
     if rs is not None:
-        verdict = "ON-THE-RUN (F2 FIRES, 🟠 marker -> RED/PROME)" if rs > ON_THE_RUN_CUT else "OFF-THE-RUN (F2 does not fire; FT-11 v1.1 off-the-run branch)"
+        verdict = "ON-THE-RUN (F2 FIRES, 🟠 marker -> RED/PROME)" if rs > ON_THE_RUN_CUT else "OFF-THE-RUN (FT-11 v1.1 off-the-run branch ACTIVATES; the on-the-run flip did not occur)"
     return {
         "op_date": op.get("operation_date"), "bucket": op.get("maturity_bucket"),
         "cap": cap, "offered": offered, "accepted_total_details": total, "accepted_ops_row": accepted_row,
@@ -178,75 +206,136 @@ def read_ledger(path=LEDGER):
     return {r["op_date"]: r for r in rows}
 
 
+def ledger_row_valid(row, repo_root=None):
+    """A ledger row discharges the obligation ONLY if it names a verdict AND a packet path that
+    resolves -- at the path given, or at the recipient's inbox/processed/ (RED git-mv's consumed
+    packets there, so a path recorded at delivery goes dead within minutes). Returns (ok, why)."""
+    if not row:
+        return False, "no ledger row"
+    if not (row.get("verdict") or "").strip():
+        return False, "ledger row has no verdict"
+    pp = (row.get("packet_path") or "").strip()
+    if not pp:
+        return False, "ledger row has no packet_path"
+    root = repo_root or os.path.normpath(os.path.join(HERE, "..", "..", ".."))
+    cands = [pp, pp.replace("/inbox/", "/inbox/processed/", 1)]
+    for c in cands:
+        if os.path.exists(os.path.join(root, c)):
+            return True, c
+    return False, f"packet_path does not resolve at {pp} or its inbox/processed/ variant"
+
+
 def _pct(x):
     return "n/a" if x is None else f"{(x * 100):.2f}%"
 
 
 # ----------------------------------------------------------------------------- pending
-def pending_report(ops, sd, ledger, today, schedule=None):
-    """Pure: returns (lines, n_owed). No I/O. `schedule` defaults to the issuer SCHEDULE."""
+def pending_report(ops, sd, ledger, today, schedule=None, repo_root=None):
+    """Pure: returns (lines, n_owed, n_gaps). No I/O beyond os.path.exists on ledger paths.
+    `schedule` defaults to the issuer SCHEDULE."""
     schedule = SCHEDULE if schedule is None else schedule
     by = {}
     for r in sd:
         by.setdefault(r["operation_date"], []).append(r)
-    lines, owed = [], 0
+    ops_by = {}
+    for o in ops:
+        ops_by.setdefault(o.get("operation_date", ""), []).append(o)
+    lines, owed, gaps = [], 0, 0
+    if today > WINDOW[1]:
+        gaps += 1
+        lines.append(f"   ⛔ WINDOW EXPIRED: today {today} > {WINDOW[1]} (sb0607 / August-quarter schedule). This carrier is DATED "
+                     f"by its window -- parse the November QRA's tentative buyback schedule into SCHEDULE/WINDOW before trusting "
+                     f"any 'nothing owed' line. Non-zero every boot until then.")
     seen = set()
-    win_ops = sorted((o for o in ops if WINDOW[0] <= o.get("operation_date", "") <= WINDOW[1]),
-                     key=lambda o: o["operation_date"])
-    for op in win_ops:
-        d = op["operation_date"]
+    dates = sorted(d for d in (set(ops_by) | set(by)) if WINDOW[0] <= d <= WINDOW[1])
+    for d in dates:
+        dops = ops_by.get(d, [])
+        rows = by.get(d, [])
+        if not dops:
+            gaps += 1
+            lines.append(f"   🔴 {d}  security_details rows exist ({len(rows)}) but NO operations row -> UNCLASSIFIED (bucket unknown); "
+                         f"the ops row may be lagging -- re-fetch; counted as a GAP")
+            seen.add(d)
+            continue
+        if len(dops) > 1:
+            gaps += 1
+            lines.append(f"   🔴 {d}  {len(dops)} operations share this date and security_details is keyed by date only -> "
+                         f"CUSIP sets would MERGE; no verdict computed; grade by hand at the primary (GAP)")
+            seen.add(d)
+            continue
+        op = dops[0]
         ok, why = in_scope(op)
+        if ok is None:
+            gaps += 1
+            lines.append(f"   🔴 {d}  {why} (GAP -- never 'no read owed')")
+            seen.add(d)
+            continue
         if not ok:
             lines.append(f"   ℹ️  {d}  {op.get('security_type')} / {op.get('maturity_bucket')} / {op.get('operation_type')}"
                          f" -> OUT OF SCOPE, no F2 read owed ({why})")
             continue
         seen.add(d)
-        rows = by.get(d, [])
         if not published(rows):
             when = f"{op.get('operation_start_time_est')}-{op.get('operation_close_time_est')} ET"
-            tag = "TODAY" if d == today else ("PAST -- results not yet in security_details (check the primary, KB-BND-272 lag)" if d < today else "upcoming")
-            lines.append(f"   ⏳ {d}  {op.get('maturity_bucket')}  cap ${_dec(op.get('max_par_amt_redeemed')) / Decimal(10**9):.1f}B"
-                         f"  ANNOUNCED, results null  [{tag}; op {when}; results ~2:15 PM ET]")
+            cap = _dec(op.get("max_par_amt_redeemed"))
+            cap_s = f"cap ${cap / Decimal(10**9):.1f}B" if cap is not None else "cap n/a (null in the announcement row)"
             if d < today:
-                owed += 1
+                gaps += 1
+                tag = "PAST -- results not yet in security_details (check the primary, KB-BND-272 lag) -- GAP"
+            else:
+                tag = "TODAY" if d == today else "upcoming"
+            lines.append(f"   ⏳ {d}  {op.get('maturity_bucket')}  {cap_s}  ANNOUNCED, results null  [{tag}; op {when}; results ~2:15 PM ET]")
+            continue
+        m = metrics(op, rows)
+        if m["accepted_ops_row"] is not None and m["accepted_ops_row"] != m["accepted_total_details"]:
+            gaps += 1
+            lines.append(f"   🔴 {d}  {op.get('maturity_bucket')}  details sum ${m['accepted_total_details']} != ops row ${m['accepted_ops_row']} "
+                         f"-> BLOCKED, no verdict (merged/partial rows?); grade by hand at the primary (GAP)")
             continue
         led = ledger.get(d)
-        m = metrics(op, rows)
-        if led:
+        valid, vwhy = ledger_row_valid(led, repo_root)
+        if valid:
             lines.append(f"   ✅ {d}  {op.get('maturity_bucket')}  PUBLISHED, read ROUTED -> {led.get('routed_to')} "
-                         f"({led.get('packet_path')}) verdict {led.get('verdict')}; recent {led.get('recent_share_pct')}%")
+                         f"({vwhy}) verdict {led.get('verdict')}; recent {led.get('recent_share_pct')}%")
         else:
             owed += 1
-            lines.append(f"   🔴 {d}  {op.get('maturity_bucket')}  PUBLISHED and NO LEDGER ROW -> F2 READ OWED TO RED NOW. "
+            lines.append(f"   🔴 {d}  {op.get('maturity_bucket')}  PUBLISHED and {vwhy} -> F2 READ OWED TO RED NOW. "
                          f"recent_share {_pct(m['recent_share'])} -> {m['verdict']}.  Run: --op {d}")
     for d, bucket, size in schedule:
         if d in seen or d < WINDOW[0]:
             continue
-        if d < today and d not in seen:
-            owed += 1
-            lines.append(f"   🔴 {d}  {bucket}  on the ISSUER SCHEDULE, PAST, and NOT in the FiscalData feed -> verify at the primary (cancelled? fetch gap?)")
-        elif d not in seen:
+        if d in ops_by:
+            continue        # present in the feed and classified out of scope above (a mis-labelled feed row)
+        if d < today:
+            gaps += 1
+            lines.append(f"   🔴 {d}  {bucket}  on the ISSUER SCHEDULE, PAST, and NOT in the FiscalData feed -> verify at the primary (cancelled? fetch gap?) -- GAP")
+        else:
             lines.append(f"   📅 {d}  {bucket}  {size}  SCHEDULED (issuer PDF 9/9); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET")
-    return lines, owed
+    return lines, owed, gaps
 
 
-def pending_check(today=None):
-    """Called from boot_recompute.py. Prints; returns the number of OWED items (a GAP counts as 1)."""
+def _pending(today=None):
+    """Returns (count, fetch_failed). count = owed + gaps."""
     today = today or _dt.date.today().isoformat()
     try:
         ops, sd = fetch_live()
     except Exception as e:  # noqa: BLE001
-        print(f"   [buyback_f2] FETCH FAILURE: {e} -- rc=2 semantics, NOT a pass")
-        return 1
-    lines, owed = pending_report(ops, sd, read_ledger(), today)
+        print(f"   [buyback_f2] FETCH FAILURE: {e} -- NOT a pass (CLI rc=2; boot counts one GAP)")
+        return 1, True
+    lines, owed, gaps = pending_report(ops, sd, read_ledger(), today)
     print(f"   window {WINDOW[0]} -> {WINDOW[1]} · scope = LS + nominal + {{10Y-20Y, 20Y-30Y}} · ledger {os.path.relpath(LEDGER, os.path.dirname(HERE))}")
     for l in lines:
         print(l)
-    if owed:
-        print(f"   [buyback_f2] rc=1 -- {owed} in-scope F2 read(s) OWED. Route to RED before closeout.")
+    if owed or gaps:
+        print(f"   [buyback_f2] NOT A PASS -- OWED reads: {owed} (route to RED before closeout) · DATA GAPS: {gaps} (verify at the primary). Count returned = {owed + gaps}.")
     else:
-        print("   [buyback_f2] rc=0 -- nothing OWED right now (NOT 'all reads done': the next in-scope op re-arms this).")
-    return owed
+        print("   [buyback_f2] clean -- nothing OWED and no data gap right now (NOT 'all reads done': the next in-scope op re-arms this).")
+    return owed + gaps, False
+
+
+def pending_check(today=None):
+    """Called from boot_recompute.py. Prints; returns a COUNT (owed + gaps; a fetch failure = 1) that boot adds to drift."""
+    return _pending(today)[0]
 
 
 # ----------------------------------------------------------------------------- packet
@@ -295,6 +384,7 @@ def history(ops, sd):
 
 # ----------------------------------------------------------------------------- selftest
 def _synth(date, bucket, sectype="Nominal Coupons", optype="Liquidity Support", rows=None, cap="4000000000", offered="8000000000.00"):
+    # cap=None models an announcement row whose max_par_amt_redeemed is null
     op = {"operation_date": date, "operation_type": optype, "security_type": sectype, "maturity_bucket": bucket,
           "max_par_amt_redeemed": cap, "total_par_amt_offered": offered, "total_par_amt_accepted": "null",
           "operation_start_time_est": "01:40 PM", "operation_close_time_est": "02:00 PM"}
@@ -316,7 +406,7 @@ def selftest():
     check("9/10 legacy (coupon<=2.50) share = 75.09%", round(m["legacy_share"] * 100, 2) == Decimal("75.09"))
     check("9/10 top-3 share = 71.39%", round(m["top3_share"] * 100, 2) == Decimal("71.39"))
     check("9/10 23 of 40 accepted", (m["n_acc"], m["n_elig"]) == (23, 40))
-    check("9/10 recent_share 1.8% -> OFF-THE-RUN", m["recent_share"] < Decimal("0.02") and m["verdict"].startswith("OFF"))
+    check("9/10 recent_share = 1.79% exactly -> OFF-THE-RUN", round(m["recent_share"] * 100, 2) == Decimal("1.79") and m["verdict"].startswith("OFF"))
     check("9/10 cover vs cap 1.75x", round(m["cover_vs_cap"], 2) == Decimal("1.75"))
     check("9/10 in scope", in_scope(fx["operation"])[0])
     # WRONG OWNER: a TIPS op and a 7Y-10Y op in the window are OUT of scope.
@@ -329,22 +419,52 @@ def selftest():
     # MISSING INFORMATION: an announced op with null results is ANNOUNCED, not owed (today), owed if PAST.
     ann, rows = _synth("2026-09-24", "20Y to 30Y", rows=[{"cusip_nbr": "X1", "coupon_rate_pct": "4.000", "maturity_date": "2050-02-15", "par_amt_accepted": "null", "weighted_avg_accepted_price": "null"}])
     check("announced op: not published", not published(rows))
-    lines, owed = pending_report([ann], rows, {}, "2026-09-24", schedule=SCHEDULE[1:])
-    check("announced op TODAY -> pending, not owed", owed == 0 and any("⏳ 2026-09-24" in l for l in lines))
-    lines, owed = pending_report([ann], rows, {}, "2026-09-26", schedule=SCHEDULE[1:])
-    check("announced op PAST with null results -> owed (check the primary)", owed == 1)
+    lines, owed, gaps = pending_report([ann], rows, {}, "2026-09-24", schedule=SCHEDULE[1:])
+    check("announced op TODAY -> pending, not owed, no gap", owed == 0 and gaps == 0 and any("⏳ 2026-09-24" in l for l in lines))
+    lines, owed, gaps = pending_report([ann], rows, {}, "2026-09-26", schedule=SCHEDULE[1:])
+    check("announced op PAST with null results -> a DATA GAP, not an owed read", owed == 0 and gaps == 1)
     # THE GUARD ITSELF: a published in-scope op with no ledger row is OWED; with a row it is not (OVERLAP).
     pub, prow = _synth("2026-09-24", "20Y to 30Y", rows=[
         {"cusip_nbr": "OLD", "coupon_rate_pct": "1.250", "maturity_date": "2050-05-15", "par_amt_accepted": "3000000000.00", "weighted_avg_accepted_price": "60.0"},
         {"cusip_nbr": "MID", "coupon_rate_pct": "3.000", "maturity_date": "2053-05-15", "par_amt_accepted": "0.00", "weighted_avg_accepted_price": "null"},
         {"cusip_nbr": "NEW1", "coupon_rate_pct": "4.500", "maturity_date": "2055-11-15", "par_amt_accepted": "1000000000.00", "weighted_avg_accepted_price": "99.0"},
         {"cusip_nbr": "NEW2", "coupon_rate_pct": "4.750", "maturity_date": "2056-02-15", "par_amt_accepted": "0.00", "weighted_avg_accepted_price": "null"}])
-    lines, owed = pending_report([pub], prow, {}, "2026-09-25", schedule=SCHEDULE[1:])
-    check("published in-scope op, no ledger row -> OWED rc=1", owed == 1 and any("🔴 2026-09-24" in l for l in lines))
-    lines, owed = pending_report([pub], prow, {"2026-09-24": {"routed_to": "RED", "packet_path": "p", "verdict": "OFF", "recent_share_pct": "25.00"}}, "2026-09-25", schedule=SCHEDULE[1:])
-    check("published in-scope op WITH ledger row -> routed, not owed (overlap)", owed == 0 and any("✅ 2026-09-24" in l for l in lines))
+    lines, owed, gaps = pending_report([pub], prow, {}, "2026-09-25", schedule=SCHEDULE[1:])
+    check("published in-scope op, no ledger row -> OWED (gaps 0)", owed == 1 and gaps == 0 and any("🔴 2026-09-24" in l for l in lines))
+    import tempfile
+    tmp = tempfile.mkdtemp(); os.makedirs(os.path.join(tmp, "AGENTS/RED/inbox/processed")); open(os.path.join(tmp, "AGENTS/RED/inbox/processed/p.md"), "w").write("x")
+    lines, owed, gaps = pending_report([pub], prow, {"2026-09-24": {"op_date": "2026-09-24", "routed_to": "RED", "packet_path": "AGENTS/RED/inbox/p.md", "verdict": "OFF", "recent_share_pct": "0.00"}}, "2026-09-25", schedule=SCHEDULE[1:], repo_root=tmp)
+    check("published in-scope op WITH a VALID ledger row (path resolves via inbox/processed/) -> routed, not owed (overlap)", owed == 0 and gaps == 0 and any("✅ 2026-09-24" in l for l in lines))
+    lines, owed, gaps = pending_report([pub], prow, {"2026-09-24": {"op_date": "2026-09-24"}}, "2026-09-25", schedule=SCHEDULE[1:], repo_root=tmp)
+    check("ledger row with ONLY op_date does NOT discharge -> still OWED", owed == 1 and any("no verdict" in l or "no packet_path" in l for l in lines))
+    lines, owed, gaps = pending_report([pub], prow, {"2026-09-24": {"op_date": "2026-09-24", "routed_to": "RED", "packet_path": "AGENTS/RED/inbox/missing.md", "verdict": "OFF"}}, "2026-09-25", schedule=SCHEDULE[1:], repo_root=tmp)
+    check("ledger row whose packet_path resolves nowhere -> still OWED", owed == 1 and any("does not resolve" in l for l in lines))
+    # SAME-DATE MULTI-OP: the real 9/10 op plus a TIPS op on the same date would merge CUSIP sets -> blocked, a GAP, no verdict.
+    tips2, _ = _synth("2026-09-10", "10Y to 30Y", sectype="TIPS")
+    lines, owed, gaps = pending_report([fx["operation"], tips2], fx["security_details"], {}, "2026-09-11", schedule=[])
+    check("two ops on one date -> GAP, no verdict, nothing 'routed' or 'fires'", gaps == 1 and owed == 0 and not any("FIRES" in l or "ROUTED" in l for l in lines))
+    # DETAILS/OPS TOTAL MISMATCH -> blocked
+    bad = dict(fx["operation"]); bad["total_par_amt_accepted"] = "1.00"
+    lines, owed, gaps = pending_report([bad], fx["security_details"], {}, "2026-09-11", schedule=[])
+    check("details sum != ops row -> BLOCKED as a GAP, no verdict", gaps == 1 and owed == 0 and any("BLOCKED" in l for l in lines))
+    # UNCLASSIFIED (null field) on an in-window op -> GAP, never 'no read owed'
+    nul, nrows = _synth("2026-10-20", None)
+    lines, owed, gaps = pending_report([nul], nrows, {}, "2026-10-21", schedule=[])
+    check("null bucket on an in-window op -> UNCLASSIFIED GAP", gaps == 1 and any("UNCLASSIFIED" in l for l in lines) and not any("no F2 read owed" in l for l in lines))
+    ws, wrows = _synth("2026-10-20", " 20y TO 30Y  ")
+    check("whitespace/case-variant bucket still classifies IN scope", in_scope(ws)[0] is True)
+    # DETAILS WITHOUT AN OPS ROW -> visible as a GAP
+    lines, owed, gaps = pending_report([], [dict(operation_date="2026-10-20", cusip_nbr="Z", coupon_rate_pct="4.0", maturity_date="2050-05-15", par_amt_accepted="1000000.00", weighted_avg_accepted_price="99")], {}, "2026-10-21", schedule=[])
+    check("security_details rows with no ops row -> GAP (not invisible)", gaps == 1 and any("NO operations row" in l for l in lines))
+    # NULL CAP on an announced op does not crash the report
+    ann2, arows2 = _synth("2026-09-24", "20Y to 30Y", cap=None, rows=[{"cusip_nbr": "X1", "coupon_rate_pct": "4.000", "maturity_date": "2050-02-15", "par_amt_accepted": "null", "weighted_avg_accepted_price": "null"}])
+    lines, owed, gaps = pending_report([ann2], arows2, {}, "2026-09-24", schedule=[])
+    check("announced op with null cap -> reported, no crash", any("cap n/a" in l for l in lines))
+    # WINDOW EXPIRY: past 11/4 the tool is non-zero even when every scheduled op is routed
+    lines, owed, gaps = pending_report([], [], {}, "2026-11-20", schedule=[])
+    check("past WINDOW end -> ⛔ WINDOW EXPIRED gap, never rc=0", gaps >= 1 and any("WINDOW EXPIRED" in l for l in lines))
     mm = metrics(pub, prow)
-    check("synthetic recent_share = 25.00% (newest quartile = 2056-02-15 only... cut over 4 maturities -> idx 3)", round(mm["recent_share"] * 100, 2) == Decimal("0.00") or round(mm["recent_share"] * 100, 2) == Decimal("25.00"))
+    check("synthetic recent_share = 0.00% exactly (q=4 distinct maturities -> idx 3 -> cut 2056-02-15, whose par is 0)", round(mm["recent_share"] * 100, 2) == Decimal("0.00"))
     # POSITIVE DIRECTION of the guard: a majority into the newest quartile FIRES; exactly half does NOT (strict).
     fire, frow = _synth("2026-10-01", "10Y to 20Y", rows=[
         {"cusip_nbr": "A", "coupon_rate_pct": "1.125", "maturity_date": "2040-05-15", "par_amt_accepted": "1000000000.00", "weighted_avg_accepted_price": "60"},
@@ -357,14 +477,14 @@ def selftest():
     mt = metrics(fire, frow)
     check("synthetic exactly 50% -> does NOT fire (strict >)", mt["recent_share"] == Decimal("0.5") and mt["verdict"].startswith("OFF"))
     # SCHEDULE: a scheduled in-scope date absent from the feed is listed as scheduled (future) / flagged (past).
-    lines, owed = pending_report([], [], {}, "2026-09-17", schedule=SCHEDULE[1:])
-    check("schedule: 6 future in-scope ops listed 📅", sum(1 for l in lines if "📅" in l) == 6 and owed == 0)
-    lines, owed = pending_report([], [], {}, "2026-09-26", schedule=SCHEDULE[1:])
-    check("schedule: a PAST scheduled op missing from the feed is flagged 🔴", any("🔴 2026-09-24" in l for l in lines) and owed == 1)
+    lines, owed, gaps = pending_report([], [], {}, "2026-09-17", schedule=SCHEDULE[1:])
+    check("schedule: 6 future in-scope ops listed 📅", sum(1 for l in lines if "📅" in l) == 6 and owed == 0 and gaps == 0)
+    lines, owed, gaps = pending_report([], [], {}, "2026-09-26", schedule=SCHEDULE[1:])
+    check("schedule: a PAST scheduled op missing from the feed is a GAP 🔴 (not an owed read)", any("🔴 2026-09-24" in l for l in lines) and owed == 0 and gaps == 1)
     # WHOLE-SCHEDULE case as it stands on 2026-09-17: fixture 9/10 op ledgered, nothing owed, six scheduled.
-    lines, owed = pending_report([fx["operation"]], fx["security_details"], {"2026-09-10": {"routed_to": "RED", "packet_path": "AGENTS/RED/inbox/...", "verdict": "OFF-THE-RUN", "recent_share_pct": "1.82"}}, "2026-09-17")
-    check("full schedule on 2026-09-17: 9/10 routed, 0 owed, 6 scheduled", owed == 0 and sum(1 for l in lines if "📅" in l) == 6 and any("✅ 2026-09-10" in l for l in lines))
-    lines, owed = pending_report([fx["operation"]], fx["security_details"], {}, "2026-09-17")
+    lines, owed, gaps = pending_report([fx["operation"]], fx["security_details"], read_ledger(), "2026-09-17")
+    check("full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 6 scheduled", owed == 0 and gaps == 0 and sum(1 for l in lines if "📅" in l) == 6 and any("✅ 2026-09-10" in l for l in lines))
+    lines, owed, gaps = pending_report([fx["operation"]], fx["security_details"], {}, "2026-09-17")
     check("full schedule on 2026-09-17 with an EMPTY ledger: 9/10 is OWED (the L401 state before this tool)", owed == 1 and any("🔴 2026-09-10" in l for l in lines))
     print(f"[buyback_f2] selftest: {len(fails)} failure(s)")
     return 1 if fails else 0
@@ -396,12 +516,20 @@ def main():
             print(f"no operation dated {a.op} in the feed"); return 2
         rows = [r for r in sd if r["operation_date"] == a.op]
         ok, why = in_scope(op)
-        print(f"[buyback_f2] {a.op} {op.get('security_type')} / {op.get('maturity_bucket')} / {op.get('operation_type')} -> {'IN SCOPE' if ok else 'OUT OF SCOPE: ' + why}")
+        print(f"[buyback_f2] {a.op} {op.get('security_type')} / {op.get('maturity_bucket')} / {op.get('operation_type')} -> {'IN SCOPE' if ok else ('UNCLASSIFIED: ' if ok is None else 'OUT OF SCOPE: ') + why}")
+        if ok is not True:
+            print("   ⛔ no packet rendered -- F2 packets are for in-scope ops only"); return 2
+        if len([o for o in ops if o["operation_date"] == a.op]) > 1:
+            print("   ⛔ more than one operation on this date; details rows would merge -- grade by hand"); return 2
         if not published(rows):
             print("   results NOT published in security_details -- nothing to grade (do not quote the ops row)"); return 1
-        print(render_packet(metrics(op, rows)))
+        m = metrics(op, rows)
+        if m["accepted_ops_row"] is not None and m["accepted_ops_row"] != m["accepted_total_details"]:
+            print(f"   ⛔ details sum {m['accepted_total_details']} != ops row {m['accepted_ops_row']} -- no packet"); return 2
+        print(render_packet(m))
         return 0
-    return 1 if pending_check() else 0
+    count, failed = _pending()
+    return 2 if failed else (1 if count else 0)
 
 
 if __name__ == "__main__":

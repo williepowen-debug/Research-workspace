@@ -47,7 +47,7 @@
 No kill leg exists here, no counter moves, no add re-arms. A weak print is a **🟠 TIPS marker** and a data point on real-yield demand; a strong print is "real money buys 2.6% real" — consistent with, not evidence for, the duration thesis. **Grade composition, never the tape.** No tail may fire anything (retired 7/28, unscoreable).
 
 ## 3 · CONTEXT THAT TRAVELS WITH TODAY'S PRINT (stated pre-print so it cannot be promoted later)
-- **Day-after-FOMC + a 7% Brent drop the same morning** (BZ=F $98.37, −7.05% at 08:3x, BRENT's lane): breakevens already fell 5bp on 9/16 (`T10YIE` 2.38 → **2.33**; `T5YIFR` 2.35 → **2.31**) and an oil collapse pushes them further. **A TIPS auction on a falling-breakeven day is a real-yield-UP tape** — a soft print today has a non-structural explanation available and I will not read a demand hole into it.
+- **Day-after-FOMC + a ~4% Brent drop the same morning** (⚠️ **CORRECTED by PROME 9/17 ~09:0x, before the print:** this line first read *"a 7% Brent drop (BZ=F $98.37, −7.05%)"* — that was the continuous BZ=F series ROLLING Nov→Dec, not a price move; like-for-like Nov BZX26 $101.62 pre-open, **−3.98%** vs its $105.83 9/16 settle, on the Saudi half-capacity-restart press claim. Direction of the confound stands; magnitude is about half. BRENT's lane): breakevens already fell 5bp on 9/16 (`T10YIE` 2.38 → **2.33**; `T5YIFR` 2.35 → **2.31**) and an oil collapse pushes them further. **A TIPS auction on a falling-breakeven day is a real-yield-UP tape** — a soft print today has a non-structural explanation available and I will not read a demand hole into it.
 - **The 9/17 7Y–10Y buyback op runs 1:40–2:00 PM** — 40 minutes after the TIPS close; it touches nominal 2033–2036 paper, not TIPS. No contamination of the TIPS composition read; post-1:40 nominal tape is contaminated for the 7Y–10Y sector.
 
 ---
@@ -70,7 +70,7 @@ No kill leg exists here, no counter moves, no add re-arms. A weak print is a **�
 4. **`BND-25`** (belly-led on the FOMC session): vendor proxies say belly (5Y +3.3 vs 10Y +1.0, 30Y −1.5, 3M +1.0) — **not resolved on proxies**; the letter is the CMT set. Grade at the H.15 post.
 5. **C-36 read holds:** no front-end rally on a dovish median (2Y vendor n/a; 3M +1bp) — the policy-path channel is transmitting **and** the curve is ahead of the Fed. Not a label change.
 
-**What would change this read:** the 9/16 H.15 cells showing a belly rally ≥8bp (a repricing the vendor bars missed), or the 9/17–9/18 sessions delivering the rally with a one-day lag (the Brent −7% morning is a confound in the SAME direction as a dovish SEP — lower breakevens, so a real-yield read must separate the two before crediting either).
+**What would change this read:** the 9/16 H.15 cells showing a belly rally ≥8bp (a repricing the vendor bars missed), or the 9/17–9/18 sessions delivering the rally with a one-day lag (the Brent −4% like-for-like morning is a confound in the SAME direction as a dovish SEP — lower breakevens, so a real-yield read must separate the two before crediting either).
 
 ---
 
@@ -91,6 +91,9 @@ No kill leg exists here, no counter moves, no add re-arms. A weak print is a **�
 
 **The carrier, built this session:** `monitors/buyback_f2.py` (+ `registry/f2_reads.tsv` ledger, + `monitors/fixtures/buyback_20260910.json`), **invoked from `boot_recompute.py` every boot** so it needs no memory. Semantics: rc=1 = an in-scope op has PUBLISHED with no ledgered read (fail loud); rc=0 = nothing owed *now*; rc=2/GAP = fetch failure. Out-of-scope ops are listed with the reason, never dropped. `--op DATE` renders the RED packet; `--history` base-rates the metric. **Metric declared (BOND, not Will-ruled): recent_share = accepted par in the newest quartile of the eligible list by maturity ÷ total accepted; ON-THE-RUN fires iff > 50% (strict). Base rate 0 of 52 long-end LS ops since 2024-06-05 (max 47.4%, the programme's first op; median 0.0%).** Selftest 22 assertions: the real 9/10 op reproduces RED's 75.09% / 71.39%; wrong-owner (TIPS, 7Y–10Y, cash-mgmt) excluded; missing-information (announced, null results) not owed today / owed if past; overlap (ledgered) not owed; positive direction (75% fires, exactly 50% does not); schedule-vs-feed both ways. **IMPLEMENTED ✅ · TESTED ✅ (author's suite) · INDEPENDENTLY VERIFIED ❌** — the neighbour case *concurrent activity* is N/A (single writer, append-only ledger).
 
+> ### Declared residue — added 2026-09-17 ~09:1x ET, after the blind read
+> **BLIND READ (coldreader, 2026-09-17 ~09:0x ET, 17 findings) — 10 ❌ FIXED THE SAME SESSION, selftest 22 → 31 assertions:** window-expiry alarm past 11/4 (the carrier had dated itself — L401's own defect one quarter out) · same-date multi-op guard + blocking details-vs-ops totals check (two ops on one date merged CUSIPs and flipped the verdict to FIRES) · OWED and DATA-GAP counters split and both named in the summary · a ledger row discharges only with a verdict AND a packet_path that resolves (inbox/ or inbox/processed/ — the one live row pointed at a path RED had already git-mv'd) · normalised scope match, null-field in-window op ⇒ UNCLASSIFIED gap, never "no read owed" · `--op` refuses to render a packet for an out-of-scope op · two one-sided selftest assertions tightened to exact values · rc=2 reachable from the CLI · enumeration = ops ∪ details dates · null-cap guard. **⚠️ RESIDUE DECLARED, NOT FIXED (WQ-178):** the "newest quartile" cut is 20–50% of DISTINCT maturities under banker's rounding (q=5 ⇒ newest 1 of 5) — the 0/52 base rate was computed under the same rule so it stands, but the label overstates precision; `buybacks_operations` has no total-count truncation guard (223 < 500 today); an all-zero-par published op yields verdict `None` (counted OWED); printed "rc=" lines are prose over a COUNT that boot adds to drift. **States: IMPLEMENTED ✅ · TESTED ✅ (31 assertions incl. the reader's counterexamples as fixtures) · INDEPENDENTLY READ ✅ (the happy path reproduced by the reader against the primary; the FIXES are author-tested only, not re-read).**
+
 ---
 
 ## 6 · LIVE MARKET STATE AT AUTHORSHIP (root rule #4)
@@ -106,7 +109,7 @@ FRED cache-busted 08:2x ET · yfinance closes.
 | HY / CCC / BB / IG OAS | 276 / **1085** / 161 / 80 | 9/15 | CCC **15bp** from the 1100 line (`BND-27`, 65% on the no-breach side); CCC−BB 924 |
 | `IORB` | **3.90** | 9/17 | the hike, at the administered rate |
 | TLT / TIP / MOVE | 80.88 (+0.21%) / 105.39 (−0.38%) / 80.73 | 9/16 close | |
-| Brent / VIX | $98.37 (−7.05%) / 15.70 (−11.35%) | 9/17 08:3x | BRENT/VIOLET lanes; cited for the breakeven confound only |
+| Brent / VIX | BZX26 $101.62 (−3.98% like-for-like; the −7.05% BZ=F print was a roll artifact — PROME correction 9/17) / 15.70 (−11.35%) | 9/17 08:3x | BRENT/VIOLET lanes; cited for the breakeven confound only |
 
 ## 7 · WHAT I WILL DO AT 1:00PM, IN ADVANCE
 1. Pull `91282CRE3` at TA_WS; recompute ind/dir/dlr as % of competitive accepted **from raw dollar fields**.

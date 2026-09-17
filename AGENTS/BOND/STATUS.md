@@ -29,7 +29,7 @@
 | 2Y (DGS2) · 1Y (DGS1) | **4.67% · 4.39%** | 🟠 ↑ | [CONF FRED **9/15**] — 4.56 → 4.63 → 4.65 → **4.67**; **1y1y (2×2Y−1Y) = 4.95 = `BND-26`'s line, one day before its window opens** |
 | **10Y real (DFII10)** | **2.62%** | 🔴 **GATE THROUGH** | [CONF FRED **9/15**] — **+12bp above 2.50**; 2.55 · 2.60 · 2.60 · **2.62** = **4 published sessions ≥2.50 ⇒ `BND-29` TRUE**. 98.8th pctile full (n=5,930), 100.0th post-2010 |
 | 5Y5Y fwd (T5YIFR) | **2.31%** | 🟡 ↓ | [CONF FRED **9/16**] — −4bp on FOMC day; 19bp from its bar |
-| 10Y BE (T10YIE) | **2.33%** | 🟡 ↓ | [CONF FRED **9/16**] — 2.38 → **2.33** on FOMC day: **breakevens FELL while TIP −0.38% ⇒ the 9/16 move is REAL-led again** (`KB-BND-293`); Brent −7% on 9/17 morning pushes the same way (BRENT's lane) |
+| 10Y BE (T10YIE) | **2.33%** | 🟡 ↓ | [CONF FRED **9/16**] — 2.38 → **2.33** on FOMC day: **breakevens FELL while TIP −0.38% ⇒ the 9/16 move is REAL-led again** (`KB-BND-293`); Brent −4% like-for-like (BZX26 $101.62 pre-open, −3.98% vs its $105.83 9/16 settle; ⚠️ PROME correction 9/17 ~09:0x — this desk first wrote −7.05%, which was the continuous BZ=F rolling Nov→Dec, not a price move) on 9/17 morning pushes the same way (BRENT's lane) |
 | ACM 10Y TP · KW TP | 0.7073 [9/9] · 0.8892 [9/4] | 🟠 `[STALE 9/17]` | [NY Fed `ACM Daily` · FRED `THREEFYTP10`] — not re-pulled this session; 2026 max 0.8935 [8/17] / 0.8996 [9/1] |
 | **HY OAS** | **276bps** | 🟢 ↑ | [CONF FRED `BAMLH0A0HYM2` **9/15**] — 265 [9/11] → 271 → **276**: +11bp in two sessions, still inert at the index (2026 max 346) |
 | **CCC OAS** | **1085bps** | 🟠 ↑ | [CONF FRED `BAMLH0A3HYC` **9/15**] — **fresh 2026 high** (1076 → 1081 → 1085); ratio 3.93x; **15bp from the 1100 line** |
@@ -39,7 +39,7 @@
 | IORB · DFF | **3.90 [9/17]** · 3.63 [9/15] | 🟢 | [CONF FRED] — the hike in the administered rate; SOFR not re-pulled (LIQUID owns) |
 | TLT · TIP · ^MOVE | **$80.88 +0.21%** · $105.39 −0.38% · 80.73 | 🟠 | [yfinance **9/16 close**, via the repo venv — a MOMENT property, re-pull at any decision (root rule #4)] |
 | JGB 10Y · EA AAA 10Y · UK 10Y · Bund/OAT/BTP | 2.891 [MOF 9/9] · 3.378 [ECB 9/8] · 5.108 [BoE 9/7] · 3.40/4.26/4.29 [TE 9/9, secondary] | 🟠 `[STALE 9/17]` | Not re-pulled this session; SAM / HANS / LIQUID own the levels |
-| USD/JPY · Brent · VIX | **cite SAM · BRENT · VIOLET** | — | owners' STATUS files — this desk keeps NO copy (Brent −7.05% / VIX −11% at 08:3x cited for the breakeven confound only) |
+| USD/JPY · Brent · VIX | **cite SAM · BRENT · VIOLET** | — | owners' STATUS files — this desk keeps NO copy (Brent −3.98% like-for-like BZX26 [PROME-corrected from the −7.05% BZ=F roll artifact] / VIX −11% at 08:3x, cited for the breakeven confound only) |
 
 ### Gate distances — the numbers that drive decisions *(recomputed every boot, never carried)*
 
@@ -113,7 +113,7 @@
 
 | Date | Catalyst | What BOND watches |
 |---|---|---|
-| ⏳ **Thu 9/17 1PM** | **10Y TIPS REOPENING `91282CRE3` $19B** (settles 9/30) — **bars frozen 9/9 (`742d4533e`), reproduced 08:2x** | ind <56.08 AND dlr >17.79 · cover BTC <2.20 · medians 66.94 / 10.64 / 2.40. **No `I'`; TIPS never count.** Real stop vs DFII10 2.62; a stop >2.438 = highest 10Y TIPS stop since 2008-10-08 (TA_WS, n=139). Confound stated pre-print: day-after-FOMC + Brent −7% ⇒ real-yield-UP tape. → `analysis/2026-09-17_PREPRINT_TIPS-R_91282CRE3_SEP-grade_F2-carrier.md` |
+| ⏳ **Thu 9/17 1PM** | **10Y TIPS REOPENING `91282CRE3` $19B** (settles 9/30) — **bars frozen 9/9 (`742d4533e`), reproduced 08:2x** | ind <56.08 AND dlr >17.79 · cover BTC <2.20 · medians 66.94 / 10.64 / 2.40. **No `I'`; TIPS never count.** Real stop vs DFII10 2.62; a stop >2.438 = highest 10Y TIPS stop since 2008-10-08 (TA_WS, n=139). Confound stated pre-print: day-after-FOMC + Brent −4% like-for-like (PROME-corrected from −7%, a roll artifact) ⇒ real-yield-UP tape. → `analysis/2026-09-17_PREPRINT_TIPS-R_91282CRE3_SEP-grade_F2-carrier.md` |
 | **Thu 9/17 1:40 PM** | **7Y–10Y liquidity-support buyback op, cap $4B, 10 eligible 2033-11 → 2036-02** | **OUT of the F2 letter's scope** (not a stepped-up sector) — recorded as context, no packet to RED. Post-1:40 nominal 7–10Y tape contaminated. |
 | 🔴 **Fri 9/18** | **FR2004 WEEKLY JOIN — WQ-157 leg ②** (PROME WQ 157 · DOCKET L271) | Join coupon auctions to the contemporaneous FR2004 long-end print (+ SOFR−IORB); base-rate `I'` + mechanism confirmation; **state the SBN2022/SBN2024 comparability verdict.** n ≤ 244. **The 9/15 `I'` fire waits on it.** |
 | **Tue 9/22 · Wed 9/23 · Thu 9/24** | **2Y `91282CRP8` · 5Y `91282CRN3` · 7Y `91282CRM5`** month-end cluster (+ 2Y FRN-R 9/23, excluded from every bar); sizes at the 9/17 announcement | **`I'` bars RE-FROZEN 9/17 (venv, P15, strictly prior): 54.82 · 60.27 · 57.24 — UNCHANGED**; OLD 53.21/24.12 · 59.24/15.61 · 56.42/13.14; cover BTC <2.44 · <2.28 · <2.40. Counter re-arms at the 2Y. |
@@ -137,9 +137,9 @@
 
 🔴 **`DFII10` 2.62 [9/15] = +12bp through the add-gate for a FOURTH published session ⇒ `BND-29` TRUE (70% hit): the breach is PERSISTENT, and the named threat to its persistence (a dovish SEP) arrived and did nothing.** Still authorises NO add — the count is Will's (WQ-246), 7/16 NO-ADD, root rule #5. `$0`.
 
-🟠 **1:00 PM — 10Y TIPS-R `91282CRE3` $19B, bars frozen 9/9 and reproduced this morning** (ind <56.08 AND dlr >17.79 · cover <2.20; no `I'`; never counts). A stop above 2.438 is the highest 10Y TIPS stop since Oct-2008. **Confound stated before the print: FOMC-day-after plus a 7% Brent drop is a real-yield-UP, breakeven-DOWN tape — a soft print has a non-structural explanation and will not be read as a demand hole.**
+🟠 **1:00 PM — 10Y TIPS-R `91282CRE3` $19B, bars frozen 9/9 and reproduced this morning** (ind <56.08 AND dlr >17.79 · cover <2.20; no `I'`; never counts). A stop above 2.438 is the highest 10Y TIPS stop since Oct-2008. **Confound stated before the print: FOMC-day-after plus a ~4% like-for-like Brent drop (BZX26 −3.98%; my first −7% figure was the BZ=F roll, corrected by PROME pre-print) is a real-yield-UP, breakeven-DOWN tape — a soft print has a non-structural explanation and will not be read as a demand hole.**
 
-⬜ **F2 PER-OP CARRIER BUILT (L401)** — `monitors/buyback_f2.py` + `registry/f2_reads.tsv`, every boot. **Zero in-scope ops have run since 9/10** (9/15 was TIPS; today's is 7Y–10Y) ⇒ **zero arrears; the gap was structural.** Six in-scope reads remain, 9/24 → 11/4. Metric declared and base-rated (0/52); selftest 22/22; **not independently verified.**
+⬜ **F2 PER-OP CARRIER BUILT (L401)** — `monitors/buyback_f2.py` + `registry/f2_reads.tsv`, every boot. **Zero in-scope ops have run since 9/10** (9/15 was TIPS; today's is 7Y–10Y) ⇒ **zero arrears; the gap was structural.** Six in-scope reads remain, 9/24 → 11/4. Metric declared and base-rated (0/52); **blind-read pre-closeout: 10 ❌ fixed (selftest 31/31), 7 ⚠️ residue declared** in the pre-print record §5.
 
 🔴 **TOMORROW 9/18: the FR2004 join** — the kill leg is unevaluable and a live `I'` fire (9/15) sits behind it. **That is the desk's critical path, not a build task.** Also owed: `BND-25`/`BND-26` on the 9/16 H.15 cells; the hyperscaler share is **DECLINED** (`KB-BND-297`).
 
