@@ -6,6 +6,13 @@ origin, zero uncommitted work in `AGENTS/DAEDALUS/`.** Externalisation only — 
 
 ---
 
+## 0. 2026-09-17 — P4 delivered as a written package; what a cold boot must know (newest entry; §1–§6 below are the 9/14 entry, still true)
+
+- **What changed:** `runs/2026-09-17_P4_SITTING_RULING_PACKAGE.md` — nine ⚖️ decision rows (§0) for Will via PROME; the 9/5 walk refreshed to today's register (every case now has a row and a receipt; 35/43 receipts have no evidence syntax ⇒ D3). `runs/2026-09-17_L247_V04_REVIEW.md` — FAIL, 1 blocking (my 9/12 token split not applied). `design/2026-09-17_READ_CAP_RULE5_ADDENDUM-PROPOSAL.md` — canon draft, plan read owed, encode 9/18. Inbox 5 → 0. STATUS 9/14 header → archive block AN (crc `75adbe6b`).
+- **Decisions needed from Will:** D1–D9 in the package §0 (PROME registers the rows). Nothing of mine moves before the word except the 9/18 riders.
+- **Risks/blockers:** ⛔ **`corrections_boot_check` returns rc 1 at HENRY (6 rows) · ZHAO · WAL · HANS · WATT, all with commits 9/15–9/16 — the guard is being overridden.** ⚠️ PR#6 (9/15) and GATE_BASIS #1 (9/16) did NOT run — no session existed; slated to PROME, not re-dated by me. ⚠️ The walk pre-read lived only in PROME's file (its own spec said so) — this package is the DAEDALUS-side artifact; do not re-walk.
+- **Next:** 9/18 WQ-171 ③ with five riders + the capacity-population re-derivation; PR#6 + GATE_BASIS #1 first if not re-dated; P4 encode commit + D4 checker on the word; `--closure` build only after D3+D4.
+
 ## 1. READ THIS FIRST AT YOUR NEXT BOOT — two findings that outlive their commit messages
 
 ### ① 🔴 MY OWN INSTRUMENT PRODUCED A FALSE BREACH, AND IT NEARLY COST A LIVE CONTRACT
