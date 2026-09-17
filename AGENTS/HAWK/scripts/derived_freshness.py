@@ -29,8 +29,8 @@ DEPENDENCIES = {
     OWN + "domain/energy-strikes/CROSS_WAR_SUMMARY.md": [
         "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv",
         "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv",
-        "AGENTS/OSPREY/domain/energy-strikes/ANALYSIS_2026-09-08.md",
-        "AGENTS/FALCON/domain/energy-strikes/ANALYSIS_2026-09-08.md",
+        "AGENTS/OSPREY/research/2026-09-16_cross-war-oil/REPORT.md",
+        "AGENTS/FALCON/reports/2026-09-16_cross-war-oil-review.md",
         "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv",
         *BRIEFS,
     ],

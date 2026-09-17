@@ -72,3 +72,7 @@ Moved from `CLAUDE.md` on 2026-09-08 to keep boot instructions within the whole-
 **September8 steps1–3 follow-up:** actual added-path listing reconciled with the audit/source class rules. `audits/2026-09-08_next-steps-1-3*` and `audits/2026-09-08_HAW-19_data-feasibility.md` are dated evidence; `domain/sources/2026-09-08_next-steps-1-3/` contains public snapshots, manifest, baseline extraction and `steo_extract.py` (offline, explicit-vintage input; no live monitor). Existing proposal remains a draft.
 
 **September8 batch2 inventory:** actual new-path listing reconciled. `proposals/2026-09-08_batch2_rule-decisions.md` is a draft decision packet; `design/HAW19_MEASUREMENT_DRAFT.md` is the current prospective measurement v2, not registered. `audits/2026-09-08_batch2*` are dated evidence/acceptance; `domain/sources/2026-09-08_batch2/` holds nine public snapshots, manifest and an offline draft/source verifier. Existing dictionary remains pending owner confirmation. No new live monitor.
+
+## September16 synthesis inventory
+
+Actual additions: `research/2026-09-16_cross-war-oil-review.md` is the dated commissioned synthesis; `domain/sources/2026-09-16_cross-war-route-source.md` records the bounded EIA topology check. `archive/2026-09-16_before-cross-war-review_*` preserves prior STATUS, SCRATCH and NEXUS_BRIEF verbatim. Inbox handoffs and processed mail remain under existing class rules. No new monitor or standing research mandate.

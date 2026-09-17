@@ -4,7 +4,7 @@
 >
 > **Purpose:** one page that answers, for every live claim this desk owns, **"what would have to be observed for this to be WRONG, by when, measured with what instrument."** Content spec inherited from the frozen `workbook/EXIT_PROTOCOL.md` §F4 (FLOW-19 kill criteria · FLOW-20 fire criteria · the transit-decomposition falsifier · per-row dormant-book promotion gates).
 >
-> ⚠️ **THIS SURFACE IS DERIVED AND THEREFORE ROTS AT THE CADENCE OF ITS REGENERATION, NOT ON ITS OWN** (`LESSONS.md` 2026-07-25 item 2). **Refreshed: 2026-09-10T22:07:01+00:00.** **September10 (second touch, evening): THREE WILL RULINGS ENCODED — WQ-208 (HAW-18's scored mark is the 55%), WQ-211 (N6 AGREEMENT rule prospective from the October STEO; TRADE-01 legally-adopted = escalation stage, mark YELLOW → ORANGE), WQ-212 (HAW-19 resolves 9/30 as a DEFECTIVE INSTRUMENT with NO calibration credit; capacity-only successor owed by 9/25).** **September10 (first touch): K2 REGAINED A LIVE INSTRUMENT — HAW-19 LEG A was repaired under WQ-160 (Will-ruled), so the K2 row below is rewritten and no longer reads UNFIREABLE. ⚠️ THESE TWO DO NOT CANCEL: the repair restores resolvability FORWARD from 9/10, the disposition denies calibration credit for the 21 days LEG A was unfireable.** Prior: September8 batch2 reconciliation; original tests preserved. Proposed decisions: proposals/2026-09-08_batch2_rule-decisions.md; successor measurement: design/HAW19_MEASUREMENT_DRAFT.md. Taiwan-own operative warnings recovered; advisory actor ambiguity remains, not a verified PLA traffic effect. Re-read at every HAWK closeout; re-stamp even on a no-change pass. Original registered tests remain unchanged; `thesis/PREDICTIONS.tsv` governs whenever a summary differs.
+> ⚠️ **THIS SURFACE IS DERIVED AND THEREFORE ROTS AT THE CADENCE OF ITS REGENERATION, NOT ON ITS OWN** (`LESSONS.md` 2026-07-25 item 2). **Refreshed: 2026-09-16.** September16 cross-war review: prior tests and approvals preserved; current supply/delivery loss is unquantified, not zero. See `../research/2026-09-16_cross-war-oil-review.md`.  **September10 (second touch, evening): THREE WILL RULINGS ENCODED — WQ-208 (HAW-18's scored mark is the 55%), WQ-211 (N6 AGREEMENT rule prospective from the October STEO; TRADE-01 legally-adopted = escalation stage, mark YELLOW → ORANGE), WQ-212 (HAW-19 resolves 9/30 as a DEFECTIVE INSTRUMENT with NO calibration credit; capacity-only successor owed by 9/25).** **September10 (first touch): K2 REGAINED A LIVE INSTRUMENT — HAW-19 LEG A was repaired under WQ-160 (Will-ruled), so the K2 row below is rewritten and no longer reads UNFIREABLE. ⚠️ THESE TWO DO NOT CANCEL: the repair restores resolvability FORWARD from 9/10, the disposition denies calibration credit for the 21 days LEG A was unfireable.** Prior: September8 batch2 reconciliation; original tests preserved. Proposed decisions: proposals/2026-09-08_batch2_rule-decisions.md; successor measurement: design/HAW19_MEASUREMENT_DRAFT.md. Taiwan-own operative warnings recovered; advisory actor ambiguity remains, not a verified PLA traffic effect. Re-read at every HAWK closeout; re-stamp even on a no-change pass. Original registered tests remain unchanged; `thesis/PREDICTIONS.tsv` governs whenever a summary differs.
 >
 > **What this surface is NOT:** it is not a forecast, not a mark, and not a trade rail. Every gate below is a *test*, and several are deliberately hard to fire. A falsifier that cannot fire is worthless — where I judge one to be near-unfireable I say so on the row rather than letting it stand as false comfort.
 
@@ -12,7 +12,7 @@
 
 ## 1 · `FLOW-HAWK-19` — KILL CRITERIA (the canonical cross-war transmission thesis)
 
-**The claim:** the binding constraint on how war stress reaches oil **MIGRATED** from physical destruction to **insurer/owner WILLINGNESS**. Three branches: **(a)** damage realized → supply priced; **(b)** no damage + tolerance holds → decoupling; **(c)** *the July path* — no damage + tolerance **breaks** → premium reprices with zero barrels lost.
+**The historical claim:** the binding constraint on how war stress reached oil **MIGRATED** from physical destruction to **insurer/owner WILLINGNESS**. **September16 assessment:** the reported Saudi transport shutdown/delivery interruption means willingness cannot be assumed to be the sole current constraint. A realized reversible interruption and destroyed capacity remain distinct; the full registered K2 conjunction has not been established by the reviewed reports. Three branches: **(a)** damage realized → supply priced; **(b)** no damage + tolerance holds → decoupling; **(c)** *the July path* — no damage + tolerance **breaks** → premium reprices with zero barrels lost.
 
 | # | What would KILL it | Instrument (named) | Status |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Registered explicitly as a **LOW-PROBABILITY TAIL**, superseding FLOW-13 and FLO
 
 ## 3 · THE TRANSIT-DECOMPOSITION FALSIFIER — denial vs rerouting
 
-**The claim (verified 2026-08-15):** the Hormuz/Red Sea blockade is **REDIRECTING** flow at the TRANSIT layer, not **DENYING** it. The LOADING layer is **INDETERMINATE** — FALCON's `GATE-FALCON-001` leg-3 fired on Yanbu and its §4 rules out rerouting as the cause; Will ruled `R3 = HOLD` 8/15.
+**Historical August15 claim, not a September16 certification:** the Hormuz/Red Sea blockade is **REDIRECTING** flow at the TRANSIT layer, not **DENYING** it. The LOADING layer is **INDETERMINATE** — FALCON's `GATE-FALCON-001` leg-3 fired on Yanbu and its §4 rules out rerouting as the cause; Will ruled `R3 = HOLD` 8/15.
 
 **The discriminating instrument, stated as a rule:**
 
@@ -149,7 +149,7 @@ Full specs, non-fires, NO-VERDICT bands and confidence derivations: `thesis/PRED
 ## 7 · WHAT THIS SURFACE STILL DOES NOT COVER — stated, not hidden
 
 - **K3 (the level-vs-willingness confound) is untestable today** and is the thesis's weakest joint.
-- **Premium evidence remains stale:** Hormuz July22 is48 days old; newest recovered Black Sea1% is an August21 Noah relay citing Gibson, at least18 days old with original assessment date UNKNOWN. No matched current ratio or automatic premium-test grade; see the war-risk aggregate.
+- **Premium evidence remains stale:** Hormuz July22 is56 days old on September16; newest recovered Black Sea1% is an August21 Noah relay citing Gibson, at least26 days old with original assessment date UNKNOWN. No matched current ratio or automatic premium-test grade; see the war-risk aggregate.
 - **The shadow-fleet ENFORCEMENT lane is unbuilt** on a dead instrument (`sanctions_tracker.py` renders hardcoded constants as live readings). ⚠️ Before building: **"dark" is an AIS BEHAVIOUR; "shadow fleet" is an OWNERSHIP/SANCTIONS STRUCTURE** — only the latter carries cross-theater transmission.
 - **`TRADE-02`'s Red band has no operational definition** (§4).
 - **The `VEN-01` ladder cannot represent its own history:** its Red band ("intervention announced") **already fired on 2026-01-03** and the row has since settled to GREEN on normalization. A one-way event band on a row that mean-reverts is a latent repeat of the HAW-03 failure — **flagged, not patched.**
