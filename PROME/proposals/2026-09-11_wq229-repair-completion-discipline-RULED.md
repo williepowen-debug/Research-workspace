@@ -1,6 +1,6 @@
-# WQ-229 PROPOSAL — repair-completion discipline (external review, CODEX, 2026-09-11)
+# WQ-229 RULED — repair-completion discipline (external review, CODEX, 2026-09-11)
 
-**Status:** PROPOSAL, awaiting Will's word. **Raised by:** CODEX, after two rounds of audit on PROME's tools.
+**Status:** RULED — Will APPROVE via Decision Deck tap 2026-09-17T22:04:40Z (doc `229-20260917220440559-nn6217`), no note; consumed 2026-09-17 18:37 ET by `prome-89`. The standing instruction is adopted as PROME practice verbatim; evidence supplied UNPROMPTED thereafter (never per repair; refinement 1). **Raised by:** CODEX, after two rounds of audit on PROME's tools.
 **PROME rec:** ADOPT. **Registered:** `PROME/WILL_QUEUE.md` WQ-229 before the ask, per the queue's own rule.
 
 ## What CODEX actually said, and why it is right
