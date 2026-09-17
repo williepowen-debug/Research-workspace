@@ -3,12 +3,11 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Owner grades are delivered; capital authority is unchanged.** The completed TERRY/BOND reads are at DOCKET L356/L357. Current gate state and Will's instructions remain at GATES/WILL_QUEUE; no add or trade was authorized by this Codex implementation session.
-- **Broker actions first:** the generated action list separates approval, order and fill evidence. **9/11:** the XLE 65C ×1 survivor is SOLD — filled $1.51 at ~10:07 ET; the RH USO 150/165 spread was CLOSED by your hand 9/10 (+$330) and is **not** a live position, however it reads on older surfaces.
-- **Management gaps:** the position table identifies which exact contracts have a verified mapping and which require PROME/TERRY follow-through. The USO 37 shares carry NO rule by your 9/10 word (WQ-200 declined).
+- **Post-FOMC regime:** the Fed hiked to 3.75–4.00% on 9/16 (12–0); the tape moved in oil, not rates — Brent Nov −4% on a Saudi restart claim that is press, not a measured barrel. HEARTBEAT's 9/17 base carries the read; owner grades are at DOCKET L276 (VIOLET), L318 (BRENT), L332 (MARCO) and L404 (BOND, grade owed after the 13:00 TIPS print).
+- **Broker actions first:** two Robinhood options expired 9/16 (USO 165C, QQQ 713C) with disposition unknown to the fleet — WQ-169 fact 4. The VLO re-affirm (WQ-213) is due 9/18. No add or trade was authorized today.
+- **Decisions:** WQ-254 (nine-part correction-closure package, rec attached) and WQ-230 (war-risk leg: retire to dormant under the 8/21 WQ-41 trigger) are the two that want a word; approvals come from WILL_QUEUE only.
+- **Cost rule (your 9/17 word):** every subagent spawns on Opus; the nine desk sessions this morning ran on Fable by omission and that is recorded in memory.
 - **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
-- **Decisions:** current approvals come from WILL_QUEUE. Previously ruled items are not fresh requests; permanent unknowns are not repeated asks.
-
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
 - **TERRY** · Mon 9/14, first on the slate · **the 004 add line is THROUGH — `DFII10` 2.55 [9/10 official] vs the card's 2.50 add line, first touch ever (DOCKET L356).** Grade it on the card's own letter; ⛔ the LEVEL-vs-SUSTAINED disagreement with BOND is named, not settled. NO-ADD governs regardless.
