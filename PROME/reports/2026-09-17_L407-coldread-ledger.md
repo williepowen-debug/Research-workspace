@@ -77,3 +77,92 @@ SCORE: 27/49 ✅ · 14 ⚠️ · 8 ❌
 
 POINTERS: 61/62 resolve (30 file paths, 23 commit shas, 9 DOCKET line citations); dead: AGENTS/TERRY/workbook/RISK_SCORING.md (DOCKET L379 artifact cell) — the file lives at AGENTS/TERRY/RISK_SCORING.md.
 ONE-LINE VERDICT: No — the mechanical spine holds (line citations, crc32, deck regen, 13-cell schema, rotation all verify), but a cold reader acting off this file alone would carry away the wrong model-cost story (❌9), the wrong spawn count (❌10), a scope line promising three DOCKET rows the diff never shows (❌27), and ask-timestamps that cannot be trusted to precede their receipts (❌35).
+
+---
+
+# SECOND READ — the independent reader over the CHANGED PORTION (L407 done-condition (iii))
+**Reader:** `l407fixcold` touch 2 (touch 1 died at 10:20 ET on the harness session limit before verifying a claim; account hold lifted 13:10) · **Artifact:** the fix-diff bundle, 44,544 B (measure.py) = `git diff 0f17ac8c2` on six PROME files · **Score:** 25/44 ✅ · 15 ⚠️ · 4 ❌ · **Delivered** 13:15 ET.
+
+## PROME dispositions of the ❌ (applied 13:1x ET; the SECOND correction pass on HANDOFF · SCRATCH · ORCH_LOG ⇒ those three files are CLOSED for this session under the two-correction stop)
+| ❌ | Disposition | Where |
+|---|---|---|
+| 10 "the ONE exception" is five | **FIXED — and the first fix was WRONG, not merely imprecise**: the date-keyed rule cannot be stated truthfully (filename dates are entry dates). Replaced with the verifiable rule: a header-declared crc verifies its file; crc-less files (several, three named) are verified by `git show` of the rotating commit found with `git log --diff-filter=A`. | `HANDOFF.md` Archive line |
+| 28 SCRATCH slate ≠ HANDOFF slate | **FIXED** — the card now names both vintages: the driver's DARK due rows (FERT · REGINALD · RED · HENRY) + SHADE (Tier-2) + the 09:1x closeout's TERRY (L379) and OSPREY (L397), which the driver suppresses as annotated rows. | `SCRATCH.md` operator card |
+| 38 / 39 "record time" precedes `observed_at` in 11/11 cells | **FIXED — the first relabel asserted a basis it did not have** (`finding_a_charitable_reading_of_your_work_is_the_one_to_check`). The fragments are the prior session's original stamps, of UNKNOWN basis, several equal to a neighbouring row's time. Relabelled: `superseded prior-session stamp 12:MM:SSZ (basis UNKNOWN — NOT the ask time and NOT this row's record time; kept verbatim)`. `orch_log.py check` rc 0. | `state/ORCH_LOG.tsv` rows 161–172 |
+
+**No third read** (PROME/CLAUDE.md read budget: a third read is allowed once, only when a ❌ fix changed a RULE's meaning; none did — a label, a list and a verification route). Residue below is declared, not fixed.
+
+## Declared residue — second reader's ⚠️ (15), carried
+⚠️4 "CATO `175525294`" is a commit sha, not a run id — cite the run file beside it next time · ⚠️8/15 two accounts of why "12" (windows vs "omitted ARGUS") — the STATUS one is the fuller · ⚠️12 "git show of the rotating commit" names no sha (fixed by the ❌10 re-wording: `git log --diff-filter=A`) · ⚠️16 STATUS `Updated:` stamp still 09:1x over a 10:2x-corrected body — refreshed at closeout · ⚠️18 SCRATCH tape line's Brent/VIX neighbours undated while the USD/JPY clause is dated · ⚠️20 three clocks on the card with no ordering (closeout 09:1x → boot 09:53 → re-base 10:2x is the order) · ⚠️23 13:00 print vs 13:02 grade are two events · ⚠️25 `WQ-225` grep form vs the ledger's bare `| 225 |` id column · ⚠️33 ledger header lines are 1-cell comments, exempt from the 13-cell check · ⚠️37 DAEDALUS's stamp EQUALS its receipt and a neighbour's `observed_at` · ⚠️40 BOND's and argus's ask cells (different shape) untouched — ZHAO's fragment inside BOND's cell, argus's doubled prefix · ⚠️41/44 bundle self-stamps (base HEAD, build time earlier than an edit it carries — the bundle was rebuilt after the SCRATCH card edit; the header line was not) · ⚠️42 index blob unresolvable post-build (expected).
+
+## Second reader's report, verbatim
+COLDREADER · /tmp/claude-1000/-home-willi-Research-workspace-PROME/4ca38303-430c-44a8-a288-645d893da924/scratchpad/L407_fixdiff_bundle.md · 44544 B · 44 claims
+SCORE: 25/44 ✅ · 15 ⚠️ · 4 ❌
+
+❌ 10 HANDOFF "the ONE exception" to the archive-crc rule — four other crc-less rotations from 2026-08-13 onward; two declare it in their own headers.
+  artifact L26: "rotations from 2026-08-13 onward carry a block crc32 in their header — older files do not; the ONE exception is `HANDOFF_2026-08-16_S3_PROME-SYSTEMS.md`, a single-session entry rotated whole with no crc"
+  `PROME/archive/HANDOFF_2026-08-11_FORUM4-CLOSE.md:1`: "*Rotated out of PROME/HANDOFF.md 2026-08-13 closeout; entry preserved verbatim below.*"  → `grep -c crc32` = 0
+  `PROME/archive/HANDOFF_2026-08-12_LATE-S3.md:1`: "# HANDOFF archive — 2026-08-12 LATE (SESSION 3) entry, rotated out 2026-08-16 closeout"  → `grep -c crc32` = 0
+  Also crc-less and `git log --diff-filter=A` added on/after 8/13: HANDOFF_2026-08-10_FORUM-CANON.md (added 2026-08-13), HANDOFF_2026-08-12_CPI-DAY.md (added 2026-08-14).
+  (True only if "rotations from 2026-08-13" is read as the FILENAME date, which is the entry date, not the rotation date the sentence names. Five exceptions, not one.)
+
+❌ 28 SCRATCH card "the WQ-184 slate" names a different membership than HANDOFF's slate in the same bundle.
+  artifact L45 (added text): "**his word:** the WQ-184 slate (FERT · REGINALD · RED · HENRY; SHADE Tier-2)."
+  artifact L22: "**Owed:** BOND (Opus) for the L404 TIPS grade after 13:02 · 9/18 HENRY/RED/VIOLET reads · the slate (FERT · REGINALD · TERRY · OSPREY)."
+  Overlap is FERT + REGINALD only; TERRY and OSPREY appear on one, RED/HENRY/SHADE on the other. Live files confirm both strings (PROME/SCRATCH.md:42, PROME/HANDOFF.md:5). The changed DOCKET row in the same bundle (artifact L53) says TERRY is "SLATED for the next boot's WQ-184 driver", so the card's list is missing a desk the bundle itself slates.
+
+❌ 38 ZHAO ledger cell: the relabelled "record time" PREDATES the receipt quoted in the same cell.
+  artifact L68: "row written 12:58:21Z (the ledger’s record time, not the ask): grade ZHA-17/11/12 + apply charter re-point, then close out"
+  artifact L68, same JSON object: "\"receipt\": \"ZHAO 13:0x Z: 'WQ-249 CLOSEOUT — CONFIRMED: everything committed and pushed…'\"" and "\"observed_at\": \"2026-09-17T13:09:20+0000\""
+  A row written at 12:58:21Z cannot carry a receipt timestamped 13:0x or an observation at 13:09:20. (12:58:21 is also hb17resultcold's `observed_at` in the row below — artifact L74.)
+
+❌ 39 The relabel is systematically inconsistent with `observed_at`: in ALL ELEVEN relabelled cells the claimed record time precedes the same cell's own observation timestamp.
+  artifact L63 (HAWK): "row written 12:35:35Z (the ledger’s record time, not the ask)" … same object: "\"observed_at\": \"2026-09-17T12:37:20+0000\""
+  Holds 11/11 (161 HAWK 35:35<37:20 · 163 VIOLET 41:03<41:12 · 164 LABOR 55:51<56:52 · 165 MARCO 48:55<49:03 · 166 ZHAO 58:21<13:09:20 · 167 DAEDALUS 51:10<55:51 · 168 heartbeatcold 40:16<45:50 · 169 BRENT 45:50<49:54 · 170 CARL 48:55<49:54 · 171 hb17plancold 49:54<51:10 · 172 hb17resultcold 55:51<58:21). Every one of the eleven fragments is also the `observed_at` or `receipt` of a NEIGHBOURING row, so "the ledger's record time" is a label a stranger cannot distinguish from "a timestamp copied from the row above".
+
+⚠️ 4 "CATO `175525294` found it" (artifact L12, and 5× in ledger cells) — a bare numeric id with no path; nothing to open.
+⚠️ 8 "“twelve” in the 09:1x closeout counted the teammate windows" (L21) — 13 − ARGUS = 12, which is the STATUS reason, not "teammate windows"; a stranger cannot reconstruct how counting windows yields 12. "L407 reader ❌10" cites a report the bundle gives no path for.
+⚠️ 12 "verify it by `git show` of the rotating commit" (L26) — no sha named; the reader must find the rotating commit themselves.
+⚠️ 15 STATUS (L34) gives a second reason — "the earlier “12” counted the teammate windows and omitted ARGUS" — while HANDOFF (L21) gives only the first half. Same correction, two accounts.
+⚠️ 16 STATUS keeps "**Updated:** 2026-09-17 09:1x ET" (L34) over a body corrected at 10:2x; HANDOFF names the 10:2x correction, STATUS does not. A stranger reading STATUS alone dates the 13 to 09:1x.
+⚠️ 18 Same SCRATCH tape line (L43) carries "Brent Nov $101.97 (−3.86) 9/17 pre-open · VIX 15.75" while HEARTBEAT.md:48 — the file the changed clause cites as the authority for USD/JPY — reads "Brent BZX26 $101.62 [9/17p, −3.98%]" and "VIX 15.61 [9/17p]". The USD/JPY pull is dated and sourced; its neighbours on the same line are not.
+⚠️ 20 "card re-based 2026-09-17 10:2x ET … caught at the 09:53 boot" (L45) inside a session whose closeout stamp is 09:1x (L19/L34): three clocks, no stated ordering between the closeout, the later boot, and the re-base.
+⚠️ 23 "10Y TIPS reopen 13:00 (L404)" (L45) vs "the L404 TIPS grade after 13:02" (L22). Both resolve — DOCKET L404 contains "13:00 print" and "13:02 ET 9/17: procedure = pre-print record §7" — but the bundle never says they are two different events.
+⚠️ 25 Will's-hands citations WQ-225 / WQ-169 / WQ-204 / WQ-238 (L45): `grep -c "WQ-225" PROME/WILL_QUEUE.md` = 0. The rows DO exist as bare ids (`| 225 |`, `| 169 |`, `| 204 |`, `| 238 |`), so the citation form does not match the ledger's ID column — a stranger's grep finds nothing.
+⚠️ 33 Header "(word diff; 13 tab-separated cells per row)" (L57) — true for every data row, but lines 1–2 of the live ledger are 1-cell comment headers; a strict per-row width check fails twice. The bundle does not say the header lines are exempt.
+⚠️ 37 DAEDALUS (L69): "row written 12:51:10Z (the ledger’s record time, not the ask)" is EQUAL to the receipt in the same cell ("DAEDALUS 12:51:10Z: 'CLOSED OUT…'"), not after it — and the same second is hb17plancold's `observed_at` (L73). One second serving three roles.
+⚠️ 40 The repair stops at one pattern. Two ledger rows dated today carry the same family of malformed `ask` cell and were not touched: BOND (L162 live) "SendMessage sent ~12:53Z (close-now instruction) (minute from the UserPromptSubmit clock; exact native time not extracted): 12:53Z close-now instruction; ZHAO: 12:58Z grade+repoint+close)" and argus (L173 live) "…not extracted): SendMessage sent ~09:19 ET (UserPromptSubmit clock minute): WQ-249 closeout ask". Neither is in the bundle; a reader of the bundle would believe the class is closed.
+⚠️ 41 "Base = HEAD (0f17ac8c2)" (L2) — HEAD is now fa1725992. Self-describing; the diff still reproduces against 0f17ac8c2.
+⚠️ 42 Index blob `05fecc18f` (L59, ORCH_LOG post-image) does not resolve: `git cat-file -t` fails. The other 11 index hashes resolve. Expected (3 rows appended since the build) but it means the bundle-time ledger state cannot be reconstructed.
+⚠️ 44 "Built 2026-09-17 10:17 EDT" (L2) is EARLIER than two changes the bundle contains: "corrected 2026-09-17 10:2x ET" (L21) and "card re-based 2026-09-17 10:2x ET" (L45). A bundle built at 10:17 cannot carry a 10:2x edit.
+
+✅ 1 Doubled date removed — `grep -cF "2026-09-17 2026-09-17" PROME/CLAUDE.md` = 0; the bullet now reads "Will-ruled 2026-09-17 09:3x ET" (L12).
+✅ 2 Will's verbatim quote in the bullet is a substring of the record's own verbatim block (`PROME/proposals/2026-09-17_skipped-control-reporting-RULED.md:3`, "Will's word 2026-09-17 09:3x ET in-session, verbatim"), same stamp.
+✅ 3 Pointer `PROME/proposals/2026-09-17_skipped-control-reporting-RULED.md` resolves.
+✅ 5 The rest of the CLAUDE.md bullet is unchanged by the fix (single-line hunk, `git diff --stat` = 2 +-).
+✅ 6 "Thirteen spawns, thirteen WQ-249 receipts" (L21) is consistent with the ledger. `awk -F'\t' '$1=="2026-09-17"' | wc -l` = 17 live; at base 0f17ac8c2 = 14 1-SPAWN rows; rows 174–177 (l407cold, l407fixcold ×2, BOND doorbell) all postdate the 09:1x closeout, leaving 13 (lines 161–173).
+✅ 7 The enumeration is 13 names and each has an ASKED_RECEIPT cell, including ARGUS (live line 173, `"state": "ASKED_RECEIPT"`, receipt "argus 13:19:18Z").
+✅ 9 The crc rule itself checks out where it is testable: HANDOFF_2026-08-11_EVE.md:2 "Rotated 2026-08-13 session-2 closeout … crc32 of the rotated block" and HANDOFF_2026-08-12_EVE.md:2 "Rotated out … at the 2026-08-15 closeout … (crc32 of entry" — both carry crc32 despite pre-8/13 filenames.
+✅ 11 The named exception file is a single-session entry with no crc: `grep -c crc32` = 0; head shows one "## 2026-08-16 SESSION 3" entry.
+✅ 13 `PROME/archive/HANDOFF_2026-09-17_sept14-entries.md` resolves.
+✅ 14 STATUS "13 spawns, 13 WQ-249 receipts (9 desks + 3 cold readers + ARGUS)" agrees with HANDOFF and with the ledger.
+✅ 17 "USD/JPY 155.57 [9/17p, HEARTBEAT's pull…]" — HEARTBEAT.md:21 "USD/JPY 155.57 [9/17p] from 153.57 [9/10]" and HEARTBEAT.md:48 "USD/JPY 155.57 [9/17p]". Same pair, same date tag, same level; 155.57 vs 155.56 is one pip as stated.
+✅ 19 "Thu 2026-09-17" — `date -d 2026-09-17 +%A` = Thursday.
+✅ 21 "FOMC 9/16 HIKED +25bp to 3.75–4.00%" — HEARTBEAT.md:48 "FOMC 9/16: HIKED +25bp to 3.75–4.00%, 12–0 [Fed primary]".
+✅ 22 "BOJ MPM decision overnight (L34)" — DOCKET line 34 is "2026-09-17..2026-09-18 BOJ September MPM … the decision publishes ~9/18 JST".
+✅ 24 "9/18 = … WQ-213 needed_by" — DOCKET line 389 is "2026-09-18 🔴 `WQ-213` `needed_by` — WILL RE-AFFIRMS OR WITHDRAWS THE 9/10 VLO APPROVE"; WQ-168 and WQ-213 rows both exist in WILL_QUEUE.md.
+✅ 26 Dropping "WQ-243 + WQ-228 (past 9/14)" from Will's hands is correct: both are RULED 2026-09-15 APPROVE in WILL_QUEUE.md's done section (lines 59–60), and the MARCO ledger row cites the same WQ-243 tap.
+✅ 27 "WQ-230 + WQ-229 (both PAST 9/15)" — both are live open rows (WILL_QUEUE.md lines 42–43).
+✅ 29 DOCKET L379 path repair: `AGENTS/TERRY/RISK_SCORING.md` exists (10,134 B); the replaced `AGENTS/TERRY/workbook/RISK_SCORING.md` does not — "No such file or directory". Correct direction.
+✅ 30 The repair makes the row's own adjacent claim testable and true: `grep -c "1R"` = 0 in both AGENTS/TERRY/RISK_SCORING.md and AGENTS/TERRY/RISK_RULES.md.
+✅ 31 DOCKET L381 "twelve"→"thirteen spawns" agrees with HANDOFF and STATUS.
+✅ 32 Both DOCKET edits are in-cell; `git diff --stat` shows 4 ++-- = exactly two rows, no row split.
+✅ 34 Every closeout_v1 cell is valid JSON after the prefix: 29 cells parsed with `json.loads`, 0 failures.
+✅ 35 Width and completeness: every data row has 13 tab-separated cells; `grep ": [0-9][0-9]:[0-9][0-9]+0000"` returns nothing — no stray fragment of the repaired class survives.
+✅ 36 On 9 of the 11 relabelled cells the record time IS after the receipt in the same cell (HAWK 12:35:35>12:35:33 · VIOLET 12:41:03>12:41 · LABOR 12:55:51>12:55 · MARCO 12:48:55>12:48 · heartbeatcold 12:40:16>12:40:09 · BRENT 12:45:50>12:45:32 · CARL 12:48:55>12:47:51 · hb17plancold 12:49:54>12:49:33 · hb17resultcold 12:55:51>12:54:46).
+✅ 43 Diff fidelity: `git diff --stat 0f17ac8c2` reproduces the bundle's hunk counts — CLAUDE.md 1 line, HANDOFF 2, STATUS 1, SCRATCH 2, DOCKET 2 rows.
+✅ (pointer set) L34 · L379 · L380 (carries both "32,526" and "24 B" as L379 cites) · L381 · L389 · L404 all resolve at the cited physical lines; commits 0f17ac8c2 · e9ac693af · 71ec15585 · 4f361a45a · b40c4e36d · 303267de8 all resolve.
+
+POINTERS: 45/46 resolve; dead: index blob `05fecc18f` (ORCH_LOG post-image, uncommitted at build time). 2 further references are untestable by construction, not dead: "`git show` of the rotating commit" (no sha) and "CATO `175525294`" (no path).
+
+ONE-LINE VERDICT: No — the arithmetic repairs (13 spawns, the JSON/width integrity, the TERRY path) all hold, but a cold reader acting off this bundle would carry forward a slate that names the wrong desks, an archive "ONE exception" that is five, and eleven ledger cells whose new "record time" label is contradicted by the observation timestamp sitting in the same cell.
