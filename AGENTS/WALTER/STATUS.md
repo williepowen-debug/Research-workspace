@@ -1,24 +1,30 @@
 # WALTER STATUS
 
-**Updated 2026-09-15 — WALTER closeout-consistency repair.** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-09-17 ~23:2xZ (Thu evening, Full WALTER, Tier-2 closeout; Claude Fable 5.1 session `walter-37`).** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
 
 ## BOTTOM LINE
 
-Boot and reading safeguards are implemented. Operational market coverage remains PARTIAL; the table below is dated historical evidence, not a fresh closing-price scan. Current obligations, decisions and the checked closeout receipt live only in [LAST_COMPLETION.md](LAST_COMPLETION.md).
+Boot COMPLETE 9/17 (doctor 0 HIGH / 12 MED, all handled or carried). **Iran full primary sweep DONE** (owed 9/17): Petroline day 7 shut; **"force majeure" is NOT declared** — guard ADD#25; marks B3/C22/D75 untouched (FALCON). **Six dispatches `SIG-W-20260917-001…006`, two kills, 22 handoffs; BOARD 988.** No registered trigger fired; **RED-FT-10 run BROKE 9/15** (SKEW 146.61) → 0-of-4; **HY 270 [FRED 9/16]** = near-trigger WATCH on RED-FT-12. Fed **hiked 25 bp 9/16** (primary; board record posted a day late — WALTER had no 9/16 session); BoE **held 3.75% + paused APF gilt sales 9/17** (primary). **PROME doorbelled for FALCON (FAL-05 window 9/17–18) and HENRY (9/18 opex).** Both DAEDALUS PR#6 asks executed. Obligations and receipt: LAST_COMPLETION.md.
 
-## DATED MARKET OBSERVATIONS AND OWNER CARRIES
+## DATED MARKET OBSERVATIONS — boot 6c scan 2026-09-17 ~22:4xZ (FRED is T+1; intraday ≠ settlement; owner registries govern every state)
 
-| Observation / authority | Dated result and limit |
+| Row | Dated result and limit |
 |---|---|
-| Dashboard | 24/24 finite selected inputs available at 2026-09-15T16:14:50Z. COMPLETE means selected-input availability only; intraday prices are not settlements. `dashboard-network.json` |
-| REG-T-02 | Owner exit ledger through9/14: cycle2 FIRED9/1 at77.26; exit0/3. Further sub78 closes suppressed while open. Owner9/14 close79.19 versus later vendor history79.18 remains discrepant. Correction `SIG-W-20260915-002`; do not average. |
-| RED-FT-10 | Cboe SKEW9/11 154.49,9/14 152.09 =2/4. No9/15 published bar. Earliest9/16 conditional, not a fire. Publisher CSV stored in resolution-pass. |
-| RED-FT-11 | FRED curve through9/11: five-session30Y change+10bp, butterfly−3bp; neither entry path met on that dated window.9/14 curve unavailable. |
-| HY / CCC / claims | FRED9/14 HY271bp,CCC1081bp; ICSA206K week9/5. Existing owner-bank states are distinct from fresh alerts; full conditions in matrix. |
-| Core CPI | FRED Aug MoM0.2898%,3mo annualized1.97084%; owner2.04% remains a source/vintage reconciliation, not silently replaced. BLS-primary grade belongs to RED/CARL. |
-| HANS / CREED | Current canonical rows and operative rulings, not historical cell prose, govern. HANS daily closes/manual sweep and T12 feed remain gaps. CREED-T01b sustain2; T03 level suspended; T06b instrumented and FIRED. See all45 rows. |
-| #6/#8 | Governing interim rule: frozen registered tests and fire-and-decompose. Seasonal shape does not establish annual false-fire recurrence. Decision status: LAST_COMPLETION.md. |
-| Position/calendar context | FORGE mirror retains9/10 broker vintage; off-repo Will/broker authority. RED CALENDAR forwards to docket/CATALYSTS.tsv.9/16 FOMC/SEP and conditional FT10 clock remain dated watches, not event outcomes. |
+| RED-FT-01 / RED-FT-12 (HY OAS) | 270 [FRED 9/16]; FT-01 `<280 s3` FIRING-BANKED; **FT-12 `<260 s3` 0-of-3, 10 bp / 3.7% away = WATCH** (`SIG-W-20260917-003`). RED-FT-02 / REG-T-03 `>320` 50 bp; REG-T-04 80 bp |
+| RED-FT-07 (CCC OAS) | 1076 [9/16]; FIRING-BANKED; exit `<930 s3` not started |
+| RED-FT-06 (VIX) | VIXCLS 17.71 [9/16]; ^VIX 15.44 intraday [9/17]; FIRED-BANKED, exit `≥18 s5` at 0 |
+| RED-FT-10 (Cboe SKEW) | 9/11 154.49 · 9/14 152.09 · **9/15 146.61 · 9/16 145.95 [CBOE] → run BROKE, 0-of-4** (`-002` → RED action) |
+| RED-FT-11 (UST 30Y) | Δ5 DGS30 to 9/16 = +7 bp (5.28 → 5.35); butterfly Δ −3 bp; NOT ENTERED, 0-of-5 |
+| RED-FT-05 / REG-T-05 (claims) | 196K [w/e 9/12]; no |
+| RED-FT-08 / RED-FT-09 | core CPI 3-mo ann. 1.97% [Aug, BLS 9/11, owner arithmetic]; T5YIFR 2.34 [9/17]; no |
+| RED-FT-03 / -04 · Boundary #1 / #2 (Brent) | BZX26 $104.16 [9/17 intraday]; CLV26 $101.22 · CLX26 $96.58; no |
+| REG-T-01 / REG-T-02 (KRE / WAL) | 72.74 / 79.43 [9/17 intraday]; T-02 cycle 2 FIRED 9/1 @77.26, exit `≥81.90 ×3` at 0/3; sub-78 closes inside the fired state are re-entries |
+| REG-T-08 (SOFR−IORB) | −28 bp [9/16]; no |
+| Boundary #3 (Cushing) | 21.48M [EIA w/e 9/11]; 7.4% above 20M; no (6.9% one-sided — outside the 5% watch band) |
+| CREED-T-08a (VNQ−SPY 3-mo) | −4.20 pp total-return / −4.80 price-only [9/17 `s8a_relative.py`]; 5.8 pp from −10; NOT FIRED; other CREED-T rows monthly/quarterly, none due |
+| HANS-T scannable (6) | TTF 77.01 [9/17 fetch, contract UNKNOWN] — L2 fire open, L3 `>100` no · EURUSD 1.15 [9/17] no · storage gap −14.7 pp [gas day 9/8, HANS] fire open · Bund 3.4879 [9/10, HANS] watch open · **UK 10Y ~5.22 / 30Y ~5.74 [9/17 intraday, secondary]** — AWAY from `>5.50` / `>6.00` (`-005`) · T-12 UNINSTRUMENTED, not counted |
+| Iran anchor | **RE-VERIFIED 2026-09-17 FULL** — next ~2026-09-24; record `research/2026-09-17_iran-full-sweep.md`; anchor 23,926 B (re-rotate at ≥24,412) |
+| Position / calendar | FORGE mirror 9/10 vintage (off-repo broker is truth) · 9/18: ~$6T opex (HENRY L385, doorbelled) + WAL Sep $70P/$67.5P expire · BOJ MPM decision 9/18 JST (SAM; USD/JPY 155.99 [9/17]) · FAL-05 earliest elapsed bar 9/17–18 (FALCON, doorbelled), resolves 10/7 · 9/25 Oman corridor (meeting postponed, no date) · 9/30 Iraq pullout / L334 study / KRE-TLT-XLE expiries / oversized-signal recheck |
 
 ## MISSION
 
@@ -26,38 +32,37 @@ Routing + receiving-layer readiness; domain agents own evidence, state and judgm
 
 ## STATE POINTERS
 
-Current work and next-owner actions: `LAST_COMPLETION.md`. Evidence/verification: `research/2026-09-15_resolution-pass/RESULTS.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
+Current work and next-owner actions: `LAST_COMPLETION.md`. Sweep evidence: `research/2026-09-17_iran-full-sweep.md`. Design directory: `design/STATE.md`. Durable triggers: `MEMORY.md`.
 
 ## NETWORK AWARENESS
 
-### Today's routing + stale agents
+### Today's routing + stale agents (regenerated from REGISTRY.tsv at the 9/17 Tier-2; 8 rows refreshed this session)
 
-Latest scoped header inventory: `research/2026-09-15_closeout/registry-header-receipt.json`; current directory is REGISTRY.tsv. Header dates describe metadata freshness, not live sessions. Fleet liveness remains UNKNOWN. Dated routing/owner-evidence results and ongoing obligations are in LAST_COMPLETION.md; do not infer owner completion from an inbox location or a header read.
+**Liveness (9b, 2026-09-17 ~22:36Z):** `ListAgents` live = `prome-89` (busy), `daedalus-b1` (idle), `clear-exit-commands` (bg); `ORCH_INFLIGHT.md` 0 IN-FLIGHT; foreign working tree: only `PROME/WILL_QUEUE.md` dirty (PROME's own, live). **Dark-and-carrying-ACTION (doctor, basis `delivery_log.timestamp_routed`, >2d, before today's dispatches):** LIQUID 3 · BROCK 3 · VULCAN 3 · HENRY 2 · RED 2 · SHADE 1 · WAL 1 — oldest ACTION 3d; oldest INFO 20d. Today added ACTION at FALCON, BRENT, RED, HENRY, HANS, BOND, OSPREY (7 `DOORBELL_LOG` rows; 2 doorbelled). **Desks woken by PROME today (ORCH):** BOND, DAEDALUS, HAWK, LABOR, MARCO, VIOLET, ZHAO. Header dates are metadata freshness, not liveness. **Unregistered dir:** `AGENTS/CATO/` (ROSTER: manual-only, excluded from routing) — flagged to Will, row NOT added.
 
 ## Active LIAISON channels
 
-All four channels remain DORMANT, ARCHIVED or CLOSED (CARL,RED,REGINALD,BRENT). No live calibration countdown. Read only a newly active turn; prior detailed narrative is preserved in SESSION_LOG.
+All four channels remain DORMANT, ARCHIVED or CLOSED (CARL, RED, REGINALD, BRENT). No live calibration countdown. Read only a newly active turn; prior detailed narrative is preserved in SESSION_LOG.
 
 ## FILTER POSTURE
 
-> 📌 **This block was DELETED by the 2026-07-23 STATUS spine regeneration and was ABSENT FOR 28 DAYS; RESTORED 2026-08-20 verbatim from `f29933a20` with one deliberate vocabulary correction. Full account — the three surfaces that pointed at a section that did not exist, the silent no-op in closeout step 12(c), and the generalisable lesson (when you find ONE artifact eaten by a regeneration, DIFF THAT REGENERATION FOR THE OTHERS) — rotated VERBATIM to `SESSION_LOG.md` 2026-09-14.** `[[finding_record_of_an_action_is_not_the_action]]`
+> 📌 **This block was DELETED by the 2026-07-23 STATUS spine regeneration and was ABSENT FOR 28 DAYS; RESTORED 2026-08-20 verbatim from `f29933a20` with one deliberate vocabulary correction. Full account rotated VERBATIM to `SESSION_LOG.md` 2026-09-14.** `[[finding_record_of_an_action_is_not_the_action]]`
 
 **Current: BALANCED** (Apr 20 2026 onward — START LOOSE retired by Filter v2 Seg A). *Posture re-confirmed BALANCED by the empirical `design/FILTER_V3_REVIEW.md` (2026-07-04): filter structurally healthy, zero false-positive kills in the review window. No posture change has been proposed since; the 28-day absence of this block was a LOSS OF THE RECORD, not a change of state.*
 - Tuning rules (FILTER_SPEC § Tuning Rules) as primary guide
 - Pre-catalyst (≤72h before WAL/ZION/OZK earnings, Fed, CPI/NFP, **US–Iran MOU / negotiation-deadline events**, BOJ) → shift toward LOOSE on the relevant domain
-  > ⚠️ **"Iran **MOU / negotiation-deadline**", never "ceasefire" — the anchor makes that word KILL-ON-SIGHT (ADD#20); there was never a ceasefire, only a 60-day MOU window that EXPIRED 2026-08-17 with no deal.** *(Why the restore nearly reinstated it: a 28-day-old verbatim recovery carries 28 days of stale vocabulary — restore the STRUCTURE, re-verify the TERMS. Full note in `SESSION_LOG.md`.)*
+  > ⚠️ **"Iran **MOU / negotiation-deadline**", never "ceasefire" — the anchor makes that word KILL-ON-SIGHT (ADD#20); there was never a ceasefire, only a 60-day MOU window that EXPIRED 2026-08-17 with no deal.** *(Restore the STRUCTURE, re-verify the TERMS. Full note in `SESSION_LOG.md`.)* **Same class, added 2026-09-17: "force majeure" is KILL-ON-SIGHT absent a declaration primary (ADD#25).**
 - Low-information stretches → shift toward TIGHT
 - Confidence threshold: 0.30 minimum (unchanged)
 - MINIMIZE level: Normal (all signals route)
 
-**BYPASS + SAFETY-NET TRIGGERS — one merged list (the two prior lists overlapped on VIX and HY OAS; RULE 5 in `CLAUDE.md` auto-loads and is canon for the safety net):**
+**BYPASS + SAFETY-NET TRIGGERS — one merged list (RULE 5 in `CLAUDE.md` auto-loads and is canon for the safety net):**
 - WAL or ZION gap-down >5% premarket · KRE intraday drop >3% · Iran kinetic-interdiction of a US naval vessel → **FLASH**
 - **HY OAS +25bp single session** · **VIX +5 intraday, or VIX >30** → **FLASH / auto-upgrade to IMMEDIATE** (safety net)
 - 2+ agents flag the same theme in 24h → **convergence flag** · held-position liquidity drop → **FLASH**
 - Will explicit FLASH flag via Telegram → **FLASH** *(RULE 12: reply via the reply tool; form per `OPERATOR_BRIEF_SPEC`)*
 
 **Standing flags:** ✅ COP RETIRED 6/28 · Quick WALTER RETIRED 6/26 (ONE mode) · `design/STATE.md` §5's pointer here is TRUE. No standing obligation from any. *(Provenance in `SESSION_LOG.md`.)*
-
 
 ---
 

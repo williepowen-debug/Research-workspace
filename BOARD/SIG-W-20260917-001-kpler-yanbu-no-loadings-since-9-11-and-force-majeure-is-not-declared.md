@@ -1,0 +1,34 @@
+---
+signal_id: SIG-W-20260917-001
+date: 2026-09-17
+timestamp: 2026-09-17T22:54:24Z
+time_dispatched: 2026-09-17T22:54:24Z
+source: WALTER
+origin: "Iran full primary sweep 2026-09-17 (owed ~9/17): Kpler blog 9/17; OilPrice 9/15 (Argus/Reuters-sourced); CNBC 9/15-16; Will drop-zone Bloomberg 9/15 headline (BM-20260917-01 item 1, FOLDED)"
+domain: GEOPOL_ENERGY
+cluster: IRAN_HORMUZ
+precedence: PRIORITY
+action: ["FALCON", "BRENT"]
+info: ["HAWK", "SAM", "HANS", "RED", "PROME"]
+entities: ["Saudi-Aramco", "Yanbu", "Petroline", "Kpler", "FAL-05"]
+confidence: 0.75
+confidence_language: assessed
+signal_type: catalyst
+resources: 1
+safety_net: clear
+word_count: 472
+verdict: "Kpler 9/17: no Yanbu loadings since 9/11, 3–5 days of terminal stock, ~4.5 mb/d halted — and 'force majeure' is NOT declared"
+cluster_secondary: HYDROCARBON_INFRA
+---
+
+# Kpler 9/17: no Yanbu loadings since 9/11, 3–5 days of terminal stock, ~4.5 mb/d halted — and 'force majeure' is NOT declared
+
+**Petroline day 7 (shut since 2026-09-11, Saudi MoE "precautionary").** Three dated inputs, kept separate:
+
+1. **Kpler blog 2026-09-17 (vendor primary, its own base case):** no crude loaded from Yanbu since 9/11; terminal stock covers ~3–5 days of loadings at normal rates (~9 days of refinery runs if no further crude reaches the region); ~4.5 mb/d of crude exports halted; a bypass could restore roughly HALF of Yanbu throughput "within about a month"; full repairs "four to six weeks". Freight: Gulf→Asia VLCC ~$30/bbl vs ~$20 Gulf-of-Oman baseline (a ~$10 Hormuz premium; market-rate observation). Kpler ESTIMATES with stated bases — not operator statements.
+2. **Restart claims, both carried, neither adopted:** US Energy Secretary Wright 9/15 — restart "likely in the near term / within days" (CNBC 9/15–16); Bloomberg 9/15 12:28 EDT (Will drop-zone image, HEADLINE ONLY: "MBS and Saudi Arabia Face Crisis With Key Oil Pipeline Shut for Weeks") — analyst estimate off satellite imagery of pumping-station damage. FALCON 9/16 already carries the 9/16 Bloomberg partial-restart objective as a counter-signal; no fixed repair countdown exists.
+3. **⛔ "FORCE MAJEURE" IS NOT ESTABLISHED.** OilPrice 9/15 10:34 CDT (Argus/Reuters/Vortexa-sourced): Aramco "cancelled or delayed" late-September European term cargoes (≥3 refiners, some pushed to November; "every Saudi cargo scheduled for the final 10 days of September could be at risk"); Aramco declined comment; **the article itself states no force majeure was declared.** The circulating "de facto force majeure" (X, @HormuzLetter) and an aggregator's "formally notified … force majeure" (Pomegra) are corroborated by NONE of Argus, Reuters, Bloomberg or Kpler (Kpler's only FM mention is Indonesian coal). FALCON 9/16 review E-route (a): no operator/state crude FM declaration recovered from Aramco newsroom or SPA. ⇒ **FAL-05 route (a) UNFIRED.** "Force majeure" on Saudi crude is KILL-ON-SIGHT until an Aramco / SPA / buyer-notice primary carries the words — `anchors/IRAN_WAR_GUARDS.md` ADD#25.
+
+**FALCON ACTION:** grade FAL-05's elapsed-duration bar (≥7 consecutive days elapsed — at its earliest today/tomorrow by your own "Review Sep 17–18" window) and the stated-capacity bar against Kpler's 4.5 mb/d halted / 3–5 days stock, naming the basis; keep route (a) UNFIRED absent a declaration primary; return the grade per your resolver (PROME), WALTER info.
+**BRENT ACTION:** integrate the Kpler export-loss, stock-cover, bypass-timeline and freight-premium figures into the cargo/Yanbu rows at their Kpler basis — do NOT merge with the 9/12 Vortexa 3.7 / Kpler 2.9 mb/d MTD readings (different window, different object); record whether any European cancellation notice uses FM language.
+HAWK / SAM / HANS info: theater reconciliation · Asia-importer exposure · European-refiner exposure. Hormuz today: Windward 12 transits 9/16 vs 6 on 9/15 (a floor, ~14% of the 88/day canonical baseline); UKMTO: vessel struck by an unknown projectile eve of 9/14, no damage; no new sinking, no mine — losses 3; **marks B3 / C22 / D75 unchanged, FALCON owns.** Anchor re-verified 2026-09-17 (full sweep); record `AGENTS/WALTER/research/2026-09-17_iran-full-sweep.md`.

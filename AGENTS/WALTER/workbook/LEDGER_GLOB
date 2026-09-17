@@ -1,0 +1,26 @@
+# WALTER ledger declaration — read by scripts/ledger_staleness.py (root closeout step 1c-bis).
+# Created 2026-09-17 on DAEDALUS PR#6 ask 1 (2026-09-17 packet): 35 TSVs held with ZERO enforced.
+# Globs are relative to AGENTS/WALTER/ (NOT to this file's directory). Whitespace-separated, '#' comments allowed.
+#
+# LIVE ROUTING STATE — written at every dispatch / boot; git-commit time is the vintage.
+REGISTRY.tsv
+routed/route_log.tsv
+routed/delivery_log.tsv
+filtered/kill_log.tsv
+#
+# EVENT-DRIVEN ledgers — rows appear only when the world produces an event (a fire, a doorbell,
+# a correction, a batch). Each carries "Cadence: EVENT-DRIVEN" + "Last re-pull ATTEMPTED:" in its
+# header block so --nudge reports the re-pull clock instead of counting writes-behind (Class 8).
+registry/DOORBELL_LOG.tsv
+registry/CORRECTIONS.tsv
+registry/corrections_receipts.tsv
+registry/DEEP_RESEARCH_FLAGGED_LOG.tsv
+registry/BATCH_MANIFEST.tsv
+registry/FALSIFICATION_FIRED_LOG.tsv
+registry/REG_THRESHOLDS_FIRED_LOG.tsv
+#
+# DELIBERATELY EXCLUDED (archival / dated snapshots / fixtures — not live ledgers):
+#   registry/STALENESS_SWEEP_*.tsv (7 dated sweep receipts) · registry/UNOWNED_DOMAINS_2026-08-18.tsv ·
+#   registry/BM-*-manifest.tsv (closed batch manifests) · registry/INDEX_LEGACY_TITLES.tsv (generated) ·
+#   design/history/*, design/pilot_runs/*, handoff_*/*.tsv, outbox/*.tsv, research/**/*.tsv (evidence
+#   receipts), inbox/processed/.consumed.tsv (declaration ledger, append-only by construction).

@@ -1,88 +1,75 @@
 # WALTER — LAST COMPLETION
 
-Session:2026-09-15, Codex as WALTER; Tier2 FULL session closeout. **Operational market coverage PARTIAL;45/45 rows accounted for.**
+Session: 2026-09-17 Thu evening (18:35 → ~19:3x ET), Claude Fable 5.1 as WALTER (`walter-37`); Will-launched by Telegram ("please boot up"). **Tier-2 FULL closeout. Operational market coverage PARTIAL (dated levels in STATUS; intraday ≠ settle; HANS UK legs from a secondary intraday excerpt).**
 
 ## STATUS
 
-Current reading repair: `research/2026-09-15_signal-reading/RESULTS.md`. Current follow-through: `research/2026-09-15_follow-through/RESULTS.md`. Prior repair result: `research/2026-09-15_resolution-pass/RESULTS.md`. Prior completion preserved verbatim there as `previous-LAST_COMPLETION.md`, including every prior follow-up/design carry. Nine BOARD signals/29 required handoffs, four maintenance packets, two kills;982 signals total. Original batch CLOSED7/7; later image separately handled.
+Boot COMPLETE: 0 → 0.5 → 1–6c → 7–7d → 7g → 7e → 7f → 8–9b all run. Doctor 0 HIGH / 12 MED at boot (intake lane STALE on disk → live after the 7e(a) pull; 8 registry-lag rows refreshed; 3 drop-zone images processed; 90 unconsumed >2d carried). READ-CAP 0 within 19 measured declared reads — heuristic perimeter; `reads_check` 23 declared paths, basis MATCH. Six dispatches `SIG-W-20260917-001…006`, 22 handoffs, 2 kills; BOARD **988**. Iran anchor FULL sweep DONE. Both DAEDALUS PR#6 asks executed. Inbox 6 → 0. Batch `BM-20260917-01` CLOSED 3/3. Intake `--mark` run (+2 new, −3 cleared).
 
 ## CHANGED
 
-Closeout-consistency repair: sole current obligation list here; STATUS duplication removed; read-only closeout checker validates explicit publication/delivery receipt and detects changed owner-review evidence.
-
-Reading repair: compact companion + exact source/review hash guard, 10 regression tests, charter/manifest wiring and independent preservation review. Follow-through: retired WALTER’s obsolete price-only $100 rejection while retaining incident/source guards; audited owner receipts; exercised all174 lines of the oversized signal; froze ledger bytes and prepared the existing September30 study analysis plan. Early Iran source check remains partial.
-
-Finite/quiet/baseline dashboard defects fixed; boot context/byte-hash/archive guards wired; exact retrospective receipt path specified/tested; all20 NOTE rows and16 chronology anomalies audited;18 own retrospective receipts. Source-qualified images dispatched; gasoline/natural-gas and WAL new-cycle errors corrected through BOARD+normal owner paths. Complete review/test details in RESULTS.
+Dispatches (BOARD + `routed/route_log.tsv` + `routed/delivery_log.tsv` 22 rows `written_not_delivered_pending_push` → reconciled after push) · `filtered/kill_log.tsv` +2 · `registry/DOORBELL_LOG.tsv` +7 rows (2 YES: FALCON, HENRY) · `anchors/IRAN_WAR.md` lead stamp replaced + ladder #8 + inventory 25; `IRAN_WAR_GUARDS.md` ADD#25; `IRAN_WAR_HISTORY.md` § Rotated 2026-09-17 · `research/2026-09-17_iran-full-sweep.md` (new) · `REGISTRY.tsv` 8 rows · `tools/version_drift_check.py` (field-reading + HEADER DRIFT) · `design/ROUTING_CARVEOUTS.md` field v0.38 · `design/ROUTING_TABLE.md` "Current:" v0.38 · `workbook/LEDGER_GLOB` (new) · event-driven headers on `FALSIFICATION_FIRED_LOG` / `REG_THRESHOLDS_FIRED_LOG` / `DOORBELL_LOG` · `BOARD/SIG-W-20260915-004` additive FALCON owner-return block · `BOARD/INDEX.md` regenerated (988) · packets: `PROME/inbox/2026-09-17_from-WALTER_wpsr-no-dispatch-doorbells-falcon-henry-resolution-ack.md`, `AGENTS/DAEDALUS/inbox/2026-09-17_from-WALTER_PR6-both-asks-executed.md` · `inbox/processed/.consumed.tsv` +6 · STATUS / SESSION_LOG / MEMORY / this file.
 
 ## RESULT
 
-Prior repair regression suites passed. Reading repair:23 BASIS hashes match; fleet read-cap0 within19 measured declared reads,31 other declarations not counted. PROME reads_check separately passes23 expanded cap-bearing reads. Prior doctor snapshot0HIGH/2MED (20 historical NOTE rows and31 aged handoffs as two aggregates); its five held BRENT warnings are discharged by the later verified delivery. Oversized-signal historical reading remedy COMPLETE for SIG-W-20260619-008: reviewed21,889B companion, guarded source/review hashes and whole-read boot path. Original remains canonical; other signals are not blanket-cleared. See follow-through evidence.
+No registered trigger fired (RED-FT ×12, REG-T ×8, CREED-T eligible rows, HANS-T 6 scannable + Cushing). State changes surfaced: RED-FT-10 run BROKE 9/15 (0-of-4); RED-FT-12 near-trigger WATCH (270 vs <260, 10 bp); HANS-T-06/T-13 moved AWAY post-BoE. FOMC 9/16 +25 bp verified at primary (12–0). "Force majeure" NOT declared (verified at OilPrice's own text + FALCON 9/16 route-(a) negative; ADD#25). `version_drift_check.py` watched FAIL (rc=1, HEADER DRIFT on CARVEOUTS) then PASS (rc=0) after reconciliation. `ledger_staleness.py WALTER` 11 scanned / 0 stale / rc=0. `batch_manifest --close` 3/3. Doctor readers parse after the header lines (board_reconcile / log_reconcile INFO).
 
 ## GAPS
 
-September15 delivery closeout: all29 of29 handoffs verified delivered. Five BRENT copies matched saved hashes, committed as b7a187129 and verified on freshly fetched origin; exactly five ledger cells reconciled. Earlier follow-through022d36547 is also on origin. No held delivery remains. Fleet liveness UNKNOWN. Seven old ACTIONs remain completion-unverified. BRENT’s later board_log records cargo-report recovery (005, quantitative scope PARTIAL) and IATA basis integration (006, exact latest endpoint unavailable); Shanghai comparison007 is now closed by BRENT as UNVERIFIED after image/arithmetic review, reopening only on source metadata; no further Will question pending (backlog-review/REPORT.md). Other new ACTION receipts require their next scoped review. Delivery does not establish owner filing or completed research. Four maintenance completion receipts unverified. Primary-source/settlement gaps remain; no owner state cleared.
+Delivery ≠ consumption: the 22 handoffs are `pending_push` until the push; reconciliation flips them and the receipt below records the count. Publication state: see CLOSEOUT RECEIPT (updated after push). HANS UK 10Y/30Y levels are a search-excerpt intraday relay (CNBC page 403) — not closes; HANS to grade. JMIC "3 vessels in 72h" and the Axios drone strike are secondary relays, logged not adopted. The "~4 mb/d Russian runs, wk 9/3–9" figure is UNVERIFIED (no primary found) — OSPREY asked. Four event ledgers (`CORRECTIONS`, `corrections_receipts`, `DEEP_RESEARCH_FLAGGED_LOG`, `BATCH_MANIFEST`) not yet declared EVENT-DRIVEN (reader tolerance for extra `#` lines unverified; they read `ok` today). Fleet liveness = `ListAgents` + ORCH + porcelain at 22:36Z, not later. Seven old ACTIONs: ZHAO's 5 confirmed by receipt; MARCO `-0908-006` and CARL `-0911-008` closure proofs NOT yet checked at their board_logs. No owner grade asserted anywhere.
 
 ## WILL_NEEDS
 
-Existing decision only: #6/#8 contract-month basis. No month selected. Frozen terms and fire-and-decompose interim rule remain. A seasonal curve shape does not establish annual false-fire recurrence. No new repair approval needed.
+1. **Unchanged decision:** #6/#8 contract-month basis — no month selected; frozen terms + fire-and-decompose interim rule stand.
+2. **New, small:** CATO — REGISTRY row or not? ROSTER (your own text) says manual-only / excluded from routing; WALTER did not add one. Say "add" if you want it routable.
+3. FYI only: PROME asked for two spawns (FALCON before 9/18 close; HENRY before 9/18 open) under your autonomy tier — PROME's call, no ask of you.
 
 ## FOLLOW-UP
 
-- Publication reconciled September15 by CATO under Will’s repair authorization: implementation3fe9a55d3 and follow-up68c60ed00 verified on freshly fetched origin. Current closeout check and bounded repair evidence: [CATO receipt](../CATO/runs/2026-09-15_1904_brent-walter-repair.md).
-
-1. Delivery obligation CLOSED September15:29/29 verified on origin; five BRENT rows reconciled. CATO filed the five already-triaged BRENT handoffs under Will’s repair authorization; BRENT retains the unfinished research. Filing changes no owner grade. Receipt: `research/2026-09-15_follow-through/brent-delivery-receipt.md`.
-2. September16: review owner artifacts for the seven old ACTIONs and new corrective/source packets; matrix and backlog report name exact completion surfaces. RED/HANS/CREED/PROME received maintenance requests. BROCK/RED own read-manifest re-attestation after shared basis changes.
-3. Oversized-signal repair CLOSED for SIG-W-20260619-008; independent11-obligation/13-qualification census and guarded companion replace the failed scoping attempt. September16 repair check completed early. Recheck September30 or any source/companion change; every new over-budget selected signal still triggers review. Reading-repair commits70a2bc593/f05cb5b20 verified ancestors of origin at closeout; no publication debt remains for that repair.
-4. AboutSeptember17: full Iran primary sweep still owed; last full9/10, partial9/14 plus early9/15 source check; rotations/repair do not reset the clock. Source-check preserves the fresh Oman contact and unverified Axios unmanned-vessel lead for primary/date/theater/novelty verification; neither graded as an event.
-5. September30: INFO-backlog study and existing registered review retained. Prospective analysis plan and hashed September15 ledger baseline now in follow-through. Gather subsequent observed snapshots/outcomes; no outcome or power claim yet. PROME docket’s broken state/delivery_log.tsv pointer needs owner reconciliation to routed/delivery_log.tsv; recorded in owner-receipts.md, not edited at owner.
-6. Prior explicit owner follow-ups remain: FALCON on -023; LIQUID/SHADE/HAWK/SAM on -022; BRENT if month choice changes a #6/#8 grade; BROCK/VULCAN/LABOR/HOMER/SAM/BOND on their dated tasks. OSPREY/VIOLET returns already integrated; do not re-open those from old prose.
-7. Prior dated windows remain for current-source verification:9/16 FOMC/SEP/VIX SOQ/WPSR/conditionalFT10;9/17 BoE/QT/P4;9/17–18BOJ/conditionalFAL05;9/18opex;9/25Oman;9/30Iraq/L334. This is carried context, not a fresh event-outcome claim.
-8. fetch.py identity implementation is built; vendor expiry absence, ambiguous identity and900-second probe calibration are separate limits. No blanket settlement acceptance.
+1. **Doorbells outstanding (PROME):** FALCON on `-001` (FAL-05 elapsed/capacity grade, route (a) negative) and HENRY on `-004` (9/18 opex re-measure). Check at next boot: FALCON board_log/STATUS row for `-001`; HENRY board_log for `-0917-004` (+ `-0914-025/-027`); PROME's response in `inbox/`. If FALCON is still dark past the 9/18 close with FAL-05 ungraded, re-doorbell (the referent is the day count).
+2. **RED-FT-10 reset** (`-002`): confirm RED's state cell reads 0-of-4 and the 9/16 catalyst row is retired; a NEW ≥150 bar re-opens L3 for a doorbell.
+3. **RED-FT-12 watch:** HY 270 [9/16]; the 9/17 print publishes ~16:15 ET 9/18 — re-pull after the close before quoting a distance (FRED T+1 rule). Fire once if it ever completes (lane primary; 6c is redundancy).
+4. **Closure proofs owed from PROME's 9/17 disposition:** MARCO board_log row for `-0908-006` + named exposure output; CARL board_log row for `-0911-008` (dated ≥9/17) and `-006` moved to processed by CARL. Verify at the artifacts, do not relabel.
+5. **Iran:** next full re-verify ~2026-09-24 (7-day cadence), or IMMEDIATELY on a restart/resumption notice · an FM declaration PRIMARY · attribution established · a 4th sinking or mine · a strike on Iranian territory · a dated Oman framework · a published transit print · any Iran-cluster dispatch. Anchor 23,926 B — re-rotate at ≥24,412 (next mandatory check 9/30).
+6. **9/30 items (unchanged):** oversized-signal companion recheck (`SIG-W-20260619-008`); INFO-backlog study / DOCKET L334 (pointer FIXED by PROME 9/17); MEMORY.md + THRESHOLD_SCAN + routing-file size checks; CHG-RED-042 hard backstop; KRE/TLT/XLE expiries.
+7. **Prior owner follow-ups still open:** LIQUID / SHADE / SAM on `-0914-022` (HAWK done 9/16; FALCON done 9/14); BRENT if a month choice changes a #6/#8 grade; BROCK / VULCAN / HOMER on their dated tasks (LABOR, BOND, MARCO, ZHAO, VIOLET, HAWK, DAEDALUS had 9/17 sessions — check their board_logs for the 9/14–15 handoffs next boot). OSPREY / VIOLET / FALCON YASREF returns are integrated — do not re-open from old prose.
+8. **Dated windows carried:** 9/18 opex (~$6T, HENRY) + WAL Sep puts · BOJ MPM 9/18 JST (SAM-39 ≥160 count; USD/JPY 155.99 [9/17]) · FAL-05 earliest 9/17–18, resolves 10/7 · 9/21 FALCON review · 9/25 Oman (no date) · 9/30 Iraq/L334 · 10/5 CCL Q3 (CRUISE VX-CRU-06) · 10/29 ECB (HANS-T-04 one hike from firing).
+9. **fetch.py identity / TTF contract UNKNOWN:** `TTF=F` and `BZX26.NYM` resolve with `contract: UNKNOWN` (name cut) — probe status is stated on every pull; not a settlement basis.
+10. **Event-ledger declarations** for the four undeclared registries — add at their next append after checking each reader skips `#` lines.
+11. **Board-hole class (FOMC 9/16):** raised to PROME as a design question (§6 of the packet); no WALTER change pending.
 
 ## OPEN DESIGN DECISIONS
 
-Previous completion's design-decision index remains preserved; seasonal threshold form, non-uniform addresses and broader automatic receiving-readiness changes are not silently ratified. Current recurrence controls and historical audit are complete within their documented scopes; exact unknowable historical transport times remain UNKNOWN permanently unless new evidence appears.
+Carried unchanged: seasonal threshold form for #6/#8 (with Will); non-uniform inbox addresses (PROME's `PROME/inbox/` at repo root — held-hot regression guard); broader automatic receiving-readiness changes (not silently ratified). **New 2026-09-17:** (a) whether PROME's boot carries a "did WALTER run on the last data day?" line so a routing-lane gap on a data day is announced (raised, not adopted); (b) whether `version_drift_check.py` should also read prose "Current:" lines — today it reads the header block only, and `ROUTING_TABLE.md` line 11 drifted independently (fixed by hand; perimeter stated to DAEDALUS, not widened unilaterally).
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: prior full closeout200078af4; September15 handoffs29/29. Owner review retains unverified/partial obligations above; BRENT chart disposition comes from its later backlog report. Next review September16. CATO reconciled publication under Will’s repair authorization after a fresh fetch: implementation3fe9a55d3 and receipt follow-up68c60ed00 are both on origin. This supersedes the earlier pending-publication statement; remaining owner research is unchanged.
+Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication and delivery counts are filled from `git`/`safe-push` output and `reconcile_delivery_log.py --apply` AFTER the push; until then the JSON below reads pending and `closeout_check.py` is expected to say so. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY/FALCON doorbell outcomes; FRED 9/17 print).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-15T23:11:13+00:00",
+  "as_of": "2026-09-17T23:00:43+00:00",
   "publication": [
     {
-      "commit": "200078af4",
-      "state": "published"
-    },
-    {
-      "commit": "3fe9a55d3",
-      "state": "published"
-    },
-    {
-      "commit": "68c60ed00",
-      "state": "published"
+      "commit": "PENDING",
+      "state": "pending"
     }
   ],
   "delivery": {
-    "signal_date": "20260915",
-    "total": 29,
-    "delivered": 29
+    "signal_date": "20260917",
+    "total": 22,
+    "delivered": 0
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-09-15_follow-through/owner-receipts.md",
-        "sha256": "2a5474e16826efb2aacde9bdd0a4423903b37c1da5961562b777419809a64798"
-      },
-      {
-        "path": "AGENTS/BRENT/research/2026-09-15_backlog-review/REPORT.md",
-        "sha256": "47c513da361992b627d41a273ec0bbfee737f22ceda02b95b339f563f6838ca1"
+        "path": "AGENTS/WALTER/research/2026-09-17_iran-full-sweep.md",
+        "sha256": "PENDING"
       }
     ]
   },
-  "next_review": "2026-09-16"
+  "next_review": "2026-09-18"
 }
 END_CLOSEOUT_RECEIPT -->

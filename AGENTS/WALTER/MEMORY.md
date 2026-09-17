@@ -52,6 +52,10 @@
 22. `[[finding_roster_change_propagates_to_all_surfaces]]` — after any promotion, ask whether a trigger in the PARENT's registries names the promoted entity as its METRIC.
 23. `[[finding_push_train_hides_a_failed_commit]]` — **path existence is NOT a push receipt**; use the ahead/behind count + a content grep.
 
+24. **A STATUS WORD THAT CARRIES A REGISTERED CONSEQUENCE IS THE ONE THAT GETS MANUFACTURED** — carry it ONLY off a primary that uses the word; "de facto <status>" is the tell that it was not declared (9/17: "de facto force majeure" → FAL-05 route (a), which has no duration bar). → `anchors/IRAN_WAR_GUARDS.md` ADD#25 (same class ADD#20 "ceasefire", ADD#24 SHUT≠HIT)
+25. **A guard that reads only the token that was bumped cannot fail on the token that was not** — `spec_version()` took the first match and the H1 is line 1, so a field left at v0.37 under an H1 at v0.38 printed `ok`. Watch a guard FAIL on the instance before trusting the fix. → `tools/version_drift_check.py` docstring (DAEDALUS PR#6 ⑩)
+26. **No WALTER session on a data day = a BOARD hole nobody announces** — the 9/16 FOMC hike reached four desks through their own reads and never the board; HENRY/RED (dark) never got it. At boot after any missed weekday, diff the catalyst calendar against the BOARD's last date BEFORE reading the lane. → `LAST_COMPLETION.md` OPEN DESIGN DECISIONS (a); raised to PROME 9/17
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -63,31 +67,18 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-15 closeout consistency
+### CHANGES SINCE LAST SESSION — 2026-09-17 Thu evening, Full WALTER (Claude Fable 5.1, `walter-37`), Tier-2
 
-LAST_COMPLETION is now the sole current obligation list; STATUS points there. Closeout checker validates explicit publication/delivery evidence and changed owner-review artifacts, with11 regression tests. Interpretation/owner completion remain manual; local origin is not a fresh remote fetch. Results: research/2026-09-15_closeout-consistency/RESULTS.md. Existing dates and Will decision unchanged in LAST_COMPLETION.
-
-### PREVIOUS SESSION (historical) — 2026-09-14 Mon evening, Full WALTER, Tier-2. Boot, 4 dispatches, then five rounds of correction — three of them against my own work.
-
-- **BOARD 969 → 973 (four dispatches; final -027 landed during closeout).** No fire on any registered trigger. Doctor 0 HIGH throughout.
-- **A CONTRACT-ROLL ARTIFACT SWEPT TO ITS SOURCE** on Will's instruction — origin `-015` §③; five surfaces, three desks; matched contracts showed BOTH legs rose.
-- **THE STEP IS SEASONAL, MEASURED** — forward curve bottoms Jan, +\$10.16 at the April summer-grade changeover ⇒ **`#6` is sensitive to seasonal month choice; annual false-fire recurrence is UNPROVEN (corrected 9/15).** Escalated to Will; **not re-specced**.
-- **Specs:** `THRESHOLD_SCAN` v0.41→**v0.45** · routing trio v0.33→**v0.37** · `CHECKLIST` v0.41→**v0.45**.
-- **Boot-file sweep:** 4 defects fixed, 3 live specs registered, **6 verified clean and said so**.
-
-### NEW FINDINGS THIS SESSION — candidates, each with its instance
-
-- 🔴🔴 **EVERY AUTOMATED CHECK WAS GREEN ON EVERY ONE OF TONIGHT'S DEFECTS, AND THAT IS THE SESSION'S ONE FINDING.** `ADD#23` was **unexecutable for 14 days** (it named the bare symbol form, which errors) and passed every audit. `claude_md_version_drift` reported **"1 claim(s) checked"** and PASSED while the charter carried a canonical version three releases stale. Three live specs were invisible to `version_drift_check` because absence from the registry is not a state it can observe. A spread whose legs were months apart passed every magnitude sanity check. 🔑 **None of these instruments is broken. Each answers a narrower question than its clean verdict implies, and the gap between the question asked and the question assumed is where the defect lives.** ⇒ **ask what each check would say if the thing were absent, unrunnable, or off by a whole threshold band.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]` · `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
-- 🔴🔴 **THE SAME DEFECT APPEARED AT FOUR LAYERS IN ONE EVENING, AND I COMMITTED IT INSIDE THE FIX FOR IT.** HENRY published a message figure; BRENT relayed that message without opening HENRY's artifact; I encoded `THRESHOLD_SCAN` v0.42 off BRENT's message while HENRY's artifact had already moved past it; and my `-025` was built on a correction sitting on disk in another desk's inbox. **Messages carry coordination, artifacts carry content — and the rule binds hardest when you are writing the rule.** ⇒ **verify at the artifact before encoding, not just before acting.** `[[finding_asymmetric_rigor_counterparty_claims]]`
-- 🔴 **SEASONAL SHAPE ALONE DOES NOT PROVE A THRESHOLD MISFIRES.** Establishing the ~−\$3/month step was genuine felt like vindication of the threshold; it is the opposite. **CORRECTED 2026-09-15: one forward curve demonstrates seasonal shape, not a crossing every winter or an annual false-fire. The sampled winter minimum stayed above $30. Preserve the registered test and attach the month/roll evidence; recurrence needs historical evidence.** ⚠️ **The tell: I had put TWO options to Will and NEITHER survived the measurement.** ⇒ **when a measurement resolves a question, re-test the OPTIONS it was supposed to choose between — they were framed before the answer existed.**
-- 🔴 **THE CHEAPEST MEASUREMENT I DECLINED WAS ONE LINE OF A COMMAND I HAD ALREADY RUN.** I told Will the artifact-vs-seasonal question needed expired-contract history we do not keep. It needed the FORWARD curve, which is live. **BRENT independently extrapolated a drift from four points that were the descending limb of a seasonal V** — same shape, same cause. ⇒ **before naming a MECHANISM from a curve, extend it past where it turns; a monotone run of 3–4 points is not a trend.** *(Encoded at `THRESHOLD_SCAN` v0.45.)*
-- 🟠 **A PER-RECIPIENT LOOP CANNOT KNOW THAT ONE RECIPIENT'S ADDRESS IS SHAPED DIFFERENTLY.** Writing ten correction notes by loop recreated `AGENTS/PROME/inbox/` — the **third** instance of a held-hot regression. **Caught by the step-5 pre-commit sanity check, not by me.** ⇒ **a uniform fan-out over a non-uniform address space needs a per-target check, and the pre-commit path check is the one that actually fires.** `[[finding_prome_inbox_is_repo_root_not_under_agents]]`
-- 🟢 **RECORDING TWO DISAGREEING FIGURES RATHER THAN AVERAGING THEM IS WHAT LET THE DISAGREEMENT RESOLVE.** BRENT's 107.57 vs HENRY's 107.45, 12 cents apart, both internally consistent. I carried both with HENRY's governing; BRENT then re-checked and withdrew its own. **An averaged figure would have matched neither desk and been unfalsifiable by either.** ⇒ **on a two-source conflict, name the owner and keep both — a blend destroys the only evidence a resolution could use.**
+- **BOARD 982 → 988** — six dispatches, 22 handoffs, 2 kills; drop-zone batch 3/3 CLOSED; inbox 6 → 0; REGISTRY 8 rows refreshed. **No registered fire.** FT-10 run BROKE 9/15 (RED action); FT-12 near-trigger (HY 270 [9/16]); FOMC +25 bp 9/16 (primary) posted a day late; BoE held + APF sales paused (primary).
+- **Iran FULL primary sweep DONE** (owed 9/17): "force majeure" NOT declared → ADD#25; Petroline day 7; Hormuz 12 transits 9/16 (floor); losses 3; marks untouched. Next ~9/24.
+- **Doorbells:** FALCON (FAL-05 window) + HENRY (9/18 opex) → PROME packet + SendMessage; 5 dark-recipient ACTION rows logged NOT doorbelled.
+- **Tooling (DAEDALUS PR#6):** `version_drift_check.py` reads the field + fails on H1≠field (watched FAIL, then PASS); routing trio field/prose reconciled at v0.38; `workbook/LEDGER_GLOB` created; 3 event ledgers declared EVENT-DRIVEN.
+- Previous session (2026-09-15 Codex closeout-consistency + reading repair) → `SESSION_LOG.md`.
 
 ### NEXT SESSION
-1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS remain the complete obligation list.
-2. 🔴 **The Iran FULL PRIMARY SWEEP is owed ~9/17** — last full 9/10; 9/14's was PARTIAL and neither the rotation nor tonight's basis flag discharged it.
-3. 🔴 **`#6`/`#8` month basis is WITH WILL.** He has ruled *no month picked yet*. **Do not re-spec; do not let the interim fire-and-decompose rule quietly become a suppression.**
-4. **Version-drift widening and recurrence guards implemented/tested September15.** Run the current checks; basis-match proves declared bytes, not executed boot.
-5. **Clocks: 9/16 FOMC + SEP + VIX SOQ + WPSR + earliest `RED-FT-10`, ALL ONE SESSION · 9/17 BoE gilt-QT + Iran full sweep + P4 sitting · 9/17–18 BOJ MPM + earliest FAL-05 · 9/18 ~\$6.2T opex · 9/25 Oman corridor · 9/30 Iraq pullout + `DOCKET L334`.**
-6. Owner receipts integrated 9/15: OSPREY returned and consumed three items; VIOLET answered breadth and applied BOARD lookup; PROME built fetch.py identity support. Remaining owner follow-ups and limits are single-homed in LAST_COMPLETION.md.
+1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list (11 + 2 new).
+2. 🔴 **Check the two doorbell outcomes at the ARTIFACTS** (FALCON board_log/STATUS for `-001`; HENRY board_log for `-0917-004`) and PROME's reply; re-doorbell FALCON if still dark past the 9/18 close with FAL-05 ungraded.
+3. 🔴 **After any missed weekday, diff the catalyst calendar against the BOARD's last date FIRST** (finding #26) — 9/18 opex + BOJ are the next data-day items.
+4. FRED is T+1: re-pull HY after ~16:15 ET before quoting the FT-12 distance.
+5. `#6`/`#8` month basis stays WITH WILL; CATO registry question WITH WILL.
+6. Iran re-verify ~9/24; anchor 23,926 B (rotate at ≥24,412); MEMORY/THRESHOLD_SCAN/routing-file size checks 9/30.

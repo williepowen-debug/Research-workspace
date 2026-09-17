@@ -1169,3 +1169,10 @@ If a signal arrives whose framing depends on any of these, spawn a verify-resear
 >
 > ⇒ **RE-CHECK ON A DATE, NOT ON A FEELING.** `stat -c %s anchors/IRAN_WAR.md` at every Tier-2 closeout; **RE-ROTATE above 24,412 B (≥75% of the 32,550 B budget)** — ⚠️ **that is the trigger that actually fired on 8/31, and it fires ~6 KB BEFORE the budget itself; a threshold set at the budget would have let this file sit in breach.** **NEXT MANDATORY CHECK: 2026-09-30 — or sooner: at the observed rate ONE addendum can cross the trigger, so check it at the CLOSE OF ANY SESSION THAT WRITES AN ADDENDUM.**
 > ⛔ **DO NOT replace this block with a leanness claim.** A size remedy that runs once and leaves a boast behind is worse than no remedy: it disarms the next check. `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`
+
+
+---
+
+## Rotated 2026-09-17 (superseded 9/14 PARTIAL re-verify stamp, verbatim — replaced in the lead by the 2026-09-17 FULL sweep stamp)
+
+> 🔄 **RE-VERIFIED 2026-09-14 ~17:1xZ (PARTIAL — news-sweep scope, not a full primary sweep): ladder #3b state change (Bab el-Mandeb), ladder #5 negative (Oman postponement), Petroline day 4 + the Reuters export-stock claim, satellite damage confirmation, and a fresh unattributed Hormuz vessel strike 9/13 (1 killed; Iran blames US; NO CENTCOM confirmation — logged, NOT adopted, no mark moves). Dispatched `SIG-W-20260914-001` + `-002`. ⚠️ FULL PRIMARY SWEEP STILL OWED ~2026-09-17.**

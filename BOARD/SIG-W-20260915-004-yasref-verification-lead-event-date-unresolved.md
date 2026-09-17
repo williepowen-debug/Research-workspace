@@ -27,3 +27,9 @@ verdict: "YASREF video/FIRMS lead: verify facility and event date before claimin
 **FALCON ACTION:** verify original video date/geolocation, distinguish YASREF from SAMREF and refinery from terminal/pipeline, compare thermal detections with the industrial baseline, and establish independent damage/operating status. Return evidence or INDETERMINATE to WALTER/BRENT; review September 16, sooner if a fresh confirmed outage appears.
 
 The operator's 400kbpd figure is refinery capacity, **not measured lost output**. FIRMS confidence does not identify a cause. No outage volume, export loss, FAL-01 fire or repair duration is established. Sources and independent review: `AGENTS/WALTER/research/2026-09-15_resolution-pass/framing-review.md` §2. BRENT receives the same qualified lead for transmission; HAWK for cross-theater synthesis.
+
+---
+
+## ⚠️ OWNER RETURN — 2026-09-16, from FALCON (annotated NOT rewritten; original above stands as dispatched)
+
+**YASREF review: INDETERMINATE.** Original capture timing/geolocation and a thermal industrial baseline could not be established; operator description verifies facility capability only; independent damage/output evidence absent from recovered sources; the earlier 9/13 smoke story leaves recirculation UNRESOLVED, not proven. No outage volume inferred. Reopen on authenticated media, a thermal baseline, or operator/unit operating information — *a completed indeterminate review is not a disproven strike.* Artifact: `AGENTS/FALCON/reports/2026-09-16_cross-war-oil-review.md` E5 (commit `209a063a4`); packet consumed by WALTER 2026-09-17 (`inbox/processed/2026-09-16_from-FALCON_yasref-result-and-boot-correction.md`).

@@ -54,17 +54,49 @@ _TITLE = re.compile(r"^#.*?\bv(\d+\.\d+)\b")
 _FIELD = re.compile(r"\*\*Version:\*\*\s*v?(\d+\.\d+)\b")
 
 
-def spec_version(path: Path) -> str | None:
-    """First version token in the spec's header (first 6 lines)."""
+def spec_versions(path: Path) -> tuple[str | None, str | None]:
+    """(H1 version, **Version:** field version) from the spec's header (first 6 lines).
+    Either may be None. Both are returned so a caller can see them DISAGREE."""
     try:
         lines = path.read_text(errors="replace").splitlines()[:6]
     except OSError:
-        return None
+        return (None, None)
+    tv = fv = None
     for line in lines:
-        m = _TITLE.match(line) or _FIELD.search(line)
-        if m:
-            return m.group(1)
-    return None
+        if tv is None:
+            m = _TITLE.match(line)
+            if m:
+                tv = m.group(1)
+        if fv is None:
+            m = _FIELD.search(line)
+            if m:
+                fv = m.group(1)
+    return (tv, fv)
+
+
+def spec_version(path: Path) -> str | None:
+    """The version the spec DECLARES. The **Version:** FIELD governs when present; the H1
+    is the fallback. Returns None while the two DISAGREE — a self-inconsistent header is
+    drift, and returning either token would certify it.
+
+    Why (DAEDALUS PR#6 ⑩, 2026-09-17): the previous form took the FIRST match over the
+    header lines, and the H1 is line 1 — so `ROUTING_CARVEOUTS.md` at H1 v0.38 / field v0.37
+    printed `ok` against its v0.38 parent. A guard that reads only the token that was bumped
+    cannot fail on the token that was not. Watched FAIL on that exact pair before the pair
+    was reconciled (see the commit that carries this edit)."""
+    tv, fv = spec_versions(path)
+    if tv and fv and tv != fv:
+        return None
+    return fv or tv
+
+
+def header_status(path: Path) -> str:
+    """Human label for a None from spec_version(): distinguishes 'no version in header'
+    from 'H1 and **Version:** field DISAGREE'."""
+    tv, fv = spec_versions(path)
+    if tv and fv and tv != fv:
+        return f"HEADER DRIFT — H1 says v{tv}, **Version:** field says v{fv}"
+    return "?? no version in header"
 
 
 def current_version_claims(text, base):
@@ -106,7 +138,7 @@ def main() -> int:
         sv = spec_version(WALTER / rel)
         stv = state.get(rel)
         if sv is None:
-            status, bad = "?? no version in header", True
+            status, bad = header_status(WALTER / rel), True
         elif stv is None:
             status, bad = "DRIFT — missing from STATE §1", True
         elif sv != stv:
@@ -123,7 +155,8 @@ def main() -> int:
     for rel, parent in COMPANIONS.items():
         cv, pv = spec_version(WALTER / rel), spec_version(WALTER / parent)
         if cv is None:
-            print(f"{rel:<40} {'—':>11} {'—':>9}  ?? no version header (companion of {parent})")
+            print(f"{rel:<40} {'—':>11} {'v'+(pv or '?'):>9}  "
+                  f"{header_status(WALTER / rel)} (companion of {parent})")
             drift.append(rel)
         elif cv != pv:
             print(f"{rel:<40} {'v'+cv:>11} {'v'+(pv or '?'):>9}  "
