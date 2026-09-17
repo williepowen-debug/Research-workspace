@@ -24,6 +24,7 @@ Usage (cwd-proof, self-locating via __file__ — run from anywhere):
 import csv
 import datetime
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -57,6 +58,52 @@ def check_self_row(today):
 
 
 REPO = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
+
+DIRECTORY = os.path.normpath(os.path.join(HERE, "..", "FLEET_DIRECTORY.md"))
+
+
+def _last_change(path_rel):
+    """Newest of: last commit date (git) and, for a dirty file, today. Returns date or None."""
+    import subprocess
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", path_rel], cwd=REPO,
+                             capture_output=True, text=True, timeout=20).stdout.strip()
+        d = datetime.date.fromisoformat(out) if out else None
+        dirty = subprocess.run(["git", "status", "--porcelain", "--", path_rel], cwd=REPO,
+                               capture_output=True, text=True, timeout=20).stdout.strip()
+        if dirty:
+            return datetime.date.today()
+        return d
+    except Exception:
+        return None
+
+
+def check_directory_stale(today):
+    """ADDED 2026-09-17 (PR#6 reader R1): render_directory.py was DEAD for two days (9/15 → 9/17)
+    after ROSTER gained a section it did not know; its fail-closed guard fired correctly and nobody
+    ran it, because its only invocation sites were 'on FLEET_MAP row change' and the Production
+    Review. FLEET_DIRECTORY.md is the boot read, so a stale one is my own next boot reading last
+    week's map. This line re-derives 'stale' from the artifacts: the directory's own Generated date
+    vs the newest change to either of its two sources. Returns a findings line or None."""
+    try:
+        with open(DIRECTORY, encoding="utf-8") as f:
+            head = f.read(4000)
+        m = re.search(r"Generated (\d{4}-\d{2}-\d{2})", head)
+        if not m:
+            return "CANNOT-CERTIFY: FLEET_DIRECTORY.md carries no 'Generated YYYY-MM-DD' stamp"
+        gen = datetime.date.fromisoformat(m.group(1))
+        srcs = {"AGENTS/DAEDALUS/FLEET_MAP.tsv": _last_change("AGENTS/DAEDALUS/FLEET_MAP.tsv"),
+                "PROME/ROSTER.md": _last_change("PROME/ROSTER.md")}
+        if any(v is None for v in srcs.values()):
+            return "CANNOT-CERTIFY: directory-staleness check could not date a source (git unreadable)"
+        newer = [f"{k} changed {v}" for k, v in srcs.items() if v > gen]
+        if newer:
+            return (f"⏰ DIRECTORY-STALE: FLEET_DIRECTORY.md generated {gen} but "
+                    f"{'; '.join(newer)} — run scripts/render_directory.py (boot reads the directory)")
+        return None
+    except (OSError, ValueError) as e:
+        return f"CANNOT-CERTIFY: directory-staleness check failed ({e})"
+
 AGENT_DIR = os.path.normpath(os.path.join(HERE, ".."))   # registry playbook paths are DAEDALUS-relative ("sweeps/X.md")
 
 
@@ -83,7 +130,7 @@ def selftest_dated(today):
                  ("no-resolve_by", f"Dated\tDATED\t2026-01-01\t{pb}\tactive\t\tx\n", lambda o, rc: "un-parseable" in o and rc == 2)]
         for name, row, pred in cases:
             reg = os.path.join(td, name + ".tsv"); open(reg, "w").write(hdr + row)
-            p = subprocess.run([sys.executable, __file__, "--registry", reg, "--no-profile-clock"], capture_output=True, text=True)
+            p = subprocess.run([sys.executable, __file__, "--registry", reg, "--no-profile-clock", "--no-live-checks"], capture_output=True, text=True)
             ok = pred(p.stdout, p.returncode); ok_all &= ok
             print(f"  {'✓' if ok else '✗'} DATED {name}: rc={p.returncode} · {p.stdout.strip().splitlines()[0][:90] if p.stdout.strip() else '(no output)'}")
     return ok_all
@@ -101,13 +148,13 @@ def selftest():
         reg = os.path.join(td, "R.tsv")
         open(reg, "w", encoding="utf-8").write(hdr + f"Present\t21\t{today}\tscripts/sweeps_due.py\tactive\t\tx\n"
                                                     f"Missing\t21\t{today}\tsweeps/NO_SUCH_PLAYBOOK.md\tactive\t\tx\n")
-        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock"],
+        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock", "--no-live-checks"],
                            capture_output=True, text=True)
         fire = p.returncode == 2 and "PLAYBOOK MISSING" in p.stdout and "Missing" in p.stdout and "Present" not in p.stdout.split("PLAYBOOK MISSING")[1].split("\n")[0]
         print(f"  {'✓' if fire else '✗'} missing playbook ⇒ rc 2 + PLAYBOOK MISSING names the row (rc={p.returncode})"); fails += not fire
         open(reg, "w", encoding="utf-8").write(hdr + f"Present\t21\t{today}\tscripts/sweeps_due.py\tactive\t\tx\n"
                                                     f"PresentRepoRel\t21\t{today}\tscripts/claim_check.py\tactive\t\tx\n")
-        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock"],
+        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock", "--no-live-checks"],
                            capture_output=True, text=True)
         clean = p.returncode == 0 and "PLAYBOOK MISSING" not in p.stdout
         print(f"  {'✓' if clean else '✗'} present playbook ⇒ clean, rc 0 (rc={p.returncode})"); fails += not clean
@@ -211,7 +258,16 @@ def main():
         print(f"🔴 PLAYBOOK MISSING: '{task}' → {pb} does not exist — the row reads clean over a file that is not there; write the playbook or pause the row")
         cannot_certify = True
 
-    self_row = check_self_row(today)
+    # --no-live-checks (2026-09-17): the selftests drill REGISTRY logic on a temp registry; the two
+    # live-surface checks (own FLEET_MAP row age, directory staleness) read the real tree and had the
+    # selftest failing 2/5 whenever the self-row was stale — a regression test pinned to a live surface.
+    no_live = "--no-live-checks" in sys.argv
+    self_row = None if no_live else check_self_row(today)
+    dir_stale = None if no_live else check_directory_stale(today)
+    if dir_stale and dir_stale.startswith("CANNOT-CERTIFY"):
+        print(f"🔴 sweeps_due {dir_stale}")
+        cannot_certify = True
+        dir_stale = None
     if self_row and self_row.startswith("CANNOT-CERTIFY"):
         print(f"🔴 sweeps_due {self_row}")
         cannot_certify = True
@@ -226,6 +282,9 @@ def main():
             print(f"⏰ DUE: {task} — last run {age}d ago (cadence {cad}d, +{age - cad}d over) → {pb}")
     if self_row:
         print(self_row)
+    if dir_stale:
+        print(dir_stale)
+        self_row = self_row or dir_stale   # a stale boot read is a dated obligation → rc 1 below
     if not due and not overdue and not self_row and not cannot_certify:
         print(f"✅ sweeps: none due ({tracked} tracked, {len(skipped)} skipped, self-row current, "
               f"0 resolve_by passed)")
