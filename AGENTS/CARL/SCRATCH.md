@@ -1,100 +1,99 @@
 # CARL SCRATCH
-**Last session:** 2026-09-16 19:57 UTC
-**Type:** Will-directed closeout-procedure review and bounded correction; no new market research.
-**PRIORITY-1:** By September17, review the September16 Fed press conference and complete the open docket disposition; statement/SEP already integrated. Presser remains UNREVIEWED, not unavailable.
+**Last session:** 2026-09-17 ~12:50 UTC
+**Type:** Tier-1 crash-recovery closeout (PROME `prome-ae` spawn) — finished the 9/16 read-cap rotation that died in the machine crash; whole inbox drained; no new market research.
+
+**PRIORITY-1:** Next research session: review the September16 Fed press conference (V12 un-fire leg; cannot move the score alone — 0 of 2 meetings) and re-poll FSA `PortfoliobyLoanStatus.xls` on 2026-09-18 (docket L281).
+
+---
 
 ## CHANGES SINCE LAST SESSION
-Closeout only; no new market/source refresh. BOARD scan and named-correction checks rerun; no claim of fresh market coverage. Audit findings below remain the retained evidence.
+Machine crashed the evening of 9/16 mid-closeout; CATO restored git (`AGENTS/CATO/runs/2026-09-16_2149_crash-recovery.md`), work survived on disk uncommitted. Boot scans 9/17: GASREGW $4.319 w/e 9/14 (+16.2¢ WoW, 18.1¢ under $4.50); diesel $6.396; BZ=F $98.04 vs DCOILBRENTEU spot $130.80 (9/15) — futures ≠ spot, refresh before any CRL-08 arithmetic; claims 196K. Docket past-due rows unchanged from 9/16 (DR-5 8/29 · ABS ratings 8/31 · Sec-122 8/31 · V2 registration 9/10 · DAEDALUS ladder 9/14 · SDART Aug 10-D 9/15 · FOMC presser 9/16) — none integrated this pass, none pruned.
 
 ## WHAT HAPPENED
-1. Compared CARL with root rules, PROME, BRENT, SAM and NEXUS schema; report `domain/sources/2026-09-16_closeout-procedure-review.md`.
-2. Corrected CARL charter and template: BOARD assertion wiring, mirror path, retirement exceptions, byte-budget checks, conditional root checks, delivery/disposition language and honest partial-closeout reporting.
-3. Replaced unsafe local push fork with root delegate;9 isolated cwd/argument/exit-code checks passed.
-4. Preserved approvals, model and unresolved research. Did not clean child ledgers, reorganize memory or declare the unfinished retirement review complete.
+1. Verified the three before-images against `domain/sources/2026-09-16_closeout-receipt.json` (sha256 3/3 match, and identical to HEAD's tracked versions) — the compaction lost nothing: 38/38 MEMORY rules present verbatim; STATUS rows keep value/as-of/status; ROADMAP 35 threads byte-identical.
+2. Restored the one dropped MEMORY pointer (the promoted-slug list); re-dated the STATUS Fed/V12 obligation; removed a dead pointer (`2026-09-16_closeout-housekeeping.md` never existed).
+3. SIG-W-20260911-008 graded post-hoc (FOMC hiked 25bp, 12–0): V12 unchanged at 5; 16-of-20 was a forecast observable, never a probability. SIG-W-20260911-006 filing verified (already in `inbox/WALTER/processed/` since `905594e5b`). SIG-W-20260911-010 INFO_ONLY after the 5b.2 guard; 9/14 NOTE noted.
+4. Inbox 12 → 0 (10 top-level + 2 WALTER lane), all `git mv`'d. OTTO's seasoning-clock ruling issued (issuer-stated; relabel at ~Oct 1) and the caveat put on the THESIS V2 cell. PROME's 9/16 August-retail ASK item 3 answered in the closeout memo (figures already integrated 9/16, KB-CARL-469).
 
 ## STATUS CHANGES
 | Item | Change |
-|---|---|
-| Procedure | Stale instructions corrected; review linked from STATUS/ROADMAP |
-| Market data/model | Unchanged; last audit evidence remains individually dated |
-| Closeout assessment | Prior “complete” claim corrected to partial; housekeeping debt persists |
+|------|--------|
+| STATUS.md | 22,871 → 22,780 B (below the <70% rotation stop); header re-stamped 9/17; Fed/V12 row re-dated |
+| MEMORY.md | 11,267 → 11,908 B (slug pointer line restored) |
+| THESIS.md V2 cell | seasoning-label caveat added (28/29/30 = OTTO panel clock; issuer-stated 29/30/31); no score/trigger change |
+| Ledgers | `board_log.tsv` +3 rows; `board/BOARD_LOG.tsv` -008 post-hoc note appended in place, -010 row added |
+| Scores / predictions | 53/70, v2.6.6, all CRL confidences unchanged |
+
+---
 
 ## NEXT SESSION SHOULD
-### IMMEDIATE (24hrs)
-- By September17: review September16 Fed press conference. Canonical V12: cut in dots OR credible presser easing, for2 consecutive meetings.
-- September17 next research pass: refresh registered BZ=F before new CRL08 pass-through arithmetic; spot130.80 is not futures. Existing7% and touch/sustained question preserved.
+
+### IMMEDIATE (this session / 24hrs)
+- 2026-09-18: FSA named-file HEAD re-poll (baseline ETag/Last-Modified June18, 133,120 B).
+- 2026-09-18: CARL-DR-1 FHA partial-claims leg re-commission decision (DEWEY) — docket row.
+- Fed 9/16 presser review (V12 un-fire leg; UNREVIEWED, not unavailable).
+
 ### UPCOMING (this week)
-- September18 FSA scheduled re-poll: early9/16 named-file HEAD unchanged, not exhaustive site absence.
-- Read August broad-tier ABS exhibits; complete grade after deep-tier collection data~9/30.
-- Verify V2 L1–L4 table encoding completion. WQ151 already approved; do not ask again.
-### UPCOMING (next2weeks)
-- September25 UMich/PCE; September28 Census revisions; September30 forced calls and full ABS grade; October2 V16 drop-back resolver.
-### BACKLOG
-- Current UI income-loss actuals, private SoFi certificate, EART contractual-versus-initial-CE basis, Qatar outage update remain unavailable/unverified here.
-- OTTO n=3 seasoning labels; RED denominator audit; overdue research/calibration tasks remain open.
-- MEMORY whole-read budget debt persists. STATUS below32550B but with little headroom; ROADMAP below budget but in rotation tier. Neither has reached the <70% rotation target.
--16 subagent ledgers stale; no child run or refresh claimed. Six child closeout templates still separate work.
--225 unrecorded non-action BOARD IDs from prior diff; no claim all reviewed.
+- Read August broad-tier ABS exhibits (SDART/BLAST 10-D landed ~9/15); full V2 grade after deep tier ~9/30.
+- Refresh BZ=F before any CRL-08 pass-through arithmetic (7% unchanged; touch-vs-sustained + lag re-spec still await Will).
+- Sub-agent closeout template fix (PHAN 9/11 packet): one shared git+push-receipt block into DOC/GIG/META/POLLY/POP/STUE — target 2026-09-25.
 
-## APPROVAL CONTINUITY
-WQ151/182/183/227 remain approved, including V16 vintage rider. WQ209 delivered/closed, not general launch authority. WQ228,CRL08 touch/sustained,lag re-spec,PHAN instrument/medical scope and remaining card wording unresolved. No approval reset, inferred or revoked.
+### UPCOMING (next 2 weeks)
+- 9/25 UMich final + Aug PCE · 9/28 Census vintage revisions · 9/30 forced calls (CRL-17) + EART deep-tier 10-D + FL min wage $15 · 10/2 September NFP (V16 drop-back resolver 2 of 2).
+- RED 9/14 ask: every CRL revision since registration with direction-of-benefit and magnitude (the base-rate denominator) — target 2026-09-30 with the forced-calls sitting.
+- STUE read-cap: `read_cap_check.py --agent STUE` rc=1 (over budget AND over cap) — parent owns; rotate at STUE's next spawn.
 
-## OUTBOX
-No new external dispatch; report available under CARL. Native Claude session visibility/doorbell unavailable; no acknowledgment claimed.
+### BACKLOG (no deadline)
+- 225 unrecorded non-action BOARD IDs (info-cc backlog; `board_gap` says none carry action:[CARL]).
+- UI income-loss actuals, private SoFi certificate, EART contractual CE basis, Qatar outage update — unavailable/unverified.
+- 16 stale child ledgers (ledger_staleness) — child sessions' work, not refreshed here.
+- Research-retirement reference review still incomplete (only the Axis-A 7/10 source retired, staged 9/16).
 
-## INBOX
-Files below remain on the live surface; some were read for context and have follow-up work, so presence does not mean unread.
-| File | Disposition / follow-up |
-|---|---|
-| `inbox/2026-09-11_from-PHAN_subagent-closeout-template-has-no-git-step.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-11_from-WALTER_your-8-1-lane-is-a-NO-OP-for-you-by-exemption-an-empty-inbox-WALTER-is-not-evidence-of-anything.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-11b_from-PROME_make-the-INDEX-scan-unconditional-drop-the-mtime-gate-PROME-gate-now-checks-your-ledger-every-boot.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-11c_from-PROME_WQ-227-RULED-add-the-one-line-closeout-assertion-BOARD-scan-run-N-new-N-logged.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-12_from-DAEDALUS_your-forked-safe-push-prints-Pushed-on-a-push-that-did-not-land.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-12_from-OTTO_the-set-does-NOT-widen-n3-stands-and-your-double-matched-control-carries-a-verified-off-by-one-seasoning-label.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-13_from-HENRY_HEN-44-graded-CONFIRM-your-flag-was-right-in-shape-and-the-airline-fares-datum-cuts-AGAINST-HEN-46-not-for-it.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-14_from-PROME_your-bifurcation-row-has-fresh-data-and-it-widened-to-a-span-max.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-14_from-RED_your-CRL-10-cut-survives-the-attack-and-my-own-pattern-framing-does-not.md` | Retained; report/startup audit records any limited review. |
-| `inbox/2026-09-16_from-PROME_august-retail-analysis.md` | Retained; report/startup audit records any limited review. |
-| `inbox/WALTER/2026-09-14-NOTE-three-inflation-numbers-one-print.md` | Retained; report/startup audit records any limited review. |
-| `inbox/WALTER/SIG-W-20260911-010.md` | Retained; report/startup audit records any limited review. |
+---
+
+## OUTBOX (2 items; delivery state)
+| File | To | Summary |
+|------|----|---------|
+| `PROME/inbox/2026-09-17_from-CARL_crash-recovery-closeout.md` | PROME | COMPLETION memo: before-image verification, commits, read-cap, V12 disposition, push. Committed + SendMessage to `prome-ae`/team-lead. |
+| `AGENTS/OTTO/inbox/2026-09-17_from-CARL_seasoning-clock-ruling.md` | OTTO | Ruling: issuer-stated (distribution-date) clock; relabel 28/29/30→29/30/31 inside the ~Oct-1 repair; non-monotonicity fix owed regardless. Committed; OTTO not live at send time. |
+
+## INBOX (0 live items; disposition)
+| File | From | Disposition / next action |
+|------|------|---------|
+| (all 12 filed to `inbox/processed/` / `inbox/WALTER/processed/` 9/17) | PHAN · WALTER ×3 · PROME ×4 · DAEDALUS · OTTO · HENRY · RED | Card items (INDEX scan unconditional, WQ-227 line, safe-push delegate, lane wording) already done 9/11–9/16; HENRY $110.87 withdrawal — no CARL surface carries it; PROME bifurcation + retail packets integrated 9/16; PHAN template fix + RED revision ledger deferred with dates above; OTTO answered. |
+
+---
 
 ## WORKBOOK HEALTH
-| TSV | Lines | Last modified UTC | Note |
-|---|---|---|---|
-| ABS_BASELINE.tsv | 74 | 2026-07-10 16:44 | Frozen/reference; not refreshed |
-| BNPL_STRESS.tsv | 61 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
-| FLOW.tsv | 26 | 2026-06-26 20:06 | Frozen/reference; not refreshed |
-| KB.tsv | 483 | 2026-09-16 18:29 | Refreshed in completed audit |
-| SCHEMA.tsv | 17 | 2026-07-24 20:25 | Schema reference; no data refresh claimed |
-| STATE_DIFFUSION.tsv | 64 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
-| TRENDS.tsv | 41 | 2026-06-26 20:10 | Frozen/reference; not refreshed |
-| VX.tsv | 122 | 2026-07-10 19:10 | Frozen/reference; not refreshed |
+| TSV | Rows | Last Modified | Note |
+|-----|------|---------------|------|
+| ABS_BASELINE.tsv | 74 | 2026-07-10 | Frozen/reference |
+| BNPL_STRESS.tsv | 61 | 2026-06-26 | FROZEN |
+| FLOW.tsv | 26 | 2026-06-26 | FROZEN |
+| KB.tsv | 483 | 2026-09-16 | No rows added 9/17 (housekeeping pass) |
+| SCHEMA.tsv | 17 | 2026-07-24 | Schema reference |
+| STATE_DIFFUSION.tsv | 64 | 2026-06-26 | FROZEN |
+| TRENDS.tsv | 41 | 2026-06-26 | FROZEN |
+| VX.tsv | 122 | 2026-07-10 | FROZEN |
 
-Predictions event-driven and unchanged;16 prior child-ledger findings remain unresolved.
+Predictions event-driven and unchanged (15 OPEN).
+
+---
 
 ## URGENT
-Press conference review is outstanding; statement/SEP are complete. Old March/April figures must not be cited as current. Trade and instrument authority unchanged.
+- FSA re-poll and DR-1 decision both fall 2026-09-18.
+- Presser review outstanding; V12 cannot move on it alone.
 
 BOARD scan run, 1 new since SIG-W-20260915-008, 757 logged
-This cursor assertion is not the225-ID backlog or evidence of substantive review.
-
-## VALIDATION
-Consistency gate0hard/6soft (down from12 after mirror fixes); roadmap generated index matches; weekday clean;0 unreceipted named corrections. Consumer scans find no external old acreage values. Own historical archive and dated CRL10 original rationale remain history;KB120/121 now STALE with updated acreage pointers. No alteration of as-made prediction history. Read-cap gate remains non-clean due to MEMORY; STATUS/ROADMAP below budget but above rotation stop target. Retirement review remains incomplete; no source deleted/moved on an unproven reference check.
-
-## PRIOR GIT DELIVERY
-Audit commit011901bac PUSH CONFIRMED by root safe-push and fresh fetch. The earlier non-FF obstruction was integrated by another session; CARL performed no pull/rebase/autostash. Other sessions' working files remain untouched. Final audit handoff dd71d926b also PUSH CONFIRMED. This closeout adds only handoff bookkeeping; its delivery is verified by root safe-push after commit. Other desks have active staged/working changes; no pull or global index operation authorized or attempted.
+This cursor assertion is not the 225-ID backlog or evidence of substantive review.
 
 ## CLOSEOUT RECEIPT
 | Obligation | Result | Evidence / remaining action |
 |---|---|---|
-| Consistency | PASS,0hard/6existing soft | No probability/trigger changes |
-| BOARD and roadmap | PASS within stated scope | Existing assertion above; receipt coverage is not substantive review |
-| Read cap | FAIL | MEMORY over32550B; STATUS/ROADMAP above rotation target |
-| Retirement | INCOMPLETE | Prior reference review unfinished; no source moved on an unproven eligibility claim |
-| Root conditional checks | Scoped | Orphan check leaves foreign work alone; weekday checked; ledger nudge explains process-only STATUS pointer; no market figure superseded or new auto-memory this turn |
-| Push delegate | PASS |9 isolated cases, syntax check; root owns remote verification |
-| Approvals | Preserved | WQ227 explicitly wired; no reapproval/new tiers |
-| Delivery | Pending this turn's scoped commit/push | Prior audit commits and closeout e1a24c4e1 already push-confirmed |
-
-**Overall procedure execution remains PARTIAL because mandatory hygiene obligations remain unresolved.** Native Claude doorbell unavailable; no external dispatch claimed. Procedure corrections do not retroactively satisfy previous omissions.
+| Consistency (no warn-only) | PASS, 0 hard / 6 soft (pre-existing) | No probability/trigger changes; re-run before commit |
+| Roadmap index / BOARD gap / corrections | PASS / rc 0 / rc 0 | 35 threads byte-identical; 0 unreceipted named corrections |
+| Read cap | PASS rc 0 — STATUS 22,780 B (<70% stop), ROADMAP 18,617 B, MEMORY 11,908 B | Was 164% of budget on 9/16 before the rotation; STUE child rc 1 carried |
+| Ledger nudge | Explained in commit | Housekeeping pass, no market data; child ledgers are child sessions' work |
+| Retirement | PARTIAL | Axis-A 7/10 source retired (staged 9/16); reference review of remaining candidates still incomplete |
+| Approvals | Preserved | WQ151/182/183/227 stand; WQ228, CRL-08 touch/sustained, lag re-spec unresolved; no reset |
+| Delivery | See PRIOR GIT DELIVERY / memo | Root `safe-push.sh` receipt required; BRENT crash residue dirty in parallel — no pull/stash |

@@ -1,0 +1,244 @@
+{
+  "MEMORY.md": {
+    "before_bytes": 48558,
+    "archive": "archive/2026-09-16_closeout/MEMORY.md",
+    "crc32": "af925eaf",
+    "sha256": "5e683fe5546a8b60bb99e49f87f99cc126446f7ba0f2d62f3e395307da9929d9",
+    "after_bytes": 11267
+  },
+  "STATUS.md": {
+    "before_bytes": 32466,
+    "archive": "archive/2026-09-16_closeout/STATUS.md",
+    "crc32": "a2a6cd3c",
+    "sha256": "eb9554fa71fe3a3ef338ac400967bd391133f627863c7c5d490011a195c0bffe",
+    "after_bytes": 22871
+  },
+  "ROADMAP.md": {
+    "before_bytes": 30003,
+    "archive": "archive/2026-09-16_closeout/ROADMAP.md",
+    "crc32": "6e5b2363",
+    "sha256": "c1c6f5bfb2a97147de98762242c7331173fc4b390004b72cd4f84ae1da3b169a",
+    "after_bytes": 18202
+  },
+  "memory_rules": [
+    {
+      "old_line": 25,
+      "hot_id": "M25",
+      "rule": "Verify the YEAR at primary for every web metric; include this in web-pulling prompts. Promoted: finding_subagent_year_verification."
+    },
+    {
+      "old_line": 26,
+      "hot_id": "M26",
+      "rule": "Run full row-by-row Pred_ID mirror checks, not just checks of this session’s edits. Check A now implements this; it is no longer an unbuilt Phase3 candidate."
+    },
+    {
+      "old_line": 27,
+      "hot_id": "M27",
+      "rule": "After any bulk ledger append reconcile missing IDs AND duplicate IDs. BOARD scan runs every boot. If delegating extraction, retain CARL’s disposition judgment and current authorization limits."
+    },
+    {
+      "old_line": 28,
+      "hot_id": "M28",
+      "rule": "For a load-bearing multisource claim, independently test the mechanism rather than asking for agreement; any delegation still needs current session authority."
+    },
+    {
+      "old_line": 29,
+      "hot_id": "M29",
+      "rule": "When an authorized peer already holds context, use a bounded follow-up rather than paying a full respawn cost. Native Claude messaging may be unavailable in Codex; never claim it ran."
+    },
+    {
+      "old_line": 30,
+      "hot_id": "M30",
+      "rule": "Periodically re-audit derivative press citations against primary agency/issuer material, especially policy scopes and catalysts."
+    },
+    {
+      "old_line": 31,
+      "hot_id": "M31",
+      "rule": "Use conservative caveats while methodology is unresolved; record the open question, then tighten only when evidence settles it."
+    },
+    {
+      "old_line": 32,
+      "hot_id": "M32",
+      "rule": "For sweeps with multiple fresh prints, independently recompute from sources and check both omitted market-moving details and missing earlier prints. An echo of the summary is not verification."
+    },
+    {
+      "old_line": 34,
+      "hot_id": "M34",
+      "rule": "A dated policy catalyst can already be satisfied, not just invalidated. Re-verify the underlying action’s current state near the date or on adjacent news."
+    },
+    {
+      "old_line": 35,
+      "hot_id": "M35",
+      "rule": "Policy-action dates are conditional on the policy still existing. When a premise reverses, remove phantom dates and distinguish mechanism from threshold. Do not silently bank an unpassed forecast."
+    },
+    {
+      "old_line": 37,
+      "hot_id": "M37",
+      "rule": "Authorized spawn prompts must say the final action is delivery of the report. Silent idle is not delivery: inspect disk before diagnosing; clustered idles may be harness eviction. Do not launch on this historical lesson alone."
+    },
+    {
+      "old_line": 39,
+      "hot_id": "M39",
+      "rule": "Test season-crossing thresholds against a no-stress baseline; prefer same-season comparisons or guide-revision direction. A normal seasonal ramp is not distress."
+    },
+    {
+      "old_line": 41,
+      "hot_id": "M41",
+      "rule": "Before registration: confirm the publisher/series/cadence, test a no-stress baseline, and check each multi-period conjunction remains reachable after every print. Promoted: finding_threshold_spec_fails_before_world."
+    },
+    {
+      "old_line": 43,
+      "hot_id": "M43",
+      "rule": "If dismissing a source as biased, name the less-biased resolver, date and score consequence in both directions. Otherwise masking becomes unfalsifiable. Do not treat the historical HHDC-versus-V2 example as today’s instrument."
+    },
+    {
+      "old_line": 45,
+      "hot_id": "M45",
+      "rule": "A date-verification pass covers its declared whole cluster. Unchecked rows must remain labelled unchecked, not inherit “IR-confirmed.”"
+    },
+    {
+      "old_line": 47,
+      "hot_id": "M47",
+      "rule": "Measure the party being shed when the reporting counterparty protects itself by shedding risk. Better insurer/bank margins can coexist with worse consumer access. Check the sign of the instrument against the mechanism."
+    },
+    {
+      "old_line": 49,
+      "hot_id": "M49",
+      "rule": "Every threshold names its actual publishing instrument; check nested probabilities across parent AND child ledgers. Current consistency checks D/E implement the former Phase4 candidates."
+    },
+    {
+      "old_line": 51,
+      "hot_id": "M51",
+      "rule": "Before surfacing a position-action clause, identify owner and concrete legs and re-check the current book. Expiry may make a prediction-linked action moot. Historical positions/marks are not current authority."
+    },
+    {
+      "old_line": 53,
+      "hot_id": "M53",
+      "rule": "Read the counterpart’s scope before declaring a conflict. Split overlapping entities by question/surface, not ticker; respect demonstrated coverage."
+    },
+    {
+      "old_line": 55,
+      "hot_id": "M55",
+      "rule": "Calibration depends on vintage. Historical +28.9pp bias did not justify a blanket live-book haircut. Check G is current; full record: thesis/BRIER_AUDIT_2026-07-24.md."
+    },
+    {
+      "old_line": 57,
+      "hot_id": "M57",
+      "rule": "When CARL writes an argument against its own modal, change the modal or explicitly explain why that argument loses. Recurred September11; promotion consideration remains live, not silently claimed complete."
+    },
+    {
+      "old_line": 59,
+      "hot_id": "M59",
+      "rule": "Before executing a pre-authorized move, read both card and canonical matrix. If they disagree, expose the coexistence and apply explicit dated supersession; do not silently select a convenient trigger."
+    },
+    {
+      "old_line": 61,
+      "hot_id": "M61",
+      "rule": "When only one of opposite-signed candidates resolves, state why the other did not. “Instrument unavailable” is not “evidence against”; an unchanged score is not neutral evidence."
+    },
+    {
+      "old_line": 63,
+      "hot_id": "M63",
+      "rule": "After the second failed attempt on the same instrument, audit the resolution path rather than repeat it indefinitely. Alternative instrument registration is a Will-gated spec change. Require in-source month AND year."
+    },
+    {
+      "old_line": 65,
+      "hot_id": "M65",
+      "rule": "Carry known access-method workarounds into authorized spawn prompts. If an authorized instruction overrides a local card, state exactly which instruction; never infer broad child authority."
+    },
+    {
+      "old_line": 67,
+      "hot_id": "M67",
+      "rule": "Before freezing adjacent quantitative cells, test exact boundary values: partition with non-overlapping inequalities. After seeing data, record any seam defect without silently editing the frozen specification."
+    },
+    {
+      "old_line": 68,
+      "hot_id": "M68",
+      "rule": "Before calling a published number unavailable, inspect its companion spreadsheet/API/appendix. A missing figure in PDF prose is not proof no primary value exists."
+    },
+    {
+      "old_line": 70,
+      "hot_id": "M70",
+      "rule": "Detect revisions by comparing OLD and NEW reports. Comparing two cells both sourced from the new report is circular. Derived dollars/share calculations must state one vintage; cross-vintage mixing can reverse signs."
+    },
+    {
+      "old_line": 71,
+      "hot_id": "M71",
+      "rule": "Base-rate both the proposed trigger and the incumbent it replaces. Promoted: finding_base_rate_the_threshold_before_building_it, incident4/rules10–11. Read explicitly when needed; do not assume harness injection."
+    },
+    {
+      "old_line": 72,
+      "hot_id": "M72",
+      "rule": "Before reading improvement, ask what exits the numerator when a case worsens. For FHA totalDQ, check foreclosure inventory AND90-day bucket; totalDQ excludes foreclosure. Aggregate buckets do not prove same-borrower transitions."
+    },
+    {
+      "old_line": 73,
+      "hot_id": "M73",
+      "rule": "Harvest dated child deferrals into the parent docket: a frozen/non-booting owner cannot execute prose obligations. Reconsider parked routing when new evidence changes its premise; a delivery receipt is not a scheduled runner."
+    },
+    {
+      "old_line": 74,
+      "hot_id": "M74",
+      "rule": "State the search perimeter. Zero hits may mean absent coverage, stale coverage or wrong naming; diagnose before building a new instrument."
+    },
+    {
+      "old_line": 76,
+      "hot_id": "M76",
+      "rule": "On critical metrics, periodically search research ABOUT the measurement separately from new prints. Scope any impeachment to the specific claim; do not turn an adverse paper into confirmation without adversarial review."
+    },
+    {
+      "old_line": 77,
+      "hot_id": "M77",
+      "rule": "Register quiet-background assumptions and disqualifying shocks for natural experiments. Confounded is not confirmed or missed; an edge-censored peak is a lower bound, not a complete lag measurement."
+    },
+    {
+      "old_line": 79,
+      "hot_id": "M79",
+      "rule": "Match multi-issuer panels on disclosed COLLECTION PERIOD, not filing date. Align definitions and seasoning labels. A frozen-artifact parser control cannot certify live fetch health."
+    },
+    {
+      "old_line": 80,
+      "hot_id": "M80",
+      "rule": "Check reachable instrument alternatives already in the panel before registering a paywall. Disclose issuer coverage gaps. Normalize losses to pool size/seasoning; amortization can reverse the sign of raw-dollar changes."
+    },
+    {
+      "old_line": 82,
+      "hot_id": "M82",
+      "rule": "Receipt, action and filing are separate. Count lanes recursively; verify the disposition AND the target artifact before declaring “unprocessed.” CARL board/BOARD_LOG.tsv and board_log.tsv serve distinct interfaces. Print the actual path/CIK/reference beside a check verdict; promoted address-form lesson is finding_instrument_reports_clean_against_the_wrong_reference."
+    },
+    {
+      "old_line": 84,
+      "hot_id": "M84",
+      "rule": "Before non-acting disposition, check whether the signal touches an OPEN registered instrument. Required disposition is acted or deferred WITH A DATE. The old “drafted, not wired” note is superseded by CLAUDE step5/5b; unresolved card-wording choices remain on ROADMAP. A caveat must reach the row it invalidates."
+    }
+  ],
+  "roadmap_open_threads": "35; generated index unchanged; historical-tail open duties retained explicitly",
+  "status_obligation_topics": [
+    "Fed presser",
+    "CRL08 basis/lag",
+    "V2 broad/deep/encoding/control",
+    "FSA",
+    "SAVE/RAP/ES02",
+    "UMich/PCE",
+    "Census revisions",
+    "CPI/retail",
+    "CRL10 denominator",
+    "CRL20/21",
+    "CRL22/23",
+    "V16",
+    "SoFi",
+    "EART contractual basis",
+    "UI actuals",
+    "Qatar",
+    "2019 foreclosure baseline",
+    "kill-leg revision/instrument defects",
+    "routing",
+    "FL minimum wage",
+    "read-cap recheck"
+  ],
+  "preserved": {
+    "prediction_ledger_sha256": "6e56b8f4e2feb5fca91d12902a403b406f0558ee42e238d8986df8fa23a21091",
+    "thesis_sha256": "de33eec5bd7f6694ab6496d0b835739f704773b1a3bd02b21cd08b5731acc240",
+    "docket_sha256": "b6b744b7d643b6f32fdf8befc8373a2ebd651b24c217764b13fd74cb451e47ea"
+  }
+}
