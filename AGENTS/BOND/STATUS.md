@@ -1,7 +1,7 @@
 # BOND — Status
 
 **Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension, integrated 7/1; + the sovereign-credibility instrument set per the Will-ruled 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-09-17 ~08:2x ET → (PROME WQ-184 L0 spawn `prome-ae`, DOCKET **L404** TIPS-R grade + **L401** F2 carrier; markets OPEN; **TIPS-R prints 1:00 PM**) · **Prior:** 2026-09-15 ~10:0x–13:4x ET
+**Last session:** 2026-09-17 ~08:2x→13:2x ET (PROME `prome-ae` doorbell; **DOCKET L404 TIPS-R GRADED 🟢 CLEAN** + L401 F2 carrier; markets OPEN) · **Prior:** 2026-09-15 ~10:0x–13:4x ET
 
 > 📕 **THIS FILE IS HOT/COLD SPLIT AND ROTATED. NOTHING HAS EVER BEEN DELETED FROM IT.** Complete pre-split snapshot: `archive/2026-09-01_STATUS_cold_pre-split-full-snapshot.md` (160,077 B, crc32 `1210262`). **Everything rotated since lives in `domain/sources/` and `archive/`, each file verbatim and crc-stamped in its own header.** **Rotated 9/17:** the 9/15 BOTTOM LINE · the add-gate breach block · the "held against evidence" paragraph · the fired 9/10–9/16 catalyst rows → `domain/sources/2026-09-17_STATUS_archive_rotated_9-15-blocks.md` (crc32 `1463914424`).
 > **What stays hot: every live value, score, gate, exit criterion and dated catalyst.** Canon: `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`. **Budget 32,550 B — never raise it; rotate instead.**
@@ -75,7 +75,7 @@
 
 **Tracked OUTSIDE the composite:** `VX-BND-15` inflation-expectations anchoring (2) · `VX-BND-17` MBS / housing-finance relay (1) · `VX-BND-18` FHLB advances (2) · `VX-BND-19` eurozone rates / ECB shock (3 — ECB 2.50% DFR eff. 9/16; **"disorderly" qualifier UNDEFINED, define at the 10/1 refresh, `KB-BND-256`**) · `VX-BND-20` benchmark-driven structural UST demand (2 — GPFG proposal; checkpoint **10/6**; `monitors/BENCHMARK_DEMAND.md`).
 
-> ✅ **"MIRROR DIVERGENCE" CLOSED 2026-09-17 — never a defect.** `VX-BND-05`=4 / `VX-BND-16`=4 vs matrix rows 1 and 3 is **BY DESIGN: the matrix rows are CONJUNCTIVE, the components are not** (row 1 = level **AND** weak auction; row 3 = letter **AND** mechanism). Both VX rows' Notes have said so since 9/9. Full record + why it survived nine sessions → `KB-BND-300`.
+> ✅ **"Mirror divergence" CLOSED 9/17 — never a defect** (matrix rows are CONJUNCTIVE, components are not). Full record + why it survived 9 sessions → `KB-BND-300`.
 
 ### Prediction scoreboard *(canonical: `thesis/PREDICTIONS.tsv`)*
 
@@ -113,7 +113,6 @@
 
 | Date | Catalyst | What BOND watches |
 |---|---|---|
-| ⏳ **Thu 9/17 1PM** | **10Y TIPS REOPENING `91282CRE3` $19B** (settles 9/30) — **bars frozen 9/9 (`742d4533e`), reproduced 08:2x** | ind <56.08 AND dlr >17.79 · cover BTC <2.20 · medians 66.94 / 10.64 / 2.40. **No `I'`; TIPS never count.** Real stop vs DFII10 2.62; a stop >2.438 = highest 10Y TIPS stop since 2008-10-08 (TA_WS, n=139). Confound stated pre-print: day-after-FOMC + Brent −4% like-for-like (PROME-corrected from −7%, a roll artifact) ⇒ real-yield-UP tape. → `analysis/2026-09-17_PREPRINT_TIPS-R_91282CRE3_SEP-grade_F2-carrier.md` |
 | **Thu 9/17 1:40 PM** | **7Y–10Y liquidity-support buyback op, cap $4B, 10 eligible 2033-11 → 2036-02** | **OUT of the F2 letter's scope** (not a stepped-up sector) — recorded as context, no packet to RED. Post-1:40 nominal 7–10Y tape contaminated. |
 | 🔴 **Fri 9/18** | **FR2004 WEEKLY JOIN — WQ-157 leg ②** (PROME WQ 157 · DOCKET L271) | Join coupon auctions to the contemporaneous FR2004 long-end print (+ SOFR−IORB); base-rate `I'` + mechanism confirmation; **state the SBN2022/SBN2024 comparability verdict.** n ≤ 244. **The 9/15 `I'` fire waits on it.** |
 | **Tue 9/22 · Wed 9/23 · Thu 9/24** | **2Y `91282CRP8` · 5Y `91282CRN3` · 7Y `91282CRM5`** month-end cluster (+ 2Y FRN-R 9/23, excluded from every bar); sizes at the 9/17 announcement | **`I'` bars RE-FROZEN 9/17 (venv, P15, strictly prior): 54.82 · 60.27 · 57.24 — UNCHANGED**; OLD 53.21/24.12 · 59.24/15.61 · 56.42/13.14; cover BTC <2.44 · <2.28 · <2.40. Counter re-arms at the 2Y. |
@@ -124,22 +123,19 @@
 | **11/9 · 11/13 · 12/1 · 2027-01-25** | FHLB Q3 report (`REG-T-06` leg 3, `VX-18`) · FRBNY Q3 FX report · US-sov-CDS re-test · Norwegian MoF expert group (`VX-20` hard checkpoint) | as docketed |
 | **— STANDING —** | MOF FX intervention · Warsh task force (end-2026) · FR2004 weekly · credit weekly · **F2 carrier (every boot)** | `FL-BND-11` · 2027 lane · `VX-04` · `VX-02/11` · `VX-16` |
 
-**Recently resolved** → 9/10 30Y-R (clean) · 9/15 20Y-R (`I'` fire, marker) · **9/16 FOMC (graded, `KB-BND-293`)** · 9/11 hyperscaler share (**DECLINED** under its own second-miss rule, `KB-BND-297`) — rows rotated verbatim to `domain/sources/2026-09-17_CATALYSTS_rotated_fired-rows_9-10_to_9-16.md`.
+**Recently resolved** → **9/17 10Y TIPS-R 🟢 CLEAN** — BTC 2.24 · ind 59.12 (+3.04 clear) · dlr 12.18 (−5.61) · stop **2.6530% = highest since 2008-10-08**; counter stays 0, `$0`; **tool's `I'` 61.44 would have fired and was NOT applied — spec excludes TIPS, deferred to 10/1** (`KB-BND-304/305`, grade → `analysis/2026-09-17_GRADE_TIPS-R_91282CRE3.md`) · 9/10 30Y-R (clean) · 9/15 20Y-R (`I'` fire, marker) · **9/16 FOMC (graded, `KB-BND-293`)** · 9/11 hyperscaler share (**DECLINED** under its own second-miss rule, `KB-BND-297`) — rows rotated verbatim to `domain/sources/2026-09-17_CATALYSTS_rotated_fired-rows_9-10_to_9-16.md`.
 
 ---
 
 ## BOTTOM LINE
 
-**[2026-09-17 Thu ~08:2x ET → PRE-PRINT — PROME WQ-184 L0 spawn `prome-ae`, DOCKET L404 + L401. Markets OPEN. TIPS-R prints 1:00 PM; this block is updated after the grade.]**
+**[2026-09-17 Thu ~13:2x ET → POST-GRADE. DOCKET L404 DISCHARGED. Markets OPEN; `BND-25`/`BND-26` still owed on the 9/16 H.15 cells (~16:15 ET).]**
 *(9/15 block rotated verbatim → `domain/sources/2026-09-17_STATUS_archive_rotated_9-15-blocks.md`, crc32 `1463914424`.)*
+*(9/16-FOMC + the two PRE-PRINT paragraphs rotated verbatim 9/17 13:2x → `domain/sources/2026-09-17_STATUS_rotated_BOTTOM-LINE_pre-print-blocks.md`, crc32 `3015434035`. FOMC substance: `thesis/THESIS.md` v1.2.7 + `KB-BND-293`.)*
 
-🔑 **THE FED CAME IN DOVISH AGAINST THE CURVE AND THE CURVE DID NOT MOVE — THAT IS THE 9/16 RESULT.** +25bp to 3.75–4.00, 12–0, no guidance sentence; **SEP median terminal 4.125** (16 of 18 see one more hike; 2028 median 3.9 pencils cuts). My pre-registered falsifier (*SEP terminal ≥~5.00 with the curve unchanged*) **did NOT trigger** — but the **dovish branch** of the same asymmetry read, for which I had predicted *"a large repricing"*, **was the branch tested, and the repricing did not come**: 5Y +3.3bp, 10Y +1.0, 30Y −1.5, breakevens −5bp, TIP −0.38%, TLT +0.21% (vendor; official cells ~16:15). **The curve is holding a policy path 60–85bp above the Fed's own median through the one event that could have re-anchored it ⇒ the priced path is a market view, not a guidance view — an inflation-risk / credibility spread living in the same real leg that fired the add-gate.** Working model, not truth; graded honestly in both halves (`KB-BND-293`).
+🟢 **THE 1PM 10Y TIPS-R GRADED CLEAN ON EVERY FROZEN LEG — ind 59.12 (+3.04 clear) · dlr 12.18 (−5.61 clear) · BTC 2.24 (+0.04 clear) — at the HIGHEST 10Y TIPS STOP SINCE OCTOBER 2008 (2.6530%, rank 15/140).** Counter stays **0** (TIPS never count), no re-arm, `$0`. 🔴 **Two honest marks against this desk, both recorded because they cut the wrong way:** (1) the tool printed an `I'` bar (61.44) that ind 59.12 **would have fired** — not applied, because the registered spec excludes TIPS from `I'` in writing pre-print, and **an `I'` fire would confirm my own bear thesis, so it is deferred to 10/1 rather than resolved on the session it would pay me** (`KB-BND-304`); (2) **the confound I pre-wrote at 08:42 did not materialize** — 9/17 **rallied** (TLT +0.87%, `^TNX` −5.1bp) instead of the real-yield-UP tape I registered, so the excuse was unavailable. **Per the 5/21 backdrop rule, a clean print on a held-rally day is CONSISTENT-WITH-BACKDROP, not new bull evidence.** ⚠️ **Directs backfilled for a second straight auction** (28.70 = 4th-highest of 107; indirect the lowest of the last six) — the masked-hole SHAPE — **but dealers did not warehouse at either print, so the bid is substituting, not vanishing. "Expensive, not broken" survives.** n=2 is a pattern, not a trend; the 9/22–24 nominal cluster tests it (`KB-BND-305`).
 
 🔴 **`DFII10` 2.62 [9/15] = +12bp through the add-gate for a FOURTH published session ⇒ `BND-29` TRUE (70% hit): the breach is PERSISTENT, and the named threat to its persistence (a dovish SEP) arrived and did nothing.** Still authorises NO add — the count is Will's (WQ-246), 7/16 NO-ADD, root rule #5. `$0`.
-
-🟠 **1:00 PM — 10Y TIPS-R `91282CRE3` $19B, bars frozen 9/9 and reproduced this morning** (ind <56.08 AND dlr >17.79 · cover <2.20; no `I'`; never counts). A stop above 2.438 is the highest 10Y TIPS stop since Oct-2008. **Confound stated before the print: FOMC-day-after plus a ~4% like-for-like Brent drop (BZX26 −3.98%; my first −7% figure was the BZ=F roll, corrected by PROME pre-print) is a real-yield-UP, breakeven-DOWN tape — a soft print has a non-structural explanation and will not be read as a demand hole.**
-
-⬜ **F2 PER-OP CARRIER BUILT (L401)** — `monitors/buyback_f2.py` + `registry/f2_reads.tsv`, every boot. **Zero in-scope ops have run since 9/10** (9/15 was TIPS; today's is 7Y–10Y) ⇒ **zero arrears; the gap was structural.** Six in-scope reads remain, 9/24 → 11/4. Metric declared and base-rated (0/52); **blind-read pre-closeout: 10 ❌ fixed (selftest 31/31), 7 ⚠️ residue declared** in the pre-print record §5.
 
 🔴 **TOMORROW 9/18: the FR2004 join** — the kill leg is unevaluable and a live `I'` fire (9/15) sits behind it. **That is the desk's critical path, not a build task.** Also owed: `BND-25`/`BND-26` on the 9/16 H.15 cells; the hyperscaler share is **DECLINED** (`KB-BND-297`).
 
