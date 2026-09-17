@@ -16,7 +16,7 @@ No registered trigger fired (RED-FT ×12, REG-T ×8, CREED-T eligible rows, HANS
 
 ## GAPS
 
-Delivery ≠ consumption: the 22 handoffs are `pending_push` until the push; reconciliation flips them and the receipt below records the count. Publication state: see CLOSEOUT RECEIPT (updated after push). HANS UK 10Y/30Y levels are a search-excerpt intraday relay (CNBC page 403) — not closes; HANS to grade. JMIC "3 vessels in 72h" and the Axios drone strike are secondary relays, logged not adopted. The "~4 mb/d Russian runs, wk 9/3–9" figure is UNVERIFIED (no primary found) — OSPREY asked. Four event ledgers (`CORRECTIONS`, `corrections_receipts`, `DEEP_RESEARCH_FLAGGED_LOG`, `BATCH_MANIFEST`) not yet declared EVENT-DRIVEN (reader tolerance for extra `#` lines unverified; they read `ok` today). Fleet liveness = `ListAgents` + ORCH + porcelain at 22:36Z, not later. Seven old ACTIONs: ZHAO's 5 confirmed by receipt; MARCO `-0908-006` and CARL `-0911-008` closure proofs NOT yet checked at their board_logs. No owner grade asserted anywhere.
+Delivery ≠ consumption: the 22 handoffs are on origin (reconciled 22/22 delivered); no owner has consumed any yet. Publication state: see CLOSEOUT RECEIPT (updated after push). HANS UK 10Y/30Y levels are a search-excerpt intraday relay (CNBC page 403) — not closes; HANS to grade. JMIC "3 vessels in 72h" and the Axios drone strike are secondary relays, logged not adopted. The "~4 mb/d Russian runs, wk 9/3–9" figure is UNVERIFIED (no primary found) — OSPREY asked. Four event ledgers (`CORRECTIONS`, `corrections_receipts`, `DEEP_RESEARCH_FLAGGED_LOG`, `BATCH_MANIFEST`) not yet declared EVENT-DRIVEN (reader tolerance for extra `#` lines unverified; they read `ok` today). Fleet liveness = `ListAgents` + ORCH + porcelain at 22:36Z, not later. Seven old ACTIONs: ZHAO's 5 confirmed by receipt; MARCO `-0908-006` and CARL `-0911-008` closure proofs NOT yet checked at their board_logs. No owner grade asserted anywhere.
 
 ## WILL_NEEDS
 
@@ -44,29 +44,29 @@ Carried unchanged: seasonal threshold form for #6/#8 (with Will); non-uniform in
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication and delivery counts are filled from `git`/`safe-push` output and `reconcile_delivery_log.py --apply` AFTER the push; until then the JSON below reads pending and `closeout_check.py` is expected to say so. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY/FALCON doorbell outcomes; FRED 9/17 print).
+Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication: `f1382fbb5` — `safe-push.sh` receipt "Pushed. CONFIRMED: HEAD f1382fbb5 is on origin/master (fresh fetch)"; `reconcile_delivery_log.py --apply` then flipped the 22 pending rows to delivered (22/22). The follow-up commit carrying this receipt is pushed the same way; its hash lives in `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY/FALCON doorbell outcomes; FRED 9/17 print).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-17T23:00:43+00:00",
+  "as_of": "2026-09-17T23:03:01+00:00",
   "publication": [
     {
-      "commit": "PENDING",
-      "state": "pending"
+      "commit": "f1382fbb5",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20260917",
     "total": 22,
-    "delivered": 0
+    "delivered": 22
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
         "path": "AGENTS/WALTER/research/2026-09-17_iran-full-sweep.md",
-        "sha256": "PENDING"
+        "sha256": "db9ee70d0d4c863c468276b771cafdbe8a42b61cf3a243d37ab5a883a8ab7a86"
       }
     ]
   },
