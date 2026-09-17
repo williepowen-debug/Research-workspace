@@ -1,6 +1,8 @@
-# BRENT THESIS — v5.8
+# BRENT THESIS — v5.9
 
-**Version:** 5.8. **Thesis calibration:** September 2, 2026; unchanged by this reconciliation.
+**Version:** 5.9, September16 evidence refinement. **Numeric calibration:** September2 v5.8 forecasts remain dated; no probability, horizon, threshold, band or standing approval changed.
+**September16 reassessment:** [Cross-war review](../research/2026-09-16_cross-war-oil/REPORT.md) separates stronger Russian product-outage evidence from unquantified Saudi crude-delivery loss. Partial restart objectives and later Russian crude-export recovery counter uninterrupted total disruption, without proving normalization. Matched margins support refiners; US product builds oppose escalating immediate US scarcity. Two-phase framework retained; no phase transition or fresh numeric forecast. SPR Branch A observes slowing draws, not an authenticated DOE schedule. Historical loading-premium-implies-loading inference withdrawn.
+
 **Reader reconciliation:** September 8, 2026. Weekly physical observations remain week ending August 28; price observations retain their own dates and source classes. This is not a new market or broker refresh.
 
 **September 9 evidence update; calibration unchanged:** [September STEO comparison](../research/2026-09-09_steo-comparison/REPORT.md), forecast cutoff September 3, revises Q4 supply recovery lower and projected draws higher. It also raises the OECD stock base and reduces Q3 draws; OPEC surplus recovery remains April 2027. This supports continued attention to supply delivery and product pressure without establishing faster depletion everywhere or observed reopening. The two-phase mechanism, September 2 probabilities/horizons and existing falsifiers below are not reissued or re-marked. Numeric monthly balances already build from January 2027; the source narrative's H2 timing wording is not adopted as a new transition date.
@@ -54,7 +56,7 @@ PortWatch access now works on the exact owner query, but the required August 31�
 
 ## POSITION VIEW
 
-Current holdings, selected exits, receipts and obligations are owned by [TRADE](../TRADE.md), with implementation at TERRY and execution/position truth at Will's broker. The old XLE LAPSE description is superseded by the recorded September 9 selected-exit obligation; selection is not execution. No fresh marks or receipt were obtained here.
+Current holdings, closed-leg receipts and the screenshot-reported September16 call are owned by [TRADE](../TRADE.md). Implementation belongs to TERRY; execution and position truth belong to Will’s broker. No new management rail or trade follows from this refinement.
 
 **WQ-189/192 STAND DOWN remains binding.** The retired deploy gate and old Tier-1/Tier-2 rules are not live. Surviving Stage-A/off-ramp/frame-breaker clauses convey only the authority their full specs provide. WQ-189's destroyed-capacity floor is prospective from September 7 at 14:42 ET; it does not retrospectively regrade Kylo. A cheaper entry or a fired trade gate supplies no independent thesis evidence.
 

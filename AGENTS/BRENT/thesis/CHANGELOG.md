@@ -1,3 +1,7 @@
+## 2026-09-16 — v5.9 evidence refinement; frozen calibration retained
+
+Old: September15 cargo disruption known, Russian later exports unreadable, refining scale unresolved, market decomposition not re-underwritten. New: stronger operational product-outage reporting, later Russian export counter-signal, Saudi partial-restart objective, matched margin strength and primary SPR Branch A. Refining-margin support strengthens; no quantified combined crude loss or phase transition. Loading-premium-as-flow inference withdrawn. No probability, scoring field, band, threshold, gate or approval changed; v5.8 forecasts retain their dates/horizons. [Evidence](../research/2026-09-16_cross-war-oil/REPORT.md).
+
 ## 2026-09-15 — backlog review; calibration unchanged
 
 BRT-29 M: expanded carrier evidence and corrected overbroad Lufthansa exclusion; three eligible named carriers remain unestablished. Six standing rows reconciled; incident current-loss quantities corrected and KNPC nameplate fixed. Cargo replacement scope updated; chart unverified. No thesis probability, frozen prediction field or gate letter changed. [Full evidence](../research/2026-09-15_backlog-review/REPORT.md).
