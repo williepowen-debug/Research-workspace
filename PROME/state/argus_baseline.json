@@ -1,8 +1,8 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "8bbe708a236d57dec907b35d8f0bbe2667cbd63e",
-  "subject": "PROME: widen L407 scope + done-condition (CATO 0938); brainstorm: orch_log.py exists, item 9",
-  "recorded_at": "2026-09-17T09:41:40-04:00",
+  "sha": "35fb035938c27d5fd5a6c94b4d0c4debf2369cf0",
+  "subject": "PROME: SCRATCH docket-view regen after L407 widening (view stamp only)",
+  "recorded_at": "2026-09-17T09:41:50-04:00",
   "recorded_by": "PROME"
 }
