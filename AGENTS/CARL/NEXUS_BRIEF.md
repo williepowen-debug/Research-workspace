@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged; September fuel squeeze strengthened, August spending rebounded and issuer credit is mixed.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-17 08:58 ET | **STATUS commit:** `a5bfc743b` *(9/17 crash-recovery closeout: rotation finished, inbox drained, SIG-W-20260911-008 graded post-hoc — V12 unchanged; no market refresh)*
+**As of:** 2026-09-17 08:46 ET | **STATUS commit:** `a5bfc743b` *(9/17 crash-recovery closeout: rotation finished, inbox drained, SIG-W-20260911-008 graded post-hoc — V12 unchanged; no market refresh)*
 **Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
 
 ## CROSS-DOMAIN
