@@ -33,3 +33,14 @@ crc32 `2275308941` · 826 B
 crc32 `2811080770` · 372 B. **The item is CLOSED; `KB-BND-300` is canonical.**
 
 > ✅ **"MIRROR DIVERGENCE" CLOSED 2026-09-17 — never a defect.** `VX-BND-05`=4 / `VX-BND-16`=4 vs matrix rows 1 and 3 is **BY DESIGN: the matrix rows are CONJUNCTIVE, the components are not** (row 1 = level **AND** weak auction; row 3 = letter **AND** mechanism). Both VX rows' Notes have said so since 9/9. Full record + why it survived nine sessions → `KB-BND-300`.
+
+
+---
+
+## APPENDED 16:0x ET (session close) — two BOTTOM LINE paragraphs, verbatim
+
+crc32 `1224837138` · 1681 B. **Rotated because STATUS hit 77% of budget on the closeout write-back.** Both events are RESOLVED and fully recorded elsewhere: the TIPS grade at `analysis/2026-09-17_GRADE_TIPS-R_91282CRE3.md` and the STATUS Recently-resolved line; the `DFII10` breach in the STATUS gate-distance table and `KB-BND-296`. ⛔ **DATED RECORD ONLY — do not cite as current.**
+
+🟢 **THE 1PM 10Y TIPS-R GRADED CLEAN ON EVERY FROZEN LEG — ind 59.12 (+3.04 clear) · dlr 12.18 (−5.61 clear) · BTC 2.24 (+0.04 clear) — at the HIGHEST 10Y TIPS STOP SINCE OCTOBER 2008 (2.6530%, rank 15/140).** Counter stays **0** (TIPS never count), no re-arm, `$0`. 🔴 **Two honest marks against this desk, both recorded because they cut the wrong way:** (1) the tool printed an `I'` bar (61.44) that ind 59.12 **would have fired** — not applied, because the registered spec excludes TIPS from `I'` in writing pre-print, and **an `I'` fire would confirm my own bear thesis, so it is deferred to 10/1 rather than resolved on the session it would pay me** (`KB-BND-304`); (2) **the confound I pre-wrote at 08:42 did not materialize** — 9/17 **rallied** (TLT +0.87%, `^TNX` −5.1bp) instead of the real-yield-UP tape I registered, so the excuse was unavailable. **Per the 5/21 backdrop rule, a clean print on a held-rally day is CONSISTENT-WITH-BACKDROP, not new bull evidence.** ⚠️ **Directs backfilled for a second straight auction** (28.70 = 4th-highest of 107; indirect the lowest of the last six) — the masked-hole SHAPE — **but dealers did not warehouse at either print, so the bid is substituting, not vanishing. "Expensive, not broken" survives.** n=2 is a pattern, not a trend; the 9/22–24 nominal cluster tests it (`KB-BND-305`).
+
+🔴 **`DFII10` 2.62 [9/15] = +12bp through the add-gate for a FOURTH published session ⇒ `BND-29` TRUE (70% hit): the breach is PERSISTENT, and the named threat to its persistence (a dovish SEP) arrived and did nothing.** Still authorises NO add — the count is Will's (WQ-246), 7/16 NO-ADD, root rule #5. `$0`.
