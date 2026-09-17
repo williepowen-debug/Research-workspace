@@ -112,11 +112,7 @@ SERIES = [
         "green": (None, 225000),
         "yellow": (225000, 280000),
         "red": (280000, None),
-        "notes": "",
-        "shadow_adj": {
-            "label": "est w/ shadow adj",
-            "add": 55000,
-        },
+        "notes": "shadow_adj (+55,000 'est w/ shadow adj') RETIRED 2026-09-17 by PROME on LABOR's flag: it entered in a 2026-03-29 nightly auto-commit, no ruling and no LABOR ledger registers it, and the adjusted figure sat inside a LABOR band the raw print did not. LABOR grades RAW SA only.",
     },
     {
         "name": "Cont Claims",
