@@ -1,7 +1,7 @@
 # ZHAO STATUS
 
-**Updated:** 2026-09-17 (see commit time). Session: **PROME-spawned WQ-206 L0 DRAIN-ONLY** — 18 inbox items consumed · **`board_log.tsv` CREATED** · NVDA wording = NO-OP with evidence · CXMT unit fix · Aug trade (nominal) · NBIM proposal · **Vector 8 3→4 (LNG leg)** · read-cap rotation #2. **July TIC NOT read.**
-**Overall Status:** 🟠 ELEVATED — **29/60 (+1)**: the one move is **Vector 8 → 4 on BRENT's 9/6 re-score of the GAS leg** (HANS figures via BRENT). No China data was pulled; capital flows unchanged from 8/21 (China $633.4B, TTM −$122.3B, Belgium proxy falsified). **July TIC (due 9/16) UNREAD; ZHA-17 Resolve_By 2026-09-18.**
+**Updated:** 2026-09-17 (see commit time). Session: **PROME-spawned WQ-206 L0 drain, then JULY TIC GRADED on PROME's word** — 18 inbox items consumed · `board_log.tsv` created · **ZHA-17 NO (boundary zone) · ZHA-11 YES · ZHA-12 YES** · Vector 8 3→4 (LNG leg) · read-cap rotation #2 · `CLAUDE.md` re-keyed off `LAST_COMPLETION`.
+**Overall Status:** 🟠 ELEVATED — **29/60 (+1, Vector 8 → 4 on the gas leg; BRENT 9/6).** **July TIC (released 9/16, own pull 9/17): China $618.0B (−$15.4B), LT/coupon net −$7.7B — a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (−$10B ≥ LT > −$5B ⇒ NO): *continued but decelerating.* Belgium **sold alongside** (−$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency −$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed.**
 
 > 🧊 **READ-CAP rotations:** #1 2026-09-02 → `archive/STATUS_COLD_20260902.md` · **#2 2026-09-17** → `archive/STATUS_COLD_20260917.md`. Verbatim moves, nothing deleted; bytes in the commit bodies.
 
@@ -34,12 +34,12 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 ### Capital Flows
 | Metric | Value | Threshold | Status | Source |
 |--------|-------|-----------|--------|--------|
-| China Official UST | **$633.4B** (Jun, **−$25.9B MoM**) | <$650B = RED | 🔴 **BREACHED** | [CONF] TIC Jun'26, ZHAO direct pull 8/21 — **series low, rank 1 of 78 months**. Net −$21.96B (LT −$15.77B), ~85% transacted. ZHA-04 FIRED (KB-ZHAO-119) |
-| China UST — trailing 12m | **−$122.3B net sold** (Jul-25→Jun-26) | — | 🔴 | [CONF] ZHAO over TIC Table 3, 8/21 — vs only −$98.0B level change; **valuation masks ~25% of annual selling** (KB-ZHAO-124) |
-| Belgium TIC (proxy) | **$482.5B** (Jun, +$10.4B MoM) | >$500B = FYI level only | 🟠 **series record high** | [CONF] TIC Jun'26 — rank 78/78, +$17.56B bought. ⚠️ **NOT readable as custody migration — next row** (KB-ZHAO-120) |
-| **Belgium↔China flow correlation** | **rho = +0.050 (n=41)** | rho < −0.5 = proxy usable | 🟢 **PROXY FALSIFIED** | [CONF] ZHAO, TIC Table 3, 8/21 — ~zero every window; Belgium buys in 56% of China-selling months. **June's mirror is chance** (VX-ZHAO-1.09, KB-ZHAO-121) |
-| Foreign Official vs Non-Official | **official −$45.4B / non-official +$23.2B** (Jun) | — | 🟠 | [CONF] TIC Jun'26 — private bid absorbing official supply. Level fall −$72.1B but only −$22.3B sold (KB-122) |
-| Combined Anchor Selling | **Jun: China −$22.0B, Korea +$2.7B — DIVERGED** | >$50B/qtr = 🔴 to LIQUID | 🟠 | [CONF] TIC Jun. **Q2 China −$14.8B does NOT trip the >$50B/qtr route** (VX-ZHAO-7.01) |
+| China Official UST | **$618.0B** (Jul, **−$15.4B MoM**) | <$650B = RED | 🔴 **2nd month below** | [CONF] TIC Jul'26 (Table 5), ZHAO direct pull 9/17 — new low in this pull; press '16/18-yr low' NOT certified. Net **−$12.6B** (LT **−$7.7B**, ST −$4.9B). ZHA-17 **NO** (boundary), ZHA-11 **YES** (KB-ZHAO-149/150) |
+| China UST — trailing 12m | **−$101.5B net sold** (Aug-25→Jul-26; **LT −$75.4B**, ST −$26.1B) | — | 🔴 | [CONF] ZHAO over TIC Table 3, 9/17 — vs −$77.6B level change; **valuation masks ~24% of the selling** (VX-ZHAO-1.03) |
+| Belgium TIC (proxy) | **$470.7B** (Jul, −$11.8B MoM) | >$500B = FYI level only | 🟠 | [CONF] TIC Jul'26 — net **−$20.4B** (LT −$9.8B, ST −$10.6B): **sold alongside China** = the anti-mirror. YoY **+10.6%** — 1 pt above the <10% kill-leg (VX-1.04) |
+| **Belgium↔China flow correlation** | **rho = +0.067 (n=42)** · 24m +0.017 · LT +0.054 | rho < −0.5 = proxy usable | 🟢 **PROXY STILL FALSIFIED** | [CONF] ZHAO, TIC Table 3, re-run 9/17 — ~zero every window; Belgium buys in 15 of 28 China-selling months (54%). (VX-ZHAO-1.09, KB-151) |
+| Foreign Official vs Non-Official (Treasury coupons) | **Jul: official +$25.5B / private −$29.1B** (Jun: official −$45.4B / non-official +$23.2B) | — | 🟠 **REVERSED** | [CONF] Treasury press release sb0631, 9/16 — China sold inside an official bucket that net bought ⇒ other officials absorbed it. **LIQUID's to price** (KB-149) |
+| Combined Anchor Selling | **Jul: China −$12.6B, Korea −$1.7B = −$14.3B** | >$50B/qtr = 🔴 to LIQUID | 🟡 | [CONF] TIC Jul. Both small sellers; **Q3-to-date −$14.3B does not trip the route** (VX-ZHAO-7.01). Japan LT −$8.8B / ST +$9.7B — SAM's |
 | 🆕 **NBIM/GPFG UST-weight PROPOSAL** (9/1) | US govt **34.1% → 21.9%** of bond index ≈ **−$80B USTs; USD share unchanged ~50%** (→ US MBS ≈ +$82B [EST]) | proposal | 🟡 logged, no score | [CONF] NBIM primary via BOND 9/4 (`KB-BND-236/7`); expert group **2027-01-25**. Non-official; zero 2026 effect (KB-145) |
 | Brent crude | **$95.30** (live) | Asia shock transmission | 🟠 | [CONF] boot.py live **9/2 ~19:40 ET** (`BZ=F` continuous front contract — **never compute a % move across a roll**). **HAWK/BRENT own the price** |
 | Property / LGFV / banking cluster | **source of truth = `workbook/VX.tsv`** (land sales, LGFV, NPL 🧊, small-bank consolidation) | mixed | 🟠 | 9/2 row → COLD_20260917 §⑨-b |
@@ -76,8 +76,8 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 | # | Vector | Score | Current State | Data As-Of |
 |---|--------|-------|---------------|------------|
-| 1 | Four-Anchor UST Selling | 🔴 5 | China broke $650B → **$633.4B** on −$21.96B genuine sales (LT −$15.77B), TTM −$122.3B. **Anchors DIVERGED** — Korea BOUGHT +$2.70B. Official −$45.4B fleet-wide vs non-official +$23.2B. Q2 −$14.8B does not trip >$50B/qtr. **Next arbiter July TIC ~9/16, letter below** | TIC **Jun'26**, live 8/21 |
-| 2 | Korea Crisis | 🟢 1 | Tripwire **FIRED 8/12**, basis-independent (0 of 10 days printed a high ≥1450). KRW **1,358.73** live 9/2, stronger again. Two instruments agree — price and flow. ZHA-12 at 80%. **Not a full stand-down**: the two 8/3 caveats are **unverified, not resolved** | **live 9/2**; TIC Jun'26 |
+| 1 | Four-Anchor UST Selling | 🔴 5 | **July: China $618.0B, LT −$7.7B — 2nd consecutive coupon-selling month, decelerating** (Jun −$15.8B). TTM −$101.5B / LT −$75.4B. Korea −$1.7B, Belgium −$20.4B (anti-mirror). **Official sector net BOUGHT coupons +$25.5B, private sold −$29.1B.** Q3-td −$14.3B, no >$50B/qtr trip. **Score held at 5: selling continued; the letter's NO is magnitude, not direction.** Next arbiter Aug TIC **10/16** | TIC **Jul'26**, own pull 9/17 |
+| 2 | Korea Crisis | 🟢 1 | **ZHA-12 RESOLVED YES 9/17:** won ≤1,441 all August (Aug-31 close 1,377.11), BoK hiked again **8/27 to 3.00%** (6-1, hawkish); Korea TIC Jul −$1.7B — the rate lever, not reserve liquidation, did the defense. **Not a full stand-down**: the two 8/3 caveats stay **unverified** | Aug FX print; TIC Jul'26 |
 | 3 | Custodial Arbitrage | 🟡 2 | **2 = CANNOT BE MEASURED, not benign.** Belgium record $482.5B but rho **+0.05, n=41**; HANS/LIQUID carry no China inference (8/23–28). HANS owns the hub table | Belgium Jun'26 |
 | 4 | LGFV/Banking | 🟡 2 | Bank-specific NPL 🧊 FROZEN (no primary); debt-swap **94% of quota**, hidden debt −65% since end-2023; small-bank consolidation accelerating (130+ H1). Fresh data leans **constructive**; the NPL canaries stay unconfirmed | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
 | 5 | Property Zombification | 🔴 **5 ↑** | ⬆️ 9/2: construction PMI **46.9, 2nd consecutive record low, weather attribution re-used**; H1 RE investment −18%; expectations flat 51.8 = belief without activity | Aug 31 |
@@ -115,7 +115,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 ### Falsification tripwires now
 - **China TIC >$680B for 2 consecutive months** → the selling was noise. *(Far away — $633.4B, a series low.)*
-- **THE LIVE TEST IS COMPOSITION, NOT LEVEL (8/21):** July TIC ~9/16 with **China LT/coupon net ≥ −$5B** ⇒ June was a one-month portfolio event and the $650B breach is a level, not a trend. **Continuation at ≈−$15B/month in duration** ⇒ the first hard-flow re-opening of the demand-hole thread since spring. **Graded as ZHA-17, letter registered 9/2 below.**
+- **THE LIVE TEST IS COMPOSITION, NOT LEVEL (8/21) — ✅ RUN 9/17 on July TIC:** China LT/coupon **−$7.7B** ⇒ ZHA-17 **NO on the declared boundary** (−$10B ≥ LT > −$5B), read *"continued but decelerating"*: not a one-month event (2 months of coupon selling), not a ≤−$10B trend either. **Next test: August TIC 10/16 — a third month ≤ −$5B is a trend by any reading; register the letter BEFORE the print.**
 - **Belgium proxy re-usability:** reinstate the custody-migration reading **only if rho(China, Belgium net sales) < −0.5** on a rolling 24m window (VX-ZHAO-1.09). Until then the Belgium level is **not** evidence in either direction.
 - ✅ **Korea KRW <1,450 sustained: FIRED 2026-08-12**, graded 8/21 → falsifies the Korea-as-UST-anchor leg. **Not a full stand-down** — KOSPI-selling and SK-hynix caveats unverified. Text → COLD_20260902 §⑦.
 - **USD/CNY 7.30:** near-invalidated — yuan 6.72. Reinstate only on a DXY spike + PBOC resuming aggressive defense.
@@ -132,17 +132,18 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 | ✅ ~Sep 7 | China Aug trade — **nominal release INTEGRATED 9/17** (dashboard); **GACC reconcile + SAFE Aug reserves/gold STILL OWED** | 🟠 |
 | ⚠️ ~Sep 8 | **RatingDog (ex-Caixin) Aug mfg PMI — OWED PULL, now 9 days late** (Jul 50.9 vs NBS 49.2) | 🟠 |
 | ~Sep 9-10 | China Aug CPI/PPI — deflation check | 🟡 |
-| 🔴 **Sep 16** | **July TIC — RELEASED (scheduled) BUT NOT READ THIS SESSION.** ZHA-17 `Resolve_By` **2026-09-18**; ZHA-11/12 registered 9/16, non-publication deadline 9/30 (canon: 9/16 alone ≠ STUCK). **Grade at the next Tier-1 session or ZHA-17 goes NO-VERDICT by canon** | 🔴 |
+| ✅ **Sep 16** | **July TIC — GRADED 9/17** (own pull): ZHA-17 NO · ZHA-11 YES · ZHA-12 YES; rho + rotation riders re-run (KB-149..152) | ✅ |
 | **~Sep 21-22** | China LPR fixing — 15th month of hold? ⚠️ **20 Sep 2026 is a Sunday; verify the exact date before grading** | 🟠 |
 | **🆕 Thu Sep 24** | **XI → WASHINGTON, White House summit with Trump. DATE ANNOUNCED** (Trump, 7/23; ⚠️ no PRC-side confirmation located). Truce-extension venue, 47 days ahead of the 11/10 expiry. **Letter ZHA-16 pre-registered 9/2** | 🔴 |
 | ~Sep 30 | China September PMI — the property-leg tripwire | 🟠 |
 | **October 2026** | **Fifth Plenum, 20th CPC Central Committee** — 15th Five-Year-Plan venue; the realistic home for a large fiscal figure | 🟠 (KB-ZHAO-106) |
 | 2027-01-25 | **NBIM/GPFG expert-group report on the bond-index proposal** — the next dated step on the ~$80B UST-weight cut (BOND 9/4b) | 🟡 |
+| **Fri Oct 16** | **August TIC** — third month of China coupon selling? Belgium vs the <10% YoY kill-leg. **Register the letter in `reports/` before the print** | 🔴 |
 | **Tue Nov 10** | 🔴 **Reciprocal-tariff suspension EXPIRES BY ITS OWN TERMS at 12:01 ET — the default is LAPSE, not continuation.** Suspended-state rate 10%; **resumed rate NOT specified in the order.** Fentanyl tariff cut 20%→10% under the same arrangement | 🔴 |
 
 ---
 
-## PREDICTIONS (status Sep 2)
+## PREDICTIONS (status Sep 17)
 
 *(**OPEN rows only** — resolved rows + spec-defect notes live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -150,10 +151,8 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 |----|-----------|------|--------|
 | ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ⚠️ mirror showed 15% on 9/2 while the ledger holds 18%; **ledger governs**, reconcile at the as-made pass (`reports/2026-09-17_ASMADE_VERIFICATION.md`) |
 | ZHA-05 / ZHA-06 / ZHA-07 / ZHA-10 | Regional NPL >12% · >250 small banks consolidated · liquidity crunch forcing UST sales · yuan oil settlement >$5B | 55 / 72 / 70 / 40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
-| ZHA-11 | China NOT the 30Y 7/9 indirect-bid driver | 68% | OPEN — **resolves on July TIC ~9/16** (June TIC was the wrong arbiter; corrected 8/21) |
-| ZHA-12 | BoK hike succeeds as currency defense | 80% | OPEN — **resolves ~9/16.** Both legs still satisfied: KRW **1,358.73** (stronger again), Korea bought +$2.70B in June |
 | **ZHA-16** | **Xi–Trump summit (9/24) produces branch A — an official output extending the reciprocal-tariff suspension beyond 2026-11-10** | **45%** (as-made 35% → 45% same session 9/2) | 🔒 OPEN, registered 9/2 BEFORE the event. Branches A/B/C/D in §SEP 2 above. **Graded on the DOCUMENT, not the tape.** Resolve_By 2026-09-30 |
-| **ZHA-17** | **July TIC shows China LT/coupon net sales CONTINUING at ≤ −$10B** | **55%** | 🔒 OPEN. LT ≥ −$5B ⇒ NO · −$10B ≥ LT > −$5B ⇒ NO (boundary owner) · ≤ −$10B ⇒ YES; no publication by 9/30 ⇒ STUCK. **Resolve_By 2026-09-18 — data NOT read** |
+| ✅ ZHA-11 · ZHA-12 · ZHA-17 | **RESOLVED 2026-09-17 on July TIC — YES · YES · NO (boundary zone, owner NO)** at 68 / 80 / 55% (Brier 0.10 / 0.04 / 0.30) | — | full grades → `PREDICTIONS.tsv`, KB-ZHAO-150; as-made re-marks owed (KB-147) |
 
 ---
 
@@ -163,7 +162,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 **Owed / next boot, in priority order:**
 
-1. 🔴 **JULY TIC — READ IT FIRST.** Released ~9/16; **ZHA-17 Resolve_By 9/18** (NO-VERDICT by canon if unresolved); ZHA-11/12 deadline 9/30. Table 3 LT/coupon, Table 1 Agency, Belgium; re-run VX-1.09 rho + VX-1.10 rotation.
+1. ✅ **July TIC read and graded 9/17** (ZHA-17 NO · 11 YES · 12 YES; riders re-run). **Next: August TIC Fri 10/16 — write the ZHA-18 letter (third coupon-selling month? Belgium <10% YoY?) in `reports/` BEFORE the print.** LIQUID packet sent 9/17 (official +$25.5B / private −$29.1B split).
 2. 🔴 **As-made ledger write (DAEDALUS 9/7):** 9 values VERIFIED (`reports/2026-09-17_ASMADE_VERIFICATION.md`) — write WQ-112 form into 6 OPEN rows; **re-score ZHA-03 (65% vs 25%) · ZHA-04 (65% vs 42%) · ZHA-15 (55% vs 18%)**. ZHA-12 as-made **55%**, not the tool's 4%.
 3. 🔴 **RatingDog Aug PMI** — 9 days overdue · **GACC Aug tables** (TLS-blocked 9/17; try `customs.gov.cn` CN-side) · **SAFE Aug reserves/gold** unpulled.
 4. 🟠 **`CLAUDE.md` re-key** L56 · L246 · L260 (file FROZEN): apply the 3-line re-point on the word (memo 9/17); then the owed 9/2 CLOSEOUT-step-1 edit after a cold read (KB-ZHAO-140).
@@ -179,10 +178,10 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 ## BOTTOM LINE
 
-**SEP 17 — a drain, not a read. What moved, moved on other desks' evidence.**
-Eighteen items came off the queue and one score moved — **Vector 8 to 4, because BRENT answered the question routed 9/2**: the LNG half of a vector *named* for LNG printed a 3.5-year TTF high while the row said 3. A stale score corrected, not a China finding. The NVDA wording saga closed correctly — **quote real (CFO Ex 99.2, furnished), broader wording the filed 10-Q's, memory share undisclosed in both, this desk carried neither** — strike nothing, log the two-document form, receipt it.
+**SEP 17 — the drain, then the print: China sold duration for a second month, at half the pace, and my own letter says that is a NO.**
+Eighteen items came off the queue and one score moved (Vector 8 to 4 on BRENT's evidence). Then PROME said grade, and the July print did what pre-registration is for: **China sold −$7.7B of coupons after −$15.8B in June — a second consecutive month of duration selling — and ZHA-17 still resolves NO**, because on 9/2 the boundary was written before the number existed and the ambiguous zone was put on the NO side. The letter's pre-written read for this cell is the honest one: *continued but decelerating.*
 
-**What did not happen matters more:** July TIC — the composition arbiter, letter registered before the print — was released 9/16 and **is unread; ZHA-17 closes 9/18.** An L0 drain is right for a dark desk, and it is exactly the shape that lets a registered prediction lapse on schedule. **Next boot reads Table 3 first.**
+**Two things the print added that the letter did not ask.** The official sector as a whole **bought** coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed — so other officials absorbed China's supply; that is LIQUID's question and it has been sent there. And Belgium **sold alongside** China (−$20.4B): the anti-mirror, against a proxy already dead (rho +0.067, n=42). **August TIC 10/16 is the third-month test; the letter goes in `reports/` before it prints.**
 
 ---
 
