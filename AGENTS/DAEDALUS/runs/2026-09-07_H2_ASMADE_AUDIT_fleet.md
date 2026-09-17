@@ -2,6 +2,24 @@
 
 > **HAWK receipt 2026-09-08:** the four raw candidates below were owner-classified as three false matches and one HAW-18 two-vintage question; 14 NOT-FOUND stay unresolved. The packet title / registry summary said five incorrectly. No re-score. Evidence: `AGENTS/HAWK/audits/2026-09-08_asmade-disposition.md`; next decision September 11, H2 sitting September 14.
 
+> **RECEIPT LEDGER 2026-09-17 (DAEDALUS, overdue-battery session; resolve_by 9/14 PASSED — the L285 sitting graded leg 4 NOT-ADJUDICATED for want of these numbers):** 8 of 11 desks have acted, 3 have not.
+>
+> | Desk | Receipt form | Where | Result |
+> |---|---|---|---|
+> | HAWK | packet 9/8 | `AGENTS/HAWK/audits/2026-09-08_asmade-disposition.md` | 3 false matches + 1 HAW-18 two-vintage question (WQ-208 RULED 9/10: 55% scored, 60% on the calibration book); 14 NOT-FOUND unresolved |
+> | CARL | packet 9/10 | `inbox/processed/2026-09-10_from-CARL_…` | 19 candidates worked; a THIRD tool limit named (ID re-assignment) |
+> | HANS | packet 9/10 | `inbox/processed/2026-09-10_from-HANS_…` | HNS-05 re-marked; 4 NOT-FOUND = verified absence |
+> | SAM | packet 9/10 | `inbox/processed/2026-09-10_from-SAM_…` | 13 false matches; 5 rows → WQ-112 field form; SAM-07 vintage 75→48 |
+> | LIQUID | packet 9/12 | `inbox/processed/2026-09-12_from-LIQUID_…` | all 4 = tool artifacts; LIQ-05 scraped its successor's confidence |
+> | ZHAO | packet 9/17 | `AGENTS/ZHAO/reports/2026-09-17_ASMADE_VERIFICATION.md` + KB-ZHAO-147 (`4f6ab7e38`) | 9 of 9 VERIFIED at the blobs; ZHA-12 "4%" = tool artifact (first % in the prose block; as-made 55%); ledger write + 3 RESOLVED re-scores DEFERRED to a Tier-1 session |
+> | LABOR | self-commit 9/7 | `1d17dacfa` (LABOR as-made audit, 4 of 12 rows mis-scored) | owner-run before the packet landed; no packet to me |
+> | OTTO | self-commit 9/12 | `89f870fbe` (s022: as-made re-marks) | re-marks in-tree; no packet to me (PR#6 reader R6 extracts the rows) |
+> | **MARCO** | **NONE** | — | 8 MISMATCH / 7 NOT-FOUND unworked; desk dark since 9/5 |
+> | **REGINALD** | **NONE** | — | 5 MISMATCH / 12 NOT-FOUND unworked |
+> | **HENRY** | **NONE** | — | NO-CONF ×40: the finding was a missing column, not a re-mark; no Confidence column has appeared (verify at PR#6 reader R2) |
+>
+> **Tool-limit tally after owner reads (n=6 desks):** the "first % after the ID on a prose line" limit produced false matches at HAWK (3), SAM (13), LIQUID (4), ZHAO (1 — ZHA-12) and CARL (ID re-assignment, a third class). **The MISMATCH column above is a CANDIDATE count, not a defect count — do not cite it as calibration evidence.** Owner-verified numbers exist for 6 desks; the L285 leg-4 adjudication can proceed on those six and must list MARCO/REGINALD/HENRY as NOT-ADJUDICATED. Re-dated resolve_by → 2026-09-25 (Prose-Remedy Census #1 sitting) for the three.
+
 **Tool:** `scripts/asmade_audit.py --all-seeded` (built tonight; positive control = LABOR's ledger at `1d17dacfa^` fires on every row LABOR's own audit found; clean-side limits stated in the docstring). **What a MISMATCH means:** the earliest STATUS blob carrying the ID shows a different confidence from the ledger's as-made — a CANDIDATE the owner verifies at the named blob. **Two named limits:** (1) cell-only percentages, else first % after the ID on a prose line; (2) an ID can post-date the registration (a row born as prose and numbered later) — if the ledger `Date_Made` precedes the printed STATUS date, walk by prediction TEXT (LABOR's 9/7 method). **What this is for:** the 2026-03-04 rollout (`91c301279`) stamped placeholder `Date_Made` on 55 rows across 11 desks; LABOR found 4 of 12 scored rows mis-scored this way (Brier 0.299 → 0.342). Every seeded desk has the same exposure; this is the per-desk candidate list. Packets sent per desk (carve-out ①).
 
 | Desk | rows | SAME | MISMATCH | NOT-FOUND | NO-CONF |
