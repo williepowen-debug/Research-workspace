@@ -508,6 +508,16 @@ def check_capability() -> int:
 # A checker that passes because nothing is left is not a verified checker.
 # Run: python3 monitors/assertion_check.py --selftest
 # ---------------------------------------------------------------------------
+
+def _ago(n: int) -> str:
+    """A date n days before TODAY, in the slash form these fixtures use.
+
+    Fixtures that assert an AGE-dependent rule must move with the clock, or they
+    test the calendar instead of the code. Returns m/d, which `resolve_date`
+    resolves BACKWARD, so it can never land in the future.
+    """
+    return (TODAY - dt.timedelta(days=n)).strftime("%-m/%-d")
+
 FIXTURES = [
     # (label, line, predicate, expected)
     ("REAL 8/20 defect (verbatim TRADE.md, pre-stamp)",
@@ -608,11 +618,25 @@ FIXTURES = [
     # C9. MIN_AGE: a 1-day-old release-lag caveat is NORMAL OPERATIONS on a
     # rates desk, not a stale pending item. Without the floor this fired on
     # every dashboard vintage note.
+    #
+    # 🔴 FROZEN TO A RELATIVE ANCHOR 2026-09-17. Both C9 fixtures originally
+    # pinned LITERAL dates (8/19, 8/20) while the rule computes `age = TODAY - d`
+    # against a MIN_AGE floor of 10 days and a 120-day ceiling. So they measured
+    # the CALENDAR, not the code:
+    #   · the "does NOT fire" fixture passed only while 8/19 was under 10 days old.
+    #     It rotted on 2026-08-30 and this suite has been RED at HEAD ever since --
+    #     found by DAEDALUS's Production Review #6, not by this desk, because this
+    #     desk runs `closeout_check.py` (rc 0) and not `--selftest` (rc 1).
+    #   · the "DOES fire" fixture had NOT yet broken, but rots the same way in
+    #     mid-December when 8/19 crosses the 120-day ceiling and the rule skips it.
+    # Fixing only the red one would have left the second to fail silently later, so
+    # BOTH are anchored to TODAY. Fleet class:
+    # [[finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit]].
     ("REAL 8/21 defect: a section titled UPCOMING for two PAST, GRADED auctions",
-     "## UPCOMING -- 8/19 20Y and 8/20 30Y TIPS (dates VERIFIED at the primary 2026-08-18)",
+     f"## UPCOMING -- {_ago(29)} 20Y and {_ago(28)} 30Y TIPS (dates VERIFIED at the primary {_ago(30)})",
      "expired", True),
     ("release-lag caveat inside MIN_AGE does NOT fire",
-     "| 10Y real (DFII10) | 2.35% [8/19] | 8/20 NOT YET PUBLISHED on this series |",
+     f"| 10Y real (DFII10) | 2.35% [{_ago(1)}] | {_ago(0)} NOT YET PUBLISHED on this series |",
      "expired", False),
 
     # --- negation guard, added 2026-08-27 -----------------------------------
