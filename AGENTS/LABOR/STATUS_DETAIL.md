@@ -883,3 +883,177 @@ The `STATUS.md:101` reminder banner is **retired** (line number verified at the 
 **Per-rail enumeration, rotated VERBATIM from the `STATUS.md` § EXIT RULES header stamp at the same closeout (hot half was 499 B over budget with it inline):**
 
 🔧 **VINTAGE SWEEP (C1, now UNCONDITIONAL — WQ-214): run 2026-09-10 18:0x ET, 4/4 rails CURRENT, no repair owed.** Kill A on the 9/4 NFP vintage (63/31/21/162; next NFP 10/02) · Kill B on claims w/e Sep 5 (206K, `206−185 = 21,000` above the line, 0 of 5) · FREEZE-THAW v2 legs A/B/C on 9/4 NFP + Aug EPOP 59.1 + Jul/Jun-rev JOLTS (next JOLTS ~10/06) · break-confirm on the 206,000 4-wk MA. **First run of the control; it found nothing, which is the outcome a control is allowed to have.**
+
+
+---
+
+## § `pickup-rotated-20260917` — NEXT SESSION PICKUP as it stood at the 2026-09-10 closeout (verbatim, rotated from STATUS.md 2026-09-17; no figure changed)
+
+## NEXT SESSION PICKUP
+
+> 🔒 **The 2026-09-07 slate (items 1/4/6/8/9 as written) → `STATUS_DETAIL.md` § `pickup-rotated-20260910`.** This slate is FORWARD work only.
+
+1. 🔴 **THE CLOCK ITEM — Wed 9/16, PROME commission L302, four instruments.** ✅ **NOW ON `docket/CATALYSTS.tsv`** (registered 9/10 off PROME's packet — before this it lived only in a STATUS line and `catalyst_countdown.py`, which iterates by DATE, could not see it; **third instance of the DAEDALUS F5 class**). Order: Indeed operational audit (`VX-LAB-1.04`, 182-day-old figure) → LAB-19 age decomposition → private weekly hours (B-4) → state claims breadth, **FL first**. **Each item states the decision it could change, INCLUDING against my thesis, BEFORE any build.** ⛔ Do not assume postings lead hires — test it on my own history; if it does not lead, say so and the row stays diagnostic.
+2. 📅 **Thu 9/17 08:30 — claims w/e Sep 12. Card is FROZEN** (`docket/graded/GRADING_CARD_20260917_claims.md`). **Grade order, pre-committed:** ① regenerate the **THREE** window-derived quantities on the as-published vintage *before* reading the level — §3's `ΔMA` term, §3's **`MA_next` column** (it rots independently — that is this week's find), §5a's T-01 bound `X > 1,000,000 − (W2+W3+W4)`, frozen at **383,000** · ② grade **four axes** (§2 · §5a · §5b · §5c) separately · ③ write the outcome into KEY THRESHOLDS + the calendar row · ④ **`git mv` the card to `docket/graded/` AND build the 9/24 card in the same session.** ⛔ **No WARN cohort is registered for the w/e Sep 12 week** — if one appears, size it against the L-08 floor (~20,000) BEFORE the print, not after.
+3. 📅 **9/25 ×2 — Oct-2 NFP card freeze + ALFRED payroll vintage table (WQ-175 ②).** The card must satisfy gate #14 and **enumerate BOTH LFPR directions at every U-3 level** (L-27 partition defect). Recompute freeze-thaw LEG A on the revised vintage BEFORE reading September (L-02).
+4. 🆕 **9/10 FIND — TEMPLATE FIX OWED, and it is small: split `ΔMA` from `MA_next` everywhere a card computes them.** They depend on different inputs (`R` vs the retained sum) and therefore age on different clocks; the 9/10 card presented them as one object and `MA_next` went stale by +250 on a 1,000-unit revision while `ΔMA` was exact. **Already applied to the 9/17 card §3; not yet applied to `docket/TEMPLATE_claims_card.md`.** → **L-31 realized ONE PRINT after L-31 was written**, which is the argument for mechanizing rather than remembering.
+5. 📅 **2026-10-08 — Canada counter-tariff US-exporter employment re-check #1** (re-dated from 9/8 today after a NO-EVIDENCE grade). **Named and unchecked: IL DCEO, MN DEED, IA Workforce Development, WI DWD WARN primaries.** ⚠️ **The grade is SEARCH-NOT-FOUND, not verified-absent** — upgrading it requires those four primaries, per the fleet rule that a broader grep is not an upgrade.
+6. 🔴 **STILL NOT STARTED — base-rate the CORRECTIVE, not just the original** (L-25; `35/4 = 8.75×`; L-32 is instance n=2). Trigger to build = a comparative TIMING/performance claim. **Build debt → `BUILD_DEBT.md`; near-term BD-23 · BD-26 · BD-31 · BD-13.** ⚠️ **BD-13 is CLOSED-BY-LAPSE, not discharged** — the MSFT 605 lapsed LOW so its WA-ESD primary no longer matters for attribution, but the row was carried as *"verified"* on two secondaries for 13 days and that defect is unfixed in kind. 🔒 Full text → `STATUS_DETAIL.md` § `pickup-rotated-20260910b`.
+7. 🔒 **PRE-REGISTERED, UNTOUCHED:** v4 JOLTS-August NET bands (~Oct 6) — NET >0 ⇒ v4 → 2 · NET ≤0 a 4th month ⇒ v4 → 4 · NET ≤0 but hires rate ≥3.4% ⇒ HOLD 3. **v8 restore-to-3: leg 1 banked 9/4 (+55K); leg 2 is the Oct 2 print.**
+8. 🔒 **C2-0 SWEEP RE-RUN 9/10 from `workbook/PREDICTIONS.tsv` — ZERO rows trip it.** Six OPEN: LAB-03 7% · LAB-08 4% · LAB-11 50% · LAB-12 8% · LAB-18 15% · LAB-19 60%. Only LAB-19 clears ≥60% and it fails the 60-day staleness leg (registered 9/4). 🔧 **BUT the as-made values moved today:** LAB-03 scores **as-made 65%** and LAB-11 **as-made 55%** at resolution (DAEDALUS H2, re-derived at the artifact). **LAB-03 is therefore a ≥60% threshold row in a book that is 0-for-5 there** — the live 7% protects nothing.
+9. ✅ **9/10 EVE — WQ-214 LANDED: the EXIT-RULES VINTAGE SWEEP is now an UNCONDITIONAL C1 step; the `:101` banner is retired.** First run: **4/4 rails current**. Nothing further owed before 9/17 claims. 🔒 → `STATUS_DETAIL.md` § `wq214-vintage-sweep-installed-20260910`.
+
+## § `bottom-line-rotated-20260917` — BOTTOM LINE as it stood at the 2026-09-10 closeout (verbatim, rotated from STATUS.md 2026-09-17; no figure changed)
+
+## BOTTOM LINE
+
+**✅ 2026-09-10 — CLAIMS GRADED, NOTHING FIRED, SCORE UNCHANGED 29/75.** Initial claims **206,000** [w/e Sep 5, DOL 9/10 08:30, primary] — **flat WoW** on a prior revised up 1,000; 4-wk MA **206,000** (−1,500); continuing claims **1,774,000** [w/e Aug 29] (−1,000, prior revised down 4,000); IUR **1.2%**. **BAND B / NO ACTION on all five pre-committed axes** — single-print, vector-13 counter, T-01 MA basis, continuing-claims, Kill B. **Zero fired, zero armed, no packet routed**, exactly as §7 pre-committed for bands A/B. **The realization channel still has not turned, and one flat week is not evidence that it won't.**
+
+🔴 **THE MA FELL 1,500 WHILE THE LEVEL DID NOT MOVE, AND THAT IS ARITHMETIC.** `R` = w/e Aug 8 = 212,000 left the window: `ΔMA = (206,000 − 212,000)/4 = −1,500`, which is what DOL published, to the unit. **The docketed term `(X−200)/4` would have said `+1,500` — the sign inversion the 9/7 card predicted, realized at the modal print.** ⚠️ **Next week is not comparable and a reader will think it is:** the roll-off becomes 207,000, so an identical 206K print gives ΔMA **−250** — `1,500/250 = 6.0×` smaller — which would read as "improvement slowing" and is nothing of the kind.
+
+**THE CARD EARNED ITS KEEP ON THE REGENERATIONS, NOT THE GRADE.** ✅ **A1.2's clause fired on its FIRST live use and the hypothetical it wrote three days earlier occurred to the unit:** retained sum `617,000 → 618,000`, T-01 bound **`383,000 → 382,000`**. A 383,000 print would now fire T-01 **and require CARL**, where the frozen number would have missed it. 🔧 **The same step found a NEW defect in my own card:** §3 has two computed columns on **two clocks** — `ΔMA` depends only on `R` (unmoved, exact) while `MA_next` depends on the retained sum (moved ⇒ **every row rotted by +250**). The card said *"regenerate §3's table"* without saying which half could rot. **That is L-31 realized ONE PRINT after L-31 was written.** Fixed forward in the 9/17 card; the template fix is still owed (PICKUP 4).
+
+⛔ **TWO THINGS I AM DELIBERATELY NOT CLAIMING.** ① **The "card catches a revision STATUS had not followed" count stays at THREE** (8/13, 8/20, 9/10) — today's two revisions arrived **with** the release, so STATUS could not have followed them and did not fail to. Counting them would inflate a self-critical statistic in the *flattering* direction. ② **The MSFT/Xbox cohort (763) is not attributed in either direction:** `763 / 20,000 = 3.8%` of the L-08 floor, `20,000 / 763 = 26.2×` below it. **Claims were flat — that is not evidence the cohort was absorbed, and a rise would not have been evidence it wasn't.**
+
+🔴 **THE CANADA ROW: GRADED, AND THE HONEST ANSWER IS "NO EVIDENCE", NOT "NO EFFECT".** Counter-tariffs on CA$27.6B took effect 9/8; **no WARN filing and no announced furlough at any US ag-equipment or pulp-and-paper exporter cites them.** ⚠️ **Tagged SEARCH-NOT-FOUND, explicitly NOT verified-absent** — bounded web search only, with **four state WARN primaries named and unchecked** (IL/MN/IA/WI). **Two days has no power anyway:** WARN's 60-day rule puts a 9/8-caused separation at ~Nov 7, and the WARN→claims lag is a further 6 weeks. **Re-docketed 2026-10-08.** 🔴 **The finding that cuts against the easy read: every named layoff the search returned runs the OTHER way** — RYAM Témiscaming, ~400–425 workers, caused by **US** tariffs on **Canadian** goods. That is Canadian employment, not mine; importing it as counter-tariff evidence would be a sign error on the transmission leg.
+
+**Next — Wed 9/16 the L302 commission (now on the ledger, where a boot can see it), then Thu 9/17 claims off the frozen card.** Then the Oct-2 NFP card freeze and ALFRED vintage table (9/25), JOLTS August (~Oct 6), and **NFP September Fri Oct 2**, which supplies leg 2 of vector 8's restore counter.
+
+## § `thresholds-rotated-20260917` — KEY THRESHOLDS claims rows + header + calendar row + PENDING INPUTS line + matrix v7/v13 rows as they stood 2026-09-10 (verbatim, rotated from STATUS.md 2026-09-17; no figure changed)
+
+### STATUS header line as it stood at the 2026-09-10 closeout
+**Last Updated:** 2026-09-10 18:0x ET *(eve: WQ-214 installed; WALTER lane drained)* · prior 11:1x ET *(claims print day; PROME-spawned WQ-184 L0 due-row session)* · ✅ **CLAIMS w/e Sep 5 GRADED off the frozen card: 206K → BAND B / NO ACTION on all five axes; ZERO of five pre-committed conditions fired. SCORE UNCHANGED 29/75; NO VECTOR MOVED.** 🔴 **The 4-wk MA fell 1,500 on a FLAT level — mechanical, not signal.** ✅ **The card's A1.2 regeneration clause fired on its first live use and its 9/7 hypothetical occurred to the unit.** 🔧 **New defect found AT GRADE: §3's two computed columns age on two clocks — `ΔMA` survived, every `MA_next` value rotted by +250 (L-31, one print after L-31 was written).** ✅ **9/17 card FROZEN 7d ahead · inbox DRAINED 5/5 · Canada counter-tariff row GRADED (no US-exporter employment evidence, SEARCH-NOT-FOUND) and re-docketed 2026-10-08.** See BOTTOM LINE.
+
+### KEY THRESHOLDS — initial claims (MA basis) row, 2026-09-10 vintage
+| Initial claims (4-wk MA basis) | **206K / MA 206,000** [w/e Sep 5 · obs 2026-09-05 · **DOL 2026-09-10**] | <230K drift · 230-250K accelerating (vec 13→3) · **>250K sustained 4+wk = T-01** · **251-300K single = ARM T-01 provisional** · **>300K single = T-02 FIRE** | T-01 🔴 CARL+REGINALD; T-02 🔴 REGINALD (ORANGE→RED)+HENRY. ✅ **GRADED 9/10 → BAND B / NO ACTION, ZERO fired** (card `docket/graded/GRADING_CARD_20260910_claims.md`). `250,000 − 206,000 = 44,000` below T-01 on MA basis (**gap WIDENED 1,250**); `300,000 − 206,000 = 94,000` below T-02. Run **200/212/207/204/207/206** *(w/e Aug 29 revised 206→207 WITH this release)*. 🔴 **MA −1,500 on a FLAT level is mechanical:** `ΔMA = (206,000 − 212,000)/4 = −1,500`, matching DOL exactly; the docketed `(X−200)/4` said **+1,500**. ⚠️ Next week the term is **`(X − 207,000)/4`** ⇒ same 206K gives **−250**. 🔒 9/7 unfollowed-revision narrative → `STATUS_DETAIL.md` § `thresholds-rotated-20260910`. |
+
+### KEY THRESHOLDS — initial claims (bull side) row, 2026-09-10 vintage
+| Initial claims (bull side) | **206K — `206,000 − 185,000 = 21,000` above the line** | ≤185K ×5 clean sessions = Kill B. **9/10: count stays 0 of 5.** Distance UNCHANGED from 9/3 (level flat) | exit-all check |
+
+### KEY THRESHOLDS — continuing claims row, 2026-09-10 vintage
+| **Continuing claims** | **1,774K** [w/e Aug 29 · obs 2026-08-29 · DOL 2026-09-10] — −1,000 WoW on a prior **revised DOWN 4,000** (1,779K → 1,775K); 4-wk MA 1,779K (−1,750); IUR **1.2%** | Vector-7 drop-to-2 needs **<1,750K ×4wk** (`1,774,000 − 1,750,000 = **24,000** away`, **ZERO** of four banked) | vector 7 — **a COST/duration gauge; NOT an early-warning instrument and will not be used as one.** ⚠️ **True WoW move is −1,000, not −5,000** — the 29K distance published 9/7 was against a 1,779K since revised to 1,775K |
+
+### MONITORING CALENDAR — the Sep 17 forward row as written 2026-09-10
+| 🔴 **Thu Sep 17 08:30** | **Initial claims w/e Sep 12** + CC w/e Sep 5 | 🔒 **CARD FROZEN 2026-09-10, 7 days ahead** → `docket/graded/GRADING_CARD_20260917_claims.md` (built at the closeout that graded the 9/10 card — C2a's recurring trigger). Partition check: **4 tables, 1 verified, 3 hand-proved, 0 DEFECTS.** 🔴 **Roll-off week CHANGES: `R` = w/e Aug 15 = 207K ⇒ term `(X − 207,000)/4`.** T-01 MA bound **`X > 383,000`** — **re-solve at the print.** |
+
+### PENDING INPUTS — drained line as written 2026-09-10
+> 🟢 **DRAINED 2026-09-10 — both lanes empty by `ls`.** All 5 items consumed this session (3 top-level: DAEDALUS as-made H2, PROME L302 ledger gap, HAWK Canada perimeter; 2 WALTER: SIG-W-20260908-006/-009, `board_log.tsv` rows written, files `git mv`d to `processed/`). 🔒 Prior windows → `STATUS_DETAIL.md` § `pending-inputs-20260904`.
+
+### CONVERGENCE MATRIX rows v7 / v13 as they stood 2026-09-10
+| 7 | UI exhaustion / CC grind | **3** 🟠 | flat | CC <1,750K × 4 wk → exhaustion pipeline draining, drop to 2 |
+| 13 | Claims / shadow gap | **2** 🟡 | flat | >250K sustained → T-01 🔴 CARL/REGINALD; **<200K ×4 → drop to 1 (count now 0 of 4 — RESET, the streak died at w/e Aug 1's revision to 200K)** |  *[carried: 207 · −23 · 300K · 1.1%]*
+
+## § `calendar-graded-20260917` — claims w/e Sep 12 GRADED off `docket/graded/GRADING_CARD_20260917_claims.md` (written 2026-09-17 08:4x ET)
+
+**Primary:** DOL/ETA news release, embargo line *"8:30 A.M. (Eastern) Thursday, September 17, 2026"* — text extracted from the release PDF (`https://www.dol.gov/ui/data.pdf`, fetched 08:30–08:34 ET), never from a summary of it (see L-33).
+
+| Series | As published 9/17 | Prior (as published) | Change |
+|---|---|---|---|
+| Initial claims SA, w/e Sep 12 (advance) | **196,000** | 206,000 (**unrevised**) | **−10,000** |
+| 4-wk MA SA | **203,250** | 206,000 (unrevised) | **−2,750** |
+| Initial claims NSA | 152,286 | 176,916 | −24,630 (−13.9%); seasonal factors expected −16,515 (−9.3%) |
+| Yr-ago SA / NSA (w/e Sep 13 2025) | 233,000 / 195,433 | — | — |
+| Continuing claims SA, w/e Sep 5 (advance) | **1,730,000** | 1,769,000 (**revised DOWN 5,000** from 1,774,000) | **−39,000** |
+| CC 4-wk MA SA | 1,761,250 | 1,777,750 (rev. down 1,250 from 1,779,000) | −16,500 |
+| Insured unemployment rate SA / NSA | **1.1%** / 1.0% | 1.2% / 1.1% | −0.1 / −0.1 |
+| CC NSA | 1,577,344 | 1,671,605 | −94,261 (−5.6%); expected −58,374 (−3.5%) |
+| Yr-ago CC SA / NSA | 1,925,000 / 1,759,884 | — | — |
+| UCFE / UCX initial (w/e Sep 5) | 398 / 495 | 388 / 409 | +10 / +86 |
+
+**State colour (w/e Sep 5, from the release):** largest increases MI +2,075 · CA +1,967 · WA +952 · NJ +686 · NE +606; largest decreases NY −3,790 · KY −778 · AR −367 · RI −200 · HI −197. **Florida in neither list.**
+
+### ① Regeneration on the as-published vintage (card §4 order, BEFORE reading the level)
+- Window `W1/W2/W3/W4` = w/e Aug 22 **204,000** · Aug 29 **207,000** · Sep 5 **206,000** (unrevised) · Sep 12 **196,000**. `(204,000 + 207,000 + 206,000 + 196,000)/4 = 813,000/4 = 203,250` ✅ equals DOL's MA to the unit.
+- `R` = w/e Aug 15 = 207,000, unmoved ⇒ **`ΔMA = (196,000 − 207,000)/4 = −2,750`** ✅ matches DOL's published −2,750 exactly.
+- Retained sum `W2+W3+W4 = 617,000`, **unchanged** (no retained week revised) ⇒ §3's `MA_next` column and §5a's T-01 bound **`X > 383,000` both stood** — the first week since the card series began that nothing was void at the print.
+
+### ② Four axes graded separately
+| Axis | Reading | Band | Pre-committed assignment | Result |
+|---|---|---|---|---|
+| §2 single print | 196,000 | **B** (186,000–229,000) | NO ACTION | ✅ no action, no packet |
+| §5a T-01 MA basis | 196,000 vs bound 383,000 | **T01-a** | T-01 does NOT fire | ✅ MA 203,250; `250,000 − 203,250 = 46,750` away, **widened 2,750** |
+| §5b vector-13 `<200,000` | 196,000 ≤ 199,000 | **V13-a** | counter **0 → 1 of 4** | 🔧 **STATE CHANGE** — score unmoved (drop-to-1 needs 4 consecutive; a ≥200,000 print RESETS) |
+| §5c continuing claims | 1,730,000 < 1,750,000 | **CC-1** | vector-7 count **0 → 1 of 4** | 🔧 **STATE CHANGE** — `1,750,000 − 1,730,000 = 20,000` inside the bar; score unmoved |
+| Kill B (band A) | 196,000 > 185,000 | — | count stays **0 of 5** | `196,000 − 185,000 = 11,000` above the line (was 21,000) |
+| T-02 (band E) | — | — | — | `300,000 − 196,000 = 104,000` away |
+| LAB-03 (7%) | — | — | — | `250,000 − 196,000 = 54,000` away; **confidence not moved** |
+
+**Routing per §7:** bands A/B and CC-1 are STATUS-only. **Nothing routed, nothing armed.** Two counters at 1-of-4 are two weeks from nothing; **one week is not a streak, in either direction.**
+
+**What the level is and is not.** 196,000 is the **third print ≤196,000 in 120 weeks** (189,000 w/e Jul 18 · 190,000 w/e Apr 25 · 196,000 w/e Sep 12; FRED ICSA, 120 obs). The NSA drop (−13.9%) overshot the seasonal expectation (−9.3%) by 4.6pp — that is the entire SA decline, and **NSA/YoY grade nothing on this card.** A benign print is not hawkish fuel (7/29 FOMC grade); it is nothing.
+
+### ③ 9/24 card built in the same session (C2a recurring trigger)
+`R` = w/e Aug 22 = **204,000** ⇒ **`ΔMA = (X − 204,000)/4`**; retained `207,000 + 206,000 + 196,000 = 609,000` ⇒ **T-01 MA bound `X > 391,000`** (was 383,000 — moved 8,000 because a 196,000 replaced a 204,000 in the retained trio). Modal repeat 196,000 ⇒ `MA_next = (609,000 + 196,000)/4 = 201,250`, `ΔMA = −2,000`. **Counters carried onto the card: v13 1 of 4 · v7 1 of 4 · Kill B 0 of 5.**
+
+### Shadow-adjusted basis — what PROME's dashboard shows and why LABOR does not quote it
+`FORGE/tools/market-data/config.py` L116-119 carries `"shadow_adj": {"label": "est w/ shadow adj", "add": 55000}` on the Init Claims row — a **flat +55,000 constant added to the FRED level** (206,000 + 55,000 = 261,000 on 9/16; 196,000 + 55,000 = **251,000** today). **SEARCH-NOT-FOUND** for any derivation of the 55,000 in `STATUS.md`, `STATUS_DETAIL.md`, `workbook/KB.tsv` (grep `shadow` · `55,000` · `55K`; the only "shadow" row is KB-LAB-076, federal separations, unrelated). **LABOR's bands are denominated in the RAW SA advance figure and every LABOR figure is RAW SA.** ⚠️ **251,000 sits in MY band D (251,000–300,000 = ARM T-01 provisional)** — a reader who grades the adjusted display against LABOR's bands will arm a trigger that the instrument did not fire. Asked PROME (memo 9/17) to source the constant or retire the parallel display.
+
+## § `l302-instruments-20260917` — the four-instrument COMMISSION (DOCKET L302), cold detail (written 2026-09-17 08:4x ET)
+
+**Rule carried on every item (PROME packet 9/7, Codex):** the decision this evidence could change — INCLUDING against LABOR's thesis — written before any build; history and arithmetic here, current reading + decision consequence on the boot path only. **Disposition vocabulary:** built / diagnostic / declined-with-reason. **All four land DIAGNOSTIC; none earns a band (L-15: base-rate a threshold before building it — none is base-rated yet).**
+
+### ① Indeed postings — OPERATIONAL AUDIT (disposition: DIAGNOSTIC, tracker VERIFIED LIVE; VX row SUPERSEDED)
+| Audit item | Finding | Source |
+|---|---|---|
+| Feed | `github.com/hiring-lab/job_postings_tracker` raw CSV, no auth; national + state files pulled 2026-09-17 08:3x ET | tracker run + direct curl |
+| Latest observation | **2026-09-11** (pulled 9/17 = **6-day lag**); series starts 2020-02-01, n=2,415 daily obs | `aggregate_job_postings_US.csv` |
+| Units | SA index, **% change vs Feb-1-2020 = 100**, **7-day trailing average**; national splits `new postings` (flow, ≤7d on Indeed) from `total postings` (stock); states carry ONE blended index | repo README §Methodology |
+| Revision behaviour | **Whole history re-seasonally-adjusted**: Bundesbank daily-SA method adopted Nov 2024; projected seasonal factors for the current year come from the preceding 3 years ⇒ **every series revises when factors are re-estimated**; README: *"Historical numbers have been revised and may differ from previously reported values"* | README |
+| FRED mirror | `IHLIDXUS` 2026-09-11 = **103.15** — identical to the repo's total-postings value ⇒ same feed, FRED adds nothing | `fetch.py fred IHLIDXUS` |
+| Refresh cadence | weekly per README (commit-date probe via GitHub API returned no dates this session — NOT verified; cadence is README-stated) | — |
+| Consumers (fleet grep) | `AGENTS/LABOR/workbook/VX.tsv` (FROZEN) · `AGENTS/LABOR/workbook/KB.tsv` · `AGENTS/CARL/workbook/KB.tsv` (mentions) · LABOR `CLAUDE.md`. **No live STATUS/brief on any desk cites it** | grep STATUS/NEXUS_BRIEF/CLAUDE/workbook fleet-wide |
+
+**Current reading (2026-09-11):** national **total postings 103.15** (Δ1wk +0.74pt · Δ4wk +1.37pt · **YoY −0.19%** vs 103.35 on 2025-09-12) · **new postings 96.81** (Δ1wk −0.71 · Δ4wk −0.37 · **YoY −13.62%** vs 112.07) · **Florida 105.58** (Δ4wk +1.38pt; YoY in the memo table). **VX-LAB-1.04 carried −5.9% YoY at 2026-03-09** — 192 days stale; on today's vintage the total-postings YoY at 2026-03-06 reads −0.5%, so the frozen row's figure is not even reproducible on the revised series. **VX is FROZEN — the row is retired by supersession here, not edited.**
+
+**The test PROME ordered, run on my own history — do postings LEAD hires?** Monthly-average Indeed total postings vs JOLTS hires (`JTSHIL`), **3-month log changes, 2022-01..2026-07**, Pearson r by lead (positive k = postings earlier):
+| k (postings lead hires by) | −3 | −2 | −1 | 0 | **+1** | +2 | +3 |
+|---|---|---|---|---|---|---|---|
+| total postings, r (n) | +0.14 (52) | +0.05 (53) | +0.05 (54) | +0.18 (55) | **+0.31 (54)** | +0.20 (53) | +0.12 (52) |
+| new postings, r (n) | +0.16 (52) | +0.13 (53) | +0.08 (54) | +0.14 (55) | +0.10 (54) | −0.07 (53) | −0.06 (52) |
+**Verdict: a weak 1-month lead in the STOCK series (r = +0.31 ⇒ `r² = 0.096`, under 10% of variance) and NO lead in the FLOW series.** ⛔ **Postings do not usefully lead hires on this history; the row stays DIAGNOSTIC and cannot carry a T-10 / vector-4 band.** Decision it could change: none, mechanically — but the reading is informative in BOTH directions and both are recorded: **against the thesis**, the postings STOCK is flat YoY (−0.2%) and rising 4 weeks running (national +1.37pt, FL +1.38pt) — employers are NOT withdrawing postings, which is not what a deepening freeze looks like; **for it**, the FLOW is −13.6% YoY while the stock holds ⇒ postings are staying open longer (slower filling), which is the low-hire signature. **Neither half is scored.**
+
+### ② Labor-supply AGE DECOMPOSITION of the +683K LF move (disposition: DIAGNOSTIC — tests and narrows, does not establish cause)
+CPS, SA, thousands, FRED pulled 2026-09-17 (BLS Employment Situation, USDL-26-1435 vintage). ⚠️ **Each age series is seasonally adjusted independently, so cohorts do not sum to the total; the residual is stated.**
+
+| Cohort | LF May | Jun (Δ) | Jul (Δ) | **Aug (Δ)** | LFPR May → Aug | Emp Jul → Aug |
+|---|---|---|---|---|---|---|
+| Total 16+ (`CLF16OV`) | 170,078 | 169,358 (**−720**) | 169,094 (−264) | **169,777 (+683)** | 61.8 → 61.6 | +569 (`CE16OV`) |
+| 16–19 (`LNS11000012`) | 6,269 | 6,221 (−48) | 6,121 (−100) | 6,254 (**+133**) | 35.7 → 35.7 | −7 |
+| 20–24 (`LNS11000036`) | 15,592 | 15,615 (+23) | 15,534 (−81) | 15,688 (**+154**) | 70.5 → 70.9 | +140 |
+| **25–54 prime (`LNS11000060`)** | **109,201** | **108,393 (−808)** | 108,549 (+156) | **108,577 (+28)** | **83.9 → 83.4** | **−6** |
+| 55+ (`LNS11024230`) | 39,005 | 39,095 (+90) | 38,927 (−168) | 39,253 (**+326**) | 37.1 → 37.2 | +354 |
+| Cohort sum vs total | — | −743 vs −720 (resid −23) | −193 vs −264 (resid −71) | **+641 vs +683 (resid +42)** | — | — |
+
+**What it narrows.** The June **−720K** was a **PRIME-AGE** event (−808K, LFPR 83.9 → 83.3). The August **+683K** was **NOT** prime-age (+28K; LFPR 83.4, still **0.5pp below May**) — it was **55+ (+326K, LFPR 36.9 → 37.2)** and **under-25 (+287K)**. **Prime-age LF is `109,201 − 108,577 = 624K` below its May level; the cohort that contracted has not recovered.** So the aggregate REVERSED while the composition says the contraction STANDS — these are different cohorts moving, not one move retracing. ⚠️ **Sampling error binds:** BLS's Technical Note puts the 90% CI on the monthly change in household employment at roughly ±600K; a single cohort-month is inside noise, and only the 3-month prime-age level change (−624K) approaches the edge. **Decision it could change:** LAB-19 (60%, MECHANISM) resolves on the AGGREGATE letter (LF MoM >0 in ≥2 of Sep/Oct/Nov) and **the letter stands** — but this decomposition says LAB-19 can resolve TRUE while my CORE TENSION's supply-shrink premise is still intact at prime age, so **the prime-age LF level is now reported beside LAB-19 at every NFP as a diagnostic line, and a TRUE LAB-19 will NOT by itself rewrite the tension.** **Against the thesis:** prime-age LF back ≥109,000K with U-3 flat would mean the supply confound is gone AND demand absorbed it — the bull read; the bar is `109,000 − 108,577 = 423K` of prime-age re-entry.
+
+**Breakeven payroll, assumptions explicit (an ESTIMATE, not a gauge):** `CNP16OV` grew `(275,415 − 274,955)/4 = 115K/mo` Apr→Aug. LF at constant LFPR 61.6%: `115 × 0.616 = 70.8K/mo`; employment at constant U-3 4.1%: `70.8 × 0.959 = 67.9K/mo` ⇒ **household-basis breakeven ≈ 68K/mo.** Assumptions: (a) published CNP growth embeds the Jan-2026 population control and does NOT observe intra-year immigration changes; (b) LFPR and U-3 constant; (c) no CES/CPS adjustment (multiple jobholders, self-employed, agriculture) — payroll breakeven is the same order, ~65–75K. **Under a low-net-migration assumption (CNP ≈ 60–70K/mo), breakeven ≈ 35–45K.** ⇒ **August +162K exceeds breakeven by `162 − 68 = 94K` (published-pop basis) to `162 − 40 = 122K` (low-migration basis).** PROME's correction of the brainstorm figure is confirmed: +162K clears a 30K breakeven by MORE than it clears a 100K one, not less.
+
+### ③ Aggregate private weekly HOURS (Table B-4; disposition: DIAGNOSTIC row added to the release assessment, shared revision exposure)
+| Series | Aug 2026 | Jul | May (3m) | Aug 2025 | MoM | 3m (ann.) | YoY |
+|---|---|---|---|---|---|---|---|
+| `AWHAE` index of aggregate weekly hours, ALL employees, total private (2007=100) | **117.2** | 116.8 | 116.7 | 115.8 | **+0.34%** | +0.43% (≈+1.7% ann.) | **+1.21%** |
+| `AWHI` same, production & nonsupervisory (2002=100) | 124.7 | 124.6 | 124.8 | 123.5 | +0.08% | −0.08% | +0.97% |
+| Cross-check `USPRIV × AWHAETP` (M hrs) | `135,752 × 34.4 = 4,669.9` | `135,625 × 34.3 = 4,651.9` | — | `134,937 × 34.2 = 4,614.8` | **+0.39%** | — | **+1.19%** ✅ |
+**Decomposition of the August gain:** employment `135,752/135,625 − 1 = +0.09%` × workweek `34.4/34.3 − 1 = +0.29%` — **three-quarters of the hours gain is the workweek tick, and 0.1 hr is the publication unit, so it flips on revision.** ⚠️ **SHARED REVISION EXPOSURE: same CES sample as NFP — every L-02 revised-series rule applies; recompute on the revised vintage before reading any month.** **Decision it could change:** Kill A / the "employers using more or less labor" read. Hours +1.2% YoY with the hires RATE at 3.2% = **more hours from the same workers** — consistent with BOTH a freeze (no churn) and healthy demand without churn; **it cannot discriminate between them and earns no band.** Recorded against the thesis: total private labour input is RISING, not contracting.
+
+### ④ State initial-claims BREADTH, Florida first (disposition: DIAGNOSTIC; primary = ETA 539)
+**Source:** `https://oui.doleta.gov/unemploy/csv/ar539.csv` (ETA 539 weekly state claims, 13.4 MB, 112,287 rows, pulled 2026-09-17 08:3x ET; field `c3` = state UI initial claims, NSA; `rptdate` = filing week). **Latest state week = w/e 2026-09-05** — state data lag the national advance by one week; **FRED's `FLICLAIMS` (5,510 w/e Sep 5) is the same series two units off (5,508 in the 539 file — one late-count revision).** Breadth = states whose 4-wk-avg NSA initial claims are UP vs the same 4 weeks a year earlier (NSA needs a YoY basis; a WoW count is seasonal noise). 51 jurisdictions (50 + DC; PR/VI excluded).
+
+| Week ending | States UP YoY (4wk avg) | | Week ending | States UP |
+|---|---|---|---|---|
+| 2026-06-13 | 11/51 | | 2026-08-01 | 13/51 |
+| 06-20 | 11/51 | | 08-08 | 13/51 |
+| 06-27 | 13/51 | | 08-15 | **8/51** |
+| 07-04 | 15/51 | | 08-22 | 9/51 |
+| 07-11 | 13/51 | | 08-29 | 8/51 |
+| 07-18 | **19/51 (peak)** | | **09-05** | **9/51** |
+| 07-25 | 14/51 | | single-week basis 09-05 | 19/51 |
+
+**Sum of states w/e Sep 5: 175,155 vs 203,025 yr-ago = −13.7% YoY.** Worst 4wk YoY: DE +73.1% (465 vs 268 — a tiny base) · VT +23.7% · HI +21.5% · **NY +4.3%** · CO +4.3%; falling most: KY −56.0% · ND −43.9% · CT −40.2% · IL −32.6% · TX −25.3%.
+**Florida:** 4wk `5,462 vs 5,956 = −8.3% YoY`; single week `5,508 vs 5,802 = −5.1%`; last 8 weeks 6,281 → 6,003 → 5,545 → 5,796 → 5,678 → 5,205 → 5,458 → 5,508 vs yr-ago 6,329 → 6,347 → 6,248 → 6,448 → 6,139 → 6,165 → 5,719 → 5,802 — **below year-ago in all 8 weeks.** Peers: TX −25.3% · CA −4.9% · GA −12.3% · WA −4.7%.
+**Decision it could change:** vector 13's count and T-01 on the MA basis — **breadth is NARROWING (19 → 9 of 51 since mid-July), not widening; a claims wave shows in breadth before the national MA, and it is absent.** **Against the thesis, and it is the clearer half.** Florida is not a rising state — the FL row for CORAL/MARCO is "falling YoY, in line with the national −13.7%". ⚠️ **Not base-rated:** what breadth count preceded prior national-MA rises is NOT measured — **no band until it is (BD-33).**
+
+
+## § `status-line-rotated-20260917` — the `**Status:**` lede + 7/6 retraction pointer as they stood 2026-09-10 (verbatim, rotated from STATUS.md 2026-09-17; no figure changed)
+**Status:** 🟠 **HIRING INTENTIONS THAWED; THE REALIZED COUNT DID NOT FOLLOW — AND ON 9/1 THE INTENTIONS LEG STOPPED LEADING TOO.** July JOLTS: openings flat-to-up (7,271K, rate 4.3→4.4%) while **hires fell 278K and the hires RATE went 3.4 → 3.2%**. …  *[carried: 4.1% · 61.4% · −23 · +20K · −720K · 97K · 4% · 5,054 · 7,271 · 1.9% · 1.0% · −18K · 51.2 · 47.4]*
+🔒 **[7/6 CLAIM — HALF RETRACTED 2026-08-05]** — the ISM-survey half (L-12); the WARN-filing half stands. → `STATUS_DETAIL.md` § `claim-retraction-20260805`.

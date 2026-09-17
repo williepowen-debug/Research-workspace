@@ -169,4 +169,19 @@ Pre-registered at freeze:
 
 ## §9 — GRADE (write 2026-09-17 off this frozen card — never re-read a band)
 
-*Blank until print. At grade time, in this order: **①** regenerate the THREE quantities §4 names on the as-published vintage · **②** grade the four axes (§2 · §5a · §5b · §5c) separately · **③** write the outcome into `STATUS.md` (KEY THRESHOLDS + calendar row) · **④** `git mv` this card to `docket/graded/` **and build the 2026-09-24 card in the same session**.*
+**GRADED 2026-09-17 08:4x ET** — primary: DOL/ETA release PDF, embargo *"8:30 A.M. (Eastern) Thursday, September 17, 2026"*, text extracted from the saved binary (the tool's summary of the same URL had returned 213,000 / 216,000 / 1,641,000 — figures the document does not contain; see L-33).
+
+**① Regeneration on the as-published vintage:** window 204,000 / 207,000 / 206,000 (unrevised) / **196,000**; `813,000/4 = 203,250` ✅ = DOL MA. `R` = 207,000 unmoved ⇒ **`ΔMA = (196,000 − 207,000)/4 = −2,750`** ✅ = DOL to the unit. Retained sum 617,000 **unchanged** ⇒ §3 `MA_next` column and §5a bound **383,000 both stood — nothing void.**
+
+**② Four axes:**
+| Axis | Reading | Band | Result |
+|---|---|---|---|
+| §2 single print | 196,000 | **B** | NO ACTION |
+| §5a T-01 MA | 196,000 ≤ 383,000 | **T01-a** | does not fire; MA 203,250, `250,000 − 203,250 = 46,750` away (widened 2,750) |
+| §5b vector-13 | 196,000 ≤ 199,000 | **V13-a** | **counter 0 → 1 of 4** |
+| §5c continuing claims | **1,730,000** [w/e Sep 5] < 1,750,000 (prior revised 1,774,000 → 1,769,000) | **CC-1** | **vector-7 count 0 → 1 of 4** |
+| band A / Kill B | 196,000 > 185,000 | — | count 0 of 5; `196,000 − 185,000 = 11,000` above |
+
+**③ Written into `STATUS.md`** KEY THRESHOLDS (both claims rows + CC row), matrix v7/v13, calendar; narrative `STATUS_DETAIL.md` § `calendar-graded-20260917`. **Routing (§7): bands A/B + CC-1 ⇒ STATUS only. Nothing routed.** **④ Card moved to `docket/graded/`; 9/24 card built same session** (`R` = 204,000 ⇒ `(X − 204,000)/4`; bound `X > 391,000`).
+
+**§8 defect log at grade:** 0 defects in the card's arithmetic. **1 defect in my READER, not the card** — the fetch summary fabricated the print (caught by extracting the PDF) → L-33 / BD-35.
