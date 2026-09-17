@@ -1,0 +1,50 @@
+{
+  "window": "preclose",
+  "planned_at": "2026-09-16T16:05:00-04:00",
+  "started_at": "2026-09-16T20:05:00.010972+00:00",
+  "fetch_sha256": "c1c60d748cd6ce973b9affa6f53cf2c6271b258e65437e50a36a88271b16c2bd",
+  "root": "BZ",
+  "horizon": 5,
+  "exchange": "NYM",
+  "policy_change": false,
+  "returncode": 0,
+  "stdout": "{\"attempted\": [\"BZU26.NYM\", \"BZV26.NYM\", \"BZX26.NYM\", \"BZZ26.NYM\", \"BZF27.NYM\"], \"candidate_age_s\": {\"BZF27.NYM\": 27, \"BZX26.NYM\": 0, \"BZZ26.NYM\": 0}, \"candidate_times\": {\"BZF27.NYM\": 1789588470, \"BZX26.NYM\": 1789588497, \"BZZ26.NYM\": 1789588497}, \"candidates\": {\"BZF27.NYM\": 96.26, \"BZX26.NYM\": 105.32, \"BZZ26.NYM\": 100.32}, \"continuous\": \"BZ=F\", \"continuous_price\": 105.32, \"continuous_time\": 1789588497, \"control\": \"passed-distinct-prices\", \"cross_check\": \"no-vendor-name-to-compare\", \"dropped\": {\"BZU26.NYM\": \"metadata-symbol-missing\", \"BZV26.NYM\": \"metadata-symbol-missing\"}, \"root\": \"BZ\", \"tracking\": \"BZX26.NYM\", \"verdict\": \"IDENTIFIED\"}\n",
+  "stderr": "$BZU26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = \"No data found, symbol may be delisted\")\n$BZV26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = \"No data found, symbol may be delisted\")\n",
+  "probe": {
+    "attempted": [
+      "BZU26.NYM",
+      "BZV26.NYM",
+      "BZX26.NYM",
+      "BZZ26.NYM",
+      "BZF27.NYM"
+    ],
+    "candidate_age_s": {
+      "BZF27.NYM": 27,
+      "BZX26.NYM": 0,
+      "BZZ26.NYM": 0
+    },
+    "candidate_times": {
+      "BZF27.NYM": 1789588470,
+      "BZX26.NYM": 1789588497,
+      "BZZ26.NYM": 1789588497
+    },
+    "candidates": {
+      "BZF27.NYM": 96.26,
+      "BZX26.NYM": 105.32,
+      "BZZ26.NYM": 100.32
+    },
+    "continuous": "BZ=F",
+    "continuous_price": 105.32,
+    "continuous_time": 1789588497,
+    "control": "passed-distinct-prices",
+    "cross_check": "no-vendor-name-to-compare",
+    "dropped": {
+      "BZU26.NYM": "metadata-symbol-missing",
+      "BZV26.NYM": "metadata-symbol-missing"
+    },
+    "root": "BZ",
+    "tracking": "BZX26.NYM",
+    "verdict": "IDENTIFIED"
+  },
+  "finished_at": "2026-09-16T20:05:02.799510+00:00"
+}
