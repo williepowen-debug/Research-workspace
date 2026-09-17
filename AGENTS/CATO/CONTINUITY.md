@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-16, crash recovery. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-17, Will-directed closeout and next-session review remit. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Next boot — Will's September 17 direction:** CATO will review the day's work alongside Will's ongoing sessions with PROME and the agents in Claude, providing feedback and checking accuracy, sources, calculations, claims and completion. Begin with normal startup and current work/approval state, then establish the day's review scope with Will. Trace consequential claims to evidence, distinguish owner assertions from verified findings, and preserve the authorship/self-review boundary. This is the next-session remit; do not begin that review during this closeout or assume it authorizes fleet launches, owner-file takeover or external sends. No current CATO task remains unfinished. Prior recovery counts below describe the September 16 snapshot, not today's working tree. Recovery report commit `e9ac693af` and restored OSPREY commit `5b7b3fde4` were confirmed on origin/master by fresh fetch.
 
 **Latest task — crash recovery complete:** Will authorized preservation and Git recovery before agent restarts. [Recovery report](runs/2026-09-16_2149_crash-recovery.md). All 23 empty Git objects were reconstructed to their exact original hashes, including HEAD `5b7b3fde4` (OSPREY); two zero-filled reflog tails were repaired with labeled reconstruction entries. Full backup: `/home/willi/research-recovery/20260917T011757Z/`. All surviving working files and original index/refs were preserved. HAWK, BRENT and CARL still have unfinished work, including six staged records and 12 untracked files across owners; do not pull or sweep them. OSPREY's original commit is recovered, not newly authored by CATO. Full candidate and live Git integrity checks passed. Exact-path report commit/push receipt is delivered in-session. No agents restarted or new research assigned. Next CATO session: orient and await Will; owners may be resumed individually by Will for reconciliation using the report.
 
