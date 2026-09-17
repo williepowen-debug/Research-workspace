@@ -1,87 +1,56 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** session 25 — opened **2026-09-02 22:46 ET**, closed **2026-09-03 07:1x ET** (clock read at closeout; the session spanned the date boundary, and the packets committed carry their 9/02 authoring date). PROME full-owner spawn.
+**Last Updated:** session 26 — opened **2026-09-17 08:31 ET**, PROME Tier-1 L0 spawn (`prome-ae`), **released by Will (WQ-243 APPROVE via Decision Deck 2026-09-15) lifting the WILL-RESERVED hold on DOCKET L332.** Closed ~09:3x ET (clock read at closeout).
 
-## CHANGES SINCE (session 24 → 25) — 11 days dark, 8/22 → 9/02
-- **S338 fired and I was not here for any of it.** The tariff went live 12:01 ET 8/22 (I verified that at session 24's close); Canada then announced its counter-measures on **8/25 (P1)** and published the product list on **8/26 (P2)** — both while I was dark. **Two desks (HAWK 9/2, CORAL 9/2) came to tell me my STATUS was carrying superseded figures.** They were right.
-- **33 unconsumed inbox items** (13 root + 20 WALTER lane), the oldest 11 days old.
-- **DAEDALUS wired the R1 corrections boot line into my charter itself on 8/28** (`09a4b6a9e`) — the packet asking me to insert it is therefore already discharged; **verified at the artifact, `CLAUDE.md:45`.**
+## CHANGES SINCE (session 25 → 26) — 14 days dark, 9/03 → 9/17
+- **Canada 9/8 FIRED while I was dark.** HAWK graded HAW-21 CONFIRMED 9/8 on P.C. 2026-0785/0786 + CBSA Notice 26-23; HAWK + WALTER packeted me the 629-item perimeter (ACTION item, 9 days unread).
+- **CORAL wrote first on FL enrollment (9/13)** — its 201,652 (2025-09-15) with the three-bases problem, and said *re-check the 2026-27 OCPS file after mid-Sep.* **It published 9/15; I read it 9/17.**
+- **CORAL's MSI leg stood down 🔴→🟠** (reading #6, 4-of-5, 9/13) — leg only, bank rail untouched.
+- **12 unconsumed inbox items** (4 root + 8 WALTER lane), oldest 14 days.
 
-## WHAT I DID (session 25)
+## WHAT I DID (session 26)
 
-### 1. 🔴 I went to correct three figures and came back having read the document the fleet could not open
-HAWK's three corrections **all hold** — I re-read Dept of Finance P1/P2 myself rather than adopting the relay. **CA$27.6B · three mirror-matched tiers 15/25/50 per line · date DISCHARGED** (P2 verbatim: *"effective as of 12:01 a.m., September 8, 2026"*).
-Two refinements back to him: **(a)** the primary uses $27.6B for **BOTH** legs, so "~$28B" was the same quantity verbally rounded — a **precision** fix, not a perimeter fix; **(b)** ⚠️ **the currency is NOT stated in the operative text** — CAD is an inference from the publishing sovereign, and our surfaces must say so rather than swap one unlabelled figure for another.
+### 1. ⭐ DOCKET L332 — THE ONE reconciled Florida enrollment figure, with MARCO's contribution
+**OCPS district headcount `193,656` (2026-09-15, PRIMARY PDF) vs `201,652` (2025-09-15, CORAL's figure re-read at the artifact) = `−7,996 / −3.97%` on the same series.** *~191,000 / −3.8%* withdrawn; the press −7,672 is the late-Aug 10-day count. **CORAL composition line corrected** (180,282 + 18,686 ≠ 201,652; residual 2,684 = ESE/alt-ed rows) — packeted.
+**My half — the grade decomposition:** `−7,996 = PreK −235 + [KG in 11,647 − G12 out 17,376 = −5,729] + within-cohort attrition −2,032`. **72% is entry-pipeline turnover; ≤2,032 (≈1.0%) is the UPPER BOUND on migration-consistent loss**, non-monotone by grade (4 of 12 cohorts GAINED). ⛔ **`VX-3.03` UNCHANGED · enrollment logged as a BOUND leg in `MIGRATION_PROXIES.tsv`, not a direction tell · CORAL's voucher disqualification stands.** FLDOE Survey 2: **403 from this box again (WebFetch 9/17) — SEARCH-BLOCKED, never absent**; docketed ~12/15 with the browser-UA route. Step Up county count NOT found.
 
-**Then his own 8/22b addendum closed the biggest open item on my desk, and I had been sitting on it for 11 days.** He wrote that CBP's CSMS returns **HTTP 200 to a browser User-Agent**. It does, first try — and the bulletin carries an attachment neither of us had mentioned: **`Section 338 Canada HTS LIST Final.pdf`. That is the Annex II enumeration that renders `[TIFF OMITTED]` in the Federal Register.**
-**1,074 unique Ch.1–97 commodity lines · 65 chapters · Ch.04–Ch.97.** *(Extraction validated: a deliberately looser pattern returned the identical 1,171 raw matches, zero non-conforming tokens.)*
-- ✅ **"Energy excluded" — CONFIRMED, Ch.27 ZERO lines.** ✅ **"Potash excluded" — CONFIRMED, Ch.31 ZERO lines.** Both by **absence from the positive list** — **the exact mechanism I proposed on 8/22 and HAWK adopted over his own seed.** Downgraded 8/22 for want of a primary; **UPGRADED 9/2.**
-- ✅ **"Ch.4–97 breadth"** was aggregator-only; now primary-confirmed.
-- 🔴 **Autos: Ch.87 has exactly ONE line at 50% — `8711.50.00` (motorcycles >800cc). `8703`/`8704`/`8708`: ZERO.** And **47 steel lines sit IN the 50% list despite the carve-out naming "articles of steel"** ⇒ the carve-out is **LINE-specific**, so a chapter-level read is wrong in both directions.
-- 🔴 **At the Canadian end, a sentence no desk carries.** P1: *"other existing counter-tariffs against the U.S., **including autos, remain in place**."* ⇒ **US-origin autos are NOT in the new 9/8 measure — 9/8 is not the auto-exposure date; that exposure is already live.** Answers the question HAWK explicitly held open.
-- ⚠️ **Composition corrects the consumer framing:** by line count this is a **capital-goods** action (Ch.85/84/90 = **437 of 1,074, 41%**); consumer-visible = **188 (17%)**. Carney's consumer examples are all verified present and are a **minority**.
-- ⚠️ **STILL UNREAD: the CANADIAN line list** — canada.ca complete-list page **HTTP 404** on 9/2.
+### 2. Canadian perimeter integrated — closes the "Canadian line list UNREAD" thread (open since 9/2)
+**629 items — 21 @15% · 195 @25% · 413 @50% — reproduced at HAWK's artifact** (`verify_canada.py` → 0 missing, 0 rate mismatches). Carried with remission/currency qualifications; **no vector, threshold or conviction moved; employment effect UNKNOWN, never inferred from the effective date.** The session-25 Canada READ-FIRST block rotated **verbatim** to `domain/sources/_archive/STATUS_s25_canada_block_20260902.md` and replaced by a compact state line — STATUS **35,523 → 33,789 B**.
 
-### 2. 🔑 The 9/8 fold, and what it actually grades on
-**Channel-2 conviction UNCHANGED · no threshold set or moved · NO dollar figure.** The guard held: this is a **goods** action, my channel is **visitors**, and fusing them is my characteristic error.
-🔑 **9/8 grades on nothing on the tape — it grades on whether a LEGAL INSTRUMENT PUBLISHES** (Gazette / Order in Council). **Neither Canadian primary names one**, so **the default INVERTS relative to S338: if nobody acts, there is no counter-tariff.** Do not pattern-match 8/22 onto 9/8.
+### 3. As-made audit (DAEDALUS 9/7) — re-derived at the Feb-24 blob `26e974d75`, which carries the original numbered PREDICTIONS table
+**6 re-marks in the WQ-112 form:** MAR-11 as-made 70 (ledger 72) · MAR-12 60 (35) · MAR-14 55 (20) · MAR-24 65 (55) · MAR-26 70 @3/23 (74, scoring vintage unchanged) · MAR-21 40 (55, unchanged). **5 SAME** (MAR-01 65 · MAR-17 60 · MAR-18 75 · MAR-19 80 · MAR-08 75 — the tool's MISMATCH/NOT-FOUND flags were first-%-after-ID artifacts on July resolution lines). **4 NOT re-derivable** (MAR-10/15 already CONFIRMED with no % at the first blob; MAR-25/27 no bare-% cell at or before Date_Made) — ledger values stand UNVERIFIED, stated. ⚠️ The tool still prints 8 MISMATCH because it reads the first % in the cell; the cells now carry the machine form.
 
-### 3. ✅ PROME's 8/22 ruling DISCHARGED — the identification condition is registered as `ID-01`
-Not a FLOW row (correctly declined, PROME endorsed). **A LAND-vs-AIR divergence**, and the reason is structural: **air is capacity-constrained by winter schedules already FILED; land is not** — a goods-price shock can move land without moving air.
-Basis: StatCan 2-yr stack (the basis TOUR-01 scores). Baseline, **both component levels published beside the gap**: Jun auto −29.6 / air −25.0 (gap −4.6pp) · Jul auto −28.9 / air −26.8 (gap −2.1pp).
-⚠️ **The gap moved 2.5pp in a single PRE-tariff month — that is the measured noise floor, so any post-9/8 move under ~2.5pp is not evidence.** **MET** if land deteriorates vs air by **>2.5pp** across the Sep and Oct prints. **FALSIFIED — and then the channel stays PERMANENTLY unscored, not re-armed — if both legs move together (common-mode) or if land improves relative to air.**
-
-### 4. 🔴 READ-CAP — and the split found an 11-day-old owed grade nobody was looking for
-`STATUS.md` was **68,113 B = 126% of the 32,550 B cap**, so my own boot Read had been returning a **truncated file with no error**. `NEXUS_BRIEF.md` was **56,123 B = 103%**.
-- **STATUS 68,113 → 35,523 B** (−48%); cold half **verbatim, crc-stamped** → `domain/sources/_archive/STATUS_s24_block_20260822.md` **with a 12-row OBLIGATION CENSUS** (rule 17: destination is off the reading path ⇒ enumerate and re-home).
-- **NEXUS_BRIEF 56,123 → 19,304 B** (−65%), rewritten.
-- **Both now UNDER THE CAP — `read_cap_check` reports 0 over the cap** (was 2). ⚠️ **Both remain over BUDGET is FALSE for the brief (36% ✅); STATUS is 65% = still over budget, and `MEMORY.md` at 49,058 B / 90% is untouched. Stated, not claimed closed.**
-- 🔴 **THE FIND: the energy re-arm went UNGRADED.** T+1 confirm of the 8/21 Brent settle was due **Mon 8/24** off `BZV26`; I was dark and it never ran. It was buried in a 4,243 B forensic block **that read as settled**. ⛔ **Do NOT back-grade it** — 11 settles went unobserved and an Oct→Nov roll (~8/31) breaks `BZ=F` continuity across the gap. **Re-spec with a fresh forward window.**
-- 🔴 **I also killed an INVERTED instruction on the outgoing brief:** the predecessor told every consumer to *"DELETE '50% Canada tariff in effect' from any surface."* True on 8/21, **inverted on 8/22.** It had been telling the fleet to delete a true claim for 11 days.
-
-### 5. Whole-inbox drain — 33 items, every sender
-**20 WALTER-lane** → 20 `board_log.tsv` rows + `git mv` to `processed/`. Two were **acted**, not filed: **-018** (a truncating read drops the tail) is the *same failure class* as my read-cap breach and is cited in the split; **-040** (UMich 51.7 with inflation expectations improving — the legs disagree, and that disagreement is the finding). **-014/-016** (the BLS browser-header gate) is the method that opened CBP for me tonight.
-**13 root** → integrated, then `git mv` to `processed/`. **AEOLUS:** the "95%" was **already withdrawn on my `COUPLINGS.md` on 8/12** — I caught it before his packet; nothing to drop. Mead re-based to **1,039.05 ft (8/26), 4.05 ft above 1,035**, carrying his **evening correction** (USBR August studies under-project December by **+2.19 ft, n=6**; AEO-10 back to **65%**). ⚠️ **He attributed to me a figure I do not carry ("Mead 4.82 ft above"); my surface had 1,039.44 (8/20).** Flagged, low-stakes.
-**DAEDALUS:** WALTER routing fixed in `CLAUDE.md` (2 rows, incl. the FILES-table row he warned lands last) — **`walter_route_check.py` now reports 0 ROUTE-AROUND/MIXED rows for MARCO**; R1 boot line **already applied**; countdown fired-row rule **DECLINED-AS-NO-OP with the reason in the script header** (my fork's `passed` branch is unconditional on `delta < 0` — no look-back window, no expiry, so a fired row *cannot* age out; porting OTTO's rule would be strictly weaker).
-
-### 6. CORAL reconcile — four figures adopted, ZERO divergence
-Condo **7.8mo (Jul)** · condo/TH median **$295,000 / 0.0%** · **FMHPI SF +1.68% YoY SA** carried *only* with its perimeter (excludes condos/co-ops/PUDs; conforming financed only; FL cash share 51.0%) · MSI breadth 3-of-5 = **reading 1 of 2, a clock starting, not a de-fire.** **MAR-08 (>9.0mo) confirmed NOT met and moving away.**
-⚠️ **I deliberately did NOT let FMHPI fill my `VX-FL-02` single-family hole — it is a PRICE series and the cell needs SUPPLY.** The leg stays UNSCORED rather than filled with an adjacent number; asked CORAL whether they pull FL Realtors SF months-of-supply.
+### 4. Whole-inbox drain — 12 items, every sender
+**8 WALTER-lane** → 8 `board_log.tsv` rows + `git mv` to `processed/`. **2 acted** (-006 perimeter integration; -002 the ONE figure), 1 noted (-015 CORRECTION-NOTE: verified nothing of mine cites the withdrawn §③), 5 info-only. **4 root** → DAEDALUS 9/5 (FIGURES:77 one-liner done; L5 list is 2 not 3 — noted), DAEDALUS 9/7 (§3), HAWK 9/8 (§2), CORAL 9/13 (§1 + MSI cell + **`VX-FL-02` SF leg SCORED: FL Realtors statewide SF 4.5mo Jul = ELEVATED**, hole open since 8/21 closed + **`VX-3.04` re-graded ELEVATED on the letter of the 2025 print +178,674, CORAL-carried, Census verify owed**).
 
 ## NEXT SESSION
-0. **🔴 Banxico July remittances — DUE ~9/1, NOT PULLED (now 2 days late).** First clean forward window for the re-spec'd SDL-01 tell (2-yr stack ≤−5%, needs 2 consecutive). **Co-run the state-of-origin map** (CE99 data already live — a pull, not a wait; deferred three times now).
-1. **🔴 ENERGY RE-ARM — re-specify, do not back-grade.** Write a fresh forward window and state the contract by name; `BZ=F` continuity is broken across the dark gap by the ~8/31 Oct→Nov roll.
-2. **🔴 Mon 9/8 — Canadian counter-tariffs. GRADE ON INSTRUMENT PUBLICATION, not the tape.** Check Canada Gazette / Orders in Council. No instrument ⇒ the announcement did not convert.
-3. **🟠 Fri 9/11 — BLS August CPI = the `ES-MARCO-05` resolver, pre-committed.** Sub-6% ⇒ DID_NOT_APPEAR. **Do not push a 4th time.**
-4. **🟠 ~9/15 — NTTO July, off the PRIMARY WORKBOOK's vs-2019 column.** One read resolves `ES-MARCO-09` **and** unblocks `VX-1.02`. ⛔ Do not resolve off the derived three-hop chain.
-5. **🟠 ~9/15 — StatCan August travel. This is now also the `ID-01` instrument** — publish **both** component levels beside the gap, never the gap alone.
-6. **🟠 ~9/18 — FL Citizens: ask CORAL for the refreshed PIF, do not re-derive.**
-7. **🟠 `MEMORY.md` is 49,058 B = 90% of the read cap and was NOT rotated this session.** Next growth truncates it. Rotate before adding to it.
-8. **🔴 Channel 4 — the EMMA/MSRB credit leg is STILL UNRUN** (carried since 8/12). It **gates** the retire-or-hold ruling; `TX-03`'s BREACHED band cannot trip on receipts alone.
-9. **🟠 The CANADIAN line-level list is unread** (canada.ca complete-list **HTTP 404** 9/2). Cheapest open scope question left in the chain; try an alternate path.
-10. **Carried:** FL-$ hole still scope-mismatched and underived — **do not re-cite** · FL migration divergence vs CORAL stays documented-not-merged · `VX-2.01` BREACHED still on an unrefreshed Jun-15 arrest rate · `VX-FL-02` SF leg UNSCORED for want of an SF months-of-supply source.
-11. **Do NOT hunt a fifth Channel-1 transmission instrument.** v3.0 pre-commits against it; four nulls-or-against stand.
+0. **🔴 Banxico July AND August remittances — BOTH unpulled** (Jul due ~9/1, Aug ~10/1). First clean SDL-01 forward window; state-of-origin map is a pull, not a wait (deferred 4×).
+1. **🔴 ENERGY RE-ARM — still un-re-specified** (carried from s25). Fresh forward window, contract named exchange-suffixed (`BZX26.NYM` form — WALTER's 9/14 roll lesson is the same class).
+2. **🟠 StatCan August travel (~9/15, likely published) — the `ID-01` instrument. Publish BOTH component levels beside the gap.** Also NTTO July (`ES-MARCO-09` + `VX-1.02`) off the primary workbook.
+3. **🟠 FL Citizens 9/18 — ask CORAL for the refreshed PIF; do not re-derive.**
+4. **🟠 `MEMORY.md` at 49,058 B / 90% of the read cap — NOT rotated this session either; NOTHING was appended (deliberately). Rotate before the next append.**
+5. **🟠 Census verify of the FL intl 2025 print (+178,674)** — `VX-3.04` re-grade rests on a CORAL-carried figure.
+6. **🔴 Channel 4 — EMMA/MSRB credit leg STILL UNRUN** (since 8/12).
+7. **🟡 FLDOE Survey 2 ~12/15 (docketed) · OCPS `05_15_27` ~5/15/27** — re-run the cohort decomposition. A Step Up county count would supply the voucher denominator.
+8. **Carried:** FL-$ hole scope-mismatched — **do not re-cite** · `VX-2.01` BREACHED on an unrefreshed Jun-15 arrest rate · BofA Q1'26 metro claim documented-not-merged · CBP Ch.98/drawback heading defect · USMCA-preference claim not primary-supported · **`VX.tsv` two-clock header still 2026-07-02** (banner date = OLDEST live row by rule; two rows refreshed 9/17 do not move it) · STATUS 33,789 B still over BUDGET.
+9. **Do NOT hunt a fifth Channel-1 transmission instrument.** v3.0 pre-commits against it.
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| 🔴 **Energy re-arm — UNGRADED, window closed unobserved 8/24** | Re-spec, never back-grade. The split's own find |
-| 🔴 **Banxico July — 2 days overdue** | First clean SDL-01 forward window; map is a pull, not a wait |
-| 🔴 **9/8 Canadian counter-tariffs** | Grades on instrument publication. Default INVERTS vs S338 |
-| 🔑 **`ID-01` registered** | Land-vs-air >2.5pp on the 2-yr stack; resolves ~mid-Nov and ~mid-Dec |
-| 🟠 **Canadian line list UNREAD (HTTP 404)** | US leg enumerated; Canadian leg is not |
-| 🟠 **`VX-1.02` + `ES-MARCO-09` both blocked on the NTTO primary workbook** | One read unblocks both, ~9/15 |
-| 🔴 **Channel 4 — EMMA/MSRB credit leg UNRUN** | Structurally gates the retire-or-hold ruling |
-| 🟠 **`MEMORY.md` 90% of read cap, not rotated** | Rotate before next append |
-| 🟠 **STATUS 35,523 B — under the CAP, still over BUDGET (65%)** | Truncation fixed; budget gap open and stated |
-| 🟠 **`VX-2.01` BREACHED on an unrefreshed Jun-15 arrest rate** | Carried-not-confirmed |
-| 🟠 **`VX-FL-02` SF leg UNSCORED** | Needs SF months-of-supply; FMHPI is a price series and cannot fill it |
-| 🟢 **NV dollars-leg inversion** | August print is the check on stage-change vs calendar mix |
-| 🔴 **FL-$ hole scope-mismatched + underived** | Carried 7/31 — **do not re-cite** |
+| ⭐ **FL enrollment — THE ONE figure delivered (193,656, −3.97%)** | L332 MARCO leg DONE; statewide basis waits on FLDOE Survey 2 (403 here) |
+| ✅ **Canadian line list — READ** (629 items via HAWK, reproduced) | Thread closed 9/17 |
+| 🔴 **Energy re-arm — UNGRADED, un-re-specified** | Carried s25→s26 |
+| 🔴 **Banxico Jul + Aug — unpulled** | Two prints owed |
+| 🔑 **`ID-01`** — land-vs-air >2.5pp on the StatCan 2-yr stack | Sep/Oct data ~mid-Nov / ~mid-Dec; Aug print is the pre-window baseline |
+| 🟠 **`VX-3.04` re-grade rests on a CORAL-carried figure** | Census verify owed |
+| 🟠 **`MEMORY.md` 90% of cap, unrotated** | Rotate before next append |
+| 🔴 **Channel 4 — EMMA/MSRB credit leg UNRUN** | Gates the retire-or-hold ruling |
+| 🔴 **FL-$ hole scope-mismatched + underived** | **do not re-cite** |
 
 ## Mail state
-**Inbox 0 · WALTER lane 0** — both drained this session (13 + 20 = 33 items, oldest 11 days).
-**Sent:** **HAWK** (return leg: his recipe worked, line list read, energy/potash confirmed, autos not a 9/8 event, plus the currency-inference narrowing of his own ①) · **CORAL** (reconcile closed, four figures adopted, zero divergence, + the SF months-of-supply ask) · **FERT** (potash exclusion now rests on a read; triage-only scope respected) · **CARL** (composition: 41% capital goods vs 17% consumer-visible — size off the detail, not the headline).
-**Not sent, deliberately:** nothing to WALTER — I produced **analysis**, not a signal, and under the routing rule I corrected tonight **SIGNALS go to WALTER; ANALYSIS and PACKETS go direct.** No threshold fired.
+**Inbox 0 · WALTER lane 0** — both drained (4 + 8 = 12 items, oldest 14 days).
+**Sent:** **CORAL** (the ONE figure + composition correction + SF leg adopted + MSI cell + intl-migration corroboration) · **PROME** (L332 delivery memo, `PROME/inbox/`, + `SendMessage` to `prome-ae`).
+**Not sent, deliberately:** nothing to WALTER (analysis, not a signal; no threshold fired) · nothing to HAWK/DAEDALUS (integrated; silence = received).
 
 ## PUSH STATE
-Session 25 — see the closeout commit and the safe-push receipt.
+Session 26 — see the closeout commits and the safe-push receipt.

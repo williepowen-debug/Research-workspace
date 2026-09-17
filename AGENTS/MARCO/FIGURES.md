@@ -1,6 +1,6 @@
 # MARCO — LOAD-BEARING FIGURE REGISTER
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-07-31
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -74,11 +74,23 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 |---|---|---|---|---|
 | **FL net domestic migration** | **+22,517** (93% collapse from 310,892 in 2022; FL #1 → #8) | 2025 annual | Census, ~late 2026 | `VX.tsv` 3.03 |
 | Net migration estimate (CBO) | −290K to −525K | 2025 | ~late 2026 | `VX.tsv` 2.04 |
-| FL international migration | +411K (2024) | 2024 | ~late 2026 | `VX.tsv` 3.04 |
+| FL international migration | +411K (2024) — **⚠️ a 2025 print exists: +178,674 (Census components of change, via CORAL; −56.5% YoY), carried in `VX.tsv` 3.04 since 9/17, not re-verified at Census by MARCO** | 2024 (baseline) / 2025 (CORAL-carried) | ~late 2026 | `VX.tsv` 3.04 |
 | TX net domestic migration | +219K (2022) → **+67K (2024)** = 69% collapse; still positive | 2024 | ~late 2026 | `VX.tsv` TX-04 |
 | Canada tourism index | ~0.72 (2025 trips ÷ 2019) | 2025 annual | ~early 2027 | `VX.tsv` CTI-01 — ⚠️ overlaps 1.01; **1.01 is the live Canadian read** |
 
 **Sub-annual FL migration proxies** (`workbook/MIGRATION_PROXIES.tsv`): FLHSMV licence inflow **+3.0% H1-2026**, voter-reg net **−0.8% (May)**. **DIRECTION TELLS ONLY — different bases; never restate as the canonical level.**
+
+### 9/17 — VERIFIED THIS PASS (session 26) — pulled from the issuing primary 2026-09-17
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **OCPS district enrollment (THE ONE CORAL↔MARCO figure)** | **193,656** (Trad by-grade 171,980 · ESE/alt 2,732 · Charter 18,944) | 2026-09-15 | OCPS Enrollment Summary PDF `…/6888/enrollment_summary_09_15_26.pdf`, pdfminer, footer *Tuesday, September 15, 2026* | STATUS READ-FIRST · `KB-MARCO-FLM-36` · `MIGRATION_PROXIES.tsv` |
+| OCPS district enrollment, prior year (CORAL's figure, re-read) | **201,652** (180,282 · 2,684 · 18,686) | 2025-09-15 | `…/8070/enrollment_summary_09_15_25.pdf`, same method | CORAL STATUS §FL ENROLLMENT (owner) |
+| OCPS YoY | **−7,996 / −3.97%** | 2025-09-15 → 2026-09-15 | same series, same vintage-day | `KB-MARCO-FLM-36` |
+| Within-cohort attrition (migration-consistent UPPER BOUND) | **−2,032** (≈1.0%) | 2026-27 vs 2025-26, grades 01–12 | Σ(g 2026 − g−1 2025) off both by-grade tables | `KB-MARCO-FLM-37` |
+| Canadian counter-tariff perimeter | **629 items — 21 @15% · 195 @25% · 413 @50%** | in force 2026-09-08 | HAWK `verify_canada.py` re-run 9/17: 0 missing, 0 rate mismatches | `KB-MARCO-CAN-43` (HAWK owns the grade) |
+
+⛔ **Not verified this pass, stated:** FL intl migration 2025 print (+178,674) — CORAL-carried; FLDOE Survey 2 — 403 SEARCH-BLOCKED 9/13 + 9/17, never absent.
 
 ---
 
