@@ -49,3 +49,20 @@ INSTRUMENT
 entry-crc32: 5373351 · bytes: 175 · rotated 2026-09-17
 
 2026-10-31 | OCIC Q3 final SC TO-I/A = the EARLIEST (a) third read (offer expires ~9/30, final ~3–4 wks later — MODELED off one interval, BROCK); BCRED ~11/13 next | BROCK
+
+## 14:4x correction pass — three cells re-cut again after the L408 independent reader (l408cold) — prior texts VERBATIM, same crc convention
+
+## GATE-HY-REKILL · condition — rotated 2026-09-17 14:4x (L408 reader ❌)
+entry-crc32: 1563546386 · bytes: 1734 · rotated 2026-09-17
+
+HY OAS (FRED BAMLH0A0HYM2; bp = published percent × 100; each observation taken AS FIRST PUBLISHED — later revisions are noted on this row and never re-grade a closed count) strictly < 260.0 bp on TWO CONSECUTIVE published observations (non-publication days — weekend, holiday, or a missing/NA print — do not break consecutiveness; a day whose print is not yet published is NOT an observation until it publishes; any published observation ≥ 260.0 bp resets the count to zero; a revision arriving before a count closes is also noted, never substituted). ⚖️ LETTER REWRITTEN SELF-GRADING 2026-09-02 21:3x on WQ-162 (Will verbatim 'Approve WQ-162 with your recs'; record PROME/proposals/2026-09-02_wq162-RULED.md): the prior 35-byte pinned letter 'HY OAS <260, two consecutive closes' carried NO UNIT against a series that publishes 2.60 — read literally every observation since registration satisfied it (LIQUID blind cold read 21ed4e0c0); the level, operator and count are UNCHANGED, only made explicit. Intake-lane 260-band auto-watch = machine primary (LIQUID boot.py run-counter wired to the kill line 9/2). H-2 COUNTING RULE (Will 8/10, forum FINAL §2b): a joint fire with HENRY's <260-sustained-5 soft-kill leg is ONE event on ONE series, never two confirmations. THIS CELL IS THE CANONICAL LETTER since 9/2 WQ-162 — the 8/22 archive copy (GATES_CONDITION_LETTERS, crc 3984287267) is SUPERSEDED history, supersession logged in PROME/archive/GATES_CONDITION_LETTERS_SUPERSESSIONS.md; definition_surface HOLDS the canonical letter verbatim — FOLDED 2026-09-03 (LIQUID 28a5e3be0; KILL_MEMO_HY_OAS_260.md:45-49); this cell advertised the fold as owed for 14 days after it landed — re-cut L408 2026-09-17 10:3x ET
+
+## GATE-BRK-R2 · scannable — rotated 2026-09-17 14:4x (L408 reader ❌)
+entry-crc32: 4158251431 · bytes: 214 · rotated 2026-09-17
+
+JUDGEMENT (re-tagged 2026-09-17 10:3x ET L408: was INSTRUMENT with NO producer anywhere — Class 7 says INSTRUMENT = a machine can grade it; BROCK grades each tender letter at primary; same re-tag as FERT-G5 8/28)
+
+## GATE-BRK-R2 · review_by — rotated 2026-09-17 14:4x (L408 reader ❌)
+entry-crc32: 3965227670 · bytes: 432 · rotated 2026-09-17
+
+2026-10-31 | OCIC Q3 final SC TO-I/A = the EARLIEST (a) third read (offer expires ~9/30, final ~3–4 wks later — MODELED off one interval, BROCK); BCRED ~11/13 next | BROCK ⚠️ OWNER SURFACE DISAGREES: PC_REDEMPTION_REGISTER.tsv:1 says review 2026-11-15 — 16d apart, with the earliest (a) third read falling BETWEEN them; GATES keeps 10/31 (review BEFORE the earliest fire) until BROCK reconciles — packet 2026-09-17, L408
