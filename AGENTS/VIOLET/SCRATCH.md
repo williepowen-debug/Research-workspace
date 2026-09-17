@@ -1,49 +1,40 @@
 # VIOLET — session handoff
 
-**As of:** 2026-09-14 23:40 ET. September 14 close. Canonical current figures and gates: [STATUS](STATUS.md). Full sweep: [report](reports/2026-09-14_sweep/README.md). Previous handoff preserved in `archive/sweep_2026-09-14/SCRATCH.md`.
+**As of:** 2026-09-17 08:4x ET, pre-open, graded on the September 16 OFFICIAL closes. Canonical figures and gates: [STATUS](STATUS.md). Grade record: [VIO-FOMC-0916 part 1](research/2026-09-17_VIO-FOMC-0916_GRADE_part1.md). Previous handoff (9/14) preserved in git history.
 
 ## CHANGES SINCE
 
-- Front-end volatility rebid from Friday; tail pricing eased but remains elevated. Cheap-tail CLOSED; convergence remains **30/50** after re-evaluation. These are separate instruments.
-- HENRY has a September 14 gamma board: negative at both horizons, one-session shelf life. The old “nobody reran it” claim is obsolete. OI decomposition by expiry is still unavailable.
-- MOVE's missing Friday observation is recovered; current primary and FRED observations are in STATUS. The earlier H.15 outage was an intraday observation for the queried series.
-- Primary news and owner evidence reconciled: Fed/BOJ/expiry overlap, macro hedge demand, concentrated AI losses, energy persistence. See the sourced news report for attribution and counter-evidence.
+- **The box crashed on the 9/16 evening** — no 9/16 session ran; PROME spawned this one 9/17 ~08:2x under WQ-184 (DOCKET L276, one day late). The ledger lacked the 9/15 and 9/16 spot rows; `backfill.py --spot-only` created both from CBOE (0 corrections).
+- **FOMC 9/16: HIKE +25bp to 3.75–4.00%, 12–0** (federalreserve.gov, verified). Surface 9/15→9/16: VIX 17.20→17.71, VVIX 95.41, SKEW 145.95, MOVE 83.71→80.73, matched Oct/Nov contango flat (−0.055 pp). VX/U6 final settlement 16.79 (SOQ) — the expiring contract carried no Fed, as the letter said.
+- **9/17 pre-open TICK: VIX 15.70 (−11.35%).** Inside leg 2's window; grades only on the 9/23 close.
+- JPY RV10 14.79% p93.2 → **WATCH** (from CALM) into BOJ 9/18; the RV-through-IV flag rests on an off-RTH FXY IV pull — unverified.
 
 ## WHAT I DID
 
-- **Follow-up requested by Will:** formally consumed all 24 reviewed inbox files with SHA-256 receipts and 19 new board dispositions; exact field-2 lookup now in CLAUDE. No duplicates or log rotation. Full disposition record: `reports/2026-09-14_inbox/README.md`.
-- **Wednesday rule:** VIOLET CONCUR WITH REPAIR response committed and delivered to RED/PROME (a19f4cb44); 13 offline specification cases. Unknown publication frontier holds without a new fire; a later published completed session witnesses a genuine internal hole. **RED/PROME adoption remains pending at L376.** No FT-10 grade or unilateral registry change.
-- **Docket L276 corrected and committed (666c299e4):** exact Leg 4 MOVE/VIX anchors and earlier adjusted-roll timing. All other owner edits excluded. WALTER receives the explicit breadth answer and processing/correction linkage.
-
-- Reran all 16 boot stages with working network. Confirmed 2,526 spot cells across 421 sessions; no archive corrections. Current SKEW mirror check: 20 sessions agree within 0.005, rc=0.
-- Recovered an all-six-spot-blank SETTLE row left by an earlier source failure. The same-date skip path required `thresholds.py --supersede`. Data recovered; writer robustness remains code debt.
-- Refreshed STATUS, calendar twins, canaries, trade status, durable memory/source pointers, and both local HTML references. Remote pages were not redeployed.
-- Added the six-entry prediction navigation index and workbook state register/LEDGER_GLOB. Logged KB-VIO-286–291; corrected the old roll claim's disposition.
-- Corrected adjusted-pair roll timing: it occurred Sep 11→14 under DTE<5, not Sep 15→16. Original frozen letter remains byte-identical; separate erratum records the process-leg defect and nine-vs-ten session counting error. Do not grant a clean process grade by quietly fixing the specification.
-- Corrected July's stale LIVE heading/log and superseded beta. Position truth is only the September 10 FORGE mirror, not fresh broker verification.
-- Withdrew unqualified CPI “in line” and premium-transfer claims. Verified Citadel's original publication: expiry window starts August 31, not September 10; figures remain dated estimates.
+- **VIO-FOMC-0916 part 1 (L276) graded, letter byte-identical (sha256 `ead84431…`):** leg 1 **VOID** (VIX 17.20 at the 9/15 close >16); leg 4 **KILL** (MOVE +16.26% < VIX +22.05% CBOE / +20.48% on the letter's 14.70); leg 5 **HELD with the §5 roll-date defect disclosed** (not a clean pass). **Leg 3 first read:** A 1/3 · B 1/3 · C 0/3 — no branch. Anchors + sources stated on the card. Disclosed: the letter's 8/27 VIX anchor value (14.70) was a yfinance provisional cell corrected to 14.51 on 9/6 — verdict invariant.
+- **F-B HELD** (`fb_grade.py`: zero-mean RMS 9.30% ann ≤ 17.84%). KB-VIO-295–299; `PREDICTIONS.tsv` L1/L4/L5/F-B resolved, L3 preliminary noted; CHANGELOG dated entry (no bump); CATALYSTS/CALENDAR 9/16 rows graded into RESOLVED (twin check ✅).
+- **L277 read plan written** (grade file §6): who reads what on the 9/18 close, the exactly-one-branch rule, the outcome comparison, two pre-declared weak-discriminator flags. Packets to HENRY (gamma = context, not a cell) and RED (byte/anchor check, the two flags, SKEW bars 146.61/145.95 for FT-10).
+- Inbox drained: 1 PROME item consumed (board_log + `git mv`); WALTER lane empty. Memo to PROME with COMPLETION block; SendMessage to `prome-ae`.
+- FRED VIXCLS failed twice (timeout / HTTP/2 error) — recorded as access failure; CBOE + yfinance agree on every anchor.
 
 ## NEXT SESSION
 
-0. **Before Wednesday grade:** obtain RED owner disposition/PROME chain response to the committed L376 allocation. Review is complete; adoption is not. Do not use the original byte/row-count discriminator.
-1. **Sep 15 close:** capture all spot fields; test frozen Leg 1 applicability against that close (VIX >16 makes it VOID). Current >16 cannot void it early. Preserve dated SKEW bars; RED grades FT-10.
-2. **Sep 16:** morning VIX SOQ, afternoon FOMC/SEP. Resolve F-B only after the fourth close; frozen letter legs on their registered Sep 16/18/23 dates. Do not change anchors or retroactively repair its process grade. `workbook/PREDICTIONS.tsv` is navigation, not replacement criteria.
-3. **Sep 18:** BOJ decision and quarterly equity expiry. Refresh HENRY context before Sep 16/18; usable regular-hours options OI and a term decomposition are needed for H-new.
-4. **Tooling repairs:** reject/retry empty spot SETTLE rows; validate distinct-day COR1M change; wire SKEW integrity at cheap-tail use time (D#11). None fixed in code this sweep.
-5. **Research debt:** Path-A F2 audit; H-carry event-conditioned realized-vol study; enlarge directional-vs-level sample; review retirement candidates without moving pending registered studies.
-6. **Previously accepted guard issue KB-VIO-284:** same-day superseding memo vs amending addendum discriminator remains a deferred design question. Do not loosen it to erase historical disagreement.
+1. **9/18 close (Fri) — LEG 3 GRADE (L277), mechanical per read plan §6:** `backfill.py --spot-only` → VIX3M/VIX, VVIX from CBOE; `move.py --boot` → MOVE (cross-check must read `agrees`); count cells vs the letter's table; exactly one branch ≥2/3 → CONFIRM, else NULL; compare to realised A. Read HENRY/STATUS (gamma context) and RED's note (byte check + the two flags) first. Write `research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md`, KB row, PREDICTIONS L3, STATUS, memo. ⛔ Not before the 9/18 CBOE bars exist. Same day: BOJ (SAM owns) + triple witching.
+2. **9/23 close (Wed) — LEG 2** (ΔVIX 9/16→9/23 from 17.71: >0 confirms, <−1.41% kills, between = inconclusive). Then the whole-letter postmortem and the Will-facing artifact refresh (same URLs).
+3. At the next SETTLE run, confirm the blank-spot 9/17 TICK row is superseded (`thresholds.py --supersede` if the same-date skip path bites again).
+4. Tooling repairs still owed (unchanged): reject/retry empty spot rows; validate distinct-day COR1M change; wire SKEW integrity at cheap-tail use time.
+5. Research debt unchanged: Path-A F2 audit; H-carry event-conditioned RV study; directional-vs-level sample; L342 holiday-counter audit before Nov 26.
 
 ## CARRY-FORWARD
 
-- Thesis v4.1.1 unchanged. A current-state pointer was repaired; this sweep did not recalibrate the framework. Thesis advisory is a review prompt, not proof that a version bump is warranted.
-- RV1 remains retired; July packet retired; no proposal pending. Partial cheap-tail observations cannot reopen it. Old BIN-A numeric levels remain unusable.
-- VIX_OPTIONS September 14 OI is an after-hours artifact. Its reported C/P ratio is not current positioning. FXY IV is also unverified off-hours.
-- Sources and source dates matter: quote `prev_day_close` may be unsuitable, a timestamp cannot prove unavailable OI, and the adjusted futures pair must be identified before interpreting a change.
-- Current follow-up delivers authorized owner packets and a dated completion memo; all 24 reviewed inbox items formally consumed. Current checks: reports/2026-09-14_inbox/. Earlier sweep unsent-delivery reds remain historical receipts. L342 holiday-counter audit is still owed before Nov 26.
-- Other desks have uncommitted work: no pull; local commit with push deferred under root Git protocol. No shared or other-agent files included.
+- Thesis v4.1.1 unchanged; leg 4's lesson (approach vs delivery) is logged in CHANGELOG as provisional until legs 2/3 resolve — one letter is not a recalibration.
+- RV1 retired; July packet retired; no proposal pending; cheap-tail DORMANT 2/4 never reopens on a partial.
+- VIX_OPTIONS pre-open OI is an artifact (5 comparisons skipped); do not quote C/P 3.52 as positioning.
+- L376 (FT-10 publication handling) adoption still pending at RED/PROME; VIOLET supplies bars only.
+- Git: other desks' crash residue is dirty in the tree — no pull, no stash; own paths committed; `safe-push.sh` only if fast-forward, else stop and tell PROME.
 
 ## OPEN HYPOTHESES
 
-- **H-carry:** trailing RV may understate priced risk before a known event stack. Needs the registered event-conditioned study, not a new numerical claim.
-- **H-new:** tail demand may reflect OPEX positioning as well as FOMC risk. Gamma context is now measured; OI term decomposition is still missing. F-B is not a clean causal FOMC experiment.
-- **Front-end/tail percentile divergence:** historical base rate remains unmeasured. One striking session cannot calibrate a trigger.
+- **H-approach-vs-delivery (new, from leg 4):** rates vol leads equity vol INTO a policy event and hands the lead back ON delivery. n=1; needs the FOMC-date base rate the letter admitted it never measured (§6.4) before it becomes a claim.
+- **H-carry:** trailing RV may understate priced risk before a known event stack — now with a live WATCH print into BOJ; still needs the registered event-conditioned study.
+- **H-new:** tail demand may reflect OPEX positioning as well as FOMC risk; F-B HELD does not separate them (OI term decomposition still missing).

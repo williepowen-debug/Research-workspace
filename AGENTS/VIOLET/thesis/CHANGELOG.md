@@ -10,6 +10,16 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 Removed the header's stale “CURRENT STATE: UNKNOWN / newest measurement September 3” paragraph. The owner has newer observations; the framework now points to the live surfaces without copying a sign or another dated board. No prior, threshold, base rate or frozen prediction changed. Current tape, Cboe commentary and the newer gamma board do not yet warrant promoting an n=1 front/tail hypothesis. Historical v4.1/v4.1.1 entries below remain records of their dates.
 
+## 2026-09-17 — VIO-FOMC-0916 partial resolution (prediction resolution; NO version bump — v4.1.1 stands)
+
+- **What resolved (legs 1 · 4 · 5 on the 9/16 close; record `research/2026-09-17_VIO-FOMC-0916_GRADE_part1.md`):** leg 1 **VOID** (VIX 17.20 at the 9/15 close >16 — cohort inapplicable, declared in advance); leg 4 **KILL** (MOVE 69.44→80.73 = +16.26% did not exceed VIX 14.51→17.71 = +22.05%); leg 5 **HELD with the §5 roll-date defect disclosed** (erratum 9/14). Leg 3 first read: no branch at 2/3 on 9/16 (grade 9/18). Leg 2 pending 9/23. FOMC: +25bp to 3.75–4.00%, 12–0 (verified at the Fed).
+- **Old view (letter §4 LEG 4):** rates vol leads equity vol into a policy event — "a hike scare that never reaches MOVE is not a hike scare."
+- **New view:** the approach half held (MOVE led through the 9/15 close, +20.55% vs +18.54%) and the delivery half failed (9/16: MOVE −3.56%, VIX +2.97%). The lead is a property of the approach, not of the event; a rates-led claim graded AT the event inherits the delivery day's composition. No framework change until leg 2 (9/23) and leg 3 (9/18) resolve — one letter's three legs are not a recalibration.
+- **Disclosed defect:** the letter's 8/27 VIX anchor value (14.70) was a yfinance provisional cell corrected to 14.51 by the 9/6 CBOE reconciliation; verdict invariant.
+- **Predictions touched:** `workbook/PREDICTIONS.tsv` L1 VOID · L4 KILLED · L5 HELD_WITH_DEFECT · L3 preliminary done. KB-VIO-295–298.
+- **Forward gates:** 9/18 leg 3 grade (+ BOJ, triple witching); 9/23 leg 2.
+
+---
 ## v4.1.1 — 2026-09-06 (~1h after v4.1) · **CORRECTION: the sign flipped BACK on 9/3 and I missed it — the GEX sign is an OSCILLATOR, and this file now carries no sign at all**
 
 **OLD VIEW (v4.1, one hour earlier):** *"Dealers AMPLIFY. They no longer dampen."* — asserted off HENRY's **9/2** measurement (−$16.7B/1%, flip 7,689–7,699, spot below the band), with a vintage stamp and a 9/18 falsifier.

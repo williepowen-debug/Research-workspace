@@ -1,32 +1,30 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-14 23:46 ET, September 14 close. **STATUS commit:** `same-commit`. Framework v4.1.1. Current numerical dashboard: [STATUS](STATUS.md); dated evidence: [sweep](reports/2026-09-14_sweep/README.md).
+**As of:** 2026-09-17 08:4x ET, September 16 official close (9/17 pre-open boot). **STATUS commit:** `same-commit`. Framework v4.1.1. Numerical dashboard: [STATUS](STATUS.md); grade record: [VIO-FOMC-0916 part 1](research/2026-09-17_VIO-FOMC-0916_GRADE_part1.md).
 
 ## CROSS-DOMAIN
 
-**Front-end volatility rebid; tail pricing remains elevated.** The close raises near-term event pricing while leaving cheap-tail CLOSED. Convergence remains **30/50** after re-evaluation, an ordinal summary rather than independent confirmations. The adjusted futures slope cannot be compared directly with Friday: its contract pair changed under the DTE<5 rule. Compare September/October with September/October before calling a market move.
+**The Fed hiked +25bp to 3.75–4.00% (12–0) and the vol surface did the opposite of a rates-led event on the day: MOVE −3.56%, VIX +2.97%, VVIX +0.53%, SKEW −0.45%, matched contango flat.** The frozen letter's leg 4 ("rates vol leads equity vol into the event") is **KILLED** on the registered 9/16 close — rates led through 9/15 (+20.55% vs +18.54%) and surrendered the lead on delivery. Leg 1 is **VOID** (VIX 17.20 at the 9/15 close >16 — cohort inapplicable, declared in advance). The expiring September contract carried no Fed, as pre-registered: SOQ 16.79 vs spot close 17.71. 9/17 pre-open VIX 15.70 (−11.35% TICK) is inside leg 2's window and grades only on 9/23.
 
-**HENRY / LIQUID / SAM / BRENT context:** HENRY's September 14 gamma measurement is negative at both horizons and carries a one-session shelf life. Credit observations and rates vol remain firm; oil-vol stress persists without a new ratio-based upgrade. JPY realized vol remains below its recalculated WATCH line. Concentrated AI losses do not establish a carry unwind. The Fed/BOJ/equity-expiry cluster increases overlap and complicates attribution. [Sourced news and owner reconciliation](reports/2026-09-14_sweep/news.md).
+**HENRY:** last gamma board 9/14 (negative both horizons, one-session shelf life); 9/16 gamma UNMEASURED. Packet sent: 9/18 board is context for the leg-3 grade, not a cell. **SAM:** JPY RV10 14.79% p93.2 → WATCH into BOJ 9/18; the RV-through-IV flag rests on an off-RTH FXY IV pull. **BRENT/HAWK:** OVX/VIX ratio 3.25 FIRE persists (context canary). **LIQUID:** CCC 10.85 [9/15 FRED], CCC−BB 9.24 pp, HY 2.76 — distressed tail, no broad confirmation; owner's call.
 
-**RED context:** September 11 and September 14 SKEW closes are recorded and archive-confirmed. Current use-time check: all 20 compared sessions agree within 0.005, no omission/disagreement, rc=0. VIOLET supplies dated bars; RED owns FT-10 rules, counts and grades. VIOLET returned CONCUR WITH REPAIR on L376; RED/PROME adoption pending. No FT-10 count or grade made here.
+**RED:** FT-10 bars supplied, not counted — SKEW 146.61 [9/15], 145.95 [9/16], CBOE archive-confirmed. Adversarial read owed on the 9/18 leg-3 grade: letter bytes (`ead84431…`), anchors read from the letter, and two pre-declared weak-discriminator flags (branch A's VVIX >95 sits 0.5 pt above the pre-event level; its MOVE >82 held 9/14–9/15 and was lost on the event day).
 
 ## CALIBRATION
 
-- **A current row can contain no current spot data.** An initial source-failure boot wrote a SETTLE row with all six spot cells empty; a successful retry skipped the existing date. Explicit supersession and archive verification recovered the data. This sweep records the writer defect; it does not claim a code repair.
-- **Pair identity precedes return interpretation.** The frozen letter dates the adjusted futures substitution incorrectly. A separate [erratum](research/2026-09-14_FOMC_LETTER_roll_date_erratum.md) records the error and its process-grade consequence. The original remains byte-identical; do not award a clean process grade by silently amending it.
-- **Observed prices do not establish trader attribution.** Withdraw the unconditional CPI “in line” assertion and the claim that premium demonstrably migrated between tenors. CPI actuals, consensus surprise, option prices and named-source flow evidence are different measurements.
-- **Direct source access corrected the expiry window.** Citadel's dated estimate begins with August 31 publication, not September 10. Primary access resolves the earlier provenance caveat; it does not refresh an old estimate.
+- **A frozen anchor can be wrong when frozen.** The letter's 8/27 VIX anchor value (14.70) was a yfinance provisional cell; the 9/6 CBOE reconciliation corrected it to 14.51. Graded on the publisher of record, both shown, verdict invariant — but the pin authenticated the letter, never its cells.
+- **Approach vs delivery.** A "rates leads equity" claim graded AT the event inherits the delivery day's composition. Provisional (n=1); the letter admitted it never measured an FOMC-date base rate.
+- **A process leg with a wrong specification date is HELD-with-defect, not passed.** Leg 5's matched-pair method was right; its §5 transition date was wrong (erratum 9/14). Recorded on the card, not repaired into a clean pass.
+- **F-B HELD** (realized 9.30% ann ≤ 17.84% implied over CPI+FOMC): index vol was rich, as called; it does not separate FOMC from OPEX positioning (H-new).
 
 ## CROSS-AGENT TENSIONS
 
-**L376 publication allocation remains pending at RED/PROME.** VIOLET concurs with the intent but rejects changed/unchanged bytes or row counts as a coverage witness. The [review](reports/2026-09-14_inbox/FT10-publication-review.md) supplies exact repaired handling and 13 offline specification cases. A known internal gap and an unresolved latest bar remain distinct. Owner packets are delivered; adoption is not claimed. H-new's separate missing OI decomposition remains unchanged.
-
-**Inbox and docket:** all 24 reviewed items formally consumed with original bytes preserved, 19 board receipts and zero duplicate IDs; WALTER's breadth action answered. L276's Leg 4 and rollover descriptions corrected in 666c299e4; L376 records VIOLET's returned review in 4b570a23b, preserving pending owner adoption. [Completion receipt](reports/2026-09-14_inbox/README.md).
+**None new this cycle.** L376 (FT-10 publication handling) adoption remains pending at RED/PROME; VIOLET's CONCUR WITH REPAIR stands. HENRY and RED were both DARK at `ListAgents` 9/17 08:3x — packets committed, doorbell routed via PROME (messaging rule 6b).
 
 ## FORWARD CATALYSTS
 
-Canonical calendar: [CATALYSTS](workbook/CATALYSTS.tsv). Sep 15 close sets Leg 1 applicability; Sep 16 morning VIX settlement precedes the Fed decision; Sep 18 combines BOJ and equity expiry; Sep 23 is the later frozen-leg checkpoint. Canonical prediction sources and resolve dates: [navigation index](workbook/PREDICTIONS.tsv).
+Canonical calendar: [CATALYSTS](workbook/CATALYSTS.tsv). **9/18 close: leg 3 GRADE** (+ BOJ, triple witching) · **9/23 close: leg 2** · 9/30 MU earnings (VULCAN). Prediction navigation: [PREDICTIONS](workbook/PREDICTIONS.tsv).
 
 ## VIEW
 
-Last recorded VIOLET book is flat, based on the Sep 10 mirror; no fresh broker verification or proposal. Cheap-tail remains closed and RV1 retired. F-B is incomplete and ungraded. Updated local HTML sources are available; remote copies were not redeployed. Full guard results, data limits and local-only Git disposition live in the sweep report.
+Book flat (Sep 10 mirror; no fresh broker verification). No proposal, no threshold moved, cheap-tail DORMANT 2/4, RV1 retired. Two of five letter legs are closed without a CONFIRM; the map and the lift resolve 9/18 and 9/23 — the letter's whole-map NULL is still live.

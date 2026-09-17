@@ -13,3 +13,4 @@ date	cor1m	cor3m	cor30d	vix	constituent_vol_est	cor1m_prev_close	basis	source_ts
 2026-09-06	8.6	9.53	6.91	14.53	49.5	8.6	TICK	2026-09-06T17:09:04+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
 2026-09-11	11.18	11.21	8.04	15.84	47.4	14.38	SETTLE	2026-09-11T21:45:42+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
 2026-09-14	13.1	12.03	8.66	17.1	47.2	13.1	SETTLE	2026-09-15T02:29:48+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
+2026-09-17	14.43	13.07	9.42	15.68	41.3	14.43	TICK	2026-09-17T12:28:12+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
