@@ -1,0 +1,16 @@
+# PROME/workbook/LEDGER_GLOB — declaration for scripts/ledger_staleness.py (PAT-075 mechanism).
+# Written 2026-09-17 10:1x ET (PROME, on DAEDALUS Wiring Sweep #2 W1 B-2, packet ce9dc5f90 ask 6).
+# Globs are relative to PROME/ (the agent dir), never to this file's directory.
+#
+# First draft declared `workbook/*.tsv` over an empty workbook and reasoned that the four ledgers
+# were "governed elsewhere". The script refused it on its own contract — a glob matching ZERO files
+# is MISCONFIGURED, not clean — and the script is right: an age guard on these four is cheap, true,
+# and fires on exactly one condition that matters (PROME dark for weeks with no docket/gate/orch
+# commit). Content checks (prome_gate: overdue rows, passed review_by, wq_ledger crc pair) remain the
+# PRIMARY guards; this glob adds AGE beside them, never instead of them.
+DOCKET.tsv
+GATES.tsv
+state/ORCH_LOG.tsv
+registry/WQ_LEDGER.tsv
+# RULED OUT, on purpose: registry/READS.tsv is an ATTESTATION manifest (read modes per surface),
+# consumed by scripts/read_cap_check.py. It has no vintage to rot and an age line on it would be noise.
