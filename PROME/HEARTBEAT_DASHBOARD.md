@@ -9,7 +9,7 @@ levels. Hash agreement proves synchronization, not semantic completeness.
 At a HEARTBEAT re-base, remove projections for amendments folded into the base.
 This companion keeps render metadata outside the boot-read byte budget.
 
-*Seventeenth base 2026-09-17: **chain 2 — Amendment #1 (13:1x ET, DOCKET L404 TIPS-R grade) and Amendment #2 (13:2x ET, DOCKET L271 FR2004 join + the pairing-date correction) projected below.** *(prior: chain 0 at the base)* The sixteenth base (2026-09-14) carried no amendments either (its size clock fired instead); the post-FOMC rewrite of 2026-09-17 is a BASE, not an amendment, so nothing is projected here until the first `> **AMENDMENT #1` block is appended to the seventeenth base — at which point it needs exactly one numbered projection with a `source_sha256` over its exact paragraph. Pre-re-base history: `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-17.md` (receipt `git show 71ec15585:HEARTBEAT.md`).*
+*Seventeenth base 2026-09-17: **chain 3 — Amendment #1 (13:1x ET, L404 TIPS-R grade), #2 (13:2x ET, L271 FR2004 stock leg + pairing-date correction) and #3 (13:2x ET, L271 funding leg measured) projected below.** *(prior: chain 0 at the base)* The sixteenth base (2026-09-14) carried no amendments either (its size clock fired instead); the post-FOMC rewrite of 2026-09-17 is a BASE, not an amendment, so nothing is projected here until the first `> **AMENDMENT #1` block is appended to the seventeenth base — at which point it needs exactly one numbered projection with a `source_sha256` over its exact paragraph. Pre-re-base history: `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-17.md` (receipt `git show 71ec15585:HEARTBEAT.md`).*
 
 ```dashboard-amendment
 {
@@ -40,6 +40,22 @@ This companion keeps render metadata outside the boot-read byte budget.
       "Rates": {
         "headline": "🟠 FR2004 join: the paired kill INVERTS (p=0.009); leg ② to Will, PARK rec; 9/15 fire pairs ~early Oct, not 9/18",
         "body": "BOND's WQ-157 leg ② join (88c891470, n=244 prints, 224 joined auctions): I′ standalone fires 23.2%, old conjunctive 1.8%; the best dealer-stock leg separates by only +11.8pp (p=0.137) and PAIRED fires precede LOWER yields (−5.0bp, 27% rising, n=30) while unpaired precede HIGHER (+6.5bp, 68%, n=22). BOND disclosed the direction (a looser kill confirms its thesis) and proposes nothing; SOFR−IORB leg untested, now being built. The 9/15 20Y-R I′ fire cannot be paired until the 9/16 FR2004 as-of publishes (~early October) — 9/18 was the instrument's date. Earlier: 10Y TIPS-R CLEAN on frozen bars, stop 2.653% highest since 2008-10-08, adequate not strong; I′ tool line for TIPS not the spec (10/1). Base facts stand: hike in, SEP below the curve, DFII10 2.62 [9/15], 007 0-of-5."
+      }
+    }
+  }
+}
+```
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "1eb0c080e1794ace8693be7efb63d0ee9e6d550be724266dce1a90203e71b70b",
+  "set": {
+    "one": "September 17, 13:2x: both halves of BOND's thesis-kill pairing instrument are now measured — the dealer-stock leg INVERTS (p=0.009) and the funding leg's pre-registered primary is an adequately-powered NULL (p=0.523); neither supports the pairing as constructed, BOND discloses that every result favours its own side and recommends nothing. Leg ② is Will's (WQ-157, 9/19; PROME rec PARK). The 9/15 20Y fire pairs ~early October, not 9/18. Earlier: 10Y TIPS-R reopening CLEAN (stop 2.653%, highest since Oct-2008; adequate demand on a held-rally day). Counter 0, no add, $0; STAND DOWN holds.",
+    "channels": {
+      "Rates": {
+        "headline": "🟠 Pairing instrument fully measured: stock leg INVERTS (p=0.009), funding leg NULL (p=0.523); leg ② to Will, PARK rec",
+        "body": "BOND, WQ-157 leg ②, DOCKET L271: FR2004 stock leg (88c891470, 224 joined auctions) separates I′ fires by +11.8pp (p=0.137) and PAIRED fires precede LOWER yields (−5.0bp, 27% rising) while unpaired precede HIGHER (+6.5bp, 68%); funding leg (pre-reg c563a9ff6 → 75a9af9bb): primary F2 NULL p=0.523 n=19, no separation on five legs, F4 inversion −11.0bp p=0.021 suggestive only (α=0.01 pre-committed), independent of the stock leg. BOND recommends nothing (direction disclosed). 9/15 20Y-R I′ fire pairs on the 9/16 FR2004 as-of's publication (~early Oct), never 9/18. Earlier: 10Y TIPS-R CLEAN on frozen bars, stop 2.653% highest since 2008-10-08, adequate not strong; the tool's I′ line for TIPS is not the spec (10/1). Base: hike in, SEP below the curve, DFII10 2.62 [9/15], 007 0-of-5."
       }
     }
   }
