@@ -3,18 +3,20 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Post-FOMC regime:** the Fed hiked to 3.75–4.00% on 9/16 (12–0); the tape moved in oil, not rates — Brent Nov −4% on a Saudi restart claim that is press, not a measured barrel. HEARTBEAT's 9/17 base carries the read; owner grades are at DOCKET L276 (VIOLET), L318 (BRENT), L332 (MARCO) and L404 (BOND, grade owed after the 13:00 TIPS print).
-- **Broker actions first:** two Robinhood options expired 9/16 (USO 165C, QQQ 713C) with disposition unknown to the fleet — WQ-169 fact 4. The VLO re-affirm (WQ-213) is due 9/18. No add or trade was authorized today.
-- **Decisions:** WQ-254 (nine-part correction-closure package, rec attached) and WQ-230 (war-risk leg: retire to dormant under the 8/21 WQ-41 trigger) are the two that want a word; approvals come from WILL_QUEUE only.
-- **Cost rule (your 9/17 word):** every subagent spawns on Opus; the nine desk sessions this morning ran on Fable by omission and that is recorded in memory.
+- **Kill-rule ruling (WQ-157, 9/19):** the bond desk measured both halves of its thesis-kill pairing and neither supports it — the stock leg inverts (p=0.009, but only 35–40% power for its own effect), the funding leg detected nothing (p=0.523, MDE ≈16bp at the registered α). Every result favours the desk's own thesis; it recommended nothing. PROME rec: PARK, successor test chosen at the sitting.
+- **Spawn slate held on your 09:15 cost word:** FERT · REGINALD · RED · HENRY (9/18) · SHADE (proximity) · TERRY · OSPREY. Two words per desk. Nothing spawned beside a live desk today; L404 went to the live bond session by doorbell.
+- **Hands, unchanged:** VLO re-affirm or withdraw by 9/18 (WQ-213); the Trends month (WQ-225); the two 9/16 expiries' disposition (WQ-169).
+- **Post-FOMC regime:** unchanged from the morning — hike in at 3.75–4.00%, oil down on a restart claim that is press, not a barrel; TIPS reopening CLEAN with the highest stop since Oct-2008, read as adequate not strong. HEARTBEAT is over its rotate line and re-bases at the next boot.
 - **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **TERRY** · Mon 9/14, first on the slate · **the 004 add line is THROUGH — `DFII10` 2.55 [9/10 official] vs the card's 2.50 add line, first touch ever (DOCKET L356).** Grade it on the card's own letter; ⛔ the LEVEL-vs-SUSTAINED disagreement with BOND is named, not settled. NO-ADD governs regardless.
-- **BOND** · Mon 9/14 · **`BND-22` resolves FALSE** — its own window (9/1→9/11) contains the 2.55 close of 9/10, its row still reads `Status = OPEN`, and its own `If_Falsified_Action` is pre-written (L357). ⚠️ **This desk was already queued for exactly this cell on Fri 9/11 and never booted — the queue named the right desk and the right number and had no way to fire.**
-- **MIDAS** · Mon 9/14 · VECTOR 3 (L327) — its rate leg runs on `DFII10` 2.46 [9/9] and its nowcast (~2.53) is now an observation at 2.55; its own analysis says *"the last observation ≥2.50 was 2023-10-25,"* which the 9/10 print falsifies.
-- **BRENT** · after ~15:30 ET Fri · `GATE-BRENT-COT-35B` vintage #6; ⚠️ its routine fires ~14:00 and CFTC posts ~15:30, so this grade falls to a live session every single week.
-- **WALTER** · when it next boots · RED's co-signed schema split has a 9/14 clock (L344) and the `board_log` truncation class is its spec (L351).
+- **RED** · on your word, today or 9/18 · L376/L377: the FT-10 ^SKEW grade — a sub-150 9/16 bar exists on a non-registered source, so the 2-of-4 run may reset; only RED grades on the CBOE basis; plus the 9/18 leg-3 read with VIOLET.
+- **FERT** · on your word · L310 + GATE-FERT-G5: the 9/16 DTN print lapsed ungraded (re-dated 9/23); the desk is dark since 9/15.
+- **HENRY** · 9/18 · L383: the opex gamma re-measure; every wall before 9/16 is void; VIOLET's 9/18 read rides with it.
+- **REGINALD** · on your word · L352: its board_log is invisible to WALTER's telemetry; a fix at the desk, no date pressure.
+- **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask: HY 276 vs its 280 line, dark 20 days; no dated row names it.
+- **TERRY · OSPREY** · the morning slate · L379 (STATUS at cap, structural) · L397 + GATE-OSPREY-001 review 9/19.
+- **SAM** · at the next boot after the overnight BOJ decision · L34 names SAM; a due-row spawn under the standing rule, no word needed.
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.

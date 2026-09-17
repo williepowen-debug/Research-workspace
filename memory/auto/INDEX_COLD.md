@@ -212,7 +212,7 @@
 - finding_enumerated_mechanism_test_hides_a_completeness_claim — an N-leg row silently claims a COMPLETE list [embedded→PREDICTION_DISCIPLINE]
 - feedback_register_the_call_even_when_you_expect_to_lose_it — register the call you expect to LOSE [embedded→PREDICTION_DISCIPLINE]
 - finding_overlapping_window_inflates_the_base_rate — de-cluster before base-rating *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
-- finding_broken_conjunction_leaves_its_other_legs_unrecorded — a NOT-MET conjunction leaves its legs scoreless [embedded→PREDICTION_DISCIPLINE]
+- finding_broken_conjunction_leaves_its_other_legs_unrecorded — a NOT-MET conjunction leaves its legs scoreless [embedded→PREDICTION_DISCIPLINE] [n=2 BOND 9/17 KB-BND-308: a conjunction's FALSE is cheap, its TRUE expensive — promotion flag raised by BOND, DECLINED at the 9/17 flow pass: embedded-census row, promotion-EXEMPT per Will 8/22]
 - finding_extend_the_sample_before_publishing_a_coefficient — double n first *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
 
 ## Demoted 2026-08-21 — flow pass #6 / WAVE 2 "already embedded in canon" sweep (Will-ruled "approved go ahead with wave 2"; record `PROME/proposals/2026-08-21_wave-2-already-embedded-sweep-RULED.md`). All 129 hot slugs grepped against 14 canon surfaces; 16 hits each adjudicated at citation context; 11 graduated (embed real + audience served), 3 kept hot with recorded reasons (record_of_an_action n=11 · a_ruling_governs_next_write · hygiene_commit_rearms), 2 HELD-HOT skipped by declaration. ZERO deletions; rollback = move a row back.
@@ -345,3 +345,18 @@
 - finding_artifact_republish_from_a_new_session_requires_reading_the_live_version_in_chunks — read live in ≤48 KB chunks, never `force`
 
 ## Promoted BACK to HOT — 2026-09-11 EVE (PROME, same evening as that day's demotion pass — recorded so the flow rule is visibly two-way, not a one-way drain). `finding_declared_data_wall_needs_fleet_memory_check` was demoted in the 19:0x flow pass as a predictable source-evaluation trigger. Its n+1 limb (FALCON, six identical re-pull negatives over six weeks escalated as a DATA problem when the third was already an ACCESS problem) fires mid-research on the Nth failed attempt, which is the definition of unpredictable — and it had just cost six weeks of a live pricing leg. Promotion executed, not deferred to the next pass.
+
+## Demoted 2026-09-17 — flow pass (PROME closeout; hot 19,233 B / 75.1% → under 70%; the +250 B that crossed the line were BOND's two promotion rows at `acd6a2167`, so this pass is chargeable to 2026-09-17, not drift; settled/predictable-trigger rows, hooks trimmed to ≤80 chars on the move, ZERO slugs deleted)
+- finding_a_pinned_reproduction_cannot_confirm_a_cure — replay fixtures, never the pinned script
+- finding_float_precision_empties_the_tie_set_and_voids_the_operator — exact-boundary fixture
+- finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit — freeze the fixture
+- finding_a_hash_pin_authenticates_the_reference_not_your_agreement_with_it — WHICH doc, not agreement
+- finding_measure_actionable_not_gross_rate — actionable rate, never gross
+- finding_ledger_drift_behind_narrative — STATUS canonical; ledgers rot silently (root rule)
+- finding_normalization_choice_picks_opposite_winners — the disagreement IS the finding
+- finding_silent_blank_evades_review — count blanks stratified
+- finding_spread_metric_blind_to_common_mode — component LEVELS beside any gap/ratio
+- finding_disambiguation_costs_bytes_so_a_capped_surface_cannot_absorb_every_flag — flags + cap = ONE budget
+- finding_liveness_gate_keyed_on_an_artifact_that_must_exist_first — sequence inert→pin→commit
+- finding_a_true_measurement_carried_to_an_overstated_reason — prefer the weakest reason that settles it
+- finding_a_mature_surface_at_cap_has_no_padding_relocate_before_pruning — at a cap, no fat: RELOCATE after grepping for a home [n=2]
