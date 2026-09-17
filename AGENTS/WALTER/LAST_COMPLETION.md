@@ -44,7 +44,7 @@ Carried unchanged: seasonal threshold form for #6/#8 (with Will); non-uniform in
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication: `f1382fbb5` — `safe-push.sh` receipt "Pushed. CONFIRMED: HEAD f1382fbb5 is on origin/master (fresh fetch)"; `reconcile_delivery_log.py --apply` then flipped the 22 pending rows to delivered (22/22). The follow-up commit carrying this receipt is pushed the same way; its hash lives in `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY/FALCON doorbell outcomes; FRED 9/17 print).
+Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication: `f1382fbb5` — `safe-push.sh` receipt "Pushed. CONFIRMED: HEAD f1382fbb5 is on origin/master (fresh fetch)"; `reconcile_delivery_log.py --apply` then flipped the 22 pending rows to delivered (22/22); the news-sweep commit `8df955c31` added 12 more, reconciled to 34/34. The follow-up commit carrying this receipt is pushed the same way; its hash lives in `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY/FALCON doorbell outcomes; FRED 9/17 print).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
@@ -54,12 +54,16 @@ Dated evidence snapshot, not a live publication promise. Checked scope: this ses
     {
       "commit": "f1382fbb5",
       "state": "published"
+    },
+    {
+      "commit": "8df955c31",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20260917",
-    "total": 22,
-    "delivered": 22
+    "total": 34,
+    "delivered": 34
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
