@@ -31,3 +31,13 @@ A **$160B+ 2026 multifamily maturity wall** sat on two desks' rails for four mon
 
 **What it adds to the rule:** reading the grant is necessary and not sufficient. **A grant that names a lane without naming its trigger will be under-exercised at every input that is not obviously inside the lane** — and "obviously" is exactly what a conservative reader never grants itself. When you find yourself asking permission for something, check two documents, not one: the grant, AND whether any sentence says *this input* is inside it. If none does, the defect is in the canon (write the trigger), not in your caution — and asking again next week is the wrong fix.
 
+
+## BOND, 2026-09-17 — read the LETTER's SCOPE CLAUSE before counting arrears
+
+Same class, arrived at from the obligations side rather than the authority side.
+
+A per-op deliverable to another desk had been docketed **once**, and a RESOLVED row cannot drive the next occurrence, so the recurring duty had no carrier. The coordinator correctly registered the class defect (*"do not date a class"*). **But the first question at the wake was not "how many reads do I owe?" — it was "which of the events that ran are inside the letter AT ALL?"**
+
+Two operations had run since the last read and **neither was in scope**: the governing letter's step-up covered two named sectors only, and both events fell outside them. **Arrears were ZERO and the gap was purely structural.** A desk that had counted "events since the last read" would have reported two missed obligations and routed two packets the recipient could not use.
+
+**⇒ (a) READ THE SCOPE CLAUSE BEFORE THE ARREARS COUNT — a count keyed on the wrong population is confidently wrong in BOTH directions.** **(b) Key a recurring carrier to the ISSUER'S schedule, not to the feed:** the feed only shows events announced ~2 days ahead, so a carrier keyed on it cannot see the CLASS, only its next instance.
