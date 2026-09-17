@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-16, PROME closeout assessment complete. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-16, crash recovery. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest task — crash recovery complete:** Will authorized preservation and Git recovery before agent restarts. [Recovery report](runs/2026-09-16_2149_crash-recovery.md). All 23 empty Git objects were reconstructed to their exact original hashes, including HEAD `5b7b3fde4` (OSPREY); two zero-filled reflog tails were repaired with labeled reconstruction entries. Full backup: `/home/willi/research-recovery/20260917T011757Z/`. All surviving working files and original index/refs were preserved. HAWK, BRENT and CARL still have unfinished work, including six staged records and 12 untracked files across owners; do not pull or sweep them. OSPREY's original commit is recovered, not newly authored by CATO. Full candidate and live Git integrity checks passed. Exact-path report commit/push receipt is delivered in-session. No agents restarted or new research assigned. Next CATO session: orient and await Will; owners may be resumed individually by Will for reconciliation using the report.
 
 **Latest task:** [PROME closeout assessment](runs/2026-09-16_1436_prome-closeout-assessment.md). Reviewed the reported Bounce/Standard gap; supplied a concrete Standard pass and bounded clarification proposal. Reproduced docket false negatives for NOT COVERED and annotated PENDING. Overnight repair `fa7bfe77d` now passes 17 tests and resolves the prior date-boundary finding. No PROME changes or operational closeout performed. ARGUS's named Opus trial is not silently substitutable with CATO/Astra, and CATO cannot independently certify its own earlier changes. No rewrite, send or new repair task assigned. Next: orient and await Will; a requested final-candidate review must begin with frozen scope and authorship.
 
