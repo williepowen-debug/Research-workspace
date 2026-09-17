@@ -85,6 +85,8 @@ DEAD_BANNER = re.compile(
     r"(?:^[\s>#*_\-—⛔🔴🟠⚠️✅\[\('\"]*(?:FROZEN|SUPERSEDED|RETIRED|ARCHIVED(?: SNAPSHOT)?|DEPRECATED)\b"
     r"|\b(?:FROZEN|SUPERSEDED|RETIRED|ARCHIVED(?: SNAPSHOT)?|DEPRECATED)\s+20\d{2}-\d{2}-\d{2})",
     re.M)
+STALE_VINTAGE_BANNER = re.compile(
+    r"(?:^[\s>#*_\-—⛔🔴🟠⚠️\[\('\"]*STALE-VINTAGE\b|\bSTALE-VINTAGE\s+[—–-]\s*v\d|\bSTALE-VINTAGE\s+20\d{2}-\d{2}-\d{2})", re.M | re.I)
 ISO = re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
 US = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
 VERSION = re.compile(r"\bv(\d+)\.(\d+)\b", re.I)
@@ -107,7 +109,14 @@ def read(p, limit=None):
             lines = f.readlines()
         if limit:
             i = 0
-            while i < len(lines) and (not lines[i].strip() or lines[i].lstrip().startswith("#")):
+            # 2026-09-17 (falsification run #3, self-inclusion): the preamble skip treated a MARKDOWN
+            # H1 as a TSV comment line and dropped it — REGINALD's `thesis/THESIS.md` carries its
+            # retirement ON the title line ("… · ⛔ RETIRED 2026-08-13"), so the banner detector never
+            # saw it and the stub's v1.4 graded as the LIVE version (the exact class the docstring
+            # of live_thesis() warns about). For .md files a '#' line is content; skip only blanks.
+            is_md = str(p).lower().endswith((".md", ".markdown"))
+            while i < len(lines) and (not lines[i].strip() or
+                                      (not is_md and lines[i].lstrip().startswith("#"))):
                 i += 1
             return "".join(lines[i:i + limit])
         return "".join(lines)
@@ -181,7 +190,12 @@ def live_thesis(agent_dir):
         head = read(p, HEADER_LINES)
         m = VERSION_FIELD.search(head) or VERSION.search(head)
         ver = (int(m.group(1)), int(m.group(2))) if m else None
-        bannered = bool(DEAD_BANNER.search(head)) or "STALE-VINTAGE" in head.upper()
+        # 2026-09-17 (P2 reader D-1): the bare substring test matched the PROSE phrase "two
+        # stale-vintage recirculation traps" at CARL THESIS.md:2 and classified a LIVE v2.6.6 thesis
+        # as dead-bannered (ver forced None, reassuring bucket line printed over it) — the
+        # marker-word-in-prose class, the same defect DEAD_BANNER was cured of on 8/17. Banner FORM
+        # only: line-anchored token, or token followed by a version/date stamp.
+        bannered = bool(DEAD_BANNER.search(head)) or bool(STALE_VINTAGE_BANNER.search(head))
         if bannered:
             ver = None          # never grade a child against a retired parent version
         return ver, newest(head), p, bannered
