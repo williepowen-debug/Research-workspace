@@ -4,7 +4,7 @@ Session: 2026-09-17 Thu evening (18:35 → ~19:3x ET), Claude Fable 5.1 as WALTE
 
 ## STATUS
 
-Boot COMPLETE: 0 → 0.5 → 1–6c → 7–7d → 7g → 7e → 7f → 8–9b all run. Doctor 0 HIGH / 12 MED at boot (intake lane STALE on disk → live after the 7e(a) pull; 8 registry-lag rows refreshed; 3 drop-zone images processed; 90 unconsumed >2d carried). READ-CAP 0 within 19 measured declared reads — heuristic perimeter; `reads_check` 23 declared paths, basis MATCH. Six dispatches `SIG-W-20260917-001…006`, 22 handoffs, 2 kills; BOARD **988**. Iran anchor FULL sweep DONE. Both DAEDALUS PR#6 asks executed. Inbox 6 → 0. Batch `BM-20260917-01` CLOSED 3/3. Intake `--mark` run (+2 new, −3 cleared).
+Boot COMPLETE: 0 → 0.5 → 1–6c → 7–7d → 7g → 7e → 7f → 8–9b all run. Doctor 0 HIGH / 12 MED at boot (intake lane STALE on disk → live after the 7e(a) pull; 8 registry-lag rows refreshed; 3 drop-zone images processed; 90 unconsumed >2d carried). READ-CAP 0 within 19 measured declared reads — heuristic perimeter; `reads_check` 23 declared paths, basis MATCH. Six dispatches `SIG-W-20260917-001…006`, 22 handoffs, 2 kills; BOARD **988** — then **Will's 23:05Z news sweep: `-007` (Sohar STS → BRENT+FALCON), `-008` (Section-301 delay + Bessent–He → ZHAO), `-009` (Boston Fed BDC → BROCK), 12 handoffs, 2 kills, BOARD 991**; record `research/2026-09-17_news-sweep.md`. Iran anchor FULL sweep DONE. Both DAEDALUS PR#6 asks executed. Inbox 6 → 0. Batch `BM-20260917-01` CLOSED 3/3. Intake `--mark` run (+2 new, −3 cleared).
 
 ## CHANGED
 

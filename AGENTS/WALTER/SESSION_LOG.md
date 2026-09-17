@@ -1,3 +1,5 @@
+## 2026-09-17 ~23:05–23:3xZ — Will-requested NEWS SWEEP (light-closeout addendum; Tier-2 already done). BOARD 988 → 991: `-007` Sohar STS (BRENT+FALCON; "hand-off not a route") · `-008` Section-301 delay + Bessent–He (ZHAO) · `-009` Boston Fed BDC PIK basis (BROCK). 12 handoffs, 2 kills, `BM-20260917-02` 7/7 CLOSED, 4 DOORBELL rows (FALCON folded into the -001 doorbell). Record `research/2026-09-17_news-sweep.md`.
+
 ## 2026-09-17 (Thu evening) — Full WALTER, Tier-2. Boot on Will's Telegram "please boot up" (18:35 ET); 6 dispatches; Iran FULL sweep; both DAEDALUS PR#6 asks executed.
 
 - **BOARD 982 → 988** (`SIG-W-20260917-001…006`): Kpler/Yanbu + FM-not-declared (FALCON+BRENT) · RED-FT-10 run BROKE 9/15 (RED) · HY 270 lane watch (ROUTINE info) · FOMC 9/16 +25 bp board record (HENRY; a day late — no 9/16 WALTER session) · BoE held + APF sales paused (HANS+BOND) · no RU/UA energy truce (OSPREY). **22 handoffs, 2 kills** (EGBN 8-K/A committee amendment; WPSR w/e 9/11 owner-already-at-primary). Drop-zone batch `BM-20260917-01` 3/3 CLOSED (FOLD / NOTE / DISPATCH).

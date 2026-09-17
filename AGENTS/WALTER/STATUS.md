@@ -1,10 +1,10 @@
 # WALTER STATUS
 
-**Updated 2026-09-17 ~23:2xZ (Thu evening, Full WALTER, Tier-2 closeout; Claude Fable 5.1 session `walter-37`).** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-09-17 ~23:3xZ (Thu evening, Full WALTER, Tier-2 closeout + post-closeout news sweep; Claude Fable 5.1 session `walter-37`).** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
 
 ## BOTTOM LINE
 
-Boot COMPLETE 9/17 (doctor 0 HIGH / 12 MED, all handled or carried). **Iran full primary sweep DONE** (owed 9/17): Petroline day 7 shut; **"force majeure" is NOT declared** — guard ADD#25; marks B3/C22/D75 untouched (FALCON). **Six dispatches `SIG-W-20260917-001…006`, two kills, 22 handoffs; BOARD 988.** No registered trigger fired; **RED-FT-10 run BROKE 9/15** (SKEW 146.61) → 0-of-4; **HY 270 [FRED 9/16]** = near-trigger WATCH on RED-FT-12. Fed **hiked 25 bp 9/16** (primary; board record posted a day late — WALTER had no 9/16 session); BoE **held 3.75% + paused APF gilt sales 9/17** (primary). **PROME doorbelled for FALCON (FAL-05 window 9/17–18) and HENRY (9/18 opex).** Both DAEDALUS PR#6 asks executed. Obligations and receipt: LAST_COMPLETION.md.
+Boot COMPLETE 9/17 (doctor 0 HIGH / 12 MED, all handled or carried). **Iran full primary sweep DONE** (owed 9/17): Petroline day 7 shut; **"force majeure" is NOT declared** — guard ADD#25; marks B3/C22/D75 untouched (FALCON). **Nine dispatches `SIG-W-20260917-001…009` (six at boot + three from Will's 23:05Z news sweep: Sohar STS → BRENT+FALCON · Section-301 delay/Bessent–He → ZHAO · Boston Fed BDC → BROCK), four kills, 34 handoffs; BOARD 991.** No registered trigger fired; **RED-FT-10 run BROKE 9/15** (SKEW 146.61) → 0-of-4; **HY 270 [FRED 9/16]** = near-trigger WATCH on RED-FT-12. Fed **hiked 25 bp 9/16** (primary; board record posted a day late — WALTER had no 9/16 session); BoE **held 3.75% + paused APF gilt sales 9/17** (primary). **PROME doorbelled for FALCON (FAL-05 window 9/17–18) and HENRY (9/18 opex).** Both DAEDALUS PR#6 asks executed. Obligations and receipt: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS — boot 6c scan 2026-09-17 ~22:4xZ (FRED is T+1; intraday ≠ settlement; owner registries govern every state)
 
