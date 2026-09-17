@@ -255,6 +255,22 @@ def show_bars(b, label):
         alt = (f"  (reopening-only alt {b['ind_p15_reopen_only']:.2f}, n={b['n_reopen']}; POOLED governs)"
                if b.get("ind_p15_reopen_only") is not None else "")
         print(f"    ⇒ I' (MATRIX_V2, 8/27)     : indirect < {b['ind_p15']:.2f}%  [P15 linear over the same window, STRICT]{alt}")
+        # ⚠️ ADDED 2026-09-17 (KB-BND-304). This block printed an I' bar for TIPS while
+        # the VERDICT block below suppresses the I' line for TIPS — the tool said two
+        # different things about the same auction. On the 9/17 10Y TIPS-R the two
+        # ANSWERS DIVERGED FOR THE FIRST TIME (ind 59.12 vs a printed bar of 61.44:
+        # the bar would have fired, the spec says TIPS has no I'). Until that print,
+        # "TIPS has no I'" and "the I' didn't fire" returned the same answer, so the
+        # inconsistency was INVISIBLE. The BEHAVIOUR is deliberately NOT changed here:
+        # whether I' extends to TIPS is a SPEC question reserved for the 10/1 refresh
+        # (and an I' fire confirms this desk's own bear thesis, so it must not be
+        # settled on a session that would pay us). What IS fixed is the TRAP — a future
+        # grader can no longer read this line as live for a TIPS print.
+        if b.get("tips"):
+            print("       ⛔ INFORMATIONAL ONLY — THIS BAR DOES NOT FIRE FOR TIPS.")
+            print("          BOND's registered spec excludes TIPS from I' (pre-print, 3 surfaces).")
+            print("          Whether I' should extend to TIPS is DOCKETED for the 10/1 refresh.")
+            print("          Do NOT grade a TIPS print on this line. KB-BND-304.")
     elif b.get("ind_p15_error") and not b.get("tips"):
         print(f"    ⛔ I' (MATRIX_V2, 8/27) NOT COMPUTED — {b['ind_p15_error']}")
         print(f"       THIS IS NOT A PASS. I' is the GOVERNING composition test; the OLD")
@@ -268,11 +284,123 @@ def show_bars(b, label):
     return
 
 
+
+def _fx(date, term, ind, dlr=10.0, btc=2.5, tips=False, reopening=False, cusip=None):
+    """Fixture row in the shape load() returns."""
+    return {"date": date, "cusip": cusip or f"FX{date}{term}", "term": term,
+            "secterm": term, "tips": tips, "reopening": reopening, "btc": btc,
+            "hy": None, "offering": 0.0, "comp": 1000.0,
+            "ind": ind, "dir": 100.0 - ind - dlr, "dlr": dlr, "src": "fixture"}
+
+
+def selftest() -> int:
+    """Guards for REAL defects this desk shipped. Built 2026-09-17: this grader
+    had NO selftest at all while being the instrument that grades every auction,
+    and its 2026-09-15 numpy failure degraded SILENTLY in the FALSE-NEGATIVE
+    direction on the GOVERNING kill leg. The patch worked; nothing guarded it."""
+    ok, bad = 0, []
+    def chk(name, cond):
+        nonlocal ok
+        if cond: ok += 1
+        else: bad.append(name)
+
+    # ---- 1. bench(): window discipline -------------------------------------
+    recs = [_fx(f"2025-{m:02d}-10", "10-Year", 60.0 + m) for m in range(1, 13)]
+    recs += [_fx("2025-06-11", "30-Year", 99.0), _fx("2025-06-12", "10-Year", 5.0, tips=True)]
+    target = "2026-01-15"
+    recs.append(_fx(target, "10-Year", 50.0))
+    b = bench(recs, "10-Year", False, target, 12)
+    chk("bench returns a benchmark", b is not None)
+    chk("bench n==12", b and b["n"] == 12)
+    chk("bench EXCLUDES other tenors (30Y 99.0 absent)", b and b["ind"]["max"] < 99.0)
+    chk("bench EXCLUDES TIPS of the same tenor", b and b["ind"]["min"] > 5.0)
+    chk("bench is STRICTLY PRIOR (target's own 50.0 absent)", b and b["ind"]["min"] > 50.0)
+    b2 = bench(recs, "10-Year", False, "2025-01-01", 12)
+    chk("no history ⇒ bench returns None", b2 is None)
+
+    # ---- 2. I' bar: the GOVERNING test -------------------------------------
+    # 12 values 61..72 ⇒ P15 linear = 61 + 0.15*11 = 62.65
+    chk("I' P15 linear computed", b is not None and b.get("ind_p15") is not None)
+    chk("I' P15 value is linear-interpolated, not a min",
+        b and abs(b["ind_p15"] - 62.65) < 1e-6)
+    chk("I' bar is ABOVE the trailing min (looser than OLD test)",
+        b and b["ind_p15"] > b["ind"]["min"])
+
+    # ---- 3. STRICT boundary: a print EXACTLY ON the bar does NOT fire -------
+    # RED's registered positive-boundary fixture, in code.
+    chk("STRICT: ind == bar does NOT fire", not (b["ind_p15"] < b["ind_p15"]))
+    chk("STRICT: ind just below bar DOES fire", (b["ind_p15"] - 1e-9) < b["ind_p15"])
+
+    # ---- 4. the 2026-09-15 SILENT-DEGRADATION defect -----------------------
+    # When the P15 cannot be computed, bench must RECORD the error, never return a
+    # benchmark that merely LOOKS complete. Before 2026-09-15 the handler swallowed
+    # it and the tool printed a confident verdict on the OLD test alone.
+    import builtins
+    real_import = builtins.__import__
+    def no_numpy(name, *a, **k):
+        if name == "numpy":
+            raise ImportError("No module named 'numpy'")
+        return real_import(name, *a, **k)
+    builtins.__import__ = no_numpy
+    try:
+        bnp = bench(recs, "10-Year", False, target, 12)
+    finally:
+        builtins.__import__ = real_import
+    chk("numpy absent ⇒ ind_p15 is None", bnp is not None and bnp.get("ind_p15") is None)
+    chk("numpy absent ⇒ ind_p15_error is RECORDED (not silent)",
+        bnp is not None and bnp.get("ind_p15_error"))
+    chk("numpy absent ⇒ the OLD-test bars still computed (degrade is visible, not total)",
+        bnp is not None and bnp["ind"]["min"] is not None)
+
+    # ---- 5. reopening-only alt ---------------------------------------------
+    ro = [_fx(f"2025-{m:02d}-20", "20-Year", 55.0 + m, reopening=True) for m in range(1, 13)]
+    ro.append(_fx("2026-02-20", "20-Year", 40.0, reopening=True))
+    b3 = bench(ro, "20-Year", False, "2026-02-20", 12)
+    chk("reopening-only alt computed when n>=MIN_N_FOR_GATE",
+        b3 and b3.get("ind_p15_reopen_only") is not None)
+    chk("reopening count recorded", b3 and b3.get("n_reopen") == 12)
+    few = [_fx(f"2025-{m:02d}-20", "7-Year", 55.0 + m) for m in range(1, 13)]
+    few += [_fx("2025-12-21", "7-Year", 55.0, reopening=True)]
+    b4 = bench(few, "7-Year", False, "2026-03-01", 12)
+    chk("reopening alt SUPPRESSED below MIN_N_FOR_GATE",
+        b4 and b4.get("ind_p15_reopen_only") is None)
+
+    # ---- 6. TIPS/nominal separation (the 5/21 mis-specified add-gate) ------
+    mixed = [_fx(f"2025-{m:02d}-15", "10-Year", 70.0, tips=True) for m in range(1, 13)]
+    mixed += [_fx(f"2024-{m:02d}-15", "10-Year", 30.0) for m in range(1, 13)]
+    bt = bench(mixed, "10-Year", True, "2026-01-01", 12)
+    chk("TIPS benchmark uses ONLY TIPS", bt and abs(bt["ind"]["median"] - 70.0) < 1e-9)
+    bn = bench(mixed, "10-Year", False, "2026-01-01", 12)
+    chk("nominal benchmark uses ONLY nominals", bn and abs(bn["ind"]["median"] - 30.0) < 1e-9)
+    chk("benchmark carries its tips flag for the caller", bt and bt.get("tips") is True)
+
+    # ---- 7. FRN exclusion is a REAL list, not an empty set ------------------
+    # 43 FRN rows set every 2Y bar published 8/27 because they were identical on
+    # every field the tool keyed on except floatingRate.
+    try:
+        frn = frn_cusips()
+        chk("FRN exclusion list is non-empty (raise-on-missing works)", len(frn) > 0)
+    except Exception as e:
+        bad.append(f"FRN list raised: {type(e).__name__}")
+
+    print(f"[grade --selftest] {ok} passed, {len(bad)} failed")
+    for x in bad:
+        print("   FAIL:", x)
+    if not bad:
+        print("   Scope: bench() window discipline, the I' P15 bar, the STRICT boundary,")
+        print("   the 2026-09-15 silent-degradation path, the reopening alt, TIPS/nominal")
+        print("   separation and the FRN list. It does NOT test the network fetch or main().")
+    return 0 if not bad else 1
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cusip"); ap.add_argument("--date")
     ap.add_argument("--n", type=int, default=12)
+    ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
+    if a.selftest:
+        return selftest()
     if not (a.cusip or a.date):
         ap.error("need --cusip or --date")
 
