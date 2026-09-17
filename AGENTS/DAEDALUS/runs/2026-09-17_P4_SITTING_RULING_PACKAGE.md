@@ -18,7 +18,7 @@
 | **D6** | Intake A4 — VERIFIED closed by practice: register 6 → 18 rows 9/5 → 9/15; all three bypassed pilot cases registered retroactively (rows, no retro receipts) | **RATIFY, no new rule** — one pointer line in WALTER's spec to `CORRECTION_FORM.md` | WALTER |
 | **D7** | Build the `--closure <id>` mode for the legs the walk shows are mechanizable (1·3·6 + shells for 2·4·5; ceiling `RECEIPTED-WITH-POINTER`; rc 0/1/2; Codex's 12 fixtures + A3 + WQ-185 (b)/(c)) | **APPROVE, sequenced AFTER D3+D4** (the fixtures depend on both) | Will |
 | **D8** | WQ-185 (b) FILING ≠ APPLICATION and (c) CORRECTED PREMISE INVALIDATES DEPENDENTS as deterministic checks with passing controls (§6) | **ADOPT as legs 4b and 2/5's instrument** — (c) IS `consumer_check.py`, reuse not build | Will (rode WQ-185) |
-| **D9** | Pilot verdict (Codex §6 success test, A11 metric): 2 of 3 pilot corrections reach an evidence-backed terminal state; the third (ES-02) is one `scope=` token short | **PASS-on-shape; close the pilot, no standing obligation** | Will |
+| **D9** | Pilot verdict (Codex §6 success test, A11 metric): 2 of 3 pilot corrections reach an evidence-backed terminal state; the third (ES-02) is one `scope=` token short | **Literal criterion NOT MET (2 of 3) — the rec is a WAIVER ASK: close the pilot on shape only with Will's explicit waiver, else the third case (ES-02, one `scope=` token) completes first** *(re-worded 2026-09-17 ~11:0x per CATO `ae94401ad` — the original cell read "PASS-on-shape", which changed the acceptance criterion)* | Will |
 
 **Decline is a legitimate outcome for any row** (record §4). No gate on retractions; no new ledger/dashboard/agent/forum/cadence (Codex §7 stands).
 
@@ -149,7 +149,7 @@ VERIFIED: the register went 6 → 18 rows between 9/5 and 9/15; `-0905-01` (PROM
 | STUE/ES-02 `-0905-02` | 9/5 | PROME `NO-OP`, prose note, no `scope=` | 0 | no | not written (a real test exists — KB-CARL-426) | **NO — one token short** (D3 (a) makes it YES) |
 | HANS/Qatar `-0908-04` | 9/5 (HANS) · 9/8 (HAWK) | HAWK 9/8 `APPLIED`+ptr | 0 live; KB-299 preserved-superseded | no | not written | **YES** |
 
-**Verdict: PASS on shape, 2 of 3** — no new ledger, no dashboard, no thread; the third fails on syntax the fleet did not yet have. Discovery→closure (A11): CVNA <1d · ES-02 <1d · HANS 3d (9/5 → 9/8, dark-consumer bound). No standing obligation; this table is the pilot's record.
+**Verdict under the literal criterion: NOT MET — 2 of 3.** Codex §6 requires ALL THREE to reach an evidence-backed terminal state; ES-02 has not. What the 2 of 3 DO establish is the SHAPE claim — no new ledger, no dashboard, no thread — and the third fails on syntax the fleet did not yet have. **Rec = a waiver ask, not a verdict:** Will may close the pilot on shape by explicit waiver; absent that word, ES-02 completes first (D3 (a) makes it one edit) and the pilot is then graded PASS on the criterion as written. *(Re-worded 2026-09-17 ~11:0x after CATO's review; the earlier line "PASS on shape, 2 of 3" relaxed the test.)* Discovery→closure (A11): CVNA <1d · ES-02 <1d · HANS 3d (9/5 → 9/8, dark-consumer bound). No standing obligation; this table is the pilot's record.
 
 ---
 
