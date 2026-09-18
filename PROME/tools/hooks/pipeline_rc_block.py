@@ -20,6 +20,19 @@ v3 (2026-09-18, after the SECOND independent cold read `wq244cold2`, 4 ❌ on th
  ❌10 `PIPESTATUS`/`pipefail` mentioned ANYWHERE (a comment, an unrelated string) disables both recognisers via the
     recogniser's own `ALREADY_SAFE` allowlist — DAEDALUS's file, declared here as the recogniser's perimeter and
     packeted to DAEDALUS, not re-implemented by this wrapper.
+v6 (2026-09-18, after the FIFTH independent cold read `wq244cold5`, 5 ❌ on this wrapper — the LAST pass today; the
+   convergence question is WQ-263, Will's):
+ ❌4 `cat > note.md <<'EOF' … <the anti-pattern> … EOF` BLOCKED — the wrapper had no heredoc handling (FALSE POSITIVE,
+    the third spelling of "writing the warning is blocked"). Now: heredoc bodies (terminator must exist) are dropped
+    before scanning.
+ ❌5 `ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $?` BLOCKED — brace EXPANSION read as a brace GROUP by
+    the v5 boundary (FALSE POSITIVE, created by the v5 fix). Now: `{` bounds a segment only when followed by
+    whitespace, and only a bare `{` token is stripped from a head.
+ ❌9 `command python3 <gate> | tail; echo $?` slipped through — v5 stopped walking `command` to kill r4 ❌6 (silent
+    bypass). Now: `command` is walked past unless its next token is a lookup flag (`-v`/`-V`/`-p`).
+ ❌10 `gate |& tail -1; echo $?` — `|&` (bash's `2>&1 |`) is unseen by DAEDALUS's recogniser: its perimeter, declared,
+    packeted.
+ ❌13 a stale comment still listed `command` among walked prefixes — corrected.
 v5 (2026-09-18, after the FOURTH independent cold read `wq244cold4`, 4 ❌ on this wrapper — each a drill below):
  ❌3 `… | tail -3 || echo $?`: the immediate-segment test found the last `|` inside `||` and counted zero separators
     (silent bypass). Now: the pipeline's last SINGLE pipe is located and the separator set is counted properly.
@@ -81,18 +94,51 @@ def _blank_quoted_pipes(cmd):
     return _QUOTED.sub(lambda m: re.sub(r"[|;&\n]", " ", m.group(0)), cmd)
 
 
+_BRACE_GROUP = re.compile(r"\{(?=\s)")      # a brace GROUP opens `{ `; a brace EXPANSION `{a,b}` does not (r5 ❌5)
+_HEREDOC = re.compile(r"<<-?\s*(['\"]?)(\w+)\1")
+
+
+def _last_brace_group(text, before):
+    pos = -1
+    for mm in _BRACE_GROUP.finditer(text, 0, before):
+        pos = mm.start()
+    return pos
+
+
+def _drop_heredocs(cmd):
+    """Drop heredoc BODIES (terminator must exist, bash-exact) so prose is never scanned as a pipeline (r5 ❌4)."""
+    out, lines, i = [], cmd.split("\n"), 0
+    while i < len(lines):
+        ln = lines[i]; out.append(ln)
+        m = _HEREDOC.search(ln)
+        if m:
+            dash, term = ln[m.start():m.start() + 3] == "<<-", m.group(2)
+            end = next((j for j in range(i + 1, len(lines)) if (lines[j].lstrip("\t") if dash else lines[j]) == term), None)
+            if end is not None:
+                i = end
+        i += 1
+    return "\n".join(out)
+
+
 def _gate_in_command_position(text, m):
     """m = the recogniser's PIPE_THEN_RC match. True when the gate token is the command word of its own segment
     (the text from the previous ; & | ( or newline up to the gate), or the first non-flag argument of an interpreter."""
     start = m.start("gate")
-    seg_start = max([text.rfind(ch, 0, start) for ch in (";", "\n", "(", "{", "|", "&")] + [-1]) + 1
+    seg_start = max([text.rfind(ch, 0, start) for ch in (";", "\n", "(", "|", "&")] + [_last_brace_group(text, start)] + [-1]) + 1
     toks = text[seg_start:m.end("gate")].split()
     # walk past env assignments and PREFIX commands with their arguments (r3 ❌5): `time`, `env VAR=1`, `nice -n 5`,
-    # `sudo -u x`, `timeout 30`, `nohup`, `stdbuf -oL`, `command`, `exec` — then judge the command word.
+    # `sudo -u x`, `timeout 30`, `nohup`, `stdbuf -oL`, `exec`, and `command X` (but never `command -v X`, a lookup —
+    # r4 ❌6 / r5 ❌9) — then judge the command word.
     while toks:
-        t = toks[0].lstrip("({")
+        t = toks[0][1:] if toks[0].startswith("(") else toks[0]
+        if t == "{":
+            toks.pop(0); continue
         if _ENV_ASSIGN.match(t):
             toks.pop(0); continue
+        if os.path.basename(t) == "command":
+            if len(toks) > 1 and toks[1].startswith(("-v", "-V", "-p")):
+                break                                 # a lookup, not a run (r4 ❌6)
+            toks.pop(0); continue                     # `command X` runs X (r5 ❌9)
         if os.path.basename(t) in _PREFIX:
             toks.pop(0)
             while toks and (toks[0].startswith("-") or _ENV_ASSIGN.match(toks[0]) or toks[0].isdigit()):
@@ -101,7 +147,7 @@ def _gate_in_command_position(text, m):
         break
     if not toks:
         return False
-    head = toks[0].lstrip("({")
+    head = toks[0][1:] if toks[0].startswith("(") else toks[0]
     gate = m.group("gate")
     cands = [head]
     if head in _INTERP or os.path.basename(head) in _INTERP:
@@ -134,7 +180,7 @@ def _read_is_immediate(m):
 def verdict(cmd, guard_path=_GUARD):
     """(hit, message, suppressed_reason)."""
     mod = _load(guard_path)
-    text = _blank_quoted_pipes(_lift(cmd))
+    text = _blank_quoted_pipes(_lift(_drop_heredocs(cmd)))
     hit, msg = mod.diagnose(text)
     if not hit:
         raw_hit, _ = mod.diagnose(cmd)
@@ -147,7 +193,7 @@ def verdict(cmd, guard_path=_GUARD):
     reasons = []
     for m in matches:                              # r3 ❌6: every match, not the first
         if not _gate_in_command_position(text, m):
-            seg = text[max(text.rfind(c, 0, m.start("gate")) for c in (";", "\n", "(", "{", "|", "&")) + 1:m.start("gate")].split()
+            seg = text[max([text.rfind(c, 0, m.start("gate")) for c in (";", "\n", "(", "|", "&")] + [_last_brace_group(text, m.start("gate"))]) + 1:m.start("gate")].split()
             reasons.append(f"`{m.group('gate')}` is an ARGUMENT of `{seg[0] if seg else '?'}`, not the command run")
             continue
         if not _read_is_immediate(m):
@@ -191,7 +237,7 @@ def _handle(data, guard_path=_GUARD):
     return 0
 
 
-EXPECTED_DRILLS = 32
+EXPECTED_DRILLS = 36
 
 
 def selftest():
@@ -240,6 +286,11 @@ def selftest():
     drill("r4 ❌5: time { gate | tail -1; }; echo $? -> 2", 2, bash('time { python3 scripts/validate_all.py 2>&1 | tail -1; }; echo $?'))
     drill("r4 ❌5: bare { gate | tail -1; }; echo $? -> 2", 2, bash('{ python3 scripts/validate_all.py 2>&1 | tail -1; }; echo $?'))
     drill("r4 ❌6: command -v pytest | head -1; echo $? -> 0 (a lookup, not a run)", 0, bash('command -v pytest | head -1; echo $?'))
+    # r5 ❌4 / ❌5 / ❌9 / ❌10 VERBATIM
+    drill("r5 ❌4: the anti-pattern inside a heredoc BODY (writing a note) -> 0", 0, bash("cat > note.md <<'EOF'\npython3 scripts/validate_all.py 2>&1 | tail -1; echo $?\nEOF"))
+    drill("r5 ❌5: ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $? — brace EXPANSION -> 0", 0, bash('ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $?'))
+    drill("r5 ❌9: command python3 <gate> | tail; echo $? — `command X` runs X -> 2", 2, bash('command python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
+    drill("r5 ❌10 PERIMETER (DAEDALUS recogniser): gate |& tail; echo $? -> 0 today, declared", 0, bash('python3 scripts/validate_all.py |& tail -1; echo $?'))
     # --explain honesty (⚠️17): a suppressed raw hit is REPORTED
     _, _, why = verdict('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?')
     ok = why.startswith("raw hit suppressed"); print(f"  {'✓' if ok else '✗'} verdict() names a suppressed raw hit ({why[:60]!r})")
