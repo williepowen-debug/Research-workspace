@@ -6,6 +6,22 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## September 17, 2026 (post-close) — thesis-currency advisory RESOLVED BY READING; no version bump (v4.1.1 stands)
+
+**Why this entry exists:** `closeout_guard.py` / `thesis_bump_check.py` has been printing 🔴 *"thesis 4.1 (2026-09-06) — 30 KB row(s) since: 2 retraction(s), 13 resolved, 15 active — over review threshold"* at every boot and closeout since the counter crossed its line. **The counter cannot see a semantic contradiction; it can only tell you when to look.** It was looked at this session, and the result is recorded here so the advisory is answered rather than re-warned indefinitely.
+
+**What was read:** all 54 KB rows dated ≥ 2026-09-06, of which 15 ACTIVE and 2 RETRACTED (KB-VIO-273, KB-VIO-276), against the v4.1.1 headline (GEX sign is an oscillator and carries no state in this file · F2 has a runnability floor and "not runnable" resolves to NO GATE · a MECHANISM box may not carry a live STATE).
+
+**Verdict: no semantic contradiction with the headline; no bump.** The row mass is two things, neither of them framework claims:
+- **Instrument / tooling findings (the large majority)** — KB-VIO-255, 257, 277, 278, 279, 281, 283, 284, 285: backfill write authority, gapcheck reference bounds, surface-agreement memo bounds, the stale-column guard, the blank-cell-in-a-present-row class. These are about how this desk *measures*, not about what it *claims*.
+- **Dated market observations and the FOMC letter's grades** — KB-VIO-270, 271, 272, 274, 282, 298. Registered predictions resolving is the letter's own machinery working; leg 4's "approach vs delivery" lesson is already logged (9/17 entry below) and is explicitly held provisional at n=1.
+
+**The two retractions do not touch the framework either:** both are this desk's own corrections to its own instrument claims, which is the v4.1.1 discipline operating, not evidence against it.
+
+**Count moved after the read, by this session's own hand:** the counter read 30 rows / 15 ACTIVE when the review was done; KB-VIO-300–303 were written later the same session and take it to 34 / 19. Those four are this desk's own 9/17 findings (cheap-tail re-open, the levels-vs-divergence distinction, the never-logged-decision gap, the TICK-row defect) — two market observations and two instrument findings, the same two categories the review already classified. **They do not change the verdict.** Stated here so the entry is not read as counting a different population than the counter now shows.
+
+**Standing caveat on this verdict:** it is a *reading*, not a proof. The counter will keep incrementing; the next genuine trigger for a bump is a framework-level event — legs 2 (9/23) and 3 (9/18) resolving, or the H-approach-vs-delivery hypothesis acquiring the FOMC-date base rate the letter admitted (§6.4) it never measured.
+
 ## September 14, 2026 — source-pointer housekeeping; no version bump
 
 Removed the header's stale “CURRENT STATE: UNKNOWN / newest measurement September 3” paragraph. The owner has newer observations; the framework now points to the live surfaces without copying a sign or another dated board. No prior, threshold, base rate or frozen prediction changed. Current tape, Cboe commentary and the newer gamma board do not yet warrant promoting an n=1 front/tail hypothesis. Historical v4.1/v4.1.1 entries below remain records of their dates.

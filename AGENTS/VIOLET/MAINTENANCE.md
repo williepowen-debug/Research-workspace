@@ -9,6 +9,24 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## September 17, 2026 (post-close) — MEMORY.md hot/cold split; two research files retired; board_log repair
+
+**Trigger.** Catch-up session (Will: *"a pass searching for stale data we need to update or owed tasks we need to do"*). Three structural items surfaced and were closed in the same session.
+
+**What changed.**
+1. **`MEMORY.md` hot/cold split — READ-CAP rotation finished, not just triggered.** `read_cap_check.py --agent VIOLET` read 🟡 **78% of the 32,550 B budget** (rotate-tier ≥75%; rule 5's STOP is <70%, and the rule explicitly warns that stopping at the 75% trigger re-breaches on the next append). New cold file **`archive/MEMORY_DATA_CAVEATS_COLD.md`** now holds the *resolved correction narratives* — how each data defect was found, what the entry used to claim, why the wrong version was wrong — for six DATA SOURCES bullets plus the crisis-analog citation rule and the SESSION NOTES pointer. **Every operative rule stayed HOT**, each with a pointer to its narrative. Result **25,089 → 22,757 B (70% STOP cleared by 28 B)**.
+2. **Two research files retired** under the >60d rule (>60 days old · not boot-read · **zero inbound references** from any live analytical or protocol doc — checked by name against STATUS/SCRATCH/MEMORY/CALENDAR/CANARY_MAP/TRADE/README/MAINTENANCE/SIGNAL_INTAKE/NEXUS_BRIEF/thesis/workbook): `research/2026-06-11_march_episode_ccc_analog.md`, `research/2026-06-14_stale_data_audit.md` → `archive/`. A reference sweep over 10 candidate files found the other 8 all cited by a live doc — the analog table's 2026-08-04 citation discipline is doing its job.
+3. **`board_log.tsv` repaired — my own defect, caught in-session.** A `printf` whose *format string* carried the note text broke on a literal `%` in "3.75-4.00%", writing one truncated **unterminated** row; the retry then concatenated its own row onto that fragment. Caught within the minute by a field-count audit over the whole file. Corrupt line removed (backup in scratchpad), both signals re-verified present exactly once. File now **155 rows, all 5 fields, zero duplicate signal IDs**.
+
+**Files touched.** `MEMORY.md` · `archive/MEMORY_DATA_CAVEATS_COLD.md` (new) · `archive/2026-06-11_march_episode_ccc_analog.md`, `archive/2026-06-14_stale_data_audit.md` (moved, `git mv`) · `board_log.tsv` · `STATUS.md` · `thesis/CHANGELOG.md` · `workbook/KB.tsv` (KB-VIO-300–303) · `workbook/VX_DAILY.tsv`.
+
+**Boot-impact.** Boot step 3 (`MEMORY.md`) is ~2.3 KB lighter and under the 70% STOP; nothing a boot needs moved. Boot step 5a lane empty. `closeout_guard.py` `^SKEW bar continuity` went 🔴 → ✅ after the VX_DAILY repair. No boot step added, removed or reordered.
+
+**Lessons.**
+- **Measure the cap in the instrument's unit.** Three trim passes came up short because `len(str)` counts *characters* and the checker counts *bytes* — this file is dense with em-dashes and emoji, so the two differ by ~200 B at this size. The gap is invisible while you are "almost there" and it is exactly the size of the last trim you think you need.
+- **A format string is not a template.** Putting caller data in `printf`'s *first* argument makes every `%` in that data executable. The corruption it produced was not a bad row but an **unterminated** one, which is worse: the next append silently becomes part of it, so the damage lands on a record written later and correctly. Use `printf '%s\t%s\n' "$a" "$b"`.
+- **A hot/cold split should cut narrative, never rules.** The test applied to every candidate: *would a session that has only the hot text still do the right thing?* Where the answer was yes, the story moved; where the story WAS the rule (the CFTC "usually is not a schedule" line, the SKEW "never schedule off an assumed hour" line), it stayed.
+
 ## September 14, 2026 — user-directed inbox consumption and boot lookup
 
 **Trigger:** Will asked to resolve the Wednesday question, formally process the reviewed inbox, and reconcile docket descriptions.
