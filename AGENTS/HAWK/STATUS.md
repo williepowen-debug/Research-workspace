@@ -1,5 +1,5 @@
 # HAWK STATUS
-**Last Updated:** 2026-09-16 — Codex/Astra, Will/PROME commissioned cross-war oil review. **Commissioned synthesis complete; report: `research/2026-09-16_cross-war-oil-review.md`.** No trade book; no mark, band, threshold, confidence or standing approval changed.
+**Last Updated:** 2026-09-18 — Will-directed new theme: **European rearmament**. New dormant vector `VX-HAWK-EURMIL-01` 🟠 ORANGE + instrument tree `domain/europe-rearm/`; evidence `research/2026-09-18_european-rearmament-evidence-sweep.md`. Book 10 → **11 rows**. No trade book; **no existing mark, band, threshold, confidence or standing approval changed** — the only mark set is the new row's opening one. Cross-war oil section below is unchanged from the 2026-09-16 review and is NOT re-verified today.
 
 ## Cross-war decision summary
 
@@ -47,8 +47,9 @@ Source authority: OSPREY/FALCON own theater facts. BRENT owns market prices, mea
 | SULPHUR | RED on approved delivered-Kolwezi basis; old quote remains stale. Elemental sulphur is not the acid-price instrument. |
 | FININFRA | YELLOW; last complete review August10. |
 | CEASEFIRE | SUPERSEDED historical; FALCON owns live diplomacy. Excluded from re-sweep scheduling. |
+| **EURMIL** 🆕 | **🟠 ORANGE, registered 2026-09-18 (Will-directed new theme).** European military posture / rearmament, RU↔NATO dyad. Bands score the escalation ladder — ROE/mandate · kinetic engagement · Article 4 · Article 5 · German mobilisation-law activation · EU counter-hybrid instrument — **never spending** (HANS's leg; money in the bands would repeat the TWN-01 defect). ORANGE derivation: engagement authority delegated above national capitals (NATO Ankara 7/07–08, to SACEUR) AND ≥1 NATO-mandate engagement since (4) AND political-legal ladder unstepped. ⚠️ Two caveats travel with every citation: the engagement count is a COMPOSITE (≥2 of 4 were Ukrainian/EW-diverted, so it partly measures NATO's own loosened trigger, not Russian intent), and the no-2026-Article-4 finding is **NOT primary-closed** (nato.int page stale at the same date as its newest entry). Instruments `domain/europe-rearm/`; evidence `research/2026-09-18_european-rearmament-evidence-sweep.md`. Dyad split PROPOSED to OSPREY, fiscal/posture split PROPOSED to HANS — **neither agreed; both desks dark.** |
 
-September16 cadence scan: no active row exceeds45 days; oldest last-review dates August10 (37 days). Existing September24 review remains; overdue September11 missing legs are not closed by that backstop. No missing feed treated as no event.
+Dormant book is **11 rows** as of 2026-09-18 (was 10; EURMIL-01 registered). September16 cadence scan: no active row exceeds45 days; oldest last-review dates August10 (37 days). EURMIL-01 enters the 45-day cadence from 2026-09-18. Existing September24 review remains; overdue September11 missing legs are not closed by that backstop. No missing feed treated as no event.
 
 ## Other obligations retained
 
