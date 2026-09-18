@@ -1,7 +1,7 @@
 # RED STATUS
 **Last Updated:** 2026-09-14 (S45, PROME WQ-184 Tier-1 spawn — DOCKET L341 + L344; three endings, latest ~13:2x ET) — **BOTH owed grades were NOT GRADEABLE and that is the finding: no 09/14 ^SKEW bar existed at grade time and FRED's frontier is still 09/10.** Per-row state → § FALSIFICATION CRITERIA below (refreshed this session); full grade records → canon `state_detail`; session narrative, the 9 dated next actions and every self-correction → `SCRATCH.md`. **Shipped:** L344 `state`/`state_detail` split (WALTER co-signed) — WALTER's boot-6b view **30,691 → 16,608 B**; L341 VX re-review **by measurement** — 2 vectors measured at the primary, 6 routed, 0 rubber-stamped. 🔴 **FT-12 is the nearest live line (5bp) and moving TOWARD it; its composition disagreement is pre-registered, the letter stands, no re-cut.** ⛔ **No weight, threshold or trigger state moved this session. Nothing for Will.**
 
-**[Prior] headers folded VERBATIM, newest first:** S44 → [`reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md`](reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md) · S43 → [`reports/2026-09-12_S43_status_header_folded.md`](reports/2026-09-12_S43_status_header_folded.md) · S42 + S41 → [`reports/2026-09-10_S42-S41_status_headers_folded.md`](reports/2026-09-10_S42-S41_status_headers_folded.md). ⚠️ **S44's live state is superseded in exactly two places and otherwise still governs:** FT-10's *"next bar 9/14"* is now **held, unpublished at grade time**; FT-11 has **no new window**, not a new grade. Its FT-06 / archive-census / boot.py findings are unchanged.
+**[Prior] headers folded VERBATIM, newest first:** S44 → [`reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md`](reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md) · S43 → [`reports/2026-09-12_S43_status_header_folded.md`](reports/2026-09-12_S43_status_header_folded.md) · S42 + S41 → [`reports/2026-09-10_S42-S41_status_headers_folded.md`](reports/2026-09-10_S42-S41_status_headers_folded.md). ⚠️ **S46 (2026-09-18) supersedes the FT-10 lines everywhere below: the run BROKE on the 09/15 bar and the count is 0-of-4.** FT-11 still has **no new window**, not a new grade; the FT-06 / archive-census / boot.py findings are unchanged.
 
 ---
 
@@ -37,29 +37,16 @@
 1. **Inflation is over on the instrument that decides it.** Core at/below target on every horizon; **5y5y moved ≤13bp through the two largest oil shocks in the series and a closed Hormuz.** The bear's modal scenario for four months required a mechanism no instrument has ever recorded engaging.
 2. **🆕 And now the growth leg has stopped cooperating with the bear too.** The employment break I priced **did not happen and was retracted at the primary**: no negative print, August **+162K**, 3-mo **+71K**, and a **+683K** labour-force increase absorbed at **4.1%** unemployment with **decelerating** wages (AHE 3-mo ann 2.80%). That is the textbook soft-landing shape — expanding supply, contained prices — and it arrived on **two witnesses (CES + CPS)**, not one.
 3. **The bear's remaining mechanism is now a single channel.** Everything rests on the **price of money** (30Y ~5.2 on ~2.4 real). **A one-channel thesis is a fragile thesis** — and my own S29 note already conceded the mechanism had been "re-routed" once. Re-routed twice is not re-routing, it is searching for a channel that will carry the conclusion.
-4. **The vol legs stay dead where it counts, and this week the bull won that argument outright.** >140 SKEW is this index's modal state and VIX has printed sub-16 for a month. **FT-10's run is BROKEN at 2-of-4** — 9/8 printed 148.86 and the count is 0. The tail bid touched the line twice and could not hold it. ⚠️ **The honest fence, against my own steelman:** the index is *camped on* the line (6 of the last 20 bars within 1.50 of it), so "the run broke" is not "the tail bid is gone" — sustain-4 exists so a two-week camp at 148–151 does not score, and it has not.
+4. **The vol legs stay dead where it counts, and this week the bull won that argument outright.** >140 SKEW is this index's modal state and VIX has printed sub-16 for a month. **FT-10's run is BROKEN at 2-of-4 again** — the 9/11 run reached 2 and 9/15 printed 146.61; the count is 0. **Twice now the tail bid has reached 2-of-4 and failed.** The tail bid touched the line twice and could not hold it. ⚠️ **The honest fence, against my own steelman:** the index is *camped on* the line (6 of the last 20 bars within 1.50 of it), so "the run broke" is not "the tail bid is gone" — sustain-4 exists so a two-week camp at 148–151 does not score, and it has not.
 5. **The bank leg is still two names** (OZK + EGBN), narrowest since CHG-027 was written.
 
 **The counter I must hold — and it is thinner than last week's.** Credit is priced for none of it (HY 265), disinflation buys no relief from a real-rate grind, **CCC >1000 on every print since 7/27**, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early. Two bear reads survive today's print intact: the **added-worker effect** (LFPR up with U-3 flat is also late-cycle household need — discriminator unheld) and **falling real wages** (2.80% AHE vs 3.4% headline). ⚠️ **Independence caution, still binding:** the managed-decline pile leans heavily on one cancelled airstrike (ML-RED-133); count it roughly once.
 
-## COUNTER-SIGNALS (🆕 **live-pulled 9/6** — every row restamped; the 8/12 stamp was a month old and was hiding a vector-leg crossing, §OVX)
+## COUNTER-SIGNALS — 🧊 FOLDED 2026-09-18 (S46), values are 9/6-dated
 
-| Signal | Value [date] | Bull read | Bear read | RED Wt |
-|---|---|---|---|:--:|
-| **Core CPI 3-mo ann.** | **1.61%** [8/12 — **DATED, no new print until 9/11**] | at/below target on every window | 3-mo contains a Jun 0.0 outlier; 0.2/mo run-rate = 2.4, still at target | **75/25 bull** |
-| **5y5y breakeven** | **2.33%** [FRED 9/4] | expectations never unanchored through either oil shock | a market price, and this book's premise is that the market under-prices; anchors break late and nonlinearly | **70/30 bull** |
-| **30Y / 10Y real** | **5.25 / 2.42** [9/3] | off the highs | **the strongest bear row, and now the ONLY structural one** — disinflation bought no rate relief; a real-rate object, not an inflation one | **30/70 bear** |
-| **VIX** | **14.53** [9/4] | FT-06 fired and stays banked; sub-16 for a month | shares the 8/3 de-escalation antecedent with SKEW + HY (ML-133) — count once | **70/30 bull** |
-| **HY OAS** | **265** [FRED 9/11, own pull] | credit prices none of the bear case; FT-01 banked | 🔴 **FT-12 (<260) is 5bp away and moving TOWARD it, not away** — chain 268/267/271/270/**265**. ⚠️ **The 9/6 cell said "widening AWAY" and that is now FALSE**; and the tightening is **composition** (BB −5, CCC +6, CCC−BB 926 fresh high), so a fire would read IMMEDIATE-FALSIFY off a mix shift | **60/40 bull** (was 70/30) |
-| **CCC OAS** | **1,076** [FRED 9/11, own pull] | supplied ~13% of index flow (KB-081); bottom-tier, not systemic | **>1000 on every print since 7/27**; **CCC−BB 926bp is a fresh high** — the tail is widening while the index tightens. Still the sole dissenting instrument on the recession panel | **40/60 bear** (was 45/55) |
-| **^SKEW (CBOE)** | **154.49** [CBOE bar 9/11 — **no 9/14 bar at 13:04 ET**] | >140 is the modal state; the 9/14 bar is unpublished so the new run is **1 bar old, not 2** | 🔴 **count 1-of-4, a NEW run** — highest close of the leg, camped on the line and now above it; earliest fire **9/16** (FOMC+SEP+SOQ) | ✅ **50/50 — UNDER-REVIEW STATE DISCHARGED 9/14 (was 55/45 bull)** |
-| **OVX** | **44.96** [9/4] | **🆕 crushed at last — first sub-45 print of the cycle**, and this leg had been unmet since June | ⚠️ **VX-RED-025's flip is a 3-leg CONJUNCTION and this is 1-of-3.** `de-escalation AND OVX<45 AND Brent<$85 s=5d` — **Brent 96.28 is 13% ABOVE the $85 leg and moving away.** Vector NOT flipped | **50/50** (was 40/60 bear) |
-| **Brent** | **96.28** [9/4] | −12% from the 7/23 peak | **WL-11 (<95) un-fired, 1.28 above**; Hormuz still closed, spare ≈0 | **50/50** |
-| **NFP** | **+162K Aug; Jul −23K→+21K** [9/4] | **row rebuilt — see the retraction block above.** 3-mo +71K; +683K absorbed at U-3 4.1% | added-worker read live (split unheld); AHE 2.80% vs 3.4% headline = falling real wages | **65/35 bull** |
-| **WAL / OZK / KRE** | **80.95 / 50.43 / 75.27** [9/4] | cohort benign ×7 surfaces since 7/22 | OZK adverse-selection TRUE under a beat; EGBN 2.78% ann NCO | **70/30 bull · OZK+EGBN bear** |
-| **USDJPY** | **156.22** [9/4] | SAM FLAT; WL-07 (>160) 3.78 away, **receded** from 0.78 in August | WL-12 (<155) is now the nearer line at 1.22 | **50/50** |
+**Folded VERBATIM** → [`reports/2026-09-18_S46_status_countersignals_folded.md`](reports/2026-09-18_S46_status_countersignals_folded.md) (5,463 B, crc32 `3755278776`) — rotated for the read cap, **not resolved and not refreshed.**
 
-**Balance, restated on 9/6 rather than carried:** the bull owns inflation, vol, credit and — **new this week** — the labour market. **The bear's structural pile is down to two rows: the price of money (30Y 5.25 / real 2.42) and CCC >1000.** ⚠️ **That is a one-and-a-half-channel thesis, and I should say so plainly rather than let a twelve-row table imply breadth.**
+⚠️ **Every row was live-pulled 9/6 and is 12 days old; the levels have moved** (CCC 1,076 · VIX ~15.4 · Brent ~100 · SKEW 145.70 today). **Cite them as DATED, never as current.** The re-pull is a real analytical pass and is **OWED** — carried in `SCRATCH.md` § NEXT SESSION alongside the 8/12 hypothesis weights. Live levels: `scripts/boot.py` §① / §②.
 
 
 ## FALSIFICATION CRITERIA (registry TSV canonical — pointer only)
@@ -73,13 +60,23 @@
 | **FT-01** HY<280 s=3 | 🔴 FIRING-BANKED | Adjudicated `SUSTAINED-CALM-COUNTER-SIGNAL` (S36d, CHG-051 deliverable 3). Banked ±2 + WL-03 exit round trip untouched. Falsify power moved to FT-12. |
 | **FT-06** VIX<16 s=5 | 🔴 FIRING-BANKED | Fired S29 8/12; managed-decline confirm executed as −2 Stag → +2 Managed. DIET-guard precondition ABSENT at fire. |
 | **FT-07** CCC>930 s=1 | 🔴 FIRING ×12+ | Banked at 7/27 fire; base rate 84.2%@120obs, descriptor status; re-spec 9/4-9/11 window. |
-| **FT-10** ^SKEW≥150 s=4 | 🟠 **ARMED; 1-of-4** | Bar 1 = **154.49 [09/11]**. 🔴 **No 09/14 bar at 13:04 ET — held, NOT advanced, NOT reset.** Earliest fire **WED 9/16** (FOMC+SEP+SOQ). Grade record → canon `state_detail`. |
+| **FT-10** ^SKEW≥150 s=4 | 🟡 **ARMED; 0-of-4** | ⛔ **DID NOT FIRE — run BROKE at 2 on the 09/15 bar.** 09/11 154.49 (1) · 09/14 152.09 (2) · **09/15 146.61 ⇒ RESET** · 09/16 145.95 · 09/17 145.70. A **published** value, not an access fact. VIOLET + WALTER agree independently. **L376 CLOSED 9/18 by owner adoption** — VIOLET's later-bar-witness test adopted, RED's byte/row discriminator withdrawn. Grade + clause → canon `state_detail`. |
 | **FT-11** Δ5 DGS30≤−10.2 s=5 | 🟡 **ARMED; 0-of-5**, precondition live 9/10 | **NO NEW GRADEABLE WINDOW 9/14** — FRED frontier still 09/10. Last graded: NOT MET, wrong sign (+12.0bp vs ≤−10.2bp). Record → canon `state_detail`. |
 | **FT-12** HY<260 s=3 | 🔴 **NEAR — 5bp** | HY **265 [FRED 9/11]**, moving **TOWARD** the line (268/267/271/270/265). ⚠️ **Composition disagreement PRE-REGISTERED 9/14** (BB −5, CCC +6, CCC−BB 926 fresh high) — letter stands, no re-cut. |
 
 **Structural bank leg: OZK + EGBN two names** (CHG-027 successor = EGBN Q3 ~late Oct, numeric branches pre-registered). **Un-registered but standing:** WL-07 USDJPY >160 (0.07 away, SAM object watch), WL-11 Brent <95 (firing).
 
 ---
+
+## 🔴 ARMED FOR THE 2026-09-18 CLOSE — VIOLET FOMC letter leg 3 (DOCKET L277), RED = reader
+
+**Pre-close half DELIVERED pre-close 9/18 ~10:3x ET** → packet at `AGENTS/VIOLET/inbox/2026-09-18_from-RED_L277-leg3-preclose-adversarial-ruling-*.md`. ⛔ **The close has NOT printed. Nothing below is a grade.**
+
+- ✅ **Letter bytes VERIFIED** `sha256 ead84431…` unchanged · ✅ **anchors CLEAN** — the three cell thresholds reproduce the frozen letter `:119-123`, no anchor re-tuned.
+- **RULING on VIOLET's two weak-discriminator flags: APPLY THE LETTER AS WRITTEN, exclude nothing — AND record the disagreement.** The flags were declared 9/17 *after* the 9/16 read showed VVIX clearing by 0.41; the frozen letter `:154` names only the n=8 sample as a weakness. **"Pre-declared" is true of the 9/18 grade and NOT pre-data**, so excluding a cell now is re-speccing a resolver inside its own window.
+- **Measured at the CBOE publisher — only ONE of branch A's three cells is not already satisfied by the pre-event 9/15 world:** MOVE >82 was **already true at 83.71** ⛔ · VVIX >95 sits **+0.09** above 94.91 ⛔ · **VIX3M/VIX <1.10 vs 1.1256 ✅ the only discriminator.** ⇒ **an A-CONFIRM on {VVIX, MOVE} is CONFIRM-BY-LETTER / NON-DISCRIMINATING-IN-FACT.** Symmetry run: **B has two discriminating cells and is the better-built branch.**
+- ⚠️ **Provisional intraday (~10:4x, CANNOT GRADE; MOVE is a stale 9/17 bar):** VIX 15.39 · VIX3M 18.56 ⇒ ratio **1.2060** · VVIX 88.89 · MOVE 76.22. **A 0/3 · B 3/3 · C 0/3.** 🔴 **B's ratio cell is 0.0060 above its own 1.20 line** — one tick flips it. **BOJ decides today** (SAM owns substance).
+- **NEXT ACTION (PROME re-pings RED or VIOLET after 16:00 ET):** re-pull the three CBOE closes, re-run the 2-of-3, and label the confirm per the ruling above. **RED does not fill VIOLET's card.**
 
 ## OPEN CHALLENGES — headline row (canonical: workbook/CHALLENGES.tsv)
 
@@ -112,23 +109,16 @@
 2. **📁 Rows 2–4 (MIDAS-06 8/31 · 30Y JGB 9/3 · August NFP ✅resolved 9/4) folded VERBATIM 9/14** → [`reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md`](reports/2026-09-14_S44_status_header_and_resolved_priorities_folded.md). **All three dates had PASSED while sitting under a header that says *live*** — a CLOSED row under a LIVE container manufactures work (`[[finding_live_claim_in_a_closed_container_is_invisible]]`, inverted). ⚠️ **Folding is not resolving:** if MIDAS-06's `resolution.verify` duty is still open it is an ACTIVE-row question for `CHALLENGES.tsv`, not a STATUS line — the ⛔ do-NOT-verify-(d)-INDETERMINATE-as-NO caution travels with the fold.
 3. **🟡 CARL V2 (~9/10)** · **Aug CPI (9/11)** · **CHG-044/049 re-reviews (9/15)** · **CHG-042 backstop retired + RED-04 resolves (9/30)** · **IQHQ (~10/21)** · **CHG-028 (10/14+11/10)** · **CARL kill rule Nov HHDC**.
 4. **🟡 Standing apparatus self-challenge obligation** (ML-185): CHG-051 is 1 of 3 (0 of 3 before S35); ML-203 extension makes amendment-inherits-certificate the next candidate.
-5. **Daily monitors:** ^SKEW vs 150 — **FT-10 held 1-of-4 (bar 1 = 154.49 [9/11]); the 9/14 bar was UNPUBLISHED at 13:04 ET, expected after ~17:00; earliest fire 9/16** · **🔴 HY vs 260 (FT-12) is the nearest line at 5bp and moving TOWARD it — composition caveat pre-registered 9/14** · CCC vs 1000 (streak; **CCC−BB 926 fresh high**) · WL-12 USDJPY <155 (firing) · WL-11 Brent <95.
+5. **Daily monitors:** ^SKEW vs 150 — **FT-10 is 0-of-4, run broke 9/15; the 9/16 earliest-fire clock is DEAD and the catalyst row is retired** · **🔴 HY vs 260 (FT-12) remains the nearest line at 10bp (270 live) — composition caveat pre-registered 9/14** · CCC vs 930/1000 (FT-07 FIRING at 1,076; WL-05/06 firing) · **FT-01 FIRING** (HY 270 <280, sustained 3) · WL-12 USDJPY <155 · WL-07 USDJPY >160.
 
 *The historical Section 0 post-audit plan (12-task, all closed or superseded) is folded to `reports/2026-08-28_S35-S38_status_narrative_archive.md` — see the "STATUS SECTION SNAPSHOTS" block. Live priorities live in SCRATCH.*
 
 ---
 
-## PREDICTIONS SCORECARD (8/12)
+## PREDICTIONS SCORECARD — pointer only (canonical: `workbook/PREDICTIONS.tsv`)
 
-| Bucket | Rows | Notes |
-|---|---|---|
-| **WRONG (9)** | 02·03·06·08·09·15·18·19·**22** | **RED-22 RESOLVED WRONG 8/28** — Band D landed, 20% mass; Brier 0.808 vs uniform 0.80; A+B leg falsified. Framework executed as tabled (no weight move); calibration hit on the probability distribution. |
-| **CORRECT (12)** | 01·05·07·10·11·12·13·14·16·17·20·21 | unchanged |
-| **ACTIVE (1)** | 04 (rescue Q2-Q3; resolves 9/30) | Non-occurrence still modal, but see priority #2 — the premise underneath it is unverified. |
-
-**TALLY: 9 WRONG / 12 CORRECT / 1 ACTIVE.**
-
----
+**TALLY 2026-09-18: 9 WRONG / 12 CORRECT / 1 ACTIVE** (RED-04, resolves 9/30). Folded detail → the S46 fold above.
+🆕 **FT-10 Wednesday conditional resolved AGAINST RED this session** — P≈57–60% that the run completed 4-of-4; **it did not** (killed by a 5.48-pt single-session drop against a 2.09 cushion). Logged to `PREDICTIONS.tsv`; **n=1 is not a calibration verdict** — a 57–60% call is meant to miss ~40% of the time — but it is recorded so the row cannot later be remembered as a hit.
 
 ## MISSING DATA WANTED (8/12)
 

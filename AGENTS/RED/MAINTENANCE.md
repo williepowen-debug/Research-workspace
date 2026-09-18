@@ -5,6 +5,25 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 ---
 
 
+## S46 — 2026-09-18 ~10:25–10:3x ET
+
+**Trigger:** PROME WQ-184 Tier-1 L0 drain (desk dark since 9/14). DOCKET **L376** + **L377** past date, **L277** reader seat owed on the 9/18 close, 4 ACTION-addressed BOARD signals unlogged ≥2d, whole inbox unconsumed (12 top-level + 7 WALTER-lane).
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| **FT-10 clause 6 AMENDED — publication/availability allocation adopted (L376).** RED's byte/row-count discriminator **WITHDRAWN**; VIOLET's positive later-bar-witness test adopted. Five states now allocated in the letter (NON-SESSION · PUBLISHED · SESSION-IN-PROGRESS · ACCESS-UNKNOWN · MISSING-INSIDE-COVERAGE) + a LATER-CORRECTION rule. Clause 3 corrected: a published 150.00 **satisfies** the predicate, **fires** only as the 4th qualifying observation. | `registry/FALSIFICATION_TRIGGERS.tsv` (FT-10 row: `instrument_basis`, `state`, `state_detail`, `last_reviewed` — **4 cells, 1 row, exactly**) | **Boot 9 / boot.py reads it live.** No threshold/sustain/operator/exit/action_magnitude change — verified byte-identical across the edit. `schema_check` ALL CONFORM. |
+| **FT-10 GRADED through 09/17: run BROKE at 2 on the 09/15 bar; count 0-of-4.** Never fired. | same row + `docket/CATALYSTS.tsv` row 70 → `resolved` | Dead 9/16 earliest-fire row removed from the boot-3 countdown. |
+| **SCAN view regenerated** (12 rows, 16,614 B = 16% of canon) | `registry/FALSIFICATION_TRIGGERS_SCAN.tsv` | WALTER boot 6b consumes it; `--check` green. |
+| 🔴 **`board_log.tsv` BREACHED at 33,522 B = 103.0% of budget — THIRD time on this file** — then rotated to **20,805 B = 63.9%**, under READ_CAP rule 5's **<70% STOP** (a completed rotation, not a trim). 48 rows archived. | `board_log.tsv` (banner rewritten), **new** `archive/board_log_pre-2026-09-14.tsv` | Boot 1.5 / 5.5 surface. `read_cap_check --agent RED` **rc=0**. |
+| **`STATUS.md` crossed 75.5% on the same session's appends → rotated to 21,520 B = 66.1%**, under the <70% stop. § COUNTER-SIGNALS (9/6-stamped, 12d stale) + § PREDICTIONS SCORECARD folded **VERBATIM**, crc-stamped. | `STATUS.md`, **new** `reports/2026-09-18_S46_status_countersignals_folded.md` | Boot 2. ⚠️ **Counter-signal re-pull is OWED** — folded, not refreshed. |
+| **VX instrument repairs on three desks' own evidence — `Flip_If` re-cut, ZERO weights moved.** VX-RED-005 leg B (direction was inverted), VX-RED-007 leg B (no threshold/series/horizon), VX-RED-012 (no re-cut; control case). | `workbook/VX.tsv` (3 rows), `workbook/VX_HISTORY.tsv` (+3) | Boot 3/9c. **VX >45d debt 6/17 → 3/17.** |
+| **RED-24 registered retrospectively and RESOLVED WRONG** — the FT-10 57–60% conditional had been published and relayed but never given a PREDICTIONS row, so it had no resolver. | `workbook/PREDICTIONS.tsv` | Boot 3 DUE-scan. Scorecard 9 WRONG / 12 CORRECT / 1 ACTIVE. |
+| **ML-RED-257…262** appended (receipt cross-check inversion · 3rd cap breach · branch-map non-discrimination · continuation-base-rate cushion · L376 adoption · the n=2-of-3 ungradeable-Flip_If population finding) | `workbook/ML.tsv` | Append-only. |
+| **Whole inbox drained: 19 dispositions logged, 19 packets `git mv`'d to `processed/`.** Census 12+7 → **0+0**. | `board_log.tsv`, `inbox/processed/`, `inbox/WALTER/processed/` | Boot 5.5 / 5.6 clean. |
+| **Packets authored** (carve-out ①): L277 pre-close ruling → VIOLET; WQ-224 answer + completion memo → PROME. | `AGENTS/VIOLET/inbox/`, `PROME/inbox/` | — |
+
+**Not done, registered as owed (named rather than silently carried):** the DAEDALUS PR#6 SAM rail (CH-009/CH-012 adjudication, CH-017 falsified-while-OPEN — **DAEDALUS's own deadline 2026-09-24**) · L247 v0.4 spec review + F1 v0.3 recheck (**deferred twice now** — asked PROME to date it or docket it) · the FT-08 ~7bp core-CPI basis reconciliation with WALTER · FT-03/04 ICE settlement basis · the counter-signal re-pull · the 8/12 hypothesis-weight table · the registry-wide "different arithmetic paths" scan DAEDALUS's refutations bought.
+
 ## S44 — 2026-09-12 ~13:5x ET
 
 **Trigger:** PROME Tier-1 due-row spawn on DOCKET **L320** (WQ-184 L0 rule). Three owed grades (FT-10 / FT-11 / FT-06) + the 27-row BOARD ledger backfill + the section-⑤ rebuild that should have prevented it.
