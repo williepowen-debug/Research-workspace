@@ -53,7 +53,14 @@ Will-directed boot + dark-period catch-up (dark 9/15→9/18), then a full file s
 2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE on the route leg, **with the "sustained OPERATIONS → TRUE" alternative disclosed, not buried.**
 3. Pull the **15:30 ET CFTC COT** (Sep-15 positions). Record it; it enters **neither** row's terms.
 4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand.
-5. **Push.** Nothing has been pushed this session; ~8 commits local.
+5. ⚠️ **This session CLOSED OUT AT 12:32 ET, before the 16:00 close** — the grade was deliberately NOT run early. Terms are frozen; run them cold.
+
+**LEDGER DISPOSITIONS (closeout 9/18 — `ledger_staleness.py --nudge` flagged 5; each is "why not", none frozen, none rotted):**
+- `CFTC_JPY.tsv` (6 behind) — next print **15:30 ET today (Sep-15 positions)**, 3h after closeout. Pull it next session; it enters **neither** SAM-28's nor SAM-31's terms.
+- `BOJ_MEETING_OIS.tsv` (5) — **boot 9/18 FAILED closed, correctly**: `boj_ois.py` returned an unreviewed chart (SHA256 `1105fdfc…`) requiring visual review. ⛔ **This desk therefore has NO current BOJ pricing** — do not cite the spent Sep-15 image. The meeting has resolved, so the next meaningful quote is the **October** meeting's.
+- `GPIF_FLOWS.tsv` (62) — **quarterly-laggy by construction**, not rot. Interim PDFs ~5wk after quarter-end; annual ~Jul 1-3. No release to ingest.
+- `BIS_GLI.tsv` (4) — **manual-only, quarterly by design.** Run when the carry-SCALE question is live; it is not.
+- `JGB_AUCTIONS.tsv` (2) — current through the **Sep-15 20Y (AMBIGUOUS)**. Next auction **Sep-29 40Y**, descriptive only.
 
 **TIER 1 — DATED, FORWARD:**
 - **Sep-29** 40Y auction — descriptive BTC only, NO grade (uniform-price; RULING 2). Counter stays 0-of-2.
