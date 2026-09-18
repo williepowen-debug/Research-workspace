@@ -206,7 +206,7 @@ The CHANGES SINCE section is populated at BOOT (step 7, market refresh) and writ
 
 **You receive from:**
 - LIQUID: UST auction health, funding stress
-- HAWK: War → Japan energy vulnerability (90% ME oil dependent), risk-off → yen strengthening
+- HAWK: War → Japan energy vulnerability (**ME share of crude import volume 62.6%, Aug-2026** — ⛔ the long-standing "90%" is RETIRED, true through 2026-03 and decayed 30pp since; freshness sync 2026-09-18, no analytical-view change. Re-read it, do not re-carry it: `reports/2026-09-18_me-crude-substitution.md`), risk-off → yen strengthening
 - HENRY: U.S. equity stress → carry unwind pressure
 - BRENT: Oil price / supply / Hormuz status
 - PROME: Cross-agent coordination, forward-questions

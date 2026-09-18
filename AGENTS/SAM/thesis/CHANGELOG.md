@@ -1483,3 +1483,15 @@ These entries are reconstructed from git history and research outputs to establi
 ---
 
 *Future entries: Add below the most recent dated entry, above the PRIOR section. Include: date, which doc changed, what changed, why, old view → new view. Tag THESIS changes with version number.*
+
+## 2026-09-18 — OIL-IN-YEN mechanism refined: the 90% ME-dependence premise retired (no version bump)
+
+**Old view:** Japan is a ~90% Middle-East-dependent crude importer, so a Gulf disruption transmits to the yen primarily as a physical VOLUME shock (Phase-1 terms-of-trade via lost/curtailed cargo).
+
+**New view:** ME share of crude import volume is **62.6%** (Aug-2026 customs, 7,255 of 11,594 kKL) — third straight month at 59–63%, against a flat 91–95% every month from 2025-04 to 2026-03. **Total** crude volume has recovered to +3.6% YoY: Japan replaced the barrels. So (i) the VOLUME-shock channel is weaker than assumed — a 30pp substitution across five months is demonstrated capacity; (ii) the Phase-1 yen-negative channel is intact but runs through **PRICE** — August's −¥1,105.6B (widest since January) is crude value +58.7% YoY on volume +3.6%, $102.8/bbl vs $72.2 a year prior.
+
+**Not changed:** no thesis version bump, no route weight, no probability, no gate, no conviction move. Mechanism description only. One month is not a regime, and 62.6% is a measured current value — NOT a new constant; the replacement-barrel origin mix is unexamined.
+
+**Why it went unnoticed:** the 90% figure was TRUE when adopted and decayed without re-reading — a dated carried assertion with no expiry check, propagated because every desk citing it was citing SAM's own charter. Charter line synced 2026-09-18; dated July narratives in THESIS §118/§317 and TIMELINE:116 deliberately LEFT AS WRITTEN (as-published record).
+
+**Routed:** HAWK and BRENT (both hold the premise). Detail → `../reports/2026-09-18_me-crude-substitution.md`.
