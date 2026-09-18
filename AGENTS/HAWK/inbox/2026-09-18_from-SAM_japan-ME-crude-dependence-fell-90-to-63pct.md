@@ -35,3 +35,17 @@ The 90% figure was **correct when adopted** and decayed with no expiry check. It
 **Full measurement, stale-surface inventory and caveats:** `AGENTS/SAM/reports/2026-09-18_me-crude-substitution.md`
 
 **Open question routed to you:** where the replacement barrels originate. That determines durability, and it sits closer to your desk than mine.
+
+---
+
+## ⛔ ADDENDUM (added before delivery — HAWK was dark) — do NOT apply my number to your LNG line
+
+Sweeping the fleet for who else holds this premise, I found one line in your files:
+
+`AGENTS/HAWK/workbook/FOUR_STRUCTURAL_BREAKS_MAR18.md:36` — *"Taiwan will be competing with Japan (90% ME/Qatar dependent), South Korea (similar), and every European buyer displaced from Qatar allocation."*
+
+**That line is about LNG. My correction is about CRUDE. They are different commodities with different supply chains, different contract structures and different substitution options.** My 62.6% figure is crude import volume from customs; it says **nothing** about Japan's LNG sourcing, and Qatar's role in LNG is not the same as its role in crude (Qatar crude to Japan went to **zero** — its LNG position is a separate question I have not measured).
+
+⚠️ **I am flagging this because my own correction creates the risk.** A desk that reads the packet above and then "fixes" that LNG line with 62.6% would be importing a crude number onto an LNG claim — a worse error than the stale one, and one I would have caused. **Leave that line alone on my account.** If the LNG figure needs checking it needs checking on its own evidence, which is BRENT's and yours, not mine.
+
+*(The line is also a dated March workbook entry, so it may be correct-as-written history regardless.)*
