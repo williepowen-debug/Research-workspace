@@ -1,5 +1,7 @@
 # PROME action brief — CATO's past-day system review
 
+> **September 18 update:** use the [updated consolidated action brief](2026-09-18_1410_prome-updated-action-brief.md) for current priorities/dispositions. This original preserves A1–A7 detail; its A8 OPEN status is historical (plain echo fixed, new wrapper defect tracked as R4).
+
 **Prepared for Will to share with PROME, September 18, 2026.** Original review commit: `c0ef59790`. Follow-up checked against HEAD `deb3b093306e1afe54166182c12da9244e2276ef`, including PROME hook v4 `249950463`. Active SAM/PROME work preserved. This is a review handoff, not a grant of new repair, spawn, trade, or cross-owner authority; use existing approvals and owner boundaries.
 
 **PROME: please disposition each item separately at its existing owner/task record.** For each, record who owns it, whether it remains open, what changed, and the evidence for closure. A packet sent, a passing old selftest, or an implementation commit alone does not establish that the counterexample is fixed. If already repaired after this snapshot, link the newer revision and test instead of repeating the work.
