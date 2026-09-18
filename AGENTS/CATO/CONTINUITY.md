@@ -4,6 +4,8 @@
 
 ## Current assignment and approvals
 
+**SESSION CLOSED — September 17.** [Closeout and disposition index](runs/2026-09-17_session-closeout.md). All assigned reviews delivered; no CATO task unfinished. Next startup: orient and await Will. No procedure implementation, automatic reviewer role, owner send or plugin repair authorized. Latest PROME follow-up supersedes earlier finding states; DAEDALUS b8dc88fa1 is a later correction not yet independently reviewed here. Older entries below are dated history, not an instruction to reopen their tasks. Final commit/push receipt delivered in-session.
+
 **Latest — boot/closeout comparison:** [Analysis](runs/2026-09-17_boot-closeout-comparison.md). Broad contrast useful, but PROME symmetry advisory/lexical; DAEDALUS already has conditional blind-review and mechanical pairing controls; subject matching is heuristic and shared safe-push already fresh-verifies with unknown state. Recommend declared reads + compact instructions, then thin receipt runner, enforce existing review triggers rather than automatic CATO/ARGUS every closeout. No implementation or owner edits/messages. Review complete; next await Will.
 
 **Latest — PROME 14:13 review follow-up:** [Update](runs/2026-09-17_prome-1413-followup.md), through 8f026c81e. Dedicated L408 review now ran and corrections landed; funding-null wording withdrawn at BOND/PROME; L407 honestly IN PROGRESS pending outputs. New MDE curve remains author-only and uses alpha .05 vs registered .01; no exact power certification. Thirteen history receipts and ORCH schema pass. No owner edits/messages. Review complete; next await Will, or verify final closeout if assigned.
