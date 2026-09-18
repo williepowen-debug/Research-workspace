@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""willq_view.py — the GENERATED 'Pending Will' block (WQ-185 ②, Will 2026-09-06 10:12; DOCKET L296).
+r"""willq_view.py — the GENERATED 'Pending Will' block (WQ-185 ②, Will 2026-09-06 10:12; DOCKET L296).
 
 Source of truth: PROME/WILL_QUEUE.md § OPEN (its own rule 4: the ONLY live copy). This tool renders a
 one-line projection of that table into PROME/SCRATCH.md between markers, replacing the hand-maintained
@@ -45,12 +45,39 @@ class WillqError(Exception):
 # ITEM prose of the row proposing the aged-waits rule ("a ⛔ waits row whose …") and filed it under "waiting on
 # others" with no tap controls — Will could not rule it. Prose mentioning a marker is not the marker.
 BLOCKED_RE = re.compile(r"^[\*\s]*⛔\s*waits?\b")
-_CELL_SPLIT = re.compile(r"(?<!\\)\|")          # `\|` inside a cell is a literal pipe, never a column break (9/18)
-_SHORT_DATE = re.compile(r"(?<![\d/])\d{1,2}/\d{1,2}(?![\d/])")   # `9/19` — a date that is not ISO
+
+# ---- ONE split + ONE date classifier for the WILL_QUEUE table (2026-09-18, ACCEPTANCE_queue_parsers B1/B3/B4) ----
+# Copied verbatim into willq_view.py · prome_gate.py · will_brief.py · decision_deck.py (the gate is a blocking boot
+# surface: no import coupling by design); queue_parser_selftest.py asserts the four copies and table_check agree.
+_ESCAPED_PIPE = "\x00"
 
 
-def _cells(line):
-    return [x.strip() for x in _CELL_SPLIT.split(line.strip("|"))]
+def split_cells(line):
+    """table_check.split_cells semantics: `\\|` is a literal pipe, every other pipe separates (code spans included),
+    one leading and one trailing pipe are structural. Cells come back stripped."""
+    s = line.strip().replace("\\|", _ESCAPED_PIPE)
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.replace(_ESCAPED_PIPE, "\\|").strip() for c in s.split("|")]
+
+
+_ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+_DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
+                       r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+
+
+def datelike_not_iso(raw):
+    """B3: a needed-by with NO ISO date but a date-LIKE token. B4 (textual / empty) is its complement."""
+    t = re.sub(r"\*\*|`", "", raw or "")
+    return not _ISO_DATE.search(t) and bool(_DATELIKE.search(t))
+
+
+def is_separator(cells):
+    return bool(cells) and all(re.fullmatch(r":?-+:?", c) for c in cells)
 
 def parse_open(text):
     """OPEN-table rows → [{n, due, due_txt, blocked, kind}] — the gate/brief parser rules, duplicated."""
@@ -61,14 +88,17 @@ def parse_open(text):
     for line in section.splitlines():
         if not line.startswith("|"):
             continue
-        c = _cells(line)
-        if hdr is None and c and c[0] == "#":
-            hdr = len(c)
+        c = split_cells(line)
+        if is_separator(c):
             continue
-        if len(c) < 6 or not re.match(r"\d", c[0]):
+        if hdr is None:
+            hdr = len(c)                              # B2: the FIRST table row is the header, whatever its first cell says
             continue
-        if hdr is not None and len(c) != hdr:
-            problems.append(f"WQ-{c[0]}: {len(c)} cells vs header {hdr} — an unescaped `|` inside a cell shifts every column; write it `\\|`")
+        if len(c) != hdr:                             # B2: tested BEFORE any minimum-width skip, both directions
+            name = c[0] if re.match(r"\d", c[0]) else (c[0][:24] or "<blank>")
+            problems.append(f"SHIFTED WQ-{name}: {len(c)} cells vs header {hdr} — an unescaped `|` inside a cell shifts every column; write it `\\|`")
+            continue
+        if not re.match(r"\d", c[0]):
             continue
         lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
         lead = re.sub(r"^[\*\s]+", "", lead)
@@ -76,13 +106,15 @@ def parse_open(text):
             continue  # closed-in-place rows are not open asks (gate's MISFILED rule)
         raw = re.sub(r"\*\*|`", "", c[3]).strip()
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
-        if not d and _SHORT_DATE.search(raw):
-            problems.append(f"WQ-{c[0]}: needed-by '{raw[:24]}' is not ISO (WILL_QUEUE rule: hard dates are YYYY-MM-DD) — it would render undated and sort last")
+        if not d and datelike_not_iso(raw):           # B3; B4 (textual/empty) falls through with due=None
+            problems.append(f"NOT-ISO WQ-{c[0]}: needed-by '{raw[:24]}' is not ISO (WILL_QUEUE rule: hard dates are YYYY-MM-DD) — it would render undated and sort last")
             continue
         blocked = bool(BLOCKED_RE.match(c[6] if len(c) > 6 else ""))
         rows.append({"n": c[0], "due": d.group(0) if d else None,
                      "due_txt": raw, "blocked": blocked,
                      "kind": re.sub(r"\*\*|`", "", c[2]).strip().upper()})
+    if hdr is None:
+        raise WillqError("no table header row in § OPEN — refusing to guess the columns")
     if problems:
         raise WillqError("; ".join(problems))
     if not rows:
@@ -237,6 +269,30 @@ def selftest():
                 ok(want in str(e), name)
         r = rows_of("| 17 | **Textual date** | RULE | at HEN-46's resolution, or later | 9/6 | rec | note |\n| 18 | **Empty date** | RULE |  | 9/6 | rec | note |")
         ok(any(x["n"] == "17" and x["due"] is None for x in r) and any(x["n"] == "18" and x["due"] is None for x in r), "MISSING-INFORMATION neighbour: textual / empty needed-by stay allowed")
+        # 2026-09-18 SECOND repair (parserfixcold A2/A3/A4 ❌) — ACCEPTANCE_queue_parsers B2/B3/B4/B7, the reader's own counterexamples
+        for extra, want, name in [
+            ("| 19 | **mdy** | RULE | 9/19/26 | 9/6 | rec | note |", "NOT-ISO WQ-19", "B3 m/d/yy refused by name"),
+            ("| 20 | **unpadded** | RULE | 2026-9-19 | 9/6 | rec | note |", "NOT-ISO WQ-20", "B3 unpadded ISO refused by name"),
+            ("| 21 | **month name** | RULE | Sept 19 | 9/6 | rec | note |", "NOT-ISO WQ-21", "B3 month-name day refused by name"),
+            ("| 23 | **five cells** | RULE | 2026-09-19 | 9/6 |", "SHIFTED WQ-23", "B2 FEWER cells than the header refused by name (the first repair dropped it silently)"),
+            ("| 26 | **nine cells** | RULE | 2026-09-19 | 9/6 | rec | a | b | c |", "SHIFTED WQ-26", "B2 MORE cells than the header refused by name"),
+        ]:
+            try:
+                rows_of(extra); ok(False, name)
+            except WillqError as e:
+                ok(want in str(e), name)
+        r = rows_of("| 22 | **fraction** | RULE | when 2/3 of the legs have filled | 9/6 | rec | note |\n| 24 | **empty notes** | RULE | 2026-09-19 | 9/6 | rec||")
+        ok(any(x["n"] == "22" and x["due"] is None for x in r), "B4 a fraction followed by 'of' is textual — allowed, no alarm")
+        ok(any(x["n"] == "24" and x["due"] == "2026-09-19" for x in r), "B1 trailing `||` = an EMPTY last cell (7 cells) — allowed")
+        q_id = FIX_Q.replace("| # | Item |", "| ID | Item |").replace("## RECENTLY DONE", "| 25 | **shifted under an ID header** | RULE | 2026-09-19 | 9/6 | rec | a | b |\n## RECENTLY DONE")
+        try:
+            parse_open(q_id); ok(False, "B2 a header spelled `| ID |` still arms the count check")
+        except WillqError as e:
+            ok("SHIFTED WQ-25" in str(e), "B2 a header spelled `| ID |` still arms the count check")
+        try:
+            parse_open("# f\n## OPEN\nno table here\n## RECENTLY DONE\n"); ok(False, "MISSING-INFORMATION: no header row refused")
+        except WillqError as e:
+            ok("header" in str(e), "MISSING-INFORMATION: no header row refused")
     print(f"willq_view selftest: {n - len(fails)}/{n} PASS" + (f" — FAIL: {fails}" if fails else ""))
     return 0 if not fails else 2
 

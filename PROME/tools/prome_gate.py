@@ -129,6 +129,40 @@ results = []                # (severity, name, ok, detail, owner_doc)
 capabilities = []           # (name, state, detail, owner_doc, dependents, tracker)
 
 
+
+# ---- ONE split + ONE date classifier for the WILL_QUEUE table (2026-09-18, ACCEPTANCE_queue_parsers B1/B3/B4) ----
+# Copied verbatim into willq_view.py · prome_gate.py · will_brief.py · decision_deck.py (the gate is a blocking boot
+# surface: no import coupling by design); queue_parser_selftest.py asserts the four copies and table_check agree.
+_ESCAPED_PIPE = "\x00"
+
+
+def split_cells(line):
+    """table_check.split_cells semantics: `\\|` is a literal pipe, every other pipe separates (code spans included),
+    one leading and one trailing pipe are structural. Cells come back stripped."""
+    s = line.strip().replace("\\|", _ESCAPED_PIPE)
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.replace(_ESCAPED_PIPE, "\\|").strip() for c in s.split("|")]
+
+
+_ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+_DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
+                       r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+
+
+def datelike_not_iso(raw):
+    """B3: a needed-by with NO ISO date but a date-LIKE token. B4 (textual / empty) is its complement."""
+    t = re.sub(r"\*\*|`", "", raw or "")
+    return not _ISO_DATE.search(t) and bool(_DATELIKE.search(t))
+
+
+def is_separator(cells):
+    return bool(cells) and all(re.fullmatch(r":?-+:?", c) for c in cells)
+
 def record(severity, name, ok, detail, owner):
     results.append((severity, name, ok, detail, owner))
 
@@ -224,9 +258,9 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
     try:
         qp = Path(queue_path) if queue_path else (ROOT / "PROME" / "WILL_QUEUE.md")
         for line in qp.read_text(encoding="utf-8").split("\n"):
-            cells = [c.strip() for c in re.split(r"(?<!\\)\|", line)]   # `\|` in a cell is a literal pipe (9/18)
-            if len(cells) > 4 and cells[1] == str(row_id):
-                m = re.search(r"\d{4}-\d{2}-\d{2}", cells[4])
+            cells = split_cells(line)                    # B1 (9/18): the one split
+            if len(cells) > 3 and cells[0] == str(row_id):
+                m = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
                 return bool(m) and dt.date.fromisoformat(m.group()) < today
     except Exception:
         return False
@@ -493,7 +527,7 @@ def check_will_queue():
                 pass
         return d0
 
-    section, actionable = None, 0
+    section, actionable, hdr_open = None, 0, None
     for line in text.splitlines():
         if line.startswith("## "):
             section = "open" if line.startswith("## OPEN") else (
@@ -501,7 +535,18 @@ def check_will_queue():
             continue
         if not (section and line.startswith("|")):
             continue
-        cells = [c.strip() for c in re.split(r"(?<!\\)\|", line.strip("|"))]   # `\|` in a cell is a literal pipe (9/18, scratchrot7cold ❌1)
+        cells = split_cells(line)                        # B1 (9/18): the one split
+        if section == "open":
+            if is_separator(cells):
+                continue
+            if hdr_open is None:                         # B2: the FIRST table row is the header
+                hdr_open = len(cells)
+                continue
+            if len(cells) != hdr_open:                   # B2: flagged BY NAME and excluded from the count, never parsed shifted
+                problems.append(f"SHIFTED #{cells[0][:8]} ({len(cells)} cells vs header {hdr_open}) — an unescaped | inside a cell; write it \\|")
+                continue
+            if re.match(r"\d", cells[0]) and datelike_not_iso(cells[3]):   # B3: flagged, still counted
+                problems.append(f"NOT-ISO #{cells[0]} needed-by '{cells[3][:24]}' (hard dates are YYYY-MM-DD)")
         if section == "open" and len(cells) >= 7:
             # Keys on the DOCUMENTED wait-declaration at the START of the Notes
             # cell — see the twin comment in will_brief.parse_actions(). WILL_QUEUE
@@ -567,7 +612,10 @@ def check_will_queue():
             if dn and (today - dn).days > 7:
                 problems.append(f"ROLL-OFF {cells[0][:30]} (done {(today - dn).days}d ago)")
     if actionable > 20:
-        problems.append(f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
+        # FIRST, not last (9/18): the detail line shows five problems; a CAP hidden behind five SHIFTED/NOT-ISO
+        # lines is the silent-cap class the comment below names. The headline count leads.
+        problems.insert(0, f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
+    check_will_queue.last_problems = list(problems)   # the FULL list, for queue_parser_selftest (the detail below shows five)
     record(ADVISE, "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
            # ⚠️ 2026-08-08: same silent-cap class as check_docket_overdue above —
            # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
@@ -1032,9 +1080,9 @@ def check_publication_prereqs():
         opn = q.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
         rows = set()
         for ln in opn.splitlines():
-            cells = [c.strip() for c in re.split(r"(?<!\\)\|", ln)]   # `\|` in a cell is a literal pipe (9/18)
-            if len(cells) > 2 and re.fullmatch(r"\d+", cells[1]):
-                rows.add(cells[1])
+            cells = split_cells(ln)                      # B1 (9/18): the one split
+            if cells and re.fullmatch(r"\d+", cells[0]):
+                rows.add(cells[0])
         expl = {ln.split("\t")[0].strip()
                 for ln in (ROOT / "PROME/registry/WQ_EXPLAINERS.tsv")
                 .read_text(encoding="utf-8").splitlines()[1:] if ln.strip()}

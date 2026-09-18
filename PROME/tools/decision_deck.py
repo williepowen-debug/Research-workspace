@@ -56,7 +56,40 @@ TERMINAL = re.compile(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b|RULED\b|EXEC
 # ---------------------------------------------------------------- helpers
 
 def cells(line: str) -> list[str]:
-    return [x.strip() for x in line.strip().strip("|").split("|")]
+    return split_cells(line)                             # B1 (9/18): the one split
+
+# ---- ONE split + ONE date classifier for the WILL_QUEUE table (2026-09-18, ACCEPTANCE_queue_parsers B1/B3/B4) ----
+# Copied verbatim into willq_view.py · prome_gate.py · will_brief.py · decision_deck.py (the gate is a blocking boot
+# surface: no import coupling by design); queue_parser_selftest.py asserts the four copies and table_check agree.
+_ESCAPED_PIPE = "\x00"
+
+
+def split_cells(line: str) -> list[str]:
+    """table_check.split_cells semantics: `\\|` is a literal pipe, every other pipe separates (code spans included),
+    one leading and one trailing pipe are structural. Cells come back stripped."""
+    s = line.strip().replace("\\|", _ESCAPED_PIPE)
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.replace(_ESCAPED_PIPE, "\\|").strip() for c in s.split("|")]
+
+
+_ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+_DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
+                       r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+
+
+def datelike_not_iso(raw):
+    """B3: a needed-by with NO ISO date but a date-LIKE token. B4 (textual / empty) is its complement."""
+    t = re.sub(r"\*\*|`", "", raw or "")
+    return not _ISO_DATE.search(t) and bool(_DATELIKE.search(t))
+
+
+def is_separator(cells):
+    return bool(cells) and all(re.fullmatch(r":?-+:?", c) for c in cells)
 
 def strip_md(s: str) -> str:
     s = re.sub(r"\*\*|`|~~", "", s)
@@ -153,13 +186,23 @@ def blocker_of(notes: str) -> str | None:
 
 def parse_open(text: str) -> list[dict]:
     sec = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
-    rows = []
+    rows, hdr = [], None
     for line in sec.splitlines():
         if not line.startswith("|"):
             continue
         c = cells(line)
-        if len(c) < 6 or not re.match(r"\d", c[0]):
+        if is_separator(c):
             continue
+        if hdr is None:                                  # B2: the FIRST table row is the header
+            hdr = len(c)
+            continue
+        if len(c) != hdr:                                # B2: skipped BY NAME on stderr — the Deck never renders a shifted row
+            print(f"⚠️ decision_deck: SHIFTED row WQ-{c[0][:8]} ({len(c)} cells vs header {hdr}) skipped — an unescaped | inside a cell; write it \\|", file=sys.stderr)
+            continue
+        if not re.match(r"\d", c[0]):
+            continue
+        if datelike_not_iso(c[3]):                       # B3: rendered undated WITH a named warning (the Deck never goes dark over one cell)
+            print(f"⚠️ decision_deck: NOT-ISO needed-by on WQ-{c[0]}: '{c[3][:24]}' — renders undated; write YYYY-MM-DD", file=sys.stderr)
         lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
         lead = re.sub(r"^[\*\s]+", "", lead)
         if re.match(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b", lead):

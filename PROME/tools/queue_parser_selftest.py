@@ -59,6 +59,12 @@ def build_synthetic(root: Path):
     # under "waiting on others" and rendered with no tap controls. The key is the
     # declaration at the START of the Notes cell, never the glyph in prose.
     rows.append(f"| 36 | Rule about a ⛔ waits row whose blocker is dark | DECISION | 2026-09-11 | {recent} | rec | notes |")
+    # Rows 37–40 (2026-09-18, ACCEPTANCE_queue_parsers B1–B4): the split and the date classifier, exercised so that a
+    # reversion of ANY parser's split fails this test (parserfixcold proved the 23-row set did not notice one).
+    rows.append(f"| 37 | Escaped pipe in a code span `P(leg \\| fired)` | DECISION | 2026-09-19 | {recent} | rec | notes |")
+    rows.append(f"| 38 | Unescaped pipe P(leg | fired) shifts this row | DECISION | 2026-09-19 | {recent} | rec | notes |")
+    rows.append(f"| 39 | Short-form needed-by | DECISION | 9/19 | {recent} | rec | notes |")
+    rows.append(f"| 40 | Fraction in a textual needed-by | DECISION | when 2/3 of the legs have filled | {recent} | rec | notes |")
     text = (
         f"# WILL_QUEUE (synthetic — selftest)\n**Last reconciled:** {today.isoformat()}\n\n"
         "## OPEN\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
@@ -79,7 +85,8 @@ def main():
         prome_gate.ROOT = root
         prome_gate.record = lambda sev, name, ok, detail, owner: captured.append((name, detail))
         prome_gate.check_will_queue()
-        detail = "; ".join(d for (n, d) in captured if "WILL_QUEUE" in n)
+        detail = "; ".join(getattr(prome_gate.check_will_queue, "last_problems", None)
+                           or [d for (n, d) in captured if "WILL_QUEUE" in n])   # the FULL problem list (the record detail shows five)
         cap = re.search(r"CAP: (\d+) actionable", detail)
         gate_count = int(cap.group(1)) if cap else None
 
@@ -95,8 +102,8 @@ def main():
             if not cond:
                 fails.append(name)
 
-        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 23)",
-              gate_count == 23 and brief_count == 23)
+        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 26: 23 + #37 + #39 + #40; #38 excluded as SHIFTED)",
+              gate_count == 26 and brief_count == 26)
         check("2 lettered 32b visible to brief", "32b" in ids)
         check("3a misfiled #33 invisible to brief", "33" not in ids)
         check("3b misfiled #33 flagged by gate", "MISFILED #33" in detail)
@@ -108,12 +115,38 @@ def main():
               any(r["n"] == "36" and not r["blocked"] for r in vis))
         check("5a aging #79 flagged by gate", "AGING #79" in detail)
         check("5b aging #79 visible to brief", "79" in ids)
+        # B1–B4 across all four parsers + table_check (2026-09-18)
+        check("6a escaped-pipe #37 dated in brief", any(r["n"] == "37" and r["due"] == "2026-09-19" for r in vis))
+        check("6b shifted #38 flagged BY NAME by gate", "SHIFTED #38" in detail)
+        check("6c shifted #38 invisible to brief, with a named failure", "38" not in ids and any("WQ-38" in f[2] for f in will_brief.failures))
+        check("6d NOT-ISO #39 flagged BY NAME by gate", "NOT-ISO #39" in detail)
+        check("6e #39 visible to brief, undated, named failure", any(r["n"] == "39" and r["due"] is None for r in vis) and any("WQ-39" in f[2] for f in will_brief.failures))
+        check("6f fraction #40 visible, undated, NO failure (B4)", any(r["n"] == "40" and r["due"] is None for r in vis) and not any("WQ-40" in f[2] for f in will_brief.failures))
+        import willq_view, decision_deck, table_check
+        qtext = (root / "PROME" / "WILL_QUEUE.md").read_text(encoding="utf-8")
+        try:
+            willq_view.parse_open(qtext); check("7a willq_view REFUSES the set naming #38 and #39", False)
+        except willq_view.WillqError as e:
+            check("7a willq_view REFUSES the set naming #38 and #39", "WQ-38" in str(e) and "WQ-39" in str(e))
+        clean = "\n".join(l for l in qtext.split("\n") if not (l.startswith("| 38 |") or l.startswith("| 39 |")))
+        wr = willq_view.parse_open(clean)
+        check("7b willq_view: #37 dated, #40 undated", any(r["n"] == "37" and r["due"] == "2026-09-19" for r in wr) and any(r["n"] == "40" and r["due"] is None for r in wr))
+        dr = decision_deck.parse_open(qtext)
+        check("7c deck: #37 by=2026-09-19 · #38 absent · #39 and #40 by=None",
+              any(r["n"] == "37" and r["by"] == "2026-09-19" for r in dr) and not any(r["n"] == "38" for r in dr)
+              and any(r["n"] == "39" and r["by"] is None for r in dr) and any(r["n"] == "40" and r["by"] is None for r in dr))
+        fx = ["| a \\| b | c || d |", "|\\| lead | mid \\| | trail \\||", "| `x | y` | z |", "| rec||", "|x|", "| 9/19 | `a|b` | \\| |"]
+        for l in fx:
+            ref = [x.strip() for x in table_check.split_cells(l)]
+            check(f"8 split parity on {l!r}", willq_view.split_cells(l) == ref == prome_gate.split_cells(l) == will_brief.split_cells(l) == decision_deck.cells(l))
+        for raw, want in [("9/19", True), ("9/19/26", True), ("2026-9-19", True), ("Sept 19", True), ("19 Sep", True), ("2026-09-19 (the 9/19 sitting)", False), ("when 2/3 of the legs have filled", False), ("at HEN-46's resolution", False), ("", False)]:
+            check(f"9 date classifier parity on {raw!r}", willq_view.datelike_not_iso(raw) == prome_gate.datelike_not_iso(raw) == will_brief.datelike_not_iso(raw) == decision_deck.datelike_not_iso(raw) == want)
 
     if fails:
         print("QUEUE-PARSER SELFTEST ✗ " + " · ".join(fails))
         return 1
-    print(f"QUEUE-PARSER SELFTEST ✓ gate and brief agree on the synthetic row set "
-          f"({gate_count}/{brief_count})")
+    print(f"QUEUE-PARSER SELFTEST ✓ gate · brief · willq_view · deck · table_check agree on the synthetic row set "
+          f"({gate_count}/{brief_count}; split + date-classifier parity)")
     return 0
 
 

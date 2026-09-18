@@ -75,6 +75,40 @@ ROOT = Path(__file__).resolve().parents[2]
 ET = "ET"
 
 
+
+# ---- ONE split + ONE date classifier for the WILL_QUEUE table (2026-09-18, ACCEPTANCE_queue_parsers B1/B3/B4) ----
+# Copied verbatim into willq_view.py · prome_gate.py · will_brief.py · decision_deck.py (the gate is a blocking boot
+# surface: no import coupling by design); queue_parser_selftest.py asserts the four copies and table_check agree.
+_ESCAPED_PIPE = "\x00"
+
+
+def split_cells(line):
+    """table_check.split_cells semantics: `\\|` is a literal pipe, every other pipe separates (code spans included),
+    one leading and one trailing pipe are structural. Cells come back stripped."""
+    s = line.strip().replace("\\|", _ESCAPED_PIPE)
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.replace(_ESCAPED_PIPE, "\\|").strip() for c in s.split("|")]
+
+
+_ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
+_DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
+                       r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+
+
+def datelike_not_iso(raw):
+    """B3: a needed-by with NO ISO date but a date-LIKE token. B4 (textual / empty) is its complement."""
+    t = re.sub(r"\*\*|`", "", raw or "")
+    return not _ISO_DATE.search(t) and bool(_DATELIKE.search(t))
+
+
+def is_separator(cells):
+    return bool(cells) and all(re.fullmatch(r":?-+:?", c) for c in cells)
+
 def ell(s, n):
     """Cap s at n chars, appending '…' ONLY when the slice actually shortened.
     A capped string with no suffix tells its reader that's the whole sentence —
@@ -217,11 +251,21 @@ def parse_actions():
     except Exception as e:
         return fail("what you do", "PROME/WILL_QUEUE.md", f"unreadable: {e}") or ([], [])
     section = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
-    dec, chore = [], []
+    dec, chore, hdr = [], [], None
     for line in section.splitlines():
         if not line.startswith("|"):
             continue
-        c = [x.strip() for x in re.split(r"(?<!\\)\|", line.strip("|"))]   # `\|` in a cell is a literal pipe (9/18, scratchrot7cold ❌1)
+        c = split_cells(line)                            # B1 (9/18): the one split
+        if is_separator(c):
+            continue
+        if hdr is None:                                  # B2: the FIRST table row is the header
+            hdr = len(c)
+            continue
+        if len(c) != hdr:                                # B2: skipped BY NAME, never parsed shifted
+            fail("what you do", "PROME/WILL_QUEUE.md", f"SHIFTED row WQ-{c[0][:8]}: {len(c)} cells vs header {hdr} — an unescaped | inside a cell; write it \\|")
+            continue
+        if re.match(r"\d", c[0]) and datelike_not_iso(c[3]):   # B3: rendered undated WITH a named failure
+            fail("what you do", "PROME/WILL_QUEUE.md", f"NOT-ISO needed-by on WQ-{c[0]}: '{c[3][:24]}' (hard dates are YYYY-MM-DD) — renders undated")
         # `^\d` not .isdigit() — mirror of prome_gate.py's 8/16 lettered-ID
         # fix (32b-class rows failed .isdigit() and vanished from the brief
         # while the gate counted them: split-brain, RAV catch 8/16). The

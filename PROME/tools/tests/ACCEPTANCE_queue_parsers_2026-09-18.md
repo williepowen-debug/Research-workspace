@@ -1,0 +1,25 @@
+# ACCEPTANCE — the WILL_QUEUE § OPEN table parsers (2026-09-18, second repair under WQ-229)
+
+**Defect, in its own terms (not the symptom):** five PROME tools parse the same markdown table (`PROME/WILL_QUEUE.md` § OPEN) with five hand-copied naive `split("|")` calls; a `|` inside a cell — escaped `\|` or bare, in a code span or in math — shifts every column to the right in every one of them, silently; a needed-by cell that carries a date in any form but ISO parses as undated and sorts last under a "dated first" banner. The first repair (`8130dae8d`) fixed the split in three tools and left the Decision Deck (the surface Will taps) and the gate's counting untouched; its refusal for shifted rows ran after a minimum-width skip and its date test caught one spelling. Found by `scratchrot7cold` (❌1/❌2) and `parserfixcold` (A2/A3/A4/A5 ❌).
+
+## Conditions (written BEFORE the edit; each is a test)
+- **B1 ONE split.** `willq_view.split_cells`, `prome_gate.split_cells`, `will_brief.split_cells`, `decision_deck.cells` and `table_check.split_cells` agree cell-for-cell (after `.strip()`) on a fixture of lines containing: `\|` at the start, middle and end of a cell · a bare `|` inside a code span · `||` (an empty middle cell) · a trailing `||` (an empty last cell). (`\\|`, GFM's escaped-backslash-then-column-break, is NOT special-cased: all five copies read it as table_check does, a backslash then a literal pipe — declared divergence from GFM, no live row uses it.) `queue_parser_selftest.py` asserts it; reverting any one copy to a naive split FAILS the test (the reader proved the old test did not notice a reversion).
+- **B2 shifted rows.** Header = the FIRST table row after `## OPEN`, whatever its first cell says. A data row whose cell count differs from the header's — in either direction, tested BEFORE any minimum-width skip — is: REFUSED BY NAME by `willq_view` (rc 2, nothing written); FLAGGED BY NAME by the gate (`SHIFTED #n (k cells vs header h)`) and excluded from its actionable count; SKIPPED with a named stderr warning by the brief and the Deck. Nowhere is it parsed shifted.
+- **B3 date-like, not ISO.** A needed-by cell with NO ISO date (`YYYY-MM-DD`) but a date-LIKE token — `m/d` · `m/d/yy` · `m/d/yyyy` · unpadded `yyyy-m-d` · `Mon d` / `d Mon` (month names, English) — is REFUSED BY NAME by `willq_view` (rc 2) and FLAGGED BY NAME by the gate (`NOT-ISO #n`); the Deck and the brief render it undated WITH a named stderr warning (the Deck is Will's live surface, regenerated every run — it must not go dark over one cell; the SCRATCH block is a committed artifact and must not persist wrong). The same classifier, copied, in all four modules; parity asserted.
+- **B4 textual or empty.** A needed-by with no date-like token — including a fraction followed by `of` (`when 2/3 of the legs have filled`) — is allowed everywhere, due None, no warning. B3 and B4 are disjoint by construction: B4 is "no B3 token".
+- **B5 live queue.** After the edit, WQ-263 and WQ-157 read `2026-09-19` in all four parsers (the Deck's `by`, the gate's date check, the brief's `due`, the renderer's `due`).
+- **B6 clean import.** `python3 -W error -c "import willq_view, prome_gate, will_brief, decision_deck"` from `PROME/tools` raises nothing (the first repair emitted `SyntaxWarning: invalid escape sequence '\|'`).
+- **B7 drills.** The reader's counterexamples are drills: `9/19/26` · `2026-9-19` · `Sept 19` · `when 2/3 of the legs have filled` · a 5-cell row · `rec||` · a header spelled `| ID |`; every prior drill still passes.
+
+## Neighbours (WQ-229's five)
+- ordinary — the existing fixtures (plain rows, dated, blocked, closed-in-place, lettered id).
+- OVERLAP — `\|` AND a short date in one row (refused on the date, columns intact); a shifted row that ALSO has a short date (flagged SHIFTED, not double-reported).
+- wrong owner — `scripts/validate_all.py:391` is DAEDALUS's fifth naive parser of this table: NOT edited; packeted with this file as the spec.
+- missing information — an empty needed-by (allowed); a table with NO header row (willq refuses "no header"); a row with FEWER cells than the header (B2, the 5-cell case the first repair dropped silently).
+- concurrent activity — N/A: no shared state; every tool re-reads the file on each run.
+
+## Verification (run all; receipts in the commit body)
+`python3 PROME/tools/queue_parser_selftest.py` · `python3 PROME/tools/willq_view.py --selftest` · `python3 PROME/tools/willq_view.py --check PROME/SCRATCH.md` · `cd PROME/tools && python3 -W error -c "import willq_view, prome_gate, will_brief, decision_deck"` · `python3 PROME/tools/decision_deck.py --help` (runs) · a live parse of WQ-263/WQ-157 in each module (B5).
+
+## Completion states (filled at commit; never merged)
+IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED — see the commit body and the reader's ledger named there.
