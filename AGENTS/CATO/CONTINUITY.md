@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-18, past-day system review delivered. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-18, Carta hook investigation delivered. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — Carta hook investigated.** [Report](runs/2026-09-18_1215_carta-hook-investigation.md). Live Claude `2.1.276` lists `carta-investors@synced` enabled; its dispatcher is mode `0644`, explaining the permission-denied warning. Terminal account-plugin sync (documented from `2.1.273`) and September 17 sync metadata explain the recent appearance; who enabled it upstream remains unknown. Plugin presence does not prove a Carta subscription/authenticated connection. Static hook review and telemetry limits recorded. Recommend `claude plugin disable carta-investors@synced`; **not executed**, no settings changed or external sends. Investigation complete; next orient and await Will.
 
 **Latest follow-up — PROME action brief prepared for Will to share.** [Action brief](runs/2026-09-18_1102_prome-action-brief.md) lists nine separately dispositionable items with owners, evidence and acceptance checks; historical pinned probes are explicitly not repair acceptance tests. Rechecked at `deb3b0933`: four main source files unchanged; hook v4 `249950463` still false-blocks echo, runtime advisory fixed. No sends or owner repairs. Original report updated with the follow-up and later-revision limits. Next: orient and await Will.
 
