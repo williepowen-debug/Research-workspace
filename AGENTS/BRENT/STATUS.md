@@ -90,18 +90,21 @@ Primary rig observation graded; receipt and instrument readers repaired; Will co
 | **Thu Sep 17** | ✅ USO 150/165 spread — CLOSED EARLY 2026-09-10 ~15:1x by Will's hand, $630 proceeds (+$330); WQ-207 9/17 rail discharged unexecuted | 🟡 |
 | **Thu Sep 17** | Petroline BG-02 — EARLIEST GRADEABLE DATE on the 7-day-MA floor (not an event; an arithmetic gate) | 🔴 |
 | **~Fri Sep 18** ⌁*modeled* | ✅ YANBU EXPORT-STOCK DEPLETION WINDOW — the date routing would convert to BARRELS (modeled from Reuters 5-7 days off the 2026-09-11 shut) — GRADED 2026-09-18: loadings stopped DAY 1 (9/11… | 🔴 |
+| **~Tue Sep 22** ⌁*modeled* | ATA truck tonnage AUGUST — first print fully carrying $6+ retail diesel | 🟡 |
 | **Fri Sep 25** | Petroline frame-breaker resolver WINDOW CLOSES 17:00 ET — BG-02 instance (4) lapse date | 🔴 |
 | **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
+| **~Mon Oct 5** ⌁*modeled* | 🟠 ARAMCO NOVEMBER OSPs — first monthly price signal set entirely under the Petroline shut | 🟠 |
 | **Tue Oct 6** | EIA October STEO — successor same-series vintage read | 🟠 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
+| **~Wed Oct 14** ⌁*modeled* | 🟠 IEA OMR OCTOBER — second collective-action watch + global stock draw (successor to the Sept OMR read 9/18) | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 6 of 25 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 9 of 28 rows are modeled.*
 
-*25 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*28 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.
