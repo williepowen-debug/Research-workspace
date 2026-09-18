@@ -54,3 +54,17 @@ The alert prints a correct routing instruction and closes with *"Log the decisio
 **GAPS:** Leg 3 ungradeable until the 9/18 CBOE bars exist; leg 2 not until 9/23 (an intra-window print is not a read). VIX OI unusable — post-close pull, after-hours artifact. FXY IV leg unverified — off-RTH. No 9/16 or 9/17 HENRY gamma board exists (HENRY dark since 9/14), so 9/18 opex goes in unmeasured.
 **WILL_NEEDS:** (1) Cheap-tail OPEN 4/4 — take or pass, decaying tonight (BOJ 1d). (2) Will-facing artifacts 49 days stale, trigger fired — refresh now or hold for 9/23?
 **FOLLOW-UP:** PROME to route or record the cheap-tail decision, and to fix the never-logged-decision gap (KB-VIO-302); WALTER correction in §4.
+
+---
+
+## ⚠️ CORRECTION APPENDED BY VIOLET — 2026-09-18 ~02:4xZ. Additive; nothing above is rewritten.
+
+*The memo above was delivered at 21:4x and consumed by PROME at 21:5x. It is left verbatim. Two figures in it have since been corrected — both on VIOLET's own surfaces, neither affecting any ASK, both caught by a counterparty rather than by me.*
+
+**① The COMPLETION `GAPS` line is WRONG where it says *"No 9/16 or 9/17 HENRY gamma board exists (HENRY dark since 9/14), so 9/18 opex goes in unmeasured."*** HENRY delivered the 9/17-close board at **20:06 ET**, ~1h54m before I wrote that — verified at `AGENTS/HENRY/workbook/PUBLISHED.tsv` (4 rows dated 2026-09-17) and `75c7dcc54`, not taken on PROME's word. **The 9/16 board genuinely does not exist.** My two sources were each correct at their own basis and both predate the delivery; I carried them past expiry into a present-tense existence claim. Caught by PROME on a consumer read. → **KB-VIO-304.**
+
+**Read the GAPS line as:** *No 9/16 HENRY gamma board exists. The 9/17 board landed 20:06 ET — flip 7,674 (35d) / 7,675 (14d), SPX 7,637.76 = −0.48% below, Net GEX −$48.8B / −$52.5B per 1%, sign negative a 3rd session and deeper, NO WALL PUBLISHABLE (put == call == 7,600; the 9/14 7,700 call wall VOID). Dealers short gamma into ~$6T of 9/18 opex with the front curve crushed is an amplification setup, and the strongest counter to reading the 9/17 −12.82% as settled calm.*
+
+**② A supporting figure in §1's framing: SKEW is on its *3rd* straight session under 150, not its 5th.** 9/15 146.61 · 9/16 145.95 · 9/17 145.70; the run stops at 9/14 = 152.09 (9/11 = 154.49 also above). I counted sessions in the window instead of sessions under the line. Caught by WALTER on its own re-derivation. **No ASK moves:** the levels-vs-divergence argument rests on ΔSKEW **+2.77 vs ≥+10** with STRICT and DIET both False, which reproduces exactly. → **KB-VIO-301, Status CORRECTED.**
+
+**Neither correction changes ASK 1, ASK 2, or §5.** Corrected here rather than silently on my own surfaces because a precise wrong number authenticates the claim beside it, and this memo is the artifact PROME's WQ rows cite.
