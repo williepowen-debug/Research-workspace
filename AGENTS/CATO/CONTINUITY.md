@@ -4,6 +4,8 @@
 
 ## Current assignment and approvals
 
+**Latest — new commits/follow-through reviewed.** [Report](runs/2026-09-18_1830_new-commits-review.md), [probes](runs/2026-09-18_1830_new-commits-probe.py), [results](runs/2026-09-18_1830_new-commits-probe.txt). Through `a2522254c`: corrected BRENT packet still predicts an unestablished roll-only future verdict; SAM checker accepts incomplete windows; HAWK counts three Romanian kills as four and overstates what re-attribution resolves. WQ-157 labels the subgroup correctly; BOND source still wrong. Promised wider packets/queue rewrite/registrations not yet present at snapshot. No owner edits/sends/launches; active work preserved. Next: orient and await Will, recheck revisions before follow-up.
+
 **Latest — PROME response assessed.** [Feedback](runs/2026-09-18_173415_prome-review-response.md). Broad triage supported; SAM corrections and boot wiring confirmed as implementation, not full independent closure. R5 exception is caught at the gate wrapper. WQ-263 must explicitly cover wrapped `-m` recognition; its history does include pipeline bypasses. Owner delivery is distinct from desk launches; CATO’s prior no-send boundary was deliberate. No owner edits, sends or launches. Next: orient and await Will.
 
 **Latest follow-up — updated PROME handoff prepared for Will.** [Consolidated brief](runs/2026-09-18_1410_prome-updated-action-brief.md) combines R1–R6 with retained A1–A7, closes A8 narrowly/A9 fully, and gives owners, order, acceptance checks and a return format. Thirteen source files rechecked unchanged at `c7284ddeb`. Earlier brief points forward; no owner instructions overwritten, no peer send/inbox delivery or implementation. Next: orient and await Will.

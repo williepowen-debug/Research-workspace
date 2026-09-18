@@ -1,0 +1,31 @@
+complete_no_roll requested 2026-09-15 2026-09-18 rc 0
+OIL ROLL CHECK — BZ=F  2026-09-15..2026-09-18
+  ✅ NO ROLL — single contract BZX26.NYM across all 4 session(s).
+     BZ=F 2026-09-15->2026-09-18: 100.00 -> 103.00 = +3.00% (basis-clean)
+complete_roll requested 2026-09-15 2026-09-18 rc 2
+OIL ROLL CHECK — BZ=F  2026-09-15..2026-09-18
+  🔴 ROLL DETECTED — the continuous series changed contract inside this window.
+      2026-09-17: BZX26.NYM -> BZZ26.NYM
+  ⛔ A % change from 2026-09-15 to 2026-09-18 on BZ=F MIXES CONTRACTS and is not a price move.
+  ✅ Matched-contract changes over the same window:
+      BZX26.NYM: 100.00 -> 103.00 = +3.00%
+      BZZ26.NYM: 90.00 -> 93.00 = +3.33%
+      BZ=F (continuous, NOT a price move): -7.00%
+missing_end_hides_roll requested 2026-09-15 2026-09-18 rc 0
+OIL ROLL CHECK — BZ=F  2026-09-15..2026-09-18
+  ✅ NO ROLL — single contract BZX26.NYM across all 2 session(s).
+     BZ=F 2026-09-15->2026-09-16: 100.00 -> 101.00 = +1.00% (basis-clean)
+single_observation requested 2026-09-15 2026-09-18 rc 0
+OIL ROLL CHECK — BZ=F  2026-09-15..2026-09-18
+  ✅ NO ROLL — single contract BZX26.NYM across all 1 session(s).
+     BZ=F 2026-09-15->2026-09-15: 100.00 -> 100.00 = +0.00% (basis-clean)
+missing_middle requested 2026-09-15 2026-09-18 rc 0
+OIL ROLL CHECK — BZ=F  2026-09-15..2026-09-18
+  ✅ NO ROLL — single contract BZX26.NYM across all 2 session(s).
+     BZ=F 2026-09-15->2026-09-18: 100.00 -> 103.00 = +3.00% (basis-clean)
+HOOK '' block
+HOOK 'echo ' allow
+HOOK 'command -v ' block
+HOOK 'env printf %s ' block
+HOOK 'timeout 1 echo ' block
+Historical counterexamples reproduced; exit zero is NOT repair acceptance.
