@@ -1,0 +1,7 @@
+# GATES state history — 2026-09-17 evening consumer-read pass (GATE-TERRY-007)
+Rotated by PROME at the eighteenth HEARTBEAT re-base (2026-09-17 21:4x ET). Cell below is VERBATIM as superseded; recompute the crc, never trust the stated figure.
+Reason: the 08:2x consumer-read cell said the 9/16 DGS10 cell was UNKNOWN; it published ~16:15 and PROME read it from the FRED API at the re-base. One clause replaced in place (the UNKNOWN sentence → the 9/16 cell + counter); the rest of the cell is unchanged. TERRY owns the grade; this is a consumer read.
+
+## GATE-TERRY-007 · state — pre-edit cell, rotated 2026-09-17 evening
+entry-crc32: 1443953976 · bytes: 818 · rotated 2026-09-17
+LIVE — exit counter 0/5; PROME CONSUMER READ 2026-09-17 08:2x ET (owner TERRY dark, last self-commit 9/14; fetch.py fred DGS10, FRED official cells, VERIFIED at the artifact — a consumer read, NEVER the grade; TERRY re-grades at its next touch): **DGS10 4.95 [9/10] · 4.96 [9/11] · 4.97 [9/14] · 5.00 [9/15] — four more CLOSED cells, none <4.50, counter STAYS 0-of-5; the 9/11 cell that was OWED has PUBLISHED (4.96), so the H.15 selective-delay risk TERRY flagged did NOT stall the count.** Distance now 50bp, the widest since registration (context only; the gate counts CROSSINGS). 9/16 cell UNKNOWN at this read (FRED publishes T+1). FOMC 9/16 HIKED 25bp to 3.75–4.00% (12–0). 9/22 remains the last date a NEW 5-streak can start before the 9/30 expiry moots the gate. prior owner grade → history cell
