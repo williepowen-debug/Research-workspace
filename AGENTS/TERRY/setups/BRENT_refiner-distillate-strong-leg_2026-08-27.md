@@ -522,3 +522,16 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 - **Management after the fill:** § 8 governs (ratchet, don't target; `RISK_RULES` #23 driver test crack-led vs crude-led named in figures before any add). **No target, no add, no rule is created by this block.**
 
 **`$0` moved by TERRY · no order · no gate moved or shaved. TERRY does not execute. The decision is Will's and has been made.**
+
+### ⑥ DESK CONVERSATION WITH WILL, 12:1x–12:3x ET — *"how many shares?"* / *"is it too late?"* — RECORDED; NO WORD BY CLOSEOUT (12:27 ET)
+
+**Count:** **3 shares** is the ruled decision (route (i)); at `$414.84` [12:10 ET] ≈ `$1,245`, **+21% on the approved `$1,033` dollar size** — the share count was the decision, the dollar figure a dead mark; 2 shares ≈ `$830` if he wants the original dollar size. `$500` cap = −40% on 3.
+
+**"Too late?" — measured, not felt (own 1y daily pull, 12:1x ET):** VLO `$413.18` = the **52-week high, set today** · **+10.7% above the 20-day MA (`373.36`) · +22.4% above the 50-day (`337.66`)** · 30-session low `$340.41` (+21.4%) · **max pullback INSIDE the 22-session run = −2.4%** (no dip offered) · 6 red closes in 22. **VLO +39%/30d vs the crack +20.4% (7/23 `$90.16` → `$108.53`) ⇒ the stock has run ~2× the thesis variable.** One prior >+30%/22d first-cross in the year (7/21, fwd-20 `+11.2%`) — **n=1, not evidence.** ⇒ **Thesis NOT late** (crack at its high, `F1` `$13.5` away) · **tape LATE** (fresh high, one-way month, the card's own red-refiner/green-crude gate met ONCE in 7 sessions and NOT today).
+
+> **DESK REC, stated to Will: SCALE.** 1 share now if he wants to be in today; the remaining 2 on the card's gate day (refiner red / crude green) **or** a pullback toward the 20-day MA (~`$375`, ≈−10%); **stand down entirely on a crack close `<$95` (`F1`).** All-3-now stays inside the approval and the cap; waiting for the gate costs only time. **Either fits the ruling; his call.**
+
+**Context he asked about, sourced, owned elsewhere:** the refinery "failure" is **Exxon Joliet, IL (275 kbpd, PADD-2), shut 9/13 on a power loss, still offline this morning with no restart date** [NBC Chicago 9/14; 24/7 Wall St 9/18] — a COMPETITOR outage ⇒ supportive of cracks, and **borrowed margin that fades on restart** (BRENT owns the figures; already on this card at § ③). Separately **Valero Port Arthur (385 kbpd) took a partial power outage after TS Edouard** — VLO's OWN volumes; date UNVERIFIED (reads 9/15) [Hydrocarbon Processing, Sept 2026]. **Aramco cancelled ALL October crude to European refiners** (East-West pipeline shut since the 9/10 drone strike; half capacity "within days", full in ~6 weeks; crude shuttled through Hormuz) [Bloomberg via Investing.com/OilPrice 9/18] ⇒ a REROUTING story for crude (down a 3rd session) and a PRODUCT-tightness story for Europe — same direction as this card, same borrowed character.
+
+⛔ **NO WORD BY CLOSEOUT (12:27 ET): no fill receipt, no count chosen, `WQ-258` no take-or-pass.** State stays **STAGED**; receipt owed; if the day passes unfilled it is Will's disposition, re-dated on his word (L412). `$0` moved by TERRY.
+
