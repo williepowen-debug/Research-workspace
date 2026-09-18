@@ -99,6 +99,46 @@ def as_of(pairs, target):
     return None, None
 
 
+def diff_dated(dash, label, a, a_d, b, b_d, classify, headline=False):
+    """Difference two series that MUST share an observation date. Fails CLOSED.
+
+    Generalises the repo-vs-IORB repair (KB-LIQ-126) to EVERY two-leg composite in this
+    brief. THE RULE WAS NEVER ABOUT IORB: any two legs differenced must come from the same
+    session, or the difference is a cross-date artifact rendered as a level. Written after
+    WALTER pointed out (2026-09-17) that its own version of this guard existed but was
+    scoped to CONTRACT MONTHS and therefore missed every case that night -- "the right rule
+    and the wrong noun." I had just done the same thing: fixed the repo block and left three
+    identical defects in the credit block of this same file, all three rendering with NO
+    date at all. Any event that re-dates ONE leg is the same bug: a policy change, a
+    publisher revision, a fill-forward, a different market calendar.
+    """
+    if a is None or b is None:
+        add(dash, label, "N/A", "🟠",
+            f"UNAVAILABLE — a leg failed to fetch; {label} missing this boot", headline=headline)
+        return None
+    val = a - b
+    if a_d and b_d and a_d != b_d:
+        add(dash, label, f"{val:.0f}bps", "⚪",
+            f"UNGRADEABLE — legs are DIFFERENT SESSIONS ({a_d} vs {b_d}); a cross-date "
+            f"difference is an artifact, not a level, and is NOT graded this boot",
+            a_d, headline=headline)
+        return None
+    if not (a_d and b_d):
+        # Falsification run 2026-09-17 caught this branch grading 🟢 on "[both date?]".
+        # If a date is missing the legs CANNOT be shown to share a session, so grading it
+        # is the same benign-looking-number-on-an-unverifiable-basis pattern this helper
+        # exists to remove. Keep the value (FORGE's fail-safe: never null a number on a
+        # failed date lookup), withhold the GRADE.
+        add(dash, label, f"{val:.0f}bps", "⚪",
+            f"NOT GRADED — a leg has no observation date ({a_d or 'none'} / {b_d or 'none'}), "
+            f"so the legs cannot be shown to share a session. Value kept, grade withheld",
+            a_d or b_d or "date?", headline=headline)
+        return None
+    m, n = classify(val)
+    add(dash, label, f"{val:.0f}bps", m, f"{n}  [both {a_d}]", a_d, headline=headline)
+    return val
+
+
 def trend_str(vals, mult=1.0, dp=0):
     return " → ".join(f"{v * mult:.{dp}f}" for v in reversed(vals[:6]))
 
@@ -109,6 +149,7 @@ def trend_str(vals, mult=1.0, dp=0):
 
 def build_credit():
     ccc = bb = hy_bps = None  # for the CCC-BB tail-gap + HY-IG basis composites
+    ccc_d = bb_d = hy_d = ig_d = None   # each leg's OWN obs date — see diff_dated()
 
     # HY OAS (macro) — config.py bands (SENTRY retune 6/26): 🟢<265 / 🟡265-280 / 🔴>280 X1 master.
     # <260 ×2 closes = bear-axis KILL — a TWO-WAY secondary the single-sided config.classify can't
@@ -119,6 +160,7 @@ def build_credit():
     else:
         bps = v * 100
         hy_bps = bps
+        hy_d = d
         # crun HOISTED 2026-09-02 (blind cold read, finding B7). It was defined inside the
         # 260-265 else-block, so the `bps < 260` branch above it had NO RUN CHECK AVAILABLE and
         # printed a two-close label off a ONE-close observation. See the <260 branch below.
@@ -181,6 +223,7 @@ def build_credit():
     v, d, tr, err = fred_series("BAMLH0A3HYC")
     if not err:
         ccc = v * 100
+        ccc_d = d
         # YELLOW FLOOR SOURCED FROM THE SHARED CONFIG 2026-08-28 (DAEDALUS wiring-sweep item 2).
         # Was hand-typed 960 while FORGE config.py carries CCC yellow (900, 1000) — a fork a
         # SENTRY retune would propagate to hy_oas_watch.py and NOT to here. Not diverging on
@@ -202,21 +245,17 @@ def build_credit():
     v, d, tr, err = fred_series("BAMLH0A1HYBB")
     if not err:
         bb = v * 100
+        bb_d = d
         add("CREDIT", "BB OAS", f"{bb:.0f}bps", "🟢", "(feeds CCC-BB gap)", d, trend_str(tr, 100, 0))
     else:
         add("CREDIT", "BB OAS", "ERR", "🟠", f"fetch error: {err}")
 
     # CCC-BB tail-gap — NEXUS R3 / KB-LIQ-058 pin; falsifier <~400  [headline]
-    if ccc is not None and bb is not None:
-        gap = ccc - bb
-        if gap < 400:   m, n = "🔴", "PIN BROKEN (<400) — bifurcation falsified (NEXUS R3 falsifier)"
-        elif gap < 500: m, n = "🟠", "tail-gap compressing toward the <400 falsifier"
-        else:           m, n = "🟢", "pin INTACT — quality bifurcation wide (KB-LIQ-058)"
-        add("CREDIT", "CCC-BB gap", f"{gap:.0f}bps", m, n, "", "", headline=True)
-    else:
-        # never let the headline pin silently vanish on a CCC/BB fetch failure
-        add("CREDIT", "CCC-BB gap", "N/A", "🟠",
-            "gap UNAVAILABLE — CCC or BB fetch failed (headline pin missing this boot)", headline=True)
+    def _gap_band(g):
+        if g < 400:   return "🔴", "PIN BROKEN (<400) — bifurcation falsified (NEXUS R3 falsifier)"
+        elif g < 500: return "🟠", "tail-gap compressing toward the <400 falsifier"
+        return "🟢", "pin INTACT — quality bifurcation wide (KB-LIQ-058)"
+    diff_dated("CREDIT", "CCC-BB gap", ccc, ccc_d, bb, bb_d, _gap_band, headline=True)
 
     # IG OAS — mandate-extension SECONDARY row (7/1): IG widening while HY compressed = credit-cycle
     # inflection LEADING the HY>280 watch. 2026 range 73-94; >94 = range break, >110 = regime.
@@ -224,6 +263,7 @@ def build_credit():
     v, d, tr, err = fred_series("BAMLC0A0CM")
     if not err:
         ig_bps = v * 100
+        ig_d = d
         if ig_bps > 110:  m, n = "🔴", "REGIME (>110) — IG leads when transmission is balance-sheet, not credit"
         elif ig_bps > 94: m, n = "🟠", "2026-HIGH BREAK (>94) — leading-indicator inflection candidate"
         else:             m, n = "🟢", f"benign ({94 - ig_bps:.0f}bps below the 94 range-high)"
@@ -232,22 +272,33 @@ def build_credit():
         add("CREDIT", "IG OAS", "ERR", "🟠", f"fetch error: {err}")
 
     # HY−IG basis (mandate ext.) — 2026 range 189-253; flat basis + wide tail = bifurcation signature
-    if hy_bps is not None and ig_bps is not None:
-        basis = hy_bps - ig_bps
-        if basis > 250:   m, n = "🟠", "junk-specific DECOMPRESSION (2026 high 253, 3/30 stress)"
-        elif basis < 180: m, n = "🟡", "complacency extreme (below the 2026 low 189)"
-        else:             m, n = "🟢", "flat — no aggregate decompression (stress stays tail-only)"
-        add("CREDIT", "HY-IG basis", f"{basis:.0f}bps", m, n)
+    def _basis_band(b):
+        if b > 250:   return "🟠", "junk-specific DECOMPRESSION (2026 high 253, 3/30 stress)"
+        elif b < 180: return "🟡", "complacency extreme (below the 2026 low 189)"
+        return "🟢", "flat — no aggregate decompression (stress stays tail-only)"
+    diff_dated("CREDIT", "HY-IG basis", hy_bps, hy_d, ig_bps, ig_d, _basis_band)
 
     # Euro HY (mandate ext. TERTIARY, coordinate BOND) — EU-led credit divergence watch
     v, d, tr, err = fred_series("BAMLHE00EHYIOAS")
     if not err:
         eu = v * 100
-        if hy_bps is not None:
-            diff = eu - hy_bps
-            m, n = ("🟠", f"EU-led divergence (Euro−US {diff:+.0f}bps > +50)") if diff > 50 else ("🟢", f"(Euro−US {diff:+.0f}bps)")
-        else:
+        # ⚠️ HIGHEST cross-date risk of any composite in this brief, and the reason the
+        # diff_dated() rule is not an IORB story: Euro HY follows the EUROPEAN holiday
+        # calendar and US HY the US one, so these two legs are GUARANTEED to disagree on
+        # dates several times a year — Easter Monday, Whit Monday, Boxing Day, July 4th.
+        # On each of those the old inline `eu - hy_bps` silently differenced two different
+        # sessions and printed the result as a level. Unlike the repo case this needs no
+        # policy event to fire; the calendar does it unprompted.
+        if hy_bps is None:
             m, n = "🟢", "(US HY unavailable for the differential)"
+        elif d and hy_d and d != hy_d:
+            m, n = "⚪", (f"Euro−US differential UNGRADEABLE — Euro HY [{d}] and US HY [{hy_d}] are "
+                         f"DIFFERENT SESSIONS (European vs US holiday calendar). The LEVEL below "
+                         f"stands; the differential is not computed this boot")
+        else:
+            diff = eu - hy_bps
+            m, n = (("🟠", f"EU-led divergence (Euro−US {diff:+.0f}bps > +50) [both {d}]") if diff > 50
+                    else ("🟢", f"(Euro−US {diff:+.0f}bps) [both {d}]"))
         add("CREDIT", "Euro HY OAS", f"{eu:.0f}bps", m, n, d, trend_str(tr, 100, 0))
 
 
