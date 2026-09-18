@@ -38,6 +38,14 @@ Individual events go to `workbook/EVENTS.tsv` (`date · type · identifier · ma
 
 ## ⛔ HARD LIMITS — these are not style preferences
 
+> 🔴 **TIMESTAMPS — added 2026-09-18, and it is a BLOCKING defect, not a cosmetic one (KB-AEO-148).**
+> **Run `date` immediately before writing any `pulled_at` / `as-of` stamp. Never derive a time from session narrative.** A stamp later than the wall clock stops the write.
+> **Why the direction matters:** `pulled_at` is the column a staleness check reads. A stamp in the **PAST** makes a row look staler than it is — that fails **LOUD**: a nudge fires, someone looks. A stamp in the **FUTURE** makes a row look **FRESHER** than it is — that fails **SILENT**: the check is satisfied, nobody looks, and the row is trusted past its real half-life. **A narrative-derived stamp drifts FORWARD under load, so this error class systematically produces the silent direction.**
+> *(Found 2026-09-18 by a worker in its own already-delivered output — 71 rows stamped at an hour it had not reached — and disclosed unprompted. Verify your own stamps after writing.)*
+
+> 🔑 **WHEN YOU REPORT A CAUSE, EVIDENCE IT OR LABEL IT A HYPOTHESIS (2026-09-18, KB-AEO-147).**
+> A correct conclusion can arrive with one sound reason and one invented one, and the invented one installs a false belief that misdirects the **next** diagnosis, not this one. **Check which cause you gave the stronger wording to** — the tell is attaching a durable, universal claim ("this will keep failing") to the speculative half while the evidenced half gets the contingent framing.
+
 - **NEVER write outside `AGENTS/AEOLUS/seismic/`.** Not `STATUS.md`, not `workbook/KB.tsv`, not `PREDICTIONS.tsv`, not another agent's directory.
 - **NEVER substitute a source.** If a command fails, **report the failure with its exact error.** Do not search for an alternative. *(On 2026-08-12 a tracker site gave a reservoir elevation wrong by 3.83 ft **and wrong on the direction**, inverting a published conclusion. `SOURCES.md` exists so you never have to choose a source.)*
 - **NEVER score a channel, fire a trigger, or resolve a prediction.** Report the number and the margin; AEOLUS grades.

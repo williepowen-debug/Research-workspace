@@ -38,3 +38,28 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-19	nino12_weekly	4.0	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, unchanged from 12AUG
 2026-08-19	nino4_weekly	0.8	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, down from 1.0 (12AUG)
 2026-09-10	oni_jja	1.80	degC	CPC-oni.ascii	2026-09-11 11:2x ET	JJA 2026 = +1.80 (Nino-3.4 29.09), from MJJ +1.39. 'Strong' +1.5 reached at JJA. RONI URL 404 this session -- SEARCH-NOT-FOUND, re-locate
+2026-JJA	roni	1.36	degC	CPC-RONI.ascii	2026-09-18	NEW SEASON (first JJA record). ERSSTv6 basis (CPC switched 8/10/26). Traj FMA -0.44 -> MAM -0.04 -> AMJ +0.49 -> MJJ +0.97 -> JJA +1.36. Needs +1.14 more over 4 seasons (JAS/ASO/SON/OND) to reach the +2.5 historic bar
+2026-MJJ	roni	0.97	degC	CPC-RONI.ascii	2026-09-18	REVISED from 0.98 (recorded 2026-08-21). CPC RONI page: values may change up to two months after the initial real-time post; most recent values are an estimate. NOT an error at either date
+2026-08-31	nino34_monthly	2.52	degC	CPC-sstoi.indices	2026-09-18	NEW MONTH Aug 2026 (SST 29.42). From Jul +2.03 = +0.49 MoM. sstoi col order puts NINO3.4 FOURTH. Same series as the earlier nino34_monthly_oisst rows - canonical AGENT.md name used here, vocabulary drift flagged to AEOLUS
+2026-08-31	nino12_monthly	4.08	degC	CPC-sstoi.indices	2026-09-18	Aug 2026 Nino-1+2 (SST 24.93), from Jul +3.56. THE FIGURE MISQUOTED AS '3.4' - check region before quoting
+2026-07-29	nino34_weekly	2.4	degC	CPC-wksst9120.for	2026-09-18	REVISED from 2.3 (recorded 2026-08-13). OISSTv2.1 near-real-time revision
+2026-08-05	nino34_weekly	2.5	degC	CPC-wksst9120.for	2026-09-18	REVISED from 2.6 (recorded 2026-08-13). OISSTv2.1 near-real-time revision
+2026-08-12	nino34_weekly	2.6	degC	CPC-wksst9120.for	2026-09-18	REVISED from 2.7 (recorded 2026-08-21). 🔴 CONSEQUENCE: on the current vintage 12AUG and 19AUG are BOTH +2.6, so the 'first WoW pullback this season' recorded in DOSSIER 8/27 is NOT present in the live series - see LOG
+2026-08-26	nino34_weekly	2.6	degC	CPC-wksst9120.for	2026-09-18	week centered 26AUG2026; SST 29.4; col3
+2026-09-02	nino34_weekly	2.7	degC	CPC-wksst9120.for	2026-09-18	week centered 02SEP2026; SST 29.4; col3
+2026-09-09	nino34_weekly	2.9	degC	CPC-wksst9120.for	2026-09-18	week centered 09SEP2026; SST 29.6; col3. LATEST WEEK AVAILABLE and the season high. Traj 19AUG 2.6 -> 26AUG 2.6 -> 02SEP 2.7 -> 09SEP 2.9
+2026-08-26	nino3_weekly	3.4	degC	CPC-wksst9120.for	2026-09-18	week centered 26AUG2026
+2026-09-02	nino3_weekly	3.5	degC	CPC-wksst9120.for	2026-09-18	week centered 02SEP2026
+2026-09-09	nino3_weekly	3.7	degC	CPC-wksst9120.for	2026-09-18	week centered 09SEP2026
+2026-08-26	nino12_weekly	4.2	degC	CPC-wksst9120.for	2026-09-18	week centered 26AUG2026
+2026-09-02	nino12_weekly	4.6	degC	CPC-wksst9120.for	2026-09-18	week centered 02SEP2026
+2026-09-09	nino12_weekly	4.5	degC	CPC-wksst9120.for	2026-09-18	week centered 09SEP2026. EP-based event - far-eastern box still the warmest
+2026-08-26	nino4_weekly	1.0	degC	CPC-wksst9120.for	2026-09-18	week centered 26AUG2026
+2026-09-02	nino4_weekly	1.0	degC	CPC-wksst9120.for	2026-09-18	week centered 02SEP2026
+2026-09-09	nino4_weekly	0.9	degC	CPC-wksst9120.for	2026-09-18	week centered 09SEP2026. Nino-4 is the ONLY region not rising - CPC 9/10 discussion notes it decreased to +0.1C in August on the ERSST basis
+2026-09-10	verystrong_prob_ond	90	pct	CPC-ensodisc	2026-09-18	'greater than 90% chance of a very strong event during the Northern Hemisphere fall and winter 2026-27' - RESTATED verbatim, UNCHANGED from the 8/13 issue. CONVERTS PROME's INFERRED relay to a VERIFIED primary read
+2026-09-10	historic_prob_ond	75	pct	CPC-ensodisc	2026-09-18	🔴 RAISED 69 -> 75 (+6pts). 'During the October-December 2026 season, there is a 75% chance of a historic event that would exceed the strength of previous El Nino events dating back to 1950 (+2.5C or more for a 3-month RONI value)'
+2026-09-18	oni_minus_roni	0.44	degC	derived-CPC	2026-09-18	JJA 2026: ONI +1.80 - RONI +1.36. Recomputed, NOT carried forward. Within-event drift FMA +0.55 -> MAM +0.50 -> AMJ +0.46 -> MJJ +0.42 -> JJA +0.44 = NARROWING as the event grows. At +0.44, RONI +2.5 implies ONI ~+2.94
+2026-09-17	djf_temp_northeast_corridor	40	pct	CPC-GIS-lead3DJF	2026-09-18	PJM footprint above-normal temp prob. Fcst_Date 20260917. UNCHANGED from the 8/20 issuance at every PJM point tested
+2026-09-17	djf_temp_abovenormal_max	50	pct	CPC-GIS-lead3DJF	2026-09-18	max above-normal prob over the PJM footprint = Cleveland OH 50%; CONUS-wide 50% contour also PNW/upper Midwest. Unchanged vs 8/20
+2026-09-17	djf_temp_florida_category	33	pct	CPC-GIS-lead3DJF	2026-09-18	NEAR-NORMAL remains the favored temp category for Miami/Orlando/Tampa. Unchanged vs 8/20

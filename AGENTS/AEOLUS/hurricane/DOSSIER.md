@@ -1,118 +1,185 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-08-27.** Basin state, ACE and both seasonal outlooks re-pulled from primaries this date. **C1 score: 2 🟡 as last graded by AEOLUS 8/13 — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-09-18.** Basin state, ACE, both seasonal outlooks and the loss leg re-pulled from primaries this date. **C1 score: 1 as last held by AEOLUS 2026-09-11 (drain session) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-08-27**  ·  **Dossier written: 2026-08-27**
+> **Last real data refresh: 2026-09-18**  ·  **Dossier written: 2026-09-18**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
-**We are in peak season (mid-Aug → mid-Oct).** *(CSU's own 8/19 words for the current window: "This period historically marks the real ramp-up for Atlantic TC activity.")*
+**The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
+
+> ⚠️ **PRIOR DOSSIER VINTAGE WAS 2026-08-27 — a 22-day gap, of which the folder was unread 8/28–9/17.** The 9/11 AEOLUS drain session logged TS Edouard from a **secondary** and explicitly owed this pass: ATCF pull, ACE recompute, CSU 9/02 read. **All three are discharged here.** The §0 headline below **supersedes** the 8/27 "silence ended (Dolly)" headline.
 
 ---
 
-## 0. 🔴 THE HEADLINE — THE 14-DAY SILENCE ENDED (Dolly, 8/27) — STILL NO GULF/FL SYSTEM
+## 0. 🔴 THE HEADLINE — TWELVE CONSECUTIVE DAYS OF A BLANK BASIN ACROSS THE CLIMATOLOGICAL PEAK; ACE NOW BELOW EVERY YEAR OF THE NORMALS PERIOD
 
-**The Atlantic basin was silent 2026-08-13 through 2026-08-27 (14 days) until Tropical Storm Dolly (AL04) formed 8/27 1100 AM AST, central tropical Atlantic (13.6N 38.7W).** NHC forecasts Dolly to degenerate into a tropical wave by Friday/Saturday under increasing SW shear and dry air, **DISSIPATED by 72h (~8/30 1800Z), before reaching the Leeward Islands.** Not a Gulf/FL system on the current forecast track. Ongoing — not yet resolved.
+**Every one of the 48 NHC Tropical Weather Outlook issuances from 2026-09-01 through 2026-09-12 inclusive carried the line *"Tropical cyclone formation is not expected during the next 7 days."*** Four issuances a day, all retrieved and read. **Twelve consecutive days of a completely blank Atlantic formation outlook — and the ~September 10 climatological peak of the season sits inside that window.** First re-entry 9/13 at near-0%/20%.
 
-**NHC's own 2026 season archive index (last checked 8/21) plus this run's ATCF pull: four Atlantic named storms — Arthur, Bertha, Cristobal, Dolly — all Tropical Storms. ZERO Atlantic hurricanes. ZERO majors, 14 weeks into the season.**
+**Season-to-date Atlantic ACE = 4.3950 on Sep 18, against a to-date normal of 73.7248 — 5.96%.** **2026 is now lower than every one of the 30 years 1991-2020 at this calendar date.** The previous low was 1994 at 11.2500; 2026 sits at 39% of it. **The 8/27 convention-sensitivity caveat no longer bites** — 2026 ranks 1st-lowest of 30 under *both* the exclusive and the inclusive convention.
 
-> 🔑 **Prior headline (8/13–8/21), preserved for continuity:** eight days of complete Atlantic silence, corroborated by `CurrentStorms.json` (0 Atlantic active), ATCF `/btk/` (no `bal04` for 8 days) and ATCF `/dis/` (no `al04` discussion) — see LOG.tsv `atlantic_eight_day_silence`. **The archive gap that headline flagged (8/14–8/18 outlook text unrecoverable) is now CLOSED — see §7.** It surfaced one more system this dossier had not recorded: **AL92's remnant briefly reached the Southeastern Caribbean Sea on 8/15 AM at near-0% formation odds before dissipating within six hours** (STORMS.tsv). It was never a Gulf/FL threat, but it was a Caribbean presence the "eight days of complete silence" framing did not capture — silence in the Atlantic-wide advisory record is not the same claim as silence in the outlook prose.
+**Five Atlantic named storms — Arthur, Bertha, Cristobal, Dolly, Edouard — all Tropical Storms. ZERO Atlantic hurricanes. ZERO majors. Season peak intensity 50 kt, 17 weeks in.**
+
+> 🔑 **The one thing that moved against the pattern: TS Edouard made landfall.** AL05 formed in the Gulf 8/31, reached 50 kt and came ashore at Johnson Bayou LA on 9/1 — **the first Atlantic landfall of 2026, and the first 2026 system that did not shear apart before the western basin.** It is a Gulf, not a Florida, system and it was a tropical storm, not a hurricane. **§5 flags it as the first non-conforming instance of the peak-season tell; AEOLUS adjudicates whether the tell survives.**
 
 ---
 
-## 1. BASIN STATE (NHC TWO, 800 PM EDT Thu Aug 27 2026 — Forecaster Hagen)
+## 1. BASIN STATE (NHC TWO, 200 PM EDT Fri Sep 18 2026 — Forecaster Papin)
+
+`CurrentStorms.json` returned **0 active storms in ALL basins** — no basin filtering needed this run.
 
 | System | Odds 48h / 7d | Location | Fires the trigger? |
 |---|---|---|---|
-| **TS Dolly (AL04)** | active, advisories issued | central tropical Atlantic, 13.7N 40.7W, moving fast **W** at 21 kt under a ridge | ❌ forecast track dissipates before the Leeward Islands; not Gulf/Caribbean |
+| **AL99** | **70% / 70%** | Eastern Subtropical Atlantic, low pressure several hundred mi **SW of the Azores**, 33.0N 34.2W | ❌ ~3,500 mi from Florida; subtropical eastern-Atlantic system |
 
-**Today's TWO, verbatim on everything else: *"Tropical cyclone formation is not expected during the next 7 days."*** No invests, no formation percentages anywhere in the basin — the only system is Dolly itself, already past the outlook stage.
+**The TWO carries nothing else.** AL99 is the only entry in the basin.
 
-> 🔴 **GULF / FLORIDA: NO.** Dolly's NHC forecast track (Discussion #2, 500 PM AST 8/27) has it **degenerating into a strong tropical wave Friday/Saturday and DISSIPATED by 72h (~8/30 1800Z)** — i.e. the storm is forecast to end *before* it reaches the Leeward Islands, let alone the Caribbean or Gulf. Heavy-rain risk to the Leewards/VI/PR/Hispaniola is flagged in NHC's Key Messages as a **post-tropical remnant-moisture** hazard, not a Gulf/FL cyclone risk. **No other invest exists anywhere in the basin.** *(Prior 8/21 read, preserved: peak formation odds were 20% on two non-tropical/subtropical NE-Atlantic and central-subtropical lows, neither Gulf/FL, both since dissipated per the archive close in §7.)*
->
-> **Escalation line NOT FIRED.** Reported as state; AEOLUS grades.
+> 🔴 **GULF / FLORIDA: NO. Escalation line NOT FIRED.** Reported as state; AEOLUS grades.
 
-### The shear prose — now carried by Dolly's own discussion
+**AL99's prose, read per the 8/13 discipline — the number and the text point different ways again:** 70% is the highest formation probability the basin has shown since August, and the same paragraph says the system is *"expected to move slowly over the next couple of days remaining southwest of the Azores, followed by a turn to the southwest by early next week, **when environmental conditions are forecast to become less favorable for additional development**."* **A 70% that NHC already expects to run out of runway.** It rose intraday 20/30 (8 AM) → 60/60 (Special TWO, 10:30 AM) → 70/70 (2 PM).
+
+### What happened in the 9/1 → 9/18 gap
+
+| Date(s) | State |
+|---|---|
+| **9/1** | TS **Edouard (AL05)** landfall Johnson Bayou LA. Formation outlook already blank; the only Gulf references are to Edouard's own inland remnant as an *Active System* |
+| **9/2** | *"The Weather Prediction Center is issuing advisories on Tropical Depression Edouard, located inland over eastern Texas."* Formation line blank |
+| **9/3 – 9/12** | **Blank on all 40 issuances.** No invests, no percentages anywhere in the basin |
+| **9/13 – 9/18** | **AL98** (central subtropical Atlantic, E of Bermuda) — near-0%/20% → **peak 40%** 9/14-15 → 30% → 10% → **removed from the outlook by a Special TWO, 10:30 AM EDT 9/18**, *"development of this system is no longer expected"* |
+| **9/17 – 9/18** | **AL99** appears and climbs to 70%/70% |
+
+**No named storm formed between Edouard (8/31) and today.** The ATCF b-deck listing carries only `bal01`–`bal05` plus the two live invest decks `bal98`/`bal99` — a primary-source negative, not an inference.
+
+### The shear prose — the mechanism is still being named by both issuers
 
 | Product | Date | Prose |
 |---|---|---|
-| **NHC Cristobal Discussion #5** | 8/13 1500Z | *"entrenched in a hostile environment, with cool SSTs, **strong northerly vertical wind shear** and dry mid-level air"* |
-| **CSU two-week forecast** | 8/19 | *"the base state across the Atlantic is quite TC-unfavorable, given the **strong El Niño and associated high levels of vertical wind shear**"* |
-| **NHC AL92 archived TWO** (via IEM, closes §7 gap) | 8/15 0800 AM EDT | *"Development of this system is not expected due to **strong upper-level winds and dry air**"* |
-| **NHC Dolly Discussion #2** | **8/27 500 PM AST** | *"The environment around Dolly will likely become unfavorable for strengthening on Friday with **increasing southwesterly shear** due to a central Atlantic upper-level trough, fast forward motion and dry air aloft… Global and regional models all show Dolly degenerating into a strong tropical wave"* |
-
-> ⚠️ **The mechanism is back on a live storm, in NHC's own forecaster prose, for the first time since Cristobal on 8/13.** Dolly is a direct, named, currently-active test of the same El Niño shear mechanism that killed AL92, AL94 and the AL92 Caribbean remnant. **Not yet resolved** — verifies when the 72h dissipation forecast either verifies or busts (~8/30).
+| **CSU two-week** | **9/02** | *"Global model signals for TC development in the next two weeks are **remarkably weak**, given the next two weeks include the **climatological peak of the season**"* |
+| **CSU two-week** | **9/16** | *"the base state across the Atlantic is quite TC-unfavorable, given the **strong El Niño and associated high levels of vertical wind shear**"* — third consecutive issue naming it |
+| **NHC TWO (AL98)** | **9/18 0800 EDT** | *"Development of this system is no longer expected as it drifts slowly over the subtropical Atlantic"* |
+| **NHC TWO (AL99)** | **9/18 1400 EDT** | *"environmental conditions are forecast to become less favorable for additional development"* |
 
 ---
 
-## 1b. ACE — recomputed 8/27, method re-validated end-to-end
+## 1b. ACE — recomputed 9/18, method re-validated end-to-end
 
 | | value |
 |---|---:|
-| **2026 season-to-date ACE** | **3.4575** — Arthur 0.405 · Bertha 2.2425 · Cristobal 0.4425 · **Dolly 0.3675 (ongoing, still active)** |
-| **Change since 8/21** | **+0.3675 — first ACE accrual in 14 dark days** (all from Dolly's 3 synoptic times ≥34 kt so far: 8/27 12Z/18Z, 8/28 00Z, all 35 kt) |
+| **2026 season-to-date ACE** | **4.3950** |
+| — per storm | Arthur **0.4050** · Bertha **2.2425** · Cristobal **0.4425** · Dolly **0.4900** · Edouard **0.8150** · invests AL98/AL99 **0.0000** |
+| **Change since 8/27** | **+0.9375** — Edouard 0.8150 (new) + Dolly **revised 0.3675 → 0.4900** |
 | 1991-2020 normal, **full season** | **122.58** (mean) · **129.25** (median) — re-validated, unchanged |
-| **To-date normal, Aug 27** | **26.72** *(exclusive convention — same convention that reproduced 13.25 for Aug 13 and 18.98 for Aug 21 exactly)* · **28.41** *(inclusive)* — **freshly recomputed this run, NOT reused from 8/21** |
-| **2026 vs Aug-27 to-date normal** | **12.94%** *(exclusive)* · **12.17%** *(inclusive)* — was 16.3% on Aug 21, 23.3% on Aug 13 |
-| **Seasonal accrual by Aug 27** | **21.8%** of seasonal ACE has normally accrued *(vs 15.48% by Aug 21, 10.81% by Aug 13)* |
-| AEO-01 criterion | season-end **< 110.3** ⇒ **margin 106.8 ACE units of headroom remain** |
+| **To-date normal, Sep 18** | **73.7248** *(exclusive)* · **75.5129** *(inclusive)* — **freshly recomputed this run, NOT reused from 8/27** |
+| **2026 vs Sep-18 to-date normal** | **5.96%** *(exclusive)* · **5.82%** *(inclusive)* — was 12.94% on Aug 27, 16.3% on Aug 21, 23.3% on Aug 13 |
+| **Seasonal accrual by Sep 18** | **60.14%** of seasonal ACE has normally accrued *(vs 21.8% by Aug 27)* |
+| **Hurricanes / majors to date** | **0 / 0.** Season peak intensity **50 kt** (Bertha 7/21-22; Edouard 9/1) |
+| AEO-01 criterion | season-end **< 110.3257** ⇒ **105.931 ACE units of headroom remain** |
 
-✅ **Parse re-validated end-to-end this run:** same computation reproduces **14.40 mean named storms / 7.20 mean hurricanes**, full-season normal **122.58**, and Arthur/Bertha/Cristobal's 0.405/2.2425/0.4425 exactly. Dolly's leg computed from `bal042026.dat` tau=0 rows at 2026082712Z/18Z/2026082800Z (all TS, 35 kt): 3 × 35²/10⁴ = 0.3675.
+✅ **Parse re-validated end-to-end this run:** the same computation returns **14.40 mean named storms / 7.20 mean hurricanes** against NOAA's published 1991-2020 normals of 14 / 7, and reproduces Arthur/Bertha/Cristobal at 0.4050/2.2425/0.4425 exactly.
 
-⚠️ **The ratio FELL again despite an active storm forming — read the mechanism, not just the sign.** A normal season's to-date-normal climbs **~7.7 ACE units** between Aug 21 and Aug 27 (18.98 → 26.72) as peak season ramps; 2026 added only **0.37** over the same 6 days. **12.9% < 16.3%: an active storm and a falling ratio can both be true at once** when the seasonal base is accelerating faster than the observed accrual.
+⚠️ **DOLLY'S FIGURE WAS REVISED, not recomputed differently.** 8/27 recorded **0.3675** from three synoptic times *while the storm was still active*; the completed b-deck adds **2026082806 at 35 kt**, giving **0.4900**. **This is the generic hazard in logging an ACE leg for an ongoing storm — the value is provisional by construction and nothing in the row said so.** Appended as a revision, original preserved.
 
-⚠️ **DO NOT reuse the Aug-21 to-date normal of 18.98 on Aug 27 or later.** It is date-specific and the standing hazard has now recurred twice (Aug-13→Aug-21, Aug-21→Aug-27): reusing a stale to-date normal always flatters the ratio, because the denominator only grows through peak season.
+⚠️ **The denominator has now outrun the numerator by a factor of 22 since 8/13.** A normal season's to-date normal went 13.25 → 26.72 → **73.7248** (Aug 13 → Aug 27 → Sep 18) as peak season ran; 2026 went 3.09 → 3.4575 → **4.3950**. **The ratio falling from 12.94% to 5.96% across a period that contained a landfalling tropical storm is almost entirely the calendar, not new quiet.** Read the mechanism, not the sign.
 
-⚠️ **Convention sensitivity — flagged, not chosen.** Under the **inclusive** convention 2026 is the **lowest of all 30 years** through Aug 21. Under the **exclusive** convention (the one that reproduces the recorded 8/13 figures) 2026 is **2nd-lowest**, and the single year below it is **1998 at 3.08** — AEOLUS's own standing counter-analogue. **The dramatic reading and the folder-consistent reading differ. AEOLUS picks the convention.**
+⚠️ **DO NOT reuse the Aug-27 to-date normal of 26.72 on any later date.** The hazard has now recurred three times (Aug-13→21, Aug-21→27, Aug-27→Sep-18). It only ever flatters the ratio.
 
-⚠️ **Denominator hazard vs NOAA.** NOAA CPC states 2026 ACE as **30-90% of the MEDIAN**. AEOLUS's bands are % of the **MEAN**. Recomputed from the same file: mean 122.58, **median 129.25**. NOAA's band = **38.8–116.3 ACE = 31.6–94.9% of the mean**. **NOAA's upper bound of 116.3 sits ABOVE AEO-01's <110.3 line.** The two "90%" figures are not the same number.
+⚠️ **Denominator hazard vs NOAA — unchanged and still open.** NOAA CPC states 2026 ACE as **30-90% of the MEDIAN**; AEOLUS's bands are % of the **MEAN**. Mean 122.58, median 129.25. NOAA's band = **38.8–116.3 ACE = 31.6–94.9% of the mean**. **NOAA's upper bound of 116.3 sits ABOVE AEO-01's <110.3257 line. The two "90%" figures are not the same number and must never be read across.**
 
-### ⚠️ The Aug-13 base rate does NOT hold at the same strength on Aug 21 — **NOT re-run this session (8/27); table below is 8/21 vintage**
+### Residual-season context — recomputed at Sep 18 (measurement, not a probability)
 
-Like-for-like recompute — share of the lowest-to-date seasons that finished **<90% of normal**:
+**What a normal season has left after Sep 18** (1991-2020, full season minus inclusive-to-date):
 
-| Slice | at **Aug 13** | at **Aug 21** |
+| | ACE |
+|---|---:|
+| mean remaining | **47.071** |
+| median remaining | **47.189** |
+| max remaining | **119.905 (1998)** |
+| min remaining | **2.242 (1997)** |
+| median per-year *share* of season remaining | **34.84%** |
+
+**AEO-01 needs 105.931 further ACE units from here. Exactly ONE of the 30 years — 1998, at 119.905 — accrued that much after September 18.** 1998 is AEOLUS's own standing counter-analogue.
+
+### The lowest-to-date base rate, recomputed like-for-like at Sep 18 — **it moved hard**
+
+Share of the lowest-to-date cohorts that finished **<110.3257** (<90% of the mean):
+
+| Slice | at **Aug 21** *(carried in the 8/27 dossier)* | at **Sep 18** |
 |---|---:|---:|
-| bottom-6 | **5/6 = 83%** | **3/6 = 50%** |
-| bottom-8 | 6/8 = 75% | 5/8 = 62% |
-| bottom-10 | 7/10 = 70% | **7/10 = 70%** |
+| bottom-6 | 3/6 = 50% | **6/6 = 100%** |
+| bottom-8 | 5/8 = 62% | **8/8 = 100%** |
+| bottom-10 | 7/10 = 70% | **10/10 = 100%** |
 
-**Why it moves:** the Aug-21 bottom-6 cohort is **1998 (148%), 2002 (55%), 1992 (62%), 2019 (108%), 1999 (144%), 1993 (31%)** — it picks up **three big-finish seasons** the Aug-13 cohort did not contain. Seasons that are quiet *through late August* include some that then exploded in September.
+Unconditional, all 30 years: **13/30 = 43%.** The Sep-18 bottom-10 cohort is 1994, 2002, 2013, 2015, 1991, 1992, 1993, 2014, 1997, 2009 — full-season ACE 32.0 to 76.2, i.e. **every one finished well under the line.**
 
-> ⚠️ **Read the sensitivity, not the headline.** n=6 is small and **bottom-10 is stable at 70% on both dates**, so this is partly a ranked-head artefact. But it is a real directional caution against carrying the "5 of 6" figure forward as though it were date-independent. **AEO-01 is AEOLUS's to grade — this is reported as an observation.**
-
----
-
-## 2. SEASON OUTLOOKS — both re-verified UNCHANGED again; CSU two-week cadence held its schedule
-
-| Source | 2026 forecast | Date | State on 8/27 |
-|---|---|---|---|
-| **CSU (Klotzbach)** seasonal | **9 / 4 / 1** (NS/H/MH) · **ACE 50** | 8/5 | **RE-VERIFIED UNCHANGED** |
-| **NOAA CPC** | **7-13 / 2-6 / 0-2**, **75%** below-normal | 8/6 | **RE-VERIFIED UNCHANGED** — page still carries the 6 Aug issuance |
-| **CSU two-week** | Aug 19-Sep 1 window: **below-normal 70%** | 8/19 | still the latest issue — **no interim issue landed 8/21-8/27**; next scheduled **9/2**, confirmed on-page |
-
-**`csu_ace_forecast` RATIFIED this run:** CSU's live table still reads `Accumulated Cyclone Energy (ACE) 50 / Average for 1991-2020: 123`, unchanged since 8/5 and matching the vocabulary entry added 8/21 exactly (name and value both correct in `SOURCES.md`/`AGENT.md`). **50 = 40.8% of the 122.58 normal.**
-
-### CSU peak-season two-week cadence — held its schedule this time (contrast with the 8/13-8/21 miss)
-
-Unlike the 8/13→8/21 gap (which missed the 8/19 issue because the folder wrongly believed the series had ended), **the 8/21→8/27 gap contains no missed issue** — the schedule (Aug 5 · Aug 19 · **Sep 2** · Sep 16 · Sep 30) puts the next issue six days past this run's write date. Confirmed directly on CSU's page: the 2-week forecast list still ends at "(Aug 19, 2026)" before "(Sep 2, 2026)."
-
-| CSU two-week | Window | Terciles (1966-2025) | Forecast |
-|---|---|---|---|
-| issued 8/5 | Aug 5-18 | <2 / 2-6 / >6 ACE | below-normal 80% — **verified: observed 0.4425, inside tercile** |
-| issued **8/19** | Aug 19 - Sep 1 | <7 / 7-22 / >22 ACE | **BELOW-NORMAL 70% · near 28% · above 2%** — **not yet gradeable (window runs through 9/1); Dolly's ACE (0.3675 so far) counts toward this window** |
-
-> ⚠️ **Note the tercile widening — Aug 5-18 below-normal was `<2 ACE`; Aug 19-Sep 1 below-normal is `<7 ACE`.** CSU's own climatology confirms the ramp the accrual base rate measures. **A "below-normal" label means a different quantity in each window; do not compare the labels across windows.**
+> ⚠️ **Why it moved:** the late-August cohorts still contained seasons that were quiet through August and then exploded in September (1998, 1999). **By September 18 the September explosion has either happened or it has not** — that is most of what this table is measuring, and it is exactly why the *date* of a base rate is load-bearing. n is still small. **AEO-01 is AEOLUS's to grade — this is reported as an observation.**
 
 ---
 
-## 3. ⚠️ PERIL vs LOSS — NOT RE-PULLED THIS RUN
+## 2. SEASON OUTLOOKS — seasonal legs unchanged; **two missed two-week issues recovered**
 
-**The loss leg carries its 8/13 vintage and is now 14 days older.** Commercial publishers run on their own schedule (H1 ~Jul-Aug, full-year ~Jan); nothing new was expected or pulled. **Labelled stale rather than substituted.**
+| Source | 2026 forecast | Date | State on 9/18 |
+|---|---|---|---|
+| **CSU (Klotzbach)** seasonal | **9 / 4 / 1** (NS/H/MH) · **ACE 50** · ACE W-of-60W 25 | 8/5 | **RE-VERIFIED UNCHANGED** — 8/5 remains the final seasonal issuance; page schedule lists Nov 2026 Verification next |
+| **NOAA CPC** | **7-13 / 2-6 / 0-2**, **75%** below-normal | 8/6 | **RE-VERIFIED UNCHANGED** — page still carries the 6 August issuance |
+| **CSU two-week** | Sep 16-29 window: **below-normal 78%** | **9/16** | latest issue; next **9/30**, then 10/14 |
 
-Last read (8/13): July renewal global cat **−16%**, NA **−20/25%**; capital at a record **>$700-790B**; H1 US insured nat-cat **~$36B, ~25-28% BELOW** the 10-yr average.
+⚠️ **NOAA's page text is now stale on observed counts** — it still reads *"including the 2 named storms recorded thus far"* and *"the 3% recorded thus far."* Those are 8/6 vintage. **Actual is 5 named storms.** The *forecast* is unchanged; the embedded observation is not current. Do not quote the page's "thus far" figures.
 
-⇒ **Peril and loss diverge again as of 8/27** — a system (Dolly) is now active, however unlikely to matter, while the loss leg is unchanged and stale. Not the same alignment as the 8/21 empty-basin read.
+### CSU two-week series — the full 2026 record, both missed issues now read
+
+| Issued | Window | Below-normal tercile | Forecast | **Observed ACE in window** |
+|---|---|---|---|---:|
+| 8/05 | Aug 5-18 | `<2` | below-normal **80%** | **0.4425** |
+| 8/19 | Aug 19 - Sep 1 | `<7` | below-normal **70%** | **1.1450** |
+| **9/02** | **Sep 2-15** | `<11` | **below-normal 97%** · near 3% · above ~0% | **0.1600** |
+| **9/16** | **Sep 16-29** | `<11` | **below-normal 78%** · near 20% · above 2% | **0.0000** *(window open through 9/29)* |
+
+**The 9/02 issue is the highest below-normal confidence of the 2026 series (80 → 70 → 97 → 78)** — and CSU issued it *for the fortnight containing the climatological peak.* Its window closed 9/15 with a single qualifying synoptic time in it (Edouard at 2026090200, 40 kt).
+
+> ⚠️ **TERCILE BOUNDARIES DIFFER PER WINDOW** (Aug 5-18 below = `<2`; Aug 19-Sep 1 = `<7`; Sep 2-15 = `<11`; Sep 16-29 = `<11`). **Never compare the LABEL across windows.** Observed values are reported as measurement — **AEOLUS decides whether a window verified.**
+
+---
+
+## 3. ⚠️ PERIL vs LOSS — RE-PULLED THIS RUN, and the divergence is now **directional agreement**
+
+**PERIL AND LOSS ARE DIFFERENT INSTRUMENTS. This section never speaks for §1b and §1b never speaks for it.**
+
+**No newer catastrophe-loss market tally exists than the vintage already held.** Gallagher Re's Q3 report lands ~October.
+
+| Instrument | Value | Vintage | Note |
+|---|---|---|---|
+| **Gallagher Re** H1 2026 global insured nat-cat | **$46bn, 28% below the $64bn 10-yr average** | **Aug 2026** | lowest H1 since 2018; 5th straight quarter with no single insured cat loss >$10bn; 11 events >$1bn vs a 10-yr average of 16; economic losses $142bn, −10% |
+| **Swiss Re Institute** H1 2026 global insured nat-cat | **$42bn vs a $66bn long-term trend** | **Aug 2026** | **NEW second independent read.** ⚠️ **Secondary-sourced only — the Swiss Re primary page returned HTTP 403** (see §Gaps) |
+| **Moody's** buyer survey, Jan-2027 property reinsurance | **most likely −7.5% to −15%**; **86%** expect declines (vs 74% for 2026) | **2026-09-16** | pre-Monte-Carlo. **A survey of expectations, NOT a transacted rate-on-line** — does not satisfy the ROL threshold row |
+| **Swiss Re** Florida scenario | Cat-5 Miami/Tampa **$300bn+**; 1926 Miami repeat **$200bn+**; Andrew repeat **~$100bn** | **2026-09-16** | ⚠️ **MODELLED SCENARIO, NOT A LOSS TALLY.** FL specifics are **CORAL's** |
+
+> ⚠️ **DO NOT reconcile $46bn and $42bn into one figure.** Different publishers, different perimeters, different denominators (10-yr average vs long-term trend). Carry both, labelled.
+
+⇒ **Peril and loss are no longer pointing in opposite directions.** At 8/13 and 8/27 the basin had activity while the loss leg was soft. **Now both legs point the same way — a basin at 6% of its to-date normal, and a reinsurance market whose sell-side survey expects another 7.5-15% off in January.** That is a change in the *relationship between the two legs*, which is itself the C1 read. **AEOLUS scores it.**
+
+### 🔑 NEW — a mid-cycle price surface, which this folder has been missing (PROPOSAL, §Open Questions 2)
+
+AEOLUS's standing complaint is that **rate-on-line is visible only at Jan/Jun renewals, so a landfall between them has no price surface.** One exists and is machine-readable:
+
+**Artemis "Catastrophe Bond Market Yield"** — the page embeds its full Highcharts series **inline in the HTML**, no JS execution needed. **827 weekly points, 2010-10-08 → 2026-08-28**; series: *Insurance Risk Spread*, *Collateral Yield* (3m T-Bills), *Expected Loss*. Data collated by **Plenum Investments AG**.
+
+```bash
+curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yield/"
+# then regex the categories:[...] array and each  name:'X' ... data:[...]  block
+```
+
+| | 2025-08-29 | 2026-01-09 | 2026-07-10 | **2026-08-28** |
+|---|---:|---:|---:|---:|
+| Insurance risk spread | 6.07% | 5.29% | 5.75% | **5.05%** |
+| Expected loss | 2.24% | 2.35% | 2.50% | **2.50%** |
+| **spread / EL** | 2.71x | 2.25x | 2.30x | **2.02x** |
+
+**−16.8% YoY. −12.2% across peak season (7/10 → 8/28) with expected loss FLAT at 2.50 — a pure price move, not a risk-mix move.**
+
+> ⚠️ **TWO HARD CAVEATS, both load-bearing.**
+> **① STALE BY DESIGN.** The page refreshes **monthly**; the newest point is **2026-08-28, three weeks behind today.** It is a between-renewals surface, not a daily one — **a landfall would not show for up to a month.** That limits, but does not remove, its value.
+> **② IT IS NOT RATE-ON-LINE.** A cat-bond insurance risk spread and a reinsurance ROL are different instruments on different perimeters. Correlated, not interchangeable. **It must NOT be entered against the ROL threshold row.** If adopted it needs its own instrument name, its own band, and an explicit un-base-rated flag.
+> **Instrument creation is AEOLUS's call. A worker does not invent an instrument — this is a proposal and nothing has been written to `SERIES.tsv` under a new name.**
 
 ---
 
@@ -123,50 +190,52 @@ Last read (8/13): July renewal global cat **−16%**, NA **−20/25%**; capital 
 Corroboration state as observed **inside my own products** this run:
 
 1. **Seasonal** — CSU held at 9/4/1 with ACE 50; NOAA held at 75% below-normal.
-2. **Sub-seasonal** — **NEW LEVEL:** CSU's 8/19 two-week forecast names the mechanism explicitly for the current window.
-3. **Storm-level** — NHC's final Cristobal discussion named *strong northerly vertical wind shear and dry mid-level air*.
-4. **Outcome-level** — **NEW:** three 2026 Atlantic named storms, **zero hurricanes**, ACE 3.09; the Pacific basins carry three hurricanes over the same season.
-5. **NOAA's own base rate, verbatim:** *"All hurricane seasons coincident with strong (≥1.5 °C Niño3.4) El Niño events since 1950 have featured below-normal seasonal activity."* NOAA's July ENSO forecast: **90%** chance of strong-or-very-strong El Niño during ASO (RONI ≥1.5 °C), **48%** very strong (RONI ≥2.0 °C).
+2. **Sub-seasonal** — CSU's 9/02 and 9/16 two-week forecasts both name the mechanism for the current window; 9/02 at **97%** confidence, for the fortnight containing the peak.
+3. **Storm-level** — NHC's 9/18 prose on both AL98 (*"no longer expected"*) and AL99 (*"less favorable"*).
+4. **Outcome-level** — five 2026 Atlantic named storms, **zero hurricanes**, ACE 4.3950 = **5.96%** of the to-date normal, **lowest of the 30-year normals period at this date**; twelve blank outlook days across the climatological peak.
+5. **NOAA's own base rate, verbatim:** *"All hurricane seasons coincident with strong (≥1.5 °C Niño3.4) El Niño events since 1950 have featured below-normal seasonal activity."*
 
-⚠️ **ENSO index values are `regime/`'s instrument** (SHARED-INPUT RULE). The RONI/Niño3.4 figures above are quoted **as they appear inside my own outlook products** and are **not** copied into this folder's series. Reconcile at `regime/`.
+⚠️ **ENSO index values are `regime/`'s instrument** (SHARED-INPUT RULE). **No ENSO index value was pulled or recorded in this folder this run.** The July NOAA ENSO probabilities carried in the 8/27 dossier are **not refreshed here and are now ~10 weeks old** — reconcile at `regime/`, do not quote them from this file as current.
 
 ⚠️ **Standing caveat unchanged (L-14/L-17):** at record amplitude the underpinning composites are least reliable.
 
 ---
 
-## 5. 🔑 THE TELL TO WATCH THROUGH PEAK SEASON — now FOUR confirming instances, plus a live fifth test
+## 5. 🔑 THE PEAK-SEASON TELL — **FIRST NON-CONFORMING INSTANCE. Flagged, not adjudicated.**
 
-**Do 80%-probability (or shear-flagged) systems keep shearing apart before reaching the western basin?**
+**The question: do shear-flagged systems keep shearing apart before reaching the western basin?**
 
-**AL92 (orig. 8/12-13, 80%/80%) — NEVER DEVELOPED.** No `bal04`, no `al04` discussion, invest deck purged.
-**AL94 (8/13, 30%/50%) — NEVER DEVELOPED.** Archive close (§7) adds the exact death: 8/15 1400Z, *"moving into an area of less favorable environmental conditions and development of this system is not expected."*
-**AL92's Caribbean remnant (NEW, recovered from the archive close, §7) — 8/15 0800 AM EDT, Southeastern Caribbean Sea, near-0%/near-0%, *"development not expected due to strong upper-level winds and dry air."*** Dropped from the very next issuance six hours later.
-**AL93/Cristobal (8/13) — became a fish storm near the Azores, dissipated.**
+**Resolved since 8/27:**
 
-**Running tally: FOUR failed-development instances, zero exceptions, all citing the same shear/dry-air mechanism in NHC's own prose.**
+| Instance | Outcome |
+|---|---|
+| **AL04 / Dolly** — the live fifth test | ✅ **CONFORMED.** Degenerated to a remnant low after 2026082806, never regained 34 kt; deck ends 2026083112 at 20.0N 70.6W near Hispaniola. NHC's SW-shear/dry-air degeneration forecast verified directionally (deck ran ~18h past the nominal 72h hour as a tracked remnant). Never reached the Gulf or FL |
+| **AL98** (9/13-9/18) | ✅ **CONFORMED.** Peaked 40%/7d, died; *"development of this system is no longer expected"*; removed by Special TWO 9/18. Peaked 25 kt, ACE 0.0000 |
+| 🔴 **AL05 / Edouard** | ❌ **DID NOT CONFORM.** Formed in the Gulf 8/31, intensified to **50 kt**, and made **landfall at Johnson Bayou LA on 9/1** — the first Atlantic landfall of 2026 and the first 2026 system that did not shear apart before the western basin |
 
-🔴 **A live FIFTH test is now running: TS Dolly (AL04, formed 8/27).** NHC's own forecast (Discussion #2) predicts the identical outcome — SW shear + dry air degenerating Dolly into a tropical wave by 8/29-30, dissipated by 72h, before reaching the Leeward Islands. **Not yet resolved.** If it verifies, the tell reaches 5-for-5; if Dolly instead re-organizes past the Leewards, it is the first break and should be flagged hard.
+**Running tally: six conforming instances (AL92, AL94, AL92-Caribbean-remnant, AL93/Cristobal, AL04/Dolly, AL98) and ONE exception (AL05/Edouard).**
 
-⚠️ **The falsifier, both directions, unchanged:** a single **Gulf/FL major landfall** reverses ROL, the C1 score and the pre-registered RNR entry. **A suppressed season is a probability statement, not a guarantee** — 1992 (Andrew, in a quiet season) is the standing reminder.
+> 🔴 **The 8/27 dossier's "FOUR confirming instances, zero exceptions" line cannot be carried forward unchanged.** There is now an exception. **Whether the tell survives it is AEOLUS's call, not a worker's** — the arguments run both ways and both are recorded here: Edouard remained a **tropical storm**, produced no hurricane, and the season still holds **zero hurricanes**, so a reading in which the tell is about *intensity* survives intact; a reading in which it is about *geography* — systems dying before the western basin — has a clean counterexample. **AL99 is not a new instance yet**; it is a live 70% system with unfavorable conditions forecast for early next week.
+
+⚠️ **The falsifier, both directions, unchanged:** a single **Gulf/FL major landfall** reverses ROL, the C1 score and the pre-registered RNR entry. **A suppressed season is a probability statement, not a guarantee** — 1992 (Andrew, in a quiet season) is the standing reminder, and **Edouard is this season's small live demonstration of exactly that**: a quiet basin still produced a US landfall.
 
 ---
 
 ## 6. PREDICTIONS — **not resolved here; worker reports value and margin only**
 
-- **AEO-01** — season-end ACE **< 110.3** AND ≤7 hurricanes, resolves **11/30**.
-  **State 8/27: ACE 3.4575 → 106.8 units of headroom below the threshold. Hurricanes: 0 → 7 of 7 remaining.** Season-to-date is **12.94% of the Aug-27 to-date normal** (exclusive convention) — down from 16.3% on Aug 21, despite Dolly's active formation, because the to-date normal outran the accrual (§1b).
-  ⚠️ **8/21 base-rate figures (bottom-6 = 50%, 1998 counter-analogue) were NOT re-run this session** — carried forward unchanged, not re-verified. **AEOLUS grades AEO-01.**
-- **AEO-03** — property-cat reinsurance still soft at the **Jan-2027** renewal (ROL ≤+5% YoY), resolves **1/15/27**. **Loss leg not re-pulled this run** — no new evidence either way.
+- **AEO-01** — season-end ACE **< 110.3257** AND ≤7 hurricanes, resolves **11/30**.
+  **State 9/18: ACE 4.3950 → 105.931 units of headroom below the threshold. Hurricanes: 0 → 7 of 7 remaining.** Season-to-date is **5.96% of the Sep-18 to-date normal** (exclusive convention), **lowest of all 30 years 1991-2020 at this date under both conventions**. Residual-season context: mean remaining after Sep 18 is **47.071**, and **1 of 30 years (1998, 119.905)** accrued the 105.931 required. Bottom-6/8/10 lowest-to-date cohorts all finished **<110.3257 (100%)** — recomputed this run, superseding the 8/21-vintage 50/62/70% figures. **AEOLUS grades AEO-01.**
+- **AEO-03** — property-cat reinsurance still soft at the **Jan-2027** renewal (ROL ≤+5% YoY), resolves **1/15/27**. **New indirect evidence, both soft-side:** Moody's 9/16 survey puts Jan-2027 property reinsurance at **−7.5% to −15%** with **86%** expecting declines; the cat-bond insurance risk spread is **−16.8% YoY** with expected loss flat. ⚠️ **Neither is a transacted ROL print.** No renewal instrument resolves before December.
 
 ---
 
 ## OPEN QUESTIONS / GAPS
 
-1. ✅ **ACE instrument — CLOSED 8/13, RE-VALIDATED 8/21 AND 8/27.** Method runs clean end-to-end; all legs reproduce, including the new Dolly leg. ✅ **`AGENT.md` correction CONFIRMED APPLIED** — its instrument table and open question #1 now correctly read "COMPUTED... see SOURCES.md" / "CLOSED 2026-08-13" as of this run's read. *(This item's 8/21 complaint is resolved; no further action.)*
-2. ✅ **AL92's track — ANSWERED.** Never developed. See §5.
-3. **Peak-season tell (§5)** — **now FOUR confirming instances** (AL92, AL94, AL92-Caribbean-remnant, AL93/Cristobal) plus a **live fifth test running now (Dolly)**. Track through mid-Oct.
-4. **Jan-2027 renewal** — AEO-03's resolution; watch Artemis / Guy Carpenter from December.
-5. ✅ **CSU two-week correction CONFIRMED APPLIED** — `SOURCES.md` now carries the full corrected cadence and schedule as of this run's read. *(This item's 8/21 complaint is resolved; no further action.)*
-6. ✅ **CLOSED 8/27 — archived TWO text.** Verified working second/independent archive: **IEM AFOS** (`mesonet.agron.iastate.edu`), two-step `list.json` + `nwstext` command — see LOG.tsv `two_archive_gap_CLOSED` for the exact commands. All 20 issuances for 8/14-8/18 retrieved and read; confirms no Gulf/FL system in the window and surfaces the AL92-Caribbean-remnant instance (STORMS.tsv). **8/20 was NOT re-attempted this run** (out of the originally-flagged 8/14-8/18 scope) — trivial to close with the same command if needed. *(Proposed `SOURCES.md` addition — AEOLUS owns it.)*
-7. **Denominator reconciliation** — NOAA quotes ACE vs **median**; AEOLUS's bands use **mean**. Still open, not addressed this run. See §1b.
-8. **NEW — Dolly resolution (~8/30).** Does the shear/dry-air degeneration forecast verify (5th confirming tell instance) or bust (first break, Gulf/FL implications if it re-organizes past the Leewards)? Check ATCF for `bal04` status and any renewed `al04` discussion at next spawn.
+1. ✅ **ACE instrument — CLOSED 8/13, RE-VALIDATED 8/21, 8/27 and 9/18.** Runs clean end-to-end; all five storm legs reproduce. **New sub-hazard surfaced this run:** an ACE leg logged for an **ongoing** storm is provisional and nothing marks it so (Dolly 0.3675 → 0.4900). **Propose: any ACE row for a live storm carries `ONGOING - provisional` in `notes`.** AEOLUS's call.
+2. 🔴 **NEW — adopt or reject the cat-bond risk-spread instrument (§3).** A verified, machine-readable, monthly-refreshed weekly series back to 2010 that gives C1 a **between-renewals price surface**, which this folder has never had. **Needs: an instrument name, a band, an un-base-rated flag, and an explicit "not ROL" caveat.** Worker cannot create it.
+3. 🔴 **NEW — `SOURCES.md` has no loss-leg COMMANDS, only publisher names.** Every loss-leg figure this run came through search or a third-party report page, and the **Swiss Re primary 403'd**. The peril leg has copy-paste commands and the loss leg does not — **the asymmetry is why the loss leg keeps going stale between vintages.** Propose adding the Artemis command above plus a verified Gallagher Re report URL.
+4. 🔴 **NEW — `AGENT.md`'s "WHAT TO REPORT" table is 8/13-vintage** and still shows "CSU 9/4/1 HELD 8/5 · ACE 3.09 · AL92 deep-Atlantic" as the reference state. It is a **spawn brief a worker reads before the dossier** — the same class of staleness as open question #1's 8/13-8/21 episode, where the brief instructed against the instrument it was spawning for. Not edited by me (worker limits). AEOLUS's call.
+5. ✅ **CSU two-week cadence — held.** Both 9/02 and 9/16 issues found on schedule and read. **The 8/28-9/17 dark window cost nothing on this instrument** because both PDFs remain live at their permanent URLs. Next: **9/30**, then **10/14**.
+6. **Denominator reconciliation (NOAA median vs AEOLUS mean)** — still open, unchanged, now with a sharper consequence: NOAA's page *also* carries stale "thus far" observation figures (§2).
+7. 🔴 **STORMS.tsv 2026-09-01 row needs a unit correction or caveat.** Its secondary gives *"8 AM CDT advisory 29.3N 93.0W 40 mph"*; the b-deck at that exact position and hour reads **40 KNOTS (~46 mph)**. Position matches to the tenth of a degree, the unit does not. **Not edited by me — a worker does not rewrite an adjudicated row.**
+8. **AL99 resolution (next few days).** Does it become TD Six / TS Fiona SW of the Azores and then die in the unfavorable conditions NHC already forecasts for early next week? Either way it is not a Gulf/FL system. Check `bal062026` and the TWO at next spawn.

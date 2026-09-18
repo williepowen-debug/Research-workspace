@@ -19,8 +19,22 @@ curl -s -H "Accept: application/json" \
 ⚠️ **The human-facing `droughtmonitor.unl.edu` pages return *"the tabular data did not load"* to a fetch tool.** The web page failing is **not** the data being unavailable — use the API.
 **Cadence:** valid Tuesday 8 a.m. ET, **released Thursday.** New map ≈ every Thursday morning.
 
-### State/county granularity — same API, swap `aoi`
-`aoi=CO` (state postal) or a county FIPS. **Use this before claiming a drought signal reaches a specific crop belt or fire geography** — the 8/13 C2-vs-C4 discrimination turned entirely on *where* the deterioration was (OK/TX Panhandle, not the corn belt).
+### State granularity — 🔴 **RECIPE REPLACED 2026-09-18. THE OLD ONE WAS DEAD AND THIS IS THE FILE WORKERS ARE TOLD TO COPY FROM.**
+
+**Superseded text, preserved so the failure is visible:** *"State/county granularity — same API, swap `aoi`. `aoi=CO` (state postal) or a county FIPS."*
+**Why it was dead:** `aoi=CO` — **its own literal example** — returns `-area of interest not recognized`. It is the wrong ENDPOINT (`USStatistics`), the wrong KEY FORMAT (postal, not FIPS), and it omits a required header. The working recipe existed only in `DOSSIER.md` §1, i.e. **the correct command was in the file nobody is told to copy from, and the broken one was in the file everybody is.** *(Second instance of this class today — see `../hurricane/AGENT.md`. A read-early file's errors are inherited by everything downstream.)*
+
+```bash
+# StateStatistics — NOT USStatistics. 2-digit FIPS — NOT postal. Accept header REQUIRED.
+curl -s -H "Accept: application/json" \
+ "https://usdmdataservices.unl.edu/api/StateStatistics/GetDroughtSeverityStatisticsByAreaPercent?aoi=48&startdate=8/25/2026&enddate=9/15/2026&statisticsType=1"
+# aoi=48 Texas · 40 Oklahoma · 19 Iowa · 31 Nebraska · 06 California · 29 Missouri · 28 Mississippi · 05 Arkansas · 47 Tennessee
+```
+**Verified 2026-09-18.** State change 8/25→9/15: **TX +23.65pp · MS +21.97 · MO +17.61 · TN +16.46 · CA +8.42 · AR +3.79** deteriorating; **IA −12.85 · NE −7.11** improving.
+
+**Use this before claiming a drought signal reaches a specific crop belt or fire geography** — the 8/13 C2-vs-C4 discrimination turned entirely on *where* the deterioration was, and so does the 9/18 one.
+> 🔑 **One dataset, four consumers, and it currently drives them in OPPOSITE directions** — drought feeds the **fire** channel (TX/OK, and TX is the largest deterioration in the table) and the **river** channel (lower Mississippi, the same basin whose Memphis stage fell 13.10 ft in 21 days) while the **corn belt IMPROVES**. **Never collapse this to a single national adjective; the divergence IS the read.** KB-AEO-138.
+> ⚠️ **Extent and intensity moved apart on 9/15:** CONUS D1-D4 plateaued near **59%** (52.70 → 56.61 → 59.05 → 58.59 → **59.37**, ending the four-week acceleration) while **D4 rose 1.75 → 2.02**. Quote both or neither.
 
 ### Palmer Drought Severity Index (CPC)
 `https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/palmer_drought/`
@@ -176,12 +190,22 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W.
  | python3 -c "import json,sys;[print(c['shortname'],c['value'],c.get('validFrom')) for c in json.load(sys.stdin)['characteristicValues']]"
 ```
 
-| | **NNW** record low | **MNW** mean low water | **MW** mean stage | **GlW** navigation reference | TuGLW |
+| | **NNW** record low | **MNW** mean low water | **MW** mean stage | **GlW** navigation reference | ⚠️ **TuGLW — a DEPTH, not a stage** |
 |---|---|---|---|---|---|
 | **Kaub** | **25** | **65** | 208 | **77** | 190 |
 | **Duisburg-Ruhrort** | **153** | **201** | 394 | **227** | 280 |
 
-🔴 **THE MULTI-YEAR SERIES IS GENUINELY UNREACHABLE — confirmed four ways, so the 9/30 obligation cannot be met as written.** PEGELONLINE returns the **identical ~31-day window** for `P31D`, `P45D`, `P60D` and `P90D` (2,976→2,991 rows, 2026-07-28 → 2026-08-28), and an explicit **2024 date-range query returns ZERO rows** — it is a **retention** wall, not a query limit. UNDINE (`undine.bafg.de`) is an **extreme-events narrative portal**, not a series download. GRDC is discharge, not stage.
+🔴🔴 **THE FROZEN `NNW` VALUES ARE LOAD-BEARING — DO NOT "TIDY" THE C5 TRIGGER BY RE-POINTING IT AT THE LIVE FIELD.** *(AEOLUS ruling, 2026-09-18.)*
+The C5 →5 trigger is keyed to **`NNW` Kaub 25 / Duisburg 153 as FROZEN on 2026-08-13**, not to whatever the API returns today. **That freeze was done as bookkeeping hygiene and has since become the only thing protecting the trigger.**
+**Why:** `NNW` is *"niedrigster bekannter **Tagesmittelwert** des Wasserstandes"* — the lowest known **daily mean** — so **WSV rewrites it whenever a new record is set.** Had the trigger read the live field, the **2026-09-10/11/12 fire would have moved its own threshold out from under itself**: Kaub's daily mean of **21.531** would have *become* the new `NNW`, and the test would have evaluated 21.531 ≤ 21.531 — or, one refresh later, failed against a bar the event itself had just lowered.
+⇒ **A threshold keyed to a live record field cannot fire on a record.** Re-pointing this trigger at `characteristicValues` would look like a tidy-up and would silently destroy it. **Re-read `NNW` and its `occurrences` date at every grading to DETECT a republication — never to re-key the trigger.** *(Entry 2 of the MOVING-REFERENCE REGISTER in `DOSSIER.md`.)*
+
+🔴 **UNIT WARNING — the last column is NOT in the same quantity as the other four (labelled 2026-09-18, AEOLUS-approved).** The first four columns are **stages** (cm above gauge zero). **`TuGLW` is *"verkehrsgesicherte Fahrrinnentiefe unter GlW (Tiefe unter GlW)"* — the traffic-secured fairway DEPTH measured DOWNWARD from `GlW`.** WSV defines the maintained navigable channel this way: the guaranteed depth sits *beneath* the GlW plane. **Never difference TuGLW against a gauge reading, and never read Kaub's 190 as "a level of 190 cm"** — it means 190 cm of channel depth is maintained when the river is at GlW (77 cm). Differencing a depth against a stage produces a number with no physical meaning.
+
+✅ **`GlW` VERIFIED AT THE PRIMARY 2026-09-18.** Kaub **77.0** and Duisburg-Ruhrort **227.0**, both `validFrom` **2023-01-01** — the carried candidates were correct. **Definition (WSV/BfG):** the stage **equalled or undercut on average 20 ice-free days per year**, derived by first computing the equivalent discharge **`GlQ`** from ~100 years of daily mean discharge at the gauge, then converting `GlQ` to a stage from measured water-surface elevations at discharges near `GlQ`. ⇒ **a duration-curve NAVIGATION plane — categorically a different kind of object from `NNW`.** Re-check `validFrom`, not just the number: GlW is periodically redetermined.
+🔑 **`NNW` is also now pinned at the primary:** PEGELONLINE's definitions page (`/gast/hilfe`) gives **`NNW` = *"niedrigster bekannter **Tagesmittelwert** des Wasserstandes"*** — the lowest known **daily mean**. **This confirms the C5 trigger's basis is like-for-like** (unrounded daily means graded against NNW). ⚠️ Kaub additionally publishes **`NW` 25.0** *"Niedrigster Tageswasserstand"* over 2010-11-01…2020-10-31 with the same occurrence date — **same number, different scope; NW and NNW are NOT two independent witnesses.**
+
+🔴 **SCOPED DOWN 2026-09-18 — this claim was about ONE ENDPOINT, not about WSV.** *(Superseded wording, kept verbatim so the change is visible: "THE MULTI-YEAR SERIES IS GENUINELY UNREACHABLE — confirmed four ways, so the 9/30 obligation cannot be met as written.")* **The REST wall is real and is now confirmed at n=6** — `P31D`/`P45D`/`P60D`/`P90D`/`P150D`/`P365D` all return the identical row set, and explicit 2024 **and 2018** date ranges return zero. **BUT PEGELONLINE's own help page states verbatim that historical stage AND discharge are downloadable *seit dem 1. Januar 2000* (as `ungeprüfte Rohdaten` — unverified raw data), and the file service already serves 91 daily files for Kaub** (`/webservices/files/Wasserstand+Rohdaten/RHEIN/1d26e504-7f9e-480a-b52c-5932be6549ab`, Duisburg `c0f51e35-d0e8-4318-afaf-c5fcbc29f4c1`), each with `down.csv`/`down.txt`/`down.zrxp`. **Unresolved is the ROUTE, not the availability:** dates outside that ~91-day listing 404, and the back-to-2000 bulk download is a JS-driven zip builder on `/gast/pegeltabelle`. **Treat the 9/30 obligation as plausibly meetable and retry — do not re-close this gap from the REST result alone (L-35).** Original supporting detail follows:** PEGELONLINE returns the **identical ~31-day window** for `P31D`, `P45D`, `P60D` and `P90D` (2,976→2,991 rows, 2026-07-28 → 2026-08-28), and an explicit **2024 date-range query returns ZERO rows** — it is a **retention** wall, not a query limit. UNDINE (`undine.bafg.de`) is an **extreme-events narrative portal**, not a series download. GRDC is discharge, not stage.
 
 🔑 **BUT THE PROBE CHANGED THE QUESTION.** My trigger levels — **Kaub ≤25, Duisburg ≤153 — ARE each station's all-time record low (`NNW`).** A record is by construction a ~1-in-record-length event *per station*; requiring **both simultaneously for 3 days** is rarer still. **That is not an upgrade trigger, it is a confirm-the-catastrophe gate**, and it explains why C5 sat at 4 for weeks and then fired only during a genuinely historic event.
 **The economically meaningful line is sitting right beside it: `GlW` (gleichwertiger Wasserstand) — the waterway administration's own low-water NAVIGATION reference, derived from a duration curve. Kaub 77 cm · Duisburg 227 cm.** That is far closer to where freight economics actually bite *(my logged ~€150/t and ~16% loadings occurred with Kaub in the 30–40 cm range — well below GlW, well above NNW)*.
@@ -200,7 +224,7 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV
 ### DISCHARGE `Q` — datum-independent, available at all six
 `/stations/<ST>/Q/measurements.json` — m³/s, 15-min. Kaub ~492 m³/s (8/13). **Prefer discharge for cross-era comparison**, since stage depends on a `gaugeZero` that has been re-referenced at some stations.
 
-⚠️ **PROVENANCE GAP on the carried "40 cm uneconomical" line.** That figure has **no source recorded in this file** — it is carried, not verified. The authority's own navigation references are **`GlW` (Kaub 77 cm)** and **`TuGLW` (190 cm)**. **The 40 cm line is retained as an unprovenanced working figure and is explicitly NOT the basis of any trigger.**
+⚠️ **PROVENANCE GAP on the carried "40 cm uneconomical" line.** That figure has **no source recorded in this file** — it is carried, not verified. The authority's own navigation references are **`GlW` (Kaub 77 cm — a STAGE)** and **`TuGLW` (Kaub 190 cm — ⚠️ a fairway DEPTH beneath GlW, not a stage; see the unit warning above)**. **The 40 cm line is retained as an unprovenanced working figure and is explicitly NOT the basis of any trigger.**
 
 ⚠️ **No verified source for barge FREIGHT rates.** The ~€150/t figures in my dossier are trade-press relays (PJK/Bloomberg via gCaptain/Insurance Journal), **not a primary I can re-pull.** Finding a resolvable freight series is an open gap.
 **Benchmarks:** 2018 all-time low **25 cm** (October) · **≤40 cm** = uneconomical navigation.

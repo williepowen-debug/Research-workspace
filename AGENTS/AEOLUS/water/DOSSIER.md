@@ -1,8 +1,8 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-09-10** *(drain-session refresh 9/11 of Panama/Gatún + Mead/Powell ONLY; every other figure below is 8/27 vintage — read the section dates)*. All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / NWS-AHPS / ACP-Gatun-CSV / OVF / UNL-FICH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 and 2026-08-27 worker passes.
+**As-of: 2026-09-18** *(FULL worker pass 9/18 — every instrument in this folder re-pulled at its primary except snowpack (seasonally empty) and the Yangtze (not tasked). Section blocks below dated 8/27 or 9/11 are SUPERSEDED by the 9/18 block unless they say otherwise — read the section dates).* All figures primary (USBR 24-Month Study / USBR hydrodata / USGS NWIS / WSV-PEGELONLINE / NOAA-NWPS / ACP / OVF / UNL-FICH / USDM API).
 
-> **Last real data refresh: 2026-09-10**  ·  **Dossier written: 2026-09-11**
+> **Last real data refresh: 2026-09-18**  ·  **Dossier written: 2026-09-18**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 
 ### 🔴 9/11 DRAIN-SESSION REFRESH — Panama paused, Mead flattened (partial refresh; no worker spawned)
@@ -16,10 +16,107 @@
 | **Mead** | **1,038.72 ft** [9/10 · USBR 921/49]; 8/31 = 1,038.83 vs Aug 24MS 1,040.04 (**−1.21**) | VERIFIED | Slope 8/28→9/10 **−0.013 ft/day** (was −0.065). Margin 3.72 ft. Datum, not signal (KB-098) |
 | **Powell** | **3,517.24 ft** [9/10 · USBR 919/49] | VERIFIED | −0.083 ft/day since 8/26; 7.24 ft above 3,510 |
 
-*KB-AEO-104/105/106 · VX-AEO-34 · FLOW-AEO-15 · AEO-12 80→60%. USDM, Rhine/Danube, Mississippi, Lees Ferry: NOT refreshed — 8/27 vintage below.*
+*KB-AEO-104/105/106 · VX-AEO-34 · FLOW-AEO-15 · AEO-12 80→60%.* ⬆️ **SUPERSEDED 2026-09-18 — this line said "USDM, Rhine/Danube, Mississippi, Lees Ferry: NOT refreshed — 8/27 vintage below"; the 9/18 worker pass refreshed ALL of them. Kept so the change is visible; read the 9/18 block above.**
 > **Observations → `water/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C2 · C4 · C5 · C6 (root: owns drought + reservoirs + streamflow + river stage)
 > **🔴 8/27 worker pass headline: TWO NEW INSTRUMENTS FOUND — Gatun Lake elevation (1965-present daily series + a forward projection tied to draft steps) and a working Mississippi low-water reference at Memphis (NWS AHPS, `lowThreshold -8 ft`). Both close named gaps this folder had carried as UNINSTRUMENTED. AEOLUS: register both in SOURCES.md/AGENT.md's controlled vocabulary — not done by the worker, per the no-invented-instrument-name limit.**
+
+
+### 🔴🔴 9/18 FULL WORKER PASS — the September 24-Month Study lands, and the Rhine's C5 window opened and closed while the desk was dark
+
+> **Worker run, findings are PROPOSAL-ONLY — AEOLUS adjudicates every grade below. Nothing here is scored, fired or resolved.**
+> Full run detail, every failed command with its exact error, and the proposed instrument names: **`RUN_REPORT.md`** (this run) · observations in `workbook/SERIES.tsv` (+102 rows) and `workbook/LOG.tsv` (+17 rows).
+
+#### The three things that change a decision
+
+**① SEPTEMBER 2026 24-MONTH STUDY — published on time (document-dated 2026-09-15), and it moves Mead's sub-1,035 crossing a month earlier.**
+`SEP26.pdf` **404s** — the Most Probable is **split into `SEP26_6.pdf` / `SEP26_7.pdf`** (6 maf and 7 maf WY2027 Powell release), exactly as August was. Elevation-column alignment **verified 12/12 historical month-ends to within 0.02 ft** against `921/49` and `919/49` before any projected cell was read.
+
+| Mead, end-of-month (ft) | Sep-26 | Oct-26 | **Nov-26** | **Dec-26** | first month-end ≤1,035 |
+|---|---|---|---|---|---|
+| **Sept 2026 Most Probable** (6 maf **and** 7 maf — identical through Apr-2027) | 1,038.40 | 1,035.16 | **1,034.88** | **1,034.18** | **Nov-2026** |
+| Aug 2026 Most Probable *(the benchmark)* | 1,038.80 | 1,037.88 | 1,035.56 | 1,034.74 | Dec-2026 |
+| **Δ Sept − Aug** | −0.40 | **−2.72** | −0.68 | **−0.56** | **one month EARLIER** |
+| Sept 2026 **Probable Minimum** | 1,038.36 | 1,034.83 | 1,034.23 | **1,033.58** | Oct-2026 |
+
+**PATH read, not endpoint (L-36):** the projected **minimum over the CY2026 window is 1,034.18 ft**, and this month it falls **at** the 12/31 endpoint — so path-min == endpoint, unlike the case that cost 2.4× in August. **No bias adjustment applied.** Whether the n=6 **+2.19 ft** August-study under-projection bias (KB-097/099) transfers to a *September* study is AEOLUS's call, not the worker's.
+
+**⚠️ POWELL — a contradiction between the study's tables and its own narrative, REPORTED NOT RESOLVED.** The Most Probable tables **never put Powell below 3,510 ft** anywhere in the 24-month horizon: 6 maf minimum **3,511.43 (Feb-2027)**, +1.43 ft; 7 maf identical in WY2027, later *touching* 3,510.00 exactly at Feb-2028. Yet the narrative states verbatim *"Lake Powell's elevation is projected to decline below 3,510 feet during WY2027"* and on that basis invokes §5.1.C.2 (Low Elevation Infrastructure Protection Range, WY2027 release **6.00–7.00 maf**). The **Probable Minimum** run *does* cross — Jan-2027 3,509.00, falling to 3,475.21 by Feb-2028 and through min power pool 3,490 at Sep-2027. **Which basis the statutory test uses is not established here — do not grade the 3,510 row off the end-of-month Most Probable column until it is.**
+
+**Also in the September study:** observed **August unregulated inflow to Powell 0.001 maf ≈ 0% of the 1991-2020 average**, against the August study's own one-month-ahead forecast of 0.070 maf = 19%. Sept forecast 0.15 maf = 43%; Apr–Jul 1.14 maf = 18% (unchanged); WY2026 3.52 maf = 37% (was 3.58 maf = 37%). And the **Mexico treaty footnote changed**: August's "provisional modeling assumptions … successor Minute to Minute 323 … currently under development" is **gone**, replaced by **IBWC Minute No. 334** named as governing (0 mentions in August, 2 in September). *Not verified at IBWC by this worker — verify before use.*
+
+🔴 **The September Probable MAXIMUM does not exist.** `SEP26_MAX.pdf` 404s (plus four other name probes), and the UC studies index — scanned for every min/max PDF href — links exactly **`SEP26_MIN.pdf` and `AUG26_MAX.pdf`**. The index *was* updated for September. **The issuer currently publishes a September downside envelope and no upside one.** No inference drawn; retry path registered.
+
+**② 🔴 RHINE — a 3-day joint-below window OPENED AND CLOSED inside AEOLUS's dark period (9/11 → 9/18).**
+Graded on **unrounded daily means, complete days only (n ≥ 90 of 96)**:
+
+| Date | Kaub mean (≤25) | Duisburg mean (≤153) | n | Both below? |
+|---|---|---|---|---|
+| **2026-09-10** | **21.531** ✅ | **152.906** ✅ | 96 / 96 | **YES** |
+| **2026-09-11** | **21.844** ✅ | **149.146** ✅ | 96 / 96 | **YES** |
+| **2026-09-12** | **20.635** ✅ | **145.073** ✅ | 96 / 96 | **YES** |
+| 2026-09-15 | 30.723 ❌ | 159.312 ❌ | 94 / 96 | no |
+| 2026-09-16 | 27.448 ❌ | 160.438 ❌ | 96 / 96 | no |
+| 2026-09-17 | **24.302** ✅ | 157.781 ❌ | 96 / 96 | no |
+| *2026-09-18 (INCOMPLETE, skipped)* | *23.100* ✅ | *151.863* ✅ | *80 / 96* | *(both below)* |
+
+**On today's read the test FAILS** — the 3 most recent complete days are 9/15–9/17. **On a read taken 9/13 it would have been satisfied.** Run length exactly 3, bounded by 9/09 (Duisburg 157.490, above) and 9/13 (Kaub 25.292, above); 8/19 was a separate isolated joint-below day. **NOT GRADED — AEOLUS adjudicates whether a satisfied-but-unobserved window counts.** The structural point is generic: a *current-state* persistence test cannot see a window that opens and closes between reads, and the retired 10-day clause would not have fired either (longest run = 3).
+*This fully reverses the 8/27 read below ("recovered; Duisburg at a folder-record high"). Duisburg did set a new folder-record high — **203.656 on 9/02** — and then fell 58.6 cm in ten days.*
+
+**③ 🔴 THE 9/30 C5 BASE-RATE OBLIGATION IS PLAUSIBLY MEETABLE — the 8/27 "genuinely unreachable" finding was scoped to one endpoint.**
+The **REST wall is real and now confirmed at n=6** (P45D/P60D/P90D/P150D/**P365D** all return the *identical* 3,049 rows from 2026-08-18; 2024 and 2018 date ranges return zero). **But WSV's own help page states verbatim that historical stage and discharge are downloadable *seit dem 1. Januar 2000*** (as **ungeprüfte Rohdaten** — unverified raw data), and the file service already serves **91 daily files** for Kaub (20.06.2026 → 18.09.2026), not 31. What is **unresolved** is the *route*: historical dates 404 on that path pattern and the back-to-2000 bulk download is a JS-driven zip builder on `/gast/pegeltabelle`. **Nothing substituted. Same class as L-35 Gatún — a method failure recorded as a publication absence.**
+
+**And `GlW` is verified and it IS a navigation reference (Task 5 answered).** Kaub **77.0 cm**, Duisburg-Ruhrort **227.0 cm**, both `validFrom` **2023-01-01** — **both carried candidates CORRECT at the primary.** WSV defines the maintained channel as a depth *measured down from GlW*: `TuGLW` = *"verkehrsgesicherte Fahrrinnentiefe unter GlW"* (Kaub 190 cm, Duisburg 280 cm) — ⚠️ **that is a DEPTH, not a stage**, and it currently sits in this folder's tables among stage values. GlW's derivation (WSV/BfG): the stage equalled or undercut on average **20 ice-free days per year**, obtained by computing the equivalent discharge **GlQ** from ~100 years of daily mean discharge, then converting to stage. ⇒ **a duration-curve navigation plane, categorically different from NNW.** And NNW is now pinned at the primary too: PEGELONLINE's definitions page gives **NNW = *"niedrigster bekannter Tagesmittelwert des Wasserstandes"*** — lowest known **daily mean** — which *confirms the trigger's grading basis is like-for-like*.
+
+#### Everything else, one line each
+
+| Instrument | Read [date · basis] | Δ vs prior read |
+|---|---|---|
+| **Mead** | **1,038.44 ft** [9/17 · USBR 921/49] · **+3.44 ft** vs Hoover 1,035 | −0.28 ft from 1,038.72 (9/10). 14-day OLS slope **−0.0352 ft/day** — **decline resumed**, was −0.013 ft/day at the 9/10 read |
+| **Powell** | **3,516.83 ft** [9/17 · USBR 919/49] · **+6.83 ft** vs ROD 3,510 | −0.41 ft from 3,517.24 (9/10). 14-day OLS slope −0.094 ft/day, **but it turned UP**: 3,516.62 (9/15) → 3,516.67 (9/16) → 3,516.83 (9/17), first rises since 8/28 |
+| **Lees Ferry** | **7,910 cfs** [9/17]; 9/04–17 mean **7,840.0 cfs** (n=14) = **−23.32%** vs the 2018-25 same-window mean 10,224.6 | ⚠️ **NOT an 18-point improvement on −41%.** The 2026 flow is flat (+0.5%); the **baseline** fell 23.8% because releases drop seasonally into September. **A level, not a worsening slope** — same verdict as 8/26 |
+| **Mississippi — Memphis** | **−0.63 ft** [9/18 17:00Z · NWPS MEMT1] | **−13.10 ft in 21 days** from 12.47 ft (8/28). Margins: **+7.37 ft** vs `lowThreshold` −8 · **+11.43 ft** vs the 2023 analogue −12.06 · **+10.18 ft** vs 2022's −10.81. ⚠️ single instantaneous reading, no daily-mean endpoint registered |
+| Mississippi — St. Louis | 3.22 ft [9/18 · USGS 07010000] — **no adjective; no reference plane found** | Swinging hard both ways: 3.00 (9/01) → −1.22 (9/09) → 3.65 (9/14) → 0.58 (9/16) → 3.22. Vicksburg/Cairo IDs **still unresolved; none guessed** |
+| **USDM CONUS D1–D4** | **59.37%** [mapDate 9/15] | 52.70 → 56.61 → 59.05 → **58.59** → 59.37. ⇒ **the acceleration BROKE** (9/08 was the first weekly decline since 7/28); **extent plateaued ~59%, intensity did not** — D4 1.75 → **2.02**, D3-D4 11.76 → 12.54 |
+| USDM state cut, 8/25→9/15 | **TX +23.65pp** (57.36→81.01) · MS +21.97 · MO +17.61 · TN +16.46 · CA +8.42 · KS +5.64 · AR +3.79 · LA +2.44 — vs **IA −12.85** · NE −7.11 · CO −2.13; OK 99.82 / UT 100.00 saturated | ⇒ 🔴 **CORRECTED 9/18 — it SPREAD, it did not migrate.** The southern Plains did **not** release: **TX +23.65pp is the largest deterioration in the table** and OK is saturated at 99.82%. The lower Mississippi / mid-South **JOINED** them while IA/NE improved. *(Superseded wording: "migrated out of the southern Plains". The persistent TX/OK reading is what corroborates the wildfire desk's above-normal finding — "migration" would have broken that C4 link.)* C5 and C2 still point opposite ways off one dataset |
+| **Gatún Lake** | **84.47 ft** [9/17 · ACP CSV, 22,540 rows] | +0.43 ft vs 9/10; rising 6 of 7 days. Same-date 09-17: 2023 **79.75** · 2024 86.25 · 2025 86.77 |
+| **Panama advisories** | **A-35-2026 (9/16)** is the only advisory after A-34 — a Panamax booking-rule **LOOSENING** | ⇒ **draft floor 48.0 ft TFW "until further notice" (A-33) and the 32 booking-slots/day cap (A-29) are UNCHANGED.** ⚠️ **SLOTS ≠ TRANSITS, and they collide at 32** — August realised **transits** were 33.19/day |
+| **Danube** | **5 of 44** below `LKV_viszony` — **count UNCHANGED vs 8/27** | 🔴 **and that understates it.** Five stations reset their all-time low in Aug/Sep 2026 — Adony 8/01, Paks 8/02, Dunaföldvár 8/19, Dombori 8/19, **Baja 9/10** (inside the dark window). **LKV is a MOVING reference: setting a new record flips the flag back to +1.** Grade `LKVIdopont`, not just the flag. Genuinely below: Pfelling −4 (unchanged, **no reversal**), Mohács **−36** (was −7 — deteriorated 29 cm); Hofkirchen recovered to +5 |
+| **Paraná — Rosario** | **2.53 m** [9/18 · UNL-FICH] — **73.5th percentile** of the 366-day trailing range | Down from 91.5th (8/27) and 99th (8/13). Far above the **P10 ≈ 1.42 m** working reference. **Not firing, not close.** The 5.00 m "ALERT" is a *flood* level |
+| Snowpack | *(seasonally near-zero Jun–Sep — correctly empty, not a gap)* | — |
+
+#### ⛔ STANDING RULE — **NO MISSISSIPPI THRESHOLD MAY BE GRADED** (AEOLUS, 2026-09-18, until the structural basis column lands)
+
+**Three Mississippi surfaces currently report on three silently different bases**, and a river graded across them produces a wrong finding rather than a gap:
+
+| Surface | Basis | Status |
+|---|---|---|
+| Memphis `MEMT1` gauge endpoint | **instantaneous latest** | superseded for grading |
+| Memphis `MEMT1/stageflow/observed` | **DAILY MEAN** of hourly obs (n ≥ 22 of 24) | ✅ the grading basis |
+| St. Louis USGS `07010000` `dv` 00065 | **"Observation at 08:00"** (`optionCode 30800`) — a once-daily spot reading | ⚠️ neither of the above |
+
+**This is not hypothetical — it already produced a published error.** The instantaneous Memphis reading of **−0.63 ft** was the day's *maximum* on a rebounding river and went to the operator as a **+7.4 ft** margin; the true daily-mean trough was **−4.678 ft on 9/14**, a **+3.32 ft** margin. **The error ran in the reassuring direction.**
+⇒ **Until the basis is a structural column rather than a `notes` string, the Mississippi band is carried as an OBSERVED LEVEL ONLY.** An ungraded river is a gap; a river graded across three bases is a wrong finding. **A basis recorded in prose is a basis that gets dropped at the first summarisation** — which is nearly how the Rhine's rounding hazard bit in August.
+
+#### 🔴 MOVING-REFERENCE REGISTER — every reference in this folder that can reset on the event it measures
+*(Added 2026-09-18 on AEOLUS's ruling, generalising the Danube `LKV` finding: **if a count or rank can reset on the event it measures, that must be said beside the count.** A moving reference does not merely add noise — it is biased in a known direction, and the bias is largest exactly when the event is most severe.)*
+
+| Reference | Resets how | Direction of the error | Say this beside it |
+|---|---|---|---|
+| **Danube `LKV` / `LKV_viszony`** | OVF rewrites `LKV` to the new value when a station sets a record; the flag flips **back to +1** | **Understates severity during a record-setting event** — the worst stations leave the count | **Grade `LKVIdopont`, never the flag.** 5 stations reset in Aug/Sep 2026 |
+| **WSV `NNW` (Kaub 25 / Duisburg 153)** | Same mechanism — WSV republishes `NNW` if a new record daily mean is set | A new record would **silently raise the C5 trigger's own bar** and make the gate harder in the same moment it should fire | **Re-read `NNW` and its `occurrences` date at every grading**, not just the stored number |
+| **Rosario trailing-366-day percentile** | The window **rolls daily**; a sustained low drags `min`/`P10` down and re-ranks every level | A falling river can show a **rising** percentile once its own low enters the baseline | Quote the **level in metres first**, the percentile second, and state the window's `min`/`P10` alongside |
+| **"folder-record high/low"** (e.g. Duisburg 194.146 on 8/27 → **203.656 on 9/02**) | Resets whenever exceeded | **Always true at the extreme**, so it carries no information about severity vs history | Use it as a *log note only*; never as evidence. Compare to `NNW`/`MW`, which are dated |
+| **Memphis `flood.lowWaters.historic`** | The list **grows and re-ranks** as new lows occur | The "record" label attaches to a row that is no longer the record — **already observed**: the 1988 row still says *"LOWEST STAGE ON RECORD"* with two later readings lower | **Never quote a rank label from this list.** Read the stages and dates |
+| **ACP `Auctioned booking slots — Available`** | ACP **changes the denominator** with conditions (146 at the 2023-24 trough vs 354 by mid-2024) | Utilisation **falls as conditions improve** because supply re-opens faster than demand | **Store the two levels, never the ratio** (already folder canon) |
+| **USBR 24-MS Most Probable Powell runs** | The official runs are **constructed** to hold 3,510 ft (Guidelines Table 1) | The published table **cannot fall below the line it is built to defend** — it can never falsify the gate | See the Powell basis finding below: the operative instrument is an **unpublished Exhibit Run** |
+
+#### 🔴 Two corrections to figures already in this folder
+
+1. **USGS revised every 2026 Lees Ferry daily value down by ~100 cfs** between the 8/27 and 9/18 pulls — **34 of 35 rows moved by exactly −100**, the rest −90/−110. A provisional-data rating revision. ⇒ **the `−41.06%` for the 8/13–26 window in §2 recomputes to `−41.81%`**, and any Lees Ferry level carried from before 9/18 is ~100 cfs high. Revision rows appended for 8/25–8/31 (never overwritten); **earlier August rows left for AEOLUS to decide.**
+2. **`SOURCES.md` §1's state-granularity recipe is DEAD.** `aoi=CO` — its own literal example — returns `"-area of interest not recognized."`, as do `aoi=OK` and `aoi=40`. The **working** recipe lives only in this dossier's §1: a *different* endpoint, **`StateStatistics`** (not `USStatistics`) with a **2-digit FIPS** — and it **also requires `Accept: application/json`**, which neither file says. **SOURCES.md is the file a worker is told to read first and copy from, so the dead recipe is the one that gets reached for.** *AEOLUS owns `SOURCES.md` — not corrected by the worker.*
+
+---
 
 ---
 

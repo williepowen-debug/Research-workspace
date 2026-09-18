@@ -92,14 +92,32 @@ Parse `tau == 0` rows, dedupe by timestamp, apply the same status/≥34 kt filte
 
 ## LOSS LEG (shared with `../wildfire/SOURCES.md` — same publishers)
 
-| Source | Gives |
-|---|---|
-| **Gallagher Re / Munich Re / Aon** cat reports | H1 & full-year insured nat-cat vs 10-yr avg |
-| **Artemis.bm** | reinsurance ROL, renewal pricing, cat-bond issuance |
-| **Guy Carpenter** ROL index | the renewal-pricing series |
+> 🔴 **RE-CUT 2026-09-18 after the hurricane worker's gap #4: this section listed four PUBLISHER NAMES and no COMMANDS, while the peril leg above carries copy-paste commands throughout.** A worker cannot execute a publisher name, so **every loss figure was being reached by ad-hoc search rather than by a verified instrument — and that asymmetry is the structural reason the loss leg keeps going stale between vintages.** One command below is now verified; the rest are honestly marked as unresolved rather than left as names implying a route exists.
+
+### ✅ VERIFIED — cat-bond insurance risk spread (the MID-CYCLE surface) · added 2026-09-18
+**This is AEO-03's SEARCH instrument (KB-AEO-121). It is NOT the resolving instrument — that stays the Jan-1-2027 renewal ROL print.**
+```bash
+curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yield/"
+# Full Highcharts series is INLINE in the page HTML — no JS execution needed.
+# Regex the  categories:[...]  array, then each   name:'X' ... data:[...]   block.
+# 827 weekly points, 2010-10-08 → present. Collated by Plenum Investments AG.
+# Series: Insurance Risk Spread · Collateral Yield (3m T-Bills) · Expected Loss.
+```
+**Read 2026-09-18 (latest point 2026-08-28): spread 5.05% · EL 2.50% · multiple 2.02x · collateral yield 3.81%.**
+> ⚠️ **TWO CAVEATS THAT TRAVEL WITH EVERY CITATION.** **① It is NOT rate-on-line** — a cat-bond spread and a reinsurance ROL are different instruments on different perimeters, correlated but not interchangeable. **NEVER enter it against the ROL threshold row.** **② It refreshes MONTHLY**, so the newest point runs ~3 weeks behind and **a landfall would not show for up to a month.** It is a between-renewals price surface, **not an event detector**.
+> 🔴 **UN-BASE-RATED — and unlike the C5 Rhine trigger, this one CAN be base-rated before it is keyed (827 points exist). Build the base rate FIRST; do not register a band off the current level.**
+
+### ⚠️ UNRESOLVED — no verified primary command exists for these
+| Source | Gives | State 2026-09-18 |
+|---|---|---|
+| **Swiss Re Institute** sigma / H1 nat-cat | insured nat-cat vs long-term trend | 🔴 **HTTP 403 on two independent attempts** (WebFetch + `curl -A "Mozilla/5.0..."`). **Figures are SECONDARY-SOURCED ONLY — label them so; never silently upgrade to primary.** |
+| **Gallagher Re** cat reports | H1 & full-year insured nat-cat vs 10-yr avg | 🔴 `ajg.com/gallagherre/news-and-insights/` returns **HTTP 200 with a 212-byte JS shell — no content.** Figures reached via Artemis / Reinsurance News reporting, **not the issuer.** |
+| **Munich Re / Aon** cat reports | same | not attempted this run |
+| **Guy Carpenter** ROL index | the renewal-pricing series | the canonical ROL series; **visible only at Jan/Jun renewals** |
 
 ⚠️ **Commercial publishers on their own schedule** — H1 lands ~Jul-Aug, full-year ~Jan. **Between publications the loss leg is genuinely stale; label it rather than substituting a peril figure.**
 ⚠️ **NOAA NCEI's billion-dollar disaster DB was DISCONTINUED (Jul 2025)** — do not cite it (L-05).
+⚠️ **A MODELLED SCENARIO IS NOT A TALLY.** Swiss Re's 2026-09-16 Florida figures ($300bn+ Cat-5 Miami/Tampa, $200bn+ 1926 repeat, ~$100bn Andrew repeat) are scenarios and **must never enter the cat-loss band**. Same for any survey of *expectations* (Moody's 9/16 Jan-2027 −7.5% to −15%) — an expectation is not a transacted print.
 
 ---
 
