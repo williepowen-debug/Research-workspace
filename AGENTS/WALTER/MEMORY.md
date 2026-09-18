@@ -69,7 +69,7 @@
 
 ### CHANGES SINCE LAST SESSION — 2026-09-17 Thu evening, Full WALTER (Claude Fable 5.1, `walter-37`), Tier-2
 
-- **BOARD 982 → 988** — six dispatches, 22 handoffs, 2 kills; drop-zone batch 3/3 CLOSED; inbox 6 → 0; REGISTRY 8 rows refreshed. **No registered fire.** FT-10 run BROKE 9/15 (RED action); FT-12 near-trigger (HY 270 [9/16]); FOMC +25 bp 9/16 (primary) posted a day late; BoE held + APF sales paused (primary).
+- **BOARD 982 → 991** — nine dispatches (six at boot + three from Will's 23:05Z news sweep), 34 handoffs, 4 kills; drop-zone batch 3/3 CLOSED; inbox 6 → 0; REGISTRY 8 rows refreshed. **No registered fire.** FT-10 run BROKE 9/15 (RED action); FT-12 near-trigger (HY 270 [9/16]); FOMC +25 bp 9/16 (primary) posted a day late; BoE held + APF sales paused (primary).
 - **Iran FULL primary sweep DONE** (owed 9/17): "force majeure" NOT declared → ADD#25; Petroline day 7; Hormuz 12 transits 9/16 (floor); losses 3; marks untouched. Next ~9/24.
 - **Doorbells:** FALCON (FAL-05 window) + HENRY (9/18 opex) → PROME packet + SendMessage; 5 dark-recipient ACTION rows logged NOT doorbelled.
 - **Tooling (DAEDALUS PR#6):** `version_drift_check.py` reads the field + fails on H1≠field (watched FAIL, then PASS); routing trio field/prose reconciled at v0.38; `workbook/LEDGER_GLOB` created; 3 event ledgers declared EVENT-DRIVEN.
@@ -77,7 +77,7 @@
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list (11 + 2 new).
-2. 🔴 **Check the two doorbell outcomes at the ARTIFACTS** (FALCON board_log/STATUS for `-001`; HENRY board_log for `-0917-004`) and PROME's reply; re-doorbell FALCON if still dark past the 9/18 close with FAL-05 ungraded.
+2. ✅ Both doorbells DISCHARGED same evening (PROME spawned FALCON + HENRY within 15 min; FAL-05 graded NO FIRE, open to 10/07; HENRY consumed -002/-004, deferred four). **Next boot: HENRY's deferred four, REGINALD `-005`/`-009` (no BOARD_LOG row yet), RED's FT-10 cell.**
 3. 🔴 **After any missed weekday, diff the catalyst calendar against the BOARD's last date FIRST** (finding #26) — 9/18 opex + BOJ are the next data-day items.
 4. FRED is T+1: re-pull HY after ~16:15 ET before quoting the FT-12 distance.
 5. `#6`/`#8` month basis stays WITH WILL; CATO registry question WITH WILL.
