@@ -8,7 +8,7 @@ Prior: 2026-09-11 12:1x (TERRY row: the 9/11 owner grades — XLE sold, VLO gate
 
 ---
 
-## Appended 2026-09-18 09:5x ET (PROME `prome-2a`) — the 2026-09-11 19:5x prior stamp, rotated off the live line on the one-prior rule at the TERRY-row byte-flow rotation. entry-crc32 15663849 over 344 B between the markers (exclusive). Nothing above this line was touched.
+## Appended 2026-09-18 09:0x ET (PROME `prome-2a`) — the 2026-09-11 19:5x prior stamp, rotated off the live line on the one-prior rule at the TERRY-row byte-flow rotation. entry-crc32 15663849 over 344 B between the markers (exclusive). Nothing above this line was touched.
 <!-- BEGIN VERBATIM 2026-09-18 -->
 Prior: 2026-09-11 19:5x (Post-FOMC/Hormuz row: FALCON tell #2 FIRED on the Saudi MoE Petroline shutdown statement — the prior "NOT FIRED / pending confirmation" clause replaced in place; BRENT's BG-02 re-grade OWED — **DISCHARGED 2026-09-12: re-graded, STILL NOT MET on four grounds**; the deploy question stays CLOSED; nothing else moved).
 <!-- END VERBATIM 2026-09-18 -->
