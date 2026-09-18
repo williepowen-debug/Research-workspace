@@ -20,6 +20,16 @@ v3 (2026-09-18, after the SECOND independent cold read `wq244cold2`, 4 ❌ on th
  ❌10 `PIPESTATUS`/`pipefail` mentioned ANYWHERE (a comment, an unrelated string) disables both recognisers via the
     recogniser's own `ALREADY_SAFE` allowlist — DAEDALUS's file, declared here as the recogniser's perimeter and
     packeted to DAEDALUS, not re-implemented by this wrapper.
+v5 (2026-09-18, after the FOURTH independent cold read `wq244cold4`, 4 ❌ on this wrapper — each a drill below):
+ ❌3 `… | tail -3 || echo $?`: the immediate-segment test found the last `|` inside `||` and counted zero separators
+    (silent bypass). Now: the pipeline's last SINGLE pipe is located and the separator set is counted properly.
+ ❌4 a `;` inside a quoted string (`echo "a;b rc=$?"`) was counted as a command boundary (silent bypass). Now: `;`,
+    `&` and newlines inside quoted runs are blanked before counting, like the pipe characters.
+ ❌5 `time { gate | tail; }; echo $?` — `{` was not a segment boundary, so the gate read as `time`'s argument (silent
+    bypass). Now: `{` bounds a segment and is stripped from a head token.
+ ❌6 `command -v pytest | head -1; echo $?` BLOCKED — the v4 prefix walk promoted `command`'s lookup argument to the
+    command word (FALSE POSITIVE). Now: `command` is not walked past.
+ ⚠️ the PAT-172 size assertion compared a literal to itself; the drill count is now derived from the drills run.
 v4 (2026-09-18, after the THIRD independent cold read `wq244cold3`, 4 ❌ on this wrapper — each a drill below):
  ❌5 the command-position test walked ONE interpreter level, so `time` / `env VAR=1` / `nice -n 5` before `python3 <gate>`
     suppressed a real defect. Now: prefix commands (time env nice sudo timeout nohup stdbuf command exec) and their
@@ -54,7 +64,7 @@ _LIFT = (re.compile(r"\b(?:bash|sh|zsh|dash)\s+(?:-[a-zA-Z]*c[a-zA-Z]*\s+)(['\"]
          re.compile(r"\beval\s+(['\"])(.*?)\1", re.S))
 _QUOTED = re.compile(r"(?<![\w])\"(?:[^\"\\]|\\.)*\"|(?<![\w])'[^']*'", re.S)
 _INTERP = ("python3", "python", "bash", "sh", "zsh", "source", ".")
-_PREFIX = ("time", "env", "nice", "sudo", "timeout", "nohup", "stdbuf", "command", "exec")
+_PREFIX = ("time", "env", "nice", "sudo", "timeout", "nohup", "stdbuf", "exec")
 _ENV_ASSIGN = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*=")
 
 
@@ -65,21 +75,22 @@ def _lift(cmd):
 
 
 def _blank_quoted_pipes(cmd):
-    """Replace every PIPE CHARACTER inside a (word-boundary-opened) quoted string with a space. A `$?` read inside
-    the same string survives, so blanking can never manufacture a false negative on a real defect."""
-    return _QUOTED.sub(lambda m: m.group(0).replace("|", " "), cmd)
+    """Replace every PIPE, `;`, `&` and NEWLINE inside a (word-boundary-opened) quoted string with a space — quoted
+    text is never a pipeline or a command boundary. A `$?` read inside the same string survives, so blanking can
+    never manufacture a false negative on a real defect (r4 ❌4 added the separators)."""
+    return _QUOTED.sub(lambda m: re.sub(r"[|;&\n]", " ", m.group(0)), cmd)
 
 
 def _gate_in_command_position(text, m):
     """m = the recogniser's PIPE_THEN_RC match. True when the gate token is the command word of its own segment
     (the text from the previous ; & | ( or newline up to the gate), or the first non-flag argument of an interpreter."""
     start = m.start("gate")
-    seg_start = max([text.rfind(ch, 0, start) for ch in (";", "\n", "(", "|", "&")] + [-1]) + 1
+    seg_start = max([text.rfind(ch, 0, start) for ch in (";", "\n", "(", "{", "|", "&")] + [-1]) + 1
     toks = text[seg_start:m.end("gate")].split()
     # walk past env assignments and PREFIX commands with their arguments (r3 ❌5): `time`, `env VAR=1`, `nice -n 5`,
     # `sudo -u x`, `timeout 30`, `nohup`, `stdbuf -oL`, `command`, `exec` — then judge the command word.
     while toks:
-        t = toks[0].lstrip("(")
+        t = toks[0].lstrip("({")
         if _ENV_ASSIGN.match(t):
             toks.pop(0); continue
         if os.path.basename(t) in _PREFIX:
@@ -90,7 +101,7 @@ def _gate_in_command_position(text, m):
         break
     if not toks:
         return False
-    head = toks[0].lstrip("(")
+    head = toks[0].lstrip("({")
     gate = m.group("gate")
     cands = [head]
     if head in _INTERP or os.path.basename(head) in _INTERP:
@@ -106,10 +117,17 @@ def _gate_in_command_position(text, m):
 _SEP = re.compile(r";|&&|\|\||\n")
 
 
+_SINGLE_PIPE = re.compile(r"(?<!\|)\|(?!\|)")
+
+
 def _read_is_immediate(m):
     """r3 ❌7: the `$?` read must sit in the segment IMMEDIATELY after the pipeline — exactly one command boundary
-    between the pipeline's last element and the read. Two or more means the `$?` belongs to a later command."""
-    tail = m.group(0)[m.group(0).rfind("|") + 1:]
+    between the pipeline's last SINGLE pipe and the read. Two or more means the `$?` belongs to a later command.
+    r4 ❌3: `||` is a boundary, never a pipe, so the last single pipe is located with a look-around."""
+    whole = m.group(0)
+    pipes = list(_SINGLE_PIPE.finditer(whole))
+    tail = whole[pipes[-1].end():] if pipes else whole
+    tail = re.sub(r";\s*}", "", tail)          # a brace group's closing `; }` is not a command boundary (r4 ❌5)
     return len(_SEP.findall(tail)) == 1
 
 
@@ -129,7 +147,7 @@ def verdict(cmd, guard_path=_GUARD):
     reasons = []
     for m in matches:                              # r3 ❌6: every match, not the first
         if not _gate_in_command_position(text, m):
-            seg = text[max(text.rfind(c, 0, m.start("gate")) for c in (";", "\n", "(", "|", "&")) + 1:m.start("gate")].split()
+            seg = text[max(text.rfind(c, 0, m.start("gate")) for c in (";", "\n", "(", "{", "|", "&")) + 1:m.start("gate")].split()
             reasons.append(f"`{m.group('gate')}` is an ARGUMENT of `{seg[0] if seg else '?'}`, not the command run")
             continue
         if not _read_is_immediate(m):
@@ -173,12 +191,13 @@ def _handle(data, guard_path=_GUARD):
     return 0
 
 
-EXPECTED_DRILLS = 27
+EXPECTED_DRILLS = 32
 
 
 def selftest():
-    fails = []
+    fails = []; ran = [0]
     def drill(label, want, data, path=_GUARD):
+        ran[0] += 1
         try:
             rc = _handle(data, path)
         except Exception as e:
@@ -215,6 +234,12 @@ def selftest():
     drill("r3 ❌5: nice -n 5 python3 <gate> | tail; echo $? -> 2", 2, bash('nice -n 5 python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
     drill("r3 ❌6: an argument-position mention BEFORE a real defect on the same line -> 2", 2, bash('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?; python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
     drill("r3 ❌7: gate piped for display, then an unrelated command, then echo $? -> 0", 0, bash('python3 scripts/read_cap_check.py --agent PROME | tail -3; git status --short; echo $?'))
+    # r4 ❌3 / ❌4 / ❌5 / ❌6 VERBATIM
+    drill("r4 ❌3: gate | tail -3 || echo $? -> 2", 2, bash('python3 scripts/validate_all.py 2>&1 | tail -3 || echo $?'))
+    drill("r4 ❌4: a ; inside the quoted read string -> 2", 2, bash('python3 scripts/validate_all.py 2>&1 | tail -1; echo "a;b rc=$?"'))
+    drill("r4 ❌5: time { gate | tail -1; }; echo $? -> 2", 2, bash('time { python3 scripts/validate_all.py 2>&1 | tail -1; }; echo $?'))
+    drill("r4 ❌5: bare { gate | tail -1; }; echo $? -> 2", 2, bash('{ python3 scripts/validate_all.py 2>&1 | tail -1; }; echo $?'))
+    drill("r4 ❌6: command -v pytest | head -1; echo $? -> 0 (a lookup, not a run)", 0, bash('command -v pytest | head -1; echo $?'))
     # --explain honesty (⚠️17): a suppressed raw hit is REPORTED
     _, _, why = verdict('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?')
     ok = why.startswith("raw hit suppressed"); print(f"  {'✓' if ok else '✗'} verdict() names a suppressed raw hit ({why[:60]!r})")
@@ -222,7 +247,7 @@ def selftest():
     _, _, why = verdict('ls -la | head -3; echo $?')
     ok = why == ""; print(f"  {'✓' if ok else '✗'} verdict() reports nothing when there was no raw hit")
     if not ok: fails.append("phantom suppression reported")
-    total = 27
+    total = ran[0] + 2                      # drills run + the two verdict() checks below
     if total != EXPECTED_DRILLS:
         fails.append("SUITE SIZE CHANGED (PAT-172)")
     for f in fails: print(f"  ❌ {f}")

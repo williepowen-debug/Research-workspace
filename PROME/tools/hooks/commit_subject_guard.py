@@ -18,10 +18,19 @@ v3 (2026-09-18, after the SECOND independent cold read `wq244cold2`, 6 ❌ on th
     resumed scanning prose as commands. Now: `<<WORD` needs the exact line; `<<-WORD` strips leading tabs only.
  ❌4 a relative `-F` path with no `cd` was read from the HOOK's cwd, which is not the shell's persistent cwd.
     Now: only ABSOLUTE literal paths are ever read from disk; every relative path is UNKNOWN.
- ❌5 a second `git commit` on a NEW LINE was swallowed as arguments of the first (silent bypass). Now: commands are
-    tokenised per line (backslash continuations joined first).
+ ❌5 a second `git commit` on a NEW LINE was swallowed as arguments of the first (silent bypass). Now: the whole
+    text is tokenised at once and a commit's argument scan stops at the next `git` command word (v3, restated in v5
+    after r4 ❌8 — the earlier "per line" wording described code that never shipped).
  ❌6 `eval "git commit …"` was read as quoted prose (silent bypass). Now: `eval` bodies are lifted like `-c` bodies;
     `$GIT commit` is UNKNOWN with an advisory.
+v5 (2026-09-18, after the FOURTH independent cold read `wq244cold4`, 4 ❌ on this file — each a drill below):
+ ❌1 `$'…'` with backslash ESCAPES (`$'subject\n\nbody'`) was measured as one 230-char line — a FALSE POSITIVE. Now: any
+    ANSI-C message carrying a backslash is UNKNOWN + advisory; escape-free `$'…'` is measured as plain single quotes.
+ ❌2 two heredocs feeding two `-F -` commits shared one stdin body, so the LAST body was attributed to BOTH (silent
+    bypass). Now: more than one stdin heredoc in a command makes every `-F -` UNKNOWN.
+ ❌9 the FIRST line was left-stripped; git keeps a subject's leading whitespace. Now: nothing is left-stripped.
+ ❌7/❌8 two docstring claims the code did not hold (a "disk read" exception in diagnose's own docstring; a per-line
+    tokeniser that v3 replaced) — corrected below and in the v3 note.
 v4 (2026-09-18, after the THIRD independent cold read `wq244cold3`, 5 ❌ on this file — each a drill below):
  ❌1 an INDENTED continuation line of the first paragraph was under-counted (each line was stripped; git keeps the
     leading whitespace of continuation lines when it joins them). Now: only the first line is left-stripped.
@@ -53,13 +62,15 @@ ACCEPTANCE CONDITIONS (WQ-229; the selftest IS this list):
  A6 the selftest asserts its own size (EXPECTED_DRILLS) and drives the recogniser on VERBATIM shapes from this
     session's own commits and from both cold readers' counterexamples (PAT-172).
  A7 the subject is measured the way `git log --format=%s` measures it: first paragraph joined by single spaces,
-    continuation lines' leading whitespace KEPT, trailing whitespace stripped, NFC-normalised.
+    ALL leading whitespace kept (first line included), trailing whitespace stripped, NFC-normalised.
 
 PERIMETER: a PreToolUse **Bash** hook sees the literal command text. A `git commit` that is VISIBLE but whose message
 is not determinable is ALLOWED WITH AN ADVISORY. A commit that is NOT visible — a script invoked by path, a git alias,
 a wrapper binary, a command assembled at runtime beyond `$GIT` — is allowed SILENTLY. validate_all C1 measures after
 the fact in both cases. A `$0`-style literal inside a double-quoted `-m` expands in the shell but is measured here as
 typed (±4 chars) — declared residue. Unbalanced quoting anywhere in the command makes the whole command UNKNOWN.
+Perimeter left after four independent reads (declared, not fixed): `| /usr/bin/tail`-style path-qualified
+swallowers and a `$GIT`/alias-held git are unseen; a single-quoted backtick or `$` in a subject is UNKNOWN.
 
 Protocol: stdin = JSON {tool_name, tool_input:{command}}; exit 2 + stderr = BLOCK; exit 0 = allow.
 Modes: hook JSON on stdin · `--selftest` · `--explain "<shell command>"`.
@@ -83,6 +94,9 @@ _QUOTED = re.compile(r"'([^']*)'|\"([^\"]*)\"")
 _RUNTIME = re.compile(r"\$[A-Za-z_{(]|`")
 _GITVAR = re.compile(r"\$\{?GIT\}?\s+commit\b")
 _STDIN_F = re.compile(r"(?:^|\s)(?:-F\s*-|--file=-)(?=\s|$)")
+_ANSIC = re.compile(r"\$'((?:[^'\\]|\\.)*)'")
+_ANSIC_ESCAPED = "__ANSI_C_WITH_ESCAPES__"
+_STDIN_AMBIGUOUS = "__MORE_THAN_ONE_STDIN_HEREDOC__"
 _PUNCT = {";", "&&", "||", "|", "&", "(", ")", ">", "<", ">>", "<<", ">&", "<&", "|&"}
 _GIT_GLOBAL_WITH_ARG = ("-C", "-c")
 
@@ -119,7 +133,7 @@ def _heredocs(cmd):
                     else:
                         bodies[path] = "\n".join(lines[i + 1:end])
                 elif GIT_CMD.search(ln) and _STDIN_F.search(ln):
-                    bodies["-"] = "\n".join(lines[i + 1:end])
+                    bodies["-"] = _STDIN_AMBIGUOUS if "-" in bodies else "\n".join(lines[i + 1:end])
                 i = end
         i += 1
     return bodies, appended, "\n".join(out), hd_idx
@@ -145,8 +159,6 @@ def _subject_of(message):
         if not ln.strip():
             break
         para.append(ln.rstrip())
-    if para:
-        para[0] = para[0].lstrip()
     return unicodedata.normalize("NFC", " ".join(para).rstrip())
 
 
@@ -159,7 +171,7 @@ def _commit_arg_lists(scan):
     """Every `git … commit <args…>` in the command, as token lists. The whole text is tokenised at once (a quoted
     message may span lines), and a commit's argument scan STOPS at punctuation OR at the next `git` command word —
     so a second commit on a new line (r2 ❌5) is its own command, never swallowed as arguments of the first."""
-    lifted = _lift(scan).replace("$'", "'")   # ANSI-C quoting → plain single quotes (r3 ❌4)
+    lifted = _ANSIC.sub(lambda m: "'" + _ANSIC_ESCAPED + "'" if "\\" in m.group(1) else "'" + m.group(1) + "'", _lift(scan))  # r3 ❌4 / r4 ❌1
     lex = shlex.shlex(lifted, posix=True, punctuation_chars=True)
     lex.whitespace_split = True
     toks = list(lex)                          # ValueError propagates → UNKNOWN
@@ -182,6 +194,8 @@ def _commit_arg_lists(scan):
 
 def _file_message(path, bodies, appended, rewritten):
     if path == "-":
+        if bodies.get("-") == _STDIN_AMBIGUOUS:
+            return None, "-F - with MORE THAN ONE stdin heredoc in this command — which body is whose is not determinable"
         if "-" in bodies:
             return bodies["-"], "-F - with the heredoc on stdin in this command"
         return None, "-F - reads stdin and no heredoc feeds it in this command"
@@ -229,7 +243,7 @@ def _message_from(args, bodies, appended, rewritten):
 
 
 def diagnose(cmd):
-    """(verdict, detail). verdict ∈ {'block','allow','unknown'}. Pure except for an on-disk absolute -F read."""
+    """(verdict, detail). verdict ∈ {'block','allow','unknown'}. Pure: this hook never reads a file from disk."""
     if not cmd or not isinstance(cmd, str):
         return "allow", ""
     if not GIT_CMD.search(cmd) and not _GITVAR.search(cmd):
@@ -256,6 +270,9 @@ def diagnose(cmd):
             continue
         if _RUNTIME.search(msg):
             unknowns.append(f"runtime-assembled message ({how} contains $VAR, $(…) or a backtick) — subject not determinable pre-execution")
+            continue
+        if _ANSIC_ESCAPED in msg:
+            unknowns.append("ANSI-C quoted message with backslash escapes — the shell decodes them, this hook does not; subject not determinable")
             continue
         subj = _subject_of(msg)
         n = len(subj)
@@ -295,7 +312,7 @@ def _handle(data):
     return 0
 
 
-EXPECTED_DRILLS = 58
+EXPECTED_DRILLS = 61
 
 
 def selftest():
@@ -364,6 +381,10 @@ def selftest():
         (f"cd /tmp/cr3 && printf '%s\\n' \"short\" > ./msg.txt && git commit PROME/STATUS.md -F /tmp/cr3/msg.txt", "unknown", "r3 ❌3 — same file rewritten under ANOTHER spelling: no disk read ⇒ UNKNOWN, never a block"),
         ("git commit PROME/STATUS.md -m $'" + exact100 + "'", "allow", "r3 ❌4 — $'…' ANSI-C quoting, exactly 100 chars ⇒ allow (no phantom $)"),
         ("git commit PROME/STATUS.md -m $'" + exact100 + "x'", "block", "r3 ❌4 — $'…' with 101 chars ⇒ block"),
+        # ── wq244cold4 (fourth read), VERBATIM ──
+        ("git commit PROME/STATUS.md -m $'PROME: short subject\\n\\nbody " + "x" * 200 + "'", "unknown", "r4 ❌1 — $'…' WITH escapes: git's %s is 20 chars; measuring the literal gave 230 ⇒ UNKNOWN, never a block"),
+        (f"git commit A -F - <<'EOF'\n{long_subj}\nEOF\ngit commit B -F - <<'EOF'\nshort\nEOF", "unknown", "r4 ❌2 — two stdin heredocs for two -F - commits ⇒ UNKNOWN (bodies not attributable)"),
+        ("git commit PROME/STATUS.md -m '     " + "x" * 98 + "'", "block", "r4 ❌9 — git KEEPS a subject's leading whitespace: 5 + 98 = 103 ⇒ block"),
     ]
     fails = []
     here = os.getcwd()
