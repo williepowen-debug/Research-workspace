@@ -2,6 +2,8 @@
 
 > **CLOSED 2026-09-03.** True range: three rotations executed 2026-08-21 (blocks 1–2) and 2026-08-28 (entry tail), content 2026-06-27 → 2026-08-20 (f). Successor: `EVOLUTION_ARCHIVE_2026-09.md` (month = rotation month, per the 9/2 pilot amendment). Block crcs below are unaffected: this banner sits above block 1's header.
 
+> **LABELS RENUMBERED 2026-09-17 to PHYSICAL ORDER 1–6** (was 1 · 2 · 2 · 3 · 4 · 5 across three heading spellings `block`/`BLOCK`/`Block`; found by complete_check leg (v) on its first run, PAT-180 n=2). Only the six header lines changed — bodies verified line-identical to the committed file at renumber time. Each writer hashed its own span, so verify a block by the span ITS header or first body line describes; the label is a locator, the crc is the identity. Map old→new: 1→1 (3618051777) · 2→2 (1162786417) · 2→3 (crc on body line) · 3→4 (crc on body line) · 4→5 (crc on body line) · 5→6 (2285518930). Any sealed body text citing an OLD label resolves by its crc.
+
 ## block 1 — Phase-era changelog entries 2026-06-27 → 2026-07-12, rotated verbatim 2026-08-21 (crc32 3618051777)
 
 ### 2026-07-12 — DUAL RESTRUCTURE: HAWK war-agent split (OSPREY + FALCON) + HOMER promotion — the standard gains a SPLIT/PROMOTION methodology
@@ -197,7 +199,7 @@
 
 ---
 
-## BLOCK 2 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier)
+## block 3 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier)
 
 **7 entries, 2026-07-22 → 2026-07-31 · 14,017 B · crc32 `3491920909` · VERBATIM, contiguous, nothing edited.**
 **Why rotated:** `EVOLUTION.md` measured 140% of the ~25,000-token single-read cap, so SPAWN step 4's mandated read was returning fragments (PAT-111). Rotation, never deletion — **every ruling below stands and is citable.**
@@ -258,7 +260,7 @@
 
 ---
 
-## BLOCK 3 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier)
+## block 4 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier)
 
 **21 entries, 2026-08-07 → 2026-08-19 · 33,316 B · crc32 `1015120008` · VERBATIM, contiguous, nothing edited.**
 **Why rotated:** same cause as block 2 — `EVOLUTION.md` past the ~25,000-token single-read cap, so SPAWN step 4's mandated read returned fragments (PAT-111). **Every ruling below stands.**
@@ -377,7 +379,7 @@ Four standard-changes in one day, all Will-approved or Will-ratified: **① `BLU
 
 ---
 
-## BLOCK 4 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier, second rotation that day)
+## block 5 — rotated 2026-08-23 from `EVOLUTION.md` (read-cap tier, second rotation that day)
 *(Oldest contiguous entry tail: 2026-08-20 (f) through the file end · 7153 B · crc32 `6936083` · round-trip verified from THIS file. Rotated because the 2026-08-23 (c) entry pushed EVOLUTION to 65% of the read cap — the same guard that caught FLEET_MAP caught its own author's writing the same evening. Rotation, never compression of history: every ruling below stands.)*
 
 ```
@@ -410,7 +412,7 @@ Four standard-changes in one day, all Will-approved or Will-ratified: **① `BLU
 *(Phase-era changelog 2026-06-27 → 2026-07-12 [~27 entries: creation, blueprints, first scans, AEOLUS/WATT/VULCAN/MIDAS builds, HAWK split, HOMER promotion, PAT-018..050 era] rotated verbatim 2026-08-21 → `archive/EVOLUTION_ARCHIVE_2026-08.md` block 1, crc32 3618051777 · Phase-era Roadmap table [fully dispositioned 7/12] rotated same pass → block 2, crc32 1162786417)*
 ```
 
-## Block 5 — crc32 `2285518930` — 11889 B — rotated verbatim 2026-08-28 (EVOLUTION crossed 62% of the read cap the hour P1 was ruled; seven entries 2026-08-21 (all five) + 2026-08-22 (both); verify: zlib.crc32 over the text between the fences)
+## block 6 — crc32 `2285518930` — 11889 B — rotated verbatim 2026-08-28 (EVOLUTION crossed 62% of the read cap the hour P1 was ruled; seven entries 2026-08-21 (all five) + 2026-08-22 (both); verify: zlib.crc32 over the text between the fences)
 
 <!-- BEGIN -->
 ### 2026-08-22 (b) — STATE_VOCABULARY Classes 11 + 12 + surface-role enum MINTED (RAV package, Will-ruled at the pulled-forward sitting)

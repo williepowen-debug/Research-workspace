@@ -6,7 +6,7 @@ reach origin?"). Born from the 2026-08-12 finding (PAT-101/PAT-102): 8 gaps in o
 my own "closed", 0 found by my closeout — every one a COMPLETE-failure, every check a
 COMMITTED-check. Build-queue head since 8/12; built 2026-08-17 late (self-audit open-items run).
 
-Four legs (three rules earned 8/12, STATUS item 3; leg (iv) added 8/21):
+Five legs (three rules earned 8/12, STATUS item 3; leg (iv) added 8/21; leg (v) added 9/17):
   (ii) PAIRING [mechanical, gates rc]: every commit in range touching BLUEPRINTS/* or
        UPGRADE_PROTOCOL.md must include EVOLUTION.md in the SAME commit (PAT-101 rule ii —
        missed twice in one session before the rule; once after, 383051aeb).
@@ -139,6 +139,30 @@ def main():
               f"at line {entries[0][0]}, but the newest entry is {newest[2]}({newest[3]}) at line "
               f"{newest[0]} — the file declares newest-first and is not (F16/B5 recurrence class)")
 
+    # Leg (v) — ARCHIVE BLOCK LABELS unique + monotonic, case-insensitive (added 2026-09-17, PAT-180):
+    # EVOLUTION_ARCHIVE_2026-09.md carried labels 1·2·3·2·3 after three hand-numbered rotations, and a
+    # `Block` case variant hid two of them from the `## block` grep the next writer ran. Content was
+    # safe (per-block crc) but every pointer cites the LABEL. Override dir for drills: --archive-dir.
+    import glob as _glob
+    arch_dir = os.path.join(repo, "AGENTS/DAEDALUS/archive")
+    if "--archive-dir" in sys.argv:
+        arch_dir = sys.argv[sys.argv.index("--archive-dir") + 1]
+    label_re = re.compile(r"^## block (\d+) — ", re.I)
+    arch_files = sorted(_glob.glob(os.path.join(arch_dir, "*_ARCHIVE_*.md")))
+    if not arch_files:
+        print(f"🔴 complete_check CANNOT-CERTIFY: no *_ARCHIVE_*.md under {arch_dir} — leg (v) has an EMPTY population (PAT-155)")
+        return 2
+    for af in arch_files:
+        labels = [int(m.group(1)) for ln in open(af, encoding="utf-8", errors="replace") for m in [label_re.match(ln)] if m]
+        dup = sorted({x for x in labels if labels.count(x) > 1})
+        if dup:
+            findings += 1
+            print(f"⏰ ARCHIVE-LABELS: {os.path.relpath(af, repo)} has DUPLICATE block label(s) {dup} (sequence {labels}) — renumber to physical order; cite by crc (PAT-180)")
+        elif labels != sorted(labels):
+            findings += 1
+            print(f"⏰ ARCHIVE-LABELS: {os.path.relpath(af, repo)} block labels not monotonic: {labels}")
+    print(f"· archive-labels: {len(arch_files)} archive file(s) checked for duplicate/non-monotonic `## block N` labels (case-insensitive)")
+
     # Leg (i) — claim enumeration (judgment walk-list; never gates rc)
     #
     # DIFF-SCOPED (2026-08-20, closing WALTER's 8/17 discharge-path packet): claims are
@@ -190,7 +214,7 @@ def main():
 
     print(f"{'✅' if not findings else '⏰'} complete_check: {len(commits)} commit(s) since "
           f"{since} · pairing checked on {checked} standards commit(s), "
-          f"{findings} violation(s) · {pairs} READER_REPORTS pair(s) checked · "
+          f"{findings} finding(s) across legs (ii)–(v) · {pairs} READER_REPORTS pair(s) checked · "
           f"{claims} side-effect claim line(s) ADDED this range across {len(claim_files)} doc(s) — "
           f"WALK THE CLAIM LIST before closeout; leg (i) is enumeration, not verification")
     return 1 if findings else 0

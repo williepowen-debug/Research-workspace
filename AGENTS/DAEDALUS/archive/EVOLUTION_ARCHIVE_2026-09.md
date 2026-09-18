@@ -2,6 +2,8 @@
 
 > Verbatim, crc-stamped blocks rotated out of `EVOLUTION.md`. **A rotation is not a discharge.** Verify any block by extracting it from `## block N` header+1 to the next `## block` (or EOF) and recomputing crc32. Predecessor: `EVOLUTION_ARCHIVE_2026-08.md` (CLOSED 2026-09-03).
 
+> **LABELS RENUMBERED 2026-09-17 to PHYSICAL ORDER 1–6** (was 1 · 2 · 3 · 2 · 3 · 3 — three rotations by the same author each computed "next block" from memory, and a case variant `Block` hid two of them from a `## block` grep). Only the header lines changed — bodies verified line-identical to the committed file at renumber time (5 diff ops: this note, three relabels, block 6 appended). Each writer hashed its own span (block 5 carries its crc on its first body line), so verify a block by the span ITS header describes; **the label is a locator, the crc is the identity.** Map old→new: 1→1 (crc 1967475117) · 2→2 (crc 2545191367) · 3→3 (crc 2a0036a3) · 2→4 (crc c8a5f60a) · 3→5 (crc ?) · 3→6 (crc 3979447289).
+
 ## block 1 — changelog entries 2026-08-23 → 2026-08-26 (four entries: 8/23 wiring-sweep scope · 8/23 (b) byte budget re-derived · 8/23 (c) boot spine repaired · 8/26 R1 boot leg), rotated verbatim 2026-09-03 (crc32 1967475117; 17964 B)
 
 ### 2026-08-26 — R1 corrections boot leg SHIPPED + blueprint REQUIRED element ×3 variants (FORUM-6 ruling ① executed; pairing entry)
@@ -90,7 +92,7 @@ Four remedy notes appended to `BLUEPRINTS/READ_CAP.md` off the 21:18 packet wave
 **Roadmap:** R1 boot line → 36 desks on Will's word (coverage 1/37 today; 9/26 checkpoint) · `read_cap_check --agent` (P2) · `profile_clock_check` (㉕: 7 of 25 profile day-clocks expired, 0 read by any boot) · `catalyst_countdown` consolidation (P3: 10 forks / 10 hashes) · sweep #2 ~9/14 with ⑲'s clause-SET unit.
 
 
-## Block 3 — entries (h)–(k), 2026-09-01 → 2026-09-03 (rotated verbatim 2026-09-07 ~21:0x, byte-tier convention; crc32 `2a0036a3`; 15818 B)
+## block 3 — entries (h)–(k), 2026-09-01 → 2026-09-03 (rotated verbatim 2026-09-07 ~21:0x, byte-tier convention; crc32 `2a0036a3`; 15818 B)
 
 ### 2026-09-03 (k) — SPEC_LETTER_STANDARD gains SL-5 (tie set at fixed precision); READ_CAP gains rule 18 (obligation audit); two shared guards gain shipped selftests and the recognizer gains rules 9 + 10; docket_view built (pairing entry, LATE — commit `8592d2137` carried the BLUEPRINTS edits without this entry; `complete_check` leg (ii) would have caught it at closeout, PAT-101 rule ii, n+3)
 - **SL-5 (tie set):** any `>`/`<`/`≥`/`≤` over a series published at fixed precision declares strictness + published precision + the as-published tie convention, computes its base rate on the SAME operator, and audits EXIT legs. Earned by CREED-T-01a (12.00 vs `>12`, saved only by a pre-registered convention) and RED FT-11 (41% of fires on the tie atom; strict-vs-non-strict = 1.7× the rate) — two desks in four hours, PROME-routed. PAT-142. STRICT_TEXT rule 7 carries the pointer. **Ruling provenance:** CREED's finding was made under Will's WQ-100 batch word; PROME ruled the home as "fold into SL"; DAEDALUS owns the file. One-time base-rate operator sweep = wiring sweep #2 leg (~9/14), DOCKET row asked of PROME.
@@ -141,7 +143,7 @@ Four remedy notes appended to `BLUEPRINTS/READ_CAP.md` off the 21:18 packet wave
 
 
 
-## Block 2 — entries (n, m, l) rotated verbatim 2026-09-07 ~21:4x (byte-tier: EVOLUTION at 84% after (u); crc32 `c8a5f60a`; 6342 B)
+## block 4 — entries (n, m, l) rotated verbatim 2026-09-07 ~21:4x (byte-tier: EVOLUTION at 84% after (u); crc32 `c8a5f60a`; 6342 B)
 
 ### 2026-09-03 (l) — PATTERNS hot index becomes a ROLLING 45-day window with a generated cold index; `sweeps_due.py` gains a playbook-presence guard
 - **Why:** `PATTERNS_HOT.md` measured 27,416 B = 84% of the 32,550 B budget at 143 rows and is GENERATED — rotation is not available to it, and hook-trimming alone buys weeks. The row SET now splits by age: hot = dated within 45 days or `[HOT]` in Notes (first cut said 75 — the whole register measured 68 days old, oldest row 6/27, so 75 split NOTHING; the window is sized to the observed 2.1 mints/day, not to a round number) (held-hot, for unpredictable-trigger lessons — the MEMORY.md flow-rule shape, Will-approved 2026-08-12, applied to my own register); everything older → `PATTERNS_COLD_INDEX.md`, one 100-char line each, grep on demand, NOT a boot read. Conservation hot+cold == rows or rc 2; the generator warns at ≥75%. At 45d ≈ 95 hot rows ≈ 52%. **Cost stated:** June/early-July lessons leave the boot read; the mitigation is the `[HOT]` tag and the cold grep, and the loss is measured at the next Production Review by whether any cold-only lesson was re-learned.
@@ -159,7 +161,7 @@ Four remedy notes appended to `BLUEPRINTS/READ_CAP.md` off the 21:18 packet wave
 
 ---
 
-## Block 3 — EVOLUTION entries (p) and (o), 2026-09-05
+## block 5 — EVOLUTION entries (p) and (o), 2026-09-05
 **ROTATED VERBATIM 2026-09-12 by DAEDALUS · crc32 `bac06281` · 9,939 B · contiguous, oldest-first.**
 *Rotation reason: EVOLUTION.md reached 33,719 B = 103.6% of the 32,550 B read-cap budget after this session's two entries. It is a CONDITIONAL boot read, which is exactly how it sat at 119% unflagged on 9/02 — a conditional step reads 'only when the task touches the standard', and this session's task did. ⛔ Rotation, never deletion; the budget is not ours to move.*
 
@@ -203,3 +205,43 @@ Four remedy notes appended to `BLUEPRINTS/READ_CAP.md` off the 21:18 packet wave
 *(Older entries — 2026-08-23 through 2026-08-26, incl. the byte-budget derivation (b) and the boot-spine repair (c) — rotated verbatim 2026-09-03 → `archive/EVOLUTION_ARCHIVE_2026-09.md` block 1, crc32 1967475117. Jun–Aug-20 entries → `archive/EVOLUTION_ARCHIVE_2026-08.md`, CLOSED.)*
 
 *(Entries (n, m, l) rotated verbatim 2026-09-07 ~21:4x → `archive/EVOLUTION_ARCHIVE_2026-09.md` block 2, crc32 `c8a5f60a`, 6342 B, round-trip verified from the written file — byte tier after entry (u).)*
+
+## block 6 — changelog entries 2026-09-05 (q) → 2026-09-07 (t) (four entries: (t) HARVEST BATCH · (s) WQ-180 scope/WQ-181 ② · (r) two utility-agent edits unpaired · (q) WQ-180 RULED calibration leg), rotated verbatim 2026-09-17 (crc32 3979447289; 9198 B)
+
+### 2026-09-07 (t) — HARVEST BATCH: five standards lines in one commit, two tools with real positive controls, and the pairing entry written one commit late
+
+**Will verbatim "Go ahead with the batch" (~18:2x, DAEDALUS session; record + execution log `design/2026-09-07_LABOR_DAY_HARVEST_fleet-proposal.md`).** Standards commit `1cac226eb`: **`CHECK_STANDARD.md` §3(e)** — a guard ships with a PRODUCTION ACCEPTANCE SET (one real clean + one real defective input, named by path, re-run per version; synthetic self-tests do not satisfy §3) · **`STRICT_TEXT.md` 6b** — a load-bearing figure names its OBJECT beside its value (series · vintage · horizon · sample) · **`SPEC_LETTER_STANDARD.md` SL-5 remedy** — compare in the series' published INTEGER UNITS; a fixture sweeps the boundary class · **`READ_CAP.md` rule 19** — the remedy is a desk-wide WRITE MODE (hot = state + pointers; one cold record written on the day; counts DERIVED from source records; the boot cap is NOT imposed on cold files) + `market-agent.md` §8 bullet + `DESK_HARDENING_PATTERNS.md` H-8 DRAFT→RULED · **`UPGRADE_PROTOCOL.md` review rule 4** — independent review concentrates on triggers/grades/evidence; no new mandatory reviewer. The FORGE line (H4: a pre-registration is a timing claim only when the spec's commit precedes the result's) went to PROME to commit. Tools: `scripts/asmade_audit.py` (11 seeded desks, per-desk packets; positive control = LABOR's pre-fix ledger) and `scripts/wiring_census.py` (28 desks; positive control = LABOR's pre-fix sweep; **census only — its reverse leg is the red-on-everything instrument §3(e) forbids, so it named nobody**). **PAIRING, LATE (PAT-101 rule ii, same shape as (r)):** `complete_check` flagged the standards commit at closeout with no EVOLUTION entry; the entry could not land without the rotation above because this file was at 122% of budget. ⚠️ Letter collision on file: a second `(o)` dated 2026-09-06 sits at the foot beside the 9/5 (o) — left as written; cite by date.
+
+### 2026-09-05 (s) — WQ-180 scope corrected to FIVE desks; WQ-181 ② sharpened to N/A, killing an option I wrote myself (PAIRING, IN THE SAME COMMIT — third blueprint edit today, first one paired on time)
+**Two corrections to `BLUEPRINTS/utility-agent.md`, both from Codex via PROME, both accepted:**
+
+**1. Scope: six desks → FIVE.** `:80` named **WALTER · NEXUS · RED · TERRY · ORACLE · YEYOU**, and **YEYOU was retired the same day** (Will 11:56 ET, WQ-181 ①, ROSTER `1627f77a3`). The adjudication scope named a desk that no longer exists. **Same class as the `render_directory` defect found the same hour** — a retired agent still named as live on a surface nobody re-read. Two instances, two surfaces, one afternoon: **a retirement's blast radius is every surface that enumerates the fleet, and enumerations do not announce themselves.**
+
+**2. WQ-181 ② narrows to ONE option, and it kills option (b), which was mine.** I had offered *strike · **re-point at whatever review source is actually live** · N/A*. Codex's argument: **RAV is Will-driven and on-demand with no cadence any agent controls, so "zero RAV flags" is satisfied by RAV never running — the identical default-zero defect wearing a different name.** A re-point is valid **only to a RECURRING feed, and none exists post-YEYOU.**
+> **The self-indictment worth keeping: I checked that a review source EXISTED and never checked that it RECURS.** That is the same one-directional blindness as everything else today — in an option I authored *specifically to repair a one-directional leg*. Writing the fix does not exempt the fix from the defect it repairs.
+
+**Strike is also out** — it deletes the record that a mechanical seat exists and is vacant, leaving nothing to mark the gap. **⇒ `N/A` explicitly**, in the `WAIVED-with-note` form Rider 1 already establishes, so the leg stops reading as a passed test **and the vacancy stays visible**. Still Will's to rule; recorded as sharpened input, not a decision. **Reasoning verified on its merits; provenance is a relay, not an artifact I read** — stated so the distinction survives.
+
+**Method note:** entries (m) and (r) both recorded this file shipping *without* its pairing entry — "small canon edit at the end of a long session," n+5 and n+6. **This is the third `utility-agent.md` edit today and the first paired in the same commit.** The guard caught the first two; the habit is what changed on the third.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
+### 2026-09-05 (r) — two `utility-agent.md` edits shipped without their pairing entry (PAIRING, LATE — PAT-101 rule ii, n+5 AND n+6, and I named this exact class two days ago)
+**What the two commits changed in the standard, recorded now:**
+1. **`76e49f2c1`** — added the **9/14 adjudication input** to the WQ-180 rider block: the L5 leg **"zero YEYOU flags" is a DEFAULT-ZERO INSTRUMENT** — with no reviewer producing flags it is trivially TRUE for every utility desk forever and **cannot falsify (PAT-060)**. Three options registered (strike · re-point at a live review source · mark `N/A-until-a-reviewer-exists`), **proposed not encoded**, because a ladder change is the same Will-gated class as WQ-180 and the YEYOU-dormancy premise was **unverified at any artifact** (no WILL_QUEUE row, no commit, ROSTER unchanged). *(PROME subsequently self-corrected — it had relayed Will's tentative "consider closed I think?" as ruled; registered as **WQ-181**, and its rec is **re-point or N/A, not strike**.)*
+2. **`41b389be5`** — **re-labelled Rider 2** from *"rides the 9/14 wiring-sweep-#2"* to *"rides the ~33-row pass … the 9/14 LADDER-INTEGRITY sitting"*, because the 9/14 load split moved the **wiring** sweep to 9/12 while the **grading** pass kept the 9/14 anchor. Without the re-label the rider would have pointed at a sitting that no longer contains it — **a label going stale on the same day it was written.**
+
+**The failure, and it is the same one both times:** both were small canon edits made at the end of a long session, riding a commit whose subject was about something else (a retraction; a schedule split). **Entry (m) on 2026-09-03 already named this class in those words — *"the class is 'small canon edit at the end of a long session'"* — and it recurred twice within 48 hours of my naming it.** Naming a class does not install a guard against it; `complete_check` leg (ii) is the guard, and it caught both, at closeout, exactly as designed. **The instrument works and the habit does not** — which is the argument for keeping the check in the battery rather than trusting the lesson.
+**Not amended** (root 4b — amend rewrites whoever holds HEAD). Filed late, as (i)/(k)/(m) were.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
+### 2026-09-05 (q) — WQ-180 RULED: the utility calibration loop becomes a graded L3 leg (Will, "approve (a) with your riders")
+**Ruling:** Will verbatim **"approve (a) with your riders"**, 2026-09-05 11:38 ET, relayed and recorded at `AGENTS/DAEDALUS/inbox/2026-09-05_from-PROME_WQ-180-RULED-…md` (WILL_QUEUE row 180) off my proposal `PROME/inbox/2026-09-05b_…`. Closes the defect found in (o): the blueprint registered a per-role Calibration loop that **no L-leg read**, so a utility desk could reach L5 with its truth-loop unbuilt while the same requirement is an **L3 floor leg at market class**.
+
+**Encoded in `BLUEPRINTS/utility-agent.md` this session** — the ceiling line now reads *"**L3** role rubric applied consistently **+ the per-role CALIBRATION LOOP built and accruing**"*, with a boxed rider block above SOURCING carrying both riders verbatim and the provenance.
+
+**Rider 1 — the anti-DARWIN carve-out binds (PAT-028):** grade the truth-loop **where instrumentable**; **`WAIVED-<cite>` with a note where genuinely un-instrumentable**, exactly as the L4 consumed-by gate already treats informal consumption. **No desk is graded down for telemetry it structurally cannot have.** This is the rider that keeps (a) from recreating the DARWIN false-negative — and it is a good catch against my own proposal, because option (a) as I wrote it did not carry the carve-out.
+**Rider 2 — no crash re-grade:** the per-desk adjudication **rides the 9/14 wiring-sweep-#2**, which is already auditing the same defect class (grading against cells no leg reads). The adjudication proposes the tier per desk (L3-equivalent floor, or at minimum a graded L5 gate), recorded with the standard per-leg verdict form.
+
+**In scope:** WALTER · NEXUS · RED · TERRY · ORACLE · YEYOU. **No grade moves before 2026-09-14.** ORACLE holds L4(H) meanwhile — every generic L5 leg passes; this only adds the per-role ceiling the ladder previously could not see.
+
+**Verification note (cross-session discipline):** the ruling reached me as a peer message. I read it **at the committed artifact** before acting, confirmed it carries Will's verbatim words, the timestamp, the source packet and the WILL_QUEUE row, and executed only the blueprint encode — which is my own canon (`BLUEPRINTS/` is DAEDALUS-owned). **No grade, gate or Will-gated surface was moved on a relayed word.**
