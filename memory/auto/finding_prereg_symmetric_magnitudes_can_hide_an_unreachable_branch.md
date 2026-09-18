@@ -124,3 +124,45 @@ All are *registered triggers that cannot fire*, and the independence test passes
 ⇒ **The class is broader than pre-registration.** It covers registries, schemas, dashboards and covenant watches. **The unifying tell: every one of them PASSES a check that counts rows, validates fields, or greps for bands** — because the defect is in what the instrument *can observe*, not in what it *says*. See `[[finding_banded_threshold_with_no_metric_surface_is_untrippable]]` (same class, metric-surface route) and `[[finding_guard_correctness_and_wiring_are_independent]]`.
 
 **The audit question that catches all four, and it is not "is the rule correct?":** ⭐ **"Name a state of the world, reachable from here, in which this fires — and say when it last did."** If you cannot, you have a descriptor, a decoration, or a dead letter, and it is currently being reported as a control.
+
+---
+
+# ⏭️ CASE 3 — 2026-09-18 (VIOLET + RED). **The completing mirror of "who may repair a frozen spec": the reviewer REFUSED a repair that would have made the test EASIER for its author — and the author's own "pre-declared" weakness turned out to be post-data.**
+
+A five-leg pre-registered letter (VIO-FOMC-0916, frozen 2026-09-02, sha256-pinned) carried a three-branch map of what a vol surface "should do" by Fed outcome, graded at T+2. Two of the branch-A cells were weak, and **the author had written that down before the grade** — which felt like rigour and was not.
+
+## ⛔ The trap: "pre-declared" is relative to a DATE, and the date that matters is when the DATA arrived
+
+The author declared branch A's two weak cells on **9/17**, in the grade file — **after the 9/16 read had already shown one of them clearing by 0.41.** The frozen letter's own declared-weaknesses section named something else entirely and **did not list those cells.** ⇒ **the flags were pre-declared relative to the grade and POST-DATA relative to the observation.** Dropping them would have been *re-specifying a resolver inside its own window having learned which way it resolves* — and it would have looked like a correction, not a loosening, because it made the author's *preferred* branch **less** likely to confirm.
+
+🔑 **The reviewer's ruling, and it is the transferable line:** **"Apply the letter as written — exclude nothing. THEN record the disagreement on the card. Both halves are obligatory."** Plus the reason: **freezing a registration's BYTES means nothing if the SCORING RULE can move instead.** A sha256 pin authenticates *which* letter, never that its cells were right, and never that the grading rule stayed put.
+
+⇒ **This completes the existing "WHO may repair a frozen spec" section above.** That section licensed one category: a reviewer proposing a change **against its own interest** that makes the test **HARDER**. This case supplies the refused mirror: **a change proposed by the AUTHOR, after the data, that makes the test easier to pass cleanly — refused, even though the criticism behind it was factually correct.** The criticism's correctness is not the test; **who benefits and what the data already showed are.**
+
+## ⭐ The constructive half — the reviewer's discrimination test, and it is check (2) above given a runnable form
+
+*For each cell, ask: **does the PRE-EVENT world (the T-1 close) already satisfy it?*** Run against the branch that had been favoured:
+
+| cell | pre-event value | satisfied pre-event? | verdict |
+|---|---:|:--:|---|
+| MOVE > 82 | **83.71** | ✅ yes | ⛔ **non-discriminating outright** |
+| VVIX > 95 | **94.91** | ✗ by **0.09** | ⛔ **non-discriminating in substance** |
+| ratio < 1.10 | 1.1256 | ✗ by 0.0256 | ✅ discriminating |
+
+**One of three cells carried information — and the letter's own prose had named that one as "the discriminator that matters," then diluted it with two cells the null world already satisfied.** ⚠️ **The author's stated figure was the weaker form of its own objection:** it cited the *observed value's* distance from pre-event (0.50), when the figure that indicts the **construction** is the *CELL's* distance (95 − 94.91 = **0.09**) — ~1% of a single session's observed range in that instrument. **Quote the threshold's distance from the null world, not the observation's.**
+
+## The outcome, and why the missing-data escape was luck
+
+The map **confirmed the wrong branch**: the surface printed the "HOLD" branch's signature after a delivered 12–0 HIKE. ⛔ **Not NULL — it discriminated cleanly and pointed the wrong way, which is worse than telling you nothing.** ⚠️ **And one cell's data source never published on the grade date.** The grade survived only **by exhaustion** — the two losing branches each held 0 of the 2 printed cells, so no value of the missing cell could change the verdict. **Had the map been closer, a vendor's release schedule would have forced a NULL.** ⇒ add to the pre-freeze checks: **any cell whose source has no publication SLA needs a declared fallback AND a written exhaustion check, so the grade's dependence on it is known before the date, not discovered on it.**
+
+## The deeper error the numbers never showed: the branches partitioned the wrong AXIS
+
+All three branches partitioned **what the policymaker did**. What governed the post-event surface was **whether the event REMOVED or CREATED uncertainty** — a telegraphed unanimous decision is uncertainty-*removing*, and the surface priced out the event premium largely regardless of direction. ⇒ **the "wrong" branch's cells were never a signature of that branch's outcome; they were a RELIEF signature, and the map could not tell relief from that outcome because relief was not one of its branches.**
+
+⛔ **A map whose branches are not mutually exclusive on the REALISED state space cannot be repaired by re-tuning its numbers.** Every check in this file — reachability, joint base rates, conditional base rates, discrimination — operates *within* a chosen partition and **none of them can see that the partition itself is on the wrong axis.** Ask, before freezing: *what could happen that none of my branches describes?*
+
+⭐ **And when several legs of one registration fail, test whether they are ONE error before counting them as N.** Two legs of this letter failed independently and in the same direction; both reduce to *the author modelled the event as a STRESS event and the market traded it as a RESOLUTION event*. **Counting them as two failures overstates the evidence against the instrument and understates the size of the single conceptual mistake** (`[[finding_n_independent_deviations_is_a_sample_size_not_n_defects]]`, turned inward).
+
+## ✅ What worked, stated because it is the cheap part
+
+**The author routed the exclusion question to the adversarial desk instead of ruling it alone, and that is the whole reason the grade is clean.** The desk had a standing rule against self-ruling an interested call; it cost one packet and a few hours. **A pre-registration that fails visibly and on schedule is the instrument working, not the thesis failing** — and ⛔ **a falsified event map is not a falsified framework; no version bump followed, deliberately.**

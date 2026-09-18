@@ -76,7 +76,7 @@
 - finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved
 - finding_prereg_dates_the_event_not_the_artifacts_cadence — a prereg resolving on an ARTIFACT is dated by that artifact, not the event
 - finding_lessons_file_cannot_detect_own_contradictions — A prose lessons/LEARNINGS file cannot detect its own contradictions
-- finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — a trigger that CANNOT fire; re-run reachability on the AMENDED text (n=4)
+- finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — a trigger that CANNOT fire; re-run reachability on the AMENDED text; frozen BYTES don't stop the SCORING RULE moving (n=5)
 - finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric
 - finding_anchor_prediction_to_surprise_not_priced — anchor event→reaction to the SURPRISE-vs-pricing, not an already-priced outcome
 - finding_continuation_hits_are_not_calibration — split a prediction book's hit rate by CONTINUATION vs TURN
