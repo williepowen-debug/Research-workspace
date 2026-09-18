@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-18 14:03",
+ "built": "2026-09-18 18:34",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -58,6 +58,7 @@
   "2026-09-22 DEFERRAL (Forum-4 N13, Will-ruled 8/11): PROVENANCE TOKENS, ",
   "2026-09-22 GATE-TERRY-007 EXECUTABILITY DEADLINE \u2014 the last official DG",
   "2026-09-22 \u26d4\u26d4 RE-KEYED 2026-09-14 16:09 FROM A DATE TO A CONDITION \u2014 PR",
+  "2026-09-22 \ud83d\udd34 BRENT \u2014 PIN MKT-CL-F-ABOVE-100 TO A NAMED CONTRACT BEFORE ",
   "2026-09-22 \ud83d\udfe0 TWO FERT WATCHES ARE DOWN ON ONE DEAD DEPENDENCY \u2014 the Adv",
   "2026-09-23 FORUM fin-cond T3 v2 \u2014 decoupling Test A, RE-SPECCED (Will-r",
   "2026-09-23 VIO-FOMC-0916 GRADE, part 3 of 3 \u2014 LEG 2 on the 9/23 CLOSE (",
@@ -85,6 +86,7 @@
   "2026-09-30 RAP auto-pay enrollment deadline \u2014 1% interest-rate reductio",
   "2026-09-30 Sep-30 EXPIRY cluster \u2014 WQ-168 rows \u2463\u2465 RULED 9/3: TLT $77P \u00d7",
   "2026-09-30 \ud83d\udd34 **THE ROLL-MISMATCH WINDOW RECURS IN OCTOBER \u2014 HEN-F3 INHE",
+  "2026-09-30 \ud83d\udfe0 AEOLUS C5 ->5 MUST BE RE-SCOPED BY 9/30 - and while nobody",
   "2026-10-01 BOND QUARTERLY REFRESH carries TWO decisions the 9/17 TIPS g",
   "2026-10-01 Fifth Plenum, 20th CPC Central Committee \u2014 15th Five-Year-Pl",
   "2026-10-01 NYC RENT FREEZE EFFECTIVE \u2014 FLG T-08 = GATE-FLG-T08 (FLG idl",
@@ -101,7 +103,7 @@
   "2026-10-07 GATE-NEXUS-SEAT-01 grades (Will-registered 8/8, dissent roun"
  ],
  "fleet": {
-  "AEOLUS": "watch",
+  "AEOLUS": "ok",
   "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "ok",
@@ -169,7 +171,7 @@
   "VIX": 15.44,
   "WAL": 79.43
  },
- "one": "September 18, 11:1x: CORRECTION to the morning line \u2014 the BOJ's two dissenters were DOVISH (inflation too low to hike), not hawkish; the 7\u20132 count was right, the sign was PROME's error, caught by SAM at the statement. SAM's owner grade: no hawkish surprise fired, the composite 'HOLD surprise, yen-negative' clause was a MISS (calibration loss). The yen still weakened after the hike (USD/JPY 157.86 at 10:21 ET, 160 gate VOID). RED graded the skew run: it broke on the 9/15 bar, 0-of-4, never fired. First clean post-hike funding pair SOFR\u2212IORB \u22125bp; credit flat on the 9/17 cells. Dealers short gamma into today's ~$6T opex, no wall publishable. $0 moved by PROME; STAND DOWN holds.",
+ "one": "September 18 close: the quarterly opex removed the FORCE, not the direction. Dealers are short gamma a 4th session but the magnitude collapsed about 77-80% as roughly $6T of open interest expired, leaving the least entrenched board of the four, with spot only 0.23% below the flip so one ordinary up-session flips the sign positive. VIOLET's pre-registered FOMC branch map MISSED: the vol surface printed the HOLD-hawkish signature on the day the Fed hiked 12-0, and the letter now stands at zero confirms across five graded legs. The 9/17 H.15 cells published and the whole curve richened 6-7bp (DGS10 4.94, DFII10 2.61, still 11bp through the 004 add line). MOVE and SKEW published NO 9/18 bar, so any level dated 9/18 on those two is Thursday's number. $0 moved by PROME; STAND DOWN holds.",
  "pending": [
   "WQ-187 (9/12)",
   "WQ-230 (9/15)",
@@ -188,6 +190,7 @@
   "WQ-157 (9/19)",
   "WQ-259 (9/23)",
   "WQ-256 (9/24)",
+  "WQ-264 (9/25)",
   "WQ-237 (9/26)",
   "WQ-257 (9/30)",
   "WQ-235 (9/30)",
