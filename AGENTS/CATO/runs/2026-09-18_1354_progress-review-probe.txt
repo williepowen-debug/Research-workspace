@@ -1,0 +1,19 @@
+HOOK '' block
+HOOK 'echo ' allow
+HOOK 'command -v ' block
+HOOK 'env printf %s ' block
+HOOK 'timeout 1 echo ' block
+INVALID DATE willq 2026-02-30
+INVALID DATE deck 2026-02-30
+INVALID DATE brief 2026-02-30
+INVALID DATE gate ValueError day is out of range for month
+CLOSED willq ['901']
+CLOSED deck ['900', '901']
+CLOSED brief ['900', '901']
+COT healthy rc 4 warning False
+COT corrupt rc 0 warning True
+Historical reproductions complete. Do not treat this exit 0 as repair confirmation.
+SAM latest-row-per-month n 17 momentum correlation 0.06912203673635754 wedge-level correlation 0.8353763234520005
+SAM highME True n 13 mean% 7.731438434243585 meanUSD 5.453846153846156
+SAM highME False n 4 mean% 17.14875860216653 meanUSD 16.150000000000002
+Illustrative iid Fisher95 for reported r=.07 n16 [-0.441, 0.547]

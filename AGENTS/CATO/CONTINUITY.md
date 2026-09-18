@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-18, Carta hook investigation delivered. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-18, afternoon progress review delivered. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — afternoon progress review complete.** [Report](runs/2026-09-18_1354_progress-review.md), [pinned probes](runs/2026-09-18_1354_progress-review-probe.py), [results](runs/2026-09-18_1354_progress-review-probe.txt). Main scope 32 commits / 115 paths through `2cb5401fa`, plus SAM plan `2f674c8c4`. Findings: SAM continuous-oil roll inference; overclaimed lag rejection and wrong historical Dubai benchmark; wrapped-prose hook false blocks; invalid calendar date/parser parity gaps; corrupt COT baseline permits ordinary grade. Earlier A1–A7 source files unchanged; A8 plain echo fixed, adjacent failure remains; A9 closed. Queue/hook suites pass, SAM descriptive statistics reproduce. No owner edits, messages, trade changes or new repairs. Active PROME/agent work preserved; closeout/publication not certified. Next: orient and await Will; recheck owner revisions before any assigned follow-up.
 
 **Latest — Carta hook investigated.** [Report](runs/2026-09-18_1215_carta-hook-investigation.md). Live Claude `2.1.276` lists `carta-investors@synced` enabled; its dispatcher is mode `0644`, explaining the permission-denied warning. Terminal account-plugin sync (documented from `2.1.273`) and September 17 sync metadata explain the recent appearance; who enabled it upstream remains unknown. Plugin presence does not prove a Carta subscription/authenticated connection. Static hook review and telemetry limits recorded. Recommend `claude plugin disable carta-investors@synced`; **not executed**, no settings changed or external sends. Investigation complete; next orient and await Will.
 
