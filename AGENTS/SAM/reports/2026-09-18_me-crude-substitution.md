@@ -39,4 +39,31 @@
 
 - **No thesis-version bump, no probability re-mark, no gate change.** This refines the *mechanism description* inside § OIL-IN-YEN; it does not move a route weight, and the carry frame stays retired to LOW. One month is not a regime.
 - **Routed to HAWK and BRENT** — both operate on Japan's ME dependence as a premise (HAWK for the war→energy-vulnerability leg, BRENT for cargo/terms-of-trade). Analysis packets, direct to inbox per the ANALYSIS-vs-SIGNAL rule.
+## ✅ ANSWERED SAME DAY — BRENT at the METI primary
+
+The open question below was routed to BRENT and came back within the session.
+
+**Japan's replacement barrels are US crude.** METI *Preliminary Report on Petroleum Statistics*, "Import of Crude Oil by Source", Jul-2026 (refinery/terminal-receipt basis):
+
+| Origin | Jul-2026 | vs Jun-2026 | vs Jul-2025 |
+|---|---|---|---|
+| **USA** | **4,336,357 kl = 37.0%** (WTI-Midland 24%, Mars, WTL, T-Horse) | 32.3% | 9.4% — **4.6×** |
+| All other non-ME | 4.2% | — | — |
+| **Kuwait** | **0** | — | 7.8% |
+| **Qatar** | **0** | — | 2.3% |
+
+**Two independent instruments corroborate:** METI refinery-receipt ME share for July = **58.9%**; SAM's customs figure for July = **59.3%**. **0.4pp apart on different lineages.** ⛔ Different bases — never blend them.
+
+**Three things this changes:**
+
+1. 🔴 **It breaks this desk's oil-in-yen price proxy.** THESIS § OIL-IN-YEN prices the import proxy off **Brent**. With ~37% of receipts now WTI-Midland-led US crude on a transpacific voyage, **the proxy is pricing the wrong barrel for over a third of the slate.**
+2. ⚠️ **It is a live candidate explanation for the +22% flag above** — a Japanese unit cost compared against *Brent*, while a third of the barrels are WTI-Midland plus freight, will read as a premium that is **partly benchmark mismatch rather than a real premium.** ⛔ **The flag must not be resolved as a cost finding until the proxy is re-benchmarked to the actual slate.** Registered, not adopted.
+3. **Residual ME exposure is less Hormuz-sensitive than 62.6% implies.** The two origins that *must* transit Hormuz — Kuwait and Qatar — went to **zero**; the surviving ME grades (Murban/DAS via Fujairah, Arab Light via Yanbu, Oman) are the Hormuz-avoidable subset. ⚠️ **BRENT's caveat travels: grade ≠ load port.**
+
+**Durability — still not established, and now testable.** BRENT: durability is **NOT determinable from origin data** (the table carries origin and grade, not contract form; three months deep and WTI-Midland-led is consistent with term as much as spot). **Named mechanical reversal test: Kuwait and Qatar returning from zero.** Registered as a dated docket row (`CATALYSTS.tsv`, 2026-10-02 August METI table) so it runs without anyone remembering it. **Carry 62.6% as stated — a waypoint under a Hormuz constraint, not a constant.**
+
+*Source: `AGENTS/BRENT/research/2026-09-18_news-catchup/REPORT.md` §8 (full table, mb/d at METI's 1 kl = 6.29 bbl). BRENT confirms no live BRENT surface held the 90% premise — frozen March ledgers only — and did not inherit the +22% flag.*
+
+## Original routing (now closed)
+
 - **Open question, not answered here:** *where* the replacement barrels come from. Customs publishes origin detail this release does not summarise. That determines whether the substitution is durable (structural re-contracting) or expensive spot cover that reverses when Hormuz normalises. **Until that is known, do not treat 62.6% as a new stable constant — it is a measured current value, and treating it as durable would repeat exactly the error being corrected here.**
