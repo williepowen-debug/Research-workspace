@@ -2,6 +2,8 @@
 
 **Written 2026-09-18 (SAM, Will-directed). Status: PLAN + a completed diagnostic. Nothing adopted; no threshold, gate or figure moved.**
 
+> 🔧 **REVISED 2026-09-18, same day, on CATO findings R2 (HIGH) and R3 (MEDIUM), routed by PROME.** Two causal claims are **WITHDRAWN**: the lag-window hypothesis is **unresolved, not eliminated**, and the +0.835 wedge-level correlation **does not identify** proportional freight/insurance. **Every descriptive figure reproduces and none is disputed.** R3 replaced a wrong benchmark identity and, in doing so, supplied the mechanism that makes the R2 withdrawal correct — see **§3-bis**. *Corrections are written in place with the original claim named, so the change is auditable rather than silently overwritten.*
+
 ---
 
 ## 0. THE HEADLINE, BEFORE THE DETAIL
@@ -10,9 +12,9 @@ The **+22% "Japanese crude premium" is not one defect. It is at least three supe
 
 | Component | Size | Status after this diagnostic |
 |---|---|---|
-| **Structural basis wedge** (CIF-vs-FOB freight/insurance + ME OSP premia to benchmark) | **~+7.7% / $5.45 per bbl** | 🟢 **MEASURED.** Present for 13 straight months *while Brent was the correct benchmark*. **Never a premium — a basis difference the instrument never modeled.** |
+| **Structural basis residual** (CIF-vs-FOB freight/insurance + producer differentials) | **+7.73% / $5.45 per bbl** (n=13, sd 4.00) | 🟢 **MEASURED — and it is a RESIDUAL, not an attributed cause.** Present for 13 straight months *while Brent was a defensible benchmark*. **Not a premium**; the components named in this row's label are candidates, not findings. |
 | **Slate change and/or war-risk, confounded** | **~+9.4pp / $10.7 per bbl** | 🟠 **REAL but NOT ATTRIBUTED.** See §2 — the two candidates are perfectly confounded in the available data. |
-| **Lag-window error** (t−1..t−2 Brent average mis-timing the cargo) | — | 🔴 **ELIMINATED.** corr(deviation, Brent momentum) = **+0.07**, n=16. Not the driver. |
+| **Lag-window / pricing-convention timing** | **unresolved** | 🟠 **OVERCLAIM WITHDRAWN 2026-09-18 (CATO R2).** This row read **ELIMINATED** on corr(deviation, Brent momentum) = **+0.07, n=16.** ⛔ **Absence of linear correlation at n=16 does not rule out a material timing contribution**, and the test was never specified well enough to. **Timing is UNRESOLVED, not excluded** — and see §3-bis: ADNOC priced a large share of these barrels **two months ahead of loading** over the whole sample, a documented convention this diagnostic never modeled. |
 
 ⛔ **The operative conclusion: re-benchmarking to the slate would "fix" the number while leaving the attribution wrong.** About 8 of the 21.5 points were never a mismatch at all, and the remaining ~9pp cannot yet be assigned between US-crude voyage economics and war-risk premia. A blind re-benchmark absorbs all three into one corrected constant and destroys the evidence that distinguishes them — the exact defect class in `[[finding_crosscheck_with_free_parameter_validates_nothing]]`.
 
@@ -28,11 +30,11 @@ Instrument: `workbook/TRADE_BALANCE.tsv`, 17 deduped monthly observations (2025-
 
 | Hypothesis | Predicts | Observed | Verdict |
 |---|---|---|---|
-| Benchmark mismatch (US crude priced off Brent) | Deviation **steps up** when the slate changes | High-ME mean **+7.7%** → low-ME **+17.2%**, a **+9.4pp step** | **Consistent — but see §2** |
-| Lag window wrong | Deviation **correlates with Brent momentum** | **+0.07** (n=16) | **REJECTED** |
-| Fixed CIF freight charge | Wedge is a **constant $/bbl** | Wedge **$5.45 → $16.15**; corr(wedge$, Brent level) = **+0.84** | **REJECTED as *fixed*; the wedge is PROPORTIONAL to price** |
+| Benchmark mismatch (US crude priced off Brent) | Deviation **steps up** when the slate changes | High-ME mean **+7.73%** → low-ME **+17.15%**, a **+9.4pp step** | **Consistent — but NOT selected; see §2** |
+| Lag window wrong | Deviation **correlates with Brent momentum** | **+0.069** (n=16) | 🟠 **NOT REJECTED — verdict withdrawn (CATO R2).** No linear signal against *this* momentum variable, at n=16, against a window that matches no actual producer convention (§3-bis). **Unresolved.** |
+| Fixed CIF freight charge | Wedge is a **constant $/bbl** | Wedge **$5.45 → $16.15**; corr(wedge$, Brent level) = **+0.835** | **A fixed $ charge cannot produce a wedge that triples — that much is arithmetic.** ⛔ **Positive attribution WITHDRAWN (CATO R2): +0.835 does NOT identify proportional freight/insurance**, because price level, war regime and slate regime all move together here. "Not fixed" is supported; "therefore proportional pricing" is not. |
 
-**The +0.84 correlation is the most useful single number here.** A fixed freight charge cannot produce it. A wedge that scales with the price level is the signature of **differential-priced components** — official selling prices set as a spread to benchmark, and ad-valorem insurance/freight — not a flat per-barrel cost.
+**What the +0.835 correlation does and does not buy.** It rules out a *fixed* per-barrel charge as the whole story — arithmetic, not inference. ⛔ **It does NOT identify what replaced it.** Price level, war-risk regime and slate composition are collinear across these 17 months, so "scales with price ⇒ differential-priced OSPs and ad-valorem insurance" is a **hypothesis consistent with the data, not a finding the data selects.** *(Withdrawn as a finding 2026-09-18 on CATO R2; the figure reproduces and is not in dispute.)*
 
 ---
 
@@ -69,14 +71,24 @@ Widen the band test to fire on the **excess**, not the gross. **This alone remov
 Replace the single Brent leg with:
 
 ```
-reference = w_ME x Dubai + w_US x WTI + w_other x Brent      (all FOB)
-          + basis_wedge                                       (measured, not assumed)
+reference(t) = SUM over grades g of  w_g(t) x P_g(convention_g(t), loading_month)
+             + basis_residual                                  (measured, not assumed)
 ```
+⚠️ **Written as a time-indexed sum deliberately.** The earlier draft had a static `w_ME x Dubai + w_US x WTI + w_other x Brent` identity; **that is wrong twice over** — it fixes a benchmark per region when the convention is per GRADE, and it holds the convention constant across a sample that contains a **2026-11-01 structural break** (R3).
 - `w_*` from **METI's monthly origin table** — already being read for the substitution work; it is the same source that produced the 37.0% US figure.
-- **Dubai** is the correct benchmark for ME grades (Murban/DAS/Arab Light/Oman all price off Dubai/Oman, not Brent). Using Brent for ME barrels has been a standing error for the whole series, independent of everything else here.
+- 🔧 **CORRECTED 2026-09-18 (CATO R3), verified at the producer primary.** The earlier blanket claim — *"Murban/DAS/Arab Light/Oman all price off Dubai/Oman"* — is **WRONG for this historical sample.** **ADNOC announced 2026-07-31 that Murban, Das, Umm Lulu and Upper Zakum move to prompt-month Platts Dubai (PCAAT00) plus an ADNOC differential — effective 2026-11-01.** Until that date they priced off the **ICE Futures Abu Dhabi Murban contract, set TWO MONTHS AHEAD of loading.** Source: [ADNOC press release](https://adnoc.ae/en/news-and-media/press-releases/2026/adnoc-announces-update-to-its-crude-pricing-methodology), fetched and read this session — **not taken on relay.**
+- ⇒ **The reference cannot be a constant identity.** It must map **grade → loading month → destination → the pricing convention in force on that date**, and carry a **structural break at 2026-11-01**. Arab Light (Saudi OSP) and Oman are *not* on the same convention the ADNOC grades were. If a single Dubai series proxies the pre-November period, **that approximation must be stated and tested, not assumed.**
 - ⛔ **Freight is NOT to be fabricated.** AG–Japan and USG–Japan Worldscale rates are not freely available to this desk. Carry freight as a **named unquantified residual** inside `basis_wedge`, estimated empirically from the high-ME regime, never invented per-voyage.
 
 **Data access is the gating question, not the maths.** Dubai and WTI-Midland assessments are Platts/Argus-licensed. Free proxies: WTI (`CL=F`) is usable for the US leg; for Dubai, the **Brent–Dubai EFS** is quoted in places but not reliably free. ⚠️ **If a clean Dubai series cannot be sourced, Phase 2 does not proceed on a substitute** — it stops, and Phase 1 plus the empirical wedge stands as the answer. A fabricated Dubai proxy would be worse than the current honest defect.
+
+### 🔑 3-bis — WHY R2 AND R3 ARE THE SAME FINDING (added 2026-09-18)
+
+The two corrections arrived separately and interact. **ADNOC's pre-November convention priced a large share of Japan's ME barrels TWO MONTHS AHEAD OF LOADING.** This diagnostic compared landed cost against a **t−1..t−2 Brent average** chosen as a generic "cargo lag" — it never modeled any producer's actual pricing convention, and the dominant convention in the sample was neither Brent nor that window.
+
+⇒ **The timing hypothesis I marked ELIMINATED now has a named, documented mechanism behind it.** That is a stronger argument for the R2 withdrawal than the n=16 objection alone. **A correlation run against the wrong timing variable is not evidence that timing does not matter.**
+
+⇒ It also specifies the real Phase-2 test: build the reference on **convention-correct timing per grade**, then re-measure the residual. **If the residual collapses, timing was material after all** — and the original ELIMINATED verdict would have buried exactly that.
 
 ### Phase 3 — Separate the two instruments that are being confused
 There are **two** oil-in-yen objects on this desk and they are not the same thing:
