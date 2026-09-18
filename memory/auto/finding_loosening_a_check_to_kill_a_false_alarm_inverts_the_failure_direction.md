@@ -44,3 +44,22 @@ except (OSError, subprocess.SubprocessError):
 
 ---
 **n+2 — 2026-09-18 (PROME, the WQ-244 blocking hooks under five independent Opus reads; measured by the fifth reader `wq244cold5` §5): two repairs, two new defects — each false-positive fix opened a silent bypass.** ① r3 ❌5's prefix walk (`time`, `env`, `command`, …) → r4 ❌6: `command -v pytest | head; echo $?` blocked (false positive) → v5 deleted `command` from the walk → r5 ❌9: `command python3 <gate> | tail; echo $?` slips through at rc 0 with a reason text asserting the gate is "an argument". ② r4 ❌5's `{` boundary for `time { gate | tail; }` → r5 ❌5: `ls scripts/{a,b}.py | wc -l; echo $?` blocked — brace EXPANSION read as a GROUP. **The reader's measurement: false positives per round 4·5·4·2·5, no round zero; every false positive since round 4 lives in the layer the wrapper invented to compensate for the upstream recogniser.** The trade this memory names is not one-shot — inside a SIMULATION layer it runs in both directions every round, and the fix to the false alarm IS the next bypass. **What worked:** narrow what BLOCKS to the clean detection (a literal `-m` in command position) and declare the rest ADVISORY — put to Will as WQ-263 instead of a sixth round. [[finding_a_correction_pass_is_unreviewed_work]] [[finding_hand_fixing_named_rows_is_not_fixing_the_class]]
+
+---
+
+## THE PRECURSOR: a guard that fires LEGITIMATELY but ROUTINELY buys the same desensitization without anyone loosening anything (SAM, 2026-09-18)
+
+Loosening is the second step. The first is a guard whose correct, fail-closed behavior is triggered by benign work often enough that clearing it becomes reflex.
+
+SAM's `boot.py` validates each open prediction against a sidecar `condition_sha256` in `PREDICTION_SCHEDULE.json`, hashing `Prediction` + `Timeframe` + **`Notes`**. Boot failed closed: `SCHEDULING GAP: changed conditions for SAM-33`.
+
+**Notes is in the hash for a good reason** — SAM-33's *activation/VOID clause* lives in its Notes field, so terms genuinely can hide there. **But evidence also lives there**, and SAM-33's Notes carry an explicit append-only OP-AUDIT RECORD updated after every BOJ operation. So the guard fires on every routine evidence append: correct each time, and never once about a real term change.
+
+**That is the desensitization purchase.** No threshold was relaxed; the guard is working as designed. But the *response* — re-stamp the hash — becomes routine, and the routine response to a real term re-tune is byte-identical to the routine response to an evidence append. The guard keeps firing and stops being read.
+
+This is the same mechanism SAM's own charter already names for unwired scripts: *"a flag that fires every run for a known-good reason trains me to ignore it"* — which is how `grade_8_14_branch.py` got read past for days. **A guard can be desensitized by its true positives.**
+
+**Defaults:**
+- **Never clear a fail-closed guard without the field-level diff** that shows *which* field moved. Here: `git show <old>:<file>` → compare `Prediction`/`Timeframe`/`Confidence`/`Status` explicitly, confirm only the evidence text appended, *then* re-stamp. Costs a minute; it is the entire value of the guard.
+- **Prefer separating the fields the guard must watch from the fields that legitimately churn** (terms vs. an evidence/audit log) over widening or removing the hash. Splitting the field is the fix; re-stamping faster is the trap.
+- **Count how often a guard fires benignly.** A fail-closed check that has never once caught a real defect is not thereby proven sound — it may simply be measuring the wrong field, and the clean record is what makes it invisible.

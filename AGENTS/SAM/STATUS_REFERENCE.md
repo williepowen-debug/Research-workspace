@@ -29,6 +29,16 @@ cites these section names (the `↪️ MOVED:` redirects that peers DO cite deli
 
 ---
 
+
+**🔧 Added 2026-09-18 (rotated from `STATUS.md` LIVE MARKET DATA under the read-cap rule — durable published macro/flow figures; current and citable).**
+
+| Row | Figures | Notes |
+|---|---|---|
+| Japan domestic data | Q2 GDP **+1.4% ann.**; July wages **+4.1% YoY**; **July current account +¥2,988.9B (+15.6% YoY)**, rel Sep-8 | BoP goods −¥399.9B, services −¥512.9B, **primary income +¥4,289.6B** (MOF `bp202607.pdf`). BoP goods ≠ customs (revised −¥638.3B). **The VECTOR-5 denominator: the oil shock is 4.0% of ONE month's CA surplus.** |
+| New macro/flow context | July IIP **−0.2% m/m** (METI Sep-14); FY2027 requests **¥143.0656T** (MOF Sep-4); August foreign equity/fund net **+¥1.2983T** (MOF Sep-8) | IIP shipments +2.1%; requests ≠ enacted spending/issuance; flows ≠ NISA-only or measured FX trades. [Sources](reports/2026-09-15_news-sweep.md). |
+
+⚠️ Caveats travelling with them: BoP goods ≠ customs (July revised −¥638.3B); IIP shipments +2.1%; budget **requests ≠ enacted** spending or issuance; securities flows are **not** NISA-only and are not measured FX trades. **The VECTOR-5 denominator: the oil shock is 4.0% of ONE month's CA surplus.**
+
 ## CARRY UNWIND PROBABILITY (decomposed estimate — method → `thesis/THESIS.md` § CARRY-UNWIND PROBABILITY METHOD)
 
 **Last assessed August 7: 7d ~3 / 30d ~8 / 60d ~13. Historical assessment, not a fresh rolling forecast.** Amplifier and residual OFF at that assessment; no re-pencil this session. Historical drivers and prior marks → `STATUS_ARCHIVE.md`. Future re-pencils must update all changed anchors; >5pp changes require named drivers. The method's intervention-causing-unwind framing omits the countervailing no-cap/overshoot path. Disclose as a decomposed estimate, never "true probability." No retired entry gate re-arms.
@@ -47,6 +57,34 @@ cites these section names (the `↪️ MOVED:` redirects that peers DO cite deli
 
 ## CHANNELS · BOJ · FED
 
-Canonical mechanism and policy interpretation → `thesis/THESIS.md` and September 8 assessment. Channel 1 requires direct foreign sales at ≥2 institutions across ≥2 consecutive windows; yields and ESR are co-conditions, never substitutes. Sector aggregates cannot update named company profiles. Carry-convexity/positioning frames remain retired. BOJ policy rate is 1.00%; July hold was 8–1 with Takada favoring 1.25%. Current pricing belongs only in LIVE MARKET DATA. Political rhetoric, policy surprise and FX transmission remain distinct.
+Canonical mechanism and policy interpretation → `thesis/THESIS.md` and September 8 assessment. Channel 1 requires direct foreign sales at ≥2 institutions across ≥2 consecutive windows; yields and ESR are co-conditions, never substitutes. Sector aggregates cannot update named company profiles. Carry-convexity/positioning frames remain retired. ⛔ **BOJ policy rate is 1.25% — RAISED 2026-09-18, effective Sep-24** (the "1.00%" that stood here was a pre-decision vintage, corrected same-day). The July hold was 8–1 with Takada favoring 1.25%; he got it in September, 7–2, with both dissents on the DOVISH side. Current pricing belongs only in LIVE MARKET DATA. Political rhetoric, policy surprise and FX transmission remain distinct.
 
 ✅ **SEPTEMBER MPM RESOLVED 2026-09-18 — hiked 25bp to 1.25%, vote 7–2, effective Sep-24; BOTH dissents (Asada, Sato) were DOVISH, for HOLD.** Owner grade of SAM's three-leg pre-registration → `STATUS.md` § 2026-09-18 and `reports/2026-09-18_boj-mpm-grade.md`. ⚠️ **Everything in the remainder of this paragraph is PRE-DECISION material, retained as the as-published forward read and superseded as current state.** Masu's "below the estimated range" framing survives as context: the hike moved the rate toward, not into, the 1.1–2.5% neutral band. **Historical pre-decision read (sources Sep-10, report §5–6).** Masu (Sep-10, primary) — policy rate "below the estimated range" of neutral (1.1–2.5%), "the Bank will continue to raise the policy interest rate," pace keyed to **oil**, AI demand and FX; balance sheet halt-the-reduction from FY2027 at ~¥2T/mo (the June-MPM plan). Ueda 9/2, Takata 9/2, Himino 8/26, Aida 9/7 ("narrow window" before the early-Oct Diet), Katayama 9/8; Reuters via FXStreet 9/11 "set to raise by 25bp next week." Fed: Waller 9/3 HOLD-unless-CPI-hot. All secondary press except Masu and the BOJ/MOF primaries named in the report.
+
+---
+
+## USD/JPY MEASUREMENT BASIS (WQ-162 convention)
+
+**Rotated here from `STATUS.md` § KEY THRESHOLDS on 2026-09-18 under the read-cap rule. ⛔ CURRENT AND CITABLE — this is a convention, not an archive. `STATUS.md` carries the one-line live state and points here.** Internal consumers that named § KEY THRESHOLDS as the canonical home (notably the SAM-39 bullet) now point to this section.
+
+🆕 **BASIS (WQ-162 convention, encoded 2026-09-11 — a CONVENTION line, never a revision claim).** Every USD/JPY level and every USD/JPY-derived COUNT on this desk is read on: yfinance `USDJPY=X`, 1-hour bars aggregated to sessions labeled in **Europe/London** (the index's own zone), **COMPLETED sessions only** — the current bar is never scored. Intraday range = session high − session low, in yen. Observations are taken **as LAST REVISED** inside a 30-day upsert window (`usdjpy.py --revise-window`), **not as first published**. ⛔ This is **NOT** the BOJ 17:00 JST reference rate and **NOT** the MOF curve: never blend or difference across bases. `dashboard.py` and `fetch.py price USDJPY=X` read the SAME yfinance series and are basis-compatible; the BOJ 17:00 JST fix is not. ⚠️ **The vintage direction is deliberately OPPOSITE to LIQUID's GATE-HY-REKILL letter ("as FIRST published")** — HY OAS revisions are rare and first-publication protects a closed count, whereas this instrument's revisions **are its bug fix** (it silently under-stated 7/31 as 2.17y against a true 3.655y, so first-publication grading would have resolved SAM-39 FALSE on a known-defective measurement). Declaring the direction is the point of the convention.
+
+---
+
+## CARRIED SEP-14/15 VINTAGES (not live state)
+
+**Rotated out of `STATUS.md` LIVE MARKET DATA on 2026-09-18 under the read-cap rule.** ⛔ **Every figure here PRE-DATES both the Sep-16 FOMC hike and the Sep-18 BOJ hike. Carried, NOT re-marked — do not read or cite as current.** They are kept because they are the last observed values, not because they are true now.
+
+| ⚠️ **NOT refreshed — Sep-14/15 vintages** | ADRs MUFG 23.89 / SMFG 27.24 / MFG 11.33 · DXY 99.583 · VIX 17.10 · S&P 7,619.98 · FXY ATM IV 16.24% (Oct-16) / 18.97% (Sep-18) · MOF Aug lifer LT −¥137.3B / trust +¥2,332.6B | **Carried, NOT re-marked — all pre-date both hikes; do not read as current.** Later tape at its own basis in WALTER SIG-004 (VIXCLS 17.71 [9/16]; ^VIX 15.44 intraday [9/17]). Thin ETF proxy ≠ FX vol; trust ≠ GPIF; LT debt ≠ UST. |
+
+Caveats travelling with the row: thin ETF proxy ≠ FX vol; trust ≠ GPIF; LT debt ≠ UST. Later tape at its own basis in WALTER SIG-W-20260917-004 (VIXCLS 17.71 [9/16]; ^VIX 15.44 intraday [9/17]).
+
+---
+
+## FUNDING (U.S. / Japan)
+
+**Rotated from `STATUS.md` 2026-09-18 (read-cap rule); current and citable, not boot-read.**
+
+| U.S. / Japan funding | Sep-11 SOFR **3.62%**, IORB **3.65%**, spread **−3bp**; HY **265bp**, IG **80bp** | Sep-14 Japan O/N provisional **0.977%**, repo T+1 **1.000%**. GC T/N ~1.005% is separate; none measures offshore swaps. |
+
+⚠️ GC T/N ~1.005% is a separate instrument. **None of these measures offshore FX swaps** — that gap is what RED salvage ④ (a real JPY xccy-basis instrument) is owed for.

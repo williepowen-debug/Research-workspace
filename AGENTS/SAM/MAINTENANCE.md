@@ -6,6 +6,20 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-18 (PM, second session) — rule-5 rotation FINISHED; a spent consumer-warning removed; sidecar re-stamped
+
+**Boot-impact: STATUS boot read 23,281 → 22,752 B (72% → 70% of budget) — the rule-5 <70% stop is now CLEARED, not stopped-short. `boot.py --predictions` returns to PASS.**
+
+- **STATUS live-data refresh (17:44Z boot sweep).** USD/JPY 157.34 → **156.69**, FXY 58.30 → **58.51**, Brent $99.56 → **$98.93**, all three crosses re-marked. Completed-session basis (WQ-162) **re-derived**: latest completed = **Sep-17 155.942**; the 15:15Z block had left it un-derived.
+- 🔧 **KEY THRESHOLDS was a stale Sep-14 vintage under a Sep-18 table** — it never got re-marked when LIVE MARKET DATA moved this morning. The **USDJPY 155 row was directionally WRONG**: it read "Below at live 154.82" while the pair traded 156.69, i.e. a yen-STRENGTH watch described as unbreached when the level had been crossed the other way for three straight completed closes. JGB rows advanced Sep-14 → MOF Sep-17; Brent row −7.5% in three sessions. **Class: a table refreshed in one section certifies the section below it that nobody re-read.**
+- ✅ **`COMPRESSED SESSION-NOTE POINTERS` rotated out — and its protective warning re-checked first, as the warning itself demanded.** The warning named `AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md` §v0.30. **WALTER has since re-pointed to `thesis/BOJ_2026-07-31_PREREGISTRATION.md` directly and no longer cites `AGENTS/SAM/STATUS.md` at all (`grep -c` = 0).** `STATUS_ARCHIVE.md` already held the block verbatim, both stubs included. ⚠️ **This warning cost the 15:15Z session its rule-5 completion** ("stopped 496 B short, deliberately") **on a dependency that had already been resolved.** Nobody re-checked because a warning reads as permanent. **A protective warning does not expire when its dependency does, and nothing re-evaluates it.**
+- **Rotated to `STATUS_REFERENCE.md` (warm, current, citable — NOT archived):** the WQ-162 USD/JPY measurement-basis convention (STATUS keeps a one-line live-state pointer; the SAM-39 bullet's "canonical home" reference re-pointed), the carried Sep-14/15 pre-hike vintages, the durable Japan macro/flow rows, and the U.S./Japan funding row.
+- 🔧 **Stale figure corrected in `STATUS_REFERENCE.md` § CHANNELS·BOJ·FED: "BOJ policy rate is 1.00%"** — a pre-decision vintage sitting in a file whose own header says everything in it is current and citable. Now 1.25%.
+- **Pruned** a resolved **Sep-16** row from the `WHAT TO WATCH` table, which is forward-only by its own heading; merged the duplicated v1.8-candidate paragraph into the Signal Status line.
+- ✅ **`docket/PREDICTION_SCHEDULE.json` SAM-33 `condition_sha256` re-stamped** (`c5ffa000…` → `025749a0…`). Boot failed closed on "SCHEDULING GAP: changed conditions for SAM-33". **Verified before re-stamping, against git:** `Prediction`, `Timeframe`, `Confidence` and `Status` are all **UNCHANGED** across `eb31d594`→`a837a3b0`; only `Notes` moved, and only as the append-only Sep-16 op-audit evidence record. **No term was re-tuned.** ⚠️ **Design tension worth naming:** the hash covers `Notes` *because* SAM-33's activation clause lives there — correct, and it means every evidence append to that row forces a re-stamp. That trains reflexive re-stamping of the exact guard that would catch a real term change. **Do not re-stamp without the field-level git diff.**
+
+---
+
 ## 2026-09-18 — post-BOJ sweep: STATUS rotation, grade split to report, two charter corrections
 
 **Boot-impact: STATUS boot read is ~3.1 KB lighter; boot step 6 now names a tool that already existed.**

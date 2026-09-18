@@ -30,56 +30,50 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-- **BOJ HIKED 25bp → 1.25%** (2026-09-18, 7–2, effective Sep-24, highest since 1995). **Both dissents DOVISH, for HOLD** — Asada (core CPI "below 2 percent"), Sato ("not substantially accelerated"). Yen **WEAKENED** anyway: USDJPY 154.82 [9/15] → **157.34** [9/18 15:01:50 UTC].
-- **FOMC HIKED 25bp → 3.75–4.00%**, 12–0 (9/16). SEP medians **UP**: 2026 3.8→4.1, 2027 3.6→4.1. Both central banks hiked in one week.
-- **Japan Aug trade −¥1,105.6B**, widest since January — a PRICE deficit (crude value +58.7% on volume +3.6%). **ME crude volume −30.9% while total volume ROSE.**
-- National CPI Aug **1.9 / 1.7 / 1.9** (2025 base). **The BOJ hiked with core BELOW its own target.**
-- Brent **$99.56**, back through $100 to the downside despite Petroline shut since 9/11. FXY **58.30**; the Sep 2–9 rally fully given back.
-- MOF weekly Sep 6–12 **+¥1,082.9B BUYING**; 4-week −¥1.608T (was −¥1.55T).
+*(Last session closed out 12:32 ET **today**; this is a same-day second session. "Offline" = ~3 hours, so these are intraday moves, not overnight news.)*
+- **The yen clawed back part of the decision-day move.** USD/JPY **157.34 [15:01Z] → 156.69 [17:44Z]**, −0.41% off the post-decision high. Firmer on all three crosses too (EURJPY 180.36→179.94 · GBPJPY 210.21→209.87 · AUDJPY 111.83→111.63) ⇒ **yen-side, not USD-side.**
+- 🔴 **FXY 58.30 → 58.51 — now INTRADAY ABOVE the SAM-28 magnitude bar of 58.49.** It was 58.44 (five cents below) when the prep file was frozen this morning. **Not a grade; the registered leg reads the 16:00 ET CLOSE.**
+- **Brent kept falling: $99.56 → $98.93**, extending below $100 for a second session **while Petroline is still shut.** Supply event and price moving opposite ways.
+- No new BOJ pricing: `boj_ois.py` still returns the unreviewed chart (SHA256 `1105fdfc…`). **This desk has no current BOJ pricing.**
 
 ### LAST SESSION
-Will-directed boot + dark-period catch-up (dark 9/15→9/18), then a full file sweep.
-- **Graded SAM's three-leg BOJ pre-registration** (owner grade; PROME DOCKET L34 closed on it). Vote-split leg: hawkish surprise **DID NOT FIRE** — count matched, sign inverted. Oil-naming: **DOVISH-FOR-PACE**. Balance sheet: **NO SURPRISE**. **Composite clause graded a MISS** — right direction, wrong mechanism.
-- **Corrected PROME**, which had relayed the dissents as "citing upside inflation risk." Both are dovish. PROME accepted; logged against itself under `[[finding_exact_level_authenticates_a_wrong_direction]]`.
-- **SAM-28/31 adjudication FROZEN pre-close** → `docket/2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`.
-- **Oil-in-yen re-read** → the 90% ME premise retired; BRENT answered the origin question same-session (US crude 37%, Kuwait/Qatar zero). KB-SAM-253..256.
-- **DAEDALUS PR#6:** ASK 3 done both legs; **ASK 1 DECLINED on ownership** (red/ is RED's file).
-- Sweep: CALENDAR↔CATALYSTS divergence repaired, TRADE.md/STATUS_REFERENCE/SIGNAL_INTAKE trued up, MAINTENANCE logged, STATUS rotated 81%→72%.
+Second Will-directed session of 9/18 — live-data catch-up. Will asked whether the BOJ hike was captured: **it was**, graded in the 15:15Z block, which I left unamended.
+- **Refreshed STATUS off the 17:44Z boot sweep** and **re-derived the WQ-162 completed-session basis** (latest completed = **Sep-17 155.942**), which the morning block had left un-derived.
+- 🔧 **Caught KEY THRESHOLDS as a stale Sep-14 vintage sitting under a Sep-18 table.** The **USDJPY 155 row was directionally wrong** — "Below at live 154.82" while the pair traded 156.69. A yen-STRENGTH watch cannot fire on yen weakness. **Class: refreshing one section certifies the section below it that nobody re-read.**
+- ✅ **Finished the rule-5 rotation the morning session stopped 496 B short of** (72% → **70%**, stop CLEARED). The blocker was the `COMPRESSED SESSION-NOTE POINTERS` external-consumer warning — **I re-checked it, as the warning itself demands, and it is SPENT**: WALTER re-pointed to the thesis file and no longer cites SAM's STATUS at all (`grep -c` = 0), and STATUS_ARCHIVE already held the block verbatim.
+- **Rotated to `STATUS_REFERENCE.md`** (warm/current/citable): WQ-162 basis convention, carried pre-hike vintages, durable Japan macro rows, funding row. Fixed a stale **"BOJ policy rate is 1.00%"** there.
+- ✅ **Re-stamped SAM-33's sidecar hash** after verifying at git that `Prediction`/`Timeframe`/`Confidence`/`Status` were all unchanged and only the append-only op-audit `Notes` moved. `boot.py --predictions` back to PASS.
 
 ### NEXT SESSION
 
-**TIER 0 — TONIGHT, DATED:**
-1. 🔴 **Record the official FXY close against 58.49** (= registration close 56.79 × 1.03). It was **58.44 intraday** — five cents. This decides SAM-28's whole-window leg. ⛔ Read it off the CLOSE, never an intraday quote.
-2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE on the route leg, **with the "sustained OPERATIONS → TRUE" alternative disclosed, not buried.**
+**TIER 0 — TONIGHT, AFTER 16:00 ET. Terms are FROZEN; run them cold.**
+1. 🔴 **Record the official FXY close against 58.49** (= 56.79 × 1.03). ⚠️ **It went ABOVE the bar intraday (58.51 at 17:43Z) after being 58.44 below it at 15:01Z** — so the "FALSE is over-determined" shortcut in the prep file **may no longer be available**, and the endpoint convention may have to be genuinely adjudicated. ⛔ Read the CLOSE, never an intraday quote. **Do not let the intraday print pre-load the grade in either direction.**
+2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE **on the ROUTE leg** (4 of 5 settled no-fire), **with the "sustained MOF #3 → TRUE" alternative disclosed, not buried.** ⚠️ **The route leg carries the grade regardless of where FXY closes** — the magnitude leg discriminates nothing (469 qualifying endpoint pairs).
 3. Pull the **15:30 ET CFTC COT** (Sep-15 positions). Record it; it enters **neither** row's terms.
-4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand.
-5. ⚠️ **This session CLOSED OUT AT 12:32 ET, before the 16:00 close** — the grade was deliberately NOT run early. Terms are frozen; run them cold.
+4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand. **Re-stamp `PREDICTION_SCHEDULE.json` for any row whose Notes you touch, but only after a field-level git diff** (see below).
+5. After grading, **run `ledger_staleness.py --nudge` and `consumer_check.py`** — SAM-28/31 resolving changes a figure other desks may cite.
 
-**LEDGER DISPOSITIONS (closeout 9/18 — `ledger_staleness.py --nudge` flagged 5; each is "why not", none frozen, none rotted):**
-- `CFTC_JPY.tsv` (6 behind) — next print **15:30 ET today (Sep-15 positions)**, 3h after closeout. Pull it next session; it enters **neither** SAM-28's nor SAM-31's terms.
-- `BOJ_MEETING_OIS.tsv` (5) — **boot 9/18 FAILED closed, correctly**: `boj_ois.py` returned an unreviewed chart (SHA256 `1105fdfc…`) requiring visual review. ⛔ **This desk therefore has NO current BOJ pricing** — do not cite the spent Sep-15 image. The meeting has resolved, so the next meaningful quote is the **October** meeting's.
-- `GPIF_FLOWS.tsv` (62) — **quarterly-laggy by construction**, not rot. Interim PDFs ~5wk after quarter-end; annual ~Jul 1-3. No release to ingest.
-- `BIS_GLI.tsv` (4) — **manual-only, quarterly by design.** Run when the carry-SCALE question is live; it is not.
-- `JGB_AUCTIONS.tsv` (2) — current through the **Sep-15 20Y (AMBIGUOUS)**. Next auction **Sep-29 40Y**, descriptive only.
+**GUARD NOTE (new, 9/18 PM):** `PREDICTION_SCHEDULE.json`'s `condition_sha256` covers **Notes**, because SAM-33's activation clause lives there. So **every evidence append forces a re-stamp**, which trains reflexive re-stamping of the one guard that would catch a real term change. ⛔ **Never re-stamp without diffing `Prediction`/`Timeframe`/`Confidence`/`Status` at git first.**
 
 **TIER 1 — DATED, FORWARD:**
 - **Sep-29** 40Y auction — descriptive BTC only, NO grade (uniform-price; RULING 2). Counter stays 0-of-2.
-- **Sep-30 17:00 JST** BOJ Oct–Dec purchase schedule. A scheduled taper-plan change does **NOT** count against SAM-33; an unscheduled capping op would.
+- **Sep-30 17:00 JST** BOJ Oct–Dec purchase schedule — **the next SAM-33 check.** A scheduled taper-plan change does **NOT** count; an unscheduled capping op would.
 - **Oct-1** BOJ Summary of Opinions — the board's own words on the Sep hike, and **whether oil is named and HOW**. Direct test of this session's leg-2 grade.
-- **Oct-2** August METI crude-by-source — **the durability test: do Kuwait/Qatar return from ZERO?** Registered as a CATALYSTS row.
-- **Oct-8** 30Y auction — the next test the frozen bars actually apply to. Apply the PRECISION-LIMITED tag if the trip margin ≤0.1bp.
+- **Oct-2** August METI crude-by-source — **the durability test: do Kuwait/Qatar return from ZERO?**
+- **Oct-8** 30Y auction — the next test the frozen bars actually apply to. PRECISION-LIMITED tag if the trip margin ≤0.1bp.
 
 **TIER 2 — OWED:**
-- 🔴 **Re-benchmark the oil-in-yen price proxy.** It prices off Brent while ~37% of receipts are WTI-Midland-led US crude. **Until then the +22% implied-premium flag must NOT be resolved as a cost finding** — it is partly benchmark mismatch.
-- **STATUS re-assess at next append**: 72% of budget, stopped 496 B short of the rule-5 <70% stop deliberately (remaining candidates are live state or the consumer-warned pointer block).
-- **RED's L416 wake 9/24** carries DAEDALUS's banner ask + CH-009/012/017. Not mine; PROME rules ownership if RED declines. **Do not accept a re-route back to SAM.**
+- 🔴 **Re-benchmark the oil-in-yen price proxy.** It prices off Brent while ~37% of receipts are WTI-Midland-led US crude. **Until then the +22% implied-premium flag must NOT be resolved as a cost finding.**
+- **BOJ pricing is DARK** until `boj_ois.py --prepare-review` gets a visual review. Next meaningful quote is the **October** meeting's.
+- **STATUS headroom is now 1,619 B to the 75% trigger** — the rule-5 stop is cleared, so an ordinary append is fine; re-assess if a big block lands.
+- **RED's L416 wake 9/24** carries DAEDALUS's banner ask + CH-009/012/017. Not mine; **do not accept a re-route back to SAM.**
 - **SAM-39 successor still owes a preregistered SHAPE leg** before any reopened intervention-character window.
-- `xccy_basis.py` stays manual-only/expired — the 9/18 hike is exactly the sign-flip the 9/11 activation decision predicted. Do not revive it.
+- **RED salvage ④ — a real JPY xccy-basis instrument** is still owed and still tracked nowhere but STATUS's watch table. `xccy_basis.py` stays manual-only/expired; **do not revive the defective proxy.**
 - WALTER charter edit still owed (Aug-18 lane notice). METSUKE Run-12 apply pass still owed.
 
 **SUB-AGENT CLOSEOUT — standing:** after any run, `subagent_memory_roll.py`; after KURA, also `kura_proposal_roll.py`. Never `--all` while a sub-agent is live. They propose, SAM applies.
 
-**DO NOT:** rearm retired −153K/85% (moot in direction — the book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing (`boj_ois.py` returned an unreviewed chart 9/18 — **this desk has no current BOJ pricing**); cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
+**DO NOT:** grade SAM-28/31 before the 16:00 ET close, or from an intraday FXY print; rearm retired −153K/85% (moot — book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing; cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
 
 ### PRIOR SESSIONS — archived
 

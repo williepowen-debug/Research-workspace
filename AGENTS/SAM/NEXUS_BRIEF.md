@@ -1,14 +1,14 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-18T~17:30Z — **post-BOJ / post-FOMC catch-up + full file sweep.** SAM was dark 9/15→9/18; both central-bank decisions and the August trade/CPI prints landed inside that window and are now integrated. **STATUS provenance:** `491eeed52`. Brief written last, after all other write-backs, per schema Amendment 10.
+**As of:** 2026-09-18T~18:20Z — **live-data re-mark (second session of Sep-18 ET).** The BOJ/FOMC grade in the ~17:30Z brief **stands unamended**; this refresh carries intraday marks and one correction. **STATUS provenance:** `491eeed52` + uncommitted same-session edits. Brief written last, after all other write-backs, per schema Amendment 10.
 
 ## VIEW
 
-**Both central banks hiked in the same week and the yen weakened anyway.** BOJ **+25bp → 1.25%** (2026-09-18, 7–2, effective Sep-24, highest since 1995); Fed **+25bp → 3.75–4.00%** (9/16, 12–0) with SEP medians moving **UP** (2026 3.8→4.1 / 2027 3.6→4.1). USD/JPY **154.82 [9/15] → 157.34 [9/18 15:01:50 UTC]**.
+**Both central banks hiked in the same week and the yen weakened anyway.** BOJ **+25bp → 1.25%** (2026-09-18, 7–2, effective Sep-24, highest since 1995); Fed **+25bp → 3.75–4.00%** (9/16, 12–0) with SEP medians moving **UP** (2026 3.8→4.1 / 2027 3.6→4.1). USD/JPY **154.82 [9/15] → 157.34 [15:01:50Z] → 156.69 [17:44:39Z]** — the yen has since clawed back ~0.4% of the decision-day move, and firmed on **all three** crosses (EURJPY 179.94 · GBPJPY 209.87 · AUDJPY 111.63), so the retrace is **yen-side, not USD-side**. Latest **completed** session (WQ-162 basis) = **Sep-17 155.942**.
 
 **The BOJ hiked with its own core CPI below target** (National Aug, 2025 base: 1.9 / **1.7** / 1.9). Both dissents were **DOVISH, for HOLD** — Asada explicitly citing core "below 2 percent". **CH-004 confirmed a third time: a fully-priced hike does not unwind carry.**
 
-v1.7 carry-convexity remains **RETIRED / LOW**, no successor, v1.8 separately gated. **Book FLAT.** No retired gate re-arms; the 160 gate stays VOID, not re-armed. Nothing in this week's policy action changes the frame.
+🆕 **Brent keeps falling while the supply event persists: $106.90 [9/15] → $99.56 → $98.93 [17:34Z], −7.5% in three sessions, with Petroline shut since 9/11.** For BRENT/HAWK: the shut-in and the price are moving opposite ways for a second session. v1.7 carry-convexity remains **RETIRED / LOW**, no successor, v1.8 separately gated. **Book FLAT.** No retired gate re-arms; the 160 gate stays VOID, not re-armed. Nothing in this week's policy action changes the frame.
 
 🆕 **Structural, and it touches other desks:** Japan's Middle East share of crude import **volume** is **62.6%** (Aug-2026 customs), not the ~90% this desk propagated for years — 91–95% every month through 2026-03, now 59–63% for three months, while **total** volume recovered to +3.6% YoY. **Japan replaced the barrels, it did not lose them.** BRENT identified the replacement at the METI primary: **US crude 37.0% of July receipts** (WTI-Midland 24%), 4.6× YoY; **Kuwait 0, Qatar 0**. ⇒ A Hormuz event is a smaller **volume** shock to Japan than the old premise implies, and the yen channel now runs through **price**.
 
@@ -16,7 +16,7 @@ v1.7 carry-convexity remains **RETIRED / LOW**, no successor, v1.8 separately ga
 
 **Owner grade of SAM's three-leg BOJ pre-registration** (PROME DOCKET L34 closed on it): vote-split leg **hawkish surprise DID NOT FIRE** (2 dissents, but both for HOLD — count matched, sign inverted); oil-naming **DOVISH-FOR-PACE**; balance sheet **NO SURPRISE**. ⚠️ **The composite clause is graded a MISS** — SAM registered *"the surprise is a HOLD, and it is yen-NEGATIVE"*; no hold printed, and the yen fell through a different mechanism. **Logged as a calibration loss, not a directional hit.**
 
-**SAM-28 (40%) and SAM-31 (35%) are OPEN and grade after tonight's 16:00 ET close.** Adjudication frozen **pre-close** at `docket/2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`. Measured there: **469 ordered session pairs in the window clear the +3% FXY bar**, so the magnitude leg discriminates nothing and the route leg must carry the grade. Four of five routes are settled no-fire. ⚠️ **The whole-window leg is live into the close and within five cents** (bar = FXY 58.49; 58.44 intraday).
+**SAM-28 (40%) and SAM-31 (35%) are OPEN and grade after tonight's 16:00 ET close.** Adjudication frozen **pre-close** at `docket/2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`. Measured there: **469 ordered session pairs in the window clear the +3% FXY bar**, so the magnitude leg discriminates nothing and the route leg must carry the grade. Four of five routes are settled no-fire. 🔴 **UPDATE 17:43Z — FXY has crossed ABOVE the bar intraday: 58.51 vs 58.49** (it was 58.44, five cents below, when the prep file was frozen). ⛔ **Not a grade — the registered leg reads the 16:00 ET CLOSE.** Consequence for consumers: the "FALSE is over-determined" shortcut **may no longer be available**, so the endpoint convention may have to be genuinely adjudicated tonight. **The ROUTE leg still carries the grade either way** — four of five routes are settled no-fire, and the magnitude leg discriminates nothing.
 
 Scoreboard **16 CONFIRMED / 14 FAILED / 1 special / 3 OPEN** pending tonight. SAM-33 un-falsified, verified at the operation record.
 
@@ -35,7 +35,7 @@ Scoreboard **16 CONFIRMED / 14 FAILED / 1 special / 3 OPEN** pending tonight. SA
 
 ## NEXT DECISION POINT
 
-**Tonight, 16:00 ET:** record the official FXY close against **58.49**, then grade SAM-28 and SAM-31 on frozen terms. Prepared dispositions are FALSE for both, with the one reading that would make SAM-28 pay disclosed rather than buried. **No decision re-arms the frame; book stays FLAT either way.**
+**Tonight, 16:00 ET:** record the official FXY close against **58.49** — ⚠️ **now a genuine coin-flip, not a formality: FXY traded 58.51 at 17:43Z** — then grade SAM-28 and SAM-31 on frozen terms. Prepared dispositions are FALSE for both, with the one reading that would make SAM-28 pay disclosed rather than buried. **No decision re-arms the frame; book stays FLAT either way.**
 
 **Owed and unresolved:** the oil-in-yen price proxy is benchmarked to **Brent** while ~37% of Japan's receipts are WTI-Midland-led US crude — registered as an instrument defect. ⛔ **Until it is re-benchmarked, the +22% implied-premium flag must not be resolved as a cost finding**; it is partly benchmark mismatch.
 
