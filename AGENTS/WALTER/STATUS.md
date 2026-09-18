@@ -19,7 +19,7 @@ Boot COMPLETE 9/17 (doctor 0 HIGH / 12 MED, all handled or carried). **Iran full
 | RED-FT-08 / RED-FT-09 | core CPI 3-mo ann. 1.97% [Aug, BLS 9/11, owner arithmetic]; T5YIFR 2.34 [9/17]; no |
 | RED-FT-03 / -04 · Boundary #1 / #2 (Brent) | BZX26 $104.16 [9/17 intraday]; CLV26 $101.22 · CLX26 $96.58; no |
 | REG-T-01 / REG-T-02 (KRE / WAL) | 72.74 / 79.43 [9/17 intraday]; T-02 cycle 2 FIRED 9/1 @77.26, exit `≥81.90 ×3` at 0/3; sub-78 closes inside the fired state are re-entries |
-| REG-T-08 (SOFR−IORB) | −28 bp [9/16]; no |
+| REG-T-08 (SOFR−IORB) | ⚠️ **CORRECTED 2026-09-18 boot: −3 bp on the last MATCHED pair [both legs 9/16: SOFR 3.62 − IORB 3.65].** The `−28 bp [9/16]` carried here was **SOFR 9/16 minus IORB 9/17+ (3.90)** — a mismatched-vintage spread whose whole error IS the 9/16 hike. **No matched post-hike pair exists yet: SOFR 9/17 publishes 9/18 AM.** Bar is `> +15 bp`; **no fire on either reading**, and a lagging SOFR moves the spread AWAY from the bar |
 | Boundary #3 (Cushing) | 21.48M [EIA w/e 9/11]; 7.4% above 20M; no (6.9% one-sided — outside the 5% watch band) |
 | CREED-T-08a (VNQ−SPY 3-mo) | −4.20 pp total-return / −4.80 price-only [9/17 `s8a_relative.py`]; 5.8 pp from −10; NOT FIRED; other CREED-T rows monthly/quarterly, none due |
 | HANS-T scannable (6) | TTF 77.01 [9/17 fetch, contract UNKNOWN] — L2 fire open, L3 `>100` no · EURUSD 1.15 [9/17] no · storage gap −14.7 pp [gas day 9/8, HANS] fire open · Bund 3.4879 [9/10, HANS] watch open · **UK 10Y ~5.22 / 30Y ~5.74 [9/17 intraday, secondary]** — AWAY from `>5.50` / `>6.00` (`-005`) · T-12 UNINSTRUMENTED, not counted |
