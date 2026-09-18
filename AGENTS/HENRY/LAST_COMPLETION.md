@@ -1,67 +1,49 @@
 # HENRY — LAST COMPLETION
-**Session:** 2026-09-14 Mon ~15:5x–16:0x ET · PROME Tier-1 spawn (WQ-184) · spawned ~10 min before the close · **Status: ✅ DONE (3 of 3 scoped items)**
 
-**RESULT:** Rebuilt the SPX gamma board on the 9/14 close (flip **7,676/7,677**, SPX **7,630.02**, **negative a second consecutive session and roughly doubled**, and **the call wall 7,700 is publishable — the first HENRY wall since 7/29**); graded `HEN-46` `F1` on the frozen letter as **NOT FIRED**; and **caught, same-session, that ~93% of today's ULSD-crack "collapse" was a contract roll, after I had already sent the wrong figure to TERRY.**
+**Session:** 2026-09-18 Fri ~16:2x–17:0x ET · **PROME Tier-1 spawn** under WQ-184 L0 · **DOCKET L411** (post-opex gamma re-measure) · **Status: COMPLETE**
 
----
+**RESULT:** `HENRY 2026-09-18 close: flip ~7,668 (14d) / ~7,668 (35d); sign NEGATIVE; NO WALL PUBLISHABLE.` **The ~$6T quarterly opex took the FORCE out of the negative-gamma board without changing its DIRECTION** — sign negative a 4th session, magnitude collapsed ~77–80%. **HEN-45 resolved CONFIRM.**
 
 ## CHANGED
-`STATUS.md` · `MEMORY.md` · `NEXUS_BRIEF.md` · `LESSONS.md` + `LESSONS_ARCHIVE.md` · `LAST_COMPLETION.md` · `workbook/PREDICTIONS.tsv` · `workbook/PUBLISHED.tsv` · `workbook/MARKET_DATA.tsv` · `board_log.tsv` · `scripts/boot.py` · `status_archive/STATUS_ARCHIVE_2026-09.md` · inbox → processed (16 files) · packets into `AGENTS/{TERRY,WALTER,RED,BRENT}/inbox/` · `PROME/inbox/`
 
-## SESSION WORK
+`STATUS.md` · `MEMORY.md` · `NEXUS_BRIEF.md` · `LAST_COMPLETION.md` · `workbook/PUBLISHED.tsv` · `workbook/PREDICTIONS.tsv` · `board_log.tsv` · `status_archive/STATUS_ARCHIVE_2026-09.md` (blocks 26–31) · `STATUS_COLD.md` (§C, §C2, §C3, §T, §TH-9/18) · `inbox/processed/` ×5
 
-**① GAMMA BOARD — REBUILT ON THE 9/14 CLOSE (the reason for the spawn; the prior board expired today).**
+## Session Work
 
-| | 14d (4,066 c) | 35d (8,416 c) | Cross-horizon |
-|---|---|---|---|
-| Zero-gamma flip | **~7,676** | **~7,677** | ✅ agree, 1 pt |
-| Spot vs flip (SPX **7,630.02**) | −46 pts (**−0.60%**) | −47 pts (−0.61%) | ✅ agree |
-| Sign | **NEGATIVE** | **NEGATIVE** | ✅ dealers AMPLIFY |
-| Net GEX | −$28.1B/1% | −$37.9B/1% | agree in sign |
-| **Call wall** | **7,700** clean, +11% | **7,700** clean, +14% | ✅ **PUBLISHABLE** |
-| Put wall | 7,600 clean, +18% | 7,600 ⚠️ near-tie 9% | **publish BAND 7,500–7,600** |
+**1. The board, on the OFFICIAL 9/18 close (never intraday).** SPX **7,650.50** — verified as the official daily close and cross-checked equal to the gamma spot. Flip **~7,668 at BOTH horizons (exact agreement, 0 pts — the tightest of the series)**, spot **−17pt (−0.23%)** below, Net GEX **−$9.9B (14d) / −$12.1B (35d)** per 1%. **Post-opex by construction, verified at the code** (the estimator excludes `T<=0`, so today's expiries are out).
 
-- **The sign has now HELD negative across two consecutive boards and roughly doubled** (+$39.4B [9/4] → −$21.6B [9/11 close] → **−$37.9B [9/14 close]**) — the first time it has persisted after flipping three times in eleven sessions. **Dealers are short gamma into FOMC 9/16 and quarterly OPEX 9/18.**
-- **Walls ARE gradeable this time on the call side, and I said so explicitly:** clean #1 within both horizons *and* agreeing across them. **This reverses my own standing "no publishable HENRY wall level" claim**, which had run since 7/29 and was correct for its whole run — the 9/13 board printed put wall == call wall == 7,700, structurally impossible. **That degeneracy is gone.** I **replaced** the standing sentence in `NEXUS_BRIEF.md` rather than annotating it, so only one claim is live.
-- ⚠️ **Honest limit:** spot is 0.60% below the flip, but SPX moved +0.86% on 9/11 alone — **still inside one session's range.** Stronger negative-gamma read; **not yet an entrenched regime.** Shelf life ONE session.
+**2. The finding: the opex removed the force, not the direction.** −$16.3B/−$21.6B [9/11] → −$28.1B/−$37.9B [9/14] → −$48.8B/−$52.5B [9/17] → **−$9.9B/−$12.1B [9/18]**. The three-session deepening **did not resolve by dealers re-hedging — ~$6T of open interest expired.** ⚠️ **Composition, not count: the 35d contract count fell only 12.5% while the magnitude fell 77%.** ⇒ **Directionally intact, mechanically weak — the LEAST entrenched of the four boards.** A single ordinary up-session flips the sign positive.
 
-**② `HEN-46` / the 9/14 close-basis crack — the three pre-registered `WQ-213` conditions, graded on the frozen letter.**
+**3. No wall publishable — and the failure MODE moved.** 9/17 was the put==call==7,600 same-strike degeneracy. **Today the walls separated cleanly and the failure jumped to the CROSS-horizon axis:** 14d call wall **7,700 (clean #1, +43% over #2 — the cleanest single wall reading in weeks)** vs 35d call wall **8,000**. The audit-E2 rule binds. ⚠️ **The cleanest number available is the one being withheld — the rule exists for exactly that temptation.** Every HENRY wall dated before 2026-09-18 is VOID.
 
-| Condition | Grade |
-|---|---|
-| `F1` fires on a CLOSE (crack <$95) | ⛔ **NOT FIRED** — continuous **$98.56** · matched-Oct **$107.45** · matched-Nov **$102.90** |
-| HENRY withdraws or **downgrades** `HEN-46` | 🔴 **TRIPPED — downgraded** |
-| Close series establishes a sustained lower regime | ⛔ **NOT ESTABLISHED**, and now *further* away |
+**4. HEN-45 RESOLVED — CONFIRM**, both legs, graded in the pre-committed order (document first, then price), each at a primary source. **Leg 1:** 2026 median dot **4.1 vs 3.8 June = +30bp ≥ 25bp**, read off the Fed's own SEP PDF, pairing cross-checked against the central-tendency rows. **Leg 2:** **|ΔDGS2| 7.0bp > |ΔDGS30| 6.0bp.**
 
-- **Basis verified, not assumed:** `F1`'s own `$90.16` baseline reproduces **to the cent** off this same close series at 7/23 — letter and grade share a basis.
-- **The downgrade is NOT a reaction to the tape.** `HEN-46` claims AAL/LUV miss their Q3 **fuel cost line** — a **quarter average** — while its falsifier keys on the **crack, a spot margin**. Same series, window delta: assumption window 7/17–7/23 **$4.1601** vs Q3-to-date **as of the 9/11 close $4.1598 = −0.0%**. **Flat on the day I registered the row**, with the crack one session off its peak. Ceiling case **+3.8%** against a `0.60` built on a `$0.25–0.45/gal` gap. **AAL 0.60→0.35 · LUV 0.55→0.30 · row stays ACTIVE · `F1`/`CONFIRM`/`DENY` untouched.**
-- The divergence evidence weakened too: AAL/LUV outperformed **in both directions** of the crack (today **+0.88%/+0.75%** vs SPX −0.44% as the crack fell). ⚠️ n=1 on the down leg — flagged, not concluded.
+**5. Two peer corrections landed and both stand.** **RED** found my CROSS-AGENT table carrying an `FT-10` count stale by two run cycles while my own body line was correct — **my STATUS disagreed with itself.** I took RED's structural fix rather than the cell fix: that row now **mirrors no count at all** and points at RED's registry. **VIOLET** corrected a sentence in which I had cited her branch map as *corroborating* my read — **her map failed** (A is the Fed-outcome label, not a surface branch; A lost all three cells). That sentence had already been rotated to the archive earlier in this session, so **I annotated it where it now lives.**
 
-**③ 🔴 THE CORRECTION I AM LEAST COMFORTABLE WITH AND MOST WANT ON THE RECORD.**
-I sent TERRY a figure saying the crack fell **−$9.90 (−9.1%)** and "round-tripped the entire spike." **It was wrong.** `HO=F` rolled **October→November on 2026-09-14 — the exact session under decision** — while `CL=F` stayed October. Like-for-like (both legs Oct) the crack fell **−$0.79 (−0.73%) to $107.45**; **~93% of the move was the roll.** Products did **not** fall (HO **+0.48%**, RB **+0.81%**, CL +1.67%).
-⚠️ **I caught it only because PROME forwarded BRENT's instrument caveat before my number propagated further.** My series had been calendar-**matched** for its entire history — including the `$90.16` baseline and the `$109.93` peak — and broke on precisely the graded session. Corrections went to TERRY, BRENT and PROME same-session; **BRENT re-verified at its own tape and withdrew two of its own claims (`034a71c54`).**
+**6. Caught a fill-forwarded mark in my own boot tape**, using a WALTER packet the same session it arrived: SKEW rendered as a 9/18 value at **`+0.00%`** when the CBOE publisher and the dated bar both stop at **09/17 = 145.70**. VIOLET independently found the same unposted bars.
 
-**Also:** settled WALTER's open question — **the 2022 diesel futures record was NOT broken** (`HO=F` close $5.1354 [2022-04-28] vs $5.0575 [9/10], short 1.5%; intraday short 11.8%) ⇒ **Bloomberg's framing is right and `SIG-W-20260910-020` needs correcting**. Answered RED on `VX-RED-007`. Inbox **16 → 0**. Fixed a `boot.py` crash that had been aborting the run before step (g).
+## GAPS / Still pending
 
-## GAPS / STILL PENDING
-- ⚠️ **`STATUS.md` is at 99% of its read-cap budget (rotate-tier).** I rotated three blocks to the archive and cut two pointer rows to get back *under* the cap, but a full rotation to <70% needs ~9.4KB out of **live analytical** sections. **Deliberately not done mid-grade** — it belongs in its own session.
-- **VIOLET was not live today** and is owed the new gamma sign/board; the OI term breakdown she asked for remains impossible on the free tier.
-- **The ~98% refinery-utilisation figure is NOT verified by me** — BRENT's ask, and I did not relay it as established.
-- The 9/14 daily futures bar is post-settle but pre-17:00, so it drifted during the session ($98.34 → $98.76 range observed). **The `F1` grade is invariant across the whole range** and I marked the superseded row rather than leaving two live values.
-
-## COMMITS
-`b40c4e36d` roll correction · `440a42086` supersession marker · plus the lane-drain/boot-fix and HEN-46-downgrade commits, and this closeout commit.
+- ⚠️ **`STATUS.md` is back UNDER budget (32,163 B of 32,550) but STILL rotate-tier at 98%.** A full rotation to the <70% STOP needs **~9.1KB more** out of live analytical sections. **This is its own task, not a mid-grade job** — carried from 9/14, now two sessions old, and it will re-breach on the next append.
+- **VIOLET's packet is consumed in substance but LEFT IN PLACE on disk** — it is untracked (hers to commit under carve-out ①), so `git mv` cannot stage it and a bash `mv` would fight her pending commit and silently un-drain the inbox. A one-liner for the next session once her commit lands.
+- ⚠️ **VIOLET's "relief event" reading is UNADJUDICATED and I did not adjudicate it.** "The amplifier expired" (my measurement) and "a relief tape absorbed it" (her reading) are **both consistent with this board, and this board cannot separate them.** I stated the measurement and refused the mechanism.
+- **Still owed:** the >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · the `PREDICTIONS.tsv` confidence backfill for 38 historical rows.
 
 ## NEXT SESSION FOLLOW-UP (dates Will cares about)
-- **🔴 Wed 9/16 14:00 ET — FOMC + SEP + dot plot + VIX quarterly expiry.** `HEN-45` Leg 1 (the dot delta) grades FIRST. ⚠️ H.15 outage is a live grading risk for Leg 2.
-- **🔴 Fri 9/18 — SPX quarterly OPEX.** **Re-measure gamma before BOTH; today's board does not survive the week.**
-- **~9/22 — `CL=F` rolls**, closing the `F1` roll-artifact window.
-- **9/30** Russian product-export ban expiry (`HEN-46` `F3`) · **late Oct** AAL/LUV Q3 prints resolve `HEN-46`.
+
+- **Next close** — re-measure the board. **Shelf life is one session, and this is the weakest of the four.**
+- **T+1** — grade the `VIXCLS` 9/18 cell. VIX closed **14.82**, under my `<15` kill line, **but on the wrong instrument to grade it.** Even on confirmation **nothing fires**: the twin kill needs HY <260 on the *same* session and HY is **270**.
+- **Wed 9/30** — Russian diesel/gasoil export ban expiry = **HEN-46 F3**, whose 10-session window runs into the **mid-October roll desync** (structural, monthly, never date-keyed).
+- **Late Oct** — AAL / LUV Q3 prints = **HEN-46** proper.
 
 ## THESIS SNAPSHOT (frozen at close)
-Dealers are short gamma into a three-way week, and the sign persisted for the first time. The credit tail made another new wide (**CCC 1,076 · BB 150 · gap 926** [FRED 9/11]) while blended HY **265** looks calm by composition. **And the cost-shock leg is weaker than this desk has been saying**: the crack did not collapse today, but neither did it take out 2022, and the airlines' quarter-average fuel cost is flat against their own assumptions.
+
+Asymmetry intact with a **cost** face as well as a credit face. **Axis 1:** HEN-45 CONFIRM — the reaction function **has** re-weighted toward inflation, +30bp on the dot, measured on a **document**. **Axis 2:** AI-capex mechanism confirmed, equity expression falsified, successor deliberately unregistered. **Axis 3:** bifurcation intact — gap **920** [FRED 9/17], CCC **+129**/3mo vs BB **+0**; blended HY 270 is **composition, not healing**. Gamma: **short, weakly**, and the cheapest it has been to flip in four sessions.
 
 ## WILL_NEEDS
-**Nothing requiring your hands tonight.** Two things to be aware of:
-1. **`WQ-213` pre-registered condition 2 is TRIPPED** (I downgraded `HEN-46`), which returns the VLO card to you as a fresh ask. **Conditions 1 and 3 are not.** ⛔ **I do not construct or size — TERRY builds, you approve.** ⚠️ My downgrade is about **airline Q3 earnings via quarter-averaging**, **not** a view on the forward crack level the VLO card expresses; I fenced that explicitly so it cannot be read across.
-2. **A falsifier on a live card could fire on a data artifact.** ⚠️ **NOT date-keyed:** `CLV26` *expires* 2026-09-22, but a continuous series rolls on **VOLUME** — `HO=F` rolled **16 days before** its own contract expired — so that date is an **upper bound**, not the end. **The hazard is keyed to a per-pull contract-identity check, not a date.** I put the artifact on the record **before** it can fire and **deliberately did not re-spec the letter** — re-speccing in the session it is read would have shaved the threshold in my own favour.
+
+**Nothing requiring a decision.** ⛔ **$0 moved. No card, no order, no trade proposed. No threshold set, moved, re-specced or fired. Measurement only (WQ-213 class).** TERRY remains the position consumer (TLT Sep-30 77P ×20 sits in this regime) and does not grade this board; VIOLET reads it as context for her own L277 leg-3 grade.
+
+## COMMITS
+
+*(filled at commit — see the PROME memo `PROME/inbox/2026-09-18_from-HENRY_*` for the shas)*

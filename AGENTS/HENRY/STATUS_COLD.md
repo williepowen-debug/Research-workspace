@@ -118,3 +118,89 @@
 - **🔑 STANDING QUALIFIER (3Fourteen via WALTER 7/23), still carried:** record-low implied correlations mechanically suppress index vol — a calm VIX understates constituent stress by construction. VIOLET owns the call.
 
 
+
+
+---
+
+## §C-9/18 — CREDIT EARLY-WARNING MONITOR, 9/13-vintage body, moved out of STATUS 2026-09-18 for the read cap. ⛔ Its levels (CCC 1,070 · BB 155 · HY 270 · gap 915 [9/10]) are SUPERSEDED by CCC 1,076 · BB 156 · gap 920 [9/17]. Historical only; do NOT cite as current.
+
+## CREDIT EARLY-WARNING MONITOR — bifurcation + flows
+
+*Run: `python3 AGENTS/HENRY/scripts/credit_monitor.py`. **Read the TRANCHE LEVELS first; CCC−BB is one input, not the headline.** Refresh each session.*
+
+🔴 **REFRESHED 2026-09-13 AND THE TAIL MADE A NEW WIDE WHILE I WAS DARK: CCC 1,070 · BB 155 · HY 270 · gap 915 [FRED obs 2026-09-10]**, from **1,053 / 153 / 266 / 900 [9/2]**. Δgap **5d +16 · 20d +51 · 3mo +137** on **CCC +133 vs BB −4**. **The tail is widening while the healthy top is flat-to-better — the one leg that has never softened.** ⛔ **FRED's 9/11 cells have NOT published; the frontier is 9/10, three days after the CPI. That is a publication lag, not a gap of mine — do not wait on it.**
+
+- **🟠 The composition-mask, unchanged in shape:** blended **HY 270 [9/10]** is pulled tight by a healthy top over a deteriorating tail, and it moved **+4bp AWAY** from the 260 observable. **Sessions <260 in the thesis's life: ZERO** (n≈123; full 3y series n=787, one print at 259 on 2025-01-22, pre-registration). **If it ever fires, read the tranches before reading the kill.**
+- **HY <280 keeps RED-FT-01 on its EXIT side** (fired 6/04 @275, crossed 8/3 at 278, under since). RED owns the un-fire adjudication.
+- **Flow proxy [9/13 boot]:** HYG **$78.6**, 1d −0.03%, 5d **−0.77%**, volume **1.19×20d**; **HYG/LQD 5d +0.35%**. **Nothing in the flow proxy is firing** (thresholds: HYG 5d ≤−1.5%, HYG/LQD ≤−0.75%/5d). **The stress is in the cash tranches, not in the ETF tape** — unchanged in character, with volume picking up.
+- **AI→credit conduit → § CROSS-AGENT DEPENDENCIES (DEWEY). ⛔ CITE, DO NOT RE-SYNTHESISE.**
+
+**Alert thresholds → archive block 23** (unchanged). Live state: **CCC >1000 orange FIRED, every print since 7/28** · **HY <280 = RED-FT-01 EXIT side, holding under** · flow-proxy legs all quiet.
+
+---
+
+
+
+---
+
+## §T-9/18 — THESIS cross-cutting driver + the 260 LADDER paragraph, moved out of STATUS 2026-09-18 for the read cap. Both restate material already in archive blocks 2·6·12. Nothing retired; the LIVE rule stays in STATUS. ⛔ Credit levels quoted below are 9/10–9/13 vintage and SUPERSEDED by CCC 1,076 · BB 156 · HY 270 · gap 920 [FRED 9/17].
+
+**🔗 THE CROSS-CUTTING DRIVER, RE-STATED 9/13:** equity vol priced for calm over a distressed credit tail making new wides — **and a third leg: a real-economy COST shock (ULSD crack near its 2022 high, PPI diesel +24.1%) that the equities carrying it have not marked.** ⚠️ **All three legs are asymmetric the same way, and all three instruments are now FRESH.** ⛔ **"all-time high" is RETIRED from this line — see the 9/13 basis correction.**
+
+🔴 **THE 260 LADDER — FOUR RUNGS, ONE FRED SERIES**, full text → archive blocks 2 + 6 + 12. **`GATE-HY-REKILL` (LIQUID, 2 closes) is THE kill; mine (5 sessions) is the lagging OBSERVABLE; RED's `FT-12` (sustain-3) is NECESSARY-BUT-NOT-SUFFICIENT for mine, never a countdown.** ⛔ **If 260 breaks, several desks report a fire and a reader counting agents sees several witnesses where there is ONE SERIES AND ONE EVENT (H-2).**
+
+
+---
+
+## §C2-9/18 — CREDIT EARLY-WARNING body, second pass, moved out of STATUS 2026-09-18 for the read cap. Live tranche levels now live ONCE, in STATUS § ACTIVE THRESHOLDS. Historical only.
+
+## CREDIT EARLY-WARNING MONITOR — bifurcation + flows
+
+*Run: `python3 AGENTS/HENRY/scripts/credit_monitor.py`. **Read the TRANCHE LEVELS first; CCC−BB is one input, not the headline.** Refresh each session. **9/13 narrative + alert-threshold table → `STATUS_COLD.md` §C-9/18 and archive block 23 (unchanged).***
+
+🔴 **REFRESHED 2026-09-18: CCC 1,076 · BB 156 · HY 270 · gap 920 [FRED obs 2026-09-17].** Δgap **5d +5 · 20d +48 · 3mo +129** on **CCC +129 vs BB +0** — **the tail is still the only leg that has never softened.**
+
+- **🟠 The composition-mask, unchanged in shape:** blended **HY 270** is pulled tight by a healthy top over a deteriorating tail, and it sits **10bp AWAY** from the 260 observable. ⛔ **Never read the tail off the HY headline.**
+- **HY <280 keeps RED-FT-01 on its EXIT side.** RED owns the un-fire adjudication. ⛔ **I mirror no RED count.**
+- **Flow proxy [9/18 boot]:** HYG **$78.53**, 1d −0.24%, 5d −0.09%, volume **0.96×20d**; **HYG/LQD 5d −0.45%**. **Nothing in the flow proxy is firing** (legs: HYG 5d ≤−1.5%, HYG/LQD ≤−0.75%/5d).
+- **AI→credit conduit → § CROSS-AGENT DEPENDENCIES (DEWEY). ⛔ CITE, DO NOT RE-SYNTHESISE.**
+
+**Live state:** **CCC >1000 orange FIRED, every print since 7/28** · **HY <280 = RED-FT-01 EXIT side, holding under** · flow-proxy legs all quiet.
+
+---
+
+
+
+---
+
+## §C3-9/18 — CREDIT EARLY-WARNING section, moved WHOLE out of STATUS 2026-09-18 (pure move, no rewrite) for the read cap. Live tranche levels are in STATUS § ACTIVE THRESHOLDS. Historical/reference only.
+
+## CREDIT EARLY-WARNING MONITOR — bifurcation + flows
+
+*Run: `python3 AGENTS/HENRY/scripts/credit_monitor.py` each session. **Read the TRANCHE LEVELS first; CCC−BB is one input, not the headline.** **Live tranche rows live ONCE, in § ACTIVE THRESHOLDS — not duplicated here.** Narrative + alert-threshold table → `STATUS_COLD.md` §C-9/18 and archive block 23.*
+
+🔴 **REFRESHED 2026-09-18 [FRED obs 9/17]: gap 920** (CCC 1,076 · BB 156 · HY 270). Δgap **5d +5 · 20d +48 · 3mo +129** on **CCC +129 vs BB +0** — **the tail is still the only leg that has never softened.** ⛔ **Never read the tail off the blended HY headline: 270 is reached by COMPOSITION, not healing.**
+
+**Flow proxy [9/18]:** HYG **$78.53** (1d −0.24%, 5d −0.09%, vol 0.96×20d) · **HYG/LQD 5d −0.45%**. **Nothing firing** (legs: HYG 5d ≤−1.5%, HYG/LQD ≤−0.75%/5d). **HY <280 keeps RED-FT-01 on its EXIT side — RED owns that count, I mirror none.** **AI→credit conduit → § CROSS-AGENT (DEWEY): CITE, DO NOT RE-SYNTHESISE.**
+
+---
+
+
+
+---
+
+## §TH-9/18 — THESIS body (2026-09-04 vintage), moved WHOLE out of STATUS 2026-09-18 for the read cap. Axis verdicts stay live in STATUS. ⛔ Credit levels inside are 9/10-vintage and SUPERSEDED by gap 920 [FRED 9/17].
+
+## THESIS — current state 2026-09-04  ·  *8/28 body → `status_archive/STATUS_ARCHIVE_2026-09.md` block 4; 8/23 body → `STATUS_ROTATION_2026-08-28_PROSE.md`. Axis verdicts only.*
+
+
+**🔗 Cross-cutting driver + the 260-ladder detail → `STATUS_COLD.md` §T-9/18 (archive blocks 2·6·12). Live rule: `GATE-HY-REKILL` is THE kill; mine is the lagging observable; H-2 = ONE series, ONE event.**
+
+| Axis | Verdict |
+|---|---|
+| **1 — CYCLICAL (rates/Fed)** | 🔻 **HEN-42 CLOSED as a MISS 9/4** — the 7/17→7/23 delta was **term-premium-led**; BOND's 9/1 C-36 ruling is **TWO-PART** (policy-path channel alive and transmitting · term premium drove the July delta). **HEN-40 is better supported, not damaged.** 🔴 **10Y through ORANGE at 4.95 [DGS10 9/10], 5bp from my >5.0 RED**, and the 9/03→9/10 move was **curve-wide and BELLY-led** (DGS5 +21 > DGS10 +18 > DGS2 +17 > DGS30 +12bp) — ⚠️ **contaminated after 9/9 by `sb0607`.** Next test = **HEN-45**, which uses a **document** (the dot plot) precisely because HEN-42's two legs were both curve reads. |
+| **2 — AI-CAPEX** | ✅ Mechanism **RESOLVED-CONFIRMED** (HEN-36: Q2 FCF **$40.565B → $6.879B, −83.0% YoY**, 4-of-4 at primaries); **equity-de-rate expression FALSIFIED 2-2**. Successor **still NOT registered — deliberately.** 🔑 **DEWEY REQ-001 sharpens where a successor should point: the order book is SECTOR-SPLIT and the soft leg is POWER, not semis.** |
+| **3 — STRUCTURAL CREDIT** | **Bifurcation intact: CCC 1,076 vs BB 156, gap 920 [FRED 9/17], +129bp/3mo on CCC +129 vs BB +0.** The plateau logged since June broke upward in August and has stayed broken. **Blended HY 270 is reached by COMPOSITION, not by healing.** |
+
+**VERDICT:** the asymmetry is intact and has a **cost** face as well as a credit face. **Blended HY 270 is reached by COMPOSITION, not by healing — read the tranches before reading the kill.** 🆕 **And the August CPI says the cost shock has NOT reached core (HEN-44 CONFIRM) — which is what makes it an equity/margin story rather than a Fed story, and is exactly why HEN-46 expresses it in EQUITIES.** ⚠️ **The gamma sign flipped NEGATIVE on the 9/13 board and has a one-session shelf life.**
+
