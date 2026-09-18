@@ -3,20 +3,20 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Kill-rule ruling (WQ-157, 9/19):** the bond desk measured both halves of its thesis-kill pairing and neither supports it — the stock leg inverts (p=0.009, but only 35–40% power for its own effect), the funding leg detected nothing (p=0.523, MDE ≈16bp at the registered α). Every result favours the desk's own thesis; it recommended nothing. PROME rec: PARK, successor test chosen at the sitting.
-- **Spawn slate held on your 09:15 cost word:** FERT · REGINALD · RED · HENRY (9/18) · SHADE (proximity) · TERRY · OSPREY. Two words per desk. Nothing spawned beside a live desk today; L404 went to the live bond session by doorbell.
-- **Hands, unchanged:** VLO re-affirm or withdraw by 9/18 (WQ-213); the Trends month (WQ-225); the two 9/16 expiries' disposition (WQ-169).
-- **Post-FOMC regime:** unchanged from the morning — hike in at 3.75–4.00%, oil down on a restart claim that is press, not a barrel; TIPS reopening CLEAN with the highest stop since Oct-2008, read as adequate not strong. HEARTBEAT is over its rotate line and re-bases at the next boot.
-- **Evidence and work:** source dates, confirmed receipts and PROME's due work are generated below. An owner result must be reconciled before a pending ledger entry is treated as unfinished work.
+- **Your large task (next session):** at 13:41 you said you have a big task for the next session. PROME boots, reports the owed work in one screen, and takes your brief before any owed item that the boot gate does not block on.
+- **BRENT's class question (WQ-234, due 9/18):** does ship-tracking data belong on a capital gate when the vendors disagree by more than the threshold? Rule the class, not the resolver; nothing is unguarded meanwhile.
+- **Guard convergence (WQ-263, 9/19):** the commit guards had five independent reads today and a false positive in every one; rec: pipeline wrapper advisory, subject guard blocking only on a literal `-m`; both stay blocking until your word.
+- **Kill-rule ruling (WQ-157, 9/19):** unchanged — PARK, successor test chosen at the sitting.
+- **Hands:** the account and fill time for the VLO share (not in the receipt); two more shares staged for your day.
+- **Regime:** BOJ +25bp to 1.25%, 7–2 with dovish dissents; yen weaker after; first clean SOFR−IORB pair −5bp. The market memo was amended twice today; it is over its rotate line and re-bases at the next boot after the close's amendment.
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **RED** · on your word, today or 9/18 · L376/L377: the FT-10 ^SKEW grade — a sub-150 9/16 bar exists on a non-registered source, so the 2-of-4 run may reset; only RED grades on the CBOE basis; plus the 9/18 leg-3 read with VIOLET.
-- **FERT** · on your word · L310 + GATE-FERT-G5: the 9/16 DTN print lapsed ungraded (re-dated 9/23); the desk is dark since 9/15.
-- **HENRY** · 9/18 · L383: the opex gamma re-measure; every wall before 9/16 is void; VIOLET's 9/18 read rides with it.
-- **REGINALD** · on your word · L352: its board_log is invisible to WALTER's telemetry; a fix at the desk, no date pressure.
-- **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask: HY 276 vs its 280 line, dark 20 days; no dated row names it.
-- **TERRY · OSPREY** · the morning slate · L379 (STATUS at cap, structural) · L397 + GATE-OSPREY-001 review 9/19.
-- **SAM** · at the next boot after the overnight BOJ decision · L34 names SAM; a due-row spawn under the standing rule, no word needed.
+- **HENRY** · next boot, no word needed (WQ-184 row L411) · the post-opex gamma board on the 9/18 close, read from history.
+- **VIOLET** · next boot, no word needed (L277) · the FOMC letter's leg-3 verdict on the 9/18 close; RED's pre-close half is already in its inbox.
+- **ANVIL** · next boot, no word needed (L424, a PROME instrument) · FORGE mirror of your VLO fill plus the TLT 85P row.
+- **DAEDALUS** · on your word · L40 (amendment-12 watch grade) · L263 (WQ-171 commission) · L380 (read-cap defects) — not spawned today: 2 of the day's 4 spawn slots were used and the early closeout, not the cap, is the reason; your word, else the 9/19 sitting.
+- **OSPREY** · on your word · L397: its gate review, overdue since 9/16.
+- **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask; no dated row names it.
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
