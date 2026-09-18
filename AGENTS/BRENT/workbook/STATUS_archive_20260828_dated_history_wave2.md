@@ -1,6 +1,6 @@
 # STATUS archive — BRENT dated-history rows 2026-08-27 → 2026-08-09, VERBATIM
 
-**Rotated 2026-08-28 ~13:4x ET (WAVE 2, PROME-relayed Will approval) · 86,674 B · `crc32 4bb7aad6` · contiguous `STATUS.md` lines 22–70 · VERBATIM, zero edits.**
+**Rotated 2026-08-28 ~13:4x ET (WAVE 2, PROME-relayed Will approval) · 88,876 B (UTF-8 payload after the first `---`, outer whitespace stripped; the original header said 86,674 B — that was a CHARACTER count, corrected 2026-09-18, payload untouched) · `crc32 4bb7aad6` · contiguous `STATUS.md` lines 22–70 · VERBATIM, zero edits.**
 
 **Why:** `STATUS.md` stood at **123,927 B = 234% of the ~54,250 B Read-tool cap**, so a boot `Read` truncated it silently — while **158 lines = 63% of the 250-line cap passed every line check.** ⛔ **PROSE ROTATION ONLY.** Everything load-bearing was kept live in `STATUS.md`: the full **BRT-26 ladder**, the **COT-FUEL-35B band and ladder**, the **JWC/JWLA baselines**, and **all 17 ⛔⛔ corrected-claim sentinels** as one-line tombstones. **No live state was rotated to hit a number** (WATT's rule); the Will-gated **byte-tier** half of DAEDALUS's plan remains untouched.
 
