@@ -1,0 +1,18 @@
+{
+ "attested_on": "2026-09-17",
+ "attester": "DAEDALUS",
+ "sha256": {
+  "CLAUDE.md": "09bc5feb3877f4fbebd989781b774727463c954622cad6d9ec3089c01cd5782b",
+  "AGENTS/DAEDALUS/CLAUDE.md": "9edeb69ec87a19040b5233f67d3f3909a12c8aa8414053624350514caddc94da",
+  "AGENTS/DAEDALUS/scripts/sweeps_due.py": "3d02bae3bb24ff130be14eb47f0d13a1e39e06b946f6de8d916585298940457e",
+  "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "fcb42a0ec2154eb099b90a0ad1d0d022e6f9b7011e83e7b84491c65682819644",
+  "scripts/corrections_boot_check.py": "3a88a236b6a9b8419ab58658c410a653293a56383d781ba15b2403549ce26651",
+  "scripts/read_cap_check.py": "91ceeae7421096cc3a9ea9eeba0f2b012dc74a4a31b6b1ff136380afc6dc1ef3",
+  "AGENTS/DAEDALUS/scripts/complete_check.py": "0edd1b6e3605a6e627da4553d6df18d81fa8a1da1a1f1ead9344275d519c66e4",
+  "AGENTS/DAEDALUS/scripts/verify_push.sh": "53c57c6eb10bac7998658f7558510e8c50a63becfa3358d49467b6db920513f3",
+  "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "68c5fff8596d2888a840382ecdcb8b1235bd152f969bdd8c3ada3722fabdbf7c",
+  "AGENTS/DAEDALUS/scripts/render_directory.py": "085d256e9674543a527aaddc666637204eee665985b538f016e0b6850982f3df",
+  "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py": "5271d0b4ca5070f4ce24ae3fc6edca18504254201e47e45fb05fc45ebf3892a1",
+  "PROME/ROSTER.md": "3a6427a6f146016ea09a758fa0e5c396943bad67c0a93f41408d7206ee37902b"
+ }
+}
