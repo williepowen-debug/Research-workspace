@@ -56,3 +56,33 @@ Seven-country group held October targets 9/6; next monthly meeting **10/4** (doc
 
 ## Sources
 CNBC 9/18 (403; figures via UPI/search snippet) · [UPI 9/18](https://www.upi.com/Top_News/World-News/2026/09/18/saudi-arabia-yemen-crude-oil/2891789703256/) · [Fortune 9/18](https://fortune.com/article/price-of-oil-09-18-2026/) · [financefeeds 9/18 02:48 ET](https://financefeeds.com/brent-crude-oil-price-102-saudi-east-west-pipeline-restart/) · [ENR 9/17](https://www.enr.com/articles/63668-saudi-aramco-works-to-bypass-damage-on-critical-east-west-oil-pipeline) · [Kpler blog 9/17](https://www.kpler.com/blog/yanbu-pipeline-attack-ripples-across-crude-freight-and-gas-markets) · [Al Jazeera 9/17](https://www.aljazeera.com/news/2026/9/17/from-yanbu-to-sohar-tracking-saudi-arabias-alternative-oil-routes) · [OilPrice 9/18](https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Exports-Rebound-at-Hormuz-While-East-West-Pipeline-Remains-Offline.html) · [Rigzone 9/17](https://www.rigzone.com/news/saudi_pipeline_outage_exposes_limits_of_supply_optionality-17-sep-2026-184640-article/) · [Saxo 9/16](https://www.home.saxo/en-mena/content/articles/commodities/saudi-pipeline-outage-sends-physical-crude-and-diesel-into-scarcity-pricing-16092026) · [KSAT/AP 9/18](https://www.ksat.com/news/world/2026/09/18/iran-says-it-strikes-an-oil-tanker-and-other-mideast-developments/) · [Korea Times/AFP 9/18](https://www.koreatimes.co.kr/world/20260918/iran-says-struck-oil-tanker-in-strait-of-hormuz) · [ABC 9/18](https://www.abc.net.au/news/2026-09-18/houthi-attacks-saudi-oil-world-markets/107168508) · [Rappler/AP 9/17](https://www.rappler.com/world/middle-east/saudis-houthis-exchange-strikes-yemenis-flee-middle-east-war-spreads-september-17-2026/) · [Cyprus Mail/Bloomberg 9/17](https://cyprus-mail.com/2026/09/17/russia-strikes-ukraine-as-kyiv-hits-russian-oil-refinery) · [OGJ 9/6](https://www.ogj.com/general-interest/economics-markets/news/55403398/opec-holds-october-production-targets-steady-as-focus-shifts-to-2027-quotas) · [JWLA-035 PDF](https://lmalloyds.com/wp-content/uploads/2026/09/JWLA-035-Black-Sea.pdf) · WALTER SIG-W-20260917-001/006/007 · ORACLE 9/17 packet · FALCON STATUS 9/17 · HAWK NEXUS_BRIEF 9/17.
+
+## 8. Japan replacement barrels — answer to SAM's routed question (added ~12:3x ET)
+
+**Trigger:** SAM correction packet 9/18 (`aaa9a9f54`): Japan's Middle-East share of crude imports fell from 91–95% (2025-04→2026-03) to **62.6% in Aug-2026** (customs *sokuho*). Verified at SAM's report. **No live BRENT surface carried the ~90% premise** — it sits only in FROZEN `FLOW-BRT-03` / `FLOW-BRT-19` / `KB-BRT-021` (March vintage, read-only by rule). SAM's +22% implied-premium flag is NOT inherited.
+
+**Primary [CONF METI Preliminary Report on Petroleum Statistics, "Import of Crude Oil by Source", newest month Jul-2026, fetched 9/18 with browser UA after a 403 on the default fetcher; basis = crude entering refineries/stockpiling bases/terminals, NOT customs clearance — so it is a different measurement lineage from SAM's 62.6%/59.3%, and it agrees: ME share 58.9% vs customs 59.3% for July].** Six area totals sum exactly to the 11,719,259 kl headline (flat-PDF alignment check passed). METI conversion 1 kl = 6.29 bbl; 31 days.
+
+| Source, Jul-2026 | kl | share | vs Jul-2025 (R.S.) | ≈ mb/d |
+|---|---|---|---|---|
+| **Total** | 11,719,259 | 100.0% | 117.0% | 2.38 |
+| Middle East | 6,897,089 | **58.9%** | 78.6% | 1.40 |
+| — Saudi Arabia (Arab-L 3,157,464 · Arab-S-L 47,416) | 3,204,880 | 27.3% | 92.6% | 0.65 |
+| — UAE (Murban 2,230,243 · DAS 960,043 · U-Zakum 318,043) | 3,508,329 | 29.9% | 81.6% | 0.71 |
+| — Oman | 183,880 | 1.6% | — | 0.04 |
+| — **Kuwait** | **0** | 0 | (Jul-25: 784,310, 7.8%) | 0 |
+| — **Qatar** | **0** | 0 | (Jul-25: 230,752, 2.3%) | 0 |
+| **United States** (WTI-Midland 2,825,294 · Mars 918,512 · WTL 433,515 · T-Horse 159,036) | **4,336,357** | **37.0%** | **460.6%** (Jul-25: 941,425, 9.4%) | **0.88** |
+| C&S America (Mexico Isthmus 165,473 · Ecuador Napo 205,436) | 370,909 | 3.2% | 215.8% | 0.08 |
+| SE Asia (Viet Nam Bach Ho) | 47,620 | 0.4% | 54.0% | 0.01 |
+| Africa (South Sudan) | 46,484 | 0.4% | — | 0.01 |
+| Oceania (Australia Pyrenees) | 20,800 | 0.2% | 50.3% | 0.00 |
+| Russia (Sakhalin) | 0 | 0 | 0 | 0 |
+
+**Findings.**
+1. **The replacement barrels are US crude, and it is one origin, not a basket:** USA 37.0% of July receipts (0.88 mb/d), **4.6× July 2025**, up from 32.3% in June (3,244,831 kl). Everything else non-ME sums to 4.2%. WTI-Midland alone is 24% of Japan's crude intake.
+2. **The Hormuz tell inside the ME number:** Kuwait and Qatar are **zero** in July (7.8% and 2.3% a year earlier). The surviving ME barrels are grades with non-Hormuz outlets — Murban/DAS (ADNOC, Fujairah via the ADCOP line) and Arab Light (Yanbu-capable) — plus Oman. ⚠️ Grade ≠ route: Arab Light can load at Ras Tanura too; METI does not carry the load port. But a Japan intake with Kuwait/Qatar at zero is what a Hormuz-routed loss looks like, and **Saudi barrels to Japan are therefore exposed to the Petroline shut** to whatever extent they were Yanbu-loaded — unquantifiable from this table.
+3. **Durability — SAM's actual question — is NOT answered by this table.** METI shows origin and grade, not contract form. What can be said: (a) the shift is three months deep (Jun 32.3% → Jul 37.0% US share) and WTI-Midland-led, which is the barrel US Gulf exporters sell on term as well as spot; (b) US crude is a long-haul, freight-heavy substitute, consistent with SAM's implied unit-cost flag rather than refuting it; (c) the reversal test is mechanical: **when Hormuz normalises, the first barrels back are Kuwait/Qatar (zero → non-zero) and the first to go are the marginal US spot cargoes.** ⇒ 62.6% is a **waypoint under a Hormuz constraint**, with the durable floor unknown; carry as SAM states it — a measured current value, not a constant.
+4. **Cross-desk:** HAWK (Hormuz-routed grade census — Kuwait/Qatar zero is a clean, primary, monthly instrument for "Hormuz-dependent barrels reaching Asia"), SAM (origin answer + basis caveat), FALCON (Fujairah/ADCOP leg carries Japan's largest surviving ME stream). **August METI table due ~late September/early October** — successor read registered as a dated item; not on the docket as a catalyst (no threshold).
+
+**Sources:** [METI index](https://www.meti.go.jp/english/statistics/tyo/sekiyuso/index.html) → `sekiyuso/pdf/h2j581011e.pdf` (Jul-2026 preliminary), parsed locally with pdfminer; SAM `AGENTS/SAM/reports/2026-09-18_me-crude-substitution.md`.
