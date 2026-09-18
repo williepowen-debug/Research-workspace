@@ -5,3 +5,4 @@ report_date	mm_short	mm_long	open_interest	oi_share_pct	source	recorded_at	note
 2026-08-25	112862	196882	1906740	5.9191	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
 2026-09-01	111019	205300	1921085	5.7790	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
 2026-09-08	107229	218960	1939911	5.5275	ARCHIVE fut_disagg_txt_2026.zip	2026-09-18	seed
+2026-09-15	115617	221896	1955764	5.9116	LIVE f_disagg.txt	2026-09-18T15:30:53-0400	graded NO-VERDICT

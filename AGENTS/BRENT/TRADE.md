@@ -9,6 +9,7 @@
 Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** Existing confirmed-destroyed-capacity frame-breaker handling remains binding; a quote or source failure does not meet it. No new proposal or capital action. Market evidence: `setups/2026-09-08_market-docket-owner-read.md`.
 
 ### 🔓 FRAME-BREAKER STATE — 2026-09-11 (letter: [BG-02](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints))
+> **2026-09-18 pointer (no rule change):** successor-resolver PROPOSAL filed to Will via PROME — `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md` (two-of-three evidence classes; tracker class confirm-only; recommends the 9/25 window LAPSE per the letter). Dual-tracker rules 1–6 and `R-CURVE-VETO` below are UNCHANGED and remain the binding form through 9/25 17:00 ET. Tanker `Trend` struck/detained in Hormuz 9/18: cargo state UNKNOWN ⇒ carve-out NOT MET on available facts, not graded.
 
 **⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **Historical September 11 assessment; the statement-absence assertion was RETRACTED September 12. Current grounds are in BG-02 RE-GRADE 2026-09-12 below; the September 11 paragraph is not a current evidence assessment.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
 
