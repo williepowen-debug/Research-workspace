@@ -479,6 +479,7 @@ def build_prices():
     except Exception as e:
         print(f"  ⚠️  price fetch failed: {e} (FRED dashboards still render below).")
         return
+    stale = {}
     for ticker, dash, label, check in PRICE_SPECS:
         d = res.get(ticker, {})
         if "error" in d:
@@ -492,7 +493,48 @@ def build_prices():
         if chg is not None:
             disp += f" ({chg:+.2f}%)"
         head = label in ("USD/JPY",)
-        add(dash, label, disp, m, n, "last close", headline=head)
+        # ---- BASIS REPAIR 2026-09-17 #2 (KB-LIQ-130; hazard supplied by VIOLET via
+        # WALTER SIG-W-20260917-010). This row stamped the literal string "last close"
+        # and DISCARDED FORGE's verified `asof`. yfinance `fast_info` SILENTLY
+        # FILL-FORWARDS the prior session on a pre-open / off-RTH pull, with no
+        # staleness signal, so "last close" was an ASSERTION about a date this script
+        # never checked -- on a pre-open boot it names the wrong session and nothing
+        # in the brief disagrees. FORGE fetch.py ALREADY verifies the date against a
+        # dated history() bar and returns it; the truth was being computed upstream
+        # and thrown away here. Same family as the IORB repair above: a value rendered
+        # without its real observation date, failing silent and benign.
+        asof = d.get("asof")
+        if not asof:
+            m, n = "⚪", (f"DATE UNVERIFIED — vendor would not confirm the bar date; the price is kept "
+                         f"(FORGE fail-safe) but is NOT graded. {n}")
+            asof = "date?"
+        else:
+            stale.setdefault(asof, []).append(label)
+        add(dash, label, disp, m, n, asof, headline=head)
+    # A split WITHIN one session calendar is the fill-forward signature. A split BETWEEN
+    # calendars is not: FX (JPY=X) and futures (BZ=F) trade ~24h and roll into the next
+    # session hours before US cash equities do, so an evening boot ALWAYS shows them a day
+    # ahead. This guard's v1 (written minutes earlier) compared the whole batch and fired
+    # 🟠 on that benign, structural difference on its FIRST real run — i.e. it would have
+    # cried wolf on every post-close boot, which is when I boot. Scope the comparison to
+    # the US cash-equity group; report the others' dates without grading them.
+    # [[finding_test_the_guard_not_just_the_guarded]]
+    EQUITY_CAL = {"APO", "BIZD", "VIX", "HYG", "TLT"}      # one NYSE/Cboe session
+    eq = {d_: [l for l in ls if l in EQUITY_CAL] for d_, ls in stale.items()}
+    eq = {d_: ls for d_, ls in eq.items() if ls}
+    if len(eq) > 1:
+        newest = max(eq)
+        add("DOMESTIC", "⚠️ PRICE BASIS SPLIT", f"{len(eq)} session dates", "🟠",
+            f"US cash-equity tickers did NOT all come from one session — newest {newest} "
+            f"({', '.join(eq[newest])}); "
+            + "; ".join(f"{d_}: {', '.join(ls)}" for d_, ls in sorted(eq.items()) if d_ != newest)
+            + ". On a pre-open/off-RTH pull yfinance fill-forwards the prior session silently "
+              "(VIOLET via WALTER SIG-W-20260917-010) — grade off the DATED bar, never an intraday witness")
+    elif len(stale) > 1:
+        add("DOMESTIC", "price basis (multi-calendar)", f"{len(stale)} session dates", "⚪",
+            "; ".join(f"{d_}: {', '.join(ls)}" for d_, ls in sorted(stale.items()))
+            + " — EXPECTED: FX/futures roll into the next session ahead of US cash equities. "
+              "Not a staleness flag; declare the date when citing across the two")
 
 
 # ---------------------------------------------------------------------------
