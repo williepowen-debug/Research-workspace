@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-09-16.** Derived from both commissioned September16 owner reports and source ledgers. HAWK does not independently maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits: `research/2026-09-16_cross-war-oil-review.md`.
+**Regenerated: 2026-09-18** (prior pass September16). Derived from both commissioned September16 owner reports and source ledgers, plus the September17–18 items in §September18 below. ⚠️ **This pass read the owners' OWN headers and ledger tails, not just row counts** — which is how the Yaroslavl gap below was found (the 2026-07-25 lesson: a 13-day-stale claim about a sibling's state that a row count would never have surfaced). HAWK does not independently maintain either theater's events. Exact committed report pins, event/publication/retrieval dates and access limits: `research/2026-09-16_cross-war-oil-review.md`.
 
 ## Reconciled current read
 
@@ -14,6 +14,18 @@
 | Bab / hulls | Territorial changes plus current tanker-count observations; no new generalized enforced closure established. EL GAIA date/attribution unresolved; St Helena separate. | Control is not execution. Hull incidents are not facility losses or bpd. Route-specific denial can coexist with aggregate traffic. |
 
 **Counts:** OSPREY106 mixed strike/maritime rows; FALCON41 facility rows and33 separate hull-incident rows, counted September16. These are heterogeneous ledger entries, not a complete current census or additive lost-capacity totals. Newly reported events may be in the owner report before a separate facility/hull ledger is updated; the report's explicit coverage governs.
+
+## September18 refresh — what moved in the two days since regeneration
+
+**⚠️ OSPREY-side event NOT YET IN THE OWNER'S LEDGER — flagged, not adopted, not logged by HAWK.** Ukrainian drones struck the **Yaroslavl (YANOS) refinery overnight 2026-09-17**; Reuters industry sources report crude processing **completely halted**; ~300 kb/d, Rosneft/Gazprom Neft JV, supplies the Moscow region. Rostov-on-Don airfield hit the same night (3 aircraft + 3 helicopters per SBU/General Staff). **OSPREY's `STRIKES.tsv` tail still ends at RU-20260915-SYZRAN / RU-20260913-KOMYSH**, and OSPREY's surfaces are unchanged since 2026-09-16 15:53 (`ba3898d86`). **BRENT already carries it** and has explicitly **deferred the facility-damage row to OSPREY's confirmation**, so a consumer is waiting on the owner. HAWK has packeted OSPREY and has **not** written to OSPREY's ledger. ⛔ **This aggregate does not adopt the event into a count** — it is recorded as an owner-pending item, because a derived surface that starts logging its sources' events has stopped being derived.
+
+**Counts therefore UNCHANGED from September16** (OSPREY 106 mixed rows; FALCON 41 facility + 33 hull). **Do not read the unchanged count as "no events" — it means the owners' ledgers have not advanced**, which for OSPREY is now demonstrably not the same thing. That distinction is the entire reason this line exists.
+
+**Saudi transport chain, two days on.** Petroline day 8. Pump stations 8 and 9 reported damaged; Saudi MoE says the drones came from **Iraq**; **no operator restart timeline issued**. Kpler 9/17: no crude loaded at Yanbu since 9/11, terminal stock 3–5 days of loadings, ~4.5 mb/d of exports halted. ⛔ **That 4.5 is a GROSS vendor estimate of the Yanbu export base and is NOT net missing crude** — Ras Tanura + Juaymah loadings doubled to ~4 mb/d and ~60M bbl was sold from Ras Tanura for Sep/Oct loading via STS off Sohar. **Net missing Saudi barrels remains UNKNOWN**, unchanged in substance from September16; what is new is that an offsetting flow is now documented, so the gross figure has a known direction of overstatement. ⛔ **Force majeure still NOT declared** — kill-on-sight holds; FALCON graded FAL-05 on 2026-09-17 with **all three routes UNFIRED**, row standing at 55% to 10/07.
+
+**Route interaction — the correction that matters for this table.** The Sohar STS arrangement is a **HAND-OFF, NOT A BYPASS: the shuttle tankers still transit Hormuz.** It is *more* cargo through the same chokepoint, not cargo around it. **Petroline's function is not replaced**, and any reading of the STS offer as restored bypass capacity is wrong. Yanbu northbound via Suez/SUMED still avoids Bab; that leg is unchanged.
+
+**Russian side, two days on.** Products impairment deepens (Yaroslavl is the third large refinery in a week alongside Syzran and Saratov) while the crude-export counter-signal is unchanged at 3.54 mb/d four-week to 9/13. ⛔ **Still no pooled lost-barrel figure across the two wars**: Russia's damage is PRODUCTS, Saudi's is CRUDE TRANSPORT. Different mechanisms, different molecules, not additive. Trump's claimed 9/14 energy-strike truce is confirmed by neither side and both struck energy the same night.
 
 ## Corrections to HAWK's September11 carry
 
