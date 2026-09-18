@@ -97,7 +97,9 @@ _ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
                        r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
                        r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
-                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b"      # 19 Sep
+                       r"|\b\d{4}/\d{1,2}/\d{1,2}\b"                                           # 2026/09/19
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}\b", re.I)  # May 2026
 
 
 def datelike_not_iso(raw):
@@ -260,12 +262,14 @@ def parse_actions():
             continue
         if hdr is None:                                  # B2: the FIRST table row is the header
             hdr = len(c)
+            if hdr != 7:                                 # B8: width is a contract — one named failure, the table skipped, never indexed
+                fail("what you do", "PROME/WILL_QUEUE.md", f"§ OPEN header has {hdr} columns (the table is 7) — table skipped")
             continue
-        if len(c) != hdr:                                # B2: skipped BY NAME, never parsed shifted
+        if hdr != 7:
+            continue
+        if len(c) != hdr:                                # B2: skipped BY NAME (a PARSE-FAILED entry on the brief), never parsed shifted
             fail("what you do", "PROME/WILL_QUEUE.md", f"SHIFTED row WQ-{c[0][:8]}: {len(c)} cells vs header {hdr} — an unescaped | inside a cell; write it \\|")
             continue
-        if re.match(r"\d", c[0]) and datelike_not_iso(c[3]):   # B3: rendered undated WITH a named failure
-            fail("what you do", "PROME/WILL_QUEUE.md", f"NOT-ISO needed-by on WQ-{c[0]}: '{c[3][:24]}' (hard dates are YYYY-MM-DD) — renders undated")
         # `^\d` not .isdigit() — mirror of prome_gate.py's 8/16 lettered-ID
         # fix (32b-class rows failed .isdigit() and vanished from the brief
         # while the gate counted them: split-brain, RAV catch 8/16). The
@@ -282,6 +286,8 @@ def parse_actions():
         if re.match(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b", item_lead):
             continue
         raw = c[3]
+        if datelike_not_iso(raw):                        # B3: rendered undated WITH a named failure; AFTER the closed-in-place skip (parity)
+            fail("what you do", "PROME/WILL_QUEUE.md", f"NOT-ISO needed-by on WQ-{c[0]}: '{raw[:24]}' (hard dates are YYYY-MM-DD) — renders undated")
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
         kind = re.sub(r"\*\*|`", "", c[2]).strip().upper()
         row = {

@@ -151,7 +151,9 @@ _ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
                        r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
                        r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
-                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b"      # 19 Sep
+                       r"|\b\d{4}/\d{1,2}/\d{1,2}\b"                                           # 2026/09/19
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}\b", re.I)  # May 2026
 
 
 def datelike_not_iso(raw):
@@ -485,6 +487,7 @@ def check_will_queue():
     ISO dates in the Needed-by column and the content-vintage stamp
     (finding_hygiene_commit_rearms_the_staleness_lie — never key on mtime)."""
     path = ROOT / "PROME/WILL_QUEUE.md"
+    check_will_queue.last_problems = []                  # reset at ENTRY so a stale list never survives an early return (parserfix2cold ⚠️)
     if not path.exists():
         record(ADVISE, "WILL_QUEUE present", False, "PROME/WILL_QUEUE.md missing",
                "PROME/WILL_QUEUE.md")
@@ -541,12 +544,14 @@ def check_will_queue():
                 continue
             if hdr_open is None:                         # B2: the FIRST table row is the header
                 hdr_open = len(cells)
+                if hdr_open != 7:                        # B8: width is a contract — flagged once, the table skipped, never indexed or silently zeroed
+                    problems.append(f"HEADER {hdr_open} columns in § OPEN (the table is 7) — table skipped, nothing counted")
+                continue
+            if hdr_open != 7:
                 continue
             if len(cells) != hdr_open:                   # B2: flagged BY NAME and excluded from the count, never parsed shifted
                 problems.append(f"SHIFTED #{cells[0][:8]} ({len(cells)} cells vs header {hdr_open}) — an unescaped | inside a cell; write it \\|")
                 continue
-            if re.match(r"\d", cells[0]) and datelike_not_iso(cells[3]):   # B3: flagged, still counted
-                problems.append(f"NOT-ISO #{cells[0]} needed-by '{cells[3][:24]}' (hard dates are YYYY-MM-DD)")
         if section == "open" and len(cells) >= 7:
             # Keys on the DOCUMENTED wait-declaration at the START of the Notes
             # cell — see the twin comment in will_brief.parse_actions(). WILL_QUEUE
@@ -572,6 +577,8 @@ def check_will_queue():
                     f"MISFILED #{cells[0]} {cells[1][:30]} "
                     "(closed-in-place in OPEN — move to RECENTLY DONE)")
                 continue
+            if re.match(r"\d", cells[0]) and datelike_not_iso(cells[3]):   # B3: flagged by name, still counted; AFTER the closed-in-place exclusion (parity)
+                problems.append(f"NOT-ISO #{cells[0]} needed-by '{cells[3][:24]}' (hard dates are YYYY-MM-DD)")
             d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
             if d:
                 dd = dt.date.fromisoformat(d.group(0))

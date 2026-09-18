@@ -79,7 +79,9 @@ _ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
                        r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
                        r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
-                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b"      # 19 Sep
+                       r"|\b\d{4}/\d{1,2}/\d{1,2}\b"                                           # 2026/09/19
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}\b", re.I)  # May 2026
 
 
 def datelike_not_iso(raw):
@@ -195,18 +197,22 @@ def parse_open(text: str) -> list[dict]:
             continue
         if hdr is None:                                  # B2: the FIRST table row is the header
             hdr = len(c)
+            if hdr != 7:                                 # B8: width is a contract — one warning, the table skipped, never indexed
+                print(f"⚠️ decision_deck: § OPEN header has {hdr} columns (the table is 7) — table skipped", file=sys.stderr)
+            continue
+        if hdr != 7:
             continue
         if len(c) != hdr:                                # B2: skipped BY NAME on stderr — the Deck never renders a shifted row
             print(f"⚠️ decision_deck: SHIFTED row WQ-{c[0][:8]} ({len(c)} cells vs header {hdr}) skipped — an unescaped | inside a cell; write it \\|", file=sys.stderr)
             continue
         if not re.match(r"\d", c[0]):
             continue
-        if datelike_not_iso(c[3]):                       # B3: rendered undated WITH a named warning (the Deck never goes dark over one cell)
-            print(f"⚠️ decision_deck: NOT-ISO needed-by on WQ-{c[0]}: '{c[3][:24]}' — renders undated; write YYYY-MM-DD", file=sys.stderr)
         lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
         lead = re.sub(r"^[\*\s]+", "", lead)
         if re.match(r"✅|DONE\b|RESOLVED\b|TERMINAL\b|DECLINED\b", lead):
             continue  # closed-in-place (mirrors will_brief/prome_gate)
+        if datelike_not_iso(c[3]):                       # B3: rendered undated WITH a named warning; AFTER the closed-in-place skip (parity)
+            print(f"⚠️ decision_deck: NOT-ISO needed-by on WQ-{c[0]}: '{c[3][:24]}' — renders undated; write YYYY-MM-DD", file=sys.stderr)
         rows.append({
             "n": c[0], "item": c[1], "kind": strip_md(c[2]), "by_raw": c[3],
             "by": first_date(c[3]), "since": strip_md(c[4]), "rec": c[5],

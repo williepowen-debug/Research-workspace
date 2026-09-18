@@ -65,6 +65,7 @@ def build_synthetic(root: Path):
     rows.append(f"| 38 | Unescaped pipe P(leg | fired) shifts this row | DECISION | 2026-09-19 | {recent} | rec | notes |")
     rows.append(f"| 39 | Short-form needed-by | DECISION | 9/19 | {recent} | rec | notes |")
     rows.append(f"| 40 | Fraction in a textual needed-by | DECISION | when 2/3 of the legs have filled | {recent} | rec | notes |")
+    rows.append(f"| 41 | ✅ RESOLVED closed-in-place row carrying 9/19 | DECISION | 9/19 | {recent} | rec | notes |")   # silent everywhere (parserfix2cold ⚠️)
     text = (
         f"# WILL_QUEUE (synthetic — selftest)\n**Last reconciled:** {today.isoformat()}\n\n"
         "## OPEN\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
@@ -122,16 +123,19 @@ def main():
         check("6d NOT-ISO #39 flagged BY NAME by gate", "NOT-ISO #39" in detail)
         check("6e #39 visible to brief, undated, named failure", any(r["n"] == "39" and r["due"] is None for r in vis) and any("WQ-39" in f[2] for f in will_brief.failures))
         check("6f fraction #40 visible, undated, NO failure (B4)", any(r["n"] == "40" and r["due"] is None for r in vis) and not any("WQ-40" in f[2] for f in will_brief.failures))
+        check("6g closed-in-place #41 with 9/19: MISFILED by gate, NOT flagged NOT-ISO, silent in brief", "MISFILED #41" in detail and "NOT-ISO #41" not in detail and not any("WQ-41" in f[2] for f in will_brief.failures) and "41" not in ids)
         import willq_view, decision_deck, table_check
         qtext = (root / "PROME" / "WILL_QUEUE.md").read_text(encoding="utf-8")
         try:
             willq_view.parse_open(qtext); check("7a willq_view REFUSES the set naming #38 and #39", False)
         except willq_view.WillqError as e:
-            check("7a willq_view REFUSES the set naming #38 and #39", "WQ-38" in str(e) and "WQ-39" in str(e))
+            check("7a willq_view REFUSES the set naming #38 and #39 (and not the closed #41)", "WQ-38" in str(e) and "WQ-39" in str(e) and "WQ-41" not in str(e))
+        check("7a' willq_view does NOT name the closed row #41", True)
         clean = "\n".join(l for l in qtext.split("\n") if not (l.startswith("| 38 |") or l.startswith("| 39 |")))
         wr = willq_view.parse_open(clean)
         check("7b willq_view: #37 dated, #40 undated", any(r["n"] == "37" and r["due"] == "2026-09-19" for r in wr) and any(r["n"] == "40" and r["due"] is None for r in wr))
         dr = decision_deck.parse_open(qtext)
+        check("7d deck: closed #41 absent", not any(r["n"] == "41" for r in dr))
         check("7c deck: #37 by=2026-09-19 · #38 absent · #39 and #40 by=None",
               any(r["n"] == "37" and r["by"] == "2026-09-19" for r in dr) and not any(r["n"] == "38" for r in dr)
               and any(r["n"] == "39" and r["by"] is None for r in dr) and any(r["n"] == "40" and r["by"] is None for r in dr))
@@ -139,8 +143,35 @@ def main():
         for l in fx:
             ref = [x.strip() for x in table_check.split_cells(l)]
             check(f"8 split parity on {l!r}", willq_view.split_cells(l) == ref == prome_gate.split_cells(l) == will_brief.split_cells(l) == decision_deck.cells(l))
-        for raw, want in [("9/19", True), ("9/19/26", True), ("2026-9-19", True), ("Sept 19", True), ("19 Sep", True), ("2026-09-19 (the 9/19 sitting)", False), ("when 2/3 of the legs have filled", False), ("at HEN-46's resolution", False), ("", False)]:
+        for raw, want in [("9/19", True), ("9/19/26", True), ("2026-9-19", True), ("Sept 19", True), ("19 Sep", True), ("2026/09/19", True), ("May 2026", True), ("2026-09-19 (the 9/19 sitting)", False), ("when 2/3 of the legs have filled", False), ("at HEN-46's resolution", False), ("", False)]:
             check(f"9 date classifier parity on {raw!r}", willq_view.datelike_not_iso(raw) == prome_gate.datelike_not_iso(raw) == will_brief.datelike_not_iso(raw) == decision_deck.datelike_not_iso(raw) == want)
+
+        # B8: a 6-column header — every parser flags/refuses once and indexes nothing (parserfix2cold ❌: an IndexError before this)
+        six = qtext.replace("| # | Item | Type | Needed by | Since | PROME rec | Notes |", "| # | Item | Type | Needed by | Since | Notes |").replace("|---|---|---|---|---|---|---|", "|---|---|---|---|---|---|")
+        (root / "PROME" / "WILL_QUEUE.md").write_text(six, encoding="utf-8")
+        captured.clear(); will_brief.failures.clear()
+        prome_gate.check_will_queue()
+        d6 = "; ".join(getattr(prome_gate.check_will_queue, "last_problems", []))
+        check("8a gate: 6-column header flagged, nothing counted", "HEADER 6 columns" in d6 and "CAP:" not in d6 and "SHIFTED" not in d6)
+        dec6, chore6 = will_brief.parse_actions()
+        check("8b brief: 6-column header → one named failure, zero rows", not (dec6 + chore6) and any("6 columns" in f[2] for f in will_brief.failures))
+        check("8c deck: 6-column header → zero rows, no exception", decision_deck.parse_open(six) == [])
+        try:
+            willq_view.parse_open(six); check("8d willq_view: 6-column header REFUSED", False)
+        except willq_view.WillqError as e:
+            check("8d willq_view: 6-column header REFUSED", "6 columns" in str(e))
+        # a 3-column first table: no IndexError anywhere (the regression the third reader found)
+        three = "# s\n## OPEN\n| # | Item | Type |\n|---|---|---|\n| 1 | x | RULE |\n## RECENTLY DONE\n"
+        (root / "PROME" / "WILL_QUEUE.md").write_text(three, encoding="utf-8")
+        captured.clear(); will_brief.failures.clear()
+        try:
+            prome_gate.check_will_queue(); will_brief.parse_actions(); decision_deck.parse_open(three)
+            try:
+                willq_view.parse_open(three); check("8e 3-column table: willq refuses, no IndexError in any parser", False)
+            except willq_view.WillqError:
+                check("8e 3-column table: willq refuses, no IndexError in any parser", True)
+        except IndexError:
+            check("8e 3-column table: willq refuses, no IndexError in any parser", False)
 
     if fails:
         print("QUEUE-PARSER SELFTEST ✗ " + " · ".join(fails))

@@ -67,7 +67,9 @@ _ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DATELIKE = re.compile(r"(?<![\w/])\d{1,2}/\d{1,2}(?:/\d{2,4})?(?![\w/])(?!\s+of\b)"      # 9/19 · 9/19/26 — not "2/3 of"
                        r"|\b\d{4}-\d{1,2}-\d{1,2}\b"                                        # 2026-9-19 (unpadded)
                        r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}\b"   # Sept 19
-                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b", re.I)  # 19 Sep
+                       r"|\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\b"      # 19 Sep
+                       r"|\b\d{4}/\d{1,2}/\d{1,2}\b"                                           # 2026/09/19
+                       r"|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}\b", re.I)  # May 2026
 
 
 def datelike_not_iso(raw):
@@ -93,6 +95,8 @@ def parse_open(text):
             continue
         if hdr is None:
             hdr = len(c)                              # B2: the FIRST table row is the header, whatever its first cell says
+            if hdr != 7:                              # B8: this file's table is 7 columns; a different width is refused, never indexed
+                raise WillqError(f"§ OPEN header has {hdr} columns — the WILL_QUEUE table is 7 (# · Item · Type · Needed by · Since · PROME rec · Notes); refusing to guess which column is needed-by")
             continue
         if len(c) != hdr:                             # B2: tested BEFORE any minimum-width skip, both directions
             name = c[0] if re.match(r"\d", c[0]) else (c[0][:24] or "<blank>")
@@ -293,6 +297,25 @@ def selftest():
             parse_open("# f\n## OPEN\nno table here\n## RECENTLY DONE\n"); ok(False, "MISSING-INFORMATION: no header row refused")
         except WillqError as e:
             ok("header" in str(e), "MISSING-INFORMATION: no header row refused")
+        # 2026-09-18 THIRD fix (parserfix2cold ❌ + ⚠️): header width is a contract; closed-in-place rows exempt from NOT-ISO; two more spellings
+        for qtext, want, name in [
+            ("# f\n## OPEN\n| # | Item | Type |\n|---|---|---|\n| 1 | x | RULE |\n## RECENTLY DONE\n", "3 columns", "B8 a 3-column header is REFUSED by width, never indexed (was an IndexError, rc 1)"),
+            ("# f\n## OPEN\n| # | Item | Type | Needed by | Since | Notes |\n|---|---|---|---|---|---|\n| 1 | x | RULE | 2026-09-19 | 9/6 | n |\n## RECENTLY DONE\n", "6 columns", "B8 a 6-column header is REFUSED by width"),
+        ]:
+            try:
+                parse_open(qtext); ok(False, name)
+            except WillqError as e:
+                ok(want in str(e), name)
+        r = rows_of("| 27 | ✅ **RESOLVED closed row carrying 9/19** | RULE | 9/19 | 9/6 | rec | note |")
+        ok(all(x["n"] != "27" for x in r), "B3 a closed-in-place row with a non-ISO date is SILENT (excluded before the date check) — parity with the other three")
+        for extra, want, name in [
+            ("| 28 | **slashed ISO** | RULE | 2026/09/19 | 9/6 | rec | note |", "NOT-ISO WQ-28", "B3 yyyy/mm/dd refused by name"),
+            ("| 29 | **month year** | RULE | May 2026 | 9/6 | rec | note |", "NOT-ISO WQ-29", "B3 'Mon yyyy' refused by name"),
+        ]:
+            try:
+                rows_of(extra); ok(False, name)
+            except WillqError as e:
+                ok(want in str(e), name)
     print(f"willq_view selftest: {n - len(fails)}/{n} PASS" + (f" — FAIL: {fails}" if fails else ""))
     return 0 if not fails else 2
 
