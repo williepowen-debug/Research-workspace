@@ -4,6 +4,8 @@
 
 ## Current assignment and approvals
 
+**Latest — boot/closeout comparison:** [Analysis](runs/2026-09-17_boot-closeout-comparison.md). Broad contrast useful, but PROME symmetry advisory/lexical; DAEDALUS already has conditional blind-review and mechanical pairing controls; subject matching is heuristic and shared safe-push already fresh-verifies with unknown state. Recommend declared reads + compact instructions, then thin receipt runner, enforce existing review triggers rather than automatic CATO/ARGUS every closeout. No implementation or owner edits/messages. Review complete; next await Will.
+
 **Latest — PROME 14:13 review follow-up:** [Update](runs/2026-09-17_prome-1413-followup.md), through 8f026c81e. Dedicated L408 review now ran and corrections landed; funding-null wording withdrawn at BOND/PROME; L407 honestly IN PROGRESS pending outputs. New MDE curve remains author-only and uses alpha .05 vs registered .01; no exact power certification. Thirteen history receipts and ORCH schema pass. No owner edits/messages. Review complete; next await Will, or verify final closeout if assigned.
 
 **Latest — PROME post-09:53 completed-work review:** [Report](runs/2026-09-17_1413_prome-completed-work-review.md), snapshot 4693d6817. L407 readers and corrections evidenced; L408 independent result review not found in their scopes. Funding-study “adequately-powered null” exceeds its n>=10 rule; HEARTBEAT repeats it. L407 RESOLVED precedes declared closeout render/check completion; respect bounded read budget while stating final-byte review limits. ORCH schema and ten archive crc/length receipts pass. No owner edits/messages. Review complete; next orient and await Will. DAEDALUS b8dc88fa1 is a newer correction, not assessed in this pass.
