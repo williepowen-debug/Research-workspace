@@ -1,0 +1,18 @@
+HOOK harmless echo: block
+HOOK runtime subject: rc= 0 advisory= ''
+BOND on 9/23 with 3 published sessions: ['⇒ BND-26 = TRUE — no session in the window reached 4.95']
+BOND on 9/23 with 2 published sessions: ['⇒ VOID-INSUFFICIENT-PUBLICATION — fewer than three gradeable sessions']
+GATE probe — DAEDALUS · 20260918T150621Z · HEAD 7971fe0c0
+  ✅ T0  CLEAN           fixture clean
+      ↳ fixture
+
+GATE probe rc=0 · checked: 1 steps ['T0'] · NOT checked (declared/enumerated only): [] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: CLEAN 1
+  receipt: /tmp/cato-system-review-29z__vth/receipts/20260918T150621Z_probe.json (sha 7d2f31f0) — fingerprint 8cda832bd827
+  logged: /tmp/cato-system-review-29z__vth/repo/AGENTS/DAEDALUS/runs/GATE_LOG.tsv (the only tree write this runner makes)
+❌ INVALIDATED — tree changed (own dir / scripts diff or untracked set). Re-run the gate; do not cite this receipt.
+GATE immediately after default log append: verify rc= 1
+GATE checked PROME/DOCKET input mutation changes fingerprint: False
+GATE consumer child rc 127: ('CLEAN', 'no stale consumer of the superseded figure(s)') reported rc= 0
+All independent counterexamples reproduced; these are defects, not passing acceptance tests.
+ORACLE isolated selector checks PASS: mixed ladder chooses live; all-resolved retained; empty handled.

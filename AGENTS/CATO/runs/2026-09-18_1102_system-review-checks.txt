@@ -1,0 +1,231 @@
+$ python3 PROME/tools/hooks/commit_subject_guard.py --selftest
+rc=0
+⚠️ commit_subject_guard: TypeError: hook input is list, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244). validate_all C1 measures after the fact.
+⚠️ commit_subject_guard: TypeError: hook input is NoneType, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244). validate_all C1 measures after the fact.
+⚠️ commit_subject_guard: TypeError: hook input is str, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244). validate_all C1 measures after the fact.
+⚠️ commit_subject_guard: TypeError: hook input is int, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244). validate_all C1 measures after the fact.
+⚠️ commit_subject_guard: TypeError: tool_input is str, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244). validate_all C1 measures after the fact.
+⛔ commit_subject_guard BLOCKED: subject is 115 chars, cap 100 (root CLAUDE.md Git Protocol 4d / WQ-171 ①; blocking per WQ-244, Will 2026-09-17).
+   subject: «PROME -> VIOLET: WQ-258 LAPSED (no word before the 9/18 open) — disposition returned per L413; L415 + queue updated»
+   (measured from -m, as `git log --format=%s` would measure it)
+   The subject NAMES the change; receipts, counts, shas and provenance go in the BODY. Cut it to ≤100 characters and re-run.
+  ✓ block   want=block    A1 ordinary — VERBATIM 115-char subject from this morning, -m
+  ✓ allow   want=allow    A2 ordinary — short -m
+  ✓ allow   want=allow    A2 — exactly 100 CHARACTERS (111 bytes): chars, not bytes
+  ✓ block   want=block    A1 — 101 chars, one over
+  ✓ block   want=block    A3 — -F with the heredoc written IN THIS COMMAND (house style), quoted $VAR path
+  ✓ allow   want=allow    A3 — heredoc short subject, unquoted $VAR path
+  ✓ block   want=block    A3 — -F literal path already on disk, long
+  ✓ allow   want=allow    A3 — -F literal path on disk, short
+  ✓ unknown want=unknown  A3 missing information — $VAR path, no heredoc, no file ⇒ UNKNOWN (allow + advisory)
+  ✓ unknown want=unknown  wrong owner — heredoc targets a DIFFERENT file than -F names ⇒ not used, UNKNOWN
+  ✓ allow   want=allow    A4 — `git commit -m <long>` appears ONLY inside a heredoc body (prose)
+  ✓ unknown want=unknown  editor commit — nothing to measure ⇒ UNKNOWN
+  ✓ unknown want=unknown  -C reuse ⇒ UNKNOWN
+  ✓ allow   want=allow    no real git commit — the phrase sits inside an echo string
+  ✓ block   want=block    git global option before commit is still scanned
+  ✓ block   want=block    --message= form
+  ✓ block   want=block    -m<msg> attached form
+  ✓ allow   want=allow    A7 overlap — two-line first paragraph joins to 55 chars ⇒ allow
+  ✓ block   want=block    A7 overlap — two-line first paragraph JOINS to 121 chars ⇒ block, as %s would
+  ✓ allow   want=allow    overlap — -m twice: the FIRST is the subject, the second a body paragraph
+  ✓ block   want=block    overlap — two commits in one command, the second is over
+  ✓ allow   want=allow    PERIMETER — message assembled at runtime is a 5-char literal `$MSG` to this hook; allowed, validate_all C1 catches it
+  ✓ unknown want=unknown  A5 — shlex failure ⇒ UNKNOWN, allow + advisory, no exception
+  ✓ allow   want=allow    no git at all — fast path
+  ✓ malformed hook input []                         -> rc 0, no exception
+  ✓ malformed hook input None                       -> rc 0, no exception
+  ✓ malformed hook input ok                         -> rc 0, no exception
+  ✓ malformed hook input 3                          -> rc 0, no exception
+  ✓ malformed hook input {'tool_name': 'Bash'}      -> rc 0, no exception
+  ✓ malformed hook input {'tool_name': 'Bash', 't   -> rc 0, no exception
+  ✓ _handle on a 115-char subject -> rc 2 (BLOCK)
+  ✓ non-Bash tool -> rc 0
+✅ COMMIT-SUBJECT-GUARD SELFTEST 32/32 drill(s) behaved
+
+
+$ python3 PROME/tools/hooks/pipeline_rc_block.py --selftest
+rc=0
+⚠️  pipeline_rc_guard: `$?` here reports the PAGER, not `boot_session`.
+   In a pipeline `$?` is the LAST element's status — `tail`/`head` exit 0 whatever the
+   gate did, and `grep` exits 0/1 for MATCH, which reads plausible and is not the gate's
+   verdict. A failing gate will be recorded as a pass.
+   FIX (either): `cmd | tail -80; echo "RC=${PIPESTATUS[0]}"`
+             or: `set -o pipefail` before the pipeline
+       or best: read the rc BARE first, then pipe for display:
+                `out=$(cmd 2>&1); rc=$?; printf '%s\n' "$out" | tail -80; echo "RC=$rc"`
+   (CHECK_STANDARD §14(b). Measured 2026-09-12: this rule is written in four canon
+    surfaces and was still walked into twice in one session, hours apart, by its namer.)
+   command: python3 PROME/tools/boot_session.py --replay 2>&1 | tail -80; echo "RC=$?"
+   ⛔ BLOCKED by PROME/tools/hooks/pipeline_rc_block.py (WQ-244, Will 2026-09-17): fix the rc read and re-run.
+⚠️  pipeline_rc_guard: `read_cap_check` has a THREE-STATE rc contract (0 clean · 1 FINDINGS ·
+   2 CANNOT-CERTIFY) and this call site is TWO-VALUED, so rc 2 will be read as rc 1.
+   rc 2 means the check COULD NOT EVALUATE — it is NOT evidence of failure. Treating it
+   as failure manufactures an alarm; treating it as success certifies an unchecked run.
+   MEASURED INSTANCE (2026-09-12): `bash verify_push.sh "$s" >/dev/null 2>&1 || echo NOT
+   ON ORIGIN` reported 32 of 32 commits NOT ON ORIGIN. All 32 were on origin — every one
+   was an rc 2 from the tool's own documented 60-minute window.
+   FIX — name the states instead of testing truthiness:
+       read_cap_check ...; rc=$?
+       case $rc in 0) ok ;; 1) echo REAL FINDING ;; 2) echo CANNOT-CERTIFY ;; esac
+   (Writing `rc 0/1/2` in a docstring does not make a caller three-valued. Only a call
+    site that names the states is — the 2026-09-12 instance was typed by the author of
+    the very contract it collapsed.)
+   command: python3 scripts/read_cap_check.py --agent BROCK || echo "read cap FAILED"
+   ⛔ BLOCKED by PROME/tools/hooks/pipeline_rc_block.py (WQ-244, Will 2026-09-17): fix the rc read and re-run.
+⚠️ pipeline_rc_block: TypeError: hook input is list, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244).
+⚠️ pipeline_rc_block: TypeError: tool_input is str, expected an object — ALLOWING without a check. Fail-open, DECLARED (WQ-244).
+⚠️ pipeline_rc_block: FileNotFoundError: [Errno 2] No such file or directory: '/nonexistent/pipeline_rc_guard.py' — ALLOWING without a check. Fail-open, DECLARED (WQ-244).
+  ✓ rc=2    want=2  B1 hit: gate | tail; echo $?  -> 2
+  ✓ rc=2    want=2  B1 hit: three-state || collapse -> 2
+  ✓ rc=0    want=0  B2 clean: piped for display, $? never read -> 0
+  ✓ rc=0    want=0  B2 clean: PIPESTATUS -> 0
+  ✓ rc=0    want=0  B2 clean: ordinary ls | head; echo $? -> 0
+  ✓ rc=0    want=0  B3 malformed: list -> 0
+  ✓ rc=0    want=0  B3 malformed: tool_input is a string -> 0
+  ✓ rc=0    want=0  non-Bash tool -> 0
+  ✓ rc=0    want=0  B4 recogniser missing -> 0 (fail-open on the wrapper's own error)
+✅ PIPELINE-RC-BLOCK SELFTEST 9/9 drill(s) behaved
+
+
+$ python3 AGENTS/DAEDALUS/scripts/daedalus_gate.py --selftest
+rc=0
+GATE selftest — DAEDALUS · 20260918T150509Z · HEAD 95e457354
+  ✅ T0  CLEAN           clean child
+      ↳ child rc 0
+  ⏰ T1  DUE             DUE child (sweeps_due-shaped rc 1)
+      ↳ child rc 1 = owed work per its contract
+        · DUE: x
+  ❓ T2  UNKNOWN         cannot-certify child
+      ↳ child rc 2 = cannot-certify / outside its contract
+        · CANNOT-CERTIFY
+  ❌ T3  BLOCKING        A5 pipe-proof: prints clean, exits 1
+      ↳ child rc 1 = defect per its contract
+  ❓ T4  UNKNOWN         A1 missing child
+      ↳ child not runnable: [Errno 2] No such file or directory: '/nonexistent/check.py'
+
+GATE selftest rc=2 · checked: 5 steps ['T0', 'T1', 'T2', 'T3', 'T4'] · NOT checked (declared/enumerated only): [] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: BLOCKING 1 · CLEAN 1 · DUE 1 · UNKNOWN 2
+  receipt: /tmp/tmpao3seutk/rcpt/20260918T150509Z_selftest.json (sha cb2e43e2) — fingerprint 020efc6d3588
+GATE selftest-due — DAEDALUS · 20260918T150509Z · HEAD 95e457354
+  ✅ T0  CLEAN           clean child
+      ↳ child rc 0
+  ⏰ T1  DUE             DUE child (sweeps_due-shaped rc 1)
+      ↳ child rc 1 = owed work per its contract
+        · DUE: x
+
+GATE selftest-due rc=0 · checked: 2 steps ['T0', 'T1'] · NOT checked (declared/enumerated only): [] · proves nothing about: completion of work beyond complete_check's legs, owner consumption of packets, the truth of any DECLARED value, or anything a child's own PASS line disclaims.
+  counts: CLEAN 1 · DUE 1
+  receipt: /tmp/tmpao3seutk/rcpt/20260918T150509Z_selftest-due.json (sha f366c6ef) — fingerprint 020efc6d3588
+✅ VALID — receipt 20260918T150509Z selftest still describes this tree (HEAD 95e457354)
+❌ INVALIDATED — tree changed (own dir / scripts diff or untracked set). Re-run the gate; do not cite this receipt.
+
+SELFTEST PASS — A1 A3 A4 A5 A8 A12 + class map exercised (fixtures; §3e real cases are in the build record)
+
+
+$ python3 AGENTS/BOND/monitors/grade_auction.py --selftest
+rc=1
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/BOND/monitors/grade_auction.py", line 542, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/willi/Research-workspace/AGENTS/BOND/monitors/grade_auction.py", line 403, in main
+    return selftest()
+           ^^^^^^^^^^
+  File "/home/willi/Research-workspace/AGENTS/BOND/monitors/grade_auction.py", line 325, in selftest
+    b and abs(b["ind_p15"] - 62.65) < 1e-6)
+              ~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+
+
+$ python3 AGENTS/BOND/monitors/assertion_check.py --selftest
+rc=0
+[assertion_check --selftest] fixtures are REAL defects this desk shipped
+
+  PASS  REAL 8/20 defect (verbatim TRADE.md, pre-stamp)
+  PASS  same claim WITHOUT the magic word -- gap found BY --selftest
+  PASS  REAL: CDX paywall, no re-test
+  PASS  guarded once stamped with re-test:
+  PASS  substring trap: 'not FREEze'
+  PASS  prose reusing the word, no source referent
+  PASS  historical table cell
+  PASS  REAL 8/20 defect: reversed gate direction
+  PASS  nearest-alias, NOT earliest-in-line
+  PASS  quoted CITATION of the defect, not the claim (fired on our own docs)
+  PASS  the SAME claim unquoted is still a finding
+  PASS  CONDITIONAL branch is a RULE, not a claim (fired on BND-17's VOID branch)
+  PASS  the SAME words unconditionally ARE a claim
+  PASS  already corrected => guarded
+  PASS  slash date resolves (was invisible: ISO-only regex)
+  PASS  ISO date still resolves
+  PASS  m/d/yy form resolves
+  PASS  bare m/d resolves BACKWARD, never into the future
+  PASS  13/45 is not a date (ratio/fraction guard)
+  PASS  3.76x ratio is not a date
+  PASS  REAL 8/21 defect: QRA twin pending 16d after content established
+  PASS  REAL 8/21 defect: MOF date unverified 22d past
+  PASS  REAL 8/21 false positive: 'showed' must not match `owed`
+  PASS  REAL 8/21 false positive: 'Will-approved' is a name, not a future verb
+  PASS  REAL 8/21 false positive: "Will's HELD sub-item" is a name
+  PASS  a real future verb still fires
+  PASS  REAL 8/21 defect: a section titled UPCOMING for two PAST, GRADED auctions
+  PASS  release-lag caveat inside MIN_AGE does NOT fire
+  PASS  NEGATED inbox claim (the honest disclosure) does NOT fire
+  PASS  'inbox was never drained' does NOT fire
+  PASS  PLAIN 'inbox drained' STILL FIRES — the guard must not blind the rule
+  PASS  'inbox: 0' STILL FIRES
+
+==========================================================================
+  ALL PASS — 32 fixtures
+  Known GAP, stated so it is not mistaken for coverage: the retracted
+  "my FRED series starts 2021-08" would NOT fire — it is a capability
+  claim phrased in words no pattern here knows. Shape D catches the
+  vocabulary it knows, never the class.
+==========================================================================
+
+
+$ python3 AGENTS/BOND/monitors/fr2004_join.py --selftest
+rc=0
+[selftest] 12 passed, 0 failed
+
+
+$ python3 AGENTS/WALTER/tools/version_drift_check.py 
+rc=0
+spec                                     spec-header  STATE §1  status
+--------------------------------------------------------------------------
+design/SIGNAL_FORMAT_SPEC.md                   v0.21     v0.21  ok
+design/ROUTING_TABLE.md                        v0.38     v0.38  ok
+design/FILTER_SPEC.md                           v0.7      v0.7  ok
+design/SIGNAL_PROCESSING_CHECKLIST.md          v0.46     v0.46  ok
+design/CLUSTER_TAXONOMY.md                      v0.7      v0.7  ok
+design/BOARD_CONSUMPTION_SPEC.md               v0.32     v0.32  ok
+design/OPERATOR_BRIEF_SPEC.md                   v0.1      v0.1  ok
+design/SIGNAL_INTAKE_TEMPLATE.md                v0.1      v0.1  ok
+design/PHONE_SIGNAL_INGESTION.md                v1.2      v1.2  ok
+--------------------------------------------------------------------------
+design/ROUTING_CARVEOUTS.md                    v0.38     v0.38  ok (lockstep with design/ROUTING_TABLE.md)
+design/ROUTING_OVERLAYS.md                     v0.38     v0.38  ok (lockstep with design/ROUTING_TABLE.md)
+design/THRESHOLD_SCAN.md                       v0.46     v0.46  ok (lockstep with design/SIGNAL_PROCESSING_CHECKLIST.md)
+--------------------------------------------------------------------------
+
+✓ STATE.md §1 matches every spec header; companions in lockstep.
+
+RECHECK WITH REPOSITORY VENV: AGENTS/BOND/monitors/grade_auction.py rc=0
+[grade] ⚠️ FRN list pull failed (<urlopen error [Errno -3] Temporary failure in name resolution>); using cached frn_cusips_ta_ws.json
+[grade --selftest] 21 passed, 0 failed
+   Scope: bench() window discipline, the I' P15 bar, the STRICT boundary,
+   the 2026-09-15 silent-degradation path, the reopening alt, TIPS/nominal
+   separation and the FRN list. It does NOT test the network fetch or main().
+
+RECHECK WITH REPOSITORY VENV: AGENTS/BOND/monitors/fr2004_join.py rc=0
+[selftest] 12 passed, 0 failed
+
+Pinned ORCH_LOG at 1b1de7d0723cdcfb3cdb5984b2fade234a76ab17: rc=0
+ORCH-LOG ✓ ../../../tmp/cato-20260918-orch-snapshot.tsv: 193 data rows × 13 columns, typed cells int-or-EMPTY
+
+Read-cap CATO: rc=2 CANNOT-EVALUATE; charter discovery expects CLAUDE.md. No integration change made.
+
+Final checks: hook v2 64db7cc3d still blocks harmless echo; runtime-subject advisory repaired.
+Root orphan advisory: only other-session paths, preserved.
+Weekday check: DOCKET/GATES/WILL_QUEUE rc=0.
+CATO git diff --check and AST parse passed.

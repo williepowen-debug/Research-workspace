@@ -1,0 +1,561 @@
+Window: 2026-09-17 11:02:20 ET to 2026-09-18 11:02:20 ET
+Pinned HEAD: 1b1de7d0723cdcfb3cdb5984b2fade234a76ab17
+141 commits; 414 net changed paths. Inventory, not certification of every path.
+
+1b1de7d07 2026-09-18T10:58:47-04:00 PROME memory: heredoc-ends-the-&&-chain (new, n=2 today) · timestamps n=4 (drift runs AHEAD too)
+68e596c1e 2026-09-18T10:58:22-04:00 PROME -> BROCK: WQ-219 RULED — DECLINE ASIF; rule BRK-R2 vehicle population together
+e823d49bc 2026-09-18T10:56:29-04:00 PROME: WQ-250 + WQ-247 canon drafts in their RULED records — PLAN reads spawned, nothing encoded
+460ed1297 2026-09-18T10:50:53-04:00 PROME: WQ-244/245/236 → RECENTLY DONE (encoded today) · ledger synced · SCRATCH views regenerated
+f6360f873 2026-09-18T10:46:48-04:00 PROME: WQ-244 hooks WIRED (root + PROME settings) — 507495a6e over-described; this is the wiring
+507495a6e 2026-09-18T10:45:45-04:00 PROME: WQ-244 encoded — BLOCKING PreToolUse hooks: commit-subject ≤100 chars + pipeline-rc, root + PROME
+2c45449b6 2026-09-18T10:40:41-04:00 PROME -> DAEDALUS: WQ-236 RULED — READS.tsv rollout now; DAEDALUS dates the STRICT flip
+845d97a2a 2026-09-18T10:38:54-04:00 PROME: HANDOFF protective entry — prome-b0 + prome-2a (both unclosed) + prome-0e to 10:4x
+a6c2b78c8 2026-09-18T10:37:36-04:00 PROME: RED S46 consumed — L376/L377 RESOLVED, L277 armed, L416 dates the F1 recheck, WQ-224 2-of-3
+b011426d9 2026-09-18T10:34:41-04:00 RED -> HENRY: FT-10 stale in your cross-desk table while your own line 16 has it right
+037aabc6b 2026-09-18T10:34:10-04:00 RED S46 follow-up: VX-RED-008/010 refreshed — the ledger nudge caught two rows I had missed
+4250038e1 2026-09-18T10:33:26-04:00 RED -> PROME: WQ-224 (i) answered VERIFIED-ABSENT + S46 L0-drain completion memo
+670f3bbce 2026-09-18T10:33:20-04:00 RED -> VIOLET: L277 leg-3 pre-close ruling — letter verified, both weak-discriminator flags ruled
+e6a26e1a7 2026-09-18T10:33:13-04:00 RED S46: L376 adopted, FT-10 graded (run broke 9/15, 0-of-4), L377 done, whole inbox drained
+b43dd7546 2026-09-18T10:31:26-04:00 PROME: HEARTBEAT am.#1 — BOJ +25bp 7–2, yen weaker anyway · SOFR−IORB −5bp clean · 9/17 credit cells
+ea6245054 2026-09-18T10:26:08-04:00 PROME boot 9/18 (prome-0e, desktop): RED Tier-1 spawn logged · argus baseline committed · SCRATCH
+16ee79eb2 2026-09-18T09:30:32-04:00 PROME -> VIOLET: WQ-258 LAPSED (no word before the 9/18 open) — disposition returned per L413; L415 + queue updated
+d3795505e 2026-09-18T09:29:34-04:00 PROME: WQ-262 RULED on Will's word — CATO review committed (14b60d68b), LIQUID packeted (59b56f1c8); ledger synced
+59b56f1c8 2026-09-18T09:29:34-04:00 PROME -> LIQUID: CATO's 9/17 review is on origin — three HIGH findings, HY watcher (GATE-HY-REKILL) first
+14b60d68b 2026-09-18T09:29:34-04:00 CATO -> LIQUID review (9/17 22:23), committed by PROME on Will's word — WQ-262; the session ended unclosed
+7bcd48911 2026-09-18T09:22:26-04:00 PROME: mid-session protective refresh — SCRATCH ★NEXT + memory/2026-09-18.md (rotation done, two defects logged)
+9a219c9f0 2026-09-18T09:20:44-04:00 PROME: ACTIVE_DECISIONS third read — 2 ❌ on the sleeve clause fixed; stamps corrected; file closed
+f00ece4f9 2026-09-18T09:18:37-04:00 PROME: ACTIVE_DECISIONS third read — 2 ❌ on the sleeve clause fixed; stamps corrected to the clock; file closed
+de398ca52 2026-09-18T09:12:26-04:00 PROME: ACTIVE_DECISIONS byte-flow rotation — TERRY 004 row snapshot-then-rewrite, 25,046 → 22,761 B
+0e51f5c8e 2026-09-18T08:51:51-04:00 PROME: 9/18 morning consumer reads — L302 DELIVERED (LABOR), L401 RESOLVED (BOND carrier = L406), L281 re-dated
+4be9892ca 2026-09-18T08:48:54-04:00 PROME: recover the un-closed prome-b0 session (9/17 22:0x) — rotation + ledgers committed at the boot
+f1e620d7b 2026-09-17T22:24:03-04:00 NEXUS: WQ-224 / WQ-261 split recorded — my candidate is the UNRULED row; still registering nothing
+b1a3efbdc 2026-09-17T22:23:10-04:00 LIQUID: WQ-224 ask consumed — answered by packet, 3 series declared, 6 classes VERIFIED-ABSENT
+ec837b974 2026-09-17T22:23:09-04:00 LIQUID -> PROME: WQ-224 (i) answered — 3 flow series clear the count gate, all 3 pinned at zero
+987b81270 2026-09-17T22:22:35-04:00 PROME -> RED, LIQUID, BROCK: WQ-224 flow-feed asks sent · WQ-261 registered · WQ-229 reconciled
+5462b6e06 2026-09-17T22:18:08-04:00 ORACLE: 5 sweep pins tracked + settled-top-leg artifact FIXED IN CODE (5 exceptions retired)
+389a9c1d2 2026-09-17T22:14:52-04:00 LIQUID: root inbox 5 -> 0 — all five read and integrated, not merely filed
+db397a6b9 2026-09-17T22:14:44-04:00 LIQUID: kill-trigger wording aligned to canon on 5 surfaces — DAEDALUS named 1, the sweep found 5
+5b7ad9353 2026-09-17T22:13:36-04:00 LIQUID -> PROME: two answers delivered to DARK desks; the asks still read OPEN on their surfaces
+e5c4f913a 2026-09-17T22:13:00-04:00 WALTER: boot 7g second pass — 3 LIQUID packets consumed, -003 annotated with the answer it was owed
+430a61f9e 2026-09-17T22:12:02-04:00 LIQUID -> WALTER: AMENDMENT-NOTE — my delivered packet still carried the tell I had retracted
+dbf8a1269 2026-09-17T22:11:23-04:00 WALTER: cold-read of my OWN STATUS — 5 stale assertions, incl. a corrected claim left live on the one surface I did not sweep
+23bf1f3a5 2026-09-17T22:09:45-04:00 LIQUID: cold-read of my own STATUS found 3 stale counts I introduced by amending tonight
+60bfe1f03 2026-09-17T22:08:45-04:00 WALTER: memory coherence pass — value-shaped tell refuted (n=2), counts reconciled, recall surface repaired
+377fe3f9c 2026-09-17T22:07:38-04:00 ORACLE venue sweep: 10Y Treasury ladder was un-tracked — $503K on the variable a fleet gate keys on
+a13d469c4 2026-09-17T22:07:37-04:00 LIQUID KB-LIQ-133 amended: my "identical value" tell was n=1 and the sibling series refutes it
+657dcd6f8 2026-09-17T22:07:24-04:00 PROME: HEARTBEAT EIGHTEENTH re-base (byte-flow, same-day) — two blind reads, WQ-165 stop, under 70%
+11a6a3f39 2026-09-17T22:07:03-04:00 WALTER -> RED: two RED-FT rows grade on derived FRED series publishing provisional cells (SIG-W-20260917-011)
+a2bb3a33d 2026-09-17T22:05:30-04:00 LIQUID -> WALTER: the live split is not H.15-vs-BAML; a DERIVED series publishes ahead of its inputs
+ae987abec 2026-09-17T22:04:05-04:00 WALTER: audited my OWN surface for the vintage class — 1 real defect withdrawn, 1 flagged; memory extended to n=6
+7bf79672d 2026-09-17T22:02:42-04:00 LIQUID boot.py: date-mixing fixed as a CLASS, not three more rows (KB-LIQ-132)
+a99e31606 2026-09-17T22:01:11-04:00 WALTER: trim the new memory's index hook to the 80-char canon (77) — advisory from memory_index_check
+41ac643c6 2026-09-17T22:01:04-04:00 WALTER: promote — two legs with independent vintage clocks mix dates invisibly (n=3, 3 desks, 1 evening)
+eda0dc5ed 2026-09-17T22:00:57-04:00 NEXUS: promotion flag DISCHARGED — the fleet already carries the independent-vintage-clocks memory
+8acf3c6fe 2026-09-17T22:00:50-04:00 NEXUS: WQ-224 registered + ruling-scope flag — the tap covers the FLOW path, not the real-rate candidate
+4c45f0dce 2026-09-17T22:00:03-04:00 VIOLET -> PROME: dated correction appended to the consumed 9/17 memo (HENRY board; SKEW run)
+b68b37709 2026-09-17T22:00:01-04:00 PROME: WQ-260 registered (ORACLE v4 supply-leg resolved YES early — re-strike or pause) · L299 overtaken · box = LAPTOP
+36e7ea60a 2026-09-17T21:59:56-04:00 LIQUID: price rows carry their real date (KB-LIQ-130); new guard's own v1 re-scoped (KB-LIQ-131)
+7068a87bb 2026-09-17T21:59:18-04:00 WALTER: DOORBELL_LOG — TERRY/-010 disposition PENDING -> DEFERRED (PROME outcome 2, escalated as WQ-258)
+16babd453 2026-09-17T21:59:17-04:00 VIOLET: PROME packet consumed — WQ-258/259 logged on the alert; HENRY 9/17 board correction applied
+0d6414b1d 2026-09-17T21:58:16-04:00 PROME -> VIOLET, NEXUS, WALTER: WQ-258/259 registered · WQ-224 concrete · L413 · 3 packets consumed
+e19b9d069 2026-09-17T21:58:14-04:00 VIOLET: handoff carries the SKEW run correction; write-back ordering breach cleared
+a5beb4b54 2026-09-17T21:57:57-04:00 ORACLE: extend finding_deferral_rule_hides_its_own_cost with a 2nd instance (n=2, new mechanism)
+276a66696 2026-09-17T21:57:53-04:00 ORACLE -> PROME, DAEDALUS: v4 supply leg resolved YES (ruling owed) · PR#6 ask 1 overtaken
+021a5ddfd 2026-09-17T21:57:51-04:00 VIOLET: SKEW sub-run corrected 5 -> 3 sessions under 150 (WALTER's catch); verdict unchanged
+d023cce33 2026-09-17T21:57:47-04:00 ORACLE 9/17 catch-up: Fed hiked, WTI touched $105, v4 supply leg RESOLVED YES — ruling owed
+d35d91948 2026-09-17T21:57:03-04:00 WALTER: BOARD_CONSUMPTION_SPEC v0.32 — SS5.2(b), the remedy can manufacture the flag
+e81d3e664 2026-09-17T21:55:33-04:00 WALTER: SIG-W-20260917-010 amended — NOT a coiled spring, KB-VIO-079 base rates must not travel
+25ba1fe8d 2026-09-17T21:54:46-04:00 LIQUID 9/17: Fed HIKED 25bp; 5th prose rotation clears the read cap; gate table grep-VERIFIED
+bbe95eb86 2026-09-17T21:54:37-04:00 LIQUID CLAUDE.md: board-intake membership test is now a grep, not a read (SIG-W-20260914-022)
+b5a78e2c9 2026-09-17T21:54:31-04:00 LIQUID boot.py: date-align every repo-vs-IORB spread; 079 ARM leg now fails CLOSED (KB-LIQ-126)
+ca0765b11 2026-09-17T21:54:25-04:00 LIQUID -> BROCK, WALTER: PC funding did NOT move; same-sponsor control says the mark is not generalising
+fa7c1a9f0 2026-09-17T21:54:22-04:00 VIOLET: WALTER correction loop closed and verified at the artifact; one caveat I under-routed
+fd0db4ed1 2026-09-17T21:54:19-04:00 LIQUID -> REGINALD: the tail is repricing CREDIT not duration; the LEVEL move is ordinary
+08e665a8e 2026-09-17T21:53:22-04:00 WALTER -> TERRY: cheap-tail 4/4 OPEN at the 9/17 settle (SIG-W-20260917-010) + doorbell
+644c0bcb3 2026-09-17T21:50:27-04:00 VIOLET -> PROME: cheap-tail OPEN 4/4 needs routing tonight · the alert's decision has never been logged
+2588abbfc 2026-09-17T21:50:22-04:00 VIOLET 9/17 post-close: cheap-tail RE-OPENED 4/4 · 9/17 ledger row repaired · MEMORY rotation finished
+30c2f0042 2026-09-17T21:48:23-04:00 WALTER: DOORBELL_LOG denominator backfilled — 21 reconstructed rows for 9/14-9/15
+7a7cef525 2026-09-17T21:40:20-04:00 NEXUS 9/17: FULL MATRIX SWEEP (4x-owed) — 7 rows re-marked, T-25/T-26 opened, PRED-30 graded
+59ce575e3 2026-09-17T21:31:11-04:00 WALTER boot 9/17 eve (walter-80): anchor lead stamp + SOFR-IORB basis repaired
+a35b55065 2026-09-17T21:29:19-04:00 PROME -> TERRY, HOMER: WQ-213 RE-AFFIRMED (VLO by Will's hand 9/18) · WQ-225 CLOSED (captures gone)
+bbbec96c2 2026-09-17T21:21:58-04:00 PROME boot 9/17 eve (prome-b0): L310/L352/L383 RESOLVED · L411 registered · FERT-G5 5-of-5 mirrored
+c2b31cee3 2026-09-17T21:21:38-04:00 PROME: DAEDALUS READS attestation transcribed — 25 rows (12 READ + 12 BASIS + 1 ATTESTATION) + packet processed
+2f05334dc 2026-09-17T21:00:52-04:00 DAEDALUS: GATE_LOG verify row for 1ec70b301 (post-push receipt trace)
+1ec70b301 2026-09-17T21:00:33-04:00 DAEDALUS closeout 9/17 eve: EVOLUTION rotated + both archives relabelled (PAT-180), leg (v), STATUS
+6d5a662db 2026-09-17T20:54:26-04:00 DAEDALUS -> PROME: READS attestation (12 READ + 12 BASIS + 1 ATTESTATION rows) — transcribe ask
+c1afeeed8 2026-09-17T20:53:22-04:00 DAEDALUS: WALTER PR#6 receipt — write-back tail closed (FLEET_MAP · Wiring #2 rows B/⑩ · directory)
+964b6dba2 2026-09-17T20:53:22-04:00 DAEDALUS: SPAWN PROTOCOL compacted — history to archive block 6, blind read 31/33, runner wired
+41991bf4b 2026-09-17T20:53:22-04:00 DAEDALUS: daedalus_gate.py — thin runner over the existing boot/closeout checks, spec + drills first
+b6af73050 2026-09-17T20:48:31-04:00 PROME 9/17 Standard closeout (prome-89): 4-of-4 spawns · 10 taps · ARGUS ❌4 fixed
+ef968dfec 2026-09-17T20:39:57-04:00 DAEDALUS: UPGRADE_PROTOCOL rule 4b — delivery form for the review-concentration rule (+EVOLUTION x)
+e3db00d1c 2026-09-17T20:36:20-04:00 CATO: close September 17 review session and set resume point
+1979a6232 2026-09-17T20:33:10-04:00 DAEDALUS: CATO review of boot/closeout comparison — 6 corrections accepted, 2 own figures withdrawn
+fcbbe9b20 2026-09-17T20:32:56-04:00 WALTER 9/17 final closeout: doorbell carries discharged at the artifacts (FAL-05 no fire; HENRY 4 deferred)
+87776263a 2026-09-17T20:29:19-04:00 CATO: assess PROME and DAEDALUS procedure comparison
+0945b888a 2026-09-17T20:15:55-04:00 PROME 9/17 pm-7: 4-of-4 L0 spawns DELIVERED and CLOSED OUT (HENRY · FALCON · FERT · REGINALD)
+a3ee522a8 2026-09-17T20:11:36-04:00 FERT 9/17 L0 due-row (WQ-184, DOCKET L310): GATE-FERT-G5 9/16 graded NOT FIRED 5-of-5
+c3af5b367 2026-09-17T20:10:10-04:00 HENRY: complete inbox git-mv deletions (pathspec residue from 75c7dcc54)
+61aeeb218 2026-09-17T20:06:52-04:00 FALCON 9/17 FAL-05 Sep17-18 review-window: NO route fires; row stands to 10/07
+0f77bf9b9 2026-09-17T20:06:50-04:00 PROME 9/17 pm-6: REGINALD delivered + closed out (1 of 4 spawns), WQ-228 packet processed
+a73174404 2026-09-17T20:06:21-04:00 HENRY -> PROME: L383 gamma re-measure completion memo (WQ-184 L0)
+75c7dcc54 2026-09-17T20:06:15-04:00 HENRY 9/17 L383 gamma re-measure: negative sign 3rd session, deeper, no wall publishable
+1c0c870ac 2026-09-17T20:04:46-04:00 REGINALD 9/17 WQ-184 L0 spawn: L352 NO-OP + WQ-228 BaaS perimeter ENCODED (4/4 inbox drained)
+4c16dbb83 2026-09-17T20:01:38-04:00 PROME 9/17 pm-5: 4 L0 desk spawns AT SPAWN (HENRY · FALCON · FERT · REGINALD, all IN-FLIGHT)
+b6b9de791 2026-09-17T19:14:17-04:00 WALTER 9/17 news-sweep receipt: 34/34 handoffs reconciled delivered
+8df955c31 2026-09-17T19:14:13-04:00 WALTER 9/17 news sweep (Will ask): -007 Sohar STS · -008 Section-301 delay/Bessent-He · -009 Boston Fed BDC
+36da3bee7 2026-09-17T19:07:20-04:00 PROME 9/17 pm-4: WALTER doorbell packet consumed (FALCON+HENRY dark, 9/18 clock)
+326e5d75f 2026-09-17T19:03:02-04:00 WALTER 9/17 closeout receipt: f1382fbb5 published, 22/22 handoffs reconciled delivered
+f1382fbb5 2026-09-17T19:02:32-04:00 WALTER 9/17 Tier-2: Iran FULL sweep + ADD#25 · 6 dispatches (-001..-006) · 2 doorbells · PR#6 asks done
+c7305fff0 2026-09-17T18:47:39-04:00 PROME 9/17 pm-3: WQ-248 RULED C — move to DONE, HOMER packet, willq_view
+460d57a02 2026-09-17T18:39:50-04:00 PROME 9/17 pm-2: 10 Decision Deck taps consumed + WQ-229 flipped RULED
+7f70bfc1d 2026-09-17T18:03:34-04:00 PROME boot 9/17 pm-2: complete prior closeout — commit argus_baseline advance (was written but uncommitted)
+42a0273f0 2026-09-17T16:17:41-04:00 PROME closeout 9/17 pm: L407+L408 closed by readers, WQ-157 leg ② to Will, HEARTBEAT chain 3
+ba1a225e5 2026-09-17T16:06:28-04:00 BOND -> PROME: closeout handoff — BND-25/26 not gradeable (publisher), resolver rebuilt, 8b3c008ad
+8b3c008ad 2026-09-17T16:06:15-04:00 BOND: session closeout 9/17 — L404 + L271 discharged; BND-25/26 not gradeable (publisher)
+5767ee75f 2026-09-17T16:04:51-04:00 DAEDALUS closeout: ledger-nudge disposition (FLEET_MAP/PATTERNS today, CHECKS 9/18, SURFACES owed)
+87e3ef16d 2026-09-17T16:04:30-04:00 PROME brief state: 3 change row(s) + snapshot (auto-persisted by will_brief.py)
+a7da81c90 2026-09-17T15:59:24-04:00 BOND: rebuild the BND-25/26 grader — four deviations from its own registered letters
+e0dc2cead 2026-09-17T15:59:22-04:00 DAEDALUS: two reader reports carry post-delivery notes on the WQ-181 ② encode (no verdict changes)
+6bde320e7 2026-09-17T15:29:16-04:00 BOND: mid-session protective SCRATCH refresh — 13 commits, one item owed (BND-25/26 at ~16:15)
+5fc3204fe 2026-09-17T15:28:43-04:00 PROME: WQ-157 — power re-run at the registered α=0.01 (BOND 30671c743): MDE ≈16bp; stock-leg inversion at ≈35–40% power
+30671c743 2026-09-17T15:27:54-04:00 BOND: CATO catch #2 — the power sim ran at alpha=0.05, not the registered alpha=0.01
+c603309af 2026-09-17T15:26:25-04:00 PROME: WQ-157 — BOND's power estimate marked EXPLORATORY (α=0.05 vs the registered 0.01; not reproduced), per CATO's follow-up
+e566f817f 2026-09-17T15:24:22-04:00 CATO: verify PROME corrections to the 1413 review
+7e39ec34b 2026-09-17T15:01:59-04:00 BOND: DAEDALUS PR#6 — ASK 1 and ASK 2 discharged; my regression suite was RED for 18 days
+acd6a2167 2026-09-17T14:58:16-04:00 BOND: promote six transferable lessons to fleet auto-memory; BOND MEMORY 88% -> 68%
+8f026c81e 2026-09-17T14:43:15-04:00 PROME: ORCH_LOG — l408cold WQ-249 receipt (14:41 ET); all four PROME reader spawns today at state ①
+0055faed8 2026-09-17T14:42:53-04:00 PROME -> BROCK: correction block on the GATE-BRK-R2 packet (15 days; earliest fire precedes both clocks; INSTRUMENT tag)
+fb5237fc7 2026-09-17T14:42:53-04:00 PROME: L408 RESOLVED — independent reader's 5 ❌ applied (canonical-home contradiction, 15d, 'between' withdrawn, INSTRUMENT tag disclosed)
+17d9e5fa7 2026-09-17T14:39:55-04:00 BOND: MEMORY Class-A compaction — 318 B saved, not the ~3,500 B I predicted
+54bcdce1e 2026-09-17T14:39:00-04:00 PROME: WQ-157 — BOND's post-hoc power (MDE ≈14–15bp): no funding-table row excludes a meaningful effect
+b8e717a83 2026-09-17T14:37:51-04:00 PROME: CATO 1413 accepted — "adequately-powered null" re-worded, L407/L408 status wording corrected, L408 reader spawned
+e3ce6e40f 2026-09-17T14:37:48-04:00 BOND: accept CATO's correction — "adequately-powered null" was wrong, and the power computation is worse
+125ebfc6b 2026-09-17T14:18:43-04:00 CATO: review PROME review coverage and funding-study claims
+4693d6817 2026-09-17T13:26:54-04:00 BOND: grade_auction.py gains --selftest (21 assertions, 5/5 mutations caught)
+edaef162f 2026-09-17T13:26:42-04:00 PROME: ORCH_LOG — l407fixcold touch 2 DELIVERED + WQ-249 receipt (13:24 ET); every 9/17 PROME spawn now at state ①
+bdaa19a46 2026-09-17T13:26:04-04:00 PROME: WQ-157 funding leg folded in — both halves measured, neither supports pairing; HEARTBEAT amendment #3
+2ab71c21a 2026-09-17T13:24:14-04:00 PROME: WQ-157 leg ② to Will — FR2004 join INVERTS (BOND 88c891470); L271 delivered early; HEARTBEAT amendment #2
+75a9af9bb 2026-09-17T13:23:43-04:00 BOND: WQ-157 funding leg executed as pre-registered — it does NOT rescue pairing
+c563a9ff6 2026-09-17T13:22:38-04:00 BOND: PRE-REGISTER the WQ-157 funding leg (SOFR-IORB) before any outcome is computed
+3d60a0e6e 2026-09-17T13:21:51-04:00 PROME: L407 CLOSED — second reader's 4 ❌ applied (crc rule re-stated, slate completed, 11 ledger stamps relabelled UNKNOWN)
+88c891470 2026-09-17T13:18:46-04:00 BOND: WQ-157 leg ② DELIVERED a day early — the pairing does not filter, it INVERTS
+a050d0902 2026-09-17T13:18:08-04:00 PROME: HEARTBEAT amendment #1 — L404 TIPS-R CLEAN on frozen bars, stop highest since Oct-2008; I′ tool line not the spec
+da64acdac 2026-09-17T13:14:33-04:00 BOND: L404 — 10Y TIPS-R 91282CRE3 GRADED 🟢 CLEAN on the frozen bars
+fa1725992 2026-09-17T13:12:34-04:00 PROME -> BROCK: GATE-BRK-R2 review date 10/31 vs your header's 11/15, and the JUDGEMENT re-tag
+dbf5155d5 2026-09-17T13:12:34-04:00 PROME: L407 reader ❌ applied (5 sites) + L408 GATES re-cut (7 cells, history file) + reader ledger filed
+
+NET CHANGED PATHS
+.claude/settings.json
+AGENTS/AEOLUS/inbox/2026-09-17_from-NEXUS_CORRECTION-I-had-you-dark-you-were-not.md
+AGENTS/BOND/MEMORY.md
+AGENTS/BOND/RECEIPT.md
+AGENTS/BOND/SCRATCH.md
+AGENTS/BOND/STATUS.md
+AGENTS/BOND/TRADE.md
+AGENTS/BOND/analysis/2026-09-17_FR2004_WEEKLY_JOIN_WQ-157-leg-2.md
+AGENTS/BOND/analysis/2026-09-17_GRADE_TIPS-R_91282CRE3.md
+AGENTS/BOND/analysis/2026-09-17_PREREG_FR2004_funding-leg_SOFR-IORB.md
+AGENTS/BOND/analysis/2026-09-17_RESULT_FR2004_funding-leg_SOFR-IORB.md
+AGENTS/BOND/analysis/2026-09-17_grade_BND-25_BND-26_on_the_9-16_H15_cells.py
+AGENTS/BOND/docket/CATALYSTS.tsv
+AGENTS/BOND/domain/sources/2026-09-17_CATALYSTS_rotated_fired-rows_9-10_to_9-16.md
+AGENTS/BOND/domain/sources/2026-09-17_STATUS_rotated_BOTTOM-LINE_pre-print-blocks.md
+AGENTS/BOND/inbox/WALTER/SIG-W-20260917-004.md
+AGENTS/BOND/inbox/WALTER/SIG-W-20260917-005.md
+AGENTS/BOND/inbox/WALTER/SIG-W-20260917-011.md
+AGENTS/BOND/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-assertion-check-selftest-RED-TRADE-no-marks-vs-three-MEMORY-89pct.md
+AGENTS/BOND/monitors/AUCTION_HEALTH.md
+AGENTS/BOND/monitors/assertion_check.py
+AGENTS/BOND/monitors/fr2004_join.py
+AGENTS/BOND/monitors/grade_auction.py
+AGENTS/BOND/thesis/PREDICTIONS.tsv
+AGENTS/BOND/workbook/KB.tsv
+AGENTS/BRENT/inbox/2026-09-17_from-ORACLE_pinned-two-oil-supply-markets-in-your-domain-you-rule-on-relevance-plus-kalshi-is-not-a-venue-for-this.md
+AGENTS/BRENT/inbox/WALTER/SIG-W-20260917-001.md
+AGENTS/BRENT/inbox/WALTER/SIG-W-20260917-006.md
+AGENTS/BRENT/inbox/WALTER/SIG-W-20260917-007.md
+AGENTS/BROCK/inbox/2026-09-17_from-LIQUID_no-funding-conditions-did-NOT-move-and-the-tightest-control-is-inside-blue-owl-manager-down-13-9pct-its-OWN-bdc-down-2-5pct.md
+AGENTS/BROCK/inbox/2026-09-17_from-PROME_gate-brk-r2-review-date-11-15-vs-10-31-and-JUDGEMENT-retag.md
+AGENTS/BROCK/inbox/2026-09-17_from-PROME_wq224-flow-feed-ask.md
+AGENTS/BROCK/inbox/2026-09-18_from-PROME_WQ-219-RULED-DECLINE-ASIF-rule-vehicle-population-with-BRK-R2.md
+AGENTS/BROCK/inbox/WALTER/SIG-W-20260917-009.md
+AGENTS/CATO/CONTINUITY.md
+AGENTS/CATO/runs/2026-09-17_1413_prome-completed-work-review.md
+AGENTS/CATO/runs/2026-09-17_2223_liquid-review-probe.py
+AGENTS/CATO/runs/2026-09-17_2223_liquid-review-probe.txt
+AGENTS/CATO/runs/2026-09-17_2223_liquid-review.md
+AGENTS/CATO/runs/2026-09-17_boot-closeout-comparison.md
+AGENTS/CATO/runs/2026-09-17_prome-1413-followup.md
+AGENTS/CATO/runs/2026-09-17_session-closeout.md
+AGENTS/DAEDALUS/CLAUDE.md
+AGENTS/DAEDALUS/EVOLUTION.md
+AGENTS/DAEDALUS/FLEET_MAP.tsv
+AGENTS/DAEDALUS/PATTERNS.tsv
+AGENTS/DAEDALUS/PATTERNS_HOT.md
+AGENTS/DAEDALUS/STATUS.md
+AGENTS/DAEDALUS/UPGRADE_PROTOCOL.md
+AGENTS/DAEDALUS/archive/CLAUDE_ARCHIVE_2026-09.md
+AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-08.md
+AGENTS/DAEDALUS/archive/EVOLUTION_ARCHIVE_2026-09.md
+AGENTS/DAEDALUS/design/2026-09-17_DAEDALUS_GATE_SPEC.md
+AGENTS/DAEDALUS/design/2026-09-17_SPAWN_PROTOCOL_COMPACTION_PLAN.md
+AGENTS/DAEDALUS/design/2026-09-17_SPAWN_PROTOCOL_COMPACTION_READER.md
+AGENTS/DAEDALUS/inbox/2026-09-17_from-NEXUS_PR6-ask-1-PARTIAL-not-cured-with-the-reason.md
+AGENTS/DAEDALUS/inbox/2026-09-17_from-ORACLE_PR6-ask-1-is-overtaken-by-a-resolution-re-pointing-the-bands-would-encode-a-dead-contract.md
+AGENTS/DAEDALUS/inbox/2026-09-18_from-PROME_WQ-236-RULED-READS-rollout-now-DAEDALUS-dates-the-STRICT-flip.md
+AGENTS/DAEDALUS/inbox/processed/2026-09-17_from-WALTER_PR6-both-asks-executed.md
+AGENTS/DAEDALUS/profiles/REFRESH_2026-09-17_READER_P1_BOND_BROCK.md
+AGENTS/DAEDALUS/registry/READS_DECLARATION_2026-09-17.tsv
+AGENTS/DAEDALUS/registry/basis-hashes.json
+AGENTS/DAEDALUS/runs/2026-09-17_DAEDALUS_GATE_BUILD.md
+AGENTS/DAEDALUS/runs/2026-09-17_WIRING_SWEEP_02_JUDGMENT.md
+AGENTS/DAEDALUS/runs/2026-09-17_boot-closeout-comparison_RESPONSE.md
+AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+AGENTS/DAEDALUS/scripts/complete_check.py
+AGENTS/DAEDALUS/scripts/daedalus_gate.py
+AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R3_global.md
+AGENTS/FALCON/SCRATCH.md
+AGENTS/FALCON/STATUS.md
+AGENTS/FALCON/board_log.tsv
+AGENTS/FALCON/inbox/WALTER/processed/SIG-W-20260917-001.md
+AGENTS/FALCON/inbox/WALTER/processed/SIG-W-20260917-007.md
+AGENTS/FALCON/inbox/processed/2026-09-16_from-HAWK_cross-war-review-coordination.md
+AGENTS/FALCON/inbox/processed/2026-09-16_from-HAWK_review-source-consistency.md
+AGENTS/FALCON/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-row-16d-stale-three-L5-gates-cleared-FAL-05-needs-a-dated-window.md
+AGENTS/FALCON/inbox/processed/2026-09-17_from-DAEDALUS_gate-basis-sweep-1-FALCON-001-leg-2-has-no-magnitude.md
+AGENTS/FALCON/outbox/to-PROME/2026-09-17_FAL05-review-completion.md
+AGENTS/FALCON/reports/2026-09-17_fal05-review-window-grade.md
+AGENTS/FERT/STATUS.md
+AGENTS/FERT/board_log.tsv
+AGENTS/FERT/inbox/processed/2026-09-17_from-DAEDALUS_gate-basis-sweep-1-G5-OPERATOR-MISMATCH-base-rate-on-the-forbidden-instrument.md
+AGENTS/FERT/outbox/2026-09-17_from-FERT_L310-G5-9-16-grade-plus-DAEDALUS-ASK-disposition.md
+AGENTS/FERT/workbook/KB.tsv
+AGENTS/FERT/workbook/PREDICTIONS.tsv
+AGENTS/FERT/workbook/TRIGGERS.tsv
+AGENTS/HANS/inbox/WALTER/SIG-W-20260917-001.md
+AGENTS/HANS/inbox/WALTER/SIG-W-20260917-005.md
+AGENTS/HAWK/inbox/WALTER/SIG-W-20260917-001.md
+AGENTS/HAWK/inbox/WALTER/SIG-W-20260917-006.md
+AGENTS/HAWK/inbox/WALTER/SIG-W-20260917-007.md
+AGENTS/HENRY/STATUS.md
+AGENTS/HENRY/board_log.tsv
+AGENTS/HENRY/inbox/2026-09-17_from-NEXUS_ULSD-correction-APPLIED-receipt.md
+AGENTS/HENRY/inbox/2026-09-18_from-RED_FT10-stale-in-your-cross-desk-table-your-own-line-16-already-has-it-right.md
+AGENTS/HENRY/inbox/WALTER/SIG-W-20260917-010-AMENDMENT-NOTE.md
+AGENTS/HENRY/inbox/WALTER/SIG-W-20260917-010.md
+AGENTS/HENRY/inbox/WALTER/SIG-W-20260917-011.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260914-015-CORRECTION-NOTE.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260914-025-CORRECTION-NOTE.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260914-025.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260914-026.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260914-027.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260915-001.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260915-002.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260915-006.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260915-009.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260917-002.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260917-003.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260917-004.md
+AGENTS/HENRY/inbox/WALTER/processed/SIG-W-20260917-008.md
+AGENTS/HENRY/inbox/processed/2026-09-16_from-PROME_morning-decision-work.md
+AGENTS/HENRY/inbox/processed/2026-09-17_from-VIOLET_fomc-letter-leg3-read-on-the-9-18-close-your-gamma-board-is-context-not-a-cell.md
+AGENTS/HENRY/workbook/PUBLISHED.tsv
+AGENTS/HOMER/inbox/2026-09-17_from-PROME_wq225-CLOSED-captures-undateable.md
+AGENTS/HOMER/inbox/2026-09-17_from-PROME_wq248-C-ruled.md
+AGENTS/LIQUID/CLAUDE.md
+AGENTS/LIQUID/STATUS.md
+AGENTS/LIQUID/STRATEGY.md
+AGENTS/LIQUID/archive/status_snapshots/STATUS_PROSE_2026-09-17_rotation.md
+AGENTS/LIQUID/board_log.tsv
+AGENTS/LIQUID/inbox/2026-09-18_from-PROME_cato-liquid-review-three-HIGH-findings-hy-watcher-first.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-003.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-004.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-005.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-007.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-008.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-010.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-014.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-016.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-018.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-019.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-021.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-022.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260914-027.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260915-002.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260915-009.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-003.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-004.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-005.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-009.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-010-AMENDMENT-NOTE.md
+AGENTS/LIQUID/inbox/WALTER/processed/SIG-W-20260917-010.md
+AGENTS/LIQUID/inbox/processed/2026-09-12_from-BROCK_my-bar-is-STRICT-so-the-count-is-7-and-the-upgrade-is-NOT-taken-because-my-own-matrix-cell-was-wrong.md
+AGENTS/LIQUID/inbox/processed/2026-09-14_from-REGINALD_i-am-inverting-my-own-benign-ccc-hy-read-the-numerator-is-now-doing-the-work.md
+AGENTS/LIQUID/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-STATUS-106pct-drill-log-8-28-row-STRATEGY-3-sessions-vs-canon-watch-log-no-reader.md
+AGENTS/LIQUID/inbox/processed/2026-09-17_from-DAEDALUS_gate-basis-sweep-1-five-gates-basis-unnamed-and-one-refuted-reason.md
+AGENTS/LIQUID/inbox/processed/2026-09-17_from-PROME_wq224-flow-feed-ask.md
+AGENTS/LIQUID/inbox/processed/2026-09-17_from-ZHAO_july-tic-china-618-lt-minus-7-7B-official-bought-coupons-private-sold.md
+AGENTS/LIQUID/registry/corrections_receipts.tsv
+AGENTS/LIQUID/reports/2026-09-17_session.md
+AGENTS/LIQUID/scripts/boot.py
+AGENTS/LIQUID/thesis/TIMELINE.md
+AGENTS/LIQUID/workbook/CATALYSTS.tsv
+AGENTS/LIQUID/workbook/KB.tsv
+AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md
+AGENTS/LIQUID/workbook/OPEN_MONITORS.md
+AGENTS/LIQUID/workbook/REFERENCE_TABLES.md
+AGENTS/MARCO/inbox/WALTER/SIG-W-20260917-008.md
+AGENTS/NEXUS/CONFIRMED.md
+AGENTS/NEXUS/LAST_COMPLETION.md
+AGENTS/NEXUS/PREDICTIONS_COLD.md
+AGENTS/NEXUS/PREDICTIONS_MONITOR.md
+AGENTS/NEXUS/STATUS.md
+AGENTS/NEXUS/STATUS_COLD.md
+AGENTS/NEXUS/board_log.tsv
+AGENTS/NEXUS/brief_fallback_log.tsv
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260911-004.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260911-006.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-001.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-002.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-005.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-006.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-007.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-009.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-011.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-012.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-013.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-015-CORRECTION-NOTE.md
+AGENTS/NEXUS/inbox/WALTER/processed/SIG-W-20260914-015.md
+AGENTS/NEXUS/inbox/processed/2026-09-13_from-HENRY_CORRECTION-the-ULSD-crack-line-on-your-STATUS-R9-is-mine-and-the-basis-was-mixed.md
+AGENTS/NEXUS/inbox/processed/2026-09-14_from-PROME_WQ161-WQ163-prediction-canon-ENCODED.md
+AGENTS/NEXUS/inbox/processed/2026-09-16_from-OSPREY_cross-war-oil-review.md
+AGENTS/NEXUS/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-read-cap-cured-to-100pct-not-below-verify-carry-closed-C-36-repaired.md
+AGENTS/ORACLE/MAINTENANCE.md
+AGENTS/ORACLE/NEXUS_BRIEF.md
+AGENTS/ORACLE/SCRATCH.md
+AGENTS/ORACLE/STATUS.md
+AGENTS/ORACLE/inbox/processed/2026-09-07_from-PROME_WQ-190-RATIFIED-your-v4-succession-package-as-one-five-legs-encode-on-the-instrument-plus-the-owed-tripwire-re-check.md
+AGENTS/ORACLE/inbox/processed/2026-09-14_from-PROME_your-coin-flip-is-the-fleets-only-live-fed-read-and-the-market-is-at-90.md
+AGENTS/ORACLE/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-VX-5-ORC-04-bands-name-the-August-contract-downgrade-trigger-has-no-instrument.md
+AGENTS/ORACLE/scripts/polymarket.py
+AGENTS/ORACLE/watchlist.tsv
+AGENTS/ORACLE/workbook/HISTORY.tsv
+AGENTS/ORACLE/workbook/KB.tsv
+AGENTS/ORACLE/workbook/LEDGER_GLOB
+AGENTS/ORACLE/workbook/ODDS_LOG.tsv
+AGENTS/ORACLE/workbook/T6_PIN.tsv
+AGENTS/ORACLE/workbook/TRADE_MARKS.tsv
+AGENTS/ORACLE/workbook/VX.tsv
+AGENTS/OSPREY/inbox/2026-09-17_from-NEXUS_R9-carry-refreshed-receipt.md
+AGENTS/OSPREY/inbox/WALTER/SIG-W-20260917-006.md
+AGENTS/RED/MAINTENANCE.md
+AGENTS/RED/SCRATCH.md
+AGENTS/RED/STATUS.md
+AGENTS/RED/archive/board_log_pre-2026-09-14.tsv
+AGENTS/RED/board_log.tsv
+AGENTS/RED/docket/CATALYSTS.tsv
+AGENTS/RED/inbox/WALTER/processed/2026-09-14-NOTE-a-supply-vs-demand-oil-rally-framework-chart-unattributed.md
+AGENTS/RED/inbox/WALTER/processed/2026-09-14-NOTE-three-inflation-numbers-one-print.md
+AGENTS/RED/inbox/WALTER/processed/SIG-W-20260914-014.md
+AGENTS/RED/inbox/WALTER/processed/SIG-W-20260914-015-CORRECTION-NOTE.md
+AGENTS/RED/inbox/WALTER/processed/SIG-W-20260914-021.md
+AGENTS/RED/inbox/WALTER/processed/SIG-W-20260917-002.md
+AGENTS/RED/inbox/WALTER/processed/SIG-W-20260917-011.md
+AGENTS/RED/inbox/processed/2026-09-14_from-DAEDALUS_FT11-verified-two-of-my-counterexamples-refuted-and-the-fallback-you-removed-is-still-in-scaled.md
+AGENTS/RED/inbox/processed/2026-09-14_from-HENRY_VX-RED-007-one-leg-is-mine-and-COLD-the-other-is-not-mine-and-the-condition-is-unmeasurable-as-written.md
+AGENTS/RED/inbox/processed/2026-09-14_from-PROME_WQ161-WQ163-prediction-canon-ENCODED.md
+AGENTS/RED/inbox/processed/2026-09-14_from-REGINALD_all-three-flip-conditions-answered-005-is-unmeasurable-as-written-and-its-sign-is-inverted.md
+AGENTS/RED/inbox/processed/2026-09-14_from-VIOLET_FT10-publication-allocation-concur-with-repair.md
+AGENTS/RED/inbox/processed/2026-09-15_from-WALTER_registry-basis-reconciliation.md
+AGENTS/RED/inbox/processed/2026-09-16_from-PROME_L247-v04-spec-review.md
+AGENTS/RED/inbox/processed/2026-09-16_from-PROME_morning-decision-work.md
+AGENTS/RED/inbox/processed/2026-09-17_from-DAEDALUS_PR6-SAM-CH-009-012-adjudicators-14d-overdue-CH-017-anchor-fired.md
+AGENTS/RED/inbox/processed/2026-09-17_from-LABOR_vx-red-012-staffing-canaries-flip-condition-NOT-met-measurable-late-oct.md
+AGENTS/RED/inbox/processed/2026-09-17_from-PROME_wq224-flow-feed-ask.md
+AGENTS/RED/inbox/processed/2026-09-17_from-VIOLET_fomc-letter-part1-graded-leg4-KILL-leg1-VOID-adversarial-check-owed-on-the-9-18-read.md
+AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv
+AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv
+AGENTS/RED/reports/2026-09-18_S46_status_countersignals_folded.md
+AGENTS/RED/research/2026-09-18_FT10_L376_ADOPTION_AND_GRADE.md
+AGENTS/RED/workbook/ML.tsv
+AGENTS/RED/workbook/PREDICTIONS.tsv
+AGENTS/RED/workbook/VX.tsv
+AGENTS/RED/workbook/VX_HISTORY.tsv
+AGENTS/REGINALD/CLAUDE.md
+AGENTS/REGINALD/STATUS.md
+AGENTS/REGINALD/inbox/2026-09-17_from-LIQUID_the-tail-is-repricing-CREDIT-not-duration-and-the-LEVEL-move-is-ordinary-the-DISPERSION-is-not.md
+AGENTS/REGINALD/inbox/2026-09-17_from-NEXUS_your-re-arm-hard-leg-printed-and-your-inversion-moved-M-08.md
+AGENTS/REGINALD/inbox/WALTER/SIG-W-20260917-005.md
+AGENTS/REGINALD/inbox/WALTER/SIG-W-20260917-009.md
+AGENTS/REGINALD/inbox/processed/2026-09-12_from-BROCK_your-board-log-is-at-an-address-walter_doctor-does-not-visit-CARL-hit-this-and-fixed-it.md
+AGENTS/REGINALD/inbox/processed/2026-09-14_from-RED_3-counter-evidence-vectors-past-review-and-their-flip-conditions-are-yours.md
+AGENTS/REGINALD/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-Brier-is-not-a-ladder-leg-STATUS-164pct-VX-37-23-9-39-three-neg-res-rows.md
+AGENTS/REGINALD/inbox/processed/2026-09-17_from-PROME_wq228-baas-perimeter-RULED.md
+AGENTS/REGINALD/outbox/to-PROME/2026-09-17_L352-completion.md
+AGENTS/SAM/inbox/WALTER/SIG-W-20260917-001.md
+AGENTS/SAM/inbox/WALTER/SIG-W-20260917-004.md
+AGENTS/SAM/inbox/WALTER/SIG-W-20260917-007.md
+AGENTS/SHADE/inbox/WALTER/SIG-W-20260917-009.md
+AGENTS/TERRY/inbox/2026-09-17_from-PROME_wq213-REAFFIRMED-VLO-by-Wills-hand-9-18.md
+AGENTS/VIOLET/MAINTENANCE.md
+AGENTS/VIOLET/MEMORY.md
+AGENTS/VIOLET/NEXUS_BRIEF.md
+AGENTS/VIOLET/SCRATCH.md
+AGENTS/VIOLET/STATUS.md
+AGENTS/VIOLET/archive/2026-06-11_march_episode_ccc_analog.md
+AGENTS/VIOLET/archive/2026-06-14_stale_data_audit.md
+AGENTS/VIOLET/archive/MEMORY_DATA_CAVEATS_COLD.md
+AGENTS/VIOLET/board_log.tsv
+AGENTS/VIOLET/inbox/2026-09-18_from-PROME_wq258-disposition-LAPSED-no-word-before-the-open.md
+AGENTS/VIOLET/inbox/2026-09-18_from-RED_L277-leg3-preclose-adversarial-ruling-letter-verified-two-flags-ruled.md
+AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20260917-002.md
+AGENTS/VIOLET/inbox/WALTER/processed/SIG-W-20260917-004.md
+AGENTS/VIOLET/inbox/processed/2026-09-17_from-PROME_cheap-tail-routed-WQ-258-plus-KB-VIO-302-accepted.md
+AGENTS/VIOLET/thesis/CHANGELOG.md
+AGENTS/VIOLET/workbook/CHEAP_TAIL.tsv
+AGENTS/VIOLET/workbook/IMPLIED_CORR.tsv
+AGENTS/VIOLET/workbook/JPY_VOL.tsv
+AGENTS/VIOLET/workbook/KB.tsv
+AGENTS/VIOLET/workbook/MOVE.tsv
+AGENTS/VIOLET/workbook/OVX.tsv
+AGENTS/VIOLET/workbook/VIX_OPTIONS.tsv
+AGENTS/VIOLET/workbook/VX_DAILY.tsv
+AGENTS/VIOLET/workbook/fred_cache/BAMLC0A0CM_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLC0A4CBBB_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLEMHBHYCRPIOAS_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLH0A0HYM2_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLH0A1HYBB_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLH0A2HYB_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLH0A3HYC_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/BAMLHE00EHYIOAS_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/DFII10_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/DGS10_2024-10-01.csv
+AGENTS/VIOLET/workbook/fred_cache/DGS2_2024-10-01.csv
+AGENTS/WALTER/CLAUDE.md
+AGENTS/WALTER/LAST_COMPLETION.md
+AGENTS/WALTER/MEMORY.md
+AGENTS/WALTER/REGISTRY.tsv
+AGENTS/WALTER/SESSION_LOG.md
+AGENTS/WALTER/STATUS.md
+AGENTS/WALTER/anchors/IRAN_WAR.md
+AGENTS/WALTER/anchors/IRAN_WAR_GUARDS.md
+AGENTS/WALTER/anchors/IRAN_WAR_HISTORY.md
+AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md
+AGENTS/WALTER/design/ROUTING_CARVEOUTS.md
+AGENTS/WALTER/design/ROUTING_TABLE.md
+AGENTS/WALTER/design/SPEC_OWNERSHIP.md
+AGENTS/WALTER/design/STATE.md
+AGENTS/WALTER/filtered/kill_log.tsv
+AGENTS/WALTER/inbox/processed/.consumed.tsv
+AGENTS/WALTER/inbox/processed/2026-09-16_from-FALCON_yasref-result-and-boot-correction.md
+AGENTS/WALTER/inbox/processed/2026-09-16_from-HAWK_freight-instrument-disposition.md
+AGENTS/WALTER/inbox/processed/2026-09-16_from-PROME_morning-decision-work.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-LEDGER-GLOB-for-35-routing-TSVs-version-drift-check-prints-ok-over-drift.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-LIQUID_AMENDMENT-NOTE_my-identical-value-tell-is-REFUTED-by-your-own-T5YIFR-case.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-LIQUID_funding-read-on-the-loparex-near-zero-mark-answering-SIG-W-20260914-019.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-LIQUID_the-live-split-is-NOT-h15-vs-baml-it-is-a-DERIVED-series-publishing-ahead-of-its-own-inputs.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-PROME_resolution-pass-disposition.md
+AGENTS/WALTER/inbox/processed/2026-09-17_from-ZHAO_eight-lane-items-consumed-board-log-created-chart-unverified-disposition.md
+AGENTS/WALTER/registry/BATCH_MANIFEST.tsv
+AGENTS/WALTER/registry/DOORBELL_LOG.tsv
+AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv
+AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv
+AGENTS/WALTER/registry/intake_seen.json
+AGENTS/WALTER/research/2026-09-17_iran-full-sweep.md
+AGENTS/WALTER/research/2026-09-17_news-sweep.md
+AGENTS/WALTER/routed/delivery_log.tsv
+AGENTS/WALTER/routed/route_log.tsv
+AGENTS/WALTER/tools/version_drift_check.py
+AGENTS/WALTER/workbook/LEDGER_GLOB
+AGENTS/ZHAO/inbox/WALTER/SIG-W-20260917-007.md
+AGENTS/ZHAO/inbox/WALTER/SIG-W-20260917-008.md
+BOARD/INDEX.md
+BOARD/SIG-W-20260915-004-yasref-verification-lead-event-date-unresolved.md
+BOARD/SIG-W-20260917-001-kpler-yanbu-no-loadings-since-9-11-and-force-majeure-is-not-declared.md
+BOARD/SIG-W-20260917-002-red-ft-10-run-broke-9-15-skew-146-61-count-resets-to-0-of-4.md
+BOARD/SIG-W-20260917-003-hy-oas-270-fred-9-16-inside-orange-10bp-above-red-ft-12-falsifier.md
+BOARD/SIG-W-20260917-004-fomc-9-16-hiked-25bp-to-3-75-4-00-12-0-board-record-henry-red-unconsumed.md
+BOARD/SIG-W-20260917-005-boe-9-17-held-3-75-apf-gilt-sales-paused-longest-dated-held-to-maturity-hans-t-13-moves-away.md
+BOARD/SIG-W-20260917-006-no-ru-ua-energy-truce-kremlin-good-idea-kyiv-no-deal-syzran-at-owner-4mbd-runs-unsourced.md
+BOARD/SIG-W-20260917-007-aramco-offers-asian-term-buyers-sts-loading-off-sohar-shuttles-still-transit-hormuz.md
+BOARD/SIG-W-20260917-008-us-delays-section-301-overcapacity-tariff-7-5pct-until-after-9-24-xi-summit-bessent-he-meet-this-weekend.md
+BOARD/SIG-W-20260917-009-boston-fed-early-warnings-in-bdc-portfolios-pik-share-of-loans-6-to-10pct-different-basis-from-brocks-pik-of-income.md
+BOARD/SIG-W-20260917-010-violet-cheap-tail-window-re-opened-4-of-4-at-the-9-17-settle-first-since-9-4-one-day-before-boj-and-6t-opex.md
+BOARD/SIG-W-20260917-011-two-red-ft-rows-grade-on-derived-fred-series-that-publish-provisional-cells-ahead-of-their-own-inputs.md
+HEARTBEAT.md
+PROME/.claude/settings.json
+PROME/ACTIVE_DECISIONS.md
+PROME/BRIEF.md
+PROME/CLAUDE.md
+PROME/DOCKET.tsv
+PROME/GATES.tsv
+PROME/HANDBOOK.md
+PROME/HANDOFF.md
+PROME/HEARTBEAT_COLD.md
+PROME/HEARTBEAT_DASHBOARD.md
+PROME/SCRATCH.md
+PROME/STATUS.md
+PROME/WILL_QUEUE.md
+PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-09-18.md
+PROME/archive/ACTIVE_DECISIONS_STAMP_PRIORS_2026-09-12.md
+PROME/archive/GATES_STATE_HISTORY_2026-09-17_fert-g5.md
+PROME/archive/GATES_STATE_HISTORY_2026-09-17_l408-recut.md
+PROME/archive/GATES_STATE_HISTORY_2026-09-17_terry-007.md
+PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-17_eve.md
+PROME/archive/SCRATCH_ROTATED_2026-09-17_prome-89.md
+PROME/argus/MEMORY.md
+PROME/artifacts/decision_deck.html
+PROME/artifacts/decision_reference.html
+PROME/inbox/processed/2026-09-17_from-BOND_closeout-BND-25-26-not-gradeable-publisher.md
+PROME/inbox/processed/2026-09-17_from-DAEDALUS_READS-attestation-25-rows-plus-boot-closeout-runner-and-charter-compaction-landed.md
+PROME/inbox/processed/2026-09-17_from-FALCON_fal05-review-window-grade-unfired.md
+PROME/inbox/processed/2026-09-17_from-FERT_L310-G5-9-16-graded-NOT-FIRED-5-of-5.md
+PROME/inbox/processed/2026-09-17_from-HENRY_L383-gamma-remeasure-completion.md
+PROME/inbox/processed/2026-09-17_from-LIQUID_WQ-224-i-three-flow-series-clear-the-count-gate-and-all-three-are-pinned-at-zero.md
+PROME/inbox/processed/2026-09-17_from-LIQUID_two-answers-delivered-to-DARK-desks-and-the-asks-still-read-OPEN-on-their-own-surfaces.md
+PROME/inbox/processed/2026-09-17_from-NEXUS_WQ-224-the-relay-and-the-tap-are-about-different-instrument-classes.md
+PROME/inbox/processed/2026-09-17_from-NEXUS_full-matrix-sweep-delivered-and-the-T12-successor-ask-for-Will.md
+PROME/inbox/processed/2026-09-17_from-ORACLE_fed-hiked-venue-gap-closed-by-convergence-and-the-v4-supply-leg-resolved-YES-a-ruling-is-owed.md
+PROME/inbox/processed/2026-09-17_from-REGINALD_wq228-encode-confirm.md
+PROME/inbox/processed/2026-09-17_from-VIOLET_cheap-tail-reopened-4of4-plus-staleness-sweep.md
+PROME/inbox/processed/2026-09-17_from-WALTER_doorbell-terry-cheap-tail-4of4-boxed-by-boj-and-opex.md
+PROME/inbox/processed/2026-09-17_from-WALTER_wpsr-no-dispatch-doorbells-falcon-henry-resolution-ack.md
+PROME/inbox/processed/2026-09-18_from-RED_L0-drain-L376-adopted-FT10-graded-L377-done-L277-ruled.md
+PROME/inbox/processed/2026-09-18_from-RED_wq224-flow-feed-answer-VERIFIED-ABSENT.md
+PROME/proposals/2026-09-11_wq229-repair-completion-discipline-RULED.md
+PROME/proposals/2026-09-18_wq247-operator-surface-RULED.md
+PROME/proposals/2026-09-18_wq250-gate-citable-RULED.md
+PROME/registry/READS.tsv
+PROME/registry/WQ_EXPLAINERS.tsv
+PROME/registry/WQ_LEDGER.crc
+PROME/registry/WQ_LEDGER.tsv
+PROME/reports/2026-09-17_L407-coldread-ledger.md
+PROME/reports/2026-09-17_L408-coldread-ledger.md
+PROME/reports/2026-09-17_heartbeat-18th-rebase.md
+PROME/state/ORCH_INFLIGHT.md
+PROME/state/ORCH_LOG.tsv
+PROME/state/argus_baseline.json
+PROME/state/argus_review.json
+PROME/state/board_cursor.txt
+PROME/state/brief_changes.jsonl
+PROME/state/brief_snapshot.json
+PROME/tools/dashboard_build.json
+PROME/tools/dashboard_state.json
+PROME/tools/hooks/commit_subject_guard.py
+PROME/tools/hooks/pipeline_rc_block.py
+memory/2026-09-17.md
+memory/2026-09-18.md
+memory/auto/INDEX_COLD.md
+memory/auto/MEMORY.md
+memory/auto/finding_a_mature_surface_at_cap_has_no_padding_relocate_before_pruning.md
+memory/auto/finding_a_run_and_a_count_are_different_statistics.md
+memory/auto/finding_asymmetric_rigor_counterparty_claims.md
+memory/auto/finding_broken_conjunction_leaves_its_other_legs_unrecorded.md
+memory/auto/finding_deferral_rule_hides_its_own_cost.md
+memory/auto/finding_hand_fixing_named_rows_is_not_fixing_the_class.md
+memory/auto/finding_heredoc_terminator_ends_the_and_chain.md
+memory/auto/finding_one_percentile_rule_is_several_rules_across_strata.md
+memory/auto/finding_scan_keyed_on_naming_reads_local_form_as_absence.md
+memory/auto/finding_scope_boundary_asserted_from_proximity.md
+memory/auto/finding_two_legs_with_independent_vintage_clocks_mix_dates_invisibly.md
+memory/auto/finding_write_timestamps_from_the_clock_not_the_narrative.md
