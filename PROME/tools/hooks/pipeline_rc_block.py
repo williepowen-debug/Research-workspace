@@ -20,6 +20,17 @@ v3 (2026-09-18, after the SECOND independent cold read `wq244cold2`, 4 ❌ on th
  ❌10 `PIPESTATUS`/`pipefail` mentioned ANYWHERE (a comment, an unrelated string) disables both recognisers via the
     recogniser's own `ALREADY_SAFE` allowlist — DAEDALUS's file, declared here as the recogniser's perimeter and
     packeted to DAEDALUS, not re-implemented by this wrapper.
+v4 (2026-09-18, after the THIRD independent cold read `wq244cold3`, 4 ❌ on this wrapper — each a drill below):
+ ❌5 the command-position test walked ONE interpreter level, so `time` / `env VAR=1` / `nice -n 5` before `python3 <gate>`
+    suppressed a real defect. Now: prefix commands (time env nice sudo timeout nohup stdbuf command exec) and their
+    arguments are walked past before the command word is judged.
+ ❌6 only the FIRST recogniser-1 match was tested, so a legitimate argument-position mention earlier in the line
+    consumed the rest. Now: EVERY match is tested; any one in command position confirms the hit.
+ ❌7 a `$?` belonging to an unrelated LATER command (`… | tail -3; git status --short; echo $?`) blocked a gate piped for
+    display — the recogniser's regex lets any number of commands sit between the pipeline and the read. Now: the
+    read must sit in the segment IMMEDIATELY after the pipeline (exactly one command boundary between them).
+ ❌8 (wiring) `python3 "$(git rev-parse --show-toplevel)/…"` exits 2 — the BLOCK code — if the root fails to
+    resolve. Now: the wiring tests the script path first and fails OPEN with an advisory when it is missing.
 v2 (after `wq244cold`): pipes inside quoted strings are text — their `|` characters are blanked before a hit is
 confirmed; a `$?` read inside the same quoted string still counts.
 
@@ -42,7 +53,8 @@ _BLOCK_LINE = "   ⛔ BLOCKED by PROME/tools/hooks/pipeline_rc_block.py (WQ-244,
 _LIFT = (re.compile(r"\b(?:bash|sh|zsh|dash)\s+(?:-[a-zA-Z]*c[a-zA-Z]*\s+)(['\"])(.*?)\1", re.S),
          re.compile(r"\beval\s+(['\"])(.*?)\1", re.S))
 _QUOTED = re.compile(r"(?<![\w])\"(?:[^\"\\]|\\.)*\"|(?<![\w])'[^']*'", re.S)
-_INTERP = ("python3", "python", "bash", "sh", "zsh", "exec", "command", "time", "source", ".")
+_INTERP = ("python3", "python", "bash", "sh", "zsh", "source", ".")
+_PREFIX = ("time", "env", "nice", "sudo", "timeout", "nohup", "stdbuf", "command", "exec")
 _ENV_ASSIGN = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*=")
 
 
@@ -64,8 +76,18 @@ def _gate_in_command_position(text, m):
     start = m.start("gate")
     seg_start = max([text.rfind(ch, 0, start) for ch in (";", "\n", "(", "|", "&")] + [-1]) + 1
     toks = text[seg_start:m.end("gate")].split()
-    while toks and _ENV_ASSIGN.match(toks[0]):
-        toks.pop(0)
+    # walk past env assignments and PREFIX commands with their arguments (r3 ❌5): `time`, `env VAR=1`, `nice -n 5`,
+    # `sudo -u x`, `timeout 30`, `nohup`, `stdbuf -oL`, `command`, `exec` — then judge the command word.
+    while toks:
+        t = toks[0].lstrip("(")
+        if _ENV_ASSIGN.match(t):
+            toks.pop(0); continue
+        if os.path.basename(t) in _PREFIX:
+            toks.pop(0)
+            while toks and (toks[0].startswith("-") or _ENV_ASSIGN.match(toks[0]) or toks[0].isdigit()):
+                toks.pop(0)
+            continue
+        break
     if not toks:
         return False
     head = toks[0].lstrip("(")
@@ -81,6 +103,16 @@ def _gate_in_command_position(text, m):
     return any(gate.lower() in os.path.basename(c).lower() for c in cands)
 
 
+_SEP = re.compile(r";|&&|\|\||\n")
+
+
+def _read_is_immediate(m):
+    """r3 ❌7: the `$?` read must sit in the segment IMMEDIATELY after the pipeline — exactly one command boundary
+    between the pipeline's last element and the read. Two or more means the `$?` belongs to a later command."""
+    tail = m.group(0)[m.group(0).rfind("|") + 1:]
+    return len(_SEP.findall(tail)) == 1
+
+
 def verdict(cmd, guard_path=_GUARD):
     """(hit, message, suppressed_reason)."""
     mod = _load(guard_path)
@@ -89,13 +121,25 @@ def verdict(cmd, guard_path=_GUARD):
     if not hit:
         raw_hit, _ = mod.diagnose(cmd)
         return False, "", ("raw hit suppressed: the pipe was inside a quoted string" if raw_hit else "")
-    m = mod.PIPE_THEN_RC.search(text)
-    if m and not _gate_in_command_position(text, m):
-        hit2, msg2 = mod._diagnose_three_state(text)
-        if hit2:
-            return True, msg2, ""
-        return False, "", f"raw hit suppressed: `{m.group('gate')}` is an ARGUMENT of `{text[max(text.rfind(c,0,m.start('gate')) for c in (';','\n','(','|','&'))+1:m.start('gate')].split()[0] if text[max(text.rfind(c,0,m.start('gate')) for c in (';','\n','(','|','&'))+1:m.start('gate')].split() else '?'}`, not the command run"
-    return True, msg, ""
+    if mod.ALREADY_SAFE.search(text):
+        return True, msg, ""
+    matches = list(mod.PIPE_THEN_RC.finditer(text))
+    if not matches:
+        return True, msg, ""                      # recogniser 2 (three-state) — DAEDALUS's own command-word test
+    reasons = []
+    for m in matches:                              # r3 ❌6: every match, not the first
+        if not _gate_in_command_position(text, m):
+            seg = text[max(text.rfind(c, 0, m.start("gate")) for c in (";", "\n", "(", "|", "&")) + 1:m.start("gate")].split()
+            reasons.append(f"`{m.group('gate')}` is an ARGUMENT of `{seg[0] if seg else '?'}`, not the command run")
+            continue
+        if not _read_is_immediate(m):
+            reasons.append(f"the `$?` after `{m.group('gate')}`'s pipeline belongs to a LATER command, not the pipeline")
+            continue
+        return True, msg, ""
+    hit2, msg2 = mod._diagnose_three_state(text)
+    if hit2:
+        return True, msg2, ""
+    return False, "", "raw hit suppressed: " + "; ".join(reasons)
 
 
 def _load(path=_GUARD):
@@ -129,7 +173,7 @@ def _handle(data, guard_path=_GUARD):
     return 0
 
 
-EXPECTED_DRILLS = 22
+EXPECTED_DRILLS = 27
 
 
 def selftest():
@@ -165,6 +209,12 @@ def selftest():
     drill("B3 malformed: tool_input is a string -> 0", 0, {"tool_name": "Bash", "tool_input": "x"})
     drill("non-Bash tool -> 0", 0, {"tool_name": "Edit", "tool_input": {"file_path": "x"}})
     drill("B4 recogniser missing -> 0 (fail-open on the wrapper's own error)", 0, bash('python3 scripts/validate_all.py | tail -1; echo $?'), path="/nonexistent/pipeline_rc_guard.py")
+    # r3 ❌5 / ❌6 / ❌7 VERBATIM
+    drill("r3 ❌5: time python3 <gate> | tail; echo $? -> 2", 2, bash('time python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
+    drill("r3 ❌5: env VAR=1 python3 <gate> | tail; echo $? -> 2", 2, bash('env VAR=1 python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
+    drill("r3 ❌5: nice -n 5 python3 <gate> | tail; echo $? -> 2", 2, bash('nice -n 5 python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
+    drill("r3 ❌6: an argument-position mention BEFORE a real defect on the same line -> 2", 2, bash('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?; python3 scripts/validate_all.py 2>&1 | tail -1; echo $?'))
+    drill("r3 ❌7: gate piped for display, then an unrelated command, then echo $? -> 0", 0, bash('python3 scripts/read_cap_check.py --agent PROME | tail -3; git status --short; echo $?'))
     # --explain honesty (⚠️17): a suppressed raw hit is REPORTED
     _, _, why = verdict('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?')
     ok = why.startswith("raw hit suppressed"); print(f"  {'✓' if ok else '✗'} verdict() names a suppressed raw hit ({why[:60]!r})")
@@ -172,7 +222,7 @@ def selftest():
     _, _, why = verdict('ls -la | head -3; echo $?')
     ok = why == ""; print(f"  {'✓' if ok else '✗'} verdict() reports nothing when there was no raw hit")
     if not ok: fails.append("phantom suppression reported")
-    total = 22
+    total = 27
     if total != EXPECTED_DRILLS:
         fails.append("SUITE SIZE CHANGED (PAT-172)")
     for f in fails: print(f"  ❌ {f}")

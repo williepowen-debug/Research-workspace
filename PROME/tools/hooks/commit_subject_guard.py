@@ -22,6 +22,20 @@ v3 (2026-09-18, after the SECOND independent cold read `wq244cold2`, 6 ❌ on th
     tokenised per line (backslash continuations joined first).
  ❌6 `eval "git commit …"` was read as quoted prose (silent bypass). Now: `eval` bodies are lifted like `-c` bodies;
     `$GIT commit` is UNKNOWN with an advisory.
+v4 (2026-09-18, after the THIRD independent cold read `wq244cold3`, 5 ❌ on this file — each a drill below):
+ ❌1 an INDENTED continuation line of the first paragraph was under-counted (each line was stripped; git keeps the
+    leading whitespace of continuation lines when it joins them). Now: only the first line is left-stripped.
+ ❌2 `-F -` / `--file=-` with the message heredoc on stdin was reported UNKNOWN though fully determinable. Now: a
+    heredoc on a `git commit … -F -` line is that commit's message.
+ ❌3 the absolute-path ON-DISK read still blocked when the same command rewrote the file under ANOTHER SPELLING
+    (`./msg.txt`, `$HOME/../..`, a `python3 -` writer, `sed -i`) — path-string comparison cannot see that. Now: this
+    hook NEVER reads a message file from disk; a `-F` message is determinable ONLY from a WRITE heredoc in the same
+    command (or `-F -`). Everything else is UNKNOWN + advisory. A3 is narrowed accordingly.
+ ❌4 `$'…'` ANSI-C quoting left a phantom `$` in the measured text. Now: `$'` is normalised to `'` before tokenising
+    (escape sequences inside may differ by a character — declared).
+ ❌8 (wiring) the settings command `python3 "$(git rev-parse --show-toplevel)/…"` would exit 2 — the BLOCK code — if
+    the root ever failed to resolve, blocking every Bash command. Now: the wiring tests the script path first and
+    fails OPEN with an advisory when it is missing.
 v2 (after `wq244cold`): stale-file `-F` rewrites, `cd` + relative `-F`, `$VAR`/`$(…)` messages, `bash -c` bodies,
 `/usr/bin/git`, combined short flags (`-am`), NFC measurement, redirect-after-marker and `tee` heredoc targets.
 
@@ -30,9 +44,8 @@ ACCEPTANCE CONDITIONS (WQ-229; the selftest IS this list):
     the length, the rule and the subject) — including a second commit on a later line and an `eval`/`bash -c` body.
  A2 a subject ≤100 characters is never blocked; length is CHARACTERS after NFC normalisation, never bytes.
  A3 a subject supplied by `-F <file>` is determinable ONLY when the SAME Bash command writes that file by a WRITE
-    heredoc that nothing else in the command rewrites, or when the path is ABSOLUTE, literal, already on disk and
-    untouched by the command; every other `-F` is UNKNOWN — allow + advisory, never a block on a file the shell
-    would not read as-is.
+    heredoc that nothing else in the command rewrites, or by `-F -` with the heredoc on stdin; this hook never
+    reads a message file from disk; every other `-F` is UNKNOWN — allow + advisory.
  A4 prose inside heredoc BODIES (bash-exact terminators) and whitespace-bearing quoted strings is never scanned as
     a command.
  A5 any hook error (unparseable input, non-object JSON, non-object tool_input, shlex failure, exception) exits 0
@@ -40,7 +53,7 @@ ACCEPTANCE CONDITIONS (WQ-229; the selftest IS this list):
  A6 the selftest asserts its own size (EXPECTED_DRILLS) and drives the recogniser on VERBATIM shapes from this
     session's own commits and from both cold readers' counterexamples (PAT-172).
  A7 the subject is measured the way `git log --format=%s` measures it: first paragraph joined by single spaces,
-    trailing whitespace stripped, NFC-normalised.
+    continuation lines' leading whitespace KEPT, trailing whitespace stripped, NFC-normalised.
 
 PERIMETER: a PreToolUse **Bash** hook sees the literal command text. A `git commit` that is VISIBLE but whose message
 is not determinable is ALLOWED WITH AN ADVISORY. A commit that is NOT visible — a script invoked by path, a git alias,
@@ -69,6 +82,7 @@ _EVAL = re.compile(r"\beval\s+(['\"])(.*?)\1", re.S)
 _QUOTED = re.compile(r"'([^']*)'|\"([^\"]*)\"")
 _RUNTIME = re.compile(r"\$[A-Za-z_{(]|`")
 _GITVAR = re.compile(r"\$\{?GIT\}?\s+commit\b")
+_STDIN_F = re.compile(r"(?:^|\s)(?:-F\s*-|--file=-)(?=\s|$)")
 _PUNCT = {";", "&&", "||", "|", "&", "(", ")", ">", "<", ">>", "<<", ">&", "<&", "|&"}
 _GIT_GLOBAL_WITH_ARG = ("-C", "-c")
 
@@ -104,6 +118,8 @@ def _heredocs(cmd):
                         appended.add(path)
                     else:
                         bodies[path] = "\n".join(lines[i + 1:end])
+                elif GIT_CMD.search(ln) and _STDIN_F.search(ln):
+                    bodies["-"] = "\n".join(lines[i + 1:end])
                 i = end
         i += 1
     return bodies, appended, "\n".join(out), hd_idx
@@ -128,7 +144,9 @@ def _subject_of(message):
     for ln in lines:
         if not ln.strip():
             break
-        para.append(ln.strip())
+        para.append(ln.rstrip())
+    if para:
+        para[0] = para[0].lstrip()
     return unicodedata.normalize("NFC", " ".join(para).rstrip())
 
 
@@ -141,7 +159,7 @@ def _commit_arg_lists(scan):
     """Every `git … commit <args…>` in the command, as token lists. The whole text is tokenised at once (a quoted
     message may span lines), and a commit's argument scan STOPS at punctuation OR at the next `git` command word —
     so a second commit on a new line (r2 ❌5) is its own command, never swallowed as arguments of the first."""
-    lifted = _lift(scan)
+    lifted = _lift(scan).replace("$'", "'")   # ANSI-C quoting → plain single quotes (r3 ❌4)
     lex = shlex.shlex(lifted, posix=True, punctuation_chars=True)
     lex.whitespace_split = True
     toks = list(lex)                          # ValueError propagates → UNKNOWN
@@ -164,7 +182,9 @@ def _commit_arg_lists(scan):
 
 def _file_message(path, bodies, appended, rewritten):
     if path == "-":
-        return None, "-F - reads stdin — subject not in the command text"
+        if "-" in bodies:
+            return bodies["-"], "-F - with the heredoc on stdin in this command"
+        return None, "-F - reads stdin and no heredoc feeds it in this command"
     if path in appended:
         return None, f"-F {path!r} is APPENDED to by a heredoc in this command — the subject is whatever is already on disk"
     if path in bodies and path in rewritten:
@@ -174,13 +194,8 @@ def _file_message(path, bodies, appended, rewritten):
     if not path or _RUNTIME.search(path):
         return None, f"-F {path!r} is not a literal path"
     if path in rewritten:
-        return None, f"-F {path!r} is REWRITTEN by this command (> or tee) with no heredoc body — the on-disk content is stale"
-    if not os.path.isabs(path):
-        return None, f"-F {path!r} is relative — the hook's cwd is not the shell's; only absolute literal paths are read"
-    if os.path.isfile(path):
-        with open(path, encoding="utf-8", errors="replace") as fh:
-            return fh.read(), "-F absolute file already on disk"
-    return None, f"-F {path!r} is neither written by a heredoc in this command nor an existing absolute path"
+        return None, f"-F {path!r} is REWRITTEN by this command (> or tee) with no heredoc body"
+    return None, f"-F {path!r} is not written by a heredoc in this command — this hook never reads a message file from disk (a same-command writer under another spelling made that unsafe)"
 
 
 def _message_from(args, bodies, appended, rewritten):
@@ -280,7 +295,7 @@ def _handle(data):
     return 0
 
 
-EXPECTED_DRILLS = 53
+EXPECTED_DRILLS = 58
 
 
 def selftest():
@@ -302,8 +317,8 @@ def selftest():
         (f'git commit PROME/STATUS.md -m "{exact100}x"', "block", "A1 — 101 chars, one over"),
         (hd('"$SP/msg.txt"', long_subj), "block", "A3 — -F with the WRITE heredoc in this command (house style), quoted $VAR path"),
         (hd("$SP/msg.txt", "PROME: short subject"), "allow", "A3 — heredoc short subject, unquoted $VAR path"),
-        (f'git commit PROME/STATUS.md -F {stale.name}', "block", "A3 — -F ABSOLUTE path already on disk, long, untouched by the command"),
-        (f'git commit PROME/STATUS.md -F {short.name}', "allow", "A3 — -F absolute path on disk, short"),
+        (f'git commit PROME/STATUS.md -F {stale.name}', "unknown", "A3 v4 — -F absolute path on disk, long: NEVER read from disk ⇒ UNKNOWN (r3 ❌3 made disk reads unsafe)"),
+        (f'git commit PROME/STATUS.md -F {short.name}', "unknown", "A3 v4 — -F absolute path on disk, short ⇒ UNKNOWN"),
         ('git commit PROME/STATUS.md -F "$SP/never_written.txt"', "unknown", "A3 missing information — $VAR path, no heredoc, no file ⇒ UNKNOWN"),
         (f'cat > "$SP/a.txt" <<\'EOF\'\n{long_subj}\nEOF\ngit commit PROME/STATUS.md -F "$SP/b.txt"', "unknown", "wrong owner — heredoc targets a DIFFERENT file than -F names ⇒ UNKNOWN"),
         (f'cat > notes.md <<\'EOF\'\nremember: git commit -m "{long_subj}"\nEOF\necho done', "allow", "A4 — `git commit -m <long>` appears ONLY inside a heredoc body (prose)"),
@@ -343,6 +358,12 @@ def selftest():
         (f'git commit -m "short" PROME/STATUS.md\ngit commit -m "{long_subj}" PROME/SCRATCH.md', "block", "r2 ❌5 — a second commit on a NEW LINE is its own command ⇒ block"),
         (f'eval "git commit -m \'{long_subj}\'"', "block", "r2 ❌6 — eval body lifted and scanned"),
         (f'$GIT commit -m "{long_subj}"', "unknown", "r2 ⚠️ — git through a variable ⇒ UNKNOWN + advisory (was silent)"),
+        # ── wq244cold3 (third read), VERBATIM ──
+        ('git commit -m "' + "x" * 50 + '\n   ' + "y" * 48 + '\n\nbody"', "block", "r3 ❌1 — an INDENTED continuation line keeps its leading spaces when git joins: 50+1+3+48 = 102 ⇒ block"),
+        (f"git commit PROME/STATUS.md -F - <<'EOF'\n{long_subj}\n\nbody\nEOF", "block", "r3 ❌2 — -F - with the heredoc on stdin is determinable ⇒ block"),
+        (f"cd /tmp/cr3 && printf '%s\\n' \"short\" > ./msg.txt && git commit PROME/STATUS.md -F /tmp/cr3/msg.txt", "unknown", "r3 ❌3 — same file rewritten under ANOTHER spelling: no disk read ⇒ UNKNOWN, never a block"),
+        ("git commit PROME/STATUS.md -m $'" + exact100 + "'", "allow", "r3 ❌4 — $'…' ANSI-C quoting, exactly 100 chars ⇒ allow (no phantom $)"),
+        ("git commit PROME/STATUS.md -m $'" + exact100 + "x'", "block", "r3 ❌4 — $'…' with 101 chars ⇒ block"),
     ]
     fails = []
     here = os.getcwd()
