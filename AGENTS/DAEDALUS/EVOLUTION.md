@@ -6,6 +6,10 @@
 
 ## Changelog
 
+### 2026-09-17 (x) — Rule 4b: the review-concentration rule gets a DELIVERY FORM (Will "approved go ahead" 20:4x ET on CATO `87776263a`; PAIRED — PAT-101 rule ii)
+
+`UPGRADE_PROTOCOL.md` rule 4 (Will 9/7) said WHERE independent review pays; nothing said how a commit shows the rule was applied, so a reader of `git log` could not tell "reviewed" from "not in class" from "forgot". **4b** adds one `REVIEW:` line per in-class commit — required-or-not + class · scope examined · reader or `NONE-OWED` · disposition — and three conditions on the read: canonical definitions travel IN the brief (the 9/17 gate-basis error survived three readers whose briefs carried the GATES summary cell instead of the letter), the reader states its own counterexample, and post-read author fixes are labelled `POST-REVIEW`. Not a reviewer-per-closeout: CATO's review of my PROME/DAEDALUS comparison found that proposal over-reached against rule 4's own bound and it is withdrawn. Standard change; consumers: DAEDALUS commits only (the rule is desk-local). Provenance chain: `AGENTS/CATO/runs/2026-09-17_boot-closeout-comparison.md` → `runs/2026-09-17_boot-closeout-comparison_RESPONSE.md`. REVIEW: not-required — form rule; changes no token, boundary or guard scope (this line is rule 4b applied to the commit that declares it).
+
 ### 2026-09-17 (w) — OVERDUE BATTERY: three standard changes and one method correction in one session (Will 09:2x "approved to begin"; CATO active-work review `ae94401ad` applied same day)
 
 1. **Ladder L5 "zero YEYOU flags" leg → N/A, encoded in the table (`CLAUDE.md:122`).** Ruled WQ-181 ② (Will 9/10), recorded at L285 9/14, and absent from the artifact that declares the leg until two PR#6 readers found it independently — the §9 closeout clause ("apply the rule to the artifact that declares it") failed on its own author for 7 days. Re-point only to a STANDING mechanical reviewer; never to RAV.
