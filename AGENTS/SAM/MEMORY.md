@@ -46,7 +46,7 @@ Second Will-directed session of 9/18 — live-data catch-up. Will asked whether 
 
 ### NEXT SESSION
 
-**TIER 0 — TONIGHT, AFTER 16:00 ET. Terms are FROZEN; run them cold.**
+**TIER 0 — THE 16:00 ET CLOSE HAS PASSED (session ran to ~16:30 ET). SAM-28/31 are GRADEABLE NOW on frozen terms; not graded in this session. Run them cold.**
 1. 🔴 **Record the official FXY close against 58.49** (= 56.79 × 1.03). ⚠️ **It went ABOVE the bar intraday (58.51 at 17:43Z) after being 58.44 below it at 15:01Z** — so the "FALSE is over-determined" shortcut in the prep file **may no longer be available**, and the endpoint convention may have to be genuinely adjudicated. ⛔ Read the CLOSE, never an intraday quote. **Do not let the intraday print pre-load the grade in either direction.**
 2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE **on the ROUTE leg** (4 of 5 settled no-fire), **with the "sustained MOF #3 → TRUE" alternative disclosed, not buried.** ⚠️ **The route leg carries the grade regardless of where FXY closes** — the magnitude leg discriminates nothing (469 qualifying endpoint pairs).
 3. Pull the **15:30 ET CFTC COT** (Sep-15 positions). Record it; it enters **neither** row's terms.
@@ -75,7 +75,7 @@ Second Will-directed session of 9/18 — live-data catch-up. Will asked whether 
 
 **SUB-AGENT CLOSEOUT — standing:** after any run, `subagent_memory_roll.py`; after KURA, also `kura_proposal_roll.py`. Never `--all` while a sub-agent is live. They propose, SAM applies.
 
-**DO NOT:** grade SAM-28/31 before the 16:00 ET close, or from an intraday FXY print; rearm retired −153K/85% (moot — book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing; cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
+**DO NOT:** 🆕 **quote an INTRADAY print where a CLOSE is the instrument** — its own failure class, separate from the roll defect and with no rule against it until now (9/18: the retired −7.5% Brent figure had BOTH defects, a Nov→Dec roll AND a 02:15Z intraday quote standing in for the Sep-15 close; only the roll had a rule). 🆕 **compare continuous oil across rolls — NOW MECHANIZED, stop relying on this line:** `scripts/oil_roll_check.py`, boot-wired, fails closed on a roll OR on an unresolved window. Grade SAM-28/31 from an intraday FXY print; rearm retired −153K/85% (moot — book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing; cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
 
 ### PRIOR SESSIONS — archived
 

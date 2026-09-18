@@ -6,6 +6,23 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-18 (PM, fourth pass) — the roll rule is now MECHANIZED: `scripts/oil_roll_check.py` built + boot-wired
+
+**Boot-impact: BOOT_SEQUENCE 13 → 14 wired tools; new step runs directly after the threshold monitor that pulls the Brent quote, so it fires ON the comparison. `--tools` rc 0, no drift.**
+
+- **Why built, in one line:** the rule against comparing continuous oil across rolls was **already written in two places** — SAM's `CLAUDE.md` DO-NOT list *and* the STATUS cell that broke it — and it **did not fire**. PROME's count makes this the **seventeenth fleet instance** of correct-rule/absent-wiring. A rule in a list only fires when a writer remembers to consult it; this fires on the comparison.
+- **What it does:** resolves a continuous ticker (`BZ=F`/`CL=F`) to its underlying named contract per session by price-matching against generated contract months, then reports whether the contract changed inside the window and prints the **matched-contract** percentage moves alongside the (invalid) continuous one.
+- ⛔ **FAIL-CLOSED BY DESIGN:** an **unresolved** session exits non-zero exactly like a detected roll. *An unresolved window and a clean window must not share an exit code* — otherwise the guard certifies silence, which is the defect class it exists to prevent (`[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`).
+- **Validated three ways before wiring, not just run once:**
+  1. **Positive:** reproduces the 9/15→9/18 Brent roll — `BZX26 → BZZ26` on 9/18, matched moves **Nov −5.20% / Dec −4.46%** against **−9.24%** continuous.
+  2. **Negative control:** 9/10→9/17 returns **NO ROLL**, single contract `BZX26`, rc 0 — it does not cry wolf.
+  3. **Independent cross-desk:** run on `CL=F` it finds **`CLV26 → CLX26` on 9/18** — the same roll **TERRY identified by hand** at `setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md:491-504`, on a contract and a desk this script knew nothing about. *A guard that reproduces another desk's manual finding is validated; one that only agrees with its author is not (`[[finding_test_the_guard_not_just_the_guarded]]`).*
+- 🔧 **Docstring reshaped to `title — summary`** after `--tools` rendered the wrong paragraph: `_one_line_purpose` takes the text after a separator, else the *next* line. Fixed the script, not the extractor — 19 other tools depend on that convention.
+- **Also incidental confirmation of the second defect:** the check reports the continuous 9/15→9/18 move as **−9.24%**, not the **−7.46%** I published, because I had used an **intraday 02:15Z** Sep-15 quote instead of the close. Added to the DO-NOT list as its own class on PROME's prompt.
+- ⚠️ **Portable, and deliberately not generalized by me:** any desk quoting continuous futures has this exposure. Offering it rather than installing it — other desks' wiring is theirs.
+
+---
+
 ## 2026-09-18 (PM, third pass) — CATO R1/R2/R3 taken in full; two causal claims withdrawn
 
 **Boot-impact: none structural. STATUS 22,752 → ~23.8 KB (73%, under the 75% trigger, rc 0) — correction text, deliberately not trimmed back.**

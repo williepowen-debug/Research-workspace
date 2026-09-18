@@ -62,6 +62,7 @@ def _has_today_row(tsv_path):
 # Boot sequence: (label, script_name, args, section_header, slow)
 BOOT_SEQUENCE = [
     ("Market / Threshold Monitor", "thresholds.py",        [], "THRESHOLDS",   False),
+    ("Oil Roll Check (basis guard)","oil_roll_check.py",    ["--boot","--ticker","BZ=F","--days","7"], "OIL ROLL", False),
     ("USDJPY History",             "usdjpy.py",            [], "USDJPY",       False),
     ("JGB Yields",                 "jgb_yields.py",        [], "JGB YIELDS",   False),
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
