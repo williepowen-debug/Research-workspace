@@ -55,3 +55,36 @@ All three branches partitioned **what the Fed did**. The axis that governed T+1/
 **GAPS:** MOVE and SKEW published **no 9/18 bar** (primary stale; CBOE SKEW unscheduled) — recorded UNREAD, not imputed; grade unaffected by exhaustion. CBOE **history** CSVs had not posted 9/18 at 16:3x, so spot used CBOE's delayed-quote close (dispersion ≤0.08, no verdict moves); re-pull next boot. **HENRY's L411 board had not landed**, so gamma context is the 9/17 board, which HENRY stamps one-session shelf life.
 **WILL_NEEDS:** **WQ-259** (artifacts, 50 days stale) — the hold-to-9/23 case is weaker now the headline leg is graded and failed. No new decision raised; **nothing here is tradeable.**
 **FOLLOW-UP:** Leg 2 grades on the **9/23 close** (ΔVIX from 17.71; >0 confirms, **< −1.41% kills**; running −16.26%) → then part 3, the whole-letter postmortem. HENRY owes L411.
+
+---
+
+## ⏭️ ADDENDUM 2026-09-18 16:3x ET — **HENRY's L411 board landed at 16:27, after the grade. My GAPS line above is CLOSED. ⛔ The grade does not move.**
+
+⚠️ **The COMPLETION block above stays exactly as written** — it was true at delivery and its GAPS line is part of the record. This addendum closes it rather than rewriting it.
+
+**L411 is DELIVERED and verified at HENRY's own ledger** (`AGENTS/HENRY/workbook/PUBLISHED.tsv`, `4294f9187` 16:27 / `c5f769a45` 16:28), **not taken off HENRY's message.** For your rails: **L411 → RESOLVED on that artifact.**
+
+`HENRY 2026-09-18 close: flip ~7,668 (14d) / ~7,668 (35d); sign NEGATIVE; NO WALL PUBLISHABLE.` SPX **7,650.50** · Net GEX **−$9.9B / −$12.1B** per 1% · spot −17pt (−0.23%) below the flip · cross-horizon flip agreement **exact**.
+
+🔑 **HENRY's read: the opex removed the FORCE, not the DIRECTION.** −$48.8B/−$52.5B [9/17] → −$9.9B/−$12.1B [9/18] = **−77%/−80%** while the sign held negative a **4th** session. **It did not resolve by dealers re-hedging — the open interest EXPIRED**; 35d contract count fell only **12.5%** against a 77% magnitude fall (composition, not count). ⛔ **Do not let "the negative-gamma squeeze is building" onto any surface — this board is its opposite.** ⚠️ Free-tier caveat travels: sign and flip robust, the $B assumption-dependent — **quote "~77–80%", never a decimal.** ⛔ **Shelf life ONE session; do not carry it into 9/21.**
+
+**✅ My branch-A correction was accepted and applied by HENRY.** The refuted sentence had already rotated into HENRY's archive, so HENRY annotated it *there* — **a rotated claim is still a readable claim**, which is a good rule and better than my packet asked for.
+
+### 🔴 The part that is mine, and it went against me
+
+HENRY records my structural finding as **UNADJUDICATED** in its own GEX section, stating that *"the amplifier expired"* (its measurement) and *"a relief tape absorbed it"* (my reading) are **both consistent with the board and the board cannot separate them**, and declines to adjudicate from the gamma layer. **The vol layer is mine, so I tried to separate them — and my discriminator died on its own base rate before I sent it.**
+
+Candidate: *9/17 was a genuine repricing (VIX −12.82%, VVIX −8.06%, both crushed); 9/18 was mechanical (VIX −3.95% with VVIX flat at −0.10%).* Cohorts from `VX_DAILY`, 425 sessions carrying both columns, consecutive pairs only:
+
+| session | VIX %Δ | VVIX %Δ | cohort | cohort median | **percentile** |
+|---|---:|---:|---|---:|---:|
+| 9/17 | −12.82% | −8.06% | VIX ≤ −10% (n=29) | −10.77% | **p76** |
+| 9/18 | −3.95% | −0.10% | VIX −2…−6% (n=94) | −2.29% | **p83** |
+
+⛔ **The split required 9/17 to be an ORDINARY session. It is p76. Refuted.** What survives is weaker and I am stating it as weak: **VVIX under-fell on BOTH sessions** (+2.71pp / +2.19pp vs cohort medians) — loosely *"the relief was in the LEVEL, not the UNCERTAINTY"* — ⚠️ **but p76/p83 is a LEAN, not a finding, and n=2 sessions of one event is not a sample** (16% of the 9/18 cohort had VVIX *rise*). ⇒ **I CONFIRM HENRY'S "UNADJUDICATED" FRAMING RATHER THAN RESOLVING IT, and it is recorded as unadjudicated on both surfaces by both owners** — not left as an implied agreement neither desk holds. **KB-VIO-307.**
+
+⚠️ **Worth one line for the WQ-229/process ledger, because it is the session's own lesson turning on its author.** I had a clean, plausible, domain-appropriate story and was one message from sending it to the desk that had just deferred to me. **It failed the first base rate I ran against it — and the leg that killed it (9/17 being unusual too) is the one I would never have checked had I been arguing FOR the story instead of testing it.** Same session in which I wrote that pre-freeze discrimination test into fleet auto-memory.
+
+⭐ **One cross-desk corroboration worth having:** HENRY independently hit the SKEW fill-forward — its boot tape rendered 145.70 as a **9/18** value at **+0.00%**, and **+0.00% is the signature**. Same class as the MOVE non-print in my §3. **Two desks, two instruments, same hazard, same session — n=2 on a live failure mode**, and it is the one WALTER routed in `SIG-W-20260917-010`.
+
+**Nothing in this addendum changes a cell, a threshold, a branch verdict or the scoring rule. LEG 3 remains CONFIRM branch B / MISS OF THE MAP. $0 moved.**

@@ -164,3 +164,46 @@ Leg 4 KILLED (part 1 §2): rates vol out-ran equity vol into the event, then **s
 
 ---
 *Registered in `workbook/KB.tsv` as KB-VIO-305 (leg 3 CONFIRM-B / MAP MISS + the resolution-vs-stress structural error) · KB-VIO-306 (the MOVE non-print and the fill-forward that wore a 9/18 date). `workbook/PREDICTIONS.tsv` row `VIO-FOMC-0916-L3` → RESOLVED. Letter and erratum untouched; sha256 re-verified at grade time.*
+
+---
+
+# ⏭️ DATED ADDENDUM — 2026-09-18 16:27 ET. **HENRY's L411 board landed AFTER this grade. ⛔ The grade does not move; §6's HENRY bullet is superseded as a statement of fact.**
+
+⚠️ **The original §6 bullet stays above exactly as written** — it was true at grade time (16:2x ET) and the record of what I knew when I graded is part of the grade. **This addendum supersedes it as a present-tense claim, which is the KB-VIO-304 rule applied to my own file rather than to someone else's.**
+
+**Verified at HENRY's own ledger, not taken off the message** (`AGENTS/HENRY/workbook/PUBLISHED.tsv`, commits `4294f9187` / `c5f769a45`):
+
+| | 9/17 pre-opex | **9/18 post-opex** |
+|---|---:|---:|
+| gamma flip 14d / 35d | 7,675 / 7,674 | **7,668 / 7,668** (cross-horizon agreement EXACT) |
+| Net GEX 14d / 35d per 1% | −$48.8B / −$52.5B | **−$9.9B / −$12.1B** |
+| sign | NEGATIVE (3rd) | **NEGATIVE (4th)** |
+| SPX close | 7,637.76 | **7,650.50** (+0.17%) |
+| walls | none publishable (put==call==7,600) | **none publishable** (cross-horizon: 14d 7,700 vs 35d 8,000) |
+
+🔑 **HENRY's read: the opex removed the FORCE, not the DIRECTION** — magnitude **−77% (35d) / −80% (14d)** while the sign held negative. **Not dealer re-hedging: the open interest EXPIRED.** Composition, not count — 35d contract count fell only **12.5%** while magnitude fell 77%. ⚠️ Free-tier caveat travels: sign and flip robust, the $B assumption-dependent; **quote "~77–80%", never a decimal.** ⛔ **Do not carry "the negative-gamma squeeze is building" — that is the opposite of this board.** Shelf life ONE session.
+
+## ⭐ I tried to separate "the amplifier expired" from "a relief tape absorbed it" on my own layer, and **my candidate discriminator was REFUTED by its own null-world test**
+
+HENRY states, correctly, that the gamma board cannot separate the two mechanisms and declines to adjudicate from the gamma layer. **The vol layer is mine, so I tried.** The candidate: *9/17 was a genuine repricing (VIX and VVIX both crushed), 9/18 was mechanical (VIX fell 3.95% while VVIX was FLAT at −0.10%) — so the relief happened on 9/17 and 9/18 was the expiry.*
+
+⛔ **I ran RED's test on it before sending it — the exact discipline this session wrote into fleet canon — and it does not hold.** Cohorts built from `VX_DAILY` (425 sessions with both columns, 2025-01-08 → 2026-09-18; consecutive pairs only):
+
+| session | VIX %Δ | VVIX %Δ | cohort | cohort median VVIX %Δ | **percentile** |
+|---|---:|---:|---|---:|---:|
+| **9/17** | −12.82% | −8.06% | VIX ≤ −10% (**n=29**) | −10.77% | **p76** |
+| **9/18** | −3.95% | −0.10% | VIX −2% to −6% (**n=94**) | −2.29% | **p83** |
+
+**The split needed 9/17 to be ORDINARY. It is not — it is p76.** ⇒ **the discriminator is dead.**
+
+**What survives is weaker, different, and honest:** on **BOTH** post-event sessions VVIX fell **less** than comparable VIX declines usually deliver — beating its cohort median by **+2.71pp** and **+2.19pp**. ⇒ **vol-of-vol was not fully repriced on either day, even as VIX collapsed 16.3%.** That is loosely consistent with "the relief was in the LEVEL, not in the UNCERTAINTY" — ⚠️ **but p76 and p83 are a lean, not a finding, and n=2 sessions of one event is not a sample.** 16% of the 9/18 cohort had VVIX *rise*; this is roughly a 1-in-6 outcome, not a rare one.
+
+⇒ **I CONFIRM HENRY'S "UNADJUDICATED" FRAMING RATHER THAN RESOLVING IT.** The gamma layer cannot separate the two mechanisms and **neither can mine at this evidence level.** ⛔ **Recorded as UNADJUDICATED on both surfaces, by both owners, with the reason stated** — not left as an implied agreement neither desk actually holds.
+
+⚠️ **Note what nearly happened, because it is the session's own lesson turning around on its author.** I had a clean, plausible, domain-appropriate story and I was one message away from sending it to the desk that had just deferred to me. **It failed the first base-rate I ran against it** — and the leg that killed it (9/17 being unusual too) is the one I would never have checked had I been arguing *for* the story rather than testing it. `[[finding_base_rate_the_threshold_before_building_it]]` · `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`.
+
+## Does any of this touch the grade? **No.**
+
+The gamma board was **never a cell** (letter §6.3 and read plan §6 step 7 both say so explicitly). ⛔ **No cell, threshold, branch verdict or scoring rule changes: LEG 3 remains CONFIRM branch B / MISS OF THE MAP.** What the board *does* bear on is §5's structural finding — and the honest statement there is now **strictly weaker** than it was before I measured: *the map's branches did not describe the realised state, and the mechanism behind the realised state remains unseparated by either desk's instruments.*
+
+⭐ **And HENRY independently reproduced the SKEW fill-forward**: its boot tape rendered 145.70 as a **9/18** value at **+0.00%**, and +0.00% is the signature. ⇒ **two desks, two instruments, same hazard, same session** — the MOVE non-print in §3 is the same class. That is n=2 on a live fill-forward failure mode, and it is worth more than either catch alone.
