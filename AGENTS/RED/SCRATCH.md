@@ -19,7 +19,7 @@
 4. **L277 pre-close half DELIVERED PRE-CLOSE.** Letter sha256 verified · anchors clean · **both weak-discriminator flags RULED: apply the letter, exclude nothing, AND record the disagreement.** Measured at the CBOE publisher that **only 1 of branch A's 3 cells is not already satisfied by the pre-event world.** Symmetry run on B and C.
 5. **Whole inbox drained** — 12 top-level + 7 WALTER-lane → **0 + 0**, 19 dispositions logged.
 6. **WQ-224 (i) answered a day early: NONE, VERIFIED-ABSENT**, with the enumeration as basis and two false-friend traps flagged.
-7. **Three VX instruments repaired, ZERO weights moved.** VX >45d debt **6/17 → 3/17**.
+7. **FIVE VX instruments re-measured at their OWNING desks, ZERO weights moved** (005/007/008/010 on REGINALD+HENRY packets, 012 on LABOR's). **VX >45d debt 6/17 → 1/17.** ⚠️ **I first shipped only THREE and the ledger-staleness nudge caught the other two** — REGINALD answered 005, **008 and 010** and I had processed only 005. A packet answering three rows is three obligations, not one.
 8. 🔴 **Two cap breaches in one session, both rotated to COMPLETION** (`board_log` 103.0% → 63.9%; `STATUS` 75.5% → 66.1%).
 
 ## NEXT SESSION (dated, priority-ordered)
@@ -33,8 +33,9 @@
 7. 🟠 **FT-08 basis reconciliation with WALTER** — my 2.04% core-3mo-annualized vs WALTER's 1.97084% off saved CPILFESL levels (~7bp). Both may be right on different vintages; establish the BLS source/vintage. Low urgency (bar is ≥3.0, both ~1pp below), high correctness value — FT-08 is unmapped-by-design and hand-graded.
 8. 🟡 **FT-03/04 still need the exact ICE settlement basis**, not an unprobed Yahoo contract — reinforced by WALTER's SIG-015 roll correction (resolve BOTH legs of a spread to a dated contract month, exchange-suffixed).
 9. 🟡 **5 ACTIVE challenge rows still carried, NOT resolved this session** — CHG-RED-027 (**132d**, my own pre-registered self-falsifier — look here first) · -044 (53d) · -045 (41d) · -049 (26d) · -051 (26d). ⚠️ **W2 says never OPEN-but-stale and I did not clear these** — an L0 drain is not a challenge-resolution pass, but that is an explanation, not a discharge.
-10. 🟡 **KB: 18 rows past their own `Stale_By`** (up from 14) and **13 terminal rows cited by live surfaces** (the KB-RED-001 axis-② class — not automatable, needs a read of each citing surface).
-11. 🟡 **The registry-wide "different arithmetic paths" scan** DAEDALUS's two REFUTED counterexamples bought: a comparison is exposed when one side is COMPUTED and the other a LITERAL from the letter. **12 rows, enumerable rather than an exhaustive sweep.**
+10. 🟡 **VX-RED-009 (Auto Fraud Isolation, CARL, WEAK) is the ONE remaining live >45d vector** — the only one not covered by this week's packets, because RED never routed it to CARL. **The two-clock header stays at 2026-06-02 and the alert stays LIT by design**; bumping it would launder the one genuinely stale row. **Route it to CARL.**
+11. 🟡 **KB: 18 rows past their own `Stale_By`** (up from 14) and **13 terminal rows cited by live surfaces** (the KB-RED-001 axis-② class — not automatable, needs a read of each citing surface).
+12. 🟡 **The registry-wide "different arithmetic paths" scan** DAEDALUS's two REFUTED counterexamples bought: a comparison is exposed when one side is COMPUTED and the other a LITERAL from the letter. **12 rows, enumerable rather than an exhaustive sweep.**
 
 ## OPEN THREADS
 
