@@ -11,6 +11,31 @@
 **Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → the tail goes live (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
 **★ STAGED 8/3 (Will-directed):** card handed to **TERRY** (inbox packet) — build unarmed/decision-ready: OTM Sep-Oct puts on FL primaries **UVE $44 / HRTG $30 / HCI $178** (clean solvency-convex shorts; NOT diversified reinsurers RNR/EG/ACGL/AXS — they V-shape on post-cat hardening). Gate = TERRY's options-liquidity/borrow/IV read on the small-caps (HRTG the risk). **PROME informed** (inbox packet) — tracking 8/5 + 8/6-7 as decision checkpoints. NEXT SESSION: check TERRY's liquidity read + whether either Aug update fired the trigger.
 
+## 🔴 NEXT SESSION — START HERE (2026-09-18 — WRITTEN BY THE CRASH-RECOVERY SESSION)
+
+**What happened:** the 2026-09-18 full session (four domain workers on `water/ hurricane/ wildfire/ regime/`) **crashed at ~14:28 ET before its closeout.** All of its work was intact on disk but uncommitted. A PROME-spawned recovery session committed it ~17:2x ET. **Recovery was commit + honest labelling ONLY — nothing was re-graded, re-fetched, re-scored or extended.**
+
+### ⛔ THE FOUR THINGS THE CRASH ATE — this is the owed list, and it is the first work of the next full session
+1. **The CONVERGENCE MATRIX and EXIT TRIAD in `STATUS.md` were never refreshed.** They carry 8/27–9/11 vintage cells that the body of the same file now contradicts. A banner under each names the four superseded cells (C1 ACE · C5 Memphis · C5 Gatún · C6 bias-adjusted Mead). **Do not cite a matrix cell as a current read until the table is rebuilt.** Scores were deliberately left unmoved — `moved this session: 0` is true, because no score was ever adjudicated.
+2. **Worker proposals were never adjudicated.** Explicitly handed to me and still open: **(a)** `wildfire/` reports the peril leg has COOLED on both legs since the 8/13 C4 score of 3 🟠 ↗ was set (PL 5→3, uncontained large fires halved, personnel −44%) — *"AEOLUS owns whether the C4 score moves"*; **(b)** `hurricane/` reports its own `AGENT.md` "WHAT TO REPORT" table is **8/13 vintage** and instructs a worker against the very instrument it spawns for — *"AEOLUS's call"*; **(c)** the C5 Rhine historical fire below, if any further judgment beyond RECORDED is wanted.
+3. **`NEXUS_BRIEF.md` was never folded** (charter closeout step 3). It stands at its **9/11** state. ⚠️ Per the NEXUS Amendment-10 ordering rule the fold is the session's LAST write-back — the recovery session deliberately did **not** fake one, because a brief folded by a session that did no cross-agent synthesis is exactly the content-stale failure the ordering rule exists to prevent. **Fold it at the next real closeout.**
+4. **No packets were sent.** AEO-12 moved 60→55% and AEO-10 65→55% against figures that were committed on 9/11 — run `consumer_check.py` conclusions to ground before anyone cites the old numbers (the recovery session ran it; see the delivery memo).
+
+### 🔴 THE ONE THING TO CARRY FORWARD — a gate I own fired while I was dark
+**C5 →5 was MET IN FULL on 2026-09-10 · 09-11 · 09-12** (unrounded daily means, n=96/96: Kaub 21.531 / 21.844 / 20.635 ≤25 **and** Duisburg 152.906 / 149.146 / 145.073 ≤153) and had exited before I looked. **RECORDED as a historical fire; the current score does NOT move and the fired count stays 0 of 6** — today's test genuinely fails. This is why **boot rule 6c (DARK-WINDOW EVENT SCAN) now exists in `CLAUDE.md`** — run it every boot where the dark gap exceeds the shortest registered persistence window. ⚠️ The rounded `SERIES.tsv` value for Duisburg 9/10 reads `153.0`; the fire is real only on the unrounded 152.906. **Never grade this trigger off the rounded column.**
+
+### WHAT THE SESSION DID ESTABLISH (all committed, all traceable to KB-AEO-115…151)
+- **AEO-01 80% → 92%, PROVISIONAL → EMPIRICAL** — ACE 4.3950 = 5.96% of the to-date normal, lowest of 1991-2020 at this date; zero of 15 El Niño and zero of 30 Neutral seasons ever accrued the needed 105.931 after 9/18 (KB-133). ⚠️ Quote the ZERO, not the cut-dependent percentages; 2026's ASO ONI is still a forecast.
+- **AEO-10 65% → 55%** — the commissioned September-vintage bias came back at HALF the August figure I was pricing off (+1.26 n=10 vs +2.19), **and both CIs straddle zero**; bias-corrected Nov 1,035.48 / Dec 1,035.44 sit ON the line with a CI half-width ~10× the 0.12 ft margin. **The correction cannot resolve this in either direction** — only the Oct/Nov studies and the realised track can (KB-142/134).
+- **C6 →5 leg 3 RE-KEYED** off the published 24-Month Study tables (which are *constructed* to hold 3,510 and would return NOT FIRED forever) onto **realised** Powell elevation (KB-143).
+- **AEO-12 60% → 55%** (A-35 loosens booking rules; Gatún rising, gap to the 2023 analogue widened to 4.72 ft) (KB-141).
+- **Mississippi self-corrected** — the published margin was the day's MAXIMUM on a rebounding river; the true daily-mean trough was −4.678 ft [9/14], 4.05 ft lower, four days earlier.
+
+### STILL OPEN FROM 9/11, UNCHANGED BY THE CRASH
+WATT's C3 heat-signature ask (needs an ISD/NWS pull) · **C5 →5 re-scope, hard deadline 9/30** · AEO-09's 9/01 NIFC checkpoint **UNGRADED** · AEO-03 has **no named search instrument**, owed to DAEDALUS by 9/30 (KB-115).
+
+---
+
 ## NEXT SESSION — START HERE
 
 *(2026-09-11 ~11:3x ET — PROME-spawned DRAIN-ONLY session under WQ-206. Supersedes the 8/27 pickup block, which is rotated VERBATIM to `archive/SCRATCH_ARCHIVE_2026-08-27_pickup-block.md` (crc in banner); the 8/3–8/21 superseded blocks + SESSION LOG are at `archive/SCRATCH_ARCHIVE_2026-08-27_superseded-blocks.md`. **The standing Will river/water directive above is UNCHANGED.** Rule for this file from today (READ_CAP rule 19): SCRATCH carries the REGISTER and pointers; the reasoning goes to the archive/record on the day it is written.)*

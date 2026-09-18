@@ -5,6 +5,14 @@
 **Last writeback: 2026-09-11 (drain-only session, WQ-206) — LAST write before commit per Amendment 10 (re-stamped after the final STATUS trim; receipts via `PROME/tools/measure.py`).** Supersedes the 8/27 fold's header + WAITING-FOR; the 8/27 body below is retained where its reads are still the latest (each labelled by as-of).
 **WAITING-FOR:** **~9/15 September 24-Month Study** (AEO-10's instrument) · **9/15** Panama 32-slot cap binds on bookings · **9/30** C5 →5 re-scope deadline · **~10/10** ACP September Ops Summary (first month under the cap) · **10/01** 2027-28 Operating Guidelines take effect · ~~10/01 Panama 47.5 ft~~ **POSTPONED until further notice (A-33)** · **Sep–Nov** Mississippi window (unread since 8/27) · **Apr–Jun 2027** WAPA FY2028 BCP rate proposal (WATT's dated test).
 
+> 🔴 **STALE — NOT FOLDED AT THE 2026-09-18 CLOSEOUT. This brief stands at its 9/11 state; the 9/18 session CRASHED at ~14:28 ET before closeout step 3.**
+> **Do not take a figure from this brief without checking `STATUS.md`, which is current.** Known superseded here, named so no desk reads a stale number off a cross-agent surface:
+> • **AEO-10 is 55%, not the 65% below** — the commissioned September-vintage bias came back at **+1.26 ft (n=10), half the +2.19 this brief argues from**, and its CI straddles zero; the September study moves Mead's first sub-1,035 month-end **December → NOVEMBER**.
+> • **AEO-12 is 55%** (was 60%). **AEO-01 is 92% and EMPIRICAL** (was 80% PROVISIONAL).
+> • **The WAITING-FOR line is wrong on its first item: the September 24-Month Study WAS published on time (doc-dated 9/15) and HAS been read.**
+> • **C5 →5 was MET IN FULL on 9/10–9/12** (Rhine, both gauges, unrounded daily means) and had exited before I looked — **RECORDED as a historical fire; no score moved.**
+> ⚠️ **The fold is deliberately NOT faked by the recovery session** — per NEXUS Amendment 10 the brief is the session's LAST write-back, and a brief folded by a session that did no cross-agent synthesis is exactly the content-stale failure that ordering rule exists to prevent. **Owed at the next real closeout.**
+
 ## 🔴 9/11 FOLD — what other desks should take from a 15-day-dark drain (all reads dated; scores UNCHANGED 17/30)
 
 | For | Signal | Read [date · basis] | Token |
