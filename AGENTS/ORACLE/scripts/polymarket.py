@@ -367,6 +367,23 @@ def _select_event_leg(mkts):
             pick["_daily"] = True  # suppress the always-expiring maintenance flag
             return pick, " (current)"
         # all legs resolved -> fall through so the RESOLVED maintenance flag fires
+    # BY-THRESHOLD / BY-DATE LADDERS: prefer the modal leg among UNRESOLVED legs.
+    # Same fix, same shape, as the daily-on-date branch above — and for the same
+    # reason. A ladder whose underlying has moved UP through its low rungs leaves
+    # those rungs pinned at 100% forever, so max-probability-over-ALL-legs selects
+    # a DEAD rung and the event reads ⛔RESOLVED while its live rungs are trading.
+    # Measured 2026-09-17: FIVE watchlist rows hit this at once (0-ships closure,
+    # Iran-shipping, 10Y-before-2027, 30Y-Sept-upside, Venezuela-crude) — three of
+    # them on their FIRST EVER pull. Annotating each row with a DO-NOT-REPLACE
+    # banner was the prior remedy and it demonstrably does not scale: the banner
+    # has to be written BEFORE a session mistakes the flag for a dead market, and
+    # the $503.0K 10Y ladder would have been a retire-on-sight candidate without it.
+    # Falls through to all-legs when EVERY leg is resolved, so a genuinely dead
+    # event still raises the RESOLVED maintenance flag. (KB-ORC-086 is the same
+    # root cause on the Kalshi side: a display layer not reading the resolution field.)
+    live_legs = [m for m in mkts if not m.get("resolved")]
+    if live_legs:
+        return max(live_legs, key=lambda x: (x["yes"] or 0)), " (top)"
     return max(mkts, key=lambda x: (x["yes"] or 0)), " (top)"
 
 
