@@ -224,7 +224,7 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
     try:
         qp = Path(queue_path) if queue_path else (ROOT / "PROME" / "WILL_QUEUE.md")
         for line in qp.read_text(encoding="utf-8").split("\n"):
-            cells = [c.strip() for c in line.split("|")]
+            cells = [c.strip() for c in re.split(r"(?<!\\)\|", line)]   # `\|` in a cell is a literal pipe (9/18)
             if len(cells) > 4 and cells[1] == str(row_id):
                 m = re.search(r"\d{4}-\d{2}-\d{2}", cells[4])
                 return bool(m) and dt.date.fromisoformat(m.group()) < today
@@ -501,7 +501,7 @@ def check_will_queue():
             continue
         if not (section and line.startswith("|")):
             continue
-        cells = [c.strip() for c in line.strip("|").split("|")]
+        cells = [c.strip() for c in re.split(r"(?<!\\)\|", line.strip("|"))]   # `\|` in a cell is a literal pipe (9/18, scratchrot7cold ❌1)
         if section == "open" and len(cells) >= 7:
             # Keys on the DOCUMENTED wait-declaration at the START of the Notes
             # cell — see the twin comment in will_brief.parse_actions(). WILL_QUEUE
@@ -1032,7 +1032,7 @@ def check_publication_prereqs():
         opn = q.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
         rows = set()
         for ln in opn.splitlines():
-            cells = [c.strip() for c in ln.split("|")]
+            cells = [c.strip() for c in re.split(r"(?<!\\)\|", ln)]   # `\|` in a cell is a literal pipe (9/18)
             if len(cells) > 2 and re.fullmatch(r"\d+", cells[1]):
                 rows.add(cells[1])
         expl = {ln.split("\t")[0].strip()

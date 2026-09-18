@@ -221,7 +221,7 @@ def parse_actions():
     for line in section.splitlines():
         if not line.startswith("|"):
             continue
-        c = [x.strip() for x in line.strip("|").split("|")]
+        c = [x.strip() for x in re.split(r"(?<!\\)\|", line.strip("|"))]   # `\|` in a cell is a literal pipe (9/18, scratchrot7cold ❌1)
         # `^\d` not .isdigit() — mirror of prome_gate.py's 8/16 lettered-ID
         # fix (32b-class rows failed .isdigit() and vanished from the brief
         # while the gate counted them: split-brain, RAV catch 8/16). The

@@ -15,7 +15,15 @@ one-line projection of that table into PROME/SCRATCH.md between markers, replaci
   --selftest        fixture drills: first-run replace · idempotence · needed-by change shows in the
                     block (the acceptance test) · check flags drift · marker-count refusal · zero-row refusal
 
-rc: 0 ok · 1 drift (--check) · 2 refused (markers / unparseable / zero rows) — never pads, never guesses.
+rc: 0 ok · 1 drift (--check) · 2 refused (markers / unparseable / zero rows / a shifted row / a non-ISO
+needed-by) — never pads, never guesses.
+2026-09-18 (scratchrot7cold ❌1/❌2, WQ-229 repair): cells split on UNESCAPED pipes only — a `\|` inside a cell
+(markdown's literal pipe) is never a column break; a row whose cell count differs from the header's is REFUSED
+by name (an unescaped `|` in a cell shifts every column: WQ-263 and WQ-157 rendered as undated `(RULE)` while the
+queue dated both 2026-09-19); a needed-by that looks like a date but is not ISO (`9/19`) is REFUSED by name
+instead of rendering undated and sorting last under a "dated first" banner (WQ-241/242). Fail closed: a block
+the reader cannot trust is never written. The same split is applied at prome_gate.py (3 sites) and
+will_brief.py — queue_parser_selftest.py keeps them agreeing.
 Parser rules are a deliberate copy of will_brief.parse_actions() / prome_gate.check_will_queue() (no
 import coupling — the gate is a blocking boot surface); queue_parser_selftest.py keeps the parsers agreeing.
 """
@@ -37,18 +45,30 @@ class WillqError(Exception):
 # ITEM prose of the row proposing the aged-waits rule ("a ⛔ waits row whose …") and filed it under "waiting on
 # others" with no tap controls — Will could not rule it. Prose mentioning a marker is not the marker.
 BLOCKED_RE = re.compile(r"^[\*\s]*⛔\s*waits?\b")
+_CELL_SPLIT = re.compile(r"(?<!\\)\|")          # `\|` inside a cell is a literal pipe, never a column break (9/18)
+_SHORT_DATE = re.compile(r"(?<![\d/])\d{1,2}/\d{1,2}(?![\d/])")   # `9/19` — a date that is not ISO
+
+
+def _cells(line):
+    return [x.strip() for x in _CELL_SPLIT.split(line.strip("|"))]
 
 def parse_open(text):
     """OPEN-table rows → [{n, due, due_txt, blocked, kind}] — the gate/brief parser rules, duplicated."""
     if "## OPEN" not in text:
         raise WillqError("no '## OPEN' section")
     section = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
-    rows = []
+    rows, problems, hdr = [], [], None
     for line in section.splitlines():
         if not line.startswith("|"):
             continue
-        c = [x.strip() for x in line.strip("|").split("|")]
+        c = _cells(line)
+        if hdr is None and c and c[0] == "#":
+            hdr = len(c)
+            continue
         if len(c) < 6 or not re.match(r"\d", c[0]):
+            continue
+        if hdr is not None and len(c) != hdr:
+            problems.append(f"WQ-{c[0]}: {len(c)} cells vs header {hdr} — an unescaped `|` inside a cell shifts every column; write it `\\|`")
             continue
         lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
         lead = re.sub(r"^[\*\s]+", "", lead)
@@ -56,10 +76,15 @@ def parse_open(text):
             continue  # closed-in-place rows are not open asks (gate's MISFILED rule)
         raw = re.sub(r"\*\*|`", "", c[3]).strip()
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
+        if not d and _SHORT_DATE.search(raw):
+            problems.append(f"WQ-{c[0]}: needed-by '{raw[:24]}' is not ISO (WILL_QUEUE rule: hard dates are YYYY-MM-DD) — it would render undated and sort last")
+            continue
         blocked = bool(BLOCKED_RE.match(c[6] if len(c) > 6 else ""))
         rows.append({"n": c[0], "due": d.group(0) if d else None,
                      "due_txt": raw, "blocked": blocked,
                      "kind": re.sub(r"\*\*|`", "", c[2]).strip().upper()})
+    if problems:
+        raise WillqError("; ".join(problems))
     if not rows:
         raise WillqError("OPEN table parsed to zero rows — refusing to write an empty block")
     rows.sort(key=lambda r: (r["blocked"], r["due"] or "9999-99-99", -int(re.match(r"\d+", r["n"]).group(0))))
@@ -196,6 +221,22 @@ def selftest():
             parse_open(q.read_text()); ok(False, "zero-row refusal")
         except WillqError:
             ok(True, "zero-row refusal")
+        # 2026-09-18 — scratchrot7cold ❌1/❌2 and their neighbours (WQ-229: ordinary rows = the fixture above)
+        def rows_of(extra):
+            return parse_open(FIX_Q.replace("## RECENTLY DONE", extra + "\n## RECENTLY DONE"))
+        r = rows_of("| 13 | **Math `P(leg \\| fired)` in the body** | RULE | 2026-09-19 (sitting) | 9/6 | rec | note |")
+        ok(any(x["n"] == "13" and x["due"] == "2026-09-19" for x in r), "escaped pipe keeps the column and the date (r5 ❌1)")
+        for extra, want, name in [
+            ("| 14 | **Math P(leg | fired) unescaped** | RULE | 2026-09-19 | 9/6 | rec | note |", "WQ-14", "unescaped pipe REFUSED by row (r5 ❌1)"),
+            ("| 15 | **Short date** | RULE | 9/19 | 9/6 | rec | note |", "WQ-15", "short-form needed-by REFUSED by row (r5 ❌2)"),
+            ("| 16 | **Overlap `a \\| b`** | RULE | 9/19 (sitting) | 9/6 | rec | note |", "not ISO", "OVERLAP neighbour: escaped pipe AND short date — refused on the date, columns intact"),
+        ]:
+            try:
+                rows_of(extra); ok(False, name)
+            except WillqError as e:
+                ok(want in str(e), name)
+        r = rows_of("| 17 | **Textual date** | RULE | at HEN-46's resolution, or later | 9/6 | rec | note |\n| 18 | **Empty date** | RULE |  | 9/6 | rec | note |")
+        ok(any(x["n"] == "17" and x["due"] is None for x in r) and any(x["n"] == "18" and x["due"] is None for x in r), "MISSING-INFORMATION neighbour: textual / empty needed-by stay allowed")
     print(f"willq_view selftest: {n - len(fails)}/{n} PASS" + (f" — FAIL: {fails}" if fails else ""))
     return 0 if not fails else 2
 
