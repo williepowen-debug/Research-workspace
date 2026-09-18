@@ -71,6 +71,34 @@ def fred_series(sid, n=6):
     return vals[0], obs[0]["date"], vals, None
 
 
+def fred_pairs(sid, n=14):
+    """Return ([(date, value)] newest-first, error_or_None) — dates PRESERVED.
+
+    fred_series() keeps only obs[0]["date"] and throws the rest away. That is
+    exactly what let the IORB basis mismatch below run unseen: a spread built
+    from two series' *latest* values is only a measurement when both latests
+    fall on the same day.
+    """
+    obs = fred_fetch(sid, limit=n)
+    if not obs or (isinstance(obs[0], dict) and "error" in obs[0]):
+        return [], (obs[0]["error"] if obs else "no data")
+    out = []
+    for o in obs:
+        try:
+            out.append((o["date"], float(o["value"])))
+        except (ValueError, KeyError, TypeError):
+            pass
+    return out, (None if out else "no numeric values")
+
+
+def as_of(pairs, target):
+    """Value of a series ON or BEFORE `target` (pairs newest-first). -> (value, date)."""
+    for dt, val in pairs:
+        if dt <= target:
+            return val, dt
+    return None, None
+
+
 def trend_str(vals, mult=1.0, dp=0):
     return " → ".join(f"{v * mult:.{dp}f}" for v in reversed(vals[:6]))
 
@@ -238,26 +266,75 @@ def build_domestic():
         m, n = ("🟠", "above 3.70") if v > 3.70 else ("🟢", "")
         add("DOMESTIC", "SOFR", f"{v:.2f}%", m, n, d, trend_str(tr, 1, 2))
 
-    v, d, tr, err = fred_series("IORB")
-    if err:
-        add("DOMESTIC", "IORB", "ERR", "🔴", f"fetch error: {err}")
+    # ---- BASIS REPAIR 2026-09-17 (see the repo-vs-IORB block below). IORB is now carried
+    # as DATED PAIRS, because every spread under it must be aligned to its own leg's
+    # observation date rather than to IORB's latest.
+    iorb_pairs, iorb_err = fred_pairs("IORB", n=14)
+    if iorb_err or not iorb_pairs:
+        add("DOMESTIC", "IORB", "ERR", "🔴", f"fetch error: {iorb_err or 'no data'}")
+        iorb_pairs = []
     else:
-        iorb = v
-        add("DOMESTIC", "IORB", f"{v:.2f}%", "🟢", "(ceiling ref)", d)
+        d_iorb, iorb = iorb_pairs[0][0], iorb_pairs[0][1]
+        add("DOMESTIC", "IORB", f"{iorb:.2f}%", "🟢", "(ceiling ref)", d_iorb)
+        # A policy move is a REGIME event and used to print nowhere in this brief.
+        prior = next(((dt, val) for dt, val in iorb_pairs if val != iorb), None)
+        if prior:
+            dmove = (iorb - prior[1]) * 100
+            add("DOMESTIC", "IORB Δ (policy)", f"{dmove:+.0f}bps", "🔴",
+                f"POLICY RATE MOVED — {prior[1]:.2f}% [{prior[0]}] → {iorb:.2f}% [{d_iorb}]. "
+                f"Every repo-vs-IORB spread below straddles this move until the post-move "
+                f"repo print publishes; each is date-aligned and labelled accordingly", d_iorb)
+
+    # ---- BASIS REPAIR 2026-09-17 (KB-LIQ-126). Every repo-vs-IORB spread in this block
+    # was `latest_repo - latest_IORB`, with NO date check and (for SOFR-IORB) no date
+    # printed at all. IORB is stamped on its EFFECTIVE date and runs 1-2 days AHEAD of
+    # the T+1 repo prints, so the two legs are routinely a different day.
+    #   On an unchanged policy rate that mismatch is worth 0bp and is INVISIBLE. On a
+    #   policy-change date it is worth the full move — and in the BENIGN direction: a
+    #   hike lifts IORB, driving every spread sharply negative and printing
+    #   "no funding stress" at maximum confidence on the one day the funding regime
+    #   actually shifted. Error correlated with the event the gate exists to catch.
+    #   Measured 2026-09-17, the 9/16 FOMC +25bp (IORB 3.65 [9/16] -> 3.90 [9/17]):
+    #     row            printed   date-matched
+    #     SOFR-IORB       -28bp      -3bp
+    #     SOFR75-IORB     -23bp      +2bp
+    #     SOFR99-IORB     -20bp      +5bp   <-- GATE-LIQ-079 ARM leg
+    #   All three off by exactly the 25bp hike. The 079 cushion to its +30 ARM line
+    #   printed 50bp against an actual 25bp: HALF THE CUSHION WAS AN ARTIFACT.
+    # Same family and same dead-quiet direction as KB-LIQ-113 four rows down — that
+    # repair fixed WHICH SERIES the leg used and never asked WHICH DAY it came from.
+    def _iorb_aligned(leg_date):
+        """IORB on the repo leg's OWN observation date. -> (value, date, matched_exactly)."""
+        if not leg_date or not iorb_pairs:
+            return None, None, False
+        val, dt = as_of(iorb_pairs, leg_date)
+        return val, dt, (dt == leg_date)
 
     # SOFR-IORB spread — sustained >0 = funding stress
-    if sofr is not None and iorb is not None:
-        spr = (sofr - iorb) * 100
-        if spr > 0:  m, n = "🟠", "ABOVE ceiling (>0) — re-open KB-LIQ-051 (verify non-mechanical, 3+ sessions)"
-        else:        m, n = "🟢", "negative/clean — no funding stress"
-        add("DOMESTIC", "SOFR-IORB", f"{spr:+.0f}bps", m, n)
+    if sofr is not None:
+        i_al, i_d, exact = _iorb_aligned(d)
+        if i_al is None:
+            add("DOMESTIC", "SOFR-IORB", "UNGRADEABLE", "⚪",
+                "no IORB observation on or before the SOFR print — NOT graded; "
+                "do not read the absence of a marker as clean", d)
+        else:
+            spr = (sofr - i_al) * 100
+            if spr > 0:  m, n = "🟠", "ABOVE ceiling (>0) — re-open KB-LIQ-051 (verify non-mechanical, 3+ sessions)"
+            else:        m, n = "🟢", "negative/clean — no funding stress"
+            n += f"  [date-matched: SOFR {sofr:.2f} − IORB {i_al:.2f}, both {d}]"
+            if not exact:
+                m = "⚪"
+                n = (f"STALE-BASIS: nearest IORB is [{i_d}], SOFR is [{d}] — spread NOT "
+                     f"date-matched, treat as UNGRADEABLE, not clean")
+            add("DOMESTIC", "SOFR-IORB", f"{spr:+.0f}bps", m, n, d)
 
     # SOFR dispersion (mandate ext. 7/1) — the tail is the stress read, not the median.
     # Alerts require NON-quarter-end sustain (Q-end turns print wide mechanically: 6/30 = 75th +8 / 99th +12).
     p75, d75, _, e75 = fred_series("SOFR75")
     p99, d99, _, e99 = fred_series("SOFR99")
-    if not e75 and iorb is not None:
-        s75 = (p75 - iorb) * 100
+    i75, i75_d, i75_exact = _iorb_aligned(d75)
+    if not e75 and i75 is not None:
+        s75 = (p75 - i75) * 100
         # KB-LIQ-106 (2026-08-27): the old ">= 0 = broad pressure" line is DEAD — it was
         # cleared by the MEDIAN 2026 day (89.5% of sessions) and printed a false 🟠 here
         # every boot. It died of a five-year regime migration, not bad construction, so a
@@ -267,6 +344,9 @@ def build_domestic():
             import sofr_dispersion as _sd
             _a = _sd.analyze(_sd._load())
             _m, _n = _sd.classify(_a)
+            if not i75_exact:
+                _m, _n = "⚪", (f"STALE-BASIS: SOFR75 [{d75}] vs nearest IORB [{i75_d}] — "
+                               f"NOT date-matched, UNGRADEABLE, not calm")
             add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", _m, _n, d75)
         except Exception as _e:                       # fail LOUD, never silently back to the dead band
             add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", "⚪",
@@ -291,12 +371,23 @@ def build_domestic():
     #   Note the SOFR75 line four rows above ALREADY used IORB — the correct pattern was
     #   sitting one line up from the wrong one.
     # Both quantities now render; ONLY the IORB-based row is labelled as the gate leg.
-    if not e99 and iorb is not None:
-        s99 = (p99 - iorb) * 100
+    i99, i99_d, i99_exact = _iorb_aligned(d99)
+    if not e99 and i99 is not None:
+        s99 = (p99 - i99) * 100
         if s99 >= 30:   m, n = "🔴", f"GATE-LIQ-079 ACUTE LEG AT/ABOVE +30bp — check non-calendar AND ≥2 consecutive before calling ARMED"
         elif s99 >= 20: m, n = "🟠", f"tail elevated — {30 - s99:.0f}bps under the +30 ARM line"
         else:           m, n = "🟢", f"tail contained — {30 - s99:.0f}bps under the +30 ARM line"
+        n += f"  [date-matched: SOFR99 {p99:.2f} − IORB {i99:.2f}, both {d99}]"
+        # This is a LIVE GATE leg — it fails CLOSED, never to a benign-looking number.
+        if not i99_exact:
+            m, n = "⚪", (f"UNGRADEABLE — SOFR99 [{d99}] vs nearest IORB [{i99_d}] are different "
+                         f"days; GATE-LIQ-079's ARM leg is NOT graded this boot. An unaligned "
+                         f"spread is not a cushion — do not read it as contained")
         add("DOMESTIC", "SOFR99−IORB (079 ARM leg)", f"{s99:+.0f}bps", m, n, d99)
+    elif not e99:
+        add("DOMESTIC", "SOFR99−IORB (079 ARM leg)", "UNGRADEABLE", "⚪",
+            "no IORB observation on or before the SOFR99 print — GATE-LIQ-079 ARM leg NOT "
+            "graded; absence of a marker is not calm", d99)
     if not e99 and sofr is not None:
         s99m = (p99 - sofr) * 100
         add("DOMESTIC", "SOFR99−SOFR (dispersion)", f"{s99m:+.0f}bps", "⚪",
