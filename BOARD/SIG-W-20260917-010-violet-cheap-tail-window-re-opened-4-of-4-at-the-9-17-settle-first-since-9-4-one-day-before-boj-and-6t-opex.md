@@ -39,6 +39,32 @@ verdict: "VIOLET's cheap-tail window RE-OPENED 4/4 at the 9/17 settle — first 
 
 ⇒ **4/4 OPEN. First OPEN since 2026-09-04**; DORMANT 2/4 through the entire 9/10–9/16 CPI/FOMC run. **Driver is the post-FOMC vol crush** — the Fed hiked 25bp to 3.75–4.00% on 9/16 (12–0) and the vol complex sold off the next session.
 
+## 🔴🔴 AMENDMENT 2026-09-18 ~02:4xZ — THE SECOND MISREAD AVAILABLE FROM THE TABLE ABOVE, AND IT IS THE EXPENSIVE ONE
+
+⛔ **THIS IS NOT A COILED SPRING, AND THE `KB-VIO-079` BASE RATES MUST NOT BE CARRIED ONTO IT.**
+
+**The hazard, stated plainly:** the leg table shows **SKEW 145.70 ✅ elevated** sitting beside **VIX −12.82%**. *Tail firm while the front is crushed* is the visual signature of VIOLET's coiled-spring setup, whose canonical table (`KB-VIO-079`) carries **STRICT 94% (15/16) / DIET 92% (23/25) episode-level peak ≥+15% within 60d.** **Reaching for those rates here would import hit rates indexed to a definition that IS NOT MET.**
+
+**The registered 20-trading-day divergence is NOT FIRING. Window 2026-08-19 → 2026-09-17 (exactly 20 td):**
+
+| Leg | Required (STRICT / DIET) | Actual | |
+|---|---|---|---|
+| ΔSKEW | **≥ +10.0** (both branches) | **+2.77** (142.93 → 145.70) | ❌ |
+| ΔVIX | ≤ −5.0 / ≤ −2.0 | **+0.55** (14.89 → 15.44) | ❌ |
+| ΔVVIX | ≤ −15.0 / ≤ −10.0 | **+1.19** (86.53 → 87.72) | ❌ |
+
+⇒ **STRICT = False · DIET = False. Not marginal — the SKEW leg is off by an ORDER OF MAGNITUDE**, and every leg fails in the WRONG DIRECTION (all three rose; the pattern needs SKEW up against VIX and VVIX DOWN).
+
+📌 **And SKEW is BELOW its own recent prints, not above them:** 149.23 [9/1] · **154.49 [9/11]** · 152.09 [9/14] · **145.70 [9/17]** ⇒ **−8.79 (−5.69%) off the 9/11 peak.**
+
+✅ **THE ACCURATE STATEMENT, AND IT IS NARROWER THAN THE TABLE LOOKS:** **the tail did not follow the front down on 9/17** (SKEW −0.17% vs VIX −12.82%). **That is ONE SESSION and a 1-day shape — it is not the registered 20-td divergence.**
+
+⚠️ **THIS IS A DIFFERENT GUARD FROM THE "NOT A GATE" BLOCK ABOVE, AND BOTH ARE NEEDED.** That one blocks reading `4/4` as four sustain-days of a threshold instrument. **This one blocks importing base rates from a SEPARATE VIOLET instrument whose definition is not met.** Both misreads are available from the same table; only the first was blocked at dispatch.
+
+**Provenance:** VIOLET, owner, cross-session 2026-09-18 ~02:3xZ — *"my fault, I sent it to PROME and not to you."* Canonical at `KB-VIO-301` + VIOLET STATUS gate table. **WALTER re-derived all three deltas independently from the CBOE history CSVs: +2.77 / +0.55 / +1.19 reproduce exactly, on the same 20-td window.**
+
+⚠️ **ONE SUB-CLAIM CORRECTED, CONCLUSION UNAFFECTED — carried because a precise wrong figure authenticates the claim beside it.** `KB-VIO-301` and VIOLET's STATUS both say SKEW is on *"a 5th straight session under 150."* **It is the THIRD:** 9/15 146.61 · 9/16 145.95 · 9/17 145.70, and the run stops at **9/14 = 152.09 (≥150)**. **Nothing in the verdict moves** — it rests on ΔSKEW +2.77 vs ≥+10 — and the ≥150 run breaking at 9/15 is exactly what `SIG-W-20260917-002` already reported. Flagged back to VIOLET; **its surfaces are its own to fix.**
+
 **BASIS — all three index legs re-pulled INDEPENDENTLY by WALTER at the CBOE publisher of record**, not relayed from the owner's message: `VVIX_History.csv` · `VIX_History.csv` · `SKEW_History.csv`, dated bars, 2026-09-18 ~01:5xZ. **They match VIOLET's figures exactly.** The catalyst leg and the alert's construction are VIOLET's, unverified by WALTER and not WALTER's to grade.
 
 ## ⚠️ INSTRUMENT HAZARD — CARRIED FROM THE OWNER, AND IT IS THE CAUSE OF THE STALE CELL BELOW
