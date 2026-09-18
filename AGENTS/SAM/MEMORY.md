@@ -53,6 +53,8 @@ Second Will-directed session of 9/18 — live-data catch-up. Will asked whether 
 4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand. **Re-stamp `PREDICTION_SCHEDULE.json` for any row whose Notes you touch, but only after a field-level git diff** (see below).
 5. After grading, **run `ledger_staleness.py --nudge` and `consumer_check.py`** — SAM-28/31 resolving changes a figure other desks may cite.
 
+**📌 COMMIT DEBT (9/18 PM):** commit `b10b86be4` has a **108-char subject, 8 over the root rule 4d ≤100 cap.** Not amended (rule 4b — amend rewrites whoever holds HEAD). Noted here and in the next commit message; a damaged message over a correct tree is documentation debt, never a rewrite.
+
 **GUARD NOTE (new, 9/18 PM):** `PREDICTION_SCHEDULE.json`'s `condition_sha256` covers **Notes**, because SAM-33's activation clause lives there. So **every evidence append forces a re-stamp**, which trains reflexive re-stamping of the one guard that would catch a real term change. ⛔ **Never re-stamp without diffing `Prediction`/`Timeframe`/`Confidence`/`Status` at git first.**
 
 **TIER 1 — DATED, FORWARD:**
