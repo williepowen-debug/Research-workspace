@@ -206,8 +206,10 @@ Per memory `feedback_verify_counts_before_propagating.md` — **verify the print
 
 ```
 ## YYYY-MM-DD — To: PROME
-**Signal:** HY OAS <260 sustained — credit-thesis kill triggered
-**Detail:** OAS printed [X]bps on [date], [Y]bps below 260 kill level for [Z] sessions.
+**Signal:** GATE-HY-REKILL FIRED — HY OAS strictly <260.0 bp on TWO CONSECUTIVE published observations
+**Detail:** [X1]bp [date1] and [X2]bp [date2] — TWO CONSECUTIVE published observations, both strictly <260.0, AS FIRST PUBLISHED.
+⛔ State BOTH observations with BOTH dates: the gate is a 2-observation count, not a "sustained for N sessions" claim.
+⛔ Do NOT route this from an unpublished session — an unpublished day is UNGRADEABLE-PENDING-PUBLICATION, never NOT-FIRED.
 Cross-signals: CCC OAS [print, direction]; VIX [level]; 10Y [print]; Brent [print].
 Duration channel: [intact / unwinding]. Gamma hypothesis: [supportive / unwinding].
 Actions taken: [list cuts]. Re-framed positions: [list].
@@ -230,4 +232,5 @@ Actions taken: [list cuts]. Re-framed positions: [list].
 
 | Date | Trigger fired | HY OAS print | Actions taken | Outcome |
 |------|--------------|-------------|---------------|---------|
+| **2026-08-28** | **NONE FIRED — the closest approach the kill line has ever had.** `260` is **NOT** `<260.0`: the letter is a STRICT less-than, so a print sitting EXACTLY ON the line is a non-event by construction, and 0-of-2 remained 0-of-2 | **260 [FRED 8/28] — the 2026 MINIMUM, 0.0 bp of margin** (then 263 [8/31] → 265 [9/1] → 266 [9/2] → 270 [9/16]) | Logged as a non-fire and left alone. **No count opened, no proposal, no position view changed.** Recorded in `STATUS.md` and `eac198c83`; KB-LIQ-118 | **Not fired. 2026 observations strictly <260: ZERO, the count has never started.** ⚠️ **Read against the TAIL before ever treating an approach as a kill: CCC−BB was setting fresh maxima across this same window — the exact configuration the two-sided guard (KB-LIQ-105) blocks killing INTO** |
 | 2026-07-01 (window 6/26-6/30) | **None fired — X1 LIQUID half TAGGED** (283 6/26 / 280 6/29 ×2 sessions ≥280, then 275 6/30) | 283 peak [FRED 6/26] | Ruled TAGGED-NOT-SUSTAINED (retreat next session; Q-end window per mechanical-check §4). Solo-half rule applied: logged + held, NO proposal. Cross-checks at tag: CCC-BB 800 (wide, pin intact), VIX n/a-not-pulled, duration easing (10Y 4.38). Outbox → BROCK for the wrapper-leads half | Retreated to hold band; watch re-tag. BROCK adjudication owed |

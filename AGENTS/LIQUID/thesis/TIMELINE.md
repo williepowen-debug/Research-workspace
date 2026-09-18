@@ -28,7 +28,7 @@
 - **A row resolves** when the named condition is met. Move the resolution to `STATUS.md` Durable Signals Log; retire the row here. Grade resolutions at the letter of the pre-registered test — record "fired as written, then eroded" rather than re-grading with hindsight (see Retired table, claims row).
 - **A row escalates** when the bear-resolution condition fires. Cross-check with `STRATEGY.md` escalation rules and write the cross-agent signal per `STATUS.md` Cross-Domain Signals table.
 - **Channel labels** map to THESIS v2.0 §4 transmission map. A bull-resolution row that fires kills *the named channel*, not the whole thesis (per THESIS §7 channel-kill vs full-thesis-kill distinction).
-- **Full-thesis-kill** requires the credit-channel kill (HY OAS <260 sustained ≥3 sessions) AND duration-channel kill (10Y <4.30 sustained) concurrent. Single-channel kills are partial. The 30Y <4.90 unwind test is the duration channel's intermediate gate.
+- **Full-thesis-kill** requires the credit-channel kill (HY OAS **strictly <260.0 bp on TWO CONSECUTIVE published observations** — `workbook/KILL_MEMO_HY_OAS_260.md:47`, Will-ruled; ⛔ **CORRECTED 2026-09-17, this read "<260 sustained ≥3 sessions"**, one session more than canon) AND duration-channel kill (10Y <4.30 sustained) concurrent. Single-channel kills are partial. The 30Y <4.90 unwind test is the duration channel's intermediate gate.
 
 ---
 
