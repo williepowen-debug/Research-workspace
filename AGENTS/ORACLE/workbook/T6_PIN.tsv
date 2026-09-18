@@ -1,3 +1,10 @@
+# FROZEN 2026-09-17 — not maintained; STATUS is canonical, do not cite rows as current.
+# WHY: T6 was GRADED NO-VERDICT by PROME 2026-08-30 and VX-ORC-10 is CLOSED, so this ledger
+# records a finished test and has nothing left to track. It slipped the staleness nudge FOUR
+# consecutive sessions (DAEDALUS F-2) purely because a closed test kept a live ledger slot.
+# The 8 rows below are the final graded record and remain valid AS HISTORY (Kalshi KXFED-26SEP-T3.75
+# daily closes 2026-08-21..2026-08-28, backfilled from exchange candles). Also removed from
+# workbook/LEDGER_GLOB the same day so the nudge stops firing on a deliberately-static file.
 trading_day	dow	is_session	yes_close	yes_bid_close	yes_ask_close	volume	open_interest	source	capture_ts	note
 2026-08-21	Fri	Y	0.32	0.32	0.33	34347	176424	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
 2026-08-22	Sat	N	0.30	0.31	0.32	325	176426	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled

@@ -26,7 +26,10 @@ workbook/KB.tsv
 workbook/VX.tsv
 workbook/DISRUPTION_SUPPLY_SPREAD.tsv
 workbook/TRADE_MARKS.tsv
-workbook/T6_PIN.tsv
+# workbook/T6_PIN.tsv  — REMOVED 2026-09-17: FROZEN (banner in-file). T6 graded NO-VERDICT 8/30,
+#   VX-ORC-10 CLOSED; a finished test kept tripping the staleness nudge for four consecutive
+#   sessions. Frozen-and-delisted per root CLAUDE.md Data Hygiene option (a), not deleted —
+#   the 8 graded rows stay readable as history.
 #
 # ⚠️⚠️ KNOWN UNFIXED, NOT MINE TO FIX (2026-08-27) — DECLARING THE PERIMETER DID
 #   NOT MAKE HISTORY.tsv REPORTABLE. With this file in place the pass says
