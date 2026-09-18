@@ -1,8 +1,8 @@
 {
   "verdict": "REVIEWED",
   "baseline": "b6af730500f0de1eff19071dc55884ce677b20f5",
-  "head": "2f674c8c47864318cc1242da5d891c9b0d90a3b3",
-  "recorded_at": "2026-09-18T18:03:50+00:00",
+  "head": "b00513595ef57147933c613ce8dc1ef36d33da88",
+  "recorded_at": "2026-09-18T18:04:47+00:00",
   "recorded_by": "PROME",
   "paths": {
     "AGENTS/AEOLUS/inbox/2026-09-17_from-DAEDALUS_PR6-PR6-profile-6-false-statements-4-because-you-fixed-them-conf-stays-M-AEO-03.md": null,
@@ -275,6 +275,6 @@
     "memory/auto/finding_two_legs_with_independent_vintage_clocks_mix_dates_invisibly.md": "936387f917fef01f0381a9dc5c9d6b83821e29622f450670c0041166d0e13bef",
     "memory/auto/finding_write_timestamps_from_the_clock_not_the_narrative.md": "9201969e23c838c02feb14c817de702c2c926923af53e1fc817203f7eb8152f7"
   },
-  "reviewed_note": "ARGUS 4th trial: 37/48, 5 \u274c + re-read \u274c6/\u274c7 all applied and verified; sixth SCRATCH read 3 \u274c applied",
-  "reviewed_at": "2026-09-18T18:03:51+00:00"
+  "reviewed_note": "re-frozen after AEOLUS live-session drift only: every PROME/memory/FORGE manifest entry identical to the ARGUS-reviewed freeze; foreign scope drift, DOCKET L360",
+  "reviewed_at": "2026-09-18T18:04:47+00:00"
 }
