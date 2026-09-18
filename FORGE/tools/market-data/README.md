@@ -6,6 +6,51 @@
 
 ---
 
+## ⛔ READ THIS BEFORE YOU PULL A FUTURES PRICE (2026-09-18)
+
+**The generic continuous tickers `CL=F` and `BZ=F` report the price of one contract month under the
+label of another, and a day-change computed ACROSS a roll. Cite a NAMED contract month.**
+
+Reproduced live at 2026-09-18 17:5x ET by PROME (raised by HAWK the same morning, independently):
+
+| Call | Price | Day change | Tool's own label |
+|---|---|---|---|
+| `CL=F` | $95.47 | **−6.32%** | *"Oct 2026 (CLV26)"* — ⛔ **FALSE** |
+| `CLV26` (the real October) | $99.53 | −2.34% | Oct 2026 ✅ |
+| `CLX26` (November) | $95.47 | −1.81% | Nov 2026 ✅ |
+| `BZ=F` | $98.77 | **−5.77%** | *"UNKNOWN"* |
+| `BZZ26` (December) | $98.77 | −1.16% | Dec 2026 ✅ |
+
+`CL=F` is **byte-identical to `CLX26`** — same price, same volume 300,567 — while labelling itself
+`CLV26`. Off by one contract month. The day-change then divides the NEW month's price by the OLD
+month's prior close, which manufactures a move that did not happen: $95.47/$101.91−1 = −6.32%
+against November's real −1.81%. **Two defects in one call: wrong contract attribution, and a
+fabricated day-move. The prices are real prices — of a different month than the label claims.**
+
+🔑 **The tell is a day-change several points larger than the named months on the same screen.**
+It is loudest on a roll day and silent on every other day, so a clean-looking pull is not evidence
+the label is right.
+
+**What to do instead:** pull the named month (`CLV26`, `CLX26`, `BZZ26`, `BZX26`) and cite it by name.
+Root rule #4 requires a live price; it does not excuse an unnamed contract. This is the same class
+as the kill-on-sight entries in `HEARTBEAT.md` (⛔ *"`BZ=F` is the continuous series, contract
+identity UNKNOWN to the tool"*) and the `-7.5% Brent in three sessions` artifact SAM withdrew and
+then mechanized (`AGENTS/SAM/scripts/oil_roll_check.py`, 2026-09-18).
+
+⚠️ **A registered line is keyed literally on `CL=F`** — BRENT's `MKT-CL-F-ABOVE-100`, which fired
+2026-09-14. October expires ~2026-09-22, after which `CL=F` becomes November and the line would
+silently change contracts. BRENT owns that line and has been packeted; PROME does not re-grade it.
+
+⚠️ Smaller, same file: the tool prints `$` against non-USD listings (`LDO.MI` is euros,
+`SAAB-B.ST` is krona). Check the listing currency before quoting a level.
+
+**Owner + fix:** PROME (FORGE is PROME-owned). The repair is registered at `PROME/DOCKET.tsv` L409
+(FORGE market-data vintage + fallback repair, 2026-09-24) — WQ-229 consequential class, so it gets
+acceptance conditions written BEFORE the edit and an independent reader before anyone calls it
+fixed. ⛔ **This banner is a stopgap, not the repair, and it does not close L409.**
+
+---
+
 ## Architecture
 
 ```
