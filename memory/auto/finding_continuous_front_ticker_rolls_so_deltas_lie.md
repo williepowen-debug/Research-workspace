@@ -1,7 +1,7 @@
 ---
 name: finding_continuous_front_ticker_rolls_so_deltas_lie
 description: Continuous front-month tickers (=F) silently switch contracts — a LEVEL survives the roll, a DELTA or SPREAD across it is fabricated, and a COEFFICIENT fitted on it is attenuated toward zero in the direction that flatters the thesis.
-symptoms: "same ticker returns two different closes for one date"; "fast_info previousClose disagrees with the daily bar"; "vendor history and live quote are on different contracts"; "daily volume collapsed to a few hundred lots on a liquid future"; "flat O=H=L=C bar with the same volume as yesterday"; "headline % move is an artifact of the roll"; "my WoW/crack/spread printed a move the market did not make"; "two desks pulled the same ticker on the same date and got different closes"; "the daily bar and the 1h/5m bars disagree about which contract is front"; "my intraday quote matches the NEXT contract but the daily close matches the OLD one"
+symptoms: "same ticker returns two different closes for one date"; "fast_info previousClose disagrees with the daily bar"; "vendor history and live quote are on different contracts"; "daily volume collapsed to a few hundred lots on a liquid future"; "flat O=H=L=C bar with the same volume as yesterday"; "headline % move is an artifact of the roll"; "my WoW/crack/spread printed a move the market did not make"; "two desks pulled the same ticker on the same date and got different closes"; "the daily bar and the 1h/5m bars disagree about which contract is front"; "my intraday quote matches the NEXT contract but the daily close matches the OLD one"; "the tool PRINTED a contract month beside the price and it is the wrong one"; "two tickers return identical price AND identical volume but different % change"; "a -6% day on crude that no wire reported"
 metadata:
   type: reference
 ---
@@ -86,3 +86,29 @@ The facet-2 detector ("match the continuous close against each candidate contrac
 - **Identify a contract by its OPEN or its VOLUME, never by whether a value falls inside a range.** A range wide enough to contain your figure is usually wide enough to contain both candidates — `[[finding_crosscheck_with_free_parameter_validates_nothing]]`.
 
 **The framing that generalises past futures (WALTER, `SIG-W-20260828-012`):** *a continuous-front ticker lies about **two independent things** — **which contract** and **which session** — and **a fix aimed at one leaves the other standing.*** A pure-timing diagnosis tells you to "pull after the settle" and you still get a Nov number on an Oct question. **Diagnose both axes before declaring a data defect fixed.**
+
+---
+
+**⚠️ FACET 4 — THE WRAPPER'S OWN CONTRACT LABEL CAN BE WRONG, AND IT DEFEATS EVERY DETECTOR ABOVE BY APPEARING TO HAVE ALREADY RUN ONE.** Facets 1–3 are all cases where the *data* disagrees with itself and you must identify the contract yourself. This one is different in kind: **the tool asserts the identity for you, in a confident annotation, and the assertion is false.** A reader holding this entire memory can still be fooled, because the rules above say *identify the contract by its OPEN or VOLUME* — and the tool looks like it did.
+
+**Measured 2026-09-18 (HAWK, on `FORGE/tools/market-data/fetch.py`; independently reproduced by PROME at 17:5x ET before acting):**
+
+| call | price | day change | the tool's own annotation |
+|---|---|---|---|
+| `CL=F` | **$95.47** | **−6.32%** | `contract: Oct 2026 (CLV26)` ⛔ **FALSE** |
+| `CLV26` (the real October) | **$99.53** | −2.34% | Oct 2026 ✅ |
+| `CLX26` (November) | $95.47 | −1.81% | Nov 2026 ✅ |
+| `BZ=F` | **$98.77** | **−5.77%** | `contract: UNKNOWN` |
+| `BZZ26` (December) | $98.77 | −1.16% | Dec 2026 ✅ |
+
+`CL=F` is byte-identical to `CLX26` — **same price AND same volume, 300,567** — while printing that it is `CLV26`. Off by one contract month. `BZ=F` is `BZZ26`. **Both aliases rolled a month that session**, so each day-change compares the NEW month's price to the OLD month's prior close: `$95.47/$101.91−1 = −6.32%` and `$98.77/$104.82−1 = −5.77%`, exact against the prior settles. ⇒ **two independent defects in one call: a wrong contract attribution AND a fabricated day-move.** The prices are real prices — of a different month than labelled.
+
+**★ THE DETECTION TELL (PROME, same day), and note what it costs you on 364 days of the year:** *the signature is a day-change several points larger than the named months on the same screen.* **Loud on a roll day, silent every other day — so a clean-looking pull is NOT evidence the label is right.** Pull one named contract alongside any alias and compare the % columns, not the prices; the prices will agree with *something*, which is exactly what makes the label look verified.
+
+**Why it bites harder than a bad delta:** an annotation is a *claim about identity*, and it lands in the one place a careful reader looks to satisfy the facet-2 rule. It converts "I must identify this contract" into "the contract is identified," and the reader's own diligence is what the defect consumes. **A resolver that can be wrong must report its confidence or report `UNKNOWN`** — note that `BZ=F` *did* print `UNKNOWN` and was therefore the honest half of the same tool.
+
+**Consequence discipline, and it cuts the claim DOWN — PROME's correction to HAWK's first framing, accepted:** HAWK wrote that whether a registered `>$100` line was crossed *"depends entirely on which contract it means."* **Wrong: `CLV26` $99.53 and `CLX26` $95.47 are BOTH below $100, so the fire/no-fire verdict is identical either way.** What the defect destroys is the **MAGNITUDE** — a $0.47 crossing displayed as $4.53. ⇒ **When you find an instrument defect, separate what it changes from what it only makes look different. A defect that moves a distance is not automatically a defect that moves a verdict**, and claiming the verdict when you have only the distance is the same over-reach in the opposite direction. Sibling: `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`.
+
+**⚠️ n=3 UNCOORDINATED DESKS, ONE DAY (2026-09-18):** SAM booked a continuous-Brent Nov→Dec roll as −7.5%, withdrew it and mechanized `AGENTS/SAM/scripts/oil_roll_check.py`; HAWK found the `fetch.py` mislabel; BRENT independently flagged the ~9/22 October expiry against its own `CL=F`-keyed line. **Three desks, three entry points, no contact.** Per `[[finding_n_independent_deviations_is_a_sample_size_not_n_defects]]` that measures the FIELD, not three bugs — and the remedy is the promotable control (SAM's script), **not a fourth hand-written guard.** Repair registered `PROME/DOCKET.tsv` L409; the README stopgap banner is explicitly a caveat, not a fix (`[[finding_naming_a_caveat_can_substitute_for_fixing_it]]`).
+
+**Smaller, same file, same class:** `fetch.py` prints `$` against `LDO.MI` (euros) and `SAAB-B.ST` (krona). **A units label is an identity claim too.**
