@@ -4,6 +4,21 @@ Reverse-chronological log of **structural** changes to SAM's docs, folders, and 
 
 Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-version shifts, channel re-weighting, threshold rebumps).
 
+---
+
+## 2026-09-18 — post-BOJ sweep: STATUS rotation, grade split to report, two charter corrections
+
+**Boot-impact: STATUS boot read is ~3.1 KB lighter; boot step 6 now names a tool that already existed.**
+
+- **STATUS.md rotated 81% → 72% of read-cap budget** (26,433 → 23,281 B) after the 9/18 BOJ grade pushed it into the rotate tier. Moved, not deleted: the 9/15 news-integration and Sep-10/11 blocks → `STATUS_ARCHIVE.md` with a pointer left in place so cited section names still resolve. ⚠️ **NOT finished to the rule-5 <70% stop — stopped 496 B short, deliberately.** Every remaining candidate was live state or the `COMPRESSED SESSION-NOTE POINTERS` block, which carries an explicit external-consumer warning naming WALTER's `SIGNAL_PROCESSING_CHECKLIST` §v0.30. Breaking a named consumer for 496 B is a bad trade; **re-assess at the next append.**
+- **Grade detail split to a dated report** (`reports/2026-09-18_boj-mpm-grade.md`), STATUS keeping only the verdict table and consequences — the desk's existing report pattern, applied because in-place trimming kept replacing bytes with bytes once caveats were preserved.
+- **`CLAUDE.md` boot step 6 corrected (DAEDALUS PR#6).** It claimed the predictions step had "NO INSTRUMENT … zero scripts read the file." **False at HEAD** — `boot.py --predictions` exists, validates every row, derives the OPEN set *from the file* and ignores preamble counts. ⚠️ **Verified by running it, not by reading the code.** Cost was live: this desk ran step 6 by eye that morning because its own charter said not to look.
+- **`CLAUDE.md` HAWK line freshness-synced** — "90% ME oil dependent" → 62.6% [Aug-2026]. No analytical-view change.
+- **`evals/README.md` version pair resolved by separating the objects**: protocol **v1.1** is canonical and the only version asserted; "v1.2 case set" is explicitly derived/descriptive. Two objects had carried two version numbers with nothing saying which governed.
+- **`docket/CALENDAR.md` ↔ `CATALYSTS.tsv` divergence repaired** — the Oct-2 METI row had been added to the TSV only, same session. Sep-16/17 rows pruned to a RESOLVED block rather than deleted.
+- **Process defect, recorded because it recurs:** four `git mv` renames were committed with pathspecs naming only the destination, leaving four deletions staged in the **shared** index for ~2 hours. Caught by BRENT reading the index from its own session, not by this desk. Cause: skipped the mandatory pre-commit `git status -- AGENTS/SAM/` dangling-deletion check on two consecutive commits.
+
+
 **Archive convention:** topic archives live next to their active doc (e.g. `thesis/timeline/ARCHIVE.md`, `workbook/KB_ARCHIVE.tsv`, `STATUS_ARCHIVE.md`) — that is still the rule for a doc with a live twin.
 
 🔧 **CORRECTED 2026-09-11.** This line previously read *"Root `archive/` is preserved as a legacy graveyard for pre-Mar 18 system rebuild — do not add to it."* **That had been false for months and the file itself was the evidence:** `archive/` already held `NEXUS_BRIEF_2026-09-04_before_boot.md`, `STATUS_2026-09-08_before_catchup.md`, `MEMORY_2026-09-08_before_catchup.md` and `CALENDAR_2026-09-08_before_catchup.md` — four files added in the preceding week, by this desk, under a note saying not to. It also contradicted root `CLAUDE.md` § Data Hygiene, which directs retirement sweeps to `AGENTS/<NAME>/archive/` by name. **Live rule:** root `archive/` IS the retirement destination per root canon. Retired files keep their original relative path under it (`archive/research/…`, `archive/outbox/…`), which also keeps them from mixing with the flat pre-Mar-18 legacy files at its top level.

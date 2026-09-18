@@ -224,7 +224,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 | **Modal bleed widens** — ⚠️ **regime SUSPENDED 2026-08-02, not merely re-priced** | pending | pending | The path this row describes ("Warsh-hawkish + USD-haven persists → USDJPY 165-167") is **the exact regime STRATEGY § THE ASYMMETRY suspended by name** when the modal band was withdrawn: USD/JPY reversed to a **157.40** close, ~6 figures the other way. The risk is not gone — it is **not currently derivable** until the 8/7 print settles regime-change-vs-spike. Stop $55.50 unchanged and now **+3.9% ABOVE spot** (FXY $57.66) — the buffer WIDENED, the first time this cycle *(supersedes the stale "−2.3% below spot")*. Re-derive this row with the modal band. |
 | **Oil/MOU re-escalation → Phase-2 yen bid** | **~10-11% (60d tail)** — thesis-ALIGNED *if* Phase-2 fires; ⚠️ **de-escalation risk now cuts the other way** | Phase-2 yen bid (FXY up) | Tail route 5 (re-armed 8%→~10-11%/60d, 7/16 formal Hormuz closure). **Phase-1 regime LIVE but the level round-tripped: Brent $90.12** (from $100.43 [7/23]); June TB −¥406.9B deficit stands. The cluster is RISK-PREMIUM not supply-loss (FAL-01 unfired → reversible; BRENT/FALCON own sustain). **🆕 8/1-8/2: strikes on Iranian energy sites ordered then CANCELLED on claimed deal parameters; daily exchange PAUSED (3rd of the cycle — the 7/24 pause broke in 4 days); Tehran unconfirmed.** A genuine de-escalation *removes* this route's trigger rather than firing it. Still needs the Phase-2 yen-haven bid, un-fired. |
 | **Channel 1 reactivates** (DIRECT foreign-SALES print, not JGB-30Y) | Low | +convexity (re-add Channel 1) | **RETIRED in v1.6** (4-of-4 grew US credit). Re-add tripwire = net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Big-3 mutuals, Norinchukin}; JGB-30Y/ESR = accelerant only. Next disclosure ~Nov 2026 / May 2027. |
-| **Takaichi political collision** — next hike beyond 1.00% triggers friction | medium-term (2027+) | Limits structural appreciation | June hike delivered (1.00%); the ceiling risk now governs the *next* hike. Sato seat (Jun 30) tilts the board dovish (dissent bloc 3→2). |
+| **Takaichi political collision** — 🔴 **THE NEXT HIKE BEYOND 1.00% HAS HAPPENED (2026-09-18, →1.25%)** — this row's trigger is spent and its timing premise is falsified | ~~medium-term (2027+)~~ → **LIVE NOW** | Limits structural appreciation | June hike delivered (1.00%); the ceiling risk now governs the *next* hike. Sato seat (Jun 30) tilts the board dovish (dissent bloc 3→2). |
 
 ---
 
@@ -232,7 +232,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 
 ### 🟠 EWJ (Japan ETF) — PUTS
 
-**Thesis:** Japan is in a binary trap. 75% of mortgages are FLOATING RATE (linked to BOJ policy rate). BOJ hikes to 1.00% → immediate household stress → consumption drag → recession risk. BOJ doesn't hike → JGB crisis deepens → yen collapse → forced UST selling.
+**Thesis:** Japan is in a binary trap. 75% of mortgages are FLOATING RATE (linked to BOJ policy rate). BOJ hikes (**1.00% Jun-16 → 1.25% Sep-18**, 50bp above the Takaichi ceiling) → household stress → consumption drag → recession risk. BOJ doesn't hike → JGB crisis deepens → yen collapse → forced UST selling.
 
 **Entry Triggers (updated post-Jun-16 / v1.6):**
 - [x] BOJ hikes to 1.00% ✅ (Jun 16 — hiked as-priced, SAM-21 CONFIRMED) — mortgage transmission begins
@@ -242,11 +242,11 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 - [x] ~~Japan Q2 2026 GDP shows contraction (Aug print)~~ — **Q2 GDP BEAT +1.4% ann.** Not a trigger. *(Resolved NEGATIVE; struck 2026-09-11 per this section's own convention — the Q1 line above models it.)*
 
 **Anti-Triggers:**
-- ~~BOJ delays past June~~ — ✅ MOOT (BOJ hiked to 1.00% Jun 16). Remaining anti-trigger: BOJ pauses the *next* hike (Sato seat tilts board dovish from Jun 30) → mortgage-transmission stress delayed
+- ~~BOJ delays past June~~ — ✅ MOOT (hiked 1.00% Jun 16). ~~Remaining anti-trigger: BOJ pauses the *next* hike (Sato seat tilts board dovish from Jun 30)~~ — 🔴 **RESOLVED NEGATIVE 2026-09-18: the BOJ did NOT pause; it hiked to 1.25%.** ⚠️ **Note the shape of the miss: the named MECHANISM was right and the CONCLUSION wrong.** Sato did tilt dovish — dissenting for HOLD, on the record — and was **outvoted 7–2** (Asada dissented with her). A correctly-identified dovish seat did not deliver a dovish board. This anti-trigger no longer delayed
 - Real wages sustain positive (Jan was +1.4% — first positive in 13 months)
 - Oil shock resolves (Brent sub-$95, MOU framework hardening) — **Historical watch condition; no current anti-trigger certification.** The earlier price/status stamps were superseded, including the incorrect August 27 figure. Evaluate price and physical/framework conditions separately from current STATUS and the owner energy assessment. A price leg alone cannot establish physical resolution.
 
-**Status:** ⏳ WATCHING — BOJ hike Jun 16 trigger ✅ FIRED (hiked 1.00%, SAM-21 CONFIRMED); remaining legs (Japan mortgage-transmission data) still watched.
+**Status:** ⏳ WATCHING — rate trigger ✅ FIRED **TWICE** (1.00% Jun-16, SAM-21 CONFIRMED; **1.25% Sep-18, 7–2**). Both anti-triggers that could have delayed transmission are now resolved negative. **Remaining leg is the one that was always the hard one: actual Japanese mortgage-transmission DATA (DQ spikes), which has not printed.** ⛔ Rate level is not evidence of transmission — do not read the second hike as the watchlist firing.
 
 ---
 

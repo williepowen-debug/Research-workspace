@@ -1,18 +1,13 @@
 # SAM CALENDAR
 
-**Reconciled September 15, 2026.** Forward dates/events match `CATALYSTS.tsv`, including the October rows omitted from the previous human calendar. Raw BOJ sources settle October 1 Tankan and October 30 Outlook. Earlier preparation and historical resolutions remain in the [before-image](../research/outputs/2026-09-14_stale-sweep/before/docket/CALENDAR.md).
+**Reconciled September 18, 2026** (post-BOJ sweep; Sep-16/17 rows resolved and pruned to the RESOLVED block below, Oct-2 METI row added in sync with `CATALYSTS.tsv`). Prior reconcile September 15, 2026. Forward dates/events match `CATALYSTS.tsv`, including the October rows omitted from the previous human calendar. Raw BOJ sources settle October 1 Tankan and October 30 Outlook. Earlier preparation and historical resolutions remain in the [before-image](../research/outputs/2026-09-14_stale-sweep/before/docket/CALENDAR.md).
 
 ## SEPTEMBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
 
-September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. Prediction terms are unchanged. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y resolved AMBIGUOUS (see completed record). Recurring releases below are the near-term watch set, not a complete annual calendar.
+✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → **SAM-28/31 grading still PENDING at the 16:00 ET close** per `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`. Prediction terms are unchanged. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y resolved AMBIGUOUS (see completed record). Recurring releases below are the near-term watch set, not a complete annual calendar.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
-| 🟠 Wed Sep 16 2026 | BOJ 25Y+ JGB purchase operation date (SAM-33 schedule check) | Offer date, bucket size and BTC vs the Aug-31 quarterly schedule mpr260831a.pdf (25Y+ 750 x 100M yen per auction); read ope2026MMDD.xlsx at the operation record | A scheduled-date/scheduled-size op does NOT count against SAM-33; an unscheduled fixed-rate op or a purchase increase explicitly capping a GRADUAL rise WOULD. Verify at the record, never infer from silence. | SAM,LIQUID |
-| 🔴 Wed Sep 16 2026 | FOMC decision (Sep 15-16) — SEP meeting | Dot plot; any walk-back of the Jun-17 +40bp dot revision | Actual dot walk-back versus June 17 remains the registered Fed-side tripwire. August 7 labor premise superseded by September 4 BLS revisions; no current Fed probability authenticated. | ALL |
-| 🟠 Wed Sep 16 2026 | Japan trade balance, August (provisional) | Balance; export vs import legs - read crude VOLUME, not crude value (Jul: value +87.8% YoY, volume +5.5%; 12,106 kKL ~ 76.1 M bbl/mo ~ 2.46 mb/d, value 1,408.9B yen). 08:50 JST. | The honest test of the oil-in-yen inversion (supply destruction => SURPLUS not deficit - the mechanism that killed SAM-15 @80%) AND leg (a) of the 2026-09-11 VECTOR-5 re-open test; legs (b) oil-in-yen >=18,000 yen/bbl on 5 consecutive completed sessions and (c) USD/JPY through 158 on the USDJPY=X completed-session basis were both FALSE at 2026-09-11. Keep quantities, prices and currency separate. | SAM |
-| 🟡 Thu Sep 17 2026 | BOJ Flow of Funds, Q2 preliminary, 08:50 JST | Institutional asset stocks and sectors | Stock changes include valuation; do not infer net UST sales. | SAM |
-| 🟡 Thu Sep 17 2026 | MOF weekly international securities flows | Week September 6-12 | Separate foreign LT debt from USTs and trust accounts from GPIF. | SAM |
 | 🔴 Fri Sep 18 2026 | BOJ MPM day 2 decision (Sep 17-18; no Outlook Report) | Policy rate; guidance; vote split (Takada dissented for 1.25% in July) | MACRO WATCH; retired frame has no entry gate. Use dated reviewed Totan OTC meeting OIS in workbook/BOJ_MEETING_OIS.tsv and workbook/BOJ_OIS_README.md; prior BOJ_OIS.tsv is frozen history. No pricing percentage restated; incremental hike equivalent and cumulative expected counts are different measures. New images require SAM review. | ALL |
 | 🟠 Fri Sep 18 2026 | CFTC JPY COT release, 15:30 ET | September 15 positions; legacy and TFF gross legs | Covers through Tuesday only; original SAM-28/31 terms still govern. | SAM |
 | 🟠 Fri Sep 18 2026 | Japan National CPI, August | Headline / core / core-core on the 2025 base | Second National print on the new base; morning-of input (8:30 JST) to the same-day BOJ decision | SAM |
@@ -25,6 +20,7 @@ September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at 
 | 🟠 Thu Oct 01 2026 | BOJ Summary of Opinions — September 17-18 MPM | Board members' own words on the Sep hike; whether oil is named and HOW | The 9/18 L34 pre-read asks whether the statement names oil as downside-risk-to-activity (dovish-for-pace) or second-round-price-risk (hawkish). SoO is where that reasoning surfaces first. | SAM |
 | 🟡 Thu Oct 01 2026 | BOJ Tankan, September 2026 survey (Q3), 08:50 JST | Manufacturing/non-manufacturing DI and price plans | Confirmed at the dated BOJ calendar; no longer a cadence estimate. | SAM |
 | 🟡 Fri Oct 02 2026 | Tokyo CPI, September (preliminary) | Headline / core / core-core on the 2025 base | ⚠️ 2025-BASE ONLY; never compare across bases. The 'Tokyo running ABOVE national' read is RETIRED as a base artifact. NOT within the September window. | SAM |
+| 🟠 Fri Oct 02 2026 | METI Preliminary Report on Petroleum Statistics — August "Import of Crude Oil by Source" | US crude share (Jul: 37.0% of receipts, WTI-Midland 24%) and whether **Kuwait / Qatar return from ZERO** (Jul: both 0, from 7.8% / 2.3% a year earlier) | Durability test for the ME-substitution finding. **Kuwait/Qatar returning is the named mechanical reversal test** (BRENT 2026-09-18). Refinery-receipt basis — ⛔ never blend with the customs series (METI Jul ME share 58.9% vs customs 59.3%). No grade registered; descriptive. 62.6% is a waypoint under a Hormuz constraint, NOT a constant. | SAM,BRENT |
 | 🟡 Tue Oct 06 2026 | JGB 10Y auction | BTC, tail | Belly, not a super-long floor test. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM,LIQUID |
 | 🟠 Thu Oct 08 2026 | JGB 30Y auction — THE NEXT TEST THE FROZEN BARS ACTUALLY APPLY TO | BTC and tail vs the frozen bars: SOFT = BTC<3.5 OR tail>2.0bp; FIRM = BTC>=4.0 AND tail<=1.0bp | 🔴 DIRECT SUCCESSOR to the Sep-3 30Y that graded SOFT by a 0.1bp margin and generated RULING 1. ⚠️ APPLY THE PRECISION-LIMITED TAG if the trip margin is <=0.1bp (MOF 3-decimal quantization IS 0.1bp) — thesis/AUCTION_GRADING_RULING_2026-09-11.md. Conventional multi-price tenor, so a tail EXISTS here (unlike the 40Y). | SAM,LIQUID,BOND |
 | 🟡 Thu Oct 08 2026 | MOF Balance of Payments, August (preliminary), 08:50 JST | Current account; goods vs primary income split | July was CA +¥2,988.9B with primary income +¥4,289.6B against goods −¥399.9B — the denominator behind the VECTOR-5 verdict that the oil channel cannot reach the current account. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM |
@@ -41,6 +37,16 @@ September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at 
 | 🟠 Mon Jan 25 2027 | NBIM/GPFG bond-index restructure — expert-group report due (JGB weight 4.6% -> 7.4%) | Does the expert group endorse the JGB leg? Any mandate language on phasing | PROPOSAL, not executed flows: JGB benchmark 4.6% to 7.4%; no tenor-specific allocation or implementation date established. Earlier nothing-lands-in-2026 inference withdrawn. | SAM, BOND, LIQUID |
 
 ---
+
+## ✅ RESOLVED September 16–17 (pruned from the forward table 2026-09-18)
+
+| Date | Event | Outcome |
+|---|---|---|
+| Wed Sep 16 | BOJ 25Y+ JGB purchase op (SAM-33 check) | **Verified at the record** (`ope20260916.xlsx`): 25Y+ offered **750** = exactly the Aug-31 scheduled size; BTC 1.84×; no fixed-rate, unscheduled or enlarged op ⇒ **SAM-33 falsifier UN-FIRED.** |
+| Wed Sep 16 | FOMC (Sep 15-16) SEP | **HIKED 25bp → 3.75–4.00%, 12–0.** SEP medians **UP** (2026 3.8→4.1 / 2027 3.6→4.1). The registered tripwire is a dot **walk-back** — this is its opposite; SAM-28's Fed route **ANTI-FIRED**. |
+| Wed Sep 16 | Japan trade balance, August | **−¥1,105.6B**, widest since January. Crude **volume +3.6%** vs **value +58.7%** ⇒ a PRICE deficit, not a volume one. ⚠️ **ME crude volume −30.9%** while total volume ROSE — substitution, not loss. → `reports/2026-09-18_me-crude-substitution.md` |
+| Thu Sep 17 | BOJ Flow of Funds, Q2 prelim | Not separately read this session; no UST-sales inference drawn or owed. |
+| Thu Sep 17 | MOF weekly flows (Sep 6–12) | **+¥1,082.9B BUYING** of foreign LT debt. 4-week **−¥1.608T**, still 🟡 above the ¥1.4T upper but carried entirely by the 8/16–22 week, which rolls out next week. |
 
 ## 🔭 BEYOND THE 6-WEEK HORIZON
 

@@ -29,58 +29,50 @@
 
 ## Session Notes
 
-### LAST SESSION — September 15: news sweep
+### CHANGES SINCE LAST SESSION
+- **BOJ HIKED 25bp → 1.25%** (2026-09-18, 7–2, effective Sep-24, highest since 1995). **Both dissents DOVISH, for HOLD** — Asada (core CPI "below 2 percent"), Sato ("not substantially accelerated"). Yen **WEAKENED** anyway: USDJPY 154.82 [9/15] → **157.34** [9/18 15:01:50 UTC].
+- **FOMC HIKED 25bp → 3.75–4.00%**, 12–0 (9/16). SEP medians **UP**: 2026 3.8→4.1, 2027 3.6→4.1. Both central banks hiked in one week.
+- **Japan Aug trade −¥1,105.6B**, widest since January — a PRICE deficit (crude value +58.7% on volume +3.6%). **ME crude volume −30.9% while total volume ROSE.**
+- National CPI Aug **1.9 / 1.7 / 1.9** (2025 base). **The BOJ hiked with core BELOW its own target.**
+- Brent **$99.56**, back through $100 to the downside despite Petroline shut since 9/11. FXY **58.30**; the Sep 2–9 rally fully given back.
+- MOF weekly Sep 6–12 **+¥1,082.9B BUYING**; 4-week −¥1.608T (was −¥1.55T).
 
-Will requested Japan news specifically for SAM. Integrated six items into current state and [a sourced report](reports/2026-09-15_news-sweep.md). Auction graded AMBIGUOUS; two forward docket feeds reconciled. Verified growth revision via e-Stat after METI 403. MOF budget table corrected a syndicated-news total; BOJ May remarks kept separate from September publication. Monthly equity flows are not NISA-only; energy cooperation is not delivered volume. Prior stale-data session preserved in [before-image](research/outputs/2026-09-15_news-sweep/before/MEMORY.md).
-
-Correction: previous auction 404 used the wrong filename; absence inference withdrawn. Original predictions, registration and money fields unchanged; no peer messages. Save sources, dates and failed accesses with findings. Closeout uses a path-scoped commit and the safe-push receipt.
-
-**Closeout September 15:** news commit `17873d941` confirmed on origin/master; verification passed and worktree clean at entry. [Closeout record](reports/2026-09-15_closeout.md). July LAST_COMPLETION is now explicitly historical. No further sweep writeback owed; dated research checks below remain.
+### LAST SESSION
+Will-directed boot + dark-period catch-up (dark 9/15→9/18), then a full file sweep.
+- **Graded SAM's three-leg BOJ pre-registration** (owner grade; PROME DOCKET L34 closed on it). Vote-split leg: hawkish surprise **DID NOT FIRE** — count matched, sign inverted. Oil-naming: **DOVISH-FOR-PACE**. Balance sheet: **NO SURPRISE**. **Composite clause graded a MISS** — right direction, wrong mechanism.
+- **Corrected PROME**, which had relayed the dissents as "citing upside inflation risk." Both are dovish. PROME accepted; logged against itself under `[[finding_exact_level_authenticates_a_wrong_direction]]`.
+- **SAM-28/31 adjudication FROZEN pre-close** → `docket/2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`.
+- **Oil-in-yen re-read** → the 90% ME premise retired; BRENT answered the origin question same-session (US crude 37%, Kuwait/Qatar zero). KB-SAM-253..256.
+- **DAEDALUS PR#6:** ASK 3 done both legs; **ASK 1 DECLINED on ownership** (red/ is RED's file).
+- Sweep: CALENDAR↔CATALYSTS divergence repaired, TRADE.md/STATUS_REFERENCE/SIGNAL_INTAKE trued up, MAINTENANCE logged, STATUS rotated 81%→72%.
 
 ### NEXT SESSION
 
-**TIER 0 — DATED:**
-- **Sep-15 DONE:** 20Y AMBIGUOUS; result and URL correction in news report. Next auction Sep-29 40Y descriptive only; Oct-8 30Y frozen bars.
-- **Oct-1 / Oct-30:** Tankan and October Outlook now primary-confirmed; prior date/status disputes closed.
-- **Sep-11 (partially resolved):** ✅ CGPI done at the primary (above). **Historical Sep-11 reminder, now resolved (CPI and CFTC verified in later sessions):** 08:30 ET **US CPI** (Waller's vote keys on it; consensus +0.4/+0.4, 3.4/2.4 y/y) and **15:30 ET CFTC Sep-8 positions — FIRST POST-RALLY READ**, review now RESOLVED at `docket/2026-09-11_CFTC_REVIEW.md`. Sep-1 was −92,227 and predates the move; do not read it as a post-rally position.
-- ✅ **Sep-14 feed — DECIDED: DO NOT ACTIVATE; monitor STOPS at expiry.** Why → KB-SAM-244 + `research/outputs/2026-09-09_followthrough/ACTIVATION_DECISION_2026-09-11.md` (the residual hard-codes JPY 1.00% ⇒ the 9/18 hike flips its sign, +25.00bp). Pair 6JZ26→6JH27 stands; the FEED was declined. **DONE Sep-14: `xccy_basis.py` unwired from `boot.py` and listed manual-only** — its guard returns 1 forever once expired, and a FAIL every boot for a known-good reason is what trained this desk to read past `grade_8_14_branch.py`.
-- **Sep-16:** 25Y+ op date → repeat the KB-SAM-238 record check (now a docket row) · **Japan August trade balance 08:50 JST — read crude VOLUME, not value** (Jul: value +87.8% YoY, volume +5.5%) · FOMC.
-- **Sep-17/18:** BOJ MPM · National CPI · **SAM-28/31 grading at close** per `docket/2026-09-18_SAM28_SAM31_REVIEW.md`; original rows govern. FXY episode endpoints and the VIX-spike fixing convention remain UNRESOLVED — do not silently invent either at grading time.
-- ✅ **Auction terms RULED → `thesis/AUCTION_GRADING_RULING_2026-09-11.md`.** **Sep-29 40Y = NOT-APPLICABLE** (uniform-price: FIRM unreachable, SOFT fires w.p.1) — descriptive BTC only, NO grade, counter stays 0-of-2. **Sep-15 20Y resolved AMBIGUOUS**, beyond the precision margin; 0/2 unchanged. No 40Y bar registered (n=2 ⇒ unfalsifiable); re-assess at n=5. Old note:
-- **Sep-30 17:00 JST:** BOJ Oct–Dec schedule. A scheduled taper-plan change does NOT count against SAM-33; an unscheduled capping op would.
+**TIER 0 — TONIGHT, DATED:**
+1. 🔴 **Record the official FXY close against 58.49** (= registration close 56.79 × 1.03). It was **58.44 intraday** — five cents. This decides SAM-28's whole-window leg. ⛔ Read it off the CLOSE, never an intraday quote.
+2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE on the route leg, **with the "sustained OPERATIONS → TRUE" alternative disclosed, not buried.**
+3. Pull the **15:30 ET CFTC COT** (Sep-15 positions). Record it; it enters **neither** row's terms.
+4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand.
+5. **Push.** Nothing has been pushed this session; ~8 commits local.
 
-**TIER 1 — OWED / MINE TO RULE:**
-- ✅ **Both PROME corrections LANDED** (annotated in Notes, descriptions verbatim). **WALTER's copy is NOT** — `consumer_check` still 1 🔴 at `BOARD/SIG-W-20260810-002:33`; delivered, unconsumed, not mine to edit. Old note:
-- 🆕 **The VECTOR-5 re-open test is LIVE and dated: leg (a) resolves at the Sep-16 08:50 JST trade balance on crude VOLUME.** Legs (b) ¥18,000/bbl × 5 consecutive completed sessions and (c) USD/JPY through 158 on the `USDJPY=X` completed-session basis are carried in STATUS § KEY THRESHOLDS as rows so they self-surface. **Do not re-open the instrument question on fewer than all three** — and do not quietly re-tune the legs; that is the scoring-time re-tune this desk refused on 8/7.
-- ✅ **STATUS hot/cold split DONE** → new **`STATUS_REFERENCE.md`** (WARM: current and citable, read on demand); 9/10 block → `STATUS_ARCHIVE.md`. STATUS 32,537 → ~29,0xx B; read-cap 1-over → 0. In CLAUDE.md boot step 2 + FILES. Old note:
-- 🆕 **The SAM-39 successor still owes a SHAPE leg**, and the WQ-162 basis line is now written so the successor inherits it — quote the blockquote under STATUS § KEY THRESHOLDS verbatim rather than re-deriving the basis.
-- **VERIFY (do not assume): PROME said it would add SAM's 9/10 instance as n+1 to auto-memory `finding_crosscheck_with_free_parameter_validates_nothing` at its own closeout memory pass.** Check the file for the SAM instance next boot. ⚠️ **Only the sender half of a handoff self-triggers** — if PROME's pass slipped, both desks' own checks still read clean and nobody owns it ([[finding_transfer_completes_only_when_the_receiver_encodes]], [[finding_record_of_an_action_is_not_the_action]]). Nothing is owed *from* SAM; the verification is. Also confirm SAM's five 9/10 commits (last `b18eaeb5d`) actually reached origin — **PROME serialized the push, so SAM never saw a `CONFIRMED:` receipt of its own.**
-- **BOJ chart review expires Sep-18 00:00 JST.** Repeat the visual review only when a NEW image appears; refresh before any decision. Never restore the retired feed.
-- **SAM-39 successor:** preregister SHAPE (max single-hour move or time-to-half-move) BEFORE any reopened intervention-character window.
-- **METSUKE:** Run-18 E1 publisher-side monitor spec; **Run-12 flags/escalations apply pass still owed** (July 31 deferred by design).
-- ✅ **KB 051/197 DONE.** KB-197 was Status=LIVE on a deal whose truce collapsed ~3wk later ⇒ **SUPERSEDED** (history kept). KB-051 $120 Kharg threshold **stands**, annotated: the 8/31 headline was an **AI-generated video** — it is a PRICE threshold, fires on Brent $120, never on a Kharg headline.
-- ✅ **KURA Run-14 routings CHECKED — and 'completion not assumed' was right: 1 of 2 had NEVER landed.** Kharg extension was present; `finding_rank_is_a_property_of_a_sovereign_window_pair` **did not exist** (recommendation sat in `workbook/KURA.md` since 9/02). Written + committed + indexed HOT. ⚠️ **`memory/auto/MEMORY.md` now 19,002 B = 74.2% of cap, 198 B below the 75% demote trigger — FLAGGED TO PROME; never compact it yourself (Will-ruled 7/28).**
-- ✅ **CFTC deadband successor REGISTERED before its window, as CODE not prose** — `multi_print_drift_check()` in `cftc_jpy.py`, runs every boot. Two consecutive in-deadband prints ⇒ aggregate vs a **frozen 18,488 bar**; flag to LOOK, not a grade. `--selftest` 8/8. ⚠️ **1.5× came from KB-SAM-231 (not fitted here) but was derived from the Aug-18/25 episode ⇒ that firing is IN-SAMPLE; only the April pair is independent.** KB-SAM-243.
-- **WALTER charter edit:** mine per the Aug-18 lane notice, still owed.
-- ✅ **JGB backfill RULED + EXECUTED: to 2025-04-01 (FY2025).** 354 rows, no dupes, basis control passed before writing. **Earned itself: 30Y 2.282% [2025-04-07] → 4.131% [2026-09-01] = +185bp with NO emergency capping**, vs SAM-33's cited "+100bp to ~3.20%" — roughly double. ⛔ No prediction term touched, not a grade. ⚠️ One regime ≠ a calibration set. KB-SAM-245.
-- **KOYOMI:** trigger-vs-convention baseline audit first October; Run-16 verify block roll pending.
-- Default-startup promotion WITHHELD after actual eval failure (`evals/runs/2026-09-09_boot-promotion/ASSESSMENT.md`). Diagnose the BOJ reaction-function and FX transaction-sign errors before a new trial; frozen criteria stay fixed.
+**TIER 1 — DATED, FORWARD:**
+- **Sep-29** 40Y auction — descriptive BTC only, NO grade (uniform-price; RULING 2). Counter stays 0-of-2.
+- **Sep-30 17:00 JST** BOJ Oct–Dec purchase schedule. A scheduled taper-plan change does **NOT** count against SAM-33; an unscheduled capping op would.
+- **Oct-1** BOJ Summary of Opinions — the board's own words on the Sep hike, and **whether oil is named and HOW**. Direct test of this session's leg-2 grade.
+- **Oct-2** August METI crude-by-source — **the durability test: do Kuwait/Qatar return from ZERO?** Registered as a CATALYSTS row.
+- **Oct-8** 30Y auction — the next test the frozen bars actually apply to. Apply the PRECISION-LIMITED tag if the trip margin ≤0.1bp.
 
-**TIER 2 — SUCCESSOR AND RESEARCH:**
-- ✅ **v2.0 KILLED and FULLY CONSUMED — the "RED body UNREAD / Will-gated" flag was STALE for 15 days and is cleared (2026-09-11).** The Will-authorized unseal + cross-read on **8/27** read RED's CHG-RED-048 in full FIRST (`thesis/V20_CROSSREAD_2026-08-27.md`); proven by verbatim body strings. **Nothing was ever owed to Will.** ⚠️ **The stale flag HID salvage ④ — a real JPY xccy-basis instrument, RED's single highest-value constructive output** (a ~$400B swap-funded book is invisible to CFTC but not to its funding market). It was tracked NOWHERE, which is why today's lapse decision said "nothing depends on it." Now a row in STATUS § WHAT TO WATCH. 📌 **Lesson: a stale status flag does not just misinform — it can CONCEAL the obligation underneath it, because everyone reads the flag and stops.** **No successor; v1.7 stands.** v1.8 candidate needs separate FX terms, RED review and Will approval; SAM-41's historical confirmation is unchanged by current 0/5 runs.
-- **Policy-week question:** BOJ latest indicative September equivalent 99%, while matched-date US–Japan gaps remain above both bars (0/5). Relative-path causality is an inference, not established from levels. September 16 dots and September 18 decision/guidance are next observations; no successor promotion.
-- Cross-pair rally and modest broad-market stress are distinct. Norway proposed weights (4.6→7.4%) are not flows; BOND's ~$18B is an estimate; no mandatory Jan-2027 ordering inferred.
-- Still-open research: fiscal/Takaichi + JGB supply; digital deficit; BIS yen carry beyond CFTC; Taiwan/China→Japan tail; Japan semis/AI capex.
+**TIER 2 — OWED:**
+- 🔴 **Re-benchmark the oil-in-yen price proxy.** It prices off Brent while ~37% of receipts are WTI-Midland-led US crude. **Until then the +22% implied-premium flag must NOT be resolved as a cost finding** — it is partly benchmark mismatch.
+- **STATUS re-assess at next append**: 72% of budget, stopped 496 B short of the rule-5 <70% stop deliberately (remaining candidates are live state or the consumer-warned pointer block).
+- **RED's L416 wake 9/24** carries DAEDALUS's banner ask + CH-009/012/017. Not mine; PROME rules ownership if RED declines. **Do not accept a re-route back to SAM.**
+- **SAM-39 successor still owes a preregistered SHAPE leg** before any reopened intervention-character window.
+- `xccy_basis.py` stays manual-only/expired — the 9/18 hike is exactly the sign-flip the 9/11 activation decision predicted. Do not revive it.
+- WALTER charter edit still owed (Aug-18 lane notice). METSUKE Run-12 apply pass still owed.
 
-**SUB-AGENT CLOSEOUT — standing:** after any run, `subagent_memory_roll.py`; after KURA, also `kura_proposal_roll.py`. Never `--all` while any sub-agent is live. They propose, SAM applies. Move never delete; unmarked = LIVE.
+**SUB-AGENT CLOSEOUT — standing:** after any run, `subagent_memory_roll.py`; after KURA, also `kura_proposal_roll.py`. Never `--all` while a sub-agent is live. They propose, SAM applies.
 
-**DO NOT:** rearm retired −153K/85%; use 180K for current display (R=188,077; legacy storage stays historical); cite unreviewed/historical BOJ or Fed probabilities as current; call allocation proposals purchases or trust accounts GPIF; infer UST sales from foreign-debt aggregates/reserve stocks; call CME residual true basis; compare continuous oil across rolls. Historical 30Y high remains 4.131% Sep-1.
-
-## Tooling — how to find out what exists
-
-Run `.venv/bin/python3 AGENTS/SAM/scripts/boot.py --tools` before building or pulling manually. Inventory is generated; helpers and explicit modes are documented in `scripts/README.md`. `--orient` and `--predictions` are read-only; `--quick` skips only options and still runs the other market writers. Index output is not completed orientation: read every numbered part and check hashes.
-
-**Owed / deferred:** `env_doctor` scoping belongs to DAEDALUS, not PROME. Verify environment state on the actual hostname by executing its path; prior laptop/desktop and key-presence claims were contradictory and are historical only. Source 2027 holidays for `catalyst_countdown.py`; CPI comparisons must pair the same base/gauge (2025-base core-core artifact is not a headline/core claim); KB-202; KB-152 Q2 actuals to BROCK/HANS; Japan LNG/JKM; Batch-3 P3-Asia; May TIC; TB citation to pruned CALENDAR Jun-17 row (provenance).
+**DO NOT:** rearm retired −153K/85% (moot in direction — the book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing (`boj_ois.py` returned an unreviewed chart 9/18 — **this desk has no current BOJ pricing**); cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
 
 ### PRIOR SESSIONS — archived
 
