@@ -504,3 +504,17 @@ SAM carries **no FXY position, and never opened one.** **$0 was at risk through 
 ⚠️ **Calibration guard: a high oil-in-yen print is the shape of SAM-15 (@80%, FAILED)** — "oil-in-yen forces repatriation independent of rate differential," which died three ways (premise evaporated, **mechanism inverted** → trade SURPLUS not deficit, insurers **grew** foreign books). The inversion still holds on current data (July CA **+¥2,988.9B**, primary income +¥4,289.6B, goods only −¥399.9B). **Honest next test = August trade balance Sep-16 08:50 JST; the discriminator is crude VOLUME, not value.**
 
 **Prior (compressed 2026-09-11, line-cap pass — full bodies in `reports/2026-09-10_news-catchup.md` and `reports/2026-09-09_followthrough.md`):** BOJ Sep-9 FINAL = provisional, closed as anticipated fiscal, **Sep-8 residual still OPEN**; Sep-9 BOJ outright ops matched the Aug-31 schedule ⇒ **SAM-33 falsifier verified un-fired AT THE OPERATION RECORD**, not by silence; Dec–Mar futures pair validated, feed activation HOLD (proxy stops Sep-14). Target <20KB; **binding cap 32,550B.**
+
+---
+
+# 2026-09-15 NEWS INTEGRATION (rotated out of STATUS 2026-09-18)
+
+## 2026-09-15 — News integration
+
+20Y auction **AMBIGUOUS** (BTC 4.005× / tail 1.3bp); 0/2 firm counter unchanged. July production revised to −0.2% m/m, with shipments +2.1%. FY2027 fiscal requests and August foreign-equity/fund buying add context; neither identifies forced foreign sales. Newly published BOJ remarks date from May. Japan–IEA cooperation carries no new quantified physical supply in the reviewed readout. [Six findings, sources and corrections](reports/2026-09-15_news-sweep.md).
+
+v1.7 retirement, probabilities and original prediction terms unchanged. Prior stale-data/startup blocks preserved in the [before-image](research/outputs/2026-09-15_news-sweep/before/STATUS.md); their resolved source and profile findings remain in current tables and references.
+
+## Historical September 10–11 notes
+
+Completed event narratives, the VECTOR-5 arithmetic and as-registered readings are preserved [verbatim here](research/outputs/2026-09-14_stale-sweep/completed-status-notes.md). Current observations and forward conditions are in the tables below; full registration remains in the dated research record.
