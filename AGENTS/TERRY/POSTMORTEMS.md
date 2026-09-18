@@ -371,3 +371,18 @@ Check **A** asks: *does every surface naming this `setup_id` claim the same curr
 ⚠️ **The near-miss that makes this worth a postmortem rather than a note:** this card's own binding clause says a USO settle between `$150` and `$165` on 9/18 auto-exercises the `150C` into ~100 shares (**~$15,680**) against a Robinhood account last captured at **`$946.13`**. **Had Will not already closed it, four days of a card operating on a stale premise would have been running a real broker-liquidation exposure into expiry week.** The cost was zero only because the position was already flat. ⇒ **A stale management card is not a documentation problem; it is an unmonitored position that believes it is monitored.**
 
 **Tags:** `record-of-an-action-is-not-the-action` · `internal-consistency-guard-blind-to-external-truth` · `undrained-inbox` · `pre-empted-rule-is-NO-VERDICT`
+
+## 2026-09-18 — `TRY-EXIT-TLT85P` (TLT Sep-30 $85P ×1, approved exit) — **CLOSED 2026-09-10 by Will's hand, `+$140.67 / +55.9%`. Recorded EIGHT DAYS LATE — the second instance of the 9/14 class in four days.**
+
+**Outcome:** Sell to Close ×1 at **`$3.93`** (Will's own limit `$3.92`, re-priced from the approved `$2.60`), net **`$392.34`** vs basis `$251.67` ⇒ **`+$140.67` realized** `[Fidelity activity 9/10; FORGE 9/10-close reconcile, ANVIL-verified to the cent]`. `+$133` more than the approved limit would have taken.
+
+| leg | grade |
+|---|---|
+| Thesis | n/a — management-only under construction rule #20 (entry unrecoverable; no thesis owner of record). |
+| Timing | **RIGHT, by Will.** The approved `$2.60` limit was set 9/3 at a `2.60/2.67` mark; by 9/9 the bid was `$3.25` and this card said so, naming the re-price as *"a NEW threshold and therefore Will's [Approve]."* He supplied it by acting. |
+| Structure | RIGHT — the only leg of the 9/3 expiry pass above water; a clean sell-to-close. |
+| Sizing | n/a — an exit of an existing lot. |
+| Rule / lesson | **`STALE_DATA` — on MY side, not the market's.** ① **An approved LIMIT is a MOMENT property (construction rule #14): an approval that carries a price is stale the moment the mark moves, and the card should have re-asked at the first bid above it (9/9) instead of recording *"two readings the repo cannot tell apart."*** ② **The bookkeeping failure repeats the 9/14 `USORH150165` postmortem exactly** — the position died outside the repo, every surface agreed on `STAGED`, `ledger_sweep` A was clean and right to be. **The new fact: I read `FORGE/STATUS.md` on 9/14 for `D-49` and stopped at that row; the TLT `$85P` row two lines lower said SOLD.** ⇒ **A FORGE read scoped to one discrepancy is not a FORGE read.** At every touch after a reconcile: `grep` FORGE for EVERY instrument on a live TERRY card, not the one I came for. |
+
+**Tags:** `STALE_DATA` · `record-of-an-action-is-not-the-action` · `internal-consistency-guard-blind-to-external-truth` · `approved-limit-is-a-moment-property` · `scoped-read-of-the-mirror`
+

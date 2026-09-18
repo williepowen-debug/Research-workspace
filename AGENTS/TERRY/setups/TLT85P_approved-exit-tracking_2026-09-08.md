@@ -1,8 +1,8 @@
 # TLT September 30 $85P — existing approved exit tracking
 **Setup ID:** `TRY-EXIT-TLT85P`
-**Updated:** 2026-09-09 21:1x ET (owner expiry-pass write-back; prior 2026-09-08T17:27:10-04:00)
-**Terry verdict:** STAGED
-**Tracking state:** STAGED — approved $2.60-limit exit; broker reconciliation pending.
+**Updated:** 2026-09-18 11:10 ET (closure recorded, 8 days late; prior 2026-09-09 21:1x ET (owner expiry-pass write-back; prior 2026-09-08T17:27:10-04:00)
+**Terry verdict:** CLOSED — EXECUTED 2026-09-10 by Will's hand (recorded 2026-09-18)
+**Tracking state:** CLOSED — Sell to Close ×1 FILLED $3.93 on 2026-09-10; line FLAT. *(was: STAGED — approved $2.60-limit exit; broker reconciliation pending.)*
 
 Owner continuation of WQ-168 §⑤, approved by Will September 3 at 12:45 ET. Full original card: `PROME/inbox/processed/2026-09-03_from-TERRY_expiry-pass-Sep18-Sep30-seven-lines-007-grade-UNKNOWN-mirrors.md`. This is management-only under RISK_RULES #20; entry rationale is UNRECOVERABLE. No new proposal, price change or approval request.
 
@@ -27,3 +27,12 @@ The approved **$2.60 sell-to-close limit uses the broker's actual current contra
 **Disposition UNKNOWN — Will's receipt.** Off-thesis / day-trade class, on no TERRY card and owned by no agent (FORGE mirror, "Fidelity — Off-thesis / day-trade class"); recorded here only so the expiry is not invisible. **Expires TOMORROW, 2026-09-10.** Screenshot mark $2.40 vs $2.55 basis [9/9 screenshot, PROME `research/2026-09-09-position-review/snapshot.csv`] — screenshot provenance, no capture stamp, **not an executable quote**. No current bid/ask, order state or fill is established. ⛔ **No disposition proposed by TERRY and no ask raised** — this is a Will/PROME line, and its outcome is recorded when a receipt lands, never inferred from a close.
 
 No brokerage access, order, capital movement, add, roll or size change by TERRY.
+
+
+## ✅ CLOSED — EXECUTED 2026-09-10 BY WILL'S HAND. **Recorded 2026-09-18 11:10 ET — EIGHT DAYS LATE.**
+
+**Broker truth (`FORGE/STATUS.md`, 9/10-CLOSE reconcile, ANVIL-verified to the cent, `[Fidelity activity, 9/10]`):** Sell to Close ×1 **TLT Sep-30 $85P**, limit **`$3.92`** (Day) — **Will re-priced it himself from the approved `$2.60`** — **FILLED `$3.93`**, gross $393.00 − $0.66 fees = **net `$392.34`** vs basis **`$251.67`** ⇒ **`+$140.67` / `+55.9%` REALIZED.** D-43 / D-51 closed by ANVIL 9/10; `WQ-201` answered by the same ledger row (PROME closes it).
+
+**What the approval said vs what happened:** `WQ-168 ⑤` approved a `$2.60` limit on 9/3 at a `2.60/2.67` mark. By 9/9 this card already recorded the bid at `$3.25`, `$0.65` ABOVE the approved limit, and named the re-price as *"a NEW threshold and therefore Will's [Approve]"*. **Will supplied it by his own hand at `$3.92` — root rule #5 satisfied by the operator acting on his own book.** The re-price captured **`+$133`** over the approved limit.
+
+⚠️ **THE DEFECT IS MINE AND IT IS THE SAME CLASS AS THE 9/14 `TRY-MGMT-USORH150165` POSTMORTEM:** the position died OUTSIDE the repo on 9/10; `FORGE/STATUS.md` carried it from that evening; **my 9/14 session read FORGE for `D-49` and did not read the TLT rows two lines below**, then wrote *"`TRY-EXIT-TLT85P` STAGED, execution UNKNOWN"* into STATUS as *"also unchanged."* `ledger_sweep` A was CLEAN throughout — four surfaces agreed on `STAGED`, correctly and wrongly. **Every surface → CLOSED this session; `POSTMORTEMS.md` entry written.** `$0` moved by TERRY; nothing here is a proposal.

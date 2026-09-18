@@ -454,3 +454,26 @@ Two surfaces word this gate differently and the difference is outcome-determinin
 
 ### ③ ⛔ CONSEQUENCE: NONE
 **No grade moves. `GATE-TERRY-007` stays `0 of 5`. `NO ADD` stands on Will's 7/16 NO-ADD + `WQ-168 ④` + root rule #5.** **This is an INPUT that changed, not a grade that moved** — and the three independent reasons the add is not an add (TENOR · the gate outliving its position · CHANNEL) are untouched by it.
+
+
+---
+
+#### 📋 OWNER GRADE — 2026-09-18 Fri 11:10 ET (`date` wall clock). **FOUR CELLS GRADED AFTER FOUR DARK SESSIONS. ALL FAIL. `GATE-TERRY-007` COUNTER STAYS `0 of 5`. NO ADD. `$0` MOVED.**
+
+| cell | `DGS10` | vs 4.50 | `DFII10` | vs 2.50 add line |
+|---|---:|---|---:|---|
+| 9/11 | **4.96** | ≥ ⇒ NOT QUALIFYING | 2.60 | +10bp THROUGH |
+| 9/14 | **4.97** | NOT QUALIFYING | 2.60 | +10bp |
+| 9/15 | **5.00** | NOT QUALIFYING | 2.62 | +12bp |
+| 9/16 | **5.01** | NOT QUALIFYING — a fresh 2026 high | **2.68** | **+18bp** |
+| 9/17 | UNPUBLISHED at the 11:00:45 ET pull (frontier 9/16) | **UNKNOWN, OWED** — never a carry | — | — |
+
+*Source: FRED H.15 `fredgraph.csv`, own pull 2026-09-18 11:00:45 ET, latest-revised vintage (no `realtime_*`), 4 bars 9/11–9/16 — coverage stated per construction rule #19.*
+
+- **Counter `0 of 5`; distance to the line `51bp`.** **`9/22` stays the registered last NEW-streak start** (5 consecutive officials must complete before the 9/30 expiry can act on them); **9 sessions to expiry including today.** NO-VERDICT remains the correct read if expiry beats the count.
+- **ADD GATE: THROUGH by 18bp and NO ADD stands on all four blocks** — Will's 7/16 `NO-ADD` · `WQ-168 ④` HOLD · root rule #5 · **tenor/channel (§ OWNER GRADE 9/14 + AMENDMENT).** Channel re-checked on this pull: **`T10YIE` 2.36 [9/11] → 2.37 → 2.38 → 2.33 [9/16] → 2.33 [9/17] — the breakeven is FALLING while the real yield rises ⇒ still REAL-LED; `DGS2` 4.63→4.74 (+11bp) vs `DGS10` 4.96→5.01 (+5bp) ⇒ still FRONT-LED.** The gate keeps firing through the channel this position was NOT re-scoped onto (7/09) — construction rule #23, unchanged.
+- **Live 11:03 ET (MOMENT):** TLT **`$81.10`** · `77P` **bid `0.01` / ask `0.02` / mark `0.01`**, spread 66.7%, IV 14.06%, vol 1, OI 1,186, flag **`DIRINC`** (advisory: mark moved −0.02 against a −0.11 spot move vs the 9/14 13:05 pull — a quote reflecting an older state; a flag cannot recover the true bid) ⇒ **×20 = `$20.00` at the bid vs `$231.26` fees-in = −$211.26 / −91.4%.** BE `76.89` is `$4.21` BELOW spot; harvest `≥$0.3469` is **~35× the bid.** Paper book `PB-0002b` marked `0.015` [11:04].
+- **Opex today under a NEGATIVE gamma board (HENRY L383 9/17c: net GEX −$48.8B/−$52.5B per 1%)** — the tape condition PROME's L383 row named as the one under which this position moves most. **Context, not a trigger.** BOJ +25bp (7–2) printed overnight; `T10YIE` fell on the day after the FOMC hike. No gate of this card keys on either.
+- ⏳ **OWED on this card (registered 2026-09-14, unchanged):** the `2.50` add line has NO CHANNEL CONDITION — a cold re-spec, never on a grading day. **NEW, DAEDALUS gate-basis sweep #1 (due 2026-09-24):** write the 5-run reset rule beside Ruling B's arm-#2 reset; name the DGS10 vintage (latest-revised) and a gap policy (stranger form: non-publication days skipped, any obs ≥4.50 resets the run to 0). **Both go in the same cold build.**
+
+**`NO ADD` stood before this block and stands after. `$0` moved; no order; no gate moved or shaved.**

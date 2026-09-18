@@ -471,3 +471,54 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 ⚠️ **And the clock is real: `needed_by` 2026-09-18 is 4 sessions away.** ⛔ **The clock is not evidence and will not be offered as a reason to fill** — but if it passes with the card unfilled, **that is a disposition Will should make deliberately rather than by expiry**, and I will put it to him as one.
 
 **APPROVAL REQUIRED — the 9/10 approval stands; the fill waits on the next qualifying day. TERRY does not execute.**
+
+
+---
+
+## 🟢 FILL DAY — 2026-09-18 Fri 11:10 ET (`date` wall clock, copied not inferred). **`WQ-213` RE-AFFIRMED BY WILL 9/17 21:25 (*"I will enter VLO tomorrow market closed for now."*) — CONDITION ② DISCHARGED BY HIS RULING. THE FILL IS HIS HAND. THIS BLOCK IS THE MEASUREMENT THE CARD REQUIRES, WRITTEN BEFORE ANY RECEIPT.**
+
+### ① Day colour — one pull, one timestamp, both legs + corroboration (11:00–11:02 ET, intraday, MOMENT — construction rule #14)
+
+| leg | print | day | reads |
+|---|---:|---:|---|
+| **`VLO`** (the leg being bought) | **`$415.62`** | **+0.75%** | **GREEN — and a fresh 30-day HIGH** (30d range 298.31–415.62, +39.3%/30d) |
+| **`USO`** | **`$156.10`** | **+0.51%** | GREEN |
+| MPC · PSX · DINO | 426.44 · 275.59 · 117.53 | +0.75 · +0.39 · +0.36% | complex GREEN with VLO |
+| CRAK · XLE · SPY | 65.91 · 64.54 · 759.48 | −1.05 · −0.15 · −0.34% | ETF wrappers red — a **lone divergence of the ETF against its names**, not the names against the ETF |
+
+⇒ **The card's written ENTRY GATE (§ RE-ARM ①: refiner `%chg < 0` AND `USO %chg > 0`, same pull) is NOT MET today — both legs GREEN.** ⛔ **Stated as written, NOT relaxed, and NOT a bar:** that gate governed a fill *TERRY* would have proposed; today's fill is **Will's own hand under root rule #5**, on a re-affirmation given knowing the 9/14 downgrade. **Root rule #6:** this is a **long SHARES** entry — no premium, the convexity proxy has no object, **no break occurs and none may be logged**; the figures are here because § 3 of this card requires the day-colour measurement at fill time whichever way it reads.
+
+### ② The crack — MATCHED CONTRACTS, `expireDate` resolved on both legs, negative control run (`CRACK-ROLL-DESYNC-METHOD`)
+
+| contract | expireDate | last | day |
+|---|---|---:|---:|
+| `HOX26` Nov ULSD | 2026-10-30 | `$4.8946` | +0.97% |
+| `CLX26` Nov WTI | 2026-10-20 | `$97.04` | +0.57% |
+| `HOV26` Oct ULSD | 2026-09-30 | `$5.1206` | +1.12% |
+| `CLV26` Oct WTI | 2026-09-22 | `$102.24` | +1.06% |
+
+**Negative control ✅:** `CLV26 102.24 ≠ CLX26 97.04` — different months return different values, so the resolver is not collapsing onto one series.
+
+**ULSD crack, matched Nov = `4.8946 × 42 − 97.04` = `$108.53/bbl` [11:02 ET, intraday]** vs **`$107.53` matched-Nov at the 9/17 CLOSE** (`HOX26 4.86` / `CLX26 96.59`, PROME HEARTBEAT named contracts) ⇒ **`+$1.00`. STABLE-TO-UP.** Matched Oct = `$112.83`. **`F1` (<$95 stand down) NOT fired on any basis.**
+
+⛔ **KILL-ON-SIGHT TODAY: `CL=F` "−4.07%" and `BZ=F` "−4.24%" are ROLL ARTIFACTS, not price moves.** `CL=F` last `97.05` = `CLX26` while its prevClose `101.17` = `CLV26` — **the continuous WTI ticker stepped Oct→Nov intraday today** (Oct expires 9/22). `BZ=F` prevClose `103.93` ≈ `BZX26` Nov and last `99.52` ≈ `BZZ26` Dec ⇒ the same step one month out. **Crude is UP on every NAMED month.** *(Third live instance of the desync at this desk in five sessions; the method row is the only guard that catches it and it did.)*
+
+⇒ **By the self-limit I registered on 9/14 (§ QUALIFYING DAY #1 ④: on the next day I re-measure the crack and if it is STABLE my objection is ANSWERED and the recommendation is FILL) — the desk recommendation is FILL.** The 9/14 objection was a fast adverse MOVE; there is none. **A level is not a move.**
+
+### ③ Fresh mark, sleeve, cap — MOMENT properties, dead at the next pull
+
+- **`3 × VLO` = `$1,246.86`** [11:00 ET] — **retires `$1,238` (9/17-close arithmetic), `$1,142.61` and `$1,141.86` (9/14).** Re-pull at the ticket; **the price you transact on comes from the BROKER** (`RISK_RULES` 5b).
+- **Sleeve:** USO 37 × `$156.10` = `$5,775.70` (100% undefended; every defended leg harvested by Will 9/2–9/11) ⇒ after the add **`$7,022.56`, +21.6%, still 100% UNDEFENDED.** The 80% undefended-linear ceiling is **DEGENERATE** (§ RE-ARM #2 ③) — it can neither permit nor block; **not relaxed, not re-based.** 🔴 **Will's oil-exposure ceiling is STILL UNNAMED (since 8/27) — the only thing between this book and an unbounded energy sleeve.**
+- **`$500` cap:** `$500 / $1,246.86` = **−40.1%** (was −48% at the 8/27 mark). Inside the cap on any sane invalidation; **the cap is not the binding constraint, the unnamed ceiling is.**
+- **Position/cash truth:** `[POSITION_STATE_UNKNOWN]` beyond the 9/10 FORGE reconcile; VLO was NOT on the 9/10 IRA view. **No holdings, orders or fills assumed** (Non-Negotiable #4).
+
+### ④ The honest tape read, on the record before the receipt
+
+**Buying the 30-day HIGH after a +39% run is a CHASE on the price proxy** — this desk's own snapshot prompt says *"avoid chasing near range extreme without fresh catalyst."* **The fresh datum is the thesis variable, not the price: the crack at `$108.53` is within `$2` of its peak and rising, and the name is the one BRENT's distillate-yield datum ranked first.** That is the case for; the case against is the run itself and the unnamed ceiling. **Will has made the call; this block records the figures he made it into.**
+
+### ⑤ What happens next
+- **Fill receipt** (ticker · qty · price · account · time) → this card § FILL RECORD + `STATUS.md` + `DOCKET L412`; PROME closes `WQ-213`; ANVIL mirrors to FORGE at the next export.
+- **If the day passes UNFILLED:** Will's disposition, not a lapse — recorded here on his word, row re-dated on his word (L389's rule, carried to L412).
+- **Management after the fill:** § 8 governs (ratchet, don't target; `RISK_RULES` #23 driver test crack-led vs crude-led named in figures before any add). **No target, no add, no rule is created by this block.**
+
+**`$0` moved by TERRY · no order · no gate moved or shaved. TERRY does not execute. The decision is Will's and has been made.**
