@@ -16,7 +16,7 @@
 | VIX3M / VIX6M | **18.55 / 20.30** | Sep 17 SETTLE | [CONF] CBOE |
 | VIX3M / VIX | **1.2014** (was 1.1141) | Sep 17 | [CONF] same-date; steep contango restored — regime-consistent calm, not a warning shape |
 | VVIX | **87.72**; −8.06% | Sep 17 SETTLE | [CONF] CBOE; p40.7 — **below the cheap-tail ≤90 line**, far below watch >100 / stress >120 |
-| SKEW daily | **145.70**; −0.17% vs 145.95 (9/16) | Sep 17 SETTLE | [CONF] CBOE archive. **−8.79 (−5.69%) off the 9/11 peak 154.49** — 5th straight session <150 |
+| SKEW daily | **145.70**; −0.17% vs 145.95 (9/16) | Sep 17 SETTLE | [CONF] CBOE archive. **−8.79 (−5.69%) off the 9/11 peak 154.49** — **3rd** straight session <150 (9/15·9/16·9/17; the run stops at 9/14 = 152.09). *Read "5th" here before 9/18 02:2x: wrong, corrected on WALTER's catch — I counted sessions in the window, not sessions under the line.* |
 | SKEW 20-session mean | **147.34** (was 147.21) | Sep 17 | [CONF] latest 20 populated CBOE SETTLE rows, window 8/20→9/17. Mean rose only because lower August bars rolled OFF — not a fresh bid |
 | Adjusted M1:M2 | **+3.789%**, October/November | Sep 17 settlement | [CONF] CBOE; matched pair vs 9/16 (+2.381%) = **+1.41 pp** — contango re-steepened hard post-event. Same VX/V6–VX/X6 pair both dates |
 | MOVE | **76.22**; −4.51 vs 80.73 (9/16) | Sep 17 | [CONF] investing.com PRIMARY, cross-check agrees; **+3.81 vs F1 72.41, +0.72 vs confirm-3 75.50** — still above both, margin collapsed from +5.23 in two sessions |
