@@ -9,7 +9,7 @@ levels. Hash agreement proves synchronization, not semantic completeness.
 At a HEARTBEAT re-base, remove projections for amendments folded into the base.
 This companion keeps render metadata outside the boot-read byte budget.
 
-*Eighteenth base 2026-09-17 (evening): **chain 2 — Amendment #1 (2026-09-18 10:3x ET: BOJ +25bp 7–2 with the yen weaker anyway · first clean SOFR/IORB pair −5bp · 9/17 credit cells flat) and Amendment #2 (2026-09-18 11:1x ET: SAM's L34 grade + the dovish-dissent CORRECTION to #1 · RED's FT-10 grade 0-of-4) projected below.** *(prior: chain 0 at the base)* The seventeenth base's Amendments #1 (L404 TIPS-R grade), #2 (L271 FR2004 stock leg + pairing-date correction) and #3 (L271 funding leg) were FOLDED INTO THE BASE at the ~21:5x ET re-base and their three projections REMOVED (prose record: cold §17.2; blocks verbatim at cold §A16–§A18).*
+*Eighteenth base 2026-09-17 (evening): **chain 3 — Amendment #1 (2026-09-18 10:3x ET: BOJ +25bp 7–2 with the yen weaker anyway · first clean SOFR/IORB pair −5bp · 9/17 credit cells flat) and Amendment #2 (2026-09-18 11:1x ET: SAM's L34 grade + the dovish-dissent CORRECTION to #1 · RED's FT-10 grade 0-of-4) projected below.** *(prior: chain 0 at the base)* The seventeenth base's Amendments #1 (L404 TIPS-R grade), #2 (L271 FR2004 stock leg + pairing-date correction) and #3 (L271 funding leg) were FOLDED INTO THE BASE at the ~21:5x ET re-base and their three projections REMOVED (prose record: cold §17.2; blocks verbatim at cold §A16–§A18).*
 
 ```dashboard-amendment
 {
@@ -68,3 +68,30 @@ This companion keeps render metadata outside the boot-read byte budget.
 *Prior: Seventeenth base 2026-09-17 (morning): chain 3 — three Rates-channel projections, all folded at the eighteenth re-base.*
 
 *Prior: Fifteenth base 2026-09-12: **chain 0 — no amendments.** The fourteenth base's Amendment #1 (closeout write-back 12:1x) and Amendment #2 (the Saudi MoE Petroline shutdown statement) were FOLDED INTO THE BASE at the 2026-09-12 re-base and their projections are REMOVED here per this file's own rule; the amendment blocks themselves are rotated verbatim to `PROME/HEARTBEAT_COLD.md` §A14 / §A15 (entry-crc32 3012472809 · 1121796424). **Nothing is projected until the next `> **AMENDMENT #1` block is appended to the fifteenth base** — at which point it needs exactly one numbered projection with a `source_sha256` over its exact paragraph.*
+
+```dashboard-amendment
+{
+  "amendment": 3,
+  "source_sha256": "1adabe2e5996c4fbb68b79367695a063f1c0e3d45903d86e21731daef2ec98c4",
+  "set": {
+    "one": "September 18 close: the quarterly opex removed the FORCE, not the direction. Dealers are short gamma a 4th session but the magnitude collapsed about 77-80% as roughly $6T of open interest expired, leaving the least entrenched board of the four, with spot only 0.23% below the flip so one ordinary up-session flips the sign positive. VIOLET's pre-registered FOMC branch map MISSED: the vol surface printed the HOLD-hawkish signature on the day the Fed hiked 12-0, and the letter now stands at zero confirms across five graded legs. The 9/17 H.15 cells published and the whole curve richened 6-7bp (DGS10 4.94, DFII10 2.61, still 11bp through the 004 add line). MOVE and SKEW published NO 9/18 bar, so any level dated 9/18 on those two is Thursday's number. $0 moved by PROME; STAND DOWN holds.",
+    "channels": {
+      "Equity-vol": {
+        "headline": "🟠 The opex removed the FORCE, not the direction: sign negative a 4th session, magnitude down ~77-80%; the vol map MISSED the hike",
+        "body": "HENRY L411 [9/18 close, 4294f9187]: flip ~7,668 at BOTH horizons (exact agreement), SPX 7,650.50, spot -0.23% below, sign NEGATIVE a 4th session, Net GEX -$9.9B (14d) / -$12.1B (35d) per 1% against -$48.8B/-$52.5B on 9/17. The three-session deepening did not resolve by dealers re-hedging: about $6T of open interest expired. Composition, not count, since 35d contracts fell only 12.5%. So this is the LEAST entrenched of the four boards and one ordinary up-session flips the sign positive. KILL ON SIGHT: 'the negative-gamma squeeze is building' is the opposite of this board. Sign and flip are robust; the dollar magnitudes are assumption-dependent, so quote '~77-80%' and never a decimal. Shelf life is ONE session. No wall publishable a 3rd session, with the failure mode moved to the cross-horizon axis (14d call 7,700 against 35d 8,000); every HENRY wall dated before 9/18 is VOID. VIOLET L277 leg 3 [1f74e3378]: CONFIRM branch B / MISS OF THE MAP. Branch A failed all three cells, each moving monotonically opposite across both post-event sessions; MOVE never printed and the grade is determined by exhaustion with nothing imputed. Not NULL: the map discriminated cleanly and pointed at the wrong outcome. The axis was wrong, not the numbers, since every branch partitioned what the Fed DID while what governed T+1/T+2 was whether the event removed or created uncertainty. Letter: 0 CONFIRM, 1 KILL, 1 MISS, 1 VOID, 1 HELD-with-defect, 1 PENDING (leg 2 on 9/23, running -16.26% against a -1.41% kill line). No thesis bump: a falsified event map is not a falsified vol framework. HENRY's 'amplifier expired' and VIOLET's 'relief tape' remain UNADJUDICATED by both owners after VIOLET's own discriminator was refuted on its first base rate (p76 of the VIX<=-10% cohort, n=29) - a fence, not an absence.",
+        "cls": "elev"
+      },
+      "Rates": {
+        "headline": "🔴 The 9/17 H.15 cells published and the whole curve richened 6-7bp; the add line is still through, by 11bp not 18",
+        "body": "DGS10 4.94 (-7bp from 5.01 [9/16]), DFII10 2.61 (-7), DGS2 4.67 (-7), DGS30 5.29 (-6), 2s10s 27bp, T10YIE 2.33 unchanged [FRED direct, 9/17 observations]. The 004 add line at 2.50 remains THROUGH, by 11bp rather than 18, and NO ADD stands on the same four unchanged grounds. GATE-TERRY-007 is a PROME consumer read and not a grade: 4.94 is a sixth closed cell at or above 4.50, counter 0-of-6, now 44bp away against 51bp on the prior cell, and a NEW streak must BEGIN by 9/22 or the 9/30 expiry moots the gate. Funding: SOFR 3.85 [9/17] minus IORB 3.90 = -5bp, confirmed on the published cell rather than across mixed dates.",
+        "cls": "crit"
+      },
+      "Credit": {
+        "headline": "🟠 Flat on the 9/17 cell: HY OAS 270, with the re-arm and re-kill lines both 10bp away",
+        "body": "HY OAS 270 [FRED 9/17, unchanged]. Re-arm at or above 280 is 10bp away; the re-kill below 260 on two consecutive published observations is also 10bp away and stands at 0-of-2. No credit instrument moved on the close and none was graded by PROME.",
+        "cls": "elev"
+      }
+    }
+  }
+}
+```
