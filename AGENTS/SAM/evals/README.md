@@ -4,7 +4,7 @@
 
 **Not the same as:** PREDICTIONS.tsv (which tracks SAM's forward calls vs reality). Evals test whether SAM's *reasoning surface* still produces correct judgment when given known inputs.
 
-**Version:** v1.1 (2026-05-27). v1 had a contamination flaw — INPUT + EXPECTED + DO-NOT lived in the same file, and the runner's responses showed near-verbatim phrase echo from the rubric. v1.1 fix: split each case into two files. INPUT is pasteable; RUBRIC is scorer-only and never enters the runner's context.
+**Protocol version:** **v1.1** (2026-05-27) — CANONICAL, and the only version this file asserts. 🔧 **2026-09-18 (DAEDALUS PR#6 W2 ⓪):** the heading's "v1.2 case set" is a **DERIVED, descriptive** label for the *case inventory* (case 02 was upgraded to v1.2), **not a second suite version.** Two different objects were carrying two version numbers with nothing saying which governed. **Protocol governs; the case-set label describes.**  v1 had a contamination flaw — INPUT + EXPECTED + DO-NOT lived in the same file, and the runner's responses showed near-verbatim phrase echo from the rubric. v1.1 fix: split each case into two files. INPUT is pasteable; RUBRIC is scorer-only and never enters the runner's context.
 
 **Latest actual run:** September 9, 2026 — Case 01 PASS, Case 02 v1.2 FAIL in both candidate rounds; orientation 21/21 PASS. **Startup promotion withheld; original CLAUDE restored.** [Assessment and receipts](runs/2026-09-09_boot-promotion/ASSESSMENT.md). Native auto-memory loading retained, exact entries not enumerated. The May 27 v1.1 baseline and later unexecuted re-baseline packet remain historical records, not a current pass.
 
