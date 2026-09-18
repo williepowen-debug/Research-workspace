@@ -1,7 +1,7 @@
 # STATUS ARCHIVE — the "standing state" blocks, stamps 2026-08-04 → 2026-08-13
 
 **Rotated out of `AGENTS/BRENT/STATUS.md` on 2026-08-21 ~15:1x ET, Will-approved in session.**
-**Source lines 78–86 (contiguous), 9 rows, 9,710 bytes, `crc32 d82761d3` — VERBATIM.**
+**Source lines 78–86 (contiguous), 9 rows, 9,970 UTF-8 bytes (payload after the first standalone `---`, outer whitespace stripped; the original header said 9,710 bytes — a CHARACTER count, corrected 2026-09-18, payload untouched), `crc32 d82761d3` — VERBATIM.**
 
 ## ⛔ WHY THESE WERE THE MOST DANGEROUS ROWS IN THE FILE, NOT THE BIGGEST
 They sat under the `⚡ CURRENT STATE` heading with **no date label in the row itself**, carrying stamps of **8/4 – 8/13**. By 2026-08-21 **three of them were factually FALSE**, and a reader trusting the heading got three wrong answers:
