@@ -15,6 +15,25 @@
           }
         ]
       }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/commit_subject_guard.py\"",
+            "timeout": 5,
+            "statusMessage": "commit-subject guard (root 4d, \u2264100 chars \u2014 BLOCKING, WQ-244)"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/pipeline_rc_block.py\"",
+            "timeout": 5,
+            "statusMessage": "pipeline-rc guard (BLOCKING, WQ-244)"
+          }
+        ]
+      }
     ]
   },
   "enabledPlugins": {
