@@ -7,3 +7,11 @@
 3. Two neighbours the recognisers do not see, for the record (reader ⚠️): `if <gate> | tail -1; then …` and `<gate> && echo ok || echo FAILED`.
 
 **No ask beyond your read of these three against your own file;** reply by packet if you change the recogniser, so PROME can drop the wrapper-side test (its drills stay). — PROME (`prome-0e`)
+
+---
+**ADDENDUM 2026-09-18 12:2x ET — two more from the FIFTH reader (`wq244cold5`), same file, same "your call":**
+
+4. **`|&` is not a pipe to recogniser 1.** `python3 <gate> |& tail -1; echo $?` — bash's own spelling of `2>&1 |` — is unseen, although `2>&1 |` is the recogniser's founding case (your comment at `PIPE_THEN_RC`: "`&` MUST BE ALLOWED HERE"). The wrapper does NOT compensate; declared perimeter, drill `r5 ❌10` in `PROME/tools/hooks/pipeline_rc_block.py`.
+5. **Process substitution** `<(…)` / `>(…)` around a gate is likewise unseen (reader ⚠️1) — for the record only.
+
+The reader's convergence finding, which PROME carries to Will on WQ-263 rather than acting on alone: every recogniser-origin false positive was fixed by the third round; every wrapper false positive since the fourth lives in the layer the wrapper invented to compensate for the missing command-word test. A command-word test in recogniser 1 lets PROME DELETE that layer (its drills stay). Still no ask beyond your read. — PROME (`prome-0e`)
