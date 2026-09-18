@@ -48,12 +48,25 @@ SOURCING RULES, ALSO FROM THE REGISTERED SPEC:
   * Browser User-Agent is load-bearing, see LESSONS L25 (a tarpitted UA reads as an outage).
 
 EXIT CODES:  0 graded  |  2 could not grade (fetch/parse/spec problem)  |  3 not fresh, WAIT
+             4 graded BUT a RE-ISSUE was detected (see below) — treat the affected prior grade as impeached
+
+RE-ISSUE WATCH (added 2026-09-18, DAEDALUS WQ-162 sweep #1 ASK 3; supersedes: none — EXTENDS this grader):
+  * `workbook/COT_VINTAGES.tsv` holds one row per graded print (report_date, shorts, longs, OI, share).
+  * On EVERY run, the live f_disagg.txt row is compared to any ledger row with the SAME report_date.
+    A shorts/OI mismatch = the CFTC restated a print we already graded => 🔴 RE-ISSUE, exit 4.
+    Without this, a same-date restatement would be adopted silently (the reader keys on report_date only).
+  * On an rc=0 grade the new row is appended (--no-record to suppress, e.g. dry runs).
+  * --ledger <path> overrides the ledger location (used to FALSIFY the guard against a corrupted copy).
 """
 import argparse
 import csv
 import io
+import os
 import sys
+import time
 import urllib.request
+
+LEDGER_DEFAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "workbook", "COT_VINTAGES.tsv")
 
 RAW_URL = "https://www.cftc.gov/dea/newcot/f_disagg.txt"
 MARKET = "WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE"
@@ -121,11 +134,51 @@ def joint(a, b):
     return "NO-VERDICT"
 
 
+def read_ledger(path):
+    """report_date -> (shorts, longs, oi). Comment lines (#) and the header are skipped."""
+    out = {}
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if not line.strip() or line.startswith("#") or line.startswith("report_date"):
+                continue
+            c = line.rstrip("\n").split("\t")
+            try:
+                out[c[0]] = (int(c[1]), int(c[2]), int(c[3]))
+            except (IndexError, ValueError):
+                print(f"  ⚠️  ledger row unparseable, ignored: {line.strip()[:80]}")
+    return out
+
+
+def reissue_check(ledger, rd, shorts, longs, oi):
+    """Compare the LIVE row for report_date rd against the ledger. Returns True if a re-issue is detected."""
+    if rd not in ledger:
+        return False
+    ls, ll, lo = ledger[rd]
+    if (ls, lo) == (shorts, oi):
+        print(f"  ✅ re-issue watch: live row for {rd} matches the ledger (shorts {shorts:,} / OI {oi:,})")
+        return False
+    print(f"  🔴 RE-ISSUE DETECTED for report_date {rd}: ledger shorts {ls:,} / OI {lo:,} "
+          f"vs LIVE shorts {shorts:,} / OI {oi:,}. The CFTC restated a print already graded — "
+          f"the prior grade on this vintage is IMPEACHED until re-graded on the restated figures.")
+    return True
+
+
+def append_ledger(path, rd, shorts, longs, oi, note):
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(f"{rd}\t{shorts}\t{longs}\t{oi}\t{shorts/oi*100:.4f}\tLIVE f_disagg.txt\t"
+                f"{time.strftime('%Y-%m-%dT%H:%M:%S%z')}\t{note}\n")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--expect", required=True,
                     help="expected report_date (as-of Tuesday), YYYY-MM-DD")
+    ap.add_argument("--ledger", default=LEDGER_DEFAULT, help="vintage ledger path (re-issue watch)")
+    ap.add_argument("--no-record", action="store_true", help="do not append the graded row to the ledger")
     a = ap.parse_args()
+    ledger = read_ledger(a.ledger)
 
     print("  COT-FUEL-35B — registered successor band (COT-FUEL incumbent is RETIRED)")
     print(f"  source  : RAW {RAW_URL}")
@@ -145,7 +198,11 @@ def main():
     r = hits[0]
     rd = r[I_REPORT_DATE]
     print(f"  freshest report date IN-ROW: {rd}  (expecting {a.expect})  code={r[I_CODE]}")
+    reissued = reissue_check(ledger, rd, int(r[I_MM_SHORT]), int(r[I_MM_LONG]), int(r[I_OI]))
     if rd != a.expect:
+        if reissued:
+            print("  (the RE-ISSUE above concerns the PRIOR vintage still in the file — act on it now)")
+            return 4
         print(f"\n  ⏳ NOT FRESH — newest is {rd}, not {a.expect}. Release not out (or delayed). "
               f"DO NOT GRADE.")
         return 3
@@ -175,6 +232,15 @@ def main():
     print("  ⚠️  SIZING MODIFIER ONLY — never reuse as an ENTRY trigger without a fresh build.")
     print("  ⚠️  NON-CLAIMS TRAVEL WITH THIS ROW: no out-of-sample test; n=0 genuine physical")
     print("      reopenings; no price validation (a positioning DESCRIPTOR, never shown to predict).")
+    if reissued:
+        return 4
+    if rd in ledger:
+        print(f"  (ledger already holds {rd}; not re-appended)")
+    elif a.no_record:
+        print("  (--no-record: graded row NOT appended to the ledger)")
+    else:
+        append_ledger(a.ledger, rd, shorts, longs, oi, f"graded {v}")
+        print(f"  ledger: appended {rd} to {a.ledger}")
     return 0
 
 
