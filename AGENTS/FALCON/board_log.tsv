@@ -149,3 +149,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-09-16T18:31:40+00:00	SIG-W-20260914-024	noted	INBOX_WALTER	Freight belongs to BRENT; uncorroborated Yanbu claim included in YASREF provenance check, not promoted to outage.
 2026-09-16T18:31:40+00:00	SIG-W-20260915-004	acted	INBOX_WALTER	September16 review completed INDETERMINATE; original media/date/thermal baseline and independent damage missing; receipt to WALTER/BRENT.
 2026-09-16T18:31:40+00:00	SIG-W-20260915-005	noted	INBOX_WALTER	Verified already consumed by BRENT September15; same causal event, no duplicate barrel loss.
+2026-09-18T00:05:00+00:00	SIG-W-20260917-001	acted	INBOX_WALTER	FAL-05 Sep17-18 review-window grade UNFIRED all three routes; Kpler 4.5 mb/d is vendor ESTIMATE not letter-attribution; report 2026-09-17_fal05-review-window-grade.md.
+2026-09-18T00:05:00+00:00	SIG-W-20260917-007	acted	INBOX_WALTER	STS-off-Sohar is a hand-off not a route (shuttles STILL transit Hormuz); adopted as anti-FM evidence in route (a) column; no new registered watch.

@@ -1,7 +1,7 @@
 # FALCON STATUS
 
-**Last updated:** 2026-09-16. **Research cutoff:** 18:28:37 UTC / 14:28:37 EDT. Codex/Astra owner session; no Claude hooks assumed.
-**Decision read:** reported Saudi delivery disruption; net lost crude supply UNQUANTIFIED. Partial-restart objective is a counter-signal, not observed recovery. [Sourced review and access limits](reports/2026-09-16_cross-war-oil-review.md).
+**Last updated:** 2026-09-17 20:0x ET (PROME-spawned WQ-184 L0, Opus; FAL-05 Sep 17–18 review-window grade only, no new evidence sweep run in this session). **Prior:** 2026-09-16.
+**Decision read:** FAL-05 **OPEN, retained 55%** — no route fires today. Route (a) UNFIRED (Aramco actively delivering via STS off Sohar contradicts an FM read, ⛔ kill-on-sight guard holds); route (b) UNFIRED on the volume limb (no operator/state/wire-primary offline-capacity figure — Kpler 4.5 mb/d is a vendor ESTIMATE, does not clear the letter's attribution class); route (c) UNFIRED on the second-source limb (only Kpler is dark-fleet-capable on Yanbu specifically; duration ✅ 6d, attribution ✅ upstream Petroline, second route ❌). Full grade: [reports/2026-09-17_fal05-review-window-grade.md](reports/2026-09-17_fal05-review-window-grade.md). B/C/D 3/22/75 retained; no rung fired.
 
 ## Current marks and authority
 
@@ -9,7 +9,7 @@
 |---|---|
 | B / C / D | **3 / 22 / 75 retained**; no newly established registered trigger in this bounded review. Next scheduled review September 21. |
 | D 75→85 | Existing Will-approved rung ARMED; no new fire established. Immutable letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md). No re-registration or approval change. |
-| FAL-05 | **OPEN, registered 55%, resolves October 7**. [Canonical prediction](thesis/PREDICTIONS.tsv). No force-majeure declaration recovered; qualifying stated capacity and elapsed-duration proof incomplete. New Yanbu suspension report engages route (c) as a question, not a fire. |
+| FAL-05 | **OPEN, retained 55%, resolves October 7**. Sep 17–18 registered-review-window graded 2026-09-17: no route fires. Route (a) UNFIRED (STS-off-Sohar workaround is anti-FM evidence); route (b) UNFIRED on volume limb (letter's attribution class not cleared by Kpler ESTIMATE); route (c) UNFIRED on second-source limb (only Kpler dark-fleet-capable on Yanbu). Full grade: [reports/2026-09-17_fal05-review-window-grade.md](reports/2026-09-17_fal05-review-window-grade.md). |
 | GATE-FALCON-001 | Existing LIVE registry, legs 1/3 previously fired; leg 2 remains without an established new fire. [Letter and historical leg state](domain/FRESH_LEG_BASELINE.md); current evidence in review E8. Review date September 21 unchanged; PROME owns registry. |
 | Capital / other owners | Existing approvals preserved. No trade or capital grade; BRENT owns prices/fundamentals, TERRY construction, Will approvals. No FALCON settlement-count clock; settle closeout is a no-op. |
 
@@ -51,8 +51,10 @@ Crude disruption is reported; its net supply effect remains unquantified. An unt
 
 | Item | State / next evidence review |
 |---|---|
-| FAL-05 route (b) | Sep 17–18 earliest conditional checkpoint; actual shutdown onset, qualifying quantity and continuous elapsed duration still needed. No automatic fire on the calendar. |
-| Route (c), Yanbu | First report Sep 15 does not prove onset. Sep 18 only a conditional checkpoint, not proof of 72 hours; independent dark-capable evidence and non-routing-only attribution required. |
+| FAL-05 route (b) | Sep 17–18 review-window graded 2026-09-17 UNFIRED on volume limb. Duration ≥7d elapsed today marginally; stated ≥100 kbpd offline capacity from operator/state/wire-primary still absent (Kpler ESTIMATE does not clear the letter). One primary-attribution offline-capacity print away from firing. Full: reports/2026-09-17_fal05-review-window-grade.md. |
+| Route (c), Yanbu | Sep 17 graded UNFIRED on second-source limb. Kpler 9/17 clears the ≥72h Yanbu-loading pause duration (no loadings since 9/11 = 6d) and the non-routing-only attribution (upstream Petroline); a SECOND independent dark-fleet-capable Yanbu-specific route (TankerTrackers/Windward/direct satellite) is not on the record. |
+| DAEDALUS PR#6 ask | FAL-05 dated search window owed by 2026-09-24 (non-owner read, HOLD L4 H). Not addressed this session (window is a design task); carried in SCRATCH. |
+| DAEDALUS GATE-FALCON-001 leg 2 ask | Magnitude+reference-window owed by 2026-09-30 (BASIS-UNNAMED per gate-basis sweep #1); pre-9/4 letter, annotated-never-re-graded. Not this row; carried. |
 | Yanbu terminus proxy | Previously approved but unbuilt/due Sep 14; remains overdue, not claimed completed by this report. Named capacity and matched tracker source access remain missing. |
 | WARRISK / WQ-230 | All five rows 44 days past expiry; existing access decision with Will. No repeated broad hunt or changed expiry date. |
 | Other approved maintenance | Unbuilt explicit sub-$80 duration, empty-series guard, archive-content guard, dated EXIT_PROTOCOL boot reader remain carried; vessel/casualty ledgers need separate reconciliation. No approval revoked or silently expanded. |
@@ -67,4 +69,4 @@ Previous STATUS archived **byte-for-byte** at [pre-review snapshot](domain/sourc
 
 ## BOTTOM LINE
 
-The export-chain disruption is reported, but lost crude supply remains unquantified. Watch actual partial restart and documented Yanbu loading continuity against the existing September 17–18 resolver window. This review adds fresh theater evidence and corrects inherited quantity/absence framing while retaining existing approvals and registered marks.
+FAL-05's registered Sep 17–18 review window graded 2026-09-17 with NO route firing. The Petroline shutdown clears the ≥7-day elapsed bar today marginally, but the stated ≥100-kbpd offline-capacity limb is not established at any wire the letter names — Aramco's active STS-off-Sohar workaround with doubled Ras Tanura+Juaymah loadings (SIG-W-20260917-007) is the opposite of a stated-offline read, and the "de facto FM" X framing remains ⛔ kill-on-sight. Yanbu-specific route (c) is one independent dark-fleet-capable Yanbu observation short. Row stands to 2026-10-07 window close; two DAEDALUS asks (FAL-05 dated search window by 9/24; GATE-FALCON-001 leg 2 magnitude by 9/30) carried.
