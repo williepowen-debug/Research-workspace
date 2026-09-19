@@ -1,6 +1,6 @@
 # ZHAO STATUS
 
-**Updated:** 2026-09-18 (see commit time). Session: **BOOT + live-data refresh — 5 of 6 key-figure STALE flags cleared; the −164bp HIBOR-SOFR spread RETIRED as never-measured (KB-154); 3 inbox items triaged, 2 carry open ASKs.** Prior session: **PROME-spawned WQ-206 L0 drain, then JULY TIC GRADED on PROME's word** — 18 inbox items consumed · `board_log.tsv` created · **ZHA-17 NO (boundary zone) · ZHA-11 YES · ZHA-12 YES** · Vector 8 3→4 (LNG leg) · read-cap rotation #2 · `CLAUDE.md` re-keyed off `LAST_COMPLETION`.
+**Updated:** 2026-09-18 (see commit time). Session: **BOOT + THE OWED QUEUE WORKED — 4 of 4.** −164bp HIBOR-SOFR **retired as never-measured** (KB-154) · WQ-112 as-made ledger written, **3 ordered re-scores REFUSED as contrary to ratified canon** (KB-160) · **RatingDog Aug 51.5** pulled, gap structural (KB-158) · **ZHA-18 pre-registered 28d early at a BASE-RATED 40%** · 🔴 **two new finds: the BIS Affiliates-Rule stay lapses 11/09, one day before the truce (KB-156), and ZHAO's own Belgium kill-leg fires on a base effect (KB-159).** — 18 inbox items consumed · `board_log.tsv` created · **ZHA-17 NO (boundary zone) · ZHA-11 YES · ZHA-12 YES** · Vector 8 3→4 (LNG leg) · read-cap rotation #2 · `CLAUDE.md` re-keyed off `LAST_COMPLETION`.
 **Overall Status:** 🟠 ELEVATED — **29/60 (+1, Vector 8 → 4 on the gas leg; BRENT 9/6).** **July TIC (released 9/16, own pull 9/17): China $618.0B (−$15.4B), LT/coupon net −$7.7B — a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (−$10B ≥ LT > −$5B ⇒ NO): *continued but decelerating.* Belgium **sold alongside** (−$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency −$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed.**
 
 > 🧊 **READ-CAP rotations:** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · **#3 2026-09-18 → `archive/STATUS_COLD_20260918.md` (§①–⑯)**. Verbatim moves, nothing deleted.
@@ -13,8 +13,9 @@
 
 🔴 **THE CLOCK:** *"…shall continue to be suspended until 12:01 a.m. EST on November 10, 2026."* **A time-limited suspension expiring by its own terms** ⇒ nobody has to re-impose; somebody has to decide NOT to. Suspended-state reciprocal rate 10%, fentanyl 20%→10%; **resumed rate NOT specified in the order.**
 
-### 🔒 **ZHA-16 — pre-registered 2026-09-02 BEFORE the event, amended the same session, still before it.**
-Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · **D** no summit — half-open, boundary owner named on B, declared residual (a date-slip grades B with the slip logged). 🔴 **AMENDMENT 1: B is NOT neutral — it is escalation-by-default**, because absent a further affirmative act the heightened rate returns automatically. **Conf 35% → 45%.** Branch-A bar = **a published instrument with an effective date beyond 2026-11-10**; graded on the DOCUMENT. *(Credit HAWK 8/22: "which branch happens if nobody acts?")*
+### 🔒 **ZHA-16 — pre-registered 2026-09-02 BEFORE the event; amended the same session, still before it.**
+Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · **D** no summit — half-open, boundary owner on B, declared residual. 🔴 **AMENDMENT 1: B is escalation-by-default**, because absent a further affirmative act the heightened rate returns automatically. **Conf 35% → 45%.** Branch-A bar = **a published instrument effective beyond 2026-11-10**; graded on the DOCUMENT. *(Credit HAWK 8/22.)*
+
 
 **→ Letter + Amendment 1 + ZHA-17: `reports/2026-09-02_PREREGISTRATION_summit-and-july-tic.md`. Sourcing, the instrument-defect diagnosis and the full truce paragraph → COLD_20260917 §②/③/⑨/⑩; the Aug-PMI verdict → COLD_20260917 §①. Pre-summit inputs (301 delay, Bessent–He) → KB-155.**
 
@@ -48,7 +49,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 |--------|-------|-----------|--------|
 | 🔴 **China Construction PMI (AUG)** | **46.9** (Jul 47.0) | — | 🔴 **2nd consecutive RECORD LOW, weather blamed both months** [CONF] NBS 8/31 — the Vector-5 basis and the ~9/30 tripwire reference (KB-128) |
 | **China PMI cluster (AUG)** | mfg **49.8** (beat) · non-mfg/services **49.0 / 49.3** flat · composite **49.5** · high-tech **52.9** | <50 | 🟠 **2nd sub-50 composite; the +0.2 is entirely manufacturing** [CONF] NBS 8/31 — sub-index detail → COLD_20260918 §⑤ |
-| RatingDog (ex-Caixin) Mfg PMI (AUG) | ❌ **STILL NOT PULLED** | — | ⚪ **OWED, 10 days late** — July was **50.9 vs NBS 49.2**; the state-vs-private divergence is **unresolved for August** and is the one check that could flip the manufacturing read |
+| **RatingDog (ex-Caixin) Mfg PMI (AUG)** | **51.5** (Jul 50.9) vs **NBS 49.8** | — | 🟢 **PULLED 9/18 — gap EXACTLY 1.7pt for a 2nd month ⇒ STRUCTURAL, not noise.** 9th month >50, longest run in 5yr; new orders 15th month, longest since 2018; **exports fastest in 6mo.** ⛔ **But employment FLAT with intermediate/investment goods CUTTING** = the capex leg, same as construction 46.9 ⇒ strength is **export-composed**, Vector 5b **HELD at 3**. 🔴 **Output prices CUT, first time in 2026, as input costs rose** — factory-gate margin compression, China exporting disinflation harder (→HENRY). [CONF] S&P Global PDF, survey 12-20 Aug, released **9/01** (KB-158) |
 | China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz (~2,346t)**, 20th mo | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold **8.8% of reserves** vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-109). ⚠️ **Aug print (~9/7) STILL UNPULLED** |
 | 🆕 **China Aug trade (nominal $)** | exports **+25.0% YoY** · imports **+28.2%** · surplus **$119.09B** | — | 🟠 [CONF-reported] GACC 9/8 via CNBC/AP. ⚠️ **Nominal, not volumes; GACC tables unreachable 9/17 — reconcile still owed.** Autos +43%, semis +129.8%, to-US +34.4% (KB-144) |
 | Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% since end-2023. **The 6% headroom is the number to watch** (P3 tripwire B4) |
@@ -61,19 +62,22 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 
 *(Rescored 9/2; vectors 2/6/7/9 re-measured 9/18. 8/21 commentary → COLD_20260917 §③/§⑥.)*
 
-| # | Vector | Score | Current State | Data As-Of |
-|---|--------|-------|---------------|------------|
-\1**July: China $618.0B, LT −$7.7B — 2nd consecutive coupon-selling month, decelerating** (Jun −$15.8B). TTM −$101.5B / LT −$75.4B. Korea −$1.7B, Belgium −$20.4B (anti-mirror). Official sector net BOUGHT coupons **+$25.5B** vs private −$29.1B. Q3-td −$14.3B, no >$50B/qtr trip. **Score held at 5: the letter's NO is magnitude, not direction.** Next arbiter **10/16** \2| 2 | Korea Crisis | 🟢 1 | **ZHA-12 RESOLVED YES 9/17:** won ≤1,441 all August, BoK hiked 8/27 to 3.00% (6-1), Korea TIC Jul −$1.7B — **the rate lever, not reserve liquidation.** ⚠️ **9/18: won retraced to 1,385.95** (+27 vs 9/2), inside every band. Two 8/3 caveats still unverified | won **live 9/18**; TIC Jul'26 |
-| 3 | Custodial Arbitrage | 🟡 2 | **2 = CANNOT BE MEASURED, not benign.** rho **+0.067, n=42**; HANS/LIQUID carry no China inference. HANS owns the hub table | Belgium Jun'26 |
-| 4 | LGFV/Banking | 🟡 2 | NPL 🧊 FROZEN (no primary); debt-swap **94% of quota**, hidden debt −65% since end-2023; consolidation accelerating (130+ H1). Data leans **constructive**; NPL canaries unconfirmed | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
-| 5 | Property Zombification | 🔴 **5 ↑** | ⬆️ 9/2: construction PMI **46.9, 2nd consecutive record low, weather attribution re-used**; H1 RE investment −18%; expectations flat 51.8 = belief, no activity | Aug 31 |
-| 5b | Domestic Demand / Broad Activity | 🟠 **3 ↓** | ⬇️ 9/2, mfg leg only: mfg 49.8, production 50.4, new orders 50.6 back >50; **services flat 49.3 2nd month, composite sub-50 twice** — shallowing, not recovering | Aug 31 |
-| 6 | PBOC Defensive Wall | 🟢 1 | Yuan **6.70** live; 7d repo 1.4%; LPR held 14th month (7/20) with FX room available = **restraint**, a stronger comfort signal than the level. **Next fixing ~9/21-22 — 15th month?** | yuan **live 9/18**; LPR **Jul 20** |
-| 7 | HK Peg Channel | 🟢 1 | **RE-MEASURED 9/18, not carried:** AB HK$53,975M flat, no intervention; 1M HIBOR 2.869% (+21bp); spread **−98.1bp**, both legs primary. **Score 1 held — but now on measurement rather than on a stale value with a fabricated leg** | **9/18** (HIBOR HKMA, SOFR NY Fed 9/17) |
-| 8 | LNG/Energy Shock | 🔴 **4** | **Scored on the LNG leg, not crude** (BRENT 9/6 answering ZHAO): TTF €71.96 [9/4] 3.5-yr high · EU storage 65.85% record low for date · Qatar force majeure, exports −96%. **Crude alone keeps 3**; levels only, never a % across a `BZ=F` roll. ⚠️ **No `VX.tsv` row yet (KB-146, NEXT ACTIONS #8).** Full cell → COLD_20260918 §⑭ | HANS 9/4 via BRENT 9/6 — **not live** |
-| 9 | USD/CNY Defense | 🟢 1 | **6.70**, appreciation bias intact | **live 9/18** |
-| 10 | Gulf Recycling | 🟡 2 | Revenue recovering; acute collapse over | **BRENT/HAWK, Jul 4** |
-| 11 | Gulf Infra Destruction | 🟡 2 | Rebuild underway; capacity back | **BRENT/HAWK, Jul 4** |
+| # | Vector | Score | As-Of |
+|---|---|---|---|
+| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, own pull 9/17 |
+| 2 | Korea Crisis | 🟢 1 | won **live 9/18**; TIC Jul'26 |
+| 3 | Custodial Arbitrage | 🟡 2 | Belgium Jun'26 |
+| 4 | LGFV/Banking | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
+| 5 | Property Zombification | 🔴 **5** | Aug 31 |
+| 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 |
+| 6 | PBOC Defensive Wall | 🟢 1 | yuan **live 9/18**; LPR **Jul 20** |
+| 7 | HK Peg Channel | 🟢 1 | **9/18** (HIBOR HKMA, SOFR NY Fed 9/17) |
+| 8 | LNG/Energy Shock | 🔴 **4** | HANS 9/4 via BRENT 9/6 — **not live** |
+| 9 | USD/CNY Defense | 🟢 1 | **live 9/18** |
+| 10 | Gulf Recycl. | 🟡 2 | **BRENT/HAWK, Jul 4** |
+| 11 | Gulf Infra | 🟡 2 | **BRENT/HAWK, Jul 4** |
+
+> 📄 **Per-vector CURRENT-STATE commentary → `archive/STATUS_COLD_20260918.md` §㉒**, moved verbatim 2026-09-18 (rotation #3). **Scores stay hot because boot reads them; the prose did not fit the read-cap.** Changes this session: **5b HELD at 3** against a strong RatingDog print (export-composed, not domestic demand); **7 re-measured** — score unchanged, but now resting on a measurement instead of a stale value with a fabricated leg.
 
 **Total: 29/60 — 🟠 ELEVATED** *(computed FROM the rows 2026-09-17, never carried: 5+1+2+2+5+3+1+1+**4**+1+2+2 = **29** across 12 vectors × 5. 9/2 was 28.)*
 
@@ -86,7 +90,8 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 | Agent | Signal | State |
 |-------|--------|-------|
 | **VULCAN · MIDAS · BRENT · BOND · PROME · WALTER (9/17 lane)** | Six rows **closed/consumed as of 9/17** — CXMT unit fix, Aug-PMI cross-grade, the Vector-8 3→4 answer, the NBIM correction, the `LAST_COMPLETION` re-key, the 8-item lane drain | 🟢 verbatim → **COLD_20260918 §①** |
-| **HAWK** | ZHA-16 registered on the **truce clock**; Nov-10 expiry re-verified 9/2 | 🟡 open to 9/24 |
+| **HAWK** | ZHA-16 on the **truce clock**; + the new **11/09 Affiliates-Rule** clock routed | 🟡 open to 9/24 |
+| 🆕 **OUTBOX 9/18 — 3 packets awaiting PROME routing** | **HANS+LIQUID** Belgium YoY base-effect (check your own hub thresholds) · **HENRY+MARCO+MIDAS** China factory-gate price cut · **VULCAN+HAWK** Affiliates-Rule 11/09 (does your entity map resolve ≥50% AGGREGATE ownership?) | 🟠 written, not delivered |
 | **DAEDALUS** | PR6 9/17: second clean cycle **ADJUDICATED MET**. Two asks by 9/24 — **SOFR ✅ 9/18**, CATALYSTS re-date **OPEN** | 🟠 1 of 2 |
 | **WALTER** | `-008` **ACTION** (301 delay + Bessent–He) → KB-155, ungraded by design; `-007` INFO (Aramco STS off Sohar — **a hand-off through Hormuz, not around it**), no ZHAO score move | 🟠 `-008` watch live |
 
@@ -95,6 +100,8 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 ## EXIT RULES
 
 ### Thesis Kill → COLD_20260917 §⑨-b (Belgium <10% YoY ×2 AND China >$700B ×3 · fiscal >5% GDP w/ LGFV backstop — neither close)
+
+⛔ **9/18 — THE BELGIUM HALF OF THAT KILL IS ARITHMETICALLY DEGENERATE AND THE OLD FRAMING WAS BACKWARDS.** STATUS read *"+10.6%, 1pt above the kill-leg"*, i.e. *Belgium must fall*. **Belgium must RISE $25.5B not to trigger.** Its 2025 base rose steeply (Jul $425.4B → Nov $481.0B), so at a **flat** Jul-26 level of $470.7B the YoY prints **Aug +4.35% · Sep +1.54% · Oct +1.12% · Nov −2.14% — all under 10%.** Staying above needs +$25.5B in Aug and +$39.2B by Sep vs a largest-ever monthly buy of ~$17.6B. ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, NOT as evidence** (declared in the ZHA-18 letter §2 **before** the print). The full kill still cannot fire — the other leg needs China >$700B ×3 and China is $618.0B. **Leg needs re-spec as a level/flow test; deliberately NOT done inside the letter that grades it** (KB-159).
 
 ### Falsification tripwires now
 - **China TIC >$680B for 2 consecutive months** → the selling was noise. *(Far away — $633.4B, a series low.)*
@@ -111,14 +118,15 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 
 | Date | Event | Priority |
 |------|-------|----------|
-| ✅ Sep 7 / Sep 16 | **China Aug trade (nominal) INTEGRATED 9/17** · **July TIC GRADED 9/17** (ZHA-17 NO · 11 YES · 12 YES). ⚠️ **Residue still owed: GACC reconcile, SAFE Aug reserves/gold.** Rows verbatim → **COLD_20260918 §③** | ✅ |
 | ~Sep 9-10 | China Aug CPI/PPI — deflation check | 🟡 |
-| **~Sep 21-22** | China LPR fixing — 15th month of hold? ⚠️ **20 Sep 2026 is a Sunday; verify the exact date before grading** | 🟠 |
+| **Sun Sep 20** | **China LPR fixing — CORRECTED from 9/22.** 20 Sep IS a Sunday **but the State Council made it a make-up workday**, so the 20th-of-month fixing does not roll. **21 of 21 surveyed expect 3.00%/3.50% held — the 16th month ⇒ a hold is priced and says nothing; only a CUT is a signal** (KB-157) | 🟠 |
 | **🆕 Sat-Sun Sep 19-20** | **Bessent ↔ He Lifeng, New York** — reciprocal reductions on US energy/ag and Chinese mfg inputs, MFN on certain items, **~$30bn of trade**; truce-extension prospects reported 'solidifying'. **The last dated input before the summit** (KB-155) | 🔴 |
 | **🆕 Thu Sep 24** | **XI → WASHINGTON, White House summit with Trump. DATE ANNOUNCED** (Trump, 7/23; ⚠️ no PRC-side confirmation located). Truce-extension venue, 47 days ahead of the 11/10 expiry. **Letter ZHA-16 pre-registered 9/2** | 🔴 |
 | ~Sep 30 | China September PMI — the property-leg tripwire | 🟠 |
 | **October 2026** | **Fifth Plenum, 20th CPC Central Committee** — 15th Five-Year-Plan venue; the realistic home for a large fiscal figure | 🟠 (KB-ZHAO-106) |
-| **Fri Oct 16** | **August TIC** — third month of China coupon selling? Belgium vs the <10% YoY kill-leg. **Register the letter in `reports/` before the print** | 🔴 |
+| **Fri Oct 16** | **August TIC** — third month of China coupon selling? Belgium vs the <10% YoY kill-leg. **ZHA-18 registered 9/18** (40%) | 🔴 |
+| **Mon Nov 9** | 🔴 🆕 **BIS AFFILIATES RULE ('50% rule') STAY LAPSES — a SECOND escalation-by-default clock, one day before the truce.** On reactivation any entity **≥50% owned (incl. IN THE AGGREGATE) by Entity List parents is automatically covered** — the perimeter widens with **zero new listings**. 90 FR 50857, verbatim *"stayed until November 9, 2026"* (KB-156) | 🔴 |
+| **Mon Oct 19** | BIS/MOFCOM enactment re-check (re-dated from the 9/16 look that fired unread) — **no Entity List ADDITIONS since 2025-10-09; both 2026 actions were REMOVALS** | 🟠 |
 | **Tue Nov 10** | 🔴 **Reciprocal-tariff suspension EXPIRES BY ITS OWN TERMS at 12:01 ET — the default is LAPSE, not continuation.** Suspended-state rate 10%; **resumed rate NOT specified in the order.** Fentanyl tariff cut 20%→10% under the same arrangement | 🔴 |
 
 ---
@@ -132,41 +140,41 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 | ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ⚠️ mirror showed 15% on 9/2 while the ledger holds 18%; **ledger governs**, reconcile at the as-made pass (`reports/2026-09-17_ASMADE_VERIFICATION.md`) |
 | ZHA-05 / ZHA-06 / ZHA-07 / ZHA-10 | Regional NPL >12% · >250 small banks consolidated · liquidity crunch forcing UST sales · yuan oil settlement >$5B | 55 / 72 / 70 / 40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
 | **ZHA-16** | **Xi–Trump summit (9/24) produces branch A — an official output extending the reciprocal-tariff suspension beyond 2026-11-10** | **45%** (as-made 35% → 45% same session 9/2) | 🔒 OPEN, registered 9/2 pre-event. Branches A/B/C/D in §THE SUMMIT above. **Graded on the DOCUMENT, not the tape.** Resolve_By 2026-09-30 |
+| 🆕 **ZHA-18** | **Aug TIC (10/16) shows China LT/coupon ≤ −$5.0B — a THIRD consecutive duration-selling month.** A/B/C exhaustive, boundary owner declared (exactly −$5.0B ⇒ YES), non-publication ⇒ STUCK not NO | **40%** | 🔒 OPEN, **pre-registered 9/18, 28d early.** ⚠️ **BASE-RATED, and the base rate INVERTED the story:** P(LT ≤ −$5B) = 23/42 = 55% unconditional but **3/9 = 33% given the prior two months both ≤ −$5B** — this series mean-reverts after a cluster. Narrative said 60%; cold said 33%; **settled 40%, both recorded.** Letter: `reports/2026-09-18_PREREGISTRATION_ZHA-18_august-tic.md` |
 | ✅ ZHA-11 · 12 · 17 | **RESOLVED 9/17 on July TIC — YES · YES · NO** (Brier 0.10 / 0.04 / 0.30); grades → `PREDICTIONS.tsv`, KB-150. As-made re-marks owed (KB-147) |  |  |
 
 ---
 
 ## NEXT ACTIONS
 
-**Done Sep 17 (L0 drain, no research):** 18 items · `board_log.tsv` · CXMT unit fix · Aug trade · NBIM · V8 3→4 · as-made VERIFIED · rotation #2 · KB-141..148 — itemised list → **COLD_20260918 §②**.
+**Done Sep 18 (owed queue, 4 of 4):** ① DAEDALUS PR6 both asks ✓ ② WQ-112 as-made ledger ✓ ③ RatingDog ✓ ④ ZHA-18 registered ✓ — plus KB-153..160, STATUS rotation #3, 3 outbox packets. Sep-17 list → COLD_20260918 §②.
 
 **Owed / next boot, in priority order:**
 
-0. 🔴 **ZHA-16 pre-summit inputs LOGGED 9/18, NOT GRADED** (`SIG-W-20260917-008` ACTION → KB-155). Section-301 report (**+7.5%**, → ~20% total) **postponed until after 9/24** = sequencing for branch A; the **~$30bn** Bessent–He package = A's first named content; +7.5% = **C's magnitude on record**. ⚠️ Single-outlet anonymous Bloomberg via secondary carriers. ⚠️ **No PRC-side confirmation of 9/24 — branch D live.** **Next dated input: the 9/19–20 readout.** Grade on the DOCUMENT only.
-0b. 🔴 **DAEDALUS PR6, due 9/24:** ① re-date or grade `docket/CATALYSTS.tsv:8` (**fired 9/16, logged unread**) + give the four `date_class=modeled` rows an explicit re-check date — **OPEN**; ② SOFR leg of `VX-ZHAO-2.04` — ✅ **discharged 9/18** (KB-154).
-1. 🔴 **August TIC, Fri 10/16 — the third-month test.** Write the **ZHA-18** letter (third consecutive coupon-selling month? Belgium <10% YoY?) in `reports/` **BEFORE the print**. July's grade and the LIQUID packet → COLD_20260918 §⑦.
-2. 🔴 **As-made ledger write (DAEDALUS 9/7):** 9 values VERIFIED (`reports/2026-09-17_ASMADE_VERIFICATION.md`) — write the WQ-112 form into the 6 OPEN rows; **re-score ZHA-03 · ZHA-04 · ZHA-15** (the as-made/current gaps) → COLD_20260918 §⑮.
-3. 🔴 **RatingDog Aug PMI** — 9 days overdue · **GACC Aug tables** (TLS-blocked 9/17; try `customs.gov.cn` CN-side) · **SAFE Aug reserves/gold** unpulled.
-4. 🟠 **`CLAUDE.md` re-key** L56 · L246 · L260 (file FROZEN): apply the 3-line re-point on the word (memo 9/17); then the owed 9/2 CLOSEOUT-step-1 edit after a cold read (KB-ZHAO-140).
-5. 🔴 **Sept 24 summit** — grade ZHA-16 off the official output only.
-6. 🟠 **KB.tsv `Stale_By` has NO READER** (30+ rows past due, oldest KB-ZHAO-060). Carried from 8/21. Do NOT bulk-mark SUPERSEDED. Fix ≈5 lines in `boot.py` §6.
-7. ✅ **DONE 9/18 — HK peg + SOFR re-based** (KB-153/154; detail → COLD_20260918 §⑦). **Residue:** adopt a rolling-5d SOFR basis so the Green/Yellow call stops turning on a 1.9bp margin.
-8. 🟠 **Vector 8 has no `VX.tsv` row** — create `VX-ZHAO-8.01` with the LNG leg as its named basis (HANS TTF/storage; BRENT crude by contract).
+1. 🔴 **Sun 9/20 LPR · Thu 9/24 SUMMIT.** Grade ZHA-16 **off the official output only**, never the tape. Pre-summit inputs logged ungraded (KB-155); **Bessent–He readout 9/19-20 is the last input.** ⚠️ **Still no PRC-side confirmation of 9/24 — branch D live.**
+2. 🔴 **Aug TIC Fri 10/16** — ZHA-18 is registered; at the print also log the 4 DECLARED OBSERVATIONS (Belgium + base-effect annotation · rho at n=43 · Agency line · official/private split).
+3. 🟠 **Re-spec the Belgium kill-leg** as a level or flow test (KB-159). Must NOT be done in the letter that grades it.
+4. 🟠 **GACC Aug tables** (TLS-blocked 9/17; try `customs.gov.cn` CN-side) · **SAFE Aug reserves/gold** unpulled since 7/7.
+5. 🟠 **`CLAUDE.md` re-key** L56 · L246 · L260 (file FROZEN): the 3-line re-point on PROME's word; then the owed 9/2 CLOSEOUT-step-1 edit after a cold read (KB-140).
+6. 🟠 **KB.tsv `Stale_By` has NO READER** (30+ rows past due, oldest KB-060). Carried from 8/21. Do NOT bulk-mark SUPERSEDED. ~5 lines in `boot.py` §6.
+7. 🟠 **Adopt a rolling-5d SOFR basis** for `VX-ZHAO-2.04` so the Green/Yellow call stops turning on a 1.9bp margin (KB-154).
+8. 🟠 **Vector 8 has no `VX.tsv` row** — create `VX-ZHAO-8.01` with the LNG leg as its named basis (KB-146).
 9. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling; SK hynix conversion share. Unchecked since 8/3.
-10. 🟠 **Enactment watch** (BIS Entity-List package · MOFCOM TSMC/QCOM) — the CATALYSTS 9/16 re-check **fired unread**; re-date it (DAEDALUS ask ①). MOFCOM Ann. 37 was an IMPORT measure, no score (KB-143) → §⑮.
-11. 🟡 ZHA-03 re-registration · CGB refresh-or-freeze · **HK $9.33B June UST sale still unlogged (KB-ZHAO-140)** — 9/2 wording → COLD §⑨-b.
+10. 🟡 **ZHA-10 `Date_Made` defect** (ledger 2026-03-09 vs first appearance 2026-07-09) — flagged, left as found; raise separately. **CGB refresh-or-freeze** · **HK $9.33B June UST sale still unlogged** (KB-140).
 
 ---
 
 ## BOTTOM LINE
 
-**SEP 18 — a number that had been in canon since August turns out never to have been measured, and the summit is six days out.**
+**SEP 18 — the owed queue worked in full. Three of four items found a defect in this desk's own instruments; the fourth found a clock nobody had registered.**
 
-`VX-ZHAO-2.04` carried a HIBOR-SOFR spread of **−164bp**. Its HIBOR leg was real; its SOFR leg was an unsourced *"~4.30% [EST]"* written when NY Fed and FRED both refused the request. SOFR printed **3.85%** — 45bp below the guess — so the spread is **−98.1bp**: HK carry stress has been sitting **further** from its trigger than the dashboard said, not closer. The NY Fed answered first try today with a browser User-Agent, so **August's "no third source exists" was a header problem misread as loss of access.** DAEDALUS caught the same defect a day earlier from the other side. Vector 7 keeps its 1 — now on a measurement, not on a stale value with a fabricated leg. `[[finding_claim_outlives_its_discredited_instrument]]`
+**The ledger refused an order.** The 9/17 report said re-score ZHA-03/04/15 on their as-made confidences. **Canon says the opposite** — WQ-112(i), *"the latest dated pre-resolution mark governs scoring"* — and all three marks were dated 18–48 days pre-resolution, so the grades stand. The ambiguity (`25% (at resolution)`) dissolves in git: **the value did not change at the grading commit**, so it labelled a standing mark rather than picking one at resolution. Re-scoring would have moved Brier against me on two rows, for me on one. **A correction that costs you something is not thereby correct.**
 
-**The event.** Washington **postponed the Section-301 overcapacity report** — the one expected to recommend **+7.5%**, taking China tariffs to ~20% — until after 9/24, and Bessent sees He Lifeng **this weekend** on a **~$30bn** reciprocal package. Both logged (KB-155); **neither is a grade.** ZHA-16 resolves on a published instrument effective beyond 2026-11-10, not on reporting: the delay is sequencing for branch A, the $30bn is the first named content, the +7.5% is C's magnitude on record. **Still no PRC-side confirmation of 9/24 — branch D is live.**
+**Two lapse-by-default clocks, one day apart.** The overdue BIS re-check found no Entity List additions since Oct 2025 and both 2026 actions running the other way as *removals* — and, unregistered until today, the **Affiliates Rule stay lapsing 2026-11-09**, the day before the truce. Reactivation widens the perimeter through ≥50% aggregate ownership with **zero new listings**: VULCAN's, routed. **It does not touch ZHA-16** — different instrument, different clock, not amended six days from its event.
 
-Yuan 6.70 and HK flat at HK$53,975M with no intervention. The won **retraced 27 won weaker** to 1,385.95 — September's strengthening given back, nothing threatened. **August TIC 10/16 remains the arbiter; the ZHA-18 letter goes in `reports/` before it prints.**
+**My own kill criterion is degenerate:** Belgium's <10% YoY leg fires in Aug and Sep with Belgium flat, on a risen 2025 base. Declared before the print as satisfied-on-base-effect.
+
+**ZHA-18 registered 28 days early at 40%, priced off data not story:** after two months of ≤−$5B coupon selling this series extends the run **a third of the time.**
 ---
 
 **🚩 THESIS** — canon: `CLAUDE.md` §BELGIUM PROXY METHODOLOGY (**cite it, don't restate it**). 9/2 one-line restatement + long-standing gaps → COLD_20260917 §⑧. Live magnitudes: `VX-ZHAO-1.03` / `1.02` only.
