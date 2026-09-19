@@ -147,6 +147,7 @@
 | 13 | **Re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism | open |
 | 14 | **Split `VX-HANS-11.03`** into (a) German annual outlay and (b) a real EU issuance series with matching bands | 🟠 |
 | 15 | 🔴 **`doc_audit` C2 still does NOT scan `STATUS.md`** — registry and `VX.tsv` only. C9 owed, reusing C8's citation detector → `ML-HANS-459` | 🔴 |
+| 23 | 🟠 **`ML.tsv` KEY COLLISION — 475 rows, 324 unique IDs; 95 IDs shared by 246 rows with DIFFERENT findings.** All from the Feb-2026 bulk load; **none at ≥400**; whole-repo scan found **1** ambiguous citation (a completed artifact). **Not renumbered — append-only log, ~nil live harm.** Fix is a `doc_audit` ID-uniqueness check (C5 tests squareness, not key uniqueness) → `ML-HANS-473` | 🟠 |
 | 20 | 🔴 **STATUS HOT/COLD SPLIT — PROME-ruled 9/19, as its OWN task, not a session tail.** Three rotation passes in one day went 91%→~79%; the file is ~79% of the 32,550 B budget against a <70% stop, and what remains is live state | 🔴 |
 | 21 | **AGSI lag D+1 vs D+2 (`KB-HANS-096`)** — check on a WEEKDAY; touches `HNS-07`'s grading date (11/02 vs 11/03), not its resolver | **2026-09-22** |
 | 22 | **Empty-key discriminator is VENDOR-QUIRK-DEPENDENT** — re-verify the negative control; if GIE tightened it, the probe reverts to always-empty (safe, but blind) | **2026-12-19** |
