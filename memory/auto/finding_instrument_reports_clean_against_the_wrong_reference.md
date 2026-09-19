@@ -344,3 +344,23 @@ Measured: `AGENTS/HANS/CLAUDE.md` = **32,961 B against a 32,550 B budget. Over.*
 - ⚠️ **When you discredit one certification, treat every certification produced by the same method as suspect, not just the one you caught.** The desk found two false "complete" marks in two days by two different routes.
 - **State the window next to the verdict**, the way a perimeter is stated: *"complete within 09-01→09-19"* is a different claim from *"complete."*
 
+
+---
+
+## 2026-09-19 — FORM 14: **WRONG BY OPERAND PAIRING.** Two fields of one row can be arithmetically consistent and denote *different objects*, and a check that compares them to each other can never notice.
+
+**HANS, `VX-HANS-5.01 "Euro Stoxx Banks Index"`.** From 2026-08-28 to 2026-09-19 the row carried **`Current_Value` 6,485.67 — EURO STOXX 50, a broad index** — against **bands 240/210/180 calibrated for SX7E at ~268**. It was the desk's *only* bank-stress surface, during three weeks of assessing euro-area bank stress.
+
+**Both of the desk's newest correctness checks passed, and were right to:**
+- **C10** (a row's `Status` must equal the band function of its own value): `6,485 > 240` ⇒ **GREEN is correct.** ✅
+- **C11** (a threshold and its metric surface must face the same way): both run DOWN. ✅
+
+⛔ **The row could not have fired under any market outcome whatsoever** — no bank crisis reaches 240 on an index trading at 6,486 — **and nothing said so.** The note even *declared* the substitution in prose; no check reads prose.
+
+**Why this is a distinct form.** The other thirteen describe a checker pointed at the wrong *thing*. Here the checker is pointed at exactly the right row, and **both of its operands are individually valid.** The defect lives in the **relationship between the row's declared SUBJECT (its `Name`) and its VALUE** — a field the comparison never consults. **An internal-consistency check is structurally incapable of detecting a referent error, because consistency is preserved under substituting the whole pair.** Adding a *third* internal check would not have helped either.
+
+**How to apply:**
+- **Test a row's value against its NAME, not only against its bands.** The cheapest mechanical version is an **order-of-magnitude** check: a row named for an index whose bands sit near 250 and whose value sits near 6,500 is a referent mismatch, whatever the state cell says. Scale disagreement between bands and value is a *free* detector and it needs no domain knowledge.
+- **Ask of every band: what real-world outcome makes this fire?** If the honest answer is "none," the row is decorative regardless of how clean it reads. A band that cannot be reached is the same defect class as a threshold that cannot be measured.
+- ⚠️ **A declared substitution in a note is not a control** — it is the *record* of a defect, not a guard against it, and it made this row *look* supervised for three weeks. `[[finding_naming_a_caveat_can_substitute_for_fixing_it]]`
+- 🔑 **Detection came from a STALENESS scan (22 days), not from any correctness check and not from re-reading.** Eight sessions running on this desk: every defect is found from outside or by a script. **The correctness checks were new, well-designed, tested — and orthogonal to the defect sitting in the row they were built to guard.** `[[finding_test_the_guard_not_just_the_guarded]]`
