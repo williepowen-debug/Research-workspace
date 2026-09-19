@@ -43,7 +43,7 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: this session's commit set (WALTER dir + BOARD + 13 recipient handoffs + 3 PROME packets). **Publication: see `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`; the `safe-push.sh` receipt line is recorded in the delivery memo at `PROME/inbox/2026-09-19_from-WALTER_l208-unmet-inbox-drained-fill-forward-settle-confirmed.md`.** `reconcile_delivery_log.py --apply` runs AFTER the push; until then all 13 rows read `written_not_delivered_pending_push` and must not be reported as delivered. Owner review: manual; no automatic completion. **Next review 2026-09-21** (L432 window opens; `-001`/`-002` ACTION consumption; RED's three re-derivations).
+Dated evidence snapshot, not a live publication promise. Checked scope: this session's commit set (WALTER dir + BOARD + 13 recipient handoffs + 3 PROME packets). **Publication: work commit `7a276822a` (BOARD + logs + spec + 13 handoffs + 3 packets); this receipt rides the follow-up commit, whose hash is `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`; the `safe-push.sh` receipt line is recorded in the delivery memo at `PROME/inbox/2026-09-19_from-WALTER_l208-unmet-inbox-drained-fill-forward-settle-confirmed.md`.** `reconcile_delivery_log.py --apply` runs AFTER the push; until then all 13 rows read `written_not_delivered_pending_push` and must not be reported as delivered. Owner review: manual; no automatic completion. **Next review 2026-09-21** (L432 window opens; `-001`/`-002` ACTION consumption; RED's three re-derivations).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
@@ -51,8 +51,8 @@ Dated evidence snapshot, not a live publication promise. Checked scope: this ses
   "as_of": "2026-09-19T15:08:27+00:00",
   "publication": [
     {
-      "commit": "pending_push",
-      "state": "written_not_pushed"
+      "commit": "7a276822a",
+      "state": "pending"
     }
   ],
   "delivery": {
@@ -61,11 +61,12 @@ Dated evidence snapshot, not a live publication promise. Checked scope: this ses
     "delivered": 0
   },
   "owner_review": {
-    "scope": "manual evidence review; no automatic completion. SIG-W-20260919-002 is verified-at-the-reporting-desk (BROCK), NOT re-run by WALTER.",
+    "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
         "path": "AGENTS/DAEDALUS/BLUEPRINTS/CORRECTION_FORM.md",
-        "note": "L208 precondition check: field 5 is prose-satisfiable and requires no artifact cite"
+        "sha256": "008dbfffbcbb96d5072ab5ad4444bb601b0e0658378a55efd087746e3a091d22",
+        "note": "L208 precondition check, hash-bound: field 5 is prose-satisfiable and requires no artifact cite, so R2's field never became a consuming step. A change to this hash is a trigger to re-evaluate L208. SIG-W-20260919-002 is verified-at-the-reporting-desk (BROCK), NOT re-run by WALTER."
       }
     ]
   },
