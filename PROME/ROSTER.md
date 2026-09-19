@@ -34,7 +34,7 @@
 
 ---
 
-## ACTIVE (33) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build; 32→33 at the 2026-08-21 CRUISE re-class — ARCHIVE/personal-interest → EVENT-DRIVEN, Will-ruled row 55 off the DAEDALUS 8/16 label-flagged-false finding)*
+## ACTIVE (34) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build; 32→33 at the 2026-08-21 CRUISE re-class; **33→34 at the 2026-09-19 YURI seat, Will-ruled in terminal, WQ-267** — ARCHIVE/personal-interest → EVENT-DRIVEN, Will-ruled row 55 off the DAEDALUS 8/16 label-flagged-false finding)*
 *Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
@@ -82,7 +82,7 @@
 > **‡‡ TERRY** — **ruled `DOMAIN ACTIVE` 2026-08-05 (Will), overriding the preflight's `ORGANIZING / SERVICE` placement.** Trade construction is its domain and it holds **canon authority**: root `CLAUDE.md` names TERRY the *canonical owner* of trade-construction rules (`AGENTS/TERRY/RISK_RULES.md`), whose numbered Non-Negotiables are a **stable API** that live fire-cards cite by number. An agent that owns canon in its lane is a domain owner. *(RAV's delivered preflight addendum carries the superseded `ORGANIZING / SERVICE` placement in its original 2026-08-04 text, preserved deliberately as provenance and corrected in its own **"Correction Block — 2026-08-05"** appended to both copies at `61d71d974`. **This row is the governing assignment either way.** ⚠️ When first written this pointed at a correction note that did not yet exist — a forward reference, caught by RAV's independent verification pass and repointed here.)*
 > **‡‡‡ ORACLE** — `DOMAIN ACTIVE`, not service: it owns a substantive information domain with external signal content, not merely a workflow service (RAV preflight recommendation, accepted).
 
-### PROVISIONAL ACTIVE (7)
+### PROVISIONAL ACTIVE (8)
 *Exists and should run; proof criteria not fully met. **Not a demotion** — see the model block above.*
 
 | Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
@@ -94,6 +94,7 @@
 | OSPREY | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | Full theater authority; proof criteria pending | new††† |
 | FALCON | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | Full theater authority; **DAEDALUS `L3` + live signal flow** — stronger than the other newborns, provisional only because maturity/consumption proof is still settling | new††† |
 | HOMER | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | Full domain authority; proof criteria pending | new††† |
+| YURI | **Russia — ACTOR-KEYED: what the Russian state DECIDES, across all channels, as one actor** (mobilisation, asset seizure, force posture, export instruments). ⛔ **NOT Russia macro** — the name follows the fleet's human-first-name convention for geography desks and reads narrower than the charter; the charter scope is the authority, not the name. | **Full actor authority. Boundary RULED 2026-09-19** (`PROME/proposals/2026-09-19_yuri-boundary-RULED.md`): `DECISION → OBJECT → TARGET → REACTION` — YURI owns the decision, OSPREY object+target, HAWK reaction INCLUDING ITS NULL. **A YURI row requires a NAMED, DATED INSTRUMENT OF THE RUSSIAN STATE a third party can cite; an observed effect is NOT a YURI row.** YURI cites, never re-derives. ⚠️ **FALSIFIABLE INSTRUMENT NOT YET AGREED — Will waived the pre-wiring condition 2026-09-19 (WQ-267) and the obligation is registered as a dated row, not discharged.** | new |
 
 > ⚠️ **Cross-reference, do not re-derive:** five of these seven — **AEOLUS · MIDAS · OSPREY · VULCAN · WATT** — are DAEDALUS's own **F5 finding** (2026-08-03: *"5 agents carry a live thesis and NO falsification surface … all 5 my builds, one blueprint cause"*), reached independently. **DAEDALUS has already ruled the disposition: a dated retrofit trigger, NOT an instant demotion** (PAT-075 grandfathering — nobody loses a level on the day a rule lands). The retrofit trigger is DAEDALUS's lane at Phase 2; this label must not be read as duplicating or pre-empting it.
 
@@ -115,6 +116,31 @@
 > **†† WATT / VULCAN / MIDAS** — the 3-agent build queue, built + wired by **DAEDALUS 2026-07-10→11** (Will-directed; specs `AGENTS/DAEDALUS/builds/{WATT,VULCAN,MIDAS}_SPEC.md`). All market-agents, active-by-intent; 0 commit history yet → the "new" is honest, reconcile at the next activity pass (PAT-019). **WATT** = grid-stress→power-price→cost (spun out of HENRY's provisional power leg; AEOLUS C3 detects, WATT prices; consumed by HENRY HEN-36 FCF + CARL retail). **VULCAN** = AI-capex/semi/memory as systemic risk (owns the concentration *mechanism* behind VIOLET's Path-B; feeds HENRY + WATT). **MIDAS** = dual-channel metals (gold as debasement/real-rate tell — two-way w/ BOND; copper as China-demand thermometer — two-way w/ ZHAO; safe-haven → LIQUID; PGM supply → HAWK). Maturity: all L1 in `AGENTS/DAEDALUS/FLEET_MAP.tsv`.
 
 > **††† OSPREY / FALCON / HOMER** — built/promoted by **DAEDALUS 2026-07-12** (Will-directed, same-day execution). 0 commit history yet → reconcile at the next activity pass (PAT-019). **OSPREY + FALCON** = the HAWK war-agent split (root cause: HAW-15 structural-overload miss — one agent holding two acute independent wars starves the secondary theater; spec `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md`, build `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md`). OSPREY inherits the 32-row RU-UA strike ledger + channel model (OSP-01 ←HAW-17); FALCON inherits the Iran scenario ladder + convergence matrix + baghdad_watch (FAL-01 ←HAW-16; founding mandate = Gulf-Iran strike-ledger backfill). **HAWK residual** = cross-war synthesis + dormant book, single ROUTINE outward interface ({OSPREY,FALCON}→HAWK→market agents; acute 🔴 direct to BRENT, HAWK cc'd); HAW-01..17 calibration record stays HAWK's. **HOMER** = housing promoted from `AGENTS/CARL/sub_agents/` (case + review: `AGENTS/DAEDALUS/builds/homer_promotion/`; ★ rulings Will-approved 7/12: Trepp CMBS-MF one-owner = HOMER [CREED keeps non-MF CMBS, S5→HOMER-fed cross-ref; REGINALD consumes HOMER's figure]; CRL-06/23 stay CARL's w/ HOMER as data owner; HOMER owns mortgage-rate surface). Maturity: OSPREY/FALCON L1-seeded, HOMER L2-at-entry in `AGENTS/DAEDALUS/FLEET_MAP.tsv`.
+
+## DESK CADENCE — owner-declared (WQ-269, Will-ruled 2026-09-19 in terminal: *"Wire it now"*)
+
+**This section IS the `Cadence` column the spec asks for** (`AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md`). ⚠️ **PROME implemented it as ONE table rather than a sixth column across six differently-shaped tables, and told DAEDALUS so** — the tables above already differ in shape, a six-table restructure is the registry-wide class that needs its own cold read, and a single table makes the UNDECLARED default auditable at a glance. **Functionally identical: ROSTER remains the single source and there is no second hand-authored map in code.** DAEDALUS owns the design; if it wants the literal column, it says so and PROME converts.
+
+⛔ **EVERY DESK STARTS `UNDECLARED`, AND PROME WILL NOT POPULATE THIS TABLE.** The spec's own rule and L292's standing guard: **cadence is OWNER-DECLARED and must never be inferred from activity.** PROME filling these in from commit history would manufacture exactly the evidence the column exists to replace. **A desk declares its own cadence at its next session by editing its own row here.**
+
+⛔ **`UNDECLARED` is NOT a defect and NOT a lapse.** It reads as *CANNOT-EVALUATE* in `spawn_list.py` — the row stays visible, the due obligation stays visible, and no age-based claim is made. Silence about cadence is silence, not a clean bill.
+
+**Tokens** (thresholds are the spec's PROPOSED implementation choices, **not ratified constants** — Will's 2026-09-19 ruling adopted the build, not the numbers):
+
+| Token | Elapsed-time treatment | Limit |
+|---|---|---|
+| `DAILY` | review hint past one calendar day | never evidence a particular daily release was missed |
+| `WEEKLY` | review hint past seven calendar days; **exactly seven is WITHIN cadence** | — |
+| `MONTHLY` | later than the same day of the next calendar month, **clamped to that month's last day** | a calendar month, never a 30-day constant |
+| `EVENT-DRIVEN` | **no elapsed-time classification** | a registered event or due row governs; absent a dated event, overdue cannot be inferred |
+| `ON-DEMAND` | **no elapsed-time classification** | operator or registered work governs; never overdue by age alone |
+| `UNDECLARED` | **no elapsed-time classification** | the default; named CANNOT-EVALUATE, never a silent pass |
+
+⛔ **Three guards that survive this build and are not discharged by it** (L292): **keep explicit due obligations visible REGARDLESS of cadence · PLANNED QUIET IS NOT A COMPLETED GRADE · a recent commit or a cadence token never proves a named grade was done.**
+
+| Agent | Cadence | Declared by / when |
+|---|---|---|
+| *(every desk)* | `UNDECLARED` | — **no desk has declared yet; this table was created 2026-09-19 and PROME is deliberately not filling it in** |
 
 ## TIER-2 — spawned as needed (4)
 | Agent | Domain | Note |

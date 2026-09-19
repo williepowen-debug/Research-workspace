@@ -131,6 +131,82 @@ class Liveness:
         return self._c[desk]
 
 
+# ── DESK CADENCE (WQ-269, Will-ruled 2026-09-19 "wire it now"; spec
+# AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md) ────────────────────
+# ⛔ ANNOTATION ONLY. Cadence NEVER changes a row's class, never suppresses a due
+# row, and never touches the exit-code contract (spec §3, §5, §6). It answers
+# "is this desk's quiet PLANNED?" beside — never instead of — "is there a due
+# obligation?". Planned quiet is not a completed grade.
+CADENCE_TOKENS = {"DAILY", "WEEKLY", "MONTHLY", "EVENT-DRIVEN", "ON-DEMAND", "UNDECLARED"}
+NO_CLOCK = {"EVENT-DRIVEN", "ON-DEMAND", "UNDECLARED"}
+
+
+def read_cadence(roster_text: str):
+    """ROSTER § DESK CADENCE -> {desk: token}. Duplicates and unknown tokens are
+    kept as CANNOT-EVALUATE causes rather than resolved — a duplicate roster
+    identity must not silently pick one (spec §5)."""
+    out, dupes, bad = {}, set(), {}
+    sect = roster_text.split("## DESK CADENCE", 1)
+    if len(sect) < 2:
+        return out, dupes, bad, False
+    body = sect[1].split("\n## ", 1)[0]
+    for raw in body.split("\n"):
+        c = [x.strip() for x in raw.split("|")]
+        if len(c) < 4 or not c[1] or c[1].startswith("-") or c[1].startswith("*"):
+            continue
+        desk, tok = c[1].strip("`* "), c[2].strip("`* ").upper()
+        if desk in ("Agent", "Token") or not desk:
+            continue
+        if desk in out or desk in dupes:
+            # ⛔ REMOVE the first pick, do not merely record the clash. Leaving it
+            # meant the map silently resolved a duplicate identity while the
+            # annotation said CANNOT-EVALUATE — two paths agreeing today and
+            # diverging for any future caller (DOCKET L442). Found by the drill.
+            out.pop(desk, None); dupes.add(desk); continue
+        if tok not in CADENCE_TOKENS:
+            bad[desk] = tok; continue
+        out[desk] = tok
+    return out, dupes, bad, True
+
+
+def _month_later(d: dt.date) -> dt.date:
+    """Same day next calendar month, clamped to that month's last day. Never a
+    30-day constant — Jan 31 -> Feb 28/29 (spec acceptance case)."""
+    y, m = (d.year + 1, 1) if d.month == 12 else (d.year, d.month + 1)
+    import calendar
+    return dt.date(y, m, min(d.day, calendar.monthrange(y, m)[1]))
+
+
+def cadence_note(owner, cad_map, dupes, bad, present, last_date, today):
+    """Return a short annotation. ⛔ Every non-evaluable path is NAMED, never a
+    silent pass (spec §5)."""
+    if owner in ("PROME", "WILL", "?"):
+        return "n/a"
+    if not present:
+        return "CANNOT-EVALUATE (no ROSTER cadence section)"
+    if owner in dupes:
+        return "CANNOT-EVALUATE (duplicate ROSTER identity)"
+    if owner in bad:
+        return f"CANNOT-EVALUATE (unknown token {bad[owner]!r})"
+    tok = cad_map.get(owner)
+    if tok is None:
+        return "CANNOT-EVALUATE (desk absent from ROSTER cadence)"
+    if tok == "UNDECLARED":
+        return "UNDECLARED — CANNOT-EVALUATE (no cadence declared); the due row governs"
+    if tok in NO_CLOCK:
+        return f"{tok} — no age clock; the due row governs"
+    if last_date is None:
+        return f"{tok} — CANNOT-EVALUATE (no qualifying owner commit)"
+    age = (today - last_date).days
+    if tok == "DAILY":
+        late = age > 1
+    elif tok == "WEEKLY":
+        late = age > 7                      # exactly 7 is WITHIN cadence
+    else:                                   # MONTHLY
+        late = today > _month_later(last_date)
+    return f"{tok} — {'REVIEW HINT, past cadence' if late else 'within cadence'} ({age}d)"
+
+
 def classify(owner, start, due, today, live: Liveness):
     delta = (today - due).days                    # >0 overdue, 0 today, <0 lands in |delta| days
     if owner == "PROME":
@@ -154,8 +230,13 @@ def classify(owner, start, due, today, live: Liveness):
     return delta, f"LANDS-IN-{-delta}d", f"owner last self-commit {lsc[0]} ({age}d ago, {lsc[1]})"
 
 
-def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int, live: Liveness):
+def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int, live: Liveness, roster_text: str = ""):
     horizon = today + dt.timedelta(days=horizon_days)
+    cad_map, dupes, bad, present = read_cadence(roster_text)
+    def _note(owner):
+        lsc = live.last_self_commit(owner) if owner not in ("PROME", "WILL", "?") else None
+        ld = dt.date.fromisoformat(lsc[0]) if (lsc and lsc[0] != "!ERR") else None
+        return cadence_note(owner, cad_map, dupes, bad, present, ld, today)
     rows = []
     for ln, raw in enumerate(docket_text.split("\n"), start=1):
         if not raw or raw.startswith("#"):
@@ -172,7 +253,7 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         start = dt.date.fromisoformat(start_s) if DATE.fullmatch(start_s) else due
         owner = owner_token(c[2])
         delta, cls, basis = classify(owner, start, due, today, live)
-        rows.append((f"D:L{ln}", end_s, delta, owner, cls, basis, re.sub(r"\s+", " ", c[1])[:72]))
+        rows.append((f"D:L{ln}", end_s, delta, owner, cls, basis, _note(owner), re.sub(r"\s+", " ", c[1])[:72]))
     hdr = None
     for raw in gates_text.split("\n"):
         if not raw or raw.startswith("#"):
@@ -195,7 +276,7 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         start = dt.date.fromisoformat(reg[:10]) if DATE.match(reg) else due
         delta, cls, basis = classify(owner, start, due, today, live)
         scan = (g.get("scannable", "").split(" ")[0] or "unclassed")
-        rows.append((f"G:{g['gate_id']}", m.group(0), delta, owner, cls, basis,
+        rows.append((f"G:{g['gate_id']}", m.group(0), delta, owner, cls, basis, _note(owner),
                      f"review_by [{scan}] — {re.sub(chr(9), ' ', g.get('condition', ''))[:56]}"))
     order = {"UNKNOWN": 0, "DARK": 1, "ACTIVE": 2, "PROME-OWNED": 3, "WILL-OWNED": 4}
     rows.sort(key=lambda r: (order.get(r[4], 4), -r[2], r[0]))
@@ -205,17 +286,19 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
 def render(rows, today, horizon_days, tsv: bool) -> int:
     n = {k: sum(1 for r in rows if r[4] == k) for k in ("UNKNOWN", "DARK", "ACTIVE", "PROME-OWNED", "WILL-OWNED")}
     lands = sum(1 for r in rows if r[4].startswith("LANDS"))
+    cne = sum(1 for r in rows if str(r[6]).startswith("CANNOT-EVALUATE"))
     print(f"spawn_list · as-of {today} · horizon +{horizon_days}d · {len(rows)} row(s): DARK {n['DARK']} · ACTIVE {n['ACTIVE']} · "
           f"lands-ahead {lands} · PROME {n['PROME-OWNED']} · WILL {n['WILL-OWNED']}"
           + (f" · \u26d4 UNKNOWN {n['UNKNOWN']} (liveness NOT established — never a spawn)" if n["UNKNOWN"] else ""))
-    print("key\tdue\tΔd\towner\tclass\tbasis\tcatalyst")
+    print("key\tdue\tΔd\towner\tclass\tbasis\tcadence\tcatalyst")
     for r in rows:
         line = "\t".join(str(x) for x in r)
         print(("\u26d4 " if r[4] == "UNKNOWN" else "⚠️ " if r[4] == "DARK" else "") + line)
     if not tsv:
         print(f"\nREAD (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); "
               f"cap {CAP_PER_BOOT}/boot, beyond → slate to Will. ACTIVE = read the owner's artifact FIRST — the row may already "
-              "be graded (receipt gap). Cadence not modelled (header).")
+              "be graded (receipt gap). \u26d4 CADENCE IS AN ANNOTATION ONLY — it never changes a class, never hides a due "
+              "row and never moves the exit code; PLANNED QUIET IS NOT A COMPLETED GRADE, and CANNOT-EVALUATE is not a pass.")
     if n["UNKNOWN"]:
         print(f"\n\u26d4 {n['UNKNOWN']} row(s) UNKNOWN: liveness could not be established (failed git log, or an "
               "unparseable owner cell). \u26d4 NEVER spawn on UNKNOWN \u2014 fix the read, then re-run. A failed check is "
@@ -266,6 +349,56 @@ def selftest() -> int:
     return 0 if ok else 1
 
 
+
+def cadence_selftest() -> int:
+    """DAEDALUS's acceptance cases (spec § 'Acceptance cases for PROME's implementation'),
+    implemented as drills rather than re-described. Written by the DESIGNER before the
+    implementation existed, which is the WQ-229 shape — the conditions are not the author's own."""
+    ok = True
+    def chk(name, got, want):
+        nonlocal ok
+        good = (want in got) if isinstance(want, str) else want(got)
+        ok &= good
+        print(f"  {'OK  ' if good else 'FAIL'} {name}\n        -> {got}")
+    R = ("## DESK CADENCE\n| Agent | Cadence | x |\n|---|---|---|\n"
+         "| ALPHA | WEEKLY | - |\n| BETA | MONTHLY | - |\n| GAMMA | EVENT-DRIVEN | - |\n"
+         "| DELTA | ON-DEMAND | - |\n| EPS | UNDECLARED | - |\n| ZETA | HOURLY | - |\n"
+         "| DUP | WEEKLY | - |\n| DUP | DAILY | - |\n\n## NEXT\n")
+    cm, du, bad, pres = read_cadence(R)
+    chk("roster parses; duplicate REMOVED from the map, not silently resolved",
+        f"map={sorted(cm)} dupes={sorted(du)} bad={bad}",
+        lambda g: "DUP" not in g.split("dupes=")[0] and "DUP" in g and "HOURLY" in g)
+    T = dt.date(2026, 3, 10)
+    chk("WEEKLY at exactly 7d is WITHIN cadence",
+        cadence_note("ALPHA", cm, du, bad, pres, T - dt.timedelta(days=7), T), "within cadence")
+    chk("WEEKLY at 8d is a REVIEW HINT",
+        cadence_note("ALPHA", cm, du, bad, pres, T - dt.timedelta(days=8), T), "REVIEW HINT")
+    chk("MONTHLY Jan 31 -> Feb 28 clamp, not a 30-day constant",
+        cadence_note("BETA", cm, du, bad, pres, dt.date(2026, 1, 31), dt.date(2026, 2, 28)), "within cadence")
+    chk("MONTHLY Jan 31 -> Mar 1 is past cadence",
+        cadence_note("BETA", cm, du, bad, pres, dt.date(2026, 1, 31), dt.date(2026, 3, 1)), "REVIEW HINT")
+    chk("EVENT-DRIVEN makes NO age claim",
+        cadence_note("GAMMA", cm, du, bad, pres, T - dt.timedelta(days=400), T), "no age clock")
+    chk("ON-DEMAND makes NO age claim",
+        cadence_note("DELTA", cm, du, bad, pres, T - dt.timedelta(days=400), T), "no age clock")
+    chk("UNDECLARED is named CANNOT-EVALUATE, matching ROSTER's own wording",
+        cadence_note("EPS", cm, du, bad, pres, T, T), "CANNOT-EVALUATE")
+    chk("unknown token -> named CANNOT-EVALUATE",
+        cadence_note("ZETA", cm, du, bad, pres, T, T), "CANNOT-EVALUATE")
+    chk("duplicate identity -> named CANNOT-EVALUATE, no silent pick",
+        cadence_note("DUP", cm, du, bad, pres, T, T), "duplicate")
+    chk("desk absent from roster -> named CANNOT-EVALUATE",
+        cadence_note("NOBODY", cm, du, bad, pres, T, T), "CANNOT-EVALUATE")
+    chk("no cadence section at all -> named CANNOT-EVALUATE",
+        cadence_note("ALPHA", *read_cadence("## OTHER\n"), None, T), "no ROSTER cadence section")
+    chk("no qualifying owner commit -> CANNOT-EVALUATE, never 'within'",
+        cadence_note("ALPHA", cm, du, bad, pres, None, T), "CANNOT-EVALUATE")
+    chk("PROME/WILL rows are n/a, not evaluated",
+        cadence_note("PROME", cm, du, bad, pres, None, T), "n/a")
+    print("cadence selftest", "PASS" if ok else "FAIL")
+    return 0 if ok else 1
+
+
 def list_open(docket_text, today):
     """Every DOCKET row still OPEN by the SHARED lead-token reading — no spawn-candidacy filter.
 
@@ -299,6 +432,7 @@ def main():
     ap.add_argument("--as-of", help="YYYY-MM-DD: sets today AND bounds the liveness git log (--until)")
     ap.add_argument("--docket", default="PROME/DOCKET.tsv", help="PATH or REV:PATH")
     ap.add_argument("--gates", default="PROME/GATES.tsv", help="PATH or REV:PATH")
+    ap.add_argument("--roster", default="PROME/ROSTER.md", help="PATH or REV:PATH — owner-declared cadence")
     ap.add_argument("--open", action="store_true",
                     help="list every DOCKET row still OPEN by the shared lead-token reading, with no "
                          "spawn-candidacy filtering. USE THIS WHEN PREPARING A BRIEF. It answers 'what is "
@@ -306,7 +440,11 @@ def main():
                          "COVERED suppression that governs the latter is wrong for the former and hides "
                          "assigned work that has not happened yet (DOCKET L368).")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--cadence-selftest", action="store_true",
+                    help="DAEDALUS's delivered acceptance cases for the cadence reader (WQ-269)")
     a = ap.parse_args()
+    if a.cadence_selftest:
+        sys.exit(cadence_selftest())
     if a.selftest:
         return selftest()
     today = dt.date.fromisoformat(a.as_of) if a.as_of else dt.date.today()
@@ -321,7 +459,19 @@ def main():
                   f"{owner[:26]:<26.26} {desc[:64]}")
         return 0
     live = Liveness(until=(a.as_of + " 23:59") if a.as_of else None)
-    rows = collect(read_text(a.docket), read_text(a.gates), today, a.horizon, live)
+    # ⛔ THE CADENCE READ MUST NEVER BE ABLE TO KILL THE READER. Found by the failure-path
+    # check the spec demands (§5, "preserve the reader's existing exit-code contract"): an
+    # unreadable ROSTER took read_text() down with it, printing ZERO due rows and moving rc
+    # 0 -> 1. A missing ANNOTATION source was suppressing the OBLIGATIONS it annotates —
+    # a clean-looking board with every due row gone, which is the worst possible direction.
+    # Degrade to "no cadence section" (-> named CANNOT-EVALUATE) and render the rows.
+    try:
+        roster_text = read_text(a.roster)
+    except BaseException as e:
+        roster_text = ""
+        print(f"\u26a0\ufe0f  cadence source unreadable ({a.roster}: {type(e).__name__}) — "
+              "every row below reads CANNOT-EVALUATE for cadence; due rows are UNAFFECTED", file=sys.stderr)
+    rows = collect(read_text(a.docket), read_text(a.gates), today, a.horizon, live, roster_text)
     return render(rows, today, a.horizon, a.tsv)
 
 
