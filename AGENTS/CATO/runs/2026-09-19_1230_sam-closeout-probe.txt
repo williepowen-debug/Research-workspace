@@ -1,0 +1,11 @@
+Pinned revision: 12c399ce5735977ca36b29f939a2e29553743322
+CONTROL: pinned current docket produces no problems
+COUNTEREXAMPLE: deleted September 30 JGB 2Y calendar event; A/B/C still pass
+COUNTEREXAMPLE: added undated catalyst row; A/B/C still pass
+COUNTEREXAMPLE: actual stale pre-repair THESIS (4 OPEN, 14/14/1) escapes D; derived= (16, 16, 1, 1)
+CONTROL: full-format incorrect scoreboard is detected
+COUNTEREXAMPLE: advertised orphan_check.sh never called; all delegate diagnostic text discarded
+COUNTEREXAMPLE: all four child checks return rc=2 with diagnostic; main exits 0/PASS, diagnostic hidden
+LIMIT: PASS text explicitly scopes itself to self-checks; this is not proof SAM actually ignored a child failure
+WORKFLOW: legitimate pending STATUS edit fails G, although charter step 15 says run before final commit
+All review expectations reproduced. Counterexamples demonstrate gaps, not repairs.

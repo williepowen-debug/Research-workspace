@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, recent agent updates reviewed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, SAM closeout build reviewed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — SAM closeout build reviewed.** [Report](runs/2026-09-19_1230_sam-closeout-review.md), [pinned probes](runs/2026-09-19_1230_sam-closeout-probe.py), [results](runs/2026-09-19_1230_sam-closeout-probe.txt), [checks](runs/2026-09-19_1230_sam-closeout-checks.txt). At `12c399ce5`, all nine owner tests and current checker pass, but original stale THESIS escapes D; same-day missing events/undated rows escape docket checks; orphan delegation is absent, memory guard misassigned, child diagnostics hidden; pre-commit instruction conflicts with clean-tree/committed-history checks. Grading challenge is TIER 0 in handoff, yet brief still treats disputed Episode-B control as conclusive. Session-count correction verified; no replacement grade assigned. No SAM edits, sends or launches. Review delivered; next orient and await Will, recheck owner fixes only if assigned.
 
 **Latest — PROME's September 19 response assessed.** [Assessment](runs/2026-09-19_1213_prome-response-assessment.md). Banking correction supported; storage arithmetic reproduces, but s/sqrt(5) does not establish uncertainty in the registered finite five-year benchmark. Omissions leave four years; the missing-data bug does not invalidate the full observation or supersede the separate >−12/five-day exit. Runner summary is unreliable, not evidence every underlying check failed. Owner delivery now appropriate via PROME; CATO's earlier no-send boundary was explicit. No owner edits/sends/launches or grades. Next: orient and await Will; inspect actual delivery/final revisions if follow-up assigned.
 
