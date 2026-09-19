@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-19 — SAM-28 and SAM-31 both RESOLVED FALSE; v1.7 unchanged, no successor
+
+- **PREDICTIONS:** the two open v1.6 convexity-tail tripwires are graded, one day past their Sep-18 boundary, on frozen terms with nothing re-tuned at scoring time. **SAM-28 → FALSE** on the ROUTE leg; **SAM-31 → FALSE** on two independent legs. Scoreboard **16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN (SAM-33)**, re-derived from `PREDICTIONS.tsv` (34 rows, 0 unclassified), not carried forward. Sidecar pruned to the OPEN set; SAM-33's condition hash re-verified against its row.
+- **Old → new view:** *both rows pending at the close* → *both failed.* The **view they tested did not change**, because the frame they belonged to retired 2026-08-07 on leg 1. Neither grade re-arms anything; SAM-28's own `no-fire + ≥80% positioning` retirement leg cannot re-retire an already-retired frame and is moot regardless (Sep-8 book printed NET LONG +10,796).
+- **THESIS:** v1.7 unchanged. No successor declared, no route re-armed, no probability re-pencilled, no threshold moved. Book FLAT; 160 gate stays VOID.
+- **New measurement that settles the one genuinely open question** (the undefined word "sustained" in the MOF route): **the operation days themselves never cleared the +3% bar** — 7/30 +2.58%, 7/31 +2.73% off the 7/29 base 56.13, with +3% first reached 8/3 (+4.22%), the second session *after* the last op. So the reading that makes the row pay needs a second unstated convention stacked on the first.
+- **Episode-B control:** the September rally made +4.37% and held 6 sessions above +3% with **no eligible route at all**, against Episode A's +4.22% / 5 sessions. A no-route move that is bigger and longer-held ⇒ size and shape do not identify a route.
+- 🔧 **Two defects found in SAM's own frozen prep file, both running in SAM's favour, recorded with the grades.** (1) Its risk-off screen **silently dropped 2026-09-08** — the largest yen-strengthening risk-off session in the window, i.e. the observation most favourable to SAM-31. A defensible exclusion argument exists (Sep-7/8 official attribution is OPEN) but was never stated; corrected n=24 figures are the ones graded on and the verdict survives. (2) It asserted both episodes held 6 sessions above +3%; Episode A holds 5.
+- ⛔ **Withdrawn:** the prep file's *"FALSE is over-determined by the close"* shortcut. The governing Sep-9 packet forbids substituting whole-window appreciation for the route-attributed move, and magnitude discriminates nothing regardless (470 of 1,953 ordered session pairs clear +3.0%). The Sep-18 close 58.48 (+2.976% vs the 58.4937 bar) is context, not the instrument.
+- **TIMELINE:** added the 2026-09-19 block. No branch point resolved beyond these two rows; forward view unaltered.
+- Record: `../docket/2026-09-19_SAM28_SAM31_GRADE.md`.
+
 ## 2026-09-15 — News integration; v1.7 unchanged
 
 - Updated pillar/channel references for auction, July output revision, fiscal requests, August outward equity/fund allocation and dated BOJ/energy context. Six findings in `../reports/2026-09-15_news-sweep.md`.

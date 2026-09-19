@@ -23,9 +23,13 @@
 > 2. **The CFTC −153K/85% line is VOID.** ⚠️ **A future re-build back through it RE-ARMS NOTHING** — it was
 >    a *reclaim* condition inside a frame that no longer exists.
 > 3. **The leg-1 SPF FIRED.** Any row below calling it a "tail" or "materially further out" is false.
-> 4. **Sep-18 is no longer a window-end retire-check** — the frame already retired via leg-1. It survives
->    as the grading horizon for SAM-28 and SAM-31. SAM-39 resolved September 4,
->    TRUE-IN-LETTER / FALSE-IN-SPIRIT; its frozen terms and grade stay in PREDICTIONS.tsv.
+> 4. **Sep-18 is no longer a window-end retire-check** — the frame already retired via leg-1. It survived
+>    only as the grading horizon for SAM-28 and SAM-31, and **that horizon is now spent: both rows
+>    RESOLVED FALSE on 2026-09-19** (SAM-28 on the ROUTE leg; SAM-31 on two independent legs).
+>    **Nothing re-arms** — a retired frame cannot be re-retired, and SAM-28's own ≥80%-positioning
+>    retirement leg is moot (Sep-8 book printed NET LONG +10,796). Record:
+>    `docket/2026-09-19_SAM28_SAM31_GRADE.md`. **Only SAM-33 remains open**, to Dec-31.
+>    SAM-39 resolved September 4, TRUE-IN-LETTER / FALSE-IN-SPIRIT; frozen terms and grades stay in PREDICTIONS.tsv.
 >
 > **Current-use limits — September 8, 2026.** EWJ/TLT/Japan-bank watchlists remain research ideas; their dated evidence and status notes are not re-certified as current. *(The watchlists themselves live in `TRADE.md` § Watchlist — this banner was applied identically to both docs at Run 19 and said "below", which is true of TRADE and not of this file.)* Channel conditions live in `thesis/THESIS.md` and `STATUS.md`. Pillar 2 monitors conditional, mixed JGB sponsorship; a yield tag alone establishes neither forced selling nor repatriation. The September 3 30Y SOFT grade stands on its frozen test. Current tests belong in STATUS and the docket; the tenor-specific precision ruling is **no longer prospective — registered 2026-09-11** at `thesis/AUCTION_GRADING_RULING_2026-09-11.md` (PRECISION-LIMITED tag at ≤0.1bp trip margins; uniform-price tenors NOT gradable on the FIRM/SOFT bars). Oil-in-yen effects depend on separate oil/FX price, physical-supply and funding evidence; the old phase labels are historical, not an automatic sequence or entry route. Position records, money fields and frozen prediction terms remain unchanged.
 >

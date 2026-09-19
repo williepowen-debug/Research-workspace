@@ -30,52 +30,48 @@
 ## Session Notes
 
 ### CHANGES SINCE LAST SESSION
-*(Last session closed out 12:32 ET **today**; this is a same-day second session. "Offline" = ~3 hours, so these are intraday moves, not overnight news.)*
-- **The yen clawed back part of the decision-day move.** USD/JPY **157.34 [15:01Z] → 156.69 [17:44Z]**, −0.41% off the post-decision high. Firmer on all three crosses too (EURJPY 180.36→179.94 · GBPJPY 210.21→209.87 · AUDJPY 111.83→111.63) ⇒ **yen-side, not USD-side.**
-- 🔴 **FXY 58.30 → 58.51 — now INTRADAY ABOVE the SAM-28 magnitude bar of 58.49.** It was 58.44 (five cents below) when the prep file was frozen this morning. **Not a grade; the registered leg reads the 16:00 ET CLOSE.**
-- **Brent kept falling: $99.56 → $98.93**, extending below $100 for a second session **while Petroline is still shut.** Supply event and price moving opposite ways.
-- No new BOJ pricing: `boj_ois.py` still returns the unreviewed chart (SHA256 `1105fdfc…`). **This desk has no current BOJ pricing.**
+*(Last session closed 2026-09-18 PM ET. Market was CLOSED all of Saturday 9/19, so nothing below is a fresh tape move.)*
+- **The Sep-18 close printed FXY 58.48** — the SAM-28 magnitude datum, **1.4 cents below** the 58.4937 bar (+2.976% vs registration). Both intraday reads carried into the handoff (58.44 below / 58.51 above) were noise around it; neither was ever the instrument.
+- **CFTC Sep-15 COT landed:** gross shorts **−30.0% WoW**. Enters neither graded row's terms.
+- **BOJ pricing still DARK** — `boj_ois.py` returns the same unreviewed chart (SHA `1105fdfc…`). Unchanged since 9/15.
+- JGB curve unchanged at the MOF **Sep-17** publication (10Y 2.993 / 30Y 4.047 / 40Y 4.036).
 
 ### LAST SESSION
-Second Will-directed session of 9/18 — live-data catch-up. Will asked whether the BOJ hike was captured: **it was**, graded in the 15:15Z block, which I left unamended.
-- **Refreshed STATUS off the 17:44Z boot sweep** and **re-derived the WQ-162 completed-session basis** (latest completed = **Sep-17 155.942**), which the morning block had left un-derived.
-- 🔧 **Caught KEY THRESHOLDS as a stale Sep-14 vintage sitting under a Sep-18 table.** The **USDJPY 155 row was directionally wrong** — "Below at live 154.82" while the pair traded 156.69. A yen-STRENGTH watch cannot fire on yen weakness. **Class: refreshing one section certifies the section below it that nobody re-read.**
-- ✅ **Finished the rule-5 rotation the morning session stopped 496 B short of** (72% → **70%**, stop CLEARED). The blocker was the `COMPRESSED SESSION-NOTE POINTERS` external-consumer warning — **I re-checked it, as the warning itself demands, and it is SPENT**: WALTER re-pointed to the thesis file and no longer cites SAM's STATUS at all (`grep -c` = 0), and STATUS_ARCHIVE already held the block verbatim.
-- **Rotated to `STATUS_REFERENCE.md`** (warm/current/citable): WQ-162 basis convention, carried pre-hike vintages, durable Japan macro rows, funding row. Fixed a stale **"BOJ policy rate is 1.00%"** there.
-- ✅ **Re-stamped SAM-33's sidecar hash** after verifying at git that `Prediction`/`Timeframe`/`Confidence`/`Status` were all unchanged and only the append-only op-audit `Notes` moved. `boot.py --predictions` back to PASS.
+Will-directed Saturday catch-up, market closed. **Closed the overdue TIER-0 obligation: SAM-28 and SAM-31 are GRADED FALSE.**
+- **Ran them cold on the frozen terms**, one day past the boundary. SAM-28 FALSE on the **ROUTE** leg; SAM-31 FALSE on **two independent legs**, no VIX bar invented. Scoreboard **16/16/1/1**, re-derived from the file (34 rows, 0 unclassified). Only **SAM-33** remains open.
+- 🔑 **New measurement that settled the one open question** (the undefined word "sustained"): **the MOF operation days themselves never cleared the +3% bar** — 7/30 +2.58%, 7/31 +2.73%; +3% first reached 8/3, *two sessions after the last op*. So the reading that makes the row pay needs a second unstated convention stacked on the first.
+- 🔴 **Found TWO defects in my own frozen prep file, both running in my own favour.** (1) Its risk-off screen had **silently dropped 2026-09-08** — the single most favourable session for SAM-31 (FXY +1.52% on a genuine risk-off day). Dropping exactly that one session reproduces all five of its statistics to the third decimal, which is how it was identified. A defensible reason existed (Sep-7/8 attribution is OPEN) and was **never stated**. (2) It asserted both episodes held 6 sessions ≥+3%; Episode A holds **5**. Neither changed a verdict — which is why they'd have survived.
+- ⛔ **Withdrew the prep file's "FALSE is over-determined by the close" shortcut** — the governing Sep-9 packet forbids substituting whole-window appreciation for the route-attributed move. The close is context, not the instrument.
+- **Propagated:** grade record (`docket/2026-09-19_SAM28_SAM31_GRADE.md`), PREDICTIONS.tsv rows + preamble, sidecar pruned to the OPEN set (SAM-33 hash re-verified), STATUS, CHANGELOG, TIMELINE (+ fixed its stale "Last Updated 2026-09-10" footer), STRATEGY/TRADE banners + the TRADE Sep-18 watch row. **No money field touched.**
+- **Auto-memory promoted:** `[[finding_the_artifact_built_to_prevent_bias_is_the_one_nobody_audits]]` — indexed COLD (predictable trigger) under a new *Authored COLD* section, since filing it under a dated demotion wave would have falsely labelled its origin.
+- **consumer_check:** ran it, sent **nothing, deliberately.** The 35 🔴 "stale" hits on `"3 OPEN"` are substring false positives — they match inside `"13 OPEN"` (YEYOU) and `"Rail 3 OPEN"` (RED's own challenge rail). Wrong series, wrong unit. The real scoreboard string appears **only inside SAM's own tree**; no desk outside SAM carries it.
 
 ### NEXT SESSION
 
-**TIER 0 — THE 16:00 ET CLOSE HAS PASSED (session ran to ~16:30 ET). SAM-28/31 are GRADEABLE NOW on frozen terms; not graded in this session. Run them cold.**
-1. 🔴 **Record the official FXY close against 58.49** (= 56.79 × 1.03). ⚠️ **It went ABOVE the bar intraday (58.51 at 17:43Z) after being 58.44 below it at 15:01Z** — so the "FALSE is over-determined" shortcut in the prep file **may no longer be available**, and the endpoint convention may have to be genuinely adjudicated. ⛔ Read the CLOSE, never an intraday quote. **Do not let the intraday print pre-load the grade in either direction.**
-2. **Grade SAM-28 and SAM-31** per the frozen prep file. SAM-31 → FALSE on two independent legs (no VIX bar to invent). SAM-28 → FALSE **on the ROUTE leg** (4 of 5 settled no-fire), **with the "sustained MOF #3 → TRUE" alternative disclosed, not buried.** ⚠️ **The route leg carries the grade regardless of where FXY closes** — the magnitude leg discriminates nothing (469 qualifying endpoint pairs).
-3. Pull the **15:30 ET CFTC COT** (Sep-15 positions). Record it; it enters **neither** row's terms.
-4. Update `PREDICTIONS.tsv` rows + preamble, then **re-derive the scoreboard FROM THE FILE** — never carry a count forward by hand. **Re-stamp `PREDICTION_SCHEDULE.json` for any row whose Notes you touch, but only after a field-level git diff** (see below).
-5. After grading, **run `ledger_staleness.py --nudge` and `consumer_check.py`** — SAM-28/31 resolving changes a figure other desks may cite.
-
-**📌 COMMIT DEBT (9/18 PM):** commit `b10b86be4` has a **108-char subject, 8 over the root rule 4d ≤100 cap.** Not amended (rule 4b — amend rewrites whoever holds HEAD). Noted here and in the next commit message; a damaged message over a correct tree is documentation debt, never a rewrite.
-
-**GUARD NOTE (new, 9/18 PM):** `PREDICTION_SCHEDULE.json`'s `condition_sha256` covers **Notes**, because SAM-33's activation clause lives there. So **every evidence append forces a re-stamp**, which trains reflexive re-stamping of the one guard that would catch a real term change. ⛔ **Never re-stamp without diffing `Prediction`/`Timeframe`/`Confidence`/`Status` at git first.**
+**TIER 0 — nothing overdue.** SAM-28/31 are closed. SAM-33 is the only open row and its next check is dated below.
 
 **TIER 1 — DATED, FORWARD:**
-- **Sep-29** 40Y auction — descriptive BTC only, NO grade (uniform-price; RULING 2). Counter stays 0-of-2.
-- **Sep-30 17:00 JST** BOJ Oct–Dec purchase schedule — **the next SAM-33 check.** A scheduled taper-plan change does **NOT** count; an unscheduled capping op would.
-- **Oct-1** BOJ Summary of Opinions — the board's own words on the Sep hike, and **whether oil is named and HOW**. Direct test of this session's leg-2 grade.
-- **Oct-2** August METI crude-by-source — **the durability test: do Kuwait/Qatar return from ZERO?**
-- **Oct-8** 30Y auction — the next test the frozen bars actually apply to. PRECISION-LIMITED tag if the trip margin ≤0.1bp.
+1. **Sep-29** 40Y auction — descriptive BTC only, **NO grade** (uniform-price, RULING 2). Counter stays 0-of-2.
+2. **Sep-30 17:00 JST** BOJ Oct–Dec purchase schedule — **the next SAM-33 check.** A scheduled taper-plan change does **NOT** count; an unscheduled capping op would.
+3. **Oct-1** BOJ Summary of Opinions — the board's own words on the Sep hike, and **whether oil is named and HOW.** Direct test of the 9/18 leg-2 grade.
+4. **Oct-2** August METI crude-by-source — **durability test: do Kuwait/Qatar return from ZERO?**
+5. **Oct-8** 30Y auction — the next test the frozen bars actually apply to. PRECISION-LIMITED tag if the trip margin ≤0.1bp.
 
-**TIER 2 — OWED:**
-- 🔴 **Re-benchmark the oil-in-yen price proxy.** It prices off Brent while ~37% of receipts are WTI-Midland-led US crude. **Until then the +22% implied-premium flag must NOT be resolved as a cost finding.**
-- **BOJ pricing is DARK** until `boj_ois.py --prepare-review` gets a visual review. Next meaningful quote is the **October** meeting's.
-- **STATUS headroom is now 1,619 B to the 75% trigger** — the rule-5 stop is cleared, so an ordinary append is fine; re-assess if a big block lands.
-- **RED's L416 wake 9/24** carries DAEDALUS's banner ask + CH-009/012/017. Not mine; **do not accept a re-route back to SAM.**
-- **SAM-39 successor still owes a preregistered SHAPE leg** before any reopened intervention-character window.
-- **RED salvage ④ — a real JPY xccy-basis instrument** is still owed and still tracked nowhere but STATUS's watch table. `xccy_basis.py` stays manual-only/expired; **do not revive the defective proxy.**
-- WALTER charter edit still owed (Aug-18 lane notice). METSUKE Run-12 apply pass still owed.
+**TIER 2 — OWED (carried, none of it blocked):**
+- 🔴 **`cpi_japan.py:449` still emits a RETIRED read.** It printed "Tokyo +0.1pp ABOVE National — pattern INVERTED, leading-indicator hawkish" at the 9/19 boot, but that read was **retired as a base artifact 2026-08-21** (KB-169; on the 2025 base Tokyo ≤ National 6 of 6). The ruling lives in STATUS_REFERENCE and CALENDAR; the script never got it. **Found 9/19, not yet fixed.**
+- 🔴 **Re-benchmark the oil-in-yen price proxy** — it prices off Brent while ~37% of receipts are WTI-Midland-led US crude. ⛔ The +22% implied-premium flag must NOT be resolved as a cost finding until then.
+- **BOJ pricing DARK** until `boj_ois.py --prepare-review` gets a visual review. Next meaningful quote is the **October** meeting's.
+- **RED salvage ④ — a real JPY xccy-basis instrument** still owed, still tracked nowhere but STATUS's watch table. `xccy_basis.py` stays manual-only/expired; **do not revive the defective proxy.**
+- **SAM-39 successor owes a preregistered SHAPE leg** before any reopened intervention-character window.
+- **Sub-agent debt:** METSUKE Run-20/21 pending (F1–F6 + 4 escalations) never dispositioned — F1 🔴 is `STRATEGY.md:41` still carrying the retired `25.3% of peak` basis. `METSUKE.md` names **4 CLOSED predictions as the OPEN set in 6 places** — a cold spawn would sweep dead rows and never see SAM-33. KURA's anchor splice (`KURA.md:47–51`, into the autonomy-gradient table) is **22 days live**. `subagent_memory_roll.py` hardcodes roll date `2026-08-20`.
+- **STATUS headroom 708 B** to the 75% trigger (23,704 B / 72.8%). It came DOWN 61 B this session despite adding two grades — detail went to the grade record, not STATUS.
+- WALTER charter edit still owed (Aug-18 lane notice). `SIGNAL_INTAKE.md` stale since 2026-04-08.
+
+**GUARD NOTE (9/18, still live):** `PREDICTION_SCHEDULE.json`'s `condition_sha256` covers **Notes**, so every evidence append forces a re-stamp. ⛔ **Never re-stamp without diffing `Prediction`/`Timeframe`/`Confidence`/`Status` at git first.** Done this session: the field-level diff showed only Status/Date_Resolved/Outcome/Notes moved, on exactly 2 rows, term fields untouched anywhere. 🆕 **And note the sidecar's hash check runs ONLY over rows whose Status is OPEN** — a resolved row's stale hash is never checked again, which is why the sidecar is pruned to the OPEN set rather than left to rot.
 
 **SUB-AGENT CLOSEOUT — standing:** after any run, `subagent_memory_roll.py`; after KURA, also `kura_proposal_roll.py`. Never `--all` while a sub-agent is live. They propose, SAM applies.
 
-**DO NOT:** 🆕 **quote an INTRADAY print where a CLOSE is the instrument** — its own failure class, separate from the roll defect and with no rule against it until now (9/18: the retired −7.5% Brent figure had BOTH defects, a Nov→Dec roll AND a 02:15Z intraday quote standing in for the Sep-15 close; only the roll had a rule). 🆕 **compare continuous oil across rolls — NOW MECHANIZED, stop relying on this line:** `scripts/oil_roll_check.py`, boot-wired, fails closed on a roll OR on an unresolved window. Grade SAM-28/31 from an intraday FXY print; rearm retired −153K/85% (moot — book printed NET LONG +10,796 on Sep-8); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing; cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance — different clocks; infer UST sales from foreign-debt aggregates; compare continuous oil across rolls.
+**DO NOT:** 🆕 **read a frozen artifact's figures off the page — re-derive them** (9/19: two defects in my own prep file, both favouring my own prepared verdict; the cheap tell is dropping single observations until a stated `n` reconciles). 🆕 **treat a `consumer_check` 🔴 as a finding without confirming SERIES and UNIT** — `"3 OPEN"` matched inside `"13 OPEN"` 35 times. Quote an INTRADAY print where a CLOSE is the instrument; grade from an intraday FXY print; compare continuous oil across rolls (**mechanized** — `scripts/oil_roll_check.py`, boot-wired, fails closed); rearm retired −153K/85% (moot — Sep-8 printed NET LONG +10,796); use 180K for display (R = −188,077); cite the spent Sep-15 BOJ OIS image as current pricing; cite "90% ME-dependent" (62.6%, Aug-2026); blend METI refinery-receipt with customs crude shares; blend PROME's dashboard USDJPY with yfinance; infer UST sales from foreign-debt aggregates.
 
 ### PRIOR SESSIONS — archived
 

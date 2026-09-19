@@ -360,3 +360,8 @@
 - finding_liveness_gate_keyed_on_an_artifact_that_must_exist_first — sequence inert→pin→commit
 - finding_a_true_measurement_carried_to_an_overstated_reason — prefer the weakest reason that settles it
 - finding_a_mature_surface_at_cap_has_no_padding_relocate_before_pruning — at a cap, no fat: RELOCATE after grepping for a home [n=2]
+
+## Authored COLD — rows written cold at creation (NOT demoted; no wave, no rollback target in MEMORY.md)
+*New memories whose trigger is a PREDICTABLE MOMENT go straight here per `MEMORY.md`'s append rule, rather than entering hot and being demoted later. Recorded as its own section so a dated demotion wave is never mistaken for the origin of a row it never held.*
+
+- finding_the_artifact_built_to_prevent_bias_is_the_one_nobody_audits — re-derive a frozen prep file's numbers; its errors point your way [SAM 2026-09-19]
