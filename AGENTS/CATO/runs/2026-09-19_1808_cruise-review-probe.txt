@@ -1,0 +1,27 @@
+Reviewed revision: 1e3f596abc8840a987e2e3f73901f8d61b722a60
+18ae75f8af15116f2b838a15a39a4bfc5a8ebc237bd297950cf2a01be6d6ea25 STATUS.md
+a3d7bd43ee59bc69c2037fec310b8fd8052946c4d3bab30ee3edb208d1015bb4 TRADE.md
+c17961f7b08bb8883ff381379b7edc949a888eefbf4f5a643465f758e84a8412 WATCHLIST_CCL_PREANNOUNCE.md
+b7f07fa348a1c3131b88cf2d34c85a94d9cac0307816fb18c88c0584aeb495c2 domain/CRUISE_TERM_SET.md
+38063543e1ac761fefbdd860c9fd2ab2329f1bd6076586108dbb7a61b2015392 workbook/KB.tsv
+d4e42a7a70abd9283514136ed29acd5b306d5837529a9b4cc13d087cbac277ab workbook/VX.tsv
+RCL cents reconstructed from owner percentages: [260.14, 255.34, 249.3, 253.92, 249.74, 245.81]
+9/14: CCL daily=-0.8352% RCL daily=-1.8452% cumulative excess DD=0.0734pp
+9/15: CCL daily=-1.9947% RCL daily=-2.3655% cumulative excess DD=-0.2846pp
+9/16: CCL daily=1.0855% RCL daily=1.8532% cumulative excess DD=0.4330pp
+9/17: CCL daily=-0.8054% RCL daily=-1.6462% cumulative excess DD=-0.3745pp
+9/18: CCL daily=-1.4885% RCL daily=-1.5736% cumulative excess DD=-0.4490pp
+CCL daily wins: 4 negative cumulative readings: 3
+CCL threshold: 21.742500000000003 distance dollars: 0.09749999999999659 distance / threshold pct: 0.4484304932735217
+Weekly pct: {'CCL': -4.0, 'RCL': -5.5086, 'NCLH': -4.7233}
+2025 deposits sequential pct: -16.4706
+/home/willi/Research-Intake/data/2026-09-11/news.json b36ea41fe6a846869cd18bb0fa2d56b2a4ec60cc87ab735d7b772856b229cf30 items= 164 CRUISE= 0
+/home/willi/Research-Intake/data/2026-09-14/news.json 5725d5f528cff36fd78edf1c88238c5ca1b6c00e4e880d4da4715377595ccafc items= 189 CRUISE= 0
+/home/willi/Research-Intake/data/2026-09-15/news.json fe0c6ceb7bb5a8ab683d029c4edbe9a452d3c9047c3e4e9e86cf278a2d10cf7a items= 161 CRUISE= 1
+  Whitney Houston's music is coming to sea in a new cruise-ship show - Stock Titan
+/home/willi/Research-Intake/data/2026-09-16/news.json 673c55b14eb538f3775191bbc2a4ebeb9177463f081daacaa87aca4a1949cf6e items= 193 CRUISE= 1
+  TravelJoy Launches New Tools that Simplify Cruise Bookings - Travel Market Report
+/home/willi/Research-Intake/data/2026-09-17/news.json 7689488b7e5e29464819cbaeeabe88a1f52df34d3e6d4259db4d7ab643dd9c33 items= 32 CRUISE= 0
+Five stored runs: 739 items; 2 CRUISE-labeled items
+WATCH_FOR contains CRUISE: False
+Sep 18 stored news.json exists: False
