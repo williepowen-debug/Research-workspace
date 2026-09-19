@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-18T~18:20Z — **live-data re-mark (second session of Sep-18 ET).** The BOJ/FOMC grade in the ~17:30Z brief **stands unamended**; this refresh carries intraday marks and one correction. **STATUS provenance:** `491eeed52` + uncommitted same-session edits. Brief written last, after all other write-backs, per schema Amendment 10.
+**As of:** 2026-09-19T~16:0xZ — **SAM-28 and SAM-31 are GRADED; both FALSE.** Will-directed Saturday session, market CLOSED, so no tape moved: every market figure below carries its Sep-18 vintage. **STATUS provenance:** `16eb01475` (this session's STATUS commit; brief written last, after all other write-backs, per schema Amendment 10).
 
 ## VIEW
 
@@ -16,9 +16,17 @@
 
 **Owner grade of SAM's three-leg BOJ pre-registration** (PROME DOCKET L34 closed on it): vote-split leg **hawkish surprise DID NOT FIRE** (2 dissents, but both for HOLD — count matched, sign inverted); oil-naming **DOVISH-FOR-PACE**; balance sheet **NO SURPRISE**. ⚠️ **The composite clause is graded a MISS** — SAM registered *"the surprise is a HOLD, and it is yen-NEGATIVE"*; no hold printed, and the yen fell through a different mechanism. **Logged as a calibration loss, not a directional hit.**
 
-**SAM-28 (40%) and SAM-31 (35%) are OPEN and grade after tonight's 16:00 ET close.** Adjudication frozen **pre-close** at `docket/2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md`. Measured there: **469 ordered session pairs in the window clear the +3% FXY bar**, so the magnitude leg discriminates nothing and the route leg must carry the grade. Four of five routes are settled no-fire. 🔴 **UPDATE 17:43Z — FXY has crossed ABOVE the bar intraday: 58.51 vs 58.49** (it was 58.44, five cents below, when the prep file was frozen). ⛔ **Not a grade — the registered leg reads the 16:00 ET CLOSE.** Consequence for consumers: the "FALSE is over-determined" shortcut **may no longer be available**, so the endpoint convention may have to be genuinely adjudicated tonight. **The ROUTE leg still carries the grade either way** — four of five routes are settled no-fire, and the magnitude leg discriminates nothing.
+🔴 **SAM-28 and SAM-31 are now GRADED — both FALSE** (2026-09-19, one day past the Sep-18 boundary, frozen terms, nothing re-tuned at scoring time). Record: `docket/2026-09-19_SAM28_SAM31_GRADE.md`.
 
-Scoreboard **16 CONFIRMED / 14 FAILED / 1 special / 3 OPEN** pending tonight. SAM-33 un-falsified, verified at the operation record.
+**SAM-28 fails on the ROUTE leg, not on the close.** 4 of 5 routes settled NO-FIRE on **fact** (Fed-dot walk-back anti-fired; hawkish-of-priced BOJ could not fire at 99% priced with both dissents dovish; no VIX-spike regime; oil delivered Phase-1 yen-NEGATIVE). The 5th — sustained MOF #3 — turns on a word never defined at registration, and **the new measurement settles it: the operation days themselves never cleared the bar** (7/30 **+2.58%**, 7/31 **+2.73%**; +3% first reached 8/3, *two sessions after the last op*). 🔑 **Episode-B control:** the September rally made **+4.37% and held 6 sessions** above +3% with **no eligible route at all**, vs Episode A's +4.22% / 5 — a no-route move **bigger and longer-held**, so size and shape do not identify a route.
+
+**SAM-31 fails on two independent legs**, no VIX bar invented: window VIX max **20.66**, and across all risk-off sessions **n=24, the yen strengthened on only 7 = 29.2%, mean −0.154%** — it moved the *wrong way*.
+
+⛔ **CONSUMERS, READ THIS — two figures I published are corrected, and both errors were mine and in my own favour.**
+1. **"469 qualifying pairs" → 470**, and more importantly the **"FALSE is over-determined by the close" shortcut is WITHDRAWN.** The governing Sep-9 packet forbids substituting whole-window appreciation for the route-attributed move, so the Sep-18 close (FXY **58.48**, +2.976% vs the 58.4937 bar) is **context, not the instrument.** The route leg always carried it.
+2. 🔧 **The risk-off statistic I sent you on 9/18 was wrong.** I published *"across 23 risk-off sessions the yen strengthened on only 6 (26%), mean −0.226%."* The correct figures are **n=24, 7 up = 29.2%, mean −0.154%.** My frozen prep file had **silently dropped 2026-09-08** — a genuine risk-off session (VIX +1.19, S&P −0.58%) on which the yen strengthened **+1.52%**, i.e. the single observation most favourable to the row I was grading. A defensible exclusion argument exists (Sep-7/8 official attribution is OPEN) but **was never stated.** **The direction of the finding is unchanged and the verdict survives** — but if you carried my numbers, carry these.
+
+Scoreboard **16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN (SAM-33)** — re-derived from the file. SAM-33 un-falsified, verified at the operation record; next check Sep-30.
 
 ## CROSS-DOMAIN
 
@@ -31,19 +39,19 @@ Scoreboard **16 CONFIRMED / 14 FAILED / 1 special / 3 OPEN** pending tonight. SA
 **WAITING-FOR**
 - **RED** — CH-009 / CH-012 adjudications overdue since 2026-09-03 and the CH-017 anchor; **no RED pass since 8/27**. A rail SAM is forbidden to self-serve. PROME has it on RED's 9/24 wake (DOCKET L416).
 - **BRENT** — August METI crude-by-source (~Oct-2): **do Kuwait/Qatar return from zero?** That is the named mechanical durability test.
-- **HENRY** — whether the yen-haven channel re-couples on any genuine VIX spike. Measured this window: across 23 risk-off sessions the yen strengthened on only **6 (26%)**, mean FXY **−0.226%**. It moved the wrong way.
+- **HENRY** — whether the yen-haven channel re-couples on any genuine VIX spike. 🔧 **Corrected measurement (supersedes the 9/18 figures):** across **24** risk-off sessions the yen strengthened on only **7 (29.2%)**, mean FXY **−0.154%**. It moved the wrong way. SAM-31 is now graded FALSE on this plus the absent regime.
 
 ## NEXT DECISION POINT
 
-**Tonight, 16:00 ET:** record the official FXY close against **58.49** — ⚠️ **now a genuine coin-flip, not a formality: FXY traded 58.51 at 17:43Z** — then grade SAM-28 and SAM-31 on frozen terms. Prepared dispositions are FALSE for both, with the one reading that would make SAM-28 pay disclosed rather than buried. **No decision re-arms the frame; book stays FLAT either way.**
+**None owed, and nothing is pending a SAM judgement.** The Sep-18 grading horizon is spent; **only SAM-33 remains open**, to Dec-31, and its next check is dated (**Sep-30 17:00 JST**, BOJ Oct–Dec purchase schedule — a *scheduled* taper-plan change does NOT count against it). **No grade re-armed anything: v1.7 stands, no successor declared, book FLAT, 160 gate VOID.**
 
-**Owed and unresolved:** the oil-in-yen price proxy is benchmarked to **Brent** while ~37% of Japan's receipts are WTI-Midland-led US crude — registered as an instrument defect. ⛔ **Until it is re-benchmarked, the +22% implied-premium flag must not be resolved as a cost finding**; it is partly benchmark mismatch.
+**Owed and unresolved (carried, not blocked):** the oil-in-yen price proxy is benchmarked to **Brent** while ~37% of Japan's receipts are WTI-Midland-led US crude. ⛔ **Until it is re-benchmarked, the +22% implied-premium flag must not be resolved as a cost finding** — it is partly benchmark mismatch. **BOJ pricing is DARK** (`boj_ois.py` returns an unreviewed chart); this desk has no current BOJ pricing, and the next meaningful quote is the October meeting's. **RED salvage ④** — a real JPY xccy-basis instrument — remains owed.
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| **Sep-18 close** | **SAM-28 / SAM-31 grading** · CFTC COT 15:30 ET (informs neither row's terms) |
+| ✅ **Sep-18 — RESOLVED** | **SAM-28 FALSE · SAM-31 FALSE** (graded 9/19). CFTC Sep-15 COT recorded: gross shorts **−30.0% WoW** — entered neither row's terms. |
 | Sep-25 / Sep-28 | Japan BIS banking statistics / July MPM minutes |
 | Sep-29 / Sep-30 | 40Y auction — **descriptive only, no grade** (uniform-price) / 2Y auction + BOJ Oct–Dec purchase schedule 17:00 JST |
 | **Oct-1** | **BOJ Summary of Opinions** — the board's own words on the Sep hike, and **whether oil is named and HOW**. Direct test of this session's leg-2 grade. |
