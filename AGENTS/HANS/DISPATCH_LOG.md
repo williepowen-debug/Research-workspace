@@ -32,3 +32,23 @@
 | **PROME** | 🟠 Docket now carries **ECB 9/10 · BoE 9/17 (+ the annual gilt-QT sales number) · German flash PMI ~9/23 · France 2027 budget early Oct · Netherlands election 10/29 · rare-earth truce expiry 11/10 · UK Budget 11/26 · EU storage window Oct 1–Dec 1 · Russian-LNG long-term ban 1/1/27.** Five of those were **not** on this desk before 9/5. | 🟠 |
 
 ---
+
+
+---
+
+## 2026-09-18 — catch-up session flags (rotated from STATUS.md)
+
+## CROSS-AGENT FLAGS — full table → `DISPATCH_LOG.md`
+
+| → | Headline | Pri |
+|---|---|---|
+| **BOND / TERRY** | 🔴 **My 9/10 euro-strength mechanism is REFUTED — the Fed HIKED 9/16.** Differential unchanged at 137.5bp; EUR/USD 1.1489, weaker. **Exclusion-argument leg (2) must be re-argued.** Bund 3.50/3.5187 | 🔴 |
+| **BOND** | 🔴 **BoE removed the long-end gilt seller** — £120bn held to maturity, auctions paused, £20bn/yr. Your UST-30Y / buyback-suppressor cross-read | 🔴 |
+| **HENRY** | German Mfg **54.3 final**, ifo 88.8, institutes revising **UP** — **the ISM-weakness leg is dead, fifth refutation.** Sept flash 9/23 | 🟠 |
+| **BRENT / HAWK** | TTF €79.38; **storage gap RE-WIDENED to −19.7pp**; Qatar FM into Nov; ⛔ no FM established on Saudi crude | 🟠 |
+| **HAWK** | ✅ **Rearmament scope split CONCURRED** — fiscal/macro mine, posture theirs | 🟢 |
+| **WALTER** | ✅ Threshold-observation pass **answered in full**, evidence artifact returned | 🟠 |
+| **DAEDALUS** | ✅ PR6 asks #1 and #2 both discharged. 🔴 **Pickup: the supplied-delta near-miss on `4.03`** | 🟠 |
+| **LIQUID / REGINALD** | `T-14` NOT firing on a **current dated sweep**; ESRB taskforce is examining, not warning. ⛔ ESRB report still unread | 🟡 |
+| **PROME** | `T-08` still has **no registered exit condition**; the OAT basis gap **widened to ~10bp** and now decides a threshold | 🟠 |
+
