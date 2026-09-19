@@ -187,10 +187,27 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
-| All 3 FL airports negative simultaneously | REGINALD, CARL, PROME | 🟠 |
+| **MIA negative YoY, 2 consecutive months** *(the CLEAN FL demand tell — see below)* | REGINALD, CARL | 🟠 |
+| All 3 FL airports negative simultaneously — **ON A CARRIER-ADJUSTED BASIS** *(mandatory, see below)* | REGINALD, CARL, PROME | 🟠 |
 | FL condo inventory >9mo | CORAL, REGINALD | 🟠 |
 | H-2A >425K or ag labor crisis confirmed | LABOR, CARL | 🟠 |
 | FL population decline (domestic + international) | PROME | 🔴 |
+
+> ### ⛔ FL AIRPORT TRIGGERS — READ BEFORE FIRING EITHER (re-specified 2026-09-19, Will-approved)
+>
+> **The problem this fixes:** the old rule fired on raw YoY and would have dispatched an **airline bankruptcy** to three desks as Florida regional stress. Spirit (NK) liquidated **2026-05-02**; by June its enplanements were **ZERO at both FLL and MCO**. June 2026 printed all three FL airports negative (FLL −13.22 / MCO −7.27 / MIA −5.48) — but **ex-Spirit, FLL is +22.28% and MCO +4.52%**. The threshold was true and the mechanism was false.
+>
+> **1. The carrier-adjusted trigger.** Fire the all-three rule **only** when all three are negative with the liquidated carrier removed from **BOTH** years (`tools/bts_airport_pull.py <AP> --carrier NK` gives the leg to subtract). **Report the raw figure alongside the adjusted one — never instead of it.** A dispatch that omits the adjustment is the defect, not the signal.
+>
+> **2. MIA is the primary tell, and it is listed first deliberately.** Spirit operated at MIA only **Oct-2021 → Feb-2023** and has been absent since — **verified at the carrier level 2026-09-19, not assumed.** MIA's YoY is therefore structurally clean, and it is the leg where genuine FL visitor withdrawal shows first without confounding. It was negative in 3 of the first 6 months of 2026.
+>
+> **3. ⏳ EXPIRY — do not let this calcify.** Spirit's last full month in the data is **April 2026** (MCO 212,196), May-2026 is a **3,150 stub**, June-2026 onward is **zero**. So a 2027 YoY still carries Spirit in its prior-year base through **April 2027**, and **May-2027 is the first clean month**. ⇒ **From the May-2027 print (published ~Aug-2027 on the ~3-month BTS lag) the raw all-three rule is clean again and this carrier adjustment MUST BE RETIRED**, not carried forward. *(An adjustment kept past its cause becomes a permanent thumb on the scale.)*
+>
+> **4. ⚠️ Grade on REVISED BTS data, or state the vintage.** BTS revises its newest month **UP by 0.8–2.3%** (measured 2026-09-19 across two dated pulls), so a first-print month **overstates weakness and biases both triggers toward firing**.
+>
+> **5. ⚠️ BTS = ENPLANEMENTS**, roughly half an airport-published enplaned+deplaned figure. Compare within the series only; never a BTS level against a Broward or Miami-Dade published level.
+>
+> *Capacity deletion is still economically real for Florida — seats were removed and only ~84% backfilled at MCO — but that is a **supply** question for a separate thread, not evidence of visitors choosing not to come. Do not fold it into a demand signal.*
 
 **You receive from:**
 - CARL: Consumer credit deterioration confirms regional stress
