@@ -384,6 +384,68 @@ def test_CATO2_live_docket_has_no_false_positives():
         cc.SAM = old
 
 
+
+
+# ---------------------------------------------------------------------------
+# SELF-FOUND, 2026-09-19, by adversarially probing the round-2 repair BEFORE
+# reporting it as done. Both escaped every test written up to that point.
+# ---------------------------------------------------------------------------
+
+def test_apostrophes_do_not_form_a_quoted_span():
+    """Two ordinary apostrophes — a possessive and a contraction — formed a
+    spurious 'quoted' span that swallowed a LIVE claim. English prose is full of
+    apostrophes, so single quotes are unusable as a retirement marker."""
+    line = "PREDICTIONS.tsv SAM's 9 OPEN rows aren't final"
+    assert cc._quoted_spans(line) == [], cc._quoted_spans(line)
+    assert _scoreboard(line) != []
+    assert _scoreboard("PREDICTIONS.tsv scoreboard isn't right: 9 OPEN per PROME's ledger") != []
+
+
+def test_double_quotes_still_suppress():
+    """The apostrophe fix must not gut the guard."""
+    assert _scoreboard('PREDICTIONS.tsv: read "4 OPEN as of 2026-08-27" until 9/19.') == []
+
+
+def test_tenor_swap_is_caught():
+    """'JGB 10Y auction' and 'JGB 2Y auction' share {jgb, auction}, so a bare
+    overlap floor of >=2 passed a swap between them — and this desk tracks many
+    auctions differing only by tenor. Jaccard uses the DIFFERENCES too."""
+    p = _docket('| Tue Oct 06 2026 | JGB 10Y auction |\n',
+                '2026-10-06\tJGB 2Y auction\tw\tt\tp\tc\tn\tt\n')
+    assert any(x.startswith('C2') for x in p), p
+
+
+def test_similarity_threshold_has_margin_on_live_data():
+    """Measured 2026-09-19: every live true pair scores 1.00 and the tenor-swap
+    decoy scores 0.50, so 0.6 has margin both ways. If a future wording change
+    pushes a true pair near the line, this test says so before it becomes noise."""
+    real = _SAMDIR
+    if not (real / 'docket' / 'CATALYSTS.tsv').exists():
+        raise Skipped('real docket not present')
+    cal = cc._calendar_forward_events((real / 'docket' / 'CALENDAR.md').read_text(encoding='utf-8'))
+    cat = {}
+    old, cc.SAM = cc.SAM, real
+    try:
+        rows = [r for r in cc._catalysts_all() if (r.get('date') or '').strip() >= TODAY]
+    finally:
+        cc.SAM = old
+    for r in rows:
+        cat.setdefault(r['date'], []).append(r.get('event') or '')
+    worst = 1.0
+    for d, evs in cat.items():
+        pool = list(cal.get(d, []))
+        for ev in evs:
+            if not pool:
+                continue
+            def j(c):
+                a, b = cc._tokens(ev), cc._tokens(c)
+                return len(a & b) / len(a | b) if (a | b) else 0.0
+            best = max(pool, key=j)
+            worst = min(worst, j(best))
+            pool.remove(best)
+    assert worst >= 0.75, 'live true pairs down to %.2f — too close to the 0.60 bar' % worst
+
+
 if __name__ == '__main__':
     fails = skips = 0
     for name, fn in sorted(globals().items()):

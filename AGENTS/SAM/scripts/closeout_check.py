@@ -110,7 +110,13 @@ def _calendar_forward_counts(text):
     return out
 
 
-QUOTE_PAIRS = [('"', '"'), ("'", "'"), ('\u201c', '\u201d'), ('\u2018', '\u2019')]
+# ⛔ SINGLE QUOTES ARE DELIBERATELY ABSENT. Probing this check on 2026-09-19 (after
+# CATO's round 2, before shipping) found that two ordinary apostrophes — a possessive
+# and a contraction, e.g. "SAM's 9 OPEN rows aren't final" — form a spurious span that
+# swallowed a LIVE claim. English prose is full of apostrophes, so single quotes are
+# unusable as a retirement marker here. Retired values in this repo are quoted with
+# double quotes; that is what is matched.
+QUOTE_PAIRS = [('"', '"'), ('\u201c', '\u201d')]
 
 
 def _quoted_spans(line):
@@ -242,17 +248,23 @@ def check_docket(problems, today):
             continue
         pool = list(cal_events.get(d, []))
         for ev in cat_events.get(d, []):
+            # ⚠️ A bare overlap floor of >=2 let a TENOR SWAP through: "JGB 10Y auction"
+            # vs "JGB 2Y auction" share {jgb, auction} and this desk tracks many
+            # auctions differing only by tenor. Jaccard uses the DIFFERENCES too.
+            # Measured on live data 2026-09-19: every true pair scores 1.00 and the
+            # tenor-swap decoy scores 0.50, so 0.6 has margin on both sides.
             et = _tokens(ev)
-            best, score = None, 0
+            best, score = None, 0.0
             for cand in pool:
-                ov = len(et & _tokens(cand))
-                if ov > score:
-                    best, score = cand, ov
-            if score < 2:
+                ct = _tokens(cand)
+                j = len(et & ct) / len(et | ct) if (et | ct) else 0.0
+                if j > score:
+                    best, score = cand, j
+            if score < 0.6:
                 problems.append('C2 [step 10] %s: CATALYSTS event %r has no matching CALENDAR row '
-                                '(best token overlap %d). Same-date EVENT SWAPS are invisible to a '
-                                'count-only comparison — that is how this read before 2026-09-19.'
-                                % (d, ev[:60], score))
+                                '(best similarity %.2f, need 0.60). Same-date EVENT SWAPS — including '
+                                'a TENOR SWAP that shares most words — are invisible to a count-only '
+                                'or overlap-only comparison.' % (d, ev[:60], score))
             elif best is not None:
                 pool.remove(best)
 
