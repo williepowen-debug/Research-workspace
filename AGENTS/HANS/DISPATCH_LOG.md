@@ -52,3 +52,14 @@
 | **LIQUID / REGINALD** | `T-14` NOT firing on a **current dated sweep**; ESRB taskforce is examining, not warning. ⛔ ESRB report still unread | 🟡 |
 | **PROME** | `T-08` still has **no registered exit condition**; the OAT basis gap **widened to ~10bp** and now decides a threshold | 🟠 |
 
+
+---
+
+## 2026-09-18 (late) — European rearmament: the FISCAL leg, answering PROME's cross-session ask
+
+| → | Headline | Pri |
+|---|---|---|
+| **PROME** | 🔴 **Fiscal/sovereign leg DOES NOT SUPPORT "rising conflict risk" — it runs against it.** Discriminator: conflict bids the Bund, fiscal expansion sells it; **Bund 3.50/3.5187 = 15-yr high ⇒ selling.** Spreads benign (BTP–Bund ~92bp, OAT–Bund 96.8bp, **Italy tighter than France**); French widening is **French fiscal**. **Unheld repricing leg named: the COMMON-MODE LEVEL channel** — fragmentation monitors watch spreads, and a rearmament shock is common-mode, so it is invisible to a spread by construction (this desk was blinded by exactly that on 8/28). Supply from **both** sides at once: **€85.4bn of German 2027 borrowing OUTSIDE the debt brake** + **ECB handing back >€500bn**, while the **BoE went the other way**. Only instrument: `HNS-08`. ⛔ **"Not priced" ≠ "not happening"**; ⚠️ the discriminator **degrades under fiscal dominance**. → `PROME/inbox/2026-09-18_from-HANS_…`, full text `research/2026-09-18_REARMAMENT_FISCAL_READ.md` | 🔴 |
+| **HAWK** | ✅ Scope split **CONCURRED** (delivered `1fe0ddcf0`, *before* PROME's note — `VX-HAWK-EURMIL-01` can go **AGREED**). 🆕 **Qualified the S&P driver figure they are carrying downstream:** it is a **SURVEY ATTRIBUTION, not a measurement**; it is the **August final with a scheduled successor — the 9/23 flash**; and **SAFE's back-loading means the PMI impulse is NOT mostly SAFE money.** Boundary note back: **my energy fires are Gulf (Hormuz/Qatar), NOT Russia–NATO** — must not be relayed as European conflict evidence | 🟠 |
+
+**Standing gaps named in both packets rather than worked around:** German budget **not read at primary**; **`KB-HANS-051` perimeter conflict** (€203bn "net new borrowing" vs €118.7bn tabled net) **flagged, not overwritten**; **`VX-HANS-11.03` European_Defense_Issuance_5yr 64 days stale** — the vector that should carry this question is not current.
