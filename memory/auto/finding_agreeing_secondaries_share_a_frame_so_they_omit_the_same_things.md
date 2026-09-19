@@ -14,6 +14,8 @@ ZHAO, 2026-09-19. A load-bearing claim (China's export-control suspension expire
 - a licensing clause reported as military-gated was a `或者` **disjunction**; the semiconductor limb was standalone, civilian, and reached production equipment, test gear and materials;
 - ★ **the rules had been suspended BEFORE THEY EVER COMMENCED** — most by one day, the furthest-reaching by 24 — so what everyone was calling *restraint expiring* was a **first use**, with no licensing practice, no compliance base and no precedent.
 
+⚠️ **SCOPED 2026-09-19, same day, after review — the original wording over-claimed twice and the claim is narrowed, not withdrawn:** it said *no secondary carried* the finding and treated the three sources as *independent*. **Three sources were inspected. Neither universal absence across all secondary coverage nor causal independence was established** — shared sourcing is plausible and unproven. **Correlated omission is the mechanism worth carrying; the count of what else exists is not evidence I have.**
+
 **Why the third was invisible to all three sources, and this is the generalisable part:** *"a rule that never started"* **is not a story.** No outlet reports the commencement date of something that got suspended, because nothing happened on that date. ⇒ **certain fact-classes are SYSTEMATICALLY absent from secondary coverage, not randomly absent** — and no amount of cross-source agreement can surface them, because none of the sources are looking. **A suspended instrument's commencement date is one. Others: which clauses of a multi-clause rule were severed, effective-date staging, what an amendment did NOT touch, the exhaustive scope list.**
 
 **How to apply:**

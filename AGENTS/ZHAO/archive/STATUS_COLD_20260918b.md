@@ -322,3 +322,21 @@
 Cut from `STATUS.md` when the 9/19 MOFCOM-primary result took the header. **Superseded in three places by KB-ZHAO-173/174/175** (it is not a rare-earth package · the chip limb is not military-gated · the package was never in force). ⛔ Do not cite this line's scope description as current; it is preserved because it is what the desk believed for one day.
 
 *(9/18 — the 11/10 escalation-by-default is BILATERAL and this desk had logged only the US half* — China's **MOFCOM/GAC Announcement No. 70 of 2025** expires the same day as the US tariff suspension, reactivating an **extraterritorial 0.1% de minimis** on Chinese-origin rare-earth content (KB-166).* **PBOC's 8th straight stronger fix, CNH at a 4-year high — and Vectors 6/9 are ONE-DIRECTIONAL, so their 🟢 is correct and uninformative** (KB-168). **ZHA-16 grading hazard disclosed six days early, bar deliberately NOT touched** (KB-167). SHCH CCP expansion logged as capability, not flow (KB-169); a stale-by-a-year soybean headline caught as a negative (KB-170). **Both fail-open `VX` rows repaired** (`6.10`, `7.02`) — they can now age visibly. **Read-cap rotation #4** → `archive/STATUS_COLD_20260918b.md`.
+
+
+---
+
+## §ⓣ — STATUS 9/18 header pointer line, rotated VERBATIM 2026-09-19 (rotation #6)
+
+Cut when the 9/19 CATO-correction block took the header. ⛔ **Doubly superseded:** its SCOPE by KB-173/178 (six announcements, LFP cathode in scope) and its DATE framing by KB-177 (BIS reimposition is 2026-11-10; there is no consecutive-day gap). Preserved as the record of what this desk believed on 9/18.
+
+*(9/18 — the bilateral-clock find, the PBOC one-directional-vector find, the ZHA-16 hazard disclosure, SHCH, the soybean negative, both fail-open `VX` repairs: **rotated VERBATIM → COLD_20260918b §ⓢ (rotation #5).** ⚠️ Its scope description is superseded three ways by KB-173/174/175 above.)*
+
+
+---
+
+## §ⓤ — STATUS §CROSS-AGENT TRANSMISSION, HANS 9/18 exchange, rotated VERBATIM 2026-09-19 (rotation #6)
+
+Cut to hold the read-cap budget. **Still accurate — this is settled 9/18 cross-desk history, not a superseded claim.** Live successor in STATUS: the France `VX-HANS-1.05` band crossing was HANS's to fix and was fixed; the Belgium base-effect finding lives at KB-ZHAO-159; the TIC July hub figures live at `VX-ZHAO-1.04`/KB-151.
+
+🔁 **HANS answered both, consumed at this boot — full text → COLD_20260918b §ⓛ.** ① **Belgium YoY:** no HANS hub surface is YoY-shaped (all 9 rows carry absolute $bn bands) ⇒ **the base effect reaches no HANS instrument.** ⭐ **But chasing it found `VX-HANS-1.05` (France) reading GREEN at 348.4 against a Yellow of 350.0 — corrected to YELLOW, first band crossing.** Shared root, HANS's words: *a cell that should be DERIVED is maintained by hand and nothing recomputes it.* **ZHAO's mirror is Vectors 6/9** (KB-168). ② **TIC July hubs:** France **−$62.4B over two months (~16% of level)**; UK **+$58.4B to 998.3** (custody/basis node, *never* official demand); **Belgium 470.7, OFF its June high**; total 9,248.1, lowest since Oct 2025. ✅ HANS's Belgium June **+$17.56B** matches this desk's figure — cross-check passed. **Proxy falsification untouched.**
