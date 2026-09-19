@@ -1,0 +1,28 @@
+HANS REVIEW — primary-source retrieval receipt, 2026-09-19 UTC
+BoE IADB request: https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=05/Sep/2026&Dateto=19/Sep/2026&SeriesCodes=IUDMNPY,IUDLNPY,IUDBEDR&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N
+curl --fail download succeeded; response follows (historical observations, not current tradable quotes):
+CSV SHA256 c1092fac8aa7621f49e096c1aee6ed75b07c512465c767b5a025245ce06094c0
+DATE,IUDMNPY,IUDLNPY,IUDBEDR
+07 Sep 2026,5.1079,5.5899,3.75
+08 Sep 2026,5.0979,5.5736,3.75
+09 Sep 2026,5.1922,5.6484,3.75
+10 Sep 2026,5.319,5.721,3.75
+11 Sep 2026,5.304,5.7214,3.75
+14 Sep 2026,5.3699,5.7299,3.75
+15 Sep 2026,5.3616,5.7404,3.75
+16 Sep 2026,5.2421,5.6526,3.75
+17 Sep 2026,,,3.75
+
+Curve source: https://www.bankofengland.co.uk/statistics/yield-curves
+ZIP URL: https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves/latest-yield-curve-data.zip
+ZIP SHA256 a5e1bbcccfa854fff4dc9f80ba400d46b527a2b0bb46c28bff816eb52b36de30
+Workbook: GLC Nominal daily data current month.xlsx; sheet: 4. spot curve
+Header row 4: years; Excel column BI (zero-based 60): 30
+Units: continuously compounded annual percent, nominal SPOT yield; NOT benchmark coupon-bond yield or par yield.
+2026-09-14 30Y nominal spot 5.989134100538562
+2026-09-15 30Y nominal spot 6.0162813701631235
+2026-09-16 30Y nominal spot 5.941637383103822
+2026-09-17 30Y nominal spot 5.782571332242793
+Implication: daily 30Y nominal curve evidence is downloadable from BoE outside IADB; this does NOT establish a like-for-like T-13 replacement.
+ESRB source re-opened through web: https://www.esrb.europa.eu/pub/pdf/reports/esrb.report202602_financialstabilityrisks.en.pdf
+Pages 2, 5, 39: net debtor/funding emphasis coexists with gross bank credit risks and incomplete PE/PC identification. No new full-PDF audit claimed.

@@ -1,0 +1,34 @@
+Pinned HANS revision: d87c26f3bdff4ef194080a03e4e8de81b8089a41
+OWNER SUITE rc= 0
+test_sign_flip_detected (__main__.TestStability.test_sign_flip_detected) ... ok
+test_stable_statistic_passes (__main__.TestStability.test_stable_statistic_passes) ... ok
+test_uncomputable_is_not_stable (__main__.TestStability.test_uncomputable_is_not_stable) ... ok
+
+----------------------------------------------------------------------
+Ran 97 tests in 4.678s
+
+OK
+CONTROL: owner suite and unmodified doc audit pass in isolated copy
+CONTROL C9 catches plain retired storage level
+C9 MISS: Euro-area HICP is currently 3.3%.
+C9 MISS: The current BoE Bank Rate is 4.50%.
+C9 MISS: EU storage gap is currently −19.7pp.
+C9 MISS: EU storage gap is -19.7pp; policy was unchanged today.
+C9 MISS: EU storage gap is -19.7pp → this remains a winter risk.
+ACTUAL STALE PROSE: ['🆕 **Against my own alarm: TTF is BACKWARDATED into winter** (Dec 75.78 / Jan 75.61); with storage −19.7pp the textbook shape is winter *contango*. **The curve is not pricing a winter crisis.** Untested → `KB-HANS-080`.']
+C12 MISS: newly duplicated previously unique old ID ML-HANS-001
+[('C12-LEGACY-DUP', 'workbook/ML.tsv: 96 duplicate Entry_ID(s), ALL legacy (<400) — known/measured/registered as owed #23, not renumbered by design')]
+C12 PERIMETER: duplicate prediction ID also passes (PREDICTIONS not scanned)
+C14 LIMIT: session narrative under Morning work is not detected
+BOE BASIS: par=5.51 generates benchmark T-06 breach; benchmark input never read
+BOE FRESHNESS: 12-day-old observation accepted with failures=[] (printed age only)
+BOE INVALID ACCEPTED: 'DATE,IUDBEDR\n18 Sep 2026,5.51\n' -> ('18 Sep 2026', 5.51)
+BOE INVALID ACCEPTED: 'DATE,IUDMNPY\nnot-a-date,5.51\n' -> ('not-a-date', 5.51)
+BOE INVALID ACCEPTED: 'DATE,IUDMNPY\n18 Sep 2026,NaN\n' -> ('18 Sep 2026', nan)
+STORAGE STILL OPEN: 4-year norm accepted; gap= -13.79
+STORAGE STILL OPEN: wrong dates and NaN accepted; three-year control rejects
+CLOSEOUT STILL OPEN: child rc= 2 runner rc= 0 ['MECHANICAL: 8/8 executed · 0 failed']
+CLOSEOUT STILL OPEN: child rc= -15 runner rc= 0 ['MECHANICAL: 8/8 executed · 0 failed']
+HNS-07 EARLY-MISS COUNTEREXAMPLE: 79% + 4*historical-max(0.20)=79.8%;
+a new 0.25pp/day pace reaches 80%; no registered physical bound forbids it
+PASS: all reviewed counterexamples reproduced; no shared owner files edited
