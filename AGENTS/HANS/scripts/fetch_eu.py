@@ -47,6 +47,64 @@ def ecb(series, n=1):
         return []
 
 
+# ---------------------------------------------------------------------------
+# BANK OF ENGLAND IADB — DAILY, KEYLESS. Added 2026-09-19.
+# 🔴 THIS FILE AND THE CHARTER BOTH SAID "UK 10Y/30Y gilt — no free DAILY source found"
+# AND THAT WAS WRONG. It was a claim about the REQUESTS that had been tried, not about the
+# world — the SAME error this module's own docstring records from 2026-08-28, when the
+# Bund, EGB spreads and EU storage were all declared unreachable and all three turned out
+# to be keyless [[finding_unfetched_is_not_unavailable]].
+# What actually blocked it: the CSV lives at `_iadb-fromshowcolumns.asp` (note the `_iadb-`
+# prefix). The bare `fromshowcolumns.asp` path 302s, and the `/database/` path without the
+# prefix returns a 200 carrying the HTML landing page — a 200 with the wrong body, which
+# reads as "no data" unless you look at what came back.
+BOE = "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp"
+# ⛔ TENORS ARE NAMED EXACTLY. IADB publishes 5/10/20-year NOMINAL PAR YIELDS and there is
+# NO 30-YEAR series (probed IUDLN30 / IUD30NY / IUDL30Y / IUDVNPY / IUDXNPY / IUDANPY /
+# IUDWNPY / IUDZNPY — all absent). HANS-T-13 is a 30Y threshold and therefore STAYS MANUAL.
+# The 20Y is carried as a NAMED PROXY and must never be printed where the 30Y belongs:
+# substituting a nearby series for the one a threshold names is exactly the VX-HANS-5.01
+# defect [[finding_instrument_measures_a_superset_of_the_thesis_subject]].
+# ⛔ THE 10Y IS A CROSS-CHECK ON VX-HANS-3.06, NOT ITS VALUE. The row's bands were
+# calibrated on the TE BENCHMARK basis; IADB publishes a NOMINAL PAR YIELD. On 2026-09-19
+# BoE read 5.2421 (GREEN vs the Yellow 5.25) while TE read 5.29 (YELLOW) — THE TWO BASES
+# STRADDLE THAT LINE, so swapping the row's source would have banked a friendlier state off
+# a basis change. The ORANGE trip (>5.50) is ~26bp away, far outside the ~5bp basis gap, so
+# breach detection here is sound; the WATCH tier is not, and is left to the row.
+BOE_SERIES = (("UK 10Y gilt (par)", "IUDMNPY", "HANS-T-06 (orange leg only)", (5.50, None)),
+              ("UK 20Y gilt (par)", "IUDLNPY", "proxy only — NOT T-13", (None, None)),
+              ("BoE Bank Rate",     "IUDBEDR", "VX-HANS-4.02", (None, None)))
+
+
+def boe(series, days=14):
+    """Latest (date, value) for a BoE IADB series, or None. Never raises."""
+    from datetime import date, timedelta
+    t = date.today()
+    f = t - timedelta(days=days)
+    m = ("Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec").split()
+    fmt = lambda d: f"{d.day:02d}/{m[d.month-1]}/{d.year}"
+    url = (f"{BOE}?csv.x=yes&Datefrom={fmt(f)}&Dateto={fmt(t)}&SeriesCodes={series}"
+           f"&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            txt = r.read().decode("utf-8", "replace")
+    except Exception:
+        return None
+    # ⛔ A 200 IS NOT A ROW. The landing page returns 200 with 40 KB of HTML; an unknown
+    # series code returns 200 with "Object Moved". Both must read as FAILURE, not as zero.
+    if "<" in txt[:200] or "DATE" not in txt.upper():
+        return None
+    rows = [l for l in txt.strip().split("\n")[1:] if "," in l]
+    for line in reversed(rows):
+        d, _, v = line.partition(",")
+        try:
+            return d.strip(), float(v)
+        except ValueError:
+            continue
+    return None
+
+
 def _agsi_key():
     key = os.environ.get("AGSI_API_KEY", "")
     if not key:
@@ -281,9 +339,40 @@ def main():
         print(f"     🔑 {err}")
         failures.append(f"AGSI+ EU storage ({err[:40]})")
 
+    print("\n  UK — Bank of England IADB (DAILY, keyless):")
+    for label, code, tag, bands in BOE_SERIES:
+        got = boe(code)
+        if not got:
+            print(f"     ⚠️  {label} [{code}] — PULL FAILED (reported, not skipped)")
+            failures.append(f"BoE {label} [{code}]")
+            continue
+        d, v = got
+        em = ""
+        if bands[0] is not None:
+            em = " 🟠 ORANGE" if v > bands[0] else " 🟢"
+            if v > bands[0]:
+                breached.append(tag.split()[0])   # bare threshold id, never the annotation
+        # ⚠️ AGE IS PRINTED BESIDE THE LEVEL, ALWAYS. IADB is a LAGGED primary — on Sat
+        # 2026-09-19 the newest gilt observation was Wed 09-16 while the Bank Rate series
+        # had 09-17, so the lag differs BY SERIES. A lagged number printed without its age
+        # reads as today's level, which is how a trip-wire quietly stops being one
+        # [[finding_plausible_stale_value_evades_review]].
+        age = ""
+        try:
+            from datetime import date, datetime
+            obs_d = datetime.strptime(d.strip(), "%d %b %Y").date()
+            n = (date.today() - obs_d).days
+            age = f"  ({n}d old)" + ("  ⚠️ NOT a same-day level" if n >= 3 else "")
+        except Exception:
+            pass
+        print(f"     {label:20s} {v:7.4f}%  [{d}]{age}   {tag}{em}")
+        obs.append((tag, v, d))
+    print("     ⚠️  NOMINAL PAR YIELDS — a different basis from a benchmark/spot quote;")
+    print("        expect a few bp against TradingEconomics. Name the basis, never average.")
+
     print("\n  🔴 STILL MANUAL — named so this file cannot imply coverage:")
-    print("     UK 10Y / 30Y gilt (HANS-T-06 / T-13) — no free DAILY source found.")
-    print("     FRED IRLTLT01GBM156N is monthly and ~2mo lagged: a cross-check, not a level.\n")
+    print("     UK 30Y gilt (HANS-T-13) — IADB publishes 5/10/20y par yields and NO 30y.")
+    print("     The 20y above is a PROXY and is NOT the 30y: do not read it into T-13.\n")
     return {"observations": obs, "failures": failures, "breached": breached}
 
 

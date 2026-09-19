@@ -131,11 +131,16 @@ LIVE = [
 # ⚠️ The honest half. Load-bearing and NOT reachable from this box.
 # ⚠️ Only what genuinely has NO feed. Bund + EGB spreads MOVED to fetch_eu.py
 # on 2026-08-28 — they were never truly unreachable, only absent from yfinance.
+# 🔴 SHRUNK AGAIN 2026-09-19, and for the SECOND TIME the reason was that a row on this
+# list was never unreachable — only unfetched. UK 10Y and the BoE Bank Rate now come from
+# BoE IADB, DAILY and keyless, via fetch_eu.py. The Bank Rate is the row that sat 6.5
+# MONTHS STALE AT 4.50 and caused boot.py to be written in the first place; it is now
+# pulled every session. A "manual" list is a CLAIM ABOUT WHAT HAS BEEN TRIED, and this one
+# has now been wrong twice — treat every remaining row as a lead, not a verdict
+# [[finding_unfetched_is_not_unavailable]].
 MANUAL = [
-    ("UK 10Y gilt",         "HANS-T-06",                  "tradingeconomics.com/united-kingdom/government-bond-yield"),
-    ("UK 30Y gilt",         "HANS-T-13 (LDI instrument)", "tradingeconomics.com/united-kingdom/30-year-bond-yield"),
+    ("UK 30Y gilt",         "HANS-T-13 (LDI instrument)", "IADB has 5/10/20y par yields and NO 30y — the 20y is a PROXY, never T-13"),
     ("ECB deposit rate",    "HANS-T-04",                  "ecb.europa.eu/press/pr  (8 GovC dates/yr)"),
-    ("BoE Bank Rate",       "— (was 75bp stale 6.5mo)",   "bankofengland.co.uk  (8 MPC dates/yr)"),
     ("German/EU flash PMI", "HANS-T-01/02/03",            "pmi.spglobal.com  (~22nd-24th monthly)"),
 ]
 

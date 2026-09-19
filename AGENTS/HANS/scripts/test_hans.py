@@ -996,5 +996,103 @@ class TestDocAuditC9C12C13(unittest.TestCase):
                         f"STATUS {st} B is back over the 70% stop — the split has regrown")
 
 
+class TestBoEIADB(unittest.TestCase):
+    """BoE IADB gilt/Bank-Rate pull, added 2026-09-19 after the charter's claim that no free
+    DAILY gilt source existed turned out to be false — a claim about the requests tried, not
+    about the world [[finding_unfetched_is_not_unavailable]].
+
+    ⛔ THE TRAP THIS GUARDS: the endpoint answers 200 with 40 KB of HTML for the landing
+    page, and 200 with "Object Moved" for an unknown series. A 200 IS NOT A ROW, and the
+    body is the only thing that says so. All tests offline.
+    """
+
+    def setUp(self):
+        import importlib, fetch_eu
+        self.fe = importlib.reload(fetch_eu)
+
+    class _R:
+        def __init__(self, b): self.b = b
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def read(self): return self.b
+
+    def _serve(self, payload):
+        import urllib.request
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = lambda *a, **k: TestBoEIADB._R(payload)
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+
+    def test_parses_the_LAST_row_not_the_first(self):
+        self._serve(b"DATE,IUDMNPY\n15 Sep 2026,5.1000\n16 Sep 2026,5.2421\n")
+        self.assertEqual(self.fe.boe("IUDMNPY"), ("16 Sep 2026", 5.2421))
+
+    def test_a_200_carrying_the_HTML_landing_page_is_a_FAILURE(self):
+        """The exact body that made this source look unreachable."""
+        self._serve(b"<!DOCTYPE html>\n<html><head><title>Data Series</title></head></html>")
+        self.assertIsNone(self.fe.boe("IUDMNPY"))
+
+    def test_object_moved_for_an_unknown_series_is_a_FAILURE(self):
+        self._serve(b"<body><h1>Object Moved</h1>This object may be found <a HREF=...>")
+        self.assertIsNone(self.fe.boe("NOSUCH"))
+
+    def test_network_death_is_None_never_an_exception(self):
+        import urllib.request
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = lambda *a, **k: (_ for _ in ()).throw(OSError("down"))
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+        self.assertIsNone(self.fe.boe("IUDMNPY"))
+
+    def test_a_header_only_csv_with_no_rows_is_a_FAILURE_not_a_zero(self):
+        self._serve(b"DATE,IUDMNPY\n")
+        self.assertIsNone(self.fe.boe("IUDMNPY"))
+
+    def test_the_20y_is_never_labelled_as_the_30y(self):
+        """IADB has NO 30-year series, so HANS-T-13 stays manual. Letting the 20y drift into
+        the 30y slot is the VX-HANS-5.01 defect exactly: a nearby series standing in for the
+        one a threshold names."""
+        src = (Path(__file__).resolve().parent / "fetch_eu.py").read_text()
+        for _, code, tag, _b in self.fe.BOE_SERIES:
+            if code == "IUDLNPY":
+                self.assertNotIn("T-13", tag.replace("NOT T-13", ""),
+                                 "the 20y proxy is tagged as if it were T-13")
+        self.assertIn("STAYS MANUAL", src)
+        self.assertIn("NO 30-YEAR series", src)
+
+    def test_t06_breach_is_wired_and_reports_the_BARE_threshold_id(self):
+        """A printed level that never reaches `breached` is a check that only advises. And
+        the id must be the BARE threshold — the tag carries the annotation
+        'HANS-T-06 (orange leg only)', and a consumer matching on threshold_id would never
+        match that string [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]].
+        Behavioural, not a source-text match: the earlier version pinned the literal
+        `breached.append(tag)` and broke the moment the line was corrected."""
+        import io, contextlib, urllib.request
+        def fake(req, *a, **k):
+            u = req.full_url if hasattr(req, "full_url") else str(req)
+            if "IUDMNPY" in u:                     # force a breach of the 5.50 orange leg
+                return TestBoEIADB._R(b"DATE,IUDMNPY\n16 Sep 2026,6.0000\n")
+            if "agsi" in u or "ecb" in u or "IUD" in u:
+                raise OSError("offline")
+            raise OSError("offline")
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = fake
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+        with contextlib.redirect_stdout(io.StringIO()):
+            r = self.fe.main()
+        self.assertIn("HANS-T-06", r["breached"],
+                      "a 6.00% gilt did not reach `breached` — the check only advises")
+        self.assertNotIn("HANS-T-06 (orange leg only)", r["breached"],
+                         "the annotated tag leaked into breached instead of the bare id")
+
+    def test_age_is_printed_beside_every_BoE_level(self):
+        """IADB is a LAGGED primary and the lag differs by series (gilts 09-16 while the
+        Bank Rate had 09-17, both pulled 09-19). A lagged number without its age reads as
+        today's level, which is how a trip-wire quietly stops being one."""
+        src = (Path(__file__).resolve().parent / "fetch_eu.py").read_text()
+        blk = src[src.index("for label, code, tag, bands in BOE_SERIES"):]
+        blk = blk[:blk.index("STILL MANUAL")]
+        self.assertIn("d old", blk, "observation age is not printed beside the level")
+        self.assertIn("NOT a same-day level", blk)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

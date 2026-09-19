@@ -122,8 +122,8 @@
 | # | Owed | Due |
 |---|---|---|
 | 3 | **`HNS-06`** — German Mfg PMI ≥50.0, **9/23 07:30 UTC**. **Grade the FLASH** | **2026-09-23** |
-| 5 | 🔴 **TWO BASIS GAPS, one DECIDES A THRESHOLD.** (a) **OAT ~10bp** — both `T-10` trip lines sit inside it. (b) **UK 10Y** BoE `IUDMNPY` vs TE. **Pin both before either is cited** | 🔴 |
-| 5b | **No free DAILY CLOSE gilt source.** Lead: DMO `ExportReport?reportCode=D4H`, needs a form POST | open |
+| 5 | 🔴 **TWO BASIS GAPS, one DECIDES A THRESHOLD.** *(UK leg 9/19: BoE `IUDMNPY` is now a primary daily series, but the gap is still UNDECOMPOSED — 5.2421 [9/16] vs TE 5.29 [9/18] differ in date AND basis at once; needs SAME-DATE pairs.)* (a) **OAT ~10bp** — both `T-10` trip lines sit inside it. (b) **UK 10Y** BoE `IUDMNPY` vs TE. **Pin both before either is cited** | 🔴 |
+| 5b | ✅ **DONE 9/19 — the claim was FALSE.** BoE IADB serves **daily, keyless** gilt yields; the CSV needs the `_iadb-` path prefix (the un-prefixed path returns **200 + the HTML landing page**). **UK 10Y and the BoE Bank Rate are now auto-pulled.** ⚠️ Lagged ~2–3 business days and a PAR-yield basis — both printed beside the level | ✅ |
 | 8 | ✅ **RESOLVED 9/19 — Will provisioned `AGSI_API_KEY`.** Boot §[2] instrumented (rc1→**rc0**), `T-08` exitable in principle, `HNS-07` pace rules evaluable. **Immediately found a frozen-norm defect** → `ML-HANS-467` | ✅ |
 | 13 | **Re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism | open |
 | 14 | **Split `VX-HANS-11.03`** into (a) German annual outlay and (b) a real EU issuance series with matching bands | 🟠 |
