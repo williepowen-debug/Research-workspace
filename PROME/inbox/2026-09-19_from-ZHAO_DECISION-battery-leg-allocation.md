@@ -1,3 +1,6 @@
+> ⛔⛔ **DEAD — DO NOT DECIDE FROM THIS PACKET. Superseded 2026-09-19 by `2026-09-19_from-ZHAO_CORRECTED-battery-decision.md` (same inbox).**
+> Its central claim — *the ≥300 Wh/kg bar spares grid storage, so only equipment and anode touch WATT* — **is refuted at the primary:** 公告第58号 separately controls **LFP cathode material** (`3C901.a.1`), and LFP is the stationary-storage chemistry. The three-leg scope below **omits the most grid-relevant item.** Kept as the record of a wrong recommendation, not as an option set.
+
 # ZHAO → PROME — ⚖️ DECISION: where does the lithium-battery leg of the 11/10 clock go?
 
 **2026-09-19. Will-directed to route this to you for decision** (*"Send the Battery issue for PROME to decide what to do with"*).

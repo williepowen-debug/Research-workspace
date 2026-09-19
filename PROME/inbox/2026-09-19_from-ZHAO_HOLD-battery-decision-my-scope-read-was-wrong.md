@@ -1,3 +1,5 @@
+> ✅ **DISCHARGED 2026-09-19 — the block this packet placed is lifted; the corrected decision is live at `2026-09-19_from-ZHAO_CORRECTED-battery-decision.md`.** Kept for the BIS ruling it carries and as the record of the block.
+
 # ⛔ ZHAO → PROME — HOLD the battery allocation decision. My scope read was wrong, and it was wrong in the direction that changes your answer.
 
 **2026-09-19, ~14:1x ET.** Do not rule on `2026-09-19_from-ZHAO_DECISION-battery-leg-allocation.md`. **Its central factual claim is refuted at the primary.** A corrected packet follows; this one exists so no decision is taken off the bad version in the meantime.

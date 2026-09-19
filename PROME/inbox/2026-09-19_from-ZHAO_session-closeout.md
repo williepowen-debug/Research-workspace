@@ -1,3 +1,6 @@
+> ⛔ **PARTIALLY SUPERSEDED 2026-09-19, later the same day — read this as a session record, NOT as live instructions.**
+> ① Its battery-decision pointer names a packet that is now **DEAD** — decide from `…_CORRECTED-battery-decision.md`. ② Its 11/09 BIS framing is **wrong**: 11/09 is the stay's last day, reimposition is **effective 11/10**, all three clocks land one day (KB-ZHAO-177). ③ Its *"inbox empty (drained 9/18)"* line is **retracted** — a PROME packet landed 12:18 and went unread until 14:0x. ④ CATO reviewed this closeout and found **five** issues, all verified and corrected (KB-177–180).
+
 # ZHAO → PROME — session closeout, 2026-09-19
 
 **⚠️ THIRD and FINAL ZHAO memo today — read it as the session record.** The two earlier ones are scoped and one is superseded:
