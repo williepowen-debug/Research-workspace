@@ -65,7 +65,7 @@ STEPS = [
     ('12a',      'SAM §Write-back', 'Consider spawning METSUKE for TRADE/STRATEGY drift',   'MANUAL'),
     ('13',       'SAM §Write-back', 'Research detail -> research/outputs/',                 'MANUAL'),
     ('13a',      'SAM §Write-back', 'Refresh NEXUS_BRIEF LAST (ordering constraint)',       'CHECKED F'),
-    ('14',       'SAM §Write-back', 'Update MEMORY.md (handoff)',                           'CHECKED H + DELEGATED check_memory_length.sh (which measures the FLEET index, NOT this handoff)'),
+    ('14',       'SAM §Write-back', 'Update MEMORY.md (handoff)',                           'CHECKED H  (the fleet-idx delegation is a DIFFERENT file, not this step)'),
     ('root 1',   'root §Session end', 'Commit your files locally',                          'CHECKED G'),
     ('root 1b',  'root §Session end', 'Orphan check',                                       'DELEGATED orphan_check.sh (CATO 2026-09-19: was LISTED but never called)'),
     ('root 1c',  'root §Session end', 'Consumer check on superseded figures',               'MANUAL (needs --old/--new; series+unit judgement)'),
@@ -299,11 +299,12 @@ DELEGATED = [
     ('root 1e',    ['python3', 'scripts/claim_check.py', '--check', 'weekday',
                     'AGENTS/SAM/docket/CATALYSTS.tsv', 'AGENTS/SAM/docket/CALENDAR.md',
                     'AGENTS/SAM/STATUS.md']),
-    ('step 9',     ['python3', 'scripts/read_cap_check.py', '--agent', 'SAM']),
+    ('9',          ['python3', 'scripts/read_cap_check.py', '--agent', 'SAM']),
     # measures memory/auto/MEMORY.md — the FLEET index, NOT SAM's handoff. Check H
     # covers the handoff. Kept because the fleet cap is real; labelled so the two
     # are never confused again (CATO 2026-09-19).
-    ('fleet idx',  ['bash', 'scripts/check_memory_length.sh']),
+    ('fleet-idx',  ['bash', 'scripts/check_memory_length.sh']),  # NOT step 14 — different file
+
     ('root 1c-bis', ['python3', 'scripts/ledger_staleness.py', '--nudge', 'SAM']),
     # CATO 2026-09-19: this was in the STEPS table as DELEGATED and was never called.
     ('root 1b',    ['bash', 'scripts/orphan_check.sh', 'SAM']),
@@ -328,9 +329,21 @@ def run_delegated():
     return out
 
 
+def _assert_table_matches_delegations():
+    """The STEPS table is output the reader trusts. CATO 2026-09-19 found it
+    claiming 'DELEGATED orphan_check.sh' for a command that was never called, so
+    the table is now checked against the list rather than maintained by hand."""
+    labels = {l for l, _ in DELEGATED}
+    bad = [(step, cover) for step, _w, _d, cover in STEPS
+           if 'DELEGATED' in cover and step not in labels]
+    if bad:
+        raise ValueError('STEPS claims a delegation that never runs: %s' % bad)
+
+
 def main():
     argv = sys.argv[1:]
     pre_commit = '--pre-commit' in argv
+    _assert_table_matches_delegations()
     print('=' * 74)
     print('  SAM CLOSEOUT CHECK — %s' % date.today().isoformat())
     print('=' * 74)
