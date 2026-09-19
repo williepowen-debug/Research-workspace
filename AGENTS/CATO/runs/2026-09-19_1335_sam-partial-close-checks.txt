@@ -1,0 +1,77 @@
+CHECK 0
+PASS test_A_fires_on_past_row_in_catalysts
+PASS test_B_does_not_fire_on_the_RESOLVED_block
+PASS test_B_fires_on_past_row_in_calendar_forward_table
+PASS test_CATO1_lone_open_count_on_a_predictions_line_is_caught
+PASS test_CATO1_real_pre_repair_thesis_text
+PASS test_CATO1_three_part_scoreboard_is_caught
+PASS test_CATO2_1a_unquoted_open_at_end_of_line
+PASS test_CATO2_1b_wrong_open_beside_a_correct_scoreboard
+PASS test_CATO2_1c_backticks_do_not_suppress_a_live_claim
+PASS test_CATO2_correct_scoreboard_stays_quiet
+PASS test_CATO2_delegated_warnings_survive_a_zero_exit
+PASS test_CATO2_dropped_event_on_a_shared_date_is_caught
+PASS test_CATO2_live_docket_has_no_false_positives
+PASS test_CATO2_matching_events_with_different_prose_stay_quiet
+PASS test_CATO2_quoted_value_is_still_suppressed
+PASS test_CATO2_same_date_event_swap_is_caught
+PASS test_CATO2_undated_calendar_row_is_caught
+PASS test_CATO2_undated_catalyst_row_is_caught
+PASS test_CATO3_orphan_check_is_actually_delegated
+PASS test_CATO3_sam_handoff_has_its_own_cap_check
+PASS test_CATO4_pre_commit_mode_exists_and_is_documented
+PASS test_C_fires_when_the_two_files_diverge
+PASS test_C_quiet_when_both_hold_the_same_forward_set
+PASS test_D_fires_on_a_scoreboard_that_contradicts_the_file
+PASS test_E_fires_when_sidecar_holds_a_resolved_row
+PASS test_R3_a_delegated_tool_that_could_not_run_fails_the_gate
+PASS test_R3_matching_tenors_stay_quiet
+PASS test_R3_quoting_alone_does_not_prove_a_figure_is_retired
+PASS test_R3_tenor_swap_inside_a_long_live_title
+PASS test_R3_truncated_warnings_say_how_many_were_hidden
+PASS test_apostrophes_do_not_form_a_quoted_span
+PASS test_catches_the_actual_incident
+PASS test_clean_docket_passes
+PASS test_double_quotes_still_suppress
+PASS test_lone_open_does_not_fire_on_a_QUOTED_retired_value
+PASS test_lone_open_does_not_fire_on_an_unrelated_series
+PASS test_similarity_threshold_has_margin_on_live_data
+PASS test_tenor_swap_is_caught
+
+0 failure(s), 0 skipped
+
+exit_code=0
+
+CHECK 1
+PASS test_classification_is_invariant_to_absolute_level_at_a_fixed_gap
+PASS test_divergence_note_exhaustive_bucket_agreement
+PASS test_divergence_note_is_invariant_to_absolute_level
+PASS test_divergence_note_negative_gap_is_not_printed_as_plus_minus
+PASS test_every_2025_base_month_reads_as_within_tendency
+PASS test_measured_band_matches_kb169_and_is_not_hardcoded
+PASS test_no_paired_month_is_reported_not_guessed
+PASS test_positive_gap_carries_both_caveats
+PASS test_quantization_caveat_is_scoped_to_the_one_tenth_case
+PASS test_retired_interpretation_is_never_ASSERTED
+PASS test_stale_2020_base_constant_is_gone
+
+0 failure(s)
+
+exit_code=0
+
+CHECK 2
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+exit_code=0
+
+CHECK 3
+CLAIM-CHECK ✓ 3 file(s) clean [weekday]
+
+exit_code=0

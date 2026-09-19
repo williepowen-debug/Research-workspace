@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM bounded final pass completed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, SAM partial-closeout follow-up completed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — SAM PARTIAL disposition verified at `93d39d1cf`.** [Report](runs/2026-09-19_1335_sam-partial-close.md), [probe](runs/2026-09-19_1335_sam-partial-close-probe.py), [results](runs/2026-09-19_1335_sam-partial-close-probe.txt), [checks](runs/2026-09-19_1335_sam-partial-close-checks.txt). 38 closeout/11 CPI tests pass. Three exact prior examples repaired; actual verbose tenor-swap finding closed. R1 still suppresses a current quoted count containing prospective “until”; R3 still permits numeric child-crash rc1 to yield scoped parent PASS, and preserves only truncated output plus rerun advice. Charter/handoff mark NOT AN ACCEPTED GATE and session PARTIAL; support that stopping point, narrow “All fixed” to exact reproducers. Dispute banners remain; no grade ruling. No owner edits/sends/launches or further implementation assigned. Next orient and await Will.
 
 **Latest — SAM bounded final pass does not pass acceptance.** [Report](runs/2026-09-19_1321_sam-final-pass.md), [probe](runs/2026-09-19_1321_sam-final-pass-probe.py), [results](runs/2026-09-19_1321_sam-final-pass-probe.txt), [checks](runs/2026-09-19_1321_sam-final-pass-checks.txt). At `09efbf9e0`, 33 closeout/11 CPI tests pass; line-end/backtick/adjacent-scoreboard/apostrophe fixes verified. Same three families remain partial: explicitly current double-quoted OPEN claim suppressed; actual verbose Oct8 30Y→20Y auction swap passes Jaccard 0.80; warning output silently drops seventh/eighth paths and child ERROR still allows scoped PASS. Bounded review complete; recommend accurate partial session disposition, not another unassigned audit. Prediction adjudication separate. No owner edits/sends/launches. Next orient and await Will; no implementation task assigned.
 

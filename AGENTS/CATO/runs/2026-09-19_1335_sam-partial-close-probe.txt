@@ -1,0 +1,11 @@
+Pinned revision: 93d39d1cf
+VERIFIED: end-of-line, backtick, adjacent correct scoreboard and apostrophe cases detected
+CONTROL: actual historical quoted statement stays quiet
+VERIFIED: explicitly current quoted count is detected
+REMAINS: adding prospective until to a current claim suppresses it: PREDICTIONS.tsv currently reports "9 OPEN"; use that count until the next update.
+VERIFIED: actual October 8 long-title JGB 30Y -> 20Y swap caught; Jaccard= 0.8
+PARTIAL: hidden warning count and rerun command now shown; original complete output not saved
+REMAINS: one long actionable path truncated with no notice
+VERIFIED: delegated ERROR now returns rc=1 without PASS
+REMAINS: child traceback/rc1 travels through actual run_delegated into parent rc0/PASS
+Bounded pass complete; no owner mutations.
