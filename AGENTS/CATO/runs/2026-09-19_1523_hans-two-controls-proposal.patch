@@ -1,0 +1,26 @@
+--- a/AGENTS/HANS/scripts/closeout_check.py
++++ b/AGENTS/HANS/scripts/closeout_check.py
+@@ -92,6 +92,10 @@
+
+
+ # (step label, argv, cwd, "ok" predicate on rc)
++# Non-strict consumers complete with rc=0. Require their terminal verdict,
++# not the opening banner; \Z anchors to the end even when re.M is enabled.
++_CONSUMER_COMPLETE = 'CONSUMER CHECK[\\s\\S]*(?:^  (?:✓ clean —|🟠 \\d+ CANDIDATE\\(s\\), zero certified-stale\\.|🔴 \\d+ stale (?:consumer )?reference\\(s\\))[^\\n]*\\n={10,}\\s*\\Z|^  ✓ ledger has no superseded values to check\\.\\s*\\Z)'
++
+ STEPS = [
+     ("1  doc_audit (RULE #1b)",
+      [sys.executable, "scripts/doc_audit.py"], HANS, (0,), r"HANS DOC AUDIT — \d+ finding"),
+@@ -99,10 +103,10 @@
+      ["bash", "scripts/orphan_check.sh", "HANS"], ROOT, (0,), None),
+     ("9a root 1c · consumer CROSS-AGENT",
+      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
+-      "--from-ledger"], ROOT, (0, 1, 2), r"CONSUMER CHECK[\s\S]*\n=[=]{9,}\s*$"),
++      "--from-ledger"], ROOT, (0,), _CONSUMER_COMPLETE),
+     ("9b root 1c · consumer --SELF  <- the one that went missing",
+      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
+-      "--self", "--from-ledger"], ROOT, (0, 1, 2), r"SELF mode[\s\S]*\n=[=]{9,}\s*$"),
++      "--self", "--from-ledger"], ROOT, (0,), _CONSUMER_COMPLETE),
+     ("10 root 1c-bis · ledger nudge",
+      [sys.executable, "scripts/ledger_staleness.py", "--nudge", "HANS"],
+      ROOT, (0, 1), r"(nudge:\s*\[HANS\]|\[HANS\][^\n]*ledger)"),

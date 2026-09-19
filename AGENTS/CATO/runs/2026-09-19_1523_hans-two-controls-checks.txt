@@ -1,0 +1,41 @@
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls.md
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+EXIT 0
+
+$ git apply --check AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls-proposal.patch
+
+
+EXIT 0
+
+$ git diff --check
+
+
+EXIT 0
+
+$ git merge-base --is-ancestor d1783bc3f origin/master
+
+
+EXIT 0
+
+$ git status --short
+ M FORGE/STATUS.md
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+?? AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls-proposal.patch
+?? AGENTS/CATO/runs/2026-09-19_1523_hans-two-controls.md
+
+EXIT 0

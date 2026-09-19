@@ -1,0 +1,94 @@
+PIN d1783bc3ff06ce2cfd36251c47518f1c21f789c2
+OWNER SUITE 0
+----------------------------------------------------------------------
+Ran 124 tests in 6.887s
+
+OK
+NORM same-row (None, None, 1, 'only 1/5 historical years reachable — a 5-year norm is computed from 5 years or not at all; a short window would silently change the BASIS of the published gap')
+NORM no-date (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+NORM wrong-year (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+NORM wrong-day (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+NORM valid (85.0, 85.0, 5, [(2021, 85.0), (2022, 85.0), (2023, 85.0), (2024, 85.0), (2025, 85.0)])
+REPAIRED exact error 9a root 1c · consumer CROSS-AGENT rc 1 runner 1
+REPAIRED exact error 9a root 1c · consumer CROSS-AGENT rc 0 runner 1
+PASS real completed consumer 9a root 1c · consumer CROSS-AGENT child rc 0 runner 0
+REPAIRED exact error 9b root 1c · consumer --SELF  <- the one that went missing rc 1 runner 1
+REPAIRED exact error 9b root 1c · consumer --SELF  <- the one that went missing rc 0 runner 1
+PASS real completed consumer 9b root 1c · consumer --SELF  <- the one that went missing child rc 0 runner 0
+OPEN real startup prefix then exit 1; no scan performed:
+(1, '==================================================================\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n==================================================================')
+==========================================================================
+  HANS CLOSEOUT RUNNER — did the mechanical steps EXECUTE?
+==========================================================================
+  ✅ RAN     9a root 1c · consumer CROSS-AGENT   rc=1
+              ==================================================================
+
+--------------------------------------------------------------------------
+  MECHANICAL: 1/1 executed · 0 failed
+--------------------------------------------------------------------------
+  ⛔ NOT VERIFIED BY THIS SCRIPT — judgement steps, listed so they
+     are visible as obligations rather than absent as omissions:
+     ·  2  registry + fired log            did every threshold you touched get current_value/as_of/state, or a st
+                                           ated no-op?  did a count mirror change?
+     ·  3  VX metric surfaces              does every moved threshold's VX row agree?
+     ·  4  KB.tsv                          new facts added; superseded not overwritten; status tokens from STATE_
+                                           VOCABULARY.md (RULE #1c)
+     ·  5  PREDICTIONS + FLOW              a due/drifting prediction tracked; a chain whose trigger leg moved upd
+                                           ated; ledger nudge ANSWERED not dismissed
+     ·  6  PUBLISHED.tsv                   every figure published to a desk or to Will, INCLUDING ONE YOU WITHDRE
+                                           W -- and CONTINUING the established metric name (ML-HANS-455)
+     ·  7  LAST_COMPLETION.md              overwritten this session?  it sat 2 months stale asserting 'WILL_NEEDS
+                                           : None'
+     ·  9c consumer-check dispositions     cross-agent RED -> packet the owner, never edit their files.  self RED
+                                            on a graded table / dated log / archive / PUBLISHED.tsv -> DO NOT CLEAR; that i
+     ·  11 root 1d · memory-index          ONLY if an auto-memory was written
+
+  ⚠️  A clean run means THE STEPS EXECUTED, never that the closeout
+      is correct.  This script cannot read what you wrote.
+
+  EXIT 0 — every mechanical step executed and passed.
+
+OPEN separator followed by error/exit 1:
+(1, 'SELF mode: fixture\n==========\nERROR: nothing scanned')
+==========================================================================
+  HANS CLOSEOUT RUNNER — did the mechanical steps EXECUTE?
+==========================================================================
+  ✅ RAN     9b root 1c · consumer --SELF  <- the one that went missing   rc=1
+              ERROR: nothing scanned
+
+--------------------------------------------------------------------------
+  MECHANICAL: 1/1 executed · 0 failed
+--------------------------------------------------------------------------
+  ⛔ NOT VERIFIED BY THIS SCRIPT — judgement steps, listed so they
+     are visible as obligations rather than absent as omissions:
+     ·  2  registry + fired log            did every threshold you touched get current_value/as_of/state, or a st
+                                           ated no-op?  did a count mirror change?
+     ·  3  VX metric surfaces              does every moved threshold's VX row agree?
+     ·  4  KB.tsv                          new facts added; superseded not overwritten; status tokens from STATE_
+                                           VOCABULARY.md (RULE #1c)
+     ·  5  PREDICTIONS + FLOW              a due/drifting prediction tracked; a chain whose trigger leg moved upd
+                                           ated; ledger nudge ANSWERED not dismissed
+     ·  6  PUBLISHED.tsv                   every figure published to a desk or to Will, INCLUDING ONE YOU WITHDRE
+                                           W -- and CONTINUING the established metric name (ML-HANS-455)
+     ·  7  LAST_COMPLETION.md              overwritten this session?  it sat 2 months stale asserting 'WILL_NEEDS
+                                           : None'
+     ·  9c consumer-check dispositions     cross-agent RED -> packet the owner, never edit their files.  self RED
+                                            on a graded table / dated log / archive / PUBLISHED.tsv -> DO NOT CLEAR; that i
+     ·  11 root 1d · memory-index          ONLY if an auto-memory was written
+
+  ⚠️  A clean run means THE STEPS EXECUTED, never that the closeout
+      is correct.  This script cannot read what you wrote.
+
+  EXIT 0 — every mechanical step executed and passed.
+
+DONE. Storage correspondence closed for tested cases; runner completion remains open. No owner writes.
+PROPOSAL PASS actual completion 9a root 1c · consumer CROSS-AGENT
+PROPOSAL PASS actual completion 9b root 1c · consumer --SELF  <- the one that went missing
+PROPOSAL PASS rejects opening banner rc1
+PROPOSAL PASS rejects opening banner rc0
+PROPOSAL PASS rejects error after banner rc1
+PROPOSAL PASS rejects error after banner rc0
+PROPOSAL PASS rejects missing ledger
+PROPOSAL PASS clean/candidate/stale terminal variants; nonzero and post-verdict error rejected
+PROPOSAL PASS legitimate no-superseded-values completion
+PROPOSAL compiles; patch saved separately, NOT applied to shared HANS.
