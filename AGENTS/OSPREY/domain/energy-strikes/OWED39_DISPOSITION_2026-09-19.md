@@ -197,9 +197,47 @@
 
 **And the same bound applies to today's Channel-3 ruling:** 16/21 is an **upper** bound, and **2026-09-24 is the EARLIEST possible limb-1 kill date, not a fixed one.** Any backfilled tanker strike between 9/4 and today pushes it out.
 
-### 4a. Sweep state — what was run today and what remains
+### ⛔ A LIMIT ON THE ABOVE, FOUND WHILE WRITING IT, AND IT CUTS THE OTHER WAY
 
-*(completed at §4b below after the sweeps returned)*
+**The monotone-safety argument holds for ADDING rows. It does NOT hold for CORRECTING rows in place — and OWED-41 covers both.** A re-classification that **disqualifies an existing anchor** moves the clock **LONGER**, i.e. **TOWARD** the kill. Two mechanisms, opposite signs, one obligation:
+
+| OWED-41 mechanism | Effect on a clock | Direction |
+|---|---|---|
+| **Backfill** — a missing row is added | shortens | ✅ away from kill |
+| **Re-classification** — a held row is disqualified as the anchor | lengthens | ⛔ **toward kill** |
+
+**⚠️ And there is a live instance from today's sweep, on the exact row that anchors the most self-adverse Channel-2 drawing.** `RU-20260901-UST-LUGA-RESTRIKE` is the anchor for drawing (4) at 18/30. The sweep identified the struck asset as the **Novatek-Ust-Luga gas-condensate fractionation and export complex** (~8 Mt/yr feedstock), **not the crude berths.** If that holds, drawing (4)'s anchor is wrong and **its clock is longer than 18/30, not shorter.** ⛔ **I have NOT re-anchored it** — that is a scope call of exactly the kind this row routes, and I am not making it inside the session that would benefit from picking. Logged as **OWED-44**.
+
+🔑 **So the honest bound for Will is narrower than the one four paragraphs up, and it is the one to carry:** *the ledger's known GAPS cannot be hiding a kill; the ledger's known MISCLASSIFICATIONS can.* Both are open, and only the first is bounded.
+
+### 4a. Sweep state — what was run today, what it found, and what remains
+
+✅ **RUN:** `scripts/strike_feed.py` (not run 9/18) — 24 candidates, **all 24 dispositioned**, 1 source NOT READ. Two independent Opus research sweeps, day-by-day and facility-name-free, over **2026-09-01 → 2026-09-19**: one land-energy, one maritime.
+
+**★ THE LAND SWEEP'S HEADLINE IS NOT A GAP INSIDE THE WINDOW — IT IS THE WINDOW ITSELF.** Reuters' 9/16 "three of Russia's largest diesel refineries" piece names **KINEF/Kirishi, Volgograd and NORSI/Kstovo**. This desk holds NORSI. **It holds no Kirishi row at all** — and the reported Kirishi strike date, **2026-08-30**, sits **INSIDE** a window this ledger's own header certifies *"swept-complete through 2026-09-02 … mark ADVANCED on a complete in-window pass."*
+
+⛔ **That is the founding lesson's SECOND instance in two days, and it is larger than the CPC one.** The CPC hole was a sub-24-hour loading suspension. This is a top-tier refinery reported shut, missing from a window certified complete by a full pass. ⚠️ **NOT YET LOGGED** — the source chain reaching me is secondary, and I sent a verification back for primaries before writing the row. **Absence of the row is now a known absence, which is the whole difference from 9/18.**
+
+**Corrections applied to `STRIKES.tsv` this session** (all in place, none advancing the mark):
+
+| Row | Correction |
+|---|---|
+| `RU-20260913-TANECO` | ⛔ **Material understatement reversed.** Was *"one storage tank, no unit named."* Satellite imagery (Dnipro Osint via Euromaidan Press 9/18) shows **ELOU-AVT-7 hit — 9.2 Mt/yr, ~52% of plant.** WQ-216 axis **B re-graded to DESTROYED CAPACITY** on the letter's own units-named test. ⛔ Band unmoved (OWED-36). |
+| `RU-20260915-SYZRAN` | AVT-6 **and** the tank farm; repair ≥1 month; Syzran+Saratov = 15.5 Mt/yr ≈ **290 kb/d of capacity** — ⛔ capacity, not barrels lost. |
+| `RU-20260911-SARATOV` | Attacked **again while attempting to restart**; second confirmed re-strike-inside-the-repair-window at this facility. |
+| `RU-20260917-YANOS-YAROSLAVL` | AVT-3 **destroyed**, not damaged. ⛔ ~300 kb/d is still the PLANT, not the LOSS. |
+| `RU-20260901-UST-LUGA-RESTRIKE` | Struck asset identified as the **Novatek condensate complex** — see the limit above. **OWED-44.** |
+
+**⭐ METHOD FINDING, and it explains the TANECO error rather than just recording it: UNIT-LEVEL TRUTH ARRIVES 3–5 DAYS BEHIND THE EVENT.** The TANECO imagery published **9/18** for a **9/13** strike. **So a same-day row is SYSTEMATICALLY understated, and a same-day *"no unit named"* reads as a finding when it is only a latency.** Every same-day refinery row therefore owes a scheduled **+5d re-read**. Logged as **OWED-43**. This is a standing instrument change, not an anecdote.
+
+**⛔ WHAT REMAINS — declared, not hidden:**
+1. **Kirishi/KINEF 8/30 unverified and unlogged**, pending primaries. Its window is certified complete and is therefore **discredited**.
+2. **Volgograd** — the 9/11 area strike leaves refinery damage **NOT ESTABLISHED** (Reuters explicitly declined to confirm), and the ~25%-of-capacity degradation in the Reuters piece has an **unresolved causal strike date.**
+3. **A 9/13 Ufa/Bashneft claim is NOT logged — suspected vintage contamination** (the same narrative attaches to a Sept-2025 event). Declining to log it is the finding.
+4. **The `swept-complete` mark is NOT advanced.** It still reads **2026-09-16**. Two independent day-by-day sweeps is closer to a pass than anything since 9/15, but Kirishi proves the prior certification was false and I will not issue another on the same day I discredited one.
+5. ⛔ **The pre-9/01 window is now suspect as a class, not just at Kirishi.** The gap that mattered was **outside** the window I chose to sweep. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
+6. **⚠️ A defect in the sweep instrument itself, found today:** `strike_feed.py` writes its dispositions to `domain/energy-strikes/feed/FEED_CANDIDATES_*.tsv`, which `AGENTS/OSPREY/.gitignore` **excludes from git**. **So on any other machine, a dismissed candidate is indistinguishable from an unexamined one** — the dismissal reasoning does not travel. Same shape as the ledger hole, one layer up. Logged as **OWED-45**.
+7. **⛔ One feed row was MATCHED to the WRONG ledger event** (a 9/14 Sochi strike matched to `RU-20260913-KOMYSH-UNNAMED`, a different place entirely). **A false match is worse than a NONE: it suppresses a candidate silently.** Logged against the **precision leg** of the 10/6 acceptance test (DOCKET L309) — which was the untested leg.
 
 ---
 
