@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, PROME delivered PARTIAL closeout assessed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, session closed at Will's direction. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**SESSION CLOSED — no remaining assigned work.** [Closeout and discussion](runs/2026-09-19_1356_session-closeout.md). Reviews delivered; PROME/SAM PARTIAL stops accepted with their unresolved items retained. SAM's later `3533edcda` receipt (residuals carried, fourth line-count issue, 99-line handoff) was relayed by Will, not independently re-reviewed. Discussion recognized real system complexity, concrete improvements and unmeasured overall efficiency; bounded reviews, clearer mechanical inputs and regression reuse were suggestions, not approved implementation or new policy. No permanent CATO gate, owner repairs, spending, publication or launches authorized. **Next: startup orientation, then await Will; do not automatically resume the residue below.**
 
 **Latest — PROME delivery supported, PARTIAL remains qualified.** [Report](runs/2026-09-19_1341_prome-delivery.md), [probe](runs/2026-09-19_1341_prome-delivery-probe.py), [results](runs/2026-09-19_1341_prome-delivery-probe.txt). `39f49d150` intent matches 18 paths, 17 substantive hashes match manifest; it and baseline `5f2d8b3d2` confirmed on origin. Seven dashboard bindings match committed FORGE, not pending ANVIL edit. WQ-265 cost decision open; publication not independently viewed. Earlier invalid-date rc downgrade and lettered-ID Nothing-owed cases still reproduce, despite handoff saying two fixed. ORCH has eighth touch ARGUS ASKED_WORKING, omitted from four-plus-three delivery cut. Handoff overstates guard verification and calls owner-budget excess a cap excess. Support session stop as PARTIAL with narrower carry; no owner edits/sends/launches, operational closeout or repairs. Matching candidate hashes do not certify changed-portion independent re-review; native audit not inspected. Next orient and await Will.
 
