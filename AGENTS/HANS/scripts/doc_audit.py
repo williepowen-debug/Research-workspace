@@ -59,6 +59,12 @@ Checks, each tied to the incident that motivated it:
                     shared by 246 rows with different findings for seven months and passed
                     every audit (ML-HANS-473). A duplicate key makes every citation to it
                     ambiguous and no squareness test can see it.
+  C14 NO-NARRATIVE  STATUS.md must carry no per-session heading. The 2026-09-19 hot/cold
+                    split moved narrative to SESSION_LOG.md; a split is a one-time edit and
+                    the file regrows without a guard (91%->75% in three passes, back to 85%
+                    within the hour). The contract is ENFORCED, not written down and trusted
+                    — the day it was written also showed a written lesson failing to
+                    transfer four commits later.
   C13 SCALE         A live VX row whose |value| is >8x its largest band, or <1/8 its smallest,
                     is a REFERENT MISMATCH — the value and the bands describe different
                     objects. VX-HANS-5.01 held EURO STOXX 50 (~6,486) against bands built for
@@ -504,6 +510,30 @@ def _audit_full():
                       bad('C9-STATUS-SUPERSEDED',
                           f'{_surface}:{ln} carries {o!r}, retired for {metric} '
                           f'(current {cur.strip()!r}) with no new value and no history marker')
+
+    # ---- C14: STATUS must not re-accumulate session narrative ---------------
+    # The hot/cold split (owed #20, 2026-09-19) moved session narrative to SESSION_LOG.md.
+    # 🔴 A SPLIT IS A ONE-TIME EDIT; WITHOUT A GUARD THE FILE JUST REGROWS — three rotation
+    # passes that morning took STATUS 91% -> 75% and it was back to 85% within the hour.
+    # Today also proved a WRITTEN contract does not transfer: the same defect recurred four
+    # commits after I wrote it up. So the contract is enforced here rather than trusted.
+    st = HANS / 'STATUS.md'
+    if st.exists():
+        for ln, line in enumerate(st.read_text(encoding='utf-8').split('\n'), 1):
+            # ⚠️ v1 of this regex was `^#{2,3}\s.*\bSESSION\s*\d` and it FIRED FALSE on its
+            # first run: the INBOX heading reads "(session 1; not re-processed s2–s4)", a
+            # legitimate section that merely MENTIONS a session. The guard must test what a
+            # heading IS ABOUT, not what it mentions — so the subject is read from the START
+            # of the heading text, after stripping emoji and markers.
+            # Second guard today whose v1 failed on first run (C9's first hit was also false)
+            # [[finding_test_the_guard_not_just_the_guarded]].
+            _h = re.match(r'^#{2,3}\s+(.*)$', line)
+            _subj = re.sub(r'^[^0-9A-Za-z]+', '', _h.group(1)) if _h else ''
+            if re.match(r'SESSIONS?\s*\d', _subj, re.I):
+                bad('C14-STATUS-NARRATIVE',
+                    f'STATUS.md:{ln} has a per-session heading — session narrative belongs '
+                    f'in SESSION_LOG.md. STATUS carries STATE and decision-relevant caveats; '
+                    f'a CARRY FORWARD block is fine, a session block is not: {line.strip()[:70]!r}')
 
     # ---- C12: a key column must be UNIQUE, which C5 does not test -----------
     # C5 asks "are the rows SQUARE". Squareness and key-uniqueness are different

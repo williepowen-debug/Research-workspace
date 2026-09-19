@@ -966,5 +966,35 @@ class TestDocAuditC9C12C13(unittest.TestCase):
         self.assertNotIn("DISPATCH_LOG", fn, "skip is keyed to a filename, not a property")
 
 
+    # ---- C14, the anti-regrowth guard on the hot/cold split ------------------
+    def test_C14_fires_when_session_narrative_returns_to_STATUS(self):
+        """The split is a one-time edit; this is what stops STATUS regrowing. Injecting a
+        session heading must fail the audit."""
+        real = self.da.HANS / "STATUS.md"
+        orig = real.read_text()
+        try:
+            real.write_text(orig + "\n## SESSION 5 (2026-09-20) — what I did today\n\nnarrative.\n")
+            self.assertIn("C14-STATUS-NARRATIVE", self._codes(self.da.audit()))
+        finally:
+            real.write_text(orig)
+
+    def test_C14_allows_a_CARRY_FORWARD_block(self):
+        """STATUS must still hold decision-relevant conclusions — the guard targets the
+        NARRATIVE form, never the content. If it blocked carry-forwards it would push
+        load-bearing caveats out of the boot-read surface, which is the opposite of the aim."""
+        self.assertEqual(self.da.audit(), [], "live STATUS with its CARRY FORWARD must pass")
+        self.assertIn("CARRY FORWARD", (self.da.HANS / "STATUS.md").read_text())
+
+    def test_the_split_actually_moved_the_bytes(self):
+        """Pins the outcome, not the intent: SESSION_LOG exists, holds the narrative, and
+        STATUS is back under the rule-5 stop of 70% of budget."""
+        log = self.da.HANS / "SESSION_LOG.md"
+        self.assertTrue(log.exists())
+        self.assertIn("SESSION 4", log.read_text())
+        st = (self.da.HANS / "STATUS.md").stat().st_size
+        self.assertLess(st, 0.70 * self.da.STATUS_BYTE_BUDGET,
+                        f"STATUS {st} B is back over the 70% stop — the split has regrown")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
