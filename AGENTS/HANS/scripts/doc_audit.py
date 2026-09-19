@@ -89,6 +89,10 @@ from pathlib import Path
 # Calibrated 2026-09-19 across 38 live VX rows: worst LEGITIMATE ratio 3.65x
 # (VX-HANS-11.03, itself a known construct mismatch, owed #14). The defect it is built for
 # measured 27x. 8.0 separates them with 2.2x headroom on the legitimate side.
+# Every check this file is expected to contain. C0 censuses the source against it.
+CHECKS_EXPECTED = ('C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9',
+                   'C10', 'C11', 'C12', 'C13', 'C14')
+
 SCALE_LIMIT = 8.0
 
 KB_DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
@@ -712,6 +716,30 @@ def _audit_full():
                 bad('C11-DIRECTION', f'{tid} band {reg[tid]["band"]!r} fires {rdir} but its '
                                      f'surface {vid} has bands {y}/{o_}/{rd} running {vdir} '
                                      '— threshold and metric surface face opposite ways')
+
+    # ---- C0: the audit must be able to say WHAT IT RAN -----------------------
+    # 🔴 ADDED 2026-09-19 BECAUSE A REFACTOR DELETED C14 AND THIS FILE STILL PRINTED
+    # "0 findings". A line-indexed splice removed the whole block; the audit then ran
+    # thirteen checks, found nothing, and produced the identical clean banner it prints
+    # when all fourteen pass. NOTHING IN THE OUTPUT CHANGES WHEN A CHECK STOPS EXISTING,
+    # so a missing check and a clean board are indistinguishable
+    # [[finding_instrument_reports_clean_against_the_wrong_reference]].
+    # This is deliberately a SOURCE census, not a runtime counter: the failure mode is a
+    # block that no longer exists, and a counter inside a deleted block cannot report.
+    try:
+        _src = Path(__file__).read_text(encoding='utf-8')
+        _missing = [c for c in CHECKS_EXPECTED
+                    if not re.search(rf"^\s*#\s*----\s*{c}[: ]", _src, re.M)]
+        if _missing:
+            bad('C0-CHECK-MISSING',
+                f'{len(_missing)} registered check(s) have no block in this file: '
+                f'{_missing} — the audit cannot report on a check that is not here, and a '
+                f'clean run would be indistinguishable from a complete one')
+        info.append(('C0-CHECKS-RAN',
+                     f'{len(CHECKS_EXPECTED) - len(_missing)}/{len(CHECKS_EXPECTED)} '
+                     f'registered checks present: {" ".join(CHECKS_EXPECTED)}'))
+    except Exception as _e:                      # never let the census break the audit
+        bad('C0-CHECK-MISSING', f'check census failed: {type(_e).__name__}')
 
     return f, info
 

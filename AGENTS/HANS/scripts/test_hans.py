@@ -1332,6 +1332,37 @@ class TestCATOSecondPass(unittest.TestCase):
         self.assertFalse(cc._ok(1, "Traceback (most recent call last):\n...", "X"))
         self.assertTrue(cc._ok(1, "CONSUMER CHECK ... 3 flagged", "CONSUMER CHECK"))
 
+    def test_C0_census_detects_a_DELETED_check(self):
+        """The exact 2026-09-19 incident: a refactor removed C14's block and doc_audit
+        still printed '0 findings'. Deleting a check must now be LOUD."""
+        import importlib, re as _re
+        src_path = Path(__file__).resolve().parent / "doc_audit.py"
+        orig = src_path.read_text()
+        try:
+            gutted = _re.sub(r"^\s*#\s*----\s*C14[: ].*$", "    # (block removed)",
+                             orig, count=1, flags=_re.M)
+            self.assertNotEqual(gutted, orig, "anchor moved — update the test, not the census")
+            src_path.write_text(gutted)
+            da2 = importlib.reload(__import__("doc_audit"))
+            codes = {c for c, _ in da2.audit()}
+            self.assertIn("C0-CHECK-MISSING", codes,
+                          "a deleted check did not make the audit fail")
+        finally:
+            src_path.write_text(orig)
+            importlib.reload(__import__("doc_audit"))
+
+    def test_C0_census_covers_every_check_the_charter_claims(self):
+        """The charter advertises a check count; the census must agree with it, or one of
+        them is lying to a booting reader."""
+        import importlib
+        da2 = importlib.reload(__import__("doc_audit"))
+        charter = (da2.HANS / "CLAUDE.md").read_text()
+        import re as _re
+        m = _re.search(r"(\d+) checks, offline", charter)
+        self.assertTrue(m, "charter no longer states a check count")
+        self.assertEqual(int(m.group(1)), len(da2.CHECKS_EXPECTED),
+                         "charter check count and the census disagree")
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
