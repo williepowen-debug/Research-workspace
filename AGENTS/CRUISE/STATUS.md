@@ -58,7 +58,7 @@
 
 ### Royal Caribbean (RCL) — **$245.81** · the guide is still the strongest and the tape is now the weakest
 - **Guide unchanged, best of the three:** FY26 Adj EPS $17.73–17.87 raised, Q3 yields ~flat, 110.2% load factor, **58% hedged @ ~$474/mt**.
-- **🔴 NEW THIS WEEK: RCL was the WORST of the Big 3** (−5.51% 9/11→9/18 vs NCLH −4.72%, CCL −4.00%), now **−15.87% below its own 3-mo mean**. **The premium leg is de-rating with the sector while its guide says the opposite — the single best thing to grade at the Q3 prints.**
+- **🔴 NEW THIS WEEK: RCL was the WORST of the Big 3** (−5.51% 9/11→9/18 vs NCLH −4.72%, CCL −4.00%), now **−15.87% below its own 3-mo mean**. **The premium leg is de-rating with the sector while its guide says the opposite — the best thing to grade at the Q3 prints.**
 - **Med read:** RCL calls the Med slowdown *fleeting*, bookings above prior-year pace. **Two operators say the Med is turning; NCLH says the opposite.**
 
 ### Norwegian (NCLH) — **$14.12** · new low, and the balance-sheet question is still unverified
