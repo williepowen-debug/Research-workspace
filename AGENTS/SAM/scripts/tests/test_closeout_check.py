@@ -13,11 +13,21 @@ import subprocess
 import sys
 import tempfile
 
-_ROOT = pathlib.Path(__file__).resolve().parents[3]
+_SAMDIR = pathlib.Path(__file__).resolve().parents[2]   # AGENTS/SAM
+_ROOT = _SAMDIR.parents[1]                              # repo root (parents[3] was AGENTS/)
 _SPEC = importlib.util.spec_from_file_location(
     'closeout_check', pathlib.Path(__file__).resolve().parents[1] / 'closeout_check.py')
 cc = importlib.util.module_from_spec(_SPEC)
 _SPEC.loader.exec_module(cc)
+
+class Skipped(Exception):
+    """Raised when a test CANNOT run (e.g. the git history is unreachable).
+
+    ⛔ It is reported as SKIP, never as PASS. Found 2026-09-19: these tests were
+    written with a bare `return` on an unreachable commit, so in a sandbox without
+    the repo the end-to-end test printed PASS while executing nothing — 'a check
+    that cannot be performed reads the same as one that passed'."""
+
 
 TODAY = '2026-09-19'
 
@@ -139,8 +149,7 @@ def test_catches_the_actual_incident():
         r = subprocess.run(['git', 'show', '%s:AGENTS/SAM/docket/%s' % (broken, name)],
                            cwd=_ROOT, capture_output=True, text=True)
         if r.returncode:
-            print('   SKIP test_catches_the_actual_incident (commit not reachable)')
-            return
+            raise Skipped('commit %s not reachable' % broken)
         (d / 'docket' / name).write_text(r.stdout, encoding='utf-8')
     old, cc.SAM = cc.SAM, d
     try:
@@ -154,15 +163,143 @@ def test_catches_the_actual_incident():
         cc.SAM = old
 
 
+
+
+# ---------------------------------------------------------------------------
+# CATO counterexamples, 2026-09-19. Every one of these PASSED against the first
+# version of the checker. They are written from CATO's actual probes, not from
+# fixtures I invented — finding 1 escaped precisely because my own test for
+# check D used a synthetic FOUR-part scoreboard, so it confirmed my assumption
+# instead of the artifact.
+# ---------------------------------------------------------------------------
+
+def _preds(d, states):
+    (d / 'thesis').mkdir(exist_ok=True)
+    hdr = '\t'.join(cc.PRED_FIELDS)
+    rows = [hdr] + ['\t'.join(['SAM-0%d' % n, '2026-01-01', 'p', '50%', 't', st, 'x', 'y', 'n'])
+                    for n, st in enumerate(states, 1)]
+    (d / 'thesis' / 'PREDICTIONS.tsv').write_text('\n'.join(rows) + '\n', encoding='utf-8')
+
+
+def _scoreboard(thesis_text, states=('CONFIRMED', 'FAILED', 'OPEN')):
+    d = pathlib.Path(tempfile.mkdtemp())
+    _preds(d, list(states))
+    (d / 'thesis' / 'THESIS.md').write_text(thesis_text, encoding='utf-8')
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        cc.check_scoreboard(p)
+        return p
+    finally:
+        cc.SAM = old
+
+
+def test_CATO1_three_part_scoreboard_is_caught():
+    """The REAL stale form: a 3-part scoreboard with the open count stated apart.
+    The 4-part-only regex could not see it, so the checker missed the very defect
+    it was built for."""
+    p = _scoreboard('Scoreboard **14 CONFIRMED / 14 FAILED / 1 special**.\n')
+    assert any('3-part' in x for x in p), p
+
+
+def test_CATO1_lone_open_count_on_a_predictions_line_is_caught():
+    p = _scoreboard('Canonical source: PREDICTIONS.tsv - 4 OPEN as of 2026-08-27.\n')
+    assert any('4 OPEN' in x for x in p), p
+
+
+def test_CATO1_real_pre_repair_thesis_text():
+    """End-to-end against the actual committed stale text."""
+    r = subprocess.run(['git', 'show', '22e55db36^:AGENTS/SAM/thesis/THESIS.md'],
+                       cwd=_ROOT, capture_output=True, text=True)
+    if r.returncode:
+        raise Skipped('commit 22e55db36^ not reachable')
+    i = r.stdout.index('## PREDICTIONS')
+    assert _scoreboard(r.stdout[i:i + 700]) != [], 'real stale THESIS text must be caught'
+
+
+def test_lone_open_does_not_fire_on_a_QUOTED_retired_value():
+    """A correction note quoting a retired figure is a record, not a claim. The
+    quote-guard was added after this check's FIRST live run fired on my own
+    THESIS and MEMORY correction notes — the same failure that made
+    consumer_check 51-of-51 false and trained its reader to skim."""
+    p = _scoreboard('PREDICTIONS.tsv: this line read "4 OPEN as of 2026-08-27" until 2026-09-19.\n')
+    assert p == [], p
+
+
+def test_lone_open_does_not_fire_on_an_unrelated_series():
+    p = _scoreboard('RED rail state: 3 OPEN (CH-009 CH-012 CH-017) and 12 CLOSED.\n')
+    assert p == [], p
+
+
+def test_CATO2_dropped_event_on_a_shared_date_is_caught():
+    """Two events share 2026-09-30; deleting one from CALENDAR left the DATE
+    present, so a date-set comparison passed."""
+    p = _run_docket(['Wed Sep 30 2026'], ['2026-09-30', '2026-09-30'])
+    assert any(x.startswith('C ') for x in p), p
+
+
+def test_CATO2_undated_catalyst_row_is_caught():
+    """_catalysts() filtered on a truthy date, so blank-date rows vanished from
+    every date-keyed check."""
+    d = pathlib.Path(tempfile.mkdtemp())
+    (d / 'docket').mkdir()
+    (d / 'docket' / 'CALENDAR.md').write_text(
+        CAL_HEAD + '| Tue Sep 29 2026 | x |\n' + CAL_RESOLVED, encoding='utf-8')
+    (d / 'docket' / 'CATALYSTS.tsv').write_text(
+        CAT_HEAD + '2026-09-29\tx\tw\tt\tp\tc\tn\tt\n\tUNDATED\tw\tt\tp\tc\tn\tt\n', encoding='utf-8')
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        cc.check_docket(p, TODAY)
+        assert any(x.startswith('A2') for x in p), p
+    finally:
+        cc.SAM = old
+
+
+def test_CATO3_orphan_check_is_actually_delegated():
+    """It was listed in the STEPS table as DELEGATED and never called."""
+    assert any('orphan_check.sh' in ' '.join(cmd) for _, cmd in cc.DELEGATED)
+
+
+def test_CATO3_sam_handoff_has_its_own_cap_check():
+    """Step 14 was 'covered' by check_memory_length.sh, which measures the FLEET
+    index memory/auto/MEMORY.md — a different file. SAM's handoff had no check."""
+    assert hasattr(cc, 'check_sam_memory')
+    d = pathlib.Path(tempfile.mkdtemp())
+    (d / 'MEMORY.md').write_text('x\n' * 140, encoding='utf-8')
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        cc.check_sam_memory(p)
+        assert any(x.startswith('H ') for x in p), p
+    finally:
+        cc.SAM = old
+
+
+def test_CATO4_pre_commit_mode_exists_and_is_documented():
+    """The charter said run it BEFORE committing while G demanded a clean tree and
+    F read committed history — the documented invocation could never pass."""
+    src = (pathlib.Path(cc.__file__).read_text(encoding='utf-8')
+           if getattr(cc, '__file__', None) else '')
+    assert '--pre-commit' in src
+    charter = (_SAMDIR / 'CLAUDE.md').read_text(encoding='utf-8')
+    assert 'AFTER your final commit' in charter, 'charter must not tell you to run it pre-commit'
+
+
 if __name__ == '__main__':
-    fails = 0
+    fails = skips = 0
     for name, fn in sorted(globals().items()):
         if name.startswith('test_') and callable(fn):
             try:
                 fn()
                 print('PASS', name)
+            except Skipped as e:
+                skips += 1
+                print('SKIP', name, '--', e)
             except AssertionError as e:
                 fails += 1
                 print('FAIL', name, '--', str(e)[:160])
-    print('\n%d failure(s)' % fails)
+    print('\n%d failure(s), %d skipped' % (fails, skips))
+    if skips:
+        print('⚠️  A SKIP is not a PASS. A skipped end-to-end test verified nothing.')
     sys.exit(1 if fails else 0)

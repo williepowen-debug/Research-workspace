@@ -37,6 +37,11 @@ Usage:
   python3 AGENTS/SAM/scripts/closeout_check.py            # full run, exit 1 on failure
   python3 AGENTS/SAM/scripts/closeout_check.py --list     # enumerate steps only
   python3 AGENTS/SAM/scripts/closeout_check.py --no-delegate   # self-checks only
+  python3 AGENTS/SAM/scripts/closeout_check.py --pre-commit    # early advisory: skips F and G
+
+⛔ RUN ORDER. The full run belongs AFTER your final commit and BEFORE safe-push:
+check G wants a clean tree and check F reads committed history, so running it with
+work still uncommitted can only ever fail. Use --pre-commit for an early look.
 """
 import csv
 import json
@@ -60,9 +65,9 @@ STEPS = [
     ('12a',      'SAM §Write-back', 'Consider spawning METSUKE for TRADE/STRATEGY drift',   'MANUAL'),
     ('13',       'SAM §Write-back', 'Research detail -> research/outputs/',                 'MANUAL'),
     ('13a',      'SAM §Write-back', 'Refresh NEXUS_BRIEF LAST (ordering constraint)',       'CHECKED F'),
-    ('14',       'SAM §Write-back', 'Update MEMORY.md (handoff)',                           'DELEGATED check_memory_length.sh'),
+    ('14',       'SAM §Write-back', 'Update MEMORY.md (handoff)',                           'CHECKED H + DELEGATED check_memory_length.sh (which measures the FLEET index, NOT this handoff)'),
     ('root 1',   'root §Session end', 'Commit your files locally',                          'CHECKED G'),
-    ('root 1b',  'root §Session end', 'Orphan check',                                       'DELEGATED orphan_check.sh'),
+    ('root 1b',  'root §Session end', 'Orphan check',                                       'DELEGATED orphan_check.sh (CATO 2026-09-19: was LISTED but never called)'),
     ('root 1c',  'root §Session end', 'Consumer check on superseded figures',               'MANUAL (needs --old/--new; series+unit judgement)'),
     ('root 1c-bis', 'root §Session end', 'Ledger staleness nudge',                          'DELEGATED ledger_staleness.py'),
     ('root 1d',  'root §Session end', 'Memory-index check (if an auto-memory was written)', 'MANUAL (needs --slug)'),
@@ -81,17 +86,18 @@ def git(*args):
     return r.stdout.strip()
 
 
-def _catalysts():
+def _catalysts_all():
+    """EVERY row, including blank-date ones — filtering them here is what hid them."""
     with open(SAM / 'docket' / 'CATALYSTS.tsv', encoding='utf-8') as f:
-        return [r for r in csv.DictReader(f, delimiter='\t') if r.get('date')]
+        return list(csv.DictReader(f, delimiter='\t'))
 
 
-def _calendar_forward_dates(text):
+def _calendar_forward_counts(text):
     """Dates in CALENDAR's FORWARD table only — everything above the first
     '## ✅ RESOLVED' heading. Rows below it are a dated record and are SUPPOSED
     to hold past dates."""
     head = re.split(r'^## .*RESOLVED', text, maxsplit=1, flags=re.M)[0]
-    out = set()
+    out = {}
     for line in head.split('\n'):
         if not line.startswith('|'):
             continue
@@ -99,33 +105,52 @@ def _calendar_forward_dates(text):
         if m:
             mon = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'].index(m.group(2)) + 1
-            out.add('%s-%02d-%02d' % (m.group(4), mon, int(m.group(3))))
+            d = '%s-%02d-%02d' % (m.group(4), mon, int(m.group(3)))
+            out[d] = out.get(d, 0) + 1       # COUNT, not set membership
     return out
 
 
 def check_docket(problems, today):
-    cat = _catalysts()
-    past = sorted({r['date'] for r in cat if r['date'] < today})
+    """⚠️ CATO 2026-09-19 found this comparing bare DATE SETS. Two events sharing a
+    date meant deleting one from CALENDAR still passed, and rows with a blank date
+    vanished from the comparison entirely. It now compares the COUNT OF EVENTS PER
+    DATE — which catches a dropped event without needing the two files' prose to
+    match word-for-word — and flags undated rows explicitly."""
+    rows = _catalysts_all()
+    undated = [r for r in rows if not (r.get('date') or '').strip()]
+    if undated:
+        problems.append('A2 [step 10] CATALYSTS.tsv has %d row(s) with a BLANK date: %s '
+                        '— catalyst_countdown.py cannot surface them and every date-keyed check '
+                        'skips them silently'
+                        % (len(undated), ', '.join((r.get('event') or '?')[:40] for r in undated[:4])))
+    dated = [r for r in rows if (r.get('date') or '').strip()]
+
+    past = sorted({r['date'] for r in dated if r['date'] < today})
     if past:
         problems.append('A [step 10] CATALYSTS.tsv holds %d row(s) dated before today: %s '
                         '— resolved rows belong in CALENDAR\'s RESOLVED block, not the feed'
                         % (len(past), ', '.join(past)))
 
     cal_text = (SAM / 'docket' / 'CALENDAR.md').read_text(encoding='utf-8')
-    cal_fwd = _calendar_forward_dates(cal_text)
-    cal_past = sorted(d for d in cal_fwd if d < today)
+    cal_counts = _calendar_forward_counts(cal_text)
+    cal_past = sorted(d for d in cal_counts if d < today)
     if cal_past:
         problems.append('B [step 10] CALENDAR.md FORWARD table holds past-dated row(s): %s '
                         '— boot step 3 reads exactly these rows, so a stale one misinforms the next session'
                         % ', '.join(cal_past))
 
-    cat_fwd = {r['date'] for r in cat if r['date'] >= today}
-    only_cat = sorted(cat_fwd - cal_fwd)
-    only_cal = sorted(d for d in cal_fwd - cat_fwd if d >= today)
-    if only_cat or only_cal:
-        problems.append('C [step 10] CALENDAR and CATALYSTS forward sets DIVERGE (the charter says '
-                        'they must not): only in CATALYSTS %s | only in CALENDAR %s'
-                        % (only_cat or 'none', only_cal or 'none'))
+    cat_counts = {}
+    for r in dated:
+        if r['date'] >= today:
+            cat_counts[r['date']] = cat_counts.get(r['date'], 0) + 1
+    fwd_cal = {d: n for d, n in cal_counts.items() if d >= today}
+    for d in sorted(set(cat_counts) | set(fwd_cal)):
+        a, b = cat_counts.get(d, 0), fwd_cal.get(d, 0)
+        if a != b:
+            problems.append('C [step 10] %s: CATALYSTS has %d event(s), CALENDAR forward table has %d '
+                            '— the charter says the two must not diverge (a dropped EVENT is invisible '
+                            'to a date-only comparison, which is how this check read before 2026-09-19)'
+                            % (d, a, b))
 
 
 PRED_FIELDS = ['Pred_ID', 'Date_Made', 'Prediction', 'Confidence', 'Timeframe',
@@ -154,19 +179,76 @@ def check_scoreboard(problems):
         return None
     derived = (len(conf), len(fail), len(spec), len(opn))
 
-    # any LIVE surface asserting a scoreboard must match the derivation
-    pat = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special\s*/\s*(\d+)\s*OPEN')
+    # Any LIVE surface asserting a scoreboard must match the derivation.
+    #
+    # ⚠️ CATO 2026-09-19: this originally required the FOUR-part form
+    #   "X CONFIRMED / Y FAILED / Z special / W OPEN"
+    # and therefore could NOT see the very defect it was built for. THESIS carried
+    #   "**4 OPEN as of 2026-08-27** ... Scoreboard **14 CONFIRMED / 14 FAILED / 1 special**"
+    # — a THREE-part scoreboard with the open count stated SEPARATELY. It went stale
+    # for 23 days across two resolutions and this check would have passed it.
+    # My own test for D used a synthetic four-part fixture I wrote myself, so it
+    # confirmed my assumption instead of the artifact. Three forms are matched now.
+    four = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special\s*/\s*(\d+)\s*OPEN')
+    three = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special(?!\s*/)')
+    lone = re.compile(r'(\d+)\s*OPEN\b')
     for rel in ('STATUS.md', 'STATUS_REFERENCE.md', 'NEXUS_BRIEF.md',
                 'thesis/THESIS.md', 'MEMORY.md', 'TRADE.md', 'STRATEGY.md'):
         f = SAM / rel
         if not f.exists():
             continue
-        for m in pat.finditer(f.read_text(encoding='utf-8')):
+        text = f.read_text(encoding='utf-8')
+        for m in four.finditer(text):
             got = tuple(int(g) for g in m.groups())
             if got != derived:
                 problems.append('D [step 11] %s asserts scoreboard %d/%d/%d/%d but the file derives '
-                                '%d/%d/%d/%d — re-derive, never carry a count forward' % ((rel,) + got + derived))
+                                '%d/%d/%d/%d — re-derive, never carry a count forward'
+                                % ((rel,) + got + derived))
+        for m in three.finditer(text):
+            got = tuple(int(g) for g in m.groups())
+            if got != derived[:3]:
+                problems.append('D [step 11] %s asserts a 3-part scoreboard %d/%d/%d but the file '
+                                'derives %d/%d/%d' % ((rel,) + got + derived[:3]))
+        # A lone "N OPEN" only counts as a scoreboard claim when the LINE it sits on
+        # is talking about predictions — otherwise every "3 OPEN" in prose trips it,
+        # and a check that cries wolf gets skimmed (see consumer_check, 51/51 false).
+        for line in text.split('\n'):
+            low = line.lower()
+            if not ('predictions.tsv' in low or 'scoreboard' in low):
+                continue
+            if four.search(line) or three.search(line):
+                continue
+            for m in lone.finditer(line):
+                # ⛔ Skip a QUOTED figure. A correction note that says  read "4 OPEN"
+                # until 9/19  is a record of a retired value, not an assertion of it —
+                # and a check that cannot tell a quote from a claim fires on every fix
+                # it prompted, which is how consumer_check reached 51/51 false positives
+                # and trained its reader to skim. Found on this very check's first live
+                # run (2026-09-19), against my own THESIS and MEMORY correction notes.
+                before = line[m.start() - 1] if m.start() else ''
+                after = line[m.end()] if m.end() < len(line) else ''
+                if before in '"\'`\u201c\u2018' or after in '"\'`\u201d\u2019':
+                    continue
+                if int(m.group(1)) != derived[3]:
+                    problems.append('D [step 11] %s asserts "%s OPEN" on a predictions line but the '
+                                    'file derives %d OPEN — this is the exact form THESIS carried '
+                                    'stale for 23 days' % (rel, m.group(1), derived[3]))
     return derived, [r['Pred_ID'] for r in opn]
+
+
+def check_sam_memory(problems):
+    """H [step 14] — SAM's OWN handoff against its charter cap.
+    ⚠️ CATO 2026-09-19: step 14 was 'covered' by check_memory_length.sh, which measures
+    memory/auto/MEMORY.md (the FLEET index) — a different file. SAM's handoff had no
+    check at all."""
+    f = SAM / 'MEMORY.md'
+    if not f.exists():
+        problems.append('H [step 14] AGENTS/SAM/MEMORY.md missing')
+        return
+    n = len(f.read_text(encoding='utf-8').split('\n'))
+    if n > 100:
+        problems.append('H [step 14] AGENTS/SAM/MEMORY.md is %d lines, over its charter cap of 100 '
+                        '("promote to thesis or auto-memory, never just accumulate")' % n)
 
 
 def _row_hash(row):
@@ -218,24 +300,37 @@ DELEGATED = [
                     'AGENTS/SAM/docket/CATALYSTS.tsv', 'AGENTS/SAM/docket/CALENDAR.md',
                     'AGENTS/SAM/STATUS.md']),
     ('step 9',     ['python3', 'scripts/read_cap_check.py', '--agent', 'SAM']),
-    ('step 14',    ['bash', 'scripts/check_memory_length.sh']),
+    # measures memory/auto/MEMORY.md — the FLEET index, NOT SAM's handoff. Check H
+    # covers the handoff. Kept because the fleet cap is real; labelled so the two
+    # are never confused again (CATO 2026-09-19).
+    ('fleet idx',  ['bash', 'scripts/check_memory_length.sh']),
     ('root 1c-bis', ['python3', 'scripts/ledger_staleness.py', '--nudge', 'SAM']),
+    # CATO 2026-09-19: this was in the STEPS table as DELEGATED and was never called.
+    ('root 1b',    ['bash', 'scripts/orphan_check.sh', 'SAM']),
 ]
 
 
 def run_delegated():
+    """⚠️ CATO 2026-09-19: this discarded child stdout/stderr, so a non-zero exit
+    arrived as a bare number with the diagnosis thrown away — the reader then had to
+    re-run the tool by hand, which is how an advisory gets skipped."""
     out = []
     for label, cmd in DELEGATED:
         try:
             r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=120)
-            out.append((label, ' '.join(cmd[:2]), r.returncode))
+            tail = ''
+            if r.returncode:
+                lines = [l for l in (r.stdout + r.stderr).strip().split('\n') if l.strip()]
+                tail = '\n'.join('        | ' + l[:150] for l in lines[-4:])
+            out.append((label, ' '.join(cmd[:2]), r.returncode, tail))
         except Exception as exc:                                        # noqa: BLE001
-            out.append((label, ' '.join(cmd[:2]), 'ERROR %s' % exc))
+            out.append((label, ' '.join(cmd[:2]), 'ERROR', '        | %s' % exc))
     return out
 
 
 def main():
     argv = sys.argv[1:]
+    pre_commit = '--pre-commit' in argv
     print('=' * 74)
     print('  SAM CLOSEOUT CHECK — %s' % date.today().isoformat())
     print('=' * 74)
@@ -255,14 +350,24 @@ def main():
         check_sidecar(problems, open_ids)
         print('\n  DERIVED from PREDICTIONS.tsv: %d CONFIRMED / %d FAILED / %d special / %d OPEN  (OPEN: %s)'
               % (derived + (', '.join(open_ids) or 'none',)))
-    check_brief_ordering(problems)
-    check_tree_clean(problems)
+    check_sam_memory(problems)
+    # ⚠️ CATO 2026-09-19: the charter said run this BEFORE committing, while G demands a
+    # CLEAN tree and F reads COMMITTED history — so the documented invocation could never
+    # pass. Resolved by making the mode explicit rather than by weakening either check.
+    if pre_commit:
+        print('\n  --pre-commit: SKIPPING F (brief-vs-STATUS commit order) and G (clean tree).')
+        print('  These are only meaningful AFTER the final commit. Re-run with no flag before pushing.')
+    else:
+        check_brief_ordering(problems)
+        check_tree_clean(problems)
 
     if '--no-delegate' not in argv:
         print('\n  DELEGATED (existing fleet instruments, exit codes):')
-        for label, cmd, rc in run_delegated():
+        for label, cmd, rc, tail in run_delegated():
             mark = 'ok' if rc == 0 else 'rc=%s' % rc
             print('    %-12s %-34s %s' % (label, cmd, mark))
+            if tail:
+                print(tail)
         print('    (non-zero is not automatically a closeout failure — read that tool\'s own output)')
 
     print('\n  MANUAL — unverifiable here, and printed every run so they cannot be skipped:')
@@ -278,10 +383,13 @@ def main():
         print('\n  A FAIL is structural. A PASS is scoped to these checks and says nothing')
         print('  about whether the session\'s judgement was right.')
         return 1
-    print('  ✅ CLOSEOUT-CHECK PASS — structural checks only (docket sync, derived counts,')
-    print('     sidecar, brief ordering, tree clean). This does NOT certify that the right')
-    print('     events were added, that a thesis change was correctly declined, or that any')
-    print('     figure is true. The MANUAL steps above remain yours.')
+    ran = 'docket sync, derived counts, sidecar, handoff cap'
+    ran += ', brief ordering, tree clean' if not pre_commit else '  [F and G SKIPPED: --pre-commit]'
+    print('  ✅ CLOSEOUT-CHECK PASS — structural checks only: %s.' % ran)
+    print('     This does NOT certify that the right events were added, that a thesis change')
+    print('     was correctly declined, or that any figure is true. The MANUAL steps above')
+    print('     remain yours. A PASS naming checks it did not run is how a gate overstates')
+    print('     itself — the scope line is generated from the mode, not typed.')
     return 0
 
 

@@ -118,6 +118,8 @@ No FXY position was opened during the retired convexity-tail episode; $0 was at 
 
 ## PREDICTIONS
 
+🟠 **SAM-28/31 ARE GRADED BUT UNDER OPEN CHALLENGE (CATO, 2026-09-19) — treat as DISPUTED, not settled.** Two points unadjudicated: whether four settled routes can settle a fifth whose conventions are unresolved, and whether a negative MEAN across risk-off days rules out a qualifying EPISODE. A third (the 8/3 session count) is ACCEPTED and corrected. ⛔ **No replacement grade is established; CATO does not claim TRUE.** Ruling owed next session → `inbox/2026-09-19_from-PROME_CATO-item-4-firm-FALSE-grades-exceed-the-evidence.md`.
+
 **16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN (SAM-33)** — **re-derived FROM the file** (34 rows, 0 unclassified), never carried forward by hand. Canonical rows: `thesis/PREDICTIONS.tsv`. `boot.py --predictions` derives OPEN rows and checks the sidecar against condition hashes; it never grades. Sidecar pruned to the OPEN set; SAM-33's hash re-verified. **Full grade reasoning, both prep-file defects and the disclosed alternative → [grade record](docket/2026-09-19_SAM28_SAM31_GRADE.md).**
 
 - **SAM-28:** ≥1 eligible tail route produces ≥+3% FXY by Sep-18, 40%, 🔴 **RESOLVED FALSE** (graded 2026-09-19, terms frozen). Fails on the **ROUTE** leg, which is prior to magnitude: 4 of 5 routes settled NO-FIRE on fact; the 5th (sustained MOF #3) fires only under two stacked unstated conventions — **the op days themselves never cleared the bar** (7/30 +2.58%, 7/31 +2.73%) — and is refuted by the **Episode-B control** (a no-route move that was bigger and held longer). ⚠️ Alternative reading reaching TRUE is disclosed in the record, not buried. ⛔ The Sep-18 close is context, **not** the instrument.
