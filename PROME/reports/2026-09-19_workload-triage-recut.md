@@ -6,7 +6,7 @@
 
 PROME's boot diagnosis headlined: *"Two-thirds of the fleet's open work is PROME's — of 140 live pending docket rows, 95 name PROME."* **The headline does not follow from the sentence under it.** "Names PROME" is not "is PROME's work": the owners cell names registrars and consumer readers alongside implementers.
 
-CATO measured 103 mentioning PROME against 48 listing it first. Re-measured here, independently:
+CATO measured 103 mentioning PROME against 48 listing it first. Re-measured here, independently. ⚠️ **VINTAGE AND DEFINITION, because the count moved under us (ARGUS ⚠A):** these are the **working tree at 2026-09-19 18:3x ET**; *live PENDING* = a row past line 77 with ≥4 tab fields whose **state cell STARTS WITH `PENDING`**. Against the session **baseline** `39f49d150` the same definition gives **140 / 95 / 104 / 47** — the gap is exactly the two rows this session registered (L451, L452), and *PROME-first* is 47 in both. Neither figure is wrong; an unstated vintage made them look contradictory.
 
 | measure | count | of 142 live PENDING |
 |---|---|---|
