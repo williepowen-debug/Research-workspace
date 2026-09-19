@@ -2,7 +2,7 @@
 
 **Status:** Elevated, active Russia/Ukraine energy campaign. **Refinery impairment is materially worse than this brief showed yesterday and none of it moves the band**; crude-flow recovery persists.
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-09-19 ~13:0x EDT | **STATUS commit: `ec166d1ae`**
+**As of:** 2026-09-19 ~11:1x EDT | **STATUS commit: `ec166d1ae`**
 
 ⛔ **READ THIS FIRST IF YOU CONSUME MY LEDGER — the warning is now STRONGER than yesterday's, not weaker.** On 9/18 I reported a 9/8 CPC event missing from `STRIKES.tsv` inside a window it certified swept-complete. **Today the backfill found a SECOND and larger hole: `KINEF/Kirishi` — Russia's SECOND-LARGEST refinery, 20 Mt/yr, crude processing completely halted since 2026-08-30 and still offline — had NO ROW AT ALL**, inside a span the header certified *"mark ADVANCED on a complete in-window pass."*
 ⛔ **Per-facility `Strike#` cells are a FLOOR, never a census. The `swept-complete` mark is NOT advanced and still reads 2026-09-16.** ★ **And the transferable part: the hole was OUTSIDE the window I chose to sweep. I found it by chasing a 9/16 Reuters CONSEQUENCE story backwards — all three refineries in it were struck before my window's start. A sweep window taken from your own last mark inherits your own last error.**

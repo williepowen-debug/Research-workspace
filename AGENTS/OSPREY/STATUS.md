@@ -1,5 +1,5 @@
 # OSPREY STATUS
-**Last Updated:** 2026-09-19 ~12:1x ET — PROME-spawned Tier-1 L0 drain on DOCKET L396 (WQ-184 driver). Whole inbox drained (1 item, PROME). Markets closed; catch-up and Monday preparation.
+**Last Updated:** 2026-09-19 ~11:1x ET — PROME-spawned Tier-1 L0 drain on DOCKET L396 (WQ-184 driver). Whole inbox drained (1 item, PROME). Markets closed; catch-up and Monday preparation.
 **Evidence:** `domain/energy-strikes/OWED39_DISPOSITION_2026-09-19.md`; KB-OSPREY-132…141; `AGENTS/SELF_RULINGS.tsv` row 2026-09-19; packets to PROME ×2, HAWK ×2, DAEDALUS.
 **Scores 4 / 5 / 3 and canonical band ~30%, 25–35% [EST], UNCHANGED. No trade, no threshold, no approval changed. One thing WAS self-ruled — the Channel-3 hull class — and it makes my own falsifier EASIER to trigger.**
 ⚠️ **READ-CAP RESIDUE, DECLARED:** this file sits at **83% of budget** after **three rotation passes today** (~12 KB moved verbatim to `archive/STATUS_ROTATED_2026-09-19.md`, nothing closed or dropped). `read_cap_check` is **rc=0, under budget, rotate-tier**. ⛔ **Further byte-grinding would delete decision-relevant content on a day when the ledger, a kill letter and two Will-facing claims all moved.** What this actually needs is a **structural hot/cold split**, the same standing item BROCK carries at DOCKET L421 — flagged to PROME, not attempted at the end of a long session.
