@@ -124,3 +124,42 @@ ZHAO ran a compliant closeout at 21:12 (brief + STATUS + memo in one commit) **a
 **GAPS:** unchanged — GACC Aug, SAFE Aug reserves, Belgium kill-leg re-spec, ZHA-10 `Date_Made`, China Aug PPI
 **WILL_NEEDS:** nothing gated. Next decision point is the 9/24 summit grade
 **FOLLOW-UP:** PROME to route 4 outbox packets; DAEDALUS to rule on the two proposed checks — **and to run the leg-C2 coverage census, which is the item with fleet blast radius**
+
+---
+
+# ADDENDUM 3 — the last owed pull refuted a same-day pathway, and the packet was corrected before you routed it
+
+**Origin:** Will asked "everything okay now?". Running the verification found four leftovers, three of them cheap. The fourth was the overdue **China August CPI/PPI** pull — and it broke a finding from earlier the same session.
+
+## 🔴 The refutation (KB-ZHAO-165) — ACT ON THIS BEFORE ROUTING PACKET #2
+
+**China August CPI/PPI, released 2026-09-09, pulled 9/18:** CPI **+0.8% YoY** (cons 0.8%, Jul 0.5%), MoM +0.4%, **core 1.0%**. **PPI +3.8% YoY** (cons 3.7%, **Jul +3.5%**), MoM +0.4%. **NBS cites rising energy prices.**
+
+`FLOW-ZHAO-13` — created hours earlier on RatingDog's *"output prices cut for the first time in 2026"* — **named PPI as its own confirming series. PPI came in the opposite direction.**
+
+⇒ **Pathway downgraded ACTIVE → CONTESTED the same day it was created.**
+⇒ ⛔ **`outbox/2026-09-18_to-HENRY-MARCO-MIDAS_...` HAS BEEN CORRECTED IN PLACE.** Its headline claim — *"China is exporting disinflation harder"* — is **withdrawn**. The correction sits at the top; the original text is retained verbatim beneath it so the correction is auditable against what it corrects. **Route the corrected file; do not route the original claim.**
+
+✅ **The reconciliation, which is the actual finding:** NBS PPI is an **upstream/energy-weighted aggregate**; RatingDog measures **downstream manufacturers' own selling prices** as a diffusion index. Rising inputs with falling own-prices is **margin compression** — exactly what RatingDog reported. Both are true. **What dies is the aggregate claim:** the producer-price level a foreign buyer faces is **+3.8%, not negative.**
+
+⚠️ **Named as a gap, not substituted for:** the right instrument is an export price index or a PPI for *finished manufactured goods*. ZHAO has neither. **Aggregate PPI is now explicitly ruled insufficient for this row — it measures the wrong layer.**
+
+⚠️ **Stale benchmark found by running the check:** the CATALYSTS row asked for *"PPI YoY vs −2.6%"* when July was already **+3.5%** — the reference was ~6 points and a **sign** out of date.
+
+## ② Three hygiene leftovers, fixed
+
+- ⛔ **A `date_class` value ZHAO INVENTED this session — `modeled-recheck` — reverted to `modeled`.** `date_class` is a fleet convention read by **ten desks' `catalyst_countdown` scripts**; a one-desk value is schema drift. ZHAO's own boot flagged it within the hour. **If the re-check distinction deserves an enum value, DAEDALUS owns that spec — propose, don't mint.**
+- **WQ-161 catalyst graded DONE** — ruled 9/10, encoded 9/14, verified at the primary. ⚠️ **Swept 3 days late, and the 9/18 session had READ that ruling while checking something else without grading the row that asked for it.**
+- **July TIC row priority P1 → DONE.** It resolved 9/17 and said so in its own threshold cell, but the PRIORITY stayed live, so every boot re-listed it under "SWEEP NOW". **A resolved row with a live priority is indistinguishable from unswept work.**
+
+## Still genuinely open (not defects — dated or owned elsewhere)
+
+GACC Aug tables (TLS-blocked) · SAFE Aug reserves/gold · Belgium kill-leg re-spec · ZHA-10 `Date_Made` · China Sep PMI (9/30) · two PROME DOCKET rows that are **PROME's to grade, not ZHAO's**.
+
+---
+
+**STATUS:** COMPLETE (supersedes all completion blocks above)
+**CHANGED (addendum 3):** `workbook/KB.tsv` (KB-165) · `workbook/FLOW.tsv` (FLOW-13 → CONTESTED) · `docket/CATALYSTS.tsv` (3 rows graded, invented enum reverted, stale benchmark fixed) · `STATUS.md` · `NEXUS_BRIEF.md` · **HENRY packet corrected in place**
+**RESULT:** a same-day pathway refuted by its own confirming instrument and the cross-desk packet corrected **before** routing; 3 hygiene leftovers closed; schema drift reverted
+**WILL_NEEDS:** nothing gated
+**FOLLOW-UP:** 🔴 **route the CORRECTED HENRY packet, not the original** · 4 packets total · DAEDALUS: two proposed checks + the leg-C2 coverage census

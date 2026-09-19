@@ -466,3 +466,95 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 ```
 
 ---
+
+## §㉞ — The SUMMIT pinned block, full form before the 2026-09-18 compaction
+
+```
+## 📌 **THE SUMMIT (Thu 2026-09-24) AND THE TRUCE CLOCK — 6 days out**
+
+**Date US-announced (Trump 7/23); ⚠️ NO PRC-side confirmation located — branch D is real** (KB-130).
+
+🔴 **THE CLOCK:** *"…suspended until 12:01 a.m. EST on November 10, 2026."* **A time-limited suspension expiring by its own terms** ⇒ nobody re-imposes; somebody must decide NOT to. Suspended rate 10%, fentanyl 20%→10%; **resumed rate NOT specified.** 🆕 **A SECOND lapse-by-default clock lands 11/09** — the BIS Affiliates-Rule stay (KB-156). Full text → COLD_20260917 §⑩.
+
+### 🔒 **ZHA-16 — pre-registered 2026-09-02 BEFORE the event; amended the same session, still before it.**
+Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · **D** no summit — half-open, boundary owner on B, declared residual. 🔴 **AMENDMENT 1: B is escalation-by-default**, because absent a further affirmative act the heightened rate returns automatically. **Conf 35% → 45%.** Branch-A bar = **a published instrument effective beyond 2026-11-10**; graded on the DOCUMENT. *(Credit HAWK 8/22.)*
+
+
+**→ Letter + Amendment 1 + ZHA-17: `reports/2026-09-02_PREREGISTRATION_summit-and-july-tic.md`. Sourcing, the instrument-defect diagnosis and the full truce paragraph → COLD_20260917 §②/③/⑨/⑩; the Aug-PMI verdict → COLD_20260917 §①. Pre-summit inputs (301 delay, Bessent–He) → KB-155.**
+```
+
+---
+
+## §㉟ — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| **China PMI cluster (AUG)** | mfg **49.8** (beat) · non-mfg/services **49.0 / 49.3** flat · composite **49.5** · high-tech **52.9** | <50 | 🟠 **2nd sub-50 composite; the +0.2 is entirely manufacturing** [CONF] NBS 8/31 — sub-index detail → COLD_20260918 §⑤ |
+```
+
+---
+
+## §㉟b — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% since end-2023. **The 6% headroom is the number to watch** |
+```
+
+---
+
+## §㊱ — NEXT ACTIONS 'Done Sep 18' line, full form before compaction
+
+```
+## NEXT ACTIONS
+
+**Done Sep 18 (owed queue, 4 of 4):** ① DAEDALUS PR6 both asks ✓ ② WQ-112 as-made ledger ✓ ③ RatingDog ✓ ④ ZHA-18 registered ✓ — plus KB-153..160, STATUS rotation #3, 3 outbox packets. Sep-17 list → COLD_20260918 §②.
+```
+
+---
+
+## §㊲ — PREDICTIONS mirror, the full ZHA-18 cell before compaction
+
+```
+| 🆕 **ZHA-18** | **Aug TIC (10/16) shows China LT/coupon ≤ −$5.0B — a THIRD consecutive duration-selling month.** A/B/C exhaustive, boundary owner declared (exactly −$5.0B ⇒ YES), non-publication ⇒ STUCK not NO | **40%** | 🔒 OPEN, **pre-registered 9/18, 28d early.** ⚠️ **BASE-RATED, and the base rate INVERTED the story:** P(LT ≤ −$5B) = 23/42 = 55% unconditional but **3/9 = 33% given the prior two months both ≤ −$5B** — this series mean-reverts after a cluster. Narrative said 60%; cold said 33%; **settled 40%, both recorded.** Letter: `reports/2026-09-18_PREREGISTRATION_ZHA-18_august-tic.md` |
+```
+
+---
+
+## §㊳ — PREDICTIONS mirror — full ZHA-01 cell
+
+```
+| ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ⚠️ mirror showed 15% on 9/2 while the ledger holds 18%; **ledger governs**, reconcile at the as-made pass (`reports/2026-09-17_ASMADE_VERIFICATION.md`) |
+```
+
+---
+
+## §㊳b — PREDICTIONS mirror — full ZHA-05/06/07/10 cell
+
+```
+| ZHA-05 / ZHA-06 / ZHA-07 / ZHA-10 | Regional NPL >12% · >250 small banks consolidated · liquidity crunch forcing UST sales · yuan oil settlement >$5B | 55 / 72 / 70 / 40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
+```
+
+---
+
+## §㊴ — PREDICTIONS mirror, full resolved ZHA-11/12/17 cell
+
+```
+| ✅ ZHA-11 · 12 · 17 | **RESOLVED 9/17 on July TIC — YES · YES · NO** (Brier 0.10 / 0.04 / 0.30); grades → `PREDICTIONS.tsv`, KB-150. As-made re-marks owed (KB-147) |  |  |
+```
+
+---
+
+## §㊵ — CALENDAR — full row, moved verbatim 2026-09-18
+
+```
+| **Sun Sep 20** | **China LPR fixing — CORRECTED from 9/22.** 20 Sep IS a Sunday **but the State Council made it a make-up workday**, so the 20th-of-month fixing does not roll. **21 of 21 surveyed expect 3.00%/3.50% held — the 16th month ⇒ a hold is priced and says nothing; only a CUT is a signal** (KB-157) | 🟠 |
+```
+
+---
+
+## §㊵b — CALENDAR — full row, moved verbatim 2026-09-18
+
+```
+| **Mon Nov 9** | 🔴 🆕 **BIS AFFILIATES RULE ('50% rule') STAY LAPSES — a SECOND escalation-by-default clock, one day before the truce.** On reactivation any entity **≥50% owned (incl. IN THE AGGREGATE) by Entity List parents is automatically covered** — the perimeter widens with **zero new listings**. 90 FR 50857, verbatim *"stayed until November 9, 2026"* (KB-156) | 🔴 |
+```
+
+---
