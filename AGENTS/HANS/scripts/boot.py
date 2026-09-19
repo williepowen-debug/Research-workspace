@@ -50,6 +50,47 @@ STALE_DAYS = 21      # a live vector older than this is flagged
 KEY_STALE_DAYS = 14  # tighter bar for load-bearing rows
 DEAD = {"FROZEN", "RETIRED", "UNREACHABLE"}  # deliberately parked — never nag
 
+# ---- shared DEAD-state test (2026-09-18) --------------------------------------
+# A status cell is a canonical TOKEN optionally followed by a date and free prose
+# (fleet canon: AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md Class 1 —
+# "Free prose AFTER the canonical token is always fine").  So the test is a PREFIX
+# match on the token, never exact membership.
+#
+# FOUND 2026-09-18, and by the boot report rather than by reading: this desk wrote
+# `SUPERSEDED-BY-KB-HANS-059` — fusing the token and its successor pointer into ONE
+# word — and the old exact-membership test below did not recognise it, so seven
+# properly-retired KB rows kept counting as live AND expired.  Boot §[7] read
+# "10 EXPIRED" when the true number was 3, burying the three real ones.
+# [[finding_status_token_membership_test_desupervises_improved_rows]]
+#
+# Legacy bare tokens stay recognised BY CANON ("existing files are grandfathered —
+# enforcers must keep recognising the legacy set"), which a prefix test gives free.
+DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
+                 "ARCHIVED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
+LIVE_KNOWN = ("ACTIVE", "CORRECTED", "CONFIRMED", "GREEN", "YELLOW", "ORANGE",
+              "RED", "WATCH", "MONITOR", "PARTIAL")
+
+
+def is_dead(status):
+    """True if this status cell parks the row.  UNKNOWN TOKENS ARE LIVE ON PURPOSE:
+    an unrecognised token must produce NOISE (a row nagged that maybe shouldn't be),
+    never SILENCE (a row quietly dropped from supervision).  Fail loud."""
+    return (status or "").strip().upper().startswith(DEAD_PREFIXES)
+
+
+def unknown_tokens(rowsets):
+    """Status tokens this script recognises as neither dead nor known-live.  Printed
+    so vocabulary drift is visible the session it happens, not six sessions later."""
+    out = set()
+    for rows, field in rowsets:
+        for r in rows:
+            st = (r.get(field, "") or "").strip()
+            if not st or is_dead(st):
+                continue
+            if not st.upper().startswith(LIVE_KNOWN):
+                out.add(st.split(" — ")[0][:40])
+    return out
+
 
 # ---------------------------------------------------------------- bands
 def _ttf(v):
@@ -207,7 +248,7 @@ def main():
 
     # [6] ledger staleness — live rows only
     print("\n[6] LEDGER STALENESS (live rows only; FROZEN/RETIRED excluded by design)")
-    live = [r for r in vx if r.get("Status", "").strip() not in DEAD]
+    live = [r for r in vx if not is_dead(r.get("Status", ""))]
     # ⚠️ `(_age(...) or 999)` is WRONG here: age 0 is FALSY, so every row refreshed
     # TODAY reported as 999d stale. Caught on this script's first run, 2026-08-28.
     # [[finding_test_the_guard_not_just_the_guarded]] — a guard's own v1 fails first.
@@ -227,7 +268,7 @@ def main():
     # [7] KB expiry — the whole point of the Stale_By field
     print("\n[7] KB EXPIRY (facts past their own Stale_By)")
     _, kb = _rows(KB)
-    live_kb = [k for k in kb if k.get("Status", "").strip() not in {"SUPERSEDED", "RETIRED"}]
+    live_kb = [k for k in kb if not is_dead(k.get("Status", ""))]
     expired = []
     for k in live_kb:
         sb = k.get("Stale_By", "").strip()
@@ -237,7 +278,14 @@ def main():
         if a is not None and a >= 0:
             expired.append((k["ID"], k.get("Group", ""), k["Fact"][:52], a))
     noexp = [k["ID"] for k in live_kb if not k.get("Stale_By", "").strip()]
-    print(f"  {len(live_kb)} live fact(s) · {len(live_kb)-len(noexp)} carry an expiry")
+    print(f"  {len(live_kb)} live fact(s) · {len(live_kb)-len(noexp)} carry an expiry "
+          f"· {len(kb)-len(live_kb)} parked")
+    # vocabulary drift, surfaced the session it happens
+    unk = unknown_tokens([(kb, "Status"), (vx, "Status")])
+    if unk:
+        rc = max(rc, 1)
+        print(f"  ⚠️  {len(unk)} UNRECOGNISED status token(s) — counted as LIVE (fail loud), "
+              f"but check them against STATE_VOCABULARY.md: {', '.join(sorted(unk))}")
     if expired:
         rc = max(rc, 1)
         print(f"  🔴 {len(expired)} EXPIRED — re-verify or supersede:")

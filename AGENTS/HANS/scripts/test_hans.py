@@ -452,5 +452,91 @@ class TestC4IsHistoryScopedNotLiveState(unittest.TestCase):
         self.assertIsInstance(info, list)
 
 
+# ===========================================================================
+# REGRESSION: the 2026-09-18 status-token defect, in BOTH its directions.
+#
+# What happened: this desk superseded seven KB rows and, trying to be more useful,
+# wrote `SUPERSEDED-BY-KB-HANS-059` — fusing the canonical token with its successor
+# pointer into one word. Two guards on this desk then disagreed about that cell:
+#   * boot.py tested EXACT membership in {"SUPERSEDED","RETIRED"} -> the rows stayed
+#     LIVE and EXPIRED. Boot §[7] printed "10 EXPIRED" when the truth was 3, burying
+#     the three real ones in seven false ones. FAILS LOUD (noise) — survivable.
+#   * doc_audit C8 tested `Status != 'ACTIVE' -> skip`, an ALLOWLIST OF ONE TOKEN,
+#     so three rows relabelled EXPIRED-NOT-REFRESHED were silently DROPPED from the
+#     stale-value check, along with 2 CORRECTED and 2 CONFIRMED rows that had never
+#     been checked at all. FAILS QUIET — the dangerous one.
+# Describing a row better must never desupervise it.
+# [[finding_status_token_membership_test_desupervises_improved_rows]]
+# ===========================================================================
+class StatusTokenSemantics(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        import importlib, doc_audit
+        cls.boot = boot
+        cls.doc_audit = importlib.reload(doc_audit)
+
+    # ---- direction 1: dead rows must be recognised however they are spelled ----
+    def test_compound_superseded_token_is_dead(self):
+        """The exact cell that broke it. A canonical token followed by a date and
+        prose is the CANON form, not an exception to it."""
+        for cell in ("SUPERSEDED 2026-09-18 — superseded by KB-HANS-059",
+                     "SUPERSEDED-BY-KB-HANS-059",
+                     "RETIRED 2026-09-18 — event passed",
+                     "FROZEN 2026-08-28 — not maintained"):
+            self.assertTrue(self.boot.is_dead(cell), f"{cell!r} must be DEAD")
+
+    def test_legacy_bare_tokens_stay_recognised(self):
+        """Canon grandfathers existing files: 'enforcers must keep recognising the
+        legacy set'. Eight bare SUPERSEDED rows predate the compound form."""
+        for cell in ("SUPERSEDED", "RETIRED", "FROZEN", "ARCHIVED", "NOT CURRENT"):
+            self.assertTrue(self.boot.is_dead(cell), f"legacy {cell!r} must stay DEAD")
+
+    # ---- direction 2: live rows must stay SUPERVISED however they are spelled ----
+    def test_live_tokens_are_not_dead(self):
+        for cell in ("ACTIVE", "CORRECTED", "CONFIRMED", "GREEN", "ORANGE-WATCH", ""):
+            self.assertFalse(self.boot.is_dead(cell), f"{cell!r} must stay LIVE")
+
+    def test_unknown_token_fails_LOUD_not_quiet(self):
+        """THE LOAD-BEARING ASSERTION. An unrecognised token must be treated as LIVE
+        — nagged, maybe wrongly — never silently parked. Flip this and a future
+        invented token disappears from supervision with every check reading green."""
+        self.assertFalse(self.boot.is_dead("EXPIRED-NOT-REFRESHED"))
+        self.assertFalse(self.boot.is_dead("SOME-TOKEN-NOBODY-HAS-INVENTED-YET"))
+
+    def test_the_two_guards_agree_on_what_dead_means(self):
+        """The root defect was not either test alone — it was that two guards on the
+        same desk read the SAME COLUMN with different semantics."""
+        self.assertEqual(set(self.boot.DEAD_PREFIXES),
+                         set(self.doc_audit.KB_DEAD_PREFIXES),
+                         "boot.py and doc_audit.py must share one notion of DEAD")
+        for cell in ("SUPERSEDED 2026-09-18 — x", "CORRECTED", "CONFIRMED",
+                     "EXPIRED-NOT-REFRESHED", "ACTIVE", "RETIRED 2026-01-01"):
+            self.assertEqual(
+                self.boot.is_dead(cell),
+                cell.strip().upper().startswith(self.doc_audit.KB_DEAD_PREFIXES),
+                f"guards disagree on {cell!r}")
+
+    def test_c8_scope_is_a_denylist_not_a_one_token_allowlist(self):
+        """Falsifies the FIX, not just the bug: a CONFIRMED row — a token the old
+        allowlist skipped entirely — must now be inside C8's perimeter."""
+        src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
+        self.assertNotIn(").strip().upper() != 'ACTIVE'", src,
+                         "C8 must not go back to an allowlist of one token")
+        self.assertFalse(self.doc_audit.KB_DEAD_PREFIXES[0].startswith("ACTIVE"))
+        for live in ("ACTIVE", "CORRECTED", "CONFIRMED"):
+            self.assertFalse(live.upper().startswith(self.doc_audit.KB_DEAD_PREFIXES),
+                             f"C8 must SUPERVISE a {live} row")
+
+    def test_kb_file_uses_canonical_token_forms(self):
+        """The data half: no KB row may carry a fused token again."""
+        import csv
+        kb = Path(__file__).resolve().parent.parent / "workbook" / "KB.tsv"
+        rows = list(csv.DictReader(kb.open(), delimiter="\t"))
+        bad = [r["ID"] for r in rows
+               if (r.get("Status") or "").strip().upper().startswith("SUPERSEDED-BY")]
+        self.assertEqual(bad, [], f"fused SUPERSEDED-BY token(s) returned: {bad}")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

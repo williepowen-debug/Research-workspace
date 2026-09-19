@@ -27,6 +27,14 @@ Exit 0 clean · 1 findings. Run at closeout and after any edit to a boot-read su
 import csv, re, subprocess, sys
 from pathlib import Path
 
+# Dead-state PREFIXES — ONE shared notion of "parked" across this desk's guards
+# (boot.py is_dead() uses the same set). PREFIX, never exact membership: a status
+# cell is a canonical token optionally followed by a date and free prose
+# (AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md Class 1). Legacy bare tokens stay
+# recognised under canon's grandfathering rule, which a prefix test gives for free.
+KB_DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
+                    "ARCHIVED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
+
 HANS = Path(__file__).resolve().parent.parent
 ROOT = HANS.parent.parent
 STATUS_LINE_CAP, STATUS_BYTE_BUDGET = 250, 32_550
@@ -149,7 +157,7 @@ def _audit_full():
                 bad('C2-SUPERSEDED', f"registry {r['threshold_id']}.current_value = "
                                      f"{r['current_value']!r}, retired for {m}")
     for r in tsv('workbook/VX.tsv'):
-        if (r.get('Status') or '').upper().startswith(('FROZEN', 'RETIRED')):
+        if (r.get('Status') or '').upper().startswith(KB_DEAD_PREFIXES):
             continue                      # parked rows keep their vintage BY DESIGN
         ent = byvec.get(r['Vector_ID'])
         if not ent:
@@ -168,8 +176,20 @@ def _audit_full():
     # [[finding_instrument_reports_clean_against_the_wrong_reference]].
     # Series-qualified the same way C2 is: a KB row is only checked against metrics whose
     # declared vector it names in its own Vectors cell.
+    # ⚠️ SCOPE TEST REWRITTEN 2026-09-18 — IT WAS AN ALLOWLIST OF ONE TOKEN.
+    # The old line read `if Status != 'ACTIVE': continue`, whose COMMENT said it was
+    # skipping dead rows but whose CODE skipped every row not spelled exactly ACTIVE.
+    # Intent and implementation disagreed, and the gap was every live-but-differently-
+    # labelled row: 2 CORRECTED + 2 CONFIRMED rows had never been checked, and on
+    # 2026-09-18 this desk added 3 more by inventing EXPIRED-NOT-REFRESHED to describe
+    # a stale row more precisely — which silently REMOVED it from this check.
+    # Describing a row better must never desupervise it
+    # [[finding_status_token_membership_test_desupervises_improved_rows]].
+    # Now a DENYLIST of dead-state PREFIXES, matching boot.py's is_dead() and fleet
+    # canon (STATE_VOCABULARY.md Class 1: canonical token, then free prose).
+    # UNKNOWN TOKENS ARE CHECKED, not skipped — an unrecognised label must fail loud.
     for r in tsv('workbook/KB.tsv'):
-        if (r.get('Status') or '').strip().upper() != 'ACTIVE':
+        if (r.get('Status') or '').strip().upper().startswith(KB_DEAD_PREFIXES):
             continue                       # SUPERSEDED/RETIRED rows keep their text BY DESIGN
         vecs = {v.strip() for v in (r.get('Vectors') or '').split(',') if v.strip()}
         fact = r.get('Fact') or ''
@@ -194,7 +214,11 @@ def _audit_full():
                     if re.search(r'^\s*%?\s*(on|as of|at)?\s*[\[(]?\s*'
                                  r'(\d{1,2}/\d{1,2}|\d{4}-\d{2}-\d{2})', tail):
                         continue
-                    bad('C8-KB-STALE', f"{r['ID']} is ACTIVE and asserts {o!r} "
+                    # print the ROW'S OWN status, not the word "ACTIVE": since
+                    # 2026-09-18 this check supervises every non-dead row, so a
+                    # hardcoded "is ACTIVE" would misdescribe a CORRECTED/CONFIRMED
+                    # row and send the reader looking for a status it does not have.
+                    bad('C8-KB-STALE', f"{r['ID']} is {(r.get('Status') or '?').strip()!s} and asserts {o!r} "
                                        f"(retired for {m}, surface {vid})")
 
     # ---- C3: registry vs its metric surface ---------------------------------
