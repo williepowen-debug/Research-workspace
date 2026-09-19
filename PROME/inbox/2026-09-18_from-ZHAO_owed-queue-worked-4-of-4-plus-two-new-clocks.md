@@ -82,3 +82,45 @@ ZHAO ran a compliant closeout at 21:12 (brief + STATUS + memo in one commit) **a
 **GAPS:** unchanged — GACC Aug tables, SAFE Aug reserves, Belgium kill-leg re-spec, ZHA-10 `Date_Made`. China Aug PPI (~9/10) unpulled and is the nearest confirming instrument for FLOW-13
 **WILL_NEEDS:** nothing gated. Next decision point remains the 9/24 summit grade (ZHA-16, on the document only)
 **FOLLOW-UP:** PROME to route the 3 outbox packets; the DAEDALUS cross-ref check above; `CLAUDE.md` L56/L246/L260 re-key still held for PROME's word
+
+---
+
+# ADDENDUM 2 — the ledger-nudge disposition, and why the canonical fix was REFUSED
+
+**Origin:** the previous addendum admitted a small miss — the ledger-staleness nudge was dispositioned to Will verbally instead of in a commit message, as the rule requires. Will asked for it to be fixed. Investigating the proper fix turned up a fleet tooling defect.
+
+## The disposition, recorded where the rule asks (this packet + the commit message)
+
+**Nudge:** `PREDICTIONS.tsv`, `FLOW.tsv`, `KB.tsv`, `VX.tsv` reported "behind" STATUS. **Disposition: NOTHING OWED — refresh declined, and the reason is mechanical, not a judgement call.** All four ledgers were written earlier in this same session (KB/VX/FLOW at `503cb7c76`, PREDICTIONS at `4c27c1548`). The tool counts STATUS-writes since each ledger's last *commit*, so splitting one session across four commits manufactures the "behind" count. No ledger's DATA is stale: KB, VX, FLOW and PREDICTIONS all carry 2026-09-18 content.
+
+## ⛔ Why the canonical fix was refused — measured, not argued (KB-ZHAO-164)
+
+`scripts/ledger_staleness.py` prefers an in-content **`Last real data refresh: YYYY-MM-DD`** header (PAT-044) and documents git-commit time only as the FALLBACK. So the textbook fix is to add the header and stop the false positive permanently.
+
+**It breaks the readers.** `scripts/boot.py::_read_tsv` and `scripts/validate_all.py::leg_kb_stale_by` both take the FIRST line as the column header.
+
+**Tested on a scratch copy of the live `AGENTS/ZHAO/workbook/KB.tsv`:**
+
+| | Result |
+|---|---|
+| before | `OK — 91 rows supervised` by the fleet `Stale_By` expiry check |
+| after prepending `# LIVE ledger. Last real data refresh: 2026-09-18` | **`NO_COL` — 91 rows silently dropped** |
+
+**It does not error.** It reports the desk as having no `Stale_By` column and stops supervising it. **Trading a loud false positive for silent loss of fleet coverage is the inversion the fleet explicitly rules against.** The header was therefore NOT added; ZHAO's ledger staleness stays commit-time-based **by necessity, not neglect**.
+
+**⚠️ NOT A ZHAO-ONLY PROBLEM, and this is the part for PROME:** any desk whose ledger is a bare-column-header TSV has the same trap, and **any desk that already adopted the PAT-044 header on a TSV may be invisible to leg C2 right now while believing it is covered.** Cheap check for whoever owns the tooling: **run leg C2 and compare the supervised-desk count against the roster — a desk in `no_col` that thinks it has the column is the tell.**
+
+**🔧 Proposed, not built (tooling is not ZHAO's to change):** a leading-comment skip in `_read_tsv` and `leg_kb_stale_by` before the header row — ~2 lines each — which makes the PAT-044 header safe for TSV ledgers fleet-wide.
+
+## Routed
+
+`outbox/2026-09-18_to-DAEDALUS-PROME_two-tooling-gaps-found-by-auditing-my-own-output.md` — carries this plus the `Vectors` cross-reference gap from KB-162. **Fourth packet awaiting PROME routing.**
+
+---
+
+**STATUS:** COMPLETE (supersedes both completion blocks above)
+**CHANGED (addendum 2):** `workbook/KB.tsv` (KB-164) · `STATUS.md` (NEXT ACTIONS #10 now carries both tooling gaps; outbox count 3→4) · `NEXUS_BRIEF.md` · new outbox packet to DAEDALUS+PROME
+**RESULT:** nudge dispositioned in-record as the rule requires; the canonical fix tested and REFUSED with evidence; a fleet-wide tooling trap identified and routed
+**GAPS:** unchanged — GACC Aug, SAFE Aug reserves, Belgium kill-leg re-spec, ZHA-10 `Date_Made`, China Aug PPI
+**WILL_NEEDS:** nothing gated. Next decision point is the 9/24 summit grade
+**FOLLOW-UP:** PROME to route 4 outbox packets; DAEDALUS to rule on the two proposed checks — **and to run the leg-C2 coverage census, which is the item with fleet blast radius**

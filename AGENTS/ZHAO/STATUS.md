@@ -1,6 +1,6 @@
 # ZHAO STATUS
 
-**Updated:** 2026-09-18 (see commit time). Session: **BOOT + THE OWED QUEUE WORKED — 4 of 4.** −164bp HIBOR-SOFR **retired as never-measured** (KB-154) · WQ-112 as-made ledger written, **3 ordered re-scores REFUSED as contrary to ratified canon** (KB-160) · **RatingDog Aug 51.5** pulled, gap structural (KB-158) · **ZHA-18 pre-registered 28d early at a BASE-RATED 40%** · 🔴 **two new finds: the BIS Affiliates-Rule stay lapses 11/09, one day before the truce (KB-156), and ZHAO's own Belgium kill-leg fires on a base effect (KB-159).** **Then a documentation audit at Will's ask found 6 defects in this session's OWN output — 2 wrong VX cross-refs that every existence check passes, and an action item that would have overwritten a frozen row (KB-162).** New: `VX-ZHAO-6.14` (private PMI + gap), `FLOW-13/14`, KB-161 (TIC base rate), KB-163. — 18 inbox items consumed · `board_log.tsv` created · **ZHA-17 NO (boundary zone) · ZHA-11 YES · ZHA-12 YES** · Vector 8 3→4 (LNG leg) · read-cap rotation #2 · `CLAUDE.md` re-keyed off `LAST_COMPLETION`.
+**Updated:** 2026-09-18 (see commit time). Session: **BOOT + THE OWED QUEUE WORKED — 4 of 4.** −164bp HIBOR-SOFR **retired as never-measured** (KB-154) · WQ-112 as-made ledger written, **3 ordered re-scores REFUSED as contrary to ratified canon** (KB-160) · **RatingDog Aug 51.5** pulled, gap structural (KB-158) · **ZHA-18 pre-registered 28d early at a BASE-RATED 40%** · 🔴 **two new finds: the BIS Affiliates-Rule stay lapses 11/09, one day before the truce (KB-156), and ZHAO's own Belgium kill-leg fires on a base effect (KB-159).** **Then a documentation audit at Will's ask found 6 defects in this session's OWN output — 2 wrong VX cross-refs that every existence check passes, and an action item that would have overwritten a frozen row (KB-162).**  New: `VX-6.14` (private PMI + gap), `FLOW-13/14`, KB-161 (TIC base rate), KB-163/164. — 18 inbox items consumed · `board_log.tsv` created · **ZHA-17 NO (boundary zone) · ZHA-11 YES · ZHA-12 YES** · Vector 8 3→4 (LNG leg) · read-cap rotation #2 · `CLAUDE.md` re-keyed off `LAST_COMPLETION`.
 **Overall Status:** 🟠 ELEVATED — **29/60 (+1, Vector 8 → 4 on the gas leg; BRENT 9/6).** **July TIC (released 9/16, own pull 9/17): China $618.0B (−$15.4B), LT/coupon net −$7.7B — a SECOND consecutive month of duration selling, at half June's pace.** ZHA-17 resolves **NO** on its own boundary rule (−$10B ≥ LT > −$5B ⇒ NO): *continued but decelerating.* Belgium **sold alongside** (−$20.4B); proxy stays falsified (rho +0.067, n=42); rotation refuted again (Agency −$36.1B TTM). **Official sector as a whole BOUGHT coupons (+$25.5B) while private sold (−$29.1B) — June's split reversed.**
 
 > 🧊 **READ-CAP rotations:** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · **#3 2026-09-18 → `archive/STATUS_COLD_20260918.md` (§①–⑯)**. Verbatim moves, nothing deleted.
@@ -64,7 +64,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 
 | # | Vector | Score | As-Of |
 |---|---|---|---|
-| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, own pull 9/17 |
+| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, pull 9/17 |
 | 2 | Korea Crisis | 🟢 1 | won **live 9/18**; TIC Jul'26 |
 | 3 | Custodial Arb. | 🟡 2 | Belgium Jun'26 |
 | 4 | LGFV/Banks | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
@@ -77,7 +77,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 | 10 | Gulf Recycl. | 🟡 2 | BRENT/HAWK Jul 4 |
 | 11 | Gulf Infra | 🟡 2 | BRENT/HAWK Jul 4 |
 
-> 📄 **Per-vector CURRENT-STATE commentary → `archive/STATUS_COLD_20260918.md` §㉒**, moved verbatim 2026-09-18 (rotation #3). **Scores stay hot because boot reads them; the prose did not fit the read-cap.** Changes this session: **5b HELD at 3** against a strong RatingDog print (export-composed, not domestic demand); **7 re-measured** — score unchanged, but now resting on a measurement instead of a stale value with a fabricated leg.
+> 📄 **Per-vector CURRENT-STATE commentary → `archive/STATUS_COLD_20260918.md` §㉒** (verbatim 9/18). **Scores stay hot; the prose did not fit the read-cap.** This session: **5b HELD at 3** against a strong RatingDog print (export-composed, not domestic); **7 re-measured**, score unchanged but now on a measurement, not a stale value with a fabricated leg.
 
 **Total: 29/60 — 🟠 ELEVATED** *(computed FROM the rows 2026-09-17, never carried: 5+1+2+2+5+3+1+1+**4**+1+2+2 = **29** across 12 vectors × 5. 9/2 was 28.)*
 
@@ -87,11 +87,10 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 
 ## CROSS-AGENT TRANSMISSION
 
-**🔔 OPEN — 3 outbox packets awaiting PROME routing (written 9/18, ZHAO does not deliver):** **HANS+LIQUID** Belgium YoY base-effect (check your own hub thresholds) · **HENRY+MARCO+MIDAS** China factory-gate price cut · **VULCAN+HAWK** Affiliates-Rule 11/09 (*does your entity map resolve ≥50% AGGREGATE ownership?*).
+**🔔 OPEN — 4 outbox packets awaiting PROME routing (9/18):** **HANS+LIQUID** Belgium YoY base-effect · **HENRY+MARCO+MIDAS** China factory-gate price cut · **VULCAN+HAWK** Affiliates-Rule 11/09 (*≥50% AGGREGATE ownership?*) · **DAEDALUS+PROME** two tooling gaps (KB-162/164).
 
-**OPEN asks:** DAEDALUS PR6 both discharged 9/18. WALTER `-008` logged ungraded (KB-155), watch to 9/24; `-007` dispositioned, no score move (KB-163). Inbox drained, 3 filed.
+📄 History → COLD §㉚. **OPEN asks:** DAEDALUS PR6 both discharged 9/18. WALTER `-008` logged ungraded (KB-155), watch to 9/24; `-007` dispositioned (KB-163). Inbox drained.
 
-📄 **Per-agent history → `archive/STATUS_COLD_20260918.md` §㉚** (verbatim 9/18).
 
 ---
 
@@ -158,7 +157,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 7. 🟠 **Adopt a rolling-5d SOFR basis** for `VX-ZHAO-2.04` so the Green/Yellow call stops turning on a 1.9bp margin (KB-154).
 8. 🟠 **Vector 8 has no `VX.tsv` row** — create it with the LNG leg as its named basis (KB-146). ⛔ **NOT as `VX-ZHAO-8.01`: that ID is already a FROZEN 'NPC GDP Target' row and executing this action literally would overwrite it. Use the next free id** (KB-162 (f)).
 9. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling; SK hynix conversion share. Unchecked since 8/3.
-10. 🟠 **Propose to DAEDALUS a boot check that a `VX-` id cited in a KB row's `Vectors` field has a NAME matching that row's subject** — nothing tests semantic fit today; 2 of this session's own cites resolved to the wrong instrument (KB-162).
+10. 🟠 **TWO TOOLING GAPS ROUTED TO DAEDALUS 9/18** (packet in `outbox/`): ① nothing checks a KB `Vectors` cite points at the **right subject** — 2 of this session's own resolved to the wrong instrument (KB-162); ② ⛔ **the PAT-044 two-clock header CANNOT go on a TSV ledger** — tested: it silently drops 91 KB rows from `validate_all.py` leg C2, so ZHAO's staleness stays commit-time-based **by necessity, not neglect** (KB-164).
 11. 🟡 **ZHA-10 `Date_Made` defect** (ledger 2026-03-09 vs first appearance 2026-07-09) — flagged, left as found; raise separately. **CGB refresh-or-freeze** · **HK $9.33B June UST sale still unlogged** (KB-140).
 
 ---

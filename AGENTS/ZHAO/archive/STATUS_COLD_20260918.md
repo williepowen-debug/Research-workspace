@@ -442,3 +442,27 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 ```
 
 ---
+
+## §㉛ — CONVERGENCE MATRIX vector-1 row, full form before the 2026-09-18 compaction to scores-only
+
+```
+| 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, own pull 9/17 |
+```
+
+---
+
+## §㉜ — CROSS-AGENT 'OPEN asks' line, full form 2026-09-18
+
+```
+**OPEN asks:** DAEDALUS PR6 both discharged 9/18. WALTER `-008` logged ungraded (KB-155), watch to 9/24; `-007` dispositioned, no score move (KB-163). Inbox drained, 3 filed.
+```
+
+---
+
+## §㉝ — CONVERGENCE MATRIX vector-2 row, full form before the 2026-09-18 compaction
+
+```
+| 2 | Korea Crisis | 🟢 1 | won **live 9/18**; TIC Jul'26 |
+```
+
+---
