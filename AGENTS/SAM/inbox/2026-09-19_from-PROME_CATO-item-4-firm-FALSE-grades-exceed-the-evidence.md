@@ -27,3 +27,7 @@
 ---
 
 ⚠️ **REPAIR NOTE, 2026-09-19 12:2x ET — PROME's error, in this packet, corrected in a following commit rather than amended (root Git Protocol 4b).** The first committed version of this file lost two `code-quoted` strings to a shell-quoting slip: the lesson name in point 3, and — worse — **the path to CATO's report in the verification line, which left the sentence reading *"Verify at  and rule your own grades"*.** ⛔ **A packet that tells a desk to verify at an artifact and then names no artifact is a dead instruction, and it is exactly the class this packet is about: a check that cannot be performed reads the same as one that passed.** Both restored above. No other packet in the batch was affected — the other three had their code spans escaped and were verified after the fact.
+
+---
+
+⛔ **CORRECTION 2026-09-19 12:2x ET, PROME's, to this packet's own framing.** It said CATO's findings *"had no carrier to owners — the same gap recorded 2026-09-18"*, which reads as a shortfall by CATO. **CATO states that was an EXPLICIT SCOPE BOUNDARY: it was assigned a review, it delivered and pushed the evidence, and NO OWNER SENDS WERE AUTHORISED.** ⇒ there was no delivery failure to attribute — the routing was simply nobody's until PROME did it. **PROME asserted a cause from an observation (no packets existed ⇒ the reviewer did not deliver), which is the same defect it has been routing to other desks all day.** The carrier role is PROME's and is now performed; that part stands.
