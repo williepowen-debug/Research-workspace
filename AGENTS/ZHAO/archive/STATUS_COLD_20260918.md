@@ -345,3 +345,35 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 ```
 
 ---
+
+## §㉔ — SIGNAL DASHBOARD — the full China-Aug-trade cell, moved verbatim 2026-09-18
+
+```
+| 🆕 **China Aug trade (nominal $)** | exports **+25.0% YoY** · imports **+28.2%** · surplus **$119.09B** | — | 🟠 [CONF-reported] GACC 9/8 via CNBC/AP. ⚠️ **Nominal, not volumes; GACC tables unreachable 9/17 — reconcile still owed.** Autos +43%, semis +129.8%, to-US +34.4% (KB-144) |
+```
+
+---
+
+## §㉕ — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% since end-2023. **The 6% headroom is the number to watch** (P3 tripwire B4) |
+```
+
+---
+
+## §㉕b — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz (~2,346t)**, 20th mo | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold **8.8% of reserves** vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-109). ⚠️ **Aug print (~9/7) STILL UNPULLED** |
+```
+
+---
+
+## §㉖ — EXIT RULES, the full 2026-09-18 Belgium base-effect block (now carried at VX-ZHAO-1.04 and KB-ZHAO-159)
+
+```
+⛔ **9/18 — THE BELGIUM HALF OF THAT KILL IS ARITHMETICALLY DEGENERATE AND THE OLD FRAMING WAS BACKWARDS.** STATUS read *"+10.6%, 1pt above the kill-leg"*, i.e. *Belgium must fall*. **Belgium must RISE $25.5B not to trigger.** Its 2025 base rose steeply (Jul $425.4B → Nov $481.0B), so at a **flat** Jul-26 level of $470.7B the YoY prints **Aug +4.35% · Sep +1.54% · Oct +1.12% · Nov −2.14% — all under 10%.** Staying above needs +$25.5B in Aug and +$39.2B by Sep vs a largest-ever monthly buy of ~$17.6B. ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, NOT as evidence** (declared in the ZHA-18 letter §2 **before** the print). The full kill still cannot fire — the other leg needs China >$700B ×3 and China is $618.0B. **Leg needs re-spec as a level/flow test; deliberately NOT done inside the letter that grades it** (KB-159).
+```
+
+---

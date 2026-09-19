@@ -33,7 +33,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 | Foreign Official vs Non-Official (coupons) | **Jul: official +$25.5B / private −$29.1B** (Jun: −$45.4B / +$23.2B) | — | 🟠 **REVERSED** | [CONF] Treasury sb0631, 9/16 — China sold inside an official bucket that net **bought** ⇒ other officials absorbed it. **LIQUID's to price** (KB-149) |
 | Combined Anchor Selling | **Jul: China −$12.6B, Korea −$1.7B = −$14.3B** | >$50B/qtr = 🔴 to LIQUID | 🟡 | [CONF] TIC Jul — **Q3-to-date −$14.3B does not trip the route** (VX-7.01). Japan LT −$8.8B / ST +$9.7B — SAM's |
 | Brent crude | **$98.77** (live 9/18) | Asia shock transmission | 🟠 | [CONF] boot.py live 9/18 (`BZ=F` continuous front — **never compute a % move across a roll**). **HAWK/BRENT own the price** |
-| Property / LGFV / banking | **source of truth = `workbook/VX.tsv`** | mixed | 🟠 | land sales, LGFV, NPL 🧊, bank consolidation |
+| Property / LGFV / banking | **source of truth = `workbook/VX.tsv`** | mixed | 🟠 | land sales, LGFV, NPL 🧊 |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
@@ -50,10 +50,10 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 | 🔴 **China Construction PMI (AUG)** | **46.9** (Jul 47.0) | — | 🔴 **2nd consecutive RECORD LOW, weather blamed both months** [CONF] NBS 8/31 — the Vector-5 basis and the ~9/30 tripwire reference (KB-128) |
 | **China PMI cluster (AUG)** | mfg **49.8** (beat) · non-mfg/services **49.0 / 49.3** flat · composite **49.5** · high-tech **52.9** | <50 | 🟠 **2nd sub-50 composite; the +0.2 is entirely manufacturing** [CONF] NBS 8/31 — sub-index detail → COLD_20260918 §⑤ |
 | **RatingDog (ex-Caixin) Mfg PMI (AUG)** | **51.5** (Jul 50.9) vs **NBS 49.8** | — | 🟢 **PULLED 9/18 — gap EXACTLY 1.7pt for a 2nd month ⇒ STRUCTURAL, not noise.** 9th month >50, longest run in 5yr; new orders 15th month, longest since 2018; **exports fastest in 6mo.** ⛔ **But employment FLAT with intermediate/investment goods CUTTING** = the capex leg, same as construction 46.9 ⇒ strength is **export-composed**, Vector 5b **HELD at 3**. 🔴 **Output prices CUT, first time in 2026, as input costs rose** — factory-gate margin compression, China exporting disinflation harder (→HENRY). [CONF] S&P Global PDF, survey 12-20 Aug, released **9/01** (KB-158) |
-| China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz (~2,346t)**, 20th mo | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold **8.8% of reserves** vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-109). ⚠️ **Aug print (~9/7) STILL UNPULLED** |
-| 🆕 **China Aug trade (nominal $)** | exports **+25.0% YoY** · imports **+28.2%** · surplus **$119.09B** | — | 🟠 [CONF-reported] GACC 9/8 via CNBC/AP. ⚠️ **Nominal, not volumes; GACC tables unreachable 9/17 — reconcile still owed.** Autos +43%, semis +129.8%, to-US +34.4% (KB-144) |
-| Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% since end-2023. **The 6% headroom is the number to watch** (P3 tripwire B4) |
-| PBOC 7d repo / LPR | **1.4%** / **3.00%–3.50%, HELD 14th mo** | <1.0% = RED | 🟠 [CONF] PBOC fixing **7/20** — **restraint not incapacity**: FX room existed, PBOC declined (bank NIM + yuan stability, KB-105). **Next fixing ~9/21-22 — verify the date, 20 Sep is a Sunday** |
+| China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz**, 20th mo | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold **8.8%** of reserves vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-109). ⚠️ **Aug print STILL UNPULLED** |
+| 🆕 **China Aug trade (nominal $)** | exports **+25.0% YoY** · imports **+28.2%** · surplus **$119.09B** | — | 🟠 [CONF-reported] GACC 9/8 via CNBC/AP. ⚠️ **Nominal not volumes; GACC unreachable — reconcile owed.** Autos +43%, semis +129.8% (KB-144) |
+| Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% since end-2023. **The 6% headroom is the number to watch** |
+| PBOC 7d repo / LPR | **1.4%** / **3.00%–3.50%, 15th mo held — 16th due Sun 9/20** | <1.0% = RED | 🟠 [CONF] PBOC 7/20 — **restraint not incapacity**: FX room existed, PBOC declined (KB-105). ⚠️ **'14th mo' was two months stale; Aug never logged.** **21 of 21 expect a hold ⇒ priced, says nothing; only a CUT is a signal** (VX-6.06, KB-157) |
 | China 10Y CGB | **1.710%** | — | 🟡 🧊 **[STALE 7/31 — refresh or freeze]** — ZHAO's since 8/18; ⚠️ **a low nominal CGB yield is NOT haven demand** (capital controls, policy-bank buyers). Boundary → `CLAUDE.md` §CGB |
 
 ---
@@ -66,16 +66,16 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 |---|---|---|---|
 | 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Jul'26**, own pull 9/17 |
 | 2 | Korea Crisis | 🟢 1 | won **live 9/18**; TIC Jul'26 |
-| 3 | Custodial Arbitrage | 🟡 2 | Belgium Jun'26 |
-| 4 | LGFV/Banking | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
+| 3 | Custodial Arb. | 🟡 2 | Belgium Jun'26 |
+| 4 | LGFV/Banks | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
 | 5 | Property Zombification | 🔴 **5** | Aug 31 |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 |
-| 6 | PBOC Defensive Wall | 🟢 1 | yuan **live 9/18**; LPR **Jul 20** |
+| 6 | PBOC Defensive Wall | 🟢 1 | yuan **live 9/18**; LPR **Jul 20**, next **Sun 9/20** |
 | 7 | HK Peg Channel | 🟢 1 | **9/18** (HIBOR HKMA, SOFR NY Fed 9/17) |
 | 8 | LNG/Energy Shock | 🔴 **4** | HANS 9/4 via BRENT 9/6 — **not live** |
 | 9 | USD/CNY Defense | 🟢 1 | **live 9/18** |
-| 10 | Gulf Recycl. | 🟡 2 | **BRENT/HAWK, Jul 4** |
-| 11 | Gulf Infra | 🟡 2 | **BRENT/HAWK, Jul 4** |
+| 10 | Gulf Recycl. | 🟡 2 | BRENT/HAWK Jul 4 |
+| 11 | Gulf Infra | 🟡 2 | BRENT/HAWK Jul 4 |
 
 > 📄 **Per-vector CURRENT-STATE commentary → `archive/STATUS_COLD_20260918.md` §㉒**, moved verbatim 2026-09-18 (rotation #3). **Scores stay hot because boot reads them; the prose did not fit the read-cap.** Changes this session: **5b HELD at 3** against a strong RatingDog print (export-composed, not domestic demand); **7 re-measured** — score unchanged, but now resting on a measurement instead of a stale value with a fabricated leg.
 
@@ -101,7 +101,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 
 ### Thesis Kill → COLD_20260917 §⑨-b (Belgium <10% YoY ×2 AND China >$700B ×3 · fiscal >5% GDP w/ LGFV backstop — neither close)
 
-⛔ **9/18 — THE BELGIUM HALF OF THAT KILL IS ARITHMETICALLY DEGENERATE AND THE OLD FRAMING WAS BACKWARDS.** STATUS read *"+10.6%, 1pt above the kill-leg"*, i.e. *Belgium must fall*. **Belgium must RISE $25.5B not to trigger.** Its 2025 base rose steeply (Jul $425.4B → Nov $481.0B), so at a **flat** Jul-26 level of $470.7B the YoY prints **Aug +4.35% · Sep +1.54% · Oct +1.12% · Nov −2.14% — all under 10%.** Staying above needs +$25.5B in Aug and +$39.2B by Sep vs a largest-ever monthly buy of ~$17.6B. ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, NOT as evidence** (declared in the ZHA-18 letter §2 **before** the print). The full kill still cannot fire — the other leg needs China >$700B ×3 and China is $618.0B. **Leg needs re-spec as a level/flow test; deliberately NOT done inside the letter that grades it** (KB-159).
+⛔ **9/18 — THE BELGIUM HALF OF THAT KILL IS DEGENERATE AND THE OLD FRAMING WAS BACKWARDS.** It read *"+10.6%, 1pt above the kill-leg"* — i.e. *Belgium must fall*. **Belgium must RISE $25.5B not to trigger:** its 2025 base climbed Jul $425.4B → Nov $481.0B, so at a **flat** Jul-26 level the YoY prints **+4.35% (Aug) and +1.54% (Sep)** — both under 10%, against a largest-ever monthly buy of ~$17.6B. ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, NOT as evidence** (declared in the ZHA-18 letter §2 **before** the print). Full arithmetic and the re-spec obligation → **`VX-ZHAO-1.04` + KB-159**. The full kill still cannot fire — the other leg needs China >$700B ×3 and China is $618.0B.
 
 ### Falsification tripwires now
 - **China TIC >$680B for 2 consecutive months** → the selling was noise. *(Far away — $633.4B, a series low.)*
@@ -158,7 +158,7 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 5. 🟠 **`CLAUDE.md` re-key** L56 · L246 · L260 (file FROZEN): the 3-line re-point on PROME's word; then the owed 9/2 CLOSEOUT-step-1 edit after a cold read (KB-140).
 6. 🟠 **KB.tsv `Stale_By` has NO READER** (30+ rows past due, oldest KB-060). Carried from 8/21. Do NOT bulk-mark SUPERSEDED. ~5 lines in `boot.py` §6.
 7. 🟠 **Adopt a rolling-5d SOFR basis** for `VX-ZHAO-2.04` so the Green/Yellow call stops turning on a 1.9bp margin (KB-154).
-8. 🟠 **Vector 8 has no `VX.tsv` row** — create `VX-ZHAO-8.01` with the LNG leg as its named basis (KB-146).
+8. 🟠 **Vector 8 has no `VX.tsv` row** — create it with the LNG leg as its named basis (KB-146). ⛔ **NOT as `VX-ZHAO-8.01`: that ID is already a FROZEN 'NPC GDP Target' row and executing this action literally would overwrite it. Use the next free id** (KB-162 (f)).
 9. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling; SK hynix conversion share. Unchecked since 8/3.
 10. 🟡 **ZHA-10 `Date_Made` defect** (ledger 2026-03-09 vs first appearance 2026-07-09) — flagged, left as found; raise separately. **CGB refresh-or-freeze** · **HK $9.33B June UST sale still unlogged** (KB-140).
 
