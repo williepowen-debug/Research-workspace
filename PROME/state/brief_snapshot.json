@@ -1,21 +1,21 @@
 {
  "channels": {
   "AI capex": "elev",
-  "Credit": "elev",
+  "Credit": "watch",
   "Energy": "crit",
   "Equity-vol": "elev",
-  "Japan / carry": "watch",
+  "Japan / carry": "elev",
   "Metals": "elev",
-  "Rates": "crit",
+  "Rates": "elev",
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-09-18": "Amendment-12 watch grades (the format-vs-recogniser discriminator's own t\u2026",
   "2026-09-19": "\ud83d\udfe0 **TWO `fleet_dashboard.py` TILE-MAP PATTERNS HAVE NEVER PRODUCED A TILE\u2026",
   "2026-09-21": "CRMT \u00a72.1 conditional paths (a) equity / new warehouse and (b) refinancin\u2026",
   "2026-09-22": "\u26d4\u26d4 **RE-KEYED 2026-09-14 16:09 FROM A DATE TO A CONDITION",
   "2026-09-23": "FORUM fin-cond T3 v2",
-  "2026-09-24": "FORGE MARKET-DATA VINTAGE + FALLBACK REPAIR (PROME-standard tools; WQ-229\u2026"
+  "2026-09-24": "\ud83d\udd34 **L409 SCOPE WIDENED",
+  "2026-09-25": "\ud83d\udfe0 **DID THE SUWA\u0141KI-GAP EXERCISE EQUIPMENT GO HOME?"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -68,6 +68,8 @@
   "261": "\u2696\ufe0f T-12 SUCCESSOR \u2014 BLESS A REAL-RATE / TERMINAL-PATH LEG INTO THE FR\u2026",
   "263": "\u2696\ufe0f THE COMMIT GUARDS (WQ-244) ARE NOT CONVERGING UNDER INDEPENDENT RE\u2026",
   "264": "\u2696\ufe0f BRENT PROPOSES A SAUDI PETROLINE *RESTART* RESOLVER THAT DOES NOT\u2026",
+  "265": "\u2696\ufe0f THE DECISION PAGE YOU OPEN AT THE SITTING IS FOUR DAYS OLD, AND PU\u2026",
+  "271": "\u2696\ufe0f THE POSITION MIRROR STILL SHOWS A BOOK FROM 2026-09-10, AND THE RE\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
