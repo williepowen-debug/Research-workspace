@@ -1,0 +1,46 @@
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    AGENTS/HANS/scripts/doc_audit.py
+     [not yours]    AGENTS/HANS/scripts/test_hans.py
+     [not yours]    AGENTS/HANS/workbook/ML.tsv
+     [not yours]    AGENTS/HANS/workbook/VX.tsv
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/ZHAO/docket/CATALYSTS.tsv AGENTS/ZHAO/STATUS.md AGENTS/CATO/runs/2026-09-19_1359_zhao-closeout-review.md
+CLAIM-CHECK ✓ 6 file(s) clean [weekday]
+
+EXIT 0
+
+$ git diff --check
+
+EXIT 0
+
+$ git status --short
+ M AGENTS/HANS/STATUS.md
+ M AGENTS/HANS/scripts/doc_audit.py
+ M AGENTS/HANS/scripts/test_hans.py
+ M AGENTS/HANS/workbook/ML.tsv
+ M FORGE/STATUS.md
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+ M memory/auto/MEMORY.md
+?? AGENTS/CATO/runs/2026-09-19_1359_zhao-closeout-checks.txt
+?? AGENTS/CATO/runs/2026-09-19_1359_zhao-closeout-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1359_zhao-closeout-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1359_zhao-closeout-review.md
+
+EXIT 0
+
+$ git diff --cached --name-only
+
+EXIT 0
+
+Evidence-file check: initial staged whitespace check caught an extra blank line at EOF in this receipt; removed before commit.
