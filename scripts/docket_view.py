@@ -126,6 +126,24 @@ def fmt_day(d):
     return f"{DAYN[d.weekday()]} {d.month}/{d.day}"
 
 
+def owner_names(cell: str) -> str:
+    """Owner NAMES only — the parenthetical rationale is dropped, never the identity.
+
+    STRIP PARENS BEFORE SPLITTING ON "/". An owner cell routinely carries a slash INSIDE a
+    parenthetical ("HAWK (RU<->NATO/EU posture)"); splitting first mangles it into two owners.
+    Measured 2026-09-19: full owner cells were 51% of the generated block and their
+    parenthetical rationale alone 41% of it - the largest component after the catalysts, and a
+    pure rendering choice. DOCKET.tsv stays canonical and every item prints its L-number, so
+    the dropped text is one lookup away. (Raised by CATO, 2026-09-19.)"""
+    prev = None
+    while prev != cell:                      # innermost-out; handles nesting
+        prev = cell
+        cell = re.sub(r"\([^()]*\)", "", cell)
+    names = [n.strip(" \t\u00b7,;") for n in cell.split("/")]
+    names = [n for n in names if n]
+    return "/".join(names) if names else "?"
+
+
 def render(rows, as_of, window=21, detail_days=7, full_chars=90, brief_chars=48, src="PROME/DOCKET.tsv"):
     """Return the generated block text (BEGIN…END inclusive) — deterministic for (rows, as_of)."""
     live = [r for r in rows if state_kind(r["state"]) == "PENDING"]
@@ -172,7 +190,7 @@ def render(rows, as_of, window=21, detail_days=7, full_chars=90, brief_chars=48,
                 f" (since {r['start'].month}/{r['start'].day} →{r['end'].month}/{r['end'].day})" if r["start"] < as_of
                 else f" (→{r['end'].month}/{r['end'].day})")
             approx = "~" if r["approx"] else ""
-            items.append(f"{approx}{txt}{span} [{r['owners']}] (L{r['line']})")
+            items.append(f"{approx}{txt}{span} [{owner_names(r['owners'])}] (L{r['line']})")
         head = f"**{fmt_day(d)}:**" if (d - as_of).days <= detail_days else f"**{d.month}/{d.day}:**"
         parts.append(f"{head} " + " · ".join(items))
     out.append(" — ".join(parts) if parts else f"*(no PENDING rows inside the {window}-day window)*")
