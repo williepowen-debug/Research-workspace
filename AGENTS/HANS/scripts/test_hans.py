@@ -295,6 +295,19 @@ class TestDocAudit(unittest.TestCase):
         finally:
             real.write_text(txt)
 
+    def test_C6_weighs_the_charter_the_fleet_checker_cannot_see(self):
+        """scripts/read_cap_check.py opens CLAUDE.md only to find which OTHER files to
+        weigh, so the charter — loaded WHOLE by the harness every session — was the one
+        surface nothing measured. It stood at 32,961 B against a 32,550 B budget while
+        the checker reported '1 file assessed, 0 over budget'."""
+        real = self.da.HANS / "CLAUDE.md"
+        orig = real.read_bytes()
+        try:
+            real.write_bytes(orig + b"\nx" * self.da.STATUS_BYTE_BUDGET)
+            self.assertIn("C6-CHARTER-BYTES", self._codes(self.da.audit()))
+        finally:
+            real.write_bytes(orig)
+
     # ---- C10 / C11, added 2026-09-18 (ML-HANS-461, ML-HANS-462) ----------------
     def _swap_vx(self, vid, **cells):
         """Inject cell values into one VX row, returning a restore callable."""

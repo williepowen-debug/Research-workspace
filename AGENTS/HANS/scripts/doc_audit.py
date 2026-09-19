@@ -18,7 +18,10 @@ Checks, each tied to the incident that motivated it:
                     PER LEG for compound two-leg rows.
   C4 DISPATCH       Every fired-log dispatch_artifact resolves AND lives in a RECIPIENT tree.
   C5 TSV            No ragged rows (a short row silently shifts every later column).
-  C6 CAPS           STATUS.md within BOTH its line cap and the read-cap BYTE budget.
+  C6 CAPS           STATUS.md within BOTH its line cap and the read-cap BYTE
+                    budget, AND CLAUDE.md within the byte budget — the charter is
+                    auto-loaded whole every session and the FLEET checker cannot
+                    see it, because it reads the charter to find other files.
   C7 PATHS          Every `path/like/this` referenced in a boot-read surface resolves.
   C8 KB-STALE       No ACTIVE KB fact asserts a value retired for a metric it declares.
   C10 BAND-STATE    A live VX row's Status must EQUAL the band function of its own
@@ -314,7 +317,7 @@ def _audit_full():
             if len(l.split('\t')) != n:
                 bad('C5-RAGGED', f'{name} row {i}: {len(l.split(chr(9)))} cols vs header {n}')
 
-    # ---- C6: BOTH caps on STATUS.md -----------------------------------------
+    # ---- C6: BOTH caps on STATUS.md, AND the byte cap on CLAUDE.md ----------
     st = HANS / 'STATUS.md'
     nl, nb = len(st.read_text().split('\n')), len(st.read_bytes())
     if nl > STATUS_LINE_CAP:
@@ -323,6 +326,24 @@ def _audit_full():
         bad('C6-BYTES', f'STATUS.md {nb:,} B > {STATUS_BYTE_BUDGET:,} B read-cap budget '
                         '(the BYTE budget binds before the line cap — rewriting for '
                         'concision does not shrink it; rotate or split)')
+
+    # CLAUDE.md, added 2026-09-18. The fleet checker scripts/read_cap_check.py OPENS
+    # this file only to discover which OTHER surfaces to weigh, and never weighs it —
+    # so the charter, which the harness loads WHOLE at every single session start, was
+    # the one surface nothing measured. It stood at 32,961 B against a 32,550 B budget
+    # and reported "1 file assessed, 0 over budget" all session
+    # [[finding_instrument_reports_clean_against_the_wrong_reference]].
+    # Checked HERE because scripts/ at the repo root is not this desk's to edit; the
+    # fleet-level gap is flagged to PROME, not patched locally.
+    cb = len((HANS / 'CLAUDE.md').read_bytes())
+    if cb > STATUS_BYTE_BUDGET:
+        bad('C6-CHARTER-BYTES', f'CLAUDE.md {cb:,} B > {STATUS_BYTE_BUDGET:,} B read-cap '
+                                'budget, and it is auto-loaded WHOLE every session — a '
+                                'stronger case for the cap than any boot-step read. '
+                                'Rotate narrative to CHARTER_PROVENANCE.md; keep rules')
+    elif cb > int(STATUS_BYTE_BUDGET * 0.75):
+        note('C6-CHARTER-ROTATE', f'CLAUDE.md {cb:,} B is past 75% of the budget — '
+                                  'rotate-tier. Stopping at the trigger is not finishing')
 
     # ---- C7: referenced paths resolve ---------------------------------------
     pat = re.compile(r'`([A-Za-z0-9_][A-Za-z0-9_./-]*\.(?:md|tsv|py))`')

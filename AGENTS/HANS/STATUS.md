@@ -1,19 +1,19 @@
 # HANS STATUS.md
-**Updated:** 2026-09-18 ~22:5x ET — **SESSION 2 (news catch-up): THE THREE PRINTS I HAD NOT READ ALL CUT THE SAME WAY — THE INFLATION OVERSHOOT HAS NO CORE LEG, ON EITHER SIDE OF THE CHANNEL.** Session 1 (8-day catch-up: BoE pivot · Fed hike · post-commit audit) is digested below with verbatim block files.
+**Updated:** 2026-09-18 late — **SESSION 3 (desk sweep): CORE INFLATION NOW HAS A SURFACE, TWO POLICY VECTORS WERE POINTING THE WRONG WAY, AND THE CHARTER WAS OVER ITS READ-CAP WITH NOTHING MEASURING IT.** Sessions 1–2 (BoE pivot · Fed hike · the energy-only overshoot) digested below; every block has a verbatim file.
 **Boot:** rc1 · `doc_audit.py` **0 findings** · **59 tests OK** · R1 **rc=1 → receipted** · mail lanes empty. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
-## 🔴 SESSION 1 — THE THREE LIVE READS. **Each has a verbatim block file; the conclusions are restated in the board, docket and summary below.**
+## 🔴 SESSION 1 — THE THREE LIVE READS. **Verbatim block files hold each in full.**
 
-**① BoE 9/17 — THE BANK STOPPED SELLING LONG GILTS** (primary 9/18) → `workbook/2026-09-18_BOE_APF_BLOCK.md` · `KB-HANS-064`
-Rate HELD 3.75%, the least important half. Of **£488.2bn** APF: **£222bn** pre-2035 and **£120bn longest-dated held to maturity**, **£146bn under review**, sales **£20bn/yr**, **auctions PAUSED** pending an April-2027 decision on selling gilts *direct to Government* — **the entire stock is held to maturity or under review.** ⚠️ **The £222bn leg is mine from primary; WALTER's relay did not carry it.** 🔴 **A SUPPLY WITHDRAWAL, NOT A DEMAND RECOVERY** — the 10Y gave back half its rally by 9/18 and nothing changed about the fiscal position that put the 30Y at a 1998 high days earlier. **Both UK thresholds moved AWAY; neither ever fired — no exit to record.**
+**① BoE 9/17 — THE BANK STOPPED SELLING LONG GILTS** → `workbook/2026-09-18_BOE_APF_BLOCK.md` · `KB-HANS-064`
+Rate HELD 3.75%. Of **£488.2bn** APF: **£222bn** pre-2035 and **£120bn longest-dated held to maturity**, **£146bn under review**, sales **£20bn/yr**, **auctions PAUSED** pending an April-2027 decision on selling gilts *direct to Government*. ⚠️ **The £222bn leg is mine from primary; WALTER's relay did not carry it.** 🔴 **A SUPPLY WITHDRAWAL, NOT A DEMAND RECOVERY** — the 10Y gave back half its rally by 9/18 and the fiscal position that put the 30Y at a 1998 high is unchanged. **Both UK thresholds moved AWAY; neither ever fired — no exit to record.** 🆕 Session 2 says why the Bank could do it: CPI hit **3.1%** the day before, and the rise is fuel with core flat.
 
 **② FED HIKED 9/16 — REFUTING A MECHANISM I PUBLISHED 9/10** → `workbook/2026-09-18_FED_HIKE_REFUTATION_BLOCK.md` · `KB-HANS-065`
-+25bp to 3.75–4.00%, 12–0. I wrote that *the differential compresses on a Sept ECB hike into a Fed on HOLD*: **it is unchanged at 137.5bp and the euro WEAKENED to 1.1489. Both halves failed.** ⇒ **Exclusion leg (2) must be RE-ARGUED** → BOND/TERRY, `KILL_TREE` C-1. 🔴 **The near-miss with it:** DAEDALUS flagged `VX-HANS-4.03`=137.5 as stale (true 112.5, **correct at their read**); the Fed then moved both legs +25bp back to **exactly 137.5**. **Applying the ask mechanically writes a wrong number into an accidentally-correct row with every structural check passing** ⇒ **recompute from BOTH primaries; never accept a supplied delta** → `ML-HANS-451`.
++25bp to 3.75–4.00%, 12–0. I wrote that *the differential compresses on a Sept ECB hike into a Fed on HOLD*: **it is unchanged at 137.5bp and the euro WEAKENED to 1.1489. Both halves failed.** ⇒ **Exclusion leg (2) must be RE-ARGUED.** 🔴 **Near-miss:** DAEDALUS flagged `VX-HANS-4.03`=137.5 as stale (true 112.5, **correct at their read**); the Fed then moved both legs +25bp back to **exactly 137.5**. **Applying the ask mechanically writes a wrong number into an accidentally-correct row with every check passing** ⇒ **recompute from BOTH primaries; never accept a supplied delta** → `ML-HANS-451`
 
 **③ FRANCE — `T-10` NEAR-TRIGGER, GRADED INSIDE MY OWN BASIS GAP** → `workbook/2026-09-18_FRANCE_T10_BLOCK.md` · `KB-HANS-066`
-**OAT–Bund at a 1-year high: 96.8bp [9/18], OAT 4.47 / Bund 3.50** (1-yr low 59.0). **`T-10` = spread >100bp AND OAT >4.50 → NOT FIRED, 3.2bp and 3bp under.** 🔴 **TE-minus-TE the same day reads 105.5bp / 4.5735 and clears BOTH legs** — both trip lines sit **inside my ~10bp OAT basis gap.** **Graded on the single-source spread; a spread is never derived across two sources.** ✅ On 9/16 the level leg alone was met: **the compound structure did its job.** **Fiscal:** 2027 budget targets 5.0% of GDP vs an estimated **5.4% in 2026** — ⚠️ **worse than the 4.7% target I had carried**; submission early Oct. 🔴 **France yields MORE than Italy**, and sold **−$62.4bn of USTs across June–July.**
+**OAT–Bund 96.8bp [9/18], a 1-year high; OAT 4.47 / Bund 3.50.** **`T-10` = spread >100bp AND OAT >4.50 → NOT FIRED, 3.2bp and 3bp under.** 🔴 **TE-minus-TE the same day reads 105.5bp / 4.5735 and clears BOTH legs** — both trip lines sit **inside my ~10bp OAT basis gap**. **Graded on the single-source spread.** ✅ On 9/16 the level leg alone was met: **the compound structure did its job.** **Fiscal:** 2027 budget targets **5.0% of GDP vs an estimated 5.4% in 2026**; ⚠️ **worse than the 4.7% I had carried.** 🔴 **France yields MORE than Italy**, and sold **−$62.4bn of USTs across June–July.**
 
 ---
 
@@ -55,26 +55,30 @@ Rate HELD 3.75%, the least important half. Of **£488.2bn** APF: **£222bn** pre
 **European banks: no stress. `T-14` NOT firing on a CURRENT dated sweep (9/18, re-checked in session 2)** — no G-SIB warning tied explicitly to private-credit losses, no ECB/ESRB warning **naming** institutions; the ESRB taskforce is **EXAMINING** the ~$3.1tn sector, and **an examination is not a naming warning.** FSR primary: **€62.5bn drawn, 12 banks = 0.2% of assets.** ⛔ **ESRB report STILL UNREAD — no onward routing** → `KB-HANS-068`
 
 
-## 🆕 SESSION 2 — NEWS CATCH-UP: **THE OVERSHOOT HAS NO CORE LEG, ON EITHER SIDE OF THE CHANNEL.** Full block → `workbook/2026-09-18_SESSION2_NEWS_CATCHUP.md` · `KB-HANS-084`–`088`
+## 🆕 SESSION 3 — DESK SWEEP, ALL ITEMS WORKED. Full block → `workbook/2026-09-18_SESSION3_DESK_SWEEP.md` · `ML-HANS-459`–`463`
 
-**Three prints I had not read; they are one mechanism read twice** — which is *why* the BoE could pause gilt sales into an accelerating headline.
-- **UK CPI Aug 3.1%** (from 2.9%; ONS ✓primary, rel. **9/16, the day before the BoE held**). **Core 2.6% and services 3.4% BOTH UNCHANGED**; all of it motor fuels **+23.0% y/y**, petrol 161.3p, highest since Nov 2022. ⚠️ **Crosses `VX-HANS-4.08` Yellow(3.0) first time — a VECTOR band, not a HANS-T threshold, no fire row.**
-- **EA HICP Aug FINAL 3.2%**, flash was 3.3 (Eurostat ✓primary, rel. 9/17). Energy **+14.3% = 1.29pp of the 3.2**; **core 2.4% UNREVISED**. **Strip energy and the euro area is at target.** 🔴 **I carried the flash for 17 days — the flash/final rule, now on HICP.** New vector **`VX-HANS-4.10`** exists because its *absence* was the defect: the ECB's own target variable had **no VX surface and so no staleness supervision.**
-- **Lagarde, RTÉ Dublin 9/18** (⛔**SECONDARY** — no ECB transcript; do not route the quotes onward as ECB communication): "meeting by meeting", cuts **"very unlikely at the moment"**, *"a central bank cannot drill and find fossil energy"*, **no second-round effects yet.** 🟠 ⇒ **`T-04` IS NOT A LEAN EITHER WAY FOR 10/29** — cuts ruled out, hikes not promised, energy explicitly **not** a mechanical trigger. **My hawkish-because-energy leg was the stronger half of the 9/18 ambiguity call, and it weakens.**
+**The sweep's headline: the two things most wrong were invisible to every check I had — and one was invisible *because* the checker reads the file it cannot weigh.**
+- 🔴 **CORE INFLATION NOW HAS A SURFACE.** `VX-HANS-4.11` (EA core **2.4**) · `4.12` (UK core **2.6**) · **`T-16`/`T-17` registered as FALSIFIERS**, sustain 2. **My central claim is "the overshoot is entirely energy, core did not move" and core had no vector, no threshold, no supervision** — I built `4.10` the day before for "the ECB's target variable" and chose the **headline**, the number my own analysis calls contaminated.
+- 🔴 **`VX-HANS-4.01` carried a CUTTING-cycle sign** (1.75/1.50/1.25 descending) while `T-04` fires **upward** at ≥2.75 — **a threshold and its own surface pointing opposite ways.** Re-signed; `4.02` (BoE) the same, value sitting **exactly on the old Red** while the cell read GREEN.
+- 🔴 **`doc_audit` C10 (state == band function) + C11 (threshold and surface face the same way), 6 falsification tests, 67 total.** **ZHAO proved these are two tests, not one.** **10 rows worked one at a time** — stale values, obsolete bands (TTF carried 15/20/25 against €79), a **name that was a misnomer** (`8.04` is a RATIO, not a spread), and four wrong states incl. **OAT reading ORANGE beside a NOT-FIRED `T-10`**.
+- 🔴 **`CLAUDE.md` was OVER the read-cap (32,961 vs 32,550) and nothing measured it** — the fleet checker opens the charter to find *other* files. Rotated to **22,406 B** via new **`CHARTER_PROVENANCE.md`**; `C6-CHARTER-BYTES` added locally; **fleet gap flagged to PROME**, not patched at root.
+- **Restored VX notes I had overwritten** (they destroyed provenance pointers — one research file read as retirement-eligible hours later). **4 stale facts superseded, 4 files archived.** `KB-023` survived as ACTIVE because it **declared the deposit-rate vector for an HICP fact** — a mis-declared surface is invisible to C8.
 
-⚠️ **HEADLINE TRAP I ALMOST TOOK:** the wire ran *"Lagarde keeps door open to early exit."* The exit is **her leaving the ECB presidency** — **not the hiking cycle.** Read as policy it inverts.
-🔴 **NEAR-MISS NOT SHIPPED → `ML-HANS-458`.** The same release prints **2.1%** beside my **core 2.4%**, and *"core revised down, the hawkish leg collapses"* is clean, plausible and **wrong**: 2.1 is *"ex energy, unprocessed food"*, 2.4 is *"ex energy, food, alcohol & tobacco"* — **both releases print both, both agree, core was UNREVISED.** With food at 1.1% the broader aggregate sits *below* the narrower one, which is what makes the false read look dovish. **Two numbers sharing a nickname are not a comparison.** The real 3.3→3.2 revision sat in the same release as the fake one.
+🔴 **THREE DEFECTS I INTRODUCED WHILE FIXING, ALL CAUGHT BY THE NEW TESTS → `ML-HANS-463`:** two C10 exemptions that **named a defect then excused it**; a band I **"repaired" to make a wrong state look right**; **C11 inheriting a C3-only exclusion of `T-04` — the exact row the defect was on.** ⇒ **RULE #1d.**
+⚠️ **STILL OPEN (owed rows 18–19):** Belgium's Yellow(550) is **UNREACHABLE** (high 482.5) ⇒ permanently yellow, *correct and uninformative*. `8.05` (88d) and `11.04` (64d RED, arguably HAWK/BRENT scope) stale.
 
-### 🔴 TIC JULY (rel. 9/17, Treasury Table 5 ✓primary) — **8 vectors were 64d stale; all refreshed** → `KB-HANS-085`
+## SESSION 2 — NEWS CATCH-UP: **THE OVERSHOOT HAS NO CORE LEG, ON EITHER SIDE OF THE CHANNEL.** Full block → `workbook/2026-09-18_SESSION2_NEWS_CATCHUP.md` · `KB-HANS-084`–`088`
 
-**$bn (m/m):** **UK 998.3 (+58.4)** · **France 348.4 (−41.5)** · Belgium 470.7 (−11.8, off the June ATH) · Lux 442.1 (+7.9) · Ireland 350.2 (−3.3) · Swiss 284.8 (−0.1) · Cayman 460.1 (+7.0) · **Total 9,248.1 (−50.4), lowest since Oct 2025.**
-**France sold −$41.5bn in July after −$20.9bn in June = −$62.4bn in two months, ~16% of the level — the window OAT–Bund ran to a 1-year high.** ⚠️ **Direction agrees; causation NOT established and I am not routing it as one** — Treasury's own footnote (*overseas custody accounts may not be attributed to the actual owners*) **cuts both ways.** ⚠️ **UK +$58.4bn to just under $1tn is a CUSTODY / basis-trade node, never UK official demand.** 🔴 **`VX-HANS-1.08` (Top 7) now MIXES TWO VINTAGES** — six legs at July, **Germany still Feb-2026, sought at primary today and not found. Cite the six-leg sum 2,894.5, never the total.**
+**Three prints, one mechanism read twice — which is *why* the BoE could pause gilt sales into an accelerating headline.**
+- **UK CPI Aug 3.1%** (ONS ✓primary, rel. **9/16, the day before the BoE held**). **Core 2.6% and services 3.4% BOTH UNCHANGED**; all of it motor fuels **+23.0% y/y**.
+- **EA HICP Aug FINAL 3.2%** (flash 3.3; Eurostat ✓primary). Energy **+14.3% = 1.29pp of the 3.2**; **core 2.4% UNREVISED. Strip energy and the euro area is at target.** 🔴 I carried the flash 17 days.
+- **Lagarde 9/18** (⛔**SECONDARY**, RTÉ — not ECB comms, do not route the quotes onward): cuts **"very unlikely"**, *"a central bank cannot drill and find fossil energy"*, **no second-round effects yet.** 🟠 ⇒ **`T-04` is NOT a lean either way for 10/29** — my hawkish-because-energy leg was the stronger half of the 9/18 ambiguity call and it weakens.
+⚠️ **Headline trap I almost took:** *"Lagarde keeps door open to early exit"* is **her leaving the presidency**, not the hiking cycle. 🔴 **Near-miss not shipped (`ML-HANS-458`):** the same release prints **2.1%** beside my **core 2.4%** — a **different aggregate**, not a revision. **Two numbers sharing a nickname are not a comparison.**
 
-### ⚖️ GERMAN 2027 BUDGET AT PRIMARY (Bundestag 9/8) → `KB-HANS-088`
+🔴 **TIC JULY** (Treasury ✓primary) — **8 vectors were 64d stale, all refreshed.** **UK 998.3 (+58.4)** · **France 348.4 (−41.5)** · Belgium 470.7 (−11.8) · Lux 442.1 · Ireland 350.2 · Swiss 284.8 · Cayman 460.1 · **Total 9,248.1 (−50.4), lowest since Oct 2025.** **France −$62.4bn over two months, ~16% of the level**, in the window OAT–Bund hit a 1-yr high. ⚠️ **Direction only — causation NOT established**; Treasury's custody footnote cuts both ways. ⚠️ **UK is a custody/basis-trade node, never official demand.** 🔴 `VX-HANS-1.08` **mixes two vintages** — Germany sought at primary and **not found in Table 5**; cite the six-leg sum **2,894.5**.
 
-**`KB-051`'s "€203bn vs €118.7bn" was NEVER a contradiction — two perimeters.** €118.7bn = **core federal** NKA (vs €98.0bn in 2026) ✓primary; €203.6bn = core **+** €54.9bn infra fund (✓primary) **+** €30bn Bundeswehr fund (secondary). **State the perimeter in every citation.**
-🔴 **DEBT SERVICE €41.8bn 2027 vs €30.3bn 2026 — +38% IN ONE YEAR** ✓primary. **The Bund at a 15-year high arriving *inside* the budget** — the common-mode **LEVEL** channel I named to PROME as the unheld leg of the rearmament read, now with a number — **and self-reinforcing: the borrowing that lifts the yield raises the service cost that widens the borrowing.** *(Einzelplan 14 €109.7bn 2027 from €82.2bn, €153.9bn 2028 — **SECONDARY**.)*
-⚠️ **`VX-HANS-11.03` refreshed off 64d stale, re-statused `NA-WRONG-UNIT`:** **name** (EU 5-yr issuance), **value** (German annual spend) and **bands** (EU 5-yr cumulative) are **three constructs.** ⛔ **Do not read its colour — it cannot fire.**
+⚖️ **GERMAN 2027 BUDGET AT PRIMARY** (Bundestag 9/8): `KB-051`'s **"€203bn vs €118.7bn" was never a contradiction — two perimeters** (core NKA vs core + €54.9bn infrastructure ✓primary + €30bn Bundeswehr, secondary). 🔴 **DEBT SERVICE €41.8bn 2027 vs €30.3bn 2026 — +38% IN ONE YEAR** ✓primary: **the Bund at a 15-year high arriving *inside* the budget**, and self-reinforcing.
+
 
 ## SOVEREIGN / FX BOARD — ALL LEVELS 2026-09-18
 
@@ -136,22 +140,22 @@ Rate HELD 3.75%, the least important half. Of **£488.2bn** APF: **£222bn** pre
 
 🔴 **FIRST: `python3 scripts/doc_audit.py`** (RULE #1b) — **see owed #15: it reads clean over surfaces it does not scan.**
 🔴 **SECOND: the CONTRACT ROLL lands 9/28 (`NG=F`) / 9/29 (`TTF=F`).** `KB-HANS-079`/`081` expire **9/25** so boot raises it **before** the roll. **`T-07` is a LEVEL ladder with L1+L2 FIRED: never grade a rung crossing across a roll.**
-⚠️ **Closeout 1c has TWO forms; `--self` is the only one seeing figures I superseded.** 9/18: **13 🔴, ZERO data defects.** ⛔ **Residual 13 NOT to be cleared** — silencing a graded row resolves a flag backwards → `ML-HANS-456`.
+⚠️ **Closeout 1c has TWO forms; `--self` is the only one seeing figures I superseded.** ⛔ **Residual 13 NOT to be cleared** — silencing a graded row resolves a flag backwards → `ML-HANS-456`.
 
 | # | Owed | Due |
 |---|---|---|
-| 3 | **`HNS-06`** — German Mfg PMI ≥50.0, **9/23 07:30 UTC**. **Grade the FLASH, not the final** | **2026-09-23** |
-| 4 | **ESRB `esrb.report202602` at primary** — ⛔ no onward routing until read | open |
+| 3 | **`HNS-06`** — German Mfg PMI ≥50.0, **9/23 07:30 UTC**. **Grade the FLASH** | **2026-09-23** |
+| 4 | **ESRB `esrb.report202602` at primary** — ⛔ no onward routing until read | 🔴 |
 | 5 | 🔴 **TWO BASIS GAPS, one DECIDES A THRESHOLD.** (a) **OAT ~10bp** — both `T-10` trip lines sit inside it. (b) **UK 10Y** BoE `IUDMNPY` vs TE. **Pin both before either is cited** | 🔴 |
-| 5b | **No free DAILY CLOSE source for gilts.** Lead: DMO `ExportReport?reportCode=D4H`, needs a form POST. **One session; closes `T-06`/`T-13`** | open |
-| 8 | **AGSI UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY`; boot §[2] blind on storage. **Will-facing ask**, `agsi.gie.eu/account` | open |
-| 9 | **`T-08` has NO registered EXIT CONDITION** + a cross-source gap. Proposed: AGSI-derived norm, exit inside −12pp for 5 gas days | next boot |
-| 12 | **`HNS-07` drifting against me on pace.** Decide **in advance** what justifies a re-mark | before 11/01 |
+| 5b | **No free DAILY CLOSE gilt source.** Lead: DMO `ExportReport?reportCode=D4H`, needs a form POST | open |
+| 8 | **AGSI UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY`; boot §[2] blind on storage. **Will-facing ask** | open |
+| 9 | **`T-08` has NO registered EXIT CONDITION** + a cross-source gap. Proposed: AGSI-derived norm, exit inside −12pp, 5 gas days | next boot |
+| 12 | **`HNS-07` drifting against me on pace.** Decide **in advance** what justifies a re-mark | 11/01 |
 | 13 | **Re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism | open |
-| 14 | ✅ **CLOSED 9/18 s2.** **Successor owed:** split `VX-HANS-11.03` into (a) German annual outlay and (b) a real EU issuance series with matching bands | 🟠 |
-| 15 | 🆕 🔴 **`doc_audit` C2 DOES NOT SCAN `STATUS.md`** — registry and `VX.tsv` only, so **the superseded EA HICP 3.3% sat in my STATUS table and the audit reported 0 findings.** Owed: **C9 over STATUS/CLAUDE, reusing C8's citation detector** → `ML-HANS-459` | 🔴 |
-| 16 | 🆕 **`VX-HANS-1.07` Germany UST** — sought at TIC primary today, **not in Table 5**; keeps `VX-HANS-1.08` mixed-vintage. Find it or retire the aggregate | 🟠 |
-| 17 | 🆕 **STATUS ROTATION FINISHED <70% this session** (89%→<70%; 5 verbatim block files). `read_cap_check` cannot tell a just-rotated file from a never-breached one — **the owner records it: rotated, and finished** | ✅ |
+| 14 | **Split `VX-HANS-11.03`** into (a) German annual outlay and (b) a real EU issuance series with matching bands | 🟠 |
+| 15 | 🔴 **`doc_audit` C2 still does NOT scan `STATUS.md`** — registry and `VX.tsv` only. C9 owed, reusing C8's citation detector → `ML-HANS-459` | 🔴 |
+| 16 | **`VX-HANS-1.07` Germany UST** — sought at TIC primary, **not in Table 5**; keeps `1.08` mixed-vintage. Find it or retire the aggregate | 🟠 |
+| 17 | **STATUS + CLAUDE.md both rotated <70% this session.** `read_cap_check` cannot tell a just-rotated file from a never-breached one — **the owner records it: rotated, and finished** | ✅ |
 
 ## 🔴 POST-COMMIT AUDIT (session 1) — **5 DEFECTS IN MY OWN WORK, ALL FIXED.** Rotated verbatim → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
 
