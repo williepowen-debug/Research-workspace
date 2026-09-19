@@ -98,7 +98,7 @@
 | 🟠 **Sep 15 (Tue)** | **NTTO July arrivals — `ES-MARCO-09` COMBINED-LEG RESOLVER** off the PRIMARY WORKBOOK's vs-2019 column. PASS/thesis weakens if Jun+Jul overseas ≥5.5M **AND** ≥−10% vs 2019. ⛔ **Do not resolve off the derived three-hop chain** — this read also unblocks `VX-1.02` | 🟠 |
 | 🟠 **Sep 15 (Tue)** | **StatCan August travel + FL winter schedules.** Air stack back above −25% ⇒ FL snowbird thaw. **This series is also the `ID-01` instrument** — publish auto AND air levels beside the gap | 🟠 |
 | 🟠 **Sep 18 (Fri)** | FL Citizens assumption round — **ask CORAL for the refreshed PIF; do not re-derive** | 🟠 |
-| 🟡 **~Oct–Dec** | **FL airport Q3 pax (MIA/MCO/FLL) — the `MAR-24` resolver. BTS runs ~3mo behind, so Q3 completes ~Dec**, not 9/30. All 3 negative ⇒ MAR-24 fires — ⚠️ **but the standing routing rule (🟠 → REGINALD/CARL/PROME) would dispatch a SUPPLY artifact as regional stress; the ex-Spirit qualifier must travel with it** | 🟡 |
+| 🟡 **~Oct–Dec** | **FL airport Q3 pax (MIA/MCO/FLL) — the `MAR-24` resolver. BTS runs ~3mo behind, so Q3 completes ~Dec**, not 9/30. ✅ **Routing re-specified 9/19: the trigger is CARRIER-ADJUSTED and MIA is the primary tell, so the ex-Spirit qualifier travels by construction.** Grade on REVISED data or state the vintage | 🟡 |
 | **Nov 3** | FL property-tax Amendment 3 / HJR 1F — caps new-resident homestead exemption at $50K/5yr vs $150K→$250K for existing. **Anti-migration by design.** Poll 64%±3.8 vs a 60% bar — tight | 🟠 |
 
 *Full forward docket (StatCan travel, FL Realtors, Banxico state-of-origin, OFLC H-2A, FL airports, ICE Q4, Census annual) → `docket/CALENDAR.md`.*
