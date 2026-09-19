@@ -42,6 +42,22 @@ def run(cmd, cwd):
         return None, f"{type(e).__name__}: {e}"
 
 
+# 🔴 `lambda rc: rc is not None` WAS A HOLE THAT ACCEPTED A CRASH. Steps 9a/9b/10 legitimately
+# exit NON-ZERO to mean "I found something" (consumer_check flags, ledger_staleness nudges),
+# so the predicate was written to accept any rc — and therefore accepted rc=3 from a
+# traceback too. Verified 2026-09-19 by injecting a stub that printed "BOOM" and exited 3:
+# the runner printed "✅ RAN ... rc=3" for BOTH consumer steps. It only exited 1 because an
+# unrelated test failed; crash something no test covers and it certifies 8/8, 0 failed.
+# ⛔ THAT IS THIS RUNNER'S OWN FAILURE MODE REPRODUCED — it exists because ML-HANS-456 was
+# "six checks green around the one that never ran".
+# The fix distinguishes a SIGNALLING exit from a BROKEN one by its documented range: these
+# tools signal with 1 (and consumer_check with 2 for a certified-stale finding). Anything
+# else, including any rc>=3, is a crash [[finding_lenient_parser_reports_unparseable_as_a_behavior]].
+def _clean_or_flagged(rc):
+    """True only for a DOCUMENTED exit code. A traceback is not a behaviour."""
+    return rc in (0, 1, 2)
+
+
 # (step label, argv, cwd, "ok" predicate on rc)
 STEPS = [
     ("1  doc_audit (RULE #1b)",
@@ -50,13 +66,13 @@ STEPS = [
      ["bash", "scripts/orphan_check.sh", "HANS"], ROOT, lambda rc: rc == 0),
     ("9a root 1c · consumer CROSS-AGENT",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--from-ledger"], ROOT, lambda rc: rc is not None),
+      "--from-ledger"], ROOT, _clean_or_flagged),
     ("9b root 1c · consumer --SELF  <- the one that went missing",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--self", "--from-ledger"], ROOT, lambda rc: rc is not None),
+      "--self", "--from-ledger"], ROOT, _clean_or_flagged),
     ("10 root 1c-bis · ledger nudge",
      [sys.executable, "scripts/ledger_staleness.py", "--nudge", "HANS"],
-     ROOT, lambda rc: rc is not None),
+     ROOT, _clean_or_flagged),
     ("11 root 1e · claim check",
      [sys.executable, "scripts/claim_check.py", "--check", "weekday",
       "AGENTS/HANS/STATUS.md", "AGENTS/HANS/workbook/KB.tsv",

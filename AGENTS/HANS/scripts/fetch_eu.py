@@ -71,7 +71,7 @@ BOE = "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.as
 # STRADDLE THAT LINE, so swapping the row's source would have banked a friendlier state off
 # a basis change. The ORANGE trip (>5.50) is ~26bp away, far outside the ~5bp basis gap, so
 # breach detection here is sound; the WATCH tier is not, and is left to the row.
-BOE_SERIES = (("UK 10Y gilt (par)", "IUDMNPY", "HANS-T-06 (orange leg only)", (5.50, None)),
+BOE_SERIES = (("UK 10Y gilt (par)", "IUDMNPY", "cross-check on VX-HANS-3.06 — NOT a T-06 trigger", (5.50, None)),
               ("UK 20Y gilt (par)", "IUDLNPY", "proxy only — NOT T-13", (None, None)),
               ("BoE Bank Rate",     "IUDBEDR", "VX-HANS-4.02", (None, None)))
 
@@ -95,13 +95,32 @@ def boe(series, days=14):
     # series code returns 200 with "Object Moved". Both must read as FAILURE, not as zero.
     if "<" in txt[:200] or "DATE" not in txt.upper():
         return None
-    rows = [l for l in txt.strip().split("\n")[1:] if "," in l]
-    for line in reversed(rows):
-        d, _, v = line.partition(",")
+    lines = [l for l in txt.strip().split("\n") if l.strip()]
+    # 🔴 THE HEADER NAMES THE SERIES AND MUST BE CHECKED AGAINST WHAT WE ASKED FOR.
+    # Flagged by CATO 2026-09-19: the parser accepted a IUDLNPY (20y) body in answer to an
+    # IUDMNPY (10y) request and returned it as the 10y. That is the VX-HANS-5.01 referent
+    # defect arriving over the wire — a real number, correctly parsed, for the wrong thing.
+    hdr = [h.strip().upper() for h in lines[0].split(",")]
+    if series.upper() not in hdr:
+        return None
+    col = hdr.index(series.upper())
+    import math
+    from datetime import datetime
+    for line in reversed(lines[1:]):
+        cells = [c.strip() for c in line.split(",")]
+        if len(cells) <= col:
+            continue
         try:
-            return d.strip(), float(v)
+            v = float(cells[col])
         except ValueError:
             continue
+        if math.isnan(v) or math.isinf(v):
+            continue                  # NaN parsed fine and would have published as a level
+        try:
+            datetime.strptime(cells[0], "%d %b %Y")
+        except ValueError:
+            continue                  # an unparseable date cannot carry an age, so it is unusable
+        return cells[0], v
     return None
 
 
@@ -238,8 +257,18 @@ def agsi_norm(gas_day, years=5):
                 got.append((y, float(recs[0]["full"])))
         except Exception:
             continue          # one missing year is survivable; the quorum test below is not
-    if len(got) < years - 1:
-        why = "" if got else " — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history"
+    # 🔴 WAS `len(got) < years - 1`, i.e. FOUR years silently satisfied a "5-yr norm".
+    # Flagged by CATO 2026-09-19 and confirmed: the label said 5 and the quorum said 4, so a
+    # missing year changed the BASIS of a published figure with nothing to show for it —
+    # and this norm decides whether an open fire can close. A norm is now computed from the
+    # FULL window or not at all; a short window returns None and the caller prints no gap.
+    # If a 4-year fallback is ever wanted it must be LABELLED 4-year at every surface, which
+    # is a different metric, not a lenient version of this one.
+    if len(got) < years:
+        why = (" — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history"
+               if not got else
+               f" — a {years}-year norm is computed from {years} years or not at all; "
+               f"a short window would silently change the BASIS of the published gap")
         return None, None, len(got), f"only {len(got)}/{years} historical years reachable{why}"
     vals = sorted(v for _, v in got)
     n = len(vals)
@@ -347,11 +376,22 @@ def main():
             failures.append(f"BoE {label} [{code}]")
             continue
         d, v = got
+        # ⛔ CROSS-CHECK ONLY — THIS FEED DOES NOT TRIGGER HANS-T-06.
+        # I first wired the breach here, arguing the ORANGE line was ~26bp away, far outside
+        # the ~5bp basis gap. CATO's objection 2026-09-19 is correct and I accept it:
+        # BEING COMFORTABLY BELOW A THRESHOLD TODAY DOES NOT VALIDATE THE SUBSTITUTION NEAR
+        # A FUTURE CROSSING — and a crossing is the only moment the wiring matters. The
+        # basis gap is unreconciled (owed #5: 5.2421 [09-16] par vs TE 5.29 [09-18]
+        # benchmark differ in date AND basis at once), so a par yield must not fire a
+        # threshold calibrated on a benchmark yield. It is reported, and it is watched.
         em = ""
         if bands[0] is not None:
-            em = " 🟠 ORANGE" if v > bands[0] else " 🟢"
+            em = ("  ⚠️ ABOVE the T-06 orange line ON THIS BASIS — NOT a fire; "
+                  "reconcile the basis (owed #5) and grade on the row's own source"
+                  if v > bands[0] else "  🟢 below the T-06 orange line on this basis")
             if v > bands[0]:
-                breached.append(tag.split()[0])   # bare threshold id, never the annotation
+                failures.append(f"UK 10Y par {v:.4f} > T-06 orange on the CROSS-CHECK basis "
+                                f"— unreconciled, needs a human read")
         # ⚠️ AGE IS PRINTED BESIDE THE LEVEL, ALWAYS. IADB is a LAGGED primary — on Sat
         # 2026-09-19 the newest gilt observation was Wed 09-16 while the Bank Rate series
         # had 09-17, so the lag differs BY SERIES. A lagged number printed without its age
@@ -366,7 +406,7 @@ def main():
         except Exception:
             pass
         print(f"     {label:20s} {v:7.4f}%  [{d}]{age}   {tag}{em}")
-        obs.append((tag, v, d))
+        obs.append((f"BOE:{code}", v, d))
     print("     ⚠️  NOMINAL PAR YIELDS — a different basis from a benchmark/spot quote;")
     print("        expect a few bp against TradingEconomics. Name the basis, never average.")
 

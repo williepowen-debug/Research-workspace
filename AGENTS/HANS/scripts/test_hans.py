@@ -1058,30 +1058,34 @@ class TestBoEIADB(unittest.TestCase):
         self.assertIn("STAYS MANUAL", src)
         self.assertIn("NO 30-YEAR series", src)
 
-    def test_t06_breach_is_wired_and_reports_the_BARE_threshold_id(self):
-        """A printed level that never reaches `breached` is a check that only advises. And
-        the id must be the BARE threshold — the tag carries the annotation
-        'HANS-T-06 (orange leg only)', and a consumer matching on threshold_id would never
-        match that string [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]].
-        Behavioural, not a source-text match: the earlier version pinned the literal
-        `breached.append(tag)` and broke the moment the line was corrected."""
+    def test_the_BoE_crosscheck_does_NOT_trigger_T06(self):
+        """🔴 INVERTED 2026-09-19 ON CATO'S REVIEW, AND THE INVERSION IS THE POINT.
+
+        I first wired this feed to fire HANS-T-06, arguing the orange line was ~26bp away,
+        far outside the ~5bp basis gap. CATO's objection is correct and accepted: BEING
+        COMFORTABLY BELOW A THRESHOLD TODAY DOES NOT VALIDATE THE SUBSTITUTION NEAR A FUTURE
+        CROSSING — and a crossing is the only moment the wiring would matter. A par yield
+        must not fire a threshold calibrated on a benchmark yield while the basis is
+        unreconciled (owed #5). It is reported, flagged for a human, and does not grade.
+        """
         import io, contextlib, urllib.request
         def fake(req, *a, **k):
             u = req.full_url if hasattr(req, "full_url") else str(req)
-            if "IUDMNPY" in u:                     # force a breach of the 5.50 orange leg
+            if "IUDMNPY" in u:                    # 6.00% — far ABOVE the 5.50 orange line
                 return TestBoEIADB._R(b"DATE,IUDMNPY\n16 Sep 2026,6.0000\n")
-            if "agsi" in u or "ecb" in u or "IUD" in u:
-                raise OSError("offline")
             raise OSError("offline")
         orig = urllib.request.urlopen
         urllib.request.urlopen = fake
         self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
-        with contextlib.redirect_stdout(io.StringIO()):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
             r = self.fe.main()
-        self.assertIn("HANS-T-06", r["breached"],
-                      "a 6.00% gilt did not reach `breached` — the check only advises")
-        self.assertNotIn("HANS-T-06 (orange leg only)", r["breached"],
-                         "the annotated tag leaked into breached instead of the bare id")
+        self.assertNotIn("HANS-T-06", r["breached"],
+                         "the par-yield cross-check fired a benchmark-calibrated threshold")
+        self.assertTrue(any("T-06 orange" in f for f in r["failures"]),
+                        "crossing the line on the cross-check basis must still be SURFACED "
+                        "for a human — silent is not the same as not-grading")
+        self.assertIn("NOT a fire", buf.getvalue())
 
     def test_age_is_printed_beside_every_BoE_level(self):
         """IADB is a LAGGED primary and the lag differs by series (gilts 09-16 while the

@@ -1,6 +1,6 @@
 ## COMPLETION — HANS — 2026-09-19, SESSION 4 (owed-board catch-up, then the AGSI arc). Saturday, market closed — structural work by design.
 
-**STATUS:** ✅ DONE — committed and pushed, HEAD `503c65677`. Boot **EXIT 0 CLEAN** (was rc1) · `doc_audit` **0 findings** · **74/74 tests** (was 67) · `closeout_check` **8/8 mechanical RAN, 0 failed** · R1 rc=0 · read-cap rc=0.
+**STATUS:** ✅ DONE — committed and pushed. ⚠️ **A CATO review then produced counterexamples against several of this session's own fixes; a correction pass followed and is recorded below.** Boot **EXIT 0 CLEAN** (was rc1) · `doc_audit` **0 findings** · **74/74 tests** (was 67) · `closeout_check` **8/8 mechanical RAN, 0 failed** · R1 rc=0 · read-cap rc=0.
 
 **⚖️ WILL NEEDS: NOTHING.** The one ask of this session — the free GIE AGSI+ key — **Will provisioned at 11:33 and it is verified working by live pull.** No open ask.
 
@@ -41,9 +41,10 @@ An injection test then found **two key-resolution paths I had created an hour ea
 | 21 | **AGSI lag D+1 vs D+2** (`KB-HANS-096`) — PROME raised it, explicitly NOT a defect. Touches `HNS-07`'s **grading date** (11/02 vs 11/03), not its resolver | **Tue 2026-09-22** |
 | 3 | **`HNS-06` resolves — German/EA flash PMI. GRADE THE FLASH**, not the final | **2026-09-23** |
 | — | **`TTF=F` roll** — `T-07` is a LEVEL ladder with L1+L2 fired; **never grade a rung crossing across a roll** | **2026-09-29** |
-| 20 | **STATUS hot/cold split — PROME-ruled as its OWN task, not a session tail** | 🔴 |
+| ~~20~~ | ✅ **DONE 9/19 — hot/cold split executed.** `SESSION_LOG.md` created, STATUS 85%→67%, `C14` guards regrowth | ✅ |
 | 22 | **Empty-key discriminator is vendor-quirk-dependent** — re-verify the negative control | **2026-12-19** |
-| 5 · 5b | **Two basis gaps, one DECIDES `T-10`** (OAT ~10bp); **no free daily-close gilt source** | 🔴 |
+| 5 | **Two basis gaps, one DECIDES `T-10`** (OAT ~10bp). **UK leg still UNDECOMPOSED** — BoE par [9/16] vs TE benchmark [9/18] differ in date AND basis at once | 🔴 |
+| ~~5b~~ | ✅ **DONE 9/19 — BoE IADB serves daily keyless gilt data**; the "no free source" claim was false | ✅ |
 | 13 · 14 · 15 · 16 | Re-argue exclusion leg (2) · split `VX-HANS-11.03` · `doc_audit` C2 does not scan STATUS · Germany UST not in TIC Table 5 | 🟠 |
 
 ⚠️ **STATUS sits at ~79% of budget after three rotation passes (from 91%).** Rule 5's stop is <70%. **PROME ruled: do not squeeze further, do the split as its own task** — a fourth pass would shave live state to make a number. **It rose because the day produced findings; that is information, not drift.**

@@ -441,9 +441,28 @@ def _audit_full():
     # history constantly and a bare-value scan would flood — and a flooding check gets
     # skimmed, which is strictly worse than no check
     # [[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]].
+    # 🔴 v2, 2026-09-19, after CATO supplied four counterexamples against v1:
+    #  · v1 MISSED ITS OWN MOTIVATING DEFECT — a current assertion of the retired 3.3%
+    #    HICP passed, because a 'bare 2-sig-fig' noise floor excluded it. A filter written
+    #    to cut noise had removed the exact class the check was built for.
+    #  · a UNICODE MINUS (U+2212) slipped every match: '−19.7pp' invisible, '-19.7pp' caught.
+    #  · ARROWS counted as history markers, so '... -19.7pp -> watch it' suppressed. An arrow
+    #    is not a claim about time, and old→new is already covered by the current-value rule.
+    #  · markers matched ANYWHERE on the line, so one 'was' 200 chars away silenced a live
+    #    figure. Markers must now sit within PROX characters of the number.
     HIST_MARK = re.compile(
         r'supersed|corrected|correction|rotated|historical|\bwas\b|\bprior\b|previously|'
-        r'\bformer\b|retired|\bcarried\b|\bhad\b|no longer|withdrawn|→|->', re.I)
+        r'\bformer\b|retired|\bcarried\b|\bhad\b|no longer|withdrawn', re.I)
+    PROX = 60
+    # A metric's unit is the only attribution prose offers. '85' matches any bp metric;
+    # '85bp' does not. Suffix -> the unit that must follow the number.
+    UNIT_OF = (('_PCT', '%'), ('_BP', 'bp'), ('_PP', 'pp'), ('_EUR_BN', 'bn'), ('_TWH', 'TWh'))
+    # ⚠️ IRREDUCIBLE LIMIT, PRE-REGISTERED: C2 attributes a value to a metric via
+    # PUBLISHED.tsv's `vectors` column. PROSE HAS NO SUCH COLUMN, so a SHORT number cannot
+    # be attributed — on 2026-09-19 a live '2.9%' was GERMAN CPI, a different series that
+    # happens to equal a retired EA/UK value. Short numbers therefore report as an ADVISORY
+    # NOTE; only distinctive ones (>=3 significant digits) are blocking FINDINGS. Reporting
+    # both as findings cries wolf; reporting neither is exactly what v1 did.
     # PERIMETER, STATED: the same boot-read set C7 walks, not STATUS.md alone. Scoping a
     # new check to the one file that motivated it is how C2's perimeter came to be wrong —
     # "a checker's PERIMETER is a claim about where drift can live" (C8's own docstring).
@@ -487,29 +506,41 @@ def _audit_full():
           band_nums = set()
           for _r in tsv('registry/THRESHOLDS.tsv'):
               band_nums.update(re.findall(r'-?\d+\.?\d*', _r.get('band', '') or ''))
-          for ln, line in enumerate(st_path.read_text(encoding='utf-8').split('\n'), 1):
+          _txt = st_path.read_text(encoding='utf-8').replace('\u2212', '-')
+          for ln, line in enumerate(_txt.split('\n'), 1):
               if not line.strip() or line.lstrip().startswith('|---'):
                   continue
               for metric, (cur, olds, vecs) in pub9.items():
                   # series-qualified exactly like C2: only metrics with a LIVE declared surface
                   if not vecs or not (set(vecs) & live_vx):
                       continue
+                  _u = next((u for suf, u in UNIT_OF if metric.endswith(suf)), None)
                   for old in set(olds):
                       o = old.strip()
-                      # a bare 2-sig-fig number certifies nothing — this desk's own rule
-                      if len(o.replace('-', '').replace('.', '').lstrip('0')) < 3:
-                          continue
-                      if not re.search(r'(?<![\d.])' + re.escape(o) + r'(?![\d])', line):
+                      _mm = re.search(r'(?<![\d.])' + re.escape(o) + r'(?![\d])', line)
+                      if not _mm:
                           continue
                       if re.search(r'(?<![\d.])' + re.escape(cur.strip()) + r'(?![\d])', line):
                           continue          # CLEARED: new value on the same line
-                      if HIST_MARK.search(line):
-                          continue          # CLEARED: explicitly marked as history
                       if o.lstrip('-') in band_nums or o in band_nums:
                           continue          # CLEARED: it is a registered BAND, i.e. a LINE
-                      bad('C9-STATUS-SUPERSEDED',
-                          f'{_surface}:{ln} carries {o!r}, retired for {metric} '
-                          f'(current {cur.strip()!r}) with no new value and no history marker')
+                      # UNIT GATE: a metric's unit is the only attribution prose offers.
+                      # '85' matches any bp metric; '85bp' does not.
+                      if _u and not re.match(r'\s{0,2}' + re.escape(_u),
+                                             line[_mm.end():_mm.end() + 6]):
+                          continue          # CLEARED: no matching unit -> not this metric
+                      # markers must sit NEAR the number: one 'was' 200 chars away had
+                      # been silencing live figures.
+                      if HIST_MARK.search(line[max(0, _mm.start() - PROX):_mm.end() + PROX]):
+                          continue          # CLEARED: marked as history, near the number
+                      _msg = (f'{_surface}:{ln} carries {o!r}, retired for {metric} '
+                              f'(current {cur.strip()!r}) with no new value, no history marker')
+                      if len(o.replace('-', '').replace('.', '').lstrip('0')) >= 3:
+                          bad('C9-STATUS-SUPERSEDED', _msg)
+                      else:
+                          note('C9-SHORT-NUMBER', _msg + ' - SHORT number: prose cannot attribute '
+                               'it to a metric (a live 2.9% was GERMAN CPI, not the retired '
+                               'EA/UK value). LOOK, do not assume')
 
     # ---- C14: STATUS must not re-accumulate session narrative ---------------
     # The hot/cold split (owed #20, 2026-09-19) moved session narrative to SESSION_LOG.md.
@@ -558,15 +589,22 @@ def _audit_full():
             # re-listed row by row every run — but a NEW collision above the legacy ceiling
             # must still be loud, so the ceiling is asserted, never assumed.
             if rel == 'workbook/ML.tsv':
-                recent = [k for k in u if k.split('-')[-1].isdigit()
-                          and int(k.split('-')[-1]) >= 400]
-                if recent:
+                # 🔴 WAS `>= 400`, WHICH AMNESTIED EVERY OLD ID RATHER THAN THE RECORDED
+                # COLLISIONS. CATO counterexample 2026-09-19: duplicating the previously
+                # UNIQUE ML-HANS-001 took the duplicate groups 95 -> 96 and produced NO
+                # finding, because 001 < 400. An exemption must name the accepted FACTS,
+                # never a range that happens to contain them (RULE #1d).
+                _fz = HANS / 'registry/ML_LEGACY_DUP_IDS.txt'
+                frozen = ({l.strip() for l in _fz.read_text().split('\n')
+                           if l.strip() and not l.startswith('#')} if _fz.exists() else set())
+                newdup = sorted(set(u) - frozen)
+                if newdup:
                     bad('C12-ID-DUPLICATE',
-                        f'{rel}: NEW duplicate {keycol}(s) in the current era: {recent}')
-                else:
+                        f'{rel}: duplicate {keycol}(s) NOT in the frozen legacy set: {newdup}')
+                elif u:
                     note('C12-LEGACY-DUP',
-                         f'{rel}: {len(u)} duplicate {keycol}(s), ALL legacy (<400) — '
-                         f'known/measured/registered as owed #23, not renumbered by design')
+                         f'{rel}: {len(u)} duplicate {keycol}(s), all in the FROZEN set '
+                         f'(registry/ML_LEGACY_DUP_IDS.txt) - owed #23, not renumbered')
             else:
                 bad('C12-ID-DUPLICATE', f'{rel}: duplicate {keycol}(s): {u}')
 

@@ -1,19 +1,19 @@
 # HANS STATUS.md
-**Updated:** 2026-09-19 (Sat, market closed) — **SESSION 4 (owed-board catch-up): THE ESRB REPORT IS READ AT PRIMARY AND IT SAYS THE SUPERVISOR CANNOT SEE THE EXPOSURE MY OWN FIRE ROW WAITS ON.** Two fires/predictions got fail-closed exit rules; a BANKING vector had been measuring a broad index for three weeks. Sessions 1–3 digested below; every block has a verbatim file.
+**Updated:** 2026-09-19 (Sat, market closed) — **narrative for this session lives in `SESSION_LOG.md`; below is state only.** **(owed-board catch-up + CATO correction pass): THE ESRB REPORT IS READ AT PRIMARY AND IT SAYS THE SUPERVISOR CANNOT SEE THE EXPOSURE MY OWN FIRE ROW WAITS ON.** Two fires/predictions got fail-closed exit rules; a BANKING vector had been measuring a broad index for three weeks. Sessions 1–3 digested below; every block has a verbatim file.
 **Boot:** rc1 · `doc_audit.py` **0 findings** · **67 tests OK** · R1 **rc=0** · mail lanes not processed (normal spawn). I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
 ## 🔴 CARRY FORWARD — the live consequences of 2026-09-18/19. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
 
-**These are the conclusions that change what the next session does.** How each was reached is in `SESSION_LOG.md`; nothing below is a summary of a summary — every item is load-bearing on its own.
+**Conclusions that change what the next session does.** The how is in `SESSION_LOG.md`; every item below is load-bearing.
 
 - 🔴 **`T-14`'s SILENCE MEANS LESS THAN IT LOOKS.** ESRB `report202602` read at primary 9/19: identified bank exposure to private equity/private credit is **€4bn**, which the report calls *"far below the figures implied by supervisory intelligence"* before **dropping the class from its analysis**; leverage there *"cannot be computed from existing data"* and the non-EU gap is *"likely to remain"* after reform. **`T-14` is NOT fired and this does not fire it** — but leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged, deliberately not re-tuned.** → `KB-HANS-090`–`092`, `ML-HANS-464`
-- 🔑 **`HNS-09` keeps 70% on a NEW BASIS:** euro-area banks are aggregate **NET DEBTORS** to NBFI (~15% of balance sheets) where US banks are net lenders ⇒ Europe's channel is **losing NBFI funding in a stress, not credit losses on private credit** — small *by construction*, not merely unobserved. ⚠️ **Two perimeters never merged:** FSR **€62.5bn drawn** ≠ ESRB **€4bn identified**. ⛔ **Not claiming the exposure is larger — it is unquantifiable.**
+- 🔑 **`HNS-09` keeps 70% on a NEW BASIS:** euro-area banks are aggregate **NET DEBTORS** to NBFI (~15% of balance sheets) where US banks are net lenders ⇒ **FUNDING is the dominant euro-area route.** ⛔ **It does NOT bound the credit channel** — a net position says nothing about GROSS exposure, and the same report puts asset-side NBFI exposure at **~10% of SI assets, ~a quarter to potentially leveraged entities**. ⚠️ **Two perimeters never merged:** FSR **€62.5bn drawn** ≠ ESRB **€4bn identified**. ⛔ **Not claiming the exposure is larger — it is unquantifiable.**
 - ⛔ **THE STORAGE GAP MOVED −19.7 → −15.99pp AND THAT IS A BASIS CORRECTION, NOT A RECOVERY** (~80% denominator: norm 88.0 → an AGSI-native 85.05; fill moved +0.76pp). **`HANS-F-004` STAYS OPEN**, 1.0pp inside its band. **Anyone reading the direction as good news is reading it wrong.** → `KB-HANS-094`
 - 🔴 **AGSI: a REJECTED KEY RETURNS HTTP 200 + AN EMPTY ARRAY**, identical to an unpublished gas day — and since the norm is now AGSI-native a dead key blinds **both legs**. `fetch_eu` discriminates (KEY REJECTED / no-data / BLIND); **quirk-dependent, re-check 2026-12-19** (owed #22). → `KB-HANS-095`
-- ⚠️ **`VX-HANS-5.01` was EURO STOXX 50 against SX7E bands for three weeks** — could not fire under any outcome while C10 and C11 both passed. Restored to **SX7E 313.44**. **GREEN there is a weak negative, not corroboration.** The LEVEL is two-source; the 52-wk range/YTD are single **secondary**. → `KB-HANS-093`, `ML-HANS-465`
-- ⚠️ **`HNS-07`'s anchor was corrected 9/19 late** — 45d from **gas day 9/17**, required **0.2431 pp/d** vs **0.22 observed**; I first keyed it to 9/18/44d/0.249. **Verdict unchanged (MISS-side).** A pre-committed rule is applied without re-derivation, so it must be right when written. → `ML-HANS-471`
+- ⚠️ **`VX-HANS-5.01` held EURO STOXX 50 against SX7E bands for 3 weeks** — could not fire; C10/C11 both passed. Now **SX7E 313.44**. **GREEN there is a weak negative, not corroboration.** LEVEL two-source; 52-wk range/YTD single **secondary**. → `KB-HANS-093`, `ML-HANS-465`
+- ⚠️ **`HNS-07` anchor corrected 9/19:** 45d from **gas day 9/17**, required **0.2431 pp/d** vs **0.22 observed** (was 9/18/44d/0.249). **Verdict unchanged, MISS-side.** → `ML-HANS-471`
 - 🆕 **Instruments:** `doc_audit` **13 checks** (C9 prose-superseded · C12 key-uniqueness · C13 value/band scale), **86 tests**. **`8.05` German IP −1.6% YoY GREEN→YELLOW** — hard data contracting while surveys drove five refutations of the growth leg; **do not let the PMI read silence it.** **`4.09` UK food: AHDB partly REFUTES the claim that created the row** (wheat −12%, spring barley −19%, but winter barley in line, OSR **+19%**) — alarm marked down.
 - ⚠️ **STANDING PRIOR, NINE sessions: every defect here is found from OUTSIDE or by a script, never by re-reading.** 9/19 held five times — a deferred primary, a staleness scan, a new API key, a peer's negative control, and an operator asking me to double-check.
 
@@ -41,7 +41,7 @@
 🔑 **Concentration, not aggregate: ~577 kb/d ≈ 4–5% of European runs, replaceable at a price — but Orlen runs Saudi at ~40–50% of slate** ⇒ **a slate-and-differentials event, not a volume shortfall.**
 ⚠️ **MY "Brent −5.8% on the day" WAS A CONTRACT-ROLL ARTIFACT AND IS WITHDRAWN.** At named November: **108.75 [9/15] → 103.21 [9/18] = −5.09% over three sessions.** **The three-session fade survives; the same-day claim is dead.** Corrected to BRENT, HENRY, PROME.
 🔴 **SAME CLASS ON MY OWN OPEN FIRE:** boot's generic `TTF=F` → **`TTFV26.NYM`, October, expires 9/29** — **rolls inside two weeks on a LEVEL ladder.** Contract now named in `T-07`.
-🆕 **Against my own alarm: TTF is BACKWARDATED into winter** (Dec 75.78 / Jan 75.61); with storage −19.7pp the textbook shape is winter *contango*. **The curve is not pricing a winter crisis.** Untested → `KB-HANS-080`.
+🆕 **Against my own alarm: TTF is BACKWARDATED into winter** (Dec 75.78 / Jan 75.61); with the storage gap at −15.99pp the textbook shape is winter *contango*. **The curve is not pricing a winter crisis.** Untested → `KB-HANS-080`.
 
 ## ECB / EURO-AREA MACRO — THE GROWTH LEG TAKES A FIFTH REFUTATION
 
@@ -84,7 +84,7 @@
 | **HNS-06** | German Mfg PMI **≥50.0**, Sept flash | **80%** | **9/23 rel.**, `Resolve_By` **9/25** | 🟢 **ON TRACK.** The two dates are not drift: 9/25 absorbs ±2d flash slip (`Anchor_Type` EXPECTED-RELEASE). ⚠️ **GRADE THE FLASH** — grading the final ~10d later is the mirror image of the 9/5 error |
 | **HNS-07** | EU storage **≥80%** by Nov 1 | **65%** | 2026-11-01 | 🔴 **AT RISK.** From 69.06% [**gas day 9/17**], **45d** at **+0.22pp/d (AGSI direct) → ~78.96%, a MISS**; at the carried +0.30 → ~82.5%, a HIT. ⚠️ *Anchor corrected 9/19 late — the gas-day-vs-publication slip again; required pace is **0.2431**, verdict unchanged.* ⚠️ **Not re-marked** — 65% was set *because* the two instruments straddled the line. ✅ **The pre-committed rule now EXISTS (9/19)** — see §SESSION 4 |
 | **HNS-08** | Bund does **NOT** close ≥4.00% before Dec 31 | **70%** | 2026-12-31 | 🟢 **OPEN.** Buffer ~48–50bp; MISS the instant it **closes** ≥4.00 |
-| **HNS-09** | No large euro-area bank reports a Q3-2026 materially private-credit-driven loss | **70%** | 2026-11-30 | 🟢 **OPEN — same number, NEW BASIS 9/19.** Not "the sweep is clean" (clean over a blind perimeter) but **structural: euro-area banks are net DEBTORS to NBFI, so the credit channel is small by construction.** Q3 results the live window |
+| **HNS-09** | **At Q3-2026 European bank results: sector NII/earnings still holding with NO material rise in cost-of-risk** — **registered text, restored 9/19** | **70%** | 2026-11-30 | 🟢 **OPEN — same number, NEW BASIS 9/19.** Not "the sweep is clean" (clean over a blind perimeter) but **structural: euro-area banks are net DEBTORS to NBFI, so the credit channel is ** Q3 results the live window |
 
 **7/16 book: 2 HIT, 1 MISS** · `HNS-05` ✅ HIT 9/10 — outcome HIT, **rationale FAIL**.
 🔴 **CALIBRATION:** *my HITs are momentum continuations; my one MISS was the only call requiring a TURN.* **`HNS-07` is the live test of whether I re-mark a straddling call that drifts against me.**
@@ -95,6 +95,8 @@
 
 | Date | Event | Pri |
 |---|---|---|
+| **2026-10-01 · 10-15 · 10-25** 🟠 | **`HNS-07` RE-MARK CHECKPOINTS** — evaluate rules (a)/(b)/(c) and nowhere else. ⛔ **No early resolution — rule (d) WITHDRAWN 9/19**; graded on the **11/01 gas day** | 🟠 |
+| **2026-09-22** 🔴 | **AGSI lag D+1 vs D+2 — WEEKDAY check** (`KB-HANS-096`). Touches `HNS-07`'s GRADING date (11/02 vs 11/03), not its resolver | 🔴 |
 | **2026-09-23** 🔴 | **German/EA flash PMI (Sept) 07:30 UTC** — `HNS-06` resolver. **Grade the FLASH.** EA HICP flash **10/1** | 🔴 |
 | **2026-09-28/29** 🔴 | **`NG=F` / `TTF=F` rolls** — `T-07` is a LEVEL ladder with L1+L2 fired; **never grade a rung crossing across a roll** | 🔴 |
 | **early Oct 2026** 🔴 | **France submits the 2027 budget** — OAT–Bund at a 1-yr high, `T-10` legs ~3bp out | 🔴 |
