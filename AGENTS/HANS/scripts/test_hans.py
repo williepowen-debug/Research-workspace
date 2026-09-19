@@ -297,16 +297,48 @@ class TestDocAudit(unittest.TestCase):
 
     def test_C2_is_SERIES_QUALIFIED_not_bare_value(self):
         """The first version matched bare values and flagged UK CPI 2.9% against EA HICP
-        2.9%. A metric with NO declared vectors must be skipped, never guessed."""
+        2.9%. A metric with NO declared vectors must be skipped, never guessed.
+
+        🔴 REWRITTEN 2026-09-18 (session 2) AND THE REWRITE IS THE LESSON. The original
+        pinned three LIVE LEDGER FACTS — EA HICP current == "3.3", olds contains "2.9",
+        vecs == [] — and every one of them changed the moment the desk did its job: the
+        August FINAL 3.2 superseded the flash, and the metric gained VX-HANS-4.10. The
+        test went RED on a CORRECT refresh while the logic it names was never touched.
+        A regression test pinned to a live value tests the DATA, not the GUARD, and its
+        red is indistinguishable from a real break [[finding_a_column_that_is_both_record_and_instrument_basis_fails_twice]].
+        It now asserts the INVARIANT over whatever the ledger holds, and injects the
+        undeclared-surface case rather than borrowing a row that may stop being one.
+        → ML-HANS-460
+        """
         pub = self.da.published()
         self.assertIn("EA_FLASH_HICP_YOY_PCT", pub)
-        cur, olds, vecs = pub["EA_FLASH_HICP_YOY_PCT"]
-        self.assertEqual(cur, "3.3")
-        self.assertIn("2.9", olds)
-        self.assertEqual(vecs, [], "EA HICP declares no VX surface, so C2 must skip it")
-        self.assertEqual([c for c, m in self.da.audit()
-                          if c == "C2-SUPERSEDED" and "4.08" in m], [],
-                         "UK CPI 2.9% must NOT be flagged against EA HICP 2.9%")
+
+        # INVARIANT 1 — a metric declaring no VX surface is skipped, never guessed.
+        # Asserted over EVERY such metric on the ledger, so the test keeps its subject
+        # even when one row gains a surface.
+        undeclared = {m for m, (_, _, vecs) in pub.items() if not vecs}
+        codes = self.da.audit()
+        for m in undeclared:
+            self.assertEqual([c for c, msg in codes
+                              if c == "C2-SUPERSEDED" and f"retired for {m}" in msg], [],
+                             f"{m} declares no VX surface — C2 must skip it, not guess")
+
+        # INVARIANT 2 — generalised from the concrete 2.9/2.9 collision: NO two metrics
+        # that retire the same value string may declare the same VX surface, or C2 is
+        # guessing again. Stated over every retired value rather than over the one pair
+        # that happened to collide in August — that pair is a fact about the tape and
+        # will stop existing; the property is a fact about the guard and will not.
+        # Non-vacuity is NOT asserted here: test_C2_still_catches_a_genuine_supersession
+        # is the live-ammunition half, and a test that manufactures its own subject to
+        # avoid looking vacuous is worse than one that delegates it.
+        by_val = {}
+        for m, (_, olds, vecs) in pub.items():
+            for o in olds:
+                for v in vecs:
+                    prev = by_val.setdefault((o.strip(), v), m)
+                    self.assertEqual(prev, m,
+                                     f"{m} and {prev} both declare {v} and both retire "
+                                     f"{o!r} — C2 cannot tell them apart")
 
     def test_C2_still_catches_a_genuine_supersession(self):
         """Series-qualifying must not have disarmed the check."""
@@ -477,6 +509,29 @@ class StatusTokenSemantics(unittest.TestCase):
         cls.doc_audit = importlib.reload(doc_audit)
 
     # ---- direction 1: dead rows must be recognised however they are spelled ----
+    def test_na_wrong_unit_is_recognised_live_not_parked(self):
+        """VX-HANS-11.03 carries NA-WRONG-UNIT (fleet canon): its name, value and bands
+        are three different constructs, so its COLOUR is unreadable — but the ROW is
+        live and must keep its staleness supervision. Recognised-live, not parked, and
+        not unknown: an unknown token is correct-but-loud, and a permanent false alarm
+        is how a real one gets ignored."""
+        self.assertFalse(self.boot.is_dead("NA-WRONG-UNIT"))
+        self.assertNotIn("NA-WRONG-UNIT",
+                         self.boot.unknown_tokens([([{"S": "NA-WRONG-UNIT"}], "S")]))
+
+    def test_historical_parks_a_dated_snapshot_row(self):
+        """HISTORICAL added to both guards 2026-09-18 (2nd session) for KB-HANS-034,
+        a DATED MARKET SNAPSHOT of 9/1. Such a row cannot be "made current" — every
+        level in it is history the moment the tape moves — so nagging it forever is
+        noise, and it must not be value-checked either: it is a citation of its own
+        moment. Added to BOTH guards in one edit; the agreement test below is what
+        stops a future token landing in only one of them."""
+        for cell in ("HISTORICAL",
+                     "HISTORICAL 2026-09-18 — dated snapshot, levels all moved"):
+            self.assertTrue(self.boot.is_dead(cell), cell)
+            self.assertTrue(
+                cell.strip().upper().startswith(self.doc_audit.KB_DEAD_PREFIXES), cell)
+
     def test_compound_superseded_token_is_dead(self):
         """The exact cell that broke it. A canonical token followed by a date and
         prose is the CANON form, not an exception to it."""

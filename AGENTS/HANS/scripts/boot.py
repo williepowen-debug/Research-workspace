@@ -66,9 +66,13 @@ DEAD = {"FROZEN", "RETIRED", "UNREACHABLE"}  # deliberately parked — never nag
 # Legacy bare tokens stay recognised BY CANON ("existing files are grandfathered —
 # enforcers must keep recognising the legacy set"), which a prefix test gives free.
 DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
-                 "ARCHIVED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
+                 "ARCHIVED", "HISTORICAL", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
+# NA-WRONG-UNIT (fleet canon) says a row's BAND cannot be read in this column's unit
+# — it is NOT a park.  Listed as LIVE_KNOWN on purpose: the row keeps its staleness
+# supervision and stops raising a vocabulary alarm every boot.  The moment it becomes
+# a park it belongs in DEAD_PREFIXES instead; it is one or the other, never neither.
 LIVE_KNOWN = ("ACTIVE", "CORRECTED", "CONFIRMED", "GREEN", "YELLOW", "ORANGE",
-              "RED", "WATCH", "MONITOR", "PARTIAL")
+              "RED", "WATCH", "MONITOR", "PARTIAL", "NA-WRONG-UNIT")
 
 
 def is_dead(status):

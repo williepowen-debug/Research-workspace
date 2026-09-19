@@ -33,7 +33,7 @@ from pathlib import Path
 # (AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md Class 1). Legacy bare tokens stay
 # recognised under canon's grandfathering rule, which a prefix test gives for free.
 KB_DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
-                    "ARCHIVED", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
+                    "ARCHIVED", "HISTORICAL", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
 
 HANS = Path(__file__).resolve().parent.parent
 ROOT = HANS.parent.parent

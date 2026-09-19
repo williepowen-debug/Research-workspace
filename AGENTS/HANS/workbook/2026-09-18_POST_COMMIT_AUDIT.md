@@ -22,3 +22,19 @@
 **① STATUS-TOKEN SEMANTICS (serious).** I minted `SUPERSEDED-BY-KB-HANS-059` / `EXPIRED-NOT-REFRESHED` **without opening `STATE_VOCABULARY.md`, which root canon points at.** Two guards then read one column differently: `boot.py` printed **"10 EXPIRED" when the truth was 3**; **`doc_audit.py` C8 — an allowlist of ONE token — silently dropped 3 rows from the stale-value check, plus 4 never checked at all.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: one shared dead-PREFIX predicate · **unknown tokens resolve to LIVE on purpose** · boot NAMES unrecognised tokens · **7 regression tests, mutation-verified.** Boot §[7] now reads **3 expired** — true. → `ML-HANS-452`, RULE #1c
 **② ML ID collision** (`450` taken) → `451`, corrected **in the delivered DAEDALUS packet with a visible note**. **③ Doc counts:** said 51/7; actual **58/8**. 🆕 **④ PUBLISHED metric-name SPLIT** — I appended `EU_STORAGE_FILL_PCT` / `OAT_BUND_SPREAD_BP` for series already named, orphaning them **and leaving 67.33 and 87.4 reading CURRENT**, which silently disabled stale-consumer detection for both. Repaired by **continuing the established names** (append-only ⇒ never rename). → `ML-HANS-455`. 🆕 **⑤ `/tmp/enum.py` shadowed the stdlib** — the script ran as an import, **printed success, then crashed**; writes verified clean, but that was luck about ordering → `ML-HANS-454`. ⚠️ **UNFIXED:** the **ECB pull is INTERMITTENT** — a blank §[2] is not a quiet board.
 
+
+
+---
+
+# ROTATED OUT OF STATUS.md 2026-09-18 (session 2, read-cap rotate-tier)
+*Verbatim, so nothing is lost by the move. STATUS carries a pointer to here.*
+
+## 🔴 POST-COMMIT AUDIT (Will asked) — **5 DEFECTS IN MY OWN SESSION'S WORK, ALL FIXED.** Detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
+
+**① STATUS-TOKEN SEMANTICS.** Minted tokens **without opening `STATE_VOCABULARY.md`**. Two guards read one column differently: boot printed **"10 EXPIRED" when the truth was 3**; **`doc_audit` C8 — an allowlist of ONE token — silently dropped 3 rows, plus 4 never checked.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: shared dead-PREFIX predicate · **unknown tokens = LIVE on purpose** · boot names unrecognised tokens · **7 tests, mutation-verified.** → `ML-HANS-452`, RULE #1c
+**② ML ID collision** (`450` taken) → `451`, corrected **in the delivered packet with a visible note**. **③ Doc counts** 51/7 → **58/8**. **④ PUBLISHED metric-name SPLIT** — new names for existing series orphaned them **and left 67.33 / 87.4 reading CURRENT**, disabling stale-consumer detection; repaired by **continuing the established names** (append-only ⇒ never rename) → `ML-HANS-455`. **⑤ `/tmp/enum.py` shadowed the stdlib** — ran as an import, **printed success, then crashed**; writes verified clean, but that was **luck about ordering** → `ML-HANS-454`.
+⚠️ **UNFIXED:** the **ECB pull is INTERMITTENT** — a blank §[2] is not a quiet board.
+
+
+⚠️ **STANDING PRIOR, SIX sessions:** every defect here found **from outside or by a script**, never by re-reading (8/28 ×4, 9/5 ×3, 9/10 ×7, **9/18 ×5**). 🆕 **Tonight added a new route: two came from a PEER's flag, and chasing one of those found the roll exposure on my own open fire.** The near-defects I avoided were caught by rules written **in advance**; the ones I shipped, by running the tools again. **None by reading.**
+
