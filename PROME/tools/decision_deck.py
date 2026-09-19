@@ -787,6 +787,32 @@ def build(today: dt.date, out: Path, *, reference_out: Path | None = None,
                  f'<a class="lnk" href="{html.escape(reference_link, quote=True)}">Reference: Decided · In-flight · Docket</a>', build_id, stamp, sha)
     reference = _page("Decision reference", "reference", reference_panels,
                      f'<a class="lnk" href="{html.escape(owed_link, quote=True)}">Back to Owed decisions</a>', build_id, stamp, sha)
+    # ⛔ F2 (L423 fourth independent read, 2026-09-19) — REFUSE TO WRITE A BLANK DECK.
+    # A header-width change in WILL_QUEUE.md made `parse_open` return [] while three rows
+    # were dated TODAY, and this build rendered `<p class="empty">Nothing owed.</p>` onto
+    # WILL'S LIVE DECISION SURFACE. The only signal was stderr; Will reads the HTML.
+    # The ≥1-row assertion already existed at selftest() and the build never called it —
+    # a control that exists and is not wired is not a control
+    # ([[finding_guard_correctness_and_wiring_are_independent]]).
+    # ⚠️ The CONTRACT is also wrong and is registered separately: acceptance B8 licenses
+    # "skipped with one named failure" for the Deck, which is exactly the state B3 forbids
+    # ("the Deck is Will's live surface … it must not go dark over one cell"). This guard
+    # implements B3; B8 needs amending by its owner.
+    # An EMPTY queue is a real state, so the refusal is scoped to the INCOHERENT one:
+    # zero parsed rows while the source plainly contains rows.
+    if not owed:
+        import re as _re
+        raw = Q.read_text(encoding="utf-8")
+        sect = raw.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
+        looks_populated = len(_re.findall(r"^\|\s*\d+\s*\|", sect, _re.M))
+        if looks_populated:
+            raise SystemExit(
+                f"DECK REFUSED TO BUILD: parse_open() returned 0 rows while § OPEN contains "
+                f"{looks_populated} row-shaped lines. Writing would publish 'Nothing owed.' over "
+                f"live dated asks on Will's decision surface. Fix the table (most likely a header-"
+                f"width change or an unescaped pipe) and re-run. ⛔ Refusing is correct here: a "
+                f"blank deck is indistinguishable from a clear one.")
+
     # Construct both outputs before writing. The normal candidate freeze covers the pair.
     for path, content in ((out, page), (reference_out, reference)):
         path.parent.mkdir(parents=True, exist_ok=True)

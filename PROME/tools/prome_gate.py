@@ -631,7 +631,23 @@ def check_will_queue():
                 problems.append(f"NOT-ISO #{cells[0]} needed-by '{cells[3][:24]}' (hard dates are YYYY-MM-DD)")
             d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
             if d:
-                dd = dt.date.fromisoformat(d.group(0))
+                # ⛔ F1 (L423 fourth independent read, 2026-09-19): a date that MATCHES the ISO
+                # shape but is not a real day — `2026-02-30` — raised ValueError out of this
+                # bare call and took the WHOLE BLOCKING CHECK down. The gate then reported
+                # `check_will_queue DID NOT RUN — ValueError` with `last_problems == []`, so a
+                # DUE-TODAY row and a SHIFTED row in the same table were NEVER REPORTED. A
+                # crashed check that reports no problems is worse than no check: it is a clean
+                # bill signed by a corpse. Fail CLOSED and by NAME instead — the impossible date
+                # becomes a named problem rather than an exception.
+                # Found by a reader devising its own input; no B-condition covered date VALIDITY,
+                # only shape. [[finding_lenient_parser_reports_unparseable_as_a_behavior]]
+                try:
+                    dd = dt.date.fromisoformat(d.group(0))
+                except ValueError:
+                    problems.append(f"IMPOSSIBLE DATE #{cells[0]} needed-by '{d.group(0)}' "
+                                    f"(ISO-shaped but not a real day — the row is UNGRADEABLE, "
+                                    f"not clean)")
+                    continue
                 if dd == today:
                     problems.append(f"DUE TODAY #{cells[0]} {cells[1][:36]}")
                 elif dd < today:
