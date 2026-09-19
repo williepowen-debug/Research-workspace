@@ -1,79 +1,74 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-17 Thu evening (18:35 → ~19:3x ET), Claude Fable 5.1 as WALTER (`walter-37`); Will-launched by Telegram ("please boot up"). **Tier-2 FULL closeout. Operational market coverage PARTIAL (dated levels in STATUS; intraday ≠ settle; HANS UK legs from a secondary intraday excerpt).**
+Session: 2026-09-19 Sat 11:0x → 11:3x ET, Claude Opus 5 as WALTER; **PROME-spawned Tier-1 L0 whole-inbox drain** under the WQ-184 spawn driver (`PROME/DOCKET.tsv` **L208** PENDING and dated today, naming WALTER+DAEDALUS). **Markets CLOSED — catch-up + Monday prep. Closeout tier: TIER-1 LIGHT with two Tier-2 steps folded in (STATUS 12(a)+12(e), version-drift); step 13 registry refresh and 12(b) NETWORK AWARENESS regen are NAMED SKIPS, not clean.**
 
 ## STATUS
 
-Boot COMPLETE: 0 → 0.5 → 1–6c → 7–7d → 7g → 7e → 7f → 8–9b all run. Doctor 0 HIGH / 12 MED at boot (intake lane STALE on disk → live after the 7e(a) pull; 8 registry-lag rows refreshed; 3 drop-zone images processed; 90 unconsumed >2d carried). READ-CAP 0 within 19 measured declared reads — heuristic perimeter; `reads_check` 23 declared paths, basis MATCH. Six dispatches `SIG-W-20260917-001…006`, 22 handoffs, 2 kills; BOARD **988** — then **Will's 23:05Z news sweep: `-007` (Sohar STS → BRENT+FALCON), `-008` (Section-301 delay + Bessent–He → ZHAO), `-009` (Boston Fed BDC → BROCK), 12 handoffs, 2 kills, BOARD 991**; record `research/2026-09-17_news-sweep.md`. Iran anchor FULL sweep DONE. Both DAEDALUS PR#6 asks executed. Inbox 6 → 0. Batch `BM-20260917-01` CLOSED 3/3. Intake `--mark` run (+2 new, −3 cleared).
+Boot **PARTIAL**, and the gaps are named: ⛔ **no `git pull`** (root pull protocol — foreign dirty paths `AGENTS/DAEDALUS/runs/GATE_LOG.tsv` and `PROME/state/ORCH_LOG.tsv`, PROME live) · ⛔ **`ListAgents` UNAVAILABLE ⇒ fleet liveness UNKNOWN, never DARK; no doorbell judgement made and none claimed** · ⛔ **step 13 / 12(b) SKIPPED** (15 registry-lag rows carried). Run: 0.5 doctor (**0 HIGH / 20 MED**), 1–4, 6c partial (FRED + equity/vol, markets closed), 7g (inbox 4 → 0), 8 fs-scan, 9b partial. `walter_doctor` version-drift **PASS rc=0** after the WQ-247 bump. **Two dispatches `SIG-W-20260919-001`/`-002`, 13 handoffs, 0 kills; BOARD 993 → 995.**
 
 ## CHANGED
 
-Dispatches (BOARD + `routed/route_log.tsv` + `routed/delivery_log.tsv` 22 rows `written_not_delivered_pending_push` → reconciled after push) · `filtered/kill_log.tsv` +2 · `registry/DOORBELL_LOG.tsv` +7 rows (2 YES: FALCON, HENRY) · `anchors/IRAN_WAR.md` lead stamp replaced + ladder #8 + inventory 25; `IRAN_WAR_GUARDS.md` ADD#25; `IRAN_WAR_HISTORY.md` § Rotated 2026-09-17 · `research/2026-09-17_iran-full-sweep.md` (new) · `REGISTRY.tsv` 8 rows · `tools/version_drift_check.py` (field-reading + HEADER DRIFT) · `design/ROUTING_CARVEOUTS.md` field v0.38 · `design/ROUTING_TABLE.md` "Current:" v0.38 · `workbook/LEDGER_GLOB` (new) · event-driven headers on `FALSIFICATION_FIRED_LOG` / `REG_THRESHOLDS_FIRED_LOG` / `DOORBELL_LOG` · `BOARD/SIG-W-20260915-004` additive FALCON owner-return block · `BOARD/INDEX.md` regenerated (988) · packets: `PROME/inbox/2026-09-17_from-WALTER_wpsr-no-dispatch-doorbells-falcon-henry-resolution-ack.md`, `AGENTS/DAEDALUS/inbox/2026-09-17_from-WALTER_PR6-both-asks-executed.md` · `inbox/processed/.consumed.tsv` +6 · STATUS / SESSION_LOG / MEMORY / this file.
+`BOARD/SIG-W-20260919-001` + `-002` (new) · `BOARD/INDEX.md` regenerated (995) · `routed/route_log.tsv` +2 · `routed/delivery_log.tsv` +13 `written_not_delivered_pending_push` · `design/OPERATOR_BRIEF_SPEC.md` **v0.1 → v0.2** · `CLAUDE.md` RULE 12 version cite + scope tail · `design/STATE.md` §1 row · `STATUS.md` (stamp, BOTTOM LINE re-cut, 6c block through the 9/18 close, kill-on-sight guard block) · `SESSION_LOG.md` · `inbox/processed/.consumed.tsv` +4 · 4 packets `git mv`'d to `processed/` · 13 recipient handoffs · 3 packets to `PROME/inbox/` · this file.
 
 ## RESULT
 
-No registered trigger fired (RED-FT ×12, REG-T ×8, CREED-T eligible rows, HANS-T 6 scannable + Cushing). State changes surfaced: RED-FT-10 run BROKE 9/15 (0-of-4); RED-FT-12 near-trigger WATCH (270 vs <260, 10 bp); HANS-T-06/T-13 moved AWAY post-BoE. FOMC 9/16 +25 bp verified at primary (12–0). "Force majeure" NOT declared (verified at OilPrice's own text + FALCON 9/16 route-(a) negative; ADD#25). `version_drift_check.py` watched FAIL (rc=1, HEADER DRIFT on CARVEOUTS) then PASS (rc=0) after reconciliation. `ledger_staleness.py WALTER` 11 scanned / 0 stale / rc=0. `batch_manifest --close` 3/3. Doctor readers parse after the header lines (board_reconcile / log_reconcile INFO).
+⛔ **NO registered trigger fired, no sustain count moved, no score changed, $0.** State changes surfaced, none a fire: **REG-T-08's first matched post-hike pair now exists — SOFR 3.85 − IORB 3.90, both 9/17 ⇒ −5 bp, 20 bp under the `>+15 bp` bar** (discharges the carried "no matched pair exists yet") · **RED-FT-11's sign FLIPPED from wrong to right** — DGS30 5.35 [9/11] → 5.29 [9/17] = −6 bp vs the 9/18 boot's +7 bp; precondition `≤ −10.2 bp` still short by 4.2 bp (⛔ **RED owns the Δ5 window; my endpoints are 4 sessions apart, flagged not graded**) · **SKEW 148.10 [9/18 close] sits 1.9 pts under the ≥150 L3 re-open bar** = new near-trigger watch · **`SIG-W-20260917-011`'s class re-instanced at n=2** — T5YIFR 2.35 [9/18] has no 9/18 inputs (all four reach only 9/17); the previously-provisional 2.34 [9/17] is now fully supported **and held, which is exactly how this defect survives review** · RED-FT-12 **270 [FRED 9/17 print, landed and unchanged]**, 10 bp away.
 
 ## GAPS
 
-Delivery ≠ consumption: the 22 handoffs are on origin (reconciled 22/22 delivered); no owner has consumed any yet. Publication state: see CLOSEOUT RECEIPT (updated after push). HANS UK 10Y/30Y levels are a search-excerpt intraday relay (CNBC page 403) — not closes; HANS to grade. JMIC "3 vessels in 72h" and the Axios drone strike are secondary relays, logged not adopted. The "~4 mb/d Russian runs, wk 9/3–9" figure is UNVERIFIED (no primary found) — OSPREY asked. Four event ledgers (`CORRECTIONS`, `corrections_receipts`, `DEEP_RESEARCH_FLAGGED_LOG`, `BATCH_MANIFEST`) not yet declared EVENT-DRIVEN (reader tolerance for extra `#` lines unverified; they read `ok` today). Fleet liveness = `ListAgents` + ORCH + porcelain at 22:36Z, not later. Seven old ACTIONs: ZHAO's 5 confirmed by receipt; MARCO `-0908-006` and CARL `-0911-008` closure proofs NOT yet checked at their board_logs. No owner grade asserted anywhere.
+**Delivery ≠ consumption:** 13 handoffs written, none consumed; `written_state` flips only after push + `reconcile_delivery_log.py --apply`. **`SIG-W-20260919-002` is NOT WALTER-verified** — the fitchratings.com measurement is reported at BROCK's artifact and byte count and was not re-run (confidence 0.90, `verified-at-the-reporting-desk`). **`SIG-W-20260919-001`'s MECHANISM is unestablished** — n=3 / 2 vendor paths / 1 box / 1 session is a pattern, not a diagnosis. **9/18 vol closes came from `fetch.py price` flagged `⚠stale` (correct on a Saturday) and were NOT re-verified at CBOE** — the non-zero deltas and the tool's own self-consistent change column are the evidence they are not fill-forwards, which is weaker than a publisher read. **FRED 9/18 prints had not published at pull time.** **15 REGISTRY rows lag their owners' STATUS headers** (doctor). **`staleness_sweep` 16d overdue** (14d cadence) — carries the §3.6.1 correction-link backfill with it. **CARL-DR-1 deep-research flag 1d past deadline.** Fleet liveness UNKNOWN.
 
 ## WILL_NEEDS
 
-1. **Unchanged decision:** #6/#8 contract-month basis — no month selected; frozen terms + fire-and-decompose interim rule stand.
-2. **New, small:** CATO — REGISTRY row or not? ROSTER (your own text) says manual-only / excluded from routing; WALTER did not add one. Say "add" if you want it routable.
-3. FYI only: PROME asked for two spawns (FALCON before 9/18 close; HENRY before 9/18 open) under your autonomy tier — PROME's call, no ask of you.
+1. **Unchanged:** #6/#8 contract-month basis — no month selected; frozen terms + fire-and-decompose interim rule stand.
+2. **CATO — HELD, not re-asked.** PROME is carrying it to Will today and WQ-255 asks his word on CATO's permanent class. ⛔ **No REGISTRY row added and none will be until his word returns.**
+3. FYI: nothing new requiring Will from this session.
 
 ## FOLLOW-UP
 
-1. ✅ **Doorbells DISCHARGED 2026-09-17 ~20:0x ET (verified at the artifacts 00:3xZ 9/18):** PROME spawned HENRY + FALCON (+ FERT, REGINALD) within 15 min of Will's 19:57 approval (`0945b888a`). FALCON `board_log` rows for `-001`/`-007` = acted; **FAL-05 graded on its 9/17–18 window: NO route fires, OPEN 55% to 10/07** (`reports/2026-09-17_fal05-review-window-grade.md`; STS-off-Sohar adopted as anti-FM evidence; Kpler 4.5 mb/d ruled a vendor estimate outside the letter's attribution class). HENRY `board_log`: `-002` acted (SKEW reset recorded), `-004` acted (FOMC as gamma-read context; HEN-45 leg 1 deferred), `-003`/`-008`/`-0914-025`/`-0914-027` DEFERRED to its next boot — L383 delivered (sign negative 3rd session; no wall publishable). **Still to check next boot:** HENRY's deferred four; REGINALD `BOARD_LOG` has no row yet for `-005`/`-009` (its 9/17 session drained only the top-level inbox); RED's own FT-10 state cell.
-2. **RED-FT-10 reset** (`-002`): confirm RED's state cell reads 0-of-4 and the 9/16 catalyst row is retired; a NEW ≥150 bar re-opens L3 for a doorbell.
-3. **RED-FT-12 watch:** HY 270 [9/16]; the 9/17 print publishes ~16:15 ET 9/18 — re-pull after the close before quoting a distance (FRED T+1 rule). Fire once if it ever completes (lane primary; 6c is redundancy).
-4. **Closure proofs owed from PROME's 9/17 disposition:** MARCO board_log row for `-0908-006` + named exposure output; CARL board_log row for `-0911-008` (dated ≥9/17) and `-006` moved to processed by CARL. Verify at the artifacts, do not relabel.
-5. **Iran:** next full re-verify ~2026-09-24 (7-day cadence), or IMMEDIATELY on a restart/resumption notice · an FM declaration PRIMARY · attribution established · a 4th sinking or mine · a strike on Iranian territory · a dated Oman framework · a published transit print · any Iran-cluster dispatch. Anchor 23,926 B — re-rotate at ≥24,412 (next mandatory check 9/30).
-6. **9/30 items (unchanged):** oversized-signal companion recheck (`SIG-W-20260619-008`); INFO-backlog study / DOCKET L334 (pointer FIXED by PROME 9/17); MEMORY.md + THRESHOLD_SCAN + routing-file size checks; CHG-RED-042 hard backstop; KRE/TLT/XLE expiries.
-7. **Prior owner follow-ups still open:** LIQUID / SHADE / SAM on `-0914-022` (HAWK done 9/16; FALCON done 9/14); BRENT if a month choice changes a #6/#8 grade; BROCK / VULCAN / HOMER on their dated tasks (LABOR, BOND, MARCO, ZHAO, VIOLET, HAWK, DAEDALUS had 9/17 sessions — check their board_logs for the 9/14–15 handoffs next boot). OSPREY / VIOLET / FALCON YASREF returns are integrated — do not re-open from old prose.
-8. **Dated windows carried:** 9/18 opex (~$6T, HENRY) + WAL Sep puts · BOJ MPM 9/18 JST (SAM-39 ≥160 count; USD/JPY 155.99 [9/17]) · FAL-05 earliest 9/17–18, resolves 10/7 · 9/21 FALCON review · 9/25 Oman (no date) · 9/30 Iraq/L334 · 10/5 CCL Q3 (CRUISE VX-CRU-06) · 10/29 ECB (HANS-T-04 one hike from firing).
-9. **fetch.py identity / TTF contract UNKNOWN:** `TTF=F` and `BZX26.NYM` resolve with `contract: UNKNOWN` (name cut) — probe status is stated on every pull; not a settlement basis.
-10. **Event-ledger declarations** for the four undeclared registries — add at their next append after checking each reader skips `#` lines.
-11. **Board-hole class (FOMC 9/16):** raised to PROME as a design question (§6 of the packet); no WALTER change pending.
+1. 🔴 **L208 is NOT discharged and must not be read as done.** Verdict: **precondition STILL UNMET — no named invocation site exists**, so `scan_report` was NOT built and no site was manufactured. Evidence: R2's field ⑤ landed (`AGENTS/DAEDALUS/BLUEPRINTS/CORRECTION_FORM.md`, 2026-08-21) but is **satisfied by prose naming instrument and scope with no artifact cite**; no `.py` parses the form; `CORRECTIONS.tsv` has no absence-claim column; `SIGNAL_FORMAT_SPEC` has no such field. ⚠️ **The structural point for PROME/Will: the condition has no owner working toward it, so the row re-dates indefinitely.** Either field ⑤ is amended to require a cite (a DAEDALUS+WALTER decision nobody has taken) or L208 should be **re-keyed from a DATE to a CONDITION**. ⛔ **Re-date/re-key is PROME's — DOCKET is PROME-owned and WALTER cannot commit it.**
+2. **RED owes three re-derivations on its own basis** (all flagged, none graded here): FT-11 Δ5 sign flip · FT-10's ≥150 re-open proximity · FT-06/FT-10 `value_basis` cells confirmed as DATED CBOE BAR (`SIG-W-20260919-001` ACTION).
+3. **`SIG-W-20260919-001`/`-002` consumption:** VIOLET, HENRY, PROME (001) · NEXUS, DEWEY (002) are the ACTION lines. Check their `board_log`s next boot.
+4. **BROCK still owes** `SIG-W-20260914-019` question (c) — Loparex + LendingPoint, one pattern or two names, n declared in advance. BROCK named it rather than leaving it silent. Its `-023` INDEX-cap fix is deferred to its own boot-step edit.
+5. **Deferred to next Tier-2:** full `REGISTRY.tsv` refresh (15 lag rows) + NETWORK AWARENESS regen · `staleness_sweep` (16d overdue) + the §3.6.1 correction-link backfill it carries · MEMORY trim.
+6. **Monday 9/21 watch — my lane:** 🔴 **L432 Russian mobilisation decision window** (HAWK-owned until YURI wires; Duma closes Sun 9/20). ⚠️ **This is the single most information-operation-saturated moment in the domain, and the five kill-on-sight phrasings loaded into STATUS today are exactly that class — expect more of them, and kill on sight rather than routing.** Also 9/21: BROCK L312 (CRMT §2.1) + L347 (VX-BRK-020) · PROME L418/L421/L422/L430. **9/22: L267 GATE-TERRY-007 executability deadline — DGS10 4.94 [9/17] is 44 bp above the 4.50 line, so a qualifying five-close streak beginning by 9/22 needs a ~44 bp single-session collapse; effectively arithmetically dead, PROME/TERRY to grade, not WALTER.** **9/22: L427 BRENT `CL=F` pin — same instrument-identity class as my own carried `contract: UNKNOWN` probe finding.**
+7. **`fetch.py` identity / TTF contract UNKNOWN** (unchanged): `TTF=F` and `BZX26.NYM` resolve `contract: UNKNOWN`; not a settlement basis. 🆕 **Evidence for DOCKET L392 (contract_probe STALE_S calibration, PROME-owned): every 9/18 quote pulled Saturday came back flagged `⚠stale` — the constant behaving visibly. Offered as evidence, not a grade.**
+8. **Iran:** next full re-verify ~2026-09-24, or immediately on the registered triggers. Anchor re-rotate at ≥24,412 B.
+9. **9/30 items (unchanged):** oversized-signal companion recheck (`SIG-W-20260619-008`) · INFO-backlog study / L334 · MEMORY + THRESHOLD_SCAN + routing-file size checks · CHG-RED-042 backstop · KRE/TLT/XLE expiries.
+10. **Carried from 9/17, unresolved:** MARCO `-0908-006` and CARL `-0911-008` closure proofs not checked at their board_logs · HENRY's four deferred items · four event ledgers still undeclared EVENT-DRIVEN.
 
 ## OPEN DESIGN DECISIONS
 
-Carried unchanged: seasonal threshold form for #6/#8 (with Will); non-uniform inbox addresses (PROME's `PROME/inbox/` at repo root — held-hot regression guard); broader automatic receiving-readiness changes (not silently ratified). **New 2026-09-17:** (a) whether PROME's boot carries a "did WALTER run on the last data day?" line so a routing-lane gap on a data day is announced (raised, not adopted); (b) whether `version_drift_check.py` should also read prose "Current:" lines — today it reads the header block only, and `ROUTING_TABLE.md` line 11 drifted independently (fixed by hand; perimeter stated to DAEDALUS, not widened unilaterally).
+Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addresses (held-hot regression guard) · broader automatic receiving-readiness changes · (a) whether PROME's boot carries a "did WALTER run on the last data day?" line · (b) whether `version_drift_check.py` should also read prose "Current:" lines. **New 2026-09-19:** (c) **`delivery_log` has no schema slot for an AMENDMENT row** — `walter_doctor` correctly flags `SIG-W-20260917-010-AMENDMENT-NOTE` (L2933–34) as a malformed `signal_id`, and the two rows are *truthful*. ⛔ **Deliberately NOT "fixed" by rewriting the id to `SIG-W-20260917-010`** — that would make them read as duplicate deliveries of `-010` and trade a loud, accurate flag for a silent, wrong record (`[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`). The real question is whether the schema should admit amendment rows; that is a spec change, not a row edit.
 
 ## CLOSEOUT RECEIPT
 
-Dated evidence snapshot, not a live publication promise. Checked scope: this session's Tier-2 commit set (WALTER dir + BOARD + 22 recipient handoffs + 2 packets). Publication: `f1382fbb5` — `safe-push.sh` receipt "Pushed. CONFIRMED: HEAD f1382fbb5 is on origin/master (fresh fetch)"; `reconcile_delivery_log.py --apply` then flipped the 22 pending rows to delivered (22/22); the news-sweep commit `8df955c31` added 12 more, reconciled to 34/34. The follow-up commit carrying this receipt is pushed the same way; its hash lives in `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`. Owner review: manual; no automatic completion. Next review 2026-09-18 (HENRY deferred items, REGINALD/RED consumption; FRED 9/17 print; BOJ outcome).
+Dated evidence snapshot, not a live publication promise. Checked scope: this session's commit set (WALTER dir + BOARD + 13 recipient handoffs + 3 PROME packets). **Publication: see `git log -1 -- AGENTS/WALTER/LAST_COMPLETION.md`; the `safe-push.sh` receipt line is recorded in the delivery memo at `PROME/inbox/2026-09-19_from-WALTER_l208-unmet-inbox-drained-fill-forward-settle-confirmed.md`.** `reconcile_delivery_log.py --apply` runs AFTER the push; until then all 13 rows read `written_not_delivered_pending_push` and must not be reported as delivered. Owner review: manual; no automatic completion. **Next review 2026-09-21** (L432 window opens; `-001`/`-002` ACTION consumption; RED's three re-derivations).
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-17T23:03:01+00:00",
+  "as_of": "2026-09-19T15:08:27+00:00",
   "publication": [
     {
-      "commit": "f1382fbb5",
-      "state": "published"
-    },
-    {
-      "commit": "8df955c31",
-      "state": "published"
+      "commit": "pending_push",
+      "state": "written_not_pushed"
     }
   ],
   "delivery": {
-    "signal_date": "20260917",
-    "total": 34,
-    "delivered": 34
+    "signal_date": "20260919",
+    "total": 13,
+    "delivered": 0
   },
   "owner_review": {
-    "scope": "manual evidence review; no automatic completion",
+    "scope": "manual evidence review; no automatic completion. SIG-W-20260919-002 is verified-at-the-reporting-desk (BROCK), NOT re-run by WALTER.",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-09-17_iran-full-sweep.md",
-        "sha256": "db9ee70d0d4c863c468276b771cafdbe8a42b61cf3a243d37ab5a883a8ab7a86"
+        "path": "AGENTS/DAEDALUS/BLUEPRINTS/CORRECTION_FORM.md",
+        "note": "L208 precondition check: field 5 is prose-satisfiable and requires no artifact cite"
       }
     ]
   },
-  "next_review": "2026-09-18"
+  "next_review": "2026-09-21"
 }
 END_CLOSEOUT_RECEIPT -->

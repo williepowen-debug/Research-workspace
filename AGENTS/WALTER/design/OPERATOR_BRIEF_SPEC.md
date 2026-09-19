@@ -1,8 +1,8 @@
-# OPERATOR BRIEF SPEC v0.1
+# OPERATOR BRIEF SPEC v0.2
 
 **Owner:** WALTER. **Created 2026-09-14 at Will's direct in-session request** (Telegram msg 4557: *"I will need simplification like this in the future so I can better follow along. Maybe we should canonize this somehow?"*), against the worked example in msg 4556.
 
-**Scope:** the register and shape of **WALTER's Will-facing output** — Telegram replies, boot reports, dispatch summaries. ⛔ **It governs NOTHING else.** BOARD signals, handoffs, `route_log`/`delivery_log`, packets to other desks and every design doc stay exactly as dense as they are. **Those are machine-and-peer surfaces; this is the operator surface, and they are different products with different readers.**
+**Scope:** the register and shape of **WALTER's Will-facing output** — Telegram replies, boot reports, dispatch summaries. 🔴 **AMENDED v0.2 (2026-09-19, WQ-247 RULED — Will's Decision Deck tap 2026-09-17T22:33:45Z, doc `247-20260917223345149-emryk0`; PROME packet `2026-09-18_from-PROME_WQ-247-RULED-…`):** the seven rules of §2, composed with `USER.md`'s ⚖️ / ATTENTION blocks, are now **FLEET CANON** in root `CLAUDE.md` § Output Canon (block `output-operator-surface` in `docs/CANON_PROVENANCE.md`), over the same three surfaces. ⛔ **This file no longer governs nothing else — it is now WALTER's IMPLEMENTATION of the root clause, and root cites it as the fleet's worked example** (*"that desk's spec; the fleet rule is this clause"*). **Read root for the rule; read here for the form, the worked example, and WALTER's own obligations.** ⚠️ **Where the two could ever diverge, ROOT WINS** — this spec may be stricter on WALTER, never looser than root. BOARD signals, handoffs, `route_log`/`delivery_log`, packets to other desks and every design doc stay exactly as dense as they are. **Those are machine-and-peer surfaces; this is the operator surface, and they are different products with different readers.**
 
 **Canonical-source note (RULE 8):** no prior spec owned this. `CLAUDE.md` RULE 12 owns the *mechanism* of Will-facing replies (use the `reply` tool); **this file owns the FORM.** RULE 12 points here; it does not restate this.
 
@@ -81,7 +81,8 @@ An explicit *"if you only do one thing"* — the single decision that is genuine
 - ⛔ **Does not license softer claims.** Plain language, same rigour. Every number keeps its date and basis.
 - ⛔ **Does not reduce what gets WRITTEN.** The BOARD row, handoffs and logs are unchanged in density and detail. **This changes the message, never the record.**
 - ⛔ **Does not make WALTER an analyst** (RULE 1). Explaining a mechanism in plain words is routing; **judging whether a thesis is right is the owning desk's.**
-- ⛔ **Does not apply to other desks.** 📌 **It may deserve to — flagged to PROME as a possible fleet-wide pattern, NOT adopted unilaterally.** Root `CLAUDE.md`'s Output Canon is Will-gated and PROME-committed; **WALTER does not amend it.**
+- ✅ **SUPERSEDED v0.2 (2026-09-19, WQ-247) — it DID deserve to, and Will ruled it so.** This bullet previously read *"Does not apply to other desks … WALTER does not amend it"*; the flag to PROME was raised rather than adopted unilaterally, PROME carried it, and **Will approved it into root `CLAUDE.md` § Output Canon on 2026-09-17** (rec adopted: *"with WALTER's §3 anti-laundering rule made LOUDER, not quieter"*). ⛔ **The FLEET rule now lives in root and is Will-gated + PROME-committed — WALTER still does not amend root.** **This spec remains WALTER's own form-owner and the fleet's cited worked example; other desks take the rule from root, not from here.**
+- ⚠️ **DECLARED RESIDUE (WQ-247 PLAN read, carried deliberately):** root's clause does **not** carry §3's *"in plain words, in the brief, not in a file he has to open"*. That phrasing is the operative half of the anti-laundering rule for WALTER — it names WHERE the caveat must appear, not merely that it survives — and it **stays live HERE**. 🔑 **A caveat relocated to a linked file has been laundered by geography even when every word of it survives.** Root's ⛔ covers the substance; this line covers the placement.
 
 ---
 
