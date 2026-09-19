@@ -38,7 +38,7 @@ Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straigh
 3. **🟠 StatCan SEPTEMBER (~mid-Oct) — leg 1 of the ID-01 window, first post-counter-tariff month.** Needs PROME's ruling on the both-months reading first.
 4. **🟠 NTTO September (~mid-Oct)** — `VX-1.02` is −24.20% and the BREACHED line is −25%.
 5. **🟠 Awaiting CORAL:** refreshed FL Citizens PIF (MARCO's copy is dated 2026-06-30, ~11 weeks old). CORAL was DARK; PROME flagged per messaging rule 6b.
-6. **🟠 MAR-24 routing rule** — "all 3 FL airports negative → REGINALD/CARL/PROME" would dispatch a Spirit artifact as regional stress. **Put to Will and to PROME; unanswered.** Re-spec to an ex-Spirit basis or hand the call to PROME.
+6. ✅ **MAR-24 routing rule — CLOSED 9/19, Will-approved.** Re-specified in `CLAUDE.md`: the all-three trigger fires only **carrier-adjusted** (raw figure reported alongside), **MIA promoted to PRIMARY tell** (verified Spirit-free since Feb-2023), **expiry registered** (docket 2027-08-15 — May-2027 is the first clean YoY). REGINALD + CARL packeted ahead of the trigger. ⏳ **Remaining thread: Spirit's seat deletion is economically real (~84% backfilled at MCO) and is a SUPPLY question MARCO has not sized** — deliberately not folded into a demand signal.
 7. **🔴 ENERGY RE-ARM still un-re-specified** (3rd session). Fresh forward window, exchange-suffixed contract (`BZX26.NYM` form). ⚠️ Energy is re-accelerating (Aug gasoline +27.40% YoY) while the instrument sits dead.
 8. **🔴 Channel 4 — EMMA/MSRB credit leg STILL UNRUN** (since 8/12); it gates the retire-or-hold ruling.
 9. **🟠 Promotion flag owed to PROME:** `finding_threshold_spec_fails_before_world` is COLD-tier and was extended with 2 new instances (n=5) ⇒ promotion flag per the Batch-A rule. Also advisory: that memory's sibling hot hook is 118 chars vs the 80-char canon — **did not edit the shared index myself.**
@@ -48,7 +48,8 @@ Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straigh
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ⚖️ **MAR-24 routing rule would dispatch a bankruptcy as regional stress** | **Put to Will AND PROME — unanswered.** Highest-value open decision |
+| ✅ **MAR-24 routing rule** | **CLOSED 9/19** — carrier-adjusted trigger, MIA primary, expiry docketed 2027-08-15, REGINALD/CARL packeted |
+| ⏳ **Spirit seat deletion unsized** | Real capacity loss (~84% backfilled at MCO); a SUPPLY thread, deliberately kept out of the demand trigger |
 | 🔑 **`ID-01` both-months reading** | Pre-committed 9/19; **awaiting PROME ruling before the Sep print (~mid-Oct)** |
 | 🟠 **SDL-01 re-spec: 1 of 2 forward prints** | August (~Oct 1) completes or breaks it |
 | 🔴 **`MEMORY.md` 151% of budget** | Unrotated 3 sessions; blocks its own appends |
@@ -62,7 +63,7 @@ Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straigh
 ## Mail state
 **Inbox 3 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18 · WALTER-lane SIG-W-20260917-008) — **not a backlog failure: MARCO was not spawned for inbox this session.** The WALTER item is INFO-only (ZHAO owns the action). ⚠️ The WALTER lane is normally a boot-time drain — **drain it next boot**.
 **Sent:** **PROME** (`PROME/inbox/`, ID-01 noise floor + ASK; doorbelled `prome-73`) · **CORAL** (`AGENTS/CORAL/inbox/`, FL airports ex-Spirit + Citizens PIF ask; CORAL dark, PROME flagged per rule 6b).
-**Not sent, deliberately:** nothing to WALTER (analysis, not a signal; no threshold fired) · nothing to REGINALD/CARL on the airports — **the routing rule that would have sent it is the defect under review.**
+**Not sent, deliberately:** nothing to WALTER (analysis, not a signal; no threshold fired). ✅ **REGINALD + CARL WERE sent the airport read 9/19** once the rule was re-specified — ahead of the trigger, not as a correction after it.
 
 ## PUSH STATE
 Session 27 — see the closeout commits and the `safe-push.sh` receipt line.
