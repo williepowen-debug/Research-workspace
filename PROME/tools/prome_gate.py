@@ -269,6 +269,9 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
     return False
 
 
+DID_NOT_RUN = "CHECK DID NOT RUN"   # the marker a check prints when it could not run at all
+
+
 def run_script(severity, name, cmd, owner, ok_rc=(0,)):
     """Keep complete evidence on disk; summarize without silently dropping flags."""
     global LOG_DIR
@@ -280,10 +283,15 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
             p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
         ok = p.returncode in ok_rc
         tail = log.read_text(encoding="utf-8", errors="replace").strip().split("\n")
-        # ⛔ rc=2 is "we did not look", rc=1 is "we looked and it is not OK". Before 2026-09-19
-        # these rendered identically, so a CRASHED check read exactly like a working one
-        # reporting unavailable evidence (session_presence: ValueError vs a stale snapshot).
-        state = "DID NOT RUN (UNKNOWN execution — establishes nothing) · " if p.returncode == 2 else ""
+        # ⛔ DO NOT key this on rc=2. CHECK_STANDARD §9 (RATIFIED) defines rc 2 as CANNOT-CERTIFY,
+        # not did-not-run: spawn_list.py:322 returns 2 from a run that COMPLETED and found UNKNOWN
+        # rows, and docket_view/willq_view/position_agreement_check all have rc-2 paths of their own.
+        # A 2026-09-19 attempt to relabel every rc=2 as "DID NOT RUN" printed "establishes nothing"
+        # directly above a live WQ-184 spawn candidate — caught by an independent reader before it
+        # ran a second time. The did-not-run state travels on its own MARKER (§8 rule 5: the marker
+        # channel is authoritative, rc agrees with it and never substitutes for it).
+        body = log.read_text(encoding="utf-8", errors="replace")
+        state = "DID NOT RUN (the check itself failed — establishes nothing) · " if DID_NOT_RUN in body else ""
         detail = f"rc={p.returncode} · {state}".rstrip(" ·") + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
         if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
             flagged = [l.strip() for l in tail if l.lstrip().startswith(("❌", "⚠️"))]

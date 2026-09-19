@@ -232,10 +232,14 @@ def classify(owner, start, due, today, live: Liveness):
 
 
 class Row(NamedTuple):
-    """One due obligation. ⛔ APPEND new fields at the END and NEVER positionally unpack the
-    whole row downstream — 2026-09-19: adding `cadence` (7th) silently broke
-    session_presence.py, which unpacked 7. Named access is the contract; index access is
-    grandfathered. Acceptance conditions: PROME/tools/tests/ACCEPTANCE_presence_reader_contract_2026-09-19.md"""
+    """One due obligation. Named access is the contract; index access is grandfathered.
+
+    ⛔ APPEND new fields at the END and NEVER positionally unpack the whole row downstream.
+    ⚠️ The rule is stated because it was BROKEN, not because it was followed: on 2026-09-19
+    `40aed8915` INSERTED `cadence` at index 6, displacing `catalyst` from 6 to 7, and
+    session_presence.py — which unpacked 7 positionally — crashed at every boot for the ~4h38m
+    until the next one. An insertion breaks index readers that an append would not.
+    Acceptance conditions: PROME/tools/tests/ACCEPTANCE_presence_reader_contract_2026-09-19.md"""
     key: str
     due: str
     delta: int

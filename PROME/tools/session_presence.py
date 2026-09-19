@@ -6,10 +6,14 @@ import json
 from pathlib import Path
 import socket
 
-import session_bridge
-import spawn_list
-import desk_activity
-import session_identity
+_IMPORT_ERROR = None
+try:                       # ⛔ an import-time failure must NOT exit 1 and read as "ran, evidence
+    import session_bridge  # unavailable". guarded_main() cannot catch what is raised while the
+    import spawn_list      # module loads, so the local imports are guarded here and reported
+    import desk_activity   # through the same DID-NOT-RUN marker (independent reader, 2026-09-19:
+    import session_identity  # moving scripts/docket_view.py away still exited 1).
+except Exception as _exc:  # noqa: BLE001
+    _IMPORT_ERROR = f"{type(_exc).__name__}: {_exc}"
 
 ROOT = Path(__file__).resolve().parents[2]
 MAX_AGE_SECONDS = 60
@@ -132,7 +136,7 @@ def main():
     today = dt.date.today()
     rows = spawn_list.collect(spawn_list.read_text("PROME/DOCKET.tsv"),
         spawn_list.read_text("PROME/GATES.tsv"), today, 0, spawn_list.Liveness(None))
-    owners = sorted(set(args.desk) | {r[3] for r in rows if r[3] not in ("WILL", "?")} | {"PROME"})
+    owners = sorted(set(args.desk) | {o for o in (_field(r, "owner", 3) for r in rows) if o not in ("WILL", "?")} | {"PROME"})
     try:
         for owner in owners:
             desk_activity.desk_path(owner)
@@ -145,19 +149,29 @@ def main():
         for d in activities.get("desks", {}).values()) else rc
 
 
+def _did_not_run(reason):
+    """Print the marker the gate keys on. ⛔ rc=2 alone does NOT mean this state —
+    CHECK_STANDARD §9 defines rc 2 as CANNOT-CERTIFY, and other checks return 2 from runs that
+    completed. The marker string is the authoritative channel (§8 rule 5); rc agrees with it."""
+    print(f"\u274c CHECK DID NOT RUN \u2014 {reason}")
+    print("\u26d4 The check itself failed, so it establishes NOTHING about fleet presence. This is "
+          "NOT 'ran, evidence unavailable' (rc=1) and NOT 'ran, cannot certify its scope' (rc=2 "
+          "elsewhere). Do not read it as either.")
+    return 2
+
+
 def guarded_main():
     """rc 2 = the CHECK DID NOT RUN (we did not look). rc 1 = it ran, evidence unavailable.
     ⛔ These must never render identically: on 2026-09-19 a crash and a stale snapshot both
     reached the boot summary as the same UNKNOWN. CHECK_STANDARD §9 rc convention."""
+    if _IMPORT_ERROR is not None:
+        return _did_not_run(_IMPORT_ERROR)
     try:
         return main()
     except Exception as exc:  # noqa: BLE001 — a reader crash is a DID-NOT-RUN, never a finding
         import traceback
         traceback.print_exc()
-        print(f"\u274c CHECK DID NOT RUN \u2014 {type(exc).__name__}: {str(exc)[:160]}")
-        print("\u26d4 rc=2 UNKNOWN EXECUTION. This establishes NOTHING about fleet presence, and is "
-              "NOT the same state as 'ran, evidence unavailable' (rc=1). Do not read it as either.")
-        return 2
+        return _did_not_run(f"{type(exc).__name__}: {str(exc)[:160]}")
 
 
 if __name__ == "__main__":

@@ -66,8 +66,10 @@ p = subprocess.run([sys.executable, "-c",
     capture_output=True, text=True, cwd=ROOT)
 check("A3 a reader crash returns rc=2 (did not look), not rc=1", p.returncode == 2, f"rc={p.returncode}")
 check("A3 and says so in words", "CHECK DID NOT RUN" in p.stdout, p.stdout[-200:])
-check("A3 and explicitly disclaims the rc=1 reading",
-      "NOT the same state" in p.stdout, p.stdout[-200:])
+check("A3 disclaims the rc=1 reading BY NAME",
+      "'ran, evidence unavailable' (rc=1)" in p.stdout, p.stdout[-200:])
+check("A3 ALSO disclaims the rc=2 cannot-certify reading (reader ❌1)",
+      "cannot certify its scope" in p.stdout, p.stdout[-200:])
 
 print("A4 a real unknown stays unknown — the repair must not manufacture a pass")
 stale = fresh_snapshot(HOST)
@@ -112,6 +114,47 @@ _, out5 = run([ROW8], fresh_snapshot(HOST))
 check("A5 spawn_authorized never true", '"spawn_authorized": true' not in out5.lower())
 check("A5 never asserts a desk is absent/offline",
       "offline" not in out5.lower() and '"current_presence": "ABSENT"' not in out5)
+
+
+print("A6 an IMPORT-TIME failure must reach the same DID-NOT-RUN state (reader ❌2)")
+# move a real dependency away in a throwaway copy of the tree's import path
+import os, shutil, tempfile
+tmp = tempfile.mkdtemp(prefix="a6-")
+shutil.copytree(ROOT / "PROME/tools", Path(tmp) / "tools", dirs_exist_ok=True)
+os.makedirs(Path(tmp) / "scripts", exist_ok=True)
+for f in (ROOT / "scripts").glob("*.py"):          # everything EXCEPT docket_view
+    if f.name != "docket_view.py":
+        shutil.copy(f, Path(tmp) / "scripts" / f.name)
+p6 = subprocess.run([sys.executable, str(Path(tmp) / "tools" / "session_presence.py")],
+                    capture_output=True, text=True, cwd=tmp)
+check("A6 a missing dependency returns rc=2, not rc=1", p6.returncode == 2,
+      f"rc={p6.returncode} out={p6.stdout[-160:]} err={p6.stderr[-160:]}")
+check("A6 and prints the marker", "CHECK DID NOT RUN" in p6.stdout, p6.stdout[-200:])
+shutil.rmtree(tmp, ignore_errors=True)
+
+print("A7 the GATE must key did-not-run on the MARKER, never on rc==2 (reader ❌1)")
+# ⛔ verified at prome_gate itself. The first version of this suite never imported the gate,
+# which is exactly how the rc=2 contract break shipped — wrong artifact, clean result.
+sys.path.insert(0, str(ROOT / "PROME/tools"))
+import prome_gate as PG          # noqa: E402
+check("A7 the gate defines a did-not-run MARKER", hasattr(PG, "DID_NOT_RUN"))
+src = (ROOT / "PROME/tools/prome_gate.py").read_text(encoding="utf-8")
+check("A7 the gate no longer keys the label on rc==2",
+      'if p.returncode == 2 else' not in src, "rc-keyed label still present")
+check("A7 it keys on the marker instead", "DID_NOT_RUN in body" in src)
+check("A7 marker string agrees with what session_presence prints",
+      PG.DID_NOT_RUN == "CHECK DID NOT RUN")
+
+print("A7b a COMPLETED cannot-certify rc=2 must NOT be labelled did-not-run")
+# spawn_list returns 2 from a run that finished and found UNKNOWN rows (CHECK_STANDARD §9)
+cc = subprocess.run([sys.executable, "-c",
+    "print('\u26d4 1 row(s) UNKNOWN — unparseable owner cell'); raise SystemExit(2)"],
+    capture_output=True, text=True)
+check("A7b the cannot-certify fixture exits 2 without the marker",
+      cc.returncode == 2 and "CHECK DID NOT RUN" not in cc.stdout)
+check("A7b so the gate's label would NOT fire on it",
+      PG.DID_NOT_RUN not in cc.stdout,
+      "a completed cannot-certify run would be mislabelled did-not-run")
 
 print()
 if FAILED:
