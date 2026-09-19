@@ -1,5 +1,9 @@
 # RP-HANS-1: European UST Holdings Deep Dive
 
+> **HISTORICAL — a dated research pack, not maintained.** Every level in this file is the vintage of its own research date and must not be read as current; the tracked equivalents live in `workbook/VX.tsv` and `registry/THRESHOLDS.tsv`, and live state is `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout, after `consumer_check --self` flagged statement-time values here as stale. They are correctly-dated history; the defect was that nothing on the file said so.)*
+
+
 **Research Date:** February 13, 2026  
 **Agent:** HANS  
 **Status:** Initial Compilation  

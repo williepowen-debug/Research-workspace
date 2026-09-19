@@ -1,4 +1,7 @@
 # ECB/Fed Divergence + Funding — June 2026
+
+> **HISTORICAL — June-2026 research, not maintained.** Policy rates and spreads here are June vintage; the ECB has since hiked to 2.50% (eff. 2026-09-16) and the Fed to 3.75-4.00% (2026-09-16). Live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 **Agent:** HANS  
 **Created:** 2026-06-22 09:10 ET  
 **Scope:** Phase 3 / Batch B1 only — ECB/Fed policy differential, U.S. transmission channels, and funding-stress watch. No TIC country holdings, energy/storage, bank/private-credit deep dive, or sovereign/LDI deep dive except one-line context.

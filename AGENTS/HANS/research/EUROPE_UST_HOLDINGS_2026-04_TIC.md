@@ -1,4 +1,7 @@
 # Europe UST Holdings / TIC Custody Refresh — April 2026
+
+> **HISTORICAL — April-2026 TIC data, not maintained.** Superseded by later TIC releases; `VX-HANS-1.0x` carries the tracked rows. Live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 **Agent:** HANS  
 **Created:** 2026-06-22 09:25 ET  
 **Scope:** Phase 4 / Batch B2 only — Europe UST custody holdings and TIC flow interpretation. No PMI actuals, energy/storage, bank/private-credit, sovereign/LDI deep dive, workbook edit, outbox, or trade recommendation.

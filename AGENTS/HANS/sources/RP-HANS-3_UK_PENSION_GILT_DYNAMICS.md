@@ -1,5 +1,9 @@
 # RP-HANS-3: UK Pension / Gilt Market Dynamics
 
+> **HISTORICAL — a dated research pack, not maintained.** Every level in this file is the vintage of its own research date and must not be read as current; the tracked equivalents live in `workbook/VX.tsv` and `registry/THRESHOLDS.tsv`, and live state is `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout, after `consumer_check --self` flagged statement-time values here as stale. They are correctly-dated history; the defect was that nothing on the file said so.)*
+
+
 **Research Priority**: Understanding UK gilt market as leading indicator for US Treasury duration risk  
 **Compiled**: 2026-02-13  
 **Agent**: HANS  

@@ -1,4 +1,7 @@
 # HANS STATUS.md
+
+> **HISTORICAL — archived STATUS snapshot, 2026-07-16. Not maintained; do not cite rows as current.**
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 **Updated:** 2026-07-16 ~14:15 ET (compact staleness refresh; primary session task was a China-custody-hub build, see `research/2026-07-16_china-custody-hub-check.md`)
 **Status: 🟠 REGIME FLIPPED SINCE 6/22 — Iran formally closed Hormuz 7/11-12; TTF gas has BREACHED my own >€50 crisis threshold (€55.11, 7/16). German Mfg PMI is corrected UP (see below) — was in expansion in May/June, not sub-50 as I had it. Jul-4 tariff cliff RESOLVED (deal took effect). ECB next meets Jul 22-23.**
 

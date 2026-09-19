@@ -2,6 +2,8 @@
 
 **Split out of `STATUS.md` on 2026-09-05** so STATUS stays inside the 32,550 B read-cap budget (`AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`). **Hot/cold split, not a rotation — this file is LIVE and maintained.**
 
+⚠️ **APPEND-ONLY, AND EVERY ROW IS A STATEMENT-TIME RECORD.** The file is LIVE — new sections are appended — but a row records what I flagged **on its own date** and is never re-valued afterwards. **A level in an older section is correct AS OF that section's date and is not a current-value assertion**; current levels live in `registry/THRESHOLDS.tsv`, then `STATUS.md`. *(Stated 2026-09-18 at closeout: `consumer_check --self` flagged an older row's gilt level as stale, which is the checker behaving correctly against a file whose LIVE banner implied every row was current. The rows were always dated; nothing said the dating was load-bearing.)*
+
 ⚠️ **This log is NOT the dispatch record.** A flag written here is a note to myself; the dispatch is the packet in the **recipient's** tree, and `registry/HANS_T_FIRED_LOG.tsv` `dispatch_artifact` is the cell that must name a recipient-tree path `[[finding_record_of_an_action_is_not_the_action]]`. Verify delivery with `find AGENTS/<RECIPIENT> -iname "*HANS*"`, never from here and never from `outbox/delivered/`.
 
 ---

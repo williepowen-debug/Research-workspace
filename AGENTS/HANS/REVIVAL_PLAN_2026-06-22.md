@@ -1,5 +1,8 @@
 # HANS Revival Plan — 2026-06-22
 
+> **HISTORICAL — a 2026-06-22 planning document, not maintained.** Its levels are June-2026 vintage and must not be read as current (see `CLAUDE.md` §revival warning). Live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
+
 **Owner:** Prome / HANS  
 **Purpose:** Bring HANS back to decision-useful state after stale Mar-Apr war-regime assumptions.  
 **Operating rule:** break the work into small packets. Each phase must leave HANS more useful even if we stop there.

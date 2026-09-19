@@ -1,5 +1,8 @@
 # PRE-REGISTRATION — ECB Governing Council, 2026-09-10
 
+> **HISTORICAL — the pre-registration is CLOSED; the event resolved 2026-09-10.** Values here are the anchors as they stood BEFORE the decision and are intentionally frozen — a pre-registration that gets updated is not one. Grade → `thesis/ECB_2026-09-10_GRADE.md`; live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
+
 **Written 2026-08-28, THIRTEEN DAYS BEFORE the decision** and before the **Sept-1 euro-area flash HICP** that is the last major input. Nothing below may be edited after 2026-09-01; corrections go in a dated appendix.
 
 **Form adopted from SAM** (`thesis/*_PREREGISTRATION.md`). **Why this desk needed it:** on 2026-08-28 I graded my own book and found **two hits that were momentum continuations and one miss that was the only call requiring a turn.** A one-line prediction row cannot expose that; a pre-registration can, because it forces the rival hypotheses onto the page **before** the outcome makes one of them obvious.

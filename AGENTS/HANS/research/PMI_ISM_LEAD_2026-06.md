@@ -1,4 +1,7 @@
 # PMI → ISM Lead Module — June 2026
+
+> **HISTORICAL — June-2026 research, not maintained.** PMI values are June vintage. The lead relationship was re-tested 2026-08-28 (`research/2026-08-28_PMI_ISM_LEAD_REGIME_TEST.md`) and the capex-regime caveat RETRACTED. Live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 **Created:** 2026-06-22 08:55 ET  
 **Status:** Scaffold / pre-PMI playbook. Jun 2026 flash PMIs are **PENDING** until Tue 2026-06-23.
 

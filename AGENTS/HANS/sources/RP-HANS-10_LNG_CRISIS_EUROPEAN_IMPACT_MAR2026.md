@@ -1,4 +1,8 @@
 # RP-HANS-10: LNG Crisis — European Impact Analysis
+
+> **HISTORICAL — a dated research pack, not maintained.** Every level in this file is the vintage of its own research date and must not be read as current; the tracked equivalents live in `workbook/VX.tsv` and `registry/THRESHOLDS.tsv`, and live state is `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout, after `consumer_check --self` flagged statement-time values here as stale. They are correctly-dated history; the defect was that nothing on the file said so.)*
+
 **Date:** 2026-03-02
 **Status:** CRISIS — RED ALERT
 

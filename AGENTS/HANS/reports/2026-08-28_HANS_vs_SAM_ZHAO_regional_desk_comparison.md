@@ -1,4 +1,7 @@
 # HANS vs SAM vs ZHAO — regional-desk compare/contrast
+
+> **HISTORICAL — a 2026-08-28 desk comparison, not maintained.** Live state → `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 **Author:** HANS · **Date:** 2026-08-28 · **Commissioned by:** Will, in-session ("HANS is a bit on the lighter side vs some of our other agents")
 **Method:** direct measurement of the three trees at `origin/master` — file inventories, `git log` authorship counts, ledger row counts, `read_cap_check.py`, and reads of each charter. No estimates; every figure below is counted.
 

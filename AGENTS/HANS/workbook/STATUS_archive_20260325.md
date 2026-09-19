@@ -1,4 +1,7 @@
 # HANS STATUS Archive — 2026-03-25
+
+> **HISTORICAL — archived STATUS snapshot, 2026-03-25. Not maintained; do not cite rows as current.**
+> *(HISTORICAL banner added 2026-09-18 at closeout. Found via `consumer_check --self`, which flagged statement-time values here as stale: they are correctly-dated HISTORY, and the defect was that nothing on the file SAID so. Data Hygiene requires a surface be FROZEN-with-a-banner or LIVE-with-an-alert, never the silent-rot middle — these were neither.)*
 ## Pruned by Prome STATUS maintenance. Content moved from STATUS.md to reduce file size.
 
 ---

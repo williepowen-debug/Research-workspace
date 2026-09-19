@@ -135,7 +135,8 @@
 
 ## NEXT SESSION — WHAT IS OWED
 
-🔴 **FIRST ACTION NEXT BOOT: `python3 scripts/doc_audit.py`.** `CLAUDE.md` RULE #1b. It is the only thing that reliably disagrees with a surface I just wrote.
+🔴 **FIRST ACTION NEXT BOOT: `python3 scripts/doc_audit.py`.** `CLAUDE.md` RULE #1b.
+⚠️ **CLOSEOUT 1c HAS TWO FORMS; I RAN ONE.** The cross-agent scan **excludes my own dir**, so `consumer_check --self` is the only one seeing figures I superseded. **Will caught it.** Result: **13 🔴, ZERO data defects** — graded tables, dated log rows, archives, and **append-only `PUBLISHED.tsv` whose superseded values ARE the instrument.** Fixed **structurally, no value changed**: 20 surfaces bannered HISTORICAL (they had **none** — the silent-rot middle). ⛔ **Residual 13 NOT to be cleared** — editing a graded row to silence a checker resolves a flag backwards. → `ML-HANS-456` It is the only thing that reliably disagrees with a surface I just wrote.
 🔴 **SECOND: the CONTRACT ROLL lands 9/28 (`NG=F`) and 9/29 (`TTF=F`).** `KB-HANS-079`/`081` expire **9/25** so boot raises it **before** the roll — *a warning dated on its own event is not a warning.* **`T-07` is a LEVEL ladder with L1+L2 FIRED: never grade a rung crossing across a roll.** Harmless this time (−€1.38, no rung crossed) **and only by the curve's shape.**
 
 | # | Owed | Due |

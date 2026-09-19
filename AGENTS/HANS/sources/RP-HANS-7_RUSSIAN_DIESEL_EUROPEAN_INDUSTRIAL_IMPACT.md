@@ -1,5 +1,9 @@
 # RP-HANS-7: Russian Diesel Dependence & European Industrial Impact
 
+> **HISTORICAL — a dated research pack, not maintained.** Every level in this file is the vintage of its own research date and must not be read as current; the tracked equivalents live in `workbook/VX.tsv` and `registry/THRESHOLDS.tsv`, and live state is `STATUS.md`.
+> *(HISTORICAL banner added 2026-09-18 at closeout, after `consumer_check --self` flagged statement-time values here as stale. They are correctly-dated history; the defect was that nothing on the file said so.)*
+
+
 **Research Date:** 2026-02-18  
 **Analyst:** HANS  
 **Status:** COMPLETE  
