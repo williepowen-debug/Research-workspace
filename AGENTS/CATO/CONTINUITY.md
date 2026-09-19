@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, PROME closeout readiness assessed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, SAM bounded final pass completed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — SAM bounded final pass does not pass acceptance.** [Report](runs/2026-09-19_1321_sam-final-pass.md), [probe](runs/2026-09-19_1321_sam-final-pass-probe.py), [results](runs/2026-09-19_1321_sam-final-pass-probe.txt), [checks](runs/2026-09-19_1321_sam-final-pass-checks.txt). At `09efbf9e0`, 33 closeout/11 CPI tests pass; line-end/backtick/adjacent-scoreboard/apostrophe fixes verified. Same three families remain partial: explicitly current double-quoted OPEN claim suppressed; actual verbose Oct8 30Y→20Y auction swap passes Jaccard 0.80; warning output silently drops seventh/eighth paths and child ERROR still allows scoped PASS. Bounded review complete; recommend accurate partial session disposition, not another unassigned audit. Prediction adjudication separate. No owner edits/sends/launches. Next orient and await Will; no implementation task assigned.
 
 **Latest — PROME readiness to close assessed.** [Assessment](runs/2026-09-19_1306_prome-closeout-readiness.md), [probes](runs/2026-09-19_1306_prome-closeout-readiness-probe.py), [results](runs/2026-09-19_1306_prome-closeout-readiness-probe.txt), [checks](runs/2026-09-19_1306_prome-closeout-readiness-checks.txt). At `7cc6bc5b3`, invalid-date repair changes ERROR/rc2 to ADVISE/rc0 despite better sibling diagnostics; new Deck guard misses supported lettered IDs and can still render Nothing owed. ANVIL receipt edit useful but approval pending; VLO absent from dashboard, FORGE 10,994 bytes over cap, later screenshot report contradicts old-vintage holdings without proving old-date error. L441/L444 restored. Recommend bounded PARTIAL closeout with exact pending work/custody, spawn receipts and applicable checks, not more broad late repairs or complete certification. No owner edits/sends/launches; no PROME closeout run. Next orient and await Will, verify final receipt only if assigned.
 

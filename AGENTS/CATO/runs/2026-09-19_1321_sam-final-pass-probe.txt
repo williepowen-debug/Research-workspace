@@ -1,0 +1,8 @@
+Pinned revision: 09efbf9e00c4f962ef58bab9308a3734fee9b967
+VERIFIED: end-of-line, backtick, adjacent correct scoreboard and apostrophe cases detected
+CONTROL: actual historical quoted statement stays quiet
+REMAINS: explicitly current double-quoted 9 OPEN claim silently suppressed
+REMAINS: actual October 8 long-title JGB 30Y -> 20Y swap accepted; Jaccard= 0.8
+PARTIAL: rc=0 warnings now displayed, but seventh/eighth actionable paths discarded with no full-log pointer
+REMAINS: child execution ERROR still permits rc=0 / scoped structural PASS
+Bounded pass complete; no owner mutations.
