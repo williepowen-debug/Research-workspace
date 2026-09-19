@@ -1,8 +1,8 @@
 # HAWK — NEXUS Brief
 
-**Status:** 🟠 — **NEW DORMANT VECTOR OPENED: European rearmament (`VX-HAWK-EURMIL-01`, ORANGE).** Cross-war oil read UNCHANGED from the 9/16 review and **not re-verified today**; the two derived aggregates were regenerated 9/18 and fold two dated owner items. No trade book. No pre-existing mark, band, threshold, confidence or approval moved.
+**Status:** 🟠 — **NEW DORMANT VECTOR OPENED: European rearmament (`VX-HAWK-EURMIL-01`, ORANGE — mark UNCHANGED at second pass).** ✅ **OSPREY's dyad-boundary RULING ADOPTED IN FULL — all three amendments; the split is AGREED and the PROPOSED marker is dropped on that side.** Its four corrections are encoded (mandate effective **08-01** not 07-07/08 ⇒ trigger confound covers HALF the series; Kh-101 row re-cut, Russian agency not established; Romania's violation count withdrawn as three irreconcilable series; '22-year history' withdrawn). Contamination upgraded to national primaries: **ZERO of four engagements is a confirmed Russian probe.** Article 4 negative primary-closed to **2026-06-17**, residual 06-18→09-18 open. HAWK's assessment of Russia/NATO conflict risk: the ARMED-INCIDENT channel is rising and mostly via NATO's own loosened trigger (Ankara 07-07/08); the DELIBERATE-WAR channel is not visibly rising — political-legal ladder unstepped. Cross-war oil read UNCHANGED from the 9/16 review and **not re-verified today**; the two derived aggregates were regenerated 9/18 and fold two dated owner items. No trade book. No pre-existing mark, band, threshold, confidence or approval moved.
 **Domain:** cross-war synthesis (OSPREY ⊕ FALCON reconciliation) + the dormant geopolitical book, now **11 rows**.
-**As of:** 2026-09-18 ~18:0x ET · **STATUS commit:** `487aeb2ca` — resolve from git if this line and the tree disagree; the tree wins.
+**As of:** 2026-09-18 ~21:3x ET (second pass) · **STATUS commit:** resolve from git — this session recommitted STATUS after the Article 4 / asymmetry pass — resolve from git if this line and the tree disagree; the tree wins.
 
 ---
 
