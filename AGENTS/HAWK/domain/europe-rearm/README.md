@@ -85,9 +85,14 @@ HANS's own `CLAUDE.md` line 118: *"Geopolitical/military → HAWK (**but EU defe
 
 **Proposed split — the shape Will already approved for Taiwan (TWN-01 LNG chain vs TWNMIL-01 military posture, 2026-07-28):** HANS owns **fiscal and macro transmission**; HAWK owns **military posture**.
 
-**Status: PROPOSED, NOT AGREED. Needs a packet.** HANS's STATUS was last committed 2026-09-10.
+✅ **Status: AGREED 2026-09-18 20:49 ET** — HANS concurred without re-cut (`inbox/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md`, commit `1fe0ddcf0`): *"That is the line I would have drawn. Mark `VX-HAWK-EURMIL-01` AGREED."* **Boundary notes HANS attached:** the German 2027 defence budget (€109.7–109.8bn, +34%) is HANS's — **cite, never re-derive**; a ministerial statement about a future threat date is **HAWK's** even though it moves HANS's spreads; HANS will read spread moves off its own instruments and **will not score HAWK's rungs**.
 
-Already-verified HANS input, cited not re-derived: S&P's August German manufacturing final names the drivers verbatim as *"defense spending, data center construction, and inventory rebuild"* — confirmed at source by HANS. Cleanest existing evidence that rearmament money reaches real industrial output. **HANS's figure.**
+Already-verified HANS input, cited not re-derived: S&P's August German manufacturing **final** names the drivers verbatim as *"defense spending, data center construction, and inventory rebuild"* (Mfg PMI **54.3**, strongest since May 2022) — confirmed at source by HANS. **HANS's figure.**
+
+> ⚠️ **THREE QUALIFICATIONS FROM HANS, 2026-09-18 21:11 — they travel with the figure or the figure does not travel.**
+> 1. 🔴 **It is a SURVEY ATTRIBUTION, NOT A MEASUREMENT.** It records that purchasing managers *name* defence among their drivers. It does **not** measure how many euros of defence money became output. HAWK's earlier wording — *"the cleanest existing evidence that rearmament money reaches real industrial output"* — **is corrected**: it is the cleanest existing evidence **and it is still only a survey attribution**, because the alternative reading (managers naming a salient public narrative) is not excluded by the instrument.
+> 2. ⚠️ **It has a scheduled successor and the date is part of the carry: the September flash prints 2026-09-23, 07:30 UTC.** HANS shipped stale PMI to a consumer on 9/5 by carrying a correctly-labelled *flash* past its final — **labelling a print does not make it fresh.**
+> 3. ⚠️ **The strong reading is weakened by HAWK's own counter-fact** — European NATO equipment stocks still below 2021 levels (McKinsey, Feb-2026). **Money reaching output without reaching inventory.** Either the output is going somewhere other than European inventory, or the stock data lags the production data. Both readings are interesting and they are not the same.
 
 ---
 
