@@ -429,6 +429,56 @@ def check_docket_overdue():
            "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
+def check_docket_buried_state_token():
+    """BLOCKING: a DOCKET row whose state cell contains PENDING but does not LEAD with a
+    state token is INVISIBLE to the canonical reader and its obligation silently disappears.
+
+    WHY (2026-09-19): `scripts/docket_view.py:110` classifies a row by whether its state cell
+    STARTS with a token; anything else is TERMINAL. PROME annotated four of its own live rows
+    that day by PREFIXING narrative (⛔ DATE CONTESTED …, ⚑ RE-SCOPED …, ✅ CONFIRMED …) and
+    thereby dropped all four out of the live calendar — L433 · L435 · L441 · L444, two of them
+    obligations PROME had registered hours earlier.
+
+    ⛔ THE LESSON WAS ALREADY IN PROME'S OWN HOT MEMORY INDEX AT THE TIME, reading *a guard
+    scoped by status TOKEN drops the rows someone described better*
+    ([[finding_status_token_membership_test_desupervises_improved_rows]], already n=3 across
+    3 files in 1 day). Knowing it did not prevent a fourth, fifth, sixth and seventh instance
+    by its own author within one session — which is the argument for a mechanical guard over
+    another note (WQ-229: prefer promoting or repairing a control to describing the pattern).
+
+    Found by CATO, not by PROME, and not by any existing check: the row reads TERMINAL, so
+    every downstream consumer agrees it is finished. A disappeared obligation leaves no
+    absence to notice — the same shape as [[finding_truncation_returns_a_plausible_answer_not_an_error]].
+
+    BLOCKING rather than advisory on purpose: an advisory here would be overridden exactly as
+    the .claude parity gate was ([[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]).
+    """
+    import re as _re
+    tok = _re.compile(r"^\s*(PENDING|RESOLVED|TOMBSTONE|SUPERSEDED|CANCELLED|EXPIRED|COVERED|"
+                      r"DELIVERED|NOT RUN|RE-DATED|SLID|DISPOSED|DECLINED|LAPSED|GRADED|"
+                      r"OWNER-GRADED|OWNER-DELIVERED|IN PROGRESS|MEASURED|POLLED|OVERTAKEN|"
+                      r"MISSED-WINDOW-RECOVERED|LEG|OVERDUE-ANNOTATED|★)", _re.I)
+    buried = []
+    try:
+        rows = (ROOT / "PROME" / "DOCKET.tsv").read_text(encoding="utf-8").split("\n")
+    except OSError as e:
+        record(ADVISE, "DOCKET buried state token", None,
+               f"UNKNOWN — could not read DOCKET ({type(e).__name__})", "PROME/DOCKET.tsv")
+        return
+    for n, raw in enumerate(rows, 1):
+        c = raw.split("\t")
+        if len(c) < 4 or not c[0].strip() or c[0].startswith("#"):
+            continue
+        if "PENDING" in c[3].upper() and not tok.match(c[3]):
+            buried.append(f"L{n}")
+    record(BLOCK, "DOCKET buried state token (row invisible to the canonical reader)", not buried,
+           ("; ".join(buried[:8]) + (f" (+{len(buried)-8} more)" if len(buried) > 8 else "")
+            + " — state cell contains PENDING but does not LEAD with a token, so docket_view "
+              "reads it TERMINAL and the obligation vanishes from the live calendar")
+           if buried else "every row containing PENDING leads with a state token",
+           "PROME/DOCKET.tsv — put the token FIRST and the annotation AFTER it; never prefix narrative")
+
+
 def check_docket_today():
     """CLOSEOUT-ONLY, BLOCKING: PENDING rows landing TODAY, undispositioned.
 
@@ -1152,6 +1202,7 @@ def mode_boot():
                "and commit PROME/registry/corrections_receipts.tsv")
     guard(check_gates_tsv)
     guard(check_docket_overdue)
+    guard(check_docket_buried_state_token)
     run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
                "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
                "--ignore", r"\breviews?\b"],
@@ -1204,6 +1255,7 @@ def mode_closeout(tier=None):
                "--all", "--quiet"], "owner STATUS is canonical")
     guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session
     guard(check_docket_overdue)
+    guard(check_docket_buried_state_token)
     guard(check_docket_today)       # the pre-fire analogue: don't go dark before today's items
     run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
                "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
