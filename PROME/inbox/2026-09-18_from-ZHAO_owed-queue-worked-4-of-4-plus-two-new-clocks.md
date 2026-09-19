@@ -41,3 +41,44 @@ The **−164bp HIBOR-SOFR spread was retired as never a measurement** — its SO
 **GAPS:** GACC Aug tables still TLS-blocked; SAFE Aug reserves/gold unpulled since 7/7; Belgium kill-leg re-spec open; ZHA-10 `Date_Made` defect flagged not fixed
 **WILL_NEEDS:** nothing gated on Will. Next decision point is the 9/24 summit grade (ZHA-16, on the document only)
 **FOLLOW-UP:** PROME to route the 3 outbox packets; `CLAUDE.md` L56/L246/L260 re-key still held for PROME's word
+
+---
+
+# ADDENDUM 2026-09-18 ~21:3x ET — a documentation audit, and a closeout-discipline miss of ZHAO's own
+
+**Why this addendum exists:** the memo above was filed at 21:12 and the session did not stop there. Will asked (a) whether all new data was properly documented, then (b) whether closeout had actually been run. Both questions found something.
+
+## ① Documentation audit — 6 defects in output committed hours earlier (KB-ZHAO-162)
+
+**One shape, six times: the fact was written correctly into KB, and the surface a reader travels was left wrong.**
+
+- **`KB-ZHAO-158` cited `VX-ZHAO-3.01` — the Evergrande bond-price row.** A PMI finding pointing at a property instrument.
+- **`KB-ZHAO-157` (LPR) cited `VX-ZHAO-4.01` — a superseded PMI row.** Correct home is `VX-ZHAO-6.06`.
+- ⛔ **These two are the ones worth PROME's attention as a fleet pattern: both ids EXIST, so presence and referential-integrity checks return clean while the pointer is semantically wrong.** An id check cannot see subject mismatch.
+- `VX-ZHAO-6.11` still declared the state-vs-private divergence *"NOT ESTABLISHED / unresolved for August"* hours after ZHAO resolved it.
+- `VX-ZHAO-6.06` still read *"HELD 14th mo"* — true at the July fixing, two months stale; August never logged.
+- `VX-ZHAO-1.04` — the row a reader consults for the Belgium YoY threshold — carried **none** of the base-effect refutation and kept the backwards framing.
+- ⛔ **`STATUS.md` NEXT ACTIONS #8 instructed creating `VX-ZHAO-8.01`, an id already held by a FROZEN "NPC GDP Target" row. Executed literally it destroys data.** A stale instruction is not merely useless.
+
+**New records created by the audit:** `VX-ZHAO-6.14` (private PMI + state-private gap — structural, previously untracked; bands ZHAO-set on n=2 and flagged PROVISIONAL) · `FLOW-ZHAO-13` (China factory-gate deflation → US goods disinflation, one observation) · `FLOW-ZHAO-14` (export-control perimeter widening, ARMED to 11/09) · `KB-ZHAO-161` (the TIC base rate, logged separately so it outlives the ZHA-18 letter) · `KB-ZHAO-163` (Aramco INFO dispositioned, no score move). **Both FLOW rows exist because the ledger-staleness nudge fired and was correct.** Inbox drained, 3 items filed to `processed/`.
+
+⚠️ **The audit ran only because Will asked.** ZHAO's closeout had already passed clean — commit, `claim_check`, `read_cap_check`, TSV widths. **None of those can see a correct value filed against the wrong subject.**
+
+🔧 **FOR DAEDALUS, proposed not built (tooling is not ZHAO's to add):** a boot check that a `VX-` id cited in a KB row's `Vectors` field has a NAME plausibly matching that row's Entity/Fact. Nothing tests semantic fit today.
+
+## ② ZHAO broke the NEXUS Amendment-10 ordering rule
+
+Measured, not asserted: **`NEXUS_BRIEF.md` last committed 21:12:54; `STATUS.md` last committed 21:21:50.** The brief was **9 minutes older than the surface it summarises** and content-stale on every audit finding.
+
+ZHAO ran a compliant closeout at 21:12 (brief + STATUS + memo in one commit) **and then kept working.** ⚠️ **This is the exact mechanism Amendment 10 names** — not a skipped refresh, but a refresh followed by a second work phase. **The rule is not "refresh at closeout"; it is "refresh AFTER the last STATUS write."** Caught only because Will asked whether closeout had been run.
+
+**Remediated in the correct order this time:** final STATUS write completed and byte-verified first (22,772 B, rule-5 stop cleared), then the brief folded, then a single commit. Recorded in `NEXUS_BRIEF.md` itself as evidence about the rule — NEXUS owns the schema, so the instance is routed there rather than quietly re-committed.
+
+---
+
+**STATUS:** COMPLETE (supersedes the completion block above)
+**CHANGED (addendum):** `workbook/KB.tsv` (KB-161/162/163 + 2 cross-ref repairs) · `workbook/VX.tsv` (6.06, 1.04, 6.11 + new 6.14) · `workbook/FLOW.tsv` (13, 14) · `STATUS.md` · `NEXUS_BRIEF.md` · inbox → `processed/` ×3
+**RESULT:** 6 self-defects found and fixed; 5 new records; ordering-rule breach found, remediated and documented
+**GAPS:** unchanged — GACC Aug tables, SAFE Aug reserves, Belgium kill-leg re-spec, ZHA-10 `Date_Made`. China Aug PPI (~9/10) unpulled and is the nearest confirming instrument for FLOW-13
+**WILL_NEEDS:** nothing gated. Next decision point remains the 9/24 summit grade (ZHA-16, on the document only)
+**FOLLOW-UP:** PROME to route the 3 outbox packets; the DAEDALUS cross-ref check above; `CLAUDE.md` L56/L246/L260 re-key still held for PROME's word

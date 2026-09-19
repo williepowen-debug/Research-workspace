@@ -377,3 +377,68 @@ Branches **A** extension beyond 11/10 · **B** no change · **C** escalation · 
 ```
 
 ---
+
+## §㉗ — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| China Official UST | **$618.0B** (Jul, **−$15.4B MoM**) | <$650B = RED | 🔴 **2nd month below** | [CONF] TIC Jul'26 Table 5, ZHAO pull 9/17 — net **−$12.6B** (LT **−$7.7B**, ST −$4.9B). ⚠️ **press "16/18-yr low" NOT certified.** ZHA-17 **NO** (KB-149/150) |
+```
+
+---
+
+## §㉗b — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| Foreign Official vs Non-Official (coupons) | **Jul: official +$25.5B / private −$29.1B** (Jun: −$45.4B / +$23.2B) | — | 🟠 **REVERSED** | [CONF] Treasury sb0631, 9/16 — China sold inside an official bucket that net **bought** ⇒ other officials absorbed it. **LIQUID's to price** (KB-149) |
+```
+
+---
+
+## §㉘ — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| Belgium TIC (proxy) | **$470.7B** (Jul, −$11.8B MoM) | >$500B = **FYI level only** | 🟠 | [CONF] TIC Jul'26 — net **−$20.4B**: **sold alongside China = the anti-mirror.** YoY **+10.6%**, 1pt above the <10% kill-leg (VX-1.04) |
+```
+
+---
+
+## §㉘b — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| 🆕 **China Aug trade (nominal $)** | exports **+25.0% YoY** · imports **+28.2%** · surplus **$119.09B** | — | 🟠 [CONF-reported] GACC 9/8 via CNBC/AP. ⚠️ **Nominal not volumes; GACC unreachable — reconcile owed.** Autos +43%, semis +129.8% (KB-144) |
+```
+
+---
+
+## §㉘c — SIGNAL DASHBOARD — full cell, moved verbatim 2026-09-18
+
+```
+| China 10Y CGB | **1.710%** | — | 🟡 🧊 **[STALE 7/31 — refresh or freeze]** — ZHAO's since 8/18; ⚠️ **a low nominal CGB yield is NOT haven demand** (capital controls, policy-bank buyers). Boundary → `CLAUDE.md` §CGB |
+```
+
+---
+
+## §㉙ — SUMMIT block, the full truce-clock paragraph as written 2026-09-18
+
+```
+🔴 **THE CLOCK:** *"…shall continue to be suspended until 12:01 a.m. EST on November 10, 2026."* **A time-limited suspension expiring by its own terms** ⇒ nobody has to re-impose; somebody has to decide NOT to. Suspended-state reciprocal rate 10%, fentanyl 20%→10%; **resumed rate NOT specified in the order.**
+```
+
+---
+
+## §㉚ — CROSS-AGENT TRANSMISSION, the full per-agent table as it stood 2026-09-18
+
+```
+## CROSS-AGENT TRANSMISSION
+
+| Agent | Signal | State |
+|-------|--------|-------|
+| **VULCAN · MIDAS · BRENT · BOND · PROME · WALTER (9/17 lane)** | Six rows **closed/consumed as of 9/17** — CXMT unit fix, Aug-PMI cross-grade, the Vector-8 3→4 answer, the NBIM correction, the `LAST_COMPLETION` re-key, the 8-item lane drain | 🟢 verbatim → **COLD_20260918 §①** |
+| **HAWK** | ZHA-16 on the **truce clock**; + the new **11/09 Affiliates-Rule** clock routed | 🟡 open to 9/24 |
+| 🆕 **OUTBOX 9/18 — 3 packets awaiting PROME routing** | **HANS+LIQUID** Belgium YoY base-effect (check your own hub thresholds) · **HENRY+MARCO+MIDAS** China factory-gate price cut · **VULCAN+HAWK** Affiliates-Rule 11/09 (does your entity map resolve ≥50% AGGREGATE ownership?) | 🟠 written, not delivered |
+| **DAEDALUS** | PR6 9/17: second clean cycle **ADJUDICATED MET**. Two asks by 9/24 — **SOFR ✅ 9/18**, CATALYSTS re-date **OPEN** | 🟠 1 of 2 |
+| **WALTER** | `-008` **ACTION** (301 delay + Bessent–He) → KB-155, ungraded by design; `-007` INFO (Aramco STS off Sohar — **a hand-off through Hormuz, not around it**), no ZHAO score move | 🟠 `-008` watch live |
+
+```
+
+---
