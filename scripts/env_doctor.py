@@ -48,7 +48,22 @@ REQUIRED_KEYS = ["FRED_API_KEY", "EIA_API_KEY", "PJM_API_KEY",
                  # (`finding_impeachment_must_be_scoped_to_the_claim_not_the_source`).
                  # Presence-only, like every key here: no network probe, and the key has no
                  # expiry so it gets no JWT-style expiry check either.
-                 "FIRMS_MAP_KEY"]  # expected on EVERY box
+                 "FIRMS_MAP_KEY",
+                 # GIE AGSI+ (added 2026-09-19, Will registered the key same day, WQ-271):
+                 # gates HANS-T-08's ONLY exit path — the exit needs a SINGLE-SOURCE gap, so
+                 # without this key an open orange fire cannot close at all — plus two of
+                 # HNS-07's four re-mark triggers.
+                 # ⛔ PRESENCE IS NOT VALIDITY, AND ON THIS API THAT GAP IS UNUSUALLY WIDE.
+                 # A REJECTED AGSI key returns HTTP 200 WITH AN EMPTY data ARRAY — shape-
+                 # identical to an unpublished gas day. A dead key therefore never surfaces as
+                 # an auth error downstream; it surfaces as "come back tomorrow", and the desk
+                 # defers its checkpoint correctly by its own letter, indefinitely.
+                 # ⇒ THIS ROW CATCHES ONLY THE ABSENT CASE. The REJECTED case is discriminated
+                 # at the point of use by HANS's _agsi_why_empty() re-probe (a PRESENT-but-
+                 # EMPTY x-key returns data where a wrong key does not) — quirk-dependent,
+                 # re-verify 2026-12-19. Both behaviours verified live by PROME 2026-09-19
+                 # with a negative control; AGENTS/HANS/inbox/2026-09-19_from-PROME_agsi-key-*.
+                 "AGSI_API_KEY"]  # expected on EVERY box
 
 # JWT expiry probe (2026-08-07): the FFIEC token is a 90-day JWT that dies
 # SILENTLY at expiry (the ESTAT_APPID class — a dead key looks like a broken
