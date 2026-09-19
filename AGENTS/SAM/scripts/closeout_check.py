@@ -149,9 +149,29 @@ def _quoted_spans(line):
     return spans
 
 
-def _in_quotes(line, start, end):
-    return any(a < start and end <= b for a, b in _quoted_spans(line))
+# ⛔ THE ASSUMPTION THAT BROKE (CATO round 3, 2026-09-19): quotes were treated as
+# marking a RETIRED value. Quotes mark QUOTATION, which is equally used for a LIVE
+# claim — CATO's counterexample is plain English:
+#     PREDICTIONS.tsv currently reports "9 OPEN"; use that count today.
+# Suppressing on quoting alone silenced it. Quoting is now NECESSARY BUT NOT
+# SUFFICIENT: the line must ALSO carry positive evidence that the figure is being
+# reported as history. Default is to FLAG; silence must be earned.
+HISTORY_CUES = (
+    'it read', 'read "', 'this line said', 'said "', 'until', 'superseded',
+    'retired', 'no longer', 'previously', 'formerly', 'stale', 'false positive',
+    'was wrong', 'corrected', 'match inside', 'matched inside', 'used to',
+)
 
+
+def _is_historical_quote(line, start, end):
+    """True only when the figure is BOTH inside quotes AND the line says it is old."""
+    if not any(a < start and end <= b for a, b in _quoted_spans(line)):
+        return False
+    low = line.lower()
+    return any(c in low for c in HISTORY_CUES)
+
+
+TENOR_RE = re.compile(r'^\d{1,2}y$')     # 2y 5y 10y 20y 30y 40y — the auction discriminator
 
 STOP = {'the', 'a', 'an', 'of', 'and', 'or', 'for', 'to', 'in', 'on', 'at', 'by',
         'vs', 'is', 'its', 'no', 'not', 'day', 'date', 'jst', 'et', 'am', 'pm'}
@@ -260,6 +280,25 @@ def check_docket(problems, today):
                 j = len(et & ct) / len(et | ct) if (et | ct) else 0.0
                 if j > score:
                     best, score = cand, j
+            # ⛔ THE SECOND ASSUMPTION THAT BROKE: that a similarity THRESHOLD can
+            # stand in for identity. CATO round 3 swapped the tenor in the LIVE
+            # October-8 row — "JGB 30Y auction — THE NEXT TEST THE FROZEN BARS
+            # ACTUALLY APPLY TO" -> 20Y — and scored 0.80, clearing the bar. My decoy
+            # had used SHORT names (0.50); a long title DILUTES the one token that
+            # carries the meaning. A ratio over all tokens cannot weight the
+            # discriminator, so the discriminator is now compared DIRECTLY and the
+            # ratio is kept only as a backstop.
+            tenor_a = {t for t in et if TENOR_RE.match(t)}
+            tenor_b = {t for t in _tokens(best)} if best else set()
+            tenor_b = {t for t in tenor_b if TENOR_RE.match(t)}
+            if best is not None and tenor_a != tenor_b:
+                problems.append('C3 [step 10] %s: CATALYSTS event %r names tenor(s) %s but its closest '
+                                'CALENDAR row %r names %s. A TENOR SWAP inside a long title scores high '
+                                'on any similarity ratio (live example: 0.80) — the discriminator is '
+                                'compared directly, not diluted into an average.'
+                                % (d, ev[:44], sorted(tenor_a) or 'none', best[:44], sorted(tenor_b) or 'none'))
+                pool.remove(best)
+                continue
             if score < 0.6:
                 problems.append('C2 [step 10] %s: CATALYSTS event %r has no matching CALENDAR row '
                                 '(best similarity %.2f, need 0.60). Same-date EVENT SWAPS — including '
@@ -345,8 +384,8 @@ def check_scoreboard(problems):
             for m in list(four.finditer(line)) + list(three.finditer(line)):
                 masked = masked[:m.start()] + ' ' * (m.end() - m.start()) + masked[m.end():]
             for m in lone.finditer(masked):
-                if _in_quotes(line, m.start(), m.end()):
-                    continue          # a quoted figure is a record of a retired value
+                if _is_historical_quote(line, m.start(), m.end()):
+                    continue          # quoted AND explicitly flagged as historical
                 if int(m.group(1)) != derived[3]:
                     problems.append('D [step 11] %s asserts "%s OPEN" on a predictions line but the '
                                     'file derives %d OPEN — this is the form THESIS carried stale '
@@ -451,7 +490,11 @@ def run_delegated():
                 keep = [l for l in lines if any(k in l for k in
                         ('⚠', '🔴', '🟠', 'not yours', 'likely YOURS', 'WARNING',
                          'STALE', 'nudge:', 'FAIL'))] or lines[-4:]
-                tail = '\n'.join('        | ' + l[:150] for l in keep[:6])
+                shown = keep[:6]
+                tail = '\n'.join('        | ' + l[:150] for l in shown)
+                if len(keep) > len(shown):
+                    tail += ('\n        | ... %d MORE warning line(s) NOT SHOWN — run  %s  for the full log'
+                             % (len(keep) - len(shown), ' '.join(cmd)))
                 if r.returncode == 0 and warned:
                     tail = '        | (exit 0, but it WARNED — read it)\n' + tail
             out.append((label, ' '.join(cmd[:2]), r.returncode, tail))
@@ -512,6 +555,14 @@ def main():
             print('    %-12s %-34s %s' % (label, cmd, mark))
             if tail:
                 print(tail)
+            # ⛔ CATO round 3: a delegated tool that TIMED OUT or crashed printed
+            # 'ERROR' and the gate still returned PASS, because run_delegated results
+            # were never joined to `problems`. A check that could not run is not a
+            # check that passed — the whole point of the scoped footer.
+            if rc == 'ERROR':
+                problems.append('DELEG [%s] %s could not run (timeout or crash) — a check that did '
+                                'not execute is NOT a pass; re-run it or state it as skipped'
+                                % (label, cmd))
         print('    (non-zero is not automatically a closeout failure — read that tool\'s own output)')
 
     print('\n  MANUAL — unverifiable here, and printed every run so they cannot be skipped:')

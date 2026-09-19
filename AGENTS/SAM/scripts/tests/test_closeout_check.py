@@ -412,7 +412,9 @@ def test_tenor_swap_is_caught():
     auctions differing only by tenor. Jaccard uses the DIFFERENCES too."""
     p = _docket('| Tue Oct 06 2026 | JGB 10Y auction |\n',
                 '2026-10-06\tJGB 2Y auction\tw\tt\tp\tc\tn\tt\n')
-    assert any(x.startswith('C2') for x in p), p
+    # C2 = no plausible match at all; C3 = matched, but the TENOR discriminator
+    # differs. Since the round-3 fix this case is correctly the more specific C3.
+    assert any(x.startswith(('C2', 'C3')) for x in p), p
 
 
 def test_similarity_threshold_has_margin_on_live_data():
@@ -444,6 +446,83 @@ def test_similarity_threshold_has_margin_on_live_data():
             worst = min(worst, j(best))
             pool.remove(best)
     assert worst >= 0.75, 'live true pairs down to %.2f — too close to the 0.60 bar' % worst
+
+
+
+
+# ---------------------------------------------------------------------------
+# CATO round 3, 2026-09-19. These do not just add counterexamples — each names
+# the ASSUMPTION that failed, because the specific fixes were already correct
+# and the assumptions behind them were not.
+# ---------------------------------------------------------------------------
+
+def test_R3_quoting_alone_does_not_prove_a_figure_is_retired():
+    """ASSUMPTION THAT FAILED: 'quoted == retired'. Quotes mark QUOTATION, which is
+    equally used for a LIVE claim. Suppression now requires quoting AND a positive
+    history cue on the line; the default is to flag."""
+    live = 'PREDICTIONS.tsv currently reports "9 OPEN"; use that count today.'
+    assert _scoreboard(live) != [], 'a quoted LIVE claim must still be caught'
+    hist = 'PREDICTIONS.tsv ... It read "4 OPEN as of 2026-08-27" until 2026-09-19'
+    assert _scoreboard(hist) == [], 'a quoted HISTORICAL value must stay suppressed'
+
+
+def test_R3_tenor_swap_inside_a_long_live_title():
+    """ASSUMPTION THAT FAILED: that a similarity THRESHOLD can stand in for identity.
+    A long title dilutes the one token carrying the meaning. My decoy used short
+    names and scored 0.50; CATO used the LIVE Oct-8 row and scored 0.80, clearing
+    the bar. Tenors are now compared directly instead of averaged away."""
+    real = 'JGB 30Y auction \u2014 THE NEXT TEST THE FROZEN BARS ACTUALLY APPLY TO'
+    swapped = real.replace('30Y', '20Y')
+    a, b = cc._tokens(real), cc._tokens(swapped)
+    assert len(a & b) / len(a | b) > 0.6, 'premise: the swap clears the similarity bar'
+    p = _docket('| Thu Oct 08 2026 | %s |\n' % real,
+                '2026-10-08\t%s\tw\tt\tp\tc\tn\tt\n' % swapped)
+    assert any(x.startswith('C3') for x in p), p
+
+
+def test_R3_matching_tenors_stay_quiet():
+    real = 'JGB 30Y auction \u2014 THE NEXT TEST THE FROZEN BARS ACTUALLY APPLY TO'
+    p = _docket('| Thu Oct 08 2026 | %s |\n' % real,
+                '2026-10-08\t%s\tw\tt\tp\tc\tn\tt\n' % real)
+    assert p == [], p
+
+
+def test_R3_a_delegated_tool_that_could_not_run_fails_the_gate():
+    """ASSUMPTION THAT FAILED: that printing a child's status is the same as acting
+    on it. run_delegated results were never joined to `problems`, so a TIMEOUT
+    printed 'ERROR' and the scoped PASS footer still appeared. A check that did not
+    execute is not a check that passed."""
+    import io as _io, contextlib as _c, sys as _sys
+    saved = cc.run_delegated
+    cc.run_delegated = lambda: [('root 1e', 'python3 scripts/claim_check.py', 'ERROR', '        | timed out')]
+    argv = _sys.argv
+    _sys.argv = ['x']
+    try:
+        buf = _io.StringIO()
+        with _c.redirect_stdout(buf):
+            rc = cc.main()
+        out = buf.getvalue()
+        assert rc == 1, 'a delegated timeout must fail the gate'
+        assert 'could not run (timeout or crash)' in out
+        assert 'CLOSEOUT-CHECK PASS' not in out
+    finally:
+        cc.run_delegated = saved
+        _sys.argv = argv
+
+
+def test_R3_truncated_warnings_say_how_many_were_hidden():
+    """ASSUMPTION THAT FAILED: that showing SOME warnings is enough. Eight actionable
+    lines became six displayed with no pointer, so the reader could not tell anything
+    was missing."""
+    saved = cc.DELEGATED
+    cc.DELEGATED = [('root 1b', ['python3', '-c',
+                                 'print(chr(10).join("\u26a0\ufe0f warn %d" % i for i in range(9)))'])]
+    try:
+        tails = [t for _l, _c2, _rc, t in cc.run_delegated()]
+        assert 'MORE warning line(s) NOT SHOWN' in tails[0], tails[0]
+        assert 'for the full log' in tails[0]
+    finally:
+        cc.DELEGATED = saved
 
 
 if __name__ == '__main__':
