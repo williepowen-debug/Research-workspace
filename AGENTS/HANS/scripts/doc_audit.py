@@ -21,6 +21,23 @@ Checks, each tied to the incident that motivated it:
   C6 CAPS           STATUS.md within BOTH its line cap and the read-cap BYTE budget.
   C7 PATHS          Every `path/like/this` referenced in a boot-read surface resolves.
   C8 KB-STALE       No ACTIVE KB fact asserts a value retired for a metric it declares.
+  C10 BAND-STATE    A live VX row's Status must EQUAL the band function of its own
+                    Current_Value. The column looks derived and was typed by hand:
+                    VX-HANS-1.05 read GREEN at 348.4 against a Yellow of 350.0 — France's
+                    first band crossing — and a packet went out on that row still calling
+                    it green (ML-HANS-461).
+  C11 DIRECTION     Every registry threshold must have a VX surface whose bands run in
+                    the SAME direction. ZHAO's case proves C10 cannot catch this: their
+                    PBOC rows agree with their bands perfectly and would read green if the
+                    PBOC did nothing, because both bands only face one way. Here it caught
+                    VX-HANS-4.01 carrying a CUTTING-cycle sign while HANS-T-04 fires
+                    upward — a threshold and its own surface in opposite directions
+                    (ML-HANS-462).
+
+  LIMIT, PRE-REGISTERED SO NOTHING HERE IS OVER-TRUSTED: C10 and C11 both test the
+  INSTRUMENT against itself. Neither asks whether a band exists on the side that would
+  FALSIFY the thesis the row serves. That is a judgement, and on this desk it had exactly
+  one instance before 2026-09-18 (HANS-T-01/T-02, the only two-sided pair).
 
 Exit 0 clean · 1 findings. Run at closeout and after any edit to a boot-read surface.
 """
@@ -51,9 +68,22 @@ REG_VX = {
     'HANS-T-09': ('VX-HANS-3.01', 'VX-HANS-3.09'),
     'HANS-T-10': ('VX-HANS-3.02', 'VX-HANS-3.07'),
     'HANS-T-11': 'VX-HANS-2.01', 'HANS-T-13': 'VX-HANS-3.08',
+    # Added 2026-09-18 with the core-inflation falsifiers (ML-HANS-462).
+    'HANS-T-16': 'VX-HANS-4.11', 'HANS-T-17': 'VX-HANS-4.12',
 }
-# HANS-T-04 is deliberately absent: its as_of is the DECISION date (when the ECB set the
-# rate) while VX Last_Updated is the VERIFICATION date. Different semantics, not a skew.
+# HANS-T-04 is deliberately absent FROM REG_VX: its as_of is the DECISION date (when the
+# ECB set the rate) while VX Last_Updated is the VERIFICATION date. Different semantics,
+# not a skew.
+#
+# 🔴 BUT THAT EXCLUSION IS SCOPED TO C3, AND IT LEAKED. When C11 was added on 2026-09-18
+# it iterated REG_VX and therefore inherited a C3-only exemption — silently dropping
+# HANS-T-04, which is THE ROW THE DIRECTIONAL DEFECT WAS ON (VX-HANS-4.01 carried a
+# cutting-cycle sign while T-04 fires upward). An exclusion written for one check had
+# quietly scoped a later one, exactly like C8's allowlist and C2's perimeter
+# [[finding_guard_correctness_and_wiring_are_independent]]. C11 now iterates its OWN map.
+# Rule: a new check DECLARES its perimeter; it never borrows another check's.
+REG_VX_DIR = dict(REG_VX)
+REG_VX_DIR['HANS-T-04'] = 'VX-HANS-4.01'   # direction IS comparable even when dates are not
 
 # Paths a boot-read surface names to say they DO NOT exist. Flagging these inverts the
 # doc's meaning, so they are excluded by design, not by convenience.
@@ -305,6 +335,86 @@ def _audit_full():
             if any((c / p).exists() for c in (base, HANS, ROOT)):
                 continue
             bad('C7-DEAD-PATH', f'{name}: `{p}`')
+    # ---- C10: a VX Status must EQUAL the band function of its own value -----
+    # The column is a FUNCTION of the four cells beside it and was maintained by hand.
+    # Found because a PEER asked about an unrelated instrument [[ML-HANS-461]].
+    # Rows whose status is a compound token or NA-WRONG-UNIT are exempt BY NAME, never
+    # by silence: an exemption that is not enumerated is indistinguishable from a bug.
+    # DELIBERATELY EMPTY. Two exemptions were written here on 2026-09-18 and BOTH were
+    # removed within the hour, for the same reason: each named a defect and then excused
+    # it. VX-HANS-3.05 was 'a compound token, not a plain band colour' — the token
+    # overstated the fired tier and C10 was right. VX-HANS-1.04 was 'bands ordinally
+    # broken... fixing it is a separate decision' — it was not a separate decision, it
+    # was the fix, deferred 64 days. An exemption written to quiet a flag is how a defect
+    # gets laundered [[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]].
+    # Anything added here must name a property of the SCHEMA, never of a row's content.
+    BAND_EXEMPT = {}
+    for r in tsv('workbook/VX.tsv'):
+        vid = r['Vector_ID']
+        st = (r.get('Status') or '').strip().upper()
+        if st.startswith(KB_DEAD_PREFIXES) or st.startswith('NA-WRONG-UNIT'):
+            continue
+        if vid in BAND_EXEMPT:
+            note('C10-EXEMPT', f'{vid}: {BAND_EXEMPT[vid]}')
+            continue
+        try:
+            v, y, o_, rd = (float(r['Current_Value']), float(r['Yellow']),
+                            float(r['Orange']), float(r['Red']))
+        except (ValueError, KeyError):
+            continue                      # non-numeric band => not gradeable here
+        if y > o_ > rd:                   # descending: LOWER is worse
+            exp = 'RED' if v <= rd else 'ORANGE' if v <= o_ else 'YELLOW' if v <= y else 'GREEN'
+        elif y < o_ < rd:                 # ascending: HIGHER is worse
+            exp = 'RED' if v >= rd else 'ORANGE' if v >= o_ else 'YELLOW' if v >= y else 'GREEN'
+        else:
+            bad('C10-NON-MONOTONE', f'{vid}: bands {y}/{o_}/{rd} are not monotone, so no '
+                                    'state can be derived — the band is the defect')
+            continue
+        if not st.startswith(exp):
+            bad('C10-BAND-STATE', f'{vid}: Status={st!r} but value {v} against bands '
+                                  f'{y}/{o_}/{rd} is {exp}')
+
+    # ---- C11: a threshold and its metric surface must face the SAME way -----
+    # C10 passes a row that agrees with a band pointing the wrong way, so this is a
+    # SEPARATE test, not a stricter one. ZHAO 2026-09-18 supplied the proof.
+    def _band_dir(txt):
+        """Direction a registry band fires in, from its own text. None = undecidable."""
+        t = (txt or '')
+        up, dn = ('>' in t), ('<' in t)
+        return 'UP' if up and not dn else 'DOWN' if dn and not up else None
+    DIR_EXEMPT = {
+        'HANS-T-02': 'THE ONLY TWO-SIDED METRIC ON THIS DESK. T-01 (<47) and T-02 (>52) '
+                     'both map to VX-HANS-8.06, whose bands serve the WEAKNESS leg; T-02 '
+                     'is the KILL-side threshold and the three band columns cannot hold a '
+                     'second direction. The flag is the SCHEMA LIMIT, not a defect — and '
+                     'T-02 is MET, having correctly killed the ISM-weakness leg.',
+        'HANS-T-08': 'registry states a MAGNITUDE (">15pp below norm") while the surface '
+                     'carries a SIGNED value (-19.7). Same quantity, and the band text now '
+                     'says so explicitly; a text parse cannot resolve magnitude vs sign.',
+    }
+    for tid, vids in REG_VX_DIR.items():
+        if tid not in reg:
+            continue
+        if tid in DIR_EXEMPT:
+            note('C11-EXEMPT', f'{tid}: {DIR_EXEMPT[tid]}')
+            continue
+        rdir = _band_dir(reg[tid]['band'])
+        if rdir is None:
+            continue                      # compound / qualitative band — not gradeable
+        for vid in ((vids,) if isinstance(vids, str) else vids):
+            vr = vx.get(vid)
+            if not vr:
+                continue
+            try:
+                y, o_, rd = float(vr['Yellow']), float(vr['Orange']), float(vr['Red'])
+            except (ValueError, KeyError):
+                continue
+            vdir = 'DOWN' if y > o_ > rd else 'UP' if y < o_ < rd else None
+            if vdir and vdir != rdir:
+                bad('C11-DIRECTION', f'{tid} band {reg[tid]["band"]!r} fires {rdir} but its '
+                                     f'surface {vid} has bands {y}/{o_}/{rd} running {vdir} '
+                                     '— threshold and metric surface face opposite ways')
+
     return f, info
 
 

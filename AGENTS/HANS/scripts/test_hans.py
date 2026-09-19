@@ -295,6 +295,109 @@ class TestDocAudit(unittest.TestCase):
         finally:
             real.write_text(txt)
 
+    # ---- C10 / C11, added 2026-09-18 (ML-HANS-461, ML-HANS-462) ----------------
+    def _swap_vx(self, vid, **cells):
+        """Inject cell values into one VX row, returning a restore callable."""
+        real = self.da.HANS / "workbook" / "VX.tsv"
+        orig = real.read_text()
+        lines = orig.split("\n")
+        hdr = lines[0].split("\t")
+        for n, line in enumerate(lines):
+            if line.startswith(vid + "\t"):
+                cols = line.split("\t")
+                for k, v in cells.items():
+                    cols[hdr.index(k)] = v
+                lines[n] = "\t".join(cols)
+                break
+        else:
+            self.fail(f"{vid} not found — update the test, not the guard")
+        real.write_text("\n".join(lines))
+        return lambda: real.write_text(orig)
+
+    def test_C10_fires_on_the_exact_France_cell_that_shipped(self):
+        """THE REGRESSION. VX-HANS-1.05 read GREEN at 348.4 against a Yellow of 350.0 —
+        France's first band crossing — and a packet went out on that row still calling it
+        green. The value was right and the STATE was wrong."""
+        restore = self._swap_vx("VX-HANS-1.05", Current_Value="348.4", Status="GREEN")
+        try:
+            hits = [m for c, m in self.da.audit()
+                    if c == "C10-BAND-STATE" and "VX-HANS-1.05" in m]
+            self.assertTrue(hits, "C10 must fire on a GREEN below its own Yellow")
+        finally:
+            restore()
+
+    def test_C10_treats_a_value_exactly_ON_the_band_as_the_band(self):
+        """UK 30Y sat exactly on Yellow(5.75) reading GREEN. A boundary that resolves
+        downward is a threshold that never fires on the day it is reached."""
+        restore = self._swap_vx("VX-HANS-3.08", Current_Value="5.75", Status="GREEN")
+        try:
+            self.assertIn("C10-BAND-STATE", self._codes(self.da.audit()))
+        finally:
+            restore()
+
+    def test_C10_blames_the_BAND_only_when_it_is_truly_non_monotone(self):
+        """WRITTEN WRONG FIRST, AND THAT IS THE POINT. I asserted Belgium's 550/400/350
+        was non-monotone; it is a perfectly ordered DESCENDING set, under which 470.7 is
+        a YELLOW. The bands were never the defect — the STATE was — and I had already
+        'repaired' a band to make a wrong state look right before this test caught it.
+        So: a real non-monotone set must blame the BAND, and Belgium's real set must
+        blame the STATE. Both directions asserted, because only having the first is how
+        the mistake happened."""
+        restore = self._swap_vx("VX-HANS-1.04", Yellow="400", Orange="550", Red="350")
+        try:
+            self.assertIn("C10-NON-MONOTONE", self._codes(self.da.audit()))
+        finally:
+            restore()
+        restore = self._swap_vx("VX-HANS-1.04", Yellow="550", Orange="400",
+                                Red="350", Current_Value="470.7", Status="GREEN")
+        try:
+            hits = [m for c, m in self.da.audit()
+                    if c == "C10-BAND-STATE" and "VX-HANS-1.04" in m]
+            self.assertTrue(hits, "an ordered descending set with a wrong state is a "
+                                  "STATE defect, not a band defect")
+        finally:
+            restore()
+
+    def test_C11_catches_a_surface_facing_the_opposite_way_to_its_threshold(self):
+        """VX-HANS-4.01 carried a CUTTING-cycle sign (1.75/1.50/1.25) while HANS-T-04
+        fires UPWARD at >=2.75. The registry was re-specced and the vector never was, so
+        a threshold and its own metric surface pointed opposite ways and the row could
+        not fire in the direction the world was moving."""
+        restore = self._swap_vx("VX-HANS-4.01", Yellow="1.75", Orange="1.50", Red="1.25")
+        try:
+            hits = [m for c, m in self.da.audit()
+                    if c == "C11-DIRECTION" and "HANS-T-04" in m]
+            self.assertTrue(hits, "C11 must fire when threshold and surface disagree on direction")
+        finally:
+            restore()
+
+    def test_C11_is_NOT_implied_by_C10_which_is_the_whole_point(self):
+        """ZHAO's proof, encoded. Their PBOC rows AGREE with their bands perfectly and
+        would read green if the PBOC did nothing, because both bands face one way. So a
+        wrong-facing surface can be perfectly self-consistent: C10 passes it and only C11
+        catches it. If this ever fails, the two checks have collapsed into one and the
+        directional hole is unguarded again."""
+        restore = self._swap_vx("VX-HANS-4.01", Yellow="1.75", Orange="1.50",
+                                Red="1.25", Current_Value="2.50", Status="GREEN")
+        try:
+            findings = self.da.audit()
+            c10 = [m for c, m in findings if c == "C10-BAND-STATE" and "VX-HANS-4.01" in m]
+            c11 = [m for c, m in findings if c == "C11-DIRECTION" and "HANS-T-04" in m]
+            self.assertFalse(c10, "the injected row is self-consistent — C10 must NOT fire")
+            self.assertTrue(c11, "...and C11 must")
+        finally:
+            restore()
+
+    def test_band_exempt_stays_empty_of_content_excuses(self):
+        """Two exemptions were written on 2026-09-18 and both removed within the hour,
+        each having named a defect and then excused it. An exemption may name a property
+        of the SCHEMA; it may never name a row whose CONTENT is wrong."""
+        self.assertEqual(self.da._audit_full.__code__.co_consts is not None, True)
+        import inspect
+        src = inspect.getsource(self.da._audit_full)
+        self.assertIn("BAND_EXEMPT = {}", src,
+                      "BAND_EXEMPT gained an entry — is it a schema property or an excuse?")
+
     def test_C2_is_SERIES_QUALIFIED_not_bare_value(self):
         """The first version matched bare values and flagged UK CPI 2.9% against EA HICP
         2.9%. A metric with NO declared vectors must be skipped, never guessed.
