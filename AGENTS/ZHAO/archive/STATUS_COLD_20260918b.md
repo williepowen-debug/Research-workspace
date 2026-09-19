@@ -195,3 +195,121 @@
 
 ---
 
+## ⓛ §CROSS-AGENT — the full HANS exchange, verbatim
+
+🔁 **HANS ANSWERED TWO OF THEM, same evening — both consumed at this boot:**
+- **Belgium YoY base-effect →** *no HANS hub surface is YoY-shaped* (all 9 rows `VX-HANS-1.01`–`1.09` carry absolute $bn bands; zero YoY hits in ledger or `THRESHOLDS.tsv`). **So the base effect cannot reach any HANS instrument — nothing to re-spec there.** ⭐ **But chasing it found a live error: `VX-HANS-1.05` (France) was reading GREEN at 348.4 against a Yellow of 350.0 — corrected to YELLOW, first band crossing.** HANS names the shared root and it is the right one: *a cell that should be DERIVED is maintained by hand and nothing recomputes it.* **ZHAO's mirror of that root is now named too — Vectors 6/9 (KB-168).**
+- **TIC July hubs →** France is the standout European seller, **−$41.5B in July on −$20.9B in June = −$62.4B, ~16% of the level**; UK **+$58.4B to 998.3** (custody/basis node, *never* UK official demand); **Belgium 470.7, OFF its June all-time high** — grand total 9,248.1, lowest since Oct 2025. ✅ Cross-check passed: HANS's Belgium June **+$17.56B** matches this desk's largest-ever-monthly-buy figure. **Proxy falsification untouched; HANS carries it on no live surface.**
+
+
+
+---
+
+## ⓜ §BOTTOM LINE — the yuan-instrument paragraph, verbatim
+
+**The yuan finding is about my instruments, not about China.** The PBOC has fixed stronger eight sessions running and holds the fix *weaker than market* to slow the climb. Vectors 6 and 9 score 🟢 — and would score 🟢 if the PBOC were doing nothing at all. **The reading is correct and tells you nothing**, the failure mode that survives every audit because nothing is wrong. HANS reached the same root from the other end tonight: **a cell that should be derived, maintained by hand, with nothing to recompute it.**
+
+
+
+---
+
+## ⓝ §NEXT ACTIONS — items 0c–0e, full verbatim
+
+0c. 🟠 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (or add an appreciation-management vector — ⛔ **next free `VX` id, do not overwrite**). Today both read 🟢 against an actively-managed 4-year-high yuan. **Do this in daylight as its own pass, never silently inside a news sweep** (KB-168).
+0d. 🟠 **PBOC central-parity primary** (`chinamoney.com.cn`) — boot.py pulls the MARKET rate; **the fixing is a different series and the GAP between them is the signal.** No instrument here carries it.
+0e. 🟡 **US-China agricultural channel is unmeasured** — the Feb-2026 resumption was real but still a **99% decline**, and ag purchase commitments are a standing Chinese concession instrument at exactly this kind of summit (KB-170).
+
+
+
+---
+
+## ⓞ §CALENDAR — the full 11-row mirror as it stood 2026-09-18, verbatim
+
+## CALENDAR
+
+*(**Source of truth = `docket/CATALYSTS.tsv`; full cells → COLD_20260918b §ⓖ.**)*
+
+| Date | Event | P |
+|------|-------|---|
+| ✅ Sep 9 | China Aug CPI/PPI — **GRADED 9/18: CPI +0.8%, PPI +3.8% (energy). Refutes the deflation-export read at the aggregate; `FLOW-13` CONTESTED** (KB-165) | ✅ |
+| **Sat-Sun Sep 19-20** | **Bessent ↔ He Lifeng, New York — TWO DAYS, Greer joining.** Agenda reported as **AI + rare earths + magnet flows** alongside truce extension. **The last dated input before the summit** (KB-155/167) | 🔴 |
+| **Sun Sep 20** | **China LPR — CORRECTED from 9/22** (the 20th is a State Council make-up workday). **21 of 21 expect a hold ⇒ priced; only a CUT is a signal** (KB-157) | 🟠 |
+| **Thu Sep 24** | **XI → WASHINGTON summit with Trump.** ⚠️ **No PRC-side confirmation — branch D live.** **ZHA-16 pre-registered 9/2; graded on the DOCUMENT** | 🔴 |
+| ~Sep 30 | China September PMI — the property-leg tripwire (rebound >47.5 reverses the Vector-5 upgrade) | 🟠 |
+| **October** | **Fifth Plenum, 20th CPC CC** — 15th FYP venue; realistic home for a large fiscal figure (KB-106) | 🟠 |
+| **Mon Oct 19** | BIS/MOFCOM enactment re-check — **no Entity List ADDITIONS since 2025-10-09; both 2026 actions were REMOVALS.** 🆕 **Pull Announcement No. 70 primary here** (KB-166) | 🟠 |
+| **Fri Oct 16** | **August TIC** — third month of China coupon selling? Belgium vs the <10% YoY kill-leg. **ZHA-18 registered 9/18** (40%) | 🔴 |
+| **Mon Nov 9** | 🔴 **US: BIS AFFILIATES RULE STAY LAPSES** — ≥50% **aggregate** ownership auto-covered, zero new listings. 90 FR 50857 (KB-156) | 🔴 |
+| **🆕 Tue Nov 10** | 🔴 **CHINA: MOFCOM/GAC Announcement No. 70 EXPIRES** — 5 added REEs, the **extraterritorial 0.1% de minimis**, process-tech + ≤14nm/≥256-layer military-AI licensing. April-2025 controls never lapsed (KB-166) | 🔴 |
+| **Tue Nov 10** | 🔴 **US: reciprocal-tariff suspension EXPIRES BY ITS OWN TERMS at 12:01 ET — the default is LAPSE.** Suspended rate 10%; **resumed rate NOT specified.** Fentanyl tariff 20%→10% under the same arrangement | 🔴 |
+
+> ⚠️ **Three clocks, 48 hours, two sovereigns — do NOT collapse them into one "11/10 cliff."** Different instruments, owners, legal bases and default behaviours (KB-166).
+
+
+
+---
+
+## ⓟ §EXIT RULES — full verbatim (thesis kill, Belgium degeneracy, all tripwires)
+
+### Thesis Kill → COLD_20260917 §⑨-b (Belgium <10% YoY ×2 AND China >$700B ×3 · fiscal >5% GDP w/ LGFV backstop — neither close)
+
+⛔ **9/18 — THE BELGIUM HALF OF THAT KILL IS DEGENERATE AND THE OLD FRAMING WAS BACKWARDS.** It read *"Belgium must fall"*; in fact **Belgium must RISE $25.5B not to trigger** — its 2025 base climbed Jul $425.4B → Nov $481.0B, so at a **flat** Jul-26 level the YoY prints **+4.35% (Aug) / +1.54% (Sep)**, both under 10%, against a largest-ever monthly buy of ~$17.6B. ⇒ **Record both prints SATISFIED-ON-BASE-EFFECT, NOT as evidence** (declared in the ZHA-18 letter §2 **before** the print). **The full kill still cannot fire** — the other leg needs China >$700B ×3 and China is $618.0B. **Full arithmetic + the re-spec obligation → `VX-ZHAO-1.04`, KB-159, and `archive/STATUS_COLD_20260918b.md` §ⓑ.**
+
+### Falsification tripwires now
+- **China TIC >$680B for 2 consecutive months** → the selling was noise. *(Far away — $633.4B, a series low.)*
+- **THE LIVE TEST IS COMPOSITION, NOT LEVEL (8/21) — ✅ RUN 9/17:** China LT/coupon **−$7.7B** ⇒ ZHA-17 **NO on the declared boundary**, read *"continued but decelerating."* **Next test: August TIC 10/16 — a third month ≤ −$5B is a trend by any reading.**
+- **Belgium proxy re-usability:** reinstate the custody-migration reading **only if rho(China, Belgium net sales) < −0.5** on a rolling 24m window (VX-ZHAO-1.09). Until then the Belgium level is **not** evidence in either direction.
+- ✅ **Korea KRW <1,450 FIRED 8/12, graded 8/21** — falsifies the Korea-as-UST-anchor leg; **not a full stand-down** (two caveats unverified). **USD/CNY 7.30 near-invalidated** at 6.70. Verbatim → COLD_20260918 §⑨.
+- 🆕 **9/2 — property-leg tripwire:** if **September construction PMI (~9/30) rebounds above 47.5**, the two record lows were weather and the vector-5 upgrade reverses. **A third consecutive sub-47 print with the same weather attribution retires the weather explanation entirely.**
+
+---
+
+
+
+---
+
+## ⓠ §NEXT ACTIONS — the full owed register as it stood 2026-09-18, verbatim
+
+## NEXT ACTIONS
+
+**Done Sep 18:** owed queue 4/4 · doc audit (6 defects) · **CPI/PPI pull refuted `FLOW-13` and corrected the HENRY packet pre-routing** · KB-153..165 · `VX-6.14` · `FLOW-13/14` · rotation #3 · 4 outbox packets, **all delivered**. Detail → COLD §②/§⑰.
+**Done Sep 18 (late, news catch-up):** **China-side 11/10 clock found and registered** (KB-166, CATALYSTS row) · **PBOC 8-fix streak + the one-directional vector gap named** (KB-168) · SHCH CCP expansion (KB-169) · **ZHA-16 hazard disclosed, bar untouched** (KB-167) · **stale-by-a-year soybean headline caught and logged as a negative** (KB-170) · **both fail-open `VX` rows repaired** (`6.10`, `7.02`) · 2 HANS packets consumed.
+
+**Owed / next boot, in priority order:**
+
+0. 🔴 **ROUTE KB-166 to VULCAN + HAWK** — the China-side 11/10 clock extends the 11/09 Affiliates-Rule packet already delivered to them; **they hold the perimeter question and do not have this half.** Not yet written to `outbox/`.
+0b. 🔴 **PULL MOFCOM/GAC Announcement No. 70 PRIMARY (Chinese-language) before the 10/19 BIS re-check** — KB-166 sits at **Conf B2 precisely because three secondary carriers agree and the ministry text was never fetched.** Three agreeing secondaries are not a primary. Upgrade or correct.
+0c.–0e. 🟠/🟡 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (⛔ next free `VX` id) — today both read 🟢 against an actively-managed 4-yr-high yuan; **do it in daylight, not inside a news sweep** · **PBOC central-parity primary** (`chinamoney.com.cn`) — boot.py pulls the MARKET rate; **the fixing is a different series and the GAP between them is the signal** · **US-China ag channel unmeasured** (KB-170). 🆕 **0f. ChinaBond primary** for `VX-2.08` (currently a secondary carrier) · 🆕 **0g. a single-source matched-basis gap figure** for `VX-2.09` — today's legs are mixed carriers/dates/conventions and only the DIRECTION is quotable. **Full verbatim → COLD_20260918b §ⓝ.**
+
+1.–4. 🔴/🟠 **DATED & CARRIED — full verbatim → COLD_20260918b §ⓚ; dates in §CALENDAR.**
+**Sun 9/20 LPR · Thu 9/24 SUMMIT** — grade ZHA-16 **off the official output only, never the tape**; Bessent–He 9/19-20 is the last input; branch D still live · **Aug TIC Fri 10/16** — ZHA-18 registered; at the print also log the 4 DECLARED OBSERVATIONS (Belgium + base-effect annotation · rho at n=43 · Agency line · official/private split) · **Re-spec the Belgium kill-leg** as a level/flow test — ⛔ **must NOT be done in the letter that grades it** (KB-159) · **GACC Aug tables** + **SAFE Aug reserves/gold**.
+
+5.–11. 🟠/🟡 **CARRIED REGISTER — one line each; full rationale verbatim → `archive/STATUS_COLD_20260918b.md` §ⓕ.**
+`CLAUDE.md` re-key L56/L246/L260 + the owed 9/2 CLOSEOUT-1 edit after a cold read (KB-140) · **GACC Aug tables** (TLS-blocked) + **SAFE Aug reserves/gold** unpulled since 7/7 · **`KB.tsv` `Stale_By` has NO READER** (30+ rows past due; ~5 lines in `boot.py` §6; ⛔ do NOT bulk-mark SUPERSEDED) · **rolling-5d SOFR basis** for `VX-2.04` so the call stops turning on 1.9bp (KB-154) · **Vector 8 has no `VX` row** — ⛔ **NOT `VX-ZHAO-8.01`, that id is a FROZEN 'NPC GDP Target' row; use the next free id** (KB-146/162f) · **Korea's two unverified caveats** (foreign KOSPI selling; SK hynix conversion share), unchecked since 8/3 · **ZHA-10 `Date_Made` defect** left as found · **CGB refresh-or-freeze** · **HK $9.33B June UST sale unlogged** (KB-140).
+
+
+
+---
+
+## ⓡ §BOTTOM LINE — the full 2026-09-18 late-session narrative, verbatim
+
+## BOTTOM LINE
+
+**SEP 18 — the owed queue worked in full; three of four items found a defect in this desk's own instruments and the fourth found a clock nobody had registered.** The ledger **refused an order** to re-score ZHA-03/04/15 (canon WQ-112(i) governs; *a correction that costs you something is not thereby correct*). Two lapse-by-default clocks found, one day apart. **My own Belgium kill criterion is degenerate.** ZHA-18 registered 28d early at 40%, priced off the base rate rather than the narrative. **Full narrative verbatim → `archive/STATUS_COLD_20260918b.md` §ⓒ.**
+
+**SEP 18, LATE — THE CATCH-UP FOUND THE HALF OF THE STORY THIS DESK HAD MISSED, AND IT WAS THE OTHER SIDE'S HALF.**
+
+**Both US clocks were logged; the Chinese one was not.** China's own restraint instrument — Announcement No. 70 — **expires the same day as the US tariff suspension**, and what returns is an *extraterritorial* rule: 0.1% Chinese-origin rare-earth content in a good made anywhere. **Set beside the BIS Affiliates Rule lapsing the day before, the shape is unmistakable — two perimeter-widening instruments, both reactivating with zero new designations, 48 hours apart, on opposite sides.** Escalation needs nobody's signature; prevention needs two. **A desk that had read this as an American default was reading one side of a symmetric clock**, and the symmetry is what makes the 9/24 summit load-bearing rather than ceremonial.
+
+**The yuan finding is about my instruments, not about China** — and a second one landed the same way. Vectors 6 and 9 read 🟢 and would read 🟢 if the PBOC were idle; **correct and uninformative**, the failure mode that survives every audit because nothing is wrong. Then the China 10Y, a lane Will gave me on 8/18, turned out to have **no instrument at all for 31 days** — and the China-US gap set an all-time record inside that window. **Both now instrumented.** ⇒ **COLD_20260918b §ⓜ.**
+
+**And the bar stayed where it was.** The summit's likeliest deliverable now looks export-control-shaped, which would resolve ZHA-16 *no* on a successful summit. **Disclosed six days early; not widened.** A prediction that grows to fit the news is not a prediction.
+---
+
+**🚩 THESIS** — canon: `CLAUDE.md` §BELGIUM PROXY METHODOLOGY (**cite it, don't restate it**). 9/2 one-line restatement + long-standing gaps → COLD_20260917 §⑧. Live magnitudes: `VX-ZHAO-1.03` / `1.02` only.
+
+*COLD splits + research corpus RP-ZHAO-1..9 → `archive/`, `sources/`. Permanent record = `workbook/KB.tsv`.*
+
+
+---
+
