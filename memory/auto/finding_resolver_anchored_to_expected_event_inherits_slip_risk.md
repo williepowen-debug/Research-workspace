@@ -1,6 +1,7 @@
 ---
 name: finding_resolver_anchored_to_expected_event_inherits_slip_risk
 description: A prediction's Resolve_By dated to an EXPECTED event inherits that event's slip risk — it looks dated and is not; only an immovable bound or an explicitly-labelled chosen decision date are legitimate anchors
+symptoms: "prediction closes at the fiscal-year end" · "due scan flags a row whose data isn't out" · "graded on the wrong quarter"
 metadata:
   type: reference
 ---
@@ -52,3 +53,26 @@ the untreated bare-event form with **no `Resolve_By` column at all and two rows
 OPEN 115 days**, nothing able to surface them. Fleet design-register form =
 **PAT-115**. `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`
 applies — this governs the next write; a retrofit is a separate, base-rated call.
+
+---
+
+**A third anchor confusion, MARCO 2026-09-19 — the EVENT anchor read as the RESOLVER
+anchor (n=3).** A prediction with `Timeframe = "FY 2026"` was flagged by the boot due-scan
+as *closing 2026-09-30*, because that is when FY2026 ends. **9/30 is when the EVENT
+concludes; the RESOLVER is the disclosure file, which publishes ~6 weeks later.**
+Grading the row at the fiscal boundary would have graded it **on the prior quarter's
+data** — a confident verdict on a period the row does not cover.
+
+**Both dates are immovable, so the (a)/(b) test above passes and still misses this.**
+The missing distinction is not *can this date move* but *does this date deliver the
+measurement*:
+
+| | question | failure if confused |
+|---|---|---|
+| **EVENT anchor** | when does the thing being predicted finish happening? | you grade early, on incomplete data |
+| **RESOLVER anchor** | when does the measurement of it become readable? | you sit OPEN past a resolvable row |
+
+⇒ **Name the anchor TYPE in the cell — and where the two differ, write both dates.** A
+due-scan can only read the field it is given; it cannot know that a fiscal year ends
+before its own accounting does. Handled by pushing the row to the disclosure date **with
+confidence unchanged, because no new data had arrived** — a push is not a re-rate.

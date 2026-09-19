@@ -31,3 +31,20 @@ was carried back into STATUS as a one-line entry; this file holds the full worki
 ## VX-1.03 bands unscoreable until 'loss' is defined
 
 | 🟡 **`VX-1.03`'s bands cannot be scored until "loss" is defined** — YoY decline vs shortfall-vs-forecast vs shortfall-vs-2019 give −$8.3B / −$24.6B / ≈−$39B for the same world. **Pick one basis and re-band**; until then the row asserts a level it cannot defend. NTTO June (~8/15) resolves the forecast-vs-realized split | 🟡 |
+
+---
+
+## ICE/CBP Reconciliation block (rotated 2026-09-19, verbatim)
+
+### ICE/CBP Reconciliation — SIGNED INTO LAW Jun 10 (🔴 LOCKED, was 🟠 CONTESTED — RE-LOCKED 6/10)
+- **Implication for SDL-01:** the durable-accelerator claim is RESTORED — enforcement funding is now law through end of term (Jan 2029). **The *stock* loss is the irreversible spine**; new raids are the flow. ⛔ **Do NOT cite "$38B ICE / $26B CBP" as enacted** — that is the pre-trim May-4 $71.7B *proposal*; the signed ~$70B allocation is **pending signed-text reconciliation.**
+
+
+---
+
+## H-2A / Ag Labor block (rotated 2026-09-19, verbatim; MAR-11 detail is canonical in thesis/PREDICTIONS.tsv)
+
+### H-2A / Ag Labor (🔴 — bottleneck persists)
+- **NASS Farm Labor Survey CANCELED (Aug 2025) = permanent blind spot.** Replacement framework: OFLC H-2A disclosure, BLS QCEW NAICS 11, NASS Crop Progress, State Dept visa issuances. (→ `domain/sources/LABOR/AG_LABOR_ALT_SOURCES_MAR26.md`)
+- 🔴 **Prediction #11 (H-2A >425K FY26) MARKED DOWN 88→72% on 8/21.** FY26 through Q3 **349,867**; **Q3 alone −3.99% YoY = the first negative quarter**, falsifying the carried ~455-465K projection. **Required Q4 to clear 425K = 75,133** vs a measured Q4 base rate of FY25 80,947 / FY24 74,234 — i.e. it needs an *average* Q4 in a decelerating year. ⚠️ **OFLC Q4 FY26 disclosure is the resolver; re-check each boot.**
+
