@@ -1,0 +1,54 @@
+PIN c7d02d780 DATE 2026-09-19 ANCILLARY HEAD 7edb949a3008b58e2aa6359bd0413228ec735e62
+OWNER SUITE 0
+ test_uncomputable_is_not_stable (__main__.TestStability.test_uncomputable_is_not_stable) ... ok
+
+----------------------------------------------------------------------
+Ran 120 tests in 6.209s
+
+OK
+CONTROL audit has no blocking findings
+STORAGE norm four-years None (None, None, 4, 'only 4/5 historical years reachable — a 5-year norm is computed from 5 years or not at all; a short window would silently change the BASIS of the published gap')
+STORAGE norm valid NaN (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+STORAGE norm valid inf (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+STORAGE norm valid 101 (None, None, 0, 'only 0/5 historical years reachable — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history')
+STORAGE norm wrong-date None (85.054, 85.67, 5, [(2021, 71.26), (2022, 85.67), (2023, 93.87), (2024, 93.38), (2025, 81.09)])
+STORAGE norm no-date None (85.054, 85.67, 5, [(2021, 71.26), (2022, 85.67), (2023, 93.87), (2024, 93.38), (2025, 81.09)])
+STORAGE current 2026-09-17 'NaN' (None, "AGSI returned an UNUSABLE fill 'NaN' (NaN/inf/out of 0-100) — refusing to publish it as a level")
+STORAGE current 2026-09-17 101 (None, 'AGSI returned an UNUSABLE fill 101 (NaN/inf/out of 0-100) — refusing to publish it as a level')
+STORAGE current 2099-01-01 69.06 (None, "AGSI gas day '2099-01-01' is unparseable, in the FUTURE, or absurdly old — a level with no usable date is blind")
+STORAGE current 1999-01-01 69.06 (None, "AGSI gas day '1999-01-01' is unparseable, in the FUTURE, or absurdly old — a level with no usable date is blind")
+STORAGE current 2025-09-17 69.06 (('2025-09-17', 69.06, None), None)
+STORAGE current 2026-09-17 True (('2026-09-17', 1.0, None), None)
+OPEN R1 wrong dates produce green +19.06pp, failures=[]; parsed norm (50.0, 50.0, 5, [(2021, 50.0), (2022, 50.0), (2023, 50.0), (2024, 50.0), (2025, 50.0)])
+BoE future None
+BoE 12-day-old None
+BoE 9-day-old ('10 Sep 2026', 5.24)
+BoE shuffled ('18 Sep 2026', 5.51)
+REPAIRED runner traceback child rc 1 rejected by all three targeted steps
+REPAIRED runner missing script child rc 2 rejected by all three targeted steps
+REPAIRED runner argparse child rc 2 rejected by all three targeted steps
+REPAIRED runner signal child rc -15 rejected by all three targeted steps
+REPAIRED runner timeout child rc None rejected by all three targeted steps
+REPAIRED runner empty-success child rc 0 rejected by all three targeted steps
+OPEN R2 early exit after marker 'CONSUMER CHECK' child (1, 'CONSUMER CHECK') runner (0, 'MECHANICAL: 8/8 executed · 0 failed')
+OPEN R2 early exit after marker 'SELF mode' child (1, 'SELF mode') runner (0, 'MECHANICAL: 8/8 executed · 0 failed')
+OPEN R2 early exit after marker 'HANS' child (1, 'HANS') runner (0, 'MECHANICAL: 8/8 executed · 0 failed')
+OPEN R2 REAL missing self directory (2, '⛔ --agent CATO_NO_SUCH_AGENT --self: /tmp/cato-hans-third-fr4i_tbt/AGENTS/CATO_NO_SUCH_AGENT not found — self mode scans that directory and nothing else; nothing scanned.') runner (0, 'MECHANICAL: 8/8 executed · 0 failed')
+REPAIRED runner legitimate rc1 nudge retained
+C9 'EU storage gap is -19.7pp; policy was unchanged today.' detected True
+C9 'The current BoE Bank Rate is 4.50%.' detected True
+C9 'EU storage gap is -19.7 percentage points.' detected True
+C9 'EU storage gap is -19.7pp; unrelated figure is -15.99.' detected False
+C9 'As of 2026-09-19, the current EU storage gap is -19.7pp.' detected False
+C9 'The gap is -19.7 percentage points.' detected False
+C9 'EU storage gap was -19.7pp; it is now -15.99pp.' detected False
+C9 'France OAT warning is >4.50%.' detected False
+C12 duplicate ML-HANS-001 detected True
+C12 duplicate ML-HANS-004 detected True
+C12 duplicate HNS-07 detected True
+C12 duplicate FLOW-HANS-1 detected True
+C12 duplicate HANS-F-001 detected False
+REPAIRED R5 frozen counts match original 95 collision groups
+LIMIT C0 with C14 implementation removed but heading retained: [('C0-CHECKS-RAN', '14/14 registered checks present: C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14')] no C14/C0 failure
+R6 current STATUS unresolved strings: {'13 checks': True, '86 tests': True, 'see §SESSION 4': True, 'so the credit channel is ** Q3': True}
+DONE isolated probes; no shared owner files written

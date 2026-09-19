@@ -1,0 +1,52 @@
+Evidence normalization: stripped trailing whitespace in captured probe output before staging; substantive output unchanged.
+PASS evidence text/syntax: 2026-09-19_1424_hans-third-pass.md
+PASS evidence text/syntax: 2026-09-19_1424_hans-third-pass-probe.py
+PASS evidence text/syntax: 2026-09-19_1424_hans-third-pass-probe.txt
+PASS evidence text/syntax: 2026-09-19_1424_zhao-correction-recheck.md
+PASS evidence text/syntax: 2026-09-19_1424_zhao-correction-probe.py
+PASS evidence text/syntax: 2026-09-19_1424_zhao-correction-probe.txt
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+EXIT 0
+
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1424_hans-third-pass.md AGENTS/CATO/runs/2026-09-19_1424_zhao-correction-recheck.md
+CLAIM-CHECK ✓ 5 file(s) clean [weekday]
+EXIT 0
+
+$ git diff --check
+
+EXIT 0
+
+$ git status --short
+ M FORGE/STATUS.md
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+?? AGENTS/CATO/runs/2026-09-19_1424_hans-third-pass-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1424_hans-third-pass-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1424_hans-third-pass.md
+?? AGENTS/CATO/runs/2026-09-19_1424_zhao-correction-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1424_zhao-correction-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1424_zhao-correction-recheck.md
+EXIT 0
+
+$ git diff --cached --name-only
+
+EXIT 0
+
+$ git rev-parse origin/master
+7edb949a3008b58e2aa6359bd0413228ec735e62
+EXIT 0
+
+$ git merge-base --is-ancestor c7d02d780 origin/master
+
+EXIT 0
+
+$ git merge-base --is-ancestor 7edb949a3 origin/master
+
+EXIT 0
