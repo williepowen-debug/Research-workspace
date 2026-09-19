@@ -11,7 +11,7 @@
 2. ⛔ **I RAISED A FIVE-DAY KILL ALARM AT 16/21 THIS MORNING AND MY OWN BACKFILL REFUTED IT THIS AFTERNOON. The clock is 7/21. See §1i — the alarm and its refutation are both kept, in order.** The refutation came from a sanctioned shadow-fleet products tanker struck **2026-09-12** that was not in my ledger.
 3. ⛔ **Two claims of mine that are IN FRONT OF WILL RIGHT NOW are WITHDRAWN** (§2). One of them, the CPC "already half-ruled" point, is carried as a 🔑 load-bearing line in `WQ-266` and in `DOCKET L396`. It is wrong.
 4. ⚑ **Channel 2 stays with Will** — but the reason is upgraded from a claim about my motives to a mechanical test a third party can check, and **the option set has changed: A's premise is retracted; the live choice is B vs D.**
-5. 🔑 **OWED-41: the ledger's incompleteness is directionally SAFE for the kill question, and that is provable without finishing the sweep** (§4). It cannot hide a kill. It can only manufacture a false one — which is exactly what it did on 9/18.
+5. 🔑 **OWED-41: the ledger's known GAPS cannot hide a kill, provably, without finishing the sweep** (§4) — they can only manufacture a false one, which is exactly what they did on 9/18 **and again this morning**. ⛔ **BUT THE LEDGER'S KNOWN MISCLASSIFICATIONS CAN, AND ONE IS LIVE (OWED-44). Only the first half is bounded — do not carry this bullet without §4's limit block.**
 
 ---
 
@@ -23,7 +23,9 @@
 
 **Why this one is rulable and the Channel-2 question is not — the discriminator is mechanical, not a feeling:**
 
-> `DELEGATION_TIER` test 4 (ANTI-SELF-SERVING) asks whether the agent's own falsifier ends up **easier or unchanged**. This question is a **BINARY**, and test 4 **selects one answer uniquely**: the subject reading puts the clock at **16/21**, the bare letter at **6/21**. The subject reading is strictly easier to kill. **Once the test selects, I have no discretion left to exercise, so there is nothing for a conflict of interest to act on.**
+> `DELEGATION_TIER` test 4 (ANTI-SELF-SERVING) asks whether the agent's own falsifier ends up **easier or unchanged**. This question is a **BINARY**, and test 4 **RANKS the two answers**: the tanker-hull reading is strictly easier to kill than the any-hull reading. **Once the test ranks unambiguously, I have no discretion left to exercise, so there is nothing for a conflict of interest to act on.**
+>
+> ⛔ **NUMBERS CORRECTED — §1a ORIGINALLY READ "16/21 … 6/21" AND BOTH ARE SUPERSEDED BY §1i.** After the same session's backfill the true pair is **7/21 (ruled) vs 6/21 (any-hull, in-geography, ATTACKER-AGNOSTIC: 2/21)**. ⚠️ **THE RANKING SURVIVES; ITS MARGIN DOES NOT.** The direction is unchanged and the ruling stands, but it is **not** the ten-day gap this paragraph originally claimed. **§1j is what now carries the weight, not the margin.**
 >
 > Channel 2 is a **menu of three, and test 4 passes all of them** (§2c). A guard that is silent across the menu cannot police the choice. That is the difference, and it is checkable by anyone.
 
@@ -58,7 +60,7 @@
 `OWED39_CHANNEL2_SCOPE_2026-09-18.md` §5 and `STATUS.md`'s dashboard both publish **"14/21 from 9/4 on the subject reading; 6/21 on the bare letter (9/12 USV-kills-USV)."** Checked at the ledger today, **neither anchor is a `STRIKES.tsv` row**:
 
 - **There is no 9/4 vessel row.** The 9/4 figure came from `RU-20260903-NEFRIT-SOCHI`, dated **9/03**, whose notes say "overnight 9/3-4" — and the NEFRIT is an **offshore support vessel**, not a tanker, so under the reading it was being offered to support it should never have been the anchor at all.
-- **There is no 9/12 row of any kind.** `grep` returns **zero** occurrences of `2026-09-12` in `STRIKES.tsv`. The USV-vs-USV event lives only in the feed and in the L308 narrative record.
+- **There was no 9/12 row of any kind when I checked this morning** — `grep` then returned **zero** occurrences of `2026-09-12` in `STRIKES.tsv`, and the USV-vs-USV event lived only in the feed and the L308 narrative record. ⛔ **RE-RUNNING THAT GREP NOW RETURNS TWO ROWS** (`RU-20260912-TAGANROG-POL`, `RU-20260912-ARMADA-LEADER`) **because this session added them.** The morning finding stands as of the morning; **a reader re-running the document's own check gets the opposite answer, and §1i is why.**
 
 ⛔ **§1's own preamble is explicit: *"Measure pauses from the ledger's newest in-channel `Date`, not from memory."* Both published figures were measured from memory.** `[[finding_plausible_stale_value_evades_review]]` — both numbers were the right shape and neither was computed from the instrument the letter names.
 
@@ -68,7 +70,8 @@
 
 | Reading | Newest qualifying row | Elapsed | Limb-1 kill date |
 |---|---|---:|---|
-| **Bare letter** (any vessel, in-geography) — ⛔ now retired | `RU-20260913-KOMYSH-UNNAMED` 9/13 | **6/21** | 2026-10-04 |
+| **Any-hull, in-geography, UKRAINE-SIDE ONLY** — ⛔ now retired. ⚠️ **NOT the bare letter: this row silently applies the attacker limb** | `RU-20260913-KOMYSH-UNNAMED` 9/13 | **6/21** | 2026-10-04 |
+| ⛔ **THE ACTUAL BARE LETTER** (any vessel, any attacker, in-geography) — the thing §1c argues against | a Russia-attacker hull; see §1j | **0–2/21** | — |
 | ✅ **RULED (tanker hull, Ukraine-side)** | `RU-20260903-SIREN` 9/3 — Liberian-flagged **crude oil tanker** | **16/21** | **2026-09-24** |
 | ⚠️ **RULED, with SIREN disqualified** (see below) | `RU-20260825-CHEMTANKER-YALTA` 8/25 | **25/21** | ⛔ **ALREADY PAST** |
 | ⚠️ **RULED, strict shadow-fleet only** | `RU-20260824-SHADOWFLEET-2HULLS` 8/24 | **26/21** | ⛔ **ALREADY PAST** |
@@ -94,8 +97,8 @@
 |---|---|---|
 | **1 SCOPE** | ✅ PASS | Changes `AGENTS/OSPREY/CLAUDE.md` only. The `AGENTS/SELF_RULINGS.tsv` row is the tier's own mandated digest under carve-out ②, not a second subject. |
 | **2 REVERSIBILITY** | ✅ PASS | One file; R2 preserves the superseded text verbatim in place, so undo is a single revert. |
-| **3 NO-CAPITAL** | ✅ PASS — **and this is the contestable one, so here is the whole argument** | The blueprint's clause reads *"gate, size, select strikes for, price, or set an exit for a **position**"*, with *"Exit rules count — this clause is the correction to the OSPREY row 33 verdict."* ⚠️ Row 33 was **§3, the cross-agent Brent thresholds**, which set a test on a price level BRENT trades against; row 33b was correctly Will-gated and remains so. **Two artifacts establish that §1/§2 kill letters are nonetheless in scope of the tier:** ① the same 2026-08-07 packet that carved out §3 graded the **§2 thesis-kill repair SELF-RULABLE**, and it was ruled that way on 2026-08-10 and never reversed; ② the blueprint's own RIDERS heading reads *"mandatory on any self-ruling that touches a prediction, threshold, **or kill condition**"* — **if every kill condition failed test 3, that clause would be dead text.** ③ `GATES.tsv:9`'s action cell states OSPREY's Channel-2 path is *"Watch-only: NO capital path."* **⛔ I am flagging this grade as the one a third party should attack first, and §1h says what it costs if I am wrong.** |
-| **4 ANTI-SELF-SERVING** | ✅ PASS, **decisively** | Falsifier strictly easier: 6/21 → 16/21, kill date pulled from 2026-10-04 to 2026-09-24. No threshold made easier to satisfy. This is the most self-adverse of the two available answers. |
+| **3 NO-CAPITAL** | ✅ PASS — **and this is the contestable one, so here is the whole argument** | The blueprint's clause reads *"gate, size, select strikes for, price, or set an exit for a **position**"*, with *"Exit rules count — this clause is the correction to the OSPREY row 33 verdict."* ⚠️ Row 33 was **§3, the cross-agent Brent thresholds**, which set a test on a price level BRENT trades against; row 33b was correctly Will-gated and remains so. **Three artifacts establish that §1/§2 kill letters are nonetheless in scope of the tier:** ① the same 2026-08-07 packet that carved out §3 graded the **§2 thesis-kill repair SELF-RULABLE**, and it was ruled that way on 2026-08-10 and never reversed; ② the blueprint's own RIDERS heading reads *"mandatory on any self-ruling that touches a prediction, threshold, **or kill condition**"* — **if every kill condition failed test 3, that clause would be dead text.** ③ `GATES.tsv:9`'s action cell states OSPREY's Channel-2 path is *"Watch-only: NO capital path."* **⛔ I am flagging this grade as the one a third party should attack first, and §1h says what it costs if I am wrong.** |
+| **4 ANTI-SELF-SERVING** | ✅ PASS — ⚠️ **amended, and no longer "decisively"** | ⛔ **THIS ROW ORIGINALLY READ "6/21 → 16/21, 2026-10-04 → 2026-09-24, decisively." Those numbers are superseded by §1i and a tier grader reads THIS row, so it is corrected here rather than only there.** ✅ **Corrected: 6/21 → 7/21, kill date 2026-10-04 → 2026-10-03.** Falsifier still **strictly easier**, no threshold made easier to satisfy, still the more self-adverse of the two answers — **but by ONE DAY, not ten.** ⚑ **The ruling's justification therefore rests on §1c and §1j (the attacker limb's counterexample and the reporting-density limit), NOT on the margin.** |
 | **5 DATA-VS-INSTRUMENT** | ✅ PASS | The subject is what MY channel's letter means by "vessel," a property of my own instrument. It is not a revision, vintage, cadence, unit-base or weekday convention question, and no other desk holds a vessel-class convention this could contradict. |
 
 **Riders:** **R1** dated 2026-09-19 · **R2** superseded text preserved verbatim, in place · **R3** no confidence, probability, weight or score moved in this edit — Channel 3 stays **3**, the band stays **~30%**, and the score question is deliberately left to a separate dated edit.
@@ -179,21 +182,39 @@ Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoL
 | **D** | **Leave bare** | anchor 9/10 Makhachkala → **9/30** | ✅ **LIVE** (status quo) |
 | **A** | Align limb 1 to limb 2 — BS/Baltic/Azov **seaborne Russian crude** only | anchor 9/1 Ust-Luga → **18/30** | ⛔ **PREMISE RETRACTED (§2a).** Retained only if Will wants the two limbs to share a subject as a deliberate **design change** — it is no longer a defect fix, and it would silently disarm limb 1 against products, pipeline and CPC events |
 | **C** | Widen limb 2 to total crude export incl. pipeline/Caspian | n/a | ⛔ Unavailable — no such instrument at 4-wk cadence; export measures are BRENT's. Unchanged. |
-| **②** | Products-terminal assignment (§2c②) | moves C2 9/9 → 9/8 (**11/30**), adds a C1 reset | Rides with whichever of B/D is chosen |
+| **②** | Products-terminal assignment (§2c②) | **under B:** 9/9 → 9/8 = **11/30** (+1 day). ⛔ **under D: ZERO** — D's anchor is 9/10 Makhachkala, newer than the row ② removes. ⛔ **C1 also moves zero today** — its anchor is Yaroslavl 9/17. | ⚑ **A SEPARATE DECISION FOR WILL, not an automatic rider** — an earlier draft of this table said it "rides with whichever of B/D is chosen" and that contradicted §2c②, which routes it. **It is the same EDIT and a separate CHOICE.** |
 
 ### 2e. 🔑 WHY IT STAYS WITH WILL — the reason, restated so it is checkable rather than asserted
 
 9/18 said *"the drawing is the mark"* and PROME said *"the desk that owns the letter declined to fix a letter it benefits from interpreting."* **Both are true and neither is testable by a third party.** Here is the same conclusion as a check anyone can run:
 
-> **`DELEGATION_TIER` test 4 passes A, B AND D.** A makes the falsifier much easier (18/30), B slightly easier (10/30), D leaves it unchanged (9/30) — and "unchanged" passes test 4 by its own wording. **The tier's only anti-self-serving guard is therefore SILENT across the entire menu**, on a choice that spans **9 days of a 30-day clock** on the one channel I score **5**.
+⛔ **AN EARLIER DRAFT OF THIS SECTION GAVE A REASON THAT WAS ARITHMETICALLY WRONG, AND AN INDEPENDENT COLD READER CAUGHT IT. I am replacing it rather than deleting it, because the correction is the finding.**
+
+**The retracted reason:** *"test 4 passes A (18/30), B (10/30) AND D (9/30) alike, so the guard is silent across a choice spanning **9 days of a 30-day clock**."*
+⛔ **That span was computed against option A — WHICH §2a RETRACTS IN THIS SAME DOCUMENT.** **The LIVE choice is B vs D. Its span is 10/30 vs 9/30 = ONE DAY.** With ② it is 11/30 vs 9/30 = **two days.** **I overstated the stakes of Will's own decision by roughly ninefold, in the section whose entire job is to justify sending it to him.** `[[finding_exact_level_authenticates_a_wrong_direction]]` — every figure in that sentence was individually correct.
+
+> ### ✅ THE REASON THAT SURVIVES, AND IT IS A THIRD ONE — NOT "the drawing is the mark" AND NOT "the guard is silent"
 >
-> **Channel 3 was rulable because its binary had exactly one test-4-superior answer and the test selected it for me. Channel 2 has a menu the test cannot rank.** `[[finding_a_scope_rule_allocates_visibility_not_superior_judgement]]`.
+> **Test 4 DOES rank the live pair: B (10/30) is strictly more self-adverse than D (9/30). The ranking margin is ONE DAY of a thirty-day clock.**
+>
+> ⛔ **And one day is smaller than this instrument's demonstrated error. I falsified my own ledger's completeness TWICE IN TWO DAYS — a sub-24-hour CPC loading suspension on 9/8, and Russia's second-largest refinery missing since 8/30 — and a single missing oil-port row moves a Channel-2 anchor by more than one day.**
+>
+> ⇒ **The guard cannot rank B against D, not because it admits both, but because the difference between them is BELOW THE RESOLUTION OF THE LEDGER IT IS MEASURED ON.** A one-day ranking margin on an instrument I discredited twice this week is not a ranking; it is noise wearing a ranking's clothes.
+>
+> **Channel 3 was different on exactly this axis: its ranking margin also shrank (ten days → one) but its justification never rested on the margin** — it rests on §1c, a counterexample in which the bare letter makes my adversary's actions keep my channel alive, and on §1j. **Channel 2 has no such counterexample. It has only a one-day preference.**
 
 ### 2f. MY RECOMMENDATION, AND THE DISCOUNT WILL SHOULD APPLY TO IT
 
 **Recommend B, with a companion watch.** Reasons: it is the only surviving defect (§2c①); it propagates **Will's own 9/8 Channel-3 ruling** to the sibling channel with identical wording, so it is the precedent-consistent answer and D is the outlier; and it leaves limb 1 doing the job §2a says it is for.
 
-⚠️ **Stated against myself, because it is exactly the objection this routing exists to catch: B is LESS self-adverse than A — 10/30 versus 18/30. I am recommending the option that keeps my own 5 further from its own kill.** My stated reason is the letter's design and precedent, not the clock. **I cannot prove my reason is not motivated. That is why this is a recommendation and not a ruling, and Will should discount it accordingly.**
+⛔ **THE BIAS DISCLOSURE IN AN EARLIER DRAFT OF THIS PARAGRAPH RAN BACKWARDS, AND IT IS THE SINGLE WORST ERROR IN THIS DOCUMENT — because it is the sentence whose only job is to warn Will about my bias, and it warned him in the wrong direction.**
+
+**What it said:** *"B is LESS self-adverse than A — 10/30 versus 18/30. I am recommending the option that keeps my own 5 further from its own kill."*
+⛔ **A IS RETRACTED. Against the option actually on the table — D at 9/30 — B at 10/30 is MORE self-adverse: it moves my own 5-scored channel CLOSER to its own kill.** ✅ **My recommendation cuts AGAINST me, not for me. Will was told to discount a bias that points the other way.**
+
+⚠️ **This is precisely the failure this desk named in `LESSONS.md` item 10 the same morning: every number correct, the direction word inverted.** I wrote the lesson and then committed the error four hours later, in the one paragraph where it does the most damage. **An independent cold reader found it; I did not.**
+
+**So the honest disclosure is the opposite of the one I gave, and it is weaker than it sounds:** B cuts against me **by one day of thirty** — which §2e says is inside my instrument's error. ⇒ **Neither option meaningfully serves or harms me, and Will should weigh this recommendation on the precedent argument alone: B propagates HIS OWN 2026-09-08 Channel-3 geography ruling, verbatim, to the sibling channel. That is the whole case for it.**
 
 **⛔ CONDITION if B (or A) is taken — not optional:** Caspian and pipeline events stop resetting Channel 2's clock, so they must not stop being visible. They get a **named companion watch in STATUS**, so an excluded event still reads as an event. Without it, a real strike becomes indistinguishable from a quiet week — which is the failure that produced this desk's founding lesson.
 
@@ -205,7 +226,7 @@ Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoL
 |---|---|---|
 | `PROME/WILL_QUEUE.md` **WQ-266** | Carries the retracted CPC "already half-ruled" claim (§2b) as a 🔑 load-bearing line in a live decision; also carries **"8/30 → 17/30"**, which is the 9/18 vintage — today it is **9/30 → 18/30** | PROME |
 | `PROME/DOCKET.tsv` **L396** | Same CPC claim, same 🔑 marking; and its Channel-3 fold-in cites *"11/21 / 3/21"* and *"14/21 / 6/21"* off anchors that are not ledger rows (§1d) | PROME |
-| `AGENTS/OSPREY/STATUS.md` dashboard | *"14/21 from 9/4 … 6/21 … (9/12 USV-kills-USV)"* — both anchors wrong; and *"that reading SHORTENS my clock, i.e. cuts against me"* states the **test-4 direction backwards**: a shorter time-to-kill makes the channel **EASIER** to kill, not harder | ✅ **MINE — fixed this session** |
+| `AGENTS/OSPREY/STATUS.md` dashboard | *"14/21 from 9/4 … 6/21 … (9/12 USV-kills-USV)"* — both anchors wrong. ⛔ **AND THE DIRECTION DEFECT IS IN THE SECOND CLAUSE, NOT THE FIRST** — an earlier draft of this cell blamed *"SHORTENS my clock, i.e. cuts against me"*, **which is CORRECT.** The defect is the words that follow it: *"**making the channel harder to kill**."* **Anyone repairing STATUS from the wrong half fixes the right half.** | ✅ **MINE — fixed this session; STATUS now carries 7/21** |
 | `AGENTS/HAWK/` — Channel-2/3 letters as consumed | HAWK and BRENT consume these channel marks; the Channel-3 letter changed today | ✅ packets sent this session |
 
 ⚠️ **The STATUS wording defect is worth naming for the fleet, not just fixing.** The sentence read *"it SHORTENS my clock, i.e. cuts against me … making the channel harder to kill."* Every number in it was right; the direction word was inverted. **A third party grading that ruling against `DELEGATION_TIER` test 4 would read "harder to kill" and grade it FAILED** — the label inverts the verdict while the arithmetic stays correct. `[[finding_correction_to_the_sequence_survives_every_fact_check]]`.
@@ -245,13 +266,17 @@ Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoL
 
 ### 4a. Sweep state — what was run today, what it found, and what remains
 
-✅ **RUN:** `scripts/strike_feed.py` (not run 9/18) — 24 candidates, **all 24 dispositioned**, 1 source NOT READ. Two independent Opus research sweeps, day-by-day and facility-name-free, over **2026-09-01 → 2026-09-19**: one land-energy, one maritime.
+✅ **RUN:** `AGENTS/OSPREY/scripts/strike_feed.py` (not run 9/18) — 24 candidates, **all 24 dispositioned**, 1 source NOT READ. Two independent Opus research sweeps, day-by-day and facility-name-free, over **2026-09-01 → 2026-09-19**: one land-energy, one maritime.
 
-**★ THE LAND SWEEP'S HEADLINE IS NOT A GAP INSIDE THE WINDOW — IT IS THE WINDOW ITSELF.** Reuters' 9/16 "three of Russia's largest diesel refineries" piece names **KINEF/Kirishi, Volgograd and NORSI/Kstovo**. This desk holds NORSI. **It holds no Kirishi row at all** — and the reported Kirishi strike date, **2026-08-30**, sits **INSIDE** a window this ledger's own header certifies *"swept-complete through 2026-09-02 … mark ADVANCED on a complete in-window pass."*
+**★ THE LAND SWEEP'S HEADLINE IS NOT A GAP INSIDE THE WINDOW — IT IS THE WINDOW ITSELF.** Reuters' 9/16 "three of Russia's largest diesel refineries" piece names **KINEF/Kirishi, Volgograd and NORSI/Kstovo**. This desk holds NORSI and Volgograd. **It held no Kirishi row at all** — and the reported Kirishi strike date, **2026-08-30**, sits **INSIDE the window covered by a PRIOR certification in this ledger's header**: *"PRIOR: swept-complete through: 2026-09-02 (gap sweep 2026-08-21 → 2026-09-02 … mark ADVANCED on a complete in-window pass)."* ⚠️ **Two different marks are in play and they must not be conflated: the FALSE certification is the 2026-09-02 prior one; the CURRENT mark reads 2026-09-16 and is not advanced by this session.**
 
-⛔ **That is the founding lesson's SECOND instance in two days, and it is larger than the CPC one.** The CPC hole was a sub-24-hour loading suspension. This is a top-tier refinery reported shut, missing from a window certified complete by a full pass. ⚠️ **NOT YET LOGGED** — the source chain reaching me is secondary, and I sent a verification back for primaries before writing the row. **Absence of the row is now a known absence, which is the whole difference from 9/18.**
+⛔ **That is the founding lesson's SECOND instance in two days, and it is larger than the CPC one.** The CPC hole was a sub-24-hour loading suspension. This is a top-tier refinery reported shut, missing from a window certified complete by a full pass. ✅ **SUBSEQUENTLY VERIFIED AND LOGGED THE SAME SESSION** as `RU-20260830-KINEF-KIRISHI`, to **Reuters citing two anonymous industry sources** — not the General Staff, so it passes the independence test: AVT-6 22,860 t/d ≈ 40% of a 20 Mt/yr plant, crude processing completely halted, halt reported 9/2, **still offline 9/19**. ⚠️ Its second unit's **name** is contested across three outlets relaying one Reuters report (AT-8 / AT-1 / ELOU-AT-1) — throughput logged, name hedged.
 
-**Corrections applied to `STRIKES.tsv` this session** (all in place, none advancing the mark):
+**⛔ ROWS ADDED to `STRIKES.tsv` this session — 10, none of which advances the mark:** `RU-20260830-KINEF-KIRISHI` · `RU-20260908-TEDY-TUG` · `RU-20260909-NOVY-URENGOY-GCTP` · `RU-20260909-PUROVSKY-GCPP` · `RU-20260911-VOLGOGRAD-AREA` · `RU-20260912-ARMADA-LEADER` · `RU-20260912-TAGANROG-POL` · `RU-20260913-SAPPHIRE-SAR` · `RU-20260915-IZMAIL-CHORNOMORSK` · `RU-20260917-TANZANIA-CARGO`.
+
+⚠️ **AND THE QUESTION THAT ADDITION LIST FORCES, ANSWERED EXPLICITLY BECAUSE §1i EXISTS TO TEACH IT: WERE §2's CHANNEL-2 CLOCKS RECOMPUTED AFTER THIS BACKFILL? YES.** ✅ **None of the ten added rows is a `crude-terminal` / `pipeline` / `oil-port`-class row in the Black Sea, Azov or Baltic**, so **every Channel-2 figure in §2d (9/30, 10/30, 11/30, 18/30) is post-backfill and unchanged.** The two gas-condensate plants are Siberian, Volgograd is a refinery-adjacent area strike rowed as a negative, Taganrog is military POL, and the six vessel rows are hulls. **Channel 3 moved nine days; Channel 2 moved zero — and that is a measured result, not an omission.**
+
+**Corrections applied in place to rows already held (5):**
 
 | Row | Correction |
 |---|---|
@@ -269,7 +294,7 @@ Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoL
 3. **A 9/13 Ufa/Bashneft claim is NOT logged — suspected vintage contamination** (the same narrative attaches to a Sept-2025 event). Declining to log it is the finding.
 4. **The `swept-complete` mark is NOT advanced.** It still reads **2026-09-16**. Two independent day-by-day sweeps is closer to a pass than anything since 9/15, but Kirishi proves the prior certification was false and I will not issue another on the same day I discredited one.
 5. ⛔ **The pre-9/01 window is now suspect as a class, not just at Kirishi.** The gap that mattered was **outside** the window I chose to sweep. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
-6. **⚠️ A defect in the sweep instrument itself, found today:** `strike_feed.py` writes its dispositions to `domain/energy-strikes/feed/FEED_CANDIDATES_*.tsv`, which `AGENTS/OSPREY/.gitignore` **excludes from git**. **So on any other machine, a dismissed candidate is indistinguishable from an unexamined one** — the dismissal reasoning does not travel. Same shape as the ledger hole, one layer up. Logged as **OWED-45**.
+6. **⚠️ A defect in the sweep instrument itself, found today:** `AGENTS/OSPREY/scripts/strike_feed.py` writes its dispositions to `domain/energy-strikes/feed/FEED_CANDIDATES_*.tsv`, which `AGENTS/OSPREY/.gitignore` **excludes from git**. **So on any other machine, a dismissed candidate is indistinguishable from an unexamined one** — the dismissal reasoning does not travel. Same shape as the ledger hole, one layer up. Logged as **OWED-45**.
 7. **⛔ One feed row was MATCHED to the WRONG ledger event** (a 9/14 Sochi strike matched to `RU-20260913-KOMYSH-UNNAMED`, a different place entirely). **A false match is worse than a NONE: it suppresses a candidate silently.** Logged against the **precision leg** of the 10/6 acceptance test (DOCKET L309) — which was the untested leg.
 
 ---
@@ -277,3 +302,38 @@ Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoL
 ## 5. WHAT I DID NOT DO
 
 ❌ Did **not** rule the Channel-2 drawing. ❌ Did **not** move a score, the band, or any clock anchor other than by the Channel-3 ruling's own mechanics. ❌ Did **not** advance the `swept-complete` mark on the strength of a partial sweep. ❌ Did **not** edit `PROME/WILL_QUEUE.md`, `PROME/DOCKET.tsv` or `PROME/GATES.tsv` — corrections go by packet. ❌ Did **not** propose a trade; `STAND DOWN` (WQ-192) is untouched and Channel 2 remains *"Watch-only: NO capital path"* per `GATES.tsv:9`.
+
+---
+
+## 6. ⚠️ DECLARED RESIDUE — an independent cold read of this file, and the 15 flags I did NOT fix
+
+**A blind cold reader (Opus, knowing nothing of this operation) read this document before it was closed and scored it 17 ✅ · 15 ⚠️ · 12 ❌.** It was spawned because this desk's two-correction stop had tripped on this file and the stop requires an independent read before any further edit.
+
+**All 12 ❌ are fixed above, each marked in place rather than silently repaired.** ⛔ **Two of them inverted the decision being put to Will and I want them named, not buried:**
+1. **The routing rationale was sized against a RETRACTED option** — *"9 days of a 30-day clock"* was A-vs-D, and A is retracted in §2a of this same file. **The live span is ONE day.** §2e now carries a third and better reason.
+2. **The conflict-of-interest disclosure ran BACKWARDS** — against the live alternative D, my recommendation **B cuts against me**, not for me. **This is `LESSONS.md` item 10, which I wrote the same morning, committed four hours later, in the one paragraph whose only job is to warn Will about my bias.** The reader found it; I did not.
+
+**⚠️ THE 15 ⚠️ ARE NOT FIXED. They are declared here per the read-budget rule and this file is CLOSED for the session:**
+
+| # | Flag |
+|---|---|
+| 10 | limb-2's *"29 days old"* has no named source in this file; **TD6** and **AWRP** are used undefined |
+| 12 | *"row 33 / 33b"* is cited with no artifact path — **inside the very grade I invite a third party to attack first** |
+| 14 | `DELEGATION_TIER` is cited 8× with **no path**, so every §1g verdict is unfalsifiable from this document alone (`AGENTS/DAEDALUS/BLUEPRINTS/DELEGATION_TIER.md`) |
+| 15 | §1h's *"five-day window"* survives unmarked — it is **fourteen** days after §1i |
+| 16 | *"recorded above it"* points at §4, which is ~90 lines **below**; and the prediction's timing is **unverifiable from the document** — it rests on commit order (`453aa36b1` precedes `18ac65375`) |
+| 18 | **OWED-47** is said to be routed to Will but appears in no option table in §2d, §3 or §5 |
+| 19 | *"six"* Russia-attacker strikes against **seven** dated events listed |
+| 21 | `GATES.tsv:9` is a **bare line number into a live TSV** — the exact dangling-pointer class this desk repaired in its own EXIT RULES on 2026-08-20 |
+| 30 | the STATUS fix and the HAWK/BRENT packets are not stated to carry **7/21 rather than 16/21** (they carry 7/21) |
+| 33 | *"35/30"* implies an anchor no drawing yields; §3 records the same clock's 9/18 vintage as 8/30 |
+| 34 | limb 2's **3.54 / 3.50** has no named provider here, and the missing-print bias is given **no sign** |
+| 36 | **three parallel numbering systems** in one document — A/B/C/D options, *"drawing (4)"*, *"instance 4"* |
+| 38 | *"all 24 dispositioned"* sits beside **one wrong match and one unread source**, which the phrase does not convey |
+| 42 | ✅ **fixed as a one-word typo** — `scripts/strike_feed.py` → `AGENTS/OSPREY/scripts/strike_feed.py` |
+| 43 | §5's *"did not move any clock anchor"* against the added row that moved Channel 3 by **nine days** — §5 means *by fiat*; the wording does not say so |
+
+**The reader's one-line verdict on §2, recorded verbatim because it is the part that goes to Will:** *"the live choice is B vs D while both the reason for routing and the author's self-disclosed bias are computed against the retracted option A — stakes 9× too large, bias pointing the wrong way."* **Both are now repaired above.**
+
+⚠️ **What a cold reader could NOT verify at all, and a consumer should treat as unchecked:** `DELEGATION_TIER`, row 33/33b, OWED-36/41/43/44/45/47, KB-OSPREY-071, GATE-OSPREY-001, WQ-192/216/266, DOCKET L308/L309/L396, LESSONS 8. ✅ **Every strike ID this file cites exists in `STRIKES.tsv` with the date given — the ledger citations are clean.**
+
