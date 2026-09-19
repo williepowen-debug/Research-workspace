@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM partial-closeout follow-up completed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, PROME delivered PARTIAL closeout assessed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME delivery supported, PARTIAL remains qualified.** [Report](runs/2026-09-19_1341_prome-delivery.md), [probe](runs/2026-09-19_1341_prome-delivery-probe.py), [results](runs/2026-09-19_1341_prome-delivery-probe.txt). `39f49d150` intent matches 18 paths, 17 substantive hashes match manifest; it and baseline `5f2d8b3d2` confirmed on origin. Seven dashboard bindings match committed FORGE, not pending ANVIL edit. WQ-265 cost decision open; publication not independently viewed. Earlier invalid-date rc downgrade and lettered-ID Nothing-owed cases still reproduce, despite handoff saying two fixed. ORCH has eighth touch ARGUS ASKED_WORKING, omitted from four-plus-three delivery cut. Handoff overstates guard verification and calls owner-budget excess a cap excess. Support session stop as PARTIAL with narrower carry; no owner edits/sends/launches, operational closeout or repairs. Matching candidate hashes do not certify changed-portion independent re-review; native audit not inspected. Next orient and await Will.
 
 **Latest — SAM PARTIAL disposition verified at `93d39d1cf`.** [Report](runs/2026-09-19_1335_sam-partial-close.md), [probe](runs/2026-09-19_1335_sam-partial-close-probe.py), [results](runs/2026-09-19_1335_sam-partial-close-probe.txt), [checks](runs/2026-09-19_1335_sam-partial-close-checks.txt). 38 closeout/11 CPI tests pass. Three exact prior examples repaired; actual verbose tenor-swap finding closed. R1 still suppresses a current quoted count containing prospective “until”; R3 still permits numeric child-crash rc1 to yield scoped parent PASS, and preserves only truncated output plus rerun advice. Charter/handoff mark NOT AN ACCEPTED GATE and session PARTIAL; support that stopping point, narrow “All fixed” to exact reproducers. Dispute banners remain; no grade ruling. No owner edits/sends/launches or further implementation assigned. Next orient and await Will.
 
