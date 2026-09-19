@@ -280,7 +280,11 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
             p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
         ok = p.returncode in ok_rc
         tail = log.read_text(encoding="utf-8", errors="replace").strip().split("\n")
-        detail = f"rc={p.returncode}" + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
+        # ⛔ rc=2 is "we did not look", rc=1 is "we looked and it is not OK". Before 2026-09-19
+        # these rendered identically, so a CRASHED check read exactly like a working one
+        # reporting unavailable evidence (session_presence: ValueError vs a stale snapshot).
+        state = "DID NOT RUN (UNKNOWN execution — establishes nothing) · " if p.returncode == 2 else ""
+        detail = f"rc={p.returncode} · {state}".rstrip(" ·") + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
         if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
             flagged = [l.strip() for l in tail if l.lstrip().startswith(("❌", "⚠️"))]
             detail += "".join(f"\n       ↳ {l[:120]}{'… [preview]' if len(l) > 120 else ''}" for l in flagged[:3])

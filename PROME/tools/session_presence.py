@@ -62,6 +62,14 @@ def evidence(owner, data, reference):
             "current_presence": "UNKNOWN", "spawn_authorized": False}
 
 
+def _field(row, name, index):
+    """Read one producer field by NAME, falling back to position. See spawn_list.Row."""
+    value = getattr(row, name, None)
+    if value is None:
+        value = row[index]
+    return str(value)
+
+
 def report(rows, data, reference=None, host=None, activities=None, identities=None, desks=()):
     reference = reference or dt.datetime.now(dt.timezone.utc)
     host = host or socket.gethostname()
@@ -80,7 +88,7 @@ def report(rows, data, reference=None, host=None, activities=None, identities=No
         print(f"⚠️ UNKNOWN: {error}")
     if activities is not None or identities is not None:
         print("Desk overview — file activity is independent evidence; quiet files do not mean an offline desk.")
-        for owner in sorted(set(desks) | {r[3] for r in rows}):
+        for owner in sorted(set(desks) | {_field(r, "owner", 3) for r in rows}):
             if owner in ("WILL", "?"):
                 continue
             view = evidence(owner, data, reference) if error is None else {"current_presence": "UNKNOWN", "reason": error}
@@ -92,7 +100,12 @@ def report(rows, data, reference=None, host=None, activities=None, identities=No
                 view["file_activity"] = {"error": (activities or {}).get("error", "not collected")}
             print(owner + "\t" + json.dumps(view, ensure_ascii=True))
     print("key\tdue\towner\tgit_class\truntime_evidence")
-    for key, due, delta, owner, git_class, basis, catalyst in rows:
+    for row in rows:
+        # ⛔ NEVER positionally unpack the producer's whole row (2026-09-19): spawn_list gained a
+        # `cadence` field and the 7-field unpack here crashed the boot gate. Named access first,
+        # index fallback for a plain tuple. Adding a field must never break this reader again.
+        key, due = _field(row, "key", 0), _field(row, "due", 1)
+        owner, git_class = _field(row, "owner", 3), _field(row, "cls", 4)
         view = evidence(owner, data, reference) if error is None else {
             "current_presence": "UNKNOWN", "reason": error, "spawn_authorized": False}
         print("\t".join((key, due, owner, git_class, json.dumps(view, ensure_ascii=False))))
@@ -132,5 +145,20 @@ def main():
         for d in activities.get("desks", {}).values()) else rc
 
 
+def guarded_main():
+    """rc 2 = the CHECK DID NOT RUN (we did not look). rc 1 = it ran, evidence unavailable.
+    ⛔ These must never render identically: on 2026-09-19 a crash and a stale snapshot both
+    reached the boot summary as the same UNKNOWN. CHECK_STANDARD §9 rc convention."""
+    try:
+        return main()
+    except Exception as exc:  # noqa: BLE001 — a reader crash is a DID-NOT-RUN, never a finding
+        import traceback
+        traceback.print_exc()
+        print(f"\u274c CHECK DID NOT RUN \u2014 {type(exc).__name__}: {str(exc)[:160]}")
+        print("\u26d4 rc=2 UNKNOWN EXECUTION. This establishes NOTHING about fleet presence, and is "
+              "NOT the same state as 'ran, evidence unavailable' (rc=1). Do not read it as either.")
+        return 2
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(guarded_main())

@@ -47,6 +47,7 @@ EXIT: 1 when any DARK candidate exists (the gate prints them as ⚠️ lines), e
 USAGE: python3 PROME/tools/spawn_list.py [--horizon N] [--tsv] [--as-of YYYY-MM-DD] [--docket PATH|REV:PATH] [--selftest]
 """
 import argparse, datetime as dt, re, subprocess, sys
+from typing import NamedTuple
 from pathlib import Path
 
 ROOT = Path(subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True).stdout.strip())
@@ -230,6 +231,21 @@ def classify(owner, start, due, today, live: Liveness):
     return delta, f"LANDS-IN-{-delta}d", f"owner last self-commit {lsc[0]} ({age}d ago, {lsc[1]})"
 
 
+class Row(NamedTuple):
+    """One due obligation. ⛔ APPEND new fields at the END and NEVER positionally unpack the
+    whole row downstream — 2026-09-19: adding `cadence` (7th) silently broke
+    session_presence.py, which unpacked 7. Named access is the contract; index access is
+    grandfathered. Acceptance conditions: PROME/tools/tests/ACCEPTANCE_presence_reader_contract_2026-09-19.md"""
+    key: str
+    due: str
+    delta: int
+    owner: str
+    cls: str
+    basis: str
+    cadence: str
+    catalyst: str
+
+
 def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int, live: Liveness, roster_text: str = ""):
     horizon = today + dt.timedelta(days=horizon_days)
     cad_map, dupes, bad, present = read_cadence(roster_text)
@@ -253,7 +269,7 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         start = dt.date.fromisoformat(start_s) if DATE.fullmatch(start_s) else due
         owner = owner_token(c[2])
         delta, cls, basis = classify(owner, start, due, today, live)
-        rows.append((f"D:L{ln}", end_s, delta, owner, cls, basis, _note(owner), re.sub(r"\s+", " ", c[1])[:72]))
+        rows.append(Row(f"D:L{ln}", end_s, delta, owner, cls, basis, _note(owner), re.sub(r"\s+", " ", c[1])[:72]))
     hdr = None
     for raw in gates_text.split("\n"):
         if not raw or raw.startswith("#"):
@@ -276,8 +292,8 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         start = dt.date.fromisoformat(reg[:10]) if DATE.match(reg) else due
         delta, cls, basis = classify(owner, start, due, today, live)
         scan = (g.get("scannable", "").split(" ")[0] or "unclassed")
-        rows.append((f"G:{g['gate_id']}", m.group(0), delta, owner, cls, basis, _note(owner),
-                     f"review_by [{scan}] — {re.sub(chr(9), ' ', g.get('condition', ''))[:56]}"))
+        rows.append(Row(f"G:{g['gate_id']}", m.group(0), delta, owner, cls, basis, _note(owner),
+                        f"review_by [{scan}] — {re.sub(chr(9), ' ', g.get('condition', ''))[:56]}"))
     order = {"UNKNOWN": 0, "DARK": 1, "ACTIVE": 2, "PROME-OWNED": 3, "WILL-OWNED": 4}
     rows.sort(key=lambda r: (order.get(r[4], 4), -r[2], r[0]))
     return rows
