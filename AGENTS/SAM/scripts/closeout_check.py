@@ -110,6 +110,85 @@ def _calendar_forward_counts(text):
     return out
 
 
+QUOTE_PAIRS = [('"', '"'), ("'", "'"), ('\u201c', '\u201d'), ('\u2018', '\u2019')]
+
+
+def _quoted_spans(line):
+    """Character ranges inside QUOTE marks.
+
+    ⚠️ Replaces a single-character adjacency test that CATO broke three ways on
+    2026-09-19:
+      * `'' in '"\'`'` is TRUE in Python, so a match at the START or END of a line
+        produced an empty neighbour and was auto-suppressed — an unquoted
+        "… 4 OPEN" ending a line escaped silently.
+      * BACKTICKS were treated as quoting, so a LIVE claim written as `9 OPEN`
+        was suppressed. Backticks are formatting, not a retirement marker, and are
+        deliberately NOT included here.
+    Span containment fixes all three: a figure inside quotes is a record of a
+    retired value; a bare one is a claim.
+    """
+    spans = []
+    for op, cl in QUOTE_PAIRS:
+        idx = [i for i, ch in enumerate(line) if ch == op] if op == cl else None
+        if idx is not None:
+            for a, b in zip(idx[::2], idx[1::2]):
+                spans.append((a, b))
+        else:
+            stack = []
+            for i, ch in enumerate(line):
+                if ch == op:
+                    stack.append(i)
+                elif ch == cl and stack:
+                    spans.append((stack.pop(), i))
+    return spans
+
+
+def _in_quotes(line, start, end):
+    return any(a < start and end <= b for a, b in _quoted_spans(line))
+
+
+STOP = {'the', 'a', 'an', 'of', 'and', 'or', 'for', 'to', 'in', 'on', 'at', 'by',
+        'vs', 'is', 'its', 'no', 'not', 'day', 'date', 'jst', 'et', 'am', 'pm'}
+
+
+def _tokens(text):
+    """Significant lowercase word/number tokens, for EVENT IDENTITY matching."""
+    return {w for w in re.findall(r'[a-z0-9]+', text.lower()) if w not in STOP and len(w) > 1}
+
+
+def _calendar_forward_rows(text):
+    head = re.split(r'^## .*RESOLVED', text, maxsplit=1, flags=re.M)[0]
+    return [l for l in head.split('\n')
+            if l.startswith('|') and not l.startswith('|--') and '| Date |' not in l
+            and '| When |' not in l]
+
+
+DATE_RE = r'\b(\w{3}) (\w{3}) (\d{1,2}) (\d{4})\b'
+
+
+def _row_date(line):
+    m = re.search(DATE_RE, line)
+    if not m:
+        return None
+    mon = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+           'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'].index(m.group(2)) + 1
+    return '%s-%02d-%02d' % (m.group(4), mon, int(m.group(3)))
+
+
+def _calendar_forward_events(text):
+    out = {}
+    for line in _calendar_forward_rows(text):
+        d = _row_date(line)
+        if d:
+            cells = [c.strip() for c in line.strip('|').split('|')]
+            out.setdefault(d, []).append(cells[1] if len(cells) > 1 else line)
+    return out
+
+
+def _calendar_undated_rows(text):
+    return [l.strip() for l in _calendar_forward_rows(text) if not _row_date(l)]
+
+
 def check_docket(problems, today):
     """⚠️ CATO 2026-09-19 found this comparing bare DATE SETS. Two events sharing a
     date meant deleting one from CALENDAR still passed, and rows with a blank date
@@ -133,24 +212,49 @@ def check_docket(problems, today):
 
     cal_text = (SAM / 'docket' / 'CALENDAR.md').read_text(encoding='utf-8')
     cal_counts = _calendar_forward_counts(cal_text)
+    undated_cal = _calendar_undated_rows(cal_text)
+    if undated_cal:
+        problems.append('B2 [step 10] CALENDAR.md FORWARD table has %d row(s) with no parseable date: %s '
+                        '— invisible to every date-keyed check, including this one before 2026-09-19'
+                        % (len(undated_cal), ' | '.join(r[:55] for r in undated_cal[:3])))
     cal_past = sorted(d for d in cal_counts if d < today)
     if cal_past:
         problems.append('B [step 10] CALENDAR.md FORWARD table holds past-dated row(s): %s '
                         '— boot step 3 reads exactly these rows, so a stale one misinforms the next session'
                         % ', '.join(cal_past))
 
-    cat_counts = {}
+    # ⚠️ CATO 2026-09-19 (second pass): this compared EVENT COUNTS per date, so
+    # REPLACING one event with a different one on the same date passed cleanly.
+    # Counts are kept (they localise a miscount) and EVENT IDENTITY is now checked
+    # on top, by significant-token overlap — the two files word things differently
+    # by design, so exact string equality would be noise.
+    cal_events = _calendar_forward_events(cal_text)
+    cat_events = {}
     for r in dated:
         if r['date'] >= today:
-            cat_counts[r['date']] = cat_counts.get(r['date'], 0) + 1
-    fwd_cal = {d: n for d, n in cal_counts.items() if d >= today}
-    for d in sorted(set(cat_counts) | set(fwd_cal)):
-        a, b = cat_counts.get(d, 0), fwd_cal.get(d, 0)
+            cat_events.setdefault(r['date'], []).append(r.get('event') or '')
+
+    for d in sorted(set(cat_events) | set(cal_events)):
+        a, b = len(cat_events.get(d, [])), len(cal_events.get(d, []))
         if a != b:
             problems.append('C [step 10] %s: CATALYSTS has %d event(s), CALENDAR forward table has %d '
-                            '— the charter says the two must not diverge (a dropped EVENT is invisible '
-                            'to a date-only comparison, which is how this check read before 2026-09-19)'
-                            % (d, a, b))
+                            '— the charter says the two must not diverge' % (d, a, b))
+            continue
+        pool = list(cal_events.get(d, []))
+        for ev in cat_events.get(d, []):
+            et = _tokens(ev)
+            best, score = None, 0
+            for cand in pool:
+                ov = len(et & _tokens(cand))
+                if ov > score:
+                    best, score = cand, ov
+            if score < 2:
+                problems.append('C2 [step 10] %s: CATALYSTS event %r has no matching CALENDAR row '
+                                '(best token overlap %d). Same-date EVENT SWAPS are invisible to a '
+                                'count-only comparison — that is how this read before 2026-09-19.'
+                                % (d, ev[:60], score))
+            elif best is not None:
+                pool.remove(best)
 
 
 PRED_FIELDS = ['Pred_ID', 'Date_Made', 'Prediction', 'Confidence', 'Timeframe',
@@ -209,30 +313,32 @@ def check_scoreboard(problems):
             if got != derived[:3]:
                 problems.append('D [step 11] %s asserts a 3-part scoreboard %d/%d/%d but the file '
                                 'derives %d/%d/%d' % ((rel,) + got + derived[:3]))
-        # A lone "N OPEN" only counts as a scoreboard claim when the LINE it sits on
-        # is talking about predictions — otherwise every "3 OPEN" in prose trips it,
-        # and a check that cries wolf gets skimmed (see consumer_check, 51/51 false).
+        # A lone "N OPEN" counts as a scoreboard claim when the LINE it sits on is
+        # talking about predictions. Otherwise every "3 OPEN" in prose trips it, and
+        # a check that cries wolf gets skimmed (consumer_check: 51/51 false).
+        #
+        # ⚠️ CATO 2026-09-19 (second pass) broke the previous version two more ways:
+        #   * it did `continue` whenever the line ALSO held a valid 3- or 4-part
+        #     scoreboard, so a WRONG open count sitting beside a CORRECT scoreboard
+        #     was never examined — and that is exactly the real THESIS shape.
+        #   * the quote test used single-character adjacency, and `'' in '"...'` is
+        #     True, so any match at line start/end was auto-suppressed.
+        # Fixed by BLANKING the scoreboard spans and scanning what remains, and by
+        # testing span containment instead of neighbouring characters.
         for line in text.split('\n'):
             low = line.lower()
             if not ('predictions.tsv' in low or 'scoreboard' in low):
                 continue
-            if four.search(line) or three.search(line):
-                continue
-            for m in lone.finditer(line):
-                # ⛔ Skip a QUOTED figure. A correction note that says  read "4 OPEN"
-                # until 9/19  is a record of a retired value, not an assertion of it —
-                # and a check that cannot tell a quote from a claim fires on every fix
-                # it prompted, which is how consumer_check reached 51/51 false positives
-                # and trained its reader to skim. Found on this very check's first live
-                # run (2026-09-19), against my own THESIS and MEMORY correction notes.
-                before = line[m.start() - 1] if m.start() else ''
-                after = line[m.end()] if m.end() < len(line) else ''
-                if before in '"\'`\u201c\u2018' or after in '"\'`\u201d\u2019':
-                    continue
+            masked = line
+            for m in list(four.finditer(line)) + list(three.finditer(line)):
+                masked = masked[:m.start()] + ' ' * (m.end() - m.start()) + masked[m.end():]
+            for m in lone.finditer(masked):
+                if _in_quotes(line, m.start(), m.end()):
+                    continue          # a quoted figure is a record of a retired value
                 if int(m.group(1)) != derived[3]:
                     problems.append('D [step 11] %s asserts "%s OPEN" on a predictions line but the '
-                                    'file derives %d OPEN — this is the exact form THESIS carried '
-                                    'stale for 23 days' % (rel, m.group(1), derived[3]))
+                                    'file derives %d OPEN — this is the form THESIS carried stale '
+                                    'for 23 days' % (rel, m.group(1), derived[3]))
     return derived, [r['Pred_ID'] for r in opn]
 
 
@@ -319,10 +425,23 @@ def run_delegated():
     for label, cmd in DELEGATED:
         try:
             r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=120)
+            # ⚠️ CATO 2026-09-19 (second pass): output was kept only for a NON-ZERO
+            # exit, and orphan_check.sh DELIBERATELY exits 0 while printing warnings
+            # ("[not yours]", "[likely YOURS]"). Its 12 warning lines vanished. Exit
+            # code is not the signal for an advisory tool — the TEXT is.
+            out_text = (r.stdout + r.stderr).strip()
+            lines = [l for l in out_text.split('\n') if l.strip()]
+            warned = any(k in out_text for k in
+                         ('⚠', '🔴', '🟠', 'not yours', 'likely YOURS', 'WARNING',
+                          'STALE', 'nudge:', 'FAIL'))
             tail = ''
-            if r.returncode:
-                lines = [l for l in (r.stdout + r.stderr).strip().split('\n') if l.strip()]
-                tail = '\n'.join('        | ' + l[:150] for l in lines[-4:])
+            if r.returncode or warned:
+                keep = [l for l in lines if any(k in l for k in
+                        ('⚠', '🔴', '🟠', 'not yours', 'likely YOURS', 'WARNING',
+                         'STALE', 'nudge:', 'FAIL'))] or lines[-4:]
+                tail = '\n'.join('        | ' + l[:150] for l in keep[:6])
+                if r.returncode == 0 and warned:
+                    tail = '        | (exit 0, but it WARNED — read it)\n' + tail
             out.append((label, ' '.join(cmd[:2]), r.returncode, tail))
         except Exception as exc:                                        # noqa: BLE001
             out.append((label, ' '.join(cmd[:2]), 'ERROR', '        | %s' % exc))

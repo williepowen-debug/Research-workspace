@@ -33,6 +33,10 @@ TODAY = '2026-09-19'
 
 CAL_HEAD = "# SAM CALENDAR\n\n| Date | Event |\n|---|---|\n"
 CAL_RESOLVED = "\n## ✅ RESOLVED\n\n| Date | Event |\n|---|---|\n| Wed Sep 16 2026 | done |\n"
+# Event text must MATCH across both files: since 2026-09-19 the docket check
+# verifies event IDENTITY, not just counts, so placeholder names ('x' vs 'ev')
+# correctly trip C2. The old fixture was unrealistic, not the check wrong.
+_EV = 'JGB auction fixture event'
 CAT_HEAD = "date\tevent\twhat_to_check\tthreshold_signal\tpriority\twho_cares\tnotes\ttype\n"
 
 
@@ -40,9 +44,9 @@ def _fixture(cal_rows, cat_dates):
     d = pathlib.Path(tempfile.mkdtemp())
     (d / 'docket').mkdir()
     (d / 'docket' / 'CALENDAR.md').write_text(
-        CAL_HEAD + ''.join('| %s | x |\n' % r for r in cal_rows) + CAL_RESOLVED, encoding='utf-8')
+        CAL_HEAD + ''.join('| %s | %s |\n' % (r, _EV) for r in cal_rows) + CAL_RESOLVED, encoding='utf-8')
     (d / 'docket' / 'CATALYSTS.tsv').write_text(
-        CAT_HEAD + ''.join('%s\tev\tw\tt\t●\tSAM\tn\ttype\n' % x for x in cat_dates), encoding='utf-8')
+        CAT_HEAD + ''.join('%s\t%s\tw\tt\t●\tSAM\tn\ttype\n' % (x, _EV) for x in cat_dates), encoding='utf-8')
     return d
 
 
@@ -284,6 +288,100 @@ def test_CATO4_pre_commit_mode_exists_and_is_documented():
     assert '--pre-commit' in src
     charter = (_SAMDIR / 'CLAUDE.md').read_text(encoding='utf-8')
     assert 'AFTER your final commit' in charter, 'charter must not tell you to run it pre-commit'
+
+
+
+
+# ---------------------------------------------------------------------------
+# CATO round 2, 2026-09-19 — counterexamples against the FIRST repair. Each of
+# these PASSED against that repair, which is why "all five fixed" was premature.
+# ---------------------------------------------------------------------------
+
+def test_CATO2_1a_unquoted_open_at_end_of_line():
+    """`'' in '"\'`'` is True in Python, so a match at line START or END produced
+    an empty neighbour and the adjacency guard auto-suppressed it."""
+    assert '' in '"\'`', 'the Python trap this test exists for'
+    assert _scoreboard('PREDICTIONS.tsv scoreboard: 4 OPEN') != []
+
+
+def test_CATO2_1b_wrong_open_beside_a_correct_scoreboard():
+    """The old code did `continue` when the line held a valid 3- or 4-part
+    scoreboard, so a WRONG open count beside a CORRECT one was never examined —
+    and that is exactly the shape the real THESIS line had."""
+    assert _scoreboard('PREDICTIONS.tsv Scoreboard 1 CONFIRMED / 1 FAILED / 0 special. Also 9 OPEN rows.') != []
+
+
+def test_CATO2_1c_backticks_do_not_suppress_a_live_claim():
+    """Backticks are formatting, not a retirement marker."""
+    assert _scoreboard('PREDICTIONS.tsv scoreboard is `9 OPEN` right now.') != []
+
+
+def test_CATO2_quoted_value_is_still_suppressed():
+    """The fix must not simply delete the guard: a genuinely quoted retired value
+    is a record, not a claim."""
+    assert _scoreboard('PREDICTIONS.tsv: this line read "4 OPEN as of 2026-08-27" until 9/19.') == []
+
+
+def test_CATO2_correct_scoreboard_stays_quiet():
+    assert _scoreboard('PREDICTIONS.tsv Scoreboard 1 CONFIRMED / 1 FAILED / 0 special / 1 OPEN') == []
+
+
+def _docket(cal_rows, cat_rows):
+    d = pathlib.Path(tempfile.mkdtemp())
+    (d / 'docket').mkdir()
+    (d / 'docket' / 'CALENDAR.md').write_text(CAL_HEAD + cal_rows + CAL_RESOLVED, encoding='utf-8')
+    (d / 'docket' / 'CATALYSTS.tsv').write_text(CAT_HEAD + cat_rows, encoding='utf-8')
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        cc.check_docket(p, TODAY)
+        return p
+    finally:
+        cc.SAM = old
+
+
+def test_CATO2_same_date_event_swap_is_caught():
+    """Counts still matched, so replacing one event with a different one on the
+    same date passed a count-only comparison."""
+    p = _docket('| Wed Sep 30 2026 | JGB 2Y auction |\n',
+                '2026-09-30\tSOMETHING ENTIRELY DIFFERENT\tw\tt\tp\tc\tn\tt\n')
+    assert any(x.startswith('C2') for x in p), p
+
+
+def test_CATO2_matching_events_with_different_prose_stay_quiet():
+    """The two files word things differently by design — identity is matched on
+    significant-token overlap, not string equality, or this becomes noise."""
+    p = _docket('| Wed Sep 30 2026 | BOJ Oct-Dec 2026 JGB purchase schedule (17:00 JST) |\n',
+                '2026-09-30\tBOJ Oct-Dec 2026 JGB purchase schedule\tw\tt\tp\tc\tn\tt\n')
+    assert p == [], p
+
+
+def test_CATO2_undated_calendar_row_is_caught():
+    p = _docket('| TBD | undated forward event |\n', '')
+    assert any(x.startswith('B2') for x in p), p
+
+
+def test_CATO2_delegated_warnings_survive_a_zero_exit():
+    """orphan_check.sh DELIBERATELY exits 0 while printing '[not yours]' warnings.
+    Keeping child output only for non-zero exits discarded all 12 of them — exit
+    code is not the signal for an advisory tool, the TEXT is."""
+    src = pathlib.Path(cc.__file__).read_text(encoding='utf-8')
+    assert 'r.returncode or warned' in src
+    assert 'exit 0, but it WARNED' in src
+
+
+def test_CATO2_live_docket_has_no_false_positives():
+    """The identity check must be quiet on the REAL files, or it is noise."""
+    real = _SAMDIR
+    if not (real / 'docket' / 'CATALYSTS.tsv').exists():
+        raise Skipped('real docket not present (sandbox run)')
+    old, cc.SAM = cc.SAM, real
+    try:
+        p = []
+        cc.check_docket(p, TODAY)
+        assert p == [], p
+    finally:
+        cc.SAM = old
 
 
 if __name__ == '__main__':
