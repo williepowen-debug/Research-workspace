@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, session closed at Will's direction. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, bounded prome-92 boot suggestions delivered. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest assignment complete — prome-92 boot suggestions.** [Findings and concrete acceptance conditions](runs/2026-09-19_1725_prome-boot-fixes.md), with linked probe/results. Presence reader's eight/seven-field crash reproduced; mirror completion must cover TERRY's omitted unattributed section and reported cap breach, not only Fleet-Ops. Correct pending-edit durability, involvement-versus-lead counts, generated ownership verbosity and required PARTIAL headline. Active owners preserved; no owner edits, sends, launches, approval changes or financial certification. Method/continuity cleanup remains proposed. **Next: await Will; no implementation or automatic follow-up assigned.** Earlier closeouts below retain their limits and approvals.
 
 **SESSION CLOSED — no remaining assigned work.** [HANS/MARCO/ZHAO closeout and CATO upstream-review plan](runs/2026-09-19_1540_closeout-and-upstream-plan.md). Will requested planning improvements that address repeat-fix causes. Concrete CHARTER/AGENTS replacements and continuity cleanup are proposed, not adopted; routine closeout disposition is the only live instruction-file change. HANS historical-date correspondence is verified closed for the agreed cases; the remaining runner defect has an author-tested, **unapplied** CATO patch. ZHAO's main repairs are verified with one operational-row carry and routing/Annex dependencies; MARCO's later repairs were not independently re-reviewed. Latest reports and exact limits are linked in the closeout. No new owner repairs, sends, launches, publication or standing gate are authorized. **Next: startup orientation, then await Will; neither the proposal nor the residue below is a new assignment.**
 

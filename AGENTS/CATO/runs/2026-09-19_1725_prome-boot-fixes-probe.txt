@@ -1,0 +1,12 @@
+HEAD: ca3e519e04e72e237781898cdbd1d4ab0d96dbef
+d4c69adb9161638d4f5d86724fce8f0f5e0647b5dd73be7717c15fb0536dfacb PROME/tools/spawn_list.py
+46d27a0b1bb4849326550b12968bc380011fbf626be1732b85d3a869dfffcf4c PROME/tools/session_presence.py
+1dd425de5acbf066f0dba5f60ef739cb11c367b48e11c0469096637264611f9d PROME/tools/prome_gate.py
+9e0f3ad8a0eee0bfb612a9d653e0bfd4350facaae450f29aa68284184d17fa55 PROME/DOCKET.tsv
+dcac454e12cf7100caa2c29c9a35f52f2d06ef2ac5cff0334752ed7ad41c7d27 AGENTS/TERRY/scripts/positions_from_forge.py
+empty valid rc=0 complete_marker= True
+empty stale rc=1 complete_marker= True
+actual producer row ValueError: too many values to unpack (expected 7) complete_marker= False
+producer width: 8
+live: 154 PROME named: 103 PROME first: 48
+dated today: 19 PROME first: 18
