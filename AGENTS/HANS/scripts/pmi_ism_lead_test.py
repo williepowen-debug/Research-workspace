@@ -30,6 +30,11 @@ MAXLAG = 6
 
 
 def _key():
+    # DUPLICATE PATH-WALK: the SAME .env is resolved with the SAME parents[3] depth in
+    # fetch_eu.py. They agree today and would diverge on a REFACTOR (one script moving a
+    # level), NOT at the moment of failure — graded LOW severity on the 2026-09-19
+    # divergence sweep for exactly that reason, and left in place rather than coupled
+    # through a shared module for one path. If you move either script, fix BOTH.
     env = Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
     for line in env.read_text().splitlines():
         if line.startswith("FRED_API_KEY="):
