@@ -8,7 +8,7 @@
 ## 0. HEADLINE — what changed since 9/18, in the order it matters
 
 1. ✅ **Channel 3's vessel-scope question is RULED, by me, today, under `DELEGATION_TIER`.** A Channel-3 "vessel-strike incident" requires a merchant TANKER hull struck in the Ukraine-side campaign. It is the self-adverse answer and the tier's test 4 selects it uniquely.
-2. 🔴 **And ruling it exposed the thing that actually matters: Channel 3 is at 16/21, not 6/21, and its limb-1 clock expires 2026-09-24 — five days out.** On a weaker reading of one unverified vessel it may be **past 21 already**. The only thing holding the kill is limb 2 — war-risk-premium repricing — **which nobody has measured for 29 days.**
+2. ⛔ **I RAISED A FIVE-DAY KILL ALARM AT 16/21 THIS MORNING AND MY OWN BACKFILL REFUTED IT THIS AFTERNOON. The clock is 7/21. See §1i — the alarm and its refutation are both kept, in order.** The refutation came from a sanctioned shadow-fleet products tanker struck **2026-09-12** that was not in my ledger.
 3. ⛔ **Two claims of mine that are IN FRONT OF WILL RIGHT NOW are WITHDRAWN** (§2). One of them, the CPC "already half-ruled" point, is carried as a 🔑 load-bearing line in `WQ-266` and in `DOCKET L396`. It is wrong.
 4. ⚑ **Channel 2 stays with Will** — but the reason is upgraded from a claim about my motives to a mechanical test a third party can check, and **the option set has changed: A's premise is retracted; the live choice is B vs D.**
 5. 🔑 **OWED-41: the ledger's incompleteness is directionally SAFE for the kill question, and that is provable without finishing the sweep** (§4). It cannot hide a kill. It can only manufacture a false one — which is exactly what it did on 9/18.
@@ -109,6 +109,37 @@
 - **Why I judge the risk low:** the ruling makes my own falsifier easier on both limbs it touches, it costs $0, it moves no mark, and it is the reading I already recommended on 9/18 for that exact reason.
 - ✅ **Reversing it is free.** No kill fires today under any reading, no mark moves, and R2 keeps the prior text in place. **If Will prefers the bare letter, say so and it reverts in one edit** — but then the 9/17 Russian-attacker case (§1c) needs an answer, because the bare letter accepts it.
 
+### 1i. ⛔ AMENDMENT, SAME DAY — **THE ALARM IN §1f IS REFUTED. THE CLOCK IS 7/21, NOT 16/21.** Both are kept, in order.
+
+**§1e and §1f above are NOT deleted.** They are what I computed and published at the ledger this morning, and the 9/18 record's discipline — *"arriving at an answer by luck versus by measurement are different facts"* — applies to me twice in two days.
+
+**What refuted it:** the OWED-41 maritime backfill, run in this same session, found **`ARMADA LEADER` — IMO 9260483, Russian-flagged OIL-PRODUCTS TANKER, a SANCTIONED SHADOW-FLEET UNIT laden with oil products, struck by Ukraine in the Black Sea off Sochi on 2026-09-12** (Defence Matters 9/12; Clearwater Dynamics alert 33299). **It was not in `STRIKES.tsv`.** It qualifies **unambiguously** under the letter I ruled this morning — merchant tanker hull ✓, Ukraine-side campaign ✓, Black Sea ✓ — and it is **nine days newer than SIREN**.
+
+| | Published §1e, 11:0x ET | ✅ Corrected, after the backfill |
+|---|---|---|
+| Anchor | `RU-20260903-SIREN` | **`RU-20260912-ARMADA-LEADER`** |
+| Elapsed | 16/21 | **7/21** |
+| Limb-1 kill date | **2026-09-24** (five days) | **2026-10-03** (fourteen days) |
+| SIREN-disqualified branch | 25/21 or 26/21 — ⛔ *already past* | ✅ **DISSOLVED** — ARMADA LEADER is newer and its shadow-fleet status is not in doubt |
+
+✅ **`KB-OSPREY-071` (SIREN's cargo) is no longer clock-critical.** It stays open on its own merits; it no longer decides a kill.
+
+**★ THIS IS §4's MONOTONE-SAFETY ARGUMENT EXECUTING, WITHIN HOURS OF BEING WRITTEN.** §4 predicted that a backfill *can only move a clock AWAY from a kill, never toward one.* It did exactly that: **16/21 → 7/21.** The prediction was made before the sweep returned and is recorded above it. **That is the one part of today I would defend without qualification** — and it is worth more than the clock, because it is the general result.
+
+**★★ AND THE HARDER FINDING, WHICH IS ABOUT THE 9/18 SESSION AND THEREFORE ABOUT ME: THAT SESSION HAD THE RIGHT DATE AND THE WRONG EVENT.** It spent itself adjudicating whether a **2026-09-12 USV-vs-USV engagement** counted under the Channel-3 letter. **There WAS a Channel-3 event on 2026-09-12 — a sanctioned shadow-fleet products tanker — and it was in neither the ledger nor the analysis.** The session was looking at the right day through the wrong object, and every check it ran came back consistent. `[[finding_instrument_measures_a_superset_of_the_thesis_subject]]`, inverted: here the instrument measured a *disjoint* set and still returned a well-formed answer.
+
+**⚠️ Three consecutive sessions published a wrong Channel-3 clock** — 9/15 *"11/21 from 9/4"*, 9/18 *"14/21 / 6/21"*, and this morning *"16/21 from 9/3"*. The letter changed once; **the ledger was wrong all three times.** ⛔ **The lesson is not "re-read the letter more carefully." It is that this clock's instrument — a ledger of NAMED vessel strikes — is the weak link, and §1j says how weak.**
+
+### 1j. ⛔ AND A CAVEAT THAT OUTLIVES TODAY'S NUMBER: THIS CLOCK MAY BE MEASURING REPORTING DENSITY, NOT STRIKE DENSITY
+
+Ukraine's Unmanned Systems Forces commander **Robert Brovdi claims Operation MoLoChKa struck 285 vessels in ten weeks — 215 in July, 54 in August, 16 between 1 and 11 September.** ⛔ **BELLIGERENT-SOURCED, UNVERIFIABLE AT VESSEL LEVEL, AND NOT ADOPTED AS A COUNT.**
+
+**But its direction does not depend on its accuracy, and that is why it belongs here.** This desk's in-window *named* Black Sea vessel list runs to roughly a dozen hulls. **If even a loose fraction of the claim is true, a 21-day clock anchored on NAMED vessel strikes is measuring how often a hull gets NAMED IN PUBLIC REPORTING, not how often one gets struck** — and the kill it gates would fire on a reporting lull.
+
+⚠️ **This is a limitation of the Channel-3 kill mechanism itself, not of today's reading, and it survives every scope ruling in this file.** It is the same shape as LESSONS 8 (*a name-shaped query can only return events you already suspect*) promoted from the SEARCH to the LEDGER: **the ledger is a name-indexed instrument gating a clock that counts events.** Registered as **OWED-47**, routed to Will with the Channel-2 question, and **not** self-ruled — a fix that admits unnamed-hull evidence would make Channel 3 HARDER to kill, so `DELEGATION_TIER` test 4 fails.
+
+**⭐ One thing the day DID validate, and it is the reason the attacker limb was worth the tier risk:** the sweep found **six** Russia-attacker vessel strikes in-window — TEDY (9/8, two dead), Chornomorsk (9/6-7 and 9/12-13), SAPPHIRE (9/13), the Tanzania-flagged hull (9/17), an Izmail/Chornomorsk tanker+ferry (9/15), and a Russian MoD claim of a **fuel tanker struck at Odesa on 9/18-19.** ⛔ **Under the bare letter, Channel 3 would read 0–1/21 today off Russian strikes on Ukrainian ports** — the channel would look maximally alive on evidence that has nothing whatever to do with its subject. **The limb is load-bearing, and it was the instrument, not the reasoning, that proved it.**
+
 ---
 
 ## 2. ⚑ CHANNEL 2 — STAYS WITH WILL. Two of my own claims withdrawn first.
@@ -196,6 +227,8 @@
 ⚠️ **THE CAVEAT THAT MUST TRAVEL WITH THAT REASSURANCE, because it is the half that can hurt:** the argument holds for **limb 1 only**. A kill needs **BOTH** limbs, and **limb 2 is the thin one** — seaborne crude 4-wk avg **3.54 M bpd to 9/13 against a 3.50 floor: 0.04 M bpd, 1.1% headroom**, on an instrument with **acknowledged missing 8/30 and 9/6 prints**. Ledger completeness protects limb 1 and does nothing at all for limb 2. `[[finding_instrument_error_correlated_with_the_trigger_biases_the_gate]]`.
 
 **And the same bound applies to today's Channel-3 ruling:** 16/21 is an **upper** bound, and **2026-09-24 is the EARLIEST possible limb-1 kill date, not a fixed one.** Any backfilled tanker strike between 9/4 and today pushes it out.
+
+> ✅ **OUTCOME, RECORDED THE SAME DAY AND AFTER THE PREDICTION: exactly that happened.** The maritime backfill found `ARMADA LEADER` (9/12) and the clock went **16/21 → 7/21**, the kill date **2026-09-24 → 2026-10-03**. **The bound held, in the predicted direction, on the first test.** §1i.
 
 ### ⛔ A LIMIT ON THE ABOVE, FOUND WHILE WRITING IT, AND IT CUTS THE OTHER WAY
 
