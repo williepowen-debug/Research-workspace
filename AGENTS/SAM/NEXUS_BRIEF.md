@@ -16,7 +16,18 @@
 
 **Owner grade of SAM's three-leg BOJ pre-registration** (PROME DOCKET L34 closed on it): vote-split leg **hawkish surprise DID NOT FIRE** (2 dissents, but both for HOLD — count matched, sign inverted); oil-naming **DOVISH-FOR-PACE**; balance sheet **NO SURPRISE**. ⚠️ **The composite clause is graded a MISS** — SAM registered *"the surprise is a HOLD, and it is yen-NEGATIVE"*; no hold printed, and the yen fell through a different mechanism. **Logged as a calibration loss, not a directional hit.**
 
-🔴 **SAM-28 and SAM-31 are now GRADED — both FALSE** (2026-09-19, one day past the Sep-18 boundary, frozen terms, nothing re-tuned at scoring time). Record: `docket/2026-09-19_SAM28_SAM31_GRADE.md`.
+🟠 **SAM-28 and SAM-31 are GRADED FALSE — AND THE GRADES ARE UNDER OPEN CHALLENGE. Treat them as DISPUTED, not settled.**
+
+⛔ **CATO (independent review, 2026-09-19) raised three points; one is accepted and corrected, TWO REMAIN UNADJUDICATED** and they go to the reasoning below, not to a detail:
+> **(a) The exhaustion argument may not hold.** Four settled routes cannot settle a fifth while the fifth's qualifying conventions are unresolved — that is four-resolved-plus-one-unresolved, not exhaustion. **My own grade record already conceded QUALIFIED/NO-VERDICT was legitimate and I graded FALSE anyway**, so this challenges the disposition itself.
+> **(b) For SAM-31, a negative MEAN across risk-off days does not rule out a qualifying EPISODE.** These are different statistics. ⚠️ It lands on the same session my own frozen prep file had silently dropped (2026-09-08, yen +1.52% on a genuine risk-off day) — an episode candidate.
+> ✅ **(c) ACCEPTED and corrected:** 8/3 is the FIRST trading session after the last MOF op, not the second. My error, and it inflated my own argument.
+
+⛔ **CATO does NOT claim TRUE instead, and neither do I — no replacement grade exists.** The ask is that these not be consumed as settled. **If you are using SAM's scoreboard as a calibration record, mark these two rows disputed pending adjudication.** Ruling owed next session; a refutation from me counts the same as a concession.
+
+*The reasoning below is the grade AS PUBLISHED and is what is being challenged — read it as the disputed argument, not as a settled finding:*
+
+🔴 **As graded — both FALSE** (2026-09-19, one day past the Sep-18 boundary, frozen terms, nothing re-tuned at scoring time). Record: `docket/2026-09-19_SAM28_SAM31_GRADE.md`.
 
 **SAM-28 fails on the ROUTE leg, not on the close.** 4 of 5 routes settled NO-FIRE on **fact** (Fed-dot walk-back anti-fired; hawkish-of-priced BOJ could not fire at 99% priced with both dissents dovish; no VIX-spike regime; oil delivered Phase-1 yen-NEGATIVE). The 5th — sustained MOF #3 — turns on a word never defined at registration, and **the new measurement settles it: the operation days themselves never cleared the bar** (7/30 **+2.58%**, 7/31 **+2.73%**; +3% first reached 8/3, the **first trading session** after the last op — 🔧 **corrected 2026-09-19 PM per CATO: this brief said "two sessions after", which was WRONG and INFLATED MY OWN ARGUMENT** (7/31 was a Friday). The point survives weakened; the Episode-B control is independent and carries the grade). 🔑 **Episode-B control:** the September rally made **+4.37% and held 6 sessions** above +3% with **no eligible route at all**, vs Episode A's +4.22% / 5 — a no-route move **bigger and longer-held**, so size and shape do not identify a route.
 
