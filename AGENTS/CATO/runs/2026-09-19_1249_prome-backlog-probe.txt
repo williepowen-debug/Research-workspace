@@ -1,0 +1,19 @@
+Snapshot: 45b99d158d3143d1ec7a7ba2a6cb0fad6edc83f5
+Canonical PENDING, PROME anywhere in owner cell: 95
+Canonical PENDING, PROME first owner: 43
+Due September 19, PROME involved: 19
+Due September 19, PROME first owner: 18
+Next seven days Sep20-26, PROME involved, range END used: 31
+Today line numbers: [350, 358, 359, 360, 361, 362, 364, 367, 368, 370, 378, 392, 393, 402, 403, 413, 414, 423, 424]
+L291: TERMINAL; date=2026-09-19; state-prefix='RESOLVED(2026-09-19) — SITTING HELD, WILL RULED IN TERMINAL, WQ-268. M1 ADOPTED as failing'
+L292: TERMINAL; date=2026-09-19; state-prefix="RESOLVED(2026-09-19) — WILL RULED 'WIRE IT NOW' (WQ-269), overriding PROME's recommendatio"
+L333: TERMINAL; date=2026-09-19; state-prefix="RESOLVED(2026-09-19) — WILL RULED 'KEEP IT, on per-run evidence' (WQ-270). ⭐ He took the o"
+L441: TERMINAL; date=2026-09-24; state-prefix='✅ **THE SHARPENING IS CONFIRMED FROM THE RECEIVING END, 2026-09-19 11:5x — HANS checked th'
+  COUNTEREXAMPLE: unfinished obligation with buried PENDING absent from list_open
+L444: TERMINAL; date=2026-09-23; state-prefix='⛔ **RE-SCOPED 2026-09-19, SAME DAY IT WAS REGISTERED — PROME REGISTERED A BUILD FOR SOMETH'
+  COUNTEREXAMPLE: unfinished obligation with buried PENDING absent from list_open
+September 12 to September 19: 7 days old
+Canonical >7-day stale condition: False
+Pinned SCRATCH bytes: 37838
+Read-cap: 32550
+No queue mutations or owner sends.

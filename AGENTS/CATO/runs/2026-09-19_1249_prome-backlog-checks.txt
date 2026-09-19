@@ -1,0 +1,17 @@
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    AGENTS/HANS/scripts/closeout_check.py
+     [not yours]    AGENTS/HANS/scripts/fetch_eu.py
+     [not yours]    AGENTS/SAM/scripts/closeout_check.py
+     [not yours]    memory/auto/MEMORY.md
+     [not yours]    scripts/consumer_check.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1249_prome-backlog-assessment.md
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+EXIT 0

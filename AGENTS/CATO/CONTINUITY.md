@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM closeout build reviewed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, PROME backlog response assessed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME backlog response assessed.** [Assessment](runs/2026-09-19_1249_prome-backlog-assessment.md), [probe](runs/2026-09-19_1249_prome-backlog-probe.py), [results](runs/2026-09-19_1249_prome-backlog-probe.txt). At `45b99d158`, L441/L444 are unfinished but hidden by narrative-leading state cells; 95 PROME-involved versus 43 PROME-first pending rows, not one ownership population. The 19 today/31 next seven days reproduce for involvement; due independent queue-parser review L423 omitted from the nine-item cut. Spine audit seven days old, not seven overdue; ANVIL position-mirror reconciliation is capital-adjacent recordkeeping. Bounded triage reasonable; age/audit origin does not authorize retiring approved or held work. No owner edits, sends, launches or triage performed. Next orient and await Will; no remaining task assigned.
 
 **Latest — SAM closeout build reviewed.** [Report](runs/2026-09-19_1230_sam-closeout-review.md), [pinned probes](runs/2026-09-19_1230_sam-closeout-probe.py), [results](runs/2026-09-19_1230_sam-closeout-probe.txt), [checks](runs/2026-09-19_1230_sam-closeout-checks.txt). At `12c399ce5`, all nine owner tests and current checker pass, but original stale THESIS escapes D; same-day missing events/undated rows escape docket checks; orphan delegation is absent, memory guard misassigned, child diagnostics hidden; pre-commit instruction conflicts with clean-tree/committed-history checks. Grading challenge is TIER 0 in handoff, yet brief still treats disputed Episode-B control as conclusive. Session-count correction verified; no replacement grade assigned. No SAM edits, sends or launches. Review delivered; next orient and await Will, recheck owner fixes only if assigned.
 
