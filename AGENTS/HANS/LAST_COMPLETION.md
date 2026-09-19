@@ -1,26 +1,53 @@
-## COMPLETION — HANS — 2026-09-19, SESSION 4 (owed-board catch-up). Saturday, market closed — structural work by design.
+## COMPLETION — HANS — 2026-09-19, SESSION 4 (owed-board catch-up, then the AGSI arc). Saturday, market closed — structural work by design.
 
-**STATUS:** ✅ DONE — committed. Boot rc1 · `doc_audit` **0 findings** · **67/67 tests** · `closeout_check` **8/8 mechanical RAN, 0 failed** · R1 rc=0 · read-cap rc=0.
+**STATUS:** ✅ DONE — committed and pushed, HEAD `503c65677`. Boot **EXIT 0 CLEAN** (was rc1) · `doc_audit` **0 findings** · **74/74 tests** (was 67) · `closeout_check` **8/8 mechanical RAN, 0 failed** · R1 rc=0 · read-cap rc=0.
 
-**CHANGED:** `STATUS.md` (rotated **91% → 74%** of budget, two passes) · `workbook/STATUS_ROTATED_2026-09-19.md` (**NEW**) · `workbook/2026-09-19_ESRB_REPORT202602_PRIMARY_READ.md` (**NEW**) · `registry/THRESHOLDS.tsv` (T-08 exit registered, T-14 re-stated) · `workbook/{VX,KB,ML,PUBLISHED,PREDICTIONS}.tsv` · packets to **LIQUID, REGINALD, HAWK, BRENT, PROME**.
+**⚖️ WILL NEEDS: NOTHING.** The one ask of this session — the free GIE AGSI+ key — **Will provisioned at 11:33 and it is verified working by live pull.** No open ask.
 
-**RESULT:**
-- 🔴 **ESRB `esrb.report202602` READ AT PRIMARY (owed #4) — embargo discharged, and it was right to have held.** ECB/ESRB joint, Feb-2026, 82pp full text. **Identified bank exposure to private equity / private credit is €4bn**, which the report calls **"far below the figures implied by supervisory intelligence"** — and it **dropped the class from the analysis** rather than publish it. Leverage for PE/PC "cannot be computed from existing data"; the non-EU gap is "likely to remain" after reform.
-- 🔴 **THE CONSEQUENCE FOR MY BOARD: `T-14` is not fired and this does not fire it — but its silence means less than I was treating it as meaning.** Leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged and deliberately NOT re-tuned.** → `ML-HANS-464`
-- 🔑 **And it cuts against my own alarm:** euro-area banks are **net DEBTORS** to NBFI (~15% of balance sheets); **US banks are net lenders.** Europe's channel is **losing NBFI funding in a stress, not credit losses on private credit.** **`HNS-09` keeps 70% and swaps its basis** to that — the HNS-05 lesson applied *before* resolution, not after.
-- 🔴 **TWO FAIL-CLOSED RULES, both written before they bind.** `T-08` exit (owed #9): inside −12pp for 5 gas days, 3pp hysteresis, **a blind day never counts toward an exit**, **no exit on the cross-source basis**. `HNS-07` re-mark rule (owed #12): registered **43 days before the resolver**, 3 checkpoints, 4 triggers, **anti-chase clause**.
-- 🔴 **A BANKING VECTOR HAD MEASURED A BROAD INDEX FOR THREE WEEKS.** `VX-HANS-5.01` held Euro Stoxx 50 (~6,486) against bands built for SX7E (~268) — **arithmetically consistent, referentially wrong, and no band check can catch that.** Restored to **SX7E 313.44**, cross-checked. → `ML-HANS-465`
-- **All 5 stale live vectors cleared** (boot §[6] 5 → 0): `8.05` German IP **−1.6% YoY** at the correct basis (GREEN→YELLOW); `4.09` UK food — **the named artifact was fetched and partly refutes the claim that created the row** (AHDB: wheat −12%, spring barley −19%, but winter barley in line and OSR **+19%**) → `ML-HANS-466`; `11.04` **frozen out-of-scope** → HAWK/BRENT; `4.07` reviewed, cadence mismatch not rot.
+---
 
-**⚖️ WILL NEEDS — ONE THING, AND IT IS SMALL:**
-**A free GIE AGSI+ API key** (`agsi.gie.eu/account`, ~2 min) into `FORGE/tools/market-data/.env` as `AGSI_API_KEY`. It now gates **two** instruments, not just boot §[2]: **`T-08` cannot exit** without a single-source gap, and **`HNS-07`'s re-mark rule cannot be evaluated** without the season's pace history. Both fail *safe* — nothing reads "all clear" — but both are blind. Escalated via PROME.
+### THE SESSION IN ONE LINE
+Read the ESRB report I had been deferring and found my bank-stress alarm was clean over ground its own author calls blind; then the API key Will added exposed a frozen benchmark that had an **open fire sitting on the wrong side of its own threshold.**
 
-**GAPS (carried, not closed):**
-- **#5 two basis gaps, one DECIDES a threshold** — OAT ~10bp, and both `T-10` trip lines sit inside it. **#5b no free daily-close gilt source** (lead: DMO `D4H`, needs a form POST).
-- **#13 re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism.
-- **#15 `doc_audit` C2 still does not scan `STATUS.md`**; C9 owed. **#14** split `VX-HANS-11.03`. **#16** Germany UST not in TIC Table 5.
-- 🟠 **Belgium Yellow(550) UNREACHABLE** (high 482.5) ⇒ permanently yellow. A researched band is owed; I will not invent one.
-- 🟡 **STATUS stopped at 74%** — below the 75% rotate trigger, above rule 5's <70% stop. **A judgement, flagged not hidden:** what remains is live state, and the structural fix is a hot/cold split of STATUS, which I did not do unilaterally.
-- 🟢 **Self consumer-check 🔴 on `ML.tsv:469` NOT cleared, deliberately** — it is the ML entry *describing* the corrected defect. Closeout 9c: a dated log keeps its quoted error; clearing it resolves the flag backwards.
+### ① ESRB `esrb.report202602` READ AT PRIMARY (owed #4) — embargo discharged
+82pp joint ECB/ESRB, full text, not the press release. **Identified bank exposure to private equity / private credit: €4bn** — the report calls it *"far below the figures implied by supervisory intelligence"* and **drops the class from the analysis**; leverage for these entities *"cannot be computed from existing data"*, and the non-EU gap is *"likely to remain"* after reform.
+🔴 **`T-14` is NOT fired and this does not fire it** — but leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged, deliberately not re-tuned** → `ML-HANS-464`.
+🔑 **Cuts against my own alarm:** euro-area banks are **net DEBTORS** to NBFI (~15% of balance sheets); US banks are net lenders. Europe's channel is **losing NBFI funding in a stress, not credit losses on private credit.** `HNS-09` keeps **70%**, **basis swapped** to the structural point. ⚠️ Two perimeters never merged (FSR €62.5bn drawn ≠ ESRB €4bn identified). ⛔ Not claiming it is larger — it is *unquantifiable*.
 
-**NEXT SESSION FIRST:** **`HNS-06` resolves on the German/EA flash PMI, 2026-09-23 07:30 UTC — GRADE THE FLASH**, not the final. Then the **`TTF=F` roll 9/29** — `T-07` is a LEVEL ladder with L1+L2 fired; **never grade a rung crossing across a roll.**
+### ② AGSI KEY → A FROZEN DENOMINATOR WITH AN OPEN FIRE ON THE WRONG SIDE OF IT
+| | gap | norm |
+|---|---|---|
+| carried in STATUS | −19.7pp | 88.0 (GEF) |
+| my script printed | **−12.9pp** | **82.0 HARDCODED, frozen 2026-08-28** |
+| **AGSI-native truth** | **−15.99pp** | **85.05** (mean of gas day 09-17, 2021–25; median −16.61) |
+
+Band is **−15**. 🔴 **The frozen constant fails toward ALL-CLEAR and does it invisibly:** the true norm *rises* through the injection season, so the gap reads better as time passes while nothing improves — and the numerator keeps updating, so no single run looks wrong → `ML-HANS-467`. Fixed: `agsi_norm()` computes from AGSI history, **fail-closed — no norm ⇒ NO GAP PRINTED**, never a constant fallback.
+⛔ **−19.7 → −15.99 is a BASIS CORRECTION, NOT A RECOVERY** (~80% denominator). **FIRE STAYS OPEN by 1.0pp.** Corrections sent to BRENT and HENRY unprompted.
+✅ **The morning's fail-closed exit clause earned itself on its first live pull** — the cross-source −12.9 would have looked 2.1pp from an exit.
+
+### ③ DEAD-KEY DISCRIMINATOR (PROME's finding, verified then wired)
+A **rejected AGSI key returns HTTP 200 + an empty array** — identical to an unpublished gas day, so silent expiry prints *come back tomorrow* forever. Now that the norm is AGSI-native, a dead key blinds **both legs**. Wired: KEY REJECTED / genuine-no-data / **UNDETERMINED-and-BLIND**, quirk-dependent with **re-check 2026-12-19 in the code**, failing in the safe direction → `KB-HANS-095`.
+🔴 **I nearly refuted a correct finding with a probe that never left my machine** — `curl -H "x-key: "` drops the header; I silently re-tested the ABSENT case and got a *reproducible* wrong answer. **Reproducibility did not rescue it; varying the client did.** Tell I missed: two arms that should differ returned identical results → `ML-HANS-468`.
+An injection test then found **two key-resolution paths I had created an hour earlier** → `ML-HANS-469`. Swept the class desk-wide: **clean on the dangerous form**, one LOW item graded and left → `ML-HANS-470`.
+
+### ④ THE REST OF THE OWED BOARD
+`T-08` **exit condition registered** (owed #9) — inside −12pp × 5 gas days, hysteresis −15/−12, blind day never counts, no exit cross-source. `HNS-07` **pre-committed re-mark rule** (owed #12) — 43 days before the resolver, 3 checkpoints, 4 triggers, **anti-chase clause**. `VX-HANS-5.01` **had measured a broad index for 3 weeks** against SX7E bands — could not fire; C10/C11 both passed correctly because the arithmetic was consistent and the halves named different objects → `ML-HANS-465`. **All 5 stale vectors cleared:** `8.05` German IP **−1.6% YoY** (GREEN→YELLOW), `4.09` UK food — **AHDB partly refutes the claim that created the row** (wheat −12%, spring barley −19%, but winter barley in line, OSR **+19%**) → `ML-HANS-466`, `11.04` frozen out-of-scope → HAWK/BRENT, `4.07` cadence mismatch not rot.
+
+---
+
+### OPEN, DATED, ON THE BOARD
+| # | Item | Due |
+|---|---|---|
+| 21 | **AGSI lag D+1 vs D+2** (`KB-HANS-096`) — PROME raised it, explicitly NOT a defect. Touches `HNS-07`'s **grading date** (11/02 vs 11/03), not its resolver | **Tue 2026-09-22** |
+| 3 | **`HNS-06` resolves — German/EA flash PMI. GRADE THE FLASH**, not the final | **2026-09-23** |
+| — | **`TTF=F` roll** — `T-07` is a LEVEL ladder with L1+L2 fired; **never grade a rung crossing across a roll** | **2026-09-29** |
+| 20 | **STATUS hot/cold split — PROME-ruled as its OWN task, not a session tail** | 🔴 |
+| 22 | **Empty-key discriminator is vendor-quirk-dependent** — re-verify the negative control | **2026-12-19** |
+| 5 · 5b | **Two basis gaps, one DECIDES `T-10`** (OAT ~10bp); **no free daily-close gilt source** | 🔴 |
+| 13 · 14 · 15 · 16 | Re-argue exclusion leg (2) · split `VX-HANS-11.03` · `doc_audit` C2 does not scan STATUS · Germany UST not in TIC Table 5 | 🟠 |
+
+⚠️ **STATUS sits at ~79% of budget after three rotation passes (from 91%).** Rule 5's stop is <70%. **PROME ruled: do not squeeze further, do the split as its own task** — a fourth pass would shave live state to make a number. **It rose because the day produced findings; that is information, not drift.**
+🟢 **Self consumer-check 🔴s NOT cleared, deliberately** — they sit on dated 9/18 records correctly quoting what was believed then (closeout 9c).
+⚠️ **STANDING PRIOR, now EIGHT sessions: every defect on this desk is found from OUTSIDE or by a script, never by re-reading.** Session 4 holds three times — a deferred primary, a staleness scan, and a new API key.
+
+**NEXT SESSION FIRST:** the **Tuesday lag check** (it is 3 days from `HNS-06`), then **grade `HNS-06` on the FLASH**.
