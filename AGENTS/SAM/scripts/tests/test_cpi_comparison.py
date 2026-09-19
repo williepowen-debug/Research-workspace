@@ -48,18 +48,38 @@ BASE2025 = {
 AUGUST = dict(BASE2025, **{"2026-08": (2.0, 1.9)})
 
 
-def test_float_boundary_does_not_decide_the_branch():
-    """2.0 - 1.9 == 0.10000000000000009 in float. The old code's `> 0.1` fired on
-    it — a gap the threshold was written to EXCLUDE. Integer tenths must make the
-    +0.1 and -0.1 cases classify deterministically and symmetrically."""
-    assert (2.0 - 1.9) > 0.1, "premise: float subtraction overshoots the boundary"
-    assert round(2.0 * 10) - round(1.9 * 10) == 1, "tenths arithmetic is exact"
-    assert round(1.9 * 10) - round(2.0 * 10) == -1
+def test_classification_is_invariant_to_absolute_level_at_a_fixed_gap():
+    """THE headline defect, stated as the property that actually falsifies it.
 
-    up = _run({"2026-08": (2.0, 1.9)})
-    assert "+0.1pp ABOVE National" in up
-    down = _run({"2026-08": (1.9, 2.0)})
-    assert "-0.1pp vs National" in down and "ABOVE" not in down
+    ⚠️ An earlier version of this test asserted only that (2.0, 1.9) prints
+    "+0.1pp ABOVE National". That PASSED AGAINST THE PRE-FIX CODE, because the old
+    float branch happened to fire on that one input too — so the test named after
+    the defect could not detect the defect. Verified by running it against the
+    backed-up original. It tested the output string, not the arithmetic.
+
+    The discriminating property: with one-decimal inputs, the classification must
+    depend ONLY on the gap, never on the absolute level. Float subtraction breaks
+    that, because the representation error moves with magnitude:
+        2.0 - 2.2 == -0.20000000000000018  -> old `< -0.2` TRUE
+        1.7 - 1.9 == -0.19999999999999996  -> old `< -0.2` FALSE
+    Same true gap, opposite branches. The old code printed "-0.2pp BELOW National
+    - expected pattern" for one and "-0.2pp ... narrower than the typical 30-40bp"
+    for the other. Likewise at +0.1: (2.0, 1.9) fired the INVERTED branch while
+    (0.3, 0.2) did not."""
+    # premises, so the test documents why it exists even if the code changes
+    assert (2.0 - 2.2) < -0.2 and not ((1.7 - 1.9) < -0.2), "float error moves with magnitude"
+    assert (2.0 - 1.9) > 0.1 and not ((0.3 - 0.2) > 0.1)
+    assert round(2.0 * 10) - round(2.2 * 10) == round(1.7 * 10) - round(1.9 * 10) == -2
+
+    def verdict(t, n):
+        head = _run({"2026-08": (t, n)}).splitlines()[0]
+        return head.split("): ", 1)[-1]
+
+    for gap_pairs in ([(2.0, 2.2), (1.7, 1.9), (0.5, 0.7), (1.3, 1.5)],   # all -0.2pp
+                      [(2.0, 1.9), (0.3, 0.2), (1.1, 1.0), (1.5, 1.4)]):  # all +0.1pp
+        verdicts = {verdict(t, n) for t, n in gap_pairs}
+        assert len(verdicts) == 1, (
+            "same true gap classified %d different ways: %r" % (len(verdicts), verdicts))
 
 
 def test_retired_interpretation_is_never_ASSERTED():
@@ -135,6 +155,52 @@ def test_quantization_caveat_is_scoped_to_the_one_tenth_case():
     assert "+0.6pp ABOVE National" in out
     assert "one-decimal publication floor" not in out
     assert "RETIRED 2026-08-23" in out
+
+
+def test_divergence_note_is_invariant_to_absolute_level():
+    """Same defect CLASS as the PAIRED branch, in the function that runs on BOTH
+    series on EVERY boot. Found by auditing the first fix, not by a wrong print.
+
+    Old code compared float-subtracted one-decimal values:
+        1.9 - 1.7 == 0.19999999999999996  -> `<= 0.2` TRUE  -> "less BOJ cover"
+        2.2 - 2.0 == 0.20000000000000018  -> `<= 0.2` FALSE -> label WITHHELD
+    Identical +0.2pp gap; the BOJ read-through appeared or vanished on the
+    absolute level alone. Exhaustive over 0.0-6.0 at one decimal: 32 of 59
+    possible +0.2pp gaps failed the test, plus 4 true +0.5pp gaps failing `>= 0.5`."""
+    for gap_tenths, pairs in (
+        (2, [(1.9, 1.7), (2.2, 2.0), (2.1, 1.9), (0.8, 0.6), (1.6, 1.4)]),
+        (5, [(1.9, 1.4), (2.3, 1.8), (0.7, 0.2), (1.4, 0.9), (4.1, 3.6)]),
+    ):
+        notes = {cpi.divergence_note(c, cc) for cc, c in pairs}
+        assert len(notes) == 1, (
+            "+%.1fpp gap classified %d ways: %r" % (gap_tenths / 10, len(notes), notes))
+
+
+def test_divergence_note_exhaustive_bucket_agreement():
+    """No one-decimal pair anywhere in the plausible range may disagree with the
+    exact tenths bucket it belongs to."""
+    vals = [round(i * 0.1, 1) for i in range(0, 61)]
+    for cc in vals:
+        for c in vals:
+            t = round(cc * 10) - round(c * 10)
+            note = cpi.divergence_note(c, cc)
+            if t >= 5:
+                assert "energy/subsidy-driven" in note, (cc, c, t, note)
+            elif t <= 2:
+                assert "broad-based softening" in note, (cc, c, t, note)
+            else:
+                assert "\u2192" not in note and "-&gt;" not in note, (cc, c, t, note)
+
+
+def test_divergence_note_negative_gap_is_not_printed_as_plus_minus():
+    """core-core can fall BELOW core when ENERGY is RISING (core includes energy,
+    core-core does not) — the live oil-shock case. The old format string hardcoded
+    a '+' and would render that as 'gap +-0.3pp'. No such row exists in CPI.tsv
+    yet, so this is a latent defect that would first appear exactly when the desk
+    cares most."""
+    note = cpi.divergence_note(2.0, 1.7)          # core 2.0, core-core 1.7 => -0.3pp
+    assert "+-" not in note, note
+    assert "-0.3pp" in note
 
 
 def test_no_paired_month_is_reported_not_guessed():

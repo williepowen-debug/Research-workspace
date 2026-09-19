@@ -33,10 +33,18 @@ Cross-series divergence:
   core_core − core ≥ 0.5pp  → energy/subsidy-driven softness; BOJ can look through
   core_core − core ≤ 0.2pp  → broad-based softening; less BOJ cover to hike
 
-Tokyo runs ~30-40bp below National across the board; bands above are calibrated
+Tokyo runs BELOW National as a weak central tendency; bands above are calibrated
 to National. For Tokyo prints the script applies the same buckets and adds a
 comparison-to-National footer so it doesn't false-positive a Tokyo soft print
 as hawkish in absolute terms.
+
+⚠️ The size of that tendency is NOT stated here on purpose. This paragraph read
+"~30-40bp" until 2026-09-19 — a 2020-base figure that survived the rebasing and
+was still being asserted as fact after the code below had been corrected off it
+(the 2025-base mean is ~0.13pp). A magnitude written into a docstring cannot know
+that Japan rebased its CPI. The live figure is MEASURED FROM THE LEDGER at run
+time by print_comparison_note and printed with its own n and base — read it
+there, and do not copy it back up here.
 
 Usage:
   .venv/bin/python3 AGENTS/SAM/scripts/cpi_japan.py
@@ -378,14 +386,29 @@ def classify_core_core(v):
 
 
 def divergence_note(core, core_core):
+    """core-core minus core, bucketed for BOJ read-through.
+
+    ⚠️ INTEGER TENTHS, for the same reason as the PAIRED branch below, and found
+    by auditing that fix rather than by observing a wrong print (2026-09-19).
+    These are one-decimal published figures, and float subtraction does not land
+    on the thresholds:
+        1.9 - 1.7 == 0.19999999999999996  -> `<= 0.2` TRUE   (label emitted)
+        2.2 - 2.0 == 0.20000000000000018  -> `<= 0.2` FALSE  (label withheld)
+    Identical +0.2pp gap, and whether the "less BOJ cover" read appears depended
+    purely on the ABSOLUTE LEVEL. Measured exhaustively over 0.0-6.0 at one
+    decimal: 32 of 59 possible +0.2pp gaps failed the `<= 0.2` test, and 4 true
+    +0.5pp gaps failed `>= 0.5`. This function runs on BOTH series on EVERY boot,
+    so the silent case was the common one. Comparing tenths removes the class.
+    """
     if core is None or core_core is None:
         return ""
-    gap = core_core - core
-    if gap >= 0.5:
-        return f"gap +{gap:.1f}pp → energy/subsidy-driven (BOJ can look through)"
-    if gap <= 0.2:
-        return f"gap +{gap:.1f}pp → broad-based softening (less BOJ cover)"
-    return f"gap +{gap:.1f}pp"
+    tenths = round(core_core * 10) - round(core * 10)
+    gap = tenths / 10
+    if tenths >= 5:
+        return f"gap {gap:+.1f}pp → energy/subsidy-driven (BOJ can look through)"
+    if tenths <= 2:
+        return f"gap {gap:+.1f}pp → broad-based softening (less BOJ cover)"
+    return f"gap {gap:+.1f}pp"
 
 
 def print_summary_for(series_name, by_month):
