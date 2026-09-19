@@ -313,3 +313,12 @@
 
 ---
 
+
+
+---
+
+## §ⓢ — STATUS header line for 2026-09-18, rotated VERBATIM 2026-09-19 (rotation #5)
+
+Cut from `STATUS.md` when the 9/19 MOFCOM-primary result took the header. **Superseded in three places by KB-ZHAO-173/174/175** (it is not a rare-earth package · the chip limb is not military-gated · the package was never in force). ⛔ Do not cite this line's scope description as current; it is preserved because it is what the desk believed for one day.
+
+*(9/18 — the 11/10 escalation-by-default is BILATERAL and this desk had logged only the US half* — China's **MOFCOM/GAC Announcement No. 70 of 2025** expires the same day as the US tariff suspension, reactivating an **extraterritorial 0.1% de minimis** on Chinese-origin rare-earth content (KB-166).* **PBOC's 8th straight stronger fix, CNH at a 4-year high — and Vectors 6/9 are ONE-DIRECTIONAL, so their 🟢 is correct and uninformative** (KB-168). **ZHA-16 grading hazard disclosed six days early, bar deliberately NOT touched** (KB-167). SHCH CCP expansion logged as capability, not flow (KB-169); a stale-by-a-year soybean headline caught as a negative (KB-170). **Both fail-open `VX` rows repaired** (`6.10`, `7.02`) — they can now age visibly. **Read-cap rotation #4** → `archive/STATUS_COLD_20260918b.md`.
