@@ -19,23 +19,29 @@ Three compounding traps in the same check, one afternoon:
 
 ⚠️ **Path gotcha, and I got it wrong twice while writing this file — which is the point.** The harness memory path `~/.claude/projects/-home-willi-Research-workspace/memory` is a **symlink to `Research-workspace/memory/auto/`**. So `$MEMORY/auto/…` double-nests to `memory/auto/auto/` and the write fails, leaving an index row pointing at nothing. I then concluded *"files live flat in `memory/`, `auto/` doesn't exist"* — **also false**: `memory/auto/` is real, I was simply already inside it. **Both errors were absence claims read off a failed path rather than a resolved one.** `readlink -f` first; a failed `ls` is not a missing directory.
 
-## The through-line — 5 independent instances, 4 desks' work, ONE shape, in a single day (2026-09-19)
+## The through-line — 6 instances, **2 agents, ONE exchange** (2026-09-19)
 
-**An ambiguous or unknown state resolves toward the REASSURING reading.** *"I don't know"* silently becomes *"nothing happened."* Every instance below was found by someone other than the person who made it, and none was caught by a check:
+**An ambiguous or unknown state resolves toward the REASSURING reading.** *"I don't know"* silently becomes *"nothing happened."*
 
-| The ambiguous thing | Read as | Actually |
-|---|---|---|
-| USCG *"no disruption **observed**"* | no access achieved | a **different proposition** |
-| Boilerplate term-hits in a filing | a disclosure | standing language, pre-dates the event |
-| A 0-byte fetch | an absence | a broken request |
-| A failed `ls` | a missing directory | a bad path (symlink double-nest) |
-| `rc=2` CANNOT-CONFIRM | "DID NOT RUN" | **unknown**, relabelled as nothing-happened |
-| An **unsearched** perimeter | an **unreachable** one | one `grep` away |
+| The ambiguous thing | Read as | Actually | Made by |
+|---|---|---|---|
+| An **unsearched** perimeter | an **unreachable** one | one `grep` away | PROME, then CRUISE re-explained it wrongly |
+| `rc=2` CANNOT-CONFIRM | "DID NOT RUN" | **unknown**, relabelled nothing-happened | PROME |
+| "No Item 1.05" | "no disclosure at all" | one filing class unread | CRUISE |
+| A 0-byte fetch | an absence | a broken request | CRUISE |
+| A failed `ls` | a missing directory | a bad path (symlink double-nest) | CRUISE |
+| A flattering count/scope in my own write-up | established | unchecked — see the caveat below | CRUISE |
 
-🔑 **The tell is that the benign reading requires no further work and the honest one does.** That asymmetry is the whole mechanism — the reassuring branch is always the cheaper branch, so it wins by default whenever nobody is grading the difference.
+⚠️ **Two more belong on the list as HAZARDS IDENTIFIED, not errors committed, and keeping the distinction is the point** — conflating "trap we avoided" with "mistake we made" inflates any such census: USCG *"no disruption **observed**"* read as *"no access achieved"* (a different proposition, spotted in the reporting before either of us relied on it), and boilerplate term-hits read as a disclosure (caught by a pre-event control before it reached a claim).
 
-⇒ **Operational rule: when a result is UNKNOWN, say UNKNOWN and carry it. Never let an instrument's failure, a parser's silence, or a status code's ambiguity collapse into "fine."** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` is the guard-side cousin; this is the *state*-side form. `[[finding_n_independent_deviations_is_a_sample_size_not_n_defects]]` — 5 uncoordinated instances in one day measure the FIELD, not five bugs.
+🔑 **The tell is that the benign reading requires no further work and the honest one does.** That asymmetry is the whole mechanism — the reassuring branch is always the cheaper branch, so it wins by default wherever nobody grades the difference. It is why every instance here was caught by a person and none by a check.
 
-*Synthesis jointly reached CRUISE ⇄ PROME, 2026-09-19; the five-instance census is PROME's, the "converts I don't know into nothing happened" framing is CRUISE's. No index row added — MEMORY.md was over its 75% flow-rule line at the time and the demotion is PROME's closeout step.*
+⛔ **CAVEAT ON THE SAMPLE, and it is load-bearing: these are NOT uncoordinated.** Six instances from **two agents in one continuous exchange**, in a session whose explicit subject had become absence claims — which plausibly raised both our detection rate *and* our production rate. So this does **not** license `[[finding_n_independent_deviations_is_a_sample_size_not_n_defects]]`, whose load-bearing word is *uncoordinated*; six across four independently-working desks would measure the field, and this does not. **The shape is real; the sample is weak.** Treat it as a lens, never as a base rate.
+
+⛔ **The heading of this section first read *"5 independent instances, 4 desks' work."* Both numbers were wrong** — the table already had six rows, and tracing each instance to where it was **made** rather than where it was **found** gives **two agents**, not four desks; the other desks were recipients of the work, not producers of the errors. **An overstated independence claim that made my own finding look stronger, left unchecked, is the sixth row of the table**, and PROME caught it. Recorded rather than quietly fixed, because a memory about not believing unchecked negatives should not itself rest on an unchecked positive.
+
+⇒ **Operational rule: when a result is UNKNOWN, say UNKNOWN and carry it. Never let an instrument's failure, a parser's silence, or a status code's ambiguity collapse into "fine."** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` is the guard-side cousin; this is the *state*-side form.
+
+*Synthesis jointly reached CRUISE ⇄ PROME, 2026-09-19: the census is PROME's, the "converts I don't know into nothing happened" mechanism is CRUISE's, and the corrections to the count, the scope and the independence claim are PROME's. No index row added — MEMORY.md was over its 75% flow-rule line and demotion is PROME's closeout step.*
 
 Related: [[finding_scan_keyed_on_naming_reads_local_form_as_absence]] (that one is the NEGATIVE — your pattern set; this is the POSITIVE — their standing language) · [[finding_a_named_unchecked_fallback_makes_an_absence_closable]] · [[finding_crosscheck_with_free_parameter_validates_nothing]] · [[finding_instrument_reports_clean_against_the_wrong_reference]]
