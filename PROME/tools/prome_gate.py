@@ -452,6 +452,23 @@ def check_docket_buried_state_token():
 
     BLOCKING rather than advisory on purpose: an advisory here would be overridden exactly as
     the .claude parity gate was ([[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]).
+
+    ⛔ KNOWN GAP, NAMED BY AN INDEPENDENT AUDITOR AND NOT CLOSED HERE (DOCKET row registered).
+    This predicate is a SUBSTRING test: it fires only while the cell still contains the literal
+    word "PENDING". A live row annotated WITHOUT repeating that word — ARGUS's own plant,
+    `⛔ DATE CONTESTED 2026-09-19 — obligation stands, owner grades Monday` — is invisible to
+    THIS GUARD and terminal to the reader. All seven rows it caught on 2026-09-19 were caught
+    only because PROME's annotation style happened to preserve the prior cell verbatim, which
+    carried the word along. ⇒ "falsified before being trusted" was true of the AUTHOR'S plant
+    and FALSE of an independent one ([[finding_test_the_guard_not_just_the_guarded]]).
+
+    ⚠️ PROME attempted two replacements the same session and BOTH reproduced the dependency in
+    a different form (v2 searched for any state word — ARGUS's plant contains none; v3 keyed on
+    future-dated TERMINAL rows and flagged legitimately-terminal ones). Reverted to this version
+    deliberately: it catches the class PROME actually produced and blocks on it, which beats no
+    guard, and iterating a fourth time at the tail of a closeout is the correction cascade the
+    two-correction stop exists to prevent. The acceptance condition for the real fix is ARGUS's
+    plant, written down rather than remembered.
     """
     import re as _re
     tok = _re.compile(r"^\s*(PENDING|RESOLVED|TOMBSTONE|SUPERSEDED|CANCELLED|EXPIRED|COVERED|"

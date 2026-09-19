@@ -96,3 +96,17 @@ Also caught and fixed pre-edit: citing "two uncoordinated desks agree" as corrob
 **From the PLAN read (19), the ones that survive into the base:** the `Brent` parser anchor is real but under-specified (two anchors, one positional — verified working this session, 42 tokens parsed, 9 tiles mapped); the 13-for-13 equity re-pull is a TRANSCRIPTION check at the same vendor and is labelled as such in the file; VVIX 87.38 is one leg of a declared two-vendor spread and its reproducing settles only that leg; the `BZZ26`-distinguishes-months observation and the $1.8890 dividend row both rest on in-session vendor pulls that no file holds; "BRENT is dark" was asserted from commit recency, not a `ListAgents` receipt.
 
 **Size:** ⛔ **this base lands above its own rotate line and did not shrink to pass.** Read the figure from `PROME/tools/measure.py`. The long-forms are already in cold and six kill entries are at §KOS.3, so the remaining weight is not prose that can be tightened: **the stress-dashboard level line and the kill-on-sight cell are each multiples of a channel's budget, both are monotonically GROWING LISTS, and neither has a budget or a rotation rule of its own** — the same structural shape as SCRATCH's generated DOCKET-VIEW block (L380 class). **PROME did not shrink either list, because every entry in both is load-bearing and a dropped kill entry is worse than an over-budget file.** That is a stated choice, not an oversight, and it is the third consecutive session PROME has recorded declining a size fix rather than taking one quietly.
+
+---
+
+## ⛔ ADDENDUM 2026-09-19 13:3x — THE RULE-7 RE-CHECK THIS BASE ORDERED, AND ITS RESULT (ARGUS ❌2)
+
+This base's own header says **"re-check at ANY append or on 2026-09-26, whichever is first."** Amendment #1 was appended at this closeout, so the clock **fired**, and ARGUS found no re-check recorded anywhere in scope. Run now, `read_cap_check --agent PROME`, rc read bare:
+
+| point | bytes | % of the 32,550 B budget |
+|---|---|---|
+| before the re-base (`git show 19efc0cbf:HEARTBEAT.md`) | 32,182 | 98.9% |
+| after the re-base | 30,583 | 94.0% |
+| **after amendment #1 (now)** | **32,253** | **99.1% — 🟡 ROTATE-TIER** |
+
+⛔ **`over_budget=1, over_cap=0` — it is over the flow-rule budget and NOT over the harness read cap, so nothing truncates.** ⚠️ **The re-base bought 4.9 points and amendment #1 gave back 5.1.** That is not a defect of the amendment — the amendment carries a live position dispute Will needs — but it does mean **a re-base that lands at 94% is one ordinary append from where it started**, which is the L380 shape and is the honest read of this base's durability. **Recorded, NOT rotated:** a second re-base on the same day as the first, at the tail of a long closeout, is exactly L369's lesson. The next append re-fires the clock.
