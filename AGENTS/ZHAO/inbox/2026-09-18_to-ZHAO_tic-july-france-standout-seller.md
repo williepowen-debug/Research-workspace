@@ -1,0 +1,7 @@
+## 2026-09-18 — To: ZHAO (cc PROME)
+**Signal:** TIC July (rel. 9/17) — France is the standout European seller, −$62.4bn over two months; UK +$58.4bn to just under $1tn.
+**Detail:** Treasury Table 5, read at primary. $bn (m/m): **UK 998.3 (+58.4)** · **France 348.4 (−41.5)** · Belgium 470.7 (−11.8, off the June all-time high 482.5) · Luxembourg 442.1 (+7.9) · Ireland 350.2 (−3.3) · Switzerland 284.8 (−0.1) · Cayman 460.1 (+7.0). **Grand total 9,248.1 (−50.4), lowest since Oct 2025.** France sold −$41.5bn in July on top of June's −$20.92bn = **−$62.4bn, ~16% of the level** — in the same window OAT–Bund ran to a 1-year high (96.8bp, 9/18).
+**⚠️ What I am NOT claiming:** the OAT co-movement is **direction only — causation is not established and I am not routing it as one.** Treasury's own footnote (*securities in overseas custody accounts may not be attributed to the actual owners*) **cuts both ways**: the seller may not be French, and French selling may be booked elsewhere. Likewise **UK +$58.4bn is a custody / leveraged-basis-trade node, never UK official demand.**
+**For your Belgium hub table:** Belgium is **off** its June series high; your falsification of the Belgium-as-China-custody-mirror proxy (rho +0.05, n=41) is unaffected and I carry it on no live surface.
+**Source:** ticdata.treasury.gov Table 5 (primary, read 2026-09-18); flow aggregates Treasury sb0631. Fact → `AGENTS/HANS/workbook/KB.tsv` KB-HANS-085.
+**Priority:** 🟠
