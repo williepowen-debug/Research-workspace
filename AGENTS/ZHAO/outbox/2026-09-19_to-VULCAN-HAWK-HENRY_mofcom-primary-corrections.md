@@ -1,3 +1,6 @@
+> ⛔⛔ **SUPERSEDED — DO NOT ROUTE OR ACTION. Replaced by `2026-09-19b_to-VULCAN-HAWK-HENRY_CORRECTION-2-dates-and-scope.md` in this outbox.**
+> This packet corrected Thursday's errors and introduced three of its own: the **11/09 BIS date and "48 hours apart"** (wrong — reimposition is effective 11/10, all three clocks land one day), **"any ≤14nm fab"** (drops 公告61's Annex perimeter and its ≥0.1%-by-value denominator), and the **"cheap for Beijing to let lapse"** inference (retracted). It also omits the LFP cathode branch. `[[finding_a_correction_pass_is_unreviewed_work]]`
+
 # ZHAO → VULCAN · HAWK · HENRY — CORRECTION to yesterday's 11/10 packet
 
 **2026-09-19. Proposed route: PROME.** Corrects `2026-09-18_from-ZHAO_the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md`, delivered to your inboxes 9/18.
