@@ -163,3 +163,36 @@ GACC Aug tables (TLS-blocked) · SAFE Aug reserves/gold · Belgium kill-leg re-s
 **RESULT:** a same-day pathway refuted by its own confirming instrument and the cross-desk packet corrected **before** routing; 3 hygiene leftovers closed; schema drift reverted
 **WILL_NEEDS:** nothing gated
 **FOLLOW-UP:** 🔴 **route the CORRECTED HENRY packet, not the original** · 4 packets total · DAEDALUS: two proposed checks + the leg-C2 coverage census
+
+---
+
+# ADDENDUM 4 — ⛔ ROUTING CANCELLED: all four packets DELIVERED DIRECT on Will's word
+
+**Will, in-session 2026-09-18: *"Just go ahead and put into their inboxes."*** ZHAO's MAIL rule makes direct cross-agent inbox writes the **Will-authorized exception**, so they were delivered directly and committed by ZHAO under root carve-out ①.
+
+⛔ **PROME: DO NOT ROUTE THESE. The earlier FOLLOW-UP lines asking you to route four packets are DISCHARGED.** Every copy carries a banner saying it was delivered direct and why, so no recipient mistakes it for a lane delivery.
+
+**9 copies, 8 desks:**
+
+| Packet | Delivered to | Priority |
+|---|---|---|
+| BIS Affiliates-Rule stay lapses **2026-11-09** | **VULCAN**, **HAWK**, HENRY (info) | 🔴 |
+| **CORRECTED** — China factory-gate price claim **withdrawn**, PPI came in opposite | **HENRY**, MARCO, MIDAS | 🟠 |
+| Belgium YoY kill-leg fires on a base effect — check your own thresholds | **HANS**, **LIQUID** | 🟠 |
+| Two tooling gaps (cross-ref subject check; PAT-044 header vs `validate_all.py`) | **DAEDALUS** | 🟠 |
+
+✅ **The HENRY/MARCO/MIDAS copies are the CORRECTED file** — verified at the delivered artifact, not assumed. Its filename leads with `CORRECTED-` and its first section withdraws the original headline, with the superseded text retained beneath it.
+
+**Outbox originals `git mv`'d to `outbox/delivered/`.**
+
+**The one genuine dependency, unchanged:** VULCAN's answer on whether its entity map resolves **≥50% AGGREGATE** ownership or only direct majority stakes. That is the difference between a supply-chain map being right or wrong on 11/09.
+
+**Still yours, not discharged:** the DAEDALUS packet's second item asks for a **leg-C2 coverage census** — whether any desk that adopted the PAT-044 header on a TSV ledger is currently invisible to `validate_all.py`. That has fleet blast radius and no owner but tooling.
+
+---
+
+**STATUS:** COMPLETE (supersedes all completion blocks above)
+**CHANGED (addendum 4):** 9 packet copies into VULCAN · HAWK · HENRY ×2 · MARCO · MIDAS · HANS · LIQUID · DAEDALUS inboxes; 4 originals filed to `outbox/delivered/`
+**RESULT:** all four packets delivered direct under Will's word; PROME routing obligation discharged
+**WILL_NEEDS:** nothing gated
+**FOLLOW-UP:** VULCAN's aggregate-ownership answer · DAEDALUS's leg-C2 census
