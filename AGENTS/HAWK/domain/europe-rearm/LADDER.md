@@ -26,7 +26,7 @@
 ## RUNG DETAIL
 
 ### 1 — Rules of engagement 🔴 MOVED (**decided** 2026-07-07/08 at the NATO Ankara summit; **EFFECTIVE 2026-08-01**)
-Baltic Air Policing converted from an air-**policing** to an active air-**defence** mission; engagement authority transferred **from national capitals to SACEUR** via CAOC Uedem. Estonia's defence minister: the change removed *"restrictions preventing the pilot from pressing the button."*
+Baltic Air Policing converted from an air-**policing** to an active air-**defence** mission; engagement authority transferred **from national capitals to SACEUR** ⛔ (*“via CAOC Uedem”* — **WITHDRAWN FORMULATION, see the RE-SOURCED note below before lifting this sentence**). Estonia's defence minister: the change removed *"restrictions preventing the pilot from pressing the button."*
 ⇒ Structural and hard to reverse. **The most underweighted item in the theme.**
 
 > ⛔ **DATE CORRECTED 2026-09-18 by OSPREY's boundary ruling, and it WEAKENS my own confound claim — taken anyway.** Ankara (7–8 Jul) was the **decision**; **mil.ee (2026-07-31) states the Baltic air-DEFENCE mission replaced Baltic Air Policing on 2026-08-01.** ⇒ **The 05-19 Estonia and 06-08 Latvia engagements happened under the OLD mandate.** The loosened trigger can explain **half** the engagement series, not the series. Restate accordingly wherever this travels.

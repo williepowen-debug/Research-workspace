@@ -2,6 +2,8 @@
 
 **Author:** HAWK · **Date:** 2026-09-18 · **Trigger:** Will-directed new-theme investigation ("Europe rapidly arming up and preparing for combat — investigate the theme and see what evidence we can find").
 **Status:** OPENING SWEEP. No VX row registered, no prediction written, no mark set. This file is the evidence base a registration would be built from, not the registration.
+> ⛔ **CORRECTION BANNER — ADDED 2026-09-19. THIS IS THE FIRST SWEEP AND THREE OF ITS CLAIMS WERE WITHDRAWN THE SAME NIGHT BY OSPREY'S BOUNDARY RULING (`cb31cfb31`), FOUR MORE BY HAWK'S OWN SECOND PASS. The withdrawn wordings are marked ⛔ in place below and are KILL-ON-SIGHT fleet-wide — do not lift any phrasing out of this file without reading the note attached to it.** Current state is `domain/europe-rearm/LADDER.md` (repaired) and `workbook/KB.tsv` KB-HAWK-393…395; KB-HAWK-378/379 are marked SUPERSEDED. This file is retained as the dated evidence snapshot of what was believed on 2026-09-18, not as a current reading.
+
 **Domain note:** defense spending sits in HAWK's dormant-book charter (root agent spec). It has **no VX row** and **zero KB rows** — see §7 (scope) and §8 (gap).
 
 ---
@@ -24,15 +26,15 @@ The single most decision-relevant finding is in §5: **at least two of the four 
 
 | Item | Evidence |
 |---|---|
-| Baltic Air Policing converted from **air-policing to an active air-defence mission** at the NATO Ankara summit **7–8 July 2026** | [CONF running record 9/18; united24media, independent] |
-| Engagement authority transferred **from national capitals to SACEUR** via CAOC Uedem | [CONF running record 9/18] |
+| Baltic Air Policing converted from **air-policing to an active air-defence mission**. ⛔ **DATE CORRECTED 2026-09-18 (OSPREY): Ankara 7–8 July was the DECISION; mil.ee (2026-07-31) dates the EFFECTIVE replacement to 2026-08-01.** ⇒ The 05-19 Estonia and 06-08 Latvia engagements happened under the **OLD** mandate, so the loosened trigger explains **half** the series, not the series. | [CONF mil.ee 2026-07-31] |
+| ⛔ **WITHDRAWN 2026-09-18 (OSPREY).** The formulation *"SACEUR → CAOC Uedem → cockpit"* traced **only** to the aggregator's synthesis; OSPREY read the Ankara Summit Declaration directly and it contains **NO** mention of Baltic Air Policing, mission conversion, engagement authority, SACEUR delegation or ROE. The **substance** — that engagement authority moved above national capitals — holds at ERR quoting Pevkur and at mil.ee; the NATO-text framing does not. | [WITHDRAWN — see LADDER.md rung 1] |
 | Estonian defence minister: the change removed *"restrictions preventing the pilot from pressing the button"* | [CONF quoted in running record 9/18] |
 
 ⇒ **A step-change in who may fire, decided months before the shoot-downs that followed.** This is a structural, hard-to-reverse change and it is not a budget line.
 
 ### 1b. Kinetic tempo — the entire kinetic history of the mission is four months old
 
-**Four kinetic engagements in Baltic Air Policing's 22-year history. All four in 2026** [CONF running record 9/18, corroborated independently per event]:
+**Four kinetic engagements over Baltic airspace, all in 2026** [CONF running record 9/18, corroborated independently per event]. ⛔ **THE PHRASING *"in Baltic Air Policing's 22-year history"* IS WITHDRAWN AND IS KILL-ON-SIGHT (2026-09-18, OSPREY).** The **count of four is fine**; the **22-year denominator is unsupported** — no source affirmatively states "first since 2004," the aggregator says *"no earlier kinetic engagement is recorded"* (a **not-found**, not a measured zero) and elsewhere hedges to *"since 2022."* **Correct form: "no NATO shoot-down over Baltic airspace is RECORDED before 2026-05-19."** ⇒ There is **no measured base rate here**, so any band move justified by one does not stand on this row. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`:
 
 | # | Date | Location | Interceptor | Object |
 |---|---|---|---|---|
@@ -145,11 +147,11 @@ Widely reported and frequently mis-stated:
 - **19 May 2026, Estonia** — the object was a ***suspected Ukrainian* drone**, pushed off course under heavy Russian electronic warfare.
 - **20 August 2026, Latvia** — object **identified as Ukrainian**, diverted by Russian EW. (The 15 Sept Lithuanian object was assessed "most likely" a Russian Gerbera **diverted by *Ukrainian* jamming.**)
 
-Combine that with §1a: the **rules of engagement were loosened in July 2026**, moving authority to SACEUR and removing national-capital restraint.
+Combine that with §1a: the **rules of engagement were loosened — DECIDED July 2026, EFFECTIVE 2026-08-01** (⛔ corrected; see §1a), moving authority above national capitals. ⚠️ **Because the change took effect 2026-08-01, it cannot explain the 05-19 and 06-08 engagements — the confound covers half the series only.**
 
 ⇒ **The "four shoot-downs in four months" series partly measures NATO's own ROE change and electronic-warfare spillover from the Ukraine war — not purely rising Russian intent.** An instrument that changed its own trigger threshold mid-series cannot be read as a clean measure of the thing it is being cited for. Anyone pricing Russian aggression off the engagement count is reading a composite.
 
-This does not mean the threat is fake. Romania's 23-vs-18 violation count, Leipzig/Halle, and the Neptun Deep sea drone are separate and do not depend on this. It means **the single most-quoted statistic in the theme is the weakest one**, and the case should be built on the others.
+This does not mean the threat is fake. ⛔ **Romania's 23-vs-18 violation count is WITHDRAWN from the clean-evidence set (2026-09-18, OSPREY; KB-HAWK-395) — THREE mutually incompatible published series exist and they are not reconcilable to one perimeter.** The clean-evidence set is **two** items, not three: **Leipzig/Halle** and the **Neptun Deep sea drone**, which are separate and do not depend on this. It means **the single most-quoted statistic in the theme is the weakest one**, and the case should be built on the others.
 
 *(Class: an instrument whose error is correlated with the trigger; and a count that changed its own definition mid-series.)*
 

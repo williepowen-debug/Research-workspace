@@ -1,16 +1,16 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-18. Derived from owner WARRISK ledgers, briefs and commissioned reports; NO FRESH NEGOTIATED PREMIUM OBTAINED — this pass re-stamps ages and folds two dated owner/primary items; it does not advance a single premium data date.** ⚠️ This session's directed work was a separate theme (European rearmament), so no insurance canvass was run. Re-stamped per the standing rule that a derived surface rots at the cadence of its own REGENERATION, not on its own. Current matched cross-theater premium ratio **UNKNOWN**; missing quotes do not prove no repricing.
+**Refreshed: 2026-09-19. Derived from owner WARRISK ledgers, briefs and commissioned reports; NO FRESH NEGOTIATED PREMIUM OBTAINED — this pass re-stamps ages and folds two dated owner/primary items; it does not advance a single premium data date.** ⚠️ **2026-09-19: this session's directed work was the YURI boundary ruling and the L432 Monday arming, so NO INSURANCE CANVASS WAS RUN AGAIN — two consecutive passes have re-stamped ages without advancing a premium date.** Re-stamped per the standing rule that a derived surface rots at the cadence of its own REGENERATION, not on its own. Current matched cross-theater premium ratio **UNKNOWN**; missing quotes do not prove no repricing.
 
 | Leg / owner | Last recovered quoted level [CONF owner record; historical] | Evidence date / age at September18 | Current interpretation |
 |---|---|---|---|
-| Hormuz / FALCON |7.5–10% of hull; Marsh via Platts |July22 /**58 days** |STALE; no current quote |
-| Southern Red Sea / FALCON |>1% of hull; Reuters relays |July23 /**57 days** |STALE |
-| Bab / FALCON |~0.5% of hull; Al Jazeera |July23 /**57 days** |STALE; coverage comparability unresolved |
-| West Saudi, loading without transit / FALCON |0.1% of hull; owner compilation |July23 /**57 days** |STALE; no fresh origin-risk test |
-| Black Sea / OSPREY |1% of hull; Noah citing Gibson |August21 relay /**28 days**; original assessment date UNKNOWN |STALE; no current matched comparison |
+| Hormuz / FALCON |7.5–10% of hull; Marsh via Platts |July22 /**59 days** |STALE; no current quote |
+| Southern Red Sea / FALCON |>1% of hull; Reuters relays |July23 /**58 days** |STALE |
+| Bab / FALCON |~0.5% of hull; Al Jazeera |July23 /**58 days** |STALE; coverage comparability unresolved |
+| West Saudi, loading without transit / FALCON |0.1% of hull; owner compilation |July23 /**58 days** |STALE; no fresh origin-risk test |
+| Black Sea / OSPREY |1% of hull; Noah citing Gibson |August21 relay /**29 days**; original assessment date UNKNOWN |STALE; no current matched comparison |
 
-All five legs exceed HAWK's 10-day bar, and every one is now 2 days staler than at the last pass — **the ages moved, the evidence did not.** Historical ratios are not current ratios or lower bounds. Quote comparison needs matched hull, route, cover, exclusions, deductible and assessment date. Earlier statements suggesting the missing quote must mean an unpublished quote or that a new JWC listing would close the premium gap are withdrawn: access and publication are different questions, and geography is not price.
+All five legs exceed HAWK's 10-day bar, and every one is now 1 day staler than at the last pass — **the ages moved, the evidence did not.** Historical ratios are not current ratios or lower bounds. Quote comparison needs matched hull, route, cover, exclusions, deductible and assessment date. Earlier statements suggesting the missing quote must mean an unpublished quote or that a new JWC listing would close the premium gap are withdrawn: access and publication are different questions, and geography is not price.
 
 FALCON's WARRISK header September11 reclassifies repeated failed retrievals as an **access problem (WQ-230)**, already owned by PROME/Will. HAWK neither purchases access nor commissions an identical broad search. The header also records JWLA-034 July29 geography; this does not update the July premium observations. Insurance eligibility requires the actual policy: attacker, flag or sanctions labels alone cannot establish it.
 
@@ -29,3 +29,17 @@ OSPREY's August21/27 insurer/carrier withdrawal reports describe market particip
 **⚠️ Owner-state caveat carried, not assumed:** OSPREY's surfaces have been unchanged since 2026-09-16 15:53 (`ba3898d86`), so the Black Sea leg above is not merely stale in its quote — **its owner has not revisited it in this window.** Stated as a dated observation about a sibling's state, never as a standing claim (the 2026-07-25 lesson, learned twice).
 
 Latest commissioned synthesis: `research/2026-09-16_cross-war-oil-review.md`. FALCON owns Gulf/Red Sea evidence; OSPREY owns Black Sea evidence. Source fingerprints certify reviewed artifacts, not external truth or quote freshness.
+
+---
+
+## ⛔ 2026-09-19 — THE BLACK SEA LEG IS CIRCULAR, AND IT IS LOAD-BEARING ON A LIVE KILL CLOCK
+
+OSPREY asked HAWK today whether HAWK holds **anything dated after 2026-08-21 on Black Sea AWRP or P&I withdrawal**, because its **Channel-3 limb 2** reads *“no war-risk-premium repricing (insurer/P&I reporting, **via HAWK's cross-war enforcement read**)”* and its kill date is **2026-09-24**.
+
+**Answer: NO — and the pointer is a CIRCLE.** The Black Sea row in the table above is owned by **OSPREY** and IS the 8/21 relay OSPREY is citing, with its original assessment date **UNKNOWN**. ⇒ **OSPREY's limb 2 points at HAWK; HAWK's Black Sea cell points at OSPREY; neither desk holds the evidence, and both ends behave correctly.** `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`.
+
+⚠️ **A conjunction that fails safe on a leg nobody owns is failing safe by ACCIDENT, not by design.** Limb 2 must be recorded **UNDETERMINED with HAWK named as unable to supply** — never scored satisfied on HAWK's silence, which would convert an absence of canvass into an absence of repricing.
+
+⛔ **JWLA-035 (16 Sep 2026) does NOT close it.** It is dated, primary and only three days old, but it is an **eligibility/territory** fact and limb 2 is about **price**. **Geography is not price** — the standing withdrawal on this surface holds, and it is not being relaxed because it would be convenient this week.
+
+**Remedy owned by OSPREY** (the only end that can close it): its 10-outlet canvass + TD6, dated. HAWK folds it the same session it arrives. Packet: `AGENTS/OSPREY/inbox/2026-09-19_from-HAWK_channel3-limb2-answered-NEGATIVE-and-it-is-circular.md`.
