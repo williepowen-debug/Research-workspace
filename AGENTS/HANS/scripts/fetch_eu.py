@@ -78,6 +78,63 @@ def agsi_eu():
         return None, f"AGSI pull failed: {str(e)[:60]}"
 
 
+def _agsi_key():
+    key = os.environ.get("AGSI_API_KEY", "")
+    if not key:
+        env = Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
+        if env.exists():
+            for line in env.read_text().splitlines():
+                if line.startswith("AGSI_API_KEY="):
+                    key = line.split("=", 1)[1].strip()
+    return key
+
+
+def agsi_norm(gas_day, years=5):
+    """5-yr seasonal norm for THIS gas day, computed from AGSI's OWN history.
+
+    🔴 THIS EXISTS BECAUSE THE PREVIOUS NORM WAS A HARDCODED 82.0 FROM GEF, FROZEN ON
+    2026-08-28 AND APPLIED TO EVERY LATER DATE. Two independent defects in one constant:
+      (a) CROSS-SOURCE — an AGSI fill minus a GEF norm is a gap neither source vouches for;
+      (b) FROZEN SEASONAL — the true norm RISES through the injection season (85.05% on
+          09-17 vs the carried 82.0), so a frozen constant makes the gap read BETTER as
+          the season advances. That is a FAIL-OPEN drift: the alarm quietly relaxes with
+          time, which is the direction a storage alarm must never fail in.
+    Measured 2026-09-19: frozen 82.0 gave -12.9pp; AGSI-native gives -15.99pp. The band
+    is -15. The stale constant had the fire on the wrong side of its own threshold.
+
+    Returns (norm_mean, norm_median, n_years, [(year, full)]) or (None, None, 0, reason).
+    ⛔ FAIL-CLOSED: on fewer than `years-1` usable years it returns None and the CALLER
+    MUST PRINT NO GAP. It must never fall back to a constant — falling back is exactly
+    the trade (loud-and-safe -> silent-and-certifying) this function was written to end.
+    """
+    key = _agsi_key()
+    if not key:
+        return None, None, 0, "no AGSI_API_KEY"
+    try:
+        y0, md = int(gas_day[:4]), gas_day[5:10]
+    except (ValueError, TypeError, IndexError):
+        return None, None, 0, f"unparseable gas day {gas_day!r}"
+    got = []
+    for y in range(y0 - years, y0):
+        try:
+            req = urllib.request.Request(
+                f"https://agsi.gie.eu/api?type=EU&date={y}-{md}",
+                headers={"x-key": key, "User-Agent": "HANS/1.0"})
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                recs = (json.load(r).get("data") or [])
+            if recs and recs[0].get("full") not in (None, "", "-"):
+                got.append((y, float(recs[0]["full"])))
+        except Exception:
+            continue          # one missing year is survivable; the quorum test below is not
+    if len(got) < years - 1:
+        return None, None, len(got), f"only {len(got)}/{years} historical years reachable"
+    vals = sorted(v for _, v in got)
+    n = len(vals)
+    mean = sum(vals) / n
+    median = vals[n // 2] if n % 2 else (vals[n // 2 - 1] + vals[n // 2]) / 2
+    return mean, median, n, got
+
+
 def main():
     """Prints the report AND returns structured status so a caller can act on it.
 
@@ -138,21 +195,33 @@ def main():
     st, err = agsi_eu()
     print("\n  EU gas storage (GIE AGSI+):")
     if st:
-        NORM = 82.0  # 5-yr seasonal norm for this date [GEF, 2026-08-28]
-        gap = st[1] - NORM
-        em = "🔴" if gap < -25 else "🟠" if gap < -15 else "🟢"
         try:
             tr = f" trend {float(st[2]):+.2f}pp/d"
         except (TypeError, ValueError):
             tr = ""   # AGSI returns trend as a STRING and sometimes empty — coerce, never assume
         print(f"     {st[1]:.2f}% full  [gas day {st[0]}]{tr}   ✅ PRIMARY (GIE AGSI+)")
-        print(f"  {em} GAP TO 5-YR NORM {gap:+.1f}pp  (vs {NORM:.1f}% norm)   HANS-T-08 bands -15 orange / -25 red")
-        print(f"     ⚠️ PERIMETER MISMATCH, STATED: fill is AGSI primary; the {NORM:.1f}% norm is from GEF,")
-        print(f"        a DIFFERENT source whose EU member-set may differ. The GAP is therefore a")
-        print(f"        CROSS-SOURCE derivation. Proper fix: compute the norm from AGSI history.")
-        obs.append(("HANS-T-08", gap, st[0]))
-        if gap < -15:
-            breached.append("HANS-T-08")
+
+        mean, median, nyr, meta = agsi_norm(st[0])
+        if mean is None:
+            # ⛔ FAIL-CLOSED: no norm => NO GAP PRINTED. Never fall back to a constant.
+            print(f"     ⛔ 5-YR NORM NOT COMPUTED ({meta}) — NO GAP REPORTED THIS RUN.")
+            print(f"        The gap is HANS-T-08's whole metric, so a missing norm is a BLIND row,")
+            print(f"        not a quiet one. The fire's state is UNCHANGED — a blind day can never")
+            print(f"        close it (registry exit clause, 2026-09-19).")
+            failures.append("AGSI 5-yr norm (gap not computed — fail-closed)")
+        else:
+            gap = st[1] - mean
+            em = "🔴" if gap <= -25 else "🟠" if gap <= -15 else "🟢"
+            print(f"  {em} GAP TO 5-YR NORM {gap:+.2f}pp  (vs {mean:.2f}% norm)   HANS-T-08 bands -15 orange / -25 red")
+            print(f"     ✅ SINGLE-SOURCE: fill AND norm both GIE AGSI+, same gas day {st[0][5:]} "
+                  f"across {nyr} prior years {[y for y, _ in meta]}.")
+            spread = abs(mean - median)
+            if spread > 2.0:
+                print(f"     ⚠️ norm mean {mean:.2f} vs median {median:.2f} differ by {spread:.2f}pp "
+                      f"— the 5-yr window is SKEWED; gap on the median basis is {st[1]-median:+.2f}pp.")
+            obs.append(("HANS-T-08", gap, st[0]))
+            if gap <= -15:
+                breached.append("HANS-T-08")
     else:
         print(f"     🔑 {err}")
         failures.append(f"AGSI+ EU storage ({err[:40]})")

@@ -410,8 +410,10 @@ def _audit_full():
                      'second direction. The flag is the SCHEMA LIMIT, not a defect — and '
                      'T-02 is MET, having correctly killed the ISM-weakness leg.',
         'HANS-T-08': 'registry states a MAGNITUDE (">15pp below norm") while the surface '
-                     'carries a SIGNED value (-19.7). Same quantity, and the band text now '
-                     'says so explicitly; a text parse cannot resolve magnitude vs sign.',
+                     'carries a SIGNED value (currently -15.99). Same quantity, and the band '
+                     'text now says so explicitly; a text parse cannot resolve magnitude vs '
+                     'sign. NOTE the exemption is about the SCHEMA (magnitude vs sign), not '
+                     'about any particular value — it must not be read as blessing a level.',
     }
     for tid, vids in REG_VX_DIR.items():
         if tid not in reg:

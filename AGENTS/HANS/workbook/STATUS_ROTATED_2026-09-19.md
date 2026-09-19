@@ -121,3 +121,51 @@ Stopping at the 75% trigger is not finishing (rule 5 has two thresholds). Also r
 ---
 
 
+
+---
+
+## THIRD ROTATION PASS (2026-09-19, after the AGSI key landed and §ENERGY grew)
+
+Sessions 1–3 and the post-commit audit consolidated into one pointer block. Verbatim text as it stood:
+
+### SESSION 1 compacted (2nd rotation)
+
+## 🔴 SESSION 1 (9/18) — THE THREE LIVE READS, COMPACTED. **Verbatim → `workbook/STATUS_ROTATED_2026-09-19.md` + each block file.**
+
+**① BoE 9/17 — THE BANK STOPPED SELLING LONG GILTS** → `workbook/2026-09-18_BOE_APF_BLOCK.md` · `KB-HANS-064`
+Rate HELD **3.75%**. Of **£488.2bn** APF: **£222bn** pre-2035 and **£120bn** longest-dated held to maturity, **£146bn under review**, sales **£20bn/yr**, **auctions PAUSED** pending an Apr-2027 decision on selling gilts direct to Government. 🔴 **A SUPPLY WITHDRAWAL, NOT A DEMAND RECOVERY.** **Both UK thresholds moved AWAY; neither ever fired — no exit to record.** The 11/26 Budget now arrives with the long end's biggest seller stood down.
+
+**② FED HIKED 9/16 — REFUTING A MECHANISM I PUBLISHED 9/10** → `workbook/2026-09-18_FED_HIKE_REFUTATION_BLOCK.md` · `KB-HANS-065`
++25bp to **3.75–4.00%**, 12–0. I wrote the differential compresses on a Sept ECB hike into a Fed on HOLD: **unchanged at 137.5bp and the euro WEAKENED to 1.1489 — both halves failed.** ⇒ **Exclusion leg (2) must be RE-ARGUED (owed #13).** 🔴 **Near-miss:** a stale-flag on `VX-HANS-4.03`=137.5 was correct at their read, then the Fed moved both legs back to exactly 137.5 — **recompute from BOTH primaries; never accept a supplied delta** → `ML-HANS-451`
+
+**③ FRANCE — `T-10` NEAR-TRIGGER, GRADED INSIDE MY OWN BASIS GAP** → `workbook/2026-09-18_FRANCE_T10_BLOCK.md` · `KB-HANS-066`
+**OAT–Bund 96.8bp [9/18], a 1-yr high; OAT 4.47 / Bund 3.50. `T-10` (spread >100 AND OAT >4.50) NOT FIRED — 3.2bp and 3bp under.** 🔴 **TE-minus-TE the same day reads 105.5bp / 4.5735 and clears BOTH legs** — both trip lines sit **inside my ~10bp OAT basis gap** (owed #5). **Fiscal:** 2027 budget targets **5.0% of GDP vs ~5.4% in 2026** (worse than the 4.7% carried). 🔴 **France yields MORE than Italy** and sold **−$62.4bn of USTs across June–July.**
+
+
+
+---
+
+### SESSION 3 pointer
+
+## 🆕 SESSION 3 (9/18) — DESK SWEEP, ALL ITEMS WORKED. **Rotated 9/19 → `workbook/STATUS_ROTATED_2026-09-19.md`** · full block `workbook/2026-09-18_SESSION3_DESK_SWEEP.md` · `ML-HANS-459`–`463`. Headline: **core inflation gained a surface (`4.11`/`4.12`, `T-16`/`T-17` as FALSIFIERS), two policy vectors pointed the wrong way, `doc_audit` gained C10+C11, and three defects I introduced while fixing were caught by the new tests → RULE #1d.**
+
+
+
+---
+
+### SESSION 2 pointer
+
+## SESSION 2 (9/18) — NEWS CATCH-UP. **Rotated 9/19 → `workbook/STATUS_ROTATED_2026-09-19.md`** · full block `workbook/2026-09-18_SESSION2_NEWS_CATCHUP.md` · `KB-HANS-084`–`088`. Headline: **the overshoot has NO CORE LEG on either side of the Channel** — UK CPI 3.1% with core 2.6% and services 3.4% both UNCHANGED (all motor fuels +23.0%); EA HICP final 3.2% with energy +14.3% = 1.29pp and **core 2.4% UNREVISED**. ⇒ **`T-04` is NOT a hawkish lean into 10/29.** Plus **TIC July** (8 vectors refreshed; France **−$62.4bn** over two months, UK **+$58.4bn** to 998.3, total 9,248.1 lowest since Oct-2025) and **German 2027 debt service €41.8bn vs €30.3bn, +38% in one year.**
+
+
+
+---
+
+### POST-COMMIT AUDIT pointer
+
+## 🔴 POST-COMMIT AUDIT (session 1) — 5 DEFECTS IN MY OWN WORK, ALL FIXED. **Rotated 9/19 → `workbook/STATUS_ROTATED_2026-09-19.md`** · verbatim `workbook/2026-09-18_POST_COMMIT_AUDIT.md`. The one that must not be re-learned: **I minted status tokens without opening `STATE_VOCABULARY.md` and two of my own guards then read one column with different semantics** → `ML-HANS-452`, RULE #1c. ⚠️ **UNFIXED: the ECB pull is INTERMITTENT — a blank boot §[2] is not a quiet board.** ⚠️ **STANDING PRIOR, now EIGHT sessions: every defect on this desk is found from OUTSIDE or by a script, never by re-reading** — session 4 holds: the ESRB finding came from reading a primary I had been deferring, and the `5.01` broad-index defect came from a staleness scan, not from re-reading STATUS.
+
+
+
+---
+
