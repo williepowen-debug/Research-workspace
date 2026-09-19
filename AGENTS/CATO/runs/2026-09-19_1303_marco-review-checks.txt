@@ -1,0 +1,68 @@
+$ .venv/bin/python -B AGENTS/MARCO/scripts/tsvutil_selftest.py --verify-guard
+exit=0
+
+========================================================================
+  MARCO tsvutil Self-Test — reader agreement · line-number truth · round-trip
+========================================================================
+
+  ✓ thesis/PREDICTIONS.tsv
+  ✓ workbook/VX.tsv
+  ✓ workbook/KB.tsv
+  ✓ workbook/FLOW.tsv
+  ✓ workbook/MIGRATION_PROXIES.tsv
+  ✓ docket/CATALYSTS.tsv
+
+  --verify-guard: invariant A against the pre-fix raw-split reader
+       ✓ guard FAILS as required (5 disagreement(s) detected)
+
+  ✅ clean — 6 ledgers, 4 invariants each.
+
+$ bash scripts/orphan_check.sh CATO
+exit=0
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    AGENTS/SAM/scripts/closeout_check.py
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/artifacts/decision_deck.html
+     [not yours]    PROME/artifacts/decision_reference.html
+     [not yours]    PROME/inbox/2026-09-19_from-ANVIL_L424-vlo-fill-and-tlt85p-mirrored-plus-a-9-16-capture-that-contradicts-six-cells.md
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1303_marco-review.md
+exit=0
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+$ git diff --check -- AGENTS/CATO/runs/2026-09-19_1303_marco-review.md AGENTS/CATO/runs/2026-09-19_1303_marco-bts-fetch.py AGENTS/CATO/runs/2026-09-19_1303_marco-bts-primary.json AGENTS/CATO/runs/2026-09-19_1303_marco-review-probe.py AGENTS/CATO/runs/2026-09-19_1303_marco-review-probe.txt
+exit=0
+
+$ git diff --cached --name-only
+exit=0
+AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-checks.txt
+AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-probe.py
+AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-probe.txt
+AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness.md
+
+$ git status --short
+exit=0
+ M AGENTS/CATO/CONTINUITY.md
+A  AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-checks.txt
+A  AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-probe.py
+A  AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness-probe.txt
+A  AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness.md
+ M AGENTS/SAM/scripts/closeout_check.py
+ M FORGE/STATUS.md
+ M PROME/artifacts/decision_deck.html
+ M PROME/artifacts/decision_reference.html
+ M memory/auto/MEMORY.md
+?? AGENTS/CATO/runs/2026-09-19_1303_marco-bts-fetch.py
+?? AGENTS/CATO/runs/2026-09-19_1303_marco-bts-primary.json
+?? AGENTS/CATO/runs/2026-09-19_1303_marco-review-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1303_marco-review-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1303_marco-review.md
+?? PROME/inbox/2026-09-19_from-ANVIL_L424-vlo-fill-and-tlt85p-mirrored-plus-a-9-16-capture-that-contradicts-six-cells.md
+
+CATO Python AST parse and primary JSON parse: PASS
+
+All five pre-check evidence files: final newline and no trailing whitespace PASS

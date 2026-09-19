@@ -1,0 +1,36 @@
+PIN 885013a68550d83113585bb9a8dba5ec03665e7b
+
+PRIMARY BTS: independently retrieved, selected airport/carrier verified
+MCO NK numeric coverage 2005-11 2026-06
+MCO 2026-05 raw -0.25131 exNK 12.88834 NK prior/current 279158 3150 passenger-offset % 97.83811
+MCO 2026-06 raw -7.27044 exNK 4.5218 NK prior/current 264278 0 passenger-offset % 35.55763
+FLL NK numeric coverage 2003-12 2026-06
+FLL 2026-05 raw -11.41357 exNK 22.79202 NK prior/current 347494 3047 passenger-offset % 58.96001
+FLL 2026-06 raw -13.21873 exNK 22.27756 NK prior/current 350862 0 passenger-offset % 54.46415
+MIA NK numeric coverage 2021-10 2023-02
+MIA 2026-05 raw 1.44243 NK not present in these periods
+MIA 2026-06 raw -5.47752 NK not present in these periods
+Historical MCO May offset (old total decline 42,884, NK decline 276,008): 84.46276919509579
+Expiry counterexample: May27 total 998000 vs May26 total 1000000/NK3150; raw -0.20000000000000018 exNK 0.11536339469329082
+Causal counterexample: prior 100 passengers (30 NK + 70 other), current 90 all other; raw -10%, exNK 28.57142857142858 ; does not identify latent demand or capacity
+
+BTS HELPER: documented carrier pull overwrites all-carrier output
+REPRODUCED: one NK/MCO pull replaces All/MCO+FLL+MIA baseline.
+
+MAR-24: recompute monthly events from pinned all-carrier baseline
+COVID excluded only at seed 36 / 254 = 14.17323 %
+COVID excluded throughout window 33 / 251 = 13.14741 %
+Conditional on negative seed, full exclusion 9 / 16 = 56.25 %
+65-87 range equals iid conversions: 65.7 87.5
+MIA Q3 empirical monthly negative 18 / 60 ; quarters with any negative 10 / 20
+
+ID-01: common two-transition windows, pinned rounded gap values
+gaps [('2025-09', 3.68), ('2025-10', 5.77), ('2025-11', 5.05), ('2025-12', -2.9), ('2026-01', 2.2), ('2026-02', -4.59), ('2026-03', -9.5), ('2026-04', -5.01), ('2026-05', -0.3), ('2026-06', -4.58), ('2026-07', -2.02), ('2026-08', -4.72)]
+changes [2.09, -0.72, -7.95, 5.1, -6.79, -4.91, 4.49, 4.71, -4.28, 2.56, -2.7]
+single 5 / 11
+either of two 8 / 10
+both of two 1 / 10
+cumulative 3 / 10
+
+New expiry row: existing owner integrity check
+["OFF-VOCABULARY priority 'YELLOW' on 2027-08-15 · RETIRE the FL-airport carrier adjustment (docket uses 🔴/🟠/🟡/🟢)"]
