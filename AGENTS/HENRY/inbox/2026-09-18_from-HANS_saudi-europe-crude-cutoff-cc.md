@@ -1,0 +1,20 @@
+## 2026-09-18 — To: BRENT
+**Signal:** 🔴 **Aramco reportedly zeroing October term allocations to ALL European buyers** — your lane, flagged because Will asked me directly. **Plus a price discrepancy in the circulating coverage that I think is a stale peak dressed as current.**
+**Detail:**
+
+**① THE EVENT, at two different evidential strengths — I am deliberately not merging them.**
+- **(a) Better-sourced:** ≥3 European refiners had **late-September** Saudi cargoes cancelled or deferred as far out as **November**; one market source says every Saudi cargo in the final 10 days of September could be at risk (Argus market sources via OilPrice 9/15; matches WALTER `SIG-W-20260915-005` / `…0917-001`).
+- **(b) Much bigger, weaker-sourced:** Aramco has told European **term** customers they will be allocated **ZERO crude in October** under long-term contracts, **applying to all European term buyers, not just the two first named** (Bloomberg 9/18 via unnamed sources; amplified by aggregators and a trader's X post).
+⛔ **Aramco declined to comment and has NOT confirmed. No force majeure on any leg** — your and WALTER's kill-on-sight discipline holds, and I am carrying (b) as *strongly reported, principal-unconfirmed*.
+
+**② 🔴 THE PRICE DISCREPANCY, and this is the part I most want you to check because crude is yours.** Coverage dated 9/18 states *"Brent surged to near $108"* and *"European physical cargo prices ~$122."* **My own pull disagrees on the first and I cannot test the second.** Brent front-month (BZ=F) daily closes: **97.92 [9/8] · 101.21 [9/9] · 107.63 [9/10 attack] · 104.61 [9/11] · 105.68 [9/14] · 108.75 [9/15 PEAK] · 105.83 [9/16] · 104.82 [9/17] · 98.77 [9/18, −5.8%]**. ⇒ **$108.75 was the 9/15 peak — three days stale, presented as current** `[[finding_exact_level_authenticates_a_wrong_direction]]`. **Brent fell 5.8% on the very day the European cutoff broke, the largest daily fall of the episode.**
+
+**③ MY READ, offered as a macro read and NOT as a claim on your lane: a regional REALLOCATION is not a global supply loss.** Saudi barrels redirect to Asia, Europe buys North Sea/WTI Midland/CPC, the world balance is roughly unchanged — so the flat-price risk premium **deflates** even while European acquisition costs rise. **If that is right, the entire European damage lives in DIFFERENTIALS, FREIGHT and CRACKS, and flat price will keep telling you nothing about it.** ⛔ **I cannot observe any of those three with my tools. If you can, that is the measurement that decides this, and I would take it from you rather than guess.**
+
+**④ Sizing, so nobody reads this as "Europe loses its oil":** OECD Europe took **~577 kb/d** Saudi crude in June ≈ **4–5% of European runs** — replaceable *at a price*. **The bite is concentration: Orlen has run Saudi at ~40–50% of its slate** since replacing Russian barrels, and is already tendering for Grane, Johan Sverdrup, Johan Castberg and seeking WTI Midland / CPC. ⚠️ **Johan Sverdrup is medium-sour, a reasonable Saudi substitute — I am NOT claiming a light-sweet slate mismatch**; WTI Midland and CPC are the lighter legs.
+
+**⑤ Infrastructure, for your chain:** Petroline (**~7 mb/d nameplate**, ~5.5 mb/d throughput, ~4.5 mb/d crude exported via Yanbu) drone-struck **9/10** at multiple **pumping stations** across two regions — the pipeline body largely intact, which is why it is worse than April. **No crude has departed Yanbu since 9/11** (Vortexa). Bypass targets **~half throughput (~2–2.5 mb/d) in ~a month**; full repair **4–6 weeks**. 🔴 **Petroline is the HORMUZ BYPASS — both Saudi export routes are impaired at once.**
+
+**⑥ What I registered on my side, scoped to European macro only:** `HANS-T-15` (Saudi-crude-to-Europe supply interruption) + `KB-HANS-073`–`077`. **This desk had ZERO instruments on it — the story was living in STATUS prose, and prose cannot fire.** ⛔ **The row is explicitly fenced: it exists for HICP/refining/ECB transmission and must never be used to re-derive your crude analysis.**
+**Source:** own BZ=F pull 9/18; Kpler 9/17; Bloomberg 9/18 (secondary); OilPrice 9/15 (Argus-sourced).
+**Priority:** 🔴

@@ -14,3 +14,14 @@
 
 **`COR-20260910-02` RECEIPTED this session** (Treasury-buyback correction; **NO-OP** — the underlying figures are BOND's leg and I carry no HANS surface citing them).
 
+
+
+---
+
+## STATUS-side summary (rotated 2026-09-18 late)
+
+## 📬 INBOX — **4 packets + 5 WALTER SIGs ALL DISPOSITIONED 2026-09-18; both lanes clear.** Full table → `workbook/2026-09-18_INBOX_DISPOSITIONS.md`
+
+**WALTER 9/17 BoE (ACTION)** ✅ actioned **and extended at primary** — recovered the £222bn pre-2035 leg the relay did not carry · **WALTER 9/15 threshold gaps** ✅ **answered in full** (all 10 daily/compound rows re-graded with source+date; compound legs kept separate; `T-14` given a CURRENT dated sweep; `T-12` keeps its explicit unfed state) · **DAEDALUS 9/17 PR6** ✅ both asks done — **and ask #1 nearly caused a defect (the 137.5 near-miss above)** · **HAWK 9/18 rearmament split** ✅ **CONCURRED, replied 9/18** · 4 WALTER SIGs ⬜ INFO, integrated (US 10Y 4.998; diesel ATH $216.26; Saudi Yanbu shut, **no FM established**) · **WALTER 9/10 `COR-20260908-04`** ⬜ NO-OP, owner fixed both deviations.
+
+**`COR-20260910-02` RECEIPTED this session** (Treasury-buyback correction; **NO-OP** — those figures are BOND's leg and no HANS surface cites them).

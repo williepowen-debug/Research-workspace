@@ -1,47 +1,32 @@
 # HANS STATUS.md
 **Updated:** 2026-09-18 ~21:1x ET — **8-DAY CATCH-UP: THE BoE PIVOTED THE GILT LONG END, THE FED HIKED, AND ONE OF MY PUBLISHED MECHANISMS IS REFUTED BY IT.** Will: *"catch up on recent events and news"* → post-commit audit → PROME's rearmament ask. Levels re-pulled today or dated.
-**Boot:** exit 1 · `doc_audit.py` **0 findings** before and after this session's edits · R1 corrections **rc=1 → receipted** · 9/10 blocks rotated. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+**Boot:** rc1 · `doc_audit.py` **0 findings** before and after this session's edits · R1 corrections **rc=1 → receipted** · 9/10 blocks rotated. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
-## 🔴 THE HEADLINE — BoE 9/17: THE BANK STOPPED SELLING LONG GILTS. READ AT PRIMARY 9/18.
+## 🔴 THE HEADLINE — BoE 9/17: THE BANK STOPPED SELLING LONG GILTS. Read at PRIMARY 9/18. Detail → `workbook/2026-09-18_BOE_APF_BLOCK.md`, fact → `KB-HANS-064`
 
-**Bank Rate HELD at 3.75%** (MPC meeting ended 9/16) — and the rate is the *least* important half. **Primary: BoE Market Notice, 17 September 2026**, read in full.
+**Bank Rate HELD 3.75%** (meeting ended 9/16) — the rate is the *least* important half. Of a **£488.2bn** APF stock: **£222bn** pre-2035 **held to maturity** · **£120bn of the LONGEST-DATED held to maturity** (banknote backing) · **£146bn** of 2035–2049 **under review** · active sales **£20bn/yr**, unwind ~2034 · **auctions PAUSED** pending a review of selling gilts *direct to Government*, decision **by April 2027**. **£222+£120+£146 = £488bn — the entire stock is held to maturity or under review.** ⚠️ **The £222bn leg is mine from primary and was NOT in WALTER's relay** — a relay is not a primary.
+**Market — right size, wrong duration:** 30Y **5.7415 (−12bp)** / 10Y **5.2169 (−8bp)** intraday 9/17 → **10Y back to 5.29 (+6bp) by 9/18**, ~half the rally given back in a session. **30Y 5.75.** ⇒ **Both UK thresholds moved AWAY; near-trigger flags DOWNGRADED** (`T-13` 25bp under, was 7bp at a post-1998 high; `T-06` 21bp under). **Neither ever fired — no exit to record.**
+🔴 **NOT "UK STRESS HAS EASED": THIS IS A SUPPLY WITHDRAWAL, NOT A DEMAND RECOVERY.** The seller of last resort stopped adding paper; nothing changed about the fiscal position that put the 30Y at a 1998 high days earlier — **the 9/18 give-back is the tell.** **`11/26 UK Budget` unchanged as the LDI-adjacent date.**
 
-Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to maturity** · **£120bn of the LONGEST-DATED held to maturity** to indirectly back banknote issuance — 🔴 *the long end is withdrawn from sale* · **£146bn** of 2035–2049 **under review** · active sales just **£20bn/yr**, unwind ~2034 · **auctions PAUSED** while the Bank reviews selling gilts *directly to the Government*, decision **by April 2027**. *(Full figures → `KB-HANS-064`.)*
-
-**£222 + £120 + £146 = £488bn — the entire stock is now held to maturity or under review.** ⚠️ **The £222bn leg is mine from primary and was NOT in WALTER's relay** (accurate on what it carried) — a relay is not a primary `[[finding_asymmetric_rigor_counterparty_claims]]`.
-
-**Market response — right size, wrong duration:** 30Y **5.7415 (−12bp)** / 10Y **5.2169 (−8bp)** intraday 9/17 → by **9/18 the 10Y was back to 5.29 (+6bp)**, ~half the rally given back in a session. **30Y 5.75.**
-
-⇒ **Both UK thresholds moved AWAY; near-trigger flags DOWNGRADED:** `T-13` **25bp** under the 6.00 orange (was **7bp**, at a post-1998 high) · `T-06` **21bp** under 5.50 (was 14bp). **Neither ever fired — no exit to record.**
-
-🔴 **THE READ, AND IT IS NOT "UK STRESS HAS EASED": THIS IS A SUPPLY WITHDRAWAL, NOT A DEMAND RECOVERY.** The seller of last resort stopped adding paper to the long end; nothing changed about the fiscal position that put the 30Y at a 1998 high days earlier. **A yield that falls because the seller left is not a yield that fell because the bid returned** — the 9/18 give-back is the tell. **`11/26 UK Budget` unchanged as the LDI-adjacent date.** Chain: `FLOW-HANS-5 UK_Pension_Stress`.
 
 ---
 
-## 🔴 THE FED HIKED 9/16 — AND IT REFUTES A MECHANISM I PUBLISHED ON 9/10
+## 🔴 THE FED HIKED 9/16 — AND IT REFUTES A MECHANISM I PUBLISHED 9/10. Detail → `workbook/2026-09-18_FED_HIKE_REFUTATION_BLOCK.md`, fact → `KB-HANS-065`
 
-**FOMC 2026-09-16: +25bp to 3.75–4.00%, first hike since 2023, vote 12–0.** Warsh: inflation still too high. **16 of 18 participants expect another hike this year.**
+**FOMC 2026-09-16: +25bp to 3.75–4.00%, first hike since 2023, 12–0; 16 of 18 expect another this year.** **What I wrote 9/10:** *"the differential compresses on a Sept ECB hike into a Fed on HOLD — that is the euro-strength mechanism."* **Both halves failed:** the differential is **unchanged at 137.5bp** (both legs +25bp) and the euro **WEAKENED** to **1.1489**. ⇒ **Exclusion-argument leg (2) must be RE-ARGUED, not restated.** → BOND/TERRY; `KILL_TREE` C-1.
+🔴 **THE NEAR-MISS WITH IT.** DAEDALUS PR6 flagged `VX-HANS-4.03` as 137.5 on a stale 2.25% ECB, true value **112.5** — correct at their read. Between it and mine **the Fed hiked**, moving both legs +25bp back to **exactly 137.5**. **Applying the ask mechanically would have written a wrong number into an accidentally-correct row, every structural check passing.** ⇒ **Recompute derived rows from BOTH legs at their own primaries; never accept a supplied delta.** → `ML-HANS-451`
 
-**What I wrote 9/10, verbatim:** *"Fed–ECB differential compresses further on a Sept ECB hike into a Fed on hold … that is the euro-strength mechanism already visible at 1.16."*
-**Both halves failed.** The Fed hiked, so the differential did **not** compress — **unchanged at 137.5bp** (both legs +25bp) — and the euro **WEAKENED**: **1.1489 [9/18] vs 1.16 [9/5]**. ⇒ **Exclusion-argument leg (2) must be RE-ARGUED, not restated.** → BOND/TERRY; `KILL_TREE` C-1.
-
-🔴 **AND THE NEAR-MISS WITH IT.** DAEDALUS PR6 (9/17) flagged `VX-HANS-4.03` as **137.5bp on a stale 2.25% ECB**, true figure **112.5** — correct at their read. But between it and mine **the Fed hiked**, moving *both* legs +25bp back to **exactly 137.5**. **Applying the ask mechanically would have written 112.5 — wrong — into an accidentally-correct row, with every structural check passing.** ⇒ **Recompute derived rows from BOTH legs at their own primaries; never accept a supplied delta.** → `ML-HANS-451`
 
 ---
 
-## 🔴 FRANCE — BOTH `T-10` LEGS NEAR-TRIGGER, AND THE GRADE WAS DECIDED INSIDE MY OWN BASIS GAP
+## 🔴 FRANCE — BOTH `T-10` LEGS NEAR-TRIGGER, GRADE DECIDED INSIDE MY OWN BASIS GAP. Detail → `workbook/2026-09-18_FRANCE_T10_BLOCK.md`, fact → `KB-HANS-066`
 
-**OAT–Bund is at a 1-YEAR HIGH.** Single-source daily series (ideal-investisseur, both legs off one screen), spread in bp: **80.4** [8/31] → **84.7** [9/4] → **89.8** [9/11] → **95.6** [9/16, OAT **4.52**] → **95.0** [9/17] → **96.8** [9/18, OAT **4.47** / Bund **3.50**] — **1-yr high**; 1-yr low 59.0, avg 73.7. *(Full table → `KB-HANS-066`.)*
+**OAT–Bund at a 1-YEAR HIGH.** Single-source daily series (ideal-investisseur, both legs one screen), bp: **80.4** [8/31] → **84.7** [9/4] → **89.8** [9/11] → **95.6** [9/16, OAT **4.52**] → **95.0** [9/17] → **96.8** [9/18, OAT **4.47** / Bund **3.50**]; 1-yr low 59.0, avg 73.7.
+**`T-10` = spread >100bp AND OAT >4.50. VERDICT: NOT FIRED — 3.2bp and 3bp under.** 🔴 **But TE-minus-TE for the same day gives 105.5bp / OAT 4.5735, which clears BOTH legs and would have been logged as a fire.** Both trip lines sit **inside my OAT basis gap, widened ~7bp → ~10bp** and still outside my ±5bp tolerance. **Graded on the single-source spread — a spread is never derived across two sources.** ✅ **On 9/16 the LEVEL leg alone was met (OAT 4.52) while the spread was not — the compound structure did its job.**
+**Fiscal:** 2027 budget targets **5.0% of GDP vs an estimated 5.4% in 2026** via **€54bn** restraint, freezing **non-defence** spending; debt service adds **~€10bn/yr** on ~€65bn. ⚠️ **The 5.4% outturn is worse than the 4.7% TARGET I carried in a current-value position.** **Submission early Oct.** 🔴 **France yields MORE than Italy** (OAT 4.47–4.57 vs BTP 4.438).
 
-**`HANS-T-10` = spread >100bp AND OAT >4.50. VERDICT: NOT FIRED — 3.2bp and 3bp under, respectively.**
-
-🔴 **BUT READ HOW CLOSE THIS WAS TO A FALSE FIRE.** TE-minus-TE for the same day gives **OAT 4.5735 − Bund 3.5187 = 105.5bp**, clearing **both** legs — it would have been logged as a fire. **Both trip lines sit INSIDE my unresolved OAT basis gap, now WIDENED from ~7bp [9/10] to ~10bp and still outside my ±5bp tolerance.** Graded on the **single-source spread** because *a spread is never derived across two sources* — same class as the `T-08` gap `[[finding_instrument_error_correlated_with_the_trigger_biases_the_gate]]`. **Open item #11 was registered 9/10 for exactly this case and paid for itself today.**
-
-✅ **And the compound structure did its job:** on **9/16 the LEVEL leg alone was MET (OAT 4.52)** while the spread leg was not — a single-leg row would have fired on a day the fragmentation signal was absent.
-
-**Fiscal:** Lecornu's 2027 budget targets **5.0% of GDP vs an estimated 5.4% in 2026** via **€54bn** of restraint and a pared-back levy (**€5bn, was €8bn**), freezing **non-defence** spending; debt service adds **~€10bn/yr** on ~€65bn. ⚠️ **The 5.4% outturn is worse than the 4.7% TARGET I carried in a current-value position.** **Submission early Oct.** 🔴 **France yields MORE than Italy** (OAT 4.47–4.57 vs BTP 4.438).
 
 ---
 
@@ -56,9 +41,17 @@ Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to matur
 
 ✅ **THE 9/10 RULING IS VINDICATED.** WALTER asked whether −14.7pp exited the fire; I ruled **NOT AN EXIT** — 0.3pp was inside the cross-source error. **Ten days later: −19.7pp.** Closing it would have traded a loud-and-safe state for a silent-and-certifying one, with the re-widening arriving into a board reading clear `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`.
 ⚠️ **The row's real defect is unfixed:** `HANS-T-08` has **no registered exit condition** and its gap is still **cross-source** (AGSI fill − GEF norm). Owed: derive the norm from AGSI history; register an exit (proposed: inside −12pp, 5 gas days).
-⚠️ **AGSI+ is UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY` (gitignored ⇒ machine-local). Boot §[2] is blind on storage here; today's fill is a **secondary** read. **It reached AGSI+ on 9/10 from the other machine — re-check per box.**
+⚠️ **AGSI+ UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY` (machine-local). Boot §[2] blind on storage; today's fill is **secondary**. **It reached AGSI+ on 9/10 from the other machine — re-check per box.**
 
-**Unchanged and structural:** Hormuz shut ~6 months · **Qatar LNG FM into November** (exports −96%) · **LNG cannot be STS-transferred through Hormuz the way crude can** — the asymmetry explaining gas vs oil. ⚠️ **BRENT's correction stands: the EU gas leg and the US crude leg share Hormuz — ONE WITNESS, TWO READOUTS.** New: **Saudi Petroline/Yanbu shut since 9/11**, ~4.5 mb/d halted, late-Sept European cargoes cancelled/deferred — ⛔ **no force majeure established on Saudi crude** (Argus/Reuters/Kpler/Bloomberg silent; kill-on-sight absent an operator primary). US diesel ATH **$216.26/bbl (9/10)**. *(Chain detail → `FLOW-HANS-8`.)*
+**Unchanged and structural:** Hormuz shut ~6 months · **Qatar LNG FM into November** (exports −96%) · **LNG cannot be STS-transferred through Hormuz the way crude can.** ⚠️ **BRENT's correction stands: the EU gas leg and the US crude leg share Hormuz — ONE WITNESS, TWO READOUTS.** US diesel ATH **$216.26/bbl (9/10)**. *(Chain → `FLOW-HANS-8`.)*
+
+### 🔴 SAUDI CRUDE TO EUROPE — **Will asked 9/18; premise substantially right, desk was BEHIND.** → `HANS-T-15` (new), `KB-HANS-073`–`077`
+
+**Was carrying (WALTER relay):** *some* late-Sept cargoes cancelled to ≥3 refiners. **Broke 9/18:** Aramco has told European **term** customers they get **ZERO October crude**, **applying to all European term buyers** (Bloomberg 9/18). **Petroline — the ~7 mb/d Hormuz BYPASS — drone-struck 9/10 at multiple pumping stations; no crude has left Yanbu since 9/11** (Vortexa); bypass targets **~half throughput in ~a month**, full repair **4–6 weeks**. 🔴 **Both Saudi export routes impaired at once: the bypass around Hormuz was itself bypassed.**
+⛔ **THE STRONGEST CLAIM IS PRINCIPAL-UNCONFIRMED: Aramco declined to comment; no force majeure on any leg.** Carry as *strongly reported, seller-unconfirmed* — a cutoff notified to buyers is not a cutoff announced by the seller.
+🔑 **SIZE AND SHAPE — concentration is the story, not the aggregate.** OECD Europe took **~577 kb/d** Saudi crude in June = **~4–5% of European runs**, replaceable **at a price**. But **Orlen runs Saudi at ~40–50% of its slate** since replacing Russian barrels. ⇒ **A refinery-slate and DIFFERENTIALS event, not a European volume shortfall.**
+🔴 **THE CRUDE MARKET FADED IT ON THE DAY THE CUTOFF BROKE.** Brent **107.63 [9/10 attack]** → peak **108.75 [9/15]** → **98.77 [9/18, −5.8%**, largest fall of the episode]. **Aggregator pieces dated 9/18 quote "near $108" — that is the 9/15 peak, three days stale, presented as current.** Read: **a regional REALLOCATION is not a global supply loss** — Saudi barrels redirect, Europe buys North Sea/WTI/CPC, world balance holds, flat-price premium deflates. ⛔ **LIMIT: Brent flat price CONTAINS but does not ISOLATE the European subject — differentials, freight and cracks are unobservable here, so a falling Brent does NOT clear the European inflation channel.**
+⚠️ **ECB read — GENUINELY AMBIGUOUS, and I am not picking the dramatic side.** Hawkish: European acquisition costs and margins rise via differentials into a Council that named energy an upside risk, the October window **inside** the pre-**10/29** period, `T-04` one hike away. Dovish: **the headline oil input is currently DISINFLATING.** ⇒ **Not a clear incremental hike signal.** Discriminator: do European refined-product prices decouple upward from a falling Brent? **I cannot observe it.** → `KB-HANS-077`
 
 ---
 
@@ -72,9 +65,9 @@ Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to matur
 | German CPI (Aug) · ifo | **2.9%** (energy **10.5%**) · ifo **88.8**, up from 86.7 | Destatis · ifo ✓ |
 | German IP | **−1.1% m/m (Jul)** — ⚠️ `VX-HANS-8.05` wants **YoY** and stays stale deliberately; a basis mismatch is worse than stale | Destatis ✓ |
 
-🔴 **A FIFTH REFUTATION OF MY BELOW-CONSENSUS GROWTH LEG, recorded as such rather than arriving one desk at a time.** German institutes **raised** forecasts in early September (*surprisingly strong exports*; the Iran war *less severe than feared*); **ifo's autumn forecast (9/3): "Recovery Forces Gain the Upper Hand"** — GDP **+1.4% 2026**. That follows the ECB revising growth up for 2026 **and** 2027 on *"greater than expected resilience"*, France Q2 **+0.2%** against my "stagnated," euro-area Q2 **+0.4%**, and all three August PMI finals revising **up**. **Five independent refutations is not bad luck — the leg is wrong and the ISM-weakness transmission it fed is dead.** `HANS-T-02` (>52) stays correctly OPEN. → `KB-HANS-067`
+🔴 **FIFTH REFUTATION OF MY BELOW-CONSENSUS GROWTH LEG** — German institutes **raised** forecasts early Sept; **ifo autumn (9/3): "Recovery Forces Gain the Upper Hand"**, GDP **+1.4% 2026**. Following the ECB revising growth up for 2026 **and** 2027, France Q2 **+0.2%** vs my "stagnated," EA Q2 **+0.4%**, and all three August PMI finals revising **up**. **Five independent refutations is not bad luck — the leg is wrong and the ISM-weakness transmission it fed is dead.** `T-02` stays correctly OPEN. → `KB-HANS-067`
 
-**European banks: no stress. `T-14` NOT firing on a CURRENT dated sweep (9/18)**, not a recycled sentence — answering WALTER's 9/15 ask. No large-EU-bank/G-SIB earnings warning tied explicitly to private-credit losses; no ECB/ESRB systemic warning **naming** institutions. The **ESRB credit taskforce is EXAMINING** private credit and may recommend direct oversight of the ~$3.1tn sector (adviser, Jul 2026) — **an examination is not a naming warning**, so leg (b) is unfired. ECB May-2026 FSR (primary, 9/5): **€62.5bn drawn, 12 banks = 0.2% of assets.** ⛔ **ESRB `esrb.report202602` STILL UNREAD — no onward routing.**
+**European banks: no stress. `T-14` NOT firing on a CURRENT dated sweep (9/18)**, not a recycled sentence — answering WALTER's 9/15 ask. No G-SIB earnings warning tied explicitly to private-credit losses; no ECB/ESRB warning **naming** institutions — the ESRB taskforce is **EXAMINING** the ~$3.1tn sector (Jul 2026), and **an examination is not a naming warning.** FSR primary (9/5): **€62.5bn drawn, 12 banks = 0.2% of assets.** ⛔ **ESRB report STILL UNREAD — no onward routing.** → `KB-HANS-068`
 
 ---
 
@@ -93,7 +86,7 @@ Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to matur
 | EUR/USD · DXY · GBP/USD | **1.1489 · 100.21 · 1.3394** | <1.05 watch far away, **direction REVERSED** | own pull ✓ 9/18 |
 | EuroStoxx50 · DAX · FTSE | **6,236 · 25,717 · 10,816** | — | ✓ 9/17–18 |
 
-**Open fires: 4 of 14, unchanged — `T-02` · `T-05` · `T-07` · `T-08`. No new fire this session, and the one that nearly happened (`T-10`) is documented above.** 🔴 **`T-12` (EUR/USD 3M basis) remains UNINSTRUMENTED and cannot fire at all — excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 14.
+**Open fires: 4 of 15 — `T-02` · `T-05` · `T-07` · `T-08`. No new fire; the one that nearly happened (`T-10`) is above. 🆕 `T-15` Saudi-crude-to-Europe REGISTERED 9/18** (see §SAUDI). 🔴 **`T-12` (EUR/USD 3M basis) remains UNINSTRUMENTED and cannot fire at all — excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 14.
 
 ---
 
@@ -128,11 +121,11 @@ Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to matur
 
 ---
 
-## 📬 INBOX — **4 packets + 5 WALTER SIGs ALL DISPOSITIONED 2026-09-18; both lanes clear.** Full table → `workbook/2026-09-18_INBOX_DISPOSITIONS.md`
+## 📬 INBOX — **all lanes CLEAR 2026-09-18.** → `workbook/2026-09-18_INBOX_DISPOSITIONS.md`
 
-**WALTER 9/17 BoE (ACTION)** ✅ actioned **and extended at primary** — recovered the £222bn pre-2035 leg the relay did not carry · **WALTER 9/15 threshold gaps** ✅ **answered in full** (all 10 daily/compound rows re-graded with source+date; compound legs kept separate; `T-14` given a CURRENT dated sweep; `T-12` keeps its explicit unfed state) · **DAEDALUS 9/17 PR6** ✅ both asks done — **and ask #1 nearly caused a defect (the 137.5 near-miss above)** · **HAWK 9/18 rearmament split** ✅ **CONCURRED, replied 9/18** · 4 WALTER SIGs ⬜ INFO, integrated (US 10Y 4.998; diesel ATH $216.26; Saudi Yanbu shut, **no FM established**) · **WALTER 9/10 `COR-20260908-04`** ⬜ NO-OP, owner fixed both deviations.
+4 packets + 5 WALTER SIGs read and filed one at a time. **WALTER BoE** ✅ actioned **and extended at primary** · **WALTER thresholds** ✅ answered in full · **DAEDALUS PR6** ✅ both asks · **HAWK split** ✅ **CONCURRED** · **`COR-20260910-02`** NO-OP.
 
-**`COR-20260910-02` RECEIPTED this session** (Treasury-buyback correction; **NO-OP** — those figures are BOND's leg and no HANS surface cites them).
+
 ## CROSS-AGENT FLAGS — **full table → `DISPATCH_LOG.md`** (LIVE, maintained; 2026-09-18 rows appended there)
 
 🔴 **BOND/TERRY** — my 9/10 euro-strength mechanism is **REFUTED** (Fed HIKED 9/16); differential unchanged 137.5bp, EUR/USD **1.1489 weaker**; exclusion leg (2) must be **re-argued**. 🔴 **BOND** — **BoE removed the long-end gilt seller** (£120bn held to maturity, auctions paused, £20bn/yr); your UST-30Y cross-read. 🟠 **HENRY** — ifo 88.8, institutes revising **UP**: the **ISM-weakness leg is dead, fifth refutation**; Sept flash 9/23. 🟠 **BRENT/HAWK** — TTF €79.38; **gap RE-WIDENED to −19.7pp**; ⛔ **no FM on Saudi crude**. 🟢 **HAWK** — scope split **CONCURRED**; S&P driver figure qualified (**survey attribution, not a measurement**; successor prints 9/23). 🟠 **WALTER** — threshold pass **answered in full**. 🟠 **DAEDALUS** — PR6 asks discharged; **pickup: the supplied-delta near-miss**. 🟡 **LIQUID/REGINALD** — `T-14` not firing on a current sweep; ⛔ ESRB still unread. 🔴 **PROME (rearmament): the FISCAL leg does NOT support "rising conflict risk"** — a Bund at a 15-yr high is *selling*, not a flight-to-quality bid; the unheld leg is the **COMMON-MODE LEVEL** channel (`HNS-08` the only instrument). ⛔ **"Not priced" ≠ "not happening."** → `research/2026-09-18_REARMAMENT_FISCAL_READ.md` 🟠 **PROME** — `T-08` has **no registered exit**; the **OAT basis gap widened to ~10bp and now decides a threshold**.
@@ -155,11 +148,10 @@ Of a **£488.2bn** APF gilt stock: **£222bn** maturing pre-2035 **held to matur
 | 13 | 🆕 **Re-argue exclusion leg (2).** The Fed hike killed the euro-strength mechanism; `KB-HANS-014` untouched but a support is gone | open |
 | 14 | 🆕 **`VX-HANS-11.03` European_Defense_Issuance_5yr is 64d stale** — the vector that should carry the rearmament question is not current. Read the German budget at **primary** and settle the `KB-051` €203bn vs €118.7bn perimeter | 🟠 |
 
-## 🔴 POST-COMMIT AUDIT (Will asked) — **3 DEFECTS IN MY OWN COMMITTED WORK, ALL FIXED.** Detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
+## 🔴 POST-COMMIT AUDIT (Will asked) — **3 DEFECTS IN MY OWN COMMITTED WORK, ALL FIXED.** Full detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
 
-**① STATUS-TOKEN SEMANTICS (serious).** I minted `SUPERSEDED-BY-KB-HANS-059` and `EXPIRED-NOT-REFRESHED` **without opening `STATE_VOCABULARY.md`, which root canon points at.** Two guards then read one column differently: `boot.py` printed **"10 EXPIRED" when the truth was 3**; **`doc_audit.py` C8 — an allowlist of ONE token — silently dropped 3 rows from the stale-value check, plus 4 never checked at all.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** FIXED: one shared dead-PREFIX predicate · **unknown tokens resolve to LIVE on purpose** · boot NAMES unrecognised tokens · **7 regression tests, mutation-verified.** Boot §[7] now reads **3 expired** — true. → `ML-HANS-452`, RULE #1c
-**② ML ID COLLISION (mine):** cited `ML-HANS-450`, already taken by my 9/10 lesson. Corrected to `451` here **and in the delivered DAEDALUS packet with a visible note**, not silently. **③ Doc counts:** said 51 tests / 7 checks; actual **58 / 8**.
-⚠️ **UNFIXED:** the **ECB primary pull is INTERMITTENT** — consecutive boots gave a clean §[2], then a triple failure (AAA 10Y + DE base leg, so spreads were correctly not computed). It **fails loud and refuses to compute off a stale base** — but **a blank §[2] is not a quiet board.**
+**① STATUS-TOKEN SEMANTICS (serious).** I minted `SUPERSEDED-BY-KB-HANS-059` / `EXPIRED-NOT-REFRESHED` **without opening `STATE_VOCABULARY.md`, which root canon points at.** Two guards then read one column differently: `boot.py` printed **"10 EXPIRED" when the truth was 3**; **`doc_audit.py` C8 — an allowlist of ONE token — silently dropped 3 rows from the stale-value check, plus 4 never checked at all.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: one shared dead-PREFIX predicate · **unknown tokens resolve to LIVE on purpose** · boot NAMES unrecognised tokens · **7 regression tests, mutation-verified.** Boot §[7] now reads **3 expired** — true. → `ML-HANS-452`, RULE #1c
+**② ML ID collision** (`450` taken) — corrected to `451` here **and in the delivered DAEDALUS packet with a visible note**. **③ Doc counts:** said 51 tests / 7 checks; actual **58 / 8**. ⚠️ **UNFIXED:** the **ECB primary pull is INTERMITTENT** — clean §[2] then a triple failure on consecutive runs. It fails loud and won't compute off a stale base — but **a blank §[2] is not a quiet board.**
 
 
 ⚠️ **STANDING PRIOR, SIX sessions:** every defect here has been found **from outside or by a script**, never by re-reading (8/28 ×4, 9/5 ×3, 9/10 ×7, **9/18 ×3, in work committed an hour earlier**). **The two near-defects I avoided were caught by rules written IN ADVANCE; the three I shipped were caught by running the tools again.** Neither by reading.
