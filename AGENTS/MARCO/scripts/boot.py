@@ -75,8 +75,17 @@ AWARENESS = [
 #   mtime is restamped by git sync, so it fails FALSE-NEGATIVE — derive vintage
 #   from file CONTENT wherever the content carries one.
 FETCHERS = [
-    ("Banxico remittances", TOOLS / "banxico_reverse.py",
+    # ⚠️ TWO DIFFERENT BANXICO TABLES — do not merge these rows (added 2026-09-19, s27).
+    # CE100 = remittances by MEXICAN STATE, QUARTERLY (the state-of-origin map).
+    # CE81  = national MONTHLY value/count/average — the series the SDL-01 count
+    # tell is written on. Until s27 only the CE100 row existed, under the label
+    # "Banxico remittances", so boot printed a green 85-day cadence-skip while the
+    # owed MONTHLY print went unflagged: a check that was correct about its own
+    # referent and silent about the thing that mattered.
+    ("Banxico state map (CE100, quarterly)", TOOLS / "banxico_reverse.py",
      BASELINES / "banxico_destination_states.tsv", 85, 120, None),
+    ("Banxico CE81 monthly (SDL-01 tell)", TOOLS / "banxico_monthly.py",
+     BASELINES / "banxico_monthly.tsv",            35, 120, lambda p: banxico_monthly_vintage(p)),
     ("H-2A disclosure",     TOOLS / "h2a_pull.py",
      BASELINES / "h2a_latest.tsv",                 85, 180, lambda p: h2a_vintage(p)),
     ("Slaughter weekly",    TOOLS / "slaughter_pull.py",
@@ -102,6 +111,51 @@ def expected_h2a_quarter(today=None):
                 if best is None or (fy, q) > best:
                     best = (fy, q)
     return best
+
+
+def expected_banxico_month(today=None):
+    """Newest CE81 data month Banxico should have published by `today`.
+
+    Month M lands about the first business day of M+2 (July 2026 -> ~Sep 1), so a
+    month counts as available 32 days after its month end — the same 32-day rule
+    the H-2A quarter test uses, for the same reason.
+    """
+    today = today or date.today()
+    y, m = today.year, today.month
+    for _ in range(6):
+        m -= 1
+        if m == 0:
+            y, m = y - 1, 12
+        nm_y, nm_m = (y + 1, 1) if m == 12 else (y, m + 1)
+        month_end = date(nm_y, nm_m, 1) - timedelta(days=1)
+        if month_end + timedelta(days=32) <= today:
+            return (y, m)
+    return None
+
+
+def banxico_monthly_vintage(path):
+    """Fetch only when Banxico should have a NEWER data MONTH than the file holds.
+
+    Why not the mtime cadence: the CE81 release is MONTHLY, and the cadence that
+    guarded the only Banxico step until s27 was 85 days — long enough to skip two
+    owed prints in a row without ever printing a warning.
+    """
+    if not path.exists():
+        return True, "output missing"
+    mm = re.search(r"\bnewest=(\d{4})-(\d{2})", path.read_text(errors="replace"))
+    if not mm:
+        return True, "no content vintage in header"
+    have = (int(mm.group(1)), int(mm.group(2)))
+    exp = expected_banxico_month()
+    if exp and have < exp:
+        return True, (f"holds {have[0]}-{have[1]:02d}, Banxico should have "
+                      f"{exp[0]}-{exp[1]:02d}")
+    if exp and have == exp:
+        return False, f"holds {have[0]}-{have[1]:02d} = newest published"
+    age = file_age_days(path)
+    if age is not None and age < 1:
+        return False, f"{have[0]}-{have[1]:02d}, re-checked <1d ago"
+    return True, f"holds {have[0]}-{have[1]:02d}, re-checking"
 
 
 def h2a_vintage(path):
