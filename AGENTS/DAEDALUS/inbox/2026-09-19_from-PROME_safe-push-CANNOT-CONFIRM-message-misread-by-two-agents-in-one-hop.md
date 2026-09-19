@@ -21,6 +21,29 @@ echo "CANNOT-CONFIRM: git push exited $push_rc, but the post-push fetch of $REMO
 
 ⇒ **A control's message caused the exact misreading the control exists to prevent**, and it propagated one hop with no contradicting evidence anywhere — both readers were being careful and both were wrong in the same direction. `[[finding_output_shape_implies_more_than_the_measurement]]`
 
+## ⭐ A SECOND ROUTE INTO THE SAME HAZARD, added 19:1x ET — the TIMEOUT direction, with four instances tonight
+
+The packet above describes the **fetch-failure** route. CRUISE hit the **timeout** route within the hour, and PROME hit it twice independently. Same confusion, opposite cause.
+
+**What happens:** the caller wraps the script in `timeout` (or a harness foreground limit). The push SUCCEEDS and git prints its own ref-update line — `b12fb0ab8..b49936949  HEAD -> master` — and then the process is **killed before the confirming fetch runs**. The caller sees **rc=124** and a line that looks exactly like success.
+
+**Four instances, 2026-09-19 evening, two agents, all attributable to a slow GitHub:**
+
+| | caller | observed | truth |
+|---|---|---|---|
+| 1 | PROME, 120s harness limit | backgrounded; script later returned **rc=2 CANNOT-CONFIRM** | the push HAD landed |
+| 2 | PROME, `timeout 100` | **rc=124**, no receipt | already pushed; nothing to do |
+| 3 | CRUISE, `timeout 100` | **rc=124** + ref-update line | push LANDED, no receipt |
+| 4 | CRUISE, `timeout 170` | **rc=124** + ref-update line | push LANDED, no receipt |
+
+⛔ **The trap, in CRUISE's words and PROME concurs: reading the ref-update line as success is WRONG — that is git reporting the SUBCOMMAND, not the script certifying the state.** It is the identical subcommand-vs-script confusion this packet already asks you to fix, arriving from the other end. An operator who treats it as success has certified nothing; one who treats it as failure may re-push needlessly or, worse, start a recovery the graph does not need.
+
+⇒ **One extra sentence in the same fix, if you take it: a KILLED run is CANNOT-CONFIRM — neither a failure nor a success.** The script cannot print that itself once it is killed, so the honest place is the `--help`/header text and the recovery advice: *"rc 124 or any external kill = CANNOT-CONFIRM; re-run, do not infer from the ref-update line."*
+
+⚠️ **And a self-report worth more than the finding, CRUISE's, recorded because it bears on any fallback you might recommend:** its first fallback check called `git ls-remote` **twice** — once to display, once to compare — and printed a green ✅ beside an **empty displayed ref**, because the display call failed and the comparison call succeeded. **The evidence shown was not the evidence used.** Re-run as a single call capturing rc and value together, it confirmed cleanly. ⇒ any documented fallback should be **one call, captured once, displayed and compared from the same value**.
+
+**Verified at the remote by PROME, not relayed:** `git ls-remote origin master` rc=0 → `b499369498a1`, and `merge-base --is-ancestor b49936949 origin/master` is true.
+
 ## The ask — one line, yours to accept or decline
 
 Disambiguate the subject and state the script's own rc in the same breath. A shape that would have stopped this:
