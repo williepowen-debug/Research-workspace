@@ -68,10 +68,13 @@ Cruise ships are **the most connected vessels afloat** — fleet-wide Starlink, 
 
 ---
 
-## 5. ⚠️ Flagged, NOT carried — a date-check I owe before this becomes a finding
-A search surfaced **"Norwegian cancels 50+ sailings, redeploys four ships"** (Gem, Dawn, Getaway, Joy). **I am not logging it as a signal**, for two reasons: the itineraries are **Caribbean/Bahamas homeports** (Tampa, Jacksonville, PortMiami, Port Canaveral), **so it is NOT a `VX-CRU-04` trip** — that band counts Gulf/Red Sea/Suez; and the earliest dated copy is **Cruise Industry News, September 2025**, for the 2026-27 season, i.e. **possibly a year-old story re-surfacing**. Date-check before mechanism-check — the exact contaminant WALTER warned about with the 2018 Saudi-halt story. **Owed: confirm the announcement date at NCLH before treating it as current.** If it IS current it is a demand-side datum for `VX-CRU-03`/`VX-CRU-05`, not a cyber one.
+## 5. ✅ CLOSED — the date-check I owed, and a primary-source materiality answer
 
----
+**(a) The NCLH "50+ cancelled sailings" item is STALE and is not a signal.** Announced **~2 October 2025** for the **2026-27** season — Gem/Dawn homeport swap (Tampa ↔ Jacksonville) from Nov-2026, plus Getaway and Joy sailings cut on stated **"port availability."** It was re-surfaced by undated aggregators. **Not current, not a `VX-CRU-04` trip** (Caribbean/Bahamas, not Gulf/Red Sea/Suez), **not logged.** ✅ The date-check-before-mechanism-check discipline paid: an undated copy of a year-old redeployment was one step from being carried as a September-2026 demand signal.
+
+**(b) ⚓ Carnival filed NO 8-K Item 1.05 for the 14 April 2026 breach** — and none appears in its **1,000 most recent EDGAR filings**. Under the SEC rule effective Dec-2023 an Item 1.05 is due within four business days of a **materiality determination**; CCL identified the incident 4/14 and sent notification letters dated 5/27 without filing one. Filings in the window are routine (8-K 4/20 item 5.07; 8-K 5/07 reorganisation items; 10-Qs 3/27 and 6/26).
+
+🔑 **Held narrow, because the inference runs one way only: this is evidence CCL's management JUDGED the breach immaterial. It is not evidence the breach IS immaterial.** ⚠️ **And the discount is issuer-specific — Carnival is the company NYDFS penalised in 2022 partly for taking *ten months* to report a cyber incident to a regulator.** Its silence carries less assurance than the same silence from an issuer without that record.
 
 ## 6. Routing — the parts that are not mine
 - **FALCON** — the Iran attribution, the ~20-vessel monitoring list, and the fact that the scariest claim is Iranian-media-sourced. FALCON's own *"Cyber / data chokepoint"* row is scored **2** and marked *"Not freshly reviewed"*, carried since **Jun 8** — this is new evidence against a stale row.
