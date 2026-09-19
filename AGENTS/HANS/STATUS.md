@@ -1,6 +1,6 @@
 # HANS STATUS.md
-**Updated:** 2026-09-18 ~21:1x ET — **8-DAY CATCH-UP: THE BoE PIVOTED THE GILT LONG END, THE FED HIKED, AND ONE OF MY PUBLISHED MECHANISMS IS REFUTED BY IT.** Will: *"catch up on recent events and news"* → post-commit audit → PROME's rearmament ask. Levels re-pulled today or dated.
-**Boot:** rc1 · `doc_audit.py` **0 findings** before and after this session's edits · R1 corrections **rc=1 → receipted** · 9/10 blocks rotated. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
+**Updated:** 2026-09-18 ~21:5x ET — **CLOSED OUT. 8-DAY CATCH-UP: THE BoE PIVOTED THE GILT LONG END, THE FED HIKED, AND ONE OF MY PUBLISHED MECHANISMS IS REFUTED BY IT.** Will: *"catch up on events and news"* → post-commit audit → PROME's rearmament ask → Saudi/Europe. Levels re-pulled today or dated.
+**Boot:** rc1 · `doc_audit.py` **0 findings** · 58 tests OK · R1 **rc=1 → receipted** · mail lanes empty. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.**
 
 ---
 
@@ -95,13 +95,13 @@
 
 | ID | Prediction | Conf | Resolves | State 2026-09-18 |
 |---|---|---|---|---|
-| **HNS-06** | German Mfg PMI **≥50.0** on the Sept flash | **80%** | **~2026-09-23** | 🟢 **ON TRACK, 5 days out.** ✅ **Release date VERIFIED: 2026-09-23, 07:30 UTC Germany** (EA aggregate 30 min later). ⚠️ **GRADE ON THE FLASH** — that is what was registered; the final lands ~10 days later and grading on it would be the mirror image of the 9/5 error. Aug final 54.3. |
-| **HNS-07** | EU storage **≥80%** by Nov 1 | **65%** | 2026-11-01 | 🔴 **AT RISK — the pace deteriorated.** From **69.06% [9/18]**, 44 days at the observed **+0.21pp/d → ~78.3%, a MISS**; at my carried +0.30pp/d → ~82.3%, a HIT. **The observed pace now sits on the MISS side of the line.** ⚠️ **Not re-marked** — the mark was made at 65% precisely because my two instruments straddled the line, and one instrument moving is what 65% already anticipated. Re-mark only on a pre-committed rule, not on drift. |
-| **HNS-08** | Bund does **NOT** close ≥4.00% before Dec 31 | **70%** | 2026-12-31 | 🟢 **OPEN, no MISS.** Buffer to a 4.00 **close**: **~48–50bp** (3.50–3.5187, 9/18). Continuous-monitoring — MISS the instant the Bund **closes** ≥4.00. |
-| **HNS-09** | No large euro-area bank reports a Q3-2026 materially private-credit-driven loss | **70%** | 2026-11-30 | 🟢 **OPEN.** `T-14` sweep 9/18 found no qualifying event. Q3 results season is the live window. |
+| **HNS-06** | German Mfg PMI **≥50.0** on the Sept flash | **80%** | **2026-09-23** | 🟢 **ON TRACK, 5 days out.** ✅ **Release VERIFIED 9/23 07:30 UTC.** ⚠️ **GRADE THE FLASH** — that is what was registered; grading the final ~10 days later is the mirror image of the 9/5 error. Aug final 54.3. |
+| **HNS-07** | EU storage **≥80%** by Nov 1 | **65%** | 2026-11-01 | 🔴 **AT RISK.** From **69.06% [9/18]**, 44 days at the observed **+0.21pp/d → ~78.3%, a MISS**; at my carried +0.30pp/d → ~82.3%, a HIT. **Observed pace now sits on the MISS side.** ⚠️ **Not re-marked** — 65% was set *because* my two instruments straddled the line; one moving is what 65% already priced. Re-mark only on a pre-committed rule. |
+| **HNS-08** | Bund does **NOT** close ≥4.00% before Dec 31 | **70%** | 2026-12-31 | 🟢 **OPEN.** Buffer to a 4.00 **close**: **~48–50bp** (3.50–3.5187, 9/18). Continuous — MISS the instant it **closes** ≥4.00. |
+| **HNS-09** | No large euro-area bank reports a Q3-2026 materially private-credit-driven loss | **70%** | 2026-11-30 | 🟢 **OPEN.** `T-14` sweep 9/18: no qualifying event. Q3 results is the live window. |
 
-**7/16 book: 2 HIT, 1 MISS** · **`HNS-05` ✅ HIT 9/10** — outcome HIT, **rationale-quality FAIL**; §3b **TACTICAL 3–1** → `thesis/ECB_2026-09-10_GRADE.md`.
-🔴 **STANDING CALIBRATION LESSON:** *my HITs are momentum continuations; my one MISS was the only call requiring a TURN.* `HNS-06` is written on the opposite side of that error — and **`HNS-07` is now the live test of whether I re-mark a straddling call that drifts against me.**
+**7/16 book: 2 HIT, 1 MISS** · **`HNS-05` ✅ HIT 9/10** — outcome HIT, **rationale-quality FAIL**; §3b **TACTICAL 3–1**.
+🔴 **STANDING CALIBRATION LESSON:** *my HITs are momentum continuations; my one MISS was the only call requiring a TURN.* `HNS-06` is written on the opposite side of it — and **`HNS-07` is the live test of whether I re-mark a straddling call that drifts against me.**
 
 ---
 
@@ -122,40 +122,42 @@
 
 ---
 
-## 📬 INBOX — **all lanes CLEAR 2026-09-18.** → `workbook/2026-09-18_INBOX_DISPOSITIONS.md`
+## 📬 INBOX — **all lanes CLEAR.** → `workbook/2026-09-18_INBOX_DISPOSITIONS.md`
 
-4 packets + 5 WALTER SIGs read and filed one at a time. **WALTER BoE** ✅ actioned **and extended at primary** · **WALTER thresholds** ✅ answered in full · **DAEDALUS PR6** ✅ both asks · **HAWK split** ✅ **CONCURRED** · **`COR-20260910-02`** NO-OP.
+4 packets + 5 WALTER SIGs read and filed one at a time. **WALTER BoE** ✅ actioned, **extended at primary** · **WALTER thresholds** ✅ answered in full · **DAEDALUS PR6** ✅ both asks · **HAWK split** ✅ **CONCURRED** · **`COR-20260910-02`** NO-OP. 🆕 **PROME cross-session ×4** — rearmament read, Saudi supplement, roll-artifact correction accepted, local enumeration returned.
 
 
-## CROSS-AGENT FLAGS — **full table → `DISPATCH_LOG.md`** (LIVE, maintained; 2026-09-18 rows appended there)
+## CROSS-AGENT FLAGS — **full state → `DISPATCH_LOG.md`** (LIVE; 2026-09-18 rows appended there)
 
-🔴 **BOND/TERRY** — my 9/10 euro-strength mechanism is **REFUTED** (Fed HIKED 9/16); differential unchanged 137.5bp, EUR/USD **1.1489 weaker**; exclusion leg (2) must be **re-argued**. 🔴 **BOND** — **BoE removed the long-end gilt seller** (£120bn held to maturity, auctions paused, £20bn/yr); your UST-30Y cross-read. 🟠 **HENRY** — ifo 88.8, institutes revising **UP**: the **ISM-weakness leg is dead, fifth refutation**; Sept flash 9/23. 🟠 **BRENT/HAWK** — TTF €79.38; **gap RE-WIDENED to −19.7pp**; ⛔ **no FM on Saudi crude**. 🟢 **HAWK** — scope split **CONCURRED**; S&P driver figure qualified (**survey attribution, not a measurement**; successor prints 9/23). 🟠 **WALTER** — threshold pass **answered in full**. 🟠 **DAEDALUS** — PR6 asks discharged; **pickup: the supplied-delta near-miss**. 🟡 **LIQUID/REGINALD** — `T-14` not firing on a current sweep; ⛔ ESRB still unread. 🔴 **PROME (rearmament): the FISCAL leg does NOT support "rising conflict risk"** — a Bund at a 15-yr high is *selling*, not a flight-to-quality bid; the unheld leg is the **COMMON-MODE LEVEL** channel (`HNS-08` the only instrument). ⛔ **"Not priced" ≠ "not happening."** → `research/2026-09-18_REARMAMENT_FISCAL_READ.md` 🟠 **PROME** — `T-08` has **no registered exit**; the **OAT basis gap widened to ~10bp and now decides a threshold**.
+🔴 **BOND/TERRY** euro-strength mechanism **REFUTED** (Fed hiked 9/16) + **BoE removed the long-end gilt seller** · 🔴 **BRENT/HENRY** Saudi-to-Europe + **Brent roll-artifact correction at named contracts** · 🟠 **HENRY** ISM-weakness leg **dead, 5th refutation** · 🟢 **HAWK** rearmament split **CONCURRED**, S&P figure qualified · 🟠 **WALTER** threshold pass **answered in full** · 🟠 **DAEDALUS** PR6 discharged + supplied-delta pickup · 🟡 **LIQUID/REGINALD** `T-14` not firing, ESRB unread · 🔴 **PROME** fiscal leg **does NOT support "rising conflict risk"** (`research/2026-09-18_REARMAMENT_FISCAL_READ.md`), `T-08` still has no exit, OAT basis gap now decides a threshold, roll enumeration returned.
 
 ---
 
 ## NEXT SESSION — WHAT IS OWED
 
 🔴 **FIRST ACTION NEXT BOOT: `python3 scripts/doc_audit.py`.** `CLAUDE.md` RULE #1b. It is the only thing that reliably disagrees with a surface I just wrote.
+🔴 **SECOND: the CONTRACT ROLL lands 9/28 (`NG=F`) and 9/29 (`TTF=F`).** `KB-HANS-079`/`081` expire **9/25** so boot raises it **before** the roll — *a warning dated on its own event is not a warning.* **`T-07` is a LEVEL ladder with L1+L2 FIRED: never grade a rung crossing across a roll.** Harmless this time (−€1.38, no rung crossed) **and only by the curve's shape.**
 
 | # | Owed | Due |
 |---|---|---|
 | 3 | **`HNS-06`** — German Mfg PMI ≥50.0, **9/23 07:30 UTC flash**. **Grade the FLASH, not the final** | **2026-09-23** |
 | 4 | **ESRB `esrb.report202602` at primary.** FSR constraint lifted; **this is not** | open |
 | 5 | 🔴 **TWO OPEN BASIS GAPS, one now DECIDES A THRESHOLD.** (a) **OAT ~10bp** (TE 4.5735 vs i-i 4.47, 9/18), **widened from ~7bp** — both `T-10` trip lines sit inside it. (b) **UK 10Y**: BoE `IUDMNPY` par vs TE benchmark. **Pin both before either is cited** | 🔴 |
-| 5b | 🆕 **No free DAILY CLOSE source for gilts — said so rather than implying coverage.** Lead: **DMO** (`dmo.gov.uk/data/ExportReport?reportCode=D4H`) — plain GET returns an HTML shell, needs a form POST. **One session; closes `T-06`/`T-13`** | open |
-| 8 | **AGSI storage UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY`; boot §[2] blind on storage. Worked on the other machine 9/10. **Re-check per box**; free signup `agsi.gie.eu/account` | open |
-| 9 | **`HANS-T-08` needs a registered EXIT CONDITION** (none) **and an AGSI-derived norm** so the gap stops being cross-source. Proposed: inside −12pp, 5 gas days | next boot |
-| 12 | 🆕 **`HNS-07` drifting against me on observed pace.** Not re-marked — decide **in advance** what would justify one, pre-committed rather than taken at the resolver | before 11/01 |
-| 13 | 🆕 **Re-argue exclusion leg (2).** The Fed hike killed the euro-strength mechanism; `KB-HANS-014` untouched but a support is gone | open |
-| 14 | 🆕 **`VX-HANS-11.03` European_Defense_Issuance_5yr is 64d stale** — the vector that should carry the rearmament question is not current. Read the German budget at **primary** and settle the `KB-051` €203bn vs €118.7bn perimeter | 🟠 |
+| 5b | 🆕 **No free DAILY CLOSE source for gilts.** Lead: **DMO** (`ExportReport?reportCode=D4H`) — plain GET returns an HTML shell, needs a form POST. **One session; closes `T-06`/`T-13`** | open |
+| 8 | **AGSI UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY`; boot §[2] blind on storage. Worked on the other machine 9/10. **Re-check per box**; signup `agsi.gie.eu/account` | open |
+| 9 | **`T-08` needs a registered EXIT CONDITION** (none) **+ an AGSI-derived norm** so the gap stops being cross-source. Proposed: inside −12pp, 5 gas days | next boot |
+| 12 | **`HNS-07` drifting against me on pace.** Not re-marked — decide **in advance** what would justify one, pre-committed rather than at the resolver | before 11/01 |
+| 13 | **Re-argue exclusion leg (2).** The Fed hike killed the euro-strength mechanism; `KB-HANS-014` untouched but a support is gone | open |
+| 14 | 🆕 **`VX-HANS-11.03` Defense_Issuance_5yr 64d stale** — the vector that should carry the rearmament question isn't current. Read the German budget at **primary**; settle `KB-051`'s €203bn vs €118.7bn perimeter | 🟠 |
 
-## 🔴 POST-COMMIT AUDIT (Will asked) — **3 DEFECTS IN MY OWN COMMITTED WORK, ALL FIXED.** Full detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
+## 🔴 POST-COMMIT AUDIT (Will asked) — **5 DEFECTS IN MY OWN SESSION'S WORK, ALL FIXED.** Detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
 
-**① STATUS-TOKEN SEMANTICS (serious).** I minted `SUPERSEDED-BY-KB-HANS-059` / `EXPIRED-NOT-REFRESHED` **without opening `STATE_VOCABULARY.md`, which root canon points at.** Two guards then read one column differently: `boot.py` printed **"10 EXPIRED" when the truth was 3**; **`doc_audit.py` C8 — an allowlist of ONE token — silently dropped 3 rows from the stale-value check, plus 4 never checked at all.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: one shared dead-PREFIX predicate · **unknown tokens resolve to LIVE on purpose** · boot NAMES unrecognised tokens · **7 regression tests, mutation-verified.** Boot §[7] now reads **3 expired** — true. → `ML-HANS-452`, RULE #1c
-**② ML ID collision** (`450` taken) — corrected to `451` here **and in the delivered DAEDALUS packet with a visible note**. **③ Doc counts:** said 51 tests / 7 checks; actual **58 / 8**. ⚠️ **UNFIXED:** the **ECB primary pull is INTERMITTENT** — clean §[2] then a triple failure on consecutive runs. It fails loud and won't compute off a stale base — but **a blank §[2] is not a quiet board.**
+**① STATUS-TOKEN SEMANTICS.** Minted tokens **without opening `STATE_VOCABULARY.md`**. Two guards read one column differently: boot printed **"10 EXPIRED" when the truth was 3**; **`doc_audit` C8 — an allowlist of ONE token — silently dropped 3 rows, plus 4 never checked.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: shared dead-PREFIX predicate · **unknown tokens = LIVE on purpose** · boot names unrecognised tokens · **7 tests, mutation-verified.** → `ML-HANS-452`, RULE #1c
+**② ML ID collision** (`450` taken) → `451`, corrected **in the delivered packet with a visible note**. **③ Doc counts** 51/7 → **58/8**. **④ PUBLISHED metric-name SPLIT** — new names for existing series orphaned them **and left 67.33 / 87.4 reading CURRENT**, disabling stale-consumer detection; repaired by **continuing the established names** (append-only ⇒ never rename) → `ML-HANS-455`. **⑤ `/tmp/enum.py` shadowed the stdlib** — ran as an import, **printed success, then crashed**; writes verified clean, but that was **luck about ordering** → `ML-HANS-454`.
+⚠️ **UNFIXED:** the **ECB pull is INTERMITTENT** — a blank §[2] is not a quiet board.
 
 
-⚠️ **STANDING PRIOR, SIX sessions:** every defect here has been found **from outside or by a script**, never by re-reading (8/28 ×4, 9/5 ×3, 9/10 ×7, **9/18 ×3, in work committed an hour earlier**). **The two near-defects I avoided were caught by rules written IN ADVANCE; the three I shipped were caught by running the tools again.** Neither by reading.
+⚠️ **STANDING PRIOR, SIX sessions:** every defect here found **from outside or by a script**, never by re-reading (8/28 ×4, 9/5 ×3, 9/10 ×7, **9/18 ×5**). 🆕 **Tonight added a new route: two came from a PEER's flag, and chasing one of those found the roll exposure on my own open fire.** The near-defects I avoided were caught by rules written **in advance**; the ones I shipped, by running the tools again. **None by reading.**
 
 ## TWO-SENTENCE SUMMARY
 

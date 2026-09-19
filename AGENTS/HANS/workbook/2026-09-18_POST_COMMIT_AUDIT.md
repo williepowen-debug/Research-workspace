@@ -11,3 +11,14 @@
 **② ML ID COLLISION, mine, same session:** I cited `ML-HANS-450` for the supplied-delta lesson — **already taken** by my 9/10 C4 lesson. Corrected to `451` here and **in the delivered DAEDALUS packet with a visible correction note**, not a silent swap.
 **③ Doc counts drifted:** `CLAUDE.md` said 51 tests / 7 audit checks; actual 58 / 8. Corrected.
 ⚠️ **ALSO STANDING, UNFIXED:** the **ECB primary pull is INTERMITTENT** — consecutive boot runs gave a clean §[2] and then a triple failure (AAA 10Y + the DE base leg, so spreads were correctly not computed). **It fails LOUD and refuses to compute off a stale base, which is right** — but §[2] coverage is run-dependent, so *a blank §[2] is not evidence of a quiet board.*
+
+
+---
+
+## Closeout re-cut (2026-09-18 late) — defects ④ and ⑤ added
+
+## 🔴 POST-COMMIT AUDIT (Will asked) — **3 DEFECTS IN MY OWN COMMITTED WORK, ALL FIXED.** Full detail → `workbook/2026-09-18_POST_COMMIT_AUDIT.md`
+
+**① STATUS-TOKEN SEMANTICS (serious).** I minted `SUPERSEDED-BY-KB-HANS-059` / `EXPIRED-NOT-REFRESHED` **without opening `STATE_VOCABULARY.md`, which root canon points at.** Two guards then read one column differently: `boot.py` printed **"10 EXPIRED" when the truth was 3**; **`doc_audit.py` C8 — an allowlist of ONE token — silently dropped 3 rows from the stale-value check, plus 4 never checked at all.** 🔴 **Loud-and-wrong is survivable; quiet-and-unsupervised is not.** Fixed: one shared dead-PREFIX predicate · **unknown tokens resolve to LIVE on purpose** · boot NAMES unrecognised tokens · **7 regression tests, mutation-verified.** Boot §[7] now reads **3 expired** — true. → `ML-HANS-452`, RULE #1c
+**② ML ID collision** (`450` taken) → `451`, corrected **in the delivered DAEDALUS packet with a visible note**. **③ Doc counts:** said 51/7; actual **58/8**. 🆕 **④ PUBLISHED metric-name SPLIT** — I appended `EU_STORAGE_FILL_PCT` / `OAT_BUND_SPREAD_BP` for series already named, orphaning them **and leaving 67.33 and 87.4 reading CURRENT**, which silently disabled stale-consumer detection for both. Repaired by **continuing the established names** (append-only ⇒ never rename). → `ML-HANS-455`. 🆕 **⑤ `/tmp/enum.py` shadowed the stdlib** — the script ran as an import, **printed success, then crashed**; writes verified clean, but that was luck about ordering → `ML-HANS-454`. ⚠️ **UNFIXED:** the **ECB pull is INTERMITTENT** — a blank §[2] is not a quiet board.
+

@@ -63,3 +63,12 @@
 | **HAWK** | ✅ Scope split **CONCURRED** (delivered `1fe0ddcf0`, *before* PROME's note — `VX-HAWK-EURMIL-01` can go **AGREED**). 🆕 **Qualified the S&P driver figure they are carrying downstream:** it is a **SURVEY ATTRIBUTION, not a measurement**; it is the **August final with a scheduled successor — the 9/23 flash**; and **SAFE's back-loading means the PMI impulse is NOT mostly SAFE money.** Boundary note back: **my energy fires are Gulf (Hormuz/Qatar), NOT Russia–NATO** — must not be relayed as European conflict evidence | 🟠 |
 
 **Standing gaps named in both packets rather than worked around:** German budget **not read at primary**; **`KB-HANS-051` perimeter conflict** (€203bn "net new borrowing" vs €118.7bn tabled net) **flagged, not overwritten**; **`VX-HANS-11.03` European_Defense_Issuance_5yr 64 days stale** — the vector that should carry this question is not current.
+
+
+---
+
+## 2026-09-18 closeout — consolidated flag state (rotated from STATUS.md)
+
+## CROSS-AGENT FLAGS — **full table → `DISPATCH_LOG.md`** (LIVE, maintained; 2026-09-18 rows appended there)
+
+🔴 **BOND/TERRY** — my 9/10 euro-strength mechanism **REFUTED** (Fed HIKED 9/16); differential unchanged 137.5bp, EUR/USD **1.1489 weaker**; exclusion leg (2) must be **re-argued**. 🔴 **BOND** — **BoE removed the long-end gilt seller** (£120bn to maturity, auctions paused, £20bn/yr); UST-30Y cross-read. 🟠 **HENRY** — ifo 88.8, institutes revising **UP**: the **ISM-weakness leg is dead, fifth refutation**; Sept flash 9/23. 🟠 **BRENT/HAWK** — TTF €79.38; **gap −19.7pp**; ⛔ **no FM on Saudi crude**; 🔴 **Brent roll-artifact CORRECTION delivered at named contracts**. 🟢 **HAWK** — split **CONCURRED**; S&P figure qualified (**survey attribution, not a measurement**; successor 9/23). 🟠 **WALTER** — threshold pass **answered in full**. 🟠 **DAEDALUS** — PR6 discharged; **pickup: the supplied-delta near-miss**. 🟡 **LIQUID/REGINALD** — `T-14` not firing on a current sweep; ⛔ ESRB unread. 🔴 **PROME (rearmament): the FISCAL leg does NOT support "rising conflict risk"** — a Bund at a 15-yr high is *selling*, not a flight-to-quality bid; the unheld leg is the **COMMON-MODE LEVEL** channel (`HNS-08` the only instrument). ⛔ **"Not priced" ≠ "not happening."** → `research/2026-09-18_REARMAMENT_FISCAL_READ.md` 🟠 **PROME** — `T-08` has **no registered exit**; the **OAT basis gap widened to ~10bp and now decides a threshold**; **local roll enumeration returned** (2 tickers, 4 surfaces).
