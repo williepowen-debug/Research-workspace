@@ -1,0 +1,25 @@
+SOURCE WORKTREE
+MODULE AGENTS/HANS/scripts/fetch_eu.py sha256 89b1078522b312cae4a60706bef548d8d17dbff0a0df72d07aa855807b2a1ce5
+RENDER ['🟠 GAP TO 5-YR NORM -15.99pp  (vs 85.05% norm)   HANS-T-08 bands -15 orange / -25 red']
+STORAGE [('HANS-T-08', -15.994, '2026-09-17')] breach True failure False
+complete_five_year_control years= 5 mean= 85.054 gap= -15.994 band= ORANGE
+RENDER ['🟢 GAP TO 5-YR NORM -13.79pp  (vs 82.85% norm)   HANS-T-08 bands -15 orange / -25 red']
+STORAGE [('HANS-T-08', -13.789999999999992, '2026-09-17')] breach False failure False
+missing_2023 years= 4 mean= 82.85 gap= -13.789999999999992 band= GREEN
+RENDER ['⛔ 5-YR NORM NOT COMPUTED (only 3/5 historical years reachable) — NO GAP REPORTED THIS RUN.']
+STORAGE [] breach False failure True
+missing_two_years_control years= 3 mean= None gap= None band= UNKNOWN
+RENDER ['🟠 GAP TO 5-YR NORM -15.99pp  (vs 85.05% norm)   HANS-T-08 bands -15 orange / -25 red']
+STORAGE [('HANS-T-08', -15.994, '2026-09-17')] breach True failure False
+wrong_dates_all_five years= 5 mean= 85.054 gap= -15.994 band= ORANGE
+RENDER ['🟢 GAP TO 5-YR NORM +nanpp  (vs nan% norm)   HANS-T-08 bands -15 orange / -25 red']
+STORAGE [('HANS-T-08', nan, '2026-09-17')] breach False failure False
+nonfinite_all_five years= 5 mean= nan gap= nan band= GREEN
+MODULE AGENTS/HANS/scripts/closeout_check.py sha256 3e48a3512c15b97af7cab54f7bdc87f2aaa7c68d0a98c364424b67818f3d94e6
+closeout_three_process_errors 1 runner_rc= 0 ['MECHANICAL: 8/8 executed · 0 failed', 'EXIT 0 — every mechanical step executed and passed.']
+closeout_three_process_errors 2 runner_rc= 0 ['MECHANICAL: 8/8 executed · 0 failed', 'EXIT 0 — every mechanical step executed and passed.']
+closeout_three_process_errors -15 runner_rc= 0 ['MECHANICAL: 8/8 executed · 0 failed', 'EXIT 0 — every mechanical step executed and passed.']
+SAM chronology: July 31 Friday -> August 3 Monday, next weekday/session, not second session
+net/gross counterexample: assets=1000, NBFI funding=150, NBFI loans=100;
+net NBFI debtor=50, 20% loan impairment=20 loss; net borrowing does not remove gross credit risk
+PASS: historical behaviors reproduced; no owner file or live network touched

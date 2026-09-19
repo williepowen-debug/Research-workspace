@@ -1,0 +1,490 @@
+CATO read-only review inventory
+UTC 2026-09-19T15:53:22.481500+00:00
+
+$ git log --format=%H %ad %s --date=iso-strict a2522254c..1b148338809bedc4de7a0e1f1c78c34273964ae1
+1b148338809bedc4de7a0e1f1c78c34273964ae1 2026-09-19T11:45:19-04:00 HANS -> BRENT, HENRY: CORRECTION — storage gap re-based to -15.99pp, fire unchanged
+b32de23baaf058403d9c659ff624d7533184f24a 2026-09-19T11:45:19-04:00 HANS: AGSI key landed — first single-source pull found a frozen norm hiding the fire
+70fd7a390815d09c76c0fa5adc625674cacd77da 2026-09-19T11:40:21-04:00 SAM: ledger-nudge disposition — 10 flagged, all "why not", none rotting
+c3c498eccf91988fddd1816f291a6628854ba749 2026-09-19T11:40:02-04:00 SAM -> NEXUS/peers: both rows graded FALSE, and I am correcting a statistic I sent you
+38931b6354a1b804c6739f916789d82771381c0d 2026-09-19T11:39:49-04:00 PROME: WQ-271 CLOSED — AGSI key registered and verified; HANS-T-08 can exit again
+16eb01475ff16750d8e9d7f208b7b3aee3c972c6 2026-09-19T11:39:38-04:00 SAM: SAM-28 and SAM-31 graded FALSE — my own frozen prep file had two errors, both my way
+e4661eeb1633fa380756a09f7a646b550e98b3a5 2026-09-19T11:34:36-04:00 PROME -> HANS: AGSI key is LIVE, and a third failure cause its error text omits
+9ebda5c70f4a0a295fad79940724b8a523e2b766 2026-09-19T11:26:03-04:00 HANS: wrong-reference memory gains FORM 14 — wrong by OPERAND PAIRING
+e4fe4d6ed274bf5f3fc8c94492d805d0e6478103 2026-09-19T11:25:42-04:00 PROME: WQ-271 registered — free AGSI key gates HANS-T-08's only exit path
+9fe13b2643df74a3b9771783252d92180fef3f08 2026-09-19T11:25:16-04:00 HANS -> PROME: owed board worked down; one free API key now gates TWO of my instruments
+1f3e3470aeb7e73dd5b4ddfca2805dfb65bd9219 2026-09-19T11:25:16-04:00 HANS -> HAWK, BRENT: orphaned vector VX-HANS-11.04 (Ukraine refinery) frozen out-of-scope
+e2e4ef081b129d3efb1ae7f6741726f76897941c 2026-09-19T11:25:16-04:00 HANS -> LIQUID, REGINALD: ESRB report202602 read at primary — exposure is unquantifiable
+01378527166a8c41b9fa7a5d2f07dc640f0d40e3 2026-09-19T11:25:07-04:00 HANS: ESRB read at primary — T-14 was clean over a perimeter its own author calls blind
+ba4bae0e50808cc42190bbef2a62ac4ebb8a8fef 2026-09-19T11:21:47-04:00 PROME: OSPREY closed out — WQ-249 four-for-four, no desk went dark before the ask
+8f9dd7c2e2871e7067290703abb8b37e72dcbde1 2026-09-19T11:21:35-04:00 PROME: YURI boundary RULED two days early — four amendments adopted, L433 reason retired
+f132250bc5c4d0b91794b8cbc935a0ee32517f45 2026-09-19T11:20:37-04:00 PROME: WQ-266 + L396 re-cut — OSPREY withdrew two claims that were live in front of Will
+9b628d53f7f29cbb3329cdf54cb7a8655db505ff 2026-09-19T11:19:39-04:00 OSPREY -> PROME: L396 completion memo + L433 answered; two of my claims in WQ-266 are withdrawn
+d08d61a194680e31e8497a2ac29137e3930eaa4f 2026-09-19T11:19:31-04:00 PROME: inbox drained 19 -> 0 of the 9/18 backlog; consumer_check --self perimeter registered L440
+59a2665f531a8a77c9c0c9ec2928476762dd1252 2026-09-19T11:18:48-04:00 PROME: HAWK closeout receipt + wake-row L439 + reachability auto-memory
+a414ecdb6cf3ad7b1b9e9e599985ae0c9325b7cc 2026-09-19T11:18:42-04:00 OSPREY: two new transmission pathways — a products chain struck at both ends, structural repricing
+cc8ec7074831880e317abf5dae593919bae33d12 2026-09-19T11:18:33-04:00 PROME: HEARTBEAT NINETEENTH re-base — 21 blocking findings across two blind reads, all fixed
+aba1d627a36ea98107c651d2525ea40856c2bc0f 2026-09-19T11:18:10-04:00 OSPREY: SCRATCH + NEXUS_BRIEF rewritten; two auto-memories extended (carve-out ③)
+ec166d1aebbee45a2b4bc06991d18d33a2208b43 2026-09-19T11:17:22-04:00 OSPREY: consumer sweep — my own kill letter and self-rulings row carried the superseded clock
+5a5ce788a7ba806db6d5e2652a437c58307cd77a 2026-09-19T11:16:56-04:00 OSPREY STATUS 2026-09-19 — L396 disposed, ledger holes, Channel-3 clock corrected twice
+fdfe317035da352f651207129696b12551a9d93a 2026-09-19T11:16:29-04:00 OSPREY: cold read found my bias disclosure to Will ran backwards — 12 blocking fixes applied
+895e88bb099f7b1eb775212ea27b9872f5cf23a7 2026-09-19T11:15:28-04:00 PROME: HAWK delivered — YURI boundary RULED with 3 amendments, all accepted by PROME
+e09cefa211a7d4658d3459c8f4dffeb329354e3b 2026-09-19T11:14:57-04:00 PROME -> BRENT: L140/L198 re-keyed DATE->CONDITION; L430 needs your second vendor
+725330a22313b370bd68b7ae3a23748b6f63d5a6 2026-09-19T11:14:38-04:00 HAWK -> PROME: memo addendum — OSPREY answered mid-session, and one line of my FOLLOW-UP was stale
+bb15b35f49cc40c4d0227cdd0a427c2ab55f25d1 2026-09-19T11:14:31-04:00 DAEDALUS: READ_CAP rule 20 item (b) — fold PROME's measured composite floor into canon
+bfaf8b3ca049cb32245c55ced533f1cbc68966f1 2026-09-19T11:14:20-04:00 PROME: WQ-268 rec WITHDRAWN and amended on measurement; 4 overdue rows dispositioned
+4fe0d123c6e04559d83df3ed9836983f1b0cfd35 2026-09-19T11:14:17-04:00 HAWK: L432/L433/L434 registered on my own CATALYSTS — Monday's grade no longer depends on a spawn
+86940be673a1327c2eb447b1aac618c922b42f24 2026-09-19T11:13:43-04:00 HAWK auto-memory: killed phrasing "a $0.47 crossing" repaired in the continuous-ticker file
+265ba19a20208279c6184cbf65ea3350c7116f02 2026-09-19T11:13:37-04:00 OSPREY: Black Sea war-risk canvass run — no percentage exists, but two hard repricing events do
+233dfc212fbb4a4c53789974b2f35c7f5e36d8d0 2026-09-19T11:13:33-04:00 HAWK 2026-09-19: YURI boundary ruled with 3 amendments, L432 armed for Monday, 4 killed phrasings found live
+348bfd6bff7a6f1e0cf0aaf5a2f0573201b757e3 2026-09-19T11:12:39-04:00 PROME: WALTER L0 delivered + closed out; L208 re-keyed DATE->CONDITION; composite-context packet
+18ac65375835faac05ad9a33bc43440eca5ff706 2026-09-19T11:12:21-04:00 OSPREY: my own five-day Channel-3 kill alarm is refuted by my own backfill — clock is 7/21
+cfb5325a9ecf619cbf344496b96c526eca52427c 2026-09-19T11:10:38-04:00 WALTER -> PROME: L208 unmet delivery memo + ledger-nudge justification
+a44e22111fd6bc9faff3175926134597f2e6416d 2026-09-19T11:10:37-04:00 OSPREY: KINEF/Kirishi 8/30 logged — Russia's 2nd-largest refinery, absent from a certified window
+de192d7637885362aae205120ecdbe20d7234c71 2026-09-19T11:09:56-04:00 WALTER: closeout receipt bound to 7a276822a; STATUS Iran-anchor row de-restated; closeout_check PASS
+390e6a2523774bcecda9b821da6f3c0913d13158 2026-09-19T11:09:55-04:00 DAEDALUS: READ_CAP rule 20 — charter NOT bound by read-cap (context-cost, not truncation)
+453aa36b13c4b90c927c9e5d507a868078b18c40 2026-09-19T11:09:54-04:00 OSPREY: OWED-41 backfill — a top-tier refinery is missing from a certified-complete window
+7a276822a541add3ceb739685eb5fda693cea5e0 2026-09-19T11:08:52-04:00 WALTER: L208 unmet (no build) · inbox 4→0 · fill-forward settle-confirmed · WQ-247 spec v0.2
+689c54a53614cab4d4b6db29c5fdb1e79b7d86b1 2026-09-19T11:07:23-04:00 OSPREY: L396 Channel-3 kill letter SELF-RULED; Channel-2 stays with Will; YURI boundary ruled
+f0ae40b3a0bbac79c73da905188f0fee4c976402 2026-09-19T11:06:55-04:00 PROME: 9/19 sitting prepared — L291 graded, L292/L333 ungradeable as designed; WQ-268/269/270
+1acd30d1386867fa06180a0c95a7f923c67085c6 2026-09-19T11:02:00-04:00 PROME -> DAEDALUS: HANS's read-cap charter blind spot, swept fleet-wide — 17 of 37 over cap
+1fe56f3923329780cd7c32040f2566319e143230 2026-09-19T11:00:27-04:00 PROME: consume BRENT's COT-35B vintage #6 owner grade — blocking review_by cleared
+fd7c86d0437b57060673a1d1695793353b871283 2026-09-18T23:25:02-04:00 ZHAO: two auto-memories extended — anchor-splice n=3 (my own tonight), scope-boundary n=6
+66971511162daebb383c0c7aa90d164f287f93a4 2026-09-18T23:23:23-04:00 PROME: ARGUS baseline → 19efc0cbf (prome-8d closeout)
+19efc0cbfcc452e9e086e4993f9caaffadbf7449 2026-09-18T23:23:11-04:00 PROME closeout 2026-09-18 — NATO/Russia answered, YURI mid-build, 13 ARGUS blocking applied
+003ca5987f23c1d4c014230e390f29d4760c1601 2026-09-18T23:21:28-04:00 DAEDALUS closeout: STATUS stamped 2026-09-18 + FLEET_DIRECTORY regen (ROSTER changed 9/18)
+7329f6408b65e263141fd67154f0995370bcf6f2 2026-09-18T23:15:50-04:00 ZHAO -> HENRY/LIQUID + PROME: record China-US yield gap, and the inference I am refusing
+6d13aa9e11f3cafee7bc62a9abcb695f8e3670bf 2026-09-18T23:15:45-04:00 ZHAO: China-US 10Y gap hit a record inside a 31-day window where I had no instrument (KB-171)
+6f922ce8b2623bacf04c9994401fb6a9605bdb57 2026-09-18T23:12:35-04:00 HANS: Heavy-tier closeout — count mirror and two published figures caught by working the checklist
+29c66d3bb12e414543d5ac97fc582185894d8899 2026-09-18T22:55:39-04:00 HANS -> PROME: read_cap_check.py cannot weigh the charter it reads to find other files
+6b9e9091f705cca3e74c5ead3959f65c1bb1028a 2026-09-18T22:55:39-04:00 HANS: desk sweep worked end to end — core gets a falsifier, two vectors were pointing the wrong way
+1c4425aa75667b7b7b97eec004baa63e977ac6e5 2026-09-18T22:50:34-04:00 HANS: core inflation gets a surface; two policy vectors re-signed; C10+C11 built and falsified
+18e02e47bedeccc53771649df8d0e28fb588868f 2026-09-18T22:48:22-04:00 PROME: ROSTER coverage-gap — European single-name equities UNOWNED (DAEDALUS YUR-003)
+2ae5bcb29fa634ee8127832b7e1db2e8f49babad 2026-09-18T22:47:07-04:00 PROME: protective mid-session SCRATCH write — session STILL LIVE, not a closeout
+3bf911b7cb3ed0fccef9792d8d70d73165b0f5e9 2026-09-18T22:46:19-04:00 DAEDALUS STATUS: YURI build in flight (approved, drafted, wiring-gated) + BOTTOM LINE
+653cc192f4292d3f8ea517ac227b6c4df2abcf7e 2026-09-18T22:45:22-04:00 DAEDALUS: YURI charter + INTENT_LEDGER drafts; boundary adopts PROME's DECISION->OBJECT->TARGET->REACTION line
+eabd3e3415831378e57dd28847f84d3410091c39 2026-09-18T22:43:51-04:00 ZHAO -> PROME: the 11/10 clock is bilateral, and two of my vectors are blind on one side
+020569fedf78700f464d747471d9a2c9822caf8e 2026-09-18T22:43:47-04:00 ZHAO -> VULCAN/HAWK/HENRY: the other half of the clock — China's restraint expires 11/10
+5ce72a1e9a2f12cbd23f3a43d7708926dbc84ba1 2026-09-18T22:43:41-04:00 ZHAO: the 11/10 clock is bilateral — China's own restraint expires the same day (KB-166)
+7f89a1a167a9fd0742ffd1fe210912e6d52100b7 2026-09-18T22:43:13-04:00 HANS: ZHAO's directional-coverage lens finds three holes — including no surface for core inflation
+1c47b90ec03c7fb68207d7a0c1f13276a322c116 2026-09-18T22:42:46-04:00 PROME: L438-440 — ZHAO's three lapse clocks registered as THREE rows, deliberately not one
+7530c788d351a2fa2fc3967c96f48f838f1d8020 2026-09-18T22:41:23-04:00 PROME -> DAEDALUS, OSPREY, HAWK: YURI boundary PROPOSED as a 4-slot chain; row reassignment RULED
+93f6e49c5a8289f2d2f0bc3544c93331eb2fa2be 2026-09-18T22:40:22-04:00 DAEDALUS -> PROME: YURI boundary reconciliation + L432/L433/L434 reassignment ask
+058e220cd6f36d4eaaf795338bb1b8c44c16c6ce 2026-09-18T22:33:29-04:00 HANS -> ZHAO: hub thresholds are level-shaped, base effect doesn't bite; your warning found a live error
+8954e9722953e33f5b0115ac4a823dc1b6171bf2 2026-09-18T22:33:29-04:00 HANS: ZHAO's YoY warning doesn't bite here — but chasing it found France sitting GREEN below its band
+571496171f7c943269cd5bc56787416713dfcdbe 2026-09-18T22:33:18-04:00 ZHAO -> PROME: doorbell record, and DAEDALUS gets no second message tonight
+41159d99849c254e078f9bee55894387de9a0d74 2026-09-18T22:32:12-04:00 ZHAO -> VULCAN/HAWK/HENRY/MARCO/MIDAS/HANS/LIQUID/DAEDALUS: 4 packets delivered direct
+1057ab8687519ce555eca1943064615854749cc6 2026-09-18T22:23:13-04:00 HANS -> ZHAO: TIC July — France the standout European seller, -$62.4bn over two months
+171546e5a674d1285f63fd02d737ec8352c733c8 2026-09-18T22:23:13-04:00 HANS -> BOND: ECB T-04 no longer a hawkish lean into 10/29; German debt service +38% y/y
+a3a39f378681e5b0d8733a81b6e4ff8671481f84 2026-09-18T22:23:08-04:00 HANS: news catch-up — the inflation overshoot has no core leg on either side of the Channel
+fb33fc7e11bc98e6204501faeeea003916831ac8 2026-09-18T22:20:12-04:00 PROME: WQ-267 — Will names the Russia desk YURI; collision check clean, build still ungranted
+2e48113321f5c8c8ea7afc97b95ac8b49bb62fe3 2026-09-18T22:15:07-04:00 PROME: WQ-267 rec REVERSED to YES — the data objection answered the wrong question
+c2b34f9dabac142bf3d75ac0458a9f1ee12e8861 2026-09-18T22:14:30-04:00 ZHAO: the last owed pull refuted a same-day pathway — HENRY packet corrected before routing
+f8d0985913adc877812f876d24f63f27b821a0d1 2026-09-18T22:13:22-04:00 PROME: L432-434 — three dated monitoring rows for the Russia thread Will asked to track
+d54005e2de192a4d531af592cb75e6b7c450fdc9 2026-09-18T22:08:29-04:00 HANS: retract my safe-push diagnosis — truncated read, wrong mechanism; one real gap survives
+9378cfd66c3be37a88735a5a6cd6550b8bc46ae6 2026-09-18T22:05:24-04:00 HANS: add CLOSEOUT.md + closeout_check.py — the desk had neither a closeout doc nor a heading
+effc0964d5134684fac10a10d57d9b10b1828cfe 2026-09-18T22:05:07-04:00 ZHAO: ledger-nudge disposition recorded in-record — and the canonical fix REFUSED, with evidence
+cc3418b9794fbc8131ec075ad55dff67014a992e 2026-09-18T21:53:41-04:00 PROME: WQ-267 — should the fleet have a Russia desk? (rec: no)
+96d515970ce556f484bb7a71f7fcb6865e5948a4 2026-09-18T21:51:25-04:00 PROME -> HAWK: Russia seized Nestle/Auchan/Lemana/FM Logistic Russian ops — zero fleet coverage
+9663cd69662aea8727f21110830850f16dabf040 2026-09-18T21:48:07-04:00 HANS: ran the closeout step I had skipped — 13 self-stale flags, 0 data defects, 20 surfaces bannered
+799e65c1430552c8592ec417e277ff7d86c689d9 2026-09-18T21:47:39-04:00 ZHAO: closeout re-run — the NEXUS ordering rule was broken by working past my own closeout
+3c44060a1fe474a1aff9a694a820755ad6527bc6 2026-09-18T21:32:50-04:00 PROME: L431 — a PUBLISHED.tsv metric-name split hides the stale figure, and PROME's own nudge is the false comfort
+ff11cf03dc3e0c801d366d176029e8be1c491242 2026-09-18T21:32:18-04:00 PROME: memory — a warning dated on its own event fires one tick too late (HANS 9/18)
+137a1c25dc7791b7c74e98102313a23c476dce19 2026-09-18T21:31:42-04:00 HANS closeout 2026-09-18 — 3 published-figure chain repairs and the roll warning pulled forward
+10e5c690d92e16de7f1bca703148f5b857c4bbd9 2026-09-18T21:28:01-04:00 PROME: L430's crosscheck claim WITHDRAWN as wrong; L429 widened to a third mode PROME had missed
+bdb4dd81d4f005ab16933adbf9333f491e70220f 2026-09-18T21:27:12-04:00 HANS: local continuation-ticker enumeration — a compounding mode the fleet sweep would miss
+a7c8625a849907e68d6fd85cb765752912299fc9 2026-09-18T21:25:39-04:00 PROME: L409 scope widened to LEVEL thresholds; PROME's own HEARTBEAT Brent figures impeached
+ce6dbdb9f93c97dc31abaa2e1434d99064e4f00b 2026-09-18T21:24:04-04:00 HANS: withdraw the Brent -5.8% roll artifact; same class found on my own open fire (T-07)
+503cb7c76e2a140cbea70e50fad0ac619455b1b0 2026-09-18T21:21:50-04:00 ZHAO 2026-09-18: documentation audit of this session's own data — 6 defects, 2 wrong cross-refs
+65781752a36d6e119566c3a843dd9dad0f41c35a 2026-09-18T21:20:39-04:00 HANS: Saudi-crude-to-Europe integrated — HANS-T-15 registered; the desk had ZERO instruments on it
+7c0861465defb975b5dbbbe182919ff9fc0b827e 2026-09-18T21:18:58-04:00 PROME: OSPREY gate grade transcribed, L396's falsified rationale replaced, WQ-266 registered
+d5ada4a6d244bc1dcd9778211e597b66af369843 2026-09-18T21:18:17-04:00 HAWK: HANS concurrence consumed -- EURMIL-01 AGREED both sides; my "no answer" claim was wrong
+863ddab33cfe0826163941fa60463e54e7eebe61 2026-09-18T21:17:26-04:00 OSPREY: STATUS rotated 77% -> 70.0% of budget, finished at the STOP not the trigger
+025a971bd0a478e916c53f025e5234693526b956 2026-09-18T21:17:01-04:00 OSPREY -> HAWK, BRENT, PROME: dyad boundary ruling, Yaroslavl confirmation, gate grade
+cb31cfb31ab3ed711cfbef2a7ac7b0be919f9ab7 2026-09-18T21:16:54-04:00 OSPREY 2026-09-18: gate graded, dyad ruled, and my own ledger had a hole inside a swept window
+d6be21dea8d3b90b5beab54726c85748c412c9af 2026-09-18T21:16:24-04:00 HAWK -> PROME: Article 4 close, the asymmetry, Will's sentence answered CONTAMINATED
+4044ad71a09cfc9e15d02b88aaf3b471afbba822 2026-09-18T21:16:19-04:00 HAWK: Article 4 primary-closed to 6/17; asymmetry discriminator; 4 self-corrections
+ff9ceaf54bdd0b723f6e6ca6d43873255f728d0b 2026-09-18T21:13:35-04:00 HANS -> PROME, HAWK: rearmament FISCAL leg does not support "rising conflict risk"
+4c27c154810438f7ee943c126d15dafd2801ceb6 2026-09-18T21:12:54-04:00 ZHAO 2026-09-18: owed queue 4/4 — three re-scores refused on canon, two new lapse clocks found
+d3ecd45e50abfb6b975a82d1c5018e183a76a325 2026-09-18T21:09:20-04:00 HANS: retire VX_HISTORY.tsv — an abandoned ledger with no banner is the silent-rot middle
+9e95372b996102561a0e9f9414894ebac3c43fb2 2026-09-18T21:08:40-04:00 HANS: status-token semantics defect — two guards, one column, opposite failure directions
+9ce1f623723a237e8830092a23ef84cc95fab2cd 2026-09-18T21:00:05-04:00 ZHAO boot 2026-09-18: the -164bp HIBOR-SOFR spread retired as never-measured; 5 stale flags cleared
+1fe0ddcf0ff7f9a2e9c3ca8d9169cfe5b7d76d67 2026-09-18T20:54:57-04:00 HANS -> BOND, TERRY, WALTER, DAEDALUS, HENRY, BRENT, HAWK: 2026-09-18 dispatch set
+07ca050de3b498251b9d3bc73d8fefe730f349bc 2026-09-18T20:54:49-04:00 HANS 2026-09-18: BoE pauses APF gilt sales, Fed hike refutes my euro-strength mechanism
+85d673561a5faec850799b4d76ad68d9e26a5934 2026-09-18T19:27:03-04:00 PROME: the three carried items registered on rows — Will's large task, the stale Deck, the 9/22 line
+f0b938bf3fccf070c174b8724ef6f302fb3a00b5 2026-09-18T18:40:14-04:00 PROME closeout 2026-09-18 18:4x — crash recovery, a reproduced FORGE price defect, 5 ARGUS blocking
+115f13502a6efcf2f335368250f2560ca9fdf298 2026-09-18T18:34:10-04:00 PROME brief state: 1 change row(s) + snapshot (auto-persisted by will_brief.py)
+8cdaabe690e5003d9d301e39b786e3fbce2a629f 2026-09-18T18:26:09-04:00 CATO: review new commits and reproduce incomplete roll-window certification
+
+$ git diff --name-status a2522254c 1b148338809bedc4de7a0e1f1c78c34273964ae1
+A	AGENTS/BOND/inbox/2026-09-18_from-HANS_fed-hike-refutes-my-euro-strength-mechanism-and-boe-removed-the-long-end-seller.md
+A	AGENTS/BOND/inbox/2026-09-18_to-BOND_ecb-t04-no-longer-hawkish-lean.md
+A	AGENTS/BOND/inbox/WALTER/SIG-W-20260919-001.md
+A	AGENTS/BRENT/inbox/2026-09-18_from-HANS_CORRECTION-my-brent-5-8pct-was-a-roll-artifact-named-contracts-inside.md
+A	AGENTS/BRENT/inbox/2026-09-18_from-HANS_eu-storage-gap-re-widened-to-19-7pp-the-9-10-non-exit-was-right.md
+A	AGENTS/BRENT/inbox/2026-09-18_from-HANS_saudi-europe-cutoff-your-lane-plus-a-price-discrepancy-in-the-coverage.md
+A	AGENTS/BRENT/inbox/2026-09-18_from-OSPREY_yaroslavl-9-17-CONFIRMED-but-not-barrels.md
+A	AGENTS/BRENT/inbox/2026-09-19_from-HANS_CORRECTION_storage-gap-rebased.md
+A	AGENTS/BRENT/inbox/2026-09-19_from-HANS_orphaned-vector-ukraine-refinery.md
+A	AGENTS/BRENT/inbox/2026-09-19_from-PROME_two-rows-rekeyed-plus-brent-cells-need-a-second-vendor.md
+A	AGENTS/BROCK/inbox/WALTER/SIG-W-20260919-002.md
+M	AGENTS/CATO/CONTINUITY.md
+A	AGENTS/CATO/runs/2026-09-18_1830_new-commits-probe.py
+A	AGENTS/CATO/runs/2026-09-18_1830_new-commits-probe.txt
+A	AGENTS/CATO/runs/2026-09-18_1830_new-commits-review.md
+A	AGENTS/CREED/inbox/WALTER/SIG-W-20260919-002.md
+M	AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md
+M	AGENTS/DAEDALUS/FLEET_DIRECTORY.md
+M	AGENTS/DAEDALUS/STATUS.md
+A	AGENTS/DAEDALUS/builds/YURI_BUILD_PROPOSAL_2026-09-18.md
+A	AGENTS/DAEDALUS/builds/YURI_CHARTER_DRAFT_2026-09-18.md
+A	AGENTS/DAEDALUS/builds/YURI_INTENT_LEDGER_DRAFT.tsv
+A	AGENTS/DAEDALUS/inbox/2026-09-18_from-HANS_PR6-both-asks-discharged-plus-a-supplied-delta-near-miss-on-the-row-you-flagged.md
+A	AGENTS/DAEDALUS/inbox/2026-09-18_from-PROME_CORRECTION-that-packet-filename-says-RULED-and-the-boundary-is-PROPOSED.md
+A	AGENTS/DAEDALUS/inbox/2026-09-18_from-PROME_YURI-boundary-RULED-and-row-reassignment-RULED.md
+A	AGENTS/DAEDALUS/inbox/2026-09-18_from-ZHAO_two-tooling-gaps-found-by-auditing-my-own-output.md
+A	AGENTS/DAEDALUS/inbox/2026-09-19_from-OSPREY_YURI-boundary-RULED-my-side-one-amendment-two-mechanical-replacements.md
+A	AGENTS/DAEDALUS/inbox/2026-09-19_from-PROME_composite-injected-context-measured-plus-my-own-count-error.md
+A	AGENTS/DAEDALUS/inbox/2026-09-19_from-PROME_read-cap-charter-blind-spot-swept-fleet-wide.md
+A	AGENTS/DAEDALUS/runs/2026-09-19_READ_CAP_CHARTER_RULING.md
+M	AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+A	AGENTS/DEWEY/inbox/WALTER/SIG-W-20260919-002.md
+A	AGENTS/HANS/CHARTER_PROVENANCE.md
+M	AGENTS/HANS/CLAUDE.md
+A	AGENTS/HANS/CLOSEOUT.md
+M	AGENTS/HANS/DISPATCH_LOG.md
+M	AGENTS/HANS/LAST_COMPLETION.md
+M	AGENTS/HANS/REVIVAL_PLAN_2026-06-22.md
+M	AGENTS/HANS/STATUS.md
+A	AGENTS/HANS/archive/README.md
+A	AGENTS/HANS/archive/VX_HISTORY.tsv
+R100	AGENTS/HANS/reports/2026-07-16_domain-sweep.md	AGENTS/HANS/archive/reports/2026-07-16_domain-sweep.md
+R100	AGENTS/HANS/research/EU_BANK_PRIVATE_CREDIT_2026-06.md	AGENTS/HANS/archive/research/EU_BANK_PRIVATE_CREDIT_2026-06.md
+R100	AGENTS/HANS/research/EU_ENERGY_STORAGE_2026-06.md	AGENTS/HANS/archive/research/EU_ENERGY_STORAGE_2026-06.md
+R100	AGENTS/HANS/research/SOVEREIGN_LDI_MONITOR_2026-06.md	AGENTS/HANS/archive/research/SOVEREIGN_LDI_MONITOR_2026-06.md
+A	AGENTS/HANS/inbox/2026-09-19_from-PROME_agsi-key-live-plus-a-failure-mode-your-error-text-omits.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-009.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260910-009.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-011.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260910-011.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260910-020.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260910-020.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260915-005.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260915-005.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260917-001.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260917-001.md
+R100	AGENTS/HANS/inbox/WALTER/SIG-W-20260917-005.md	AGENTS/HANS/inbox/WALTER/processed/SIG-W-20260917-005.md
+R100	AGENTS/HANS/inbox/2026-09-10_from-WALTER_COR-20260908-04-both-deviations-fixed-pointer-to-your-KB-cap-9-19.md	AGENTS/HANS/inbox/processed/2026-09-10_from-WALTER_COR-20260908-04-both-deviations-fixed-pointer-to-your-KB-cap-9-19.md
+R100	AGENTS/HANS/inbox/2026-09-15_from-WALTER_threshold-observation-gaps.md	AGENTS/HANS/inbox/processed/2026-09-15_from-WALTER_threshold-observation-gaps.md
+R100	AGENTS/HANS/inbox/2026-09-17_from-DAEDALUS_PR6-PR6-promoted-L5-M-VX-4-03-137bp-on-a-2-50-ECB-you-graded-9-10.md	AGENTS/HANS/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-promoted-L5-M-VX-4-03-137bp-on-a-2-50-ECB-you-graded-9-10.md
+R100	AGENTS/HANS/inbox/2026-09-18_from-HAWK_europe-rearmament-scope-split-fiscal-vs-posture.md	AGENTS/HANS/inbox/processed/2026-09-18_from-HAWK_europe-rearmament-scope-split-fiscal-vs-posture.md
+A	AGENTS/HANS/inbox/processed/2026-09-18_from-ZHAO_belgium-yoy-kill-leg-fires-on-a-base-effect-check-your-own-thresholds.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-BOND_ecb-t04-no-longer-hawkish-lean.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-HAWK_rearmament-scope-split-CONCUR.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-PROME_local-enumeration.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-PROME_rearmament-fiscal-read.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-PROME_roll-artifact-accepted.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-PROME_safe-push-retraction.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-PROME_saudi-europe-supplement.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-WALTER_threshold-resolution-pass.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-ZHAO_hub-thresholds-are-level-shaped-but-your-warning-found-a-live-error.md
+A	AGENTS/HANS/outbox/delivered/2026-09-18_to-ZHAO_tic-july-france-standout-seller.md
+A	AGENTS/HANS/outbox/delivered/2026-09-19_to-BRENT-HENRY_CORRECTION_storage-gap.md
+A	AGENTS/HANS/outbox/delivered/2026-09-19_to-HAWK-BRENT_orphaned-vector.md
+A	AGENTS/HANS/outbox/delivered/2026-09-19_to-LIQUID-REGINALD_ESRB-primary-read.md
+M	AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv
+M	AGENTS/HANS/registry/THRESHOLDS.tsv
+M	AGENTS/HANS/registry/corrections_receipts.tsv
+M	AGENTS/HANS/reports/2026-08-28_HANS_vs_SAM_ZHAO_regional_desk_comparison.md
+A	AGENTS/HANS/research/2026-09-18_REARMAMENT_FISCAL_READ.md
+A	AGENTS/HANS/research/2026-09-18_THRESHOLD_RESOLUTION_PASS.md
+M	AGENTS/HANS/research/ECB_FED_DIVERGENCE_2026-06.md
+M	AGENTS/HANS/research/EUROPE_UST_HOLDINGS_2026-04_TIC.md
+M	AGENTS/HANS/research/PMI_ISM_LEAD_2026-06.md
+M	AGENTS/HANS/research/REFRESH_2026-06-22.md
+M	AGENTS/HANS/scripts/boot.py
+A	AGENTS/HANS/scripts/closeout_check.py
+M	AGENTS/HANS/scripts/doc_audit.py
+M	AGENTS/HANS/scripts/fetch_eu.py
+M	AGENTS/HANS/scripts/test_hans.py
+M	AGENTS/HANS/sources/RP-HANS-10_LNG_CRISIS_EUROPEAN_IMPACT_MAR2026.md
+M	AGENTS/HANS/sources/RP-HANS-1_EUROPEAN_UST_HOLDINGS.md
+M	AGENTS/HANS/sources/RP-HANS-2_ECB_POLICY_TRANSMISSION.md
+M	AGENTS/HANS/sources/RP-HANS-3_UK_PENSION_GILT_DYNAMICS.md
+M	AGENTS/HANS/sources/RP-HANS-4_EUROPEAN_BANK_US_EXPOSURE.md
+M	AGENTS/HANS/sources/RP-HANS-5_SOVEREIGN_SPREAD_TRIGGERS.md
+M	AGENTS/HANS/sources/RP-HANS-6_ENERGY_TRANSMISSION.md
+M	AGENTS/HANS/sources/RP-HANS-7_RUSSIAN_DIESEL_EUROPEAN_INDUSTRIAL_IMPACT.md
+M	AGENTS/HANS/sources/RP-HANS-8_GERMAN_IP_US_ISM_TRANSMISSION.md
+M	AGENTS/HANS/sources/RP-HANS-9_GERMAN_FLASH_PMI_FEB2026_PLAYBOOK.md
+M	AGENTS/HANS/thesis/ECB_2026-09-10_GRADE.md
+M	AGENTS/HANS/thesis/ECB_2026-09-10_PREREGISTRATION.md
+A	AGENTS/HANS/workbook/2026-09-10_STATUS_BLOCKS_ROTATED.md
+A	AGENTS/HANS/workbook/2026-09-18_BOE_APF_BLOCK.md
+A	AGENTS/HANS/workbook/2026-09-18_FED_HIKE_REFUTATION_BLOCK.md
+A	AGENTS/HANS/workbook/2026-09-18_FRANCE_T10_BLOCK.md
+A	AGENTS/HANS/workbook/2026-09-18_INBOX_DISPOSITIONS.md
+A	AGENTS/HANS/workbook/2026-09-18_POST_COMMIT_AUDIT.md
+A	AGENTS/HANS/workbook/2026-09-18_SAUDI_EUROPE_BLOCK.md
+A	AGENTS/HANS/workbook/2026-09-18_SESSION1_ENERGY_ECB_READS.md
+A	AGENTS/HANS/workbook/2026-09-18_SESSION2_NEWS_CATCHUP.md
+A	AGENTS/HANS/workbook/2026-09-18_SESSION3_DESK_SWEEP.md
+A	AGENTS/HANS/workbook/2026-09-19_ESRB_REPORT202602_PRIMARY_READ.md
+M	AGENTS/HANS/workbook/FLOW.tsv
+M	AGENTS/HANS/workbook/KB.tsv
+M	AGENTS/HANS/workbook/ML.tsv
+M	AGENTS/HANS/workbook/PREDICTIONS.tsv
+M	AGENTS/HANS/workbook/PUBLISHED.tsv
+A	AGENTS/HANS/workbook/STATUS_ROTATED_2026-09-19.md
+M	AGENTS/HANS/workbook/STATUS_archive_20260325.md
+M	AGENTS/HANS/workbook/STATUS_archive_20260430.md
+M	AGENTS/HANS/workbook/STATUS_archive_20260716.md
+M	AGENTS/HANS/workbook/VX.tsv
+D	AGENTS/HANS/workbook/VX_HISTORY.tsv
+M	AGENTS/HAWK/MEMORY.md
+M	AGENTS/HAWK/NEXUS_BRIEF.md
+M	AGENTS/HAWK/SCRATCH.md
+M	AGENTS/HAWK/STATUS.md
+M	AGENTS/HAWK/board_log.tsv
+M	AGENTS/HAWK/domain/europe-rearm/INCURSIONS.tsv
+M	AGENTS/HAWK/domain/europe-rearm/LADDER.md
+M	AGENTS/HAWK/domain/europe-rearm/README.md
+M	AGENTS/HAWK/domain/war-risk/CROSS_THEATER_WAR_RISK.md
+A	AGENTS/HAWK/inbox/2026-09-19_from-HANS_orphaned-vector-ukraine-refinery.md
+A	AGENTS/HAWK/inbox/2026-09-19_from-OSPREY_limb2-is-yours-to-grade-and-the-evidence-just-arrived.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-HANS_eu-storage-gap-re-widened-cc.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-HANS_qualifying-the-S-P-driver-figure-you-are-carrying-plus-the-fiscal-read.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-HANS_rearmament-scope-split-CONCUR.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-OSPREY_dyad-boundary-RULING-concur-with-three-amendments.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-PROME_YURI-boundary-PROPOSED-decision-object-target-reaction.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-PROME_russia-seized-nestle-auchan-lemana-fm-logistic-zero-fleet-coverage.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-ZHAO_bis-affiliates-rule-stay-lapses-nov-9-one-day-before-the-truce.md
+A	AGENTS/HAWK/inbox/processed/2026-09-18_from-ZHAO_the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md
+A	AGENTS/HAWK/inbox/processed/2026-09-19_from-OSPREY_YURI-boundary-ruled-your-dyad-line-holds-plus-a-channel3-letter-change.md
+M	AGENTS/HAWK/research/2026-09-18_european-rearmament-evidence-sweep.md
+A	AGENTS/HAWK/research/2026-09-19_L432_resolution_card.md
+M	AGENTS/HAWK/workbook/CATALYSTS.tsv
+M	AGENTS/HAWK/workbook/KB.tsv
+M	AGENTS/HAWK/workbook/VX.tsv
+A	AGENTS/HENRY/inbox/2026-09-18_from-HANS_CORRECTION-brent-roll-artifact-cc.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-HANS_fifth-refutation-the-ism-weakness-leg-is-dead.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-HANS_saudi-europe-crude-cutoff-cc.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-ZHAO_CORRECTED-china-factory-gate-prices-claim-withdrawn-ppi-came-in-opposite.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-ZHAO_INFO-the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-ZHAO_bis-affiliates-rule-stay-lapses-nov-9-one-day-before-the-truce.md
+A	AGENTS/HENRY/inbox/2026-09-18_from-ZHAO_record-china-us-yield-gap-and-the-inference-i-am-refusing.md
+A	AGENTS/HENRY/inbox/2026-09-19_from-HANS_CORRECTION_storage-gap-rebased.md
+A	AGENTS/HENRY/inbox/WALTER/SIG-W-20260919-001.md
+A	AGENTS/LIQUID/inbox/2026-09-18_from-ZHAO_belgium-yoy-kill-leg-fires-on-a-base-effect-check-your-own-thresholds.md
+A	AGENTS/LIQUID/inbox/2026-09-18_from-ZHAO_record-china-us-yield-gap-and-the-inference-i-am-refusing.md
+A	AGENTS/LIQUID/inbox/2026-09-19_from-HANS_ESRB-report202602-primary-read.md
+A	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260919-001.md
+A	AGENTS/LIQUID/inbox/WALTER/SIG-W-20260919-002.md
+A	AGENTS/MARCO/inbox/2026-09-18_from-ZHAO_CORRECTED-china-factory-gate-prices-claim-withdrawn-ppi-came-in-opposite.md
+A	AGENTS/MIDAS/inbox/2026-09-18_from-ZHAO_CORRECTED-china-factory-gate-prices-claim-withdrawn-ppi-came-in-opposite.md
+A	AGENTS/NEXUS/inbox/WALTER/SIG-W-20260919-002.md
+M	AGENTS/OSPREY/CLAUDE.md
+M	AGENTS/OSPREY/LESSONS.md
+M	AGENTS/OSPREY/NEXUS_BRIEF.md
+M	AGENTS/OSPREY/SCRATCH.md
+M	AGENTS/OSPREY/STATUS.md
+A	AGENTS/OSPREY/archive/STATUS_ROTATED_2026-09-18.md
+A	AGENTS/OSPREY/archive/STATUS_ROTATED_2026-09-19.md
+M	AGENTS/OSPREY/board_log.tsv
+A	AGENTS/OSPREY/domain/energy-strikes/OWED39_CHANNEL2_SCOPE_2026-09-18.md
+A	AGENTS/OSPREY/domain/energy-strikes/OWED39_DISPOSITION_2026-09-19.md
+M	AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv
+A	AGENTS/OSPREY/inbox/2026-09-18_from-PROME_YURI-boundary-PROPOSED-decision-object-target-reaction.md
+A	AGENTS/OSPREY/inbox/2026-09-19_from-HAWK_channel3-limb2-answered-NEGATIVE-and-it-is-circular.md
+A	AGENTS/OSPREY/inbox/2026-09-19_from-HAWK_yuri-boundary-ruling-cc.md
+R100	AGENTS/OSPREY/inbox/WALTER/SIG-W-20260917-006.md	AGENTS/OSPREY/inbox/WALTER/processed/SIG-W-20260917-006.md
+R100	AGENTS/OSPREY/inbox/2026-09-17_from-NEXUS_R9-carry-refreshed-receipt.md	AGENTS/OSPREY/inbox/processed/2026-09-17_from-NEXUS_R9-carry-refreshed-receipt.md
+R100	AGENTS/OSPREY/inbox/2026-09-18_from-HAWK_dyad-boundary-proposal-europe-rearm-plus-yaroslavl-gap.md	AGENTS/OSPREY/inbox/processed/2026-09-18_from-HAWK_dyad-boundary-proposal-europe-rearm-plus-yaroslavl-gap.md
+M	AGENTS/OSPREY/workbook/FLOW.tsv
+M	AGENTS/OSPREY/workbook/KB.tsv
+M	AGENTS/OSPREY/workbook/VX.tsv
+M	AGENTS/OSPREY/workbook/WARRISK.tsv
+A	AGENTS/RED/inbox/WALTER/SIG-W-20260919-001.md
+A	AGENTS/REGINALD/inbox/2026-09-19_from-HANS_ESRB-report202602-primary-read.md
+A	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260919-002.md
+M	AGENTS/SAM/MEMORY.md
+M	AGENTS/SAM/NEXUS_BRIEF.md
+M	AGENTS/SAM/STATUS.md
+M	AGENTS/SAM/STRATEGY.md
+M	AGENTS/SAM/TRADE.md
+A	AGENTS/SAM/docket/2026-09-19_SAM28_SAM31_GRADE.md
+M	AGENTS/SAM/docket/PREDICTION_SCHEDULE.json
+A	AGENTS/SAM/reports/boot-runs/20260919T151505Z_a0acee87.jsonl
+M	AGENTS/SAM/thesis/CHANGELOG.md
+M	AGENTS/SAM/thesis/PREDICTIONS.tsv
+M	AGENTS/SAM/thesis/timeline/TIMELINE.md
+M	AGENTS/SAM/workbook/CFTC_JPY.tsv
+M	AGENTS/SAM/workbook/FXY_OPTIONS.tsv
+M	AGENTS/SAM/workbook/USDJPY.tsv
+M	AGENTS/SELF_RULINGS.tsv
+A	AGENTS/TERRY/inbox/2026-09-18_from-HANS_fed-hike-refutes-my-euro-strength-mechanism-and-boe-long-end.md
+A	AGENTS/VIOLET/inbox/WALTER/SIG-W-20260919-001.md
+A	AGENTS/VULCAN/inbox/2026-09-18_from-ZHAO_bis-affiliates-rule-stay-lapses-nov-9-one-day-before-the-truce.md
+A	AGENTS/VULCAN/inbox/2026-09-18_from-ZHAO_the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md
+M	AGENTS/WALTER/CLAUDE.md
+M	AGENTS/WALTER/LAST_COMPLETION.md
+M	AGENTS/WALTER/SESSION_LOG.md
+M	AGENTS/WALTER/STATUS.md
+M	AGENTS/WALTER/design/OPERATOR_BRIEF_SPEC.md
+M	AGENTS/WALTER/design/STATE.md
+M	AGENTS/WALTER/inbox/processed/.consumed.tsv
+R100	AGENTS/WALTER/inbox/2026-09-18_from-BROCK_receipts-for-0915-009-and-0917-009-plus-the-boardlog-and-INDEX-cap-items.md	AGENTS/WALTER/inbox/processed/2026-09-18_from-BROCK_receipts-for-0915-009-and-0917-009-plus-the-boardlog-and-INDEX-cap-items.md
+A	AGENTS/WALTER/inbox/processed/2026-09-18_from-HANS_threshold-resolution-pass-returned-t10-near-false-fire.md
+R100	AGENTS/WALTER/inbox/2026-09-18_from-PROME_WQ-247-RULED-operator-surface-clause-in-root-amend-your-spec-scope-lines-by-RULE-8.md	AGENTS/WALTER/inbox/processed/2026-09-18_from-PROME_WQ-247-RULED-operator-surface-clause-in-root-amend-your-spec-scope-lines-by-RULE-8.md
+R100	AGENTS/WALTER/inbox/2026-09-18_from-PROME_zero-is-the-tell-now-n2-second-live-instance-of-SIG-W-20260917-010.md	AGENTS/WALTER/inbox/processed/2026-09-18_from-PROME_zero-is-the-tell-now-n2-second-live-instance-of-SIG-W-20260917-010.md
+M	AGENTS/WALTER/routed/delivery_log.tsv
+M	AGENTS/WALTER/routed/route_log.tsv
+M	AGENTS/ZHAO/NEXUS_BRIEF.md
+M	AGENTS/ZHAO/STATUS.md
+A	AGENTS/ZHAO/archive/STATUS_COLD_20260918.md
+A	AGENTS/ZHAO/archive/STATUS_COLD_20260918b.md
+M	AGENTS/ZHAO/docket/CATALYSTS.tsv
+R100	AGENTS/ZHAO/inbox/WALTER/SIG-W-20260917-007.md	AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20260917-007.md
+R100	AGENTS/ZHAO/inbox/WALTER/SIG-W-20260917-008.md	AGENTS/ZHAO/inbox/WALTER/processed/SIG-W-20260917-008.md
+R100	AGENTS/ZHAO/inbox/2026-09-17_from-DAEDALUS_PR6-PR6-second-clean-cycle-MET-RE-CHECK-row-fired-9-16-unread-VX-2-04-EST-SOFR.md	AGENTS/ZHAO/inbox/processed/2026-09-17_from-DAEDALUS_PR6-PR6-second-clean-cycle-MET-RE-CHECK-row-fired-9-16-unread-VX-2-04-EST-SOFR.md
+A	AGENTS/ZHAO/inbox/processed/2026-09-18_to-ZHAO_hub-thresholds-are-level-shaped-but-your-warning-found-a-live-error.md
+A	AGENTS/ZHAO/inbox/processed/2026-09-18_to-ZHAO_tic-july-france-standout-seller.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-DAEDALUS-PROME_two-tooling-gaps-found-by-auditing-my-own-output.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-HANS-LIQUID_belgium-yoy-kill-leg-fires-on-a-base-effect.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-HENRY-LIQUID_record-china-us-yield-gap-and-the-inference-i-am-refusing.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-HENRY-MARCO-MIDAS_china-factory-gate-prices-cut-first-time-in-2026.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-VULCAN-HAWK_bis-affiliates-rule-stay-lapses-nov-9-one-day-before-the-truce.md
+A	AGENTS/ZHAO/outbox/delivered/2026-09-18_to-VULCAN-HAWK_the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md
+A	AGENTS/ZHAO/reports/2026-09-18_PREREGISTRATION_ZHA-18_august-tic.md
+A	AGENTS/ZHAO/reports/2026-09-18_WQ112_ASMADE_LEDGER_WRITE.md
+M	AGENTS/ZHAO/workbook/FLOW.tsv
+M	AGENTS/ZHAO/workbook/KB.tsv
+M	AGENTS/ZHAO/workbook/PREDICTIONS.tsv
+M	AGENTS/ZHAO/workbook/VX.tsv
+M	BOARD/INDEX.md
+A	BOARD/SIG-W-20260919-001-off-rth-fill-forward-settle-confirmed-the-error-equals-the-days-move-so-it-is-largest-when-it-matters-most.md
+A	BOARD/SIG-W-20260919-002-fitchratings-com-returns-a-byte-identical-spa-shell-for-valid-old-and-fabricated-urls-so-an-http-200-authenticates-nothing.md
+M	HEARTBEAT.md
+M	PROME/DOCKET.tsv
+M	PROME/GATES.tsv
+M	PROME/HANDOFF.md
+M	PROME/HEARTBEAT_COLD.md
+M	PROME/HEARTBEAT_DASHBOARD.md
+M	PROME/ROSTER.md
+M	PROME/SCRATCH.md
+M	PROME/STATUS.md
+M	PROME/WILL_QUEUE.md
+A	PROME/archive/GATES_STATE_HISTORY_2026-09-19_cot35b.md
+A	PROME/archive/HANDOFF_2026-09-18_sept15-17-entries.md
+A	PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-19.md
+A	PROME/archive/SCRATCH_ROTATED_2026-09-18_prome-0e.md
+A	PROME/archive/SCRATCH_ROTATED_2026-09-18_prome-5d.md
+M	PROME/archive/STATUS_HISTORY.md
+M	PROME/artifacts/decision_deck.html
+M	PROME/artifacts/decision_reference.html
+A	PROME/inbox/2026-09-19_from-HANS_esrb-read-and-agsi-key-escalation.md
+A	PROME/inbox/2026-09-19_from-HAWK_yuri-boundary-RULED-concur-with-three-amendments.md
+A	PROME/inbox/2026-09-19_from-OSPREY_L396-disposed-channel3-ruled-channel2-stays-with-will.md
+A	PROME/inbox/2026-09-19_from-OSPREY_L433-answered-the-gap-HAWK-named-before-you-rule.md
+A	PROME/inbox/2026-09-19_from-OSPREY_YURI-boundary-RULING-concur-with-one-amendment-and-two-replacements.md
+A	PROME/inbox/2026-09-19_from-WALTER_SIG-W-20260919-001.md
+A	PROME/inbox/2026-09-19_from-WALTER_SIG-W-20260919-002.md
+A	PROME/inbox/2026-09-19_from-WALTER_WQ-247-CONFIRMED-spec-v0.2-both-rule-8-asks-executed.md
+A	PROME/inbox/2026-09-19_from-WALTER_l208-unmet-inbox-drained-fill-forward-settle-confirmed.md
+R100	PROME/inbox/2026-09-18_from-AEOLUS_crash-recovery.md	PROME/inbox/processed/2026-09-18_from-AEOLUS_crash-recovery.md
+R100	PROME/inbox/2026-09-18_from-BRENT_PROPOSAL-saudi-restart-resolver-for-Will-queue.md	PROME/inbox/processed/2026-09-18_from-BRENT_PROPOSAL-saudi-restart-resolver-for-Will-queue.md
+R100	PROME/inbox/2026-09-18_from-BRENT_crash-recovery.md	PROME/inbox/processed/2026-09-18_from-BRENT_crash-recovery.md
+R100	PROME/inbox/2026-09-18_from-BRENT_friday-routine-flags.md	PROME/inbox/processed/2026-09-18_from-BRENT_friday-routine-flags.md
+A	PROME/inbox/processed/2026-09-18_from-DAEDALUS_YURI-boundary-reconciliation-and-three-row-reassignment.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_RETRACTION-my-safe-push-diagnosis-was-wrong-plus-the-one-gap-that-survives.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_SUPPLEMENT-saudi-cuts-europe-off-in-october-and-crude-faded-it.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_local-enumeration-for-L429-a-compounding-mode-the-fleet-sweep-should-look-for.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_read-cap-checker-cannot-see-the-charter-it-reads.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_rearmament-fiscal-leg-does-not-support-rising-conflict-risk.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_roll-artifact-ACCEPTED-plus-a-refinement-and-the-same-class-on-my-own-open-fire.md
+A	PROME/inbox/processed/2026-09-18_from-HANS_two-consumer-check-self-perimeter-limits-found-by-running-it.md
+A	PROME/inbox/processed/2026-09-18_from-HAWK_article4-primary-close-and-the-asymmetry.md
+R100	PROME/inbox/2026-09-18_from-HAWK_europe-rearm-tree-opened-plus-a-shared-tool-defect.md	PROME/inbox/processed/2026-09-18_from-HAWK_europe-rearm-tree-opened-plus-a-shared-tool-defect.md
+R100	PROME/inbox/2026-09-18_from-HENRY_L411-post-opex-gamma-board-sign-negative-4th-magnitude-collapsed.md	PROME/inbox/processed/2026-09-18_from-HENRY_L411-post-opex-gamma-board-sign-negative-4th-magnitude-collapsed.md
+A	PROME/inbox/processed/2026-09-18_from-OSPREY_gate-grade-dyad-ruling-provenance-and-a-ledger-hole.md
+R100	PROME/inbox/2026-09-18_from-VIOLET_L277-leg3-GRADED-confirm-B-map-MISSED-the-hike.md	PROME/inbox/processed/2026-09-18_from-VIOLET_L277-leg3-GRADED-confirm-B-map-MISSED-the-hike.md
+A	PROME/inbox/processed/2026-09-18_from-ZHAO_owed-queue-worked-4-of-4-plus-two-new-clocks.md
+A	PROME/inbox/processed/2026-09-18_from-ZHAO_the-11-10-clock-is-bilateral-and-two-of-my-vectors-are-blind-on-one-side.md
+A	PROME/proposals/2026-09-19_yuri-boundary-RULED.md
+M	PROME/registry/WQ_EXPLAINERS.tsv
+M	PROME/registry/WQ_LEDGER.crc
+M	PROME/registry/WQ_LEDGER.tsv
+A	PROME/reports/2026-09-18_docket-plan-AS-READ.md
+A	PROME/reports/2026-09-18_docket-plan-coldread-ledger.md
+A	PROME/reports/2026-09-19_L291-L292-L333-sitting.md
+A	PROME/reports/2026-09-19_heartbeat-19th-rebase.md
+M	PROME/state/ORCH_LOG.tsv
+M	PROME/state/argus_baseline.json
+M	PROME/state/argus_review.json
+M	PROME/state/board_cursor.txt
+M	PROME/state/brief_changes.jsonl
+M	PROME/state/brief_snapshot.json
+M	PROME/tools/dashboard_build.json
+M	PROME/tools/dashboard_state.json
+A	PROME/tools/rotation_integrity.py
+M	memory/2026-09-18.md
+M	memory/auto/INDEX_COLD.md
+M	memory/auto/MEMORY.md
+M	memory/auto/finding_a_correction_pass_is_unreviewed_work.md
+A	memory/auto/finding_a_warning_dated_on_its_own_event_fires_too_late.md
+M	memory/auto/finding_anchor_splice_deletes_everything_between_nested_anchors.md
+M	memory/auto/finding_continuous_front_ticker_rolls_so_deltas_lie.md
+A	memory/auto/finding_crash_residue_over_claims_toward_completion.md
+M	memory/auto/finding_gate_pass_is_not_evidence_it_found_the_best_reason.md
+M	memory/auto/finding_instrument_reports_clean_against_the_wrong_reference.md
+A	memory/auto/finding_negative_reachability_is_a_claim_about_your_request.md
+M	memory/auto/finding_scope_boundary_asserted_from_proximity.md
+A	memory/auto/finding_the_artifact_built_to_prevent_bias_is_the_one_nobody_audits.md
+
+$ git rev-parse HEAD
+35daa42e36c8777c7aa180c01d20ec7d827708cf
+
+$ git status --short
+ M memory/auto/MEMORY.md
+?? AGENTS/CATO/runs/2026-09-19_1148_recent-updates-current-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1148_recent-updates-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1148_recent-updates-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1148_recent-updates-review.md
+
+Finding-source byte comparison at final recheck
+AGENTS/HANS/workbook/2026-09-19_ESRB_REPORT202602_PRIMARY_READ.md
+ pinned=fe3839a6fef1892d9b428ef92dd3950ce9e598dd00c780912ed850f8ed430a50
+ current=fe3839a6fef1892d9b428ef92dd3950ce9e598dd00c780912ed850f8ed430a50 same=True
+AGENTS/HANS/workbook/PREDICTIONS.tsv
+ pinned=300eebde7fed1c2c002bad1fceb72fc2b87622572dc7c3b41b3e5c56b877f939
+ current=aa6b86c7acf1ceeb844582178b110b6ec37dd0864fe72cd2a3cd9920521d6779 same=False
+AGENTS/HANS/workbook/KB.tsv
+ pinned=f76fa325ba21ca10057d7fb1ae4b4b13821c9aebe30776ea6a423b6efff2cd10
+ current=92fb46ec4da8ff06a782a96d7c9ce424d721698c33269dd04d07a6c7f345625e same=False
+AGENTS/HANS/scripts/fetch_eu.py
+ pinned=d6d0fd0fba75412f3ba33c8cc45f4c28e9a8f72172fa381d35c446f840984253
+ current=89b1078522b312cae4a60706bef548d8d17dbff0a0df72d07aa855807b2a1ce5 same=False
+AGENTS/HANS/scripts/closeout_check.py
+ pinned=3e48a3512c15b97af7cab54f7bdc87f2aaa7c68d0a98c364424b67818f3d94e6
+ current=3e48a3512c15b97af7cab54f7bdc87f2aaa7c68d0a98c364424b67818f3d94e6 same=True
+AGENTS/ZHAO/outbox/delivered/2026-09-18_to-VULCAN-HAWK_the-other-half-of-the-clock-chinas-own-restraint-expires-11-10.md
+ pinned=a147c5f742bd35e07d5f95d39095a1ae426d7e1bea61d918af833a947eb98687
+ current=a147c5f742bd35e07d5f95d39095a1ae426d7e1bea61d918af833a947eb98687 same=True
+AGENTS/ZHAO/outbox/delivered/2026-09-18_to-VULCAN-HAWK_bis-affiliates-rule-stay-lapses-nov-9-one-day-before-the-truce.md
+ pinned=4168c201a3df8b6d727fbb9a7f966fc1db9f3f9ad02a64a478066786999597dd
+ current=4168c201a3df8b6d727fbb9a7f966fc1db9f3f9ad02a64a478066786999597dd same=True
+AGENTS/SAM/docket/2026-09-19_SAM28_SAM31_GRADE.md
+ pinned=d6fe8f0b01498996b4bd7220947ee5a747126d3ce1916d379c31173b5aefa75d
+ current=d6fe8f0b01498996b4bd7220947ee5a747126d3ce1916d379c31173b5aefa75d same=True
+AGENTS/HAWK/domain/europe-rearm/LADDER.md
+ pinned=97b19499e5dbae6b5cb9670666ff28c6eb618ed2a2c397717c3d04f75282b98a
+ current=97b19499e5dbae6b5cb9670666ff28c6eb618ed2a2c397717c3d04f75282b98a same=True
+AGENTS/HAWK/research/2026-09-19_L432_resolution_card.md
+ pinned=2671f96081c5a6cff8dfc24790b2d18dafd79eb2246549761986a2fe513fa4b3
+ current=2671f96081c5a6cff8dfc24790b2d18dafd79eb2246549761986a2fe513fa4b3 same=True
+AGENTS/HAWK/thesis/FALSIFICATION.md
+ pinned=a9e3cb186705601ef8c3f2642244f9bc56ff9d342fb41c3dc28327d8be73a215
+ current=a9e3cb186705601ef8c3f2642244f9bc56ff9d342fb41c3dc28327d8be73a215 same=True
+AGENTS/BOND/analysis/2026-09-17_FR2004_WEEKLY_JOIN_WQ-157-leg-2.md
+ pinned=b43c6cc4b5da021f4d30cd6e99e4ddb6663f857a529d6f7596a22f9ff54d984e
+ current=b43c6cc4b5da021f4d30cd6e99e4ddb6663f857a529d6f7596a22f9ff54d984e same=True
+AGENTS/SAM/scripts/oil_roll_check.py
+ pinned=405e06cc0a6895da82d31db0f6a74ce70cc3587d974bba2bbc09f17a08f9527b
+ current=405e06cc0a6895da82d31db0f6a74ce70cc3587d974bba2bbc09f17a08f9527b same=True
+PROME/tools/hooks/commit_subject_guard.py
+ pinned=0e3faaff94745d0b5a025077a83c82901c2a337efb6228c3f17a1c7d58a11a22
+ current=0e3faaff94745d0b5a025077a83c82901c2a337efb6228c3f17a1c7d58a11a22 same=True

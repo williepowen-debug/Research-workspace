@@ -1,0 +1,43 @@
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    AGENTS/HANS/LAST_COMPLETION.md
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1148_recent-updates-review.md
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+EXIT 0
+
+$ python3 -B PROME/tools/rotation_integrity.py --selftest
+  OK   (2) ordinary move hot->cold is not a loss: got 0, want 0
+  OK   (1) deletion is reported as a loss: got 1, want 1
+  OK   (2) move and delete are distinguished: got (0, 1), want (0, 1)
+  OK   (3) an added section is not a loss: got 0, want 0
+  OK   (4) a rename is reported as a loss: got 1, want 1
+  OK   overlap: losing ONE of two identical headers is still a loss: got 1, want 1
+  OK   fenced code block is not counted as a header: got 1, want 1
+SELFTEST PASS
+
+EXIT 0
+
+$ python3 -B PROME/tools/queue_parser_selftest.py
+QUEUE-PARSER SELFTEST ✓ gate · brief · willq_view · deck · table_check agree on the synthetic row set (26/26; split + date-classifier parity)
+⚠️ decision_deck: SHIFTED row WQ-38 (8 cells vs header 7) skipped — an unescaped | inside a cell; write it \|
+⚠️ decision_deck: NOT-ISO needed-by on WQ-39: '9/19' — renders undated; write YYYY-MM-DD
+⚠️ decision_deck: § OPEN header has 6 columns (the table is 7) — table skipped
+⚠️ decision_deck: § OPEN header has 3 columns (the table is 7) — table skipped
+
+EXIT 0
+
+$ git diff --check -- AGENTS/CATO/CONTINUITY.md
+
+EXIT 0
+
+$ git diff --cached --name-only
+
+EXIT 0

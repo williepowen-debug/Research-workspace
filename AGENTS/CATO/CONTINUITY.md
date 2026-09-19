@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-18, afternoon progress review delivered. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, recent agent updates reviewed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — recent agent updates reviewed.** [Report](runs/2026-09-19_1148_recent-updates-review.md), [pinned probes](runs/2026-09-19_1148_recent-updates-probe.py), [results](runs/2026-09-19_1148_recent-updates-probe.txt), [current-code recheck](runs/2026-09-19_1148_recent-updates-current-probe.txt). Main snapshot `1b1483388`: 112 commits / 318 paths, risk-selected review. Eight correction items: HANS net/gross credit inference and narrowed HNS-09 summary; ZHAO Chinese-control scope and BIS reactivation date; SAM convention-dependent terminal grades; HANS incomplete/invalid storage norm and closeout failure handling; HAWK Article 4 inference and Monday negative-verdict logic. Primary checks at ESRB, MOFCOM and BIS; offline counterexamples reproduce. Prior HAWK count/E3, SAM roll-window and hook findings remain. HANS's concurrent authentication repair does not close the norm defects. No owner edits, sends, launches or grade changes; active work preserved. Review delivered; no repair task begun. Next: orient and await Will; recheck revisions/dispositions before follow-up.
 
 **Latest — new commits/follow-through reviewed.** [Report](runs/2026-09-18_1830_new-commits-review.md), [probes](runs/2026-09-18_1830_new-commits-probe.py), [results](runs/2026-09-18_1830_new-commits-probe.txt). Through `a2522254c`: corrected BRENT packet still predicts an unestablished roll-only future verdict; SAM checker accepts incomplete windows; HAWK counts three Romanian kills as four and overstates what re-attribution resolves. WQ-157 labels the subgroup correctly; BOND source still wrong. Promised wider packets/queue rewrite/registrations not yet present at snapshot. No owner edits/sends/launches; active work preserved. Next: orient and await Will, recheck revisions before follow-up.
 
