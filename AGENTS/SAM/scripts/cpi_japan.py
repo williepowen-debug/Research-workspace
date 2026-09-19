@@ -420,6 +420,22 @@ def print_comparison_note(nat_by_month, tok_by_month):
                leading read. Differencing it against an older National month
                manufactures a number that collides with PAIRED.
 
+    Fixed 2026-09-19 (three defects in the PAIRED branch, found when the boot
+    line printed a RETIRED interpretation):
+      1. FLOAT BOUNDARY — `diff > 0.1` on float-subtracted one-decimal values.
+         2.0 - 1.9 == 0.10000000000000009, so a gap of exactly +0.1 tripped a
+         threshold written to exclude it. Now compared in integer tenths.
+      2. RETIRED INTERPRETATION — the positive branch read "pattern INVERTED,
+         leading-indicator hawkish". That was retired 2026-08-23 (KB-169): the
+         2025-base remeasure showed its only counter-example was a BASE
+         ARTIFACT. The script kept emitting it for 27 days because the ruling
+         landed in STATUS_REFERENCE/CALENDAR and nothing propagated it here.
+      3. STALE CONSTANT — "the typical 30-40bp" is a 2020-base figure; the
+         2025-base mean is ~-0.13pp. On real 2025-base data the old thresholds
+         called the normal case "narrower than typical" in 5 of 6 months.
+         The band is now MEASURED from the ledger in the active base, so it
+         cannot rot across the next rebasing the way the constant did.
+
     Fixed 2026-08-04. Before: this took the two *latest* value-dicts — the
     reference month was discarded by print_summary_for, so the same-month
     check the old docstring promised was structurally impossible — differenced
@@ -439,17 +455,53 @@ def print_comparison_note(nat_by_month, tok_by_month):
     # --- PAIRED: latest month carrying core-core in BOTH series (ISO YYYY-MM sorts)
     common = sorted(set(months_with_cc(nat_by_month)) & set(months_with_cc(tok_by_month)))
     if common:
-        m = common[-1]
+        # INTEGER TENTHS, not floats. CPI publishes to one decimal, and float
+        # subtraction of one-decimal values does not land on the boundary:
+        # 2.0 - 1.9 == 0.10000000000000009, so a `> 0.1` test fires on a gap of
+        # exactly +0.1 that the threshold was written to EXCLUDE. That is
+        # precisely how the old "pattern INVERTED" branch fired on 2026-09-19
+        # (Tokyo 2.0 / National 1.9) — a binary-representation artifact, not a
+        # measurement. Comparing rounded tenths removes the class.
+        gaps = [(mm, round(cc(tok_by_month, mm) * 10) - round(cc(nat_by_month, mm) * 10))
+                for mm in common]
+        m, cur = gaps[-1]
+        prior = [g for _, g in gaps[:-1]]
         n_cc, t_cc = cc(nat_by_month, m), cc(tok_by_month, m)
-        diff = t_cc - n_cc
-        # Tokyo runs ~30-40bp BELOW National historically; flag an inversion.
-        if diff < -0.2:
-            note = f"Tokyo {diff:+.1f}pp BELOW National — expected pattern (~30-40bp)"
-        elif diff > 0.1:
-            note = f"⚠️ Tokyo {diff:+.1f}pp ABOVE National — pattern INVERTED, leading-indicator hawkish"
+
+        # The reference band is MEASURED FROM THIS LEDGER in the ACTIVE BASE —
+        # never a carried constant. The previous code asserted "the typical
+        # 30-40bp", which was a 2020-base figure: the 2025-base remeasure
+        # (KB-169, 2026-08-23) puts the mean at ~-0.13pp, so that constant
+        # labelled the NORMAL case "narrower than typical" in 5 of 6 months.
+        # load_tsv() filters to one base, so these gaps never cross a rebasing.
+        if prior:
+            below = sum(1 for g in prior if g <= 0)
+            band = (f"prior paired months, {BASES[BASE_KEY]['label']}: n={len(prior)}, "
+                    f"mean {sum(prior) / len(prior) / 10:+.2f}pp, "
+                    f"range {min(prior) / 10:+.1f} to {max(prior) / 10:+.1f}pp, "
+                    f"Tokyo ≤ National in {below} of {len(prior)}")
         else:
-            note = f"Tokyo {diff:+.1f}pp vs National — narrower than the typical 30-40bp; Tokyo softness closing"
+            band = f"no prior paired month on the {BASES[BASE_KEY]['label']} — no reference band"
+
+        if cur <= 0:
+            note = f"Tokyo {cur / 10:+.1f}pp vs National — within the measured tendency"
+        else:
+            exc = sum(1 for g in prior if g > 0) + 1
+            note = (f"⚠️ Tokyo {cur / 10:+.1f}pp ABOVE National — "
+                    f"exception {exc} of {len(prior) + 1} paired months on this base")
         print(f"  ℹ️  PAIRED {m} core-core (Tokyo {t_cc:.1f} / National {n_cc:.1f}): {note}")
+        print(f"      {band}. Tokyo is NOT a 1:1 read on National.")
+        if cur > 0:
+            # Fires only on a positive gap — i.e. exactly when the retired read
+            # is tempting. Stated here so the interpretation cannot be quietly
+            # reinvented by a reader who never saw the ruling.
+            print("      ⛔ NOT 'leading-indicator hawkish' — that read was RETIRED 2026-08-23 "
+                  "(KB-169): its sole counter-example (2026-06, Tokyo +0.2pp on the 2020 base) "
+                  "reads 0.0pp on the 2025 base, so the inversion was a BASE ARTIFACT, not an "
+                  "economic event. A positive gap is an observation to explain, never a signal.")
+            if cur == 1:
+                print("      ⚠️ +0.1pp is the one-decimal publication floor: both legs are "
+                      "rounded, so the true gap lies inside ~(0.0, 0.2)pp. No regime read off one tenth.")
     else:
         print("  ℹ️  PAIRED core-core: no reference month published in both series — no gap figure this run.")
 
