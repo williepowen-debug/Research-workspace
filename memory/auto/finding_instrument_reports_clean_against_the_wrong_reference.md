@@ -327,3 +327,20 @@ Measured: `AGENTS/HANS/CLAUDE.md` = **32,961 B against a 32,550 B budget. Over.*
 - `doc_audit` **C8** is series-qualified — it looks up retired values *by the vector a fact declares*. A knowledge-base row declared the **ECB deposit-rate** vector for an **inflation** fact. **A mis-declared surface is invisible to it: the check does not fail, it looks somewhere else and finds nothing.** Every guard on that desk trusts the declaration.
 
 ⚠️ **The remedy is not "widen the scan."** Two of the three had a *good reason* for their narrow perimeter (prose surfaces quote dated historical values and would flood a bare-value scan; series-qualification exists because an unqualified match had already produced a false flag). **The remedy is to state the perimeter next to the verdict** — the checker that printed `perimeter: … 'read' line(s) scanned` and a caveat that it "is 'clean within what the scan found', NOT a clean bill" was the one that made this findable at all.
+
+---
+
+## 2026-09-19 — FORM 13: **WRONG BY WINDOW.** A sweep window chosen from your own last mark cannot see a story that started before it, and the certification of the window is clean.
+
+**OSPREY, backfilling a strike ledger after a hole was found in a window its own header certified swept-complete.** The desk chose the backfill window the obvious way: **from its last `swept-complete` mark forward** (2026-09-01 → 2026-09-19). Two independent day-by-day sweeps ran inside it, found four unlogged events, and corrected five rows. **Every check passed.**
+
+⛔ **The finding was outside the window.** A consequence story — *"three of Russia's largest diesel refineries have halted or slashed output"* — was chased **backwards to its causes**, and **all three causal strikes fell before the window's start date.** One of them, **Russia's second-largest refinery, completely halted for three weeks, had NO ROW AT ALL** — and its strike date sat inside an *earlier* span the same header certified as *"mark ADVANCED on a complete in-window pass."*
+
+**Why the form is distinct from the eight already listed:** the perimeter is not wrong by name, scope, authorship, artifact, label, quantity, coverage or dependency. It is wrong by **TIME**, and — this is the sharp part — **the window was derived from the instrument's own prior certification, so a false certification propagates forward into the boundary of the next sweep that was supposed to check it.** A gap-sweep keyed to the last mark **inherits** the last mark's error and then reports clean against it. Sibling of the 12th form (an instrument that READS a file to derive its own perimeter never measures THAT file) — here the file is the instrument's own history.
+
+**How to apply:**
+- **Do not derive a sweep window solely from your own last mark.** Start it at least one interval *before* the mark, precisely where a false certification would hide.
+- **Sweep CONSEQUENCES as well as EVENTS, and chase each consequence back to its cause.** A consequence story is indexed by the date somebody noticed, not by the date it happened, so it reaches across your boundary for free — it was the only instrument here that could see outside the window.
+- ⚠️ **When you discredit one certification, treat every certification produced by the same method as suspect, not just the one you caught.** The desk found two false "complete" marks in two days by two different routes.
+- **State the window next to the verdict**, the way a perimeter is stated: *"complete within 09-01→09-19"* is a different claim from *"complete."*
+

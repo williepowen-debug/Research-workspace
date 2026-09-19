@@ -1,29 +1,35 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign; refinery impairment broadened (Yaroslavl 9/17) while crude-flow recovery persists.
+**Status:** Elevated, active Russia/Ukraine energy campaign. **Refinery impairment is materially worse than this brief showed yesterday and none of it moves the band**; crude-flow recovery persists.
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-09-18 ~21:5x EDT | **STATUS commit: see this session's OSPREY commit (pinned at closeout)**
-⛔ **READ THIS FIRST IF YOU CONSUME MY LEDGER:** a 2026-09-08 CPC event was **missing from `STRIKES.tsv` inside a window it certified as swept-complete**, and **per-facility `Strike#` cells are a FLOOR, not a census** (YANOS: ≥8 strikes in 2026 vs 3 pre-8/28 rows). **2026-09-17 and 9/18 are UNSWEPT.** If you cited a strike count off my file, re-read it.
+**As of:** 2026-09-19 ~13:0x EDT | **STATUS commit: `ec166d1ae`**
+
+⛔ **READ THIS FIRST IF YOU CONSUME MY LEDGER — the warning is now STRONGER than yesterday's, not weaker.** On 9/18 I reported a 9/8 CPC event missing from `STRIKES.tsv` inside a window it certified swept-complete. **Today the backfill found a SECOND and larger hole: `KINEF/Kirishi` — Russia's SECOND-LARGEST refinery, 20 Mt/yr, crude processing completely halted since 2026-08-30 and still offline — had NO ROW AT ALL**, inside a span the header certified *"mark ADVANCED on a complete in-window pass."*
+⛔ **Per-facility `Strike#` cells are a FLOOR, never a census. The `swept-complete` mark is NOT advanced and still reads 2026-09-16.** ★ **And the transferable part: the hole was OUTSIDE the window I chose to sweep. I found it by chasing a 9/16 Reuters CONSEQUENCE story backwards — all three refineries in it were struck before my window's start. A sweep window taken from your own last mark inherits your own last error.**
+
+⚠️ **TWO NUMBERS OF MINE THAT MOVED TODAY, if you carried either:** the **Channel-3 clock is 7/21** (anchor `RU-20260912-ARMADA-LEADER`, limb-1 kill **2026-10-03**) — **not the 14/21 or 6/21 published 9/18, and not the 16/21 I published this morning.** The **Channel-2 spread is 9/30 → 18/30**, not the 8/30 → 17/30 in `WQ-266`.
 
 ## CROSS-DOMAIN
 
 **SENDING:**
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT | **Yaroslavl 9/17 CONFIRMED** — crude processing suspended, AVT-3 damaged; releases BRENT's deferred facility-damage row | **P1** | ⛔ **~300 kb/d is the PLANT, not the LOSS** — AVT-4 already down since 8/28, plant at ~25% of nominal as early as 5/19, no authenticated pre-strike throughput. **Tempo, not barrels.** |
-| HAWK | **Dyad boundary RULED** — concur on the axis, 3 amendments; `VX-HAWK-EURMIL-01` unblocked. Plus 4 corrections to `INCURSIONS.tsv` | **P1** | Target slot unallocated; **OSPREY does NOT hold the provenance evidence class** (103/104 attacker cells are Ukraine-side); defence-industrial output declined. |
-| HAWK / PROME / WILL | **NATO engagement count cannot separate Russian intent from NATO's loosened trigger** | **P1** | Not one of 4 Baltic engagements is a confirmed clean Russian probe; mandate changed mid-series (effective 8/1); no consistent violation series exists. **Reported, not resolved.** |
-| PROME | **`GATE-OSPREY-001` graded** (a NOT FIRED / b FIRED / c NOT FIRED) for transcription; **OWED-39 measured, not ruled** | P1 | PROME owns `GATES.tsv`. A correction is owed to DOCKET L396's own rationale text. |
-| BRENT / HAWK | Circulating *"~4 M bpd, week of Sep 3–9"* is **UNVERIFIED — do not adopt** | P2 | No named source; and ~4 M bpd would be a return to July's lowest-since-2005 trough, not a recovery. |
+| **BRENT** | ⛔ **KINEF/Kirishi completely halted since 8/30, still offline, and it was NEVER IN MY LEDGER.** 20 Mt/yr, ~400 kb/d, ~7% of Russian refining, 7 Mt/yr diesel. AVT-6 ~40% + a second unit ~8%; AT-6 (38%) and AVT-2 (14%) already down before 8/30 | **P1** | ⛔ **CAPACITY, NOT BARRELS — no authenticated pre-8/30 throughput.** Reuters / two anonymous industry sources, passes independence. ⚠️ **Packet NOT yet sent — owed at my next session, declared not hidden.** |
+| **BRENT** | **TANECO 9/13 was understated on my ledger: ELOU-AVT-7 hit, 9.2 Mt/yr, ~52% of plant** — not "one storage tank" | **P1** | Satellite imagery **published 9/18 for a 9/13 strike**. ⭐ **Unit-level truth arrives 3–5 days behind the event — every same-day refinery row is systematically understated.** Band unmoved (OWED-36). |
+| **HAWK** | ⚑ **A GRADE REQUEST: Channel-3 limb 2 is YOURS by its own letter** (*"insurer/P&I reporting, via HAWK's cross-war enforcement read"*) | **P1** | Two dated repricing events in window: **Swedish Club Circular 452/2026 (9/18, read at the primary)** cancels and reinstates cover on amended terms from 10/1; **JWC `JWLA-035`** widens the listed area to almost the whole Black Sea, effective 9/19. 🔑 **The repricing is visible STRUCTURALLY before it is NUMERICALLY.** Packet sent. |
+| **HAWK** | **Consumer notice: my Channel-3 kill letter CHANGED today** — a qualifying incident now needs a merchant **tanker** hull struck **Ukraine-side** | **P1** | ⛔ **The attacker limb is validated by the instrument:** six Russia-attacker vessel strikes in-window; **under the bare letter Channel 3 would read 0–1/21 off RUSSIAN strikes on UKRAINIAN ports.** Your dyad line survives the YURI prepend. |
+| **PROME / WILL** | ⛔ **TWO OF MY OWN CLAIMS IN `WQ-266` AND `DOCKET L396` ARE WITHDRAWN** | **P1** | ① *"two limbs measure different universes"* — the letter's own preamble says they are different subjects **by design**; ② the CPC *"already half-ruled"* claim — `GATES.tsv:9` scopes to the **throughput series** and that gate is a Channel-2 **UPGRADE tripwire**. Verbatim quote, wrong inference. |
+| **PROME / DAEDALUS** | **YURI boundary RULED from my side** — concur, + 1 amendment and 2 mechanical replacements | P1 | Instrument test replaces the judgement-worded discriminator; no-double-count extended to four slots; a Russian decision whose **subject** is my water splits decision/consequence. ⚠️ **Not support for the roster seat.** |
+| **BRENT / HAWK** | ⛔ **Contamination flag, ninth on this beat:** a relay of the Reuters 9/18 war-risk wire carries *"over 1% … up to 1.5% or more"* while three other relays of the same wire carry **no percentage**, and the figure matches the JULY numbers exactly | P2 | Do not admit it as a 9/18 print. |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | Change condition |
 |---|---|---|---|---|
-| Public sources / owner review | Diesel producer-ban decree | Next session, target 9/17 | October extension is reporting, not authenticated law | Verify enacted scope before changing policy clock. |
-| Bloomberg | Next four-week print; missing 8/30 and 9/6 totals | Next publication / OSP-06 final 10/15 | Same instrument needed for downgrade and forecast | Existing thresholds unchanged. |
-| **WILL via PROME** | **OWED-39 drawing (A / B / D)** — Channel-2 kill-letter scope | **DOCKET L396, dated 9/19** | **The drawing IS the mark:** across readings the C2 clock runs 8/30 → 17/30. No drawing kills today. | ⛔ **Not self-ruled, and no ruling inferred from silence.** |
-| BRENT | **OWED-33 — a dated, based Urals figure, or "I have none"** | Re-asked 9/18; either answer closes it | This desk has carried **no** Urals number since 9/8 rather than a stale one | Closes on either answer. |
-| HAWK | Adopt/contest the 3 boundary amendments | No deadline set | `VX-HAWK-EURMIL-01` stays PROPOSED until HAWK encodes | Silence is not adoption, in either direction. |
+| **WILL via PROME** | **OWED-39: the Channel-2 drawing — B or D** | **DOCKET L396, dated 9/19** | ⚠️ **SMALLER THAN I FIRST SAID: the live span is ONE DAY** (B 10/30 vs D 9/30), not the nine I reported — that nine was computed against option **A, which I retract.** **Rec: B**, because it propagates **Will's own 9/8 Channel-3 geography ruling** to the sibling channel. | A one-day margin is below my ledger's demonstrated error, which is why it is still his and not mine. |
+| **HAWK** | **The limb-2 grade** | No deadline; no kill fires either way | Decides whether Channel 3's limb 2 is *satisfied-negative* (evidenced) or *unmeasured* | If NO, limb 2 is structurally unreadable and the limb needs re-cutting, not re-canvassing. |
+| **BRENT** | **OWED-33 — a dated, based Urals figure, or "I have none"** | Re-asked 9/18, unanswered | I carry **no** Urals number rather than a stale one | Either answer closes it. |
+| Public sources | Diesel producer-ban decree; Bloomberg 8/30 + 9/6 prints; **any authenticated pre-strike throughput at ANY struck facility** | Ongoing | ⛔ **The throughput gap is now five facilities wide and it blocks every incremental-barrels read** | OWED-36's deciding sub-question. |
+| **S&P Global Platts (access)** | Port-level AWRP | — | **403 today; the named port-level assessor was never canvassed** — the largest hole in the war-risk sweep | An authenticated route would settle OWED-48. |
 
 ## VIEW
 - Scores **4 / 5 / 3**, refining band **~30%, 25–35% EST**, unchanged. Band is inherited runs proxy, not September capacity measurement.
