@@ -1098,5 +1098,100 @@ class TestBoEIADB(unittest.TestCase):
         self.assertIn("NOT a same-day level", blk)
 
 
+class TestC9v2AndC12Frozen(unittest.TestCase):
+    """Coverage for the 2026-09-19 CATO corrections. These tests did not exist when the
+    fixes shipped: the v1 tests still PASSED against v2 because they only exercised the
+    cases v1 was built for. A fix pass leaves its own coverage gap
+    [[finding_a_correction_pass_is_unreviewed_work]]."""
+
+    def setUp(self):
+        import importlib, doc_audit
+        self.da = importlib.reload(doc_audit)
+
+    def _run(self, line):
+        real = self.da.HANS / "STATUS.md"
+        orig = real.read_text()
+        self.addCleanup(lambda: real.write_text(orig))
+        real.write_text(orig + "\n" + line + "\n")
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.da.main()
+        return buf.getvalue()
+
+    def test_C9_catches_the_3_3_percent_it_originally_MISSED(self):
+        """v1's '>=3 significant digits' noise floor excluded 3.3 — the exact defect C9 was
+        built for. It must now surface, as a NOTE, since prose cannot attribute a short
+        number to a metric."""
+        out = self._run("Euro-area HICP is running at 3.3% and core is contained.")
+        self.assertIn("C9-SHORT-NUMBER", out)
+        self.assertIn("3.3", out)
+
+    def test_C9_short_number_is_a_NOTE_not_a_blocking_finding(self):
+        """Blocking on an unattributable number would cry wolf: a live '2.9%' was GERMAN
+        CPI, not the retired EA/UK value."""
+        self.assertEqual(self.da.audit(), [],
+                         "short-number advisories must not become blocking findings")
+
+    def test_C9_sees_a_unicode_minus(self):
+        self.assertIn("C9-STATUS-SUPERSEDED",
+                      self._run("EU storage gap to the 5-yr norm is \u221219.7pp."))
+
+    def test_C9_is_not_suppressed_by_an_arrow(self):
+        """An arrow is not a claim about time; old->new is covered by the current-value rule."""
+        self.assertIn("C9-STATUS-SUPERSEDED", self._run("The gap is -19.7pp -> watch it."))
+
+    def test_C9_is_not_suppressed_by_a_DISTANT_history_word(self):
+        """v1 matched markers anywhere on the line, so one 'was' far away silenced a live
+        figure. Markers must sit within PROX characters of the number."""
+        far = "The gap is -19.7pp today. " + ("filler text. " * 12) + "It was different once."
+        self.assertIn("C9-STATUS-SUPERSEDED", self._run(far))
+
+    def test_C9_unit_gate_kills_the_bare_number_noise(self):
+        """'85' matches any bp metric; '85bp' does not. Without the gate this was the
+        dominant false-positive source."""
+        out = self._run("There were 85 separate items reviewed in the pass.")
+        self.assertNotIn("ITALY_GERMANY_10Y_SPREAD_BP", out)
+
+    def test_C12_frozen_file_exists_and_is_the_recorded_set(self):
+        fz = self.da.HANS / "registry/ML_LEGACY_DUP_IDS.txt"
+        self.assertTrue(fz.exists())
+        ids = [l.strip() for l in fz.read_text().split("\n")
+               if l.strip() and not l.startswith("#")]
+        self.assertEqual(len(ids), 95, "the frozen legacy set changed — was a NEW collision "
+                                       "silenced by adding a line? the file forbids that")
+        self.assertIn("never add a line here", fz.read_text().lower())
+
+    def test_C12_fires_on_a_new_collision_on_an_OLD_id(self):
+        """CATO's counterexample: duplicating the previously UNIQUE ML-HANS-001 took the
+        duplicate groups 95 -> 96 and produced NO finding under the '< 400' exemption."""
+        m = self.da.HANS / "workbook/ML.tsv"
+        orig = m.read_text()
+        try:
+            row1 = [l for l in orig.split("\n") if l.startswith("ML-HANS-001\t")][0]
+            m.write_text(orig.rstrip("\n") + "\n" + row1 + "\n")
+            self.assertIn("C12-ID-DUPLICATE", {c for c, _ in self.da.audit()})
+        finally:
+            m.write_text(orig)
+
+    def test_withdrawn_forecast_rule_is_struck_at_its_own_text(self):
+        """An obsolete rule contradicted only further down the cell leaves TWO LIVE
+        INSTRUCTIONS. Every mention of the withdrawn arithmetic kill must carry its own
+        withdrawal marker."""
+        import csv as _csv
+        rows = list(_csv.DictReader((self.da.HANS / "workbook/PREDICTIONS.tsv").open(),
+                                    delimiter="\t"))
+        note = [r for r in rows if r["Pred_ID"] == "HNS-07"][0]["Notes"]
+        import re as _re
+        occ = list(_re.finditer(r"ARITHMETIC KILL", note, _re.I))
+        self.assertTrue(occ, "anchor moved — update the test, not the rule")
+        for m in occ:
+            # the withdrawal marker PRECEDES the quoted rule text, which is the correct
+            # authoring order: a reader meets "WITHDRAWN" before they meet the instruction.
+            self.assertIn("WITHDRAWN", note[max(0, m.start() - 400):m.start()].upper(),
+                          "an occurrence of the withdrawn rule carries no withdrawal marker "
+                          "before it — that is two live instructions again")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
