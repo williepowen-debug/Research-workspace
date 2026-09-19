@@ -74,6 +74,12 @@ The live config's `WATCH_FOR` has **no CRUISE key** (present: BROCK, CARL, HENRY
 - ⛔ **Not** a `VOCABULARIES.tsv` NETWORK_GROUP edit — that is a shared-file change, **not covered by Will's 9/11 word**, and goes to him named and explicit (PROME's leg ②). `CONSUMER` + `sub:CRUISE` stands until then. **If anyone offers to encode it under the 9/11 approval, refuse** — that would launder an unapproved edit under an old word.
 - ⛔ **Not** a claim that a cruise CLUSTER is owed. `CLUSTER_TAXONOMY.md` is the cluster axis, a different object; I have not established it was in Will's approval and I am not asserting it here.
 
-## Falsifier for this proposal
+## Falsifier for this proposal — **bounded (CATO R5, 2026-09-19)**
 
-If WALTER adopts Leg B/C and the **decision-relevant** delivery rate over the next **10 weekday runs** is still **0–1 items** (graded on delivery, not on a term-grep), the problem is not the query — it is that the free-news corpus does not carry this domain, and the honest conclusion is that CRUISE's intake is **Will's channel plus the desk's own EDGAR pulls**, recorded as a coverage fact rather than a gap to keep re-fixing.
+If WALTER adopts Leg B/C and the **decision-relevant** delivery rate over the next **10 weekday runs** is still **0–1**, the established conclusion is that **this configured lane failed its useful-delivery target** — and nothing wider.
+
+⛔ **My first draft said it would show "the free-news corpus does not carry this domain." It would not, and that overreached.** Low delivery can come from collection failure, time filters, query limits, deduplication, ranking, routing, classification, or simply an uneventful window — two noisy results cannot identify which stage failed. The existing query already ORs the operator names, so it is not intrinsically incapable of catching an earnings item that names Carnival.
+
+✅ **Positive control, and it is sitting right there:** Carnival's **2026-09-15** conference-call announcement is a known, in-window, unambiguously relevant item — **the very one this desk missed.** Run it through collection and routing and it separates *source presence* from *retrieval* from *routing*, which no amount of counting noise can. **Do that before concluding anything about the corpus.**
+
+⛔ **Do not abandon the domain's free primary sources on a lane result.** The primaries — CCL's IR event page and the wire — are exactly what this desk should have been reading on 9/15, and their value is independent of whether a news lane routes them.

@@ -2,7 +2,7 @@
 
 *Owner: CRUISE. Created 2026-08-14 at Will's request. **Run 2026-09-02** — all 9 channels swept, dated observations below. Live document — run every spawn.*
 
-**One-line:** CCL's next scheduled report is Q3 FY26, **now estimated ~2026-10-05 (Mon), NOT the 9/28-29 this document estimated on 8/14**. Between now and then the question is whether the Q3 print makes the fuel P&L drag visible — except the tape stopped waiting: the complex de-rated 13–18% between 8/14 and 9/2. This document lists what would fire a preannouncement, what to watch, and where CRUISE stands on each channel.
+**One-line:** CCL's next scheduled report is Q3 FY26, **CONFIRMED 2026-09-29 (Tue)** — ⛔ *(was ~10/5 ESTIMATED; see the correction box. Historical text preserved below reads: NOT the 9/28-29 this document estimated on 8/14**. Between now and then the question is whether the Q3 print makes the fuel P&L drag visible — except the tape stopped waiting: the complex de-rated 13–18% between 8/14 and 9/2. This document lists what would fire a preannouncement, what to watch, and where CRUISE stands on each channel.
 
 ---
 
@@ -23,11 +23,11 @@
 
 ## Scheduled Q3 FY26 report date — **ESTIMATE MOVED**
 
-**Estimate: ~2026-10-05 (Mon). NOT COMPANY-CONFIRMED.** Three aggregators (earningscountdown, investing.com, TipRanks) point to 10/5; the 8/14 estimate of 9/28-29 came from the EDGAR pattern (Q3 FY25 = 2025-09-29, Q3 FY24 = 2024-09-30). **The confirming primary is CCL's own "to hold conference call" press release, historically issued ~2 weeks ahead — not yet issued as of 9/2.** carnivalcorp.com IR pages are JS-rendered and return only the SPA shell to direct fetch, so this cannot be closed by fetching harder; it closes when the release posts. Confidence token: **INFERRED**.
+**🔴 CONFIRMED: 2026-09-29 (Tue), results that morning, call 10:00 ET** — CCL press release **2026-09-15 11:56 ET** + `carnivalcorp.com` IR event page. ⛔ **CORRECTED 2026-09-19 (CATO R1): this document carried ~10/5 ESTIMATED and was SIX DAYS LATE.** The error was inferring 'no announcement' from an EDGAR sweep; **the release was never an 8-K, so EDGAR could not answer it.** Superseded estimate, kept as history: Three aggregators (earningscountdown, investing.com, TipRanks) point to 10/5; the 8/14 estimate of 9/28-29 came from the EDGAR pattern (Q3 FY25 = 2025-09-29, Q3 FY24 = 2024-09-30). **The confirming primary is CCL's own "to hold conference call" press release, historically issued ~2 weeks ahead — not yet issued as of 9/2.** carnivalcorp.com IR pages are JS-rendered and return only the SPA shell to direct fetch, so this cannot be closed by fetching harder; it closes when the release posts. Confidence token: **INFERRED**.
 
 ⚠️ **PROME's DOCKET row is registered at ~9/28-29 and is likely ~1 week early — flagged in the 9/2 delivery memo.**
 
-**Weeks-to-Q3-print from 2026-09-02 (Wed): ~4.7 weeks (to 10/5).** *(Update every spawn.)*
+**Days-to-Q3-print from 2026-09-19 (Sat): 10 days (to Tue 2026-09-29, CONFIRMED).** *(Update every spawn.)*
 
 ---
 
@@ -77,7 +77,7 @@ For a true preannouncement CCL would file **item 2.02 off-cycle** with revised r
 1. **Fuel cost per metric ton consumed (ex emission allowances) vs CCL's own guide of $812.** Above = the Jun–Aug crude climb landed (prediction **CRU-07**, 70%). ⛔ **The 8/14 companion inference is retracted:** a print ≤$860 does **not** mean "CCL has hedging cushion I didn't know about" — CCL has no hedges (verified). A low print would mean bunker/crude decoupling or purchase timing.
 2. **How much of any adj-EPS miss vs the $1.35 guide is actually fuel** (prediction **CRU-08**, 80%). Arithmetic, no free parameter: % overshoot vs $812 × CCL's own $56M-per-10% × 1,377M diluted shares = **$0.041/share per 10% overshoot**. ≤$0.10 means fuel is a cost line, not a thesis.
 3. **FY26 net yield guide direction vs the +3.2% current-$ / +1.75% CC set on 6/23.** RAISE (like RCL), HOLD, or LOWER (like NCLH) — this is the K-shape's CCL leg and the highest-information single answer in the release.
-4. **Deposits vs the $9.0B Q2 record.** Q3 should grow sequentially on the booking-season pattern; a sequential **drop** is diagnostic of demand weakness and would outrank every fuel number in the release.
+4. **Deposits — ⛔ GRADE YEAR-OVER-YEAR, NEVER SEQUENTIALLY (CORRECTED 2026-09-19, CATO R2).** This question previously read *"Q3 should grow sequentially from the $9.0B Q2 record; a sequential drop is diagnostic of demand weakness."* **That rule is WRONG and would have manufactured a false demand-cliff verdict at this print.** **Counterexample from CCL's own reporting: Q2 2025 $8.5B → Q3 2025 $7.1B, a ~16.5% SEQUENTIAL FALL, in a quarter that set a Q3 RECORD.** Customer deposits run off seasonally as sailings are taken and revenue is recognised — the 10-Q says so. **Correct test: compare Q3 FY26 deposits to Q3 FY25 (~$7.1B), and bridge any gap across capacity/ALBDs, booking-and-payment timing, cancellations/refunds and FX before calling it demand.** Read it beside the reported **booking-pace and net-yield** language, which is the direct evidence; deposits alone are a lagging, seasonal proxy.
 5. **Does the Med "reversal" CCL claimed on 6/23 actually show** — and does CCL side with RCL ("fleeting") or NCLH ("below optimal for 12 months")? Also: 2027 pacing language.
 
 Each answer becomes a KB row on the day of the print.
