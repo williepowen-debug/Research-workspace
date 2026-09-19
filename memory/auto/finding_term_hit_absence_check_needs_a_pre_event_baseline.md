@@ -19,4 +19,23 @@ Three compounding traps in the same check, one afternoon:
 
 ⚠️ **Path gotcha, and I got it wrong twice while writing this file — which is the point.** The harness memory path `~/.claude/projects/-home-willi-Research-workspace/memory` is a **symlink to `Research-workspace/memory/auto/`**. So `$MEMORY/auto/…` double-nests to `memory/auto/auto/` and the write fails, leaving an index row pointing at nothing. I then concluded *"files live flat in `memory/`, `auto/` doesn't exist"* — **also false**: `memory/auto/` is real, I was simply already inside it. **Both errors were absence claims read off a failed path rather than a resolved one.** `readlink -f` first; a failed `ls` is not a missing directory.
 
+## The through-line — 5 independent instances, 4 desks' work, ONE shape, in a single day (2026-09-19)
+
+**An ambiguous or unknown state resolves toward the REASSURING reading.** *"I don't know"* silently becomes *"nothing happened."* Every instance below was found by someone other than the person who made it, and none was caught by a check:
+
+| The ambiguous thing | Read as | Actually |
+|---|---|---|
+| USCG *"no disruption **observed**"* | no access achieved | a **different proposition** |
+| Boilerplate term-hits in a filing | a disclosure | standing language, pre-dates the event |
+| A 0-byte fetch | an absence | a broken request |
+| A failed `ls` | a missing directory | a bad path (symlink double-nest) |
+| `rc=2` CANNOT-CONFIRM | "DID NOT RUN" | **unknown**, relabelled as nothing-happened |
+| An **unsearched** perimeter | an **unreachable** one | one `grep` away |
+
+🔑 **The tell is that the benign reading requires no further work and the honest one does.** That asymmetry is the whole mechanism — the reassuring branch is always the cheaper branch, so it wins by default whenever nobody is grading the difference.
+
+⇒ **Operational rule: when a result is UNKNOWN, say UNKNOWN and carry it. Never let an instrument's failure, a parser's silence, or a status code's ambiguity collapse into "fine."** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` is the guard-side cousin; this is the *state*-side form. `[[finding_n_independent_deviations_is_a_sample_size_not_n_defects]]` — 5 uncoordinated instances in one day measure the FIELD, not five bugs.
+
+*Synthesis jointly reached CRUISE ⇄ PROME, 2026-09-19; the five-instance census is PROME's, the "converts I don't know into nothing happened" framing is CRUISE's. No index row added — MEMORY.md was over its 75% flow-rule line at the time and the demotion is PROME's closeout step.*
+
 Related: [[finding_scan_keyed_on_naming_reads_local_form_as_absence]] (that one is the NEGATIVE — your pattern set; this is the POSITIVE — their standing language) · [[finding_a_named_unchecked_fallback_makes_an_absence_closable]] · [[finding_crosscheck_with_free_parameter_validates_nothing]] · [[finding_instrument_reports_clean_against_the_wrong_reference]]
