@@ -1,0 +1,50 @@
+ZHAO finish-line verification 303dbc501313b337bd13d3d9eec8796308181929
+Fresh-fetched origin 303dbc501313b337bd13d3d9eec8796308181929
+PASS actual countdown collect: three local November 10 clocks; warnings=[]
+(datetime.date(2026, 11, 10), 'BIS Affiliates Rule ("50% rule") REIMPOSITION EFFECTIVE — US perimeter widens (stay\'s LAST DAY is 2026-11-09)', 'Has BIS published a further extension of the stay before 2026-11-09? If not, the Affiliates Rule self-reactivates. · 🔴 **LAPSE IS THE DEFAULT, EXACTLY LIKE THE TARIFF TRUCE — nobody has to act for controls to RE-ARM; somebody has to act to stop it.** On reactivation, any entity **>=50% owned (directly or indirectly, individually OR IN THE AGGREGATE) by one or more Entity List entities is AUTOMATICALLY subject to Entity List restrictions** — a very large, mechanical widening of the controlled perimeter that requires no new listings at all. ⇒ same-session packets to **VULCAN** (semiconductor supply chain) and **HAWK**; route **HENRY** on the market leg.', 'P1 🔴', 'confirmed', 'CAT', datetime.date(2026, 11, 10))
+(datetime.date(2026, 11, 10), 'US-China reciprocal-tariff suspension expiry (truce clock)', 'Extension, lapse, or re-escalation · Lapse = trade-war re-escalation, route HAWK+HENRY 🟠', 'P1 🔴', 'confirmed', 'CAT', datetime.date(2026, 11, 10))
+(datetime.date(2026, 11, 10), 'CHINA-SIDE CLOCK — MOFCOM/GAC Announcement No. 70 of 2025 EXPIRES: the suspension of the 2025-10-09 rare-earth export-control package lapses by its own terms', 'Has MOFCOM published an extension of Announcement No. 70 before 2026-11-10? Check MOFCOM Chinese-language announcements + GAC. Pull the primary text (NOT yet fetched — KB-166 sits at Conf B2 for exactly this reason) ⚠️ At the 10/19 re-check the open question is NO LONGER the date (confirmed) — it is whether Beijing signals administrative READINESS to operate machinery it has never run, and whether the 9/24 summit produced any instrument extending No. 70. · NO extension published => the expanded package reactivates by DEFAULT: 5 added REEs (Ho/Er/Tm/Eu/Yb), the EXTRATERRITORIAL 0.1%% de minimis on Chinese-origin REE content in goods made anywhere, licensing on foreign product using Chinese REE process tech, and case-by-case licensing for <=14nm logic / >=256-layer memory for military AI. Route VULCAN+HAWK 🔴. NB April-2025 controls never lapsed and remain in force throughout — this is the EXPANSION returning, not controls appearing', 'P1 🔴', 'confirmed', 'CAT', datetime.date(2026, 11, 10))
+PASS KB-173 CORRECTED
+PASS matrix contains all previously compared code groups, including 3E901.a and .b
+BANNER PROME/inbox/2026-09-19_from-ZHAO_DECISION-battery-leg-allocation.md > ⛔⛔ **DEAD — DO NOT DECIDE FROM THIS PACKET. Superseded 2026-09-19 by `2026-09-19_from-ZHAO_CORRECTED-battery-decision.md` (same inbox).**
+BANNER PROME/inbox/2026-09-19_from-ZHAO_HOLD-battery-decision-my-scope-read-was-wrong.md > ✅ **DISCHARGED 2026-09-19 — the block this packet placed is lifted; the corrected decision is live at `2026-09-19_from-ZHAO_CORRECTED-battery-decision.md`.** Kept for the BIS ruling it carries and as the record of the block.
+BANNER PROME/inbox/2026-09-19_from-ZHAO_session-closeout.md > ⛔ **PARTIALLY SUPERSEDED 2026-09-19, later the same day — read this as a session record, NOT as live instructions.**
+BANNER AGENTS/ZHAO/outbox/2026-09-19_to-VULCAN-HAWK-HENRY_mofcom-primary-corrections.md > ⛔⛔ **SUPERSEDED — DO NOT ROUTE OR ACTION. Replaced by `2026-09-19b_to-VULCAN-HAWK-HENRY_CORRECTION-2-dates-and-scope.md` in this outbox.**
+SIZE AGENTS/ZHAO/STATUS.md 28006 bytes
+SIZE AGENTS/ZHAO/NEXUS_BRIEF.md 46446 bytes
+PASS final brief descends from last STATUS: 7621dcf3132fb7ecc3246c0de8fa8be17ca81c72 -> 303dbc501313b337bd13d3d9eec8796308181929
+PASS prediction ledger unchanged
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    AGENTS/HANS/CLAUDE.md
+     [not yours]    AGENTS/HANS/LAST_COMPLETION.md
+     [not yours]    AGENTS/HANS/scripts/closeout_check.py
+     [not yours]    AGENTS/HANS/scripts/fetch_eu.py
+     [not yours]    AGENTS/HANS/scripts/test_hans.py
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/ZHAO/STATUS.md AGENTS/ZHAO/docket/CATALYSTS.tsv
+CLAIM-CHECK ✓ 5 file(s) clean [weekday]
+
+EXIT 0
+$ git diff --check
+
+
+EXIT 0
+$ git status --short
+ M AGENTS/HANS/CLAUDE.md
+ M AGENTS/HANS/LAST_COMPLETION.md
+ M AGENTS/HANS/scripts/closeout_check.py
+ M AGENTS/HANS/scripts/fetch_eu.py
+ M AGENTS/HANS/scripts/test_hans.py
+ M FORGE/STATUS.md
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+
+EXIT 0
