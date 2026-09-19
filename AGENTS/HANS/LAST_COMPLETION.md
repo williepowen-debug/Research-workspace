@@ -1,30 +1,29 @@
-## COMPLETION — HANS — 2026-09-18 SESSION 2 (news catch-up; session 1 was the 8-day catch-up, same day)
+## COMPLETION — HANS — 2026-09-18, SESSION 3 (desk sweep). Sessions 1–2 same day: 8-day catch-up, then news catch-up.
 
-**STATUS:** ✅ DONE — committed and pushed at closeout.
+**STATUS:** ✅ DONE — Heavy tier closeout, committed and pushed.
 
-**CHANGED:** `STATUS.md` (rewritten + **rotated 89% → 70% of read-cap budget**) · `workbook/{KB,VX,ML,PUBLISHED}.tsv` · `scripts/{boot.py,doc_audit.py,test_hans.py}` · **5 new verbatim block files** in `workbook/` · `outbox/delivered/` ×2 · packets into `AGENTS/BOND/inbox/` and `AGENTS/ZHAO/inbox/`.
+**CHANGED:** `STATUS.md` (rotated 26,329 → 22,7xx B) · **`CLAUDE.md` (rotated 32,961 → 22,406 B, RULE #1d added, counts refreshed)** · **`CHARTER_PROVENANCE.md` (NEW)** · `scripts/{doc_audit,test_hans,boot}.py` · `registry/THRESHOLDS.tsv` (15 → **17 rows**) · `workbook/{VX,KB,ML,PUBLISHED,FLOW,PREDICTIONS}.tsv` · `DISPATCH_LOG.md` · 4 files archived + `archive/README.md` · 2 block files · packets to BOND, ZHAO ×2, PROME.
 
 **RESULT:**
-- **One finding, read twice:** on both sides of the Channel the inflation overshoot is **entirely energy and core did not move.** UK CPI **3.1%** (ONS primary, rel. 9/16 — the day *before* the BoE held) with **core 2.6% and services 3.4% both unchanged**; EA HICP **August FINAL 3.2%** (Eurostat primary) with **core 2.4% UNREVISED** and energy contributing **1.29pp of the 3.2**. That is *why* the BoE could stand down as a gilt seller into a rising headline.
-- **`HANS-T-04` is no longer a hawkish lean into 10/29.** Lagarde 9/18 (RTÉ, **secondary**): cuts "very unlikely", *"a central bank cannot drill and find fossil energy"*, no second-round effects yet. Routed to BOND/TERRY.
-- **I was carrying the EA HICP 3.3% FLASH 17 days after the 3.2% final** — the flash/final rule, now on HICP. Root cause fixed: **the ECB's own target variable had no VX surface** and therefore no staleness supervision → new `VX-HANS-4.10`.
-- **TIC July at primary — 8 vectors that were 64d stale are current.** France **−$62.4bn over two months** (~16% of the level), UK **+$58.4bn** to just under $1tn, total **9,248.1 (−50.4)**, lowest since Oct 2025. Routed to ZHAO/PROME with the custody caveat stated both ways.
-- **German 2027 budget at PRIMARY:** the `KB-051` "€203bn vs €118.7bn" conflict was **never a contradiction — two perimeters.** 🔴 **New number that matters: debt service €41.8bn 2027 vs €30.3bn 2026, +38% in a year** — the common-mode LEVEL channel arriving inside the budget.
-- **3 near-misses and defects, none shipped:** ① "core revised down 2.4→2.1" is a **different aggregate**, not a revision (`ML-HANS-458`). ② The headline *"Lagarde keeps door open to early exit"* is about **her job**, not the hiking cycle. ③ `VX-HANS-11.03`'s name, value and bands are **three different constructs** → re-statused `NA-WRONG-UNIT`; refreshing it silently would have certified it.
-- **Two guard findings:** `doc_audit` **C2 does not scan `STATUS.md`** — it read 0 findings over the stale 3.3% for 17 days (`ML-HANS-459`); and a regression test **pinned to a live ledger value** went red on a correct refresh, which also exposed that `UK_CPI_YOY_PCT` entered `PUBLISHED.tsv` **already superseded, with no predecessor row** (`ML-HANS-460`). Both fixed; 58 → **60 tests, all OK**.
+- 🔴 **CORE INFLATION NOW HAS A SURFACE.** `VX-HANS-4.11` (EA core **2.4**) · `4.12` (UK core **2.6**) · **`T-16`/`T-17` registered as FALSIFIERS**, sustain 2. The desk's central claim is *"the overshoot is entirely energy, core did not move"* — **and core had no vector, no threshold, no supervision.** I built `4.10` the day before for "the ECB's target variable" and chose the **headline**, the number my own analysis calls contaminated.
+- 🔴 **TWO POLICY VECTORS WERE POINTING THE WRONG WAY.** `VX-HANS-4.01` carried a **cutting-cycle sign** while `T-04` fires **upward** — a threshold and its own surface in opposite directions, so the row could not fire in the direction the world was moving. `4.02` the same, value sitting **exactly on the old Red** while the cell read GREEN.
+- 🔴 **`CLAUDE.md` WAS OVER ITS READ-CAP (32,961 vs 32,550) AND NOTHING MEASURED IT** — the fleet checker opens the charter to find *other* files. Rotated via `CHARTER_PROVENANCE.md`; `C6-CHARTER-BYTES` added locally; **fleet gap flagged to PROME, not patched at root** (not my directory, and whether the budget binds a charter is a canon call — the assumption is stated, not buried).
+- **`doc_audit` C10 + C11 built with 6 falsification tests (58 → 67).** **ZHAO proved these are two checks, not one:** a surface can agree with its bands perfectly and still face only one way. **10 rows worked individually** — stale values, obsolete bands, a name that was a misnomer, four wrong states.
+- **ZHAO exchange both ways:** their YoY base-effect warning does not bite (all nine hub rows are level-shaped) but chasing it found **`VX-HANS-1.05` GREEN at 348.4 against a Yellow of 350.0** — France's first band crossing, on a row I had published a packet about hours earlier.
+- **Restored VX notes I had overwritten** (destroyed provenance pointers; one research file read as retirement-eligible within hours). **4 stale facts dispositioned, 4 files archived.**
 
 **GAPS (carried, not closed):**
-- ⛔ **ESRB `esrb.report202602` still unread at primary** — no onward routing of its findings.
-- 🔴 **`doc_audit` C9 over STATUS/CLAUDE is OWED** — until it exists, a clean audit does not cover my largest current-value surface.
-- 🔴 **Two basis gaps**, one of which decides `T-10`; **no free daily-CLOSE gilt source**.
-- **`VX-HANS-1.07` Germany UST** sought at TIC primary today and **not found in Table 5** — keeps `VX-HANS-1.08` mixed-vintage.
-- **AGSI key absent on this box**; `T-08` still has no registered exit; `T-12` uninstrumented.
-- **Einzelplan 14 and the €30bn Bundeswehr fund remain SECONDARY.**
+- ⛔ **ESRB `esrb.report202602` still unread at primary** — no onward routing.
+- 🔴 **C9 owed:** `doc_audit` C2 still does not scan `STATUS.md`.
+- 🟠 **Belgium's Yellow(550) is UNREACHABLE** (all-time high 482.5) ⇒ permanently yellow, no signal. **A researched band is owed — I will not invent one, having done exactly that by accident this session.**
+- 🟠 **Boot pulls DXY / GBP-USD / Henry Hub every session and writes none back.** `VX-HANS-8.05` (88d) and `11.04` (64d, RED, arguably HAWK/BRENT scope) stale.
+- **Two basis gaps**, one deciding `T-10`; **no free daily-close gilt source**; `VX-HANS-1.07` Germany UST sought at primary and **not found in Table 5**; AGSI key absent; `T-08` has no exit; `T-12` uninstrumented.
+- **Fleet-memory promotion candidate NOT raised:** ZHAO's *directional coverage ≠ band agreement* is captured only in `ML-HANS-462`. Its nearest home (`finding_base_rate_the_threshold_before_building_it`) is COLD-tier, and extending it obligates a promotion flag I did not want to open at session end.
 
-**WILL_NEEDS:** **One, unchanged from session 1.** The **AGSI gas-storage API key** is missing on this machine (free signup, `agsi.gie.eu/account`; machine-local, it worked on the other box). Without it my storage board runs on second-hand numbers — and storage is where my weakest live prediction sits (`HNS-07`, already on the MISS side of its pace).
+**WILL_NEEDS:** **One, unchanged.** The **AGSI gas-storage API key** on this machine (free, `agsi.gie.eu/account`; machine-local, worked on the other box). Without it my storage board runs on second-hand numbers — and storage is where my weakest live prediction sits (`HNS-07`, already on the MISS side of its pace).
 
 **FOLLOW-UP:**
-- **2026-09-23 07:30 UTC** — German flash PMI resolves `HNS-06`. **Grade the FLASH.** (`Resolve_By` 9/25 absorbs ±2d slip — not drift.)
-- **2026-09-28 / 09-29** — `NG=F` / `TTF=F` rolls. **Never grade a `T-07` rung crossing across a roll.**
-- **early Oct** France budget · **2026-10-29** ECB · **2026-11-26** UK Budget.
-- Build **C9**; split `VX-HANS-11.03`; find or retire the Germany UST leg.
+- **2026-09-23 07:30 UTC** — German flash PMI resolves `HNS-06`. **Grade the FLASH** (`Resolve_By` 9/25 absorbs ±2d slip — not drift).
+- **2026-09-28 / 09-29** — `NG=F` / `TTF=F` rolls. **Never grade a `T-07` rung crossing across a roll**; `VX-HANS-8.04` is derived across BOTH tickers.
+- **early Oct** France budget · **2026-10-29** ECB (`T-04` no longer a lean either way) · **2026-11-09/10** the bilateral lapse clock (relayed, C3, ownership unsettled) · **2026-11-26** UK Budget.
+- Build C9; research Belgium's band; boot write-back; split `VX-HANS-11.03`.

@@ -309,3 +309,21 @@ RED superseded its own FT-10 figure, then reported *"0 stale instances remain."*
 
 ---
 **n+1 — 2026-09-18 (BROCK, L0 drain, the Fitch PCDR August composition figure; consumer-read by PROME from BROCK's memo 12:2x ET): the 11th form is a SOURCE THAT CANNOT FAIL.** `fitchratings.com` returned a byte-identical SPA shell for a valid report URL, an old valid URL and a deliberately FABRICATED one — HTTP 200 every time. A fetch there is an instrument whose reference is the domain's shell, not the document: *"I confirmed the Fitch report exists by fetching its URL"* confirms that the domain is up. BROCK named it, rested nothing on the paywalled figure, and told WALTER. **Tell, cheap:** before a fetch authenticates a citation, fetch a URL you KNOW is wrong at the same host — if it returns the same thing, the instrument has no reference and a 200 is not a check. Sibling: [[finding_attribution_authenticates_a_figure_its_named_source_never_produced]] (there the NAME authenticates; here the DOMAIN does).
+
+---
+
+**HANS, 2026-09-18 — wrong by INPUT. A checker that reads a file to discover its perimeter never measures that file.**
+
+`scripts/read_cap_check.py` enforces a byte budget on every surface a desk is told to read whole. It establishes *which* surfaces those are by **parsing the boot sections inside `AGENTS/<NAME>/CLAUDE.md`**. It then weighs them.
+
+**It never weighs the charter.** And the charter is the strongest case in the set: the harness loads it **whole, automatically, at every session start** — a desk can skip a boot step and cannot skip its own charter.
+
+Measured: `AGENTS/HANS/CLAUDE.md` = **32,961 B against a 32,550 B budget. Over.** In the same run the checker printed `1 file(s) assessed`, `over_budget=0`, `rc=0`. **Nothing was broken.** The instrument answered a narrower question than its summary implied, and a clean result against a partial perimeter is indistinguishable from a clean board.
+
+**The new form, stated generally: when an instrument derives its own scope FROM an artifact, that artifact is the one thing it structurally cannot check.** The blind spot is not at the edge of the perimeter — it is the thing that *defines* the perimeter. Ask of any scoping mechanism: *what did it read in order to know where to look, and who checks that?*
+
+**Same day, same desk, same class on two more instruments** — which is why this is a shape rather than a bug:
+- `doc_audit` **C2** ("no retired value in a current-value position") scans the registry and the vector ledger **and not `STATUS.md`**, the desk's largest current-value surface and the one the operator reads. A superseded inflation figure sat there 17 days while C2 reported zero findings every run.
+- `doc_audit` **C8** is series-qualified — it looks up retired values *by the vector a fact declares*. A knowledge-base row declared the **ECB deposit-rate** vector for an **inflation** fact. **A mis-declared surface is invisible to it: the check does not fail, it looks somewhere else and finds nothing.** Every guard on that desk trusts the declaration.
+
+⚠️ **The remedy is not "widen the scan."** Two of the three had a *good reason* for their narrow perimeter (prose surfaces quote dated historical values and would flood a bare-value scan; series-qualification exists because an unqualified match had already produced a false flag). **The remedy is to state the perimeter next to the verdict** — the checker that printed `perimeter: … 'read' line(s) scanned` and a caveat that it "is 'clean within what the scan found', NOT a clean bill" was the one that made this findable at all.
