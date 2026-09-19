@@ -61,9 +61,14 @@
 
 > "This contrasts with the position of **US banks, which are net lenders** to the NBFI sector."
 
-⇒ **The euro-area channel is banks losing NBFI *funding* in a stress, not banks taking *credit losses* on private credit.** That is a different transmission mechanism from the US one, and it is the one the report actually assesses as material.
+⇒ **The euro-area channel's DOMINANT route is funding/liquidity, not credit losses on private credit.** That is a different emphasis from the US one, and the funding leg is what the report assesses as most material in Europe.
 
-🔴 **This SUPPORTS `HNS-09`'s outcome while WEAKENING the reason I hold it** — exactly the `HNS-05` failure mode (outcome HIT, rationale FAIL). I held 70% partly on "the T-14 sweep is clean." The better reason is **structural: the euro-area bank→private-credit credit channel is small by construction** because euro-area banks are net borrowers from NBFI, not net lenders to it. **Same number, sounder basis, and the basis is now written down.**
+> 🔴 **CORRECTION, 2026-09-19 (CATO review) — THIS SECTION ORIGINALLY OVERSTATED THE CONCLUSION AND THE ORIGINAL WORDING IS WITHDRAWN.**
+> It read: *"the euro-area bank→private-credit credit channel is small **by construction**"*, and treated the aggregate NET-DEBTOR position as protection against GROSS credit losses. ⛔ **That does not follow.** A net position is a difference; it bounds neither side of it. A bank can borrow more from NBFI than it lends and still carry large gross claims on it.
+> **The same report documents exactly that:** asset-side exposure to NBFI is **~10% of significant-institution assets**, of which **about a quarter** is to potentially leveraged entities, and reverse repo lending to hedge funds **more than doubled in four years**. §2 of this file quotes the report describing **both funding AND credit vulnerabilities** — I had read only the funding half forward into the conclusion.
+> **What survives:** the net-debtor position makes FUNDING the dominant euro-area transmission route. **What is withdrawn:** any claim that it BOUNDS the credit channel.
+
+🔴 **On `HNS-09`, two things were wrong and both favoured me.** ① I had been rendering the prediction on other surfaces as *"no large euro-area bank reports a materially private-credit-driven loss"*. **The REGISTERED text is broader and harder** — sector NII/earnings holding with **no material rise in cost-of-risk**. Grading the narrow version would have passed a test I did not set; the registered text governs. ② The basis above was the overstatement just withdrawn. Confidence stays **70%** on the registered claim, resting on the absence of a cost-of-risk turn to date — **not** on a structural bound that does not exist. *(This is still the `HNS-05` lesson — outcome vs rationale — but applied to a rationale that itself needed correcting.)*
 
 ---
 

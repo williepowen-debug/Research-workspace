@@ -53,35 +53,61 @@ def run(cmd, cwd):
 # The fix distinguishes a SIGNALLING exit from a BROKEN one by its documented range: these
 # tools signal with 1 (and consumer_check with 2 for a certified-stale finding). Anything
 # else, including any rc>=3, is a crash [[finding_lenient_parser_reports_unparseable_as_a_behavior]].
-def _clean_or_flagged(rc):
-    """True only for a DOCUMENTED exit code. A traceback is not a behaviour."""
-    return rc in (0, 1, 2)
+def _crashed(out):
+    """Did the tool DIE rather than report? Exit codes cannot answer this.
+
+    🔴 SECOND CORRECTION, 2026-09-19. My first fix accepted rc in (0,1,2) because these
+    tools signal with non-zero. CATO then showed a PYTHON TRACEBACK EXITS 1 and a missing
+    script exits 2 — both still printed "✅ RAN ... 8/8 executed, 0 failed". I had fixed
+    the payload I happened to test (rc=3), not the property.
+    THE PROPERTY: a tool that actually ran prints its own verdict; a tool that died prints
+    a traceback. So the gate is the OUTPUT, and the exit code is only corroboration.
+    """
+    low = (out or "").lower()
+    return any(m in low for m in (
+        "traceback (most recent call last)", "modulenotfounderror", "importerror",
+        "no such file or directory", "can't open file", "command not found",
+        "syntaxerror", "indentationerror", "unrecognized arguments", "usage:"))
+
+
+def _ok(rc, out, expect):
+    """A step passes only if it did NOT crash AND printed the verdict marker it owes.
+
+    ⛔ AN ABSENT MARKER IS A FAILURE EVEN ON rc=0 — a tool that exits clean while printing
+    nothing it promised has not been observed to do its job, and this runner exists
+    because ML-HANS-456 was "six checks green around the one that never ran".
+    """
+    if rc is None or _crashed(out):
+        return False
+    if expect and expect.lower() not in (out or "").lower():
+        return False
+    return True
 
 
 # (step label, argv, cwd, "ok" predicate on rc)
 STEPS = [
     ("1  doc_audit (RULE #1b)",
-     [sys.executable, "scripts/doc_audit.py"], HANS, lambda rc: rc == 0),
+     [sys.executable, "scripts/doc_audit.py"], HANS, (0,), "HANS DOC AUDIT"),
     ("8  root 1b · orphan",
-     ["bash", "scripts/orphan_check.sh", "HANS"], ROOT, lambda rc: rc == 0),
+     ["bash", "scripts/orphan_check.sh", "HANS"], ROOT, (0,), None),
     ("9a root 1c · consumer CROSS-AGENT",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--from-ledger"], ROOT, _clean_or_flagged),
+      "--from-ledger"], ROOT, (0, 1, 2), "CONSUMER CHECK"),
     ("9b root 1c · consumer --SELF  <- the one that went missing",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--self", "--from-ledger"], ROOT, _clean_or_flagged),
+      "--self", "--from-ledger"], ROOT, (0, 1, 2), "SELF mode"),
     ("10 root 1c-bis · ledger nudge",
      [sys.executable, "scripts/ledger_staleness.py", "--nudge", "HANS"],
-     ROOT, _clean_or_flagged),
+     ROOT, (0, 1), "HANS"),
     ("11 root 1e · claim check",
      [sys.executable, "scripts/claim_check.py", "--check", "weekday",
       "AGENTS/HANS/STATUS.md", "AGENTS/HANS/workbook/KB.tsv",
-      "AGENTS/HANS/registry/THRESHOLDS.tsv"], ROOT, lambda rc: rc == 0),
+      "AGENTS/HANS/registry/THRESHOLDS.tsv"], ROOT, (0,), "CLAIM-CHECK"),
     ("12 tests",
-     [sys.executable, "scripts/test_hans.py"], HANS, lambda rc: rc == 0),
+     [sys.executable, "scripts/test_hans.py"], HANS, (0,), "OK"),
     ("12 read-cap",
      [sys.executable, "scripts/read_cap_check.py", "--agent", "HANS"],
-     ROOT, lambda rc: rc == 0),
+     ROOT, (0,), "READ-CAP-RESULT"),
 ]
 
 # Steps whose CONTENT no script can judge.  Named so they are visible as
@@ -116,14 +142,14 @@ def main():
     print("  HANS CLOSEOUT RUNNER — did the mechanical steps EXECUTE?")
     print("=" * 74)
     failed, ran = [], 0
-    for label, cmd, cwd, ok in STEPS:
+    for label, cmd, cwd, codes, expect in STEPS:
         rc, out = run(cmd, cwd)
         if rc is None:
             print(f"  ⛔ ERROR   {label}\n              {out.splitlines()[0][:90]}")
             failed.append(label)
             continue
         ran += 1
-        if ok(rc):
+        if _ok(rc, out, expect) and rc in codes:
             tail = out.strip().splitlines()
             note = tail[-1][:78] if tail else ""
             print(f"  ✅ RAN     {label}   rc={rc}")

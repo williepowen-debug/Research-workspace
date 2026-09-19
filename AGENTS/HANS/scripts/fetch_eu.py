@@ -106,22 +106,29 @@ def boe(series, days=14):
     col = hdr.index(series.upper())
     import math
     from datetime import datetime
-    for line in reversed(lines[1:]):
+    # 🔴 NEWEST BY DATE, NOT LAST IN FILE. Taking reversed(lines) returned whichever row
+    # happened to be last: with rows out of order a STALE observation won (CATO 2026-09-19 —
+    # a shuffled body returned 15 Sep over 16 Sep). Row order is the server's business; the
+    # date is the fact [[finding_plausible_stale_value_evades_review]].
+    best = None
+    for line in lines[1:]:
         cells = [c.strip() for c in line.split(",")]
         if len(cells) <= col:
             continue
-        try:
-            v = float(cells[col])
-        except ValueError:
+        v = _finite(cells[col])
+        if v is None:
             continue
-        if math.isnan(v) or math.isinf(v):
-            continue                  # NaN parsed fine and would have published as a level
-        try:
-            datetime.strptime(cells[0], "%d %b %Y")
-        except ValueError:
-            continue                  # an unparseable date cannot carry an age, so it is unusable
-        return cells[0], v
-    return None
+        d = _obs_date(cells[0])       # rejects unparseable, FUTURE and ancient dates
+        if d is None:
+            continue
+        if best is None or d > best[0]:
+            best = (d, cells[0], v)
+    if best is None:
+        return None
+    from datetime import date as _date
+    if (_date.today() - best[0]).days > MAX_OBS_AGE_DAYS:
+        return None                   # a stale feed is a FAILURE, not a quiet old number
+    return best[1], best[2]
 
 
 def _agsi_key():
@@ -138,6 +145,51 @@ def _agsi_key():
                 if line.startswith("AGSI_API_KEY="):
                     key = line.split("=", 1)[1].strip()
     return key
+
+
+# ---------------------------------------------------------------------------
+# SHARED VALUE / DATE VALIDATION. 🔴 WRITTEN 2026-09-19 AFTER A SECOND CATO PASS SHOWED I
+# HAD FIXED THE PAYLOAD I TESTED RATHER THAN THE PROPERTY: I rejected NaN in the BoE parser
+# and left the AGSI path accepting it, so `full=NaN` flowed straight into the gap and
+# printed a colour. A validator belongs in ONE place that every reader calls, or the next
+# reader is the one that skips it [[finding_guard_correctness_and_wiring_are_independent]].
+MAX_OBS_AGE_DAYS = 10          # older than this is not a "current" observation
+
+
+def _finite(x, lo=None, hi=None):
+    """float(x) if finite and in range, else None. NaN/inf parse fine and must not pass."""
+    import math
+    try:
+        v = float(x)
+    except (TypeError, ValueError):
+        return None
+    if math.isnan(v) or math.isinf(v):
+        return None
+    if lo is not None and v < lo:
+        return None
+    if hi is not None and v > hi:
+        return None
+    return v
+
+
+def _obs_date(text, fmts=("%Y-%m-%d", "%d %b %Y")):
+    """Parsed date if it is real, NOT in the future, and not absurdly old — else None.
+
+    A future observation is always wrong and is the shape a feed takes when it echoes a
+    request parameter back. An ancient one is a frozen feed. Both previously passed.
+    """
+    from datetime import date, datetime, timedelta
+    for f in fmts:
+        try:
+            d = datetime.strptime(str(text).strip(), f).date()
+        except (ValueError, TypeError):
+            continue
+        if d > date.today():
+            return None
+        if d < date.today() - timedelta(days=365 * 2):
+            return None
+        return d
+    return None
 
 
 def agsi_eu():
@@ -168,6 +220,17 @@ def agsi_eu():
             # its checkpoint, correctly by the letter, forever.
             return None, f"AGSI returned an EMPTY data array — {_agsi_why_empty(key)}"
         rec = recs[0]
+        # 🔴 VALIDATE BEFORE TRUSTING. `full=NaN` used to parse and publish as a level, and
+        # a 1999 gas day used to pass — either would have produced a coloured gap from
+        # invalid data, which is worse than no gap because it looks answered.
+        _v = _finite(rec.get("full"), lo=0.0, hi=100.0)
+        _d = _obs_date(rec.get("gasDayStart"))
+        if rec.get("full") not in (None, "", "-") and _v is None:
+            return None, (f"AGSI returned an UNUSABLE fill {rec.get('full')!r} "
+                          f"(NaN/inf/out of 0-100) — refusing to publish it as a level")
+        if _v is not None and _d is None:
+            return None, (f"AGSI gas day {rec.get('gasDayStart')!r} is unparseable, in the "
+                          f"FUTURE, or absurdly old — a level with no usable date is blind")
         if rec.get("full") in (None, "", "-"):
             # ⚠️ OPEN QUESTION (PROME 2026-09-19, NOT established): the newest gas day on
             # Saturday 09-19 was 09-17 = D+2, not the D+1 this comment has always claimed.
@@ -175,7 +238,7 @@ def agsi_eu():
             # observation cannot separate the two. CHECK ON A WEEKDAY. If still D+2 then,
             # this comment is wrong and anything keyed to D+1 freshness is a day optimistic.
             return None, f"AGSI gas day {rec.get('gasDayStart')} has no 'full' value yet (lag D+1, possibly D+2 — unresolved)"
-        return (rec.get("gasDayStart"), float(rec["full"]), rec.get("trend")), None
+        return (rec.get("gasDayStart"), _v, rec.get("trend")), None
     except Exception as e:
         return None, f"AGSI pull failed: {str(e)[:60]}"
 
@@ -253,8 +316,11 @@ def agsi_norm(gas_day, years=5):
                 headers={"x-key": key, "User-Agent": "HANS/1.0"})
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 recs = (json.load(r).get("data") or [])
-            if recs and recs[0].get("full") not in (None, "", "-"):
-                got.append((y, float(recs[0]["full"])))
+            if recs:
+                _hv = _finite(recs[0].get("full"), lo=0.0, hi=100.0)
+                if _hv is not None:
+                    got.append((y, _hv))      # an invalid year is DROPPED, and the quorum
+                                              # then refuses the whole norm — never averaged
         except Exception:
             continue          # one missing year is survivable; the quorum test below is not
     # 🔴 WAS `len(got) < years - 1`, i.e. FOUR years silently satisfied a "5-yr norm".

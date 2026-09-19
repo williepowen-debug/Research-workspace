@@ -867,8 +867,10 @@ class TestDocAuditC9C12C13(unittest.TestCase):
     def test_C9_band_suppression_reads_the_registry_not_a_hardcoded_list(self):
         """If the suppression were a literal list it would rot the moment a band moved."""
         src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
-        blk = src[src.index("band_nums = set()"):src.index("band_nums = set()") + 300]
-        self.assertIn("registry/THRESHOLDS.tsv", blk)
+        blk = src[src.index("def c9_scan("):]
+        self.assertIn("registry_rows", blk[:600],
+                      "band data must come from the registry, not a literal")
+        self.assertIn("bands_by_vec", blk[:900])
 
     # ---- C12 ----------------------------------------------------------------
     def test_C12_fires_on_a_duplicate_key(self):
@@ -959,7 +961,7 @@ class TestDocAuditC9C12C13(unittest.TestCase):
         """If the exclusion were a filename literal it would not follow the file if it
         ever stopped being a statement-time record."""
         src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
-        fn = src[src.index("def _is_statement_time_record"):]
+        fn = src[src.index("def _statement_time_record"):]
         fn = fn[:fn.index("\n\n")]
         self.assertIn("APPEND-ONLY", fn)
         self.assertIn("STATEMENT-TIME", fn)
@@ -1156,11 +1158,15 @@ class TestC9v2AndC12Frozen(unittest.TestCase):
     def test_C12_frozen_file_exists_and_is_the_recorded_set(self):
         fz = self.da.HANS / "registry/ML_LEGACY_DUP_IDS.txt"
         self.assertTrue(fz.exists())
-        ids = [l.strip() for l in fz.read_text().split("\n")
-               if l.strip() and not l.startswith("#")]
-        self.assertEqual(len(ids), 95, "the frozen legacy set changed — was a NEW collision "
-                                       "silenced by adding a line? the file forbids that")
-        self.assertIn("never add a line here", fz.read_text().lower())
+        rows = [l.strip() for l in fz.read_text().split("\n")
+                if l.strip() and not l.startswith("#")]
+        self.assertEqual(len(rows), 95, "the frozen legacy set changed — was a NEW collision "
+                                        "silenced by adding a line? the file forbids that")
+        # the COUNT is part of the frozen fact: freezing bare ids let an exempt id grow
+        self.assertTrue(all("\t" in r for r in rows),
+                        "frozen file lost its COUNT column — ids alone let a dup grow")
+        self.assertIn("never add a line", fz.read_text().lower(),
+                      "the file lost its own prohibition on silencing collisions")
 
     def test_C12_fires_on_a_new_collision_on_an_OLD_id(self):
         """CATO's counterexample: duplicating the previously UNIQUE ML-HANS-001 took the
@@ -1191,6 +1197,140 @@ class TestC9v2AndC12Frozen(unittest.TestCase):
             self.assertIn("WITHDRAWN", note[max(0, m.start() - 400):m.start()].upper(),
                           "an occurrence of the withdrawn rule carries no withdrawal marker "
                           "before it — that is two live instructions again")
+
+
+class TestCATOSecondPass(unittest.TestCase):
+    """The SIX gaps CATO found after my first correction round, each pinned.
+
+    🔴 THE PATTERN THEY SHARE, AND WHY THESE TESTS EXIST: my first round fixed the PAYLOAD
+    I happened to test rather than the PROPERTY. I rejected rc=3 in the runner and a
+    traceback exits 1; I rejected NaN in the BoE parser and left the AGSI path accepting it;
+    I froze duplicate IDs and not their COUNTS. Every one of these asserts the property.
+    """
+
+    def setUp(self):
+        import importlib, fetch_eu, doc_audit
+        self.fe = importlib.reload(fetch_eu)
+        self.da = importlib.reload(doc_audit)
+        self.fe._agsi_key = lambda: "k"
+
+    class _R:
+        def __init__(s, b): s.b = b
+        def __enter__(s): return s
+        def __exit__(s, *a): return False
+        def read(s): return s.b
+
+    def _serve(self, payload):
+        import urllib.request
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = lambda *a, **k: TestCATOSecondPass._R(payload)
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+
+    # ---- 1. storage validation ------------------------------------------------
+    def test_agsi_rejects_NaN_fill(self):
+        """NaN parsed fine and produced a COLOURED GAP from invalid data."""
+        self._serve(b'{"data":[{"gasDayStart":"2026-09-17","full":"NaN","trend":"0.2"}]}')
+        st, err = self.fe.agsi_eu()
+        self.assertIsNone(st)
+        self.assertIn("UNUSABLE", err)
+
+    def test_agsi_rejects_an_out_of_range_fill(self):
+        self._serve(b'{"data":[{"gasDayStart":"2026-09-17","full":"250","trend":"0.2"}]}')
+        self.assertIsNone(self.fe.agsi_eu()[0])
+
+    def test_agsi_rejects_an_impossible_gas_day(self):
+        self._serve(b'{"data":[{"gasDayStart":"1999-01-01","full":"69.06","trend":"0.2"}]}')
+        self.assertIsNone(self.fe.agsi_eu()[0])
+
+    def test_agsi_norm_drops_an_invalid_year_and_then_REFUSES_on_quorum(self):
+        """An invalid year must not be averaged in, and losing it must not silently
+        produce a 4-year statistic under the 5-year name."""
+        calls = {"n": 0}
+        import urllib.request
+        def fake(*a, **k):
+            calls["n"] += 1
+            return TestCATOSecondPass._R(
+                b'{"data":[{"full":"NaN"}]}' if calls["n"] == 1
+                else b'{"data":[{"full":"85.00"}]}')
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = fake
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+        mean, _md, n, _w = self.fe.agsi_norm("2026-09-17")
+        self.assertIsNone(mean, "a 4-year window was published under the 5-year name")
+        self.assertEqual(n, 4)
+
+    # ---- 3. BoE freshness and ordering ---------------------------------------
+    def test_boe_takes_the_NEWEST_BY_DATE_not_the_last_row(self):
+        """Shuffled rows previously returned a STALE observation, because the parser took
+        last-in-file. Row order is the server's business; the date is the fact."""
+        self._serve(b"DATE,IUDMNPY\n16 Sep 2026,5.2421\n15 Sep 2026,9.9999\n")
+        self.assertEqual(self.fe.boe("IUDMNPY"), ("16 Sep 2026", 5.2421))
+
+    def test_boe_rejects_a_FUTURE_observation(self):
+        self._serve(b"DATE,IUDMNPY\n16 Sep 2099,4.0000\n")
+        self.assertIsNone(self.fe.boe("IUDMNPY"))
+
+    def test_boe_rejects_a_STALE_observation(self):
+        """Printing an age was never a failure mode — an old number still published."""
+        self._serve(b"DATE,IUDMNPY\n01 Jan 2020,4.0000\n")
+        self.assertIsNone(self.fe.boe("IUDMNPY"))
+
+    # ---- 4. C9 position discriminator ----------------------------------------
+    def test_C9_band_POSITION_not_ownership(self):
+        """A global band set let France's >4.50 silence a stale BoE 4.50; per-metric bands
+        then made France's own row TRIP as a stale BoE value. The question is POSITION: a
+        band is written as a comparison, a level is written bare."""
+        real = self.da.HANS / "STATUS.md"
+        orig = real.read_text()
+        self.addCleanup(lambda: real.write_text(orig))
+        import importlib
+        def n(extra):
+            real.write_text(orig + extra)
+            importlib.reload(self.da)
+            return sum(1 for c, _ in self.da.audit() if c == "C9-STATUS-SUPERSEDED")
+        base = n("")
+        self.assertEqual(n("\n| France OAT | 4.47 | >4.50 level leg |\n"), base,
+                         "a band POSITION was read as a stale level")
+        self.assertEqual(n("\nBoE Bank Rate stands at 4.50 today.\n"), base + 1,
+                         "a bare stale level was suppressed by another metric's band")
+
+    # ---- 5. C12 counts --------------------------------------------------------
+    def test_C12_catches_an_extra_copy_of_an_ALREADY_EXEMPT_id(self):
+        """Freezing bare ids let the exemption grow with the file."""
+        m = self.da.HANS / "workbook/ML.tsv"
+        orig = m.read_text()
+        try:
+            row = [l for l in orig.split("\n") if l.startswith("ML-HANS-089\t")][0]
+            m.write_text(orig.rstrip("\n") + "\n" + row + "\n")
+            import importlib; importlib.reload(self.da)
+            self.assertIn("C12-ID-DUPLICATE", {c for c, _ in self.da.audit()})
+        finally:
+            m.write_text(orig)
+
+    def test_C12_covers_PREDICTIONS_and_FLOW(self):
+        src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
+        blk = src[src.index("for rel, keycol in"):src.index("for rel, keycol in") + 420]
+        self.assertIn("PREDICTIONS.tsv", blk)
+        self.assertIn("FLOW.tsv", blk)
+
+    # ---- 2. the runner, against every crash shape ----------------------------
+    def test_runner_gate_is_OUTPUT_based_not_exit_code_based(self):
+        """rc cannot separate signalling from crashing: these tools exit non-zero to
+        report, and a traceback also exits 1. The gate is the verdict marker."""
+        src = (Path(__file__).resolve().parent / "closeout_check.py").read_text()
+        self.assertIn("def _crashed(", src)
+        self.assertIn("traceback (most recent call last)", src.lower())
+        self.assertIn("expect", src)
+
+    def test_runner_rejects_a_step_that_printed_nothing(self):
+        """rc=0 with no verdict marker is a tool that has not been observed doing its job."""
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "cc", Path(__file__).resolve().parent / "closeout_check.py")
+        cc = importlib.util.module_from_spec(spec); spec.loader.exec_module(cc)
+        self.assertFalse(cc._ok(0, "", "CONSUMER CHECK"))
+        self.assertFalse(cc._ok(1, "Traceback (most recent call last):\n...", "X"))
+        self.assertTrue(cc._ok(1, "CONSUMER CHECK ... 3 flagged", "CONSUMER CHECK"))
 
 
 if __name__ == "__main__":
