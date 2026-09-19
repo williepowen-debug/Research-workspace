@@ -365,3 +365,11 @@
 *New memories whose trigger is a PREDICTABLE MOMENT go straight here per `MEMORY.md`'s append rule, rather than entering hot and being demoted later. Recorded as its own section so a dated demotion wave is never mistaken for the origin of a row it never held.*
 
 - finding_the_artifact_built_to_prevent_bias_is_the_one_nobody_audits — re-derive a frozen prep file's numbers; its errors point your way [SAM 2026-09-19]
+- finding_write_timestamps_from_the_clock_not_the_narrative — `date` before EVERY stamp; drift grows with session length, runs both ways [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_imperfect_level_to_the_right_owner_beats_a_perfect_one_to_nobody — half a dispatch's value is the OWNER RE-READING ITS OWN FILE; don't withhold [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_ambiguous_coordinator_instruction_mints_a_propagating_event — a relayed deadline read as an EVENT spreads; agreement is not verification [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_a_ruling_governs_the_next_write_not_the_existing_state — a ruling touches nothing already on disk; pair it with a retroactive sweep [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_a_registry_reclassification_is_an_interface_consumers_guard_one_way — retiring/re-classing a desk is an INTERFACE — audit consumers BOTH ways [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_remote_control_rows_are_own_subagents_under_aliases — Remote Control rows on this host = your OWN subagents; count Teammates first [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_grep_respects_gitignore_so_ignored_zones_are_invisible — root sweeps silently skip ignored paths — a zero there is not an absence [demoted from HOT 2026-09-19, prome-92 flow pass]
+- finding_flat_pdf_parse_returns_a_perfectly_counted_wrong_alignment — flat multi-page PDF extract: counts match, alignment WRONG — check a KNOWN row [demoted from HOT 2026-09-19, prome-92 flow pass]

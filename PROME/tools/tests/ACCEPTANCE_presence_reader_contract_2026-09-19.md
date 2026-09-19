@@ -7,7 +7,7 @@ The reported symptom is `ValueError: too many values to unpack (expected 7)`. Th
 
 **The property that was violated:** *a downstream reader of `spawn_list.collect()` must survive the producer gaining a field, and when the reader cannot run, the boot summary must say the CHECK FAILED — never render it as the evidence-unavailable verdict a healthy run produces.*
 
-**How it arose:** `40aed8915` (the desk-cadence wire, ruled WQ-269) took `collect()` from 7 fields to 8. ⛔ **DATE CORRECTED 2026-09-19 22:1x ET by the independent reader — this document first said "the 2026-09-14 desk-cadence wire" and that is WRONG by five days.** `git log -1 --format=%as 40aed8915` → **2026-09-19**, 12:08:59 -0400. The break therefore lived for about **4 hours 38 minutes**, from that commit to the 16:46 boot that hit it — not five days. ⚠️ The wrong date had already propagated into the reader's own brief and into PROME's report to Will (*"an instrument broke yesterday"*); both are corrected. ⚠️ **And the field was INSERTED at index 6, not appended** — `catalyst` moved from 6 to 7, which is what breaks an index reader that a true append would not have. `session_presence.report()` positionally unpacks 7. The producer's own consumers were not enumerated when the column landed — the WQ-229 "test the NEIGHBOURS" step, missed on a build whose independent read (DOCKET L446) is still owed.
+**How it arose:** `40aed8915` (the desk-cadence wire, ruled WQ-269) took `collect()` from 7 fields to 8. ⛔ **DATE CORRECTED 2026-09-19 18:1x ET by the independent reader — this document first said "the 2026-09-14 desk-cadence wire" and that is WRONG by five days.** `git log -1 --format=%as 40aed8915` → **2026-09-19**, 12:08:59 -0400. The break therefore lived for about **4 hours 38 minutes**, from that commit to the 16:46 boot that hit it — not five days. ⚠️ The wrong date had already propagated into the reader's own brief and into PROME's report to Will (*"an instrument broke yesterday"*); both are corrected. ⚠️ **And the field was INSERTED at index 6, not appended** — `catalyst` moved from 6 to 7, which is what breaks an index reader that a true append would not have. `session_presence.report()` positionally unpacks 7. The producer's own consumers were not enumerated when the column landed — the WQ-229 "test the NEIGHBOURS" step, missed on a build whose independent read (DOCKET L446) is still owed.
 
 ## Acceptance conditions
 
@@ -39,7 +39,7 @@ The reported symptom is `ValueError: too many values to unpack (expected 7)`. Th
 
 ---
 
-## Amendment 2026-09-19 22:2x ET — what the independent reader found, and why A6/A7 exist
+## Amendment 2026-09-19 18:2x ET — what the independent reader found, and why A6/A7 exist
 
 The reader returned **3 ❌ / 6 ⚠️ / 6 ✅** and every finding was constructed and run, not re-run from this suite.
 
@@ -49,3 +49,5 @@ The reader returned **3 ❌ / 6 ⚠️ / 6 ✅** and every finding was construct
 - **⚠️ accepted:** the last positional `r[3]` in `main()` is gone; the `Row` docstring now records that `cadence` was INSERTED at index 6 rather than appended; and the reader's point that **this suite never imports `prome_gate`, so A3 was verified at the wrong artifact** is the reason ❌1 got through at all — `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
 - **⚠️ carried, not fixed:** `_field()`'s `str()`/`getattr` coercion traps, and a non-`Row` row of the wrong width yielding a silent wrong column at rc=0. Declared residue, not repaired this session.
 - **Category 5 revisited:** the reader accepts the N/A for *row shape* and rejects it for the *rc contract* — `spawn_list.py:123` names index.lock contention during concurrent commits as a realistic route into the rc=2 state that ❌1 mislabelled. **The N/A was right about the question asked and wrong about the question that mattered.**
+
+⛔ **Stamp defect, recorded not silently fixed (ARGUS ❌8):** both amendment stamps above first read `22:1x ET` / `22:2x ET` — **UTC values labelled ET, four hours ahead of this file's own commit clock** — inside the one document whose own ❌3 was a misdated commit. ⚠️ And the memory naming exactly this failure, `[[finding_write_timestamps_from_the_clock_not_the_narrative]]`, was DEMOTED from the hot index to the cold index by PROME **earlier in this same session**. Take the clock in the same command that writes the stamp.
