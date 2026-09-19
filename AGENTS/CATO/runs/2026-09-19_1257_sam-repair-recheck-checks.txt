@@ -1,0 +1,169 @@
+Captured output, trailing whitespace normalized.
+
+$ python3 -B AGENTS/SAM/scripts/tests/test_closeout_check.py
+PASS test_A_fires_on_past_row_in_catalysts
+PASS test_B_does_not_fire_on_the_RESOLVED_block
+PASS test_B_fires_on_past_row_in_calendar_forward_table
+PASS test_CATO1_lone_open_count_on_a_predictions_line_is_caught
+PASS test_CATO1_real_pre_repair_thesis_text
+PASS test_CATO1_three_part_scoreboard_is_caught
+PASS test_CATO2_dropped_event_on_a_shared_date_is_caught
+PASS test_CATO2_undated_catalyst_row_is_caught
+PASS test_CATO3_orphan_check_is_actually_delegated
+PASS test_CATO3_sam_handoff_has_its_own_cap_check
+PASS test_CATO4_pre_commit_mode_exists_and_is_documented
+PASS test_C_fires_when_the_two_files_diverge
+PASS test_C_quiet_when_both_hold_the_same_forward_set
+PASS test_D_fires_on_a_scoreboard_that_contradicts_the_file
+PASS test_E_fires_when_sidecar_holds_a_resolved_row
+PASS test_catches_the_actual_incident
+PASS test_clean_docket_passes
+PASS test_lone_open_does_not_fire_on_a_QUOTED_retired_value
+PASS test_lone_open_does_not_fire_on_an_unrelated_series
+
+0 failure(s), 0 skipped
+
+EXIT 0
+
+$ python3 -B AGENTS/SAM/scripts/closeout_check.py
+==========================================================================
+  SAM CLOSEOUT CHECK — 2026-09-19
+==========================================================================
+  STEP      WRITTEN IN         COVERAGE
+  9         SAM §Write-back    DELEGATED read_cap_check.py (size only; content is MANUAL)
+                               Write results back to STATUS.md
+  10        SAM §Write-back    CHECKED A/B/C
+                               Update docket/; prune past; CALENDAR<->CATALYSTS sync
+  11        SAM §Write-back    CHECKED D (count only); thesis judgement is MANUAL
+                               THESIS if thesis-level change + CHANGELOG
+  12        SAM §Write-back    MANUAL
+                               TIMELINE if an event resolves + CHANGELOG
+  12a       SAM §Write-back    MANUAL
+                               Consider spawning METSUKE for TRADE/STRATEGY drift
+  13        SAM §Write-back    MANUAL
+                               Research detail -> research/outputs/
+  13a       SAM §Write-back    CHECKED F
+                               Refresh NEXUS_BRIEF LAST (ordering constraint)
+  14        SAM §Write-back    CHECKED H  (the fleet-idx delegation is a DIFFERENT file, not this step)
+                               Update MEMORY.md (handoff)
+  root 1    root §Session end  CHECKED G
+                               Commit your files locally
+  root 1b   root §Session end  DELEGATED orphan_check.sh (CATO 2026-09-19: was LISTED but never called)
+                               Orphan check
+  root 1c   root §Session end  MANUAL (needs --old/--new; series+unit judgement)
+                               Consumer check on superseded figures
+  root 1c-bis root §Session end  DELEGATED ledger_staleness.py
+                               Ledger staleness nudge
+  root 1d   root §Session end  MANUAL (needs --slug)
+                               Memory-index check (if an auto-memory was written)
+  root 1e   root §Session end  DELEGATED claim_check.py
+                               Claim check (weekday-vs-date)
+  root 2    root §Session end  MANUAL (the receipt line is the proof)
+                               Auto-push via safe-push.sh + CONFIRMED receipt
+
+  DERIVED from PREDICTIONS.tsv: 16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN  (OPEN: SAM-33)
+
+  DELEGATED (existing fleet instruments, exit codes):
+    root 1e      python3 scripts/claim_check.py     ok
+    9            python3 scripts/read_cap_check.py  ok
+    fleet-idx    bash scripts/check_memory_length.sh ok
+    root 1c-bis  python3 scripts/ledger_staleness.py rc=1
+        | ⚠️  nudge: [SAM] STATUS moving without ledgers — 13 ledger(s) behind: GPIF_FLOWS.tsv (66 STATUS-writes behind), BOJ_MEETING_OIS.tsv (9 STATUS-writes b
+    root 1b      bash scripts/orphan_check.sh       ok
+    (non-zero is not automatically a closeout failure — read that tool's own output)
+
+  MANUAL — unverifiable here, and printed every run so they cannot be skipped:
+    12        TIMELINE if an event resolves + CHANGELOG
+    12a       Consider spawning METSUKE for TRADE/STRATEGY drift
+    13        Research detail -> research/outputs/
+    root 1c   Consumer check on superseded figures
+    root 1d   Memory-index check (if an auto-memory was written)
+    root 2    Auto-push via safe-push.sh + CONFIRMED receipt
+
+  ✅ CLOSEOUT-CHECK PASS — structural checks only: docket sync, derived counts, sidecar, handoff cap, brief ordering, tree clean.
+     This does NOT certify that the right events were added, that a thesis change
+     was correctly declined, or that any figure is true. The MANUAL steps above
+     remain yours. A PASS naming checks it did not run is how a gate overstates
+     itself — the scope line is generated from the mode, not typed.
+
+EXIT 0
+
+$ python3 -B AGENTS/SAM/scripts/closeout_check.py --pre-commit
+==========================================================================
+  SAM CLOSEOUT CHECK — 2026-09-19
+==========================================================================
+  STEP      WRITTEN IN         COVERAGE
+  9         SAM §Write-back    DELEGATED read_cap_check.py (size only; content is MANUAL)
+                               Write results back to STATUS.md
+  10        SAM §Write-back    CHECKED A/B/C
+                               Update docket/; prune past; CALENDAR<->CATALYSTS sync
+  11        SAM §Write-back    CHECKED D (count only); thesis judgement is MANUAL
+                               THESIS if thesis-level change + CHANGELOG
+  12        SAM §Write-back    MANUAL
+                               TIMELINE if an event resolves + CHANGELOG
+  12a       SAM §Write-back    MANUAL
+                               Consider spawning METSUKE for TRADE/STRATEGY drift
+  13        SAM §Write-back    MANUAL
+                               Research detail -> research/outputs/
+  13a       SAM §Write-back    CHECKED F
+                               Refresh NEXUS_BRIEF LAST (ordering constraint)
+  14        SAM §Write-back    CHECKED H  (the fleet-idx delegation is a DIFFERENT file, not this step)
+                               Update MEMORY.md (handoff)
+  root 1    root §Session end  CHECKED G
+                               Commit your files locally
+  root 1b   root §Session end  DELEGATED orphan_check.sh (CATO 2026-09-19: was LISTED but never called)
+                               Orphan check
+  root 1c   root §Session end  MANUAL (needs --old/--new; series+unit judgement)
+                               Consumer check on superseded figures
+  root 1c-bis root §Session end  DELEGATED ledger_staleness.py
+                               Ledger staleness nudge
+  root 1d   root §Session end  MANUAL (needs --slug)
+                               Memory-index check (if an auto-memory was written)
+  root 1e   root §Session end  DELEGATED claim_check.py
+                               Claim check (weekday-vs-date)
+  root 2    root §Session end  MANUAL (the receipt line is the proof)
+                               Auto-push via safe-push.sh + CONFIRMED receipt
+
+  DERIVED from PREDICTIONS.tsv: 16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN  (OPEN: SAM-33)
+
+  --pre-commit: SKIPPING F (brief-vs-STATUS commit order) and G (clean tree).
+  These are only meaningful AFTER the final commit. Re-run with no flag before pushing.
+
+  DELEGATED (existing fleet instruments, exit codes):
+    root 1e      python3 scripts/claim_check.py     ok
+    9            python3 scripts/read_cap_check.py  ok
+    fleet-idx    bash scripts/check_memory_length.sh ok
+    root 1c-bis  python3 scripts/ledger_staleness.py rc=1
+        | ⚠️  nudge: [SAM] STATUS moving without ledgers — 13 ledger(s) behind: GPIF_FLOWS.tsv (66 STATUS-writes behind), BOJ_MEETING_OIS.tsv (9 STATUS-writes b
+    root 1b      bash scripts/orphan_check.sh       ok
+    (non-zero is not automatically a closeout failure — read that tool's own output)
+
+  MANUAL — unverifiable here, and printed every run so they cannot be skipped:
+    12        TIMELINE if an event resolves + CHANGELOG
+    12a       Consider spawning METSUKE for TRADE/STRATEGY drift
+    13        Research detail -> research/outputs/
+    root 1c   Consumer check on superseded figures
+    root 1d   Memory-index check (if an auto-memory was written)
+    root 2    Auto-push via safe-push.sh + CONFIRMED receipt
+
+  ✅ CLOSEOUT-CHECK PASS — structural checks only: docket sync, derived counts, sidecar, handoff cap  [F and G SKIPPED: --pre-commit].
+     This does NOT certify that the right events were added, that a thesis change
+     was correctly declined, or that any figure is true. The MANUAL steps above
+     remain yours. A PASS naming checks it did not run is how a gate overstates
+     itself — the scope line is generated from the mode, not typed.
+
+EXIT 0
+
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1257_sam-repair-recheck.md
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+EXIT 0

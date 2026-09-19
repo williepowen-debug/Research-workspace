@@ -1,0 +1,15 @@
+Pinned SAM revision: 003e7b14e4e96d5c79ac01608b88e914432dac6a
+CLOSED reproduction: unquoted lone stale OPEN count detected
+REMAINING: unquoted stale count at end of line is skipped; empty string matches quote-character test
+CLOSED reproduction: actual full pre-repair THESIS now detected
+REMAINING: live backticked 4 OPEN claim suppressed as if historical
+REMAINING: correct 3-part scoreboard suppresses incorrect separate OPEN count on same line
+CONTROL: genuine quoted correction history is quiet
+CONTROL: current docket passes; parsed rows: 23
+CLOSED reproduction: deleted September 30 JGB 2Y event now detected
+REMAINING: replace JGB 2Y with different event JGB 99Y, same date/count; C passes
+REMAINING: undated CALENDAR forward event silently ignored
+CLOSED reproduction: removing declared orphan delegation raises
+REMAINING: real rc=0 orphan advisory identifies likely SAM packet; wrapper discards it and reports ok
+REMAINING: failed child execution is displayed ERROR but still exits 0/PASS; self-check scope caveat remains
+Repair verification completed; no owner files changed.

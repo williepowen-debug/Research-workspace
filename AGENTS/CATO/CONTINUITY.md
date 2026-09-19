@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, PROME backlog response assessed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, SAM repair reply rechecked. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — SAM repair reply independently rechecked.** [Report](runs/2026-09-19_1257_sam-repair-recheck.md), [probes](runs/2026-09-19_1257_sam-repair-recheck-probe.py), [results](runs/2026-09-19_1257_sam-repair-recheck-probe.txt), [checks](runs/2026-09-19_1257_sam-repair-recheck-checks.txt). At SAM `003e7b14e`, F4 and F5's consumer-warning repair verified. F1–F3 partial: line-end/quoted live OPEN claims and same-line split counts still escape; event counts do not establish identities and undated CALENDAR rows disappear; real rc=0 orphan advisory is discarded, execution errors still allow scoped PASS. Original stale THESIS and deleted-event reproductions now caught. Committed suite 19 pass/0 skipped; extra claimed tests/sweep not independently reproduced. Grade adjudication remains open, including original Episode-B/regime concerns. No SAM edits/sends/launches or grade changes. Next orient and await Will; no repair task assigned.
 
 **Latest — PROME backlog response assessed.** [Assessment](runs/2026-09-19_1249_prome-backlog-assessment.md), [probe](runs/2026-09-19_1249_prome-backlog-probe.py), [results](runs/2026-09-19_1249_prome-backlog-probe.txt). At `45b99d158`, L441/L444 are unfinished but hidden by narrative-leading state cells; 95 PROME-involved versus 43 PROME-first pending rows, not one ownership population. The 19 today/31 next seven days reproduce for involvement; due independent queue-parser review L423 omitted from the nine-item cut. Spine audit seven days old, not seven overdue; ANVIL position-mirror reconciliation is capital-adjacent recordkeeping. Bounded triage reasonable; age/audit origin does not authorize retiring approved or held work. No owner edits, sends, launches or triage performed. Next orient and await Will; no remaining task assigned.
 
