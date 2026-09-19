@@ -815,5 +815,156 @@ class TestAgsiKeyRejectionDiscriminator(unittest.TestCase):
                       "the quirk-dependency's fail-direction statement went missing")
 
 
+class TestDocAuditC9C12C13(unittest.TestCase):
+    """C9 / C12 / C13, added 2026-09-19. Each INJECTS the defect that motivated it.
+
+    All three were silent on their first clean run, and a check that has never fired is
+    not a check [[finding_test_the_guard_not_just_the_guarded]]. C9 additionally needs its
+    SUPPRESSION paths tested: it produced one hit on its first run and that hit was FALSE,
+    so the tests below pin both directions — it must fire on an orphaned stale value and
+    must stay quiet on a correction, a marked history line, and a registered band.
+    """
+
+    def setUp(self):
+        import importlib, doc_audit
+        self.da = importlib.reload(doc_audit)
+
+    def _codes(self, findings):
+        return {c for c, _ in findings}
+
+    def _inject_status(self, line):
+        real = self.da.HANS / "STATUS.md"
+        orig = real.read_text()
+        real.write_text(orig + "\n" + line + "\n")
+        self.addCleanup(lambda: real.write_text(orig))
+        return self._codes(self.da.audit())
+
+    # ---- C9 must FIRE -------------------------------------------------------
+    def test_C9_fires_on_an_orphaned_superseded_value_in_STATUS(self):
+        """The owed-#15 defect: a retired figure sitting in prose with nothing beside it.
+        -19.7pp was superseded by -15.99pp on 2026-09-19 for the storage gap."""
+        self.assertIn("C9-STATUS-SUPERSEDED",
+                      self._inject_status("EU storage gap to the 5-yr norm stands at -19.7pp."))
+
+    # ---- C9 must STAY QUIET (the three suppressions) ------------------------
+    def test_C9_quiet_when_the_current_value_sits_on_the_same_line(self):
+        """A correction or comparison names both numbers. Flagging it would make every
+        correction I write a finding, and a flooding check gets skimmed."""
+        self.assertNotIn("C9-STATUS-SUPERSEDED",
+                         self._inject_status("The gap moved from -19.7pp to -15.99pp on re-basing."))
+
+    def test_C9_quiet_on_an_explicit_history_marker(self):
+        self.assertNotIn("C9-STATUS-SUPERSEDED",
+                         self._inject_status("The gap was -19.7pp before the norm was corrected."))
+
+    def test_C9_quiet_on_a_number_that_is_a_REGISTERED_BAND(self):
+        """THE FALSE POSITIVE C9 ACTUALLY PRODUCED. '>4.50 level leg' is HANS-T-10's OAT
+        trip line; it matched only because BOE_BANK_RATE_PCT once stood at 4.50.
+        A BAND IS A LINE, NOT A LEVEL — flag the yardstick, never the line."""
+        self.assertNotIn("C9-STATUS-SUPERSEDED",
+                         self._inject_status("| France 10Y OAT | 4.47 | >4.50 level leg | x |"))
+
+    def test_C9_band_suppression_reads_the_registry_not_a_hardcoded_list(self):
+        """If the suppression were a literal list it would rot the moment a band moved."""
+        src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
+        blk = src[src.index("band_nums = set()"):src.index("band_nums = set()") + 300]
+        self.assertIn("registry/THRESHOLDS.tsv", blk)
+
+    # ---- C12 ----------------------------------------------------------------
+    def test_C12_fires_on_a_duplicate_key(self):
+        """C5 tests SQUARENESS; a duplicate key is a different property and ML.tsv carried
+        95 of them for seven months while every audit passed (ML-HANS-473)."""
+        real = self.da.HANS / "workbook" / "VX.tsv"
+        orig = real.read_text()
+        try:
+            lines = orig.rstrip("\n").split("\n")
+            real.write_text(orig.rstrip("\n") + "\n" + lines[1] + "\n")
+            self.assertIn("C12-ID-DUPLICATE", self._codes(self.da.audit()))
+        finally:
+            real.write_text(orig)
+
+    def test_C12_legacy_ML_backlog_is_a_NOTE_but_a_NEW_collision_is_a_FINDING(self):
+        """The Feb-2026 backlog is known, measured and registered, so it must not drown the
+        run — but it must never read as clean either, and a NEW collision must be LOUD.
+        The >=400 ceiling is ASSERTED here so it cannot quietly become an amnesty."""
+        codes = self._codes(self.da.audit())
+        self.assertNotIn("C12-ID-DUPLICATE", codes, "legacy backlog should be a note")
+        real = self.da.HANS / "workbook" / "ML.tsv"
+        orig = real.read_text()
+        try:
+            lines = orig.rstrip("\n").split("\n")
+            real.write_text(orig.rstrip("\n") + "\n" + lines[-1] + "\n")
+            self.assertIn("C12-ID-DUPLICATE", self._codes(self.da.audit()),
+                          "a duplicate in the CURRENT era (>=400) must be a finding")
+        finally:
+            real.write_text(orig)
+
+    # ---- C13 ----------------------------------------------------------------
+    def test_C13_fires_on_the_exact_5_01_defect_that_shipped(self):
+        """VX-HANS-5.01 held EURO STOXX 50 (~6,486) against bands 240/210/180 built for
+        SX7E for three weeks. C10 and C11 BOTH PASSED — each operand was internally valid.
+        The row could not fire under any market outcome."""
+        real = self.da.HANS / "workbook" / "VX.tsv"
+        orig = real.read_text()
+        try:
+            out = []
+            for line in orig.split("\n"):
+                if line.startswith("VX-HANS-5.01\t"):
+                    c = line.split("\t"); c[3] = "6485.67"; line = "\t".join(c)
+                out.append(line)
+            real.write_text("\n".join(out))
+            codes = self._codes(self.da.audit())
+            self.assertIn("C13-SCALE", codes)
+            self.assertNotIn("C10-BAND-STATE", codes,
+                             "C10 passing on the injected defect is the POINT of C13")
+        finally:
+            real.write_text(orig)
+
+    def test_C13_threshold_leaves_real_headroom_on_live_rows(self):
+        """Calibrated on 38 live rows: worst legitimate ratio 3.65x against a limit of 8x.
+        If a legitimate row ever crosses ~6x, C13 is about to start crying wolf."""
+        self.assertEqual(self.da.audit(), [], "live desk must be C13-clean")
+        self.assertGreaterEqual(self.da.SCALE_LIMIT, 6.0)
+
+
+    # ---- C9 perimeter, added after widening found two hits STATUS alone would miss ----
+    def test_C9_perimeter_is_real_not_decorative(self):
+        """C9 first scanned STATUS.md alone. Widening it to the boot-read set immediately
+        found two stale figures in DISPATCH_LOG.md — so the perimeter is load-bearing, and
+        this pins that a NON-STATUS surface is genuinely scanned rather than just listed."""
+        real = self.da.HANS / "CHARTER_PROVENANCE.md"
+        if not real.exists():
+            self.skipTest("CHARTER_PROVENANCE.md absent")
+        orig = real.read_text()
+        try:
+            real.write_text(orig + "\nEU storage gap to the 5-yr norm stands at -19.7pp.\n")
+            self.assertIn("C9-STATUS-SUPERSEDED", self._codes(self.da.audit()))
+        finally:
+            real.write_text(orig)
+
+    def test_C9_skips_a_self_declared_statement_time_record_and_SAYS_SO(self):
+        """DISPATCH_LOG.md declares itself APPEND-ONLY / STATEMENT-TIME in its own header,
+        so its old figures are correct history (closeout 9c), not drift. Two things are
+        pinned: the skip happens, and it is NOTED — an invisible exclusion is how a
+        perimeter silently goes wrong."""
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.da.main()
+        out = buf.getvalue()
+        self.assertIn("C9-SKIP-RECORD", out)
+        self.assertIn("DISPATCH_LOG.md", out)
+
+    def test_C9_skip_is_driven_by_the_files_own_header_not_a_hardcoded_name(self):
+        """If the exclusion were a filename literal it would not follow the file if it
+        ever stopped being a statement-time record."""
+        src = (Path(__file__).resolve().parent / "doc_audit.py").read_text()
+        fn = src[src.index("def _is_statement_time_record"):]
+        fn = fn[:fn.index("\n\n")]
+        self.assertIn("APPEND-ONLY", fn)
+        self.assertIn("STATEMENT-TIME", fn)
+        self.assertNotIn("DISPATCH_LOG", fn, "skip is keyed to a filename, not a property")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

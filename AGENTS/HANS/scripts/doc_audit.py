@@ -42,6 +42,31 @@ Checks, each tied to the incident that motivated it:
   FALSIFY the thesis the row serves. That is a judgement, and on this desk it had exactly
   one instance before 2026-09-18 (HANS-T-01/T-02, the only two-sided pair).
 
+  C9  STATUS-SUPERSEDED  (band-suppressed — see the pre-registered limit in the code)
+                    C2's perimeter stopped at the registry and VX. STATUS.md — the
+                    desk's LARGEST current-value surface and the one the operator reads —
+                    was never scanned, and a superseded HICP figure sat there 17 days while
+                    C2 reported zero findings every run (owed #15 since 9/18).
+                    ⚠️ WHY IT WAS HARD AND HOW IT IS SOLVED: STATUS legitimately quotes dated
+                    historical values all over, so a bare-value scan floods. A flooding check
+                    trains you to skim, which is worse than no check. Discriminator, borrowed
+                    from consumer_check: a superseded value is CLEARED when the CURRENT value
+                    of the same metric appears on the same line (a correction or comparison),
+                    or when the line carries an explicit history marker. Only an orphaned
+                    superseded value — old number, no new number, no marker — is a finding.
+  C12 ID-UNIQUE     Every workbook/registry TSV's key column must be UNIQUE. C5 tests that
+                    rows are SQUARE, which is a DIFFERENT PROPERTY, so ML.tsv carried 95 IDs
+                    shared by 246 rows with different findings for seven months and passed
+                    every audit (ML-HANS-473). A duplicate key makes every citation to it
+                    ambiguous and no squareness test can see it.
+  C13 SCALE         A live VX row whose |value| is >8x its largest band, or <1/8 its smallest,
+                    is a REFERENT MISMATCH — the value and the bands describe different
+                    objects. VX-HANS-5.01 held EURO STOXX 50 (~6,486) against bands built for
+                    SX7E (~268), a 27x gap: it could not fire under any market outcome, and
+                    C10 and C11 BOTH PASSED because each operand was internally valid
+                    (ML-HANS-465). Calibrated 2026-09-19 on 38 live rows: worst legitimate
+                    ratio 3.65x, so 8x separates cleanly with 2.2x headroom.
+
 Exit 0 clean · 1 findings. Run at closeout and after any edit to a boot-read surface.
 """
 import csv, re, subprocess, sys
@@ -52,6 +77,14 @@ from pathlib import Path
 # cell is a canonical token optionally followed by a date and free prose
 # (AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md Class 1). Legacy bare tokens stay
 # recognised under canon's grandfathering rule, which a prefix test gives for free.
+# C13 scale limit — |value| more than this multiple outside its own bands means the two
+# describe DIFFERENT QUANTITIES. Module-level on purpose: a calibrated constant must be
+# inspectable by a test, or the calibration is a claim nothing can check.
+# Calibrated 2026-09-19 across 38 live VX rows: worst LEGITIMATE ratio 3.65x
+# (VX-HANS-11.03, itself a known construct mismatch, owed #14). The defect it is built for
+# measured 27x. 8.0 separates them with 2.2x headroom on the legitimate side.
+SCALE_LIMIT = 8.0
+
 KB_DEAD_PREFIXES = ("FROZEN", "RETIRED", "SUPERSEDED", "UNREACHABLE",
                     "ARCHIVED", "HISTORICAL", "NOT CURRENT", "DO NOT CITE", "NOT MAINTAINED")
 
@@ -394,6 +427,140 @@ def _audit_full():
         if not st.startswith(exp):
             bad('C10-BAND-STATE', f'{vid}: Status={st!r} but value {v} against bands '
                                   f'{y}/{o_}/{rd} is {exp}')
+
+    # ---- C9: superseded values sitting in STATUS.md ------------------------
+    # Owed since 2026-09-18. C2 covers registry + VX; STATUS.md is the biggest
+    # current-value surface on the desk and was never scanned.
+    # ⚠️ THE WHOLE DESIGN PROBLEM IS FALSE POSITIVES, not detection. STATUS quotes dated
+    # history constantly and a bare-value scan would flood — and a flooding check gets
+    # skimmed, which is strictly worse than no check
+    # [[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]].
+    HIST_MARK = re.compile(
+        r'supersed|corrected|correction|rotated|historical|\bwas\b|\bprior\b|previously|'
+        r'\bformer\b|retired|\bcarried\b|\bhad\b|no longer|withdrawn|→|->', re.I)
+    # PERIMETER, STATED: the same boot-read set C7 walks, not STATUS.md alone. Scoping a
+    # new check to the one file that motivated it is how C2's perimeter came to be wrong —
+    # "a checker's PERIMETER is a claim about where drift can live" (C8's own docstring).
+    # CHARTER_PROVENANCE.md joins the set because the 9/18 rotation moved live reasoning
+    # into it, so it is now a place a stale figure can hide.
+    C9_SURFACES = ['STATUS.md', 'CLAUDE.md', 'DISPATCH_LOG.md', 'CHARTER_PROVENANCE.md',
+                   'LAST_COMPLETION.md']
+    # A surface that DECLARES ITSELF a statement-time record is out of scope, and the
+    # declaration is READ FROM THE FILE rather than hardcoded here — DISPATCH_LOG.md's own
+    # header says "APPEND-ONLY, AND EVERY ROW IS A STATEMENT-TIME RECORD ... never
+    # re-valued afterwards", which makes its old figures CORRECT HISTORY, exactly like a
+    # dated ledger row under closeout 9c. Hardcoding the skip would rot the moment the file
+    # changed character; reading its header cannot [[finding_read_the_artifacts_own_header_first]].
+    # The skip is NOTED, never silent — an invisible exclusion is how a perimeter goes wrong.
+    def _is_statement_time_record(txt):
+        head = '\n'.join(txt.split('\n')[:15]).upper()
+        return 'APPEND-ONLY' in head and 'STATEMENT-TIME' in head
+
+    for _surface in C9_SURFACES:
+      st_path = HANS / _surface
+      if st_path.exists() and _is_statement_time_record(st_path.read_text(encoding='utf-8')):
+          note('C9-SKIP-RECORD', f'{_surface}: self-declared APPEND-ONLY statement-time '
+                                 f'record — old values are correct history, not drift')
+      elif st_path.exists():
+          pub9 = published()
+          live_vx = {r['Vector_ID'] for r in tsv('workbook/VX.tsv')
+                     if not (r.get('Status') or '').upper().startswith(KB_DEAD_PREFIXES)}
+          # 🔴 BAND SUPPRESSION — added on C9's FIRST RUN, which produced exactly one hit and
+          # it was FALSE. STATUS.md:85 '>4.50 level leg' is HANS-T-10's OAT trip line; it
+          # matched only because BOE_BANK_RATE_PCT once stood at 4.50. In free prose there is
+          # no `vectors` column to series-qualify against, so C2's discriminator is unavailable
+          # and a bare number can belong to any metric.
+          # The rule that resolves it is already this desk's canon: A BAND IS A LINE, NOT A
+          # LEVEL (root CLAUDE.md: "A BAND belongs here; a LEVEL never does"), and PROME's
+          # L441 sharpening says the same — FLAG THE YARDSTICK, NEVER THE LINE IT IS MEASURED
+          # AGAINST. So a number that IS a registered band is never a stale reading.
+          # ⚠️ PRE-REGISTERED LIMIT: if a genuinely stale LEVEL happens to equal a registered
+          # BAND, C9 goes quiet on it. That is a real hole and it is named rather than
+          # discovered later. It is bounded — such a value is by construction sitting exactly
+          # on a trip line, where C10/C13 and the fired-log are already looking.
+          band_nums = set()
+          for _r in tsv('registry/THRESHOLDS.tsv'):
+              band_nums.update(re.findall(r'-?\d+\.?\d*', _r.get('band', '') or ''))
+          for ln, line in enumerate(st_path.read_text(encoding='utf-8').split('\n'), 1):
+              if not line.strip() or line.lstrip().startswith('|---'):
+                  continue
+              for metric, (cur, olds, vecs) in pub9.items():
+                  # series-qualified exactly like C2: only metrics with a LIVE declared surface
+                  if not vecs or not (set(vecs) & live_vx):
+                      continue
+                  for old in set(olds):
+                      o = old.strip()
+                      # a bare 2-sig-fig number certifies nothing — this desk's own rule
+                      if len(o.replace('-', '').replace('.', '').lstrip('0')) < 3:
+                          continue
+                      if not re.search(r'(?<![\d.])' + re.escape(o) + r'(?![\d])', line):
+                          continue
+                      if re.search(r'(?<![\d.])' + re.escape(cur.strip()) + r'(?![\d])', line):
+                          continue          # CLEARED: new value on the same line
+                      if HIST_MARK.search(line):
+                          continue          # CLEARED: explicitly marked as history
+                      if o.lstrip('-') in band_nums or o in band_nums:
+                          continue          # CLEARED: it is a registered BAND, i.e. a LINE
+                      bad('C9-STATUS-SUPERSEDED',
+                          f'{_surface}:{ln} carries {o!r}, retired for {metric} '
+                          f'(current {cur.strip()!r}) with no new value and no history marker')
+
+    # ---- C12: a key column must be UNIQUE, which C5 does not test -----------
+    # C5 asks "are the rows SQUARE". Squareness and key-uniqueness are different
+    # properties, and the file that failed was square [[ML-HANS-473]].
+    for rel, keycol in (('workbook/ML.tsv', 'Entry_ID'),
+                        ('workbook/VX.tsv', 'Vector_ID'),
+                        ('workbook/KB.tsv', 'ID'),
+                        ('registry/THRESHOLDS.tsv', 'threshold_id')):
+        fp = HANS / rel
+        if not fp.exists():
+            continue
+        seen, dup = set(), []
+        for r in tsv(rel):
+            k = (r.get(keycol) or '').strip()
+            if not k:
+                continue
+            (dup.append(k) if k in seen else seen.add(k))
+        if dup:
+            u = sorted(set(dup))
+            # ML.tsv's Feb-2026 bulk load is a KNOWN, MEASURED, REGISTERED backlog (owed
+            # #23). It is reported as a COUNT so it can never read as clean, and is not
+            # re-listed row by row every run — but a NEW collision above the legacy ceiling
+            # must still be loud, so the ceiling is asserted, never assumed.
+            if rel == 'workbook/ML.tsv':
+                recent = [k for k in u if k.split('-')[-1].isdigit()
+                          and int(k.split('-')[-1]) >= 400]
+                if recent:
+                    bad('C12-ID-DUPLICATE',
+                        f'{rel}: NEW duplicate {keycol}(s) in the current era: {recent}')
+                else:
+                    note('C12-LEGACY-DUP',
+                         f'{rel}: {len(u)} duplicate {keycol}(s), ALL legacy (<400) — '
+                         f'known/measured/registered as owed #23, not renumbered by design')
+            else:
+                bad('C12-ID-DUPLICATE', f'{rel}: duplicate {keycol}(s): {u}')
+
+    # ---- C13: value and bands that describe DIFFERENT OBJECTS ---------------
+    # C10 and C11 compare a row's fields to EACH OTHER, so both pass when the pair is
+    # internally consistent and jointly wrong. This asks a question neither can:
+    # is the value even the same KIND of quantity as its bands? [[ML-HANS-465]]
+    for r in tsv('workbook/VX.tsv'):
+        if (r.get('Status') or '').upper().startswith(KB_DEAD_PREFIXES):
+            continue
+        try:
+            v = abs(float(str(r.get('Current_Value', '')).replace(',', '').strip()))
+            bands = [abs(float(r[c])) for c in ('Yellow', 'Orange', 'Red')]
+        except (ValueError, TypeError, KeyError):
+            continue                      # qualitative rows are not in scope
+        nz = [b for b in bands if b]
+        if not v or not nz:
+            continue                      # a zero band or zero value is not a scale claim
+        ratio = max(v / max(nz), min(nz) / v)
+        if ratio > SCALE_LIMIT:
+            bad('C13-SCALE',
+                f"{r['Vector_ID']} value {v:g} is {ratio:.1f}x outside its own bands "
+                f"{bands} — value and bands look like DIFFERENT QUANTITIES; the row "
+                f"may be unable to fire under any outcome")
 
     # ---- C11: a threshold and its metric surface must face the SAME way -----
     # C10 passes a row that agrees with a band pointing the wrong way, so this is a
