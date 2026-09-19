@@ -1,0 +1,14 @@
+# FROZEN 2026-09-18 — not maintained; STATUS.md and workbook/VX.tsv are canonical, do not cite rows as current.
+# RETIRED to archive/ 2026-09-18 under root CLAUDE.md Data Hygiene (>60d old AND not boot-read AND not
+# referenced by a live doc). Last real data: 2026-02-13 — 217 days before retirement. Four seed baseline
+# rows, never appended to again; VX.tsv's own Last_Updated column took over the job this file was for.
+# WHY IT WAS A TRAP, and the reason it was moved rather than left tidy: it LOOKED like a live ledger with
+# no banner, carrying Italy-Germany 120bp and EUR/USD 1.08 in a Current-value-shaped column. Those are
+# February figures (9/18 actuals: ~92bp and 1.1489). An unmaintained ledger with no banner is the
+# 'silent-rot middle' Data Hygiene forbids: keep a ledger FROZEN-with-a-banner or LIVE-with-an-alert,
+# never neither. Found 2026-09-18 during a workbook health pass Will asked for.
+Date	Vector_ID	Previous_Value	New_Value	Change	Status_Change	Source	Notes
+2026-02-13	VX-HANS-1.04	—	481	Initial	—	TIC Data	Belgium (ZHAO overlap) - ATH
+2026-02-13	VX-HANS-2.01	—	1.08	Initial	—	Bloomberg	EUR/USD baseline
+2026-02-13	VX-HANS-2.02	—	1.26	Initial	—	Bloomberg	GBP/USD baseline
+2026-02-13	VX-HANS-3.01	—	120	Initial	—	Bloomberg	Italy-Germany spread baseline
