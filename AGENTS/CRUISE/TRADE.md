@@ -1,6 +1,17 @@
 # CRUISE — TRADE
 
-*Last updated: 2026-09-10 ~20:5x ET (WQ-164 + WQ-218 + **WQ-222** encoded — three Will rulings; WQ-222 specifies the retirement's own falsifier and sets no new level. No entry, no capital, no conviction moved by this desk. Prior: 2026-09-10 ~18:0x ET.)*
+*Last updated: 2026-09-19 Sat ~17:2x ET (boot/catch-up review after 5 dark sessions). **NO ROW MOVED, no entry, no capital, no conviction changed, no level set.** Prior header (the three Will rulings that still govern these rows) follows below.*
+
+> ## ⚖️ 2026-09-19 REVIEW — **NOTHING CHANGES, AND THE REASON IS WORTH WRITING DOWN**
+> Markets CLOSED (Sat); all levels are the **2026-09-18 close**. ⛔ Not current prices (root rule #4).
+> - **CCL $21.84 is $0.10 / 0.45% above the `VX-CRU-01` RED line ($21.7425)** — the closest ever, and it is **still not a trade.** WQ-218 ② left row 2 a **WATCH at conviction 2** and the ruling was made on **spent edge**, which proximity to a band does not restore. A vector going RED is a *measurement*, not an entry; any entry is a **fresh proposal through PROME for Will's word** under root rule #5.
+> - **Row 2's own falsifier moved AGAINST it again this week.** `VX-CRU-06` (WQ-222) read **+0.07 / −0.28 / +0.43 / −0.37 / −0.45pp** across 9/14→9/18 — **three of five NEGATIVE, CCL drawing down LESS than 58%-hedged RCL with Brent above $103.** The unhedged-CCL mechanism keeps failing its own discriminator; **this is evidence for the retirement, not against it.**
+> - **Row 1 (NCLH):** $14.12, a **new low, −43.6% from the 2026-02-26 peak**. Thesis intact and the edge is **more** spent, not less. Conviction **3, unchanged**; still no card. The ~$1.3B funding gap remains **unverified at the 8/3 10-Q** — the single largest un-priced NCLH risk and this desk's highest-value unread document.
+> - **⚠️ NEW AND IT CUTS AT ROW 1's EXPRESSION:** **RCL was the worst of the Big 3 this week** (−5.51% vs NCLH −4.72%), so the NCLH-vs-RCL dispersion **narrowed 8.44pp → 6.79pp because the premium leg fell.** A long-RCL/short-NCLH expression of the K-shape is eroding **without either registered kill condition firing.** Flagged, not acted on.
+> - **Root rule #6 note (TERRY's rule, not mine):** CCL closed **RED** on 9/18 (−1.49%), so a put entry would be rule-#6-compliant on the day-colour proxy — **moot, because both rows are WATCH with no card.**
+
+---
+
 
 > ⛔ **No new trade is proposed here and no level is set.** ✅ **BOTH ROWS ARE NOW RULED, not awaiting a ruling — Will 2026-09-10 20:45Z via the Decision Deck (WQ-218), as CRUISE recommended on 9/2:** ① **NCLH stays a WATCH at conviction 3, no card** · ② the **CCL fuel-convexity framing is RETIRED** and **CCL stays a WATCH at conviction 2**. **No entry, no capital, nothing to construct.** Separately **WQ-164 (Will 9/3) retired the 7/2 arm-CCL fuel LADDER** — a different object from the framing: the ladder was a Brent-level trigger, the framing was the mechanism story. Both are dead; **fuel survives only as a tracked COST line** (VX-CRU-02). CRUISE is a leading indicator, not a position book; trade construction is TERRY's.
 
