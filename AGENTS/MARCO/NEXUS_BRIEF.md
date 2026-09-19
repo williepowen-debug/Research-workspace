@@ -3,7 +3,7 @@
 **Status:** 🟠 v3.1 — 🔴 **`VX-1.02` UNBLOCKED UNSCORED → CRITICAL: overseas arrivals −24.20% vs 2019 (Aug), −20.73% YTD, and the shortfall is WIDENING through 2026 (−16.5% Jan → −24.2% Aug).** ✈️ **`ES-MARCO-09` RESOLVED APPEARED — the World Cup did NOT reverse the inbound decline (Jun+Jul −22.02% vs 2019).** 🍁 **Canadian August stack −26.63% — BREACHED a 10th straight month but the shallowest since Nov-2025; level breached, TREND RECOVERING.** 💸 **Banxico count 2-yr stack in its longest sub-−5% run since 2010.**
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** v3.1, **no bump this session** — everything below CONFIRMS or refines it; nothing reverses a conviction. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-09-19 ~13:0x ET (session 27 — Will-directed catch-up: 3 dated resolvers graded, 4 owed pulls, 2 hand-read series mechanised, **FL airport triggers re-specified and REGINALD/CARL packeted**). **STATUS commit:** `1747402f9`. **Airport trigger re-spec: `19a9dac87`.** **STATUS 33,789 → 32,527 B, under the 32,550 read budget.**
+**As of:** 2026-09-19 ~13:0x ET (session 27 — Will-directed catch-up: 3 dated resolvers graded, 4 owed pulls, 2 hand-read series mechanised, **FL airport triggers re-specified and REGINALD/CARL packeted**). **STATUS commit:** `588bb3192`. **Airport trigger re-spec: `19a9dac87`.** **STATUS 33,789 → 32,527 B, under the 32,550 read budget.**
 
 ---
 
