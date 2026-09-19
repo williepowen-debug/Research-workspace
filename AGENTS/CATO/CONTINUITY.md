@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM repair reply rechecked. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, PROME closeout readiness assessed. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME readiness to close assessed.** [Assessment](runs/2026-09-19_1306_prome-closeout-readiness.md), [probes](runs/2026-09-19_1306_prome-closeout-readiness-probe.py), [results](runs/2026-09-19_1306_prome-closeout-readiness-probe.txt), [checks](runs/2026-09-19_1306_prome-closeout-readiness-checks.txt). At `7cc6bc5b3`, invalid-date repair changes ERROR/rc2 to ADVISE/rc0 despite better sibling diagnostics; new Deck guard misses supported lettered IDs and can still render Nothing owed. ANVIL receipt edit useful but approval pending; VLO absent from dashboard, FORGE 10,994 bytes over cap, later screenshot report contradicts old-vintage holdings without proving old-date error. L441/L444 restored. Recommend bounded PARTIAL closeout with exact pending work/custody, spawn receipts and applicable checks, not more broad late repairs or complete certification. No owner edits/sends/launches; no PROME closeout run. Next orient and await Will, verify final receipt only if assigned.
 
 **Latest — SAM repair reply independently rechecked.** [Report](runs/2026-09-19_1257_sam-repair-recheck.md), [probes](runs/2026-09-19_1257_sam-repair-recheck-probe.py), [results](runs/2026-09-19_1257_sam-repair-recheck-probe.txt), [checks](runs/2026-09-19_1257_sam-repair-recheck-checks.txt). At SAM `003e7b14e`, F4 and F5's consumer-warning repair verified. F1–F3 partial: line-end/quoted live OPEN claims and same-line split counts still escape; event counts do not establish identities and undated CALENDAR rows disappear; real rc=0 orphan advisory is discarded, execution errors still allow scoped PASS. Original stale THESIS and deleted-event reproductions now caught. Committed suite 19 pass/0 skipped; extra claimed tests/sweep not independently reproduced. Grade adjudication remains open, including original Episode-B/regime concerns. No SAM edits/sends/launches or grade changes. Next orient and await Will; no repair task assigned.
 

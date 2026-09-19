@@ -1,0 +1,12 @@
+Pinned revision: 7cc6bc5b3175bffc157387750661e0138d80ea5b
+F1 before aggregate_rc= 2 problems= []
+  Before repair: explicit ERROR/UNKNOWN, not a passing production gate
+F1 after aggregate_rc= 0 problems= ["IMPOSSIBLE DATE #1 needed-by '2026-02-30' (ISO-shaped but not a real day — the row is UNGRADEABLE, not clean)", 'DUE TODAY #2 A live ask']
+  After repair: impossible row named; due sibling preserved
+  REMAINING: invalid input is only ADVISE; rc 2 became rc 0, not fail-closed
+F2 numeric-ID widened header: refused before write; control repaired
+F2 CONTROL: normal header accepts and renders supported lettered ID 32b
+F2 REMAINS: supported lettered ID 32b + widened header builds Nothing owed over live ask
+Reviewed working FORGE bytes: 43544 over cap: 10994
+FORGE SHA256: f3a40592fcd31d23437029ccf954d9e67580c20b4a64004cd96afa9677e14f1a
+No owner mutations; hypothetical Deck outputs stayed in temporary directory.

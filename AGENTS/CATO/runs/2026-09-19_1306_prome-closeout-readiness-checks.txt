@@ -1,0 +1,59 @@
+$ python3 -B PROME/tools/queue_parser_selftest.py
+QUEUE-PARSER SELFTEST ✓ gate · brief · willq_view · deck · table_check agree on the synthetic row set (26/26; split + date-classifier parity)
+⚠️ decision_deck: SHIFTED row WQ-38 (8 cells vs header 7) skipped — an unescaped | inside a cell; write it \|
+⚠️ decision_deck: NOT-ISO needed-by on WQ-39: '9/19' — renders undated; write YYYY-MM-DD
+⚠️ decision_deck: § OPEN header has 6 columns (the table is 7) — table skipped
+⚠️ decision_deck: § OPEN header has 3 columns (the table is 7) — table skipped
+
+EXIT 0
+
+$ python3 -B PROME/tools/willq_view.py --selftest
+WILLQ-VIEW ✓ wrote 325 B block into /tmp/tmp1cfoxfx8/S.md (first-run (hand line replaced); file 100 → 384 B)
+WILLQ-VIEW ✓ /tmp/tmp1cfoxfx8/S.md block agrees with /tmp/tmp1cfoxfx8/Q.md § OPEN (325 B, as-of 2026-09-06)
+WILLQ-VIEW ✓ unchanged — block byte-identical (325 B) in /tmp/tmp1cfoxfx8/S.md
+WILLQ-VIEW ✗ DRIFT in /tmp/tmp1cfoxfx8/S.md: block says ['WQ-12 (9/12)']; queue says ['WQ-12 (9/14)'] — regenerate with `python3 PROME/tools/willq_view.py --write /tmp/tmp1cfoxfx8/S.md`; never edit inside the markers
+WILLQ-VIEW ✓ wrote 325 B block into /tmp/tmp1cfoxfx8/S.md (re-render; file 384 → 384 B)
+WILLQ-VIEW ✗ hand copy '- **Pending Will:** …' survives outside the markers in /tmp/tmp1cfoxfx8/S.md
+willq_view selftest: 32/32 PASS
+
+EXIT 0
+
+$ python3 -B AGENTS/TERRY/scripts/positions_from_forge.py --selftest
+positions_from_forge SELFTEST
+------------------------------------------------------------
+  [PASS] good row survives
+  [PASS] markdown stripped from qty
+  [PASS] 'Mark 7/30' binds by prefix
+  [PASS] missing ticker -> defect
+  [PASS] missing mark -> defect
+  [PASS] struck row -> closed
+  [PASS] event box -> event_box
+  [PASS] defects raise warnings
+  [PASS] live file parses (13 live / 15 withheld)
+  [PASS] CLOSED VIXCS spread NOT in live set
+  [PASS] no null ticker/mark in live set
+  [PASS] no parse defects
+------------------------------------------------------------
+SELFTEST: PASS
+
+EXIT 0
+
+TERRY current JSON summary: {'live': 13, 'withheld': 15, 'warnings': 0, 'VLO_present': False}; exit=0
+
+$ bash scripts/orphan_check.sh CATO
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    FORGE/STATUS.md
+     [not yours]    PROME/artifacts/decision_deck.html
+     [not yours]    PROME/artifacts/decision_reference.html
+     [not yours]    PROME/inbox/2026-09-19_from-ANVIL_L424-vlo-fill-and-tlt85p-mirrored-plus-a-9-16-capture-that-contradicts-six-cells.md
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+EXIT 0
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1306_prome-closeout-readiness.md
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+EXIT 0
