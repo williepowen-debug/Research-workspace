@@ -1,29 +1,26 @@
-## COMPLETION — HANS — 2026-09-18, SESSION 3 (desk sweep). Sessions 1–2 same day: 8-day catch-up, then news catch-up.
+## COMPLETION — HANS — 2026-09-19, SESSION 4 (owed-board catch-up). Saturday, market closed — structural work by design.
 
-**STATUS:** ✅ DONE — Heavy tier closeout, committed and pushed.
+**STATUS:** ✅ DONE — committed. Boot rc1 · `doc_audit` **0 findings** · **67/67 tests** · `closeout_check` **8/8 mechanical RAN, 0 failed** · R1 rc=0 · read-cap rc=0.
 
-**CHANGED:** `STATUS.md` (rotated 26,329 → 22,7xx B) · **`CLAUDE.md` (rotated 32,961 → 22,406 B, RULE #1d added, counts refreshed)** · **`CHARTER_PROVENANCE.md` (NEW)** · `scripts/{doc_audit,test_hans,boot}.py` · `registry/THRESHOLDS.tsv` (15 → **17 rows**) · `workbook/{VX,KB,ML,PUBLISHED,FLOW,PREDICTIONS}.tsv` · `DISPATCH_LOG.md` · 4 files archived + `archive/README.md` · 2 block files · packets to BOND, ZHAO ×2, PROME.
+**CHANGED:** `STATUS.md` (rotated **91% → 74%** of budget, two passes) · `workbook/STATUS_ROTATED_2026-09-19.md` (**NEW**) · `workbook/2026-09-19_ESRB_REPORT202602_PRIMARY_READ.md` (**NEW**) · `registry/THRESHOLDS.tsv` (T-08 exit registered, T-14 re-stated) · `workbook/{VX,KB,ML,PUBLISHED,PREDICTIONS}.tsv` · packets to **LIQUID, REGINALD, HAWK, BRENT, PROME**.
 
 **RESULT:**
-- 🔴 **CORE INFLATION NOW HAS A SURFACE.** `VX-HANS-4.11` (EA core **2.4**) · `4.12` (UK core **2.6**) · **`T-16`/`T-17` registered as FALSIFIERS**, sustain 2. The desk's central claim is *"the overshoot is entirely energy, core did not move"* — **and core had no vector, no threshold, no supervision.** I built `4.10` the day before for "the ECB's target variable" and chose the **headline**, the number my own analysis calls contaminated.
-- 🔴 **TWO POLICY VECTORS WERE POINTING THE WRONG WAY.** `VX-HANS-4.01` carried a **cutting-cycle sign** while `T-04` fires **upward** — a threshold and its own surface in opposite directions, so the row could not fire in the direction the world was moving. `4.02` the same, value sitting **exactly on the old Red** while the cell read GREEN.
-- 🔴 **`CLAUDE.md` WAS OVER ITS READ-CAP (32,961 vs 32,550) AND NOTHING MEASURED IT** — the fleet checker opens the charter to find *other* files. Rotated via `CHARTER_PROVENANCE.md`; `C6-CHARTER-BYTES` added locally; **fleet gap flagged to PROME, not patched at root** (not my directory, and whether the budget binds a charter is a canon call — the assumption is stated, not buried).
-- **`doc_audit` C10 + C11 built with 6 falsification tests (58 → 67).** **ZHAO proved these are two checks, not one:** a surface can agree with its bands perfectly and still face only one way. **10 rows worked individually** — stale values, obsolete bands, a name that was a misnomer, four wrong states.
-- **ZHAO exchange both ways:** their YoY base-effect warning does not bite (all nine hub rows are level-shaped) but chasing it found **`VX-HANS-1.05` GREEN at 348.4 against a Yellow of 350.0** — France's first band crossing, on a row I had published a packet about hours earlier.
-- **Restored VX notes I had overwritten** (destroyed provenance pointers; one research file read as retirement-eligible within hours). **4 stale facts dispositioned, 4 files archived.**
+- 🔴 **ESRB `esrb.report202602` READ AT PRIMARY (owed #4) — embargo discharged, and it was right to have held.** ECB/ESRB joint, Feb-2026, 82pp full text. **Identified bank exposure to private equity / private credit is €4bn**, which the report calls **"far below the figures implied by supervisory intelligence"** — and it **dropped the class from the analysis** rather than publish it. Leverage for PE/PC "cannot be computed from existing data"; the non-EU gap is "likely to remain" after reform.
+- 🔴 **THE CONSEQUENCE FOR MY BOARD: `T-14` is not fired and this does not fire it — but its silence means less than I was treating it as meaning.** Leg (b) waits for a supervisor to NAME institutions, which is downstream of that supervisor being able to SEE the exposure. **Band unchanged and deliberately NOT re-tuned.** → `ML-HANS-464`
+- 🔑 **And it cuts against my own alarm:** euro-area banks are **net DEBTORS** to NBFI (~15% of balance sheets); **US banks are net lenders.** Europe's channel is **losing NBFI funding in a stress, not credit losses on private credit.** **`HNS-09` keeps 70% and swaps its basis** to that — the HNS-05 lesson applied *before* resolution, not after.
+- 🔴 **TWO FAIL-CLOSED RULES, both written before they bind.** `T-08` exit (owed #9): inside −12pp for 5 gas days, 3pp hysteresis, **a blind day never counts toward an exit**, **no exit on the cross-source basis**. `HNS-07` re-mark rule (owed #12): registered **43 days before the resolver**, 3 checkpoints, 4 triggers, **anti-chase clause**.
+- 🔴 **A BANKING VECTOR HAD MEASURED A BROAD INDEX FOR THREE WEEKS.** `VX-HANS-5.01` held Euro Stoxx 50 (~6,486) against bands built for SX7E (~268) — **arithmetically consistent, referentially wrong, and no band check can catch that.** Restored to **SX7E 313.44**, cross-checked. → `ML-HANS-465`
+- **All 5 stale live vectors cleared** (boot §[6] 5 → 0): `8.05` German IP **−1.6% YoY** at the correct basis (GREEN→YELLOW); `4.09` UK food — **the named artifact was fetched and partly refutes the claim that created the row** (AHDB: wheat −12%, spring barley −19%, but winter barley in line and OSR **+19%**) → `ML-HANS-466`; `11.04` **frozen out-of-scope** → HAWK/BRENT; `4.07` reviewed, cadence mismatch not rot.
+
+**⚖️ WILL NEEDS — ONE THING, AND IT IS SMALL:**
+**A free GIE AGSI+ API key** (`agsi.gie.eu/account`, ~2 min) into `FORGE/tools/market-data/.env` as `AGSI_API_KEY`. It now gates **two** instruments, not just boot §[2]: **`T-08` cannot exit** without a single-source gap, and **`HNS-07`'s re-mark rule cannot be evaluated** without the season's pace history. Both fail *safe* — nothing reads "all clear" — but both are blind. Escalated via PROME.
 
 **GAPS (carried, not closed):**
-- ⛔ **ESRB `esrb.report202602` still unread at primary** — no onward routing.
-- 🔴 **C9 owed:** `doc_audit` C2 still does not scan `STATUS.md`.
-- 🟠 **Belgium's Yellow(550) is UNREACHABLE** (all-time high 482.5) ⇒ permanently yellow, no signal. **A researched band is owed — I will not invent one, having done exactly that by accident this session.**
-- 🟠 **Boot pulls DXY / GBP-USD / Henry Hub every session and writes none back.** `VX-HANS-8.05` (88d) and `11.04` (64d, RED, arguably HAWK/BRENT scope) stale.
-- **Two basis gaps**, one deciding `T-10`; **no free daily-close gilt source**; `VX-HANS-1.07` Germany UST sought at primary and **not found in Table 5**; AGSI key absent; `T-08` has no exit; `T-12` uninstrumented.
-- **Fleet-memory promotion candidate NOT raised:** ZHAO's *directional coverage ≠ band agreement* is captured only in `ML-HANS-462`. Its nearest home (`finding_base_rate_the_threshold_before_building_it`) is COLD-tier, and extending it obligates a promotion flag I did not want to open at session end.
+- **#5 two basis gaps, one DECIDES a threshold** — OAT ~10bp, and both `T-10` trip lines sit inside it. **#5b no free daily-close gilt source** (lead: DMO `D4H`, needs a form POST).
+- **#13 re-argue exclusion leg (2)** — the Fed hike killed the euro-strength mechanism.
+- **#15 `doc_audit` C2 still does not scan `STATUS.md`**; C9 owed. **#14** split `VX-HANS-11.03`. **#16** Germany UST not in TIC Table 5.
+- 🟠 **Belgium Yellow(550) UNREACHABLE** (high 482.5) ⇒ permanently yellow. A researched band is owed; I will not invent one.
+- 🟡 **STATUS stopped at 74%** — below the 75% rotate trigger, above rule 5's <70% stop. **A judgement, flagged not hidden:** what remains is live state, and the structural fix is a hot/cold split of STATUS, which I did not do unilaterally.
+- 🟢 **Self consumer-check 🔴 on `ML.tsv:469` NOT cleared, deliberately** — it is the ML entry *describing* the corrected defect. Closeout 9c: a dated log keeps its quoted error; clearing it resolves the flag backwards.
 
-**WILL_NEEDS:** **One, unchanged.** The **AGSI gas-storage API key** on this machine (free, `agsi.gie.eu/account`; machine-local, worked on the other box). Without it my storage board runs on second-hand numbers — and storage is where my weakest live prediction sits (`HNS-07`, already on the MISS side of its pace).
-
-**FOLLOW-UP:**
-- **2026-09-23 07:30 UTC** — German flash PMI resolves `HNS-06`. **Grade the FLASH** (`Resolve_By` 9/25 absorbs ±2d slip — not drift).
-- **2026-09-28 / 09-29** — `NG=F` / `TTF=F` rolls. **Never grade a `T-07` rung crossing across a roll**; `VX-HANS-8.04` is derived across BOTH tickers.
-- **early Oct** France budget · **2026-10-29** ECB (`T-04` no longer a lean either way) · **2026-11-09/10** the bilateral lapse clock (relayed, C3, ownership unsettled) · **2026-11-26** UK Budget.
-- Build C9; research Belgium's band; boot write-back; split `VX-HANS-11.03`.
+**NEXT SESSION FIRST:** **`HNS-06` resolves on the German/EA flash PMI, 2026-09-23 07:30 UTC — GRADE THE FLASH**, not the final. Then the **`TTF=F` roll 9/29** — `T-07` is a LEVEL ladder with L1+L2 fired; **never grade a rung crossing across a roll.**
