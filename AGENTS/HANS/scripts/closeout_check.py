@@ -21,7 +21,7 @@ like a failure; it looks like a shorter checklist.  -> ML-HANS-456
 Exit: 0 all mechanical steps ran and passed · 1 a step FAILED or errored.
       A non-zero exit never means "closeout invalid" — it means LOOK.
 """
-import subprocess
+import re, subprocess
 import sys
 from pathlib import Path
 
@@ -79,7 +79,14 @@ def _ok(rc, out, expect):
     """
     if rc is None or _crashed(out):
         return False
-    if expect and expect.lower() not in (out or "").lower():
+    # 🔴 A MARKER IS NOT A CONTRACT. Substring-presence passed a REAL ERROR whose text
+    # happened to contain the marker: `SELF mode: ERROR - nothing scanned` + exit 1 was
+    # reported "✅ RAN" (CATO, 2026-09-19). The step must match its own COMPLETION
+    # signature — the shape the tool only produces when it ran to the end.
+    # re.M as well as re.S: the contracts anchor on a tool's TERMINAL LINE, and without
+    # MULTILINE the ^/$ anchors only ever match the whole output. Caught immediately —
+    # the tests step failed in the runner while passing standalone.
+    if expect and not re.search(expect, out or "", re.S | re.M | re.I):
         return False
     return True
 
@@ -87,27 +94,27 @@ def _ok(rc, out, expect):
 # (step label, argv, cwd, "ok" predicate on rc)
 STEPS = [
     ("1  doc_audit (RULE #1b)",
-     [sys.executable, "scripts/doc_audit.py"], HANS, (0,), "HANS DOC AUDIT"),
+     [sys.executable, "scripts/doc_audit.py"], HANS, (0,), r"HANS DOC AUDIT — \d+ finding"),
     ("8  root 1b · orphan",
      ["bash", "scripts/orphan_check.sh", "HANS"], ROOT, (0,), None),
     ("9a root 1c · consumer CROSS-AGENT",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--from-ledger"], ROOT, (0, 1, 2), "CONSUMER CHECK"),
+      "--from-ledger"], ROOT, (0, 1, 2), r"CONSUMER CHECK[\s\S]*\n=[=]{9,}\s*$"),
     ("9b root 1c · consumer --SELF  <- the one that went missing",
      [sys.executable, "scripts/consumer_check.py", "--agent", "HANS",
-      "--self", "--from-ledger"], ROOT, (0, 1, 2), "SELF mode"),
+      "--self", "--from-ledger"], ROOT, (0, 1, 2), r"SELF mode[\s\S]*\n=[=]{9,}\s*$"),
     ("10 root 1c-bis · ledger nudge",
      [sys.executable, "scripts/ledger_staleness.py", "--nudge", "HANS"],
-     ROOT, (0, 1), "HANS"),
+     ROOT, (0, 1), r"(nudge:\s*\[HANS\]|\[HANS\][^\n]*ledger)"),
     ("11 root 1e · claim check",
      [sys.executable, "scripts/claim_check.py", "--check", "weekday",
       "AGENTS/HANS/STATUS.md", "AGENTS/HANS/workbook/KB.tsv",
-      "AGENTS/HANS/registry/THRESHOLDS.tsv"], ROOT, (0,), "CLAIM-CHECK"),
+      "AGENTS/HANS/registry/THRESHOLDS.tsv"], ROOT, (0,), r"CLAIM-CHECK"),
     ("12 tests",
-     [sys.executable, "scripts/test_hans.py"], HANS, (0,), "OK"),
+     [sys.executable, "scripts/test_hans.py"], HANS, (0,), r"^Ran \d+ tests[\s\S]*^OK\s*$"),
     ("12 read-cap",
      [sys.executable, "scripts/read_cap_check.py", "--agent", "HANS"],
-     ROOT, (0,), "READ-CAP-RESULT"),
+     ROOT, (0,), r"READ-CAP-RESULT v1[^\n]*rc=\d"),
 ]
 
 # Steps whose CONTENT no script can judge.  Named so they are visible as

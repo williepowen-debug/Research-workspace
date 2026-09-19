@@ -317,6 +317,15 @@ def agsi_norm(gas_day, years=5):
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 recs = (json.load(r).get("data") or [])
             if recs:
+                # 🔴 THE RESPONSE MUST ANSWER THE QUESTION THAT WAS ASKED.
+                # Until 2026-09-19 this took recs[0]["full"] on trust. Feed the SAME row
+                # back for all five year-requests and it built a "5-year norm, n=5" out of
+                # ONE observation — a fabricated baseline that then decides whether an open
+                # fire can close. Validating the value and the date IN ISOLATION was never
+                # enough: the missing check was CORRESPONDENCE to the request.
+                _hd = str(recs[0].get("gasDayStart") or "")
+                if not _hd.startswith(f"{y}-{md}"):
+                    continue                  # wrong/missing date => this year is UNANSWERED
                 _hv = _finite(recs[0].get("full"), lo=0.0, hi=100.0)
                 if _hv is not None:
                     got.append((y, _hv))      # an invalid year is DROPPED, and the quorum

@@ -23,6 +23,29 @@
 
 ---
 
+### ⚠️ KNOWN LIMITATIONS CARRIED OPENLY (CATO third pass) — these are NOT closed
+The two consequential false-success paths ARE fixed and verified: the norm now requires each
+historical response to **answer the year it was asked for** (the same row fed back five times
+had built a "5-yr norm, n=5" from one observation), and each closeout step must match its own
+**completion contract** rather than a substring an error can also carry (`SELF mode: ERROR -
+nothing scanned` had reported ✅ RAN).
+**What remains heuristic, stated rather than fixed:**
+- **`C9` is a heuristic over prose**, not a parser. Attribution is unit-or-name; short numbers
+  are advisory because prose has no `vectors` column. It will miss cases and it says so.
+- **The empty-key discriminator is vendor-quirk-dependent** (re-check 2026-12-19). If GIE
+  tightens it, a dead key reads as an unpublished day — safe direction, still blind.
+- **`C0` censuses the SOURCE**, so it catches a deleted block, not a check that runs and
+  silently does nothing.
+- **The storage benchmark's economic usefulness is unvalidated** and its classification is
+  composition-sensitive (leave-one-out −13.79 to −19.44).
+- **The UK basis gap is undecomposed** — BoE par [9/16] vs TE benchmark [9/18] differ in date
+  AND basis at once.
+- **`T-12` is uninstrumented and cannot fire. UK 30Y is manual** (a daily BoE 30-yr spot-curve
+  lead exists, recorded not built).
+⛔ **Repair discipline, not cleverness, was the failure mode today.** Three review rounds each
+found real defects in work just verified. The lesson that generalises: **fix the property, not
+the payload, and check correspondence to the request — not just the shape of the answer.**
+
 ### NEXT SESSION — IN ORDER
 | # | Item | When |
 |---|---|---|

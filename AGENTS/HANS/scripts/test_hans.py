@@ -796,10 +796,14 @@ class TestAgsiKeyRejectionDiscriminator(unittest.TestCase):
         """INJECT a partial history (3 of 5 years). Must refuse, not average what it has."""
         fe = self._fe()
         good = {2023, 2024, 2025}
+        # fixtures carry gasDayStart, as the real API does — otherwise this exercises the
+        # date-correspondence control instead of the quorum it is meant to test.
+        years = [2021, 2022, 2023, 2024, 2025]
         def payload(k):
             payload.i += 1
-            return (b'{"data":[{"full":"90.00"}]}' if payload.i in (3, 4, 5)
-                    else b'{"data":[]}')
+            y = years[payload.i - 1] if payload.i <= 5 else 2025
+            return (('{"data":[{"gasDayStart":"%d-09-17","full":"90.00"}]}' % y).encode()
+                    if payload.i in (3, 4, 5) else b'{"data":[]}')
         payload.i = 0
         self._stub(fe, payload)
         fe._agsi_key = lambda: "k"
@@ -1247,11 +1251,13 @@ class TestCATOSecondPass(unittest.TestCase):
         produce a 4-year statistic under the 5-year name."""
         calls = {"n": 0}
         import urllib.request
+        years = [2021, 2022, 2023, 2024, 2025]
         def fake(*a, **k):
             calls["n"] += 1
-            return TestCATOSecondPass._R(
-                b'{"data":[{"full":"NaN"}]}' if calls["n"] == 1
-                else b'{"data":[{"full":"85.00"}]}')
+            y = years[calls["n"] - 1] if calls["n"] <= 5 else 2025
+            body = ('{"data":[{"gasDayStart":"%d-09-17","full":"%s"}]}'
+                    % (y, "NaN" if calls["n"] == 1 else "85.00"))
+            return TestCATOSecondPass._R(body.encode())
         orig = urllib.request.urlopen
         urllib.request.urlopen = fake
         self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
@@ -1362,6 +1368,48 @@ class TestCATOSecondPass(unittest.TestCase):
         self.assertTrue(m, "charter no longer states a check count")
         self.assertEqual(int(m.group(1)), len(da2.CHECKS_EXPECTED),
                          "charter check count and the census disagree")
+
+    # ---- CATO third pass: the two remaining false-success paths ---------------
+    def test_norm_refuses_a_response_that_does_not_ANSWER_THE_REQUEST(self):
+        """🔴 Feed the SAME row back for all five year-requests and agsi_norm built a
+        '5-year norm, n=5' out of ONE observation. Validating the value and the date in
+        ISOLATION was never enough — the missing check was CORRESPONDENCE to the request."""
+        self._serve(b'{"data":[{"gasDayStart":"2024-09-17","full":"93.38"}]}')
+        mean, _md, n, _w = self.fe.agsi_norm("2026-09-17")
+        self.assertIsNone(mean, "a fabricated norm was built from one repeated observation")
+        self.assertLessEqual(n, 1)
+
+    def test_norm_refuses_rows_with_no_date_at_all(self):
+        self._serve(b'{"data":[{"full":"93.38"}]}')
+        self.assertIsNone(self.fe.agsi_norm("2026-09-17")[0])
+
+    def test_norm_still_accepts_correctly_dated_per_year_answers(self):
+        """The control must not break the good path."""
+        import urllib.request
+        def fake(req, *a, **k):
+            u = req.full_url if hasattr(req, "full_url") else str(req)
+            y = u.split("date=")[1][:4]
+            return TestCATOSecondPass._R(
+                ('{"data":[{"gasDayStart":"%s-09-17","full":"85.00"}]}' % y).encode())
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = fake
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+        mean, _md, n, _w = self.fe.agsi_norm("2026-09-17")
+        self.assertEqual((mean, n), (85.0, 5))
+
+    def test_runner_rejects_an_ERROR_that_merely_CONTAINS_the_marker(self):
+        """🔴 `SELF mode: ERROR - nothing scanned` + exit 1 was reported '✅ RAN'. A marker
+        is not a contract: the step must match the shape its tool only emits on a completed
+        run, not a substring an error can also carry."""
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "cc2", Path(__file__).resolve().parent / "closeout_check.py")
+        cc = importlib.util.module_from_spec(spec); spec.loader.exec_module(cc)
+        contract = r"SELF mode[\s\S]*\n=[=]{9,}\s*$"
+        self.assertFalse(cc._ok(1, "SELF mode: ERROR - nothing scanned, 0 files", contract))
+        self.assertFalse(cc._ok(0, "CONSUMER CHECK\nERROR: nothing scanned", contract))
+        self.assertTrue(cc._ok(0, "SELF mode: 103 files\n" + "=" * 20, contract),
+                        "the completion contract must still accept a real completed run")
 
 
 if __name__ == "__main__":
