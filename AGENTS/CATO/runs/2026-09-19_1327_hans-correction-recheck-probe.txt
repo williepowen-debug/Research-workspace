@@ -1,0 +1,41 @@
+HANS PIN 3cad378f06b76ab4d5db375ce8e76298f5948478
+Ancillary root HEAD 9f2c06408e8447e20a1a909b6dfbd6f119e96018
+OWNER SUITE rc 0
+test_uncomputable_is_not_stable (__main__.TestStability.test_uncomputable_is_not_stable) ... ok
+
+----------------------------------------------------------------------
+Ran 106 tests in 5.579s
+
+OK
+CONTROL: unmodified doc_audit has zero blocking findings
+REPAIRED: par above/below 5.50 never creates canonical T-06 breach; above requests attention
+OPEN BoE: original 12-day-old observation still yields failures=[]
+REPAIRED BoE wrong series None
+REPAIRED BoE invalid date None
+REPAIRED BoE NaN None
+REPAIRED BoE infinity None
+OPEN BoE future date ('01 Jan 2099', 5.51)
+OPEN BoE unsorted dates ('07 Sep 2026', 5.24)
+REPAIRED: complete 5-year mean 85.054; original 4-year fixture now refuses a norm
+OPEN storage: wrong observation dates, NaN, and 101% fill all accepted as a full 5-year norm
+OPEN storage: current fill NaN => green gap, failures=[], no T-08 breach
+OPEN storage: historical norm NaN => green gap, failures=[], no T-08 breach
+OPEN storage: actual current-feed parser accepts NaN without error
+OPEN runner traceback child 1 runner 0 MECHANICAL: 8/8 executed · 0 failed
+OPEN runner missing script child 2 runner 0 MECHANICAL: 8/8 executed · 0 failed
+OPEN runner real consumer invalid option child 2 runner 0 MECHANICAL: 8/8 executed · 0 failed
+REPAIRED runner explicit rc3 child 3 runner 1 MECHANICAL: 8/8 executed · 3 failed
+REPAIRED runner signal child -15 runner 1 MECHANICAL: 8/8 executed · 3 failed
+REPAIRED C9 'Euro-area HICP is currently 3.3%.' ['C9-SHORT-NUMBER']
+REPAIRED C9 'EU storage gap is currently −19.7pp.' ['C9-STATUS-SUPERSEDED']
+REPAIRED C9 'EU storage gap is -19.7pp → this remains a winter risk.' ['C9-STATUS-SUPERSEDED']
+REPAIRED C9 'EU storage gap is -19.7pp; other text. other text. other text. other text. other text. other te' ['C9-STATUS-SUPERSEDED']
+OPEN C9 'EU storage gap is -19.7pp; policy was unchanged today.' []
+OPEN C9 'The current BoE Bank Rate is 4.50%.' []
+OPEN C9 'EU storage gap is -19.7 percentage points.' []
+REPAIRED C12 append another ML-HANS-001 []
+OPEN C12 append another ML-HANS-004 ['workbook/ML.tsv: 95 duplicate Entry_ID(s), all in the FROZEN set (registry/ML_LEGACY_DUP_IDS.txt) - owed #23, not renumbered']
+OPEN C12: original duplicate prediction-ID fixture still undetected
+REPAIRED HNS-07: canonical rule d is withdrawn before its quoted instruction
+REPAIRED HNS-09 outcome restored; HNS-07 dates in docket. OPEN stale section pointer persists
+DONE: all assertions matched; no shared HANS files edited

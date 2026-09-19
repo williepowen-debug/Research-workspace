@@ -1,0 +1,72 @@
+$ bash scripts/orphan_check.sh CATO
+exit=0
+⚠️  uncommitted files outside AGENTS/CATO/:
+     [not yours]    FORGE/STATUS.md
+     [not yours]    HEARTBEAT.md
+     [not yours]    PROME/DOCKET.tsv
+     [not yours]    PROME/HANDOFF.md
+     [not yours]    PROME/HEARTBEAT_DASHBOARD.md
+     [not yours]    PROME/SCRATCH.md
+     [not yours]    PROME/STATUS.md
+     [not yours]    PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-2a-b0-pointers.md
+     [not yours]    PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-5d-pointer.md
+     [not yours]    PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-8d.md
+     [not yours]    PROME/artifacts/decision_reference.html
+     [not yours]    PROME/registry/WQ_LEDGER.crc
+     [not yours]    PROME/registry/WQ_LEDGER.tsv
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/state/argus_review.json
+     [not yours]    PROME/tools/dashboard_build.json
+     [not yours]    PROME/tools/dashboard_state.json
+     [not yours]    PROME/tools/prome_gate.py
+     [not yours]    memory/2026-09-19.md
+     [not yours]    memory/auto/MEMORY.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
+$ python3 -B scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck.md
+exit=0
+CLAIM-CHECK ✓ 4 file(s) clean [weekday]
+
+$ git diff 3cad378f0..HEAD --stat -- AGENTS/HANS
+exit=0
+
+$ git status --short -- AGENTS/HANS AGENTS/CATO
+exit=0
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck.md
+
+$ git diff --cached --name-only
+exit=0
+
+$ git status --short
+exit=0
+ M FORGE/STATUS.md
+ M HEARTBEAT.md
+ M PROME/DOCKET.tsv
+ M PROME/HANDOFF.md
+ M PROME/HEARTBEAT_DASHBOARD.md
+ M PROME/SCRATCH.md
+ M PROME/STATUS.md
+ M PROME/artifacts/decision_reference.html
+ M PROME/registry/WQ_LEDGER.crc
+ M PROME/registry/WQ_LEDGER.tsv
+ M PROME/state/ORCH_LOG.tsv
+ M PROME/state/argus_review.json
+ M PROME/tools/dashboard_build.json
+ M PROME/tools/dashboard_state.json
+ M PROME/tools/prome_gate.py
+ M memory/auto/MEMORY.md
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck-probe.py
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck-probe.txt
+?? AGENTS/CATO/runs/2026-09-19_1327_hans-correction-recheck.md
+?? PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-2a-b0-pointers.md
+?? PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-5d-pointer.md
+?? PROME/archive/SCRATCH_ROTATED_2026-09-19_prome-8d.md
+?? memory/2026-09-19.md
+
+Own Python AST, final newlines and trailing whitespace: PASS.
+
+106 owner tests ran once in the isolated probe; see its saved output.
