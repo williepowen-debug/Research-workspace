@@ -6,6 +6,33 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-19 — `cpi_japan.py`: a retired interpretation was still executing, and the defect class had four sites
+
+**Trigger.** The boot CPI line printed *"Tokyo +0.1pp ABOVE National — pattern INVERTED, leading-indicator hawkish"* — an interpretation this desk **retired on 2026-08-23** (KB-SAM-169's 2025-base remeasure proved its only counter-example was a base artifact). The ruling was propagated to `STATUS_REFERENCE.md` and `docket/CALENDAR.md`. **Nobody propagated it into the code**, which kept emitting it for 27 days. Class: a ruling governs the next WRITE, not the existing state — and here the surface nobody re-read was executable.
+
+**Four defects, two functions.** Sites 2–4 were found by auditing the first fix, not by observing a wrong print.
+
+| # | Site | Defect |
+|---|---|---|
+| 1 | `print_comparison_note` | **Retired interpretation** emitted as a conclusion |
+| 2 | `print_comparison_note` | **Float boundary** — `diff > 0.1` on float-subtracted 1dp values. `2.0−1.9 == 0.10000000000000009`, so a gap of exactly +0.1 tripped a threshold written to exclude it |
+| 3 | `print_comparison_note` | **Stale constant** — "the typical 30-40bp" is a 2020-base figure (2025-base mean ≈ −0.13pp); it labelled the NORMAL case abnormal in 5 of 6 months |
+| 4 | `divergence_note` | **Same float class, on the line printed for BOTH series EVERY boot.** Exhaustive over 0.0–6.0 at 1dp: **32 of 59** possible +0.2pp gaps failed `<= 0.2`, plus 4 true +0.5pp gaps failing `>= 0.5`. Also a hardcoded `+` in the format string rendering a negative gap as `gap +-0.3pp` — reachable only when ENERGY IS RISING, i.e. first during the live oil shock |
+
+**Fixes.** All comparisons moved to **integer tenths**. The retired branch is replaced by a factual exception count plus an explicit prohibition that fires only on a positive gap (so the read cannot be quietly reinvented by someone who never saw the ruling), with a quantization caveat scoped to the ±0.1 case. **The reference band is now MEASURED FROM THE LEDGER in the active base** rather than carried as a constant — `load_tsv()` already filters to one base, so gaps never cross a rebasing, and the number cannot rot the way "30-40bp" did across the 2025 rebasing. The module docstring's own copy of the stale constant was removed and replaced with a pointer to the run-time figure.
+
+**Tests — `scripts/tests/test_cpi_comparison.py`, NEW (there were none): 11 cases.** ⚠️ **Two failed on first run and both were TEST bugs, not code bugs** (one averaged all months where the band covers prior months only; one asserted the retired phrase was absent, which cannot distinguish an emission from the new prohibition containing it — a check keyed on naming reading the ban as the breach). 🔴 **More importantly, the first version of the test named after the headline defect PASSED against the pre-fix script** — it asserted an output string the old float branch also produced, so it never tested the defect. Rewritten to assert the property that actually falsifies it: *at a fixed true gap the classification must not depend on the absolute level*. **Verified by running the suite against the backed-up original: 10 of 11 now fail there** (the 11th guards unchanged behaviour and correctly passes on both).
+
+**Validation.** Output correct on **both** bases; `--base 2020` independently reproduces KB-169's own figures (prior n=7 mean −0.14pp; with its +0.2 exception, 7 of 8 at −0.10pp) and now explains its own base artifact inline.
+
+**Also updated.** `workbook/KB.tsv` KB-SAM-169 — its "6 of 6, NO exception" measurement is superseded by one month (August: n=7, 6 of 7, mean −0.10pp; first 2025-base exception, at the publication floor, retirement unaffected). `STATUS_REFERENCE.md` trued up to the same count at closeout, caught by the consumer scan. `TIMELINE.md`'s Aug 21–26 block keeps "6 of 6" deliberately — a dated record of what was believed then.
+
+**Carried, NOT fixed (judgement call, recorded so it can be overruled).** `scripts/rate_differential.py` has the same float class: line 70 computes the gap by float subtraction, lines 77/89/123/124 compare it to SAM-41's registered bars. Synthetic: 466 3-decimal pairs whose true gap is exactly 2.250 would falsely fire `<2.25`. ⛔ **Measured on the real 345-row history: ZERO disagreements** — the two boundary dates (2026-05-20, 2026-08-28, 10Y gap 1.800) both compute to `1.8000000000000003` and correctly do not fire, so **SAM-41's CONFIRMED grade is NOT impeached** (checked, because a defective instrument under a resolved grade would matter more than the bug). Latent not live: the row is RESOLVED and current gaps sit 15–21bp from the bars. Left alone because it is a **registered prediction's instrument** and altering a bar's comparison behaviour is terms-adjacent — it deserves its own scoped change, not audit spillover. Fix = compare in integer basis points.
+
+**Boot impact.** None to sequence or timing; same script, same wiring. The CPI line now prints 2 lines normally and 3–4 on a positive gap.
+
+**Files:** `scripts/cpi_japan.py` · `scripts/tests/test_cpi_comparison.py` (new) · `workbook/KB.tsv` · `STATUS_REFERENCE.md` · `MEMORY.md`. Commits `b3d4bd9e1`, `8bd07a8fd`.
+
 ## 2026-09-18 (PM, fourth pass) — the roll rule is now MECHANIZED: `scripts/oil_roll_check.py` built + boot-wired
 
 **Boot-impact: BOOT_SEQUENCE 13 → 14 wired tools; new step runs directly after the threshold monitor that pulls the Brent quote, so it fires ON the comparison. `--tools` rc 0, no drift.**
