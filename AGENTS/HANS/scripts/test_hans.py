@@ -709,5 +709,111 @@ class StatusTokenSemantics(unittest.TestCase):
         self.assertEqual(bad, [], f"fused SUPERSEDED-BY token(s) returned: {bad}")
 
 
+class TestAgsiKeyRejectionDiscriminator(unittest.TestCase):
+    """A REJECTED AGSI key returns HTTP 200 + an EMPTY data array — shape-identical to an
+    unpublished gas day. Silent expiry therefore produces EXACTLY the message that means
+    "come back tomorrow", and a desk defers its checkpoint forever, correctly by the letter.
+
+    Established by negative control 2026-09-19 (PROME probe, independently reproduced):
+        real key -> 1 rec · WRONG key -> 0 rec · NO header -> 0 rec · EMPTY-STRING key -> 1 rec
+    The last row is the whole discriminator. All tests here are OFFLINE — urlopen is stubbed.
+    """
+
+    def _fe(self):
+        import importlib, fetch_eu
+        return importlib.reload(fetch_eu)
+
+    class _Resp:
+        def __init__(self, payload): self._p = payload
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def read(self): return self._p
+
+    def _stub(self, fe, payload_for):
+        """payload_for(key) -> bytes. Routes on the x-key header actually sent."""
+        import urllib.request
+        def fake(req, *a, **k):
+            key = req.headers.get("X-key", req.headers.get("x-key", None))
+            return TestAgsiKeyRejectionDiscriminator._Resp(payload_for(key))
+        self._orig = urllib.request.urlopen
+        urllib.request.urlopen = fake
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", self._orig))
+
+    def test_dead_key_is_named_as_a_dead_key_not_as_no_data(self):
+        """INJECT a rejected key while the gas day HAS published."""
+        fe = self._fe()
+        # empty-string key returns data (the vendor quirk); anything else returns empty
+        self._stub(fe, lambda k: b'{"data":[{"gasDayStart":"2026-09-17","full":"69.06"}]}'
+                                 if k == "" else b'{"data":[]}')
+        fe._agsi_key = lambda: "0" * 32
+        st, err = fe.agsi_eu()
+        self.assertIsNone(st)
+        self.assertIn("KEY REJECTED", err)
+        self.assertIn("NOT 'come back tomorrow'", err)
+
+    def test_genuine_no_data_does_not_cry_dead_key(self):
+        """INJECT a real outage: nothing published, key fine. Must NOT blame the key."""
+        fe = self._fe()
+        self._stub(fe, lambda k: b'{"data":[]}')      # even the empty-key probe is empty
+        fe._agsi_key = lambda: "0" * 32
+        st, err = fe.agsi_eu()
+        self.assertIsNone(st)
+        self.assertNotIn("KEY REJECTED", err)
+        self.assertIn("Key validity NOT implicated", err)
+
+    def test_probe_failure_reports_blind_never_no_data(self):
+        """INJECT a dead network under the discriminator itself. Fail closed, not quiet."""
+        fe = self._fe()
+        import urllib.request
+        orig = urllib.request.urlopen
+        urllib.request.urlopen = lambda *a, **k: (_ for _ in ()).throw(OSError("down"))
+        self.addCleanup(lambda: setattr(urllib.request, "urlopen", orig))
+        why = fe._agsi_why_empty("x")
+        self.assertIn("UNDETERMINED", why)
+        self.assertIn("BLIND", why)
+
+    def test_one_key_path_for_the_whole_module(self):
+        """REGRESSION: agsi_eu once re-read os.environ itself instead of calling _agsi_key(),
+        so the two resolution orders could diverge. Caught 2026-09-19 when an injection
+        poisoned the env var and only ONE caller saw it."""
+        src = (Path(__file__).resolve().parent / "fetch_eu.py").read_text()
+        body = src[src.index("def agsi_eu("):src.index("def agsi_norm(")]
+        self.assertNotIn('os.environ.get("AGSI_API_KEY"', body,
+                         "agsi_eu re-reads the env directly — second key path has returned")
+        self.assertIn("_agsi_key()", body)
+
+    def test_norm_zero_years_names_the_dead_key_shape(self):
+        """0/5 years on this API is the dead-key shape, not flaky history — say so."""
+        fe = self._fe()
+        self._stub(fe, lambda k: b'{"data":[]}')
+        fe._agsi_key = lambda: "0" * 32
+        mean, med, n, why = fe.agsi_norm("2026-09-17")
+        self.assertIsNone(mean)
+        self.assertEqual(n, 0)
+        self.assertIn("DEAD-KEY shape", why)
+
+    def test_norm_fails_closed_below_quorum_and_never_returns_a_constant(self):
+        """INJECT a partial history (3 of 5 years). Must refuse, not average what it has."""
+        fe = self._fe()
+        good = {2023, 2024, 2025}
+        def payload(k):
+            payload.i += 1
+            return (b'{"data":[{"full":"90.00"}]}' if payload.i in (3, 4, 5)
+                    else b'{"data":[]}')
+        payload.i = 0
+        self._stub(fe, payload)
+        fe._agsi_key = lambda: "k"
+        mean, med, n, why = fe.agsi_norm("2026-09-17")
+        self.assertIsNone(mean, "norm averaged a sub-quorum sample instead of failing closed")
+        self.assertIn("only 3/5", why)
+
+    def test_discriminator_carries_its_own_recheck_date(self):
+        """A quirk-dependent control without an expiry is a time bomb."""
+        src = (Path(__file__).resolve().parent / "fetch_eu.py").read_text()
+        self.assertIn("2026-12-19", src, "empty-key discriminator lost its re-check date")
+        self.assertIn("safe direction", src.lower(),
+                      "the quirk-dependency's fail-direction statement went missing")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

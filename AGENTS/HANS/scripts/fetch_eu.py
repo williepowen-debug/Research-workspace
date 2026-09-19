@@ -47,8 +47,7 @@ def ecb(series, n=1):
         return []
 
 
-def agsi_eu():
-    """EU aggregate storage fill %. Needs a FREE key; returns None without one."""
+def _agsi_key():
     key = os.environ.get("AGSI_API_KEY", "")
     if not key:
         env = Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
@@ -56,6 +55,16 @@ def agsi_eu():
             for line in env.read_text().splitlines():
                 if line.startswith("AGSI_API_KEY="):
                     key = line.split("=", 1)[1].strip()
+    return key
+
+
+def agsi_eu():
+    """EU aggregate storage fill %. Needs a FREE key; returns None without one."""
+    # ONE key path for the whole module. This block used to be duplicated here and in
+    # _agsi_key(), which is two resolution orders that can silently diverge — caught
+    # 2026-09-19 when an injection test poisoned the env var and only ONE of the two
+    # callers saw it. [[finding_guard_correctness_and_wiring_are_independent]]
+    key = _agsi_key()
     if not key:
         return None, "no AGSI_API_KEY — free signup at agsi.gie.eu/account"
     try:
@@ -69,24 +78,64 @@ def agsi_eu():
             d = json.load(r)
         recs = d.get("data") or []
         if not recs:
-            return None, "AGSI returned an EMPTY data array (query form wrong, or gas day unpublished)"
+            # 🔴 THREE causes produce this identical 200 + empty array, and one of them is
+            # a DEAD KEY. Verified by negative control 2026-09-19 (PROME probe, reproduced
+            # here): real key -> 1 rec · WRONG key -> 0 rec · NO header -> 0 rec. A rejected
+            # key is shape-identical to an unpublished gas day, so silent expiry produces
+            # EXACTLY the message that means "come back tomorrow" — and a desk would defer
+            # its checkpoint, correctly by the letter, forever.
+            return None, f"AGSI returned an EMPTY data array — {_agsi_why_empty(key)}"
         rec = recs[0]
         if rec.get("full") in (None, "", "-"):
-            return None, f"AGSI gas day {rec.get('gasDayStart')} has no 'full' value yet (D+1 lag)"
+            # ⚠️ OPEN QUESTION (PROME 2026-09-19, NOT established): the newest gas day on
+            # Saturday 09-19 was 09-17 = D+2, not the D+1 this comment has always claimed.
+            # A weekend publication schedule explains it equally well and ONE Saturday
+            # observation cannot separate the two. CHECK ON A WEEKDAY. If still D+2 then,
+            # this comment is wrong and anything keyed to D+1 freshness is a day optimistic.
+            return None, f"AGSI gas day {rec.get('gasDayStart')} has no 'full' value yet (lag D+1, possibly D+2 — unresolved)"
         return (rec.get("gasDayStart"), float(rec["full"]), rec.get("trend")), None
     except Exception as e:
         return None, f"AGSI pull failed: {str(e)[:60]}"
 
 
-def _agsi_key():
-    key = os.environ.get("AGSI_API_KEY", "")
-    if not key:
-        env = Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
-        if env.exists():
-            for line in env.read_text().splitlines():
-                if line.startswith("AGSI_API_KEY="):
-                    key = line.split("=", 1)[1].strip()
-    return key
+# ⚑ EMPTY-KEY DISCRIMINATOR — re-check by 2026-12-19.
+# GIE quirk, established by negative control on 2026-09-19 and reproduced independently:
+# an x-key header PRESENT but set to the EMPTY STRING returns DATA, while a WRONG key and
+# an ABSENT header both return an empty array. That asymmetry is the only signal available
+# that separates "my key was rejected" from "this gas day is not published yet".
+#
+# ⚠️ IT IS VENDOR-QUIRK-DEPENDENT AND THAT IS STATED HERE ON PURPOSE. If GIE tightens the
+# empty-key path this probe returns empty always, and we report NO_DATA for a dead key —
+# i.e. it reverts to the status quo ante. FAILS IN THE SAFE DIRECTION (no worse than having
+# no probe), never toward a false "your key is fine".
+#
+# 🔴 METHOD NOTE, because it nearly cost the finding: the FIRST attempt to reproduce this
+# used `curl -H "x-key: "`, which makes curl DROP THE HEADER ENTIRELY (0 on the wire) — so
+# it silently tested the ABSENT case and "disproved" a control that is real. The correct
+# curl form is `-H "x-key;"`; urllib with "" sends it faithfully. An empty result is a
+# claim about YOUR REQUEST until the client is varied.
+# [[finding_negative_reachability_is_a_claim_about_your_request]]
+def _agsi_why_empty(key):
+    """On an empty 200 from a real key: was the KEY rejected, or is there no data?
+
+    Returns a human cause string. Never raises — this runs on an error path.
+    """
+    try:
+        req = urllib.request.Request("https://agsi.gie.eu/api?type=EU&size=1",
+                                     headers={"x-key": "", "User-Agent": "HANS/1.0"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            probe_recs = (json.load(r).get("data") or [])
+    except Exception as e:
+        return (f"cause UNDETERMINED (discriminator probe failed: {str(e)[:40]}). "
+                "Treat as BLIND, not as 'no data yet'")
+    if probe_recs:
+        return ("🔴 KEY REJECTED — the empty-key probe DID return data, so the gas day HAS "
+                "published and the credential is the problem. Rotate it at agsi.gie.eu/account. "
+                "⛔ This is NOT 'come back tomorrow'")
+    return ("gas day genuinely unpublished, OR the query form is wrong (type=EU, not country=EU). "
+            "Key validity NOT implicated: the empty-key probe also returned nothing. "
+            "⚠️ If GIE has tightened the empty-key path this probe can no longer discriminate "
+            "(re-check due 2026-12-19) — in that case a dead key also lands here")
 
 
 def agsi_norm(gas_day, years=5):
@@ -127,7 +176,8 @@ def agsi_norm(gas_day, years=5):
         except Exception:
             continue          # one missing year is survivable; the quorum test below is not
     if len(got) < years - 1:
-        return None, None, len(got), f"only {len(got)}/{years} historical years reachable"
+        why = "" if got else " — ZERO years returned, which on this API is the DEAD-KEY shape, not flaky history"
+        return None, None, len(got), f"only {len(got)}/{years} historical years reachable{why}"
     vals = sorted(v for _, v in got)
     n = len(vals)
     mean = sum(vals) / n
