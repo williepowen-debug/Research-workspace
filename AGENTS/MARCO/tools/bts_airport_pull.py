@@ -105,6 +105,26 @@ def main():
         i = args.index("--carrier")
         carrier = args[i + 1]
         del args[i:i + 2]
+
+    # ⚠️ --out EXISTS BECAUSE THIS SCRIPT USED TO CLOBBER ITS OWN BASELINE (added 2026-09-19,
+    # CATO review). OUT is a single fixed path, and the writer below rewrites the WHOLE file
+    # from just the airports pulled in THIS run. So `bts_airport_pull.py MIA --carrier NK`
+    # replaced the all-carrier baseline for ALL THREE airports with one carrier-filtered
+    # airport — silently, exit 0, a well-formed file. The recipe shipped into MARCO's
+    # CLAUDE.md said exactly that, so anyone following it destroyed the baseline.
+    # A carrier-filtered pull is a SIDE QUERY and must never land on the baseline path.
+    out = OUT
+    if "--out" in args:
+        i = args.index("--out")
+        out = Path(args[i + 1])
+        del args[i:i + 2]
+    elif carrier != "All":
+        raise SystemExit(
+            "REFUSING to overwrite the all-carrier baseline with a carrier-filtered pull.\n"
+            f"  {OUT} holds carrier=All data for MCO/FLL/MIA and this run would replace it.\n"
+            "  Pass --out <path> to write the side query somewhere else, e.g.\n"
+            f"    bts_airport_pull.py MCO FLL --carrier NK --out /tmp/nk.tsv")
+
     airports = args or ["MCO", "FLL", "MIA"]
     s = requests.Session()
     lines = [f"# MARCO BTS T-100 airport enplanements | carrier={carrier} | "
@@ -120,9 +140,9 @@ def main():
         for (y, m) in sorted(d):
             dom, intl, tot = d[(y, m)]
             lines.append(f"{ap}\t{y}\t{m}\t{dom}\t{intl}\t{tot}")
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("\n".join(lines) + "\n")
-    print(f"Wrote {OUT} ({OUT.stat().st_size:,}B)")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text("\n".join(lines) + "\n")
+    print(f"Wrote {out} ({out.stat().st_size:,}B)")
 
 
 if __name__ == "__main__":

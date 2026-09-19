@@ -10,7 +10,7 @@
 ### 1. Dated/mechanical resolvers — all graded on rules written before the numbers
 - **`ES-MARCO-05` → DID_NOT_APPEAR.** Aug fresh F&V **+3.13% YoY** (`CUUR0000SAF1131`=413.359), 3rd consecutive sub-6%, ~6.9pp from the >10% threshold, **robust to basis** (2-yr stack +5.50%). Both pre-registered readings agree ⇒ no discretion. **Base-effect recorded:** the YoY fade is substantially a 2025 base effect (Aug-25 +1.68% MoM) while the 2-yr stack barely moved. **Counter-print logged not buried:** Aug gasoline **+2.53% MoM** while produce **fell** −0.65% — first divergence from the co-movement `ES-MARCO-08` resolved on. Does NOT re-open a resolved signal. **MAR-14 20%→12%.**
 - **`MAR-11` → PUSHED to the OFLC Q4 disclosure (~Nov), confidence HELD 72%.** Live check: newest file is still `FY2026_Q3`; FY26-thru-Q3 **349,867**, identical to 8/21. **9/30 is the EVENT anchor, not the resolver** — grading there would grade Q3 data. Not re-rated **because no new data arrived**.
-- **`MAR-24` → 55%→70% on a COMPUTED conditional base rate.** June is the **first all-3-negative month of 2026** (FLL −13.22 / MCO −7.27 / MIA −5.48) but **is Q2 and does not resolve the row**. P(≥1 all-3-neg in next 3 │ this month all-3-neg) = **9/16 = 56.2%** ex-COVID vs 14.2% unconditional; structurally FLL needs +15.2% and MCO +7.8% to flip positive ⇒ **MIA is the sole swing leg** (30% of Q3 months negative). ⛔ **Ex-Spirit FLL +22.28% / MCO +4.52% — if it fires it fires on a BANKRUPTCY.** Spec addition pre-registered: **grade on REVISED BTS data or state the vintage** (first-print bias 0.8–2.3pp toward negative).
+- **`MAR-24` → 55%→70% on a COMPUTED conditional base rate.** June is the **first all-3-negative month of 2026** (FLL −13.22 / MCO −7.27 / MIA −5.48) but **is Q2 and does not resolve the row**. P(≥1 all-3-neg in next 3 │ this month all-3-neg) = **9/16 = 56.2%** ex-COVID vs 14.2% unconditional; structurally FLL needs +15.2% and MCO +7.8% to flip positive ⇒ **MIA is the sole swing leg** (30% of Q3 months negative). ⛔ **Ex-Spirit FLL +22.28% / MCO +4.52% — CONFOUNDED, not refuted (corrected 9/19, CATO review): only 35.6% of Spirit's lost MCO passengers were absorbed in June, so supply vs demand is not separable in either direction.** Spec addition pre-registered: **grade on REVISED BTS data or state the vintage** (first-print bias 0.8–2.3pp toward negative).
 - **`MAR-22` was ALREADY RESOLVED 8/21** and was still sitting in STATUS's **ACTIVE** predictions table — removed. Ledger right, narrative wrong.
 
 ### 2. Banxico July (CE81) — 1 of 2 clean forward prints
@@ -18,7 +18,7 @@ Value $5,570.6M +3.00%; **count 13,081.6k −0.02% YoY**; avg **$426**. **The ba
 
 ### 3. StatCan August — ID-01's noise floor is measured too low
 Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straight month, **shallowest since Nov-2025**; air **−22.67%** (YoY **+3.61%, first positive**), land-auto −27.39%. **Level breached, trend RECOVERING.** **`VX-1.01` basis corrected** — it was reading the air+auto TOTAL level against the AUTO-leg stack.
-⛔ **`ID-01`: the 2.5pp floor came from ONE observation.** Over 11 pre-tariff transitions the gap moves **mean 4.21pp / max 7.95pp; 82% clear 2.5pp, 45% clear it in ID-01's direction.** FP by reading: **either-month 45% · cumulative 30% · both-months 10%.** **Both-months reading PRE-COMMITTED 9/19, before the window opens; PROME packeted + doorbelled.**
+⛔ **`ID-01`: the 2.5pp floor came from ONE observation.** Over 11 pre-tariff transitions the gap moves **mean 4.21pp / max 7.95pp; 82% clear 2.5pp, 45% clear it in ID-01's direction.** Crossing frequency on **matched two-month windows: either-month 80% · both-months 10%** *(corrected 9/19 — the published "45%" mixed windows; these are historical crossing frequencies, not calibrated FP rates)*. **Both-months reading PRE-COMMITTED 9/19, before the window opens; PROME packeted + doorbelled.**
 
 ### 4. NTTO — two instruments unblocked by one fetch
 **`ES-MARCO-09` → APPEARED**: Jun+Jul **5,837,141 vs 7,485,330 (2019) = −22.02%**. Volume leg PASSED, vs-2019 leg FAILED, ≥−20% FAIL band MET — **exactly the split pre-registered 8/21**. **`VX-1.02` UNSCORED → CRITICAL** (Aug **−24.20%**, YTD −20.73%; same band either way). Shortfall **WIDENING**: −16.5% Jan → −24.2% Aug.
@@ -49,7 +49,7 @@ Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straigh
 | Item | Status |
 |------|--------|
 | ✅ **MAR-24 routing rule** | **CLOSED 9/19** — carrier-adjusted trigger, MIA primary, expiry docketed 2027-08-15, REGINALD/CARL packeted |
-| ⏳ **Spirit seat deletion unsized** | Real capacity loss (~84% backfilled at MCO); a SUPPLY thread, deliberately kept out of the demand trigger |
+| ⏳ **Spirit seat deletion unsized** | Capacity replacement UNSIZED — seats never measured; the '~84%' was a stale-vintage PASSENGER offset (June is 35.6% at MCO) |
 | 🔑 **`ID-01` both-months reading** | Pre-committed 9/19; **awaiting PROME ruling before the Sep print (~mid-Oct)** |
 | 🟠 **SDL-01 re-spec: 1 of 2 forward prints** | August (~Oct 1) completes or breaks it |
 | 🔴 **`MEMORY.md` 151% of budget** | Unrotated 3 sessions; blocks its own appends |
