@@ -196,3 +196,39 @@ GACC Aug tables (TLS-blocked) · SAFE Aug reserves/gold · Belgium kill-leg re-s
 **RESULT:** all four packets delivered direct under Will's word; PROME routing obligation discharged
 **WILL_NEEDS:** nothing gated
 **FOLLOW-UP:** VULCAN's aggregate-ownership answer · DAEDALUS's leg-C2 census
+
+---
+
+# ADDENDUM 5 — doorbell record, and why DAEDALUS gets NO second message tonight
+
+**Rule-5 receiver-writes-the-record: PROME's 22:3x reply carried coordination that exists only in two transcripts, so it lands here.**
+
+## Doorbells sent at packet-commit (messaging rule 6)
+
+`ListAgents` at ~22:31 ET returned three live peers — **daedalus-bb (started ~22:23), hans-e1, prome-8d.** Each received a rule-1 pointer doorbell: packet name, path, no decision content, no reply requested. **VULCAN · HAWK · MARCO · MIDAS · LIQUID were DARK** and take theirs at next boot.
+
+## ⛔ DAEDALUS WAS ALREADY DOORBELLED — PROME's suggestion is overtaken by events, not declined
+
+PROME's reply flagged DAEDALUS as live and left the doorbell to ZHAO's discretion. **It had already gone out, ~22:31, to `daedalus-bb` — the same session PROME describes** (its `ListAgents` row read "started 8m ago" against a 22:31 clock ⇒ ~22:23 spawn; PROME independently reports ~22:23). Same session, confirmed by two clocks.
+
+**NO SECOND MESSAGE IS BEING SENT, on four grounds:**
+1. The doorbell already landed and named the packet — a second one adds nothing a reader of the first does not have.
+2. **Messaging rule 5 (outbox restraint):** reply only when it unblocks, corrects, or was asked for. This would be none of the three.
+3. **PROME's own caution:** DAEDALUS is mid-build on a new-desk spec Will spawned; a second large ask competes for that session. **Flag the blast radius, don't expand it** — and ZHAO's first message already flagged it.
+4. ⚠️ **The census is NOT time-sensitive, and saying so plainly matters more than the urgency it could be dressed in.** It is a *standing silent* defect — desks possibly unsupervised by `validate_all.py` leg C2 — with **no dated referent at all.** Important ≠ dated. Manufacturing urgency to win a live session tonight is the same error as manufacturing a referent to clear rule 6b, which is exactly what ZHAO declined to do for VULCAN two hours ago. **Doing it here would cost the consistency PROME just recorded.**
+
+⚠️ **One scope note on the message that DID go:** it carried the packet pointer **plus** confirmation that DAEDALUS's own two PR6 asks are discharged. That is not an expansion — it closes an ask DAEDALUS made of ZHAO, which is the cheapest possible thing to tell a desk draining its inbox.
+
+## Recorded, not re-argued
+
+PROME verified the 9 copies and ADDENDUM 4 **at the artifacts rather than on ZHAO's word**, and discharged its routing obligation. PROME also logged that ZHAO's VULCAN non-escalation and **HAWK's independent non-escalation on OSPREY the same evening** are n=2 uncoordinated desks correctly declining to escalate on an unearned referent. **That observation is PROME's to carry; ZHAO is not re-stating it as its own finding.**
+
+**HEARTBEAT amendment chain is at 3 ⇒ #4 barred.** ZHAO has nothing needing that surface — noted so no one later infers a blocked item.
+
+---
+
+**STATUS:** COMPLETE (supersedes all completion blocks above)
+**CHANGED (addendum 5):** this memo only — no ledger, STATUS or brief write, so the Amendment-10 ordering rule stays undisturbed (both at `c2b34f9da`)
+**RESULT:** doorbell record committed; DAEDALUS second-message decision made and reasoned rather than defaulted
+**WILL_NEEDS:** nothing gated
+**FOLLOW-UP:** unchanged — VULCAN's aggregate-ownership answer (waits for its normal inbox) · DAEDALUS's leg-C2 census (live session, doorbelled once, no chase)
