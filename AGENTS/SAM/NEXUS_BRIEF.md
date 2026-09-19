@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-19T~16:0xZ — **SAM-28 and SAM-31 are GRADED; both FALSE.** Will-directed Saturday session, market CLOSED, so no tape moved: every market figure below carries its Sep-18 vintage. **STATUS provenance:** `16eb01475` (this session's STATUS commit; brief written last, after all other write-backs, per schema Amendment 10).
+**As of:** 2026-09-19T~17:0xZ — **closeout refresh.** No market moved (Saturday, shut) and **no analytical figure in this brief changed since the ~16:0xZ fold** — the session's later work was instrument repair, not analysis. **STATUS provenance:** `16eb01475`; brief written last, after all other write-backs, per schema Amendment 10. 🔧 **One figure others may hold IS corrected below** (the risk-off statistic in CROSS-DOMAIN → HENRY). ℹ️ **Instrument note, no read changes:** `cpi_japan.py` was emitting an interpretation this desk retired on 2026-08-23; fixed today with 4 defects across 2 functions and an 11-case test suite. If you consumed a Japan CPI Tokyo-vs-National gap from a SAM boot line before today, re-read it: the "typical 30-40bp" band it cited was a 2020-base figure (2025-base mean ≈ −0.13pp). Related count update: Tokyo ≤ National is now **6 of 7** (n=7) after August, mean −0.10pp — **the retirement of the "Tokyo above national = hawkish" read is UNAFFECTED**; +0.1pp is the publication floor and n=1 is not a regime.
 
 ## VIEW
 
