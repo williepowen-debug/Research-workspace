@@ -39,7 +39,7 @@ Mechanism: **extend the existing consumer-check step / `consumer_check.py`**, NO
 3. **Completed tasks/checkboxes reflect completion.**
 4. The check **flags the meaning question** (replacement verified), and does **not** treat a zero-grep as proof of correctness.
 5. It is an **extension of the existing consumer-check** (capability audit first), adds no parallel gate, and covers **all named surfaces including UNTOUCHED files** — the sweep is NOT scoped to this session's commit set (CATO).
-6. **False-positive tolerance:** a correctly-labelled retraction/retirement must NOT be flagged as live (else the check becomes noise and gets overridden — `finding_a_check_that_only_advises_is_overridden`).
+6. **False-positive tolerance:** a correctly-labelled retraction/retirement must NOT be flagged as live (else the check becomes noise and gets overridden — `finding_a_check_that_only_advises_is_overridden_the_control_is_downstream`).
 7. **Task-completion is a trigger in its own right:** completing a task must fire the sweep even when no claim was retired, or a stale checkbox survives (the CCL-Q3-date and NCLH-10-Q misses).
 
 ## Five neighbours (WQ-229 — considered, N/A justified)
@@ -56,3 +56,16 @@ This proposal is **drafted only** — not IMPLEMENTED, not TESTED, not VERIFIED.
 
 ## Open, not part of this proposal
 CATO flags the CRUISE funding model's **cash-flow timing AND minimum-reserve** limitations as still unresolved (the deposits-ahead-of-sailing / trailing-OCF-understates-stress point, documented in KB-CRU-076 but not modelled, and the minimum operating-cash reserve the breakeven ignores). CRUISE domain items, carried — noted here only so they are not lost.
+
+## Cold-read result (2026-09-20 ~11:00 ET) — declared residue per WQ-178
+
+Bounded blind cold read (coldreader, Opus): **11/17 claims ✅ · 6 ⚠️ · 0 ❌.** Verdict: **ready for the operator's ruling** — mechanism sound, honestly scoped; "grep is discovery, not proof" is correctly locked into condition 4 + item (d) + the overlap-neighbour (no condition treats a zero-grep as proof); all 5 pointers resolve; both `consumer_check.py` capability claims verify. Ledger: `scratchpad/coldread_retired-claim-sweep.md`.
+
+No ❌ ⇒ no result-edit beyond this declaration + one one-word slug fix (WQ-178: fix ❌ only, declare ⚠️, no cascade). The 6 ⚠️ are declared, NOT fixed; the two near-blocking ones resolve at **implementation** (if adopted), not before the ruling — Will rules on the mechanism, not the build:
+
+1. **(near-blocking) "The four evidence cases" is not cleanly enumerable.** The evidence section says *n=4 / four times* but enumerates **three distinct cases** — (i) CRUISE funding-gap retirement + stale checkbox, (ii) CRU-09 registration falsifying two standing negations, (iii) SAM supersede + negation — plus CRUISE's self-found 5th checkbox. The implementer test-target in "Completion state" step 3 must be re-stated as these enumerated cases on adoption.
+2. **(near-blocking) The per-desk enumerated surface list the scope rule rides on does not yet exist / is unlocated** (Missing-information neighbour, L50). Building or locating it is implementation step 1.
+3. Condition 7's referents (CCL-Q3-date, NCLH-10-Q checkboxes) live in the CRUISE evidence upstream, not restated in the evidence section here.
+4. "Capability audit first" names WHAT to probe (own-surface prose scan · checkbox state · standing-negation detection), not HOW.
+5. Condition 2 phrases negation-checking against "registration," but SAM's negation was falsified by adjudication/task-completion — covered mechanically by the all-triggers sweep, phrased narrowly.
+6. Truncated finding-slug — fixed inline (condition 6).
