@@ -2,7 +2,7 @@
 
 **Created:** 2026-05-18 · **Updated:** 2026-09-15 11:02 ET (L393 approved Owed/reference split; paired generation/publication; record `PROME/plans/2026-09-15_L393-deck-split.md`). Prior: 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-09-11 (Will-directed simplification: remove historical explanations; retain procedures, thresholds, exceptions, section names and runner interfaces). Amendment history: `git log -p -- PROME/CLOSEOUT.md`; pre-simplification text: `git show 4a0757370074f1a5ed48353894298b465f842047:PROME/CLOSEOUT.md` (on-demand).
 **Owner:** Prome
-**Commit-pipeline approval/review:** `plans/2026-09-09_boot-hardening.md` (on-demand).
+**Commit-pipeline approval/review:** `PROME/plans/2026-09-09_boot-hardening.md` (on-demand).
 **Purpose:** Repeatable session-end procedure. Run before `/clear`, `/new`, or session handoff.
 
 > Companion to `PROME/BOOT.md` (session start) + `PROME/CLAUDE.md` (bootstrap). **Git protocol canon = root `CLAUDE.md` (auto-injected; not restated here).**

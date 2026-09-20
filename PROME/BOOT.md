@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-09-11 (Will-directed simplification: remove historical explanations; preserve boot order, read scope, commands and guards). Amendment history: `git log -p -- PROME/BOOT.md`; pre-simplification text: `git show 4a0757370074f1a5ed48353894298b465f842047:PROME/BOOT.md` (on-demand). Boot-hardening approval/review: `plans/2026-09-09_boot-hardening.md`.
+**Owner:** PROME · **Updated:** 2026-09-11 (Will-directed simplification: remove historical explanations; preserve boot order, read scope, commands and guards). Amendment history: `git log -p -- PROME/BOOT.md`; pre-simplification text: `git show 4a0757370074f1a5ed48353894298b465f842047:PROME/BOOT.md` (on-demand). Boot-hardening approval/review: `PROME/plans/2026-09-09_boot-hardening.md`.
 
 **Goal:** become operational fast without loading manuals.
 
