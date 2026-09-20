@@ -266,3 +266,27 @@ Excluding 2020 moves EV by only **1–6pp** and never changes a sign (`Dec` −1
 
 ### 5.8 · Contrast worth keeping — not every figure in this file is this weak
 **The CCL `implied 6.94% vs realized RMS 5.53% = 1.25×`** result (§0-bis) is **better determined than any of the above**: it compares two directly measured quantities rather than estimating a tail probability, and needs no distributional assumption. ⚠️ **It is still `n=8` on the realized leg, and `J` is model-implied from two quotes — so it is *better*, not *strong*.**
+
+
+---
+
+## 6 · ⛔ 2026-09-20 — NEW THESIS EVIDENCE ARRIVED THAT FAVOURS MY CONCLUSION. **I am recording why it is NOT evidence for it.**
+
+CRUISE delivered the Caribbean-discounting event confirmed at primary, with the transmission limb **contested by the same analyst who established the premise** (Truist/Scholes, 2026-07-23: cut NCLH `Buy→Hold` `$29→$20` on *"the most aggressive post-Covid"* sale, and **RAISED CCL `$29→$31` the same day**). Their read: **net effect on a CCL put is LESS attractive, not more.**
+
+🔴 **THE TRAP, NAMED BEFORE IT IS BANKED.** This makes the refusal I published yesterday **more comfortable** — and I wrote `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`'s mirror case **hours earlier**, which says a comfortable reading escapes checking in *both* directions. **A peer handing me evidence that a conclusion I already published is right is precisely the class that gets banked unverified.**
+
+⇒ **And it does not survive that check, for a structural reason I already had to learn once tonight:**
+
+> **My refusal is a PRICING claim. CRUISE's evidence is a THESIS claim. Thesis evidence cannot support a pricing conclusion — and this is the IDENTICAL error I withdrew in §0 ④** (treating `WQ-218 ②`'s mechanism retirement as corroboration of my expression constraint). **The CCL put is refused because the option is priced above what CCL's own prints deliver. That is true whether the discounting transmits to CCL's yields or not.** ⛔ **Logging this as reinforcement would repeat, prospectively, the exact mistake I spent the evening retracting.**
+
+✅ **STATUS: ORTHOGONAL. The verdict is unchanged and takes NO support from it.** *(It would, however, matter to anyone constructing a CCL bear view on the thesis — which is CRUISE's lane, not this desk's.)*
+
+### What I AM taking from it
+
+- ⚠️ **THE ONE DATUM THAT CUTS AGAINST MY OWN POSITION, RECORDED FIRST:** **liquidity / gross debt — NCLH `10.0%` vs CCL `26.2%` vs RCL `30.2%`** (ECA facilities excluded as purpose-restricted). **NCLH's balance sheet is thin against both peers. That is mildly SUPPORTIVE of the multi-quarter NCLH direction Will pushed, and unsupportive of my comfort.** It does not clear the `~25–35%` hurdle in §4.4 on its own, but it is the first datum this week that pushes on it, and it should not be buried under the parts of the packet that agree with me.
+- ✅ **Construction discipline, adopted: never size off a headline promotional number.** *"50% off"* has a **stated** saving of *"from $280"* for **two** on a **7-night** — roughly **10–15%**, about what the free prepaid gratuities alone are worth — and **what the 50% applies to is undisclosed.** The realised fare cut is **UNMEASURED**. A marketing construct is not a measured input.
+- 📌 **CRUISE's `CRU-10` (60%, registered 2026-09-20)** — CCL Q3 constant-currency net yield at or above its own ~+1.2% guide — logged so this desk can grade **them** on 9/29.
+
+### ⛔ One correction I am NOT accepting, because it is not mine
+CRUISE flags the **`CRU-08` share-count confound** (CCL **issued 69.1M shares** settling $1.1B of 2027 Convertibles in Dec-2025 against ~30M retired by buyback — so the net is **issuance**, and per-share arithmetic anchored on the buyback alone is wrong by more than the effect it measures). **The fact is important and correct as far as I can see.** ⛔ **But it does not touch this file: my EV work is built on OPTION PRICES and REALIZED PRICE MOVES and contains no per-share EPS arithmetic anywhere** — verified by grep, zero hits for the share count or the per-share fuel figure. **`CRU-08` is CRUISE's prediction to carry.** *(Accepting a correction that isn't mine is the mirror of the over-absorption CRUISE themselves withdrew earlier tonight — it misattributes a defect and leaves it unfixed at source.)*
