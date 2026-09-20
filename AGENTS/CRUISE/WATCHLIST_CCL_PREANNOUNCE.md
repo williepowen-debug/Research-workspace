@@ -6,6 +6,29 @@
 
 ---
 
+## ⚖️ RE-BASED 2026-09-19 — READ THE PRINT IN THIS ORDER, AND NOT THE HEADLINE FIRST
+
+*From the sweep of all 35 non-Form-4 CCL 2026 filings read as **documents** — `domain/sources/2026-09-19_ccl-2026-filings-read-as-documents.md`. Four things surfaced that were not on this desk.*
+
+| # | Read this | Why it comes first | What would change the thesis |
+|---|---|---|---|
+| **1** | **FY26 constant-currency net yield guide** | **CCL already cut it 100bp — ~+2.75% (Q1, 3/27) → ~+1.75% (Q2, 6/23) — while adj EPS guide ROSE a cent** ($2.21→$2.22). The desk only ever held the Q2 number. | **A second consecutive cut completes exit rule 1's second limb** (*"CCL and RCL both guide FY yields DOWN"*), which is **already half-satisfied**. A guide near **~0.5% CC for Q4** confirms `FL-CRU-10` at primary; **at or above ~1.15% refutes it.** |
+| **2** | **Share count + Q3 repurchases** | **A $2.5B buyback has been live since April with $2,110M left at 5/31** — Apr 3.4M sh @$26.56, **May 11.7M @$25.65** — and **Jun–Aug is undisclosed until this print.** | **A 30M-share retirement ≈ +$0.030/sh**, about what a **7–8% fuel overshoot costs**. It can mask most of a 10% overshoot in EPS. |
+| **3** | **Reported fuel cost per metric ton, ex emission allowances** | The **only** input that resolves `CRU-07` (vs the $812 guide) and `CRU-08` (vs the $0.10 bar). | Graded on CCL's own figure and its own $56M-per-10% sensitivity. **No proxy, no peer figure.** |
+| **4** | **Adjusted EPS vs the ~$1.35 guide** | **LAST, deliberately.** ⛔ Costs, the buyback and a ~$17.5M debt-extinguishment premium all sit between fuel and the EPS line. | An EPS beat is **not** evidence about fuel or demand. |
+
+**⛔ `CRU-07` and `CRU-08` ARE NOT RE-TUNED.** Both are OPEN and inside their window; this desk does not re-spec a live prediction mid-window (the CRU-05 precedent). The buyback is registered as a **disclosed confound to record at resolution** — not grounds to move the bar.
+
+### Also new, and dated
+- **$500M 7.000% First-Priority Senior Secured Notes redeemed 2026-08-15 at 103.50%** — ~**$517.5M** cash out **inside Q3**, ~$35M/yr interest saved; a ~**$17.5M call premium** lands in GAAP and will almost certainly be excluded from adjusted. ✅ Collateral **fell away 6/25 on the second IG rating** — Moody's move was **mechanical notching**, now confirmed at primary (8-K acc 0000950142-26-002267).
+- **PROPEL** (3/27): **>50% adj EPS growth from 2025** and **>40% of operating cash flow to shareholders — ~$14B — through 2029**; **>$800M of dividends expected in 2026.**
+- **Q1 FY26 was never on this desk:** adj EPS $0.20 (+50%), record revenues $6.2B, net yields **+2.7% CC**, deposits ~$8B (+10%), **85% of 2026 booked** (93% by Q2), **fuel consumption per ALBD −4.7%**, all despite a **$54M ($0.04)** fuel+FX hit. Q2's hit grew to **$73M ($0.06)**.
+- **CCL redeployed away from planned Q1-26 Arabian Gulf voyages — ~50bp of FY net yield**, plus >30bp of conflict logistics cost. ⛔ Predates the 7/2 cutoff, so `VX-CRU-04` stays GREEN(1) on the letter — **but the green means "no new announcements," not "no stress."**
+
+⛔ **THE METHOD LESSON, AND IT IS WHY THIS SECTION EXISTS:** the Q1 earnings 8-K's body says only *"a press release … is furnished as Exhibit 99.1"* and its `items` tag reads `2.02,9.01`. **The buyback, PROPEL, the $14B roadmap and an entire quarter are in the exhibit.** A sweep that reads tags or 8-K bodies returns nothing. **Read the exhibit.**
+
+---
+
 ## Baseline (what the tape is currently pricing)
 
 | Item | Value | Source | Notes |
