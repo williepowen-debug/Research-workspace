@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-20, PROME response/proposal assessed; separate CRUISE/SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-20, PROME triage and CRUISE inference limits assessed; separate SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME triage checked; new CRUISE inference limits remain.** [Review](runs/2026-09-20_1101_prome-triage-and-cruise-inference-review.md), initial `4ab2133c3`. Three proposal tightenings committed; in-flight `8acbd52f6` records owner-reported cold-read completion (zero blocking/six advisory), underlying ledger not inspected. L221 date fixed but live status retains unconfirmed October estimate. TERRY PAPER_BOOK already committed, reminder obsolete. CCL target increase cannot exclude yield drag; earlier Truist chronology cannot establish source independence; NCL promotion verifies an offer including Caribbean, not measured unusual fare cuts or concentration. Booking date does not establish first realized-yield quarter. No owner edits/sends, cold-reader launch, housekeeping execution, policy or grade changes. **Next: orient and await Will; no further work assigned.**
 
 **Latest — PROME response verified; proposal ready for bounded cold read with design gaps.** [Review](runs/2026-09-20_1038_prome-sweep-proposal-review.md), snapshot `25648708c`. Docket's JPX product distinction present; four-item handoff inventory already received. Proposal should explicitly trigger on standalone task completion and inspect untouched consulted summaries, separating read scope/snapshot validity from commit custody. Existing literal-text mirror mode should be considered before requiring code changes. Funding timing/reserves remain unresolved. Context-aware follow-up only; no cold reader launched, owner edits/sends, policy changes or implementation. **Next: orient and await Will; no further work assigned.**
 

@@ -1,0 +1,32 @@
+# PROME triage receipt and CRUISE inference limits
+
+September 20, 2026, approximately 11:01 EDT. Will relayed PROME's proposal/CRUISE triage response. Initial HEAD `4ab2133c3`, clean tree. Inspected proposal `c89dffb86`, docket `787f1df16`, CRUISE's four-thread packet and discounting source document/KB/FLOW, and TERRY `01cf1f15a`. Bounded receipt and inference review, not a new four-thread research assignment or the announced Opus cold read. PROME began editing its proposal during this pass; findings below pin the committed version. Separate CATO SAM work preserved.
+
+## Verified disposition
+
+- The committed proposal explicitly adds task completion, all named surfaces including untouched files, and a capability audit before new code. These close the three headline drafting requests. Snapshot/recheck treatment under concurrent editing is still not specified in the inspected version; the already-running cold read can assess this. No need to launch another reader. Its runtime/completion was reported by PROME, not independently verified here.
+- L221's date field is now September 29. However, its event label still says approximately September 28–29 and its status field still leads with the October 5 estimate and “not company-confirmed”/release “not yet issued.” The later correction is in Notes. The operational date repair is real, but the row is not semantically reconciled. Preserve old text as explicitly superseded history and lead the current status with the confirmed date. PROME's reported two-correction stop remains a reason to carry this to the next authorized pass, not to keep editing now.
+- TERRY already committed PAPER_BOOK in `01cf1f15a`; the initial tree was clean. The proposed reminder is obsolete at this snapshot.
+- Deferring the port-cadence registration and bundling memory housekeeping are reasonable proposals. This review did not certify their calendars, memory-index repairs, or authorize those actions. Funding timing/reserve limitations remain open.
+
+## F1 — MEDIUM: a price-target increase does not identify absence of yield drag
+
+CRUISE's source §4 and KB-CRU-103 say that, if Truist believed Norwegian discounts capped Carnival yields, it would not have raised Carnival's target. FLOW FL-CRU-10 repeats the resulting “Norwegian-specific, not sector-transmitting” inference, which PROME relays as contested contagion.
+
+That implication fails even if the reported target changes are exact. A valuation can rise while one earnings component worsens: other earnings, costs, leverage, valuation multiples or horizon assumptions can offset a yield drag. An older July target action also need not adjudicate a September booking environment. This is the same offset problem already identified in the aggregate-yield test. The target move is useful investment context; it does not establish the analyst's channel judgment. Obtain explicit regional yield reasoning before assigning that meaning. The actual Truist note was not obtained by CRUISE and was not independently obtained here; this finding tests the inference on its own stated inputs.
+
+## F2 — MEDIUM: chronology excludes one dependency direction, not a shared source
+
+Source §3, KB-CRU-102 and FL-CRU-10 say that a July Truist note substantially answers the possibility of shared sourcing between September Wells Fargo and Stifel notes. Earlier publication establishes only that July could not copy those later publications. The later notes could draw on the earlier research, overlapping travel-agent respondents, or common booking data. A third house adds another attributed assessment, but source independence remains unverified. Keep the earlier chronology; withdraw the claim that it resolves the dependence question without inspecting methods and provenance.
+
+## F3 — MEDIUM: primary promotion evidence is narrower than the promoted premise
+
+[NCL's July 8 release](https://es.ncl.com/newsroom/norwegian-cruise-line-launches-first-ever-semi-annual-sale-with-50-off-all-cruises-plus-free-pre-paid-gratuities-on-select-sailings/) verifies a promotion including Caribbean sailings, alongside other destinations. It does not establish Caribbean concentration, a like-for-like realized fare reduction or abnormal discount intensity. The $280 example concerns additional gratuity savings; it cannot establish that the advertised fare discount is really 10–15%. The source's footnote gives $20 per person per day, matching $280 for two over seven days. CRUISE correctly keeps realized fares unmeasured, but §2/KB-CRU-101/FLOW still use that example to refute the fare headline, and §5 calls the promotion self-baselining. Neither inference follows without a comparable prior selling price. Label the primary finding “promotion offered, Caribbean included”; label abnormal intensity as analyst assessment. This supports investigation, without upgrading the broader channel premise to primary verification.
+
+Adjacent timing limit: source §7/FLOW infer that a July booking promotion must first affect Carnival's Q3 realized yield because July lies in that reporting quarter. Booking date is not sailing/revenue date. Separate near-term sailings from forward bookings; the supplied evidence cannot identify the first affected quarter. Do not restore an aggregate-yield causal resolver through this new summary.
+
+## Limits and closeout
+
+**In-flight receipt:** PROME committed `8acbd52f6` during closeout. Its proposal now records an Opus cold-read result of 11 accepted, six advisory and zero blocking claims, with the unenumerated test cases and missing/unlocated per-desk surface list explicitly deferred to implementation. I inspected that additive declaration, not the underlying cold-reader ledger/runtime. The cold read is therefore now owner-reported complete, with adoption still awaiting Will; the inference findings above are unaffected.
+
+No original analyst note, realized fare series, capacity/occupancy causal model, capital-access ladder, or port-release schedule was certified. The primary check was NCL's release; documentary checks distinguish committed fixes from reported future work. No owner files, packets, policy, prediction terms or grades were changed. Only this report and CATO continuity authored; whitespace/weekday/orphan checks and exact-path commit/push receipt delivered in-session. Next: orient and await Will. Neither the cold-read follow-up nor the new research repairs are automatically assigned.
