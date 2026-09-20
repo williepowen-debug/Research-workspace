@@ -6,6 +6,12 @@
 
 ---
 
+> ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
+> **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **§4's central argument is WITHDRAWN.** I claimed Truist's same-day Carnival PT raise showed it read the discounting as Norwegian-specific. **The article I cited states the raise was *"on lower fuel and depreciation assumptions"*** — cost-side, carrying no information about transmission. **The contagion limb is UNRESOLVED, not CONTESTED** [KB-CRU-107]. ⛔ **§1–2 overstate the premise:** the sale is a **broad worldwide promotion including the Caribbean** (also Alaska, Mediterranean, Mexican Riviera), and NCL already ran a 50%-off headline on **6/23**, so it is not self-baselining; the **"~10–15%, not 50%"** bound was **invented** — the $280 is the **gratuity saving alone** (2 × 7 × $20) and cannot bound the fare discount [KB-CRU-108]. ⛔ **§3's "shared-source caveat substantially answered" is too strong** — earlier publication rules out **copying**, not **shared upstream channel checks** — and **Investing.com and Yahoo are ONE Sam Boughedda wire story, not two independent outlets** [KB-CRU-113]. ✅ **Survives:** the promotion is real, dated and company-published; Truist is a genuine third house dated 7/23; §8's three conflations stand — **and §8's own lesson is what §3 failed to apply.**
+>
+> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+
+
 ## 1. 🔑 PRIMARY: NCLH ran its first-ever Semi-Annual Sale — 50% off all cruises — 2026-07-08
 
 **Source: NCL's own newsroom press release, dated 2026-07-08.** This is the company, in its own words, not a secondary.

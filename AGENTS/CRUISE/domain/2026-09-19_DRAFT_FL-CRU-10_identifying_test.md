@@ -1,6 +1,7 @@
 # DRAFT — an identifying test for `FL-CRU-10` (NCLH → CCL Caribbean pricing transmission)
 
-**Status: ✅ v4 — APPROVED IN SUBSTANCE (Will, 2026-09-20; CATO review d209d5242 supporting registration at 25% with three narrowings, all applied). REGISTERED as `CRU-09` — v2's resolver rebuilt on CATO's v2 review (one resolver was doing two jobs). NOT REGISTERED. Not a prediction until reviewed and pre-committed.**
+**Status: ✅ v5 — REGISTERED as `CRU-09` at 25%** (approved in substance by Will 2026-09-20; CATO review `d209d5242` supported registration with three narrowings, all applied; v2's resolver rebuilt because one resolver was doing two jobs).
+⛔ **PRE-FREEZE REPAIR 2026-09-20, CATO F2 (report `9f24c7`), Will-approved in-session before the 2026-09-21 09:30 ET freeze deadline.** TWO defects fixed, **both in the RESOLVER's worked examples, neither in the registered predicate**: **(a)** §9a's row *"Norwegian named and explicitly excluded as a cause"* mapped to **CONFIRMED**, which contradicts the registered row — a **DENIAL is not an ATTRIBUTION of pressure**. Corrected to **FAILED**. **(b)** this header previously asserted **both** *"REGISTERED as `CRU-09`"* **and** *"NOT REGISTERED. Not a prediction until reviewed and pre-committed"* — a live self-contradiction, the second clause being v3 residue. Removed. ⛔ **THE REGISTERED PREDICATE, THE 25%, THE RESOLVER'S SCOPE AND EVERY DEADLINE ARE UNCHANGED.** This repair makes the examples consistent with the row that was registered; it does not amend the row.
 **Written:** 2026-09-19 Sat (CRUISE) · **Must be frozen before:** the ACTUAL release, whenever it publishes on 2026-09-29 — ⛔ **not "08:00 ET", which was an assumption, not a published time (CATO review pt 4). Freezing before Monday's open removes the risk entirely.**
 **Replaces:** the non-identifying test I logged on 9/19 (*"Q4 CC yield near ~0.5% confirms, ≥~1.15% refutes"*), withdrawn on CATO F2.
 **Leaves untouched:** `CRU-07` and `CRU-08` — different objects, registered definitions unchanged, **this draft does not amend them.**
@@ -139,7 +140,7 @@ Norwegian's next print (**vendor-estimated 2026-11-04, ⛔ NOT confirmed at prim
 | Caribbean pricing firm/improving, **no** competitive-drag language anywhere | **FAILED** | **weakened** |
 | Competitive pressure mentioned but **not Caribbean-distinguished** | **FAILED** *(§4b concentration unmet)* | unresolved |
 | Caribbean **capacity** growth only, no promotional attribution | **FAILED** | unresolved |
-| Norwegian named and **explicitly excluded** as a cause | **CONFIRMED** *(a qualifying attribution statement was made)* | ⛔ **CONTRADICTED** |
+| Norwegian named and **explicitly excluded** as a cause | **FAILED** ⛔ *(CORRECTED 2026-09-20, CATO F2 — was wrongly CONFIRMED. The registered predicate requires management to **attribute pressure TO** competitor promotions; an explicit exclusion is a **denial**, which does not meet that predicate. If a separate affirmative attribution to some OTHER competitor also appears, that separate statement confirms — the Norwegian denial never does.)* | ⛔ **CONTRADICTED** |
 | Q&A inaccessible at cutoff | **NO-VERDICT** | unresolved |
 
 **⇒ The channel upgrades ONLY on Norwegian-specific attribution. I expect it to remain Partial after this print, and that is the going-in expectation.**
@@ -158,7 +159,7 @@ Against it: management endorsement **in its own words**, **period-scoped**, **Ca
 ### 9d · JUDGMENT CALLS I COULD STILL BE WRONG ABOUT
 1. **Concentration is required for CONFIRMED.** A Caribbean mention inside a general remark fails. **This is the strictest clause and the one most likely to turn a real disclosure into a FAILED.**
 2. **Close-in vs advance is not required** — requiring it would make the test near-unfalsifiable in the supporting direction.
-3. **No CONTRADICTED state exists for the channel at this print** (§4c). If that asymmetry is wrong, this is where to say so.
+3. ⛔ **CORRECTED 2026-09-20 (CATO F2): this clause was WRONG AS WRITTEN and contradicted §9a's own table.** It read *"No CONTRADICTED state exists for the channel at this print (§4c)."* **§9a has always carried exactly one CONTRADICTED row** — Norwegian named and explicitly excluded as a cause. **The correct statement:** the channel CAN be CONTRADICTED at this print, by that single route and no other; every other listed outcome leaves it *unresolved* or *weakened*. ⚠️ **Note the asymmetry this leaves, deliberately:** that same row is **FAILED** for the `CRU-09` disclosure forecast and **CONTRADICTED** for the channel — because the two objects ask different questions of the same sentence. **That is correct, not a defect**, and it is the clearest illustration of why the two were separated.
 
 ## 10 · WHAT I AM ASKING FOR
 1. **Review of this design before I register it** — particularly §5's two asymmetries and §7's honest data gap.

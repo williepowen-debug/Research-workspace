@@ -8,6 +8,12 @@
 
 ---
 
+> ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
+> **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **Three inferences WITHDRAWN** [KB-CRU-112]. **(1) "NCLH has no bond-market access"** reads an **absence of issuance as an inability** — it did not issue in this window and funds via a secured revolver; that is a **choice and a structure**, not a demonstrated access limit (it filed an unsecured financing announcement in 2025). **(2) "Funded unsecured two weeks earlier" is a DATE ERROR — 2026-08-06 to the 9/18 close is 6.1 weeks**, and August access does not prove September equity weakness excludes credit risk, so **"a demand-and-pricing K, not a credit-quality K" is an over-read.** **(3) §5's coupon comparison cannot show a re-rating** — seasoned **coupons are not current yields or matched spreads**, and §Owed already concedes no secondary spreads were obtained. ✅ **Survives:** the dated T+105 transaction and all its terms; RCL's zero secured debt and CCL's $22.4B collateral pool, both at primary; the liquidity ratios **as dated liquidity-to-STATED-debt comparisons** — with 'gross debt' **not standardised** (NCLH carrying/principal gap $432.9M unreconciled) and as-of dates a month apart; and §4's warning against citing average cost of debt, which was right.
+>
+> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+
+
 ## 1. The headline find: RCL raised $1.25B of 8-year UNSECURED money at T+105 — inside this desk's dark window
 
 **Primary:** 8-K 2026-08-20 acc `0001104659-26-099245` (items 1.01, 2.03) · FWP 2026-08-06 acc `0001104659-26-092123` · 424B5 2026-08-10 acc `0001104659-26-092869`.

@@ -169,3 +169,28 @@
 
 - 🟠 **Re-point the Brent monitoring basis BZX26 → BZZ26 around ~9/30** (BZX26 expires then). ⛔ **TWO ERRORS CORRECTED HERE 2026-09-19 (CATO). ① NO PREDICTION DEPENDS ON THIS.** The old line read *"…and `CRU-07` resolves days later,"* which implied a dependency that does not exist: **`CRU-07` and `CRU-08` grade CCL's OWN REPORTED fuel cost per metric ton against CCL's own $812 guide and $56M-per-10% sensitivity — there is no Brent in either resolution.** Rolling the monitoring series **must not touch their registered definitions.** **② The date relationship was stale from the ~10/5 estimate:** BZX26 expires **~9/30, which is one day AFTER the 9/29 print**, not five days before it. **So this is post-print cost-line hygiene (`VX-CRU-02` / `FL-CRU-01`), not pre-print urgency — downgraded 🔴→🟠.**
 
+
+
+---
+
+## § K — `Key gaps / next steps` as it stood before the 2026-09-20 PM correction pass
+
+*Rotated verbatim under read-cap pressure. The live compressed version is in STATUS; this is the fuller prior text.*
+
+## Key gaps / next steps
+
+- ✅ **METHOD DEFECT CLOSED — ALL THREE OPERATORS.** CCL's 35 non-Form-4 2026 filings re-read as **documents** (9/19); **RCL and NCLH done 9/20.** It paid both times: CCL's $2.5B buyback, PROPEL/$14B, the 100bp FY yield cut, a ~50bp Gulf redeploy — then RCL's $1.25B unsecured raise, its zero-secured-debt status, and CCL's 69.1M-share convertible settlement. **Two derived rules stand: an absence perimeter uses forms *starting* `8-K`, and a keyword hit on a big filer means nothing without a pre-event baseline.** Sweeps → `domain/sources/2026-09-19_ccl-2026-filings-read-as-documents.md` + the four `2026-09-20_*.md` files.
+
+- ⬛ **Rotated verbatim → archive § G:** maritime cyber (closed negative) · the ✅-closed list · the Q3-date confirmation (done) · the `VX-CRU-04` scope caveat (**still live in VX.tsv + KB-CRU-056/073**).
+- ✅ **`VX-CRU-06` BASIS RULED TOTAL RETURN (Will, 2026-09-19; encoded `6d574355a`).** Prospective; falsifier not re-specified. **NOT TRIPPED, max 1.8387pp (9/10, pre-ex-date, identical on both bases), headroom 3.16pp.**
+- ✅ **Closed 9/20:** `FL-CRU-10`'s **premise** (NCL's own promotion + a measured capacity cause + a third house upstream of both prior notes) · the **shared-source caveat** on WF/Stifel · the **method defect for RCL and NCLH** (filings read as documents — found RCL's $1.25B unsecured raise, the zero-secured-debt fact, and the 69.1M-share convertible settlement). **Still open on `FL-CRU-10`: no CCL document says NCLH's discounting caps CCL's yields — and Truist's same-day CCL RAISE is now positive evidence against it.** ⛔ **The 9/29 yield guide still does NOT adjudicate it** — Norwegian-specific attribution does, graded separately from `CRU-09`.
+- 🟠 **NEW GAPS from 9/20:** ① what NCLH's **"50% off" actually applies to** — undisclosed, so the realised discount is **UNMEASURED** · ② **NCLH's minimum-liquidity covenant is UNREAD** (its $1.5B liquidity equals CCL's $1.5B covenant floor — a coincidence, recorded as a question, NOT a finding) · ③ **CCL berths on order** not in the 10-Q; the 10-K ship table carries it, unread · ④ **no live fare series exists** — direct scraping blocked (403/404); **access gap, named** · ⑤ Truist's note read through **two agreeing secondaries**, not the note itself.
+- ✅ **NEW cadence trigger #8 — Florida port FY2026 passenger counts (~Oct–Nov 2026).** FY2026 closes **2026-09-30**; first physical-volume window over the stress period. ⛔ Lands **after** the print ⇒ adjudicates the thesis **ex post**, not the trade. ⛔ **FY2025 port records CANNOT be cited for the 2026 thesis** — they predate it by a year, and volume growth is substantially **supply** (Canaveral to 18 homeported ships, Everglades to 40 ships/9 lines).
+- ⛔ **METHOD, n=3 TODAY:** three secondary-source conflations, **each handing back exactly the number being hunted** — a fabricated "FY2026" PortMiami figure (actually FY2025, wrong digits too), a per-night fare pair absent from its cited article, and a "July 2026" Truist survey sourced to a **May 2024** piece. **All three caught only by fetching the underlying article.** (KB-CRU-106)
+- 🟠 **Re-point the Brent monitoring basis BZX26 → BZZ26 around ~9/30** (BZX26 expires then). ⛔ **NO PREDICTION DEPENDS ON THIS** — `CRU-07`/`CRU-08` grade CCL's OWN reported fuel cost per metric ton against CCL's $812 guide and $56M/10% sensitivity; **there is no Brent in either resolution**, so rolling the monitoring series **must not touch their registered definitions.** Expiry is **one day AFTER** the 9/29 print ⇒ **post-print cost-line hygiene, not pre-print urgency.** *(Two CATO corrections, narrative → archive § J.)*
+- 🟠 **Price the Jun–Aug Brent window** for `CRU-07`. FRED DCOILBRENTEU unreachable ×3 (SEARCH-NOT-FOUND). **BRENT pulls EIA `RBRTE` — ask, don't re-derive.**
+- 🟡 **War-risk PREMIUM unmeasured** across two sinkings and a seizure; FALCON's falsifier ~58d stale. **ACCESS decision with Will as `WQ-230`, not a research task** — six attempts, all SEARCH-NOT-FOUND.
+- 🟠 **The cruise query is live but does not discriminate — 2 delivered in 739, 0 decision-relevant.** Replacement drafted at `domain/CRUISE_TERM_SET.md`; **WALTER owns the encode.** `WATCH_FOR` has no CRUISE key. ⛔ The `VOCABULARIES.tsv` edit is **NOT covered by the 9/11 word** — refuse any offer to encode it under that approval.
+
+---
+

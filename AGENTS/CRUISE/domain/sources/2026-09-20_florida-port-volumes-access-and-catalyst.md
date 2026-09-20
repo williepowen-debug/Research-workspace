@@ -6,6 +6,12 @@
 
 ---
 
+> ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
+> **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **§1 overstates the absence.** *"No Florida port publishes a monthly cruise passenger series"* is too strong: **Port Canaveral published 925,994 passenger movements for March 2025**, with a March-on-March comparison. What was actually established is that **no continuous CURRENT series surfaced in the sources inspected** — and board financial-report **attachments** (as opposed to agenda titles) were never censused. **The categorical "do not re-attempt" instruction is withdrawn** [CATO F7]. ⛔ **§4's causal grading rule is WITHDRAWN** (and with it the same rule in `CADENCE.md` trigger #8): volumes at/above budget beside a yield guide-down **cannot confirm discounting**, and a volume miss beside falling yields **cannot separate discounting from demand destruction**. Added capacity plus an unrelated geographic drag reproduces the first; price cuts and weak demand coexist in the second. **§3 correctly named the missing capacity denominator and then §4 bypassed it.** Port counts are **contextual volume evidence only** [KB-CRU-107 class / CATO F1]. ✅ **Survives:** the FY2025 figures and their vintage warning, the fiscal-year timing, and §5's record of the PortMiami conflation.
+>
+> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+
+
 ## 1. ⛔ ACCESS FINDING: no Florida port publishes a monthly cruise passenger series
 
 Checked all three homeports at their own surfaces:

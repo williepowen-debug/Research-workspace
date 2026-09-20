@@ -5,6 +5,12 @@
 
 ---
 
+> ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
+> **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **The title overclaims: this is not a MEASURED CAUSE.** ⛔ **"The ONLY Big-3 operator losing occupancy" is FALSE — RCL fell −0.0789pp, and my own §1 table printed it as −0.10pp.** Correct claim: NCLH's decline is **by far the largest**, ~19× RCL's [KB-CRU-109]. ⛔ **"Occupancy swung 3.80pp"** labels a change in the **year-over-year delta**; the **sequential** Q1→Q2 fall is **−1.41pp**. ⛔ **"Fewer people" is false in absolute terms — passengers carried ROSE 22.75%**; occupancy fell because capacity grew faster [KB-CRU-109]. ⛔ **§2's "one lever — price" is a PLAUSIBLE EXPLANATION, not a measured cause**; company-wide figures cannot identify why capacity expanded or any Caribbean-specific price response. ⛔ **§6(a) WITHDRAWN:** the 69.1M shares settled in **Dec 2025**, six months **before** the June guide that set the 1,377M denominator — they are already inside it, not a new offset [KB-CRU-111]. 🔑 **NEW, from redoing this arithmetic: NCLH's average cruise length fell 12.6% (8.51d → 7.44d).** A mix shift that size moves net yield with **no pricing change** — a confound for every yield comparison at the print [KB-CRU-110]. ✅ **Survives:** all capacity arithmetic reproduces (8.8804% / −1.5375pp / +2.2579pp), §3's caution against reading NCLH weakness as household stress, and §4's compare-the-change-not-the-level rule.
+>
+> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+
+
 ## 1. The table
 
 **Q2 FY26 vs Q2 FY25, each operator's own metric and own filing:**
