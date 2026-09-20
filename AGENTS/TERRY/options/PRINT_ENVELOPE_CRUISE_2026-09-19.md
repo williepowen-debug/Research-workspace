@@ -35,6 +35,35 @@ I disclosed the positive cell (`Nov-20 21P` at ≥45% post-print IV) and then di
 **④ ⚖️ I ALSO CALLED THIS AN "INDEPENDENT CONFIRMATION OF `WQ-218 ②`." WITHDRAWN — CRUISE RAISED IT AGAINST THEIR OWN WORDING AND THEY ARE RIGHT.**
 `WQ-218 ②` retired a **MECHANISM** claim (fuel convexity does not discriminate CCL from its peers). This file makes an **EXPRESSION** claim (no put pays at one print). **A cheap option would not have resurrected the fuel mechanism, and a dead mechanism does not imply no put pays — neither is evidence for the other.** Two findings pointing at the same practical action are **not** mutual corroboration; treating them as such manufactures confidence from a coincidence of direction. **What actually survives is the narrower constraint, which is the part with content: there is no CCL put expression at this print, whatever the Q4 yield guide says on 9/29.**
 
+### §0-bis · ⛔ CORRECTION **TO THE CORRECTION** — I OVER-CORRECTED ②, AND I MADE A FALSE ACCUSATION. *(same night, raised by CRUISE)*
+
+⚠️ **`finding_a_correction_pass_is_unreviewed_work` — "so does the fix TO the fix." This is that case, arriving within the hour.**
+
+**②-bis 🔴 "THE NOVEMBER EXPIRY NEVER CARRIED THE EVENT PREMIUM" IS FALSE. IT CARRIES ~2–3 VOL POINTS, AND MY ORIGINAL 42% ASSUMPTION WAS THE BETTER ONE.**
+CRUISE flagged that my replacement claim was *"not supported by the evidence shown"* and was now load-bearing. **They are right, and testing it reverses my own correction.** I had shown only that `Oct-02` is 9.3 vol points richer than `Nov-20` — **which establishes a KINK, not an ABSENCE.** A back-month expiry containing the same event carries the same event *variance* diluted over more time; it does not escape it.
+
+**The test, done properly.** For an expiry containing one event, `IV² · T = σ_base² · T + J²` (`J` = implied one-day event jump). Two expiries, two unknowns, solved on my own 2026-09-18 quotes:
+
+| specification | σ_base | implied jump `J` | premium in **Oct-02** | premium in **Nov-20** | ⇒ post-print Nov-20 |
+|---|---:|---:|---:|---:|---:|
+| **21-strike puts** (same strike ⇒ skew controlled; and it is the strike actually being priced) | **42.17%** | **6.94%** | +12.91 pts | **+3.19 pts** | **≈ 42.2%** |
+| ATM-interpolated, put side | 45.01% | 6.12% | +9.79 pts | **+2.35 pts** | ≈ 45.0% |
+
+- 🔴 **Both specifications refute my claim: the November expiry's event premium is ~2–3 vol points, NOT zero.**
+- 🔑 **And the same-strike solve — the appropriate one, since it is the 21-strike put being priced and skew is controlled by construction — puts post-print `Nov-20` at `42.2%`, i.e. essentially the `42%` default I originally used and then "corrected" away from.**
+- ⚠️ **HONEST LIMIT, and it is why this does not simply flip back: the two specifications DISAGREE (42.2% vs 45.0%), and the sign of that one cell flips between them** (`−2.0%` at 42% vs `+5.8%` at 45%). Both assume base vol is FLAT across 14d and 63d, which in a de-rating name it need not be. ⇒ **The correct status of that cell is INDETERMINATE on the evidence I have — not positive as my correction claimed, and not negative as my original claimed.** ⛔ **I am not picking the specification that returns the answer I first published.**
+- ✅ **The NO-TRADE verdict never rested on that cell and still does not:** the **all-8 line is negative at 40 / 42 / 45.36 / 48 / 50%**, and *"assume the direction is right"* is not an assumption anyone holds before the fact.
+
+✅ **AND THE EXCHANGE PRODUCED A BETTER FOUNDATION THAN EITHER OF MY REASONS — this is now the cleanest statement of the finding:**
+> **The market prices a one-day CCL print jump of `6.94%`. CCL's eight realized prints have an RMS move of `5.53%`. Implied / realized = `1.25×`.** **The event is measurably overpriced, on CCL's own history, with no directional assumption anywhere in it.**
+*(n=8; `J` is a model-implied quantity from a two-tenor solve, not a market quote; RMS is the right comparator because `J` enters as a variance.)*
+
+**②-ter 🔴 I ACCUSED CATO OF MERGING TWO STRUCTURES. THE ACCUSATION IS WITHDRAWN AND THE ERROR WAS MINE.**
+I wrote that CATO had merged `Nov-20 21P` and an October structure into one *"October structure."* **CRUISE's packet — which I had read before writing that — distinguishes them: *"`Nov-20 21P` at `+5.8%` at 45% post-event IV **and** an October structure at `+10.6%` at 55%."*** The merged phrasing existed **only in the summary message**, and CATO reports its own output kept them separate. ⇒ **CATO's figures are correct, correctly separated, and both reproduce exactly against my table** (`Nov-20 21P` @45% = `+5.8%`; `Oct-16 21P` @55% = `+10.6%`; they share the 21 strike). **I built an accusation about another agent's work off a summary while the precise source was open in front of me. Routed back for correction.**
+⚠️ *One substantive note that is NOT a criticism of the figure: `55%` post-print on an **October** expiry would be vol EXPANSION through a print, in the expiry carrying ~13 points of event premium that should crush. My sweep ran to 55% deliberately to include implausible cases; that cell is arithmetic, not a scenario I would defend.*
+
+**①-bis ✅ ATTRIBUTION ACCEPTED AS SHARED.** CRUISE withdrew their *"that is my error, not yours."* **Correct: my headline contradicted my own sensitivity table four lines below it; their error was dropping the caveat I had disclosed. Two different real errors — and filing it as solely theirs would have left mine unfixed at source.**
+
 ---
 
 ## 1 · The envelope — realized 1-day close-to-close print reactions, last 8 prints each
@@ -72,7 +101,7 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 | Nov-20 **20P** | $0.81 | **−29.9%** | **−6.9%** |
 | Nov-20 **21P/17.5P spread** (rule 18(b)'s "sell the rich wing" form) | $1.01 on $3.50 | **−26.2%** | **−5.5%** |
 
-🔴 **THE SENTENCE THIS FILE EXISTS FOR — ⛔ RESTATED, see §0 ②; the original over-claimed on the right-hand column:** **over CCL's FULL 8-print distribution every structure above is negative-EV, and stays negative at every post-print IV from 35% through 50%.** **Granting the direction for free, five of the six remain negative — `Nov-20 21P` turns POSITIVE at ≥45% (+5.8%), and 45.36% is that strike's OWN quoted IV.** ⚠️ **My original dismissal of that cell was wrong** (it applied a front-month crush finding to a back-month strike). **It is still not a trade: *"assume the direction is right"* is not an assumption anyone has before the fact, and the all-8 line — the honest one — is negative throughout.**
+🔴 **THE SENTENCE THIS FILE EXISTS FOR — ⛔ RESTATED, see §0 ②; the original over-claimed on the right-hand column:** **over CCL's FULL 8-print distribution every structure above is negative-EV, and stays negative at every post-print IV from 35% through 50%.** **Granting the direction for free, five of the six remain negative — `Nov-20 21P` turns POSITIVE at ≥45% (+5.8%), and 45.36% is that strike's OWN quoted IV.** ⛔ **My original dismissal of that cell was wrong, AND SO WAS THE CORRECTION TO IT — see §0-bis.** The November expiry does carry **~2–3 vol points** of event premium (not zero, as I then claimed), and the same-strike variance solve puts post-print `Nov-20` at **~42.2%**, essentially my original default. **The two defensible specifications disagree and the cell's SIGN flips between them ⇒ its honest status is INDETERMINATE, neither positive nor negative.** ✅ **The verdict never rested on it: the all-8 line is negative at 40/42/45.36/48/50%, and *"assume the direction is right"* is not an assumption anyone has before the fact.**
 
 **Sensitivity — the verdict survives the assumption sweep** (EV over the 5 down prints, post-print IV 35%→55%):
 
