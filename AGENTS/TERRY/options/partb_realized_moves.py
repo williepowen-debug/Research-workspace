@@ -26,7 +26,16 @@ from datetime import date
 from pathlib import Path
 
 N_PRINTS = 8
-CONVENTION = {"WAL": "AMC", "OZK": "AMC", "HBAN": "BMO", "ZION": "AMC"}
+# Reaction-day convention fallback, used ONLY when the vendor timestamp carries no
+# real clock. Adding a name here does NOT widen rule #18's measured envelope — the
+# envelope is whatever THIS tool prints for that name. Rule #18's 10%-OTM line was
+# measured on the regional-bank four and is name-class-specific by its own text.
+CONVENTION = {"WAL": "AMC", "OZK": "AMC", "HBAN": "BMO", "ZION": "AMC",
+              # cruise (added 2026-09-19, rule #18 re-measure for a new sector):
+              # CCL/RCL/NCLH all release results pre-open and hold the call the
+              # same morning => reaction is the SAME session.
+              "CCL": "BMO", "RCL": "BMO", "NCLH": "BMO"}
+DEFAULT_BASKET = ["WAL", "OZK", "HBAN", "ZION"]
 # The July book's strike depth at entry (Part A, 7/17 spots): what the puts NEEDED.
 BOOK_DEPTH = {"WAL": 15.5, "OZK": 13.8, "HBAN": 12.7}  # % OTM at 7/17
 
@@ -57,13 +66,14 @@ def reaction_day(ts, ticker):
     return ("next" if conv == "AMC" else "same"), f"conv:{conv}"
 
 
-def run():
+def run(basket=None):
     import pandas as pd
     import yfinance as yf
 
+    basket = basket or DEFAULT_BASKET
     today = date.today()
     out_rows, summaries = [], {}
-    for t in CONVENTION:
+    for t in basket:
         tk = yf.Ticker(t)
         try:
             ed = tk.earnings_dates
@@ -113,6 +123,7 @@ def run():
             }
 
     print(f"PART B — realized 1-day post-earnings moves (close-to-close), run {today.isoformat()}")
+    print(f"basket: {', '.join(basket)}  (default basket = rule #18's measured regional-bank four)")
     print(f"{'name':<6}{'print':<12}{'reaction':<12}{'attrib':<10}{'move%':>8}  note")
     for t, d, rd, how, mv, note in out_rows:
         mvs = f"{mv:+.2f}" if mv is not None else "  n/a"
@@ -128,4 +139,5 @@ def run():
 
 if __name__ == "__main__":
     _ensure_deps_or_reexec()
-    raise SystemExit(run())
+    args = [a.upper() for a in sys.argv[1:] if not a.startswith("-")]
+    raise SystemExit(run(args or None))
