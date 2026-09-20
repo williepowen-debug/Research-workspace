@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM final correction receipt checked; separate CRUISE work preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-20, CRUISE v3 disclosure review complete; separate SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — CRU-09 v3 disclosure design acceptable with bounded registration conditions.** [Review](runs/2026-09-20_0950_cruise-test-v3-review.md), CRUISE `2b35adb41`, HEAD `82b043192`. Mixed-case resolver fixed; CCL/RCL conjunction repairs verified. Support section 9b+4a/4b disclosure forecast at owner's subjective 25%, with exact freeze/cutoff and frozen source reference; no registration authorized by CATO. Separate channel table still treats merely naming NCLH as support and overclaims no possible contrary observation. Two live STATUS/TRADE yield-adjudication summaries remain to reconcile. No owner edits/sends, registrations or trade/grade changes. **Next: orient and await Will; no further design/implementation assigned.**
 
 **Latest — CRU-09 v2 still needs resolver correction before registration.** [Review](runs/2026-09-19_2215_cruise-test-v2-review.md), at `bad7c4e7e`. Section 9b omits mixed row 2 and still grades disclosure through the channel table. Other-operator attribution and improving prices plus silence do not exclude NCLH drag. Scope examples/section 10 retain inconsistent concentration, 30%, 08:00 terms. Targeted old numerical mechanism rules now superseded; adjacent WATCHLIST claim that a second CCL cut satisfies CCL-and-RCL remains wrong. 20% is owner-subjective, not independently calibrated. Recommend one independent disclosure resolver, separate channel evidence and reconciled examples. No owner edits/sends, registration or trade changes. **Next: orient and await Will/revised draft; no further work assigned.**
 
