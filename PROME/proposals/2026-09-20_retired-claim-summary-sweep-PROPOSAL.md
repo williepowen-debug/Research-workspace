@@ -1,0 +1,55 @@
+# PROPOSAL — extend the closeout consumer-check to retired-prose claims, completed checkboxes, and falsified standing negations
+
+**Status:** PROPOSED (drafted in the record per canon-draft discipline; NOT enacted — needs a cold read, then Will's ruling before any edit to root `CLAUDE.md` closeout or `PROME/CLOSEOUT.md`).
+**Author:** PROME · **Date:** 2026-09-20 · **Origin:** n=4 in ~24h (CRUISE + SAM); CRUISE wrote it into its closeout receipt as owed and handed the "closeout step?" call to PROME/Will. CATO review `AGENTS/CATO/runs/2026-09-20_1010_prome-punchlist-assessment.md` (059dbad8e) reframed it as an EXTENSION, not a new mechanism.
+
+---
+
+## The defect class (evidence)
+
+Four times in ~24h a correction or a new registration reached the **deep** artifact and left a **summary/consulted** surface stating the old thing as live:
+
+1. **CRUISE funding-gap retirement** — the model was retired in KB-CRU-075/076 and the source doc, but the STATUS VX-CRU-05 vector row, KB-CRU-075 Notes, and three WATCHLIST spots still read *"unverified ~$1.3B gap / or an equity raise"* / *"highest-value UNREAD document"*. PROME's sweep found 4; CRUISE found a 5th (a completed checkbox still unticked).
+2. **CRUISE registering CRU-09** immediately **falsified two standing *"no prediction registered"* lines** on its own STATUS — caught by trimming, not by any check.
+3. **SAM** — the brief still said *"TWO REMAIN UNADJUDICATED"* (a superseded live instruction) and MEMORY led with the withdrawn *"+2% blended"* rationale.
+4. Same class, same day, both desks.
+
+Common shape: **a ruling governs the next write, not the existing state** (`finding_a_ruling_governs_the_next_write_not_the_existing_state`), and **hand-fixing the named rows is not fixing the class** (`finding_hand_fixing_named_rows_is_not_fixing_the_class`). Vigilance did not fix it four times running.
+
+## What is ALREADY covered (so we extend, not duplicate — CATO point 3)
+
+Root `CLAUDE.md` closeout **1c** + `scripts/consumer_check.py` already require a consumer sweep when a session supersedes a **figure** (threshold, flip level, split, band), including a `--self` scan of the author's own dir. That control is tuned for **numeric** values and cross-agent routing. It does **not** catch: retired **prose** claims, completed **checkboxes/tasks**, or standing **negations** a new registration falsifies — and it says nothing about verifying the replacement's **meaning**.
+
+## The proposed extension (narrow)
+
+At closeout, when a session **retires/supersedes a claim** or **registers a new prediction/commitment**, it sweeps its **own** consulted surfaces (STATUS, TRADE, KB/FLOW/VX summary rows, WATCHLIST, the operator brief, MEMORY) for, and resolves:
+- (a) the retired claim still stated as **current** (not merely mentioned — a labelled retraction is fine);
+- (b) **completed** tasks/checkboxes still shown open;
+- (c) standing **negations** now false (*"no prediction registered"*, *"N remain unadjudicated"*).
+- (d) **and confirms the replacement reads correctly in meaning** — not just that the old string is gone.
+
+Mechanism: **extend the existing consumer-check step / `consumer_check.py`** (grep-assisted discovery over the enumerated own-surface list), NOT a new standalone gate. ⚠️ **Grep is discovery, not proof (CATO):** a hit may be a correct retraction; an absence does not prove the surviving prose is right. The instrument surfaces candidates; the session verifies meaning.
+
+## Acceptance conditions (written first, in the defect's own terms — WQ-229)
+
+1. After a retirement, **no own summary surface a reader travels still asserts the retired claim as current** (a labelled retraction or a correctly-superseded row passes; a bare live-shaped restatement fails).
+2. After a registration, **no standing negation on an own surface contradicts the new state.**
+3. **Completed tasks/checkboxes reflect completion.**
+4. The check **flags the meaning question** (replacement verified), and does **not** treat a zero-grep as proof of correctness.
+5. It is an **extension of the existing consumer-check**, adds no parallel gate, and reuses the enumerated-surface list.
+6. **False-positive tolerance:** a correctly-labelled retraction/retirement must NOT be flagged as live (else the check becomes noise and gets overridden — `finding_a_check_that_only_advises_is_overridden`).
+
+## Five neighbours (WQ-229 — considered, N/A justified)
+
+- **Ordinary:** a plain retirement (CRUISE gap). Covered — the core case.
+- **Overlap:** a token that is retired in one sense but live in another (retired *"$1.3B gap"* vs live *"$1.3B revolver capacity"*). **This is why grep≠proof** — a blind grep-and-delete would nuke the live one; the meaning-check (d) is the guard. Load-bearing, not N/A.
+- **Wrong owner:** the stale surface is **another agent's** file (PROME could only packet CRUISE, not edit). Scope of THIS control = the authoring session's **own** surfaces; cross-agent stale stays with the existing `consumer_check` → packet flow. Justified boundary.
+- **Missing information:** a session may not know all its own summary surfaces → the extension must carry (or point at) a **per-desk enumerated surface list**, or it silently under-scans.
+- **Concurrent activity:** another session edits the surface mid-sweep → handled by the existing shared-tree commit discipline; the sweep binds the authoring session's own commit set, not the live tree.
+
+## Completion state (WQ-229 — not to be merged)
+
+This proposal is **drafted only** — not IMPLEMENTED, not TESTED, not VERIFIED. Next steps, in order: (1) cold read of this record; (2) Will's ruling on whether it extends closeout canon; (3) if ruled, extend `consumer_check.py` + the closeout step with a test that fails against pre-fix behaviour on the four evidence cases above; (4) independent reader devises its own counterexample before it is called fixed (CONSEQUENTIAL — it touches a shared closeout control). Prefer promoting/repairing the existing control over any new one.
+
+## Open, not part of this proposal
+CATO flags the **CRUISE funding model's missing cash-flow timing** as still unresolved (the deposits-ahead-of-sailing / trailing-OCF-understates-stress limitation, documented in KB-CRU-076 but not modelled). CRUISE domain item, carried — noted here only so it is not lost.
