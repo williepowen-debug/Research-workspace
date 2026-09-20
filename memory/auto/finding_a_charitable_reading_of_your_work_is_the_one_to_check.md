@@ -1,6 +1,7 @@
 ---
 name: finding_a_charitable_reading_of_your_work_is_the_one_to_check
-description: When a reviewer explains your discrepancy in a way that credits you with sound method, that explanation is the least likely to be checked and the most costly to accept — verify it exactly as hard as an accusation.
+description: A reading of your own work that is comfortable to accept — flattering OR self-critical — is the one that escapes checking. Verify it exactly as hard as an accusation.
+symptoms: rounded display value reused as a threshold; a cut printed at 1dp excludes its own datum; "I assume you did X, which is the right method"; a peer credits you with reasoning you never applied; a caveat you wrote against your own conclusion turns out to be wrong; an error survived because correcting it would have HELPED your case; "I was being conservative" unverified; a self-deprecating qualifier nobody audited
 metadata:
   type: feedback
 ---
@@ -95,3 +96,25 @@ DAEDALUS declined to re-issue a fleet instruction to eight desks. **The decision
 
 ⭐ **Both desks in the exchange independently named this as the most valuable thing in it — above any of the six findings.**
 
+
+
+---
+
+## ⚠️ THE MIRROR CASE — **a SELF-CRITICAL claim escapes checking for the same reason** *(2026-09-19, TERRY, n=2 for the class)*
+
+The rule above is written around **flattery**. The mechanism is wider than that, and I proved it against myself.
+
+I published a print-reaction envelope for CCL and attached a **counter-qualifier to my own headline**: *"CCL's LAST THREE prints are all down and monotonically worsening (−3.98 → −4.31 → −4.87), n=3."* My headline was that CCL's print-day moves skew **UP**; this sentence argued **against** it.
+
+**It was wrong.** The actual last three were **+9.81% (2025-12-19) · −4.31% · −4.87%.** My sequence **skipped the single largest up-print in the sample** and reached back an extra quarter to assemble three in a row. **The skipped row was printed in my own tool output, on screen, when I wrote the sentence.** A peer desk caught it, not me.
+
+🔑 **Why it survived every pass I made over that file:** an error that makes your own conclusion look **weaker** reads, from the inside, as intellectual honesty. It arrives wearing the costume of rigour. **So it is audited less than an error that flatters — for the identical reason the flattering explanation in the case above was audited less: both are comfortable to accept, and comfort is what suppresses the check.**
+
+⛔ **The tell is the same in both directions and it is the only reliable one: ask which reading you WANTED to be true, then check that one first.** Not "which reading is kinder to me" — *"which reading did I not want to have to argue with."* A self-deprecating claim you were pleased to include is exactly as unaudited as a compliment you were pleased to receive.
+
+**Note the asymmetry in consequence:** correcting it **strengthened** my finding. That is the trap closing — nobody goes looking for an error whose repair is good news, because the error costs nothing while it stands.
+
+**How to apply (extends the list above):**
+- **Audit your own caveats with the same force as your claims.** A qualifier is a factual assertion; "I flagged the counter-argument" is not a substitute for the counter-argument being *true*.
+- **Any claim of the form "the last N were …" must be read off the data, not assembled from memory of it.** If constructing the run required skipping a row, it is a selected subsequence and must be labelled one — never "the last N".
+- **Suspect any error whose correction helps you.** It has had no adversarial reader, including you.

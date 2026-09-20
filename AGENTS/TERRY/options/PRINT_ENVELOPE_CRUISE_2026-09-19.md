@@ -185,7 +185,9 @@ Put IV, own pull 2026-09-18: **`Dec-18-26` 50.20% · `Jan-15-27` ~50.2% · `Mar-
 
 The multi-quarter analogue of the 8-print base rate: NCLH's **own empirical overlapping horizon returns**, payoff valued **at expiry**, debits at the **ask**, **no early exit credited** (conservative).
 
-| structure | debit | E[payoff] | **EV (10y)** | **EV (ex-2020)** | P(profit) |
+⛔ **BEFORE READING THE `P(profit)` COLUMN: it is WITHDRAWN as a decision input — see §5.6.** Independent windows behind it are only `35 / 17 / 11 / 11` with 95% CIs spanning `10–57%`. **The column is retained to show the method, never as odds.** ✅ **The EV columns' SIGN is what survives** (`P(EV>0) ≤ 3%`, §5.4).
+
+| structure | debit | E[payoff] | **EV (10y)** | **EV (ex-2020)** | ~~P(profit)~~ **(withdrawn, §5.6)** |
 |---|---:|---:|---:|---:|---:|
 | `Dec-18-26 14P` (3m) | $1.35 | 1.07 | −19.6% | **−20.5%** | 28.2% |
 | `Mar-19-27 14P` (6m) | $1.88 | 1.39 | −22.2% | **−25.9%** | 28.6% |
