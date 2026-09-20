@@ -1,0 +1,121 @@
+{
+  "reviewed_commit": "cb863048102e7518d1451e5558c676bcac989650",
+  "initial_followup_head": "eed255e424f9b604963e56b1d87c6af8ae518639",
+  "original_review_commit": "80622311e02bebf4bcc13531ce5fc332c64e8275",
+  "strike_rows": 119,
+  "counts": {
+    "08": {
+      "exact_refinery": [
+        "RU-20260801-UFANEFTEKHIM",
+        "RU-20260802-BASHNEFT-UNPZ",
+        "RU-20260805-BASHNEFT-NOVOIL",
+        "RU-20260806-YAROSLAVL-YANOS",
+        "RU-20260808-ILSKY",
+        "RU-20260808-SYZRAN",
+        "RU-20260809-SARATOV",
+        "RU-20260810-TANECO-NIZHNEKAMSK",
+        "RU-20260811-ORSK",
+        "RU-20260813-SALAVAT",
+        "RU-20260819-BASHNEFT-UNPZ-RESTRIKE",
+        "RU-20260820-TANECO-RESTRIKE",
+        "RU-20260802-SARATOV"
+      ],
+      "substring_refinery": [
+        "RU-20260801-UFANEFTEKHIM",
+        "RU-20260802-BASHNEFT-UNPZ",
+        "RU-20260805-BASHNEFT-NOVOIL",
+        "RU-20260806-YAROSLAVL-YANOS",
+        "RU-20260808-ILSKY",
+        "RU-20260808-SYZRAN",
+        "RU-20260809-SARATOV",
+        "RU-20260810-TANECO-NIZHNEKAMSK",
+        "RU-20260811-ORSK",
+        "RU-20260813-SALAVAT",
+        "RU-20260819-BASHNEFT-UNPZ-RESTRIKE",
+        "RU-20260820-TANECO-RESTRIKE",
+        "RU-20260802-SARATOV"
+      ]
+    },
+    "09": {
+      "exact_refinery": [
+        "RU-20260906-RYAZAN",
+        "RU-20260907-PERM-LUKOIL",
+        "RU-20260907-TATARSTAN",
+        "RU-20260908-SARATOV",
+        "RU-20260911-SARATOV",
+        "RU-20260913-SLAVYANSK-ECO",
+        "RU-20260913-TANECO",
+        "RU-20260915-SYZRAN",
+        "RU-20260917-YANOS-YAROSLAVL",
+        "RU-20260920-MOSCOW-REFINERY"
+      ],
+      "substring_refinery": [
+        "RU-20260906-RYAZAN",
+        "RU-20260907-PERM-LUKOIL",
+        "RU-20260907-TATARSTAN",
+        "RU-20260908-SARATOV",
+        "RU-20260911-SARATOV",
+        "RU-20260913-SLAVYANSK-ECO",
+        "RU-20260913-TANECO",
+        "RU-20260915-SYZRAN",
+        "RU-20260917-YANOS-YAROSLAVL",
+        "RU-20260911-VOLGOGRAD-AREA",
+        "RU-20260920-MOSCOW-REFINERY"
+      ]
+    }
+  },
+  "negative_row": [
+    {
+      "strike_id": "RU-20260911-VOLGOGRAD-AREA",
+      "Date": "2026-09-11",
+      "Theater": "RU-UA",
+      "Attacker": "Ukraine",
+      "Facility": "Area strike near the Volgograd Oil Refinery (Lukoil-Volgogradneftepererabotka) \u2014 \u26d4 THE REFINERY ITSELF IS NOT ESTABLISHED AS HIT",
+      "Region": "Volgograd, Krasnoarmeysky district",
+      "FacilityOperator": "Lukoil",
+      "Type": "area-strike(refinery adjacent)",
+      "Capacity": "n/a \u2014 no damage to the refinery established.",
+      "Status": "A residential building and an unnamed industrial facility hit by missile debris; 2 injured. \u26d4 REUTERS EXPLICITLY DECLINED TO CONFIRM THE REFINERY WAS HIT. A 'massive fire at the refinery' appears only in a single secondary aggregator (Don's Weekly 9/14) and is NOT corroborated.",
+      "Strike#": "n/a \u2014 not scored as a refinery strike",
+      "Channel": "\u26d4 UNSCORED. Does NOT reset C1: a refinery-adjacent area strike is not a 'refinery-class row' on the letter's own words.",
+      "ReturnToService": "",
+      "Conf": "F5 \u2014 district strike HIGH; refinery damage NOT ESTABLISHED",
+      "Source": "Militarnyi 2026-09-19 (event 9/11); Don's Weekly 2026-09-14 (single secondary, uncorroborated) \u2014 OSPREY backfill sweep 2026-09-19",
+      "Notes": "\u26a0\ufe0f ROWED DELIBERATELY AS A NEGATIVE, so the absence of a Volgograd refinery row stops being ambiguous: this desk looked, and the refinery hit is NOT ESTABLISHED. \u26d4 LOAD-BEARING OPEN QUESTION: Reuters 9/16 puts Volgograd at ~25% of DESIGN CAPACITY among 'three of Russia's largest diesel refineries', and the CAUSAL STRIKE DATE FOR THAT DEGRADATION IS UNRESOLVED. If it is a strike this ledger does not hold, that is a second window-boundary hole. Verification sent 2026-09-19; OWED-41."
+    }
+  ],
+  "changed_files": {
+    "AGENTS/OSPREY/LESSONS.md": {
+      "sha256_at_commit": "7b6d89e661050fef01da60d5a85d1dfffc50f0651cdaf1dc5a048095e111fb5c",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/NEXUS_BRIEF.md": {
+      "sha256_at_commit": "cd0fe2a7fe935a73e457a4526a99d6b0a512b6155a741c44a412d8ff88cab00a",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/SCRATCH.md": {
+      "sha256_at_commit": "641b6e319eb709844ed91857787087240c0f20b0645bf56db126a2ac72fd99fa",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/STATUS.md": {
+      "sha256_at_commit": "44b8940709e9136bb1ea3d4b43525b9362da66be1af5587b978d8020fb7af196",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/archive/STATUS_ROTATED_2026-09-19.md": {
+      "sha256_at_commit": "b0dc995f52d51657fdb31bd75faef99db94a0c443519015905c6c4d417f8606b",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": {
+      "sha256_at_commit": "59cb57fea3d77a84aaf98ea0cd868173a957237bc905a933ae8c4599023c28ab",
+      "live_matches_commit": true
+    },
+    "AGENTS/OSPREY/workbook/KB.tsv": {
+      "sha256_at_commit": "2775f3de1509175efb84166065b7d26112e051c90ba06825cd1d785a52380457",
+      "live_matches_commit": true
+    }
+  },
+  "checks": {
+    "scope": "Local correction receipt and propagation; no new external-source authentication or trigger adjudication",
+    "shared_continuity": "Untouched; concurrently edited by another CATO session"
+  }
+}
