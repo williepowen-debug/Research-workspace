@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM correction rechecked; separate CRUISE draft review preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, CRUISE v2 draft reviewed; separate SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — CRU-09 v2 still needs resolver correction before registration.** [Review](runs/2026-09-19_2215_cruise-test-v2-review.md), at `bad7c4e7e`. Section 9b omits mixed row 2 and still grades disclosure through the channel table. Other-operator attribution and improving prices plus silence do not exclude NCLH drag. Scope examples/section 10 retain inconsistent concentration, 30%, 08:00 terms. Targeted old numerical mechanism rules now superseded; adjacent WATCHLIST claim that a second CCL cut satisfies CCL-and-RCL remains wrong. 20% is owner-subjective, not independently calibrated. Recommend one independent disclosure resolver, separate channel evidence and reconciled examples. No owner edits/sends, registration or trade changes. **Next: orient and await Will/revised draft; no further work assigned.**
 
 **Latest — CRU-09 draft review complete, revise before registration.** [Review and concrete proposed wording](runs/2026-09-19_2154_cruise-test-draft-review.md), snapshot `615590da0`. Valid distinction between disclosure forecast and channel evidence, but generic competitor language cannot identify NCLH; improving Caribbean pricing can coexist with competitive drag and currently fires both outcomes. Capacity/concentration/horizon scope needs one definition; silence needs complete source coverage and freeze must precede actual release. 30% remains owner's subjective estimate to reconfirm after wording settles. No CRU-09 registered; CRU-07/08 unchanged. Only CATO report/continuity authored, no owner edits/sends or trade changes. **Next: orient and await Will/revised draft; no further task assigned.**
 
