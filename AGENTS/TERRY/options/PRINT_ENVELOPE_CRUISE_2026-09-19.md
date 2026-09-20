@@ -201,3 +201,65 @@ The multi-quarter analogue of the 8-print base rate: NCLH's **own empirical over
 
 ### 4.4 · Verdict — unchanged in direction, narrowed in reason, and with the ask named
 **Still NO CARD.** ⛔ **But the reason is now specific: at every tenor tested the option is priced `20–35%` above its own unconditional base rate, and the thesis must carry that whole gap.** ⇒ **The one input that could change it is the one nobody holds: size the Canadian-tourism exposure for NCLH, and establish 2027 fuel coverage from the 10-K/10-Q.** **Both are routing asks to CRUISE/CARL/BRENT, not TERRY findings.**
+
+---
+
+## 5 · ⛔ HOW GOOD ARE §4's NUMBERS? — **Will asked; the answer RETRACTS one of them as a decision input.** *(2026-09-20)*
+
+**Question put to the desk: *"How confident are we regarding this chance of profit? How is it determined?"*** Answered by stress-testing rather than by restating.
+
+### 5.1 · What `P(profit)` literally is — no model in it at all
+> `P(profit)` = the fraction of historical windows in which the put finished worth **more than the ask paid** = **`P(return over the horizon < breakeven)`**, where `breakeven = (strike − ask)/spot − 1`.
+
+**There is no Black-Scholes here, no volatility input and no distributional assumption.** It is a raw count: *how often did NCLH actually fall that far, over that many trading days, in the last decade?* **Its entire content is the historical sample — so its reliability is the reliability of that sample, and nothing else.**
+
+### 5.2 · 🔴 THE SAMPLE IS FAR SMALLER THAN THE ROW COUNT SUGGESTS, AND THE CONFIDENCE INTERVALS ARE RUINOUS
+
+| structure | breakeven | overlapping n | P quoted | **independent n** | **P (indep)** | **95% CI (Wilson)** | winners |
+|---|---:|---:|---:|---:|---:|---|---:|
+| `Dec-18-26 14P` | −10.41% | 2,198 | 28.2% | **35** | 25.7% | **14.2% – 42.1%** | k=9 |
+| `Mar-19-27 14P` | −14.16% | 2,135 | 28.6% | **17** | 23.5% | **9.6% – 47.3%** | k=4 |
+| `Jun-17-27 13P` | −21.53% | 2,072 | 24.7% | **11** | 27.3% | **9.7% – 56.6%** | **k=3** |
+| `Jun-17-27 15P` | −15.01% | 2,072 | 31.3% | **11** | 36.4% | **15.2% – 64.6%** | k=4 |
+
+⛔ **The nine-month figures rest on THREE AND FOUR INDEPENDENT OBSERVATIONS. A 95% interval of 10%–57% is not a probability, it is the absence of one.** ⚠️ **And the point estimate itself moves with the counting method** (28.2% overlapping vs 25.7% independent) — a tell that the overlap was doing work it should not have been.
+
+### 5.3 · 🔴 THE EV IS DOMINATED BY ONE OR TWO WINDOWS
+
+| structure | independent windows | finished ITM | **top-2 windows as a share of ALL payoff** |
+|---|---:|---:|---:|
+| `Dec-18-26 14P` | 35 | 18 | 36.9% |
+| `Mar-19-27 14P` | 17 | 9 | **52.2%** |
+| `Jun-17-27 13P` | 11 | 4 | **68.1%** |
+| `Jun-17-27 15P` | 11 | 6 | 58.4% |
+
+**At nine months, two windows out of eleven carry two-thirds of the entire expected payoff.** Remove the 2022 drawdown and the estimate is a different number.
+
+### 5.4 · ✅ BUT THE **SIGN** SURVIVES EVERYTHING — block bootstrap resampling YEARS (preserves within-year autocorrelation), 2,000 draws
+
+| structure | EV point | **90% CI** | **P(EV > 0)** |
+|---|---:|---|---:|
+| `Dec-18-26 14P` | −20.5% | [−51.8%, **−2.3%**] | **3.0%** |
+| `Mar-19-27 14P` | −25.9% | [−72.5%, **−10.0%**] | **2.1%** |
+| `Jun-17-27 13P` | −34.9% | [−81.7%, **−29.7%**] | **0.0%** |
+| `Jun-17-27 15P` | −23.4% | [−66.6%, **−9.3%**] | **2.0%** |
+
+🔑 **Every 90% interval EXCLUDES ZERO.** ⇒ **The DIRECTION of the verdict is well supported; the MAGNITUDE is not.** *"Negative-EV against its own history"* is defensible. *"−25.9%"* is a point estimate inside a 60-point band and must never be quoted bare.
+
+### 5.5 · ✅ One choice checked and found NOT load-bearing
+Excluding 2020 moves EV by only **1–6pp** and never changes a sign (`Dec` −19.6 vs −20.5 · `Mar` −22.2 vs −25.9 · `Jun 13P` −28.6 vs −34.9 · `Jun 15P` −22.0 vs −23.4). **The COVID-exclusion judgment does not decide the answer.**
+
+### 5.6 · ⛔ THE RULING, AND IT RETRACTS SOMETHING I PUBLISHED
+
+> 🔴 **`P(profit)` IS WITHDRAWN AS A DECISION INPUT. Do not cite the 25–31% figures.** They are three-to-nine-observation tail estimates with intervals spanning 10%–57%. **§4's table carries them and they should be read as illustrative of method, never as odds.**
+> ✅ **What survives and is quotable: the SIGN of the EV, at every tenor, with `P(EV>0) ≤ 3%`. And the ordering — longer tenor is worse — holds in every specification tested.**
+> ⚠️ **`P(profit)` was never the decision-relevant statistic anyway:** a cheap tail option can have low `P(profit)` and still be `+EV`. **EV is the number that decides; `P(profit)` is the number that feels like it does.**
+
+### 5.7 · Four limits no resampling can repair — named, not buried
+1. **UNCONDITIONAL.** A random start date over ten years. **Today is not random** (−43.6% from peak, multi-year low, into a named hedge cliff). **This is the limit that cuts toward Will's thesis and it is not quantified here.**
+2. **REGIME / SAME-COMPANY.** NCLH's share count roughly doubled through the COVID dilution and its leverage was transformed. **Ten-year returns are not ten years of the same instrument.**
+3. **NO EARLY EXIT CREDITED.** Payoff valued at expiry only. A managed position exits with time value ⇒ **this biases the estimate DOWNWARD. Conservative, but a real bias, and it flatters the refusal.**
+4. **~10 YEARS IS ALL THERE IS.** NCLH listed in 2013. **The sample cannot be enlarged, only re-cut.**
+
+### 5.8 · Contrast worth keeping — not every figure in this file is this weak
+**The CCL `implied 6.94% vs realized RMS 5.53% = 1.25×`** result (§0-bis) is **better determined than any of the above**: it compares two directly measured quantities rather than estimating a tail probability, and needs no distributional assumption. ⚠️ **It is still `n=8` on the realized leg, and `J` is model-implied from two quotes — so it is *better*, not *strong*.**
