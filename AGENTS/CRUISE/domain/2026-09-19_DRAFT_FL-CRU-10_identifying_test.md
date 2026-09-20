@@ -76,7 +76,8 @@ All four bind:
 
 | Observation | Channel |
 |---|---|
-| Norwegian named **as a cause** of Caribbean pricing/yield pressure, or behaviour described that is uniquely Norwegian's | ✅ **SUPPORTED** |
+| Norwegian named **as a cause** of Caribbean pricing/yield pressure, or behaviour described that is uniquely Norwegian's **AND affirmatively attributed as a CAUSE of that pressure** | ✅ **SUPPORTED** |
+| ⛔ *(CLARIFIED 2026-09-20, CATO R3 — literal ambiguity closed, predicate unchanged in substance)* **IDENTIFICATION ALONE IS NOT SUPPORT.** A statement that **identifies a uniquely Norwegian promotion while DENYING its effect** — e.g. *"Norwegian's semi-annual sale did not affect our Caribbean pricing"* — **scores ⛔ CONTRADICTED, never SUPPORTED.** The second limb always required **affirmative causal attribution**; it did not say so on its face. | — |
 | Norwegian named and **explicitly EXCLUDED** as a cause (*"Norwegian's promotions have not affected our pricing"*) | ⛔ **CONTRADICTED** — this is real contrary evidence, not silence |
 | Caribbean pricing firm/improving, **no** competitive-drag language anywhere in a complete corpus | 🟡 **WEAKENED** — **absence of mention is not absence of the mechanism** |
 | Competitive pressure attributed to **another named operator**, no Norwegian link | ⚠️ **UNRESOLVED** — another operator's involvement does not exclude Norwegian's |
@@ -148,7 +149,8 @@ Norwegian's next print (**vendor-estimated 2026-11-04, ⛔ NOT confirmed at prim
 ### 9b · THE ROW, VERBATIM
 > **`CRU-09` — "At Carnival's Q3 FY26 print (2026-09-29), reviewing the COMPLETE corpus — earnings release, prepared remarks and Q&A — Carnival's MANAGEMENT, IN ITS OWN WORDS, attributes yield or pricing pressure FOR A NAMED PERIOD to competitor discounting or promotional behaviour (not capacity growth alone), in CARIBBEAN-CONCENTRATED form as defined in §4b."**
 > **Confidence: 25%** · **FREEZE DEADLINE: 2026-09-21 09:30 ET** (before Monday's open — removes all timing risk) · **GRADING DEADLINE: 2026-10-03 23:59 ET** · **Resolver: §4a and nothing else.**
-> **FROZEN DEFINITION = this file at the commit that registers `CRU-09`. Any later edit to §4a/§4b is a NEW row, never an amendment to this one.** CONFIRMED / FAILED / **NO-VERDICT** (incomplete coverage or genuinely ambiguous wording; **does not enter the calibration record**).
+> **FROZEN DEFINITION = this file at the commit that registers `CRU-09` (`6639cbfa8`), AS CORRECTED BY THE ERRATUM BELOW. Any later edit to §4a/§4b is a NEW row, never an amendment to this one.**
+> ⛔ **ERRATUM — ADDITIVE, READ BEFORE GRADING (CATO R3, Will-approved 2026-09-20):** the frozen version at **`6639cbfa8`** contains a **WRONG worked example** in §9a — it mapped *"Norwegian named and explicitly excluded as a cause"* to **CONFIRMED**, which contradicts the registered predicate, since a **denial is not an attribution of pressure**. **The controlling correction is at `62795cc17`** (§9a row → **FAILED**; header contradiction removed; §9d corrected), **plus the §4c clarification at this commit.** ⛔ **THE PREDICATE, THE 25%, THE RESOLVER'S SCOPE AND EVERY DEADLINE ARE UNCHANGED** — this erratum fixes EXAMPLES, not the row. **A grader following the frozen pointer must read the erratum; the examples at `6639cbfa8` alone do NOT control.** CONFIRMED / FAILED / **NO-VERDICT** (incomplete coverage or genuinely ambiguous wording; **does not enter the calibration record**).
 > ⛔ **Carries NO automatic implication for `FL-CRU-10`.**
 
 ### 9c · WHY 25%, RECONFIRMED AGAINST THIS FINAL DEFINITION

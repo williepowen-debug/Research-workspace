@@ -11,9 +11,11 @@
 > ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
 > **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **Three inferences WITHDRAWN** [KB-CRU-112]. **(1) "NCLH has no bond-market access"** reads an **absence of issuance as an inability** — it did not issue in this window and funds via a secured revolver; that is a **choice and a structure**, not a demonstrated access limit (it filed an unsecured financing announcement in 2025). **(2) "Funded unsecured two weeks earlier" is a DATE ERROR — 2026-08-06 to the 9/18 close is 6.1 weeks**, and August access does not prove September equity weakness excludes credit risk, so **"a demand-and-pricing K, not a credit-quality K" is an over-read.** **(3) §5's coupon comparison cannot show a re-rating** — seasoned **coupons are not current yields or matched spreads**, and §Owed already concedes no secondary spreads were obtained. ✅ **Survives:** the dated T+105 transaction and all its terms; RCL's zero secured debt and CCL's $22.4B collateral pool, both at primary; the liquidity ratios **as dated liquidity-to-STATED-debt comparisons** — with 'gross debt' **not standardised** (NCLH carrying/principal gap $432.9M unreconciled) and as-of dates a month apart; and §4's warning against citing average cost of debt, which was right.
 >
-> **Every withdrawn claim below is now STRUCK IN PLACE** — the original wording is kept in ~~strikethrough~~ with its replacement on the same line, so a reader or a `grep` that lands mid-document meets the retraction **at the claim**, not fifty lines above it.
+> **Withdrawn claims below are STRUCK IN PLACE where they have been found** — the original wording is kept in ~~strikethrough~~ with its replacement on the same line, so a reader or a `grep` that lands mid-document meets the retraction **at the claim**, not fifty lines above it.
 >
 > ⛔ **This paper originally carried the corrections in this banner ONLY, with the body left intact. That was wrong and TERRY caught it** (2026-09-20 PM): a grep for a withdrawn phrase landed on the false line and never travelled up. **A correction that does not travel with the claim leaves two live claims.** Fixed by striking in place.
+>
+> ⛔ **NO COMPLETENESS IS CLAIMED FOR THIS DOCUMENT, AND THE RECEIPT THAT USED TO SIT HERE WAS FALSE TWICE.** A phrase sweep (2026-09-20 PM) said every instance was struck; a claim-unit sweep then found **six more**, including the title. A second receipt said the same; **CATO then found nine more across three papers** (report `d41b8a` R2), which are fixed above. **What is asserted is what was CHECKED, not what EXISTS:** withdrawn phrases, paraphrases, headings, titles, cross-references and counts were swept; **the filename was not renamed** (see the title note). **Assume residuals until a reviewer who did not write this says otherwise.**
 
 
 ## 1. The headline find: RCL raised $1.25B of 8-year UNSECURED money at T+105 — inside this desk's dark window
@@ -48,7 +50,7 @@ Against CCL's own 10-Q at **5/31/2026** (acc `0000815097-26-000096`, §Collatera
 |------|----------|----------|
 | **1** | **RCL** | Zero secured debt. Issues 8-yr unsecured at T+105. Revolver capacity **raised** $250M in July 2026 (accordion exercised). |
 | **2** | **CCL** | **$22.4B collateral pool still pledged at 5/31/26**; released 6/25/26 on the second IG rating; **7.000% First-Priority SECURED notes redeemed 8/15/26 at 103.5%** (KB-CRU-083). CCL is arriving where RCL already is. |
-| **3** | **NCLH** | No bond-market access in the window. Base-case funding is a **revolver draw** (KB-CRU-075). **4 of 16 ordered ships are "effective upon financing."** |
+| **3** | **NCLH** | ⛔ ~~*No bond-market access in the window*~~ **→ CORRECTED (KB-CRU-112): DID NOT ISSUE in the window** — an observed non-issuance, **not a demonstrated inability** (it filed an unsecured financing announcement in 2025). Base-case funding is a **revolver draw** (KB-CRU-075). **4 of 16 ordered ships are "effective upon financing."** |
 
 ## 3. Liquidity-to-debt — computed, and NCLH is a third of its peers
 
@@ -81,7 +83,7 @@ Against CCL's own 10-Q at **5/31/2026** (acc `0000815097-26-000096`, §Collatera
 
 ## 5. Two dated bounds this sweep puts on `FL-CRU-10`
 
-- **RCL Q2 10-Q, verbatim:** revenue rose *"primarily due to an increase in capacity and **higher pricing** in 2026 compared to the same period in 2025"*; and a *"$155 million increase driven by **higher pricing** on both existing ships and new ships."* ⇒ **Through 6/30/26, NCLH's discounting had NOT reached RCL's realised pricing.** No contradiction with WF/Stifel — their claims are about **Q4-26/Q1-27** — but it dates the channel: whatever is happening, it had not shown in a third-party operator's *realised* Q2 numbers.
+- ⛔ **NARROWED (CATO R2):** higher realised pricing at RCL **does NOT prove an adverse competitive effect was absent** — pricing can rise and still fall short of its counterfactual, and it **cannot date the channel's onset**. Read the quote as a **bound on what had shown in realised numbers**, not as a refutation. **RCL Q2 10-Q, verbatim:** revenue rose *"primarily due to an increase in capacity and **higher pricing** in 2026 compared to the same period in 2025"*; and a *"$155 million increase driven by **higher pricing** on both existing ships and new ships."* ⇒ **Through 6/30/26, NCLH's discounting had NOT reached RCL's realised pricing.** No contradiction with WF/Stifel — their claims are about **Q4-26/Q1-27** — but it dates the channel: whatever is happening, it had not shown in a third-party operator's *realised* Q2 numbers.
 - **The 4-of-16 financing contingency** is the supply-side tell: NCLH's capacity growth is conditional in a way its peers' is not.
 
 ## 6. Checked and NOT a find (recorded so it is not re-opened)
@@ -95,7 +97,7 @@ Against CCL's own 10-Q at **5/31/2026** (acc `0000815097-26-000096`, §Collatera
 ## What this changes
 
 - **`VX-CRU-05` gains a capital-access leg** (liq/debt 10.0% vs 26–30%) that is independent of guide cuts and independent of the tape.
-- **`VX-CRU-06` context:** the sector common-mode de-rate is happening while RCL's credit is *improving* (new 2034 paper prices inside its own 2032s at 6.250% and 2033s at 6.000%). Equity de-rate + credit re-rate in the same name, same period.
+- ⛔ **WITHDRAWN (KB-CRU-112) — struck in place:** ~~*`VX-CRU-06` context: the sector common-mode de-rate is happening while RCL's credit is IMPROVING (new 2034 paper prices inside its own 2032s at 6.250% and 2033s at 6.000%)*~~ ✅ **REPLACEMENT: seasoned COUPONS are not current yields or matched spreads, so this comparison cannot establish a re-rating.** No secondary spreads were obtained. ~~00%). Equity de-rate + credit re-rate in the same name, same period.
 - **No trade.** Nothing here is an entry, a level, or a card. It is evidence about which operator can absorb a bad print.
 
 ## Owed / not done
