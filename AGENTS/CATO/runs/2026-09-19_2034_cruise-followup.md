@@ -31,6 +31,8 @@
 
 ## F3 — MEDIUM: the dividend repair is valid, but the new daily wording and forward instruction are wrong
 
+**Later disposition, 2026-09-19:** Will delivered PROME's correction and prospective TOTAL RETURN ruling; [R6 now carries the dated receipt](2026-09-19_1808_cruise-review.md). At HEAD `d706da435`, WQ-222, the processed ruling packet and STATUS/TRADE encode the chosen basis. The basis decision is therefore closed, not awaiting Will. CRUISE's `9cea86db8` correction packet explicitly accepts the persistent wedge and daily/cumulative distinction. This is a bounded ruling/correction receipt, not independent closure of every F3 consumer or the other findings; later owner repairs need their own assigned re-review. The findings below retain their original snapshot scope.
+
 Royal Caribbean's [dividend history](https://www.rclinvestor.com/financial-info/dividend-history/) confirms the $1.50 distribution with September 17 record date; [NYSE's normal T+1 convention](https://www.nyse.com/trade/ex-date-dividends) supports that ex-date. The cash-dividend adjustment is **0.564865pp**, and the two sign changes and approximately −4.932% RCL weekly return reproduce from the owner's price inputs. This usefully qualifies [my earlier R6](2026-09-19_1808_cruise-review.md), whose numbers were expressly price-based owner-input arithmetic, not independent market-data certification.
 
 However:
