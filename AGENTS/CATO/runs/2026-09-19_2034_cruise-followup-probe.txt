@@ -1,0 +1,33 @@
+Committed review snapshot: b6e36086d891b5bc016c4fece317c07606c1ae98
+committed sha256 2448e95eee4e6d0ee4b1c07ed015c06828498d301a9b2087e665e8c660fb16f7 AGENTS/CRUISE/STATUS.md
+committed sha256 0d41571fb8d656c4caa8b5262d9e76bcf2306e2f5d9984f2d464f92fcf0d40b2 AGENTS/CRUISE/TRADE.md
+committed sha256 4b87444aac86688bd244c43853b2c3689e40bd7ebff55746f5d19d6422dfe2ca AGENTS/CRUISE/WATCHLIST_CCL_PREANNOUNCE.md
+committed sha256 b6b80c0e3d0d53ed18e3ba2209054d6b6839b6778a56329302d31da2c3a97039 AGENTS/CRUISE/workbook/KB.tsv
+committed sha256 66a610404fdf2794a2d77abb45e623236c9f442a3e9e5c0a403ffe541153cf8d AGENTS/CRUISE/workbook/FLOW.tsv
+committed sha256 02f23cada73974ce0e9110d51b451255407595d322f85f2689f985c9fbbde8ff AGENTS/CRUISE/workbook/VX.tsv
+
+Cash-dividend-held-as-cash basis; no reinvestment
+Sep 14: daily CCL=-0.8352% RCL=-1.8452%; cumulative DD raw=0.0734pp adjusted=0.0734pp
+Sep 15: daily CCL=-1.9947% RCL=-2.3655%; cumulative DD raw=-0.2846pp adjusted=-0.2846pp
+Sep 16: daily CCL=1.0855% RCL=1.8532%; cumulative DD raw=0.4330pp adjusted=0.4330pp
+Sep 17: daily CCL=-0.8054% RCL=-1.0555%; cumulative DD raw=-0.3745pp adjusted=0.1904pp
+Sep 18: daily CCL=-1.4885% RCL=-1.5736%; cumulative DD raw=-0.4490pp adjusted=0.1159pp
+CCL wins individual days: 4 negative cumulative readings: 1
+Cash-basis offset on EVERY subsequent fixed-base observation: 0.5648653737525889 pp
+Synthetic later raw=4.6pp => adjusted= 5.164865373752589 pp; >5 flips
+RCL weekly cash-dividend return: -4.931959714000145
+
+Funding draft reconstruction, USD millions; approximate rounded owner inputs
+annual growth=2.0000%: future OCF=2891.618; endpoint headroom=604.718; +200 capex headroom=404.718
+annual growth=0.0000%: future OCF=2765.400; endpoint headroom=478.500; +200 capex headroom=278.500
+annual growth=-5.0000%: future OCF=2457.169; endpoint headroom=170.269; +200 capex headroom=-29.731
+annual growth=-7.8400%: future OCF=2286.747; endpoint headroom=-0.153; +200 capex headroom=-200.153
+annual growth=-10.0000%: future OCF=2159.387; endpoint headroom=-127.513; +200 capex headroom=-327.513
+annual growth=-15.0000%: future OCF=1872.053; endpoint headroom=-414.847; +200 capex headroom=-614.847
+annual growth=-20.0000%: future OCF=1595.168; endpoint headroom=-691.732; +200 capex headroom=-891.732
+A positive final balance alone cannot prove interim liquidity: synthetic 100 start, 150 due before 100 inflow => -50 then +50.
+
+Causal-test counterexamples, illustrative yield percentage points
+1.15 baseline + (-0.65 unrelated weakness) + 0 NCLH effect = 0.50: hits confirmation bar without mechanism
+1.15 baseline + 0.65 other strength + (-0.65 NCLH effect) = 1.15: hits refutation bar despite mechanism
+These are identification counterexamples, not estimates of Carnival's actual mix.
