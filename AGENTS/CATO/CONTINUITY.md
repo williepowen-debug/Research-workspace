@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, CRUISE next-step assessment complete. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, SAM ruling/receipt review complete; separate CRUISE assessment preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — SAM ruling and receipt reviewed.** [Review](runs/2026-09-19_2137_sam-ruling-review.md), [probe](runs/2026-09-19_2137_sam-ruling-probe.py), [results](runs/2026-09-19_2137_sam-ruling-probe.txt), source snapshot `ed18776ae`; SAM `986b1039c` confirmed on freshly fetched origin. SAM-28 qualified/no-verdict supported; 34-row counts and unchanged term fields verified. SAM-31 replacement screen still cannot settle regime/clock/attribution uncertainty; no TRUE assigned. Current brief/handoff contradict their new ruling headings. Qualified validator works but checker output omits the class despite PASS. Forecast +2% is not an outcome ceiling. All 41 tests pass; three new tests fail pre-fix. No fresh market/history/broker certification, SAM edits, sends, launches or grades. Separate CATO work preserved through its `132ccf663` closeout. **Next: orient and await Will; bounded owner response recommended, no further work assigned.**
 
 **Latest — CRUISE next-step assessment complete.** [Assessment](runs/2026-09-19_2130_cruise-next-step-assessment.md), snapshot `ed18776ae`. Recommend drafting a test now with separate forecast/causal evidence, obtainable data, competing explanations and an unresolved outcome; no registration or work assigned. Funding model now admits missing timing/reserves but summary still over-clears liquidity; NCLH filing does not confirm harm to CCL; CRU-07/08 grade company fuel figures, not the expiring Brent contract. CRUISE's conditional headline/history correction verified. TERRY `04a1cd25a` withdraws the CATO allegation and zero-event-premium assertion; those documentary disputes are closed, replacement variance model not independently reviewed. No owner edits/sends or trade/prediction changes. **Next: orient and await Will.**
 
