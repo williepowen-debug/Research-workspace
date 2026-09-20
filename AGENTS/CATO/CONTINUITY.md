@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, CRUISE options/completion receipt reviewed. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, CRUISE correction response and active TERRY follow-up inspected. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest response review complete.** [CRUISE correction response](runs/2026-09-19_2117_cruise-correction-response.md), at `64c3b92a8`: sequence/straddle corrections and mechanism/expression withdrawal committed; outdated TRADE/KB headlines still precede corrections. TERRY accepted F1 as its own assumption error, then committed the inspected note/reply byte-identically in `fe0dfde2a`/`09bef09f1`. Its allegation that CATO merged October/November structures contradicts the committed review, probe and CRUISE relay; both strikes are 21. New zero-event-premium assertion also remains unsupported. Full revised owner commit set not independently certified. No owner edits/sends or pricing/history recertification. Owner work preserved. **Next: orient and await Will; no further review or implementation assigned.**
 
 **Latest receipt review complete — no implementation assigned.** [CRUISE options receipt review](runs/2026-09-19_2103_cruise-options-receipt-review.md), with offline probe/results, at `e453eca49`. Total-return encoding on four surfaces and duplicate-packet cleanup verified; company calendar supports keeping NCLH date unconfirmed. TERRY's universal CCL negative-EV conclusion contradicts its sensitivity table; last-three-down claim omits +9.81%; NCLH straddle hurdle does not establish a single put needs continued drift. Calculations reproduced from owner inputs, not independent quote/history certification. Recommend bounded owner correction; no owner edits/sends, trade change or new policy installed. **Next: orient and await Will; recheck source revisions before any assigned follow-up.**
 
