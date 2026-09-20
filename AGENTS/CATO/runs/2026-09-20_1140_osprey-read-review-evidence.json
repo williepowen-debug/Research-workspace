@@ -1,0 +1,204 @@
+{
+  "initial_head": "26827bac08c4976fb6882e685a681f421f49a442",
+  "osprey_latest_commit": "916276bc3",
+  "checked_utc": "2026-09-20T15:37:36.287450+00:00",
+  "scope": "OSPREY quoted September 20 read and selected supporting artifacts; no owner mutation, no feed main execution",
+  "manifest": {
+    "CLAUDE.md": {
+      "sha256": "13b35a7f83dc042e6db02ec0a1d5274172197a03107991db6bfbff07ee95f036",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "STATUS.md": {
+      "sha256": "880452081d8e0ce67931040193c74432bad59379bb0433487dc2bee8fa68212d",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "SCRATCH.md": {
+      "sha256": "24b1846ebd58216a910e8cf67930874c2278e42c5282896ec187c25b9527f069",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "NEXUS_BRIEF.md": {
+      "sha256": "28a3bba7edf37d8bcba22566ad34cabab94330deca95a909f0c5964d0e0414b6",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "thesis/THESIS.md": {
+      "sha256": "08eab5efa676f6abd36062baa0e844354ed1d08b22bc8f10e2bfaa830563b5fa",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "domain/energy-strikes/STRIKES.tsv": {
+      "sha256": "b9af8bf185e06de4b03a957d7af0e891eb3a2f96a022d4eeaec78a05ca1a5bdd",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "workbook/KB.tsv": {
+      "sha256": "f1ae49c755a7df8aeec6dc4cac6dcbc4493f487ab224374021050438d021fb5e",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "scripts/strike_feed.py": {
+      "sha256": "3498203d9d489a3ba25ed57ee8ef88b8fb205ea2ffb050972050c145351b0788",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "scripts/strike_feed_config.json": {
+      "sha256": "f5f842e391a026d055b0a047994483bb8569f75da58d99baf75225d48806758e",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    },
+    "domain/energy-strikes/feed/README.md": {
+      "sha256": "95e0d558188de2c4e4d9b0d6159286437c0e1bc74777af943b0391c7264569fe",
+      "matches_initial_commit": true,
+      "live_unchanged": true
+    }
+  },
+  "ledger": {
+    "rows": 119,
+    "columns": 16,
+    "exact_refinery_class_rows": 58,
+    "date_min": "2026-02-23",
+    "date_max": "2026-09-20",
+    "month_counts": {
+      "2026-03": 1,
+      "2026-04": 1,
+      "2026-05": 9,
+      "2026-06": 8,
+      "2026-07": 11,
+      "2026-08": 18,
+      "2026-09": 10
+    },
+    "first_twenty_days": {
+      "2026-08": 13,
+      "2026-09": 10
+    },
+    "september_refinery_rows": [
+      {
+        "id": "RU-20260906-RYAZAN",
+        "date": "2026-09-06",
+        "facility": "Ryazan Oil Refinery (Rosneft)",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260907-PERM-LUKOIL",
+        "date": "2026-09-07",
+        "facility": "LUKOIL-Permnefteorgsintez (Perm refinery)",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260907-TATARSTAN",
+        "date": "2026-09-07",
+        "facility": "Tatarstan refinery — FACILITY NOT ESTABLISHED (Nizhnekamsk cluster: Taneco 300 kb/d, Tatneft; TAIF-NK 145 kb/d, independent)",
+        "confidence": "C4"
+      },
+      {
+        "id": "RU-20260908-SARATOV",
+        "date": "2026-09-08",
+        "facility": "Saratov Oil Refinery (Rosneft) — Russia's oldest, f. 1934",
+        "confidence": "C4"
+      },
+      {
+        "id": "RU-20260911-SARATOV",
+        "date": "2026-09-11",
+        "facility": "Saratov Oil Refinery (Rosneft)",
+        "confidence": "C3"
+      },
+      {
+        "id": "RU-20260913-SLAVYANSK-ECO",
+        "date": "2026-09-13",
+        "facility": "Slavyansk Oil Refinery (Slavyansk ECO LLC) — one of the largest independent refineries in southern Russia",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260913-TANECO",
+        "date": "2026-09-13",
+        "facility": "TANECO refinery (Tatneft) — among Russia's largest and most modern",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260915-SYZRAN",
+        "date": "2026-09-15",
+        "facility": "Syzran Oil Refinery (Rosneft)",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260917-YANOS-YAROSLAVL",
+        "date": "2026-09-17",
+        "facility": "Slavneft-YANOS (Yaroslavl refinery / Slavneft-Yaroslavnefteorgsintez) - AVT-3 primary crude unit damaged",
+        "confidence": "B2"
+      },
+      {
+        "id": "RU-20260920-MOSCOW-REFINERY",
+        "date": "2026-09-20",
+        "facility": "Moscow Oil Refinery / Gazpromneft-Moscow (Kapotnya)",
+        "confidence": "F2 for the STRIKE + FIRE (Russian officials + footage, Reuters/ABC; GS confirms the hit) — unit-level damage UNESTABLISHED/F5 (Telegram-monitor + suspected June vintage)."
+      }
+    ]
+  },
+  "kb_rows": 143,
+  "feed": {
+    "FEED_CANDIDATES_2026-09-20.tsv": {
+      "sha256": "686b51228c6654be0590db37993a4afc30d8633366903963e9fc836b8773c39f",
+      "rows": 29,
+      "match_counts": {
+        "RU-20260920-MOSCOW-REFINERY": 1,
+        "NONE": 22,
+        "RU-20260917-TANZANIA-CARGO": 2,
+        "RU-20260917-YANOS-YAROSLAVL": 1,
+        "RU-20260915-SYZRAN": 1,
+        "RU-20260913-KOMYSH-UNNAMED": 1,
+        "": 1
+      },
+      "tracked": false,
+      "ignore_rule": "AGENTS/OSPREY/.gitignore:1:domain/energy-strikes/feed/FEED_CANDIDATES_*.tsv\tAGENTS/OSPREY/domain/energy-strikes/feed/FEED_CANDIDATES_2026-09-20.tsv",
+      "none_dispositioned": 22,
+      "false_match": [
+        {
+          "url": "https://www.themoscowtimes.com/2026/09/14/ukrainian-drone-strike-in-sochi-wounds-5-a93699",
+          "ledger_match": "RU-20260913-KOMYSH-UNNAMED",
+          "carrying_tokens": null,
+          "note": "matched on: crimea | ledger facility: Unidentified merchant vessel — CLAIM, not a fact: confirm this is the facility in the headline before dismissing"
+        }
+      ]
+    },
+    "MATCHES_2026-09-20.tsv": {
+      "sha256": "868da0590d67493664c5f60a8747bed51df5c239095a97e390dc51149c58b530",
+      "rows": 6,
+      "match_counts": {
+        "RU-20260920-MOSCOW-REFINERY": 1,
+        "RU-20260917-TANZANIA-CARGO": 2,
+        "RU-20260917-YANOS-YAROSLAVL": 1,
+        "RU-20260915-SYZRAN": 1,
+        "RU-20260913-KOMYSH-UNNAMED": 1
+      },
+      "tracked": false,
+      "ignore_rule": "AGENTS/OSPREY/.gitignore:2:domain/energy-strikes/feed/MATCHES_*.tsv\tAGENTS/OSPREY/domain/energy-strikes/feed/MATCHES_2026-09-20.tsv",
+      "none_dispositioned": 0,
+      "false_match": [
+        {
+          "url": "https://www.themoscowtimes.com/2026/09/14/ukrainian-drone-strike-in-sochi-wounds-5-a93699",
+          "ledger_match": "RU-20260913-KOMYSH-UNNAMED",
+          "carrying_tokens": "crimea",
+          "note": null
+        }
+      ]
+    }
+  },
+  "offline_match_replay": {
+    "input_kind": "stored headline and a sentence from the opened September 14 article, not a recovered original RSS payload",
+    "match": [
+      "RU-20260913-KOMYSH-UNNAMED",
+      [
+        "crimea"
+      ],
+      "Unidentified merchant vessel"
+    ],
+    "ledger_usable": 118,
+    "ledger_skipped": [
+      "RU-202605xx-SYZRAN: unparseable date '2026-05-??'"
+    ],
+    "claim": "Reproduces erroneous Komysh match on Crimea; no claim of a new qualifying energy strike."
+  }
+}
