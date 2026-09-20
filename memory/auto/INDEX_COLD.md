@@ -365,6 +365,7 @@
 *New memories whose trigger is a PREDICTABLE MOMENT go straight here per `MEMORY.md`'s append rule, rather than entering hot and being demoted later. Recorded as its own section so a dated demotion wave is never mistaken for the origin of a row it never held.*
 
 - finding_the_artifact_built_to_prevent_bias_is_the_one_nobody_audits — re-derive a frozen prep file's numbers; its errors point your way [SAM 2026-09-19]
+- finding_a_convention_tie_broken_toward_the_forecast_manufactures_calibration — ambiguous terms: never break the tie with your own forecast [SAM 2026-09-19]
 - finding_write_timestamps_from_the_clock_not_the_narrative — `date` before EVERY stamp; drift grows with session length, runs both ways [demoted from HOT 2026-09-19, prome-92 flow pass]
 - finding_imperfect_level_to_the_right_owner_beats_a_perfect_one_to_nobody — half a dispatch's value is the OWNER RE-READING ITS OWN FILE; don't withhold [demoted from HOT 2026-09-19, prome-92 flow pass]
 - finding_ambiguous_coordinator_instruction_mints_a_propagating_event — a relayed deadline read as an EVENT spreads; agreement is not verification [demoted from HOT 2026-09-19, prome-92 flow pass]
