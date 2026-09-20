@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-20, PROME punch-list assessed; separate CRUISE/SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-20, PROME response/proposal assessed; separate CRUISE/SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME response verified; proposal ready for bounded cold read with design gaps.** [Review](runs/2026-09-20_1038_prome-sweep-proposal-review.md), snapshot `25648708c`. Docket's JPX product distinction present; four-item handoff inventory already received. Proposal should explicitly trigger on standalone task completion and inspect untouched consulted summaries, separating read scope/snapshot validity from commit custody. Existing literal-text mirror mode should be considered before requiring code changes. Funding timing/reserves remain unresolved. Context-aware follow-up only; no cold reader launched, owner edits/sends, policy changes or implementation. **Next: orient and await Will; no further work assigned.**
 
 **Latest — PROME punch-list assessed.** [Assessment](runs/2026-09-20_1010_prome-punchlist-assessment.md), at `6639cbfa8`. Japan Sep21–23 holidays verified at JPX, but eligible derivatives OPEN all three days; docket must name product scope. R6/TERRY and SAM ruling/follow-up already have CATO receipts; reconcile ADD-1/2 aliases before rebuilding a handoff. CRUISE's five listed sweep edits verified, underlying liquidity timing limit retained. Recommend prose/checklist propagation proposal extending existing root consumer/self-scan step, not a new blanket gate. No DOCKET edits, peer sends, consolidation, policy or trade changes. **Next: orient and await Will; no further work assigned.**
 
