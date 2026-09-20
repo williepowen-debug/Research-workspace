@@ -58,7 +58,16 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 
 **Rule #18(a) additionally kills the spread as a print trade:** the 17.5P short leg is **−19.9% OTM**. The print cannot reach it. Its real catalyst would be multi-quarter transmission, and CRUISE has no dated catalyst for that before Q4.
 
-### NCLH — the 2026-11-04 print *(vendor calendar, `earnings_dates` 07:00 ET — ⚠️ **UNVERIFIED at NCLH IR or an 8-K**, and `RISK_RULES` § Option-Specific forbids taking a print date from memory or a vendor. **Confirm before this number is used in a card.**)*
+### NCLH — the 2026-11-04 print *(vendor calendar, `earnings_dates` 07:00 ET)*
+
+> 🔴 **DATE STATUS, RESOLVED 2026-09-19 LATE: `UNVERIFIED — CHECKED AT TWO SURFACES, NOT YET ANNOUNCED.` It still BLOCKS any card.**
+> CRUISE checked and reported it does not close; **I corroborated both halves with my own pulls rather than relaying** (`finding_asymmetric_rigor_counterparty_claims`).
+> - **SEC** `data.sec.gov` CIK `0001513761`, own pull: **newest filing of ANY kind = `2026-08-12` (8-K/A).** ⚠️ CRUISE's packet says *"nothing since 2026-09-01"*; my pull says **nothing since 08-12** — the negative holds harder; **my figure is the one cited here**, not theirs.
+> - **NCLH IR** `nclhltd.com/investors`, own fetch: **83,016 B of real content, newest earnings artifact `NCLH Q2 2026`, no Q3-2026 / November-2026 item.** *(`/news-events/events` returned 38,014 B with no match but is likely JS-rendered — that negative is weak and is NOT leaned on.)*
+> - ⛔ **EDGAR CANNOT ANSWER THIS BY CONSTRUCTION** — CCL's own date arrived as a press release that never became an 8-K, which is exactly how CRUISE's six-day miss happened. **The IR leg is load-bearing; the SEC leg is corroboration. The PAIRING is what makes this *not-yet-announced* rather than *missed-by-us*.**
+> - ⏳ **POINT-IN-TIME, NOT A STANDING NEGATIVE.** CCL announced **14 days** ahead ⇒ expect NCLH ~**mid-October**. **`Stale_By 2026-10-20`** (CRUISE `KB-CRU-087`). **Re-check; do not carry as settled.**
+>
+> ⚠️ **Every EV figure in this section is computed to a 2026-11-04 print that the company has not confirmed. If the real date lands in a different week the `44 DTE remaining` assumption moves and every number below shifts with it.** The *envelope* (a structure property) is unaffected; the *pricing* is not.
 
 `Dec-18 14P` (ATM, −0.8%), debit **$1.35** ask, spread **2.25%**, OI **3,870**, IV **50.20%**, 91 DTE from 9/18 → **88 DTE from Mon 9/21, i.e. INSIDE the 60–90 band** (rule #21: this would be a NEW deployment, so the band binds in full — it clears).
 
@@ -77,7 +86,9 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 - ATM straddle Dec-18 ≈ **$2.97 = 21.0% of spot** — the market prices ±21% by 12/18; a −11% print is **half** of that, so the print alone does not beat the price. You need print **plus** continued drift.
 - ⚠️ Put IV 50.20% vs call IV 56.89% at the same 14 strike. **Checked, not chased:** C−P = 0.31 vs S−PV(K) = 0.259 — a $0.05 gap, inside the legs' own bid/ask. Parity holds; the IV split is vendor carry-assumption noise, not a signal.
 
-### RCL — the 2026-10-27 print *(vendor, same UNVERIFIED caveat)*
+### RCL — the 2026-10-27 print
+> 🔴 **DATE STATUS: `UNVERIFIED — UNCHECKED, BY DECISION.` Nobody has looked, and that is deliberately NOT the same state as NCLH's.**
+> CRUISE offered to run the same two surfaces; **I declined** — RCL is not a bear candidate on the measurement below, so its date is load-bearing for nothing at this desk. ⛔ **The two UNVERIFIED labels are worded differently on purpose: one was examined and came back empty, the other was never examined. A reader who reads equal scrutiny into them would be wrong** (`finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit`). **If an RCL trade is ever contemplated, this date must be checked first — it has NOT been.**
 **Not a bear candidate on this measurement.** 2 of 8 prints down, max **+18.65%**, FY26 guide **raised**. A put here is fighting the name's own print distribution. Recorded so the sector is covered, not because anything is proposed.
 
 ---
