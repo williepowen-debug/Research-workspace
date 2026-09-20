@@ -63,3 +63,11 @@
 ---
 *Not inherited to OSPREY (FALCON-only per build spec §2): wording-identity discipline (HAW-10) and dormant-secondary-vector re-sweep (HAW-03) — readable at `AGENTS/HAWK/LESSONS.md`.*
 *Related fleet memories: `finding_scan_keyed_on_naming_reads_local_form_as_absence` · `finding_instrument_reports_clean_against_the_wrong_reference` · `finding_attribution_authenticates_a_figure_its_named_source_never_produced` (instance 3 is this desk's 9/8 Urals correction).*
+
+## 11. [2026-09-20] ★ UNCHANGED MARKS ARE AN UNMEASURED PERIOD, NOT A MEASURED ZERO — and a recovering export series can mask a falling production one
+**What happened.** On 9/20 I told Will *"crude keeps flowing / we are not seeing production loss"* and *"no useful independent aggregate exists,"* reassuring on national supply while keeping marks unchanged. A peer review (CATO, `80622311e`) showed: (a) the very Bloomberg source behind my 3.54 M bpd export figure says diversion is *"not enough to maintain production"* — output fell to **8.72 M bpd, a 9th straight monthly drop**; (b) independent September aggregates existed (S&P/CERA ~half offline; IIR 3.805 M bpd); (c) my *"densest tempo of the campaign"* was **false** — Aug 1-20 had 13 refinery rows vs September's 11. The event discipline (capacity-not-barrels) was right; the **national reassurance was too strong.**
+**Rule:**
+- An unchanged score/band over a period you did not measure is an **UNMEASURED change, never a measured zero** — write "not measured," not "not happening."
+- **Name WHICH flow before reassuring:** exports (up) and production (down) move oppositely when refining falls faster; a recovering 4-wk export average cannot exclude production loss. `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]`
+- *"No independent aggregate exists"* is a claim about your **search**, not the world — base-rate it before asserting. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
+- A comparative superlative (*"densest tempo"*) needs a **counted comparable window** — count both before writing it.

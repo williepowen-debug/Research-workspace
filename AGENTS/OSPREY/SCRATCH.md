@@ -14,8 +14,17 @@ C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST** — all UNCHANGED. Prices de
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
 **THE MOSCOW 'AVT-6 DESTROYED' DETAIL IS A VINTAGE TRAP AND MAY STILL BE CIRCULATING AS CURRENT.** The named unit matches a June-2026 strike on the same plant verbatim, and the source is Russian Telegram monitors, not satellite/industry. **Do the +5d re-read ~9/23–25** (independent/satellite) before ANY unit-level or barrels claim on Moscow. If someone quotes a big Moscow capacity-offline number, check its date and source first — this is exactly LESSONS 1/3 + OWED-43.
 
+## ⛔ CATO REVIEW (80622311e) — three accepted corrections, logged 9/20
+My Will-facing read had the EVENT discipline right but the NATIONAL reassurance too strong. Fixed in KB-143(CORRECTED)/144/145, STATUS ACTIVE 5, OWED-49/50, LESSONS 11, NEXUS:
+- **F1 (verified at primary):** "crude keeps flowing / no production loss" WITHDRAWN — Bloomberg says diversion "not enough to maintain production"; output 8.72 M bpd, 9th straight drop. C1→C2 bridge partially active nationally. → KB-144, OWED-49.
+- **F2:** "no independent aggregate exists" too broad — S&P/CERA ~half offline (9/3), IIR 3.805 M bpd (9/8). Reconcile vs ~30% band on consistent definitions. → KB-145, OWED-50. (S&P/IEA 403 today — NOT re-read by me.)
+- **F5:** "densest tempo" FALSE — Aug 1-20 had 13 refinery rows vs Sept's 11.
+- Central lesson (LESSONS 11): unchanged marks = UNMEASURED September, not measured-stable.
+- CATO's suggested order: **evidence reconciliation BEFORE another broad sweep.** Adopt it.
+
 ## NEXT SESSION
-1. **+5d Moscow re-read (~9/23–25)** — did processing actually halt? That is the ONLY path from headline to a mark/band move (OWED-43).
+0. **CATO reconciliation FIRST (OWED-49/50):** carry both production+export observations; put S&P/IIR beside the runs band on consistent definitions (period/denominator/cause/eligibility) + the 3.6-vs-3.91 basis pair (OWED-42). Re-read S&P/IEA/IIR at the primaries (403 today). Resolve or explicitly retain before any band move. THEN the 9/17-20 coverage pass.
+1. **+5d Moscow re-read (~9/23–25)** — did processing actually halt? Review window, NOT a promised release (CATO F4). Only path from headline to a mark/band move (OWED-43).
 2. **US 'Sanctions from Hell' bill (9/19)** — work it: does it target Russian oil/gas/shadow-fleet specifically? Dated provisions, effective dates. Route to BRENT/HAWK. (Feed FLAG rows, 9/20.)
 3. **Certify the 9/17→9/20 window** — this boot was a targeted catch-up, NOT a full day-by-day facility-name-free pass. `swept-complete` mark still **2026-09-16**. Run a proper in-window pass and advance the mark (and back-fill the pre-9/01 window per 9/19 finding).
 4. **BRENT packet STILL OWED and overdue** — Kirishi, TANECO ~52%, Syzran+Saratov ~290 kb/d, + now Moscow. All capacity, not barrels. Routine escalation folded into NEXUS_BRIEF this session; the explicit packet is still owed.
