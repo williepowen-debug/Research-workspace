@@ -6,6 +6,17 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-20 — Ledger-nudge disposition (root step 1c-bis, rc=1): REFRESHED-NO-NEW-DATA, not rot
+
+`ledger_staleness.py --nudge SAM` flagged **12 ledgers "behind"**. Dispositioned rather than carried, because the metric counts **STATUS-writes since the ledger last CHANGED** — which for a source that has not published is the expected reading, not staleness.
+
+- **Auto-pulled and RAN CLEAN this session** (13/14 boot scripts): `JGB_YIELDS` · `MOF_FLOWS` · `CFTC_JPY` · `RATE_DIFFERENTIAL` · `TRADE_BALANCE` · `CPI` · `JGB_AUCTIONS` · `USDJPY`. **They did not change because there is no new data** — the FX week closed Fri Sep-18 21:00Z, MOF has not published the Sep-18 curve, the next CFTC print is Fri Sep-25, and the trade-balance script said so explicitly ("No new trade-balance release"). ⇒ **Refreshed, unchanged. Not frozen** — they are live and will move.
+- **Quarterly/irregular by construction:** `GPIF_FLOWS` (70 behind — GPIF is quarterly-laggy **by design**; interim PDFs ~5wk after quarter-end), `BIS_GLI` (manual-only, quarterly), `BOJ_MEETING_OIS` (13 behind — 🔴 **this one IS a real gap: `boj_ois.py` has returned an unreviewed chart since 9/15, so the desk has NO current BOJ pricing.** Tracked in MEMORY TIER 2; needs `--prepare-review`, not a freeze).
+- `KB.tsv` — hand-curated by KURA on command, not per-session.
+- `FXY_OPTIONS.tsv` — **did** refresh today and is committed.
+
+⚠️ **The one to act on is `BOJ_MEETING_OIS`**, and it is already carried. The other eleven are the nudge doing its job on sources that simply have not printed. **Recorded here so "12 behind" is not read as twelve rotting ledgers by the next session.**
+
 ## 2026-09-20 — STATUS rotation (two pointer-stubs dropped, SAM-28/31 prose archived) + six docket rows added
 
 **Why:** STATUS crossed its 75% rotation trigger absorbing the rate-check finding. Rotated settled material only; **no live content was cut.**
