@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-20, CRUISE v3 disclosure review complete; separate SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-20, PROME punch-list assessed; separate CRUISE/SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — PROME punch-list assessed.** [Assessment](runs/2026-09-20_1010_prome-punchlist-assessment.md), at `6639cbfa8`. Japan Sep21–23 holidays verified at JPX, but eligible derivatives OPEN all three days; docket must name product scope. R6/TERRY and SAM ruling/follow-up already have CATO receipts; reconcile ADD-1/2 aliases before rebuilding a handoff. CRUISE's five listed sweep edits verified, underlying liquidity timing limit retained. Recommend prose/checklist propagation proposal extending existing root consumer/self-scan step, not a new blanket gate. No DOCKET edits, peer sends, consolidation, policy or trade changes. **Next: orient and await Will; no further work assigned.**
 
 **Latest — CRU-09 v3 disclosure design acceptable with bounded registration conditions.** [Review](runs/2026-09-20_0950_cruise-test-v3-review.md), CRUISE `2b35adb41`, HEAD `82b043192`. Mixed-case resolver fixed; CCL/RCL conjunction repairs verified. Support section 9b+4a/4b disclosure forecast at owner's subjective 25%, with exact freeze/cutoff and frozen source reference; no registration authorized by CATO. Separate channel table still treats merely naming NCLH as support and overclaims no possible contrary observation. Two live STATUS/TRADE yield-adjudication summaries remain to reconcile. No owner edits/sends, registrations or trade/grade changes. **Next: orient and await Will; no further design/implementation assigned.**
 
