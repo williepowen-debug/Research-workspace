@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, SAM ruling/receipt review complete; separate CRUISE assessment preserved. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, CRUISE CRU-09 draft reviewed; separate SAM work preserved. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — CRU-09 draft review complete, revise before registration.** [Review and concrete proposed wording](runs/2026-09-19_2154_cruise-test-draft-review.md), snapshot `615590da0`. Valid distinction between disclosure forecast and channel evidence, but generic competitor language cannot identify NCLH; improving Caribbean pricing can coexist with competitive drag and currently fires both outcomes. Capacity/concentration/horizon scope needs one definition; silence needs complete source coverage and freeze must precede actual release. 30% remains owner's subjective estimate to reconfirm after wording settles. No CRU-09 registered; CRU-07/08 unchanged. Only CATO report/continuity authored, no owner edits/sends or trade changes. **Next: orient and await Will/revised draft; no further task assigned.**
 
 **Latest — SAM ruling and receipt reviewed.** [Review](runs/2026-09-19_2137_sam-ruling-review.md), [probe](runs/2026-09-19_2137_sam-ruling-probe.py), [results](runs/2026-09-19_2137_sam-ruling-probe.txt), source snapshot `ed18776ae`; SAM `986b1039c` confirmed on freshly fetched origin. SAM-28 qualified/no-verdict supported; 34-row counts and unchanged term fields verified. SAM-31 replacement screen still cannot settle regime/clock/attribution uncertainty; no TRUE assigned. Current brief/handoff contradict their new ruling headings. Qualified validator works but checker output omits the class despite PASS. Forecast +2% is not an outcome ceiling. All 41 tests pass; three new tests fail pre-fix. No fresh market/history/broker certification, SAM edits, sends, launches or grades. Separate CATO work preserved through its `132ccf663` closeout. **Next: orient and await Will; bounded owner response recommended, no further work assigned.**
 
