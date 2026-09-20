@@ -28,10 +28,19 @@ Baseline, 176 sessions Jan–Sep 2026: TLT 3-day **−0.06%** (sd 0.94), 30Y 3-d
 
 ## What survives
 
-The **direction** of the observed moves, as a descriptive fact with its window and baseline stated. Nothing about mechanism, and no claim that intervention does or does not move Treasuries. **The honest status is UNRESOLVED, and the November primaries (MOF quarterly ~Nov-9, FRBNY ~Nov-13) remain the instruments that settle the funding question.** What changed is that I no longer assert a directional prior while waiting for them.
+The **direction** of the observed moves, as a descriptive fact with its window and baseline stated. Nothing about mechanism, and no claim that intervention does or does not move Treasuries. **The honest status is UNRESOLVED.** 🔧 **CORRECTED: November is an evidence CHECKPOINT, not guaranteed resolution.** MOF's quarterly reports intervention **dates, amounts and currencies**; the FRBNY series covers **US** operations and account composition. **Neither promises to explain what Japan SOLD to raise the dollars** — the funding question may survive both releases, and saying they "settle" it was overstated. What changed is that I no longer assert a directional prior while waiting for them.
 
 ## A fourth error, not in this study but reported alongside it
 
-**Instrument direction on Will's own book.** I described KRE / HBAN / WAL as an equity cluster exposed to a risk-off. **They are PUTS** — KRE $60P and $25P, HBAN $16P, WAL $70P / $67.5P / $77.5P — i.e. short regional-bank exposure. A bank selloff **helps** them. I read a ticker list out of table rows and never read the instrument column. ⇒ My conclusion that the bank leg and the duration-short leg "lose together in a Japan shock" is **backwards**: in a flight-to-quality the duration-short legs lose and the bank puts gain, which **partially offsets**. ⚠️ Size is a separate question and is NOT established here — most of those puts were marked at pennies (−74% to −99%) on a **9/10-vintage mirror that its own banner calls contradicted on six Fidelity cells and the Robinhood account**. Direction is structural; size needs a reconcile.
+**Instrument direction on Will's own book.** 🔧 **CORRECTED AGAIN 2026-09-20 after a second CATO pass — my first correction was itself wrong on the roster, which is the third instance this session of a fix round needing a fix.**
+
+**LIVE duration-short legs (all lose in a flight-to-quality):** TBT ×14 (2× UST short) · **TLT $77P Sep-30 ×20** · **TLT $82P Oct-16 ×2** — ⚠️ **the 82P I omitted entirely**, and the mirror calls it *"the put book's mover"* (+16.89%). **TLT $85P was SOLD 9/10** and is not a position.
+
+**LIVE bank puts:** KRE $60P Dec-18 · KRE $60P Sep-30 · KRE $25P Jan-2027 · HBAN $16P Oct-16 ×2 · WAL $70P Dec-18 ×1 (Robinhood).
+⛔ **DEAD, and I wrongly counted them as offset:** **WAL $77.5P** (confirmed SOLD 8/18) and the **WAL Sep-18 pair ($70P / $67.5P, ruled LAPSE)** — today is Sep-20, so they are past expiry. **A dead contract cannot offset anything.**
+
+⇒ **Net: the offset is MORE lopsided toward duration-short than my first correction said** — I both understated the short-duration side (missing the 82P) and overstated the bank side (counting three dead contracts).
+
+**The original error was:** I described KRE / HBAN / WAL as an equity cluster exposed to a risk-off. **They are PUTS** — KRE $60P and $25P, HBAN $16P, WAL $70P / $67.5P / $77.5P — i.e. short regional-bank exposure. A bank selloff **helps** them. I read a ticker list out of table rows and never read the instrument column. ⇒ My conclusion that the bank leg and the duration-short leg "lose together in a Japan shock" is **backwards**: in a flight-to-quality the duration-short legs lose and the bank puts gain, which **partially offsets**. ⚠️ Size is a separate question and is NOT established here — most of those puts were marked at pennies (−74% to −99%) on a **9/10-vintage mirror that its own banner calls contradicted on six Fidelity cells and the Robinhood account**. Direction is structural; size needs a reconcile.
 
 📌 **Class:** `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]` — a ticker without its instrument is not a position. And the tell I missed: I was answering a question about *his book* from a surface I had just finished describing as stale and contradicted.
