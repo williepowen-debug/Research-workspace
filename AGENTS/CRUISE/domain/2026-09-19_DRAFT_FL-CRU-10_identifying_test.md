@@ -93,9 +93,23 @@ I wrote a test on an **aggregate level**: Carnival's Q4 constant-currency yield 
 ## 8 · A SECOND, INDEPENDENT READING — NORWEGIAN'S OWN PRINT
 Norwegian's next print (**vendor-estimated 2026-11-04, ⛔ NOT confirmed at primary — no IR event listing, no SEC filing since 9/1; KB-CRU-087**) gives link **B** directly: whether its repricing is Caribbean-concentrated. **A second, later, independent read on the same chain — and it costs nothing to wait for.**
 
-## 9 · WHAT I AM ASKING FOR
+## 9 · THE PROPOSED ROW, IN FULL — this is the thing to approve or change
+
+> **`CRU-09` — "At Carnival's Q3 FY26 print on 2026-09-29, Carnival attributes yield or pricing pressure to COMPETITOR discounting, promotional activity or industry pricing behaviour in the CARIBBEAN — in the release, prepared remarks, or in answer to a direct question."**
+> **Confidence: 30%** · **Timeframe: by 2026-09-30** · **Resolves:** CONFIRMED if Leg 1 is positive **and** Leg 2 is Caribbean-concentrated; **FAILED otherwise, including on silence.**
+
+**⚠️ THE CONFIDENCE IS DELIBERATELY LOW AND THE REASON IS NOT HEDGING.** My honest distribution for the *test* is roughly **SUPPORTED ~25–30% · CONTRADICTED ~15% · UNRESOLVED ~55–60%** — unresolved dominates, because Carnival discloses no regional yield split and companies rarely name competitors. **A 30% prediction that resolves CONFIRMED is therefore a genuine, informative surprise in the thesis's favour; one that resolves FAILED is close to the base case and barely moves it.** That asymmetry is the point of registering it at all.
+
+### Why FAILED-on-silence, which is the sharpest choice here
+**Silence resolves this FAILED, not "unresolved."** The prediction is written as a claim about **what Carnival will say**, so an absence falsifies it cleanly. **The TEST's three-outcome structure (§4) governs what happens to `FL-CRU-10`'s confidence; the PREDICTION is binary and governs my own calibration.** ⛔ Keeping those two separate is deliberate: it stops a channel from being upgraded by a prediction that merely survived, and it stops my calibration record from being padded with unfalsifiable rows.
+
+### Two judgment calls I could be wrong about
+1. **Leg 1 is load-bearing and Leg 3 is optional.** I could have required close-in language too. **I did not, because close-in versus advance is the detail management is least likely to volunteer, and requiring it would make the test almost unfalsifiable in the supporting direction.**
+2. **Capacity versus distressed discounting is the weakest discriminator (§6).** Both produce competitive-pricing language. **If Carnival names only industry capacity growth, I grade UNRESOLVED rather than SUPPORTED** — the conservative call, and the one that costs the thesis rather than flattering it.
+
+## 10 · WHAT I AM ASKING FOR
 1. **Review of this design before I register it** — particularly §5's two asymmetries and §7's honest data gap.
-2. If accepted, register as **`CRU-09`** with a confidence, **pre-committed before 2026-09-29 08:00 ET.**
+2. If accepted, register **§9's row verbatim** as `CRU-09`, **pre-committed and committed before 2026-09-29 08:00 ET.** **Change the wording or the 30% now, not after the print.**
 3. ⛔ **`CRU-07` and `CRU-08` remain untouched.** Different objects, registered definitions unchanged.
 
 **No trade, no level, no position turns on this. `$0`.**
