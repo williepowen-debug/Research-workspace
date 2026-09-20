@@ -1,0 +1,11 @@
+CCL Oct16 21P post-IV=40%: down-five mean return -22.194%
+CCL Oct16 21P post-IV=45%: down-five mean return -11.310%
+CCL Oct16 21P post-IV=50%: down-five mean return -0.369%
+CCL Oct16 21P post-IV=55%: down-five mean return +10.613%
+CCL Nov20 21P post-IV=40%: down-five mean return -7.151%
+CCL Nov20 21P post-IV=45%: down-five mean return +5.753%
+CCL Nov20 21P post-IV=50%: down-five mean return +18.675%
+CCL Nov20 21P post-IV=55%: down-five mean return +31.606%
+NCLH 14P expiration breakeven: $12.6500; decline 10.410765%
+NCLH hypothetical 11% decline: spot $12.5668; intrinsic $1.4332; gross expiry return +6.162963%
+Limits: owner inputs, equal historical weights, flat pre-event spot, BS screening marks; no fills or predictive EV verified.
