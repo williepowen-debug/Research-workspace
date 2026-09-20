@@ -26,9 +26,15 @@
 
 **⇒ The window CLOSES. It closes on the revolver, and the cushion is roughly one bad year thick.**
 
+⚠️ **Scope of the refutation (CATO F1):** failing to reconstruct an unidentified analyst's $1.3B figure **does not refute that analyst's horizon, reserve or stress assumptions** — which were never stated. **What is retired is the unsupported claim of an inevitable equity raise**, not every path to one.
+
 **⛔ So the "forced equity raise" framing is wrong as stated and I am retiring it.** The right statement is narrower and more useful: **NCLH funds the next 18 months by drawing a little over half its revolver, and exits 2027 with ~$0.6B of liquidity instead of ~$1.5B.** That is a liquidity *degradation* on a company already at 5.3x leverage — not an imminent financing event.
 
 ---
+
+## ⛔ LIMITATION ADDED 2026-09-19 (CATO F1) — THIS IS AN ENDPOINT TEST, NOT A LIQUIDITY CLEARANCE
+
+**The model spends opening cash and tests remaining revolver capacity at 2027-12-31. It does NOT schedule the interim cash trough, the timing of financing draws, or any minimum-liquidity reserve.** Cruise operating cash flow is strongly seasonal and ECA draws land on delivery dates, so **positive ending headroom can coexist with an earlier intra-period shortfall.** ⇒ **Read every figure below as "does the window close on aggregate," never as "liquidity is adequate at all times."** Closing that gap needs a dated cash schedule with an explicit minimum-liquidity assumption; **not built here, and named as owed.**
 
 ## SENSITIVITY — THE ONE NUMBER THAT MATTERS
 
@@ -90,7 +96,7 @@ and, in the MD&A:
 
 **+$1,690M, +11.2% over 18 months** — because committed ship financing draws ($2.7B) exceed scheduled repayments ($1.7B). **Shareholders' equity was $2,572.9M at 6/30/26, so gross debt/equity is already 5.8×.**
 
-⛔ **I do NOT compute a leverage RATIO here. EBITDA is not in this 10-Q**, and NCLH's 5.3x is its own net-debt/Adjusted-EBITDA metric on its own definition. **Only the numerator is established above.** But the direction is unambiguous and it matters for the vector: **`VX-CRU-05`'s RED(5) band requires "guide re-slashed + leverage climbing," and the funding math says the debt numerator climbs ~11% over the window on the BASE case.** Whether the ratio climbs depends on EBITDA, which is exactly what the yield guide threatens.
+⛔ **I do NOT compute a leverage RATIO here** — ⛔ *(corrected: EBITDA **is** in this 10-Q, page 35, Q2 $668.049M / H1 $1,202.411M; what is absent is a **2027** denominator)*, and NCLH's 5.3x is its own net-debt/Adjusted-EBITDA metric on its own definition. **Only the numerator is established above.** But the direction is unambiguous and it matters for the vector: **`VX-CRU-05`'s RED(5) band requires "guide re-slashed + leverage climbing," and the funding math says the debt numerator climbs ~11% over the window on the BASE case.** Whether the ratio climbs depends on EBITDA, which is exactly what the yield guide threatens.
 
 ---
 
@@ -107,7 +113,7 @@ and, in the MD&A:
 | ECA financing in place, rem-2026 | 700 | **[P]** | Future Capital Commitments |
 | ECA financing in place, FY2027 | 2,000 | **[P]** | Future Capital Commitments |
 | Other non-newbuild capex, rem-2026 | 200 | **[P]** | *"approximately $0.2 billion"* |
-| Other non-newbuild capex, FY2027 | 400 | **[A]** | ⚠️ **NOT DISCLOSED.** 2× the disclosed half-year. A ±$200M error moves revolver headroom by the same amount and does not change any verdict above. |
+| Other non-newbuild capex, FY2027 | 400 | **[A]** | ⚠️ **NOT DISCLOSED.** 2× the disclosed half-year. ⛔ **CORRECTED 2026-09-19 (CATO F1) — my original note said a ±$200M error "does not change any verdict above." THAT IS FALSE and it was true only of the base case.** A ±$200M error moves headroom 1-for-1, so at **−5%/yr** the $170M cushion becomes **≈ −$30M** and the row flips from covered to short. **The verdict is robust to this assumption ONLY at flat-or-better cash flow.** |
 | Scheduled amortisation 7/1/26–6/30/27 | 1,141.4 | **[P]** | Current portion of LTD at 6/30/26 — dated to exactly this window |
 | Scheduled amortisation H2-2027 | 518.4 | **[A]** | ⚠️ Half of the FY25 10-K's FY2027 maturity ($1,036.8M), straight-lined. Calendar-year figure split, not a disclosed half-year. |
 | Luna ECA amortisation increment, H2-27 | 45 | **[A]** | ⚠️ €1.0B ECA term loan drawn March 2026 **post-dates** the 10-K ladder; 1.91% fixed to Feb-2038 ⇒ ~$90M/yr, half-year taken. |
@@ -115,7 +121,7 @@ and, in the MD&A:
 | H1-2026 / H1-2025 operating cash flow | 1,414.0 / 1,394.1 | **[P]** | 10-Q cash-flow statement |
 
 ### Things I deliberately did NOT do
-- **No leverage ratio** — EBITDA absent from the source (above).
+- **No leverage ratio** — ⛔ **but my stated REASON was wrong (CATO F1, verified): EBITDA IS in this 10-Q.** Page 35 reconciles **Q2 EBITDA $668.049M / H1 $1,202.411M** and **Adjusted EBITDA $665.515M / H1 $1,198.412M**. **The decision not to compute a leverage ratio stands** — the filing supplies no **2027** EBITDA denominator, and NCLH's 5.3x is its own net-debt/Adjusted-EBITDA definition — **but "EBITDA is not in the source" was an absence asserted without searching, in the very artifact where I wrote up that error class. Recorded as n=15.**
 - **No refinancing assumed.** The model repays scheduled maturities in cash. **The company says the opposite** — *"we may optimize our liquidity or pursue other refinancings in order to reduce interest expense and/or extend debt maturities"* — so **the model is CONSERVATIVE on amortisation by construction.** Any refinancing pushes the breakeven further out.
 - **No equity issuance, no asset sales, no charter proceeds** modelled, though a fleet-optimisation programme with 10-year bareboat charters exists.
 - **No dividend** — NCLH pays none (confirmed: zero dividend history).

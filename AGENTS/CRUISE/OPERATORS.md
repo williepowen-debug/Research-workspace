@@ -10,7 +10,7 @@
 
 ### Royal Caribbean (RCL) — **$245.81** · strongest guide, still the weakest tape — but by far less than the price says
 - FY26 Adj EPS $17.73–17.87 raised, Q3 yields ~flat, 110.2% load factor, **58% hedged @ ~$474/mt**.
-- **⛔ CORRECTED 9/19 evening: RCL remains the worst of the Big 3 this week, but the margin collapses once its $1.50 ex-dividend (9/17) is removed** — price −5.51% vs NCLH −4.72% becomes **total return −4.93% vs −4.72%**, a **0.21pp** gap, not 0.79pp; CCL −4.00% is best on both. **The premium leg is still de-rating against its own raised guide — but roughly a quarter as fast as the price tape implied.** ⚠️ The −15.87%-below-3-mo-mean figure is likewise price-based across **two** RCL dividends — **overstated, flagged, not recomputed.** (KB-CRU-072)
+- **⛔ CORRECTED 9/19 evening: RCL remains the worst of the Big 3 this week, but the margin collapses once its $1.50 ex-dividend (9/17) is removed** — price −5.51% vs NCLH −4.72% becomes **total return −4.93% vs −4.72%**, a **0.21pp** gap, not 0.79pp; CCL −4.00% is best on both. **The premium leg is still de-rating against its own raised guide — but roughly a quarter as fast as the price tape implied.** ⚠️ The −15.87%-below-3-mo-mean figure is likewise price-based. ⛔ **CORRECTED (CATO F3): ONE dividend is inside that window, not two** — a trailing 3-month/62-session window ending 9/18 starts ~6/18–6/23, excluding the **6/3** ex-date. Still overstated, by one not two; **flagged, not recomputed.** (KB-CRU-072)
 - **Med:** RCL calls the slowdown *fleeting*. **Two operators say the Med is turning; NCLH says the opposite.**
 
 ### Norwegian (NCLH) — **$14.12** · new low; the funding question now has a model and a number
