@@ -26,7 +26,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 **Thesis consequence: NONE, and a qualified row changes less than a FALSE one.** Frame retired 8/7 on leg 1; SAM-28's conditional retirement leg cannot re-retire it and its ≥80%-positioning precondition is moot (Sep-8 NET LONG +10,796). **v1.7 stands · no successor · book FLAT · no gate re-arms · 160 VOID.** SAM-33 open to Dec-31.
 
-**Integrity:** term fields untouched — field-level diff at git confirms only Status/Outcome/Notes moved, on exactly 2 rows. Surfaces re-synced: PREDICTIONS.tsv (+preamble), grade record (bannered, arguments left legible), STATUS, NEXUS_BRIEF, CALENDAR, STRATEGY, TRADE, TIMELINE. Record: `docket/2026-09-19_CATO-R4-RULING.md`.
+**Integrity:** term fields untouched — field-level diff at git confirms only Status/Outcome/Notes moved, on exactly 2 rows. Surfaces re-synced: PREDICTIONS.tsv (+preamble), grade record (bannered, arguments left legible), **THESIS § PREDICTIONS** (scoreboard + the live "both FALSE" claim — caught by `consumer_check --self`, not by hand), frozen prep file (pointer banner only, body untouched), STATUS, NEXUS_BRIEF, CALENDAR, STRATEGY, TRADE, TIMELINE. Record: `docket/2026-09-19_CATO-R4-RULING.md`.
 
 ---
 
