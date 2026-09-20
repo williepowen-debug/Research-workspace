@@ -120,7 +120,7 @@ Each answer becomes a KB row on the day of the print.
 | Ch.6 New Med/Europe cancellation, or NCLH's framing echoed by CCL/RCL | KB row; VX-CRU-04 candidate upgrade | Brief Will if it reaches Big-3 revenue |
 | Ch.7 CCL exec at a conference before the print | Read transcript same-day; extract forward color | Brief if material |
 | Ch.8 Rating action | KB row + balance-sheet update | Escalate only on a downgrade of the **issuer** (not the notes) |
-| Ch.9 RCL/NCLH guidance revision, or an NCLH raise | KB row; cross-read into CCL expectations | 🔴 An NCLH equity raise is the largest un-priced sibling risk |
+| Ch.9 RCL/NCLH guidance revision, or an NCLH raise | KB row; cross-read into CCL expectations | ⛔ **RETIRED 2026-09-20: "an NCLH equity raise is the largest un-priced sibling risk" is withdrawn twice over** — *un-priced* was a market-pricing claim this desk never established, and the **funding model makes a revolver draw the BASE case, not a raise** (KB-CRU-075/076). **Live sibling trigger: an RCL FY yield guide-down** (the only thing that completes exit rule 1's second limb) **or NCLH FY26 OCF below ~$1,926M** |
 
 ---
 
@@ -136,8 +136,8 @@ Each answer becomes a KB row on the day of the print.
 - [x] ~~Verify "CCL is unhedged"~~ → **VERIFIED at the FY25 10-K and the Q2 FY26 10-Q** (KB-CRU-028)
 - [x] ~~Sell-side consensus vs CCL's own guide~~ → ≈**$1.36 vs $1.35** — essentially on the guide; **single-source, INFERRED**, wants a second source
 - [ ] **CCL IR events page** — 8/14 404 explained: JS-rendered SPA, direct fetch returns the shell. Needs a rendering fetch or a secondary IR calendar.
-- [ ] **CCL Q3 date confirmed at CCL's own press release** — the release is the primary; everything downstream calendars off it
-- [ ] **NCLH 10-Q (2026-08-03, acc 0001104659-26-089657)** — grade the ~$1.3B funding-gap claim at the primary. Highest-value unread document on this desk.
+- [x] ~~**CCL Q3 date confirmed at CCL's own press release**~~ → ✅ **CONFIRMED 2026-09-29 (Tue)**, results that morning, call 10:00 ET; CCL press release **2026-09-15 11:56 ET** (KB-CRU-067). ⛔ **This desk carried ~10/5 and was six days late** — the release was never an 8-K, so EDGAR could not answer it. *(Not flagged by PROME's sweep — same class, found on my own re-read.)*
+- [x] ~~**NCLH 10-Q (2026-08-03, acc 0001104659-26-089657)** — grade the ~$1.3B funding-gap claim at the primary. Highest-value unread document on this desk.~~ → ✅ **READ AND MODELLED 2026-09-19. The gap DOES NOT RECONSTRUCT**: 18 months to 12/31/27 need $913M, met by a $695M revolver draw on $1,300M with ~$605M undrawn. Replacement number is the breakeven — **OCF −~8%/yr**, which NCLH runs above. ⚠️ Endpoint test only: no interim cash trough, no financing timing, no minimum-liquidity reserve. `domain/sources/2026-09-19_nclh-18-month-funding-reconciliation.md` · KB-CRU-075/076.
 - [ ] **Jun–Aug Brent window average** for CRU-07's prior — **FRED DCOILBRENTEU unreachable from this box, 3 attempts** (HTTP/2 stream error, then two timeouts). BRENT pulls EIA `RBRTE` successfully; ask rather than re-derive.
 
 ---
