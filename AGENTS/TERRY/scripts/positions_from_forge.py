@@ -55,6 +55,18 @@ MONTHS = {m: i for i, m in enumerate(
      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
 POS_SECTION_RE = re.compile(r"^##\s+(Fidelity|Robinhood)\b", re.I)
+# "## Account UNATTRIBUTED — receipted fills not yet attributed to an account".
+# ADDED 2026-09-20 (ANVIL 9/19 finding, relayed by PROME at WQ-272). The section was
+# INVISIBLE to this parser, so a REAL LIVE POSITION (1 VLO sh, filled 9/18 @ $412.00)
+# never reached the dashboard. The account is carried as a FIELD, never inferred:
+# an inferred account in a position mirror is worse than a blank one.
+ACCOUNT_SECTION_RE = re.compile(r"^##\s+Account\s+([A-Za-z][\w-]*)\b")
+# a table shaped like a position table -> used ONLY to warn when it sits in a section
+# no rule admits. The instance fix above would otherwise repeat for the NEXT new
+# section; this makes an unadmitted section announce itself instead of vanishing.
+def _looks_positional(header):
+    return _has_col(header, "position") and (_has_col(header, "mark")
+                                             or _has_col(header, "qty"))
 SUBSEC_RE = re.compile(r"^###\s+(.+)$")
 # a ## header that is a Fidelity/Robinhood section but NOT a live-position class
 EVENT_BOX_RE = re.compile(r"^##\s+.*\bevent\s+box", re.I)
@@ -178,6 +190,7 @@ def extract(text, asof):
     lines = text.splitlines()
     section = subsec = None
     section_class = "position"
+    cur_h2 = None
     in_region = False
     i = 0
     while i < len(lines):
@@ -187,8 +200,16 @@ def extract(text, asof):
             section = POS_SECTION_RE.match(ln).group(1)
             subsec = None
             section_class = "event_box" if EVENT_BOX_RE.match(ln) else "position"
+            cur_h2 = ln.strip()
+        elif ACCOUNT_SECTION_RE.match(ln):
+            in_region = True
+            section = ACCOUNT_SECTION_RE.match(ln).group(1)
+            subsec = None
+            section_class = "position"
+            cur_h2 = ln.strip()
         elif ln.startswith("## "):
             in_region = False
+            cur_h2 = ln.strip()
         elif SUBSEC_RE.match(ln):
             subsec = _md(SUBSEC_RE.match(ln).group(1))
 
@@ -214,6 +235,18 @@ def extract(text, asof):
                     warnings.append(f"{section}/{subsec}: column-count mismatch {raw!r}")
                 i += 1
             continue
+
+        # UNADMITTED SECTION GUARD: a position-shaped table under a ## header that no
+        # section rule admits is SILENTLY DROPPED by the loop above. Silence is the
+        # failure mode this whole script was hardened against, so say so loudly.
+        if (not in_region) and ln.lstrip().startswith("|") and i + 1 < len(lines) \
+                and re.match(r"^\s*\|[\s:|-]+\|\s*$", lines[i + 1]):
+            hdr = [h.lower() for h in _cells(_md(ln) or ln)]
+            if _looks_positional(hdr):
+                warnings.append(
+                    f"UNADMITTED SECTION {cur_h2!r}: carries a POSITION-SHAPED table that no "
+                    f"section rule admits — its rows are in NEITHER live NOR withheld. "
+                    f"Extend POS_SECTION_RE/ACCOUNT_SECTION_RE or state the omission.")
         i += 1
     return live, withheld, warnings
 
@@ -258,9 +291,16 @@ def _normalize(header, raw, section, subsec, asof, section_class, table_has_mark
     mark = _num(_get(header, cells, "mark"))
     pnl_raw = (_get(header, cells, "p&l") or "").strip()
 
+    # ACCOUNT: the row's own Acct cell wins. Otherwise the SECTION name, but only when
+    # the section IS an account (Fidelity/Robinhood). Never inferred from anything else.
+    acct = (_get(header, cells, "acct", "account") or "").strip()
+    if not acct:
+        acct = section if (section or "").lower() in ("fidelity", "robinhood") else "UNKNOWN"
+
     row = {
         "group": (subsec or section or "").strip(),
         "section": section,
+        "account": acct,
         "class": section_class,
         "ticker": (ticker or "").strip(),
         "instrument": (instrument or "").strip() or (typ or ""),
@@ -371,6 +411,41 @@ def _selftest(asof):
         ("defects raise warnings", len(warnings) == 2),
     ]
     for label, passed in checks:
+        print(f"  [{'PASS' if passed else 'FAIL'}] {label}")
+        ok &= passed
+
+    # --- 1b. SECTION-ADMISSION REGRESSIONS (2026-09-20) -----------------------
+    # Permanent cases for the ANVIL/WQ-272 gap: an "## Account <NAME>" section was
+    # invisible, so a real live position never reached the dashboard. Both the FIX and
+    # the GUARD are pinned here, because a guard's own v1 is the likeliest thing to be
+    # wrong and this one was written in the same pass as the fix it protects.
+    ACCT_FIXTURE = """## Account UNATTRIBUTED — receipted fills not yet attributed
+
+| Position | Acct | Qty | Cost | Mark 9/18 |
+|---|---|---|---|---|
+| **VLO** | **UNKNOWN** | 1 sh | $412.00 | $413.28 |
+"""
+    UNADMITTED_FIXTURE = """## Mystery Broker — a section no rule admits
+
+| Position | Qty | Cost | Mark 9/18 |
+|---|---|---|---|
+| **XYZ** | 5 sh | $10.00 | $11.00 |
+"""
+    aL, aW, aWarn = extract(ACCT_FIXTURE, asof)
+    uL, uW, uWarn = extract(UNADMITTED_FIXTURE, asof)
+    sec_checks = [
+        ("'## Account <NAME>' section is admitted", len(aL) == 1),
+        ("its row reaches the LIVE set", bool(aL) and aL[0]["ticker"] == "VLO"),
+        ("group carries the account section name",
+         bool(aL) and aL[0]["group"] == "UNATTRIBUTED"),
+        ("account is the row's own FIELD, not inferred",
+         bool(aL) and aL[0]["account"] == "UNKNOWN"),
+        ("admitting it raises NO warning", not aWarn),
+        ("unadmitted position-shaped section WARNS",
+         bool(uWarn) and "UNADMITTED SECTION" in uWarn[0]),
+        ("...and its rows are in neither bucket", not uL and not uW),
+    ]
+    for label, passed in sec_checks:
         print(f"  [{'PASS' if passed else 'FAIL'}] {label}")
         ok &= passed
 
