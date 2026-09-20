@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-19 PM (3rd) — CATO recheck: partial closure. Two live errors corrected, one genuine judgement recorded as a standing carry
+
+**No verdict or scoreboard change** (16 / 15 / 1 special / 1 qualified / 1 OPEN). CATO's recommendation — *stop here, record the carries, no further broad repair round* — is accepted; only named live errors were touched.
+
+1. 🔴 **The "three largest VIX rises" selection was WRONG.** It named 7/29, 6/23, **7/17** — but 7/17 is the **fifth** largest; **7/13 (ΔVIX +2.13) and 7/23 (+2.06) both outrank it and were omitted**, because the ranking was taken across the **seven FXY-positive sessions** rather than all 24 risk-off sessions — **a selection conditioned on the outcome**, with 7/13 named above 7/17 in the governing packet's own evidence table. Corrected top three, same clock: **7/29 +0.232% · 6/23 +0.018% · 7/13 −0.493%** — no haven bid on any. ⚠️ **Direction note: both omitted sessions show the yen WEAKENING, so this error ran AGAINST the verdict** — the opposite of every other defect in this episode. Corrected because it is wrong, not because it helps. ⛔ **But it puts the unresolved case in the top three:** 7/13 is the packet's flagged conflict (same-clock FXY −0.493% vs 4-of-4 cross strength), and it needs intraday data this desk lacks.
+2. ⚖️ **STANDING CARRY, accepted and NOT closed:** *a window-wide mean cannot exclude the relationship returning late in the window.* The only two broad-bid sessions, **9/8–9/9**, are the window's **last** risk-off sessions — exactly where a late return would sit; the aggregate cannot distinguish "never re-coupled" from "re-coupled in September." What still holds FALSE: the **regime** reading, no spike (VIX 15.72 / 16.46), OPEN attribution. **What does NOT hold: any claim the aggregate EXCLUDES a late re-coupling.** ⇒ **SAM-31 is an interpretive owner judgement and must be reported WITH its qualification — a bare "FAILED" drops information that matters.**
+3. **Two consumer-surface leftovers corrected:** `NEXUS_BRIEF.md` still read *"TWO REMAIN UNADJUDICATED"* (**second time tonight the brief kept a live instruction its own header had superseded** — same class both times), and `MEMORY.md` restated the withdrawn "+2% blended" rationale before retracting it further down.
+
+**Owed and NOT scheduled:** matched **intraday** cross-pair data for **7/13** and **9/8–9/9** — the one instrument that would settle both the conflict and the late-return question. Sep-7/8 attribution stays OPEN (~Nov-9 MOF, ~Nov-13 FRBNY). Positions not independently recertified. **v1.7 stands · book FLAT.** Term fields untouched (git field-diff: Notes only, 1 row).
+
+---
+
 ## 2026-09-19 PM (2nd) — CATO's review OF the ruling: upheld 4/4. SAM-31's FALSE now carries stated qualifications; two defects were the ruling pass's own
 
 **Old view:** the ruling was complete and both dispositions were settled; SAM-31 FALSE asserted flat on "leg 1 + the episode screen".

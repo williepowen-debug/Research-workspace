@@ -66,6 +66,8 @@ CATO is right in general: a mean over 24 sessions cannot refute an existential e
 | Session | VIX | ΔVIX | FXY | Yen stronger across USDJPY/EURJPY/AUDJPY/GBPJPY |
 |---|---|---|---|---|
 | **7/29** — window's largest VIX rise | **20.66** (window max) | +2.45 | +0.232% | **1 of 4** |
+
+⛔ **THE ROW-SELECTION BELOW THIS TABLE IS WRONG — see ADDENDUM 2 §B1.** "7/17" is the **fifth** largest VIX rise, not the third; **7/13 (+2.13) and 7/23 (+2.06) were omitted** because the ranking was taken across the seven FXY-POSITIVE sessions rather than all 24 risk-off sessions — a selection conditioned on the outcome. Both omitted sessions had the yen **weakening**, so the error ran **against** this verdict. Corrected figures in ADDENDUM 2.
 | 6/23 — 2nd largest | 19.49 | +2.21 | +0.018% | 2 of 4 |
 | 7/17 — 3rd largest | 18.77 | +2.04 | +0.106% | 2 of 4 |
 | **9/8** — the only broad yen bid | **15.72** | +1.19 | **+1.517%** | **4 of 4** |
@@ -167,3 +169,50 @@ The ruling states that daily FX (Europe/London) and FXY (America/New_York) are n
 - **SAM-31's episodic reading is unresolved**, and it needs matched **intraday** cross-pair data for Sep-8/9 (and Jul-13) that this desk does not have. **It is not scheduled.**
 - **Sep-7/8 official attribution remains OPEN** and is the hinge for both that episode and the withdrawn Episode-B control. Primaries land ~Nov-9 (MOF quarterly) and ~Nov-13 (FRBNY Q3).
 - **Market history and broker positions were not independently recertified this session** (CATO's note). Book last recorded FLAT, not newly broker-reconciled.
+
+---
+
+# ADDENDUM 2 — CATO recheck (`runs/2026-09-19_2205_sam-correction-recheck.md`): partial closure, and one more real error
+
+**CATO's verdict — "a reasonable stopping point, with partial closure, not all four fully fixed" — is accepted.** Three carries were named. ⛔ **Two of them are live ERRORS and are corrected here rather than carried; the third is a genuine open judgement and is recorded as a standing carry.** No broad repair round, per CATO's own recommendation.
+
+## B1 — 🔴 THE "THREE LARGEST VIX RISES" SELECTION WAS WRONG, AND I BUILT IT FROM THE OUTCOME
+
+The ADDENDUM-A2 table named **7/29, 6/23, 7/17** as the three largest VIX-rise episodes. **Re-derived across all 24 risk-off sessions, ranked by ΔVIX:**
+
+| Rank | Session | ΔVIX | VIX | FXY (same clock) | In my table? |
+|---|---|---|---|---|---|
+| 1 | 2026-07-29 | +2.45 | 20.66 | +0.232% | ✅ |
+| 2 | 2026-06-23 | +2.21 | 19.49 | +0.018% | ✅ |
+| 3 | **2026-07-13** | **+2.13** | 17.16 | **−0.493%** | ⛔ **OMITTED** |
+| 4 | **2026-07-23** | **+2.06** | 18.70 | **−0.391%** | ⛔ **OMITTED** |
+| 5 | 2026-07-17 | +2.04 | 18.77 | +0.106% | ❌ included as "third" |
+
+**7/17 is the FIFTH largest, not the third.** ⛔ **The cause is the defect, not the ranking:** I ranked within the **seven sessions where FXY rose** — the list I had already built as "episode candidates" — instead of across all 24 risk-off sessions. **That is a selection conditioned on the outcome**, and the packet's own evidence table had named 7/13 (+2.13) above 7/17 in plain sight.
+
+⚠️ **The direction here is the opposite of this episode's pattern, and it should be said plainly.** Both omitted sessions (7/13 **−0.493%**, 7/23 **−0.391%**) had the yen **weakening**. Including them makes the same-clock picture **more** adverse to SAM-31, not less — **this error ran AGAINST my own verdict.** Every other defect found across this grading episode ran in my favour. **Corrected because it is wrong, not because it helps.**
+
+🔴 **But it puts the unresolved case in the top three.** **7/13 is the exact session the governing packet singled out** — *"matched intraday cross-pair evidence and episode mechanism, especially July 13 where daily FX signs conflict with FXY."* Same-clock FXY says the yen **weakened** 0.49%; the daily crosses say the yen strengthened on **4 of 4**. **That conflict is unresolved and needs intraday data I do not have.** So the third-largest VIX-rise episode in the window is one I cannot read, and the corrected statement is:
+
+> **On the three largest VIX-rise episodes the yen did not produce a haven bid on same-clock FXY (+0.232% / +0.018% / −0.493%) — and on the third of them the same-clock and cross-clock measures disagree outright, unresolved.**
+
+## B2 — CATO's carry on SAM-31 ACCEPTED AS A STANDING OPEN ITEM, not closed
+
+> *"A negative average over the whole window cannot exclude a relationship returning late in that window. The missing cross-pair evidence remains material."*
+
+**This is correct and it is sharper than the episode point it follows.** A window-wide mean is insensitive to **when** the relationship sits. The two consecutive sessions where the yen bid broadly, **9/8 and 9/9 (4 of 4 crosses both days)**, are the **last** risk-off sessions in the window — exactly where a late return would appear. ⛔ **My same-clock aggregate cannot distinguish "the channel never re-coupled" from "the channel re-coupled in September."**
+
+⚠️ **What still holds FALSE:** the row's registered form is a **regime** claim (`THESIS` route 3: *"decoupled Jun 11 … re-snap needs a VIX spike"*), 9/8–9/9 ran at **VIX 15.72 / 16.46** — no spike — and their attribution is **OPEN**. **What does NOT hold:** any claim that the aggregate *excludes* a late return. It does not.
+
+⚖️ **Recorded as a standing carry, not resolved: SAM-31's FALSE is an interpretive owner judgement on the regime reading. A late-window re-coupling is not excluded by my evidence, and the missing matched-intraday cross-pair data is material to it — not a technicality.**
+
+## B3 — MEMORY led with the withdrawn rationale before correcting it later
+
+`MEMORY.md` restated the "+2% blended" argument in its LAST SESSION block and only withdrew it further down. A reader hits the retracted reason first. Corrected in place.
+
+## Standing carries after this pass
+
+1. **SAM-31 is an interpretive owner judgement** (B2). A late-window return is not excluded. **Preserve the qualification whenever this row is reported — "15 wrong" alone drops information that matters.**
+2. **Matched intraday cross-pair data for 7/13 and 9/8–9/9 is owed and NOT scheduled.** It is the instrument that would settle both B1's conflict and B2's late-return question.
+3. **Sep-7/8 attribution OPEN** — primaries ~Nov-9 (MOF quarterly), ~Nov-13 (FRBNY Q3).
+4. **Positions not independently recertified** this session.
