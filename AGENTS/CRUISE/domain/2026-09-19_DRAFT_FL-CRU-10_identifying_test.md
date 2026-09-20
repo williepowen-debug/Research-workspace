@@ -1,6 +1,6 @@
 # DRAFT — an identifying test for `FL-CRU-10` (NCLH → CCL Caribbean pricing transmission)
 
-**Status: ⛔ DRAFT v2 FOR REVIEW — revised on CATO's four points. NOT REGISTERED. Not a prediction until reviewed and pre-committed.**
+**Status: ⛔ DRAFT v3 FOR REVIEW — v2's resolver rebuilt on CATO's v2 review (one resolver was doing two jobs). NOT REGISTERED. Not a prediction until reviewed and pre-committed.**
 **Written:** 2026-09-19 Sat (CRUISE) · **Must be frozen before:** the ACTUAL release, whenever it publishes on 2026-09-29 — ⛔ **not "08:00 ET", which was an assumption, not a published time (CATO review pt 4). Freezing before Monday's open removes the risk entirely.**
 **Replaces:** the non-identifying test I logged on 9/19 (*"Q4 CC yield near ~0.5% confirms, ≥~1.15% refutes"*), withdrawn on CATO F2.
 **Leaves untouched:** `CRU-07` and `CRU-08` — different objects, registered definitions unchanged, **this draft does not amend them.**
@@ -48,34 +48,51 @@ I wrote a test on an **aggregate level**: Carnival's Q4 constant-currency yield 
 - The mechanism is **close-in discounting** — a booking-curve phenomenon. Carnival distinguishes close-in from advance pricing in its own language and reports booked position.
 - **Advance-book weakness at held prices is a different thing and does not support this channel.**
 
-## 4 · OUTCOMES — EVALUATED IN ORDER, FIRST MATCH WINS
+## 4 · TWO SEPARATE OBJECTS, TWO SEPARATE RESOLVERS
 
-⛔ **REWRITTEN 2026-09-19 (CATO review pt 2): the previous rules WERE NOT MUTUALLY EXCLUSIVE.** *"Caribbean pricing is improving, although competitors' promotions are holding back growth"* satisfied **both** SUPPORTED and CONTRADICTED as written. **Rules are now ordered and disjoint.**
+⛔ **v3 (CATO review of v2, pt 1): v2 BUILT ONE RESOLVER AND USED IT FOR TWO DIFFERENT THINGS.** The five-row table graded the *channel* while §9b tried to grade the *prediction* off it — and row 2 (mixed) mapped to no grade at all. **More basically: a qualifying competitive-pressure statement can confirm the DISCLOSURE forecast even while Caribbean prices are improving.** Those are not in tension; they only looked so because one table was doing two jobs.
 
-**Evaluate against the COMPLETE corpus (§4b) in this order and stop at the first match:**
+### 4a · RESOLVER ① — THE DISCLOSURE FORECAST (`CRU-09`). Complete, disjoint, three outcomes.
 
-| # | Verdict | Condition |
-|---|---|---|
-| **1** | ⚠️ **NO-VERDICT (data unavailable)** | Any of release / prepared remarks / Q&A **not obtainable** at the grading cutoff. **Missing evidence is not silence.** |
-| **2** | ⚠️ **UNRESOLVED (mixed)** | Both a competitive-drag statement **and** a firm/improving-Caribbean-pricing statement appear. **Improvement alone cannot refute a drag, and a drag alongside improvement cannot confirm concentration.** |
-| **3** | ⛔ **CONTRADICTED** | Carnival affirmatively reports Caribbean pricing as **firm or improving for the stated period**, **AND no competitive-drag attribution appears anywhere in the corpus.** |
-| **4** | ✅ **SUPPORTED** | **Management's own words** attribute yield/pricing pressure **for a named period** to **competitor discounting or promotional behaviour** (⛔ **not capacity growth alone**), **AND** the weakness is **Caribbean-CONCENTRATED** — i.e. Carnival distinguishes it from its other regions, not merely mentions the Caribbean. |
-| **5** | ⚠️ **UNRESOLVED (silence / insufficient)** | Everything else, including a complete corpus with no qualifying attribution. **The default.** |
+| Evidence state | Grade |
+|---|---|
+| **Complete corpus** (release **+** prepared remarks **+** Q&A) **AND** a qualifying management statement per §4b | ✅ **CONFIRMED** |
+| **Complete corpus** and **no** qualifying statement | ⛔ **FAILED** |
+| **Incomplete coverage**, or wording **genuinely ambiguous** as to whether §4b is met | ⚠️ **NO-VERDICT** (does not enter the calibration record) |
 
-### 4b · SCOPE RULES THAT BIND EVERY ROW ABOVE
-- **⛔ ONLY MANAGEMENT'S OWN WORDS COUNT.** An analyst *asking* about Caribbean competitive pressure is **not** attribution. **Management must endorse the premise in its own answer** — a deflection, a non-answer, or a restatement of the question does not count.
-- **PERIOD MUST BE NAMED.** The statement must attach to a stated period — the reported quarter, Q4-26, or FY27. **Undated "the environment is competitive" boilerplate does not qualify** (it appears in most cruise calls in most quarters).
-- **⛔ CAPACITY-ONLY IS EXCLUDED.** Industry capacity growth and distressed discounting both produce competitive language. **Capacity commentary without promotional/pricing-behaviour attribution ⇒ no qualifying statement.**
-- **"CARIBBEAN-CONCENTRATED" ≠ "MENTIONS THE CARIBBEAN."** Concentration requires Carnival to **distinguish** the Caribbean from its other deployments. A Caribbean mention inside a general remark is not concentration.
-- **COMPLETE CORPUS** = the earnings release **and** prepared remarks **and** Q&A. **Silence is only silence once all three are reviewed.**
+**⛔ NOTHING ELSE ENTERS THIS RESOLVER.** Whether Caribbean pricing is *also* described as improving is **irrelevant to `CRU-09`** — a company can report improving prices *and* attribute a competitive drag in the same breath, and that is a CONFIRMED disclosure. **Improvement language is evidence about the channel, not about what was disclosed.**
 
-## 5 · THE TWO FALSIFICATION ASYMMETRIES, DEMONSTRATED
+### 4b · WHAT COUNTS AS A QUALIFYING MANAGEMENT STATEMENT
+All four bind:
+- **⛔ MANAGEMENT'S OWN WORDS.** An analyst *asking* is not attribution. **A deflection, non-answer or restatement of the question does not count.**
+- **NAMED PERIOD** — the reported quarter, Q4-26 or FY27. **Undated "the environment is competitive" boilerplate does not qualify.**
+- **⛔ NOT CAPACITY-ONLY.** Industry capacity growth without promotional/pricing-behaviour attribution does not qualify.
+- **CARIBBEAN-CONCENTRATED, not merely mentioned** — Carnival must **distinguish** the Caribbean from its other deployments.
 
-**① Unrelated yield weakness CANNOT falsely confirm.** Support requires **Leg 1 attribution language**, which a Europe drag, an occupancy miss, FX or a dry-dock cannot produce. **A Q4 guide at 0.5% with no competitor-pressure language is UNRESOLVED, not SUPPORTED** — under the old test it would have been a confirm.
+### 4c · RESOLVER ② — THE CHANNEL (`FL-CRU-10`). Qualitative, and it does NOT grade `CRU-09`.
 
-**② Offsetting strength CANNOT falsely refute.** Contradiction requires an **affirmative** statement that Caribbean pricing is firm, or attribution that excludes competitors **under direct questioning**. **A Q4 guide at 1.15% with Carnival citing Caribbean competitive pressure is SUPPORTED, not CONTRADICTED** — under the old test it would have been a refute.
+| Observation | Channel |
+|---|---|
+| Norwegian named, or behaviour described that is uniquely Norwegian's | ✅ **SUPPORTED** |
+| Carnival affirmatively states Caribbean pricing firm/improving **and** no competitive-drag language anywhere in a complete corpus | 🟡 **WEAKENED — not contradicted.** ⛔ **Absence of mention is not absence of the mechanism** (v3, CATO pt 2). |
+| **Anything else**, including competitive pressure attributed to **another named operator** | ⚠️ **UNRESOLVED** |
 
-**⇒ The aggregate yield number is recorded as CONTEXT and carries no verdict weight on its own.** That is the whole repair.
+**⛔ v3 CORRECTION (CATO pt 2): another operator's involvement does NOT exclude Norwegian's.** v2's table called that CONTRADICTED. **Both can contribute to the same Caribbean pricing environment**, so it is UNRESOLVED. **There is no observation at this print that CONTRADICTS the channel outright** — the strongest available negative is *weakened*, and I am stating that plainly rather than manufacturing a symmetry the evidence cannot support.
+
+## 5 · THE TWO FALSIFICATION ASYMMETRIES, RE-STATED FOR v3
+
+⛔ **This section was stale after the v3 rebuild — it still mixed the two resolvers and referenced a channel "CONTRADICTED" state that v3 removed. Rewritten; keep the two objects apart.**
+
+**① Unrelated yield weakness CANNOT falsely confirm — either object.**
+A Europe/Med drag, an occupancy miss, FX or a dry-dock can produce any yield number without producing **a qualifying management attribution**. **A Q4 guide at 0.5% with no competitor-pressure language is `CRU-09` FAILED and the channel UNRESOLVED.** ⛔ **Under the withdrawn yield-level test it would have been a CONFIRM.** That is the repair.
+
+**② Offsetting strength CANNOT falsely refute — either object.**
+**A Q4 guide at 1.15% WITH a qualifying Caribbean competitive-pressure attribution is `CRU-09` CONFIRMED**, because the disclosure occurred regardless of the aggregate. ⛔ **Under the withdrawn test it would have been a REFUTE.** For the channel it is **UNRESOLVED** — the attribution does not name Norwegian.
+
+**③ And the asymmetry v3 adds, which is a limit rather than a strength: THERE IS NO OBSERVATION AT THIS PRINT THAT CONTRADICTS THE CHANNEL.**
+The strongest available negative — firm/improving Caribbean pricing with no competitive-drag language anywhere in a complete corpus — is **WEAKENED, not contradicted**, because **absence of mention is not absence of the mechanism.** ⚠️ **I am recording this rather than manufacturing a symmetry the evidence cannot support: this print can support the channel, weaken it, or leave it alone — it cannot kill it.** If the channel is to be killable, that has to come from a different instrument, and it is not built here.
+
+**⇒ The aggregate yield number carries no verdict weight for either object. That is the whole repair.**
 
 ## 6 · COMPETING EXPLANATIONS I MUST RULE OUT BEFORE CLAIMING SUPPORT
 
@@ -104,40 +121,42 @@ I wrote a test on an **aggregate level**: Carnival's Q4 constant-currency yield 
 ## 8 · A SECOND, INDEPENDENT READING — NORWEGIAN'S OWN PRINT
 Norwegian's next print (**vendor-estimated 2026-11-04, ⛔ NOT confirmed at primary — no IR event listing, no SEC filing since 9/1; KB-CRU-087**) gives link **B** directly: whether its repricing is Caribbean-concentrated. **A second, later, independent read on the same chain — and it costs nothing to wait for.**
 
-## 9 · THE PROPOSED ROW — AND WHAT IT DOES *NOT* BUY
+## 9 · THE ROW
 
-### ⛔ 9a · THE DECOUPLING, WHICH IS THE MOST IMPORTANT CHANGE IN THIS REVISION
-**A CONFIRMED `CRU-09` DOES NOT UPGRADE `FL-CRU-10`. NOT PARTIALLY, NOT AUTOMATICALLY.**
+### 9a · THE DECOUPLING — A CONFIRMED `CRU-09` BUYS `FL-CRU-10` NOTHING
+`CRU-09` forecasts **what Carnival discloses**. `FL-CRU-10` claims **Norwegian causes it**. Generic competitor attribution satisfies the first and is silent on the second — MSC, Royal Caribbean, Virgin or Disney promotions satisfy it identically.
 
-`CRU-09` forecasts **what Carnival will disclose**. `FL-CRU-10` claims **Norwegian causes it**. **Generic competitor attribution satisfies the first and says nothing about the second** — MSC, Royal Caribbean, Virgin or Disney promotions would satisfy it identically. *(CATO review pt 1.)*
-
-| Observation | `CRU-09` | `FL-CRU-10` |
+| Observation (complete corpus unless stated) | `CRU-09` | `FL-CRU-10` |
 |---|---|---|
-| Q4 guide 0.5%, no competitor language, complete corpus | **FAILED** | **unresolved** |
-| Own-period Caribbean pressure attributed to *unnamed* competitors' promotions | **CONFIRMED** | **STILL UNRESOLVED** |
-| Pressure attributed expressly to **another named operator**, no Norwegian link | **CONFIRMED** | **CONTRADICTED on the Norwegian link** |
-| Caribbean capacity growth only, no promotional attribution | **FAILED** | **unresolved** |
-| Q&A inaccessible at cutoff | **NO-VERDICT** | **unresolved** |
+| Q4 guide 0.5%, no competitor language | **FAILED** | unresolved |
+| Own-period, **Caribbean-concentrated** pressure attributed to *unnamed* competitors' promotions | **CONFIRMED** | **unresolved** |
+| Same, **plus** "Caribbean pricing is improving" in the same remarks | **CONFIRMED** | **unresolved** |
+| Pressure attributed expressly to **another named operator**, no Norwegian link | **CONFIRMED** | **unresolved** *(v3: not contradicted — both can contribute)* |
+| Caribbean pricing firm/improving, **no** competitive-drag language anywhere | **FAILED** | **weakened** |
+| Competitive pressure mentioned but **not Caribbean-distinguished** | **FAILED** *(§4b concentration unmet)* | unresolved |
+| Caribbean **capacity** growth only, no promotional attribution | **FAILED** | unresolved |
+| Q&A inaccessible at cutoff | **NO-VERDICT** | unresolved |
 
-**⇒ `FL-CRU-10` upgrades ONLY on Norwegian-specific attribution** — Carnival naming Norwegian, or naming a competitor whose described behaviour is uniquely Norwegian's. **I judge that unlikely; companies rarely name rivals. The channel will most probably remain Partial after this print, and that is the honest expectation to hold going in.**
+**⇒ The channel upgrades ONLY on Norwegian-specific attribution. I expect it to remain Partial after this print, and that is the going-in expectation.**
 
-### 9b · THE ROW
+### 9b · THE ROW, VERBATIM
+> **`CRU-09` — "At Carnival's Q3 FY26 print (2026-09-29), reviewing the COMPLETE corpus — earnings release, prepared remarks and Q&A — Carnival's MANAGEMENT, IN ITS OWN WORDS, attributes yield or pricing pressure FOR A NAMED PERIOD to competitor discounting or promotional behaviour (not capacity growth alone), in CARIBBEAN-CONCENTRATED form as defined in §4b."**
+> **Confidence: 25%** · **Timeframe: by 2026-10-03** · **Resolver: §4a and nothing else.** CONFIRMED / FAILED / **NO-VERDICT** (incomplete coverage or genuinely ambiguous wording; **does not enter the calibration record**).
+> ⛔ **Carries NO automatic implication for `FL-CRU-10`.**
 
-> **`CRU-09` — "At Carnival's Q3 FY26 print on 2026-09-29, reviewing the COMPLETE corpus (release + prepared remarks + Q&A), MANAGEMENT IN ITS OWN WORDS attributes yield or pricing pressure FOR A NAMED PERIOD to competitor discounting or promotional behaviour (not capacity growth alone), in a CARIBBEAN-CONCENTRATED form as defined in §4b."**
-> **Confidence: 20%** · **Timeframe: by 2026-10-03** (allows for transcript availability) · **Resolves:** CONFIRMED on §4 row 4; **FAILED** on §4 rows 3 or 5; **NO-VERDICT** on §4 row 1 — **a no-verdict is not a FAILED and does not enter the calibration record.**
+### 9c · WHY 25%, RECONFIRMED AGAINST THIS FINAL DEFINITION
+**20% → 25%, a modest revision UP for one named reason, not tuning.** v2 sent the *mixed* case — a qualifying attribution **alongside** improving-price language — to a non-grade. **v3's resolver grades it CONFIRMED, because it is a disclosure that occurred.** That combination is common in practice ("pricing is holding up well, though the environment is promotional"), so the qualifying set genuinely widens.
 
-### 9c · WHY 20% AND NOT 30% — RECONFIRMED AGAINST THE FINAL WORDING, NOT TUNED
-**I originally proposed 30% against looser wording. The revision raised the bar in four places** — management's own words only, a named period, capacity excluded, and concentration rather than mention. **Each strictly shrinks the qualifying set, so the probability must fall; leaving it at 30% would have been an unrevised number attached to a revised claim.**
+Against it: management endorsement **in its own words**, **period-scoped**, **Caribbean-distinguished** and **not capacity** remains a specific concession. Carnival's stated recent problem was **Europe/Med**; it has been promoting Celebration Key; and its Q2 framing attributed second-half moderation to the **Middle East conflict**, not Caribbean competition. **25% is my subjective estimate, labelled as such. CATO twice declined to set it and was right to.**
 
-**20% is my subjective estimate and is labelled as such.** Reasoning: analysts will very likely *ask* (two published notes), but management endorsement in its own words, period-scoped and region-distinguished, is a specific concession; Carnival's stated recent problem was **Europe/Med**, it has been promoting Celebration Key, and its Q2 framing attributed second-half moderation to **the Middle East conflict**, not Caribbean competition. **⛔ CATO explicitly declined to tune this number and was right to — it is mine, and a rare confirmation is not valuable unless it discriminates, which is what §9a is for.**
-
-### 9d · TWO JUDGMENT CALLS I COULD STILL BE WRONG ABOUT
-1. **Leg 3 (close-in vs advance) strengthens but is not required.** Requiring it would make the test near-unfalsifiable in the supporting direction, since it is the detail management is least likely to volunteer.
-2. **Capacity-versus-distress remains the weakest discriminator.** Now handled by exclusion — capacity-only never qualifies — which is deliberately the conservative direction: **it costs the thesis rather than flattering it.**
+### 9d · JUDGMENT CALLS I COULD STILL BE WRONG ABOUT
+1. **Concentration is required for CONFIRMED.** A Caribbean mention inside a general remark fails. **This is the strictest clause and the one most likely to turn a real disclosure into a FAILED.**
+2. **Close-in vs advance is not required** — requiring it would make the test near-unfalsifiable in the supporting direction.
+3. **No CONTRADICTED state exists for the channel at this print** (§4c). If that asymmetry is wrong, this is where to say so.
 
 ## 10 · WHAT I AM ASKING FOR
 1. **Review of this design before I register it** — particularly §5's two asymmetries and §7's honest data gap.
-2. If accepted, register **§9's row verbatim** as `CRU-09`, **pre-committed and committed before 2026-09-29 08:00 ET.** **Change the wording or the 30% now, not after the print.**
+2. If accepted, register **§9b verbatim** as `CRU-09` at **25%**, **committed before the ACTUAL release on 2026-09-29** — freezing before Monday's open removes the timing risk entirely. **Change the wording or the 25% now, not after the print.**
 3. ⛔ **`CRU-07` and `CRU-08` remain untouched.** Different objects, registered definitions unchanged.
 
 **No trade, no level, no position turns on this. `$0`.**
