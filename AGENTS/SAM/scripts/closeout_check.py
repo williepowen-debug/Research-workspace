@@ -313,6 +313,12 @@ PRED_FIELDS = ['Pred_ID', 'Date_Made', 'Prediction', 'Confidence', 'Timeframe',
 CONFIRM_CLASS = {'CONFIRMED', 'RESOLVED', 'RESOLVED CONFIRMED',
                  'RESOLVED CONFIRMED — TRUE-IN-LETTER / FALSE-IN-SPIRIT'}
 SPECIAL_CLASS = {'RESOLVED — TRUE-IN-LETTER / FALSE-IN-SPIRIT'}
+# ⚠️ Added 2026-09-19 PM with SAM-28's regrade. THIS FILE KEEPS ITS OWN STATUS
+# VOCABULARY, SEPARATE FROM scripts/lib/boot_context.py STATUSES — the new token was
+# added there first and check D failed here on the same run, which is the only reason
+# the split was noticed. Two guards over one fact, and updating one does not update
+# the other. ⛔ ANY future status token must be added in BOTH places.
+QUALIFIED_CLASS = {'RESOLVED — QUALIFIED / NO-VERDICT'}
 
 
 def _pred_rows():
@@ -326,13 +332,16 @@ def check_scoreboard(problems):
     conf = [r for r in rows if r['Status'].strip() in CONFIRM_CLASS]
     fail = [r for r in rows if r['Status'].strip() == 'FAILED']
     spec = [r for r in rows if r['Status'].strip() in SPECIAL_CLASS]
+    qual = [r for r in rows if r['Status'].strip() in QUALIFIED_CLASS]
     opn = [r for r in rows if r['Status'].strip() == 'OPEN']
-    if len(conf) + len(fail) + len(spec) + len(opn) != len(rows):
-        unk = {r['Status'].strip() for r in rows} - CONFIRM_CLASS - SPECIAL_CLASS - {'FAILED', 'OPEN'}
+    if len(conf) + len(fail) + len(spec) + len(qual) + len(opn) != len(rows):
+        unk = ({r['Status'].strip() for r in rows} - CONFIRM_CLASS - SPECIAL_CLASS
+               - QUALIFIED_CLASS - {'FAILED', 'OPEN'})
         problems.append('D [step 11] PREDICTIONS.tsv has unclassified Status value(s): %s '
                         '— the derived scoreboard cannot be trusted' % sorted(unk))
         return None
     derived = (len(conf), len(fail), len(spec), len(opn))
+    derived5 = (len(conf), len(fail), len(spec), len(qual), len(opn))
 
     # Any LIVE surface asserting a scoreboard must match the derivation.
     #
@@ -344,6 +353,14 @@ def check_scoreboard(problems):
     # for 23 days across two resolutions and this check would have passed it.
     # My own test for D used a synthetic four-part fixture I wrote myself, so it
     # confirmed my assumption instead of the artifact. Three forms are matched now.
+    # 5-part form, live since 2026-09-19 PM: "16 CONFIRMED / 15 FAILED / 1 special / 1 qualified / 1 OPEN".
+    # ⛔ MUST be matched BEFORE `four`, and `four` must not match inside it: the 4-part
+    # pattern cannot match this string anyway (a `qualified` term sits between `special`
+    # and `OPEN`), which means that WITHOUT this pattern the check would have silently
+    # stopped verifying the scoreboard on every live surface — passing, while checking
+    # nothing. That is the failure direction this file has already shipped three times.
+    five = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special'
+                      r'\s*/\s*(\d+)\s*qualified\s*/\s*(\d+)\s*OPEN')
     four = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special\s*/\s*(\d+)\s*OPEN')
     three = re.compile(r'(\d+)\s*CONFIRMED\s*/\s*(\d+)\s*FAILED\s*/\s*(\d+)\s*special(?!\s*/)')
     lone = re.compile(r'(\d+)\s*OPEN\b')
@@ -353,6 +370,21 @@ def check_scoreboard(problems):
         if not f.exists():
             continue
         text = f.read_text(encoding='utf-8')
+        for m in five.finditer(text):
+            got = tuple(int(g) for g in m.groups())
+            if got != derived5:
+                problems.append('D [step 11] %s asserts scoreboard %d/%d/%d/%d/%d but the file derives '
+                                '%d/%d/%d/%d/%d — re-derive, never carry a count forward'
+                                % ((rel,) + got + derived5))
+        # A 4-part scoreboard is INCOMPLETE, not merely possibly-wrong, once any
+        # qualified row exists: its four numbers can each be right while the row is
+        # invisible and the parts no longer sum to the file.
+        if qual:
+            for m in four.finditer(text):
+                problems.append('D [step 11] %s carries a 4-part scoreboard "%s" while %d qualified '
+                                'row(s) exist — the qualified class is omitted, so the parts do not '
+                                'sum to the file (%d rows). Use the 5-part form.'
+                                % (rel, m.group(0).strip(), len(qual), len(rows)))
         for m in four.finditer(text):
             got = tuple(int(g) for g in m.groups())
             if got != derived:
@@ -381,7 +413,7 @@ def check_scoreboard(problems):
             if not ('predictions.tsv' in low or 'scoreboard' in low):
                 continue
             masked = line
-            for m in list(four.finditer(line)) + list(three.finditer(line)):
+            for m in list(five.finditer(line)) + list(four.finditer(line)) + list(three.finditer(line)):
                 masked = masked[:m.start()] + ' ' * (m.end() - m.start()) + masked[m.end():]
             for m in lone.finditer(masked):
                 if _is_historical_quote(line, m.start(), m.end()):

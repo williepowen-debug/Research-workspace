@@ -525,6 +525,68 @@ def test_R3_truncated_warnings_say_how_many_were_hidden():
         cc.DELEGATED = saved
 
 
+# ---------------------------------------------------------------------------
+# 2026-09-19 PM — SAM-28 regraded to RESOLVED — QUALIFIED / NO-VERDICT.
+# Counterexamples built from the LIVE wording that shipped that evening, not from
+# a synthetic fixture — the composed-fixture trap this file has hit twice.
+# Each test below was RUN AGAINST THE PRE-FIX CODE first; all three fail there.
+# ---------------------------------------------------------------------------
+
+def _qual_dir(status_line):
+    """3 rows: one CONFIRMED, one FAILED, one QUALIFIED. No OPEN rows."""
+    d = pathlib.Path(tempfile.mkdtemp())
+    (d / 'thesis').mkdir()
+    hdr = '\t'.join(cc.PRED_FIELDS)
+    rows = [hdr,
+            '\t'.join(['SAM-01', '2026-01-01', 'p', '50%', 't', 'CONFIRMED', '2026-02-01', 'TRUE', 'n']),
+            '\t'.join(['SAM-02', '2026-01-01', 'p', '50%', 't', 'FAILED', '2026-02-01', 'FALSE', 'n']),
+            '\t'.join(['SAM-28', '2026-06-22', 'p', '40%', 't',
+                       'RESOLVED — QUALIFIED / NO-VERDICT', '2026-09-18', 'QUALIFIED', 'n'])]
+    (d / 'thesis' / 'PREDICTIONS.tsv').write_text('\n'.join(rows) + '\n', encoding='utf-8')
+    (d / 'STATUS.md').write_text(status_line, encoding='utf-8')
+    return d
+
+
+def _run_qual(status_line):
+    d = _qual_dir(status_line)
+    old, cc.SAM = cc.SAM, d
+    try:
+        p = []
+        res = cc.check_scoreboard(p)
+        return p, res
+    finally:
+        cc.SAM = old
+
+
+def test_QUAL_new_status_token_is_classified():
+    """PRE-FIX: 'unclassified Status value' and check_scoreboard returns None, so
+    every downstream scoreboard comparison is skipped entirely."""
+    p, res = _run_qual('Scoreboard 1 CONFIRMED / 1 FAILED / 0 special / 1 qualified / 0 OPEN\n')
+    assert res is not None, 'the qualified token must not blind the whole check'
+    assert not any('unclassified' in x for x in p), p
+    assert not any(x.startswith('D ') for x in p), p
+
+
+def test_QUAL_five_part_scoreboard_with_a_wrong_number_fires():
+    """PRE-FIX: no 5-part pattern existed, so the assertion went unchecked.
+
+    ⚠️ The first version of this test asserted only `startswith('D ')` and PASSED
+    against the pre-fix code — the unclassified-status problem also starts with 'D ',
+    so it passed for the WRONG REASON and discriminated nothing. Asserting on the
+    mismatch MESSAGE is what makes it a real regression test."""
+    p, _ = _run_qual('Scoreboard 1 CONFIRMED / 9 FAILED / 0 special / 1 qualified / 0 OPEN\n')
+    hits = [x for x in p if x.startswith('D ') and 'asserts scoreboard' in x]
+    assert hits, 'expected a 5-part scoreboard MISMATCH, got: %s' % p
+    assert '1/9/0/1/0' in hits[0], hits
+
+
+def test_QUAL_four_part_scoreboard_is_incomplete_once_a_qualified_row_exists():
+    """The four numbers are each CORRECT here; the defect is the omitted class, so
+    the parts no longer sum to the file. PRE-FIX this passed on both counts."""
+    p, _ = _run_qual('Scoreboard 1 CONFIRMED / 1 FAILED / 0 special / 0 OPEN\n')
+    assert any(x.startswith('D ') and 'qualified' in x for x in p), p
+
+
 if __name__ == '__main__':
     fails = skips = 0
     for name, fn in sorted(globals().items()):
