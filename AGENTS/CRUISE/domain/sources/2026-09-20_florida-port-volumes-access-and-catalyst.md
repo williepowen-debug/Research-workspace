@@ -9,10 +9,13 @@
 > ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
 > **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **§1 overstates the absence.** *"No Florida port publishes a monthly cruise passenger series"* is too strong: **Port Canaveral published 925,994 passenger movements for March 2025**, with a March-on-March comparison. What was actually established is that **no continuous CURRENT series surfaced in the sources inspected** — and board financial-report **attachments** (as opposed to agenda titles) were never censused. **The categorical "do not re-attempt" instruction is withdrawn** [CATO F7]. ⛔ **§4's causal grading rule is WITHDRAWN** (and with it the same rule in `CADENCE.md` trigger #8): volumes at/above budget beside a yield guide-down **cannot confirm discounting**, and a volume miss beside falling yields **cannot separate discounting from demand destruction**. Added capacity plus an unrelated geographic drag reproduces the first; price cuts and weak demand coexist in the second. **§3 correctly named the missing capacity denominator and then §4 bypassed it.** Port counts are **contextual volume evidence only** [KB-CRU-107 class / CATO F1]. ✅ **Survives:** the FY2025 figures and their vintage warning, the fiscal-year timing, and §5's record of the PortMiami conflation.
 >
-> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+> **Every withdrawn claim below is now STRUCK IN PLACE** — the original wording is kept in ~~strikethrough~~ with its replacement on the same line, so a reader or a `grep` that lands mid-document meets the retraction **at the claim**, not fifty lines above it.
+>
+> ⛔ **This paper originally carried the corrections in this banner ONLY, with the body left intact. That was wrong and TERRY caught it** (2026-09-20 PM): a grep for a withdrawn phrase landed on the false line and never travelled up. **A correction that does not travel with the claim leaves two live claims.** Fixed by striking in place.
 
 
-## 1. ⛔ ACCESS FINDING: no Florida port publishes a monthly cruise passenger series
+## 1. ⛔ CORRECTED HEADING (2026-09-20 PM, CATO F7) — ~~*ACCESS FINDING: no Florida port publishes a monthly cruise passenger series*~~
+### ✅ **REPLACEMENT: no CONTINUOUS, CURRENT monthly series surfaced in the sources inspected.** ⛔ **Port Canaveral HAS published monthly figures — 925,994 passenger movements for March 2025, with a March-on-March comparison.** The table below records **what was inspected**, not what exists.
 
 Checked all three homeports at their own surfaces:
 
@@ -22,7 +25,8 @@ Checked all three homeports at their own surfaces:
 | **PortMiami** | Annual table, FY2015–FY2025, on `cruise.page` | None found | Annual-only |
 | **Port Canaveral** | Annual ACFR + budget; board packets carry monthly **financial reports** | **No cruise passenger statistics item** on board agendas | Annual-only |
 
-⇒ **This is an ACCESS gap, not a research gap** — same class as the war-risk premium (`WQ-230`). No amount of further searching produces a monthly series that is not published. Recorded so it is not re-attempted.
+⛔ **WITHDRAWN — struck in place (CATO F7):** ~~*This is an ACCESS gap, not a research gap — same class as the war-risk premium (WQ-230). No amount of further searching produces a monthly series that is not published. Recorded so it is not re-attempted.*~~
+✅ **REPLACEMENT:** this is **a search limit, not a demonstrated publication absence.** The evidence was a set of pages read and **agenda TITLES** inspected — **board financial-report ATTACHMENTS were never censused, and that is the live route.** ⛔ **The "do not re-attempt" instruction is withdrawn: it would have frozen a search limit into a false fact.**
 
 **Fiscal-year convention (all three): FY ends September 30.**
 
@@ -60,7 +64,7 @@ The attractive read is: **record volumes + falling yield guidance = operators fi
 | **2026-09-30** | **Florida port FY2026 closes** | The physical-volume window over the stress period shuts |
 | **~Oct–Nov 2026** | Preliminary FY2026 port counts publish | **First independent physical read on whether ships were filled** |
 
-⇒ **This lands AFTER the print, so it cannot inform the 9/29 trade — it adjudicates the thesis ex post.** That is still worth having: if CCL guides yields down on 9/29 **and** FY2026 Florida volumes come in at or above the ~9M Canaveral budget, the discounting mechanism is confirmed from two independent directions. If volumes *miss* while yields fall, it is demand destruction, not discounting — **a materially different thesis with a different trade.**
+⇒ **This lands AFTER the print, so it cannot inform the 9/29 trade — it adjudicates the thesis ex post.** ⛔ **THE CAUSAL GRADING RULE THAT FOLLOWED HERE IS WITHDRAWN (CATO F1):** ~~*if CCL guides yields down and FY2026 volumes come in at/above budget the discounting mechanism is confirmed from two independent directions; if volumes miss while yields fall it is demand destruction.*~~ ✅ **NEITHER INFERENCE HOLDS.** Added capacity plus an unrelated geographic yield drag reproduces the first; price cuts and weaker demand coexist routinely in the second. **§3 correctly named the missing capacity denominator and this section then bypassed it.** ⇒ **Port counts are CONTEXTUAL VOLUME EVIDENCE ONLY** until cohort, capacity, itinerary and pricing comparisons exist.
 
 **⇒ Registering as a new CRUISE cadence trigger (#8).** Owner: CRUISE. No other desk watches Florida port statistics.
 

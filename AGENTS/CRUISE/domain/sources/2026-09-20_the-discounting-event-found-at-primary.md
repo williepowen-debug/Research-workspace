@@ -9,7 +9,9 @@
 > ## ⛔ CORRECTED 2026-09-20 PM — READ THIS BEFORE THE BODY
 > **This paper was reviewed the same day by CATO (report `9f24c7`) and, on three inference points, by a second CATO review relayed by PROME (`c34e56511`). Will approved applying both.** ⛔ **§4's central argument is WITHDRAWN.** I claimed Truist's same-day Carnival PT raise showed it read the discounting as Norwegian-specific. **The article I cited states the raise was *"on lower fuel and depreciation assumptions"*** — cost-side, carrying no information about transmission. **The contagion limb is UNRESOLVED, not CONTESTED** [KB-CRU-107]. ⛔ **§1–2 overstate the premise:** the sale is a **broad worldwide promotion including the Caribbean** (also Alaska, Mediterranean, Mexican Riviera), and NCL already ran a 50%-off headline on **6/23**, so it is not self-baselining; the **"~10–15%, not 50%"** bound was **invented** — the $280 is the **gratuity saving alone** (2 × 7 × $20) and cannot bound the fare discount [KB-CRU-108]. ⛔ **§3's "shared-source caveat substantially answered" is too strong** — earlier publication rules out **copying**, not **shared upstream channel checks** — and **Investing.com and Yahoo are ONE Sam Boughedda wire story, not two independent outlets** [KB-CRU-113]. ✅ **Survives:** the promotion is real, dated and company-published; Truist is a genuine third house dated 7/23; §8's three conflations stand — **and §8's own lesson is what §3 failed to apply.**
 >
-> **The body below is left as written** — the corrections are recorded here and in the KB rather than by silently rewriting the paper, so the error and the fix both stay visible. **Where the body and this banner disagree, THIS BANNER WINS.**
+> **Every withdrawn claim below is now STRUCK IN PLACE** — the original wording is kept in ~~strikethrough~~ with its replacement on the same line, so a reader or a `grep` that lands mid-document meets the retraction **at the claim**, not fifty lines above it.
+>
+> ⛔ **This paper originally carried the corrections in this banner ONLY, with the body left intact. That was wrong and TERRY caught it** (2026-09-20 PM): a grep for a withdrawn phrase landed on the false line and never travelled up. **A correction that does not travel with the claim leaves two live claims.** Fixed by striking in place.
 
 
 ## 1. 🔑 PRIMARY: NCLH ran its first-ever Semi-Annual Sale — 50% off all cruises — 2026-07-08
@@ -28,11 +30,13 @@
 | Stated saving | **"starting from $280"** for two on a qualifying 7-night voyage |
 | Quote | Marc Kazlauskas, President: *"Our first-ever Semi-Annual Sale is the best deal of the season."* |
 
-⇒ **`FL-CRU-10`'s PREMISE — "NCLH is discounting aggressively in the Caribbean" — is now CONFIRMED AT PRIMARY.** It was carried on two analyst notes this morning. It is now the company's own published promotion.
+⛔ **WITHDRAWN 2026-09-20 PM (KB-CRU-108) — struck in place:** ~~*`FL-CRU-10`'s PREMISE — "NCLH is discounting aggressively in the Caribbean" — is now CONFIRMED AT PRIMARY. It was carried on two analyst notes this morning. It is now the company's own published promotion.*~~
+✅ **REPLACEMENT:** the release confirms **a BROAD, WORLDWIDE promotion that INCLUDES Caribbean sailings** — it does **not** establish **measured, Caribbean-CONCENTRATED discounting**, which is what the mechanism requires. **Caribbean concentration remains UNMEASURED.**
 
 ## 2. ⛔ BUT "50% OFF" IS A MARKETING CONSTRUCT — DO NOT READ IT AS A 50% CUT IN REALISED FARE
 
-**The company's own savings example refutes the headline's plain reading.** A **$280** starting saving for **two** passengers on a **7-night** voyage is on the order of **10–15%** of a typical contemporary-segment 7-night fare for two — **not 50%**.
+⛔ **WITHDRAWN 2026-09-20 PM (KB-CRU-108) — the 10–15% was INVENTED. Struck in place:** ~~*The company's own savings example refutes the headline's plain reading. A $280 starting saving for two passengers on a 7-night voyage is on the order of 10–15% of a typical contemporary-segment 7-night fare for two — not 50%.*~~
+✅ **REPLACEMENT:** the **$280 is the GRATUITY saving and nothing else** — the footnote specifies **$20 per person per day**, and **2 × 7 × $20 = $280 exactly.** It quantifies gratuities; it says **nothing** about the fare discount and **cannot bound it**. I had no fare denominator and manufactured one. **The realised fare cut is UNMEASURED.**
 
 ⇒ The 50% is almost certainly applied to a narrow base (industry convention: the second guest's cruise fare, or a base rate before taxes, fees and the bulk of the charge). **The headline overstates the realised per-diem cut, and the yield impact is bounded by what is actually discounted — which the release does not disclose.**
 
@@ -55,14 +59,15 @@ Verbatim from the coverage:
 
 **On 2026-07-23, the same day it cut NCLH to Hold on promotional activity, Truist RAISED Carnival's price target $29 → $31** (Hold maintained), and reiterated Buy on Viking Holdings on strong luxury/river demand.
 
-⇒ **This is evidence AGAINST `FL-CRU-10`'s CONTAGION limb, from the very note that best supports its premise.** If Scholes believed Norwegian's discounting would cap Carnival's yields, **he would not have raised Carnival's target on the same day, in the same action.** He read it as **Norwegian-specific**, not sector-transmitting.
+⛔⛔ **WITHDRAWN 2026-09-20 PM (KB-CRU-107) — THIS WAS THE SESSION'S LOAD-BEARING ERROR. Struck in place:** ~~*This is evidence AGAINST `FL-CRU-10`'s CONTAGION limb, from the very note that best supports its premise. If Scholes believed Norwegian's discounting would cap Carnival's yields, he would not have raised Carnival's target on the same day, in the same action. He read it as Norwegian-specific, not sector-transmitting.*~~
+✅ **REPLACEMENT:** the cited article **states the reason for the raise** — verbatim, *"Truist raised its Carnival price target to $31 from $29 **on lower fuel and depreciation assumptions**, keeping a Hold rating."* **Cost-side.** A price target is a **net** call; a cost improvement lifts it while a yield drag pulls the other way, and **both can hold at once.** ⇒ **The target move carries NO information about Truist's view of transmission. The contagion limb is UNRESOLVED — neither confirmed nor refuted.**
 
 **⇒ `FL-CRU-10` splits cleanly, and the two halves now have opposite verdicts:**
 
 | Limb | Status | Basis |
 |------|--------|-------|
-| **Premise** — NCLH discounts aggressively in the Caribbean | ✅ **CONFIRMED AT PRIMARY** | NCL newsroom 7/8; 3 analyst houses; measured capacity cause (Thread C) |
-| **Conclusion** — it caps CCL's yields | ⚠️ **CONTESTED** | Truist raised CCL's PT the same day on this exact mechanism; **still no CCL document says it** |
+| ~~Premise — NCLH discounts aggressively in the Caribbean~~ **→ CORRECTED** | ⛔ ~~*CONFIRMED AT PRIMARY*~~ → **PARTIAL: a broad worldwide promotion INCLUDING the Caribbean is confirmed; Caribbean CONCENTRATION is UNMEASURED** (KB-CRU-108) | NCL newsroom 7/8 (and a 50%-off headline already on 6/23 ⇒ **not self-baselining**); 3 analyst houses; capacity is a **plausible** cause, not a measured one |
+| ~~Conclusion — it caps CCL's yields~~ **→ CORRECTED** | ⛔ ~~*CONTESTED*~~ → **UNRESOLVED — neither confirmed nor refuted** (KB-CRU-107) | The PT raise was **on lower fuel and depreciation assumptions**, so it says nothing either way; **still no CCL document says it** |
 
 **This is a sharper position than the desk held this morning, and it is sharper in the direction of caution on the trade.**
 
@@ -104,9 +109,9 @@ Every one of these was caught only by fetching the underlying article:
 
 ## What this changes
 
-- **`FL-CRU-10` premise → CONFIRMED AT PRIMARY.** Conclusion → **CONTESTED**, by Truist's own same-day CCL raise.
+- ⛔ **WITHDRAWN — struck in place:** ~~*`FL-CRU-10` premise → CONFIRMED AT PRIMARY. Conclusion → CONTESTED, by Truist's own same-day CCL raise.*~~ ✅ **REPLACEMENT: premise → PARTIAL** (broad promotion including the Caribbean; concentration unmeasured). **Conclusion → UNRESOLVED.** (KB-CRU-107/108)
 - **The shared-source objection is substantially answered** — three houses, one seven weeks upstream.
-- **`VX-CRU-03`:** the mechanism is real and Norwegian-specific. Sector transmission is *less* supported than this morning, not more.
+- ⛔ **WITHDRAWN — struck in place:** ~~*`VX-CRU-03`: the mechanism is real and Norwegian-specific. Sector transmission is less supported than this morning, not more.*~~ ✅ **REPLACEMENT:** a **promotion** is real and dated; **"Norwegian-specific" was inferred from the PT raise and does not survive** (KB-CRU-107). **Sector transmission is neither more nor less supported than before the session — it is UNRESOLVED.**
 - **No trade. No level. No row moved.** If anything this argues for *more* caution on a CCL put, not less — the analyst who best documents the discounting raised Carnival's target on it.
 
 ## Owed
