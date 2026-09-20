@@ -112,7 +112,8 @@ def test_D_fires_on_a_scoreboard_that_contradicts_the_file():
         res = cc.check_scoreboard(p)
         assert res is not None
         derived, open_ids = res
-        assert derived == (1, 1, 0, 1), derived
+        assert derived == (1, 1, 0, 0, 1), derived   # 5-part since 2026-09-19 PM
+        assert sum(derived) == 3, derived            # parts must sum to the file
         assert open_ids == ['SAM-03'], open_ids
         assert any(x.startswith('D ') for x in p), p
     finally:
@@ -556,6 +557,19 @@ def _run_qual(status_line):
         return p, res
     finally:
         cc.SAM = old
+
+
+def test_QUAL_checker_own_output_is_complete_and_sums():
+    """CATO 2026-09-19 (2nd review): the checker recognised the qualified row
+    internally and then PRINTED '16/15/1/1' = 33 against a 34-row file — the 4-part
+    form it had just begun failing other files for, followed by PASS.
+    PRE-FIX: check_scoreboard returned the 4-tuple, so no caller could print the
+    qualified class even if it wanted to."""
+    p, res = _run_qual('Scoreboard 1 CONFIRMED / 1 FAILED / 0 special / 1 qualified / 0 OPEN\n')
+    assert res is not None, p
+    derived, _ = res
+    assert len(derived) == 5, 'scoreboard must be returned 5-part, got %r' % (derived,)
+    assert sum(derived) == 3, 'parts %r must sum to the 3-row file' % (derived,)
 
 
 def test_QUAL_new_status_token_is_classified():

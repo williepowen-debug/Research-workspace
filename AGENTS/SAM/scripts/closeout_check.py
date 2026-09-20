@@ -422,7 +422,15 @@ def check_scoreboard(problems):
                     problems.append('D [step 11] %s asserts "%s OPEN" on a predictions line but the '
                                     'file derives %d OPEN — this is the form THESIS carried stale '
                                     'for 23 days' % (rel, m.group(1), derived[3]))
-    return derived, [r['Pred_ID'] for r in opn]
+    # ⛔ Return the FIVE-part tuple. CATO 2026-09-19 (2nd review): this returned the
+    # 4-part one, so the checker's OWN output printed '16/15/1/1' = 33 against a
+    # 34-row file, in the very 4-part form it had just started FAILING other files
+    # for. A guard that breaks its own rule in its own output teaches its reader
+    # that the rule is optional. The sum assertion below makes that unrepeatable.
+    assert sum(derived5) == len(rows), (
+        'closeout_check internal: scoreboard parts %r sum to %d but the file has %d rows'
+        % (derived5, sum(derived5), len(rows)))
+    return derived5, [r['Pred_ID'] for r in opn]
 
 
 def check_sam_memory(problems):
@@ -567,8 +575,9 @@ def main():
     if sb:
         derived, open_ids = sb
         check_sidecar(problems, open_ids)
-        print('\n  DERIVED from PREDICTIONS.tsv: %d CONFIRMED / %d FAILED / %d special / %d OPEN  (OPEN: %s)'
-              % (derived + (', '.join(open_ids) or 'none',)))
+        print('\n  DERIVED from PREDICTIONS.tsv: %d CONFIRMED / %d FAILED / %d special / '
+              '%d qualified / %d OPEN  (total %d; OPEN: %s)'
+              % (derived + (sum(derived), ', '.join(open_ids) or 'none')))
     check_sam_memory(problems)
     # ⚠️ CATO 2026-09-19: the charter said run this BEFORE committing, while G demands a
     # CLEAN tree and F reads COMMITTED history — so the documented invocation could never

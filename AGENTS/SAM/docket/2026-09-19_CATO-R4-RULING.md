@@ -21,13 +21,13 @@ The Sep-9 packet's instruction on the MOF route was explicit: *"Establish the or
 |---|---|
 | Route name: **"MOF #3 sustained"** | "sustained" qualifies the **route**, i.e. the operations |
 | `sustained-unwind \| fires ~0.20 (CH-003)` | **a SEPARATE downstream conditional** — given the route *fires*, P(the unwind sustains) ≈ 0.20 |
-| `FXY move \| fires: +2% blended` | the registration did **not** expect this route to clear +3% even when it fires |
+| `FXY move \| fires: +2% blended` | ⛔ **WITHDRAWN as evidence 2026-09-19 PM (CATO 2nd review, point 4).** This is a *forecast* of the route's conditional magnitude. A forecast cannot establish that a +3% outcome did not occur — that is the same forecast/outcome confusion upheld in point 1 and then committed again here. Retained only as a description of what the registration expected. |
 
 🔑 **Firing and sustaining are modelled as two distinct events in my own registration.** That makes *"sustained" = sustained OPERATIONS* the better-supported reading of the route label — **the reading my grade record dismissed as needing "two stacked unstated conventions."** Under it the route **fired** (ops 7/30 and 7/31, official action, documented), and only one convention is genuinely open: the attribution window for the move it produced.
 
 ⛔ **So the grade rested on the weaker of two readings of a word, and I did not consult the record that bears on it until challenged.** CATO reached the right destination by a different road.
 
-**What this does NOT establish:** that SAM-28 is TRUE. The magnitude window remains unfixed, and CH-003's contemporaneous evidence class (Apr-30 and May-6 both spike-reversed, *"net ~zero on sustained unwind"*) is the desk's own contemporaneous standard for judging a MOF route's **outcome** — and the Jul-30/31 episode spike-reversed identically (peak +4.22% on 8/3, back below +3% by 8/10, whole move given back). **The route label points one way and the outcome standard points the other. That is an unresolved convention, not a hidden TRUE.**
+**What this does NOT establish:** that SAM-28 is TRUE. The magnitude window remains unfixed — ⛔ **and that unresolved window is the whole of the case for no-verdict; the registered "+2% blended" magnitude is NOT part of it** (withdrawn above). CH-003's contemporaneous evidence class (Apr-30 and May-6 both spike-reversed, *"net ~zero on sustained unwind"*) is the desk's own contemporaneous standard for judging a MOF route's **outcome** — and the Jul-30/31 episode spike-reversed identically (peak +4.22% on 8/3, back below +3% by 8/10, whole move given back). **The route label points one way and the outcome standard points the other. That is an unresolved convention, not a hidden TRUE.**
 
 ---
 
@@ -112,3 +112,58 @@ PROME relayed CATO's points 1, 2 and 4. **Points 3 (Episode-B control) and 5 (ca
 ---
 
 *Sources: CATO `AGENTS/CATO/runs/2026-09-19_1148_recent-updates-review.md` §R4; governing packet `docket/2026-09-18_SAM28_SAM31_REVIEW.md`; graded record `docket/2026-09-19_SAM28_SAM31_GRADE.md`; registration `thesis/THESIS.md` § The N tail-routes; CH-003 via `thesis/CHANGELOG.md`. Market figures re-derived from yfinance daily closes, each instrument on its own calendar, window 2026-06-22 → 2026-09-18. Prices are vendor research marks, not execution evidence.*
+
+---
+
+# ADDENDUM — CATO 2nd review (`runs/2026-09-19_2137_sam-ruling-review.md`), ruled same evening
+
+> **CATO is upheld on all four points. Each was reproduced at the artifact before being conceded.**
+> **SAM-28 stays `RESOLVED — QUALIFIED / NO-VERDICT`. SAM-31 stays FALSE — but the verdict now carries explicit, stated qualifications instead of being asserted flat.**
+> ⚠️ **Two of the four are defects the ruling pass ITSELF introduced or left behind.** A correction pass is unreviewed work, and this is the second consecutive round where the fix needed fixing.
+
+## A1 — Point 4 UPHELD: the "+2% blended" argument was the same error I had just upheld against myself
+
+The ruling's §0 used the registered *"FXY move | fires: **+2% blended**"* cell as a reason SAM-28 does **not** reach TRUE. ⛔ **That is a forecast of the route's conditional magnitude. A forecast cannot establish that a +3% outcome did not occur** — it is exactly the forecast/outcome confusion I upheld as CATO's point 1 and then committed again, in the same document, four paragraphs later.
+
+**Withdrawn.** What survives for "not TRUE" is: (a) **the attribution window is unresolved** — which alone is the whole case for no-verdict — and (b) **CH-003**, which is an *outcome* standard, not a forecast (Apr-30 and May-6 both spike-reversed, *"net ~zero on sustained unwind"*; the Jul-30/31 episode repeated it — peak +4.22% on 8/3, back below +3% by 8/10). **The disposition is unchanged; one of its two supporting arguments is gone.**
+
+## A2 — Point 1 UPHELD: SAM-31's replacement reasoning used cross-clock data it had itself ruled inadmissible
+
+The ruling states that daily FX (Europe/London) and FXY (America/New_York) are not synchronized closes and that no SAM-31 grade may be drawn from them — **and then leans on the "1 of 4 / 2 of 4 / 4 of 4 crosses" counts to carry the verdict.** Self-contradiction, in the same section.
+
+⚠️ **This bites harder than it first looks, because the cross-pair dimension is the row's named subject.** SAM-31 is about the *cross-pair* yen-haven channel, and matched intraday cross-pair evidence — which the governing packet asked for and I do not have — is the only instrument that could settle it directly.
+
+**Correction — what the verdict may and may not rest on:**
+
+| Evidence | Clock | Status |
+|---|---|---|
+| FXY vs ^VIX / ^GSPC (all America/New_York) | **same-clock** | ✅ **admissible — this now carries the verdict** |
+| Window VIX max **20.66** | same-clock | ✅ admissible (leg 1) |
+| USDJPY/EURJPY/AUDJPY/GBPJPY cross counts | **cross-clock** | ⛔ **DEMOTED to illustrative — not load-bearing** |
+
+**On the admissible evidence alone:** across **n=24** risk-off sessions (VIX up *and* S&P down, all same clock) the yen strengthened on **7 = 29.2%**, mean FXY **−0.154%**; and on the three largest VIX rises FXY moved **+0.232% / +0.018% / +0.106%** — flat, not a haven bid.
+
+🔑 **Contemporaneous check, run this time BEFORE arguing** — the failure that produced the SAM-28 regrade. `THESIS.md` § N tail-routes, route 3, as registered: *"Cross-pair yen-haven **decoupled** Jun 11 (risk-off → USD-haven); **re-snap** needs a **VIX spike**, not hawkish-Fed equity bleed"*, magnitude *"+7% conditional (**Aug-2024-flavored**)"*. Two things follow, and neither is invented at scoring time: the row is about a **regime re-snap** (a relationship), and the **VIX-spike qualifier is contemporaneous**, not a bar introduced to reach a verdict.
+
+**⚖️ The verdict, stated as the judgement it is:**
+- **On the CHANNEL / regime reading** — which the registration's own *"decoupled … re-snap"* language supports — the channel demonstrably did not re-couple: 29.2% and a negative mean across every qualifying occasion, on same-clock data. **FALSE.**
+- **On a strict single-EPISODE reading**, the only candidate is **Sep-8/9**, and ⛔ **I cannot resolve it.** Its attribution is OPEN, and — **CATO's point, upheld** — *an open attribution prevents confirmation; it does not establish failure.* The ruling previously used Sep-8's uncertainty as though it disqualified the episode. **It does not. It makes the episode unresolvable.**
+- **The VIX-regime strictness is a judgement**, contemporaneously grounded but a judgement: it is why Sep-8 (VIX **15.72**) is not counted as the *"VIX-spike episode"* arm. **Reasonable adjudicators could differ**, and under the episodic reading with the disjunctive *risk-off* arm, **SAM-31 would be QUALIFIED rather than FALSE.**
+
+⚠️ **I hold FALSE, and I record that it is the regime reading doing the work** — not an exhaustion argument, not the mean "ruling out" an episode, and not the cross-pair counts. **If the episodic reading governs, this row is qualified, and that alternative is disclosed here rather than buried.**
+
+## A3 — Point 2 UPHELD: the ruling reached the headers and not the instructions under them
+
+`NEXUS_BRIEF.md` led with *"RULED … no longer disputed"* and, seven paragraphs later, still told readers *"no replacement grade exists … Ruling owed next session."* `MEMORY.md`'s TIER-0b block still closed *"Ruling still owed."* **Either could have sent the next session back into finished work.** Both corrected. Class: *an amendment read for one item leaves the others derived from the original live* — and the surfaces that went stale are precisely the two a **next session** and a **peer desk** read first.
+
+## A4 — Point 3 UPHELD: the checker broke its own new rule, in its own output
+
+`closeout_check.py` classified the qualified row internally and then printed **`16 CONFIRMED / 15 FAILED / 1 special / 1 OPEN`** — **33 against a 34-row file, in the 4-part form it had that same evening begun FAILING other files for** — and then reported **PASS**. All 41 tests passed; the three new tests did fail against the old code as claimed. **The tests were aimed at the files the checker reads and not at what the checker says**, so none of them could see it.
+
+**Fixed:** `check_scoreboard` now returns the 5-part tuple, the printed line carries the qualified class and an explicit `total`, and an internal assertion fails the run if the parts ever stop summing to the row count. A test verifies the return shape and the sum; it fails against the pre-fix code. ⛔ **`closeout_check.py` remains PROVISIONAL** — this is the fifth round of real defects found from outside it.
+
+## A5 — What is still NOT settled, stated plainly
+
+- **SAM-31's episodic reading is unresolved**, and it needs matched **intraday** cross-pair data for Sep-8/9 (and Jul-13) that this desk does not have. **It is not scheduled.**
+- **Sep-7/8 official attribution remains OPEN** and is the hinge for both that episode and the withdrawn Episode-B control. Primaries land ~Nov-9 (MOF quarterly) and ~Nov-13 (FRBNY Q3).
+- **Market history and broker positions were not independently recertified this session** (CATO's note). Book last recorded FLAT, not newly broker-reconciled.

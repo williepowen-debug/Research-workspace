@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-19 PM (2nd) — CATO's review OF the ruling: upheld 4/4. SAM-31's FALSE now carries stated qualifications; two defects were the ruling pass's own
+
+**Old view:** the ruling was complete and both dispositions were settled; SAM-31 FALSE asserted flat on "leg 1 + the episode screen".
+**New view:** **SAM-28 unchanged (`QUALIFIED / NO-VERDICT`) but one of its two supporting arguments is withdrawn. SAM-31 stays FALSE with explicit qualifications and a disclosed alternative under which it would be QUALIFIED.** No scoreboard change: **16 / 15 / 1 special / 1 qualified / 1 OPEN**.
+
+⚠️ **Two of the four findings are defects the ruling pass ITSELF introduced or left behind. A correction pass is unreviewed work — second consecutive round where the fix needed fixing.** Each was reproduced at the artifact before being conceded.
+
+1. **Point 4 — the "+2% blended" argument WITHDRAWN.** It is a *forecast* of conditional magnitude and cannot establish that a +3% outcome did not occur — **the same forecast/outcome confusion upheld as point 1 of the first review, committed again four paragraphs later in the same document.** What carries the no-verdict is the unresolved attribution window alone, plus CH-003 (an *outcome* standard, not a forecast).
+2. **Point 1 — SAM-31 used cross-clock data it had itself ruled inadmissible.** The "1/4, 2/4, 4/4 crosses" counts are daily FX (Europe/London) against FXY (New York). **Demoted to illustrative.** Verdict re-based on same-clock evidence only (n=24 risk-off, 7 up = 29.2%, mean −0.154%; three largest VIX rises FXY +0.232/+0.018/+0.106%; window VIX max 20.66). 🔑 **Contemporaneous check run BEFORE arguing this time** — the exact failure that caused the SAM-28 regrade: `THESIS` route 3 as registered reads *"decoupled Jun 11 … re-snap needs a VIX spike"*, so the row is a **regime** claim and the VIX-spike qualifier is contemporaneous, not invented. ⚠️ **Explicitly unsettled:** on a strict single-EPISODE reading the only candidate is 9/8–9/9, whose attribution is **OPEN** — *which prevents confirmation, not establishes failure* (the prior note used that uncertainty as disqualifying; corrected). **Under the episodic reading the row would be QUALIFIED.** Disclosed, not buried.
+3. **Point 2 — the correction reached the headers and not the instructions beneath them.** `NEXUS_BRIEF.md` led with "RULED … no longer disputed" and seven paragraphs later still said "no replacement grade exists … Ruling owed next session"; `MEMORY.md`'s TIER-0b still closed "Ruling still owed." **Either could have sent the next session back into finished work.** Both corrected. Class: *an amendment read for one item leaves the others live* — and the two stale surfaces are the ones a next session and a peer desk read first.
+4. **Point 3 — the checker broke its own new rule in its own output.** `closeout_check.py` classified the qualified row internally, then printed `16/15/1/1` = **33 against a 34-row file**, in the 4-part form it had that evening begun failing other files for, then reported PASS. All 41 tests passed and none could see it: **they were aimed at the files the checker reads, not at what the checker says.** Fixed — 5-part return, `total` in the printed line, and an internal assertion that fails the run if the parts stop summing to the row count; new test fails against the pre-fix code.
+
+**Still NOT settled, recorded rather than closed:** SAM-31's episodic reading needs matched **intraday** cross-pair data for 9/8–9/9 and 7/13 that this desk does not have and has not scheduled; Sep-7/8 attribution stays **OPEN** (primaries ~Nov-9 MOF quarterly, ~Nov-13 FRBNY Q3); market history and broker positions were not independently recertified this session.
+
+**Thesis consequence: none.** v1.7 stands · no successor · book FLAT · no gate re-arms · 160 VOID. SAM-33 open to Dec-31. Term fields untouched (field-level git diff: only Outcome/Notes moved, 2 rows). Record: `../docket/2026-09-19_CATO-R4-RULING.md` § ADDENDUM.
+
+---
+
 ## 2026-09-19 PM — CATO R4 ruled: SAM-28 regraded FALSE → QUALIFIED / NO-VERDICT; SAM-31 FALSE with its reasoning replaced. v1.7 unchanged, no successor
 
 **Old view:** SAM-28 RESOLVED FALSE on the route leg; SAM-31 RESOLVED FALSE on two independent legs; scoreboard 16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN; grades published as settled, then marked DISPUTED when challenged.
