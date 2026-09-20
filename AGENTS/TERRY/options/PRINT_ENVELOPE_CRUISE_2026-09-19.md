@@ -8,6 +8,35 @@
 
 ---
 
+## 0 · ⛔ CORRECTIONS, SAME DAY — three statements on top of this measurement were wrong. **The measurement itself is not corrected and was independently re-derived.**
+
+*(Raised by CATO via Will, relayed and part-verified by CRUISE, **re-verified here against this desk's own data and arithmetic before any edit**. ⚠️ `finding_a_correction_pass_is_unreviewed_work` — this block is itself a fix pass and carries the higher defect rate that implies.)*
+
+✅ **NOT IMPEACHED:** CRUISE re-derived the envelope independently off **EDGAR 8-K item-2.02 dates** rather than a vendor calendar and **every headline figure reproduces exactly** (median 4.59% · max 9.81% · worst down −4.87% · 5 of 8 down). **A different perimeter agreeing on the same numbers is worth more than my own re-run would have been.**
+
+**① 🔴 THE "LAST THREE PRINTS" SEQUENCE WAS WRONG — MY ERROR, AND THE SKIPPED ROW WAS PRINTED IN MY OWN TOOL OUTPUT.**
+I wrote *"CCL's LAST THREE prints are all down and monotonically worsening (−3.98 → −4.31 → −4.87), n=3."* **The actual last three are `+9.81%` (2025-12-19) · `−4.31%` (2026-03-27) · `−4.87%` (2026-06-23).** The sequence I quoted **skipped 2025-12-19** — the single largest UP print in the sample — and reached back to 2025-09-29 to assemble three in a row.
+**Corrected claim: the last TWO prints are down and worsening (−4.31 → −4.87), n=2. Two of the last three are down. The three most recent DOWN prints do descend monotonically, but that is a SELECTED SUBSEQUENCE and cannot be quoted as "the last three."**
+🔑 **Why this one survived, and it is the lesson worth keeping: it was my BEAR-side counter-qualifier — an error that cut AGAINST my own headline. A mistake that makes your own conclusion look weaker reads as intellectual honesty and gets audited less than one that flatters you.** Correcting it **strengthens** the up-skew finding. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` — the inverse case.
+
+**③ 🔴 THE NCLH STRADDLE COMPARISON WAS THE WRONG HURDLE — REASON WITHDRAWN, CONCLUSION STANDS ON DIFFERENT ARITHMETIC.**
+I wrote *"the Dec-18 ATM straddle prices ±21%, so an −11% print is half the priced move; the print alone does not beat the price."* **A long put's breakeven is `strike − premium`, not the straddle's implied move.** `14.00 − 1.35 = 12.65 = −10.41%` from 14.12 — **CRUISE's arithmetic is correct and the sentence is withdrawn, not annotated.**
+⚠️ **And it was wrong in the direction that UNDERSTATED the trade — including in CRUISE's own gentler version of it.** At the print with **44 DTE still to run**, an −11% move marks the 14P at **+21.3% / +24.5% / +30.1%** (IV 42/45/50%), not at breakeven: you exit with time value, you do not hold to expiry.
+✅ **THE REAL REASON EV ≈ 0, which I should have written in the first place:** at IV 45% the **6 down-prints average +15.0%** while the **2 UP prints average −69.7%**. **The up-tail kills it, not the size of the down move.** Equal-weighted EV −6.2%. **A conclusion that is right for a wrong reason is a defect, not a near-miss** — the corrected reason is also a *better* one, because it names which observations actually drive the number.
+
+**② 🔴 THE HEADLINE DID NOT SURVIVE ITS OWN TABLE — AND MY DISMISSAL OF THE EXCEPTION WAS ITSELF WRONG. THIS IS THE MOST SUBSTANTIVE OF THE THREE.**
+I disclosed the positive cell (`Nov-20 21P` at ≥45% post-print IV) and then dismissed it: *"requires the event premium not to crush, which contradicts this desk's own measured +10–16 vol points."*
+⛔ **That dismissal applied a FRONT-MONTH finding to a BACK-MONTH strike.** `IV_CRUSH_PARTA`'s +10–16 vol points is a statement about **front-month** event premium — and I measured that kink live in this very file (**Oct-02 54.7% vs Nov-20 45.4%**). **Nov-20 sits 52 days past the print; the event premium is not in it to begin with, so it has almost nothing to crush.** ⇒ **For Nov-20, ~45% is the CENTRAL assumption, not the optimistic one** — indeed **45.36% is that strike's own currently quoted IV.** The 42% default I used was a ~3.4-point crush assumed into an expiry that never carried the premium.
+**Restated result, and this is the form that survives:**
+> **Over CCL's FULL 8-print distribution, every examined structure is negative-EV at every post-print IV from 35% through 50%** (`Nov-20 21P`: −29.2% @40 · −24.4% @42 · **−16.3% @45.36 (no crush)** · −9.9% @48 · −5.0% @50; it turns positive only at **55%**, which is vol *expansion* through a print).
+> **Granting the direction for free, five of six structures stay negative — `Nov-20 21P` turns POSITIVE (+5.8% @45%, +6.7% at its own quoted 45.36%). That is a genuine exception and is now recorded as one.**
+**It is still not a trade, for a reason that does not depend on the disputed cell: *"assume the direction is right"* is not an assumption available to anyone before the fact.** The all-8 line is the honest one and it is negative throughout.
+
+**④ ⚖️ I ALSO CALLED THIS AN "INDEPENDENT CONFIRMATION OF `WQ-218 ②`." WITHDRAWN — CRUISE RAISED IT AGAINST THEIR OWN WORDING AND THEY ARE RIGHT.**
+`WQ-218 ②` retired a **MECHANISM** claim (fuel convexity does not discriminate CCL from its peers). This file makes an **EXPRESSION** claim (no put pays at one print). **A cheap option would not have resurrected the fuel mechanism, and a dead mechanism does not imply no put pays — neither is evidence for the other.** Two findings pointing at the same practical action are **not** mutual corroboration; treating them as such manufactures confidence from a coincidence of direction. **What actually survives is the narrower constraint, which is the part with content: there is no CCL put expression at this print, whatever the Q4 yield guide says on 9/29.**
+
+---
+
 ## 1 · The envelope — realized 1-day close-to-close print reactions, last 8 prints each
 
 | name | n | mean \|mv\| | median \|mv\| | max \|mv\| | worst DOWN | # down | reachable by a print? |
@@ -21,7 +50,7 @@
 
 **CCL, print by print** (reaction session = same session; BMO release): −0.32 · +6.43 · −1.23 · +6.91 · −3.98 · **+9.81** · −4.31 · −4.87.
 🔑 **The asymmetry is the finding: CCL's three largest moves are all UP (+6.43 / +6.91 / +9.81) and NOT ONE of eight down-prints exceeded −4.87%.**
-⚠️ **Counter-qualifier, stated because it cuts against the contrarian read: the LAST THREE prints are all down and monotonically worsening** (−3.98 → −4.31 → −4.87, Sep-25 / Mar-26 / Jun-26). **n=3. It is a trend in a sample too small to be a base rate, and it is named so the up-skew is not quoted without it.**
+⚠️ **Counter-qualifier — ⛔ CORRECTED, see §0 ①. It previously read *"the LAST THREE prints are all down and monotonically worsening (−3.98 → −4.31 → −4.87), n=3"* and that sequence SKIPPED `+9.81%` (2025-12-19), the biggest up-print in the sample.** **What is true: the last TWO prints are down and worsening (`−4.31` → `−4.87`), n=2; two of the last three are down.** It is a trend in a sample far too small to be a base rate. **Named so the up-skew is not quoted without it — but it is a weaker counter than I first wrote, so the up-skew stands cleaner than this file originally allowed.**
 
 **NCLH, print by print:** +6.29 · −5.31 · −7.77 · +9.23 · **−15.28** · −10.53 · −8.56 · −9.78.
 🔑 **The last FOUR consecutive prints were all down 8.56–15.28%, mean −11.04%.** ⚠️ **n=4.**
@@ -43,7 +72,7 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 | Nov-20 **20P** | $0.81 | **−29.9%** | **−6.9%** |
 | Nov-20 **21P/17.5P spread** (rule 18(b)'s "sell the rich wing" form) | $1.01 on $3.50 | **−26.2%** | **−5.5%** |
 
-🔴 **THE SENTENCE THIS FILE EXISTS FOR: on CCL, the right *direction* does not pay. Every structure is negative-EV even after the direction is granted for free.**
+🔴 **THE SENTENCE THIS FILE EXISTS FOR — ⛔ RESTATED, see §0 ②; the original over-claimed on the right-hand column:** **over CCL's FULL 8-print distribution every structure above is negative-EV, and stays negative at every post-print IV from 35% through 50%.** **Granting the direction for free, five of the six remain negative — `Nov-20 21P` turns POSITIVE at ≥45% (+5.8%), and 45.36% is that strike's OWN quoted IV.** ⚠️ **My original dismissal of that cell was wrong** (it applied a front-month crush finding to a back-month strike). **It is still not a trade: *"assume the direction is right"* is not an assumption anyone has before the fact, and the all-8 line — the honest one — is negative throughout.**
 
 **Sensitivity — the verdict survives the assumption sweep** (EV over the 5 down prints, post-print IV 35%→55%):
 
@@ -83,7 +112,7 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 - **NCLH skips November entirely.** `2026-10-30` (42 DTE) **expires five days BEFORE the 11/4 print** and `2026-12-18` (91 DTE) is the first expiry that spans it. **There is no mid-tenor choice.** *(Same defect this desk measured on VLO/MPC on 9/11 — an empty 60–90 band. Worth noting it recurs.)*
 - **Dec-18 liquidity is the best in the sector:** spreads 2.25–11%, OI 1,455–22,435, skew flat at ~50–51% from the 13 to the 18 strike. Strike gap 10 → 13 (no 11 or 12).
 - Leg gate on `14P`: **✓ usable, two-sided** (`chain_fetch --legs 14`, rc=0).
-- ATM straddle Dec-18 ≈ **$2.97 = 21.0% of spot** — the market prices ±21% by 12/18; a −11% print is **half** of that, so the print alone does not beat the price. You need print **plus** continued drift.
+- ⛔ **WITHDRAWN, see §0 ③.** This read: *"ATM straddle Dec-18 ≈ $2.97 = 21.0% of spot; a −11% print is half of that, so the print alone does not beat the price — you need print plus continued drift."* **The straddle is the hurdle for a STRADDLE. A long put's breakeven is `strike − premium` = `$12.65` = `−10.41%`, which an −11% print clears** — and at the print with **44 DTE left** it marks **+21% to +30%**, not breakeven. ✅ **Replacement reason, which is the true one:** at IV 45% NCLH's **6 down-prints average +15.0%** and its **2 UP prints average −69.7%**. **The up-tail is what drives EV to ≈0, not the size of the down move.**
 - ⚠️ Put IV 50.20% vs call IV 56.89% at the same 14 strike. **Checked, not chased:** C−P = 0.31 vs S−PV(K) = 0.259 — a $0.05 gap, inside the legs' own bid/ask. Parity holds; the IV split is vendor carry-assumption noise, not a signal.
 
 ### RCL — the 2026-10-27 print
