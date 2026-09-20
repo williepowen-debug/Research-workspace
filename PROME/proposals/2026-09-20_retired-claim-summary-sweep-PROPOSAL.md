@@ -22,13 +22,15 @@ Root `CLAUDE.md` closeout **1c** + `scripts/consumer_check.py` already require a
 
 ## The proposed extension (narrow)
 
-At closeout, when a session **retires/supersedes a claim** or **registers a new prediction/commitment**, it sweeps its **own** consulted surfaces (STATUS, TRADE, KB/FLOW/VX summary rows, WATCHLIST, the operator brief, MEMORY) for, and resolves:
+At closeout, when a session **retires/supersedes a claim**, **completes a task or checkbox**, or **registers a new prediction/commitment** (three triggers — the task-completion one is explicit, CATO: an ordinary completion leaves an "UNREAD"/open checkbox stale without retiring any claim), it sweeps **ALL its named consulted surfaces — including files it did NOT touch this session** (STATUS, TRADE, KB/FLOW/VX summary rows, WATCHLIST, the operator brief, MEMORY) for, and resolves:
 - (a) the retired claim still stated as **current** (not merely mentioned — a labelled retraction is fine);
 - (b) **completed** tasks/checkboxes still shown open;
 - (c) standing **negations** now false (*"no prediction registered"*, *"N remain unadjudicated"*).
 - (d) **and confirms the replacement reads correctly in meaning** — not just that the old string is gone.
 
-Mechanism: **extend the existing consumer-check step / `consumer_check.py`** (grep-assisted discovery over the enumerated own-surface list), NOT a new standalone gate. ⚠️ **Grep is discovery, not proof (CATO):** a hit may be a correct retraction; an absence does not prove the surviving prose is right. The instrument surfaces candidates; the session verifies meaning.
+⚠️ **Scope is the NAMED-SURFACE LIST, never this session's commit set (CATO).** The stale WATCHLIST spots were in a file CRUISE did not touch when it retired the gap in KB — a commit-set scope would exclude precisely the summaries this targets.
+
+Mechanism: **extend the existing consumer-check step / `consumer_check.py`**, NOT a new standalone gate. ⚑ **Capability audit FIRST (CATO):** `consumer_check.py` already supports literal-text matching in one mode — establish exactly what it cannot yet do (own-surface prose scan · checkbox state · standing-negation detection) BEFORE requiring any new code (WQ-229: promote/repair the existing control before adding one). ⚠️ **Grep is discovery, not proof (CATO):** a hit may be a correct retraction; an absence does not prove the surviving prose is right. The instrument surfaces candidates; the session verifies meaning.
 
 ## Acceptance conditions (written first, in the defect's own terms — WQ-229)
 
@@ -36,8 +38,9 @@ Mechanism: **extend the existing consumer-check step / `consumer_check.py`** (gr
 2. After a registration, **no standing negation on an own surface contradicts the new state.**
 3. **Completed tasks/checkboxes reflect completion.**
 4. The check **flags the meaning question** (replacement verified), and does **not** treat a zero-grep as proof of correctness.
-5. It is an **extension of the existing consumer-check**, adds no parallel gate, and reuses the enumerated-surface list.
+5. It is an **extension of the existing consumer-check** (capability audit first), adds no parallel gate, and covers **all named surfaces including UNTOUCHED files** — the sweep is NOT scoped to this session's commit set (CATO).
 6. **False-positive tolerance:** a correctly-labelled retraction/retirement must NOT be flagged as live (else the check becomes noise and gets overridden — `finding_a_check_that_only_advises_is_overridden`).
+7. **Task-completion is a trigger in its own right:** completing a task must fire the sweep even when no claim was retired, or a stale checkbox survives (the CCL-Q3-date and NCLH-10-Q misses).
 
 ## Five neighbours (WQ-229 — considered, N/A justified)
 
@@ -45,11 +48,11 @@ Mechanism: **extend the existing consumer-check step / `consumer_check.py`** (gr
 - **Overlap:** a token that is retired in one sense but live in another (retired *"$1.3B gap"* vs live *"$1.3B revolver capacity"*). **This is why grep≠proof** — a blind grep-and-delete would nuke the live one; the meaning-check (d) is the guard. Load-bearing, not N/A.
 - **Wrong owner:** the stale surface is **another agent's** file (PROME could only packet CRUISE, not edit). Scope of THIS control = the authoring session's **own** surfaces; cross-agent stale stays with the existing `consumer_check` → packet flow. Justified boundary.
 - **Missing information:** a session may not know all its own summary surfaces → the extension must carry (or point at) a **per-desk enumerated surface list**, or it silently under-scans.
-- **Concurrent activity:** another session edits the surface mid-sweep → handled by the existing shared-tree commit discipline; the sweep binds the authoring session's own commit set, not the live tree.
+- **Concurrent activity:** another session edits the surface mid-sweep → handled by the existing shared-tree commit discipline. ⚠️ The sweep binds the authoring session's **named-surface list**, NOT its commit set — a stale summary usually sits in a file the session did not touch (CATO); scoping to the commit set is the specific hole this proposal must not reproduce.
 
 ## Completion state (WQ-229 — not to be merged)
 
 This proposal is **drafted only** — not IMPLEMENTED, not TESTED, not VERIFIED. Next steps, in order: (1) cold read of this record; (2) Will's ruling on whether it extends closeout canon; (3) if ruled, extend `consumer_check.py` + the closeout step with a test that fails against pre-fix behaviour on the four evidence cases above; (4) independent reader devises its own counterexample before it is called fixed (CONSEQUENTIAL — it touches a shared closeout control). Prefer promoting/repairing the existing control over any new one.
 
 ## Open, not part of this proposal
-CATO flags the **CRUISE funding model's missing cash-flow timing** as still unresolved (the deposits-ahead-of-sailing / trailing-OCF-understates-stress limitation, documented in KB-CRU-076 but not modelled). CRUISE domain item, carried — noted here only so it is not lost.
+CATO flags the CRUISE funding model's **cash-flow timing AND minimum-reserve** limitations as still unresolved (the deposits-ahead-of-sailing / trailing-OCF-understates-stress point, documented in KB-CRU-076 but not modelled, and the minimum operating-cash reserve the breakeven ignores). CRUISE domain items, carried — noted here only so they are not lost.
