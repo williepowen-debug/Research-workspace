@@ -6,6 +6,8 @@
 
 ## ★ NEXT SESSION — START HERE
 
+**2026-09-20 (`prome-4f`) OWED — DOCKET two-correction stop tripped this session, so carry to the next permitted DOCKET pass (after a DOCKET cold read):** **L221 is only half-reconciled** — the DATE cell was corrected 10/05→09/29 (`787f1df16`, CCL company-confirmed) but the STATUS cell still reads *"~10/5 ESTIMATED"* and omits the company-confirmation (CATO `c34e56511`). Fix the status cell to match the date. *(Also open, on their own tracks: the retired-claim sweep PROPOSAL awaits Will's ruling — `PROME/proposals/2026-09-20_retired-claim-summary-sweep-PROPOSAL.md`, cold-read 0❌/6⚠️; two CRUISE packets out and doorbelled — funding-gap summary sweep + FL-CRU-10 inference-narrowing, both awaiting CRUISE confirm-at-artifact; a flow pass owed for SAM's 2 memory-index defects + a candidate n=3 secondary-conflation slug.)*
+
 **2026-09-19 (`prome-92`, DESKTOP — boot 16:46 ET on Will's *"boot up and give me a diagnosis of PROME specifically"*; Standard closeout 18:2x on his word, markets CLOSED).** **$0 moved by PROME · no gate graded BY PROME · no threshold set, moved, re-specced or fired · no trade proposed.**
 
 ⛔ **THE BOOT REPORT SHOULD HAVE BEEN HEADLINED PARTIAL AND WAS NOT.** One control was skipped and named (the fire-time DATE-flag re-read) but the headline read as a pass. Will's own 9/17 rule requires both. Corrected to him in-session; recorded here because the next session should not read that boot as clean.
