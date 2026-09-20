@@ -8,6 +8,25 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-20 — T1 rate check fired at ~158 and a 3-day Japan market closure was missing from every SAM surface. **THESIS v1.7 UNCHANGED, no version bump.**
+
+**Change class:** threshold RIDER + docket repair. **No channel, conviction, probability or position change.** The book is FLAT, no retired gate re-arms, the 160 gate stays VOID, SAM-33 is untouched.
+
+**① THESIS § KEY THRESHOLDS, USD/JPY 160 row — rider added.**
+- **Old view:** "USD/JPY 160 | Intervention-risk watch..." with the companion playbook carrying a **~161–162** T1 rate-check zone.
+- **New view:** same row, plus — Japanese authorities ran a **rate check at ~158 on 2026-09-18**, i.e. **below this row and ~3–4 yen below the playbook's registered T1 zone.**
+- **Why it is a rider and not a new level:** a rate check is an inquiry, not an operation; **no intervention is confirmed**, so nothing arms. What is established is narrower — **a LEVEL-based reading of official reaction is not supported.** The reaction function this thesis carries is speed/disorder (CH-011), and the observed T1 fired well below the level a reader would infer from the table. ⛔ Moving the row to 158 would repeat the SAM-26 trap (re-installing a level where the mechanism is the claim).
+- **Sourcing weakness, stated:** press reports of a check, **no official confirmation**, both readable accounts **secondary** (the Japan Times original is paywalled to this desk). Price corroborates (157.87 → 156.75 across 23:00–00:00 JST, session close 156.855) but **spike-and-reverse is non-identifying by this desk's own canon** — the reported check is what identifies it, not the shape.
+
+**② `MOF_INTERVENTION_PLAYBOOK.md` — the registered step-change fired.** The 2026-06-25 ladder entry closes with *"Step-change to watch = a rate-check headline."* It printed. T1 row annotated with the observed level and a dated entry added. **S1-A stands** — escalation up the ladder raises P(strike); this is escalation.
+
+**③ Docket repair — the one that should not have been needed.** **Japan is shut Mon Sep-21 → Wed Sep-23 (Silver Week, only the 3rd ever).** A 3-day closure of this desk's primary market was in **neither** `CALENDAR.md` **nor** `CATALYSTS.tsv`, so `catalyst_countdown.py` could not surface it and no boot would have. Six rows added to both surfaces in sync (3 holidays, Sep-24 effective-date + MOF weekly, Sep-25 T-bill/liquidity-enhancement auctions found at the MOF primary). Verified afterwards by running the countdown.
+- 📌 **Class:** this is `[[finding_a_carried_obligation_living_only_in_prose_has_no_instrument]]` inverted — not an obligation with no row, but a **market-state fact with no row**. The desk tracks releases and auctions and never modelled *"is the market open."* `catalyst_countdown.py` still counts trading days by **weekday** and knows no Japanese holiday; correct here only by coincidence. Recorded, not fixed this session.
+
+**④ USD/JPY Sep-18 session re-derived as COMPLETE:** O 155.945 / H **158.054** / L 155.864 / C 156.855 (own hourly bars, Europe/London basis per WQ-162, independently verified). **The session traded through 158**; STATUS had said "intraday high today 157.34" — a **live-bar** reading taken 5 hours before the close, not wrong when written and not a session fact. VECTOR-5 leg (c) **still does not fire**, on the close basis the row itself specifies.
+
+**⑤ Not propagated, deliberately:** secondary reports of a JGB 30Y at **4.18–4.19% "record"**. That is **13bp** from the MOF Sep-17 30Y (4.047%), and the MOF CSV checked this session **has not published Sep-18**. A 13bp on-the-run-vs-curve basis is implausible when the same sources' 10Y (2.947%) sits ~0.3bp from MOF. **Unverifiable at the authoritative source ⇒ not carried.** Re-check when MOF publishes, likely Thu Sep-24.
+
 ## 2026-09-19 PM (3rd) — CATO recheck: partial closure. Two live errors corrected, one genuine judgement recorded as a standing carry
 
 **No verdict or scoreboard change** (16 / 15 / 1 special / 1 qualified / 1 OPEN). CATO's recommendation — *stop here, record the carries, no further broad repair round* — is accepted; only named live errors were touched.

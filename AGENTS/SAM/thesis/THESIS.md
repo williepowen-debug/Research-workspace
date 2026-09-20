@@ -259,7 +259,7 @@ Structural levels that gate thesis paths. *Current values + breach status live i
 
 | Level | Significance |
 |-------|-------------|
-| USD/JPY 160 | Intervention-risk watch; speed/disorder and official evidence determine interpretation. No automatic entry. |
+| USD/JPY 160 | Intervention-risk watch; speed/disorder and official evidence determine interpretation. No automatic entry. 🔧 **RIDER 2026-09-20:** Japanese authorities ran a **rate check at ~158** on 2026-09-18 — **below this row and below the playbook's ~161–162 T1 zone.** ⛔ This does **not** move the row to 158 and arms nothing: a rate check is an inquiry, not an operation, and no intervention is confirmed. What it establishes is narrower and worth stating plainly: **a LEVEL-based reading of official reaction is not supported** — the reaction function this thesis carries is speed/disorder (CH-011), and the observed T1 fired ~3–4 yen below the level a reader would infer from this table. Detail → `../MOF_INTERVENTION_PLAYBOOK.md` 2026-09-20 entry. |
 | USD/JPY 155 | Yen-strength watch level; a breach alone does not establish Phase 2 or forced liquidation. |
 | USD/JPY 147 | Forced-unwind investigation level; require positioning/funding and transmission evidence. |
 | USD/JPY 145 | Historical unhedged-loss watch zone; current entry-price distribution and forced sales require evidence (Pillar 3). |

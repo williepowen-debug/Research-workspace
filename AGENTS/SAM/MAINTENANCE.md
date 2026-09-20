@@ -6,6 +6,25 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-20 — STATUS rotation (two pointer-stubs dropped, SAM-28/31 prose archived) + six docket rows added
+
+**Why:** STATUS crossed its 75% rotation trigger absorbing the rate-check finding. Rotated settled material only; **no live content was cut.**
+
+**Dropped from `STATUS.md` entirely (both were pointer-only stubs whose live state lives elsewhere):**
+- `## 2026-09-18 — BOJ MPM GRADE` — already a stub redirecting to `STATUS_ARCHIVE.md`; its live state (1.25%, 7–2, effective Sep-24, dissents dovish, CH-004 confirmed) is carried in § CHANNELS · BOJ · FED and § PREDICTIONS. **No content lost.**
+- `## 2026-09-15 — News integration` — stub redirecting to `STATUS_ARCHIVE.md`; findings already live in the tables.
+- `## COMPRESSED SESSION-NOTE POINTERS` — pointer-only; its external-consumer warning was verified SPENT on 2026-09-18 (WALTER's `SIGNAL_PROCESSING_CHECKLIST.md` §v0.30 no longer references `AGENTS/SAM/STATUS.md`), which is the condition under which it was safe to drop.
+
+**Moved to `STATUS_ARCHIVE.md` § SAM-28 / SAM-31 full grading prose (verbatim, no edits):** both rows' full reasoning. **Live one-line state stays in STATUS**, and ⚠️ **SAM-31's three unsettled points travel WITH it in STATUS rather than being parked in the archive** — parking them is how a qualification gets dropped from a citation.
+
+**Compressed in place (settled detail → pointer, live figures kept):** the 8/7 frame-break paragraph, Signal Status, the Brent roll-artifact row, FXY, MOF weekly, CFTC threshold + TFF rows, JGB auctions, FOMC.
+
+**Result:** 27,922 B → **25,185 B (77.4% of the 32,550 B read cap)** while ADDING a full intervention section and three watch rows. ⚠️ **Still above the 75% trigger (24,412 B) and left there deliberately** — everything settled has been rotated and the remainder is live. Next rotation needs a real hot/cold decision (candidate: § KEY THRESHOLDS detail → `STATUS_REFERENCE.md`), not more compression. **Flagged, not silently absorbed.**
+
+**Docket:** six rows added to `docket/CALENDAR.md` **and** `docket/CATALYSTS.tsv` in sync — Silver Week Sep-21/22/23, Sep-24 effective-date + MOF weekly, Sep-25 T-bill/liquidity-enhancement. Verified by running `catalyst_countdown.py`, which now surfaces them.
+
+**Boot impact:** boot step 2 (STATUS) reads ~2.7 KB less; boot step 3 (CALENDAR) now shows the market closure. 🔴 **A three-day closure of SAM's primary market was invisible to every SAM surface until this session** — the desk models releases and auctions, never "is the market open." `catalyst_countdown.py` counts trading days by **weekday** and knows no Japanese holiday; correct this week only by coincidence. Not fixed here.
+
 ## 2026-09-19 — `cpi_japan.py`: a retired interpretation was still executing, and the defect class had four sites
 
 **Trigger.** The boot CPI line printed *"Tokyo +0.1pp ABOVE National — pattern INVERTED, leading-indicator hawkish"* — an interpretation this desk **retired on 2026-08-23** (KB-SAM-169's 2025-base remeasure proved its only counter-example was a base artifact). The ruling was propagated to `STATUS_REFERENCE.md` and `docket/CALENDAR.md`. **Nobody propagated it into the code**, which kept emitting it for 27 days. Class: a ruling governs the next WRITE, not the existing state — and here the surface nobody re-read was executable.

@@ -18,7 +18,7 @@ The MOF/FX-diplomat verbal sequence is a graduated ladder; each tier raises the 
 | Tier | Language | Typical USD/JPY zone | Read |
 |---|---|---|---|
 | **T0** | "watching FX with a sense of urgency" | any level | Noise / routine. No information. |
-| **T1** | **RATE CHECKS** — MOF/BOJ phone banks for live USD/JPY quotes | ~161–162 | **Single strongest pre-action tell.** Historically precedes a strike by hours to ~1 day. |
+| **T1** | **RATE CHECKS** — MOF/BOJ phone banks for live USD/JPY quotes | ~161–162 → 🔧 **OBSERVED AT ~158 on 2026-09-18** | **Single strongest pre-action tell.** Historically precedes a strike by hours to ~1 day. 🔴 **FIRED 2026-09-18** — see the dated entry below. ⚠️ **The ~161–162 zone is a DESCRIPTION OF PAST FIRINGS, never a trigger level**, and it is now contradicted by ~3–4 yen: a T1 zone inferred from the Apr–May campaign did not predict where the next T1 actually fired. Read the ladder as a SEQUENCE, not a set of levels. |
 | **T2** | "one-sided / excessive moves," "won't rule out any option" | ~162 | Escalation; strike plausible on further velocity. |
 | **T3** | "decisive action," "ready to act 24 hours," "stand ready" | ~162–163 | Imminent. |
 
@@ -110,6 +110,20 @@ The base-case opposite-sign relationship (higher-for-longer = carry MORE on, but
 ---
 
 ## HISTORICAL PLACEMENT LOG (as-of judgments retained; current confirmations → STATUS and `thesis/INTERVENTION_2026-07-30_CONFIRMATION.md`)
+
+### 2026-09-20 — 🔴 **T1 RATE CHECK FIRED at ~158** (the registered step-change); NO strike confirmed
+
+**The step-change this playbook told itself to watch for has happened.** The 2026-06-25 entry below closes with *"Step-change to watch = a rate-check headline."* It printed.
+
+- **What:** Japanese authorities (BOJ contacting dealers; MOF decides, BOJ executes) ran a **rate check** — an inquiry for live USD/JPY quotes, **not a transaction**. Reported around **midnight JST 2026-09-19 ≈ 15:00 UTC 2026-09-18**, hours after the BOJ hiked to 1.25%.
+- **⛔ NO INTERVENTION IS CONFIRMED OR CLAIMED.** The source states plainly that no direct intervention was confirmed and characterises the check as *"a warning rather than proof that intervention is imminent."* A rate check moves no money; do not log this against the strike history.
+- **Level:** the check came with USD/JPY near **158** — the session high was **158.054** (own hourly data, Europe/London basis). That is **~3–4 yen BELOW this playbook's registered ~161–162 T1 zone.**
+- **Price signature:** 157.87 → 156.75 across 23:00–00:00 JST, closing the session at **156.855**. ⚠️ **The shape corroborates but does not identify** — spike-and-reverse is non-identifying on this desk by its own canon; what identifies this one is the **reported check**, and the price is consistent with it, not evidence for it.
+- **Sourcing weakness, stated:** this rests on **press reports of a check**, not on an official confirmation, and the two readable accounts are secondary. The Japan Times original is paywalled to this desk. Treat as **REPORTED, CORROBORATED BY PRICE, NOT OFFICIALLY CONFIRMED.**
+
+**What it changes and what it does not.** S1-A stands: escalation UP the ladder raises P(strike), and this is escalation. **It does not re-arm anything** — every entry gate that keyed on MOF action retired with the convexity frame on 2026-08-07, and the 160 gate stays VOID. The book is FLAT. What genuinely updates is the **reaction-zone read**: the authorities showed their hand ~3–4 yen lower than the zone carried here, so a level-based reading of this ladder was wrong and is corrected above.
+
+**⚠️ The timing hazard is the live part.** This playbook's own T1 row says a rate check *"historically precedes a strike by hours to ~1 day."* **Tokyo is then shut for three days** — Silver Week, Mon Sep-21 through Wed Sep-23 — so that window elapses into the thinnest Tokyo liquidity of the year with the tell already fired. Under S1-A's ambush doctrine a strike is *"a gap event with zero lead-in"*, and thin markets are where MOF has historically acted. **Deploy-on-trigger discipline is unchanged and no entry exists to trigger** — this is a monitoring posture, not a setup.
 
 ### 2026-08-02 (PROXY RUN) — 7/30 CANDIDATE STRIKE: **SUSPECTED-STRONG (not MOF-official)**; the S1-A manual semi-confirm ran ON THE WIRES exactly as scoped; reclaim base rate BROKEN
 
