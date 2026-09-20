@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated:** 2026-09-19, CRUISE correction response and active TERRY follow-up inspected. This is a dated resume map; verify owner records and Git state before acting.
+**Updated:** 2026-09-19, CRUISE next-step assessment complete. This is a dated resume map; verify owner records and Git state before acting.
 
 ## Current assignment and approvals
+
+**Latest — CRUISE next-step assessment complete.** [Assessment](runs/2026-09-19_2130_cruise-next-step-assessment.md), snapshot `ed18776ae`. Recommend drafting a test now with separate forecast/causal evidence, obtainable data, competing explanations and an unresolved outcome; no registration or work assigned. Funding model now admits missing timing/reserves but summary still over-clears liquidity; NCLH filing does not confirm harm to CCL; CRU-07/08 grade company fuel figures, not the expiring Brent contract. CRUISE's conditional headline/history correction verified. TERRY `04a1cd25a` withdraws the CATO allegation and zero-event-premium assertion; those documentary disputes are closed, replacement variance model not independently reviewed. No owner edits/sends or trade/prediction changes. **Next: orient and await Will.**
 
 **Latest response review complete.** [CRUISE correction response](runs/2026-09-19_2117_cruise-correction-response.md), at `64c3b92a8`: sequence/straddle corrections and mechanism/expression withdrawal committed; outdated TRADE/KB headlines still precede corrections. TERRY accepted F1 as its own assumption error, then committed the inspected note/reply byte-identically in `fe0dfde2a`/`09bef09f1`. Its allegation that CATO merged October/November structures contradicts the committed review, probe and CRUISE relay; both strikes are 21. New zero-event-premium assertion also remains unsupported. Full revised owner commit set not independently certified. No owner edits/sends or pricing/history recertification. Owner work preserved. **Next: orient and await Will; no further review or implementation assigned.**
 
