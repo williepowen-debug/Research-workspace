@@ -1,0 +1,146 @@
+# NCLH — 18-month funding reconciliation to ONE dated horizon
+
+**Built:** 2026-09-19 Sat (CRUISE, evening session) · **Discharges CATO R7** ("the ~$1.3B funding gap is UNVERIFIED and needs a MODEL, not one filing")
+**Horizon:** **2026-07-01 → 2027-12-31** — exactly 18 months from the balance-sheet date of the primary.
+**Primary:** NCLH Q2 FY26 10-Q, filed **2026-08-03**, acc **0001104659-26-089657**, period ended 2026-06-30. Secondary primary: FY2025 10-K debt-maturity ladder via SEC XBRL.
+**Read as a DOCUMENT, not by header tags** — the method defect logged at KB-CRU-066.
+
+---
+
+## ⚖️ VERDICT — THE "$1.3B GAP" IS NOT REPRODUCIBLE, AND THE REAL SHAPE IS DIFFERENT AND STILL WORTH HOLDING
+
+**The secondary claim this desk carried since 2026-09-02 — *"~$5.3B of sources vs ~$6.6B of outflows over 18 months = a ~$1.3B gap that could force an equity raise"* — does not reconstruct from the filings.** Built from primary disclosure to a single dated horizon, the 18-month window shows:
+
+| | $M |
+|---|---:|
+| **Net newbuild drain** (capex $4,200 − ECA financing already in place $2,700) | **1,500** |
+| Other non-newbuild capex | 600 |
+| Scheduled debt amortisation | 1,705 |
+| **= Total uses, net of committed ship financing** | **3,805** |
+| Operating cash flow (base case, +2%/yr) | (2,892) |
+| **= Net cash need** | **913** |
+| Cash on hand 6/30/26 | (218) |
+| **= Revolver draw required** | **695** |
+| Revolver capacity | 1,300 |
+| **= Undrawn revolver at 2027-12-31** | **605** |
+
+**⇒ The window CLOSES. It closes on the revolver, and the cushion is roughly one bad year thick.**
+
+**⛔ So the "forced equity raise" framing is wrong as stated and I am retiring it.** The right statement is narrower and more useful: **NCLH funds the next 18 months by drawing a little over half its revolver, and exits 2027 with ~$0.6B of liquidity instead of ~$1.5B.** That is a liquidity *degradation* on a company already at 5.3x leverage — not an imminent financing event.
+
+---
+
+## SENSITIVITY — THE ONE NUMBER THAT MATTERS
+
+Operating cash flow is the only large input that is not contractually fixed, so it carries the whole result.
+
+| Operating cash flow | 18-mo OCF | Net need | Revolver left at 12/31/27 | |
+|---|---:|---:|---:|---|
+| +2%/yr (base — matches trend) | 2,892 | 913 | **+605** | covered |
+| flat | 2,765 | 1,039 | **+479** | covered |
+| −5%/yr | 2,457 | 1,348 | **+170** | covered, thin |
+| **−7.84%/yr** | — | — | **0** | **BREAKEVEN** |
+| −10%/yr | 2,159 | 1,645 | **−127** | ⛔ short |
+| −15%/yr | 1,872 | 1,933 | **−415** | ⛔ short |
+| −20%/yr | 1,595 | 2,210 | **−692** | ⛔ short |
+
+🔑 **THE HEADLINE NUMBER: the revolver is exhausted inside the window if operating cash flow falls about 8% a year — FY27 OCF ~15% below FY25.**
+
+**Where NCLH actually is:** OCF has been flat-to-up for three straight years — **FY23 $2,005.7M · FY24 $2,049.8M · FY25 $2,089.7M** — and **H1-2026 came in at $1,414.0M, +1.4% YoY.** ⇒ **The company is currently tracking ABOVE the breakeven path, not below it.** The funding thesis is therefore a *conditional* on a cash-flow deterioration that has not yet appeared in the cash-flow statement, however bad the yield guide looks.
+
+⚠️ **The counter-consideration, and it is real:** the −8.9% Q3 constant-currency yield guide and the FY26 EPS cut to ~$1.50 are *earnings* statements. Advance ticket sales are collected in cash **ahead** of sailing, so a booking deterioration hits OCF **later** than it hits guidance. **This model's OCF anchor is backward-looking by construction** — and the leading indicator for it is in the next section.
+
+---
+
+## THE LEADING INDICATOR IS ALREADY DETERIORATING — AND IT IS THE SAME DATUM WALL STREET IS TRADING
+
+**Advance ticket sales — the cash customers pay in before they sail:**
+
+| | H1-2026 | H1-2025 | Δ |
+|---|---:|---:|---:|
+| Increase in advance ticket sales (cash-flow statement) | **$482.0M** | **$708.1M** | **−$226.1M, −31.9%** |
+
+**The balance-sheet LEVEL is up** ($3,651.2M at 6/30/26 vs $3,200.6M at 12/31/25) **but the RATE OF BUILD has fallen by a third.** That is the mechanism by which a yield problem becomes a cash-flow problem, and it is already visible.
+
+**🔑 AND NCLH SAYS IT ITSELF, IN THE FILING, UNDER ITS OWN HEADING "UPDATE ON BOOKINGS":**
+
+> *"The Company remains **below its optimal booked position for the next 12 months**, as it continues to experience pressure from **softer demand at Norwegian Cruise Line related to Company-specific execution challenges**, as well as the ongoing conflict in the Middle East."*
+
+and, in the MD&A:
+
+> *"…**misalignment between our commercial strategy and deployment**…"*
+
+**⇒ `FL-CRU-10` IS NO LONGER SECONDARY-ONLY.** Wells Fargo's *"low booked position exiting the second quarter"* — the analyst characterisation this desk logged on 9/19 at **Partial** confidence with "no primary says it" — **is confirmed nearly verbatim in NCLH's own 10-Q, filed 2026-08-03, six weeks BEFORE the analyst note.**
+
+⚠️ **One nuance that cuts against a sector-wide reading and sharpens the K-shape:** NCLH attributes the weakness to **Company-specific execution challenges**, not to industry demand. **That makes the discounting idiosyncratic to NCLH — which strengthens, not weakens, the contagion reading**: a company-specific problem is leaking into peers' Caribbean pricing.
+
+**Dated mitigant, recorded:** Great Stirrup Cay's full amenities (pier, Great Tides Waterpark, Great Life Lagoon, Splash Harbor) opened to the public **2026-09-04**; the company expects it to *"improve demand to Caribbean itineraries over time."* Also **~$100M of additional expected annualised run-rate savings**, which the company says will have *"a limited impact on 2026 financial results."*
+
+---
+
+## WHAT THE 18 MONTHS DO TO THE BALANCE SHEET
+
+| | $M |
+|---|---:|
+| Gross debt 6/30/26 *(1,141.4 current + 13,893.4 long-term)* | 15,034.8 |
+| + ECA draws | +2,700.0 |
+| − scheduled amortisation | −1,705.2 |
+| + revolver draw (base case) | +695.0 |
+| **Gross debt 12/31/27** | **16,724.6** |
+
+**+$1,690M, +11.2% over 18 months** — because committed ship financing draws ($2.7B) exceed scheduled repayments ($1.7B). **Shareholders' equity was $2,572.9M at 6/30/26, so gross debt/equity is already 5.8×.**
+
+⛔ **I do NOT compute a leverage RATIO here. EBITDA is not in this 10-Q**, and NCLH's 5.3x is its own net-debt/Adjusted-EBITDA metric on its own definition. **Only the numerator is established above.** But the direction is unambiguous and it matters for the vector: **`VX-CRU-05`'s RED(5) band requires "guide re-slashed + leverage climbing," and the funding math says the debt numerator climbs ~11% over the window on the BASE case.** Whether the ratio climbs depends on EBITDA, which is exactly what the yield guide threatens.
+
+---
+
+## INPUTS — EVERY LINE SOURCED, EVERY ASSUMPTION NAMED
+
+**[P] = primary disclosure · [A] = my assumption**
+
+| Input | $M | Src | Note |
+|---|---:|---|---|
+| Cash & equivalents 6/30/26 | 218.1 | **[P]** | 10-Q balance sheet |
+| Revolver available | 1,300 | **[P]** | *"liquidity was approximately $1.5 billion, including cash…of $218.1 million and $1.3 billion available under our Revolving Loan Facility"* |
+| Ship construction + growth, rem-2026 | 1,300 | **[P]** | Future Capital Commitments |
+| Ship construction + growth, FY2027 | 2,900 | **[P]** | Future Capital Commitments |
+| ECA financing in place, rem-2026 | 700 | **[P]** | Future Capital Commitments |
+| ECA financing in place, FY2027 | 2,000 | **[P]** | Future Capital Commitments |
+| Other non-newbuild capex, rem-2026 | 200 | **[P]** | *"approximately $0.2 billion"* |
+| Other non-newbuild capex, FY2027 | 400 | **[A]** | ⚠️ **NOT DISCLOSED.** 2× the disclosed half-year. A ±$200M error moves revolver headroom by the same amount and does not change any verdict above. |
+| Scheduled amortisation 7/1/26–6/30/27 | 1,141.4 | **[P]** | Current portion of LTD at 6/30/26 — dated to exactly this window |
+| Scheduled amortisation H2-2027 | 518.4 | **[A]** | ⚠️ Half of the FY25 10-K's FY2027 maturity ($1,036.8M), straight-lined. Calendar-year figure split, not a disclosed half-year. |
+| Luna ECA amortisation increment, H2-27 | 45 | **[A]** | ⚠️ €1.0B ECA term loan drawn March 2026 **post-dates** the 10-K ladder; 1.91% fixed to Feb-2038 ⇒ ~$90M/yr, half-year taken. |
+| FY25 / FY24 / FY23 operating cash flow | 2,089.7 / 2,049.8 / 2,005.7 | **[P]** | SEC XBRL, 10-K |
+| H1-2026 / H1-2025 operating cash flow | 1,414.0 / 1,394.1 | **[P]** | 10-Q cash-flow statement |
+
+### Things I deliberately did NOT do
+- **No leverage ratio** — EBITDA absent from the source (above).
+- **No refinancing assumed.** The model repays scheduled maturities in cash. **The company says the opposite** — *"we may optimize our liquidity or pursue other refinancings in order to reduce interest expense and/or extend debt maturities"* — so **the model is CONSERVATIVE on amortisation by construction.** Any refinancing pushes the breakeven further out.
+- **No equity issuance, no asset sales, no charter proceeds** modelled, though a fleet-optimisation programme with 10-year bareboat charters exists.
+- **No dividend** — NCLH pays none (confirmed: zero dividend history).
+
+---
+
+## ⛔ THE CAVEAT THAT OUTRANKS THE MODEL
+
+**Management's own 12-month sufficiency assertion is NOT a claim of self-funding, and this is easy to read past.** The filing's words:
+
+> *"…our Revolving Loan Facility, **expected future operating cash inflows and our ability to issue debt securities or additional equity securities** will be sufficient to fund operations, debt payment requirements and capital expenditures and maintain compliance with covenants… over the next 12-month period."*
+
+**Capital-markets access is INSIDE the sufficiency claim, not a backstop behind it.** And NCLH is deep junk on both scales — **Moody's B1 issuer / B3 senior unsecured; S&P B+ issuer / B+ senior unsecured / BB on the revolver.** The filing states plainly: *"If our credit ratings were to be downgraded… our access to capital and the cost of any debt or equity financing will be negatively impacted."*
+
+🔑 **Set against CCL's June 2026 upgrade to investment grade (S&P BBB−), this is the K-shape written in credit ratings, not just in yields** — and it is the reason the same cash-flow shortfall is a different event at NCLH than at Carnival.
+
+**Covenants:** in compliance at 6/30/26, with standard cross-default/cross-acceleration.
+**2027 exchangeables — checked and NOT the problem:** $192.0M (1.125%) + $24.1M (2.5%) = **$216.2M**, already inside the current portion, and NCLH **irrevocably fixed cash settlement in May 2026**, so they are a cash call — but a small one, already captured in the $1,141.4M.
+
+---
+
+## WHAT WOULD FALSIFY THIS
+
+1. **FY2026 operating cash flow below ~$1,926M** (vs FY25 $2,089.7M) puts the window on the breakeven path. **Check at the FY26 10-K.**
+2. **Advance ticket sales building slower again in H2-26** — the H1 build already fell 31.9% YoY. **Check at Q3 and Q4.**
+3. **Any revolver draw disclosed before 2027** would mean the base case is running early.
+4. **A downgrade** — the sufficiency claim leans on market access.
+5. **Contrariwise:** a refinancing that extends 2027 maturities, or Great Stirrup Cay lifting Caribbean demand, pushes the breakeven materially further out.

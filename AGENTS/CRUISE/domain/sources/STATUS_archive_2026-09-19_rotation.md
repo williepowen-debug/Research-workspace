@@ -114,3 +114,46 @@
 - 🟠 **Confirm the CCL Q3 date at CCL's own release** the moment it posts — everything downstream is calendared off it, and it is due.
 - 🟠 **`VX-CRU-04` measures NEW announcements since 7/2, not total remaining disruption** (CATO R4). Costa/AIDA/Silversea **are** Big-3 brands, and AIDA's Orient cancellations (3/13, 6/30) **predate the cutoff** — the literal zero holds, but a start date after the withdrawals can read zero *because* the disruption already happened. **Carry an existing-disruption measure beside the score; establish scheduled exposure before reading zero as low stress.**
 ```
+
+
+---
+
+## § H — two STATE items rotated off the live surface, 2026-09-19 evening pass 2 (VERBATIM)
+
+*Rotated under READ_CAP rule 5 to make room for the NCLH funding finding while staying under the <70%-of-budget stop. **856 B, crc32 `0b766ae1`.** Neither is retracted and neither is lost: the four sell-side PT cuts are carried in full on the live Signal Dashboard and at KB-CRU-069/071; the `VX-CRU-04` itinerary test is carried in the vector's own VX.tsv cell and at KB-CRU-073. **Rotated, not retired.***
+
+```
+> 2. **🔴 FOUR SELL-SIDE PT CUTS IN THREE DAYS, ALL IN THE DARK WINDOW** — WF 9/14 $38→$36 OW · DB 9/15 $34→$29 Hold · Barclays 9/16 $35→$33 OW · Stifel 9/16 $37→$35 Buy. **All four kept a non-Sell rating — cuts to LEVEL, not direction.** Cause SPLIT: **fuel** (DB, Barclays) vs **Caribbean pricing** (WF, Stifel). **Barclays expects a CCL FY26 guide cut on fuel at the print.** ⛔ Not traded on; the only dated read on the bar `CRU-07`/`CRU-08` grade on. (KB-CRU-069/071)
+> 5. **✅ `VX-CRU-04` GREEN(1) now TESTED, not assumed.** Carnival *did* announce itinerary changes this week (*Elation*, *Conquest*, 50+ sailings) — **Bahamas port-time adjustments, not Gulf/Red Sea/Suez**, so the one-cancellation falsifier did not fire. Count since 7/2 stays 0. ⚠️ Denominator still unmeasured; GREEN stays partly structural. (KB-CRU-073)
+```
+
+
+---
+
+## § I — Operator profiles as they stood before the 2026-09-19 evening compression (VERBATIM)
+
+*Rotated under READ_CAP rule 5. **3965 B, crc32 `efb14cc7`.** The live successor keeps every current figure and the Q2 detail was already archived; ⛔ **one line here is WRONG and is corrected in the successor, not preserved as guidance**: the RCL bullet's "WORST of the Big 3 this week (−5.51% vs NCLH −4.72%)" is a PRICE-only comparison across RCL's $1.50 ex-dividend of 9/17. On total return it is −4.93% vs −4.72% — RCL is still worst, but the gap is 0.21pp, not 0.79pp. Kept here as the historical wording per correction discipline.*
+
+```
+## Operator profiles (deltas only — Q2 detail is in the archive + the 8/14 outbox packets)
+
+### Carnival (CCL) — **$21.84** · the print is 2026-09-29 and the tape got to the RED line first
+- **Q2 FY26 (6/23, acc 0000815097-26-000086):** record revenues $6.7B, adj net income $569M (+20% YoY), adj EPS $0.41, deposits **$9.0B**, **93% booked FY26**, net yields CC +2.2%.
+- **🔴 52-week low 9/18, sixth straight down week, ~−26% YTD.** ⚠️ Secondaries' "$34.03 high / −36%" is a **different basis** (rolling intraday) and is **not** substituted into `VX-CRU-01`, which scores closes vs the named $33.45. **The bear case moved from fuel to PRICING while the desk was dark** — Stifel: **CCL −27% over six weeks while fuel rose ~24% and the S&P was flat**, and it still blames Caribbean pricing. (KB-CRU-074)
+- **The Med caveat is the one to watch, and CCL says it is turning:** volatility hit European deployments *"particularly in the Mediterranean"* — but *"Recent booking trends already suggest that we are beginning to see a reversal."* **Q3 tests that sentence in 10 days.**
+
+### Royal Caribbean (RCL) — **$245.81** · strongest guide, now the weakest tape
+- FY26 Adj EPS $17.73–17.87 raised, Q3 yields ~flat, 110.2% load factor, **58% hedged @ ~$474/mt**.
+- **🔴 RCL was the WORST of the Big 3 this week** (−5.51% 9/11→9/18 vs NCLH −4.72%, CCL −4.00%), now **−15.87% below its own 3-mo mean**. **The premium leg is de-rating while its guide says the opposite — the best thing to grade at the prints.**
+- **Med:** RCL calls the slowdown *fleeting*. **Two operators say the Med is turning; NCLH says the opposite.**
+
+### Norwegian (NCLH) — **$14.12** · new low, and the funding question is still a model, not a number
+- **−43.57% from the 2026-02-26 peak $25.02**, −22.66% below its 3-mo mean. Guide unchanged since the 7/30 cut (FY Adj EPS ~$1.50, Q3 CC yield −8.9%, leverage 5.3x).
+- **🔑 NCLH is now named by others as the SOURCE of sector price pressure, not just its victim.** Its own recovery framing concedes **prices were held too high too early in the booking cycle**, limiting advance demand — so it is repricing down; Wells Fargo and Stifel both name that discounting as the cap on CCL's Caribbean yields. **The weakest balance sheet is setting the clearing price.** (`FL-CRU-10`)
+- **✅ CATO R7 DISCHARGED — the 8/3 10-Q is pulled and modelled to one dated horizon (7/1/26→12/31/27). ⛔ THE ~$1.3B GAP DOES NOT RECONSTRUCT.** Uses net of committed ECA financing **$3,805M** vs operating cash flow **$2,892M** = **$913M** net need, less $218.1M cash = a **$695M revolver draw** against $1,300M capacity, **~$605M left undrawn.** The window **closes** — what happens is liquidity falling **~$1.5B → ~$0.6B**, not a forced raise. **Replacement number: the revolver is exhausted if operating cash flow falls ~8%/yr** (FY27 ~15% below FY25) — **and NCLH is tracking above that path**, OCF flat-to-up three years ($2,006M/$2,050M/$2,090M), H1-26 **+1.4% YoY**. Model + every assumption: `domain/sources/2026-09-19_nclh-18-month-funding-reconciliation.md`. (KB-CRU-075/076)
+- **🔑 BUT THE LEADING INDICATOR IS ALREADY MOVING, AND THE COMPANY SAYS SO ITSELF.** 10-Q *"Update on Bookings"*: **"remains below its optimal booked position for the next 12 months… company-specific execution challenges."** The H1 **build** in advance ticket sales fell **−31.9% YoY** ($482.0M vs $708.1M) while the **level** rose. ⚠️ Deposits are cash **ahead** of sailing, so bookings hit cash flow **after** they hit guidance — **a trailing-OCF model understates near-term stress here.**
+- ⛔ **Management's 12-month sufficiency claim explicitly includes *"…issue debt securities or additional equity securities"*** — market access is **inside** it, at **Moody's B1/B3, S&P B+**. Against CCL at **IG (BBB−)**, that is the K-shape in credit ratings. **52% fuel-hedged** rest-2026. (KB-CRU-078)
+
+---
+
+```
