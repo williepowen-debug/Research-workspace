@@ -54,6 +54,19 @@ Mechanism: **extend the existing consumer-check step / `consumer_check.py`**, NO
 
 This proposal is **drafted only** — not IMPLEMENTED, not TESTED, not VERIFIED. Next steps, in order: (1) cold read of this record; (2) Will's ruling on whether it extends closeout canon; (3) if ruled, extend `consumer_check.py` + the closeout step with a test that fails against pre-fix behaviour on the four evidence cases above; (4) independent reader devises its own counterexample before it is called fixed (CONSEQUENTIAL — it touches a shared closeout control). Prefer promoting/repairing the existing control over any new one.
 
+## Addendum 2026-09-20 PM (TERRY doorbell, verified in the tool source) — the self-mode safety risk + its safeguard
+
+⛔ **The load-bearing risk for a SELF-sweep, verified at `scripts/consumer_check.py` L697-708 (the LINE-CLASS DEMOTION block), not asserted:** a 🔴 cannot tell a stale COPY from a FROZEN THRESHOLD from a DATED HISTORY ROW. On BROCK's first `--from-ledger` run via PROME, **123 candidates and BOTH certified 🔴 were NOT stale** — (a) `DOCKET.tsv:183` a deliberately FROZEN kill line (packeting/re-basing it to the current value is the ratchet that DESTROYS a falsifier); (b) a `MARKET_DATA` row DATED 2026-07-27 carrying the then-current value (a refresh CORRUPTS the series). **0-for-2 on the highest-confidence tier, and in BOTH cases ACTING ON THE FLAG causes the damage.**
+
+🔑 **Why cross-agent mode is safe and self-mode is not:** cross-agent, the remedy is a packet to the owner and the owner pushes back. **In self-sweep mode the flagged party, the dispositioning party, and the party with the cheapest wrong remedy are ALL the same session, at closeout, under time pressure** — and the cheapest way to clear a 🔴 on your own frozen threshold is to edit the threshold, i.e. the exact defect. `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]`; TERRY's own `ledger_sweep` CHECK-I rationale in reverse (a guard whose cheapest remedy is a bad action buys nothing).
+
+✅ **Scope correction (TERRY, `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`):** the self-audit 0-record/4-instrument scoreboard impeaches JUDGEMENT-dependent self-audit, NOT a literal-string match — a superseded-string probe needs no judgement and does not depend on the author knowing what they meant, so the author-blindness mechanism does not reach it. The scoreboard BOUNDS this proposal's scope (literal-string subclass; misses paraphrases/titles); it is NOT an objection to it.
+
+**Safeguard — ACCEPTANCE CONDITIONS 8-10 (uses the tool's OWN distinctions; the ask is only that self-mode not bypass them):**
+8. Self-mode KEEPS every demotion class (DEMOTE-NEVER-SUPPRESS; the frozen-threshold and dated-capture line-classes stay demoted to 🟠 with their reason printed).
+9. Self-mode NEVER auto-acts on a 🔴 — no silent clear, no auto-edit.
+10. The frozen-threshold and dated-capture classes must be dispositioned **in writing with the reason**, never silently cleared. A `git mv`/edit that clears a 🔴 on the author's own frozen threshold is the failure this exists to prevent.
+
 ## Open, not part of this proposal
 CATO flags the CRUISE funding model's **cash-flow timing AND minimum-reserve** limitations as still unresolved (the deposits-ahead-of-sailing / trailing-OCF-understates-stress point, documented in KB-CRU-076 but not modelled, and the minimum operating-cash reserve the breakeven ignores). CRUISE domain items, carried — noted here only so they are not lost.
 
