@@ -518,3 +518,25 @@ v1.7 retirement, probabilities and original prediction terms unchanged. Prior st
 ## Historical September 10–11 notes
 
 Completed event narratives, the VECTOR-5 arithmetic and as-registered readings are preserved [verbatim here](research/outputs/2026-09-14_stale-sweep/completed-status-notes.md). Current observations and forward conditions are in the tables below; full registration remains in the dated research record.
+
+---
+
+## 2026-09-18 — BOJ MPM GRADE (owner grade; PROME DOCKET L34 closed on this)
+
+**BOJ raised the policy rate 25bp to 1.25%, vote 7–2, effective September 24** — highest since 1995. Primary `k260918a.pdf`, text-extracted in-session; vote footnote read verbatim, not relayed. **FOMC hiked the same week** to 3.75–4.00%, 12–0, with SEP medians moving **UP** (2026 3.8→4.1 / 2027 3.6→4.1%).
+
+**SAM's three-leg pre-registration, graded on its own terms — no leg re-tuned at scoring time:**
+
+| Leg | Registered | Outcome | Grade |
+|---|---|---|---|
+| Vote split | "2+ dissent **for a faster pace**" | 2 dissents, **both for HOLD** (Asada: core "below 2 percent", *maintain*; Sato: "not substantially accelerated") | 🔴 **HAWKISH SURPRISE DID NOT FIRE** — count matched, sign is the mirror image |
+| Oil naming | activity ⇒ dovish · price ⇒ hawkish | named both ways, **activity dominant**; price side reaches only PPI | 🟢 **DOVISH-FOR-PACE** |
+| Balance sheet | "a change is the surprise" | **no JGB purchase-plan change**; only a unanimous technical climate-ops change | 🟢 **NO SURPRISE** |
+
+⚠️ **Composite clause graded a MISS.** Registered: *"The surprise is a HOLD, and it is yen-NEGATIVE."* No hold printed. The yen weakened anyway (154.82 [9/15] → **157.34** [9/18]) — but via the **dovish split + full pricing**, not the named mechanism. ⛔ Logged as a calibration loss, not a directional hit: right call on a wrong mechanism is a miss under this desk's mechanism-direction failure class.
+
+**Substance:** the BOJ hiked with **core CPI at 1.7%, below its own target** — Asada's dissent turns on exactly that. **CH-004 confirmed a third time: a fully-priced hike does not unwind carry.** **Consequences to the frame: none.** v1.7 RETIRED-to-LOW stands; no retired gate re-arms; 160 gate VOID, not re-armed; book FLAT. **SAM-33 un-falsified**, verified at `ope20260916.xlsx` (25Y+ offered 750 = exactly scheduled; no fixed-rate/unscheduled op) — at the record, not inferred from silence.
+
+**Full grade, dark-period ledger and the primaries → [`reports/2026-09-18_boj-mpm-grade.md`](reports/2026-09-18_boj-mpm-grade.md).**
+
+---

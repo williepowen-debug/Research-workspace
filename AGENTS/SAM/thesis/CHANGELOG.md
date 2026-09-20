@@ -8,6 +8,28 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-19 PM — CATO R4 ruled: SAM-28 regraded FALSE → QUALIFIED / NO-VERDICT; SAM-31 FALSE with its reasoning replaced. v1.7 unchanged, no successor
+
+**Old view:** SAM-28 RESOLVED FALSE on the route leg; SAM-31 RESOLVED FALSE on two independent legs; scoreboard 16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN; grades published as settled, then marked DISPUTED when challenged.
+**New view:** **SAM-28 = `RESOLVED — QUALIFIED / NO-VERDICT`** (new status token, added to `scripts/lib/boot_context.py` STATUSES — the reader validates a closed set and would have rejected the row). **SAM-31 = FALSE, unchanged verdict, replaced reasoning.** Scoreboard **16 / 15 / 1 special / 1 qualified / 1 OPEN** (34 rows). ⛔ Nothing graded TRUE; CATO did not ask for that.
+
+**Trigger:** CATO `2026-09-19_1148_recent-updates-review.md` §R4 (five points), carried by PROME packet `2026-09-19_from-PROME_CATO-item-4-...`. **Upheld on 4 of 5.** ⚠️ **The packet relayed only 3 of the 5** — points 3 (Episode-B control) and 5 (calibration label) were not carried, and point 3 is one of the two that moves SAM-28. Verified at CATO's own artifact, which is why the gap was visible.
+
+**Why SAM-28 moved — three reasons, all mine:**
+1. **Exhaustion error.** The row is EXISTENTIAL over five routes; four failing on fact settles nothing about the fifth.
+2. **The modal forecast is not outcome evidence.** The FALSE-over-NO-VERDICT tie was broken toward the registered 40% prior. With the withdrawn "correctly calibrated" label (point 5), that is a mechanism that **manufactures calibration** — resolve ambiguous rows toward your own prediction, then score yourself on the result.
+3. **The Episode-B control is withdrawn.** It asserted the September rally had "no eligible route at all" while `STATUS.md` says, same day, that Sep-7/8 attribution "remains OPEN" — unknown treatment used as known absence. It also cannot reach its target: Episode A's route is evidenced by the **documented operations**, not by its shape. Losing it also removes the fallback that absorbed CATO's date correction earlier that day.
+
+🔑 **Decisive, and found by neither CATO nor PROME:** the contemporaneous registration record the governing packet **ordered** me to consult (`THESIS.md` § The N tail-routes) was consulted only after challenge, and it favours the reading the grade rejected — the route is named **"MOF #3 sustained"** while **"sustained-unwind|fires ~0.20 (CH-003)"** is a **separate downstream conditional**, so firing and sustaining are distinct events in my own registration. Under it the route **fired** (documented official action 7/30–7/31) and only the magnitude-attribution window is open. **Not TRUE either:** registered magnitude given firing was **"+2% blended"** (below the +3% bar), and CH-003 is the desk's own contemporaneous *outcome* standard (Apr-30 and May-6 both spike-reversed, "net ~zero on sustained unwind") — which the Jul-30/31 episode repeated exactly (peak +4.22% 8/3, back below +3% by 8/10). Route label and outcome standard disagree ⇒ unresolved convention, which the packet says "can require a qualified or no-verdict treatment."
+
+**SAM-31 — verdict survives, evidence replaced.** CATO is right that a negative MEAN cannot refute an existential EPISODE claim. Episode screen run instead (per-instrument own-calendar returns): the three genuine VIX-rise episodes show **no broad yen bid** — 7/29 (VIX **20.66**, window max) FXY +0.232%, yen stronger 1 of 4 crosses; 6/23 (19.49) +0.018%, 2/4; 7/17 (18.77) +0.106%, 2/4. The one broad bid, **9/8** (+1.517%, **4/4** crosses), came at **VIX 15.72** — not the "genuine VIX-spike regime" the row's own note requires — and sits in the OPEN-attribution window, so it may be official action. **The relationship is inverted.** Mean demoted to descriptive. ⚠️ **Conceded, not closed:** the packet asked for matched **intraday** cross-pair evidence (esp. Jul-13); daily cross-clock data cannot supply it and Jul-13 is that artifact (FXY −0.493% while all four crosses show a stronger yen). Recorded as a gap, not evidence.
+
+**Thesis consequence: NONE, and a qualified row changes less than a FALSE one.** Frame retired 8/7 on leg 1; SAM-28's conditional retirement leg cannot re-retire it and its ≥80%-positioning precondition is moot (Sep-8 NET LONG +10,796). **v1.7 stands · no successor · book FLAT · no gate re-arms · 160 VOID.** SAM-33 open to Dec-31.
+
+**Integrity:** term fields untouched — field-level diff at git confirms only Status/Outcome/Notes moved, on exactly 2 rows. Surfaces re-synced: PREDICTIONS.tsv (+preamble), grade record (bannered, arguments left legible), STATUS, NEXUS_BRIEF, CALENDAR, STRATEGY, TRADE, TIMELINE. Record: `docket/2026-09-19_CATO-R4-RULING.md`.
+
+---
+
 ## 2026-09-19 — SAM-28 and SAM-31 both RESOLVED FALSE; v1.7 unchanged, no successor
 
 - **PREDICTIONS:** the two open v1.6 convexity-tail tripwires are graded, one day past their Sep-18 boundary, on frozen terms with nothing re-tuned at scoring time. **SAM-28 → FALSE** on the ROUTE leg; **SAM-31 → FALSE** on two independent legs. Scoreboard **16 CONFIRMED / 16 FAILED / 1 special / 1 OPEN (SAM-33)**, re-derived from `PREDICTIONS.tsv` (34 rows, 0 unclassified), not carried forward. Sidecar pruned to the OPEN set; SAM-33's condition hash re-verified against its row.

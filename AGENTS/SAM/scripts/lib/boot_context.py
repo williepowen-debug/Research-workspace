@@ -11,7 +11,11 @@ from zoneinfo import ZoneInfo
 FIELDS = ['Pred_ID', 'Date_Made', 'Prediction', 'Confidence', 'Timeframe', 'Status', 'Date_Resolved', 'Outcome', 'Notes']
 STATUSES = {'OPEN', 'FAILED', 'CONFIRMED', 'RESOLVED', 'RESOLVED CONFIRMED',
             'RESOLVED — TRUE-IN-LETTER / FALSE-IN-SPIRIT',
-            'RESOLVED CONFIRMED — TRUE-IN-LETTER / FALSE-IN-SPIRIT'}
+            'RESOLVED CONFIRMED — TRUE-IN-LETTER / FALSE-IN-SPIRIT',
+            # Added 2026-09-19 (CATO R4 ruling, SAM-28): a row whose terms are met or
+            # missed only under a convention the registration never fixed. Resolved and
+            # closed — NOT open, NOT scored as CONFIRMED or FAILED.
+            'RESOLVED — QUALIFIED / NO-VERDICT'}
 CHUNK_BYTES = 14000
 
 

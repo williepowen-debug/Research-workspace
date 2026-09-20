@@ -4,7 +4,7 @@
 
 ## SEPTEMBER–JANUARY — forward event set synchronized with CATALYSTS.tsv
 
-✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19: BOTH FALSE** on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Only SAM-33 remains open**, to Dec-31. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y resolved AMBIGUOUS (see completed record). Recurring releases below are the near-term watch set, not a complete annual calendar.
+✅ **September 18 read order EXECUTED:** National CPI (1.9 / 1.7 / 1.9, 2025 base) → BOJ decision (**hiked to 1.25%, 7–2, both dissents DOVISH**) → ✅ **SAM-28/31 GRADED 2026-09-19** (SAM-28 **QUALIFIED / NO-VERDICT** after the PM CATO R4 ruling; SAM-31 **FALSE**) on the terms frozen in `2026-09-18_SAM28_SAM31_ADJUDICATION_PREP.md` (record: `2026-09-19_SAM28_SAM31_GRADE.md`). Prediction terms were never changed. **Only SAM-33 remains open**, to Dec-31. Quarterly report estimates remain estimates. September 29 uniform-price 40Y auction is descriptive only; September 15 20Y resolved AMBIGUOUS (see completed record). Recurring releases below are the near-term watch set, not a complete annual calendar.
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
@@ -46,7 +46,7 @@
 | **Fri Sep 18** | **BOJ MPM day 2** | **HIKED 25bp → 1.25%, vote 7–2, effective Sep-24** — highest since 1995. Both dissents **DOVISH, for HOLD**. Owner grade → STATUS § 2026-09-18. |
 | **Fri Sep 18** | **Japan National CPI, August** | **1.9 / 1.7 / 1.9** (2025 base). Core **below** the BOJ's own target on the day it hiked. |
 | **Fri Sep 18** | **CFTC JPY COT (Sep-15 positions)** | Gross shorts **−30.0% WoW**. Recorded; entered **neither** SAM-28 nor SAM-31's terms. |
-| **Fri Sep 18** | 🔴 **SAM-28 / SAM-31 grading at close** | **BOTH FALSE**, graded 2026-09-19 on frozen terms. SAM-28 on the ROUTE leg (4 of 5 routes settled NO-FIRE; the 5th needs two stacked unstated conventions and is refuted by the Episode-B no-route control). SAM-31 on two independent legs, no VIX bar invented. FXY close 58.48 = +2.976% vs the 58.4937 bar — **context, not the instrument.** → [grade record](2026-09-19_SAM28_SAM31_GRADE.md) |
+| **Fri Sep 18** | 🔴 **SAM-28 / SAM-31 grading at close** | Graded FALSE/FALSE 2026-09-19 AM on frozen terms; **SAM-28 regraded PM to `RESOLVED — QUALIFIED / NO-VERDICT`** on the CATO R4 ruling (4 of 5 routes settled NO-FIRE on fact; the 5th fired as operations with its magnitude-attribution window unfixed at registration). **SAM-31 stays FALSE**, carried by leg 1 + the episode screen. FXY close 58.48 = +2.976% vs the 58.4937 bar — **context, not the instrument.** → [ruling](2026-09-19_CATO-R4-RULING.md) · [grade record](2026-09-19_SAM28_SAM31_GRADE.md) |
 
 ## 🔭 BEYOND THE 6-WEEK HORIZON
 
