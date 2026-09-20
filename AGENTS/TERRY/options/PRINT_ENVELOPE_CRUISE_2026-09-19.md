@@ -157,3 +157,47 @@ Black-Scholes, r=4%, spot held flat to the print (so **drift between now and the
 - ⛔ **It is not a thesis.** Thesis ownership is CRUISE's (HARD BOUNDARY #3). This file answers only *"can the instrument pay the view?"*
 - ⚠️ **Spot is held flat to the print in every EV table.** Real drift between 9/21 and the print is unmodelled and can dominate — that omission favours neither side and is the largest single limitation here.
 - ⚠️ **Eight prints is eight prints.** The CCL sample spans a cruise-demand boom (2024–25) into a de-rating (2026); the two halves are not the same regime, which is exactly why the last-3 / last-4 qualifiers are written beside the headline numbers rather than under them.
+
+---
+
+## 4 · ⭐ THE MULTI-QUARTER FRAME — added 2026-09-19 late, **Will-directed, and it corrects the SCOPE of §3's NCLH verdict**
+
+**Will's challenge, in his words: *"we see no edge even with the oil pricing issues, loss of canadian tourism, alleged iranian hacking of commercial vessels?"* and then *"the rest of 2026 is not very long."* Both land. This section exists because they do.**
+
+⛔ **SCOPE CORRECTION TO §3 — STATED BEFORE THE NEW WORK, BECAUSE IT QUALIFIES A VERDICT ALREADY PUBLISHED.** §3's *"EV ≈ 0, CONDITIONAL, no card"* on NCLH was measured **against the print-day base rate for a print-spanning structure.** **None of the three channels Will names is a print-day event** — they are multi-quarter transmission. **Construction rule #16** (match the expiry to the view's horizon) and **#18(a)** (a multi-quarter catalyst needs multi-quarter tenor) mean **§3's verdict does not transfer to the trade he is describing, and must not be read as covering it.**
+
+### 4.1 · The three channels, graded at the OWNING desks — two weaken, one is an open hole
+
+| channel | owner | status |
+|---|---|---|
+| **Fuel / oil** | BRENT · CRUISE | **52% hedged — but ONLY "rest-2026."** ⚠️ **Will is right that this is short: ~3.4 months from today, and `Dec-18-26` options EXPIRE 13 DAYS BEFORE THE CLIFF.** 🔴 **Fleet-wide grep returns NOTHING on NCLH's 2027 coverage — nobody holds it.** ⇒ **My earlier "the channel is halved" was scoped to a window the proposed trade does not live in.** |
+| **Iranian vessel hacking** | FALCON · CRUISE | ⛔ **CRUISE assessed it THIS DAY, at Will's prompting: *"REAL EVENTS, OVERSTATED HEADLINES, NO CRUISE EXPOSURE ON THE EVIDENCED CHANNEL."*** The propulsion/navigation version traces to **Iranian state media during an active conflict (D3)**; **USCG+FBI say no operational disruption (B2)**. Sourcing runs **inverse** to the alarm. A separate real cruise exposure runs through **data, not the helm**. |
+| **Loss of Canadian tourism** | ⚠️ **NOBODY** | 🔴 **ZERO hits across CRUISE, CARL and FALCON. The fleet does not track this at all.** ⇒ **It is the only one of the three that is genuinely un-priced here — and it is un-priceable BY ME, because no desk has measured it.** Routing ask, not a TERRY finding. |
+
+**`N_eff`:** fuel and maritime theatre **share a Middle East antecedent**; Canadian tourism is independent. `N_claimed = 3`, **`N_eff ≈ 2` before grading, ≈ 1 after** (one channel graded overstated at its owner, one halved-then-unknown, one unmeasured).
+
+### 4.2 · The structural fact that FAVOURS the long tenor — NCLH's vol term structure is flat
+
+Put IV, own pull 2026-09-18: **`Dec-18-26` 50.20% · `Jan-15-27` ~50.2% · `Mar-19-27` 49.37% · `Jun-17-27` ~51–53%.** **Flat 48–53% out to nine months.** ⇒ **Nine months of transmission time costs the same VOLATILITY as three.** Doubling tenor `Dec → Mar` costs **+39% premium** and moves breakeven only **3.8pp** further (`−10.41%` → `−14.16%`). **The opposite of the CCL front-month, which charges ~13 extra points for one event.**
+⚠️ **Counterweight, and it is material: execution degrades badly with tenor.** `Dec-18 14P` spread **2.25%**, OI **3,870**. `Mar-19-27 14P` spread **12.43%**, OI **244**. `Jun-17-27` has **no 14 strike at all** (10 · 13 · 15 · 18 · 20 · 22) and spreads 6–76%. **Cheap in vol, expensive in execution.**
+
+### 4.3 · 🔴 THE MEASUREMENT — and it does NOT go Will's way
+
+The multi-quarter analogue of the 8-print base rate: NCLH's **own empirical overlapping horizon returns**, payoff valued **at expiry**, debits at the **ask**, **no early exit credited** (conservative).
+
+| structure | debit | E[payoff] | **EV (10y)** | **EV (ex-2020)** | P(profit) |
+|---|---:|---:|---:|---:|---:|
+| `Dec-18-26 14P` (3m) | $1.35 | 1.07 | −19.6% | **−20.5%** | 28.2% |
+| `Mar-19-27 14P` (6m) | $1.88 | 1.39 | −22.2% | **−25.9%** | 28.6% |
+| `Jun-17-27 13P` (9m) | $1.92 | 1.25 | −28.6% | **−34.9%** | 24.7% |
+| `Jun-17-27 15P` (9m, ITM) | $3.00 | 2.30 | −22.0% | **−23.4%** | 31.3% |
+
+🔑 **EVERY tenor is negative-EV against NCLH's own decade, and GOING LONGER MAKES IT WORSE, NOT BETTER.** **The flat term structure does not mean duration is free — it means the options are priced consistently, and a longer window gives the stock more time NOT to fall as well as more time to fall.** ⛔ **So "buy more time because the thesis is slow" is refuted on this desk's own data.**
+
+⚠️ **THE LIMIT THAT CUTS WILL'S WAY, AND IT IS THE REAL ONE: this is an UNCONDITIONAL base rate — a random start date over ten years. Today's setup is not random.** NCLH is −43.6% from its peak, at a multi-year low, into a named hedge cliff. **If the forward distribution is genuinely worse than the unconditional history, these numbers understate the trade.**
+⇒ **THE HURDLE, QUANTIFIED — which is the useful output of this section:** **the forward 6–9 month distribution must be roughly `25–35%` worse than NCLH's own decade for these puts to break even.** **That is a THESIS claim, not a pricing claim, and it is not mine to make.** **The three channels above are exactly such a claim — and after grading, one is overstated at its owner, one is halved-then-unknown, and one is unmeasured by anyone.**
+
+⚠️ **Effective `n` is NOT the overlap count:** ~10 years gives **~40 independent 3m windows, ~20 6m, ~13 9m.** The 2,000+ rows are the same decade re-counted. **Quote the independent count** (rule #19).
+
+### 4.4 · Verdict — unchanged in direction, narrowed in reason, and with the ask named
+**Still NO CARD.** ⛔ **But the reason is now specific: at every tenor tested the option is priced `20–35%` above its own unconditional base rate, and the thesis must carry that whole gap.** ⇒ **The one input that could change it is the one nobody holds: size the Canadian-tourism exposure for NCLH, and establish 2027 fuel coverage from the 10-K/10-Q.** **Both are routing asks to CRUISE/CARL/BRENT, not TERRY findings.**
