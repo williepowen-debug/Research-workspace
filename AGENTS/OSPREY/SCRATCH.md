@@ -12,7 +12,7 @@ C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST** — all UNCHANGED. Prices de
 - 🆕 **NEW DOMAIN ITEM the feed surfaced: US 'Sanctions from Hell' bill — Congress passed ~9/17, Trump signed ~9/19.** Russia energy-sanctions scope (my domain), POLICY not a strike. NOT worked this session. Follow-up owed; BRENT + HAWK are consumers.
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
-**THE MOSCOW 'AVT-6 DESTROYED' DETAIL IS A VINTAGE TRAP AND MAY STILL BE CIRCULATING AS CURRENT.** The named unit matches a June-2026 strike on the same plant verbatim, and the source is Russian Telegram monitors, not satellite/industry. **Do the +5d re-read ~9/23–25** (independent/satellite) before ANY unit-level or barrels claim on Moscow. If someone quotes a big Moscow capacity-offline number, check its date and source first — this is exactly LESSONS 1/3 + OWED-43.
+**THE MOSCOW 'AVT-6 DESTROYED' DETAIL IS UNVERIFIED — belligerent GS + Russian Telegram, and it echoes the June-2026 strike's units.** ⚠️ Per CATO F4: a unit can be re-struck, so repetition is NOT proof of recycling — but it is NOT established damage either. **Do the +5d re-read ~9/23–25** (independent/satellite) before ANY unit-level or barrels claim on Moscow. If someone quotes a big Moscow capacity-offline number, check its date, source and denominator first — LESSONS 1/3 + OWED-43.
 
 ## ⛔ CATO REVIEW (80622311e) — three accepted corrections, logged 9/20
 My Will-facing read had the EVENT discipline right but the NATIONAL reassurance too strong. Fixed in KB-143(CORRECTED)/144/145, STATUS ACTIVE 5, OWED-49/50, LESSONS 11, NEXUS:
