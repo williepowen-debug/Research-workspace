@@ -1,6 +1,6 @@
 # DRAFT — an identifying test for `FL-CRU-10` (NCLH → CCL Caribbean pricing transmission)
 
-**Status: ⛔ DRAFT v3 FOR REVIEW — v2's resolver rebuilt on CATO's v2 review (one resolver was doing two jobs). NOT REGISTERED. Not a prediction until reviewed and pre-committed.**
+**Status: ✅ v4 — APPROVED IN SUBSTANCE (Will, 2026-09-20; CATO review d209d5242 supporting registration at 25% with three narrowings, all applied). REGISTERED as `CRU-09` — v2's resolver rebuilt on CATO's v2 review (one resolver was doing two jobs). NOT REGISTERED. Not a prediction until reviewed and pre-committed.**
 **Written:** 2026-09-19 Sat (CRUISE) · **Must be frozen before:** the ACTUAL release, whenever it publishes on 2026-09-29 — ⛔ **not "08:00 ET", which was an assumption, not a published time (CATO review pt 4). Freezing before Monday's open removes the risk entirely.**
 **Replaces:** the non-identifying test I logged on 9/19 (*"Q4 CC yield near ~0.5% confirms, ≥~1.15% refutes"*), withdrawn on CATO F2.
 **Leaves untouched:** `CRU-07` and `CRU-08` — different objects, registered definitions unchanged, **this draft does not amend them.**
@@ -69,15 +69,19 @@ All four bind:
 - **⛔ NOT CAPACITY-ONLY.** Industry capacity growth without promotional/pricing-behaviour attribution does not qualify.
 - **CARIBBEAN-CONCENTRATED, not merely mentioned** — Carnival must **distinguish** the Caribbean from its other deployments.
 
-### 4c · RESOLVER ② — THE CHANNEL (`FL-CRU-10`). Qualitative, and it does NOT grade `CRU-09`.
+### 4c · RESOLVER ② — THE CHANNEL (`FL-CRU-10`). Qualitative. Does NOT grade `CRU-09`.
+
+⛔ **v4 (CATO review of v3, pts 2–3): v3 TREATED MERELY *NAMING* NORWEGIAN AS SUPPORT.** *"Norwegian's promotions have not affected our pricing"* names Norwegian and would have scored **SUPPORTED**. **A denial is not a confirmation.** Splitting "named" into **affirmative** and **negative** fixes it — **and doing so also restores the CONTRADICTED state I had wrongly declared impossible.**
 
 | Observation | Channel |
 |---|---|
-| Norwegian named, or behaviour described that is uniquely Norwegian's | ✅ **SUPPORTED** |
-| Carnival affirmatively states Caribbean pricing firm/improving **and** no competitive-drag language anywhere in a complete corpus | 🟡 **WEAKENED — not contradicted.** ⛔ **Absence of mention is not absence of the mechanism** (v3, CATO pt 2). |
-| **Anything else**, including competitive pressure attributed to **another named operator** | ⚠️ **UNRESOLVED** |
+| Norwegian named **as a cause** of Caribbean pricing/yield pressure, or behaviour described that is uniquely Norwegian's | ✅ **SUPPORTED** |
+| Norwegian named and **explicitly EXCLUDED** as a cause (*"Norwegian's promotions have not affected our pricing"*) | ⛔ **CONTRADICTED** — this is real contrary evidence, not silence |
+| Caribbean pricing firm/improving, **no** competitive-drag language anywhere in a complete corpus | 🟡 **WEAKENED** — **absence of mention is not absence of the mechanism** |
+| Competitive pressure attributed to **another named operator**, no Norwegian link | ⚠️ **UNRESOLVED** — another operator's involvement does not exclude Norwegian's |
+| Anything else, including a complete corpus with no Norwegian reference | ⚠️ **UNRESOLVED** |
 
-**⛔ v3 CORRECTION (CATO pt 2): another operator's involvement does NOT exclude Norwegian's.** v2's table called that CONTRADICTED. **Both can contribute to the same Caribbean pricing environment**, so it is UNRESOLVED. **There is no observation at this print that CONTRADICTS the channel outright** — the strongest available negative is *weakened*, and I am stating that plainly rather than manufacturing a symmetry the evidence cannot support.
+**⛔ v4 CORRECTION TO MY OWN v3 CLAIM: I wrote *"there is no observation at this print that CONTRADICTS the channel."* THAT WAS WRONG, and it was wrong BECAUSE of the naming bug** — once affirmative and negative attribution are separated, an explicit management denial is straightforwardly contrary evidence. **I had dressed a sloppy rule up as an honest limit.** ⇒ **Positive and negative attribution are now both assessed on their merits.** What remains true, and is a genuine limit: **silence cannot refute the channel** — that is WEAKENED, not CONTRADICTED.
 
 ## 5 · THE TWO FALSIFICATION ASYMMETRIES, RE-STATED FOR v3
 
@@ -89,8 +93,8 @@ A Europe/Med drag, an occupancy miss, FX or a dry-dock can produce any yield num
 **② Offsetting strength CANNOT falsely refute — either object.**
 **A Q4 guide at 1.15% WITH a qualifying Caribbean competitive-pressure attribution is `CRU-09` CONFIRMED**, because the disclosure occurred regardless of the aggregate. ⛔ **Under the withdrawn test it would have been a REFUTE.** For the channel it is **UNRESOLVED** — the attribution does not name Norwegian.
 
-**③ And the asymmetry v3 adds, which is a limit rather than a strength: THERE IS NO OBSERVATION AT THIS PRINT THAT CONTRADICTS THE CHANNEL.**
-The strongest available negative — firm/improving Caribbean pricing with no competitive-drag language anywhere in a complete corpus — is **WEAKENED, not contradicted**, because **absence of mention is not absence of the mechanism.** ⚠️ **I am recording this rather than manufacturing a symmetry the evidence cannot support: this print can support the channel, weaken it, or leave it alone — it cannot kill it.** If the channel is to be killable, that has to come from a different instrument, and it is not built here.
+**③ ⛔ WITHDRAWN IN v4 — I CLAIMED THE CHANNEL COULD NOT BE CONTRADICTED AT THIS PRINT. IT CAN.**
+v3 said *"this print can support the channel, weaken it, or leave it alone — it cannot kill it."* **That was an artifact of the naming bug, not a property of the evidence:** once affirmative and negative attribution are separated (§4c), **an explicit management denial — *"Norwegian's promotions have not affected our pricing"* — is straightforward contrary evidence and resolves CONTRADICTED.** ⚠️ **I had presented a defective rule as an honest limit, which is the more expensive of the two mistakes.** **What survives is narrower and true: SILENCE cannot refute the channel** — firm pricing with no competitive language anywhere is **WEAKENED, not contradicted.**
 
 **⇒ The aggregate yield number carries no verdict weight for either object. That is the whole repair.**
 
@@ -135,13 +139,15 @@ Norwegian's next print (**vendor-estimated 2026-11-04, ⛔ NOT confirmed at prim
 | Caribbean pricing firm/improving, **no** competitive-drag language anywhere | **FAILED** | **weakened** |
 | Competitive pressure mentioned but **not Caribbean-distinguished** | **FAILED** *(§4b concentration unmet)* | unresolved |
 | Caribbean **capacity** growth only, no promotional attribution | **FAILED** | unresolved |
+| Norwegian named and **explicitly excluded** as a cause | **CONFIRMED** *(a qualifying attribution statement was made)* | ⛔ **CONTRADICTED** |
 | Q&A inaccessible at cutoff | **NO-VERDICT** | unresolved |
 
 **⇒ The channel upgrades ONLY on Norwegian-specific attribution. I expect it to remain Partial after this print, and that is the going-in expectation.**
 
 ### 9b · THE ROW, VERBATIM
 > **`CRU-09` — "At Carnival's Q3 FY26 print (2026-09-29), reviewing the COMPLETE corpus — earnings release, prepared remarks and Q&A — Carnival's MANAGEMENT, IN ITS OWN WORDS, attributes yield or pricing pressure FOR A NAMED PERIOD to competitor discounting or promotional behaviour (not capacity growth alone), in CARIBBEAN-CONCENTRATED form as defined in §4b."**
-> **Confidence: 25%** · **Timeframe: by 2026-10-03** · **Resolver: §4a and nothing else.** CONFIRMED / FAILED / **NO-VERDICT** (incomplete coverage or genuinely ambiguous wording; **does not enter the calibration record**).
+> **Confidence: 25%** · **FREEZE DEADLINE: 2026-09-21 09:30 ET** (before Monday's open — removes all timing risk) · **GRADING DEADLINE: 2026-10-03 23:59 ET** · **Resolver: §4a and nothing else.**
+> **FROZEN DEFINITION = this file at the commit that registers `CRU-09`. Any later edit to §4a/§4b is a NEW row, never an amendment to this one.** CONFIRMED / FAILED / **NO-VERDICT** (incomplete coverage or genuinely ambiguous wording; **does not enter the calibration record**).
 > ⛔ **Carries NO automatic implication for `FL-CRU-10`.**
 
 ### 9c · WHY 25%, RECONFIRMED AGAINST THIS FINAL DEFINITION
