@@ -1,4 +1,6 @@
-# The Discounting Event, Found at Primary — and a third house that predates both of mine
+# ⛔ The Discounting Event — ~~*Found at Primary*~~ **(TITLE CORRECTED 2026-09-20 PM)** — and a third house that predates both of mine
+
+> ⛔ **THE TITLE WAS ITSELF A WITHDRAWN CLAIM.** ~~*"Found at Primary"*~~ asserts the premise at full strength. **Corrected: a BROAD, WORLDWIDE promotion INCLUDING Caribbean sailings is confirmed at primary; measured, Caribbean-CONCENTRATED discounting is UNMEASURED** (KB-CRU-108). **And "predates both of mine" is true but does less work than it reads** — earlier publication rules out **copying**, not **shared upstream sources** (KB-CRU-113).
 
 **Built:** 2026-09-20 Sun (CRUISE, Will-directed research session, Thread D of 4)
 **Set out to:** scrape live Caribbean fares to measure the discounting directly.
@@ -42,7 +44,7 @@
 
 **This matters because the headline is the number that will get quoted.** A desk that logs "NCLH cut Caribbean prices 50%" has logged a promotional label, not a price. **The gratuity giveaway (~$20 pp/day, ~$280 for two over 7 nights) appears to BE the $280** — i.e. the quantified saving may be the gratuities, with the "50% off" sitting on top of an undisclosed base.
 
-⚠️ **Unresolved and named:** what the 50% applies to. Not disclosed in the release. **The realised discount is therefore UNMEASURED** — Truist's judgement (§3) is the best available evidence on magnitude, and it is a judgement, not a measurement.
+⚠️ **Unresolved and named:** what the 50% applies to. Not disclosed in the release. **The realised discount is therefore UNMEASURED** — Truist's judgement (§3) is the best available evidence on magnitude, and it is a judgement, not a measurement. ⛔ **AND NOTE 2026-09-20 PM: §3's claim to INDEPENDENCE is itself withdrawn** (KB-CRU-113) — Truist's judgement still stands as a judgement, but it is **one house read through ONE wire story**, not corroborated by a second outlet as §3 implied.
 
 ## 3. 🔑 A THIRD HOUSE — and it PREDATES both notes this desk holds
 
@@ -53,7 +55,7 @@ Verbatim from the coverage:
 > *"The bank flagged a sizable pickup in discounting for fall 2026 and winter 2026-2027 Caribbean sailings, most notably Norwegian's semi-annual sale, which it described as **'the most aggressive post-Covid outside of Black Friday promos.'**"*
 > Such promotional activity is *"never a good sign for a company or the industry."*
 
-**⇒ THE SHARED-SOURCE CAVEAT ON `FL-CRU-10` IS SUBSTANTIALLY ANSWERED.** The desk's standing objection was that Wells Fargo (9/14) and Stifel (9/16) **may share a source**. Truist is dated **2026-07-23 — seven to eight weeks EARLIER** — and is built on its own proprietary demand-and-price survey plus "conversations with senior travel industry executives and analysis of forward cruise booking and pricing data." **It cannot be downstream of notes published two months later.** Three houses, one chronologically upstream of the other two.
+⛔ **WITHDRAWN 2026-09-20 PM (KB-CRU-113) — struck in place:** ~~*⇒ THE SHARED-SOURCE CAVEAT ON `FL-CRU-10` IS SUBSTANTIALLY ANSWERED.*~~ ✅ **REPLACEMENT: it is PARTIALLY addressed and the correlated-frame caveat STANDS.** Earlier publication rules out WF/Stifel **copying Truist**; it does **not** rule out all three drawing on the **same underlying channel checks** — agency surveys, forward booking and pricing feeds, and the same senior travel executives are exactly the shared upstream inputs that make sell-side views correlate with no copying at all. ⛔ **And the two outlets cited below are ONE Sam Boughedda wire story, not two sources.** The desk's standing objection was that Wells Fargo (9/14) and Stifel (9/16) **may share a source**. Truist is dated **2026-07-23 — seven to eight weeks EARLIER** — and is built on its own proprietary demand-and-price survey plus "conversations with senior travel industry executives and analysis of forward cruise booking and pricing data." **It cannot be downstream of notes published two months later.** Three houses, one chronologically upstream of the other two.
 
 ## 4. ⚠️⚠️ THE COUNTERPOINT, AND IT COMES FROM THE SAME NOTE — TRUIST RAISED CARNIVAL THE SAME DAY
 
@@ -75,7 +77,7 @@ Verbatim from the coverage:
 
 **Direct fare scraping failed on access** — cruisesheet.com HTTP 403, vacationstogo deal page 404, AAA tripcanvas returned navigation chrome with no fare data. No live like-for-like snapshot was obtained.
 
-⛔ **It would have been the weaker instrument anyway.** A fare snapshot taken today has **no baseline** — the desk has never pulled fares, so there is nothing to compare against, and cross-brand comparison is confounded by product (NCLH bundles Free at Sea; ship age, inclusions and brand tier all differ). **A company-published promotion is self-baselining**: it is the operator stating that today's price is below its own prior price, on its own sailings, with dates.
+⛔ **It would have been the weaker instrument anyway.** A fare snapshot taken today has **no baseline** — the desk has never pulled fares, so there is nothing to compare against, and cross-brand comparison is confounded by product (NCLH bundles Free at Sea; ship age, inclusions and brand tier all differ). ⛔ ~~**A company-published promotion is self-baselining**: it is the operator stating that today's price is below its own prior price, on its own sailings, with dates.~~ ✅ **REPLACEMENT (KB-CRU-108): IT IS NOT SELF-BASELINING. NCL already ran a 50%-off headline on 2026-06-23, including Caribbean/Bahamas voyages** — so the July sale is **not a matched measurement against a prior price**, and the fare baseline remains exactly as absent as it was for the scraping route.
 
 ⇒ **Recorded as a method point, not a failure:** the question was *"is NCLH discounting?"*, and the operator's own promotional calendar answers it better than a scraped number.
 
@@ -91,7 +93,7 @@ Verbatim from the coverage:
 
 ⇒ **NCLH's most aggressive post-Covid promotion sits INSIDE Carnival's Q3 reporting quarter.** If the contagion limb is real, **Carnival's Q3 yield line is the first place it can appear** — and that prints in **9 days**.
 
-⚠️ **This raises the prior on `CRU-09` (registered today, 25%, forecasting that CCL management attributes pricing pressure to competitor discounting). ⛔ `CRU-09` IS NOT RE-TUNED.** The evidence arrived *after* registration; silently re-pricing a registered forecast mid-window is how calibration records get laundered. **Recorded as a disclosed post-registration development, resolver unchanged.** Any revised number would be a **new** registration.
+⛔ **NARROWED 2026-09-20 PM:** ~~*This raises the prior on `CRU-09`*~~ — **the premise that would have raised it is itself narrowed to a broad worldwide promotion with Caribbean concentration UNMEASURED** (KB-CRU-108), and `CRU-09` requires **Caribbean-concentrated** attribution (resolver §4b). **Any prior-raising effect is therefore much weaker than this line claimed.** ⛔ **`CRU-09` IS NOT RE-TUNED** — that part stands and stands harder.** The evidence arrived *after* registration; silently re-pricing a registered forecast mid-window is how calibration records get laundered. **Recorded as a disclosed post-registration development, resolver unchanged.** Any revised number would be a **new** registration.
 
 ## 8. ⛔ METHOD: THREE SECONDARY-SOURCE CONFLATIONS IN ONE SESSION
 
@@ -110,7 +112,7 @@ Every one of these was caught only by fetching the underlying article:
 ## What this changes
 
 - ⛔ **WITHDRAWN — struck in place:** ~~*`FL-CRU-10` premise → CONFIRMED AT PRIMARY. Conclusion → CONTESTED, by Truist's own same-day CCL raise.*~~ ✅ **REPLACEMENT: premise → PARTIAL** (broad promotion including the Caribbean; concentration unmeasured). **Conclusion → UNRESOLVED.** (KB-CRU-107/108)
-- **The shared-source objection is substantially answered** — three houses, one seven weeks upstream.
+- ⛔ **WITHDRAWN — struck in place:** ~~*The shared-source objection is substantially answered — three houses, one seven weeks upstream.*~~ ✅ **REPLACEMENT: PARTIALLY addressed only** — three houses and one genuinely upstream in **publication date**, which rules out copying and nothing more. **Shared upstream sources remain live** (KB-CRU-113).
 - ⛔ **WITHDRAWN — struck in place:** ~~*`VX-CRU-03`: the mechanism is real and Norwegian-specific. Sector transmission is less supported than this morning, not more.*~~ ✅ **REPLACEMENT:** a **promotion** is real and dated; **"Norwegian-specific" was inferred from the PT raise and does not survive** (KB-CRU-107). **Sector transmission is neither more nor less supported than before the session — it is UNRESOLVED.**
 - **No trade. No level. No row moved.** If anything this argues for *more* caution on a CCL put, not less — the analyst who best documents the discounting raised Carnival's target on it.
 
