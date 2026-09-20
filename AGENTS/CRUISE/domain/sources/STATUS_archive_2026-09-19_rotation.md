@@ -157,3 +157,15 @@
 ---
 
 ```
+
+
+---
+
+## § J — rotated from `STATUS.md` 2026-09-20 (read-cap pressure, 84% of budget)
+
+*Verbatim as they stood before compression. Both items remain LIVE in compressed form in STATUS; this is the full prior text, kept because each carries a correction record that must not be lost.*
+
+- ✅ **METHOD DEFECT CLOSED FOR CCL (was 🔴🔴).** All **35 non-Form-4 2026 filings** re-read as **documents**, not by the `items` tag. **It paid: a $2.5B buyback, PROPEL/$14B, the 100bp FY yield cut and a ~50bp Gulf redeploy were all off this desk.** Two derived rules stand: an absence perimeter uses forms *starting* `8-K`, and **a keyword hit on a big filer means nothing without a pre-event baseline** (KB-CRU-065). **Sweep: `domain/sources/2026-09-19_ccl-2026-filings-read-as-documents.md`.**
+
+- 🟠 **Re-point the Brent monitoring basis BZX26 → BZZ26 around ~9/30** (BZX26 expires then). ⛔ **TWO ERRORS CORRECTED HERE 2026-09-19 (CATO). ① NO PREDICTION DEPENDS ON THIS.** The old line read *"…and `CRU-07` resolves days later,"* which implied a dependency that does not exist: **`CRU-07` and `CRU-08` grade CCL's OWN REPORTED fuel cost per metric ton against CCL's own $812 guide and $56M-per-10% sensitivity — there is no Brent in either resolution.** Rolling the monitoring series **must not touch their registered definitions.** **② The date relationship was stale from the ~10/5 estimate:** BZX26 expires **~9/30, which is one day AFTER the 9/29 print**, not five days before it. **So this is post-print cost-line hygiene (`VX-CRU-02` / `FL-CRU-01`), not pre-print urgency — downgraded 🔴→🟠.**
+

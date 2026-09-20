@@ -1,6 +1,17 @@
 # CRUISE — TRADE
 
-*Last updated: 2026-09-19 Sat ~23:xx ET (second session — news sweep, NCLH funding model, then the CCL 2026 filings re-read as documents). **NO ROW MOVED, no entry, no capital, no conviction changed, no level set** — but **row 1's rationale is materially re-based AND row 2 gains an adverse fact this desk never held**, see below. Prior header (the three Will rulings that still govern these rows) follows below.*
+*Last updated: 2026-09-20 Sun (Will-directed four-thread research session). **NO ROW MOVED, no entry, no capital, no level, no conviction changed** — but **row 2 (the CCL put) takes a SECOND material adverse fact**, and this one is stronger than the buyback. See the 9/20 block. Prior header follows.*
+
+> ## ⚖️ 2026-09-20 REVIEW — **ROW 2 GOT WEAKER, AND THE EVIDENCE CAME FROM THE THESIS'S OWN BEST SOURCE**
+> Markets CLOSED (Sun); all levels are the **2026-09-18 close**. ⛔ Not current prices (root rule #4).
+> - **🔴 THE ANALYST WHO BEST DOCUMENTS THE CARIBBEAN DISCOUNTING RAISED CARNIVAL ON IT.** Truist (Scholes) **2026-07-23**: cut **NCLH Buy→Hold, PT $29→$20**, calling Norwegian's Semi-Annual Sale *"the most aggressive post-Covid outside of Black Friday promos"* — **and RAISED CCL's PT $29→$31 the same day.** ⇒ He reads the discounting as **Norwegian-specific, not sector-transmitting.** **`FL-CRU-10`'s premise is now CONFIRMED AT PRIMARY; its contagion conclusion is CONTESTED.** ⛔ **Net: a CCL put is LESS attractive than it looked on 9/19, not more.** (KB-CRU-102/103)
+> - **⚠️ DO NOT SIZE ANYTHING OFF "50% OFF."** NCL's own newsroom (7/8) headlines 50% off all cruises, but its stated saving is **"from $280" for two on a 7-night** — ~10–15%, and roughly the free-gratuities value alone. **What the 50% applies to is undisclosed ⇒ the realised fare cut is UNMEASURED.** (KB-CRU-101)
+> - **⚠️ `CRU-08`'s SHARE-COUNT CONFOUND IS 2.3× BIGGER THAN LOGGED AND INVERTED.** CCL **ISSUED 69.1M shares** settling $1.1B of 2027 Convertible Notes in Dec 2025, against the buyback's **~30M retired**. **At the print, read the share count as a NET of both** — per-share arithmetic anchored on the buyback alone is wrong by more than the effect it measures. (KB-CRU-097)
+> - **⛔ RETIRE ANY CREDIT-STRESS FRAMING FOR RCL.** RCL is the **weakest** Big-3 name on 1-wk total return **and** raised **$1.25B of 8-yr senior UNSECURED notes at T+105 on 8/6** with **zero secured debt** on its balance sheet. **This is a demand-and-pricing K, not a credit-quality K.** Liquidity/gross debt: **NCLH 10.0% · CCL 26.2% · RCL 30.2%**. (KB-CRU-088/089/090)
+> - **✅ `CRU-10` REGISTERED (60%)** — CCL's Q3 reported CC net yield lands **at or above its own ~+1.2% guide**, grading the contested contagion limb on the **number**. `CRU-09` (25%) grades the **words** and was **NOT re-tuned** despite supportive evidence arriving after registration.
+> - **BOTH ROWS REMAIN WATCH. $0 moved. No card. Any entry is a fresh proposal through PROME for Will's word under root rule #5.**
+
+*Prior header: 2026-09-19 Sat ~23:xx ET (second session — news sweep, NCLH funding model, then the CCL 2026 filings re-read as documents). **NO ROW MOVED, no entry, no capital, no conviction changed, no level set** — but **row 1's rationale is materially re-based AND row 2 gains an adverse fact this desk never held**, see below. Prior header (the three Will rulings that still govern these rows) follows below.*
 
 > ## ⚖️ 2026-09-19 REVIEW — **NOTHING CHANGES, AND THE REASON IS WORTH WRITING DOWN** *(evening pass: one bullet below is a RETRACTION of this morning's)*
 > Markets CLOSED (Sat); all levels are the **2026-09-18 close**. ⛔ Not current prices (root rule #4).
