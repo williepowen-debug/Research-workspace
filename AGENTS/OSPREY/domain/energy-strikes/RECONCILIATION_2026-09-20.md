@@ -19,7 +19,7 @@
 **1. There are TWO families of measure. They are not contradictory BY DEFINITION — but whether these specific numbers AGREE is OPEN (see 2b), so this is a relationship, not a demonstrated reconciliation.**
 - **Runs-decline family** (my band, Bloomberg/Rystad, Insider) clusters at **~25–30%** — how much less crude is actually being *processed* vs baseline.
 - **Capacity-offline family** (S&P ~50%; IIR 3.8 M bpd ≈ ~55% of ~7 M bpd nameplate; FT 45% nominal) — how much *nameplate capacity* is unavailable.
-- Nameplate offline (~50%) exceeds throughput decline (~30%) because normal utilisation was already <100% and surviving units run harder. **The ~50%-vs-~30% gap is a denominator/definition difference — it is NOT measured September deterioration.** (CATO's exact point, confirmed.)
+- Capacity unavailable and throughput decline use different measures, periods and baselines. Utilization and operating rates may help explain their relationship, but we have not demonstrated that these particular estimates agree. Their numerical difference establishes neither September deterioration nor stability.
 
 **2. The band HOLDS at ~30% — but "corroborated" was too strong (CATO 757aed30e).** The runs-family figures near ~30% are a **Rystad H2-2026 FORECAST on a 2016–23 baseline** and the older Insider read — **not a measured Aug/early-Sept observation on my ~5.5 baseline.** So the band is HELD, **not independently measured-corroborated**. No band move; do not adopt the ~50% capacity figure as a runs replacement.
 
@@ -33,7 +33,7 @@
 ## Unresolved conditions (explicitly retained)
 
 - **September is not measured.** Every runs/capacity figure above is Aug or early-Sept (≤9/10); none observes the post-9/15 intensification or the 9/20 Moscow strike. The band is HELD, not re-confirmed for late September. Review ~9/23–25 (a review date, not a promised release).
-- **Strike-attributable magnitude is directional, not quantified** — "primarily strikes" (Rystad) and "below quota" establish involuntariness; they do not isolate the exact strike-caused barrels from field decline.
+- Reporting supports strike-related production constraints, but the strike-attributable volume and contribution of other causes remain unquantified. Below-quota output alone establishes neither involuntariness nor causation.
 - **The July basis pair (3.6 EA vs 3.91 Bloomberg, OWED-42)** is untouched by this reconciliation.
 - **IIR shows outages DOWN Aug (3.8) vs Jul (4.27)** — i.e. the August capacity-offline eased slightly even as strikes continued; do not read a monotonic worsening into the series.
 
