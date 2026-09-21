@@ -97,4 +97,6 @@ Listed so they are not mistaken for PROME work, and so their standing instructio
 
 ## History
 
+Full pre-cleanup STATUS → [Phase 2 source snapshot — 2026-09-21](archive/STATUS_HISTORY.md#phase-2-source-snapshot--2026-09-21).
+
 Session recaps, prior `Updated:` stamps, rotation inventories, spine-audit findings, and the provenance behind the ownership rules → `PROME/archive/STATUS_HISTORY.md`. **Retired at the 2026-09-13 stamp (all ✅ DONE and recorded elsewhere, dropped to keep this file under its flow-rule line): the COT-35B consumer read · the BG-02 re-grade consumer read · the `PROME/inbox/` backlog sweep** — all three are in the 2026-09-12 `HANDOFF.md` entry and on their own GATES/DOCKET rows; `git log -p -- PROME/STATUS.md` has the verbatim rows. **Not a boot read** — open it to reconstruct how a state was reached. **Rotated at the 2026-09-18 12:5x stamp (`prome-0e`): 13 rows (10 DONE/historical/superseded + 3 standing-reading rows now pointed from § Restrictions) + the prior Updated line → `PROME/archive/STATUS_HISTORY.md` § 2026-09-18 (crc32 in that section's header, verbatim; the recompute command is there).**
