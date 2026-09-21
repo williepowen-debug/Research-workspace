@@ -67,3 +67,52 @@ Success means the supported claim survives without strengthening its certainty, 
 No implementation approval is being requested here; this is a review recommendation. Earlier approval analysis concerns the bounded S2 amendment only. Root `CLAUDE.md` points to messaging rule3, whose full text permits Will's verbatim word in a committed artifact verified by the acting session; PROME's packet contains such a recorded quotation and explicit scope. Do not generalize that instance to “peer assurances clear Will gates.” This upstream review grants no authority over a new change.
 
 No new tests of owner code were run: the assignment is architectural/causal review, not implementation validation. Sources were read at artifacts; the checklist byte delta was measured from Git objects. Earlier W1–W4/S1–S5 retain their original closure conditions. This report introduces upstream hypotheses and concrete contract findings, not automatic closure or a new assigned build. Next: Will chooses whether to commission the small U1/U2 pass.
+
+
+## Implementation investigation — v0.48 at `c47c33418`
+
+Will explicitly asked CATO to inspect WALTER's files after the owner reported implementation. Reviewed commit `b1d6ff592`, the complete changed U1/U2 clauses, `research/2026-09-21_U1-U2-tabletop-validation.md`, `design/history/CHECKLIST_VERSION_HISTORY.md`, and HAWK's `SIG-W-20260921-022` handoff. This is CATO's non-implementing static review of the resulting contract, informed by CATO's earlier recommendations; it is not a blind behavioral test or a substitute for HAWK's assigned S2 read. No owner edits or sends. Concurrent PROME/shared-memory work preserved.
+
+### Verified implementation and preservation
+
+- U1 now requires claim, locator/access limit, supporting observation and bounded conclusion. Asking the verifier for missing information is explicit. U2 now checks observations/inferences/unknowns in WALTER's own consequential sentence. The previous citation-presence box is explicitly limited.
+- Git-object measurements reproduce115,710 bytes at v0.47 and117,112 at v0.48: +1,402 bytes for this pass, +4,618 from112,494 before the two amendments. These are document sizes, not token/cost measurements.
+- FALSE and INDETERMINATE rows are byte-identical between `8d2c9b8ef` and `b1d6ff592`. The complete prior amendment block (2,385 bytes with outer whitespace stripped) is retained verbatim in the history file. This verifies preservation; it does not reproduce the owner's differently bounded1,811-byte narrative-only measure.
+- `python3 AGENTS/WALTER/tools/version_drift_check.py` returned0: registered spec versions and split companions match. This is version consistency only; CATO has prior authorship in parts of that guard.
+- HAWK's notice actually exists, includes the retrieval command, distinguishes its old review from U1/U2, and explicitly records the unseen case as unfilled. The pinned rows are preserved; unchanged rows do not establish unchanged behavior when a new preceding gate is introduced.
+
+### U1 remains PARTIAL — access-limit handling conflicts with the new routing gate (high)
+
+The four-field contract permits an explicit access limit in field2 but demands a supporting passage/figure in field3 without an explicit no-observation alternative. It then says “A VERDICT WITHOUT FIELD 2 AND FIELD 3 IS NOT A VERIFICATION RESULT — do not route on it” and “Inability to check is not permanent and is never a reason to route anyway.” “Do not route on it” could reasonably mean do not rely on that verdict; the last sentence and validation file's “is not routable” broaden that reading.
+
+The adjacent INDETERMINATE row permits unconfirmed routing and separates verdict from disposition. Case1 of the author's validation simultaneously says the missing observation fails the routable test and the disposition remains a separate urgency/relevance call. Thus the proposed failure is present in actual text, not merely in Will's relay. This is an ambiguity/contradiction; this review does not establish that a live dispatch was blocked.
+
+**Reviewer-designed counterexample:** A fictional, time-sensitive operational alert is reported by a named source. The original notice is inaccessible. A verifier returns the exact claim, publisher/date/locator, the access failure, and “no supporting passage obtained; claim remains unverified.” Assume the item independently meets the desk's criteria for an explicitly unconfirmed alert. Should WALTER request clarification, abandon unsupported CONFIRMED, and still consider unverified routing—or block the alert until a passage arrives? The current clauses support both readings. Repeatedly asking a verifier cannot guarantee a paywall/outage/access barrier clears before the information expires.
+
+**Minimal proposed replacement, not applied:** “A missing required field makes the verifier response incomplete; request it before relying on a CONFIRMED/FALSE verdict. Field3 may explicitly state that no supporting observation was obtained, with the limitation. This does not prohibit separately routing the underlying item as unverified under existing relevance, urgency and disclosure rules.” Preserve the four fields and the short response budget. Distinguish an omitted observation field from an honestly populated field saying no observation was available. No new enum or approval loop is needed to describe this proposal; implementation authority remains with the owner/user.
+
+**Closure condition:** the example cannot pass as verified and is not automatically killed or delayed solely by the verification result. Relevance/urgency may still justify withholding dispatch. This is a reader-created static counterexample, now disclosed, not an unseen live test administered to WALTER.
+
+### U2 remains PARTIAL — its new explanatory sentence violates its own requirement (medium)
+
+The new finalization block claims: “every defect this desk shipped on2026-09-21 entered at exactly this step — during interpretation, downstream of correctly-sourced inputs.” This is not established. The inspected record includes a search keyed to the wrong vocabulary, an overdue-label arithmetic defect and manual accounting errors; not all are errors in final inference from correctly sourced inputs. The earlier upstream report explicitly separated mechanisms. The new U1 explanation similarly shifts from a contract that *could* omit evidence to a narrative that the writer *then inherited* a label and reconstructed a rationale. The latter is a plausible mechanism, not demonstrated causation for the historical case.
+
+**Correction:** delete the universal causal sentence and describe U2's purpose without asserting a census or cause. Keep the instruction itself. Qualify the U1 historical mechanism as a possibility. The operative U2 check is useful, but its author's own explanation demonstrates why written adoption is not evidence of application.
+
+### U3/U4 and validation — useful design examples, not measured performance
+
+The owner correctly labels the cases author-selected/author-graded and disclaims live reliability. Nevertheless, several OLD-contract entries overstate what the prior rules required or permitted as a compliant result:
+
+- Case1 says inaccessible material would route to FALSE/KILL. The earlier INDETERMINATE time-budget branch also existed; the prior problem was conflicting instructions, not a mandatory single outcome.
+- Case2 says a real-but-irrelevant citation “passes.” It passes the citation-presence checkbox, but the older CONFIRMED definition required the primary to support the claim as written. The defect was weak evidence handoff/check execution, not absence of that semantic requirement.
+- Case3 presents only FALSE or CONFIRMED for a mixed claim, although CORRECTED-framing and INDETERMINATE existed. Its hypothetical input is a useful test, but it is not a verbatim replay of signal005, whose actual core defect involved treating incomparable series as a stale vintage; the superlative separately propagated into the closeout.
+
+These should be labeled possible failure modes, not baseline test outcomes. The document contains scenarios, expected handling and author judgments; it does not supply independent execution traces showing WALTER receiving and responding to these cases. The caveats are appropriate, but “5 of5” adds no measured behavioral success rate. Do not use it to quantify improvement.
+
+The broad instructions cleanup remains open; net growth alone is not a reason to reject this bounded evidence-contract change. The new history file is not inherently a defect: it follows the existing version-history convention and preserves the removed text. Fix misleading wording and trial the behavior before a broader rewrite.
+
+### Bounded next step
+
+Owner corrects the U1 access-limit/routing ambiguity and removes U2's unsupported causal explanation, then aligns the validation commentary with the actual old contract. Notify the relevant reviewer of the resulting target; HAWK's v0.47 acceptance must not be represented as acceptance of all v0.48 behavior. Complete a non-implementer-designed behavioral test with actual WALTER responses and a small fresh batch using existing records. A test result must distinguish the evidence supplied, WALTER's actual action, and whether that action preserved the claim's uncertainty. No extra general-purpose checker, new ledger or permanent per-signal outside review is recommended.
+
+**Disposition:** implementation inspected; useful core changes present; U1/U2 not closed. Independent live/unseen execution and fresh-batch evidence remain unperformed by CATO and explicitly outstanding in WALTER's validation. Earlier S2/HAWK closure remains separate. This investigation delivers a concrete counterexample and wording proposal, not authority to edit the live owner's files.
