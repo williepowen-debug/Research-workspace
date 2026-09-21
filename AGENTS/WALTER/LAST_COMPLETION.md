@@ -1,12 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-21 Mon, Claude Opus 5 as WALTER (`walter-e3`), **Will-directed; continued after `/clear` with a full re-boot.** Morning leg: three Will image batches, 13 dispatches (recorded in `SESSION_LOG.md`). **Afternoon leg: processing CATO's independent review of that morning's work.** **Closeout tier: TIER-1 LIGHT pending — this file is the mid-session reconciliation CATO's W4 required; a Tier-2 is owed and named below.**
+Session: 2026-09-21 Mon, Claude Opus 5 as WALTER (`walter-e3`), **Will-directed; continued after `/clear` with a full re-boot.** Morning leg: three Will image batches, 13 dispatches (recorded in `SESSION_LOG.md`). **Afternoon leg: processing CATO's independent review of that morning's work.** **Closeout tier: TIER-2 PIECES RUN — step 13 REGISTRY refresh (20 rows) then 12(b) NETWORK AWARENESS regen, in that order, discharging a THIRD-consecutive deferral; plus the fresh reconciliation CATO's W4 required.**
 
 ## STATUS
 
-Boot **PARTIAL**, gaps named. **Run:** 0 pull gate (local 2 ahead / 0 behind — nothing to pull; push deferred, foreign dirty) · 0.5 doctor (**0 HIGH / 22 MED of 35 checks**) · 1–4 · 6 (both routing files whole, v0.38) · 6b (all four registries; **RED scan-view sha256 matched canon exactly**; counts read off the files: RED-FT **12**, REG-T **8**, CREED-T **11**, HANS-T **17**) · 6c (full live scan, markets open) · 7 · 7b (EVENT_WINDOW **CLOSED**) · 7d (clear) · **7g before 7e** (inbox 0) · 7e (lane OK, 1 NEW breach unrouted — see GAPS) · 7e(f) (phone lane not enacted, not an error) · 7f (drop-zone empty) · 8 fs-scan · 9 · 9a (rc=0) · 9b.
+Boot **PARTIAL**, gaps named. **Run:** 0 pull gate (local 2 ahead / 0 behind at boot — nothing to pull; push deferred then RE-TESTED and RELEASED, see receipt) · 0.5 doctor (**0 HIGH / 22 MED of 35 checks**) · 1–4 · 6 (both routing files whole, v0.38) · 6b (all four registries; **RED scan-view sha256 matched canon exactly**; counts read off the files: RED-FT **12**, REG-T **8**, CREED-T **11**, HANS-T **17**) · 6c (full live scan, markets open) · 7 · 7b (EVENT_WINDOW **CLOSED**) · 7d (clear) · **7g before 7e** (inbox 0) · 7e (lane OK, 1 NEW breach unrouted — see GAPS) · 7e(f) (phone lane not enacted, not an error) · 7f (drop-zone empty) · 8 fs-scan · 9 · 9a (rc=0) · 9b.
 
-⛔ **NOT RUN: step 8's REGISTRY row refresh — THIRD consecutive named skip** (17 lag rows). ⚠️ **`reads_check` returns READS-CAP UNKNOWN, not clean:** attestation dated 2026-09-15 while `AGENTS/WALTER/CLAUDE.md` was committed 2026-09-19, so the enumeration may be missing a dependency. ⚠️ **`boot_basis_check` REVIEW REQUIRED on 5 declared-basis paths.** ✅ `read_cap_check` rc=0 — **READ-CAP 0 within 19 cap-bearing reads in this desk's ATTESTED manifest; perimeter is the desk's own declaration, not a scan.** 🟠 **`AGENTS/HANS/registry/THRESHOLDS.tsv` is at 77% of budget = ROTATE-TIER** — HANS-owned, flagged not edited.
+✅ **RUN THIS SESSION: step 8/13 REGISTRY row refresh — 20 rows, discharging the third-consecutive deferral** (see FOLLOW-UP 1; 2 rows remain, not closeable by a header read). ⚠️ **`reads_check` returns READS-CAP UNKNOWN, not clean:** attestation dated 2026-09-15 while `AGENTS/WALTER/CLAUDE.md` was committed 2026-09-19, so the enumeration may be missing a dependency. ⚠️ **`boot_basis_check` REVIEW REQUIRED on 5 declared-basis paths.** ✅ `read_cap_check` rc=0 — **READ-CAP 0 within 19 cap-bearing reads in this desk's ATTESTED manifest; perimeter is the desk's own declaration, not a scan.** 🟠 **`AGENTS/HANS/registry/THRESHOLDS.tsv` is at 77% of budget = ROTATE-TIER** — HANS-owned, flagged not edited.
 
 ⛔ **NO REGISTERED TRIGGER FIRED, MORNING OR AFTERNOON. No threshold, sustain count, mark, band or score moved, $0.**
 
@@ -34,10 +34,10 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull gate (local 2 ahead / 0 behind —
 - **76 delivery rows today across 19 distinct recipients and 19 signals** — not the "52 across 17" this file previously claimed. **19 was the true recipient count for the morning batch too.**
 - **10 of the morning's 52 are CONSUMED** — BRENT 5, HAWK 5, verified in their `processed/` dirs with matching board-ledger dispositions. **The previous claim that none were consumed was false when written.**
 - **66 handoffs sit unconsumed in recipient inboxes.** **Only the recipient can close that.**
-- **The 24 new rows are `written_not_delivered_pending_push`** and become `delivered` only after the push + `reconcile_delivery_log.py --apply`.
+- ✅ **The 24 new rows are now `delivered`** — push receipt obtained, then `reconcile_delivery_log.py --apply` run **in the same session** (24 `pending → delivered`, 0 REAL ORPHANS, field count uniform at 9, 3,025 rows total). ⛔ **DELIVERED IS STILL NOT CONSUMED.**
 - **4 redundant CARL INFO rows** (`-002/-005/-006/-012`) from the morning bypassed the RULE 10 pull-complete exemption. **Published copies preserved as history; zero new ones.**
 
-**Other open:** **REGISTRY refresh, third deferral (17 lag rows).** **`reads_check` UNKNOWN** (attestation 9/15 vs charter 9/19). **`boot_basis_check` REVIEW REQUIRED ×5.** **Staleness sweep 4d past cadence.** **CARL-DR-1 deep-research flag 3d past deadline.** **Saudi-export leg of the Iran re-verify — still UNOWNED.** **One RESEARCH-INTAKE breach (13 NEW_WATCH items, 2026-09-20 `news.json`, ROUTINE/INFO) scanned but NOT routed and NOT `--mark`ed** — deliberately deferred to keep the CATO pass clean; it re-surfaces on the next scan.
+**Other open:** **`reads_check` UNKNOWN** (attestation 9/15 vs charter 9/19). **`boot_basis_check` REVIEW REQUIRED ×5.** **Staleness sweep 4d past cadence.** **CARL-DR-1 deep-research flag 3d past deadline.** **Saudi-export leg of the Iran re-verify — still UNOWNED.** **One RESEARCH-INTAKE breach (13 NEW_WATCH items, 2026-09-20 `news.json`, ROUTINE/INFO) scanned but NOT routed and NOT `--mark`ed** — deliberately deferred to keep the CATO pass clean; it re-surfaces on the next scan.
 
 ## WILL_NEEDS
 
@@ -47,7 +47,8 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull gate (local 2 ahead / 0 behind —
 
 ## FOLLOW-UP
 
-1. 🔴 **REGISTRY refresh — THIRD consecutive named skip.** ⚠️ **This now meets the ≥3-breadcrumb threshold that obliges a "full closeout owed?" line in the next boot reply.** **Next Tier-2 must run step 13 then 12(b), in that order.**
+1. ✅ **DISCHARGED — REGISTRY refresh RUN this session after three consecutive deferrals. 20 rows refreshed** (Status/Updated/Focus, header-only per RULE 4), then **12(b) NETWORK AWARENESS regenerated from the refreshed file, in that order.** 🔑 **AND THE SWEEP FOUND A HOLE IN ITSELF: `PROME/STATUS.md` lives at the REPO ROOT, outside the `AGENTS/*/STATUS.md` glob the refresh used — PROME's row was invisible to the sweep meant to cover it.** Closed by reading it directly. *(`AGENTS/PROME/` re-verified ABSENT from disk and from `git ls-tree HEAD`; the 2026-08-28 commit under that path was the removal of its second regrowth. Guard holding.)*
+   ⛔ **TWO ROWS REMAIN AND ARE NOT CLOSEABLE BY THIS STEP — an instrument divergence, recorded rather than papered over: TERRY (header 9/14, last commit 9/20) and REGINALD (header 9/14, last commit 9/17).** **RULE 4 refreshes from the STATUS HEADER; the doctor's `registry_lag` keys on LAST COMMIT TIME.** A desk that commits without stamping its header makes the two instruments disagree, and **WALTER cannot close that by reading a header that has not moved.** **Their stamp, their desks.**
 2. ✅ **DISCHARGED — the 72-row reconciliation.** `reconcile_delivery_log.py --apply` ran at the morning closeout: **72 pending → delivered, 0 REAL ORPHANS, 0 pending remaining.** **This item was carried as outstanding in the previous version of this file while GAPS said it was done — CATO W4.1. Removed rather than re-stated.** **New obligation replacing it: reconcile today's 24 rows after the next push.**
 3. 🔴🔴 **Saudi-export leg of the Iran anchor re-verify — OWED AND UNOWNED.** WALTER deferred it to BRENT; **BRENT deferred it back in its own 9/21 STATUS (`38d5fce3d`)**, verbatim: *"deliberately not re-deriving my Saudi export numbers to avoid a two-desks-two-numbers race."* ⇒ **both desks declined for the same good reason and nobody ran it.** **The ~9/24 full sweep does not discharge it unless someone actually pulls the numbers.** **Do not carry it a fourth time on the assumption the other desk has it — run it or get it assigned.**
 4. **Consumption to check next boot — the 24 new ACTION lines:** HAWK (`-014`), HOMER (`-015`), HANS (`-016`), SAM + BROCK + LIQUID (`-017`), SAM (`-018`), BRENT (`-019`). 🔑 **`-014` is the one to check first: it asks another desk to revise a rule it has already registered, and an unrevised rule keeps propagating.**
@@ -72,9 +73,11 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 **Checked scope:** the six new BOARD signals, six modified BOARD signals, the regenerated INDEX, 24 recipient handoffs, two ledgers, two registry provenance notes, and the doctor fix.
 
-🔄 **PUBLICATION — TESTED AT THIS MOMENT, NOT CARRIED.** `git rev-list --left-right --count origin/master...HEAD` = **`0 3`** before this session's commit: **three local commits not yet on origin** (CATO's own review commit `9ba173052`, WALTER's `6dd151ab4`, and the Saudi-export correction). ⛔ **PUSH DEFERRED on a condition tested at this moment, not assumed:** `git status --porcelain` shows uncommitted foreign work in **`PROME/WILL_QUEUE.md`, `PROME/state/ORCH_LOG.tsv`, `memory/auto/finding_dated_carry_item_has_no_expiry_check.md`**, and `ListAgents` shows **`prome-ce` LIVE (idle)**. WALTER's own tree is otherwise clean. ⚠️ **THIS DEFERRAL EXPIRES SILENTLY AND MUST BE RE-TESTED, NOT CARRIED — that failure has now happened twice in this desk's recent record.**
+✅ **PUBLICATION — PUSHED, WITH A RECEIPT, AND THE DEFERRAL WAS RE-TESTED RATHER THAN CARRIED.** At the mid-session check the deferral was live: five local commits, foreign uncommitted work in `PROME/` and `memory/auto/`, `prome-ce` LIVE. **PROME then committed its two files and its train carried WALTER's six commits out.** WALTER **re-tested the condition instead of carrying it**, found it cleared, and pushed: **`Pushed. CONFIRMED: HEAD a7557a91b is on origin/master (fresh fetch).`** ⚠️ **This is the same claim that was FALSE at the morning closeout because it was carried rather than re-tested — the fix was to re-measure, and the re-measure is what released it.**
 
-**Delivery:** **24 rows written, `written_not_delivered_pending_push`.** ⛔ **Written is not delivered and delivered is not consumed.** They become `delivered` only after the push plus `reconcile_delivery_log.py --apply`. **10 of the morning's 52 are consumed** (BRENT 5, HAWK 5, verified at the recipients' own `processed/` dirs and board ledgers); **66 remain unconsumed and only the recipient can close that.**
+**Verified at origin, not assumed:** all six correction signals present in the `origin/master` tree · all 24 handoff paths present · `git cat-file -e origin/master:AGENTS/HAWK/inbox/WALTER/SIG-W-20260921-014.md` resolves, so **HAWK can pull the correction to the rule it registered today** · `walter_doctor` `written_but_undelivered` now reads *"all WALTER handoffs delivered (on origin)"*, clearing the 24 MED rows it raised while the push was parked.
+
+**Delivery:** **24 rows reconciled `pending → delivered`, 0 REAL ORPHANS**, field count uniform at 9 across 3,025 rows. **Run in the SAME session as the push** — deferring it is what let 20 rows from 9/19 read as undelivered for two sessions. ⛔ **Written is not delivered and delivered is not consumed.** **10 of the morning's 52 are consumed** (BRENT 5, HAWK 5, verified at the recipients' own `processed/` dirs and board ledgers); **66 remain unconsumed and only the recipient can close that.**
 
 **Instrument verification done rather than asserted:** the doctor's corrected label was **watched to produce `18d old = 4d PAST its 14d cadence`** before being trusted; the neighbouring `deep_research_pending_overdue` label was checked and is **genuinely deadline-based, not the same defect**; both annotated TSVs were re-parsed by `batch_manifest.py --status` and `walter_doctor.py` after the header notes were added; ledger field counts verified uniform (route_log 8, delivery_log 9) before and after.
 
@@ -88,18 +91,18 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
   "as_of": "2026-09-21T16:55:05+00:00",
   "publication": [
     {
-      "commit": "9ba173052",
-      "state": "pending"
+      "commit": "a7557a91b",
+      "state": "published"
     },
     {
-      "commit": "6dd151ab4",
-      "state": "pending"
+      "commit": "ef3354bed",
+      "state": "published"
     }
   ],
   "delivery": {
     "signal_date": "20260921",
     "total": 76,
-    "delivered": 52
+    "delivered": 76
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
