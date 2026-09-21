@@ -116,3 +116,50 @@
 - **U2 is a drafting check on WALTER's own sentence and cannot be observed from the batch at all** — only from what WALTER then writes.
 
 ⇒ **A fresh batch tests the FILTER far more than it tests this change.** ⛔ **It does NOT establish that v0.48 improves live outcomes**; it establishes that v0.48 did not disrupt an ordinary batch, and it surfaced one lane defect that has nothing to do with it.
+
+
+---
+
+# PART 3 — THE A/B BEHAVIORAL TEST, AND IT IS ADVERSE TO v0.48
+
+🔴🔴 **THE HEADLINE RESULT: the NEW contract produced BETTER SOURCING AND A WORSE JUDGEMENT. The OLD contract caught the decision-relevant defect that the new one missed.**
+
+**Method.** Same claim, same model, two arms, ~20 minutes apart. **Arm A** = v0.48's four-field contract. **Arm B** = the retired wording *verbatim* (*"Require a single-line VERDICT at the top of the response — everything else is optional"* + *"decision-usefulness, not comprehensiveness"*). **Claim:** *"Morgan Stanley caps private credit fund withdrawals again as 11% seek exits"* (Investing.com, 2026-09-19), drawn from a live unselected intake batch.
+
+## What each arm returned
+
+| | **Arm A — v0.48 four fields** | **Arm B — retired wording** |
+|---|---|---|
+| **Verdict** | **CONFIRMED** — all four legs hold | **Framing does NOT hold** — rewrite before it reaches BROCK |
+| **Sourcing** | ✅ **SEC EDGAR PRIMARY** — CIK 0001851322, SC TO-I/A 2026-09-18, accession 0001193125-26-395654, named exhibits | ⚠️ **Weaker, and SELF-DECLARED as weaker** — *"I read search summaries of Bloomberg/Reuters, not the primary letter or the SC TO-I"* |
+| **Caught the prior-quarter comparison** | ❌ **NO** | ✅ **YES — 11.4% this quarter vs 11.6% prior. FLAT-TO-DOWN, NOT ACCELERATING.** |
+| **Caught that the cap is CONTRACTUAL** | ❌ NO | ✅ **YES — a perpetual non-traded BDC's standing 5%/quarter limit operating AS DESIGNED, not a BREIT-style emergency gate** |
+| **Caught the re-tender double-count** | ⚠️ Quoted the "nearly two thirds" passage but drew nothing from it | ✅ **YES — ~⅔ are re-tenders from investors already prorated, so 11.4% partly RECOUNTS old demand; fresh exit demand is lower** |
+| **Entity-collision warning** | ❌ NO | ✅ **YES — do not merge with "North Haven Private Income Fund A LLC" (6.8%, 73.3% filled), a different entity** |
+
+## 🔑 WHY ARM A FAILED, AND IT IS A DEFECT I ALREADY HAVE A REGISTERED GUARD FOR
+
+**Arm A verified each LEG and returned `CONFIRMED`. Every leg genuinely holds.** ⛔ **But the claim's FRAMING — *"caps… again as 11% seek exits"* — implies ESCALATION, and the data show a PLATEAU.** A stress thesis keyed to that headline **would have the sign wrong.**
+
+⚠️ **This is precisely `CHECKLIST:134`, the `CONFIRMED`-scope guard, which has been in this file since v0.34 (2026-08-20):**
+
+> *"A `CONFIRMED` CERTIFIES THE FIGURES AND THEIR FRAMING. IT DOES NOT CERTIFY A SHAPE CLAIM BUILT ACROSS THEM."*
+
+⇒ 🔴 **v0.48's four fields are ALL leg-level — claim, locator, observation, bounded conclusion — and NONE of them asks whether the overall framing survives.** **Structuring the response around per-leg evidencing appears to have CROWDED OUT the framing judgement the router actually needs.** **It also reproduces `[[finding_verified_figures_do_not_verify_the_shape_claim]]`, a finding this desk already carries.**
+
+## ⛔ WHAT THIS DOES AND DOES NOT ESTABLISH
+
+**DOES NOT establish that the old contract is better.** ⚠️ **n=1 per arm, single samples, non-deterministic model — this could be run-to-run variance rather than a contract effect, and nothing here is replicated.** ⚠️ **Prompt confounds are real and unresolved: Arm B carried *"decision-usefulness, not comprehensiveness"*, which may itself have driven the judgement focus; Arm A's four fields may have anchored attention on leg-by-leg evidencing. WALTER wrote both prompts.** ⛔ **No prevalence claim, no reliability claim, no cost claim.**
+
+**DOES establish, at n=1 and worth acting on:**
+1. **The A/B did NOT demonstrate v0.48 is better**, which is the outcome this test existed to find out.
+2. **A specific, nameable design gap in U1** — the four fields contain no framing/shape check, and the one arm that lacked the structure is the one that caught the sign.
+3. ✅ **The two arms are COMPLEMENTARY, not rivals.** Arm A got the primary; Arm B got the judgement. **The right contract plausibly wants both, and v0.48 as written buys one by spending the other.**
+
+## OPERATIONAL CONSEQUENCE, TAKEN NOW
+
+⛔ **The Morgan Stanley item is NOT dispatched to BROCK as a confirmed stress signal.** On Arm B's reading the framing inverts: **third consecutive quarter of proration is the real signal (~$479M across three periods); the 11% is not.** ⚠️ **Had WALTER run only Arm A, it would have routed a `CONFIRMED` whose headline framing has the sign wrong** — `[[finding_number_right_sign_wrong_is_the_backwards_route_tell]]`, MEMORY intake finding #8. **Held pending a framing-corrected dispatch.**
+
+## PROPOSED NARROW FIX — NOT APPLIED, GOES TO WILL/CATO FIRST
+
+**Field 4 (`BOUNDED CONCLUSION`) currently asks what the evidence warrants about the legs.** ⇒ **Add one sentence requiring it to state whether the CLAIM'S OWN FRAMING survives** — *does the headline's implied direction, magnitude or escalation hold against the evidence, and if not, what is the corrected framing?* ⛔ **One sentence in an existing field. No fifth field, no new verdict value, no policy project.** ⚠️ **And it must NOT be asserted to work: the A/B above is exactly the evidence standard it would have to meet, and this proposal has not met it.**
