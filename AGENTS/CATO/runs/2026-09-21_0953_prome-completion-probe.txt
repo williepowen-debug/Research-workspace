@@ -1,0 +1,18 @@
+Historical verifier 1 ['CHANGED-SINCE-REVIEW: memory/auto/finding_header_edit_is_the_edit_most_mistaken_for_maintenance.md (0d634dbdaabf → 1241487963b3)']
+COMMIT HASH MATCH PROME/DOCKET.tsv True
+COMMIT HASH MATCH PROME/SCRATCH.md True
+COMMIT HASH MATCH PROME/STATUS.md True
+COMMIT HASH MATCH PROME/artifacts/decision_deck.html True
+COMMIT HASH MATCH PROME/artifacts/decision_deck_reference.html True
+COMMIT HASH MATCH PROME/artifacts/handbook.html True
+COMMIT HASH MATCH PROME/state/ORCH_INFLIGHT.md True
+COMMIT HASH MATCH PROME/state/ORCH_LOG.tsv True
+312 excluded False
+347 excluded False
+ORCH RC 1
+UNKNOWN: 2026-09-20 ANVIL touch 1-SPAWN [81a40002a9a49736ccf8f064c6f8032d78a6a9a08507da17f421fef62f258c57]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-21 ARGUS touch 1-SPAWN [d94c188edbcb7c72aafe6c1820f66c44e6343a4367850616b999c8964e47a163]: missing or duplicate structured closeout evidence
+UNKNOWN: 2026-09-21 ARGUS touch 1-SPAWN [c4a06ef8cf823dbced1e19b0d25b1d975d240061b8d00ed24f50e04deb7786f8]: missing or duplicate structured closeout evidence
+STALE COMPLETED-WORK INSTRUCTION PROME/HANDOFF.md True
+STALE COMPLETED-WORK INSTRUCTION PROME/HANDBOOK.md True
+STALE COMPLETED-WORK INSTRUCTION PROME/artifacts/handbook.html True
