@@ -163,3 +163,101 @@
 ## PROPOSED NARROW FIX — NOT APPLIED, GOES TO WILL/CATO FIRST
 
 **Field 4 (`BOUNDED CONCLUSION`) currently asks what the evidence warrants about the legs.** ⇒ **Add one sentence requiring it to state whether the CLAIM'S OWN FRAMING survives** — *does the headline's implied direction, magnitude or escalation hold against the evidence, and if not, what is the corrected framing?* ⛔ **One sentence in an existing field. No fifth field, no new verdict value, no policy project.** ⚠️ **And it must NOT be asserted to work: the A/B above is exactly the evidence standard it would have to meet, and this proposal has not met it.**
+
+
+---
+
+# PART 4 — CORRECTION TO PART 3. THE A/B IS CONFOUNDED BY WALTER'S OWN PROMPT, AND IS INCONCLUSIVE.
+
+🔴🔴 **PART 3'S COMPARATIVE CONCLUSION IS WITHDRAWN.** It is retained above unedited because the withdrawal is the finding.
+
+## ⛔ CONFOUND 1 — THE DECISIVE ONE: THE TWO PROMPTS ASKED DIFFERENT QUESTIONS
+
+**Arm B's prompt, first line, verbatim:** *"WALTER is about to route this to BROCK (private-credit desk) as PRIORITY; **need to know if the framing holds.**"*
+
+**Arm A's prompt: the word "framing" appears nowhere as the question.** It requested four evidence fields and defined the verdict enum. ⛔ **It did NOT carry `CHECKLIST:134`'s `CONFIRMED`-scope guard — the existing, in-force requirement that a CONFIRMED does not certify a shape claim built across the figures.** **WALTER wrote both prompts and omitted that requirement from one of them.**
+
+⇒ 🔑 **THE EXPERIMENT DID NOT COMPARE CONTRACTS. IT COMPARED "ASKED WHETHER THE FRAMING HOLDS" AGAINST "ASKED TO EVIDENCE FOUR LEGS."** **Arm A was never instructed to do the thing Part 3 faults it for not doing.** ⛔ **Part 3's claim that v0.48 "buys sourcing by spending judgement" is UNSUPPORTED — the tradeoff was built into the prompts, not demonstrated in the contracts.**
+
+⚠️ **AND IT RELOCATES THE QUESTION, WHICH IS THE USEFUL PART:** the framing requirement **already exists in the spec** and **did not reach the verifier**. **That is a transmission failure in how WALTER writes spawn prompts — not a gap in the contract's design.** ⇒ **adding a sentence to field 4 would be fixing the wrong layer, and the proposed fix is therefore NOT justified on this evidence.**
+
+## ⛔ CONFOUND 2 — WALTER GRADED ARM A AGAINST ARM B AS IF ARM B WERE TRUTH
+
+**Arm B is not a verified reference.** It **self-declared** its own limit: *"I read search summaries of Bloomberg/Reuters, not the primary letter or the SC TO-I."*
+
+⇒ ⛔ **Its `11.6% prior quarter` figure — the number Part 3's entire "flat-to-down, not accelerating" conclusion rests on — IS UNVERIFIED.** **Arm A read the SEC primary; Arm B read summaries; and WALTER treated the summary-based reading as the correct one because it was the more persuasive story.** ⚠️ **A more persuasive interpretation is not automatically correct.**
+
+🔑 **NOTE WHAT THIS IS: supported facts becoming a stronger unsupported conclusion — the exact pattern this document exists to examine — committed by WALTER INTO the document examining it.** `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`
+
+⚠️ **What survives from Arm B is narrower and does NOT depend on its unverified figure:** the **re-tender double-count** is independently supported by Arm A's own primary quotation (*"nearly two thirds of repurchase requests… were prorated in the prior two repurchase offers"*), and the **contractual-vs-emergency** distinction is checkable at the filing. **Neither was verified by WALTER in this session.**
+
+## ✅ WHAT THE TEST ACTUALLY ESTABLISHES
+
+**ESTABLISHED:** ① **one response supported individual facts without adequately assessing the headline's implication** — a real, documented counterexample worth preserving; ② **an existing framing requirement failed to reach a verifier WALTER dispatched.**
+
+**PLAUSIBLE, NOT ESTABLISHED:** that the workflow emphasises completing evidence fields over challenging the proposed interpretation.
+
+**UNPROVEN:** any comparative performance claim between the contracts · that a particular prompt clause caused the failure · a general sourcing-versus-judgement tradeoff · context fatigue.
+
+⇒ ⛔ **THE RESULT IS A DOCUMENTED COUNTEREXAMPLE, NOT A DEMONSTRATED WINNER BETWEEN CONTRACTS.**
+
+## PROPOSED FIX — STATUS CHANGED TO NOT JUSTIFIED ON THIS EVIDENCE
+
+**The field-4 sentence proposed in Part 3 is recorded as UNAPPLIED and now also as UNJUSTIFIED BY THIS TEST.** ⛔ **Before it is reconsidered, the next session must first determine whether the existing framing requirement and shape-claim guard were faithfully carried into the spawn prompt — because on this evidence they were not.** ⚠️ **Adding an instruction because an existing instruction was not transmitted is how this desk has answered six errors today; it is the pattern, not the remedy.**
+
+## 🔒 PRESERVED ARTIFACTS — both prompts verbatim
+
+**Model both arms: Opus. Run gap ~20 minutes, 2026-09-21. WALTER authored both prompts. Neither run was inspected by CATO.**
+
+### ARM A prompt (v0.48 four-field contract) — verbatim
+```
+WALTER (signal router) is deciding whether to route this to BROCK (private-credit desk) and at what
+precedence. BROCK tracks fund gates and redemption limits; it already carries 15+ gated private-credit
+funds. The routing decision depends on whether this framing holds.
+
+CLAIM TO CHECK (from Investing.com, dated Sat 19 Sep 2026, headline only — the underlying article was
+not read): "Morgan Stanley caps private credit fund withdrawals again as 11% seek exits"
+
+Return AT MOST 200 words total, in EXACTLY these four fields. The VERDICT label goes first, then the fields.
+
+VERDICT: one of CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE.
+  - FALSE requires a primary source that CONTRADICTS this particular claim.
+  - INDETERMINATE covers (a) UNSUPPORTED = searched, no supporting primary found; (b) INACCESSIBLE =
+    a primary plausibly exists but you could not reach it (paywall, unreachable host, language);
+    (c) INCONCLUSIVE = a primary exists but is ambiguous, or you ran out of budget. STATE WHICH LETTER.
+
+1. CLAIM CHECKED — restate the exact claim you checked. Not the topic. If the headline bundles several
+   claims (that a cap was imposed; that it is a repeat; the 11% figure; which fund), say which one(s)
+   you actually tested.
+2. EVIDENCE LOCATOR — publisher + document + date, enough for someone to re-find it. IF YOU FOUND
+   NOTHING OR COULD NOT REACH IT, say so explicitly and name what you searched.
+3. SUPPORTING OBSERVATION — the short passage or figure that actually bears on the claim in field 1.
+   A citation is NOT an observation. If a source you found addresses a DIFFERENT claim than field 1,
+   say that explicitly rather than presenting it as support.
+4. BOUNDED CONCLUSION — what the evidence you actually have warrants, and no more.
+
+Do not pad. If you cannot fill fields 2 and 3, say so plainly — that is a useful and acceptable answer,
+not a failure. Absence of supporting evidence is NOT evidence the claim is false.
+```
+⚠️ **NOTE: the phrase "The routing decision depends on whether this framing holds" IS present in Arm A's preamble. ⛔ But no field asks for a framing verdict, the enum's `CORRECTED-framing` value is listed and never defined, and the `CONFIRMED`-scope shape-claim guard is absent. Whether that preamble line constitutes faithfully carrying the requirement is EXACTLY the question the next session must settle — WALTER should not settle it here, having authored it.**
+
+### ARM B prompt (retired wording) — verbatim
+```
+WALTER is about to route this to BROCK (private-credit desk) as PRIORITY; need to know if the framing holds.
+
+CLAIM: "Morgan Stanley caps private credit fund withdrawals again as 11% seek exits" — Investing.com,
+Sat 19 Sep 2026. Headline only; underlying article not read.
+
+Hard total word cap on your response: 200 words.
+
+Require a single-line VERDICT at the top of the response — everything else is optional.
+
+Ask is decision-usefulness, not comprehensiveness.
+```
+
+### Responses
+**Both complete responses are preserved verbatim in this session's transcript and are summarised field-by-field in Part 3's comparison table.** **Arm A's source references:** SEC EDGAR, North Haven Private Income Fund LLC, CIK 0001851322, SC TO-I/A filed 2026-09-18, accession 0001193125-26-395654, exhibits `d154719dsctoia.htm` and `d154719dex99a1vi.htm`. **Arm B's source references:** none at document level — self-declared as Bloomberg/Reuters search summaries.
+
+## MORGAN STANLEY ITEM — EXPLICITLY PENDING OWNER ASSESSMENT
+
+⛔ **NOT dispatched, NOT killed. HELD pending BROCK's own assessment.** **WALTER has a CONFIRMED-at-primary reading and a contradicting summary-based reading and has NOT established which is correct.** ⚠️ **It is not WALTER's call: BROCK owns fund-gate interpretation.** **Recorded here so the item is not silently dropped — it is an open owner question, not a closed disposition.**
