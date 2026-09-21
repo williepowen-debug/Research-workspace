@@ -81,3 +81,38 @@
 1. 🔴 **One unseen counterexample from a non-implementing reader.** CATO or HAWK qualify. **Not optional — case 4 is why.**
 2. 🔴 **Observation of a small fresh batch** through existing records.
 3. ⚠️ **HAWK's v0.47 acceptance must cover the RESULTING version if the verdict-table wording moves.** The exact reviewed revision is pinned at `8d2c9b8ef` in `design/history/CHECKLIST_VERSION_HISTORY.md`. **v0.48 did NOT alter the verdict-table rows** — it changed `:116` and the finalization block — **but HAWK is being told so it can confirm rather than assume.**
+
+
+---
+
+# PART 2 — FRESH-BATCH OBSERVATION (2026-09-21, live, unselected)
+
+⛔ **THIS IS THE HALF THE TABLETOP CANNOT PROVIDE: material WALTER did not choose.** Source: `RESEARCH-INTAKE data/2026-09-20/news.json`, the batch deferred from this morning's boot. **103 NEW-classified items.**
+
+## What the batch actually contained
+
+| Finding | Measure |
+|---|---|
+| **Syndication inflation, measured** | **The Moscow refinery strike of 19–20 Sep appears under TEN separate outlets** (Reuters · CNN · Kyiv Post · Al Jazeera · BBC ×2 · NBC · PBS · The Media Line · FT). **Ten items, ONE event.** |
+| **That event is ALREADY OWNED** | OSPREY logged it as `RU-20260920-MOSCOW-REFINERY` before this morning's boot; WALTER killed it on **Novelty (already-ours)** at ~15:0xZ and `SIG-W-20260921-002` / `-019` already carry it. ⇒ **10 items → 1 pre-existing kill, no dispatch.** |
+| **Riyadh claim** | Items *"Houthis say they targeted Saudi capital"* + *"Flames and smoke at Riyadh's King Khalid airport"* — **already dispatched this morning as `SIG-W-20260921-009`.** Already-ours. |
+
+✅ **This independently reproduces MEMORY finding #4 — *the lane counts OUTLETS, not SOURCES; syndication inflation is structural, not occasional*. Measured ratio on today's top story: 10:1.**
+
+## 🔴 A LANE FINDING THE CONTRACT DID NOT CAUSE AND DOES NOT FIX
+
+**Every FT and BBC item in this batch carries `agents=[]` — the lane assigns them NO recipient at all.** Two of them are among the most routable things in the file:
+
+- **`"Big Tech uses guarantees to keep $300bn AI exposure off balance sheets"` (FT, 2026-09-20)** — squarely VULCAN + BROCK: off-balance-sheet AI-infrastructure exposure is the financing leg of the AI-capex thesis, and WALTER already dispatched a related item on 2026-06-27 (`SIG-W-20260627-033`).
+- **`"Wall Street expects US to issue about $1tn of short-term debt as borrowing costs climb"` (FT, 2026-09-20)** — squarely BOND.
+
+⇒ **The highest-value items in the batch are UNROUTED BY CONSTRUCTION, because the tagging is keyed to labelled feeds and the FT/BBC pulls carry no agent tags.** ⛔ **This is a lane defect, NOT a v0.48 defect, and v0.48 does nothing about it.** **Recorded here because a fresh-batch observation that only confirmed the change under test would be the weaker result.** Raised separately; not folded into this validation.
+
+## What this observation does and does not establish about v0.48
+
+⛔ **HONEST SCOPE — and it is narrower than "we tested it live."**
+- **The batch exercised GATE 1 (Novelty), not the new contract.** Ten of the top items resolved on already-ours, which the pre-existing filter handled before v0.48 existed. **v0.48 changed nothing about that path and is not credited for it.**
+- **U1 is exercised only where a verify-research spawn actually fires.** One item in this batch triggered Phase 1.5 (`"Morgan Stanley caps private credit fund withdrawals again as 11% seek exits"`, Investing.com 2026-09-19 — a secondhand outlet citing a primary, carrying a specific figure). **That spawn was run under the new four-field contract; result recorded below.**
+- **U2 is a drafting check on WALTER's own sentence and cannot be observed from the batch at all** — only from what WALTER then writes.
+
+⇒ **A fresh batch tests the FILTER far more than it tests this change.** ⛔ **It does NOT establish that v0.48 improves live outcomes**; it establishes that v0.48 did not disrupt an ordinary batch, and it surfaced one lane defect that has nothing to do with it.
