@@ -1,11 +1,13 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-21 — Will-authorized Phase 4 repeat-boot implementation; this is not a market refresh or a new boot receipt.
+**Last Updated:** 2026-09-21 — Will-authorized Phase 4 policy-recovery correction; this is not a market refresh or a new boot receipt.
 **This file carries the resume point and information registered nowhere else. DOCKET, GATES and WILL_QUEUE own their records; generated views below are preserved.**
 History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase2.md); it includes the prior rotation pointers and exact superseded session blocks. Re-check size at any append or on 2026-09-28, whichever first, using `scripts/read_cap_check.py --agent PROME --require-manifest`.
 
 ## ★ NEXT SESSION — START HERE
 
-**Current work:** Phases 1–3 are delivered (`fbfe85e36`, `0d104a775`, `bef8fe23e`, `b693a7efe`). Will authorized [Phase 4's conservative repeat boot](plans/2026-09-21_boot-phase4-repeat-boot.md); that record owns verification status and residue. Only acknowledged USER/BOOT instructions in retained context may be reused; fresh sessions/context loss require full reads. Live state and manual/private steps remain fresh; repeat mechanical checks never advance BOARD or upgrade an incomplete original boot. No production boot/refresh has been run for this implementation; private Artifact pickup and native fleet preflight remain unavailable here.
+**Current work:** Phases 1–3 are delivered (`fbfe85e36`, `0d104a775`, `bef8fe23e`, `b693a7efe`). Will authorized [Phase 4's conservative repeat boot](plans/2026-09-21_boot-phase4-repeat-boot.md); [the follow-up correction](plans/2026-09-21_boot-phase4-correction.md) owns current verification: pending policy files require full reads and acknowledgements before reuse; refresh adds no spawn allowance. Only acknowledged USER/BOOT instructions in retained context may be reused; fresh sessions/context loss require full reads. Live state and manual/private steps remain fresh; repeat mechanical checks never advance BOARD or upgrade an incomplete original boot. No production boot/refresh has been run for this implementation; private Artifact pickup and native fleet preflight remain unavailable here.
+
+**Closeout:** Will requested closure after the correction. Standard closeout is being checked; private Helm/Deck view/publication is unavailable and the prior publication-cost ruling remains in force. Delivery states belong to the final closeout report; do not infer them from this note. Next boot: ordinary-use observation before expansion, plus the existing operational priorities below.
 
 **Resume sequence:** read [HANDOFF](HANDOFF.md) for decisions, material caveats and unresolved historical tails, then [STATUS](STATUS.md) for selected PROME work. Do not reopen old “owed” narrative without checking its owner record. Do not treat a delivery receipt as a registrar disposition or an independent acceptance.
 

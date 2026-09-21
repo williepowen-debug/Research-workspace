@@ -1,5 +1,5 @@
 # PROME STATUS.md
-**Updated:** 2026-09-21 — Phase 2 document-state cleanup; selected queue corrections only. Owner grades, market freshness, current broker book and full manifest completeness were not reverified by this maintenance pass.
+**Updated:** 2026-09-21 — Boot-maintenance closeout; selected queue updated to ordinary-use observation. Owner grades, market freshness, current broker book and full manifest completeness were not reverified by this maintenance pass.
 **Last spine audit:** 2026-09-20 (fourteenth run). Re-run when >7d. Historical findings → `PROME/archive/STATUS_HISTORY.md`; remaining residue at DOCKET L358 and its named sources. The historical WQ-272/full-reconcile wording is superseded: WQ-274 owns transaction/current-book verification.
 **Companion reads (this file does not restate them):** continuity → `PROME/HANDOFF.md` · next-session state → `PROME/SCRATCH.md` ★ NEXT · Will's items → `PROME/WILL_QUEUE.md` · catalysts + dates → `PROME/DOCKET.tsv` · fire-ledger → `PROME/GATES.tsv` · regime → `HEARTBEAT.md`.
 
@@ -13,7 +13,7 @@ Current resume point → [SCRATCH](SCRATCH.md); continuity and unverified older 
 
 | PROME action | Canonical record | State — each row states its own observation time |
 |---|---|---|
-| Boot coverage / continuity | `PROME/plans/2026-09-21_boot-coverage-implementation.md` · `PROME/plans/2026-09-21_prose-invalid-date-correction.md` · `PROME/plans/2026-09-21_boot-phase2-continuity.md` | Phase 1 delivered (`fbfe85e36`, `0d104a775`); Phase 2 acceptance lives in its record. Older READS attestation remains unrenewed. Shorter log reads and incremental boot stay deferred. |
+| Boot coverage / continuity | `PROME/plans/2026-09-21_boot-phase4-correction.md` (current verification; links earlier phases) | Phases 1–4 implemented; policy-recovery correction tested. PROME: observe the next ordinary boots for reading saved, elapsed time, recovery frequency and missed obligations; record observations before considering expansion. Old READS attestation remains unresolved. |
 | Confirms surviving rotation | DOCKET L438 | DAEDALUS ①② and WALTER RULE 8 confirms remain pending; requires confirms or explicit declines. WQ-250’s archived container does not close these tails. |
 | Publication | `PROME/DOCKET.tsv` L393 | Helm/Deck sources + renders regenerated at BOTH 9/17 closeouts; **NOT published** either time — the Deck republish needs a ~100K-token read of the live artifact (L393) and Will's 9/17 cost instruction stands. Hosted versions are the 9/15 vintage. Decided at pre-closeout 16:0x, reported PARTIAL. |
 | Completed PROME repairs | `PROME/reports/2026-09-14_L335-ledger-completion.md` · `PROME/reports/2026-09-14_contract-repair-completion.md` | L335 and L394 independently accepted and delivered. Retain the stated historical-data and calibration limits; do not reopen completed code work from older session narratives. |

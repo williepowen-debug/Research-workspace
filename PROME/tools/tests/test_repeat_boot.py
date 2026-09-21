@@ -177,14 +177,15 @@ class ReadReceipts(Fixture):
 
     def test_source_and_policy_mutation_during_read_refuse_receipt(self):
         self.acknowledged()
-        old=self.state.read_bytes()
         def racing_page(*args):
             result=reader.page(*args)
             (self.root/'CLAUDE.md').write_text('changed during read\n')
             return result
         with self.assertRaisesRegex(ValueError,'changed during read'):
             reuse.read_with_state(self.user,racing_page,self.state,'context-A',reuse=True)
-        self.assertEqual(self.state.read_bytes(),old)
+        state=json.loads(self.state.read_text())
+        self.assertEqual(state['pending_policy_reads'],['CLAUDE.md'])
+        self.assertEqual(state['reads'],{})
 
     def test_competing_state_writer_falls_back_without_modifying_receipt(self):
         self.acknowledged()
@@ -218,6 +219,178 @@ class ReadReceipts(Fixture):
         self.assertEqual(json.loads(p.stdout)['read_kind'],'ACKNOWLEDGED')
         p=subprocess.run(command+['--reuse'],capture_output=True,text=True,check=True)
         self.assertEqual(json.loads(p.stdout)['read_kind'],'REUSED_IN_CONTEXT')
+
+
+class PolicyRecovery(Fixture):
+    def change(self, name, text='new instruction\n'):
+        path = self.root / name
+        path.write_text(path.read_text() + text)
+        return path
+
+    def test_changed_claude_is_delivered_and_user_ack_alone_cannot_restore_reuse(self):
+        self.acknowledged()
+        claude = self.change('CLAUDE.md')
+        blocked = self.call(reuse=True)
+        self.assertEqual(blocked['pending_policy_reads'], ['CLAUDE.md'])
+        self.assertIn('Reuse blocked', blocked['recovery'])
+        self.acknowledged()
+        self.assertEqual(self.call(reuse=True)['read_kind'], 'FULL')
+        self.acknowledged(self.root / 'PROME/BOOT.md')
+        self.assertEqual(self.call(self.root / 'PROME/BOOT.md', reuse=True)['read_kind'], 'FULL')
+        digest, text = self.consume(claude)
+        self.assertEqual(text, claude.read_text())
+        self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['CLAUDE.md'])
+        ack = self.call(claude, acknowledge=True, expected_sha=digest)
+        self.assertEqual(ack['pending_policy_reads'], [])
+        self.acknowledged()
+        self.assertEqual(self.call(reuse=True)['read_kind'], 'REUSED_IN_CONTEXT')
+        # Policy recovery never turns CLAUDE itself into a reusable document.
+        self.assertEqual(self.call(claude, reuse=True)['text'], claude.read_text())
+
+    def test_changes_accumulate_across_date_and_reversion(self):
+        self.acknowledged()
+        claude = self.root / 'CLAUDE.md'
+        original = claude.read_text()
+        self.change('CLAUDE.md')
+        self.call(reuse=True)
+        self.change('AGENTS.md')
+        claude.write_text(original)
+        with patch.object(reuse, 'today', return_value='2026-09-22'):
+            self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['AGENTS.md', 'CLAUDE.md'])
+            self.acknowledged()
+            self.acknowledged(claude)
+            self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['AGENTS.md'])
+            self.acknowledged(self.root / 'AGENTS.md')
+            self.acknowledged()
+            self.assertEqual(self.call(reuse=True)['read_kind'], 'REUSED_IN_CONTEXT')
+
+    def test_every_basis_change_requires_its_own_read_and_ack(self):
+        self.acknowledged()
+        for name in reuse.BASIS:
+            with self.subTest(name=name):
+                path = self.change(name)
+                self.assertEqual(self.call(reuse=True)['pending_policy_reads'], [name])
+                self.acknowledged(path)
+                self.acknowledged()
+                self.assertEqual(self.call(reuse=True)['read_kind'], 'REUSED_IN_CONTEXT')
+                if name not in reuse.ELIGIBLE:
+                    self.assertEqual(self.call(path, reuse=True)['read_kind'], 'FULL')
+
+    def test_pending_policy_requires_contiguous_pages_and_correct_digest(self):
+        self.acknowledged()
+        claude = self.change('CLAUDE.md', 'unread rule\n' * 1800)
+        self.call(reuse=True)
+        first = self.call(claude)
+        self.assertFalse(first['eof'])
+        with self.assertRaises(ValueError):
+            self.call(claude, acknowledge=True, expected_sha=first['sha256'])
+        self.call(claude, offset=len(claude.read_text())-1, expected_sha=first['sha256'])
+        with self.assertRaises(ValueError):
+            self.call(claude, acknowledge=True, expected_sha=first['sha256'])
+        digest, _ = self.consume(claude)
+        for wrong in (None, '0' * 64):
+            with self.assertRaises(ValueError):
+                self.call(claude, acknowledge=True, expected_sha=wrong)
+        self.assertEqual(json.loads(self.state.read_text())['pending_policy_reads'], ['CLAUDE.md'])
+        self.assertEqual(self.call(claude, acknowledge=True, expected_sha=digest)['pending_policy_reads'], [])
+
+    def test_legacy_and_corrupt_receipts_require_full_basis_recovery(self):
+        for kind in ('legacy', 'corrupt', 'empty', 'missing-hash', 'bad-pending'):
+            with self.subTest(kind=kind):
+                self.acknowledged()
+                old = json.loads(self.state.read_text())
+                if kind == 'legacy':
+                    old = {k: old[k] for k in ('repository', 'context_id', 'date', 'reads')}
+                    old.update(version=1, policy_sha256='0' * 64)
+                elif kind == 'empty': old = {}
+                elif kind == 'missing-hash': old['policy_hashes'].pop('CLAUDE.md')
+                elif kind == 'bad-pending': old['pending_policy_reads'] = [None]
+                self.state.write_text('broken' if kind == 'corrupt' else json.dumps(old))
+                self.assertEqual(set(self.call(reuse=True)['pending_policy_reads']), set(reuse.BASIS))
+                self.acknowledged()
+                self.assertIn('CLAUDE.md', self.call(reuse=True)['pending_policy_reads'])
+                for name in reuse.BASIS:
+                    self.acknowledged(self.root / name)
+                self.assertEqual(self.call(reuse=True)['read_kind'], 'REUSED_IN_CONTEXT')
+
+    def test_wrong_context_and_external_alias_cannot_acknowledge_pending_path(self):
+        self.acknowledged()
+        claude = self.change('CLAUDE.md')
+        digest, _ = self.consume(claude)
+        before = self.state.read_bytes()
+        alias = self.area / 'CLAUDE.md'
+        alias.symlink_to(claude)
+        for path, kwargs in ((alias, {}), (claude, {'context_id': 'different-context'})):
+            with self.assertRaises(ValueError):
+                self.call(path, acknowledge=True, expected_sha=digest, **kwargs)
+            self.assertEqual(self.state.read_bytes(), before)
+
+    def test_missing_policy_and_failed_ack_write_preserve_pending(self):
+        self.acknowledged()
+        claude = self.change('CLAUDE.md')
+        digest, _ = self.consume(claude)
+        before = self.state.read_bytes()
+        with patch.object(reuse, 'save_state', side_effect=OSError('fixture failure')):
+            with self.assertRaises(ValueError):
+                self.call(claude, acknowledge=True, expected_sha=digest)
+        self.assertEqual(self.state.read_bytes(), before)
+        claude.unlink()
+        self.assertEqual(self.call(reuse=True)['read_kind'], 'FULL')
+        self.assertEqual(self.state.read_bytes(), before)
+        with self.assertRaises(ValueError):
+            self.call(claude, acknowledge=True, expected_sha=digest)
+
+    def test_policy_race_during_ack_accumulates_new_debt_on_retry(self):
+        self.acknowledged()
+        claude = self.change('CLAUDE.md')
+        digest, _ = self.consume(claude)
+        agents = self.root / 'AGENTS.md'
+        original = agents.read_text()
+        def race(*args):
+            result = reader.page(*args)
+            self.change('AGENTS.md')
+            return result
+        with self.assertRaisesRegex(ValueError, 'changed during read'):
+            reuse.read_with_state(claude, race, self.state, 'context-A',
+                                  acknowledge=True, expected_sha=digest)
+        self.assertEqual(json.loads(self.state.read_text())['pending_policy_reads'], ['AGENTS.md', 'CLAUDE.md'])
+        agents.write_text(original)
+        self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['AGENTS.md', 'CLAUDE.md'])
+        self.acknowledged(claude)
+        self.acknowledged()
+        self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['AGENTS.md'])
+
+    def test_failed_ack_or_page_cannot_erase_detected_policy_change_after_reversion(self):
+        for failure in ('ack', 'digest', 'offset'):
+            with self.subTest(failure=failure):
+                digest, _ = self.acknowledged()
+                claude = self.root / 'CLAUDE.md'
+                original = claude.read_text()
+                self.change('CLAUDE.md')
+                kwargs = {'acknowledge': True, 'expected_sha': digest} if failure == 'ack' else (
+                    {'expected_sha': '0' * 64} if failure == 'digest' else {'offset': 1})
+                with self.assertRaises(ValueError): self.call(**kwargs)
+                self.assertEqual(json.loads(self.state.read_text())['pending_policy_reads'], ['CLAUDE.md'])
+                claude.write_text(original)
+                self.acknowledged()
+                self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['CLAUDE.md'])
+                self.acknowledged(claude)
+
+    def test_policy_change_during_failed_page_is_preserved_and_save_failure_refuses(self):
+        self.acknowledged()
+        claude = self.root / 'CLAUDE.md'
+        original = claude.read_text()
+        def race(*args):
+            self.change('CLAUDE.md')
+            raise ValueError('fixture page refused')
+        with self.assertRaisesRegex(ValueError, 'changed during read'):
+            reuse.read_with_state(self.user, race, self.state, 'context-A')
+        claude.write_text(original)
+        with patch.object(reuse, 'save_state', side_effect=OSError('fixture failure')):
+            with self.assertRaisesRegex(ValueError, 'recovery not saved'):
+                self.call(reuse=True)
+        self.acknowledged()
+        self.assertEqual(self.call(reuse=True)['pending_policy_reads'], ['CLAUDE.md'])
 
 
 class Refresh(Fixture):

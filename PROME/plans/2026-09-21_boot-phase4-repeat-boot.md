@@ -53,3 +53,7 @@ The repeat paragraph was shortened before transplant to avoid a new BOOT rotatio
 ## Result-review residue — 2026-09-21
 
 Policy-basis changes invalidate reuse of USER/BOOT, but fallback reports only that a page was recorded; it does not identify which policy input changed or inject/reread altered auto-loaded CLAUDE instructions. This is cache invalidation, not proof that retained context contains current canon. That diagnostic/reconciliation limitation remains explicit, alongside the plan's spawn-cap wording advisory. Context retention is the caller's assertion, not runtime authentication. Private rulings require fresh manual access and are not tested by a disk digest or a mechanical refresh. No advisory fixes or third review were added to this batch.
+
+## Follow-up authorized after CATO review
+
+Will authorized correction of both advisories after CATO review `2fef9aa05`. [The correction record](2026-09-21_boot-phase4-correction.md) supersedes the two residue dispositions above and owns current implementation/review status. No further framework expansion or measured savings are claimed.
