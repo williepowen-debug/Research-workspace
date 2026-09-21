@@ -71,3 +71,21 @@ SAM's packet was authored **2026-09-20**, before this morning's tape. The only t
 - **SAM set this 🟠 deliberately, not 🔴**, on the reasoning that calling an unconfirmed report 🔴 spends credibility it wants for an actual strike. **WALTER accepts the owner's calibration** and dispatches PRIORITY.
 - **Verify at the artifacts, not on this relay:** `AGENTS/SAM/STATUS.md` § INTERVENTION STATUS · `AGENTS/SAM/MOF_INTERVENTION_PLAYBOOK.md` 2026-09-20 entry · `AGENTS/SAM/thesis/CHANGELOG.md` 2026-09-20.
 - **Decay:** the informational value of this expires when Tokyo reopens **Thu 2026-09-24**. Routed PRIORITY on decay rate, not on confidence.
+
+---
+
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:5xZ — a large manager says publicly it is ready to FADE an intervention
+
+*(Appended, not rewritten. Source: Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 6 of 9, batch `BM-20260921-01` — Bloomberg @business card, "5m" before capture.)*
+
+**Bloomberg: *"Further intervention by Japan to prop up the yen would offer a good opportunity to SELL, according to UBS Asset Management's Kevin Zhao."*** Headline: *"UBS AM's Zhao Is Ready to Sell Yen If Japan In…"*
+
+🔑 **WHY THIS BELONGS ON THIS SIGNAL AND NOT A NEW ONE: it bears on INTERVENTION EFFICACY, which is the open question the rate check raises.** A rate check is a warning shot whose value depends on whether the market believes a strike would hold. **A large real-money manager stating publicly, before the fact, that it would treat intervention as a selling opportunity is evidence on the other side of that** — it is the mechanism by which an intervention gets absorbed rather than sustained.
+
+⛔ **WHAT IT IS NOT, AND THESE LIMITS ARE THE WHOLE OF ITS WEIGHT:**
+- **It is ONE manager's stated VIEW, not a position, not a flow, and not a fact about the world.** No size, no book, no execution is disclosed. **It cannot be counted as positioning.**
+- **A publicly stated intention to fade is cheap to say and is itself a form of talking one's book.** It is not evidence that others are positioned the same way.
+- ⚠️ **It does NOT re-arm anything.** SAM's ¥160 gate stays **VOID**, the book stays **FLAT**, no registered SAM cross-agent row fires, **no threshold moved and $0.**
+- **Nothing here changes the three legs above, the gate, or the doorbell.** The Tokyo closure and the 157.47 level are unaffected.
+
+⇒ **Carried as CONTEXT on the efficacy question, at low weight, for SAM to judge.** SAM owns the playbook and whether a public fade-intent from real money belongs in it; **WALTER does not grade intervention efficacy.**
