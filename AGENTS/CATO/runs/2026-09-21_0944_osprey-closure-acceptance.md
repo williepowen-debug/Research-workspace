@@ -16,3 +16,7 @@ Marks remain 4/5/3 and the ~30% band remains a held estimate. C1 4→5 and its p
 Only this report authored. Other sessions' CATO reports, PROME state and memory changes preserved. Shared CONTINUITY remains untouched during concurrent CATO work; this report supplies this session's resume point. Root orphan advisory, applicable weekday/whitespace checks and exact-path commit/push receipt follow in-session.
 
 **Resume: orient and await Will. No remaining correction work is assigned to this CATO session.**
+
+## Will-directed session closeout
+
+Will subsequently requested closing this CATO instance. The acceptance report was committed as `028e074f9` and safe-push confirmed it on origin/master; that shared push also carried PROME's already-committed `ecbb42ee4`. No further owner review or research was started. A short instance-specific entry is now added to the clean shared CONTINUITY file, preserving every other session's entry; this supersedes the earlier decision to leave that file untouched during review. Other sessions' untracked CRUISE reports and modified memory remain excluded. Applicable orphan, weekday and whitespace checks are rerun for these two exact closeout paths; the final commit/push receipt is delivered in-session. All decisions and deferred obligations above remain open with their respective owners. No publication or external send performed.
