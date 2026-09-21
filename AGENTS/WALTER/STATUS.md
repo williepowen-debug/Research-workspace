@@ -1,6 +1,6 @@
 # WALTER STATUS
 
-**Updated 2026-09-21 ~17:2xZ (Mon 13:2x ET, Will-directed Telegram session `walter-e3`; Claude Opus 5; supersedes the 9/19 ~15:1xZ PROME-spawned drain).** 🟢 **MARKETS OPEN — the levels in the table below are a mix of LIVE 9/21 intraday quotes and dated FRED/settle prints, and EACH CELL SAYS WHICH.** ⛔ **Nothing here is a settlement; FRED is T+1 so its latest print is 9/18 (Friday) and today's will not publish until ~16:15 ET tomorrow.** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
+**Updated 2026-09-21 ~15:2xZ (Mon 11:2x ET, Will-directed Telegram session `walter-e3`; Claude Opus 5; supersedes the 9/19 ~15:1xZ PROME-spawned drain).** 🟢 **MARKETS OPEN — the levels in the table below are a mix of LIVE 9/21 intraday quotes and dated FRED/settle prints, and EACH CELL SAYS WHICH.** ⛔ **Nothing here is a settlement; FRED is T+1 so its latest print is 9/18 (Friday) and today's will not publish until ~16:15 ET tomorrow.** Operational observations and filter posture below; current obligations and exact delivery/publication evidence: [LAST_COMPLETION.md](LAST_COMPLETION.md).
 
 ## BOTTOM LINE
 
@@ -16,7 +16,7 @@
 
 **IRAN ANCHOR — PARTIAL re-verify, and the perimeter is the point.** Two of its own triggers had fired; **the diplomacy leg is re-verified** (`SIG-W-20260921-010`: the US acceptance leg is off its flat 9/9 negative but is **NOT** an acceptance — a third state; form moved, substance did not). ⛔ **The Saudi-export leg is STILL OWED and was deliberately NOT run — BRENT was live on those instruments.** Two rotations, `split_verify` **exit 0** end-to-end; **additions were not trimmed to fit.** Two stale derived counts corrected, both of which made open questions read as settled.
 
-⚠️ **Push DEFERRED all session:** HENRY, BRENT and HAWK are live PROME spawns with uncommitted work. **Five local commits await the next clean-tree push.**
+✅ **Published and reconciled; delivery ledger clean.** ⚠️ **WALTER carried a "push deferred" claim into closeout that was FALSE by then and was refuted by `closeout_check`, not by WALTER — a deferral is true when taken and expires silently, so re-test it at closeout rather than carrying it.** ⛔ **Figures deliberately NOT restated here** (commit states, row counts and the reconcile receipt are volatile and live in exactly one place): **[LAST_COMPLETION.md](LAST_COMPLETION.md) GAPS + CLOSEOUT RECEIPT.**
 
 ## DATED MARKET OBSERVATIONS — refreshed 2026-09-21 ~15:0x–17:0xZ; **EVERY CELL CARRIES ITS OWN BASIS AND DATE** (FRED is T+1 → latest print 9/18; equity/futures are LIVE 9/21 intraday; owner registries govern every state)
 
