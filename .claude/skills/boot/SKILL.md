@@ -15,7 +15,7 @@ Commands are quoted here only where they are stable interfaces; they are copied 
 1b. **Decision Deck pickup** → BOOT.md step 3b (read the deck's `rulings` store; consume taps into `WILL_QUEUE.md`; never share the artifact; read WALTER `LAST_COMPLETION.md` §WILL_NEEDS as a deck feed — WQ-206).
 2. **One-shot gate** → BOOT.md step 5 "⚡ ONE-SHOT GATE", run ONCE:
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>`
-   BOOT.md step 5 owns the gate's meaning; step 6 owns the board-scan re-run rule.
+   BOOT.md step 5 owns the gate's meaning and log-read contract (including the bounded orchestration-log view and full-text fallback); step 6 owns the board-scan re-run rule.
 3. **Declare boot state** → BOOT.md step 7.
 4. **Report, then continue** → BOOT.md step 8 (the interrupt test, the hands-vs-answer rule, the anti-scoping clause and the third-boot disposition all live there). ⚠️ **BOTH halves of BOOT.md step 8** — the report-and-continue contract AND the `PROME/STATUS.md` `Last spine audit:` stamp check. `prome_gate.py boot` carries no check for that stamp, so this runner is its only carrier. (Named here 2026-09-12, spine audit #13 — the runner had carried one half.) ⛔ **Do not stop for an answer unless BOOT.md step 8's interrupt test returns YES.**
 5. **Conditional reads** → BOOT.md step 6.

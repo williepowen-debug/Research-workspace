@@ -2,9 +2,9 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). This is continuity, not a fresh market, broker, fleet-presence or publication check. Read the whole file. Rotated 2026-09-21 under Will's Phase 2 instruction; re-check size at any append or on 2026-09-28, whichever comes first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
 
-## September 21 — Phase 2 continuity cleanup
+## September 21 — Phase 2 cleanup and Phase 3 log reads
 
-Will authorized Phase 2 after the boot-coverage correction. HANDOFF now carries concise continuity; SCRATCH owns the immediate resume point; STATUS owns the selected operational queue. Full pre-change snapshots remain in archives, with CRC receipts and an obligation census in [the Phase 2 record](plans/2026-09-21_boot-phase2-continuity.md). No ledger row, owner grade, threshold, position or publication was changed by this cleanup. Shorter log reads and incremental boot remain deferred; BOOT's whole-file and full-log instructions still apply.
+Will authorized Phase 2 after the boot-coverage correction. HANDOFF now carries concise continuity; SCRATCH owns the immediate resume point; STATUS owns the selected operational queue. Full pre-change snapshots remain in archives, with CRC receipts and an obligation census in [the Phase 2 record](plans/2026-09-21_boot-phase2-continuity.md). No ledger row, owner grade, threshold, position or publication was changed by this cleanup. Will subsequently authorized [Phase 3](plans/2026-09-21_boot-phase3-log-reads.md): BOOT now permits the bounded orchestration-log view, which factors identical UNKNOWN reasons while retaining every identity and all other text. All other logs remain full reads; incremental boot remains deferred. Check the Phase 3 record for verification status.
 
 **Capability limits:** this Codex session has no private Artifact ruling tool or native fleet `ListAgents`/`SendMessage`. Ruling pickup and fleet preflight remain unavailable; disk or thread-local evidence does not replace them. No desk launch follows from this file. The foreign `PROME/state/argus_baseline.json` remains uncommitted and untouched by this work.
 

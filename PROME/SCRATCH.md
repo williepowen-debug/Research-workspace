@@ -1,11 +1,11 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-21 — Phase 2 continuity cleanup authorized by Will; this is a document-state update, not a market refresh or a new boot receipt.
+**Last Updated:** 2026-09-21 — Will-authorized Phase 3 log-read update after Phase 2 cleanup; this is not a market refresh or a new boot receipt.
 **This file carries the resume point and information registered nowhere else. DOCKET, GATES and WILL_QUEUE own their records; generated views below are preserved.**
 History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase2.md); it includes the prior rotation pointers and exact superseded session blocks. Re-check size at any append or on 2026-09-28, whichever first, using `scripts/read_cap_check.py --agent PROME --require-manifest`.
 
 ## ★ NEXT SESSION — START HERE
 
-**Current work:** Phase 1 boot coverage and the malformed handwritten-date follow-up are delivered (`fbfe85e36`, `0d104a775`); Phase 2 is the continuity cleanup described in [its record](plans/2026-09-21_boot-phase2-continuity.md). Use that record for review/acceptance status. Shorter log reads and incremental boot remain deferred; existing full-log requirements still apply. No production boot has been rerun; private Artifact pickup and native fleet preflight remain unavailable in this Codex session.
+**Current work:** Phase 1 boot coverage and the malformed handwritten-date follow-up are delivered (`fbfe85e36`, `0d104a775`); Phase 2 cleanup is accepted with maintenance corrections (`bef8fe23e`). Will authorized [Phase 3's bounded orchestration-log view](plans/2026-09-21_boot-phase3-log-reads.md); that record owns its verification status. BOOT's exception factors identical UNKNOWN reasons without dropping identities or other findings; all other logs remain full reads. Incremental boot remains deferred. No production boot has been rerun; private Artifact pickup and native fleet preflight remain unavailable in this Codex session.
 
 **Resume sequence:** read [HANDOFF](HANDOFF.md) for decisions, material caveats and unresolved historical tails, then [STATUS](STATUS.md) for selected PROME work. Do not reopen old “owed” narrative without checking its owner record. Do not treat a delivery receipt as a registrar disposition or an independent acceptance.
 
