@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-**Phase 1 accepted within reviewed scope at `0d104a775`: B1/B2/B3 closed.** CATO reproduced the 63-test pass and independently reran the earlier malformed handwritten-date counterexample, mixed/header cases, empty/valid controls, and an invalid-plus-divergent overlap through the public CLI and gate summary. Invalid dates now remain unassessed and fail the advisory; generated freshness remains independent. Prior acceptance of the generated-date checks, HANDOFF contract/declared-budget reporting, and bounded capability disclosure stands. HANDOFF budget and older manifest-attestation residue remain separate. Will reports PROME is working on Phase 2; no Phase 2 implementation reviewed or accepted here. Await its concrete scope/artifact; no owner edits, sends or live gate rerun.
+**Phase 2 cleanup accepted with disclosed advisory residue at `dd9d0bfc7`; Phase 1 B1/B2/B3 remain closed within scope.** Independently reproduced 93,707 → 46,031 bytes (50.9% reduction), exact archive payloads, unchanged generated/guard sections and protected committed files. HANDOFF's budget breach is closed; the older manifest completeness attestation remains UNKNOWN. No blocking conservation defect found in the compared surfaces. Additional B4 advisory: the condensed HANDOFF repeats the historically incorrect WALTER “checklist installation unfinished” report; implementation is established, independent acceptance remains separate. B5 is the owner's disclosed imprecise STATUS archive pointer. Recommend short maintenance corrections and ordinary use, not another framework or broad cleanup cycle. No owner edits/sends or full boot rerun; await Will's next scope.
 
 ## Initial proposal disposition (historical)
 
@@ -100,3 +100,35 @@ Will supplied the correction receipt and reported that PROME is now working on P
 **Remaining:** HANDOFF budget breach and older manifest attestation are not repaired by this correction. Phase 1 improves coverage reporting; it does not establish shorter boots, complete manifest coverage, tool availability or completion of Phase 2. Next review should use Phase 2's exact preservation conditions and changed artifacts, retaining every live obligation, approval and material caveat if documents are shortened. This is a review criterion, not a new build or standing rule.
 
 **Custody / resume:** update only this report and its continuity entry; preserve PROME's foreign ARGUS baseline and concurrent work. Await the Phase 2 artifact or Will's next scoped request. Whitespace, weekday and orphan checks apply; no conditional threshold, ledger, STATUS or memory checks are triggered. Exact-path commit and fresh-fetch push receipt follow in-session.
+
+## September 21 Phase 2 review — dd9d0bfc7
+
+**Scope and result:** Will requested analysis of completed Phase 2, following his concern about bloat. Read the plan, current three startup surfaces, pre-change HANDOFF/SCRATCH narrative, changed STATUS queue/header, and named ledger dispositions. Compared protected regions mechanically. Accept the document-size and conservation work with the advisory residue below; this is not certification of every inherited domain claim or owner completion. No new mandatory companion, read-contract change, or code framework landed in this commit.
+
+### Independently verified preservation
+
+Archive payloads extracted strictly between PHASE2 markers match `git show 0d104a775:PROME/<surface>.md` byte-for-byte. `measure.py` recomputation:
+
+| Surface | Before bytes | After bytes | Archived CRC32 |
+|---|---:|---:|---:|
+| HANDOFF | 41,296 | 10,003 | 3032627484 |
+| SCRATCH | 25,943 | 18,455 | 2236125182 |
+| STATUS | 26,468 | 17,573 | 136530883 |
+
+Total 93,707 → 46,031 bytes; all three finish below the existing 22,785-byte stop. The prior STATUS_HISTORY is an exact prefix of the appended file. SCRATCH's DOCKET/WILLQ blocks and caution block are identical. STATUS from Owner lanes through Completion evidence is identical, preserving restrictions and unresolved KERNEL siblings. DOCKET, GATES, WILL_QUEUE, ACTIVE_DECISIONS, HEARTBEAT, BOOT, READS, both boot skill copies, and committed ARGUS baseline are unchanged between the source and result revisions. The foreign working-tree baseline remains dirty; this comparison does not authenticate PROME's historical transient handling of it.
+
+**Live-state recovery:** WQ-274's incomplete book and separate resolving inputs remain explicit; VLO mirror completion is supported by L424, with staged shares/account/time still unresolved. L395's terminal disposition correctly retains L400 residue. L438's pending confirms remain on both HANDOFF and STATUS despite the closed parent. L381 NOT RUN is still available outside the PENDING-only calendar. L423 F3/F4, presence warnings, publication limits, owner/registrar disagreements, historical UNKNOWNs, and unverified consumer reads survive. The OSPREY vintage/operator/clock caveats and L432 unread-primary limit remain visible. Archived dated prices and old cap-slot counts no longer masquerade as fresh orientation. These are conservation checks, not regrades of those underlying claims.
+
+**Read-only checks executed:** table check passed all three files; generated calendar FRESH at supplied 2026-09-21 date; Will-queue block agreed. Read-cap rc=0, seven declared cap-bearing reads, zero over-budget/over-cap, one rotation-tier surface (HEARTBEAT, outside this batch). `reads_check.py --agent PROME` returned rc=2/UNKNOWN because the 2026-08-31 attestation predates BOOT changes. This confirms the stated distinction between size compliance and complete read enumeration. No production boot/closeout gate or unrelated code suites were rerun.
+
+### B4 — Low: historical WALTER installation error remains in the shortened summary
+
+`PROME/HANDOFF.md` Owner work first bullet attributes “checklist installation unfinished” to the prior session. That is faithful to the old report but preserves a known incorrect status on the current startup path. `8d2c9b8ef` actually changes `AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md` FALSE/INDETERMINATE rows; the current rows retain the correction, and `b1d6ff592` contains the later U1/U2 change. CATO's earlier stopping receipt already distinguished those implementations from acceptance. This is inherited stale wording, not a new lost obligation or an instruction to duplicate implementation; the current “read the owner's artifact” guard reduces the risk.
+
+**Recommended replacement:** “WALTER consumed the packet at cb43e637f; S2 was implemented at 8d2c9b8ef and U1/U2 at b1d6ff592, with subsequent corrections. Independent acceptance is separate; check the current owner record before closing it.” Close B4 when HANDOFF explicitly supersedes the unfinished-installation claim, retaining the independent-acceptance limit. Do not reopen WALTER's full review or commission implementation again.
+
+### B5 — Low: disclosed STATUS archive-navigation advisory confirmed
+
+STATUS History reaches the existing archive, and the Phase 2 source snapshot is present, but the detailed rotation pointer still names September 18. Nothing is lost; recovery takes an extra search. Close at the next relevant maintenance edit by pointing directly to `archive/STATUS_HISTORY.md#phase-2-source-snapshot--2026-09-21`. This is the owner's existing advisory, not a second archival defect.
+
+**Disposition / resume:** accept the cleanup; retain B4/B5 as low-impact wording/navigation residue and the unrenewed attestation as a separate unresolved control. Prefer these small existing-file corrections and ordinary use over Phase 3/incremental machinery. No measured latency or token savings, fresh financial facts, complete operational boot, or whole-fleet clean-state claim. Owner helper-review narratives were read, not authenticated at native transcripts; the independent checks above are CATO's evidence. Save this report/continuity only, run scoped closeout checks, commit exact paths, and fresh-confirm the push. Await Will's next request; no owner repair, sends or automatic expansion.
