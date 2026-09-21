@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-002
 date: 2026-09-21
-timestamp: 2026-09-21T15:3xZ
-time_dispatched: 2026-09-21T15:3xZ
+timestamp: 2026-09-21T15:1xZ
+time_dispatched: 2026-09-21T15:1xZ
 source: WALTER
 origin: ["Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 1 of 9 (batch BM-20260921-01): @DeItaone (Walter Bloomberg) headline relay, 9:44 AM ET 9/21/26", "WALTER verification 2026-09-21: Bloomberg 2026-09-21 'Russia Set to Extend Diesel Export Ban Beyond End of September' (the article the relay carried)", "WALTER verification: Interfax 2026-07-27 Novak statement (the REVERSED prior position)"]
 domain: OIL_ENERGY
@@ -67,7 +67,7 @@ OSPREY logged the 19→20 Sep Moscow barrage this morning as **`RU-20260920-MOSC
 
 ---
 
-## 🔄 ADDITIVE ANNOTATION 2026-09-21T16:2xZ — the strike specifics, and a CAPACITY figure that is one retelling from becoming a loss figure
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:2xZ — the strike specifics, and a CAPACITY figure that is one retelling from becoming a loss figure
 
 *(Appended, not rewritten. Source: Will-Telegram 6-image batch 2026-09-21 ~15:14Z, batch `BM-20260921-02`, items 3 / 4a / 4b.)*
 
@@ -84,3 +84,23 @@ A second Will batch carried three more cards on the **same Moscow strike OSPREY 
 **④ The attribution leg STRENGTHENED, and this is the one that cuts toward OSPREY's grade.** @TheInsiderP: *"BREAKING: **Zelensky confirms** Ukraine launched a massive drone attack on Russia, targeting a major oil refinery among other sites in Moscow region."* ⇒ **a head of state confirming his own state's action is the strongest attribution available for this event**, and it is materially better than the OSINT relays. ⚠️ **He is primary for *what Ukraine did*, never for *what damage resulted*** — the standing ADD#22 split.
 
 📌 **DISPOSITION: recorded here, NOT re-dispatched.** OSPREY holds the event, named Kapotnya, and graded it **CAPACITY-NOT-BARRELS this morning**. ⚠️ **But note the tension this annotation puts on that grade and let OSPREY resolve it: the capacity figure above is the exact quantity the grade turns on, and the export-ban extension in the body of this signal is the mechanism that would convert it.** **OSPREY's call, not WALTER's.**
+
+---
+
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:3xZ — OSPREY'S OWN RECORD RESOLVES THE DRONE COUNTS AND WEAKENS THIS SIGNAL'S MECHANISM CLAIM
+
+*(Appended, not rewritten. WALTER read `AGENTS/OSPREY/STATUS.md` (updated 2026-09-21) at Will's direction after this signal was dispatched. **Everything below is OSPREY's own record.**)*
+
+✅ **THE DRONE-COUNT DISCREPANCY THIS SIGNAL FLAGGED AS UNRESOLVED IS RESOLVED AT THE OWNER, AND IT WAS NOT A CONTRADICTION.** The annotation above recorded three irreconcilable figures across two denominators. OSPREY holds all three with their authorities attached: **Russian MoD — 1,110 drones downed across 19 regions** (prior high 822, August); **~450 over Moscow**; **~1,600 intercepted region-wide (Sobyanin)**. ⇒ **two different authorities over two different perimeters, not three versions of one number.** 🔑 **The mixed-denominator flag was correct; the resolution required the owner's ledger, not more wires.** Also at OSPREY: **Kapotnya is Gazprom Neft, ~11 Mt/yr, ~40% of Moscow's fuel**; 2 killed, ~20 injured.
+
+🔴 **AND THE HALF THAT CUTS AGAINST THIS SIGNAL'S OWN FRAMING — carried because it is the part WALTER got thinnest.** OSPREY's BOTTOM LINE: ***"the plant was likely already offline pre-9/20, so incremental barrels are probably small."*** ⇒ **this signal argues the export ban is the mechanism converting capacity damage into withheld barrels. That argument SURVIVES but is WEAKER than the body states, because a plant already down contributes little incremental loss.** ⛔ **OSPREY owns the grade and now has the ban; WALTER does not re-grade.**
+
+⚠️ **OSPREY's unit-damage caveat is stronger than WALTER's and supersedes it:** *"ONLY THE STRIKE + FIRE IS CONFIRMED. Unit-level damage is NOT established"* — the AVT-6/isomerisation detail is a **belligerent** (Ukrainian General Staff) claim echoing the June-2026 strike's units. ⛔ ***"Any big 'AVT-6 destroyed' capacity figure quoted in the next 48h is unestablished."*** **+5d re-read owed ~2026-09-25 (OWED-43).**
+
+🔑 **CONTEXT THIS SIGNAL LACKED, AND IT POINTS THE OTHER WAY ON THE CRUDE LEG:** OSPREY records that **Russian output is falling — 8.72 M bpd, a 9th straight drop (OPEC) — while exports RECOVERED to 3.54 M bpd (4-wk to 9/13)**, and that the source behind the export figure says diversion is *"not enough to maintain production."* ⇒ **the products→crude bridge is ALREADY PARTIALLY ACTIVE nationally** (`KB-144`, OWED-49). **That is a materially different backdrop from the one this signal assumed.**
+
+⚖️ **A LIVE WILL-GATED DECISION SITS ON THIS CHANNEL and nothing in this signal should be read as bearing on it:** OSPREY's C1 upgrade-to-5 trigger — *"independent >40% offline aggregate"* — **is MET as written** (S&P/CERA ~50% capacity offline, 9/3). **OSPREY deliberately does not self-move and has escalated it with a downgrade test attached.** ⚠️ **Its own caution travels: end-August data does not imply today is worse, outages are non-monotonic (IIR Aug 3.8 < Jul 4.27), and September is UNMEASURED — so uncertainty does not favour upgrading.**
+
+📌 **PROCESS NOTE, recorded against WALTER rather than anyone else:** this signal told OSPREY something its own ledger already held in more detail, and the `kill_log` entry earlier the same day killed the Moscow lane cluster precisely because OSPREY had it first. ⇒ **the ALREADY-OURS check was run on the EVENT and passed, but not on the FIGURES inside it.** `[[finding_delivery_check_is_not_a_knowledge_check]]`
+
+⛔ **No grade changes, nothing fires, $0.**

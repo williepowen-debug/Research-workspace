@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-012
 date: 2026-09-21
-timestamp: 2026-09-21T17:4xZ
-time_dispatched: 2026-09-21T17:4xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:23Z, item 5 of 6 (batch BM-20260921-03): @HormuzLetter 9:29 AM 9/19/26", "WALTER verification 2026-09-21: Connexion France, reporting the French government's own published station-shortage figures recorded 09:00 2026-09-18"]
 domain: EUROPE_MACRO
@@ -72,3 +72,19 @@ The post closes: ***"Europe is facing its worst energy crisis in history."***
 ## CROSS-REFS
 
 `HANS-T-15` leg (b) — **UNINSTRUMENTED, second shape-match today** · `HANS-T-16` · `HANS-T-07` (TTF L1+L2 open) · `HANS-T-08` (storage gap ORANGE) · `SIG-W-20260921-002` (Russia diesel export ban — the supply-withdrawal half) · `SIG-W-20260921-003` (SPR at a 44-year low).
+
+---
+
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:3xZ — HANS's OWN CURVE READ CUTS AGAINST THE STRESS FRAMING IN THIS SIGNAL
+
+*(Appended, not rewritten. WALTER read `AGENTS/HANS/STATUS.md` (updated 2026-09-19) at Will's direction after this signal was dispatched. **Everything below is HANS's own finding on HANS's own instrument, quoted so the counterweight travels with the signal that needs it.**)*
+
+🔴 **THE GAS CURVE IS NOT PRICING A EUROPEAN WINTER CRISIS, AND HANS FOUND THIS AGAINST ITS OWN ALARM.** HANS records, under the heading *"Against my own alarm"*: **TTF is BACKWARDATED into winter — Dec €75.78 / Jan €75.61 against a front month of ~€79** — and notes that *"with the storage gap at −15.99pp the textbook shape is winter **contango**."* ⇒ **the one instrument that aggregates forward expectations is saying the opposite of the spot instruments.** HANS marks it **UNTESTED** (`KB-HANS-080`).
+
+⚠️ **WHY THIS MATTERS FOR THIS SIGNAL SPECIFICALLY:** the body above says *"European energy IS stressed — the storage gap is at `HANS-T-08` ORANGE, TTF fires L1 and L2, and diesel-specific supply is being withdrawn by Russia."* **That remains true on those instruments.** ⛔ **But it was written without the curve, and the curve is a direct counterweight. A reader taking only the spot instruments gets a one-sided picture, and that is now fixed on the record rather than in a separate file.**
+
+🔑 **AND IT STRENGTHENS THIS SIGNAL'S CENTRAL CAUTION rather than weakening it.** The body already refused to read French pump shortages as Gulf/Petroline transmission until the cause is established. **HANS's independent read of the Saudi cut-off points the same way: ~577 kb/d ≈ 4–5% of European runs, "replaceable at a price"; the bite is CONCENTRATION (Orlen at ~40–50% Saudi slate), so it is "a slate-and-differentials event, not a volume shortfall."** ⇒ **two independent routes now argue the French forecourt shortage is more likely distribution/industrial than a European crude-supply failure. Still not established — but the prior has moved.**
+
+⚠️ **STALENESS, STATED BOTH WAYS:** HANS's STATUS is dated **2026-09-19**, so those curve quotes are **Friday's**, and HANS has **not** seen the 9/21 Russian diesel-ban extension or this French item. ⇒ **the counterweight is 2 days old and the desk that owns it has new inputs it has not yet weighed. Neither side of this is settled; both are on the record.**
+
+⛔ **NO grade changes, no threshold moves, nothing fires, $0.** `HANS-T-15` leg (b) remains **UNINSTRUMENTED**, and the two 9/21 shape-matches recorded above stand.
