@@ -8,7 +8,7 @@
 
 ⚠️ **PROME's process note, Will-corrected twice this session and worth carrying:** I kept handing Will procedural choices instead of leading with a recommendation, and I once mis-scoped TERRY's self-audit evidence as an objection to WQ-273 when it only bounds its scope (`[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`). Both corrected in-session.
 
-⛔ **OWED, NAMED:** WQ-274 (Will's inputs) · DOCKET L449 verified-RESOLVED + L424 done — record at the next DOCKET pass (two-correction stop held DOCKET this session) · WQ-238 keys · WQ-273 safeguard demo · the 2 embed-pending-stale memory rows · the RH-satellite no-Mark FORGE tooling.
+⛔ **OWED, NAMED:** WQ-274 (Will's inputs) · **DOCKET L449 + L424 now RESOLVED in DOCKET** (recorded in the completion pass, not deferred) · WQ-238 keys · WQ-273 safeguard demo · the 2 embed-pending-stale memory rows · the RH-satellite no-Mark FORGE tooling · **the verify-review shared-repo confound + the WQ-249 helper-disposition mechanism** (both surfaced by CATO's 9/21 reviews; the closeout is PARTIAL — see below).
 
 **September 19 SECOND SESSION (`prome-92`, DESKTOP — boot 16:46 ET on Will's *"boot up and give me a diagnosis of PROME specifically"*; Standard closeout 18:2x ET on his word 18:25, markets CLOSED):** entry point → [SCRATCH ★ NEXT](SCRATCH.md). **$0 moved by PROME · no gate graded BY PROME · no threshold set, moved, re-specced or fired · no trade proposed.**
 

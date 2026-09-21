@@ -13,7 +13,6 @@
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
 - **HENRY** · next boot, no word needed (WQ-184 row L411) · the post-opex gamma board on the 9/18 close, read from history.
 - **VIOLET** · next boot, no word needed (L277) · the FOMC letter's leg-3 verdict on the 9/18 close; RED's pre-close half is already in its inbox.
-- **ANVIL** · next boot, no word needed (L424, a PROME instrument) · FORGE mirror of your VLO fill plus the TLT 85P row.
 - **DAEDALUS** · on your word · L40 (amendment-12 watch grade) · L263 (WQ-171 commission) · L380 (read-cap defects) — not spawned today: 2 of the day's 4 spawn slots were used and the early closeout, not the cap, is the reason; your word, else the 9/19 sitting.
 - **OSPREY** · on your word · L397: its gate review, overdue since 9/16.
 - **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask; no dated row names it.
