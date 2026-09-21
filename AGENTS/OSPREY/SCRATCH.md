@@ -36,7 +36,7 @@ All OWED IDs preserved in STATUS register (13·14·17·18·19·24·30·33·34·3
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 **OSP-06 OPEN 45%, deadline 10/15** — unaffected today. **No prediction due.** No trade proposal.
-⚖️ **LIVE WITH WILL — NEW, decision-relevant: C1 (refineries) upgrade 4→5.** The written trigger's offline-aggregate limb IS MET (S&P ~50% capacity offline). Upgrades are Will-gated. NOT self-moved. Caveats: estimates end-Aug (cut toward more impairment now); September unmeasured. This REVERSES my prior "hold at 4" (which rested on a rule I'd narrowed).
+⚖️ **LIVE WITH WILL — C1 (refineries) upgrade 4→5.** Written trigger's offline-aggregate limb IS MET (S&P ~50% capacity offline); CATO (349eb1d1d) concurs it's supportable. Will-gated, NOT self-moved. ⚠️ Two CATO conditions attached: (1) end-Aug data does NOT imply today is worse (non-monotonic; Sept unmeasured — uncertainty ≠ reason to upgrade); (2) **the upgrade must ship WITH a capacity-based 5→4 downgrade test** — PROPOSED (not enacted): independent capacity-offline <40% on 2 prints + 14d no new refinery row (RECONCILIATION_2026-09-20.md). Decision package for Will = upgrade + adopt that test + keep band/September-uncertainty separate from the score.
 ⚖️ **Live with Will (carried from L396):** Channel-2 drawing B vs D — worth ONE DAY of a 30-day clock, recommend B. **Live with HAWK:** the C3 limb-2 grade.
 
 ## MAIL STATE

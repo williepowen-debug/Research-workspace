@@ -43,7 +43,14 @@
   - Limb 1 (runs <3 M bpd): **NOT met** — runs ~3.85 M bpd.
   - Limb 2 (**independent >40% offline aggregate**): ⛔ **MET on the wording.** S&P/CERA (9/3, independent) puts ~half of refining CAPACITY offline; IIR (9/8) 3.8 M bpd ≈ ~55% of ~7 M bpd nameplate; FT (late Jul) 45% nominal. All are independent, all are "offline aggregates," all >40%. **"Offline" reads naturally as capacity offline — that is what these measure.**
   - ⚠️ **CORRECTION (CATO 757aed30e):** my earlier "not cleanly fired" **narrowed the rule** by inserting a *"runs-based"* qualifier that is NOT in the written trigger. Removed. **The offline-aggregate limb is satisfied as written.**
-  - **Eligibility caveats (honest, not disqualifying):** the estimates are **end-August**, not post-9/15/current (this cuts toward *more* impairment now, not less); and a single "nearly half" figure is an analyst estimate (though multiple independents agree >40%).
+  - **Eligibility caveats (honest):** the estimates are **end-August**, not post-9/15/current. ⚠️ **CORRECTED (CATO 349eb1d1d): older evidence does NOT imply today is worse** — repairs, restarts and new damage determine the current state, and IIR shows Aug outages (3.8) already *below* July (4.27), i.e. non-monotonic. September is unmeasured; **uncertainty does not automatically favour upgrading.** A single "nearly half" figure is an analyst estimate (though multiple independents agree >40%).
+
+## Proposed 5→4 downgrade test for a capacity-based C1=5 (CATO-required; PROPOSED to Will, NOT enacted)
+
+If C1 is upgraded to 5 on the S&P capacity-offline instrument, the reversal must be keyed to **that same instrument** (per §1b's general form), not the runs-based 4→3 limb. Proposed, symmetric with the upgrade:
+- **5→4:** an independent capacity-offline aggregate (S&P/CERA or equivalent) prints **< 40% on two consecutive publications** AND **no new `refinery`-class `STRIKES.tsv` row for 14 days.**
+- The existing runs-based limb (EA/Kpler monthly runs ≥ 4.5 M bpd for two months ⇒ 4→3) is unchanged and governs the 4→3 step.
+- Rationale: §1b already says a channel steps down when "the evidence that fired its Upgrade Trigger reverses on the SAME instrument for two consecutive prints"; this only fills in the concrete capacity threshold (40%, mirroring the upgrade limb). ⚠️ One better September *runs* print does NOT reverse a capacity-based 5 — the reversal instrument must match the upgrade instrument. **Will-approval required (extends the 9/8 §1b rail); not self-enacted.**
 - ⇒ **This is a LIVE, WILL-GATED C1 upgrade-to-5 decision with the written trigger MET** — not a "hold at 4 because the trigger isn't met." I do **not** self-move (upgrades are Will's word, 8/20 precedent). My prior "hold at 4, trigger not met" framing is **withdrawn** as resting on a narrowed rule.
 - **No band move; no self-upgrade; OSP-03 (completed prediction, window closed 8/2) NOT regraded** (CATO F2 honoured).
 - **BRENT** owns whether any of this reprices crude; this file feeds the inputs, not a price call.
