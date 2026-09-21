@@ -4,6 +4,7 @@
 **Author:** PROME / Codex · **Date:** 2026-09-21
 **Requested by Will:** “Write out a plan/recommendations to consider.”
 **Evidence basis:** one Codex boot, recorded in [the boot receipt](../reports/2026-09-21_codex-boot-1608.md), committed as `bbb8b8538`, plus inspection of the instruments below. This is not a fleet-wide performance study or an independent review.
+**Revision:** incorporates CATO's [independent proposal review](../../AGENTS/CATO/runs/2026-09-21_1619_prome-boot-proposal-review.md), commit `94fa87e5e`. CATO checked specific coverage contracts and executed an isolated calendar counterexample; it did not approve implementation or certify the full boot. This revised proposal has not yet received a result review.
 
 ## Recommendation
 
@@ -11,7 +12,17 @@ Improve the accuracy of the startup report first, then reduce the reading needed
 
 The main cost observed was reconstructing current state from overlapping summaries and historical records. The latest HANDOFF and SCRATCH entry supplied useful continuity; older work queues and long check logs then required considerable reconciliation. **Inference:** a smaller, reliably current read path would improve both speed and comprehension. This boot alone does not establish how much time or context it would save.
 
-Start with two bounded repairs: accurately label calendar coverage, and make the budget report use the declared read perimeter. Evaluate broader document changes after those are verified.
+The first batch is coverage reporting only: separate calendar checks, resolve the HANDOFF read contract, then make budget reporting consume the declared-perimeter result. Earlier disclosure of missing tools is a small presentation change within existing controls. Document restructuring, shorter log reads and incremental boot are deferred until this batch is independently verified and separately scoped.
+
+## CATO review disposition
+
+| Item | Disposition in this revision |
+|---|---|
+| B1 — calendar coverage | Accepted. Preserve the prose check and add a separate generated-block comparison. Test a deadline change, a clock advance with unchanged files, invalid markers, unevaluable input and concurrent source changes in the first batch. |
+| B2 — HANDOFF contract | Accepted. Move the scope decision ahead of budget implementation. Recommend whole-file reading for the first batch; exact proposed text and its cost are below. The live disagreement remains unresolved until the amendment is adopted. |
+| B3 — capability scope | Accepted. Move existing disclosures earlier using actual session evidence. No general capability framework, new registry or launch adapter is proposed for this batch. |
+
+CATO's counterexample changed an isolated docket deadline while leaving its generated calendar unchanged; the prose check continued returning rc=0 with zero matches. This establishes a coverage boundary, not an observed missed live deadline. CATO also found different renders on consecutive evaluation dates with unchanged source. These are reviewer-executed results, not tests rerun by PROME in this revision.
 
 ## Observations and their limits
 
@@ -41,25 +52,46 @@ Use the existing check contracts and receipt files. Distinguish:
 - Required steps that were skipped or could not certify their scope.
 - Capabilities unavailable to the runtime and the actions that depend on them.
 
-For the calendar, establish two distinct contracts. A generated-view check compares the marked block with the current renderer output under the same declared date and options. The existing prose check assesses handwritten date claims. Zero handwritten claims can be legitimate; it must not certify the generated block. Eligible prose that could not be evaluated must remain distinguishable from an intentionally empty prose scope.
+For the calendar, establish two distinct contracts. A generated-view check compares the marked block with the current renderer output under the caller's declared evaluation date and rendering options. Normal boot uses today's ET date; historical replay must explicitly declare its historical date. Never infer the evaluation date solely from the old block's stamp: that proves reproducibility while potentially hiding today's obligations. The existing prose check assesses handwritten date claims. Zero handwritten claims can be legitimate; it must not certify the generated block. Eligible prose that could not be evaluated must remain distinguishable from an intentionally empty prose scope. Use a stable source snapshot or detect changes during comparison, including changes to the destination block and relevant rendering configuration.
 
-For budgets, reuse `read_cap_check.py` and `READS.tsv` rather than adding another maintained file list. Settle HANDOFF's read contract first. Preserve separate memory limits and existing advisory/blocking classifications unless explicitly changed.
+**HANDOFF prerequisite — proposed decision, not an enacted rule:** use whole-file reading for the first batch, retaining the manifest's existing `whole` declaration. `HANDOFF.md` currently has no designated live-section heading; this revision has not proved an addressable subset carries every live obligation. Whole-file reading is the conservative interim scope, with a real context cost and an over-budget warning that remains visible. It is not the desired long-term compression mechanism. Do not relabel the manifest to remove the warning.
 
-**Acceptance:** stale generated text is detected even when there are no handwritten claims; an intentionally empty scope is accurately labeled; unreadable or malformed inputs cannot pass; a declared over-budget read appears in the boot summary; the summary and detailed log agree about coverage. Survey all consumers before changing a shared exit-code contract, per CHECK_STANDARD §9.
+Proposed replacement for BOOT step 1, to be reviewed in this proposal before any transplant:
+
+> Read `PROME/HANDOFF.md` in full using the bounded reader. The declared read mode is `whole`; the retention target does not limit read scope. Preserve any read-budget finding until the file is brought within its existing budget or a separately reviewed scoped read is adopted.
+
+If scoped reading is chosen instead, first identify an addressable region, demonstrate that every live obligation and material caveat has a carrier within it, and apply READ_CAP rules 8 and 16. Budget integration waits for that decision; calendar work can proceed independently. This batch does not rotate HANDOFF or weaken its budget.
+
+For budgets, consume the existing structured `READ-CAP-RESULT` from `read_cap_check.py` and `READS.tsv` rather than adding another maintained list. Preserve rc=0/1/2 and `assessed`; distinguish size findings, manifest defects and inability to evaluate. Preserve separate auto-memory limits and existing advisory/blocking classifications.
+
+**First-batch acceptance cases:**
+
+| Case | Required result |
+|---|---|
+| Unchanged source, evaluation date, rendering options and generated block | Generated comparison passes; prose scope is separately reported. |
+| Docket deadline changes; generated block stays stale | Generated comparison detects drift even if the prose check has zero matches. |
+| Evaluation date advances; source files do not change | Compare against the new date's output. A stale prior-day block cannot pass on its own old as-of stamp. |
+| Missing/duplicate/malformed markers, unreadable or malformed source | Cannot certify the generated view; never clean. |
+| Source, destination or rendering configuration changes during comparison | Use one stable snapshot or refuse the inconsistent result; never certify mixed revisions. |
+| Intentionally empty prose scope versus eligible but unevaluable prose | Label the coverage distinction; neither certifies the generated view. |
+| HANDOFF/manual/manifest scope | Approved text and declaration agree before budget integration; an alternative scoped region must satisfy its conservation conditions. |
+| Read-cap ordinary result, over-budget result, manifest defect, unassessed or missing structured result | Preserve each outcome and assessment status through the gate summary; a missing result is not zero findings. Auto-memory remains separately assessed. |
+
+Survey all consumers before changing a shared exit-code contract, per CHECK_STANDARD §9. Use the existing neighbour-case discipline; in particular, a scope omission and a concurrent edit are different failure cases. Do not claim implementation complete from these written acceptance cases.
 
 ### 2. Put runtime requirements at the beginning of boot
 
-**Priority: next. Owner: PROME.**
+**Priority: small disclosure adjustment alongside coverage reporting. Owner: PROME.**
 
-Extend the existing runner/presence evidence to record whether context injection, private Decision Deck access, native fleet preflight, and necessary data tools are available. Presence of credentials still does not prove authentication.
+Move the relevant existing capability disclosures to the opening boot report and existing receipt. Use the actual session's callable-tool evidence for private Artifact access and native fleet preflight, and the existing presence/credential controls for what they genuinely assess. A shell probe cannot establish that a private connector is callable. Presence of credentials still does not prove authentication. Do not build a general capability framework, a new registry, or a runtime launch adapter in this batch.
 
 Select only the procedures supported by demonstrated capabilities. A missing Artifact tool leaves taps UNKNOWN. Missing native fleet visibility withholds desk launches. Neither blocks unrelated reading or maintenance. Report these limits before a session spends time preparing dependent work.
 
-**Acceptance:** a runtime without the required tools reports PARTIAL and names the omitted steps; unavailable tools never become “no pending rulings” or “no live desks”; a failed authentication at point of use is not hidden by an earlier presence check. No new launch authority is introduced.
+**Acceptance:** a runtime without the required tools reports PARTIAL and names the omitted steps; unavailable tools never become “no pending rulings” or “no live desks”; a failed authentication at point of use is not hidden by an earlier presence check. Recheck at point of use. Native fleet visibility remains distinct from thread-local collaboration tools. No new launch authority is introduced.
 
 ### 3. Give the existing startup documents distinct jobs
 
-**Priority: after coverage repairs. Owner: PROME.**
+**Priority: DEFERRED until the coverage batch is independently verified and this work separately scoped. Owner: PROME.**
 
 Proposed division, to be reconciled with the existing ownership map:
 
@@ -78,7 +110,7 @@ Remove superseded “owed” summaries from the default path once their current 
 
 ### 4. Shorten the default check output without losing exceptions
 
-**Priority: pilot after the document contracts are clear. Owner: PROME.**
+**Priority: DEFERRED until the coverage batch is independently verified and a separate read-contract amendment is reviewed. Owner: PROME.**
 
 Have existing checks produce a concise default report and retain complete logs. Show every current blocking item, unresolved actionable advisory, missing capability, and changed exception. Group unchanged historical evidence gaps separately, with identifiers and drill-down links.
 
@@ -90,7 +122,7 @@ This requires an explicit amendment to BOOT's present instruction to read every 
 
 ### 5. Make repeat boots incremental only after proving completeness
 
-**Priority: later; optional. Owner: PROME.**
+**Priority: DEFERRED; optional, separately scoped work after the coverage batch is independently verified. Owner: PROME.**
 
 Consider extending the existing boot receipt with source digests and declared read scope. On a repeated boot, inspect changed sources and always reevaluate time-sensitive obligations. An unchanged file can still cross a deadline or become stale.
 
@@ -102,11 +134,10 @@ This is the highest-complexity recommendation. Defer it if simpler changes remov
 
 ## Implementation sequence and review
 
-1. **Bound the first batch:** calendar coverage/reporting and declared-perimeter budget reporting only. Write acceptance conditions before edits. Preserve the relevant boot evidence and create fixtures in throwaway repositories.
-2. **Verify that batch:** follow WQ-229's existing repair discipline. Consider ordinary, overlap, wrong-owner, missing-information and concurrent-activity cases; justify any N/A. An independent reader devises a counterexample before the repairs are called fixed.
-3. **Reconcile the documentation:** propose exact manual/manifest amendments in the ruling record, obtain the applicable approval, then perform the existing plan/result reviews. Keep both skill copies aligned with the manual. Avoid a fleet-wide rewrite.
-4. **Pilot the shorter path:** replay this boot's recorded states, then compare subsequent normal boots. Record time to a truthful boot report, context consumed where measurable, repeated reads, missed obligations and later corrections. Do not invent a token-savings percentage without measurement.
-5. **Decide whether incremental boot is warranted:** adopt only if the simpler path still imposes material repeated work. Preserve a full-read fallback.
+1. **Resolve the prerequisite:** review and adopt the exact HANDOFF amendment and its declaration together before budget implementation, using the applicable authorization and plan/result review procedure. Whole-file is this proposal's recommendation, not a recorded Will ruling. Keep the existing mismatch visible until adopted. The independent calendar leg does not depend on this choice.
+2. **Build only the coverage batch:** implement the separate generated/prose calendar results and consume the existing structured read-cap result after prerequisite adoption. Include clock-advance freshness in this batch. Earlier tool disclosure uses existing controls only. Preserve relevant boot evidence and create fixtures in throwaway repositories. Reconcile touched instructions in the same batch: exact amendments stay in the proposal/ruling record for plan review, then receive result review after transplant; both skill copies remain aligned with the manual.
+3. **Verify that batch:** follow WQ-229's existing repair discipline. Consider ordinary, overlap, wrong-owner, missing-information and concurrent-activity cases; justify any N/A. An independent reader devises a counterexample before the repairs are called fixed. Report IMPLEMENTED, TESTED, INDEPENDENTLY VERIFIED and STILL UNRESOLVED separately.
+4. **Stop at the verified coverage result:** document restructuring, shorter-log execution and incremental boots are not automatic successors. Consider them separately against the remaining measured burden. A later pilot would record report latency, context where measurable, missed obligations and later corrections; no savings percentage is claimed now.
 
 **Success criterion:** the shorter path surfaces the same obligations, caveats and missing capabilities with less repeated reading. A missed obligation or falsely complete report is a failed pilot, even if it runs faster.
 
@@ -118,4 +149,4 @@ Use the existing boot-hardening design (`PROME/plans/2026-09-09_boot-hardening.m
 
 Agent-side improvements need no new rule: locate the known repo before broad filesystem searches, use bounded reads from the beginning, limit discovery output, and distinguish source facts from interpretation. This boot's initial broad search and truncated reads were execution mistakes, not evidence that another layer of process is needed.
 
-**For consideration:** implement recommendations 1 and 2 first; prepare the bounded document cleanup in 3; pilot 4 only with a reviewed read-contract amendment; defer 5. This proposal creates no new deadline, WQ ruling request, or automatic workstream. No implementation or operating-rule amendment is claimed complete.
+**For consideration:** proceed with the coverage batch only, with HANDOFF scope resolved before its budget leg and a small early-disclosure change using existing controls. Defer recommendations 3–5 until independent verification and separate scoping. This proposal creates no new deadline, WQ ruling request, or automatic workstream. No implementation or operating-rule amendment is claimed complete. CATO's review was incorporated; the revised proposal remains available for its next review, and no message has been sent on Will's behalf.
