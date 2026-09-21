@@ -174,6 +174,63 @@ class Fixtures(unittest.TestCase):
                 self.assertFalse(ok)
                 self.assertIn("unassessed=1", summary)
 
+    def test_invalid_handwritten_dates_remain_visible_at_cli_and_gate(self):
+        valid = "9/22 Alpha earnings (L2)"
+        invalid = "9/31 Alpha earnings (L2)"
+        cases = [
+            (invalid, 1, 0, 1),
+            (valid + " · " + invalid, 2, 1, 1),
+            (invalid + "\n" + valid, 2, 1, 1),
+            ("9/22 and 9/31 Alpha earnings (L2)", 1, 0, 1),
+            ("**9/31:** Alpha earnings (L2)", 1, 0, 1),
+            ("**9/31:** Alpha earnings (L2) · Alpha earnings (L2)", 2, 0, 2),
+            ("**9/22:** 9/31 Alpha earnings (L2)", 1, 0, 1),
+            ("**9/31 and 9/22:** Alpha earnings (L2)", 1, 0, 1),
+            ("**WED 9/31:** Alpha earnings (L2)", 1, 0, 1),
+            ("No handwritten dates.", 0, 0, 0),
+            (valid, 1, 1, 0),
+        ]
+        self.assertEqual(self.run_cli("--write", str(self.view), "--as-of", str(DAY)).returncode, 0)
+        generated = self.view.read_text()
+        for text, dated, assessed, unassessed in cases:
+            with self.subTest(text=text):
+                self.view.write_text("## Catalyst calendar\n" + generated + "\n" + text + "\n")
+                p = self.run_cli("--check", str(self.view), "--as-of", str(DAY),
+                                 "--section", "catalyst calendar", "--ignore", r"\breviews?\b")
+                self.assertEqual(p.returncode, 0, p.stdout + p.stderr)
+                f = gate.coverage_result(p.stdout, "DOCKET-PROSE-RESULT", p.returncode,
+                                         ("dated", "assessed", "unassessed"))
+                self.assertEqual((f["dated"], f["assessed"], f["unassessed"]),
+                                 (dated, assessed, unassessed))
+                ok, summary = gate.summarize_prose(p.stdout, p.returncode)
+                self.assertEqual(ok, unassessed == 0)
+                self.assertEqual("EMPTY" in summary, dated == 0)
+                self.assertEqual("MALFORMED" in p.stdout, unassessed > 0)
+                self.assertEqual(self.run_cli("--check-generated", str(self.view),
+                                             "--as-of", str(DAY)).returncode, 0)
+
+    def test_invalid_date_exclusions_are_explicit(self):
+        self.view.write_text("## Catalyst calendar\n" + docket.BEGIN +
+                             "\n9/31 generated excluded\n" + docket.END +
+                             "\n9/31 review Alpha earnings (L2)\n"
+                             "## Other section\n9/31 Alpha earnings (L2)\n")
+        p = self.run_cli("--check", str(self.view), "--as-of", str(DAY),
+                         "--section", "catalyst calendar", "--ignore", r"\breviews?\b")
+        self.assertEqual(p.returncode, 0, p.stderr)
+        ok, summary = gate.summarize_prose(p.stdout, p.returncode)
+        self.assertTrue(ok)
+        self.assertIn("EMPTY", summary)
+        self.assertIn("ignored=1", summary)
+
+    def test_invalid_iso_prose_still_cannot_certify(self):
+        for prefix in ("", "**9/22:** "):
+            with self.subTest(prefix=prefix):
+                self.view.write_text(prefix + "2026-09-31 Alpha earnings (L2)\n")
+                p = self.run_cli("--check", str(self.view), "--as-of", str(DAY))
+                self.assertEqual(p.returncode, 2, p.stdout + p.stderr)
+                with self.assertRaises(ValueError):
+                    gate.summarize_prose(p.stdout, p.returncode)
+
     def test_readcap_producer_size_manifest_and_rotation(self):
         p = self.root / "PROME/ACTIVE_DECISIONS.md"
         p.parent.mkdir()

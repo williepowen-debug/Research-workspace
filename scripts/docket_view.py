@@ -392,6 +392,7 @@ def section_lines(text, section):
 
 def segments(text, as_of, only=None):
     """Yield (lineno, segment_text, [dates], context_date, weekday_claims).
+    A None date preserves a recognized but invalid M/D token as unassessed.
     A bold header `**THU 9/3:**` / `**8/22 · 8/24-8/29**` sets the context for the
     segments that follow it on the same line (SCRATCH shape); table cells and ` · ` /
     ` — ` splits are the segment boundaries (HEARTBEAT + SCRATCH shapes)."""
@@ -421,15 +422,22 @@ def segments(text, as_of, only=None):
                     header = re.match(r"^\*\*([^*]{1,40})\*\*", seg)
                     if header and (RE_MD.search(header.group(1)) or RE_ISO.search(header.group(1))):
                         h = header.group(1)
-                        dates = [d for d in (md_date(int(a), int(b), as_of) for a, b in RE_MD.findall(h)) if d]
+                        dates = [md_date(int(a), int(b), as_of) for a, b in RE_MD.findall(h)]
                         dates += [dt.date(int(y), int(mo), int(d)) for y, mo, d in RE_ISO.findall(h)]
-                        wk = [(w.lower(), dates[0]) for w in re.findall(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun|MON|TUE|WED|THU|FRI|SAT|SUN)[a-z]*\b", h)] if dates else []
+                        valid = [d for d in dates if d is not None]
+                        wk = [(w.lower(), valid[0]) for w in re.findall(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun|MON|TUE|WED|THU|FRI|SAT|SUN)[a-z]*\b", h)] if valid else []
                         ctx = dates
                         rest = seg[header.end():].strip(" :*")
-                        yield n, rest, dates, ctx, wk
+                        # Header dates still own matching, but invalid dates in the
+                        # rest of this segment must not disappear behind that header.
+                        invalid_rest = [None for a, b in RE_MD.findall(rest)
+                                        if md_date(int(a), int(b), as_of) is None]
+                        for y, mo, d in RE_ISO.findall(rest):
+                            dt.date(int(y), int(mo), int(d))  # Preserve ISO's rc=2 validation.
+                        yield n, rest, dates + invalid_rest, ctx, wk
                         continue
                     body = RE_LREF.sub(" ", seg)
-                    dates = [d for d in (md_date(int(a), int(b), as_of) for a, b in RE_MD.findall(body)) if d]
+                    dates = [md_date(int(a), int(b), as_of) for a, b in RE_MD.findall(body)]
                     dates += [dt.date(int(y), int(mo), int(d)) for y, mo, d in RE_ISO.findall(body)]
                     yield n, seg, dates, ctx, []
 
@@ -462,6 +470,10 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
         if not claim_dates:
             continue
         eligible += 1
+        if any(d is None for d in claim_dates):
+            print(f"DOCKET-CHECK {prose_path}:{n} [MALFORMED date]: recognized invalid M/D "
+                  f"date in segment or header context; UNASSESSED: {short(seg, 100)}")
+            continue
         # 1. explicit citation "(L242)" — the DOCKET citation convention — is the strongest anchor
         cited = [by_line[int(x)] for x in RE_LREF.findall(seg) if int(x) in by_line]
         if cited:
