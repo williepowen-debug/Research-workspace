@@ -34,6 +34,14 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 ## CHANGES SINCE LAST RUN
 
+### Run 22 (September 21, 2026 ET — post-Sep-18-cluster full-sweep; watermark Run 20 for trade docs, Run 21 for own state)
+
+**Step zero — the Run-21 hints' own test, run first.** `git log -S "the fuel is gone (25.3% of peak)" -- AGENTS/SAM/STRATEGY.md` now returns **TWO** commits (`342d42b4b` introduce, **`a7fc09dbd` 2026-09-11 remove**), not one. **F1 IS APPLIED.** The whole Run-20 flag set F1-F6 + E1 + E3 was applied same-day at `a7fc09dbd`; only E2 was explicitly carried. **The `## PENDING from Run 20` block is unmarked, not undone** — and an unmarked block is being read by SAM's own MEMORY.md as an open backlog.
+
+**What moved 9/11 → 9/21 (10 days, the densest window since 8/7):** BOJ **hiked 25bp to 1.25% at the Sep 17-18 MPM, 7-2, effective Sep-24** — highest since 1995, 50bp through the 0.75% Takaichi mortgage ceiling; both dissents were for HOLD, so the registered hawkish surprise did NOT fire. FOMC Sep-16 hiked 25bp to 3.75-4.00% with SEP medians UP — SAM-28's Fed route ANTI-FIRED. **T1 rate check near ¥158 on 2026-09-18**, ~3-4 yen BELOW the playbook's registered ~161-162 T1 zone; no intervention confirmed, 160 gate stays VOID. Japan SHUT Mon Sep-21 → Wed Sep-23 (Silver Week). **SAM-28 regraded FALSE → `QUALIFIED / NO-VERDICT` and SAM-31 FALSE-with-qualification** on the 2026-09-19 CATO R4 ruling; **SAM-33 is the only OPEN row**. BOJ meeting OIS **RESTORED 2026-09-20** after 5 dark days (Oct-30 22% / Dec 63% / cumulative 1.94 to Apr-2027, quote 2026-09-18T15:15+09:00), on a hard 4-day source-age guard expiring Tue Sep-22 15:15 JST. THESIS **v1.7 UNCHANGED**; the § KEY THRESHOLDS USD/JPY 160 row took a RIDER and was deliberately NOT moved to 158. Book FLAT, no gate re-arms. CHANGELOG is fully current through 2026-09-21 — **0 CHANGELOG-GAP.**
+
+**Trade-doc writes in the window:** `a7fc09dbd` 9/11 (Run-20 apply, both) · `a837a3b05` 9/18 (**TRADE only**, 4 edits) · `16eb01475` + `36f24db95` 9/19 (both, Sep-18 grading then the CATO R4 regrade). SAM cascaded the regrade correctly into both docs.
+
 ### Run 21 (September 11, 2026 ET — **SELF-AUDIT**, scope = METSUKE.md + METSUKE_MEMORY.md + METSUKE_MEMORY_ARCHIVE.md only; watermark Run 20, same day)
 
 ⛔ **NOT a trade-doc run. TRADE.md and STRATEGY.md were NOT swept** — Will directed each SAM sub-agent to turn its staleness discipline on its own files. No TRADE/STRATEGY flag in this run, and the absence is by scope, not by a clean result.
@@ -247,6 +255,29 @@ State-of-truth movement since STRATEGY.md `Last Updated: 2026-05-28`:
 
 ## LAST RUN
 
+### Run 22 — 2026-09-21 ET (post-Sep-18-cluster full-sweep, `compressed-history` mode; PROPOSE ONLY)
+
+**Outcome: 2 ⚙ verification answers (both NEGATIVE — nothing to fix) + 1 🟠 + 3 🟡 + 3 escalations.** 0 MONEY-FIELD-ESCALATION (**22nd consecutive run**). 0 STALE-FRAMING, 0 DUP-LIVE-SPOT, 0 CAL-DRIFT, 0 CHANGELOG-GAP, 0 TRIGGER-STATUS-DRIFT. Evidence: HEAD `b6daec515`; trade docs last written `36f24db95` 2026-09-19; working tree under `AGENTS/SAM/` clean but for SAM's live `workbook/KB.tsv`.
+
+**The two directed verifications, both answered NO-DEFECT — and the negative IS the deliverable:**
+1. **F1 is RESOLVED.** Proven at the commit graph, not at a disposition note: `git log -S` on the exact string returns introduce + **remove at `a7fc09dbd` (2026-09-11)**. Current `25.3%` hits are exactly the two classes SAM identified — labelled correction riders at `TRADE.md:9` / `STRATEGY.md:9`, and one dated as-published row at `TRADE.md:230` carrying its own *(later corrected to 24.2% of R = −188,077)* parenthetical, the `thesis/THESIS.md:5` treatment SAM chose. **Zero unlabelled live instances.** SAM's MEMORY.md claim is stale and should be corrected.
+2. **Zero now-false BOJ-pricing dark/unavailable claims in either trade doc.** Both live BOJ rows (`TRADE.md:299` / `STRATEGY.md:231`) carry a *pointer* — "Current BOJ pricing → STATUS and `workbook/BOJ_OIS_README.md`" — and **no figure and no availability claim**. That immunity is structural and was bought by the Run-18/19 fixes that stripped pricing figures out of cite-instructions. The three `unavailable`/`blackout` hits are the withdrawn modal band and a June BOJ media blackout — neither is a source-outage claim. **The now-false DARK claim exists, but it is in `STATUS.md:3`, not here (E1).**
+
+**Flags (line refs are pre-apply):**
+1. **🟠 STALE-MARK — header vintage, BOTH docs, and it is the re-fire of a class Run 20 correctly certified clean.** `TRADE.md:45` and `STRATEGY.md:45` both read *"**Last Updated:** 2026-09-08 — METSUKE Run 19 applied."* TRADE has been written **4 times** since (9/11, 9/18, 9/19 ×2) and STRATEGY **3 times**. 🔑 **The structural point, not the date:** this line hard-codes a DATE *and a CAUSE* ("METSUKE Run N applied"), so it only ever gets rolled by a METSUKE-apply session — every other edit leaves it silently false. **Identical defect to `METSUKE.md:7`, which SAM fixed on 9/11 by making it a pointer.** Recommend the same fix rather than a fifth manual roll.
+2. **🟡 — `TRADE.md:185` sends the reader to "Key Dates" for *forward-only catalysts*; `TRADE.md:291` now titles that section "FROZEN HISTORICAL as of 2026-09-11; NOT a forward calendar."** A flat self-contradiction **created by the Run-20 apply itself**: the fix changed the heading and missed the in-doc pointer at it. Same class as Run-20 F3. **⚠ STRATEGY has NO sibling — do not mirror.** Only surviving "forward-only" claim outside the two heading-correction riders.
+3. **🟡 — the `Sep 17-18, 2026 BOJ MPM` row is unstamped in BOTH date tables while its own neighbour got stamped.** `TRADE.md:299` / `STRATEGY.md:231` read "Macro watch only" in undated voice; the MPM **hiked to 1.25%, 7-2**. Every other resolved row in both tables carries ✅+result, and SAM stamped the Sep-18 row directly beneath it on 9/19. ⚠ **Distinct from the declined Run-20 F5 August rows:** those pre-date the 2026-09-11 freeze and are a dated record; this row's event post-dates the freeze, so the freeze cannot make it history. **The cite-instruction in the cell is current and should stay.**
+4. **🟡 — `STRATEGY.md:288` waits on a condition that resolved on 9/18.** *"Under Branch A, sit at the TOP of the 5-10pp friction range **until Sato's first vote/communication clarifies**."* Sato has now voted, on the record — **dissenting for HOLD at the 7-2 hike** — which `TRADE.md:252` already records. A live calibration instruction (it governs post-June BOJ-path marks, and marks feed PREDICTIONS) still gated on a wait that is over. **This is the sibling `a837a3b05` did not reach: that commit touched TRADE.md only.** Same section also carries *"any new prediction on the **Oct/Dec** hike to 1.25%"* — the hike came in September.
+5. **🟡 — two dead cross-agent pointers, `TRADE.md:326-327`.** `LIQUID/TRADE.md` and `HENRY/TRADE.md` do not exist; HENRY's was deleted at `86e22c293` (April). ⚠ **Run 20 reported "26 references, 0 broken" on this same surface** — these are **bolded**, not backticked or linked, so its extractor's "bare token" leg did not reach them. *Instrument clean against an incomplete perimeter.* Both agent dirs exist; only the filenames are wrong.
+
+**Deliberately NOT flagged (checked, and the restraint is the finding):**
+- **The `MOF intervenes at 160` trigger title (`TRADE.md:91`) against the ~158 T1 check.** SAM deliberately did not move the THESIS 160 row and STATUS holds the gate VOID; re-grading it here re-litigates a call made two days ago. **Do not sync.**
+- **The four dead BOJ-pricing vintages and `STRATEGY.md:219` / `TRADE.md:185`'s "~60% unpriced" cluster** — dated rationale carrying explicit correction brackets. Run-20 disposition holds.
+- **`STRATEGY.md:229` "~ Mon Aug 31 MOF monthly = HARD CONFIRM" in future voice** — this is Run-20 F5, which SAM **declined by ruling** ("the false claim was the HEADING, not the rows"). Not re-flagged; recorded once so run 23 does not rediscover it.
+- **`TRADE.md:121` / `STRATEGY.md:160` Position-A re-activation conditions** — still the v1.5-era vehicle clause, still not the Channel-1 rule.
+
+**Self-state size (Run-21 standing monitor, three numbers):** **378,026 B now · +11,962 B since Run 21 · 0 B rolled** (archive unchanged at 130,168 B). Roller reports `nothing terminal to roll` for the second consecutive run. **Run-21 PENDING items 1, 3 and 5 verified UNAPPLIED at the artifacts** (roller eligibility unchanged; `METSUKE.md` still names SAM-21/23/24/26 as the OPEN set at :52/:68/:91/:116/:135/:158/:214 while PREDICTIONS reads FAILED/FAILED/RESOLVED/FAILED; the §📏 size table still reads 20K/370K).
+
 ### Run 21 — 2026-09-11 ET (**SELF-AUDIT**; scope = own three files; PROPOSE ONLY)
 
 **Outcome:** **1 🔴 structural (spawn-read cost) + 3 🟠 + 2 🟡.** 0 MONEY-FIELD-ESCALATION (21st consecutive run — vacuous this run, no money field was in scope).
@@ -418,6 +449,20 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## PENDING (escalations SAM hasn't yet resolved)
 
+### Pending from Run 22 — 2026-09-21 (SAM review required; proposals, not applied)
+
+- **F1 🟠:** header-vintage line, `TRADE.md:45` + `STRATEGY.md:45`. **Prefer the structural fix over a roll:** make it carry the date only, or a pointer, not a hand-copied "METSUKE Run N applied" cause. As long as the CAUSE is in the line, only a METSUKE-apply session can keep it true.
+- **F2 🟡:** `TRADE.md:185` — "Forward-only catalysts in … 'Key Dates' section above" contradicts that section's own 9/11 heading. **TRADE-only; `STRATEGY` has no sibling.**
+- **F3 🟡:** `TRADE.md:299` / `STRATEGY.md:231` — stamp the Sep 17-18 BOJ MPM row ✅ RESOLVED (hiked 1.25%, 7-2; detail → STATUS / TIMELINE). **Keep the cell's current cite-instruction.** Not the declined F5 class — the event post-dates the freeze.
+- **F4 🟡:** `STRATEGY.md:288` — the "until Sato's first vote clarifies" wait is over (dissented for HOLD, 9/18); and the same section's scope clause says "Oct/Dec hike to 1.25%" for a hike that landed in September. Sibling of the TRADE-only `a837a3b05` pass.
+- **F5 🟡:** `TRADE.md:326-327` — `LIQUID/TRADE.md` / `HENRY/TRADE.md` do not exist. Repoint or drop the filenames.
+- **E1 — 🔴 ESCALATION, SAM's own file: `STATUS.md:3` says "BOJ OIS still DARK" while `STATUS.md:24` says "✅ BOJ meeting OIS — RESTORED 2026-09-20 … The desk is NO LONGER DARK."** Not a within-session chronology artifact: `git log -S` puts "still DARK" in at **2026-09-19 11:39** and the RESTORED row in at **2026-09-20 11:04**, and STATUS has been committed **four** times since (11:04 / 12:26 / 18:04 / 19:17 on 9/20), three of them CATO correction passes. The stale clause survived all four. ⚠ **A charitable reading exists — the boot sweep's SCRIPT leg** — but the line carries no such qualifier, and line 3 is the most-read line in the file while line 24 hands the reader five meeting probabilities. **Reported, not edited.**
+- **E2 — 🔴 ESCALATION, SAM's own file: `STATUS.md:9` reads "SAM-28/31 both FAILED Sep-18," contradicted by its own sentence.** The same line counts *"16 CONFIRMED / 15 FAILED / 1 special / **1 qualified** / 1 OPEN"* — arithmetic correct at 34 rows — and cites `thesis/PREDICTIONS.tsv`, whose SAM-28 row reads **`RESOLVED — QUALIFIED / NO-VERDICT`**. `STATUS.md:3`, `:92`, `:107`, `:111` all carry the correct grade. **The CATO R4 cascade reached TRADE, STRATEGY and four STATUS sites and missed this one** — the sibling-instance class, in the derived-count line.
+- **E3 — 🟠 ESCALATION, attribution: `STATUS.md:103` says "The **root-CLAUDE.md** 0.75% Takaichi mortgage-ceiling threshold is now breached by 50bp."** `grep 0.75% CLAUDE.md` (repo root) = **0 hits**. The row lives at **`AGENTS/SAM/CLAUDE.md:235`**. This matters beyond tidiness: root CLAUDE.md is Will-gated and SAM's own is not, so the misattribution makes the fix look harder than it is. *(The row itself is not false — >0.75% does describe a collision zone and the desk is in it — but nothing in that boot-read table tells a reader it is currently breached by 50bp.)*
+- **E4 — carried, third consecutive run: `## PENDING from Run 18` still unmarked**, now joined by Runs **19, 20 and 21**. Run-20's whole flag set is **visibly applied at `a7fc09dbd`** and Run-19's was verified at Run 20; **SAM's MEMORY.md is reading these unmarked blocks as a live backlog and asserting a resolved F1 as open.** Marking closure is SAM's act (standing ruling, `## PENDING from Run 16`) — and per the 9/11 roller fix the marker must go in the **HEADING**, or the block can never roll.
+- Exact quotations, evidence and scoping: LAST RUN → Run 22.
+- **Report-only roll (executed):** `nothing terminal to roll`, **0 B**, second consecutive run. 378,026 B / 1,674 lines. No `--apply`, no archive write.
+
 ### Pending from Run 21 — 2026-09-11 (SELF-AUDIT; SAM review required; proposals, not applied)
 
 1. **🔴 STRUCTURAL — roll-off is losing ~26K B/run and the roller is aimed at the wrong 26% of the file.** Three mechanical eligibility changes to `scripts/subagent_memory_roll.py` + `METSUKE.md` §📏 rule 4, in descending value: **(a)** roll `### Forward hints for Run N` / `### After Run N` on **RECENCY**, keeping only the latest vintage — a consumed hint needs no closure marker because **consumption is proved by the existence of the next run's block** (the PROVABLE-LANDING criterion SAM already ratified for `kura_proposal_roll.py`, which is stronger than a marker): **−114,743 B**; **(b)** same recency rule for `## CHANGES SINCE LAST RUN`, keeping the current run's delta: **−39,536 B**; **(c)** keep the last two `### Run N` blocks inside `## LAST RUN`, roll the rest: **−13,530 B**. Combined **−167,809 B = 46% of the file**, spawn read ~90K → ~48K tokens, and per-run growth falls from +26,292 to roughly +4,000. ⛔ Needs a `NEVER_ROLL` amendment: those three sections are working sets **at one vintage**, which is not what the current rule says.
@@ -512,6 +557,10 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 
 ## STANDING MONITORS (surface each run)
 
+- **🆕 Run-22 DISPOSITION-VS-MARKER, promoted to first check of every run:** before reporting any PENDING item as open, **test it at the commit graph** (`git log -S "<exact string>"` / read the apply commit's body), never at the block's marker. This run, four consecutive unmarked blocks were being read fleet-side as an open backlog while every flag in them was applied. **An unmarked block is a bookkeeping fact, not an analytical one — and the difference now propagates into SAM's own MEMORY.md.**
+- **🆕 Run-22 POINTER-VS-HEADING:** when a run's fix changes a section HEADING, grep the doc for in-text references *to that section by name* in the same pass. F2 is a contradiction the Run-20 apply created in one line while fixing another 106 lines away.
+- **🆕 Run-22 EXTRACTOR PERIMETER:** the path-integrity test must catch **bolded** paths (`**LIQUID/TRADE.md**`), not only backticked and linked ones. Run 20 reported "0 broken" over a perimeter that excluded two dead pointers of five months' standing.
+- **🆕 Run-22 SINGLE-DOC COMMIT = SIBLING DEBT:** any commit touching exactly one of TRADE/STRATEGY (this window: `a837a3b05`) is a standing sibling-miss candidate. Diff it against the other doc next run. F4 was found this way.
 - **🆕 Run-21 SELF-STATE SIZE (new, and it is the monitor whose absence caused the problem):** at every closeout report `METSUKE_MEMORY.md` bytes, the delta since the previous run, and the roller's freed-bytes figure **as three numbers in one line.** ⚠️ **Run 20 quoted the roller's projected "~14K (4%)" without checking what actually landed: the realised roll was 7,211 B and the next run's is 0 B.** A projection from a report-only tool is a forecast, not a receipt — quote the archive delta.
 - **🆕 Run-21 monitor-retirement sweep (new):** a monitor naming a `SAM-NN` whose PREDICTIONS Status is not OPEN is not a monitor. Grep the list against `thesis/PREDICTIONS.tsv` each run; propose retirement, never delete.
 
@@ -656,6 +705,14 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 ---
 
 ## NEXT RUN HINTS
+
+### After Run 22 — current instructions (September 21)
+
+**Step zero:** ask whether SAM marked the four PENDING blocks (18/19/20/21) CLOSED **in their headings**, and whether SAM corrected its own `MEMORY.md` claim that Run-20/21 F1 is open. If that claim is still there, report it as the headline — a resolved flag being carried as open for a second run is worse than an unflagged defect, because it consumes the next session's attention on nothing.
+**Do NOT re-derive:** F1 (applied `a7fc09dbd`, proven at the commit graph); the BOJ-dark question in TRADE/STRATEGY (structurally immune — both rows are pointers with no figure); the declined Run-20 F5 August rows; the 160-row-vs-158-check non-flag; the four dead BOJ-pricing vintages. All settled and recorded above.
+**Live guard expiring:** STATUS's restored BOJ meeting-OIS block **expires Tue 2026-09-22 15:15 JST** on a 4-day source-age rule — **not** at the Oct-30 decision. If the next run lands after that, the trade docs are still safe (they carry pointers, not figures), but check that STATUS did not silently carry an expired quote; and re-check `STATUS.md:3`'s DARK clause, which will have flipped from false back to true for the wrong reason.
+**Expect in the window:** Japan shut Mon Sep-21 → Wed Sep-23, so the MOF JGB curve goes dark and Sep-18's publication likely waits to Thu Sep-24; the T1 rate check's historical strike window (hours to ~1 day) elapses into Silver Week liquidity. ⛔ **If an intervention lands, nothing in TRADE/STRATEGY re-arms** — every MOF-keyed gate retired 2026-08-07 and the 160 gate is VOID. Grade any new rider in either doc as a **fresh write**, not protected interior.
+**Closeout reminders:** keep the Run-N block short (Run 22 ≈ 5K against Runs 17-20's ≈12.6K average); the report-only roll is mandatory and `--apply` is SAM's alone; report the three self-state size numbers; and re-test Run-21 PENDING items 1/3/5, all still unapplied at this run.
 
 ### After Run 21 — current instructions (September 11, self-audit)
 

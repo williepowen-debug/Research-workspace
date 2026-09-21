@@ -42,7 +42,7 @@
 > **No successor frame is declared.** Re-entry requires a fresh, independently-argued build thesis (v1.8+),
 > **not a threshold tag.** Live state → `STATUS.md` · `thesis/THESIS.md` v1.7 · `thesis/CHANGELOG.md` 2026-08-07.
 
-**Last Updated:** 2026-09-08 — METSUKE Run 19 applied: current-use certifications, source pointers and grading references reconciled; historical body and money fields retained. Prior full document → `research/outputs/2026-09-08_subagent_review/before/TRADE.md`.
+**Last Updated:** 🔧 **STRUCTURAL FIX 2026-09-20 (METSUKE Run-22 F1) — authoritative vintage is now `git log -1 --format=%cd -- <this file>`, never this line.** This hard-coded a DATE **and a CAUSE** ("2026-09-08 — METSUKE Run 19 applied"), so **only a METSUKE-apply session could keep it true** — the file was written 4× (TRADE) / 3× (STRATEGY) since without it moving. Same treatment as `METSUKE.md:7` on 9/11; a fifth manual roll would have re-armed the defect. *Historical note — Run 19 applied:* current-use certifications, source pointers and grading references reconciled; historical body and money fields retained. Prior full document → `research/outputs/2026-09-08_subagent_review/before/TRADE.md`.
 **Domain:** Japan Macro, Yen, JGBs, Carry Trade, BOJ Policy
 
 *Live prices, probabilities, threshold status, and dashboard live in `STATUS.md`. This doc owns position details + decision card — point to STATUS for live data.*
@@ -182,7 +182,7 @@
 
 ### Catalyst Sequence
 
-*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `docket/CALENDAR.md` and "Key Dates" section above. The June 16 BOJ MPM (the v1.5 single-path catalyst) RESOLVED as-priced — under v1.6 the live frame is the post-catalyst carry-convexity-tail. ⚠️ **The old "no fresh near-term BOJ binary" line is DEAD as of 7/31:** the July MPM held but Ueda **named September**, Oct OIS repriced to ~64% and Sep to ~23% — the **Sep 17-18 MPM is IN-window at ~77% unpriced**, ⚠️ **[CORRECTED 8/4: ~60% unpriced, not ~77% — Sep OIS repriced ~23% → ~39.7%. Less surprise room ⇒ a THINNER hawkish-of-priced route.]** sitting ON the inclusive Sep-18 boundary. There is now a live in-window BOJ catalyst, and it is the reason any options tenor must span Sep-18.*
+*Resolved-event narratives live in `thesis/timeline/TIMELINE.md`. Forward-only catalysts in `docket/CALENDAR.md` and "Key Dates" ⚠️ **— FROZEN HISTORICAL, not a forward calendar (see its own heading below); forward catalysts live in `docket/CALENDAR.md`. Run-20 changed that heading and missed this pointer 106 lines away** section above. The June 16 BOJ MPM (the v1.5 single-path catalyst) RESOLVED as-priced — under v1.6 the live frame is the post-catalyst carry-convexity-tail. ⚠️ **The old "no fresh near-term BOJ binary" line is DEAD as of 7/31:** the July MPM held but Ueda **named September**, Oct OIS repriced to ~64% and Sep to ~23% — the **Sep 17-18 MPM is IN-window at ~77% unpriced**, ⚠️ **[CORRECTED 8/4: ~60% unpriced, not ~77% — Sep OIS repriced ~23% → ~39.7%. Less surprise room ⇒ a THINNER hawkish-of-priced route.]** sitting ON the inclusive Sep-18 boundary. There is now a live in-window BOJ catalyst, and it is the reason any options tenor must span Sep-18.*
 
 ---
 
@@ -323,7 +323,7 @@ Private credit cascade (APO, ARES — 9 funds gated; BCRED Q1 redemptions ~7.9%,
 ## Cross-References
 
 - **BOND** — JGB demand-vacuum/term-premium transmission (v1.6.1+ primary recipient; `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` § US-TRANSMISSION)
-- **LIQUID/TRADE.md** — UST impact, funding stress
-- **HENRY/TRADE.md** — VIX/vol plays on Japan trigger
+- **LIQUID/TRADE.md** ⛔ *(FILE DOES NOT EXIST — HENRY's deleted at `86e22c293`, April 2026; METSUKE Run-22 F5. Run-20 reported "26 references, 0 broken" over this surface because these are **bolded**, not backticked, and its extractor only reads backticks — a scan keyed on formatting reads a live link as absent.)* — UST impact, funding stress
+- **HENRY/TRADE.md** ⛔ *(FILE DOES NOT EXIST — HENRY's deleted at `86e22c293`, April 2026; METSUKE Run-22 F5. Run-20 reported "26 references, 0 broken" over this surface because these are **bolded**, not backticked, and its extractor only reads backticks — a scan keyed on formatting reads a live link as absent.)* — VIX/vol plays on Japan trigger
 - **HANS** — Fed independent path (private credit cascade)
 - **BRENT** — Oil-in-yen dynamics, SK refiner crisis
