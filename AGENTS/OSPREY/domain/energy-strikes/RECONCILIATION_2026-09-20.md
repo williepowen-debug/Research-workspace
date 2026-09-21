@@ -12,11 +12,11 @@
 | IIR Energy (ECI) | 9/8 | Aug avg | **Unplanned crude+condensate OUTAGE capacity** | **3.8 M bpd** (Jul 4.27) | affected-refinery capacity | Ukrainian strikes | IIR proprietary (not audited here) |
 | S&P Global / CERA | 9/3 | end-Aug | **CAPACITY offline** | **~half (~50%)** | total refining capacity | strikes-primary | S&P/CERA independent (403 to me; via CATO + corroborating S&P export data) |
 | FT (via CATO) | late Jul | late Jul | nominal offline / idle | 45% nom / >30% idle | nameplate | strikes | FT (not re-read) |
-| Bloomberg / Julian Lee | 9/15 | exports 4wk→9/13; prod Aug | Exports; **production** | 3.54 exp; **8.72 prod** | — | strikes, **involuntary** | Bloomberg + OPEC secondary |
+| Bloomberg / Julian Lee | 9/15 | exports 4wk→9/13; prod Aug | Exports; **production** | 3.54 exp; **8.72 prod** | — | below quota; reporting attributes to strikes (causation NOT proven by quota arithmetic) | Bloomberg + OPEC secondary |
 
-## What reconciles, and how
+## How the measures relate (numerical agreement OPEN — nothing here is "reconciled")
 
-**1. There are TWO families of measure, and the apparent contradiction is definitional, not deterioration.**
+**1. There are TWO families of measure. They are not contradictory BY DEFINITION — but whether these specific numbers AGREE is OPEN (see 2b), so this is a relationship, not a demonstrated reconciliation.**
 - **Runs-decline family** (my band, Bloomberg/Rystad, Insider) clusters at **~25–30%** — how much less crude is actually being *processed* vs baseline.
 - **Capacity-offline family** (S&P ~50%; IIR 3.8 M bpd ≈ ~55% of ~7 M bpd nameplate; FT 45% nominal) — how much *nameplate capacity* is unavailable.
 - Nameplate offline (~50%) exceeds throughput decline (~30%) because normal utilisation was already <100% and surviving units run harder. **The ~50%-vs-~30% gap is a denominator/definition difference — it is NOT measured September deterioration.** (CATO's exact point, confirmed.)

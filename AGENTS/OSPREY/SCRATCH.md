@@ -8,7 +8,7 @@ C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST** — all UNCHANGED. Prices de
 - ⛔ **Only the strike + fire is confirmed.** The AVT-6/isomerisation unit detail is belligerent-GS + Russian-Telegram and ECHOES the June-2026 strike — but a re-strike is possible, so repetition is NOT proof of recycling (CATO F4); UNVERIFIED, not banked. +5d re-read owed ~9/25 (OWED-43).
 - **New C1 clock anchor: Moscow 9/20 → 1/30 as of 9/21**, supersedes Yaroslavl 9/17. ⚖️ **C1 upgrade-to-5 is a LIVE Will-gated decision — written trigger MET as written** (see decisions block); capacity-not-barrels; band unmoved.
 - ✅ **Targeted theater scan 9/17→9/20 (NOT a certified pass):** no new crude-terminal loss (C2), **no new Ukraine-side tanker strike (C3)**. C3 clock **9/21** off ARMADA LEADER 9/12, limb-1 kill 2026-10-03. ⛔ **Limb 2 = UNDETERMINED per HAWK (9/19 reply, KB-147)** — pointer circular, JWLA-035 is territory not price; NOT "runs against a kill". The '12 shadow-fleet vessels' story is **2026-07-17 vintage** — did NOT contaminate C3.
-- ✅ `strike_feed.py` run: 29 rows, 22 NONE all dispositioned, 6 MATCHED, 1 NOT_READ (militarnyi again empty). **Recall leg passed again** — feed independently surfaced the Moscow refinery I'd rowed. No missed strike.
+- ✅ `strike_feed.py` run: 29 rows, 22 NONE all dispositioned, 6 MATCHED, 1 NOT_READ (militarnyi again empty). ⚠️ Recall = OVERLAP only — the feed re-surfaced the Moscow refinery I'd ALREADY rowed; that is NOT a demonstrated manual-miss catch (CATO). No new missed strike found.
 - 🆕 **NEW DOMAIN ITEM the feed surfaced: US 'Sanctions from Hell' bill — Congress passed ~9/17, Trump signed ~9/19.** Russia energy-sanctions scope (my domain), POLICY not a strike. NOT worked this session. Follow-up owed; BRENT + HAWK are consumers.
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
@@ -32,7 +32,7 @@ C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST** — all UNCHANGED. Prices de
 6. **DOCKET L432 (9/21)** — Russian mobilisation decision window (Duma elections closed 9/20); HAWK owns, I'm named consumer for RU↔UA manpower + theatre consequence.
 
 ## OPEN THREADS / WATCHES
-All OWED IDs preserved in STATUS register (13·14·17·18·19·24·30·33·34·35·36 + 40–48). Nothing closed this session. C3 limb-1 kill 2026-10-03 if no qualifying tanker strike; HAWK grades limb 2 (evidence runs against a kill). 10/6 L309 acceptance test — recall leg passed a 4th time.
+All OWED IDs preserved in STATUS register (13·14·17·18·19·24·30·33·34·35·36 + 40–50). Nothing closed this session. C3 limb-1 kill 2026-10-03 if no qualifying tanker strike; **limb 2 = UNDETERMINED per HAWK (KB-147), NOT "runs against a kill"**. 10/6 L309 acceptance test — recall is OVERLAP-only this pass, not a demonstrated miss-catch.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 **OSP-06 OPEN 45%, deadline 10/15** — unaffected today. **No prediction due.** No trade proposal.
@@ -40,7 +40,7 @@ All OWED IDs preserved in STATUS register (13·14·17·18·19·24·30·33·34·3
 ⚖️ **Live with Will (carried from L396):** Channel-2 drawing B vs D — worth ONE DAY of a 30-day clock, recommend B. **Live with HAWK:** the C3 limb-2 grade.
 
 ## MAIL STATE
-Inbox not processed this session (boot found no pending signals; catch-up task). No 🔴 acute signal fired — Moscow refinery is a 🟠 escalation marker, routed routine via NEXUS_BRIEF (BRENT/HAWK read at boot). **BRENT explicit packet still owed** (carried).
+Inbox PROCESSED at closeout (CATO audit): HAWK limb-2 reply (9/19) dispositioned → KB-147, and 3 top-level packets `git mv`d to `inbox/processed/`. No 🔴 acute signal fired — Moscow refinery is a 🟠 escalation marker, routed routine via NEXUS_BRIEF (BRENT/HAWK read at boot). **BRENT explicit packet still owed** (carried).
 
 ## PENDING PUSH / GIT
 Own files: STRIKES.tsv (+1 row Moscow), KB.tsv (+KB-142), STATUS.md (rotated 9/19 block to archive, 9/20 catch-up), archive/STATUS_ROTATED_2026-09-19.md (append), SCRATCH.md, NEXUS_BRIEF.md. Feed file dispositioned but gitignored (OWED-45). STATUS at 72% of budget (down from 85%); structural hot/cold split still owed to PROME (BROCK, DOCKET L421).
