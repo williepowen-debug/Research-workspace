@@ -46,6 +46,7 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
 LOG_DIR = None
@@ -272,7 +273,7 @@ def _tracker_overdue(row_id, today=None, queue_path=None):
 DID_NOT_RUN = "CHECK DID NOT RUN"   # the marker a check prints when it could not run at all
 
 
-def run_script(severity, name, cmd, owner, ok_rc=(0,)):
+def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None):
     """Keep complete evidence on disk; summarize without silently dropping flags."""
     global LOG_DIR
     if LOG_DIR is None:
@@ -293,6 +294,12 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
         body = log.read_text(encoding="utf-8", errors="replace")
         state = "DID NOT RUN (the check itself failed — establishes nothing) · " if DID_NOT_RUN in body else ""
         detail = f"rc={p.returncode} · {state}".rstrip(" ·") + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
+        if summarize is not None:
+            try:
+                ok, summary = summarize(body, p.returncode)
+                detail = f"rc={p.returncode} · {state}{summary}"
+            except (ValueError, KeyError) as exc:
+                ok, detail = False, f"rc={p.returncode} · UNKNOWN: {exc}"
         if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
             flagged = [l.strip() for l in tail if l.lstrip().startswith(("❌", "⚠️"))]
             detail += "".join(f"\n       ↳ {l[:120]}{'… [preview]' if len(l) > 120 else ''}" for l in flagged[:3])
@@ -303,6 +310,79 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
     detail += f"\n       full output: {log}"
     record(severity, name, ok, detail, owner)
     return ok
+
+
+def coverage_result(body, prefix, rc, counts):
+    """Strict footer parsing for the three coverage producers; no heuristic fallback."""
+    lines = [line for line in body.splitlines() if line.startswith(prefix)]
+    if len(lines) != 1 or not lines[0].startswith(prefix + " v1 "):
+        raise ValueError(f"missing, duplicate or unsupported {prefix}")
+    fields = {}
+    for token in lines[0][len(prefix + " v1 "):].split():
+        key, sep, value = token.partition("=")
+        if not sep or not value or key in fields:
+            raise ValueError("malformed or duplicate result field")
+        fields[key] = value
+    for key in ("rc", *counts):
+        if not re.fullmatch(r"[0-9]+", fields.get(key, "")):
+            raise ValueError(f"missing or invalid {key}")
+        fields[key] = int(fields[key])
+    if rc not in (0, 1, 2) or fields["rc"] != rc:
+        raise ValueError("process/result rc disagreement or unsupported rc")
+    return fields
+
+
+def summarize_read_cap(body, rc):
+    counts = ("assessed", "reads", "over_budget", "over_cap", "manifest_defects",
+              "advisories", "generated_flagged", "rotation_due", "active_decisions_over_budget")
+    f = coverage_result(body, "READ-CAP-RESULT", rc, counts)
+    if f.get("mode") != "agent" or f.get("desk") != "PROME" or f["assessed"] not in (0, 1):
+        raise ValueError("expected agent/PROME result with assessed=0 or 1")
+    if not f["assessed"]:
+        if rc != 2:
+            raise ValueError("unassessed result requires rc=2")
+        return False, "UNKNOWN · assessed=0; counts are unearned, not clean; declared perimeter required"
+    if not (f["over_cap"] <= f["over_budget"] <= f["rotation_due"] <= f["reads"]
+            and f["active_decisions_over_budget"] in (0, 1)
+            and f["active_decisions_over_budget"] <= f["over_budget"]):
+        raise ValueError("contradictory read-cap counts")
+    findings = bool(f["over_budget"] or f["manifest_defects"])
+    if rc in (0, 1) and bool(rc) != findings:
+        raise ValueError("rc contradicts size/manifest findings")
+    detail = "declared PROME perimeter · " + " · ".join(f"{key}={f[key]}" for key in counts)
+    if rc == 2:
+        detail = "CANNOT-CERTIFY · " + detail
+    if f["active_decisions_over_budget"]:
+        detail += " — ACTIVE_DECISIONS ≥100%: scripted-check revisit trigger FIRED"
+    if f["rotation_due"]:
+        detail += " — rotation due (READ_CAP.md rule 5)"
+    return rc == 0 and not any(f[k] for k in ("rotation_due", "advisories", "generated_flagged")), detail
+
+
+def summarize_generated(body, rc):
+    f = coverage_result(body, "DOCKET-GENERATED-RESULT", rc, ("assessed",))
+    dt.date.fromisoformat(f["as_of"])
+    if f["assessed"] not in (0, 1) or (rc == 2) != (f["assessed"] == 0):
+        raise ValueError("generated result rc/assessment disagreement")
+    if not f["assessed"]:
+        return False, f"CANNOT-CERTIFY · assessed=0 · as_of={f['as_of']}"
+    for key in ("docket_sha256", "view_sha256"):
+        if not re.fullmatch(r"[0-9a-f]{64}", f.get(key, "")):
+            raise ValueError(f"missing or invalid {key}")
+    return rc == 0, (f"{'FRESH' if rc == 0 else 'STALE'} generated block · assessed=1 · "
+                     f"as_of={f['as_of']} · snapshot identities in full output")
+
+
+def summarize_prose(body, rc):
+    f = coverage_result(body, "DOCKET-PROSE-RESULT", rc,
+                        ("matched", "dated", "assessed", "unassessed", "ignored"))
+    if (f.get("generated") != "excluded" or f["assessed"] + f["unassessed"] != f["dated"]
+            or not f["assessed"] <= f["matched"] <= f["dated"] or rc == 2):
+        raise ValueError("inconsistent prose coverage")
+    scope = "EMPTY dated scope" if not f["dated"] else "handwritten dated scope"
+    return rc == 0 and not f["unassessed"], (scope + " · " + " · ".join(
+        f"{key}={f[key]}" for key in ("matched", "assessed", "unassessed", "ignored"))
+        + " · generated content EXCLUDED")
 
 
 def guard(fn, *args, **kw):
@@ -1020,51 +1100,46 @@ def check_desk_catalyst_summons():
 # ----------------------------------------------------------------------- modes
 
 def check_byte_budgets():
-    """ADVISORY byte-meter for the byte-governed boot surfaces (Will-approved
-    2026-08-22, rec-1 of the ACTIVE_DECISIONS design pass): instruments the flow
-    rules' own triggers so >=75% (rotation due at closeout) and the
-    ACTIVE_DECISIONS >100%-at-boot scripted-check revisit trigger are
-    SELF-DETECTING instead of prose-dependent — PAT-055 (closeout-willpower
-    decay) applies to a prose trigger exactly as it does to the prose rule it
-    guards. Enforcement stays closeout-side (CLOSEOUT Chunk 1); this row only
-    measures. st_size == wc -c (true bytes — the rule's own instrument; the 8/22
-    pass's diagnosis mislabeled char counts as bytes, so: same instrument, always)."""
-    # Read-cap budget (root Data Hygiene P1, Will-approved 2026-08-28; READ_CAP.md
-    # rules 1-2/5): every surface BOOT tells a session to READ WHOLE stays under
-    # 32,550 B, binding above any owner number. Re-keyed 2026-08-29 (spine audit
-    # #11) from the retired 51,200 B STATUS/AD pair; HEARTBEAT + SCRATCH added.
-    READ_CAP_BUDGET = 32550
-    budgets = [("PROME/STATUS.md", READ_CAP_BUDGET),
-               ("PROME/ACTIVE_DECISIONS.md", READ_CAP_BUDGET),
-               ("HEARTBEAT.md", READ_CAP_BUDGET),
-               ("PROME/SCRATCH.md", READ_CAP_BUDGET)]
-    caps = ROOT / "scripts/harness_caps.env"   # shared caps file — the two memory
-    if caps.exists():                          # guards must never disagree (8/14)
-        for line in caps.read_text(encoding="utf-8").splitlines():
-            if line.startswith("MEMORY_HARNESS_CAP_BYTES="):
-                budgets.append(("memory/auto/MEMORY.md",
-                                int(line.split("=", 1)[1].strip().strip('"'))))
-                break
-    parts, worst, ad_fired = [], 0, False
-    for rel, budget in budgets:
-        p = ROOT / rel
-        if not p.exists():
-            parts.append(f"{rel.rsplit('/', 1)[-1]} MISSING")
-            worst = max(worst, 101)
-            continue
-        pct = p.stat().st_size * 100 // budget
-        worst = max(worst, pct)
-        parts.append(f"{rel.rsplit('/', 1)[-1]} {pct}%")
-        if rel.endswith("ACTIVE_DECISIONS.md") and pct >= 100:
-            ad_fired = True
-    detail = " · ".join(parts)
-    if ad_fired:
-        detail += (" — ⚠️ ACTIVE_DECISIONS ≥100%: the 8/22 scripted-check revisit "
-                   "trigger has FIRED — build the rc-keyed check, no re-litigation")
-    elif worst >= 75:
-        detail += " — ≥75%: rotation / hot-cold split due at this closeout (READ_CAP.md rule 5)"
-    record(ADVISE, "byte budgets (flow-rule meter)", worst < 75, detail,
-           "PROME/CLOSEOUT.md Chunk 1 flow rules · READ_CAP.md (32,550 B) · MEMORY flow rule 8/12")
+    """Declared read coverage plus the separately governed auto-memory cap."""
+    run_script(ADVISE, "declared read budgets", [sys.executable,
+               "scripts/read_cap_check.py", "--agent", "PROME", "--require-manifest"],
+               "READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads",
+               summarize=summarize_read_cap)
+    # Keep memory independent: an unassessed manifest must not suppress its check.
+    guard(check_memory_budget)
+
+
+def check_memory_budget():
+    try:
+        caps = (ROOT / "scripts/harness_caps.env").read_text(encoding="utf-8")
+        values = re.findall(r'^MEMORY_HARNESS_CAP_BYTES=(.+)$', caps, re.M)
+        if len(values) != 1:
+            raise ValueError("missing or duplicate memory cap")
+        cap = int(values[0].strip().strip('"'))
+        if cap <= 0:
+            raise ValueError("memory cap must be positive")
+        size = (ROOT / "memory/auto/MEMORY.md").stat().st_size
+        pct = size * 100 // cap
+        ok, detail = pct < 75, f"MEMORY.md {size} B / {cap} B ({pct}%)"
+        if not ok:
+            detail += " — ≥75%: rotation due"
+    except (OSError, ValueError) as exc:
+        ok, detail = False, f"UNKNOWN: {exc}"
+    record(ADVISE, "auto-memory byte budget", ok, detail,
+           "scripts/harness_caps.env · MEMORY flow rule 8/12")
+
+
+def check_calendar_views():
+    # Both checks use the same caller date even if the pair crosses ET midnight.
+    as_of = dt.datetime.now(ZoneInfo("America/New_York")).date().isoformat()
+    base = [sys.executable, "scripts/docket_view.py", "--as-of", as_of]
+    run_script(ADVISE, "generated calendar freshness", base + ["--check-generated", "PROME/SCRATCH.md"],
+               "Regenerate with scripts/docket_view.py --write PROME/SCRATCH.md; source is DOCKET.tsv",
+               summarize=summarize_generated)
+    run_script(ADVISE, "handwritten calendar coverage", base + ["--check", "PROME/SCRATCH.md",
+               "--section", "catalyst calendar", "--ignore", r"\breviews?\b"],
+               "Dated handwritten claims only; unassessed claims require inspection; generated content excluded",
+               summarize=summarize_prose)
 
 
 def check_claude_dir_drift():
@@ -1248,12 +1323,7 @@ def mode_boot():
     guard(check_gates_tsv)
     guard(check_docket_overdue)
     guard(check_docket_buried_state_token)
-    run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
-               "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
-               "--ignore", r"\breviews?\b"],
-               "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
-               "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
-               "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
+    guard(check_calendar_views)
     guard(check_will_queue)
     guard(check_aged_waits)  # WQ-221 instrument — boot only; closeout slates via spawn_list
     run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
@@ -1302,12 +1372,7 @@ def mode_closeout(tier=None):
     guard(check_docket_overdue)
     guard(check_docket_buried_state_token)
     guard(check_docket_today)       # the pre-fire analogue: don't go dark before today's items
-    run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
-               "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
-               "--ignore", r"\breviews?\b"],
-               "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
-               "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
-               "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
+    guard(check_calendar_views)
     guard(check_desk_catalyst_summons)  # don't go dark on a desk's catalyst eve (BD-02)
     # WQ-184 L1 closeout half: what LANDS before the next likely boot (1d weekday, 3d Fri/Sat) and who is there —
     # slate them in the closeout report (8/27 precedent); the spawn itself waits for the first boot on/after the date. Never silence.

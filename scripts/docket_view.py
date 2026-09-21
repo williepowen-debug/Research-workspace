@@ -10,7 +10,9 @@ BLOCKED on exactly that class — a check-date promoted to an event date ("Color
 moved. A generated view kills the class; computed weekday names kill the weekday-label
 class for these surfaces as a side effect.
 
-TWO MODES
+MODES
+  --check-generated PROSE  compare the generated block with a fresh render at --as-of;
+                 read-only; rc 0 fresh · 1 stale · 2 cannot certify.
   --write        render the forward view INTO the marked block of a prose file (SCRATCH):
                    <!-- DOCKET-VIEW BEGIN --> … <!-- DOCKET-VIEW END -->
                  touches nothing outside the markers; missing/duplicated markers = rc 2,
@@ -45,12 +47,15 @@ USAGE
 """
 import argparse
 import datetime as dt
+import hashlib
+import io
 import os
 import re
 import subprocess
 import sys
 import tempfile
 import zlib
+from zoneinfo import ZoneInfo
 
 ROOT = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True,
                       text=True).stdout.strip() or "."
@@ -69,13 +74,13 @@ class DocketError(Exception):
     pass
 
 
-def load_docket(path, skip_ragged=False):
+def load_docket(path, skip_ragged=False, source_text=None):
     """Parse DOCKET.tsv. Returns list of rows (dicts, with physical line numbers).
     Raises DocketError on a ragged data row (constraint 3) or a missing file."""
-    if not os.path.exists(path):
+    if source_text is None and not os.path.exists(path):
         raise DocketError(f"canonical docket missing at {path}")
     rows, ragged = [], []
-    with open(path, encoding="utf-8") as f:
+    with (open(path, encoding="utf-8") if source_text is None else io.StringIO(source_text)) as f:
         for n, line in enumerate(f, 1):
             line = line.rstrip("\n")
             if not line.strip() or line.startswith("#") or line.startswith("date\t"):
@@ -91,6 +96,13 @@ def load_docket(path, skip_ragged=False):
                 start = dt.date(int(m.group(2)), int(m.group(3)), int(m.group(4)))
                 end = (dt.date(int(m.group(5)), int(m.group(6)), int(m.group(7)))
                        if m.group(5) else start)
+                if end < start:
+                    raise DocketError(f"L{n}: date range ends before it starts")
+            elif re.match(r"^~?\d", span):
+                # Numeric prefixes are dates, never symbolic session keys. Do not
+                # turn a mistyped deadline (dots, Unicode dashes, compact digits)
+                # into an UNDATED row that a generated freshness check certifies.
+                raise DocketError(f"L{n}: malformed date span {span!r}")
             rows.append({"line": n, "span": span, "approx": bool(m and m.group(1)),
                          "start": start, "end": end, "catalyst": parts[1].strip(),
                          "owners": parts[2].strip(), "state": parts[3].strip(),
@@ -211,6 +223,60 @@ def splice(text, block):
     if j < i:
         raise DocketError("END marker precedes BEGIN marker")
     return text[:i] + block + text[j:]
+
+
+def et_today():
+    return dt.datetime.now(ZoneInfo("America/New_York")).date()
+
+
+def read_snapshot(path):
+    """Read one immutable input; detect replacement or mutation during observation."""
+    def identity(st):
+        return (st.st_dev, st.st_ino, st.st_size, st.st_mtime_ns, st.st_ctime_ns)
+    with open(path, "rb") as stream:
+        before = identity(os.fstat(stream.fileno()))
+        raw = stream.read()
+        after = identity(os.fstat(stream.fileno()))
+    if before != after or after != identity(os.stat(path)):
+        raise DocketError(f"input changed while reading: {path}")
+    return raw, after
+
+
+def generated_block(text):
+    """Exactly one complete, ordered marker pair; malformed lookalikes are refused."""
+    if (text.count("<!-- DOCKET-VIEW") != 2 or text.count(BEGIN) != 1
+            or text.count(END) != 1):
+        raise DocketError("generated markers missing, duplicated or malformed")
+    for marker in (BEGIN, END):
+        if not re.search(r"^" + re.escape(marker) + r"$", text, re.M):
+            raise DocketError("generated markers must occupy complete lines")
+    start, end = text.index(BEGIN), text.index(END)
+    if end < start:
+        raise DocketError("END marker precedes BEGIN marker")
+    return text[start:end + len(END)]
+
+
+def check_generated(prose_path, docket_path, as_of, **kw):
+    """Read-only freshness at the supplied date/options, not the old block's stamp.
+
+    Identity checks bound the verdict to the final observations; they are not a lock
+    against writes after those observations. Hashes identify the compared snapshots.
+    """
+    docket = read_snapshot(docket_path)
+    view = read_snapshot(prose_path)
+    rows = load_docket(docket_path, source_text=docket[0].decode("utf-8"))
+    actual = generated_block(view[0].decode("utf-8").replace("\r\n", "\n"))
+    expected = render(rows, as_of, src=os.path.relpath(docket_path, ROOT)
+                      if docket_path.startswith(ROOT) else docket_path, **kw)
+    for path, snapshot in ((docket_path, docket), (prose_path, view)):
+        if read_snapshot(path) != snapshot:
+            raise DocketError(f"input changed before verdict: {path}")
+    rc = int(actual != expected)
+    print(f"DOCKET-GENERATED {'STALE' if rc else 'FRESH'}: {prose_path}; evaluated {as_of}")
+    print(f"DOCKET-GENERATED-RESULT v1 rc={rc} assessed=1 as_of={as_of} "
+          f"docket_sha256={hashlib.sha256(docket[0]).hexdigest()} "
+          f"view_sha256={hashlib.sha256(view[0]).hexdigest()}")
+    return rc
 
 
 def write_view(prose_path, docket_path, as_of, dry_run=False, budget=6000, **kw):
@@ -382,6 +448,7 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
         text = f.read()
     only = section_lines(text, section)
     flags, unreg, claims, ignored = [], [], 0, 0
+    eligible, assessed = 0, 0
     ign = re.compile(ignore) if ignore else None
     for n, seg, dates, ctx, wk in segments(text, as_of, only):
         if ign and ign.search(seg):
@@ -394,6 +461,7 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
         claim_dates = dates or (ctx or [])
         if not claim_dates:
             continue
+        eligible += 1
         # 1. explicit citation "(L242)" — the DOCKET citation convention — is the strongest anchor
         cited = [by_line[int(x)] for x in RE_LREF.findall(seg) if int(x) in by_line]
         if cited:
@@ -401,6 +469,7 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
             live = [r for r in cited if r["start"]]
             if not live:
                 continue                       # cites an undated / terminal row — nothing to date-check
+            assessed += 1
             if any(r["start"] <= d <= r["end"] for r in live for d in claim_dates):
                 continue
             r = live[0]
@@ -435,6 +504,7 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
                 unreg.append((n, claim_dates, seg, far_hits[0][1]))
             continue
         claims += 1
+        assessed += 1
         top = [x for x in scored if x[0] >= scored[0][0] * 0.6]
         if any(r["start"] <= d <= r["end"] for _, r, _ in top for d in claim_dates):
             continue
@@ -442,6 +512,7 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
             # every matching row is TERMINAL (a past instance already resolved): the prose names a
             # NEXT instance with no row of its own — the reverse drift direction, INFO not DIVERGENCE
             unreg.append((n, claim_dates, seg, top[0][1]))
+            assessed -= 1
             continue
         nearest = min(top, key=lambda x: min(abs((x[1]["start"] - d).days) for d in claim_dates))
         _, r, hit = nearest
@@ -459,13 +530,19 @@ def check_view(prose_path, docket_path, as_of, min_score=1.0, section=None, skip
         for n, ds, seg, r in unreg:
             print(f"  {rel}:{n} [INFO unregistered?] {', '.join(d.isoformat() for d in ds)} “{short(seg, 60)}” — "
                   f"only far row L{r['line']} {r['span']} “{short(r['catalyst'], 40)}”")
+    footer = (f"DOCKET-PROSE-RESULT v1 rc={int(bool(flags))} matched={claims} "
+              f"dated={eligible} assessed={assessed} unassessed={eligible - assessed} "
+              f"ignored={ignored} generated=excluded")
     if flags:
         print(f"DOCKET-CHECK ⚠️  {len(flags)} divergence(s) in {rel}{scope} ({claims} dated claim(s) matched to DOCKET rows{tail}):")
         for n, kind, msg in flags:
             print(f"  {rel}:{n} [{kind}] {msg}")
+        print(footer)
         return 1
-    print(f"DOCKET-CHECK ✓ {rel}{scope}: {claims} dated claim(s) matched to DOCKET rows, all covered{tail}"
+    print(f"DOCKET-CHECK {rel}{scope}: {claims} dated claim(s) matched to DOCKET rows; "
+          f"{assessed} assessed; {eligible - assessed} unassessed; generated content EXCLUDED{tail}"
           + ("" if claims else " — ⚠️ ZERO claims matched: the surface may not be a DOCKET view, or the shapes differ (a clean line over zero matches proves nothing)"))
+    print(footer)
     return 0
 
 
@@ -554,7 +631,7 @@ def selftest():
         v2 = os.path.join(td, "view_ok.md")
         open(v2, "w", encoding="utf-8").write("**8/30:** AEOLUS Colorado ROD earliest-legal [8/30] · Baker Hughes rigs [8/21]\n")
         rc8, out8 = _run(["--check", v2, "--docket", dk] + asof)
-        drill("check: correct dates read CLEAN (negative control)", rc8 == 0 and "all covered" in out8 and "2 dated claim" in out8, f"rc={rc8}")
+        drill("check: correct dates read CLEAN (negative control)", rc8 == 0 and "assessed=2 unassessed=0" in out8 and "2 dated claim" in out8, f"rc={rc8}")
         # 9. weekday-label divergence
         v3 = os.path.join(td, "view_wk.md")
         open(v3, "w", encoding="utf-8").write("**SAT 8/21:** Baker Hughes rigs\n")
@@ -614,8 +691,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--write", metavar="PROSE", help="render into PROSE's marked block (SCRATCH)")
     ap.add_argument("--check", nargs="+", metavar="PROSE", help="diff dated claims in PROSE file(s) vs DOCKET; never writes")
+    ap.add_argument("--check-generated", metavar="PROSE", help="check generated block freshness; never writes")
     ap.add_argument("--docket", default=DOCKET_DEFAULT, help="DOCKET.tsv path (default PROME/DOCKET.tsv; use a snapshot for tests)")
-    ap.add_argument("--as-of", default=dt.date.today().isoformat(), help="window anchor date (default today)")
+    ap.add_argument("--as-of", default=et_today().isoformat(), help="evaluation date (default today in America/New_York)")
     ap.add_argument("--window", type=int, default=21, help="forward window in days (default 21)")
     ap.add_argument("--detail", type=int, default=7, help="days shown in full detail with weekday (default 7)")
     ap.add_argument("--chars", type=int, default=90, help="catalyst text cap inside the detail window (default 90; beyond it, about half)")
@@ -635,6 +713,16 @@ def main():
         print(f"ERROR: --as-of must be YYYY-MM-DD, got {a.as_of!r}", file=sys.stderr)
         return 2
     try:
+        if sum(bool(x) for x in (a.write, a.check, a.check_generated)) > 1:
+            raise DocketError("select only one of --write, --check and --check-generated")
+        if a.window < 0 or a.detail < 0 or a.chars < 1:
+            raise DocketError("window/detail must be nonnegative and chars positive")
+        if a.check_generated:
+            if a.skip_ragged:
+                raise DocketError("--check-generated refuses --skip-ragged")
+            return check_generated(a.check_generated, a.docket, as_of, window=a.window,
+                                   detail_days=a.detail, full_chars=a.chars,
+                                   brief_chars=max(24, a.chars // 2))
         if a.write:
             rc, _ = write_view(a.write, a.docket, as_of, dry_run=a.dry_run, budget=a.budget, window=a.window, detail_days=a.detail, full_chars=a.chars, brief_chars=max(24, a.chars // 2))
             return rc
@@ -644,11 +732,10 @@ def main():
                 worst = max(worst, check_view(f, a.docket, as_of, section=a.section,
                                               skip_ragged=a.skip_ragged, verbose=a.verbose, ignore=a.ignore))
             return worst
-    except DocketError as e:
+    except (DocketError, OSError, ValueError, UnicodeError) as e:
         print(f"DOCKET-VIEW ✗ rc 2 — {e} (nothing written)", file=sys.stderr)
-        return 2
-    except OSError as e:
-        print(f"DOCKET-VIEW ✗ rc 2 — {e} (nothing written)", file=sys.stderr)
+        if a.check_generated:
+            print(f"DOCKET-GENERATED-RESULT v1 rc=2 assessed=0 as_of={as_of}")
         return 2
     ap.print_help()
     return 2

@@ -301,8 +301,9 @@ def load_reads(path=None):
     if not os.path.isfile(p):
         return None, f"no manifest at {rel}"
     try:
-        lines = [l.rstrip("\n") for l in open(p, encoding="utf-8")
-                 if not l.startswith("#") and l.strip()]
+        with open(p, encoding="utf-8") as stream:
+            lines = [l.rstrip("\n") for l in stream
+                     if not l.startswith("#") and l.strip()]
     except OSError as e:
         return None, f"{rel} unreadable ({e.__class__.__name__})"
     if not lines:
@@ -1274,12 +1275,17 @@ def main(argv):
             # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
             # because it is clean, and `assessed=0` is the flag that says so.
             print(_result_line("agent", rc, 0, desk=name, reads=0, over_budget=0, over_cap=0,
-                               manifest_defects=0, advisories=0, generated_flagged=0))
+                               manifest_defects=0, advisories=0, generated_flagged=0,
+                               rotation_due=0, active_decisions_over_budget=0))
         else:
             _, n, nb, nc, _rows, defs, advs, gen = res
             print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
                                manifest_defects=len(defs), advisories=len(advs),
-                               generated_flagged=len(gen)))
+                               generated_flagged=len(gen),
+                               rotation_due=sum(r[2] >= BUDGET_BYTES * ROTATE_AT for r in _rows),
+                               active_decisions_over_budget=int(any(
+                                   r[1] == "PROME/ACTIVE_DECISIONS.md" and r[2] >= BUDGET_BYTES
+                                   for r in _rows))))
         return rc
     if "--fleet" in args:
         desks = fleet_desks()
