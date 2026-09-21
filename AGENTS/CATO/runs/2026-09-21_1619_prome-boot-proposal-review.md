@@ -2,6 +2,10 @@
 
 ## Current disposition
 
+**Phase 1 follow-up at `fbfe85e36`: B2/B3 accepted within the inspected scope; B1 PARTIAL.** Generated freshness now detects changed deadlines and date advances; the HANDOFF contract and declared budget integration are present; capability disclosure stays within existing controls. CATO reproduced the reported 60-test pass and independently checked the corrected malformed source-date cases. One surviving B1 counterexample: an impossible handwritten slash date such as `9/31 Alpha earnings (L2)` is discarded before coverage counting, so the gate reports EMPTY and passes; in mixed input it silently omits the invalid claim. See the follow-up below. Recommend one bounded coverage correction, preserving the accepted repairs. HANDOFF budget and manifest-attestation residue remain separate. No owner edits or sends; await owner disposition or assigned recheck.
+
+## Initial proposal disposition (historical)
+
 **Support the direction; tighten the first implementation batch before work begins.** Will requested help with PROME's concurrent boot-improvement work and supplied its conversation and proposal receipt. Reviewed proposal `7c8fcd566`, boot receipt `bbb8b8538`, and the specific read/calendar contracts below. This is proposal feedback, not implementation approval or certification of PROME's complete boot. No owner files, operating rules, messages, or BOARD state changed.
 
 The first useful batch is calendar coverage and read-budget reporting. Put HANDOFF contract reconciliation before budget implementation. Move runtime capability disclosure earlier using the existing capability model; a new generic capability framework is not established as necessary. Leave archival restructuring, shortened-log execution, and incremental boots for later bounded work. Existing stopped PROME/WALTER reviews are not reopened.
@@ -44,3 +48,43 @@ Entry Git state: master at `7c8fcd566`, two local PROME commits ahead of the exi
 Closeout checks: scoped whitespace check passed; weekday check passed on DOCKET, GATES, WILL_QUEUE and the two authored CATO files; orphan advisory identified only the preserved foreign ARGUS baseline. No threshold, STATUS, ledger, or auto-memory edits trigger the corresponding conditional checks.
 
 **Resume:** feedback delivered for Will's ongoing PROME conversation. Await the next proposed change or assigned bounded review; do not implement, send, launch, or reopen old residue automatically. Final exact-path commit and fresh-fetch push receipt are delivered in-session. Any shared push of PROME's already-committed work is separate from CATO's authored changes.
+
+## September 21 Phase 1 implementation follow-up — fbfe85e36
+
+**Scope:** Will supplied PROME's Phase 1 completion receipt while the support assignment remained active. Read the implementation plan, committed code/instruction changes, complete focused test file, and the two new ORCH_LOG review receipts. Git entry was master at `fbfe85e36`, no staged paths, only PROME's foreign ARGUS baseline modified. Source files inspected were clean against that revision. No production boot/closeout rerun, owner mutation, peer message, or new helper launch. Review-receipt contents are owner-recorded; native helper transcripts were not authenticated here.
+
+**Accepted portions:**
+
+- B1 generated freshness: the new CLI checks generated output separately using the caller's ET date/options, snapshots and identity checks. My own temporary fixture returned FRESH for a matching block, STALE after changing only the docket deadline, and STALE on a date advance without changing source or view. A handwritten edit does not stand in for generated freshness. Existing strict markers and snapshot failure cases are covered by the reproduced suite.
+- B2: BOOT and READS now both require whole-file HANDOFF reading; both boot skill copies carry the opening-disclosure pointer. The gate calls read-cap with `--require-manifest`, parses the structured assessment/rc/counts, and keeps memory separate. The reproduced suite exercises missing/absent manifests, wrong desk, contradictory results, size/manifest overlap and memory execution despite manifest failure. Accepted as declared-perimeter reporting, not proof the manifest is complete or HANDOFF is within budget.
+- B3: the opening instructions require actual-session tool evidence, distinguish native fleet from thread-local visibility, retain point-of-use authentication and allow unrelated work. No general capability subsystem was added. This accepts the instruction change, not execution in every subsequent boot.
+
+### B1 surviving instance — Medium: invalid handwritten dates disappear from coverage
+
+**Exact source:** `scripts/docket_view.py:363` (`md_date`) returns None for an impossible M/D date; `segments` removes None values. At lines 461–464, a segment with no surviving date is skipped before `eligible` is incremented. `PROME/tools/prome_gate.py:376` then labels dated=0 as EMPTY and accepts rc=0/unassessed=0.
+
+**Reviewer-designed counterexample, executed through the public CLI and gate summary:** create a temporary six-column docket with L2 = `2026-09-22 / Alpha earnings / ALPHA / PENDING / - / -`. Create a view headed `## Catalyst calendar` containing one generated marker pair plus the handwritten line `9/31 Alpha earnings (L2)`. Render with `--write`, `--docket <fixture>`, and `--as-of 2026-09-21`. Invoke both checks with the same source/date; prose also uses the production section and ignore options. Results:
+
+| Input/result | Observed |
+|---|---|
+| Generated block next to the malformed prose | rc=0; gate accepts FRESH, assessed=1 |
+| Handwritten `9/31 Alpha earnings (L2)` | rc=0; gate accepts EMPTY, matched=0, assessed=0, unassessed=0 |
+| Valid handwritten `9/22 Alpha earnings (L2)` control | rc=0; gate accepts assessed=1 |
+| Invalid and valid claims on one line, separated by a middle dot | rc=0; gate accepts assessed=1, unassessed=0; invalid claim disappears |
+| ISO-form impossible date `2026-09-31` | parser raises ValueError; unlike the slash-date case, the failure remains detectable |
+
+**Consequence:** the new coverage summary cannot distinguish a genuinely empty handwritten scope from recognized date-shaped text that failed validation. This violates the intended separation between empty and unevaluable prose. The older M/D parser behavior predates this batch; the new summary inherits that blind spot. This is not evidence of a missed live deadline or a defect in the generated block's comparison.
+
+**Concrete correction / completion condition:** preserve date-recognition/validation failure through the prose path and explicitly surface it as malformed or unassessed; do not silently drop it or label its scope empty. No new date vocabulary or broad parser rewrite is requested. Add the invalid-only and mixed-valid/invalid cases, plus a truly empty control, at the producer and gate-summary boundary. Respect the declared shared exit contract; if retaining prose rc=0, an unassessed/malformed count must make the advisory fail visibly. The generated freshness verdict remains independent. B1 stays PARTIAL until this case is corrected or its coverage limitation explicitly dispositioned by Will.
+
+### Verification receipt and remaining limits
+
+**Implemented by owner:** code and instruction changes in `fbfe85e36`; CATO changed only this report and continuity.
+
+**Tested by CATO:** `python3 -B -W error::ResourceWarning -m unittest PROME/tools/tests/test_boot_coverage.py PROME/tools/tests/test_prome_gate_gates.py PROME/tools/tests/test_capability_class_WQ239.py` passed 60 tests. Independent temporary fixtures reproduced the surviving counterexample, the generated positive/negative controls, and rc=2 rejection of dotted, Unicode-dash and compact numeric docket dates. The latter independently checks the final owner correction that the earlier result reader had not reread. No live state inputs were changed by these experiments.
+
+**Independent verification boundary:** acceptance above covers this owner implementation and named conditions only. It does not recertify prior CATO-authored boot hardening or instruction work. Owner-reported selftest totals and disposable full-gate runs were not repeated because no new concern required broadening beyond the executed suite and counterexamples.
+
+**Still unresolved:** B1 malformed handwritten-date coverage; owner-declared HANDOFF size breach and older manifest attestation; unavailable private/native tools remain capability limits. Structural cleanup, shortened-log execution and incremental boot remain deferred. No claim of faster boots, complete manifest coverage, all-green operational health, or production adoption follows.
+
+**Resume:** recommend the small B1 correction before calling Phase 1 fully accepted. Await Will/owner disposition or an assigned bounded recheck; do not repair active PROME files, reopen earlier reviews or begin Phase 2 automatically. Exact-path commit and fresh-fetch push receipt follow in-session; foreign ARGUS baseline remains preserved.
