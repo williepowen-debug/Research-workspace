@@ -8,7 +8,7 @@
 
 ## The contract being tested
 
-**U1 — verifier response** (`CHECKLIST:113–122`): four fields inside the existing word cap — **CLAIM CHECKED · EVIDENCE LOCATOR (or explicit absence/access limit) · SUPPORTING OBSERVATION · BOUNDED CONCLUSION.** A verdict missing fields 2 and 3 is not a verification result and is not routable. **Remedy for a missing field: ask the verifier, before relying on the verdict.**
+**U1 — verifier response** (`CHECKLIST:113–122`): four fields inside the existing word cap — **CLAIM CHECKED · EVIDENCE LOCATOR (or explicit absence/access limit) · SUPPORTING OBSERVATION · BOUNDED CONCLUSION.** A verdict missing fields 2 and 3 is **not a VERIFIED result** — it may not be cited as verification and no confidence may be claimed from it. ⛔ **It is NOT a bar on dispatch:** the signal may still travel **explicitly labelled unverified**, which is what `INDETERMINATE` already does. **Insufficient evidence blocks the CLAIM OF VERIFICATION, not the routing decision.** **Remedy for a missing field: ask the verifier, before relying on the verdict.**
 
 **U2 — own-conclusion check** (finalization): split WALTER's own most consequential sentence into **OBSERVED · INFERRED · UNKNOWN**; a prediction is not an observation; keep the direction of a conditional; say the unknown or delete the part.
 
@@ -20,8 +20,8 @@
 
 | | |
 |---|---|
-| **Old contract** | Verdict line only. *"FALSE — no primary source obtainable."* Routes to **KILL** as `framing-false` under the pre-v0.47 letter. |
-| **New contract** | Field 2 forces the **explicit access limit** (*"paywalled at publisher, not read"*). Field 3 has no observation, so **fields 2+3 fail the routable test** → verdict is not accepted as a verification result. Verdict grades **INDETERMINATE (b) INACCESSIBLE** per v0.47. |
+| **Old rules, stated accurately** | ⚠️ **AMBIGUOUS, not deterministically a kill.** The pre-v0.47 letter had **two** doors: `FALSE` (*"no primary source exists to support it"*) → KILL, **and** `INDETERMINATE` (*"verification inconclusive within time budget"*) → route at lowered confidence. **An inaccessible primary could land on either.** ⛔ **That OVERLAP is the defect CATO named — not that a kill was forced.** What was missing was any requirement to state the access limit, so the choice was invisible to a later reader. |
+| **New contract** | Field 2 forces the **explicit access limit** (*"paywalled at publisher, not read"*). Field 3 has no observation, so the response **cannot be cited as verification** → verdict grades unverified. Verdict grades **INDETERMINATE (b) INACCESSIBLE** per v0.47. |
 | **Verdict** | ✅ **PASS.** The claim ends **unresolved, not disproved.** Disposition stays a separate relevance/urgency call. |
 
 ## Case 2 — IRRELEVANT-BUT-REAL CITATION
@@ -30,7 +30,7 @@
 
 | | |
 |---|---|
-| **Old contract** | Passes. The `Validated — source cited` box is a **presence test** and the citation is present. ⚠️ **This is the case the old contract was least able to see.** |
+| **Old rules, stated accurately** | ⚠️ **NOT unguarded — the desk was not bare here.** Phase 1.5 carried source-language triggers, and the `CONFIRMED`-scope guard (v0.34) already said a CONFIRMED does not certify a **shape claim** built across figures. ⛔ **But none of those tests claim-to-evidence FIT for an ordinary non-shape claim**, and the `Validated — source cited` box is a **presence test** that the citation satisfies. ⇒ **this remained the case the old rules were least able to see.** |
 | **New contract** | Field 1 pins **the exact claim checked**; field 3 demands the **passage that bears on it**. The returned passage is about the adjacent claim, so **field 1 and field 3 do not match** — visible on the face of the response. |
 | **Verdict** | ✅ **PASS, and this is the case the change is really for.** ⚠️ **HONEST LIMIT: detection depends on a reader noticing fields 1 and 3 disagree. The contract MAKES THE MISMATCH VISIBLE; it does not force anyone to look.** The `Validated` box is now annotated to say it cannot see this, and the own-conclusion check is the second net. |
 
@@ -40,7 +40,7 @@
 
 | | |
 |---|---|
-| **Old contract** | One verdict for the whole sentence. Either FALSE (killing a true figure) or CONFIRMED (certifying an unverified ranking). ⚠️ **This is `SIG-W-20260921-005`, which shipped and needed correction by `-015`.** |
+| **Old rules, stated accurately** | ⛔ **CORRECTION TO AN EARLIER VERSION OF THIS ROW: it claimed the old letter forced FALSE-or-CONFIRMED. That was WRONG — `CORRECTED-framing` existed precisely for a summary that "overstated or misframed", and the `CONFIRMED`-scope guard already warned that verified figures do not certify a derived shape claim.** ⇒ **the old rules had a home for this case.** What they lacked is the requirement to state **the claim AS CHECKED**, so the level and the superlative were never separated into two claims. ⚠️ **`SIG-W-20260921-005` shipped the merged version anyway and needed `-015` — evidence that the available guard was not EXECUTED, not that it was absent.** |
 | **New contract** | Field 1 forces the claim to be stated **as checked** — so the level and the superlative are **two claims**. Field 4 bounds the conclusion to what was checked. U2 then splits the headline: **OBSERVED** = the August level; **UNKNOWN** = the cross-property ranking. |
 | **Verdict** | ✅ **PASS.** The supported part survives with its support; the unverified ranking cannot travel in the title or justify a downstream finding. ⚠️ **Note this is a retrospective replay of a defect already corrected — it demonstrates the contract's behaviour, not that it would have fired in the live session.** |
 
@@ -50,7 +50,7 @@
 
 | | |
 |---|---|
-| **Old contract** | Nothing checks the writer's own inference. ⚠️ **THIS IS WALTER'S ACTUAL ERROR OF 2026-09-21 — it wrote "and hadn't," asserting an observation the record does not contain.** Withdrawn only after CATO caught it. |
+| **Old rules, stated accurately** | ⛔ **CORRECTION TO AN EARLIER VERSION OF THIS ROW: it said "nothing checks the writer's own inference." That was WRONG.** `OPERATOR_BRIEF_SPEC` already required caveats to survive a summary **including the direction of a conditional**, and the `CONFIRMED`-scope guard already addressed over-reading evidence. ⇒ **the gap was COVERAGE AND EXECUTION at the final inference, not the absence of a rule.** ⚠️ **WALTER wrote "and hadn't" — asserting an observation the record does not contain — with those rules already in force.** Withdrawn only after CATO caught it. |
 | **New contract** | U2 splits it: **OBSERVED** = the record predicts a move · **UNKNOWN** = whether the move occurred, because **no dated price observation exists in the record**. The rule *"a prediction is not an observation"* names this case literally. |
 | **Verdict** | ✅ **PASS on the tabletop.** ⛔ **BUT THE STRONGEST CAVEAT IN THIS DOCUMENT ATTACHES HERE: the check would have had to be RUN. WALTER wrote that sentence while actively reasoning about evidentiary standards, and no contract self-executes.** **This case is the reason an unseen counterexample from a non-implementing reader is required and is NOT optional.** |
 
@@ -68,6 +68,8 @@
 ## Result
 
 **5 of 5 handled on the tabletop.** ⛔ **This is a design-behaviour result, not an operational one.**
+
+⚠️ **AND THE OLD-RULE COLUMNS WERE CORRECTED 2026-09-21 AFTER CATO OBJECTED.** The first version of this document **overstated how unguarded the old rules were** in cases 2, 3 and 4 — claiming `FALSE`-or-`CONFIRMED` was forced when `CORRECTED-framing` existed, and that *"nothing checks the writer's own inference"* when `OPERATOR_BRIEF_SPEC` already required conditional direction to survive. ⛔ **Overstating the old defect inflates the apparent value of the change, and it ran in the same direction as the day's other errors.** **The corrected reading is narrower and less flattering: in several of these cases a guard EXISTED and was not EXECUTED, which is a different problem from an absent rule — and one that new wording is less likely to fix.**
 
 **What is NOT established:**
 - **Live reliability.** Every case was chosen and graded by the change's author. `[[finding_adoption_is_not_validation]]`
