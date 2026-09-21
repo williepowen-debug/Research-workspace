@@ -51,7 +51,7 @@ Will-directed Sunday news catch-up, then **five rounds of CATO review**. **No th
 
 ### NEXT SESSION
 
-*(Session closed 2026-09-21 ~00:0x UTC — work is dated Sunday 2026-09-20 ET; the clock rolled during closeout. **Mon Sep-21 is a Japanese holiday** — Silver Week day 1 of 3.)*
+*(🔧 **SESSION SPAN CORRECTED from the commit clock, Will-flagged 2026-09-21:** boot **Sun 9/20 ~09:52 ET**, work through **Sun 19:17 ET**, resumed **Mon 9/21 08:03 ET**, closed **Mon ~09:1x ET**. The earlier stamp said the clock "rolled past midnight during closeout" — **it did not; the session BROKE overnight and the closeout ran Monday MORNING.** ⚠️ Dates on this desk are ET unless a row says JST. **Mon Sep-21 is a Japanese holiday** — Silver Week day 1 of 3.)*
 
 **TIER 0 — nothing overdue.** SAM-33 is the sole open row; next check **Sep-30 17:00 JST**.
 
@@ -62,7 +62,7 @@ Will-directed Sunday news catch-up, then **five rounds of CATO review**. **No th
 🆕 **Second lesson, same session: a live bar is not a session.** STATUS said *"intraday high today 157.34"* and the bar then ran to **158.054**. **Neither figure was wrong when written and neither was a session fact.** The 158 threshold row was assessed against an incomplete bar. ⚠️ **Re-derive FX levels from COMPLETED sessions at the next boot after any same-day mark** — the desk already has the WQ-162 basis that says so; what was missing is re-running it once the session closes.
 
 **TIER 1 — DATED, FORWARD:**
-0. 🔴 **Tue Sep-22 15:15 JST — THE BOJ OIS QUOTE EXPIRES** (`boj_ois.py:27 MAX_AGE=4d` on the Sep-18T15:15+09:00 source quote). ⛔ **NOT the Oct-30 date** — that is the separate DECISION expiry; publishing it as a refresh deadline was a 38-day error this session. ⚠️ Sep-22 is inside Silver Week ⇒ a **~2-day re-dark window is LIKELY but CONDITIONAL**: the expiry is known, **the publisher's holiday cadence is NOT verified.** If a fresh chart appears, that is the condition failing, not an anomaly. **Re-run `boj_ois.py --prepare-review` and transcribe it yourself — this is SAM's job, not Will's.**
+0. 🔴 **THE BOJ OIS QUOTE EXPIRES Tue Sep-22 15:15 JST = **Tue Sep-22 02:15 ET** (overnight in Will's timezone — nobody is awake for it)** (`boj_ois.py:27 MAX_AGE=4d` on the Sep-18T15:15+09:00 source quote). ⛔ **NOT the Oct-30 date** — that is the separate DECISION expiry; publishing it as a refresh deadline was a 38-day error this session. ⚠️ Sep-22 is inside Silver Week ⇒ a **~2-day re-dark window is LIKELY but CONDITIONAL**: the expiry is known, **the publisher's holiday cadence is NOT verified.** If a fresh chart appears, that is the condition failing, not an anomaly. **Re-run `boj_ois.py --prepare-review` and transcribe it yourself — this is SAM's job, not Will's.**
 1. **Mon–Wed Sep-21/22/23** Japan SHUT. Nothing to fetch; MOF curve will not publish.
 2. **Thu Sep-24** — BOJ 1.25% takes EFFECT, Tokyo reopens. **Re-pull the MOF curve** (Sep-18 + backlog) and **MOF weekly — check for a SHIFTED reporting week** before differencing. A reopen gap is mechanics, not a mechanism grade.
 3. **Fri Sep-25** — BOJ BIS banking stats Q2 (⛔ not the global GLI release, no v2.0 rearm); T-bill + liquidity-enhancement auction (**no super-long bearing**); **CFTC print 15:30 ET** (Sep-22 positions).
