@@ -90,9 +90,21 @@ def main():
     ap.add_argument("--sha256")
     ap.add_argument("--view", choices=("full", ORCH_VIEW), default="full",
                     help="Only orch-compact-v1 factors repeated UNKNOWN evidence-gap wording; other text stays full")
+    ap.add_argument("--read-state", type=Path, help="Optional outside-repo JSON for instruction read receipts")
+    ap.add_argument("--context-id", help="New ID after context loss, compaction, handoff or a new session")
+    ap.add_argument("--ack-read", action="store_true", help="Acknowledge consumed contiguous EOF using --sha256")
+    ap.add_argument("--reuse", action="store_true", help="Reuse acknowledged USER/BOOT instructions retained in this context")
     args = ap.parse_args()
     try:
-        print(json.dumps(page(args.path, args.offset, args.sha256, args.view), ensure_ascii=False))
+        if args.read_state:
+            from boot_reuse import read_with_state
+            result = read_with_state(args.path, page, args.read_state, args.context_id,
+                                     args.offset, args.sha256, args.view, args.reuse, args.ack_read)
+        else:
+            if args.context_id or args.reuse or args.ack_read:
+                raise ValueError("Read-state options require --read-state and --context-id")
+            result = page(args.path, args.offset, args.sha256, args.view)
+        print(json.dumps(result, ensure_ascii=False))
         return 0
     except (OSError, ValueError) as exc:
         print(json.dumps({"error": str(exc), "eof": False}))

@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -73,13 +74,61 @@ def run_once(run_dir, sessions_json=None):
     return result.returncode
 
 
+def run_refresh(run_dir, sessions_json=None):
+    """Fresh mechanical observations after a completed boot; never advance BOARD.
+
+    Keep the original claim/receipt untouched. An incomplete original is not a
+    baseline, and fresh read-only observations cannot turn it into one.
+    """
+    run_dir = Path(run_dir).resolve()
+    claim = {"repository": str(ROOT.resolve()), "mode": "boot"}
+    try:
+        attempt = json.loads((run_dir / "attempt.json").read_text())
+        done = json.loads((run_dir / "completed.json").read_text())
+        if not isinstance(attempt, dict) or not isinstance(done, dict):
+            raise ValueError("Malformed original receipt")
+        if any(attempt.get(k) != v or done.get(k) != v for k, v in claim.items()):
+            raise ValueError("Original boot belongs to another repository or mode")
+        if (type(done.get("returncode")) is not int or done["returncode"] not in (0, 1)
+                or done.get("incomplete") is not False or not (run_dir / "gate.txt").is_file()):
+            raise ValueError("Original boot incomplete or completion invalid")
+        stamp = dt.datetime.fromisoformat(attempt["attempted_at"])
+        if stamp.tzinfo is None or stamp > dt.datetime.now(dt.timezone.utc):
+            raise ValueError("Original observation time invalid")
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f"UNKNOWN: refresh requires a valid completed original boot ({exc}); NOT run.")
+        return 2
+    refresh = Path(tempfile.mkdtemp(prefix="refresh-", dir=run_dir))
+    receipt = {"repository": str(ROOT.resolve()), "mode": "refresh", "original_run": str(run_dir),
+               "observed_at": dt.datetime.now(dt.timezone.utc).isoformat(), "board_advance": False}
+    write_json(refresh / "attempt.json", receipt)
+    command = [sys.executable, str(ROOT / "PROME/tools/prome_gate.py"), "refresh",
+               "--log-dir", str(refresh / "checks")]
+    if sessions_json:
+        command += ["--sessions-json", str(Path(sessions_json).resolve())]
+    print(f"Fresh mechanical refresh; original boot unchanged; full output: {refresh / 'gate.txt'}", flush=True)
+    with (refresh / "gate.txt").open("x", encoding="utf-8") as output:
+        result = subprocess.run(command, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT)
+        output.flush()
+        os.fsync(output.fileno())
+    if result.returncode not in (0, 1, 2):
+        print("UNKNOWN: refresh interrupted or returned an invalid verdict; original boot unchanged.")
+        return 2
+    write_json(refresh / "completed.json", {**receipt, "returncode": result.returncode,
+                                           "incomplete": result.returncode == 2})
+    print(f"Fresh mechanical refresh rc={result.returncode}; read {refresh / 'gate.txt'} and named logs. "
+          "Manual/private steps still required; this is not a complete boot receipt.")
+    return result.returncode
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--run-dir", required=True, help="Choose ONCE per boot; reuse on retries")
     ap.add_argument("--sessions-json", help="Optional fresh same-host session_bridge snapshot")
+    ap.add_argument("--refresh", action="store_true", help="Fresh non-advancing checks after a completed original boot")
     args = ap.parse_args()
     try:
-        return run_once(args.run_dir, args.sessions_json)
+        return (run_refresh if args.refresh else run_once)(args.run_dir, args.sessions_json)
     except (OSError, ValueError) as exc:
         print(f"UNKNOWN: {exc}; inspect the run directory before any further action.")
         return 2

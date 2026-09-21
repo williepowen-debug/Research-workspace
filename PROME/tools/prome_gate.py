@@ -1283,7 +1283,7 @@ def check_orch_closeout():
                "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.")
 
 
-def mode_boot():
+def mode_boot(advance_board=True):
     check_orch_closeout()
     run_capability("machine credentials (env_doctor)",
                    [sys.executable, "scripts/env_doctor.py", "--quiet"],
@@ -1293,7 +1293,8 @@ def mode_boot():
                    tracker="238")
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical; fix the trade surface")
-    run_script(BLOCK, "board_scan", [sys.executable, "PROME/tools/board_scan.py", "--advance"],
+    run_script(BLOCK, "board_scan", [sys.executable, "PROME/tools/board_scan.py"] +
+               (["--advance"] if advance_board else []),
                "BOARD action line ⇒ disposition before proceeding (§3.5.4)")
     # 9/11 (Will "ok go ahead" 13:37 ET): the third-party check on the §3.5 EXEMPT desks. CARL's 9/1→9/11
     # skipped scan was invisible on every surface either side keeps (§3.5.6 at a second desk); this reads BOTH
@@ -1418,7 +1419,7 @@ def mode_closeout(tier=None):
 def main():
     global LOG_DIR, SESSION_JSON
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
-    ap.add_argument("mode", choices=["boot", "closeout"])
+    ap.add_argument("mode", choices=["boot", "refresh", "closeout"])
     ap.add_argument("--log-dir", type=Path, help="New directory for complete child-check output")
     ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
     ap.add_argument("--tier", choices=["bounce", "light", "standard", "heavy"],
@@ -1441,6 +1442,8 @@ def main():
     try:
         if args.mode == "boot":
             mode_boot()
+        elif args.mode == "refresh":
+            mode_boot(advance_board=False)
         else:
             mode_closeout(args.tier)
     except BaseException as e:
