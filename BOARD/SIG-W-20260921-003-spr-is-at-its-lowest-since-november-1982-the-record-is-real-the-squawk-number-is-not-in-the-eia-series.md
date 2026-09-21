@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-003
 date: 2026-09-21
-timestamp: 2026-09-21T15:3xZ
-time_dispatched: 2026-09-21T15:3xZ
+timestamp: 2026-09-21T15:1xZ
+time_dispatched: 2026-09-21T15:1xZ
 source: WALTER
 origin: ["Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 7 of 9 (batch BM-20260921-01): LiveSquawk + First Squawk, two independent relays, both '284.6M bbls last week, lowest since 1982'", "WALTER PRIMARY READ 2026-09-21: EIA weekly series WCSSTUS1 (U.S. Ending Stocks of Crude Oil in the SPR) at eia.gov", "WALTER corroboration of the RECORD claim and the 12-month drawdown at multiple outlets citing EIA"]
 domain: OIL_ENERGY

@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-008
 date: 2026-09-21
-timestamp: 2026-09-21T16:1xZ
-time_dispatched: 2026-09-21T16:1xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:14Z, item 2 of 7 (batch BM-20260921-02): @jasongoepfert (SentimenTrader), with a StockCharts panel stamped 19-Sep-2026"]
 domain: MARKET_VOL

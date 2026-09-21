@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-013
 date: 2026-09-21
-timestamp: 2026-09-21T17:5xZ
-time_dispatched: 2026-09-21T17:5xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:23Z, items 1, 3, 4 and 6 of 6 (batch BM-20260921-03): @MoloWarMonitor; @Polymarket 10:32 AM 9/19/26; @FaytuksNetwork 1:09 PM 9/19/26; an undated incident map (OpenMapTiles/OpenStreetMap credit)", "WALTER verification 2026-09-21 of the German Musterung item only"]
 domain: GEOPOL_NON_ENERGY

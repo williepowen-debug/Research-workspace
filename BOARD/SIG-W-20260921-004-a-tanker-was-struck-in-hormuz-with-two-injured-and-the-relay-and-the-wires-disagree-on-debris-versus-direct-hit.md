@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-004
 date: 2026-09-21
-timestamp: 2026-09-21T15:4xZ
-time_dispatched: 2026-09-21T15:4xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 3 of 9 (batch BM-20260921-01): First Squawk, 'UKMTO: LPG TANKER HIT BY UNKNOWN PROJECTILE DEBRIS IN HORMUZ'", "WALTER verification 2026-09-21: Al Arabiya English 2026-09-21 and MarineLink, both reporting UKMTO"]
 domain: GEOPOL_ENERGY

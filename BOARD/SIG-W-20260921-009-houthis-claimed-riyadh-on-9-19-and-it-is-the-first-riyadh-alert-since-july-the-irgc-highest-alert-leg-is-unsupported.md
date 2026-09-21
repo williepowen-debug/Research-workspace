@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-009
 date: 2026-09-21
-timestamp: 2026-09-21T16:2xZ
-time_dispatched: 2026-09-21T16:2xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:14Z, item 6 of 7 (batch BM-20260921-02): @WarMonitor3 7:52 PM 9/19/26", "WALTER verification 2026-09-21 — which SURFACED the Riyadh event the batch card never mentioned: Reuters-sourced accounts via CNBC 2026-09-19, DAWN, JPost, RTE; plus CNBC 2026-09-20 on the State Dept alert"]
 domain: GEOPOL_ENERGY

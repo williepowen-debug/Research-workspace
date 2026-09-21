@@ -74,7 +74,7 @@ SAM's packet was authored **2026-09-20**, before this morning's tape. The only t
 
 ---
 
-## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:5xZ — a large manager says publicly it is ready to FADE an intervention
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:2xZ — a large manager says publicly it is ready to FADE an intervention
 
 *(Appended, not rewritten. Source: Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 6 of 9, batch `BM-20260921-01` — Bloomberg @business card, "5m" before capture.)*
 

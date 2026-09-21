@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-006
 date: 2026-09-21
-timestamp: 2026-09-21T15:5xZ
-time_dispatched: 2026-09-21T15:5xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 8 of 9 (batch BM-20260921-01): Redfin/MLS chart via Datawrapper, 'Number of Sellers Jumps to 6-Year High' — chart image only, no article link and no publication date in the capture"]
 domain: HOUSING

@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-011
 date: 2026-09-21
-timestamp: 2026-09-21T17:4xZ
-time_dispatched: 2026-09-21T17:4xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:23Z, item 2 of 6 (batch BM-20260921-03): @zerohedge 3:27 PM 9/19/26, quoting a Nikkei headline and adding its own framing", "WALTER verification 2026-09-21 at Nikkei Asia's own report and two independent relays carrying the yen figure"]
 domain: PRIVATE_CREDIT

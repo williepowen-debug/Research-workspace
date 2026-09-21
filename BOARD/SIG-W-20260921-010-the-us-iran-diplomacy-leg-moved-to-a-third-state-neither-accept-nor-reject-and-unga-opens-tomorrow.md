@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-010
 date: 2026-09-21
-timestamp: 2026-09-21T17:0xZ
-time_dispatched: 2026-09-21T17:0xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["WALTER Iran-anchor re-verify, diplomacy leg, 2026-09-21 — run because the boot found two of the anchor's own registered re-verify triggers had apparently fired since the 2026-09-17 full sweep", "CNBC 2026-09-21 (Pezeshkian to New York; Trump no-deal consequences); Fox-reporter relay via Investing.com / Breitbart / The Week 2026-09-20 (Trump 'open' to meeting); UNGA high-level week calendar"]
 domain: GEOPOL_NON_ENERGY

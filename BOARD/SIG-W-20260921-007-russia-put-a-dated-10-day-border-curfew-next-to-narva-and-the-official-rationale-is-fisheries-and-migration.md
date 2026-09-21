@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-007
 date: 2026-09-21
-timestamp: 2026-09-21T16:1xZ
-time_dispatched: 2026-09-21T16:1xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 6-image batch 2026-09-21 ~15:14Z, item 5 of 7 (batch BM-20260921-02): @FaytuksNetwork 6:15 AM 9/20/26, carrying an image of a Russian border-directorate notice", "WALTER verification 2026-09-21: ERR (Estonian Public Broadcasting) news.err.ee, Militarnyi, Baltic Flank (Holger Roonemaa)", "Will-Telegram batch item 1 of 7: @The_Cold_Wars 12:33 PM 9/20/26 — carried below as an UNVERIFIED LEAD, not as a claim"]
 domain: GEOPOL_NON_ENERGY

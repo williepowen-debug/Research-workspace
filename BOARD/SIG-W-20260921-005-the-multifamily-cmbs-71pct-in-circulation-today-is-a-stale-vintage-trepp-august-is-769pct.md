@@ -1,8 +1,8 @@
 ---
 signal_id: SIG-W-20260921-005
 date: 2026-09-21
-timestamp: 2026-09-21T15:5xZ
-time_dispatched: 2026-09-21T15:5xZ
+timestamp: 2026-09-21T15:2xZ
+time_dispatched: 2026-09-21T15:2xZ
 source: WALTER
 origin: ["Will-Telegram 7-image batch 2026-09-21 ~15:08Z, item 2 of 9 (batch BM-20260921-01): @danjmcnamara 8:18 AM ET 9/21/26, quoting a Morgan Stanley report, linking WSJ 'Apartment Landlords Have a $2 Trillion Debt...'", "WALTER verification 2026-09-21: current Trepp multifamily CMBS DQ = 7.69% [August 2026, unchanged MoM] via Multifamily Dive", "HOMER's own workbook/MULTIFAMILY.tsv trajectory rows (Feb 7.12 / Mar 7.15 / Apr 7.71 ATH)"]
 domain: BANK_CRE
