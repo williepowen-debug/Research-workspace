@@ -2,7 +2,7 @@
 
 **Status:** Elevated, active Russia/Ukraine energy campaign. **Ukraine hit Moscow 19→20 Sep in the war's largest single-night barrage (1,110 drones downed / 19 regions) and reached the capital's refinery — but no mark moves**; crude-flow recovery persists.
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-09-20 (Sun) | **STATUS commit: `34172eb5a`**
+**As of:** 2026-09-21 | **STATUS commit: `88730d41d`**
 
 🔥 **2026-09-20 catch-up:** `Moscow Oil Refinery` (Kapotnya, Gazprom Neft, ~11 Mt/yr, ~40% of Moscow's fuel) **HIT + on fire** overnight 19→20 Sep. ⛔ **ONLY the strike + fire is confirmed** — the 'ELOU-AVT-6 destroyed' unit detail is Russian-Telegram-sourced and **verbatim-matches a JUNE-2026 strike on the same plant** (suspected vintage; NOT banked; +5d re-read owed ~9/25, OWED-43). New C1 anchor 0/30. **Capacity, not barrels — band ~30% and scores 4/5/3 unchanged.** Theater sweep 9/17→9/20 found **no other qualifying event** (C2 no new berth loss; C3 no new Ukraine-side tanker — the '12 vessels' story is 7/17 vintage). This was a targeted catch-up, NOT a certified in-window pass.
 
@@ -55,7 +55,7 @@
 - 🔑 **Calibration event this session, recorded against myself:** my founding lesson (HAW-15 — trusting a gappy own-ledger as a baseline) **recurred**. A missing 9/8 row inside a certified-swept window caused me to compute a false kill-clock alarm, which I then falsified. **Both the alarm and its refutation are kept in the record, in order.** A desk that only publishes its corrected answer is indistinguishable from one that never erred.
 
 ## NEXT DECISION POINT
-**Will's word on the OWED-39 drawing (L396, 9/19) is the only live decision, and it is his, not mine.** Then: backfill sweep of 9/01→9/16 for further ledger holes, sweep 9/17–18, decree authentication, Komysh vessel identity, actual unit restart/throughput. **No new research cadence, threshold change or trade proposal authorized by this session. Nothing self-ruled.**
+**TWO live Will-gated decisions:** (1) ⚖️ **NEW — C1 (refineries) upgrade 4→5:** the written trigger's "independent >40% offline aggregate" limb is MET (S&P/CERA ~50% capacity offline); must ship WITH a proposed capacity-based 5→4 downgrade test (RECONCILIATION_2026-09-20.md); OSPREY rec = upgrade, NOT self-moved. (2) the OWED-39 C2 drawing (L396, 9/19), rec B. ⛔ **Limb 2 (C3) = UNDETERMINED per HAWK (KB-147)** — not "runs against a kill"; the newer limb-2 grade request stays pending with HAWK. Deferred coverage: full 9/17→9/20 pass (mark stays 9/16), +5d Moscow re-read ~9/25. **No threshold/trade self-ruled; C1 self-scored held pending Will.**
 
 ## WATCH
 | Date | Event | Signal |
@@ -67,4 +67,4 @@
 | 10/6 | L309 feed acceptance | Existing recall and precision test, unchanged. |
 | 10/8–15 | OSP-06 dated search obligation | Named series; final window 10/15. |
 
-**Coverage / declared residue (2026-09-20):** ⛔ **`swept-complete` mark still 2026-09-16 — NOT advanced.** This boot was a targeted catch-up on the Moscow barrage + a theater scan 9/17→9/20, NOT a full day-by-day facility-name-free in-window pass (LESSONS 3). Major events covered (Moscow refinery rowed); long-tail not certified. ✅ **`strike_feed.py` RUN** (29 rows, 22 NONE all dispositioned, recall leg passed — it independently surfaced the Moscow refinery); **militarnyi EMPTY again** (NOT_READ). **No channel individually killed; theater clock not running.** ⚠️ **NEW: US 'Sanctions from Hell' bill (9/19) surfaced by the feed — Russia energy-sanctions scope, NOT worked, follow-up owed.** Handoffs DELIVERED on commit; **receiver integration UNKNOWN**.
+**Coverage / declared residue (2026-09-21):** ⛔ **`swept-complete` mark still 2026-09-16 — NOT advanced; the full 9/17→9/20 facility-name-free pass is DEFERRED, not done.** This was a targeted catch-up + theater scan, NOT a certified in-window pass (LESSONS 3). ✅ **`strike_feed.py` RUN** (29 rows, 22 NONE dispositioned); ⚠️ **the feed re-surfaced the Moscow refinery I had ALREADY rowed = successful OVERLAP, NOT a demonstrated manual-miss catch (CATO)** — the recall-success claim is narrowed; **militarnyi EMPTY again** (NOT_READ). Feed dispositions + MATCHES gitignored + same-day-overwritable (OWED-45). **No channel individually killed; theater clock not running.** ⚠️ US 'Sanctions from Hell' bill (9/19) surfaced, NOT worked, follow-up owed. Handoffs DELIVERED on commit; **receiver integration UNKNOWN**.
