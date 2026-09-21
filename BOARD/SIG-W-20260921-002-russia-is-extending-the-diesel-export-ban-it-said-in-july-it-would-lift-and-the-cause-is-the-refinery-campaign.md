@@ -64,3 +64,23 @@ OSPREY logged the 19→20 Sep Moscow barrage this morning as **`RU-20260920-MOSC
 ## CROSS-REFS
 
 `RU-20260920-MOSCOW-REFINERY` / KB-OSPREY-142 (OSPREY, 2026-09-21) · `HEN-46` (HENRY diesel-crack falsifier) · `HANS-T-15` leg (b) · ROUTING_OVERLAYS boundary **#8** (Brent 3:2:1, month-dependent, **with Will**) · `THRESHOLD_SCAN.md` v0.46 § CROSS-SERIES ROLL DESYNC · `SIG-W-20260921-003` (SPR, same batch, same day) · WALTER `kill_log` 2026-09-21 (the Moscow-barrage lane item, killed ALREADY-OURS because OSPREY had it first).
+
+---
+
+## 🔄 ADDITIVE ANNOTATION 2026-09-21T16:2xZ — the strike specifics, and a CAPACITY figure that is one retelling from becoming a loss figure
+
+*(Appended, not rewritten. Source: Will-Telegram 6-image batch 2026-09-21 ~15:14Z, batch `BM-20260921-02`, items 3 / 4a / 4b.)*
+
+A second Will batch carried three more cards on the **same Moscow strike OSPREY already logged** as `RU-20260920-MOSCOW-REFINERY`. **The event is not new to this board and is not re-dispatched.** Three things in them are new, and one carries a registered guard.
+
+**① The refinery is named, and a CAPACITY figure is attached.** @jackprandelli: *"The **Kapotnya** refinery in Moscow is on fire… **Kapotnya processes 11m tonnes of oil a year** and supplies a major share of Moscow's fuel market."* Also: *"Multiple fires… a nearby warehouse complex in **Sofyino** was also struck."*
+
+🔴🔴 **THE 11m-TONNES FIGURE IS A TIER-1 CAPACITY NUMBER AND `ADD#24` FIRES ON IT DIRECTLY: *a tier-1 CAPACITY figure is the next day's LOSS figure.*** This is the Abqaiq *"~7 mb/d"* class, which is **kill-on-sight** on this anchor precisely because throughput capacity gets re-quoted as volume lost. ⛔ **Nothing establishes that Kapotnya has stopped processing, or by how much.** **11m t/yr is what the plant CAN do, not what it has lost.** ⇒ **the figure may travel only welded to the word CAPACITY, and any sentence of the form "11m tonnes offline" is KILL-ON-SIGHT.**
+
+**② The drone counts do not reconcile, and they count different objects.** @jackprandelli: *"**1,600+ drones downed since Saturday, 450 aimed at Moscow**."* Against the wire set already in WALTER's `kill_log` for this event: **BBC "hundreds"**, **PBS "over 1,000 drones at Russia, including the largest-ever attack on Moscow."** ⚠️ **Three figures, at least two denominators** (drones at Russia overall vs drones reaching Moscow) **and one contested time window** ("since Saturday"). ⛔ **No count may be quoted without naming which object it counts and over what window** — the mixed-denominator class, same as the Bab el-Mandeb and Hormuz denominators already killed on this anchor.
+
+**③ A NEW capability claim, unverified.** @WarMonitor3: Ukraine *"tested new long-range weapons, including the **Flamingo cruise missile**."* ⛔ **WALTER did not verify this and it is not corroborated here.** It is a *capability* claim, not a damage claim, and it belongs to **OSPREY/HAWK** to check. ⚠️ Flagged additionally because **"cruise missile" is the exact word that collides with the CRUISE desk's lane** — the standing collision CRUISE itself documented — so it must not be allowed to route on the token.
+
+**④ The attribution leg STRENGTHENED, and this is the one that cuts toward OSPREY's grade.** @TheInsiderP: *"BREAKING: **Zelensky confirms** Ukraine launched a massive drone attack on Russia, targeting a major oil refinery among other sites in Moscow region."* ⇒ **a head of state confirming his own state's action is the strongest attribution available for this event**, and it is materially better than the OSINT relays. ⚠️ **He is primary for *what Ukraine did*, never for *what damage resulted*** — the standing ADD#22 split.
+
+📌 **DISPOSITION: recorded here, NOT re-dispatched.** OSPREY holds the event, named Kapotnya, and graded it **CAPACITY-NOT-BARRELS this morning**. ⚠️ **But note the tension this annotation puts on that grade and let OSPREY resolve it: the capacity figure above is the exact quantity the grade turns on, and the export-ban extension in the body of this signal is the mechanism that would convert it.** **OSPREY's call, not WALTER's.**
