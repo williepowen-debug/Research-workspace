@@ -1,19 +1,64 @@
+# SCRATCH history — Phase 2, 2026-09-21
+
+## Phase 2 source snapshot — 2026-09-21
+
+ARCHIVED / HISTORICAL: exact pre-change PROME/SCRATCH.md at 0d104a775; not a live work queue or a boot read.
+Live obligations: PROME/SCRATCH.md and PROME/plans/2026-09-21_boot-phase2-continuity.md.
+Snapshot bytes: 25943 B; crc32: 2236125182 (measure.py, final newline included).
+Recompute by extracting bytes strictly after the BEGIN marker newline and before the END marker, then invoking PROME/tools/measure.py on the extracted file; compare to git show 0d104a775:PROME/SCRATCH.md.
+
+<!-- PHASE2 SCRATCH SNAPSHOT BEGIN -->
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-21 — Phase 2 continuity cleanup authorized by Will; this is a document-state update, not a market refresh or a new boot receipt.
-**This file carries the resume point and information registered nowhere else. DOCKET, GATES and WILL_QUEUE own their records; generated views below are preserved.**
-History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase2.md); it includes the prior rotation pointers and exact superseded session blocks. Re-check size at any append or on 2026-09-28, whichever first, using `scripts/read_cap_check.py --agent PROME --require-manifest`.
+**Last Updated:** 2026-09-21 14:59 ET (PROME `prome-79bb2c59`, DESKTOP-BC6EF81 — **PARTIAL closeout on Will's word** after two CATO independent-family review cycles; markets OPEN. **The 2026-09-21 PROME-79bb2c59 block below is the resume point** — the earlier `prome-4f` 2026-09-20-EVENING block has been superseded by the intervening four Tier-1 spawns and their receipts.) *Prior:* 2026-09-21 08:5x ET (PROME `prome-4f`, STANDARD closeout ahead of laptop→desktop switch). Prior full stamp chain + rotation provenance → earlier `SCRATCH_ROTATED_*` files + `git log -p -- PROME/SCRATCH.md`.
+**This file carries what no generator carries. Registered rows are POINTERS here, never restatements (the targeted-update rule, `PROME/CLOSEOUT.md` § The routine).**
+*★NEXT prose prior to **this (2026-09-17 22:0x ET `prome-b0`) rewrite** — the 2026-09-17 `prome-89` THIRD-session block — rotated verbatim → `PROME/archive/SCRATCH_ROTATED_2026-09-17_prome-89.md` (receipt: crc32 in that file's header, reproduce each receipt as THAT archive's own header defines it (delimited spans for the 9/17–9/18 files; earlier files define theirs differently)); the `prome-b0` FOURTH-session block → `SCRATCH_ROTATED_2026-09-17_prome-b0.md` (crc32 2432035030) and the `prome-2a` FIFTH-session block → `SCRATCH_ROTATED_2026-09-18_prome-2a.md` (crc32 1681391643), both rotated 2026-09-18 by `prome-0e`. Earlier rotations: `SCRATCH_ROTATED_2026-09-16_bounce.md` · `SCRATCH_ROTATED_2026-09-15_prome-9e.md` (crc32 3577971988) · `SCRATCH_ROTATED_2026-09-14_prome-54.md` (crc32 457275158) · `SCRATCH_ROTATED_2026-09-14_codex.md`.*
+*Previous header/NEXT narrative preserved verbatim in `PROME/archive/SCRATCH_ROTATED_2026-09-14_codex.md`; its historical unfinished-code claims are superseded by the linked completion receipts.*
 
 ## ★ NEXT SESSION — START HERE
 
-**Current work:** Phase 1 boot coverage and the malformed handwritten-date follow-up are delivered (`fbfe85e36`, `0d104a775`); Phase 2 is the continuity cleanup described in [its record](plans/2026-09-21_boot-phase2-continuity.md). Use that record for review/acceptance status. Shorter log reads and incremental boot remain deferred; existing full-log requirements still apply. No production boot has been rerun; private Artifact pickup and native fleet preflight remain unavailable in this Codex session.
+**2026-09-21 AFTERNOON (`prome-79bb2c59`, DESKTOP — boot 10:57 ET on ff-only pull failure (pre-supersession `argus_review.json` from 9/19 18:44 dirty); PARTIAL closeout 14:59 ET on Will's word after two CATO review cycles; markets OPEN. $0 moved · no gate graded BY PROME · no threshold set/moved/fired · no trade proposed.)**
 
-**Resume sequence:** read [HANDOFF](HANDOFF.md) for decisions, material caveats and unresolved historical tails, then [STATUS](STATUS.md) for selected PROME work. Do not reopen old “owed” narrative without checking its owner record. Do not treat a delivery receipt as a registrar disposition or an independent acceptance.
+✅ **FOUR TIER-1 SPAWNS ALL DELIVERED AND CLOSED** (BROCK · HENRY · BRENT · HAWK); ORCH_LOG four rows carry structured `closeout_v1={...}` evidence; all parse to ASKED_RECEIPT. Substance summary → [HANDOFF](HANDOFF.md) top entry.
 
-**Operator matters:** WQ-274 is the transaction/current-book verification carrier; WQ-272 corrected only a historical standing snapshot. WQ-275's requested fifth-spawn exception belonged to the prior boot and grants no authority here. WQ-276 retains the end-August/September-unmeasured refinery limitation and the C3 clock/consumer-state caveats in HANDOFF. Read actual current rulings before acting. WQ-265/L393 carry publication cost; WQ-238 keys and WQ-273 safeguard demonstration retain their own states.
+🟡 **TWO ⚖️ ITEMS WITH WILL, BOTH STILL OPEN:** WQ-275 (FALCON 5th-spawn cap-override slate; UNGA opens 9/22; PROME rec DEFER) · WQ-276 (OSPREY C1 upgrade trigger MET; refinery ~50% figure is end-Aug est reported 9/3; C3 kill-clock is 10/3 not 9/24; PROME rec (iii) UPGRADE-WITH-SUCCESSOR).
 
-**Immediate follow-through:** the next operational boot must consume current owner evidence for GATE-TERRY-007's 9/22 start window/9/30 expiry, OSPREY C3's 10/3 clock, L434's dated disposition and HENRY's owner-scheduled close remeasure. No fresh grade is implied here. Preserve L432's unread-primary caveat, HAWK's unconsumed SIG-014 correction, WALTER's pending independent acceptance and Saudi-export assignment gap. Receipt-vs-docket disagreements for BROCK/BRENT are explicitly carried in HANDOFF.
+⚠️ **WALTER STATUS (Will-directed correction):** CATO-S2 verdict-letter fix IMPLEMENTED/COMMITTED at `cb43e637f`; **INDEPENDENT ACCEPTANCE PENDING**. Fix is not yet installed in the checklist file and has not been read by a cross-family reader. Any earlier PROME framing of *"WALTER hasn't booted to consume"* is stale.
 
-**Maintenance boundaries:** READS completeness remains unrecertified; Phase 2 size reduction does not renew its old attestation. The foreign ARGUS baseline is untouched; it advances only after ARGUS delivers a ledger. Historical orchestration UNKNOWNs and scoped-review limitations remain visible; no backfilled receipts. LESSONS split, the two stale embed rows, the RH-satellite no-Mark gap and the older engineering/consumer-read tails are indexed in HANDOFF rather than repeated here.
+⛔ **EXPLICIT RESIDUE (no new repairs or obligations per Will 14:59 ET):**
+- L432 wording — unread evidence (mil.ru, № 671/№ 673, OCR-unavailable № 661/№ 674 bodies) can change the verdict; grade remains PARTIAL. No PROME-scheduled next check.
+- Memory over-generalization — `finding_adopted_rule_drifts_toward_the_cheaper_test` narrowed twice; body now purely observational, n=1, mechanism-claim withdrawn, no promotion criteria attached.
+- Receipt-provenance limits — HAWK observed_at has minute-level precision; sub-minute UNKNOWN from PROME's own logs; HAWK's shutdown_request approval not observed at write time (disclosed).
+- Historical ORCH_LOG UNKNOWNs — pre-2026-09-21 rows without `closeout_v1=` markers still return UNKNOWN; not backfilled per Will's scope discipline.
+- HAWK adoption of WALTER's SIG-014 correction — pending; HAWK terminated; packet in inbox for next-boot consumption.
+- WALTER verdict-letter implementation — IN-FLIGHT (implemented not verified); WALTER's next boot or a cross-reader closes.
+- Saudi-export leg — UNOWNED; WALTER's next boot picks up if unassigned; Will already has the gap directly from WALTER.
+
+⛔ **SKIPPED CONTROLS THIS SESSION (per Will's 9/17 rule):**
+- Deck republish — deferred per Will's 9/17 cost instruction (existing WQ-265 already puts the cost decision to Will).
+- Fleet-wide method-guard canon amendment — SKIPPED AND WITHDRAWN AS CANDIDATE (WALTER retracted the source rule); not a skip that owes work.
+- Spine audit — not due (1 day old, well inside 7d).
+- LESSONS.md SPLIT (BROCK-flagged) — SKIPPED per Will's no-new-repairs directive; carried.
+- Dashboard/Helm/Deck regeneration — SKIPPED; no market-facing state materially changed (HENRY intraday board flipped positive but re-measure is HENRY-owned self-scheduled at official close).
+
+**Live edges for the next-session boot to consume:**
+- 🔴 `GATE-TERRY-007` executability window — a NEW DGS10-close-<4.50 five-streak must BEGIN by Tue 9/22 (tomorrow) or the 9/30 004 TLT expiry moots the gate. 44bp above the line as of 9/17 H.15.
+- 🟠 OSPREY C3 kill-clock 10/3 (anchor ARMADA LEADER 9/12); limb 2 = OSPREY-consumer UNDETERMINED + HAWK-latest YES-to-repricing UNCONSUMED — both states co-exist.
+- 🟠 L434 10/02 disposition (rule now: nothing new by date → CLOSED UNRESOLVED-BY-DATE; the (b) conversion-if-happens branch stays).
+- 🟠 HENRY 9/21 official-close gamma re-measure (HENRY-self-scheduled via its own MEMORY §NEXT).
+
+---
+
+*Prior ★NEXT session block — 2026-09-20 EVENING `prome-4f` — kept below as historical continuity; superseded as the resume point by the block above. Rotate at the next PROME closeout if breach approaches.*
+
+**2026-09-20 EVENING (`prome-4f` session — boot 12:00 ET on Will's *"continue leftover tasks"*; ⚖️ WQ-272 authorized + executed, spine audit #14 run; markets CLOSED). $0 moved by PROME; no gate graded; no threshold set/moved/fired; no trade proposed.**
+
+✅ **WQ-272 EXECUTED — the mirror's 2026-09-16 STANDING SNAPSHOT was corrected (operator-authorized), all FOUR acceptance conditions MET. ⛔ NOT a full reconcile — transaction reconcile + current-book verification stay OPEN at WQ-274, per Will 2026-09-20; do NOT call the book fully reconciled.** Six standing cells written (AAPL 15→10 · TBT 14→10 · GLD 16→17 · Fidelity cash →$22,192.87 · total →$39,779.11 · RH →$454.33; USO 37 control agrees), FORGE 43,544→**32,265 B under cap** (rotation → `_archive/STATUS_ROTATION_2026-09-20.md`, crc32 379804408), dashboard re-bound GREEN (`68c688a57` reconcile+rotation+rebind · `a1a9bc6ad` dashboard snapshot), TERRY fixed the parser so VLO reaches the dashboard (`cfd9b9115`, 14 live). ⚠️ **STANDING VALUES ONLY — NOT a transaction reconcile.** ⛔ **STILL OWED FROM WILL: the Fidelity Activity view** — the AAPL−5 / TBT−4 / GLD+1 fills have NO date/price (D-56 OPEN; L448). Also D-55 (VLO account/time), D-57 (two RH Sep-16 contracts), D-58 (four expired-unbooked rows).
+
+✅ **Spine audit #14 DONE** (STATUS stamp) — 2 blocking (WQ-271→272 stale id in STATUS+SCRATCH) + 5 minors fixed; HEARTBEAT stale ANVIL-cell corrected (CATO point 2). ✅ **L221** status cell reconciled · **L254** resolved (successors L424+REGINALD preserved) · **WQ-273** registered then PARKED (retired-claim sweep deferred to a PROME safeguard demo on DOCKET L183 + a dated MARKET_DATA row — TERRY-verified 0-for-2 risk baked in as acceptance conditions 8-10) · SAM memory double-list cleared + new slug `finding_self_audit_finds_instrument_errors_not_record_errors`.
+
+⛔ **OWED, NAMED:** DOCKET **L449 + L424 now RESOLVED in DOCKET this closeout** (L449: the "7 errors" reproduced REAL then re-bound green; L424: ANVIL receipt pass committed) · WQ-272 transaction reconcile (Will's Activity view → L448/D-56) · **Robinhood satellite table has NO Mark column** ⇒ its rows can't be machine-valued (FORGE data-shape gap, TERRY flagged, not urgent) · the USO 150/165 management row could repoint to its 9/10 receipt (nicety; FORGE-bound, re-verifies fine) · WQ-238 keys + WQ-273 safeguard demo · the 2 embed-pending-stale memory rows (need a fleet target-artifact audit).
+
+*Prior ★NEXT session blocks — the prome-4f OWED block (superseded by the block above) + prome-92 (2026-09-19) + earlier — ROTATED VERBATIM 2026-09-21 → `PROME/archive/SCRATCH_ROTATED_2026-09-21.md` (crc32 3618904349 over 9818 B, round-trip verified). Their carries ride their own rows.*
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 - ⛔ **Token exhaustion is an UNPLANNED CLOSEOUT.** Every closeout protection assumes PROME picks the moment to stop. Running out of Anthropic usage hands off mid-task to CATO, which reads FILES, not the session. ⇒ **keep this ★NEXT survivable THROUGHOUT a session, not written at the end.**
@@ -31,7 +76,7 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 *Beyond the window: 37 row(s); next = 2026-10-13..2026-10-22 L170 WAL Q3 print + deck slide 12 — ⚠️ FRAME-BEFORE-FI….*
 <!-- DOCKET-VIEW END -->
 ## Operator card
-- **As of this document update:** 2026-09-21; market data was not refreshed. Before using levels, follow BOOT’s live-data step; `HEARTBEAT.md` owns regime vintage. **STAND DOWN on new energy capital (WQ-192) holds.** WQ-272 corrected the 9/16 standing snapshot only; WQ-274 owns the open transaction reconcile/current-book verification. Current dates and Will items come from the generated views and their canonical records, not this narrative.
+- **Today:** Mon 2026-09-21 (PRE-OPEN; card re-based at the `prome-4f` STANDARD closeout, laptop→desktop switch). **Markets pre-open** — every level on any PROME surface is the **Fri 2026-09-18 close** or older; the 9:30 open supersedes all of it (root rule #4). **Printed by PROME this session:** nothing market-facing — $0 moved, no gate graded, no threshold set/moved/fired, no trade proposed. **STAND DOWN on new energy capital (WQ-192) holds**; **Regime → `HEARTBEAT.md`** (nineteenth base 2026-09-19; its header owns the base date/amendment count). ✅ **WQ-272 EXECUTED — the mirror's 9/16 STANDING SNAPSHOT is corrected (⛔ NOT a full reconcile); the open transaction reconcile + current-book verification are WQ-274** (needs your Fidelity Activity view + a current both-accounts capture). **MON 9/21 live edge:** `GATE-TERRY-007` needs a NEW 5-close streak below DGS10 4.50 to BEGIN by **Tue 9/22** or the 9/30 expiry moots it (0-of-5, 44bp, 004 TLT 77P ×20 has 8 sessions left) · HENRY needs a fresh gamma board · `GATE-FALCON-001` review · L421 · L430 · L432 · BROCK L312/L347 (WQ-184 wakes it). **Will's word owed:** the generated OPEN `WILL_QUEUE` list below — **WQ-274 is the capital-touching one now (WQ-272 executed).**
 <!-- WILLQ-VIEW BEGIN -->
 - **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-21 · 29 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-230 (9/15) · WQ-234 (9/18) · WQ-265 (9/19) · WQ-263 (9/19) · WQ-261 (9/19) · WQ-260 (9/19) · WQ-255 (9/19) · WQ-254 (9/19) · WQ-251 (9/19) · WQ-246 (9/19) · WQ-242 (9/19) · WQ-241 (9/19) · WQ-238 (9/19) · WQ-204 (9/19) · WQ-157 (9/19) · WQ-275 (9/21) · WQ-276 (9/22) · WQ-259 (9/23) · WQ-256 (9/24) · WQ-264 (9/25) · WQ-237 (9/26) · WQ-257 (9/30) · WQ-235 (9/30) · WQ-31 (11/1) · WQ-274 (before trading…) · WQ-273 (undated) · WQ-252 (at HEN-46's re…) · WQ-169 (facts: when co…)
 <!-- WILLQ-VIEW END -->
@@ -40,8 +85,9 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 - **Undated class rows opened 2026-09-14 (`fb611a0ba`; never to be dated):** `L386` roll-desync METHOD · `L387` PROME process findings · `L388` `BOARD/INDEX.md` read-verb sibling.
 - **Portfolio work (FFB-RESEARCH companion):** undated → [FFB portfolio plan](plans/2026-09-09_ffb-portfolio.md).
 - **Boot/presence pilot:** delivered 9/9; SAM's session association still unresolved ([SESSION_PILOT](tools/SESSION_PILOT.md)).
-- **Read-budget re-trigger:** run `scripts/read_cap_check.py --agent PROME --require-manifest` at any append or on 2026-09-28, whichever first. A generated block is authored by its renderer; renderer compaction is a legitimate lever. Do not shrink the calendar window or resolve obligations merely to clear a byte finding (L380). Historical renderer measurements → the pre-Phase-2 snapshot.
+- ⚠️ **SCRATCH sits in the rotate tier because the GENERATED `DOCKET-VIEW` block is its largest single component.** ⛔ **Run `python3 scripts/read_cap_check.py --agent PROME` for the live figures; this line deliberately carries NONE** — an earlier version stated three exact byte counts here and all three were false by the next edit (`PROME/CLAUDE.md` § *No live measurements in prose*, which PROME had quoted to itself the same day and then broke; ARGUS ⚠A). ✅ **CORRECTED 2026-09-19 18:2x ET — THE STANDING CLAIM ON THIS LINE WAS FALSE AND IS RETIRED.** It read: *"the block is regenerated, not authored, so the lever is resolving or tombstoning DOCKET rows, never tightening sentences."* **There is a THIRD lever nobody had considered: the RENDERER'S OWN VERBOSITY, which is 100% PROME's choice.** `docket_view.py` printed each row's ENTIRE owners cell including its parenthetical rationale — measured at 51% of the block, the rationale alone 41%. Compacting to owner NAMES cut the block by **8,572 B** — of an **8,915 B** total file reduction — and took this file from over-budget to the rotate tier **with zero rows resolved** (CATO raised it; conditions + neighbour cases in the commit). 🔑 **The generalisable half: "generated, therefore not mine to shrink" is a category error — a generator's output is authored, just authored once in code.** Remaining weight is genuine row count (L380 class) plus the catalyst text, and THAT part of the old claim stands.
 - **MP-0908 CLOSED-INCOMPLETE 2026-09-10**; a resume is a NEW bounded task. **Review experiment:** [RESULTS](experiments/review-pilot/RESULTS.md) complete, scope-fenced 9/10.
 - **ARGUS trial:** four-closeout trial graded at the 9/19 L291 sitting (DOCKET L333). ⛔ The baseline advances ONLY if ARGUS actually delivered its ledger.
 - **CODEX orchestration review → `L381` (dated 9/17, state NOT RUN — carried; absent from the PENDING-only calendar).** Four instruction defects verified at the artifacts; **the playbook's wave-approval line goes FIRST** and must change NO authority. ⛔ Do not expand it into a governance project.
 - **Live structural carry index:** WQ-150 root batch + YEYOU mirror lines · WQ-176 owner condition-letter confirmations · rollout-owner rule · duplicate kill-list review · session-isolation questions · the 9-vs-10 activation JSON count in `KERNEL/IMPLEMENTATION_STATUS.md` · FORGE hot/cold split at the next reconcile. Originals → [pre-closeout SCRATCH 9/9](archive/SCRATCH_2026-09-09_closeout.md).
+<!-- PHASE2 SCRATCH SNAPSHOT END -->
