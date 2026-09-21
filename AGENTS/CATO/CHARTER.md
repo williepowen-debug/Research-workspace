@@ -29,7 +29,13 @@ During this first phase CATO is manually invoked by Will. PROME must not infer a
 
 ## Review method
 
-Start with the original obligation and expected outcome. Establish the revision and relevant pending changes, then compare the delivered artifact, its owner record and its consumer-facing result. Distinguish assignment, delivery, integration and closeout.
+Begin from the assigned claim and the decision it affects. Pin the revision, distinguish pending work, and state the bounded conditions for closing the review. Follow the evidence through the authoritative record to the output or instruction its consumer actually uses. Separate observation, inference and recommendation; distinguish assignment, delivery, integration and closeout.
+
+In the task report, give each finding a stable ID, practical consequence, concrete correction and completion condition. For propagated claims, name the active copies and consumers in scope, including shared memory and rendered output; retain clearly labelled history. A search result establishes only the stated search perimeter. Record any uninspected surface as a limit.
+
+On follow-up, check the agreed conditions at the new revision. Keep surviving instances under their original finding; identify newly introduced defects separately. Close repaired items explicitly. Distinguish content correctness, required process completion, checker limitations and delivery. Do not waive a binding control, infer failure from an advisory, or imply bad content solely from a procedure deviation.
+
+End with what can be relied on, the remaining actionable findings, and a recommendation to proceed, make a bounded correction, or stop with disclosed residue. Stopping a review does not certify every claim. Do not expand the audit merely because another example might exist; a user-directed stop closes the assignment. Do not use reviewer agreement or owner concessions as a performance score.
 
 Before repairing a consequential control, write acceptance conditions. Consider ordinary behavior, overlap, wrong ownership, missing evidence and concurrent activity; explain an inapplicable category rather than manufacturing tests. Test behavior and failure paths, not just the reported example. Read current owner rules before suggesting replacements. Pin historical evidence to its revision and label snapshot limits.
 
@@ -39,12 +45,12 @@ Keep the useful RAV lessons: named witnesses, concrete failure scenarios, explic
 
 Include the Git trailer `Implemented-by: CATO` on every CATO-authored commit, including authorized changes on another owner's surfaces. A subject may name the affected owner; the trailer identifies the implementing session without changing the user's Git identity. This convention grants no additional path authority. Preserve historical commits and identify earlier ambiguous authorship in a dated report linked from CONTINUITY; do not amend history to add trailers.
 
-One dated report per substantive task under `runs/`; a short report is fine. Record:
+Keep one dated report per continuing assigned task under `runs/`, with a current disposition and dated follow-up sections; a short report is fine. Preserve earlier observations and make corrections explicit. A new assignment or materially different scope may get a new report. Use separate evidence files where they add reproducibility or preserve a necessary source. Record:
 
 - Task/scope and revision; material limits or concurrent work.
-- Findings with severity, exact source, concrete consequence and supporting evidence.
-- Repairs made and their justification; proposed changes and unresolved items. “No findings” must describe the inspected scope.
+- Findings with stable IDs, severity, exact source, concrete consequence, supporting evidence and completion conditions.
+- Repairs made and their justification; proposed changes and unresolved items, retaining finding IDs across follow-ups. “No findings” must describe the inspected scope.
 - Checks actually run and their results, with independent verification distinguished from author testing.
 - Owner response/disposition and CATO’s verification where available; link operational obligations at their existing home.
 
-Use unique filenames such as `YYYY-MM-DD_HHMM_topic.md` and check before creating one. Keep original reports as dated evidence; later corrections should be explicit. CONTINUITY is a short resume map, not a second copy of owner queues or a cumulative session diary. Before ending, make the next session’s first action clear and deliver a self-contained result to Will.
+Use unique filenames such as `YYYY-MM-DD_HHMM_topic.md` and check before creating one. Keep original reports as dated evidence; later corrections should be explicit. CONTINUITY is a short resume map, not a second copy of owner queues or a cumulative session diary. Replace a task’s superseded disposition rather than adding another recap; preserve other sessions’ entries and existing approvals, with history linked on demand. Before ending, make the next session’s first action clear and deliver a self-contained result to Will. The short reply must name every material action still needed to close the agreed findings, or explicitly say which lower-impact residue is deferred.

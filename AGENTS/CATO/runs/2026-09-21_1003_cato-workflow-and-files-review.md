@@ -1,5 +1,9 @@
 # CATO workflow and file review
 
+**Current disposition — September 21, after Will's explicit implementation approval:** C1–C4 are implemented and author-checked as detailed in the implementation addendum below. This is CATO's own repair, not independent certification. Git delivery is reported in-session after verification. No further repair is assigned by this record; other CATO instances are unaffected.
+
+## Original assessment — before implementation approval
+
 September 21, 2026. Will requested assessment of CATO's performance, file structure and possible guideline changes while PROME completes its own work. This is CATO's self-assessment, not independent certification. Scope: this conversation's SAM/PROME review cycle, local governing files/continuity and earlier relevant proposals. No overall accuracy, token-cost or time-savings estimate is claimed. Proposed guideline text below is **not installed**. PROME's active files and other CATO sessions are untouched.
 
 ## Assessment
@@ -79,3 +83,52 @@ Execute as one bounded CATO documentation repair, in this order:
 Completion means the compact continuity preserves the inventoried authority and resume points; the archive matches its captured original; every C1–C4 change above is installed and linked; and the checks/receipt are recorded. The shared read-cap checker still cannot evaluate CATO's AGENTS-based entry point: direct measurement validates this documentation repair, while changing that shared tool remains a separate proposal. No new recurring audit, mandatory reviewer or fleet work is part of the plan. Assess whether the method helps on the next normally assigned review; do not claim improved reliability merely because instructions were edited.
 
 Recovery is a new exact-path commit restoring only this implementation's changes after checking for intervening edits. Preserve the archive and other sessions' contributions; do not reset or rewrite shared history.
+
+## Implementation — approved September 21
+
+Will said “okay approved. Go ahead and do it.” Starting revision: `e57f824d9ce668f6b7f56f7f6eb52cbac9fbf535`. Implemented only the six planned CATO paths: AGENTS, CHARTER, CONTINUITY, README, the new archive and this continuing report. The earlier assessment/plan above remains dated history; its pending/proposed wording no longer describes the current disposition.
+
+| Finding | Installed repair | Acceptance result |
+|---|---|---|
+| C1 | Replaced cumulative continuity with a compact resume map; preserved its exact prior bytes in [the cold archive](../CONTINUITY_2026-09-21_ARCHIVE.md). | Archive byte comparison passed. Live map retains the inventory below and links detailed limits. Direct size measurement is below the root whole-read cap. |
+| C2 | CHARTER requires stable finding IDs, named active copies/consumers, explicit scope limits and completion conditions; AGENTS starts follow-ups from that disposition. | SAM walkthrough below keeps both shared-memory residues within the same finding and makes the material repair list explicit. |
+| C3 | CHARTER separates content, process, checker limits and delivery, and distinguishes stopping from clearing findings. | PROME walkthrough below preserves the failed-control disposition while accepting the scoped content evidence. Authority and consequential-control acceptance provisions are unchanged. |
+| C4 | CHARTER uses one continuing task report with current disposition and dated addenda; AGENTS replaces superseded continuity entries; README identifies cold history and on-demand evidence. | This implementation continues this report. Prior evidence paths were not moved; all live Markdown links resolve. |
+
+### Preservation inventory
+
+The archive is the complete 143-line pre-edit continuity file, **46,053 bytes**, SHA-256 `3dae6b2da31b4a0501fdb710acf0a1ff8d14b23fc3b0796634dea9175914e8e3`. It was captured after the earlier proposal-pointer edit, so it is 274 bytes smaller than the assessment's initial 46,327-byte snapshot. Equality was checked against a separate pre-edit copy and the Git revision above. The archive stays at the same directory depth. The table accounts for source paragraphs by their archive line numbers; dated unresolved findings remain accessible without becoming new work orders.
+
+| Source lines / subject | Retained location and disposition |
+|---|---|
+| 1–5 dated header | Replaced by current date/scope; original header retained only in archive. |
+| 7 OSPREY | Live OSPREY entry retains the closed instance, narrow acceptance, C1/C2 approval gates, C3 HAWK dependency and owner obligations. |
+| 9 PROME completion | Live PROME entry links the exact partial review and revision; later active owner work is not re-certified. WQ-265 publication deferral retained. |
+| 11 PROME direction | Same live entry links the separate discussion and retains WQ-273/274 owner-report limits and Robinhood/expiry caveats. |
+| 13–25, 29–35 CRUISE/PROME proposals and reviews | Live CRUISE entry plus general instance boundary; full chronological design, funding, yield, grading and options limits remain in archive/report links. Sweep/registration advice remains advice. |
+| 27 SAM | Live SAM entry records Will's later stop and links the bounded receipt with unresolved qualifications. No automatic reopening. |
+| 37 CATO proposal | Superseded by approved implementation and this report; original proposal retained in archive. |
+| 39–67 prior SAM/PROME/system reviews and Carta investigation | Dated history remains in archive with its original report links and unresolved dispositions. Live historical-residue/instance boundaries prevent these from becoming assignments; Carta disable recommendation remains unexecuted history. |
+| 71–91 system, LIQUID, DAEDALUS, PROME reviews | Archive retains limits and proposals. Live historical-residue entry directly links LIQUID's corrected recovery authorship and September 17 disposition index. |
+| 93–107 standing remit, crash recovery, CARL/PROME and BRENT/WALTER repairs | Live closing paragraph retains the review remit; historical-residue entry links recovery; authorship entry covers prior implementations. Historical dirty counts are not current custody instructions. Detailed findings/receipts remain in archive. |
+| 109–117 foundation, prior repairs and checklist recovery | Live foundation/authorship links retain manual-only registration, unresolved RAV transition and author-follow-up boundary; original verification/publishing limits remain linked. |
+| 119–123 relationship/repository | Existing CHARTER/AGENTS/root sources remain authoritative; live map states owner/authority and review-scope boundaries. |
+| 125–136 older approvals and obligations | Live L393, L333, L381 and sample entries preserve existing approval, publication limits, evidence limitations, observations owed, separate L378 and unapplied PROME sample. Detailed historical receipts retained in archive. |
+| 138–143 constraints | Live foundation/publication/closing paragraphs preserve tool rediscovery, private artifact/ruling-store protection, concurrent custody, no imported RAV backlog and limits of startup testing. |
+
+The separate CRUISE closeout discovered during this inventory is local `runs/2026-09-21_0822_cruise-cato-closeout_4c97a2.md`. It explicitly records no-Git/no-CONTINUITY restrictions and four uncommitted reports awaiting integration under separate authorization. The live map identifies this local-only condition rather than treating the files as delivered. All four files and the foreign pending shared-memory file remained byte-identical to their entry snapshots. They are outside this commit.
+
+**Inherited archive link limitation:** 93 of the archive's 94 relative links resolve at their original paths. Its old `PROME/inbox/2026-09-15_from-CATO_manual-integration-proposal.md` target moved to [the processed inbox](../../../PROME/inbox/processed/2026-09-15_from-CATO_manual-integration-proposal.md). This is the same missing link present in the captured original. The archive remains verbatim; this navigation correction supplies the current location. The original proposal remains a proposal, not an activation grant.
+
+### Author validation and method walkthrough
+
+- Archive bytes equal the captured original; relative path bases are unchanged. All relative Markdown links in the four live guidance/navigation files resolve. CHARTER's entire purpose/authority/independence prefix and consequential-control acceptance paragraph compare byte-identically with the starting version.
+- Direct `measure.py` checks cover all four live files; each is below 32,550 bytes. The archive is intentionally larger, cold and excluded from startup reads. The final live-continuity measurement is recorded below after its closeout wording update.
+- `read_cap_check.py --agent CATO` still returns **rc=2, CANNOT-EVALUATE**, assessed zero: it expects CATO/CLAUDE.md. No shared tool was changed and no clean result is claimed. Direct measurement supplies the file-size check for this repair.
+- **SAM example:** read the existing September 21 09:07 receipt, without touching owner files. Both the line-96 universal measurement claim and line-91 allocation qualification belong to its existing verification-scope finding. Under the installed method, a reply must retain both completion conditions, keep shared memory inside the declared consumer scope, and distinguish stopping from certification. No new owner review or correction was commissioned.
+- **PROME example:** read the existing September 21 09:53 report, without rerunning operational closeout. Its eight committed-file matches establish scoped delivery evidence; the foreign uncommitted-versus-committed mismatch explains the verifier failure; neither waives CLOSEOUT's required zero exit or retroactively supplies independent review. Structured dispositions and stale consumer instructions are separate content work. The installed wording preserves these distinctions without reopening later owner revisions.
+- These walkthroughs check the instruction text against recorded cases; they do not establish future adherence or independent verification. No new executable behavior was introduced, so code tests or a new recurring audit were unnecessary.
+
+No substantive finding in this bounded CATO repair remains open. The shared checker coverage limitation and other sessions' custody are disclosed limits outside the implementation. Future performance can be assessed on the next normally assigned review. Resume: orient and await Will; no standing owner task, publication or fleet launch created.
+
+Final pre-commit checks: CONTINUITY **5,244 bytes / 547 whitespace-delimited words** (from 46,053 bytes); AGENTS 3,788 B; CHARTER 8,529 B; README 2,078 B. All 29 relative links across those live files and all three links in this report resolve. Archive equality passed against both the pre-edit copy and `git show e57f824d9:AGENTS/CATO/CONTINUITY.md`; its one inherited moved link is dispositioned above. The five other-session pending files remain byte-identical. `git diff --check` passed. Root weekday claim check passed across DOCKET, GATES, WILL_QUEUE, live continuity and this report. Orphan advisory identified only the other session's shared-memory file outside CATO; preserved. No canonical research figure, STATUS/ledger or auto-memory was changed, so consumer-supersession, ledger-nudge and memory-index conditions did not trigger. Exact-path commit and fresh-fetch push receipt follow in-session; no retrospective independent-review claim is made.
