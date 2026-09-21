@@ -4,7 +4,7 @@
 
 ## Current assignment
 
-Will requested a desktop handoff. All four CRUISE reports were integrated and push-confirmed as `eed2bfa6a`; CRUISE had already received and acted on their findings. [Handoff record](runs/2026-09-21_0822_cruise-cato-closeout_4c97a2.md) preserves provenance and review limits. Will then explicitly approved committing TERRY’s exact pending shared-memory addition unchanged after its external-alias staging failure was traced; delivery is confirmed in-session. The [CATO cleanup](runs/2026-09-21_1003_cato-workflow-and-files-review.md) (`584a56863`) and [PROME follow-up](runs/2026-09-21_0953_prome-completion-review.md) (`d8e3d4f53`) are already on origin. **Next on desktop: pull under root clean-tree rules, orient and await Will.** Other sessions retain their own scope; this handoff assigns no further work.
+Will requested review of WALTER's latest intake/analysis/routing session while operating WALTER live. [Review and closure conditions](runs/2026-09-21_1154_walter-intake-review.md), snapshot `6dd151ab4`: transport supported for 52 handoffs; W1 permanent secrecy-evidence rule propagated to HAWK, W2 overstated corrections, W3 material updates bypassing correction delivery, W4 unreliable closeout accounting. Original Telegram images/transcript not inspected; no whole-intake completeness or whole-content certification. No owner edits, sends, launches or new rules. **Next: await Will's choice of bounded correction/process work; any requested recheck retains W1–W4.** Report/evidence commit receipt is delivered in-session; push deferred while foreign work remains dirty under the root recovery protocol.
 
 ## Latest review dispositions
 
@@ -17,6 +17,7 @@ Will requested a desktop handoff. All four CRUISE reports were integrated and pu
 
 These dated carries are not new assignments. Recheck their owner records before resuming.
 
+- **Desktop handoff completed:** four CRUISE reports integrated/push-confirmed as `eed2bfa6a`; [handoff record](runs/2026-09-21_0822_cruise-cato-closeout_4c97a2.md) retains provenance. Will's approved exact TERRY memory preservation committed as `faf413042`; fresh-fetch desktop check confirmed it on origin with a clean tree before this WALTER assignment. [CATO cleanup](runs/2026-09-21_1003_cato-workflow-and-files-review.md) (`584a56863`) and [PROME follow-up](runs/2026-09-21_0953_prome-completion-review.md) (`d8e3d4f53`) were already on origin. No new integration work follows.
 - **L393:** layout approval already exists; do not ask again. [Publication handoff](../../PROME/plans/2026-09-15_L393-deck-split.md) retains hosted-delivery/verification limits. Preserve the private Owed artifact and ruling store. Rediscover publishing tools rather than treating an old tool absence as permanent.
 - **L333:** [trial evidence](../../PROME/reports/2026-09-15_L333-L393-followup.md) establishes neither an aggregate score nor full operating-cost comparison; eligible-session/finding timing reconciliation remained. Named Opus trial requirements are not silently substitutable with CATO/Astra.
 - **L381:** [reconciliation record](../../PROME/plans/2026-09-15_L381-reconciliation.md) retains two ordinary-session observations owed; L378 mechanization is separate. [PROME continuity sample](../../reviews/2026-09-15_prome_continuity_sample.md) was unapplied, unlike this CATO cleanup.

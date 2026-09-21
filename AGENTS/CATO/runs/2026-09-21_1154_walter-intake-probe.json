@@ -1,0 +1,739 @@
+{
+  "revision": "6dd151ab4676b43d28a38e2976909d0a8644bbb4",
+  "observed_origin_revision_not_fresh_fetch": "03e53cf410e580824c4fdac6e2256a981eed2b14",
+  "batch_counts": [
+    {
+      "batch_id": "BM-20260921-01",
+      "declared": "9",
+      "dispositioned": "9",
+      "state": "CLOSED"
+    },
+    {
+      "batch_id": "BM-20260921-02",
+      "declared": "7",
+      "dispositioned": "7",
+      "state": "CLOSED"
+    },
+    {
+      "batch_id": "BM-20260921-03",
+      "declared": "6",
+      "dispositioned": "6",
+      "state": "CLOSED"
+    }
+  ],
+  "delivery_rows": 52,
+  "unique_recipients": 19,
+  "delivery_states": {
+    "delivered": 52
+  },
+  "signals": [
+    {
+      "id": "SIG-W-20260921-001",
+      "path": "BOARD/SIG-W-20260921-001-japan-ran-a-rate-check-at-158-then-shut-for-three-days-and-the-yen-is-walking-back-to-that-level.md",
+      "sha256": "eeb5f0fbb1b64127de8def1c81e169844ab3691d951cdcde6096b35f7d0919f9",
+      "action": [
+        "HENRY",
+        "LIQUID"
+      ],
+      "info": [
+        "VIOLET",
+        "BOND",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1506,
+      "http_links": 0,
+      "annotation_headings": [
+        "## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:2xZ — a large manager says publicly it is ready to FADE an intervention"
+      ],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "path": "BOARD/SIG-W-20260921-002-russia-is-extending-the-diesel-export-ban-it-said-in-july-it-would-lift-and-the-cause-is-the-refinery-campaign.md",
+      "sha256": "6bc4100170493f9b3205b25fa6b198deb5d16f67779fcc98268138963c87096d",
+      "action": [
+        "OSPREY",
+        "BRENT"
+      ],
+      "info": [
+        "HENRY",
+        "HANS",
+        "CARL",
+        "RED"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [
+        "CARL"
+      ],
+      "whitespace_words_including_frontmatter": 2154,
+      "http_links": 0,
+      "annotation_headings": [
+        "## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:2xZ — the strike specifics, and a CAPACITY figure that is one retelling from becoming a loss figure",
+        "## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:3xZ — OSPREY'S OWN RECORD RESOLVES THE DRONE COUNTS AND WEAKENS THIS SIGNAL'S MECHANISM CLAIM"
+      ],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-003",
+      "path": "BOARD/SIG-W-20260921-003-spr-is-at-its-lowest-since-november-1982-the-record-is-real-the-squawk-number-is-not-in-the-eia-series.md",
+      "sha256": "9a23f576505e927606954614f2245655f83d50d432893d56261924b97735bb5e",
+      "action": [
+        "BRENT"
+      ],
+      "info": [
+        "HENRY",
+        "LIQUID",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1062,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-004",
+      "path": "BOARD/SIG-W-20260921-004-a-tanker-was-struck-in-hormuz-with-two-injured-and-the-relay-and-the-wires-disagree-on-debris-versus-direct-hit.md",
+      "sha256": "7b1112e99d47bb9549ac748f711bfc65a632a193abafb9608e3c8e5fa217d4d5",
+      "action": [
+        "FALCON"
+      ],
+      "info": [
+        "BRENT",
+        "HAWK",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1155,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "path": "BOARD/SIG-W-20260921-005-the-multifamily-cmbs-71pct-in-circulation-today-is-a-stale-vintage-trepp-august-is-769pct.md",
+      "sha256": "786d1f69dcfcf79516276b5030efc2e6fb274e11ece584a5d6a4c173348aebcf",
+      "action": [
+        "HOMER"
+      ],
+      "info": [
+        "CREED",
+        "REGINALD",
+        "LIQUID",
+        "CARL",
+        "RED"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [
+        "CARL"
+      ],
+      "whitespace_words_including_frontmatter": 1243,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-006",
+      "path": "BOARD/SIG-W-20260921-006-redfin-has-158-sellers-per-buyer-with-buyers-at-a-series-low-and-it-is-a-modelled-estimate-not-a-count.md",
+      "sha256": "8af6c5a4f23a2887dbf4f5bfa4a6b1554ef61b6b5bbe09f754d55f13de6ef2c8",
+      "action": [
+        "HOMER"
+      ],
+      "info": [
+        "CARL",
+        "REGINALD",
+        "RED"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [
+        "CARL"
+      ],
+      "whitespace_words_including_frontmatter": 685,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-007",
+      "path": "BOARD/SIG-W-20260921-007-russia-put-a-dated-10-day-border-curfew-next-to-narva-and-the-official-rationale-is-fisheries-and-migration.md",
+      "sha256": "29baa83264c39a945ae8e6c2a97665faa738622fe52c1fd56907bf00ba7473f6",
+      "action": [
+        "HAWK"
+      ],
+      "info": [
+        "HANS",
+        "OSPREY",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1250,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "path": "BOARD/SIG-W-20260921-008-goepfert-says-breadth-is-the-worst-in-100-years-with-1973-and-1999-as-the-only-analogs-and-the-visible-chart-does-not-show-it.md",
+      "sha256": "9d4871354a791395de04b5df8c209eee0c3d84ddf12fb5d6e4e192e0bce1f74f",
+      "action": [
+        "HENRY",
+        "RED"
+      ],
+      "info": [
+        "VIOLET",
+        "LIQUID",
+        "NEXUS",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1014,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-009",
+      "path": "BOARD/SIG-W-20260921-009-houthis-claimed-riyadh-on-9-19-and-it-is-the-first-riyadh-alert-since-july-the-irgc-highest-alert-leg-is-unsupported.md",
+      "sha256": "47585dc739450c7291ac7d46124d9132ffb2f3c16642ae226fb466650685765d",
+      "action": [
+        "FALCON"
+      ],
+      "info": [
+        "BRENT",
+        "HAWK",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1287,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-010",
+      "path": "BOARD/SIG-W-20260921-010-the-us-iran-diplomacy-leg-moved-to-a-third-state-neither-accept-nor-reject-and-unga-opens-tomorrow.md",
+      "sha256": "396792b3f29cb02da7c1612a92b9c868b142e04905faa75b5e78bc0ee1e57c95",
+      "action": [
+        "FALCON",
+        "BRENT"
+      ],
+      "info": [
+        "HAWK",
+        "SAM",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1453,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "path": "BOARD/SIG-W-20260921-011-nippon-life-is-a-2-trillion-yen-infrastructure-plan-to-2035-not-13bn-of-data-centre-money-now.md",
+      "sha256": "a0df163caf8ec17484391323c55af011dc2a69e38dde9d9924defa61db46af5a",
+      "action": [
+        "BROCK",
+        "LIQUID",
+        "SAM"
+      ],
+      "info": [
+        "VULCAN",
+        "SHADE",
+        "HENRY",
+        "RED"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1209,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-012",
+      "path": "BOARD/SIG-W-20260921-012-one-in-nine-french-stations-is-dry-and-2022-was-three-times-worse-so-worst-in-history-is-refuted.md",
+      "sha256": "30ed3493390b585e0352de3616bf1de62916b4d8232008d5bb1d55012c4a3707",
+      "action": [
+        "HANS"
+      ],
+      "info": [
+        "BRENT",
+        "CARL",
+        "HENRY",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [
+        "CARL"
+      ],
+      "whitespace_words_including_frontmatter": 1516,
+      "http_links": 0,
+      "annotation_headings": [
+        "## 🔄 ADDITIVE ANNOTATION 2026-09-21T15:3xZ — HANS's OWN CURVE READ CUTS AGAINST THE STRESS FRAMING IN THIS SIGNAL"
+      ],
+      "lifecycle_fields": []
+    },
+    {
+      "id": "SIG-W-20260921-013",
+      "path": "BOARD/SIG-W-20260921-013-four-nato-russia-items-graded-separately-the-german-exam-is-mandatory-the-service-is-still-voluntary.md",
+      "sha256": "5a6914deed2c6c284c710a4f4173809b2bc0291537ea720b3f540e438986d312",
+      "action": [
+        "HAWK"
+      ],
+      "info": [
+        "HANS",
+        "OSPREY",
+        "BRENT",
+        "RED",
+        "PROME"
+      ],
+      "missing_required_recipient_rows": [],
+      "extra_recipient_rows": [],
+      "whitespace_words_including_frontmatter": 1404,
+      "http_links": 0,
+      "annotation_headings": [],
+      "lifecycle_fields": []
+    }
+  ],
+  "transport": [
+    {
+      "id": "SIG-W-20260921-001",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "a24661b8b68e92c7de5d1f439fc75adbd83de2c4"
+    },
+    {
+      "id": "SIG-W-20260921-001",
+      "recipient": "LIQUID",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "a24661b8b68e92c7de5d1f439fc75adbd83de2c4"
+    },
+    {
+      "id": "SIG-W-20260921-001",
+      "recipient": "VIOLET",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "a24661b8b68e92c7de5d1f439fc75adbd83de2c4"
+    },
+    {
+      "id": "SIG-W-20260921-001",
+      "recipient": "BOND",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "a24661b8b68e92c7de5d1f439fc75adbd83de2c4"
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "recipient": "OSPREY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "recipient": "HANS",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-002",
+      "recipient": "CARL",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-003",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-003",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-003",
+      "recipient": "LIQUID",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-004",
+      "recipient": "FALCON",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-004",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-004",
+      "recipient": "HAWK",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "03e53cf410e580824c4fdac6e2256a981eed2b14"
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "recipient": "HOMER",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "recipient": "CREED",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "recipient": "REGINALD",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "recipient": "LIQUID",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-005",
+      "recipient": "CARL",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-006",
+      "recipient": "HOMER",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-006",
+      "recipient": "CARL",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-006",
+      "recipient": "REGINALD",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "2f0af041ead5cbff6f9ccabd30f1e2040f778545"
+    },
+    {
+      "id": "SIG-W-20260921-007",
+      "recipient": "HAWK",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "03e53cf410e580824c4fdac6e2256a981eed2b14"
+    },
+    {
+      "id": "SIG-W-20260921-007",
+      "recipient": "HANS",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-007",
+      "recipient": "OSPREY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "recipient": "RED",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "recipient": "VIOLET",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "recipient": "LIQUID",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-008",
+      "recipient": "NEXUS",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-009",
+      "recipient": "FALCON",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "5862bf9a8668f69b9d4149d512400839c993367f"
+    },
+    {
+      "id": "SIG-W-20260921-009",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "38d5fce3d6c6a30a1ec08e082de3cd3534b1772f"
+    },
+    {
+      "id": "SIG-W-20260921-009",
+      "recipient": "HAWK",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "03e53cf410e580824c4fdac6e2256a981eed2b14"
+    },
+    {
+      "id": "SIG-W-20260921-010",
+      "recipient": "FALCON",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "7362cdf2d5066d36ee44c4a73c5fe5934ce1229a"
+    },
+    {
+      "id": "SIG-W-20260921-010",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "38d5fce3d6c6a30a1ec08e082de3cd3534b1772f"
+    },
+    {
+      "id": "SIG-W-20260921-010",
+      "recipient": "HAWK",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "03e53cf410e580824c4fdac6e2256a981eed2b14"
+    },
+    {
+      "id": "SIG-W-20260921-010",
+      "recipient": "SAM",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "7362cdf2d5066d36ee44c4a73c5fe5934ce1229a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "BROCK",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "LIQUID",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "SAM",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "VULCAN",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "SHADE",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-011",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-012",
+      "recipient": "HANS",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-012",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-012",
+      "recipient": "CARL",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-012",
+      "recipient": "HENRY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-013",
+      "recipient": "HAWK",
+      "original_path_present_at_snapshot": false,
+      "processed_path_present_at_snapshot": true,
+      "origin_history_commit": "03e53cf410e580824c4fdac6e2256a981eed2b14"
+    },
+    {
+      "id": "SIG-W-20260921-013",
+      "recipient": "HANS",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-013",
+      "recipient": "OSPREY",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    },
+    {
+      "id": "SIG-W-20260921-013",
+      "recipient": "BRENT",
+      "original_path_present_at_snapshot": true,
+      "processed_path_present_at_snapshot": false,
+      "origin_history_commit": "be60a93a2be1720ed0289331bc17a502a7c1419a"
+    }
+  ],
+  "recipient_ledger_rows": [
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "line": 383,
+      "text": "2026-09-21 11:30:00 EDT\tSIG-W-20260921-002\tacted\tINBOX_WALTER\tRussia diesel export ban REPORTED extension (Bloomberg, Novak-chaired meeting). Graded in STATUS 9/21: INFERRED not VERIFIED — reported intention, not enacted policy. HANS-T-15 leg (b) + DIESEL-CRACK falsifier row noted (9/14 roll caveat still binds NOT-GRADEABLE across discontinuity). Confidence-upgrade path named. No band/threshold/score moved. L140 already re-keyed 9/19 to on-publication trigger. $0."
+    },
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "line": 384,
+      "text": "2026-09-21 11:30:00 EDT\tSIG-W-20260921-003\tacted\tINBOX_WALTER\tSPR 44-year record VERIFIED at 285.0M w/e 9/11 (EIA WCSSTUS1 series direct). 284.6M NOT ADOPTED (not in the series; arithmetic fit is suggestive not evidence). Resolves at 9/23 WPSR. Routable finding: ~120M bbl / ~30% drawdown in 12 months from Trump's 172M IEA-collective-action release. Bears on restart-resolver PROPOSAL (raises cost of a restart failure). No registered SPR band; Boundary #3 Cushing<20M is separate. $0."
+    },
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "line": 385,
+      "text": "2026-09-21 11:30:00 EDT\tSIG-W-20260921-004\tnoted\tINBOX_WALTER\tINFO — Hormuz tanker Trend struck by unknown projectile, 2 crew minor injuries, vessel under own power. Losses HOLD at 3 (Kylo 9/5-6, Riesco 9/8). GATE-2 untouched (no sinking, no mine). FAL-01 untouched (transiting hull not production asset). UKMTO/unknown-projectile n=4 since mid-Aug recurrence caveat noted, kill-on-sight on merging distinct events by date. Anchor re-verify OWED at WALTER. $0."
+    },
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "line": 397,
+      "text": "2026-09-21 11:45:00 EDT\tSIG-W-20260921-009\tnoted\tINBOX_WALTER\tINFO — Riyadh 9/19 airport fuel-storage-depot alert. Downstream distribution, not oil-production asset. FAL-01 UNTOUCHED (standing tell is Kharg; 'Saudi energy infrastructure on fire' is registered false-fire class). GATE-2 UNTOUCHED (no hull/sinking/mine). Losses hold at 3. Three states carried SEPARATELY per ADD#24: ALERTED (state primary, all-clear issued) · SMOKE/BOOMS observed (Reuters journalist Olaya) · ATTRIBUTED (Houthi CLAIM only, no Saudi confirmation of cause). INTERCEPTED→STRUCK guard binds — do NOT write 'airport was struck.' First Riyadh alerts since July. Directional inconsistency with today's tape (9/19 escalation vs 9/21 −4%) noted. Anchor re-verify OWED at WALTER. $0."
+    },
+    {
+      "path": "AGENTS/BRENT/board_log.tsv",
+      "line": 398,
+      "text": "2026-09-21 11:45:00 EDT\tSIG-W-20260921-010\tacted\tINBOX_WALTER\tACTION graded in STATUS 9/21: EXPORT-RECOVERY LEG DOMINANT, DIPLOMACY SECONDARY (~2/3 vs ~1/3 split). Curve tell decides: Nov−Dec Brent compressed +$4.44 [9/18] → +$4.04 today = −$0.40; Nov−Jan +$7.59 → +$6.86 = −$0.73. Backwardation EASED across near curve as level fell = spot-supply-relief being priced. Honest limits: reported ~4 mb/d Sep Saudi-export figure NOT re-derived (Petroline day-10 pushes back on scale of physical recovery); single-session curve tell; reallocation-not-loss thesis is ALSO consistent with same curve shape. Diplomacy leg now correctly AMBIGUOUS not POSITIVE (form moved, substance did not; ADD#14/15/20 stand — no 'US accepted' derivation). No band/threshold/score moved. $0."
+    },
+    {
+      "path": "AGENTS/HAWK/board_log.tsv",
+      "line": 335,
+      "text": "2026-09-21T15:28:08+0000\tSIG-W-20260921-007\tacted\tINBOX_WALTER\tFSB dated 10-day border restrictions opposite Narva (Slantsy+Kingisepp), 9/16-9/26; nighttime ban within 5km strip + Narva River small-vessel ban + hunting/firearms ban. Corroborated ERR+Militarnyi+Baltic Flank; measure itself confirmed at ISW 2026-09-20 assessment (via WebFetch). BOTH READINGS LIVE. HAWK reading: enforcement-favoured (item set + 10-day self-limiting with published end date), posture reading not zero; fisheries clause travels verbatim. L432 bearing near-zero -- a border directorate does not signal a federal mobilisation decree with a fisheries/hunting/firearms ban. See research/2026-09-21_SIG-W-007-narva-border-reading.md."
+    },
+    {
+      "path": "AGENTS/HAWK/board_log.tsv",
+      "line": 336,
+      "text": "2026-09-21T15:28:08+0000\tSIG-W-20260921-004\tinfo-only\tINBOX_WALTER\tUKMTO tanker struck by unknown projectile in Hormuz 9/21, 2 minor injuries, vessel under own power. Relay vs wires disagree DEBRIS vs STRUCK -- carry both. GATE 2 not touched (no sinking/mine); losses hold at 3. Anchor limit declared: IRAN_WAR verified-as-of 9/17, two re-verify triggers fired since (Saudi export resumption; US diplomacy movement). HAWK: theater-info only; no cross-war reconciliation delta for oil-risk read; FALCON's ledger owns. Not the class of item that moves L432."
+    },
+    {
+      "path": "AGENTS/HAWK/board_log.tsv",
+      "line": 337,
+      "text": "2026-09-21T15:28:08+0000\tSIG-W-20260921-009\tinfo-only\tINBOX_WALTER\t9/19 Riyadh Houthi claim + State Dept Middle East security alert 9/19; airport FUEL DEPOT smoke, Saudi civil defence alert then all-clear, Reuters heard booms. Carry three states separately: ALERTED / SMOKE OBSERVED / ATTRIBUTED (Houthi claim only). Not FAL-01 (production-specific; airport fuel depot is downstream distribution). IRGC \"highest alert\" leg UNSUPPORTED (batch card split claim). HAWK: theater-info only; direction against tape today (crude -4% on Saudi export recovery + UNGA diplomacy) noted. L432 bearing zero."
+    },
+    {
+      "path": "AGENTS/HAWK/board_log.tsv",
+      "line": 338,
+      "text": "2026-09-21T15:29:25+0000\tSIG-W-20260921-010\tinfo-only\tINBOX_WALTER\tUS-Iran diplomacy leg AMBIGUOUS: Pezeshkian leads UNGA delegation 9/22-29, Iran passed 7 demands via Qatar, Trump \"open\" to meeting -- and same weekend Trump \"wipe Iran out / rot\" line. Form moved, substance did not. Old anchor 9/9 POTUS-negative no longer holds as written but NOT replaced with acceptance. FALCON's theater, WALTER's IRAN_WAR anchor. Kill-on-sight guards honoured (no \"ceasefire\", no \"US accepted\", no demand-list merge). L432 bearing zero. See research/2026-09-21_SIG-W-010-013-dispositions.md."
+    },
+    {
+      "path": "AGENTS/HAWK/board_log.tsv",
+      "line": 339,
+      "text": "2026-09-21T15:29:25+0000\tSIG-W-20260921-013\tacted\tINBOX_WALTER\tFour NATO-Russia items graded separately per WALTER. Ask 1: Germany Musterung 9mo early = weak precursor to European rearm posture, near-zero for imminent conscription; VX-HAWK-EURMIL-01 ORANGE unchanged, both halves travel (mandatory exam / voluntary service). Ask 2: (3) StP consulate closure UNCHECKED at Auswaertiges-Amt this session; (6) nine-pin map -- Leipzig/Halle + Neptun Deep already in VX evidence, do not re-adjudicate the aggregation, recommend WALTER dispatch by named-outlet dated row not aggregation. Ask 3: ADOPT the class-rule: \"we are acting undisclosed\" claims stay REPORTED forever, no relay-count upgrade; specific block on Le Monde French-undisclosed item. L432 unaffected. See same file."
+    }
+  ],
+  "totals": {
+    "signal_count": 13,
+    "declared_items": 22,
+    "whitespace_words_including_frontmatter": 16938,
+    "missing_origin_history_proofs": 0,
+    "processed_handoffs_at_snapshot": 10
+  }
+}
