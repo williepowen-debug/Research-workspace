@@ -1,0 +1,20 @@
+PINNED DELIVERY VERIFIER RC 1
+CHANGED-SINCE-REVIEW: memory/auto/finding_header_edit_is_the_edit_most_mistaken_for_maintenance.md (0d634dbdaabf → 1241487963b3)
+ACTUAL COMMIT PATH MATCH PROME/DOCKET.tsv True
+ACTUAL COMMIT PATH MATCH PROME/SCRATCH.md True
+ACTUAL COMMIT PATH MATCH PROME/STATUS.md True
+ACTUAL COMMIT PATH MATCH PROME/WILL_QUEUE.md True
+ACTUAL COMMIT PATH MATCH PROME/archive/SCRATCH_ROTATED_2026-09-21.md True
+ACTUAL COMMIT PATH MATCH PROME/state/ORCH_INFLIGHT.md True
+ACTUAL COMMIT PATH MATCH PROME/state/ORCH_LOG.tsv True
+ACTUAL COMMIT PATH MATCH memory/2026-09-20.md True
+The reported mismatch is outside PROME's nine-path commit; it remains a nonzero gate result.
+BROCK ROW 312 state PENDING due 2026-09-21 covered/excluded True
+STATE PENDING · COVERED 2026-09-21 (PROME closeout): BROCK owner-lane; WQ-184 wakes BROCK at the desktop boot. PROME does not grade.
+EXISTING SLATE FORM EXCLUDED False
+BROCK ROW 347 state PENDING due 2026-09-21 covered/excluded True
+STATE PENDING · COVERED 2026-09-21 (PROME closeout): BROCK owner-lane deliberate downgrade pass; WQ-184 wakes BROCK. PROME does not grade.
+EXISTING SLATE FORM EXCLUDED False
+ARCHIVE BLOCK IS EXACT PARENT SUBSTRING True
+LOCAL DECK PROME/artifacts/decision_deck.html {'272': True, '273': False, '274': False}
+LOCAL DECK PROME/artifacts/decision_reference.html {'272': False, '273': False, '274': False}
