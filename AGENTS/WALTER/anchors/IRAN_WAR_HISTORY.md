@@ -1176,3 +1176,73 @@ If a signal arrives whose framing depends on any of these, spawn a verify-resear
 ## Rotated 2026-09-17 (superseded 9/14 PARTIAL re-verify stamp, verbatim — replaced in the lead by the 2026-09-17 FULL sweep stamp)
 
 > 🔄 **RE-VERIFIED 2026-09-14 ~17:1xZ (PARTIAL — news-sweep scope, not a full primary sweep): ladder #3b state change (Bab el-Mandeb), ladder #5 negative (Oman postponement), Petroline day 4 + the Reuters export-stock claim, satellite damage confirmation, and a fresh unattributed Hormuz vessel strike 9/13 (1 killed; Iran blames US; NO CENTCOM confirmation — logged, NOT adopted, no mark moves). Dispatched `SIG-W-20260914-001` + `-002`. ⚠️ FULL PRIMARY SWEEP STILL OWED ~2026-09-17.**
+
+---
+
+## Rotated 2026-09-21 — the RESOLVED WTI–Brent basis block and the 9/14 dated tape
+
+> **Rotated VERBATIM from `IRAN_WAR.md` at the 2026-09-21 diplomacy-leg re-verify. NOTHING DELETED.**
+> **Why these two and not others:** both are CLOSED or DATED and neither is load-bearing for current state.
+> ① The `WTI–Brent` basis item is marked **RESOLVED 2026-09-14** in its own text and the RULE it established
+>   now lives at its owning surface, `design/THRESHOLD_SCAN.md` (§ CROSS-SERIES ROLL DESYNC) — the anchor was
+>   holding a second copy of a rule it does not own.
+> ② The tape block is explicitly **dated 2026-09-14** and says of itself *"Dated quotes above are not current
+>   settlements"* — it had already been superseded by the 9/17 sweep and again by the 2026-09-21 pull
+>   (`BZX26` $100.08, `CLX26` $92.12, `CLV26` $95.34).
+> ⚠️ **ADD#23 — the guard that block carries — is NOT rotated and remains live in `IRAN_WAR_GUARDS.md`.**
+> **Size receipt:** anchor 24,358 B (74.8% of the 32,550 B budget, 54 B under the 24,412 B rotate line) →
+> rotation made room for the diplomacy-leg update rather than the update being trimmed to fit.
+> 🔑 **This is the failure the anchor's own record warns about, avoided deliberately: on 9/18 a session
+> "tightened MY OWN additions back under rather than rotating history to make room for my commentary."**
+
+> ✅ **`WTI–Brent` BASIS — FLAGGED AND RESOLVED 2026-09-14 (BRENT owns the series; own pull post-close, INTRADAY-DERIVED, NOT settles).** **Matched November: `CLX26` \$97.52 − `BZX26` \$106.41 = −\$8.89.** ⛔ **The CONTINUOUS build `CL=F`(Oct) − `BZ=F`(Nov) = −\$4.40 is MISMATCHED** — `BZ=F` front is November (`BZX26`, exp 10-01, a legitimate front, NOT a fallback), `CL=F` still October (`CLV26`, exp 09-22, an UPPER BOUND — the roll is a VOLUME event). **\$4.49 distortion, in the DANGEROUS direction:** it makes BRENT's `TRACKER` line 10 (`WTI–Brent > $5`, WTI premium) read **\$9.40 away when the true distance is \$13.89.** ⚠️ **LABEL SPREADS WITH CONTRACT NAMES — the old “(named contracts)” label is what made the mismatched build look already-checked.** 📌 **Month CHOICE barely matters here, MATCHING does: WTI–Brent term structure is FLAT** (Nov −8.89 · Dec −8.59 · Jan −8.23) ⇒ any consistently-matched month is within ~\$0.30. ⚠️ **OPPOSITE of the crack rows (~−\$4.5/month, steep) where naming the month is CRITICAL.** **`M1-M3` and the WoW backwardation change are SINGLE-SERIES and NOT impeached.** Rule: `design/THRESHOLD_SCAN.md` v0.44.
+>
+> **Tape (named contracts) [2026-09-14]:** **Brent front ~$108.63 (+3.84%) · WTI front ~$103.61 (+3.56%)** — 🔴 **BRENT's registered `MKT-CL-F-ABOVE-100` FIRED 9/14, first in the series**; M1-M3 +$10.56, backwardation widening +$3.49 WoW; WTI–Brent −$9.63; DXY 99.68 (BRENT's own pull, `5ed995b72`). **`BZX26` $105.88 (+1.27) [9/14]** — ⚠️ **ADD#23: never difference a continuous front-month across a roll.** No registered bar met (FT-03 >130 · Boundary #1 ≥120 · CARL ≥115×5). ✅ **WALTER guard repair completed September15:** the historical price-only “$100 error” rejection is retired in `IRAN_WAR_GUARDS.md`; FALCON's September14 return confirmed WALTER ownership. Jazan/Yanbu anti-merge, event-date, attribution and causal checks remain. Dated quotes above are not current settlements. This repair does not reset the primary-sweep clock.
+
+---
+
+## Rotated 2026-09-21 ② — the 9/17 full-sweep DATED NARRATIVE
+
+> **Rotated VERBATIM at the 2026-09-21 diplomacy-leg partial re-verify. NOTHING DELETED.**
+> **This was a MIXED line — a dated sweep record welded to a LIVE re-verify trigger list.** The live half
+> (losses/marks, FAL-05 state, the Hormuz floor, the Petroline start date and the full trigger list) was
+> REWRITTEN IN PLACE in the anchor and is NOT rotated; only the dated narrative moved.
+> **What moved and now lives only here:** the per-source Kpler 9/17 detail (no Yanbu loadings since 9/11,
+> 3–5 days terminal stock, ~4.5 mb/d halted, bypass ~half "within about a month", full repair 4–6 weeks —
+> all vendor estimates); the Wright 9/15 "days" vs Bloomberg 9/15 "weeks" pair, carried and never adopted;
+> the UKMTO 9/14 unknown-projectile item (NO DAMAGE — ⚠️ do not merge it with the 2026-09-21 tanker strike,
+> which injured two: `SIG-W-20260921-004`); JMIC "SEVERE"; the CENTCOM press silence; the Axios Hormozgan
+> small-boat item; the owner-surface read dates; and the dispatched-signal IDs.
+> ⚠️ **WHY THE DAY COUNT WAS REMOVED RATHER THAN UPDATED: "DAY 7 SHUT AS OF 2026-09-17" is a figure that
+> goes silently wrong every midnight.** The anchor now carries the START DATE (9/11) and instructs the
+> reader to compute — a stored derived value on a moving clock is the defect, not the arithmetic.
+> **Size receipt:** anchor 24,890 B (76.5% of budget, 478 B OVER its own 24,412 B rotate line) → this
+> rotation. **The additions were NOT trimmed to fit** — the anchor's own record names that as the 9/18 error.
+
+> **Dispatched this sweep:** `SIG-W-20260910-001` (IMMEDIATE), `-002`, `-007` (IMMEDIATE) → FALCON/BRENT action. 🔄 **RE-VERIFIED 2026-09-17 ~22:5xZ — FULL PRIMARY SWEEP** (owner surfaces first: FALCON 9/16 · BRENT 9/16 · HAWK 9/16 · OSPREY 9/15–16; then primaries; record `research/2026-09-17_iran-full-sweep.md`) — **discharges the 7-day cadence owed ~9/17.** **Petroline DAY 7 shut** (since 9/11). Kpler 9/17: no Yanbu loadings since 9/11 · 3–5 days terminal stock at normal rates · ~4.5 mb/d exports halted · bypass ~half "within about a month" · full repair 4–6 weeks (vendor estimates). Wright 9/15 "days"; Bloomberg 9/15 "weeks" — carried, none adopted. ⛔ **"FORCE MAJEURE" NOT DECLARED** — Aramco cancelled/deferred late-Sept European cargoes (Argus/Reuters via OilPrice 9/15; Aramco declined comment; the article says no FM); "de facto force majeure" is an X framing ⇒ **FAL-05 route (a) UNFIRED; KILL-ON-SIGHT ADD#25.** FAL-05 elapsed bar at its earliest 9/17–18 — FALCON's call, its own review window. Hormuz: Windward 12 transits 9/16 vs 6 on 9/15 (floors, ~14% of 88/day); PortWatch 8 [9/13]; UKMTO: vessel struck by unknown projectile eve of 9/14, no damage; JMIC "SEVERE", 3 vessels attacked in 72h (secondary relay); CENTCOM no press release in 6 days; Axios: US drone struck boats off Hormozgan 9/14 (FALCON carries it as the small-boat incident). **No new sinking, no mine — losses 3. Marks B3 / C22 / D75 unchanged (FALCON).** Oman meeting still postponed, no date; Mojtaba no verified appearance. Dispatched `SIG-W-20260917-001` (FALCON+BRENT action; PROME doorbelled for FALCON). **Next re-verify: ~2026-09-24, or IMMEDIATELY on** — *(✅ **THIS TRIGGER FIRED AND IS DISCHARGED 2026-09-11: the Saudi MoE statement landed and FALCON re-graded tell #2 FIRED — folded into the lead above; `SIG-W-20260911-006`.** The **live** successors it leaves behind: **an Aramco/SPA/CENTCOM statement on whether the LINE ITSELF was struck** (still unconfirmed), **a force-majeure declaration** (SEARCH-NOT-FOUND, and route (a) carries no duration bar so it fires FAL-05 immediately), **a restart/resumption notice**, or **attribution being established** — the Houthi and Iraq-corridor reads are both live and neither is settled)* · — *(rung-(c) ruling RECEIVED 9/10, folded above)* · a FOURTH confirmed sinking or any mine detonation · a strike on Iranian territory (grid) · an executed Kuwait/Bahrain in-port hit · a dated Oman framework or a US accept/reject · a published transit print · any Iran-cluster dispatch.
+
+---
+
+## Superseded IN PLACE 2026-09-21 — three lines rewritten, originals preserved VERBATIM here
+
+> **These three anchor lines were REWRITTEN IN PLACE at the 2026-09-21 diplomacy-leg partial re-verify,
+> not rotated. Their ORIGINAL text is preserved below verbatim so the rewrite is LOSSLESS AS A RECORD.**
+> 🔑 **WHY THIS BLOCK EXISTS AND IS NOT CEREMONY:** `tools/split_verify.py` classified all three as
+> CONTENT LOST rather than as candidate edits — they were rewritten so substantially that **nothing in
+> the outputs resembled them above the 0.75 similarity threshold**, so the tool could not offer them for
+> adjudication and correctly refused to infer lineage. **Its instruction in that case is explicit:
+> "Adjudicate real edits explicitly, OR RESTORE THE CONTENT."** Adjudication was unavailable, so the
+> content is restored here. ⚠️ **The alternative — asserting in prose that the substance survived —
+> is exactly the move the tool exists to refuse, and it would have made the next verification pass over
+> a repaired symptom.** `[[finding_record_of_an_action_is_not_the_action]]`
+> **What replaced each, in the anchor:** ① the lead stamp now declares the PARTIAL re-verify and its
+> PERIMETER (diplomacy leg re-verified; Saudi-export leg NOT run and still owed, held for BRENT's live
+> session). ② the Diplomacy line now records the US acceptance leg moving to a THIRD state — neither
+> accept nor reject — and quotes the superseded 9/9 sentence inline. ③ ladder item 8 now distinguishes
+> the FULL sweep clock from the partial, and states that a partial does NOT reset it.
+
+> **CURRENT STATE — FULL PRIMARY SWEEP, verified-as-of 2026-09-17 ~22:5xZ (Will-directed; owner surfaces read first, then primaries; record `research/2026-09-17_iran-full-sweep.md`). Discharges the 7-day cadence owed ~9/17; NEXT ~2026-09-24.** ⚠️ **STAMP REPAIRED 2026-09-18 (boot `walter-80`): read `2026-09-10` / `DAY 4` while the 9/17 sweep sat at the block's FOOT — the 9/17 closeout recorded "lead stamp replaced" and it had not been.** `[[finding_record_of_an_action_is_not_the_action]]` **9/10's record unchanged; nothing below re-dated.**
+
+> **Diplomacy:** MOU expired 8/17; Iran–Oman phased framework (8/25-26: temporary corridor + joint mine-clearing; permanent-corridor window 9/25, L229) has **no September development and no date**. 🔴 **NEW 2026-09-14 — OMAN POSTPONED TODAY'S GULF–IRAN MEETING** (BRENT's 9/14 pull; reported alongside the Hormuz-deal signing being put off). ⚠️ **This is the ONLY live de-escalation channel and it just moved the wrong way — ladder item 5's inverse leg (a framework WITH a date) is further away, not closer.** No new date published. **US acceptance leg NEGATIVE on the POTUS channel 9/9** — Trump: war ends *"immediately after"* the 11/3 midterms, *"we're not looking for"* a negotiated end (tape, not information; but it is the stated US position). "Ceasefire": no instrument; kill-on-sight.
+
+8. **Every 7 days minimum → NEXT ~2026-09-24** *(full sweep DONE 2026-09-17; prior 2026-09-10 — this line is re-stamped at every addendum or it silently certifies a schedule nobody is on)* *(this line read "next ~7/23" for six weeks while the live cadence moved on — a ladder item that names a date must be re-stamped at every addendum, or it silently certifies a schedule nobody is on).*
