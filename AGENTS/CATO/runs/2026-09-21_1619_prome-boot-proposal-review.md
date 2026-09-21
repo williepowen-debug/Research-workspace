@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-**Phase 3 accepted at `b693a7efe`; no blockers or advisories found within the bounded log-view scope.** Independently reproduced 29 passing tests, exact saved-log reconstruction and 32.1% text reduction for that log only. B4/B5 corrections at `bef8fe23e` are verified closed; Phase 1 B1/B2/B3 and Phase 2 acceptance stand. Older manifest completeness remains UNKNOWN. No demonstrated whole-boot latency/token benefit; incremental boot remains deferred. Recommend ordinary use before further machinery. No owner edits/sends/live boot; await Will's next scope.
+**Phase 4 mechanically accepted at `24960e563`, with two confirmed owner-declared advisories (B6/B7); no additional blocker found in the inspected scope.** Independently reproduced 98 passing tests and isolated interruption/policy-change counterchecks. Read reuse remains limited to acknowledged USER/BOOT in caller-asserted retained context; checks run fresh without BOARD advancement. B1–B5 remain closed. Older manifest completeness remains UNKNOWN. This phase adds meaningful state-management complexity; faster boots and net token benefit are unmeasured. Recommend small advisory corrections and ordinary-use measurement before further expansion. No owner edits/sends/live boot; await Will's next scope.
 
 ## Initial proposal disposition (historical)
 
@@ -146,3 +146,24 @@ STATUS History reaches the existing archive, and the Phase 2 source snapshot is 
 **Prior residue:** B4 CLOSED: HANDOFF now expressly supersedes the WALTER unfinished-installation claim and retains separate pending independent acceptance. B5 CLOSED: STATUS directly links the existing Phase 2 archive heading. Both corrections are in `bef8fe23e`. Older manifest completeness remains unresolved; this review does not renew it, resolve operational UNKNOWNs or establish whole-boot speed/token savings.
 
 **Delivery / resume:** only this report and its continuity entry authored. Scoped whitespace, weekday and orphan checks precede exact-path commit; fresh-fetch push receipt delivered in-session. No owner edits, messages or launches. Orient and await Will; no additional work assigned.
+
+
+## September 21 Phase 4 review — 24960e563
+
+**Scope / result:** reviewed the complete receipt helper, reader integration, refresh runner, gate dispatch/check inventory, new tests, instruction/manifest-note changes and owner review record. Mechanically accept within the declared retained-context limits, retaining B6/B7 below. Context identity is an assertion, not authentication. Fresh sessions/compaction cannot reuse instructions under the written contract; this code does not prove cognition or whole-boot completion.
+
+**Independent checks:** strict ResourceWarning run of `test_repeat_boot.py`, `test_boot_log_view.py`, `test_boot_coverage.py`, `test_prome_gate_gates.py` and `test_capability_class_WQ239.py`: **98 tests passed**. Includes fresh time-sensitive/BOARD fixtures and check-inventory equality except `--advance`. Own disposable counterchecks confirmed: changing another policy input mid-pagination prevents acknowledgement; losing saved EOF state prevents acknowledgement; a completed rc1 original can receive a fresh rc2 observation without altering its original files; an inconsistent rc2 original never launches a refresh child. No live boot, refresh or BOARD mutation was run. Both skill copies match; committed BOARD cursor/ARGUS baseline unchanged. Foreign dirty ARGUS file preserved.
+
+### B6 — Advisory: changed canon is invalidated but not delivered
+
+Confirmed the owner's result-review advisory with an independent fixture: acknowledge USER, change root CLAUDE to a new rule, then request USER reuse. The result correctly returns FULL, but says only `page recorded; acknowledge after EOF`. Consume/re-acknowledge USER and reuse succeeds without the new CLAUDE text ever being delivered. `boot_reuse.py::read_with_state` detects a changed policy digest but discards the incompatibility reason. BOOT's opening says auto-loaded CLAUDE need not be reread except when debugging drift. Thus invalidating USER/BOOT reuse alone does not refresh changed canon in retained context. This is not a false cache hit or a newly undisclosed defect; it is the documented reconciliation limitation, now independently reproduced.
+
+**Bounded correction / closure:** expose policy-basis invalidation and direct a read/reconciliation of current governing instructions before reuse resumes. A generic canon-change notice plus explicit reread rule can suffice; no new registry or framework is needed. Verify changed root/PROME CLAUDE becomes visible to the caller before treating retained instructions as current. Until then, do not equate successful re-acknowledgement with refreshed canon.
+
+### B7 — Low advisory: refresh does not explicitly preserve the consumed spawn allowance
+
+Confirmed the owner's plan-review advisory. Existing per-boot caps remain in PROME/CLAUDE and gate guidance; no executable launch allowance was added. However, BOOT's repeat paragraph does not say the refresh shares the original allowance. Close with one sentence that refresh creates no new per-boot spawn allowance; keep existing native preflight and authorization requirements. No fleet launches or cap changes are authorized by this review.
+
+**Complexity / usefulness:** unlike Phase 3's presentation change, this adds persistent receipts, explicit acknowledgement, invalidation, locking/atomic writes and refresh directories. It is bounded but materially more machinery. `measure.py` over pinned Git snapshots: BOOT 23,887 → 24,402 bytes; PROME/CLAUDE 23,809 → 24,081; one skill index 3,168 → 3,370. USER stays 4,126 bytes. Eligible USER+BOOT text totals 28,528 bytes before page envelopes, a potential avoided repeat read only when receipts/context qualify. No measured latency or net token benefit; acknowledgement/tool overhead and mandatory fresh work remain. Prefer the two small corrections and observing ordinary repeats before expanding caching.
+
+**Limits / delivery:** older manifest completeness remains unresolved; private-ruling/native-tool availability and carried operational obligations remain separate. Owner helper review is an artifact claim, not native-transcript authentication. Only CATO's report/continuity authored; scoped closeout checks and exact-path commit, with fresh-fetch push receipt delivered in-session. Await Will; no automatic advisory implementation or further phase.
