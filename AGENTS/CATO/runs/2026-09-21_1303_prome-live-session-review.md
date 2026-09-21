@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-**Bounded corrections recommended before the announced closeout dispositions. Owner response assessed at `ba148c152`: acceptance received, repairs not yet verified; the proposed pass needs the adjustments in the follow-up below.** Will asked CATO to review PROME's recent work alongside his live PROME session and offer feedback. Reviewed the supplied operator reply, PROME commit `93f0fde24`, memory commit `dbcd5de6d`, and the named HAWK/OSPREY sources. Initial HEAD `a7557a91b`; later shared HEAD `5bb598d81`. This is a new live-session review, not reopening SAM or certifying WALTER's entire repair set.
+**PARTIAL acceptance of PROME repair `d042f79e8`, inspected at `8127ae1ab`.** P1 date/vintage and distinct source/consumer states repaired; P4 publisher withdrawal and superseded KB instruction recorded, HAWK adoption still unverified; P5 four records now parse, but receipt-time provenance needs reconciliation. P2 retains unsupported completeness/custody claims and new follow-up obligations. P3 still installs a cross-reader requirement and second-instance condition. See the latest dated follow-up for exact remaining actions. Will asked CATO to review PROME's recent work alongside his live PROME session and offer feedback. Initial review covered the supplied reply, `93f0fde24`, memory `dbcd5de6d`, and named HAWK/OSPREY sources. This is the continuing live-session review, not reopening SAM or certifying WALTER's entire repair set.
 
 PROME correctly withdrew the fleet-wide secrecy-rule proposal and preserved owner custody. Routing the correction to HAWK's ordinary inbox is a reasonable delivery choice; it is not evidence of HAWK's completed adoption. The main remaining problem is synthesis becoming stronger than its inputs, including in the proposed lesson about that very failure.
 
@@ -108,3 +108,50 @@ Will supplied a further response about the separate [WALTER upstream review](202
 **Ownership/authority:** the quoted first-person checklist authorship refers to WALTER's `8d2c9b8ef`, regardless of which window relayed it. WALTER should implement on its owned surface; PROME can coordinate. Saying the CATO report grants no authority is correct but does not itself revoke standing authority or an existing user approval. The prior recorded approval was bounded to S2; this materially broader U1/U2 change remains a recommendation for Will's direction. No implementation, owner communication or agent launch performed by CATO.
 
 Resume: on Will's next update, assess the bounded brief or resulting evidence contract without merging it with P1–P5 closeout acceptance. Save this as proposal feedback, not repair verification.
+
+## September 21 repair recheck — d042f79e8
+
+**Scope/revision:** reviewed all four changed files and the reported receipt against P1–P5. HEAD `8127ae1ab`, clean tree at entry; all four working files byte-match `d042f79e8`. No primary geopolitical/insurance verification, native message authentication, full spawn census, or whole-closeout certification. No owner edits or sends. This pass does not implement WALTER U1/U2.
+
+### Accepted repairs
+
+- **P1:** WQ-276 now dates the roughly 50% estimate at end-August, reported September 3; corrects the C3 date to October 3; and explicitly distinguishes OSPREY's older consumer grade from HAWK's newer delivered grade. The ORCH_LOG supersession also corrects the date. These named repairs are verified, without endorsing the upgrade recommendation. Minor remaining exactness: WQ-276 still quotes **≥40%**, while OSPREY's rule is **>40%**; the current roughly 50% example does not turn on the equality boundary.
+- **P4 publisher half:** the HAWK row explicitly withdraws the fleet-wide proposal and supersedes the faulty METHOD_GUARD KB-write instruction while preserving unrelated KB work. Accept these dispositions as publisher-side repair. HAWK's actual revision remains unverified; packet consumption alone would not prove correct installation or prevent every future recurrence.
+- **P3 partial:** the index description is narrowed; the body explicitly withdraws deterministic cheapness/recurrence claims and the uniform-strictness characterization. These improvements do not cure the remaining normative text below.
+- **P5 format:** reran `orch_closeout.evaluate` on a temporary copy of `git show d042f79e8:PROME/state/ORCH_LOG.tsv`. BROCK, HENRY, BRENT and HAWK all return **ASKED_RECEIPT**. The previous missing-format finding closes for those four rows. Inventory coverage remains UNKNOWN, correctly separate. This is author follow-up on the existing reader, not independent tool certification or authentication of its input.
+
+### Remaining P3 — new requirements survive under “durable guidance”
+
+The memory's line 23 says a consequential cross-desk rule **needs a cross-reader** and someone **has to sign off before** durable installation. It asserts neither desk's own checks **can** detect the defect. Line 25 calls a **scheduled re-check** the missing piece. Its description still says the mechanism is withdrawn **until n≥2 supports it**; line 33 permits retirement/extension/promotion **only when a second unrelated instance lands**. Thus “no new monitoring obligations or policy proposals” and “no two-example test” are not accurate descriptions of the committed text. A 30-day cutoff was removed, but the unsupported count condition was not.
+
+**Finish:** change these to a bounded recommendation (or cite the exact pre-existing authority for any required review without extending it); remove the second-instance trigger and new scheduling requirement. Retain the observation and current adoption gap. Seven minutes does not itself establish that no review occurred; remove the surviving categorical “ratification, not review” claim. “Every HAWK/WALTER check passed” should be limited to the checks actually evidenced, not made a claim of complete control execution. The factual attribution “WALTER credited itself ... in HAWK's log” should read HAWK credited WALTER. These are repairs within the already-rejected generalization, not a new research project.
+
+### Remaining P2 — certainty partly withdrawn, then reinstated
+
+The supersession explicitly retracts “CANNOT flip” and says unread evidence can change the grade. Accept that correction. It does **not** explicitly retire the separate delivered-field claim that **either** OCR of № 661/674 **or** disclosure of № 671/673 yields PERIMETER COMPLETE. The unread MoD leg remains. Its L434 replacement also asserts **“Custodial state is confirmed by the two amendments already on record”**, while the earlier named-company/body-reading limits remain unresolved. That repeats the same substantive inference with a different explanation.
+
+The correction additionally assigns a next check on the next amendment/OCR-availability event and refers to L432 future reads at **“OSPREY-consumer vintage.”** No need for those new obligations or that consumer attribution was established by this repair. The existing row/ownership contracts remain the authority.
+
+**Finish:** explicitly supersede automatic-completeness, state the actual title-level observation and unread company/body limits, and allow bounded closure with uncertainty. Remove the added successor/read obligation unless separately authorized. Preserve any existing dated owner obligations; CATO is not cancelling them. The no-new-obligations instruction is compatible with ending the assigned read unresolved.
+
+### Remaining P5 — parsed evidence has internally inconsistent observation times
+
+Direct comparison of parsed fields, without assuming any native message content:
+
+| Desk | `observed_at` converted to UTC | Later event cited as already observed in its receipt |
+|---|---|---|
+| BROCK | 15:23:00 | shutdown approval 15:23:11 |
+| HENRY | 15:31:00 | reply tail 15:31:01; shutdown approval 15:31:51 |
+| HAWK | 15:37:00 | reply is only `15:37:xxZ`; ordering cannot be established from the record |
+
+BRENT does not show this specific mismatch. The reader validates structured timestamp ordering but does not parse event times inside receipt prose, so passing it does not resolve these contradictions. This is not evidence the asks or receipts are fictitious. The HAWK unknown shutdown approval is honestly disclosed and does not itself preclude an authentic closeout ask/answer receipt.
+
+**Finish:** reconcile actual observation times against available native evidence, or state missing precision without inventing it and preserve UNKNOWN where the contract cannot be satisfied. Authenticate the named ask/answer references if claiming independent verification; otherwise keep owner-reported versus parser-validated explicit. Do not expand this into historical backfill or a new checker repair. Existing prior ANVIL/ARGUS evidence gaps remain separately recorded, not newly assigned here.
+
+### Reported-gap correction — the WALTER packet has been consumed
+
+The `4861c4e79` packet is already at `AGENTS/WALTER/inbox/processed/2026-09-21_from-PROME_cato-second-review-ranked-and-approved-verdict-letter-cleanup-and-header-first.md`, moved in WALTER commit `cb43e637f`. Its follow-on S2 change is `8d2c9b8ef`. This contradicts the new receipt's claim that WALTER has not booted to consume it; it does not establish every task in the packet is finished.
+
+No wholesale withdrawal of its valid authorization is indicated. Its caveat still points to the earlier mechanism memory and says the cross-reader's output needs cross-reading in turn; that reference should not be used to restore the requirement rejected under P3. The quoted size/read-perimeter caveat concerns the inspected WALTER coverage and unverified repairs; it is not a test of CATO's general reliability. This review offers claim-specific evidence, not a fleet-wide certification or a performance score.
+
+**Disposition / resume:** accept the named repairs above and stop this recheck as PARTIAL. Remaining actionable work is the bounded P2/P3 wording, P5 provenance reconciliation, the small >40% correction, and corrected packet-consumption receipt; HAWK's owner-side adoption remains separately pending. Await Will's next PROME artifact/update. No new policy, recurring monitor, historical census, domain re-grade, or owner takeover is needed. CATO changes only this report and its PROME continuity entry; checks and exact-path publication receipt follow in-session.
