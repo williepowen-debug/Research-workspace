@@ -1,5 +1,17 @@
 # SAM TIMELINE
 
+## 2026-09-20 (2nd) — Every number held and every sentence about them broke
+
+The BOJ pricing came back the same evening it was reported as blocked, and the way it came back is the finding. My own README sets `review_method` to *"SAM visual transcription"* — the image review was always this desk's job. I had told Will it needed a minute of his time. It needed none of his time, and a reviewer had to point at my own instructions to establish that.
+
+What followed was five rounds of review across thirteen points, and I could not dispute one of them at the artifact. The shape never varied: **the measurements reproduced clean and the prose wrapped around them did not.** A ticker list I had grepped out of a position file became "your equity cluster" — they were puts, and I had answered a question about the operator's own book from a surface I had spent the same session describing as stale and contradicted. A column headed *incremental 25bp equivalent* became "the market's modal next hike." A reporting window became a spending schedule, which mattered because my own file put nearly the whole ¥15.4T on two days rather than four weeks, an order of magnitude of concentration I had argued away. A cell the mirror's own banner lists as contradicted got printed under a **LIVE** label. A decision expiry got published as a refresh deadline thirty-eight days late, on an object carrying two clocks where I had quoted the longer. And an inference I never checked — that the publisher would not post during the holiday — got stated as structural.
+
+**The second pattern is worse than the first, because it is about the repairs.** Three correction passes each left a sibling alive in a file I already had open. The restored quote reached the ledger and STATUS and not the peer brief, so every other desk went on reading *"this desk has no current BOJ pricing"* for five days after it was false — the same propagation failure I had logged against myself the previous session. One correction notice read *"I used it twice"* four lines above the second instance it had not fixed. **A correction that describes the fix is not the fix**, and the surviving instance is usually not in some distant file: it is directly below the line being edited.
+
+One round was avoided rather than run, and that is the only part worth copying. A review arrived that was byte-identical to one already addressed, carrying the same commit hash. Checking that hash against the reviewer's own run directory showed it predated the fix. **A relayed review is a claim about the state of the repository, and the repository can be checked** — the same discipline the other twelve points were about, pointed at incoming work instead of my own.
+
+What stands: the chart transcription, a study now reproducible from a saved script rather than a shell heredoc, and the corrections. **Consequences to the thesis: none.** v1.7 stands, no successor, book FLAT, SAM-33 continues to December 31. Its pricing instrument expires Tuesday afternoon and the desk may go dark again for two days — likely, not established, because the publisher's holiday cadence is exactly the kind of thing I would otherwise have asserted.
+
 ## 2026-09-20 — The tell the playbook was waiting for fired, and the desk did not know the market would be shut for three days
 
 Will-directed Sunday catch-up, market closed. Two things came back from the news sweep, and the second is the more embarrassing.

@@ -8,6 +8,24 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-20 (2nd) — BOJ meeting OIS RESTORED after 5 dark days; five CATO rounds, 13 points, all upheld. **THESIS v1.7 UNCHANGED.**
+
+**Change class:** instrument restoration + correction of published characterizations. **No channel, conviction, probability or position change.**
+
+**① BOJ pricing restored.** Dark 2026-09-15 → 2026-09-20. Chart SHA `1105fdfc…` transcribed by **SAM visual transcription** (5 rows), validated with `--no-write`, ledger written. Quote **2026-09-18T15:15+09:00 — POST-decision**, pricing the path **from 1.25%**: Oct-30 **22%** / OIS 1.2800 · Dec **63%** · Jan-27 38% · Mar-27 40% · Apr-27 32%; cumulative **1.94 through April 2027**.
+- 🔑 **The blocker never required Will.** `workbook/BOJ_OIS_README.md` step 2 sets `review_method` to *"SAM visual transcription"* — the process is designed for this desk to read the image. It was reported to the operator as needing his time. It did not.
+- ⛔ **Semantic guards now travel with the numbers:** 63% is **that meeting's incremental 25bp equivalent under Totan's model**, NOT the probability the next hike lands in December; cumulative **counts** are not cumulative **probabilities**; 1.94 is **through April 2027**, not any two-year horizon.
+- 🔴 **TWO CLOCKS, and the binding one is the early one:** `boj_ois.py:27` `MAX_AGE = timedelta(days=4)` on the SOURCE QUOTE ⇒ expires **Tue Sep-22 15:15 JST**. The **2026-10-30** `valid_until` is the separate DECISION expiry. Publishing the latter as a refresh deadline was a **38-day** error, corrected.
+
+**② Thirteen published claims corrected across five CATO rounds. Every measurement reproduced clean; every failure was the characterization.** The corrected record and its limits live in `research/outputs/2026-09-20_intervention-ust-study/REPORT.md` (now with `study.py` + `output.json`, since the original table ran inline and was reproducible by nobody). Material ones:
+- **Instrument direction on the operator's book:** KRE/HBAN/WAL reported as an equity cluster; they are **PUTS**. ⇒ the claim that the bank leg and the duration-short leg lose together in a Japan shock is **backwards** — they partially offset. **TLT $82P Oct-16 ×2 was omitted entirely**; three WAL contracts counted as offset are **dead** (77.5P sold 8/18; the Sep-18 pair expired).
+- ⛔ **No portfolio imbalance is ESTABLISHED** — the mirror is 9/10 vintage and its own banner lists **TBT 14→10** among six contradicted cells, so a "LIVE ×14" label printed a known-contradicted value. **Direction is structural and quotable; quantity and the net are not.**
+- **Scale:** ¥15,399.3B is a **reporting window** (Jul-30→Aug-26), not a spending schedule — this desk's own record puts ~all of it on **two days**. "Spread over four weeks" understated concentration by an order of magnitude.
+- **Inference:** *"cannot detect an effect"* ≠ *"the channel is too small"*; the Apr/May dates sit within 5 business days so their windows **overlap** (5 dates ≈ 2 independent campaigns) and the nominal SE **overstates precision**.
+- **November is an evidence CHECKPOINT, not resolution** — MOF's quarterly gives dates/amounts/currencies, FRBNY covers US operations; neither promises to explain **what Japan sold**. The funding question may survive both.
+
+**③ Propagation, the repeat offence.** The restoration reached the ledger and STATUS but **not `NEXUS_BRIEF.md`**, which told every peer *"this desk has no current BOJ pricing"* for five days after it was false. Three correction passes then each left a **sibling** live in a file already open — one notice read *"I used it twice"* four lines above the surviving instance. ⇒ Fixed by **grepping the class**, not the lines a reviewer named. Promoted to `[[finding_output_shape_implies_more_than_the_measurement]]` (extended, n=6).
+
 ## 2026-09-20 — T1 rate check fired at ~158 and a 3-day Japan market closure was missing from every SAM surface. **THESIS v1.7 UNCHANGED, no version bump.**
 
 **Change class:** threshold RIDER + docket repair. **No channel, conviction, probability or position change.** The book is FLAT, no retired gate re-arms, the 160 gate stays VOID, SAM-33 is untouched.

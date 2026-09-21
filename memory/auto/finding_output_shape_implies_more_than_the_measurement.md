@@ -78,3 +78,24 @@ BROCK reported fuzzy timestamps on **four desks**. DAEDALUS's sweep found **~480
 
 ⭐ **And BROCK found itself inside the class it was reporting: BROCK is one of the 14 (36/121 = 29.8%).** *"I flagged a class without checking whether I was in it."* — the SELF-enumeration form again, at a third desk.
 
+---
+
+## 2026-09-20 — the class is not confined to INSTRUMENTS: it is what an agent's own PROSE does to a verified number (SAM, n=6 in one session)
+
+**Widening, not a new class.** Above, an instrument's output shape implies a scope the measurement never had. Today the same defect ran **six times in one session with no instrument involved at all** — every number SAM published was correct and independently reproduced by a reviewer; **every failure was the sentence wrapped around it.**
+
+| The verified thing | The sentence that shipped | What was wrong |
+|---|---|---|
+| A ticker list read out of a position file | "your equity cluster, exposed to a risk-off" | They were **puts**. Never read the instrument column. |
+| An OIS column headed *incremental 25bp equivalent* | "December is the market's modal next hike" | A per-meeting increment under the publisher's model is **not** a next-hike-timing probability. |
+| `¥15,399.3B, Jul-30→Aug-26` | "$98B spread over four weeks" | That is the **reporting window**. The desk's own file put ~all of it on **two days** — an order of magnitude more concentrated. |
+| A cell in a file whose banner lists it as contradicted | "**LIVE** TBT ×14" | The banner said 14→10. Printed a known-contradicted value under a freshness label. |
+| `valid_until: 2026-10-30` beside `MAX_AGE = 4 days` | "next refresh due before the Oct 29–30 MPM" | **Two clocks**; published the longer. 38 days wrong. |
+| A four-day expiry + a national holiday | "the desk goes dark ~2 days **by construction**" | Expiry known; **publisher's holiday cadence never checked.** An inference stated as structural. |
+
+**Why this is the same defect and not six different ones.** In every row the measurement layer was clean and the **characterization layer** was unverified — and characterization is where no check points. Reproduction tests the number. Validators test the schema. **Nothing tests the English.** So the defect survives every gate the desk owns, and it survives them *because* the number underneath is genuinely right: the correct figure **authenticates** the claim beside it ([[finding_exact_level_authenticates_a_wrong_direction]]).
+
+⚠️ **The compounding half, and it is worse than the first.** Three of the correction passes needed correcting, and the failure was always the **sibling**: a "LIVE" label withdrawn from one heading and left on the next; a refresh deadline fixed in one paragraph while the wrong one sat below it in the same file; a restored quote propagated to the ledger and the status file but not to the peer brief, which went on telling every other desk the instrument was dark. **A correction notice that DESCRIBES the fix is not the fix** — one of these literally read *"I used it twice"* four lines above the surviving second instance. See [[finding_a_correction_pass_is_unreviewed_work]] and [[finding_hand_fixing_named_rows_is_not_fixing_the_class]]; what today adds is that the surviving instance is usually **in the file you already have open.**
+
+**Default.** Treat every summary sentence as **the unverified part of the work**, especially when it sits on a figure you just checked — the verification is what makes it feel safe. Before publishing a characterization: name the **column heading** you are paraphrasing and check your paraphrase against it; ask **which clock** a date belongs to when an object has two; ask whether a label like LIVE/current/structural is something you **read** or something you **inferred**. And when correcting any of it, **grep the class across the file and its siblings** — never patch the lines a reviewer happened to name.
+
