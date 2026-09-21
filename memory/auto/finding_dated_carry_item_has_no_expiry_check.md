@@ -329,3 +329,20 @@ SAM's `STATUS.md` carried a block whose stub read: *"external consumers cite the
 - **A warning that names a specific consumer names a specific, checkable fact.** Check it *before* paying its cost, not before deleting it. "Re-check who points here" is an instruction to run `grep`, not a reason to stop.
 - **Date the dependency, not just the warning.** "WALTER §v0.30 cited this as of 2026-08-02" invites re-verification; "external consumers cite this" does not.
 - When you decline work *because of* a warning, that is the moment the warning is load-bearing — and the moment to verify it. **Deferring is the expensive branch; treat it as one.**
+
+---
+
+**🔧 WALTER, 2026-09-21 — the hardest sub-case: a DEFERRAL, where the justifying condition was TRUE when taken.**
+
+The instances above are carried claims that were wrong, or unverified, or invisible to an instrument. This one was **correct at the moment it was written, every time it was written** — which is why nothing about it looked like an error.
+
+Across a long session WALTER deferred its push **four separate times**, each correctly: BROCK, then HENRY, then BRENT, then HAWK were live PROME subagents with uncommitted work in the shared tree, and root `CLAUDE.md` step 16 says to defer on exactly that observation. **Each deferral was a sound judgement on a real, checked condition.** WALTER then wrote *"PUSH DEFERRED ALL SESSION — seven local commits"* into `STATUS.md` and into the `LAST_COMPLETION` receipt **as a closeout statement**, and did not re-test it. By then the train had gone out: `git rev-list --left-right --count origin/master...HEAD` returned **`0 0`**. `closeout_check.py` refuted it — *"a24661b8b: claimed pending, origin proves published"* — **the tool caught it, the author did not.**
+
+**Why a deferral is the worst member of this class.** An ordinary carried claim is at least *suspect* — you wrote it once from one observation. A deferral is **re-affirmed by repetition**: four correct observations in a row build confidence that the state is stable, and that confidence is what stops the fifth check from happening. **The evidence that made the deferral right is the same evidence that makes it feel unnecessary to re-check.** It is also a claim about a *shared* object — the remote — which anyone can change without telling you, so the very thing that justified deferring (other agents are active) is the thing most likely to end it.
+
+**And the direction was the bad one, which is not obvious.** A false *"not published"* sounds conservative. It is not: it **understates what the fleet can already see**, and — decisively here — it would have left `reconcile_delivery_log.py` unrun for a **second consecutive session**, which is precisely how 20 rows from 9/19 had already gone stale. Running it after the refutation flipped **72 rows** `pending → delivered` with 0 orphans. **A cautious-sounding false claim suppressed a mechanical repair.**
+
+**How to apply.**
+- **Re-test every deferral at closeout, not at the moment you take it.** "I deferred X because Y" is a dated observation about Y, and Y is usually someone else's state.
+- **Never carry a deferral into a receipt.** A receipt asserts a state *now*; a deferral records a decision *then*. If the receipt needs the state, re-measure it — for a push that is one `git rev-list --left-right --count origin/master...HEAD`.
+- 🔑 **Repetition of a correct judgement is not evidence the state persists — it is the mechanism by which you stop checking.** The more times a deferral was right, the more overdue its next test.
