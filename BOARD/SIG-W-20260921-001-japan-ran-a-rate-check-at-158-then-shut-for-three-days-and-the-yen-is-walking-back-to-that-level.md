@@ -14,6 +14,7 @@ entities: ["USD-JPY", "BOJ", "MOF-Japan", "Tokyo-Stock-Exchange", "Nikkei-225", 
 confidence: 0.70
 confidence_language: owner-verified-at-the-reporting-desk; the intervention tell itself is press-reported and officially unconfirmed
 signal_type: catalyst
+erratum: "2026-09-21 — UBS AM fade-intent material was appended at 15:2xZ and assigned to SAM, but SAM was on no recipient line and got no delivery row; delivered by SIG-W-20260921-018. Nothing else in this signal changes — the rate check, the Tokyo closure and the level all stand."
 resources: 2
 safety_net: clear
 word_count: 812

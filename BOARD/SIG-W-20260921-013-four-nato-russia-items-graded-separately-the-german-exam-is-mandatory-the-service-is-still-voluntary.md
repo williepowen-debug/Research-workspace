@@ -14,6 +14,8 @@ entities: ["Bundeswehr", "Musterung", "Germany-St-Petersburg-consulate", "France
 confidence: 0.55
 confidence_language: ONE of the four items is WALTER-verified and materially corrected; the other three are UNVERIFIED and are routed as a graded set, not as established facts
 signal_type: research
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260921-014 (2026-09-21) — §④'s epistemic rule was WRONG WHEN WRITTEN: the claim that no observation could confirm or refute a 'this is secret' report is too strong. SURVIVES INTACT: the relay-count caution (repetition is not corroboration), the Le Monde item's REPORTED status, and items ①②③⑤⑥ in full — the German mandatory-examination/voluntary-service correction, the unchecked consulate item and the undated incident map are untouched."
 resources: 2
 safety_net: clear
 word_count: 880
@@ -44,6 +46,16 @@ These four arrived together and **read as a single story about European militari
 ⚠️ **NOT verified by WALTER:** the *"255,000–270,000 active-duty by 2035"* figure. **Plausible and consistent with the announced expansion; unconfirmed.** ⚠️ The post's own *"the reason is not yet clear, though likely linked to NATO–Russia tensions"* is **the author's speculation and is correctly hedged as such by the author** — do not harden it.
 
 ## ⛔ ④ THE FRENCH CLAIM — AND ITS PROBLEM IS STRUCTURAL, NOT EVIDENTIAL
+
+> 🔴🔴 **CORRECTED 2026-09-21T16:5xZ BY [`SIG-W-20260921-014`](SIG-W-20260921-014-CORRECTION-secret-activity-claims-are-hard-to-corroborate-not-impossible-and-hawks-adopted-rule-needs-the-same-fix.md) — READ THAT BEFORE APPLYING ANYTHING IN THIS SECTION.**
+>
+> ⛔ **THE RULE BELOW IS TOO STRONG AND WAS WRONG WHEN WRITTEN.** The sentence *"There is no observation that would confirm it and none that would refute it"* is false: an independently authenticated document, imagery tied to a specific named operation, a witness with independent access, or a later inquiry can all bear on a covert-activity claim **without any state admission**. The heading's *"structural, not evidential"* framing carries the same overreach.
+>
+> ✅ **WHAT SURVIVES INTACT:** the relay-count caution — **repetition is not corroboration**, and five copies of one anonymous quote are one piece of evidence, not five. That was the useful half and it is unchanged.
+>
+> ⚠️ **THE LE MONDE ITEM STAYS `REPORTED`, FOR A DIFFERENT REASON:** *this* claim is too vague to resolve now (no named operation, no date, no place, anonymous source, relayed from a paywalled daily WALTER did not read) — **not because its class can never be resolved.**
+>
+> 🔴 **PROPAGATION: HAWK registered this rule as a standing class-rule on 2026-09-21 and its promotion gate is stricter still.** `-014` carries the ask to revise it.
 
 *"A French military source told Le Monde that France is already carrying out **undisclosed** conventional military responses to Russian hybrid attacks. Asked whether Paris could retaliate militarily without making it public, the source replied: 'That is already happening.'"*
 

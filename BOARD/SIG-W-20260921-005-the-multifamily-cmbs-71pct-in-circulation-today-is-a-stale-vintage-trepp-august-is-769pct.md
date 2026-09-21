@@ -14,6 +14,8 @@ entities: ["multifamily-CMBS-delinquency", "Trepp", "Morgan-Stanley", "WSJ", "CR
 confidence: 0.85
 confidence_language: the CURRENT Trepp level (7.69%, Aug-2026) is verified at a date-stamped secondary and matches HOMER's own trajectory; the Morgan Stanley report's own perimeter is NOT established
 signal_type: research
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260921-015 (2026-09-21) — the "stale vintage" verdict and the "~59 bp understatement" were WRONG WHEN WRITTEN and are contradicted by this signal’s own caveat section, which states the Morgan Stanley perimeter is unknown. A newer Trepp print cannot establish another series is stale. SURVIVES INTACT: Trepp August REPORTED at 7.69% flat MoM on a dated secondary, the HOMER ledger-lag observation, the three owner asks, and the $2T handling (an outstanding-debt figure, NOT to be killed by the maturity-figure retirement)."
 resources: 2
 safety_net: clear
 word_count: 795

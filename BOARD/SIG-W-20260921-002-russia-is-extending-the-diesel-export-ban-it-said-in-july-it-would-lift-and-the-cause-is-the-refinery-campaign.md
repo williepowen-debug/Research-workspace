@@ -14,6 +14,8 @@ entities: ["Russia-diesel-export-ban", "Alexander-Novak", "Russian-refining", "U
 confidence: 0.85
 confidence_language: verified at the reporting outlet (Bloomberg 9/21) and against the reversed prior position (Interfax 7/27); the measure itself is NOT officially announced
 signal_type: catalyst
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260921-019 (2026-09-21) — the export-ban-as-conversion-mechanism argument was WEAKER WHEN WRITTEN than this body states: OSPREY’s record has the Kapotnya plant likely already offline pre-9/20, so incremental barrels are probably small. The 15:3xZ annotation recording this was MISLABELLED "ADDITIVE" and therefore never delivered. SURVIVES INTACT: the export ban itself, the July Novak reversal, and the drone-count resolution."
 resources: 2
 safety_net: clear
 word_count: 690

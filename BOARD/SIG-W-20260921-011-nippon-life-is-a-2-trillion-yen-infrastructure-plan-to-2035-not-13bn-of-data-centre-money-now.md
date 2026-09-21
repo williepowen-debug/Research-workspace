@@ -14,6 +14,8 @@ entities: ["Nippon-Life", "Nikkei-Asia", "US-data-centre-project-finance", "priv
 confidence: 0.80
 confidence_language: the Nikkei report and the yen figure are verified at the outlet and two independent relays; the wrapper's 'ran out of US life insurance cash' framing is NOT established at Nikkei and may be circularly sourced
 signal_type: research
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260921-017 (2026-09-21) — TWO defects WRONG WHEN WRITTEN: (1) the headline overstates on TWO axes, not three — $12.75bn rounded to "$13B" is ordinary headline rounding, not an overstatement, so "all three compressions push the same way" falls; (2) the ASK to SAM re-imported the stock/flow and geography errors the body had just dismantled, describing a ¥2tn TARGET BALANCE as an outbound commitment. SURVIVES INTACT: the scope correction (infrastructure, not data centres), the horizon correction (FY2035, not now), the project-finance characterisation and the >2% spreads."
 resources: 2
 safety_net: clear
 word_count: 810

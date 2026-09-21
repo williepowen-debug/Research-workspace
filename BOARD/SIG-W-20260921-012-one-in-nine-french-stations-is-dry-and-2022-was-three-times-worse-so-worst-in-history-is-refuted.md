@@ -14,6 +14,8 @@ entities: ["France-fuel-shortage", "Grand-Est", "French-diesel-price", "Macron",
 confidence: 0.85
 confidence_language: the shortage percentages and the counting methodology are verified against the French government's own published figures via Connexion France; the CAUSE is NOT established and the 'worst in history' superlative is REFUTED on the post's own metric
 signal_type: catalyst
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260921-016 (2026-09-21) — the "REFUTED" verdict was WRONG WHEN WRITTEN: a French forecourt statistic cannot refute a Europe-wide multidimensional superlative (UNSUPPORTED is the verdict the evidence carries), and the 2022 "three times worse" comparison is not established as like-for-like because the two shortage counts use different definitions. Also withdrawn: €2.406/L is unverified screenshot input (Connexion gives €2.378/L for 9/18) and the product-price decoupling inference paired a 9/18 pump price with a 9/21 Brent move. SURVIVES INTACT: 11% of French stations short at 09:00 2026-09-18 on government figures, Grand Est 16%, the rising 9→10→11 trend, the restricted counting definition, Macron’s emergency meeting, and the cause NOT established."
 resources: 2
 safety_net: clear
 word_count: 790

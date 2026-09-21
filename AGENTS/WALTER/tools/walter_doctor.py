@@ -1483,8 +1483,12 @@ def check_staleness_sweep_overdue():
         return [(INFO, "staleness sweep present (undated filename)")]
     age = _age_days(dt.date.fromisoformat(m.group(0)))
     if age > 14:
-        return [(MED, f"staleness sweep {age}d overdue (last {m.group(0)}, cadence 14d) "
-                     f"— stale-frame BOARD signals may sit untagged")]
+        # AGE and OVERDUE are different quantities. This printed the AGE and called it
+        # "overdue", so a sweep 18d old against a 14d cadence read as "18d overdue"
+        # when it is 4d overdue — a 4.5x overstatement of the lapse, repeated verbatim
+        # into WALTER's own closeout. (CATO review W4.4, 2026-09-21.)
+        return [(MED, f"staleness sweep {age}d old = {age - 14}d PAST its 14d cadence "
+                     f"(last {m.group(0)}) — stale-frame BOARD signals may sit untagged")]
     return [(INFO, f"staleness sweep {age}d ago (last {m.group(0)}, ≤14d)")]
 
 
