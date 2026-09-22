@@ -96,10 +96,13 @@ def first_kill_date(asc, kill_below, since=GATE_REGISTERED):
     return None
 
 
-def decide(bps, obs_date, prev, hy_def, classify, recent=None):
+def decide(bps, obs_date, prev, hy_def, classify, recent=None, late_kill=None):
     """PURE transition logic (no IO) — shared by the live run and --selftest.
     `recent` = newest-first [(date, bps)] published observations (the kill count's ONLY basis);
     None ⇒ only the current observation is known, so a two-close kill cannot be established (fail closed).
+    `late_kill` = a fire date recovered from the first-published series that THIS box has no record of
+    (missed fire-day run, vintage-fetch failure, or lost state). It raises a LATE alert — never silence
+    (independent reader N1, 2026-09-22: injecting it as already-fired swallowed an unseen kill forever).
     Returns dict: zone, sev, marker, fired (list of alert strings), state (next HY_OAS_STATE)."""
     zone = classify(bps, hy_def)
     sev = SEV.get(zone, -1)
@@ -121,7 +124,15 @@ def decide(bps, obs_date, prev, hy_def, classify, recent=None):
         fired.append(f"🚨 ESCALATION {EMOJI[prev_zone]}{prev_zone}→{mk}{zone}  HY OAS {bps:.0f}bps "
                      f"(as-of {obs_date}) — {hy_def.get('notes','')}")
     # 2) Bear-axis KILL: <260 on two consecutive CLOSES (two-way secondary classify() can't encode)
-    if kill_met_on:
+    if not kill_met_on and late_kill:
+        kill_met_on = late_kill
+        fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — LATE ALERT: the first-published series shows HY OAS "
+                     f"<{kill_below} on two consecutive published closes, the second dated {late_kill}; this box "
+                     f"holds no record of alerting it (missed run, vintage-fetch failure, or lost state — may be a "
+                     f"DUPLICATE of an alert another box sent). It is the SAME single terminal event dated {late_kill}, "
+                     f"never a second kill. KILL_MEMO tape-vs-substance guard APPLIES; escalate to BROCK/PROME, do NOT "
+                     f"retire the thesis.")
+    elif kill_met_on:
         # TERMINAL: the level condition was already met once; a recovery + a second sub-260 pair
         # must NOT re-fire (KILL_MEMO_HY_OAS_260.md §4, PROME-confirmed 2026-09-03). A successor
         # is a new registration through PROME, and clearing this key is a human act.
@@ -232,9 +243,14 @@ def selftest():
           first_kill_date([("2025-01-21", 259), ("2025-01-22", 259)], kb), None)
     check("broken pair (259, 270, 259) is not a fire",
           first_kill_date([("2026-07-01", 259), ("2026-07-02", 270), ("2026-07-03", 259)], kb), None)
-    lost = dict(s0, kill_met_on=first_kill_date(hist, kb))   # what main() injects when state is lost
-    r9 = decide(255, "2026-08-04", lost, hy, classify, [("2026-08-04", 255), ("2026-08-03", 256)])
-    check("state lost + new sub-260 pair → NO re-fire (history-derived terminal)", K(r9), False)
+    # N1 (reader round 2): fire-day run missed / state lost ⇒ history shows a kill this box never
+    # alerted ⇒ ONE late alert naming the ORIGINAL date, then terminal; never silence, never a 2nd kill
+    r9 = decide(270, "2026-07-08", s0, hy, classify, [("2026-07-08", 270), ("2026-07-06", 270)],
+                late_kill=first_kill_date(hist, kb))
+    check("unseen historical kill → LATE alert fires, dated to the original",
+          (K(r9), r9["state"].get("kill_met_on"), any("LATE" in f for f in r9["fired"])), (True, "2026-07-03", True))
+    r10 = decide(255, "2026-08-04", r9["state"], hy, classify, [("2026-08-04", 255), ("2026-08-03", 256)])
+    check("after the late alert, a new sub-260 pair → NO re-fire (terminal)", K(r10), False)
 
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
@@ -361,6 +377,7 @@ def main():
     # recomputing from LATEST-REVISED values let a revision re-grade an open count both ways.
     # Zone escalation (not gate-lettered) still reads the latest value. If the vintage pull fails,
     # the kill leg is NOT graded this run (recent=None ⇒ cannot establish two closes) — fail closed.
+    late = None
     fp = _first_published(hy.get("multiply", 1))
     if fp is None:
         _log(RLOG, f"{_ts()}  VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)")
@@ -368,9 +385,9 @@ def main():
     else:
         recent = list(reversed(fp))[:10]
         met = first_kill_date(fp, hy.get("kill_below", 260))
-        if met and met != (recent[0][0] if recent else None):
-            prev = dict(prev, kill_met_on=prev.get("kill_met_on") or met)
-    r = decide(bps, obs_date, prev, hy, classify, recent)
+        if met and not prev.get("kill_met_on") and met != (recent[0][0] if recent else None):
+            late = met   # a kill in history this box never alerted — say so LATE, never swallow it
+    r = decide(bps, obs_date, prev, hy, classify, recent, late_kill=late)
     if not r["fired"] and prev.get("delivered"):
         r["state"]["delivered"] = prev["delivered"]   # keep delivery idempotency across quiet runs
 
