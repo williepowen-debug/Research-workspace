@@ -69,3 +69,5 @@ LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares 
 - A third basis, as-known-on-a-past-date, is missing.
 - **The claim that GATE-TERRY-007 declares first-published is WRONG as written.** Only GATE-HY-REKILL's row says "as first published"; 007's row and TERRY's card do not. The L409 row inherited PROME's misstatement, and v2 corrects the consumer list.
 - The L429 scope boundary needs one sentence.
+
+**Reader correction, 22:37Z:** the reader WITHDREW ❌1 after PROME's rebuttal. It had printed the cache times as hours and minutes with no date, so it read 9/17 files as today's. It downgraded ❌2 to ⚠️: A5's self-referential API comparison is a design point, with no observed lag behind it, and v2 should still cover the 20000-row pulls. **Revised score: 10 ✅ · 7 ⚠️ · 3 ❌ (❌3/4/5), verdict GO-WITH-FIXES.** v2 fixes ❌3–5 and declares the ⚠️ as residue per WQ-178.
