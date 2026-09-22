@@ -23,3 +23,22 @@ URLs:
 - https://www.breakwaveadvisors.com/insights/980026wetreportkju458-ook57
 - https://www.insurancebusinessmag.com/us/news/breaking-news/saudi-arabias-forced-closure-of-major-pipeline-puts-marine-war-risk-back-in-the-spotlight-589538.aspx
 - https://www.theinsurer.com/ti/news/marine-war-pvt-rates-rise-after-saudi-arabia-drawn-into-iran-conflict-2026-09-18/ (paywalled)
+
+---
+
+## ADDENDUM 2026-09-22 18:5x ET: Will RULED the access question; you now have a feed
+
+**Ruling (Will, verbatim):** *"We arent going to pay for access - but if we can find some good sources we might just monitor them."* ⇒ **No paid access, ever, on this leg as it stands.** The WARRISK rows run on free sources: B2, second-hand, and a figure only when the press quotes one. Retiring a row stays your call if the free lane proves empty.
+
+**New collector query:** RESEARCH-INTAKE `01285d6`, label `war-risk-insurance`, agents FALCON + HAWK, first run the next weekday collect (~15:00 UTC):
+`when:7d ("war risk premium" OR … OR "Joint War Committee") (tanker OR shipping OR vessel OR marine OR hull)`
+
+The live probe returned 23 items dated 9/16–9/22, none suppressed. Items relevant to you:
+- *Saudi Re to lead new Saudi marine war risk pool* (globalreinsurance, 9/16)
+- *Red Sea tensions fuel insurance costs* (Daily Star, 9/21)
+- *US Considering Oil Tanker Insurance Support to Ease Middle East Crude Shipments* (9/22)
+- *London's marine insurers widen Black Sea high risk zone* (Reuters, 9/18); HAWK also receives this one
+
+⚠️ **Probe lessons:**
+- `when:7d` must LEAD the query. Placed after the AND group it was silently ignored and returned March–July articles.
+- The query has **no WATCH_FOR terms, deliberately.** The matcher drops "war", so "war risk premium" collides with junk-bond "risk premium" headlines.
