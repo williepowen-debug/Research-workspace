@@ -61,8 +61,25 @@ def _read_state():
         return {}
 
 
-def decide(bps, obs_date, prev, hy_def, classify):
+def sub_run(recent, kill_below):
+    """Length of the run of PUBLISHED observations strictly < kill_below, counted back from the
+    newest. `recent` = [(date, bps), ...] newest-first, FRED '.' (unpublished) already excluded.
+    ⛔ 2026-09-22 (CATO 9/17 §3, HIGH): the streak used to be advanced from POLLING memory — a
+    missed timer run between 259 (Fri) · 270 (Mon) · 259 (Tue) skipped Monday's reset and read as
+    two consecutive. The count is now derived from the series itself, so no poll gap can alter it."""
+    n = 0
+    for _d, v in recent:
+        if v < kill_below:
+            n += 1
+        else:
+            break
+    return n
+
+
+def decide(bps, obs_date, prev, hy_def, classify, recent=None):
     """PURE transition logic (no IO) — shared by the live run and --selftest.
+    `recent` = newest-first [(date, bps)] published observations (the kill count's ONLY basis);
+    None ⇒ only the current observation is known, so a two-close kill cannot be established (fail closed).
     Returns dict: zone, sev, marker, fired (list of alert strings), state (next HY_OAS_STATE)."""
     zone = classify(bps, hy_def)
     sev = SEV.get(zone, -1)
@@ -72,8 +89,11 @@ def decide(bps, obs_date, prev, hy_def, classify):
     prev_sev = prev.get("sev", 0)
     prev_zone = prev.get("zone", "green")
     prev_date = prev.get("obs_date")
-    sub260 = prev.get("sub260", 0)
-    new_obs = obs_date != prev_date  # advance the kill streak only on a genuinely new daily close
+    new_obs = obs_date != prev_date  # liveness/log only — NOT the kill-count basis any more
+    if recent is None:
+        recent = [(obs_date, bps)]
+    sub260 = sub_run(recent, kill_below)
+    kill_met_on = prev.get("kill_met_on")  # TERMINAL marker (KILL_MEMO §4: one kill, no re-count)
 
     fired = []
     # 1) Zone escalation into 🟡/🔴 (severity up vs last recorded zone). No hysteresis on the way up.
@@ -81,26 +101,30 @@ def decide(bps, obs_date, prev, hy_def, classify):
         fired.append(f"🚨 ESCALATION {EMOJI[prev_zone]}{prev_zone}→{mk}{zone}  HY OAS {bps:.0f}bps "
                      f"(as-of {obs_date}) — {hy_def.get('notes','')}")
     # 2) Bear-axis KILL: <260 on two consecutive CLOSES (two-way secondary classify() can't encode)
-    if bps < kill_below:
-        if new_obs:
-            sub260 += 1
-        if sub260 >= 2:
-            # ⚠️ The LEVEL is met — that is NOT the same as the thesis being killed.
-            # KILL_MEMO's tape-vs-substance guard blocks an auto-kill on a tape-only
-            # compression, and as of 2026-08-23 its arbiter (BROCK's wrapper-leads half)
-            # is CONTESTED => GUARD-HELD-PENDING-ARBITER. An unattended alert that says
-            # "INVALIDATION" would contradict the guarded ladder it is watching, so it
-            # reports the LEVEL and names the guard instead of pre-empting it.
-            fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — HY OAS {bps:.0f}bps < {kill_below} on {sub260} "
-                         f"consecutive closes (as-of {obs_date}). This is the LEVEL condition only. "
-                         f"KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit "
-                         f"substance worsens is NOT an invalidation. Arbiter contested as of 2026-08-23 "
-                         f"=> record GUARD-HELD-PENDING-ARBITER, escalate to BROCK/PROME, and do NOT retire the thesis.")
-    else:
-        sub260 = 0
+    if kill_met_on:
+        # TERMINAL: the level condition was already met once; a recovery + a second sub-260 pair
+        # must NOT re-fire (KILL_MEMO_HY_OAS_260.md §4, PROME-confirmed 2026-09-03). A successor
+        # is a new registration through PROME, and clearing this key is a human act.
+        pass
+    elif sub260 >= 2:
+        kill_met_on = obs_date
+        # ⚠️ The LEVEL is met — that is NOT the same as the thesis being killed.
+        # KILL_MEMO's tape-vs-substance guard blocks an auto-kill on a tape-only
+        # compression, and as of 2026-08-23 its arbiter (BROCK's wrapper-leads half)
+        # is CONTESTED => GUARD-HELD-PENDING-ARBITER. An unattended alert that says
+        # "INVALIDATION" would contradict the guarded ladder it is watching, so it
+        # reports the LEVEL and names the guard instead of pre-empting it.
+        fired.append(f"🚨 KILL-LEVEL MET (NOT a kill) — HY OAS {bps:.0f}bps < {kill_below} on {sub260} "
+                     f"consecutive closes (as-of {obs_date}). This is the LEVEL condition only. "
+                     f"KILL_MEMO tape-vs-substance guard APPLIES: a tape-only compression while private-credit "
+                     f"substance worsens is NOT an invalidation. Arbiter contested as of 2026-08-23 "
+                     f"=> record GUARD-HELD-PENDING-ARBITER, escalate to BROCK/PROME, and do NOT retire the thesis.")
 
     state = {"zone": zone, "bps": round(bps), "sev": sev, "marker": mk,
-             "sub260": sub260, "obs_date": obs_date, "checked": _ts()}
+             "sub260": sub260, "obs_date": obs_date, "checked": _ts(),
+             "count_basis": "published-series"}
+    if kill_met_on:
+        state["kill_met_on"] = kill_met_on
     return {"zone": zone, "sev": sev, "marker": mk, "fired": fired, "new_obs": new_obs, "state": state}
 
 
@@ -146,17 +170,40 @@ def selftest():
     r = decide(281, "2026-01-02", {"zone": "red", "sev": 2, "obs_date": "2026-01-01"}, hy, classify)
     check("281 (from red) → no re-fire", len(r["fired"]), 0)
 
-    # bear-axis kill: needs TWO consecutive new closes
-    r1 = decide(258, "2026-02-02", {"zone": "green", "sev": 0, "obs_date": "2026-02-01", "sub260": 0}, hy, classify)
-    check("258 1st close → sub260=1, no kill yet", (r1["state"]["sub260"], any("KILL" in f for f in r1["fired"])), (1, False))
-    r2 = decide(258, "2026-02-03", r1["state"], hy, classify)
-    check("258 2nd consecutive close → sub260=2, KILL fires", (r2["state"]["sub260"], any("KILL" in f for f in r2["fired"])), (2, True))
-    # same obs_date repeated must NOT advance the kill streak (weekend double-run); r1 recorded 2026-02-02
-    r3 = decide(258, "2026-02-02", r1["state"], hy, classify)
-    check("258 same obs_date → streak does NOT advance", r3["state"]["sub260"], 1)
-    # recovery resets the streak
-    r4 = decide(270, "2026-02-04", r2["state"], hy, classify)
-    check("270 recovery → sub260 resets to 0", r4["state"]["sub260"], 0)
+    # bear-axis kill: TWO consecutive PUBLISHED closes, counted from the series (2026-09-22 repair)
+    K = lambda st: any("KILL" in f for f in st["fired"])
+    s0 = {"zone": "green", "sev": 0, "obs_date": "2026-02-01"}
+    r1 = decide(258, "2026-02-02", s0, hy, classify, [("2026-02-02", 258), ("2026-02-01", 262)])
+    check("ordinary: 258 after 262 → sub260=1, no kill yet", (r1["state"]["sub260"], K(r1)), (1, False))
+    r2 = decide(258, "2026-02-03", r1["state"], hy, classify,
+                [("2026-02-03", 258), ("2026-02-02", 258), ("2026-02-01", 262)])
+    check("ordinary: 2nd consecutive published <260 → KILL fires, terminal set",
+          (r2["state"]["sub260"], K(r2), r2["state"].get("kill_met_on")), (2, True, "2026-02-03"))
+    # concurrent/re-run: same obs again after the fire → terminal, NO re-fire (idempotent)
+    r3 = decide(258, "2026-02-03", r2["state"], hy, classify,
+                [("2026-02-03", 258), ("2026-02-02", 258)])
+    check("re-run same obs after fire → no re-fire", K(r3), False)
+    # recovery after a fire: run resets, terminal marker PERSISTS
+    r4 = decide(270, "2026-02-04", r2["state"], hy, classify, [("2026-02-04", 270), ("2026-02-03", 258)])
+    check("recovery → sub260 0, kill_met_on persists", (r4["state"]["sub260"], r4["state"].get("kill_met_on")), (0, "2026-02-03"))
+    # TERMINAL: recovery + a second sub-260 pair must NOT re-fire (CATO 9/17 §3; KILL_MEMO §4)
+    r5 = decide(255, "2026-02-06", r4["state"], hy, classify,
+                [("2026-02-06", 255), ("2026-02-05", 256), ("2026-02-04", 270)])
+    check("second pair after recovery → NO re-fire (terminal)", (r5["state"]["sub260"], K(r5)), (2, False))
+    # OVERLAP — CATO's counterexample: 259 Fri · 270 Mon (poll MISSED) · 259 Tue ⇒ NOT two consecutive
+    fri = decide(259, "2026-03-06", s0, hy, classify, [("2026-03-06", 259), ("2026-03-05", 263)])
+    tue = decide(259, "2026-03-10", fri["state"], hy, classify,
+                 [("2026-03-10", 259), ("2026-03-09", 270), ("2026-03-06", 259)])
+    check("missed Monday poll cannot skip the reset → no kill", (tue["state"]["sub260"], K(tue)), (1, False))
+    # strict '<': 260.0 is NOT below 260
+    r6 = decide(259, "2026-03-12", s0, hy, classify, [("2026-03-12", 259), ("2026-03-11", 260)])
+    check("strict <: 260 then 259 → run 1, no kill", (r6["state"]["sub260"], K(r6)), (1, False))
+    # MISSING INFORMATION: only one published obs known → cannot establish two closes → fail closed
+    r7 = decide(255, "2026-03-13", s0, hy, classify, None)
+    check("single known obs → no kill (fail closed)", (r7["state"]["sub260"], K(r7)), (1, False))
+    # holiday gap: two consecutive PUBLISHED obs across a non-publication day count as consecutive
+    r8 = decide(258, "2026-09-08", s0, hy, classify, [("2026-09-08", 258), ("2026-09-04", 259)])
+    check("consecutive published obs across a holiday → kill", K(r8), True)
 
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
@@ -241,7 +288,7 @@ def main():
         _log(RLOG, f"{_ts()}  CONFIG-FAIL — HY OAS series not found in config.py")
         return 3
 
-    obs = fred_fetch(HY_ID, limit=2)
+    obs = fred_fetch(HY_ID, limit=10)   # newest-first; '.' (unpublished) already dropped by fetch.py
     if not obs or (isinstance(obs[0], dict) and "error" in obs[0]):
         err = obs[0]["error"] if obs else "no data"
         _log(RLOG, f"{_ts()}  FETCH-FAIL — {err}")
@@ -255,8 +302,14 @@ def main():
         return 3
 
     bps = raw * hy.get("multiply", 1)
+    recent = []
+    for o in obs:
+        try:
+            recent.append((o["date"], float(o["value"]) * hy.get("multiply", 1)))
+        except (ValueError, KeyError, TypeError):
+            break   # an unparseable cell ends the run — fail closed, never bridge it
     prev = _read_state()
-    r = decide(bps, obs_date, prev, hy, classify)
+    r = decide(bps, obs_date, prev, hy, classify, recent)
 
     for line in r["fired"]:
         _log(ALOG, f"{_ts()}  {line}")
