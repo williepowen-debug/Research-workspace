@@ -42,6 +42,9 @@ RLOG = ALERTDIR / "watch.log"
 SEV = {"green": 0, "yellow": 1, "red": 2, "unknown": -1}
 EMOJI = {"green": "🟢", "yellow": "🟡", "red": "🔴", "unknown": "⚪"}
 HY_ID = "BAMLH0A0HYM2"
+# GATE-HY-REKILL registered 2026-06-26 (KILL_MEMO_HY_OAS_260.md §letter history). The terminal
+# scan starts here: a sub-260 pair BEFORE registration is not a fire of THIS gate.
+GATE_REGISTERED = "2026-06-26"
 
 
 def _ts():
@@ -74,6 +77,23 @@ def sub_run(recent, kill_below):
         else:
             break
     return n
+
+
+def first_kill_date(asc, kill_below, since=GATE_REGISTERED):
+    """Date of the SECOND observation of the first pair of consecutive published obs strictly
+    < kill_below on/after `since`; None if never. `asc` = [(date, bps)] OLDEST-first, FIRST-PUBLISHED.
+    2026-09-22 (independent-reader CE6): the fired-once marker lived only in a gitignored local
+    state file, so a lost file or the other machine re-fired a TERMINAL gate. Terminal state is
+    now recomputed from the series itself on every run — no local memory can lose it."""
+    prev_sub = False
+    for d, v in asc:
+        if d < since:
+            continue
+        sub = v < kill_below
+        if sub and prev_sub:
+            return d
+        prev_sub = sub
+    return None
 
 
 def decide(bps, obs_date, prev, hy_def, classify, recent=None):
@@ -122,7 +142,7 @@ def decide(bps, obs_date, prev, hy_def, classify, recent=None):
 
     state = {"zone": zone, "bps": round(bps), "sev": sev, "marker": mk,
              "sub260": sub260, "obs_date": obs_date, "checked": _ts(),
-             "count_basis": "published-series"}
+             "count_basis": "first-published-series"}
     if kill_met_on:
         state["kill_met_on"] = kill_met_on
     return {"zone": zone, "sev": sev, "marker": mk, "fired": fired, "new_obs": new_obs, "state": state}
@@ -204,6 +224,17 @@ def selftest():
     # holiday gap: two consecutive PUBLISHED obs across a non-publication day count as consecutive
     r8 = decide(258, "2026-09-08", s0, hy, classify, [("2026-09-08", 258), ("2026-09-04", 259)])
     check("consecutive published obs across a holiday → kill", K(r8), True)
+    # STATELESS TERMINAL (reader CE6): history alone establishes a prior fire, no state file needed
+    kb = hy.get("kill_below", 260)
+    hist = [("2026-07-01", 270), ("2026-07-02", 259), ("2026-07-03", 258), ("2026-07-06", 270)]
+    check("first_kill_date finds the prior fire", first_kill_date(hist, kb), "2026-07-03")
+    check("pre-registration pair is not a fire of this gate",
+          first_kill_date([("2025-01-21", 259), ("2025-01-22", 259)], kb), None)
+    check("broken pair (259, 270, 259) is not a fire",
+          first_kill_date([("2026-07-01", 259), ("2026-07-02", 270), ("2026-07-03", 259)], kb), None)
+    lost = dict(s0, kill_met_on=first_kill_date(hist, kb))   # what main() injects when state is lost
+    r9 = decide(255, "2026-08-04", lost, hy, classify, [("2026-08-04", 255), ("2026-08-03", 256)])
+    check("state lost + new sub-260 pair → NO re-fire (history-derived terminal)", K(r9), False)
 
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
@@ -274,6 +305,28 @@ def _deliver(fired, bps, obs_date, state, prev):
     state["delivered"] = sorted(delivered)[-40:]
 
 
+def _first_published(mult):
+    """[(date, bps)] OLDEST-first, initial-release values from GATE_REGISTERED; None on any failure."""
+    try:
+        import urllib.parse
+        import fetch as _f
+        q = dict(series_id=HY_ID, api_key=_f.FRED_API_KEY, file_type="json", output_type=4,
+                 observation_start=GATE_REGISTERED, realtime_start=GATE_REGISTERED,
+                 realtime_end="9999-12-31")
+        d = _f._retry_request(f"{_f.FRED_BASE}?{urllib.parse.urlencode(q)}")
+        if not isinstance(d, dict) or "error" in d:
+            return None
+        out = []
+        for o in d.get("observations", []):
+            if o.get("value") in (".", None, ""):
+                continue
+            out.append((o["date"], float(o["value"]) * mult))
+        out.sort()
+        return out or None
+    except Exception:
+        return None
+
+
 def main():
     if "--selftest" in sys.argv:
         return selftest()
@@ -302,14 +355,24 @@ def main():
         return 3
 
     bps = raw * hy.get("multiply", 1)
-    recent = []
-    for o in obs:
-        try:
-            recent.append((o["date"], float(o["value"]) * hy.get("multiply", 1)))
-        except (ValueError, KeyError, TypeError):
-            break   # an unparseable cell ends the run — fail closed, never bridge it
     prev = _read_state()
+    # KILL basis = FIRST-PUBLISHED values (FRED output_type=4, initial release only) — KILL_MEMO
+    # letter: "FRED's as-first-published value grades". 2026-09-22 (independent-reader CE1/CE1b):
+    # recomputing from LATEST-REVISED values let a revision re-grade an open count both ways.
+    # Zone escalation (not gate-lettered) still reads the latest value. If the vintage pull fails,
+    # the kill leg is NOT graded this run (recent=None ⇒ cannot establish two closes) — fail closed.
+    fp = _first_published(hy.get("multiply", 1))
+    if fp is None:
+        _log(RLOG, f"{_ts()}  VINTAGE-FETCH-FAIL — kill leg NOT graded this run (escalation only)")
+        recent = None
+    else:
+        recent = list(reversed(fp))[:10]
+        met = first_kill_date(fp, hy.get("kill_below", 260))
+        if met and met != (recent[0][0] if recent else None):
+            prev = dict(prev, kill_met_on=prev.get("kill_met_on") or met)
     r = decide(bps, obs_date, prev, hy, classify, recent)
+    if not r["fired"] and prev.get("delivered"):
+        r["state"]["delivered"] = prev["delivered"]   # keep delivery idempotency across quiet runs
 
     for line in r["fired"]:
         _log(ALOG, f"{_ts()}  {line}")
