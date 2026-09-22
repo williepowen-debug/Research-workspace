@@ -1,6 +1,6 @@
 # HAWK SCRATCH — handoff to next session
 
-> **2026-09-22 (~17:3x ET) addendum, PROME Tier-1 L432 follow-up:** 9/21 class-rule SUPERSEDED → `research/2026-09-22_covert-claim-rule-revision.md` (KB-HAWK-407). WALTER lane 5/5 drained (SIG-014/-020/-021/-022/-022-ADDENDUM). v0.47 review returned to WALTER inbox. KB-HAWK-408 = Musterung datum (item 2's KB half; **the VX-EURMIL evidence cell is still unedited**). Item 3 below is DONE in revised form, so do NOT write the old form. Items 1, 2 (VX half) and 4–7 carry. Mail: inbox 0·0.
+> **2026-09-22 (~17:3x ET) addendum, PROME Tier-1 L432 follow-up:** 9/21 class-rule SUPERSEDED → `research/2026-09-22_covert-claim-rule-revision.md` (KB-HAWK-407). WALTER lane 5/5 drained (SIG-014/-020/-021/-022/-022-ADDENDUM). v0.47 review returned to WALTER inbox. KB-HAWK-408 = Musterung datum (item 2's KB half; **the VX-EURMIL evidence cell is still unedited**). Item 3 below is DONE in revised form, so do NOT write the old form. Items 1, 2 (VX half) and 4–7 carry. **Late add:** two ZHAO correction packets (routed by PROME 9/22) consumed; KB-HAWK-404 → SUPERSEDED by KB-HAWK-409 — all three US–China lapse legs land **2026-11-10** (no 11/09 leg), and MOFCOM scope includes batteries/LFP/superhard materials. Mail: inbox 0·0.
 
 **Written:** 2026-09-21 (Mon, US markets open, ~12:0x ET) · **Session:** PROME Tier-1 spawn under WQ-184 outcome ①, DOCKET L432 dated today.
 **$0. No mark, band, threshold, confidence or standing approval moved. `STAND DOWN` (WQ-192) untouched. No trade view anywhere.**
