@@ -42,3 +42,5 @@ The live probe returned 23 items dated 9/16–9/22, none suppressed. Items relev
 ⚠️ **Probe lessons:**
 - `when:7d` must LEAD the query. Placed after the AND group it was silently ignored and returned March–July articles.
 - The query has **no WATCH_FOR terms, deliberately.** The matcher drops "war", so "war risk premium" collides with junk-bond "risk premium" headlines.
+
+**Will, 2026-09-22 18:55 ET, verbatim:** *"We understand the information to be incomplete. It is just a data point."* ⇒ Treat press war-risk figures as **one data point among others**, known incomplete. Do not report a missing figure as a failure and do not carry the leg as ungradeable-in-silence.
