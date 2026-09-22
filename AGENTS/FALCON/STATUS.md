@@ -1,16 +1,16 @@
 # FALCON STATUS
 
-**Last updated:** 2026-09-17 20:0x ET (PROME-spawned WQ-184 L0, Opus; FAL-05 Sep 17–18 review-window grade only, no new evidence sweep run in this session). **Prior:** 2026-09-16.
+**Last updated:** 2026-09-22 17:0x ET (PROME-spawned WQ-184 L0, Opus; GATE-FALCON-001 due-row grade (review_by 9/21, graded one day late) + whole-inbox drain, 6 items). Report: [reports/2026-09-22_gate-falcon-001-review-and-inbox-drain.md](reports/2026-09-22_gate-falcon-001-review-and-inbox-drain.md). **Prior:** 2026-09-17.
 **Decision read:** FAL-05 **OPEN, retained 55%** — no route fires today. Route (a) UNFIRED (Aramco actively delivering via STS off Sohar contradicts an FM read, ⛔ kill-on-sight guard holds); route (b) UNFIRED on the volume limb (no operator/state/wire-primary offline-capacity figure — Kpler 4.5 mb/d is a vendor ESTIMATE, does not clear the letter's attribution class); route (c) UNFIRED on the second-source limb (only Kpler is dark-fleet-capable on Yanbu specifically; duration ✅ 6d, attribution ✅ upstream Petroline, second route ❌). Full grade: [reports/2026-09-17_fal05-review-window-grade.md](reports/2026-09-17_fal05-review-window-grade.md). B/C/D 3/22/75 retained; no rung fired.
 
 ## Current marks and authority
 
 | State | Current disposition |
 |---|---|
-| B / C / D | **3 / 22 / 75 retained**; no newly established registered trigger in this bounded review. Next scheduled review September 21. |
+| B / C / D | **3 / 22 / 75 retained** (9/22): Riyadh 9/19 (intercepted missile + depot fire, cause unestablished), Hormuz 9/21 hull struck-not-lost, UNGA diplomacy AMBIGUOUS — none meets a registered trigger's letter. Next scheduled review September 29. |
 | D 75→85 | Existing Will-approved rung ARMED; no new fire established. Immutable letter: [EXIT_PROTOCOL §2](workbook/EXIT_PROTOCOL.md). No re-registration or approval change. |
 | FAL-05 | **OPEN, retained 55%, resolves October 7**. Sep 17–18 registered-review-window graded 2026-09-17: no route fires. Route (a) UNFIRED (STS-off-Sohar workaround is anti-FM evidence); route (b) UNFIRED on volume limb (letter's attribution class not cleared by Kpler ESTIMATE); route (c) UNFIRED on second-source limb (only Kpler dark-fleet-capable on Yanbu). Full grade: [reports/2026-09-17_fal05-review-window-grade.md](reports/2026-09-17_fal05-review-window-grade.md). |
-| GATE-FALCON-001 | Existing LIVE registry, legs 1/3 previously fired; leg 2 remains without an established new fire. [Letter and historical leg state](domain/FRESH_LEG_BASELINE.md); current evidence in review E8. Review date September 21 unchanged; PROME owns registry. |
+| GATE-FALCON-001 | **LIVE — graded 2026-09-22.** Legs 1 (7/23) + 3 (8/15) FIRED, stand. **Leg 2 OPEN NOT FIRED on basis:** TankerMap 9/22 7dma **4.4**/day, 7d 31, **w/w +19%** (3.1→4.0→4.4). ⚠️ PortWatch corroborator −19% w/w (newest print 9/20) — first SIGN divergence; TankerMap grades. Event override not triggered. **review_by → 2026-09-29 proposed** (PROME owns registry; packet sent). [Letter](domain/FRESH_LEG_BASELINE.md). |
 | Capital / other owners | Existing approvals preserved. No trade or capital grade; BRENT owns prices/fundamentals, TERRY construction, Will approvals. No FALCON settlement-count clock; settle closeout is a no-op. |
 
 ## What changed
@@ -28,16 +28,16 @@ Scores retained; only named theater checks refreshed. This saturated composite d
 
 | Vector | Score | Current State | Threshold → Next Level | Last Updated |
 |---|---:|---|---|---|
-| Hormuz status | 5 | API print Sep 13: 8 total, 1 tanker; not measured oil flow. | Verified reopening + sustained transit recovery → down | Sep 16 check; Sep 13 observation |
+| Hormuz status | 5 | API print Sep 20: 1 total, 0 tankers (DEEPENING); 9/21 inbound tanker struck, 2 injured, afloat (VI-2026-0034). Not measured oil flow. | Verified reopening + sustained transit recovery → down | Sep 22 check; Sep 20 observation |
 | Iran/proxy military ops | 5 | Saudi campaign and Iraq-origin investigation ongoing; specific militia authorship unresolved. | 1wk two-sided quiet incl. proxies → 3 | Sep 16 |
 | US-Iran direct kinetic | 5 | Small-boat incident reporting; no new qualifying named tanker total loss established. Prior sinkings remain history. | Formal ceasefire + blockade lifted → 2 | Sep 16 bounded review |
 | Oil price / energy tape | 5 | Prior BRENT-referenced score retained; no new price grade here. | Registered fade <$78 settles → 4/3, BRENT input required | Sep 14 carry |
 | Gulf production/bypass infra | 5 | Pipeline shutdown/report of terminal suspension; partial-restart target unexecuted in recovered evidence. Hub gauge holding; not Petroline evidence. | At ceiling; supply-loss test = FAL-05 canonical letter | Sep 16 |
-| Diplomacy | 3 | Prior postponed Oman meeting grade carried; no dated permanent framework established in this sweep. | Dated framework → 2; talks actually collapse → 4 | Sep 14 grade; Sep 16 bounded check |
+| Diplomacy | 3 | US leg NEGATIVE (9/9) → **AMBIGUOUS** (9/22): Trump 'ready to meet' Pezeshkian, no meeting scheduled, Iran says none planned; 7-demand list via Qatar; Pezeshkian speaks UNGA 9/23. No instrument/date/framework. | Dated framework → 2; talks actually collapse → 4 | Sep 22 |
 | Shipping / insurance | 5 | Five premium rows expired; no current negotiated premium established. WQ-230 access decision unchanged. | At ceiling | Sep 16 staleness check |
-| Cyber / data chokepoint | 2 | Not freshly reviewed; no current-absence claim. | Operator confirmation OR cable incident | Jun 8 carry |
+| Cyber / data chokepoint | 2 | **Re-affirmed on fresh review (CRUISE 9/19):** FBI/USCG Gulf-of-Mexico boardings 8/21+8/24, ~20 vessels tracked, USCG: no operational disruption; out of theater, unattributed; alarming version Iranian-media-sourced (D3). | In-theater operator confirmation OR cable incident | Sep 22 |
 | Global macro / credit | 3 | Owner input not refreshed here; no current-absence claim. | HY/OAS break OR VIX regime shift → 4; owner input | Jul 23 carry |
-| Bab al-Mandab | 5 | New traffic observation; occupation is not enforcement. No fresh qualifying override established. | At ceiling; read registered rung and Bab letter | Sep 16 |
+| Bab al-Mandab | 5 | TankerMap 7dma 4.4/day +19% w/w (9/22); PortWatch −19% (9/20). No Bab enforcement event 9/15–22 found. | At ceiling; read registered rung and Bab letter | Sep 22 |
 
 **Convergence: 43/50.** Seven vectors remain at ceiling. A retained score cannot be read as no escalation.
 
@@ -63,10 +63,10 @@ Crude disruption is reported; its net supply effect remains unquantified. An unt
 
 ## Ownership, mail and provenance
 
-Seven pending Markdown inbox packets consumed/dispositioned this session, including the commissioned review and WALTER's YASREF request. Self-authored handoffs go to HAWK/PROME, acute update to BRENT, verification receipt to WALTER. Recipient consumption is UNKNOWN. Native cross-session messaging unavailable. Other-agent dirty files prohibit pull/push under root protocol; local exact-path commits only.
+**9/22:** whole inbox drained — 6 items (WALTER SIG-W-20260921-004/-009/-010, BRENT 9/18 Yanbu optical, CRUISE 9/19 cyber, the 9/11 FIRMS CSV attachment); dispositions in the 9/22 report §3. Inbox census 0/0/0. Packet to PROME (GATE-FALCON-001 review). BRENT Yanbu optical ruled: admissible in class, NOT a firing second route for FAL-05 (c) (single instant; independence from Kpler unestablished).
 
 Previous STATUS archived **byte-for-byte** at [pre-review snapshot](domain/sources/STATUS_archive_2026-09-16_before-review.md), SHA-256 `ebdde07754afcef21db99d2b6a84382ce86415ee5215fd7c261f9e2a540891ec`. Archive is historical, not current evidence. Shared registries and other owners' state were not edited.
 
 ## BOTTOM LINE
 
-FAL-05's registered Sep 17–18 review window graded 2026-09-17 with NO route firing. The Petroline shutdown clears the ≥7-day elapsed bar today marginally, but the stated ≥100-kbpd offline-capacity limb is not established at any wire the letter names — Aramco's active STS-off-Sohar workaround with doubled Ras Tanura+Juaymah loadings (SIG-W-20260917-007) is the opposite of a stated-offline read, and the "de facto FM" X framing remains ⛔ kill-on-sight. Yanbu-specific route (c) is one independent dark-fleet-capable Yanbu observation short. Row stands to 2026-10-07 window close; two DAEDALUS asks (FAL-05 dated search window by 9/24; GATE-FALCON-001 leg 2 magnitude by 9/30) carried.
+GATE-FALCON-001 graded 2026-09-22 (one day past its 9/21 review_by): **LIVE, leg 2 NOT FIRED** — TankerMap Bab tanker 7dma rose again to 4.4/day (+19% w/w), the wrong sign for the enforcement step-down the letter needs; PortWatch shows −19% on its lagging perimeter, the first sign divergence, which is the thing to watch into **review_by 2026-09-29** (end of UNGA week, one day before the DAEDALUS leg-2 magnitude deadline). Marks B/C/D 3/22/75 and FAL-05 55% retained — Riyadh 9/19, the 9/21 Hormuz hull strike and UNGA posture each fail a registered letter. Owed: FAL-05 dated search window (DAEDALUS, 9/24); leg-2 magnitude (9/30); VESSELS rows for the ~9/14 and 9/18 Hormuz projectile events.

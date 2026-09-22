@@ -2,9 +2,11 @@
 
 **Status:** 🔴 Reported Saudi export disruption; net lost crude unquantified; partial-restart target unexecuted in recovered evidence.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea, Iraq/PMF theater inputs.
-**As of:** 2026-09-16 14:28:37 EDT research cutoff | **STATUS commit:** `209a063a4`
+**As of:** 2026-09-22 17:0x EDT | **STATUS commit:** see `git log -1 -- AGENTS/FALCON/STATUS.md`
 
 ## CROSS-DOMAIN
+
+**9/22 update:** GATE-FALCON-001 LIVE, leg 2 NOT FIRED (TankerMap Bab 7dma 4.4/day +19% w/w; PortWatch −19% — sign divergence, watch to 9/29). Riyadh 9/19 missile intercepted + depot fire cause unestablished; 9/21 Hormuz tanker struck, afloat; diplomacy US leg AMBIGUOUS through UNGA. Marks 3/22/75, FAL-05 55% retained. Report: reports/2026-09-22_gate-falcon-001-review-and-inbox-drain.md.
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
