@@ -103,3 +103,35 @@ operator-bound fundamentals coverage that probe C showed actually works.
 - Tell CRUISE the encode date (its window starts there, not at its packet).
 - Tell WALTER that correction ① stands on different evidence than it gave.
 - `DOCKET L451` carries this lane; update it at the encode.
+
+---
+
+## Encode plan v1 — the exact text (PROME `prome-a5`, 2026-09-22 18:0x ET; shape (a) adopted by PROME: lane is PROME-owned, no Will gate)
+
+**Row 1 — replaces the `cruise-operators` query body (label, agents, priority unchanged):**
+`"Carnival Corp" OR "Carnival Cruise Line" OR "Carnival Corporation" OR "Royal Caribbean" OR "Royal Caribbean Group" OR "Norwegian Cruise" OR NCLH OR "cruise bookings" OR "cruise demand" OR "cruise fares" OR "onboard spending" OR "cruise fuel surcharge" OR "cruise itinerary cancellation" OR "cruise itinerary change" OR "cruise capacity" OR "Carnival earnings" OR "Royal Caribbean earnings" OR "Norwegian Cruise earnings" OR "cruise line guidance"`
+
+**Row 2 — NEW, label `cruise-fundamentals`, agents `["CRUISE"]`, priority `medium`:**
+`("Carnival Corp" OR "Carnival Corporation" OR "Royal Caribbean" OR "Norwegian Cruise" OR NCLH) AND ("net yields" OR "booking pace" OR "occupancy" OR "load factor" OR "customer deposits" OR "dry dock" OR "newbuild delivery")`
+
+**`WATCH_FOR["CRUISE"]` — NEW key:** `"Carnival conference call"` · `"cruise line guidance cut"` · `"Norwegian Cruise equity offering"` · `"cruise itinerary cancellation"` · `"cruise fuel surcharge"` · `"cruise port call cancelled"`.
+
+**Stamp** on the row 1 comment: `# encoded 2026-09-22 — CRUISE 10-run falsifier window starts at the first weekday run after this commit (2026-09-23)`.
+
+**Deviations from CRUISE's term set, each named:**
+- `"cruise guidance"` is dropped (the probe found it to be a noise magnet).
+- `"port call cancelled"` becomes `"cruise port call cancelled"` (WALTER correction ②, reproduced).
+- Leg-B `"fuel surcharge"` / `"itinerary cancellation"` / `"itinerary change"` are **cruise-prefixed** in row 1. Unprefixed, they are airline and shipping magnets, the same class as the six generics.
+- `"newbuild delivery"` moves to row 2, AND-ed with Leg A, because it is a shipping magnet.
+- Leg A in row 2 drops `"Carnival Cruise Line"` and `"Royal Caribbean Group"`. They are subsumed by `"Carnival Corp…"`/`"Royal Caribbean"`, and dropping them shortens the AND clause.
+
+**Scope of "both copies agree" (acceptance condition 5):** the CRUISE rows and the CRUISE `WATCH_FOR` key are byte-identical in `~/Research-Intake/scripts/newsweep_config.py` and `FORGE/tools/news-sweep/config.py`. ⚠️ The two files already diverge elsewhere (e.g. the FORGE copy lacks the VULCAN rows and several agent lists). That divergence predates this encode and is out of scope. It is named here so it is not mistaken for a result of this change.
+
+**Test plan (acceptance conditions 1–4, run AFTER the edit against the real `match_watch_for` and one live RSS fetch per row):**
+1. The control headline *"Long Neptune Strike: Ukraine's New Cruise Missile Cripples Russian Warships"* returns no CRUISE WATCH hit.
+2. The five decision headlines hit WATCH_FOR or appear on the row-1/row-2 live fetch: guidance cut, equity offering, itinerary cancellation, fuel surcharge, conference call.
+3. The naval headlines ("Russian warship port call cancelled in Algiers", "US Navy port call cancelled after Red Sea incident") return no CRUISE hit.
+4. The generics appear only inside row 2's AND clause.
+5. Diff the CRUISE blocks across the two copies.
+
+**Neighbour categories (WQ-229):** ordinary = the tests above · overlap = another desk's WATCH item matching the same cruise headline (checked by printing all agents hit) · wrong owner = the FORGE copy has no collector, and the intake copy is the live one · missing information = a zero-item live fetch on row 2 is recorded, not treated as failure · concurrent activity = the intake repo is pulled `--ff-only` immediately before the edit and pushed ff-only.
