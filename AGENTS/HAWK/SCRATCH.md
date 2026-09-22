@@ -1,5 +1,7 @@
 # HAWK SCRATCH — handoff to next session
 
+> **2026-09-22 (~17:3x ET) addendum, PROME Tier-1 L432 follow-up:** 9/21 class-rule SUPERSEDED → `research/2026-09-22_covert-claim-rule-revision.md` (KB-HAWK-407). WALTER lane 5/5 drained (SIG-014/-020/-021/-022/-022-ADDENDUM). v0.47 review returned to WALTER inbox. KB-HAWK-408 = Musterung datum (item 2's KB half; **the VX-EURMIL evidence cell is still unedited**). Item 3 below is DONE in revised form, so do NOT write the old form. Items 1, 2 (VX half) and 4–7 carry. Mail: inbox 0·0.
+
 **Written:** 2026-09-21 (Mon, US markets open, ~12:0x ET) · **Session:** PROME Tier-1 spawn under WQ-184 outcome ①, DOCKET L432 dated today.
 **$0. No mark, band, threshold, confidence or standing approval moved. `STAND DOWN` (WQ-192) untouched. No trade view anywhere.**
 
@@ -32,7 +34,7 @@
 
 1. 🟠 **Consumer read at OSPREY's next commit** — my Black Sea row in `domain/war-risk/CROSS_THEATER_WAR_RISK.md` promised "REPRICED, non-quantified" at next closeout. **This session ran out of time before I edited that surface.** Do it at the next boot's closeout.
 2. 🟠 **Update `VX-HAWK-EURMIL-01`** with the Musterung datum (Germany started mandatory military medical exams August 2026, ~1,000 examined by end-August, 9 months ahead of formal 2027-07-01 start — both halves travel: mandatory exam, voluntary service). VX mark stays ORANGE; the row's evidence set grows.
-3. 🟠 **Register the class-rule in KB** as a `Group: METHOD_GUARD` row: undisclosed-content claims stay REPORTED indefinitely; specific block on Le Monde French-undisclosed.
+3. ✅ DONE 2026-09-22 in REVISED form (KB-HAWK-407); the old task text follows, do not apply: **Register the class-rule in KB** as a `Group: METHOD_GUARD` row: undisclosed-content claims stay REPORTED indefinitely; specific block on Le Monde French-undisclosed.
 4. 🟠 **WATCH:** if the St Petersburg consulate closure claim (SIG-013 ③) re-surfaces from Auswärtiges Amt or Federal Foreign Office, dispatch it as a diplomatic-escalation datum.
 5. 🟠 **WATCH:** OSPREY's kill-clock on Channel 3 is 2026-09-24. Fold any numeric AWRP print or new counter-evidence the same session it lands.
 6. 🟠 **WATCH:** UNGA opens 2026-09-22, runs to 09-29. A Trump–Pezeshkian sidelines meeting or a Pezeshkian address that names a framework would move FALCON's anchor; not HAWK's until it touches oil-risk cross-war synthesis.

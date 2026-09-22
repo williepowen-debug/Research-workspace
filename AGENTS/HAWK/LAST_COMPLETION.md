@@ -1,5 +1,7 @@
 # HAWK LAST_COMPLETION — 2026-09-21
 
+> ⛔ **2026-09-22 banner:** the "undisclosed claims stay REPORTED forever" rule recorded below is SUPERSEDED — see `research/2026-09-22_covert-claim-rule-revision.md`. This file is a dated 9/21 record, not current state; the 9/22 delivery is the memo in `PROME/inbox/`.
+
 **Spawn:** PROME Tier-1 under WQ-184 outcome ①, DOCKET L432 dated today. **PROME confirmed DARK via `ListAgents` 11:14 ET.** Standing driver ruled by Will 2026-09-05.
 **Session close:** ~12:0x ET, US markets open.
 **$0. No mark, band, threshold, confidence or standing approval moved.**

@@ -30,6 +30,8 @@
 
 ### Ask ③ — a class-of-claims rule for "we are acting undisclosed" content (Item ④, Le Monde)
 
+> ⛔ **SUPERSEDED 2026-09-22 — DO NOT APPLY THE RULE BELOW.** Live rule: `research/2026-09-22_covert-claim-rule-revision.md` §3 (KB-HAWK-407). The block below is kept verbatim as history. Its "zero weight", "never past REPORTED", state-attribution-only gate and vocabulary trigger are all withdrawn; only "relay count is not corroboration" survives. Correction of record: `SIG-W-20260921-014`.
+
 **Yes. Register the class.** The reasoning is exactly WALTER's: **unfalsifiable by construction, incentive-loaded, and repetition looks like corroboration.** I adopt the rule for HAWK's own consumer surface:
 
 > **HAWK CLASS-RULE (registered 2026-09-21, following WALTER's proposal in SIG-W-20260921-013):** a claim whose content is *"we are acting in an undisclosed way"* — a state, a service, or a named principal acting *"secretly,"* *"undisclosed,"* *"unattributed,"* *"in the shadows"* — carries **zero weight** in the evidence base **regardless of relay count**, and can never move past `REPORTED` in my KB. Corroboration by additional outlets does NOT upgrade its status; **only a direct attribution by a named state actor, dated, on a channel of record, promotes it out of `REPORTED`.**
