@@ -477,3 +477,78 @@ Two surfaces word this gate differently and the difference is outcome-determinin
 - ⏳ **OWED on this card (registered 2026-09-14, unchanged):** the `2.50` add line has NO CHANNEL CONDITION — a cold re-spec, never on a grading day. **NEW, DAEDALUS gate-basis sweep #1 (due 2026-09-24):** write the 5-run reset rule beside Ruling B's arm-#2 reset; name the DGS10 vintage (latest-revised) and a gap policy (stranger form: non-publication days skipped, any obs ≥4.50 resets the run to 0). **Both go in the same cold build.**
 
 **`NO ADD` stood before this block and stands after. `$0` moved; no order; no gate moved or shaved.**
+
+---
+
+#### 📋 OWNER GRADE — 2026-09-22 Tue 09:12–09:45 ET (`date` wall clock, copied not inferred). **`GATE-TERRY-007` EXECUTABILITY DEADLINE — `PROME/DOCKET.tsv` L267, dated TODAY. GRADED ON THIS CARD'S OWN LETTER. COUNTER STAYS `0 of 5`. `$0` MOVED. NO PROPOSAL.**
+
+**Two new official cells since the 9/18 grade, plus the deadline arithmetic L267 registers.**
+
+| cell | `DGS10` | vs 4.50 |
+|---|---:|---|
+| 9/17 | **4.94** | ≥ ⇒ NOT QUALIFYING |
+| 9/18 | **5.01** | ≥ ⇒ NOT QUALIFYING |
+| 9/21 | UNPUBLISHED at the 09:12:59 ET pull (frontier 9/18) | **UNKNOWN, OWED — never a carry.** Publishes in the H.15 release dated 9/22, ~16:15 ET today |
+
+*Source: FRED `fredgraph.csv?id=DGS10&cosd=2026-09-01`, own pull 2026-09-22 09:12:59 ET, latest-revised vintage. Coverage 10 bars 9/01–9/18 (construction rule #19).*
+
+##### ① 🔑 T+1 PUBLICATION IS NOW **VERIFIED AT THE PRIMARY**, not assumed — and the whole deadline rests on it
+Every prior statement of the 9/22 deadline on this card inherited *"`DGS10` publishes T+1"* as an **assumption** (*"under that execution assumption"*, 9/01; *"under existing publication/next-session assumption"*, `SETUPS.tsv`). **It is now checked at the Federal Reserve's own H.15, not at the FRED mirror** (own fetch 2026-09-22 ~09:18 ET): the release **titled and dated *September 21, 2026*** carries 10-year columns **`4.97 · 5.00 · 5.01 · 4.94 · 5.01`** — i.e. observations **9/14 → 9/18**. ⇒ **The release published Monday 9/21 terminates at Friday 9/18. T+1 confirmed at the primary.** The 9/21 observation appears in the release dated 9/22, posting ~16:15 ET today — after today's 16:00 close. *(H.15 PRIMARY and its FRED mirror agree and are NOT independent witnesses — the 9/08 source correction on this card, unchanged.)*
+
+##### ② THE DEADLINE ARITHMETIC, STATED IN FULL — L267's registered claim is **CORRECT**, and today is the LAST day on which it is correct
+Sessions 9/21→9/30: `Mon 9/21 · Tue 9/22 · Wed 9/23 · Thu 9/24 · Fri 9/25 · Mon 9/28 · Tue 9/29 · Wed 9/30` (8; no US market holiday falls after Labor Day 9/07).
+
+| streak start `D1` | 5th cell `D5` | `D5` publishes | tradable sessions AFTER publication |
+|---|---|---|---|
+| Mon 9/21 *(cell UNKNOWN until 16:15 today)* | Fri 9/25 | Mon 9/28 ~16:15 ET | **2** — 9/29, 9/30 |
+| **Tue 9/22 (today)** | Mon 9/28 | Tue 9/29 ~16:15 ET *(post-close)* | **1** — Wed 9/30, **which is expiry day itself** |
+| Wed 9/23 | Tue 9/29 | Wed 9/30 ~16:15 ET *(post-close, post-expiry)* | **0** |
+| Thu 9/24 or later | on/after 9/30 | after 9/30 | **impossible** |
+
+⇒ **VERDICT: `GATE-TERRY-007` IS STILL EXECUTABLE TODAY, AND ONLY TODAY.** A qualifying streak beginning **today** completes on the 9/28 observation, becomes visible at ~16:15 ET on **Tue 9/29**, and leaves exactly **ONE** session — **Wed 9/30, the expiry day** — for proposal → Will [Approve] → execution. From the **9/23 close onward the gate is arithmetically dead whatever rates do.**
+
+⛔ **WALTER's handoff word *"arithmetically dead"* is NOT ADOPTED — it is one day early.** Graded at this desk on the card's letter: it becomes true at today's 16:00 ET close (or, equivalently, at ~16:15 ET on 9/23 when today's cell publishes ≥4.50), **not before.** The distinction is small and it is the whole content of L267: **L267 is dated today precisely because today is the boundary.** Grading the boundary as already past would retire a live gate a day early, which is the same error shape as extending one a day late.
+
+##### ③ ★ WHAT THE LETTER LEAVES OPEN, MEASUREMENT CLOSES — AND THIS IS THE PART WORTH READING
+The two surviving branches (`D1` = 9/21, still unknown; `D1` = 9/22, today) **both require a single-day `DGS10` fall from `5.01` to below `4.50` — a drop of `≥51bp`.**
+
+**Measured, not asserted** (`fredgraph.csv?id=DGS10&cosd=2015-01-01`, own pull 2026-09-22, **2,930 bars / 2,929 daily changes, 2015-01-02 → 2026-09-18** — bar count stated per construction rule #19):
+- **Single-day falls of ≥51bp: `0` of 2,929. ZERO.**
+- **Largest single-day fall in the entire sample: `−30.0bp` (2022-11-10)** — the CPI-shock session, and it is **21bp short** of what this gate now needs on day one alone.
+
+⇒ **The gate's remaining life does not depend on a rare move; it depends on a move that has NEVER OCCURRED in 11.7 years of this series.** And that is only the FIRST of five required closes.
+
+🔑 **The honest formulation, which is not the same as "dead":** on the LETTER the gate is live for one more session; on the MEASUREMENT its probability is indistinguishable from zero. **Both are true, and the card records both rather than collapsing them** — because the letter is what governs a grade and the measurement is what governs a decision, and this desk has been wrong before by letting one stand in for the other.
+
+★ **AND THE PRE-REGISTERED READ IS UNCHANGED AND WAS ALWAYS THE LIKELY ONE: `MOOT ⇒ NO-VERDICT`** (Ruling C, 8/19, with its moot-risk stated the day it was written). **A non-event is never scored as a miss.** The 9/01 calibration block stands: `DGS10` satisfied 5-consecutive-below-4.50 **eight separate times** in the two years to 2026-09-01 and ran **209 straight** below 4.50 to 2026-05-14 — **`0 of 5` measures a REGIME SHIFT, and since this card's thesis IS the term-premium channel, the exit's inability to fire is the thesis INTACT.** Last close <4.50 was **`4.48` on 2026-07-06, 53 bars ago.**
+
+##### ④ ⚠️ A CONSTRUCTION DEFECT IN THE GATE ITSELF, RECORDED AGAINST MY OWN WORK — it was knowable on the day it was registered
+`GATE-TERRY-007` was registered **8/19** against a **9/30** expiry. Nominal life **30 business days**. **Actionable life — 8/19 to the last streak start 9/22 — is `24` business days.** ⇒ **`6` business days, `20.0%` of its nominal life, were never available**, consumed by the publication lag and the need for one tradable session afterwards. **Nobody computed this until 9/01, thirteen days in.** The gate was a fifth shorter than it looked from the hour it was written, and the arithmetic needed nothing that was not on the table on 8/19.
+
+⇒ **GENERAL RULE, and it is the transferable finding here: a gate keyed on a LAGGED OFFICIAL SERIES must subtract, AT REGISTRATION, (i) its publication lag and (ii) its own minimum completion length, from the life of the position it guards.** Minimum runway for an `N`-consecutive-close gate on a T+1 series is **`N + 1 + 1` business days** (`N` observations + 1 publication day + ≥1 tradable session). For `N=5` that is **7 business days** that the gate can never use. ⛔ **A gate registered without that subtraction OVERSTATES its own life and does so silently, in the direction of false comfort** — it reads as protection the position does not have. Routed to the DAEDALUS gate-basis sweep already owed on this card (due 2026-09-24) rather than patched today: **a gate is not re-specced on a grading day.**
+
+##### ⑤ 🔴 LIVE OPTION MARKS ARE **UNAVAILABLE THIS SESSION — NO MARK IS QUOTED, AND NONE IS FABRICATED**
+`chain_fetch.py --no-cache` at **09:34:20** and again at **09:42:20 ET** (12 minutes into the regular session) returned **`bid 0.00 / ask 0.00`, flag `DEAD`, on EVERY strike of EVERY TLT expiry tested** — including the **Sep-30 `83P`, `$1.18` IN THE MONEY with `12,329` OI**, and the **Oct-16 `79P` with `96,300` OI**. **A chain in which every ITM strike quotes zero is a FEED DEFECT, not a market state.** The **underlying** feed is healthy and independently confirmed: **TLT `$81.86`, `+0.07%`, volume 2,279,866 [`fetch.py price TLT`, 09:42 ET]** — spot printed `81.80 → 81.87 → 81.82 → 81.86` across four pulls, i.e. moving and live.
+
+⇒ **NO CURRENT MARK FOR THE `77P` IS STATED ON THIS CARD TODAY.** The most recent VERIFIED mark remains this desk's own **9/18 11:03 ET** pull — **bid `0.01` / ask `0.02`** — **which is FOUR SESSIONS OLD AND IS NOT A CURRENT QUOTE** (construction rule #14: a mark is a MOMENT property). ⚠️ **Directionally it can only have worsened: TLT is `+0.94%` since that mark** (`$81.10 → $81.86`), i.e. further from the strike. **That is a sign, not a mark, and it is not a substitute for one.** *(`RISK_RULES` 5b: vendor chain marks are SCREENING marks in the best case; here they are not even that. The `DEAD` flag did its job — the guard reported the defect instead of serving a zero as a price.)*
+
+##### ⑥ ⛔ CONSEQUENCE: NONE. NO PROPOSAL, NO ROLL, NO SALVAGE TICKET, `$0` MOVED.
+**What dies with `007` and what does not — the distinction that matters, because "the exit gate is dead" reads far worse than the position actually is:**
+
+| rail | state after this grade |
+|---|---|
+| **`GATE-TERRY-007`** — thesis-side exit (5 closes <4.50) | 🔴 **live for ONE more session on the letter; ~zero on measurement. `MOOT ⇒ NO-VERDICT` is the expected terminal read.** |
+| **Harvest `≥$0.3469` fees-in, 10 contracts still owed** | 🟢 **LIVE, unchanged, and it runs to the 9/30 expiry.** Unreached by a very wide margin. |
+| **`9/30` expiry + defined-risk, no stop** | 🟢 **LIVE. This is, and always was, the terminal rail.** |
+
+⇒ **004 IS NOT A POSITION WITHOUT EXIT MACHINERY. It is a position whose THESIS-side exit is mooting while its PROFIT-side rail and its TERMINAL rail both stand.** ⛔ **And `007`'s death changes the RISK by exactly `$0`:** the leg is **defined-risk with no stop by construction**, the max loss was budgeted at the 7/20 fill, and **construction rule #20(d) governs — sunk basis is not forward risk. Forward max loss is the REMAINING MARK, not the `$231.26` basis.** On the last verified quote that remaining mark was ~`$20` on 20 contracts; it is not quotable today. **An exit gate that cannot fire on a position that is already ~fully decayed protects nothing it was not already too late to protect** — `[[finding_guard_scope_expires_at_the_fill]]`, in its terminal form.
+
+**Why no salvage ticket is proposed, on four independent grounds, each sufficient:**
+1. **It cannot be priced.** ⑤ — there is no live bid. `RISK_RULES` #10 requires the MARK be surfaced BEFORE recommending a cleanup exit; the mark does not exist this session. **Proposing a sale at an unquotable price is the exact failure #10 was written to prevent.**
+2. **The economics are a coin flip, measured.** On the observed fee rate from Will's own 9/10 sale in this account (`$1.56` of costs on 5 contracts = **`$0.312`/contract**, a RECEIPT not a published schedule), selling 20 at a `$0.01` bid nets ≈ **`$13.76`**; at `$0.02`, ≈ **`$33.76`**. Against that, P(`77P` finishes ITM 9/30) at spot `81.86` needs **`−5.9%` in 7 sessions** = **`0.5%` at IV 14% · `2.3%` at 18% · `7.6%` at 25%**. **The tail's expected value and the salvage proceeds are the same order of magnitude.** ⇒ **There is no measurable edge in either direction, which makes the correct action the one that costs nothing and needs no decision: inaction.**
+3. **Three standing blocks are untouched by this grade:** Will's **7/16 `NO-ADD`** · **`WQ-168 ④` HOLD ×20 to expiry** · **root rule #5**. **`WQ-192` STAND DOWN additionally blocks any new capital.**
+4. **A ROLL is refused on its own merits, not merely on the blocks.** Under construction rule **#21** a roll is *SAME underlying · SAME strike · LATER expiry, NOTHING ELSE* — a `77P` in a later expiry from spot `81.86` qualifies by the letter. **It is still wrong:** #21(b) — a roll pays NEW capital to keep the SAME view for longer, and the view's own instrument has now bled `~91%` across 64 sessions while the thesis STRENGTHENED to a 34-month yield high. **That is a TENOR verdict on the 7/20 construction (#16), and rolling repeats the tenor error rather than repairing it.** ⛔ **Decisively: the 9/18 channel measurement stands unrefuted — `T10YIE` FALLING while real yields rise (REAL-LED) and `DGS2 +11bp` vs `DGS10 +5bp` (FRONT-LED). Construction rule #23: the mechanism currently moving the tape is NOT the term-premium channel this card was re-scoped onto on 7/09. Paying new premium to extend an expression of a channel that is not the one driving the move is adding on a driver I did not underwrite.**
+
+**Root rule #6 has no object — nothing is being entered.** *(Recorded anyway so its absence is not read as an unrun check: TLT is marginally **GREEN**, `+0.07%` at 09:42 ET.)*
+
+⛔ **NO GATE MOVED, SET, SHAVED OR RE-SPECCED. NO THRESHOLD RELAXED. NO HARD GUARD TOUCHED. NO ORDER. `$0` MOVED.** ⚠️ **`007` is NOT being declared dead today and is NOT being closed early** — it is graded LIVE-for-one-session with its measurement stated. **The 9/21 cell is UNKNOWN and OWED**, publishes ~16:15 ET today, and is read by PROME's consumer read or the next TERRY session. `[[finding_dated_carry_item_has_no_expiry_check]]`
