@@ -213,11 +213,13 @@ def _unquote_or_drop(m):
     return body if not re.search(r"\s", body) else " "
 
 
-def _commit_arg_lists(scan):
+def _commit_arg_lists(scan, raw=False):
     """Every `git … commit <args…>` in the command, as token lists. The whole text is tokenised at once (a quoted
     message may span lines), and a commit's argument scan STOPS at punctuation OR at the next `git` command word —
     so a second commit on a new line (r2 ❌5) is its own command, never swallowed as arguments of the first."""
-    lifted = _lift(_ansic_norm(scan)).replace("\\\n", " ")   # r3 ❌4 / r4 ❌1 / r5 ❌7 (ANSI-C first, then lift); backslash-newline joined as bash joins it
+    # WQ-263 CATO fix: raw=True parses the command AS TYPED — no `bash -c`/`eval`/backtick lift, no ANSI-C
+    # normalisation — so a commit found only by reconstruction can be told apart from one git will certainly run.
+    lifted = (scan if raw else _lift(_ansic_norm(scan))).replace("\\\n", " ")   # r3 ❌4 / r4 ❌1 / r5 ❌7 (ANSI-C first, then lift); backslash-newline joined as bash joins it
     lex = shlex.shlex(lifted, posix=True, punctuation_chars="".join(sorted(_PUNCT_CHARS)))
     lex.whitespace = " \t\r"                  # newline is punctuation, not whitespace: a new line is a new segment
     lex.whitespace_split = True
@@ -243,7 +245,7 @@ def _commit_arg_lists(scan):
                 args, k = [], j + 1
                 while k < len(toks) and not _is_punct(toks[k]) and os.path.basename(toks[k]) != "git":
                     args.append(toks[k]); k += 1
-                out.append(args)
+                out.append((args, head is None))     # WQ-263: True ⇔ `git` is the literal command word, no prefix command
                 i = k
                 continue
         i += 1
@@ -312,9 +314,14 @@ def diagnose(cmd):
     if not GIT_CMD.search(probe) and not gitvar:
         return "allow", "git commit appears only inside a heredoc body or a quoted string — prose, not a command"
     try:
-        lists, lifted, prose = _commit_arg_lists(scan)
+        pairs, lifted, prose = _commit_arg_lists(scan)
     except ValueError as e:
         return "unknown", f"could not tokenise the command ({e})"
+    lists = [a for a, _ in pairs]
+    try:                                               # WQ-263: commits git will CERTAINLY run, from the as-typed parse
+        certain = [tuple(a) for a, is_git in _commit_arg_lists(scan, raw=True)[0] if is_git]
+    except ValueError:
+        certain = []
     if prose and not lists and not gitvar:
         if _PIPE_TO_SHELL.search(lifted):
             return "unknown", "git commit appears as an argument of another command that is piped to a shell — subject not determinable"
@@ -340,6 +347,13 @@ def diagnose(cmd):
             continue
         subj = _subject_of(msg)
         n = len(subj)
+        if n > CAP and not (how == "-m" and tuple(args) in certain):
+            # WQ-263 (Will 2026-09-22 "with CATO fix"): over the cap, but the commit was found by INFERENCE — a -F /
+            # heredoc message, a prefix command (env/timeout/sudo/command…), or a bash -c/eval/backtick/$'…' lift. A
+            # recogniser that is unsure what runs must not block: WARN, exit 0. validate_all C1 measures after the fact.
+            unknowns.append(f"OVER CAP ({n} chars > {CAP}) but inferred ({how}; command word not a literal top-level `git`"
+                            f" or message not a plain -m) — NOT blocked, WQ-263. Subject: «{subj[:100]}{'…' if len(subj) > 100 else ''}»")
+            continue
         if n > CAP:
             return "block", (f"⛔ commit_subject_guard BLOCKED: subject is {n} chars, cap {CAP} "
                              f"(root CLAUDE.md Git Protocol 4d / WQ-171 ①; blocking per WQ-244, Will 2026-09-17).\n"
@@ -376,7 +390,7 @@ def _handle(data):
     return 0
 
 
-EXPECTED_DRILLS = 76
+EXPECTED_DRILLS = 83
 
 
 def selftest():
@@ -396,7 +410,7 @@ def selftest():
         ('git commit PROME/STATUS.md -m "short"', "allow", "A2 ordinary — short -m"),
         (f'git commit PROME/STATUS.md -m "{exact100}"', "allow", "A2 — exactly 100 CHARACTERS (110 bytes): chars, not bytes"),
         (f'git commit PROME/STATUS.md -m "{exact100}x"', "block", "A1 — 101 chars, one over"),
-        (hd('"$SP/msg.txt"', long_subj), "block", "A3 — -F with the WRITE heredoc in this command (house style), quoted $VAR path"),
+        (hd('"$SP/msg.txt"', long_subj), "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: A3 — -F with the WRITE heredoc in this command (house style), quoted $VAR path"),
         (hd("$SP/msg.txt", "PROME: short subject"), "allow", "A3 — heredoc short subject, unquoted $VAR path"),
         (f'git commit PROME/STATUS.md -F {stale.name}', "unknown", "A3 v4 — -F absolute path on disk, long: NEVER read from disk ⇒ UNKNOWN (r3 ❌3 made disk reads unsafe)"),
         (f'git commit PROME/STATUS.md -F {short.name}', "unknown", "A3 v4 — -F absolute path on disk, short ⇒ UNKNOWN"),
@@ -421,15 +435,15 @@ def selftest():
         (f'cat {stale.name} | tee {stale.name}.new; git commit PROME/STATUS.md -F {stale.name}.new', "unknown", "r1 ❌1 — tee target ⇒ UNKNOWN"),
         ("cd sub && git commit PROME/STATUS.md -F msg.txt", "unknown", "r1 ❌2 — relative -F after a cd ⇒ UNKNOWN (never read)"),
         (f'MSG="{long_subj}"; git commit -m "$MSG"', "unknown", "r1 ❌4 — runtime-assembled $MSG ⇒ UNKNOWN + advisory"),
-        (f'bash -c \'git commit -m "{long_subj}"\'', "block", "r1 ❌4 — bash -c body lifted and scanned"),
+        (f'bash -c \'git commit -m "{long_subj}"\'', "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r1 ❌4 — bash -c body lifted and scanned"),
         ('git commit -m "$(cat /tmp/m.txt)"', "unknown", "r1 ❌4 — $(…) ⇒ UNKNOWN + advisory"),
         (f'/usr/bin/git commit -m "{long_subj}"', "block", "r1 ❌4 — git matched by basename"),
         (f'bash scripts/commit_helper.sh "{long_subj}"', "allow", "PERIMETER — a script by path: no `git commit` visible ⇒ allowed SILENTLY"),
         (f'git commit -am "{long_subj}"', "block", "r1 ❌5 — combined short flags -am"),
         (f'git commit -qm "{long_subj}"', "block", "r1 ❌5 — -qm"),
         (f'git commit PROME/STATUS.md -m "{nfd100}"', "allow", "r1 ❌6 — 100 NFC chars arriving NFD ⇒ allow"),
-        (f"cat <<'M' > x.txt\n{long_subj}\n\nbody\nM\ngit commit PROME/STATUS.md -F x.txt", "block", "r1 ⚠️7 — redirect AFTER the marker is still a heredoc target"),
-        (f"tee y.txt <<'M'\n{long_subj}\n\nbody\nM\ngit commit PROME/STATUS.md -F y.txt", "block", "r1 ⚠️7 — tee as the heredoc target"),
+        (f"cat <<'M' > x.txt\n{long_subj}\n\nbody\nM\ngit commit PROME/STATUS.md -F x.txt", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r1 ⚠️7 — redirect AFTER the marker is still a heredoc target"),
+        (f"tee y.txt <<'M'\n{long_subj}\n\nbody\nM\ngit commit PROME/STATUS.md -F y.txt", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r1 ⚠️7 — tee as the heredoc target"),
         ('grep -n "git commit" PROME/STATUS.md || true', "allow", "a search for the phrase — quoted, whitespace-bearing ⇒ prose"),
         # ── wq244cold2 (second read), VERBATIM ──
         (f"cat >> {short.name} <<'EOF'\n{long_subj}\n\nbody\nEOF\ngit commit PROME/STATUS.md -F {short.name}", "unknown", "r2 ❌1 — >> APPEND heredoc: the real subject is on disk already ⇒ UNKNOWN, never a block"),
@@ -437,14 +451,14 @@ def selftest():
         (f"cat > notes.md <<'EOF'\nexample:\n  cat > x <<'EOF'\n  body\n  EOF\ngit commit -m \"{long_subj}\" is prose here\nEOF\necho done", "allow", "r2 ❌3 — an INDENTED terminator inside a body does not end the heredoc (bash-exact) ⇒ prose"),
         ("git commit PROME/STATUS.md -F msg.txt", "unknown", "r2 ❌4 — relative -F with NO cd, a long ./msg.txt in the hook's cwd ⇒ UNKNOWN, never read (cwd drill)"),
         (f'git commit -m "short" PROME/STATUS.md\ngit commit -m "{long_subj}" PROME/SCRATCH.md', "block", "r2 ❌5 — a second commit on a NEW LINE is its own command ⇒ block"),
-        (f'eval "git commit -m \'{long_subj}\'"', "block", "r2 ❌6 — eval body lifted and scanned"),
+        (f'eval "git commit -m \'{long_subj}\'"', "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r2 ❌6 — eval body lifted and scanned"),
         (f'$GIT commit -m "{long_subj}"', "unknown", "r2 ⚠️ — git through a variable ⇒ UNKNOWN + advisory (was silent)"),
         # ── wq244cold3 (third read), VERBATIM ──
         ('git commit -m "' + "x" * 50 + '\n   ' + "y" * 48 + '\n\nbody"', "block", "r3 ❌1 — an INDENTED continuation line keeps its leading spaces when git joins: 50+1+3+48 = 102 ⇒ block"),
-        (f"git commit PROME/STATUS.md -F - <<'EOF'\n{long_subj}\n\nbody\nEOF", "block", "r3 ❌2 — -F - with the heredoc on stdin is determinable ⇒ block"),
+        (f"git commit PROME/STATUS.md -F - <<'EOF'\n{long_subj}\n\nbody\nEOF", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r3 ❌2 — -F - with the heredoc on stdin is determinable ⇒ block"),
         (f"cd /tmp/cr3 && printf '%s\\n' \"short\" > ./msg.txt && git commit PROME/STATUS.md -F /tmp/cr3/msg.txt", "unknown", "r3 ❌3 — same file rewritten under ANOTHER spelling: no disk read ⇒ UNKNOWN, never a block"),
         ("git commit PROME/STATUS.md -m $'" + exact100 + "'", "allow", "r3 ❌4 — $'…' ANSI-C quoting, exactly 100 chars ⇒ allow (no phantom $)"),
-        ("git commit PROME/STATUS.md -m $'" + exact100 + "x'", "block", "r3 ❌4 — $'…' with 101 chars ⇒ block"),
+        ("git commit PROME/STATUS.md -m $'" + exact100 + "x'", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r3 ❌4 — $'…' with 101 chars ⇒ block"),
         # ── wq244cold4 (fourth read), VERBATIM ──
         ("git commit PROME/STATUS.md -m $'PROME: short subject\\n\\nbody " + "x" * 200 + "'", "unknown", "r4 ❌1 — $'…' WITH escapes: git's %s is 20 chars; measuring the literal gave 230 ⇒ UNKNOWN, never a block"),
         (f"git commit A -F - <<'EOF'\n{long_subj}\nEOF\ngit commit B -F - <<'EOF'\nshort\nEOF", "unknown", "r4 ❌2 — two stdin heredocs for two -F - commits ⇒ UNKNOWN (bodies not attributable)"),
@@ -453,19 +467,29 @@ def selftest():
         (f"python3 - > msg.txt <<'PYEOF'\nprint('PROME: short subject')\n# {long_subj}\nPYEOF\ngit commit PROME/STATUS.md -F msg.txt", "unknown", "r5 ❌1 — the heredoc feeds the INTERPRETER; the file gets stdout ⇒ UNKNOWN, never measured"),
         (f'git commit --dry-run PROME/STATUS.md -m "{long_subj}"', "allow", "r5 ❌2 — a dry run commits nothing ⇒ allow"),
         (f'echo git commit -m "{long_subj}" >> notes.md', "allow", "r5 ❌3 — `git` is echo's ARGUMENT, not the command word ⇒ prose"),
-        (f'out=`git commit -m "{long_subj}"`', "block", "r5 ❌6 — backtick command substitution runs the commit ⇒ block"),
-        (f"bash -c $'git commit -m \"{long_subj}\"'", "block", "r5 ❌7 — ANSI-C body normalised BEFORE the -c lift ⇒ block"),
-        (f"git commit PROME/STATUS.md --file - <<'EOF'\n{long_subj}\n\nbody\nEOF", "block", "r5 ❌8 — `--file -` space form reads stdin ⇒ block"),
+        (f'out=`git commit -m "{long_subj}"`', "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r5 ❌6 — backtick command substitution runs the commit ⇒ block"),
+        (f"bash -c $'git commit -m \"{long_subj}\"'", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r5 ❌7 — ANSI-C body normalised BEFORE the -c lift ⇒ block"),
+        (f"git commit PROME/STATUS.md --file - <<'EOF'\n{long_subj}\n\nbody\nEOF", "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r5 ❌8 — `--file -` space form reads stdin ⇒ block"),
         # ── neighbours of the r5 fixes (author's own, not a reader's) ──
         (f'git commit -n PROME/STATUS.md -m "{long_subj}"', "block", "r5 nbr — `-n` is --no-verify, NOT a dry run ⇒ block"),
         (f'git commit -m "{long_subj}" -m "--dry-run"', "block", "r5 nbr — `--dry-run` as a MESSAGE value (2nd -m) is not the flag ⇒ block"),
-        (f'sudo -u willi git commit -m "{long_subj}"', "block", "r5 nbr — a prefix command with a NON-flag argument still runs git ⇒ block"),
+        (f'sudo -u willi git commit -m "{long_subj}"', "unknown", "WQ-263 S2/S4 (was block) — inferred, so WARN not block: r5 nbr — a prefix command with a NON-flag argument still runs git ⇒ block"),
         (f'echo git commit -m "{long_subj}" | bash', "unknown", "r5 nbr — prose piped to a shell RUNS ⇒ UNKNOWN, never allow"),
         (f'printf "%s" git commit -m "{long_subj}"\ngit commit -m "short" PROME/STATUS.md', "allow", "r5 nbr — prose on line 1, a short real commit on line 2 ⇒ allow"),
         (f'grep -l "git commit" notes.md; git commit PROME/STATUS.md -m "{long_subj}"', "block", "r5 nbr — prose in one segment, a long real commit in the next ⇒ block"),
         (f'{{ git commit PROME/STATUS.md -m "{long_subj}"; }} 2>err.log', "block", "r5 nbr — a brace-group head is transparent: git still runs ⇒ block"),
         (f'if git commit PROME/STATUS.md -m "{long_subj}"; then echo ok; fi', "block", "r5 nbr — `if` runs its condition ⇒ block"),
         (f'git commit PROME/STATUS.md \\\n  -m "{long_subj}"', "block", "r5 nbr — backslash-newline continuation is ONE command ⇒ block"),
+        # WQ-263 (Will 2026-09-22 "with CATO fix") — S3: CATO's three false blocks, none of which runs git ⇒ never block
+        (f'command -v git commit -m "{long_subj}"', "unknown", "WQ-263 S3 CATO — `command -v` LOOKS UP git, runs nothing ⇒ warn, never block"),
+        (f'env printf %s git commit -m "{long_subj}"', "unknown", "WQ-263 S3 CATO — env runs PRINTF; git commit is its argument ⇒ warn, never block"),
+        (f'timeout 1 echo git commit -m "{long_subj}"', "unknown", "WQ-263 S3 CATO — timeout runs ECHO ⇒ warn, never block"),
+        # S4 — the STATED COST Will accepted: real commits behind a prefix command now warn
+        (f'env FOO=1 git commit -m "{long_subj}"', "unknown", "WQ-263 S4 stated cost — env prefix: real commit, WARN not block"),
+        (f'timeout 5 git commit -m "{long_subj}"', "unknown", "WQ-263 S4 stated cost — timeout prefix: real commit, WARN not block"),
+        # S5 — a bare assignment is NOT a prefix command: git is still the literal command word ⇒ block
+        (f'FOO=1 git commit -m "{long_subj}"', "block", "WQ-263 S5 — bare VAR=… assignment, git is the command word ⇒ block"),
+        (f'git commit -m "short subject" PROME/STATUS.md', "allow", "WQ-263 S6 — ordinary short -m ⇒ allow"),
     ]
     fails = []
     here = os.getcwd()

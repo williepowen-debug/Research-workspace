@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PreToolUse(Bash) hook — the BLOCKING wrapper over `scripts/pipeline_rc_guard.py`'s recogniser.
+"""PreToolUse(Bash) hook — ⚠️ ADVISORY since WQ-263 (Will 2026-09-22: a confirmed hit WARNS, exit 0, never 2; the history below records the BLOCKING era) — the wrapper over `scripts/pipeline_rc_guard.py`'s recogniser.
 
 `scripts/pipeline_rc_guard.py` is DAEDALUS's file (delivered 2026-09-12 UNWIRED BY DESIGN: "PROME or Will wires
 it"). It exits 0 always (warn-only). WQ-244 (Will 2026-09-17 22:33:18Z Decision Deck APPROVE) rules that it BLOCKS
@@ -73,6 +73,7 @@ import sys
 _ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 _GUARD = os.path.join(_ROOT, "scripts", "pipeline_rc_guard.py")
 _BLOCK_LINE = "   ⛔ BLOCKED by PROME/tools/hooks/pipeline_rc_block.py (WQ-244, Will 2026-09-17): fix the rc read and re-run.\n"
+_ADVISE_LINE = "   ⚠️ ADVISORY (pipeline_rc_block.py, WQ-263 2026-09-22): NOT blocked — fix the rc read if the diagnosis is right.\n"
 _LIFT = (re.compile(r"\b(?:bash|sh|zsh|dash)\s+(?:-[a-zA-Z]*c[a-zA-Z]*\s+)(['\"])(.*?)\1", re.S),
          re.compile(r"\beval\s+(['\"])(.*?)\1", re.S))
 _QUOTED = re.compile(r"(?<![\w])\"(?:[^\"\\]|\\.)*\"|(?<![\w])'[^']*'", re.S)
@@ -229,11 +230,11 @@ def _handle(data, guard_path=_GUARD):
                          "Fail-open, DECLARED (WQ-244).\n")
         return 0
     if hit:
-        msg = msg.replace("   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n", _BLOCK_LINE)
-        if _BLOCK_LINE not in msg:
-            msg += _BLOCK_LINE
-        sys.stderr.write(msg)
-        return 2
+        # WQ-263 (Will 2026-09-22 19:37 / 19:51 ET, "approved" + "with CATO fix"): this wrapper is ADVISORY. Five
+        # independent reads found a false positive in every round, the last ones in the wrapper's OWN compensation
+        # layer, so a confirmed hit now WARNS and exits 0. The diagnosis text is unchanged; only the verdict moved.
+        sys.stderr.write(msg.replace("   ⚠️ WARNING ONLY — nothing is blocked; re-run it however you like.\n", "") + _ADVISE_LINE)
+        return 0
     return 0
 
 
@@ -244,12 +245,18 @@ def selftest():
     fails = []; ran = [0]
     def drill(label, want, data, path=_GUARD):
         ran[0] += 1
+        # WQ-263: the wrapper never blocks. `want` keeps its historical meaning — 2 = the recogniser must CONFIRM a
+        # hit, 0 = it must not — and a confirmed hit must now surface as an ADVISORY on stderr with rc 0.
+        import io, contextlib
+        err = io.StringIO()
         try:
-            rc = _handle(data, path)
+            with contextlib.redirect_stderr(err):
+                rc = _handle(data, path)
         except Exception as e:
             rc = f"raised {type(e).__name__}"
-        ok = rc == want
-        print(f"  {'✓' if ok else '✗'} rc={rc!s:4} want={want}  {label}")
+        advised = _ADVISE_LINE in err.getvalue()
+        ok = (rc == 0 and advised) if want == 2 else (rc == 0 and not advised)
+        print(f"  {'✓' if ok else '✗'} rc={rc!s:4} advised={advised!s:5} want={'hit→advisory' if want == 2 else 'no-hit'}  {label}")
         if not ok: fails.append(label)
     bash = lambda c: {"tool_name": "Bash", "tool_input": {"command": c}}
     drill("B1 hit: gate | tail; echo $?  -> 2", 2, bash('python3 PROME/tools/boot_session.py --replay 2>&1 | tail -80; echo "RC=$?"'))
