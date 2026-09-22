@@ -1,9 +1,11 @@
-# HEARTBEAT — TWENTIETH RE-BASE, PLAN v2 (post plan-cold-read)
+# FROZEN 2026-09-22 — HEARTBEAT twentieth re-base PLAN v2, DELIVERED `dbaaa7230`; every figure below is pre-re-base history, not current
 
 **Author:** PROME (`prome-b7`) · **v1 written** 2026-09-21 22:0x ET · **v2** 22:1x ET after the blind plan read.
 **Will's word:** "Okay go ahead" 2026-09-21 22:03 ET.
 **Reviews folded:** CATO `762b015bc` + `7c025c804` · blind cold read of v1 (**18 ✅ / 13 ⚠️ / 10 ❌ — verdict NO**), ledger at
 `/tmp/claude-1000/-home-willi-Research-workspace-PROME/618256cf-0e9f-4c0e-9f1b-c7da046a0274/scratchpad/coldread_plan.md`.
+> ✅ **DELIVERED 2026-09-22 09:37 ET — `dbaaa7230`. THIS FILE IS THE PLAN RECORD; ITS FIGURES ARE PRE-RE-BASE HISTORY, NOT CURRENT.** Every `32,315 B / 99%` below describes the NINETEENTH base, preserved verbatim at `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-22.md`. **The delivered twentieth base measured 21,882 B = 67% of budget**, and the closeout gate reports `rotation_due=0`. ⚠️ The byte table below is the SENSITIVITY ANALYSIS that argued the plan was marginal; the candidate beat it because the channels were REWRITTEN rather than trimmed. **Read it as the reasoning, never as the outcome.** The blind RESULT read then returned 8 BLOCKING against the written base — including a preserved-but-discharged caveat this plan had made invariant #1 — all fixed before commit.
+
 **v2 fixes all ten ❌. The thirteen ⚠️ are declared residue (bottom), unfixed by rule (WQ-178: fix ❌ only).**
 
 ⛔ **v1's central arithmetic was wrong and v2 supersedes it.** See § Byte feasibility.
@@ -14,7 +16,7 @@
 
 §C's re-base trigger is a FLOOR ("re-base by"), not a ceiling. Two independent obligations force it:
 - **§C update rule:** *"Update after regime-level changes or >48h stale in a market week."* Base written Sat 9/19 ~11:2x ET; 58h; equity-vol gamma sign flipped (regime-level).
-- **P1 read-cap:** 32,315 B = 99% of the 32,550 B budget. **Stop is <70% = 22,785 B.** Any amendment breaches.
+- **P1 read-cap** [SUPERSEDED — delivered base is 21,882 B]: 32,315 B = 99% of the 32,550 B budget. **Stop is <70% = 22,785 B.** Any amendment breaches.
 
 ⛔ This file was burned once reading an advisory as a prohibition ("amendment #4 BARRED", retired in the 19th base). Reading "not yet due" as "not allowed" is that error inverted.
 
@@ -45,7 +47,7 @@ The kill-on-sight hot cell's own text reads: *"the FULL binding set is cold `§K
 
 ## INVARIANTS — each must survive, in substance, in the HOT file
 
-1. ⛔ **`GLD 16` / `TBT 14` are DISPUTED, not current** (L448/WQ-274), marker **ON the position line itself**, not only in a rotated amendment.
+1. ⛔⛔ **VOID — DO NOT APPLY. This invariant was WRONG WHEN WRITTEN and it is the session's worst defect.** It read *"`GLD 16` / `TBT 14` are DISPUTED, not current — marker ON the position line itself"*. **The dispute was DISCHARGED on 2026-09-20 by WQ-272** (ANVIL write-in, Will-authorized); the correct quantities are **GLD 17 / TBT 10**. Preserving it forced a dead caveat into a 9/22 file. **What survives is the narrower WQ-274 caveat: not transaction-reconciled, not current-book-verified.**
 2. Position mirror vintage **9/10 CLOSE**, STALE between exports; **re-verify the live book at any fire-time (root rule #4)**.
 3. **WQ-192 STAND DOWN holds.**
 4. **$0 moved by PROME.**
@@ -107,6 +109,10 @@ v1 claimed tonight's 68¢ dispersion (`$100.38` 20:26 ET · `$101.06` 22:0x ET) 
 - `measure.py HEARTBEAT.md` **< 22,785 B**, else fallback, re-measure, else STOP and report.
 - Snapshot the 19th base verbatim; receipt = the git object, never a hand crc.
 - Blind RESULT cold read before commit (§C + WQ-178).
+
+## DECLARED RESIDUE — RESULT read, 2026-09-22 (added on ARGUS's finding that it was never declared)
+
+The RESULT cold read scored **18 ✅ · 8 ⚠️ · 8 ❌**. All eight ❌ were fixed before commit. **The eight ⚠️ are carried UNFIXED and are listed here rather than summarised, because WQ-178 requires each un-fixed flag named:** they are basis-and-pointer class — source labels cited without a sha, an unmetered-target wording, the `§20.7` heading using `##` where cold's sub-parts use `###`, masked-minute stamps, a self-describing byte figure in the base's own header, commit-subject length, duplicated stable commands, and the combined `§4.2 / §5.4 / §6.2 / §7.3` heading form. **None changes what the file asserts.** Full bodies: the reader's ledger at the scratchpad path in this file's header. ⚠️ **That path is temporary** — the ledger does not survive the session, which is itself a residue item.
 
 ## DECLARED RESIDUE — the 13 ⚠️ from the plan read, NOT fixed (WQ-178: fix ❌ only)
 

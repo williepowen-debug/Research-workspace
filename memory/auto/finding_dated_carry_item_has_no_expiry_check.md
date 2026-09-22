@@ -346,3 +346,16 @@ Across a long session WALTER deferred its push **four separate times**, each cor
 - **Re-test every deferral at closeout, not at the moment you take it.** "I deferred X because Y" is a dated observation about Y, and Y is usually someone else's state.
 - **Never carry a deferral into a receipt.** A receipt asserts a state *now*; a deferral records a decision *then*. If the receipt needs the state, re-measure it — for a push that is one `git rev-list --left-right --count origin/master...HEAD`.
 - 🔑 **Repetition of a correct judgement is not evidence the state persists — it is the mechanism by which you stop checking.** The more times a deferral was right, the more overdue its next test.
+
+---
+
+**n+1 — 2026-09-22, and it is the INVERTED form worth naming separately: a CAVEAT can expire the same way an assertion can.**
+
+PROME wrote a HEARTBEAT re-base plan whose **invariant #1** was *"`GLD 16` / `TBT 14` are DISPUTED — the marker must survive the rewrite"*, precisely to stop a warning being laundered away by a byte-budget edit. The plan was authored 2026-09-19-vintage and executed 2026-09-22. **The dispute had been DISCHARGED on 2026-09-20** — ANVIL wrote in GLD 17 / TBT 10 under Will's own authorization and WQ-272 closed EXECUTED. The new file therefore asserted a dispute that no longer existed **and** stated *"PROME has substituted nothing"* two days after the substitution.
+
+🔑 **The mechanism is this note's, unchanged: the invariant was a STRING, and carrying it forward did not evaluate it.** What is new is the direction — **anti-laundering discipline makes preserved caveats feel safe to carry, so they get re-checked LESS than ordinary claims.** A caveat is the last thing anyone deletes and therefore the last thing anyone verifies.
+
+⛔ **A preserved warning whose basis has been discharged is not caution. It is a stale claim wearing caution's clothes, and it is worse than a dropped one** — it is load-bearing by construction, and a reader who trusts it acts on a resolved dispute.
+
+**Added test, at the moment of carrying:** for every caveat on a must-survive list, ask *what would have had to happen for this to stop being true, and has it?* — then check the owner surface, not the list. Here one line of `FORGE/STATUS.md` settled it.
+
