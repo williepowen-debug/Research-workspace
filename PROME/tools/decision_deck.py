@@ -710,10 +710,16 @@ OWED_ARTIFACT_URL = "https://claude.ai/code/artifact/16655022-6e00-4cea-9916-7cb
 
 
 def _artifact_url(value: str) -> str:
+    # Two native forms (2026-09-22): the legacy /code/artifact/<UUID> and the current
+    # /artifact/<short id> the host now issues for new artifacts. Each is returned in its
+    # OWN form — the short id is case-sensitive, so it is never lower-cased or rewritten.
     match = re.fullmatch(r"https://claude\.ai/code/artifact/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})/?", value)
-    if not match:
-        raise ValueError("Hosted links must be native https://claude.ai/code/artifact/<UUID> URLs")
-    return "https://claude.ai/code/artifact/" + match[1].lower()
+    if match:
+        return "https://claude.ai/code/artifact/" + match[1].lower()
+    match = re.fullmatch(r"https://claude\.ai/artifact/([A-Za-z0-9]{16,40})/?", value)
+    if match:
+        return "https://claude.ai/artifact/" + match[1]
+    raise ValueError("Hosted links must be native https://claude.ai/code/artifact/<UUID> or https://claude.ai/artifact/<id> URLs")
 
 
 def _page(title: str, view: str, panels: list[tuple[str, str, int | None, str]],

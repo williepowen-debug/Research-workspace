@@ -44,3 +44,28 @@ The continuation-ticker contract-month defect (**L429**) and the metric-name spl
 ## Consumers to tell at the end (A2 notice)
 
 LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares first-published) · LABOR · WALTER (its SIG-W-20260919-001 evidence is consumed here) · the intake-lane owner note (the basis of `fetch_fred.py`, stated, not changed).
+
+---
+
+## Plan read v1 — verdict NO (coldreader `l409plancold`, Opus, 2026-09-22 ~18:3x ET; 9 ✅ · 6 ⚠️ · 5 ❌). No code edited. A v2 plan is owed and gets its own read.
+
+**❌1 "the lag DID reproduce today": REFUTED by PROME at the artifact, and the refutation is recorded, not assumed.** The reader dated the cache files wrongly. Their real write times (`ts` field):
+- `fred_DGS10_20000` was written **2026-09-17 16:06** with newest row 9/15. That is correct at the time: the 9/16 H.15 cell publishes ~16:15.
+- `fred_DGS10_2` was written **2026-09-21 12:18** with newest row 9/17. Also correct: Friday 9/18's cell publishes Monday 9/21 ~16:15.
+- `fred_DGS10_8` was written 9/17 18:45 with newest 9/16, which is correct.
+
+**No cache file shows a lag.** The row-1 verdict "NOT REPRODUCED" stands. The 9/17 instance is still UNEXPLAINED. ⚠️ Honest limit: this shows the files are consistent with publication timing. It does not prove the 9/17 terminal read had no lag.
+
+**Accepted, and they shape v2:**
+- ❌2 **A5 must not use the API as its own reference.** Take an independent `limit=1` probe in the same run, and have the tool refuse or mark a result that disagrees with it. `limit=20000` callers are live: BOND `boot_recompute.py:320` and `closeout_check.py:99`, and BOND co-owns GATE-TERRY-007.
+- ❌3 **A first-published pull needs a bounded realtime window.** `output_type=4` with no window errors; with a full window it hits FRED's 2000-vintage cap (DGS10 has 5113 vintages). "Or an explicit error" in A1 is too weak. Each declared gate series must pull successfully under a stated window rule.
+- ❌4 **A window silently drops rows.** PAYEMS returned 1 of 3 requested rows. A1 needs a row-count check, and the A3 cache key needs EVERY request parameter, not only the basis label.
+- ❌5 **Caller census.** There are ~21 more callers than the 6 grepped: BOND×4, CARL×4, RED×2, TERRY `snapshot.py`, BRENT, MIDAS, LIQUID `boot.py`, WALTER's test that mocks `dashboard.fred_fetch`, the `fetch.py fred --json` readers, and `test_fetch_contract_repairs.py`. Changing the return shape therefore breaks callers, so the basis must be carried **beside** the rows, not by changing them. `hy_oas_watch.py` imports private names (`_retry_request`, `FRED_BASE`, `FRED_API_KEY`) and swallows exceptions into `VINTAGE-FETCH-FAIL` with rc 0, so the post-edit check greps for that token's absence.
+
+**⚠️ carried into v2:**
+- A7 fails live on SOFR-IORB: IORB is dated 9/23, ahead of SOFR's 9/21, and two 2-row pulls share no date. Alignment needs a deeper pull.
+- A6 misses a fill-forward whose price and date come from different sources.
+- A4 still shows a green "+0.00%" on a fallback row.
+- A third basis, as-known-on-a-past-date, is missing.
+- **The claim that GATE-TERRY-007 declares first-published is WRONG as written.** Only GATE-HY-REKILL's row says "as first published"; 007's row and TERRY's card do not. The L409 row inherited PROME's misstatement, and v2 corrects the consumer list.
+- The L429 scope boundary needs one sentence.
