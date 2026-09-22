@@ -47,9 +47,13 @@ RESULTS = []   # list of row dicts: dashboard,label,display,marker,note,asof,tre
 ERRORS = 0
 
 
-def add(dashboard, label, display, marker, note, asof="", trend="", headline=False):
+def add(dashboard, label, display, marker, note, asof="", trend="", headline=False, ref=False):
+    """`ref=True` marks a REFERENCE-ONLY ⚪ row (grades nothing) — the only ⚪ the collapsed view may
+    hide. Every other ⚪ is an UNGRADEABLE/STALE-BASIS/DATE-UNVERIFIED row and is ALWAYS shown
+    (CATO 9/17 §2, repaired 2026-09-22: ⚪ carried both meanings and the default view hid both, so a
+    gate leg that failed CLOSED to ⚪ vanished and the dashboard printed "all clear")."""
     RESULTS.append(dict(dashboard=dashboard, label=label, display=display, marker=marker,
-                        note=note, asof=asof, trend=trend, headline=headline))
+                        note=note, asof=asof, trend=trend, headline=headline, ref=ref))
 
 
 def fred_series(sid, n=6):
@@ -331,10 +335,20 @@ def build_domestic():
         prior = next(((dt, val) for dt, val in iorb_pairs if val != iorb), None)
         if prior:
             dmove = (iorb - prior[1]) * 100
-            add("DOMESTIC", "IORB Δ (policy)", f"{dmove:+.0f}bps", "🔴",
-                f"POLICY RATE MOVED — {prior[1]:.2f}% [{prior[0]}] → {iorb:.2f}% [{d_iorb}]. "
-                f"Every repo-vs-IORB spread below straddles this move until the post-move "
-                f"repo print publishes; each is date-aligned and labelled accordingly", d_iorb)
+            # first observation at the NEW level = the move's effective date (pairs newest-first)
+            eff = min(dt for dt, val in iorb_pairs if val == iorb and dt > prior[0])
+            if d is None or d < eff:
+                add("DOMESTIC", "IORB Δ (policy)", f"{dmove:+.0f}bps", "🔴",
+                    f"POLICY RATE MOVED — {prior[1]:.2f}% [{prior[0]}] → {iorb:.2f}% [eff. {eff}]. "
+                    f"Latest SOFR [{d}] PRE-DATES the move: every repo-vs-IORB spread below "
+                    f"straddles it until the post-move repo print publishes", eff)
+            else:
+                # 2026-09-22: this row used to stay 🔴 "straddles" for as long as the move sat in
+                # the 14-obs window (~2 weeks), days after post-move repo had published — a stale
+                # alarm, and a 🔴 that means nothing trains the reader to skip 🔴.
+                add("DOMESTIC", "IORB Δ (policy)", f"{dmove:+.0f}bps", "🟡",
+                    f"policy move {prior[1]:.2f}% → {iorb:.2f}% effective {eff}; post-move SOFR has "
+                    f"published [{d}] so repo-vs-IORB spreads are on the new ceiling", eff)
 
     # ---- BASIS REPAIR 2026-09-17 (KB-LIQ-126). Every repo-vs-IORB spread in this block
     # was `latest_repo - latest_IORB`, with NO date check and (for SOFR-IORB) no date
@@ -442,7 +456,7 @@ def build_domestic():
     if not e99 and sofr is not None:
         s99m = (p99 - sofr) * 100
         add("DOMESTIC", "SOFR99−SOFR (dispersion)", f"{s99m:+.0f}bps", "⚪",
-            "intra-distribution spread — NOT the 079 leg (that is SOFR99−IORB, above)", d99)
+            "intra-distribution spread — NOT the 079 leg (that is SOFR99−IORB, above)", d99, ref=True)
 
     # 2Y — front-end reference (FOMC-day hawkish reprice tell)
     v, d, tr, err = fred_series("DGS2")
@@ -585,7 +599,7 @@ def build_prices():
         add("DOMESTIC", "price basis (multi-calendar)", f"{len(stale)} session dates", "⚪",
             "; ".join(f"{d_}: {', '.join(ls)}" for d_, ls in sorted(stale.items()))
             + " — EXPECTED: FX/futures roll into the next session ahead of US cash equities. "
-              "Not a staleness flag; declare the date when citing across the two")
+              "Not a staleness flag; declare the date when citing across the two", ref=True)
 
 
 # ---------------------------------------------------------------------------
@@ -829,7 +843,10 @@ def render(verbose):
         # dispersion row was showing while its 🟢 sibling SOFR99−IORB — the actual
         # GATE-LIQ-079 ARM leg — was hidden, i.e. the default view displayed the
         # NON-gate number and concealed the gate one. That is KB-LIQ-109/113 inverted.
-        shown = [r for r in rows if (verbose or r["marker"] not in ("🟢", "⚪") or r["headline"])]
+        # 2026-09-22 (CATO 9/17 §2): hide only 🟢 and REFERENCE-ONLY ⚪ (ref=True). An ungradeable
+        # ⚪ is a fail-closed read and must never be concealed behind "all clear".
+        shown = [r for r in rows if (verbose or r["headline"]
+                                     or not (r["marker"] == "🟢" or (r["marker"] == "⚪" and r.get("ref"))))]
         print(f"\n  {DASH_TITLE[dash]}")
         if not shown:
             print("    🟢 all clear")
@@ -838,6 +855,9 @@ def render(verbose):
             line = f"    {r['marker']} {r['label']:<12} {r['display']:<20}"
             if r["note"]:
                 line += f" {r['note']}"
+            # every rendered value carries its observation date, in BOTH modes (CATO 9/17 §2:
+            # price rows have no trend, so the old verbose-trend-only print never dated them)
+            line += f"  (obs {r['asof'] or 'date?'})"
             print(line)
             if verbose and r["trend"]:
                 print(f"       trend: {r['trend']}   [{r['asof']}]")
