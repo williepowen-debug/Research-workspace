@@ -135,3 +135,17 @@ operator-bound fundamentals coverage that probe C showed actually works.
 5. Diff the CRUISE blocks across the two copies.
 
 **Neighbour categories (WQ-229):** ordinary = the tests above · overlap = another desk's WATCH item matching the same cruise headline (checked by printing all agents hit) · wrong owner = the FORGE copy has no collector, and the intake copy is the live one · missing information = a zero-item live fetch on row 2 is recorded, not treated as failure · concurrent activity = the intake repo is pulled `--ff-only` immediately before the edit and pushed ff-only.
+
+---
+
+## Plan read v1 — verdict NO (coldreader `cruiseplancold`, Opus, 2026-09-22 ~18:1x ET; ledger in the prome-a5 session scratchpad, findings summarised verbatim-in-substance here)
+
+**3 ✅ · 5 ⚠️ · 4 ❌. NOT ENCODED. CRUISE's 10-run clock has NOT started.**
+
+- ❌1 **Delivery dies at the KNOWN-entity suppression step, not at the query.** In `~/Research-Intake/scripts/fetch_newsweep.py` L95-97, `classify_article` suppresses any headline naming an ENTITY_INDEX entity (Carnival / Royal Caribbean / Norwegian Cruise → CRUISE, config L372-374) unless it hits WATCH_FOR or carries an escalation word. Live test: row 1 **kept 1 of 15**, row 2 **1 of 15**. Suppressed items included "NCLH CEO Calls for Major Changes as Booking Pace Slows" and "Royal Caribbean, Norwegian Cruise Line to See Lower Net Yields in H2". ⇒ **This is the likely mechanism behind the 0-decision-relevant-in-739 result**, and any encode that leaves it in place makes the falsifier grade the suppressor.
+- ❌2 `match_watch_for` tests substrings, so `cruise port call cancelled` fires on "missile **cruiser**'s Havana port call cancelled". Acceptance condition 3 fails.
+- ❌3 `cruise line guidance cut` reduces to cruise ∧ line ∧ guidance ("cut" ≤3 chars is dropped). It fires on "Pentagon issues new guidance on cruise missile production line" and misses "Royal Caribbean lowers 2026 guidance".
+- ❌4 The deviation "Carnival Cruise Line is subsumed by Carnival Corp" is false.
+- ⚠️ Only 2 of 5 decision events are reachable, each in one phrasing. An equity offering worded "Public Offering of Ordinary Shares" is suppressed. "Cruise lines cancel Red Sea sailings" is classed NOISE. The 15-item cap is filled by operator chatter, starving the self-keyed terms. Row 2 has no stamp. The two copies' `match_watch_for` implementations differ (the FORGE copy lacks entity-token logic).
+
+**Disposition (PROME, 2026-09-22):** v1 is withdrawn. The next version is a **collector change, not a term encode**: CRUISE-row items must not be suppressed as KNOWN, following the precedent of the saudi-redsea keys comment at L566-570. It also needs word-boundary WATCH matching, or anchors that do not collide with "cruiser"/"cruise missile", and operator-keyed guidance and offering items. New acceptance condition 6: **a decision-relevant, operator-named headline survives `classify_article`.** Per the WQ-178 read budget, v2 gets its own plan read before any edit. Carried on DOCKET **L452** (the lane falsifier row; the earlier "L451 carries this lane" line above is WRONG — L451 is the CRU-09 retraction marker).
