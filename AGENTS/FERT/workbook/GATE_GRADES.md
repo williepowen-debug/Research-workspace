@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-09-15** | Staleness sweep: 2026-09-15
+**LIVE — Last real data refresh: 2026-09-23** (9/16 + 9/23 prints appended) | Staleness sweep: 2026-09-23
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are canonical at `PROME/GATES.tsv` — never restated here.
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -15,6 +15,7 @@
 | **9/2/26** | Aug 24–28 | $918 | $959 | MAP | $41 · **+4.28%** | **NOT FIRED** |
 | **9/9/26** | **Aug 31–Sep 4** | **$919** | **$959** | **MAP** | **$41 · +4.28%** | **NOT FIRED** |
 | **9/16/26** | **Sep 7–11** | **$923** | **$962** | **MAP** | **$38 · +3.95%** | **NOT FIRED** — graded 9/17 on MIRROR; **confirmed first-party at dtnpf.com 9/22** (`KB-FERT-040`) |
+| **9/23/26** | **Sep 14–18** | **$925** | **$967** | **MAP** | **$33 · +3.41%** | **NOT FIRED** — PRIMARY, first-party curl at dtnpf.com 9/23 (`KB-FERT-043`) |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
@@ -25,4 +26,13 @@
 | *G5 base rate at registration* | — | — | — | *~+0.50 %/mo* | *~8.5 months* |
 
 
-**Next grade: 2026-09-23 DTN weekly** (T4 wake; GATES review_by 9/23; pull the article by curl at dtnpf.com — first-party method fixed 9/22). *Approach-rate table above is the 9/9 cut; the 9/16 six-print rates (MAP +0.27%/mo, DAP +0.52%/mo) live in STATUS.*
+**Approach rate, 7-print cut (8/12 → 9/23, 6 weeks) — supersedes the 9/9 table above for current use:**
+
+| Leg | 8/12 baseline | 9/23 print | Move over 42 days | Realised approach rate | Implied time-to-fire at that rate |
+|---|---|---|---|---|---|
+| **MAP (binding)** | $959 | $967 | +$8 · +0.834% | **~+0.60 %/mo** (+0.139 %/wk) | **~5.6 months** (≈ mid-Mar 2027) |
+| DAP (second) | $917 | $925 | +$8 · +0.872% | **~+0.63 %/mo** (+0.145 %/wk) | ~12.4 months |
+
+Both legs are now above the ~+0.50 %/mo registration base rate; most of the move came in the last two prints (MAP all of it; DAP +$6 of +$8), after a five-print stall. Two prints is not a trend; not scored.
+
+**Next grade: 2026-09-30 DTN weekly** (T4 wake; pull by curl at dtnpf.com).
