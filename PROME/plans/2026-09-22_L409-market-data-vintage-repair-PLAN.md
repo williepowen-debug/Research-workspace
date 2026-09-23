@@ -129,3 +129,38 @@ LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares 
 ### Sequence from here
 
 Blind plan read of THIS v2 section (coldreader, Opus) → fix ❌ only, declare ⚠️ → capture the A2 baseline → edit `fetch.py` / `dashboard.py` / `scripts/market.py` → fixtures A1–A7 plus the live-pull list → independent RESULT reader bringing its own counterexample (WQ-229 consequential) → then, and only then, "fixed" → consumer notice (LIQUID · TERRY · BOND · LABOR · WALTER · intake-lane note). ⚠️ `scripts/market.py` is root `scripts/`. Before editing it, check its owner (DAEDALUS holds the `scripts/` grant per ACTIVE_DECISIONS) — **if it is not PROME's, D5 becomes a packet, not an edit.**
+
+---
+
+## Plan read v2 — `l409v2plancold` (coldreader, Opus, 2026-09-22 ~20:4x ET): **14 ✅ · 10 ⚠️ · 3 ❌, GO-WITH-FIXES.** Ledger: session scratchpad `l409v2plancold_ledger.md`.
+
+### ❌ fixes. These amend v2 in place of the text they name; per WQ-178 this is the one fix pass on the plan.
+
+**❌7 → D2 amended: lead buffer.** PROME reproduced the counterexample at 20:4x ET. IORB `output_type=4` with `observation_start=2026-09-20`:
+- `realtime_start=2026-09-20` returns 9/22 and 9/23 only.
+- `realtime_start=2026-09-13` returns 9/20, 9/21, 9/22 and 9/23. The 9/20 and 9/21 rows were first published on **9/18**.
+
+"A publication never precedes its observation date" is **false for administered and forward-stamped series**. **New rule:** `realtime_start := observation_start − lead`, where `lead = max(14 days, 2 × period_days)`. Rows are then filtered to `date ≥ observation_start`, so the buffer only admits early publications and never extra observations. The 2000-vintage cap check (P5) is applied to the buffered window. D3's `missing` list is computed over **`date ≥ observation_start` only**, which answers ⚠️9. The IORB case becomes a fixture next to PAYEMS.
+
+**❌12 → D4 amended: failures are never cached.** `fred_fetch_vintage` calls `_cache_set` **only** when the result has no top-level `error`, `short` is false and `rows` is non-empty. That follows the 2026-09-14 rule at `fetch.py` `_cache_set`. A `short` result is returned to the caller but never cached, so a recovery is re-fetched on the next call. Fixture: an error result plus a `short` result, then assert that no `fredv_` cache file was written.
+
+**❌21 → the census and the A2 test are amended.**
+1. **CLI readers added:** `AGENTS/HENRY/scripts/update_data.py:79`, `AGENTS/LABOR/scripts/labor_data.py:70`, `AGENTS/LABOR/scripts/spine_check.py:97` (reader-found; PROME re-greps at build) and `FORGE/tools/market-data/test_fetch_contract_repairs.py` (named by v1 and dropped by v2).
+2. **A2 now also asserts byte-equality of `fetch.py fred <ID> --json` default output**, before and after, for DGS10 and IORB. That covers the parser/`cmd_fred` edit.
+3. **A real cache bypass:** the A2 baseline and after-run point `CACHE_DIR` at two **separate fresh temp directories** through an env override (`FORGE_CACHE_DIR`, added in this repair, defaulting to the current path). Neither run can be served by the other's cache, which answers ⚠️24. The same override serves D8, which answers ⚠️18.
+
+The "38 files" count is withdrawn (⚠️20). The build re-runs the census with the command recorded, and the notice lists what that command returns.
+
+**`scripts/market.py` owner, answered:** DAEDALUS (`ACTIVE_DECISIONS.md` FORGE row, transferred 7/31 with the `scripts/` grant; reader cited git `4e27100f2`, `10ce7b2dc`). **D5 therefore becomes a packet to DAEDALUS, not a PROME edit.** A4 is verified at DAEDALUS's artifact once it lands.
+
+### Declared residue (WQ-178). Not fixed in the plan text; each is carried into the build as a constraint or left explicitly open.
+
+- ⚠️6 CLI default-output equality → **absorbed by the ❌21 fix** (point 2).
+- ⚠️11 `_cache_ttl` keys on `"fred_" in key`, so `fredv_` keys fall to the STANDARD TTL (120 s), not ECON. The plan's "ECON" claim is wrong. **Build constraint:** extend the `_cache_ttl` match to `fredv_`, with a fixture.
+- ⚠️13 **`api_key` must never enter `request`.** The build strips it from the echoed params before caching or returning. Fixture: grep the cached JSON and the returned dict for the key and assert it is absent.
+- ⚠️17 A D7 spread's `prev`/Δ can span a `"."` gap (DCPF3M: 9/21 → 9/11, six sessions). **Build constraint:** when prev-common is more than one publication period back, mark the Δ `Δ over <n> sessions`; never show it as a daily change.
+- ⚠️19 "004 add line" means ACTIVE_DECISIONS TERRY row: DFII10 ≥2.50, `BND-29`. Defined here, not re-worded above.
+- ⚠️23 D5/D6/D7 **do** change what some surfaces show (`scripts/market.py` users WAL · OZK · REGINALD · POSITIONS; the dashboard tiles). D1's "nothing changes" holds for `fred_fetch` only. **The consumer notice adds WAL, OZK and REGINALD.**
+- The remaining v1 residue (A6 cross-source fill-forward · third basis · the unexplained 9/17 lag · intake lane/VIOLET untouched) stands as declared in v2.
+
+**The plan is now closed to further reads this session (WQ-178).** The next read is the independent RESULT reader after code, who must bring its own counterexample (WQ-229).
