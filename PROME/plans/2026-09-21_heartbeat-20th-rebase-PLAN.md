@@ -122,3 +122,24 @@ Carried deliberately. The plan read's ⚠️ class covers basis-and-pointer item
 
 - `spawn_list.py` naming-pattern repair → **DOCKET L455**, acceptance conditions written, CATO's instruction to keep it separate honoured.
 - Any new rotation rule for the kill cell or the stress-dashboard line.
+
+---
+
+## Post-delivery correction pass — 2026-09-23 (`prome-da`, desktop), on CATO's closure review
+
+The source is `AGENTS/CATO/runs/2026-09-21_2147_heartbeat-rebase-proposal-review.md` § September 23: H3 (VIOLET pointer; census), H8 (tile dates) and H2 (reader evidence). The pass was bounded; no level was refreshed.
+
+- **H3 VIOLET:** hot now names **L278** (leg 2). The 9/23 close resolves it and VIOLET's owner read is 9/24. The −16.26% is dated **[9/18 close, VIOLET STATUS]**. Verified at `AGENTS/VIOLET/STATUS.md:21,93`, DOCKET L277/L278, and the prereg letter §LEG 2.
+- **H8 tile dates:**
+  - HY/CCC/IG each carry [9/18].
+  - VIX/VVIX/MOVE/^SKEW each carry [9/21c; yfinance, NOT settle-confirmed], so the caveat travels with every level.
+  - Cushing/SPR each carry [wk-9/11].
+  - Production `parse_tiles()`: HY 9/18 · CCC 9/18 · VIX 9/21c · Cushing wk-9/11 (MOVE gains 9/21c). Values are unchanged.
+  - DGS10/WAL/OZK remain undated. That limitation pre-dates the re-base and is outside H8.
+- **H3 census / H2 ledgers:** the original census and both reader ledgers are SEARCH-NOT-FOUND on this machine. The limitation is retained. A **RETROSPECTIVE** census is at `PROME/reports/2026-09-23_heartbeat-20th-rebase-RETROSPECTIVE-obligation-census.md`. It found one binding kill entry lost (*"Brent fell 7.5% in three sessions"*), now re-homed to cold **§KOS.4**, which the hot pointers now name.
+- **Deferred, unchanged:** the Brent distance tile (L359) and channel-summary truncation.
+- **Independent result read (`hbcorrread`, Opus, 2026-09-23):** items 1–3 MET; item 4 PARTIAL on ❌ **X1**. The first §KOS.4 re-home carried §A21's older text, which publishes −4.48%/−5.20% fade figures against $103.10, a killed 9/18 level. That inverted the binding "PROME publishes NO replacement percentage" caveat. **Fixed in one pass:** §KOS.4 now carries the 19th-base bracket verbatim. The same pass restored the Cushing "next WPSR 9/23" cue (W2) and narrowed the header note (W5).
+- **Declared residue (WQ-178):**
+  - W1: the tile stamp cuts at `;`, so the MOVE/VIX tiles show "9/21c" without "NOT settle-confirmed". The full caveat is in the hot text; this is a renderer limit, deferred with the truncation class.
+  - W4: HEARTBEAT is 22,552 B, leaving 233 B of headroom to the 22,785 B stop line. Re-check at any append.
+  - W3 was tested by the reader and found no loss: HANS-T-15 is carried at cold §19 and HANS STATUS.
