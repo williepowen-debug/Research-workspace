@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-09-22 **~17:0x–17:2x ET (clock-verified), Tue — PROME-spawned Tier-1 drain (yen-gap window + whole inbox 16 → 0)** · Book **FLAT**, **$0**, no threshold moved · ★ **Named data gap DG-LIQ-2026-09-21 registered** (Tokyo shut 9/21–9/23; MOF JGB curve DARK after 9/17 — verified at the CSV) · 🔴 **CATO's three HIGH findings APPLIED; the GATE-HY-REKILL watcher repair then failed an independent Opus reader TWICE before it VERIFIED** · KB-LIQ-133 RETRACTED → 134 · KB-LIQ-135. *Detail → `reports/2026-09-22_session.md`.* — *Prior:* 2026-09-17 ~21:4x–22:3x ET catch-up session (the Fed hike, the KB-LIQ-126 IORB date-mismatch repair, WALTER lane 19 → 0, KB-LIQ-127/128 quality ladder) — full header text → `git show 23bf1f3a5:AGENTS/LIQUID/STATUS.md`.
+**Last Updated:** 2026-09-23 ~11:1x ET Wed — PROME due-row spawn, T3 v2 read (OWED-AFTER-PUBLICATION; step 2 VOID decided) · *prior:* 2026-09-22 **~17:0x–17:2x ET (clock-verified), Tue — PROME-spawned Tier-1 drain (yen-gap window + whole inbox 16 → 0)** · Book **FLAT**, **$0**, no threshold moved · ★ **Named data gap DG-LIQ-2026-09-21 registered** (Tokyo shut 9/21–9/23; MOF JGB curve DARK after 9/17 — verified at the CSV) · 🔴 **CATO's three HIGH findings APPLIED; the GATE-HY-REKILL watcher repair then failed an independent Opus reader TWICE before it VERIFIED** · KB-LIQ-133 RETRACTED → 134 · KB-LIQ-135. *Detail → `reports/2026-09-22_session.md`.* — *Prior:* 2026-09-17 ~21:4x–22:3x ET catch-up session (the Fed hike, the KB-LIQ-126 IORB date-mismatch repair, WALTER lane 19 → 0, KB-LIQ-127/128 quality ladder) — full header text → `git show 23bf1f3a5:AGENTS/LIQUID/STATUS.md`.
 
 ## BOTTOM LINE
 
@@ -27,6 +27,10 @@
 ## Current State (posture, not levels)
 
 > ⚠️ **PROSE ROTATIONS — 5 (8/28, 9/02, 9/03, 9/12, 9/17), verbatim, nothing deleted; crc32s in each rotation file.** **Invariant: all five gates survive a rotation and the enumeration is RUN BY GREP, never asserted** — broken by my own 9/12 rotation, **run and passed 5-of-5 tonight.** ⚠️ **The 9/17 driver was the READ CAP, not staleness**, and only **MOVING** text cleared it (a reword returned 359 B against a 3,146 B need). Detail → `reports/2026-09-17_session.md`. Budget: `scripts/read_cap_check.py --agent LIQUID`.
+
+### LIVE STATE — 2026-09-23 T3 v2 read (PROME-spawned due-row, DOCKET L238). Book FLAT · $0 · no threshold or band moved.
+
+**T3 v2 → OWED-AFTER-PUBLICATION, readable ~Thu 9/24 AM** (38th delta = the 9/23 close; FRED HY/VIX post T+1). **Step 2 is already decided: `VOID`.** The 9/16 FOMC hike (FRED `DFEDTARU` 3.75→4.00 eff. 9/17) is a policy-path change, the co-spec's own example marker; coherent sub-windows 32 and 5 sessions < 38 ⇒ joint-unsatisfiability ⇒ VOID, markers not relaxed. **⇒ the 9/24 token is VOID or INSTRUMENT-FAULT, never CONFIRM/NO VERDICT.** 🔴 F4 live at 11:0x: yfinance `DX-Y.NYB` has **no 9/22 daily bar** (4 query forms; hourly shows the session traded) — no substitute used. r NOT computed. ⛔ Letter §7: a VOID is the absence of a reading, NOT evidence of decoupling or of a dollar factor. Contestable point (markers never enumerated, only exemplified) → HENRY concur via PROME. Full read: `workbook/T3v2_READ_2026-09-23.md`.
 
 ### LIVE STATE — 2026-09-22 delta (PROME-spawned drain). Book FLAT · $0 · no threshold moved.
 
