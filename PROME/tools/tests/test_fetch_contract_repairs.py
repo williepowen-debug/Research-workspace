@@ -36,7 +36,10 @@ class ContractRepairs(unittest.TestCase):
         self.stack = contextlib.ExitStack()
         self.addCleanup(self.stack.close)
         self.stack.enter_context(patch.dict(os.environ, {
-            "MKTDATA_REEXEC": "1", "FRED_API_KEY": "offline-fixture-only"
+            "MKTDATA_REEXEC": "1", "FRED_API_KEY": "offline-fixture-only",
+            # L409: an exported FORGE_CACHE_DIR would point every isolated copy at one
+            # shared cache; empty means "use the copy's own .cache".
+            "FORGE_CACHE_DIR": "",
         }))
         temp = pathlib.Path(self.stack.enter_context(tempfile.TemporaryDirectory()))
         # Load a copy in an isolated tree: _load_dotenv must never read live .env.

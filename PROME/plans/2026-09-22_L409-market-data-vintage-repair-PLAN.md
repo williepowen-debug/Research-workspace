@@ -164,3 +164,42 @@ The "38 files" count is withdrawn (⚠️20). The build re-runs the census with 
 - The remaining v1 residue (A6 cross-source fill-forward · third basis · the unexplained 9/17 lag · intake lane/VIOLET untouched) stands as declared in v2.
 
 **The plan is now closed to further reads this session (WQ-178).** The next read is the independent RESULT reader after code, who must bring its own counterexample (WQ-229).
+
+---
+
+## BUILD RECORD — `prome-da`, 2026-09-23 17:04–17:2x ET (desktop)
+
+**Built:** `FORGE/tools/market-data/fetch.py`: `fred_fetch_vintage` (D1–D4, D2 lead buffer, D3 row check), `_fred_get` (keeps the 400 body, no 4xx retry), `_fred_period_days`, `FORGE_CACHE_DIR`, the `fredv_` TTL branch (⚠️11), `--first-published`. `fred_fetch` is untouched. `FORGE/tools/market-data/dashboard.py`: D6 marks (`⚠stale` · `date?` · `⚠Δ≈0 possible fill-forward` on ^VIX/^VVIX/^MOVE/^SKEW/^OVX), D7 common-date spreads with the `legs` field and the both-dates label on no overlap, the ⚠️17 `Δ over N sessions` mark. Fixtures: `PROME/tools/tests/test_fred_vintage_L409.py` (22 offline + 3 live) and `…/test_dashboard_marks_L409.py` (10). **D5 → packet to DAEDALUS** (`AGENTS/DAEDALUS/inbox/2026-09-23_from-PROME_L409-D5-…md`); A4 is graded at DAEDALUS's artifact once that lands.
+
+**Evidence (the author's own, which establishes IMPLEMENTED + TESTED only):**
+- A2 is byte-EQUAL before vs after, in fresh separate cache dirs, on DGS10 at 2/400/5000/20000, IORB 5000, and `fred --json` for DGS10 and IORB. Re-captured after the ❌1 fix: EQUAL again.
+- Pre-edit sources fail the new suites.
+- 8 of 8 fetch.py mutants and 5 of 5 dashboard mutants are caught (named in the session scratchpad).
+- Live: 5 declared series pull clean; PAYEMS discriminates between the bases; D8 newest dates agree for DGS10 and HY OAS.
+- LIQUID's `hy_oas_watch.py` was run in a sandbox (all its paths redirected to a temp dir, LIQUID's files untouched): rc 0, no `VINTAGE-FETCH-FAIL`, and its selftest passes.
+- WALTER `test_boot_repairs` 12/12, `test_fetch_contract_repairs` 22/22, contract-probe acceptance 6/6.
+
+**Independent RESULT read (`l409result`, Opus, ledger in session scratchpad):** verdict ACCEPT-WITH-RESIDUE, conditional on ❌1. Its own counterexamples:
+- CE-1 FEDTARMD forward projection: PASS.
+- CE-2 RIFSPPNA2P2D90NB limit 50: FAIL. It returned 44 rows with no tell (❌1).
+- CE-7 A2 on 8 more series plus a nonexistent id: EQUAL.
+Weekly, quarterly, annual and administered series all pass; the key is never leaked.
+
+**❌1 fixed, one pass:** the derived window now anchors on the limit-th newest valid latest-revised date. `under_limit` flags any result with fewer rows than asked for, and such results are never cached. Sparse-series and explicit-short-window fixtures were added, and both new mutants are caught. CE-2 now returns 50/50.
+
+**Reader re-check of the fix (same reader, 17:2x ET):** ❌1 CLOSED, verified. The reader re-ran CE-2 (50 of 50 rows, window anchored at 2026-04-13). Its own new cases: the same series at limit 150 returned 150; DCPF3M at limit 60 returned 60; DGS10 with a caller start of 9/21 returned 2 rows, `under_limit`, uncached. ⚠️1 CLOSED: 22/22 pass with the variable exported, and nested paths are created. Four suites together: 54 passed. Closeout receipt: no repo writes, nothing pending. **Verdict ACCEPT-WITH-RESIDUE.**
+
+**Completion state (WQ-229, four states, not merged):** IMPLEMENTED ✅ · TESTED ✅ · INDEPENDENTLY VERIFIED ✅ (with residue, D1–D4 and D6–D8; A1/A2/A3/A5/A6/A7) · STILL UNRESOLVED: the residue below; A4/D5 at DAEDALUS; the reader's A2 leg for `hy_oas_watch.py` stays UNKNOWN on its side (PROME ran it sandboxed, rc 0).
+
+**Declared residue (WQ-178):**
+- `limit` counts differently on the two bases: `fred_fetch` counts `.` rows and then drops them. Unchanged, because A2 forbids it.
+- The As-of cell overflows its 24-character width when marks combine. Content is intact; alignment is cosmetic.
+- A spread whose leg errors outright still shows N/A with no reason (this pre-dates the change).
+- The day after a holiday, a spread reads "Δ over 2 sessions" (conservative, documented).
+- The dashboard stamp `[9/22] ⚠stale` differs in wording from fetch.py's `2026-09-22 ⚠stale`.
+- If a new observation publishes between the two requests inside one call, the result reads `short`. It is not cached, so a later call recovers.
+- ⚠️8 (re-check): when `limit` exceeds the whole series, the derived window starts before FRED's range and returns an explicit 400. Nothing is cached. This pre-dates the fix. Its repair is to start at the oldest valid row when the anchor pull finds fewer rows than the limit.
+- ⚠️9 (re-check): the anchor pull runs before the cache lookup, so a cache hit still costs one FRED request. Efficiency only.
+- The v2 residue stands: cross-source fill-forward, the third basis, the unexplained 9/17 lag, and the intake lane/VIOLET module untouched.
+
+**Consumer notice owed after the reader's re-check:** LIQUID · TERRY · BOND · LABOR · WALTER · WAL · OZK · REGINALD, plus an intake-lane note. The notice says NO gate's basis changed; adopting `fred_fetch_vintage` is each owner's edit.

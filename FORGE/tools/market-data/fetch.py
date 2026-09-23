@@ -58,8 +58,9 @@ import time
 import re
 import urllib.request
 import urllib.parse
+import urllib.error
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from decimal import Decimal
 
 # ---------------------------------------------------------------------------
@@ -96,7 +97,9 @@ FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 EIA_API_KEY = os.environ.get("EIA_API_KEY", "")
 EIA_BASE = "https://api.eia.gov/v2"
 
-CACHE_DIR = Path(__file__).parent / ".cache"
+# FORGE_CACHE_DIR override (L409, 2026-09-23): lets a test or an A/B run point the cache at
+# a fresh directory so neither run is served by the other's cache. Default unchanged.
+CACHE_DIR = Path(os.environ.get("FORGE_CACHE_DIR") or (Path(__file__).parent / ".cache"))
 CACHE_TTL_VOLATILE = 30      # 30s for VIX, crypto
 CACHE_TTL_STANDARD = 120     # 2min for oil, yields
 CACHE_TTL_ECON = 300         # 5min for economic data
@@ -174,7 +177,7 @@ def _audit_log(action, details, latency_ms=None):
 
 def _parse_flags(args):
     """Extract --json, --history N, --periods N, --delta PCT from args."""
-    flags = {"json": False, "history": 0, "periods": 5, "delta": 0.0}
+    flags = {"json": False, "history": 0, "periods": 5, "delta": 0.0, "first_published": False}
     clean = []
     skip_next = False
     for i, a in enumerate(args):
@@ -183,6 +186,8 @@ def _parse_flags(args):
             continue
         if a == "--json":
             flags["json"] = True
+        elif a == "--first-published":
+            flags["first_published"] = True
         elif a == "--history" and i + 1 < len(args):
             flags["history"] = int(args[i + 1])
             skip_next = True
@@ -219,6 +224,10 @@ def _retry_request(url, headers=None, timeout=15):
 
 def _cache_ttl(key):
     """Determine cache TTL based on data volatility."""
+    # First-published FRED pulls (L409) are economic data. Checked FIRST: "fredv_" does not
+    # contain "fred_", and a series id can contain a ticker substring.
+    if key.startswith("fredv_"):
+        return CACHE_TTL_ECON
     # Check if it's a volatile ticker
     for ticker in VOLATILE_TICKERS:
         if ticker in key:
@@ -237,7 +246,7 @@ def _cache_ttl(key):
 
 
 def _cache_path(key):
-    CACHE_DIR.mkdir(exist_ok=True)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
     safe = key.replace("/", "_").replace("^", "_").replace("=", "_")
     return CACHE_DIR / f"{safe}.json"
 
@@ -355,6 +364,170 @@ def fred_fetch(series_id, limit=5):
     _cache_set(f"fred_{series_id}_{limit}", result)
     _audit_log("FRED_FETCH", {"series": series_id, "observations": len(result)}, latency_ms)
     return result
+
+
+# --- First-published (ALFRED) basis — L409, 2026-09-23 --------------------------------
+# `fred_fetch` above returns LATEST-REVISED values (no realtime_* params) and is left
+# byte-identical: ~20 fleet callers depend on its shape and cache key. A caller that needs
+# the value AS FIRST PUBLISHED opts in here. The basis travels BESIDE the rows.
+# Plan + acceptance conditions: PROME/plans/2026-09-22_L409-market-data-vintage-repair-PLAN.md
+#   window rule (D2): realtime_start = observation_start - lead, lead = max(14d, 2 periods).
+#     ⛔ "a publication never precedes its observation date" is FALSE for administered /
+#     forward-stamped series (IORB 9/20-9/21 were first published 9/18). ALFRED output_type=4
+#     SILENTLY DROPS any observation whose first release falls before realtime_start.
+#   row check (D3): the latest-revised dates over the same observation_start are pulled in the
+#     same call; any date missing first-published is listed in `missing` and sets `short`.
+#   cache (D4): key carries every request param; errors and short results are NEVER cached.
+#   The 2000-vintage cap returns an explicit error naming the window; never a silent retry
+#   with a narrower window.
+FRED_SERIES_BASE = "https://api.stlouisfed.org/fred/series"
+_PERIOD_DAYS = {"D": 1.4, "W": 7, "BW": 14, "M": 31, "Q": 92, "SA": 183, "A": 366}
+_VINTAGE_BASES = ("first-published",)
+
+
+def _fred_get(url_base, params):
+    """One FRED request that KEEPS the HTTP error body (FRED explains a 400 there) and does
+    not retry a 4xx. Separate from _retry_request, whose name/signature callers import."""
+    q = dict(params, api_key=FRED_API_KEY, file_type="json")
+    url = f"{url_base}?{urllib.parse.urlencode(q)}"
+    last = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            req = urllib.request.Request(url, headers={"Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            try:
+                body = json.loads(e.read().decode())
+                msg = body.get("error_message") or str(body)
+            except Exception:
+                msg = str(e)
+            if 400 <= e.code < 500:
+                return {"error": f"HTTP {e.code}: {msg}"}
+            last = f"HTTP {e.code}: {msg}"
+        except Exception as e:
+            last = str(e)
+        if attempt < MAX_RETRIES - 1:
+            time.sleep(RETRY_DELAY * (2 ** attempt))
+    return {"error": last}
+
+
+def _fred_period_days(series_id):
+    """Calendar days per observation from FRED's frequency_short (cached, ECON TTL)."""
+    key = f"fred_meta_{series_id}"
+    cached = _cache_get(key)
+    if cached:
+        return cached.get("period_days"), None
+    data = _fred_get(FRED_SERIES_BASE, {"series_id": series_id})
+    if "error" in data:
+        return None, data["error"]
+    try:
+        freq = data["seriess"][0]["frequency_short"]
+    except (KeyError, IndexError, TypeError):
+        return None, f"no frequency_short for {series_id}"
+    pdays = _PERIOD_DAYS.get(freq)
+    if pdays is None:
+        return None, f"unsupported frequency {freq!r} for {series_id}"
+    _cache_set(key, {"period_days": pdays, "frequency_short": freq})
+    return pdays, None
+
+
+def fred_fetch_vintage(series_id, limit=5, basis="first-published", observation_start=None):
+    """Newest `limit` observations of `series_id` on an EXPLICIT basis (L409 A1).
+
+    Returns {"basis", "series", "rows": [{date, value, first_published}] newest-first,
+             "request": {every param except api_key}, "short": bool, "missing": [dates]}
+    plus "error" on failure (never an empty list posing as data). `short` means FRED's
+    first-published set lacks dates the latest-revised set has inside the window; the rows
+    are still returned so the caller can see what is there, but it must not treat them as
+    complete. `under_limit` means fewer than `limit` rows came back (a sparse series or a
+    caller-chosen window too short to hold them). Neither flagged result is ever cached.
+    """
+    out = {"basis": basis, "series": series_id, "rows": [], "request": {}, "short": False,
+           "missing": [], "under_limit": False}
+    if basis not in _VINTAGE_BASES:
+        out["error"] = f"unsupported basis {basis!r} (supported: {', '.join(_VINTAGE_BASES)})"
+        return out
+    if not isinstance(limit, int) or limit < 1:
+        out["error"] = f"limit must be a positive int, got {limit!r}"
+        return out
+    pdays, err = _fred_period_days(series_id)
+    if err:
+        out["error"] = err
+        return out
+    today = date.today()
+    if observation_start is None:
+        obs_start = today - timedelta(days=math.ceil(limit * pdays * 2) + 10)
+        # ❌1 (L409 result read, 2026-09-23): a SPARSE series (many '.' cells, e.g.
+        # RIFSPPNA2P2D90NB) holds fewer than `limit` valid rows in the frequency-derived
+        # window, and D3 only looks inside the window, so the shortfall had no tell.
+        # Anchor the window on the limit-th newest VALID latest-revised date instead.
+        anchor = _fred_get(FRED_BASE, {"series_id": series_id, "sort_order": "desc",
+                                       "limit": min(100000, limit * 4 + 20)})
+        if "error" in anchor:
+            out["error"] = f"window-anchor pull failed: {anchor['error']}"
+            return out
+        valid = [o["date"] for o in anchor.get("observations", [])
+                 if o.get("value") not in (None, ".")]
+        if len(valid) >= limit:
+            obs_start = min(obs_start, date.fromisoformat(valid[limit - 1]))
+    else:
+        try:
+            obs_start = date.fromisoformat(str(observation_start))
+        except ValueError:
+            out["error"] = f"observation_start must be YYYY-MM-DD, got {observation_start!r}"
+            return out
+    lead = max(14, math.ceil(2 * pdays))
+    rt_start = obs_start - timedelta(days=lead)
+    request = {"series_id": series_id, "output_type": 4,
+               "observation_start": obs_start.isoformat(),
+               "realtime_start": rt_start.isoformat(), "realtime_end": "9999-12-31",
+               "limit": limit}
+    out["request"] = request
+    key = (f"fredv_{series_id}_{basis}_{request['observation_start']}_"
+           f"{request['realtime_start']}_{request['realtime_end']}_{limit}")
+    cached = _cache_get(key)
+    if cached:
+        _audit_log("FREDV_CACHE_HIT", {"series": series_id, "limit": limit})
+        return cached
+
+    start_time = time.time()
+    api_params = {k: v for k, v in request.items() if k != "limit"}
+    fp = _fred_get(FRED_BASE, api_params)
+    if "error" in fp:
+        out["error"] = (f"first-published pull failed for window realtime "
+                        f"{request['realtime_start']}..{request['realtime_end']}, observations from "
+                        f"{request['observation_start']}: {fp['error']}")
+        _audit_log("FREDV_ERROR", {"series": series_id, "error": fp["error"]})
+        return out
+    lr = _fred_get(FRED_BASE, {"series_id": series_id, "observation_start": request["observation_start"],
+                               "sort_order": "desc", "limit": 100000})
+    if "error" in lr:
+        out["error"] = f"latest-revised row-check pull failed: {lr['error']}"
+        return out
+    ostart = request["observation_start"]
+    fp_rows = [{"date": o["date"], "value": o["value"], "first_published": o.get("realtime_start")}
+               for o in fp.get("observations", [])
+               if o.get("value") not in (None, ".") and o.get("date", "") >= ostart]
+    fp_rows.sort(key=lambda r: r["date"], reverse=True)
+    fp_dates = {r["date"] for r in fp_rows}
+    lr_dates = sorted({o["date"] for o in lr.get("observations", [])
+                       if o.get("value") not in (None, ".") and o.get("date", "") >= ostart}, reverse=True)
+    missing = [d for d in lr_dates if d not in fp_dates]
+    out["rows"] = fp_rows[:limit]
+    out["missing"] = missing
+    out["short"] = bool(missing)
+    # Fewer rows than asked for is reported, never silent (❌1). With a caller-chosen
+    # observation_start this can be the caller's window; with the derived one it should
+    # not happen, and if it does the flag says so.
+    out["under_limit"] = len(out["rows"]) < limit
+    if not out["rows"]:
+        out["error"] = f"zero first-published rows for {series_id} from {ostart}"
+    _audit_log("FREDV_FETCH", {"series": series_id, "rows": len(out["rows"]), "missing": len(missing)},
+               (time.time() - start_time) * 1000)
+    if "error" not in out and not out["short"] and not out["under_limit"] and out["rows"]:
+        _cache_set(key, out)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -1463,6 +1636,9 @@ def cmd_price(tickers, flags):
 
 def cmd_fred(series_id, flags):
     label = ALL_FRED.get(series_id, series_id)
+    if flags.get("first_published"):
+        _cmd_fred_first_published(series_id, label, flags)
+        return
     obs = fred_fetch(series_id, limit=flags["periods"])
 
     if flags["json"]:
@@ -1471,6 +1647,30 @@ def cmd_fred(series_id, flags):
         print()
         display_fred(series_id, label, obs)
     _exit_on_fetch_errors("fred", fred_data={series_id: obs})
+
+
+def _cmd_fred_first_published(series_id, label, flags):
+    """Opt-in `fetch.py fred <ID> --first-published` (L409). The default path is untouched."""
+    res = fred_fetch_vintage(series_id, limit=flags["periods"])
+    if flags["json"]:
+        print(json.dumps(dict(res, label=label), indent=2))
+    else:
+        print()
+        rows = [{"date": r["date"], "value": r["value"]} for r in res["rows"]]
+        if "error" in res:
+            rows = [{"error": res["error"]}]
+        display_fred(series_id, f"{label} [first-published]", rows)
+        if res["rows"]:
+            r0 = res["rows"][0]
+            print(f"   first published {r0['first_published']} (obs {r0['date']})")
+        if res.get("under_limit"):
+            print(f"   ⚠ UNDER LIMIT: {len(res['rows'])} of {flags['periods']} requested rows")
+        if res["short"]:
+            print(f"   ⚠ SHORT: {len(res['missing'])} date(s) latest-revised has but first-published "
+                  f"lacks in the window: {', '.join(res['missing'][:6])}{'…' if len(res['missing']) > 6 else ''}")
+    if "error" in res:
+        print(f"fetch.py: exit 3 — fred --first-published: {res['error']}", file=sys.stderr)
+        sys.exit(3)
 
 
 def cmd_prices(flags):
@@ -1594,7 +1794,7 @@ def main():
 
     if args[0] == "fred":
         if len(args) < 2:
-            print("Usage: fetch.py fred SERIES_ID [--periods N] [--json]")
+            print("Usage: fetch.py fred SERIES_ID [--periods N] [--json] [--first-published]")
             return
         cmd_fred(args[1], flags)
         return

@@ -98,6 +98,26 @@ def available(result):
     return finite_value(result.get("value")) and result.get("zone") in {"red", "yellow", "green"}
 
 
+# L409 D6 (2026-09-23): vol-index marks where a near-zero change is a fill-forward TELL.
+# WALTER SIG-W-20260919-001: off-RTH the vendor served the prior session's value stamped with
+# the current date. ⛔ A zero change is a tell; a NON-zero change is NOT an all-clear -- a
+# fill-forward from a different source/date can move.
+VOL_MARKS = {"^VIX", "^VVIX", "^MOVE", "^SKEW", "^OVX"}
+VOL_ZERO_EPS = 0.005
+
+
+def _weekdays_between(d_prev, d_cur):
+    """Weekdays in (d_prev, d_cur]. Holidays are not known here, so a change across a
+    market holiday reads one session long -- conservative, never shorter than the truth."""
+    a, b = datetime.date.fromisoformat(d_prev), datetime.date.fromisoformat(d_cur)
+    n, d = 0, a
+    while d < b:
+        d += datetime.timedelta(days=1)
+        if d.weekday() < 5:
+            n += 1
+    return n
+
+
 def fetch_all(series_list):
     """Fetch current values for all series. Returns list of result dicts."""
     results = []
@@ -122,6 +142,7 @@ def fetch_all(series_list):
             "prev": None,
             "change": None,
             "shadow": None,
+            "flags": [],
         }
 
         if s["source"] == "price":
@@ -148,6 +169,17 @@ def fetch_all(series_list):
                 entry["date"] = pd.get("asof")
                 if entry["value"] is not None and entry["prev"] is not None:
                     entry["change"] = round(entry["value"] - entry["prev"], 4)
+                # L409 D6: match fetch.py price's marks -- an as-of that is not today is
+                # ⚠stale, a missing as-of is date?, never rendered as live.
+                today = time.strftime("%Y-%m-%d")
+                if entry["date"] is None:
+                    entry["date_label"] = "date?"
+                    entry["flags"].append("date?")
+                elif entry["date"] != today:
+                    entry["flags"].append("⚠stale")
+                if (s["id"] in VOL_MARKS and entry["change"] is not None
+                        and abs(entry["change"]) < VOL_ZERO_EPS):
+                    entry["flags"].append("⚠Δ≈0 possible fill-forward")
             else:
                 entry["error"] = pd.get("error", "fetch failed")
 
@@ -163,19 +195,33 @@ def fetch_all(series_list):
 
         elif s["source"] == "fred_spread":
             # Spread = series[0] - series[1]
+            # L409 D7 (2026-09-23): the two legs publish on independent clocks (IORB is
+            # stamped on its EFFECTIVE date, days ahead of SOFR). The spread was dated by
+            # leg A alone and differenced newest-vs-newest -- a mixed-date figure. Now:
+            # align on the LATEST COMMON DATE; no common date => no value, both dates shown.
             id_a, id_b = s["id"][0], s["id"][1]
-            obs_a = fred_fetch(id_a, limit=2)
-            obs_b = fred_fetch(id_b, limit=2)
+            obs_a = fred_fetch(id_a, limit=10)
+            obs_b = fred_fetch(id_b, limit=10)
             if obs_a and obs_b and "error" not in obs_a[0] and "error" not in obs_b[0]:
-                val_a = float(obs_a[0]["value"])
-                val_b = float(obs_b[0]["value"])
-                entry["value"] = round(val_a - val_b, 4)
-                entry["date"] = obs_a[0]["date"]
-                if len(obs_a) > 1 and len(obs_b) > 1 and "error" not in obs_a[1] and "error" not in obs_b[1]:
-                    prev_a = float(obs_a[1]["value"])
-                    prev_b = float(obs_b[1]["value"])
-                    entry["prev"] = round(prev_a - prev_b, 4)
-                    entry["change"] = round(entry["value"] - entry["prev"], 4)
+                va = {o["date"]: float(o["value"]) for o in obs_a if "error" not in o}
+                vb = {o["date"]: float(o["value"]) for o in obs_b if "error" not in o}
+                entry["legs"] = {id_a: obs_a[0]["date"], id_b: obs_b[0]["date"]}
+                common = sorted(set(va) & set(vb), reverse=True)
+                if common:
+                    d0 = common[0]
+                    entry["value"] = round(va[d0] - vb[d0], 4)
+                    entry["date"] = d0
+                    if len(common) > 1:
+                        d1 = common[1]
+                        entry["prev"] = round(va[d1] - vb[d1], 4)
+                        entry["change"] = round(entry["value"] - entry["prev"], 4)
+                        span = _weekdays_between(d1, d0)
+                        if span > 1:   # ⚠️17: never show a multi-session gap as a daily Δ
+                            entry["change_span"] = span
+                            entry["flags"].append(f"Δ over {span} sessions")
+                else:
+                    entry["date_label"] = f"a {obs_a[0]['date']} / b {obs_b[0]['date']}"
+                    entry["error"] = f"{id_a}/{id_b} share no date in their newest 10 rows"
 
         elif s["source"] == "eia":
             obs = eia_fetch(s["id"], route=s.get("eia_route", "petroleum/stoc/wstk"), limit=2)
@@ -252,20 +298,28 @@ def row(cells, widths):
 def _date_stamp(entry):
     """Format an as-of date stamp for FRED-sourced entries.
 
-    Returns short MM/DD label if entry has a date (FRED observation date);
-    empty string for yfinance-sourced entries (which are intraday-live).
+    Returns a short M/D label for any dated entry (FRED/EIA observation date, or a
+    yfinance as-of), plus L409 marks (⚠stale, ⚠Δ≈0 possible fill-forward, Δ over N
+    sessions). ⛔ yfinance entries are NOT intraday-live by construction: off-RTH the
+    as-of is a prior session, which is exactly what ⚠stale marks.
 
     Surfaces FRED's T+1 publication lag in user-facing output so agents
     don't propagate stale-data-as-live. Per citation convention in
     FORGE/tools/market-data/README.md § Citation Convention.
     """
-    if not entry.get("date"):
+    if entry.get("date_label"):
+        stamp = entry["date_label"]
+    elif not entry.get("date"):
         return ""
-    try:
-        obs = datetime.date.fromisoformat(entry["date"])
-        return f"[{obs.month}/{obs.day}]"
-    except (ValueError, TypeError):
-        return f"[{entry['date']}]"
+    else:
+        try:
+            obs = datetime.date.fromisoformat(entry["date"])
+            stamp = f"[{obs.month}/{obs.day}]"
+        except (ValueError, TypeError):
+            stamp = f"[{entry['date']}]"
+    # L409 D6/D7: stale / fill-forward / multi-session marks travel with the stamp.
+    marks = [f for f in entry.get("flags", []) if f != "date?"]
+    return " ".join([stamp] + marks)
 
 
 def stress_score(results):
@@ -295,7 +349,7 @@ def print_table(results, title, transitions=None):
 
     print(f"\n  {title}")
 
-    widths = [18, 20, 8, 12, 10]
+    widths = [18, 20, 24, 12, 10]   # As-of widened for the L409 marks
     print(f"  {hr(widths, BOX_TL, BOX_TM, BOX_TR)}")
     print(f"  {row(['Series', 'Value', 'As-of', 'Zone', 'Agent'], widths)}")
     print(f"  {hr(widths, BOX_ML, BOX_MC, BOX_MR)}")
