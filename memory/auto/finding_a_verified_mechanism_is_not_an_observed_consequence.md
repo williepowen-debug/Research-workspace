@@ -9,17 +9,18 @@ metadata:
 
 **Verifying a MECHANISM is not observing a CONSEQUENCE.** You read the code, reproduce the bad value, confirm the logic — all correct — and then write the sentence one step further than the evidence goes: *"so it has been publishing a wrong level"*, *"so it authorises a spawn that wasn't needed"*. **The mechanism claim is true and the consequence claim is unverified.**
 
-**n=3 in a single session (PROME, 2026-09-21/22), all three caught by reviewers, never by the author:**
+**n=4 (PROME, 2026-09-21/22 ×3 + 2026-09-23 ×1) — the first three caught by reviewers, the fourth by PROME's own propagation sweep; never at the moment of writing:**
 
 | claimed | actually |
 |---|---|
 | a commit-matcher's blind spot *"fails in the direction that authorises spawning a desk that didn't need it"* | the classifier compares last-commit to the **row start**, not to today, so the class was ACTIVE either way — **no class flip, no mis-spawn** |
 | two post-settle price reads 68¢ apart are *"a THIRD distinct shape"* | the prior case's reads were **also post-settle**; read TIME had been conflated with value BASIS — **same mechanism already adjudicated** |
 | a parser yields `26` from a contract label, so the dashboard *"has been publishing 26"* | the tile-map never produces that tile at all (separately docketed) — **the 26 reaches no surface** |
+| 2026-09-23: the saved dashboard build data holds four fake agents marked `crit`, so *"the hosted dashboard you see has shown four fake agents since 9/19"* — said to Will | the hosted page was last PUBLISHED 9/14, before the defect existed; the fake rows lived only in local build state and no rendered page ever carried them. Caught by reading the hosted artifact, not the state file — **n=4** |
 
-🔑 **The shape: the mechanism is upstream and cheap to verify; the consequence is downstream and requires a different instrument.** Code-path tracing answers *can this happen*. Only the rendered, consumed, or graded surface answers *did it*. The author stops at the first because it is the part they just proved.
+🔑 **The shape: the mechanism is upstream and cheap to verify; the consequence is downstream and requires a different instrument.** Code-path tracing answers *can this happen*. Only the rendered, consumed, or graded surface answers *did it*. The author stops at the first because it is the part they just proved. ⚠️ **A publication gap is also 'something standing between': a generated state file is not the page the reader sees — check the PUBLISHED artifact's vintage before saying what it shows.**
 
-⚠️ **This is not a reason to suppress the finding.** All three defects were real and two are worth repairing. The failure is purely in the sentence's reach — and the cost is real, because a reviewer who checks the consequence and finds nothing has reason to discount the mechanism too.
+⚠️ **This is not a reason to suppress the finding.** The first three defects were real and two are worth repairing. The failure is purely in the sentence's reach — and the cost is real, because a reviewer who checks the consequence and finds nothing has reason to discount the mechanism too.
 
 **How to apply:**
 - Write the mechanism and the consequence as **two separate claims with two separate confidence tokens.** VERIFIED for what you traced; INFERRED or UNKNOWN for what follows from it.

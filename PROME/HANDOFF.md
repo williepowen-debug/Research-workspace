@@ -2,6 +2,16 @@
 
 **Resume:** [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). This is continuity, not a fresh market, broker, fleet-presence or publication check. Read the whole file. Rotated 2026-09-21 under Will's Phase 2 instruction; re-check size at any append or on 2026-09-28, whichever comes first (`scripts/read_cap_check.py --agent PROME --require-manifest`).
 
+## September 23 — laptop keys, desk grades, two fleet censuses, and a repair of PROME's own ROSTER change
+
+**Session `prome-68` (laptop, 9/22 20:34 → 9/23 12:1x ET).** Resume point → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). Selected queue → [STATUS](STATUS.md).
+
+- **Will's decisions this session:** he supplied the three laptop API keys (WQ-238 closed; FIRMS authenticated live, FFIEC present only). He chose **Deck-only publication** at closeout; the dashboard and Helm stay at the 9/14 vintage. ⚠️ The key values passed through the session transcript and still sit in a Downloads file on this box.
+- **Desk grades consumed (WQ-184):** FERT `GATE-FERT-G5` NOT FIRED 6-of-6 (DTN 9/23, first-party). LIQUID L238 is owed after publication, readable 9/24, and can only be VOID or INSTRUMENT-FAULT. HENRY is asked to concur or contest 9/16 as a regime marker.
+- **L429 / L441 censuses:** reports in `reports/2026-09-23_*`, 9 owner packets. ⛔ **The class finding is in two desks' canon:** BRENT REGISTRY:57 and TERRY rule 22 say a continuation ticker is "safe for a LEVEL". Owner dispositions are checked 9/30.
+- **L446:** the independent read found PROME's own 9/19 ROSTER section had silently broken DAEDALUS's directory renderer and inflated the dashboard ACTIVE count. Repaired and re-verified with residue. `render_directory.py --check` WRITES its output, so run it only in a copied tree.
+- 🔑 **What to carry: timestamps.** ARGUS found 7 ❌ and a propagation sweep found 4 more. Six of the eleven were stamps written from memory of the session instead of the commit clock (2 ARGUS clock ❌ + 4 sweep sites), and one more was caught at closeout. The rule already existed. **Take every stamp from `git log`/`date` at write time.** The propagation sweep also caught a claim PROME made to Will without checking the page: the hosted dashboard never showed the fake agents, because it was last published 9/14.
+
 ## September 22 — HEARTBEAT twentieth re-base; TERRY L267 graded
 
 **The re-base landed** (`dbaaa7230`): **32,315 → 21,882 B, 99% → 67% of budget**, and the gate now reports `rotation_due=0` — finished, not merely triggered. Early re-base, justified because §C's cadence trigger is a floor not a ceiling and two independent obligations (the >48h/regime-change update rule and the read-cap) were both met. Nineteenth base verbatim at `archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-22.md`. **Only §7's long-form was rewritten (cold §20.7); every other channel still cites the 19th/18th long-form and the hot cells say so.** Plan and candidate records: `plans/2026-09-21_heartbeat-20th-rebase-PLAN.md`.
@@ -40,10 +50,6 @@ Will authorized Phase 2 after the boot-coverage correction. HANDOFF now carries 
 Will then authorized [Phase 4](plans/2026-09-21_boot-phase4-repeat-boot.md): only USER/BOOT instructions may reuse an acknowledged full read in the same retained context. New/lost context requires full reads. Repeat mechanical checks use a non-advancing refresh under the original completed boot; an incomplete original cannot be bypassed. Live reads and manual/private steps stay mandatory. [The authorized correction](plans/2026-09-21_boot-phase4-correction.md) requires each reported pending policy file to be read and acknowledged before reuse; USER acknowledgement alone is insufficient. Refresh grants no additional per-boot spawn allowance. The correction record owns current verification; no live boot/refresh has been run for this implementation.
 
 **Capability limits:** this Codex session has no private Artifact ruling tool or native fleet `ListAgents`/`SendMessage`. Ruling pickup and fleet preflight remain unavailable; disk or thread-local evidence does not replace them. No desk launch follows from this file. The foreign `PROME/state/argus_baseline.json` remains uncommitted and untouched by this work.
-
-## September 21 — Phase 1 delivered
-
-Coverage code landed at `fbfe85e36`, with CATO's invalid handwritten-date follow-up corrected at `0d104a775`. Generated-calendar freshness is separate from handwritten coverage; recognized invalid prose dates stay unassessed; declared read budgets require the manifest; runtime capability disclosure starts at boot opening. Independent review and tests are recorded in [Phase 1](plans/2026-09-21_boot-coverage-implementation.md) and [the bounded correction](plans/2026-09-21_prose-invalid-date-correction.md). Neither is a new production boot receipt. **The older READS attestation is still not renewed**; a size verdict over declared rows does not establish declaration completeness.
 
 ## September 21 — live continuity from the prior desk session
 
