@@ -12,6 +12,12 @@
 - **L446:** the independent read found PROME's own 9/19 ROSTER section had silently broken DAEDALUS's directory renderer and inflated the dashboard ACTIVE count. Repaired and re-verified with residue. `render_directory.py --check` WRITES its output, so run it only in a copied tree.
 - 🔑 **What to carry: timestamps.** ARGUS found 7 ❌ and a propagation sweep found 4 more. Six of the eleven were stamps written from memory of the session instead of the commit clock (2 ARGUS clock ❌ + 4 sweep sites), and one more was caught at closeout. The rule already existed. **Take every stamp from `git log`/`date` at write time.** The propagation sweep also caught a claim PROME made to Will without checking the page: the hosted dashboard never showed the fake agents, because it was last published 9/14.
 
+### September 23 evening (`prome-da`, desktop) — L409 landed; HEARTBEAT correction pass
+
+- **L409:** RESOLVED and independently verified with residue. The reader's own counterexample (a sparse FRED series returning fewer rows with no warning) found a real defect; it was fixed and re-verified. `fred_fetch` is unchanged, and no gate's basis moved. D5 `scripts/market.py` is DAEDALUS's (DOCKET row, 9/30). Record: the L409 plan § BUILD RECORD.
+- **HEARTBEAT (Will's bounded correction on CATO H3/H8/H2):** L278 pointer fixed; four tiles dated again. The original census and reader ledgers were NOT found on this desktop; the laptop is unchecked. A RETROSPECTIVE census found one lost binding kill entry, now re-homed to cold §KOS.4. 🔑 **The first re-home carried the WRONG version**: the older §A21 text, which publishes fade figures the binding entry forbids. The independent reader caught it. **When re-homing a kill entry, copy the version that was BINDING, not the most detailed one.**
+- **Not published this session.** L444/L450 re-dated 9/28.
+
 ## September 22 — HEARTBEAT twentieth re-base; TERRY L267 graded
 
 **The re-base landed** (`dbaaa7230`): **32,315 → 21,882 B, 99% → 67% of budget**, and the gate now reports `rotation_due=0` — finished, not merely triggered. Early re-base, justified because §C's cadence trigger is a floor not a ceiling and two independent obligations (the >48h/regime-change update rule and the read-cap) were both met. Nineteenth base verbatim at `archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-22.md`. **Only §7's long-form was rewritten (cold §20.7); every other channel still cites the 19th/18th long-form and the hot cells say so.** Plan and candidate records: `plans/2026-09-21_heartbeat-20th-rebase-PLAN.md`.

@@ -203,3 +203,8 @@ Weekly, quarterly, annual and administered series all pass; the key is never lea
 - The v2 residue stands: cross-source fill-forward, the third basis, the unexplained 9/17 lag, and the intake lane/VIOLET module untouched.
 
 **Consumer notice owed after the reader's re-check:** LIQUID · TERRY · BOND · LABOR · WALTER · WAL · OZK · REGINALD, plus an intake-lane note. The notice says NO gate's basis changed; adopting `fred_fetch_vintage` is each owner's edit.
+
+**Closeout audit corrections (ARGUS `argus-da`, 2026-09-23 17:4x ET):**
+- ❌ **"Only GATE-HY-REKILL declares 'as first published'" was FALSE, in v2 above and in all five consumer notices.** GATES rows 3–7 all carry the WQ-162 convention: HY-REKILL · LIQ-069 · LIQ-072 · LIQ-076 · LIQ-079. A correction packet went to LIQUID, which owns the four; the other four desks' packets carry the claim only as context. No gate's basis changed, and adoption stays the owner's edit.
+- ❌ **Notice coverage:** 5 of the 8 named desks were sent notices. **WAL · OZK · REGINALD** use `scripts/market.py`, which is unchanged until D5 lands; the DAEDALUS packet asks DAEDALUS to notify them then (DOCKET **L460**). The **intake-lane note** rides in WALTER's packet ("Still open" line). No further notice is owed from PROME now.
+- ⚠️ declared: the reader's "Four suites together: 54 passed" did not name its four suites (22+10+22 covers three). ARGUS's own run of the four suites named in Evidence gave **66 passed, 3 skipped**. The final mutant total is **10 of 10 fetch.py** (8 + the two ❌1 mutants) and **5 of 5 dashboard**.
