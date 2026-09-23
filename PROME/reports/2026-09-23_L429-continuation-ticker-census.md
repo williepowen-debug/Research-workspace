@@ -3,7 +3,7 @@
 **Commissioned by** PROME `prome-68` (DOCKET L429, due 9/24). **Enumerated by** a read-only Explore sweep (Opus, 2026-09-23 ~11:0x ET). The body below is the sweep's report VERBATIM.
 
 **PROME verification at the artifact before filing (11:0x ET), all VERIFIED:**
-- `AGENTS/HANS/scripts/boot.py:120` grades the HANS-T-07 ladder on generic `"TTF=F"`, and `TTFV26` has 0 hits in that script.
+- `AGENTS/HANS/scripts/boot.py:121` grades the HANS-T-07 ladder on generic `"TTF=F"`, and `TTFV26` has 0 hits in that script.
 - `FORGE/tools/market-data/config.py:72` is pinned to `"BZX26.NYM"`, with a comment saying to re-pin at each roll.
 - `AGENTS/BRENT/workbook/REGISTRY.tsv:57` reads "UNSAFE FOR A DELTA and FINE FOR A LEVEL".
 - `AGENTS/TERRY/RISK_RULES.md:141` (rule 22) reads "safe for a LEVEL and unsafe for a DELTA".

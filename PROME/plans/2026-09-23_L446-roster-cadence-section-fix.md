@@ -1,6 +1,6 @@
 # L446 repair — the DESK CADENCE section broke two ROSTER consumers (acceptance conditions first)
 
-**Author:** PROME `prome-68` · 2026-09-23 11:1x ET · **Class:** WQ-229 consequential (a shared contract, `PROME/ROSTER.md`; the defect class RECURRED: the CATO heading did the same on 9/15). Found by the independent L446 reader (Opus, ledger in the session scratchpad `l446_ledger.md`: **NOT VERIFIED**, ❌ F1/F2/F4).
+**Author:** PROME `prome-68` · 2026-09-23 11:0x ET · **Class:** WQ-229 consequential (a shared contract, `PROME/ROSTER.md`; the defect class RECURRED: the CATO heading did the same on 9/15). Found by the independent L446 reader (Opus, ledger in the session scratchpad `l446_ledger.md`: **NOT VERIFIED**, ❌ F1/F2/F4).
 
 ## Defects, verified by PROME at the artifact before any edit
 - **F1:** `AGENTS/DAEDALUS/scripts/render_directory.py --check` → rc=1 `UNRECOGNISED ROSTER section 'DESK CADENCE …'`. `FLEET_DIRECTORY.md` is frozen at its 9/18 render, so YURI's 9/19 seat is missing from a boot-read surface.
@@ -21,7 +21,7 @@
 - **Concurrent activity:** no live desk session (ListAgents empty at 11:0x); ROSTER is PROME-owned.
 
 ## Fix
-Move the section verbatim to the end of the file, below `## Transmission chain`, a known non-agent section the renderer skips. Demote its heading to `###` and add one placement note. **Not fixed here (residue, carried):** F5 (the token table parses as desks, so the printed cause reads "absent" instead of "UNDECLARED") · F6/F7 (duplicate-with-bad-token; bold/lowercase names dropped) · F8 label · F11 stale docstring · F12 timezone. All are spawn_list code; the two-correction discipline and a separate reader apply. F13: desks have no legal route to declare (ROSTER is PROME's) — a design question for DAEDALUS.
+Move the section verbatim to the end of the file, below `## Transmission chain` *(SUPERSEDED by the R1 follow-up below: it now sits directly BEFORE `## Transmission chain`)*, a known non-agent section the renderer skips. Demote its heading to `###` and add one placement note. **Not fixed here (residue, carried):** F5 (the token table parses as desks, so the printed cause reads "absent" instead of "UNDECLARED") · F6/F7 (duplicate-with-bad-token; bold/lowercase names dropped) · F8 label · F11 stale docstring · F12 timezone. All are spawn_list code; the two-correction discipline and a separate reader apply. F13: desks have no legal route to declare (ROSTER is PROME's) — a design question for DAEDALUS.
 
 ## Result (PROME's own tests. State: IMPLEMENTED · TESTED, NOT yet independently verified)
 - **AC2 ✅:** `parse_roster()` → ACTIVE 34 · TIER-2 4 · DORMANT 2 (was 38/4/2).

@@ -145,7 +145,7 @@ Blind plan read of THIS v2 section (coldreader, Opus) → fix ❌ only, declare 
 **❌12 → D4 amended: failures are never cached.** `fred_fetch_vintage` calls `_cache_set` **only** when the result has no top-level `error`, `short` is false and `rows` is non-empty. That follows the 2026-09-14 rule at `fetch.py` `_cache_set`. A `short` result is returned to the caller but never cached, so a recovery is re-fetched on the next call. Fixture: an error result plus a `short` result, then assert that no `fredv_` cache file was written.
 
 **❌21 → the census and the A2 test are amended.**
-1. **CLI readers added:** `AGENTS/HENRY/scripts/update_data.py:79`, `AGENTS/LABOR/scripts/labor_data.py:70`, `AGENTS/LABOR/scripts/spine_check.py:97` (reader-found; PROME re-greps at build) and `FORGE/tools/market-data/test_fetch_contract_repairs.py` (named by v1 and dropped by v2).
+1. **CLI readers added:** `AGENTS/HENRY/scripts/update_data.py:79`, `AGENTS/LABOR/scripts/labor_data.py:70`, `AGENTS/LABOR/scripts/spine_check.py:97` (reader-found; PROME re-greps at build) and `PROME/tools/tests/test_fetch_contract_repairs.py` (named by v1 and dropped by v2).
 2. **A2 now also asserts byte-equality of `fetch.py fred <ID> --json` default output**, before and after, for DGS10 and IORB. That covers the parser/`cmd_fred` edit.
 3. **A real cache bypass:** the A2 baseline and after-run point `CACHE_DIR` at two **separate fresh temp directories** through an env override (`FORGE_CACHE_DIR`, added in this repair, defaulting to the current path). Neither run can be served by the other's cache, which answers ⚠️24. The same override serves D8, which answers ⚠️18.
 
