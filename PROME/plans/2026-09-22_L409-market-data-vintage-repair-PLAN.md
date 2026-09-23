@@ -74,9 +74,9 @@ LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares 
 
 ---
 
-## PLAN v2 — `prome-68`, written 2026-09-22 20:5x ET (laptop `WilliePOwen`). Fixes ❌3 · ❌4 · ❌5; the ⚠️ are either built or declared as residue below. No code edited. This v2 gets ONE blind plan read (WQ-178).
+## PLAN v2 — `prome-68`, written 2026-09-22 20:3x ET (laptop `WilliePOwen`). Fixes ❌3 · ❌4 · ❌5; the ⚠️ are either built or declared as residue below. No code edited. This v2 gets ONE blind plan read (WQ-178).
 
-### New evidence: live ALFRED probes, 2026-09-22 20:4x ET, direct API calls with the full JSON read whole
+### New evidence: live ALFRED probes, 2026-09-22 20:3x ET, direct API calls with the full JSON read whole
 
 | # | Request | Observed |
 |---|---|---|
@@ -109,7 +109,7 @@ LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares 
 
 `BAMLH0A0HYM2` (`GATE-HY-REKILL`: its row is the **only** one that declares "as first published"; LIQUID's `hy_oas_watch.py` builds that path itself and is **not** migrated by this repair) · `DGS10` (`GATE-TERRY-007`: ⛔ it does **not** declare first-published, so v1's consumer claim is corrected; it stays latest-revised) · `DFII10` (004 add line) · `PAYEMS` (the discriminating fixture). This PLAN changes no gate's basis. A gate adopting first-published is its OWNER's edit, made after this lands.
 
-### Caller census (❌5), measured 2026-09-22 20:5x ET by `grep -rln` over `*.py`, excluding `.venv` and `archive`
+### Caller census (❌5), measured 2026-09-22 20:3x ET by `grep -rln` over `*.py`, excluding `.venv` and `archive`
 
 38 files touch the name or its internals. **6 define their OWN `fred_fetch` and are out of scope** (CARL `gas_tracker`/`consumer_pulse`/`thresholds`/`housing_pulse` · BRENT `thresholds` · VIOLET `fred_fetch.py`, a same-name module). **The FORGE importers are the regression surface:** dashboard · LIQUID ×5 (`boot`, `gate069_legs`, `t3_decoupling`, `sofr_dispersion` at limit 5000, `hy_oas_watch`, which also takes the private names) · TERRY `snapshot` · BOND ×4 (`boot_recompute` / `closeout_check` at 20000, `assertion_check` / `dm_cross_section` at 400) · RED ×2 · MIDAS · LABOR · WALTER ×2 research + `test_boot_repairs` (mocks `dashboard.fred_fetch`) · CARL research ×2 · PROME `test_contract_probe_acceptance` · BOND `cdx_proxy` (CLI text). ⚠️ This census is a grep over import and name forms, so an importer using another spelling (`importlib`, `import fetch as F`) could be missing. It is **SEARCH-NOT-FOUND for others, not VERIFIED complete**. D1 makes that acceptable: nothing a caller already receives changes.
 

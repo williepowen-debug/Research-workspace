@@ -14,7 +14,7 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 - **FERT G5 9/23 print** — the LIVE GATES row review_by 9/23 wakes FERT via WQ-184 at the first boot on/after 9/23.
 - **9/22 DGS10 cell (~16:15 ET 9/23)** seals `GATE-TERRY-007` MOOT — TERRY's to record; PROME consumer read only.
 
-**Carried, not dated:** CRUISE collector fix (KNOWN-entity suppression kills cruise headlines; v1 withdrawn, record `proposals/2026-09-21_cruise-lane-encode-PROPOSAL.md`; CRUISE's 10-run clock NOT started) · WALTER's two packets in `PROME/inbox/` wait on that fix and on L409 · WQ-230 closes when FALCON confirms the new `war-risk-insurance` intake query delivers · WQ-238 closes at the next LAPTOP boot if `env_doctor` reads clean (desktop verified clean 9/22).
+**Carried, not dated:** CRUISE collector fix (KNOWN-entity suppression kills cruise headlines; v1 withdrawn, record `proposals/2026-09-21_cruise-lane-encode-PROPOSAL.md`; CRUISE's 10-run clock NOT started) · WALTER's two packets in `PROME/inbox/` wait on that fix and on L409 · WQ-230 closes when FALCON confirms the new `war-risk-insurance` intake query delivers · ✅ WQ-238 CLOSED 2026-09-22 20:3x ET by `prome-68` (laptop keys installed; `env_doctor` rc=0; FIRMS authenticated live; FFIEC present, not pulled live).
 
 **HEARTBEAT is the TWENTIETH base**, written 2026-09-22 pre-open, `dbaaa7230`. **32,315 → 21,882 B (99% → 67% of budget)**; the gate reports `rotation_due=0`, so the rotation is FINISHED, not merely triggered. Nineteenth base verbatim at `archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-09-22.md`. ⛔ Do not re-base again on cadence alone — chain is 0.
 
@@ -24,7 +24,7 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 
 **Resume sequence:** [HANDOFF](HANDOFF.md) for decisions and unresolved tails, then [STATUS](STATUS.md) for the selected queue. Do not reopen old "owed" narrative without checking its owner record.
 
-**Operator matters:** WQ-238 (three API keys, past needed-by, `env_doctor` UNAVAILABLE every boot) and WQ-246 (the 004 add-gate's undefined "sustained" qualifier, overdue, on a position with 7 sessions left) both still need Will and neither moved. WQ-265/L393 still defers publication on cost.
+**Operator matters:** ~~WQ-238~~ (CLOSED 9/22, above) and WQ-246 (the 004 add-gate's undefined "sustained" qualifier, overdue, on a position with 7 sessions left) both still need Will and neither moved. WQ-265/L393 still defers publication on cost.
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 - ⛔ **Token exhaustion is an UNPLANNED CLOSEOUT.** Every closeout protection assumes PROME picks the moment to stop. Running out of Anthropic usage hands off mid-task to CATO, which reads FILES, not the session. ⇒ **keep this ★NEXT survivable THROUGHOUT a session, not written at the end.**
