@@ -106,7 +106,7 @@ operator-bound fundamentals coverage that probe C showed actually works.
 
 ---
 
-## Encode plan v1 — the exact text (PROME `prome-a5`, 2026-09-22 18:0x ET; shape (a) adopted by PROME: lane is PROME-owned, no Will gate)
+## Encode plan v1 — the exact text (PROME `prome-a5`, 2026-09-22 ~17:10 ET [restamped; first written as 18:0x]; shape (a) adopted by PROME: lane is PROME-owned, no Will gate)
 
 **Row 1 — replaces the `cruise-operators` query body (label, agents, priority unchanged):**
 `"Carnival Corp" OR "Carnival Cruise Line" OR "Carnival Corporation" OR "Royal Caribbean" OR "Royal Caribbean Group" OR "Norwegian Cruise" OR NCLH OR "cruise bookings" OR "cruise demand" OR "cruise fares" OR "onboard spending" OR "cruise fuel surcharge" OR "cruise itinerary cancellation" OR "cruise itinerary change" OR "cruise capacity" OR "Carnival earnings" OR "Royal Caribbean earnings" OR "Norwegian Cruise earnings" OR "cruise line guidance"`
@@ -138,7 +138,7 @@ operator-bound fundamentals coverage that probe C showed actually works.
 
 ---
 
-## Plan read v1 — verdict NO (coldreader `cruiseplancold`, Opus, 2026-09-22 ~18:1x ET; ledger in the prome-a5 session scratchpad, findings summarised verbatim-in-substance here)
+## Plan read v1 — verdict NO (coldreader `cruiseplancold`, Opus, 2026-09-22 ~17:12 ET [restamped from the commit clock at closeout; first written as ~18:1x]; ledger in the prome-a5 session scratchpad, findings summarised verbatim-in-substance here)
 
 **3 ✅ · 5 ⚠️ · 4 ❌. NOT ENCODED. CRUISE's 10-run clock has NOT started.**
 

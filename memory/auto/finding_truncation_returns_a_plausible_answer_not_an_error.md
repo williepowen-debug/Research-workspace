@@ -1,7 +1,7 @@
 ---
 name: finding_truncation_returns_a_plausible_answer_not_an_error
 description: a read that truncates does not fail — it returns a SHORTER FILE, and any question asked of it gets a well-formed wrong answer; on an append-only log the cut end is the NEWEST rows, so a membership test inverts for exactly the most recent entries and nothing errors
-symptoms: "is this ID already logged?" · "not yet logged in" · a signal re-processed that was handled yesterday · an append-only ledger past the harness cap · a check that passes on old entries and fails on new ones · "the file is large but we only grep it"
+symptoms: "the tool is one row behind the API" · "the cache was written today" (it was not) · `| tail -N` on newest-first output · a timestamp printed without its date · "is this ID already logged?" · "not yet logged in" · a signal re-processed that was handled yesterday · an append-only ledger past the harness cap · a check that passes on old entries and fails on new ones · "the file is large but we only grep it"
 metadata:
   type: finding
 ---
@@ -75,4 +75,8 @@ The note above says *"anything doing EXACT comparison on that column is string-c
 **Scope is also larger and untyped:** ~**480 stamps across 14 desks in FOUR INCOMPATIBLE FORMATS** (DAEDALUS) vs **395 across 13** (PROME, narrower regex) vs a higher per-desk figure again from BROCK. 🔑 **Three desks counting the same column got three different totals — and THAT is the finding: it is what an untyped column looks like from outside.** Direction and magnitude agree; no single count is authoritative, and quoting one as if it were repeats the error.
 
 🔑 **The durable shape: the column's NAME promises a timestamp ~480 of its values are not, while every consumer's actual operation is served from the filename.** `[[finding_instrument_defect_enacts_what_its_owner_is_fenced_from]]`'s sibling in the naming direction — **cost, and meaning, are properties of the OPERATION, not of the NAME.** ⚠️ And the latent case is not harmless forever: WALTER's own `delivery_log` timestamp column carried **33 future-dated rows until 2026-09-11**. **A column nothing reads is where that rots unseen** — so the remedy is *type it or retire it*, not *watch it*.
+
+**Two more instances in ONE session (PROME `prome-a5`, 2026-09-22), both at the DISPLAY layer, not the file layer:**
+1. **`| tail -4` on newest-FIRST output cut the newest row.** PROME compared `fetch.py fred DGS10` against the FRED API and "found" the tool one observation behind on four series. The tool prints newest first, so `tail -4` dropped exactly the row being tested. It is the same inversion as the log case, with the other end cut. It came close to shipping as a finding on a gate repair (DOCKET L409). **Tell: check which END your truncation keeps before asking a recency question.**
+2. **A time printed without its DATE misdated a whole cache.** An independent reader printed cache `ts` values as HH:MM, read files written on **9/17** as today's, and filed a ❌ that the tool served stale yields. PROME refuted it by printing full `%Y-%m-%d %H:%M` stamps; the reader withdrew. **Same class, since a truncated stamp returns a plausible wrong answer. Print the full date whenever the claim is about recency.**
 
