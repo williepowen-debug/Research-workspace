@@ -23,6 +23,8 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 
 **004 / `GATE-TERRY-007` — settled as far as it can be, and no action is owed.** TERRY graded L267 (`488cf9e09`): executable **today only**, dead from the 9/23 close. 004 (TLT Sep-30 $77P ×20) will almost certainly expire worthless 9/30 and the gate resolves **MOOT ⇒ NO-VERDICT**. ⚠️ **Only the THESIS-SIDE exit moots** — the harvest gate (≥$0.3469, 10 contracts owed) and the 9/30 expiry both stand, and forward risk changes by **$0**. ⛔ **PROME's earlier framing "a position whose only registered exit machinery cannot fire" is DEAD — TERRY corrected it and the correction is the point.** 🔴 **The 77P has NO BID** (bid 0.00 / ask 0.01, `NOBID`, 1,185 OI, PROME pull 09:50 ET) — the residual is not merely small, there is nothing to sell into. Single vendor, not a broker quote.
 
+**CATO's prome-da closeout audit (C1–C3) corrected 9/23 evening:** Helm priorities/spawn queue + BRIEF QUESTION reconciled; helper closeout evidence recorded (retrospective, transcript-timed); the unread final delta read after the fact, intermediate dashboard state UNKNOWN. Record `reports/2026-09-23_prome-da-closeout-corrections-C1-C3.md`. Still not published.
+
 **Resume sequence:** [HANDOFF](HANDOFF.md) for decisions and unresolved tails, then [STATUS](STATUS.md) for the selected queue. Do not reopen old "owed" narrative without checking its owner record.
 
 **Operator matters:** WQ-246 (the 004 add-gate's undefined "sustained" qualifier; only bites if Will lifts NO-ADD; 004 expires 9/30) and WQ-274 (broker exports for the full reconcile) still need Will. Hosted Fleet-Ops dashboard and Helm are the 9/14 vintage; Will chose Deck-only publication on 9/23.

@@ -3,18 +3,26 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Your large task (next session):** at 13:41 you said you have a big task for the next session. PROME boots, reports the owed work in one screen, and takes your brief before any owed item that the boot gate does not block on.
-- **BRENT's class question (WQ-234, due 9/18):** does ship-tracking data belong on a capital gate when the vendors disagree by more than the threshold? Rule the class, not the resolver; nothing is unguarded meanwhile.
-- **Guard convergence (WQ-263, 9/19):** the commit guards had five independent reads today and a false positive in every one; rec: pipeline wrapper advisory, subject guard blocking only on a literal `-m`; both stay blocking until your word.
-- **Kill-rule ruling (WQ-157, 9/19):** unchanged — PARK, successor test chosen at the sitting.
-- **Hands:** the account and fill time for the VLO share (not in the receipt); two more shares staged for your day.
-- **Regime:** BOJ +25bp to 1.25%, 7–2 with dovish dissents; yen weaker after; first clean SOFR−IORB pair −5bp. The market memo was amended twice today; it is over its rotate line and re-bases at the next boot after the close's amendment.
+*(Reconciled 2026-09-23 18:2x ET against `WILL_QUEUE.md` and `DOCKET.tsv`; prior wording in `git log -p -- PROME/HANDBOOK.md`.)*
+- **Due Thu 9/24: DAEDALUS's three gate-basis rulings (WQ-256).** Rec: approve (b) and (d) as written; approve (a) in principle, because it amends canon and gets a drafted record and plan read before encoding.
+- **Needs your word before Fri 9/25 17:00 ET: BRENT's pipeline-restart test (WQ-264).** A free 30-day trial of satellite berth counts at Yanbu; the current shut-in test lapses on its letter. Rec: approve ① and ③.
+- **Due 9/23: VIOLET's two pages (WQ-259).** The queue row's rec was to hold for 9/23, which has now arrived. PROME's updated rec: refresh once VIOLET records the FOMC letter's last leg (L278) at the 9/24 boot, so one redeploy carries all three grades.
+- **Past their needed-by date (12 in all, listed in `WILL_QUEUE.md` OPEN; the generated *Waiting on you* section shows the RULE-class rows only). Selected:** OSPREY's refinery-channel upgrade (WQ-276; its trigger figure is an end-August estimate), the T-12 successor (WQ-261), ORACLE v4 succession (WQ-260), and the kill-rule park (WQ-157; rec PARK). Also later-dated: WQ-237 (9/26), WQ-235 and WQ-257 (9/30), and WQ-31 (11/1).
+- **Already ruled — implementation only, no word needed:**
+  - **WQ-234** (ruled C 9/22): BRENT must write it into its rules before the 9/25 grade. PROME checks at the 9/24 boot and raises it only if BRENT hasn't.
+  - **WQ-263** (ruled 9/22, encoded): one inherited false-block repair is PROME's, at the next hooks touch.
+- **At the 9/24 boot:** six desks are due against four spawns per boot, so two of the six come to you as a slate (spawn queue below). Three owners with due rows are active (TERRY 007, HAWK L432, CORAL MSI-01), so each gets a read at its own artifact first, not a spawn.
+- **Hands:** broker exports for the full reconcile (WQ-274), including the VLO share's account and fill time; two VLO shares were still staged as of 9/22.
+- **An older "big task" (said at 13:41 on 9/18)** has no recorded closure. PROME asks for the brief rather than guessing at it.
+- **Regime:** read the brief tab / `HEARTBEAT.md` (twentieth base, written 9/22 pre-open, corrected 9/23, levels not refreshed since). Not restated here.
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **HENRY** · next boot, no word needed (WQ-184 row L411) · the post-opex gamma board on the 9/18 close, read from history.
-- **VIOLET** · next boot, no word needed (L277) · the FOMC letter's leg-3 verdict on the 9/18 close; RED's pre-close half is already in its inbox.
-- **DAEDALUS** · on your word · L40 (amendment-12 watch grade) · L263 (WQ-171 commission) · L380 (read-cap defects) — not spawned today: 2 of the day's 4 spawn slots were used and the early closeout, not the cap, is the reason; your word, else the 9/19 sitting.
-- **OSPREY** · on your word · L397: its gate review, overdue since 9/16.
+- **LIQUID** · 9/24 boot, no word needed (L238) · final token on the decoupling test: VOID or INSTRUMENT-FAULT only.
+- **VIOLET** · 9/24 boot, no word needed (L278) · the FOMC letter's leg 2 on the 9/23 close.
+- **RED** · 9/24 boot, no word needed (L416) · its F1 recheck of the outcome-vector spec.
+- **BROCK** · 9/24 boot, no word needed (L420) · the CRMT bridge-expiry backstop.
+- **OSPREY** · 9/24 boot, no word needed (L447) · the channel-2 geography qualifier you ruled.
+- **DAEDALUS** · 9/24 boot, no word needed (L456) · the lagged-series gate rule. Its older L40 · L263 · L380 stay on your word.
 - **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask; no dated row names it.
 
 ## Runs itself — no window needed from you

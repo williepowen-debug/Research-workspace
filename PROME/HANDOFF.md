@@ -17,6 +17,7 @@
 - **L409:** RESOLVED and independently verified with residue. The reader's own counterexample (a sparse FRED series returning fewer rows with no warning) found a real defect; it was fixed and re-verified. `fred_fetch` is unchanged, and no gate's basis moved. D5 `scripts/market.py` is DAEDALUS's (DOCKET row, 9/30). Record: the L409 plan § BUILD RECORD.
 - **HEARTBEAT (Will's bounded correction on CATO H3/H8/H2):** L278 pointer fixed; four tiles dated again. The original census and reader ledgers were NOT found on this desktop; the laptop is unchecked. A RETROSPECTIVE census found one lost binding kill entry, now re-homed to cold §KOS.4. 🔑 **The first re-home carried the WRONG version**: the older §A21 text, which publishes fade figures the binding entry forbids. The independent reader caught it. **When re-homing a kill entry, copy the version that was BINDING, not the most detailed one.**
 - **Not published this session.** L444/L450 re-dated 9/28.
+- **CATO audited this closeout (C1–C3) and PROME corrected it the same evening** (record `reports/2026-09-23_prome-da-closeout-corrections-C1-C3.md`). 🔑 **Two misses to carry:** Helm sources were not reconciled before rendering, and a post-review regeneration was marked REVIEWED without a reader. **Generation happens BEFORE the freeze, and anything regenerated after a review goes back to a reader.**
 
 ## September 22 — HEARTBEAT twentieth re-base; TERRY L267 graded
 
