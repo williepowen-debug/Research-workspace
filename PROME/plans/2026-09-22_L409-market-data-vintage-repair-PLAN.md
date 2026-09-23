@@ -71,3 +71,61 @@ LIQUID (gate069 / sofr / t3 / hy_oas_watch) · TERRY (`GATE-TERRY-007` declares 
 - The L429 scope boundary needs one sentence.
 
 **Reader correction, 22:37Z:** the reader WITHDREW ❌1 after PROME's rebuttal. It had printed the cache times as hours and minutes with no date, so it read 9/17 files as today's. It downgraded ❌2 to ⚠️: A5's self-referential API comparison is a design point, with no observed lag behind it, and v2 should still cover the 20000-row pulls. **Revised score: 10 ✅ · 7 ⚠️ · 3 ❌ (❌3/4/5), verdict GO-WITH-FIXES.** v2 fixes ❌3–5 and declares the ⚠️ as residue per WQ-178.
+
+---
+
+## PLAN v2 — `prome-68`, written 2026-09-22 20:5x ET (laptop `WilliePOwen`). Fixes ❌3 · ❌4 · ❌5; the ⚠️ are either built or declared as residue below. No code edited. This v2 gets ONE blind plan read (WQ-178).
+
+### New evidence: live ALFRED probes, 2026-09-22 20:4x ET, direct API calls with the full JSON read whole
+
+| # | Request | Observed |
+|---|---|---|
+| P1 | DGS10 `output_type=4`, `observation_start=realtime_start=2026-09-01`, `realtime_end=9999-12-31` | 15 rows, each with its own `realtime_start` = its first-publication day (9/18 obs → `realtime_start` 9/21, which is the T+1 publication, now measured instead of assumed). |
+| P2 | PAYEMS, same shape, `observation_start=realtime_start=2026-05-01` | 4 of 4 rows are first-published: Jul **158,858** vs the latest-revised **158,913** (C), Jun 158,984 vs 158,892. **PAYEMS discriminates between the two bases, so it is the fixture.** |
+| P3 (= the reader's "1 of 3") | PAYEMS `observation_start=2026-05-01` but `realtime_start=2026-08-01` | **2 of 4 rows, with no error.** The rule: `output_type=4` returns only observations whose FIRST release falls inside the realtime window, and it silently drops earlier ones. That drop IS ❌4's mechanism. |
+| P4 | DGS10 `output_type=4` with no `observation_start`, `realtime_start=2026-09-01` | 16 rows, 8/31 onward. It does not error, and it does not return old observations at a 9/01 vintage either. It drops them. |
+| P5 | DGS10 window from 2015-01-01 | **HTTP 400: "2894 vintage dates … exceeds the maximum … (2000)"**. From 2022-01-01: 1,231 rows OK. From 2024-01-01: 711 OK. |
+| P6 | PAYEMS P2 shape plus `sort_order=desc&limit=2` | Works: the 2 newest first-published rows. |
+
+### Design (v2)
+
+**D1 — the basis lives BESIDE the rows; the return shape is unchanged (❌5).** `fred_fetch(series_id, limit=5)` stays byte-identical in signature, return value (`[{date, value}]`) and cache key `fred_{series}_{limit}`, so existing latest-revised cache files stay valid and nothing needs wiping while LIQUID's timer might be running. A **new** function `fred_fetch_vintage(series_id, limit, basis="first-published", observation_start=None)` returns `{"basis", "rows": [{date, value, first_published}], "request": {every param}, "short": bool, "missing": [dates], "error"?}`. Private names that `hy_oas_watch.py` imports (`_retry_request`, `FRED_BASE`, `FRED_API_KEY`) are **not renamed or re-signatured**. The CLI gets an opt-in `fetch.py fred <ID> --first-published`, and the default output does not change.
+
+**D2 — window rule (❌3).** `realtime_start := observation_start` (a publication never precedes its observation date, so no first release can fall before the window: P3 and P4 are what happens otherwise). `observation_start` is the caller's, or else derived as `today − ceil(limit × period_days × 2) − 10d` from the series' FRED `frequency_short` (D=1.4 calendar days/obs, W=7, M=31, Q=92), and rows are trimmed to `limit` after a desc sort. **Cap:** if FRED returns the 2000-vintage 400 (P5), return an explicit `error` that names the cap and the window. The function never chunks or retries with a narrower window, because that would be a silent drop. Every **declared gate series** (below) gets a live test that the default window pulls successfully.
+
+**D3 — row-count check (❌4).** In the same call, pull the latest-revised observation dates over the same `observation_start` (one cheap request, `limit` large enough for the window). Any date present latest-revised but absent first-published goes into `missing` and sets `short: true`. The result is still returned, never silently completed. Zero rows is an `error`. This check does the work; the P3 window rule only prevents the known cause.
+
+**D4 — cache (A3 plus ❌4).** The vintage key covers EVERY request param: `fredv_{series}_{basis}_{observation_start}_{realtime_start}_{realtime_end}_{limit}`. The cached value carries `basis` and `request`, so a hit is self-describing. No latest-revised hit can be served to a vintage call or the reverse, because the prefixes differ (`fred_` vs `fredv_`). TTL is the existing ECON class.
+
+**D5 — A4 fallback (`scripts/market.py`), including ⚠️ "green +0.00%".** When `regularMarketPrice` is absent and `previousClose` is used, the row prints `⚪ TICKER $x ⚠prev-close` with **no change % and no colour arrow**. Where yfinance supplies `regularMarketTime` and its date is not today (ET), the row gets `⚠stale <date>`.
+
+**D6 — A6 dashboard stale marks.** yfinance entries whose `asof` ≠ today (ET) render `⚠stale <date>`, matching `fetch.py price` (:1257/:1376, re-read at edit time). Vol marks (^VIX ^VVIX ^MOVE ^SKEW ^OVX) with |Δ| < 0.005 get `⚠Δ≈0 possible fill-forward`, and WALTER's limit goes in the code comment: *a zero change is a tell; a non-zero change is not an all-clear.*
+
+**D7 — A7 spreads, including ⚠️ SOFR-IORB.** `fred_spread` pulls `limit=10` per leg and aligns on the **latest common date**. `entry.date` = that date, and `entry.prev` = the previous common date. With no common date in 10 rows, the entry shows both legs' dates (`a <date> / b <date>`) and **no value**, never leg A's date alone. For IORB (an administered rate stamped on its effective date, and 9/23 is already in the series), the common-date rule automatically pairs SOFR with the IORB in effect on SOFR's date. That is HEARTBEAT's convention, now enforced in code.
+
+**D8 — A5 freshness, re-stated (the ⚠️ downgraded ❌2).** A TEST-time check, not a runtime probe. In one run it compares the newest date from `fred_fetch(s, 2)` and `fred_fetch(s, 20000)` with an uncached `limit=1` request (`sort_order=desc`) built independently in the test, for DGS10 and BAMLH0A0HYM2. It asserts equality, reads the output whole, and never uses `tail`. This covers BOND's `limit=20000` path (`boot_recompute.py:320`, `closeout_check.py:99`).
+
+### Declared gate series (the D2 live-pull test list)
+
+`BAMLH0A0HYM2` (`GATE-HY-REKILL`: its row is the **only** one that declares "as first published"; LIQUID's `hy_oas_watch.py` builds that path itself and is **not** migrated by this repair) · `DGS10` (`GATE-TERRY-007`: ⛔ it does **not** declare first-published, so v1's consumer claim is corrected; it stays latest-revised) · `DFII10` (004 add line) · `PAYEMS` (the discriminating fixture). This PLAN changes no gate's basis. A gate adopting first-published is its OWNER's edit, made after this lands.
+
+### Caller census (❌5), measured 2026-09-22 20:5x ET by `grep -rln` over `*.py`, excluding `.venv` and `archive`
+
+38 files touch the name or its internals. **6 define their OWN `fred_fetch` and are out of scope** (CARL `gas_tracker`/`consumer_pulse`/`thresholds`/`housing_pulse` · BRENT `thresholds` · VIOLET `fred_fetch.py`, a same-name module). **The FORGE importers are the regression surface:** dashboard · LIQUID ×5 (`boot`, `gate069_legs`, `t3_decoupling`, `sofr_dispersion` at limit 5000, `hy_oas_watch`, which also takes the private names) · TERRY `snapshot` · BOND ×4 (`boot_recompute` / `closeout_check` at 20000, `assertion_check` / `dm_cross_section` at 400) · RED ×2 · MIDAS · LABOR · WALTER ×2 research + `test_boot_repairs` (mocks `dashboard.fred_fetch`) · CARL research ×2 · PROME `test_contract_probe_acceptance` · BOND `cdx_proxy` (CLI text). ⚠️ This census is a grep over import and name forms, so an importer using another spelling (`importlib`, `import fetch as F`) could be missing. It is **SEARCH-NOT-FOUND for others, not VERIFIED complete**. D1 makes that acceptable: nothing a caller already receives changes.
+
+**A2 regression test:** before the edit, capture `fred_fetch` output for DGS10 at limits 2 · 400 · 5000 · 20000 plus IORB 5000, cache-bypassed. After the edit, repeat and assert byte-equality. Run `hy_oas_watch.py` once and grep its output for the ABSENCE of `VINTAGE-FETCH-FAIL`, because that script swallows errors to rc 0. Run WALTER's `test_boot_repairs.py` and PROME's tests.
+
+### Scope boundary (the ⚠️ asked for one sentence)
+
+**L429** (a continuation ticker such as `CL=F` naming no contract month) is a yfinance *identity* defect. L409 is a FRED/yfinance *vintage and fallback* defect. D6's stale mark can fire on a rolled continuation ticker without diagnosing the roll, so a clean D6 says nothing about L429.
+
+### Residue declared (WQ-178), not built in this repair
+
+- ⚠️ A6 cannot see a fill-forward where price and date come from **different** sources (a fresh date stamped over a stale price). D6 detects same-source staleness only.
+- ⚠️ The third basis, **as-known-on-a-past-date** (`realtime_start=realtime_end=D`), is not built. `fred_fetch_vintage`'s `basis` parameter is the extension point. No gate needs it today.
+- ⚠️ The 9/17 observed lag stays **UNEXPLAINED** (v1 row 1). D8 guards against a recurrence; it does not explain the past instance.
+- ⚠️ The intake lane's `~/Research-Intake/scripts/fetch_fred.py` and VIOLET's module are not touched. Their basis gets stated to consumers in the A2 notice.
+
+### Sequence from here
+
+Blind plan read of THIS v2 section (coldreader, Opus) → fix ❌ only, declare ⚠️ → capture the A2 baseline → edit `fetch.py` / `dashboard.py` / `scripts/market.py` → fixtures A1–A7 plus the live-pull list → independent RESULT reader bringing its own counterexample (WQ-229 consequential) → then, and only then, "fixed" → consumer notice (LIQUID · TERRY · BOND · LABOR · WALTER · intake-lane note). ⚠️ `scripts/market.py` is root `scripts/`. Before editing it, check its owner (DAEDALUS holds the `scripts/` grant per ACTIVE_DECISIONS) — **if it is not PROME's, D5 becomes a packet, not an edit.**
