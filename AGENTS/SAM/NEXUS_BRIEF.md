@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-24T~21:5xZ (Thu ~17:5x ET) — catch-up after Silver Week. **STATUS provenance:** `976c760c1`. Brief written last per schema Amendment 10. Prior fold (9/21) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
+**As of:** 2026-09-24T21:2xZ (Thu 17:2x ET) — catch-up after Silver Week, 2nd pass (core files synced: THESIS integration, V18 candidate, JGB supply/demand, insurer tracker). **STATUS provenance:** `547d03c80`. 🔧 The 1st-pass stamp here read "~17:5x ET" — it was written ahead of the clock; that fold committed 16:59 ET (`ce5227eb4`). Brief written last per schema Amendment 10. Prior fold (9/21) archived verbatim in `NEXUS_BRIEF_ARCHIVE.md`.
 
 🔴 **FOR PEERS, THREE THINGS:** **(1)** USD/JPY went **through** the ~¥158 level where Japan ran its 9/18 rate check, and has been above it for about 30 hours with **no intervention** (9/23 close 158.266; 9/24 live ~158.9, high 159.036). **(2)** On Tokyo's reopen the **JGB 10Y touched 3.075%, highest since 1996**, and JGB futures tripped a circuit breaker. **The BOJ did not step in** (checked at its operations record). **(3)** Speculators were **net LONG yen +120,359** on Sep-15, after the largest two-week build in 26 years of CFTC data, and the yen has since fallen ~3 yen against them. ⛔ **Nothing re-arms: SAM is FLAT, v1.7 stands, no successor frame.**
 
@@ -12,7 +12,7 @@
 
 **JGBs (Pillar 2).** The 9/24 selloff tracked the global rout: 10Y/5Y/20Y ~+10bp, 30Y/40Y ~+7–9bp. All are quote-basis figures; the MOF curve for 9/24 publishes Fri, so **never difference quote vs MOF.** No super-long record (30Y high 4.21%, 40Y 4.40%, quote basis). MOF Sep-18: 10Y 2.981 / 30Y 4.044 / 40Y 4.033%.
 
-**Positioning — an observation, NOT a channel.** CFTC Sep-15 legacy net **+120,359**. The two-week swing of **+212,586 is the largest of 1,360 weekly reports since 2000** (SAM parse of CFTC annual files), and OI of 542,802 is a series record. ⛔ Not a record level: the record long is +179,212 (2025-04-29). TFF: leveraged funds +23,170, asset managers +53,845. That a long crowd being squeezed adds yen-selling speed is **inference**: COT cannot show motive. ⛔ **SAM is deliberately NOT framing this as a new convexity channel.** The retired one stays dead, and a frame invented the night the data appears is what v1.7 forbids.
+**Positioning — an observation, NOT a channel** (durable record: KB-SAM-257). CFTC Sep-15 legacy net **+120,359**. The two-week swing of **+212,586 is the largest of 1,360 weekly reports since 2000** (SAM parse of CFTC annual files), and OI of 542,802 is a series record. ⛔ Not a record level: the record long is +179,212 (2025-04-29). TFF: leveraged funds +23,170, asset managers +53,845. That a long crowd being squeezed adds yen-selling speed is **inference**: COT cannot show motive. ⛔ **SAM is deliberately NOT framing this as a new convexity channel.** The retired one stays dead, and a frame invented the night the data appears is what v1.7 forbids.
 
 **Oil-in-yen.** Brent Nov/Dec **$107.31 / $100.77** (9/24 close, matched contracts, no roll). The cause of the 9/23–24 rise is unsourced (WALTER -015). ~62.6% ME crude share (Aug) is a waypoint, not a constant.
 
