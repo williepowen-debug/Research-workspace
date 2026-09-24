@@ -1,0 +1,3 @@
+# LEDGER_GLOB — ledger locations for scripts/ledger_staleness.py (declared at wiring 2026-09-24 by DAEDALUS).
+# INTENT_LEDGER.tsv is BOTH the desk's falsification surface and its prediction ledger (registered in AGENTS/DAEDALUS/scorecards/LEDGERS.tsv). It is EVENT-DRIVEN (moves on registration/resolution), so read its staleness against the row resolve_by dates in its header, not against STATUS writes.
+workbook/*.tsv

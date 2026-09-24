@@ -31,3 +31,4 @@ AGENTS/VULCAN/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	L
 AGENTS/WAL/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/WATT/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE
 AGENTS/ZHAO/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/YURI/workbook/INTENT_LEDGER.tsv	status	resolved	COLUMN	outcome	LIVE
