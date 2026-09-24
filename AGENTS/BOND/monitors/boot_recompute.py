@@ -155,12 +155,22 @@ def check_fr2004() -> int:
                                     "SCRATCH.md", "docket/CATALYSTS.tsv",
                                     "thesis/THESIS.md", "PROTOCOL.md", "CLAUDE.md")]
                 + sorted((here / "monitors").glob("*.md")))
+    # Block guard shared with watchers (added 2026-09-24): a line under a
+    # SUPERSEDED heading -- including its numbered sub-sections -- is a dated
+    # record, not a vintage claim. Without it NEXUS_BRIEF's dead re-pins
+    # returned 7 drift findings on one boot, all on records marked
+    # "DO NOT CITE ANY FIGURE BELOW THIS LINE AS CURRENT".
+    import watchers as _w
     for f in surfaces:
         if not f.exists():
             continue
-        for i, l in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+        text = f.read_text(encoding="utf-8")
+        dead = _w._guarded_block_lines(text)
+        for i, l in enumerate(text.splitlines(), 1):
             if "ASSERTION_CHECK: LIVE-REGION-ENDS" in l:
                 break          # explicitly superseded region -- same sentinel
+            if i in dead:
+                continue
             if "fr2004" not in l.lower() and "dealer" not in l.lower() and "as-of" not in l.lower():
                 continue
             low = l.lower()

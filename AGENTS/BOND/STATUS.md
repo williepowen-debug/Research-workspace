@@ -33,13 +33,13 @@
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
 | 30Y (DGS30) | **5.40%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/23** = the H.15 source, 182/182 identity; FRED 5.29 [9/22]] — **FRESH 2026 HIGH (prior 5.37 [9/10]); highest since 2004-07-28**; run ≥5.00 = 56. Vendor `^TYX` 5.434 [9/24 intraday] |
-| 10Y (DGS10) | **5.11%** | 🔴 | [CONF Treasury par curve **9/23**] — highest since 2007-07-13; `GATE-TERRY-007` **61bp** from 4.50. Vendor `^TNX` 5.137 [9/24 intraday] |
+| 10Y (DGS10) | **5.11%** | 🔴 | [CONF Treasury par curve **9/23**] — highest since 2007-07-13 (FRED frontier still 4.96 [9/22]). Vendor `^TNX` 5.137 [9/24 intraday] |
 | 5Y (DGS5) | **4.99%** | 🔴 ↑ | [CONF Treasury par curve **9/23**] — +16bp d/d (4.83 [9/22]); vendor `^FVX` 5.011 [9/24] |
 | 2Y · 1Y | **4.85% · 4.49%** | 🔴 ↑ | [CONF Treasury par curve **9/23**] — 2Y highest since 2024-06-10; **1y1y 5.21 = new 2023-forward sample high** (prior 5.08 [9/18]; `BND-26` FALSE) |
-| **10Y real (DFII10)** | **2.76%** | 🔴🔴 **GATE THROUGH** | [CONF **Treasury real curve 9/23**] — **+26bp above 2.50; +13bp d/d; highest since 2008-11-25 (33 of 5,935 obs ever ≥2.76)**; every published session ≥2.50 since 9/10. "Sustained" count = WQ-246 (Will) |
+| **10Y real (DFII10)** | **2.76%** | 🔴🔴 **GATE THROUGH** | [CONF **Treasury real curve 9/23**; FRED frontier 2.63 [9/22] = 13bp — **name the basis: two dates, both correct**] — **+26bp above 2.50 on the 9/23 Treasury cell; +13bp d/d; highest since 2008-11-25 (33 of 5,935 obs ever ≥2.76)**; every published session ≥2.50 since 9/10. "Sustained" count = WQ-246 (Will) |
 | 5Y5Y fwd (T5YIFR) | **2.36%** | 🟡 | [CONF FRED **9/23**, computed from Treasury curves] — **14bp from 2.50.** ⚠️ *Corrected 9/24 ~13:2x: an hour earlier this row called the 9/23 cell "provisional" on WALTER −011's mechanism, which was already retracted (LIQUID 9/22, WALTER −004 9/24); FRED builds it from Treasury BC_/TC_ data — a real value on Treasury's schedule (`KB-BND-320` CORRECTED)* |
 | 10Y BE (T10YIE) | **2.35%** | 🟡 | [CONF FRED **9/23**] = 5.11 − 2.76 exactly — **the 9/23 move was REAL-led (+13bp real vs +2bp breakeven)** |
-| ACM 10Y TP · KW TP | 0.7090 [9/15] · 0.9610 [9/11] | 🔴 `[STALE 9/24]` | Not re-pulled this session (re-pull at next full boot). KW 0.9610 = highest since 2011-02-11 at the time. **Name the model in any TP claim** (5.1bp model gap, `KB-BND-298/299`) |
+| ACM 10Y TP · KW TP | **0.6454** [9/23] · **0.9595** [9/18] | 🟠 | [NY Fed ACM Daily · FRED `THREEFYTP10`, pulled 9/24 ~15:2x ET] — **ACM FELL 6.4bp 9/15→9/23 while the 10Y rose 11bp ⇒ under ACM the post-FOMC rise is expected PATH (~+17bp residual), not term premium** (`KB-BND-325`). KW 2026 high 0.9719 [9/16] = highest since 2011-02-10; KW frontier 9/18 cannot see the 9/23 surge. **Name the model in any TP claim** (model gap 6.8bp on 9/15→9/18, `KB-BND-299/325`) |
 | **HY OAS** | **273bps** | 🟢 | [CONF FRED **9/23**] — 27bp from the 300 reopen line; 2026 max 346 |
 | **CCC OAS** | **1093bps** | 🟠 ↑ | [CONF FRED **9/23**] — **fresh 2026 high** (+18bp d/d; prior max 1085 [9/15]); **7bp from 1100** (`BND-27`) |
 | IG OAS | **77bps** | 🟢 | [CONF FRED **9/23**] |
@@ -54,11 +54,11 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 26bp** [2.76, 9/23 Treasury] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
+| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 26bp** [2.76, 9/23 Treasury] · 13bp [2.63, FRED frontier 9/22] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
 | **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ✅ **ADD DECLINED — WQ-280 RULED 9/24 13:17 ET** (four §B.1 grounds, `TRADE.md` Reactivation Matrix). Spent on 004 |
 | T5YIFR >2.50 | 14bp [9/23] | 🟡 |
 | DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 56) · 🔴 BREACHED |
-| `GATE-TERRY-007` (DGS10 <4.50 ×5) | 61bp [9/23] | TERRY's rail; counter 0 |
+| ~~`GATE-TERRY-007` (DGS10 <4.50 ×5)~~ | — | ⛔ **CLOSED `MOOT ⇒ NO-VERDICT` by TERRY 9/24 13:5x ET** (final counter 0 of 5; no 5-close streak can complete before the 9/30 expiry — `TERRY/setups/FLOW-TRIGGER_duration-TLT-put.md`, `04c5c7aad`). No longer carried here |
 | HY OAS >300 (reopen HYG) | 27bp [9/23] | 🟢 |
 | CCC >1100 escalation | **7bp** [9/23] | 🟠 closing |
 | Credit-equity lead (HY +75–100 from the 263 trough) | 65–90bp | 🟢 inactive |
@@ -98,7 +98,7 @@
 ## Exit / Falsification *(full set → `thesis/THESIS.md`)*
 
 **1 · THESIS KILL (exit all duration shorts).** WQ-157 leg ① (Will 9/4): **`I'` + a NON-AUCTION mechanism confirmation (FR2004 dealer stock and/or SOFR−IORB)** since 9/11. **9/23 5Y: `I'` fired; SOFR−IORB −3bp ⇒ funding leg UNMET; FR2004 leg needs the as-of straddling 9/23 (~mid-October) ⇒ KILL NOT FIRED, partly UNEVALUABLE.** Unpaired `I'` fires: 9/15 20Y-R · 9/23 5Y · 9/24 7Y. **WQ-157 leg ② still with Will** (the join found the pairing INVERTS, p=0.009; funding leg p=0.523; MDE ≈16bp; BOND recommends nothing). Also: 10Y back below 4.15 ×3 with clean auctions ⇒ spent.
-- ⚠️ `I'` bars: `monitors/AUCTION_HEALTH.md` §GRADING BASIS. **Grader defect `KB-BND-314`: reopenings of older longer issues are pooled by ORIGINAL term (the Jan-2026 2Y sits in the 5Y pool) — verdict-neutral so far; fix before the 10/6 3Y.**
+- ⚠️ `I'` bars: `monitors/AUCTION_HEALTH.md` §GRADING BASIS. **Grader defect `KB-BND-314` FIXED 9/24 (`71963a7b7`, `grade_auction.cycle_term()`): cross-cycle reopenings now keyed to their cycle; blast radius exactly 2 rows (Jan-26 `91282CGH8`, Feb-25 `91282CGQ8`); no verdict changed.** ⚠️ The 9/2 per-tenor base-rating and the WQ-157 join used the pre-fix pools — not re-run; disclose if re-cited.
 - 🔴 Direction disclosed: `I'` is the easier test and its firing confirms this desk's own bear thesis.
 
 **2 · POSITION-SPECIFIC.** TLT puts: kill on 10Y <4.15 AND 30Y <5.0 ×3 sessions AND a clean refunding (THESIS §2). Expiry 9/30 is TERRY's rail.
@@ -120,7 +120,7 @@
 | ✅ 9/18 (carried) | `BND-25` TRUE · `BND-26` FALSE | `KB-BND-315` |
 | ✅ **9/23 official curve (Treasury) — DGS30 5.40 > 5.37** | Row 1 letter FIRED ⇒ 4 | **Fri 9/25:** confirm FRED republishes 5.40 (identity check, not a new grade) |
 | **Wed 9/30** | 🔴 **Quarter-end · Aug PCE + Q2 GDP 3rd (8:30) · `BND-27` window closes · TLT 77P expiry** | PCE vs the PMI input-price shock; SOFR−IORB across quarter-end; CCC vs 1100 |
-| **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2 — vintage fix first)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; `KB-BND-314` fix |
+| **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2 — vintage fix first)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; TIPS-`I'` question + degenerate-row guard (PROME DOCKET L410) |
 | **Fri 10/2** | Sept Employment Situation (8:30) | 2Y / 1y1y reaction |
 | **10/6 · 10/7 · 10/8** | 3Y · 10Y-R · 30Y-R + 20–30Y op (F2) · `VX-20` review | bars frozen at the 10/1 announcement |
 | **Wed 10/14 · 10/15** | Sept CPI (8:30) · 10–20Y op (F2) | breakevens on input-supported cells only |

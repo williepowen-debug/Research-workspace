@@ -70,13 +70,25 @@ BLOCK_GUARD = ("superseded", "retained verbatim", "retained]", "historical",
 
 
 def _guarded_block_lines(text):
-    """Line numbers (1-based) sitting under a heading that marks the block dead."""
-    out, dead = set(), False
+    """Line numbers (1-based) sitting under a heading that marks the block dead.
+
+    Deadness is inherited by DEEPER sub-headings: a `### 4.` inside a
+    `## ... SUPERSEDED` re-pin is still superseded. Until 2026-09-24 any
+    heading reset the state, so every sub-section of NEXUS_BRIEF's dead re-pins
+    read as live and boot returned 8 false findings on dated records.
+    """
+    out, dead_level = set(), None
     for i, line in enumerate(text.splitlines(), 1):
         stripped = line.lstrip("> ").rstrip()
         if stripped.startswith("#"):
-            dead = any(g in stripped.lower() for g in BLOCK_GUARD)
-        elif dead:
+            level = len(stripped) - len(stripped.lstrip("#"))
+            if dead_level is not None and level > dead_level:
+                out.add(i)
+                continue
+            dead_level = level if any(g in stripped.lower() for g in BLOCK_GUARD) else None
+            if dead_level is not None:
+                out.add(i)        # the banner that declares the block dead is a record too
+        elif dead_level is not None:
             out.add(i)
     return out
 
@@ -167,14 +179,24 @@ def check_distances(gates, files=None, tol=0.6):
                 if CMP.search(pre):
                     continue
                 stated = float(m.group(1))
-                for lab, true in gates.items():
-                    if lab.lower() not in low:
+                # Attribute the distance to the NEAREST PRECEDING gate label,
+                # not the first one named anywhere on the line. Until 2026-09-24
+                # "`DFII10` 2.63 ... T5YIFR 2.36 (14bp from 2.50)" was graded as
+                # a DFII10 distance and flagged every boot. Fallback (no label
+                # before the match) keeps the original any-label behaviour.
+                pl = pre.lower()
+                near = [(pl.rfind(lab.lower()), lab) for lab in gates if lab.lower() in pl]
+                if near:
+                    lab = max(near)[1]
+                else:
+                    lab = next((lb for lb in gates if lb.lower() in low), None)
+                    if lab is None:
                         continue
-                    if abs(stated - true) > tol:
-                        out.append(("DERIVED-DISTANCE-STALE", f"{rel}:{i}",
-                                    f'says "{m.group(0).strip()}" for {lab}; '
-                                    f"recomputed = {true:.0f}bp"))
-                    break
+                true = gates[lab]
+                if abs(stated - true) > tol:
+                    out.append(("DERIVED-DISTANCE-STALE", f"{rel}:{i}",
+                                f'says "{m.group(0).strip()}" for {lab}; '
+                                f"recomputed = {true:.0f}bp"))
     return out
 
 
@@ -255,6 +277,22 @@ def selftest():
             "| DFII10 | 2.43 SERIES HIGH | 7bp from the 2.5 re-arm gate |\n")
     chk("BLOCK the SAME row under a LIVE heading still fires",
         len(check_distances({"DFII10": 9.0}, [("NEXUS_BRIEF.md", live)])), 1)
+    # 2026-09-24 -- NEXUS_BRIEF's dead re-pins have numbered sub-sections.
+    nested = ("> ## RE-PIN 9/17 - SUPERSEDED IN FULL\n"
+              "> ### 4. AUCTIONS / DEALER\n"
+              "> | DFII10 | 2.43 series high | 7bp from the 2.5 gate |\n"
+              "## Live section\n"
+              "| DFII10 | 7bp from the 2.5 gate |\n")
+    chk("BLOCK a SUB-heading inside a superseded block inherits deadness",
+        len(check_retired([("NEXUS_BRIEF.md", nested)], tr2)), 0)
+    chk("BLOCK a same-or-higher-level heading ends the dead block",
+        len(check_distances({"DFII10": 9.0}, [("NEXUS_BRIEF.md", nested)])), 1)
+    # 2026-09-24 -- a T5YIFR distance on a line that names DFII10 first.
+    two = "`DFII10` 2.63 (through the gate) · T5YIFR 2.34 → 2.36 (14bp from 2.50)"
+    chk("C distance attributed to the NEAREST preceding gate (T5YIFR, correct)",
+        len(check_distances({"DFII10": 13.0, "T5YIFR": 14.0}, [("NEXUS_BRIEF.md", two)])), 0)
+    chk("C nearest-gate attribution still fires on a WRONG T5YIFR distance",
+        len(check_distances({"DFII10": 13.0, "T5YIFR": 20.0}, [("NEXUS_BRIEF.md", two)])), 1)
 
     print("\n   selftest:", "PASS" if ok else "FAIL")
     return 0 if ok else 1
