@@ -51,3 +51,5 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 
 ## Continuity and undated work
 - **Portfolio work (FFB-RESEARCH companion):** undated → [FFB portfolio plan](plans/2026-09-09_ffb-portfolio.md).
+
+**Bounce addendum 16:2x ET (after the prome-3f closeout push c48b5e8d3):** BOND packet 2daf0d83e consumed — FR2004 as-of 9/16 gives the 9/15 20Y-R fire its first pairing grade (dealer-stock half NOT met on any significant leg) and raises KB-BND-327, an unverified settlement-basis question that sits under the WQ-157 leg ② evidence (bias direction unknown; re-test 10/1). Recorded on the WQ-157 row; shown to Will. The 10/1 print (as-of 9/23) is the settlement-aligned POST — BOND's read, PROME consumer note at that boot.
