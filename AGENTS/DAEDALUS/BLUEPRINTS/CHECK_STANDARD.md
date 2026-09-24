@@ -104,6 +104,7 @@ Scope note: §7's retry rule handles the *transient* half; this section handles 
 
 - **Measured origin (WAL `derived_drift_check`, 2026-08-20):** unscoped it returned 54 hits, nearly all legitimate history; scoped, its first run beat the human sweep that had just finished on the same tree (3 dead claims in NEXUS_BRIEF + a two-versions-stale footer). Baseline 10/23 recorded in the docstring; quiet mode reports above/below it. **A desk copying the check's shape without its baseline degrades it to noise within a week.**
 - Kin: `finding_base_rate_the_threshold_before_building_it` (this is its check-side twin) · §1's alert-fatigue rationale · PAT-116 (output shape is contract).
+- **C5 — SPECIFIED-BUT-NONEXISTENT is the ZEROTH instrument state** *(WQ-254 D1, Will 2026-09-24)*: a method doc written in the imperative is a CAPABILITY CLAIM, so at closeout any doc naming a derived score/metric answers **"does the code exist?"** SPECIFIED-BUT-NONEXISTENT sits UPSTREAM of UNINSTRUMENTED because it *reports* as instrumented. Register = the ⑰ instrument-state taxonomy (`design/2026-08-28_INSTRUMENT_STATE_TAXONOMY.md`). *Instance: ORACLE KB-ORC-074 — a 272-line metrics spec with no code for 67 days; 3 of 5 published sigmas unreachable.*
 
 ## 13. The PRIOR-ART LINE — mandatory on new mechanism specs — RULED Batch B (Will, 2026-08-21, record `0416eaa40`; memory-retrieval disposition ①) — PROVISIONAL, ratify-after-first-live-use per the §8 flow (first live use = the next mechanism spec any desk writes)
 
