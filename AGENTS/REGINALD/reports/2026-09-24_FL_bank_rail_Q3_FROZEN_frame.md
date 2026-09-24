@@ -1,0 +1,71 @@
+# FL Bank-Rail Q3-2026 — Pre-Registered FROZEN Frame (BKU / SSB / AMTB / SBCF)
+
+**FROZEN:** 2026-09-24 (Thu ~01:1x ET), **before any Q3 print.** Nothing below may be edited after the first of the four prints. A defect found later gets DISCLOSED and scored on the card's evident intent, as the 8/10 SSB bar defect was, never silently re-tuned.
+**Owner:** REGINALD (bank-rail leg). **Convergence partner:** CORAL owns the GSE-financing leg and the combined FL verdict (`PROME/DOCKET.tsv` L227, window 2026-10-01..11-30). ⛔ **I set no CORAL threshold and grade no GSE instrument.**
+**Question this leg answers:** *do FL bank books show CREDIT TRANSMISSION in Q3 that they did not show in Q2?* Q2 answer: **4-of-4 REVERT, LUMPINESS CONFIRMED** (`reports/2026-08-10_SBCF_Q2_grade_watchcard_completion.md`).
+**Why the same four names:** continuity. A new cohort would make Q3 unreadable against Q2. All four are FL-HQ'd or FL-heavy: BKU (Miami Lakes), SSB (Winter Haven), AMTB (Miami), SBCF (Stuart).
+
+## 0. Three rules carried from the Q2 card's own failures
+1. **Every metric names the filing that carries it.** 8-K legs grade at the print; 10-Q legs grade when the 10-Q lands (~2 weeks later). A leg is never scored "PENDING" as if it were an outcome. *(7/25: I pre-registered 10-Q metrics against 8-K dates.)*
+2. **Bars are RELATIVE to each name's own Q2 baseline.** *(8/10: SSB's absolute "<95% accrual" bar sat below its own 87.3% baseline.)*
+3. **Dates:** every print date below is an ESTIMATE from the Q2 cadence. **Verify each against company IR by Fri 2026-10-09 and write the verified date + weekday into `CALENDAR.md`.** Roll the WEEKDAY, never the date number.
+
+## 1. Print calendar (ESTIMATES — verify by 10/9)
+| Name | Q2 actual | Q3 estimate | 10-Q (10-Q legs grade here) |
+|---|---|---|---|
+| BKU | Wed 7/22 BMO | ~Wed 10/21 BMO | ~early Nov (Q2: 8/6) |
+| SSB | Thu 7/23 AMC | ~Thu 10/22 AMC | ~late Oct/early Nov (Q2: 7/31) |
+| AMTB | Thu 7/23 AMC | ~Thu 10/22 AMC | ~early Nov |
+| SBCF | Tue 7/28 AMC | ~Tue 10/27 AMC | ~early Nov (Q2: 8/4) |
+
+## 2. Per-name cells, Q2 baselines, and classes
+
+**Classes:** **TRANSMITS** (the credit leg moves the wrong way on the name's own baseline, seasoned rather than timing) · **HOLDS** (Q2's revert persists) · **MIXED**.
+
+### BKU — baseline 6/30/26 (Q2 10-Q acc 0001504008-26-000079)
+| Cell | Filing | Q2 baseline | TRANSMITS if | HOLDS if |
+|---|---|---|---|---|
+| CRE 30-89 accruing (primary) | 10-Q | **$0** (30-59 $0 / 60-89 $0) | ≥ $15.6M (back to the Q4-25 level) **AND** 60-89 > $0 | < $15.6M, or 30-59 only |
+| CRE 90+ | 10-Q | $6.1M | ≥ 2× baseline (≥ $12.2M) | below that |
+| CRE criticized, QoQ | 8-K | fell $79.6M in Q2 | rises QoQ (CRE-specific; C&I rises do NOT count, per the 7/25 composition catch) | flat or falling |
+⚠️ Gov-insured 90+ residential is EXCLUDED from BKU's NPL by its own definition. Read it separately, and never count it as credit transmission.
+
+### SBCF — baseline 6/30/26 (Q2 10-Q acc 0001628280-26-052723)
+| Cell | Filing | Q2 baseline | TRANSMITS if | HOLDS if |
+|---|---|---|---|---|
+| CRE+constr 30-89 accruing (primary) | 10-Q | **$7.09M** (60-89 $1.02M) | ≥ $12.48M (back to the Q1 spike) **AND** 60-89 ≥ $3M | < $12.48M |
+| CRE+constr nonaccrual | 10-Q | **$43.42M** | > $55.8M (above the Q1 high) | ≤ $55.8M |
+| ★ **Residential nonaccrual (FL-resi leg)** | 10-Q | **$28.6M** (was $12.1M two quarters earlier, +136%) | **> $36M (+25% QoQ, continuing the build)** | ≤ $28.6M (build stopped) |
+| Criticized+classified % | 8-K | 2.88% | ≥ 3.20% (+32bp) | < 3.20% |
+
+### AMTB — baseline 6/30/26 (Q2 8-K acc 0001734342-26-000071; AMTB's 8-K carries the by-class table)
+| Cell | Filing | Q2 baseline | TRANSMITS if | HOLDS if |
+|---|---|---|---|---|
+| CRE-NOO nonaccrual (primary) | 8-K | **~$9.4M** — ⚠️ DERIVED (−16.0% from the Q1 $11.2M), **re-read at the Q2 8-K before grading** | > $11.2M (above the Q1 high) | ≤ $11.2M |
+| Classified $ | 8-K | ~$273M — ⚠️ DERIVED (−14.7% from $320.3M), re-read | rises QoQ **and** the rise is not attributed to acquired pools | flat or falling |
+| Resi nonaccrual RATE, acquired pools | 10-Q | 1.60% (falling 1.72 → 1.63 → 1.60) | ≥ 1.80% | < 1.80% — ⛔ never grade the DOLLARS (denominator artifact, 7/25) |
+⚠️ Q2 declines were SALES-driven, not cures. A Q3 decline via sales is HOLDS but is logged as "realized, not healed".
+
+### SSB — baseline 6/30/26 (Q2 10-Q acc 0001104659-26-089026)
+| Cell | Filing | Q2 baseline | TRANSMITS if | HOLDS if |
+|---|---|---|---|---|
+| NCO (primary) | 8-K | **6bps** | ≥ 20bps | < 20bps |
+| Total nonaccrual | 8-K/10-Q | **$297.2M** | > $340M (+15%) **and** commercial-led (Q2's rise was mods + consumer) | ≤ $340M, or not commercial-led |
+| Classified book: accrual share | 10-Q | ~87% accruing (Q1; Q2 cell UNREAD) | falls ≥ 5pp from its own prior read | within 5pp |
+⚠️ The classified-$ Q2 cell was never read (per-class vintage tables need a summing pass). **Do that pass on the Q2 10-Q BEFORE the Q3 10-Q lands**, or this row grades on NCO + nonaccrual only, and I will say so.
+
+## 3. Aggregate (pre-committed)
+- **TRANSMISSION CONFIRMED (bank rail):** ≥ 2 of 4 names TRANSMITS → FL credit stress reached bank books in Q3. Packet CORAL + PROME the same session, with the per-name table.
+- **NO TRANSMISSION:** ≥ 3 of 4 HOLDS → the Q2 read extends. Severity stays concentrated; FL is not a bank-credit tier story.
+- **MIXED:** otherwise, with the names stated.
+- ★ **FL-resi sub-read, reported separately whatever the aggregate:** SBCF's resi nonaccrual cell, plus BKU/AMTB resi, is the bank-side cell where CORAL's GSE/condo channel would show first. It does NOT change the aggregate class. It is the handoff to CORAL's leg.
+
+## 4. What this frame does NOT cover
+- **Rate-leg transmission** (AOCI/NIM/equity multiple): the 9/15-9/23 KRE drift is a rates move, and this card measures CREDIT. Not scored here; see STATUS §THESIS Stagflation row.
+- **Condo-association / HOA loan books:** not broken out by any of the four. If a Q3 filing newly discloses one, log it outside the card.
+- **Stock prices:** not an input.
+
+## 5. Grading timetable
+Print day: 8-K legs, per name, same session. 10-Q day: 10-Q legs. **Aggregate is FINAL only when all four 10-Qs are read (target: by 2026-11-14).** A provisional aggregate before then must be labelled PROVISIONAL and name its unread legs.
+
+*— REGINALD, frozen 2026-09-24. Baselines from the Q2 filings named per row; two AMTB baselines are DERIVED and flagged for re-read before grading.*
