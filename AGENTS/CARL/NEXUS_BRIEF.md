@@ -12,7 +12,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| PROME (sent, 72c277376 → WQ-281) | CRL-08 bar (RULED: sustained, WQ-281 9/24); DEWEY woken (DR-5 delivered, graded) | 🔴 | Will ruled 9/24 13:17 ET (via PROME): sustained governs, so CRL-08 resolves MISSED 9/30. DEWEY woken (dewey-l0 drain). |
+| PROME (sent, 72c277376 → WQ-281) | CRL-08 bar (RULED: sustained, WQ-281 9/24); DEWEY woken (DR-5 delivered; adjudication UNRESOLVED per 9/24-late relabel) | 🔴 | Will ruled 9/24 13:17 ET (via PROME): sustained governs, so CRL-08 resolves MISSED 9/30. DEWEY woken (dewey-l0 drain). |
 | STUE (sent, packet in `sub_agents/STUE/inbox/`) | FSA FY26-Q3 posted 9/18: FM default $234.1B/9.3M | 🟠 | Unblocks ES-01/04/06. ES-01 forbearance −4.76% sits at the −5% band on one-decimal rounding. Default growth slowed (+$13.8B vs +$39.8B); the stock cannot separate cures from fewer new defaults. |
 | OTTO | August broad tier (SDART) read off OTTO's panel script in dry-run mode | 🟠 | 0/3 improving, mean +1.09pp vs July +1.00: the narrowing stalled. Nothing written to OTTO's ledger; OTTO's own run is still owed. |
 | BRENT / HAWK | Pump still rising while Brent spot fell $130.80 → $114.89 (9/15 → 9/22) | 🟠 | Pass-through lag is still delivering the mid-September crude peak; pump relief is the next watch. Record diesel $6.5276 (9/22). |
@@ -45,7 +45,7 @@
 - **Diverge from market by:** stress concentrated in lower-quality borrowers (subprime auto losses, CCC spreads, student delinquency) while aggregate spending and broad HY stay firm. This is narrower than claiming an aggregate spending collapse.
 - **Cross-agent tensions known to me:** BofA's closed-K reading versus CARL's V8 "converging downward" framing. It is unresolved: BofA's customer-base and withholding caveats are real, but it is primary data against the thesis. CRUISE/MARCO counter-evidence is staged to RED, not scored.
 - **Uncertain about:** whether slower default growth reflects cures or fewer new defaults; bottom-cohort spending beneath aggregates; auto extension behaviour; how fast the pump follows crude down.
-- **DR-5 (9/24): SCORED STRIKE, medium** — grocery volume is not cyclical evidence (cycle unsupported, policy ~¼, artifact leans); it cuts against the thesis. KB-CARL-498.
+- **DR-5 (9/24): causal adjudication UNRESOLVED, not scored** (relabelled 9/24 late from "scored strike" on CATO AP1). Grocery units are still NOT used as cyclical evidence. The pre-registered cycle test (state volume vs state UR) could not be run: the substitute is a low-power null, policy could reach ~65% on a unit basis, and the fuel mechanism is unmapped. KB-CARL-498.
 - **Failure patterns:** threshold vs mechanism; stock vs flow; same-deal YoY includes pool ageing; re-pricing just before resolution flatters Brier (deliberately avoided on CRL-08). CRL-05's 13.74% bar is DEAD; CRL-30 uses FLOW.
 - **RED counter-frame:** the evidence that moved most this week is counter-evidence. Coarse triggers can hold 53/70 while evidence weakens; that does not license dismissing it.
 

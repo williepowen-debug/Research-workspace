@@ -8,6 +8,21 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-24 late (2) — CARL-DR-5 relabelled: SCORED STRIKE → UNRESOLVED (CATO AP1, via PROME, Will-routed). CARL CONCURS
+
+**Branch standard, cited:** the DR-5 commission (`AGENTS/DEWEY/inbox/processed/2026-08-15b_…`) makes LEG 1 the discriminator (state grocery volume against state SNAP changes vs state UR/claims). Its §4 UNRESOLVABLE row says: *"A resolvability defect is a STATUS problem … I will not score it in either direction."* State unit volume does not exist publicly, and the substitute is a low-power null (R² 0.003, n=51; "no gradient seen, not gradient refuted"). **The standard for CYCLE-fails was not met.** The 9/24 PM grade rejected the commission's own rule and leaned on national context plus "it cuts against my thesis". The second is not a validity argument.
+
+**Kept:** grocery UNIT volume is NOT affirmative cyclical evidence.
+**Changed:** the claim that cycle was tested and failed. POLICY is not excluded either (on a unit basis the ceiling reaches ~65%).
+**Carried:** Bain's fuel-cost mechanism is unmapped; the NIQ panel's channel coverage is shifting.
+No score, confidence or data purchase follows.
+
+**Surfaces:** KB-CARL-498 (original kept in Notes), NEXUS_BRIEF, ROADMAP resolved line, SCRATCH, handoff_RED/COUNTER_LOG, the 10/5 docket row. The 9/24 PM entry below is kept as the record and superseded by this one. DEWEY owns the report-side half.
+
+This instance is the mirror of the revision-ledger finding: a grade can depart from its registration in the direction that HURTS the author, and a self-critical reading escapes checking just as a flattering one does.
+
+---
+
 ## 2026-09-24 late — FIVE RE-GRADES APPLIED from the revision ledger (Will: "approve all six with your leans"); one HELD on canon
 
 | Row | Old | New | Brier effect on CARL's record |

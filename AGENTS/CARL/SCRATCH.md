@@ -17,7 +17,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 5. Presser reviewed: V12 un-fire 0 of 2, score 5. Recorded in THESIS + STATUS + CHANGELOG.
 6. CRL-08 deliberately NOT re-priced (confidence-walk rule). Registration of the bar ruling asked of PROME (72c277376, doorbelled prome-26). DEWEY dark on DR-5 flagged in the same packet (⚠️ its DR-1 'held' claim was FALSE, since the FHA leg was delivered 8/27; corrected to PROME the same day).
 7. Inbox 10→0: WALTER lane ×4 filed; MARCO/CRUISE staged to `handoff_RED/COUNTER_LOG.md` (no CARL surface cited them). BOARD: 36 dispositions through SIG-W-20260921-022. Energy items are deferred to 9/28 (CRL-08); BDC items to 10/1 (CRL-25).
-8. DR-5 graded SCORED STRIKE (medium, against the thesis); DR-1 record corrected after DEWEY showed the FHA leg was delivered 8/27 (CARL had carried an overtaken row for 3 sessions). 9. Docket: 6 pruned, 4 re-dated with reasons, 6 added (CCL 9/29, RAP 9/29, CB 9/29, CRL-08 close 9/30, BEA PIO 9/30, STUE ES 10/2). KB-CARL-487..496.
+8. DR-5 graded SCORED STRIKE (medium, against the thesis) ⛔ *[RELABELLED 9/24 late → UNRESOLVED, not scored (CATO AP1, CARL concurs)]*; DR-1 record corrected after DEWEY showed the FHA leg was delivered 8/27 (CARL had carried an overtaken row for 3 sessions). 9. Docket: 6 pruned, 4 re-dated with reasons, 6 added (CCL 9/29, RAP 9/29, CB 9/29, CRL-08 close 9/30, BEA PIO 9/30, STUE ES 10/2). KB-CARL-487..496.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -72,7 +72,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 | File | From | Disposition / next action |
 |------|------|---------|
 | SIG-W-20260924-005 (dispositioned and filed 9/24) | WALTER | CACC AG settlement: acted, 8-K pulled; no registered row; numerator-exit note for the ~11/30 HHDC auto read (KB-CARL-497). |
-| DEWEY DR-5 packet (filed 9/24) | DEWEY | **GRADED: SCORED STRIKE (medium)** on grocery volume as cyclical evidence; KB-CARL-498; docket row pruned. DEWEY also corrected CARL: the DR-1 FHA leg was delivered 8/27, so the 'held' claim was false. Correction packet sent to PROME. |
+| DEWEY DR-5 packet (filed 9/24) | DEWEY | ~~GRADED: SCORED STRIKE (medium)~~ **UNRESOLVED, not scored (relabelled 9/24 late, CATO AP1)** on grocery volume as cyclical evidence; KB-CARL-498; docket row pruned. DEWEY also corrected CARL: the DR-1 FHA leg was delivered 8/27, so the 'held' claim was false. Correction packet sent to PROME. |
 | (10 filed 9/24) | MARCO ×2, CRUISE ×4, WALTER ×4 | MARCO: FL June airport print is UNINFORMATIVE (Spirit confound); MIA is the clean tell; 84% retracted. CRUISE: only the RCL price-into-capacity leg survives; the NCLH duration datum carries no lean. Both staged to RED. WALTER -005/-012 verdicts withdrawn by -015/-016; -002 mechanism weakened by -019. |
 
 ---
