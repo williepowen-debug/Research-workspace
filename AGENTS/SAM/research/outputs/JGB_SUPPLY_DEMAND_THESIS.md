@@ -1,6 +1,18 @@
 # JGB Long-End Supply/Demand — Conditional Demand and Mixed Sponsorship
 
-**Current assessment: September 15, 2026.** Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
+**Current assessment: September 24, 2026** (prior: September 15). Research completed June 30; “EXECUTED” described that research, not a trade. Signal research only. The old carry-convexity/long-JPY-vol expression retired August 7. No replacement position or entry trigger is authorized by this document.
+
+## September 24 evidence update — first real stress day, BOJ did not cap
+
+| Item | Figure | Basis / source |
+|---|---|---|
+| MOF curve, Sep-18 (hike day) | 10Y 2.981 / 20Y 3.812 / 30Y 4.044 / 40Y 4.033% | MOF `jgbcme.csv`, published 9/24 after the holiday; 10Y −1.2bp, 30Y −0.3bp vs Sep-17 — **the long end did not sell off on the hike** |
+| Sep-24 reopen | 10Y touched **3.075%** (highest since Aug-1996), close ~3.070; 5Y/20Y ~+10bp; 30Y ~4.13–4.16; 40Y ~4.20 | Quote basis (Bloomberg/CNBC/Fisco) — ⛔ never difference against MOF |
+| Market function | OSE **dynamic circuit breaker** on JGB futures | Nikkei 9/24, REPORTED |
+| BOJ response | **None** — `ope20260924.xlsx` shows securities lending only; no outright, fixed-rate or unscheduled op | BOJ record, read by SAM |
+| Driver | Global rout: UST 10Y 5.18 / 30Y 5.47% (Treasury par 9/24; 30Y highest since 2004) | — |
+
+**Read:** ~+7–10bp/session is sharp but below SAM-33's ≥~20–40bp disorder exemption, so it counts inside the prediction's scope and the BOJ let it run — consistent with pace-not-level. **No super-long record** (30Y 4.21% / 40Y 4.40% highs, quote basis) and no auction in the window, so nothing here identifies a buyer or a forced seller. Next demand evidence: Sep-29 40Y (descriptive only), **Oct-8 30Y (frozen bars apply)**, Sep-30 BOJ Oct–Dec schedule. [Sources](../2026-09-24_catchup/NEWS_SWEEP.md).
 
 ## September 15 evidence update
 

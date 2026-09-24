@@ -36,6 +36,7 @@ cites these section names (the `↪️ MOVED:` redirects that peers DO cite deli
 |---|---|---|
 | Japan domestic data | Q2 GDP **+1.4% ann.**; July wages **+4.1% YoY**; **July current account +¥2,988.9B (+15.6% YoY)**, rel Sep-8 | BoP goods −¥399.9B, services −¥512.9B, **primary income +¥4,289.6B** (MOF `bp202607.pdf`). BoP goods ≠ customs (revised −¥638.3B). **The VECTOR-5 denominator: the oil shock is 4.0% of ONE month's CA surplus.** |
 | New macro/flow context | July IIP **−0.2% m/m** (METI Sep-14); FY2027 requests **¥143.0656T** (MOF Sep-4); August foreign equity/fund net **+¥1.2983T** (MOF Sep-8) | IIP shipments +2.1%; requests ≠ enacted spending/issuance; flows ≠ NISA-only or measured FX trades. [Sources](reports/2026-09-15_news-sweep.md). |
+| 🆕 Sep flash PMI (S&P Global, rel 9/24) | Manufacturing **54.1** (Aug 54.9; cons 55.0) · services **51.6** (52.5) · composite **52.5** (53.5, slowest since May) | Reuters via Investing, 9/24 (REPORTED). Still expansionary but slowing; S&P names the weak yen and Middle-East energy as input-cost drivers. Survey, not hard data — no BOJ-path read from one flash. |
 
 ⚠️ Caveats travelling with them: BoP goods ≠ customs (July revised −¥638.3B); IIP shipments +2.1%; budget **requests ≠ enacted** spending or issuance; securities flows are **not** NISA-only and are not measured FX trades. **The VECTOR-5 denominator: the oil shock is 4.0% of ONE month's CA surplus.**
 

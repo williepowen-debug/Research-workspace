@@ -1,6 +1,6 @@
 # Japanese Life Insurer Tracker
 
-**Last Updated:** 2026-09-14 ET — all seven named profiles checked against FY2026 Q1 releases; August aggregate flows remain latest.
+**Last Updated:** 2026-09-24 ET — news item added (Nippon Life project-finance report); company disclosures unchanged since the 2026-09-14 FY2026 Q1 check; August aggregate flows remain latest (MOF weekly wk Sep-13–19 not yet published).
 
 **Purpose:** Dashboard for tracking Big 10 insurer positioning, FY2025 ESR disclosures, and repatriation signals. **Mechanics map** for JGB-loss / ESR / lifer behavior — the cross-border forced-repatriation leg of Channel 1 is now **RETIRED (v1.6, 2026-06-22 — supersedes the "DEFERRED STRUCTURAL BACKSTOP" framing throughout this doc; re-add ONLY on a direct foreign-SALES print across ≥2 windows at ≥2 of {Big-3 mutuals, Norinchukin}, JGB-30Y/ESR = accelerant only)** after 4-of-4 institutions grew US credit; J-ICS still affects domestic duration demand, with the conditional bid described below. *(Body sections below retain the dated DEFERRED-era evidence trail.)*
 
@@ -11,6 +11,12 @@
 **Reactivation requires direct net foreign-credit SALES across ≥2 consecutive disclosure windows at ≥2 of {Nippon Life, Meiji Yasuda, Sumitomo Life, Norinchukin}.** This is the existing June 22 rule. A single announcement, an aggregate MOF flow, a yen threshold, or domestic JGB stress can initiate investigation; none independently reopens the channel. ESR below 200% must be attributed to its cause: M&A capital action is different from market stress. JGB/ESR conditions are accelerants only.
 
 The May/June named-institution evidence disconfirmed the near-term forced-repatriation mechanism. The detailed disclosure table below is historical evidence, not newly refreshed company data. The former “deferred structural backstop” and “any one reopens” rules are superseded and preserved in the before-image archive.
+
+## News since the Q1 check (REPORTED, not disclosures)
+
+| Date | Institution | Item | Channel-1 bearing |
+|---|---|---|---|
+| 2026-09-20 | Nippon Life | Nikkei: target to **double the project-finance balance to ~¥2tn by FY2035** (existing ~¥1tn end-Mar-2026 per Nikkei; infrastructure incl. US data centres; also eyeing Japanese DC loans by end-FY2026). Reuters could not verify; no company release found. | **None.** Incremental ≤¥0.2tn/yr even if all of it were new and offshore — ~2 orders below the ±¥1tn/**week** MOF foreign-LT-debt swings; loans are not in the securities-flow data; direction is OUTBOUND (the opposite of a repatriation sale). Answered to WALTER 9/24. |
 
 ## FY2026 Q1 disclosures — June 30 balances, reviewed September 14 ET
 

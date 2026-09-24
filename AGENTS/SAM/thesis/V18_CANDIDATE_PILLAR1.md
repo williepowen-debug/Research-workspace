@@ -4,13 +4,13 @@
 **Current live thesis:** `THESIS.md` **v1.7** — carry-convexity tail **RETIRED to LOW**, **no successor declared**.
 **This document does not change that**, and must not be cited as if it had.
 
-## Current assessment — September 14 ET / September 15 JST, 2026
+## Current assessment — September 24 ET, 2026 (refreshed after both September hikes; prior assessment Sep-14)
 
-**CANDIDATE ONLY.** SAM-41 was historically confirmed (August 19 completion, August 27 adjudication); current September 14 matched-date gaps are 5Y **2.498pp** and 10Y **1.982pp** (both current runs 0/5), above both bars. Historical confirmation is not a current regime or promotion. A separately registered FX co-condition, RED review and Will sign-off are still required.
+**CANDIDATE ONLY.** SAM-41 was historically confirmed (August 19 completion, August 27 adjudication); current **September 18** matched-date gaps are 5Y **2.555pp** and 10Y **2.029pp** (MOF/FRED; both current runs 0/5), above both bars — **and they WIDENED ~10/8bp on the BOJ hike day** (from 2.458/1.947 on Sep-17). The Fed hiked 25bp Sep-16 (3.75–4.00%, SEP medians UP) and the BOJ hiked 25bp Sep-18 (1.25%); UST 10Y then rose to 5.18% by 9/24 (Treasury par). **The candidate is moving AWAY from its bar, not toward it.** Historical confirmation is not a current regime or promotion. A separately registered FX co-condition, RED review and Will sign-off are still required.
 
 **Labor premise revised:** BLS September 4 reports July **+21K**, revised from **−23K**; June **+31K**, revised from +20K; August **+162K**, unemployment **4.1%**. Current June/July net revisions **+55K**. The earlier −103K revision total belongs to a different release window. The original July print was revised, not retracted. This weakens the old weak-labor support for Fed easing; an actual dot walk-back is still unobserved. [BLS](https://www.bls.gov/news.release/archives/empsit_09042026.htm).
 
-**BOJ pricing:** reviewed Totan September 15 11:15 JST assumed: September **99% incremental 25bp equivalent**, OIS 1.2238%; indicative OTC under the publisher’s policy-only/25bp model. Expires September 18 00:00 JST or on image change. Earlier observations below are historical. This remains substantially priced; no fresh authenticated CME FedWatch probability. Sources and limits: [sweep report](../reports/2026-09-14_stale-sweep.md).
+**BOJ pricing:** September hike DELIVERED (1.25%, 7–2, effective Sep-24). Reviewed Totan **2026-09-24 15:15 JST** (JST assumed): Oct-30 **27%** / Dec **68%** incremental 25bp equivalent; cumulative **2.18** hikes to Apr-2027 (from 1.94 on Sep-18); indicative OTC under the publisher’s policy-only/25bp model; source-age expiry Sep-28 15:15 JST. ⛔ Cumulative counts are not probabilities. The BOJ leg is repricing hawkish — but the US leg is rising faster, so compression is not arriving. Earlier observations below are historical. This remains substantially priced; no fresh authenticated CME FedWatch probability. Sources and limits: [sweep report](../reports/2026-09-14_stale-sweep.md).
 
 **Reading rule:** Sections 1–8 below retain the August 7 argument, numerical vintages and original conditions. Their “today”, “zero progress”, weak-labor and probability language is historical, superseded for current use by this rider. Prediction conditions and resolved grades have not been rewritten.
 

@@ -45,6 +45,7 @@ Catch-up sweep, Will-directed. **No thesis change: v1.7 stands, book FLAT, nothi
 - **11 WALTER signals** logged + moved; COR-20260924-19 receipted APPLIED. Reply packet → WALTER inbox (ladder / Nippon Life immaterial by upper bound / UBS carried narrowly). **VECTOR-5 packet → PROME** (leg c met in letter, test still NONE).
 - **News sweep** by an Opus subagent → `research/outputs/2026-09-24_catchup/NEWS_SWEEP.md`; the load-bearing JGB-1996 claim verified by SAM before cascade.
 - Docket: Sep-21→24 pruned to a RESOLVED block; CFTC 9/25, OIS expiry 9/28, MOF-weekly shift rows added in BOTH CALENDAR and CATALYSTS.
+- **2nd pass (Will: "make sure core SAM files are updated"):** THESIS integration Sep-15 → Sep-24 (no version bump), V18 candidate, JGB supply/demand, insurer TRACKER, STATUS_REFERENCE PMI row, **KB-SAM-257** (CFTC record swing ≠ record level; parse script saved to `research/outputs/2026-09-24_catchup/`). METSUKE Run-23 (compressed-history): 0 stale marks; 4 fixes applied after artifact checks (BOJ-MPM rows RESOLVED in both docs, STRATEGY:276 clause, TRADE:252 truncated sentence, LIQUID/TRADE.md was ARCHIVED not deleted). PENDING 18/19/20/22/23 marked CLOSED + rolled (−44K); **Run 21 items 1,2,3,5,6 still OPEN — disposition next session.** ⚠️ **My time stamps ran AHEAD of the clock twice** ("~17:3x" written at 16:5x; then again at 17:16) — stamp from `date`, never from a guess.
 
 ### NEXT SESSION
 
