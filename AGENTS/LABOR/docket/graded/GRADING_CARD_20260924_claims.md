@@ -172,4 +172,38 @@ Pre-registered at freeze:
 
 ## §9 — GRADE (write 2026-09-24 off this frozen card — never re-read a band)
 
-*Blank until print. At grade time, in this order: **①** regenerate the THREE quantities §4 names on the as-published vintage · **②** grade the four axes (§2 · §5a · §5b · §5c) separately, applying the RESET branches to both live counters · **③** write the outcome into `STATUS.md` (KEY THRESHOLDS + matrix v7/v13 + calendar row) · **④** `git mv` this card to `docket/graded/` **and build the 2026-10-01 card in the same session**.*
+**GRADED 2026-09-24 14:4x ET** (PROME-spawned WQ-184 session; the desk was dark at 08:30) — primary: DOL/ETA release PDF, embargo line *"8:30 A.M. (Eastern) Thursday, September 24, 2026"*, `https://www.dol.gov/ui/data.pdf`, **text extracted from the saved binary** (sha256 `4705665b…1b618`, 9 pages) per the L-33 guard. ⚠️ **Reader note:** the first two fetches returned an Akamai `Access Denied` HTML stub (382 B) — a LOUD failure, caught by `file`, never parsed; a browser-header retry returned the PDF. Retained-week cross-check from a second DOL surface: `oui.doleta.gov/unemploy/wkclaims/report.asp` (r539cy national table) — w/e Aug 15 207,000 · Aug 22 204,000 · Aug 29 207,000.
+
+**① Regeneration on the as-published vintage — TWO retained weeks REVISED, so two of the three quantities are VOID and re-solved (as §4 ordered):**
+
+| Week | §1 frozen | As-published 9/24 | Revision |
+|---|---|---|---|
+| w/e Aug 22 (`R`, rolls off) | 204,000 | **204,000** | none |
+| w/e Aug 29 | 207,000 | **207,000** | none |
+| w/e Sep 5 | 206,000 | **207,000** | **+1,000** (two-weeks-back; table column + identity below) |
+| w/e Sep 12 | 196,000 | **198,000** | **+2,000** (DOL: *"revised up by 2,000 from 196,000 to 198,000"*) |
+| **w/e Sep 19 (`X`)** | — | **197,000** | advance |
+
+- Identity check (zero free parameters — every term read from a DOL surface): revised prior MA `(204,000 + 207,000 + 207,000 + 198,000)/4 = 816,000/4 = 204,000` ✅ = DOL *"revised up by 750 from 203,250 to 204,000"*. New MA `(207,000 + 207,000 + 198,000 + 197,000)/4 = 809,000/4 = 202,250` ✅ = DOL. Had w/e Sep 5 stayed 206,000 the prior MA would have been 203,750, not DOL's 204,000 — so the check could have failed.
+- **`ΔMA` ✅ STOOD** (`R` unrevised): `(197,000 − 204,000)/4 = −1,750` = DOL *"a decrease of 1,750 from the previous week's revised average"*, to the unit. ⚠️ Against the **as-published 9/17 MA (203,250)** the level move is only `202,250 − 203,250 = −1,000` — the other 750 is the upward revision. Both stated; neither narrated as improvement (§3 rule).
+- **`MA_next` column ❌ VOID:** retained sum `207,000 + 207,000 + 198,000 = 612,000` (frozen 609,000, +3,000) ⇒ `MA_next(X) = (612,000 + X)/4`; every frozen `MA_next` value rotted by `3,000/4 = +750` (frozen 197,000 point would have read 201,500; true 202,250).
+- **§5a bound ❌ VOID, re-solved:** `X > 1,000,000 − 612,000 = 388,000` (frozen 391,000; moved −3,000 on revision). `388,000 → MA 250,000` does not fire · `389,000 → MA 250,250` fires.
+
+**② Four axes, graded separately:**
+
+| Axis | Reading | Band | Result |
+|---|---|---|---|
+| §2 single print | 197,000 | **B** | **NO ACTION** |
+| §5a T-01 MA | 197,000 ≤ 388,000 (re-solved) | **T01-a** | does not fire; MA 202,250, `250,000 − 202,250 = 47,750` away (vs 46,750 as published 9/17 → +1,000) |
+| §5b vector-13 | 197,000 ≤ 199,000 | **V13-a** | **counter 1 → 2 of 4.** Streak re-checked on the REVISED vintage: week 1 (w/e Sep 12) is now **198,000 — still `<200,000`, streak intact** |
+| §5c continuing claims | **1,719,000** [w/e Sep 12] < 1,750,000; prior revised **1,730,000 → 1,717,000** (still inside) | **CC-1** | **vector-7 count 1 → 2 of 4.** `1,750,000 − 1,719,000 = 31,000` inside; CC 4-wk MA 1,744,000 |
+| band A / Kill B | 197,000 > 185,000 | — | count 0 of 5; `197,000 − 185,000 = 12,000` above |
+| T-02 | 197,000 | — | `300,000 − 197,000 = 103,000` away |
+
+⚠️ **Counter fragility, stated so nobody mistakes 2-of-4 for momentum:** the v13 streak rides a **1,000–3,000 margin** (`200,000 − 198,000 = 2,000`; `200,000 − 197,000 = 3,000`), and w/e Sep 12 just revised UP 2,000. **A +3,000 revision to w/e Sep 19 at the 10/1 print would RESET it** — the 10/1 card re-checks week 2 on the revised vintage before counting week 3.
+
+**Colour (graded by NOTHING, §4):** NSA 163,811, `+10,243` WoW (+6.7%) vs seasonal-factor expectation +6.8% — the SA flat is a seasonal-factor-exact week, no gap to explain. NSA YoY `163,811 / 180,992 − 1 = −9.5%`. UCFE 362 (w/e Sep 12). No state in the "largest increases" list above +1,041 (Kentucky).
+
+**③ Written into `STATUS.md`** KEY THRESHOLDS (initial-claims rows + CC row), matrix v7/v13, calendar; narrative → `STATUS_DETAIL.md` § `calendar-graded-20260924`. **Routing (§7): band B + CC-1 ⇒ STATUS only. Nothing routed. Score UNCHANGED 29/75** — a counter at 2 of 4 moves no vector. **No WARN cohort appeared** for the w/e Sep 19 week, so nothing is attributable to a named employer in either direction. **④ Card moved to `docket/graded/`; 10/1 card built same session.**
+
+**§8 defect log at grade:** 0 defects in the card's arithmetic — the void quantities are the ones §4 said would void, and they were re-solved before the level was read. **0 reader defects** (the Access-Denied stub failed loud). **One card-design note:** §1's vintage note ("no revision to any retained week on 9/17") was true at freeze and is not a defect; a **two-weeks-back** revision (w/e Sep 5) is outside the normal prior-week revision and the 10/1 card should expect it can recur.
