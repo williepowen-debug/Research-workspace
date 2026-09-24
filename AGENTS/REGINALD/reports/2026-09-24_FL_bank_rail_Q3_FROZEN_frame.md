@@ -69,3 +69,28 @@
 Print day: 8-K legs, per name, same session. 10-Q day: 10-Q legs. **Aggregate is FINAL only when all four 10-Qs are read (target: by 2026-11-14).** A provisional aggregate before then must be labelled PROVISIONAL and name its unread legs.
 
 *— REGINALD, frozen 2026-09-24. Baselines from the Q2 filings named per row; two AMTB baselines are DERIVED and flagged for re-read before grading.*
+
+---
+
+## AMENDMENT A1 — 2026-09-24 ~01:3x ET (before any Q3 print; PROME round 2). Baseline cells filled at primary. NO bar, class or aggregate rule edited.
+
+**(a) SSB — Q2 classified-$ cell, SUMMED from the filing.** Q2 10-Q **acc 0001104659-26-089026** (SouthState Bank Corp, CIK 764038), Loans note, credit-quality-indicator vintage table. Read as XBRL facts `us-gaap:FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLoss` × `us-gaap:InternalCreditAssessmentAxis`, instant 2026-06-30 (Commercial portfolio segment; consumer classes are not risk-graded). **By-class sum = segment total on both routes.**
+
+| Commercial class ($K) | Substandard 6/30/26 | Doubtful |
+|---|---:|---:|
+| Construction | 61,786 | — |
+| CRE non-owner-occupied | 1,450,758 | 4 |
+| CRE owner-occupied | 313,256 | 16 |
+| C&I | 361,734 | 298 |
+| Other income-producing property | 36,558 | — |
+| Consumer owner-occupied (commercial segment) | 2,675 | — |
+| **Total classified** | **2,226,767** | **318** |
+
+⇒ **Q2 classified = $2,227.1M** (12/31/25 comparative in the same filing: $2,304.0M; −3.3%). **The Q2 accrual-share cell, on the same basis as the Q1 87.3%** (1 − total nonaccrual ÷ classified): 1 − 297.2/2,227.1 = **86.7%**. ⚠️ The basis uses TOTAL nonaccrual (consumer included), so it UNDERSTATES the classified book's true accrual share; it is used because it is Q1's basis. The frozen bar ("falls ≥5pp from its own prior read") therefore grades against **86.7%**.
+
+**(b) AMTB — both DERIVED baselines replaced by the filing's own figures.** Q2 8-K **acc 0001734342-26-000071**, EX-99.1 `amerant2q2026earningsreleaa.htm`:
+- **CRE non-owner-occupied NONACCRUAL = $9,386K at 6/30/26** (3/31/26 $11,172K), from the "Non-Performing Assets" table, "Non-Accrual Loans → Commercial real estate → Non-owner occupied" row. Replaces "~$9.4M DERIVED".
+- **Classified loans = $273.1M at 6/30/26** (vs $320.3M, −14.7%), from the release text, asset-quality section. Replaces "~$273M DERIVED".
+- Both derived values reproduced within rounding, and the legs are now **GRADEABLE ON BASIS**. The resi-rate leg (1.60%) stays a 10-Q cell, unchanged.
+
+*Filled by REGINALD 2026-09-24 from the named filings (EDGAR, UA-header curl). The frozen text above is unedited.*
