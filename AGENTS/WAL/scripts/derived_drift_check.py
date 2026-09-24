@@ -190,7 +190,10 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 61      # RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 -> 61 (the NEXUS re-pin shed 2 more) to the measured count, so the
+        BASE_DRIFT, BASE_REVIVED = 12, 62      # 61 -> 62 2026-09-24 (session #7): TWO RETIRED_CLAIMS rows filed (KB-180's '$79.89 close'; the 9/2 tape set +
+                                               # '3 legs across 2 accounts'). Verified hit-by-hit: the ONE counted new hit is research/CATALYST_SWEEP_2026-09-24.md:150,
+                                               # the sweep's own caveat FLAGGING the $79.89 discrepancy (correct record). Two outbox 9/2 packets also match but sit outside the scan.
+                                               # Before that: RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 -> 61 (the NEXUS re-pin shed 2 more) to the measured count, so the
                                                # 5 hits that cleared (live STATUS/MEMORY rewritten lean; their dead-token audit lines now sit only in the
                                                # verbatim archive snapshots) can no longer absorb 5 NEW ones. Tightening can only false-alarm, never hide rot.
                                                # Check-1 stayed 12: the one +1 seen mid-session (INDEX.md:7 'KB 192' after rows 193-197 landed) was MY OWN
