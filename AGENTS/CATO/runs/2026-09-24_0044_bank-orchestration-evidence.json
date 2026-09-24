@@ -1,0 +1,50 @@
+{
+  "revision": "6b51442c3c1e33d42afb89045251b80b1bbb2006",
+  "watcher": [
+    {
+      "case": "known-baseline",
+      "rc": 0,
+      "stdout": "FLNG-WATCH 0 QUIET: 1 filings on file, none after id 11981 \u2014 swept and empty at FDIC FLNG cert 110",
+      "stderr": ""
+    },
+    {
+      "case": "new-filing",
+      "rc": 1,
+      "stdout": "FLNG-WATCH 1 NEW: 1 filing(s) after id 11981 \u2014 read each; a sub-notes redemption/refi is a \ud83d\udfe0 REGINALD signal\n    FLNG 11982/1  fixture.pdf\n      https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/11982/attachment/1",
+      "stderr": ""
+    },
+    {
+      "case": "empty-list",
+      "rc": 0,
+      "stdout": "FLNG-WATCH 0 QUIET: 0 filings on file, none after id 11981 \u2014 swept and empty at FDIC FLNG cert 110",
+      "stderr": ""
+    },
+    {
+      "case": "empty-object",
+      "rc": 0,
+      "stdout": "FLNG-WATCH 0 QUIET: 0 filings on file, none after id 11981 \u2014 swept and empty at FDIC FLNG cert 110",
+      "stderr": ""
+    },
+    {
+      "case": "missing-id",
+      "rc": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 9, in <module>\n  File \"flng_watch.py\", line 48, in <module>\n  File \"flng_watch.py\", line 34, in main\n  File \"flng_watch.py\", line 34, in <genexpr>\nKeyError: 'instFlngId'"
+    },
+    {
+      "case": "network-failure",
+      "rc": 2,
+      "stdout": "FLNG-WATCH 2 UNKNOWN: fetch failed (OSError: fixture network failure) \u2014 the watch did NOT run",
+      "stderr": ""
+    }
+  ],
+  "rb2_counterexample": {
+    "hypothetical_PV09_to_PV06": 432181,
+    "offsetting_PV06_other_net": -409544,
+    "matches_reported_endpoints": true
+  },
+  "rb1_counterexamples": [
+    "BKU: primary HOLDS, 90+ TRANSMITS, criticized HOLDS: no explicit per-name combiner",
+    "SBCF: 30-89=13M and 60-89=2M meets neither primary row branch"
+  ]
+}
