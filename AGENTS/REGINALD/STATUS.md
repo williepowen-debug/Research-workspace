@@ -152,6 +152,8 @@
 
 **The rate leg is at a cycle high and banks have started to drift with it; credit has not moved.** Fed +25bp (9/16); 10Y 5.11% [9/23], highest since 2007. KRE −5.0% over 8 sessions to $70.38 and FLG through its first price band, but VIX 15, no 8-K cluster, CCC stress concentrated not migrating, reserves-vs-nonaccrual and CRE legs unchanged since Q2 filings. **Read: rates re-pricing bank equity (AOCI/NIM/multiple), not credit transmission — and my instruments cannot yet tell those apart** (MEMORY open question). Matrix v2.0 ranking unchanged: FLG 6 · EGBN 5 · AMTB 5.
 
+**AOCI (9/24, Q2 Call Reports, all 14 opt out → reported CET1 unaffected):** ZION is the outlier (AOCI 22% of CET1; 11.83% → 9.26% incl. AOCI, mostly amortizing HTM-transfer loss). WAL has $98.6B bank-level assets vs the $100B Cat IV line (proximity flag, holdco test not run). The Q3 rate move (+64bp 5Y) implies ~−$2.6B to −$4.3B after-tax AOCI cohort-wide (duration assumed 3-5) → a tangible-book hit at the Oct prints, not a capital break. → `reports/2026-09-24_cohort_AOCI_exposure.md`
+
 **Standing bear ledger → `STATUS_BEAR_LEDGER.md` (COLD, not a boot read).** Prior BOTTOM LINE (9/11, incl. the 9/14 WHAT-CHANGED and watch-list) → `archive/STATUS_rotation_2026-09-24b.md`.
 
 ⚠️ **Standing caveat: every instrument this desk owns measures CREDIT or a CLOSED QUARTER.** A non-credit repricing is invisible to it.
