@@ -40,6 +40,17 @@ Discarded on vintage (3rd+ recurrence): Jun-2024 "two-year extension," May-2024 
 - **Crowding:** SI ~16% of float, DTC 16 — squeeze fuel into Q3 if the print is quiet (C8).
 - **Owed:** re-price the sub-notes step-up on live SOFR post-hike (STATUS carries +$12.8M/yr at an older SOFR); Q3 date announcement ~9/30; BPRE 10/6 webinar.
 
+## D. 08:5x ET re-check (Will-directed, same day)
+
+| Check | Result | Token |
+|---|---|---|
+| `flng_watch.py` (hardened) | rc 0 — 182 filings, none after FLNG 11981 | VERIFIED |
+| EFR Form 3/4/5 | 471 records; nothing filed after 8/14 | VERIFIED |
+| Price | no 9/24 bar yet (pre-open); last $46.09 9/23 close; OZK has no 9/22 bar in fetch.py/yfinance | VERIFIED |
+| Web: OZK news last 24h | Nothing new beyond B1–B11. Q3 date still unannounced (aggregators ~10/15). Spur deed-in-lieu still The Real Deal only | SEARCH-NOT-FOUND (new) |
+| Sub-notes terms | Floating benchmark = "expected to be three-month term SOFR" + 209bp, quarterly — issuer pricing release (GlobeNewswire 2021-09-09). No call/notice terms in the release | VERIFIED (release); indenture UNREAD |
+| Trap | "two-year extension" of RaDD resurfaced a 4th time (Bisnow Jun-2024 vintage) — discarded | — |
+
 Full subagent working file (every query, all URLs): preserved below.
 
 <details><summary>Subagent news_sweep.md (verbatim)</summary>
