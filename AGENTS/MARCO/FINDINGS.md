@@ -9,7 +9,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ---
 
-## 🟠 SDL-01 — Self-Deportation Ledger (mark UNRULED since 2026-09-24: ELEVATED on YoY / CRITICAL on 2-yr — the old BREACHED was a retracted-2.2M residue; formalized VX 2026-04-21)
+## 🟠 SDL-01 — Self-Deportation Ledger (ELEVATED — basis RULED by Will 2026-09-24: YoY change in the foreign-born labor force, Aug −379K; the old BREACHED was a retracted-2.2M residue; formalized VX 2026-04-21)
 
 **Core claim:** a structural foreign-born labor-supply shock — **~1.0M realized labor-force decline / ~1.5M population** (NFAP/BLS-CPS; FRED LNU01073395), not cyclical. *(RE-MARKED v2.6, 2026-07-02: the prior "~2.2M self-deported (CBO)" figure was wrong — a mis-attributed disputed-DHS claim, NOT CBO, which estimates ≈290K+30K voluntary; direction/mechanism unchanged. Corroborated by June-2026 total LF −1M+ YoY. See thesis magnitude note + KB-MARCO-WFD-SDL-02.)* Transmission quantified via 1930s historical template.
 

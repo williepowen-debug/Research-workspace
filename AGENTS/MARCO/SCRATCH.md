@@ -31,7 +31,7 @@
 |---|---|---|
 | `1.03` intl visitor spending | CRITICAL → NORMAL → **ELEVATED (low), s30d** | BEA Travel exports Jan–Jul **−0.58%** (annualised −$1.25B); May–Jul up. The carried 2025 **−$8.3B never reproduced** (BEA 2025 +$1.28B). Trailing-12 window would read low ELEVATED |
 | `3.01` FL household premium | BREACHED → **ELEVATED** | Matched basis 2.95x (Insurance.com 9/15). No source reaches >4x; the row's own cell said 2.4x |
-| `SDL-01` foreign-born LF | BREACHED → **UNRULED ⚖️** | Aug YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL). BREACHED = retracted-2.2M residue. **Will to rule the basis** |
+| `SDL-01` foreign-born LF | BREACHED → UNRULED → **ELEVATED (Will-ruled, YoY basis)** | Aug YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL). BREACHED = retracted-2.2M residue. **Will to rule the basis** |
 | `SFE-03` Citizens | NORMAL band (held) | **PIF 266,231 @8/31, −4.3% MoM — depopulation resumed**; exposure **$74.8B** (carried $295.1B was Jun-2025). CORAL packeted; 10/1 chase closed |
 - Three of four marks did not follow from their own data — same class as the 8/21 band audit. FLOW-REG-01 / FLOW-IMG-01 mark annotations corrected. VX floor now 2026-08-21.
 
@@ -55,7 +55,7 @@
 4. 🟠 **~Oct 15:** StatCan Sep (`ID-01`) · NTTO Sep · BTS July.
 5. 🟡 **~Oct 20 (est.):** BLS state Sep — confirm `VX-2.06` on revised Aug.
 6. 🟠 **~Oct 28: MIA September report** (MIA-2-consecutive trigger).
-7. ⚖️ **SDL-01 basis ruling (Will).** 🟡 **MAINTENANCE T2-G:** cycle-matched voter-reg column. VX floor now 8/11 (1.03 / 3.01 / SDL-01 / SFE-03). Watch `3.02` and `FL-03` — both sit within 0.5pp of a band line.
+7. ✅ SDL-01 ruled (YoY → ELEVATED). 🟡 **MAINTENANCE T2-G:** cycle-matched voter-reg column. VX floor now 8/11 (1.03 / 3.01 / SDL-01 / SFE-03). Watch `3.02` and `FL-03` — both sit within 0.5pp of a band line.
 8. 🟡 **Inbox (only if Will asks):** LABOR 9/17 · ZHAO 9/18.
 9. **Do NOT hunt a fifth Channel-1 transmission instrument** — and do not read `2.06` ELEVATED as one.
 
