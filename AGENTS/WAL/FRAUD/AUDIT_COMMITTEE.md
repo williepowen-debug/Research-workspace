@@ -1,4 +1,5 @@
 # WAL Audit Committee Analysis
+> 📼 **RECORD (FY2024 proxy, vintage 2026-03-27; bannered 2026-09-24).** Not refreshed against the 2026 DEF 14A. `:86` is wrong: ZION's auditor is EY, not KPMG (`../archive/FRAUD/ZION_AUDIT_COMPARISON.md:14`, ZION 10-K). The peer-fee comparison (`:85-90`) is unsourced, so do not cite the "Red Flag" rating.
 *Source: DEF 14A filed 2025-04-23 (FY2024 proxy) | Accession: 0000950170-25-057334*
 *Last updated: 2026-03-27*
 

@@ -1,3 +1,5 @@
+> 🗄️ **ARCHIVED 2026-09-24** (WAL session #7, Will-directed housekeeping) under root `CLAUDE.md` § Data Hygiene retirement: content ~180 days old, not boot-read, referenced only by FRAUD-internal navigation and INDEX (don't count), no pending dated event. Per-file review → `../../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1. **Content unchanged below.** Bare file names inside resolve to `../../FRAUD/` (live siblings) or this folder (archived siblings). **Historical record — cite with its own date, never as current.**
+
 # Grant Thornton — Common Auditor Nexus Across Fraud Cluster
 **Created:** 2026-03-26
 **Source:** Gotham City Research report (Jan 28, 2026), OTTO research, REGINALD cross-references

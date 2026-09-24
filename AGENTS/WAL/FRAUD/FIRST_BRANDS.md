@@ -1,4 +1,5 @@
 # First Brands / Point Bonita — WAL Fraud Vector 1
+> ⤵ **This file's credit IS the LAM charge-off** (KB-WAL-135/-186). Content above `§FOLD 2026-09-24` is pre-print (3/26-4/5) — `:49` guarantee direction is contested, `:137` "$84.3M" is wrong ($126.4M was the remaining balance). Current state → §FOLD 2026-09-24 at the end.
 **Last Updated:** 2026-04-05
 
 ---
@@ -161,3 +162,28 @@ Point Bonita investors sued Jefferies + Point Bonita alleging misrepresentation 
 - **FORGE:** `FORGE/research/jefferies/THESIS.md` — Jefferies as convergence node
 - **FORGE:** `FORGE/research/jefferies/EARNINGS/Q1_CY2026.md` — $17M loss detail
 - **KB:** ML-REG-078 (First Brands DOJ), ML-REG-088 (WAL/JEF confirmed), ML-REG-116 (JEF Q1 earnings)
+
+---
+
+## FOLD 2026-09-24 — LAM / Jefferies: current state (supersedes §WAL Exposure Path figures, §CATALYST, §WAL V2 Impact)
+
+**Identity:** WAL's loan to LAM TFG I SPV LLC (Point Bonita-owned, Leucadia Asset Management platform) = the **$126.4M Q1-26 "LAM" charge-off**. It is the First-Brands-linked credit — not a separate vector (KB-WAL-135, -186). WAL's own 10-Qs never name Point Bonita or First Brands (KB-WAL-144 note); the link rests on Jefferies/press/BROCK.
+
+| Item | State | Source | Tier |
+|---|---|---|---|
+| Charge-off | $126.4M "remaining balance", booked Q1-26 (8-K 3/6); fully realized, no Q2 residual | KB-WAL-084, -124, -186 | A1 |
+| Default mechanism | "servicing failures, including lapses in UCC filings" → Oct-25 forbearance (repay by 3/31/26) → payments Oct-25…1/15/26 ($42.1M last received) → 2/27 payment missed → charge-off | KB-WAL-144 (Q1 10-Q) | A1 |
+| WAL's claim | NY Supreme Court, Bank + collateral agent v. Jefferies Financial Group, LAM LLC & affiliates. Mar-26: breach + fraudulent inducement. **Amended May-26:** breach, fraud, negligence, promissory estoppel, unjust enrichment | KB-WAL-144, -152 (Q2 10-Q) | A1 |
+| Jefferies countersuit | ~2026-07-01, NY state court, alleges WAL unlawfully froze a **$25M** Point Bonita deposit. Not in the Q2 10-Q; absence is uninformative (Note 15 blanket) | KB-WAL-135, -153, -177 | B (secondary) |
+| Jefferies' defense | Non-recourse to SPV; affiliates excluded; "WAL already recovered more than half" | KB-WAL-136 | Counterparty assertion, UNVERIFIED |
+| Guarantee direction | Conflicting secondary renderings (WAL asked/refused vs WAL declined an offer) | `:49` vs KB-WAL-136 | UNVERIFIED — read Jefferies' 3/8 release |
+| Recovery to date | Not disclosed: "Any future recoveries will be recognized when realized or realizable" | KB-WAL-153 | A1 (negative) |
+| Mgmt label 9/16 | "the Lam for us is a breach of contract"; "favorable outcome … over the next year or so" (said of both) — narrower than the amended pleading | `research/CATALYST_SWEEP_2026-09-24.md:80` | T2, re-verify |
+| Docket/news 8/20→9/24 | No development found; EDGAR FTS 0 hits "Point Bonita" | CATALYST_SWEEP:118 | search-negative |
+| Next test | Q3 10-Q "Legal Disputes…" paragraphs: countersuit disclosed? recovery figure? ruling/settlement/accrual? | `../Q3_10Q_GRADING_FRAME_2026-09-24.md` §3 | — |
+
+**P&L:** closed (loss realized). **Forward:** two-way — recovery upside vs a $25M counter-exposure. V2 remains historical and excluded from the composite (THESIS v2.4).
+
+> **Collateral-perfection screen (BROCK, KB-WAL-186; applied 2026-09-24).** Both WAL fraud losses failed at the *claim on the collateral*, not at credit selection: LAM defaulted after "servicing failures, including lapses in UCC filings" (Q1 10-Q, KB-WAL-144, A1), and Cantor's pledged loans carried forged title policies concealing prior liens (LA Superior 25STCV24263, KB-WAL-137). The auditor-gatekeeper framing in `AUDITOR_NEXUS.md` / KB-WAL-080 does not describe either filed mechanism. The forward question is therefore not "is there more NDFI exposure?" but "where else does WAL lend against collateral whose perfection or priority is maintained by someone else — a servicer, sponsor or agent?" Candidates by structure, **none tested**: mortgage warehouse + MSR lending ($7.155B, 12% of loans; perfection runs through custodial/agency acknowledgement arrangements), Note Finance (the book Cantor sat in; KB-WAL-022), and agented SPV private-credit facilities where WAL is a participating lender — e.g. the Deutsche Bank-agented Crestline SPV facility WAL joined 2026-09-18 (KB-WAL-195; WAL commitment undisclosed). Management's 9/16 "no other instance" (T2) is scoped to double-pledged *titles* and does not answer the perfection question; no WAL disclosure of a perfection/servicing review beyond Cantor has been found (UNVERIFIED). Who held the UCC-filing duty in the LAM structure — SPV, servicer or WAL's collateral agent — is not public (loan documents unfiled): UNVERIFIED.
+
+*Fold + screen applied 2026-09-24 (WAL session #7) from `../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1.6/§2, drafted there verbatim and verified at the artifact before applying. Content above the fold is unchanged. The perfection question was first posed 3/26 in the now-archived `../archive/FRAUD/INVESTIGATION_ROADMAP.md` Track 2.*

@@ -79,7 +79,7 @@
 | File | Description |
 |------|-------------|
 | `FRAUD/STATUS.md` + `FRAUD/SYNTHESIS_V2.md` | Q1-cycle records (bannered) — V2 RESOLVED in 8-K; forward thread = litigation |
-| `FRAUD/AUDITOR_NEXUS.md` · `AUDIT_COMMITTEE.md` · `CLASS_ACTION_FINDINGS.md` · `STUPIN_CRE.md` · `FIRST_BRANDS.md` · `TRICOLOR.md` · `INVESTIGATION_ROADMAP.md` · `ZION_AUDIT_COMPARISON.md` · `RSM_PUBLIC_AWARENESS.md` · `ISSUER_B_ELIMINATION.md` | Pre/post-print fraud research (First Brands docket owner = OTTO; shared JEF node = `FORGE/research/jefferies/`) |
+| **Live:** `FRAUD/FIRST_BRANDS.md` (LAM/Jefferies §FOLD 9/24 + perfection screen) · `FRAUD/STUPIN_CRE.md` (Cantor §FOLD 9/24) · records bannered 9/24: `FRAUD/AUDITOR_NEXUS.md` · `AUDIT_COMMITTEE.md` · (`STATUS.md` / `SYNTHESIS_V2.md` riders) · **archived 9/24 → `archive/FRAUD/`:** CLASS_ACTION_FINDINGS · TRICOLOR · INVESTIGATION_ROADMAP · ZION_AUDIT_COMPARISON · GRANT_THORNTON_NEXUS · ISSUER_B_ELIMINATION · RSM_PUBLIC_AWARENESS | Pre/post-print fraud research (First Brands docket owner = OTTO; shared JEF node = `FORGE/research/jefferies/`) |
 
 ### Deep dives (on-demand)
 `Q1_2026_ANALYSIS.md` (HELD 9/24 — `THESIS.md` travels it) · `WEAKNESSES.md` (steelman — `THESIS.md` owns the version) · `LEADERSHIP.md` (STALE-VINTAGE 3/31, kept — `THESIS.md` travels it) · `research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md` · **Archived 2026-09-24 → `archive/`** (record `archive/RETIREMENT_SWEEP_2026-09-24.md`): `INVESTOR_DAY_FINDINGS_2026-05-12.md` + `_PREP` · `EXTERNAL_PROMPTS.md` · `TECHNICALS_20260401.md` · `AUDIT_MAR25.md` · `PRIOR_RESEARCH_EXTRACTS.md` · `V21_RESPONSE_TO_RED_CHG_025.md`

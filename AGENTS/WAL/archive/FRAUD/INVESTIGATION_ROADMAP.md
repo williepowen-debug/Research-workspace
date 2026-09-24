@@ -1,3 +1,5 @@
+> 🗄️ **ARCHIVED 2026-09-24** (WAL session #7, Will-directed housekeeping) under root `CLAUDE.md` § Data Hygiene retirement: content ~180 days old, not boot-read, referenced only by FRAUD-internal navigation and INDEX (don't count), no pending dated event. Per-file review → `../../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1. **Content unchanged below.** Bare file names inside resolve to `../../FRAUD/` (live siblings) or this folder (archived siblings). **Historical record — cite with its own date, never as current.**
+
 # WAL-JEF-Point Bonita Investigation Roadmap
 **Source:** GPT-5.4 analysis, Mar 26 2026
 **Purpose:** Checklist for monitoring + Apr 21 WAL earnings prep

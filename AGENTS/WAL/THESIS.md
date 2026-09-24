@@ -278,7 +278,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 | Credit | Q1 Charge-off | Reserve Coverage | Status |
 |---|---|---|---|
 | **LAM (Leucadia Asset Mgmt)** | $126.4M | "remaining balance" — full write | RESOLVED |
-| **Cantor Group V** | $26.1M | ~89% of prior $29.4M reserve utilized | PARTIALLY RESOLVED — $46M residual + $13M senior liens |
+| **Cantor Group V** | $26.1M | ~88% of the prior **$29.6M** specific reserve used ($3.5M left at 3/31, KB-143) — ⚠️ that is reserve UTILISATION; the loss as a share of the $98.5M exposure is **26.5%** (vs ZION ~83% on the same scheme) | PARTIALLY RESOLVED — residual **$72.4M gross** ($98.5M − $26.1M, A1 arithmetic) + senior liens *(corrected 2026-09-24: the ~$46M entered at v2.0 on 5/1 with no traceable source; see CHANGELOG)* |
 
 **LAM = Leucadia Asset Management = Jefferies subsidiary** (post-2013 Leucadia/Jefferies merger). $126.4M was 70% of total Q1 C&I NCOs ($181.4M). This credit was on the **Jefferies/MFS contagion rail** — the V2 thesis chain produced a regional-bank charge-off visible in 8-K text.
 
@@ -294,7 +294,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 🟡 **Still open:**
 - Other Jefferies/Leucadia-era credits in WAL's book? Transcript and 8-K didn't enumerate. **DEF 14A pass + Q&A** still pending.
-- Cantor residual ~$46M — protected by $13M senior liens. Recovery posture aggressive (mgmt acquired the liens).
+- Cantor residual **$72.4M gross, $3.5M specific allowance left** (Q1 10-Q, KB-143; NOT restated in the Q2 10-Q) *(corrected 2026-09-24: the ~$46M entered at v2.0 on 5/1 with no traceable source; see CHANGELOG)* — plus senior liens bought to protect it ($13M in Q1; the $64M figure is a candidate tie, see the Q3 10-Q frame §3). Recovery posture aggressive (mgmt acquired the liens).
 - $50.5M Q1 securities-sales gain absorbed the LAM charge. **Q2 has no buffer left.**
 
 ---
@@ -407,7 +407,7 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 | `sources/q1_2026/WAL Q1 2026 - Press Release Synthesis.md` | Round 2 press release deep-mine — leading-vs-lagging, CRE-NOO trajectory, CLN pool detail |
 | `sources/q1_2026/WAL Q1 2026 - Deck Synthesis.md` | Round 2 deck deep-mine — Slide 12 Classified mix, Slide 17 outlook, Slide 23 maturity wall, Slide 24 NDFI cohort |
 | `sources/q1_2026/WAL Earnings Call.md` | Q1 transcript |
-| `FRAUD/` | V2 chain documentation — refresh pending Wave 1 chunk 2 (`FRAUD/SYNTHESIS_V2.md`) |
+| `FRAUD/` | V2 chain documentation. **Live state (2026-09-24): `FRAUD/FIRST_BRANDS.md` §FOLD (LAM/Jefferies) + `FRAUD/STUPIN_CRE.md` §FOLD (Cantor).** `SYNTHESIS_V2.md` / `STATUS.md` are frozen 5/1 records with a 9/24 rider (three readings in them are wrong). 7 files archived → `archive/FRAUD/` |
 | `../REGINALD/domain/WAREHOUSE_EXPOSURE.md` | Mortgage warehouse counterparty mapping (Atlas SP = Apollo, not WAL) |
 | `LEADERSHIP.md` | Insider activity + CFO swap (Idnani from JPM FIG) |
 | `EARNINGS_PREP.md` | Pre-print framework (now historic) |

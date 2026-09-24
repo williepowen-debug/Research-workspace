@@ -1,4 +1,5 @@
 # Stupin / Cantor Group CRE Fraud — WAL Fraud Vector 3
+> ⤵ Content above `§FOLD 2026-09-24` is pre-print (3/25). The $98.6M/30%/70%, shortfall, Q4-silence, OREO/provision and MI3 lines are superseded (KB-WAL-014/-016/-018/-019/-020/-001/-002). Current state → §FOLD 2026-09-24.
 **Last Updated:** 2026-03-25
 
 ---
@@ -118,3 +119,25 @@ Three layers of hidden CRE (ML-REG-115):
 
 - **Deep dive:** `../research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md` — full WAL vs ZION analysis with Q4 update
 - **KB:** ML-REG-011 (fraud impact), ML-REG-038 (provision analysis), ML-REG-039 (syndicate mapping), ML-REG-046 (fraud mechanics), ML-REG-044 (Nano Banc)
+
+---
+
+## FOLD 2026-09-24 — Cantor Group V: current state
+
+| Item | State | Source | Tier |
+|---|---|---|---|
+| Facility / nonaccrual | **$98.5M** to nonaccrual as of 9/30/25 ($98.6M was a secondary figure — superseded) | KB-WAL-143, -148 | A1 |
+| Specific allowance → charge-off | $29.6M established Q3-25; **$26.1M charged off Q1-26** on updated "as-is" appraisals + "expected duration of the resolution process"; **$3.5M** remaining at 3/31/26 | KB-WAL-143 | A1 |
+| Q2-26 | "No additional charge-offs were recognized during the three months ended June 30, 2026." Q2 10-Q DROPPED the $3.5M, the residual and the lien figures | KB-WAL-148; Q2 read §1(b) | A1 |
+| Residual carrying value | **$72.4M gross** derived ($98.5M − $26.1M) at 3/31/26; "~$70M" (A2 reconcile). The "~$46M" figure on other WAL surfaces has **no traced source** | KB-WAL-143, -082 | derived / UNRECONCILED |
+| Loss rate so far | $26.1M / $98.5M = **26.5%** of exposure (vs ZION 83%, KB-WAL-015). "89%" is reserve *utilisation*, not a loss rate | KB-WAL-143, -015 | derived |
+| Recovery legs | $13M senior NPL lien bought Q1 + stated intent to buy more; senior protective liens $64M at Q2 (+$51M); limited + full guaranty from two UHNW individuals (Marcil/Stupin); mortgage-fraud policy | KB-WAL-143, -123, -148 | A1 / A2 |
+| ★ $64M candidate tie | Q2 MD&A "purchase of $64M of loans with more-than-insignificant deterioration" (PCD) = liens $64M — magnitudes match, filing does NOT connect them | KB-WAL-148; Q3 10-Q frame §3 | CANDIDATE, never promoted by inference |
+| Docket | WESTERN ALLIANCE BANK v. CANTOR GROUP V LLC et al., LA Superior 25STCV24263, Judge Terry A. Green; no development found 8/20→9/24 (Trellis 403; LA portal not accessed) | KB-WAL-137; CATALYST_SWEEP:119,166 | search-negative |
+| Mgmt 9/16 | "One was a fraud, which was Cantor"; "favorable outcome … over the next year or so"; "found no other instance [of double-pledged titles] in our book … other than … Cantor" | CATALYST_SWEEP:80 | T2, re-verify at webcast |
+| Securities class action | Investigations only as of 3/27 (Rosen, Shamis & Gentile); not re-checked since; Q2 10-Q Note 15 blanket only | `../archive/FRAUD/CLASS_ACTION_FINDINGS.md`; KB-WAL-021, -153 | UNVERIFIED since 3/27 |
+| Next test | Q3 10-Q "Legal Disputes…" → Cantor: Q3 charge-off, recovery $, residual/allowance, $64M tie | `../Q3_10Q_GRADING_FRAME_2026-09-24.md` §3 | — |
+
+**Scope of the "no other instance" assurance:** it covers the Cantor failure mode (forged title / lien priority). It says nothing about collateral-perfection lapses — the LAM failure mode. See `FIRST_BRANDS.md` §FOLD and the perfection screen.
+
+*Fold applied 2026-09-24 (WAL session #7) from `../research/FRAUD_CORPUS_REVIEW_2026-09-24.md` §1.11. Content above unchanged. This file is now the LIVE Cantor home.*

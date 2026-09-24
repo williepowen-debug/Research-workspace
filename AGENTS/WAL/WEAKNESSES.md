@@ -24,7 +24,7 @@
 - ~~**MI3 trajectory** — FFIEC PDD overdue~~ ✅ **CLOSED 2026-08-07 — it ran** (12-quarter series, `workbook/MI3_SERIES.tsv`). **Successor unknown, and it is a different question:** MI3 *dollars* are **+14% YoY** ($2,246M → $2,555M) while the *ratio* falls — so the hidden-CRE book is **growing** even as the concentration measure plateaus. Which series a claim is about now matters.
 - ★ **NEW 8/20 — NDFI nonaccrual $122.5M on a $15.81B book (0.77%).** One quarter only; in a 26-bank sample only WFC carries more in absolute dollars. **No trajectory pulled — this is the largest genuinely-open unknown on the desk.**
 - **Lender-finance quality-of-names** (2,000 obligors) — V3's residual question, unresolved since Q1.
-- **Litigation path** — WAL v. Jefferies ($126.4M claim, NY Sup. Ct.) timeline/recovery; Cantor residual (~$46M + $13M liens).
+- **Litigation path** — WAL v. Jefferies ($126.4M claim, NY Sup. Ct.) timeline/recovery; Cantor residual ($72.4M gross, $3.5M specific allowance left at 3/31 — corrected 2026-09-24 from an untraced ~$46M; see CHANGELOG) + senior liens.
 - Whether the **H2 NPL-resolution path** (3-4 of the six closing in Q3) resolves at par or with charge-downs.
 
 ## Monitoring for Thesis Break (mirror of STATUS §EXIT RULES — that table carries FIRED state; this one carries meaning)

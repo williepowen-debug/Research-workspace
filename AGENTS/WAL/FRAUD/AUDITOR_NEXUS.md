@@ -1,4 +1,5 @@
 # WAL Auditor & Gatekeeper Nexus — Complete Findings
+> 📼 **PRE-PRINT RECORD (vintage 2026-03-27; bannered 2026-09-24).** Historical; superseded by the Q1/Q2 10-Q primaries. Do not cite as current: the "three vectors" were two credits (First Brands/Point Bonita = the LAM charge-off, KB-WAL-135/-186; Tricolor exposure never evidenced); the "30% reserve unchanged" became a $26.1M Q1-26 charge-off with $3.5M allowance left (KB-WAL-143/-148); "Issuer B = WAL" is an unconfirmed inference (KB-WAL-071). The failure mode the filings actually name is collateral **perfection** ("lapses in UCC filings", KB-WAL-144), which is not an auditor-verification failure. Live: `STUPIN_CRE.md` / `FIRST_BRANDS.md` §FOLD 2026-09-24.
 **Created:** 2026-03-27
 **Sources:** PCAOB inspection reports, SEC enforcement actions, EDGAR filings, Gotham City Research (Jan 28 2026)
 

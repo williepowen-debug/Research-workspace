@@ -11,6 +11,18 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-09-24 — CORRECTION (no version bump; ZERO weights, probabilities, EV or PT moved — rider R3)
+
+**What:** the **"~$46M Cantor residual"** carried in `THESIS.md` (Q1-2026 V2 table + "still open" list), `WEAKNESSES.md` and the desk `CLAUDE.md` has **no traceable source**. `git log -S` shows it entered at **v2.0 on 2026-05-01** (`97f3682b8`, REGINALD). The primary-derived figures are: facility **$98.5M** − Q1 charge-off **$26.1M** = **$72.4M gross**, with **$3.5M** of the **$29.6M** specific allowance left at 3/31/26 (Q1 10-Q, `KB-WAL-143`; the Q2 10-Q did not restate either). THESIS also carried the reserve as **$29.4M** (the filing says $29.6M). Both corrected in place with an inline marker.
+
+**Also made explicit:** the "~89% of the reserve" figure is reserve UTILISATION. It is not comparable to ZION's ~83% LOSS/EXPOSURE rate on the same scheme; like-for-like WAL has recognized **26.5%** (`KB-WAL-077`/`-081` notes, 9/24).
+
+**Same session, non-substantive:** `THESIS.md`'s `FRAUD/` file-table row re-pointed from "refresh pending Wave 1 chunk 2" to the two live FOLD sections applied 9/24 (FIRST_BRANDS = LAM/Jefferies, STUPIN_CRE = Cantor). 7 FRAUD files archived.
+
+**Found by:** the FRAUD-corpus review, `research/FRAUD_CORPUS_REVIEW_2026-09-24.md`, verified at the artifact before applying. **Not edited:** the desk `CLAUDE.md` lines 16 and 150 (boot card, raised with Will). **Why no weight moves:** the residual is not an input to any scenario weight or range; it is V2 forward-risk context (V2 is excluded from the composite).
+
+---
+
 ## v2.4 — 2026-08-20 — **THE MI3 DISCONFIRMATION IS RE-MARKED. Bear-fast 10% → 2%; total bear FELL 26% → 18%; the margin of safety is nearly closed.**
 
 **Authority:** Will, in-session **2026-08-12**, batch ruling row 32b item ④ (P7) — `PROME/proposals/2026-08-12_rule-batch-RULED.md`. **Constraint attached to the ruling and treated as part of it, not a preference:** ⛔ *total bear must NOT rise on a disconfirmation.*
