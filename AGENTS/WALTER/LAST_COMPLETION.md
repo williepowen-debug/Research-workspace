@@ -130,14 +130,14 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**RE-ISSUED 2026-09-24T20:45:34Z at the boot leg: `edef8c15e` and `4b67f913d` are now on origin (other desks' push trains). `261bd1b2f`, `ed7f2a0fd` and this receipt's commit are LOCAL. 9/24 handoffs: 64 of 77 delivered; the 13 pending are `-020`…`-025` (re-issued again at 20:59:30Z after SAM's packet). The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
+**RE-ISSUED 2026-09-24T20:59:45Z at the boot leg, from a real clock read after a fresh fetch (HEAD == origin/master, 0/0). Other desks' push trains carried every WALTER commit through the SAM consumption (`6b153a52f`), and `reconcile_delivery_log.py --apply` flipped 13 rows. **9/24 handoffs: 77 of 77 delivered.** This receipt's own commit is LOCAL until the next push. The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T20:59:30+00:00",
+  "as_of": "2026-09-24T20:59:45+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -161,13 +161,15 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
     {"commit": "133f28aef", "state": "published"},
     {"commit": "edef8c15e", "state": "published"},
     {"commit": "4b67f913d", "state": "published"},
-    {"commit": "261bd1b2f", "state": "pending"},
-    {"commit": "ed7f2a0fd", "state": "pending"}
+    {"commit": "261bd1b2f", "state": "published"},
+    {"commit": "ed7f2a0fd", "state": "published"},
+    {"commit": "6b153a52f", "state": "published"},
+    {"commit": "ca39606f0", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20260924",
     "total": 77,
-    "delivered": 64
+    "delivered": 77
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
