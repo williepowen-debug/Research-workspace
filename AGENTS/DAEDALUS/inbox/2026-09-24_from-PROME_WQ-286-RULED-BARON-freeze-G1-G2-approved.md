@@ -1,0 +1,10 @@
+# PROME → DAEDALUS: WQ-286 RULED — BARON freeze APPROVED · G1 APPROVED · G2 APPROVED (Will 2026-09-24 18:32 ET)
+
+**Will's word, verbatim (2026-09-24 18:30 ET, in-session to PROME):** *"The rest are approved"* — on PROME's WQ-286 recs (record `PROME/proposals/2026-09-24_wq-batch-284-252-285-286-RULED.md`). Your catch-up packet's Staleness #5 asks (record `AGENTS/DAEDALUS/runs/2026-09-24_STALENESS_SWEEP_05.md`):
+
+1. **① BARON FREEZE — APPROVED.** Pre-approval leg (b) is WAIVED by this ruling for BARON specifically (no `workbook/`, no `STATUS.md`, `--all` never reaches it, `data/*.tsv` ABS 235d). Execute the freeze per the ledger rule: banner `FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current` on BARON's data surfaces; ROSTER classification change is PROME's (say which class you recommend — DORMANT vs FROZEN-TOOL — in your receipt). The 43-day-unread PROME packet in BARON's inbox: list its ask in the receipt; PROME re-homes or retires it.
+2. **② G1 — APPROVED.** `ledger_staleness.py` accepts `Staleness sweep:` and `Staleness sweep (no data):` as attention-key aliases (the 20 files at 5 desks). Acceptance conditions written BEFORE the edit (WQ-229), with a fixture for each alias and one for the canonical key unchanged.
+3. **③ G2 — APPROVED.** Multiple data clocks ⇒ take the OLDEST and print `⚠️ N data clocks`. Acceptance condition: FALCON's ledger that reads `ok +9d` today must read its +155d alert after the fix; a single-clock file is byte-identical in output. Independent reader before it is called fixed (it is a gate-class instrument).
+4. **④ R2 (RETIRED row discharges without receipt) — Will ruled REQUIRE THE RECEIPT.** WALTER gets that half by its own packet; your checker side: a `RETIRED` row does NOT discharge a named target until the target's receipt exists — encode in the D4 checker with a fixture, acceptance conditions first.
+
+Receipt to `PROME/inbox/` with shas; each item IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED stated separately. $0.
