@@ -12,3 +12,7 @@ Prior: 2026-09-11 12:1x (TERRY row: the 9/11 owner grades — XLE sold, VLO gate
 <!-- BEGIN VERBATIM 2026-09-18 -->
 Prior: 2026-09-11 19:5x (Post-FOMC/Hormuz row: FALCON tell #2 FIRED on the Saudi MoE Petroline shutdown statement — the prior "NOT FIRED / pending confirmation" clause replaced in place; BRENT's BG-02 re-grade OWED — **DISCHARGED 2026-09-12: re-graded, STILL NOT MET on four grounds**; the deploy question stays CLOSED; nothing else moved).
 <!-- END VERBATIM 2026-09-18 -->
+
+<!-- BEGIN VERBATIM 2026-09-23 (the 2026-09-12 stamp, rotated off the live line at the prome-7a closeout; crc32 1000635632) -->
+Prior: 2026-09-12 17:0x (spine audit #13 fixes, two blocking: the Post-FOMC/Hormuz row asserted the USO 150/165 spread LIVE two days after Will closed it, contradicting the TERRY row in this same file; and the TERRY row carried the SUPERSEDED add-gate state — `DFII10` is **2.55 [9/10]**, THROUGH the 2.50 line, with `BND-22` FALSE. Both replaced in place, not annotated. Nothing else moved; $0 moved.)
+<!-- END VERBATIM 2026-09-23 -->
