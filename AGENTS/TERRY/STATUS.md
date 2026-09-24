@@ -17,7 +17,7 @@
 > | **ROLL70** WAL Dec-18 70P ×1 (RH) | 2.50/2.70 ⇒ +`$30` (+13.6%). Exit 0-of-3 (REGINALD thru 9/23). **Exit basis written into the letter** (DAEDALUS #1 ② discharged); clause (d) awaits REGINALD. Sep-18 pair LAPSED; postmortem written. |
 > | **REFINER** VLO 1 of 3 @ $412 | `$392.61` (−4.7%). **9/23 scaling rule met on the letter, fails the 9/14 crack-not-collapsing condition ⇒ would-have-been STAND DOWN.** 9/24 crude-led rally ⇒ **DO NOT ADD**. `F1` buffer **`$4.72`** (matched-Nov crack `$99.72`). `F1` basis asked of HENRY. |
 >
-> **Done today:** STATUS rotated · construction rule #22 amended (PROME L429) · DAEDALUS sweep #1 both asks disposed · 7 inbox packets consumed · packets out to PROME / DAEDALUS / REGINALD (ASK) / HENRY (ASK). **Process gap offered to PROME:** a staged add has no between-session watcher (GATES row is PROME's call).
+> **Done today:** STATUS rotated · construction rule #22 amended (PROME L429) · DAEDALUS sweep #1 both asks disposed · 7 inbox packets consumed · packets out to PROME / DAEDALUS / REGINALD (ASK) / HENRY (ASK). **Process gap CLOSED:** the 2 staged VLO shares now have a registered watcher, `GATE-TERRY-VLO-SCALE` (Will 14:59 ET, WQ-282; `PROME/GATES.tsv` `0289ac024`, letter `5fae05da9` verified verbatim). Each fire = TERRY grades on settled closes + rec to Will. review_by 10/14.
 >
 > **Open items carried:**
 > - **Answers owed IN:** REGINALD on clause (d) · HENRY on the `F1` basis · Will on the VLO share's account + fill time (D-55).
