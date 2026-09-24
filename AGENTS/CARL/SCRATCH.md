@@ -48,7 +48,9 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ### UPCOMING (next 2 weeks)
 - **Mon 10/5: THESIS-SCOPE REVIEW (Will-directed 9/24)**: broad fragility vs bottom-tier credit stress; after 9/30 + 10/2 data; read handoff_RED/COUNTER_LOG first; a structural change goes to Will.
 - 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DR-1 private-book leg decision (FHA leg was delivered 8/27, not held; corrected 9/24). 10/14–15: September CPI/retail.
-- RED 9/14 ask: CRL revision ledger with direction-of-benefit, target 2026-09-30 (not started).
+- RED 9/14 ask: CRL revision ledger with direction-of-benefit, target 2026-09-30. **STARTED 9/24 eve** (`thesis/REVISION_LEDGER.md` + `scripts/revision_ledger.py`).
+- **BaaS feed to REGINALD (WQ-228, RULED 9/15):** CARL/PHAN own the fintech consumer-credit leg. Define books + cadence + packet shape; first feed with the Q3 prints (~late Oct). Not started.
+- **CARL-DR-3 (AZO/ORLY) never delivered by DEWEY** (target ~8/28). Ask PROME whether it is still queued.
 
 ### BACKLOG (no deadline)
 - 259→223 unrecorded non-action BOARD IDs (old info-cc backlog, pre-9/15).
@@ -107,4 +109,4 @@ This cursor assertion is not the 223-ID backlog or evidence of substantive revie
 | Ledger nudge | Explained in commit | KB refreshed; child ledgers are the child sessions' work |
 | Retirement sweep | PARTIAL: candidates listed, NOT moved | 6 files >60d by last commit (HHDC Q1 brief, Q2 earnings prep, ABS protocol+README, SYF_COF_Q1, ally reclass audit). Reference review of each not done, so nothing moved. |
 | Memory | Auto-memory EXTENDED | finding_directive_overtaken_between_authorship_and_delivery: +CARL DR-1 instance (own docket row relayed as fresh). memory_index_check --slug: 0 blocking; MEMORY.md 74% of cap. Local MEMORY.md unchanged. |
-| Approvals | Preserved | WQ151/182/183/227 stand; CRL-08 bar, WQ228, DR-1 still open |
+| Approvals | Preserved | WQ151/182/183/227 stand; CRL-08 bar RULED (WQ-281, 9/24); WQ-228 RULED 9/15 (REGINALD owns BaaS; CARL/PHAN owe a feed); DR-1 still open. *[Corrected 9/24 eve: this row first read "CRL-08 bar, WQ228 … still open" — both had been ruled.]* |
