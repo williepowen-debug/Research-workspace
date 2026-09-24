@@ -1,8 +1,8 @@
 {
   "verdict": "REVIEWED",
   "baseline": "55c9aa894a856317f515c94ee5ae3f4222be5901",
-  "head": "313580b70ea910ca36e7d32963b08b11b571b06a",
-  "recorded_at": "2026-09-24T19:42:25+00:00",
+  "head": "92d5202a7f75eba81abebdab8263501d3b4b762a",
+  "recorded_at": "2026-09-24T19:43:15+00:00",
   "recorded_by": "PROME",
   "paths": {
     "AGENTS/BOND/inbox/WALTER/SIG-W-20260924-018.md": "0f5730b94dd9fc19ce1fc26834433671c49ee9daf2676d12670fd01613160ec6",
@@ -109,6 +109,6 @@
     "memory/auto/finding_heredoc_terminator_ends_the_and_chain.md": "d2a43395cc580a8fb3416adbaf73c9535ff97fe95f40e2373126a2c535cc9d58",
     "memory/auto/finding_threshold_spec_fails_before_world.md": "b0f315f5abf3308a62054dfd357d1a9362783020f980e9ccd686c0d1dc6805e8"
   },
-  "reviewed_note": "argus-3f 15:39\u201315:42 ET: 7 \u274c / 9 \u26a0\ufe0f / 30 \u2705 over 46 claims; all 7 \u274c APPLIED and re-verified 6 \u2705 + 1 \u274c (STATUS row count 4\u21925, fixed, numeral); \u26a0\ufe0f1\u20135,7\u20139 declared residue in PROME/reports/2026-09-24_prome-3f-closeout.md",
-  "reviewed_at": "2026-09-24T19:42:25+00:00"
+  "reviewed_note": "argus-3f 15:39\u201315:43 ET: 7 \u274c/9 \u26a0\ufe0f/30 \u2705 over 46 claims; all 7 \u274c applied, re-verified 6 \u2705 + 1 numeral fix; MARCO packet move verified a 100% rename (ARGUS 15:43); \u26a0\ufe0f1\u20135,7\u20139 residue in PROME/reports/2026-09-24_prome-3f-closeout.md; the two rename paths are outside the manifest by rule (tool gap, registered at the next boot)",
+  "reviewed_at": "2026-09-24T19:44:46+00:00"
 }
