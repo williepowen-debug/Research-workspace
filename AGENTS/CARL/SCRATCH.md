@@ -48,9 +48,9 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ### UPCOMING (next 2 weeks)
 - **Mon 10/5: THESIS-SCOPE REVIEW (Will-directed 9/24)**: broad fragility vs bottom-tier credit stress; after 9/30 + 10/2 data; read handoff_RED/COUNTER_LOG first; a structural change goes to Will.
 - 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DR-1 private-book leg decision (FHA leg was delivered 8/27, not held; corrected 9/24). 10/14–15: September CPI/retail.
-- RED 9/14 ask: CRL revision ledger with direction-of-benefit, target 2026-09-30. **STARTED 9/24 eve** (`thesis/REVISION_LEDGER.md` + `scripts/revision_ledger.py`).
+- RED 9/14 ask: CRL revision ledger, due 2026-09-30. **DRAFT v0 DONE 9/24 eve** (`thesis/REVISION_LEDGER.md/.tsv`, `scripts/revision_ledger.py --classify`). Remaining: a hostile read of the 19 OVERRIDES rows, then deliver to RED. Flags the mixed Brier convention (CRL-07/16 at final marks) and reverses CARL's 9/10 CRL-05 'void cost me' claim under as-made scoring.
 - **BaaS feed to REGINALD (WQ-228, RULED 9/15):** CARL/PHAN own the fintech consumer-credit leg. Define books + cadence + packet shape; first feed with the Q3 prints (~late Oct). Not started.
-- **CARL-DR-3 (AZO/ORLY) never delivered by DEWEY** (target ~8/28). Ask PROME whether it is still queued.
+- **CARL-DR-3 (AZO/ORLY):** dropped by omission. PROME re-queued it 9/24 as DOCKET L468, a DEWEY wake on 2026-10-01. CARL waits.
 
 ### BACKLOG (no deadline)
 - 259→223 unrecorded non-action BOARD IDs (old info-cc backlog, pre-9/15).
