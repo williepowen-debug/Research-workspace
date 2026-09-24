@@ -1,0 +1,25 @@
+# BOARD staleness sweep + adjudication record — 2026-09-24 (CADENCE run, 7d overdue; FORMAT_SPEC v0.16 Signal Lifecycle)
+# Trigger: walter_doctor staleness_sweep_overdue (21d since 2026-09-03; cadence 14d). Skipped by name at the 9/24 Tier-2 closeout; run the same day on Will's "please process your work queue".
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 231 candidates of 1033 signals (unscoped, all-cluster; already-tagged signals skipped by the tool).
+# Pattern split: P3 112 · P1 56 · P2 31 · P1+P3 15 · P2+P3 9 · P1+P2 5 · P1+P2+P3 3.
+#
+# ADJUDICATION BASIS + DISCIPLINE (same as 2026-09-03)
+#   - SPEC DISCIPLINE HOLDS AS THE DEFAULT ("Only actively-misleading signals get tagged"): 229 of 231 candidates carry NO tag. Dated snapshots are covered by the INDEX preamble rule.
+#   - THE ADJUDICATED CLASS WAS CHOSEN BY MECHANISM: world-state changes since the 9/03 sweep that could make an earlier signal assert a now-false CURRENT state. Four examined:
+#       (1) FOMC HIKE 9/16 — every FED_FRAMEWORK signal 9/03-9/16 read at the verdict line (9): all forecast or priced the hike; none asserts a hold as current. NO TAG.
+#       (2) PETROLINE SHUT 9/11 (restart REPORTED 9/22, unconfirmed) — 22 untagged pre-9/11 signals mentioning Petroline/East-West/Yanbu read at their context lines. 20 are dated flow snapshots or evidence-bar statements, correct as of their dates. 2 asserted an OPEN state since settled -> TAGGED below.
+#       (3) US-IRAN DIPLOMACY (UNGA talks 9/22, mediated) — SIG-W-20260921-010's "third state" still matches the anchor (mediated only, no deal). NO TAG.
+#       (4) BOUNDARY #8 — handled at dispatch today (SIG-W-20260924-016 back-marked -001). Not re-counted here.
+#   - Post-9/03 dated-window (P1) candidates read at the verdict line (10): -0904-008, -0908-007, -0910-002, -0914-015, -0914-025, -0917-007, -0917-010, -0921-001, -0921-007, -0921-010. None tagged. -0908-007 (PJM "final outcome pending") and -0921-001 (Japan rate-check window across the 9/21-9/23 Tokyo holiday) have passed windows whose outcomes WALTER did NOT verify; untagged because an unverified outcome cannot support a tag.
+#   - EACH TAG = YAML status + status_ref + status_date, a file banner, and the generated INDEX back-marker (gen_board_index derives it from frontmatter since the WQ-174 cutover).
+#
+# LEG 1 -- LIFECYCLE TAGS APPLIED (2).
+signal_id	status	status_ref	basis_verified_at	what_survives
+SIG-W-20260911-004	SUPERSEDED	SIG-W-20260911-006	BOARD -0911-006 verdict + body line 35 read this session ("STATUS tell #2 (Yanbu/Petroline): FIRED")	The registration of the 9/10 ~17:56Z report and its satellite evidence; the event was real. BROKE: 'TELL #2 NOT FIRED — PENDING-CONFIRMATION', which the INDEX row still displayed.
+SIG-W-20260910-021	PARTIALLY-SUPERSEDED	SIG-W-20260911-006; SIG-W-20260924-010	-0911-006 verdict (Saudi MoE SHUT after 9/10 attacks) + -0924-010 verdict (Rubio names Kataib Hezbollah 9/22, US-gov level) read this session	The kill-guard discipline and the satellite-hotspot evidence; an attack on the pipeline on 9/10 was real. BROKE: the 'claim-only / verify required' state; the RT Ansarallah attribution is now CONTESTED.
+#
+# LEG 2 -- NOT RUN, SAID SO: the §3.6.1 correction-linkage backfill was not re-run. The 7 corrections dispatched 9/24 (-004, -009, -011..-015) got back-markers at dispatch.
+# LEG 3 -- P1/P3 NOT INDIVIDUALLY ADJUDICATED beyond the post-9/03 P1 read above. P3 (112) remains dominated by signals that CITE a RED-FT/REG-T identifier rather than assert its state.
+#
+# CARRIED FROM 9/03: (a) P2 false-positive rate -- narrower-pattern proposal to Will STILL NOT MADE (P2 31 this run); (b) row-by-row P1 pass -- done for the 10 post-9/03 P1 signals only, NOT the other 69; (c) SIG-W-20260716-004 INDEX-only verdict -- CLOSED: it now carries status/status_ref/status_date in frontmatter (dated 2026-07-24) and the generated INDEX shows it.
+# NEXT SWEEP DUE ~2026-10-08. Carry: (a), (b) for the pre-9/03 P1 set, and the outcomes of -0908-007 (PJM) and -0921-001 (Japan window).

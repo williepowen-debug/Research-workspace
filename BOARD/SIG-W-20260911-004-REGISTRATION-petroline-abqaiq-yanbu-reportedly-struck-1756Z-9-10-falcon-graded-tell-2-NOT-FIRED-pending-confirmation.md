@@ -18,7 +18,12 @@ resources: 4
 safety_net: clear
 word_count: 372
 verdict: "LEDGER REGISTRATION — Saudi East-West (Petroline, Abqaiq→Yanbu) REPORTEDLY struck ~17:56Z 9/10 on satellite-only evidence; FALCON graded TELL #2 NOT FIRED — PENDING-CONFIRMATION; no Aramco/MoE/SPA/CENTCOM statement and the Houthi claim names other targets. FALCON + BRENT already touched — NO duplicate dispatch."
+status: SUPERSEDED
+status_ref: "SIG-W-20260911-006 (Saudi MoE confirmed the Petroline SHUT 9/11; FALCON graded STATUS tell #2 FIRED)"
+status_date: 2026-09-24
 ---
+
+> ⚠️ **LIFECYCLE TAG `SUPERSEDED` applied 2026-09-24 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** BROKE: the 'TELL #2 NOT FIRED — PENDING-CONFIRMATION' state. The next day the Saudi Ministry of Energy confirmed the Petroline SHUT and FALCON graded tell #2 **FIRED** (`SIG-W-20260911-006`). SURVIVES: the registration of the 9/10 ~17:56Z report and its satellite evidence; the event was real. TRUE WHEN WRITTEN: this was a correct pending registration, not a sourcing failure. Current pipeline state: RESTART REPORTED 9/22, unconfirmed (`SIG-W-20260924-002`).
 
 # REGISTRATION — Petroline (Abqaiq→Yanbu) reportedly struck ~17:56Z 9/10; FALCON graded **TELL #2 NOT FIRED — PENDING-CONFIRMATION**
 

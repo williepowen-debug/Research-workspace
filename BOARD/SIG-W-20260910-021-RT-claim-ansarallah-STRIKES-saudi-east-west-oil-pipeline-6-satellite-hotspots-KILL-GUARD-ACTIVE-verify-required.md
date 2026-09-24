@@ -18,7 +18,12 @@ resources: 3
 safety_net: kill-guard-active
 word_count: 260
 verdict: "RT @RT_com posts: 'Ansarallah allegedly STRIKES Saudi Arabia's EAST-WEST OIL PIPELINE — MULTIPLE FIRE HOTSPOTS ERUPT along ROUTE. 6 SATELLITE FIRE HOTSPOTS FLARE UP along the PIPELINE ROUTE at nearly the SAME TIME.' Two satellite images of Al-Madinah Al-Munawwarah Province area with red hotspot marks. ⛔ MULTIPLE GUARDS ACTIVE: RT is a flagged-source class; NASA FIRMS ADD#15 kill-on-sight unless coordinates published; the Petroline 2019 trap guard is named directly in the anchor. This dispatch REGISTERS the claim for FALCON adjudication; it does NOT propagate the strike as fact."
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20260911-006 (attack and SHUT confirmed by Saudi MoE 9/11); SIG-W-20260924-010 (Rubio named Kataib Hezbollah 9/22)"
+status_date: 2026-09-24
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-09-24 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** BROKE: the 'claim-only / verify required' state. The Saudi Ministry of Energy confirmed on 9/11 that the pipeline was SHUT after multiple attacks on 9/10 (`SIG-W-20260911-006`). The RT **Ansarallah** attribution is now CONTESTED: US Secretary of State Rubio named **Kataib Hezbollah** (Iraq) on the record on 9/22 (`SIG-W-20260924-010`). That is a US-government attribution, not a Saudi one. SURVIVES: the kill-guard discipline and the satellite-hotspot evidence; an attack on the pipeline on 9/10 was real. TRUE WHEN WRITTEN.
 
 # ⛔ RT claim: Ansarallah 'allegedly' strikes Saudi East-West Oil Pipeline (Petroline) — 6 satellite hotspots — KILL-GUARDS ACTIVE, dispatch registers for FALCON adjudication ONLY
 
