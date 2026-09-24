@@ -6,6 +6,12 @@
 
 ---
 
+## v0.49 (2026-09-24) — INDETERMINATE row made consistent with its note (HAWK F3)
+
+**Active rule:** CHECKLIST verdict table, `INDETERMINATE` row. HAWK's 9/22 review of the pinned v0.47 table (`8d2c9b8ef`) found the row's action cell OPENED with "Route with lowered confidence" while the note said the verdict does not decide the disposition: two live instructions, and a reader executing the row alone would route every INDETERMINATE item. Fix: the cell now leads with the disposition rule and gives routing and kill as conditional branches. Clarification of an existing rule, landed inline under RULE 8. **Not fixed here, structural, to Will first:** F1 (the (a)/(b)/(c) reasons are exclusive per primary, not per claim) and F2 (no rule for conflicting primaries). F4 recorded as an observation. `THRESHOLD_SCAN.md` bumped to v0.49 in lockstep with no content change.
+
+---
+
 ## v0.47 (2026-09-21) — `FALSE` no longer absorbs "no primary source found"
 
 **Active rule:** in the CHECKLIST verdict table (`FALSE` / `INDETERMINATE` rows). **Status: LANDED, INDEPENDENT READ OUTSTANDING** — see the pinned revision below.
