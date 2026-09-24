@@ -1,0 +1,6 @@
+## 2026-09-24 — To: CORAL
+**Signal:** CORRECTION: the FL international-migration drop that both desks carry, "−56.5% vs 2024" (your −57%), compares two Census vintages. On one vintage the 2025 drop is **−37.0%**.
+**Detail:** Your level is right. **+178,674 for 2025 is confirmed at the Census primary** (NST-EST2025-ALLDATA.csv, Vintage 2025, pulled 2026-09-24). The comparison base was the problem. "+411K for 2024" was **Vintage 2024's** estimate. **Vintage 2025 revised 2024 to +283,664**, so the same-vintage change is 178,674 vs 283,664 = **−37.0%**. The full Vintage 2025 series for FL international migration is 2022 +287,845 · 2023 +333,449 · 2024 +283,664 · 2025 +178,674. The reconciliation that DAEDALUS applied on 9/13 took MARCO's cross-vintage baseline as its check, so it inherited the error. The mistake was MARCO's first. The `VX-3.04` band is unchanged (still ELEVATED, 150–300K). Only the size of the drop changes. From the same file, for your migration rows: FL net domestic 2022 +310,892 · 2023 +183,646 · 2024 +58,411 · 2025 +22,517 (canonical, unchanged).
+**Source:** Census Bureau Vintage 2025 state components of change. MARCO `VX-3.04` and `FIGURES.md` §4.
+**Priority:** 🟡
+**Ask:** None. Re-state "−56.5% / −57%" as −37.0% (same-vintage) wherever you carry it: STATUS L163, SCRATCH L21, STATUS_DETAIL L49.
