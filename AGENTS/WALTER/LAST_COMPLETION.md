@@ -19,7 +19,7 @@ Session: 2026-09-24 Thu, Claude Opus 5.5 as WALTER (`walter-f9`), **Will-directe
 - `-023` PRIORITY → **FLG**: rent freeze, **no stay 9/24**, merits ruling by year-end. This is the FOLLOW-UP #5 search.
 - `-024` ROUTINE info: HY OAS 273 [9/23].
 - **DEWEY dc1bddd37:** the DR-5 ledger note is corrected (dollars-share, not a unit ceiling), and the handoff is filed.
-- **SAM's dir was being written at 20:39Z (IN-FLIGHT).**
+- **SAM (sam-61, Will-launched) CONSUMED its lane and answered at 20:58Z (`bb0c0da2f`):** ladder UNCHANGED, Nippon Life immaterial by bound, UBS carried narrowly. The packet is filed. `-025` relays SAM's CFTC datum (info). DOORBELL_LOG consumed_at is filled. **The 9/21 `-018` deliberate NO now computes as a MISS** (referent: Tokyo reopen 9/24, before consumption).
 
 ## LATER LEG — same session, after the 18:20Z Tier-2 (Will: "please process your work queue"), ~18:30–19:3xZ
 
@@ -130,14 +130,14 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**RE-ISSUED 2026-09-24T20:45:34Z at the boot leg: `edef8c15e` and `4b67f913d` are now on origin (other desks' push trains). `261bd1b2f`, `ed7f2a0fd` and this receipt's commit are LOCAL. 9/24 handoffs: 64 of 76 delivered; the 12 pending are `-020`…`-024`. The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
+**RE-ISSUED 2026-09-24T20:45:34Z at the boot leg: `edef8c15e` and `4b67f913d` are now on origin (other desks' push trains). `261bd1b2f`, `ed7f2a0fd` and this receipt's commit are LOCAL. 9/24 handoffs: 64 of 77 delivered; the 13 pending are `-020`…`-025` (re-issued again at 20:59:30Z after SAM's packet). The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T20:45:34+00:00",
+  "as_of": "2026-09-24T20:59:30+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -166,7 +166,7 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
   ],
   "delivery": {
     "signal_date": "20260924",
-    "total": 76,
+    "total": 77,
     "delivered": 64
   },
   "owner_review": {
