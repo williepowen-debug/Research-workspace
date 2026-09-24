@@ -237,6 +237,15 @@ def main():
             peers = [f"{t} {_pct(data[t].get('change_pct'), 1)}" for t in COHORT[1:] if t in data]
             print("  cohort: " + " · ".join(peers))
 
+    # ---- FDIC FILINGS WATCH (OZK files with the FDIC, not the SEC) ----
+    section("FDIC FILINGS  (flng_watch.py — cert 110)")
+    try:
+        fw = subprocess.run([sys.executable, str(Path(__file__).with_name("flng_watch.py"))],
+                            capture_output=True, text=True, timeout=45)
+        print("  " + (fw.stdout.strip() or fw.stderr.strip()).replace("\n", "\n  "))
+    except subprocess.TimeoutExpired:
+        print("  FLNG-WATCH 2 UNKNOWN: timed out — the watch did NOT run")
+
     # ---- CATALYST COUNTDOWN ----
     section(f"CATALYST COUNTDOWN  ({horizon}-day horizon; ~ = modeled date)")
     rows = []

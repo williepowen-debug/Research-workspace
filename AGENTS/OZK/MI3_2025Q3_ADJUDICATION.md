@@ -1,6 +1,6 @@
 # OZK — the 2025Q3 MI3 step: adjudication
 
-**Date:** 2026-08-23 · **Owner:** OZK · **Verdict: UNRESOLVED — and the question is not the one that was asked.**
+**Date:** 2026-08-23 · **Owner:** OZK · **Verdict (8/23): UNRESOLVED.** → ⚖️ **SUPERSEDED 2026-09-24 by §6: LEGITIMATE — a real balance decline in the named debt-on-debt book, NOT a re-designation and NOT disclosure narrowing** (token INFERRED-HIGH; the identity leg VERIFIED at 5/5 quarters). Read §6 first.
 **Task:** `inbox/processed/2026-08-13d_from-REGINALD_TASK-the-2025Q3-mi3-re-designation-legitimate-or-disclosure-narrowing.md` (Will-ruled 8/13, routed by PROME; read-path = `PROME/DOCKET.tsv` "next-OZK-session" row).
 **Input artifact:** `AGENTS/REGINALD/reports/2026-08-13_OZK_MI3_adversarial_verification.md` §3, §7.
 **Instrument:** OZK's own 18-quarter FFIEC series, `workbook/CALL_REPORT_SERIES.tsv` (ID_RSSD 107244, FFIEC CDR PWS RetrieveFacsimile SDF, pulled 2026-08-07) — **path (c)** of the three the packet named. Paths (a) transcripts and (b) Management Comments remain **UNRUN**.
@@ -100,7 +100,7 @@ The obvious next inference is **migration**: item 9 −$576M against item 4 +$54
 **What I carry forward as REGINALD asked, with the wording it specified:** *a bank whose C&I book doubles while its memo-3 disclosure falls 64% is disclosing less about a larger book* — **as a description of the numbers, not as an accusation.**
 
 **Owed next (cheap, deferred to a session with the window):**
-1. **Path (b) — Call Report Management Comments for 2025Q3.** The packet calls this the highest-value unrun item and the reason is structural: **OZK files no 10-Q** (EDGAR CIK `0001038205`, no filings after 2017 — the holding company was eliminated), so there is no MD&A. Confirmed unrun.
+1. **Path (b) — Call Report Management Comments for 2025Q3.** The packet calls this the highest-value unrun item and the reason is structural: ~~OZK files no 10-Q~~ ⛔ **FALSE — retracted 2026-08-28: OZK files Form 10-Q with the FDIC (cert 110), not the SEC.** An empty EDGAR CIK is the expected observation. *(This sentence survived the 8/28 retraction sweep in this file — found and struck 2026-09-24 while running exactly the path it had closed; §6 is that path.)*
 2. **Path (a) — Q3-2025 call transcript** (Quartr), with Q2-25 before / Q4-25 after. ⚠️ **Absence of comment settles NOTHING** — a −$432M memo move is not something an analyst asks about, so silence is the expected state on both branches.
 3. **The §4 asymmetry** is the sharpest question and neither path was designed to answer it. Ask it directly: *what NDFI lending did OZK add in Q2-2025 and retire in Q3-2025, and why was the CRE-purpose designation attached to the second and not the first?*
 
@@ -109,3 +109,68 @@ The obvious next inference is **migration**: item 9 −$576M against item 4 +$54
 ---
 
 *Instrument: `workbook/CALL_REPORT_SERIES.tsv` (18 quarters, 2022-03-31 → 2026-06-30). Every figure above is from that file, which was pulled 2026-08-07 under a pre-registered LOG-ONLY scope and has moved no grade then or now. Working for the underlying pull → `CALL_REPORT_2026Q2_LOG.md`.*
+
+
+---
+
+## 6. ⚖️ VERDICT 2026-09-24 — DOCKET L181 (Will-ruled 8/13; PROME-directed this session)
+
+**LEGITIMATE — the 2025Q3 MI3 step is a real ~$430M decline in the balance of OZK's RESG "debt-on-debt" book, reported under an unchanged definition. It is NOT a re-designation of loans left in item 4, and NOT a narrowing of disclosure.** Token: **INFERRED-HIGH** on the verdict · **VERIFIED** on the identity it rests on · **UNKNOWN** on the loan-level exit mechanism (repaid vs refinanced away vs other).
+
+### 6.1 The instrument that settles it — path (b)'s real form: the FDIC-filed 10-Qs
+
+§5 recorded path (b) as closed because "OZK files no 10-Q." It does. Pulled this session from FDIC FLNG (`/api/instflng/{id}/attachment/1`): **Q2'25 10-Q (FLNG 11782, `raw/Q2_2025_10Q.pdf`) and Q3'25 10-Q (FLNG 11823, `raw/Q3_2025_10Q.pdf`)**, read alongside the local Q1'26 and Q2'26 10-Qs. Each carries management's own figure for the RESG debt-on-debt book (loans to NDFIs "collateralized by an assignment of a promissory note and all related note documents"), reported as Call Report "other" loans:
+
+| Quarter-end | 10-Q debt-on-debt funded balance (mgmt, text) | `RCON2746` MI3 ($K, Call Report) | Match |
+|---|---:|---:|---|
+| 2024-12-31 | **~$1.06B** [Q2'25 10-Q p.37] | 1,055,957 | ✅ |
+| 2025-06-30 | **~$1.20B** [Q2'25 10-Q p.37] | 1,202,101 | ✅ |
+| **2025-09-30** ⭐ | **$0.77B** [Q3'25 10-Q p.37] | **769,920** | ✅ |
+| 2026-03-31 | **~$0.49B** [Q1'26 10-Q] | 489,284 | ✅ |
+| 2026-06-30 | **~$0.43B** [Q2'26 10-Q] | 430,277 | ✅ |
+
+**5 of 5 quarters, both sides of the step, to the 10-Q's rounding.** OZK's MI3 **is** the debt-on-debt book — nothing else is in the line. (KB-OZK-223 had tied it at the two 2026 quarters; this extends it across the event.)
+
+### 6.1b REGINALD's named discriminator, RUN — Memo-10 NDFI sub-buckets (FFIEC CDR RetrieveFacsimile SDF, RSSD 107244, pulled 2026-09-24)
+
+REGINALD's 9/24 packet (`inbox/…_from-REGINALD_L181-mi3-input-delta…`) withdrew its §3(d)/(e) and named `RCONPV05`–`PV08` as the unrun test of whether the step moved *within* 9.a.
+
+| $K | 6/30/2025 | 9/30/2025 | Δ | 10-Q text 9/30/25 |
+|---|---:|---:|---:|---|
+| PV05 mortgage credit intermediaries | 0 | 0 | 0 | — |
+| PV06 business credit intermediaries | 1,161,937 | 1,184,574 | **+22,637** | $1.18B ✅ |
+| PV07 private equity funds | 799,272 | 586,636 | **−212,636** | $0.59B ✅ |
+| PV08 consumer credit intermediaries | 0 | 45,729 | **+45,729** | $0.05B ✅ |
+| **PV09 other NDFI = MI3 = debt-on-debt** | 1,202,101 | 769,920 | **−432,181** | $0.77B ✅ |
+| **Σ = J454 item 9.a** | 3,163,310 | 2,586,859 | −576,451 | $2.59B ✅ |
+| *Unfunded commitments, "other" NDFI (PV16)* | *518,243* | *422,842* | *−95,401* | — |
+
+**Read:** (1) the four sub-buckets tie to the 10-Q's NDFI breakdown at every cell — the 10-Q and the Call Report are the same classification, reported twice; (2) **no within-9.a relabel of the debt-on-debt book** — the only NDFI buckets that grew added $68M combined, against a $432M fall; (3) REGINALD's "$144M residual" is **PE-fund loans −$213M** (subscription/fund-finance runoff, consistent with the Q1'26 Munn pullback from Fund Finance, LESSONS §CIB) net of +$68M elsewhere; (4) the debt-on-debt book's **unfunded commitments fell too (−$95M)** — loans and their undrawn lines retiring together, the pattern of exits, not of a relabel of drawn balances.
+⚠️ **Limit, stated:** the NDFI → C&I branch is **not** falsifiable from these cells — a reclassified borrower would leave PV09 the same way a repaid one does. It stays ⚪ unsupported (no positive evidence; would require OZK to have re-coded loans it still calls NDFI loans in its own 10-Q text), not refuted.
+**REGINALD's fork (i) — a separate, open question, carried not answered:** MI3 ≡ PV09 at every quarter means **zero** CRE-purpose balance is reported from item 4, ever. Either OZK's C&I book contains no CRE-purpose loans, or OZK populates memo 3 from the debt-on-debt book only. **UNKNOWN** — not L181's question, and no filing seen addresses it.
+
+### 6.2 Why that decides the question
+
+| Branch (from §5) | Status now | Evidence |
+|---|---|---|
+| **Re-designated in place (loans stayed in item 4, label moved)** — REGINALD §3(e), the packet's hypothesis | 🔴 **REFUTED** | (i) the MI3 balance was never in item 4 — `RCONPV09` ≡ `RCON2746` in item 9.a both sides of the step (§4); (ii) management's own **separately-stated** debt-on-debt balance fell $1.20B → $0.77B in the same quarter. A label change would leave management's book figure flat. |
+| **Disclosure narrowing** | 🔴 **REFUTED on the evidence available** | The debt-on-debt definition text is **unchanged** Q2'25 → Q3'25 → Q1'26 → Q2'26. And at Q3'25 disclosure **widened**: the 10-Q gave the first full NDFI breakdown — **$2.59B total = $1.18B business credit intermediaries + $0.59B PE funds + $0.05B consumer credit intermediaries + $0.77B debt-on-debt** — which ties to Call Report item 9.a (~$2,587M). |
+| **Re-designated within NDFI** (d-o-d loans relabelled as another NDFI type) | 🔴 **REFUTED** | That would leave item 9.a flat; 9.a fell **−$576M** the same quarter. The loans left NDFI. |
+| **Written down** | 🔴 REFUTED (8/23, unchanged) | `RIAD5409` $0 through the step |
+| **Repaid / refinanced away** | 🟢 **MOST CONSISTENT — INFERRED, not verified** | Q3'25 was OZK's **record RESG repayment quarter, $2.44B** (Q3'25 Mgmt Comments, Fig. 12: "the recent increase in debt financing available for projects has also contributed to RESG repayments"). A $0.43B exit from a RESG-originated book inside a $2.44B RESG repayment quarter is ordinary. No filing attributes it loan-by-loan. |
+| **Migrated to item 4 (C&I)** | ⚪ **Not supported** | Would require reporting NDFI loans outside item 9 against Call Report instructions; item 4's +$540M sits inside its own +$264M…+$785M run-rate (§4). No evidence for it; not provable absent loan-level data. |
+
+### 6.3 What remains true, and what this does NOT say
+
+- **Scope fence (unchanged):** MI3 = CRE-purpose **not secured** by real estate. Nothing here touches RESG secured credit, IQHQ/RaDD, classified balances or OZK-09.
+- **Thesis relevance flips from "disclosure" to "book":** the debt-on-debt book (the P-OZK-2 successor pillar, ruled 8/23 as SUBJECT) **shrank 64% in 18 months ($1.20B → $0.43B)** and **then** began charging off — `RIAD5409` **$42.4M H1-26, the first nonzero in 18 quarters**, on a $0.43-0.49B residual ⇒ ~9% of the residual in six months. That is the **adverse-selection shape** the RESERVOIR thesis predicts (good credits refinance out, the residue sours) — recorded as a **description**, moving no number.
+- REGINALD's *"disclosing less about a larger book"* no longer describes OZK: the C&I growth is a **different book** (item 4, CIB), and the debt-on-debt book is disclosed in the 10-Q every quarter.
+
+### 6.4 What would change this verdict
+
+1. **Any OZK filing, amendment or transcript stating that debt-on-debt loans were reclassified, re-coded or transferred** (to item 4, to secured CRE, or out of the NDFI definition) in 2025Q3 → re-opens re-designation.
+2. **A Call Report amendment** restating 2025Q3 RC-C item 9.a or `RCON2746`.
+3. **Loan-level evidence** (UCC/recorder, trade press) of specific debt-on-debt credits that stayed on OZK's books after 9/30/25 but outside the book → migration branch revives.
+4. **Path (a) — the Q3'25 call transcript — remains UNRUN** (not local; Quartr not connected). Per §5, silence there settles nothing; an explicit statement would.
+
+*Instruments: FDIC FLNG 11782 / 11823 (pulled 2026-09-24, pdfminer text), local Q1'26 + Q2'26 10-Qs, Q3'25 Mgmt Comments, `workbook/CALL_REPORT_SERIES.tsv`. ZERO grades, thresholds, probabilities, weights or conviction moved.*

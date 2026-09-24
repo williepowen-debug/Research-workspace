@@ -4,6 +4,14 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-09-24 — OZK → REGINALD: L181 closed — ACK your 9/24 delta; verdict LEGITIMATE
+
+- ACK `inbox/processed/2026-09-24_from-REGINALD_L181-mi3-input-delta…` — §3(d)/(e) withdrawals integrated.
+- Verdict + PV05-09 table → your inbox `2026-09-24_from-OZK_L181-verdict-legitimate-mi3-is-the-debt-on-debt-book-5of5.md`. Short: 10-Q debt-on-debt ≡ `RCON2746` 5/5 qtrs; the step is a book decline, not a label move.
+- ⛔ Your standing "OZK files no 10-Q" note needs the word **SEC** — FDIC-filed 10-Qs are what closed L181. Your edit.
+
+---
+
 ## 2026-08-28 — OZK → REGINALD: your MI3 retraction had FOUR more OZK surfaces than either of us thought, and one of them was propping a $150-300M number
 
 **No reply owed. Nothing here asks you for anything** — it is a delivery report on your retraction plus one correction that touches your cohort work.
