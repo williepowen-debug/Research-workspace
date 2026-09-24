@@ -163,6 +163,29 @@ def published(rows):
     return any(_dec(r.get("par_amt_accepted")) is not None for r in rows)
 
 
+def complete(op, rows):
+    """A PUBLISHED op is GRADEABLE only when its results are COMPLETE (added 2026-09-24).
+
+    ⛔ Why: published() flips on the FIRST non-null row, and metrics() counts a null row as $0.
+    FiscalData publishes security_details BEFORE the ops-row totals (KB-BND-272), so at ~14:15 ET a
+    partial publication would be graded as final. An independent read (2026-09-24) built the case:
+    today's 35 eligible rows with only two filled and the ops row null read 66.67% ON-THE-RUN, FIRES,
+    rc=0 -- a confident verdict on half the data, and the details-vs-ops cross-check was skipped
+    precisely because the ops row was null. Every clause below fails CLOSED (no verdict, a GAP).
+    """
+    nulls = sum(1 for r in rows if _dec(r.get("par_amt_accepted")) is None)
+    if nulls:
+        return False, f"{nulls} of {len(rows)} eligible rows still null (partial publication)"
+    ne = _dec(op.get("nbr_issues_eligible"))
+    if ne is None:
+        return False, "ops-row nbr_issues_eligible null -- cannot confirm the eligible list is whole"
+    if int(ne) != len(rows):
+        return False, f"{len(rows)} detail rows vs nbr_issues_eligible {int(ne)} (quartile base incomplete)"
+    if _dec(op.get("total_par_amt_accepted")) is None:
+        return False, "ops-row total_par_amt_accepted null -- details sum cannot be cross-checked"
+    return True, "complete"
+
+
 def metrics(op, rows):
     """Exact-Decimal F2 metrics for one op from its security_details rows (all eligible CUSIPs)."""
     acc = []
@@ -286,6 +309,11 @@ def pending_report(ops, sd, ledger, today, schedule=None, repo_root=None):
                 tag = "TODAY" if d == today else "upcoming"
             lines.append(f"   ⏳ {d}  {op.get('maturity_bucket')}  {cap_s}  ANNOUNCED, results null  [{tag}; op {when}; results ~2:15 PM ET]")
             continue
+        cok, cwhy = complete(op, rows)
+        if not cok:
+            gaps += 1
+            lines.append(f"   🔴 {d}  {op.get('maturity_bucket')}  results PARTIAL -> NO VERDICT ({cwhy}); re-run when complete (GAP)")
+            continue
         m = metrics(op, rows)
         if m["accepted_ops_row"] is not None and m["accepted_ops_row"] != m["accepted_total_details"]:
             gaps += 1
@@ -388,7 +416,14 @@ def _synth(date, bucket, sectype="Nominal Coupons", optype="Liquidity Support", 
     op = {"operation_date": date, "operation_type": optype, "security_type": sectype, "maturity_bucket": bucket,
           "max_par_amt_redeemed": cap, "total_par_amt_offered": offered, "total_par_amt_accepted": "null",
           "operation_start_time_est": "01:40 PM", "operation_close_time_est": "02:00 PM"}
-    return op, [dict(operation_date=date, **r) for r in (rows or [])]
+    rr = [dict(operation_date=date, **r) for r in (rows or [])]
+    # A synthetic op whose rows are ALL non-null models COMPLETE results, so it carries the ops-row
+    # totals the real feed publishes once complete (2026-09-24, with complete()); any null row keeps
+    # the ops row null = the partial-publication state, which complete() must refuse.
+    if rr and all(_dec(r.get("par_amt_accepted")) is not None for r in rr):
+        op["nbr_issues_eligible"] = str(len(rr))
+        op["total_par_amt_accepted"] = f"{sum(_dec(r['par_amt_accepted']) for r in rr):.2f}"
+    return op, rr
 
 
 def selftest():
@@ -486,6 +521,17 @@ def selftest():
     check("full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 6 scheduled", owed == 0 and gaps == 0 and sum(1 for l in lines if "📅" in l) == 6 and any("✅ 2026-09-10" in l for l in lines))
     lines, owed, gaps = pending_report([fx["operation"]], fx["security_details"], {}, "2026-09-17")
     check("full schedule on 2026-09-17 with an EMPTY ledger: 9/10 is OWED (the L401 state before this tool)", owed == 1 and any("🔴 2026-09-10" in l for l in lines))
+    # PARTIAL PUBLICATION (2026-09-24 independent read): must NOT grade.
+    check("9/10 fixture is COMPLETE (40 rows == nbr_issues_eligible 40, ops total present)", complete(fx["operation"], fx["security_details"])[0] is True)
+    pr = [dict(r) for r in fx["security_details"]]
+    for r in pr[2:]:
+        r["par_amt_accepted"] = "null"
+    check("partial rows (38 of 40 null) -> NOT complete", complete(fx["operation"], pr)[0] is False)
+    pop = dict(fx["operation"]); pop["total_par_amt_accepted"] = "null"
+    check("ops-row total null -> NOT complete", complete(pop, fx["security_details"])[0] is False)
+    check("missing eligible row (39 of 40) -> NOT complete", complete(fx["operation"], fx["security_details"][:-1])[0] is False)
+    lines, owed, gaps = pending_report([pop], pr, {}, "2026-09-10", schedule=[])
+    check("partial publication in the report -> GAP + NO VERDICT, never owed/graded", gaps == 1 and owed == 0 and any("PARTIAL" in l for l in lines))
     print(f"[buyback_f2] selftest: {len(fails)} failure(s)")
     return 1 if fails else 0
 
@@ -523,6 +569,9 @@ def main():
             print("   ⛔ more than one operation on this date; details rows would merge -- grade by hand"); return 2
         if not published(rows):
             print("   results NOT published in security_details -- nothing to grade (do not quote the ops row)"); return 1
+        cok, cwhy = complete(op, rows)
+        if not cok:
+            print(f"   ⛔ results PARTIAL -- {cwhy}. NO packet; re-run when complete."); return 1
         m = metrics(op, rows)
         if m["accepted_ops_row"] is not None and m["accepted_ops_row"] != m["accepted_total_details"]:
             print(f"   ⛔ details sum {m['accepted_total_details']} != ops row {m['accepted_ops_row']} -- no packet"); return 2
