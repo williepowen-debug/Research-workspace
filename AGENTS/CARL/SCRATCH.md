@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-09-24 ~18:30 UTC
+**Last session:** 2026-09-24, closed ~18:22 UTC at Will's "lets close out"
 **Type:** Data catch-up after a 7-day gap (Will-directed): three Opus research sweeps, inbox 10→0, 36 BOARD dispositions, 5 docket rows discharged, a boot.py render defect fixed. No score or probability change.
 
 **PRIORITY-1:** 2026-09-30: grade CRL-08 MISSED at the EIA primary under the SUSTAINED bar (WQ-281 RULED 9/24 13:17 ET, Will: "Approve WQ-280 and WQ-281 with your recs"), then write the V2 both-tier card once the EART August 10-Ds land.
@@ -63,7 +63,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 |------|----|---------|
 | `PROME/inbox/2026-09-24_from-CARL_register-CRL-08-bar-ruling-by-9-30-and-DEWEY-is-dark.md` | PROME | Register the CRL-08 bar decision (needed 9/30); DEWEY dark. Committed 72c277376; doorbelled. **PROME receipt 9/24: registered as WQ-281 (PROME concurs: sustained). **WQ-281 RULED 13:17 ET (Will: "Approve WQ-280 and WQ-281 with your recs") = sustained; recorded on all CARL surfaces. DEWEY woken and DR-5 delivered.** |
 | `PROME/inbox/2026-09-24b_from-CARL_CORRECTION-DR-1-was-not-held-FHA-leg-delivered-8-27-and-DR-5-graded.md` | PROME | CORRECTION: DR-1 FHA leg was delivered 8/27, not held; DR-5 graded SCORED STRIKE. No ask. Committed with the DR-5 grade; doorbelled. |
-| `AGENTS/TERRY/inbox/2026-09-24_from-CARL_consumer-read-stress-is-bottom-tier-credit-not-broad-spending.md` | TERRY | Analysis (Will-directed): stress is in lower-quality credit, not broad spending; caveats and grading dates; no trade, no prices. |
+| `AGENTS/TERRY/inbox/2026-09-24_from-CARL_consumer-read-stress-is-bottom-tier-credit-not-broad-spending.md` | TERRY | Analysis (Will-directed): stress is in lower-quality credit, not broad spending; no trade, no prices. PM ADDENDUM appended: crack >$50 weakens the pump-relief caveat; CACC forward off-ramp term; 10Y 5.11%. TERRY not live; no ask, so no doorbell. |
 | `sub_agents/STUE/inbox/2026-09-24_from-CARL_FSA-FY26-Q3-POSTED-ES-01-04-06-unblocked.md` | STUE | FSA FY26-Q3 figures; grade ES-01/04/06 (ES-01 at the −5% band on rounding). Committed with the closeout; STUE not live (rule 6b → noted to PROME). |
 
 ## INBOX (0 live items; disposition)
@@ -94,17 +94,17 @@ Predictions unchanged (15 OPEN).
 ## URGENT
 - CRL-08: bar RULED sustained (WQ-281) ⇒ grade MISSED on 9/30.
 
-BOARD scan run, 0 new since SIG-W-20260921-022, 794 logged
+BOARD scan run at closeout: cursor now SIG-W-20260924-015 (15 more 9/24 signals dispositioned at closeout, incl. named correction COR-20260924-13 APPLIED).
 This cursor assertion is not the 223-ID backlog or evidence of substantive review.
 
 ## CLOSEOUT RECEIPT
 | Obligation | Result | Evidence / remaining action |
 |---|---|---|
 | Consistency (no warn-only) | PASS, 0 hard / 6 soft (pre-existing) | rc 0 |
-| Roadmap index / BOARD gap / corrections | PASS / 0 new / rc 0 | 34 threads (V2 leg-table folded into the V2 grade thread) |
+| Roadmap index / BOARD gap / corrections | PASS / closed to SIG-W-20260924-015 / COR-20260924-13 APPLIED (receipt committed) | 34 threads (V2 leg-table folded into the V2 grade thread) |
 | Read cap | PASS rc 0 | STATUS peaked at 25,537 B (78%), then 9 stale rows/paras were rotated verbatim to `status_archive/STATUS_ARCHIVE_2026-09.md` (sha256[:12] 13cfea0d6b87) → 22,731 B (<70% stop). board_log.tsv at 72% (never breached 75%; nothing owed) |
 | Claim check / orphan | PASS / clean | 4 files, weekday |
 | Ledger nudge | Explained in commit | KB refreshed; child ledgers are the child sessions' work |
-| Retirement sweep | NOT RUN | carried to backlog |
-| Memory | No new MEMORY entry | the collapse-marker defect is an instance of finding_marker_word_in_prose_disables_the_scanner (not extended this session) |
+| Retirement sweep | PARTIAL: candidates listed, NOT moved | 6 files >60d by last commit (HHDC Q1 brief, Q2 earnings prep, ABS protocol+README, SYF_COF_Q1, ally reclass audit). Reference review of each not done, so nothing moved. |
+| Memory | Auto-memory EXTENDED | finding_directive_overtaken_between_authorship_and_delivery: +CARL DR-1 instance (own docket row relayed as fresh). memory_index_check --slug: 0 blocking; MEMORY.md 74% of cap. Local MEMORY.md unchanged. |
 | Approvals | Preserved | WQ151/182/183/227 stand; CRL-08 bar, WQ228, DR-1 still open |

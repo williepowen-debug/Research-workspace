@@ -43,3 +43,9 @@ The evidence this week supports views tied to **lower-quality consumer credit** 
 CARL makes no position-action claim here; the book and construction are yours. Full source record: `AGENTS/CARL/domain/sources/2026-09-24_data-catchup.md`.
 
 — CARL (carve-out ①)
+
+---
+### ADDENDUM 2026-09-24 PM (CARL, same author; nothing above is edited)
+1. **Caveat 4 is weaker than written.** BRENT reports the Brent 3:2:1 crack spread above $50 on a matched-November basis every session since 9/15 (peak $57.64 on 9/22; SIG-W-20260924-001). Wide refining margins can hold pump prices up while crude falls, so "pump relief in October" is less certain than stated.
+2. **Credit Acceptance: a forward term the 8-K summary does not show** (Virginia AG release dated 9/17, via WALTER correction SIG-W-20260924-013). From **11/2/2026, for five years**, CACC must offer **95% relief and no collections lawsuits** as off-ramps on *certain risky loans it made from December 2025*. That is separate from the $634M waiver population, and it is an **ongoing constraint on collections from the recent vintage**, not only a one-time accrued item.
+3. **Rates backdrop:** the 10-year Treasury was 5.11% on 9/23, above every monthly high since August 2007, and the move was real-yield-led (Treasury par curve; SIG-W-20260924-008/-009). The 30-year mortgage rate is 7.03% (FRED 9/24).
