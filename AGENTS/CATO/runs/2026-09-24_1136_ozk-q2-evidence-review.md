@@ -1,6 +1,6 @@
 # OZK Q2 filing-read review — September 24, 2026
 
-**Disposition: useful evidence work accepted in the checked areas; correct the guidance claim, finish Boston propagation and fix the charter's scope labels.** The operator-summary claim of a first C&I stress signal is also wrong. Keep Horton and the already-owed reserve re-derivation moving; these findings do not require another broad restructuring pass or a fresh trading/model decision.
+**Current disposition: principal corrections accepted at `024c6a224`, with bounded residue disclosed below; stop this correction round.** QF1/QF2/QF4's principal defects are repaired; QF3's three named date survivors are corrected, with an older unsupported motive interpretation still present elsewhere in the same narrative. Recommend proceeding to the queued Horton evidence check, followed by the reserve re-derivation. No owner work or dispatch is authorized to CATO by this recommendation. The original findings below preserve the review history.
 
 ## Scope and sources
 
@@ -71,3 +71,18 @@ The SEVEN_CREDIT Q2 banner calls San Carlos debt-on-debt without its report's in
 Checks: directly inspected primary table layouts; recomputed the two capital scenarios and the $63K sum-match gap; verified unchanged prediction ledger; read the Boston correction packet and BROCK attribution packet; checked active Boston survivors and the actual later charter diff. No production code changed or operational scripts run. CATO authored only this report and CONTINUITY. Existing OZK correction acceptance and PROME docket handoff remain separate and unchanged.
 
 **Suggested next step for PROME:** retain the new research, correct QF1/QF3/QF4 with the exact source evidence above, and carry QF2's wording correction. Continue Horton and the already-planned reserve-estimate work. Keep grades/probabilities and the original fired warning unchanged unless separately adjudicated. This instruction has not been sent. No owner edits, agent launches, trades or publication by CATO. Resume: orient and await Will.
+
+## September 24 follow-up — correction acceptance
+
+Will supplied OZK's correction receipt for `024c6a224`. CATO inspected that commit's seven-file diff and relevant surrounding text against the existing findings and previously checked primary evidence. No new external research or full-filing reread was performed.
+
+- **QF1 closed in scope:** F11 explicitly withdraws the supposed guidance conflict; CALENDAR now tests full-year charge-offs against the industry benchmark.
+- **QF2 principal claim closed:** F10 and STATUS include the Q2 2025 hardship-modification comparator. F10's separate unsupported “2026 vintage revolving” phrase survives; qualify at the next ordinary edit.
+- **QF3 named propagation fixes accepted, broader interpretation still partial:** KB-OZK-195 supersedes its invalid date reasoning; SEVEN_CREDIT's verdict and IQHQ_SECONDARY_EXPOSURE's old chronology/date fit are corrected or struck. However, SEVEN_CREDIT's existing interpretation paragraph still asserts that the pre-maturity filing was aggressive lien-priority housekeeping. The date alone does not establish that motive. The repaired lines do not invent a replacement explanation, but the operator's assurance should not be read as certifying every surrounding interpretation. Defer qualification of that older paragraph to the next owner touch; do not use it as established evidence.
+- **QF4 scope defect closed:** charter, STATUS and Q2 read distinguish bank-wide totals from RESG subsets. The charter still contains dated figures, despite saying they live only in STATUS. That is a maintenance inconsistency, not an unresolved population-scope error; simplify at the next ordinary edit.
+
+F3/F5 remain labeled inferences, the prediction ledger has no changes in this correction, and warning §1 remains fired with mechanism undetermined. Previously disclosed San Carlos banner and Memo-1 inference limits remain. Acceptance is of the inspected corrections, not a fresh certification of unchanged research or the claimed full 69-page reading.
+
+Horton is already TODO C1 and MEMORY's next evidence item, followed by R1 reserve re-derivation; no technical dependency was found preventing the leasing check. MEMORY also records Will's preference for checkpoints between tasks. The owner's go-ahead question therefore concerns the next work item, not a new trading or model decision. Suggested instruction for PROME: authorize the bounded Horton check, distinguish verified leases/occupancy from absence of search results, identify dated leasing or broker evidence, and report implications for the existing comparison before the reserve-estimate task. This suggestion was not sent and CATO did not perform the research.
+
+CATO changed only this report and its CONTINUITY entry. Other-session OZK MEMORY/TODO edits appeared during closeout and were preserved. No owner edits, model changes, messages, operational runs or publication. Resume: orient and await Will; no automatic repair or research work.
