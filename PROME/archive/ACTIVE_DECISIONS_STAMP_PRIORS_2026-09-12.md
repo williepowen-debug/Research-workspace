@@ -20,3 +20,7 @@ Prior: 2026-09-12 17:0x (spine audit #13 fixes, two blocking: the Post-FOMC/Horm
 ## Prior stamp rotated 2026-09-24 (prome-4d) — verbatim
 entry-crc32: 712112674 · bytes: 296
 2026-09-18 09:0x ET (byte-flow rotation, one row: the TERRY 004 row snapshotted verbatim → `PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-09-18.md`, rewritten current-state-only, every standing guard stays on the live row (archive manifest: no guard bytes rotated); no decision moved; $0 moved.)
+
+## Prior stamp rotated 2026-09-24 (prome-f5) — verbatim
+entry-crc32: 1427442644 · bytes: 161
+2026-09-24 13:4x ET (prome-26: TERRY 004 row — NO-ADD clause re-affirmed by WQ-280 (re-arm MET on BOND's 5Y grade, add DECLINED); no decision moved; $0 moved.)
