@@ -1,0 +1,368 @@
+{
+  "as_of": "2026-09-23T19:58:07.428733-04:00",
+  "revision": "1d8bf4e3570ae90cfa7e18e564f6183b6879d930",
+  "scope": "Local file audit; no hosted-page, broker, external-market or native-fleet verification; inventory is not content coverage.",
+  "inventory": {
+    "<top-level>": 25,
+    "inbox": 780,
+    "codex": 14,
+    "plans": 26,
+    "archive": 384,
+    "action-cards": 1,
+    "argus": 1,
+    "artifacts": 6,
+    "tools": 95,
+    "proposals": 131,
+    "drafts": 1,
+    ".claude": 12,
+    "state": 9,
+    "workbook": 1,
+    "research": 57,
+    "cluster": 2,
+    "registry": 5,
+    "tests": 5,
+    "public-prep": 2,
+    "data": 6,
+    "reports": 124,
+    "packets": 4,
+    "experiments": 88
+  },
+  "source_sha256": {
+    "PROME/CLAUDE.md": "3baf0dc6cf03a499ff4fdc418ad74ee77ea35b973527082c752af1539f496b75",
+    "PROME/BOOT.md": "bf4fa78afa5b7877007846d8f5e4c091186641af5c5b4adf73522df64dd54eac",
+    "PROME/CLOSEOUT.md": "6f1aad5cdb3d9393ac5f7fa3c16cff24583f6c3ebb4ea1cc9a0886d02007be39",
+    "PROME/CLOSEOUT_PROCEDURES.md": "5447b3e0b48669b5e0c0b582c040ea146fc08e0416414248ed4522e25916ced4",
+    "PROME/HANDOFF.md": "f5d3984c042cc69c7deb6be13d37457c08f61693076146732e87c98d12e38b49",
+    "PROME/SCRATCH.md": "45fc7a017aa4803024a8b72d7de0e8c5c7d6d1780da1f84efe8f12fa693ac597",
+    "PROME/ACTIVE_DECISIONS.md": "a1ec9dbd637c5905fa8eb48d1bd4be2f90d1739aca8b74942c13e114cb8c389b",
+    "PROME/STATUS.md": "91ca30f5494c90f0be202e8d101a3a27f9bc178b1916bf8e097a179f67992951",
+    "PROME/SYSTEM.md": "cbbc0a96d465979ffb2e6dfc4d2f0ed4691119b48f0ff2ee93f4b1eb56bb37b3",
+    "PROME/HANDBOOK.md": "1e167859e520a07f7b60bde2e959f32fcb9f6c05a57d318f7c3d877f2d9444af",
+    "PROME/BRIEF.md": "f58d1015cd3895b639423123a6d3a157052b0803ec53aafd48cdb5fb6b47930c",
+    "PROME/DOCKET.tsv": "721e7b65b97824efd79bf189780b78e89abee8b98a1d88dcee36ee5058a1802a",
+    "PROME/WILL_QUEUE.md": "21b42e59945cfa7cf65d8663a590a2612e042a5e5284c949e23ef4553b88dee7",
+    "PROME/GATES.tsv": "e44f796a58c4051dc961f3fc1de8d1da9b75bc39591d36098f203a217ab770b1",
+    "PROME/ROSTER.md": "0870d39a1713675a2af46426e400a48500db65c9ec83c4ec24a3357d09042e3e",
+    "PROME/registry/READS.tsv": "2339f77719d0259766c7457af3896d9d21e27417dfffe8d37cc9cf97a310ec1c",
+    "PROME/registry/WQ_EXPLAINERS.tsv": "2d7e39ca43c701a4ad0b75c3f2a95a4dcf81c78e4f59e5305617dc11434018f4",
+    "PROME/state/ORCH_LOG.tsv": "856572de6192c69a6188eb3d7b5f8cd76488ea21660bbe418c2216a4b066e4bb",
+    "PROME/tools/tests/test_decision_deck_split.py": "de1df27d7986cce1ae6d3cef678fdb8d0e1260f035b365d0d1393afcc17e8fa1",
+    "PROME/tools/decision_deck.py": "af701b83d54a3b4013f1b50fea42796b77d70586afed46ae963719a48b7e2f78",
+    "PROME/tools/prome_gate.py": "1e8e9fca5188b415bc43c90fc7fcae3c1c1f8cb38e1d3776ec7b2c58c9d100a4"
+  },
+  "measurements": [
+    {
+      "path": "/home/willi/Research-workspace/PROME/BOOT.md",
+      "bytes": 24398,
+      "lines": 140,
+      "crc32": 1532971189,
+      "crc32_no_final_nl": 2391595155
+    },
+    {
+      "path": "/home/willi/Research-workspace/PROME/ACTIVE_DECISIONS.md",
+      "bytes": 24269,
+      "lines": 45,
+      "crc32": 2733537877,
+      "crc32_no_final_nl": 2254526223
+    },
+    {
+      "path": "/home/willi/Research-workspace/PROME/HANDOFF.md",
+      "bytes": 18786,
+      "lines": 86,
+      "crc32": 2101510280,
+      "crc32_no_final_nl": 1249135011
+    },
+    {
+      "path": "/home/willi/Research-workspace/PROME/SCRATCH.md",
+      "bytes": 21104,
+      "lines": 61,
+      "crc32": 3223519799,
+      "crc32_no_final_nl": 2516904531
+    },
+    {
+      "path": "/home/willi/Research-workspace/PROME/STATUS.md",
+      "bytes": 19737,
+      "lines": 106,
+      "crc32": 2636515828,
+      "crc32_no_final_nl": 4212403113
+    }
+  ],
+  "selected_checks": [
+    {
+      "name": "check_gates_tsv",
+      "results": [
+        [
+          "BLOCKING",
+          "GATES fired-unexecuted",
+          true,
+          "none",
+          "PROME/GATES.tsv (clear or escalate SAME session)"
+        ],
+        [
+          "BLOCKING",
+          "GATES token vocabulary",
+          true,
+          "20 rows all lead with enumerated tokens",
+          "PROME/GATES.tsv header STATES line"
+        ],
+        [
+          "advisory",
+          "GATES consumed_by (consumer passed / cell empty)",
+          true,
+          "all LIVE rows have live consumers or declared NONE",
+          "PROME/GATES.tsv (resolve at the consumer, re-date, or declare NONE)"
+        ],
+        [
+          "BLOCKING",
+          "GATES review_by passed — LIVE INSTRUMENT rows",
+          true,
+          "no live INSTRUMENT row past its review date",
+          "PROME/GATES.tsv (consume the owner's grade → re-date review_by; if the owner is dark, read the instrument as a CONSUMER read and say so in the row — never as the grade)"
+        ],
+        [
+          "advisory",
+          "GATES review_by passed — LIVE JUDGEMENT rows",
+          false,
+          "GATE-CORAL-MSI-01 review_by 2026-09-19 passed [JUDGEMENT; last_checked 2026-09-13]",
+          "PROME/GATES.tsv (owner grades at review_by; re-date or summon the owner)"
+        ],
+        [
+          "advisory",
+          "GATES last_checked blank on LIVE INSTRUMENT rows",
+          true,
+          "every live INSTRUMENT row carries a last_checked",
+          "PROME/GATES.tsv (fill from the owner's latest grade; a blank reads as never-graded)"
+        ]
+      ]
+    },
+    {
+      "name": "check_docket_overdue",
+      "results": [
+        [
+          "advisory",
+          "DOCKET overdue-unannotated",
+          false,
+          "2026-09-19 🟠 **SPINE AUDIT #13 MINOR RESIDUE — carr; 2026-09-19 🟠 **TWO `fleet_dashboard.py` TILE-MAP PA; 2026-09-19 🟠 **THE ARGUS SCOPE WAS COMPUTED ON A NO; 2026-09-19 🔴 **A CLOSEOUT SHOULD RE-MEASURE EVERY F (+3 more)",
+          "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)"
+        ]
+      ]
+    },
+    {
+      "name": "check_docket_buried_state_token",
+      "results": [
+        [
+          "BLOCKING",
+          "DOCKET buried state token (row invisible to the canonical reader)",
+          true,
+          "every row containing PENDING leads with a state token",
+          "PROME/DOCKET.tsv — put the token FIRST and the annotation AFTER it; never prefix narrative"
+        ]
+      ]
+    },
+    {
+      "name": "check_will_queue",
+      "results": [
+        [
+          "advisory",
+          "WILL_QUEUE fresh + nothing due/passed/aging",
+          false,
+          "CAP: 23 actionable rows (>20) — PROME over-routing; PASSED #276 ⚖️ **OSPREY'S C1 REFINERY-CHANNEL UP (needed 2026-09-22); PASSED #261 ⚖️ **T-12 SUCCESSOR — BLESS A REAL-R (needed 2026-09-19); PASSED #260 ⚖️ **ORACLE v4 SUPPLY-LEG SUCCESSION (needed 2026-09-19); DUE TODAY #259 **VIOLET's two Will-facing artifacts (+69 more)",
+          "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)"
+        ]
+      ]
+    },
+    {
+      "name": "check_symmetry",
+      "results": [
+        [
+          "advisory",
+          "boot↔closeout symmetry",
+          false,
+          "boot-reads with no symmetry row: BOOT.md, USER.md",
+          "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)"
+        ]
+      ]
+    },
+    {
+      "name": "check_claude_dir_drift",
+      "results": [
+        [
+          "BLOCKING",
+          ".claude/{agents,skills} root↔PROME parity",
+          true,
+          "9 agent/skill definition(s) identical",
+          "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both; an absent or empty tree is a MISSING-INPUT failure, never a pass"
+        ]
+      ]
+    },
+    {
+      "name": "check_dashboard_state",
+      "results": [
+        [
+          "BLOCKING",
+          "dashboard state is the product of the latest build (L339)",
+          true,
+          "last build 2026-09-23 18:40 succeeded and produced this snapshot",
+          "PROME/tools/fleet_dashboard.py (rebuild; fix the build, never the state file)"
+        ],
+        [
+          "BLOCKING",
+          "dashboard panels nonempty",
+          true,
+          "one-liner/channels/levels populated",
+          "PROME/tools/fleet_dashboard.py (rebuild; if still empty a parser broke — PAT-069)"
+        ],
+        [
+          "advisory",
+          "dashboard vintage ≤72h",
+          true,
+          "built 2026-09-23 18:40 (1h ago)",
+          "regenerate + republish to the RECORDED URL"
+        ],
+        [
+          "advisory",
+          "dashboard content assertions (PAT-105)",
+          false,
+          "NEXUS split EMPTY (separator-drift class, blank 17d once)",
+          "PROME/tools/fleet_dashboard.py (rebuild + fix the parser, never the state file)"
+        ]
+      ]
+    },
+    {
+      "name": "check_publication_prereqs",
+      "results": [
+        [
+          "advisory",
+          "publication prerequisites (Deck explainer coverage)",
+          true,
+          "all 23 OPEN row(s) have explainer rows",
+          "add the row to PROME/registry/WQ_EXPLAINERS.tsv at Pre-closeout, not at the render"
+        ]
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "PROME",
+        "--require-manifest"
+      ],
+      "rc": 0,
+      "stdout": "READ-CAP [PROME] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 7 cap-bearing (whole/programmatic) measured, 17 declared-not-counted (scoped/grep/summary), 30 manifest row(s) for this desk; ATTESTED by the desk itself\n  ✅ PROME/BOOT.md                        24,398 B    75% of budget    (whole · PROME:CLAUDE.md-Boot-2)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,614 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 14 B.\n  ✅ PROME/ACTIVE_DECISIONS.md            24,269 B    75% of budget    (whole · PROME:BOOT.md-3)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,485 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 143 B.\n  ✅ HEARTBEAT.md                         22,553 B    69% of budget    (whole · PROME:BOOT.md-5)\n  ✅ PROME/SCRATCH.md                     21,104 B    65% of budget    (whole · PROME:BOOT.md-2)\n  ✅ PROME/STATUS.md                      19,737 B    61% of budget    (whole · PROME:BOOT.md-4)\n  ✅ PROME/HANDOFF.md                     18,786 B    58% of budget    (whole · PROME:BOOT.md-1)\n  ✅ USER.md                               4,126 B    13% of budget    (whole · PROME:CLAUDE.md-Boot-1)\n  ◦ PROME/GATES.tsv                    57,901 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-3)\n  ◦ PROME/HEARTBEAT_COLD.md           277,029 B  declared `grep` — not cap-bearing, not counted  (HEARTBEAT.md-Pointers)\n  ◦ PROME/DOCKET.tsv                  914,722 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/WILL_QUEUE.md               148,333 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/WILL_QUEUE.md               148,333 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-8)\n  ◦ PROME/CLOSEOUT.md                  15,923 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/tools/dashboard_state.json    8,890 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ scripts/harness_caps.env            2,694 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ BOARD/INDEX.md                    528,319 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)\n  ◦ PROME/state/board_cursor.txt           19 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)\n  ◦ scripts/firetime_allowlist.tsv     16,208 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/registry/corrections_receipts.tsv  1,485 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 12,113 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/DAEDALUS/FLEET_DIRECTORY.md 10,822 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/*/STATUS.md                        —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ .claude                                   —  declared `summary · directory` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/registry/READS.tsv           59,215 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n✅ READ-CAP 0 [PROME]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (7 measured, 17 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=PROME reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "PROME/tools/reads_check.py",
+        "--agent",
+        "PROME"
+      ],
+      "rc": 2,
+      "stdout": "READS [PROME] — budget 32,550 B · cap 54,250 B · perimeter: 7 cap-bearing + 17 declared-not-bearing = 24 live read(s) · basis 5 surface(s) · manifest ⛔ ATTESTATION STALE (dated 2026-08-31)\n  ⛔ STALE ATTESTATION: 'PROME/BOOT.md' was committed 2026-09-21, AFTER the attestation dated 2026-08-31 — a boot-defining surface moved, so the enumeration may be missing a dependency. Re-enumerate and re-attest.\n  ⚠️  MODE IS A SELF-ASSERTED CLAIM — 7 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:\n       · PROME/GATES.tsv (57,901 B) declared `summary` at PROME:BOOT.md-3 by PROME\n       · PROME/HEARTBEAT_COLD.md (277,029 B) declared `grep` at HEARTBEAT.md-Pointers by PROME\n       · PROME/DOCKET.tsv (914,722 B) declared `summary` at PROME:BOOT.md-5 by PROME\n       · PROME/WILL_QUEUE.md (148,333 B) declared `summary` at PROME:BOOT.md-5 by PROME\n       · PROME/WILL_QUEUE.md (148,333 B) declared `scoped` at PROME:BOOT.md-8 by PROME\n       · BOARD/INDEX.md (528,319 B) declared `summary` at PROME:BOOT.md-6 by PROME\n       · PROME/registry/READS.tsv (59,215 B) declared `summary` at PROME:BOOT.md-5 by PROME\n  ✅ PROME/BOOT.md                                           24,398 B    75% of budget   (whole, PROME:CLAUDE.md-Boot-2)\n  ✅ PROME/ACTIVE_DECISIONS.md                               24,269 B    75% of budget   (whole, PROME:BOOT.md-3)\n  ✅ HEARTBEAT.md                                            22,553 B    69% of budget   (whole, PROME:BOOT.md-5)\n  ✅ PROME/SCRATCH.md                                        21,104 B    65% of budget   (whole, PROME:BOOT.md-2)\n  ✅ PROME/STATUS.md                                         19,737 B    61% of budget   (whole, PROME:BOOT.md-4)\n  ✅ PROME/HANDOFF.md                                        18,786 B    58% of budget   (whole, PROME:BOOT.md-1)\n  ✅ USER.md                                                  4,126 B    13% of budget   (whole, PROME:CLAUDE.md-Boot-1)\n  ·  PROME/GATES.tsv                                         57,901 B   summary      (PROME:BOOT.md-3)  ℹ️  178% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/HEARTBEAT_COLD.md                                277,029 B   grep         (HEARTBEAT.md-Pointers)  ℹ️  851% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/DOCKET.tsv                                       914,722 B   summary      (PROME:BOOT.md-5)  ℹ️  2810% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/WILL_QUEUE.md                                    148,333 B   summary      (PROME:BOOT.md-5)  ℹ️  456% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/WILL_QUEUE.md                                    148,333 B   scoped       (PROME:BOOT.md-8)  ❓ 456% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  ·  PROME/CLOSEOUT.md                                       15,923 B   summary      (PROME:BOOT.md-5)\n  ·  PROME/tools/dashboard_state.json                         8,890 B   summary      (PROME:BOOT.md-5)\n  ·  scripts/harness_caps.env                                 2,694 B   summary      (PROME:BOOT.md-5)\n  ·  BOARD/INDEX.md                                         528,319 B   summary      (PROME:BOOT.md-6)  ℹ️  1623% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/state/board_cursor.txt                                19 B   summary      (PROME:BOOT.md-6)\n  ·  scripts/firetime_allowlist.tsv                          16,208 B   summary      (PROME:BOOT.md-5)\n  ·  PROME/registry/corrections_receipts.tsv                  1,485 B   summary      (PROME:BOOT.md-5b)\n  ·  AGENTS/WALTER/registry/CORRECTIONS.tsv                  12,113 B   summary      (PROME:BOOT.md-5b)\n  ·  AGENTS/DAEDALUS/FLEET_DIRECTORY.md                      10,822 B   summary      (PROME:BOOT.md-5b)\n  · AGENTS/*/STATUS.md                                     39 files  largest 54,182 B (166%) = AGENTS/REGINALD/STATUS.md  total 1,010,830 B  (summary, PROME:BOOT.md-5)\n       ℹ️  2 match(es) over budget, excluded by the declared `summary` mode — largest is AGENTS/REGINALD/STATUS.md\n  ▫  .claude                                                    DIR     11 file(s) under it — a directory has no read size; declared so the dependency is visible, never byte-graded (summary, PROME:BOOT.md-5)\n  ·  PROME/registry/READS.tsv                                59,215 B   summary      (PROME:BOOT.md-5)  ℹ️  182% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n❓ READS-CAP UNKNOWN [PROME]: 7 cap-bearing row(s) checked, but PROME attested on a date its own boot protocol has since moved past — this is a partial perimeter, never a clean bill.\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "PROME/tools/wq_ledger.py",
+        "check"
+      ],
+      "rc": 0,
+      "stdout": "WQ-LEDGER ✓ /home/willi/Research-workspace/PROME/registry/WQ_LEDGER.tsv: 373 event row(s) × 14 columns; append-only order holds\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "PROME/tools/table_check.py",
+        "--quiet"
+      ],
+      "rc": 0,
+      "stdout": "✅ TABLE-CHECK ok 7 file(s), no over-celled rows\n",
+      "stderr": ""
+    }
+  ],
+  "render_witnesses": [
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-deck.html",
+      "needle": "The only add-gate",
+      "found": true,
+      "excerpt": " 4d · 2026-09-19 Minimize Expand RULE open since 2026-09-14 The only add-gate on your TLT put position has an undefined word in it What it is BOND's gate for adding to that position reads \"real 10-year yield above 2.5% sustained\" — with no number attached to \"sustained.\" Every other gate on that desk names one: three sessions, five consecutive, and so on. The level has now been crossed, so the missing word is suddenly load-bearing. Why "
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-deck.html",
+      "needle": "default rather than by decision",
+      "found": true,
+      "excerpt": "stays unfireable and the position keeps its current size by default rather than by decision. If nothing The ambiguity persists and the same question returns the next time the level is crossed. PROME rec BOND offered a precedent set rather than a pick: three sessions is that desk's own convention, five consecutive is already ratified elsewhere. Its suggested framing is the honest one — what would have been written on 9/1? Row as written "
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-deck.html",
+      "needle": "One redeploy on 9/23",
+      "found": true,
+      "excerpt": "es republish tonight and are stale again in six days. If no One redeploy on 9/23 carries all three FOMC-letter parts. If nothing Hold by default; 9/23 is the date. PROME rec Rec: HOLD for 9/23 — one publish instead of two; VIOLET's argument that the state already moved is carried, your word may differ. Row as written in the queue Item VIOLET's two Will-facing artifacts (vol cheat-sheet · operating picture) are 49 days stale (last refres"
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-deck.html",
+      "needle": "A shadow run starts Monday 9/21",
+      "found": true,
+      "excerpt": "on 9/25. Neither is a trade and neither moves money. If yes A shadow run starts Monday 9/21 using satellite photos of the two crude berths at Yanbu. It is free, it rides on routines that already run, and it registers nothing - it just builds a record of how often the gauge is right before anyone leans on it. If no Nothing breaks. The current shut-in test still closes on its own terms on 9/25 and BRENT keeps reading the pipeline the way "
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-reference.html",
+      "needle": "WQ-213 VLO",
+      "found": true,
+      "excerpt": "S rows Next Consume TERRY's and BOND's grades as they land; WQ-213 VLO ×3 = Will's hands Fri 9/18 (DOCKET L412) — TERRY records the fill on TRY-BRENT-REFINER and states the day-colour condition in figures on the card (root rule #6 is TERRY's construction rule, not a bar on Will's own order — root rule #5); the fill RECEIPT closes WQ-213 Backstop and source PROME/GATES.tsv (007 live; ARM1–3 + 006 archived 9/3 → archive/GATES_TERMINAL_ROW"
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-reference.html",
+      "needle": "ENERGY = USO",
+      "found": true,
+      "excerpt": "d against the SLEEVE total at a LIVE mark, never per-card — ENERGY = USO 37 sh ONLY (100% shares since 9/11: RH USO spread closed 9/10, XLE 65C sold 9/11; 100% undefended, no exit rule: WQ-200 , TERRY setups/USO-SHARES_management-card_2026-09-09.md ) = 37 × the LIVE USO quote ( fetch.py price USO ) · duration-short = the TLT puts at the LIVE chain; FORGE/STATUS.md (vintage in ITS OWN HEADER — three clocks, not one : standing quantities "
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-reference.html",
+      "needle": "NOT RUN 2026-09-17",
+      "found": true,
+      "excerpt": "ayering rule's runner-vs-manual contract is touched) Status NOT RUN 2026-09-17 09:2x ET — the 9/17 session was consumed by crash recovery, thirteen spawns and the HEARTBEAT re-base; carried to the next PROME boot as owed PROME work (no re-date; the row's date is when it came due). Inputs unchanged: the four instruction defects verified 9/14 + the finding on PROME's own proposal. Prior: PENDING · registered 2026-09-14 16:0x ET by PROME a"
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-helm.html",
+      "needle": "ADD A `session_id`",
+      "found": true,
+      "excerpt": "N-BRIEF.md Docket record UPCOMING · 2026-09-28 · L444 · 🟠 **ADD A `session_id` COLUMN TO `PROME/state/ORCH_LOG.tsv` Owner: PROME (owns ORCH_LOG and the spawn driver) 🟠 **ADD A `session_id` COLUMN TO `PROME/state/ORCH_LOG.tsv` — WITHOUT IT A KILL CRITERION IS DECORATIVE.** Ruled at WQ-268 (Will, 2026-09-19 terminal). The WQ-184 spawn cap is **per BOOT**; the ledger has no boot or session field, so per-boot compliance **cannot be measured"
+    },
+    {
+      "artifact": "/tmp/cato-prome-sweep-20260923-helm.html",
+      "needle": "ADD A",
+      "found": true,
+      "excerpt": "N-BRIEF.md Docket record UPCOMING · 2026-09-28 · L444 · 🟠 **ADD A `session_id` COLUMN TO `PROME/state/ORCH_LOG.tsv` Owner: PROME (owns ORCH_LOG and the spawn driver) 🟠 **ADD A `session_id` COLUMN TO `PROME/state/ORCH_LOG.tsv` — WITHOUT IT A KILL CRITERION IS DECORATIVE.** Ruled at WQ-268 (Will, 2026-09-19 terminal). The WQ-184 spawn cap is **per BOOT**; the ledger has no boot or session field, so per-boot compliance **cannot be measured"
+    }
+  ],
+  "test_receipt": {
+    "command": "python3 -B -W error::ResourceWarning -m unittest PROME.tools.tests.test_repeat_boot PROME.tools.tests.test_decision_deck_split PROME.tools.tests.test_dashboard_marks_L409",
+    "executed": 50,
+    "failures": 1,
+    "errors": 0,
+    "failure": "DeckSplit.test_partition_retains_full_content_and_actions: Full what missing",
+    "diagnosis": "Fixture omits seven-column OPEN header. Current parser consumes the first data row as the header. Reproduced original failure directly; adding only the required header and separator to the temporary fixture makes the same full-content assertion pass. No production source/test changed.",
+    "independence": "CATO author follow-up for inherited L393 split/test and boot machinery; tests are not independent acceptance."
+  },
+  "tier_experiment": {
+    "input": "mock argus_scope.verify_review -> rc 2, fixture: no review manifest",
+    "untiered": "advisory, ok=True, UNKNOWN / review requirement NOT enforced",
+    "standard": "BLOCKING, ok=False, REQUIRED at this tier and missing/unevaluable",
+    "limit": "Tests the review leg only, not the overall gate or delivery path."
+  },
+  "link_check": {
+    "perimeter": "Markdown ](relative-path) links in PROME top-level *.md; ignore fragments, URLs and globs",
+    "missing_targets": []
+  }
+}
