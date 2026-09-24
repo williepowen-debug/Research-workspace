@@ -1,4 +1,5 @@
 # LIVE — Last real data refresh: 2026-06-30 (newest filed quarter) | Staleness sweep: 2026-08-28 | Next: Q3-2026 10-Q ~2026-11-06
+# Cadence: SCHEDULED next_due=2026-11-06
 # NON-ACCRUAL FLOW LEDGER — the decomposition THESIS v1.0 rests on. Built 2026-08-28 by FLG at its first live session from 13 EDGAR filings (10-Q/10-K, Flagstar Bank N.A., CIK 0000910073, 2023Q2..2026Q2). Source-authority: PRIMARY — FLG pulled and parsed every filing itself.
 # ⚠️ BASIS IS LOAD-BEARING AND DECLARED PER ROW. `YTD-as-filed` = figures exactly as printed: CUMULATIVE FROM DEC 31 of the prior year, NOT quarterly. `Q-derived` = successive YTD differences within one fiscal year, computed by FLG, NOT a filed figure. Never mix the two in one comparison; never annualise a YTD row (the ×2 error that overstated the seed's charge-offs ~15%).
 # ⚠️ EXPECTED-STALE BY CONSTRUCTION between filings — quarterly regulatory cadence, as with MI3_FLG.tsv. Stale after ~2026-11-13 IS neglect.

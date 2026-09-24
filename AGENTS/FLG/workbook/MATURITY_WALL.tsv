@@ -1,4 +1,5 @@
 # LIVE — Last real data refresh: 2026-06-30 (Q2-2026 10-Q) | Staleness sweep: 2026-08-28 | Next: FY2026 10-K ~2027-03-01 (the 10-K carries the fullest version of this table)
+# Cadence: SCHEDULED next_due=2027-03-01
 # MULTIFAMILY / CRE MATURITY & REPRICING WALL — stage 2 of the transmission chain, instrumented 2026-08-28 (previously the desk's named top gap: it knew the rent freeze bit but not WHICH vintages reprice into it).
 # Source-authority: PRIMARY — EDGAR, 'Loan Maturity and Repricing' table, pulled and parsed by FLG.
 # ⚠️ DEFINITIONS ARE LOAD-BEARING. `Option Loans` = ADJUSTABLE-rate, tabulated BY REPRICING DATE — the borrower may elect a fixed rate at reset, else it defaults to variable. `Non-Option Loans` = FIXED-rate, tabulated BY CONTRACTUAL MATURITY. These are DIFFERENT EVENTS: a repricing loan stays on the book at a new rate; a maturing loan must be refinanced or repaid. Do not sum them and call the total a 'maturity wall' without saying so.

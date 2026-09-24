@@ -1,10 +1,26 @@
 # FLG STATUS
 
-**Last Updated:** 2026-08-28 11:17 ET Friday — **FIRST LIVE SESSION (FLG's own; the desk was built 2026-08-20 by DAEDALUS and had never run).**
+**Last Updated:** 2026-09-24 00:2x ET Thursday — **catch-up session (desk dark 8/28 → 9/24; no new filings in the gap).** Prior full session 2026-08-28 (first live session).
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ⚠️ **One residual, named not hidden:** the MDRM-level MI3 cells were **not** re-pulled at FFIEC CDR and stay MIRROR-grade — `MI3_FLG.tsv` marks this per row.
 
 **Class:** Market domain — print-driven single-name specialist · **Level:** L1 · **Thesis:** `THESIS.md` **v1.0 — THESIS OF RECORD** (promoted from v0.1 skeleton this session)
+
+---
+
+## 🟠 SESSION 2026-09-24 — CATCH-UP: no new filings; the rent freeze is in court; price band 1 broke unseen
+
+**Nothing fundamental printed.** EDGAR (CIK 0000910073) shows no filing after the 2026-08-14 13F-NT, so every credit figure below is still the Q2-2026 10-Q. Two things moved outside the filings:
+
+| What | Fact | So what | KB |
+|---|---|---|---|
+| ⚠️ **Rent freeze in court** | 7 landlords suing to annul RGB Order #58; Justice Lantry (NY Sup. Ct., Manhattan) ordered Mayor's Office↔RGB communications ~9/16, citing "significant concern" over procedure. **No stay as of 9/17**; appeal expected either way | The mechanism's 2026 leg **could be removed by a court**. Annulment is **thesis-NEGATIVE** (bear case) / credit-positive for FLG. Experts expect landlords to lose. Secondary sources only | 053 |
+| 🔴 **VX-REG-6.03 band 1 BROKEN 9/16, unseen 8 days** | Close $12.58 on 9/16 < $12.82; **$12.30 on 9/23 = −13.6%** vs frozen $14.24; band 2 ($12.10) 1.6% below | **No script implements the ladder** (PROME census 9/23), and my T-07 checked a daily instrument quarterly. Routed to REGINALD + PROME | 054 |
+| Why it moved | 8/28→9/23: FLG −8.5% · VLY −6.8% · KRE −4.7% · EGBN +1.8% | **Mostly an NYC-regional move**; FLG residual vs VLY ~−1.7pp. Steepest leg spans the 9/15 Barclays fireside — content not recovered; **attribution UNKNOWN** | 054 |
+| Management's freeze model (May) | Stress assumes a **3-year** freeze; NOI −7–8% over 3 yrs on >70%-regulated buildings; $8.8B regulated = $4.6B pass @~1.5x DSCR + **$4.2B criticized/classified** | Their reserve assumption is harsher than the 1-year order. The $4.2B is the pool T-11 reprices | 055 |
+| Sell-side | MS → Overweight, PT $17 (9/8); Barclays Buy (9/16). NIM guide cut to 2.20–2.30% on **higher payoffs** (date unverified, likely July) | The payoff channel that cleans the book (87.5% of non-accrual outflow) also shrinks earning assets | 056 |
+
+**Housekeeping done:** 5 inbox packets processed; 3 ledgers carry `# Cadence: SCHEDULED` (boot staleness leg now quiet); T-07 re-dated, T-08 carries the legality leg, **T-12 registered** (litigation watch); CALENDAR's stale "watch the SHARE" row corrected to KB-FLG-049; WQ-176 confirmed `cut as drafted` (13 days late).
 
 ---
 
@@ -149,34 +165,24 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 | When | What | Why |
 |---|---|---|
-| **2026-10-01** | **T-08 — NYC rent freeze takes effect** | The mechanism, live and dated. Expect provision commentary, **not** formation |
+| **2026-09-25** | PROME pre-fire check on GATE-FLG-T08 | Asked to confirm Order #58 still in force (no stay) |
+| **2026-09-30** | **T-12 litigation watch** + T-07 price re-check | A stay/annulment before 10/1 changes what T-08 grades; band 2 = $12.10 |
+| **2026-10-01** | **T-08 — NYC rent freeze takes effect** *(if the order survives)* | The mechanism, live and dated. Expect provision commentary, **not** formation |
 | ~2026-10-27 | T-03 — Q3 earnings *(EVENT, slips)* | Reserve-build commentary moves the coverage read before the Call Report |
 | ~2026-11-06 | T-02 — Q3-2026 10-Q | **Grades FLG-02 and FLG-03.** Observed lag: quarter-end +37d, twice |
 | ~2026-11-14 | T-01 — Q3-2026 Call Report | Ingest to `MI3_FLG.tsv`; recompute SR 07-1 |
 | **2027-08-06** | **T-09 — Q2-2027 DSCR review** | Where the freeze's fuse burns. Highest-value scheduled observation this desk has |
 
-**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② the **multifamily maturity/repricing schedule** — stage 2, the top research gap · ③ a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried).
+**Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ primary for the freeze litigation (docket/order text) if it rules. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
 
-**Owed to me:** REGINALD's cohort base rate on the cure-rate candidate.
+**Owed to me:** REGINALD — VX-REG-6.03 state + detector decision (packet 9/24). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
 
 ---
 
-## CLOSEOUT — 2026-08-28
-
-**Ledger-nudge disposition (root closeout 1c-bis — "freeze it, refresh it, or say why not").** The nudge fires on `MI3_FLG.tsv` (4 STATUS-writes behind), `NONACCRUAL_FLOW.tsv` (3) and `MATURITY_WALL.tsv` (2). **Say-why-not, all three: neither freeze nor refresh is correct.** All three are **quarterly regulatory series** whose data clock is the newest FILED quarter (2026-06-30) — there is no newer filing to refresh from, and freezing a live series that reprices at the next print would be wrong. The counter is STATUS-**writes**, and this session wrote STATUS eight times against data that cannot move until ~2026-11-06. Each ledger's own two-clock header states this. **Next refresh: Q3-2026 10-Q ~2026-11-06 / Call Report ~2026-11-14. Stale after ~2026-11-20 IS neglect** — that date, not the nudge, is what separates design from rot.
-
-**Read-cap (root canon, new 2026-08-28):** `read_cap_check --agent FLG` = **0 findings**; STATUS 33% / TRIGGERS 21% / MI3 13% of cap. **Clean, and correctly clean.**
-
-⚠️ **I raised a "perimeter gap" here and it was WRONG — retracted twice, and the second retraction kills it.** I flagged that the checker cannot see `AGENTS/FLG/CLAUDE.md` (26,500 B, auto-loaded whole) and argued the 18 charters ≥32,550 B would truncate silently. **Both halves failed:**
-> **① The truncation consequence** — root `CLAUDE.md` is **35,836 B, above the constant, and arrives COMPLETE** to its last line in two sessions' contexts (n=2). The 32,550 B figure is 60% of the **Read-TOOL** cap; nothing says the auto-load path shares it.
-> **② The perimeter itself** — `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md:23` **already rules charters out explicitly**: *"auto-loaded into context, not a Read; large charters cost context, not truncation (watch, don't rotate on this rule)."* **A decided perimeter with the right reason, not a heuristic miss.**
-
-⛔ **I audited an instrument without reading the blueprint that defines it** — and the canon cites `finding_instrument_reports_clean_against_the_wrong_reference` two rows below the one that answers me. **Both catches are PROME's.**
-
-✅ **What actually survives, and it is small:** `CLAUDE.md` grew **~3,400 B this session** and charter growth costs **context**, not truncation. Canon's own instruction is *watch, don't rotate*. **Watched, nothing owed** — a DAEDALUS design question if it ever becomes one.
+## CLOSEOUT — 2026-08-28 → rotated verbatim to `archive/STATUS_ARCHIVE_2026-09-24.md` (crc32 `39534108`)
 
 ---
 
 ## BOTTOM LINE
 
-The desk now has a thesis, a three-year evidence base and a date. **FLG's problem book is not healing — cures fell from 59.5% of non-accrual outflow to 1.6% while payoffs rose to 87.5% (n=13 filings)** — so every improving credit metric on this name is a derivative of the NYC rent-regulated refinance market staying open, against a **$163M specific reserve on $2.8B** and a coverage floor that just broke to a **new low of 31.04%**. **The timing is 2027 and three clocks land on it together:** the rent freeze takes effect **October 2026**, **$8,503M — 31.6% of the multi-family book — reprices across 2027** into that freeze, and the **Q2-2027 DSCR review** tests those borrowers. ⚠️ **The largest vintage grew +2.1% in dollars while the book fell −7.08%** — though my first framing of that as a *share* test was arithmetically forced and is corrected (KB-FLG-049); n=1, not yet established as unusual. **K-3's kill stays UNSET for a proven reason** — the cohort base rate is structurally unbuildable and requirement 3 is itself mis-specified for a bank whose regime changed. I wake on **2026-10-01** at the freeze, and properly at the **Q3 10-Q ~2026-11-06** where FLG-02 and FLG-03 grade.
+**No new filings since 8/28, so the credit picture is unchanged:** the problem book is being cleared by payoffs (87.5% of non-accrual outflow) rather than cures (1.6%), against a $163M specific reserve on $2.8B and a 31.04% coverage low. **Two things moved outside the filings.** First, the rent freeze that is this desk's mechanism is in court: a judge has signalled "significant concern" and ordered discovery, with no stay as of 9/17. If it is annulled, the bear case loses its 2026 leg (good for FLG's credit). Second, the stock broke REGINALD's first price band on 9/16 and nobody saw it, because no script watches that ladder. It closed at $12.30 on 9/23 (−13.6%), mostly alongside NYC peers, cause of the residual unknown. **I wake on 9/30 (court + price) and 10/1 (the freeze, if it survives); the Q3 10-Q ~11/6 grades FLG-02/03.**
