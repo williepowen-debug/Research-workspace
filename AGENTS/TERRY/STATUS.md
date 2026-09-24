@@ -19,6 +19,8 @@
 >
 > **Done today:** STATUS rotated · construction rule #22 amended (PROME L429) · DAEDALUS sweep #1 both asks disposed · 7 inbox packets consumed · packets out to PROME / DAEDALUS / REGINALD (ASK) / HENRY (ASK). **Process gap CLOSED:** the 2 staged VLO shares now have a registered watcher, `GATE-TERRY-VLO-SCALE` (Will 14:59 ET, WQ-282; `PROME/GATES.tsv` `0289ac024`, letter `5fae05da9` verified verbatim). Each fire = TERRY grades on settled closes + rec to Will. review_by 10/14.
 >
+> **Session 2 (Will-directed, 15:07–17:1x ET):** `PB-0007` VLO equity mark branch SHIPPED (`3b6fb681c`) · VLO-SCALE graded on the 9/24 close: **NOT MET**, `F1` basis **named by HENRY** (`90fa9a4c1`), buffer corrected to **~`$0.36`** (`5bf4fb8db`; my first read used the post-settlement last trade) · WAL exit-letter UNKNOWN-cell misreading fixed, CATO AP2 CONCUR (`75350d25f`) · packets to HENRY/PROME. **🔴 OWED 9/25:** ① AM: confirm the finalized 9/24 Nov crack row is within `$0.15` of `$95.36` · ② grade the **9/25 Nov settlement vs `$95`** (settlement window 14:28–14:30 ET; ±`$0.15` ⇒ UNKNOWN) · ③ DOCKET **L391** (read-cap proximity flag in `boot.py`) and the SETUPS 96% / TRADE_BOOK 84% rotations are still open.
+>
 > **Open items carried:**
 > - **Answers owed IN:** REGINALD on clause (d) · HENRY on the `F1` basis · Will on the VLO share's account + fill time (D-55).
 > - **CCL prints Tue 9/29** — `TRY-NOTRADE-CCLPRINT` stands; **grade CRUISE's `FL-CRU-10` (CCL Q3 CC net yield ≥ its ~+1.2% guide, 60%) on the FROZEN resolver after the print.** NCLH 11/04 UNVERIFIED, re-check `2026-10-20`.
