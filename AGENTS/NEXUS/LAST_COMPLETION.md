@@ -1,5 +1,14 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-09-24 Thu ~17:36–17:5x ET — **CATO RC1 CORRECTION + L0 DRAIN** (PROME spawn `prome-f5`, Tier 1 inside WQ-261; bounded fix + drain, NOT a synthesis pass)
+
+**Inbox 2 → 0** (2 top-level: PROME CATO-RC1, DAEDALUS rule-16; WALTER lane 0), both in `board_log.tsv`, `git mv`'d to `processed/`. R1 corrections check rc=0.
+
+1. **CATO RC1 — CONCUR, reproduced.** A C on the DFII10 letter means only that no 5-cell run completed in either direction. It does not mean yields held inside ±10bp: L=2.70 with cells alternating 3.00/2.40 grades C with every cell outside the band. Corrected in `research/2026-09-24_t12_successor_DFII10_letter.md`: §1.4 row 2, §3 (a double-C is no verdict on the channel and counts neither for nor against my 9/17 reading; 31%/13% now labelled as squared marginals, an independence illustration), new §7 correction record. **§2 letter sha256 unchanged `212a5dc7…ac858`**; the branch rule, edges, window, anchor, consequences and non-renewable clause were not touched. **Propagation (9b):** scanned STATUS, PREDICTIONS_MONITOR, PREDICTIONS_COLD, STATUS_COLD, SIGNALS, BRIEFS_MAP and this file; none carried the "went quiet" reading (STATUS L10 and PM L13 already say "neither ⇒ NO-VERDICT"). NEXUS has no `NEXUS_BRIEF.md`. PROME's GATES cell is unaffected (no word it mirrors changed). Offered separately, not encoded: a stability instrument (max |cell − L|).
+2. **DAEDALUS rule 16:** the READS.tsv declaration (brief CLASS row + BOOT 1–7a + BASIS + ATTESTATION) was sent to PROME by packet. ⚠️ Two charter items are open and mine to fix at the next full session: **LAST_COMPLETION is called a boot read in WHAT YOU OWN but is missing from BOOT 1–7a**, and the mode of the STATUS-fallback class is conditional. YURI's BRIEFS_MAP seat is deferred until YURI's first packet (DAEDALUS's trigger).
+
+**Not run (bounded spawn):** 9c fleet-freshness re-scan · 9a rollup · matrix/split review. The board was not re-swept, so no header claim was made. **Split untouched; $0; no score change.** Promotion scan: none this pass (RC1 is an instance of `finding_output_shape_implies_more_than_the_measurement`, a NO-VERDICT described as more than the rule measures; not extended because it was outside this spawn's scope).
+
 ## 2026-09-24 Thu ~15:0x–15:2x ET — **WQ-261 ENCODE + L0 DRAIN** (PROME spawn `prome-3f`, Tier 1 under WQ-206; drain + one encode, NOT a synthesis pass)
 
 **Box:** desktop · markets OPEN (intraday; no live price used — DFII10/Treasury cells only). **Inbox 4 → 0** (2 top-level + 2 WALTER), all in `board_log.tsv`, `git mv`'d to `processed/`. R1 corrections check rc=0 (0 unreceipted NAMED).
