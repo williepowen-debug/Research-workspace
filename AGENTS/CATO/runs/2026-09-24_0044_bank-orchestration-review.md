@@ -58,6 +58,10 @@ PROME discloses the three rotate-tier files, which is good, but its L350 “REGI
 
 **Correction / close when:** distinguish the September 30 check's one-day lead before October 1 from the potentially multi-day detection lag after the September 25 check. Explicitly retain that gap or choose closer reads; no automatic daily-watch build. This review does not independently establish the case's latest legal status, overturn the source grades, or require Will to perform the optional browser task.
 
+## Closeout-time observation — concurrent round 2
+
+While CATO was recording this review, REGINALD committed `d2309c9df`: STATUS, MEMORY and CALENDAR now meet the <70% stop condition. CATO reran the size check and verified those three changes; **RB4 narrows to just-rotated ROADMAP (24,119 B), whose stop condition remains unmet**. No archive-content certification is implied. A pending AMENDMENT A1 to the bank frame also records primary-source baseline fills for SSB/AMTB; CATO saw the diff but did not independently verify those new source reads. It explicitly changes no bar, class or aggregate rule, so RB1's counterexamples survive. OZK's two reviewed files were unchanged. New WAL 10-Q-frame work (`6c488c239`) is outside this turn's review. These observations do not restart the review around the live second round.
+
 ## Checks, limits and suggested instruction
 
 Reproduction: `python3 -B AGENTS/CATO/runs/2026-09-24_0044_bank-orchestration-repro.py`; output stored alongside as `2026-09-24_0044_bank-orchestration-evidence.json`. The code pins the reviewed Git revision and uses mocked HTTP responses only. All six reproduced exit states and the balance counterexample matched the recorded assertions. CATO authored this reproduction; it is independent testing of OZK's implementation, not a new owner repair. Closeout: exact-path diff whitespace check passed; weekday claim check passed on DOCKET, GATES, WILL_QUEUE and this report. Orphan advisory identified only other owners' work outside CATO, including newer WAL/VIOLET/OSPREY work excluded from this snapshot. Foreign staged VIOLET inbox moves were observed and preserved; CATO's commit uses four exact paths.
