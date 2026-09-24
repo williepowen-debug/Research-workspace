@@ -56,6 +56,8 @@
 25. **A guard that reads only the token that was bumped cannot fail on the token that was not** — `spec_version()` took the first match and the H1 is line 1, so a field left at v0.37 under an H1 at v0.38 printed `ok`. Watch a guard FAIL on the instance before trusting the fix. → `tools/version_drift_check.py` docstring (DAEDALUS PR#6 ⑩)
 26. **No WALTER session on a data day = a BOARD hole nobody announces** — the 9/16 FOMC hike reached four desks through their own reads and never the board; HENRY/RED (dark) never got it. At boot after any missed weekday, diff the catalyst calendar against the BOARD's last date BEFORE reading the lane. → `LAST_COMPLETION.md` OPEN DESIGN DECISIONS (a); raised to PROME 9/17
 
+27. **A boundary whose FIRE-PRIMARY is another desk and that NO WALTER scan leg covers can fire UNSEEN for a week** — #8 (Brent 3:2:1) sat above its bar on matched November 9/15→9/24 while BRENT (primary) never fired and 6c scanned only the four registries + Cushing. "Fallback if the primary is stale" never triggers when the primary is fresh but silent. → `LAST_COMPLETION.md` OPEN DESIGN DECISIONS (j); boundary letter `design/ROUTING_OVERLAYS.md` §By Boundary Threshold
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References

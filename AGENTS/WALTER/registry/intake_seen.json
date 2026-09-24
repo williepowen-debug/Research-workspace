@@ -2,8 +2,8 @@
   "seen": {
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:orange": "2026-07-17T01:56:58Z",
-    "fred:BAMLH0A0HYM2:orange": "2026-09-17T22:54:24Z",
-    "edgar:EGBN_2026_09_14_5_02_9_01_": "2026-09-17T22:54:24Z"
+    "news:NEW_ALERT:data/2026-09-23/news.json": "2026-09-24T17:18:08Z",
+    "news:NEW_WATCH:data/2026-09-23/news.json": "2026-09-24T17:18:08Z"
   },
-  "updated": "2026-09-17T22:54:24Z"
+  "updated": "2026-09-24T17:18:08Z"
 }

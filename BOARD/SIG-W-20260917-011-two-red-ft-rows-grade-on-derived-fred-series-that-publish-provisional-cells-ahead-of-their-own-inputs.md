@@ -18,6 +18,8 @@ resources: 1
 safety_net: clear
 word_count: 468
 verdict: "RED-FT-09 (T5YIFR) and RED-FT-11's classifier leg (T10YIE) both grade on DERIVED FRED series that publish a cell BEFORE their own inputs exist. NO GRADE CHANGES TODAY — both bars are far away. The exposure is the BASIS: 'use the latest cell' selects an unsupported value that looks FRESHER than the verified data beside it, and every staleness check returns clean."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-004 (2026-09-24) — the MECHANISM is WITHDRAWN: T5YIFR/T10YIE are computed from Treasury's own BC_/TC_ curve data (FRED series notes), not from the DGS/DFII cells, so a leading cell is a publication-SCHEDULE difference, not provisional. Originator LIQUID retracted it 9/22 (KB-LIQ-133 CORRECTED). SURVIVES: series publish on different schedules, so align dates before comparing."
 ---
 
 # Two RED-FT rows grade on derived FRED series that publish provisional cells ahead of their own inputs
