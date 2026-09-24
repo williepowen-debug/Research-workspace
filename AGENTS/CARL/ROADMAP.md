@@ -29,7 +29,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | 4 | **DAEDALUS STATUS two-state PILOT (WATT/HENRY/CARL)** | **Execute rotation in the post-HHDC session** (deliberate: tomorrow's print supersedes many dashboard rows — rotating after integration avoids doub… | 2026-08-10 |
 | 5 | **GIG-P03/P06 re-instrumentation (structural data gap)** | Decide: re-spec onto a published series (platform-disclosed driver earnings/ride — Lyft publishes +8% YoY), re-date to the annual Gridwise cadence,… | 2026-08-10 |
 | 6 | **CRL-04 basis check + CRL-30 first grade — the residual of the CRL-05 void** | **(a)** Settle CRL-04 at the next HHDC read (~Nov) — decide whether an absolute HHDC-stock bar inherits any part of the reporting-duration effect,… | 2026-09-10 |
-| 7 | **CARL-DR-1 FHA partial-claims leg — re-commission decision** | Re-dated 10/9. Decide once PROME wakes or re-routes DEWEY. The kill stays unscored on one leg. | 2026-09-24 |
+| 7 | **CARL-DR-1 — private-book leg decision (FHA leg DONE 8/27)** | Decide whether to ask Will/PROME to commission a PRIVATE-book leg (card or private-label auto). Until one lands, DR-1 stays PARTIAL: kill neither d… | 2026-09-24 |
 | 8 | **🟠 FERT — a chartered agent with NO roster row, pointing at CARL** | **Flagged to PROME 8/15 (`PROME/inbox`), not absorbed — ROSTER is PROME's surface and the disposition (revive / retire / re-charter) is not mine.**… | 2026-08-15 |
 | 9 | **New prediction candidate — student-loan-default trajectory** | Draft a CRL-prediction on the next NY Fed HHDC student-loan-default print (~mid-Aug Q2) — threshold + invalidation. Coordinate with STUE. | 2026-06-22 |
 | 10 | **V16 → RED counter-evidence staging** (residual of V16 4→3) | Stage to handoff_RED: Jun 1-5 acute-employment strength as CONTAINMENT data point (what would ALSO have to break for the bear thesis — cost-squeeze… | 2026-06-06 |
@@ -101,8 +101,10 @@ September17: crash-recovery closeout finished the interrupted 9/16 rotation — 
 
 September24: data catch-up (7-day gap). **Discharged:** FOMC presser review (no easing, V12 un-fire 0 of 2); FSA 9/18 re-poll (CHANGED, FY26-Q3 integrated, STUE packeted); DAEDALUS 9/14 ladder (CARL's inputs delivered 9/10, H2 as-made run by DAEDALUS 9/17); V2 leg-table encoding check folded into the 9/30 grading card (thread removed from OPEN). **Fixed:** a `boot.py` collapsed-view defect that put Ally 10-Ds under the Exeter panel header. **Inbox** 10→0 (MARCO ×2 and CRUISE ×4 staged to handoff_RED as counter-evidence; WALTER lane ×4 filed). **BOARD** cursor advanced through SIG-W-20260921-022 (36 dispositions; energy items deferred to the 9/28 CRL-08 print).
 
+September24 PM: **CARL-DR-5 graded SCORED STRIKE (medium)** — grocery volume may not be used as cyclical K-shape evidence (cycle unsupported; policy capped at ~¼; artifact leans). Nothing live to remove. No standing food sub-agent (DEWEY §5: NO). KB-CARL-498. DR-1 record corrected (FHA leg delivered 8/27; next is a private-book leg decision).
+
 **Open obligations rescued from that historical tail (not resolved by rotation):**
-- CARL-DR-1 remains PARTIAL; private-leg precondition and weighted/shadow-grade requirements still bind. September18 FHA-leg re-commission decision stays in docket; do not cite22.5bp as a class-wide pass.
+- CARL-DR-1 remains PARTIAL; private-leg precondition and weighted/shadow-grade requirements still bind. The FHA leg was delivered 8/27 and integrated 9/1 (corrected 9/24); the open item is a private-book leg. Do not cite 22.5bp as a class-wide pass.
 - AEOLUS C6 Colorado River ROD~October1 remains a consumer-cost watch; C5 historical European drag is not a forward Q4 estimate.
 - September5 ES-02 clarification, missing research deliveries, ABS ratings and Sec-122 integration remain in OPEN THREADS/questions/docket until actually reviewed. PHAN September8 delivery is already discharged; monitor-coverage fix is completed, not a fresh open task.
 - V2 collection-month grading, WQ151 encoding check, V16 October2 resolver and all existing approvals remain live at their canonical homes.

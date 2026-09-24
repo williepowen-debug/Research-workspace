@@ -15,9 +15,9 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 3. FSA re-poll: CHANGED (LM 9/18). Federally Managed defaults $234.1B / 9.3M (+$13.8B vs +$39.8B the quarter before). File copied to `domain/sources/`. STUE packeted to grade ES-01/04/06.
 4. V2 August broad tier read via OTTO dry run (control PASS): 0/3 improving, mean +1.09pp (July +1.00). August cannot count toward L3.
 5. Presser reviewed: V12 un-fire 0 of 2, score 5. Recorded in THESIS + STATUS + CHANGELOG.
-6. CRL-08 deliberately NOT re-priced (confidence-walk rule). Registration of the bar ruling asked of PROME (72c277376, doorbelled prome-26). DEWEY dark on DR-5/DR-1, flagged in the same packet.
+6. CRL-08 deliberately NOT re-priced (confidence-walk rule). Registration of the bar ruling asked of PROME (72c277376, doorbelled prome-26). DEWEY dark on DR-5 flagged in the same packet (⚠️ its DR-1 'held' claim was FALSE, since the FHA leg was delivered 8/27; corrected to PROME the same day).
 7. Inbox 10→0: WALTER lane ×4 filed; MARCO/CRUISE staged to `handoff_RED/COUNTER_LOG.md` (no CARL surface cited them). BOARD: 36 dispositions through SIG-W-20260921-022. Energy items are deferred to 9/28 (CRL-08); BDC items to 10/1 (CRL-25).
-8. Docket: 5 pruned, 4 re-dated with reasons, 6 added (CCL 9/29, RAP 9/29, CB 9/29, CRL-08 close 9/30, BEA PIO 9/30, STUE ES 10/2). KB-CARL-487..496.
+8. DR-5 graded SCORED STRIKE (medium, against the thesis); DR-1 record corrected after DEWEY showed the FHA leg was delivered 8/27 (CARL had carried an overtaken row for 3 sessions). 9. Docket: 6 pruned, 4 re-dated with reasons, 6 added (CCL 9/29, RAP 9/29, CB 9/29, CRL-08 close 9/30, BEA PIO 9/30, STUE ES 10/2). KB-CARL-487..496.
 
 ## STATUS CHANGES
 | Item | Change |
@@ -38,7 +38,6 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
-- 2026-09-25: **DEWEY DR-5 packet expected in `inbox/`** (DEWEY messaged 9/24: deliverable today, possibly partial; includes a DR-1 FHA line). Grade under DR-5's pre-registered both-ways rule; prune/redate the two 10/9 docket rows accordingly.
 - 2026-09-25: UMich September final (1Y 4.6% prelim reversal); re-check the Xi–Trump summit tariff outcome and ICE August First Look (404 on 9/24).
 
 ### UPCOMING (this week)
@@ -47,7 +46,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 - Sub-agent closeout template fix (PHAN 9/11 packet): shared git+push-receipt block into DOC/GIG/META/POLLY/POP/STUE. It was due 2026-09-25 and was **not started**; re-target 2026-10-02.
 
 ### UPCOMING (next 2 weeks)
-- 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DEWEY DR-5/DR-1 (dark). 10/14–15: September CPI/retail.
+- 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DR-1 private-book leg decision (FHA leg was delivered 8/27, not held; corrected 9/24). 10/14–15: September CPI/retail.
 - RED 9/14 ask: CRL revision ledger with direction-of-benefit, target 2026-09-30 (not started).
 
 ### BACKLOG (no deadline)
@@ -58,16 +57,18 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 
 ---
 
-## OUTBOX (2 items; delivery state)
+## OUTBOX (3 items; delivery state)
 | File | To | Summary |
 |------|----|---------|
-| `PROME/inbox/2026-09-24_from-CARL_register-CRL-08-bar-ruling-by-9-30-and-DEWEY-is-dark.md` | PROME | Register the CRL-08 bar decision (needed 9/30); DEWEY dark. Committed 72c277376; doorbelled. **PROME receipt 9/24: registered as WQ-281 (PROME concurs: sustained). If Will rules in a CARL session, record his verbatim word and packet PROME the quote and time. PROME is spawning DEWEY L0 drain-only; DR-5 status is its first deliverable; keep both rows at 10/9.** |
+| `PROME/inbox/2026-09-24_from-CARL_register-CRL-08-bar-ruling-by-9-30-and-DEWEY-is-dark.md` | PROME | Register the CRL-08 bar decision (needed 9/30); DEWEY dark. Committed 72c277376; doorbelled. **PROME receipt 9/24: registered as WQ-281 (PROME concurs: sustained). **WQ-281 RULED 13:17 ET (Will: "Approve WQ-280 and WQ-281 with your recs") = sustained; recorded on all CARL surfaces. DEWEY woken and DR-5 delivered.** |
+| `PROME/inbox/2026-09-24b_from-CARL_CORRECTION-DR-1-was-not-held-FHA-leg-delivered-8-27-and-DR-5-graded.md` | PROME | CORRECTION: DR-1 FHA leg was delivered 8/27, not held; DR-5 graded SCORED STRIKE. No ask. Committed with the DR-5 grade; doorbelled. |
 | `sub_agents/STUE/inbox/2026-09-24_from-CARL_FSA-FY26-Q3-POSTED-ES-01-04-06-unblocked.md` | STUE | FSA FY26-Q3 figures; grade ES-01/04/06 (ES-01 at the −5% band on rounding). Committed with the closeout; STUE not live (rule 6b → noted to PROME). |
 
 ## INBOX (0 live items; disposition)
 | File | From | Disposition / next action |
 |------|------|---------|
 | SIG-W-20260924-005 (dispositioned 9/24; lane copy NOT moved — still untracked, WALTER has not committed its delivery; `git mv` it to processed/ after WALTER commits) | WALTER | CACC AG settlement: acted, 8-K pulled; no registered row; numerator-exit note for the ~11/30 HHDC auto read (KB-CARL-497). |
+| DEWEY DR-5 packet (filed 9/24) | DEWEY | **GRADED: SCORED STRIKE (medium)** on grocery volume as cyclical evidence; KB-CARL-498; docket row pruned. DEWEY also corrected CARL: the DR-1 FHA leg was delivered 8/27, so the 'held' claim was false. Correction packet sent to PROME. |
 | (10 filed 9/24) | MARCO ×2, CRUISE ×4, WALTER ×4 | MARCO: FL June airport print is UNINFORMATIVE (Spirit confound); MIA is the clean tell; 84% retracted. CRUISE: only the RCL price-into-capacity leg survives; the NCLH duration datum carries no lean. Both staged to RED. WALTER -005/-012 verdicts withdrawn by -015/-016; -002 mechanism weakened by -019. |
 
 ---

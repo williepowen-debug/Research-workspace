@@ -4,6 +4,12 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-09-24 PM — CARL-DR-5 SCORED STRIKE against the thesis: grocery volume is not cyclical evidence
+
+DEWEY (4779531b8): cycle unsupported (UR fell; food-away +2.4% real); SNAP cut is ~a quarter of the unit decline at literature pass-through; the rest leans substitution/measurement (BEA real off-premises food flat to up vs NIQ units −1.8 to −2.2%). Graded by CARL at medium confidence (KB-CARL-498). Staged for RED as a scored counter-point.
+
+---
+
 ## 2026-09-24 — 🟠 Two peer desks send counter-evidence on discretionary travel and Florida (CRUISE ×4, MARCO ×2, 9/19–9/20). Staged, NOT scored.
 
 | Claim (as it stands after the senders' own corrections) | Figure | Source | CARL read |
