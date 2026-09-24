@@ -1,6 +1,9 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-24 Thu, Claude Opus 5.5 as WALTER (`walter-f9`), **Will-directed** ("boot up", then "go ahead with your order"). The first WALTER session after **two dark weekdays (9/22–9/23)**. **Closeout tier: TIER 1, plus step 13 REGISTRY refresh (11 rows) and 12(b) regen.** Deferred: MEMORY prune, NETWORK-AWARENESS full regen beyond the refreshed rows, version-drift sweep, staleness sweep.
+Session: 2026-09-24 Thu, Claude Opus 5.5 as WALTER (`walter-f9`), **Will-directed** ("boot up", then "go ahead with your order"). The first WALTER session after **two dark weekdays (9/22–9/23)**. **Closeout tier: TIER 2 (Will: "close out here")**:
+- Done: step 13 REGISTRY refresh (12 rows), 12(b) NETWORK AWARENESS regen, 12(e) BOTTOM LINE re-cut, 12(f) budget (read_cap rc=0), step 14 MEMORY handoff + finding #28, `version_drift_check` clean, claim check clean.
+- ⛔ **SKIPPED, named:** the staleness sweep, now 7d past cadence. `staleness_sweep.py` only generates candidates, and each needs adjudication; that is a session's work, not a closeout step.
+- Also not done: the MEMORY prune (the file is at 12.3 KB, well under its 24,412 B trigger, so nothing is owed).
 
 ## STATUS
 
@@ -72,6 +75,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 ## OPEN DESIGN DECISIONS
 
+**(k)** 🆕 **Independent end-of-session review as a standard step.** Two sessions running (CATO 9/21; the Opus reviewer 9/24) found real defects that `walter_doctor` and `closeout_check` passed. Both instruments check structure, not whether a claim matches its source. **Proposal to Will:** a read-only independent reviewer at every Tier-2 closeout. It costs one agent run and has found 4 + 4 HIGH defects in two runs. **A process change, so it is Will's call.**
 Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addresses · broader automatic receiving-readiness changes · (a) whether PROME's boot carries a "did WALTER run on the last data day?" line — **re-instanced today (MEMORY #26, n=2)** · (b) whether `version_drift_check.py` should read prose "Current:" lines · (c) whether `delivery_log` should admit an AMENDMENT row type · (d) independent-access standard for "this is secret" claims — **HAWK's KB-HAWK-407 now holds a consumer-side answer** · (e) SPR registerability (BRENT / Will) · (g) 🔴 **TIMESTAMP DISCIPLINE, n=3:** should `walter_doctor` `future_timestamps` grade `x`-convention rows against the wall clock, and should the stamp come from a helper rather than a hand-typed string? · (h) retention of original intake (not built) · (i) source links and CATO's lead format (spec change, to Will).
 **(j)** 🆕 **Scanner coverage for BRENT boundary rows.** `ROUTING_OVERLAYS` §Detection says "WALTER monitors" and "BRENT-fire-as-primary; WALTER-fallback if BRENT stale (>5d)". **The fallback never triggers when the primary is FRESH BUT SILENT**, and boot 6c names no leg for #1/#2/#4/#6/#7/#8. **Proposal:** add the instrumented boundary rows (#1/#2 Brent, #6/#8 matched cracks with a month column, #3 Cushing already in) to `THRESHOLD_SCAN.md` step 7 and to charter 6c. This is a spec change to WALTER's own files. **Small enough for RULE 8 inline? The charter edit makes it structural, so it goes to Will first.**
 
@@ -84,7 +88,7 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T17:57:13+00:00",
+  "as_of": "2026-09-24T18:20:02+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -93,7 +97,8 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
     {"commit": "7973d469b", "state": "published"},
     {"commit": "436442a26", "state": "published"},
     {"commit": "5ce79b47f", "state": "published"},
-    {"commit": "c7a7a681b", "state": "published"}
+    {"commit": "c7a7a681b", "state": "published"},
+    {"commit": "5e03b8409", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20260924",

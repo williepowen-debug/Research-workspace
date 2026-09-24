@@ -58,6 +58,8 @@
 
 27. **A boundary whose FIRE-PRIMARY is another desk and that NO WALTER scan leg covers can fire UNSEEN for a week** — #8 (Brent 3:2:1) sat above its bar on matched November 9/15→9/24 while BRENT (primary) never fired and 6c scanned only the four registries + Cushing. "Fallback if the primary is stale" never triggers when the primary is fresh but silent. → `LAST_COMPLETION.md` OPEN DESIGN DECISIONS (j); boundary letter `design/ROUTING_OVERLAYS.md` §By Boundary Threshold
 
+28. **An absence in ONE fetched article is not an absence, and "search-summary contamination" is itself a verdict that needs evidence** — 9/24: a White House denial on record at Reuters and The Hill was logged as contamination because one Fox article lacked it (`-011`). Before calling a claim unsupported, run one targeted search for the claim itself. → `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]`
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -69,18 +71,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-17 Thu evening, Full WALTER (Claude Fable 5.1, `walter-37`), Tier-2
+### CHANGES SINCE LAST SESSION — 2026-09-24 Thu, Full WALTER (Claude Opus 5.5, `walter-f9`), Tier-2, after two dark weekdays (9/22–9/23)
 
-- **BOARD 982 → 991** — nine dispatches (six at boot + three from Will's 23:05Z news sweep), 34 handoffs, 4 kills; drop-zone batch 3/3 CLOSED; inbox 6 → 0; REGISTRY 8 rows refreshed. **No registered fire.** FT-10 run BROKE 9/15 (RED action); FT-12 near-trigger (HY 270 [9/16]); FOMC +25 bp 9/16 (primary) posted a day late; BoE held + APF sales paused (primary).
-- **Iran FULL primary sweep DONE** (owed 9/17): "force majeure" NOT declared → ADD#25; Petroline day 7; Hormuz 12 transits 9/16 (floor); losses 3; marks untouched. Next ~9/24.
-- **Doorbells:** FALCON (FAL-05 window) + HENRY (9/18 opex) → PROME packet + SendMessage; 5 dark-recipient ACTION rows logged NOT doorbelled.
-- **Tooling (DAEDALUS PR#6):** `version_drift_check.py` reads the field + fails on H1≠field (watched FAIL, then PASS); routing trio field/prose reconciled at v0.38; `workbook/LEDGER_GLOB` created; 3 event ledgers declared EVENT-DRIVEN.
-- Previous session (2026-09-15 Codex closeout-consistency + reading repair) → `SESSION_LOG.md`.
+- **BOARD 1017 → 1032: 15 dispatches, 54 handoffs (all delivered), 4 kills, 7 named corrections.** Boundary #8 (Brent 3:2:1 >$50) found fired UNSEEN on matched Nov since 9/15 (`-001`, finding #27). Iran FULL sweep (`-010`): Rubio names Kataib Hezbollah; Hormuz hits, no sinking; ADD#26 guard written.
+- **An independent Opus review of the session's own work found 13 defects (4 HIGH) that the doctor and `closeout_check` passed clean.** Five corrections `-011`…`-015`. This is the second session running (after CATO 9/21). → OPEN DESIGN DECISION (k).
+- Previous session (2026-09-21, CATO review) → `SESSION_LOG.md`.
 
 ### NEXT SESSION
-1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list (11 + 2 new).
-2. ✅ Both doorbells DISCHARGED same evening (PROME spawned FALCON + HENRY within 15 min; FAL-05 graded NO FIRE, open to 10/07; HENRY consumed -002/-004, deferred four). **Next boot: HENRY's deferred four, REGINALD `-005`/`-009` (no BOARD_LOG row yet), RED's FT-10 cell.**
-3. 🔴 **After any missed weekday, diff the catalyst calendar against the BOARD's last date FIRST** (finding #26) — 9/18 opex + BOJ are the next data-day items.
-4. FRED is T+1: re-pull HY after ~16:15 ET before quoting the FT-12 distance.
-5. `#6`/`#8` month basis stays WITH WILL; CATO registry question WITH WILL.
-6. Iran re-verify ~9/24; anchor 23,926 B (rotate at ≥24,412); MEMORY/THRESHOLD_SCAN/routing-file size checks 9/30.
+1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
+2. **9/25:** did BRENT (spawned AM by PROME) grade BG-02 at 17:00 ET, and settle boundary #8 on a SETTLEMENT source (does December un-fire)? Check the receipts on COR-20260924-11…15.
+3. **Compute the matched Nov/Dec/Jan Brent 3:2:1 at 6c** until a scanner leg exists (recipe in `-001`).
+4. **FLG rent-freeze manual search** (Kenilworth v. RGB, Index 85199/2026) at every boot through 10/07.
+5. FRED is T+1: re-pull HY after ~16:15 ET before quoting a distance.
+6. 9/30: size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor at 23,980 B, rotate at ≥24,412), Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout. Next Iran full sweep ~10/01.

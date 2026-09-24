@@ -1,3 +1,5 @@
+## 2026-09-24 Thu 18:20Z — `walter-f9` **TIER-2 CLOSEOUT** (Will: "close out here"). Clears both 9/24 `light-closeout — full deferred` breadcrumbs below. MEMORY handoff + finding #28; OPEN DESIGN DECISION (k) (independent review at every Tier-2) raised to Will. ⛔ Staleness sweep SKIPPED, named (7d past cadence). All 54 handoffs delivered.
+
 ## 2026-09-24 Thu ~17:3x–17:5xZ (13:3x–13:5x ET) — `walter-f9` PM leg: Iran FULL sweep + independent review of the day's work. **Supersedes the AM entry below on counts and on "full sweep still OWED".** `light-closeout — full deferred`
 
 - **Iran FULL sweep done (`-010`):** Rubio named Kataib Hezbollah for Petroline (9/22). Hormuz hits 9/18, 9/20 (AL MARYAH), 9/21 (LR STEPHANIE), 9/23 (bulk carrier adrift). No sinking or mine. Houthi missiles at Riyadh 9/19 and Yanbu/Taif 9/24 were INTERCEPTED per the coalition. Diplomacy mediated only. Guard **ADD#26** written (event date ≠ UKMTO report date), owed since FALCON's 9/22 ruling. BOND's Treasury-verified reply → `-009` (the 9/23 move was real-yield-led; Barr unverified).
