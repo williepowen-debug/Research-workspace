@@ -4,7 +4,7 @@
 
 > ## ⚠️ STATE AT WRITING
 > 🔴 **9/23 5Y `91282CRN3` = OLD CONJUNCTIVE COMPOSITION FAILURE** (ind 54.31 < 59.24 · dlr 15.77 > 15.61 by 0.16pp · BTC 2.21). **Add re-arm MET → Will DECLINED the add, WQ-280 ruled 13:17 ET** (verified `PROME/WILL_QUEUE.md:49`). **Paired kill NOT fired** (SOFR−IORB −3bp). Threshold fired, mechanism not shown failed. Graded ~24h late: **nobody on the fleet had graded it.**
-> ⛔ **POSITION: TLT Sep-30 77P ×20 (NOT ×25 — 5 sold 9/10; this desk carried 25 until PROME caught it today) — HOLD, no add, `$0`, expiry 9/30.** Composite **13/35 (▲1, auction health 2→3 on the pre-registered cover rule)**. Counter **0**. OPEN predictions **1** (`BND-27`).
+> ⛔ **POSITION: TLT Sep-30 77P ×20 (NOT ×25 — 5 sold 9/10; this desk carried 25 until PROME caught it today) — HOLD, no add, `$0`, expiry 9/30.** Composite **14/35 (▲2: auction health 2→3 on the pre-registered cover rule; long-end 3→4 on its letter — 9/23 official 30Y 5.40 fresh high on a weak-composition day)**. Counter **0**. OPEN predictions **1** (`BND-27`).
 > 🔑 **THE SESSION'S EPISTEMIC FACT: every defect found today was found by LOOKING AT THE INSTRUMENT'S OWN OUTPUT, not the verdict** — a window reading n=12 over 11 months exposed the cross-cycle reopening; a derived cell dated a day past its inputs exposed the provisional-cell hole; a csv.writer diff that touched 15 rows when 2 were meant exposed the re-quoting. **And one found by a peer (the ×25).**
 
 ## WHAT I DID — commits in order
@@ -14,12 +14,12 @@
 4. STATUS rewrite (9/17 file rotated verbatim, crc32 `2559402921`) · docket +5 non-auction rows (9/25 H.15 · 9/30 · 10/2 · 10/14 · 10/28) · VX 01/04/08/13. **+ REPAIR: `csv.writer` had re-quoted 14 KB rows in `5c79dcb34`; restored byte-for-byte from `40726328e`. Not amended; that commit is the record.**
 5. THESIS v1.2.8 + CHANGELOG · 14 KB rows past Stale_By → STALE (flagged NOT re-verified).
 6. **`grade_auction.cycle_term()` (`KB-BND-314` CORRECTED)**: cross-cycle reopenings keyed to their cycle. Blast radius **exactly 2 rows** — the known Jan-26 `91282CGH8`, **and an unknown second, Feb-25 `91282CGQ8` (7Y→5Y cycle).** Selftest 29/29, mutant caught.
-7. **`boot_recompute.trim_provisional()` (`KB-BND-320`)**: derived breakevens graded only on input-supported dates; T5YIFR is **2.34 [9/22] = 16bp**, not the 14bp the tool printed at boot.
+7. ⛔ **`boot_recompute.trim_provisional()` — BUILT, THEN RETRACTED THE SAME HOUR.** It rested on WALTER −011's mechanism, which LIQUID had retracted 9/22 (the commit was in the log I scanned at boot) and WALTER withdrew in −004: FRED builds T5YIFR/T10YIE from Treasury curves, so an early cell is REAL. Reverted to naming-only `align_notes()`; T5YIFR 2.36 [9/23] = 14bp was right all along (`KB-BND-320` CORRECTED). **Lesson: I 'reproduced' a claim on my own instrument — but the reproduction confirmed the OBSERVATION (dates differ), never the MECHANISM (provisional).**
 8. WQ-280 ruling recorded (TRADE Reactivation Matrix, STATUS, THESIS, CHANGELOG); NEXUS_BRIEF 9/24 re-pin; AUCTION_HEALTH 5Y 9/02 bar struck as contaminated (clean 59.48).
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
-0. 🔴 **F2 READ OF THE 9/24 20–30Y OP — see the closeout line below for whether it was delivered.** If not: `buyback_f2.py --op 2026-09-24` (it now refuses partial results) → packet to RED → ledger `registry/f2_reads.tsv`.
-1. 🔴 **Fri 9/25 — H.15 9/23 cells.** If `DGS30[9/23] > 5.37` ⇒ matrix row 1's letter ("fresh DGS30 high with weak composition") FIRES ⇒ 3→4, composite 14. Vendor `^TYX` 5.401 [9/23] is NOT the grade. Pull via `boot_recompute.py` (now trims provisional breakevens).
+0. ✅ **F2 READ OF THE 9/24 20–30Y OP — DELIVERED 14:1x ET:** $4.078B of $6B cap (68%) on 1.74× offered; recent_share **0.02% ⇒ OFF-THE-RUN**; complete at read (35/35); packet → `AGENTS/RED/inbox/2026-09-24_from-BOND_F2-READ-*` (RED dark — PROME told); ledger row; `KB-BND-324`. Next op **10/1 10Y–20Y — vintage fix FIRST.**
+1. 🟠 **Fri 9/25 — confirm FRED DGS30[9/23] republishes 5.40** (row 1 already FIRED 9/24 on the U.S. Treasury par curve = the H.15 source, 182/182 identity, `KB-BND-323`). **New standing capability: `home.treasury.gov` daily par/real curve CSVs publish the official close ~a session before FRED.** DFII10 2.76 [9/23] = highest since 2008-11.
 2. 🔴 **Wed 9/30 — `BND-27` window closes (CCC 1093 [9/23], 7bp from 1100)**; quarter-end (the kill's funding leg is excluded at quarter-end by its letter); Aug PCE + Q2 GDP 3rd 8:30; TLT expiry (TERRY).
 3. 🟠 **Replies owed TO me:** LIQUID (funding 9/23–25 beyond SOFR−IORB) · ZHAO (H.4.1 custody / TIC on a foreign step-back). Integrate into `KB-BND-312` and VX-13.
 4. 🟠 **10/1:** F2 **10Y–20Y vintage fix BEFORE the op** (review ⚠️3: in that bucket "newest by maturity" includes 2015–16 30Ys; a synthetic buy of three old 2.25–2.5% 30Ys reads **100% ON-THE-RUN**) · quarterly `I'` refresh · `VX-19` "disorderly" · TIPS-`I'` question · degenerate-row guard.

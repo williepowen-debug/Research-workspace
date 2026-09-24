@@ -71,7 +71,7 @@
 |---|---|---:|:--:|---|---|---|
 | 1 | Long-end / duration | **4** ▲ | 🔴 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | **9/23: DGS30 5.40 = fresh 2026 high ON the 5Y composition-failure day ⇒ upgrade letter FIRED ⇒ 4**; DFII10 2.76 (highest since 2008-11); 1y1y 5.21 | ⇒5: a composition failure on a LONG-END auction (20Y/30Y) or the paired kill's mechanism leg confirming |
 | 2 | Treasury auction health | **3** ▲ | 🟠 | `VX-BND-01` · `VX-BND-08` · `VX-BND-13` · ~~`VX-BND-09`~~ RETIRED (tail) | **9/23 5Y: BTC 2.21 < 2.28 cover bar (and <2.3 KEY-THRESHOLD cover marker) + OLD composition failure + `I'`; 7Y `I'` by 0.04pp.** Paired kill NOT fired (funding −3bp; FR2004 leg unevaluable ~mid-Oct) | A composition failure with the funding/FR2004 leg CONFIRMED (paired kill) ⇒ 4 |
-| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback op: F2 read ~14:15** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
+| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback: $4.078B of $6B, F2 0.02% ⇒ OFF-THE-RUN (2 of 2 ops)** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
 | 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | HY 273 inert; **CCC 1093 fresh high, 7bp from 1100**; CCC−BB 934 new span max | HY >300 with velocity, or a pulled-deal cluster |
 | 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `VX-BND-10` | IG 77 [9/23] | IG >120 or a failed syndication |
 | 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.28 [9/8, STALE] | Synthetic leading cash, sustained |
@@ -115,7 +115,7 @@
 
 | Date | Catalyst | What BOND watches |
 |---|---|---|
-| **Thu 9/24 1:40 PM** | 🔴 **20Y–30Y buyback op (cap $6B) — first in-scope F2 read of the carrier** | `buyback_f2.py --op 2026-09-24` **only when results are COMPLETE** (new `complete()` guard) → packet to RED same day |
+| ✅ **Thu 9/24 1:40 PM — READ & ROUTED** | **20Y–30Y buyback op: $4.078B of $6B cap (68%) on 1.74× offered; recent_share 0.02% ⇒ OFF-THE-RUN** | Packet → RED 9/24 ~14:1x; ledger row; `KB-BND-324`. Complete at read (35/35) |
 | ✅ 9/22 · 9/23 · 9/24 | 2Y 🟢 · **5Y 🔴 OLD composition failure** · 7Y 🟠 `I'` by 0.04pp | Graded 9/24 (`KB-BND-312/313`) |
 | ✅ 9/18 (carried) | `BND-25` TRUE · `BND-26` FALSE | `KB-BND-315` |
 | ✅ **9/23 official curve (Treasury) — DGS30 5.40 > 5.37** | Row 1 letter FIRED ⇒ 4 | **Fri 9/25:** confirm FRED republishes 5.40 (identity check, not a new grade) |

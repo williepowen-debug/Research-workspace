@@ -1,19 +1,15 @@
-# BOND — RUN RECEIPT (overwritten each session)
+# BOND RECEIPT — 2026-09-24 (Thu) session `bond-b0`, ~13:00 → ~14:2x ET
 
-**Session:** 2026-09-17 ~09:4x → 16:1x ET · boot by Will · L404 doorbelled by PROME `prome-ae` 13:1x · **closed at Will's word ~16:0x**
-
-| | |
+| Item | Disposition |
 |---|---|
-| **Inbox processed** | **1** — DAEDALUS Production Review #6 (arrived AFTER boot, via their 27-desk push `f86fd682c`; caught while reconciling the session commit list, not by a boot sweep) → `inbox/processed/`. Inbox **0/0** at close. |
-| **Tasked deliverables** | **L404** 10Y TIPS-R `91282CRE3` GRADED 🟢 CLEAN → closed by PROME. **L271 / WQ-157 leg ②** FR2004 join DELIVERED **a day early** → closed by PROME; on Will's 9/19 queue. **Funding leg** pre-registered then executed. |
-| **Predictions** | `BND-25`/`BND-26` **NOT GRADEABLE** — dated 16:04 attempt, H.15 frontier still 9/15 on all ten tenors. Both remain **OPEN** (not VOID); attempt recorded on both rows + docketed 9/18. |
-| **Files written** | STATUS · SCRATCH · RECEIPT · TRADE · NEXUS_BRIEF · CATALYSTS · PREDICTIONS · MEMORY · VX.tsv · KB.tsv (`KB-BND-298`→`311`) · `monitors/` (`fr2004_join.py` NEW, `grade_auction.py` +selftest, `assertion_check.py` fixtures, AUCTION_HEALTH, CDX_CASH_BASIS, CREDIT_PRIMARY_MARKET) · 5 `analysis/` files · 2 `domain/sources/` rotations · 6 fleet memory files |
-| **Outbox** | **Nothing written.** No 🔴-acute cross-agent signal fired; steady-state went to `NEXUS_BRIEF`. Nothing owed to RED until the 9/24 in-scope F2 op. |
-| **Cross-session** | **10 `SendMessage` to `prome-ae`** (all acknowledged). PROME closed 15:57 ⇒ future traffic goes to `PROME/inbox/` at repo ROOT. |
-| **Checks at close** | `closeout_check` rc=0 (3/3) · `closeout_check --selftest` **rc=0, 54/54 — was RED for 18 days** · `assertion_check --selftest` 32/32 · `grade_auction --selftest` 21/21 · `kb_lint` conformant · `read_cap` rc=0 (STATUS 71% · CATALYSTS 75% · MEMORY 68%) · `memory_index_check --strict` rc=0 both new slugs |
-| **Git** | 20 commits, path-scoped to `AGENTS/BOND/` + `memory/auto/` (carve-out ③). |
-
-## ⚠️ THE SESSION'S DEFINING FACT
-**Five EXTERNAL catches, every one on something this desk's own checks reported CLEAN** — PROME (Brent −7.05% was a BZ=F roll artifact) · CATO ("adequately-powered null" was a count floor, not power) · DAEDALUS (both selftests RED at HEAD; `TRADE.md` "No marks" beside three marks) · CATO again (power sim at α=0.05 vs the registered α=0.01). **Plus one SELF-caught: the saved BND-25/26 resolver, read BEFORE its data arrived.**
-
-**Common shape: this desk's instruments verify VALUES; the errors live in the WORDS and THRESHOLDS around them** — an adjective, an α, a file-level declaration, a fixture's pinned date, a letter's residual branch. All six ran AGAINST this desk's own side. **Nothing here moved the position.**
+| **Inbox** | 11 → 0: HANS ×3 · PROME L409 · WALTER ×7 (9/17-004/-005/-011, 9/19-001, 9/21-001, 9/24-004, 9/24-008). One KB row each; `git mv` → `processed/`. WALTER −005 BOND ACTION answered (`KB-BND-317`); −008 ACTION answered by packet + doorbell, and WALTER consumed and verified it |
+| **Auctions graded** | 2Y 9/22 🟢 · **5Y 9/23 🔴 OLD conjunctive composition failure** · 7Y 9/24 🟠 `I'` by 0.037pp (`KB-BND-312/313`) — 5Y ~24h late |
+| **Predictions resolved** | `BND-25` TRUE · `BND-26` FALSE · `BND-27` dated check (OPEN, 7bp) |
+| **Will rulings consumed** | WQ-280 ADD DECLINED (verified `PROME/WILL_QUEUE.md:49`) → TRADE/STATUS/THESIS |
+| **Catalysts** | 9/18 carried + 9/22–24 resolved; 9/25 resolved early at the Treasury source; +9/30 · 10/2 · 10/14 · 10/28; 9/24 buyback op READ |
+| **F2 carrier** | 9/24 20–30Y op: 0.02% ⇒ OFF-THE-RUN, complete at read → RED packet + ledger row (`KB-BND-324`) |
+| **Files written** | STATUS (rewrite, prior rotated crc32 `2559402921`) · SCRATCH · THESIS v1.2.8 + CHANGELOG · KB 312→324 (+269/277 retired, 14 overdue → STALE, 314/320 CORRECTED) · VX 01/04/05/08/13 · CATALYSTS · TRADE · NEXUS_BRIEF re-pin · AUCTION_HEALTH · analysis ×2 · `grade_auction.py` (cycle_term) · `buyback_f2.py` (complete) · `boot_recompute.py` (align_notes) |
+| **Outbox** | Packets: LIQUID 🔴 · ZHAO 🟠 · TERRY 🔴 (+ correction) · PROME 🔴 · WALTER 🔴 · RED 🟡. Doorbells: `prome-26` ×3, `walter-f9` ×1. RED dark → routed via PROME (rule 6b) |
+| **Fleet memory** | `finding_crlf_textmode_tsv_flip` extended n=4 (carve-out ③); **COLD-tier ⇒ promotion flag to PROME** |
+| **Checks** | closeout_check rc=0 · kb_lint rc=0 · selftests: grade 29/29 · buyback 36/36 · closeout 54+4 · read-cap 0 · memory index OK (74%) |
+| **Git** | Path-scoped commits, pushed via `safe-push.sh`; receipt line in the closeout message |
