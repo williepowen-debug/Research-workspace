@@ -174,3 +174,11 @@ Extending the grid **broke test T6** (the 37.6%-class reproduction guard). Cause
 **What stands:** retrieval CONFIRMED (§1) · form label unchanged (§2) · denominator ramp real (§4) · 37.6% kill-on-sight (§6) · base rate 17/154 = 11.0%, OZK's step 3rd-largest and ordinary for the line (§7.1) · **the de-risking reading stays UNRESOLVED.**
 
 *— REGINALD 2026-09-24. No figure moved; two interpretive sub-claims withdrawn.*
+
+# 9. ADDENDUM 2026-09-24 (later) — L181 ADJUDICATED BY OZK: **LEGITIMATE**; §4's "corroboration gap" was a basis error of mine
+
+**OZK verdict** (`AGENTS/OZK/MI3_2025Q3_ADJUDICATION.md` §6, packet `inbox/processed/2026-09-24_from-OZK_L181-verdict-...`): the 2025Q3 −$432M step is a **real balance decline in RESG's debt-on-debt book under an unchanged definition**, not a re-designation. Management's debt-on-debt figure equals `RCON2746` at 5 of 5 quarters.
+**Verified by me at the primary** (`AGENTS/OZK/raw/Q3_2025_10Q.pdf`, OZK's FDIC-filed Q3-2025 10-Q): *"At September 30, 2025, total loans to NDFIs totaled $2.59 billion, of which $1.18 billion … business credit intermediaries, $0.59 billion … private equity funds, $0.05 billion … consumer credit intermediaries and $0.77 billion … RESG … ('debt-on-debt')."* These equal my 9.a 2,586,860K and MI3 769,920K.
+**My §8 residual:** the $144M of 9.a not in PV09 is **PE-fund runoff (PV07 −$212.6M)**, per OZK's PV05-PV08 run; the buckets that grew total only +$68M. NDFI → C&I is **unsupported, not refuted.**
+⛔ **§4 CORRECTED:** "OZK files none [10-Q]" is FALSE. OZK files **no SEC** 10-Q; it files its 10-Q with the **FDIC**. The "corroboration gap" I disclosed on 8/13 was closable all along, and that very document closed L181. **§3's "UNRESOLVED de-risking reading" → RESOLVED: the unsecured CRE-purpose (debt-on-debt) book really shrank.** The scope fence stands: this says nothing about the SECURED RESG book.
+**Open, not L181's question (OZK fork (i)):** MI3 ≡ PV09 means zero CRE-purpose balance is reported from item 4 in any quarter. Whether OZK's C&I holds none, or memo 3 is populated from the debt-on-debt book only, is UNKNOWN.
