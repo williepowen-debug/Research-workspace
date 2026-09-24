@@ -190,7 +190,12 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 68      # RE-BASELINED 2026-08-28 #2 (read-cap hot/cold split). Was 12,54 earlier same day; 11,35 (8/23); 11,23 (8/20).
+        BASE_DRIFT, BASE_REVIVED = 12, 63      # RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 to the measured count, so the
+                                               # 5 hits that cleared (live STATUS/MEMORY rewritten lean; their dead-token audit lines now sit only in the
+                                               # verbatim archive snapshots) can no longer absorb 5 NEW ones. Tightening can only false-alarm, never hide rot.
+                                               # Check-1 stayed 12: the one +1 seen mid-session (INDEX.md:7 'KB 192' after rows 193-197 landed) was MY OWN
+                                               # mirror going stale within the hour -- fixed, not baselined.
+                                               # Prior: 12,68 RE-BASELINED 2026-08-28 #2 (read-cap hot/cold split). Was 12,54 earlier same day; 11,35 (8/23); 11,23 (8/20).
                                                # check-2 +14, and the arithmetic RECONCILES EXACTLY -- verified before re-baselining:
                                                #   STATUS_ARCHIVE.md contributes 17, MEMORY_ARCHIVE.md 6  = +23 in the two NEW cold files
                                                #   the live files LOST 9 as that text moved out of them            = -9
@@ -220,6 +225,15 @@ def main():
                                                # ⚠️ KILLING A CLAIM RAISES THIS BASELINE. That is the tool's own cost of the discipline
                                                #    it enforces, and it is why the docstring says re-baseline ON EACH SWEEP -- an
                                                #    un-re-baselined check reads RED forever and stops being read.
+        # RE-CHECK DATE (PROME L441 packet 2026-09-23): a frozen baseline on the comparison side lets
+        # cleared old hits absorb the same count of NEW ones and still print ✓. So the baseline carries
+        # a date by which it must be RE-MEASURED from source (never bumped to match), and the check says
+        # so itself once that date passes -- a comment nobody reads is not a control.
+        BASE_RECHECK_BY = "2026-10-13"         # = Q3 frame deadline; re-measure at every thesis bump too
+        import datetime as _dt
+        if _dt.date.today().isoformat() > BASE_RECHECK_BY:
+            print(f"⚠️ derived-drift baseline re-check OVERDUE (due {BASE_RECHECK_BY}): re-measure "
+                  f"hit-by-hit and re-record, or the ✓ below can hide new rot behind cleared history")
         if len(drift) > BASE_DRIFT or len(revived) > BASE_REVIVED:
             print(f"🔴 derived drift ABOVE BASELINE: {len(drift)}/{BASE_DRIFT} stale value token(s), "
                   f"{len(revived)}/{BASE_REVIVED} retired claim(s) — something NEW rotted; run without --quiet")
