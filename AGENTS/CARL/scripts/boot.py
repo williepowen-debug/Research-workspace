@@ -156,12 +156,27 @@ def check_ledger_staleness():
 
 
 def collapse_output(output):
-    """Show only lines containing key alert markers."""
+    """Show only lines containing key alert markers.
+
+    "Checking <section>..." lines are SECTION HEADERS, never alert lines: one is
+    printed only when a line in its own section survives, immediately above it.
+    (2026-09-24: the Exeter header matched the "RED" marker inside "REGISTERED"
+    and survived on its own, while the Ally header was dropped, so Ally's four
+    new 10-Ds rendered directly under the Exeter header and read as the V2 deep
+    tier filing a week early. Raw output was correct; only the collapsed view lied.)
+    """
     lines = output.splitlines()
     shown = []
+    pending_header = None
     for line in lines:
+        if line.strip().startswith("Checking "):
+            pending_header = line
+            continue
         low = line.casefold()
         if any(m in line for m in KEY_MARKERS) or any(m in low for m in FAILURE_MARKERS_CF):
+            if pending_header is not None:
+                shown.append(f"    {pending_header}")
+                pending_header = None
             shown.append(f"    {line}")
     return shown
 

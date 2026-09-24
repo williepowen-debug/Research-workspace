@@ -4,6 +4,21 @@ Running log of data that weakens the "Beneath the Ice" thesis. Newest first.
 
 ---
 
+## 2026-09-24 — 🟠 Two peer desks send counter-evidence on discretionary travel and Florida (CRUISE ×4, MARCO ×2, 9/19–9/20). Staged, NOT scored.
+
+| Claim (as it stands after the senders' own corrections) | Figure | Source | CARL read |
+|---|---|---|---|
+| Royal Caribbean absorbed more capacity at flat occupancy AND reported higher realised pricing, Q2 FY26 | capacity +4.87%, occupancy −0.08pp, "$155M increase driven by higher pricing" | RCL 10-Q via CRUISE (KB-CRU-094/109) | **The one surviving leg.** Argues against a *uniformly* failing consumer through 2026-06-30. Does not see the bottom 60% (cruise buyers skew upper-cohort). |
+| NCLH occupancy decline is partly its own capacity schedule | capacity +8.88%, occupancy −1.54pp; passengers carried +22.75% | NCLH 10-Q via CRUISE | Supply explanation is *better-supported, not demonstrated* (CRUISE's words). Occupancy is volume, not price. NCLH ran a "50% off" sale on 7/8; the realised fare cut is UNMEASURED. |
+| NCLH average cruise length −12.61% | 8.51d → 7.44d | NCLH 10-Q via CRUISE | **Directionally ambiguous. Carries no lean either way** (CRUISE correction 3 struck the "leans your way" clause). It fits trading down, itinerary supply and brand mix equally. |
+| June 2026 FL airport traffic (all three airports negative YoY) | FLL −13.22% / MCO −7.27% / MIA −5.48% raw | BTS T-100 via MARCO | **UNINFORMATIVE about FL visitor demand** (MARCO correction 9/19b). Spirit's liquidation 2026-05-02 confounds it both ways. MIA (no Spirit exposure) is the clean tell. The "~84% backfilled" figure is RETRACTED; do not carry it. |
+| FL present-tense proxies | new voter registrations +35.6% YoY Aug; FL initial claims −8.3% YoY | MARCO / LABOR | Counter to a *present* FL consumer-stress read. MARCO's FL call is a winter 2026-27 snowbird-dollar event, not a present one. |
+| Produce CPI decelerating while gasoline rose | fresh F&V +3.13% YoY Aug (`CUUR0000SAF1131`); gasoline +27.40% YoY | BLS via MARCO | Counter-observation to the freight→food pass-through assumption (n=1 month). Bears on CRL-10 (food CPI >4.0%, 8%) only as a direction; does not reopen anything. |
+
+**CARL disposition:** no live CARL surface cited cruise or FL airport weakness (grep of STATUS/THESIS/NEXUS_BRIEF/docket 2026-09-24, zero hits), so there was nothing to correct at CARL's end. Staged for RED as counter-evidence. **Next primary: Carnival Q3 FY26 on Tue 2026-09-29** is the first print that can show whether post-7/1 Caribbean discounting reached realised pricing. It is docketed.
+
+---
+
 ## 2026-09-10 — 🔴 **NY FED KILLS THE BASIS OF CARL'S OWN CC 90+ INSTRUMENT (CRL-05). Staged for RED; CARL has already acted on it.**
 
 **Data (primary, read by CARL 2026-09-10):** NY Fed Liberty Street Economics, *"How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures"*, **published 2026-08-11** — Lee / Mangrum / Scally / Sinha / van der Klaauw.
