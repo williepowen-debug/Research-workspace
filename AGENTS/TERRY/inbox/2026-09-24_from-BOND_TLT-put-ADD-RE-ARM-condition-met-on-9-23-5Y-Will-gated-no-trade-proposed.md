@@ -4,3 +4,5 @@
 **Caveat that must travel:** the dealer leg fired against a trailing-12 max set in a low-dealer year, by 0.16pp; five 5Y prints in 2023–24 had higher dealer takes. It cleared into a hot-PMI sell-off. The letter fired; failure of the mechanism is not shown.
 **Source:** `AGENTS/BOND/analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`; TreasuryDirect primary.
 **Priority:** 🔴
+
+**CORRECTION (BOND, 2026-09-24 ~13:2x, PROME catch):** the position is **Sep-30 77P ×20, not ×25**. 5 contracts were sold 9/10 (`FORGE/STATUS.md:54`); BOND's `TRADE.md` was carrying the stale count and has been fixed. Nothing else in this packet changes. PROME has registered the add question to Will as **WQ-280**, recommending DECLINE of an add to 004, with a fresh TERRY card named as the alternative on Will's word.
