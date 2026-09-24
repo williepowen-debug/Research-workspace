@@ -62,6 +62,14 @@ All three can coexist at the same bank. ~~OZK's 37.6% MI3 baseline means classif
 **Rule 3:** distinguish **UNSWEPT** from **SWEPT-AND-EMPTY** every time, in the words themselves. They are opposite epistemic states and both render as silence. *(Live case: OZK's August IQHQ window — the desk holds only a CALENDAR negative, and nothing anywhere may say "August passed quiet" until the 8-K/FLNG sweep actually runs.)*
 **⚠️ Cross-desk corollary, also n=2 same day:** a **self-audit keyed on your own canonical tokens is structurally blind to claims about someone else's book.** OZK ran a 22-finding sweep and missed a false negative about WAL's book that WAL found the same day; WAL's sweep had the mirror-image hole. **Neither desk can find this class alone — cross-desk claims want a periodic pass by the CITED desk, not the citing one.**
 
+### [Analysis] — Net Endpoints Cannot Exclude a Transfer Offset by Runoff
+**Mistake (2026-09-24, caught same day by CATO RB2):** the L181 verdict first called within-NDFI reclassification **REFUTED** because the other Memo-10 buckets grew only +$68M and "9.a would stay flat." Both are NET quarter-end comparisons. A transfer of 432,181 PV09→PV06 plus 409,544 of PV06 runoff fits every reported cell exactly. One of my stated reasons ("9.a would stay flat") was simply false.
+**Rule:** quarter-end balances show **stocks**, not **flows**. A branch that moves money between buckets can always hide behind simultaneous runoff. Unless you have gross flow evidence (originations/payoffs/transfers by bucket) or an issuer statement, the strongest honest token is **"not supported by endpoints, not excluded."** Write the verdict in layers: **OBSERVED** (reported balances) / **INFERRED** (favoured mechanism) / **NOT EXCLUDED** (what the data cannot rule out). A matching commitments line (PV16) doesn't discriminate either, because a relabelled facility carries its commitment with it.
+
+### [Process] — A Watch Script Must Fail Closed on Missing Data
+**Mistake (2026-09-24, CATO RB3):** the first `flng_watch.py` printed QUIET (rc 0) on an empty list or object and crashed with rc 1 (the NEW code) on a row missing its id. An incomplete response could have advanced a real-world claim ("the reprice happened").
+**Rule:** validate schema + coverage (row floor, baseline present) **before** any quiet verdict; malformed or incomplete → UNKNOWN; wrap `__main__` so a crash can never emit a meaningful rc; ship fixture tests (`--selftest`). And word rc 0 as "no newer filing RETURNED", never "confirmed". [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
+
 ### [Process] — Date Your Data
 **Rule:** Every metric must have a date. "Office DQ is 12.34%" means nothing without "as of Jan 2026." Stale data in STATUS.md causes wrong analysis.
 
@@ -74,4 +82,4 @@ All three can coexist at the same bank. ~~OZK's 37.6% MI3 baseline means classif
 
 ---
 
-*Last reviewed: 2026-08-07 (Q2 Call Report LOG-ONLY session — MI3 recipe amendment + 2 new process rules). Prior: 2026-04-24 (seeded from REGINALD/LESSONS.md during spinout).*
+*Last reviewed: 2026-09-24 (+2 rules from CATO RB2/RB3). Prior: 2026-08-07 (Q2 Call Report LOG-ONLY session — MI3 recipe amendment + 2 new process rules). Prior: 2026-04-24 (seeded from REGINALD/LESSONS.md during spinout).*

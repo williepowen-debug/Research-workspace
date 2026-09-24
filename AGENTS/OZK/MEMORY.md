@@ -75,7 +75,7 @@
 
 ### NEXT SESSION
 
-1. **Fri 10/2 AM — the 10/1 read:** `flng_watch.py` → record reprice as happened (rc 0) or read the filing (rc 1). Verify the indenture's SOFR convention.
+1. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = record **SCHEDULED-UNCONTRADICTED** (never "confirmed"; log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark answered: **3M term SOFR + 209bp** (issuer release); call/notice terms still unread (indenture).
 2. **Q3 date** (~9/30) → replace boot.py/CALENDAR `~2026-10-21`; build Q3 scoring card pre-print.
 3. ⭐ S4 — full read of the Q2'26 10-Q (the Q2'25/Q3'25 ones are now local too).
 4. 🔴 Owed check ② Horton leasing (window-search empty, NOT discharged).
