@@ -1,6 +1,6 @@
 # MARCO — LOAD-BEARING FIGURE REGISTER
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -106,6 +106,19 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **Foreign-born LF, YoY** | **31,860K vs 32,239K = −379K**; identity 31,860 + 138,188 = 170,048 exact | Aug 2026 | BLS API `LNU01073395` / `…413` / `LNU01000000` | `KB-WFD-12` |
 | **LVCVA visitors / RevPAR / air** | 3,171,600 (+2.7%) / $121.55 (+3.2%) / 4,412,684 (−7.6%) | Jul 2026 | LVCVA ES July PDF | `KB-NV-03` · `VX-NV-01` (TOTAL LAS, not Canadian) |
 
+### 9/24 — VERIFIED THIS PASS (session 29) — pulled from the issuing primary 2026-09-24
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **CPI airline fares, YoY / 2-yr** | **+23.41% / +27.46%** (index 309.736) | Aug 2026 | BLS API `CUUR0000SETG01` NSA; **Oct-2025 cell is `-` (shutdown)** | `KB-MARCO-ENR-01` · `ENR-02` |
+| **Airline fares 2-yr ≥ +20% base rate** | 21 / 347 months = **6.1%** (2000, 2011, 2022-23) | 1997–2025 | same, computed | `KB-MARCO-ENR-01` |
+| **TX border sales-tax allocations, YTD YoY** | **$437.3M vs $413.7M = +5.70%**; all TX cities +6.24%; reproduces carried Jan–Jul +4.75% exactly | Jan–Sep 2026 report months | TX Comptroller `vfba-b57j` Socrata API | `VX-MARCO-TX-03` · `KB-MARCO-TX-09` |
+| **Laredo GF balance FY26 est.** | **$62,210,797 → $50,250,175**; revenue est $278,046,798 vs budget $287,831,145 | FY2026 (est., July 2026) | Laredo FY27 proposed budget PDF, read at source | `KB-MARCO-TX-11` |
+| **El Paso GF unassigned** | **$25.3M = 4.5%** of GF expenditures; total $161.6M | FYE 8/31/2025 | El Paso FY25 ACFR p.xxxi, read at source | `KB-MARCO-TX-12` |
+| **Pharr S&P action** | **A+ → A (GO), 2026-04-09** — HEADLINE verified via search; outlook Negative + drivers per subagent read of the release body | 2026-04-09 | S&P release id 3543264 (403 to curl/WebFetch) | `KB-MARCO-TX-10` — ⚠️ **CARRIED-grade for the body text; Pharr AFR fund figures NOT reproduced by MARCO (scanned PDF)** |
+| **Brent price leg** | NOT MARCO's figure — cites BRENT 9/22 settles BZX26 $99.25 / BZZ26 $95.41 [single vendor] | 2026-09-22 | BRENT STATUS / REGISTRY `MKT-BZ-F-BELOW-85` | **BRENT** (owner wins) |
+
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**
@@ -127,6 +140,7 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **"ex-Spirit growth ⇒ the demand mechanism is REFUTED"** (FL airports, 9/19 — shipped to CORAL, REGINALD, CARL and into VX-1.04/MAR-24/NEXUS_BRIEF) | **The decomposition cannot carry that conclusion.** Growth on surviving carriers is equally consistent with demand intact AND with **demand falling while displaced Spirit passengers redistribute onto survivors**. June's offset leans the *other* way — only **35.6%** of Spirit's lost MCO passengers were absorbed, leaving **~170,300 MCO / ~159,800 FLL unabsorbed**. | ✅ **CONFOUNDED / NOT IDENTIFIED.** The liquidation confounds the demand read in *both* directions. "Liquidation confounds the signal" is supported; "the mechanism is false" is not. | 2026-09-19 (CATO review) |
 | **ID-01 false-positive "45% either-month vs 10% both-months"** (shipped to PROME 9/19) | **Apples-to-oranges: two different windows and denominators.** 45% was 5/11 over *single-month transitions*; 10% was 1/10 over *two-month windows*. Also mislabelled — these are **historical crossing frequencies over a period containing real deterioration**, not calibrated false-positive rates against a null. | ✅ On the **same 10 two-month windows**: either-month **80%** (8/10), both-months **10%** (1/10). ⚠️ The corrected figure makes the both-months case **stronger**, not weaker — but the published number was still wrong. | 2026-09-19 (CATO review) |
 | **MAR-24 at 45%** (docket copy) | Stale copy of **MAR-24's own** prior confidence — its note records `65→55 (May 31)→45 (session 9)`, later raised to 60. *(This row previously said "45% is MAR-14's number" — wrong provenance, corrected 7/31 eve after PROME audit; MAR-14 is at **20%** since the v3.0 mark-down and was never 45.)* | **MAR-24 = 60%** · MAR-14 = 20% | 7/31 · provenance fixed 7/31 eve |
+| **"El Paso ~60% pension funding"** (frozen Feb-2026 Channel-4 snapshot) | Not reproduced under any El Paso plan; the nearest figure is **Laredo** Firefighters 64.63% — likely mis-attributed city | **El Paso CERT 79.64% · Firemen & Policemen 78.31%** (GASB 68 FNP % of TPL, MY2024, El Paso FY25 ACFR). Also: "Pharr S&P negative outlook" → came WITH a downgrade A+→A, 2026-04-09 | 2026-09-24 (s29), THESIS v3.2 |
 
 ---
 
