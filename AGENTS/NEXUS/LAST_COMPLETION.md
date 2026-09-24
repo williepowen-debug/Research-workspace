@@ -1,5 +1,21 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-09-24 Thu ~15:0x–15:2x ET — **WQ-261 ENCODE + L0 DRAIN** (PROME spawn `prome-3f`, Tier 1 under WQ-206; drain + one encode, NOT a synthesis pass)
+
+**Box:** desktop · markets OPEN (intraday; no live price used — DFII10/Treasury cells only). **Inbox 4 → 0** (2 top-level + 2 WALTER), all in `board_log.tsv`, `git mv`'d to `processed/`. R1 corrections check rc=0 (0 unreceipted NAMED).
+
+### Work units
+1. **🔒 T-12 SUCCESSOR REGISTERED — `research/2026-09-24_t12_successor_DFII10_letter.md`.** Construction checks written FIRST at primary: FRED `DFII10` n=5,935 (2003-01-02→2026-09-22); Treasury real-yield CSV confirms **2.76 [9/23]** (not yet on FRED; 4/4 identity on 9/17–9/22). **The literal ruled string (≥2.50 on 5 published sessions) fires AT registration** (9/17–9/23 all ≥2.50; in-regime base rate 78.4% vs 2.2% unconditional) ⇒ kept as the gate-2(d) regime definition, not the letter; flagged to PROME/Will. **Letter:** anchor = the 9/24 cell (unpublished at 15:08 ET) · UP ≥L+0.10 ×5 consecutive ⇒ Break +6pp · DOWN ≤L−0.10 ×5 ⇒ Break −6pp · 15-cell window (≈10/16) · one re-anchored window then EXHAUSTED · Disc-A graded separately. **Only 1 of 25 grid cells passes both unconditional (21.5/22.3/56.2) and ≥2.50-regime (17.1/46.8/36.0).** ⚠️ Regime set ≈5 episodes; ex-2008 fails the ratio (3.24); trailing-2y fails NV by 1.3pp; in-regime lean DOWN. **First grade NOT immediate** (earliest fire ≈10/1). **Split NOT re-marked.**
+2. **Surfaces (9b):** STATUS split block (lines rewritten, file −928 B net) · T-12 row · PREDICTIONS_MONITOR **L1 rotated verbatim → COLD §P4** (crc32 e9c48be5, round-trip cmp OK) + **new L13** · GATES cells packeted to PROME (JOIN rule ①).
+3. **WQ-224:** (i) exhausted; LIQUID's zero-pinned door NOT taken ⇒ (iii) for the FLOW class; DFII10 primary.
+4. **WALTER:** SIG-W-20260919-002 (Fitch 200 authenticates nothing) — audit: 0 Fitch figures on live surfaces · SIG-W-20260921-008 (breadth) — noted, no mark.
+
+### Skipped (named, per scope)
+Closeout 9c fleet re-scan · 9a rollup #5 (now owed a FIFTH pass) · rule-5 rotation of STATUS (97%) — out of this spawn's drain+encode scope; nothing on the matrix was touched, so 9c has no board to protect. Promotion scan: none this pass.
+
+### Next
+(a) **L13 grade — first boot after the fire cell or the 15th cell (≈10/16) publishes at FRED** · (b) 9/25 Petroline resolver (L329) · (c) 9/29–30 resolver cluster · (d) 10/16 August TIC = PRED-30 · (e) full pass + rollup #5 + rule-5 rotation.
+
 ## 2026-09-17 Thu ~21:3x–22:0x ET — **🔴 FULL MATRIX SWEEP (the 4×-owed one) — Will-directed boot: *"catch up on any new information and any owed work"***
 
 **Box:** desktop · markets CLOSED (post-close) · **six days dark, 9/11 → 9/17.** Every credit/rates level written this pass is a **FRED cell, obs 2026-09-16, this desk's own pull ~21:3x ET**; every oil level is an owner's dated settle, quoted not re-derived. **No live equity or oil price was pulled by this desk and none is claimed.** $0 · no card · no order · **no threshold set, moved or fired by NEXUS.**
