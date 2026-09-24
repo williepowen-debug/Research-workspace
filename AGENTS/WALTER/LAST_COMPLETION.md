@@ -9,7 +9,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 ## CHANGED
 
-**BOARD 1017 → 1025:** `SIG-W-20260924-001` … `-008` · `BOARD/INDEX.md` regenerated · `route_log` **+8** · `delivery_log` **+28** · **28 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+12** (1 YES) · `CORRECTIONS.tsv` **+COR-20260924-04 (names RED)** · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead stamp + two phrasings replaced (originals VERBATIM in HISTORY § "Rotated 2026-09-24") · `REGISTRY.tsv` 12 rows · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
+**BOARD 1017 → 1026:** `SIG-W-20260924-001` … `-009` · `BOARD/INDEX.md` regenerated · `route_log` **+9** · `delivery_log` **+31** · **31 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+12** (1 YES) · `CORRECTIONS.tsv` **+COR-20260924-04 (names RED)** · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead stamp + two phrasings replaced (originals VERBATIM in HISTORY § "Rotated 2026-09-24") · `REGISTRY.tsv` 12 rows · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
 
 ## RESULT
 
@@ -17,7 +17,8 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 2. **Iran anchor PARTIAL re-verify**, perimeter declared: Petroline **RESTART REPORTED 9/22** (Reuters, 3 unnamed sources, Aramco silent; **not a BG-02 R1**) · UNGA talks 9/22 **MEDIATED** · Fars 9/24 Indian-Ocean threat (unnamed official). No sinking, mine, strike on Iranian territory, or FM declaration found. **The FULL sweep due 9/24 is NOT discharged.**
 3. **Catch-up for the dark window:** US diesel export ban floated 9/22–9/23 (`-003`, no decision found, walk-back unverified) · 10Y 5.11% on 9/23, highest since 2007 (`-008`).
 4. **Correction `-004`:** the `-0917-011` "provisional derived FRED cell" mechanism is WITHDRAWN, verified at FRED's T5YIFR series notes. WALTER's own STATUS repeats of it were removed.
-5. **Lane + Will's image:** Credit Acceptance $694M 41-state settlement (`-005`, primary AG releases from 9/18) · SoftBank record ~$11.1B junk bond (`-006`) · negative-beta record chart (`-007`, originator unnamed). **4 kills** with reasons.
+5. **Late: BOND's reply to `-008` (read whole, verified at Treasury's par/real curve CSVs) → `-009` CORRECTION to REGINALD (ACTION; COR-20260924-09):** the 9/23 move is confirmed and was **real-yield-led** (10Y real 2.63→2.76, breakeven ~+2bp). **Cause weakened:** 5Y auction confirmed (BOND), flash-PMI secondary only, **Gov. Barr unverified**. BOND fired two of its own rows; Will had already declined the add (WQ-280).
+6. **Lane + Will's image:** Credit Acceptance $694M 41-state settlement (`-005`, primary AG releases from 9/18) · SoftBank record ~$11.1B junk bond (`-006`) · negative-beta record chart (`-007`, originator unnamed). **4 kills** with reasons.
 
 ⛔ **No WALTER-scanned registered trigger changed state apart from boundary #8's crossing. No mark, band or score moved. $0.**
 
@@ -57,22 +58,24 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **This session's final bookkeeping commit (DEWEY ledger row, handoff move, this receipt) is NOT in the list above; it rides the next push.**
+**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **`1d7a350cf` (DEWEY bookkeeping) has since been carried to origin. `7973d469b` (`-009` + BOND consumption) is PENDING: MARCO's uncommitted SCRATCH is in the tree, so the push is deferred per step 16. Its 3 handoffs read `pending` until then, and a later receipt commit rides with it.**
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T17:23:54+00:00",
+  "as_of": "2026-09-24T17:26:24+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
-    {"commit": "958ff2e3b", "state": "published"}
+    {"commit": "958ff2e3b", "state": "published"},
+    {"commit": "1d7a350cf", "state": "published"},
+    {"commit": "7973d469b", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20260924",
-    "total": 28,
+    "total": 31,
     "delivered": 28
   },
   "owner_review": {
