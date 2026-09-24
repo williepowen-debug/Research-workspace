@@ -59,6 +59,7 @@ Usage (cwd-proof):
     python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --fleet
     python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" FILE [FILE ...]
 """
+import glob
 import os
 import re
 import sys
@@ -293,6 +294,37 @@ CAP_BEARING_MODES = ("whole", "programmatic")
 VISIBLE_MODES = ("scoped", "grep", "summary")
 
 
+# ── AN EMPTY CAP-BEARING CLASS ROW: DRAINED OR TYPO'D? (ruled 2026-09-24, DAEDALUS lead, replacing
+# the flat-DEFECT constant shipped the same day) ──────────────────────────────────────────────
+# Flat DEFECT fired on every legitimately drained CONDITIONAL class — WALTER's `outbox/REQ-*.md`
+# (its own row says "Conditional") turned WALTER red, and DAEDALUS/BROCK would go red on every
+# inbox drain: a permanent false red. Flat ADVISORY would let a TYPO'D glob read quiet forever.
+# The discriminator is HISTORY: a glob that has EVER matched a committed file is a real class that
+# is empty today (ADVISORY, rc unchanged); a glob that has NEVER matched anything is a probable typo
+# (DEFECT, fail closed — PAT-155). History UNAVAILABLE (not a repo, git missing, timeout) cannot
+# prove "drained", so it fails closed to DEFECT too.
+# `--diff-filter=AR`, not `A` alone: a file `git mv`'d INTO the class path matched it as surely as
+# one created there. `:(glob)` magic so `*` stops at `/` exactly as glob.glob does.
+_HIST_CACHE = {}
+
+
+def class_history(pattern, root):
+    """Distinct committed paths that EVER matched `pattern` (repo-relative to `root`), or None when
+    history is unavailable. Read-only git; never raises."""
+    key = (root, pattern)
+    if key not in _HIST_CACHE:
+        import subprocess
+        try:
+            r = subprocess.run(["git", "-C", root, "log", "--format=", "--diff-filter=AR",
+                                "--name-only", "--", f":(glob){pattern}"],
+                               capture_output=True, text=True, timeout=60)
+            _HIST_CACHE[key] = (len({l for l in r.stdout.splitlines() if l.strip()})
+                                if r.returncode == 0 else None)
+        except (OSError, subprocess.SubprocessError):
+            _HIST_CACHE[key] = None
+    return _HIST_CACHE[key]
+
+
 def load_reads(path=None):
     """(rows, error). Parse failure => an error string, NEVER an empty row list: READS.tsv lives in
     PROME/ and PROME edits it, so a half-written file must surface as rc 2, not as 'no rows'."""
@@ -334,6 +366,8 @@ def declared_reads(name, path=None, root=None):
     (a regression test pinned to a live doc certifies nothing past the next edit — PROME 2026-09-09)."""
     rows, err = load_reads(path)
     base_root = root or ROOT
+    class_rows = []        # (glob, mode, src, [members], history|None) — cap-bearing CLASS rows (rule 16)
+    declared_reads.class_rows = class_rows      # reset on EVERY call — never a prior desk's state
     # ⛔ A1 (CODEX finding 2, 2026-09-12): a MALFORMED manifest and a desk merely ABSENT from a
     # well-formed one returned the SAME absence-shaped tuple, and check_agent read both as
     # "undeclared" and fell back to the charter heuristic — so UNAVAILABLE evidence was reported as
@@ -374,7 +408,41 @@ def declared_reads(name, path=None, root=None):
         src = (r.get("source_boot_step") or "READS.tsv").strip()
         if not pth or mode.startswith("RETIRED"):
             continue
-        if "*" in pth or "?" in pth:                    # a CLASS row is declared, never one file
+        if "*" in pth or "?" in pth:                    # a CLASS row: a glob, never one file
+            # ── RULE 16 CLASS-ROW RULING (DAEDALUS 2026-09-24, PROME packet `AGENTS/DAEDALUS/inbox/
+            # 2026-09-24_from-PROME_NEXUS-perimeter-undeclared-five-briefs-over-cap-read-cap-lane.md`) ──
+            # Until today EVERY class row printed "not cap-bearing, not counted", whatever its mode —
+            # so a `whole` glob (a session reading every member whole) was invisible to the cap, and
+            # a class of five briefs at 133–253% of budget could be declared and still read clean.
+            # A `whole`/`programmatic` class row IS cap-bearing PER MEMBER: expand it (repo-root-
+            # relative) and measure each file exactly like a single-file row. `scoped`/`grep`/
+            # `summary` class rows stay declared-and-visible, never counted (unchanged).
+            if mode in CAP_BEARING_MODES:
+                members = sorted(os.path.normpath(f) for f in glob.glob(os.path.join(base_root, pth), recursive=True)
+                                 if os.path.isfile(f))
+                if not members:
+                    # Discriminated by HISTORY (see class_history): drained => ADVISORY, never
+                    # matched or history unavailable => DEFECT (fail closed, PAT-155).
+                    hist = class_history(pth, base_root)
+                    if hist:
+                        problems.append((P_ADVISORY,
+                            f"CLASS row `{pth}` ({src}) declared `{mode}` matched 0 files today ({hist} "
+                            f"files matched historically) — correctly quiet, not counted"))
+                    elif hist == 0:
+                        problems.append((P_DEFECT,
+                            f"CLASS row `{pth}` ({src}) declared `{mode}` matched 0 files and has NEVER "
+                            f"matched a committed file in git history — probable typo; cannot certify "
+                            f"this row"))
+                    else:
+                        problems.append((P_DEFECT,
+                            f"CLASS row `{pth}` ({src}) declared `{mode}` matched 0 files and git history "
+                            f"is UNAVAILABLE — cannot prove it drained; cannot certify this row"))
+                    class_rows.append((pth, mode, src, [], hist))
+                    continue
+                for f in members:
+                    cap_bearing.setdefault(f, (mode, src, pth))   # a single-file row for the same
+                class_rows.append((pth, mode, src, members, None))  # path wins (it overwrites below)
+                continue
             visible.append((pth, mode + " · CLASS row, not a single file", src))
             continue
         full = os.path.join(base_root, pth)
@@ -388,7 +456,7 @@ def declared_reads(name, path=None, root=None):
             problems.append((P_DEFECT, f"declared {mode} read `{pth}` ({src}) DOES NOT EXIST on disk"))
             continue
         if mode in CAP_BEARING_MODES and os.path.isfile(full):
-            cap_bearing[full] = (mode, src)
+            cap_bearing[full] = (mode, src, None)
         else:
             visible.append((pth, mode + (" · directory" if os.path.isdir(full) else ""), src))
     # ── AN EXECUTABLE DECLARED CAP-BEARING (added 2026-09-12, on the FIRST new desk to declare) ──
@@ -413,7 +481,7 @@ def declared_reads(name, path=None, root=None):
     for r in rows:
         if r.get("row_kind") == "READ" and r.get("reader") != name:
             others.setdefault((r.get("path") or "").strip(), set()).add((r.get("mode") or "").strip())
-    for full, (mode, src) in list(cap_bearing.items()):
+    for full, (mode, src, _cls) in list(cap_bearing.items()):
         rel = os.path.relpath(full, base_root)
         if not rel.endswith((".py", ".sh")):
             continue
@@ -435,6 +503,9 @@ def declared_reads(name, path=None, root=None):
     note = (f"perimeter: DECLARED in {os.path.relpath(READS_TSV, ROOT)} — {len(cap_bearing)} "
             f"cap-bearing (whole/programmatic) measured, {len(visible)} declared-not-counted "
             f"(scoped/grep/summary), {len(mine)} manifest row(s) for this desk; "
+            + (f"{sum(1 for v in cap_bearing.values() if v[2])} of the measured are MEMBERS of "
+               f"{len(class_rows)} cap-bearing CLASS row(s), each measured per member (rule 16); "
+               if class_rows else "")
             + ("ATTESTED by the desk itself" if attested else
                "⛔ NOT ATTESTED by this desk — the perimeter is PARTIAL"))
     return cap_bearing, visible, problems, attested, note
@@ -587,6 +658,32 @@ def grade(b):
     return "✅", util, ""
 
 
+# ── RULE 20: THE CHARTER IS OUT OF PERIMETER, AND THE OUTPUT MUST SAY SO (ruled 2026-09-19,
+# DAEDALUS — record AGENTS/DAEDALUS/runs/2026-09-19_READ_CAP_CHARTER_RULING.md; HANS's finding) ──
+# `_resolve()` excludes the desk's own CLAUDE.md by construction and `boot_reads()` never adds it.
+# That is CORRECT — the charter is harness-INJECTED into the system prompt, a CONTEXT cost, not a
+# Read the single-read cap can truncate. But this tool PARSES the charter to derive its perimeter,
+# so a clean `over_budget=0` read as "clean charter" to anyone who did not know the exclusion:
+# `finding_instrument_reports_clean_against_the_wrong_reference`, 12th form — an instrument that
+# reads a file to derive its own perimeter never measures THAT file. The fix is HONESTY, not
+# binding: one line per desk naming the file, its size and why it is not graded. Output-only —
+# rc and every existing count are unchanged; `charter_bytes` is APPENDED to the machine line.
+def charter_info(name):
+    """(repo-relative charter path, bytes or None if absent). Read-only, never raises."""
+    ch = os.path.join(desk_home(name), "CLAUDE.md")
+    try:
+        return os.path.relpath(ch, ROOT), os.path.getsize(ch)
+    except OSError:
+        return os.path.relpath(ch, ROOT), None
+
+
+def charter_line(name):
+    rel, b = charter_info(name)
+    size = f"{b:,} B" if b is not None else "ABSENT"
+    return (f"charter {rel} = {size} — OUT OF PERIMETER by rule 20 (harness-injected, context cost not "
+            f"truncation; not graded here; composite-injection advisory is PROME/Will's)")
+
+
 def check_agent(name, quiet=False, require_manifest=False):
     # R7-stage-2 precedence: a desk's own ATTESTED declaration beats a scan of its charter.
     cap_bearing, visible, problems, attested, dnote = declared_reads(name)
@@ -614,7 +711,9 @@ def check_agent(name, quiet=False, require_manifest=False):
                 print(f"  {'⛔' if sev == P_DEFECT else 'ℹ️ ADVISORY:'} {pr}")
         return 2, None
     if declared:
-        files = {p: f"{mode} · {src}" for p, (mode, src) in cap_bearing.items()}
+        files = {p: f"{mode} · {src}" for p, (mode, src, _c) in cap_bearing.items()}
+        member_of = {p: c for p, (_m, _s, c) in cap_bearing.items() if c}
+        class_rows = list(getattr(declared_reads, "class_rows", []))
         note = dnote
         boot_reads.scoped_overcap = {}          # not the heuristic's run; don't carry its state
     else:
@@ -625,6 +724,7 @@ def check_agent(name, quiet=False, require_manifest=False):
             return 2, None
         files, note = boot_reads(name)
         problems, visible = [], []
+        member_of, class_rows = {}, []          # the heuristic has no CLASS rows (unchanged)
     if files is None:
         if not quiet:
             print(f"READ-CAP 2 CANNOT-EVALUATE [{name}]: {note}")
@@ -662,8 +762,8 @@ def check_agent(name, quiet=False, require_manifest=False):
     gen_flagged = [(r, bn) for r, bn in gen_flagged if bn]
     if not quiet:
         print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · {note}")
-        for mark, rel, b, util, why, src in rows:
-            print(f"  {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of budget  {why}  ({src})")
+        def _print_row(mark, rel, b, util, why, src, indent="  "):
+            print(f"{indent}{mark} {rel:<34}{b:>9,} B  {util:>5.0%} of budget  {why}  ({src})")
             # PAT-176: whenever a file sits above rule 5's STOP threshold, say HOW MANY BYTES are
             # left to remove. Printed for 🟡 too — 🟡 is rc 0, and "not flagged" is precisely where
             # a half-finished rotation hides. The reader never has to hold the rule.
@@ -678,6 +778,43 @@ def check_agent(name, quiet=False, require_manifest=False):
                       f"(rule 5 stops at <70% = {thr:,} B); if it has never breached 75%, NOTHING is owed. "
                       f"Only the owner knows. ⚠️ Headroom to the trigger: "
                       f"{int(BUDGET_BYTES * ROTATE_AT) - b:,} B.")
+        for r in rows:
+            if os.path.join(base, r[1]) not in member_of:
+                _print_row(*r)
+        # ── RULE 16: a cap-bearing CLASS row prints as ONE block, its members measured and COUNTED
+        # in the totals above like any single-file row, but LISTED only where they matter: members
+        # at >=70% of budget (rule 5's STOP threshold) print individually, the rest collapse to one
+        # count line — a 30-packet inbox must not bury the table it sits in.
+        STOP_B = int(BUDGET_BYTES * ROTATE_TO)
+        for pth, cmode, csrc, members, hist in class_rows:
+            mrows = [r for r in rows if member_of.get(os.path.join(base, r[1])) == pth]
+            if not members:
+                if hist:
+                    print(f"  ▣ {pth:<34}{'—':>9}  declared `{cmode}` · CLASS row matched 0 files today "
+                          f"({hist} files matched historically) — correctly quiet, not counted  ({csrc})")
+                else:
+                    why0 = ("has NEVER matched a committed file — probable typo" if hist == 0
+                            else "git history UNAVAILABLE — cannot prove it drained")
+                    print(f"  ▣ {pth:<34}{'—':>9}  declared `{cmode}` · CLASS row matched 0 files, {why0} "
+                          f"— cannot certify this row (counted as a manifest defect below)  ({csrc})")
+                continue
+            nb_c = sum(1 for r in mrows if r[0] in ("🔴", "🟠"))
+            nc_c = sum(1 for r in mrows if r[0] == "🔴")
+            big = max(mrows, key=lambda r: r[2]) if mrows else None
+            shadowed = len(members) - len(mrows)
+            print(f"  ▣ {pth:<34}{'':>9}  declared `{cmode}` · CLASS row — cap-bearing PER MEMBER "
+                  f"(rule 16 ruling 2026-09-24): {len(mrows)} member(s) measured, {nb_c} over budget, "
+                  f"{nc_c} over the CAP"
+                  + (f", largest {big[2]:,} B ({big[3]:.0%} of budget)" if big else "")
+                  + (f"; {shadowed} member(s) also matched by another manifest row, graded there" if shadowed else "")
+                  + f"  ({csrc})")
+            hot = sorted((r for r in mrows if r[2] >= STOP_B), key=lambda r: -r[2])
+            for r in hot:
+                _print_row(*r, indent="      ")
+            rest = len(mrows) - len(hot)
+            if rest:
+                print(f"      {'+ ' if hot else ''}{rest} member(s) all under 70% of budget "
+                      f"(<{STOP_B:,} B)")
         for sp, src in sorted(getattr(boot_reads, "scoped_overcap", {}).items(), key=lambda kv: -os.path.getsize(kv[0])):
             b = os.path.getsize(sp)
             print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / BUDGET_BYTES:>5.0%} of budget  "
@@ -763,6 +900,9 @@ def check_agent(name, quiet=False, require_manifest=False):
                   f"({len(rows)} file(s)). ⚠️ PERIMETER IS THE CHARTER HEURISTIC — this desk has no "
                   f"declaration in {os.path.relpath(READS_TSV, ROOT)}, so this is 'clean within what the "
                   f"scan found', NOT a clean bill. 29 of 37 desks delegate boot to a file it cannot see.")
+        # RULE 20 — every assessed desk, every verdict, both perimeters: the count above EXCLUDES
+        # the charter by design, and the reader must be told so on the same screen.
+        print(f"  ℹ️  {charter_line(name)}")
         # ── GENERATED PROJECTIONS: PRINTED AT EVERY REMEDY TIER, NOT ONLY INSIDE `if rc:` ──
         # Hoisted out of the rc branch 2026-09-14 (DOCKET L349). While it lived under `if rc:` it
         # could not reach a 🟡 rotate-tier row, which is rc 0 — and the live instance the row was
@@ -802,7 +942,8 @@ def check_agent(name, quiet=False, require_manifest=False):
         print(f"ℹ️  READ-CAP ADVISORY [{name}]: {len(advisories)} reading(s) this check will NOT "
               f"adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a "
               f"refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).")
-    return rc, (name, len(rows), n_over_budget, n_over_cap, rows, defects, advisories, gen_flagged)
+    return rc, (name, len(rows), n_over_budget, n_over_cap, rows, defects, advisories, gen_flagged,
+                charter_info(name)[1])
 
 
 HDR = "row_kind\treader\tpath\tmode\tsource_boot_step\tdeclared_by\tdeclared_on\tnotes"
@@ -832,7 +973,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 86
+EXPECTED_LEGS = 106
 
 
 def selftest():
@@ -1220,6 +1361,111 @@ def selftest():
             READS_TSV = _fixture(t, [A], {})
             chk("E2E --require-manifest on an undeclared desk => rc 2",
                 check_agent("ZZZ", quiet=True, require_manifest=True)[0], 2)
+
+            # ── RULE 16 CLASS ROWS (DAEDALUS ruling 2026-09-24) — all three branches, PUBLIC path ──
+            # CAPABLE: a `whole` class row whose member is over budget is COUNTED, like a single file.
+            KA = "ATTESTATION\tKC\t.\tmanifest-complete\ts\tKC\t2026-09-24\tok"
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tcls/*/BRIEF.md\twhole\tk1\tKC\t2026-09-24\t-"],
+                                 {"cls/a/BRIEF.md": BUDGET_BYTES + 10, "cls/b/BRIEF.md": 100})
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc, kres = check_agent("KC")
+            _ko = _kb.getvalue()
+            chk("K1 class `whole`: EVERY member is measured (not 0, not 1)", kres[1], 2)
+            chk("K1 class `whole`: the over-budget member is COUNTED and drives rc 1",
+                (krc, kres[2], len(kres[5])), (1, 1, 0))
+            chk("K1 class `whole`: the member >=70% is listed individually under the class row",
+                "cls/a/BRIEF.md" in _ko and "CLASS row — cap-bearing PER MEMBER" in _ko, True)
+            chk("K1 class `whole`: the rest collapse to one count line, not one line each",
+                ("+ 1 member(s) all under 70%" in _ko, "cls/b/BRIEF.md" in _ko), (True, False))
+            # CLEAN: the same class, every member small => rc 0 and the collapsed line alone.
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tcls/*/BRIEF.md\twhole\tk1\tKC\t2026-09-24\t-"],
+                                 {"cls/a/BRIEF.md": 100, "cls/b/BRIEF.md": 100})
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc, kres = check_agent("KC")
+            chk("K2 class `whole` CLEAN: all members under budget => rc 0, 2 measured",
+                (krc, kres[1], kres[2]), (0, 2, 0))
+            chk("K2 class `whole` CLEAN: prints the collapsed count line",
+                "2 member(s) all under 70%" in _kb.getvalue(), True)
+            # NOT COUNTED: a `grep` class row stays declared-and-visible, whatever its members weigh.
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tcls/*/BRIEF.md\tgrep\tk1\tKC\t2026-09-24\t-"],
+                                 {"cls/a/BRIEF.md": CAP_BYTES + 10})
+            cb, vis, pr, att, _ = declared_reads("KC", READS_TSV, t)
+            chk("K3 class `grep`: not cap-bearing, visible, no problem", (len(cb), len(vis), pr), (0, 1, []))
+            chk("K3 class `grep`: an over-cap member does NOT move rc", check_agent("KC", quiet=True)[0], 0)
+            # EMPTY CLASS ROW — discriminated by GIT HISTORY (lead ruling 2026-09-24). A frozen git
+            # repo is built in the tempdir (throwaway; never the project repo) so both branches run
+            # against REAL `git log`, not a stub: K4b's glob matched a committed file that is gone
+            # today (drained), K4a's glob never matched anything (probable typo).
+            import subprocess
+            g = os.path.join(t, "gitroot")
+            os.makedirs(os.path.join(g, "outbox"), exist_ok=True)
+            open(os.path.join(g, "outbox", "REQ-1.md"), "w").write("req")
+            _git = ["git", "-C", g, "-c", "user.name=selftest", "-c", "user.email=selftest@invalid",
+                    "-c", "commit.gpgsign=false", "-c", "core.hooksPath=/dev/null"]
+            _gok = all(subprocess.run(_git + a, capture_output=True).returncode == 0 for a in
+                       (["init", "-q"], ["add", "outbox/REQ-1.md"], ["commit", "-q", "-m", "fixture"]))
+            os.remove(os.path.join(g, "outbox", "REQ-1.md"))            # drained: history, no file
+            chk("K4 fixture: throwaway git repo built (else K4a/K4b certify nothing)", _gok, True)
+            ROOT = g
+            # K4a — NEVER matched: MANIFEST DEFECT, rc 1 (fail closed, PAT-155).
+            READS_TSV = _fixture(g, [KA, "READ\tKC\tnowhere/*/BRIEF.md\twhole\tk1\tKC\t2026-09-24\t-"], {})
+            pr = declared_reads("KC", READS_TSV, g)[2]
+            chk("K4a never-matched class: typed DEFECT and says NEVER matched",
+                [sev for sev, x in pr if "NEVER" in x], [P_DEFECT])
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc, kres = check_agent("KC")
+            chk("K4a never-matched class: a manifest defect, rc 1, never a clean zero",
+                (krc, len(kres[5]), len(kres[6]), kres[1]), (1, 1, 0, 0))
+            chk("K4a never-matched class: says it cannot certify the row",
+                "probable typo — cannot certify this row" in _kb.getvalue(), True)
+            # K4b — DRAINED (matched historically, empty today): ADVISORY, rc UNCHANGED.
+            READS_TSV = _fixture(g, [KA, "READ\tKC\toutbox/REQ-*.md\twhole\tk1\tKC\t2026-09-24\t-"], {})
+            pr = declared_reads("KC", READS_TSV, g)[2]
+            chk("K4b drained class: typed ADVISORY with the historical count",
+                [(sev, "(1 files matched historically)" in x) for sev, x in pr], [(P_ADVISORY, True)])
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc, kres = check_agent("KC")
+            chk("K4b drained class: rc 0, counted in advisories, NOT a defect",
+                (krc, len(kres[5]), len(kres[6]), kres[1]), (0, 0, 1, 0))
+            chk("K4b drained class: prints 'correctly quiet, not counted'",
+                "matched 0 files today (1 files matched historically) — correctly quiet, not counted"
+                in _kb.getvalue(), True)
+            # K4c — history UNAVAILABLE (not a git repo): cannot prove drained => DEFECT, fail closed.
+            ROOT = t
+            READS_TSV = _fixture(t, [KA, "READ\tKC\toutbox/REQ-*.md\twhole\tk1\tKC\t2026-09-24\t-"], {})
+            pr = declared_reads("KC", READS_TSV, t)[2]
+            chk("K4c no git history available: DEFECT (never assumed drained)",
+                [(sev, "UNAVAILABLE" in x) for sev, x in pr], [(P_DEFECT, True)])
+
+            # ── RULE 20 CHARTER LINE (ruled 2026-09-19) — output-only; rc must NOT follow it ──
+            os.makedirs(os.path.join(t, "AGENTS", "KC"), exist_ok=True)
+            open(os.path.join(t, "AGENTS", "KC", "CLAUDE.md"), "w").write("c" * (CAP_BYTES + 777))
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tcls/*/BRIEF.md\twhole\tk1\tKC\t2026-09-24\t-"],
+                                 {"cls/a/BRIEF.md": 100, "cls/b/BRIEF.md": 100})
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc = main(["x", "--agent", "KC"])
+            _ko = _kb.getvalue()
+            chk("R20 an OVER-CAP charter does NOT move rc (not graded, rule 20)", krc, 0)
+            chk("R20 the charter line names the file, its size, and rule 20",
+                f"charter AGENTS/KC/CLAUDE.md = {CAP_BYTES + 777:,} B — OUT OF PERIMETER by rule 20" in _ko,
+                True)
+            chk("R20 machine line carries charter_bytes as its LAST field; over_budget still 0",
+                (_ko.strip().splitlines()[-1].endswith(f"charter_bytes={CAP_BYTES + 777}"),
+                 " over_budget=0 " in _ko.strip().splitlines()[-1]), (True, True))
+            fd = os.path.join(t, "AGENTS", "DAEDALUS")
+            os.makedirs(fd, exist_ok=True)
+            open(os.path.join(fd, "FLEET_DIRECTORY.md"), "w").write("## ACTIVE\n| KC | desk |\n")
+            _kb = io.StringIO()
+            with contextlib.redirect_stdout(_kb):
+                krc = main(["x", "--fleet"])
+            chk("R20 --fleet: per-desk charter line AND a summary that says the totals EXCLUDE charters",
+                ("OUT OF PERIMETER by rule 20" in _kb.getvalue(),
+                 "EXCLUDE every charter by design" in _kb.getvalue(), krc), (True, True, 0))
         finally:
             READS_TSV, ROOT = sav_r, sav_root
 
@@ -1265,6 +1511,19 @@ def main(argv):
     args = argv[1:]
     if "--selftest" in args:
         return selftest()
+    # HIDDEN TEST OVERRIDE (2026-09-24, rule 16 build): `--reads-path FILE` points the consumer at a
+    # manifest COPY so a capable case can be constructed without editing PROME's live registry (no
+    # desk may write inside PROME/). For tests ONLY — never cite a verdict produced under it. It
+    # announces itself on STDERR so the stdout contract (one READ-CAP-RESULT last line) is untouched.
+    if "--reads-path" in args:
+        global READS_TSV
+        i = args.index("--reads-path")
+        if i + 1 >= len(args):
+            print("READ-CAP 2 USAGE: --reads-path needs a FILE"); return 2
+        READS_TSV = os.path.abspath(args[i + 1])
+        args = args[:i] + args[i + 2:]
+        print(f"⚠️  TEST OVERRIDE: manifest = {READS_TSV} (NOT PROME/registry/READS.tsv) — "
+              f"no verdict from this run is citable", file=sys.stderr)
     require_manifest = "--require-manifest" in args
     if require_manifest:
         args = [a for a in args if a != "--require-manifest"]
@@ -1274,18 +1533,24 @@ def main(argv):
         if res is None:
             # rc 2: nothing was assessed. Every count below is ZERO because it is UNEARNED, not
             # because it is clean, and `assessed=0` is the flag that says so.
+            _cb = charter_info(name)[1]
             print(_result_line("agent", rc, 0, desk=name, reads=0, over_budget=0, over_cap=0,
                                manifest_defects=0, advisories=0, generated_flagged=0,
-                               rotation_due=0, active_decisions_over_budget=0))
+                               rotation_due=0, active_decisions_over_budget=0,
+                               charter_bytes=_cb if _cb is not None else "NA"))
         else:
-            _, n, nb, nc, _rows, defs, advs, gen = res
+            _, n, nb, nc, _rows, defs, advs, gen, _cb = res
             print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
                                manifest_defects=len(defs), advisories=len(advs),
                                generated_flagged=len(gen),
                                rotation_due=sum(r[2] >= BUDGET_BYTES * ROTATE_AT for r in _rows),
                                active_decisions_over_budget=int(any(
                                    r[1] == "PROME/ACTIVE_DECISIONS.md" and r[2] >= BUDGET_BYTES
-                                   for r in _rows))))
+                                   for r in _rows)),
+                               # APPENDED 2026-09-24 (rule 20). A MEASUREMENT, not a graded count —
+                               # it never moves rc. Consumers verified key=value, not positional:
+                               # validate_all.parse_rc_result, prome_gate.coverage_result.
+                               charter_bytes=_cb if _cb is not None else "NA"))
         return rc
     if "--fleet" in args:
         desks = fleet_desks()
@@ -1308,7 +1573,7 @@ def main(argv):
                 # an invalid mode rendered as a GREEN, ZERO-READ row. A desk we could not assess must
                 # never read greener in --fleet than it does in --agent.
                 cant.append(d); continue
-            name, n, nb, nc, rows, probs, advs, gen = res
+            name, n, nb, nc, rows, probs, advs, gen, _cb = res
             tot_b += (nb > 0); tot_c += (nc > 0)
             tot_def += (len(probs) > 0); tot_adv += (len(advs) > 0); tot_gen += len(gen)
             # PAT-176: how many desks hold a boot read that is above rule 5's STOP threshold —
@@ -1327,6 +1592,7 @@ def main(argv):
                 mark = "⛔"           # a manifest defect, with no cap finding to display
             print(f"  {mark} {name:8}{n:>6}{nb:>9}{nc:>6}  {w}"
                   + ("   MANIFEST DEFECT — see `--agent " + name + "`" if probs else ""))
+            print(f"      ℹ️  {charter_line(name)}")           # rule 20, per desk
             # W1: the label is keyed on `probs` ALONE, not `probs and not nb` — a desk that is
             # BOTH over budget and manifest-defective showed a plain 🟠 and the defect vanished,
             # sending the owner to apply a rotation remedy to a declaration defect.
@@ -1349,6 +1615,18 @@ def main(argv):
             print(f"\n  desks with ≥1 boot read over BUDGET: {tot_b}/{n_assessed} · over the CAP: "
                   f"{tot_c}/{n_assessed}" + (f"   (of {n_assessed} ASSESSED, not {len(desks)} — "
                   f"{len(cant)} CANNOT-EVALUATE: {', '.join(cant)})" if cant else ""))
+        # RULE 20 — the fleet summary states what the totals above EXCLUDE. Measured over EVERY
+        # desk (a charter's size does not depend on whether the desk could be assessed).
+        _ch = [(d, charter_info(d)[1]) for d in desks]
+        _chm = [(d, b) for d, b in _ch if b is not None]
+        if _chm:
+            _big = max(_chm, key=lambda x: x[1])
+            print(f"  ℹ️  charters: {len(_chm)}/{len(desks)} measured, {sum(b for _d, b in _chm):,} B total, "
+                  f"largest {_big[0]} {_big[1]:,} B — OUT OF PERIMETER by rule 20 (harness-injected, context "
+                  f"cost not truncation; not graded here; composite-injection advisory is PROME/Will's). "
+                  f"⛔ The over-BUDGET/over-CAP totals above EXCLUDE every charter by design — they are "
+                  f"NOT a clean-charter verdict." + (f" ABSENT: {', '.join(d for d, b in _ch if b is None)}."
+                                                     if len(_chm) < len(desks) else ""))
         if tot_adv:
             print(f"  ℹ️  {tot_adv} desk(s) carry an ADVISORY reading this check will not adjudicate "
                   f"(`--agent <NAME>` for the text). ⛔ Advisories do NOT drive rc — a refusal to "

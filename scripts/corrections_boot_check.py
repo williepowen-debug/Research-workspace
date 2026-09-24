@@ -15,7 +15,15 @@ Fixture overrides (SS3 testing, never mutate real files): --register P --receipt
 
 rc contract (CHECK_STANDARD SS9):
   0  no unreceipted NAMED rows for this desk (ALL-row WARNs may still print — WARN-never-block)
-  1  >=1 unreceipted NAMED row still live (block-class; EVERY instance printed, count-first)
+  1  >=1 NAMED row (not RETIRED) naming this desk with no receipt of ANY action from it
+     (block-class; EVERY instance printed, count-first). WQ-254 D4(a), Will 2026-09-24:
+     a passed date_cap or a DEAD-AT-CAP status NEVER clears a NAMED target's block — such
+     rows still BLOCK, labelled DEAD-AT-CAP. date_cap governs ALL-rows only (broadcast
+     expiry: past cap = no warn, no block, counted on the INFO line).
+     Production acceptance set (CHECK_STANDARD SS3(e), live register 2026-09-24):
+     defective = `SAM` (COR-20260826-02, DEAD-AT-CAP, unreceipted -> rc 1);
+     clean = `HAWK` (COR-20260828-01, cap passed, NO-OP receipt 2026-09-08 -> rc 0).
+     Time-bound: SAM's receipt will flip the defective case; re-pick from the register.
   2  CANNOT-EVALUATE — register absent (expected pre-creation state, loud), required header
      column missing, unparseable date in ANY row (A2: NEVER a silent row-skip),
      unparseable receipts file, or an UNKNOWN AGENT NAME (B, 2026-08-28: a typo'd desk
@@ -124,8 +132,25 @@ def cmd_check(agent, reg_path, rcpt_path, today):
     if rcpt_path.exists():
         for r in read_tsv(rcpt_path, RECEIPT_HEADER, "receipts"):
             parse_day("receipt_date", r.get("receipt_date", ""), f"{rcpt_path.name} row {r.get('correction_id')}")
+            act = (r.get("action") or "").strip().upper()
+            if act not in ACTIONS:
+                # R1 (independent read 2026-09-24): under D4(a) the receipt is the SOLE discharge of a
+                # named target, so a hand-written row with a blank/non-enum action must not clear it.
+                # A2 law, one field over: unparseable is rc 2, never a pass.
+                die2(f"{rcpt_path.name} row {r.get('correction_id')}: action {act!r} is not one of {ACTIONS} — "
+                     "a receipt with no valid action discharges nothing; fix the row (cmd_receipt validates on write)")
             receipts.add(r.get("correction_id", "").strip())
-    named_block, all_warn, dead, malformed = [], [], [], []
+    # WQ-254 D4(a) "A3 semantics" (Will 2026-09-24 14:59 ET; record
+    # PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md row 254; spec
+    # AGENTS/DAEDALUS/runs/2026-09-17_P4_SITTING_RULING_PACKAGE.md §4 D4):
+    #   A passed date_cap NEVER clears a NAMED target's block. It changes the ROW's status
+    #   (DEAD-AT-CAP, WALTER's prune) and never the named TARGET's obligation — the target
+    #   keeps BLOCKING (rc 1, labelled DEAD-AT-CAP) until a receipt of ANY action exists.
+    #   date_cap governs ALL-rows (broadcast expiry: no warn, no block) and row status only.
+    # Before this edit, a DEAD-AT-CAP status `continue`d before evaluation and a passed cap
+    # `continue`d after an INFO line: SAM passed rc 0 on COR-20260826-02 from 8/28 to 9/24,
+    # and after WALTER's 9/24 prune even the INFO line vanished ("0 dead-at-cap").
+    named_block, all_warn, dead_named, dead_all, malformed = [], [], [], [], []
     for i, r in enumerate(rows, 2):
         cid = r["correction_id"].strip()
         where = f"{reg_path.name} line {i} ({cid})"
@@ -136,37 +161,55 @@ def cmd_check(agent, reg_path, rcpt_path, today):
         mine = is_all or agent.upper() in targets
         if not mine:
             continue
-        if r["status"].strip().upper() in ("RETIRED", "DEAD-AT-CAP"):
-            continue  # terminal by owner declaration (A3 in-header enum); prune is WALTER's half
+        status = r["status"].strip().upper()
+        if status == "RETIRED":
+            continue  # terminal by owner declaration (VERIFIED closure, A3 ladder); prune is WALTER's half
         if is_all and cap is None:
             # Ruling: date_cap is MANDATORY on ALL-rows. Missing != unparseable, so this
             # WARNS loudly rather than rc=2 (deliberate asymmetry, declared here: the desk's
             # receipts CAN still be evaluated; the schema breach is WALTER's half to fix).
             malformed.append(cid)
-        if cap is not None and cap < today:
-            if cid not in receipts:
-                dead.append(cid)  # feeds checkpoint leg (d): dead-at-cap with zero receipts
-            continue
+        cap_passed = cap is not None and cap < today
         if cid in receipts:
+            continue  # a receipt of ANY action discharges THIS desk — the only thing that does
+        if is_all:
+            if status == "DEAD-AT-CAP" or cap_passed:
+                dead_all.append(cid)  # broadcast expired: counted, never warned, never blocked
+                continue
+            all_warn.append((cid, r["pointer"], r["status"], r["date"]))
             continue
-        (all_warn if is_all else named_block).append((cid, r["pointer"], r["status"], r["date"]))
+        # NAMED row, unreceipted by this desk: BLOCK regardless of cap/status (D4(a)).
+        if status == "DEAD-AT-CAP" or cap_passed:
+            dead_named.append(cid)  # feeds checkpoint leg (d): dead-at-cap with zero receipts
+            label = (f"DEAD-AT-CAP (row status {r['status'].strip() or '<blank>'}; cap "
+                     f"{r['date_cap'].strip() or '<none>'} {'passed' if cap_passed else 'not passed'}"
+                     f" — a passed cap never discharges a named target, WQ-254 D4(a))")
+        else:
+            label = r["status"]
+        named_block.append((cid, r["pointer"], label, r["date"]))
+    dead = dead_named + dead_all
     for cid in malformed:
         print(f"  MALFORMED ALL-row {cid}: date_cap MISSING (mandatory per ruling) — flag WALTER")
     if dead:
-        print(f"  INFO {len(dead)} dead-at-cap with no receipt from this desk: {', '.join(dead)}")
+        print(f"  INFO {len(dead)} dead-at-cap with no receipt from this desk: {', '.join(dead)}"
+              f" — {len(dead_named)} NAMED (still BLOCKING until receipted, WQ-254 D4(a))"
+              f" · {len(dead_all)} ALL-row (broadcast expired: no warn, no block)")
     if all_warn:
         print(f"  WARN {len(all_warn)} broadcast ALL-row(s) unreceipted (warn-never-block):")
         for cid, ptr, st, d in all_warn:
             print(f"       {cid} [{st}] {d} -> {ptr}")
     if named_block:
-        print(f"CORRECTIONS-CHECK 1 BLOCK: {len(named_block)} NAMED correction(s) unreceipted for {agent}:")
+        print(f"CORRECTIONS-CHECK 1 BLOCK: {len(named_block)} NAMED correction(s) unreceipted for {agent}"
+              f" ({len(dead_named)} of them DEAD-AT-CAP):")
         for cid, ptr, st, d in named_block:
             print(f"       {cid} [{st}] {d} -> read {ptr}, then receipt: "
                   f"corrections_boot_check.py {agent} --receipt {cid} --action <APPLIED|NO-OP|DEFERRED|CONTESTED>")
         return 1
     print(f"CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for {agent} "
-          f"(register {len(rows)} row(s), {len(all_warn)} ALL-warn, {len(dead)} dead-at-cap; "
-          f"receipts on file: {len(receipts)}) — PASS covers the register at {reg_path}, nothing else")
+          f"(register {len(rows)} row(s), {len(all_warn)} ALL-warn, {len(dead_all)} ALL-row(s) past cap "
+          f"unreceipted = broadcast expired, not an obligation; receipts on file: {len(receipts)}) — "
+          f"PASS covers the register at {reg_path} and this desk's receipts file, nothing else "
+          f"(it does not prove a receipt's action was correct or that the correction was applied)")
     return 0
 
 
@@ -252,14 +295,98 @@ def cmd_selftest():
         ("regress: WRONG header WITH a data row -> still 2 (pre-existing path holds)", "foo\tbar\n1\t2\n", 2),
     ]
     ok = True
+    npass = 0
     print("SELFTEST corrections_boot_check.py — header validation is row-count-independent:")
     for label, txt, want in cases:
         got = run_check(txt)
         good = got == want
         ok = ok and good
+        npass += good
         print(f"  {'PASS' if good else 'FAIL'}  {label}: rc={got} (want {want})")
-    print(f"SELFTEST {'0 PASS' if ok else '1 FAIL'}: {len(cases)}/{len(cases)} cases"
-          if ok else f"SELFTEST 1 FAIL")
+
+    # --- WQ-254 D4(a) "A3 semantics" (Will 2026-09-24): a passed cap NEVER clears a NAMED
+    # target's block. Each case asserts the rc AND the output text (must/must-not substrings),
+    # because the 9/24 regression was visible only in text ("INFO 1" -> "0 dead-at-cap") while rc
+    # stayed 0 both times. Rows are the live register's own shapes (-0826-02 SAM, -0828-01 HAWK).
+    import contextlib
+    hdr = "\t".join(REQUIRED_COLS + ["summary", "direction"])
+    sam_dead = "COR-20260826-02\t2026-08-26\tLIQUID\tSAM\tBOARD/x.md\t2026-08-28\tDEAD-AT-CAP\ts\tWEAKEN"
+    sam_live_pastcap = "COR-20260826-02\t2026-08-26\tLIQUID\tSAM\tBOARD/x.md\t2026-08-28\tLIVE\ts\tWEAKEN"
+    hawk_row = ("COR-20260828-01\t2026-08-28\tWALTER\tBRENT,FALCON,PROME,TERRY,RED,HAWK,MIDAS\tBOARD/y.md"
+                "\t2026-09-11\tRECEIPTED\ts\tWEAKEN")
+    all_pastcap = "COR-20260801-01\t2026-08-01\tWALTER\tALL\tBOARD/z.md\t2026-08-15\tLIVE\ts\tHOLD"
+    all_live = "COR-20260920-01\t2026-09-20\tWALTER\tALL\tBOARD/z.md\t2026-10-15\tLIVE\ts\tHOLD"
+    retired = "COR-20260801-02\t2026-08-01\tWALTER\tSAM\tBOARD/r.md\t2026-08-15\tRETIRED\ts\tHOLD"
+    named_live = "COR-20260920-02\t2026-09-20\tWALTER\tSAM\tBOARD/n.md\t2026-10-15\tLIVE\ts\tHOLD"
+    dead_nocap = "COR-20260826-03\t2026-08-26\tWALTER\tSAM\tBOARD/w.md\t\tDEAD-AT-CAP\ts\tHOLD"
+
+    def rc_line(cid, action="NO-OP"):
+        return f"2026-09-24T19:00Z\t{cid}\t{action}\tselftest"
+
+    def run_d4(agent, reg_rows, rcpt_rows, today=date(2026, 9, 24)):
+        with tempfile.TemporaryDirectory() as td:
+            reg = Path(td) / "reg.tsv"
+            reg.write_text("# banner\n" + hdr + "\n" + "".join(x + "\n" for x in reg_rows))
+            rcpt = Path(td) / "rcpt.tsv"
+            if rcpt_rows is not None:
+                rcpt.write_text("\t".join(RECEIPT_HEADER) + "\n" + "".join(x + "\n" for x in rcpt_rows))
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                try:
+                    rc = cmd_check(agent, reg, rcpt, today)
+                except SystemExit as e:
+                    rc = e.code
+            return rc, buf.getvalue()
+
+    d4 = [
+        # (label, agent, reg_rows, rcpt_rows, want_rc, must_contain, must_not_contain)
+        ("capable: DEAD-AT-CAP NAMED row, unreceipted -> 1 (SAM/-0826-02, the live instance)",
+         "SAM", [sam_dead], None, 1,
+         ["CORRECTIONS-CHECK 1 BLOCK", "COR-20260826-02 [DEAD-AT-CAP", "INFO 1 dead-at-cap", "1 NAMED"], []),
+        ("clean:   same DEAD-AT-CAP row, receipted NO-OP -> 0",
+         "SAM", [sam_dead], [rc_line("COR-20260826-02")], 0,
+         ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
+        ("clean:   same DEAD-AT-CAP row, receipted CONTESTED -> 0 (a receipt of ANY action)",
+         "SAM", [sam_dead], [rc_line("COR-20260826-02", "CONTESTED")], 0,
+         ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK"]),
+        ("capable: cap-passed LIVE NAMED row, unreceipted -> 1 (pre-prune state; was rc 0 + INFO)",
+         "SAM", [sam_live_pastcap], None, 1,
+         ["CORRECTIONS-CHECK 1 BLOCK", "DEAD-AT-CAP (row status LIVE; cap 2026-08-28 passed", "INFO 1"], []),
+        ("capable: DEAD-AT-CAP NAMED row with NO cap, unreceipted -> 1 (status alone never discharges)",
+         "SAM", [dead_nocap], None, 1, ["COR-20260826-03 [DEAD-AT-CAP", "cap <none> not passed"], []),
+        ("clean:   ALL-row past cap, unreceipted -> 0, no WARN (broadcast expired)",
+         "SAM", [all_pastcap], None, 0,
+         ["CORRECTIONS-CHECK 0 OK", "1 ALL-row(s) past cap", "0 NAMED", "1 ALL-row (broadcast expired"],
+         ["WARN", "CORRECTIONS-CHECK 1 BLOCK"]),
+        ("regress: ALL-row cap NOT passed, unreceipted -> 0 WITH WARN (warn-never-block holds)",
+         "SAM", [all_live], None, 0, ["WARN 1 broadcast ALL-row", "CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK"]),
+        ("clean:   multi-target cap-passed row, THIS desk receipted -> 0 (HAWK/-0828-01, NO-OP 9/8)",
+         "HAWK", [hawk_row], [rc_line("COR-20260828-01")], 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
+        ("capable: same multi-target row, OTHER target unreceipted -> 1 (receipts are per-desk)",
+         "BRENT", [hawk_row], [], 1, ["CORRECTIONS-CHECK 1 BLOCK", "COR-20260828-01 [DEAD-AT-CAP"], []),
+        ("clean:   DEAD-AT-CAP row naming SOMEONE ELSE -> 0 (HAWK is not SAM)",
+         "HAWK", [sam_dead], None, 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
+        ("regress: RETIRED NAMED row, unreceipted -> 0 (owner-declared terminal, unchanged)",
+         "SAM", [retired], None, 0, ["CORRECTIONS-CHECK 0 OK"], ["CORRECTIONS-CHECK 1 BLOCK", "INFO"]),
+        ("regress: LIVE NAMED row cap in future, unreceipted -> 1 labelled LIVE (pre-existing path)",
+         "SAM", [named_live], None, 1, ["COR-20260920-02 [LIVE]", "(0 of them DEAD-AT-CAP)"], ["[DEAD-AT-CAP", "INFO"]),
+        ("mixed:   dead named + past-cap ALL + receipted live -> 1, counts split 1 NAMED · 1 ALL",
+         "SAM", [sam_dead, all_pastcap, named_live], [rc_line("COR-20260920-02")], 1,
+         ["INFO 2 dead-at-cap", "1 NAMED", "1 ALL-row", "1 NAMED correction(s) unreceipted for SAM (1 of them DEAD-AT-CAP)"],
+         ["WARN"]),
+    ]
+    print("SELFTEST WQ-254 D4(a) — a passed cap never clears a NAMED target's block:")
+    for label, agent, reg_rows, rcpt_rows, want, must, mustnot in d4:
+        got, out = run_d4(agent, reg_rows, rcpt_rows)
+        miss = [s for s in must if s not in out]
+        bad = [s for s in mustnot if s in out]
+        good = got == want and not miss and not bad
+        ok = ok and good
+        npass += good
+        extra = "" if good else f" | missing {miss} | forbidden-present {bad} | output: {out.strip()!r}"
+        print(f"  {'PASS' if good else 'FAIL'}  {label}: rc={got} (want {want}){extra}")
+    total = len(cases) + len(d4)
+    print(f"SELFTEST {'0 PASS' if ok else '1 FAIL'}: {npass}/{total} cases")
     return 0 if ok else 1
 
 
@@ -278,6 +405,10 @@ def main():
         sys.exit(cmd_coverage(ROOT, reg))
     if not a.agent:
         p.error("agent name required (or --coverage)")
+    # R4 (independent read 2026-09-24): the token was uppercased for validation but not for the
+    # receipts path or the printed remedy — `hawk` got a false BLOCK and a command that would have
+    # written AGENTS/hawk/registry/. Normalise ONCE, here, before anything derives from it.
+    a.agent = a.agent.strip().upper()
     require_known_agent(a.agent, ROOT)
     rcpt = Path(a.receipts) if a.receipts else receipts_path(a.agent, ROOT)
     today = parse_day("--today", a.today, "cli") if a.today else date.today()
