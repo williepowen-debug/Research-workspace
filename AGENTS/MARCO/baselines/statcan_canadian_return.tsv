@@ -5,7 +5,7 @@
 # ⚠️ gap_auto_minus_air is the quantity ID-01 is written on. NEGATIVE = land worse than air.
 # ⚠️ Score on the 2-yr STACK, not YoY — YoY is base-effect-corrupted (VX-MARCO-1.01's own rule).
 # Last real data refresh: 2026-08-01   <- NEWEST DATA MONTH, not the pull date (PAT-044).
-# pulled=2026-09-19 months=36 newest=2026-08 dropped_incomplete=AIR:2023-08(4d),LAND_AUTO:2023-08(4d)
+# pulled=2026-09-24 months=36 newest=2026-08 dropped_incomplete=AIR:2023-08(4d),LAND_AUTO:2023-08(4d)
 period	air	air_yoy	air_stack2y	land_auto	land_auto_yoy	land_auto_stack2y	gap_auto_minus_air
 2023-09	556256			1979052			
 2023-10	657734			1921075			

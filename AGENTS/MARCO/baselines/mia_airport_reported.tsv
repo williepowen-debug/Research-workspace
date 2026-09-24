@@ -1,0 +1,17 @@
+# MARCO — MIA airport-REPORTED passengers (Miami-Dade Aviation Dept monthly Traffic Report PDF, primary)
+# ⚠️ ENPLANED+DEPLANED totals — NOT the BTS T-100 enplanement series (bts_airport_pax.tsv). Different basis; compare within series only.
+# Route: miami-airport.com/library/pdfdoc/Airport Stats/FY 2025-2026/<Month> 2026 Monthly  Calendar Yr Traffic Report.pdf (DOUBLE space).
+#   2025 months live at the Airport Stats/ ROOT, not an FY folder. ⚠️ The airport_stats.asp INDEX lists only Mar/Apr 2026 — May–Aug resolve by direct URL.
+# Parse: identity-checked (total == intl + dom AND == deplaned + enplaned) — pdfminer scrambles column order on this layout.
+# Last real data refresh: 2026-08-01   <- NEWEST DATA MONTH (PAT-044). pulled=2026-09-24
+period	total	intl	dom	prior_yr_total	yoy_pct	seats	prior_yr_seats	seats_yoy_pct	stack2y_pct
+2026-01	5088634			5067376	+0.42				
+2026-02	4469495			4442257	+0.61				
+2026-03	5051489			5141796	-1.76				
+2026-04	4558135			4651902	-2.01				
+2026-05	4619412			4595305	+0.52				
+2026-06	4555641	2095811	2459830	4621771	-1.43	5300525	5353900	-1.00	
+2026-07	4834977	2333480	2501497	4830328	+0.10	5564670	5563568	+0.02	-1.73
+2026-08	4289986	2044562	2245424	4548858	-5.69	5131464	5341311	-3.93	-6.53
+2025-07	4830328	2307161	2523167	4920287	-1.83				
+2025-08	4548858	2139483	2409375	4589478	-0.89				

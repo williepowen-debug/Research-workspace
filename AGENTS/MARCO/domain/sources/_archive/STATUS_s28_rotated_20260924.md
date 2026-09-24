@@ -1,0 +1,13 @@
+# STATUS rotation — session 28 (2026-09-24)
+
+Rotated out of `STATUS.md` to make room under the 32,550 B read cap. Verbatim.
+
+## Session-27 header block (superseded by session 28)
+
+**Last Updated:** 2026-09-19 ~11:5x ET (session 27 — Will-directed catch-up: the three dated/mechanical resolvers worked to the letter) | **Thesis:** v3.1 | **Status:** 🟠 ELEVATED
+
+**This session in one line:** **Three pre-committed resolvers came due and all three were graded on rules written before the numbers were seen.** **`ES-MARCO-05` RESOLVES DID_NOT_APPEAR** — August fresh F&V **+3.13% YoY**, a third consecutive sub-6% print, ~6.9pp below its >10% threshold and robust to basis (2-yr stack +5.50%). **`MAR-11` CANNOT resolve at the 9/30 fiscal-year boundary** — OFLC's newest file is still FY2026 Q3, so the resolver anchor is the **Q4 disclosure (~Nov)**, not the FY close; confidence HELD at 72% precisely because no new data arrived. **`MAR-24` marked 55%→70%** on a **computed conditional base rate** (P(all-3-negative in the next 3 months | this month all-3-negative) = **56.2%**, vs 14.2% unconditional) plus a structural read that FLL/MCO are locked negative and **MIA is the sole swing leg**. ⛔ **THE MECHANISM IS A BANKRUPTCY, NOT A BOYCOTT: June 2026 is the first all-3-negative month of 2026, but EX-SPIRIT FLL is +22.28% and MCO is +4.52%.** 🔑 Also measured: **BTS revises its newest month UP by 0.8-2.3%**, so first-print months overstate weakness — pre-registered into MAR-24's grading rule before Q3 lands.
+
+## Session-26 one-line header (residue — STATUS carried two 'This session in one line' lines)
+
+**This session in one line:** **The 2026-27 OCPS enrollment file CORAL said to re-check after mid-September EXISTS, and it gives the ONE Florida enrollment figure on a comparable basis: 193,656 (headcount, 2026-09-15) vs 201,652 (2025-09-15) = −7,996 / −3.97% YoY.** The routed *~191,000 / −3.8%* is withdrawn; the press −7,672 is the late-August 10-day count, a different date on the same population. **MARCO's half is the grade decomposition: 72% of the decline (−5,729) is PIPELINE turnover — an entering kindergarten cohort 5,729 smaller than the graduating senior class — and only −2,032 (25%) is within-cohort attrition, the sole term where out-migration can live, shared with voucher/private exit.** ⛔ **Migration pillar UNCHANGED; no threshold set or moved; enrollment is NOT a migration direction tell without a voucher denominator.** Also: Canadian 9/8 perimeter integrated (629 items, reproduced at HAWK's artifact — closes the *Canadian line list UNREAD* thread) · `VX-FL-02` SF leg SCORED (4.5mo, ELEVATED) · `VX-3.04` re-graded on the 2025 print · 6 as-made confidences re-derived at the Feb-24 blob.
