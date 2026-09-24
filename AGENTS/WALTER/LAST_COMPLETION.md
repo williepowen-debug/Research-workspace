@@ -77,14 +77,14 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **`1d7a350cf`, `7973d469b` and `436442a26` have since been carried to origin by other desks' push trains. `5ce79b47f` (the Iran full sweep, 5 handoffs) is PENDING: PROME is mid-closeout with uncommitted files, so the push is deferred per step 16. Its 5 rows read `pending` until the next train. `reconcile_delivery_log` reports them as "orphans" only because origin has not yet seen those paths. They are not lost.**
+**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **Pushed by WALTER at the end, after the tree went clean: `Pushed. CONFIRMED: HEAD c7a7a681b is on origin/master (fresh fetch).` `reconcile_delivery_log.py --apply` wrote 23 rows → delivered, 0 REAL ORPHANS. All 54 of today's handoffs are on origin.** ⛔ Delivered is not consumed.
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T17:45:25+00:00",
+  "as_of": "2026-09-24T17:57:13+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -92,12 +92,13 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
     {"commit": "1d7a350cf", "state": "published"},
     {"commit": "7973d469b", "state": "published"},
     {"commit": "436442a26", "state": "published"},
-    {"commit": "5ce79b47f", "state": "pending"}
+    {"commit": "5ce79b47f", "state": "published"},
+    {"commit": "c7a7a681b", "state": "published"}
   ],
   "delivery": {
     "signal_date": "20260924",
-    "total": 36,
-    "delivered": 31
+    "total": 54,
+    "delivered": 54
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
