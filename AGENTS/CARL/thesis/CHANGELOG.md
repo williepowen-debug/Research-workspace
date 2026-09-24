@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-24 late (3) — DAEDALUS re-score received; CRL-08 RULED 28%; CRL-09 re-marked to first-call 75%
+
+**DAEDALUS (scoreboard owner, `133faa736`):** CARL's aggregate Brier moves **0.3096 (n=12) → 0.4625 (n=9)**, 2 hits of 9. CARL re-derived it: Σ 4.1623 over CRL-01/03/04/07/09/11/16/18/24 ✓.
+**CRL-08 is RULED to resolve at its kill-clause fire (~7/06) and score at 28%** (0.0784). The 7% walk does not score. FRED Brent was <$80 on every trading day 6/22–7/10 (CARL pulled it 9/24). Status is formalised on 9/30.
+
+**DAEDALUS's undated-mark ask, answered:**
+- CRL-01 75% and CRL-24 60% are Date_Made values, so they score as-is.
+- **CRL-09's 73% was an undated walk from 75 (4/06, `a5ac65852`)**, so it is re-marked to first-call 75 under WQ-112(ii), the rule Will approved for CRL-07/16 today. Brier 0.5329 → 0.5625, which puts the aggregate at **0.4658** pending DAEDALUS's re-score.
+
+**Open, for Will:** DAEDALUS asks CRL-19 `MIXED` to be re-tokened. The strict letter is MISS, but it was also a **post-data registration** (registered 5/01, after March PCE printed 4/30), which argues NO-VERDICT. Not decided here.
+
+---
+
 ## 2026-09-24 late (2) — CARL-DR-5 relabelled: SCORED STRIKE → UNRESOLVED (CATO AP1, via PROME, Will-routed). CARL CONCURS
 
 **Branch standard, cited:** the DR-5 commission (`AGENTS/DEWEY/inbox/processed/2026-08-15b_…`) makes LEG 1 the discriminator (state grocery volume against state SNAP changes vs state UR/claims). Its §4 UNRESOLVABLE row says: *"A resolvability defect is a STATUS problem … I will not score it in either direction."* State unit volume does not exist publicly, and the substitute is a low-power null (R² 0.003, n=51; "no gradient seen, not gradient refuted"). **The standard for CYCLE-fails was not met.** The 9/24 PM grade rejected the commission's own rule and leaned on national context plus "it cuts against my thesis". The second is not a validity argument.

@@ -200,6 +200,7 @@ OVERRIDES = {
     ("2026-09-24", "CRL-02", "STATUS"): ("RECORD-CORRECTION", "CARL", "REMOVES", "HURTS", "HURTS", "RE-GRADE CONFIRMED* -> NO-VERDICT; removes a 0.09 HIT"),
     ("2026-09-24", "CRL-26", "STATUS"): ("RECORD-CORRECTION", "CARL", "REMOVES", "HURTS", "HURTS", "RE-GRADE CONFIRMED -> NO-VERDICT (no in-window AAA print); removes a 0.09 HIT"),
     ("2026-09-24", "CRL-07", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 40% -> first-call 80 (WQ-112 ii): 0.16 -> 0.64 on the published record"),
+    ("2026-09-24", "CRL-09", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 73% (walked 4/06) -> first-call 75 (WQ-112 ii): 0.5329 -> 0.5625"),
     ("2026-09-24", "CRL-16", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 35% -> first-call 60 (WQ-112 ii): 0.1225 -> 0.36 on the published record"),
     ("2026-04-17", "CRL-04", "STATUS"): A,
     ("2026-06-08", "CRL-10", "TIMEFRAME"): A,
