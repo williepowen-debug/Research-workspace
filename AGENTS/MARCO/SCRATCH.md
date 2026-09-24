@@ -43,7 +43,7 @@
 | ⚠️ Read budgets | STATUS <70% after rotation; MEMORY 74% (351 B to trigger) — next MEMORY addition rotates first |
 
 ## Mail state
-**Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18), not an inbox spawn. WALTER lane empty.
+**Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18), not an inbox spawn. **WALTER lane:** `SIG-W-20260924-017` (grocery correction) arrived mid-session → logged **info-only** in `board_log.tsv` (MARCO never carried the claim). ⚠️ **File left in `inbox/WALTER/`** — WALTER had not yet committed its delivery, so a `git mv` would break WALTER's sweep commit. **Next boot: `git mv` it to `processed/`** (it is already in board_log, so the drain's not-yet-logged filter will skip it — do it by hand).
 **Sent:** CARL (correction — voter-reg counter-signal was election cycle).
 
 ## PUSH STATE
