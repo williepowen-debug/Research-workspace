@@ -1,0 +1,85 @@
+{
+  "revision": "e9593591146942a4226dc6bc30fd52f50793a6ca",
+  "before": "24860a684^",
+  "watcher_checks": [
+    {
+      "case": "full_baseline",
+      "rc": 0,
+      "message": "QUIET: 182 filings returned (schema + coverage OK), none after id 11981 \u2014 no newer filing RETURNED at FDIC FLNG cert 110"
+    },
+    {
+      "case": "new_filing",
+      "rc": 1,
+      "message": "NEW: 1 filing(s) after id 11981 \u2014 read each; a sub-notes redemption/refi is a \ud83d\udfe0 REGINALD signal"
+    },
+    {
+      "case": "empty_list",
+      "rc": 2,
+      "message": "UNKNOWN: only 0 filings returned (floor 170) \u2014 incomplete response"
+    },
+    {
+      "case": "empty_object",
+      "rc": 2,
+      "message": "UNKNOWN: response is dict, not a list \u2014 schema changed or error body"
+    },
+    {
+      "case": "missing_id",
+      "rc": 2,
+      "message": "UNKNOWN: 1 row(s) lack an integer instFlngId (first at index 182) \u2014 malformed response"
+    },
+    {
+      "case": "boolean_id",
+      "rc": 2,
+      "message": "UNKNOWN: 1 row(s) lack an integer instFlngId (first at index 182) \u2014 malformed response"
+    },
+    {
+      "case": "truncated_with_baseline",
+      "rc": 2,
+      "message": "UNKNOWN: only 20 filings returned (floor 170) \u2014 incomplete response"
+    },
+    {
+      "case": "older_window",
+      "rc": 2,
+      "message": "UNKNOWN: baseline FLNG 11981 absent and newest id 10181 is older \u2014 response does not cover the baseline"
+    },
+    {
+      "case": "network_timeout",
+      "rc": 2,
+      "message": "FLNG-WATCH 2 UNKNOWN: fetch failed (TimeoutError: isolated fixture) \u2014 the watch did NOT run"
+    }
+  ],
+  "watcher_duplicate_advisory": {
+    "rc": 0,
+    "message": "QUIET: 182 filings returned (schema + coverage OK), none after id 11981 \u2014 no newer filing RETURNED at FDIC FLNG cert 110"
+  },
+  "prediction_changed_cells": {
+    "OZK-02": [
+      "Timeframe"
+    ],
+    "OZK-03": [
+      "Timeframe"
+    ],
+    "OZK-04": [
+      "Timeframe"
+    ],
+    "OZK-09": [
+      "Invalidation"
+    ]
+  },
+  "OZK03_surviving_invalidation": "FY 2026 NCO <55bps at Feb 27 2027 print",
+  "hypothetical_flow_counterexample_K": {
+    "30_89_cures_or_payoffs": 167674,
+    "30_89_to_nonaccrual": 0,
+    "other_current_to_nonaccrual": 198660,
+    "nonaccrual_to_oreo": 138565,
+    "assumed_nonaccrual_chargeoffs": 56254,
+    "all_three_endpoints_reproduce": true,
+    "limit": "Hypothetical, not observed loan flows; net charge-offs treated as gross with zero recoveries for this witness."
+  },
+  "four_boot_files_bytes": {
+    "STATUS.md": 14032,
+    "MEMORY.md": 13402,
+    "LESSONS.md": 11753,
+    "CALENDAR.md": 7099
+  }
+}
