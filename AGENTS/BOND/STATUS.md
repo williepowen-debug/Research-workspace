@@ -14,8 +14,9 @@
 1. 🔴 **9/23 5Y `91282CRN3` = OLD CONJUNCTIVE COMPOSITION FAILURE** — indirect **54.31%** (min 59.24; **lowest 5Y since 2020-03-25**) AND dealer **15.77%** (max 15.61, **+0.16pp**) · BTC **2.21** (lowest since 2018-12-26) · `I'` fired. ⇒ **the TLT-put ADD RE-ARM condition is MET — and Will DECLINED the add (WQ-280, ruled 13:17 ET 9/24, verbatim *"Approve WQ-280 and WQ-281 with your recs"*); no trade, no fresh card approved; `$0`.** ⛔ **Paired thesis kill NOT fired** (SOFR−IORB **−3bp** [9/23]). ⚠️ **Dealer 15.77 is ordinary on multi-year history (five 2023–24 prints higher, max 20.37); it cleared into a hot-PMI sell-off. THRESHOLD FIRED — MECHANISM NOT SHOWN FAILED.** Graded ~24h late. → `analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`, `KB-BND-312`.
 2. 🟠 **9/24 7Y `I'` marker by 0.037pp**; 9/22 2Y 🟢 clean. Downgrade counter **0**.
 3. 🔴 **`BND-26` FALSE (70%, a MISS):** 1y1y **5.03 on FOMC day**, 5.08 [9/18] = new 2023-forward sample high. **This desk's 9/14 "a hawkish SEP has little room to surprise" is WITHDRAWN; the 4.75–4.95 terminal band is retired for reuse.** `BND-25` TRUE (55%). `KB-BND-315`.
-4. 🔴 **The macro tape:** 9/23 flash composite PMI **58.4** (highest since 7/2021), input prices fastest since 10/2022 (S&P Global, secondary reports) ⇒ 5Y crossed **5%** first time since 2007; vendor 10Y **5.14**, 30Y **5.43** intraday 9/24 (**above the 5.37 official 2026 high — vendor, NOT counted**); October hike ~70% priced (TE 9/24, secondary). BOJ hiked to 1.25% 9/18; press-reported Japanese rate check ~¥158 (unconfirmed). BoE paused APF gilt sales 9/17 (a long-end SUPPLY withdrawal — `KB-BND-317`).
-5. 🟠 **CCC 1093 [9/23] fresh 2026 high, 7bp from 1100**; CCC−BB **934** > the 926 span max. HY index 273, inert.
+4. 🔴 **9/23 OFFICIAL CURVE (U.S. Treasury par/real curves — the identical source of H.15: 182/182 exact 2026 matches on DGS30/10/2 and DFII10, verified 9/24): 30Y 5.40 = FRESH 2026 HIGH, highest since 2004-07-28 · 10Y 5.11, highest since 2007-07-13 · 2Y 4.85 · 10Y REAL 2.76 (+13bp d/d), highest since 2008-11-25 — 33 of 5,935 days ever ≥ it.** ⇒ matrix row 1's letter ("fresh DGS30 high WITH weak composition") FIRED on 9/23 ⇒ **row 1 3→4, composite 14/35.** ⚠️ The weak composition that day was the 5Y, not a long-end auction; the upgrade confirms this desk's own thesis — scored on the letter, disclosed. FRED republishes the same cells ~9/25.
+5. 🔴 **The macro tape:** 9/23 flash composite PMI **58.4** (highest since 7/2021), input prices fastest since 10/2022 (S&P Global, secondary reports) ⇒ 5Y crossed **5%** first time since 2007; vendor 10Y **5.14**, 30Y **5.43** intraday 9/24 (**above the 5.37 official 2026 high — vendor, NOT counted**); October hike ~70% priced (TE 9/24, secondary). BOJ hiked to 1.25% 9/18; press-reported Japanese rate check ~¥158 (unconfirmed). BoE paused APF gilt sales 9/17 (a long-end SUPPLY withdrawal — `KB-BND-317`).
+6. 🟠 **CCC 1093 [9/23] fresh 2026 high, 7bp from 1100**; CCC−BB **934** > the 926 span max. HY index 273, inert.
 
 ---
 
@@ -31,13 +32,13 @@
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.29%** | 🔴 | [CONF FRED **9/22**] — 2026 high 5.37 [9/10]; **55-session run ≥5.00** (maximal run, whole-series); 71 of 182 2026 sessions. **Vendor `^TYX` 5.401 [9/23 close] · 5.434 [9/24 intraday]** — a fresh official high on 9/23 is LIKELY and NOT counted until H.15 publishes (docketed 9/25) |
-| 10Y (DGS10) | **4.96%** | 🔴 | [CONF FRED **9/22**] — 99.8th pctile post-2010. `GATE-TERRY-007` **46bp** from 4.50. Vendor `^TNX` 5.114 [9/23] · 5.137 [9/24 intraday] |
-| 5Y (DGS5) | **4.83%** | 🔴 ↑ | [CONF FRED **9/22**] — vendor `^FVX` 4.997 [9/23] (+16bp from 9/21), 5.011 [9/24] |
-| 2Y · 1Y | **4.71% · 4.43%** | 🔴 ↑ | [CONF FRED **9/22**] — **1y1y 4.99**; 5.08 [9/18] = 2023-forward sample high (`BND-26` FALSE) |
-| **10Y real (DFII10)** | **2.63%** | 🔴 **GATE THROUGH** | [CONF FRED **9/22**] — **+13bp above 2.50**; run since 9/10 all ≥2.50, high **2.68 [9/18]**; 98.8th pctile full, 99.9th post-2010. "Sustained" count = WQ-246 (Will) |
-| 5Y5Y fwd (T5YIFR) | **2.34%** | 🟡 | [CONF FRED **9/22**, last INPUT-SUPPORTED cell] — **16bp from 2.50.** ⚠️ FRED's 2.36 [9/23] is PROVISIONAL (inputs stop 9/22; WALTER −011, `KB-BND-320`) |
-| 10Y BE (T10YIE) | **2.33%** | 🟡 | [CONF FRED **9/22**] = 4.96 − 2.63 exactly; 2.35 [9/23] provisional |
+| 30Y (DGS30) | **5.40%** | 🔴🔴 | [CONF **U.S. Treasury par curve 9/23** = the H.15 source, 182/182 identity; FRED 5.29 [9/22]] — **FRESH 2026 HIGH (prior 5.37 [9/10]); highest since 2004-07-28**; run ≥5.00 = 56. Vendor `^TYX` 5.434 [9/24 intraday] |
+| 10Y (DGS10) | **5.11%** | 🔴 | [CONF Treasury par curve **9/23**] — highest since 2007-07-13; `GATE-TERRY-007` **61bp** from 4.50. Vendor `^TNX` 5.137 [9/24 intraday] |
+| 5Y (DGS5) | **4.99%** | 🔴 ↑ | [CONF Treasury par curve **9/23**] — +16bp d/d (4.83 [9/22]); vendor `^FVX` 5.011 [9/24] |
+| 2Y · 1Y | **4.85% · 4.49%** | 🔴 ↑ | [CONF Treasury par curve **9/23**] — 2Y highest since 2024-06-10; **1y1y 5.21 = new 2023-forward sample high** (prior 5.08 [9/18]; `BND-26` FALSE) |
+| **10Y real (DFII10)** | **2.76%** | 🔴🔴 **GATE THROUGH** | [CONF **Treasury real curve 9/23**] — **+26bp above 2.50; +13bp d/d; highest since 2008-11-25 (33 of 5,935 obs ever ≥2.76)**; every published session ≥2.50 since 9/10. "Sustained" count = WQ-246 (Will) |
+| 5Y5Y fwd (T5YIFR) | **2.36%** | 🟡 | [CONF FRED **9/23**, computed from Treasury curves] — **14bp from 2.50.** ⚠️ *Corrected 9/24 ~13:2x: an hour earlier this row called the 9/23 cell "provisional" on WALTER −011's mechanism, which was already retracted (LIQUID 9/22, WALTER −004 9/24); FRED builds it from Treasury BC_/TC_ data — a real value on Treasury's schedule (`KB-BND-320` CORRECTED)* |
+| 10Y BE (T10YIE) | **2.35%** | 🟡 | [CONF FRED **9/23**] = 5.11 − 2.76 exactly — **the 9/23 move was REAL-led (+13bp real vs +2bp breakeven)** |
 | ACM 10Y TP · KW TP | 0.7090 [9/15] · 0.9610 [9/11] | 🔴 `[STALE 9/24]` | Not re-pulled this session (re-pull at next full boot). KW 0.9610 = highest since 2011-02-11 at the time. **Name the model in any TP claim** (5.1bp model gap, `KB-BND-298/299`) |
 | **HY OAS** | **273bps** | 🟢 | [CONF FRED **9/23**] — 27bp from the 300 reopen line; 2026 max 346 |
 | **CCC OAS** | **1093bps** | 🟠 ↑ | [CONF FRED **9/23**] — **fresh 2026 high** (+18bp d/d; prior max 1085 [9/15]); **7bp from 1100** (`BND-27`) |
@@ -53,11 +54,11 @@
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 13bp** [2.63, 9/22] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
+| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 26bp** [2.76, 9/23 Treasury] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
 | **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ✅ **ADD DECLINED — WQ-280 RULED 9/24 13:17 ET** (four §B.1 grounds, `TRADE.md` Reactivation Matrix). Spent on 004 |
-| T5YIFR >2.50 | 16bp [9/22] | 🟡 |
-| DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 55) · 🔴 BREACHED |
-| `GATE-TERRY-007` (DGS10 <4.50 ×5) | 46bp [9/22] | TERRY's rail; counter 0 |
+| T5YIFR >2.50 | 14bp [9/23] | 🟡 |
+| DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 56) · 🔴 BREACHED |
+| `GATE-TERRY-007` (DGS10 <4.50 ×5) | 61bp [9/23] | TERRY's rail; counter 0 |
 | HY OAS >300 (reopen HYG) | 27bp [9/23] | 🟢 |
 | CCC >1100 escalation | **7bp** [9/23] | 🟠 closing |
 | Credit-equity lead (HY +75–100 from the 263 trough) | 65–90bp | 🟢 inactive |
@@ -68,7 +69,7 @@
 
 | # | Vector | Score | Status | Rolls up (`workbook/VX.tsv`) | Key Signal | Upgrade Trigger |
 |---|---|---:|:--:|---|---|---|
-| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | DGS30 5.29 [9/22], run 55; DFII10 2.63 through the gate since 9/10; 1y1y new sample high; vendor 30Y 5.43 intraday | **A fresh DGS30 high WITH weak composition — 9/23 HAS the weak composition; if H.15 DGS30[9/23] >5.37 the letter fires ⇒ 4** (docketed 9/25). Or DFII10 sustained (WQ-246) |
+| 1 | Long-end / duration | **4** ▲ | 🔴 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | **9/23: DGS30 5.40 = fresh 2026 high ON the 5Y composition-failure day ⇒ upgrade letter FIRED ⇒ 4**; DFII10 2.76 (highest since 2008-11); 1y1y 5.21 | ⇒5: a composition failure on a LONG-END auction (20Y/30Y) or the paired kill's mechanism leg confirming |
 | 2 | Treasury auction health | **3** ▲ | 🟠 | `VX-BND-01` · `VX-BND-08` · `VX-BND-13` · ~~`VX-BND-09`~~ RETIRED (tail) | **9/23 5Y: BTC 2.21 < 2.28 cover bar (and <2.3 KEY-THRESHOLD cover marker) + OLD composition failure + `I'`; 7Y `I'` by 0.04pp.** Paired kill NOT fired (funding −3bp; FR2004 leg unevaluable ~mid-Oct) | A composition failure with the funding/FR2004 leg CONFIRMED (paired kill) ⇒ 4 |
 | 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback op: F2 read ~14:15** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
 | 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | HY 273 inert; **CCC 1093 fresh high, 7bp from 1100**; CCC−BB 934 new span max | HY >300 with velocity, or a pulled-deal cluster |
@@ -76,7 +77,7 @@
 | 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.28 [9/8, STALE] | Synthetic leading cash, sustained |
 | 7 | Credit-equity lead | **1** = | 🟢 | `VX-BND-07` | Inactive — 65–90bp headroom | HY +75–100bp from 263 while VIX <20 |
 
-**Composite: 13/35 — UP 1 (12 → 13), the first change in sixteen scoring sessions.** Row 2 moved **2 → 3 on a pre-registered rule, not a judgement**: the 5Y BTC 2.21 is below both its trailing-12 min (2.28) and the KEY-THRESHOLDS 2.3 cover marker, which "escalates the vector" (the 7/27 precedent, when the vector moved on a benign story because that is what pre-registration is for). **The KILL is a different test and did not fire.** Distribution: 🟠 2 · 🟡 2 · 🟢 3 · 🔴 0. **Re-summed: 3+3+2+2+1+1+1 = 13 ✅.** ⚠️ `VX.tsv` row-state write-back for `VX-BND-01` owed at closeout.
+**Composite: 14/35 — UP 2 (12 → 14), the first change in sixteen scoring sessions.** **Row 1 moved 3 → 4 on its registered letter** (fresh DGS30 high 5.40 with weak composition, 9/23 — scored on the Treasury par curve, identical to H.15 at 182/182; the weak composition was the 5Y, not a long-end auction; FRED confirms ~9/25). Row 2 moved **2 → 3 on a pre-registered rule, not a judgement**: the 5Y BTC 2.21 is below both its trailing-12 min (2.28) and the KEY-THRESHOLDS 2.3 cover marker, which "escalates the vector" (the 7/27 precedent, when the vector moved on a benign story because that is what pre-registration is for). **The KILL is a different test and did not fire.** Distribution: 🔴 1 · 🟠 1 · 🟡 2 · 🟢 3. **Re-summed: 4+3+2+2+1+1+1 = 14 ✅.** ⚠️ `VX.tsv` row-state write-back for `VX-BND-01` owed at closeout.
 
 **Outside the composite:** `VX-BND-15` inflation anchoring (2) · `VX-BND-17` MBS relay (1) · `VX-BND-18` FHLB (2) · `VX-BND-19` EZ rates (3 — HANS: ECB T-04 no longer a hawkish lean; German 2027 debt service +38%; "disorderly" UNDEFINED → 10/1) · `VX-BND-20` benchmark UST demand (2, checkpoint 10/6).
 
@@ -117,7 +118,7 @@
 | **Thu 9/24 1:40 PM** | 🔴 **20Y–30Y buyback op (cap $6B) — first in-scope F2 read of the carrier** | `buyback_f2.py --op 2026-09-24` **only when results are COMPLETE** (new `complete()` guard) → packet to RED same day |
 | ✅ 9/22 · 9/23 · 9/24 | 2Y 🟢 · **5Y 🔴 OLD composition failure** · 7Y 🟠 `I'` by 0.04pp | Graded 9/24 (`KB-BND-312/313`) |
 | ✅ 9/18 (carried) | `BND-25` TRUE · `BND-26` FALSE | `KB-BND-315` |
-| **Fri 9/25** | 🔴 **H.15 9/23 cells** — DGS30 >5.37? | Row 1 upgrade letter (weak composition day) |
+| ✅ **9/23 official curve (Treasury) — DGS30 5.40 > 5.37** | Row 1 letter FIRED ⇒ 4 | **Fri 9/25:** confirm FRED republishes 5.40 (identity check, not a new grade) |
 | **Wed 9/30** | 🔴 **Quarter-end · Aug PCE + Q2 GDP 3rd (8:30) · `BND-27` window closes · TLT 77P expiry** | PCE vs the PMI input-price shock; SOFR−IORB across quarter-end; CCC vs 1100 |
 | **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2 — vintage fix first)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; `KB-BND-314` fix |
 | **Fri 10/2** | Sept Employment Situation (8:30) | 2Y / 1y1y reaction |
@@ -133,6 +134,6 @@
 
 ## BOTTOM LINE
 
-**[2026-09-24 Thu ~13:1x ET — boot after a six-day gap; markets open.]**
+**[2026-09-24 Thu ~13:3x ET — boot after a six-day gap; markets open.]**
 
-**The auction side just produced this desk's hardest test since the thesis was written.** The 9/23 5Y failed the strict two-part composition test: foreign-type buyers took their smallest 5Y share since March 2020 while dealers took the most in a year. That meets the pre-set condition for adding to the TLT puts. **Will declined the add at 13:17 ET (WQ-280); no trade.** The caveats that decide it: funding stayed calm (−3bp), dealers were not stuffed by any multi-year standard (they took more five times in 2023–24), and the print cleared on the day hot PMIs sold the whole curve off. **Threshold fired; mechanism not shown failed.** The rate path is also still repricing up: this desk's 9/14 view that the hawkish path was fully priced was **wrong** (`BND-26`). **Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30. Composite 13/35 (▲1). Counter 0. OPEN predictions 1.**
+**The auction side just produced this desk's hardest test since the thesis was written.** The 9/23 5Y failed the strict two-part composition test: foreign-type buyers took their smallest 5Y share since March 2020 while dealers took the most in a year. That meets the pre-set condition for adding to the TLT puts. **Will declined the add at 13:17 ET (WQ-280); no trade.** The caveats that decide it: funding stayed calm (−3bp), dealers were not stuffed by any multi-year standard (they took more five times in 2023–24), and the print cleared on the day hot PMIs sold the whole curve off. **Threshold fired; mechanism not shown failed.** **And the long end broke out the same day: official 30Y 5.40 (highest since 2004), 10Y 5.11 (since 2007), and the 10Y real yield 2.76 — highest since November 2008, +13bp in one session, real-led.** That fires the long-end vector's registered upgrade. The rate path is also still repricing up: this desk's 9/14 view that the hawkish path was fully priced was **wrong** (`BND-26`). **Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30. Composite 14/35 (▲2). Counter 0. OPEN predictions 1.**

@@ -26,7 +26,7 @@
 - project_phone_signal_architecture — Will wants reliable phone→fleet signal ingestion (Telegram drops)
 
 ## Tool gotchas — embed-pending → tool headers
-- finding_crlf_textmode_tsv_flip — two silent whole-file TSV rewrites; guard = git diff --stat *(n=3)*
+- finding_crlf_textmode_tsv_flip — two silent whole-file TSV rewrites; guard = git diff --stat vs an EXPECTED count written first *(n=4)*
 - finding_printf_format_tsv_append_corruption — shell printf corrupts a TSV/log row when the data contains [embedded→scripts/tsv_append.py — DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]
 - finding_market_data_venv_invocation — market-data scripts need repo .venv python; system python3 fails (embed-pending)
 - finding_subdir_launch_hooks_dont_fire — root .claude/settings.json hooks do NOT fire for subdir-launched sessions [embedded→PROME/BOOT.md step 0 — cited by slug; DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]

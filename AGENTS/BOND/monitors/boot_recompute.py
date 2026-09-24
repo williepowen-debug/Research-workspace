@@ -45,28 +45,29 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # H.15 publishes these together -- always refresh as a SET.
 H15_SET = ["DGS2", "DGS5", "DGS10", "DGS30", "DFII5", "DFII10", "T10YIE", "T5YIFR"]
-# DERIVED series and the inputs they are computed from (2026-09-24, KB-BND-320 / WALTER
-# SIG-W-20260917-011). FRED publishes T10YIE/T5YIFR cells BEFORE their own inputs exist -- a
-# PROVISIONAL cell that is EARLY, not stale, so every staleness check passes it and "use the
-# latest cell" affirmatively selects it. On 9/24 this tool printed T5YIFR 2.36 [9/23] (14bp from
-# the bar) while every input stopped at 9/22; the supported value was 2.34 (16bp). Grade a
-# derived series only on dates ALL its inputs share.
-DERIVED_INPUTS = {"T10YIE": ["DGS10", "DFII10"], "T5YIFR": ["DGS5", "DFII5", "DGS10", "DFII10"]}
+# DATE ALIGNMENT, NOT PROVISIONAL CELLS (2026-09-24, corrected the same afternoon).
+# T10YIE / T5YIFR are computed by FRED from the U.S. Treasury's own BC_/TC_ curve data
+# ("obtained directly from the U.S. Treasury Department" since 2019-06-21 -- FRED series notes,
+# read at the primary 9/24), NOT from the DGS/DFII cells, so they routinely publish a session
+# AHEAD of H.15. A first version of this block (built on WALTER SIG-W-20260917-011, whose
+# mechanism LIQUID retracted 9/22 and WALTER withdrew 9/24 in -004) DROPPED those cells as
+# "provisional" -- discarding real data and biasing the T5YIFR gate distance AWAY from its bar
+# (16bp printed vs a true 14bp). What survives: series publish on different schedules, so any
+# cross-series identity (T10YIE vs DGS10-DFII10) must be checked on SHARED dates only.
+ALIGN_PAIRS = {"T10YIE": ["DGS10", "DFII10"], "T5YIFR": ["DGS5", "DFII5", "DGS10", "DFII10"]}
 
 
-def trim_provisional(series: dict) -> list:
-    """Drop derived-series cells dated after their latest fully-published inputs. Returns notes."""
+def align_notes(series: dict) -> list:
+    """Name, never drop, a derived series dated ahead of the H.15 set. Returns notes."""
     notes = []
-    for sid, inputs in DERIVED_INPUTS.items():
-        if sid not in series or any(i not in series for i in inputs):
+    for sid, others in ALIGN_PAIRS.items():
+        if sid not in series or any(o not in series for o in others):
             continue
-        supported = min(series[i][-1][0] for i in inputs)
-        dropped = [o for o in series[sid] if o[0] > supported]
-        if dropped:
-            series[sid] = [o for o in series[sid] if o[0] <= supported]
-            notes.append(f"   ⚠️ {sid}: {len(dropped)} PROVISIONAL cell(s) dropped "
-                         f"({', '.join(f'{d}={v:.2f}' for d, v in dropped)}) -- inputs publish only "
-                         f"through {supported}; graded on {series[sid][-1][0]}={series[sid][-1][1]:.2f}")
+        h15 = min(series[o][-1][0] for o in others)
+        ahead = [o for o in series[sid] if o[0] > h15]
+        if ahead:
+            notes.append(f"   ℹ️ {sid}: {len(ahead)} cell(s) dated after the H.15 set ({h15}) -- Treasury-curve "
+                         f"schedule, a REAL value, not provisional; compare to DGS/DFII on shared dates only")
     return notes
 CREDIT = ["BAMLH0A0HYM2", "BAMLH0A3HYC", "BAMLC0A0CM"]
 GATES = {"DFII10": ("TLT add-gate", 2.50, "above"),
@@ -237,20 +238,20 @@ def drift_selftest() -> int:
         print(f"  {'PASS' if ok else 'FAIL'}  {label}")
         if not ok:
             print(f"        expected {expected!r}, got {got!r}")
-    # PROVISIONAL derived cells (2026-09-24, KB-BND-320): the real 9/24 shape.
+    # DATE ALIGNMENT (2026-09-24, KB-BND-320 corrected): a breakeven ahead of H.15 is KEPT and NAMED.
     s = {"DGS10": [("2026-09-22", 4.96)], "DFII10": [("2026-09-22", 2.63)],
          "DGS5": [("2026-09-22", 4.83)], "DFII5": [("2026-09-22", 2.51)],
          "T10YIE": [("2026-09-22", 2.33), ("2026-09-23", 2.35)],
          "T5YIFR": [("2026-09-22", 2.34), ("2026-09-23", 2.36)]}
-    notes = trim_provisional(s)
-    for label, ok in [("provisional T5YIFR 9/23 cell dropped -> graded 2.34 [9/22]", s["T5YIFR"][-1] == ("2026-09-22", 2.34)),
-                      ("provisional T10YIE 9/23 cell dropped -> graded 2.33 [9/22]", s["T10YIE"][-1] == ("2026-09-22", 2.33)),
-                      ("the drop is ANNOUNCED, never silent", len(notes) == 2),
-                      ("aligned inputs -> nothing dropped", trim_provisional(s) == [])]:
+    notes = align_notes(s)
+    for label, ok in [("a Treasury-schedule T5YIFR 9/23 cell is KEPT (never dropped as 'provisional')", s["T5YIFR"][-1] == ("2026-09-23", 2.36)),
+                      ("a Treasury-schedule T10YIE 9/23 cell is KEPT", s["T10YIE"][-1] == ("2026-09-23", 2.35)),
+                      ("the date gap is NAMED, never silent", len(notes) == 2),
+                      ("aligned dates -> no note", align_notes({k: v[:1] for k, v in s.items()}) == [])]:
         fails += 0 if ok else 1
         print(f"  {'PASS' if ok else 'FAIL'}  {label}")
     print(f"\n  {'ALL PASS' if not fails else str(fails) + ' FAILURE(S)'} — "
-          f"{len(DRIFT_FIXTURES)} drift fixtures + 4 provisional-cell fixtures")
+          f"{len(DRIFT_FIXTURES)} drift fixtures + 4 date-alignment fixtures")
     return 1 if fails else 0
 
 
@@ -362,9 +363,8 @@ def main() -> int:
         print("[boot_recompute] rc=2 — NOT a pass.", file=sys.stderr)
         return 2
 
-    prov = trim_provisional(series)
-    print("== LEVELS (latest published; derived series only on input-supported dates) ==")
-    for n in prov:
+    print("== LEVELS (latest published) ==")
+    for n in align_notes(series):
         print(n)
     for sid, obs in series.items():
         d, v = obs[-1]
