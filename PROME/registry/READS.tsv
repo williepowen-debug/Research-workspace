@@ -1,11 +1,11 @@
 # PROME/registry/READS.tsv — the DECLARED boot-read manifest: which desk reads which surface, and HOW.
 # Born 2026-08-31 ET (PROME, Will's word in-session 23:09 ET: "lets build READS").
-# ⚠️ IT DOES NOT REPLACE THE PERIMETER HEURISTIC YET, AND MUST NOT BE QUOTED AS IF IT DOES. This is the
-#   DECLARATION half only. `scripts/read_cap_check.py` still derives its perimeter by scanning charters and
-#   will keep doing so until DAEDALUS's R7-stage-2 teaches it to read this file (see PROVENANCE below).
+# ⚠️ STATUS 2026-09-23 (header corrected, CATO PF6): `scripts/read_cap_check.py` CONSUMES this file since 2026-09-12
+#   (`--require-manifest`; the prome_gate 'declared read budgets' check reports from it). This file is the DECLARATION
+#   half; a passing SIZE verdict never certifies COVERAGE — the ATTESTATION row's date must postdate every boot-defining change (see reads_check).
 #   TWO DIFFERENT TOOLS, never call either one "the checker":
 #     · `PROME/tools/reads_check.py`  — consumes THIS file today. Validates + measures what is DECLARED.
-#     · `scripts/read_cap_check.py`   — the fleet read-cap instrument. Does NOT read this file yet.
+#     · `scripts/read_cap_check.py`   — the fleet read-cap instrument; reads this file when `--require-manifest` is given (since 2026-09-12).
 #   ⇒ Ruling ④'s interim convention ("READ-CAP 0 within N discovered whole-read files; heuristic perimeter")
 #     REMAINS LIVE for every read_cap_check verdict. It retires only when read_cap_check consumes this file.
 # Canon for the byte budget stays AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md; this file never restates a constant.
@@ -115,6 +115,7 @@ READ	PROME	PROME/HEARTBEAT_COLD.md	grep	HEARTBEAT.md-Pointers	PROME	2026-09-02	H
 READ	PROME	PROME/DOCKET.tsv	summary	PROME:BOOT.md-5	PROME	2026-08-31	Consumed via prome_gate.py boot (overdue-unannotated check). Bounded verdict only; rows never enter context. The catalyst VIEW a session actually reads is SCRATCH's live-catalyst calendar.
 READ	PROME	PROME/WILL_QUEUE.md	summary	PROME:BOOT.md-5	PROME	2026-08-31	Consumed via prome_gate.py boot (due/passed/aging + actionable-cap check). Bounded verdict only.
 READ	PROME	PROME/WILL_QUEUE.md	scoped	PROME:BOOT.md-8	PROME	2026-08-31	SECOND row for the same path under ruling 1's own logic applied within one reader: step 8 requires flagging Will's due items, and a session scope-reads the OPEN table to do it. Two steps, two operations, two rows.
+READ	PROME	AGENTS/WALTER/LAST_COMPLETION.md	scoped	PROME:BOOT.md-3b	PROME	2026-09-23	BOOT step 3b Deck feed (WQ-206): PROME reads §WILL_NEEDS only and registers Will-actionable items as WQ rows. Cross-agent, WALTER-owned; scoped read of one section, not the whole memo. Row added 2026-09-23 (CATO PF6: a mandatory read with no declaration). ⚠️ The ATTESTATION row above is NOT re-dated by this addition — re-attestation follows the full boot-dependency review (DOCKET L358).
 READ	WALTER	AGENTS/WALTER/STATUS.md	whole	WALTER:1	WALTER	2026-09-08	Live operational state; whole read.
 READ	WALTER	AGENTS/WALTER/anchors/IRAN_WAR.md	whole	WALTER:1	WALTER	2026-09-08	Whole anchor; guards/history excluded from routine boot and consulted at dispatch.
 READ	WALTER	AGENTS/WALTER/MEMORY.md	whole	WALTER:2	WALTER	2026-09-08	Whole trigger index; promoted archive not a boot read.

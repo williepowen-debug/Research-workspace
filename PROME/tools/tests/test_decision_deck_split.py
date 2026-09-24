@@ -24,6 +24,8 @@ class DeckSplit(unittest.TestCase):
         self.addCleanup(patch.stopall)
         patch.multiple(D, ROOT=self.root, ARCH=[], **paths).start()
         D.Q.write_text('''## OPEN
+| # | Item | Type | Needed by | Open since | PROME rec | Notes |
+|---|---|---|---|---|---|---|
 | 1 | Ordinary source <unsafe> | RULE | 2026-09-16 | 9/15 | Recommend one | original note |
 | 2 | APPROVED hands | ACTION | 2026-09-17 | 9/15 | Complete hands | already answered |
 | 3 | Blocked request | RULE | | 9/15 | Wait | ⛔ waits: OTHER |

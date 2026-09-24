@@ -32,7 +32,7 @@
 
 ## Skip rules
 
-- **Operator card:** part of SCRATCH's rewrite; `TODAY.md` is retired.
+- **Operator card:** part of SCRATCH's targeted update (WQ-240 — never a mandated full rewrite); `TODAY.md` is retired.
 - **`AGENTS/<other>/` files:** owners own their state. Exceptions: root's four self-authorship carve-outs ①–④ (④ activation-gated; PROME-only Gate C custody is separate), plus Will-approved per-instance apply-on-behalf for named files, with authorization in the commit body. Follow root Git Protocol for the full scope, including mandatory self-authored packet and auto-memory commits.
 - **Root `CLAUDE.md` / shared files** — flag to Will; Will-approval gates the change.
 
