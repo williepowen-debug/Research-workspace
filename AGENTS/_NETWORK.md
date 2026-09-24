@@ -39,6 +39,7 @@ flowchart LR
     subgraph ENERGY[Energy / geopolitics / commodities / climate]
         HAWK[HAWK<br/>Geopol synthesis + dormant book]
         OSPREY[OSPREY<br/>Russia-Ukraine war theater]
+        YURI[YURI<br/>Russia state decisions (actor-keyed)]
         FALCON[FALCON<br/>Iran-Gulf war theater]
         BRENT[BRENT<br/>Oil / energy markets]
         MARCO[MARCO<br/>Migration / labor supply]
@@ -91,6 +92,11 @@ flowchart LR
     OSPREY -.->|acute 🔴 direct, HAWK cc| BRENT
     FALCON -.->|acute 🔴 direct, HAWK cc| BRENT
     HAWK -->|reconciled geopol oil-risk read| BRENT
+    %% YURI (built 9/24, WQ-267) — chain DECISION → OBJECT → TARGET → REACTION (YURI · OSPREY · OSPREY · HAWK)
+    YURI -->|decision instrument| OSPREY
+    YURI -->|decision + its NULL reaction| HAWK
+    YURI -.->|expropriation of listed EU parents| HANS
+    YURI -.->|export/energy coercion decree| BRENT
     HOMER -->|consumer-stress transmission| CARL
     HOMER -->|Path C bank collateral| REGINALD
     HOMER -->|wealth effect / HPI| HENRY

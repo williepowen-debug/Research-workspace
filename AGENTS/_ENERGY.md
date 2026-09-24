@@ -9,6 +9,7 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | OSPREY | [`OSPREY/`](./OSPREY/) | Russia-Ukraine war theater (←HAWK split 2026-07-12); acute 🔴 theater signals go direct to BRENT, HAWK cc'd. |
 | FALCON | [`FALCON/`](./FALCON/) | Iran-Gulf war theater (←HAWK split 2026-07-12); acute 🔴 theater signals go direct to BRENT, HAWK cc'd. |
 | HAWK | [`HAWK/`](./HAWK/) | Cross-war geopolitical synthesis + dormant book (reclassified 2026-07-12 — theater ownership moved to OSPREY/FALCON); reconciles theater reads for BRENT; Taiwan-chokepoint feed to VULCAN, PGM-supply feed to MIDAS. |
+| YURI | [`YURI/`](./YURI/) | Russian state action & intent, irrespective of target — decrees · seizures · mobilisation · export instruments. Feeder/intent desk: NEVER proposes trades. |
 | BRENT | [`BRENT/`](./BRENT/) | Oil and energy markets, storage, tankers, refinery damage, energy-credit transmission. |
 | WATT | [`WATT/`](./WATT/) | Power/grid: PJM stress → power price → cost transmission (DAEDALUS-built 2026-07-10/11). |
 | MIDAS | [`MIDAS/`](./MIDAS/) | Metals: monetary (gold/silver ↔ real rates, with BOND) + industrial (copper/PGM ↔ China, with ZHAO); safe-haven/growth tells to LIQUID/HENRY (DAEDALUS-built 2026-07-10/11). |

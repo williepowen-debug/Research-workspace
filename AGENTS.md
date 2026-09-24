@@ -32,7 +32,7 @@ Do not recreate roster membership or responsibility classes here; when another s
 |---|---|
 | Credit | LABOR → CARL → REGINALD → repricing; CREED supplies national CRE/CMBS, CORAL geographic convergence, HENRY velocity, LIQUID amplification. Single-name bank depth: OZK, WAL, FLG → REGINALD; FLG also → {LIQUID, TERRY} |
 | Private credit | BROCK → SHADE (insurance wrapper) → LIQUID / REGINALD |
-| Energy shock / war | {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
+| Energy shock / war | YURI (Russian state decision) → {OSPREY, HAWK} → {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
 | Japan / carry | SAM → {LIQUID, HENRY} — independent trigger via carry unwind |
 | Credit → volatility | {BOND, BROCK, REGINALD} → VIOLET → {HENRY, LIQUID, RED} — VIOLET watches the lag: credit spreads widen and VIX hasn't caught up |
 | Climate and power | AEOLUS → {BRENT, CORAL, MARCO}; AEOLUS → WATT → {HENRY, CARL}; BRENT (gas → power) → WATT |

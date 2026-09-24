@@ -63,6 +63,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | WATT | [`WATT/`](./WATT/) | Energy / Commodities (power/grid: PJM stress → price → cost) |
 | RAV | [`RAV/`](./RAV/) | Meta — deep factual/analytical reviewer + bounded repair (Codex, Will-driven) |
 | YEYOU | [`YEYOU/`](./YEYOU/) | Meta — repo-wide reviewer (manual/branch) |
+| YURI | [`YURI/`](./YURI/) | Energy / Geopolitics (Russia — ACTOR-KEYED state decisions; feeds OSPREY/HAWK/HANS/BRENT; ←built 9/24, WQ-267) |
 | ZHAO | [`ZHAO/`](./ZHAO/) | Funding / Macro (China — UST demand / capital flows / Korea; reactivated 2026-07-05) |
 
 *PROME runs from root [`../PROME/`](../PROME/); the historical `AGENTS/PROME/` tree is archived under [`../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/`](../PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/).*
