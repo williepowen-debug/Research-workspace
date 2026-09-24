@@ -9,7 +9,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 ## CHANGED
 
-**BOARD 1017 → 1025:** `SIG-W-20260924-001` … `-008` · `BOARD/INDEX.md` regenerated · `route_log` **+8** · `delivery_log` **+28** · **28 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+12** (1 YES) · `CORRECTIONS.tsv` **+COR-20260924-04 (names RED)** · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead stamp + two phrasings replaced (originals VERBATIM in HISTORY § "Rotated 2026-09-24") · `REGISTRY.tsv` 12 rows · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27.
+**BOARD 1017 → 1025:** `SIG-W-20260924-001` … `-008` · `BOARD/INDEX.md` regenerated · `route_log` **+8** · `delivery_log` **+28** · **28 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+12** (1 YES) · `CORRECTIONS.tsv` **+COR-20260924-04 (names RED)** · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead stamp + two phrasings replaced (originals VERBATIM in HISTORY § "Rotated 2026-09-24") · `REGISTRY.tsv` 12 rows · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
 
 ## RESULT
 
@@ -44,8 +44,9 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 3. **Grade the #8 dispatch's outcome:** BRENT spawns 9/25 AM (PROME receipt), grades BG-02 at 17:00 ET, and settles #8 on a settlement source. **Check at next boot: did BRENT confirm or un-fire December?**
 4. **HAWK's four v0.47 verdict-table flags (F1–F4)** are WALTER's to fix in CHECKLIST: per-primary vs per-claim exclusivity · no rule for conflicting primaries · INDETERMINATE row vs note = two live instructions · covered vs uncovered absence share a label. **A spec change under RULE 8.** F3 is an inline clarification; F1/F2 are structural and go to Will as a proposal.
 5. **FLG rent-freeze watch — manual search at each WALTER boot through 10/07** (Kenilworth v. RGB, Index 85199/2026; PRIORITY → FLG, info REGINALD/HOMER). The PROME encode is carried on PROME SCRATCH.
-6. **Reconcile today's 28 rows after the push** (done this session if the receipt below shows it).
+6. ✅ **Today's 28 rows reconciled `delivered`** (receipt). The final bookkeeping commit rides the next push.
 7. **Carried, re-checked:** BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` and CARL `-0911-008` closure proofs unchecked · four event ledgers undeclared EVENT-DRIVEN · **`fetch.py` identity: `BZ*.NYM` and `TTF=F` still resolve `contract: UNKNOWN` (re-observed 9/24).** · Multifamily ~6.85% vs 7.12% (HOMER, via `-015`, **still unconsumed**) · Reuters 9/13 vs MoE 9/11 Petroline shutdown date (unresolved; the anchor keeps 9/11).
+7b. **DEWEY correction candidate (CARL-DR-5):** the *"unit volume outweighs price ⇒ nominal grocery sales FALLING"* sub-claim riding `SIG-W-20260813-019` is **SEARCH-NOT-FOUND in the Bain release** per DEWEY, and is contradicted by Census/BEA nominal series. **WALTER has NOT re-verified it.** Open the Bain release, then decide on a correction signal (recipients of `-0813-019`). DEWEY suggests LABOR as an info route for DR-5. **CARL-DR-1 stays PARTIAL, 2 of 6 legs; the 9/18 deadline has passed; run or drop is CARL/PROME's.**
 8. **The 9/20 RESEARCH-INTAKE breach (13 NEW_WATCH) deferred on 9/21 LAPSED unrouted** — the lane's later run superseded it and `--mark` reconciled the baseline. **Recorded as a lapse, not a routing.**
 9. **Watch:** **9/25** BG-02 17:00 ET · Baker Hughes (BRT-26) · **9/26** FSB Narva · **9/22–29** UNGA · **9/30** Russia diesel ban expiry (HEN-46 F3) · Brent Nov expiry ~9/30–10/01 · Iraq pullout · the standing size-check block · **10/01** NYC rent freeze effective.
 
@@ -56,23 +57,30 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**Dated evidence snapshot, computed from a real clock read after push — see the JSON block. Not a live publication promise.**
+**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **This session's final bookkeeping commit (DEWEY ledger row, handoff move, this receipt) is NOT in the list above; it rides the next push.**
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "PENDING",
-  "publication": [],
+  "as_of": "2026-09-24T17:23:54+00:00",
+  "publication": [
+    {"commit": "dacacc61e", "state": "published"},
+    {"commit": "b9165f734", "state": "published"},
+    {"commit": "958ff2e3b", "state": "published"}
+  ],
   "delivery": {
     "signal_date": "20260924",
     "total": 28,
-    "delivered": 0
+    "delivered": 28
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
-    "evidence": []
+    "evidence": [
+      {"path": "AGENTS/HAWK/research/2026-09-22_covert-claim-rule-revision.md", "sha256": "1e4eefb6f0a28846087e197e9096da50205d1814873ef164e0b6fe7d3eaee0f5", "note": "HAWK's live replacement for its 9/21 class-rule (KB-HAWK-407), which closes the consumer half of CATO W1. WALTER read HAWK's packet summary of it, NOT this file whole."},
+      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "a9ed9b4e650e9bf44b7dd09a9b24daf4462f4422139c4df64bcf9fd0ee002c65", "note": "CARL-DR-5 report; ledger row closed RESOLVED on DEWEY's handoff. WALTER did NOT read the report whole or re-verify its correction candidate on SIG-W-20260813-019."}
+    ]
   },
   "next_review": "2026-09-25"
 }
