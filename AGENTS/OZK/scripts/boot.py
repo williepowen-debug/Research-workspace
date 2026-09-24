@@ -33,11 +33,15 @@ CATALYSTS = [
     ("2026-07-21", False, "🔴", "OZK Q2 2026 earnings (after close; call Jul 22 8:30am ET)"),
     ("2026-07-31", True,  "🟠", "Campus at Horton post-foreclosure leasing update (late Jul)"),
     ("2026-08-31", True,  "🔴", "IQHQ RaDD loan MATURITY (Aug 2026 — exact date undisclosed)"),
-    ("2026-10-01", False, "🔴", "$350M sub notes reprice (2.75% → SOFR+209; Tier 2 -20%)"),
+    ("2026-09-30", True,  "🟠", "Q3 earnings-DATE announcement expected (Q2's came 6/30) — set the Q3 row below"),
+    ("2026-10-01", False, "🔴", "$350M sub notes reprice (2.75% → 3M term SOFR+209; Tier 2 -20%)"),
+    ("2026-10-02", False, "🔴", "THE 10/1 READ: run flng_watch.py — rc0 = SCHEDULED-UNCONTRADICTED, never 'confirmed' (DOCKET L463)"),
+    ("2026-10-06", False, "🟡", "Bluerock BPRE roadmap webinar — IQHQ mark/exit talk (context, not a grade)"),
     ("2026-10-21", True,  "🔴", "Q3 2026 earnings + call — mgmt's self-set \"~92 day\" RaDD report-back"),
     ("2026-10-31", True,  "🟡", "Affinius Capital $2.7B bond maturity (OZK exposure UNVERIFIED)"),
     ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
     ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
+    ("2027-01-19", True,  "🔴", "Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)"),
 ]
 # Sync note (2026-08-23): the two 2026-10/11 rows and the JWT row were absent here while present in
 # CALENDAR.md — this list is hand-synced, so it silently lags. The Jul-21 earnings + Jul-31 Horton

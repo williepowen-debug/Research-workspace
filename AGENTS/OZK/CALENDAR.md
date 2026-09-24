@@ -1,70 +1,56 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-09-24 (**catch-up sweep** — +2 forward rows: ~9/30 Q3-date announcement, 10/6 Bluerock BPRE webinar; Fed hiked 9/16 → Oct-1 floater re-price owed. → `research/threads/2026-09-24_CATCHUP_SWEEP.md`.) Prior 2026-08-31 (**IQHQ window CLOSED — disclosure sweep RUN on the last business day: SWEPT AND EMPTY** (FDIC-FLNG full list: zero Aug filings except the 8/5 Q2'26 10-Q, itself keyword-clean on IQHQ/RaDD; press ×3 empty; SD-recorder leg UNKNOWN). Owed check ① discharged; **② Horton leasing remains 🔴 OWED and UNRUN.** Evidence → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md`.) Prior 2026-08-28 (**integrity sweep** — Aug row's stale EL token fixed; IQHQ window down to its LAST business day, Mon 8/31. → `SWEEP_2026-08-28.md`.) Prior 2026-08-23 (**8/21 OPEX RESOLVED — the desk's last two option legs expired worthless; a row for the expiry is ADDED, because this file never carried one.** That absence is the finding: OZK's only hard *position* date of the quarter was tracked in `POSITIONS.md`/FORGE and on PROME's DOCKET, but not on this desk's own forward calendar — the same class REGINALD's LESSONS carries two instances of. Also: Late-Jul Horton check flagged UNCHECKED-not-resolved.) Prior 2026-08-07 (Q2 Call Report window RESOLVED — pre-registered LOG-ONLY pull executed, zero grade moves; Aug IQHQ row OZK-09 figure corrected 52%→45% to match the 7/23 Will-approved re-mark, which this file had lagged for 15 days). Prior 2026-07-22 (Q2 print+call RESOLVED, both stages graded; Q3 call added as the mgmt-self-set "92-day" RaDD report-back) | **View:** Forward-looking + recently-resolved. Past events pruned weekly.
+**Last Updated:** 2026-09-24 (full rebuild: forward-only; resolved rows pruned row-by-row against the live queue — 2 kept as live-thread provenance; owed undated checks split out; Q4'26 print + insider window + JWT expiry added; OZK-02/03/04 resolve date corrected from "Feb 27 2027" [a Saturday] to the Q4'26 print ~mid/late Jan 2027). Older header history → `git log -p -- AGENTS/OZK/CALENDAR.md`. | **View:** forward dates + what to check + threshold. Pure table; narrative lives in the owner docs.
+
+*For multi-bank events (cohort earnings, Call Reports, AOCI, FL reinsurance) → `../REGINALD/CALENDAR.md`. Dated rows that PROME tracks: DOCKET L126 (sub-notes reprice), L463 (10/2 read).*
 
 ---
 
-## RESOLVED (Apr–Jul 2026) — ⚠️ **PRUNE OWED, deliberately NOT executed 2026-08-28**
+## SEPTEMBER – OCTOBER 2026
 
-> The file's own rule is *"RESOLVED events older than ~2 weeks get removed at next update"* and this block is **7-19 weeks old** — overdue, and it has said *"pruning scheduled"* since the July revival, which is a scheduling claim nobody was ever going to discharge.
-> **Not pruned today, and the reason is a rule that outranks the pruning rule:** root Data-Hygiene's **pending-event carve-out** — a row that is the registered artifact of a **pending dated event** is not retirement-eligible however old. Several rows here are load-bearing for **live** items (the May Bluerock-NAV and Aimco-MTD checks were **RE-OPENED today**; the May-12 WAL Investor Day row is the source of an Open-Item just corrected by WAL). Pruning them at a closeout, to satisfy a tidiness rule, would delete the provenance of three currently-open threads.
-> **Owed as its own task, not a closeout side-effect:** prune row-by-row against the open queue, keeping any row a live doc travels. Logged `TODO.md`.
+| Date | Event | What to Check | Threshold / Signal |
+|------|-------|---------------|-------------------|
+| **~Sep 30** | Q3 earnings-date announcement (Q2's came 6/30) | GlobeNewswire "Bank OZK" · `scripts/flng_watch.py` | Set the Q3 row below + boot.py `~2026-10-21` to the real date. Not announced as of 9/24; aggregators guess ~10/15 (estimate only) |
+| **Oct 1** | **$350M sub notes reprice** (DOCKET L126) — 2.75% fixed → **3M term SOFR + 209bp**, quarterly (Jan/Apr/Jul/Oct 1) [issuer pricing release, GlobeNewswire 2021-09-09] | Pre-reprice refi/redemption notice. Watch = `scripts/flng_watch.py` (FDIC FLNG cert 110 — the only feed that sees an OZK 8-K; baseline FLNG 11981; in every boot.py; PROME runs it at its boots to 10/1). Mgmt: "no plans to redeem or replace." | Drag **≈+$11.2M/yr (≈$0.08 EPS)** at SOFR 3.87% [FRED 9/22; daily SOFR as proxy for 3M term] — was +$12.8M at the older SOFR. Tier 2 −20% for 12mo. Call/notice terms: indenture unread. |
+| **Fri Oct 2 AM** | **THE 10/1 READ** (DOCKET L463) | `.venv/bin/python3 AGENTS/OZK/scripts/flng_watch.py` | **rc 0** = no newer filing returned by a schema+coverage-checked response ⇒ reprice **SCHEDULED-UNCONTRADICTED** (never "confirmed"; record rc, row count, date) · **rc 1** = read the filing — a redemption/refi is 🟠 → REGINALD, and the drag / Tier-2 legs are void · **rc 2** = UNKNOWN, re-run, never read as quiet |
+| **~early Oct** | Pre-Q3 insider blackout begins (~14 days before the print) | FDIC EFR cert 110 (`/api/instdiscl/cert/110`) | Any open-market **buy** = notable (zero since 7/6). Sales before the blackout continue the pattern (CFO + 1 officer sold 8/12-13) |
+| **Oct 6** | Bluerock BPRE (ex-TI+) semi-annual roadmap webinar | IQHQ mark / disposition talk (BPRE = IQHQ's largest holder, first-loss equity) | IQHQ markdown or exit language = sponsor-stress context for RaDD — **not a grade**. IQHQ gave Spur Ph I back to Apollo 9/17 [SINGLE-SOURCE] |
+| **~mid/late Oct** | **★ Q3 earnings + call — mgmt's "~92-day" RaDD report-back** (Hamblen 7/22) | RaDD extension terms (executed? curtailment? new equity? mezz?) · **SpecMention $616M reversal rate** (Gleason's churn claim) · NCO vs "back under industry" FY guide · provision "drift down" · $330M pending-sale credit · Boston Life Sci $169M (sale or take title) · debt-on-debt composition | Extension WITH curtailment/paydown = A-solid · extension w/o cure + reserve = B · SpecMention stays or migrates INTO classified = adverse-selection hardens · any IQHQ specific reserve = 🔴 → REGINALD/BROCK/PROME |
+| **Oct 2026** | Affinius Capital $2.7B bond maturity | Refi ability / NDFI stress. Corporate exposure unverified; asset-level co-lending confirmed (OZK holds $95M of the Affinius-originated 777 Industrial note; SqMile junior under OZK's Southline senior) [KB-203] | Failure to refi = discrete catalyst via the co-lending/takeout channel |
 
+## NOVEMBER 2026
 
-| Date | Event | Outcome |
-|------|-------|---------|
-| **Apr 21-22 ✅** | OZK Q1: EPS $1.44 MISS | Past-due doubled; classified+criticized +23%; 3 new substandard, 2 new foreclosed. OZK pulling back from Fund Finance. `Q1_2026_ANALYSIS.md`. |
-| **~May 1-10 ✅** | Q1 Call Report (FFIEC, REPDTE 20260331) | **Verified:** past-due **$487.5M/1.48%** · NCO **0.56%** · NPA **$446.1M** (nonaccrual $296.6M + OREO $149.6M). Adopted into STATUS. RESG segment concentration NOT a Call-Report line → "88%" still needs OZK primary. |
-| **May 8 ✅** | Thread 3 roll deadline | Passed unlogged. May $42.5P×2 outcome unknown — position book stale (Will: minimal current OZK exposure). Not managing. |
-| **May 12 ✅** | WAL Investor Day (NYC) | **Disconfirming:** no IQHQ / life-sci CRE disclosure. WAL not an IQHQ lender. Closes TODO #3. [tipranks/WAL deck] |
-| **May 15 ✅** | $42.5P + $47.5P May expiry | Passed; both May lines expired. |
-| **May–Jun ✅** | Bluerock Q1 NAV marks (IQHQ) | **No fresh Q1'26 markdown found** — all documented IQHQ marks are H2-2025 vintage (Bluerock >$700M exposure, −4.4% to $6.28; Highland −23% to $7.72; T.Rowe $4.92; Altegris $2.26). Framing flag: sources describe fund equity/interest, not "PIK debt." |
-| **Early Jun ✅** | Aimco v. IQHQ MTD response | **No public ruling found.** MTD filing / ~early-Jun deadline / Chancery opinion all UNVERIFIED — needs direct docket pull (courts.delaware.gov). |
-| **Jun 18 ✅** | AOCI capital rewrite comment close | REGINALD scope — comment period closed. Cat III/IV overhang intact. |
-| **Jun 29 ✅** | $200M buyback authorized | Capital-return / de-risking posture into Q2. |
-| **Jun 30 ✅** | Q2 earnings date announced | → Jul 21 (below). |
-| **Jul 1 ✅** | Dividend hike +2.1% → $0.48 (64th straight) | Confidence signal into Q2. |
+| Date | Event | What to Check | Threshold / Signal |
+|------|-------|---------------|-------------------|
+| **~Nov 1-10** | **Q3 2026 Call Report** (REPDTE 20260930, RSSD 107244) | Re-run `workbook/CALL_REPORT_SERIES.tsv`: **`RIAD5409`** (does debt-on-debt charge-off continue?) · `RCON2746` vs the Q3 10-Q debt-on-debt figure · Memo-10 PV05-09 · past-due basis fork · 30-89 → nonaccrual/OREO transit | **LOG-ONLY — never re-grades.** |
+| **Nov 5** | ⏰ **FFIEC CDR JWT expires** | Renewal = **Will action** (PWS login) | Blocks the Q3 Call Report pull if not renewed — check before ~Nov 1 |
+| **~early Nov** | Q3'26 10-Q (FDIC-filed) | p.37 debt-on-debt balance · nonaccrual / collateral-dependent marking · subsequent events (RaDD) | Feeds OZK-09's negative-branch sweep leg (3) |
+
+## Q4 2026 PRINT (~mid/late Jan 2027)
+
+| Date | Event | What to Check | Threshold / Signal |
+|------|-------|---------------|-------------------|
+| **~Jan 16-20, 2027** *(OZK's Q4 prints landed Jan 16-20 in 2023-26)* | **Q4'26 earnings — resolves OZK-02 / 03 / 04, and closes OZK-09's Option-2 window** | OZK-09: cumulative RaDD recognition **≥$140M** through this print absent an executed extension; negative branch resolves only after the 3-leg sweep named in `PREDICTIONS.tsv` (any UNKNOWN leg = STUCK) | ⚠️ **`$140M` here is OZK-09's live threshold — a different role from the dead "$140M EL" (EL is ~$129M since 7/23). Never global-replace it.** Weights A30/B45/C8/D17; OZK-09 **45%** |
 
 ---
 
-## JULY
+## OWED CHECKS (undated — overdue or trigger-based)
 
-| Date | Event | What to Check | Threshold / Signal |
-|------|-------|---------------|-------------------|
-| **★ Jul 21-22 ✅** | **OZK Q2 2026 earnings + call — FULLY GRADED** (Stage-1 7/21 off FDIC FLNG 11969; Stage-2 7/22 off cross-checked call transcripts) | **Outcomes:** OZK-05 TRUE (NCO 0.69%>kill) · OZK-06 FALSE ($298M/0.92%) · OZK-07★ TRUE (adverse selection, conviction HELD 🔴🔴) · OZK-01 FALSE · **OZK-08 FALSE (no RaDD reserve)**. Mean Brier **0.1987** (5 resolved). Call: RaDD **extension+recap in negotiation** (sponsor+mezz lender), "remain pass-rated," interest-reserve funded, "~92d" → Q3 disclosure. SpecMention +$219M = churn claim, unattributed. → `workbook/Q2_2026_SCORING_CARD.md` | Extension language w/o cure = Scenario A signature — CONFIRMED live. BROCK 3/3 flips not fired. |
-| **Late Jul** ⚠️ **UNCHECKED** | Campus at Horton post-foreclosure leasing update | Downtown-SD lab comp — AllianceBernstein leased any of 770K SF since Sep-2025 credit bid? | Leasing → RaDD severity lower. Still empty → 65-70% severity holds. ⚠️ ***[2026-08-23: the window passed ~4 weeks ago and this desk was DARK for it — NOT resolved, and NOT to be read as "still empty." An unrun check is no evidence in either direction, so the 65-70% severity band is neither confirmed nor moved. Carried forward as an owed verification.]*** |
-
-## AUGUST
-
-| Date | Event | What to Check | Threshold / Signal |
-|------|-------|---------------|-------------------|
-| **★ Aug 21 ✅ RESOLVED 8/21** | **OPEX — the desk's last two option legs.** `$45P ×4` + `$42.5P ×1`, both Aug-21-2026. Standing authority: **Will RULED RIDE 2026-08-04** (`PROME/WILL_QUEUE.md` row 29; `PROME/DOCKET.tsv` 8/21 row) | **OUTCOME: both EXPIRED WORTHLESS.** OZK closed **$49.42** Fri 8/21 [own pull 8/23] ⇒ $45 strike **8.94% OTM**, $42.5 strike **14.02% OTM**. Realized **−$1,686.37 / −100.0%** on $1,686.37 cost. **OZK now holds ZERO options.** | ⚖️ Ruled outcome == realized outcome (RIDE → $0); loss pre-accepted by the ruling. ⛔ **D1/OZK-salvage RULED-CLOSED** — no re-present, no successor. ⚠️ $0 settle is tape-inferred, **not broker-confirmed** — absence from the next FORGE export rides the standing export ask. → `POSITIONS.md` |
-| **~Aug 1-10 ✅ RESOLVED 8/7** | Q2 Call Report (FFIEC, REPDTE 20260630) — **PULLED**, 18-qtr series, RSSD 107244 verified at primary | **Scope honored exactly — zero grade/threshold/probability moves.** ① Basis fork **stable +7bps** both quarters (CR $323.7M/0.99% vs suppl. $298M/0.92%; Q1 CR $487.5M/1.48% reproduced EXACT) ② CRE-specific NCO H1-26 **0.50% ann.** (Q2 0.78%) — OZK-01 archive note discharged ③ 🔴 **MI3 37.6% baseline does NOT reproduce at 18 qtrs; live 9.35%** ④ 🔴 `RIAD5409` **$42.4M debt-on-debt charge-offs, first nonzero in 18 qtrs** ⑤ ⚖️ kill-§1 **ADJUDICATED** | → `CALL_REPORT_2026Q2_LOG.md` · `workbook/CALL_REPORT_SERIES.tsv`. 5 proposals P-OZK-1..5 Will/PROME-gated, **not applied**. |
-| **Aug 2026 ✅ WINDOW CLOSED 8/31 — SWEPT AND EMPTY** | **IQHQ RaDD loan MATURITY** (maturity re-confirmed from Q1 transcript 7/4; 7/22 call: extension+recap IN NEGOTIATION, "~92d" → Q3-call disclosure). **Close-day sweep 8/31 ~14:45-15:00 ET found NO disclosure event:** FDIC-FLNG cert-110 full list = zero Aug filings except the **8/5 Q2'26 10-Q** (pulled → `raw/Q2_2026_10Q.pdf`; keyword-clean on IQHQ/RaDD/life-sci/subsequent-event — **S4 full read still owed**); press ×3 passes empty (all extension talk = 7/22 call vintage); SD-recorder assignments UNCHECKED/UNKNOWN. **Quiet close = the v1.5 pre-registered path; resolves/moves NOTHING under the frozen Option-2 ruling.** Carrying instrument → **Q3 call ~Oct**. → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md` | Weighted EL **~$129M (~21% of ACL)** *(this cell said "$140M (22%)" until the 2026-08-28 sweep — the pre-7/23 EL. ⚠️ **The `$140M+` in "P($140M+ recognition)" below is a DIFFERENT, LIVE figure — OZK-09's pre-registered threshold. Same number, two roles; never global-replace it.**)*. B fires = specific reserve $140-195M. D = $275-360M loss. **P($140M+ recognition) = 45% [OZK-09, re-marked 52%→45% on 7/23, Will-approved; 68%→52% on 7/18 was the prior step].** Weights **A30/B45/C8/D17** (re-weighted 7/23). **Option-2 event-anchored recognition window FROZEN 7/23** — recognition counts through the Q4'26 print if no executed extension; an executed A/C takeout with <$140M resolves FALSE immediately. *(This row read "52% / A20/B50/C12/D18" until 8/7 — a stale mirror of the canonical `PREDICTIONS.tsv` OZK-09 row, not a second decision. Nothing was re-marked on 8/7.)* |
-
-## SEPTEMBER
-
-| Date | Event | What to Check | Threshold / Signal |
-|------|-------|---------------|-------------------|
-| **~Sep 30** | Q3 earnings-date announcement (Q2's came 6/30) | GlobeNewswire / FDIC FLNG | Not found as of 9/24; aggregators guess ~10/15 (estimate only) |
-
-## OCTOBER
-
-| Date | Event | What to Check | Threshold / Signal |
-|------|-------|---------------|-------------------|
-| **Oct 1, 2026** | **$350M sub notes reprice** (DOCKET L126) | 2.75% fixed → SOFR+209bps. Mgmt "no plans to redeem or replace"; not discussed on the 7/22 call. **Re-priced 2026-09-24 on live SOFR 3.87% [FRED SOFR 9/22] → ~5.96% coupon ⇒ ≈+$11.2M/yr (≈$0.08 EPS)** — supersedes +$12.8M/~6.4% (which implied SOFR ≈4.3%). Benchmark = **"expected to be three-month term SOFR"** + 209bp, paid quarterly (Jan/Apr/Jul/Oct 1) [issuer pricing release, GlobeNewswire 2021-09-09, read 2026-09-24] — the +$11.2M uses daily SOFR as a proxy for 3M term SOFR, so still ≈; call/notice terms not in the release (indenture unread); the Fed's 9/16 hike to 3.75–4.00% is already in the 9/22 print. **PRE-REPRICE WATCH (armed 9/24):** instrument = `scripts/flng_watch.py` (FDIC FLNG cert 110 — the only feed that sees an OZK 8-K; no fleet feed watches it; baseline FLNG 11981) + GlobeNewswire "Bank OZK" search. Runs inside every `boot.py`. **Reader through 10/1: PROME asked to run the one-liner at each boot (packet 9/24) — OZK has no scheduled session.** | **THE 10/1 READ (run Fri 10/2 AM, after the 10/1 filing day):** `flng_watch.py` rc → rc 0 = no newer filing RETURNED by a schema+coverage-checked response ⇒ reprice **SCHEDULED-UNCONTRADICTED** (never "CONFIRMED" — record the rc, the row count and the date; hardened 9/24 per CATO RB3, `--selftest` 10/10) · rc 1 = read the filing: redemption/refi = 🟠 REGINALD (cross-agent table), and the +$11.2M drag / Tier-2 −20% legs are void · rc 2 = UNKNOWN, re-run, never read as quiet. Tier 2 −20% for 12mo applies on reprice either way unless redeemed. |
-| **Oct 6, 2026** | Bluerock BPRE (ex-TI+) semi-annual roadmap webinar | Any IQHQ mark / disposition talk (BPRE = IQHQ's largest holder, first-loss equity) | IQHQ markdown or exit language = sponsor-stress read for RaDD (context, not a grade). IQHQ gave Spur Ph I back to Apollo 9/17 [SINGLE-SOURCE] |
-| **~Oct 2026** | **★ Q3 earnings + call — mgmt's self-set "92-day" RaDD report-back** (Hamblen 7/22) | RaDD extension terms (executed? curtailment? new equity? mezz treatment?); **SpecMention $616M reversal-rate test** (Gleason's churn claim); NCO vs "back under industry" FY guide; provision "drift down" test; $330M pending-sale credit resolution | Extension WITH curtailment/paydown = A-solid; extension w/o cure + reserve = B; SpecMention sits/migrates INTO classified = adverse-selection hardens. |
-| **Oct 2026** | Affinius Capital $2.7B bond maturity ⚠️ | Refi ability, NDFI stress. Corporate exposure unverified, but **asset-level co-lending CONFIRMED 7/6** (777 Industrial: OZK holds $95M of Affinius/SqMile-originated note, as-market underwater; SqMile ~$100M junior under OZK's Southline senior) [KB-203]. | Failure to refi = discrete OZK catalyst via the co-lending/takeout channel. |
-
-## NOVEMBER
-
-| Date | Event | What to Check | Threshold / Signal |
-|------|-------|---------------|-------------------|
-| **~Nov 1-10** | **Q3 2026 Call Report (FFIEC, REPDTE 20260930)** — recipe now proven, RSSD **107244** | Re-run `workbook/CALL_REPORT_SERIES.tsv`: **`RIAD5409`** (does the debt-on-debt charge-off run continue, or was H1 a one-off?) · `RCON2746` balance · MI3 both bases · past-due basis fork (does +7bps hold a 3rd quarter?) · 30-89 → nonaccrual/OREO transit | **LOG-ONLY again — Z6 never re-grades off this source.** ⚠️ **FFIEC JWT expires 2026-11-05** — renewal is a Will action (PWS login); check before the pull. |
+| Check | Status | Why it matters |
+|---|---|---|
+| **Campus at Horton post-foreclosure leasing** (downtown SD, 770K SF; lender AllianceBernstein; window was late Jul) | 🔴 **OWED — UNRUN.** 9/24 window search found nothing, which does **not** discharge it | Leasing → RaDD severity lower; still empty → the 65-70% severity band holds. An unrun check moves nothing |
+| **SD County Recorder — RaDD assignments / notices** | ⚪ UNKNOWN since the 8/31 sweep | The one leg of the Aug-window sweep never run |
+| **Aimco v. IQHQ** (Del. Chancery, $50M) — motion-to-dismiss ruling | 🟡 No ruling found (as of 9/24 search); needs a direct docket pull (courts.delaware.gov) | Sponsor-pressure context |
 
 ---
 
-*For multi-bank cross-agent events (earnings cohort, BOJ, options expiries, Call Reports, AOCI, FL reinsurance), read `../REGINALD/CALENDAR.md`.*
+## RESOLVED — kept only as provenance for live threads
 
-*Pruning rule: RESOLVED events older than ~2 weeks get removed at next update.*
+*Everything else resolved Apr–Sep was pruned 2026-09-24 (row-by-row against `STATUS.md` Open Items + `TODO.md`); outcomes live in STATUS, the scoring card, POSITIONS, the sweep threads, and git history.*
+
+| Date | Event | Outcome | Live thread it feeds |
+|------|-------|---------|---------|
+| **May–Jun ✅** | Bluerock Q1'26 NAV marks (IQHQ) | No fresh Q1'26 markdown found — documented IQHQ marks are H2-2025 vintage (Bluerock >$700M exposure, −4.4% to $6.28; Highland −23% to $7.72; T.Rowe $4.92; Altegris $2.26) | Oct 6 BPRE webinar; STATUS Open Item 4 |
+| **Aug 31 ✅** | IQHQ RaDD Aug-2026 maturity window | **SWEPT AND EMPTY** — FDIC FLNG zero Aug filings but the 8/5 10-Q (keyword-clean); press ×3 empty; recorder leg UNKNOWN. Quiet close = v1.5's pre-registered path; resolves nothing under the Option-2 ruling → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md` | Q3 call report-back; OZK-09 |
+
+*Pruning rule: resolved rows are removed at the next update unless a live thread travels them (then they sit here with the thread named).*
