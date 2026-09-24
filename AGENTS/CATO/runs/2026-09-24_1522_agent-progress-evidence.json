@@ -1,0 +1,521 @@
+{
+  "recorded_at_utc": "2026-09-24T19:25:07.180697+00:00",
+  "initial_review_head": "f099f3ed6ff84c2f3247c1b7787829aae8320644",
+  "sources": {
+    "buybacks_operations": {
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/buybacks_operations?filter=operation_date:eq:2026-09-24&page[size]=1000",
+      "sha256": "bdae279ad78a8a2c02f36bae01ee18f5eb90beb281ab816b09537885f7b17a46",
+      "payload": {
+        "data": [
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "operation_close_time_est": "02:00 PM",
+            "settlement_date": "2026-09-25",
+            "preliminary_ann_pdf": "BBPA_20260924174000.pdf",
+            "preliminary_ann_xml": "BBPA_20260924174000.xml",
+            "final_ann_pdf": "BBA_20260924174000.pdf",
+            "final_ann_xml": "BBA_20260924174000.xml",
+            "results_pdf": "BBR_20260924174000.pdf",
+            "results_xml": "BBR_20260924174000.xml",
+            "special_ann_pdf": "null",
+            "operation_type": "Liquidity Support",
+            "security_type": "Nominal Coupons",
+            "maturity_bucket": "20Y to 30Y",
+            "nbr_issues_accepted": "12",
+            "total_par_amt_offered": "10468000000.00",
+            "par_amt_per_offer": "1000000.00",
+            "max_par_amt_redeemed": "6000000000",
+            "max_nbr_offers": "9",
+            "nbr_issues_eligible": "35",
+            "total_par_amt_accepted": "4078000000.00"
+          }
+        ],
+        "meta": {
+          "count": 1,
+          "labels": {
+            "operation_date": "Operation Date",
+            "operation_start_time_est": "Operation Start Time (EST)",
+            "operation_close_time_est": "Operation Closing Time (EST)",
+            "settlement_date": "Settlement Date",
+            "preliminary_ann_pdf": "Preliminary Announcement PDF",
+            "preliminary_ann_xml": "Preliminary Announcement XML",
+            "final_ann_pdf": "Final Announcement PDF",
+            "final_ann_xml": "Final Announcement XML",
+            "results_pdf": "Results PDF",
+            "results_xml": "Results XML",
+            "special_ann_pdf": "Special Announcement PDF",
+            "operation_type": "Operation Type",
+            "security_type": "Security Type",
+            "maturity_bucket": "Maturity Bucket",
+            "nbr_issues_accepted": "Number of Issues Accepted",
+            "total_par_amt_offered": "Total Par Amount Offered",
+            "par_amt_per_offer": "Par Amount Per Offer",
+            "max_par_amt_redeemed": "Max Par Amount Redeemed",
+            "max_nbr_offers": "Max Number of Offers",
+            "nbr_issues_eligible": "Number of Issues Eligible",
+            "total_par_amt_accepted": "Total Par Amount Accepted"
+          },
+          "dataTypes": {
+            "operation_date": "DATE",
+            "operation_start_time_est": "STRING",
+            "operation_close_time_est": "STRING",
+            "settlement_date": "DATE",
+            "preliminary_ann_pdf": "STRING",
+            "preliminary_ann_xml": "STRING",
+            "final_ann_pdf": "STRING",
+            "final_ann_xml": "STRING",
+            "results_pdf": "STRING",
+            "results_xml": "STRING",
+            "special_ann_pdf": "STRING",
+            "operation_type": "STRING",
+            "security_type": "STRING",
+            "maturity_bucket": "STRING",
+            "nbr_issues_accepted": "INTEGER",
+            "total_par_amt_offered": "CURRENCY",
+            "par_amt_per_offer": "CURRENCY",
+            "max_par_amt_redeemed": "CURRENCY0",
+            "max_nbr_offers": "INTEGER",
+            "nbr_issues_eligible": "INTEGER",
+            "total_par_amt_accepted": "CURRENCY"
+          },
+          "dataFormats": {
+            "operation_date": "YYYY-MM-DD",
+            "operation_start_time_est": "String",
+            "operation_close_time_est": "String",
+            "settlement_date": "YYYY-MM-DD",
+            "preliminary_ann_pdf": "String",
+            "preliminary_ann_xml": "String",
+            "final_ann_pdf": "String",
+            "final_ann_xml": "String",
+            "results_pdf": "String",
+            "results_xml": "String",
+            "special_ann_pdf": "String",
+            "operation_type": "String",
+            "security_type": "String",
+            "maturity_bucket": "String",
+            "nbr_issues_accepted": "10",
+            "total_par_amt_offered": "$10.20",
+            "par_amt_per_offer": "$10.20",
+            "max_par_amt_redeemed": "$1,000,000",
+            "max_nbr_offers": "10",
+            "nbr_issues_eligible": "10",
+            "total_par_amt_accepted": "$10.20"
+          },
+          "total-count": 1,
+          "total-pages": 1
+        },
+        "links": {
+          "self": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+          "first": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+          "prev": null,
+          "next": null,
+          "last": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000"
+        }
+      }
+    },
+    "buybacks_security_details": {
+      "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/buybacks_security_details?filter=operation_date:eq:2026-09-24&page[size]=1000",
+      "sha256": "4f91b4c859ac9451f6fccfe145e45959a1b0349044f7ce13ad9cb9ed2a5aa0cc",
+      "payload": {
+        "data": [
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810RV2",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2047-02-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810RX8",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2047-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810RY6",
+            "coupon_rate_pct": "2.750",
+            "maturity_date": "2047-08-15",
+            "par_amt_accepted": "100000000.00",
+            "weighted_avg_accepted_price": "65.578"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810RZ3",
+            "coupon_rate_pct": "2.750",
+            "maturity_date": "2047-11-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SA7",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2048-02-15",
+            "par_amt_accepted": "1500000000.00",
+            "weighted_avg_accepted_price": "68.266"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SC3",
+            "coupon_rate_pct": "3.125",
+            "maturity_date": "2048-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SD1",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2048-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SE9",
+            "coupon_rate_pct": "3.375",
+            "maturity_date": "2048-11-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SF6",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2049-02-15",
+            "par_amt_accepted": "100000000.00",
+            "weighted_avg_accepted_price": "67.523"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SH2",
+            "coupon_rate_pct": "2.875",
+            "maturity_date": "2049-05-15",
+            "par_amt_accepted": "300000000.00",
+            "weighted_avg_accepted_price": "65.723"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SJ8",
+            "coupon_rate_pct": "2.250",
+            "maturity_date": "2049-08-15",
+            "par_amt_accepted": "50000000.00",
+            "weighted_avg_accepted_price": "57.438"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SK5",
+            "coupon_rate_pct": "2.375",
+            "maturity_date": "2049-11-15",
+            "par_amt_accepted": "1000000.00",
+            "weighted_avg_accepted_price": "58.855"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SL3",
+            "coupon_rate_pct": "2.000",
+            "maturity_date": "2050-02-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SN9",
+            "coupon_rate_pct": "1.250",
+            "maturity_date": "2050-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SP4",
+            "coupon_rate_pct": "1.375",
+            "maturity_date": "2050-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SS8",
+            "coupon_rate_pct": "1.625",
+            "maturity_date": "2050-11-15",
+            "par_amt_accepted": "75000000.00",
+            "weighted_avg_accepted_price": "48.109"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SU3",
+            "coupon_rate_pct": "1.875",
+            "maturity_date": "2051-02-15",
+            "par_amt_accepted": "101000000.00",
+            "weighted_avg_accepted_price": "51.187"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SX7",
+            "coupon_rate_pct": "2.375",
+            "maturity_date": "2051-05-15",
+            "par_amt_accepted": "100000000.00",
+            "weighted_avg_accepted_price": "57.688"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810SZ2",
+            "coupon_rate_pct": "2.000",
+            "maturity_date": "2051-08-15",
+            "par_amt_accepted": "250000000.00",
+            "weighted_avg_accepted_price": "52.423"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TB4",
+            "coupon_rate_pct": "1.875",
+            "maturity_date": "2051-11-15",
+            "par_amt_accepted": "1500000000.00",
+            "weighted_avg_accepted_price": "50.563"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TG3",
+            "coupon_rate_pct": "2.875",
+            "maturity_date": "2052-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TJ7",
+            "coupon_rate_pct": "3.000",
+            "maturity_date": "2052-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TN8",
+            "coupon_rate_pct": "3.625",
+            "maturity_date": "2053-02-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TR9",
+            "coupon_rate_pct": "3.625",
+            "maturity_date": "2053-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TT5",
+            "coupon_rate_pct": "4.125",
+            "maturity_date": "2053-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TV0",
+            "coupon_rate_pct": "4.750",
+            "maturity_date": "2053-11-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810TX6",
+            "coupon_rate_pct": "4.250",
+            "maturity_date": "2054-02-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UA4",
+            "coupon_rate_pct": "4.625",
+            "maturity_date": "2054-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UC0",
+            "coupon_rate_pct": "4.250",
+            "maturity_date": "2054-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UE6",
+            "coupon_rate_pct": "4.500",
+            "maturity_date": "2054-11-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UG1",
+            "coupon_rate_pct": "4.625",
+            "maturity_date": "2055-02-15",
+            "par_amt_accepted": "1000000.00",
+            "weighted_avg_accepted_price": "87.762"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UK2",
+            "coupon_rate_pct": "4.750",
+            "maturity_date": "2055-05-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UM8",
+            "coupon_rate_pct": "4.750",
+            "maturity_date": "2055-08-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UP1",
+            "coupon_rate_pct": "4.625",
+            "maturity_date": "2055-11-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          },
+          {
+            "operation_date": "2026-09-24",
+            "operation_start_time_est": "01:40 PM",
+            "cusip_nbr": "912810UR7",
+            "coupon_rate_pct": "4.750",
+            "maturity_date": "2056-02-15",
+            "par_amt_accepted": "0.00",
+            "weighted_avg_accepted_price": "null"
+          }
+        ],
+        "meta": {
+          "count": 35,
+          "labels": {
+            "operation_date": "Operation Date",
+            "operation_start_time_est": "Operation Start Time (EST)",
+            "cusip_nbr": "CUSIP Number",
+            "coupon_rate_pct": "Coupon Rate",
+            "maturity_date": "Maturity Date",
+            "par_amt_accepted": "Par Amount Accepted",
+            "weighted_avg_accepted_price": "Weighted Average Accepted Price"
+          },
+          "dataTypes": {
+            "operation_date": "DATE",
+            "operation_start_time_est": "STRING",
+            "cusip_nbr": "STRING",
+            "coupon_rate_pct": "PERCENTAGE",
+            "maturity_date": "DATE",
+            "par_amt_accepted": "CURRENCY",
+            "weighted_avg_accepted_price": "CURRENCY3"
+          },
+          "dataFormats": {
+            "operation_date": "YYYY-MM-DD",
+            "operation_start_time_est": "String",
+            "cusip_nbr": "String",
+            "coupon_rate_pct": "10.2%",
+            "maturity_date": "YYYY-MM-DD",
+            "par_amt_accepted": "$10.20",
+            "weighted_avg_accepted_price": "$10.200"
+          },
+          "total-count": 35,
+          "total-pages": 1
+        },
+        "links": {
+          "self": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+          "first": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000",
+          "prev": null,
+          "next": null,
+          "last": "&page%5Bnumber%5D=1&page%5Bsize%5D=1000"
+        }
+      }
+    }
+  },
+  "independent_failure_cases": [
+    [
+      "complete actual 9/24 data => owed read",
+      true,
+      1,
+      0
+    ],
+    [
+      "one null result even with official total => gap, no verdict",
+      true,
+      0,
+      1
+    ],
+    [
+      "one-dollar disagreement => gap, no verdict",
+      true,
+      0,
+      1
+    ],
+    [
+      "one missing eligibility row => gap, no verdict",
+      true,
+      0,
+      1
+    ],
+    [
+      "wrong instrument => no F2 obligation",
+      true,
+      0,
+      0
+    ]
+  ],
+  "walter_delivery_check": {
+    "date": "20260924",
+    "rows": 54,
+    "unique_signal_recipient_pairs": 54,
+    "state_delivered": 54,
+    "missing_paths_after_processed_fallback": [],
+    "wrong_signal_id": [],
+    "scope": "local delivered-file reconciliation; no recipient-consumption certification"
+  }
+}
