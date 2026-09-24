@@ -105,6 +105,32 @@ def frn_cusips():
 
 TERM_MAP = {"2Y": "2-Year", "3Y": "3-Year", "5Y": "5-Year", "7Y": "7-Year",
             "10Y": "10-Year", "20Y": "20-Year", "30Y": "30-Year"}
+STD_YEARS = (2, 3, 5, 7, 10, 20, 30)
+
+
+def cycle_term(orig_term, reopening, issue_date, maturity_date):
+    """The auction CYCLE a print belongs to — which is not always its ORIGINAL term (2026-09-24).
+
+    ⛔ FAILURE MODE, found grading the 9/23 5Y (KB-BND-314): a REOPENING of an older, longer
+    issue is sold in a SHORTER tenor's cycle. The 2026-01-26 2Y auction reopened the old 5Y
+    91282CGH8 (maturing 2028-01-31): TreasuryDirect files securityTerm '2-Year' and
+    originalSecurityTerm '5-Year'. Keying on the original term put a 2Y-cycle print (BTC 2.75,
+    dealer 7.33) in the 5Y benchmark pool, displaced a real 5Y, and dropped January from the 2Y
+    pool — silently, with n still reading 12. Verdict-neutral that day; not in general.
+    Rule: a NEW issue keeps its original term. A REOPENING is keyed to the standard tenor
+    NEAREST its remaining term at issue (maturity - issue). An ordinary same-cycle reopening
+    (10Y at ~9.8y, 30Y at ~29.8y, 20Y at ~19.8y, 5Y TIPS at ~4.5y) maps back to its own tenor,
+    so only CROSS-cycle reopenings move. Missing dates fall back to the original term.
+    """
+    if not reopening or not issue_date or not maturity_date:
+        return orig_term
+    import datetime as _d
+    try:
+        yrs = (_d.date.fromisoformat(maturity_date[:10]) - _d.date.fromisoformat(issue_date[:10])).days / 365.25
+    except ValueError:
+        return orig_term
+    n = min(STD_YEARS, key=lambda y: abs(y - yrs))
+    return f"{n}-Year"
 
 
 def _from_ta_ws():
@@ -138,7 +164,8 @@ def _from_ta_ws():
         if comp <= 0:
             continue
         out.append({"date": r["auctionDate"][:10], "cusip": r.get("cusip", ""),
-                    "term": r.get("originalSecurityTerm") or r.get("securityTerm"),
+                    "term": cycle_term(r.get("originalSecurityTerm") or r.get("securityTerm"),
+                                       r.get("reopening") == "Yes", r.get("issueDate"), r.get("maturityDate")),
                     "secterm": r.get("securityTerm"), "tips": r.get("tips") == "Yes",
                     "reopening": r.get("reopening") == "Yes",
                     "btc": _f(r.get("bidToCoverRatio")), "hy": r.get("highYield"),
@@ -170,7 +197,9 @@ def _from_corpus():
             if not comp or comp <= 0 or None in (pd_, dir_, ind) or btc is None:
                 continue
             out.append({"date": r["auction_date"][:10], "cusip": r.get("cusip", ""),
-                        "term": TERM_MAP.get(r.get("tenor"), r.get("tenor")),
+                        "term": cycle_term(TERM_MAP.get(r.get("tenor"), r.get("tenor")),
+                                           str(r.get("is_reopening")).strip().lower() == "true",
+                                           r.get("issue_date"), r.get("maturity_date")),
                         "secterm": r.get("tenor"),
                         "tips": str(r.get("is_tips")).strip().lower() == "true",
                         "reopening": str(r.get("is_reopening")).strip().lower() == "true",
@@ -383,6 +412,26 @@ def selftest() -> int:
     except Exception as e:
         bad.append(f"FRN list raised: {type(e).__name__}")
 
+    # ---- 8. cross-cycle reopenings key to the CYCLE, not the original term (2026-09-24, KB-BND-314)
+    chk("cycle_term: the Jan-2026 2Y-cycle reopening of old 5Y 91282CGH8 -> 2-Year",
+        cycle_term("5-Year", True, "2026-02-02", "2028-01-31") == "2-Year")
+    chk("cycle_term: the Feb-2025 5Y-cycle reopening of old 7Y 91282CGQ8 -> 5-Year",
+        cycle_term("7-Year", True, "2025-02-28", "2030-02-28") == "5-Year")
+    chk("cycle_term: an ordinary 10Y reopening (~9.8y) stays 10-Year",
+        cycle_term("10-Year", True, "2026-09-15", "2036-08-15") == "10-Year")
+    chk("cycle_term: an ordinary 30Y reopening (~29.8y) stays 30-Year",
+        cycle_term("30-Year", True, "2026-09-15", "2056-08-15") == "30-Year")
+    chk("cycle_term: a 5Y TIPS reopening (~4.5y) stays 5-Year",
+        cycle_term("5-Year", True, "2026-10-31", "2031-04-15") == "5-Year")
+    chk("cycle_term: a NEW issue is never re-keyed",
+        cycle_term("5-Year", False, "2026-02-02", "2028-01-31") == "5-Year")
+    chk("cycle_term: missing dates fall back to the original term",
+        cycle_term("5-Year", True, None, "2028-01-31") == "5-Year")
+    recs8 = [_fx(f"2025-{m:02d}-20", "5-Year", 60.0 + m) for m in range(1, 13)]
+    recs8.append(_fx("2025-12-22", cycle_term("5-Year", True, "2026-01-02", "2027-12-31"), 1.0))
+    b8 = bench(recs8, "5-Year", False, "2026-01-15", 12)
+    chk("a cross-cycle reopening does NOT enter the original tenor's pool", b8 and b8["ind"]["min"] > 1.0 and b8["n"] == 12)
+
     print(f"[grade --selftest] {ok} passed, {len(bad)} failed")
     for x in bad:
         print("   FAIL:", x)
@@ -441,7 +490,8 @@ def main() -> int:
             print(f"[grade] no auctioned OR upcoming record for {a.cusip or a.date}", file=sys.stderr)
             return 2
         r = up[0]
-        term = r.get("originalSecurityTerm") or r.get("securityTerm")
+        term = cycle_term(r.get("originalSecurityTerm") or r.get("securityTerm"),
+                          r.get("reopening") == "Yes", r.get("issueDate"), r.get("maturityDate"))
         tips = r.get("tips") == "Yes"
         amt = _f(r.get("offeringAmount"))
         print("=" * 78)
