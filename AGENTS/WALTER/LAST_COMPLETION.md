@@ -5,6 +5,22 @@ Session: 2026-09-24 Thu, Claude Opus 5.5 as WALTER (`walter-f9`), **Will-directe
 - The staleness sweep, skipped at this Tier-2, was RUN later the same session (LATER LEG below; `registry/STALENESS_SWEEP_2026-09-24.tsv`).
 - Also not done: the MEMORY prune (the file is at 12.3 KB, well under its 24,412 B trigger, so nothing is owed).
 
+## BOOT LEG — 2026-09-24 20:34Z, after /clear (Will via Telegram: "please boot up"), same `walter-f9` session name
+
+**Boot PARTIAL.**
+- **Run:** 0 (no pull, 0 behind origin; foreign dirty tree) · 0.5 doctor 0 HIGH / 4 MED · 1–4 · 6 both routing files whole · 6b (RED scan sha matched canon; 12/8/11/17 rows, no registry commit since the prior read) · 6c post-close Yahoo daily bars for Brent/cracks, VIX, KRE/WAL, 10Y/30Y, JPY, TTF, EURUSD · 7 (no new BOARD ids since -019) · 7b CLOSED · 7d DEWEY correction handled · 7e/7e(f) · 7f empty · 7g empty · 8 · 9 · 9a rc 0 · 9b.
+- **Not run:** CREED-T-08a; HANS Bund/gilts/storage; Cushing; SKEW 9/24; FILTER_SPEC Boot Context scoped reads; REGISTRY refresh beyond BOND.
+- **Checks:** `boot_basis_check` REVIEW ×11 and `reads_check` UNKNOWN (both unchanged).
+
+**Lane batch BM-20260924-02 CLOSED 17/17:** 5 DISPATCH, 3 FOLD, 6 DUP, 3 KILL. Commits `261bd1b2f` (dispatch) and `ed7f2a0fd` (the DR-5 note), both LOCAL. **PROME registered WQ-284 on the HOMER doorbell (`c56b1fbc5`).**
+- `-020` IMMEDIATE → **HOMER**: PMMS 7.03% crosses HOMER's 7.0% RED band. **Doorbelled to PROME (prome-f5)** on 3b.
+- `-021` PRIORITY → **BRENT**: Yanbu tanker loadings NOT resumed as of 9/24 (Reuters via Baird). Bears on the BG-02 grade tomorrow.
+- `-022` PRIORITY → **BROCK**: APO record put volume ~94:1 (AI-assisted source).
+- `-023` PRIORITY → **FLG**: rent freeze, **no stay 9/24**, merits ruling by year-end. This is the FOLLOW-UP #5 search.
+- `-024` ROUTINE info: HY OAS 273 [9/23].
+- **DEWEY dc1bddd37:** the DR-5 ledger note is corrected (dollars-share, not a unit ceiling), and the handoff is filed.
+- **SAM's dir was being written at 20:39Z (IN-FLIGHT).**
+
 ## LATER LEG — same session, after the 18:20Z Tier-2 (Will: "please process your work queue"), ~18:30–19:3xZ
 
 Light boot at 18:29Z: pull clean; doctor 0 HIGH / 9 MED; inbox, DEWEY and drop-zone empty; lane 0 NEW; 9a rc 0. **Boot PARTIAL:** 6/6b/6c/7 and the anchor were not re-read (the session ~2h earlier ran them). Commits `cb4c51368` · `37cfb3c3e` · `e9843de21` · `ab549b79f` · `9eabf8a16` · `8ef85b276` · (registry) · `24c290efa` · (F3) · `44109976a`. **Carried to origin by other desks' push trains through `24c290efa` (verified with `git merge-base --is-ancestor` after a fresh fetch, 19:3xZ). `44109976a` (`-018`) and this file's update are LOCAL. WALTER's own push is deferred: MARCO, NEXUS, ORACLE, PROME, CARL and TERRY had uncommitted work in the tree.** `reconcile_delivery_log.py --apply` flipped the `-016`/`-017` rows.
@@ -91,15 +107,15 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 2. 🔴 **(9/24 later leg: computed; Nov fell below 50 into the settle, `-016`.)** **Scanner leg for boundary #6/#8** — see OPEN DESIGN DECISION (j). Until one exists, **compute the matched Nov/Dec/Jan 3:2:1 and the gasoline crack at every 6c** (recipe in `-001`: yfinance named contracts `BZ/RB/HO` + `X26/Z26/F27`).
 3. **Grade the #8 dispatch's outcome:** BRENT spawns 9/25 AM (PROME receipt), grades BG-02 at 17:00 ET, and settles #8 on a settlement source. **Check at next boot: did BRENT confirm or un-fire December?**
 4. **(F3 ✅ FIXED v0.49, 9/24. F1/F2 STILL OWED as a proposal to Will. F4 is an observation.)** **HAWK's four v0.47 verdict-table flags (F1–F4)** are WALTER's to fix in CHECKLIST: per-primary vs per-claim exclusivity · no rule for conflicting primaries · INDETERMINATE row vs note = two live instructions · covered vs uncovered absence share a label. **A spec change under RULE 8.** F3 is an inline clarification; F1/F2 are structural and go to Will as a proposal.
-5. **FLG rent-freeze watch — manual search at each WALTER boot through 10/07** (Kenilworth v. RGB, Index 85199/2026; PRIORITY → FLG, info REGINALD/HOMER). The PROME encode is carried on PROME SCRATCH.
+5. **(9/24 20:4xZ search → `-023`: no stay; merits ruling by year-end; 9/29 production.)** **FLG rent-freeze watch — manual search at each WALTER boot through 10/07** (Kenilworth v. RGB, Index 85199/2026; PRIORITY → FLG, info REGINALD/HOMER). The PROME encode is carried on PROME SCRATCH.
 6. **Reconcile the remaining rows after the next push** (see receipt).
-7. **Carried, re-checked:** BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` and CARL `-0911-008` closure proofs unchecked · four event ledgers undeclared EVENT-DRIVEN · **`fetch.py` identity: `BZ*.NYM` and `TTF=F` still resolve `contract: UNKNOWN` (re-observed 9/24).** · Multifamily ~6.85% vs 7.12% (HOMER, via `-015`, **still unconsumed**) · Reuters 9/13 vs MoE 9/11 Petroline shutdown date (unresolved; the anchor keeps 9/11).
+7. **Carried, re-checked:** BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` and CARL `-0911-008` closure proofs unchecked · four event ledgers undeclared EVENT-DRIVEN · **`fetch.py`'s FRED mirror trailed the FRED CSV on release day** (MORTGAGE30US showed 6.95 at 16:45 ET while the CSV had 7.03; PROME, 9/24). Quote release-day FRED levels off the CSV endpoint. · **`fetch.py` identity: `BZ*.NYM` and `TTF=F` still resolve `contract: UNKNOWN` (re-observed 9/24).** · Multifamily ~6.85% vs 7.12% (HOMER, via `-015`, **still unconsumed**) · Reuters 9/13 vs MoE 9/11 Petroline shutdown date (unresolved; the anchor keeps 9/11).
 7b. ✅ **DONE 9/24 later leg (`-017`, WALTER-verified).** **DEWEY correction candidate (CARL-DR-5):** the *"unit volume outweighs price ⇒ nominal grocery sales FALLING"* sub-claim riding `SIG-W-20260813-019` is **SEARCH-NOT-FOUND in the Bain release** per DEWEY, and is contradicted by Census/BEA nominal series. **WALTER has NOT re-verified it.** Open the Bain release, then decide on a correction signal (recipients of `-0813-019`). DEWEY suggests LABOR as an info route for DR-5. **CARL-DR-1 stays PARTIAL, 2 of 6 legs; the 9/18 deadline has passed; run or drop is CARL/PROME's.**
 8. **The 9/20 RESEARCH-INTAKE breach (13 NEW_WATCH) deferred on 9/21 LAPSED unrouted** — the lane's later run superseded it and `--mark` reconciled the baseline. **Recorded as a lapse, not a routing.**
 10. ✅ **DONE 9/24 (prune run 1; see LATER LEG). Remaining: DAEDALUS's checker edit.** **WQ-254 RULED (P4 sitting; Will 2026-09-24 14:59 ET, verbatim in `PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md` row 254; packet consumed 19:05Z). D4(a) APPROVED: a passed cap never clears a NAMED target's block. WALTER's leg: the FIRST PRUNE of `registry/CORRECTIONS.tsv`** against the package's control table (`AGENTS/DAEDALUS/runs/2026-09-17_P4_SITTING_RULING_PACKAGE.md` §3: **10 RECEIPTED · 1 DEAD-AT-CAP · 7 LIVE · 0 RETIRED**). ⚠️ **That control was taken 9/17 08:3x ET on 18 rows; the register has 25 now.** Diff the 18 against the control first, then prune the 7 added since. **No prune tool exists**, because `corrections_boot_check.py` has no prune mode. ⚠️ **Sequencing:** the checker at L139 skips DEAD-AT-CAP rows. Marking SAM's `-0826-02` DEAD-AT-CAP left SAM's rc at 0 (unchanged), **but it HID SAM's 'INFO 1 dead-at-cap' line** because the L139 skip runs first — observed at the prune, recorded in the register header, packeted to DAEDALUS. It BLOCKS only once DAEDALUS ships the A3 checker edit.
 11. ✅ **DONE (FORMAT_SPEC v0.22).** **D5: WALTER's own spec, and Will gave no word.** A `KILL-STRINGS:` line (field ④, the literals a consumer greps for) on every CORRECTION-class SIG-W, in the BOARD template, forward-only. Rec (a). Adopt, reshape or decline. Tell PROME only if it changes how a consumer reads. RULE 8: an optional field is an inline change in the OWNING spec.
 12. ✅ **DONE (`CORRECTIONS.tsv` header).** **D6 RATIFIED: one pointer line in WALTER's spec.** *A correction that never crossed BOARD still gets its row from the corrector: the retirement block EMITS it*, citing `CORRECTION_FORM.md`.
-13. 🆕 **Push the local train** once the tree is clean (step 16), then run `reconcile_delivery_log.py --apply`. After reconcile, only `-018` ×2 (SAM, BOND) is still `pending`.
+13. **Push the local train** once the tree is clean (step 16), then run `reconcile_delivery_log.py --apply`. **As of the boot leg: `-019`'s rows were reconciled delivered (`4b67f913d`, itself local), and the 12 new handoffs for `-020`…`-024` are `pending`.**
 14. ✅ **REGISTRY rows NEXUS + ORACLE refreshed ~19:4xZ.** (The first deferral called them mid-write; the independent review found both had committed and were clean, so the reason was stale.)
 15. 🆕 **Next boot:** did PROME spawn SAM before Tokyo, and did an intervention happen? Did BRENT grade #8 on SETTLEMENTS (Nov was below 50 at the 9/24 settle; December's sustain is 2)?
 9. **Watch:** **9/25** BG-02 17:00 ET · Baker Hughes (BRT-26) · **9/26** FSB Narva · **9/22–29** UNGA · **9/30** Russia diesel ban expiry (HEN-46 F3) · Brent Nov expiry ~9/30–10/01 · Iraq pullout · the standing size-check block · **10/01** NYC rent freeze effective.
@@ -114,14 +130,14 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
+**RE-ISSUED 2026-09-24T20:45:34Z at the boot leg: `edef8c15e` and `4b67f913d` are now on origin (other desks' push trains). `261bd1b2f`, `ed7f2a0fd` and this receipt's commit are LOCAL. 9/24 handoffs: 64 of 76 delivered; the 12 pending are `-020`…`-024`. The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T19:41:30+00:00",
+  "as_of": "2026-09-24T20:45:34+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -143,18 +159,21 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
     {"commit": "fd68935f9", "state": "published"},
     {"commit": "44109976a", "state": "published"},
     {"commit": "133f28aef", "state": "published"},
-    {"commit": "edef8c15e", "state": "pending"}
+    {"commit": "edef8c15e", "state": "published"},
+    {"commit": "4b67f913d", "state": "published"},
+    {"commit": "261bd1b2f", "state": "pending"},
+    {"commit": "ed7f2a0fd", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20260924",
-    "total": 64,
-    "delivered": 62
+    "total": 76,
+    "delivered": 64
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {"path": "AGENTS/HAWK/research/2026-09-22_covert-claim-rule-revision.md", "sha256": "1e4eefb6f0a28846087e197e9096da50205d1814873ef164e0b6fe7d3eaee0f5", "note": "HAWK's live replacement for its 9/21 class-rule (KB-HAWK-407), which closes the consumer half of CATO W1. WALTER read HAWK's packet summary of it, NOT this file whole."},
-      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "a9ed9b4e650e9bf44b7dd09a9b24daf4462f4422139c4df64bcf9fd0ee002c65", "note": "CARL-DR-5 report; ledger row closed RESOLVED on DEWEY's handoff. Its correction candidate on SIG-W-20260813-019 WAS re-verified by WALTER at the Bain release and FRED RSGCS/CPI food-at-home and dispatched as SIG-W-20260924-017 (later leg). WALTER read the report's findings sections, not every line."}
+      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "c1a7bed4909308e1019d1c3a52d0929a1882862eb23f1ba85b42ad8860d06878", "note": "CARL-DR-5 report, CORRECTED IN PLACE 2026-09-24 by DEWEY dc1bddd37 (CATO AP1: the 0.77% is a dollars-share scenario, not a unit ceiling); WALTER read the correction block and amended ledger L35 (ed7f2a0fd). Original note: ledger row closed RESOLVED on DEWEY's handoff. Its correction candidate on SIG-W-20260813-019 WAS re-verified by WALTER at the Bain release and FRED RSGCS/CPI food-at-home and dispatched as SIG-W-20260924-017 (later leg). WALTER read the report's findings sections, not every line."}
     ]
   },
   "next_review": "2026-09-25"
