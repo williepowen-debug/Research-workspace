@@ -14,7 +14,7 @@
 | D1 | **Sub-notes 10/1 read** (DOCKET L463) | **Fri 10/2 AM** | `flng_watch.py`: rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing; redemption/refi = 🟠 REGINALD · rc 2 = UNKNOWN, re-run |
 | D2 | **Q3 date** → set CALENDAR + boot.py `~2026-10-21` to the real date | ~9/30 | Aggregators guess ~10/15 |
 | D3 | **Build the Q3 scoring card** before the print (pattern: `workbook/Q2_2026_SCORING_CARD.md`, pre-registered legs + grading rule) | before Q3 print | Legs: RaDD report-back (executed extension? curtailment? equity? reserve?) · **SpecMention $616M reversal rate** · NCO vs "back under industry" · provision "drift down" · $330M pending-sale credit · Boston Life Sci $169M (sale or title) · mods counter (unanswered at Q2) · Portal 405 / 777 Industrial appearing in the substandard table · classified+criticized vs RESG (grade off the printed "Total Classified and Criticized Assets" line — never the 10-Q loan-only basis; Z2 rule) |
-| D4 | **Full read of the Q2'26 10-Q** (`raw/Q2_2026_10Q.pdf`) | before Q3 print | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
+| ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
 | D5 | **Insider pull after the Q3 print** (FDIC EFR cert 110) | post-print | Last pull 9/24: zero buys since 7/6 |
 | D6 | **Q3 Call Report pull** (LOG-ONLY) | ~Nov 1-10 | ⏰ **FFIEC JWT expires 11/5 — Will action.** `RIAD5409` continuation · `RCON2746` vs Q3 10-Q debt-on-debt · Memo-10 PV05-09 |
 
@@ -32,7 +32,7 @@
 
 | # | Item | Priority | Note |
 |---|---|---|---|
-| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** off Q2 migration evidence (was S1) | 🟠 | Single-supported since the 37.6% input died — don't quote it as double-supported |
+| R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | 🟠 **now unblocked** | Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) |
 | R2 | **Refresh the 4 subdomain STATUS files** — LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT (was S2) | 🟠 | All pre-Q2-print; INSIDERS/SELLING got the 9/24 pull only. Largest body of work |
 | R3 | **Reconcile the $87M IQHQ injection date** (KB-OZK-086; up to 3 dates in TIMELINE) (was S3) | 🟡 | Needs a primary re-check |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |

@@ -36,6 +36,7 @@
 - [2026-07-04] **RESG concentration (6-qtr primary):** share of unfunded 71→60% (Q4'24→Q1'26; ~79% peak), commitments $34.5B→$27.8B; "88%" is a phantom. [KB-196]
 - [2026-07-04 s2] **Bluerock = Bluerock Total Income+ (now BPRE), not "Bluerock Homes."** PIK loans real ($160M@13.5% + $86M@14%); first-loss equity ~$488M; its NAV mark leads RaDD credit. Trade press can confirm a figure while misnaming the entity — verify both. [KB-197/198]
 - [2026-07-06] **Sterling Bay: one loss (Lincoln Yards, foreclosed, 320K SF), one PAR exit (Pacific Center, full repayment per Q4'25 Mgmt Comments).** Grep our own quarterly extracts before banking a severity claim from trade press. [KB-199]
+- [2026-09-24] **Use pdfplumber layout mode for FDIC PDFs with tables** (`.venv` has pdfplumber; no poppler/fitz). pdfminer plain text scrambles table columns and moves row notes — it caused the Dec 18 / Boston misattribution. `extract_text(layout=True)` keeps rows readable; the Q2 10-Q is 69 pp / 2,875 layout lines.
 - [2026-07-06] **Square Mile Capital = Affinius Capital** (2023 rebrand); OZK holds $95M of the Affinius-originated 777 Industrial note. [KB-203]
 - [2026-07-06] **LLM-sourced KB rows can garble primary figures** (KB-117 vs Atrium primary) — treat Conf one notch worse when Source is an LLM output. **Date a third-party report by its citations, not its label** (Atrium said "2026"; citations stop Sep-2025).
 - [2026-07-18] **OZK is a beta/range name** — the Nov'25 low was beta to the Oct'25 NDFI-contagion selloff, and the Sep'26 −6.1% was mostly sector (Fed hike, financials selloff). Check the cohort's move before attributing a price move to own-credit. [KB-215]
@@ -59,13 +60,14 @@
 - **L126 sub-notes:** `scripts/flng_watch.py` (schema + coverage validated, rc 2 on bad data, `--selftest` 10/10), in boot.py. Benchmark = **3M term SOFR + 209bp** (issuer release); drag ≈+$11.2M/yr (was $12.8M). PROME runs the watch at its boots to 10/1.
 - Housekeeping: inbox → 0 · KB 230/37 · OZK-09 negative-branch instrument named · outbox 11 → delivered/ on evidence (left: 7/20 selfsweep, no receipt; 7/23 ozk09-remark, live citation) · TODO re-baselined · +2 LESSONS · MEMORY condensed (this pass).
 - **CATO review (Will-relayed, afternoon): OZ1-OZ4 applied.** ⚠️ **Kill-§1 narrowed to FIRED-LITERAL · mechanism UNDETERMINED** — the "migration-through" dismissal was an inference (a zero-migration flow fits every endpoint). Sub-note redemption now = recalculate (redeem removes ~$280M Tier 2, not just the haircut). Affinius maturity = UNVERIFIED EVENT. OZK-09 attribution guard added (clean searches + no RaDD attribution → STUCK). CATO's next-step advice: **evidence work (Q2 10-Q read, Horton) before more restructuring.**
+- **Q2'26 10-Q FULL READ (Will-directed, evening).** Roster turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed; Boston LS → nonaccrual); **"Dec 18 2025" is Baltimore, not Boston** (Boston = Feb 13 2026; misattributed since April, 7+ surfaces fixed; my morning answer to PROME was wrong); RIAD5409 ≈ The Jack + San Carlos (INFERRED); SM = 5 credits $529M; RaDD pass at 6/30 (elimination); sub-notes capital effect ~−0.16pp retain / ~−0.8pp redeem. KB 231-235.
 - **Zero grades/thresholds/weights/conviction moved.**
 
 ### NEXT SESSION
 
 1. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = record **SCHEDULED-UNCONTRADICTED** (never "confirmed"; log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark answered: **3M term SOFR + 209bp** (issuer release); call/notice terms still unread (indenture).
 2. **Q3 date** (~9/30) → replace boot.py/CALENDAR `~2026-10-21`; build Q3 scoring card pre-print.
-3. ⭐ **FIRST (CATO priority):** TODO D4 — full read of the Q2'26 10-Q (Q2 8-K text already extracted in scratch; SEVEN_CREDIT roster needs the Q2 problem-credit table — foreclosed $154M → $293M) (the Q2'25/Q3'25 ones are now local too).
+3. ✅ D4 done 9/24 → `research/threads/Q2_2026_10Q_READ.md`. Next evidence item: **TODO C1 Horton**, then R1 (reserve build on the Q2 roster).
 4. 🔴 TODO C1 — Horton leasing (window-search empty, NOT discharged).
 5. Open, not L181's: does OZK populate MI3 from the debt-on-debt book only? (MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose from item 4.)
 6. Carried: TODO R1/R2/R3 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · 7/20 selfsweep packet: no receipt — leave unless evidence surfaces.

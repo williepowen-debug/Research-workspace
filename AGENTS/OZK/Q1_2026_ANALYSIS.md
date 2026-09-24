@@ -39,7 +39,7 @@
 
 | Location | Property | Outstanding | LTV | Appraisal | Status |
 |---|---|---|---|---|---|
-| Boston, MA | Life Science | **$169.3M** | 91% | Nov '25 | **46 days past due.** Matured Dec 18 2025. Active discussions with multiple potential buyers. |
+| Boston, MA | Life Science | **$169.3M** | 91% | Nov '25 | **46 days past due.** matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*. Active discussions with multiple potential buyers. |
 | Seattle U District | Office | $76.4M | 83% | Dec '25 | Matured Jan 15 2026. **SIGNED LOI with sponsor + new equity partner for recap** — this is Gleason's "executed LOI" reference. Would return to accrual if closes. |
 | Seattle U District | Life Science | $50.4M | 73% | Dec '25 | Same LOI as above. |
 | Near Lake Tahoe | SF Lots & Homes | $33.9M | 93% | Sep '25 | Substandard accrual since Q4 2019. Short sale pending, net proceeds ≈ carrying value. |

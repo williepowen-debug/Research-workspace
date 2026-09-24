@@ -1,8 +1,8 @@
 # OZK — Dashboard
 
-**Updated:** 2026-09-24 (Will-directed catch-up + PROME 5-task session + STATUS rebuild; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
+**Updated:** 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
 **Price:** **$46.09** [Wed 2026-09-23 close — FORGE fetch.py asof 2026-09-23 + yfinance] · <$45 band **2.4% away, NOT fired** · −6.1% since 8/31 ($49.08) vs KRE −3.8% | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.95×**
-**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 230 rows / 37 groups
+**Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 235 rows / 37 groups
 **Short interest:** **~16.0% of float** (16.21M sh, **8/31/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 16.0** — up from 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
 **Next:** **Oct 1** sub-notes reprice (watch armed; read **Fri 10/2**) · **~Sep 30** Q3 date announcement · **Oct 6** Bluerock BPRE webinar · **~mid/late Oct** Q3 earnings + call = mgmt's "~92-day" RaDD report-back · **~Nov 1-10** Q3 Call Report (FFIEC JWT expires **11/5**)
 
@@ -67,9 +67,17 @@ Both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 R
 
 ---
 
-## Problem Credits (roster → `SEVEN_CREDIT_DEEP_DIVE.md`)
+## Problem Credits — Q2 roster (6/30/26; detail → `research/threads/Q2_2026_10Q_READ.md` §2 · Q1 dossiers → `SEVEN_CREDIT_DEEP_DIVE.md`)
 
-**11 tracked credits, $719M.** Q1'26 adds: 3 new substandard — Seattle U-District Office $76M + Life Sci $50M (LOI recap) and **Boston Life Sci $169M** (10 Prospect St / USQ D2.1; loan **matured 2025-12-18**; mgmt Q1: sale of loan/property or take title) · 2 new foreclosed — Chicago Life Sci $50M, Santa Monica Office $45M ($5M c/o). Near-zero LTV: Boston Office 95% · Seattle Pioneer 100% · Wauwatosa Hotel 103%. **Deferral engine (Q1'26 10-Q):** nonaccrual $296.6M carried at collateral FV $281.5M, **$250.4M of it with $0 ALL** — marks to appraisal, not market severity. **IQHQ/RaDD:** $555M funded, one credit, static since May 2024 → `IQHQ_PLAYBOOK.md`.
+| Status (6/30) | Credits | $ |
+|---|---|---|
+| **Substandard nonaccrual (4 RESG, $251.9M)** | **Boston life sci** (10 Prospect; **matured Feb 13, 2026**; $330M sale pending, financing uncertain) $169.3M · **Baltimore land** (**matured Dec 18, 2025**; 212 DPD; buyers or title) $40.0M · **The Jack**, Seattle office (debt-on-debt; recap LOI, close Q3) $25.9M · **Wauwatosa hotel** (sale contract, hard earnest money, close Q3) $16.7M | $300.4M total nonaccrual; **$257.8M carries $0 ALL** |
+| **Substandard accrual ($72.8M)** | Lake Tahoe lots/homes $29.4M · **a $40.4M C&I loan modified for financial difficulty** (new in Q2) | |
+| **Foreclosed ($292.7M)** | Seattle office $56.1M + life sci $48.5M (**foreclosed June** after the buyer withdrew) · LA land $54.5M (LOI) · Chicago life sci $47.5M · Santa Monica office $44.8M · **Atlanta office $36.6M (new — SM at Q1, foreclosed June)** | H1 inflows $241.6M vs sales $6.9M |
+| **Special mention ($616.2M)** | **Five RESG credits = $529.2M** (condo, office, mixed use, land) incl. a **$147M condo at 105.6% LTV** and a $196M mixed-use | +$219M QoQ |
+| **Cured / exited in Q2** | **Sullivan Courthouse $156.4M recapitalized → pass** · San Carlos life sci (SM, debt-on-debt) paid off with a $14.8M c/o | |
+
+Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atlanta $8.5M, San Carlos $14.8M). **82% of H1 gross charge-offs are 2022-vintage.** **RaDD ($555M) was pass-rated at 6/30 by elimination** (it is larger than either classified bucket). ⚠️ *Until 9/24 this section said Boston "matured Dec 18 2025" — that date is Baltimore's (misattributed since April).*
 
 ---
 

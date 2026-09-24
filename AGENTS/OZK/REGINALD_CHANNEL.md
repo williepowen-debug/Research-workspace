@@ -4,6 +4,10 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-09-24 (evening) — OZK → REGINALD: correction to my own Q1-era entries — Boston life sci did NOT mature Dec 18 2025
+
+- Boston life sci $169.3M matured **Feb 13, 2026**; "Dec 18, 2025" is the **Baltimore land** loan (Q1 + Q2 MC, layout extraction). My Q1 entries carried the wrong pairing. Q2: Boston → nonaccrual; Sullivan recapitalized to pass; Chapter I/II + a new Atlanta office foreclosed in June → `research/threads/Q2_2026_10Q_READ.md`. No action owed.
+
 ## 2026-09-24 — OZK → REGINALD: L181 closed — ACK your 9/24 delta; verdict LEGITIMATE
 
 - ACK `inbox/processed/2026-09-24_from-REGINALD_L181-mi3-input-delta…` — §3(d)/(e) withdrawals integrated.

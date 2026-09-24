@@ -160,7 +160,7 @@ OZK's Q1 2026 print surfaced three new project-level problem credits in the life
 
 | Credit | Amount | Tier | Q1 Disclosure |
 |---|---|---|---|
-| **Boston Life Sci** | $169M outstanding | Substandard accrual | 91% LTV, 46 DPD at 3/31, matured **Dec 18 2025** without refi. **Sponsor: 10 Prospect St / USQ Parcel D2.1 — Magellan + RAS + Cypress + Affinius JV (CONFIRMED via MassLandRecords UCC-1 filing Jan 29 2026, Bk 85169 Pg 222).** Resolved 2026-04-23 PM. |
+| **Boston Life Sci** | $169M outstanding | Substandard accrual | 91% LTV, 46 DPD at 3/31, matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*. **Sponsor: 10 Prospect St / USQ Parcel D2.1 — Magellan + RAS + Cypress + Affinius JV (CONFIRMED via MassLandRecords UCC-1 filing Jan 29 2026, Bk 85169 Pg 222).** Resolved 2026-04-23 PM. |
 | **Seattle U District Life Sci** | $50M outstanding ($89M total commitment, $38.9M unfunded) | Substandard accrual | Component of combined $127M Seattle U District problem ($76M Office + $50M Life Sci). **Sponsor signed LOI for recap** — bullish signal vs classification trajectory. |
 | **Chicago Life Sci** | $50M | Foreclosed asset (new Q1) | Taken at 68% of May 2025 appraisal. **Previous short sale failed** — forced foreclosure route. |
 

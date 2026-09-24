@@ -24,7 +24,7 @@ The bear case lives here. FL is a fortress, office losses are being taken (Bosto
 
 | Credit | Outstanding | Tier | Note |
 |---|---|---|---|
-| Boston Life Sci | $169M | Substandard accrual | Matured Dec 18 2025, 91% LTV, 46d PD. **Sponsor CONFIRMED Apr 23: 10 Prospect St / USQ Parcel D2.1 / Magellan + RAS + Cypress + Affinius JV** (MassLandRecords UCC-1 Bk 85169 Pg 222, Jan 29 2026 re-perfection = workout signature). Institutional JV → workout-path probability > note-sale. |
+| Boston Life Sci | $169M | Substandard accrual | matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*, 91% LTV, 46d PD. **Sponsor CONFIRMED Apr 23: 10 Prospect St / USQ Parcel D2.1 / Magellan + RAS + Cypress + Affinius JV** (MassLandRecords UCC-1 Bk 85169 Pg 222, Jan 29 2026 re-perfection = workout signature). Institutional JV → workout-path probability > note-sale. |
 | Seattle U District Life Sci | $50M | Substandard accrual | Component of $127M combined U District problem. **Signed LOI for recap** = bullish marker. |
 | Chicago Life Sci | $50M | Foreclosed | 68% of May '25 appraisal. Previous short sale failed. |
 
@@ -78,7 +78,7 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 | Metro vacancy | **28-34% ATH** (CBRE vs Colliers). Seaport 34.8%. Full-year negative absorption 929K SF |
 | Pipeline | **16.5M SF under construction, only 46.8% preleased** — more vacancy coming |
 | Sullivan Courthouse | $72.4M charged off Q4 2025. 422K SF, fully vacant |
-| **🆕 Boston Life Sci $169M** | Q1 26 substandard, matured Dec 18 2025. ✅ Sponsor = 10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV (UCC-1 re-perfection Jan 29 2026). |
+| **🆕 Boston Life Sci $169M** | Q1 26 substandard, matured Feb 13, 2026 *[corrected 2026-09-24: Boston matured **Feb 13, 2026** (Q1 MC p.24, layout extract); "Dec 18, 2025" is the **Baltimore land** loan — misattributed since Apr by a pdfminer row-adjacency error]*. ✅ Sponsor = 10 Prospect St / USQ D2.1 / Magellan + RAS + Cypress + Affinius JV (UCC-1 re-perfection Jan 29 2026). |
 | Fenway Center ($1B) | IQHQ paused vertical construction Nov 2025 (not an OZK loan — separate lender JPM $165M) |
 | 109 Brookline (285K SF) | Completed 2024, entirely vacant |
 

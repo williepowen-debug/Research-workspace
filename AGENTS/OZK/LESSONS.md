@@ -17,6 +17,10 @@
 ### Date your data
 **Rule:** every metric carries a date and a basis ("Q2'26 Call Report", "as of 9/23 close"). An undated number in STATUS will be read as current.
 
+### Text extraction can attach a table note to the wrong row
+**Mistake (Apr → caught 2026-09-24):** pdfminer's plain-text extraction of the Q1 Management Comments put the paragraph "This loan matured December 18, 2025" next to the **Boston life-science** row. It belonged to **Baltimore land**; Boston matured **Feb 13, 2026**. The misattribution spread to seven surfaces, and a later "fix" built a lien-date fit and a "post-maturity UCC-1 workout" reading on top of it.
+**Rule:** for tables with per-row commentary (MC Fig. 23-style credit rosters, 10-Q tables), extract with **pdfplumber `extract_text(layout=True)`** and read the row and its paragraph together. Treat any fact pulled from a plain-text dump of a table as unattributed until checked against a layout view. When a new explanation "cleanly fits" a date, recheck the date's source first.
+
 ### Resolve dates must be anchored to the event and checked against its history
 **Mistake (found 2026-09-24):** PREDICTIONS carried OZK-02/03/04 as resolving at the "Feb 27 2027 earnings" — a **Saturday**, while OZK's Q4 prints landed **Jan 16-20** in 2023-26 (FDIC FLNG). It sat there for months because the weekday checker was never pointed at PREDICTIONS.
 **Rule:** write resolve dates as the **event** ("the Q4'26 print") plus an estimate grounded in the filer's own history ("~mid/late Jan; Q4 prints Jan 16-20, 2023-26"). Include `workbook/PREDICTIONS.tsv` in every `claim_check.py --check weekday` run.

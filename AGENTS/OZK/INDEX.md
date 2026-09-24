@@ -1,7 +1,7 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-09-24 (full pass — snapshot, file map and counts re-based to STATUS; mirror tokens: thesis **v1.5**, KB **230 / 37**). Header history → `git log -p -- AGENTS/OZK/INDEX.md`.
+**Last updated:** 2026-09-24 (full pass — snapshot, file map and counts re-based to STATUS; mirror tokens: thesis **v1.5**, KB **235 / 37**). Header history → `git log -p -- AGENTS/OZK/INDEX.md`.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.5 RESERVOIR — Q2 DIRECTIONALLY CONFIRMED, conviction 🔴🔴 HIGH.** Stress accumulates in the portfolio until recognition; v1.5 = recognition is appraisal-gated and back-loaded. Q2 fired the adverse-selection tell (classified up while RESG shrank). → `THESIS.md`, `CHANGELOG.md`
@@ -10,7 +10,7 @@
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
 - **Positions: zero** — book closed 8/21 (both puts expired worthless under Will's RIDE ruling). ⛔ D1/OZK-salvage ruled closed. → `POSITIONS.md`
 - **Next dates:** Oct 1 sub-notes reprice (watch `scripts/flng_watch.py`; read Fri 10/2) · ~Sep 30 Q3 date · ~mid/late Oct Q3 earnings + call · ~Nov Q3 Call Report. → `CALENDAR.md`
-- **KB.tsv: 230 rows / 37 groups** (9/24).
+- **KB.tsv: 235 rows / 37 groups** (9/24).
 
 ---
 

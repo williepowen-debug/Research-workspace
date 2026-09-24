@@ -1,4 +1,9 @@
-# OZK Problem Book — 11-Credit Deep Dive (Q1 2026)
+# OZK Problem Book — 11-Credit Deep Dive (Q1 2026 roster; Q2 update below)
+
+> ## ⚠️ Q2 2026 UPDATE (2026-09-24) — the roster below is the **Q1** list; the **current** roster is `research/threads/Q2_2026_10Q_READ.md` §2
+> Source: Q2'26 10-Q (FDIC FLNG 11981) + Q2 Management Comments Fig. 23 and p.24. **Changes:** **#1 Sullivan Courthouse RECAPITALIZED → new pass-rated loan (off roster).** **#5 Boston life sci → substandard NONACCRUAL** (138 DPD; $330M sale pending, financing uncertain; forbearance expired). **#6/#7 Chapter I + II FORECLOSED June 2026** after the buyer withdrew (c/o $22.3M + $3.7M; OREO $56.1M + $48.5M). **NEW: Atlanta office** (SM at Q1) foreclosed June, c/o $8.5M, OREO $36.6M. **San Carlos life sci** (SM, debt-on-debt) paid off with a $14.8M c/o. #3 The Jack: recap LOI, close expected Q3. #4 Wauwatosa: sale contract, earnest money hard, close Q3. #2 Baltimore: 212 DPD, multi-buyer talks, else title. #9-#11: OREO (8150 Sunset LOI; Concord −$2.5M; Santa Monica with broker).
+> ⚠️ **Two Q1-era errors corrected here:** (a) **#5 Boston matured Feb 13, 2026, not Dec 18, 2025** — Dec 18 is **#2 Baltimore**'s maturity (pdfminer row-adjacency error since Apr; verified with layout extraction of both Q1 and Q2 MC). (b) #2's "OZK took deed-in-lieu Dec 2025" is **contradicted** by both MCs: the loan is still outstanding and OZK "will proceed to acquire title" only if no sale.
+> The EL table (§3) and the $150-300M reserve build are **Q1-roster math** and are **not re-derived** here (TODO R1).
 
 **Date:** 2026-04-22 | **Thread:** REGINALD deep-dive #1 post-Q1 print | **Source Q1 Analysis:** `Q1_2026_ANALYSIS.md`
 **Scope:** All 11 RESG problem credits aggregating $719M ($240M substandard non-accrual + $329M substandard accrual + $150M foreclosed)
@@ -56,7 +61,7 @@
 
 ### #2 — Baltimore Peninsula ($40M Land)
 - **Asset:** Undeveloped land from 235-acre Kevin Plank / Goldman Sachs waterfront redevelopment
-- **Cycle status:** OZK took deed-in-lieu Dec 2025. Multiple buyers engaged per Gleason. Completed phase ($189M separate) extended through 2028 with Hines as asset manager.
+- **Cycle status:** ~~OZK took deed-in-lieu Dec 2025.~~ ***[CONTRADICTED 9/24 by Q1 + Q2 MC: the loan **matured Dec 18, 2025** and is still outstanding (212 DPD at 6/30); OZK "will proceed to acquire title" only if no acceptable sale.]*** Multiple buyers engaged per Gleason. Completed phase ($189M separate) extended through 2028 with Hines as asset manager.
 - **Comp read:** Entitled mixed-use land severity 30-50% in non-gateway markets; Baltimore waterfront unique but not gateway.
 - **Expected loss this credit:** Current mark at 53% LTV implies ~$75M fair value. Likely sale $30-45M = $10-20M loss IF clean sale. Additional $4.6M charge-off flagged at Q4 2025.
 - **Timing:** Management says "active buyer discussions" — resolution 2H 2026.
@@ -91,10 +96,10 @@
 - **Property:** 10 PROSPECT ST, Somerville MA
 
 **Interpretation of the Jan 29 2026 UCC-1 filing:**
-A new UCC-1 filed six weeks after the Dec 18 2025 disclosed maturity is a **classic early-workout re-perfection**. OZK is nailing down lien priority across UCC systems before any enforcement action. Not foreclosure initiation — but an aggressive move to ensure the bank's security interest is bulletproof if enforcement becomes necessary. Consistent with 46 DPD at 3/31/2026 posture: loan is stressed, bank is locking in collateral position, but active foreclosure hasn't been triggered.
+~~A new UCC-1 filed six weeks after the Dec 18 2025 disclosed maturity is a **classic early-workout re-perfection**.~~ ***[CORRECTED 9/24: the loan matured **Feb 13, 2026** (Q1 MC p.24) — the Jan 29 UCC-1 was filed ~2 weeks BEFORE maturity: pre-maturity lien housekeeping, not a post-maturity workout move. Dec 18 was Baltimore's date.]*** OZK is nailing down lien priority across UCC systems before any enforcement action. Not foreclosure initiation — but an aggressive move to ensure the bank's security interest is bulletproof if enforcement becomes necessary. Consistent with 46 DPD at 3/31/2026 posture: loan is stressed, bank is locking in collateral position, but active foreclosure hasn't been triggered.
 
 **Maturity-mismatch issue resolved:**
-The underlying lien instrument is dated **December 31, 2020** (not Feb 1, 2021 as prior research concluded — Feb 1, 2021 was the press/closing announcement, not the docs date). Dec 31, 2020 + 5yr term = Dec 31, 2025. OZK's disclosed **Dec 18, 2025 maturity** is within normal docs-language variance of that 5yr anniversary (stated maturity dates are often ~2 weeks before the anniversary for month-end reasons). Clean fit.
+The underlying lien instrument is dated **December 31, 2020** (not Feb 1, 2021 as prior research concluded — Feb 1, 2021 was the press/closing announcement, not the docs date). Dec 31, 2020 + 5yr term = Dec 31, 2025. ~~OZK's disclosed **Dec 18, 2025 maturity** is within normal docs-language variance of that 5yr anniversary … Clean fit.~~ ***[CORRECTED 9/24: the fit was built on a misattributed date. Actual maturity **Feb 13, 2026** ≈ the Feb 1, 2021 closing + 5 years — the original "no Dec 18 fit" concern was right.]***
 
 **Asset specs (corroborated 2026-04-23 PM from original Mortgage body text, Bk 76638 Pg 224):**
 - **Address:** 10 Prospect Street, Somerville MA 02143 (Union Square redevelopment, Parcel D2.1)
