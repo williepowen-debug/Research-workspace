@@ -38,6 +38,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE (this session / 24hrs)
+- 2026-09-25: **DEWEY DR-5 packet expected in `inbox/`** (DEWEY messaged 9/24: deliverable today, possibly partial; includes a DR-1 FHA line). Grade under DR-5's pre-registered both-ways rule; prune/redate the two 10/9 docket rows accordingly.
 - 2026-09-25: UMich September final (1Y 4.6% prelim reversal); re-check the Xi–Trump summit tariff outcome and ICE August First Look (404 on 9/24).
 
 ### UPCOMING (this week)
