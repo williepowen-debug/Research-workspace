@@ -13,7 +13,7 @@
 > ### ✅ RAISE WITH WILL AT BOOT — **nothing is Will-gated today.**
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the Q3 frame), not before.** Creds are on the **DESKTOP** only.
 
-**KB:** **198 rows / 20 distinct Group values** (+11 on 9/24: 188-198). **Expiry backlog 61 → 41 past `Stale_By`** (20 judged row-by-row 9/24: 10 SUPERSEDED with successor named, 10 extended with reasons; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
+**KB:** **200 rows / 20 distinct Group values** (+13 on 9/24: 188-200). **Q2 13F aggregate RUN 9/24** (KB-199: institutional ownership 84.7% → 90.0%, AQR-led; `research/Q2_13F_AGGREGATE_2026-09-24.md`). **Expiry backlog 61 → 0 past `Stale_By`** (all judged row-by-row 9/24: 37 SUPERSEDED with successor named, 24 extended with reasons; 41 rows still have a BLANK `Stale_By`; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
 
 ---
 
@@ -86,7 +86,7 @@
 | Q3 print + Q3 10-Q | ~mid-Oct / ~late Oct | WAL-01/02 resolution; migration DP2 of 3 |
 | Q3 FFIEC Call Report | ~Oct-Nov | MI3 re-test; NDFI nonaccrual 2nd quarter (desktop; JWT 11/5) |
 | Form 4 + **144** monthly | monthly | V4 discriminators (above) |
-| H2 $150M buyback execution | H2 2026 | Bull-leg vs guide (KB-119; share count −1.7% KB-173) |
+| H2 $150M buyback execution | H2 2026 | Bull-leg vs guide (KB-119). ⚠️ **Share count was FLAT in Q2 (−0.08%, 10-Q covers, KB-200)** — the old "−1.7%" (KB-173) was 13G rounding noise. First carrier for H2 execution: the Q3 10-Q cover + repurchase table |
 | Capital-rules final (AOCI Cat III/IV) | pending | Second capital-drain leg — ⚠️ **10Y at 5.11% (9/23) worsens the AFS mark the rule would count** |
 | OZK IQHQ outcome (peer read-across) | **OZK's Q3 call, ~Oct** | Sponsor behaviour in Class-A life science ONLY — severity does NOT transfer. Aug window closed SWEPT-AND-EMPTY; no August outcome recorded. Co-timed with WAL's own Q3, not an early read. |
 
