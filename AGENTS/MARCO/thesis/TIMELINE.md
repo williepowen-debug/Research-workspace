@@ -45,6 +45,7 @@ Dated event spine. Resolved events (mark ✅ with outcome) + forward branch poin
 | 2026-09-22 | **PROME CONFIRMED `ID-01`'s both-months reading** as controlling for the Sep/Oct StatCan prints | 2 | Floor not re-levelled mid-window; retire-as-unidentifiable open at the Dec grade |
 | 2026-09-24 | **MIA August −5.69% YoY / −6.53% 2-yr on Miami-Dade's own count** — worst month of 2026, Spirit-free; **Will ruled the MIA-2-consecutive trigger grades on this airport basis** (BTS beside) | 2 | ⚠️ Not yet a demand verdict (intl leg capacity-led; dom load factor 85.2→81.1% is the demand-flavored tell). `MAR-24` 70→80%. Trigger NOT met (Jul +0.10) |
 | 2026-09-24 | **Energy re-arm SUPERSEDED — re-specified as `ENR-02`** (s29, Will-directed). Price leg now CITES BRENT's own $85 registry row (`MKT-BZ-F-BELOW-85`) instead of a MARCO duplicate; MARCO grades the fare stage — CPI airline fares 2-yr stack, Sep + Oct both ≥ +20% = SUSTAINED | 3 | The 8/24 re-arm stays **UNGRADED** (never back-graded). Aug fares already +23.41% YoY / +27.46% 2-yr — transmission is live at the fare stage; Spirit a co-driver after May. Pruned from docket 2026-09-24 |
+| 2026-09-24 | **Channel 4 fiscal-terminus rebuild RUN → thesis v3.2, Channel 4 LOW (Will-ruled)** — TX border receipts +5.70% (≈ state); El Paso/McAllen/Nogales stable; Laredo early stress (tariff-attributed); Pharr S&P A+→A Neg 4/9/26 = threshold-met / mechanism-refuted | 4 | Forecast 'border-muni bond stress' withdrawn; Laredo watch docket 2027-03-31 |
 
 ---
 

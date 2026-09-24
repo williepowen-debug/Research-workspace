@@ -241,7 +241,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary daily memory.** |
 | `SCRATCH.md` | **Canonical session handoff** (ephemeral — overwritten each session). CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. Boot read 2 → write 10. |
 | `MEMORY.md` | **Persistent MARCO-specific learnings** (durable — characteristic analytic error, source-quality map, operational caveats). The tier between SCRATCH (overwritten) and auto-memory (transferable only). Boot read 3 → prune/promote 12. |
-| `thesis/THESIS.md` | **Canonical versioned thesis** (**v3.1** — Channel 1 demoted from spine, Channel 4 MED-LOW and split) — core claim, 5 transmission channels, conviction by channel. *(v2.5 → v3.1, 2026-08-12: this row is in the file MARCO boot-loads and was **6 versions adrift**. Do not hand-maintain — `scripts/version_drift_check.py` now guards it at boot.)* |
+| `thesis/THESIS.md` | **Canonical versioned thesis** (**v3.2** — Channel 1 demoted from spine; Channel 4 LOW, fiscal terminus measured stable 9/24) — core claim, 5 transmission channels, conviction by channel. *(v2.5 → v3.1, 2026-08-12: this row is in the file MARCO boot-loads and was **6 versions adrift**. Do not hand-maintain — `scripts/version_drift_check.py` now guards it at boot.)* |
 | `thesis/CHANGELOG.md` | Thesis version-transition log (old view → new view). |
 | `thesis/TIMELINE.md` | Dated event spine — resolved events + forward branch points. |
 | `thesis/PREDICTIONS.tsv` | Full prediction detail (moved from top-level 2026-05-31). |

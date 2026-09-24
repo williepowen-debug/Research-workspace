@@ -74,4 +74,4 @@
 
 ---
 
-*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). MARCO is a HEAVY cross-domain agent; its primary consumers (REGINALD, CARL, CORAL) are not on the brief circuit, so the SENDING table is the routing surface. Canonical sources — never restated here: full prediction detail `thesis/PREDICTIONS.tsv` · thesis `thesis/THESIS.md` (v3.1) · dated spine `thesis/TIMELINE.md` · forward dates `docket/CATALYSTS.tsv` · verification log `FIGURES.md`.*
+*Brief format follows the NEXUS_BRIEF schema (R3 + amendment 7). MARCO is a HEAVY cross-domain agent; its primary consumers (REGINALD, CARL, CORAL) are not on the brief circuit, so the SENDING table is the routing surface. Canonical sources — never restated here: full prediction detail `thesis/PREDICTIONS.tsv` · thesis `thesis/THESIS.md` (v3.2) · dated spine `thesis/TIMELINE.md` · forward dates `docket/CATALYSTS.tsv` · verification log `FIGURES.md`.*

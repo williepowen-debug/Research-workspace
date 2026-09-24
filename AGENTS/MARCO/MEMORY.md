@@ -6,7 +6,7 @@ Durable, MARCO-specific learnings — the tier *between* the per-session handoff
 ---
 
 ## Genesis
-Migration / population-movement agent. **Founding two-channel spine (HISTORICAL — superseded, kept because the errors in it are the lessons below):** (1) ag-labor stock shock + (2) Canadian-travel boycott. **Current state:** Channel 1 was **demoted from the spine** at v3.0 (7/31) — quantity HIGH, transmission UNDEMONSTRATED after three pre-registered nulls; **Channel 2 is now the highest-conviction transmitting channel.** Channel-1 magnitude is **~1.0M realized foreign-born LF decline / ~1.5M population** (v2.6, 7/2). ⚠️ *This line read "2.2M self-deportation" until 7/31 eve — the exact retracted figure whose lesson is written out at the bottom of this section, sitting in the file MARCO boot-reads every session. Found by PROME audit, not by MARCO.* Full thesis → `thesis/THESIS.md` (**v3.1**).
+Migration / population-movement agent. **Founding two-channel spine (HISTORICAL — superseded, kept because the errors in it are the lessons below):** (1) ag-labor stock shock + (2) Canadian-travel boycott. **Current state:** Channel 1 was **demoted from the spine** at v3.0 (7/31) — quantity HIGH, transmission UNDEMONSTRATED after three pre-registered nulls; **Channel 2 is now the highest-conviction transmitting channel.** Channel-1 magnitude is **~1.0M realized foreign-born LF decline / ~1.5M population** (v2.6, 7/2). ⚠️ *This line read "2.2M self-deportation" until 7/31 eve — the exact retracted figure whose lesson is written out at the bottom of this section, sitting in the file MARCO boot-reads every session. Found by PROME audit, not by MARCO.* Full thesis → `thesis/THESIS.md` (**v3.2**).
 
 ---
 

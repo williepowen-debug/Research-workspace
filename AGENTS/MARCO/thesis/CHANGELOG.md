@@ -4,6 +4,21 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## v3.1 → v3.2 (2026-09-24, session 29) — MINOR — **Channel 4 re-marked MED-LOW → LOW; the fiscal terminus is now MEASURED, and stable on its own mechanism** *(Will-ruled in session: "Lower to LOW, watch Laredo")*
+
+**Trigger:** the v3.1 falsification test was run in full. Receipts leg: 11 TX border cities Jan–Sep 2026 **+5.70%** vs all TX **+6.24%** (Comptroller, primary; reproduces the carried Jan–Jul +4.75% exactly). Credit leg (ratings + audited general funds; EMMA not accessed — terms gate): El Paso / McAllen / Nogales AZ **STABLE**; **Laredo early stress** (FY26 est. GF draw −19%, city-attributed to **tariffs**); **Pharr S&P A+ → A Negative (2026-04-09)** on negative GF cash / over-expenditure while its sales tax and bridge tolls **grew**.
+
+**Old view (v3.1):** 🟡 FLOW LIVE / FISCAL TERMINUS UNVERIFIED · MED-LOW — downgrade resting on absence of evidence.
+**New view (v3.2):** ⬇ FLOW LIVE / FISCAL TERMINUS MEASURED · **LOW** — now resting on **present, contrary evidence**: the tax base the mechanism says erodes is growing everywhere measured, and the two stressed cities are stressed for non-channel reasons. **Pharr scored threshold-met / mechanism-refuted.** Forecast line "border-municipal bond stress" withdrawn.
+
+**Why LOW and not retired (Will's choice between the letter's two options):** Laredo's reserve draw is real and sits against S&P's stated trigger; its cause (tariffs → trade) is adjacent to cross-border dependence even though it is not the shopper mechanism. One dated watch keeps it honest: Laredo FY26 audited ACFR (~2027-03-31) + any S&P action.
+
+**Corrections carried with the version:** frozen snapshot "El Paso ~60% pension" is WRONG (78–80%; 64.6% = Laredo Firefighters); "Pharr S&P negative outlook" came WITH a downgrade. No fleet consumer (grep 9/24).
+
+**Conviction deltas:** Channel 4 overall MED-LOW → **LOW**; flow leg MEDIUM (unchanged, lives under SDL-01); fiscal terminus LOW-UNVERIFIED → **LOW-VERIFIED**. No other channel touched. Evidence: `domain/sources/BORDER/2026-09-24_border_municipal_credit_rebuild.md`, `KB-MARCO-TX-09..12`, `VX-MARCO-TX-03`.
+
+---
+
 ## v3.0 → v3.1 (2026-07-31, session 19) — MINOR — **Channel 4 re-marked MEDIUM → MED-LOW and split along its own mechanism** *(Will-directed)*
 
 **Trigger:** the same-day VX stale sweep froze 17 border-fiscal vectors, which surfaced that THESIS was carrying Channel 4 at MEDIUM on an evidence base nobody had touched since **February 2026**. Flagged as a decision rather than actioned unilaterally; Will directed the re-mark.
