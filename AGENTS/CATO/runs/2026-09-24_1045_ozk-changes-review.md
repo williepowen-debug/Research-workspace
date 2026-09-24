@@ -1,6 +1,6 @@
 # OZK changes review — September 24, 2026
 
-**Disposition: retain the rebuild; make bounded corrections to consequential claims, then resume source work.** OZK made real changes to its working documents and executable filing watch. The desk is easier to resume, but document maintenance has not discharged its overdue research. Four findings below distinguish three substantive corrections from a smaller pre-print resolver clarification. CATO changed no OZK files and sent no instructions or packets.
+**Current disposition: OZK's bounded correction pass accepted at `daff3885c`; PROME consumer reconciliation remains open.** OZ2/OZ3/OZ4 closed within the inspected correction perimeter; OZ1 closed locally but coordinator propagation remains partial. The September 24 follow-up below records independent checks and limits. Retain the rebuild and resume the existing source work; no further broad rewrite assigned. The original findings below remain dated evidence. CATO changed no OZK files and sent no instructions or packets.
 
 ## Assignment and evidence perimeter
 
@@ -71,3 +71,24 @@ OZK-09 now requires three completed, dated searches before negative resolution a
 Suggested instruction for Will to give PROME: “Keep OZK's rebuilt files. Have OZK correct the redemption/capital interpretation, qualify the unsupported delinquency-to-NPA flow claim, quarantine or verify the Affinius maturity, and finish the prediction date/attribution guards. Keep existing grades, weights and Will-gated proposals unchanged unless a separate decision is needed. Show the exact changes and the counterexamples they handle. Then prioritize the already-open full Q2 10-Q read and Horton leasing check ahead of further document restructuring.”
 
 This wording has **not** been sent. CATO's assignment ends with this review; no owner fixes, new research, sends or launches are authorized by closeout. Next session: orient and await Will.
+
+## September 24 follow-up — owner correction acceptance
+
+Will supplied OZK's completion response naming `daff3885c`. Inspected `daff3885c8f974739ef27602b4db06d8cb7fab1c`; the repair implementation is `c46016675`, while `daff3885c` delivers the PROME inbox memo. Startup HEAD and origin/master matched and the tree was clean. The intervening IQHQ_PLAYBOOK rebase `9240da76a` is not independently certified by this bounded recheck; only its relevant Affinius correction was checked.
+
+| Finding | Independently verified correction | Disposition |
+|---|---|---|
+| OZ1 | THESIS §4 distinguishes retaining/resetting, redeeming without replacement and refinancing; CALENDAR's rc1 branch requires interest/capital recalculation. STATUS's retained base-case numbers do not themselves contradict those branches. | **Locally closed; PROME propagation partial**, below. |
+| OZ2 | THESIS, STATUS and Call Report log §6 now say FIRED-LITERAL / mechanism UNDETERMINED, retain the zero-migration counterexample and withdraw the harmlessness conclusion. LESSONS and MEMORY carry the correction. The literal criterion remains unchanged and P-OZK-4 remains gated. | **Closed in inspected adjudication surfaces.** No new conviction ruling inferred. |
+| OZ3 | CALENDAR, STATUS, boot countdown and IQHQ playbook explicitly qualify the event itself as unverified/not actionable, while TODO C5 remains open. | **Closed by quarantine**, not by bond verification. |
+| OZ4 | OZK-03's remaining invalidation date is aligned; OZK-09 explicitly requires attribution or a valid bound, with the all-searches-complete/no-attribution example yielding STUCK. | **Closed.** |
+
+The nine previously passing independent watcher checks still pass, and the repeated-baseline response now correctly returns rc2 UNKNOWN: **10/10 independent checks**. The owner's selftest is **11/11**. Test execution was offline; the claimed live quiet result was not independently re-run. The new test outputs and prediction-field comparison are saved in [correction evidence](2026-09-24_ozk-correction-check.json). The only prediction cells changed since CATO's preceding review are the two Invalidation cells (OZK-03/OZK-09); prediction text, confidence, status, outcome and timeframe are unchanged. These checks do not certify source completeness or all model inputs.
+
+Smaller fixes verified in their inspected copies: the 12-month interval in STATUS/INDEX/adjudication/KB; withdrawal of the loss-driven-contraction claim in THESIS; and MEMORY's TODO R1/R2/R3 references. The completion memo explicitly retains stale 18-month wording in earlier delivered packets as minor historical residue; no new broadcast is warranted solely for that.
+
+**PROME's remaining work is real, but the row is not wholly uncorrected.** DOCKET L463's leading action still says rc0 means HAPPENED; later text already explicitly overrides that with SCHEDULED-UNCONTRADICTED, never CONFIRMED. Reconcile the leading instruction with its existing correction and add the redemption/refinancing recalculation branch. L126 still labels the SOFR convention unverified: it can now cite the sourced **benchmark formula**, three-month term SOFR + 209bp. That does not turn the daily-SOFR-proxy $11.2M estimate into a verified reset coupon or realized expense. These are coordinator-owned edits. The memo exists in `PROME/inbox/2026-09-24_from-OZK_CATO-OZ1-OZ4-corrections-applied.md`; PROME consumption and the owner's reported failed live message were not independently verified.
+
+**Separate decision, not a correction loophole:** P-OZK-4 has not been approved by this review. Its existing proposal uses two successive quarterly declines in a combined stock measure, and itself records that measure down about 4% in Q2. A future replacement rule must preserve the fact that the original Q2 warning fired. The older proposal paragraph's phrase “false clean kill” still reads more strongly than the corrected adjudication; treat that as drafting residue to reconcile when the gated proposal is actually prepared, not authority to dismiss Q2 now. No automatic confidence cut or replacement threshold is directed here.
+
+**Recommendation:** stop OZK's correction loop. Let the existing Q2 10-Q full read and Horton leasing work proceed in the owner's workstream, with the Q2 problem-credit roster refreshed from the filing rather than inferred solely from aggregate foreclosed assets. PROME should complete the narrow docket reconciliation on consumption. CATO authored only this follow-up, its evidence and CONTINUITY; no owner edits, sends, launch, publication or new research. Resume: orient and await Will.

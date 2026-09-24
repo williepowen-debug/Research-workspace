@@ -1,0 +1,55 @@
+{
+  "revision": "daff3885c8f974739ef27602b4db06d8cb7fab1c",
+  "watcher_checks": [
+    {
+      "case": "full_baseline",
+      "rc": 0
+    },
+    {
+      "case": "new",
+      "rc": 1
+    },
+    {
+      "case": "empty_list",
+      "rc": 2
+    },
+    {
+      "case": "empty_object",
+      "rc": 2
+    },
+    {
+      "case": "missing_id",
+      "rc": 2
+    },
+    {
+      "case": "boolean_id",
+      "rc": 2
+    },
+    {
+      "case": "short",
+      "rc": 2
+    },
+    {
+      "case": "older",
+      "rc": 2
+    },
+    {
+      "case": "repeated_baseline",
+      "rc": 2
+    },
+    {
+      "case": "network_timeout",
+      "rc": 2
+    }
+  ],
+  "prediction_changed_cells_since_review": {
+    "OZK-03": [
+      "Invalidation"
+    ],
+    "OZK-09": [
+      "Invalidation"
+    ]
+  },
+  "unchanged_prediction_fields": "Prediction, Confidence, Timeframe, Status, Date_Resolved, Outcome, Notes",
+  "limits": "Offline fixtures only; no live API or full IQHQ_PLAYBOOK rebuild audit."
+}
