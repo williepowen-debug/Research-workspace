@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-09-11T14:09Z	COR-20260910-02	NO-OP	
 2026-09-24T20:44Z	COR-20260924-19	APPLIED	
+2026-09-24T21:33Z	COR-20260826-02	APPLIED	artifact=AGENTS/SAM/inbox/processed/2026-08-23_from-LIQUID_your-yen-carry-cover-VERIFIED-at-primary-and-it-REVERSED-in-the-latest-week.md; artifact=AGENTS/SAM/outbox/2026-08-23_to-PROME_orch-touch-report-cpi-2025base-graded-cot-vintage3-graded-inbox-13-to-1.md:25; artifact=AGENTS/SAM/STATUS_ARCHIVE.md:129 — the 8/18 re-short reversal was integrated 2026-08-23, before this row was registered 8/26; receipted late (row was hidden by the pre-fix L139 skip). Since superseded: CFTC Sep-15 net +120,359 LONG (KB-SAM-257).
