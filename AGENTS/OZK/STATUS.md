@@ -72,9 +72,9 @@ Both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 R
 | Status (6/30) | Credits | $ |
 |---|---|---|
 | **Substandard nonaccrual (4 RESG, $251.9M)** | **Boston life sci** (10 Prospect; **matured Feb 13, 2026**; $330M sale pending, financing uncertain) $169.3M · **Baltimore land** (**matured Dec 18, 2025**; 212 DPD; buyers or title) $40.0M · **The Jack**, Seattle office (debt-on-debt; recap LOI, close Q3) $25.9M · **Wauwatosa hotel** (sale contract, hard earnest money, close Q3) $16.7M | $300.4M total nonaccrual; **$257.8M carries $0 ALL** |
-| **Substandard accrual ($72.8M)** | Lake Tahoe lots/homes $29.4M · **a $40.4M C&I loan modified for financial difficulty** (new in Q2) | |
-| **Foreclosed ($292.7M)** | Seattle office $56.1M + life sci $48.5M (**foreclosed June** after the buyer withdrew) · LA land $54.5M (LOI) · Chicago life sci $47.5M · Santa Monica office $44.8M · **Atlanta office $36.6M (new — SM at Q1, foreclosed June)** | H1 inflows $241.6M vs sales $6.9M |
-| **Special mention ($616.2M)** | **Five RESG credits = $529.2M** (condo, office, mixed use, land) incl. a **$147M condo at 105.6% LTV** and a $196M mixed-use | +$219M QoQ |
+| **Substandard accrual — bank-wide $72.8M** | RESG: Lake Tahoe lots/homes $29.4M · non-RESG: a **$40.4M C&I** loan modified for financial difficulty (a $28.5M C&I hardship mod also occurred in Q2'25) | |
+| **Foreclosed — bank-wide $292.7M (RESG six ≈ $288.1M)** | Seattle office $56.1M + life sci $48.5M (**foreclosed June** after the buyer withdrew) · LA land $54.5M (LOI) · Chicago life sci $47.5M · Santa Monica office $44.8M · **Atlanta office $36.6M (new — SM at Q1, foreclosed June)** | H1 inflows $241.6M vs sales $6.9M |
+| **Special mention — bank-wide $616.2M** | of which **five RESG credits = $529.2M** (condo, office, mixed use, land) incl. a **$147M condo at 105.6% LTV** and a $196M mixed-use | +$219M QoQ |
 | **Cured / exited in Q2** | **Sullivan Courthouse $156.4M recapitalized → pass** · San Carlos life sci (SM, debt-on-debt) paid off with a $14.8M c/o | |
 
 Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atlanta $8.5M, San Carlos $14.8M). **82% of H1 gross charge-offs are 2022-vintage.** **RaDD ($555M) was pass-rated at 6/30 by elimination** (it is larger than either classified bucket). ⚠️ *Until 9/24 this section said Boston "matured Dec 18 2025" — that date is Baltimore's (misattributed since April).*

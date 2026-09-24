@@ -86,7 +86,7 @@
 
 ### #5 — Boston Life Sci ($169.3M) — ✅ RESOLVED HIGH (2026-04-23 PM: 10 Prospect Street / USQ Parcel D2.1 / Magellan JV confirmed via UCC-1 filing)
 
-**Verdict:** **Candidate A — 10 Prospect Street, Somerville** is the $169M Boston Life Sci substandard credit. HIGH confidence. Confirmed via post-maturity UCC-1 financing statement filing at Middlesex South Registry of Deeds, Book 85169 Page 222, filed Jan 29 2026.
+**Verdict:** **Candidate A — 10 Prospect Street, Somerville** is the $169M Boston Life Sci substandard credit. HIGH confidence. Confirmed via a ~~post-maturity~~ **pre-maturity** *(corrected 9/24: filed Jan 29, 2026, two weeks before the Feb 13, 2026 maturity)* UCC-1 financing statement filing at Middlesex South Registry of Deeds, Book 85169 Page 222, filed Jan 29 2026.
 
 **Dispositive evidence:**
 - **UCC-1 Financing Statement filed Jan 29 2026** (Doc #9975, Book 85169 Page 222) at Middlesex South ROD
