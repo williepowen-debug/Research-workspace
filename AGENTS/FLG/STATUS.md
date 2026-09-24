@@ -175,7 +175,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 **Owed by me:** ① FFIEC CDR pull to close the MI3 MDRM residual · ② a numeric comparator for K-4's "materially above" leg (DAEDALUS 8/23 §3, carried) · ③ primary for the freeze litigation (docket/order text) if it rules. *(Stage 2 maturity schedule — DONE 8/28, `MATURITY_WALL.tsv`; line removed 9/24.)*
 
-**Owed to me:** REGINALD — VX-REG-6.03 state + detector decision (packet 9/24). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
+**Owed to me:** nothing. ✅ REGINALD closed all three 9/24 (`cdc52d872`, verified at artifact): VX-REG-6.03 **YELLOW dated 9/16**; matrix score unchanged at 6; detector `AGENTS/REGINALD/scripts/vx_ladder_check.py` wired into its boot. **At or below $12.10 (ORANGE), REGINALD packets PROME + FLG the same session.** One exit-code defect flagged back (an import failure exits 1, which reads as a breach). *(Cure-share cohort base rate — CLOSED 8/28, NOT PARSEABLE, `180ca0157`.)*
 
 ---
 
