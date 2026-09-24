@@ -19,7 +19,7 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 **Same session, non-substantive:** `THESIS.md`'s `FRAUD/` file-table row re-pointed from "refresh pending Wave 1 chunk 2" to the two live FOLD sections applied 9/24 (FIRST_BRANDS = LAM/Jefferies, STUPIN_CRE = Cantor). 7 FRAUD files archived.
 
-**Found by:** the FRAUD-corpus review, `research/FRAUD_CORPUS_REVIEW_2026-09-24.md`, verified at the artifact before applying. **Not edited:** the desk `CLAUDE.md` lines 16 and 150 (boot card, raised with Will). **Why no weight moves:** the residual is not an input to any scenario weight or range; it is V2 forward-risk context (V2 is excluded from the composite).
+**Found by:** the FRAUD-corpus review, `research/FRAUD_CORPUS_REVIEW_2026-09-24.md`, verified at the artifact before applying. **Desk `CLAUDE.md` lines 16 and 150:** held for Will's OK (boot card), then corrected the same day on his word ("yes, fix the CLAUDE.md lines"). **Why no weight moves:** the residual is not an input to any scenario weight or range; it is V2 forward-risk context (V2 is excluded from the composite).
 
 ---
 
