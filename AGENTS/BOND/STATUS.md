@@ -21,7 +21,7 @@
 
 ## Regime (one-line)
 
-**Real-rate / higher-for-longer — and the policy path is still repricing HAWKISHLY.** C-36 TWO-PART (ruled 9/1): policy-path channel ALIVE · term premium drove the July delta. **9/16 FOMC +25bp to 3.75–4.00 (12–0); the curve priced ABOVE the SEP median (4.125) and then kept going (`BND-26`).** **Auctions: "expensive, not broken" is UNDER TEST — first OLD-conjunctive fire since the test was built (base rate 1.8%/auction), on a macro sell-off day, with calm funding.** Full ruling → `thesis/THESIS.md` v1.2.7.
+**Real-rate / higher-for-longer — and the policy path is still repricing HAWKISHLY.** C-36 TWO-PART (ruled 9/1): policy-path channel ALIVE · term premium drove the July delta. **9/16 FOMC +25bp to 3.75–4.00 (12–0); the curve priced ABOVE the SEP median (4.125) and then kept going (`BND-26`).** **Auctions: "expensive, not broken" is UNDER TEST — first OLD-conjunctive fire on this desk's LIVE-graded record (KB searched 9/24; out-of-sample base rate 4/224 = 1.8%), on a macro sell-off day, with calm funding.** Full ruling → `thesis/THESIS.md` v1.2.7.
 
 ---
 
@@ -68,11 +68,11 @@
 
 | # | Vector | Score | Status | Rolls up (`workbook/VX.tsv`) | Key Signal | Upgrade Trigger |
 |---|---|---:|:--:|---|---|---|
-| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `12` · `14` | DGS30 5.29 [9/22], run 55; DFII10 2.63 through the gate since 9/10; 1y1y new sample high; vendor 30Y 5.43 intraday | **A fresh DGS30 high WITH weak composition — 9/23 HAS the weak composition; if H.15 DGS30[9/23] >5.37 the letter fires ⇒ 4** (docketed 9/25). Or DFII10 sustained (WQ-246) |
-| 2 | Treasury auction health | **3** ▲ | 🟠 | `VX-BND-01` · `08` · `13` | **9/23 5Y: BTC 2.21 < 2.28 cover bar (and <2.3 KEY-THRESHOLD cover marker) + OLD composition failure + `I'`; 7Y `I'` by 0.04pp.** Paired kill NOT fired (funding −3bp; FR2004 leg unevaluable ~mid-Oct) | A composition failure with the funding/FR2004 leg CONFIRMED (paired kill) ⇒ 4 |
-| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback op: F2 read ~14:15** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
-| 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `11` | HY 273 inert; **CCC 1093 fresh high, 7bp from 1100**; CCC−BB 934 new span max | HY >300 with velocity, or a pulled-deal cluster |
-| 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `10` | IG 77 [9/23] | IG >120 or a failed syndication |
+| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | DGS30 5.29 [9/22], run 55; DFII10 2.63 through the gate since 9/10; 1y1y new sample high; vendor 30Y 5.43 intraday | **A fresh DGS30 high WITH weak composition — 9/23 HAS the weak composition; if H.15 DGS30[9/23] >5.37 the letter fires ⇒ 4** (docketed 9/25). Or DFII10 sustained (WQ-246) |
+| 2 | Treasury auction health | **3** ▲ | 🟠 | `VX-BND-01` · `VX-BND-08` · `VX-BND-13` · ~~`VX-BND-09`~~ RETIRED (tail) | **9/23 5Y: BTC 2.21 < 2.28 cover bar (and <2.3 KEY-THRESHOLD cover marker) + OLD composition failure + `I'`; 7Y `I'` by 0.04pp.** Paired kill NOT fired (funding −3bp; FR2004 leg unevaluable ~mid-Oct) | A composition failure with the funding/FR2004 leg CONFIRMED (paired kill) ⇒ 4 |
+| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback op: F2 read ~14:15** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
+| 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | HY 273 inert; **CCC 1093 fresh high, 7bp from 1100**; CCC−BB 934 new span max | HY >300 with velocity, or a pulled-deal cluster |
+| 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `VX-BND-10` | IG 77 [9/23] | IG >120 or a failed syndication |
 | 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.28 [9/8, STALE] | Synthetic leading cash, sustained |
 | 7 | Credit-equity lead | **1** = | 🟢 | `VX-BND-07` | Inactive — 65–90bp headroom | HY +75–100bp from 263 while VIX <20 |
 
