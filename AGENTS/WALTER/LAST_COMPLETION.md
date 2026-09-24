@@ -114,14 +114,14 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
 
 ## CLOSEOUT RECEIPT
 
-**Dated evidence snapshot, computed 2026-09-24T17:23:54Z from a real clock read — not a live publication promise.** All three session commits were carried to origin by another desk's push train. WALTER did not run `safe-push` itself: foreign uncommitted work (BOND, CARL, DEWEY, `memory/auto/`) was present all session, so the push was deferred per charter step 16. **Verified by `git merge-base --is-ancestor` against a fresh fetch, not assumed.** `reconcile_delivery_log.py --apply`: **28 pending → delivered, 0 REAL ORPHANS**, field count uniform at 9. **Pushed by WALTER at the end, after the tree went clean: `Pushed. CONFIRMED: HEAD c7a7a681b is on origin/master (fresh fetch).` `reconcile_delivery_log.py --apply` wrote 23 rows → delivered, 0 REAL ORPHANS. All 54 of today's handoffs are on origin.** ⛔ Delivered is not consumed.
+**Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
 
 ⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-09-24T18:20:02+00:00",
+  "as_of": "2026-09-24T19:41:30+00:00",
   "publication": [
     {"commit": "dacacc61e", "state": "published"},
     {"commit": "b9165f734", "state": "published"},
@@ -131,18 +131,30 @@ Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addr
     {"commit": "436442a26", "state": "published"},
     {"commit": "5ce79b47f", "state": "published"},
     {"commit": "c7a7a681b", "state": "published"},
-    {"commit": "5e03b8409", "state": "published"}
+    {"commit": "5e03b8409", "state": "published"},
+    {"commit": "cb4c51368", "state": "published"},
+    {"commit": "37cfb3c3e", "state": "published"},
+    {"commit": "e9843de21", "state": "published"},
+    {"commit": "ab549b79f", "state": "published"},
+    {"commit": "9eabf8a16", "state": "published"},
+    {"commit": "8ef85b276", "state": "published"},
+    {"commit": "589db9b50", "state": "published"},
+    {"commit": "24c290efa", "state": "published"},
+    {"commit": "fd68935f9", "state": "published"},
+    {"commit": "44109976a", "state": "published"},
+    {"commit": "133f28aef", "state": "published"},
+    {"commit": "edef8c15e", "state": "pending"}
   ],
   "delivery": {
     "signal_date": "20260924",
-    "total": 54,
-    "delivered": 54
+    "total": 64,
+    "delivered": 62
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {"path": "AGENTS/HAWK/research/2026-09-22_covert-claim-rule-revision.md", "sha256": "1e4eefb6f0a28846087e197e9096da50205d1814873ef164e0b6fe7d3eaee0f5", "note": "HAWK's live replacement for its 9/21 class-rule (KB-HAWK-407), which closes the consumer half of CATO W1. WALTER read HAWK's packet summary of it, NOT this file whole."},
-      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "a9ed9b4e650e9bf44b7dd09a9b24daf4462f4422139c4df64bcf9fd0ee002c65", "note": "CARL-DR-5 report; ledger row closed RESOLVED on DEWEY's handoff. WALTER did NOT read the report whole or re-verify its correction candidate on SIG-W-20260813-019."}
+      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "a9ed9b4e650e9bf44b7dd09a9b24daf4462f4422139c4df64bcf9fd0ee002c65", "note": "CARL-DR-5 report; ledger row closed RESOLVED on DEWEY's handoff. Its correction candidate on SIG-W-20260813-019 WAS re-verified by WALTER at the Bain release and FRED RSGCS/CPI food-at-home and dispatched as SIG-W-20260924-017 (later leg). WALTER read the report's findings sections, not every line."}
     ]
   },
   "next_review": "2026-09-25"
