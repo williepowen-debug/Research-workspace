@@ -89,3 +89,4 @@ Q2 10-Q carried (`KB-WAL-148`): $98.5M to nonaccrual (9/30/25) · $29.6M specifi
 
 - *2026-09-24: registered. Filing date unknown. Watch EDGAR from ~10/24 and pin it here.*
 - *2026-09-24: 10/24 is a **Saturday**, and EDGAR doesn't accept filings on weekends, so the effective earliest filing date is **Mon 10/26**. The L171 deadline of 10/24 is kept as the conservative date; this frame is complete either way.*
+- *2026-09-24 ~09:xx ET (REGINALD Cat-IV/AOCI packet, KB-WAL-198): **added cell, non-gating: AFS fair-value hedges + effective duration.** Read the AFS securities note and the derivatives/hedging note for (a) the notional of fair-value hedges on AFS and (b) any stated duration or rate-sensitivity figure. It replaces REGINALD's ASSUMED 3-5 duration with a measured one, and hedged AFS makes the Q3 AOCI hit smaller than his range. Absent ⇒ his range stays labelled ASSUMED. Also record holdco total assets at 9/30 (4Q-average input vs $100B).*

@@ -13,7 +13,7 @@
 > ### ✅ RAISE WITH WILL AT BOOT — **nothing is Will-gated today.**
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the Q3 frame), not before.** Creds are on the **DESKTOP** only.
 
-**KB:** **197 rows / 20 distinct Group values** (+10 on 9/24: 188-197). **Expiry backlog 61 → 41 past `Stale_By`** (20 judged row-by-row 9/24: 10 SUPERSEDED with successor named, 10 extended with reasons; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
+**KB:** **198 rows / 20 distinct Group values** (+11 on 9/24: 188-198). **Expiry backlog 61 → 41 past `Stale_By`** (20 judged row-by-row 9/24: 10 SUPERSEDED with successor named, 10 extended with reasons; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
 
 ---
 
