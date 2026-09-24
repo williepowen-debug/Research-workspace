@@ -3,11 +3,14 @@
 **Status:** 🟠 **v3.2** (unchanged s30). 🆕 **s30 stale sweep:** Central America remittances are **decelerating, not reversing** (+7.2% Jan–Jul, central-bank primaries ⇒ MAR-12 35→8%); **US expatriation list → ELEVATED** (trailing-4Q 5,790); **construction-wage gap ELEVATED on preliminary August** (vector only); **the FL voter-registration 'counter-signal' was the midterm cycle** (vs 2022 −21%). Carried from s29: Channel 4 LOW; airfares +23.41% YoY (`ENR-02`, grades 10/14); MIA Aug −5.69% (Spirit-free).
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-09-24 ~16:xx ET (session 30 — Will-directed boot + stale-info sweep). **STATUS commit:** `1fe88f48e`.
+**As of:** 2026-09-24 ~16:xx ET (session 30b — five 7/31 vector rows refreshed). **STATUS commit:** `9391d2802`.
 
 ---
 
 ## VIEW
+
+- 🆕 **(s30b) Canadian search interest in Florida travel: the June 'collapse' was one month.** Google Trends (Canada, 'florida' in the Travel category) vs 2024: Jun −43.8% → **Aug −23.1%** — CRITICAL, not BREACHED; it has sat ~23–32% below 2024 all year (April −13% the exception). Searches for flights to Florida are **above** 2024 (+6.3%). `GTR-01`, `KB-IVF-41`.
+- 🆕 **(s30b) The FL-vs-Snowbelt home-price gap has narrowed five months running**, to **+4.93pp** in August (+7.02 in March) — FL-led; Punta Gorda −11.5% → −4.95%. It sits on the ELEVATED/CRITICAL line and the call depends on which metros are in the baskets (now written down; the July baskets never were). Austin: −4.73% YoY, 43 straight negative months. `3.02`, `TX-02`.
 
 - 🆕 **(s30) CENTRAL AMERICA REMITTANCES ARE DECELERATING, NOT REVERSING.** Guatemala + El Salvador + Honduras, central banks' own files: Jan–Jul 2026 **+7.2% YoY**, July **+3.7%** (Q1 +11.4% → Q2 +4.7%). Guatemala and El Salvador have their first negative months; **Honduras +12.3% YTD is the outlier.** MAR-12 (−10% in H2) **35→8%** — Sep–Dec would need to average −16.4%. The desk's carried Q1 (+9.1%, IDB secondary) was 2.3pp low. `KB-REM-08`.
 - 🆕 **(s30) US EXPATRIATION LIST → ELEVATED:** Federal Register name counts H1 2026 **3,243 (+38.5% YoY)**, trailing 4 quarters **5,790** vs the 5,000 line (2025 record 4,889). ⚠️ The widely carried *"Q1 2025 +102% YoY"* was **quarter-on-quarter** — true YoY +273.5% off a low base. The list undercounts and lags. `KB-EMG-02`.
