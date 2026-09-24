@@ -1,7 +1,7 @@
 # OZK — Dashboard
 
 **Updated:** 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
-**Price:** **$46.09** [Wed 2026-09-23 close — FORGE fetch.py asof 2026-09-23 + yfinance] · <$45 band **2.4% away, NOT fired** · −6.1% since 8/31 ($49.08) vs KRE −3.8% | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.95×**
+**Price:** **$46.07** [Thu 2026-09-24 ~11:50 ET **intraday** — FORGE fetch.py asof 2026-09-24; −0.04%; prior close $46.09 9/23] · <$45 band **2.3% away, NOT fired** · −6.1% since 8/31 ($49.08) vs KRE −4.0% ($70.22 intraday) | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.95×** (on $46.07)
 **Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 235 rows / 37 groups
 **Short interest:** **~16.0% of float** (16.21M sh, **8/31/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 16.0** — up from 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
 **Next:** **Oct 1** sub-notes reprice (watch armed; read **Fri 10/2**) · **~Sep 30** Q3 date announcement · **Oct 6** Bluerock BPRE webinar · **~mid/late Oct** Q3 earnings + call = mgmt's "~92-day" RaDD report-back · **~Nov 1-10** Q3 Call Report (FFIEC JWT expires **11/5**)
@@ -85,7 +85,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$46.09** [9/23 close] | <$45 / <$40 | 🟢 Neither fired — <$45 is 2.4% away. $52.49 (8/14) → $49.08 (8/31) → $46.09 |
+| OZK price | **$46.07** [9/24 ~11:50 ET intraday] | <$45 / <$40 | 🟢 Neither fired — <$45 is 2.3% away. $52.49 (8/14) → $49.08 (8/31) → $46.09 (9/23 close) → $46.07 |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 OZK-05 TRUE — above kill-line |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising while RESG falls = adverse selection |
