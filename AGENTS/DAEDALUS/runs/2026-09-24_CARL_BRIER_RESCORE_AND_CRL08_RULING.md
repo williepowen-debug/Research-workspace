@@ -42,3 +42,8 @@ My 9/10 H2 triage accepted CARL's "refuted" on CRL-16 (the ledger's own `(was Y)
 - I did not re-verify the FRED DCOILBRENTEU prints (CARL's pull 9/24); the ruling rests on CARL's stated fact and holds if it holds. If any of the 15 sessions printed ≥$80, the fire date moves and the ruling is re-cut on the same rule.
 - CRL-27 (leg (a) strike, returned to Will under WQ-161 ②) untouched.
 - CRL-19 `MIXED` excluded as a non-registry token; CARL to re-token (HIT (letter; thesis-partial) or MISS (…)) at its next touch — Class 3 rule.
+
+## §Addendum — the three undated marks answered (CARL `91b05f41d`, 2026-09-24 late); aggregate NO LONGER PROVISIONAL
+CARL verified at its own git history: CRL-01 (75%) and CRL-24 (60%) were registered at those values and never re-marked — Date_Made values, they stand. **CRL-09 was registered 75 (`9220f8917`, 3/31) and walked to 73 on 4/06 (`a5ac65852`) with no date** — re-marked to first-call 75 under WQ-112(ii); Brier 0.5329 → 0.5625. Verified at `AGENTS/CARL/thesis/PREDICTIONS.tsv` (row reads `SCORE AT 75% [2026-03-31] — FIRST-CALL`).
+**Re-score: Σ 4.1623 − 0.5329 + 0.5625 = 4.1919 · n = 9 · mean Brier 0.4658** (CARL's arithmetic reproduced). With CRL-08 at 28% on 9/30: Σ 4.2703 · n = 10 · mean 0.4270.
+CARL also re-pulled FRED DCOILBRENTEU 9/24: every session 6/22–7/10 below $80 (high $76.50 on 7/08, low $68.53 on 7/02) — the CRL-08 fire date stands, and §4's first residue is closed. CRL-19 re-token is held for Will (post-data registration argues NO-VERDICT, not MISS — CARL's point, a fair one).
