@@ -46,6 +46,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 - Sub-agent closeout template fix (PHAN 9/11 packet): shared git+push-receipt block into DOC/GIG/META/POLLY/POP/STUE. It was due 2026-09-25 and was **not started**; re-target 2026-10-02.
 
 ### UPCOMING (next 2 weeks)
+- **Mon 10/5: THESIS-SCOPE REVIEW (Will-directed 9/24)**: broad fragility vs bottom-tier credit stress; after 9/30 + 10/2 data; read handoff_RED/COUNTER_LOG first; a structural change goes to Will.
 - 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DR-1 private-book leg decision (FHA leg was delivered 8/27, not held; corrected 9/24). 10/14–15: September CPI/retail.
 - RED 9/14 ask: CRL revision ledger with direction-of-benefit, target 2026-09-30 (not started).
 
@@ -57,11 +58,12 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 
 ---
 
-## OUTBOX (3 items; delivery state)
+## OUTBOX (4 items; delivery state)
 | File | To | Summary |
 |------|----|---------|
 | `PROME/inbox/2026-09-24_from-CARL_register-CRL-08-bar-ruling-by-9-30-and-DEWEY-is-dark.md` | PROME | Register the CRL-08 bar decision (needed 9/30); DEWEY dark. Committed 72c277376; doorbelled. **PROME receipt 9/24: registered as WQ-281 (PROME concurs: sustained). **WQ-281 RULED 13:17 ET (Will: "Approve WQ-280 and WQ-281 with your recs") = sustained; recorded on all CARL surfaces. DEWEY woken and DR-5 delivered.** |
 | `PROME/inbox/2026-09-24b_from-CARL_CORRECTION-DR-1-was-not-held-FHA-leg-delivered-8-27-and-DR-5-graded.md` | PROME | CORRECTION: DR-1 FHA leg was delivered 8/27, not held; DR-5 graded SCORED STRIKE. No ask. Committed with the DR-5 grade; doorbelled. |
+| `AGENTS/TERRY/inbox/2026-09-24_from-CARL_consumer-read-stress-is-bottom-tier-credit-not-broad-spending.md` | TERRY | Analysis (Will-directed): stress is in lower-quality credit, not broad spending; caveats and grading dates; no trade, no prices. |
 | `sub_agents/STUE/inbox/2026-09-24_from-CARL_FSA-FY26-Q3-POSTED-ES-01-04-06-unblocked.md` | STUE | FSA FY26-Q3 figures; grade ES-01/04/06 (ES-01 at the −5% band on rounding). Committed with the closeout; STUE not live (rule 6b → noted to PROME). |
 
 ## INBOX (0 live items; disposition)

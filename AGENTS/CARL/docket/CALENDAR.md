@@ -31,6 +31,7 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 | 🔴 **Wed 9/30** | **CRL-08 WINDOW CLOSES** *(added 9/24)* | Resolve on 9/28 GASREGW + AAA through 9/30. **RULED 9/24 (WQ-281, Will 13:17 ET): the sustained bar governs ⇒ MISSED.** Grade at the EIA primary; not re-priced before resolution | 🔴 |
 | **Wed 9/30** | **BEA August Personal Income & Outlays + Q2 GDP third estimate (08:30)** *(added 9/24; corrects '~9/25')* | Saving rate vs 3.0%; real PCE vs real DPI; PCE/core | 🟠 |
 | **Fri 10/2** | **STUE grades ES-01/04/06 on FSA FY26-Q3** *(added 9/24, harvested child deferral)* | If STUE has not booted, CARL spawns or flags | 🟠 |
+| 🔴 **Mon 10/5** | **THESIS-SCOPE REVIEW** *(Will-directed 9/24)* | Broad '60% fragile, K converging downward' vs 'bottom-tier credit stress while aggregate spending holds'. Run after 9/30 + 10/2 data; read handoff_RED/COUNTER_LOG first; structural change → Will | 🔴 |
 
 ## October → December
 | Date | Event | Test | Pri |

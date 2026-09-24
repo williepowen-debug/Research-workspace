@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged. The pump squeeze is at its peak (record diesel) while crude falls. The strongest new evidence runs against broad consumer convergence; the evidence for the thesis sits at the bottom of credit.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-24 15:40 ET | **STATUS commit:** `a720ad5ca` *(9/24 data catch-up after a 7-day gap; source record `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-09-24 16:05 ET | **STATUS commit:** `a720ad5ca` *(9/24 data catch-up after a 7-day gap; source record `domain/sources/2026-09-24_data-catchup.md`)*
 **Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -18,6 +18,7 @@
 | BRENT / HAWK | Pump still rising while Brent spot fell $130.80 → $114.89 (9/15 → 9/22) | 🟠 | Pass-through lag is still delivering the mid-September crude peak; pump relief is the next watch. Record diesel $6.5276 (9/22). |
 | LIQUID / REGINALD | CCC−BB 934bp on 9/23, the widest since at least 2025-01-01; HY 273bp | 🟠 | The lower-quality credit split is widening while the broad index is calm. Corporate spreads are not household health. |
 | HOMER / REGINALD | ATTOM August: FL #1 in foreclosure starts (3,189), #3 by rate; US REO +42% YoY | 🟠 | Florida housing distress continues. FL YoY was not obtained. |
+| TERRY (sent 9/24, Will-directed) | Consumer read: stress is in lower-quality credit (subprime auto, CCC), not broad spending | 🟠 | Analysis for TERRY's cards, no trade proposal; tests at ~9/30 (V2), ~10/20 (CRL-20/21/27), ~11/30 (HHDC). |
 | RED (staged in `handoff_RED/COUNTER_LOG.md`) | BofA: card-spending K "effectively" closed; RCL raised price into +4.87% capacity; FL June airport print uninformative | 🟠 | Counter-evidence to V8 and to a uniform consumer failure. Senders' corrections applied (the CRUISE duration datum carries no lean; MARCO's 84% was retracted). |
 
 **WAITING FOR:**
@@ -62,6 +63,7 @@
 | 9/29 | Carnival Q3; SAVE→RAP first deadlines; Conference Board | Discounting reaching realised price?; CRL-13/28 windows open 10/1 |
 | 9/30 | CRL-08 close; EART August 10-Ds; BEA August PCE/income + Q2 GDP third | CRL-08 graded MISSED (sustained bar, WQ-281); V2 card; saving rate vs 3% |
 | 10/2 | September NFP | V16 drop-back 2 of 2 |
+| 10/5 | **Thesis-scope review** (Will-directed) | Broad fragility vs bottom-tier credit stress; structural change → Will |
 | 10/14–15 | September CPI / retail | Fuel transmission and spending response |
 
 **Delivery:** local commits only at the time of writing; the push receipt goes in the closeout report. Consistency 0 hard / 6 soft; read-cap rc 0 (STATUS rotated to 22,731 B); roadmap index clean. Research-retirement sweep NOT RUN, so this closeout is PARTIAL on that obligation.
