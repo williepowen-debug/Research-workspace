@@ -364,5 +364,171 @@
   "link_check": {
     "perimeter": "Markdown ](relative-path) links in PROME top-level *.md; ignore fragments, URLs and globs",
     "missing_targets": []
+  },
+  "followup_2026_09_23_owner_corrections": {
+    "checked_at_utc": "2026-09-24T02:17:03.264333+00:00",
+    "revision": "01bb6a9b05209e96ed7d02caf79a40b9a3741168",
+    "scope": "Bounded follow-up to owner corrections; no owner edits or hosted inspection. Original evidence preserved.",
+    "source_sha256": {
+      "PROME/ACTIVE_DECISIONS.md": "0a95e08738779e46bb6747a408ed542882235e6c04f759dff5bbee97645dc162",
+      "PROME/SYSTEM.md": "7d5940b48b68ba1af0133cb3a4b07f5d8a221054fdbcf9dbed00f5b168a493c0",
+      "PROME/STATUS.md": "adc064fba3ac17ce97cb0a88464a0c4b18cf1ca6464ff34857365b397e42aa37",
+      "PROME/HANDOFF.md": "abed492f8ef7918be0f692e7580b0de1dc4c4e818999d69ac20c887abf85a4ea",
+      "PROME/SCRATCH.md": "c513b68b4eceffdf3811c49aa62314f8b2e9f7fde5e2040aedb04463306fb875",
+      "PROME/WILL_QUEUE.md": "b72677d5a34a58b85a17df26eaf2b6e870ac311625707bf5425deee69e9122ab",
+      "PROME/DOCKET.tsv": "c3688f7ec72bafa340a9ca1d0b5acb302804a75295f3ead4957ba599543c19ad",
+      "PROME/ROSTER.md": "0870d39a1713675a2af46426e400a48500db65c9ec83c4ec24a3357d09042e3e",
+      "PROME/registry/READS.tsv": "ba71d4950c0a837d6b3800b6682451cacb3756adcae6a1d6b87b06130038ab1c",
+      "PROME/registry/WQ_EXPLAINERS.tsv": "cec3c6d5e3a6bc607d492f74a6fa97b16ee0864d4f276e599259cd56886e3006",
+      "PROME/reports/2026-09-23_cato-file-sweep-PF1-PF7-corrections.md": "a673b4820585f48eee2fb21f2fc6b65311f3392a57423a26c7fe52af9e5485dd",
+      "PROME/tools/tests/test_decision_deck_split.py": "dc49a7722a196ab528034cc5ef6363c0804782560f187b713d17edd903cded36",
+      "AGENTS/TERRY/scripts/positions_from_forge.py": "fc93294998aa32196da74a33e71e779ce1b5d51a3ce9b031164bd9b7f49153b0",
+      "FORGE/STATUS.md": "049ce8d653908e92c4552c13acda07fd61c20b2180a558d5d9a85020257d6e9c"
+    },
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-B",
+          "PROME/tools/table_check.py",
+          "PROME/SYSTEM.md"
+        ],
+        "rc": 1,
+        "stdout": "❌ TABLE-CHECK PROME/SYSTEM.md:171 — 6 cells in a 3-column table (header L166); 3 cell(s) DROPPED when rendered:\n      ⤷ light\n      ⤷ standard\n      ⤷ heavy>`; the tier is REQUIRED (standard/heavy enforce the recorded ARGUS review; a tierless run leaves that leg UNKNOWN/advisory). Its verdict block owns the ch\n❌ TABLE-CHECK 1 over-celled row(s) across 1 file(s) — content is invisible in every rendered read; fix the row, not the reader\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python3",
+          "-B",
+          "PROME/tools/reads_check.py",
+          "--agent",
+          "PROME"
+        ],
+        "rc": 2,
+        "stdout": "READS [PROME] — budget 32,550 B · cap 54,250 B · perimeter: 7 cap-bearing + 18 declared-not-bearing = 25 live read(s) · basis 5 surface(s) · manifest ⛔ ATTESTATION STALE (dated 2026-08-31)\n  ⛔ STALE ATTESTATION: 'PROME/BOOT.md' was committed 2026-09-21, AFTER the attestation dated 2026-08-31 — a boot-defining surface moved, so the enumeration may be missing a dependency. Re-enumerate and re-attest.\n  ⚠️  MODE IS A SELF-ASSERTED CLAIM — 7 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:\n       · PROME/GATES.tsv (57,901 B) declared `summary` at PROME:BOOT.md-3 by PROME\n       · PROME/HEARTBEAT_COLD.md (277,029 B) declared `grep` at HEARTBEAT.md-Pointers by PROME\n       · PROME/DOCKET.tsv (918,420 B) declared `summary` at PROME:BOOT.md-5 by PROME\n       · PROME/WILL_QUEUE.md (149,675 B) declared `summary` at PROME:BOOT.md-5 by PROME\n       · PROME/WILL_QUEUE.md (149,675 B) declared `scoped` at PROME:BOOT.md-8 by PROME\n       · BOARD/INDEX.md (528,319 B) declared `summary` at PROME:BOOT.md-6 by PROME\n       · PROME/registry/READS.tsv (59,808 B) declared `summary` at PROME:BOOT.md-5 by PROME\n  ✅ PROME/BOOT.md                                           24,398 B    75% of budget   (whole, PROME:CLAUDE.md-Boot-2)\n  ✅ HEARTBEAT.md                                            24,349 B    75% of budget   (whole, PROME:BOOT.md-5)\n  ✅ PROME/ACTIVE_DECISIONS.md                               24,348 B    75% of budget   (whole, PROME:BOOT.md-3)\n  ✅ PROME/SCRATCH.md                                        21,411 B    66% of budget   (whole, PROME:BOOT.md-2)\n  ✅ PROME/STATUS.md                                         20,252 B    62% of budget   (whole, PROME:BOOT.md-4)\n  ✅ PROME/HANDOFF.md                                        18,858 B    58% of budget   (whole, PROME:BOOT.md-1)\n  ✅ USER.md                                                  4,126 B    13% of budget   (whole, PROME:CLAUDE.md-Boot-1)\n  ·  PROME/GATES.tsv                                         57,901 B   summary      (PROME:BOOT.md-3)  ℹ️  178% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/HEARTBEAT_COLD.md                                277,029 B   grep         (HEARTBEAT.md-Pointers)  ℹ️  851% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/DOCKET.tsv                                       918,420 B   summary      (PROME:BOOT.md-5)  ℹ️  2822% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/WILL_QUEUE.md                                    149,675 B   summary      (PROME:BOOT.md-5)  ℹ️  460% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/WILL_QUEUE.md                                    149,675 B   scoped       (PROME:BOOT.md-8)  ❓ 460% of budget — not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  ·  AGENTS/WALTER/LAST_COMPLETION.md                        18,858 B   scoped       (PROME:BOOT.md-3b)\n  ·  PROME/CLOSEOUT.md                                       15,923 B   summary      (PROME:BOOT.md-5)\n  ·  PROME/tools/dashboard_state.json                         8,890 B   summary      (PROME:BOOT.md-5)\n  ·  scripts/harness_caps.env                                 2,694 B   summary      (PROME:BOOT.md-5)\n  ·  BOARD/INDEX.md                                         528,319 B   summary      (PROME:BOOT.md-6)  ℹ️  1623% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n  ·  PROME/state/board_cursor.txt                                19 B   summary      (PROME:BOOT.md-6)\n  ·  scripts/firetime_allowlist.tsv                          16,208 B   summary      (PROME:BOOT.md-5)\n  ·  PROME/registry/corrections_receipts.tsv                  1,485 B   summary      (PROME:BOOT.md-5b)\n  ·  AGENTS/WALTER/registry/CORRECTIONS.tsv                  12,113 B   summary      (PROME:BOOT.md-5b)\n  ·  AGENTS/DAEDALUS/FLEET_DIRECTORY.md                      10,822 B   summary      (PROME:BOOT.md-5b)\n  · AGENTS/*/STATUS.md                                     39 files  largest 54,182 B (166%) = AGENTS/REGINALD/STATUS.md  total 995,716 B  (summary, PROME:BOOT.md-5)\n       ℹ️  1 match(es) over budget, excluded by the declared `summary` mode — largest is AGENTS/REGINALD/STATUS.md\n  ▫  .claude                                                    DIR     11 file(s) under it — a directory has no read size; declared so the dependency is visible, never byte-graded (summary, PROME:BOOT.md-5)\n  ·  PROME/registry/READS.tsv                                59,808 B   summary      (PROME:BOOT.md-5)  ℹ️  184% of budget — cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). ⚠️ Protocol accuracy is a SEPARATE axis this tool cannot grade — read the row's notes before concluding nothing is owed.\n❓ READS-CAP UNKNOWN [PROME]: 7 cap-bearing row(s) checked, but PROME attested on a date its own boot protocol has since moved past — this is a partial perimeter, never a clean bill.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python3",
+          "-B",
+          "scripts/read_cap_check.py",
+          "--agent",
+          "PROME",
+          "--require-manifest"
+        ],
+        "rc": 0,
+        "stdout": "READ-CAP [PROME] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 7 cap-bearing (whole/programmatic) measured, 18 declared-not-counted (scoped/grep/summary), 31 manifest row(s) for this desk; ATTESTED by the desk itself\n  ✅ PROME/BOOT.md                        24,398 B    75% of budget    (whole · PROME:CLAUDE.md-Boot-2)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,614 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 14 B.\n  ✅ HEARTBEAT.md                         24,349 B    75% of budget    (whole · PROME:BOOT.md-5)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,565 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 63 B.\n  ✅ PROME/ACTIVE_DECISIONS.md            24,348 B    75% of budget    (whole · PROME:BOOT.md-3)\n      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,564 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 64 B.\n  ✅ PROME/SCRATCH.md                     21,411 B    66% of budget    (whole · PROME:BOOT.md-2)\n  ✅ PROME/STATUS.md                      20,252 B    62% of budget    (whole · PROME:BOOT.md-4)\n  ✅ PROME/HANDOFF.md                     18,858 B    58% of budget    (whole · PROME:BOOT.md-1)\n  ✅ USER.md                               4,126 B    13% of budget    (whole · PROME:CLAUDE.md-Boot-1)\n  ◦ PROME/GATES.tsv                    57,901 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-3)\n  ◦ PROME/HEARTBEAT_COLD.md           277,029 B  declared `grep` — not cap-bearing, not counted  (HEARTBEAT.md-Pointers)\n  ◦ PROME/DOCKET.tsv                  918,420 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/WILL_QUEUE.md               149,675 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/WILL_QUEUE.md               149,675 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-8)\n  ◦ AGENTS/WALTER/LAST_COMPLETION.md   18,858 B  declared `scoped` — not cap-bearing, not counted  (PROME:BOOT.md-3b)\n  ◦ PROME/CLOSEOUT.md                  15,923 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/tools/dashboard_state.json    8,890 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ scripts/harness_caps.env            2,694 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ BOARD/INDEX.md                    528,319 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)\n  ◦ PROME/state/board_cursor.txt           19 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-6)\n  ◦ scripts/firetime_allowlist.tsv     16,208 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/registry/corrections_receipts.tsv  1,485 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/WALTER/registry/CORRECTIONS.tsv 12,113 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/DAEDALUS/FLEET_DIRECTORY.md 10,822 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5b)\n  ◦ AGENTS/*/STATUS.md                        —  declared `summary · CLASS row, not a single file` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ .claude                                   —  declared `summary · directory` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n  ◦ PROME/registry/READS.tsv           59,808 B  declared `summary` — not cap-bearing, not counted  (PROME:BOOT.md-5)\n✅ READ-CAP 0 [PROME]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (7 measured, 18 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=PROME reads=7 over_budget=0 over_cap=0 manifest_defects=0 advisories=0 generated_flagged=0 rotation_due=0 active_decisions_over_budget=0\n",
+        "stderr": ""
+      }
+    ],
+    "split_suite": {
+      "command": "python3 -B PROME/tools/tests/test_decision_deck_split.py",
+      "rc": 0,
+      "tests": 7,
+      "result": "OK; fixture repair checked as author follow-up to earlier CATO split implementation"
+    },
+    "vlo_parser": {
+      "command": "python3 -B AGENTS/TERRY/scripts/positions_from_forge.py --json --asof 2026-09-23",
+      "rc": 0,
+      "live_vlo": [
+        {
+          "group": "UNATTRIBUTED",
+          "section": "UNATTRIBUTED",
+          "account": "UNKNOWN",
+          "class": "position",
+          "ticker": "VLO",
+          "instrument": "",
+          "expiry_iso": null,
+          "dte": null,
+          "qty_raw": "1 sh",
+          "qty": 1.0,
+          "cost": 412.0,
+          "mark": 413.28,
+          "value": 413.28,
+          "pnl_pct": 0.31,
+          "pnl": "+$1.28 / +0.31%",
+          "pnl_raw": "+$1.28 / +0.31%",
+          "note": "BUY 1 VLO, Limit $412.00 Day, FILLED $412.00 on 2026-09-18 by Will's own hand — 1 of the 3 shares approved (WQ-213 8/27, re-affirmed 9/17; DOCKET L412 RESOLVED). Receipt verbatim → TERRY 0d59d9b72 / PROME/inbox/processed/2026-09-18_from-TERRY_wq213-FILL-RECEIPT-1-of-3-VLO-412.00_L412.md; card record AGENTS/TERRY/setups/BRENT_refiner-distillate-strong-leg_2026-08-27.md § FILL RECORD, PB-0007. Account UNKNOWN · fill time UNKNOWN (bounded at-or-before 12:33 ET only because that is when Will pasted the receipt — a bound, not the time). Mark is the vendor 9/18 close $413.28 (+0.18%) [FORGE fetch.py, pulled 2026-09-19 13:0x ET — A DATED CLOSE, NOT A BROKER MARK; markets closed]; value and P&L are arithmetic on it. 2 shares remain STAGED on TERRY's card for a day of Will's choosing — NOT a lapse and NOT a re-ask (the approval covers 3). No exit rule exists on the held share. See D-55",
+          "status": "live",
+          "reason": ""
+        }
+      ],
+      "limit": "No native dashboard or current broker verification."
+    },
+    "coldreader_ledger": {
+      "path": "/tmp/claude-1000/-home-willi-Research-workspace-PROME/185a871f-d68b-4eba-9520-15da59bf8eb4/scratchpad/coldread_catopf_ledger.md",
+      "sha256": "c006c0ed689bcd93a0051a84095cb981fa6de9d1addc67a5e464c8e18eef353a",
+      "text": "COLDREADER · PROME/reports/2026-09-23_cato-file-sweep-PF1-PF7-corrections.md (PF1+PF2 result read) · 8051 B · 27 claims\nSCORE: 13/27 ✅ · 9 ⚠️ · 5 ❌\nRead at 2026-09-23 ~21:5x ET against the working tree (uncommitted edits) + renders built 21:46 (`e215d1a06`). Read-only; nothing edited.\nLedger fields: claim → artifact (path:line) → command → observed → proposed change. Confidence token on each.\n\n## ❌ Blocks acceptance\n\n❌ 1 [VERIFIED] WQ-264: the queue row's ask still sets a past start date. The report says \"the 9/21 start is preserved as history\".\n → PROME/WILL_QUEUE.md:27, first cell: *\"① approve a **30-day shadow run from Mon 9/21**\"*. Needed-by cell: *\"① wants a word before Mon 9/21 to start the clock\"*. Rec: *\"**Rec: approve ① and ③.**\"* Same row, Notes cell: *\"on approval BRENT sets a PROSPECTIVE 30-day window … nothing is backdated\"*.\n → `grep -n '^| 264 |' PROME/WILL_QUEUE.md`; rendered-text extraction of deck.html\n → The ask and the rec still set a backdated start. The correction exists only in the last cell. The Deck renders the old ask under \"Row as written in the queue\": *\"① approve a 30-day shadow run from Mon 9/21\"*.\n → Counterexample: Will rules by number, \"WQ-264 = approve ① and ③\". ① as written starts on 9/21, so the queue row and its Notes are two live instructions that disagree. Fix: rewrite ① and the needed-by cell to the prospective wording, and keep 9/21 as dated history.\n\n❌ 2 [VERIFIED] WQ-264 explainer: \"no observation is on BRENT's record\". An observation is on record.\n → PROME/registry/WQ_EXPLAINERS.tsv:65, if_yes: *\"that date has passed and no observation is on BRENT's record, so nothing is backdated\"*. Against it: AGENTS/BRENT/demand_destruction/TRACKER.md:13: *\"Yanbu berth occupancy (Sentinel optical, AIS-independent) — CANDIDATE only … 9/15 zero vessels at both crude terminals\"*. Also PROME/WILL_QUEUE.md:27 Notes: *\"FALCON holds the same 9/15 optical read\"*.\n → `grep -n -i 'berth occupancy\\|sentinel' AGENTS/BRENT/demand_destruction/TRACKER.md`\n → The spawner's grep on STATUS/SCRATCH/TRADE returns nothing (rc=1). But report:10 says the grep also covered TRACKER, and TRACKER returns a hit. The true claim is narrower: no SHADOW-RUN observation exists (the queue Notes word it that way). The explainer overstates this to \"no observation\", and it renders on the Deck.\n → Counterexample: a reader of TRACKER, or of FALCON's FAL-05 route (c), finds the 9/15 read and concludes the Deck is wrong. Fix: \"no shadow-run observation; the single 9/15 pre-proposal read is a candidate, not a run\".\n\n❌ 3 [VERIFIED] WQ-246 explainer still says \"a decision nobody made\". Its own no-branch names Will's ruling.\n → PROME/registry/WQ_EXPLAINERS.tsv:51, why_yours: *\"It silently converts to \"never add,\" which is a decision nobody actually made.\"*. Against it: the same row's if_no: *\"Size is held by your standing no-add ruling (7/16)\"*. Also the queue row PROME/WILL_QUEUE.md:37: *\"converts silently to \"never add\" — a decision nobody ruled\"*.\n → `grep -n '^246' PROME/registry/WQ_EXPLAINERS.tsv`; deck.html text search for \"a decision nobody\" returns 2 hits\n → PF2(c) bans \"by default rather than by decision\". The correction removed that phrase from if_no, but the same claim survives in why_yours and in the queue row. Both render on the Deck.\n → Counterexample: Will reads \"why it is yours\" first and concludes that nobody ruled the no-add. That reverses the 7/16 ruling the if_no branch cites.\n\n❌ 4 [VERIFIED] WQ-246 queue headline \"THE ONLY ADD-GATE\". The explainer and ACTIVE_DECISIONS say otherwise.\n → PROME/WILL_QUEUE.md:37: *\"THE ONLY ADD-GATE ON THE 004 POSITION HAS AN UNDEFINED QUALIFIER\"*. Against it: WQ_EXPLAINERS.tsv:51 what: *\"This is BOND's thesis gate, not TERRY's entry card: TERRY's level-based, TLT-green-day entry rule is separate and unaffected.\"* Also ACTIVE_DECISIONS.md:38: *\"the 2.50 add line is THROUGH … the touch does NOT trigger the add rule\"*, which is TERRY's card.\n → `git diff HEAD --word-diff -- PROME/registry/WQ_EXPLAINERS.tsv` shows *\"[-The only-]{+BOND's thesis+}\"*, so the pass treated \"the only\" as stale in the explainer. deck.html renders *\"Row as written in the queue Item 🔴 THE ONLY ADD-GATE ON THE 004 POSITION…\"*.\n → The phrase the pass fixed in the explainer still renders on the Deck, one panel below the fix.\n → Counterexample: Will reads the queue panel and believes that defining \"sustained\" unlocks the only route to an add. Fix: scope the headline to \"BOND's thesis add-gate\".\n\n❌ 5 [VERIFIED] WQ-259 queue question still offers \"HOLD for 9/23\" as a future option.\n → PROME/WILL_QUEUE.md:30 item: *\"REFRESH NOW, or HOLD for 9/23 so one redeploy carries all three letter parts?\"*. Against it: the same row's rec: *\"The 9/17 rec *HOLD for 9/23* is discharged by 9/23 having arrived.\"*\n → `grep -n '^| 259 |' PROME/WILL_QUEUE.md`; deck.html renders the item text verbatim (\"REFRESH NOW\" 1 hit, \"HOLD for 9/23\" 2 hits)\n → PF2(a) says: no \"9/23 redeploy\" as a future event. The question Will is asked still offers one, and it disagrees with its own rec and with the explainer name (\"refresh after the last FOMC-letter grade, or hold\").\n → Counterexample: Will answers the question as printed, \"HOLD for 9/23\". That option no longer exists.\n\n## ⚠️ A stranger cannot tell\n\n⚠️ 6 [VERIFIED] PF1 drops the staged-share stand-down condition. The ACTIVE_DECISIONS.md:38 Next cell says *\"2 STAGED under the same approval for a day of his choosing\"*. WILL_QUEUE.md:64 says *\"STAGED under TERRY's scaling rec (card § FILL DAY ⑥: gate day or ~$375; stand down on a crack close <$95)\"*, and the card (:334/:381) has F1 crack <$95. Counterexample: the crack closes at $94 and the reader of the AD row still sees \"any day\". A caveat that would change the decision dropped out in simplification. Fix: add \"(TERRY's scaling rec + F1 stand-down on the card)\".\n⚠️ 7 [VERIFIED] PF1 sleeve clause *\"PLUS VLO at a LIVE mark (1 filled, 2 staged — …)\"*. Unclear whether the 2 staged shares count toward the sleeve. The \"100% undefended, no exit rule\" note now sits on USO only, while FORGE/STATUS.md VLO row says *\"No exit rule exists on the held share\"*. FORGE also notes the VLO row is invisible to `positions_from_forge.py`, so it never reaches TERRY's dashboard. Counterexample: sizing from the dashboard misses VLO entirely, or counts 3 × VLO.\n⚠️ 8 [VERIFIED] PF1(d) versus (c): the rule's own ambiguity. (d) says the concentration flag survives \"verbatim\", but (c) mandates an edit inside that bullet. The edit also deleted *\"100% shares since 9/11: RH USO spread closed 9/10, XLE 65C sold 9/11\"* from a block headed *\"Standing guards (never rotate)\"*, with no rotation manifest. It also deleted *\"TERRY records the fill on `TRY-BRENT-REFINER` and states the day-colour condition in figures on the card\"*, which is still owed for the 2 staged fills (the card's :192 entry gate). The guard core is verbatim; the history and the duty are gone.\n⚠️ 9 [VERIFIED] WQ-246 needed-by is `2026-09-19` (WILL_QUEUE.md:37), 4 days past; the Deck shows \"overdue 4d\". Neither the explainer nor the rec carries a current date or clock. In the same file set, ACTIVE_DECISIONS.md:38 says *\"The LINE-vs-SUSTAINED caveat is RETIRED — BOND agreed TERRY's card governs\"*. A stranger cannot tell whether WQ-246 is still live or already moot.\n⚠️ 10 [VERIFIED] WQ-259 depends on a dark desk. The needed-by says *\"2026-09-24 (VIOLET records L278 leg 2 at its 9/24 boot)\"*. DOCKET.tsv:278 says VIOLET is a *\"DARK owner\"*, woken via WQ-184 *\"at the first boot on/after 9/24\"*. Counterexample: PROME's next boot is 9/25. The needed-by passes, and the yes-branch (\"once VIOLET has recorded\") has no date. [INFERRED]\n⚠️ 11 [VERIFIED] WQ-259 queue *\"49 days stale\"* is a live figure that goes stale by itself: 55 days at 9/23, and it renders on the Deck. This is a self-describing figure and scores at most ⚠️.\n⚠️ 12 [VERIFIED] report:10 records its PF2 evidence as a grep of *\"`shadow run|berth occupancy|Sentinel` on STATUS/SCRATCH/TRADE/TRACKER\"* with no hits. Run as written, it hits TRACKER:13. The receipt does not match the command. This is the source of ❌2.\n⚠️ 13 [VERIFIED, out of PF scope] ACTIVE_DECISIONS.md:38 (same cell, unchanged) still reads *\"executable TODAY (9/22) AND ONLY TODAY, dead from the 9/23 close\"* and *\"TERRY records MOOT once the 9/22 cell lands\"*, and the In-flight view renders it on 9/23. Not a PF1 condition, and PF1(e) forbids touching it tonight. Carry it.\n⚠️ 14 [INFERRED, out of scope] FORGE/STATUS.md VLO row says *\"`WQ-213` 8/27, re-affirmed 9/17\"*. WILL_QUEUE.md:64 says *\"APPROVED 9/10, RE-AFFIRMED 9/17\"*. Two approval dates for one row. 8/27 may be the card's date.\n\n## ✅ Verified\n15 PF1(a) The AD Next cell reads \"FILLED 1 of 3 @ $412.00 on 9/18 … 2 STAGED\". This matches WILL_QUEUE:64 and the FORGE VLO row. The phrase \"×3 = Will's hands\" is gone (VERIFIED, `git diff --word-diff`).\n16 PF1(b) \"account + fill time UNKNOWN (D-55; current book unverified, WQ-274)\". D-55 and WQ-274 (WILL_QUEUE:26) both resolve (VERIFIED).\n17 PF1(c) The perimeter is USO 37 sh plus VLO at a LIVE mark. \"USO ONLY\" is gone (VERIFIED).\n18 PF1(d) harvest-half ≥$0.3469, disarm <4.50, day-colour TLT-GREEN, BTC <2.15, arm-#3 SPENT and all four kill-on-sight totals are byte-identical. The word diff touches none of them (VERIFIED).\n19 PF1(e) `measure.py` gives 24,301 B (HEAD 24,269; trigger 24,412). One hunk, one row changed (VERIFIED).\n20 PF1(f) reference.html (21:46, after the 21:45 source edit) renders \"FILLED 1 of 3 @ $412.00\", \"PLUS VLO at a LIVE mark\" and \"2 STAGED under the same approval\". \"VLO ×3 = Will\", \"fill RECEIPT closes WQ-213\" and \"USO 37 sh ONLY\" have 0 hits (VERIFIED).\n21 Pointers `0d59d9b72` (commit) and DOCKET L412 (state RESOLVED 2026-09-18) resolve (VERIFIED).\n22 PF2(c)-explainer: WQ-246 name, what and if_no scope the defect to BOND's thesis gate, name TERRY's entry card as separate, and name NO-ADD 7/16 (VERIFIED; but see ❌3/❌4).\n23 PF2(b)-explainer: the WQ-264 yes-branch is prospective (\"from BRENT's first Mon/Fri routine after your word\"), sets no number, and says PROME sets no date (VERIFIED; but see ❌2).\n24 PF2(a)-explainer: the WQ-259 branches agree with the queue rec and the needed-by (refresh after VIOLET's 9/24 record, on the cost word) (VERIFIED; but see ❌5).\n25 BRENT STATUS/SCRATCH/TRADE hold no shadow-run observation. The spawner's grep gives rc=1. The 9/21 Monday routine (`c9c88260e`) logged no berth read (VERIFIED).\n26 PF2(d) The removed explainer phrases \"by default rather than\", \"stale again in six days\" and \"starts Monday 9/21\" have 0 hits in deck.html (VERIFIED). Stale text from the QUEUE rows does render (❌1, ❌4, ❌5).\n27 PF2(e) The diff sets no ruling, threshold or clock (INFERRED from the word diff).\n\nPOINTERS: 14/14 resolve (0d59d9b72 · DOCKET L412 · L278 · D-55 · WQ-274 · WQ-213 row · FORGE VLO row · USO-SHARES card · BRENT_refiner card · BRENT restart PROPOSAL · CATO run 2026-09-23_1953 · BRENT STATUS/SCRATCH/TRADE · TRACKER · deck/reference.html); dead: none\nONE-LINE VERDICT: PF1 passes, with caveats ⚠️6–8. PF2 does NOT pass. The explainer fixes landed, but the Deck also renders the unedited QUEUE rows, which still carry the stale ask (264 \"from Mon 9/21\"), \"THE ONLY ADD-GATE\", \"a decision nobody ruled/made\", and \"HOLD for 9/23\". The 264 explainer also overstates \"no observation\" against BRENT's TRACKER.\n",
+      "limit": "PF1/PF2 pre-final working-tree result read; does not review PF3-PF7 or independently test final one-pass repairs."
+    },
+    "renders": {
+      "deck": {
+        "path": "/tmp/cato-prome-followup-deck.html",
+        "sha256": "102eba3262f7178c5a1e434cded78f37d27178c5dcf9cabc640b414356f6362c",
+        "matches": {
+          "FILLED 1 of 3": [],
+          "PLUS VLO": [],
+          "gate day or": [],
+          "a decision nobody actually made": [],
+          "THE ONLY ADD-GATE": [],
+          "from Mon 9/21": [
+            "30-day shadow run of the new AIS-independent leg — proposed from Mon 9/21, now PROSPECTIVE from your word (9/23: that date passed; BRENT sets the window, nothing is backdated) — Sentinel optical berth occupancy at Yanbu's two crude terminals, free , logged by the existing Mon/Fri routines; ② noted, not"
+          ],
+          "HOLD for 9/23": [
+            " 9/24 record — one publish carries everything; the earlier 'hold for 9/23' rec is discharged by the 9/23 close having arrived. $0 either way; VIOLET's argument that the state already moved is carried. Row as written in the queue Item VIOLET's two Will-facing artifacts (vol cheat-sheet · operating pictu",
+            "stion re-cut 9/23 21:5x; the 9/17 form asked refresh now or hold for 9/23 .) Both republish to the existing URLs. Needed by 2026-09-24 (VIOLET records L278 leg 2 at its 9/24 boot) PROME rec 🟡 Rec (updated 2026-09-23 21:4x): REFRESH once VIOLET records the letter's last leg (L278 leg 2, resolved on the ",
+            "publication still needs your cost word (9/17). The 9/17 rec HOLD for 9/23 is discharged by 9/23 having arrived. VIOLET's argument that the state already moved is carried; your word may differ. $0 either way. Notes VIOLET memo §5 (644c0bcb3). Registered 2026-09-17 21:5x ET. Approve Decline Later WQ-256 "
+          ],
+          "no observation is on": [],
+          "CLASSIFY": []
+        }
+      },
+      "reference": {
+        "path": "/tmp/cato-prome-followup-reference.html",
+        "sha256": "f33a2b6243ca026274779dd28214e1a766c6d12416e8ead9a5a4af1f071c792b",
+        "matches": {
+          "FILLED 1 of 3": [
+            " own hand (APPROVED 9/10, RE-AFFIRMED 9/17) Ruling / record FILLED 1 of 3 — receipt logged by TERRY 2026-09-18 12:33 ET (fill time and account NOT in the receipt — asked of Will, never inferred), Will's hand, receipt verbatim on TERRY's packet (0d59d9b72, PROME/inbox/processed/2026-09-18_from-TERRY_wq2",
+            "Consume TERRY's and BOND's grades as they land; WQ-213 VLO: FILLED 1 of 3 @ $412.00 on 9/18 by Will's hand (TERRY receipt 0d59d9b72 ; L412 RESOLVED); 2 STAGED under the same approval (TERRY scaling rec: gate day or ~$375; stand down on a crack close <$95) — account + fill time UNKNOWN (D-55; current bo"
+          ],
+          "PLUS VLO": [
+            "026-09-09.md ) at the LIVE USO quote ( fetch.py price USO ) PLUS VLO at a LIVE mark (1 filled, 2 staged — FORGE/STATUS.md VLO row) · duration-short = the TLT puts at the LIVE chain; FORGE/STATUS.md (vintage in ITS OWN HEADER — three clocks, not one : standing quantities [9/16 capture] · VLO [9/18 "
+          ],
+          "gate day or": [
+            "LVED); 2 STAGED under the same approval (TERRY scaling rec: gate day or ~$375; stand down on a crack close <$95) — account + fill time UNKNOWN (D-55; current book unverified, WQ-274); root rule #6 is TERRY's construction rule, not a bar on Will's own order (root rule #5) Backstop and source PROME/GAT"
+          ],
+          "a decision nobody actually made": [],
+          "THE ONLY ADD-GATE": [],
+          "from Mon 9/21": [],
+          "HOLD for 9/23": [],
+          "no observation is on": [],
+          "CLASSIFY": []
+        }
+      },
+      "helm": {
+        "path": "/tmp/cato-prome-followup-helm.html",
+        "sha256": "5d197fffb73feab8635ae151c4a20de614e6b43b30c22dc88d5660ff04669e06",
+        "matches": {
+          "FILLED 1 of 3": [],
+          "PLUS VLO": [],
+          "gate day or": [],
+          "a decision nobody actually made": [],
+          "THE ONLY ADD-GATE": [],
+          "from Mon 9/21": [],
+          "HOLD for 9/23": [
+            "23: VIOLET's two pages (WQ-259). The queue row's rec was to hold for 9/23, which has now arrived. PROME's updated rec: refresh once VIOLET records the FOMC letter's last leg (L278) at the 9/24 boot, so one redeploy carries all three grades. Past their needed-by date (12 in all, listed in WILL_QUEUE.md ",
+            "ay: VIOLET's two pages (WQ-259). The queue row's rec was to hold for 9/23, now reached; my updated rec is to refresh once VIOLET records the FOMC letter's last leg at the 9/24 boot. Past their needed-by date: 12 in all (listed in WILL_QUEUE.md OPEN; the generated decisions section shows the RULE-class "
+          ],
+          "no observation is on": [],
+          "CLASSIFY": [
+            "N-BRIEF.md Docket record UPCOMING · 2026-09-28 · L444 · 🟠 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXEMPT Owner: PROME (owns ORCH_LOG and the spawn driver) 🟠 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXEMPT — the `session_id` field ALREADY EXISTS ",
+            "XEMPT Owner: PROME (owns ORCH_LOG and the spawn driver) 🟠 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXEMPT — the `session_id` field ALREADY EXISTS (`closeout_v1`); without the classification the per-boot cap stays unmeasurable. No schema widening.** (Title corrected 2026-0",
+            "R ROLL + Active-Month disclosure (successor to… +3 more 🟠 **CLASSIFY `PROME/state/ORCH_LOG.tsv` SPAWNS AS CAP-BEARING vs CAP-EXEM… 🔴 **THE BURIED-STATE-TOKEN GUARD PASSES A DEFECT OF EXACTLY THE CLASS IT… 🟠 **FUTURES EVENING-BAR DEFECT in 5d Wed 9/30 🔴 **L409 SCOPE WIDENED +18 more 004 TLT Sep-30 "
+          ]
+        }
+      }
+    }
   }
 }
