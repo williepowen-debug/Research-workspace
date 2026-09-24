@@ -15,7 +15,11 @@ Exit: 0 = no band broken · 1 = at least one band broken (read the output) · 2 
 """
 import sys
 
-import yfinance as yf
+try:
+    import yfinance as yf
+except ImportError:  # wrong interpreter must not read as a breach (rc 1)
+    print("DATA ERROR: yfinance not importable — run with the repo .venv/bin/python3")
+    sys.exit(2)
 
 # id, ticker, frozen baseline, baseline date, band fractions (Yellow/Orange/Red)
 LADDERS = [
