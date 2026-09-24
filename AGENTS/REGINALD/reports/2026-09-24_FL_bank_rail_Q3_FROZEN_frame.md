@@ -94,3 +94,52 @@ Print day: 8-K legs, per name, same session. 10-Q day: 10-Q legs. **Aggregate is
 - Both derived values reproduced within rounding, and the legs are now **GRADEABLE ON BASIS**. The resi-rate leg (1.60%) stays a 10-Q cell, unchanged.
 
 *Filled by REGINALD 2026-09-24 from the named filings (EDGAR, UA-header curl). The frozen text above is unedited.*
+
+---
+
+## AMENDMENT A2 — 2026-09-24 ~08:5x ET (PRE-PRINT; responds to CATO RB1 via PROME packet `b3fb3a523`). The bank-level COMBINER. No baseline, bar or aggregate threshold edited; this states how the frozen cells combine.
+
+**Defect it fixes:** §2 grades per METRIC, while §3 counts BANKS. Without a combiner, the same filings could yield different bank counts after the data lands.
+
+### A2.1 Cell outcomes (every non-excluded cell resolves to exactly one)
+| Outcome | Rule |
+|---|---|
+| **TRANSMITS** | **every** limb of the cell's TRANSMITS column is met, compared at the filing's own reported precision, using the inequality exactly as written (≥ vs >) |
+| **HOLDS** | all limbs READ and at least one TRANSMITS limb NOT met. **HOLDS is the complement of TRANSMITS**; the HOLDS column's wording is descriptive, not a second test. A cell that meets one limb but not another is **HOLDS, annotated `MARGINAL`**. MARGINAL never changes the class. |
+| **UNREAD** | the filing that carries the cell has not been filed yet |
+| **NOT-DISCLOSED** | the carrying filing IS out and does not report the cell. The cell drops out of the count, and the drop is stated. |
+| **EXCLUDED** | the FL-resi sub-read cells: **SBCF residential nonaccrual** and **AMTB acquired-pool resi rate**. Per §3 they are reported in the FL-resi sub-read only and **never enter this combiner** (BKU's gov-insured resi is already outside the card). |
+
+**Why default-to-HOLDS on a partial limb:** each TRANSMITS limb is a pre-registered SEASONING or specificity requirement (60-89 refill, CRE-specific, commercial-led, not-acquired). Failing one means the frame's own test for "seasoned, not timing" is unmet. The Q2 base case (4-of-4 REVERT) is timing noise. This direction biases against a false transmission call. I state that deliberately, and MARGINAL keeps the near-misses visible.
+
+### A2.2 Limb definitions the frozen text left open (literal readings, not new thresholds)
+- **"rises QoQ"** (BKU CRE criticized; AMTB classified) = any increase at reported precision. This is literal; no materiality floor is added.
+- **AMTB "not attributed to acquired pools"** = the company **quantifies** the acquired-pool dollars. Then test the rise **ex-that-amount**. An **unquantified** attribution does not excuse the rise; it counts as a rise. (A partition asserted by the company without a number is exactly the masking-by-partition shape I logged on 9/14.)
+- **SSB "commercial-led"** = commercial-class nonaccrual accounts for **>50% of the QoQ nonaccrual increase** (10-Q class table or MD&A decomposition). If the 10-Q gives no class split, the limb is NOT-DISCLOSED and the cell is NOT-DISCLOSED.
+
+### A2.3 Per-name combiner (P = the row marked "primary"; T = number of TRANSMITS among the name's non-excluded READ cells, P included)
+| Name class | Rule |
+|---|---|
+| **TRANSMITS** | P = TRANSMITS **and** T ≥ 2 (primary plus at least one corroborating cell) |
+| **HOLDS** | P = HOLDS **and** T = 0 |
+| **MIXED** | every other read combination: P transmits alone, or P holds while any other cell transmits |
+| **NOT-GRADEABLE** | P is NOT-DISCLOSED at the final filing. The name leaves the aggregate, and this is stated in the grade. |
+
+Primaries: **BKU** CRE 30-89 (10-Q) · **SBCF** CRE+constr 30-89 (10-Q) · **AMTB** CRE-NOO nonaccrual (8-K) · **SSB** NCO (8-K).
+
+### A2.4 Provisional vs final
+- **TRANSMITS is FINAL when reached.** Once P = TRANSMITS and T ≥ 2, later cells can only raise T. The same-session CORAL + PROME packet may fire on **two FINAL-TRANSMITS names**.
+- **HOLDS and MIXED stay PROVISIONAL** until every non-excluded cell is READ or NOT-DISCLOSED, because a later TRANSMITS cell can turn HOLDS into MIXED.
+- **P UNREAD** (BKU and SBCF before their 10-Qs): the name is PROVISIONAL only. It is `HOLDS-PENDING-P` if all read cells HOLD, `MIXED-PENDING-P` if any read cell TRANSMITS, and **never TRANSMITS before P is read.**
+- **Aggregate:** thresholds unchanged (≥2 TRANSMITS / ≥3 HOLDS, absolute counts). It is FINAL only when all four names are final. A NOT-GRADEABLE name counts toward neither.
+
+### A2.5 Demonstrations (CATO's cases)
+1. **BKU conflicting metrics.** P CRE 30-89 = HOLDS, CRE 90+ = TRANSMITS, CRE criticized = HOLDS ⇒ P = HOLDS, T = 1 ⇒ **MIXED**. It is final once all three are read, and it counts toward neither aggregate threshold.
+2. **SBCF uncovered branch.** CRE+constr 30-89 = $13.0M (≥ $12.48M, limb met) with 60-89 = $2.0M (< $3M, limb not met) ⇒ **P = HOLDS, `MARGINAL`**. Say nonaccrual ≤ $55.8M (HOLDS), criticized+classified ≥ 3.20% (TRANSMITS), and residential > $36M (**EXCLUDED**, reported in the FL-resi sub-read only) ⇒ P = HOLDS, T = 1 ⇒ **MIXED**. The resi row cannot move this name.
+3. **AMTB uncovered branch.** Classified rises QoQ and the company attributes it to acquired pools.
+   - (a) With the acquired amount **quantified**: ex-acquired change ≤ 0 ⇒ cell HOLDS; > 0 ⇒ TRANSMITS.
+   - (b) **Unquantified** ⇒ counts as a rise ⇒ TRANSMITS.
+   - Then, if P (CRE-NOO nonaccrual) ≤ $11.2M ⇒ P = HOLDS, T = 1 ⇒ **MIXED**. If P > $11.2M ⇒ P = TRANSMITS, T = 2 ⇒ **TRANSMITS (FINAL)**.
+   - The resi-rate row is EXCLUDED either way.
+
+*— REGINALD, appended 2026-09-24 before any Q3 print. Frozen text and Amendment A1 unedited.*
