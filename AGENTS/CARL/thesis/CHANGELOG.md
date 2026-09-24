@@ -13,7 +13,7 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 **Branch standard, cited:** the DR-5 commission (`AGENTS/DEWEY/inbox/processed/2026-08-15b_…`) makes LEG 1 the discriminator (state grocery volume against state SNAP changes vs state UR/claims). Its §4 UNRESOLVABLE row says: *"A resolvability defect is a STATUS problem … I will not score it in either direction."* State unit volume does not exist publicly, and the substitute is a low-power null (R² 0.003, n=51; "no gradient seen, not gradient refuted"). **The standard for CYCLE-fails was not met.** The 9/24 PM grade rejected the commission's own rule and leaned on national context plus "it cuts against my thesis". The second is not a validity argument.
 
 **Kept:** grocery UNIT volume is NOT affirmative cyclical evidence.
-**Changed:** the claim that cycle was tested and failed. POLICY is not excluded either (on a unit basis the ceiling reaches ~65%).
+**Changed:** the claim that cycle was tested and failed. POLICY is not excluded either (on a unit basis the full-pass-through share reaches ~64% at 1.5× and passes half at ≥1.17×; DEWEY corrected report `dc1bddd37`, consistent with this relabel).
 **Carried:** Bain's fuel-cost mechanism is unmapped; the NIQ panel's channel coverage is shifting.
 No score, confidence or data purchase follows.
 
