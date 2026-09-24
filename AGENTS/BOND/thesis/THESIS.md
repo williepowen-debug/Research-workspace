@@ -94,7 +94,8 @@ BOND owns the **market-structure transmission layer** — how the bond market's 
 
 **1. Thesis kill (exit all duration shorts):**
 - 🔴🔴 **WQ-157 LEG ① RULED 2026-09-04 08:44 ET — Will verbatim *"Approve 157 with your rec"*; record `PROME/proposals/2026-09-04_wq157-leg1-RULED.md`, packet `inbox/processed/2026-09-04_from-PROME_WQ-157-leg-1-RULED-*`. THE KILL'S COMPOSITION LEG IS NOW TIME-SPLIT, AND THIS IS THE OPERATIVE SENTENCE:**
-  > **`I'` STANDALONE THROUGH 2026-09-10; PAIRED THEREAFTER — PAIRING INSTRUMENT OWED.**
+  > **`I'` STANDALONE THROUGH 2026-09-10; PAIRED THEREAFTER — PAIRING INSTRUMENT OWED.** *(verbatim 9/4 ruling text — ✅ instrument delivered 9/17, marker below)*
+  ✅ *(Resolution marker 2026-09-24, outside the verbatim quote: the pairing INSTRUMENT was DELIVERED 2026-09-17 (FR2004 weekly join, `KB-BND-306/307`); WQ-157 leg ② — whether the pairing survives — is still with Will. Unpaired `I'` fires since 9/11: 9/15 20Y-R · 9/23 5Y · 9/24 7Y.)*
   - **Through the 9/8–9/10 refunding:** the leg stands **exactly as the 8/27 ruling wrote it** — dual-printed, graded on the seven bars frozen 9/2 under the WQ-162 basis written 9/4. **A bare `I'` fire moves NOTHING.**
   - **After the refunding:** the kill becomes **`I'` + a NON-AUCTION MECHANISM CONFIRMATION** (FR2004 dealer stock and/or SOFR−IORB). **RETIRE was rejected; `I'` remains the 🟠 vector marker permanently.**
   - **Why the split, stated so it is not read as a hedge:** BOND's own 9/2 base-rating found `I'` fires **23.2% pooled / 15.6–28.1% per tenor** out-of-sample with **no TLT-5d separation** — i.e. as a KILL leg it cannot discriminate, and it errs toward **confirming this desk's own bear thesis**. The recommendation to pair was BOND's, made against its own book, and Will adopted it verbatim.
