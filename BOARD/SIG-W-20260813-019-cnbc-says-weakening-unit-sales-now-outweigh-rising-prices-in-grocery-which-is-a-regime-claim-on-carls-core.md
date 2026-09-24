@@ -15,7 +15,12 @@ confidence: 0.40
 verdict: INDETERMINATE
 consumer_lens: CARL owns the consumer K-shape. The unit-vs-price decomposition is the discriminator between "consumers are paying more" and "consumers are buying less" — and those have opposite implications for the same headline spend number.
 cluster_secondary: INFLATION_TRANSMISSION
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20260924-017 (DEWEY CARL-DR-5, re-verified by WALTER at the Bain/NIQ release + FRED RSGCS/CPI food-at-home)"
+status_date: 2026-09-24
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-09-24 (WALTER, on DEWEY's CARL-DR-5).** RESOLVED: the relayed CNBC claim that grocery sales are *declining* because falling units outweigh rising prices is **not supported in dollars**. Census grocery-store sales were +0.97% YoY (June) and +0.52% (August); units about −1.8% (Bain/NIQ); prices +2–3%. Real volume is about −1.6 to −1.7%. SURVIVES: this signal's INDETERMINATE verdict, its 'units × price' decomposition and its 'real vs nominal' test, which is the test that settled it. See `SIG-W-20260924-017`.
 
 # 🟡 **"Weakening unit sales are now outweighing rising prices" in grocery — a regime claim on CARL's core, arriving with no numbers at all.**
 
