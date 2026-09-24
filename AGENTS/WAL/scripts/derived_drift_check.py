@@ -190,7 +190,12 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 62      # 61 -> 62 2026-09-24 (session #7): TWO RETIRED_CLAIMS rows filed (KB-180's '$79.89 close'; the 9/2 tape set +
+        BASE_DRIFT, BASE_REVIVED = 12, 63      # 62 -> 63 2026-09-24 late (session #7 housekeeping): two more RETIRED_CLAIMS rows ('~$46M Cantor
+                                               # residual'; KB-173's '-1.7% share count'); FRAUD archiving removed hits, the new patterns add some. Verified
+                                               # hit-by-hit: every counted hit is a RECORD -- the new one is STATUS_ARCHIVE.md:252 inside the VERBATIM 9/2 snapshot
+                                               # (byte-identical by design, never edited). ⚠️ Known blind spot found 9/24: CLAUDE.md:16/150 still ASSERT '~$46M' but
+                                               # are EXCUSED by marker proximity (MARKER_WINDOW) -- a live claim this check cannot see.
+                                               # Earlier: 61 -> 62 2026-09-24 (session #7): TWO RETIRED_CLAIMS rows filed (KB-180's '$79.89 close'; the 9/2 tape set +
                                                # '3 legs across 2 accounts'). Verified hit-by-hit: the ONE counted new hit is research/CATALYST_SWEEP_2026-09-24.md:150,
                                                # the sweep's own caveat FLAGGING the $79.89 discrepancy (correct record). Two outbox 9/2 packets also match but sit outside the scan.
                                                # Before that: RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 -> 61 (the NEXUS re-pin shed 2 more) to the measured count, so the
