@@ -44,7 +44,30 @@ sys.path.insert(0, str(REPO / "FORGE" / "tools" / "market-data"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # H.15 publishes these together -- always refresh as a SET.
-H15_SET = ["DGS2", "DGS10", "DGS30", "DFII10", "T10YIE", "T5YIFR"]
+H15_SET = ["DGS2", "DGS5", "DGS10", "DGS30", "DFII5", "DFII10", "T10YIE", "T5YIFR"]
+# DERIVED series and the inputs they are computed from (2026-09-24, KB-BND-320 / WALTER
+# SIG-W-20260917-011). FRED publishes T10YIE/T5YIFR cells BEFORE their own inputs exist -- a
+# PROVISIONAL cell that is EARLY, not stale, so every staleness check passes it and "use the
+# latest cell" affirmatively selects it. On 9/24 this tool printed T5YIFR 2.36 [9/23] (14bp from
+# the bar) while every input stopped at 9/22; the supported value was 2.34 (16bp). Grade a
+# derived series only on dates ALL its inputs share.
+DERIVED_INPUTS = {"T10YIE": ["DGS10", "DFII10"], "T5YIFR": ["DGS5", "DFII5", "DGS10", "DFII10"]}
+
+
+def trim_provisional(series: dict) -> list:
+    """Drop derived-series cells dated after their latest fully-published inputs. Returns notes."""
+    notes = []
+    for sid, inputs in DERIVED_INPUTS.items():
+        if sid not in series or any(i not in series for i in inputs):
+            continue
+        supported = min(series[i][-1][0] for i in inputs)
+        dropped = [o for o in series[sid] if o[0] > supported]
+        if dropped:
+            series[sid] = [o for o in series[sid] if o[0] <= supported]
+            notes.append(f"   ⚠️ {sid}: {len(dropped)} PROVISIONAL cell(s) dropped "
+                         f"({', '.join(f'{d}={v:.2f}' for d, v in dropped)}) -- inputs publish only "
+                         f"through {supported}; graded on {series[sid][-1][0]}={series[sid][-1][1]:.2f}")
+    return notes
 CREDIT = ["BAMLH0A0HYM2", "BAMLH0A3HYC", "BAMLC0A0CM"]
 GATES = {"DFII10": ("TLT add-gate", 2.50, "above"),
          "T5YIFR": ("inflation-unanchor red", 2.50, "above"),
@@ -214,8 +237,20 @@ def drift_selftest() -> int:
         print(f"  {'PASS' if ok else 'FAIL'}  {label}")
         if not ok:
             print(f"        expected {expected!r}, got {got!r}")
+    # PROVISIONAL derived cells (2026-09-24, KB-BND-320): the real 9/24 shape.
+    s = {"DGS10": [("2026-09-22", 4.96)], "DFII10": [("2026-09-22", 2.63)],
+         "DGS5": [("2026-09-22", 4.83)], "DFII5": [("2026-09-22", 2.51)],
+         "T10YIE": [("2026-09-22", 2.33), ("2026-09-23", 2.35)],
+         "T5YIFR": [("2026-09-22", 2.34), ("2026-09-23", 2.36)]}
+    notes = trim_provisional(s)
+    for label, ok in [("provisional T5YIFR 9/23 cell dropped -> graded 2.34 [9/22]", s["T5YIFR"][-1] == ("2026-09-22", 2.34)),
+                      ("provisional T10YIE 9/23 cell dropped -> graded 2.33 [9/22]", s["T10YIE"][-1] == ("2026-09-22", 2.33)),
+                      ("the drop is ANNOUNCED, never silent", len(notes) == 2),
+                      ("aligned inputs -> nothing dropped", trim_provisional(s) == [])]:
+        fails += 0 if ok else 1
+        print(f"  {'PASS' if ok else 'FAIL'}  {label}")
     print(f"\n  {'ALL PASS' if not fails else str(fails) + ' FAILURE(S)'} — "
-          f"{len(DRIFT_FIXTURES)} drift fixtures")
+          f"{len(DRIFT_FIXTURES)} drift fixtures + 4 provisional-cell fixtures")
     return 1 if fails else 0
 
 
@@ -327,7 +362,10 @@ def main() -> int:
         print("[boot_recompute] rc=2 — NOT a pass.", file=sys.stderr)
         return 2
 
-    print("== LEVELS (latest published) ==")
+    prov = trim_provisional(series)
+    print("== LEVELS (latest published; derived series only on input-supported dates) ==")
+    for n in prov:
+        print(n)
     for sid, obs in series.items():
         d, v = obs[-1]
         print(f"   {sid:14} {v:>8.2f}   [{d}]   n={len(obs):,}  span {obs[0][0]}→{obs[-1][0]}")
