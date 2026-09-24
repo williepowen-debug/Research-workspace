@@ -1,28 +1,21 @@
-# IQHQ / RaDD August 2026 Maturity Playbook
+# IQHQ / RaDD Resolution Playbook
 
-**Date:** 2026-04-22 (Apr 23 update) | **Thread:** REGINALD deep-dive #2 | **Credit:** Bank OZK's single-largest loan
-**Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **matures August 2026** / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
+**Written:** 2026-04-22 (REGINALD deep-dive #2) · **Last updated:** 2026-09-24 (TL;DR + calendar re-based past the Aug window; §6 position text retired; Spur facts corrected; weights/EL untouched) | **Credit:** Bank OZK's single-largest loan
+**Facts:** $915M commitment / $555M funded / $360M unfunded ("good news funding") / **matured August 2026 — window closed swept-and-empty 8/31; extension + recap in negotiation (7/22 call), report-back due on the Q3 call** / collateral: 1.5M SF lab+office+retail campus in downtown San Diego / **3.3% leased** (JCVI 50K SF only)
 
-> **⚖️ 2026-07-23 — REWEIGHT + OZK-09 RE-MARK (Will-approved in-session).** Scenario weights A20→**30** / B50→**45** / C12→**8** / D18→**17**; OZK-09 re-marked 52%→**45%**; weighted EL ~$140M→**~$129M**. Trigger = Q2 print (7/21) + call (7/22) evidence: extension+recap in live negotiation w/ sponsor AND mezz engaged ("~92 days" → Q3 call), back-loading now mgmt-stated plan. **Recognition-window RULING frozen same session (Option-2 event-anchored)** — see §4. Full evidence table + falsifiers: `outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`. Sections below updated in place with [REVISED 7/23] tags; pre-7/23 narrative text (e.g., TL;DR "no capital path") reflects the 4/22 vintage where not tagged.
+> **⚖️ 2026-07-23 — REWEIGHT + OZK-09 RE-MARK (Will-approved in-session).** Scenario weights A20→**30** / B50→**45** / C12→**8** / D18→**17**; OZK-09 re-marked 52%→**45%**; weighted EL ~$140M→**~$129M**. Trigger = Q2 print (7/21) + call (7/22) evidence: extension+recap in live negotiation w/ sponsor AND mezz engaged ("~92 days" → Q3 call), back-loading now mgmt-stated plan. **Recognition-window RULING frozen same session (Option-2 event-anchored)** — see §4. Full evidence table + falsifiers: `outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`. Sections below updated in place with [REVISED 7/23] tags. §2 sponsor/portfolio narrative is the 4/22 vintage except where dated.
 
 > **2026-04-23 — Sole-exposure confirmed.** Apr 22 IQHQ secondary-exposure investigation (`IQHQ_SECONDARY_EXPOSURE.md`) closes the "any other project with IQHQ" ambiguity from Gleason's Q1 26 call (line 213). OZK CCO Michelle Rossow on-record to Bisnow Mar 19 2026: *"We have one credit with IQHQ, which is the senior secured loan on their San Diego RaDD project."* Disconfirmation map for sister projects: Fenway → JPM $165M, Arbor/Elco → KKR $581M, Spur SSF → Apollo $275M, 155 N Beacon → Citizens $486.5M, 109 Brookline → mortgage assumed from EQC 2020, Boynton Yards → Leggat McCall (NOT IQHQ). RaDD is OZK's sole IQHQ exposure. **Weighted EL math on $555M funded stands unchanged _by the sole-exposure finding_** — ⚠️ *the LEVEL moved after this 4/23 note: ~$140M → **~$129M** at the 7/23 reweight (see the §header banner above and §4). The "unchanged" was always scoped to this investigation, never a claim the tree was frozen.* See KB-OZK-178, KB-OZK-179.
 
 ---
 
-## TL;DR
+## TL;DR (re-based 2026-09-24)
 
-1. **The August 2026 maturity is materially more bearish now than at Q1 earnings.** Three new developments since Apr 22 earnings call have tightened the scenario space in our favor:
-   - **NO fresh 2026 IQHQ capital raise** has surfaced (last was IIP $270M, Aug 2025). IQHQ's promised 2-tenant leasing by March 2026 (Tracy Murphy, Jan 2025 interview) **DID NOT materialize** — JCVI remains the only confirmed lab tenant.
-   - **Aimco filed a $50M fraud/breach complaint** in Delaware Court of Chancery (April 2026). It alleges "conflicted financings and insider transactions" — the exact Bluerock PIK + IIP preferred structure that's been propping up RaDD. The suit doesn't directly block OZK, but **it chills any 4th rescue round** from new investors.
-   - **IQHQ's non-RaDD portfolio is deteriorating on every axis:** Fenway paused + $27M J.F. White suit still active, Brighton dumped (both lots, ~$10M realized loss), 109 Brookline under-leased (Boston Globe: "50% portfolio leased" vs IQHQ "99% leased" disclosure gap), Spur Phase I still 0% preleased, Arbor Redwood City (former Oracle campus, $164M) **listed for sale rather than developed** — a sponsor-level admission of defeat.
-
-2. **Campus at Horton is the comp.** AllianceBernstein took back the $399M construction loan via **$130M credit bid** Sep 2025 = **67% severity**. Same submarket (downtown SD), same problem (zero tenants), same asset profile. This is the single most important data point in this playbook because it converts a theoretical tail scenario into a printed precedent.
-
-3. **Weighted expected loss on the $555M funded tranche: ~$129M** [REVISED 7/23 reweight; was ~$142M] (see §4). This is **~21% of OZK's Q2'26 ACL ($617.8M) on one credit** [was 22.6% of Q1 ACL $628M]. Scenario B (substandard migration + specific reserve build) is the **45%** most-likely outcome [was 50%] and would trigger the **single largest specific reserve in OZK history** ($140-195M) *if* the appraisal breaks — per the §3 re-derivation, initial reserve at migration can be $0–75M.
-
-4. ~~**Position read: $42.5P Aug 21 is correctly-duration'd for this thesis.**~~ ***[DEAD 2026-08-23 — that leg and the $45P Aug-21s expired worthless at the 8/21 OPEX; OZK holds no options. §6 carries the full tag. The scenario weights in points 1-3 and 5 are unaffected.]*** Original read: It captures (a) Scenario B specific-reserve book at maturity resolution, (b) Scenario D distressed resolution, and (c) the indirect cues — OZK Q2 earnings call (late Jul), Q2 Call Report (~Aug 1), and Bluerock/Aimco legal developments between now and Aug. The $45P May 15 does not capture this — far too tight.
-
-5. **The leading-indicator calendar has specific, dated checkpoints between now and Aug** (see §5). Top-3 checkpoints: Bluerock Q1 2026 NAV marks (~3/31 fund reports land May-Jun), IQHQ motion-to-dismiss response on Aimco (early Jun), RaDD lease signings (any >20K SF is material).
+1. **Where it stands:** the Aug-2026 maturity passed **without a disclosure event** — FDIC filings, press and the 10-Q were swept and empty on 8/31 (the SD recorder leg was never checked). That is exactly the path the 7/22 call described: a **multi-year extension + recap in negotiation** with the sponsor and the mezz lender, "will remain a pass-rated credit," interest paid from pre-established reserves, and **"~92 days" to more disclosure → the Q3 call (~mid/late Oct)**. Intent, not execution — nothing is resolved until an extension is executed and disclosed (Z10).
+2. **Scenario weights (7/23, Will-approved): A-extend 30% / B-substandard 45% / C-takeout 8% / D-foreclosure 17%. Weighted lifetime EL ~$129M on $555M funded (~21% of Q2'26 ACL $617.8M). OZK-09 = P($140M+ recognition in the Option-2 window, through the Q4'26 print) = 45%.** Recognition is appraisal-gated and back-loaded — a B migration can book a near-$0 initial reserve (§3 re-derivation).
+3. **Campus at Horton is the comp.** AllianceBernstein's **$130M credit bid on a $399M loan (Sep 2025) = 67% severity**; $169/SF × RaDD 1.5M SF ≈ $253M → the D band $275-360M holds as a **terminal/disposition** loss. Whether Horton has leased since is an **owed, unrun check** — it is what holds the 65-70% severity band.
+4. **Sponsor strain is still building:** no fresh 2026 IQHQ capital found; Aimco's $50M Chancery suit (no ruling found as of 9/24); IQHQ gave **Spur Ph I (S. San Francisco, 330K SF, vacant)** back to **Apollo** by deed-in-lieu on 9/17 after falling behind on a $275M loan [The Real Deal — single-source] — its first building handed back to a lender. Context, not a grade: RaDD is senior-secured at OZK with a different stack.
+5. **What would move the weights:** executed extension terms at the Q3 call (curtailment / new equity → A firms; extension without cure + reserve → B), a Bluerock/BPRE IQHQ mark (10/6 webinar), a >100K SF RaDD lease, or the mezz walking from the recap (→ D). **No position:** the Aug-21 puts expired worthless 8/21 (§6); any new expression is TERRY's, Will-approved.
 
 ---
 
@@ -36,7 +29,7 @@
 
 | Layer | Amount | Rate | Status |
 |---|---|---|---|
-| OZK Senior (RaDD) | $915M commitment / $555M funded / $360M unfunded "good news" | — | Matures Aug 2026 |
+| OZK Senior (RaDD) | $915M commitment / $555M funded / $360M unfunded "good news" | — | Matured Aug 2026 — extension + recap in negotiation (7/22 call); interest from reserves |
 | Mezzanine (2024) | $75M | 15% PIK (accruing ~$76M by 2026) | Current |
 | IIP Preferred | $270M ($100M revolver + $170M preferred) | 16.5% wtd-avg | Aug 2025 — drawn |
 | Bluerock PIK | $246M ($160M @ 13.5% + $86M @ 14%) | **PIK — NOT PAID**, accruing ~$8-9M/qtr | Maturing Dec 2027 / Aug 2028 |
@@ -66,7 +59,7 @@ Seeking: restitution of $50M (Aimco's impaired original investment, down to ~$3M
 - BUT materially **chills any 4th rescue round** — no rational new investor funds a sponsor with active fraud/dilution claims
 - Discovery will expose Bluerock PIK/IIP preferred terms → bad optics if shown to be predatory
 - Gleason's "inner family squabble" framing is structurally accurate (equity-vs-equity) but **materially misleading**: the complaint puts the rescue-capital architecture on trial
-- **MTD status (verified 2026-07-04 web sweep):** no public ruling found. Suit confirmed — Del. Court of Chancery, $50M at stake (Aimco booked a $47M impairment Aug 2024, position ~-94%). Given the ~April 2026 filing, an MTD ruling by now would be fast — **likely still in briefing; not a near-term catalyst.** Re-pull the Chancery docket only if a ruling surfaces.
+- **MTD status:** no public ruling found **as of 9/24** (web search; docket never pulled directly — TODO C3). 7/04 note: Suit confirmed — Del. Court of Chancery, $50M at stake (Aimco booked a $47M impairment Aug 2024, position ~-94%). Given the ~April 2026 filing, an MTD ruling by now would be fast — **likely still in briefing; not a near-term catalyst.** Re-pull the Chancery docket only if a ruling surfaces.
 
 ### 2c. Portfolio stress tells (Agent 2 findings)
 
@@ -77,14 +70,14 @@ Seeking: restitution of $50M (Aimco's impaired original investment, down to ~$3M
 | Fenway Center ($1B, Boston) | Paused indefinitely (Nov 2025); J.F. White $27M suit still active; air-rights deck complete but no vertical | Worse — no resolution |
 | 109 Brookline (285K SF, Boston) | IQHQ claims "99% leased"; Boston Globe: "entire Boston portfolio 50% leased" — disclosure gap | Flat-to-worse |
 | Brighton (Boston) | **BOTH 103 + 155 N. Beacon sold to New Balance at -30%** (~$10M realized loss, $52.5M total) | Worse — full exit |
-| Spur Phase I (Redwood City) | Delivered Q2 2026, **still 0% preleased** at $93/SF asking; Phase II seeking 10-yr entitlement extension (mothballed) | Worse |
+| Spur Phase I (**South San Francisco**, 580 Dubuque Ave, 330K SF) | Completed 2025, never occupied; **handed to Apollo by deed-in-lieu 2026-09-17** after IQHQ fell behind on the $275M Apollo loan [TRD, single-source] *(this row read "Redwood City, delivered Q2 2026" until 9/24 — wrong city and date)* | **Lost to lender** |
 | **Arbor Redwood City** (former Oracle $164M) | **Listed for sale instead of developed** (Feb 2026) — sponsor retrenchment | Worse (new) |
 
 **Portfolio verdict:** IQHQ is now a NET SELLER, not a developer. Forced dispositions at losses, expanded litigation, development pauses becoming entitlement-delays, fraud allegations around insider transactions. **Zero internal cash generation to support a RaDD equity cure.**
 
-### 2d. RaDD leasing momentum Q2 2026 (Agent 3 findings)
+### 2d. RaDD leasing momentum (Agent 3 findings, Apr 2026; re-searched 9/24)
 
-**VERDICT: Still dead. 3.3% lab/office leased.** No new life sci / office / AI / tech tenants since JCVI (May 2025).
+**VERDICT: Still dead. 3.3% lab/office leased.** No new life sci / office / AI / tech tenants since JCVI (May 2025) — none found through 9/24.
 
 Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFPs/LOIs)**, not executed leases. It mirrors his December 2025 language almost verbatim — classic sponsor-relayed optimism with no print.
 
@@ -95,7 +88,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 ### 2e. SD lab market context (Agent 4 findings)
 
-| Metric | Current Q1 2026 |
+| Metric | Q1 2026 (not refreshed since — severity-comp refresh owed, TODO C4) |
 |---|---|
 | Downtown SD lab vacancy | ~94% (unchanged) |
 | Sorrento Mesa (competing submarket) | 38%+, 48% of SD sublease |
@@ -144,7 +137,7 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 - Single-quarter provision would spike to 3-4x Q1 26 pace
 - **This would be the single-largest specific reserve in OZK history**
 - Market reaction: sharp re-rating lower — this is the Temple 8 thesis firing mechanically
-- Classified+criticized jumps from $1.215B to ~$1.8B
+- Classified+criticized jumps from $1,282M (Q2'26) to ~$1.8B+
 
 ### Scenario C — Third-party recapitalization / takeout (credit cures)
 
@@ -227,54 +220,25 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 ---
 
-## 5. LEADING INDICATOR CALENDAR — Now → August 2026
+## 5. LEADING INDICATOR CALENDAR — Sep 2026 → Q4'26 print
 
-| Month | Watchpoint | Signal Direction | How to Monitor |
+*The Apr-Aug calendar that stood here (Q1 Call Report, Bluerock Q1 marks, Aimco MTD, Q2 call, Aug maturity) all passed; outcomes are in STATUS/CALENDAR and git history.*
+
+| When | Watchpoint | Signal direction | How to monitor |
 |---|---|---|---|
-| **May 2026** | Q1 2026 FFIEC Call Report (filed May 1-10) | Specific reserves by category, RESG classified detail, MI3 ratio | Pull FDIC data May 10-15 |
-| **May 2026** | Bluerock Q1 2026 NAV mark (3/31 fund reports land May-Jun) | Further markdown on IQHQ = sponsor distress confirmation | Bluerock fund investor letters, SEC filings |
-| **May 2026** | T. Rowe Price / Altegris / Highland Capital Q1 fund marks | Multiple downgrades = sponsor credit spiral | Fund-level public filings |
-| **May 2026** | Any RaDD lease announcement | >20K SF = Scenario A strengthens; silence = Scenario B confirms | JLL/CBRE listings, SD Business Journal, press wire |
-| **May 12** | WAL Investor Day | Indirect IQHQ commentary possible (WAL has separate IQHQ relationship?) | Analyst reports, webcast transcript |
-| **Early June** | **IQHQ motion-to-dismiss response** to Aimco complaint (~60d from filing) | Weak motion or partial denial → Scenario B/D probability rises | Delaware Chancery docket |
-| **Late June** | OZK earnings release date signal (PR wire for Q2 date) | — | OZK IR |
-| **Mid-July** | OZK Q2 2026 earnings call | PREVIEW of Aug maturity resolution — Gleason will have to say something | Live call, transcript |
-| **Late July** | Campus at Horton post-foreclosure leasing update | Horton leases up → severity lower for RaDD; stays empty → severity stays 65-70% | Bisnow SD, brokerage listings |
-| **August 2026** | **RaDD MATURITY** (exact date undisclosed, assume late Aug) | Extension notice vs migration vs foreclosure filing | OZK 8-K, FDIC filings, RaDD assignments at SD recorder |
-| **Early Sept** | OZK Q3 print context | If B fired in Aug, Q3 earnings will book the reserve | Q3 PR (late Oct) |
+| **~Sep 30** | Q3 earnings-date announcement | Sets the report-back date | GlobeNewswire; `scripts/flng_watch.py` |
+| **Oct 6** | Bluerock BPRE roadmap webinar | IQHQ markdown / exit language = sponsor distress (context) | BPRE webinar + release |
+| **Any time** | RaDD lease >100K SF · recap/extension 8-K · SD recorder filings | Lease or executed recap → A; notice of default / assignment → D | `flng_watch.py` (every boot) · press · SD County Recorder (never checked) |
+| **~mid/late Oct** | **Q3 call — the "~92-day" report-back** | Executed extension WITH curtailment/equity = A firms · extension w/o cure + reserve = B · negotiation collapse / mezz walks = D | Call transcript + 8-K bundle |
+| **~early Nov** | Q3'26 10-Q (FDIC) | Subsequent events; nonaccrual/specific-reserve notes; collateral-dependent marking | FDIC FLNG |
+| **Undated** | Campus at Horton leasing; Aimco MTD ruling | Horton leases → severity lower; MTD denied → sponsor overhang worsens | Brokerage/Bisnow SD; Del. Chancery docket |
+| **~Jan 16-20, 2027** | **Q4'26 print — OZK-09 Option-2 window closes** | Cumulative RaDD recognition ≥$140M → TRUE; executed A/C with <$140M → FALSE; otherwise the 3-leg negative sweep | Per `workbook/PREDICTIONS.tsv` OZK-09 |
 
 ---
 
-## 6. POSITION IMPLICATIONS — ⏹️ HISTORICAL
+## 6. POSITION IMPLICATIONS — ⏹️ RETIRED
 
-> ### ⏹️ **DEAD SURFACE — POSITION READS BELOW ARE HISTORICAL (dated-tag 2026-08-23)**
-> **Every option leg named in this section is EXPIRED.** The May-15 lines expired 2026-05-15; the **Aug-21 lines ($45P ×4, $42.5P ×1) expired WORTHLESS at the 2026-08-21 OPEX** under Will's 8/4 RIDE ruling — realized −$1,686.37 / −100%. **OZK holds zero options.** The duration reasoning below is preserved as a **record of how the expiry was chosen**, not as guidance: read it as history, never as a live position read. ⚠️ **The SCENARIO analysis in this playbook is NOT retired by this tag** — weights **A30/B45/C8/D17**, weighted EL **~$129M**, and OZK-09 at **45%** are all current and untouched. What died is the wrapper, not the thesis. Live position state → `POSITIONS.md`.
-
-**Positions as they stood when this section was written (all now expired):**
-- $42.5P Aug 21 — 1 contract
-- $45P Aug 21 — 4 contracts (2 prior + 2 @ $4.05 Mar 24)
-- $42.5P May 15 — 2 contracts
-
-**$42.5P Aug 21:** **Correct duration for this thesis.**
-- Aug 21 expiry captures maturity resolution + Q2 earnings (mid-Jul) + Bluerock Q1 NAV marks (May-Jun) + Aimco motion-to-dismiss (early Jun)
-- Scenario B (45% prob [7/23]) would book around or before Aug maturity → Aug puts capture — *but per §3 re-derivation + 7/22 call, recognition likely defers to the Q3 call ("~92 days"); Aug expiry likely passes without a print*
-- Scenario D (17% prob [7/23]) timing uncertain — could be pre-maturity (if OZK forecloses early) or post-maturity (charge-off flow through Q3/Q4)
-- Scenario A (30% prob [7/23]) — negative for put position (stock rallies on overhang removal)
-- Scenario C (8% prob [7/23]) — most negative for put position (stock rallies sharply)
-- **Blended payoff: weighted EL ~$129M translates to a material OZK stock move in 62% of outcomes [7/23 reweight] — but recognition timing (back-loaded, Q3/Q4→2027) now governs expiry selection more than scenario mix**
-
-**$45P Aug 21:** Same duration logic, deeper OTM. Cost was $4.05 — lower breakeven requires deeper move, but captures the same catalysts.
-
-**$42.5P May 15:** **Too tight.** Resolves before:
-- Q1 Call Report data (early May — possible but tight timing)
-- Bluerock Q1 NAV (Jun)
-- Aimco motion (Jun)
-- OZK Q2 print (Jul)
-- IQHQ maturity itself (Aug)
-
-**Recommendation for May 15 position:** Roll to Aug or Sep 2026. **Thread 3 is the concrete roll math.**
-
-**Not-yet-open candidate:** Sep 2026 puts would capture the post-maturity resolution tempo (Scenario D charge-off flow typically takes 1-2 quarters post-resolution). **Merits analysis separately.**
+The Apr-Aug position reads that stood here are retired (text → git history). **Every leg they named has expired:** May-15 lines (5/15) and the Aug-21 $45P ×4 + $42.5P ×1 (**expired worthless 8/21** under Will's 8/4 RIDE ruling; realized −$1,686.37). **OZK holds zero options.** ⛔ D1/OZK-salvage is ruled closed; any new expression is a new trade — TERRY builds, Will approves. The scenario analysis above is **not** retired. Live state → `POSITIONS.md`.
 
 ---
 
@@ -286,30 +250,21 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 ### 🟠 To CREED — SD downtown lab severity comp
 **Signal:** Campus at Horton closed Sep 2025 at **$130M AllianceBernstein credit bid on $399M senior construction loan = 67% severity.** This is the single most important comp for any downtown SD lab distressed exit. Cross-reference against CREED CMBS life sci DQ data and other distressed SD/Boston/Bay Area life sci asset tracking. Priority: 🟠
 
-### 🟡 To CARL — No firing
-IQHQ thread doesn't intersect consumer credit channel. Standby.
-
-### 🟡 To FORGE — Position read (summary in §6)
-Aug 21 expiry remains the right duration. May 15 needs to roll. Sep 2026 merits analysis as deeper-duration option. **Do NOT close Aug positions on Scenario A narrative (30% weight as of 7/23 — up, but still minority). The base case remains Scenario B (45%), not A.**
+*(CARL: no intersection. FORGE: position signal retired with §6 — no positions.)*
 
 ---
 
-## 8. OPEN QUESTIONS / FOLLOW-UPS
+## 8. OPEN QUESTIONS / FOLLOW-UPS (re-based 2026-09-24)
 
-1. **Bluerock's own Q1 2026 disclosure** — Does Bluerock update its IQHQ-related PIK accrual recognition in Q1 10-Q (~May)? If Bluerock starts writing down the PIK principal → confirms sponsor distress.
+1. **Executed extension terms** — curtailment? new equity? mezz position? What happens to the **$360M "good news" unfunded** in a recap (clawed back, reduced, or kept)? It changes the balance at resolution. → Q3 call.
+2. **Bluerock (now BPRE) IQHQ mark** — last documented marks are H2'25 vintage; a fresh markdown confirms sponsor distress. → 10/6 webinar.
+3. **Aimco MTD outcome** — no ruling found as of 9/24; direct docket pull owed (TODO C3).
+4. **Campus at Horton leasing** — owed, unrun (TODO C1).
+5. **Bioterra ($202M OZK loan, Sorrento Mesa)** — a second SD life-sci data point if it needs restructuring.
+6. **Affinius $2.7B maturity** — exposure still unverified since Apr (TODO C5).
 
-2. **IQHQ other OZK loans (beyond RaDD)?** Priority research: Does OZK have additional IQHQ exposure beyond RaDD that we're not tracking? (Fenway doesn't appear to be OZK-financed per Agent 2; 109 Brookline has $130M mortgage from undisclosed lender — could be OZK but not confirmed.)
-
-3. **WAL's IQHQ exposure** — Prior research noted WAL has Investor Day May 12; check if WAL has disclosed IQHQ-related loans. Relevant if the sponsor's distress cascades across multiple regional lenders simultaneously.
-
-4. **"Good news funding" $360M unfunded at OZK** — Is this frozen, or would OZK draw on it if a major tenant signs? Management comment: "released only when leases are signed." At 3.3% leased, it's functionally frozen. But if IQHQ claws this back in a recap scenario, it affects the loan balance at maturity.
-
-5. **Aimco motion-to-dismiss outcome** — Early June 2026. If IQHQ wins dismissal on pleadings, litigation overhang lifts; if not, discovery exposes capital stack details. Material.
-
-6. **Bioterra ($202M OZK loan, Sorrento Mesa)** — Separately tracked but cross-signal: if Bioterra also needs restructuring in 2026, that's a second data point on OZK's SD life sci book. Currently vacant in 38% submarket.
-
-7. **Affinius follow-up** (from Thread 1) — Still pending CREED verification of whether OZK is actually exposed to the Oct 2026 $2.7B Affinius bond maturity. NOT mentioned on Q1 call.
+*Resolved: IQHQ exposure beyond RaDD — none (Rossow, sole credit; KB-178) · WAL IQHQ exposure — WAL is not an IQHQ lender (though it carries its own life-sci CRE, per WAL 8/28).*
 
 ---
 
-*Playbook complete. Next thread option: $45P May roll math (concrete options-chain analysis) OR updating OZK/STATUS.md (stale since Apr 7, pre-Q1 print, pre-sponsor IDs, pre-Aimco). Sources: 4 parallel research agents Apr 22 2026; existing REGINALD LIFE_SCI/FINDINGS.md + IQHQ_RADD_RESEARCH.md + OZK Q1 2026 call transcript + Financial Supplement + Management Comments.*
+*Sources: 4 parallel research agents Apr 22 2026; REGINALD LIFE_SCI/FINDINGS.md + IQHQ_RADD_RESEARCH.md; OZK Q1 2026 call transcript, Financial Supplement, Management Comments; Q1'26 10-Q (7/18 re-derivation); Q2 8-K + 7/22 call (7/23 reweight); 8/31 window sweep; 9/24 catch-up sweep.*
