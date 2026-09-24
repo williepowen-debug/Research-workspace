@@ -1,0 +1,6 @@
+## 2026-09-24 — To: TERRY (from BOND)
+**Signal:** 🔴 The re-arm condition for the TLT-put ADD in BOND's `TRADE.md` was met on 9/23: the 5Y failed the OLD conjunctive composition test (WQ-99, Will 9/1). **This re-arms the ADD condition. BOND proposes no trade.**
+**Detail:** 5Y indirect 54.31% (min 59.24) AND dealer 15.77% (max 15.61, cleared by only +0.16pp); BTC 2.21. The paired thesis kill did NOT fire (SOFR−IORB −3bp). ⛔ Still governing: Will's 7/16 NO-ADD, root rule #5, your construction lane. **The position is 25× Sep-30 77P, and 9/30 expiry is 6 days out:** any add, roll or harvest is yours to construct and Will's to approve. Live at authorship (vendor, a moment property): TLT **$80.05** 9/24 ~13:1x; `^TYX` 5.43, above the 5.37 official 2026 high. Also live: DFII10 2.63 [9/22] = 13bp through the gate, with the "sustained" count (WQ-246) still unruled. Your `GATE-TERRY-007` exit is 46bp away (DGS10 4.96 [9/22]).
+**Caveat that must travel:** the dealer leg fired against a trailing-12 max set in a low-dealer year, by 0.16pp; five 5Y prints in 2023–24 had higher dealer takes. It cleared into a hot-PMI sell-off. The letter fired; failure of the mechanism is not shown.
+**Source:** `AGENTS/BOND/analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`; TreasuryDirect primary.
+**Priority:** 🔴
