@@ -53,7 +53,7 @@ Persistent state-of-CARL tracker across sessions. SCRATCH = "what to do next ses
 | 28 | **🟡 Card edits owed at step 5b/5b.2 — TWO now, and one instruction is newly FALSE** | **Surface all three to Will together and edit once** — piling a third instruction onto a step with two live ones is the defect, not the fix. CARL a… | 2026-09-11 |
 | 29 | **🔴 As-made confidence walk — CARL's published Brier is flattered, 4 of 4 resolved rows move WORSE** | **Ladder DISCHARGED** (CARL inputs 9/10; DAEDALUS ran H2 as-made 9/17 — per ROADMAP RECENTLY RESOLVED 9/24). Residual: CRL-10/11/17 stay labelled E… | 2026-09-24 |
 | 30 | September retail follow-through | Check Census 9/28 revision vintage then September retail 10/15. (The RED revision audit is split out to its own thread, 9/24 PM.) | 2026-09-24 |
-| 31 | **🟠 RED revision-denominator ledger — every CRL revision since registration, with direction-of-benefit and… | Hostile read of the 19 OVERRIDES rows, then deliver to RED (`AGENTS/RED/inbox/`, carve-out ①) by **2026-09-30**. Route the scoring-convention quest… | 2026-09-24 |
+| 31 | **🟠 RED revision-denominator ledger — DELIVERED v1 9/24; six record actions HELD for Will** | **Will decides the six proposed record actions (ledger §6):** CRL-06 → RETIRED no credit (series swap) · CRL-07/16 first-call vs NO-VERDICT · CRL-0… | 2026-09-24 |
 
 <!-- ROADMAP-INDEX:END -->
 
