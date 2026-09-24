@@ -1,6 +1,6 @@
 # WAL — Thesis Weaknesses (living counter-argument)
 
-**Last Updated:** **2026-08-20 (v2.4 fold — MI3 row rewritten: it asserted a "never-run" falsifier for 13 days AFTER it ran and disconfirmed, and carried bear-fast at 10% after v2.4 cut it to 2%. Found in the 8/20 core-file sweep, not by any check.)** Prior: 2026-07-25 (v2.3-aligned rewrite at promotion standup — supersedes the v1-era 3/25 draft, preserved in git history. Live falsifier canon stays `THESIS.md` calibration tables + the frozen grading frames; this file is the standing steelman.)
+**Last Updated:** **2026-09-24 (session #7 — two rows ADDED, none rewritten: the price-below-EV fact and the CEO's 9/16 Q3 credit pre-guide. No thesis bump.)** Prior: **2026-08-20 (v2.4 fold — MI3 row rewritten: it asserted a "never-run" falsifier for 13 days AFTER it ran and disconfirmed, and carried bear-fast at 10% after v2.4 cut it to 2%. Found in the 8/20 core-file sweep, not by any check.)** Prior: 2026-07-25 (v2.3-aligned rewrite at promotion standup — supersedes the v1-era 3/25 draft, preserved in git history. Live falsifier canon stays `THESIS.md` calibration tables + the frozen grading frames; this file is the standing steelman.)
 
 ---
 
@@ -8,6 +8,8 @@
 
 | Weakness | Severity | Status |
 |----------|----------|--------|
+| ★ **The margin of safety is GONE — spot $75.60 [9/23 close] is 0.47% BELOW EV $75.96** (first time this cycle; 18.8% at v2.2 → 5.4% at v2.4 → negative). On this desk's own arithmetic a short from here has negative expected value unless the Q3 carriers re-weight the bear | **High** | *Added 9/24.* It went on PRICE (sector + rates), not evidence — EV unmoved since 8/20. Only a Q3 print / appraisal that CONFIRMS re-opens the case |
+| ★ **Management pre-guided Q3 credit BETTER at Barclays 9/16** — NPLs $567M → ~$500M (−10%), NCO rate and dollars below Q2, ACL "well over 100%" of NPLs, "six credits … four down, two to go" (KB-WAL-194) | **High if the print confirms** | *Added 9/24.* ⚠️ B2 (third-party transcript, model-extracted), **nonaccrual basis** (full-NPL coverage was 69.1%), and **silent on the $99M loan**. Guidance is what the Q3 frame grades against — a CEO pre-guiding into a buyback has an incentive to lean benign, which is why it is a benchmark and not evidence |
 | **Broadening already disconfirmed twice** — REG-26 DISCONFIRMED 7/21 + FL small-tier watch-card 3-of-3 REVERT 7/25; Q3 is the N=3 test and the bear's own kill condition | **High** | The load-bearing weakness. v2.3 cut Bear-medium 25→16 for exactly this; a 3rd non-confirmation triggers the retire rule (STATUS §EXIT RULES) |
 | **Cohort genuinely improving (Hyp A)** — cohort NCO decomp 6/8 + WALTER SIG-723-016 mosaic + own watch-card fill, three independent reads | High | Bear survives only as idiosyncratic; any "systemic regional stress" framing is dead |
 | **Capital-return pivot strengthens the bull mechanically** — $150M H2 buyback + NII floor 12-14% absorbing an assumed Sept hike + deposit-cost inflection | High | v2.3 lifted Bull to 27% and Base/Bull ranges; executed on-guide, EV drifts further up |
