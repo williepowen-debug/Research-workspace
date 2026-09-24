@@ -3,8 +3,9 @@
 paper_book_mark.py — mark OPEN rows in TERRY's PAPER_BOOK.tsv to market.
 
 Phase-1 shadow-book helper (see PAPER_BOOK_DESIGN.md, "★ PHASE-1 SHADOW BOOK").
-For every OPEN paper row it pulls a live option chain (via chain_fetch.py),
-updates `mark` + `mark_asof`, and flags any row whose mark_asof is older than N
+For every OPEN paper row it pulls a live option chain (via chain_fetch.py) —
+or, for a share row ("VLO common x1"), the timestamped regular-session last
+price (added 2026-09-24) — updates `mark` + `mark_asof`, and flags any row whose mark_asof is older than N
 business days as STALE. It does NOT score, does NOT compute open-row P&L, and
 does NOT execute — scoring is gated on N>=10 CLOSED rows per lane
 (PAPER_BOOK_DESIGN.md §Scoring gate). This tool only logs+marks.
@@ -150,6 +151,20 @@ STRUCT_RE = re.compile(
     r"[^x]*?x\s*(\d+)"                                 # 8 qty
 )
 
+# Share rows: "VLO common x1 (of 3 ruled; ...)". Added 2026-09-24 — PB-0007 (the desk's
+# first equity row, opened 9/18) read UNMARKED/PARSE-ERROR at every boot because STRUCT_RE
+# requires an expiry + strike. It failed SAFE (kept the 9/18 fill as its mark, went STALE),
+# which is exactly how a live position ends up graded off a week-old number by hand.
+# Kept SEPARATE from parse_legs() on purpose: parse_legs() also keys the Will-pinned
+# Phase-2 would-fire count (_wf_event_key), and an equity parse there would re-key PB-0007
+# from card_id to instrument — a gate-metric change nobody asked for.
+EQUITY_RE = re.compile(
+    r"^\s*([A-Za-z][A-Za-z0-9.\-]*)\s+"                # 1 ticker
+    r"(?:common|shares?|stock)\b"                      # the word that says "not an option"
+    r"[^x]*?x\s*(\d+)",                                # 2 qty
+    re.IGNORECASE,
+)
+
 
 # ---------------------------------------------------------------------------
 # Parsing helpers
@@ -198,6 +213,16 @@ def parse_legs(struct, today=None):
         "legs": legs,
         "qty": int(qty),
     }
+
+
+def parse_equity(struct):
+    """Share row -> {ticker, qty} or None. Never matches an option structure."""
+    if parse_legs(struct) is not None:
+        return None
+    m = EQUITY_RE.match(struct or "")
+    if not m:
+        return None
+    return {"ticker": m.group(1).upper(), "qty": int(m.group(2))}
 
 
 def _expiry_iso(tok, today):
@@ -283,6 +308,44 @@ def _fetch_chain(ticker, expiry, opt_type):
     sys.path.insert(0, str(SCRIPTS_DIR))
     import chain_fetch
     return chain_fetch.fetch_chain(ticker, expiry, opt_type)
+
+
+def _fetch_spot(ticker, retries=1, sleep_s=0.5):
+    """Regular-session last price for a share row: {price, time, delayed_by}.
+
+    Uses `regularMarketPrice` + `regularMarketTime`, NOT chain_fetch.fetch_spot()
+    (fast_info lastPrice carries no timestamp). The underlying quote is the one Yahoo
+    object that IS timestamped and delay-flagged (RISK_RULES 5b) — so a share mark can
+    be stamped with the quote's own time instead of the pull time. Retry once on a
+    transient flake; a hard failure propagates and the row degrades to UNMARKED."""
+    import yfinance as yf
+    last_exc = None
+    for attempt in range(retries + 1):
+        try:
+            info = yf.Ticker(ticker).info
+            return {"price": info.get("regularMarketPrice"),
+                    "time": info.get("regularMarketTime"),
+                    "delayed_by": info.get("exchangeDataDelayedBy")}
+        except Exception as e:
+            last_exc = e
+            if attempt < retries and sleep_s:
+                time.sleep(sleep_s)
+    raise last_exc
+
+
+def compute_equity_mark(quote):
+    """(mark, mark_asof, note) or (None, None, reason). Shares mark at the regular-session
+    LAST price, stamped with the QUOTE's own time. A price without a timestamp is refused:
+    its age would be unknown, and an untimed mark is how a stale number reads as live."""
+    price, ts = quote.get("price"), quote.get("time")
+    if price is None or not (price > 0):
+        return None, None, "NO-QUOTE"
+    if not ts:
+        return None, None, "NO-QUOTE-TIME"
+    asof = datetime.fromtimestamp(int(ts)).strftime("%Y-%m-%d %H:%M") + " local"
+    delay = quote.get("delayed_by")
+    dnote = "delay undeclared" if delay is None else f"delay {delay}m"
+    return round(float(price), 4), asof, f"last/regular ({dnote})"
 
 
 def _make_run_fetch(base_fetch=_fetch_chain, retries=1, sleep_s=0.5):
@@ -391,11 +454,18 @@ def compute_mark(match, today, now_str):
     return None, None, "NO-QUOTE"
 
 
-def mark_row(row, today, now_str, fetch=_fetch_chain):
+def mark_row(row, today, now_str, fetch=_fetch_chain, spot_fetch=_fetch_spot):
     """Return (new_mark, new_asof, status_note). Non-fatal on any error."""
     parsed = parse_legs(row.get("structure"), today)
     if not parsed:
-        return None, None, "PARSE-ERROR"
+        eq = parse_equity(row.get("structure"))
+        if not eq:
+            return None, None, "PARSE-ERROR"
+        try:
+            quote = spot_fetch(eq["ticker"])
+        except Exception as e:  # network/yfinance — never crash the run
+            return None, None, f"FETCH-ERROR:{e.__class__.__name__}"
+        return compute_equity_mark(quote)
     root, expiry, legs = parsed["root"], parsed["expiry"], parsed["legs"]
 
     leg_marks, notes = [], []
@@ -556,6 +626,9 @@ def selftest():
     m, a, n = compute_mark(dead, today, now)
     assert m is None and n == "NO-QUOTE", (m, a, n)
 
+    def always_fails_chain(ticker, expiry, opt_type):
+        raise AssertionError("equity row must not pull an option chain")
+
     # mark_row with a stubbed fetch (no network)
     def stub_fetch(ticker, expiry, opt_type):
         assert (ticker, expiry, opt_type) == ("TLT", "2026-09-30", "put")
@@ -622,6 +695,54 @@ def selftest():
         {"structure": "VIX (VIXW) Aug-05 20C/25C call debit spread x4"},
         today, now, fetch=one_dead_leg)
     assert mk2 is None and "NO-QUOTE" in note2, (mk2, note2)
+
+    # --- equity rows (the PB-0007 PARSE-ERROR class, fixed 2026-09-24)
+    pb7 = ("VLO common x1 (of 3 ruled; two more remain STAGED under the 9/18 "
+           "scaling rec)")  # verbatim live structure — permanent regression
+    assert parse_equity(pb7) == {"ticker": "VLO", "qty": 1}, parse_equity(pb7)
+    assert parse_equity("USO shares x37") == {"ticker": "USO", "qty": 37}
+    # an option structure must NEVER parse as equity, even with "stock" in its prose
+    assert parse_equity("TLT Sep-30 77P x45 (stock-replacement)") is None
+    assert parse_equity("garbage") is None
+    ts = 1790277734
+    want_asof = datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M") + " local"
+    calls_eq = []
+
+    def spot_ok(ticker):
+        calls_eq.append(ticker)
+        return {"price": 385.815, "time": ts, "delayed_by": 0}
+    mk, asof, note = mark_row({"structure": pb7}, today, now,
+                              fetch=always_fails_chain, spot_fetch=spot_ok)
+    # stamped with the QUOTE's time, never the pull time
+    assert (mk, asof, note) == (385.815, want_asof, "last/regular (delay 0m)"), (mk, asof, note)
+    assert calls_eq == ["VLO"], calls_eq
+    # a price with no timestamp is refused — its age is unknown
+    mk, asof, note = mark_row({"structure": pb7}, today, now, fetch=always_fails_chain,
+                              spot_fetch=lambda t: {"price": 385.0, "time": None, "delayed_by": 0})
+    assert mk is None and note == "NO-QUOTE-TIME", (mk, note)
+    mk, _a, note = mark_row({"structure": pb7}, today, now, fetch=always_fails_chain,
+                            spot_fetch=lambda t: {"price": 0, "time": ts, "delayed_by": 0})
+    assert mk is None and note == "NO-QUOTE", (mk, note)
+    # undeclared delay is surfaced, not assumed zero
+    _m, _a, note = mark_row({"structure": pb7}, today, now, fetch=always_fails_chain,
+                            spot_fetch=lambda t: {"price": 1.0, "time": ts, "delayed_by": None})
+    assert note == "last/regular (delay undeclared)", note
+
+    def spot_dead(ticker):
+        raise RuntimeError("dead feed")
+    mk, _a, note = mark_row({"structure": pb7}, today, now, fetch=always_fails_chain,
+                            spot_fetch=spot_dead)
+    assert mk is None and note == "FETCH-ERROR:RuntimeError", (mk, note)
+    # an option row must never route to the spot feed
+    def spot_forbidden(ticker):
+        raise AssertionError("option row routed to the spot feed")
+    mk, _a, _n = mark_row({"structure": "TLT Sep-30 77P x45"}, today, now,
+                          fetch=stub_fetch, spot_fetch=spot_forbidden)
+    assert mk == 0.11, mk
+    # the Will-pinned Phase-2 key for an equity row is UNCHANGED (card_id fallback)
+    assert _wf_event_key({"paper_id": "PB-0007", "card_id": "TRY-BRENT-REFINER",
+                          "structure": pb7, "opened": "2026-09-18"}) \
+        == ("card", "TRY-BRENT-REFINER")
 
     def always_fails(ticker, expiry, opt_type):
         raise RuntimeError("dead feed")

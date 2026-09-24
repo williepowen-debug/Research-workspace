@@ -15,7 +15,7 @@
 > |---|---|
 > | **004** TLT Sep-30 77P ×20 | 0.01/0.02 ⇒ `$20` vs `$231.26` (−91.4%). **`007` TERMINATED `MOOT ⇒ NO-VERDICT`.** `WQ-280` (9/24) NO ADD. HOLD to **Wed 9/30** expiry; harvest ≥`$0.3469` still live. |
 > | **ROLL70** WAL Dec-18 70P ×1 (RH) | 2.50/2.70 ⇒ +`$30` (+13.6%). Exit 0-of-3 (REGINALD thru 9/23). **Exit basis written into the letter** (DAEDALUS #1 ② discharged); clause (d) awaits REGINALD. Sep-18 pair LAPSED; postmortem written. |
-> | **REFINER** VLO 1 of 3 @ $412 | `$392.61` (−4.7%). **9/23 scaling rule met on the letter, fails the 9/14 crack-not-collapsing condition ⇒ would-have-been STAND DOWN.** 9/24 crude-led rally ⇒ **DO NOT ADD**. `F1` buffer **`$4.72`** (matched-Nov crack `$99.72`). `F1` basis asked of HENRY. |
+> | **REFINER** VLO 1 of 3 @ $412 | `$392.61` (−4.7%). **9/23 scaling rule met on the letter, fails the 9/14 crack-not-collapsing condition ⇒ would-have-been STAND DOWN.** 9/24 crude-led rally ⇒ **DO NOT ADD**. **9/24 CLOSE (16:3x): watcher NOT MET** (VLO `$382.86` > SMA `$378.92`). ~~`F1` buffer `$4.72`~~ → **`F1` buffer `$1.03–1.30`, PROVISIONAL** (matched-Nov crack `$96.03–96.30`, −`$6.15`+ on the day; T+1 re-pull owed 9/25). `F1` basis asked of HENRY — **HENRY DARK, PROME doorbelled (rule 6b).** Card § ⑨. |
 >
 > **Done today:** STATUS rotated · construction rule #22 amended (PROME L429) · DAEDALUS sweep #1 both asks disposed · 7 inbox packets consumed · packets out to PROME / DAEDALUS / REGINALD (ASK) / HENRY (ASK). **Process gap CLOSED:** the 2 staged VLO shares now have a registered watcher, `GATE-TERRY-VLO-SCALE` (Will 14:59 ET, WQ-282; `PROME/GATES.tsv` `0289ac024`, letter `5fae05da9` verified verbatim). Each fire = TERRY grades on settled closes + rec to Will. review_by 10/14.
 >
@@ -23,7 +23,7 @@
 > - **Answers owed IN:** REGINALD on clause (d) · HENRY on the `F1` basis · Will on the VLO share's account + fill time (D-55).
 > - **CCL prints Tue 9/29** — `TRY-NOTRADE-CCLPRINT` stands; **grade CRUISE's `FL-CRU-10` (CCL Q3 CC net yield ≥ its ~+1.2% guide, 60%) on the FROZEN resolver after the print.** NCLH 11/04 UNVERIFIED, re-check `2026-10-20`.
 > - **CATO is NOT routable** — CATO material travels through Will by hand (`SIGNALS` `CATO-NOT-ROUTABLE-20260920`; ROSTER).
-> - **VLO:** 1 of 3 held @ $412.00 (account + fill time UNKNOWN, D-55); **2 STAGED**. `PB-0007` equity branch in `paper_book_mark.py` still owed.
+> - **VLO:** 1 of 3 held @ $412.00 (account + fill time UNKNOWN, D-55); **2 STAGED**. `PB-0007` equity branch in `paper_book_mark.py` **SHIPPED 2026-09-24 15:2x** (auto-marks at the timestamped regular-session last; selftest + 2 mutants caught).
 > - **Rule candidates** (envelope-EV test; three-rung correction ladder): draft outside `RISK_RULES.md` → cold read → adopt (PROME 9/22 endorsed the path).
 
 > ## ⤵️ **2026-09-18 Fri session block ROTATED 2026-09-19 → `archive/STATUS_ARCHIVE_2026-09-19.md`** (pre-rotation lines 27–44, crc32 `6962e3ad`, 9824 B — verbatim, contiguous, body only). **Forced by THIS session's own §0 correction block breaching the 32,550 B READ-CAP; rotated FIRST, written SECOND.** ⛔ **No live state moved** — all six load-bearing legs (VLO `$412.00` fill · `GATE-TERRY-007` · `ROLL70-EXIT` · `TLT85P +$140.67` · `WQ-258` · the 9/24 DAEDALUS asks) were verified on **≥3 other live surfaces each** before the cut, listed leg-by-leg in the archive header. **Every open obligation from it is restated in the 2026-09-19 block above.**
