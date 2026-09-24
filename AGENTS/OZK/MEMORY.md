@@ -63,14 +63,14 @@
 - **Q2'26 10-Q FULL READ (Will-directed, evening).** Roster turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed; Boston LS → nonaccrual); **"Dec 18 2025" is Baltimore, not Boston** (Boston = Feb 13 2026; misattributed since April, 7+ surfaces fixed; my morning answer to PROME was wrong); RIAD5409 ≈ The Jack + San Carlos (INFERRED); SM = 5 credits $529M; RaDD pass at 6/30 (elimination); sub-notes capital effect ~−0.16pp retain / ~−0.8pp redeem. KB 231-235.
 - **Zero grades/thresholds/weights/conviction moved.**
 
-### NEXT SESSION
+### NEXT SESSION (priority order — CATO 9/24: evidence before restructuring)
 
-1. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = record **SCHEDULED-UNCONTRADICTED** (never "confirmed"; log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark answered: **3M term SOFR + 209bp** (issuer release); call/notice terms still unread (indenture).
-2. **Q3 date** (~9/30) → replace boot.py/CALENDAR `~2026-10-21`; build Q3 scoring card pre-print.
-3. ✅ D4 done 9/24 → `research/threads/Q2_2026_10Q_READ.md`. Next evidence item: **TODO C1 Horton**, then R1 (reserve build on the Q2 roster).
-4. 🔴 TODO C1 — Horton leasing (window-search empty, NOT discharged).
-5. Open, not L181's: does OZK populate MI3 from the debt-on-debt book only? (MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose from item 4.)
-6. Carried: TODO R1/R2/R3 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · 7/20 selfsweep packet: no receipt — leave unless evidence surfaces.
+1. **🔴 TODO C1 — Campus at Horton leasing check (do first).** Question: has anyone leased any of the 770K SF (downtown SD; AllianceBernstein took it back by $130M credit bid, Sep 2025) since the foreclosure? Sources: Bisnow/SD Business Journal/TRD/CoStar-style press, broker listings (JLL/CBRE/Cushman), AllianceBernstein or new-owner releases. Write the answer as SWEPT-AND-EMPTY / FOUND / UNKNOWN with dates and queries → `research/threads/HORTON_LEASING_CHECK.md`. **Moves nothing by itself**: a lease → note for IQHQ_PLAYBOOK §3 (D severity lower); still empty → the 65-70% severity band stands on evidence instead of on a gap.
+2. **TODO R1 — re-derive the $150-300M reserve-build estimate** on the Q2 roster (`Q2_2026_10Q_READ.md` §2; bank-wide vs RESG scopes kept separate) + the SM concentration (5 RESG credits $529M, incl. the $147M condo at 105.6% LTV). Label INFERRED; no grade moves.
+3. **~Sep 30 — Q3 date** → set CALENDAR + boot.py `~2026-10-21`; then **TODO D3 — build the Q3 scoring card** (legs in CALENDAR's Q3 row).
+4. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = **SCHEDULED-UNCONTRADICTED** (log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark 3M term SOFR + 209bp.
+5. **Oct 6 — Bluerock BPRE webinar** (IQHQ mark/exit talk; context, not a grade).
+6. Carried: TODO C2 SD recorder · C3 Aimco docket · C4 severity comps (Spur deed-in-lieu is a new data point) · C5 Affinius (UNVERIFIED EVENT) · R2 subdomain refresh · R3 $87M date · R4 MI3-population question · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 (Will) · charter lines 13/17/19/157/177 still stale (Will-gated; offered 9/24).
 
 ⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
 

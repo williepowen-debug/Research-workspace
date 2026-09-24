@@ -2,6 +2,7 @@
 
 **Last updated:** 2026-09-24 (full rebuild: every open item from the old sections — Aug-23 queue, 8/28 sweep S1-S9, 8/7 proposals, 7/18 carry-forwards, April priorities — de-duplicated into ONE queue; ~25 done/obsolete items retired to git history). Older versions → `git log -p -- AGENTS/OZK/TODO.md`.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
+**▶ WORK ORDER (set 2026-09-24, CATO: evidence before restructuring): C1 Horton → R1 reserve re-derivation → D2/D3 Q3 date + card → D1 10/2 read.**
 
 ⛔ **Standing fence:** **D1 / OZK-salvage is RULED-CLOSED.** Do not re-present, re-litigate, or propose a successor position. Any future OZK expression is a **new** trade — TERRY builds, Will approves.
 
