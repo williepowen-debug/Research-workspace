@@ -2,3 +2,4 @@
 week_ending	window_start	loops	loops_nosrc	forecasts_resolved	catches_pre	corrections_post	rulings	commits	author_days	touches	zero_capital_aff	prome_only_commits	renderer
 2026-09-04	2026-08-29	26	1	9	28	0	55	804	9	49	48	202	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
 2026-09-11	2026-09-05	28	2	5	15	9	34	1149	10	67	67	293	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
+2026-09-18	2026-09-12	34	6	10	17	6	14	1007	10	110	108	279	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
