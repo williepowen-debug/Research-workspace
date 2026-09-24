@@ -50,6 +50,7 @@
 | 🔴 **Energy re-arm** | Re-spec owed — docket 10/1 |
 | 🔴 **Channel 4 EMMA/MSRB** | Unrun |
 | ⏳ **Spirit seat deletion unsized** | Seats never measured |
+| 🔴 **FL-$ hole → DEWEY `MARCO-DR-1`** | *(s29, 9/24 ~13:3x)* DEWEY: NOT RUN (f0abad802, deferred). MARCO told PROME **needed-by 2026-11-16** (ahead of ID-01 Dec grade); core legs 1/2/3/5, leg 4 may split. **Fallback: nothing by 11/16 ⇒ MARCO formally retracts the figure.** ✅ **Registered as PROME DOCKET L466** (`1bf42371f`, verified at artifact): wake row **2026-11-02**, NEEDED-BY 11/16 in text (two-week run allowance). Cite L466 in STATUS at closeout |
 
 ## Mail state
 **Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18) — not an inbox spawn. **WALTER lane empty.** PROME 9/22 ID-01 packet processed (it asked only for a record).

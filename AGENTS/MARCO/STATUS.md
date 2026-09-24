@@ -41,7 +41,11 @@
 - **June 2026 detail + the grading → the READ FIRST block above; live levels → the dashboard row.** Canonical vector: **`VX-MARCO-2.08`** (refreshed 8/11 from Banxico CE81 primary, full 2024-26 monthly series).
 - **What survives regardless of how the tell is graded:** the "fewer, larger transfers" pull-forward signature has fully normalized (avg transfer +3.94%, no cliff, no Q2-Q3 air-pocket), and **on a 2-yr basis both legs are deeply negative** (count −12.96%, value −12.11%). The disagreement is entirely about **which basis the tell was written on** — not about what the corridor is doing.
 
-### Energy Re-Shock → FL — 🔴 RE-ARM UNGRADED (8/24 window closed unobserved; **do not back-grade**; re-spec owed, docket 10/1) → cold for the forensic detail.
+### Energy Re-Shock → FL — 🔴 RE-SPECIFIED 9/24 as `ENR-02`: THE FARE STAGE IS ALREADY TRANSMITTING
+- **Price leg = BRENT's, not ours.** MARCO no longer runs its own Brent instrument — it duplicated BRENT's registered $85 line (`AGENTS/BRENT/workbook/REGISTRY.tsv` `MKT-BZ-F-BELOW-85`, with BRENT's roll rule). Cite BRENT; never re-pull. BRENT's 9/22 settles: `BZX26` **$99.25** / `BZZ26` **$95.41** [single vendor]. The old 8/24 re-arm stays **UNGRADED — never back-graded** (history → `thesis/TIMELINE.md`).
+- **Fare leg (MARCO's): CPI airline fares +23.41% YoY / +27.46% 2-yr (Aug, BLS API live 9/24)** — rising since Mar (+14.89 → Apr +20.71 → May +26.70). 2-yr ≥ +20% happened in only **6.1% of months since 1997** (2000, 2011, 2022–23). `KB-MARCO-ENR-01`.
+- **`ENR-02` letter (pre-registered 9/24):** 2-yr stack, Sep (**10/14**) AND Oct (~mid-Nov, est.) both ≥ +20.0% = SUSTAINED; either < +15.0% = FADED; else HOLD. 2-yr, not YoY, because **Oct-2025 has no BLS value (2025 shutdown)**. ⚠️ Oct is the harder month: flat fares give Sep +23.88% but Oct only +16.47% (HOLD) — said in advance.
+- ⚠️ **Not all fuel:** Spirit's 5/2 liquidation is a co-driver after May (April +20.71% predates it). National series, not FL. **The FL-demand stage is not graded here** — MIA dom load factor 85.2→81.1% is consistent, NOT attributed.
 
 ### Florida Triple Exposure — COOLING (🟡) → cold. Insurance = CORAL's cells (PIF 278,246 @6/30, refresh chased); condo 7.8mo Jul; FMHPI +1.68% is SF-only, excludes condos; Amendment 3 vote Nov 3.
 
@@ -69,7 +73,8 @@
 | 🟡 **Nov (est.)** | **OFLC H-2A FY26 Q4 file — the `MAR-11` resolver** (still Q3 on 9/24). Do NOT grade at the 9/30 FY close | 🟡 |
 | 🟠 **Nov 3** | FL property-tax Amendment 3 / HJR 1F — new-resident homestead cap; **anti-migration by design**; poll 64%±3.8 vs a 60% bar | 🟠 |
 | 🟡 **~Dec → 2027-02** | **`MAR-24` resolver = BTS Q3** (Sep data ~Dec); graded on the first BTS pull on/after 2027-02-01, carrier-adjusted beside raw | 🟡 |
-| ⏳ **carried** | Energy re-arm 8/24 **never graded — re-spec, do not back-grade** · StatCan Q2 BOP unpulled · CORAL Citizens PIF refresh (asked 9/19) | 🔴/🟡 |
+| 🔴 **Oct 14 (Wed)** | **`ENR-02` leg 1 — CPI airline fares Sep** (2-yr ≥ +20%; Aug +27.46%) · leg 2 = Oct CPI ~mid-Nov (est.) | 🔴 |
+| ⏳ **carried** | StatCan Q2 BOP unpulled · CORAL Citizens PIF refresh (asked 9/19) | 🔴/🟡 |
 
 *Full forward docket (StatCan travel, FL Realtors, Banxico state-of-origin, OFLC H-2A, FL airports, ICE Q4, Census annual) → `docket/CALENDAR.md`.*
 
@@ -98,7 +103,7 @@
 | VX-MARCO-EMG-01 (emigration) — WATCH/PENDING | 🟡 |
 | ⏳ **ICE off-farm pivot: durable or tactical (Q4 2026 ag re-acceleration risk)** | 🟡 |
 | 🔑 **`ID-01` — REGISTERED IDENTIFICATION CONDITION (tariff→sentiment), MECHANISED; its noise floor was measured too low and its STATISTIC was corrected.** Land-vs-air divergence on the StatCan 2-yr stack; structural because **air is capacity-constrained by filed winter schedules and land is not**. ✅ `tools/statcan_travel.py` reproduces all four hand-carried baselines within **0.05pp**. **AUGUST pre-window baseline: auto −27.39 / air −22.67 ⇒ gap −4.72pp** (Jun −4.58, Jul −2.02). ⛔ **The 2.5pp floor came from ONE observation.** Over 11 pre-tariff transitions the gap moves **mean 4.21pp, max 7.95pp**. ⚠️ **CORRECTED 9/19 (CATO review): on MATCHED two-month windows the crossing frequencies are either-month 8/10 = 80% and both-months 1/10 = 10%.** The previously published **"45%"** was 5/11 over *single-month* transitions — a different window and denominator. ⚠️ **And they are HISTORICAL CROSSING FREQUENCIES over a period containing real deterioration, NOT calibrated false-positive rates.** The correction makes the both-months case **stronger**; the number was still wrong. 🔑 **Both-months reading PRE-COMMITTED 9/19; ✅ CONFIRMED by PROME 2026-09-22 as the controlling wording for the ~mid-Oct and ~mid-Dec prints** (floor NOT re-levelled mid-window; retire-as-unidentifiable stays open at the Dec grade). n=10. FALSIFIED still if both legs deteriorate together or land IMPROVES vs air. | 🔑 |
-| 🔴 **ENERGY RE-ARM UNGRADED — window closed unobserved 8/24.** Re-spec with a fresh forward window; **do not back-grade** (11 unobserved settles + an intervening Oct→Nov roll ~8/31 break `BZ=F` continuity). See ACTIVE SITUATIONS / Energy | 🔴 |
+| 🔴 **`ENR-02` (energy→fare) — RE-SPEC DONE 9/24, grades 10/14 + ~mid-Nov.** Old 8/24 re-arm UNGRADED, superseded, never back-graded. See ACTIVE SITUATIONS / Energy | 🔴 |
 
 ---
 
