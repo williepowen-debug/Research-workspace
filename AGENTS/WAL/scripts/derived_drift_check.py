@@ -190,7 +190,7 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 63      # RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 to the measured count, so the
+        BASE_DRIFT, BASE_REVIVED = 12, 61      # RE-MEASURED 2026-09-24 (session #7, PROME L441): TIGHTENED 68 -> 63 -> 61 (the NEXUS re-pin shed 2 more) to the measured count, so the
                                                # 5 hits that cleared (live STATUS/MEMORY rewritten lean; their dead-token audit lines now sit only in the
                                                # verbatim archive snapshots) can no longer absorb 5 NEW ones. Tightening can only false-alarm, never hide rot.
                                                # Check-1 stayed 12: the one +1 seen mid-session (INDEX.md:7 'KB 192' after rows 193-197 landed) was MY OWN
