@@ -39,7 +39,7 @@ flowchart LR
     subgraph ENERGY[Energy / geopolitics / commodities / climate]
         HAWK[HAWK<br/>Geopol synthesis + dormant book]
         OSPREY[OSPREY<br/>Russia-Ukraine war theater]
-        YURI[YURI<br/>Russia state decisions (actor-keyed)]
+        YURI["YURI<br/>Russia state decisions (actor-keyed)"]
         FALCON[FALCON<br/>Iran-Gulf war theater]
         BRENT[BRENT<br/>Oil / energy markets]
         MARCO[MARCO<br/>Migration / labor supply]
