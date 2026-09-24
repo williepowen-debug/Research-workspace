@@ -19,6 +19,8 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 **Same session, non-substantive:** `THESIS.md`'s `FRAUD/` file-table row re-pointed from "refresh pending Wave 1 chunk 2" to the two live FOLD sections applied 9/24 (FIRST_BRANDS = LAM/Jefferies, STUPIN_CRE = Cantor). 7 FRAUD files archived.
 
+**Same day, live-surface sweep (`research/LIVE_SURFACE_SWEEP_2026-09-24.md`, Will: "do a sweep"):** THESIS header no longer states the 8/20 overvaluation as current (spot → STATUS; 9/23 = 0.47% below EV); title re-set to the v2.4 framing; riders on the dead Sep-18 position lines; the v2.2-era §PREDICTIONS / §WATCH DATES / V3 "near-disconfirmed" / §OPEN RESEARCH blocks bannered with the live pointers; P7 marked EXECUTED; one broken REGINALD path re-pointed. **Zero weights, probabilities, EV or PT moved (R3).**
+
 **Found by:** the FRAUD-corpus review, `research/FRAUD_CORPUS_REVIEW_2026-09-24.md`, verified at the artifact before applying. **Desk `CLAUDE.md` lines 16 and 150:** held for Will's OK (boot card), then corrected the same day on his word ("yes, fix the CLAUDE.md lines"). **Why no weight moves:** the residual is not an input to any scenario weight or range; it is V2 forward-risk context (V2 is excluded from the composite).
 
 ---

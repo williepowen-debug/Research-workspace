@@ -1,5 +1,5 @@
 # WAL — Leadership & Board Profile
-> ⚠️ **STALE-VINTAGE 2026-03-31 (bannered 2026-07-25 at promotion).** Pre-dates the Q1 print, the May-12 Investor Day, the Curley resignation (May, B3 FIRED), and the Q2 cycle. Cite only with vintage; refresh-or-keep = owner call at first firming touch.
+> ⚠️ **STALE-VINTAGE 2026-03-31 (bannered 2026-07-25 at promotion).** Pre-dates the Q1 print, the May-12 Investor Day, the Curley resignation (May, B3 FIRED), and the Q2 cycle. Cite only with vintage; refresh-or-keep = owner call at first firming touch. **Since (9/24 pointer):** CEO Vecchione took the board CHAIR 6/10 (KB-WAL-134); V4 = 3/5 RATIFIED (STATUS §CONVERGENCE); zero open-market buys through the 9/17 Form 4s (KB-WAL-193).
 **Last Updated:** 2026-03-31
 
 ---

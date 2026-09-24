@@ -16,7 +16,7 @@
 | **New office migrations Q2** | **0** (pass-grade-walk stays N=1) | 🟢 |
 | **$99M life-sci walk-away** (B1) | Nonaccrual, **$0 charged off**, brought current end-June, **appraisal PENDING** | 🟠 the dated Q3 catalyst |
 | **NCO ex-fraud** | 37bps annualized (25-40 NEUTRAL band; FY 25-35 guide reaffirmed, H2 "a little above midpoint") | 🟡 |
-| **ACL/NPL coverage** | **96% — below 100%** | 🔴 |
+| **ACL ÷ nonaccrual** (funded + unfunded; the RETIRE-leg basis pinned 9/24) | **96% — below 100%** (full-NPL basis **69.1%**) | 🔴 |
 | **CRE-NOO gross charge-offs** | $32.0M — 5-quarter high (grind signature, diluted in $58.7B book) | 🟠 |
 | Special Mention | $316M (−$87M / −22% QoQ) | 🟢 |
 | EPS / NIM | **$2.36 GAAP = $2.36 adjusted** ⬅ **A1-pinned at the 10-Q 8/7** (both non-GAAP adjustments are Q1-only, so no Q2 adjusted figure exists) / NIM 3.53% flat; CET1 11.0%. Revenue $995.7M (*below* Q1's $1.018B) | 🟢 base-case — the BASIS question is **dissolved** (KB-WAL-149). ⚠️ **The CONSENSUS remains contested 3 ways** ($2.33 / $2.36 / ~$2.37) and is **structurally unresolvable from any filing** — needs a dated vendor snapshot ≤2026-07-21 (KB-WAL-139) |
@@ -49,8 +49,8 @@
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
 | 4 | `SCENARIOS.md` v2.4 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
 | 5 | `workbook/KB.tsv` + `KB_INDEX.md` | **200-row** evidence base, 20 distinct Group values (Q2 106-127; insider 128-133; news 134-139; Q1 10-Q primary 140-145; Q2 10-Q primary 146-163; MI3 first run 164-170; **8/20 catch-up 171-177**; 8/28 MI3-cohort 181-183; **9/2 tape+method 184-187**; **9/24 re-base + instrument 188-192; catalyst sweep 193-197; Cat-IV 198; 13F + share-count correction 199-200**) |
-| 6 | `MI3_FIRST_RUN_2026-08-07.md` ⬅ ★★ **NEW** | The first-ever V1a MI3 grade + 12-quarter series + the KILL/time-box outcomes + P7-P10 |
-| 7 | `Q2_10Q_READ_2026-08-07.md` ⬅ **NEW** | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + P1-P6 |
+| 6 | `MI3_FIRST_RUN_2026-08-07.md` | The first-ever V1a MI3 grade + 12-quarter series + the KILL/time-box outcomes + P7-P10 |
+| 7 | `Q2_10Q_READ_2026-08-07.md` | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + P1-P6 |
 
 ## File Map
 
@@ -64,7 +64,7 @@
 | `SCENARIOS.md` v2.4 | Scenario branches + ranges |
 | `workbook/KB.tsv` + `KB_INDEX.md` | Canonical evidence store + group navigator |
 | `workbook/PREDICTIONS.tsv` | WAL-01/02 (formerly REG-24/25) + future WAL predictions |
-| `workbook/MI3_SERIES.tsv` ⬅ **NEW 8/7** | 12-quarter MI3 series (RCON2746 ÷ item 4) + NDFI item 9a, two-clock header. **Standing quarterly pull** — next Q3-2026 Call Report ~Oct-Nov |
+| `workbook/MI3_SERIES.tsv` | 12-quarter MI3 series (RCON2746 ÷ item 4) + NDFI item 9a, two-clock header. **Standing quarterly pull** — next Q3-2026 Call Report ~Oct-Nov |
 | `POSITIONS.md` | Option legs (canonical; broker-data only) |
 | `MEMORY.md` | Session handoff, Feedback, Findings |
 
@@ -98,14 +98,14 @@
 
 *Dead pointers struck 7/17 audit: `research/HIDDEN_CRE|JEFFERIES|SSFA/` never existed — V1 material → `../REGINALD/domain/sources/` + THESIS; V2 → `FRAUD/`; V3 → STATUS V3 table.*
 
-## Open Threads (re-triaged session #1 2026-07-25; **updated session #2 2026-08-07**)
+## Open Threads (re-triaged session #1 2026-07-25; updated 2026-08-07; **last updated session #7 2026-09-24**)
 
 1. ~~**Q2 KB ingest or freeze call**~~ — ✅ **CLOSED 7/25: INGESTED.** 22 rows (106-127) off the 8-K/EX-99.2/call; data clock 82d → 0d. Column-drift on 056/057 fixed in the same pass.
-2. **Strike-by-strike position architecture rebuild** — SCENARIOS May-vintage sections (first-boot mandate, still open; Sep-18 expiry is the forcing date).
+2. **Strike-by-strike position architecture rebuild** — SCENARIOS May-vintage sections (first-boot mandate, still open; forcing date now the Dec-18 $70P time stop 12/04 — one leg).
 3. **Other LAM/Leucadia-era credits inventory** — call-transcript review done (Q2 clean twice, KB-WAL-124). ⚠️ **The DEF 14A pass is still NOT done — and the 2026 proxy was filed 2026-04-22 and has never been read** (our INSIDER rows predate it). It also carries the cash-settled-RSU plan terms behind KB-WAL-129 and the beneficial-ownership table.
 4. **Cantor residual quarterly tracking** — ⬅ **PARTIALLY CLOSED 8/7.** The Q2 10-Q re-confirms the three primary figures ($98.5M facility / $29.6M specific allowance / $26.1M Q1 charge-off) and adds **"no additional charge-offs" in Q2** (KB-WAL-148). ⚠️ **But the Q2 disclosure is NARROWER than Q1's** — the $3.5M remaining allowance, the ~$70M residual carrying value and the $13M/$64M senior-lien position are all ABSENT. **Ledger tie-out still owed at the Q3 10-Q.** *(Candidate tie logged, not asserted: the Q2 MD&A's "$64 million of loans with more-than-insignificant deterioration" matches the protective-lien magnitude exactly.)*
 5. **Lender-finance quality-of-names** (2,000 obligors) — V3 residual, unresolved since Q1. ⚠️ **PRIORITY RESTORED 8/7:** the "contracting by management choice" premise that justified deprioritising this **is refuted at the Q2 10-Q** — NDFI grew to **25.9% of HFI (a new high)** with all three sub-lines up QoQ (KB-WAL-146). V3's 1/5 is under challenge; the quality-of-names question is live again.
-6. ~~**MI3/FFIEC**~~ — ✅ **CLOSED 2026-08-07. The pull ran; MI3 graded DISCONFIRMING on both 2026 quarters + 10 of history.** The 7/25 hunch was right — WAL's own Call Report is directly retrievable — but the recorded recipe was **SOAP-vintage and dead** (legacy tokens expired 2/28/26); the live service is **REST + JWT**, header literally `Authentication:`. **Successor threads:** (a) ⏱ **JWT expires 11/5**, before the Q4 report — Will-side regeneration; (b) `.env` is laptop-only, desktop has no creds; (c) **peer-cohort MI3 is now cheap** — the same call for the comparison set would settle whether 21.20% is high or low vs peers (**REGINALD's lane**, flagged to them); (d) UBPR percentiles still unexplored.
+6. ~~**MI3/FFIEC**~~ — ✅ **CLOSED 2026-08-07. The pull ran; MI3 graded DISCONFIRMING on both 2026 quarters + 10 of history.** The 7/25 hunch was right — WAL's own Call Report is directly retrievable — but the recorded recipe was **SOAP-vintage and dead** (legacy tokens expired 2/28/26); the live service is **REST + JWT**, header literally `Authentication:`. **Successor threads:** (a) ⏱ **JWT expires 11/5**, before the Q4 report — Will-side regeneration; (b) `.env` creds are on the **DESKTOP only** (`DESKTOP-BC6EF81`); the laptop cannot pull MI3 *(this line had the machines reversed until 9/24)*; (c) **peer-cohort MI3 is now cheap** — the same call for the comparison set would settle whether 21.20% is high or low vs peers (**REGINALD's lane**, flagged to them); (d) UBPR percentiles still unexplored.
 7. ~~**Form 4 post-print insider sweep**~~ — ✅ **CLOSED 7/25.** Complete EDGAR Form 4/144 scan 3/1-7/25 → `sources/INSIDER_SCAN_WAL_2026-07-25.md`, KB-WAL-128..133. Zero buying confirmed; V4 ratified 3/5. **Converted to a standing monthly watch — and Form 144 must be pulled with Form 4** (a departing officer's liquidation is invisible to Form 4 alone).
 8. **EPS basis tie-out** — ✅ **CLOSED 8/7 on the basis leg, OPEN on the consensus leg.** The 10-Q pins Q2 **GAAP = adjusted = $2.36** (both non-GAAP adjustments are Q1-only), so the basis fork that made Q1 ambiguous does not exist at Q2 (KB-WAL-149). **The consensus leg cannot be closed by any filing** — it needs a dated vendor snapshot on-or-before 2026-07-21.
 9. ~~**WAL-02 invalidation-clause defect**~~ ✅ **RULED 8/12 (Will, batch row 32b) + REPAIRED 8/20 (P3).** Invalidation re-pointed to an exhaustive Q3-only partition: **>40bps CONFIRMED / ≤40bps INVALIDATED** — no undefined band remains. Confidence unmoved at 50% (rider R3). Historical framing follows: HARDENED 8/7. The 37bps that makes the invalidation unreachable is now **A1-confirmed at the 10-Q** (Q2 NCO $55.0M = 0.37%, and zero fraud charge-offs in Q2, so total = ex-fraud) — KB-WAL-158. Row still 50%/OPEN, spec **unedited** (graded row); a dated note-only append was added to the TSV.

@@ -1,3 +1,5 @@
+> 📼 **Vintage ~2026-03-25 (data through ~Feb 2026); bannered 2026-09-24.** Superseded by `INSIDER_SCAN_WAL_2026-07-25.md` (complete Form 4/144 sweep); V4 now 3/5 (STATUS §CONVERGENCE). Do not cite the score below as current.
+
 ## WAL — 🟠→🔴 SOPHISTICATED REPOSITIONING (Score 19→20)
 
 | Actor | Action | Signal |

@@ -205,8 +205,8 @@ Same fraud ring. Same collateral subordination scheme. WAL reserves 30%, ZION ch
 ---
 
 ## Canonical References
-- `GRANT_THORNTON_NEXUS.md` — original GT analysis (superseded by this doc)
+- `../archive/FRAUD/GRANT_THORNTON_NEXUS.md` — original GT analysis (superseded by this doc)
 - `STUPIN_CRE.md` — auditor liability section
-- `TRICOLOR.md` — GT thread
+- `../archive/FRAUD/TRICOLOR.md` — GT thread
 - `RQ-REG-A02B` — forensic insurance/auditor analysis
 - OTTO: `Gotham_CVNA_Main_Report_2026-01-28.txt` — GT section

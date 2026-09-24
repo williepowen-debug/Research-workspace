@@ -96,13 +96,13 @@ Tricolor                        ──► WAL exposure SILENT in Q1 print
 |------|---------|
 | `SYNTHESIS_V2.md` | Post-print synthesis: what we predicted, what landed, what's residual |
 | `FIRST_BRANDS.md` | Vector deep dive (silent in Q1 print) |
-| `TRICOLOR.md` | Vector deep dive (silent in Q1 print) |
+| `../archive/FRAUD/TRICOLOR.md` | Vector deep dive (silent in Q1 print) |
 | `STUPIN_CRE.md` | Cantor Group V deep dive |
 | `AUDITOR_NEXUS.md` | RSM PCAOB findings, "Issuer B" hypothesis |
 | `AUDIT_COMMITTEE.md` | Audit committee composition / governance |
-| `CLASS_ACTION_FINDINGS.md` | Securities class action findings |
-| `INVESTIGATION_ROADMAP.md` | Pre-print investigation plan (largely retrospective now) |
+| `../archive/FRAUD/CLASS_ACTION_FINDINGS.md` | Securities class action findings |
+| `../archive/FRAUD/INVESTIGATION_ROADMAP.md` | Pre-print investigation plan (largely retrospective now) |
 | `WAL-JEF-PointBonita-Analysis-20260326.docx` | Mar 26 Point Bonita analysis (pre-print) |
-| `ZION_AUDIT_COMPARISON.md` | EY (ZION) vs RSM (WAL) comparative analysis |
+| `../archive/FRAUD/ZION_AUDIT_COMPARISON.md` | EY (ZION) vs RSM (WAL) comparative analysis |
 
 **Canonical post-print analysis:** `../Q1_2026_ANALYSIS.md` §1 (Two Fraud Credits) | `../sources/q1_2026/WAL Earnings Call.md` (transcript) | `../THESIS.md` v2.0 §V2 ("Resolved in Public 8-K")

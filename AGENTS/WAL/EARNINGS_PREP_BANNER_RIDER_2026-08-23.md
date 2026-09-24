@@ -1,6 +1,6 @@
 # WAL — proposed banner rider for `EARNINGS_PREP.md`
 
-**Filed:** 2026-08-23 (WAL session #4) · **Status:** ⬜ **PROPOSED — awaiting disposition** · **Requested by:** PROME packet 2026-08-21, item 2 (*"file the rider text, then it rules"*)
+**Filed:** 2026-08-23 (WAL session #4) · **Status:** ✅ **SELF-RULED + APPLIED 2026-09-02** (`EARNINGS_PREP.md:3`) — *was: PROPOSED, awaiting disposition* · **Requested by:** PROME packet 2026-08-21, item 2 (*"file the rider text, then it rules"*)
 
 ---
 

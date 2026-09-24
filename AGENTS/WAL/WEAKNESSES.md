@@ -10,7 +10,7 @@
 |----------|----------|--------|
 | ★ **The margin of safety is GONE — spot $75.60 [9/23 close] is 0.47% BELOW EV $75.96** (first time this cycle; 18.8% at v2.2 → 5.4% at v2.4 → negative). On this desk's own arithmetic a short from here has negative expected value unless the Q3 carriers re-weight the bear | **High** | *Added 9/24.* It went on PRICE (sector + rates), not evidence — EV unmoved since 8/20. Only a Q3 print / appraisal that CONFIRMS re-opens the case |
 | ★ **Management pre-guided Q3 credit BETTER at Barclays 9/16** — NPLs $567M → ~$500M (−10%), NCO rate and dollars below Q2, ACL "well over 100%" of NPLs, "six credits … four down, two to go" (KB-WAL-194) | **High if the print confirms** | *Added 9/24.* ⚠️ B2 (third-party transcript, model-extracted), **nonaccrual basis** (full-NPL coverage was 69.1%), and **silent on the $99M loan**. Guidance is what the Q3 frame grades against — a CEO pre-guiding into a buyback has an incentive to lean benign, which is why it is a benchmark and not evidence |
-| **Broadening already disconfirmed twice** — REG-26 DISCONFIRMED 7/21 + FL small-tier watch-card 3-of-3 REVERT 7/25; Q3 is the N=3 test and the bear's own kill condition | **High** | The load-bearing weakness. v2.3 cut Bear-medium 25→16 for exactly this; a 3rd non-confirmation triggers the retire rule (STATUS §EXIT RULES) |
+| **Broadening already disconfirmed twice** — REG-26 DISCONFIRMED 7/21 + FL small-tier watch-card 3-of-3 REVERT 7/25; Q3 is data point **2 of 3**; the retire rule's N=3 lands at the **Q4 print (~Jan 2027)** at the earliest (STATUS §EXIT RULES) | **High** | The load-bearing weakness. v2.3 cut Bear-medium 25→16 for exactly this; a 3rd non-confirmation triggers the retire rule (STATUS §EXIT RULES) |
 | **Cohort genuinely improving (Hyp A)** — cohort NCO decomp 6/8 + WALTER SIG-723-016 mosaic + own watch-card fill, three independent reads | High | Bear survives only as idiosyncratic; any "systemic regional stress" framing is dead |
 | **Capital-return pivot strengthens the bull mechanically** — $150M H2 buyback + NII floor 12-14% absorbing an assumed Sept hike + deposit-cost inflection | High | v2.3 lifted Bull to 27% and Base/Bull ranges; executed on-guide, EV drifts further up |
 | **$99M may cure** — borrower brought it current end-June; prospective tenant for a sizable piece | **High** ⬆ *(raised 8/20: with bear-fast at 2%, the appraisal is now a larger share of what is left of the bear)* | Benign appraisal evaporates the single dated bear catalyst; WAL-02's path narrows to grind-only |
@@ -25,14 +25,14 @@
 - ★ **NEW 8/20 — NDFI nonaccrual $122.5M on a $15.81B book (0.77%).** One quarter only; in a 26-bank sample only WFC carries more in absolute dollars. **No trajectory pulled — this is the largest genuinely-open unknown on the desk.**
 - **Lender-finance quality-of-names** (2,000 obligors) — V3's residual question, unresolved since Q1.
 - **Litigation path** — WAL v. Jefferies ($126.4M claim, NY Sup. Ct.) timeline/recovery; Cantor residual ($72.4M gross, $3.5M specific allowance left at 3/31 — corrected 2026-09-24 from an untraced ~$46M; see CHANGELOG) + senior liens.
-- Whether the **H2 NPL-resolution path** (3-4 of the six closing in Q3) resolves at par or with charge-downs.
+- Whether the **H2 NPL-resolution path** (CEO 9/16, B2: four of six resolved, the last two in Q4 — and the $99M is NOT one of the six, KB-112) resolves at par or with charge-downs.
 
 ## Monitoring for Thesis Break (mirror of STATUS §EXIT RULES — that table carries FIRED state; this one carries meaning)
 
 | Signal | Meaning |
 |--------|---------|
-| Q3 10-Q: 0 new office migrations (N=3) + benign appraisal | Bear-medium kill → single digits / retire path |
+| Q3 deck slide 12 + call: 0 new office migrations (DP2) + benign appraisal (8-K / Q3 call / Q3 10-Q) | Bear-medium kill → single digits / retire path |
 | ~~MI3 <25% at FFIEC run~~ ✅ **FIRED 2026-08-07** | **Bear-fast kill — EXECUTED.** Weight 10% → 2% at v2.4 (not 0%: the trigger stays reachable via a single up-step). **Re-tests each quarter the Call Report lands; next ~Oct-Nov, and the FFIEC JWT expires 11/5 INSIDE that window.** |
-| ACL/NPL rebuilt >100% | Reserve-adequacy leg closes |
+| (funded + unfunded ACL) ÷ total nonaccrual >100% (pinned 9/24; full-NPL reported alongside) | Reserve-adequacy leg closes |
 | Insider buying (esp. CFO Idnani) | Insiders see floor |
 | Office classified <$250M or CRE-NOO C/O normalizing | Grind residual fading |

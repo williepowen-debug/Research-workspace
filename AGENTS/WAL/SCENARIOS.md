@@ -1,15 +1,16 @@
 # WAL — Scenario Analysis & Target Prices
-> **✅ v2.4 RE-MARK LANDED 2026-08-20 — the MI3 disconfirmation is now IN the numbers.** Bear-fast **10% → 2%** (its falsifier ran and returned a negative); freed weight to **Base 45% / Bull 30%**; **bear-medium HELD at 16%**. EV **$73.92 → $75.96**; **overvaluation 12.4% → 5.4%** at spot $80.05 [8/20]; PT **$52-76**. ⛔ **Anti-ratchet verified: total bear 26% → 18%.** See §EV SUMMARY (v2.4) immediately below.
-> **⚠️ The Sep-18 cores ($67.5P/$70P) now sit $8.46 and $5.96 BELOW EV** — on the central estimate they expire worthless. Routed to TERRY/Will, not actioned here.
+> **✅ v2.4 RE-MARK LANDED 2026-08-20 — the MI3 disconfirmation is now IN the numbers.** Bear-fast **10% → 2%** (its falsifier ran and returned a negative); freed weight to **Base 45% / Bull 30%**; **bear-medium HELD at 16%**. EV **$73.92 → $75.96**; **overvaluation 12.4% → 5.4%** at spot $80.05 [8/20]; PT **$52-76**. ⛔ **Anti-ratchet verified: total bear 26% → 18%.** See §EV SUMMARY (v2.4) immediately below. → **−0.47% at $75.60 [Wed 9/23 close]** (spot BELOW EV — a price move, not a re-mark; `STATUS.md` owns the live figure).
+> **⚠️ (8/20 record)** ~~The Sep-18 cores ($67.5P/$70P) now sit $8.46 and $5.96 BELOW EV~~ — **the Sep-18 pair finished OTM 9/18 (tape; booking unrecorded). Live book = Dec-18 $70P ×1, $5.96 below EV and $5.60 below spot [9/23] → `POSITIONS.md`.** Original: — on the central estimate they expire worthless. Routed to TERRY/Will, not actioned here.
 >
 > **✅ v2.3 RE-MARK LANDED 2026-07-25 — the Q2 second-data-point test is now IN the numbers.** EV **$68.93 → $73.92**; overvaluation **12.4%** at spot $83.11 [7/24 close, market.py]; PT **$52-74**. See §EV SUMMARY (v2.3) immediately below — the v2.2.1 table is preserved beneath it as the audit trail. **The bear weakened: EV rose $4.99 while price rose only $1.23, so the margin of safety COMPRESSED ~6.4pp.**
 > **⚠️ RESIDUAL CORRECTION (2026-07-17 audit — still applies):**
 > **POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P** (plus RH $77.5P **Aug-21**, folded 7/20). The strike-by-strike sections were built in May on the mis-recorded book and are **NOT rebuilt in v2.3** — position-architecture rebuild is reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Grep `POSITIONS.md` before ANY position use — never this file.
+> *Rider 2026-09-24: neither is live now — the Aug-21 $77.5P was SOLD 8/18 and the Sep-18 pair finished OTM 9/18. Live book = Dec-18 $70P ×1 → `POSITIONS.md`.*
 
 **Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-08-20 (v2.4 — MI3-disconfirmation re-mark: bear-fast 10%→2%, probabilities only, no range moved)**; prior **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
-**Current Price:** **$80.05** [2026-08-20 14:4x ET, market.py] *(was $83.11 7/24 close)* | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
-**Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
-**Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
+**Price:** → `STATUS.md` (last: **$75.60 [Wed 9/23 close]**; $80.05 [8/20 14:4x ET] was the v2.4 mark, $83.11 the 7/24 close) | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
+**Short Interest:** 4.91% float [FINRA 6/30] — never refresh from yfinance (its SI fields are defective, KB-192)
+**Q2 2026 EPS:** $2.36 GAAP = adjusted (10-Q, KB-149) · Q1 $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
 > **📐 OVERVALUATION CONVENTION (pinned 2026-06-08 v2.2.1):** Overvaluation = **(Price − EV) / EV**. All historical figures herein normalized to this denominator. Prior sessions used inconsistent denominators (sometimes ÷EV, sometimes ÷Price) — corrected below.
 
@@ -37,11 +38,13 @@
 
 **Overvaluation (÷EV convention, pinned):** (80.05 − 75.96) / 75.96 = **5.4%** at spot **$80.05** [2026-08-20 14:4x ET, market.py].
 
+**Re-derived 2026-09-24:** (75.60 − 75.96) / 75.96 = **−0.47%** at the Wed 9/23 close — spot is **BELOW EV for the first time this cycle** (`STATUS.md` owns the live figure). The 5.4% here and below is the 8/20 mark.
+
 ### ★★ THE HONEST HEADLINE: the margin of safety has NEARLY CLOSED — 18.8% (7/17) → 12.4% (7/25) → **5.4% (8/20)**
 
 **And this time only HALF of it is my own re-weight.** At v2.3 the compression was entirely EV-side (EV rose $4.99, price rose $1.23). Here it is two-sided: **EV rose $2.04 (+2.8%) AND price fell $3.06 (−3.7%)** from the v2.3 mark. The price leg is *bear-supportive* — the tape came toward the thesis — but it was swamped by my own EV increase. **Net: WAL is still overvalued against my EV, but by 5.4%, which is inside the range where the honest answer is "barely."**
 
-> ⚠️ **POSITION CONSEQUENCE, stated because it is the most decision-relevant line in this file and it cuts AGAINST the book.** The live Sep-18 cores sit **BELOW** the new EV: **$67.5P is $8.46 below EV · $70P is $5.96 below EV.** On my own central estimate both expire worthless. That was already true at v2.3's $73.92 and it is **$2.04 worse now.** **This is not a trade recommendation and I do not make one** — position action is TERRY + Will [Approve] + a live chain (root rules #4/#5). It is the fact the re-mark produces, routed rather than buried.
+> ⚠️ **POSITION CONSEQUENCE, stated because it is the most decision-relevant line in this file and it cuts AGAINST the book.** *(8/20 record — the Sep-18 pair finished OTM 9/18; live book = Dec-18 $70P, $5.96 below EV and $5.60 below spot [9/23].)* The ~~live~~ Sep-18 cores sat **BELOW** the new EV: **$67.5P is $8.46 below EV · $70P is $5.96 below EV.** On my own central estimate both expire worthless. That was already true at v2.3's $73.92 and it is **$2.04 worse now.** **This is not a trade recommendation and I do not make one** — position action is TERRY + Will [Approve] + a live chain (root rules #4/#5). It is the fact the re-mark produces, routed rather than buried.
 
 ### Re-weight rationale — every line tied to the graded result
 
@@ -493,7 +496,7 @@ V2.0 understated this position by ~55% because V2.0's framework had demoted V1 �
 
 ---
 
-## WHY MARKET IS (STILL) MISPRICING — v2.0
+## WHY MARKET WAS MISPRICING — v2.0 *(5/1 record; superseded — MI3 disconfirmed 8/7, spot below EV 9/23)*
 
 Pre-print mispricing reasons that remain:
 1. **MI3 reclassification not in sellside coverage** — Q1 Call Report (May 1-10) is forcing function
@@ -514,6 +517,8 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ## WHAT WOULD CHANGE THE WEIGHTING
 
+> 🧊 **Pre-Q2 triggers (May record).** Live triggers = `Q3_PRINT_GRADING_FRAME_2026-09-24.md` + `Q3_10Q_GRADING_FRAME_2026-09-24.md` + `STATUS.md` §EXIT RULES.
+
 **Push Bear higher (toward 40-50%):**
 - Q2 NCO ex-fraud > 45bps
 - Office classified > $500M Q2 (early REG-24 hit)
@@ -533,4 +538,4 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ---
 
-*KB evidence: **177 rows** | Master thesis: `THESIS.md` (**it owns its own version — de-versioned 2026-08-20 after this footer sat two versions and 72 KB rows stale**) | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`*
+*KB evidence: → `workbook/KB.tsv` (count de-listed 9/24 so this footer cannot rot) | Master thesis: `THESIS.md` (**it owns its own version — de-versioned 2026-08-20 after this footer sat two versions and 72 KB rows stale**) | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../REGINALD/archive/research/WAL_10Q_DRILL_2026-05-21.md`*

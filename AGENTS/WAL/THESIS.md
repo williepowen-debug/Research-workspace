@@ -1,6 +1,6 @@
-# WAL — Concentrated CRE Tail Risk Actualizing on Q2 Timeline
+# WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76 · overvaluation 5.4% @ $80.05** | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` (at the Wed 9/23 close $75.60: **0.47% BELOW EV**; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
@@ -15,6 +15,8 @@
 **★ The honest headline: overvaluation 18.8% → 12.4% → 5.4%.** The margin of safety is nearly closed, and unlike v2.3 the compression is now **two-sided** — EV rose $2.04 *and* price fell $3.06 to **$80.05**. The tape moved toward the thesis and was still swamped by my own re-weight.
 
 **⚠️ Position consequence, routed not buried:** the live Sep-18 cores sit **below** the new EV ($67.5P by $8.46, $70P by $5.96). On my own central estimate both expire worthless. **No trade recommendation — TERRY + Will [Approve] + live chain (root #4/#5).**
+
+> *Rider 2026-09-24: the Sep-18 pair finished OTM 9/18 (tape read; booking unrecorded, FORGE D-58). Live book = Dec-18 $70P ×1 → `POSITIONS.md`. The line above is the 8/20 record.*
 
 **⚠️ The fence that governs how v2.4 may be consumed — V1a ≠ V1.** MI3 measures CRE-purpose lending **not secured by real estate**. **The bear did not shrink because office risk shrank.** The office book, the $99M life-science credit, the classified balance and the pending appraisal are a *different object*, untouched by this result — which is precisely why **bear-medium did not move.**
 
@@ -221,7 +223,7 @@ Three life-science distress events across cohorts in 6 months were captured in t
 - (a) Another BANK loan with previously-pass-graded sponsor walking strategically, OR
 - (b) Same-mechanic event at OZK (IQHQ RaDD — sponsor-support test; **resolution ~Oct at OZK's Q3 call, not at the Aug maturity date**) or EGBN (Office concentration shares profile). ⛔ **Sponsor-behaviour signal ONLY — OZK's loss band does NOT transfer** (their $555M-funded construction campus at a maturity test vs WAL's completed building already on nonaccrual with the borrower current; same mechanic, different stage)
 
-OZK IQHQ Aug maturity is the next discrete event window for confirmation/denial. Pre-maturity sponsor walk on IQHQ = both (a) and (b) combined — would be a hard 2nd instance.
+OZK IQHQ resolution is carried by **OZK's Q3 call (~Oct 2026)** — the Aug date was the maturity, not the disclosure (corrected 8/28; the Aug window closed swept-and-empty 8/31). Pre-maturity sponsor walk on IQHQ = both (a) and (b) combined — would be a hard 2nd instance.
 
 ### 🟠 V2.2 SECOND EVIDENCE — Curley Resignation
 
@@ -233,7 +235,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 > ## ✅ **THIS TEST RAN 2026-08-07 — FIRST TIME EVER — AND IT DISCONFIRMED.**
 > **Q1-2026 MI3 = 23.88% · Q2-2026 MI3 = 21.20%.** Both in the `<24%` → **"V1 plateaued"** band of the frozen table below. **Bear-fast KILL FIRED; ~Sep 1 time-box DISSOLVED.**
-> ⚠️ **The 10% bear-fast weight is NOT yet re-allocated — that is v2.4 proposal P7, Will-gated.** Full grade + 12-quarter series → `MI3_FIRST_RUN_2026-08-07.md` · `workbook/MI3_SERIES.tsv`. See CHANGELOG 2026-08-07.
+> ⚠️ ~~The 10% bear-fast weight is NOT yet re-allocated — that is v2.4 proposal P7, Will-gated.~~ **EXECUTED at v2.4 (2026-08-20): bear-fast 10%→2%, Base 45 / Bull 30 (Will's 8/12 ruling, P7).** Full grade + 12-quarter series → `MI3_FIRST_RUN_2026-08-07.md` · `workbook/MI3_SERIES.tsv`. See CHANGELOG 2026-08-07.
 
 **⚠️ CORRECTION applied 2026-08-07 (factual fix, no weights touched — proposal P10).** This paragraph previously read: *"WAL's MI3 ratio (RCON2746 / Item 4) was 24.2% per prior screen and growing (15.5% → 24.2% — **+8.7pp over 2 quarters**, fastest in cohort…)."* Verified against the primary:
 
@@ -301,6 +303,8 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 
 ## VECTOR 3 — SSFA / NDFI / WAREHOUSE (REFINED, NEAR-DISCONFIRMED AT AGGREGATE)
 
+> ⚠️ **Q1-vintage read (5/1). Since challenged:** Q2 10-Q NDFI $15.81B = 25.9% of HFI, a record (KB-146), FFIEC item 9a up 11 of 12 quarters (KB-168), Crestline SPV lender role 9/18 (KB-195) — vs mgmt's plan that warehouse 'won't be as active' (KB-196). **Live state = STATUS §CONVERGENCE: V3 1/5, UNDER CHALLENGE (proposal P1).**
+
 The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On-Balance Sheet" $10.8B = NDFI hidden in SPVs) was **directionally disconfirmed** by Round 2 deck (Slide 24).
 
 ### Sub-vector status
@@ -354,13 +358,15 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | Loss pattern | Through delinquency funnel | **Episodic (V2) + concentrated tail (V1 Office)** |
 | Catalyst | IQHQ (maturity Aug 2026, **disclosure ~Oct at OZK's Q3 call**) + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** |
 | Q1 print | EPS miss + reservoir thesis fires | **GAAP miss + V2 fraud labeled in 8-K** |
-| PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** |
+| PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** *(May vintage; live: PT $52-76 (v2.4), spot → STATUS.md)* |
 
 **Note on prior framing:** v1.0 called WAL "fast-transmission" — losses bypass the pipeline. Q1 partially confirmed (V2 fraud was episodic). But Round 2 also shows leading-bucket buildup in CRE/C&I — a slow-grind signal. **WAL has both patterns operating.** v2 acknowledges this rather than forcing the binary.
 
 ---
 
 ## PREDICTIONS
+
+> 🧊 **v2.2-era table (pre-7/22) — not the live ledger.** LIVE: **WAL-01 (ex-REG-24) 25% · WAL-02 (ex-REG-25) 50%**, both OPEN to Q3 (re-spec'd 8/20, P2/P3) → `workbook/PREDICTIONS.tsv` (canonical); REG-15 RESOLVED-FAILED 8/20. Q3 grades → `Q3_PRINT_GRADING_FRAME_2026-09-24.md` / `Q3_10Q_GRADING_FRAME_2026-09-24.md`.
 
 | # | Prediction | Timeframe | Confidence | Status |
 |---|---|---|---|---|
@@ -378,6 +384,8 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## WATCH DATES
 
+> 🧊 **May-2026 record.** Forward catalysts live at `STATUS.md` §CATALYSTS (Q3 print ~Oct, date not announced · Q3 10-Q, EDGAR ≥10/26 · $99M appraisal · Q3 Call Report · Dec-18 $70P time stop 12/04). *MI3 ran 8/7 (the "STILL PENDING" row below is history).*
+
 | Date | Event | What resolves |
 |---|---|---|
 | ~~May 1-10~~ ⏳ | Q1 Call Report filings → **FFIEC PDD bulk integration STILL PENDING** | MI3 ratio (V1 acceleration test per v2.1 calibration table) |
@@ -393,9 +401,9 @@ CFO swap remains the tell. Vishal Idnani (JPM FIG, 20yr MD, advised 50+ regional
 
 ## POSITIONS
 
-Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
+Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike list in this file.** *(**As of 9/24: 1 leg, Dec-18 $70P; the Sep-18 pair finished OTM 9/18.**) (The "$85P/$77.5P/$70P/$65P Jun/Sep" list formerly here was May-vintage; Jun-18 + Jul-17 tenors have since cleared — live Sep core is $67.5P+$70P per POSITIONS 6/19.)* Strike-by-strike thesis → `SCENARIOS.md` (see its 7/17 position-truth banner).
 
-**Note:** SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2 (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
+**Note:** ~~SCENARIOS.md still reflects pre-Q1 probability weights — needs refresh in Wave 1 chunk 2~~ *(9/24: SCENARIOS §EV SUMMARY is v2.4 (8/20); only its strike-by-strike sections are May-vintage — rebuild owed, one leg.)* Original note: (V2 resolved → reduces "raise/regulatory" branch; V3 disconfirmed → reduces "NDFI shock" branch; V1 sharpened to Office → tightens path-1 narrative).
 
 ---
 
@@ -417,10 +425,12 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 
 ## OPEN RESEARCH (post-v2)
 
-1. Q1 Call Report MI3 trajectory (May 1-10) — V1 acceleration confirmation test
+*Live open-research list → `MEMORY.md` NEXT SESSION (this list is the post-v2 (May) record).*
+
+1. ~~Q1 Call Report MI3 trajectory (May 1-10) — V1 acceleration confirmation test~~ ✅ **MI3 ran 8/7 — disconfirmed** (`MI3_FIRST_RUN_2026-08-07.md`)
 2. Other Jefferies/Leucadia-era credits inventory — DEF 14A pass + Q&A transcript review
 3. Hotel sub-portfolio NCO trajectory ($4.5B latent — Q2-Q3 migration watch)
-4. Investor Day May 12 — mgmt response to thesis vectors (Office concentration + MI3 + ECR pressure)
+4. ~~Investor Day May 12 — mgmt response to thesis vectors~~ ✅ held 5/12 (archived findings: `archive/INVESTOR_DAY_FINDINGS_2026-05-12.md`) — (Office concentration + MI3 + ECR pressure)
 5. CRE Non-Owner Occupied charge-off composition ($27.7M Q1 = largest in 5 quarters; 5Q cumulative $66M = 64bps annualized TTM)
 6. Lender Finance fund-level concentration — top 10 fund exposures, default rates (resolves remaining V3 quality-of-names question)
 
@@ -432,4 +442,4 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 
 *v2.2.1 (Jun 8, 2026) — SUPERSEDED. Was a refinement of v2.2 — NO structural vector change. Added MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED.*
 
-*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../REGINALD/thesis/CHANGELOG.md`.*
+*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `../REGINALD/archive/research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../REGINALD/thesis/CHANGELOG.md`.*

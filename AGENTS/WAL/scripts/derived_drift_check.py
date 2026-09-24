@@ -26,8 +26,8 @@ values sitting beside historical ones
 (`finding_supersession_marker_suppresses_the_live_value_beside_it`).
 
 MEASURED PRECISION, stated so nobody reads a nonzero count as failure. On the
-swept tree of 2026-08-23 this settles at a BASELINE of 11 check-1 and 35
-check-2 hits (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
+swept tree of 2026-08-23 this settled at a BASELINE of 11 check-1 and 35
+check-2 hits (RE-MEASURED 2026-09-24: 12 check-1 / 63 check-2 -- the live values are BASE_DRIFT/BASE_REVIVED in the code) (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
 outside the proximity window (dated KB rows, superseded THESIS/SCENARIOS
 sections). Unscoped it returned 54/32 — that is alert fatigue, and a check
 nobody reads is worse than no check.
@@ -190,10 +190,14 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 63      # 62 -> 63 2026-09-24 late (session #7 housekeeping): two more RETIRED_CLAIMS rows ('~$46M Cantor
+        BASE_DRIFT, BASE_REVIVED = 13, 61      # 2026-09-24 live-surface sweep (research/LIVE_SURFACE_SWEEP_2026-09-24.md, 76 findings applied): check-2 FELL
+                                               # 63 -> 61 (two live assertions removed); check-1 12 -> 13, the +1 being that sweep report's own line 21 quoting
+                                               # 'v2.2' as its SUBJECT (a record). Verified hit-by-hit. ⚠️ The sweep found 15 HIGH items this check NEVER saw --
+                                               # it only matches version/EV/PT/KB-count tokens + RETIRED_CLAIMS patterns; stale POSITION and DATE claims are invisible to it.
+                                               # Earlier: 62 -> 63 2026-09-24 late (session #7 housekeeping): two more RETIRED_CLAIMS rows ('~$46M Cantor
                                                # residual'; KB-173's '-1.7% share count'); FRAUD archiving removed hits, the new patterns add some. Verified
                                                # hit-by-hit: every counted hit is a RECORD -- the new one is STATUS_ARCHIVE.md:252 inside the VERBATIM 9/2 snapshot
-                                               # (byte-identical by design, never edited). ⚠️ Known blind spot found 9/24: CLAUDE.md:16/150 still ASSERT '~$46M' but
+                                               # (byte-identical by design, never edited). ⚠️ Known blind spot found 9/24 (the two lines were FIXED at 904f2e1cd; the mechanism stands): CLAUDE.md:16/150 still ASSERT '~$46M' but
                                                # are EXCUSED by marker proximity (MARKER_WINDOW) -- a live claim this check cannot see.
                                                # Earlier: 61 -> 62 2026-09-24 (session #7): TWO RETIRED_CLAIMS rows filed (KB-180's '$79.89 close'; the 9/2 tape set +
                                                # '3 legs across 2 accounts'). Verified hit-by-hit: the ONE counted new hit is research/CATALYST_SWEEP_2026-09-24.md:150,
@@ -237,7 +241,7 @@ def main():
         # cleared old hits absorb the same count of NEW ones and still print ✓. So the baseline carries
         # a date by which it must be RE-MEASURED from source (never bumped to match), and the check says
         # so itself once that date passes -- a comment nobody reads is not a control.
-        BASE_RECHECK_BY = "2026-10-13"         # = Q3 frame deadline; re-measure at every thesis bump too
+        BASE_RECHECK_BY = "2026-10-13"         # re-measure by 10/13 (ex-Q3-frame deadline; frames written 9/24) and at every thesis bump
         import datetime as _dt
         if _dt.date.today().isoformat() > BASE_RECHECK_BY:
             print(f"⚠️ derived-drift baseline re-check OVERDUE (due {BASE_RECHECK_BY}): re-measure "
