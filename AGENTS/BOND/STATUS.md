@@ -106,7 +106,7 @@
 
 **3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal coupons passing both legs (indirect ≥ median AND dealer ≤ median). **Counter 0** (2Y failed the dealer leg 13.19 vs 11.33; 5Y and 7Y failed indirect). Next eligible: 10/6 3Y.
 
-**4 · TIME-BASED.** H.15 9/23 cells (row 1) **9/25** · quarter-end + PCE + `BND-27` + expiry **9/30** · F2 reads **9/24 · 10/1 · 10/8 · 10/15 · 10/27 · 11/4** · quarterly `I'` refresh + `VX-19` definition + **F2 10Y–20Y vintage fix** **10/1** · `VX-20` **10/6** · FHLB Q3 **11/9** · FRBNY FX **11/13** · US-sov-CDS re-test **12/1**.
+**4 · TIME-BASED.** H.15 9/23 cells (row 1) **9/25** · quarter-end + PCE + `BND-27` + expiry **9/30** · F2 reads **9/24 · 10/1 · 10/8 · 10/15 · 10/27 · 11/4** · quarterly `I'` refresh + `VX-19` definition **10/1** (F2 vintage fix ✅ DONE 9/24, `KB-BND-328`) · `VX-20` **10/6** · FHLB Q3 **11/9** · FRBNY FX **11/13** · US-sov-CDS re-test **12/1**.
 
 ⚠️ **RETIRED, NOT REVIVABLE: the auction TAIL.** The 9/23 "2nd biggest tail ever" wire claim is `[med-conf]` and fires nothing.
 
@@ -121,7 +121,7 @@
 | ✅ 9/18 (carried) | `BND-25` TRUE · `BND-26` FALSE | `KB-BND-315` |
 | ✅ **9/23 official curve (Treasury) — DGS30 5.40 > 5.37** | Row 1 letter FIRED ⇒ 4 | **Fri 9/25:** confirm FRED republishes 5.40 (identity check, not a new grade) |
 | **Wed 9/30** | 🔴 **Quarter-end · Aug PCE + Q2 GDP 3rd (8:30) · `BND-27` window closes · TLT 77P expiry** | PCE vs the PMI input-price shock; SOFR−IORB across quarter-end; CCC vs 1100 |
-| **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2 — vintage fix first)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; TIPS-`I'` question + degenerate-row guard (PROME DOCKET L410) |
+| **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2, vintage rank live 9/24)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; TIPS-`I'` question + degenerate-row guard (PROME DOCKET L410) |
 | **Fri 10/2** | Sept Employment Situation (8:30) | 2Y / 1y1y reaction |
 | **10/6 · 10/7 · 10/8** | 3Y · 10Y-R · 30Y-R + 20–30Y op (F2) · `VX-20` review | bars frozen at the 10/1 announcement |
 | **Wed 10/14 · 10/15** | Sept CPI (8:30) · 10–20Y op (F2) | breakevens on input-supported cells only |

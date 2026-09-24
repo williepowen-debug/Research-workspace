@@ -81,6 +81,6 @@
 
 - ✂️ *Pruned 2026-09-24 ~15:2x ET — seven bullets dated 9/10→9/22–24, every event in them RESOLVED, had sat here past their dates (the section's own rule is "pruned the day an item resolves"). Records: 9/10 30Y-R + buyback + ECB → `KB-BND-267/271/272` + `registry/f2_reads.tsv` · 9/14 `BND-22` → `analysis/2026-09-14_add-gate-breach_BND-22-FALSE.md` · 9/15 20Y-R → `analysis/2026-09-15_GRADE_20Y-R_912810UX4.md` · 9/16 FOMC → `KB-BND-293` · 9/17 join → `88c891470` · 9/22–24 cluster → `KB-BND-312/313` + **WQ-280 ADD DECLINED** · 9/24 20–30Y op → `KB-BND-324`. Prior text: `git log -p -- AGENTS/BOND/TRADE.md`. `GATE-TERRY-007` CLOSED `MOOT ⇒ NO-VERDICT` by TERRY 9/24 13:5x ET (`04c5c7aad`).*
 - 🔴 **Wed 9/30 — TLT Sep-30 77P ×20 EXPIRY (TERRY's rail; HOLD to expiry per WQ-168 ④ / WQ-280).** Quarter-end · Aug PCE + Q2 GDP 3rd · `BND-27` window closes.
-- 🟠 **Thu 10/1 — 10Y–20Y buyback op (F2 read → RED; the 10–20Y vintage fix lands FIRST)** · quarterly `I'` bar refresh (+ TIPS-`I'` question, PROME DOCKET L410).
+- 🟠 **Thu 10/1 — 10Y–20Y buyback op (F2 read → RED; vintage rank ✅ fixed 9/24, `KB-BND-328`)** · quarterly `I'` bar refresh (+ TIPS-`I'` question, PROME DOCKET L410).
 - 🟠 **Tue–Thu 10/6–10/8 — 3Y · 10Y-R · 30Y-R** (bars frozen at the 10/1 announcement; first downgrade-counter-eligible coupon = 10/6 3Y).
 - 🟡 **Wed 11/4 — QRA: F1/F3.**

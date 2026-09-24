@@ -16,7 +16,7 @@
 1. 🟠 **Fri 9/25: confirm FRED republishes DGS30 5.40 / DFII10 2.76 for 9/23.** When it does, `STATUS.md:39` "26bp above" stops being flagged by `boot_recompute` (it is currently the ONE remaining rc=1: a Treasury-9/23 vs FRED-9/22 basis split, left unguarded ON PURPOSE). If it still flags after FRED has 9/23, that's a real drift.
 2. 🔴 **By 10/1: resolve `KB-BND-327`.** Read the FR 2004A instructions (Fed reporting forms) for when-issued/unsettled reopening treatment. If awards appear only at issue: re-run `monitors/fr2004_join.py` with POST keyed to issue date, and tell PROME before WQ-157 leg ② is ruled. **Thu 10/1 ~16:15: as-of 9/23 publishes = the settlement-aligned POST for the 9/15 20Y-R.**
 3. 🔴 **Wed 9/30:** `BND-27` window closes (CCC 1093 [9/23], 7bp from 1100); quarter-end; PCE + GDP 3rd; TLT expiry (TERRY).
-4. 🔴 **Before the 10/1 1:40 PM op: F2 10Y–20Y vintage fix** (old 2015–16 30Ys can read 100% ON-THE-RUN). Then quarterly `I'` refresh · TIPS-`I'` question (PROME DOCKET L410) · degenerate-row guard · `VX-19` "disorderly".
+4. ✅ **F2 10Y–20Y vintage fix DONE 9/24 ~16:3x** (`KB-BND-328`): rank = original issue date (TreasuryDirect, cached `registry/cusip_vintage.tsv`); selftest 41/41, mutant caught; **re-base-rate 1 of 53** (2026-05-06 75.00%, a 2023 20Y — definition question to RED; NOT re-tuned). Packets RED + PROME (DOCKET L406 / HEARTBEAT_COLD:438 stale). 🔴 **10/1:** at boot, confirm the op's eligible CUSIPs resolve (a missing vintage = GAP, no verdict); then quarterly `I'` refresh · TIPS-`I'` question (PROME DOCKET L410) · degenerate-row guard · `VX-19` "disorderly".
 5. 🟠 **By 9/30: `READS.tsv` declaration** (BOND has 0 rows in `PROME/registry/READS.tsv`; DAEDALUS ask).
 6. 🟠 **Thu 10/8 ~16:15: as-of 9/30 = POST print for the 9/23 5Y and 9/24 7Y** (both conventions agree), i.e. the dealer half of the paired kill for the 5Y.
 7. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate.
@@ -35,4 +35,4 @@
 **TLT Sep-30 77P ×20 — HOLD to expiry, `$0`.** No add (WQ-280). Harvest/expiry are TERRY's rails.
 
 ## MAIL
-**In:** none new this session. **Out:** 1 packet → PROME (FR2004 read + `KB-BND-327`). Session 1's packets to LIQUID/ZHAO/TERRY/PROME/RED stand.
+**In:** none new this session. **Out:** PROME ×2 (FR2004 read + `KB-BND-327`; F2 vintage fix + stale base rate) · RED ×1 (F2 re-rank + definition question). Session 1's packets to LIQUID/ZHAO/TERRY/PROME/RED stand.
