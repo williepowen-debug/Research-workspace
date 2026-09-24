@@ -386,3 +386,17 @@ Check **A** asks: *does every surface naming this `setup_id` claim the same curr
 
 **Tags:** `STALE_DATA` · `record-of-an-action-is-not-the-action` · `internal-consistency-guard-blind-to-external-truth` · `approved-limit-is-a-moment-property` · `scoped-read-of-the-mirror`
 
+
+## 2026-09-24 — WAL Sep-18 `$70P` + `$67.5P` ×1 each (Fidelity) — **LAPSED AT THE 9/18 CLOSE as `WQ-168 ①②` ruled. Expected realized −`$1,519.34` (−~99.7% of basis).**
+
+**Outcome:** WAL closed **`$78.54` on 9/18** (own yfinance pull 2026-09-24, unadjusted), `$8.54` above the 70 strike and `$7.54` above `DOCKET L254`'s `<$71` re-open line ⇒ both legs expired out of the money. Basis `$768.67` + `$750.67` (FORGE rows). Both were `NOBID` at 11:03 ET on 9/18, so there was nothing to sell into. ⚠️ **"Expired worthless" is an owner's read of the quote, not a broker confirmation** (FORGE D-58). The realized figure is booked when a broker Activity view lands; until then it is EXPECTED, not RECORDED.
+
+| leg | grade |
+|---|---|
+| Thesis | **n/a here.** REGINALD's WAL thesis (V1 hidden-CRE / V3 NDFI) is REGINALD's to grade. The thesis is **not refuted**: `REG-T-02` re-fired 9/1 and the view lives on in the Dec-18 roll. |
+| Timing | **WRONG on tenor, and knowable.** The pair was keyed to the 7/21 print, which resolved NOT-FIRED. From there the pair was a slow-credit view held in a same-quarter instrument. That is construction rule #16's failure shape (match the expiry to the view's horizon). |
+| Structure | **Entry unrecoverable at this desk.** The pair is in the FORGE mirror by May 2026, before TERRY existed (6/20), so this is a **management-only** grade (construction rule #20). |
+| Management | **RIGHT, and it cost nothing extra.** 9/1–9/3: the desk **rolled duration** (bought Dec-18 70P ×1 @ `$2.20`, now +`$30` at the 9/24 bid). It **did not sell** the near legs: at `$0.05` marks a sale recovered ~$10 total against a spread and fees of the same order. The re-open condition (`<$71` in the week of 9/14) was pre-registered, graded daily, and never met. Root rule #7 applied as written: roll duration, don't trim. |
+| Sizing | n/a — pre-desk. |
+
+**Lesson:** nothing new. This is the tenor lesson (construction rule #16) that the Dec-18 roll already acted on. Recorded so the loss is on file, not to add a rule. **Tags:** `THESIS_RIGHT_BAD_TIMING` (provisional — thesis ungraded) · `EVENT_MISALIGNED` · `GOOD_PROCESS_BAD_OUTCOME` (management half only).

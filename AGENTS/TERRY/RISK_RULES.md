@@ -138,7 +138,7 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 | **19** | A series-derived extreme/streak/percentile must state its **bar count**; coverage is a property of the PULL, and absent bars carry no nulls to detect. | any quoted extreme or percentile |
 | **20** | The ENTRY half of a card is unrecoverable after the fill; a retroactive write-up is **management-only** and says so. Forward max loss = the remaining mark, never the original debit. | any un-carded held position |
 | **21** | A tenor band is an ENTRY-ECONOMICS test: it governs new deployments, not rolls — and **"roll" = same underlying · same strike · later expiry, nothing else.** | any roll or new deployment |
-| **22** | A continuous front-month `XX=F` ticker is safe for a LEVEL and unsafe for a DELTA: name the contract or state the basis and check the roll. | any futures-derived delta/spread |
+| **22** | A continuous front-month `XX=F` ticker is unsafe for any graded number (a delta, a spread, or a level held against a threshold); it is fine only as a one-off front-month quote with the contract named. Name the contract or state the basis and check the roll. *(Amended 2026-09-24, PROME L429.)* | any futures-derived delta, spread, or threshold level |
 | **23** | Name the driver before you add. Profit from a mechanism you did not underwrite is evidence **against** the card. No name ⇒ no add, and reduce. | any add; any un-catalysed move |
 
 ## Postmortem Tags

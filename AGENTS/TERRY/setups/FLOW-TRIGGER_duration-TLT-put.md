@@ -552,3 +552,22 @@ The two surviving branches (`D1` = 9/21, still unknown; `D1` = 9/22, today) **bo
 **Root rule #6 has no object — nothing is being entered.** *(Recorded anyway so its absence is not read as an unrun check: TLT is marginally **GREEN**, `+0.07%` at 09:42 ET.)*
 
 ⛔ **NO GATE MOVED, SET, SHAVED OR RE-SPECCED. NO THRESHOLD RELAXED. NO HARD GUARD TOUCHED. NO ORDER. `$0` MOVED.** ⚠️ **`007` is NOT being declared dead today and is NOT being closed early** — it is graded LIVE-for-one-session with its measurement stated. **The 9/21 cell is UNKNOWN and OWED**, publishes ~16:15 ET today, and is read by PROME's consumer read or the next TERRY session. `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+#### 📋 OWNER GRADE — 2026-09-24 Thu 13:5x ET (`date` wall clock 13:50:51 at boot). **`GATE-TERRY-007` TERMINATED: `MOOT ⇒ NO-VERDICT` (Ruling C, 8/19). Final counter `0 of 5` — no streak ever began. `$0` MOVED. NO PROPOSAL.**
+
+| cell | `DGS10` | vs 4.50 |
+|---|---:|---|
+| 9/21 | **4.96** | ≥ ⇒ NOT QUALIFYING (the cell owed from the 9/22 grade — discharged) |
+| 9/22 | **4.96** | ≥ ⇒ NOT QUALIFYING ⇒ **the last registered streak start failed; no 5-close streak can complete before 9/30** |
+
+*Source: FRED `fredgraph.csv?id=DGS10&cosd=2026-09-14`, own pull 2026-09-24 ~13:52 ET, latest-revised vintage, frontier 9/22 (T+1 as verified at H.15 on 9/22). Coverage 7 bars 9/14–9/22 (construction rule #19). Corroborated by BOND's 9/24 packet ("DGS10 4.96 [9/22]").*
+
+⇒ **The 9/22 grade's reading holds exactly:** on the letter the gate was live for that one session, and the measured odds of it firing were about zero. **Terminal read `MOOT ⇒ NO-VERDICT` — a non-event, never scored as a miss.** The **`GATE-TERRY-007` row is CLOSED on this card.**
+
+**Live mark (MOMENT, construction rule #14; vendor = SCREENING only, `RISK_RULES` 5b):** `chain_fetch.py TLT 2026-09-30 --no-cache --legs 77` at **13:51 ET**, rc=0: **TLT `$79.82`** · **`77P` bid `0.01` / ask `0.02`, mark `0.01`, spread 66.67%, IV 14.06%, OI 1,244, vol 972, no flag** (DIRINC advisory fired on 76P/91P/92P, not the 77P). ⇒ **20 ct = `$20.00` at the bid vs `$231.26` = −`$211.26` / −91.4%.** Harvest `≥$0.3469` = ~35× the bid. Strike is **−3.5%** below spot with 5 sessions to expiry incl. today. **The 9/22 feed outage is resolved as PROME diagnosed it (opening-window artifact, not a dead tool): today's mid-session pull is two-sided on every strike tested.**
+
+**Operator ruling since the last grade:** **`WQ-280` RULED 9/24 13:17 ET — NO ADD to 004** (BOND's 9/23 5Y composition-failure re-arm; DFII10 `2.63` [9/22] through the 2.50 line). Nothing to construct.
+
+**DAEDALUS gate-basis sweep #1, ask ① (due 9/24) — DISPOSITION: DECLARED MOOT, not written.** The ask was to add a 5-run reset rule, name the DGS10 vintage and set a gap policy for `007`. **The gate is terminated, so a reset rule for it has no reader and no future cell to govern.** For the record: every grade used **latest-revised FRED DGS10** with **strict `<4.50`** (both stated on the 9/08 block). **A reset rule and a gap policy were never written, and it did not matter: the counter never left `0`, and no qualifying observation occurred after registration.** So no reset or gap reading could have changed a single cell, and the stranger's `NOT FIRED 0-of-5` agrees with every grade here. That is luck, not good specification — the defect DAEDALUS named was real. **The transferable lesson (subtract the publication lag + minimum completion length at registration) lives at `PROME/DOCKET.tsv` L456**, not here.
+
+**Rails remaining:** harvest `≥$0.3469` fees-in (10 ct owed) and the **9/30 expiry**. HOLD ×20 to expiry (`WQ-168 ④` / `WQ-217` / `WQ-280`). Root rule #6 has no object. ⛔ **NO GATE MOVED, SET OR SHAVED. NO ORDER. `$0` MOVED.**

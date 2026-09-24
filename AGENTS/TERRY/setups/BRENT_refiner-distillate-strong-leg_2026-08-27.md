@@ -546,8 +546,30 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 | day colour | Shares, no premium — root rule #6 has no object; the card's own gate was NOT MET at 11:00 (both legs green) and is recorded at § ①. **Will's hand, root rule #5.** |
 | loss budget | `$500` cap vs `$412` at risk ⇒ the cap cannot bind on 1 share; on the full 3 (≈$1,236 at this fill) it binds at −40%. |
 | sleeve | energy = USO 37 sh + VLO 1 sh, 100% undefended; **oil-exposure ceiling still UNNAMED (8/27).** |
-| management | § 8 governs: ratchet, don't target; **construction rule #23** — name the driver (crack-led vs crude-led) in figures before either remaining share is added. **`F1` (`<$95` close) = stand down on the remaining two; no rule created for the held share** — that needs its own line, Will's [Approve], not written today. |
+| management | § 8 governs: ratchet, don't target; **construction rule #23** — name the driver (crack-led vs crude-led) in figures before either remaining share is added. **`F1` (`<$95` close) = stand down on the remaining two** (basis: this desk reads it on NAMED matched contracts per construction rule #22 as amended 2026-09-24; `F1`'s own basis is HENRY's to name — open, see § ⑧); no rule created for the held share** — that needs its own line, Will's [Approve], not written today. |
 | shadow book | `PB-0007`, lane `real`, entry_basis = broker fill. |
 
 **Closes `DOCKET L412` on the receipt (PROME) — `WQ-213` closes on it; ANVIL mirrors to FORGE at the next reconcile. TERRY does not execute; the remaining two shares are Will's order on the day he chooses.**
 
+
+### ⑧ OWNER TOUCH — 2026-09-24 Thu ~14:2x ET (`date` 13:50:51 at boot) · **9/23: the scaling rule was MET ON THE LETTER. The driver test says STAND DOWN, same as 9/14. Today: DO NOT CHASE. `$0` MOVED.**
+
+**Tape (own yfinance pull ~13:5x ET; VLO/USO = unadjusted ETF/equity closes; futures = vendor daily bars, NOT settlements, `RISK_RULES` 6c ⇒ DIRECTIONAL only):**
+
+| session | VLO close | USO close | crack, matched Nov (`HOX26`×42 − `CLX26`) | Δ crack |
+|---|---:|---:|---:|---:|
+| 9/18 | 413.28 | 153.82 | 107.38 | — |
+| 9/21 | 393.27 | 148.16 | 105.35 | −2.03 |
+| 9/22 | **~377.22** *(daily bar MISSING at vendor, rule #19; substitute = 15:55 5-min bar, labelled)* ≈ −4.1% | 144.08 (−2.75%) | 109.49 | +4.14 |
+| **9/23** | **375.84 (−0.37% vs the 9/22 substitute)** | **148.83 (+3.30%)** | **102.45** | **−7.04** |
+| 9/24 13:51 (intraday, NOT a close) | 392.61 (+4.46%) | 153.65 (+3.24%) | 99.72 | −2.73 |
+
+**9/23 on the § ⑥ scaling rule's letter:** gate day (refiner red / crude green) ✅ · close `$375.84` at/below the ~`$375` / 20-day MA (`$377.08`) ✅ · crack `$102.45` above `F1` `$95` ✅ ⇒ **MET.** TERRY was not in session and nothing flagged it. **This is a process gap:** a staged add with a price trigger has no between-session watcher.
+
+**But it fails the condition this desk set on 9/14, and it fails the driver test (construction rule #23).** On 9/14 the desk recommended waiting for *"a qualifying day where the crack is NOT collapsing"* (§ line 353; Will agreed). **On 9/23 the crack fell −`$7.04` (−6.4%) in one session**, the steepest one-day fall in this table, on the variable this card underwrites. ⚠️ **Correction made in-session, before commit: a first draft said the 9/23 VLO dip was "crack-led". It was not.** VLO's drop came on **9/22 (≈−4.1%, a day the crack ROSE `$4.14` and crude fell)**. On 9/23 VLO barely moved (−0.37%) while the crack fell. ⇒ **VLO's fall is not explained by the thesis variable on either day, and on the gate day itself the thesis variable was collapsing. Had the desk been live, the recommendation would have been STAND DOWN.** Not a missed fill. Recorded so it is not re-told later as one.
+
+**9/24 (today):** VLO +4.46% on a day the crack fell another −`$2.73` while Nov crude rose to `$95.28` (Iran/Hormuz headlines, WALTER 9/24 sweep) ⇒ **crude-led, not crack-led** — the driver the card did NOT underwrite (#23). Green day, `$392.61` = **+3.4% above the 20-day MA (~`$379.7`)**. ⇒ **DESK REC: DO NOT ADD TODAY. Both remaining shares stay STAGED.** Held share: `$392.61` vs `$412.00` = −`$19.39` / −4.7% (vendor, screening).
+
+🔴 **`F1` BUFFER: `$4.72`** (`$99.72` vs `$95`), down from `$13.5` on 9/18. **The crack has fallen ~`$9.8` in two sessions.** A close `<$95` stands down both staged shares. **No rule exists on the held share** (§ ⑦) — building one is Will's [Approve], and it is not proposed today.
+
+**Basis, construction rule #22 as amended 2026-09-24 (PROME L429 item 2):** the `HO=F × 42 − CL=F` prints at lines 313–381 are **dated 9/14 readings, not the definition**, and stay as written. **This desk reads `F1` on NAMED matched contracts** (currently `HOX26`/`CLX26`). Today the continuous form agrees (`$99.74`), because both `=F` tickers now sit on November. **They split again when HO and CL roll on different dates (~10/14 vs ~10/20, HENRY's records).** ⚠️ **`F1` was registered by HENRY on the continuous form, and its two lines are `$4.84` apart against a ~`$4.5` roll discontinuity (§ ④, HENRY 9/14).** **Which basis grades `F1` is HENRY's call — asked by packet, not decided here.**
