@@ -37,6 +37,24 @@ import requests
 
 CBOE_SETTLEMENT_URL = "https://www.cboe.com/us/futures/market_statistics/settlement/csv/"
 AVG_STEEPNESS = 5.6
+# Basis + vintage (DOCKET L441, VIOLET KB-VIO-310): re-measured 2026-09-24 on VIOLET
+# workbook/VX_TERM_HISTORY.tsv — CBOE settles, standard monthlies, roll-adjusted (front skipped at
+# <=5d to expiry), n=3,324 sessions 2013-05-20 -> 2026-08-03: mean 5.41 / median 5.84 (p70 8.22,
+# p90 12.0). 5.6 sits between mean and median; kept. VIOLET owns the recompute rule (each quarterly
+# VIX expiry; replace with the median rounded to 0.1 if |delta| > 0.5pp) and re-stamps the vintage.
+# Past AVG_STEEPNESS_RECHECK_BY with no re-stamp the classification prints UNVERIFIED (fail-closed).
+AVG_STEEPNESS_VINTAGE = "2026-09-24"
+AVG_STEEPNESS_RECHECK_BY = "2026-12-16"
+
+
+def avg_steepness_status(today: "date | None" = None) -> str:
+    """OK while the vintage is inside its re-check window; UNVERIFIED once past it (L441 class)."""
+    today = today or date.today()
+    return "OK" if today.isoformat() <= AVG_STEEPNESS_RECHECK_BY else "UNVERIFIED"
+
+
+def _label(cls: str) -> str:
+    return cls if avg_steepness_status() == "OK" else f"{cls} UNVERIFIED"
 COMPLACENCY_THRESHOLD = 8.99
 ROLL_WINDOW_DAYS = 5
 
@@ -140,10 +158,10 @@ def compute_steepness(contracts: list[dict], as_of: date) -> dict:
         if pct < 0:
             return "BACKWARDATION"
         if pct < AVG_STEEPNESS:
-            return "BELOW_AVG"
+            return _label("BELOW_AVG")
         if pct < COMPLACENCY_THRESHOLD:
-            return "NORMAL_TO_ELEVATED"
-        return "COMPLACENCY_TOP_30PCT"
+            return _label("NORMAL_TO_ELEVATED")
+        return _label("COMPLACENCY_TOP_30PCT")
 
     return {
         "as_of": as_of.isoformat(),
@@ -163,6 +181,9 @@ def compute_steepness(contracts: list[dict], as_of: date) -> dict:
         },
         "thresholds": {
             "historical_avg": AVG_STEEPNESS,
+            "historical_avg_vintage": AVG_STEEPNESS_VINTAGE,
+            "historical_avg_recheck_by": AVG_STEEPNESS_RECHECK_BY,
+            "historical_avg_status": avg_steepness_status(),
             "complacency_top30": COMPLACENCY_THRESHOLD,
         },
     }
@@ -220,7 +241,7 @@ def main(argv=None):
     s = result["strict"]
     a = result["adjusted"]
     print(f"VIX M1:M2 Contango Steepness — settlement {result['as_of']}")
-    print(f"  Historical avg: {AVG_STEEPNESS}%  |  Complacency threshold: >{COMPLACENCY_THRESHOLD}%")
+    print(f"  Historical avg: {AVG_STEEPNESS}% (vintage {AVG_STEEPNESS_VINTAGE}, re-check {AVG_STEEPNESS_RECHECK_BY}, {avg_steepness_status()})  |  Complacency threshold: >{COMPLACENCY_THRESHOLD}%")
     print()
     print(f"  Strict (nearest 2 monthlies):")
     print(f"    M1 {s['front']['symbol']} exp {s['front']['expiration']} = {s['front']['price']:.4f}  ({s['m1_days_to_expiry']}d to expiry)")
