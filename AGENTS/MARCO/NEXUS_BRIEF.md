@@ -3,13 +3,15 @@
 **Status:** 🟠 **v3.2** (unchanged s30). 🆕 **s30 stale sweep:** Central America remittances are **decelerating, not reversing** (+7.2% Jan–Jul, central-bank primaries ⇒ MAR-12 35→8%); **US expatriation list → ELEVATED** (trailing-4Q 5,790); **construction-wage gap ELEVATED on preliminary August** (vector only); **the FL voter-registration 'counter-signal' was the midterm cycle** (vs 2022 −21%). Carried from s29: Channel 4 LOW; airfares +23.41% YoY (`ENR-02`, grades 10/14); MIA Aug −5.69% (Spirit-free).
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-09-24 ~17:xx ET (session 30c — four 8/11 vector rows refreshed). **STATUS commit:** `dbe3fa1d8`.
+**As of:** 2026-09-24 ~18:xx ET (session 30d — full band audit of all 36 live vectors). **STATUS commit:** `986cae52f`.
 
 ---
 
 ## VIEW
 
-- 🆕 **(s30c) International visitors are spending about the SAME in the US as last year — the '−$8.3B' tourism loss does not exist in the official data.** BEA travel exports Jan–Jul 2026 **−0.58%** (−$0.7B); May–Jul up YoY; 2025 was **+0.6%**, not −4.2%. The −$8.3B was a Tourism Economics model figure. **Arrivals are still ~24% below 2019 (`VX-1.02`) — fewer visitors, each spending more.** For consumers: Channel 2's damage is in visitor COUNTS and the Canadian leg, not in national tourism dollars. `VX-1.03` CRITICAL → NORMAL.
+- 🆕 **(s30d) Full audit of MARCO's 36 live indicators — for consumers, three things changed:** (1) **ICE enforcement is confirmed at the top band on fresh data** — June 2026 ICE arrests ≥39,563, at least **4.2× the FY2024 monthly pace** (TRAC primary). (2) **FL international migration fell 37% in 2025, not 56.5%** — the widely carried figure compared two Census vintages (CORAL packeted). (3) The FL-airport net-flow row now reads CRITICAL on its own basis but is **still confounded by Spirit and duplicates `VX-1.04`** — do not read it as a new demand signal. 22 of 36 rows were clean.
+
+- 🆕 **(s30c/d) International visitors are spending only slightly less in the US than a year ago — the '−$8.3B' tourism loss does not exist in the official data.** BEA travel exports: **−$2.13B over the last 12 months** (graded ELEVATED, low — re-graded from NORMAL in the s30d audit because annual bands now grade on 12-month actuals); Jan–Jul 2026 −0.58%; May–Jul up YoY; 2025 was **+0.6%**, not −4.2%. The −$8.3B was a Tourism Economics model figure. **Arrivals are still ~24% below 2019 (`VX-1.02`) — fewer visitors, each spending more.** For consumers: Channel 2's damage is in visitor COUNTS and the Canadian leg, not in national tourism dollars. `VX-1.03` CRITICAL → ELEVATED (low).
 - 🆕 **(s30c) Citizens depopulation RESUMED:** PIF **266,231 at 8/31 (−4.3% in August)** after the July stall; exposure **$74.8B** (the widely carried ~$295B was a June-2025 figure). FL household premium multiple re-graded to **2.95x national** (ELEVATED; BREACHED was never reachable). CORAL owns both — packeted.
 - 🆕 **(s30c) `SDL-01` mark is UNRULED, not BREACHED:** foreign-born labor force Aug **−379K YoY** (narrowing from −700K in June) / **−1.19M vs 2024**. The quantity story is unchanged; the BREACHED label was a leftover of the retracted '2.2M'. Basis ruling with Will.
 
@@ -62,6 +64,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **CORAL** | **SENT 9/24 — CORRECTION: FL intl migration 2025 is −37.0% same-vintage, not −56.5%** (V2025 revised 2024 to +283,664) | 🟡 | Re-state on STATUS L163 / SCRATCH L21 / STATUS_DETAIL L49 |
 | **CARL** | **SENT 9/24 — CORRECTION: the FL voter-registration 'counter-signal' (9/19 packet) was the midterm cycle; vs 2022 −21.0%.** Neutral, not counter | 🟡 | Re-label or drop the voter-reg half of `handoff_RED/COUNTER_LOG.md` row 21 |
 | **REGINALD** | **SENT 9/24 — Channel 4 credit leg run; border munis stable; v3.2 LOW.** Pharr downgrade = mechanism-refuted; Laredo watch is trade/tariff-driven | 🟡 | Closes the credit-leg gap REGINALD named 8/13; Laredo-area bank exposure keys on trade, not remittances |
 | **BRENT** | **SENT 9/24 — MARCO now consumes `MKT-BZ-F-BELOW-85`;** the 8/24 grade MARCO promised closed ungraded | 🟡 | BRENT has an external consumer to notify if it re-levels the row |
