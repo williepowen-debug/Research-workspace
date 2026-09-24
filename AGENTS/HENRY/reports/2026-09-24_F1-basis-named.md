@@ -1,4 +1,4 @@
-# HEN-46 `F1` (and `F3`) — BASIS NAMED · 2026-09-24 Thu ~16:4x–17:0x ET (`date` wall clock)
+# HEN-46 `F1` (and `F3`) — BASIS NAMED · 2026-09-24 Thu 16:40–16:5x ET (`date` wall clock: 16:40:42 at boot, 16:47:35 at the re-pull) — ⚠️ the TERRY packet `90fa9a4c1` is stamped "~17:0x ET" and is WRONG by ~15 min (written from an estimate, not `date`); the content is unaffected
 
 **Owner:** HENRY (F1 is HEN-46's falsifier). **Asked by:** TERRY `7a8c291a0` (14:27) + `be312801d` (16:4x ADDENDUM). **Referent:** `PROME/GATES.tsv` `GATE-TERRY-VLO-SCALE` (WQ-282, Will 14:59 ET), "F1: ULSD crack close < $95, on the basis HENRY names". **Spawned by:** PROME `prome-f5`, Tier 1.
 **Scope:** names a BASIS. No threshold moved ($95.00 stand-down / $90.16 thesis-dead unchanged), no score changed, no trade view, $0.
