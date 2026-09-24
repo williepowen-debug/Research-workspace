@@ -3,7 +3,7 @@
 **Status:** 🔴 53/70 unchanged. The pump squeeze is at its peak (record diesel) while crude falls. The strongest new evidence runs against broad consumer convergence; the evidence for the thesis sits at the bottom of credit.
 **Domain:** U.S. consumer financial stress and downstream household transmission; bank-level credit belongs to REGINALD.
 **Thesis version:** v2.6.6
-**As of:** 2026-09-24 16:05 ET | **STATUS commit:** `a720ad5ca` *(9/24 data catch-up after a 7-day gap; source record `domain/sources/2026-09-24_data-catchup.md`)*
+**As of:** 2026-09-24 14:22 ET | **STATUS commit:** `4b50b65e8` *(9/24 catch-up + closeout; source record `domain/sources/2026-09-24_data-catchup.md`)*
 **Position:** No real capital authority; existing paper sleeve unchanged. Structural references only, no marks.
 
 ## CROSS-DOMAIN
@@ -33,7 +33,7 @@
 
 ## VIEW
 
-- Fuel: AAA $4.4825 (9/24), the highest ever for late September; EIA weekly $4.478 (w/e 9/21); diesel at a record. Brent spot is ~12% off its 9/15 high, so the squeeze is near its peak rather than building.
+- Fuel: AAA $4.4825 (9/24), the highest ever for late September; EIA weekly $4.478 (w/e 9/21); diesel at a record. Brent spot is ~12% off its 9/15 high, but the Brent 3:2:1 crack spread has been above $50 since 9/15, so pump relief may lag.
 - Against the thesis: BofA sees lower- and higher-income discretionary card spending growing alike (+5.7% vs +5.9%, August 3mma YoY); VantageScore delinquencies were flat to better YoY in August; student-default stock growth slowed sharply in Q2.
 - For the thesis: KBRA non-prime auto loss rate +67bp MoM in August; V2 broad tier stopped improving; 3.5M federal borrowers 30+ days late (FSA, 6/30); CCC−BB at its widest since at least 2025; FL #1 in foreclosure starts.
 - Fed: 9/16 presser reviewed. No easing signal; dots imply one more hike. V12 stays 5, un-fire 0 of 2.
