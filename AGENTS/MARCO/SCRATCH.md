@@ -1,69 +1,59 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** session 27 — opened **2026-09-19 ~11:38 ET**, Will-directed catch-up ("focus on getting caught up on anything owed, stale"), worked the owed list top-down. Closed ~13:0x ET.
+**Last Updated:** session 28 — opened **2026-09-24 ~12:15 ET** (Thu), Will-directed boot + "catch up on any missed data"; Will ruled the MIA trigger basis mid-session; closed ~13:3x ET.
 
-## CHANGES SINCE (session 26 → 27) — 2 days
-- **Nothing moved against MARCO while dark.** 3 inbound items arrived (LABOR 9/17 FL claims, ZHAO 9/18 self-corrected China PPI, WALTER lane SIG-W-20260917-008 Section-301 delay) — **none processed; MARCO was not spawned for inbox and the WALTER item is INFO-only with ZHAO owning the action.**
-- **SAM had 12 uncommitted files outside my directory all session ⇒ NO PULL was taken** (root §Before-pulling step 2). All work is on `e4661eeb1`.
+## CHANGES SINCE (session 27 → 28) — 5 days
+- **PROME confirmed `ID-01`'s both-months reading 9/22** (packet in `inbox/processed/`) — recorded in STATUS UNRESOLVED + `KB-CAN-44/47`.
+- WALTER lane: 1 item (SIG-W-20260917-008, Section-301 delay past today's Xi–Trump summit) — **info-only**, ZHAO owns. Drained + `board_log.tsv`.
+- Pull at boot: tree clean, origin == HEAD (`5d5ae3f77`); nothing incoming.
 
-## WHAT I DID (session 27) — the three dated resolvers, then four owed pulls
+## WHAT I DID (session 28)
 
-### 1. Dated/mechanical resolvers — all graded on rules written before the numbers
-- **`ES-MARCO-05` → DID_NOT_APPEAR.** Aug fresh F&V **+3.13% YoY** (`CUUR0000SAF1131`=413.359), 3rd consecutive sub-6%, ~6.9pp from the >10% threshold, **robust to basis** (2-yr stack +5.50%). Both pre-registered readings agree ⇒ no discretion. **Base-effect recorded:** the YoY fade is substantially a 2025 base effect (Aug-25 +1.68% MoM) while the 2-yr stack barely moved. **Counter-print logged not buried:** Aug gasoline **+2.53% MoM** while produce **fell** −0.65% — first divergence from the co-movement `ES-MARCO-08` resolved on. Does NOT re-open a resolved signal. **MAR-14 20%→12%.**
-- **`MAR-11` → PUSHED to the OFLC Q4 disclosure (~Nov), confidence HELD 72%.** Live check: newest file is still `FY2026_Q3`; FY26-thru-Q3 **349,867**, identical to 8/21. **9/30 is the EVENT anchor, not the resolver** — grading there would grade Q3 data. Not re-rated **because no new data arrived**.
-- **`MAR-24` → 55%→70% on a COMPUTED conditional base rate.** June is the **first all-3-negative month of 2026** (FLL −13.22 / MCO −7.27 / MIA −5.48) but **is Q2 and does not resolve the row**. P(≥1 all-3-neg in next 3 │ this month all-3-neg) = **9/16 = 56.2%** ex-COVID vs 14.2% unconditional; structurally FLL needs +15.2% and MCO +7.8% to flip positive ⇒ **MIA is the sole swing leg** (30% of Q3 months negative). ⛔ **Ex-Spirit FLL +22.28% / MCO +4.52% — CONFOUNDED, not refuted (corrected 9/19, CATO review): only 35.6% of Spirit's lost MCO passengers were absorbed in June, so supply vs demand is not separable in either direction.** Spec addition pre-registered: **grade on REVISED BTS data or state the vintage** (first-print bias 0.8–2.3pp toward negative).
-- **`MAR-22` was ALREADY RESOLVED 8/21** and was still sitting in STATUS's **ACTIVE** predictions table — removed. Ledger right, narrative wrong.
+### 1. MIA — the one Spirit-free FL leg — broke in August
+- **Miami-Dade's own Traffic Report PDFs (Jan–Aug 2026 + Jul/Aug 2025), identity-checked parse** (total = intl + dom = deplaned + enplaned): Jan +0.42 · Feb +0.61 · Mar −1.76 · Apr −2.01 · May +0.52 · Jun −1.43 · Jul +0.10 · **Aug −5.69% YoY / −6.53% 2-yr** (4,289,986). Reproduces the carried Mar/Apr/May figures in MAR-24's notes. → `baselines/mia_airport_reported.tsv`, `KB-APT-44`.
+- ⚠️ **Not yet a demand verdict.** Intl seats −6.02% (capacity-led; intl LF actually ROSE 85.1→86.5%). The one demand-flavored tell: **domestic load factor 85.2→81.1%**. No storm found on search, not ruled out.
+- **Basis bridge (`KB-APT-45`):** BTS vs airport MIA YoY agree in SIGN on all 5 revised months (gap −1.17..+1.48pp); June's BTS first print (−5.48 vs −1.43) is the −4.05pp outlier. **BTS still ends at June** (re-pulled to scratch 9/24, byte-identical).
+- **`MAR-24` 70%→80%.** Capped because **BTS May MCO was only −0.25%** — the 9/19 "MCO LOCKED" read is weaker than stated; Aug MCO unobserved. Resolver = BTS Q3 on the 2027-02 vintage, NOT 9/30.
+- ⚖️ **WILL RULED 9/24: the MIA-2-consecutive trigger grades on MIA's OWN airport-reported count, BTS shown beside.** Written into `CLAUDE.md` (signal table + FL AIRPORT TRIGGERS item 3). **Trigger NOT met** (Jul +0.10). MAR-24 still grades on BTS.
 
-### 2. Banxico July (CE81) — 1 of 2 clean forward prints
-Value $5,570.6M +3.00%; **count 13,081.6k −0.02% YoY**; avg **$426**. **The band flip is 3,021 operations out of 13.08M, and June's own count revised by 6,600 between pulls — twice the margin.** Graded CRITICAL on the letter, recorded as noise; **0%-boundary spec defect registered.** Real signal = **2-yr stack −6.76%, a 4-month run ≤−5%, longest since 2010** (≤−5% = **10.6% of 235 months**). **Apr/May/Jun are IN-SAMPLE** (re-spec written 8/11); **July is the first out-of-sample print and it MEETS; August ~Oct 1 is the second.** Multi-causal check **NOT passed** — avg transfer broke $390/$393/$390 → **$408**, so consolidation explains it equally.
+### 2. Other catch-up prints
+- **LVCVA July:** June's $ inversion did NOT persist — visitors +2.7%, RevPAR +3.2%, Strip gaming +3.6%; **air −7.6%** (YTD −6.9%). LVCVA credits a slow last summer (base). `KB-NV-03`; `VX-NV-01` annotated (Canadian leg still unrefreshed). August ES not out.
+- **Aug CPS (BLS API live):** LFPR<HS **44.7%** (Jul 45.5 / Jun 43.1; Aug-25 47.5) — July counter-print partly reverted. Foreign-born LF **31,860k, YoY −379k** (Jul −550k), identity exact. `KB-WFD-12`. Consumer check on 43.1: only mail/archives cite it — no packets.
+- **Checked, nothing new:** BTS (June), OFLC H-2A (still FY26 Q3 → `MAR-11` HELD 72%, note added), FL voter reg (Aug newest), Banxico CE81 (Jul newest), StatCan (Aug newest; tool re-run changed only the pull stamp).
 
-### 3. StatCan August — ID-01's noise floor is measured too low
-Total return trips **2,574,637; 2-yr stack −26.63%** — BREACHED 10th straight month, **shallowest since Nov-2025**; air **−22.67%** (YoY **+3.61%, first positive**), land-auto −27.39%. **Level breached, trend RECOVERING.** **`VX-1.01` basis corrected** — it was reading the air+auto TOTAL level against the AUTO-leg stack.
-⛔ **`ID-01`: the 2.5pp floor came from ONE observation.** Over 11 pre-tariff transitions the gap moves **mean 4.21pp / max 7.95pp; 82% clear 2.5pp, 45% clear it in ID-01's direction.** Crossing frequency on **matched two-month windows: either-month 80% · both-months 10%** *(corrected 9/19 — the published "45%" mixed windows; these are historical crossing frequencies, not calibrated FP rates)*. **Both-months reading PRE-COMMITTED 9/19, before the window opens; PROME packeted + doorbelled.**
-
-### 4. NTTO — two instruments unblocked by one fetch
-**`ES-MARCO-09` → APPEARED**: Jun+Jul **5,837,141 vs 7,485,330 (2019) = −22.02%**. Volume leg PASSED, vs-2019 leg FAILED, ≥−20% FAIL band MET — **exactly the split pre-registered 8/21**. **`VX-1.02` UNSCORED → CRITICAL** (Aug **−24.20%**, YTD −20.73%; same band either way). Shortfall **WIDENING**: −16.5% Jan → −24.2% Aug.
-⛔ **The named resolver was fictional — the workbook has NO vs-2019 column** (35 sheets checked); replaced with primary-to-primary arithmetic. It had been logged "PRIMARY WORKBOOK NOT READ" for 4 weeks and was one fetch away.
-
-### 5. Instruments built (mechanising what was hand-read)
-- **`tools/banxico_monthly.py`** (CE81 monthly) + wired into `boot.py` with a content-derived vintage check, 35-day cadence. **Root cause: the boot step named "Banxico remittances" guarded CE100 — the QUARTERLY state map — on an 85-day cadence.** Guard falsified in 3 directions; from **Oct 2 it flags August automatically**.
-- **`tools/statcan_travel.py`** (air 24-10-0056 v1324883057 / land-auto 24-10-0057 v1545883120). **Reproduces all four hand-carried ID-01 baselines within 0.05pp** (`--verify`).
-
-### 6. Read-cap
-**STATUS 33,789 → 32,461 B, under the 32,550 budget.** Achieved by **rotation, not rewriting** — 4 new archive files. ⚠️ **Three separate "tighten the prose" attempts each ADDED bytes (+48, +46, +5)**, exactly as `READ_CAP.md` warns.
+### 3. Hygiene — both over-budget boot reads FINISHED rotating
+- **`MEMORY.md` 49,058 → 22,694 B (70% of budget)** — carried 3 sessions, now closed. Verbatim move to `domain/sources/_archive/MEMORY_cold_20260924.md`; selection rule = guard now in code, already fleet auto-memory, or dated history. One-line pointers left. World-Cup event-mask **retired**.
+- **`STATUS.md` 31,943 → 22,410 B (69%)** — the hot/cold split owed since s27. Cold → `_archive/STATUS_cold_20260924.md` + `_archive/STATUS_s28_rotated_20260924.md` (incl. a duplicate s26 header line that had been sitting in STATUS). Conservation-checked: every block is in hot or cold.
+- Docket: off-vocab `ORANGE`/`YELLOW` fixed; 2 resolved rows (8/22 §338, 9/8 counter-tariff) → `thesis/TIMELINE.md`; 4 re-dated with reasons (energy re-spec → 10/1; Banxico state map → 10/1; Citizens chase → 10/1; StatCan BOP → Q3 11/27); **new rows: LVCVA Aug (~9/30), MIA Sep report (~10/28)**. `CALENDAR.md` August block rotated out, NEXT WINDOW rebuilt from the TSV.
+- ⚠️ **Tool defect noticed, NOT fixed:** `tools/bts_airport_pull.py` stamps `Last real data refresh:` with the PULL date, not the newest data month (PAT-044 says data month). Also its argv parser treats `--help` as an airport code (harmless — errors before writing).
 
 ## NEXT SESSION
-0. **🔴 `MEMORY.md` 49,058 B = 151% of the read budget — STILL UNROTATED, 3rd session carried.** It is now the only over-budget boot read. **Rotate before any append** (a MARCO-specific lesson from this session is owed to it and was deliberately NOT written for this reason).
-1. **🔴 STATUS needs a HOT/COLD SPLIT, not more shaving.** It spent this session bouncing off the ceiling and landed at 32,461/32,550 — it re-breaches on any edit.
-2. **🟠 Banxico AUGUST (~Oct 1) — the SECOND forward print that completes or breaks the SDL-01 re-spec.** Boot now flags it automatically.
-3. **🟠 StatCan SEPTEMBER (~mid-Oct) — leg 1 of the ID-01 window, first post-counter-tariff month.** Needs PROME's ruling on the both-months reading first.
-4. **🟠 NTTO September (~mid-Oct)** — `VX-1.02` is −24.20% and the BREACHED line is −25%.
-5. **🟠 Awaiting CORAL:** refreshed FL Citizens PIF (MARCO's copy is dated 2026-06-30, ~11 weeks old). CORAL was DARK; PROME flagged per messaging rule 6b.
-6. ✅ **MAR-24 routing rule — CLOSED 9/19, Will-approved.** Re-specified in `CLAUDE.md`: the all-three trigger fires only **carrier-adjusted** (raw figure reported alongside), **MIA promoted to PRIMARY tell** (verified Spirit-free since Feb-2023), **expiry registered** (docket 2027-08-15 — May-2027 is the first clean YoY). REGINALD + CARL packeted ahead of the trigger. ⏳ **Remaining thread: Spirit's seat deletion is economically real (~84% backfilled at MCO) and is a SUPPLY question MARCO has not sized** — deliberately not folded into a demand signal.
-7. **🔴 ENERGY RE-ARM still un-re-specified** (3rd session). Fresh forward window, exchange-suffixed contract (`BZX26.NYM` form). ⚠️ Energy is re-accelerating (Aug gasoline +27.40% YoY) while the instrument sits dead.
-8. **🔴 Channel 4 — EMMA/MSRB credit leg STILL UNRUN** (since 8/12); it gates the retire-or-hold ruling.
-9. **🟠 Promotion flag owed to PROME:** `finding_threshold_spec_fails_before_world` is COLD-tier and was extended with 2 new instances (n=5) ⇒ promotion flag per the Batch-A rule. Also advisory: that memory's sibling hot hook is 118 chars vs the 80-char canon — **did not edit the shared index myself.**
-10. **Carried:** FL-$ hole scope-mismatched — **do not re-cite** · `VX-2.01` BREACHED on an unrefreshed Jun-15 arrest rate · BofA Q1'26 metro claim documented-not-merged · CBP Ch.98/drawback defect · USMCA-preference not primary-supported · `VX.tsv` two-clock banner still 2026-07-02 (correct by rule) · **VX-1.02's band says "vs the same period of 2019" without naming the period — name it forward** (both readings agree today; they would NOT have in April).
-11. **Do NOT hunt a fifth Channel-1 transmission instrument.** v3.0 pre-commits against it.
+1. 🟠 **LVCVA August (~9/30)** — $ negative again ⇒ June wasn't noise; positive ⇒ month-only confirmed twice.
+2. 🔴 **Banxico AUGUST (Oct 1)** — the 2nd forward print of the SDL-01 re-spec (boot flags it). Co-run the state-of-origin map.
+3. 🔴 **ENERGY RE-ARM RE-SPEC (docket 10/1, 4th session carried)** — fresh forward window, `BZX26.NYM`-form contract. Energy re-accelerating (Aug gasoline +27.40% YoY).
+4. 🟠 **~Oct 15:** StatCan Sep (`ID-01` leg 1, both-months) · NTTO Sep (`VX-1.02` −24.20% vs −25% line) · BTS July (check MCO — is it still negative?).
+5. 🟠 **MIA September report (~Oct 28)** — decides the MIA-2-consecutive trigger on the ruled basis. If it fires: REGINALD + CARL, with the capacity-vs-demand caveat (intl seats) carried verbatim.
+6. 🔴 **Channel 4 — EMMA/MSRB credit leg still unrun** (since 8/12); gates retire-or-hold.
+7. 🟠 **Promotion flag owed to PROME** (carried from s27): `finding_threshold_spec_fails_before_world` COLD-tier, extended to n=5.
+8. 🟡 Fix `bts_airport_pull.py`'s data-vintage stamp (see §3).
+9. **Carried:** inbox LABOR 9/17 + ZHAO 9/18 unprocessed (not an inbox spawn) · CORAL Citizens PIF (docket 10/1) · FL-$ hole — **do not re-cite** · `VX-2.01` on an unrefreshed Jun-15 arrest rate · `VX-1.02` band doesn't name its 2019 period · USMCA-preference not primary-supported.
+10. **Do NOT hunt a fifth Channel-1 transmission instrument.** v3.0 pre-commits against it.
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| ✅ **MAR-24 routing rule** | **CLOSED 9/19** — carrier-adjusted trigger, MIA primary, expiry docketed 2027-08-15, REGINALD/CARL packeted |
-| ⏳ **Spirit seat deletion unsized** | Capacity replacement UNSIZED — seats never measured; the '~84%' was a stale-vintage PASSENGER offset (June is 35.6% at MCO) |
-| 🔑 **`ID-01` both-months reading** | Pre-committed 9/19; **awaiting PROME ruling before the Sep print (~mid-Oct)** |
-| 🟠 **SDL-01 re-spec: 1 of 2 forward prints** | August (~Oct 1) completes or breaks it |
-| 🔴 **`MEMORY.md` 151% of budget** | Unrotated 3 sessions; blocks its own appends |
-| 🔴 **STATUS at 99.7% of budget** | Needs a hot/cold split |
-| 🔴 **Energy re-arm un-re-specified** | Carried s25→s26→s27 |
-| 🔴 **Channel 4 EMMA/MSRB leg unrun** | Gates the retire-or-hold ruling |
-| 🟠 **CORAL: Citizens PIF** | Asked 9/19; CORAL dark |
-| ✅ **NTTO primary — READ** | Closed. Resolver was fictional; replaced with primary-to-primary |
-| ✅ **Canadian + Banxico series — MECHANISED** | Closed. Both reproduce prior hand-reads |
+| ✅ **MIA trigger basis** | **Will-ruled 9/24** — MIA's own count, BTS beside. In CLAUDE.md |
+| 🟠 **MIA Aug −5.69%: demand or capacity?** | Intl leg capacity-led; dom LF −4.1pp is the only demand tell. Sep report is the next read |
+| 🟠 **MAR-24 at 80%** | Aug MCO is the unobserved leg (May −0.25%) |
+| ✅ **MEMORY / STATUS read budget** | **CLOSED 9/24** — 70% / 69% |
+| 🔑 **`ID-01`** | Both-months reading CONFIRMED by PROME 9/22; Sep print ~mid-Oct |
+| 🟠 **SDL-01 re-spec: 1 of 2** | August ~Oct 1 |
+| 🔴 **Energy re-arm** | Re-spec owed — docket 10/1 |
+| 🔴 **Channel 4 EMMA/MSRB** | Unrun |
+| ⏳ **Spirit seat deletion unsized** | Seats never measured |
 
 ## Mail state
-**Inbox 3 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18 · WALTER-lane SIG-W-20260917-008) — **not a backlog failure: MARCO was not spawned for inbox this session.** The WALTER item is INFO-only (ZHAO owns the action). ⚠️ The WALTER lane is normally a boot-time drain — **drain it next boot**.
-**Sent:** **PROME** (`PROME/inbox/`, ID-01 noise floor + ASK; doorbelled `prome-73`) · **CORAL** (`AGENTS/CORAL/inbox/`, FL airports ex-Spirit + Citizens PIF ask; CORAL dark, PROME flagged per rule 6b).
-**Not sent, deliberately:** nothing to WALTER (analysis, not a signal; no threshold fired). ✅ **REGINALD + CARL WERE sent the airport read 9/19** once the rule was re-specified — ahead of the trigger, not as a correction after it.
+**Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18) — not an inbox spawn. **WALTER lane empty.** PROME 9/22 ID-01 packet processed (it asked only for a record).
+**Sent:** nothing — no threshold fired (MIA trigger NOT met on the ruled basis). REGINALD/CARL will be packeted only if MIA Sep prints negative.
 
 ## PUSH STATE
-Session 27 — see the closeout commits and the `safe-push.sh` receipt line.
+Session 28 — see the closeout commit and the `safe-push.sh` receipt line.

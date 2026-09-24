@@ -94,6 +94,18 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 ---
 
+### 9/24 — VERIFIED THIS PASS (session 28) — pulled from the issuing primary 2026-09-24
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **MIA passengers, airport-reported, YoY / 2-yr** | **4,289,986 vs 4,548,858 = −5.69%**; vs Aug-24 4,589,478 = **−6.53%** | Aug 2026 | Miami-Dade Traffic Report PDF, sum-identity parse (total = intl + dom = dep + enp) | `baselines/mia_airport_reported.tsv` · `KB-APT-44` · MIA trigger (Will-ruled basis) |
+| **MIA passengers, airport-reported, YoY** | **+0.10%** (4,834,977 vs 4,830,328) | Jul 2026 | same | same |
+| **MIA Mar/Apr/May YoY** | −1.76 / −2.01 / +0.52 — **reproduces the figures carried in MAR-24's notes** | Mar–May 2026 | same | `thesis/PREDICTIONS.tsv` MAR-24 |
+| **BTS vs airport MIA sign agreement** | 5/5 revised months, gap −1.17..+1.48pp; Jun first print −4.05pp | Jan–Jun 2026 | BTS T-100 re-pull (unchanged from 9/19) vs PDFs | `KB-APT-45` |
+| **LFPR, less-than-HS 25+** | **44.7%** (yr-ago 47.5) — supersedes the 43.1% Jun row in §1 as the current level | Aug 2026 | BLS API `LNS11327659` | STATUS dashboard |
+| **Foreign-born LF, YoY** | **31,860K vs 32,239K = −379K**; identity 31,860 + 138,188 = 170,048 exact | Aug 2026 | BLS API `LNU01073395` / `…413` / `LNU01000000` | `KB-WFD-12` |
+| **LVCVA visitors / RevPAR / air** | 3,171,600 (+2.7%) / $121.55 (+3.2%) / 4,412,684 (−7.6%) | Jul 2026 | LVCVA ES July PDF | `KB-NV-03` · `VX-NV-01` (TOTAL LAS, not Canadian) |
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**

@@ -187,7 +187,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 
 | Condition | Target | Priority |
 |-----------|--------|----------|
-| **MIA negative YoY, 2 consecutive months** *(the CLEAN FL demand tell — see below)* | REGINALD, CARL | 🟠 |
+| **MIA negative YoY, 2 consecutive months — on MIA's OWN airport-reported count** *(the CLEAN FL demand tell — see below, item 3)* | REGINALD, CARL | 🟠 |
 | All 3 FL airports negative simultaneously — **ON A CARRIER-ADJUSTED BASIS** *(mandatory, see below)* | REGINALD, CARL, PROME | 🟠 |
 | FL condo inventory >9mo | CORAL, REGINALD | 🟠 |
 | H-2A >425K or ag labor crisis confirmed | LABOR, CARL | 🟠 |
@@ -202,6 +202,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 > **2. The carrier-adjusted trigger.** Fire the all-three rule **only** when all three are negative with the liquidated carrier removed from **BOTH** years. **Report the raw figure alongside the adjusted one — never instead of it — and label the result CONFOUNDED, not exonerated.** ⚠️ **Get the carrier leg with `tools/bts_airport_pull.py MCO FLL --carrier NK --out <scratch path>`. The `--out` is MANDATORY and the tool now refuses without it:** the writer rewrites the whole baseline from only the airports in that run, so a carrier-filtered pull without `--out` silently replaced the all-carrier baseline for all three airports (exit 0, well-formed file). *(That defect was shipped in this very recipe on 9/19 and caught by CATO review.)*
 >
 > **3. MIA is the primary tell, and it is listed first deliberately.** Spirit operated at MIA only **Oct-2021 → Feb-2023** and has been absent since — **verified at the carrier level, not assumed.** MIA's YoY is therefore free of the Spirit confound, and it is the leg where genuine FL visitor withdrawal shows first. It was negative in 3 of the first 6 months of 2026.
+>    **🔑 BASIS (Will-ruled 2026-09-24): the MIA-2-consecutive trigger grades on the Miami-Dade Aviation Dept's own monthly Traffic Report** (enplaned+deplaned, `baselines/mia_airport_reported.tsv`) — it lands ~3 weeks after month-end vs BTS's ~3 months. **Show the BTS T-100 figure beside it whenever BTS has published that month; never substitute one for the other.** Why: the rule named no basis, and the two disagreed in June (airport −1.43% vs BTS first print −5.48%); on the 5 revised months Jan–May they agree in sign (gap −1.17..+1.48pp, `KB-MARCO-APT-45`). ⚠️ The `airport_stats.asp` index lags — fetch the PDF by direct URL (double space in the filename) and parse with the sum-identity check. *(MAR-24 still grades on BTS — this ruling covers the MIA trigger only.)*
 >
 > **4. ⏳ EXPIRY — corrected by one month.** Spirit's last full month is **April 2026**; **May-2026 still carries 3,150 (MCO) / 3,047 (FLL)**, so a May-2027 YoY is **not** zero-base. **JUNE-2027 is the first genuinely zero-base month** (published ~Sep-2027 on the ~3mo BTS lag). The residual is 0.13% of MCO traffic — immaterial in size, but "May-2027 is clean" was false as written. ⇒ **Retire this adjustment at the June-2027 print** (docket 2027-09-15). An adjustment kept past its cause is a permanent thumb on the scale.
 >
