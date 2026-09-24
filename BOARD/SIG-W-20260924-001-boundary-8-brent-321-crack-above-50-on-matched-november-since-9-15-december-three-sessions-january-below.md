@@ -20,7 +20,7 @@ safety_net: clear
 word_count: 640
 verdict: "Boundary #8 (Brent 3:2:1 crack > $50, 2-3 sessions sustained, IMMEDIATE) is CROSSED on a matched-NOVEMBER basis every session since 2026-09-15 (8 sessions, $52.29 -> $57.64 peak 9/22 -> ~$54.24 intraday 9/24) and on a matched-DECEMBER basis for 3 sessions (9/22 51.43, 9/23 51.22, 9/24 ~50.71 intraday). Matched JANUARY is BELOW ($48.82). The letter names no month, so the grade is month-dependent; per the interim rule this FIRES with the decomposition attached. Detection is ~7 sessions late and the lateness is WALTER's and BRENT's both."
 status: PARTIALLY-CORRECTED
-status_ref: "SIG-W-20260924-015 (2026-09-24) - the line attributing Brent's +4.7% to the Iran threat is UNSOURCED (BZX26 had risen ~+$3.8 on 9/23, before the threat). The crack table is unaffected."
+status_ref: "SIG-W-20260924-015 (2026-09-24) - the line attributing Brent's +4.7% to the Iran threat is UNSOURCED (BZX26 had risen ~+$3.8 on 9/23, before the threat). The crack table is unaffected. ALSO SIG-W-20260924-016 (2026-09-24, PARTIALLY-SUPERSEDED in substance): the 9/24 INTRADAY row (Nov 54.24 / Dec 50.71 / Jan 48.82) was true when read and is superseded by the 14:30 ET settle-window bars (Nov ~49.4 / Dec ~47.8 / Jan ~46.8-47.0); December's run is therefore 2 sessions, not 3. The 9/14-9/23 rows and the November crossing stand."
 ---
 
 # Boundary #8 — the Brent 3:2:1 crack has sat above $50 on November contracts since 9/15; December for three sessions; January below
