@@ -1,0 +1,42 @@
+# VX-MARCO-3.02 basket definition — DECLARED 2026-09-24 (s30). The 7/31 refresh never recorded its baskets (its 'refresh note' pointer resolved to nothing), so this is a forced REBASE.
+# Rules: FL = every Zillow metro in FL with SizeRank <= 250 (n=18). SNOWBELT = the 20 largest Zillow metros (by SizeRank) in NY PA OH MI IL WI MN IN MA CT RI NJ NH VT ME IA.
+# Series: Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv. SizeRank as of the 2026-08-31 file. KEEP THIS LIST FIXED — re-deriving from a later file's SizeRank rebases the series.
+basket	RegionID	RegionName	SizeRank
+FL	394856	Miami, FL	8
+FL	395148	Tampa, FL	18
+FL	394943	Orlando, FL	22
+FL	394714	Jacksonville, FL	40
+FL	753906	North Port, FL	73
+FL	394440	Cape Coral, FL	78
+FL	394766	Lakeland, FL	82
+FL	394528	Deltona, FL	90
+FL	394957	Palm Bay, FL	97
+FL	394971	Pensacola, FL	111
+FL	394995	Port St. Lucie, FL	115
+FL	395146	Tallahassee, FL	145
+FL	394901	Naples, FL	147
+FL	394927	Ocala, FL	149
+FL	394622	Gainesville, FL	155
+FL	753875	Crestview, FL	176
+FL	395009	Punta Gorda, FL	237
+FL	394960	Panama City, FL	242
+SNOWBELT	394913	New York, NY	1
+SNOWBELT	394463	Chicago, IL	3
+SNOWBELT	394974	Philadelphia, PA	7
+SNOWBELT	394404	Boston, MA	10
+SNOWBELT	394532	Detroit, MI	14
+SNOWBELT	394865	Minneapolis, MN	16
+SNOWBELT	394982	Pittsburgh, PA	27
+SNOWBELT	394466	Cincinnati, OH	28
+SNOWBELT	394492	Columbus, OH	32
+SNOWBELT	394705	Indianapolis, IN	34
+SNOWBELT	394475	Cleveland, OH	35
+SNOWBELT	395005	Providence, RI	39
+SNOWBELT	394862	Milwaukee, WI	41
+SNOWBELT	394669	Hartford, CT	49
+SNOWBELT	394425	Buffalo, NY	50
+SNOWBELT	395031	Rochester, NY	52
+SNOWBELT	394640	Grand Rapids, MI	53
+SNOWBELT	395238	Worcester, MA	58
+SNOWBELT	394415	Bridgeport, CT	60
+SNOWBELT	394308	Albany, NY	64

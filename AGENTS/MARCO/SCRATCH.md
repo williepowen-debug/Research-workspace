@@ -16,6 +16,16 @@
 - **Voter-reg "counter-signal" re-based:** +35.6% YoY is midterm-vs-off-year; vs 2022 **−21.0%**. Now "not a direction tell either way." STATUS, ES-06, NEXUS fixed; **CARL packeted** (it carries it in `handoff_RED/COUNTER_LOG.md`).
 - Helpers: 2 Opus subagents (remittances; IRS + StatCan). Load-bearing figures re-verified at source by me (Guatemala Aug in the xlsx; StatCan vector via WDS; FR Q2 doc via API — FR name count NOT re-counted).
 
+### s30b — Will: "refresh the five July-31 vector rows" (all done)
+| Row | Mark | Read |
+|---|---|---|
+| `GTR-01` Canada FL travel-search | BREACHED → **CRITICAL** | Aug −23.1% vs 2024; June's −43.8% was the only 2026 month past −40%. Two pulls agree within ~1pp |
+| `3.02` FL–Snowbelt price spread | CRITICAL → **ELEVATED (borderline)** | +4.93pp vs 5.0 line; 9 of 12 basket variants under. **7/31 baskets were never recorded** → declared in `baselines/vx302_baskets.tsv` (forced rebase, −0.29pp on Jun). Narrowing is the robust part |
+| `TX-02` Austin | BREACHED (held, duration 43 mo) | Aug −4.73% YoY, decelerating; rate leg now ELEVATED. Zillow revised LEVELS between vintages |
+| `FL-03` FL days-on-market | NORMAL (held) | 81 = +9.5% vs baseline, 0.5pp from ELEVATED; YoY −6.9% |
+| `CA-01` CA FAIR Plan | CRITICAL (held) | no new publication (still June); next ~mid-Nov (est.) |
+- No desk carries any of these marks (grep) → no packets. New VX staleness floor 2026-08-11.
+
 ### Housekeeping
 - **Archived** (`git mv` → `archive/`, created on purpose): `NOTES.md`, `OPEN_THREADS_2026-07-09.md`, `RP-MARCO-MBS_BASELINE.md`, `workbook/ML_BACKUP_20260418.tsv`, `workbook/VX_HISTORY.tsv`.
 - **TRADE.md FROZEN** (canonical banner; IBOC premise died with Channel 4 LOW). **COUPLINGS** (both BRENT edges a month stale — crude → `ENR-02` consumer; freight edge → Resolved). **RESEARCH_STATUS**, **DEFERRED** (4 TOURISM entries closed-lapsed), **MAINTENANCE** (T1-F/T2-C/T3-B closed; T2-E partial; new T2-G voter-reg tool, T2-H VX tail), **FINDINGS**, **EXPECTED_SIGNALS** ES-06 (withdrew "on track"), **CLAUDE.md** (dead "CONFIRMED FINDINGS" pointer; condo 7.8mo; Canada −26.63%), **MEMORY** (BLS API supersedes the WebFetch workaround), MAR-24 cell text.
@@ -28,7 +38,7 @@
 4. 🟠 **~Oct 15:** StatCan Sep (`ID-01`) · NTTO Sep · BTS July.
 5. 🟡 **~Oct 20 (est.):** BLS state Sep — confirm `VX-2.06` on revised Aug.
 6. 🟠 **~Oct 28: MIA September report** (MIA-2-consecutive trigger).
-7. 🟡 **MAINTENANCE T2-H:** VX tail rows 3.02 / CA-01 / FL-03 / GTR-01 / TX-02 (7/31). **T2-G:** cycle-matched voter-reg column.
+7. 🟡 **MAINTENANCE T2-G:** cycle-matched voter-reg column. VX floor now 8/11 (1.03 / 3.01 / SDL-01 / SFE-03). Watch `3.02` and `FL-03` — both sit within 0.5pp of a band line.
 8. 🟡 **Inbox (only if Will asks):** LABOR 9/17 · ZHAO 9/18.
 9. **Do NOT hunt a fifth Channel-1 transmission instrument** — and do not read `2.06` ELEVATED as one.
 

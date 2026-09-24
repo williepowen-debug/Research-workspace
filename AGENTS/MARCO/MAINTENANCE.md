@@ -115,7 +115,8 @@
 - **Action:** add a same-cycle column (vs 4 years earlier) to the tool output and `MIGRATION_PROXIES.tsv`. The DOS page links the 2022 archive zip, **but not 2023/2024** — find those before building a 2-yr stack. Same lesson MARCO already owns for TOUR-01 and SDL-01: the base-effect guard had not reached this instrument.
 - **Effort:** small.
 
-### T2-H · VX tail after the s30 sweep — five 2026-07-31 rows are the new staleness floor
+### ✅ T2-H · VX tail after the s30 sweep — five 2026-07-31 rows — DONE 2026-09-24 (s30b)
+*(All five refreshed same day: GTR-01 BREACHED→CRITICAL, 3.02 CRITICAL→ELEVATED (borderline, forced basket rebase — baskets now in `baselines/vx302_baskets.tsv`), TX-02 BREACHED held, FL-03 NORMAL, CA-01 no new data. New VX floor = 2026-08-11 (1.03, 3.01, SDL-01, SFE-03).)*
 - `VX-MARCO-3.02`, `CA-01`, `FL-03`, `GTR-01`, `TX-02` (all last touched 7/31) now set the VX banner's clock 1; `ledger_staleness` still reads VX STALE +56d. FL-03 (FL Realtors monthly) and GTR-01 (Google Trends, `tools/google_trends_pull.py`) have free live sources. Refresh as research, not clerically (baseline check first — MEMORY 'BASELINE/BASIS errors').
 
 ## TIER 3 — dormant / cleanup

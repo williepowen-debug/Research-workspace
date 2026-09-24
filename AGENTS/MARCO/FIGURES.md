@@ -131,6 +131,17 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **FL new voter registrations, cycle-matched** | Aug 58,251 vs Aug-22 73,723 = **−21.0%**; Jan–Aug 359,266 vs 454,701 = −21.0% | Aug 2026 vs 2022 | FL DOS xlsx + 2022 archive zip, pulled by MARCO | `KB-MARCO-MIG-08` |
 
 
+### 9/24 — VERIFIED THIS PASS (session 30b, the five 7/31 rows)
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **FL−Snowbelt ZHVI spread (3.02)** | **+4.93pp** Aug (Jun +6.05 on the declared basket vs carried +6.34 on an unrecorded one) | Aug 2026 | Zillow ZHVI; baskets declared `baselines/vx302_baskets.tsv`; 12-variant sensitivity +4.28..+5.12 | `VX-MARCO-3.02` · `KB-IMG-38` |
+| **Austin ZHVI YoY / run** | **−4.73%**, 43 consecutive negative months; −26.8% from peak | Aug 2026 | Zillow ZHVI (levels revised between vintages; YoY stable) | `VX-MARCO-TX-02` · `KB-TX-13` |
+| **FL median days-on-market** | **81** = +9.5% vs 2017-19 Aug mean 74.0; reproduces carried Jun 78 | Aug 2026 | Realtor.com state history CSV | `VX-MARCO-FL-03` · `KB-IMG-39` |
+| **Canada 'florida' [Travel] search vs 2024** | **−23.1%** Aug; Jun −43.8% reproduces across two pulls | Aug 2026 | Google Trends via `tools/google_trends_pull.py` | `VX-MARCO-GTR-01` · `KB-IVF-41` |
+| **CA FAIR Plan PIF / exposure** | 696,562 / $768B — **unchanged, still the newest publication** | Jun 2026 | cfpnet.com re-read | `VX-MARCO-CA-01` |
+
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**
