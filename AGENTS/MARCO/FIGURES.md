@@ -152,6 +152,9 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 | Retracted claim | Why it was wrong | ✅ The accurate figure | Fixed |
 |---|---|---|---|
+| **"FL international migration 2025 = −56.5% vs 2024 (+411K)"** (VX-3.04; CORAL carries −56.5/−57%) | Compared ACROSS Census vintages: +411K was Vintage-2024's 2024 estimate, revised to +283,664 in Vintage 2025 | Same-vintage **−37.0%** (178,674 vs 283,664) | 2026-09-24 |
+| **"TX net domestic +67K (2024)"** (VX-TX-04) | Year label wrong — +67K is the 2025 value | V2025: 2024 +86,067 · **2025 +67,299** | 2026-09-24 |
+| **"Sun Belt delta −534K (AZ −59K, NV −35K), 2022→2024"** (VX-SBMD-01) | AZ/NV reproduce on no V2025 window; window mislabelled | 2022→2025: **−482,326** (FL −288,375 · TX −151,541 · AZ −37,208 · NV −5,202) | 2026-09-24 |
 | **"2025 international visitor spending −4.2% / −$8.3B"** (VX-1.03's CRITICAL rested on it) | Tourism Economics' modelled figure, carried as the official YoY; does not reproduce on BEA/NTTO | BEA Travel 2025 **+$1.28B (+0.6%)**; NTTO headline −0.06%; 2026 Jan–Jul −0.58% | 2026-09-24 |
 | **VX-3.01 'BREACHED (>4x national)'** | The row's own cell said ~2.4x; no source reaches 4x | Matched basis **2.95x** (Insurance.com) → ELEVATED | 2026-09-24 |
 | **VX-SDL-01 'BREACHED (>1.5M annual)'** | Band of the retracted 2.2M; never re-derived | YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL) — basis ruling owed | 2026-09-24 |

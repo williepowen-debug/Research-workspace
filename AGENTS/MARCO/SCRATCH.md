@@ -29,11 +29,19 @@
 ### s30c — Will: "refresh the four August-11 rows too" (all done)
 | Row | Mark | Read |
 |---|---|---|
-| `1.03` intl visitor spending | CRITICAL → **NORMAL** | BEA Travel exports Jan–Jul **−0.58%** (annualised −$1.25B); May–Jul up. The carried 2025 **−$8.3B never reproduced** (BEA 2025 +$1.28B). Trailing-12 window would read low ELEVATED |
+| `1.03` intl visitor spending | CRITICAL → NORMAL → **ELEVATED (low), s30d** | BEA Travel exports Jan–Jul **−0.58%** (annualised −$1.25B); May–Jul up. The carried 2025 **−$8.3B never reproduced** (BEA 2025 +$1.28B). Trailing-12 window would read low ELEVATED |
 | `3.01` FL household premium | BREACHED → **ELEVATED** | Matched basis 2.95x (Insurance.com 9/15). No source reaches >4x; the row's own cell said 2.4x |
 | `SDL-01` foreign-born LF | BREACHED → **UNRULED ⚖️** | Aug YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL). BREACHED = retracted-2.2M residue. **Will to rule the basis** |
 | `SFE-03` Citizens | NORMAL band (held) | **PIF 266,231 @8/31, −4.3% MoM — depopulation resumed**; exposure **$74.8B** (carried $295.1B was Jun-2025). CORAL packeted; 10/1 chase closed |
 - Three of four marks did not follow from their own data — same class as the 8/21 band audit. FLOW-REG-01 / FLOW-IMG-01 mark annotations corrected. VX floor now 2026-08-21.
+
+### s30d — Will: "do item 2" = full band audit of all 36 live VX rows
+- Method: 3 blind Opus readers (12 rows each, mark-vs-value, no desk context) → MARCO verified every flag at the row/primary before editing. Readers' files: job scratch `audit_g{0,1,2}_result.md`.
+- **Re-graded:** `APT-01` ELEVATED→**CRITICAL** (declared 2-yr stack basis; still carried 3 withdrawn claims in its current read; duplicates `1.04`) · `CA-02` CRITICAL→**UNSCORED** · `1.03` NORMAL→**ELEVATED** (12-month-actual rule, consistent with EMG-01).
+- **Confirmed on fresh data:** `2.01` BREACHED — TRAC June 2026 ICE arrests ≥39,563 vs FY24 avg 9,453/mo (≥4.19x).
+- **Refreshed:** `2.03` Aug (NORMAL, 0.03pp margin) · Census V2025 → `3.04` (−56.5% was cross-vintage; −37.0%; **CORAL packeted**), `TX-04` (label fix, +67,299), `SBMD-01` (−482,326; AZ/NV carried figures didn't reproduce).
+- **Text/label:** `2.08` single mark; `H2A-01` names its OR-leg; `NV-01` marked CARRIED; `SFE-03` band token; `CA-01` judgment-graded; `3.02`/`1.01`/`2.08` band-cell residue.
+- **Open (MAINTENANCE T2-I):** merge `APT-01`/`1.04`; `H2A-02` lead-time p25 leg unreported; `CA-01` surge leg needs a number; `FL-01` level-vs-growth basis.
 
 ### Housekeeping
 - **Archived** (`git mv` → `archive/`, created on purpose): `NOTES.md`, `OPEN_THREADS_2026-07-09.md`, `RP-MARCO-MBS_BASELINE.md`, `workbook/ML_BACKUP_20260418.tsv`, `workbook/VX_HISTORY.tsv`.
@@ -63,7 +71,7 @@
 
 ## Mail state
 **Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18), not an inbox spawn. **WALTER lane:** `SIG-W-20260924-017` (grocery correction) arrived mid-session → logged **info-only** in `board_log.tsv` (MARCO never carried the claim). Moved to `processed/` after WALTER committed its delivery (`24c290efa`).
-**Sent:** CARL (correction — voter-reg counter-signal was election cycle) · CORAL (Citizens 8/31 PIF 266,231 + FYI 3.01 re-grade).
+**Sent:** CARL (correction — voter-reg counter-signal was election cycle) · CORAL ×2 (Citizens 8/31 PIF 266,231 + FYI 3.01 re-grade; FL intl-migration −56.5% was cross-vintage → −37.0%).
 
 ## PUSH STATE
 Session 30: see the closeout commit and the `safe-push.sh` receipt line.

@@ -119,6 +119,13 @@
 *(All five refreshed same day: GTR-01 BREACHED→CRITICAL, 3.02 CRITICAL→ELEVATED (borderline, forced basket rebase — baskets now in `baselines/vx302_baskets.tsv`), TX-02 BREACHED held, FL-03 NORMAL, CA-01 no new data. New VX floor = 2026-08-11 (1.03, 3.01, SDL-01, SFE-03).)*
 - `VX-MARCO-3.02`, `CA-01`, `FL-03`, `GTR-01`, `TX-02` (all last touched 7/31) now set the VX banner's clock 1; `ledger_staleness` still reads VX STALE +56d. FL-03 (FL Realtors monthly) and GTR-01 (Google Trends, `tools/google_trends_pull.py`) have free live sources. Refresh as research, not clerically (baseline check first — MEMORY 'BASELINE/BASIS errors').
 
+### T2-I · Residue from the 2026-09-24 full band audit (s30d)
+- **Merge `APT-01` into `VX-1.04` (or retire one):** both grade the mean of the three FL-airport 2-yr stacks, on different band sets (−11.54% = CRITICAL here, ELEVATED there). Two marks for one number.
+- **`H2A-02`:** the BREACHED OR-leg (lead-time p25 <14 days) has never been reported; 38.53% of cases have <30d lead, so it cannot be excluded. Compute p25 from the OFLC file.
+- **`CA-01`:** the CRITICAL leg 'FAIR Plan surge' has no numeric threshold — the mark is a judgment. Give it a number (e.g. PIF growth YoY).
+- **`FL-01`:** '±2pp of national' never says level gap vs growth gap; they diverge on a below-national print.
+- **Desk rule adopted:** an ANNUAL band grades on the latest ACTUAL 12-month figure, never an annualised partial year (applied to `1.03`, `EMG-01`, `SDL-01`). Census components: compare within ONE vintage only.
+
 ## TIER 3 — dormant / cleanup
 
 ### ✅ Dormant sub-agents FROZEN-bannered — DONE 2026-07-02, TOURISM closed 2026-07-09
