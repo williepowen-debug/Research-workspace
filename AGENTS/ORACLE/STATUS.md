@@ -2,7 +2,8 @@
 
 **Live dashboard — prediction-market probabilities, divergences, alerts.**
 **Last pull:** 2026-09-18T01:49–01:52Z (Polymarket 43 rows `pull --log` + Kalshi 11 tickers via the **PUBLIC** trade-api + `history --write` 7,469 daily rows + `coverage` + `movers`). **Box:** **LAPTOP** (`WilliePOwen`) — the **authenticated** Kalshi lane is **DOWN here by design** (`~/.config/kalshi` absent; `kalshi.py` dies at import). **Per-box, never a fleet fact.**
-**Session:** 2026-09-17 (Thu) — **first session since 2026-09-07. THE DESK WAS DARK FOR TEN DAYS AND MISSED BOTH THE 9/11 CPI AND THE 9/16 FOMC.** Catch-up session at Will's direction.
+**🆕 2026-09-24 (Thu) PROME-spawned DRAIN + ENCODE session (WQ-206; DESKTOP, authed Kalshi lane LIVE rc=0):** Polymarket `pull --log` + Kalshi `pull --log` 13-of-13 @ 2026-09-24T19:07Z. **Only the v5 supply-leg rows below (Alert 2, Tier 2 WTI rows, Derived series) were refreshed; every other figure in this file is still the 9/17–18 read** — the 9/24 prints are in `workbook/ODDS_LOG.tsv` / `KALSHI_ODDS_LOG.tsv`, not transcribed here.
+**Session (prior full):** 2026-09-17 (Thu) — **first session since 2026-09-07. THE DESK WAS DARK FOR TEN DAYS AND MISSED BOTH THE 9/11 CPI AND THE 9/16 FOMC.** Catch-up session at Will's direction.
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price — re-pull. Every figure carries platform/date/volume; thin (<$5K liq) is flagged ⚠️ and is never marked on one print.
 > ⚠️ **Δ1d IS UNRELIABLE THROUGHOUT THIS SESSION.** The fetcher differences against my last logged print, which for most rows is **ten days old**. **Read Δ7d and Δ30d**, and prefer the `history`-derived Δ30d — it is computed off the CLOB daily series, not off my own gappy log.
@@ -25,12 +26,11 @@ Primary: Kalshi `KXFED-26SEP-T3.75` settled **`result: yes`**, **`expiration_val
 ⛔ **I claim no lead-lag.** I hold no intraday series across 9/11–9/16 for any venue, so "who moved first" is unsourced and I am not guessing. CME FedWatch remains a JS shell — **do NOT re-attempt `WebFetch` on it**; BOND's three-venue question is unchanged and unadvanced.
 ⛔ **The honest framing: this is a COVERAGE failure, not a measurement failure.** My figure was correct when written and my own note called the 9/11 CPI "the CPI that arms the FOMC five days later." It then sat as **the fleet's only live Fed read for nine days** while I was dark. → PROME, LIQUID, HENRY, BOND, RED, LABOR · **KB-ORC-083** · VX-ORC-08
 
-**2. 🔴🔴 WTI TOUCHED $100 AND THEN $105 IN SEPTEMBER. THE v4 SUPPLY LEG RESOLVED YES — the instrument did not flip regime, it TERMINATED, and its $100 threshold is now AT-THE-MONEY rather than a supply tail.**
-`will-wti-reach-100-in-september-2026` settled **100.0%** (Δ7d +62.9, vol $443.1K). The **$105** leg went **Δ7d +84.5 → 100.0%** (vol $713.5K); the **$110** leg sits **15.5–16.0%** at **Δ7d −29.0** ⇒ **the September high printed between $105 and $110.** Already retraced: the 9/18 close-above ladder reads above-$96 **55.0%** / above-$100 **7.0%**, and `dip-to-100-from-september-14` is **100.0%** ⇒ **spot is back near $96.**
-✅ **`tools/disruption_supply_spread.py` HARD-EXITED and logged nothing** ("STALE-PAIRED … 11d apart") — the registered leg-resolution killer fired exactly as designed.
-⛔ **DO NOT compute 82.5 − 100 = −17.5pp as a spread.** Differencing against a settled leg is the v1 failure this guard was built after. I name the tempting-but-wrong number so no consumer derives it independently.
-⚠️ **NO OCTOBER WTI $100 MARKET EXISTS** — searched four ways 9/17 (`"WTI October 2026"`, `"WTI 100"`, `"WTI crude"`, `"oil price"`). **Absence RECORDED, not inferred away** — that was my own 9/07 pre-commitment.
-⛔ **I did NOT re-pin or re-strike a successor, deliberately.** WQ-190 ratified $100 as v4 **when $100 was a 22–40% tail.** It has been touched. Any successor at $100 measures something the ratified instrument did not — a **change of MEANING, not a maintenance roll** — and doing it silently is exactly the option-A error I caught myself in on 9/07. **Candidate for a ruling, not adopted: the $110 rung** (vol $633.6K, liq $86.6K — genuinely deep). → **PROME/Will packet written.** → BRENT, HAWK, FALCON, TERRY · **KB-ORC-084** · VX-ORC-04
+**2-v5. 🟠 THE SUPPLY LEG IS BACK UP AS v5 AT THE $110 RUNG — WQ-260, Will-ruled 2026-09-24 14:59 ET ("Approve WQ-282, 254, 261, 260 and 276 with your recs"). A VINTAGE BREAK, NOT A ROLL.**
+Re-pinned at the venue by this desk 2026-09-24T19:05Z: `will-wti-reach-110-in-september-2026` (Polymarket id 3866512) **mid 3.85%** (bid 2.7 / ask 5.0), Δ7d −14.6, **vol $837.4K, liq $29.9K** ⇒ passes the $5K thin bar. Spot: CL=F **$94.42** (CLX26, `fetch.py` 2026-09-24) ⇒ $110 is +16.5% above spot, a tail again. **First v5 row: 78.5 − 3.9 = +74.65pp @ 2026-09-24T19:07Z** `[v5-wti110-vintage-break]`.
+⛔ **Never chart or difference v5 against v4** (v4 last valid +36.0pp @ 9/07; its $100 leg settled YES). ⚠️ **The September segment has 7 days left and will drift toward 0 by expiry, not by repricing — read v5 as meaningful from the October leg.** ⚠️ **No October WTI market is listed** (4 searches 9/24) → DOCKET L299 re-pins on 9/28; if none lists by the 10/01 close, v5 dies and that gets written down. Active Month = CLX26 for the whole September segment (switch was 9/18, before entry); next switch INFERRED ~10/16. Kalshi context column (WQ-190 ②) now live: `KXIRANCRUDE-26OCT13-T2.0` **51.5% book mid, OI 0 — no trades behind it.** → BRENT, HAWK, FALCON, TERRY
+
+**2. (9/17 record, superseded by 2-v5)** WTI touched $100 then $105 in September; the v4 $100 leg resolved YES and the spread tool hard-exited by design. ⛔ Never compute 82.5 − 100 = −17.5pp as a spread. Full record → **KB-ORC-084**, `MAINTENANCE.md` 2026-09-17, git history of this file.
 
 **3. 🔴 SEPTEMBER CPI IS PRICED FAR HOTTER THAN AUGUST WAS — the `>3.5%` rung is at 83.0 mid where August's was 10.0%.**
 **August RESOLVED (printed 9/11):** `KXCPIYOY-26AUG-T3.3` **YES** · `T3.4` **NO** · `T3.5` **NO** ⇒ **August headline CPI YoY landed in (3.3%, 3.4%].**
@@ -43,10 +43,7 @@ Primary: Kalshi `KXFED-26SEP-T3.75` settled **`result: yes`**, **`expiration_val
 ⚠️ **INFERENTIAL, not measured** — the instrument that *would* have measured this is dead by resolution (Alert 2), so I am reasoning around a hole in my own toolkit and saying so. ⚠️ **The Hormuz-normal leg resolves on the IMF PortWatch PRINT, not throughput** (KB-ORC-079): a detection failure and a real stoppage resolve identically, so "deepening" may partly be "PortWatch still not printing ≥60." **That caveat cuts against my own headline and is not optional when this is quoted.** ⚠️ Bahrain/UAE are thin ($1.2K / $4.3K) — directional, **not marks**.
 **Hypothesis, not a finding:** a supply interruption that has **already happened** and is priced as **slow to reverse**, rather than a war still widening. → HAWK, BRENT, FALCON · **KB-ORC-087**
 
-**5. 🟠 My "cite the MID on wide books" rule silently returns 50.0% on every SETTLED Kalshi market — it recommends maximum uncertainty for a known outcome.**
-A resolved contract quotes **bid 0.00 / ask 1.00**, so the midpoint of a fully-wide book is **50**. Observed on **five** settled rungs in one pull (`KXFED-26SEP-T3.75` result **yes**, mid reads **50.0**; the three August CPI rungs identically). **The "WIDE book" flag fires on exactly these rows**, so the rule does not merely go silent — **it actively recommends the wrong number.**
-**Amendment:** apply the mid rule **only when `result` is empty**; when settled, read `result`. KB-ORC-069 is **under-scoped, not wrong** — it was derived on live books and nobody asked what it does at resolution.
-🔑 **Second time in three sessions an ORACLE instrument made a settled contract look live** — the Polymarket settled-leg artifact is the same bug on the *other* side (falsely **certain**; this one falsely **uncertain**). **One shared cause: a display layer that does not read the resolution field.** ⚠️ **NOT yet audited:** whether any past ORACLE surface quoted a 50.0 mid off a settled rung. **Open check, not a clean bill.** → PROME, DAEDALUS · **KB-ORC-086**
+**5. 🟠 Kalshi "cite the MID" returns a meaningless 50.0 on SETTLED (bid 0/ask 1) and UNTRADED books** — apply the mid only when `result` is empty AND OI > 0; when settled, read `result`. Full record → **KB-ORC-086**, Maintenance flags below. *(Collapsed 2026-09-24 read-cap rotation.)*
 
 ---
 
@@ -87,7 +84,7 @@ A resolved contract quotes **bid 0.00 / ask 1.00**, so the midpoint of a fully-w
 |---|---|---|---|---|---|---|
 | **WTI $100 (Sep)** | PM | **100.0%** | **+62.9** | — | $443.1K | ⛔ **RESOLVED YES — v4 leg dead** |
 | **WTI $105 (Sep)** | PM | **100.0%** | **+84.5** | — | $713.5K | ⇒ high printed $105–$110 |
-| WTI $110 (Sep) | PM | 15.5–16.0% | **−29.0** | — | $633.6K | 🔑 **succession candidate, NOT adopted** |
+| **WTI $110 (Sep) — v5 supply leg** | PM | **3.85%** (9/24) | **−14.6** | — | $837.4K | ★ **ADOPTED as v5 9/24 (WQ-260); liq $29.9K; 7d to close** |
 | WTI closes above $96 on 9/18 | PM | 55.0% | — | — | $58 ⚠️ | ⇒ spot ≈ $96 |
 | Hormuz avg daily transits end-Sep (0–5) | PM | **64.0%** | −6.0 | — | $10.8K ⚠️ | 🔴 **40.5% on 9/07 ⇒ +23.5pp** |
 | Hormuz ships-transit weekly (25–29) | PM | 28.0% | — | — | $3.7K ⚠️ | ✅ **ROLLED to week-of-9/14** |
@@ -124,7 +121,8 @@ A resolved contract quotes **bid 0.00 / ask 1.00**, so the midpoint of a fully-w
 | FL Cat-4 hurricane by 2027 | PM | 4.5% | −1.0 | −12 | ⚠️thin → CORAL/AEOLUS |
 | FL Cat-5 hurricane by 2027 | PM | 2.5% | −4.0 | −9 | ⚠️thin |
 
-**Derived series:** ⛔ **NO ROW WRITTEN THIS SESSION.** `disruption_supply_spread.py` hard-exited on the resolved supply leg. Last valid row: **+36.0pp @ 2026-09-07T16:10Z** `[v4-sep-wti-supply-leg]`. **The series is PAUSED pending a successor ruling — it is not stale-by-neglect, it is stopped by design.**
+**Derived series (9/24):** ✅ **v5 LIVE — +74.65pp @ 2026-09-24T19:07Z** `[v5-wti110-vintage-break]` (disruption 78.5 PortWatch-print basis − supply $110 3.85; 0-ships context 33.0; Kalshi ctx KXIRANCRUDE >2.0 51.5% mid, OI 0). **Not comparable to any v4 row.**
+**Derived series (9/17 record):** no row written (v4 leg settled); last valid v4 row +36.0pp @ 2026-09-07T16:10Z.
 
 ---
 
@@ -145,18 +143,16 @@ A resolved contract quotes **bid 0.00 / ask 1.00**, so the midpoint of a fully-w
 ---
 
 ## Maintenance flags
+- ✅ **Closed 9/17 items moved to their single home** (settled-top-leg selector fix KB-ORC-090 · no standalone Kalshi VIX market KB-ORC-089 · `history` two-rows-for-today, unpatched by design): `MAINTENANCE.md` 2026-09-17 entries. Moved 2026-09-24 read-cap rotation.
 
 *Detail lives in `MAINTENANCE.md` (structural) and `workbook/KB.tsv` (findings). This section carries only what a reader must act on or avoid.*
 
-- ✅✅ **The settled-top-leg artifact is FIXED IN CODE — five standing exceptions retired at once.** `_select_event_leg()` now prefers the modal **UNRESOLVED** leg. Verified before/after **with controls**; genuinely-resolved events still flag correctly. ⇒ **the `⛔RESOLVED` flag is now TRUSTWORTHY — act on it.** The two `DO-NOT-REPLACE` banners in `watchlist.tsv` are **SUPERSEDED / non-operative**, kept as history only. ⚠️ **`ODDS_LOG` rows for the five affected markets are NOT comparable across 2026-09-17** (selector regime boundary). ⚠️ **The Kalshi half of the same root cause is disciplined, NOT fixed.** → KB-ORC-090, MAINTENANCE 9/17 #2
 - ⚠️ **Kalshi mid-price rule, tightened:** apply the mid **only when `result` is empty AND open interest is non-zero.** A settled book (bid 0 / ask 100) and an *untraded* book (bid 0 / ask 99) both yield a meaningless ~50.0. → KB-ORC-086, KB-ORC-089
 - ⚠️ **`pull`'s `PINNED BUT NOT FOUND` still does not distinguish "resolved" from "bad slug."** Unfixed. Six pins fired it this session and **one had resolved YES** — the resolution *was* the signal.
 - ⛔ **Still absent (dated, do not re-chase):** no **October WTI $100** market (4-way search) · no **September Iran-ACTOR** shipping event (5th consecutive recorded absence) · **three of four Kalshi gap-fills have zero open events**, the fourth sits at **OI 26** → recommend demoting to a **quarterly** re-check. → KB-ORC-089
-- ✅ **"No standalone VIX market on Kalshi" CONFIRMED** by a **4,546-series title scan** — retires the RE-OPENABLE class's only named candidate. **CLOSED-UNLESS-RE-LISTED**, bound named (5 categories, titles only). 🔑 `kalshi.py search` **could never have settled it** — it does not index series-level titles.
-- ⛔ **Kalshi is NOT a venue for the oil supply question** (all supply series untraded or no open events) ⇒ **any successor to the dead supply leg must come from Polymarket.**
+- ⛔ **Kalshi is NOT a venue for the oil supply question** (all supply series untraded or no open events) ⇒ **any successor to the dead supply leg must come from Polymarket.** ⚠️ **Partly overtaken 9/24:** KXIRANCRUDE re-lists MONTHLY (August production finalized in (2.0, 2.2] mbpd; September event `-26OCT13` open) — still near-untraded (OI 0–900 per rung), so it is a CONTEXT column only, never a leg.
 - ✅ **Coverage sweep run 9/17** (6d late) — nothing pinned from it. **Next due ~2026-09-24.** Venue sweep same day: **5 new pins**, 2 considered-and-rejected (30Y before-2027 too thin; 5Y has no named consumer).
 - 🔑 **Curve-point distinction:** the gate keys on **DGS10**; the held instrument is **TLT (20+ year)**. **Not the same read.** The deepest market sits on the gate's variable ($503.0K); the point nearest the held instrument is thinner ($34.5K). **TERRY/BOND own which matters.**
-- ⚠️ **`polymarket.py history` still stamps two rows with today's date** (intraday bar + live point). Unpatched by design — the duplicates enable pre/post event studies.
 - ⚠️ **`STATUS.md` read-cap:** this file was rotated 9/17 at 85% of budget; maintenance detail moved to its single home in `MAINTENANCE.md`. **Re-check at each closeout.**
 
 ## BOTTOM LINE

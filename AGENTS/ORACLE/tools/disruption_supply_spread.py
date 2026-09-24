@@ -3,7 +3,21 @@
 ORACLE — Disruption-vs-Supply Spread (Iran/Hormuz axis)
 
     spread_pp = P(PortWatch does NOT print a 7dMA >=60 transits/day by Dec 31)
-              -  P(WTI hits $100, war premium)
+              -  P(WTI hits $110, war premium)          [v5 — was $100 through v4]
+
+  !! v5 VINTAGE BREAK 2026-09-24 (WQ-260, Will-ruled 2026-09-24 14:59 ET, verbatim
+     "Approve WQ-282, 254, 261, 260 and 276 with your recs"; record
+     PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md row 260).
+     STRIKE CHANGE $100 -> $110. v4's $100 September leg RESOLVED YES (the $105 leg
+     too; high printed between $105 and $110), and with spot ~$94 a $100 successor
+     would be near the money — a different question from the TAIL v4 was ratified
+     for (WQ-190). $110 restores the tail. v5 is NEVER spliced to v4: v4 rows keep
+     regime 'v4-sep-wti-supply-leg' (last valid +36.0pp @ 2026-09-07T16:10Z; the
+     leg settled 100.0%) and are history only. Do not chart or difference across
+     the break. Disclosures carried from v4: (a) the Active-Month roll is dated on
+     the instrument (watchlist.tsv v5 banner); (b) the Kalshi KXIRANCRUDE context
+     column ruled under WQ-190 leg ② — added here as `kalshi_context`, NEVER in the
+     arithmetic.
 
   !! LABEL CORRECTED 2026-09-04 (PortWatch war-regime sweep; PROME 8/17 ask). THE MATH AND THE
      SERIES ARE UNCHANGED -- ONLY THE LABEL WAS WRONG, and it was wrong in a way that mattered.
@@ -94,21 +108,29 @@ OUT_LOG = os.path.join(ORACLE_DIR, "workbook", "DISRUPTION_SUPPLY_SPREAD.tsv")
 
 # Family prefixes — survive slug rollover across resolution windows.
 DISRUPTION_PREFIX = "strait-of-hormuz-traffic-returns-to-normal-by-december"
-SUPPLY_PREFIX = "will-wti-reach-100-in-"
+SUPPLY_PREFIX = "will-wti-reach-110-in-"  # v5 (2026-09-24); v1-v4 used "will-wti-reach-100-in-"
 SUPPLY_LABEL_MUST_CONTAIN = "war premium"
 CLOSURE_PREFIX = "0-ships-transit-hormuz"
+# WQ-190 leg ② — Kalshi Iran crude production, one rung, CONTEXT ONLY (barrels, not price).
+# Read from workbook/KALSHI_ODDS_LOG.tsv (written by scripts/kalshi.py pull --log).
+KALSHI_LOG = os.path.join(ORACLE_DIR, "workbook", "KALSHI_ODDS_LOG.tsv")
+KALSHI_CTX_PREFIX = "KXIRANCRUDE-"
+KALSHI_CTX_RUNG = "-T2.0"
 
 # A leg at/above this is settling or settled — its price is no longer a forecast.
 RESOLVED_PROB = 0.99
 # Below this, a single small bet moves the print; ORACLE's standing thin-liq bar.
 THIN_LIQ = 5000.0
 
-REGIME = "v4-sep-wti-supply-leg"  # bumped 2026-08-27 on August→September WTI-$100 roll. The August leg exited at 0.8% (5 days-to-touch left); September entered at 22.5% (full month). ⚠️ THAT 21.7pp STEP IS THE ROLL, NOT A REPRICING — the spread mechanically narrows ~+66.7 → ~+45 on the swap alone. NEVER chart v4 against v3. Prior bump 2026-07-31 (July→August, same structural reason: a fresh month-start contract has more days-to-touch and is structurally higher).
+REGIME = "v5-wti110-vintage-break"  # 2026-09-24 WQ-260: strike $100 -> $110, NEVER spliced to v4. v4 (below) is history.
+# v4 note: "v4-sep-wti-supply-leg" bumped 2026-08-27 on August→September WTI-$100 roll. The August leg exited at 0.8% (5 days-to-touch left); September entered at 22.5% (full month). ⚠️ THAT 21.7pp STEP IS THE ROLL, NOT A REPRICING — the spread mechanically narrows ~+66.7 → ~+45 on the swap alone. NEVER chart v4 against v3. Prior bump 2026-07-31 (July→August, same structural reason: a fresh month-start contract has more days-to-touch and is structurally higher).
 
 OUT_HEADER = ["ts", "regime",
               "disruption_slug", "disruption_label", "disruption_prob", "disruption_liq",
               "supply_slug", "supply_prob", "supply_liq",
-              "closure_prob", "spread_pp", "note"]
+              "closure_prob", "spread_pp", "note", "kalshi_context"]
+# kalshi_context added with v5 (2026-09-24). Rows v1-v4 have 12 fields; csv.DictReader reads
+# the missing 13th as None. The column is context only and never enters spread_pp.
 
 
 def _f(val):
@@ -177,11 +199,11 @@ def main():
     if disruption is None:
         raise SystemExit(f"no ODDS_LOG row for disruption prefix '{DISRUPTION_PREFIX}' — check watchlist/pin")
     if supply is None:
-        raise SystemExit(f"no ODDS_LOG row for WTI $100 war-premium market — check watchlist/pin "
+        raise SystemExit(f"no ODDS_LOG row for WTI $110 war-premium market (v5) — check watchlist/pin "
                          f"(month-roll? see MONTH-ROLL note in this file's docstring)")
 
     normal_prob, disruption_liq = _check_leg_live(disruption, "disruption (Hormuz-normal)")
-    supply_prob_raw, supply_liq = _check_leg_live(supply, "supply (WTI $100)")
+    supply_prob_raw, supply_liq = _check_leg_live(supply, "supply (WTI $110, v5)")
 
     # INVERT: the market asks P(traffic NORMAL); we want P(disruption persists).
     disruption_prob = (1.0 - normal_prob) * 100
@@ -223,6 +245,9 @@ def main():
             n = f"THIN: {nm} leg liq ${liq:,.0f} < ${THIN_LIQ:,.0f} — do not mark on one print (≥3-day re-check)"
             notes.append(n)
             print(f"WARNING: {n}")
+    kalshi_ctx = _kalshi_context(disruption["ts"][:10])
+    if kalshi_ctx.startswith("STALE") or kalshi_ctx.startswith("SETTLED"):
+        print(f"WARNING: kalshi context {kalshi_ctx}")
     note = " | ".join(notes)
 
     ts_now = max(disruption["ts"], supply["ts"])
@@ -234,7 +259,7 @@ def main():
           "PortWatch's war-regime\n       coverage is impeached (BRENT 8/17, ext. corroboration "
           "8/20). Undercount ⇒ this leg, and the\n       spread, read WIDE. Do not quote it as a "
           "throughput or disruption probability.")
-    print(f"  Supply leg:     WTI $100 war premium                {supply_prob:5.1f}%   "
+    print(f"  Supply leg:     WTI $110 war premium [v5]           {supply_prob:5.1f}%   "
           f"(liq {_fmt_liq(supply['liquidity'])}, slug={supply['slug']})")
     print(f"  Spread = {disruption_prob:.1f} - {supply_prob:.1f} = {spread_pp:+.1f}pp")
     if closure_stale:
@@ -244,6 +269,7 @@ def main():
     if closure_prob is not None:
         print(f"  [context] Hormuz 0-ships closure tail: {closure_prob:.1f}%  "
               f"(bridge between regimes — NOT in the arithmetic)")
+    print(f"  [context] Kalshi Iran crude (NOT in the arithmetic, never differenced): {kalshi_ctx or 'none logged'}")
     print(f"  Read: WIDE = premium not shortage · COLLAPSING = supply fear catching up (check WHICH leg moved)")
     if note:
         print(f"  NOTE: {note}")
@@ -262,8 +288,29 @@ def main():
                     supply["slug"], f"{supply_prob:.2f}", supply["liquidity"],
                     (f"{closure_prob:.2f}" if closure_prob is not None
                      else ("SETTLED-LEG-SUPPRESSED" if closure_stale else "")),
-                    f"{spread_pp:.2f}", note])
+                    f"{spread_pp:.2f}", note, kalshi_ctx])
     print(f"  logged -> {os.path.relpath(OUT_LOG, ORACLE_DIR)}")
+
+
+def _kalshi_context(day):
+    """WQ-190 leg ②: latest KXIRANCRUDE >2.0 rung from KALSHI_ODDS_LOG, as a labelled string.
+    Marks STALE (different pull day) or SETTLED (close date passed) instead of logging a number."""
+    if not os.path.exists(KALSHI_LOG):
+        return ""
+    with open(KALSHI_LOG, newline="") as f:
+        rows = [r for r in csv.DictReader(f, delimiter="\t")
+                if r["ticker"].startswith(KALSHI_CTX_PREFIX) and r["ticker"].endswith(KALSHI_CTX_RUNG)]
+    if not rows:
+        return ""
+    r = max(rows, key=lambda r: r["ts"])
+    if r.get("close") and r["close"] < r["ts"][:10]:
+        return f"SETTLED-LEG-SUPPRESSED {r['ticker']} (closed {r['close']})"
+    p = _f(r["yes_prob"])
+    s = (f"{r['ticker']}={p * 100:.1f}% OI={r['open_interest']} [thin; mid if no trade]"
+         if p is not None else f"{r['ticker']}=n/a")
+    if r["ts"][:10] != day:
+        s = f"STALE {s} (pulled {r['ts']})"
+    return s
 
 
 def _date(s):
