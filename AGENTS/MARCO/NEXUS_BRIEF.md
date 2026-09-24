@@ -3,11 +3,15 @@
 **Status:** 🟠 **v3.2** (unchanged s30). 🆕 **s30 stale sweep:** Central America remittances are **decelerating, not reversing** (+7.2% Jan–Jul, central-bank primaries ⇒ MAR-12 35→8%); **US expatriation list → ELEVATED** (trailing-4Q 5,790); **construction-wage gap ELEVATED on preliminary August** (vector only); **the FL voter-registration 'counter-signal' was the midterm cycle** (vs 2022 −21%). Carried from s29: Channel 4 LOW; airfares +23.41% YoY (`ENR-02`, grades 10/14); MIA Aug −5.69% (Spirit-free).
 **Domain:** Population movement — international visitor flows (Canadian boycott), workforce displacement (ag/immigration), internal migration (FL/Sun Belt). FL is the primary geography.
 **Thesis version:** **v3.2** (set s29, Will-ruled 9/24: Channel 4 MED-LOW → LOW). s30 moved no channel. · **Position:** none — theses express downstream via REGINALD (bank/CRE) and CARL (consumer).
-**As of:** 2026-09-24 ~16:xx ET (session 30b — five 7/31 vector rows refreshed). **STATUS commit:** `9391d2802`.
+**As of:** 2026-09-24 ~17:xx ET (session 30c — four 8/11 vector rows refreshed). **STATUS commit:** `dbe3fa1d8`.
 
 ---
 
 ## VIEW
+
+- 🆕 **(s30c) International visitors are spending about the SAME in the US as last year — the '−$8.3B' tourism loss does not exist in the official data.** BEA travel exports Jan–Jul 2026 **−0.58%** (−$0.7B); May–Jul up YoY; 2025 was **+0.6%**, not −4.2%. The −$8.3B was a Tourism Economics model figure. **Arrivals are still ~24% below 2019 (`VX-1.02`) — fewer visitors, each spending more.** For consumers: Channel 2's damage is in visitor COUNTS and the Canadian leg, not in national tourism dollars. `VX-1.03` CRITICAL → NORMAL.
+- 🆕 **(s30c) Citizens depopulation RESUMED:** PIF **266,231 at 8/31 (−4.3% in August)** after the July stall; exposure **$74.8B** (the widely carried ~$295B was a June-2025 figure). FL household premium multiple re-graded to **2.95x national** (ELEVATED; BREACHED was never reachable). CORAL owns both — packeted.
+- 🆕 **(s30c) `SDL-01` mark is UNRULED, not BREACHED:** foreign-born labor force Aug **−379K YoY** (narrowing from −700K in June) / **−1.19M vs 2024**. The quantity story is unchanged; the BREACHED label was a leftover of the retracted '2.2M'. Basis ruling with Will.
 
 - 🆕 **(s30b) Canadian search interest in Florida travel: the June 'collapse' was one month.** Google Trends (Canada, 'florida' in the Travel category) vs 2024: Jun −43.8% → **Aug −23.1%** — CRITICAL, not BREACHED; it has sat ~23–32% below 2024 all year (April −13% the exception). Searches for flights to Florida are **above** 2024 (+6.3%). `GTR-01`, `KB-IVF-41`.
 - 🆕 **(s30b) The FL-vs-Snowbelt home-price gap has narrowed five months running**, to **+4.93pp** in August (+7.02 in March) — FL-led; Punta Gorda −11.5% → −4.95%. It sits on the ELEVATED/CRITICAL line and the call depends on which metros are in the baskets (now written down; the July baskets never were). Austin: −4.73% YoY, 43 straight negative months. `3.02`, `TX-02`.
@@ -73,7 +77,7 @@
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
 | ~~PROME~~ | ✅ **ID-01 both-months reading CONFIRMED 9/22** — grades the Sep (~mid-Oct) and Oct (~mid-Dec) prints; floor not re-levelled | done | Tariff→sentiment channel is gradeable, weakly (n=10) |
-| **CORAL** | Refreshed FL Citizens PIF off the 9/18 round — **ask, do not re-derive**; MARCO's copy is dated 2026-06-30 (~11 weeks old). CORAL was DARK 9/19 | open | Pause-vs-floor tell on insurer-side de-escalation |
+| **CORAL** | **SENT 9/24 — Citizens 8/31 primary: PIF 266,231 (−4.3% in Aug; stall was a pause), exposure $74.8B.** Plus FYI: `VX-3.01` re-graded ELEVATED (2.95x matched basis). CORAL owns both series | 🟡 | Pause-vs-floor tell on insurer-side de-escalation |
 | CORAL | FL migration divergence — **not unilaterally resolvable, both desks agree** | open | Sub-annual proxies give direction; the voter leg now runs counter |
 | REGINALD | Whether winter-26-27 FL-$ timing is in the bank/CRE model | open | If unmodelled, escalate ahead of Q4 |
 
