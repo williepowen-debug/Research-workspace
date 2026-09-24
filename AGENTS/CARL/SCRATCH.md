@@ -67,7 +67,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ## INBOX (0 live items; disposition)
 | File | From | Disposition / next action |
 |------|------|---------|
-| SIG-W-20260924-005 (dispositioned 9/24; lane copy NOT moved — still untracked, WALTER has not committed its delivery; `git mv` it to processed/ after WALTER commits) | WALTER | CACC AG settlement: acted, 8-K pulled; no registered row; numerator-exit note for the ~11/30 HHDC auto read (KB-CARL-497). |
+| SIG-W-20260924-005 (dispositioned and filed 9/24) | WALTER | CACC AG settlement: acted, 8-K pulled; no registered row; numerator-exit note for the ~11/30 HHDC auto read (KB-CARL-497). |
 | DEWEY DR-5 packet (filed 9/24) | DEWEY | **GRADED: SCORED STRIKE (medium)** on grocery volume as cyclical evidence; KB-CARL-498; docket row pruned. DEWEY also corrected CARL: the DR-1 FHA leg was delivered 8/27, so the 'held' claim was false. Correction packet sent to PROME. |
 | (10 filed 9/24) | MARCO ×2, CRUISE ×4, WALTER ×4 | MARCO: FL June airport print is UNINFORMATIVE (Spirit confound); MIA is the clean tell; 84% retracted. CRUISE: only the RCL price-into-capacity leg survives; the NCLH duration datum carries no lean. Both staged to RED. WALTER -005/-012 verdicts withdrawn by -015/-016; -002 mechanism weakened by -019. |
 
