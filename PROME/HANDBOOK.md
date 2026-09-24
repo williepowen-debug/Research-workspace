@@ -3,28 +3,23 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-*(Reconciled 2026-09-23 22:41 ET against `WILL_QUEUE.md` and `DOCKET.tsv`; prior wording in `git log -p -- PROME/HANDBOOK.md`.)*
-- **Due Thu 9/24: DAEDALUS's three gate-basis rulings (WQ-256).** Rec: approve (b) and (d) as written; approve (a) in principle, because it amends canon and gets a drafted record and plan read before encoding.
-- **Ruled 9/23 23:29: the 9/24 spawn slate (WQ-278, "approved with your rec").** PROME wakes LIQUID, VIOLET, BROCK and OSPREY at the 9/24 boot; RED and DAEDALUS are held to 9/25. Nothing further needed from you.
-- **Needs your word before Fri 9/25 17:00 ET: BRENT's pipeline-restart test (WQ-264).** A free 30-day trial of satellite berth counts at Yanbu, prospective from your word (the proposed 9/21 start has passed; no observation is backdated). Rec: approve ① and ③.
-- **VIOLET's two pages (WQ-259):** rec is now to refresh once VIOLET records the FOMC letter's last leg at its 9/24 boot, on your publication word.
-- **Ruled 9/23 23:29: no paid futures settle feed (WQ-277 declined).** Brent settles stay single-vendor and say so; nothing further needed.
-- **Past their needed-by date (12 in all, listed in `WILL_QUEUE.md` OPEN; the generated *Waiting on you* section shows the RULE-class rows only). Selected:** OSPREY's refinery-channel upgrade (WQ-276; its trigger figure is an end-August estimate), the T-12 successor (WQ-261), ORACLE v4 succession (WQ-260), the CORAL re-fire condition (WQ-241; its gate is past review date), and the kill-rule park (WQ-157; rec PARK).
-- **Already ruled — implementation only, no word needed:**
-  - **WQ-234** (ruled C 9/22): ✅ ENCODED by BRENT 9/23 evening on the BG-02 letter (C1–C6); the 9/25 grade runs on the amended letter.
-  - **WQ-263** (ruled 9/22, encoded): one inherited false-block repair is PROME's, at the next hooks touch.
-- **Position note:** the TLT-put exit gate is sealed in substance (the 9/22 ten-year cell printed 4.96); TERRY records it. Five sessions to the 9/30 expiry; no add. Nothing to decide.
+*(Reconciled 2026-09-24 09:23 ET against `WILL_QUEUE.md` and `DOCKET.tsv`; prior wording in `git log -p -- PROME/HANDBOOK.md`.)*
+- **Ruled this morning, nothing further from you:** WQ-259 (VIOLET refreshes its two pages after its next post-close boot; its stale charter date gets fixed on your word) · WQ-264 (BRENT's 30-day satellite berth trial starts from its first routine after reading the ruling; the current Petroline shut-in test closes on its own letter Fri 9/25 17:00 ET, no extension) · WQ-256 (the reverse-walk rule and the SENTRY banner are done or assigned; the quantifier-integer canon clause gets drafted and read before it is encoded, 9/28).
+- **Your hands, optional, by 9/30 (WQ-279):** a five-minute NYSCEF guest search for *Kenilworth Holdings v. NYC Rent Guidelines Board* (Richmond 85199/2026, moved to Manhattan 8/21) — has the judge ruled on the landlords' request to block the 10/1 rent freeze? The e-filing site blocks this machine. If skipped, Friday's pre-fire check runs on press reports and says so.
+- **The bank desks you spawned last night are closed out with receipts.** REGINALD graded the seven WAL exit closes (0 of 3, WAL $75.60 on 9/23) and froze the Florida bank-transmission frame for the Q3 prints; WAL wrote both Q3 frames before their deadlines; OZK ruled the 2025Q3 loan-book step LEGITIMATE (repayment favoured, reclassification not excluded) and armed an FDIC filings watch for the 10/1 repricing; FLG traced the rent-freeze lawsuit to the court petition. CATO's review of the round found five bounded corrections; all five are closed at their owners.
+- **Past their needed-by date (listed in `WILL_QUEUE.md` OPEN; the generated *Waiting on you* section shows the RULE-class rows only). Selected:** OSPREY's refinery-channel upgrade (WQ-276 — no September figure exists, and its Channel-3 kill is not writable before 10/9), the T-12 successor (WQ-261), ORACLE v4 succession (WQ-260), the CORAL re-fire condition (WQ-241), the P4 sitting (WQ-254), CATO's class (WQ-255), the kill-rule park (WQ-157; rec PARK).
+- **Position note:** the TLT-put exit gate is sealed in substance (the 9/22 ten-year cell printed 4.96); TERRY still owes the one-line record. Four sessions to the 9/30 expiry; no add. WAL's single Dec-18 $70 put: the exit guard is 0 of 3, graded through 9/23. Nothing to decide.
 - **Hands:** broker exports for the full reconcile (WQ-274), including the VLO share's account and fill time; two VLO shares remain staged.
 - **An older "big task" (said at 13:41 on 9/18)** has no recorded closure. PROME asks for the brief rather than guessing at it.
-- **Regime:** read the brief tab / `HEARTBEAT.md` (twentieth base 9/22 pre-open; amendment #1 9/23 evening carries the 9/23 closes, the Brent 9/22 settle and the EIA week). Not restated here.
+- **Regime:** read the brief tab / `HEARTBEAT.md` (twentieth base 9/22 pre-open; amendment #1 9/23 evening carries the 9/23 closes; NOT amended 9/24 — no regime change and the next amendment forces a re-base). Not restated here.
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **LIQUID** · 9/24 boot, no word needed (L238) · final token on the decoupling test: VOID or INSTRUMENT-FAULT only.
-- **VIOLET** · 9/24 boot, no word needed (L278) · the FOMC letter's leg 2 on the 9/23 close (reads KILL on the letter; VIOLET grades).
-- **BROCK** · 9/24 boot, no word needed (L420) · the CRMT Item 1.01 backstop — the first day CRMT's public silence about the 9/18 agreement means something (the 8-K deadline).
-- **OSPREY** · 9/24 boot, no word needed (L447) · the channel-2 geography qualifier you ruled.
-- **RED** · 9/25 boot (WQ-278 ruled: held) · its F1 recheck of the outcome-vector spec; the spawn drains its two unlogged BOARD signals.
-- **DAEDALUS** · 9/25 boot (WQ-278 ruled: held) · the lagged-series gate rule. Its older L40 · L263 · L380 stay on your word.
+- **BRENT** · 9/25 morning boot, no word needed (L329 + WQ-264) · the Petroline shut-in test closes on its letter at 17:00 ET; it starts the satellite berth trial from its first routine.
+- **BROCK** · 9/25 morning boot, no word needed (L420) · the CRMT filing check for silence through 9/24 at the full submissions feed.
+- **RED** · 9/25 morning boot (WQ-278 ruled: held) · its F1 recheck of the outcome-vector spec; the spawn drains its two unlogged BOARD signals.
+- **DAEDALUS** · 9/25 morning boot (WQ-278 ruled: held; + WQ-256 (b) encode) · the lagged-series gate rule; 24 inbox items drain [inbox_census].
+- **VIOLET** · 9/25 post-close boot or 9/28 (L464, WQ-259 ruled) · refresh and republish its two pages after CBOE confirms the 9/23 close; fix its charter's publication date.
+- **TERRY** · only if the 9/25 boot still finds no MOOT record on the TLT-put exit gate · one line on GATES.
 - **SHADE** · Tier-2 candidate · DAEDALUS's proximity ask; no dated row names it.
 
 ## Runs itself — no window needed from you

@@ -16,3 +16,7 @@ Prior: 2026-09-11 19:5x (Post-FOMC/Hormuz row: FALCON tell #2 FIRED on the Saudi
 <!-- BEGIN VERBATIM 2026-09-23 (the 2026-09-12 stamp, rotated off the live line at the prome-7a closeout; crc32 1000635632) -->
 Prior: 2026-09-12 17:0x (spine audit #13 fixes, two blocking: the Post-FOMC/Hormuz row asserted the USO 150/165 spread LIVE two days after Will closed it, contradicting the TERRY row in this same file; and the TERRY row carried the SUPERSEDED add-gate state — `DFII10` is **2.55 [9/10]**, THROUGH the 2.50 line, with `BND-22` FALSE. Both replaced in place, not annotated. Nothing else moved; $0 moved.)
 <!-- END VERBATIM 2026-09-23 -->
+
+## Prior stamp rotated 2026-09-24 (prome-4d) — verbatim
+entry-crc32: 712112674 · bytes: 296
+2026-09-18 09:0x ET (byte-flow rotation, one row: the TERRY 004 row snapshotted verbatim → `PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-09-18.md`, rewritten current-state-only, every standing guard stays on the live row (archive manifest: no guard bytes rotated); no decision moved; $0 moved.)
