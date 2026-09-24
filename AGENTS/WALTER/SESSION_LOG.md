@@ -1,3 +1,9 @@
+## 2026-09-24 Thu ~17:3x–17:5xZ (13:3x–13:5x ET) — `walter-f9` PM leg: Iran FULL sweep + independent review of the day's work. **Supersedes the AM entry below on counts and on "full sweep still OWED".** `light-closeout — full deferred`
+
+- **Iran FULL sweep done (`-010`):** Rubio named Kataib Hezbollah for Petroline (9/22). Hormuz hits 9/18, 9/20 (AL MARYAH), 9/21 (LR STEPHANIE), 9/23 (bulk carrier adrift). No sinking or mine. Houthi missiles at Riyadh 9/19 and Yanbu/Taif 9/24 were INTERCEPTED per the coalition. Diplomacy mediated only. Guard **ADD#26** written (event date ≠ UKMTO report date), owed since FALCON's 9/22 ruling. BOND's Treasury-verified reply → `-009` (the 9/23 move was real-yield-led; Barr unverified).
+- **Independent review (Opus, read-only, Will-directed): 13 findings, 4 HIGH, all re-verified by WALTER, 5 corrections `-011`…`-015`.** 🔴 **WALTER's own doctor and `closeout_check` had both passed clean over all four HIGHs:** the diesel denial wrongly logged as "contamination", SoftBank price talk sent as final pricing, STATUS counts stale, and SESSION_LOG stale. **Second session in a row (after CATO 9/21) where an outside reader found real defects that every internal check missed.**
+- **Totals: BOARD 1017 → 1032, 15 dispatches, 54 handoffs, 4 kills, 19 doorbell rows (1 YES), 7 named corrections.**
+
 ## 2026-09-24 Thu ~16:17–17:3xZ (12:17–13:3x ET) — Will-directed session `walter-f9` (Claude Opus 5.5), after TWO DARK WEEKDAYS (9/22–9/23). Tier-1 closeout + step-13 REGISTRY refresh (11 rows) + 12(b) regen. `light-closeout — full deferred`
 
 - **BOARD 1017 → 1025: eight dispatches** (`-001` boundary #8 IMMEDIATE · `-002` Iran partial · `-003` US diesel export ban · `-004` CORRECTION of `-0917-011` · `-005` Credit Acceptance $694M · `-006` SoftBank record junk bond · `-007` Will's negative-beta chart · `-008` 10Y 5.11% highest since 2007), **4 kills**, 28 handoffs. Lane batch BM-20260924-01 CLOSED 7/7. Inbox 4 → 0. Drop-zone 1 → 0.

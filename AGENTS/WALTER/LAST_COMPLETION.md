@@ -9,7 +9,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 ## CHANGED
 
-**BOARD 1017 → 1027:** `SIG-W-20260924-001` … `-010` · `BOARD/INDEX.md` regenerated · `route_log` **+10** · `delivery_log` **+36** · **36 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+12** (1 YES) · `CORRECTIONS.tsv` **+COR-20260924-04 (names RED)** · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead stamp + two phrasings replaced (originals VERBATIM in HISTORY § "Rotated 2026-09-24") · `REGISTRY.tsv` 12 rows · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
+**BOARD 1017 → 1032:** `SIG-W-20260924-001` … `-015` (`-011`…`-015` are corrections from an independent review of this session's work) · `BOARD/INDEX.md` regenerated · `route_log` **+15** · `delivery_log` **+54** · **54 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+19** (1 YES) · `CORRECTIONS.tsv` **+7 named rows** (COR-20260924-04 RED · -09 REGINALD · -11 BRENT · -12 LIQUID · -13 CARL · -14 HENRY · -15 FALCON+HANS) · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead re-stamped twice (originals VERBATIM in HISTORY § "Rotated 2026-09-24" and "Rotated 2026-09-24 ②") · guard **ADD#26** · backward markers on `-001`/`-002`/`-003`/`-005`/`-006`/`-007`/`-008`/`-010` · `REGISTRY.tsv` 12 rows (11 desks + WALTER's own) · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
 
 ## RESULT
 
@@ -19,13 +19,32 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 4. **Correction `-004`:** the `-0917-011` "provisional derived FRED cell" mechanism is WITHDRAWN, verified at FRED's T5YIFR series notes. WALTER's own STATUS repeats of it were removed.
 5. **Late: BOND's reply to `-008` (read whole, verified at Treasury's par/real curve CSVs) → `-009` CORRECTION to REGINALD (ACTION; COR-20260924-09):** the 9/23 move is confirmed and was **real-yield-led** (10Y real 2.63→2.76, breakeven ~+2bp). **Cause weakened:** 5Y auction confirmed (BOND), flash-PMI secondary only, **Gov. Barr unverified**. BOND fired two of its own rows; Will had already declined the add (WQ-280).
 6. **Lane + Will's image:** Credit Acceptance $694M 41-state settlement (`-005`, primary AG releases from 9/18) · SoftBank record ~$11.1B junk bond (`-006`) · negative-beta record chart (`-007`, originator unnamed). **4 kills** with reasons.
+7. **INDEPENDENT REVIEW of this session's own work (Opus, read-only, at Will's direction):** 13 findings, 4 HIGH, **each re-verified by WALTER at the source before acceptance.** Five corrections dispatched:
+   - `-011`: the White House DENIED the diesel ban on the record.
+   - `-012`: SoftBank's final pricing was 8.625 / 9.25 / 9.75%, plus two euro tranches; `-006` had carried the price talk.
+   - `-013`: the Credit Acceptance forward terms were mis-scoped.
+   - `-014`: Evercore's count does not corroborate the negative-beta chart.
+   - `-015`: HANS-T-15 leg (a), not (b); AL MARYAH 9/20 sourced to India's maritime directorate; the missiles were intercepted, not landed; the Brent price cause is unsourced.
+
+   **Clean on the reviewer's recompute:**
+   - the -001 crack table (to the cent);
+   - the -009 Treasury table (exact);
+   - -004's 5y5y;
+   - all 36 handoffs at review time vs delivery_log, 1:1;
+   - every stamp earlier than its commit;
+   - the verbatim rotations.
+
+   **Minor, noted and not dispatched:**
+   - -008's "5Y reached 5.00%": Treasury par is 4.99, and -009 has it right.
+   - The BRENT handoff for -001 dropped the `contract: UNKNOWN` caveat on BZX26.
+   - -005/-006/-007 and four kill rows share one clock read (17:16:46Z), earlier than their commit.
 
 ⛔ **No WALTER-scanned registered trigger changed state apart from boundary #8's crossing. No mark, band or score moved. $0.**
 
 ## GAPS
 
 - 🔴 **TIMESTAMP DEFECT, THIRD SESSION IN THREE:** `-003` was stamped **17:16:00Z by estimate** while the clock read **17:13:23Z**. Caught by reading `date -u` for the next stamp, not by any check. Corrected before commit. **Decision (g) stands and is now n=3.**
-- **Search-summary contamination ×2**, both carried as UNVERIFIED: the "blamed on Iraqi militia" line (absent from the fetched Reuters text), and the "White House no longer considering the diesel ban" quote (absent from the Fox article it cites).
+- 🔴 **A FALSE CONTAMINATION CALL, RETRACTED:** WALTER logged the "White House no longer considering the diesel ban" line as search-summary contamination because ONE fetched Fox article lacked it. **The denial was on the record in Reuters and The Hill (9/23).** An absence in one article is not an absence. Corrected by `-011`. The "blamed on Iraqi militia" item was also superseded: Rubio named Kataib Hezbollah on the record (`-010`).
 - **Three diesel-ban bodies unread** (Axios/CNBC 403, US News timeout). `-003` confidence is set to 0.55 for that reason.
 - **6c incomplete:** CREED-T-08a not computed; HANS Bund / gilts / storage not pulled; Cushing taken from BRENT's 9/23 read, not re-pulled; SPR not refreshed.
 - **Doorbell MISS candidate to grade:** SAM `-0921-018` is still UNCONSUMED, and Tokyo reopened today. On 9/21 WALTER logged this as the "closest NO".
@@ -45,7 +64,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 3. **Grade the #8 dispatch's outcome:** BRENT spawns 9/25 AM (PROME receipt), grades BG-02 at 17:00 ET, and settles #8 on a settlement source. **Check at next boot: did BRENT confirm or un-fire December?**
 4. **HAWK's four v0.47 verdict-table flags (F1–F4)** are WALTER's to fix in CHECKLIST: per-primary vs per-claim exclusivity · no rule for conflicting primaries · INDETERMINATE row vs note = two live instructions · covered vs uncovered absence share a label. **A spec change under RULE 8.** F3 is an inline clarification; F1/F2 are structural and go to Will as a proposal.
 5. **FLG rent-freeze watch — manual search at each WALTER boot through 10/07** (Kenilworth v. RGB, Index 85199/2026; PRIORITY → FLG, info REGINALD/HOMER). The PROME encode is carried on PROME SCRATCH.
-6. ✅ **Today's 28 rows reconciled `delivered`** (receipt). The final bookkeeping commit rides the next push.
+6. **Reconcile the remaining rows after the next push** (see receipt).
 7. **Carried, re-checked:** BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` and CARL `-0911-008` closure proofs unchecked · four event ledgers undeclared EVENT-DRIVEN · **`fetch.py` identity: `BZ*.NYM` and `TTF=F` still resolve `contract: UNKNOWN` (re-observed 9/24).** · Multifamily ~6.85% vs 7.12% (HOMER, via `-015`, **still unconsumed**) · Reuters 9/13 vs MoE 9/11 Petroline shutdown date (unresolved; the anchor keeps 9/11).
 7b. **DEWEY correction candidate (CARL-DR-5):** the *"unit volume outweighs price ⇒ nominal grocery sales FALLING"* sub-claim riding `SIG-W-20260813-019` is **SEARCH-NOT-FOUND in the Bain release** per DEWEY, and is contradicted by Census/BEA nominal series. **WALTER has NOT re-verified it.** Open the Bain release, then decide on a correction signal (recipients of `-0813-019`). DEWEY suggests LABOR as an info route for DR-5. **CARL-DR-1 stays PARTIAL, 2 of 6 legs; the 9/18 deadline has passed; run or drop is CARL/PROME's.**
 8. **The 9/20 RESEARCH-INTAKE breach (13 NEW_WATCH) deferred on 9/21 LAPSED unrouted** — the lane's later run superseded it and `--mark` reconciled the baseline. **Recorded as a lapse, not a routing.**

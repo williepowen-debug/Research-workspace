@@ -20,7 +20,7 @@ safety_net: clear
 word_count: 690
 verdict: "Three state changes landed while WALTER was dark 9/22-9/23. (1) Petroline RESTART REPORTED 9/22 - Reuters, three unnamed sources, 'pumping at a low rate', one Yanbu cargo SCHEDULED; Aramco no comment. Not an operator statement, so not BRENT BG-02 R1. (2) US-Iran talks 9/22 at UNGA were MEDIATED (Witkoff's own post: 'through mediators who shuttled'); Iran's stated Hormuz conditions: lift the blockade, release frozen assets, end the war on all fronts. (3) 9/24 an UNNAMED senior Iranian military official, via Fars, said Iran may widen the war to the Indian Ocean if attacked; Brent Nov ~$108 (+4.7%). No sinking, no mine, no strike on Iranian territory found. Marks untouched."
 status: PARTIALLY-CORRECTED
-status_ref: "SIG-W-20260924-010 (2026-09-24) - the 9/21 incident line is WRONG ON DATE: the LPG/debris event is AL MARYAH struck 9/20, reported late by UKMTO 141-26 dated 9/21; only LR STEPHANIE (2 injuries) is a 9/21 event. The Petroline, diplomacy and Fars legs stand; Fars speaker since named (Safavi)."
+status_ref: "SIG-W-20260924-010 (2026-09-24) - the 9/21 incident line is WRONG ON DATE: the LPG/debris event is AL MARYAH struck 9/20, reported late by UKMTO 141-26 dated 9/21; only LR STEPHANIE (2 injuries) is a 9/21 event. The Petroline, diplomacy and Fars legs stand; Fars speaker since named (Safavi). ALSO SIG-W-20260924-015: the HANS ask should read HANS-T-15 leg (a), not (b)."
 ---
 
 # Petroline restart reported 9/22 on unnamed sources · US–Iran talks 9/22 were mediated · Iran threatens the Indian Ocean 9/24

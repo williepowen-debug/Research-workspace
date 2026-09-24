@@ -179,3 +179,9 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-09-24	REGINALD	SIG-W-20260924-009	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. An attribution fix on REGINALD's own header; nothing decays before its next boot.
 2026-09-24	BRENT	SIG-W-20260924-010	BG-02 9/25 17:00 ET	P0 PASS / L1 PASS / L2 PASS / L3a PASS	NO			NA		NOT SEPARATELY DOORBELLED: the same referent was doorbelled on -002 today and PROME confirmed a Tier-1 BRENT spawn 9/25 AM that drains the whole inbox, so a second ring adds nothing.
 2026-09-24	FALCON	SIG-W-20260924-010	FAL-05 / ladder; review_by 9/29	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. The Rubio attribution is material but has no dated referent before FALCON's 9/29 review. Tempting case: a 9/23 hull adrift could sink, but a possible future event is not a named referent.
+2026-09-24	BRENT	SIG-W-20260924-011	BG-02 9/25 17:00 ET	P0 PASS / L1 PASS / L2 PASS / L3a PASS	NO			NA		NOT SEPARATELY DOORBELLED: PROME's confirmed 9/25 AM BRENT spawn drains the whole inbox before the window; the correction rides it.
+2026-09-24	LIQUID	SIG-W-20260924-012	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Number correction on a ROUTINE context item.
+2026-09-24	CARL	SIG-W-20260924-013	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. CARL appears live today (commits 9/24); the COR row forces a receipt at boot.
+2026-09-24	HENRY	SIG-W-20260924-014	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Sourcing downgrade, no registered row.
+2026-09-24	FALCON	SIG-W-20260924-015	review_by 9/29	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Record correction; the COR row forces a receipt at boot.
+2026-09-24	HANS	SIG-W-20260924-015	HANS-T-15 event row, no date	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Leg-pointer correction; the COR row forces a receipt.

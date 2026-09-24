@@ -19,6 +19,8 @@ resources: 3
 safety_net: clear
 word_count: 820
 verdict: "Iran FULL sweep 9/17->9/24. STATE CHANGES: (1) Petroline attribution: Secretary of State Rubio named Kataib Hezbollah (Iraq) on the record 9/22, the anchor's 'attribution established' trigger, at the US-government level (not Saudi). (2) Commercial hits near Hormuz roughly every 1-2 days (9/18 hull breach + fire; 9/20 AL MARYAH LPG, debris, reported 9/21; 9/21 LR STEPHANIE, 2 minor injuries; 9/23 bulk carrier ADRIFT AND ON FIRE, crew evacuated). NO sinking, NO mine => GATE 2 untouched. (3) Saudi-Houthi fire reached Riyadh 9/19 and Yanbu/Taif 9/24 (6 BMs destroyed per the coalition) as the pipeline restarts. (4) Iraq militia disarmament slipped to 6/30/2027; US exit 'scheduled' 9/30, completion unconfirmed. (5) Diplomacy: 9/22 round MEDIATED (Qatar); Iran roadmap (60-day ceasefire PROPOSAL, phased Hormuz reopening) on unnamed sources; no instrument. UNCHANGED: no strike on Iranian territory, nothing at Kharg, no FM declaration, no Mojtaba appearance, no fresh war-risk quote. Marks untouched."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-015 (2026-09-24) - 'Houthi missiles reached Riyadh/Yanbu' = fired at and INTERCEPTED per the coalition; AL MARYAH 9/20 now sourced to India's Directorate of Maritime Administration (drone); rest holds."
 ---
 
 # Iran full sweep, 9/17 → 9/24: Rubio names Kataib Hezbollah for the pipeline attack · ships hit near Hormuz every 1–2 days · no sinking, no deal

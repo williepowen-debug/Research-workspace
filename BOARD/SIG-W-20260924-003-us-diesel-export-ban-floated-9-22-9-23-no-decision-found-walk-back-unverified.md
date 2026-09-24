@@ -19,6 +19,8 @@ resources: 1
 safety_net: clear
 word_count: 470
 verdict: "A US diesel export ban or restriction was floated 9/22-9/23 (Axios 'Trump backs'; Politico via Reuters 'prepares plan for 90-day ban'; a search layer attributes 'restrictions rather than an outright ban' to Energy Secretary Wright via WSJ). NO order, NO decision found. A 'White House no longer considering' quote appears ONLY in a search summary and is NOT in the Fox article it cites. Bloomberg 9/24 says European diesel prices are already pricing the possibility. Decaying item, routed fast at low confidence."
+status: CORRECTED
+status_ref: "SIG-W-20260924-011 (2026-09-24) - the White House DENIED the diesel export ban ON THE RECORD 9/23 (Reuters/US News, The Hill); this signal's 'search-summary only / possible contamination' framing is withdrawn."
 ---
 
 # US diesel export ban floated 9/22–9/23 — no decision found; the reported walk-back is unverified

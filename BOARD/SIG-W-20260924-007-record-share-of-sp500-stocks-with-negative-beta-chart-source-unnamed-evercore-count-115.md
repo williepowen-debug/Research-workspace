@@ -18,6 +18,8 @@ resources: 1
 safety_net: clear
 word_count: 330
 verdict: "A chart circulated by Barchart (9/23) shows the share of S&P 500 stocks with NEGATIVE beta at a record: ~44% on 3-month daily-return beta and ~20% on 1-year weekly beta, both above the 2000-01 peaks (~18% / ~14%). Originator unnamed. Evercore ISI's September screen counted 115 negative-beta names (vs 121 in August), ~23% of the index and consistent with the 1-year line. This is a narrow-leadership / low-correlation reading: index calm that many constituents are not sharing."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-014 (2026-09-24) - Evercore's count is NOT shown to corroborate the chart (basis unestablished; reportedly 6-month daily beta); the record claim rests on the unsourced chart alone."
 ---
 
 # Record share of S&P 500 stocks with negative beta — chart source unnamed; Evercore counts 115

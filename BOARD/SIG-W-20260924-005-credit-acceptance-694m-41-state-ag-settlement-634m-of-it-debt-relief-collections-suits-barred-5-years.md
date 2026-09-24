@@ -18,6 +18,8 @@ resources: 1
 safety_net: clear
 word_count: 330
 verdict: "41 state AGs settled with Credit Acceptance (CACC) for $694M, announced from 2026-09-18: $60M cash restitution + $388M debt relief on repossessed accounts + $246M debt relief on accounts still with their cars; qualifying consumers get 95% relief; CACC barred from collections lawsuits against them for five years from 2026-11-02. Allegation: loans CAC knew or should have known borrowers could not afford, and add-on (VSC/GAP) sales through weak dealer oversight. Six days late to this board."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-013 (2026-09-24) - the 95% relief and 5-year collections-suit bar are forward off-ramps on risky loans made from 12/2025 (from 11/2/2026), not terms of the $634M relief; +$15.5M to states; release dated 9/17."
 ---
 
 # Credit Acceptance: $694M, 41-state AG settlement, $634M of it debt relief

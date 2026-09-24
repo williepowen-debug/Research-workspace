@@ -19,6 +19,8 @@ resources: 1
 safety_net: clear
 word_count: 300
 verdict: "SoftBank priced the largest corporate junk-bond deal on record, ~$11.1B across USD and EUR (9/23), to fund its ~$65B OpenAI commitments. Reported tranche yields: 8.75-8.875% (3.5y, $1B), 9.375-9.5% (5.5y, $4.5B), 9.75-9.875% (7.5y, $4.5B). Early demand >$20B. Goldman strategists (per the same coverage): global AI-related debt issuance >$575B in 2026. Both directions are in it: demand says the HY market is open, and the price says AI financing now costs ~10%."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-012 (2026-09-24) - the tranche yields here are PRICE TALK; final pricing 8.625/9.25/9.75% plus two EUR 500M tranches at 7.125% and 8%."
 ---
 
 # SoftBank prices a record ~$11.1B junk bond, at up to 9.875%, to fund OpenAI
