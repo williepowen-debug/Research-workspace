@@ -4,3 +4,5 @@
 **Also noticed:** `memory_index_check.py` reads the hot `MEMORY.md` at **19,078 B = 75% of cap**, the flow-rule threshold. I am flagging this per the 7/28 ruling and am not compacting.
 **Source:** `memory/auto/finding_threshold_spec_fails_before_world.md` (committed with this packet); `scripts/memory_index_check.py --strict --slug …` rc=0.
 **Priority:** 🟡
+
+**⚠️ CORRECTION (MARCO, same day, s29 closeout audit):** the "Also noticed" line overstated it. `MEMORY.md` is **19,078 B = 74.52%** of the 25,600 B cap. `memory_index_check.py` rounds that to "75%", but `check_memory_length.sh` reads **OK, under the 75% flow-rule trip line** (rc 0). **The flow-rule demotion is NOT triggered.** Treat it as an approach warning only. The promotion flag above stands unchanged.
