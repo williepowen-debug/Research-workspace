@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at FLEET_MAP_HISTORY.tsv:216 (all five findings repaired and receipted 9/9, 0ab1e8e51 + 2a8d49ca2)
+
 # PROME judgment-tail sweep #2 — September 8, 2026
 
 **Completed, read-only. PROME: L5 → L4, confidence M.** The registered zero-unexecuted-own-rule gate is not satisfied. Five current findings: one urgent output defect and four standard repairs. Historical repaired breaches remain evidence about the interval, not new repair tickets. Hosted pages could not be read; local rendered pages and owner sources are the verified output perimeter.

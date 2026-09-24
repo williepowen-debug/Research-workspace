@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: OPEN — 13 of the 20 un-rowed agents' §3 invalidation-surface rows were still un-derived at runs/2026-08-23_FALSIFICATION_SWEEP_02.md:138 (not re-measured since)
+
 # Profile §3-row audit (PAT-088) — 2026-08-11 census, before Falsification Sweep #2 (~8/24)
 
 **What was audited:** every `profiles/*.md` for the machine-visible **invalidation-surface inventory rows** that DAEDALUS CLAUDE.md declares the Falsification Sweep's surface source. PAT-088's finding: declaring the inventory canonical did not create it — sweep #1 hand-derived every surface because the source profiles carried no rows.

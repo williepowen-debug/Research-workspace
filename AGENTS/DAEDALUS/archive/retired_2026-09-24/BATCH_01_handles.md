@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — all 8 items APPLIED 2026-06-28 (own status line); its only card referrers (BROCK_CARD, SHADE_CARD) are CLOSED AS A QUEUE 2026-08-17, historical; >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # Batch Changelist 01 — SHADE / BROCK / CREED "encode-existing-reasoning" handles
 
 **By:** DAEDALUS · **Date:** 2026-06-28 · **Status:** ✅ APPLIED — all 8 items live since 2026-06-28: BROCK `STATUS.md:140` + `workbook/PREDICTIONS.tsv` Action_If_Falsified col, CREED `STATUS.md:38,200-204`, SHADE `STATUS.md:151,276-280`. *(Banner added late 2026-07-12 per DAEDALUS self-sweep — record was never updated after the 6/28 apply.)*

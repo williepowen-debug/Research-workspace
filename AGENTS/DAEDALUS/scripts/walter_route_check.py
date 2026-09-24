@@ -30,8 +30,30 @@ pre-fix files out of git and asserts the expected split -- LIQUID pre-fix MUST h
 OTTO pre-fix MUST NOT (that miss is the declared blind spot, so a hit there would mean
 the classifier had drifted). rc=2 CANNOT-CERTIFY if the control cannot be run at all.
 
-rc contract (CHECK_STANDARD sec9): 0 = no ROUTE-AROUND rows · 1 = >=1 ROUTE-AROUND row
-· 2 = cannot certify (control unrunnable / no files found).
+rc contract (CHECK_STANDARD sec9): 0 = no ROUTE-AROUND or DEAD-ROUTER rows · 1 = >=1 ROUTE-AROUND
+or DEAD-ROUTER row in ANY scanned charter, a RETIRED desk's charter included · 2 = cannot certify
+(control unrunnable / no files found). (Before 2026-09-24 this line named ROUTE-AROUND only, although
+the code has always exited 1 on DEAD-ROUTER too. The line was corrected to match the code, and the rc
+itself is unchanged.)
+rc is a claim about CANON TEXT, not about OWED WORK. Every run prints an "RC BASIS" line stating how
+many of the rc-driving rows sit on RETIRED desks, so rc=1 and "DESKS OWED (0)" cannot be read as one
+claim. The two 2026-09-24 additions below are reporting only and never move the rc (ruling
+2026-09-24, team-lead: the docstring defines rc on rows, so the rc stays and the basis line is added).
+
+WALTER-LANE DROP COUNT (added 2026-09-24, OTTO correction a84f5a9ca): per desk, the distinct files
+git ever ADDED under AGENTS/WALTER/inbox/**, in BOTH sender forms, and each form is reported:
+  from-<AGENT>            e.g. 2026-08-28_from-LABOR_cc-routing-record.md   (anchored at ^ or _)
+  SIG-<AGENT>-WALTER-     e.g. SIG-OTTO-WALTER-20260902-002-....md          (OTTO's lane, CLAUDE.md:185)
+The agent token is case-insensitive. The 9/17 judgment counted OTTO "0 all-time" because a hand grep matched
+only the from- form; git shows 17 of the SIG form. PERIMETER: git-added files only (untracked drops are
+invisible). Filenames with no sender token (*_handoff.md, *_to-WALTER_*, README) are counted as
+UNATTRIBUTED and printed, never assigned to a desk. `--drops [DESK ...]` prints the table alone
+(rc 0 = printed · 2 = git log failed).
+
+ROSTER SCREEN (added 2026-09-24, DAEDALUS 9/18 rider): a desk ROSTER marks RETIRED (its '## RETIRED'
+section or a bold '**NAME** — RETIRED' line; parser = render_directory.retired_from_roster, reused and
+not copied) is printed "RETIRED — not owed" instead of in DESKS OWED. An ask of a retired desk can never
+be discharged. If ROSTER is unreadable, the OWED line says UNSCREENED.
 """
 import re
 import subprocess
@@ -126,6 +148,109 @@ def git_show(ref):
     return r.stdout if r.returncode == 0 else None
 
 
+DROP_FORMS = (
+    ("from-<AGENT>", re.compile(r"(?:^|_)from-([A-Za-z0-9]+)", re.I)),
+    ("SIG-<AGENT>-WALTER-", re.compile(r"^SIG-([A-Za-z0-9]+)-WALTER-", re.I)),
+)
+
+
+def walter_drops():
+    """-> ({AGENT: {form: {basename: first_added_date}}}, [unattributed basenames]) or None if git fails.
+    Distinct BASENAMES, so a file re-added under processed/ counts once."""
+    r = subprocess.run(["git", "-C", str(ROOT), "log", "--format=@%cs", "--diff-filter=A",
+                        "--name-only", "--", "AGENTS/WALTER/inbox/**"],
+                       capture_output=True, text=True)
+    if r.returncode != 0 or not r.stdout.strip():
+        return None
+    by, unattr, day = {}, set(), None
+    for ln in r.stdout.splitlines():
+        if ln.startswith("@"):
+            day = ln[1:]
+            continue
+        if not ln.strip():
+            continue
+        b = ln.rsplit("/", 1)[-1]
+        for form, rx in DROP_FORMS:
+            m = rx.search(b)
+            if m:
+                slot = by.setdefault(m.group(1).upper(), {}).setdefault(form, {})
+                slot[b] = min(day, slot.get(b, day))   # git log is newest-first; keep the earliest
+                break
+        else:
+            unattr.add(b)
+    return by, sorted(unattr)
+
+
+def drop_line(agent, by):
+    forms = by.get(agent.upper(), {})
+    files = set().union(*forms.values()) if forms else set()
+    dates = sorted(d for f in forms.values() for d in f.values())
+    parts = " · ".join(f"{form}: {len(forms.get(form, {}))}" for form, _ in DROP_FORMS)
+    span = f", first {dates[0]} · last {dates[-1]}" if dates else ""
+    return f"{agent}: {len(files)} WALTER-lane drop(s) all-time ({parts}{span})"
+
+
+def roster_retired():
+    """Names ROSTER marks RETIRED, via render_directory's parser (one parser, not two). None = unreadable."""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from render_directory import retired_from_roster
+        return retired_from_roster(ROOT / "PROME" / "ROSTER.md")
+    except Exception as e:                      # fail visible, never silently unscreened
+        print(f"ROSTER SCREEN UNAVAILABLE: {type(e).__name__}: {e}")
+        return None
+
+
+RC_CLASSES = ("ROUTE-AROUND", "DEAD-ROUTER")
+
+
+def census_rc(rows):
+    """The rc contract, in one place: 1 iff any rc-class row exists in ANY scanned charter."""
+    return 1 if any(r[2] in RC_CLASSES for r in rows) else 0
+
+
+def owed_split(rows, retired):
+    """-> (owed desks, retired desks, rc-class row count, of which on retired desks). retired=None: unscreened."""
+    rc_rows = [r for r in rows if r[2] in RC_CLASSES]
+    desks = sorted({r[0].split('/')[0] for r in rc_rows})
+    if retired is None:
+        return desks, [], len(rc_rows), None
+    gone = [x for x in desks if x.upper() in retired]
+    n_ret = sum(1 for r in rc_rows if r[0].split('/')[0].upper() in retired)
+    return [x for x in desks if x.upper() not in retired], gone, len(rc_rows), n_ret
+
+
+def rc_basis_line(n_rc, n_ret):
+    split = ("retired split UNKNOWN — ROSTER unreadable" if n_ret is None
+             else f"{n_ret} of them on RETIRED desks")
+    return (f"RC BASIS: rc={1 if n_rc else 0} counts {n_rc} ROUTE-AROUND/DEAD-ROUTER row(s) in EVERY scanned "
+            f"charter ({split}); DESKS OWED lists live desks only — rc=1 is a claim about canon text, "
+            f"not about work owed.")
+
+
+def drill_retired_only():
+    """Drill (2026-09-24 ruling): a census whose ONLY rc-class row is on a retired desk must print
+    OWED none + that desk as retired, and still return rc 1 with the basis line naming the split.
+    Uses the same helpers main() uses. Control arm: an active desk stays OWED."""
+    ok = True
+    ret = {"YEYOU"}
+    only = [("YEYOU/CLAUDE.md", 1, "ROUTE-AROUND", "drill", "drill")]
+    owed, gone, n, nr = owed_split(only, ret)
+    if (owed, gone, n, nr, census_rc(only)) == ([], ["YEYOU"], 1, 1, 1):
+        print("  PASS  retired-only drill: OWED none · RETIRED YEYOU · rc=1 · basis '1 of them on RETIRED desks'")
+    else:
+        print(f"  FAIL  retired-only drill: got owed={owed} gone={gone} n={n} n_ret={nr} rc={census_rc(only)}")
+        ok = False
+    mixed = only + [("LIQUID/CLAUDE.md", 2, "ROUTE-AROUND", "drill", "drill")]
+    owed, gone, n, nr = owed_split(mixed, ret)
+    if (owed, gone, n, nr) == (["LIQUID"], ["YEYOU"], 2, 1):
+        print("  PASS  control arm: active LIQUID stays OWED beside retired YEYOU")
+    else:
+        print(f"  FAIL  control arm: got owed={owed} gone={gone} n={n} n_ret={nr}")
+        ok = False
+    return ok
+
+
 def selftest():
     """Positive control with a DECLARED expected split."""
     print("POSITIVE CONTROL (replays the two known pre-fix files out of git)")
@@ -156,12 +281,26 @@ def selftest():
               "a 'How to Signal' section omitting WALTER. Leg B stays agent-judged.")
     print("  => the phrase detector covers the LIQUID class only. "
           "Any 'fleet clean' claim from this tool is a claim about leg A alone.")
+    ok = drill_retired_only() and ok
     return 0 if ok else 2
 
 
 def main():
     if "--selftest" in sys.argv:
         sys.exit(selftest())
+    if "--drops" in sys.argv:
+        d = walter_drops()
+        if d is None:
+            print("rc=2 CANNOT-CERTIFY: git log over AGENTS/WALTER/inbox/** failed or returned nothing")
+            sys.exit(2)
+        by, unattr = d
+        names = [a.upper() for a in sys.argv[sys.argv.index("--drops") + 1:] if not a.startswith("-")]
+        print("WALTER-LANE DROPS (git-added files under AGENTS/WALTER/inbox/**, distinct basenames; "
+              "forms: " + ", ".join(f for f, _ in DROP_FORMS) + ")")
+        for a in (names or sorted(by)):
+            print("  " + drop_line(a, by))
+        print(f"  UNATTRIBUTED (no sender token, not assigned to any desk): {len(unattr)}")
+        sys.exit(0)
     rc_ctl = selftest()
     print()
     rows = scan_tree()
@@ -181,19 +320,34 @@ def main():
         for lbl, n, _, why, line in hits:
             print(f"    {lbl}:{n}  {line[:150]}")
         print()
-    desks = sorted({r[0].split('/')[0] for r in rows
-                    if r[2] in ("ROUTE-AROUND", "DEAD-ROUTER")})
     print(f"CENSUS: {counts['ROUTE-AROUND']} ROUTE-AROUND · "
           f"{counts['DEAD-ROUTER']} DEAD-ROUTER · {counts['MIXED']} MIXED (read, not owed) · "
           f"{counts['PACKET-LANE']} PACKET-LANE · {counts['TWO-LANE']} TWO-LANE (pass) · {counts['CORRECT']} CORRECT")
-    print(f"DESKS OWED A PACKET ({len(desks)}): {', '.join(desks)}")
+    retired = roster_retired()
+    desks, gone, n_rc, n_ret = owed_split(rows, retired)
+    if retired is None:
+        print(f"DESKS OWED A PACKET ({len(desks)}, UNSCREENED — ROSTER unreadable): {', '.join(desks) or 'none'}")
+    else:
+        print(f"DESKS OWED A PACKET ({len(desks)}): {', '.join(desks) or 'none'}")
+        for x in gone:
+            print(f"RETIRED — not owed: {x} (PROME/ROSTER.md marks it RETIRED; its canon rows still count toward rc)")
+    print(rc_basis_line(n_rc, n_ret))
+    d = walter_drops()
+    flagged = sorted({r[0].split('/')[0] for r in rows if r[2] in ("ROUTE-AROUND", "DEAD-ROUTER")})
+    if flagged:
+        if d is None:
+            print("WALTER-LANE DROPS: UNKNOWN (git log over AGENTS/WALTER/inbox/** failed)")
+        else:
+            print("WALTER-LANE DROPS for flagged desks (practice beside canon):")
+            for x in flagged:
+                print("    " + drop_line(x, d[0]))
     print("PERIMETER: leg A (phrase) only. Leg B (OTTO structural form: recipient-named "
           "trigger table + WALTER-less signal instruction) is NOT covered here and is "
           "agent-judged. A clean leg-A run is not a clean desk.")
     if rc_ctl == 2:
         print("rc=2 CANNOT-CERTIFY (positive control did not pass)")
         sys.exit(2)
-    sys.exit(1 if (counts["ROUTE-AROUND"] or counts["DEAD-ROUTER"]) else 0)
+    sys.exit(census_rc(rows))
 
 
 if __name__ == "__main__":

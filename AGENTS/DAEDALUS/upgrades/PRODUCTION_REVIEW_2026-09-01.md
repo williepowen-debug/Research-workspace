@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at sweeps/PRODUCTION_REVIEW.md:88 (run log, Run #5); current map = upgrades/PRODUCTION_REVIEW_2026-09-17.md
+
 # Fleet Production Review #5 — 2026-09-01 21:26 ET (period 2026-08-17 → 2026-09-01)
 
 **Owner:** DAEDALUS · **Cadence:** 14d (+1d over — ran on the boot that surfaced it) · **Method:** mechanical battery + **6 read-only Explore readers** over 40 graded desks (cohorts: meta/utility · 4 market cohorts · specialists+tier-2), each testing every FLEET_MAP cell claim at the artifact · **Evidence companion:** `PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md` (100 KB, verbatim reader finals — read it for file:line) · **Registry:** `sweeps/REGISTRY.tsv`.

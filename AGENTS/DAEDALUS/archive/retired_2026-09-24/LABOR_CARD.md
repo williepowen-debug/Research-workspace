@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — SUPERSEDED (own banner); all items resolved-verified at upgrades/PRODUCTION_REVIEW_2026-07-22.md:30; >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # Upgrade Card — LABOR (read-only assessment, no agent files touched)
 
 > ⏩ **SUPERSEDED by `upgrades/LABOR_GAP_ASSESSMENT_2026-07-10.md`** (LABOR self-closed ~this entire card) **+ `upgrades/PRODUCTION_REVIEW_2026-07-22.md`** (all 4 remaining items resolved-verified 7/22; scoreboard built). Read those first.

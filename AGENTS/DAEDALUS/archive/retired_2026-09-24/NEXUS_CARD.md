@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — CLOSED/SUPERSEDED 2026-07-22 (own banner); current truth = NEXUS FLEET_MAP row; >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # Upgrade Card — NEXUS (read-only assessment, no agent files touched)
 
 > ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** PROVISIONAL **LIFTED** 7/22 (CCLFX full consumption loop + four-rail staging); the card's holding items (board_log, WALTER lane, STATUS vintage) ALL resolved 7/10-17. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.

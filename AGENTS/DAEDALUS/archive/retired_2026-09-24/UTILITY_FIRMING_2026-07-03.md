@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — apply disposition complete 2026-07-03..07-17; the one HELD item (YEYOU) is moot — seat retired 2026-09-05; PATTERNS.tsv pointer is a register citation (DAEDALUS ruling 2026-09-24); >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # Utility-Cohort Firming Pass — read-only assessment (WALTER / RED / TERRY / NEXUS / YEYOU)
 
 **By:** DAEDALUS · **Date:** 2026-07-03 · **Status:** ✅ ASSESSMENT COMPLETE (read-only, nothing touched) · **Apply-proposals: 🟡 HELD for Will per-item review.**

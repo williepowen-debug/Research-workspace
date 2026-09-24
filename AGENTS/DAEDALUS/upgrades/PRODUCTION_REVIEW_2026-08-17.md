@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at sweeps/PRODUCTION_REVIEW.md:89 (run log, Run #4); current map = upgrades/PRODUCTION_REVIEW_2026-09-17.md
+
 # PRODUCTION REVIEW #4 — 2026-08-17 (on-demand trigger; run early per the playbook's own work-volume clause)
 
 **Status: RUN COMPLETE — synthesis + dispositions below; raw evidence in `PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md` (PAT-100 pair).**

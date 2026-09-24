@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md (verdict layer; this file is its evidence layer) + FLEET_MAP_HISTORY.tsv:77 (BRENT) / :83 (SAM)
+
 # SAM — Falsification & Ledger Structural Review (2026-08-17)
 
 **Mode:** READ-ONLY (SAM was a LIVE session; nothing in `AGENTS/SAM/` touched). **Scope:** thesis/ · workbook/ · RECONCILIATION · evals/ · reports/ · red/.

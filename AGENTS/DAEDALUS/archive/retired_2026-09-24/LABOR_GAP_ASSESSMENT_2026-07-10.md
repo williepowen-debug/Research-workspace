@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — CLOSED/SUPERSEDED 2026-07-22 (own banner); scoreboard built (AGENTS/LABOR/workbook/PREDICTIONS_SCOREBOARD.md), items resolved per upgrades/PRODUCTION_REVIEW_2026-07-22.md:30; >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # LABOR — Gap Assessment (what it lacks / is missing), 2026-07-10
 
 > ✅ **CLOSED/SUPERSEDED 2026-07-22 (self-sweep fix-batch, Will-approved):** the ★ scoreboard was **BUILT+WIRED same-arc 7/10** (`workbook/PREDICTIONS_SCOREBOARD.md`, Brier-as-made 0.277, boot B4 + closeout C2) and ALL 4 owner-lane items resolved — in-file verified 7/22. No known LABOR substance gap remains. Current truth = FLEET_MAP row + `upgrades/PRODUCTION_REVIEW_2026-07-22.md`. States below are HISTORICAL.

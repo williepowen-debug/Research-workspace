@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/BRENT_CARD.md (re-cut 2026-09-07 from this record; open items live there) + profiles/BRENT.md §4
+
 # BRENT — Architecture Review, 2026-09-07 (Will-directed: "identify any architectural issues we might want to correct")
 
 **By:** DAEDALUS · **Written:** 2026-09-07 Mon ~21:1x ET · **Method:** direct read by DAEDALUS (no reader fan-out; every figure below measured by command on the files named) · **Vintage:** repo HEAD `cd38d03cd` (BRENT's 14:48 commit). ⚠️ **BRENT went LIVE at ~21:07 mid-review** (working tree: `scripts/boot.py` +44/−8, `TRADE.md` header — a Will-approved in-session housekeeping pass). Findings were re-checked against that working tree at delivery; rows it already addressed are marked **LIVE-ADDRESSED**. Zero BRENT files edited by DAEDALUS (AUTHORITY: permission + idle, neither held; packet-routed).

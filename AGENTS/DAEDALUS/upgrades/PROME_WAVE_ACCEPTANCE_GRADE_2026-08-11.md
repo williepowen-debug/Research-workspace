@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at FLEET_MAP_HISTORY.tsv:38 (PROME row)
+
 # PROME architecture-wave acceptance grade — 2026-08-11 (DAEDALUS second-reader)
 
 **Scope:** the 8/6-8/9 architecture second wave (commits `c1ab4f6e9` + `b2ada2fa0`, 2026-08-09; companion FORGE pass `7318799c4`). Test as pre-registered in my STATUS next-action #2 and the 8/7 review's PROME row: *re-measure the 12-doc spine after 8/9; net hand-maintained lines DOWN + same-or-more enforcement = pass.* Feeds PROME's L5 gate per my 7/28 note.

@@ -19,6 +19,12 @@ Reliability (why this can be trusted, not just maintained):
   - Regenerated each Production Review (sweeps/PRODUCTION_REVIEW.md) so the artifact can't rot.
 
 cwd-proof: self-locates repo root from __file__ (PAT-031). Writes FLEET_DIRECTORY.md; prints a summary.
+
+--check (TRUE dry run since 2026-09-24; before that the flag was IGNORED and the run WROTE the file,
+  PROME L446): renders in memory, runs every guard exactly as a normal run and exits with the same rc,
+  but never writes. It prints "CHECK ONLY — FLEET_DIRECTORY.md NOT written (would change: yes/no, ...)"
+  from a diff of the in-memory render against the file on disk. The rc is the same as a writing run:
+  0 clean · 1 REVERSE-GUARD (ungraded ACTIVE/TIER-2) · nonzero via die() for structural FAILs.
 """
 from pathlib import Path
 from datetime import date
@@ -182,6 +188,7 @@ def retired_from_roster(path):
 
 
 def main():
+    check_only = "--check" in sys.argv[1:]
     roster, skipped_sections = parse_roster(ROSTER)
     fleet = parse_fleetmap(FLEETMAP)
 
@@ -282,9 +289,26 @@ def main():
                  "and the restriction. Absence from the tables above is the hold, not an omission.*")
     L.append("")
 
-    OUT.write_text("\n".join(L), encoding="utf-8")
+    text = "\n".join(L)
     total = sum(counts.values())
-    print(f"wrote {OUT.relative_to(REPO)}  ({total} agents: {counts}; dropped {sorted(DROP)})")
+    if check_only:
+        import difflib
+        old = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
+        plus = minus = 0
+        for d in difflib.unified_diff(old.splitlines(True), text.splitlines(True), n=0):
+            if d.startswith(("+++", "---", "@@")):
+                continue
+            if d[0] == "+":
+                plus += len(d[1:].encode("utf-8"))
+            elif d[0] == "-":
+                minus += len(d[1:].encode("utf-8"))
+        changed = "yes" if old != text else "no"
+        print(f"rendered in memory {OUT.relative_to(REPO)}  ({total} agents: {counts}; dropped {sorted(DROP)})")
+        print(f"CHECK ONLY — {OUT.name} NOT written (would change: {changed}, +{plus}/-{minus} bytes; "
+              f"on disk {len(old.encode('utf-8'))} B → render {len(text.encode('utf-8'))} B)")
+    else:
+        OUT.write_text(text, encoding="utf-8")
+        print(f"wrote {OUT.relative_to(REPO)}  ({total} agents: {counts}; dropped {sorted(DROP)})")
     # State what was deliberately NOT rendered, every run. An unreported skip is
     # indistinguishable from a parser that quietly stopped matching a heading.
     for key in sorted(set(skipped_sections)):
@@ -292,6 +316,9 @@ def main():
     if ungraded:
         print(f"⚠️  REVERSE-GUARD: {len(ungraded)} ACTIVE/TIER-2 agent(s) have NO FLEET_MAP row: "
               f"{sorted(ungraded)} — rendered ⚠️ UNGRADED; register them (PAT-047 tail)")
+    if check_only:
+        print(f"CHECK ONLY — rc={1 if ungraded else 0} (the rc a writing run would return)")
+    if ungraded:
         sys.exit(1)
 
 

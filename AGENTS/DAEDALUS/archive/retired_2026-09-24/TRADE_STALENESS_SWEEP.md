@@ -1,3 +1,5 @@
+> RETIRED 2026-09-24 — EXECUTED + institutionalized as sweeps/STALENESS_SWEEP.md; its 3 open design calls resolved: --trade flag shipped, banner vocabulary broadened (scripts/ledger_staleness.py:236 STATIC_BANNER_MARKERS), dormant cluster OZK/ZHAO/FERT now ACTIVE (PROME/ROSTER.md); >60d since last commit, not boot-read; referrers at retirement: none live.
+
 # TRADE.md / Ledger Staleness Sweep — PROPOSAL (PAT-025)
 
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Status:** ✅ **EXECUTED + INSTITUTIONALIZED** (approved; ran 7/4 as Fleet Staleness Sweep #1 — `sweeps/STALENESS_SWEEP.md` + REGISTRY row; mechanism extended 7/22 w/ the two-clock parse. Banner flipped 7/22 self-sweep; original framing: 🟡 PROPOSAL-HELD)

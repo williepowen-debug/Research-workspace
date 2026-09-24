@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at FLEET_MAP_HISTORY.tsv:85 (CREED promoted L2→L3)
+
 # CREED structure review — 2026-08-20 (Will-directed, leg 2 of the BOND+CREED session)
 
 **Method:** 2-reader Mode-A fan-out, read-only, HEAD `49c123881` with CREED's live session writing during the read ([IN-FLIGHT] items may self-resolve at its closeout). Raw payloads + not-read lists + blind-leg protocol → `CREED_REVIEW_2026-08-20_reader_raw.md`. Graded vs `BLUEPRINTS/market-agent.md`.

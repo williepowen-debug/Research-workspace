@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md (verdict layer; this file is its evidence layer) + FLEET_MAP_HISTORY.tsv:77 (BRENT) / :83 (SAM)
+
 # BRENT — READ-ONLY STRUCTURAL REVIEW, 2026-08-17
 
 **By:** DAEDALUS (fleet architect) · **Mode:** READ-ONLY (BRENT was in a LIVE session throughout — nothing touched)

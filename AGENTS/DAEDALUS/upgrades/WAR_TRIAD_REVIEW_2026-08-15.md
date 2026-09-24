@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at archive/STATUS_ARCHIVE_2026-08-17.md (8/15 (b) block) + FLEET_MAP_HISTORY.tsv:11 (HAWK row)
+
 # War-triad review 2026-08-15 — SYNTHESIS STUB (pair-completion)
 
 > **STUB (created 2026-08-17, self-audit F31/W-D-12).** The 8/15 HAWK/OSPREY/FALCON review persisted its PAT-100 companion (`WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md`, beside this file) but never wrote a synthesis doc beside it — the mandated pair was INVERTED (companion without synthesis; every other fan-out failed the other direction). The synthesis content exists and is canonical at these homes:

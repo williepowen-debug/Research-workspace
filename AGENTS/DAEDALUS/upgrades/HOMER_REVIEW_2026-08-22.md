@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/HOMER_CARD.md (the live queue; profiles/HOMER.md:14 names this file as its synthesis source)
+
 # HOMER — DAEDALUS Structure Review, 2026-08-22
 
 **Will-directed** (method/scope/notify ruled in-session: Mode-A fan-out · targeted C1+C2+C3 · notify at

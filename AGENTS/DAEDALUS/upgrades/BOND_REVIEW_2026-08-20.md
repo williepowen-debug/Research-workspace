@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at FLEET_MAP_HISTORY.tsv:74 (BOND row, L4 HOLDS)
+
 # BOND structure review — 2026-08-20 (Will-directed)
 
 **Method:** 3-reader Mode-A fan-out (core spine · data/instrument · thesis/trade/cross-agent), read-only, BOND tree @ `c708ed83e` (11:49 ET). Raw payloads + not-read lists + PROME blind-leg provenance map → `BOND_REVIEW_2026-08-20_reader_raw.md`. Graded vs `BLUEPRINTS/market-agent.md`; profile 6/29-vintage read WITH deltas per its banner. BOND session live during review → all fixes route as OWNER work (packet), zero direct edits.

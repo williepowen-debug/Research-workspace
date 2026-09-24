@@ -7,7 +7,7 @@
 | # | Surface | Owner/lane | Note |
 |---|---------|-----------|------|
 | 1 | `PROME/ROSTER.md` | PROME (route packet w/ exact insert text) | Existence + classification. FIRST per PAT-047 |
-| 2 | Root `CLAUDE.md` (roster line + transmission chains) | PROME/Will-scoped | |
+| 2 | Root `CLAUDE.md` (roster line + transmission chains) | PROME/Will-scoped | **Checked 2026-09-24 at the YURI build: root `CLAUDE.md` no longer carries a roster list or the chain (both retired to ROSTER / `_NETWORK.md`, WQ-137) — this row is usually a NO-OP; verify by grep, do not insert.** |
 | 3 | `AGENTS.md` | PROME/Will-scoped | |
 | 4 | `AGENTS/_INDEX.md` | shared (Will-authorized edit or PROME packet) | |
 | 5 | `AGENTS/_NETWORK.md` | shared | Transmission-chain wiring |

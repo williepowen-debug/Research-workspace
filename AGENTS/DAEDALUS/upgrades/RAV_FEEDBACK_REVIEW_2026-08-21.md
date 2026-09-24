@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md §RULED/§MINTED (Will 8/21 23:30, 8/22 14:34; encoded at archive/EVOLUTION_ARCHIVE_2026-08.md:421,:427)
+
 # RAV 12-item Operating-Improvements Feedback — DAEDALUS design-layer review
 
 **Date:** 2026-08-21 late · **Reviewer:** DAEDALUS (Will-directed: "take a look at the potential updates RAV has supplied to PROME")

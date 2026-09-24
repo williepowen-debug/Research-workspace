@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: SUPERSEDED by upgrades/HOMER_REVIEW_2026-08-22.md (this plan was ruled and executed the same day)
+
 # HOMER Structure Review — PLAN (drafted 2026-08-22, Will-directed)
 
 **Status:** RULED + EXECUTING — Will ruled 2026-08-22: **Mode-A fan-out · targeted C1+C2+C3 · notify at delivery only.**

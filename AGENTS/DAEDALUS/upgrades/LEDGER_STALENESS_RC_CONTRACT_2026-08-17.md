@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at CHECKS.tsv (scripts/ledger_staleness.py row, On_FAIL 'contract 2026-08-17') + BLUEPRINTS/CHECK_STANDARD.md:82
+
 # ledger_staleness.py rc-contract revision — 2026-08-17
 
 **Trigger:** PROME packet 2026-08-17 (BRENT flag, routed per git-protocol "flag to Prome"): the shared

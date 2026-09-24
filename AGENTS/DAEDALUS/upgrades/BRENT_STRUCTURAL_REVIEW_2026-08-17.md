@@ -1,3 +1,5 @@
+> STATUS 2026-09-24: CLOSED — dispositions recorded at upgrades/SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md (verdict layer; this file is its evidence layer) + FLEET_MAP_HISTORY.tsv:77 (BRENT) / :83 (SAM)
+
 # BRENT — STRUCTURAL REVIEW (thesis · ledgers · gates · falsification machinery)
 
 **Reviewer:** DAEDALUS · **Date:** 2026-08-17 · **Mode:** READ-ONLY (BRENT was live; **zero writes outside `AGENTS/DAEDALUS/`**)
