@@ -26,6 +26,15 @@
 | `CA-01` CA FAIR Plan | CRITICAL (held) | no new publication (still June); next ~mid-Nov (est.) |
 - No desk carries any of these marks (grep) → no packets. New VX staleness floor 2026-08-11.
 
+### s30c — Will: "refresh the four August-11 rows too" (all done)
+| Row | Mark | Read |
+|---|---|---|
+| `1.03` intl visitor spending | CRITICAL → **NORMAL** | BEA Travel exports Jan–Jul **−0.58%** (annualised −$1.25B); May–Jul up. The carried 2025 **−$8.3B never reproduced** (BEA 2025 +$1.28B). Trailing-12 window would read low ELEVATED |
+| `3.01` FL household premium | BREACHED → **ELEVATED** | Matched basis 2.95x (Insurance.com 9/15). No source reaches >4x; the row's own cell said 2.4x |
+| `SDL-01` foreign-born LF | BREACHED → **UNRULED ⚖️** | Aug YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL). BREACHED = retracted-2.2M residue. **Will to rule the basis** |
+| `SFE-03` Citizens | NORMAL band (held) | **PIF 266,231 @8/31, −4.3% MoM — depopulation resumed**; exposure **$74.8B** (carried $295.1B was Jun-2025). CORAL packeted; 10/1 chase closed |
+- Three of four marks did not follow from their own data — same class as the 8/21 band audit. FLOW-REG-01 / FLOW-IMG-01 mark annotations corrected. VX floor now 2026-08-21.
+
 ### Housekeeping
 - **Archived** (`git mv` → `archive/`, created on purpose): `NOTES.md`, `OPEN_THREADS_2026-07-09.md`, `RP-MARCO-MBS_BASELINE.md`, `workbook/ML_BACKUP_20260418.tsv`, `workbook/VX_HISTORY.tsv`.
 - **TRADE.md FROZEN** (canonical banner; IBOC premise died with Channel 4 LOW). **COUPLINGS** (both BRENT edges a month stale — crude → `ENR-02` consumer; freight edge → Resolved). **RESEARCH_STATUS**, **DEFERRED** (4 TOURISM entries closed-lapsed), **MAINTENANCE** (T1-F/T2-C/T3-B closed; T2-E partial; new T2-G voter-reg tool, T2-H VX tail), **FINDINGS**, **EXPECTED_SIGNALS** ES-06 (withdrew "on track"), **CLAUDE.md** (dead "CONFIRMED FINDINGS" pointer; condo 7.8mo; Canada −26.63%), **MEMORY** (BLS API supersedes the WebFetch workaround), MAR-24 cell text.
@@ -33,12 +42,12 @@
 
 ## NEXT SESSION
 1. 🟠 **LVCVA August (~9/30)**.
-2. 🔴 **Banxico AUGUST (Oct 1)**: SDL-01 re-spec print 2 of 2. Co-run the state-of-origin map. Chase CORAL on Citizens PIF.
+2. 🔴 **Banxico AUGUST (Oct 1)**: SDL-01 re-spec print 2 of 2. Co-run the state-of-origin map. *(Citizens PIF chase closed 9/24 — pulled the 8/31 primary.)*
 3. 🔴 **Wed 10/14: `ENR-02` leg 1** (verify the Oct CPI date for leg 2).
 4. 🟠 **~Oct 15:** StatCan Sep (`ID-01`) · NTTO Sep · BTS July.
 5. 🟡 **~Oct 20 (est.):** BLS state Sep — confirm `VX-2.06` on revised Aug.
 6. 🟠 **~Oct 28: MIA September report** (MIA-2-consecutive trigger).
-7. 🟡 **MAINTENANCE T2-G:** cycle-matched voter-reg column. VX floor now 8/11 (1.03 / 3.01 / SDL-01 / SFE-03). Watch `3.02` and `FL-03` — both sit within 0.5pp of a band line.
+7. ⚖️ **SDL-01 basis ruling (Will).** 🟡 **MAINTENANCE T2-G:** cycle-matched voter-reg column. VX floor now 8/11 (1.03 / 3.01 / SDL-01 / SFE-03). Watch `3.02` and `FL-03` — both sit within 0.5pp of a band line.
 8. 🟡 **Inbox (only if Will asks):** LABOR 9/17 · ZHAO 9/18.
 9. **Do NOT hunt a fifth Channel-1 transmission instrument** — and do not read `2.06` ELEVATED as one.
 
@@ -54,7 +63,7 @@
 
 ## Mail state
 **Inbox 2 UNPROCESSED** (LABOR 9/17 · ZHAO 9/18), not an inbox spawn. **WALTER lane:** `SIG-W-20260924-017` (grocery correction) arrived mid-session → logged **info-only** in `board_log.tsv` (MARCO never carried the claim). Moved to `processed/` after WALTER committed its delivery (`24c290efa`).
-**Sent:** CARL (correction — voter-reg counter-signal was election cycle).
+**Sent:** CARL (correction — voter-reg counter-signal was election cycle) · CORAL (Citizens 8/31 PIF 266,231 + FYI 3.01 re-grade).
 
 ## PUSH STATE
 Session 30: see the closeout commit and the `safe-push.sh` receipt line.

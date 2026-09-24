@@ -55,8 +55,8 @@ Live and load-bearing, last pulled on the date shown. Not suspect — simply not
 | Canadian visitors, 2-yr stack | −28.7% (auto −29.6%, **air −25.0%**) | Jun 2026 | 2026-07-25 (StatCan Daily, rel 7/13) | `VX.tsv` 1.01 |
 | Mexico remittances | $5,611M, +3.8% YoY, **transfer count −1.7% YoY** | May 2026 | 2026-07-01 (Banxico) | `VX.tsv` 2.08 · **June print due Aug 1** |
 | FL condo inventory | 8.1 months (median $305K, +1.7% YoY) | Jun 2026 | 2026-07-25 (FL Realtors, via CORAL) | `VX.tsv` FL-02 |
-| FL Citizens policies-in-force | 278,246 (rate cut eff. 7/1) | Jun 30 2026 | 2026-07-25 (CORAL correction) | CORAL owns; `VX.tsv` SFE-03 mirrors |
-| FL Citizens exposure | ~$295.1B (−43% YoY) | Jun 2025 | 2026-07-02 | CORAL owns |
+| FL Citizens policies-in-force | **266,231** (−4.3% MoM) — *was 278,246 @6/30* | Aug 31 2026 | 2026-09-24 (Citizens PDF primary, MARCO) | CORAL owns; `VX.tsv` SFE-03 mirrors |
+| FL Citizens exposure | **$74.8B** — *the carried ~$295.1B was Jun-2025* | Aug 31 2026 | 2026-09-24 (Citizens PDF primary, MARCO) | CORAL owns |
 | FLL passengers | 2,255,277, −10.7% YoY / −26.1% 2-yr | May 2026 | 2026-07-25 (Broward PDF, pdfminer) | `VX.tsv` 1.04 |
 | MIA passengers | +0.52% YoY (intl +3.52%, dom −1.75%) | May 2026 | 2026-07-25 | `VX.tsv` 1.04 |
 | NFP / payrolls | +57K (May revised to +129K) | Jun 2026 | 2026-07-02 | STATUS dashboard |
@@ -140,6 +140,10 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **FL median days-on-market** | **81** = +9.5% vs 2017-19 Aug mean 74.0; reproduces carried Jun 78 | Aug 2026 | Realtor.com state history CSV | `VX-MARCO-FL-03` · `KB-IMG-39` |
 | **Canada 'florida' [Travel] search vs 2024** | **−23.1%** Aug; Jun −43.8% reproduces across two pulls | Aug 2026 | Google Trends via `tools/google_trends_pull.py` | `VX-MARCO-GTR-01` · `KB-IVF-41` |
 | **CA FAIR Plan PIF / exposure** | 696,562 / $768B — **unchanged, still the newest publication** | Jun 2026 | cfpnet.com re-read | `VX-MARCO-CA-01` |
+| **Intl visitor spending (BEA Travel exports)** | Jan–Jul 2026 **$124,592M vs $125,319M (−0.58%)**; FY2025 +$1.28B | Jul 2026 (first print) | Census exh3.xlsx — Travel column re-read by MARCO | `VX-MARCO-1.03` · `KB-IVF-42` |
+| **Foreign-born labor force** | **31,860k**, YoY −379K, 2-yr −1,189K; identity sum exact | Aug 2026 | BLS API LNU01073395/413/000000 | `VX-MARCO-SDL-01` · `KB-WFD-14` |
+| **FL/US homeowners premium, matched basis** | **$8,471 / $2,872 = 2.95x** | 2026 (page updated 9/15) | Insurance.com, one publisher, $300K dwelling | `VX-MARCO-3.01` · `KB-FLI-02` |
+
 
 
 ## 4. RETRACTED — and what the accurate number is instead
@@ -148,6 +152,9 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 | Retracted claim | Why it was wrong | ✅ The accurate figure | Fixed |
 |---|---|---|---|
+| **"2025 international visitor spending −4.2% / −$8.3B"** (VX-1.03's CRITICAL rested on it) | Tourism Economics' modelled figure, carried as the official YoY; does not reproduce on BEA/NTTO | BEA Travel 2025 **+$1.28B (+0.6%)**; NTTO headline −0.06%; 2026 Jan–Jul −0.58% | 2026-09-24 |
+| **VX-3.01 'BREACHED (>4x national)'** | The row's own cell said ~2.4x; no source reaches 4x | Matched basis **2.95x** (Insurance.com) → ELEVATED | 2026-09-24 |
+| **VX-SDL-01 'BREACHED (>1.5M annual)'** | Band of the retracted 2.2M; never re-derived | YoY −379K (ELEVATED) / 2-yr −1,189K (CRITICAL) — basis ruling owed | 2026-09-24 |
 | **"Q1 2025 IRS renunciations +102% YoY"** (THESIS, FINDINGS, VX-EMG-01) | Quarter-on-QUARTER (1,285 vs Q4-24 635), labelled YoY | YoY vs Q1-24 (344) = **+273.5%**, off an unusually low base; better read: H1-26 3,243, +38.5% YoY | 2026-09-24 |
 | **"StatCan Q1 2026: Canada net travel-services exporter +$1.3B"** (TIMELINE) | $1.3B was the **total-services** surplus (since revised to $472.1M), not travel | Q1-26 travel balance **+$2.6B** (all countries, SA); with the US **−$3.86B** (NSA) | 2026-09-24 |
 | **Central America Q1 2026 +9.1% (GT +8.0%)** (VX-REM-02, IDB secondary) | Understated; GT +8.0% reproduces under no Banguat cut | Primary Q1 **+11.4%** regional, GT **+11.5%**, SV +7.3%, HN +14.9% | 2026-09-24 |

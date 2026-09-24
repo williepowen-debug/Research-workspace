@@ -51,7 +51,6 @@
 |---|------|-------|--------------------|-----|
 | 🟠 | ~Sep 30 | **LVCVA August** | July REVERSED June's $ inversion (RevPAR +3.2%, air −7.6%). $ negative again = June was not noise | MARCO, CORAL |
 | 🔴 | Oct 1 | **Banxico AUGUST (CE81)** + co-run state-of-origin map | Count 2-yr stack ≤−5% again ⇒ SDL-01 re-spec CONFIRMS (July −6.76% = 1 of 2) | MARCO |
-| 🟠 | Oct 1 | Chase CORAL: Citizens PIF refresh | MARCO copy dated 2026-06-30; CORAL owns | CORAL |
 | 🔴 | Oct 14 (Wed) | **`ENR-02` leg 1 — CPI airline fares SEPTEMBER** (replaces the lapsed Brent re-arm; Brent itself = BRENT's `MKT-BZ-F-BELOW-85`) | 2-yr stack ≥ +20% (Aug +27.46%); leg 2 = Oct CPI ~mid-Nov (est.). ⚠️ Oct is the harder month (Oct-24 base +6.36% MoM) | MARCO |
 | 🟠 | ~Oct 15 | **StatCan SEPTEMBER** · **NTTO September** · BTS July | `ID-01` leg 1 (both-months, PROME-confirmed 9/22) · `VX-1.02` −24.20% vs the −25% BREACHED line | MARCO |
 | 🟡 | ~Oct 20 (est.) | **BLS State Employment — SEPTEMBER** (confirms `VX-2.06`) | Construction-wage class gap: Aug prelim +2.43pp vs the 2.0pp ELEVATED line. Revised Aug <2.0pp ⇒ re-mark NORMAL. Vector only, not a Channel-1 reopen (THESIS v3.0) | MARCO |
