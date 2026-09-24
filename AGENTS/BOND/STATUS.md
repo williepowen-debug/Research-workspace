@@ -11,7 +11,7 @@
 
 ## 🔴 TOP OF FILE — what changed since 9/17
 
-1. 🔴 **9/23 5Y `91282CRN3` = OLD CONJUNCTIVE COMPOSITION FAILURE** — indirect **54.31%** (min 59.24; **lowest 5Y since 2020-03-25**) AND dealer **15.77%** (max 15.61, **+0.16pp**) · BTC **2.21** (lowest since 2018-12-26) · `I'` fired. ⇒ **the TLT-put ADD RE-ARM condition is MET — Will-gated as WQ-280, PROME rec DECLINE; 7/16 NO-ADD stands; `$0`.** ⛔ **Paired thesis kill NOT fired** (SOFR−IORB **−3bp** [9/23]). ⚠️ **Dealer 15.77 is ordinary on multi-year history (five 2023–24 prints higher, max 20.37); it cleared into a hot-PMI sell-off. THRESHOLD FIRED — MECHANISM NOT SHOWN FAILED.** Graded ~24h late. → `analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`, `KB-BND-312`.
+1. 🔴 **9/23 5Y `91282CRN3` = OLD CONJUNCTIVE COMPOSITION FAILURE** — indirect **54.31%** (min 59.24; **lowest 5Y since 2020-03-25**) AND dealer **15.77%** (max 15.61, **+0.16pp**) · BTC **2.21** (lowest since 2018-12-26) · `I'` fired. ⇒ **the TLT-put ADD RE-ARM condition is MET — and Will DECLINED the add (WQ-280, ruled 13:17 ET 9/24, verbatim *"Approve WQ-280 and WQ-281 with your recs"*); no trade, no fresh card approved; `$0`.** ⛔ **Paired thesis kill NOT fired** (SOFR−IORB **−3bp** [9/23]). ⚠️ **Dealer 15.77 is ordinary on multi-year history (five 2023–24 prints higher, max 20.37); it cleared into a hot-PMI sell-off. THRESHOLD FIRED — MECHANISM NOT SHOWN FAILED.** Graded ~24h late. → `analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`, `KB-BND-312`.
 2. 🟠 **9/24 7Y `I'` marker by 0.037pp**; 9/22 2Y 🟢 clean. Downgrade counter **0**.
 3. 🔴 **`BND-26` FALSE (70%, a MISS):** 1y1y **5.03 on FOMC day**, 5.08 [9/18] = new 2023-forward sample high. **This desk's 9/14 "a hawkish SEP has little room to surprise" is WITHDRAWN; the 4.75–4.95 terminal band is retired for reuse.** `BND-25` TRUE (55%). `KB-BND-315`.
 4. 🔴 **The macro tape:** 9/23 flash composite PMI **58.4** (highest since 7/2021), input prices fastest since 10/2022 (S&P Global, secondary reports) ⇒ 5Y crossed **5%** first time since 2007; vendor 10Y **5.14**, 30Y **5.43** intraday 9/24 (**above the 5.37 official 2026 high — vendor, NOT counted**); October hike ~70% priced (TE 9/24, secondary). BOJ hiked to 1.25% 9/18; press-reported Japanese rate check ~¥158 (unconfirmed). BoE paused APF gilt sales 9/17 (a long-end SUPPLY withdrawal — `KB-BND-317`).
@@ -54,7 +54,7 @@
 | Gate | Distance | State |
 |---|---:|---|
 | **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 13bp** [2.63, 9/22] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
-| **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ⛔ **Re-arm ≠ add.** WQ-280 with Will; PROME rec DECLINE; 7/16 NO-ADD; root rule #5 |
+| **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ✅ **ADD DECLINED — WQ-280 RULED 9/24 13:17 ET** (four §B.1 grounds, `TRADE.md` Reactivation Matrix). Spent on 004 |
 | T5YIFR >2.50 | 16bp [9/22] | 🟡 |
 | DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 55) · 🔴 BREACHED |
 | `GATE-TERRY-007` (DGS10 <4.50 ×5) | 46bp [9/22] | TERRY's rail; counter 0 |
@@ -88,7 +88,7 @@
 
 ## Trade Interface *(full view → `TRADE.md`; construction is TERRY's lane)*
 
-- **TLT puts (Sep-30 77P ×20 — 5 of 25 sold 9/10, `FORGE/STATUS.md:54`) — HOLD, no add, `$0`.** 🔴 **BOTH add-gates now read through on their letters:** (a) DFII10 2.63 (sustain count WQ-246) and **the OLD-conjunctive auction re-arm (9/23 5Y)**. ⛔ **Neither is an add: Will's 7/16 NO-ADD governs, WQ-280 is with Will (PROME rec DECLINE, with a fresh TERRY card as the named alternative), root rule #5.** **Expiry 9/30 = 6 days; harvest/roll is TERRY's.** *Posture, never a direction.*
+- **TLT puts (Sep-30 77P ×20 — 5 of 25 sold 9/10, `FORGE/STATUS.md:54`) — HOLD, no add, `$0`.** 🔴 **BOTH add-gates now read through on their letters:** (a) DFII10 2.63 (sustain count WQ-246) and **the OLD-conjunctive auction re-arm (9/23 5Y)**. ⛔ **Neither is an add: WQ-280 RULED 9/24 — ADD DECLINED (Will verbatim *"Approve WQ-280 and WQ-281 with your recs"*); a fresh TLT card is NOT approved by that word; 7/16 NO-ADD; root rule #5.** **Expiry 9/30 = 6 days; harvest/roll is TERRY's.** *Posture, never a direction.*
 - **HYG puts — closed at the INDEX level** (HY 273). CCC tail 7bp from 1100 → if it arms: single-name/CCC, **never HYG**.
 - **Credit-equity lead — inactive.**
 
@@ -135,4 +135,4 @@
 
 **[2026-09-24 Thu ~13:1x ET — boot after a six-day gap; markets open.]**
 
-**The auction side just produced this desk's hardest test since the thesis was written.** The 9/23 5Y failed the strict two-part composition test: foreign-type buyers took their smallest 5Y share since March 2020 while dealers took the most in a year. That meets the pre-set condition for adding to the TLT puts. **It is Will's call (WQ-280), PROME recommends declining, and BOND proposes nothing.** The caveats that decide it: funding stayed calm (−3bp), dealers were not stuffed by any multi-year standard (they took more five times in 2023–24), and the print cleared on the day hot PMIs sold the whole curve off. **Threshold fired; mechanism not shown failed.** The rate path is also still repricing up: this desk's 9/14 view that the hawkish path was fully priced was **wrong** (`BND-26`). **Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30. Composite 13/35 (▲1). Counter 0. OPEN predictions 1.**
+**The auction side just produced this desk's hardest test since the thesis was written.** The 9/23 5Y failed the strict two-part composition test: foreign-type buyers took their smallest 5Y share since March 2020 while dealers took the most in a year. That meets the pre-set condition for adding to the TLT puts. **Will declined the add at 13:17 ET (WQ-280); no trade.** The caveats that decide it: funding stayed calm (−3bp), dealers were not stuffed by any multi-year standard (they took more five times in 2023–24), and the print cleared on the day hot PMIs sold the whole curve off. **Threshold fired; mechanism not shown failed.** The rate path is also still repricing up: this desk's 9/14 view that the hawkish path was fully priced was **wrong** (`BND-26`). **Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30. Composite 13/35 (▲1). Counter 0. OPEN predictions 1.**
