@@ -22,6 +22,20 @@ GOOGLE_NEWS_QUERIES = [
         "priority": "medium",
         "label": "cruise-operators",
     },
+    # FLG domain — NYC rent-freeze litigation (Kenilworth Holdings LLC et al. v. NYC Rent Guidelines
+    # Board, Art. 78, Index 85199/2026, Richmond -> NY County 8/21, Justice Lantry; prayer (f) injunction
+    # against the 10/1 freeze reported unruled as of 9/17). FLG proposed 2026-09-24 00:5x ET, WALTER
+    # ACCEPTED 9/24 (lane read-only to WALTER; PROME encodes), PROME-landed 2026-09-24 14:4x ET.
+    # Action = FLG; info-cc REGINALD/HOMER is WALTER's routing, not a delivery target here.
+    # EXPIRY 2026-10-07 or a merits ruling, whichever first (DOCKET row) -> drop to routine or retire.
+    # Best-effort read, not a detector (FLG's own stated limit): a stay/injunction/annulment that never
+    # reaches Google News is not caught; FLG's T-12 row carries that gap.
+    {
+        "query": '"Rent Guidelines Board" OR "Kenilworth Holdings" OR "rent freeze lawsuit" OR "rent freeze injunction" OR "rent freeze ruling" OR "rent freeze court"',
+        "agents": ["FLG"],
+        "priority": "high",
+        "label": "flg-rent-freeze-litigation",
+    },
     # BROCK domain — private credit / BDC / insurance
     {
         "query": '"private credit" OR "BDC" OR "CLO default" OR "direct lending"',
@@ -374,6 +388,17 @@ WATCH_FOR = {
         "Hindenburg report",          # Short thesis catalyst
         "subprime ABS downgrade",     # Securitization stress
         "auto dealer bankruptcy",      # Downstream
+    ],
+    "FLG": [                           # added 2026-09-24 with the flg-rent-freeze-litigation query; retire with it.
+                                       # No bare "stay": the matcher is substring-based and "stay" fires on "stays in place".
+        "rent freeze injunction",      # prayer (f) granted = the freeze is blocked
+        "TRO rent freeze",             # temporary restraining order (TRO = case-sensitive entity token)
+        "blocks rent freeze",          # "judge blocks NYC rent freeze"
+        "halts rent freeze",           # "court halts rent freeze"
+        "rent freeze annulled",        # Art. 78 annulment on the merits
+        "Rent Guidelines Board lawsuit",
+        "Kenilworth Holdings",         # the petitioner
+        "Lantry rent freeze",          # the judge
     ],
 }
 
