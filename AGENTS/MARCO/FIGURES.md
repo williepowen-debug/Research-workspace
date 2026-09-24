@@ -1,6 +1,6 @@
 # MARCO — LOAD-BEARING FIGURE REGISTER
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -119,12 +119,28 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **Brent price leg** | NOT MARCO's figure — cites BRENT 9/22 settles BZX26 $99.25 / BZZ26 $95.41 [single vendor] | 2026-09-22 | BRENT STATUS / REGISTRY `MKT-BZ-F-BELOW-85` | **BRENT** (owner wins) |
 
 
+### 9/24 — VERIFIED THIS PASS (session 30, stale sweep) — pulled from the issuing primary 2026-09-24
+
+| Figure | Verified value | Data period | Series / method | Canonical owner |
+|---|---|---|---|---|
+| **Central America remittances, regional YoY** | **+7.2%** Jan–Jul (US$29,064.1M vs 27,122.7M); Jul +3.7%; FY2025 +20.1% reproduces | Jan–Jul 2026 | Banguat xlsx / BCR serie / BCH Balanza Cambiaria — helper pull; **Guatemala Aug re-read in the xlsx by MARCO** (2,327.7 vs 2,368.0) | `VX-MARCO-REM-02` · `KB-MARCO-REM-08` |
+| **IRS expatriation list counts** | Q1-26 **1,462**, Q2-26 **1,781**; trailing-4Q **5,790**; 2025 sums to 4,889 (reproduces) | Q3-25..Q2-26 | Federal Register notices, name rows counted — helper pull; **Q2 doc 2026-14841 existence/date re-verified at FR API** (count not re-counted) | `VX-MARCO-EMG-01` · `KB-MARCO-EMG-02` |
+| **Canadians' travel spend in US** | **C$6,513M**, +1.2% YoY / −13.5% 2-yr | Q2 2026 | StatCan 36-10-0016 vector v61914959 — **re-verified via WDS by MARCO** (full 9-quarter series matches) | `KB-MARCO-CAN-48` |
+| **Construction AHE class gap** | **+2.43pp** (class +6.64% vs US +4.20%) — PRELIMINARY | Aug 2026 | BLS API, pulled by MARCO | `VX-MARCO-2.06` · `KB-MARCO-WFD-13` |
+| **FL L&H AHE** | $23.96 (+8.17%) vs US $23.74 (+3.58%) — PRELIMINARY | Aug 2026 | BLS API, pulled by MARCO | `VX-MARCO-FL-01` |
+| **FL new voter registrations, cycle-matched** | Aug 58,251 vs Aug-22 73,723 = **−21.0%**; Jan–Aug 359,266 vs 454,701 = −21.0% | Aug 2026 vs 2022 | FL DOS xlsx + 2022 archive zip, pulled by MARCO | `KB-MARCO-MIG-08` |
+
+
 ## 4. RETRACTED — and what the accurate number is instead
 
 **This is the section that matters most for "are we documenting the real numbers."**
 
 | Retracted claim | Why it was wrong | ✅ The accurate figure | Fixed |
 |---|---|---|---|
+| **"Q1 2025 IRS renunciations +102% YoY"** (THESIS, FINDINGS, VX-EMG-01) | Quarter-on-QUARTER (1,285 vs Q4-24 635), labelled YoY | YoY vs Q1-24 (344) = **+273.5%**, off an unusually low base; better read: H1-26 3,243, +38.5% YoY | 2026-09-24 |
+| **"StatCan Q1 2026: Canada net travel-services exporter +$1.3B"** (TIMELINE) | $1.3B was the **total-services** surplus (since revised to $472.1M), not travel | Q1-26 travel balance **+$2.6B** (all countries, SA); with the US **−$3.86B** (NSA) | 2026-09-24 |
+| **Central America Q1 2026 +9.1% (GT +8.0%)** (VX-REM-02, IDB secondary) | Understated; GT +8.0% reproduces under no Banguat cut | Primary Q1 **+11.4%** regional, GT **+11.5%**, SV +7.3%, HN +14.9% | 2026-09-24 |
+| **"FL voter registrations ACCELERATING — runs AGAINST the thesis"** (STATUS, NEXUS, CARL packet 9/19) | The +35.6% YoY is correct; the READ was wrong — midterm year vs off year | Cycle-matched vs 2022: **−21.0%**; 2022 base confounded too ⇒ not a direction tell either way. CARL re-packeted 9/24 | 2026-09-24 |
 | **"2.2M self-deportations (CBO)"** | Wrong on **count AND source**. It was a *disputed DHS* claim (CMS: "the Two Million Deportation Myth"), **never CBO-modelled**. CBO's own figure is **~290K removals + 30K voluntary (2026-30)**. The false attribution to a neutral authority is what made it stick. | **Foreign-born LF −700K YoY / ~1.0M peak-to-trough** (BLS Table A-7; `LNU01073395`) — verified again 7/31, §1 | thesis v2.6, 7/2 · `VX.tsv` 2.02 lagged until **7/31** · 🔴 **`VX.tsv` 2.01 lagged until 2026-08-21** — see below |
 | **FL L&H wage divergence as a Channel-1 instrument** (+8.75% vs national +3.87%) | **The wage numbers are CORRECT** — the *inference* was wrong. FL's gap is an **Amendment 2** statutory floor rise (7.7% in-window); TX, with maximal immigrant exposure and a floor frozen since 2009, ran *negative*. Compounding: at **+4.88pp** the gap sat far inside the dispersion of the series it came from — pooled cross-state sd **5.88pp**, giving a **~11.53pp** band around any single state's gap (≈0.4 sd). | **No replacement instrument.** Channel-1 transmission is **UNDEMONSTRATED** (v3.0). The wage figures remain valid as a **CARL-lane statutory-cost** input | v2.8 (7/25) → v3.0 (7/31) |
 | **"~6pp detection floor"** as a general rule for state-CES gaps | **Right conclusion, wrong statistic, wrong scope — and it shipped to two agents.** 6.15pp is 1.96×SE for a **stratum-mean difference across 6–8 states**: a significance threshold, not a power MDE (that is **8.78pp**), and not a rule about any single state's gap (band **~11.53pp**). Sent to CARL as a general state-CES caution and to LABOR beside the LAB-17 convergence. | **Size a gap against the dispersion of the statistic you actually computed.** Stratum difference → 8.78pp at 80% power; single state → ~11.53pp. Corrections sent CARL + LABOR 7/31 eve | 7/31 eve (PROME audit) |

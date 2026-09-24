@@ -66,7 +66,8 @@
 - **Remaining, and now named every boot:** 5 genuinely-refreshable BREACHED/CRITICAL rows — FL-03, TX-02, CA-01, 3.02, GTR-01. FL-03 and GTR-01 are the worst, both having *live free sources* (FL Realtors monthly; Google Trends).
 - ✅ **Escalation raised by the freeze — CLOSED 2026-07-31 (v3.1).** THESIS carried **Channel 4 at MEDIUM** on an entirely frozen evidence base; re-marked the same session to **MED-LOW**, split along its own mechanism (flow leg LIVE/MEDIUM, fiscal terminus LOW/UNVERIFIED), with named rebuild conditions. *(Row still read UNRESOLVED 🔴 until 2026-07-31 eve — closed then, PROME audit. The escalation and its fix landed in the same session and nobody closed the ticket.)* **Rebuild remains open and is tracked in `SCRATCH.md` NEXT SESSION 3**, not here.
 
-### T1-F · KB.tsv has 2 DUPLICATE IDs — citations are ambiguous (NEW — found 2026-07-31)
+### ✅ T1-F · KB.tsv has 2 DUPLICATE IDs — citations are ambiguous — DONE (verified 2026-09-24)
+*(Verified s30: `cut -f1 KB.tsv | sort | uniq -d` returns nothing; `REM-03`/`TX-04` each resolve to one row; `staleness.py` carries the duplicate-ID + ragged-row check and boot prints "no duplicate IDs". Ticket was never closed when the fix landed.)*
 - **What:** two KB IDs are each used by **two unrelated facts**, assigned months apart:
   - `KB-MARCO-REM-03` = Mexico FY2025 remittances final (2026-02-17) **AND** Banxico Apr-2026 pull-forward (2026-06-02)
   - `KB-MARCO-TX-04` = Austin housing root-cause (2026-01-22) **AND** TX border sales-tax growing / ES-MARCO-04 counter-signal (2026-06-08)
@@ -76,7 +77,8 @@
 - **Action:** decide the convention, then add a duplicate-ID + column-count check to the boot sweep (the `predictions_due.py` `PRED_SCHEMA_WARNINGS` pattern ports directly).
 - **Effort:** small.
 
-### T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** (NEW — found 2026-07-31)
+### 🟡 T2-E · Banxico + slaughter fetchers still cadence-skip on **mtime** — PARTLY DONE (checked 2026-09-24)
+*(s30 check of `boot.py FETCHERS`: the **CE81 monthly** row (the SDL-01 tell — the one that matters) got a content-vintage gate on 9/19 (s27). Still on mtime: **CE100 state map** (quarterly, 85d) and **slaughter weekly** (6d). Remaining work = those two `vintage_fn`s.)*
 - **What:** session 19 moved the H-2A fetcher to a **content-vintage** gate (`h2a_vintage()` reads `fy=`/`through_q=` out of the TSV header and compares against the quarter DOL should have published). The other two entries in `boot.py FETCHERS` still gate on `file_age_days()` — raw mtime.
 - **Why it matters:** root CLAUDE.md Data Hygiene is explicit that **mtime is restamped by git sync**, so an mtime cadence fails **FALSE-NEGATIVE** (it thinks a file is fresh because another machine's pull touched it) — [[finding_mtime_is_corrupted_by_git_sync]]. Under serial multi-machine operation MARCO pulls constantly, so both remaining fetchers can silently skip when they should run. Lower severity than H-2A was: Banxico's output carries its own dated rows and slaughter is a 6-day cadence, so drift is visible sooner.
 - **Action:** give `banxico_reverse.py` and `slaughter_pull.py` outputs a `# … pulled=YYYY-MM-DD | latest_period=…` header line like the rebuilt H-2A TSV, then wire a `vintage_fn` for each. The `FETCHERS` tuple already carries the optional 6th slot — no structural change needed.
@@ -97,7 +99,8 @@
 - **Action:** Move remittance paradox → COMPLETE; correct/remove the TOURISM-stalled entry; re-date StatCan gap to Q2; chase the ag-weather-owner loop with PROME.
 - **Effort:** small.
 
-### 🟡 T2-C · TRADE.md is Feb-14 vintage (pre-v2.1 framing) — STAMPED 2026-07-02 (full refresh still pending)
+### ✅ T2-C · TRADE.md is Feb-14 vintage (pre-v2.1 framing) — FROZEN 2026-09-24 (refresh declined)
+*(s30: replaced the 7/2 "not current" note with the canonical `FROZEN <date>` banner. Refresh declined, not deferred: MARCO carries no positions and trade construction is TERRY's; the IBOC idea's premise (Channel 4 border stress) was re-marked LOW at v3.2 on 9/24, and its Sept-2026 window lapsed. New ideas go to TERRY as packets.)*
 *(7/2: added a prominent "FEB-VINTAGE — NOT CURRENT" banner listing the stale figures + the IBOC re-eval note, so it no longer misleads if read. A full metrics refresh + IBOC-vs-winter-$ re-evaluation is still open.)*
 
 - **What:** All figures Feb-vintage: Mexico remittances "−5%" (now +3.7%/count −1.7%), Central America "+18-25%", construction "−92.7% YoY growth", TX border DQ 7.92%. Whole file reflects the **acute-crisis framing the thesis has since walked back** (v2.1-v2.4 slow-structural-squeeze). IBOC-puts + ag-exposure ideas never actioned.
@@ -106,6 +109,14 @@
 - **Effort:** medium.
 
 ---
+
+### T2-G · `fl_migration_proxies.py` computes voter-reg on bare YoY — election-cycle blind (NEW — found 2026-09-24)
+- **What:** the voter-registration leg compares each month with the prior year only. 2026 is a midterm year and 2025 was not, so August printed **+35.6% YoY** while the cycle-matched comparison with 2022 is **−21.0%**. MARCO shipped the YoY to CARL as a counter-signal (9/19); corrected 9/24 (`KB-MARCO-MIG-08`).
+- **Action:** add a same-cycle column (vs 4 years earlier) to the tool output and `MIGRATION_PROXIES.tsv`. The DOS page links the 2022 archive zip, **but not 2023/2024** — find those before building a 2-yr stack. Same lesson MARCO already owns for TOUR-01 and SDL-01: the base-effect guard had not reached this instrument.
+- **Effort:** small.
+
+### T2-H · VX tail after the s30 sweep — five 2026-07-31 rows are the new staleness floor
+- `VX-MARCO-3.02`, `CA-01`, `FL-03`, `GTR-01`, `TX-02` (all last touched 7/31) now set the VX banner's clock 1; `ledger_staleness` still reads VX STALE +56d. FL-03 (FL Realtors monthly) and GTR-01 (Google Trends, `tools/google_trends_pull.py`) have free live sources. Refresh as research, not clerically (baseline check first — MEMORY 'BASELINE/BASIS errors').
 
 ## TIER 3 — dormant / cleanup
 
@@ -118,7 +129,8 @@
 - **Action:** Triage pass — per vector: refresh / mark `[STALE]` with date / archive-deprecated. Don't bulk-refresh; sort by whether the vector still drives a thesis claim.
 - **Effort:** large (do in chunks).
 
-### T3-B · RP-MARCO-MBS_BASELINE.md — never-executed + wrong VX refs
+### ✅ T3-B · RP-MARCO-MBS_BASELINE.md — never-executed + wrong VX refs — ARCHIVED 2026-09-24
+*(s30: `git mv` → `archive/` (dir created on purpose). Superseded, not abandoned: the 9/24 Channel-4 credit rebuild did the job this protocol was for, on ratings + audited ACFRs + TX Comptroller receipts, because EMMA is terms-gated (do not script past it). Same session also archived `NOTES.md` (T1-B, resolved 7/2), `OPEN_THREADS_2026-07-09.md` (every thread since closed or carried elsewhere), `workbook/ML_BACKUP_20260418.tsv` and `workbook/VX_HISTORY.tsv` (Jan-2026, 8 rows, unread by any tool).)*
 - **What:** Feb-9 baseline protocol for monitoring border-city **municipal-bond spreads** (EMMA). Status: "Awaiting initial spread data collection." Cross-refs use OLD VX numbering (VX-MARCO-01/03/06) that **doesn't match** current VX.tsv (1.01 / 2.02 / ELP-01 / etc.).
 - **Why it matters:** **Latent opportunity:** ES-MARCO-04 (TX border fiscal stress) resolved today as a *counter-signal* on sales-tax revenue — but muni-bond spreads (EMMA) could be the cleaner, more forward-looking border-fiscal-stress instrument that sales-tax (a lagging, offset-able measure) isn't. This never-run protocol may be worth executing, not archiving.
 - **Action:** Decide execute-vs-archive. If execute: pull EMMA spreads for the 5 target cities, fix VX cross-refs to current numbering, populate a real border-fiscal vector. If archive: move to `archive/` and note in FINDINGS. ⚠️ **`AGENTS/MARCO/archive/` does NOT exist** — the 2026-06-30 prune (`1cb18fbc3`) deleted it and both files it held. **If you execute the archive branch, create the dir ON PURPOSE in the same edit** — do not let it regrow as a side effect of following this line (flagged by PROME 8/12; re-pointed 8/21).

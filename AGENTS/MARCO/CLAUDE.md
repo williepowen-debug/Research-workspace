@@ -156,7 +156,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 - **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
-- **Before starting any research, check the CONFIRMED FINDINGS table in STATUS.md.** Do not re-research confirmed findings (e.g., FL migration 93% collapse, Canadian -28%, Mexico remittances -4.6%). If asked about something already confirmed, cite the finding and confidence level instead of re-deriving it.
+- **Before starting any research, check `RESEARCH_STATUS.md` (COMPLETE / EXHAUSTED threads), `FIGURES.md` (what was verified, when, how) and `FINDINGS.md` (research index).** Do not re-research confirmed findings (e.g., the 2025 FL net-domestic-migration print, the Canadian 2-yr stack, the Mexico remittance count tell) — cite the current value and its date from `STATUS.md` instead of re-deriving it. *(Re-pointed 2026-09-24: the "CONFIRMED FINDINGS table in STATUS.md" this line used to name no longer exists.)*
 
 ---
 
@@ -228,8 +228,8 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | Metric | Current | Threshold | Implication |
 |--------|---------|-----------|-------------|
 | FL Net Domestic Migration | 22,517 (93% collapse; 2025 annual, no new print til late '26) | Negative | Population decline confirmed |
-| Canadian Visitors | -28% (2-yr stack vs 2024; YoY is base-effect noise) | Sustained stack <-25% | Structural, not cyclical |
-| FL Condo Inventory | 8.6mo (May '26, absorbing) | >9mo | Distress territory |
+| Canadian Visitors | **−26.63%** (Aug '26 2-yr stack vs 2024, BREACHED 10th month; YoY is base-effect noise) | Sustained stack <-25% | Structural, not cyclical |
+| FL Condo Inventory | **7.8mo** (Jul '26, CORAL-canonical; 4th straight tightening) | >9mo | Distress territory |
 | FL Citizens Exposure | **~$295.1B** (Jun'25, −43% YoY; 67% below peak); **PIF 278,246** (Jun-30-2026, CORAL primary) | ~~>$750B~~ **INVALIDATED (MAR-17)** | Crisis PAST-PEAK — exposure collapsed + personal rates **cut eff. 7/1/26** (HO −8.8%, wind-only −5.5%); **CORAL owns FL insurance — cite CORAL's figures, don't re-derive** *(PIF corrected from a stale "~385K" 2026-07-31)* |
 
 ---

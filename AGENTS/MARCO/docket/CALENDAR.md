@@ -54,6 +54,7 @@
 | 🟠 | Oct 1 | Chase CORAL: Citizens PIF refresh | MARCO copy dated 2026-06-30; CORAL owns | CORAL |
 | 🔴 | Oct 14 (Wed) | **`ENR-02` leg 1 — CPI airline fares SEPTEMBER** (replaces the lapsed Brent re-arm; Brent itself = BRENT's `MKT-BZ-F-BELOW-85`) | 2-yr stack ≥ +20% (Aug +27.46%); leg 2 = Oct CPI ~mid-Nov (est.). ⚠️ Oct is the harder month (Oct-24 base +6.36% MoM) | MARCO |
 | 🟠 | ~Oct 15 | **StatCan SEPTEMBER** · **NTTO September** · BTS July | `ID-01` leg 1 (both-months, PROME-confirmed 9/22) · `VX-1.02` −24.20% vs the −25% BREACHED line | MARCO |
+| 🟡 | ~Oct 20 (est.) | **BLS State Employment — SEPTEMBER** (confirms `VX-2.06`) | Construction-wage class gap: Aug prelim +2.43pp vs the 2.0pp ELEVATED line. Revised Aug <2.0pp ⇒ re-mark NORMAL. Vector only, not a Channel-1 reopen (THESIS v3.0) | MARCO |
 | 🟠 | ~Oct 28 | **MIA September Traffic Report** | Aug −5.69%. Sep negative ⇒ MIA-2-consecutive trigger FIRES → REGINALD, CARL (**basis = MIA's own count, Will-ruled 9/24**) | MARCO, REGINALD, CARL |
 | 🟠 | Nov 3 | **FL Amendment 3 / HJR 1F** | New-resident homestead cap — anti-migration by design; poll 64%±3.8 vs 60% bar | MARCO, CORAL |
 | 🔴 | ~Nov 12 (est.) | **`ENR-02` leg 2 — CPI airline fares OCTOBER** (grades ENR-02) | Sep+Oct 2-yr both ≥ +20% = SUSTAINED; either < +15% = FADED; else HOLD. Verify the BLS date | MARCO |

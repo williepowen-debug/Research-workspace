@@ -8,9 +8,9 @@
 
 ## Active Expected Signals
 
-| ES-ID | Signal | Expected By | Status | Current read (2026-07-25) |
+| ES-ID | Signal | Expected By | Status | Current read (2026-09-24) |
 |-------|--------|-------------|--------|---------------------------|
-| ES-MARCO-06 | FL domestic migration turns negative | Dec 2026 | WATCHING | Last print 22,517 (93% collapse), Miami −2.0%. Annual Census — no new data until late 2026. On track for the Dec test. |
+| ES-MARCO-06 | FL domestic migration turns negative | Dec 2026 | WATCHING — proxies MIXED, none clean | Canonical last print +22,517 (2025, 93% collapse), unchanged; next Census vintage ~Dec 2026. The 7/25 "on track" read predates the proxy build-out; current proxies (9/24 sweep): **FL DOS new voter registrations** read +35.6% YoY (Aug) but that is an **ELECTION-CYCLE base effect** — 2026 is a midterm year, 2025 was not. **Cycle-matched vs the last midterm, 2022: Aug 58,251 vs 73,723 = −21.0%; Jan–Aug 359,266 vs 454,701 = −21.0%** (DOS xlsx primaries, pulled 9/24). 2022 was FL's in-migration peak and the 2023 third-party-registration law (SB 7050 — cited from memory, not verified this session) plausibly cut registrations, so the −21% is confounded too — **neither comparison is a clean direction tell.** **FLHSMV out-of-state license inflow +3.0% YoY (H1 2026)** is the only proxy leaning against the signal; **OCPS enrollment −3.97%** is confounded (migration share ≤2,032). Direction tells only, different bases from the Census level. `workbook/MIGRATION_PROXIES.tsv`, `KB-MARCO-MIG-08`. |
 
 ---
 

@@ -1,5 +1,5 @@
 # MARCO FINDINGS INDEX
-**Last Updated:** 2026-06-15 | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
+**Last Updated:** 2026-09-24 (s30 stale sweep — vintage flags on the bucket claims; prior 2026-06-15) | **Purpose:** Category map of MARCO research docs. Not a synthesis — a navigator. For live state see `STATUS.md`.
 
 ---
 
@@ -30,7 +30,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ## 🟡 EMG-01 — American Emigration (PENDING/watch, 65% conf)
 
-**Core claim:** US-born citizen emigration rising (IRS renunciations Q1 2025 +102% YoY; Brookings net migration negative first time since ~1935). WSJ "1930s levels" headline PARTIALLY SUPPORTED. Not tradeable yet — 2-3yr watch.
+**Core claim:** US-born citizen emigration rising (IRS expatriation list H1 2026 3,243 names, +38.5% YoY, trailing-4Q 5,790 — 9/24 FR count; the old "Q1 2025 +102% YoY" was quarter-on-quarter; Brookings net migration negative first time since ~1935). WSJ "1930s levels" headline PARTIALLY SUPPORTED. Not tradeable yet — 2-3yr watch.
 
 📁 `domain/sources/EMG/`
 
@@ -45,7 +45,7 @@ Each section below is a **thesis bucket**. Under each bucket: the research docs 
 
 ## 🔴 LABOR — H-2A, Slaughter, Meatpacking
 
-**Core claim:** Ag labor is broken — federal surveys defunct (NASS canceled, NAWS walled), H-2A certified demand up +9.3% with 4.1% backlog, JOLTS hires at COVID-low means substitution mechanism broken (no domestic reserve). Meatpacking labor has NOT yet disrupted — but beef-belt consolidation is happening independently.
+*(⚠️ Bucket claim below is Mar–Jun-2026 framing, kept as the index's record. Since thesis v3.0 (7/31) the labor **quantity** shock is well-measured but its **transmission to prices/costs is UNDEMONSTRATED** after three pre-registered nulls — read `thesis/THESIS.md` Channel 1 before citing any of it.)* **Core claim:** Ag labor is broken — federal surveys defunct (NASS canceled, NAWS walled), H-2A certified demand up +9.3% with 4.1% backlog, JOLTS hires at COVID-low means substitution mechanism broken (no domestic reserve). Meatpacking labor has NOT yet disrupted — but beef-belt consolidation is happening independently.
 
 📁 `domain/sources/LABOR/`
 

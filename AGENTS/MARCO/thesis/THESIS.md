@@ -106,7 +106,7 @@ Mechanism: Mexican-shopper/remittance dependence → retail + tax base erosion �
 - Vectors: BDR-01/-02/-03, ELP-01/-02, PHR-01, NOG-01/-02, MCA-01, CAL-02/-03, 2.08, REM-02, SFE-02. Research: `../domain/sources/SDL/BANXICO_STATE_REVERSE.md`. Routes to: CARL, REGINALD.
 
 ### Channel 5 — American Emigration 🟡 WATCH · **LOW** · *not tradeable*
-US-born citizen emigration rising (IRS 4,889 expatriates 2025 record, Q1 +102% YoY; net US migration negative first time since ~1935 per Brookings). WSJ "1930s levels" claim partially supported (net-migration angle) / hyperbole (citizen-exodus angle). 2-3yr horizon. Upgrade trigger: 3+ quarters IRS Federal Register >1,500 AND Canada IRCC US-PRs >500/mo sustained. Vector: EMG-01. Research: `../domain/sources/EMG/`.
+US-born citizen emigration rising (IRS 4,889 expatriates 2025 record; **H1 2026 3,243, +38.5% vs H1 2025, trailing-4Q 5,790** — FR primaries, counted 9/24; *the carried "Q1 2025 +102% YoY" was quarter-on-quarter vs Q4 2024 — true YoY +273.5% off a low base*; net US migration negative first time since ~1935 per Brookings). WSJ "1930s levels" claim partially supported (net-migration angle) / hyperbole (citizen-exodus angle). 2-3yr horizon. Upgrade trigger: 3+ quarters IRS Federal Register >1,500 AND Canada IRCC US-PRs >500/mo sustained *(IRS leg as of 9/24: Q3-25 1,593 · Q4-25 954 · Q1-26 1,462 · Q2-26 1,781 — not 3 consecutive; IRCC leg not re-pulled)*. Vector: EMG-01. Research: `../domain/sources/EMG/`.
 
 ---
 

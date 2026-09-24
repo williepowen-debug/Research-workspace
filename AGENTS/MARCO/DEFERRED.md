@@ -12,7 +12,7 @@ Status values: `open` | `resolved [YYYY-MM-DD]`
 **For v0:** TOURISM builds at mixed-grid native; REGINALD aggregates as needed. Revisit only if REGINALD contests proxy quality.
 **Source thread:** `sub_agents/TOURISM/threads/archive/2026-04-22_dollar-at-risk-v0-grid-decisions.md`
 **Trigger to resolve:** REGINALD room opened, OR REGINALD signal contesting proxy quality.
-**Status:** open
+**Status:** closed-lapsed [2026-09-24] — the TOURISM sub-agent was SHELVED 6/15 and the $-at-risk grid was never built, so no room will ever resolve this; the World Cup has also passed (ES-MARCO-09 resolved 9/19). Re-open only if a $-at-risk build is greenlit.
 
 ## [2026-04-22] — TOURISM thread 2 on $-at-risk v0 grid decisions
 **Needs:** HOUSING
@@ -20,7 +20,7 @@ Status values: `open` | `resolved [YYYY-MM-DD]`
 **For v0:** OUT — documented as known underestimate. v1 pickup via joint model.
 **Source thread:** `sub_agents/TOURISM/threads/archive/2026-04-22_dollar-at-risk-v0-grid-decisions.md`
 **Trigger to resolve:** HOUSING sub-agent outfit complete + thread opened.
-**Status:** open
+**Status:** closed-lapsed [2026-09-24] — the TOURISM sub-agent was SHELVED 6/15 and the $-at-risk grid was never built, so no room will ever resolve this; the World Cup has also passed (ES-MARCO-09 resolved 9/19). Re-open only if a $-at-risk build is greenlit.
 
 ## [2026-06-02] — TOURISM thread 3 on World Cup host-city pull
 **Needs:** REGINALD/CORAL
@@ -28,7 +28,7 @@ Status values: `open` | `resolved [YYYY-MM-DD]`
 **For now:** TOURISM holds the host-city $ series; REGINALD picks up the bank/CRE translation when the snowbird-$ window (Q1-Q2 2027) nears.
 **Source thread:** `sub_agents/TOURISM/threads/archive/2026-06-02_worldcup-host-city.md`
 **Trigger to resolve:** REGINALD room opened, OR realized Jun-Jul Miami TDT/RevPAR posts (~Sep-Oct).
-**Status:** open
+**Status:** closed-lapsed [2026-09-24] — the TOURISM sub-agent was SHELVED 6/15 and the $-at-risk grid was never built, so no room will ever resolve this; the World Cup has also passed (ES-MARCO-09 resolved 9/19). Re-open only if a $-at-risk build is greenlit.
 
 ## [2026-06-02] — TOURISM thread 3 on World Cup host-city pull
 **Needs:** CARL
@@ -36,7 +36,7 @@ Status values: `open` | `resolved [YYYY-MM-DD]`
 **For now:** OUT of TOURISM lane (visitor-flow only). Flag for CARL's FL regional consumer lens.
 **Source thread:** `sub_agents/TOURISM/threads/archive/2026-06-02_worldcup-host-city.md`
 **Trigger to resolve:** CARL room opened, OR realized Jun-Jul FL consumer/retail data posts.
-**Status:** open
+**Status:** closed-lapsed [2026-09-24] — the TOURISM sub-agent was SHELVED 6/15 and the $-at-risk grid was never built, so no room will ever resolve this; the World Cup has also passed (ES-MARCO-09 resolved 9/19). Re-open only if a $-at-risk build is greenlit.
 
 ---
 
@@ -46,9 +46,9 @@ Count of open entries per absent agent:
 
 | Absent agent | Open | 3+ threshold? |
 |---|---|---|
-| REGINALD | 2 | no |
-| HOUSING | 1 | no |
-| CARL | 1 | no |
+| REGINALD | 0 (2 closed-lapsed 9/24) | no |
+| HOUSING | 0 (1 closed-lapsed 9/24) | no |
+| CARL | 0 (1 closed-lapsed 9/24) | no |
 | BORDER | 0 | no |
 | WORKFORCE | 0 | no |
 | MIGRATION | 0 | no |
