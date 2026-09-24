@@ -1,5 +1,7 @@
 # SENTRY — Status
 
+> ⛔ **DORMANT — RETIREMENT BANNER, dated 2026-09-24 (WQ-256 (d), Will verbatim *"Approve WQ-264 and WQ-256 with your recs"*, 08:50 ET; written by PROME as registrar — no live owner).** This desk has been human-idle since 2026-06-02 and DORMANT since 2026-06-27 (`PROME/ROSTER.md` is the class of record; this banner changes no class). Its RSS/CI signal pipeline was killed; **the TODO/ROADMAP items in this directory are HISTORICAL and must NOT be executed — rebuilding the pipeline is a Will ruling, not a task.** Do not launch, task or audit this desk as a fleet agent. Live signal routing is WALTER's (`AGENTS/WALTER/`). Last real commit: `58c9e02aa` 2026-05-09.
+
 **Agent:** SENTRY | **Domain:** Cross-domain signal synthesis
 **State:** 🟢 OPERATIONAL (Phase 1) — pipeline live with 2 feeds + 15-entry CIK watchlist (REGINALD-thesis-aligned); CI verified end-to-end 5/9 20:45 UTC (commit `d1a789f4`)
 **Last Updated:** 2026-05-09 (Saturday evening — CIK watchlist expansion 1→15)
