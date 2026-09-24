@@ -1,3 +1,5 @@
+> 🗄️ **ARCHIVED 2026-09-24** (WAL session #7, Will-directed housekeeping; PROME 8/23 item ②) under root `CLAUDE.md` § Data Hygiene retirement rule: >60 days old AND not boot-read AND not referenced by a live doc (index refs and dated records don't count), and not a pending-event artifact. **Content unchanged below this banner.** Record → `RETIREMENT_SWEEP_2026-09-24.md` (this folder). ⚠️ Bare file names inside (e.g. `THESIS.md`, `SCENARIOS.md`) now resolve one level up (`../`); `WAL/…`-prefixed paths are pre-promotion and resolve to `AGENTS/WAL/…`. **Historical record — cite with its own date, never as current.**
+
 # WAL — External Research Prompts
 **Last Updated:** 2026-03-25 | **For Will to run on Claude/Gemini/ChatGPT/Perplexity**
 
