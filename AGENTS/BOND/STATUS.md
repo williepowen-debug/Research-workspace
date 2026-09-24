@@ -1,60 +1,66 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension, integrated 7/1; + the sovereign-credibility instrument set per the Will-ruled 8/10 forum — scope in `CLAUDE.md`)
-**Last session:** 2026-09-17 ~08:2x→13:2x ET (PROME `prome-ae` doorbell; **DOCKET L404 TIPS-R GRADED 🟢 CLEAN** + L401 F2 carrier; markets OPEN) · **Prior:** 2026-09-15 ~10:0x–13:4x ET
+**Agent:** BOND · **Domain:** US bond-market structure (+ MBS/FHLB + EU rates per the 6/27 extension; + the sovereign-credibility instrument set per the 8/10 forum — scope in `CLAUDE.md`)
+**Last session:** 2026-09-24 Thu ~13:00→ ET (Will boot, `bond-b0`; markets OPEN) — **first session since 9/17; BOND was dark 9/18–9/23** · **Prior:** 2026-09-17
 
-> 📕 **THIS FILE IS HOT/COLD SPLIT AND ROTATED. NOTHING HAS EVER BEEN DELETED FROM IT.** Complete pre-split snapshot: `archive/2026-09-01_STATUS_cold_pre-split-full-snapshot.md` (160,077 B, crc32 `1210262`). **Everything rotated since lives in `domain/sources/` and `archive/`, each file verbatim and crc-stamped in its own header.** **Rotated 9/17:** the 9/15 BOTTOM LINE · the add-gate breach block · the "held against evidence" paragraph · the fired 9/10–9/16 catalyst rows → `domain/sources/2026-09-17_STATUS_archive_rotated_9-15-blocks.md` (crc32 `1463914424`).
-> **What stays hot: every live value, score, gate, exit criterion and dated catalyst.** Canon: `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`. **Budget 32,550 B — never raise it; rotate instead.**
+> 📕 **HOT/COLD SPLIT — NOTHING DELETED.** Full pre-rewrite snapshot of the 9/17 file: `domain/sources/2026-09-24_STATUS_full-snapshot_pre-9-24-rewrite.md` (23,719 B, crc32 `2559402921`). Older rotations: `archive/2026-09-01_STATUS_cold_pre-split-full-snapshot.md` and `domain/sources/2026-09-1*_STATUS_*`. **Budget 32,550 B — rotate, never raise.**
 
-**Canonical elsewhere — this file carries NO second copy:** thesis + full falsification → `thesis/THESIS.md` · predictions → `thesis/PREDICTIONS.tsv` · catalyst source of truth → `docket/CATALYSTS.tsv` · positions/gates → `TRADE.md` · durable learnings → `MEMORY.md` · session handoff → `SCRATCH.md`.
+**Canonical elsewhere — no second copy here:** thesis → `thesis/THESIS.md` · predictions → `thesis/PREDICTIONS.tsv` · catalysts → `docket/CATALYSTS.tsv` · gates/positions → `TRADE.md` · learnings → `MEMORY.md` · handoff → `SCRATCH.md`.
+
+---
+
+## 🔴 TOP OF FILE — what changed since 9/17
+
+1. 🔴 **9/23 5Y `91282CRN3` = OLD CONJUNCTIVE COMPOSITION FAILURE** — indirect **54.31%** (min 59.24; **lowest 5Y since 2020-03-25**) AND dealer **15.77%** (max 15.61, **+0.16pp**) · BTC **2.21** (lowest since 2018-12-26) · `I'` fired. ⇒ **the TLT-put ADD RE-ARM condition is MET — Will-gated as WQ-280, PROME rec DECLINE; 7/16 NO-ADD stands; `$0`.** ⛔ **Paired thesis kill NOT fired** (SOFR−IORB **−3bp** [9/23]). ⚠️ **Dealer 15.77 is ordinary on multi-year history (five 2023–24 prints higher, max 20.37); it cleared into a hot-PMI sell-off. THRESHOLD FIRED — MECHANISM NOT SHOWN FAILED.** Graded ~24h late. → `analysis/2026-09-24_GRADE_month-end-cluster_2Y-5Y-7Y.md`, `KB-BND-312`.
+2. 🟠 **9/24 7Y `I'` marker by 0.037pp**; 9/22 2Y 🟢 clean. Downgrade counter **0**.
+3. 🔴 **`BND-26` FALSE (70%, a MISS):** 1y1y **5.03 on FOMC day**, 5.08 [9/18] = new 2023-forward sample high. **This desk's 9/14 "a hawkish SEP has little room to surprise" is WITHDRAWN; the 4.75–4.95 terminal band is retired for reuse.** `BND-25` TRUE (55%). `KB-BND-315`.
+4. 🔴 **The macro tape:** 9/23 flash composite PMI **58.4** (highest since 7/2021), input prices fastest since 10/2022 (S&P Global, secondary reports) ⇒ 5Y crossed **5%** first time since 2007; vendor 10Y **5.14**, 30Y **5.43** intraday 9/24 (**above the 5.37 official 2026 high — vendor, NOT counted**); October hike ~70% priced (TE 9/24, secondary). BOJ hiked to 1.25% 9/18; press-reported Japanese rate check ~¥158 (unconfirmed). BoE paused APF gilt sales 9/17 (a long-end SUPPLY withdrawal — `KB-BND-317`).
+5. 🟠 **CCC 1093 [9/23] fresh 2026 high, 7bp from 1100**; CCC−BB **934** > the 926 span max. HY index 273, inert.
 
 ---
 
 ## Regime (one-line)
 
-**Real-rate / higher-for-longer.** ★ **C-36 = TWO-PART (ruled 9/1): the policy-path channel is ALIVE AND TRANSMITTING · term premium drove the July delta.** 🔑 **9/16 FOMC: +25bp to 3.75–4.00 (12–0), SEP median terminal 4.125 — 60–85bp BELOW the curve's own priced terminal — and the curve did not reprice down (`KB-BND-293`). The priced path is a MARKET view, not a guidance view.** Full ruling + caveats: `thesis/THESIS.md` v1.2.7, `thesis/CHANGELOG.md`.
-
-**The configuration, restated:** the long end is engaged (30Y **50-session run ≥5.00%**, 66 days in 2026 of 177; 2026 high 5.37 [9/10]; 5.36 [9/15]) with **no Fed coupon backstop post-QT** ⇒ absorption is private/foreign/dealer — **plus an official 10–30Y liquidity-support bid that has run ONCE at scale (9/10, 1.75× cover — AMBIGUOUS on normalisation, `KB-BND-285`).** **Auctions remain "expensive, not broken": the 9/15 20Y-R fired `I'` (−9.25pp) as a 🟠 MARKER with the mechanism intact (bid substituted, BTC 2.57); the kill is PAIRED; **the join DELIVERED 9/17 (a day early) and its verdict is that the pairing INVERTS — see below.** 🔴 **Credit: HY +11bp in two sessions to 276 while CCC 1085 makes another 2026 high; CCC−BB 924 (span max 926 [9/11]).**
+**Real-rate / higher-for-longer — and the policy path is still repricing HAWKISHLY.** C-36 TWO-PART (ruled 9/1): policy-path channel ALIVE · term premium drove the July delta. **9/16 FOMC +25bp to 3.75–4.00 (12–0); the curve priced ABOVE the SEP median (4.125) and then kept going (`BND-26`).** **Auctions: "expensive, not broken" is UNDER TEST — first OLD-conjunctive fire since the test was built (base rate 1.8%/auction), on a macro sell-off day, with calm funding.** Full ruling → `thesis/THESIS.md` v1.2.7.
 
 ---
 
 ## Current Dashboard
 
-*Every value pulled live via `monitors/boot_recompute.py`, cache-busted **2026-09-17 08:27 ET**, unless tagged. **No naked numbers.***
+*Pulled live **2026-09-24 13:01–13:10 ET** via `monitors/boot_recompute.py` + `fetch.py` (cache-busted) unless tagged. No naked numbers.*
 
 | Metric | Current | Status | Source / Date |
 |---|---:|---|---|
-| 30Y (DGS30) | **5.36%** | 🔴 | [CONF FRED **9/15**] — 1bp off the 5.37 [9/10] 2026 high; **100.0th pctile post-2010**; 50-session run ≥5.00. Vendor `^TYX` 5.349 [9/16] |
-| 10Y (DGS10) | **5.00%** | 🔴 | [CONF FRED **9/15**] — 100.0th pctile post-2010. `GATE-TERRY-007` counter **0 of 5** (closes <4.50), distance **50bp**; vendor 5.006 [9/16] |
-| 2Y (DGS2) · 1Y (DGS1) | **4.67% · 4.39%** | 🟠 ↑ | [CONF FRED **9/15**] — 4.56 → 4.63 → 4.65 → **4.67**; **1y1y (2×2Y−1Y) = 4.95 = `BND-26`'s line, one day before its window opens** |
-| **10Y real (DFII10)** | **2.62%** | 🔴 **GATE THROUGH** | [CONF FRED **9/15**] — **+12bp above 2.50**; 2.55 · 2.60 · 2.60 · **2.62** = **4 published sessions ≥2.50 ⇒ `BND-29` TRUE**. 98.8th pctile full (n=5,930), 100.0th post-2010 |
-| 5Y5Y fwd (T5YIFR) | **2.31%** | 🟡 ↓ | [CONF FRED **9/16**] — −4bp on FOMC day; 19bp from its bar |
-| 10Y BE (T10YIE) | **2.33%** | 🟡 ↓ | [CONF FRED **9/16**] — 2.38 → **2.33** on FOMC day: **breakevens FELL while TIP −0.38% ⇒ the 9/16 move is REAL-led again** (`KB-BND-293`); Brent −4% like-for-like (BZX26 $101.62 pre-open, −3.98% vs its $105.83 9/16 settle; ⚠️ PROME correction 9/17 ~09:0x — this desk first wrote −7.05%, which was the continuous BZ=F rolling Nov→Dec, not a price move) on 9/17 morning pushes the same way (BRENT's lane) |
-| ACM 10Y TP · **KW TP** | 0.7090 [9/15] · **0.9610 [9/11]** | 🔴 ↑ | [NY Fed `ACM Daily` · FRED `THREEFYTP10`, both re-pulled **9/17 09:5x**] — **KW = FRESH 2026 HIGH, highest since 2011-02-11**; +4.8bp on 9/10 alone (**the add-gate breach session**), 97.9th pctile post-2010 (n=4,176). ⚠️ **THE MODELS DISAGREE: matched window 9/9→9/11 ACM +1.0bp vs KW +6.1bp = a 5.1bp model gap — name WHICH model in any TP claim** (`KB-BND-298`/`299`). ACM 2026 max 0.8935 [8/17] verified |
-| **HY OAS** | **276bps** | 🟢 ↑ | [CONF FRED `BAMLH0A0HYM2` **9/15**] — 265 [9/11] → 271 → **276**: +11bp in two sessions, still inert at the index (2026 max 346) |
-| **CCC OAS** | **1085bps** | 🟠 ↑ | [CONF FRED `BAMLH0A3HYC` **9/15**] — **fresh 2026 high** (1076 → 1081 → 1085); ratio 3.93x; **15bp from the 1100 line** |
-| IG OAS | **80bps** | 🟢 = | [CONF FRED `BAMLC0A0CM` **9/15**] — zero pulled deals; record-September supply forecast (~$215B, secondary 9/3) |
-| CCC−BB tail gap | **924bp** | 🟠 | [CONF FRED, BOND's computation **9/15**] — BB **161** (+11bp in two sessions) widened WITH CCC (+9) ⇒ the gap paused 2bp under the 926 span max; **index and tail moved the SAME way this time** — dispersion paused, not reversed |
-| **FR2004 11–21Y** | **$66.8B** [as-of 9/2] | 🟡 `[STALE]` | [NY Fed `SBN2024`, re-pulled **9/17 09:1x**] — **the 9/9 as-of is NOT YET PUBLISHED (latest 9/2; checked at the API 9/17; re-test: 2026-09-18 with the join)**; long-end TOTAL $144.7B (−$7.1B w/w) even as 11-21Y built |
-| IORB · DFF | **3.90 [9/17]** · 3.63 [9/15] | 🟢 | [CONF FRED] — the hike in the administered rate; SOFR not re-pulled (LIQUID owns) |
-| TLT · TIP · ^MOVE | **$80.88 +0.21%** · $105.39 −0.38% · 80.73 | 🟠 | [yfinance **9/16 close**, via the repo venv — a MOMENT property, re-pull at any decision (root rule #4)] |
-| JGB 10Y · EA AAA 10Y · UK 10Y · Bund/OAT/BTP | 2.891 [MOF 9/9] · 3.378 [ECB 9/8] · 5.108 [BoE 9/7] · 3.40/4.26/4.29 [TE 9/9, secondary] | 🟠 `[STALE 9/17]` | Not re-pulled this session; SAM / HANS / LIQUID own the levels |
-| USD/JPY · Brent · VIX | **cite SAM · BRENT · VIOLET** | — | owners' STATUS files — this desk keeps NO copy (Brent −3.98% like-for-like BZX26 [PROME-corrected from the −7.05% BZ=F roll artifact] / VIX −11% at 08:3x, cited for the breakeven confound only) |
+| 30Y (DGS30) | **5.29%** | 🔴 | [CONF FRED **9/22**] — 2026 high 5.37 [9/10]; **55-session run ≥5.00** (maximal run, whole-series); 71 of 182 2026 sessions. **Vendor `^TYX` 5.401 [9/23 close] · 5.434 [9/24 intraday]** — a fresh official high on 9/23 is LIKELY and NOT counted until H.15 publishes (docketed 9/25) |
+| 10Y (DGS10) | **4.96%** | 🔴 | [CONF FRED **9/22**] — 99.8th pctile post-2010. `GATE-TERRY-007` **46bp** from 4.50. Vendor `^TNX` 5.114 [9/23] · 5.137 [9/24 intraday] |
+| 5Y (DGS5) | **4.83%** | 🔴 ↑ | [CONF FRED **9/22**] — vendor `^FVX` 4.997 [9/23] (+16bp from 9/21), 5.011 [9/24] |
+| 2Y · 1Y | **4.71% · 4.43%** | 🔴 ↑ | [CONF FRED **9/22**] — **1y1y 4.99**; 5.08 [9/18] = 2023-forward sample high (`BND-26` FALSE) |
+| **10Y real (DFII10)** | **2.63%** | 🔴 **GATE THROUGH** | [CONF FRED **9/22**] — **+13bp above 2.50**; run since 9/10 all ≥2.50, high **2.68 [9/18]**; 98.8th pctile full, 99.9th post-2010. "Sustained" count = WQ-246 (Will) |
+| 5Y5Y fwd (T5YIFR) | **2.34%** | 🟡 | [CONF FRED **9/22**, last INPUT-SUPPORTED cell] — **16bp from 2.50.** ⚠️ FRED's 2.36 [9/23] is PROVISIONAL (inputs stop 9/22; WALTER −011, `KB-BND-320`) |
+| 10Y BE (T10YIE) | **2.33%** | 🟡 | [CONF FRED **9/22**] = 4.96 − 2.63 exactly; 2.35 [9/23] provisional |
+| ACM 10Y TP · KW TP | 0.7090 [9/15] · 0.9610 [9/11] | 🔴 `[STALE 9/24]` | Not re-pulled this session (re-pull at next full boot). KW 0.9610 = highest since 2011-02-11 at the time. **Name the model in any TP claim** (5.1bp model gap, `KB-BND-298/299`) |
+| **HY OAS** | **273bps** | 🟢 | [CONF FRED **9/23**] — 27bp from the 300 reopen line; 2026 max 346 |
+| **CCC OAS** | **1093bps** | 🟠 ↑ | [CONF FRED **9/23**] — **fresh 2026 high** (+18bp d/d; prior max 1085 [9/15]); **7bp from 1100** (`BND-27`) |
+| IG OAS | **77bps** | 🟢 | [CONF FRED **9/23**] |
+| CCC−BB tail gap | **934bp** | 🟠 ↑ | [CONF FRED, BOND computation **9/23**] — BB 159; **above the 926 span max** |
+| **FR2004 long-end** | **$146.2B** [as-of 9/9] | 🟡 | [NY Fed via `fr2004_fetch.py`, 9/24] — **+$1.5B w/w** after −$7.1B; 11-21Y $66.8B flat, >21Y $43.4B, 7-11Y $36.0B; −16.5% off the 6/24 peak. One build ≠ the two-consecutive-builds trigger |
+| **SOFR − IORB** | **−3bp** | 🟢 | [CONF FRED SOFR 3.87 · IORB 3.90, **9/23**] — funding calm through the 5Y failure. LIQUID owns the plumbing read (asked 9/24) |
+| TLT · ^MOVE | **$80.05 −0.51%** · — | 🟠 | [yfinance **9/24 ~13:0x intraday** — a MOMENT property, re-pull at any decision, root rule #4]. TLT 81.80 [9/21] → 80.46 [9/23] → 80.05. ^MOVE not re-pulled (off-RTH fill-forward hazard, `SIG-W-20260919-001`) |
+| UK 10Y · Bund 10Y · JGB | 5.29 [TE 9/18] · 3.50–3.52 [9/18] · MOF dark to ~9/24 | 🟠 `[HANS/SAM own]` | UK basis caveat: BoE IADB par 5.2421 [9/16] vs TE — **name the basis** (`KB-BND-319`) |
+| USD/JPY · Brent · VIX | **cite SAM · BRENT · VIOLET** | — | this desk keeps no copy |
 
-### Gate distances — the numbers that drive decisions *(recomputed every boot, never carried)*
+### Gate distances *(recomputed this session, never carried)*
 
 | Gate | Distance | State |
 |---|---:|---|
-| **DFII10 ≥2.50 — the ONLY live TLT-put add-gate** | 🔴 **THROUGH by 12bp** [2.62, **9/15**], 4 published sessions | 🔴 **LEVEL leg fired 9/10 and has HELD** (`BND-29` TRUE). ⛔ **Authorises NO add:** "sustained" has no session count (**WQ-246, with Will**); 7/16 NO-ADD; root rule #5; `$0`. Spec defect `KB-BND-278` unchanged. 🔑 **The dovish SEP that was the named threat to this breach ARRIVED (terminal 4.125) and reals rose anyway.** Protocol record → `domain/sources/2026-09-15_STATUS_rotated_add-gate-breach-protocol_9-14.md` |
-| T5YIFR >2.50 (inflation-unanchor) | 19bp [9/16] | 🟡 |
-| DGS30 >5.00 (long-end level) | — | 🔴 **BREACHED**, 50-session run, 66 days of 177 [9/15] |
-| DGS10 >4.50 (arm-#2 line) | — | 🔴 **BREACHED** (5.00) |
-| HY OAS >300 (reopen HYG) | 24bp [9/15] | 🟢 (was 35 on 9/11) |
-| CCC >1100 escalation | **15bp** [9/15] | 🟠 closing ~5bp/session (24 → 19 → 15) |
-| Credit-equity lead reactivate (HY +75–100 from the 263 trough) | 62–87bp [9/15] | 🟢 inactive |
-
-### FR2004 dealer stock — 9/2 as-of [re-pulled 9/17 09:1x: the 9/9 as-of is NOT YET PUBLISHED; re-test: 2026-09-18]
-11-21Y **$66.8B (+$1.8B w/w, second consecutive bucket build)**, >21Y $47.0B, 7-11Y $30.9B; **long-end TOTAL $144.7B, −$7.1B w/w and −9.2% off the 7/29 peak** — the bucket built while the total fell. `VX-BND-04` **holds at 2** — the trigger is two consecutive builds on TOTAL, and a build into a strongly-cleared week is distribution, not warehousing. 🟢 **WQ-157 leg ② premises CLOSED 9/14** (ceiling n=244 VERIFIED; SBN2022/SBN2024 pooling DEFENSIBLE, INFERRED). ⛔ **THE JOIN ITSELF IS UNBUILT AND DUE TOMORROW 9/18 — a live `I'` fire (9/15) sits on the other side of it; the paired kill is UNEVALUABLE until it lands.** Detail → `domain/sources/2026-09-15_STATUS_rotated_WQ157-premises_9-14.md`; probe → `analysis/2026-09-14_FR2004_SBN2022-SBN2024_comparability-probe.md`.
+| **DFII10 ≥2.50 — TLT-put add-gate (a)** | 🔴 **THROUGH by 13bp** [2.63, 9/22] | Level leg held every published session since 9/10. ⛔ "Sustained" count = **WQ-246 (Will)**; authorises no add |
+| **Auction re-arm (OLD conjunctive) — TLT-put add-gate** | 🔴 **MET 9/23 (5Y)** | ⛔ **Re-arm ≠ add.** WQ-280 with Will; PROME rec DECLINE; 7/16 NO-ADD; root rule #5 |
+| T5YIFR >2.50 | 16bp [9/22] | 🟡 |
+| DGS30 >5.00 · DGS10 >4.50 | — | 🔴 BREACHED (run 55) · 🔴 BREACHED |
+| `GATE-TERRY-007` (DGS10 <4.50 ×5) | 46bp [9/22] | TERRY's rail; counter 0 |
+| HY OAS >300 (reopen HYG) | 27bp [9/23] | 🟢 |
+| CCC >1100 escalation | **7bp** [9/23] | 🟠 closing |
+| Credit-equity lead (HY +75–100 from the 263 trough) | 65–90bp | 🟢 inactive |
 
 ---
 
@@ -62,79 +68,71 @@
 
 | # | Vector | Score | Status | Rolls up (`workbook/VX.tsv`) | Key Signal | Upgrade Trigger |
 |---|---|---:|:--:|---|---|---|
-| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `VX-BND-12` · `VX-BND-14` | 30Y 5.36 [9/15], 1bp off the 2026 high, 50-session run ≥5.00; **DFII10 2.62 = +12bp through the gate, 4 sessions (`BND-29` TRUE)**; **the dovish SEP did not unwind it**; KW TP 0.8892 [9/4 stale] | DFII10 ≥2.50 sustained (count = WQ-246), or a fresh DGS30 high with weak composition |
-| 2 | Treasury auction health | **2** = | 🟡 | `VX-BND-01` · `VX-BND-08` · `VX-BND-13` · ~~`VX-BND-09`~~ RETIRED | **9/15 20Y-R: FIRST `I'` FIRE (−9.25pp) — 🟠 MARKER, mechanism intact** (bid substituted, BTC 2.57, dealers 16.85 < max); OLD conjunctive NOT fired; kill PAIRED, FR2004 leg due 9/18. **9/17 TIPS-R ⏳ 1PM (no `I'`, never counts).** Downgrade counter **0** | A composition failure with the FR2004/funding leg confirmed (paired kill), or 3 consecutive nominal coupons passing both legs (counter **0**) |
-| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/2: 11-21Y $66.8B (+$1.8B, 2nd build) but long-end TOTAL $144.7B (−$7.1B) [9/9 as-of unpublished at the 9/17 check]. **Buybacks: 9/10 10–20Y $5.187B/$6B, OFF-THE-RUN (F2 read routed); 9/15 TIPS op $0.5B/$2.088B; 9/17 7Y–10Y op $4B cap TODAY — both outside the F2 letter; F2 carrier LIVE (`buyback_f2.py`), next in-scope op 9/24 20–30Y** | A further 11-21Y build **with** weak composition or SOFR−IORB positive; F2 ON-THE-RUN fire (>50% newest-quartile, base rate 0/52) |
-| 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `VX-BND-11` | HY **276 [9/15], +11bp/2 sessions**, zero pulled deals, primary open; **CCC 1085 = fresh 2026 high, 15bp from 1100 (`BND-27` 65% no-breach, momentum against it)**; CCC−BB 924 | HY OAS >300 with velocity (24bp), or a pulled-deal cluster |
-| 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `VX-BND-10` | IG 80; record-September supply forecast, issuers pulling forward (`KB-BND-259`) | IG >120 or a failed syndication |
-| 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF 0.8585, z20 +1.28 [9/8, STALE] — credit-excess RICH, no divergence | Synthetic leading cash on a sustained basis |
-| 7 | Credit-equity lead | **1** = | 🟢 | `VX-BND-07` | Inactive — HY 62bp below the reactivation band [9/15] | HY +75–100bp from the 263 trough while VIX <20 |
+| 1 | Long-end / duration | **3** = | 🟠 | `VX-BND-05` · `12` · `14` | DGS30 5.29 [9/22], run 55; DFII10 2.63 through the gate since 9/10; 1y1y new sample high; vendor 30Y 5.43 intraday | **A fresh DGS30 high WITH weak composition — 9/23 HAS the weak composition; if H.15 DGS30[9/23] >5.37 the letter fires ⇒ 4** (docketed 9/25). Or DFII10 sustained (WQ-246) |
+| 2 | Treasury auction health | **3** ▲ | 🟠 | `VX-BND-01` · `08` · `13` | **9/23 5Y: BTC 2.21 < 2.28 cover bar (and <2.3 KEY-THRESHOLD cover marker) + OLD composition failure + `I'`; 7Y `I'` by 0.04pp.** Paired kill NOT fired (funding −3bp; FR2004 leg unevaluable ~mid-Oct) | A composition failure with the funding/FR2004 leg CONFIRMED (paired kill) ⇒ 4 |
+| 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `16` | FR2004 9/9 long-end $146.2B (+$1.5B, one build); 5Y dealer 15.77 is the trailing-12 max but ordinary vs 2023–24. **9/24 20–30Y buyback op: F2 read ~14:15** | Two consecutive builds on TOTAL with weak composition, or SOFR−IORB positive; F2 ON-THE-RUN fire |
+| 4 | HY market function | **2** = | 🟡 | `VX-BND-02` · `11` | HY 273 inert; **CCC 1093 fresh high, 7bp from 1100**; CCC−BB 934 new span max | HY >300 with velocity, or a pulled-deal cluster |
+| 5 | IG market function | **1** = | 🟢 | `VX-BND-03` · `10` | IG 77 [9/23] | IG >120 or a failed syndication |
+| 6 | CDX-cash basis | **1** = | 🟢 | `VX-BND-06` | HYG/IEF z20 +1.28 [9/8, STALE] | Synthetic leading cash, sustained |
+| 7 | Credit-equity lead | **1** = | 🟢 | `VX-BND-07` | Inactive — 65–90bp headroom | HY +75–100bp from 263 while VIX <20 |
 
-**Composite: 12/35 — UNCHANGED for a FIFTEENTH consecutive scoring session** (… 9/10 · 9/14 · 9/15 · **9/17**). *Held: row 1's trigger reads "≥2.50 SUSTAINED" and the count is Will's (WQ-246) — 4 sessions is the factual input, not a ruling; row 2's `I'` fire is a marker by the 9/11 pairing rule; row 3's official bid ran once and its cover is ambiguous on normalisation. Nothing crossed a pre-registered line this session; the TIPS print at 1PM cannot move any of them by rule.* Distribution: 🟠 1 · 🟡 3 · 🟢 3 · 🔴 0.
-**Re-summed and verified against the vector scores this session: 3+2+2+2+1+1+1 = 12.** ✅
+**Composite: 13/35 — UP 1 (12 → 13), the first change in sixteen scoring sessions.** Row 2 moved **2 → 3 on a pre-registered rule, not a judgement**: the 5Y BTC 2.21 is below both its trailing-12 min (2.28) and the KEY-THRESHOLDS 2.3 cover marker, which "escalates the vector" (the 7/27 precedent, when the vector moved on a benign story because that is what pre-registration is for). **The KILL is a different test and did not fire.** Distribution: 🟠 2 · 🟡 2 · 🟢 3 · 🔴 0. **Re-summed: 3+3+2+2+1+1+1 = 13 ✅.** ⚠️ `VX.tsv` row-state write-back for `VX-BND-01` owed at closeout.
 
-**Tracked OUTSIDE the composite:** `VX-BND-15` inflation-expectations anchoring (2) · `VX-BND-17` MBS / housing-finance relay (1) · `VX-BND-18` FHLB advances (2) · `VX-BND-19` eurozone rates / ECB shock (3 — ECB 2.50% DFR eff. 9/16; **"disorderly" qualifier UNDEFINED, define at the 10/1 refresh, `KB-BND-256`**) · `VX-BND-20` benchmark-driven structural UST demand (2 — GPFG proposal; checkpoint **10/6**; `monitors/BENCHMARK_DEMAND.md`).
-
-> ✅ **"Mirror divergence" CLOSED 9/17 — never a defect** (matrix rows are CONJUNCTIVE, components are not). Full record + why it survived 9 sessions → `KB-BND-300`.
+**Outside the composite:** `VX-BND-15` inflation anchoring (2) · `VX-BND-17` MBS relay (1) · `VX-BND-18` FHLB (2) · `VX-BND-19` EZ rates (3 — HANS: ECB T-04 no longer a hawkish lean; German 2027 debt service +38%; "disorderly" UNDEFINED → 10/1) · `VX-BND-20` benchmark UST demand (2, checkpoint 10/6).
 
 ### Prediction scoreboard *(canonical: `thesis/PREDICTIONS.tsv`)*
 
-✅ **OPEN: 3** — `BND-25` (belly-led 9/16 session, 55%) and `BND-26` (1y1y <4.95 thru 9/23, 70%) are **NOT GRADEABLE: the 9/16 H.15 cells were still unpublished at a DATED cache-busted check 2026-09-17 16:04 ET — frontier 9/15 on all ten registered tenors.** ⛔ **They stay OPEN, not VOID: `BND-25`'s residual branch voids only if both dates are still absent at 9/25 17:00 ET, and an unpublished session must never be read as evidence for either side.** 🔴 **The saved resolver was REBUILT pre-print — it deviated from its own letters in four ways incl. grading an 11th out-of-universe tenor (`KB-BND-311`).** · `BND-27` (CCC <1100 thru 9/30, 65% — 15bp away, closing ~5bp/session). 🟢 `BND-29` TRUE 9/17 (70%) · `BND-28` TRUE 9/15 (80%).
-**Live file holds `BND-25` → `BND-29`; `BND-22`→`BND-24` archived 9/14 (`thesis/archive/PREDICTIONS_resolved_BND-22_to_BND-24.tsv`, crc32 `2391597581`); `BND-01`→`BND-21` in `thesis/archive/…BND-01_to_BND-17.tsv` and `…BND-18_to_BND-21.tsv` (crc32 `3942345676`).** Resolved tally: **13 TRUE · 11 FALSE · 1 VOID.**
+**OPEN: 1** — `BND-27` (CCC <1100 through 9/30, 65%; **7bp away, 1093 [9/23], five sessions left** — momentum against it). **Resolved 9/24:** `BND-25` **TRUE** (55%) · `BND-26` **FALSE** (70%). Earlier: `BND-29` TRUE 9/17 · `BND-28` TRUE 9/15. **Tally: 14 TRUE · 12 FALSE · 1 VOID.** Archives: `thesis/archive/PREDICTIONS_resolved_*`. ⚠️ **No new predictions registered this session; the 10/28 FOMC curve-shape row is owed with a base rate by 10/21.**
 
 ---
 
-## Trade Interface *(full view → `TRADE.md`; positions are TERRY's construction lane)*
+## Trade Interface *(full view → `TRADE.md`; construction is TERRY's lane)*
 
-- **TLT puts — HOLD, NO ADD.** 🔴 The only live add-gate (**DFII10 ≥2.50 sustained**) is **through on its level leg for 4 published sessions (2.62 [9/15], +12bp)**; the sustain COUNT is undefined (WQ-246). **A LEVEL FIRING IS NOT AN ADD.** 🔑 **The 9/16 SEP was the named dovish threat and it did not unwind the move; `GATE-TERRY-007` is 50bp away (DGS10 5.00) and the dovish-rally route delivered nothing** — TERRY's lane, stated not proposed. ⛔ **Will's 7/16 NO-ADD governs; root rule #5; harvest/roll/sizing are TERRY's (expiry 9/30).** *POSTURE, never a direction.*
-- **HYG puts — stay closed at the INDEX level.** HY **276 [9/15]** (+11bp in two sessions; still 24bp from the 300 reopen line); access unimpaired, zero pulled deals. **Residue = the CCC tail: 1085, 15bp from 1100** — if it arms: single-name/CCC, never HYG.
-- **Credit-equity lead — inactive.** 62bp headroom [9/15].
+- **TLT puts (Sep-30 77P ×20 — 5 of 25 sold 9/10, `FORGE/STATUS.md:54`) — HOLD, no add, `$0`.** 🔴 **BOTH add-gates now read through on their letters:** (a) DFII10 2.63 (sustain count WQ-246) and **the OLD-conjunctive auction re-arm (9/23 5Y)**. ⛔ **Neither is an add: Will's 7/16 NO-ADD governs, WQ-280 is with Will (PROME rec DECLINE, with a fresh TERRY card as the named alternative), root rule #5.** **Expiry 9/30 = 6 days; harvest/roll is TERRY's.** *Posture, never a direction.*
+- **HYG puts — closed at the INDEX level** (HY 273). CCC tail 7bp from 1100 → if it arms: single-name/CCC, **never HYG**.
+- **Credit-equity lead — inactive.**
 
 ---
 
 ## Exit / Falsification *(full set → `thesis/THESIS.md`)*
 
-**1 · THESIS KILL (exit all).** 🔴🔴 **WQ-157 LEG ① (Will 9/4): `I'` STANDALONE THROUGH 9/10; PAIRED THEREAFTER — pairing instrument = the FR2004 weekly join, ✅ DELIVERED 2026-09-17.** 🔴 **AND THE 9/15 FIRE IS STILL NOT PAIRABLE: it needs the 9/16 FR2004 as-of, the latest PUBLISHED is 9/2, so it stays UNEVALUABLE until ~EARLY OCTOBER. "Evaluable 9/18" was wrong — 9/18 was the INSTRUMENT's date, not the fire's** (`KB-BND-307`). Both standalone evaluations done, neither fired (9/9 +14.13pp · 9/10 +16.55pp). 🔴 **The 9/15 20Y-R FIRED `I'` (−9.25pp pooled / −12.20pp alt) INSIDE the paired window with the pairing instrument UNBUILT ⇒ the kill leg is UNEVALUABLE until the join lands.** Ceiling n=244 + comparability: FR2004 block above.
-- **NEW test (Will-ruled 8/27):** indirect below that tenor's own trailing-12 15th percentile, SUFFICIENT ALONE (dealer descriptive; >18% = contrarian-bullish). **Bars canonical at `monitors/AUCTION_HEALTH.md` §GRADING BASIS; 2Y/5Y/7Y RE-FROZEN 9/17 for 9/22–24 — 54.82 / 60.27 / 57.24, unchanged.**
-- **OLD (dual-print, retained):** indirect below trailing-12 min **AND** dealer above trailing-12 max, same tenor. ⛔ **The TLT-put ADD re-arm in `TRADE.md` runs on the OLD, STRICTER test** (WQ-99, Will 9/1). Never loosen an add gate as a side effect of a definition reconcile.
-- 🔴 Direction disclosed: the new test is STRICTLY EASIER TO FIRE and its firing CONFIRMS this desk's own bear thesis. Percentages are of **competitive accepted**; never reuse another tenor's numbers.
+**1 · THESIS KILL (exit all duration shorts).** WQ-157 leg ① (Will 9/4): **`I'` + a NON-AUCTION mechanism confirmation (FR2004 dealer stock and/or SOFR−IORB)** since 9/11. **9/23 5Y: `I'` fired; SOFR−IORB −3bp ⇒ funding leg UNMET; FR2004 leg needs the as-of straddling 9/23 (~mid-October) ⇒ KILL NOT FIRED, partly UNEVALUABLE.** Unpaired `I'` fires: 9/15 20Y-R · 9/23 5Y · 9/24 7Y. **WQ-157 leg ② still with Will** (the join found the pairing INVERTS, p=0.009; funding leg p=0.523; MDE ≈16bp; BOND recommends nothing). Also: 10Y back below 4.15 ×3 with clean auctions ⇒ spent.
+- ⚠️ `I'` bars: `monitors/AUCTION_HEALTH.md` §GRADING BASIS. **Grader defect `KB-BND-314`: reopenings of older longer issues are pooled by ORIGINAL term (the Jan-2026 2Y sits in the 5Y pool) — verdict-neutral so far; fix before the 10/6 3Y.**
+- 🔴 Direction disclosed: `I'` is the easier test and its firing confirms this desk's own bear thesis.
 
-**2 · POSITION-SPECIFIC.** TLT puts: **kill on 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** (THESIS §2 letter, one spec on all three surfaces since 9/9), or the thesis kill. Expiry 9/30 and the 60-DTE rail are TERRY's.
+**2 · POSITION-SPECIFIC.** TLT puts: kill on 10Y <4.15 AND 30Y <5.0 ×3 sessions AND a clean refunding (THESIS §2). Expiry 9/30 is TERRY's rail.
 
-**3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal-coupon auctions passing **both** legs (indirect at/above median **and** dealer at/below median). **Counter = 0 — RESET by the 9/15 20Y-R** (failed both legs). **TIPS never count: the 9/17 print cannot move it.** Next eligible: 9/22 2Y.
+**3 · CONVERGENCE DOWNGRADE (trim).** Three CONSECUTIVE nominal coupons passing both legs (indirect ≥ median AND dealer ≤ median). **Counter 0** (2Y failed the dealer leg 13.19 vs 11.33; 5Y and 7Y failed indirect). Next eligible: 10/6 3Y.
 
-**4 · TIME-BASED.** FR2004 weekly join ✅ **DELIVERED 9/17** (WQ-157 leg ②); **the 9/15 fire's own pairing print (9/16 as-of) lands ~EARLY OCTOBER.** **F2 per-op reads: 9/24 · 10/1 · 10/8 · 10/15 · 10/27 · 11/4 (carrier `monitors/buyback_f2.py`, every boot).** Quarterly percentile-snapshot refresh + `VX-19` "disorderly" definition **10/1**. `VX-20` review **10/6**. FHLB Q3 report **11/9**. FRBNY FX report **11/13**. US-sovereign-CDS re-test **12/1** (`KB-BND-261`).
+**4 · TIME-BASED.** H.15 9/23 cells (row 1) **9/25** · quarter-end + PCE + `BND-27` + expiry **9/30** · F2 reads **9/24 · 10/1 · 10/8 · 10/15 · 10/27 · 11/4** · quarterly `I'` refresh + `VX-19` definition + **F2 10Y–20Y vintage fix** **10/1** · `VX-20` **10/6** · FHLB Q3 **11/9** · FRBNY FX **11/13** · US-sov-CDS re-test **12/1**.
 
-⚠️ **RETIRED AND NOT REVIVABLE: the auction TAIL (>2bp)** — TreasuryDirect publishes no when-issued ⇒ unscoreable by construction. Wire tails are `[med-conf]` and may never fire anything.
+⚠️ **RETIRED, NOT REVIVABLE: the auction TAIL.** The 9/23 "2nd biggest tail ever" wire claim is `[med-conf]` and fires nothing.
 
 ---
 
-## Immediate Catalysts *(source of truth = `docket/CATALYSTS.tsv`; this is the human twin and must not diverge in event SET)*
+## Immediate Catalysts *(source of truth `docket/CATALYSTS.tsv`; human twin — same event SET)*
 
 | Date | Catalyst | What BOND watches |
 |---|---|---|
-| ✅ **Thu 9/17 1:40 PM — RAN** | **7Y–10Y liquidity-support buyback op** — confirmed **OUT of sb0607's stepped-up sectors** (10–20Y and 20–30Y nominals only) by `buyback_f2.py` | ⛔ **No F2 read owed, no packet to RED, arrears stay 0.** ⚠️ **The one-line KB context row on the op RESULT was NOT written this session — carried, not dropped.** Next in-scope op **9/24 20–30Y**, the carrier's first true exercise. |
-| ✅ **Fri 9/18** | **FR2004 WEEKLY JOIN — ✅ DELIVERED 9/17, A DAY EARLY** (WQ-157 leg ②, L271) · 🔴 **CARRIED: grade `BND-25`/`BND-26`** | Join verdict: **the pairing does NOT filter (p=0.137) and INVERTS** (p=0.009, five legs); funding leg F2 p=0.523, MDE ≈16bp at the registered α. **BOND recommends nothing; Will rules 9/19.** ⚠️ **STILL OWED 9/18:** the 9/09 FR2004 as-of (unpublished ≥15d) and the `BND-25`/`BND-26` grade (9/16 H.15 cells unpublished at a dated 16:04 check). 🔴 **The 9/15 `I'` fire is NOT pairable until the 9/16 as-of publishes ~EARLY OCTOBER — "evaluable 9/18" was wrong (`KB-BND-307`).** |
-| **Tue 9/22 · Wed 9/23 · Thu 9/24** | **2Y `91282CRP8` · 5Y `91282CRN3` · 7Y `91282CRM5`** month-end cluster (+ 2Y FRN-R 9/23, excluded from every bar); sizes at the 9/17 announcement | **`I'` bars RE-FROZEN 9/17 (venv, P15, strictly prior): 54.82 · 60.27 · 57.24 — UNCHANGED**; OLD 53.21/24.12 · 59.24/15.61 · 56.42/13.14; cover BTC <2.44 · <2.28 · <2.40. Counter re-arms at the 2Y. |
-| 🔴 **Thu 9/24 1:40 PM** | **20Y–30Y buyback op ≥$4B — the FIRST in-scope F2 read of the carrier** | `buyback_f2.py --op 2026-09-24` → packet to RED same day → ledger. Fire = recent_share >50% (base rate 0/52). |
-| **Thu 10/1** | Quarterly `I'` snapshot refresh + RED's boundary fixture + **define `VX-19`'s "disorderly"** · **10–20Y op (F2)** | `monitors/AUCTION_HEALTH.md` §3d rail · carrier |
-| **10/6 · 10/7 · 10/8 · 10/15 · 10/21 · 10/22 · 10/26–29** | `VX-20` review · 3Y/10Y-R/**30Y-R + 20–30Y op (F2)** · 10–20Y op · 20Y-R · 5Y TIPS · month-end cluster | bars frozen at each announcement (10/1, 10/15, 10/22); F2 per op |
-| **10/27 · Wed 11/4** | 20–30Y op (F2) · **QRA + 10–20Y op — F1 (ratchet) / F3 (long-coupon cut) resolve; sb0607 window ends** | carrier + `VX-BND-16` |
-| **11/9 · 11/13 · 12/1 · 2027-01-25** | FHLB Q3 report (`REG-T-06` leg 3, `VX-18`) · FRBNY Q3 FX report · US-sov-CDS re-test · Norwegian MoF expert group (`VX-20` hard checkpoint) | as docketed |
-| **— STANDING —** | MOF FX intervention · Warsh task force (end-2026) · FR2004 weekly · credit weekly · **F2 carrier (every boot)** | `FL-BND-11` · 2027 lane · `VX-04` · `VX-02/11` · `VX-16` |
-
-**Recently resolved** → **9/17 10Y TIPS-R 🟢 CLEAN** — BTC 2.24 · ind 59.12 (+3.04 clear) · dlr 12.18 (−5.61) · stop **2.6530% = highest since 2008-10-08**; counter stays 0, `$0`; **tool's `I'` 61.44 would have fired and was NOT applied — spec excludes TIPS, deferred to 10/1** (`KB-BND-304/305`, grade → `analysis/2026-09-17_GRADE_TIPS-R_91282CRE3.md`) · 9/10 30Y-R (clean) · 9/15 20Y-R (`I'` fire, marker) · **9/16 FOMC (graded, `KB-BND-293`)** · 9/11 hyperscaler share (**DECLINED** under its own second-miss rule, `KB-BND-297`) — rows rotated verbatim to `domain/sources/2026-09-17_CATALYSTS_rotated_fired-rows_9-10_to_9-16.md`.
+| **Thu 9/24 1:40 PM** | 🔴 **20Y–30Y buyback op (cap $6B) — first in-scope F2 read of the carrier** | `buyback_f2.py --op 2026-09-24` **only when results are COMPLETE** (new `complete()` guard) → packet to RED same day |
+| ✅ 9/22 · 9/23 · 9/24 | 2Y 🟢 · **5Y 🔴 OLD composition failure** · 7Y 🟠 `I'` by 0.04pp | Graded 9/24 (`KB-BND-312/313`) |
+| ✅ 9/18 (carried) | `BND-25` TRUE · `BND-26` FALSE | `KB-BND-315` |
+| **Fri 9/25** | 🔴 **H.15 9/23 cells** — DGS30 >5.37? | Row 1 upgrade letter (weak composition day) |
+| **Wed 9/30** | 🔴 **Quarter-end · Aug PCE + Q2 GDP 3rd (8:30) · `BND-27` window closes · TLT 77P expiry** | PCE vs the PMI input-price shock; SOFR−IORB across quarter-end; CCC vs 1100 |
+| **Thu 10/1** | Quarterly `I'` refresh · `VX-19` "disorderly" · **10Y–20Y buyback op (F2 — vintage fix first)** · Oct refunding sizes | `AUCTION_HEALTH.md` §3d; `KB-BND-314` fix |
+| **Fri 10/2** | Sept Employment Situation (8:30) | 2Y / 1y1y reaction |
+| **10/6 · 10/7 · 10/8** | 3Y · 10Y-R · 30Y-R + 20–30Y op (F2) · `VX-20` review | bars frozen at the 10/1 announcement |
+| **Wed 10/14 · 10/15** | Sept CPI (8:30) · 10–20Y op (F2) | breakevens on input-supported cells only |
+| **10/21 · 10/22 · 10/26–29** | 20Y-R · 5Y TIPS · month-end cluster | bars at each announcement |
+| **Wed 10/28 2:00 PM** | 🔴 **October FOMC** (~70% hike priced, TE secondary) · ECB 10/29 | register a curve-shape row by 10/21 |
+| **10/27 · 11/4** | 20–30Y op · **QRA + 10–20Y op (F1/F3 resolve; sb0607 window ends)** | carrier + `VX-BND-16` |
+| **11/9 · 11/13 · 12/1 · 2027-01-25** | FHLB Q3 · FRBNY FX · US-sov-CDS re-test · Norwegian MoF expert group | as docketed |
+| **— STANDING —** | MOF FX intervention · Warsh task force · FR2004 weekly · credit weekly · F2 carrier every boot | `FL-BND-11` · `VX-04` · `VX-02/11` · `VX-16` |
 
 ---
 
 ## BOTTOM LINE
 
-**[2026-09-17 Thu ~16:0x ET → SESSION CLOSE. L404 + L271 both DISCHARGED and closed on PROME's side; WQ-157 leg ② is on Will's 9/19 queue. `BND-25`/`BND-26` NOT gradeable — publisher, not market.]**
-*(9/15 block rotated verbatim → `domain/sources/2026-09-17_STATUS_archive_rotated_9-15-blocks.md`, crc32 `1463914424`.)*
-*(9/16-FOMC + the two PRE-PRINT paragraphs rotated verbatim 9/17 13:2x → `domain/sources/2026-09-17_STATUS_rotated_BOTTOM-LINE_pre-print-blocks.md`, crc32 `3015434035`. FOMC substance: `thesis/THESIS.md` v1.2.7 + `KB-BND-293`.)*
+**[2026-09-24 Thu ~13:1x ET — boot after a six-day gap; markets open.]**
 
-🔴 **WQ-157 LEG ② MEASURED IN BOTH HALVES — NEITHER SUPPORTS THE PAIRING.** Stock leg: doesn't filter (p=0.137) and **INVERTS** (paired −5.0bp/27% up vs +6.5bp/68% unpaired, p=0.009, sign consistent across five legs). Funding leg, pre-registered `c563a9ff6`: F2 **did not detect** support (n=19/33, p=0.523). ⚠️ **MDE ≈16bp at the registered α=0.01 ⇒ NO row excludes a meaningful effect; even the stock leg's −11.5bp sits at ≈35–40% power.** ⛔ **BOND recommends NOTHING — every result favours a looser kill that confirms this desk's own thesis. Will rules 9/19; PROME's rec is PARK.** → the two WQ-157 analysis files.
-
-✅ **THE FR2004 JOIN DELIVERED 9/17, A DAY EARLY — AND ITS VERDICT GOES AGAINST THIS DESK'S OWN PAIRING.** n=224 joined auctions, ceiling n=244 (not 243), pooling DEFENSIBLE/INFERRED. `I'` standalone fires **23.2%**, OLD conjunctive **1.8%**. **The dealer leg does NOT separate (z=1.49, p=0.137) and INVERTS the forward relationship: paired fires are followed by 30Y −5.0bp at +5d (27% up) vs +6.5bp (68% up) for `I'` fires WITHOUT the leg — p=0.009, sign consistent across all five leg definitions.** ⚠️ **That conclusion favours a LOOSER kill that confirms my own thesis, so NOTHING is changed on BOND's authority — it goes to Will as the WQ-157 leg ② ask.** SOFR−IORB, the other half of the letter's instrument set, is UNTESTED. → `analysis/2026-09-17_FR2004_WEEKLY_JOIN_WQ-157-leg-2.md`, `KB-BND-306/307`. Also owed: `BND-25`/`BND-26` on the 9/16 H.15 cells; the hyperscaler share is **DECLINED** (`KB-BND-297`).
-
-**Position: TLT puts HOLD, no add, `$0`. Composite 12/35, FIFTEENTH consecutive (matrix line 73 is canonical; 9/17 IS that fifteenth — a 'sixteenth' written here at closeout was caught by the step-17 mirror check before commit). Downgrade counter 0 (next eligible 9/22 2Y). OPEN predictions: 3.** Session record → `SCRATCH.md`; grade → `analysis/2026-09-17_GRADE_TIPS-R_91282CRE3.md`.
+**The auction side just produced this desk's hardest test since the thesis was written.** The 9/23 5Y failed the strict two-part composition test: foreign-type buyers took their smallest 5Y share since March 2020 while dealers took the most in a year. That meets the pre-set condition for adding to the TLT puts. **It is Will's call (WQ-280), PROME recommends declining, and BOND proposes nothing.** The caveats that decide it: funding stayed calm (−3bp), dealers were not stuffed by any multi-year standard (they took more five times in 2023–24), and the print cleared on the day hot PMIs sold the whole curve off. **Threshold fired; mechanism not shown failed.** The rate path is also still repricing up: this desk's 9/14 view that the hawkish path was fully priced was **wrong** (`BND-26`). **Position: TLT 77P ×20 HOLD, no add, `$0`, expiry 9/30. Composite 13/35 (▲1). Counter 0. OPEN predictions 1.**
