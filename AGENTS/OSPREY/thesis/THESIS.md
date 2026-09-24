@@ -45,6 +45,7 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 
 - **Resolved 9/8:** downgrade path approved; consumer objection window closed 9/15 without objection. Canonical rules remain in CLAUDE.
 - **Geography resolved 9/8:** Channel-3 qualifier in force. OWED-39 retains Channel-2 Caspian and Channel-3 vessel-class ambiguities; 9/13 unidentified merchant event adds uncertainty.
+- **2026-09-24 update (supersedes the OWED-39 clause above; the original is kept as the record):** Channel 3's vessel class was self-ruled on 9/19: a merchant tanker, struck by the Ukraine side, inside the geography. **Channel 2 now carries the same Black Sea / Azov / Baltic geography qualifier**, on Will's WQ-266 word of 9/19, *"Yes — apply it to both"*. Caspian, inland-pipeline and Arctic/Pacific events go to a companion watch and no longer reset the clock. Letter: EXIT RULES §1. Record: `domain/energy-strikes/WQ266_CHANNEL2_QUALIFIER_2026-09-24.md`.
 - **Gas/LNG** is represented (`VX-OSPREY-GAS-01`, `FLOW-OSPREY-01`) but thinly swept; **vol/credit** transmission (`FLOW-OSPREY-02`) is seeded and has never had an own-theater observation.
 - **Druzhba / EU** remains a pointer, not a tracked series.
 - The **war-risk rate** is event-driven observable and has printed twice in seven weeks; the TD6 freight proxy is a tripwire, not a level.

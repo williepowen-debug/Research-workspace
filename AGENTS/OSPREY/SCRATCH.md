@@ -1,46 +1,34 @@
-# OSPREY SCRATCH — 2026-09-20 (Sun)
+# OSPREY SCRATCH — 2026-09-24 (Thu)
 
 ## CURRENT MARKS
-C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST** — all UNCHANGED. Prices deferred to BRENT. This was a Will-directed boot + catch-up on Ukraine's overnight 19→20 Sep strike on Moscow. **No mark moved.** Full state + obligation register: STATUS.
+C1/C2/C3 **4 / 5 / 3**, band **~30%, 25–35% EST**. All UNCHANGED. Prices come from BRENT. This session was a PROME Tier-1 spawn (DOCKET L447, WQ-184 due-row) and ran four tasks. Full state: STATUS.
 
-## CHANGES SINCE LAST SESSION
-- 🔥 **UKRAINE HIT MOSCOW OVERNIGHT 19→20 SEP — largest single-night drone barrage of the war** (Russia MoD: 1,110 downed across 19 regions; prior high 822). Timed for final day of State Duma elections; 2 killed, ~20 injured Moscow region. **`Moscow Oil Refinery` (Kapotnya, Gazprom Neft, ~11 Mt/yr, ~40% of Moscow's fuel) HIT + on fire.** Rowed `RU-20260920-MOSCOW-REFINERY`, KB-142.
-- ⛔ **Only the strike + fire is confirmed.** The AVT-6/isomerisation unit detail is belligerent-GS + Russian-Telegram and ECHOES the June-2026 strike — but a re-strike is possible, so repetition is NOT proof of recycling (CATO F4); UNVERIFIED, not banked. +5d re-read owed ~9/25 (OWED-43).
-- **New C1 clock anchor: Moscow 9/20 → 1/30 as of 9/21**, supersedes Yaroslavl 9/17. ⚖️ **C1 upgrade-to-5 is a LIVE Will-gated decision — written trigger MET as written** (see decisions block); capacity-not-barrels; band unmoved.
-- ✅ **Targeted theater scan 9/17→9/20 (NOT a certified pass):** no new crude-terminal loss (C2), **no new Ukraine-side tanker strike (C3)**. C3 clock **9/21** off ARMADA LEADER 9/12, limb-1 kill 2026-10-03. ⛔ **Limb 2 = UNDETERMINED per HAWK (9/19 reply, KB-147)** — pointer circular, JWLA-035 is territory not price; NOT "runs against a kill". The '12 shadow-fleet vessels' story is **2026-07-17 vintage** — did NOT contaminate C3.
-- ✅ `strike_feed.py` run: 29 rows, 22 NONE all dispositioned, 6 MATCHED, 1 NOT_READ (militarnyi again empty). ⚠️ Recall = OVERLAP only — the feed re-surfaced the Moscow refinery I'd ALREADY rowed; that is NOT a demonstrated manual-miss catch (CATO). No new missed strike found.
-- 🆕 **NEW DOMAIN ITEM the feed surfaced: US 'Sanctions from Hell' bill — Congress passed ~9/17, Trump signed ~9/19.** Russia energy-sanctions scope (my domain), POLICY not a strike. NOT worked this session. Follow-up owed; BRENT + HAWK are consumers.
+## CHANGES SINCE LAST SESSION (9/21)
+- ✅ **C2 geography qualifier ADOPTED** (WQ-266, Will 9/19 *"Yes — apply it to both"*). Letter is in CLAUDE.md EXIT RULES §1; record `domain/energy-strikes/WQ266_CHANNEL2_QUALIFIER_2026-09-24.md`; KB-148. The C2 clock is **15/30 from Novorossiysk 9/9, kill 10/09**, one day earlier than under the bare letter. Companion watch is live in STATUS. Option ② (products terminals) is **unruled**.
+- 🔥 **Moscow: Reuters 9/21 says crude processing HALTED** (both CDUs). Barrels are still unestablished, because the June "offline to 2027" reports conflict with Reuters' "operating pre-strike" (KB-149).
+- **Kuibyshev + Bashneft-UNPZ hit 9/22** (GS-confirmed; Samara governor). **New C1 anchor 9/22.** A 9/23 event in the Ufa area is UNCONFIRMED (KB-150).
+- ✅ **HAWK graded C3 limb 2 as REPRICED** ⇒ **no C3 kill on 10/3. The earliest date both limbs could clear is 10/9** (KB-152). HAWK's packet quoted the stale kill date 9/24; a correction packet has been sent.
+- ✅ OWED-33 CLOSED (BRENT: no Urals data). OWED-39 CLOSED (letter adopted).
+- Swept-complete **9/16 → 9/20**. 9/21-23 were swept but NOT certified (Palaemon 21-27 is unpublished). **Vysotsk "9/21" was rejected as July vintage** (KB-155).
+- Inbox 8/8 drained: 5 WALTER + 3 top-level, logged to board_log, git mv'd.
 
 ## ⛔ THE THING NEXT SESSION MUST NOT FORGET
-**THE MOSCOW 'AVT-6 DESTROYED' DETAIL IS UNVERIFIED — belligerent GS + Russian Telegram, and it echoes the June-2026 strike's units.** ⚠️ Per CATO F4: a unit can be re-struck, so repetition is NOT proof of recycling — but it is NOT established damage either. **Do the +5d re-read ~9/23–25** (independent/satellite) before ANY unit-level or barrels claim on Moscow. If someone quotes a big Moscow capacity-offline number, check its date, source and denominator first — LESSONS 1/3 + OWED-43.
-
-## ⛔ CATO REVIEWS (80622311e → 128a90879 → 757aed30e) — THREE passes, logged 9/20-21
-⚠️ **The recurring failure this session was OVER-CLAIMING CLOSURE** — each pass caught me calling something "complete/corroborated/reconciled/all-fixed" when it was partial. Nothing below is "done."
-- **F1 (verified at primary):** "crude keeps flowing / no production loss" WITHDRAWN — Bloomberg: diversion "not enough to maintain production"; output 8.72 M bpd, 9th straight drop. C1→C2 bridge active. KB-144, OWED-49.
-- **F2:** "no independent aggregate exists" too broad — S&P/CERA ~half offline (9/3), IIR 3.8 M bpd (9/8). KB-145, OWED-50.
-- **F5:** "densest tempo" FALSE — Aug 1-20 had 13 refinery rows vs Sept's **10** (exact refinery; the 11th was a refinery-ADJACENT negative).
-- **⛔ 3rd pass (757aed30e) — the big one: I NARROWED MY OWN UPGRADE RULE.** Written trigger (thesis:38) = *"independent >40% offline aggregate"*; S&P ~50% capacity offline **MEETS IT**. I'd added a "runs-based" qualifier to dodge firing. ⚖️ **C1 upgrade-to-5 is now a LIVE, WILL-GATED decision with the trigger MET.** Also: Rystad ~30% is a FORECAST not measured corroboration; numerical reconciliation is OPEN; below-quota ≠ proof of causation.
-- Central lesson (LESSONS 11): unchanged marks = UNMEASURED, not measured-stable. **New this pass: don't re-tune a rule's wording to control whether it fires; evaluate as written.**
+**THE NOVOROSSIYSK DEPARTURE HALT IN THE WEEK TO 9/20 (Bloomberg 9/22, via relay) HAS NO ESTABLISHED CAUSE.** If it is a shut-in, C2 limb 2 ("no shut-in signal") is NOT met and no C2 kill can be written, whatever limb 1 reads. I asked BRENT. Check the answer before 10/9.
 
 ## NEXT SESSION
-0. **CATO reconciliation FIRST (OWED-49/50):** carry both production+export observations; put S&P/IIR beside the runs band on consistent definitions (period/denominator/cause/eligibility) + the 3.6-vs-3.91 basis pair (OWED-42). Re-read S&P/IEA/IIR at the primaries (403 today). Resolve or explicitly retain before any band move. THEN the 9/17-20 coverage pass.
-1. **+5d Moscow re-read (~9/23–25)** — did processing actually halt? Review window, NOT a promised release (CATO F4). Only path from headline to a mark/band move (OWED-43).
-2. **US 'Sanctions from Hell' bill (9/19)** — work it: does it target Russian oil/gas/shadow-fleet specifically? Dated provisions, effective dates. Route to BRENT/HAWK. (Feed FLAG rows, 9/20.)
-3. **Certify the 9/17→9/20 window** — this boot was a targeted catch-up, NOT a full day-by-day facility-name-free pass. `swept-complete` mark still **2026-09-16**. Run a proper in-window pass and advance the mark (and back-fill the pre-9/01 window per 9/19 finding).
-4. **BRENT packet STILL OWED and overdue** — Kirishi, TANECO ~52%, Syzran+Saratov ~290 kb/d, + now Moscow. All capacity, not barrels. Routine escalation folded into NEXUS_BRIEF this session; the explicit packet is still owed.
-5. Carried from 9/19: OWED-30 write-up · OWED-33 (BRENT Urals) · OWED-44 Ust-Luga condensate re-classification · OWED-45 gitignored feed dispositions · OWED-48 AWRP 1% vs 1.5–2.5% (Platts route) · OSP-06 dated search 10/8–15.
-6. **DOCKET L432 (9/21)** — Russian mobilisation decision window (Duma elections closed 9/20); HAWK owns, I'm named consumer for RU↔UA manpower + theatre consequence.
+1. +5d re-reads: Moscow (barrels: reconcile the June "offline" reports against the Reuters 9/21 "operating" report) · Kuibyshev/UNPZ ~9/27 · Ufa 9/23 confirm-or-drop.
+2. Palaemon 21-27 Sep (~9/28): certify 9/21→9/23 and advance the mark.
+3. BRENT's answer on the Novorossiysk halt cause (KB-156).
+4. US "Sanctions from Hell" bill (signed ~9/19). Still unworked; route to BRENT/HAWK.
+5. Carried: OWED-30 write-up · 34/45 feed residuals · 42/50 basis-pair + September aggregate reconciliation · 44 Ust-Luga condensate · 48 AWRP 1% vs 1.5–2.5% · OSP-06 dated search 10/8–15 · 10/6 L309 feed acceptance test.
 
-## OPEN THREADS / WATCHES
-All OWED IDs preserved in STATUS register (13·14·17·18·19·24·30·33·34·35·36 + 40–50). Nothing closed this session. C3 limb-1 kill 2026-10-03 if no qualifying tanker strike; **limb 2 = UNDETERMINED per HAWK (KB-147), NOT "runs against a kill"**. 10/6 L309 acceptance test — recall is OVERLAP-only this pass, not a demonstrated miss-catch.
-
-## PREDICTIONS DUE / DECISIONS PENDING
-**OSP-06 OPEN 45%, deadline 10/15** — unaffected today. **No prediction due.** No trade proposal.
-⚖️ **LIVE WITH WILL — C1 (refineries) upgrade 4→5.** Written trigger's offline-aggregate limb IS MET (S&P ~50% capacity offline); CATO (349eb1d1d) concurs it's supportable. Will-gated, NOT self-moved. ⚠️ Two CATO conditions attached: (1) end-Aug data does NOT imply today is worse (non-monotonic; Sept unmeasured — uncertainty ≠ reason to upgrade); (2) **the upgrade must ship WITH a capacity-based 5→4 downgrade test** — PROPOSED (not enacted): independent capacity-offline <40% on 2 prints + 14d no new refinery row (RECONCILIATION_2026-09-20.md). Decision package for Will = upgrade + adopt that test + keep band/September-uncertainty separate from the score.
-⚖️ **Live with Will (carried from L396):** Channel-2 drawing B vs D — worth ONE DAY of a 30-day clock, recommend B. **Live with HAWK:** the C3 limb-2 grade.
+## PREDICTIONS / DECISIONS
+OSP-06 OPEN 45%, deadline 10/15 (3.53 to 9/20 does not fail it). No prediction due.
+⚖️ With Will: **C1 upgrade 4→5 (WQ-276).** The trigger is met as written on END-AUGUST data. No September figure exists on the open web (KB-154).
+⚑ Option ② (products-terminal assignment) is unruled. My view: not worth Will's time until it changes a kill date within 7 days.
 
 ## MAIL STATE
-Inbox PROCESSED at closeout (CATO audit): HAWK limb-2 reply (9/19) dispositioned → KB-147, and 3 top-level packets `git mv`d to `inbox/processed/`. No 🔴 acute signal fired — Moscow refinery is a 🟠 escalation marker, routed routine via NEXUS_BRIEF (BRENT/HAWK read at boot). **BRENT explicit packet still owed** (carried).
+Inbox EMPTY after the drain. Packets sent 9/24 to BRENT, HAWK and HANS (carve-out ①). Memo to PROME.
 
 ## PENDING PUSH / GIT
-Own files: STRIKES.tsv (+1 row Moscow), KB.tsv (+KB-142), STATUS.md (rotated 9/19 block to archive, 9/20 catch-up), archive/STATUS_ROTATED_2026-09-19.md (append), SCRATCH.md, NEXUS_BRIEF.md. Feed file dispositioned but gitignored (OWED-45). STATUS at 72% of budget (down from 85%); structural hot/cold split still owed to PROME (BROCK, DOCKET L421).
+Committed by exact pathspec in this session; pushed through safe-push (receipt in the PROME memo / SendMessage). Feed file is gitignored (OWED-45).

@@ -1,8 +1,10 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign. **Ukraine hit Moscow 19→20 Sep in the war's largest single-night barrage (1,110 drones downed / 19 regions) and reached the capital's refinery — but no mark moves**; crude-flow recovery persists.
+**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-09-24: Channel-2 kill letter now carries the Black Sea/Azov/Baltic geography (Will WQ-266); refinery strikes continue (Kuibyshev + Ufa 9/22; Moscow processing halt verified by Reuters) — no mark moves (4/5/3, band ~30%).**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-09-21 | **STATUS commit: `88730d41d`**
+**As of:** 2026-09-24 | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+
+🆕 **2026-09-24 (PROME L447 spawn) — READ BEFORE THE 9/20 BLOCK BELOW, it supersedes its clocks:** ① **C2 letter changed:** only in-geography (BS/Azov/Baltic coast or waters) terminal/pipeline/port rows reset it; Caspian + inland-pipeline events → companion watch. **C2 = 15/30 (Novorossiysk 9/9), limb-1 kill 10/09**; limb 2 = Bloomberg 3.53 to 9/20, 0.03 headroom, plus a Novorossiysk departure halt of UNESTABLISHED cause. ② **C3 = 12/21, limb-1 10/03, but HAWK graded limb 2 REPRICED (9/18) ⇒ no kill writable before 10/09.** ③ **C1 anchor Kuibyshev/UNPZ 9/22 (2/30).** Moscow: Reuters 9/21 — crude processing HALTED, both CDUs; barrels unestablished (pre-strike state unreconciled). ④ No independent September refining aggregate on the open web; GS '45%' is belligerent. ⑤ Swept-complete mark → 9/20 (9/21-23 swept, not certified). ⑥ Diesel export ban to end-Oct reported, no decree located.
 
 🔥 **2026-09-20 catch-up:** `Moscow Oil Refinery` (Kapotnya, Gazprom Neft, ~11 Mt/yr, ~40% of Moscow's fuel) **HIT + on fire** overnight 19→20 Sep. ⛔ **ONLY the strike + fire is confirmed** — the 'ELOU-AVT-6 destroyed' unit detail is Russian-Telegram-sourced and **verbatim-matches a JUNE-2026 strike on the same plant** (suspected vintage; NOT banked; +5d re-read owed ~9/25, OWED-43). New C1 anchor 0/30. **Capacity, not barrels — band ~30% and scores 4/5/3 unchanged.** Theater sweep 9/17→9/20 found **no other qualifying event** (C2 no new berth loss; C3 no new Ukraine-side tanker — the '12 vessels' story is 7/17 vintage). This was a targeted catch-up, NOT a certified in-window pass.
 
