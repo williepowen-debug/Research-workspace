@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-24 09:33",
+ "built": "2026-09-24 13:53",
  "channels": {
   "AI capex": "elev",
   "Credit": "watch",
@@ -88,10 +88,10 @@
  ],
  "fleet": {
   "AEOLUS": "watch",
-  "BOND": "watch",
+  "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "ok",
-  "CARL": "watch",
+  "CARL": "ok",
   "CORAL": "elev",
   "CRUISE": "ok",
   "FALCON": "ok",
@@ -102,7 +102,7 @@
   "HOMER": "elev",
   "LABOR": "watch",
   "LIQUID": "ok",
-  "MARCO": "watch",
+  "MARCO": "ok",
   "MIDAS": "elev",
   "NEXUS": "watch",
   "ORACLE": "watch",
