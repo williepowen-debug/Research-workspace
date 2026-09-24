@@ -326,3 +326,12 @@ Additional nonbinding provenance moved from CLAUDE § KEY THRESHOLDS and § OUTP
 ## R-2026-09-09-routine-host — retain existing Claude routines
 
 Will selected retaining the existing routines after distinguishing BRENT files, the session model and scheduler hosting. Astra can consume Claude-produced reports; changing the live-session model does not justify migration. The selected plan is in SCHEDULED_RUNS.md and the maintenance remaining-work plan: preserve the host and apply the already prepared timing/publication repair. Remote configuration is still unverified/unmodified; no routine-model change or migration adopted.
+
+## R-2026-09-23-WQ234 — AIS corroborates only (Will 2026-09-22 19:20 ET, verbatim "C")
+
+**Letter:** `setups/SPECS_GATES.md` § BG-02, bullet "AIS-derived instruments corroborate, never fire" (C1–C6). **Why:** the resolver floor (0.7 mb/d) is smaller than the Kpler–Vortexa baseline spread (0.8 mb/d) and the AIS-dark error grows with the event it measures (2026-09-12 defect record in TRADE.md). Will chose C over A (keep with the dual-tracker repair) and B (drop R2/R3). **Owner drafting call:** the dual-tracker test was kept as the admission test for corroborating weight, because under C3 a tracker still supplies a QUANTITY to an R1 pair and the same error sits in it. Class rule, same pattern as FALCON's PortWatch rule on GATE-FALCON-001 leg 2. Prospective.
+
+## R-2026-09-23-L23 — a roll moves a LEVEL (L429 census, PROME 2026-09-23)
+
+**Letter:** `workbook/REGISTRY.tsv` header (L23 paragraph) + `LESSONS.md` L23. **Why:** the prior text said a =F ticker is "FINE FOR A LEVEL"; the calendar spread moves the level at the roll (CL=F Oct→Nov $4.06, 9/21 L427), so a level test can be crossed by the roll alone. The per-row roll rule (Will-ruled convention 2026-08-13) was already the real protection; the header now says so.
+
