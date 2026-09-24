@@ -2,6 +2,24 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-09-24 — Factual refresh (Will-directed review) · L181 folded in (NO THESIS VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
+
+**Scope:** bring THESIS.md's narrative in line with data it already relied on. Nothing re-derived, re-graded or re-marked.
+
+| Area | Old view (in THESIS.md) | New view |
+|---|---|---|
+| **IQHQ wave 3 + invalidation §3** | "Weighted EL **$140M = 22% of ACL**; scenario tree **50/18/20/12**"; "resolves by Aug 2026 maturity" | **~$129M (~21%); A30/B45/C8/D17** (the Will-approved 7/23 re-weight this file had never picked up — 63 days). Window = OZK-09's Option-2 event window through the Q4'26 print. Aug window closed swept-and-empty 8/31. `$140M` survives only as OZK-09's threshold |
+| **Recognition timing (opening para)** | "maturity wall forces recognition **Q1-Q3 2026**" | Appraisal-gated, back-loaded **H2'26 → 2027** — what v1.5 itself says two lines lower |
+| **Wave 2 / migration / ACL** | Q2 described as future; ACL section Q4'25-only | Q2 graded: classified $1,282M, NPA +31.9%, NCO 0.69%, provision < charge-offs, ACL $617.8M |
+| **Debt-on-debt pillar** | "2025Q3 step UNRESOLVED, three live branches"; "two independent filings" | **L181 resolved 9/24:** reported decline OBSERVED, runoff INFERRED, reclassification NOT EXCLUDED; the 10-Q and `RCON2746` are the same classification reported twice, not independent confirmations |
+| **Memo Item 3 section** | ~2.5 KB of retraction banners over the dead 37.6% table | Clean statement: 37.6% dead; MI3 **is** the debt-on-debt book for OZK; construction→C&I reclassification kept as its own live mechanism, with the "~46% migrated" figure flagged as a net-balance inference |
+| **Reserve-build estimate** | "$150-300M reserve build" unqualified | Flagged single-supported (its 37.6% input died); re-derivation owed |
+| **Invalidation §4, SI, bull table** | $12.8M sub-note drag; SI 14.7%; "+6.5% YoY, 12-mo high" | ≈$11.2M (3M term SOFR + 209bp); SI ~16% / DTC 16 (8/31); −7.2% YoY at $46.09 (9/23) |
+| **Regulatory oversight para** | "shed holding company ~2018… no longer subject to SEC" | Holding company dissolved ~2017; files **with the FDIC**, not the SEC (the qualifier the 8/23 error dropped) |
+| **Invalidation state table** | stamped 8/7 | stamped 9/24; §3 and §4 updated with their search windows |
+
+**⛔ Explicitly NOT moved:** RESERVOIR **v1.5** · OZK-09 **45%** · **A30/B45/C8/D17** · Option-2 window · ≤55bps kill line · kill-§1 criterion text (P-OZK-4 still Will-gated) · conviction **🔴🔴 HIGH**.
+
 ## 2026-08-28 — Data-integrity sweep (Will-directed): 22 findings · P-OZK-2 successor ENCODED · a FALSE "no 10-Q" memory retracted (NO THESIS VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
 
 **Scope:** a full-surface integrity sweep, not an analysis session. **Nothing in it re-derives, re-grades or re-marks anything.** Report → `SWEEP_2026-08-28.md`.
