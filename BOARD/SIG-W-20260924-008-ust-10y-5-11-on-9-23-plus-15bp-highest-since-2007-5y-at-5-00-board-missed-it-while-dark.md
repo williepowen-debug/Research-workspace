@@ -19,6 +19,8 @@ resources: 1
 safety_net: clear
 word_count: 300
 verdict: "The 10-year Treasury yield rose ~15bp on 9/23 to 5.114% (^TNX close), 5.131% live 9/24, above every monthly high since August 2007 (max 4.997%). The 5-year reached 5.00% and the 30-year 5.43% live. FRED DGS10 lags (4.96 [9/22]). This reached REGINALD and WAL through their own reads and never reached the board, because WALTER was dark 9/22-9/23. No registered WALTER-scanned row keys on the 10Y level."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-009 (2026-09-24) - levels CONFIRMED at Treasury par curve; the cause attribution (flash PMIs + Gov. Barr, REGINALD) is WEAKENED: move real-yield-led, 5Y auction confirmed by BOND, PMI leg secondary-only, Barr unverified."
 ---
 
 # 10-year Treasury 5.11% on 9/23 (+15bp), highest since 2007 — the board missed it while dark

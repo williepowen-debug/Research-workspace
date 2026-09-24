@@ -176,3 +176,4 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-09-24	LIQUID	SIG-W-20260924-006	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. ROUTINE context.
 2026-09-24	HENRY	SIG-W-20260924-007	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Structural reading, no registered row named; the tempting case (dispersion before a shock) is not a referent.
 2026-09-24	BOND	SIG-W-20260924-008	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. Level context, no registered BOND row named; BOND's own feed carries it.
+2026-09-24	REGINALD	SIG-W-20260924-009	none dated	P0 PASS / L1 PASS / L2 PASS / L3a FAIL	NO			NA		NOT DOORBELLED. An attribution fix on REGINALD's own header; nothing decays before its next boot.
