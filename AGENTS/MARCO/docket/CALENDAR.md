@@ -55,8 +55,9 @@
 | 🔴 | Oct 14 (Wed) | **`ENR-02` leg 1 — CPI airline fares SEPTEMBER** (replaces the lapsed Brent re-arm; Brent itself = BRENT's `MKT-BZ-F-BELOW-85`) | 2-yr stack ≥ +20% (Aug +27.46%); leg 2 = Oct CPI ~mid-Nov (est.). ⚠️ Oct is the harder month (Oct-24 base +6.36% MoM) | MARCO |
 | 🟠 | ~Oct 15 | **StatCan SEPTEMBER** · **NTTO September** · BTS July | `ID-01` leg 1 (both-months, PROME-confirmed 9/22) · `VX-1.02` −24.20% vs the −25% BREACHED line | MARCO |
 | 🟠 | ~Oct 28 | **MIA September Traffic Report** | Aug −5.69%. Sep negative ⇒ MIA-2-consecutive trigger FIRES → REGINALD, CARL (**basis = MIA's own count, Will-ruled 9/24**) | MARCO, REGINALD, CARL |
-| 🟠 | ~Nov 15 | **OFLC H-2A FY26 Q4 — `MAR-11` resolver** | >425K needs Q4 ≥ 75,133; still Q3 on 9/24 | MARCO, LABOR |
 | 🟠 | Nov 3 | **FL Amendment 3 / HJR 1F** | New-resident homestead cap — anti-migration by design; poll 64%±3.8 vs 60% bar | MARCO, CORAL |
+| 🔴 | ~Nov 12 (est.) | **`ENR-02` leg 2 — CPI airline fares OCTOBER** (grades ENR-02) | Sep+Oct 2-yr both ≥ +20% = SUSTAINED; either < +15% = FADED; else HOLD. Verify the BLS date | MARCO |
+| 🟠 | ~Nov 15 | **OFLC H-2A FY26 Q4 — `MAR-11` resolver** | >425K needs Q4 ≥ 75,133; still Q3 on 9/24 | MARCO, LABOR |
 
 ---
 
@@ -69,6 +70,7 @@
 | 🟡 | ~Dec → 2027-02 | **FL airport Q3 pax (BTS) — `MAR-24` resolver** | All 3 negative in any Q3 month. **80% (9/24)** on MIA's own Aug −5.69%; capped by unobserved Aug MCO (May was −0.25%). Graded on the first BTS pull on/after 2027-02-01; carrier-adjusted reported beside raw | MARCO |
 | 🟠 | by Dec | ICE post-harvest ag-enforcement resumption | Return to ag worksite raids = SDL-01 flow re-accelerates atop the ~1.0M realized LF loss. Tactical-pause-vs-durable-policy test. Funding now law (~$70B through Jan 2029) funds the resumption if it comes. | MARCO, LABOR |
 | 🟠 | late 2026 | Census FL domestic-migration (annual) | Negative = FL population-decline confirmed → 🔴 to PROME. Last 22,517 (93% collapse). The big structural test (ES-MARCO-06). | MARCO, PROME |
+| 🟡 | ~2027-03-31 | **Laredo FY26 audited ACFR — Channel-4 LOW watch (v3.2)** | GF $62.2M → est. $50.25M (−19%). Draw holds + S&P moves ⇒ escalate (check the driver is cross-border first); reserves restored ⇒ retire the fiscal terminus | MARCO |
 
 ---
 
