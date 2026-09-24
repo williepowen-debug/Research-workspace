@@ -55,6 +55,11 @@ BANDS = {
     # front-end bid — near-term fear priced richer than 30d. Direction:
     # HIGHER = worse (front-end panic pricing).
     "vix9d_vix_ratio": {"green": 0.95, "yellow": 1.00, "orange": 1.05, "red_above": True, "fmt": "{:.3f}"},
+    # m1m2 green edge 5.6 = the M1:M2 "historical average" (KB-VIO-025). DECLARED
+    # 2026-09-24 (PROME L441): re-measured on VX_TERM_HISTORY.tsv, 3,324 sessions
+    # 2013-05-20->2026-08-03, roll-adjusted monthlies: mean 5.41 / median 5.84.
+    # Re-check at each quarterly VIX expiry (next 2026-12-16); rule in KB-VIO-310.
+    # 8.99 / 12.0 are ratified lines, not this class.
     "m1m2_adj_pct":   {"green": 5.6, "yellow": 8.99, "orange": 12.0, "red_above": True,  "fmt": "{:+.2f}%"},
 }
 

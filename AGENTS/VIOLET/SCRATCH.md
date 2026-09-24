@@ -1,51 +1,41 @@
 # VIOLET — session handoff
 
-**As of:** 2026-09-18 16:2x ET, **post-close**, graded on the September 18 session closes. Canonical figures and gates: [STATUS](STATUS.md). Grade record: [part 2](research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md). Previous handoff (9/17 post-close) preserved in git history.
+**As of:** 2026-09-24 00:5x ET, **pre-open**, graded on the September 23 close. Canonical figures: [STATUS](STATUS.md). Grade record: [part 3](research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md). The previous handoff (9/18 post-close) is in git history.
 
-## CHANGES SINCE
+## CHANGES SINCE (9/18 → 9/23)
 
-- **LEG 3 IS GRADED AND THE MAP MISSED.** 9/18 close: ratio **1.2299** >1.20 ✅, VVIX **87.63** <92 ✅ ⇒ **CONFIRM branch B**; the Fed HIKED 12–0 (outcome A). ⇒ **MISS OF THE MAP**, not a hit of B, **not NULL**. Branch A failed **0/3** and all three A-cells moved monotonically opposite across both post-event sessions.
-- **The crush ran through triple witching.** VIX 15.44→**14.83** (−3.95%, **−16.26% from the 9/16 event close**), VIX9D 13.39→**12.28** (−8.29%, −29.4% from 9/16), VIX3M 18.55→**18.24**, ratio 1.2014→**1.2299** (3rd session re-steepening), VVIX 87.72→**87.63** (flat — the repricing finished on 9/17), matched contango +3.789%→**+3.679%**.
-- ⭐ **BOJ hiked +25bp to 1.25% (7–2, Asada·Sato dissenting) overnight; JPY carry-vol canary STOOD DOWN** — RV10 15.15% p94.8 **WATCH** → **11.1% p72.6 CALM**. Event-conditioned watch resolved **without firing**. USDJPY 156.75. SAM owns substance.
-- **New 9/15 COT report** (was 9/8): lev money net −23,270 p56.4 → **−16,504 p69.9**; OI 431,671 → **446,060**. Short book smaller, percentile higher.
-- **WQ-258 came back LAPSED** — no operator word before the 9/18 open; not a PASS ruling, not a TAKE; nothing routed, **$0 moved**. Written to the 9/17 `CHEAP_TAIL.tsv` note cell.
-- **Convergence 28 → 27/50** — entirely the JPY vector standing down (3→2).
+- The VIX path from the 17.71 event close: 9/21 14.87 · 9/22 **14.21** (the low, −19.76%) · 9/23 **15.18** (−14.29%). The premium never rebuilt.
+- ⭐ **MOVE 9/23: 95.45, +21.5% in one day**, the highest value in my ledger. The 10Y yield rose from 4.963 to 5.114 and TLT fell 1.6%. VIX was only +6.83% and the curve stayed in contango (3M/VIX 1.193). Cause not attributed; HENRY/BOND own the rates substance.
+- **The 9/18 MOVE printed late: 80.64,** and CBOE's history revised 9/18 (VIX 14.81, VVIX 87.38, SKEW 148.10).
+- The inbox had 4 items, including WALTER's 9/19 fill-forward signal. **That signal carried the 80.64 correction, and it sat unread for five days.**
 
 ## WHAT I DID
 
-- **Graded LEG 3 on the 9/18 close and wrote `research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md`.** Letter sha256 `ead84431…` re-verified unchanged by me at grade time (RED verified independently pre-close). **No cell, anchor, threshold or scoring rule touched.**
-- **Applied RED's ruling as written, both halves** — apply the letter, then record the disagreement. Recorded in part 2 §4, RED's reasoning attributed, **including RED's correction to my own flag**: the figure that indicts branch A's VVIX cell is the **CELL's** distance from pre-event (95 − 94.91 = **0.09**), not the observed value's (0.50), which is what I had written.
-- **Established the grade is DETERMINED despite MOVE not printing** — by exhaustion, not assumption: A and C each hold 0 of the 2 printed cells so neither reaches 2-of-3 whatever MOVE is; B is already at 2. **Did not impute, estimate or carry forward a MOVE value.**
-- **Named the structural error** (part 2 §5): the branches partitioned **Fed outcomes**; the governing axis was **uncertainty removed vs created**. B's cells were a **RELIEF** signature, not a HOLD signature, and the map could not tell them apart because relief was not a branch. ⭐ **Leg 4's KILL and leg 3's MISS are ONE error with n=2 legs** — stress event modelled, resolution event traded.
-- **Full L0 inbox drain, every sender:** 2 items (PROME WQ-258 disposition, RED pre-close ruling), both **acted**, logged to `board_log.tsv`, `git mv`'d to `processed/`. WALTER lane already empty. **Both lanes now hold zero unconsumed files.**
-- KB-VIO-305 (the grade + the structural error) · KB-VIO-306 (the MOVE non-print). `PREDICTIONS.tsv` L3 → **RESOLVED_MISS**. STATUS rewritten to the 9/18 close. Packets to **HENRY** (correction, below) and **RED** (ruling applied, test paid off).
-- `boot.py` **16/16 OK**; `validate_workbook` 306 rows 0 errors; `grading_note_check` clean.
+- **Graded LEG 2 on the 9/23 close: KILL** (−14.29% vs a −1.41% line). Wrote `research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md`, which includes the whole-letter verdict: **FAILED on all substantive legs, 0 CONFIRM · 2 KILL · 1 MISS · 1 VOID · 1 HELD-with-defect.** Re-verified the letter sha256.
+- **Recorded a disagreement without applying it.** Leg 2 used the "VIX ≤16 at T-1" cohort but, unlike leg 1, had no void clause. On the level cohort that actually applied (n=34) the prior was 53% up, not 88%. This became acceptance condition ⑤.
+- **Corrected part 2 in part 3 §4 without editing part 2** (KB-VIO-309). B is now 3/3 on direct evidence. The "A-cells monotonic opposite" claim is withdrawn, and H-approach-vs-delivery loses one observation.
+- **L441 (PROME's ask about the M1:M2 average 5.6):** re-measured on VX_TERM_HISTORY (mean 5.41, median 5.84, n=3,324) ⇒ **DECLARED**, with a vintage, a re-check on 2026-12-16 and a replace rule (KB-VIO-310). Added a comment in `thresholds.py`; **the value is unchanged.** Spec sent in the PROME memo.
+- `backfill.py --spot-only`: CBOE authoritative; created the 9/21 and 9/22 rows and 4 corrections on 9/18; 9/23 is provisional. PREDICTIONS L2 → KILLED. KB-VIO-308/309/310. CATALYSTS/CALENDAR: 9/23 row pruned, Dec 16 re-check added.
+- **L0 inbox drain, all 4 items** logged and moved with `git mv` to processed/. Both lanes are empty.
+- ⚠️ **SKIPPED: the full `boot.py`.** A pre-open run writes 9/24-dated rows from 9/23 data. OVX, JPY, cheap-tail, COR, VIX-options and m1m2 were **not re-read.**
 
 ## NEXT SESSION
 
-1. **Re-pull CBOE daily history FIRST.** CBOE's history CSVs had not posted the 9/18 bars at 16:3x ET, so this grade used CBOE's **delayed-quote endpoint** closes (same publisher, session over, `last_trade_time 16:05:31`) cross-checked against yfinance and `thresholds.py` — dispersion VIX 0.01 · VIX3M 0.00 · VVIX 0.08. **`VX_DAILY`'s 9/18 row carries the yfinance reading (14.82 / 87.69); STATUS carries the CBOE one (14.83 / 87.63).** Reconcile and supersede the row. ⛔ **No verdict can move** — nearest cell boundary is 33× the dispersion. Same pass: pick up the **9/18 SKEW and MOVE bars** if they have posted.
-2. **9/23 close (Wed) — LEG 2, the last open leg.** ΔVIX from 17.71: **>0 confirms, < −1.41% KILLS**, between inconclusive. At **−16.26%** with 2 sessions left. ⛔ An intra-window print is not a read. Then **part 3 of 3 — the whole-letter postmortem.**
-3. **The four acceptance conditions for the next letter are written** (STATUS research queue #2, part 2 §7). Do not re-derive them in prose: ① branches must partition the **realised state space**, not the policy outcome; ② **every cell must fail against the T-1 close at authorship** (RED's test, moved pre-freeze); ③ a cell with no publication SLA needs a declared fallback **and** an exhaustion check written at authorship; ④ **build the FOMC-date base rate** — §6.4's admitted gap, and now the highest-value unbuilt instrument on this desk, because it is what would have priced resolution-vs-stress in advance.
-4. **WQ-259 (Will-facing artifacts) is still Will's call** — 50 days stale, and the case for holding to 9/23 is weaker again now that the letter's headline leg is graded and failed.
-5. Tooling debt: the pre-open TICK-row defect **did not recur** (post-close boot) but is **still not fixed in code** — any pre-open boot on a future grade date reproduces it. Guard still has **no contract on `m1m2_settle_date` matching the row date**. False-zero COR1M d/d. Cheap-tail **use-time mirror check unwired**, and its today-only write guard means a past-dated OPEN row's live read never reconciles.
-6. Research debt unchanged: Path-A F2 audit; H-carry event-conditioned RV study; directional-vs-level sample; L342 holiday-counter audit before Nov 26.
+1. **Post-close boot:** run the full `boot.py`, re-pull the CBOE history, and supersede the provisional 9/23 `VX_DAILY` row. Leg 2 cannot move.
+2. **Read MOVE's follow-through.** Was 9/23 a one-day shock or the start of a rates-vol regime? Watch whether VIX3M/VIX compresses toward 1.10 if MOVE holds above 90. Report to HENRY/LIQUID via NEXUS CROSS-DOMAIN, **not** as a regime-shift broadcast until it is more than one bar.
+3. **The next letter,** written against conditions ①–⑤ (STATUS research queue #2). Build the FOMC-date base rate first; verify 2024-09-18 was an FOMC day before using it.
+4. **KB-VIO-032 rolling percentile for M1:M2** (additive to the static band).
+5. **WQ-259 remains Will's decision.** The published pages are from 8/18, not 7/30; the repo sources are at 9/14 and were never redeployed.
 
 ## CARRY-FORWARD
 
-- **Thesis v4.1.1 UNCHANGED and deliberately so.** ⛔ **A falsified event map is not a falsified vol framework** — conflating them would be its own error. The advisory counter (37 rows since 4.1) will keep incrementing; it was answered by reading on 9/17 and the next real trigger is leg 2 resolving.
-- ⛔ **Do not cite a 9/18 MOVE from any surface.** Primary (investing.com) never printed; `fetch.py` returns 76.22 as-of 9/18 at **−0.00%** and yfinance's 9/18 bar is 76.217796 against 9/17's 76.220001 — **Thursday's bar wearing a Friday date.** KB-VIO-306. Two STATUS vectors (rates vol, SKEW/tail bid) are flagged in-row as carrying 9/17 values for the same reason.
-- ⏭️ **HENRY's L411 board LANDED at 16:27, after my grade** — verified at `PUBLISHED.tsv` (`4294f9187`). ⛔ **The grade does not move; the board was never a cell.** Flip **7,668** both horizons, SPX 7,650.50, Net GEX **−$9.9B/−$12.1B**, sign NEGATIVE a **4th** session, no wall publishable (cross-horizon). 🔑 **The opex removed the FORCE, not the DIRECTION** — magnitude **−77%/−80%**, the **OI EXPIRED** rather than dealers re-hedging (35d count fell only 12.5%). ⛔ **Do not carry "the negative-gamma squeeze is building."** ⚠️ Quote **"~77–80%"**, never a decimal. ⛔ **Shelf life ONE session — do not carry into 9/21.**
-- 🔴 **My attempt to separate "amplifier expired" from "relief absorbed it" was REFUTED BY ITS OWN BASE RATE — read KB-VIO-307 before re-attempting it.** The candidate (9/17 repricing / 9/18 mechanical) needed 9/17 to be an ordinary session; it is **p76** of its cohort, and 9/18 is **p83** of its own. What survives: **VVIX under-fell on BOTH days** (+2.71pp / +2.19pp vs cohort medians, n=29 and n=94) — a **LEAN, not a finding**, on n=2 sessions of one event. ⇒ **UNADJUDICATED by both owners, recorded as such on both surfaces.** ⚠️ **Do not resurrect the split without new evidence** — it is already tested and dead.
-- ✅ **Correction to HENRY: ACCEPTED AND APPLIED.** its `STATUS.md:14` says *"VIOLET's branch map A … is the realised branch."* **A is the realised FED OUTCOME, not a confirmed surface branch** — the surface confirmed B and A failed 3-of-3. **My own part-1 §0 row invited that misread and I wrote it.** Recorded against me; HENRY's file is HENRY's to edit.
-- **What the vol side can say about the opex, and no more:** the front curve kept crushing **through** it (VIX9D −8.3%) and **the amplification setup did not fire on the print.** Whether dealer positioning actually reset is HENRY's measurement — L411 — and not my second opinion on his layer.
-- ⚠️ **Attribution of the 9/18 relief is NOT established.** BOJ and ~$6T opex printed on the same session. The cells graded as written (RED concurred pre-close), but **some of the move is BOJ-resolution and opex-unwind, not presser digestion. The miss stands; its causal decomposition does not** [INFERRED].
-- **The cheap-tail control distinction that must not be blurred:** L413 **worked** — routed, WQ row registered, disposition returned same cycle. What did not happen is a **decision**. ⛔ That is a *different* failure from the 8/26–9/4 episode (never routed at all) and logging them as the same one would erase the fix. KB-VIO-302's ledger notes this.
-- Book **FLAT**; no broker refresh, no order, no proposal, **$0 moved**. RV1 retired; July packet retired.
-- FT-10: RED graded 0-of-4 this session, run broken at 9/14 = 152.09; **never fired.** My bars agree to the cent; **RED owns the count.** No 9/18 SKEW bar exists, so no new observation to hand over. L376 closed by owner adoption.
+- ⛔ **Do not cite the 9/23 VIX-complex values as CBOE-confirmed** until the next boot re-pull.
+- ⛔ **Grade VVIX only on CBOE's history file.** The 16:05 delayed-quote "close" was 0.25 off on 9/18.
+- ⛔ H-resolution-vs-stress rests on **n=1 event**, however many legs failed on it. Pre-register it before grading it.
+- Book **FLAT**; $0 moved; no proposal.
 
 ## OPEN HYPOTHESES
 
-- ⭐ **H-resolution-vs-stress (NEW, and it is the session's real output):** a vol surface's post-event behaviour may be governed less by *which way* a policy event resolved than by *whether it removed or created uncertainty*. Both failed legs (3 and 4) are consistent with it; **n=1 event, and it was generated by the failure it explains**, so it is a hypothesis, not a finding. ⛔ **It must be pre-registered before it is graded, not fitted to the next event.** The instrument it needs is the FOMC-date base rate (next-session item 3④).
-- **H-approach-vs-delivery (from leg 4), n=1 event, 3 observations:** rates vol leads equity vol INTO a policy event and hands the lead back ON delivery — MOVE −3.56% (9/16), −5.59% (9/17), no-print/flat (9/18). Plausibly the same phenomenon as H-resolution-vs-stress seen from the rates side; **do not count them as two confirmations of each other.**
-- **H-carry:** trailing RV may understate priced risk before a known event stack. ⚠️ **The live test RESOLVED AGAINST a naive reading this session** — RV10 was p94.8 WATCH into BOJ and collapsed to p72.6 CALM on the print without the vol event the percentile implied. One observation; the registered event-conditioned study is still unbuilt.
-- **H-new (tail demand reflects OPEX positioning as well as FOMC risk):** **9/18 triple witching was the natural test and it was NOT taken** — the post-close VIX-options pull is an after-hours OI artifact again, and no 9/18 SKEW bar published. Needs a regular-hours chain pull on a future opex.
+- **H-resolution-vs-stress:** n=1 event, generated by the failure it explains. It needs the FOMC-date base rate.
+- **H-approach-vs-delivery:** weakened. The 9/18 observation became +5.80%. MOVE's 9/23 spike had no event to approach, so it is not evidence either way.
+- **H-carry** and **H-new (opex tail demand):** unchanged and untested.
