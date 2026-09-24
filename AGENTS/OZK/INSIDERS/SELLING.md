@@ -243,6 +243,8 @@
 **2026-07-20 (LABOR re-run, no own-pull):** Score-13 INTACT, **not further extended** — 0 new Form 4s since 7/1, zero buying. Pre-Q2 window closed ~7/7 quiet. Source: `AGENTS/LABOR/outbox/2026-07-20_to-PROME_insider-rerun.md`.
 **Next:** Re-pull after Jul 21 earnings (one command: `curl -s -A "Mozilla/5.0" "https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl/cert/110"`).
 
+**2026-09-24 pull (API, cert #110; own pull, first since 7/6):** 2 new Form 4s, both **post-Q2-print open-window SALES**: **CFO Tim Hicks** 5,000 sh on 8/13 @ $52.58–52.61 (≈$263K; 77,315 direct after) · **Cynthia Wolfe** 6,000 sh on 8/12 @ $51.85–51.88 (≈$311K; 40,319 direct after). Both near the Aug high ($52.49 8/14). **Zero open-market buys 7/6 → 9/24.** Nothing filed 8/15 → 9/24. Pre-Q3 window closes ~early Oct. → `../research/threads/2026-09-24_CATCHUP_SWEEP.md` A2.
+
 **2026-04-12 pull (FDIC EFR, cert #110).** Full Form 4 history reviewed. Results:
 - 18 Form 4 filings in 2026 YTD at that point (all sells or comp grants)
 - Zero insider purchases

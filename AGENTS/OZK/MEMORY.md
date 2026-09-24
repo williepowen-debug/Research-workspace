@@ -62,27 +62,25 @@
 
 **CHANGES SINCE:** *(leave blank — next boot populates via boot.py)*
 
-### LAST SESSION (2026-08-31 — PROME-orchestrated touch: IQHQ Aug-window close-day disclosure sweep + inbox drain)
+### LAST SESSION (2026-09-24 — Will-directed catch-up sweep after 24 dark days)
 
-- **The owed August check ① RAN on the window's last business day: SWEPT AND EMPTY.** FDIC-FLNG cert-110 full list (182 filings): **zero Aug-2026 filings except the 8/5 Q2'26 10-Q** [VERIFIED]; that 10-Q pulled (`raw/Q2_2026_10Q.pdf`, 69pp, text-extractable) and keyword-checked clean on IQHQ/RaDD/life-sci/subsequent-event; press ×3 SEARCH-NOT-FOUND (Jun-2024 "two-year extension" trap resurfaced a 3rd time, discarded on vintage); SD-recorder leg UNKNOWN, never checked. **Said "swept, nothing found" everywhere — never "silence."** Ledger → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md`.
-- **Zero grades/thresholds/weights/conviction moved** — quiet close is the v1.5 pre-registered path; frozen Option-2 ruling means it resolves nothing (OZK-09 45%, window runs through Q4'26 print). Carrying instrument → **Q3 call ~Oct**.
-- **WAL pinged** (packet in `AGENTS/WAL/inbox/`, carve-out ①): swept-and-empty ≠ unswept; their NO-VERDICT band applies.
-- **Inbox drained 2/2** (WALTER -005 bank-failure count, -032 Polymarket resolution-rule — both info-tier, no OZK threshold touched, no reply owed) → `inbox/WALTER/processed/`.
-- STATUS/CALENDAR written back; both price tokens synced ($48.94 live 8/31 14:46 ET). PROME report in `outbox/`; HEARTBEAT §7 staleness flagged to PROME (report-only).
+- **boot.py crashed** on `abs(None)` — `fetch.py` returns `change_pct: null` when it has no prior bar (OZK had no 9/22 bar; prev_asof 9/21). Patched with a `_pct()` formatter ("chg n/a"); band logic unchanged.
+- **Primary pulls:** FDIC FLNG **zero filings 8/6→9/24** (182, same as 8/31) · EFR 2 sales (CFO Hicks 5K @ ~$52.6 8/13, Wolfe 6K @ ~$51.9 8/12; ≈$574K), zero buys 7/6→9/24 · SI 16.21M / ~16.0% float / DTC 16 @ 8/31 · price $49.08 (8/31) → **$46.09 (9/23), −6.1% vs KRE −3.8%**.
+- **News (Opus subagent):** MS → Underweight 9/8 · RJ initiate MP 9/1 · Fed +25bp to 3.75–4.00% 9/16 · IQHQ deed-in-lieu Spur Ph I to Apollo 9/17 [SINGLE-SOURCE] · RaDD SEARCH-NOT-FOUND · Q3 date not yet announced.
+- **Zero grades/thresholds/weights/conviction moved.** Written: `research/threads/2026-09-24_CATCHUP_SWEEP.md`, STATUS (header compressed to a git-log pointer — 31.3→28.2 KB), CALENDAR (+~9/30, +10/6), `INSIDERS/SELLING.md`. Inbox 3 NOT processed (awareness only).
 
 ### NEXT SESSION
 
-1. **⭐ S4 — READ the Q2'26 10-Q, now local** (`raw/Q2_2026_10Q.pdf`; this session pulled it and keyword-checked only). The Q1 read produced the pillar; the Q2 one is unread.
-2. **🔴 Owed check ② — Campus-at-Horton leasing** (window passed late Jul; still UNRUN, no severity number moves until it runs).
-3. S1 — re-derive SEVEN_CREDIT's $150-300M reserve build off Q2 migration evidence (still single-supported).
-4. S2 — refresh LIFE_SCI / GEOGRAPHY / INSIDERS STATUS against Q2. S5 — insider EFR re-pull (cert #110; 56d since 7/6).
-5. S3 — $87M IQHQ date reconcile (KB-OZK-086). S7 — KB_INDEX rollups 218–229. S8 — CALENDAR RESOLVED prune, row-by-row (pending-event carve-out).
-6. S9 → PROME (re-flagged 8/31): STATUS 31,306 B + MEMORY ~31 KB, both ~96% of read-cap — rotation is PROME's, do not self-compact.
-7. Carried: P-OZK-1/4/5 Will-gated · broker-export confirm of the $0 settle · Bluerock TI+ NAV mark · ⏰ FFIEC JWT expires 2026-11-05 (Will-action; Q3 pull ~Nov 1-10 straddles it).
+1. **Oct 1 sub-notes re-price on live SOFR** (post-9/16 hike) — STATUS/CALENDAR still carry +$12.8M/yr / ~6.4% at the older SOFR.
+2. **Q3 date** (~9/30 announcement) → set CALENDAR/boot.py `~2026-10-21` to the real date. Pre-print: build Q3 scoring card (SpecMention $616M reversal, NCO vs "back under industry", RaDD report-back).
+3. **Inbox 3 packets** (WAL 9/2 ACK — nothing owed; DAEDALUS 9/5 + 9/17: KB_INDEX group tables stop at 227 / group count 36 vs 37, outbox root 13 files, one negative row lacks a named instrument) — one housekeeping session.
+4. ⭐ S4 — full read of the Q2'26 10-Q (`raw/Q2_2026_10Q.pdf`) — still owed, now pre-Q3.
+5. 🔴 Owed check ② Horton leasing — window-search empty 9/24, NOT discharged (needs a direct leasing/broker source).
+6. S1/S2/S3/S7/S8 carried; BPRE 10/6 webinar; P-OZK-1/4/5 Will-gated; FFIEC JWT 2026-11-05.
 
 ⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
 
-<details><summary>Prior session notes (2026-08-28 — Will-directed data-integrity sweep)</summary>
+<details><summary>Prior session notes (2026-08-31 window-close sweep → git log; 2026-08-28 data-integrity sweep below)</summary>
 
 ### LAST SESSION (2026-08-28 — Will-directed data-integrity sweep, executed end-to-end)
 

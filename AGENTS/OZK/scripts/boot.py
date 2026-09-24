@@ -185,6 +185,11 @@ def section(title):
     print(f"\n{'='*72}\n  {title}\n{'='*72}")
 
 
+def _pct(c, nd=2):
+    """Day-change as text; 'chg n/a' when fetch.py returned no prior bar (change_pct null)."""
+    return "chg n/a" if c is None else f"{c:+.{nd}f}%"
+
+
 def main():
     verbose = "--verbose" in sys.argv
     horizon = 120
@@ -209,15 +214,15 @@ def main():
     else:
         ozk = data.get("OZK")
         if ozk:
-            p, chg = ozk["price"], ozk.get("change_pct", 0)
+            p, chg = ozk["price"], ozk.get("change_pct")  # None when fetch.py has no prev bar
             flags = []
             if p < BAND_RED2:   flags.append("🔴🔴 <$40 BAND (→REGINALD/PROME/FORGE)")
             elif p < BAND_RED1: flags.append("🔴 <$45 BAND (→REGINALD/PROME)")
-            if abs(chg) >= BIG_MOVE: flags.append(f"⚠️ big move {chg:+.1f}%")
+            if chg is not None and abs(chg) >= BIG_MOVE: flags.append(f"⚠️ big move {chg:+.1f}%")
             if stale and flags:
                 flags = [f"⛔ SUPPRESSED (stale data): {f}" for f in flags]
             vtag = f"  [{fetch_diag['asof'] or 'no vintage'}]"
-            ozk_line = f"  OZK  ${p:>8.2f}  ({chg:+.2f}%){vtag}   {'  '.join(flags) if flags else '🟢 no band breach'}"
+            ozk_line = f"  OZK  ${p:>8.2f}  ({_pct(chg)}){vtag}   {'  '.join(flags) if flags else '🟢 no band breach'}"
             print(ozk_line)
         if verbose:
             print("  " + "-" * 50)
@@ -225,10 +230,11 @@ def main():
                 if t == "OZK" or t not in data:
                     continue
                 d = data[t]
-                arrow = "🟢" if d.get("change_pct", 0) >= 0 else "🔴"
-                print(f"  {arrow} {t:<6} ${d['price']:>8.2f}  ({d.get('change_pct',0):+.2f}%)")
+                c = d.get("change_pct")
+                arrow = "⚪" if c is None else ("🟢" if c >= 0 else "🔴")
+                print(f"  {arrow} {t:<6} ${d['price']:>8.2f}  ({_pct(c)})")
         else:
-            peers = [f"{t} {data[t]['change_pct']:+.1f}%" for t in COHORT[1:] if t in data]
+            peers = [f"{t} {_pct(data[t].get('change_pct'), 1)}" for t in COHORT[1:] if t in data]
             print("  cohort: " + " · ".join(peers))
 
     # ---- CATALYST COUNTDOWN ----
