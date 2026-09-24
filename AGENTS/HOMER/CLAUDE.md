@@ -8,7 +8,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 
 **Domain:** U.S. Housing & Mortgage Stress — asset-market + credit-structure
 **Class:** Market (graded against `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md`)
-**Standing peer edges (not "reports to"):** HOMER → **CARL** (consumer-stress transmission — CARL retains K-shape/convergence-matrix interpretation of housing-derived stress) · HOMER → **REGINALD** (Path C collateral — first-class chain edge, formalized at promotion) · HOMER → **HENRY** (wealth-effect on HPI inflections). Routine reads flow via `NEXUS_BRIEF.md` at CARL/REGINALD/HENRY's own boot; acute 🔴 findings go via `outbox/` (crisis-only, per fleet Output Canon).
+**Standing peer edges (not "reports to"):** HOMER → **CARL** (consumer-stress transmission — CARL retains K-shape/convergence-matrix interpretation of housing-derived stress) · HOMER → **REGINALD** (Path C collateral — first-class chain edge, formalized at promotion) · HOMER → **HENRY** (wealth-effect on HPI inflections). Routine reads flow via `NEXUS_BRIEF.md` at CARL/REGINALD/HENRY's own boot; acute 🔴 findings go as a packet written **INTO THE RECIPIENT'S `inbox/`** and committed (root carve-out ①; crisis-only, per fleet Output Canon). ⛔ **A file in my own `outbox/` is NOT a delivery** — found 2026-09-24: two 9/14 packets (REGINALD, WALTER) sat outbox-only and neither desk ever received them, while my brief told REGINALD one was *"in your inbox."* **Verify at the recipient's path before writing any past-tense delivery claim** (LESSONS §5).
 
 ## Scope (promotion seams — ratified `PROMOTION_REVIEW.md`)
 
@@ -217,7 +217,7 @@ Housing is the largest asset and largest liability for most American households,
    > ⚠️ **Write the figure to its LEDGER, not only to STATUS.** `STATUS.md` is **bound by BYTES (soft 150KB / hard 170KB) — the 250-line cap was DEMOTED TO ADVISORY 2026-08-23 after being measured actively harmful** — and it is **fully rewritten each session** — **a number that lives only there is destroyed on the next rewrite.** `RATES.tsv` and `PRICING.tsv` were opened 2026-07-31 precisely because two ★-ruled HOMER-owned surfaces (the mortgage-rate surface; HPI/sales/inventory) had run for 19 days post-promotion with **no ledger at all**, so every superseded print was being lost. STATUS is the *dashboard*; the workbook is the *record*.
    > ⚠️ **Revision discipline (LESSONS.md):** Census / BEA / BLS / FMHPI / Case-Shiller **revise prior months at every release.** Carry the revised prior beside the current print, or stamp the row "as originally published <date>." **Never leave a first-print superlative** (record / tie / steepest / lowest-since) standing unqualified — that is the part revision erases. Found live 2026-07-31: a "months-supply 10.3, tied the 2008-09 bust high" row sat on the dashboard for ~5 weeks after Census revised it to 9.4.
 8. Predictions due-scan: read `thesis/PREDICTIONS.tsv` (HOM-xx) for past-trigger rows needing resolution.
-9. Inbox intake: `inbox/` + `inbox/WALTER/` (routine signal routing).
+9. Inbox intake: `inbox/` + `inbox/WALTER/` (routine signal routing). **Membership test is a SEARCH, never a read** (WALTER SIG-W-20260914-022, adopted 2026-09-24): `for f in inbox/WALTER/*.md; do id=$(basename "$f" .md); grep -qF "$id" board_log.tsv || echo "UNLOGGED $id"; done` — reading `board_log.tsv` over the cap truncates its TAIL, which is where the newest signals are logged. ⛔ **Never rotate `board_log.tsv` to fix this** (a grepped ledger is COLD-class).
 10. Web check on any catalyst due this session.
 11. Execute session objectives.
 
@@ -247,7 +247,7 @@ Housing is the largest asset and largest liability for most American households,
 
 ## State Vector Protocol — RETIRED
 
-The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAWN_PROTOCOL` Phase B) was the sub-agent-era mechanism and is **retired as of the 2026-07-12 promotion**. As a top-level peer agent, HOMER now uses the fleet-standard channel: `NEXUS_BRIEF.md` write-back at every closeout (routine sync) + `outbox/` for acute 🔴 findings (async, crisis-only). `state_vectors/` (including `state_vectors/corrected/`, which holds one withdrawn/superseded SV — retrieval-hazard note: valid SVs never file under `corrected/`) is kept as a **historical record only**; do not write new SVs there.
+The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAWN_PROTOCOL` Phase B) was the sub-agent-era mechanism and is **retired as of the 2026-07-12 promotion**. As a top-level peer agent, HOMER now uses the fleet-standard channel: `NEXUS_BRIEF.md` write-back at every closeout (routine sync) + a packet INTO the recipient's `inbox/` for acute 🔴 findings (async, crisis-only; `outbox/` is a record, not a delivery — 2026-09-24). `state_vectors/` (including `state_vectors/corrected/`, which holds one withdrawn/superseded SV — retrieval-hazard note: valid SVs never file under `corrected/`) is kept as a **historical record only**; do not write new SVs there.
 
 ## FILES
 
@@ -275,7 +275,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `state_vectors/` | Historical record of the retired SV channel — do not write new SVs |
 | `archive/` | Pre-promotion build artifacts (>60d, retired per Data Hygiene rule) |
 | `inbox/`, `inbox/WALTER/` | Inbound signals; `processed/` subdirs hold actioned items |
-| `outbox/` | Outbound task packets / acute findings; `delivered/` holds actioned items |
+| `outbox/` | **Copies/record only — NOT a delivery channel** (2026-09-24). Packets go INTO the recipient's `inbox/` (carve-out ①). `delivered/` holds actioned items |
 
 ## CARL Cross-References (parent-era provenance, preserved)
 

@@ -2,10 +2,8 @@
 
 *Read at boot. Learn once, prevent forever. For Will's working preferences and do-not-touch notes, see `MEMORY.md`.*
 
-> ⚠️⚠️ **THIS IS AN INDEX OVER A COLD REGISTER, NOT THE LESSONS THEMSELVES. Full text of all 43 entries — Mistake, diagnosis, corollaries, every secondary rule — is at `LESSONS_COLD.md`, reproduced BYTE-FOR-BYTE. Nothing was deleted.**
-> **Split 2026-09-02** under `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md` remedy (b): the pre-split file was **97,396 B = 180% of the 54,250 B read cap** and **299% of the 32,550 B boot budget**, so *every* boot was silently reading a fragment — and rule 12 says the fragment lost is whatever convention puts LAST, which here was the newest lessons.
-> **Each row below carries the entry's heading and its `**Rule:**` line.** A row ending `…` is truncated — **open the cold register before acting on a truncated rule.** The Mistake narrative is never here.
-> 🔁 **DATED RE-TRIGGER, not a leanness claim (`READ_CAP.md` rule 7):** re-measure this file at **every append** and unconditionally by **2026-12-02**, whichever first — `python3 scripts/read_cap_check.py --agent HOMER`. **New lessons append to the COLD register and add one row here.** ⚠️ If you ever find yourself writing a full Mistake paragraph into this file, the split has failed.
+> ⚠️⚠️ **INDEX over cold registers — not the lessons themselves.** Full text: §1–43 `LESSONS_COLD.md` (byte-for-byte, crc-pinned, FROZEN) · §44+ `LESSONS_COLD_2.md`. Each row = heading + `**Rule:**`; a row ending `…` is truncated — **open the cold register before acting on it.** Nothing deleted.
+> Split 2026-09-02 under `READ_CAP.md` remedy (b) (pre-split 97,396 B = 299% of the boot budget). 🔁 **Re-measure at every append** and by **2026-12-02**: `python3 scripts/read_cap_check.py --agent HOMER`. New lessons → cold register + one row here; **never a Mistake paragraph here.**
 
 ---
 
@@ -140,16 +138,25 @@
 
 ---
 
-**Index integrity:** 43 entries here, 43 in `LESSONS_COLD.md` — the counts must match, and a mismatch means an append skipped one side. 39 rules are truncated and marked `…`.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–50 ↔ `LESSONS_COLD_2.md` (7). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
-**Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to the **survey's own window** (PMMS: the Wednesday close), or state the basis. Both legs issuer-primary and correctly dated does NOT make them comparable — a same-day pairing imports a move the survey could not have seen, and the error is invisible on a quiet week and maximal on a moving … → `LESSONS_COLD_2.md` §44
+**Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
 
 **45. [Verification] — A False *DEAD* Flag Is More Destructive Than a False *LIVE* One, Because It Gets EXECUTED**
-**Rule:** Before executing a source-**RETIREMENT** sweep, search for the source's **CONTENT**, not just its **URL** — a publication that moved is indistinguishable from one that died if you check one address. *"The domain is frozen"* and *"the publication has stopped"* are different claims. A false *live* flag self-heals; a false *dead* flag produces edits that read as settled work and are never … → `LESSONS_COLD_2.md` §45
+**Rule:** Before executing a source-**RETIREMENT** sweep, search for the source's **CONTENT**, not just … → `LESSONS_COLD_2.md` §45
 
 **46. [Data] — Verify the Publication YEAR, Not Just the Month (n=3 — extends §1/§2 to RECURRING MONTHLY pulls)**
-**Rule:** On any recurring **monthly** pull, confirm the **release date before the value**; treat *"the September number"* as unverified until the publisher's calendar says September exists. ⚠️ **Plausibility is not a check — it is what makes this dangerous:** both figures caught 9/14 sat a believable distance from my held series, and one release did not exist … → `LESSONS_COLD_2.md` §46
+**Rule:** On any recurring **monthly** pull, confirm the **release date before the value**; treat *"the … → `LESSONS_COLD_2.md` §46
 
 **47. [Process] — I Wrote a Measurement Claim Before Making the Measurement**
-**Rule:** A claim of the form *"I tested X and got Y"* is written **only after Y is on screen.** `finding_write_timestamps_from_the_clock_not_the_narrative` governs test results as it governs timestamps — the narrative wanted a fourth confirmation and supplied one. Caught on re-read, then actually run; **its being true was luck, not … → `LESSONS_COLD_2.md` §47
+**Rule:** A claim of the form *"I tested X and got Y"* is written **only after Y is on screen.** … → `LESSONS_COLD_2.md` §47
+
+**48. [Process] — A Packet In My Own Outbox Is Not a Delivery, and My Charter Told Me It Was**
+**Rule:** A delivery claim is verified at the RECIPIENT'S path, never the sender's. Packets go INTO … → `LESSONS_COLD_2.md` §48
+
+**49. [Calibration] — I Graded a Band on a Different Statistic From the Same Issuer ("fires nothing" when it was YELLOW)**
+**Rule:** Before grading a band on a newly found feed, match the band's ORIGINAL reading on statistic … → `LESSONS_COLD_2.md` §49
+
+**50. [Process] — A NEXT Date Inside a RESOLVED Key Is Invisible to My Own Boot Sweep**
+**Rule:** Never embed a NEXT date in a RESOLVED key; a recurring source is ONE row whose date key ROLLS … → `LESSONS_COLD_2.md` §50

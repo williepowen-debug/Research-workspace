@@ -1,40 +1,32 @@
-# HOMER SCRATCH — 2026-09-14 (Mon) FULL CATCH-UP session (Will-authorized, DOCKET L331) → handoff
+# HOMER SCRATCH — 2026-09-24 (Thu) catch-up session (Will-launched) → handoff
 
 **Purpose:** Ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `workbook/` + `LESSONS_COLD_2.md`; live state → `STATUS.md`.
 
 ---
 
-## ✅ WHAT CHANGED TODAY — THE THREE-WEEK PRINT GAP IS CLOSED
+## ✅ WHAT CHANGED TODAY
 
-**11 releases recovered, 6 at issuer primary. Inbox 3 → 0.** Per-release ledger → `reports/2026-09-14_three-week-catchup-release-ledger.md`.
-
-1. **🔴🔴 EXISTING-HOME SALES 3.98M SAAR (August, NAR primary, rel 9/10) — THE <4.0M RED BAND IS CROSSED.** All four regions fell MoM; inventory 1.62M = **4.9 months, a decade high**. ⚠️ **20K margin on a revising series, and "first sub-4M since June 2025" is a first-print superlative — report the cross AND the margin.**
-2. **★★★ THE MARQUEE GSE/CMBS DIVERGENCE HAS INVERTED.** Fannie MF **0.61%** July (+1bp, third month off the trough ⇒ the **mod-suppression test CONFIRMS**; the 13-month series locates the modification in **April**, inside the quarter). Freddie MF **0.60%** (+9bps, **largest single-month move in the series I hold**, fifth consecutive rise, and it has the **same** suppression channel in its own footnote and rose anyway). **Converged to 1bp apart from 35bp in March, both rising, CMBS flat at 7.69%.** ⛔ **Freddie has NO uncrossed rung** — a rung above 0.50% is **owed and Will-gated**.
-3. **★★★ SPREAD ATTRIBUTION INVERTED + a near-miss I caught.** Survey-matched, the 10Y-FRM spread is **~193bps — FLAT** vs 196 on 8/20. Three weeks ago every bp was SPREAD; **now every bp is the TREASURY** (DGS10 4.69 → 4.95). ⚠️ I nearly published *"the spread narrowed 15bps"* from a **same-day** pairing — an artifact of a +12bps DGS10 move on 9/10 **after the PMMS window closed**.
-4. **🔴 THE BASIS TRAP IS NOW A BAND DISPUTE.** **MND daily 7.17% [9/14, 52-wk high] is 17bps THROUGH my >7.0% RED; PMMS 6.76% is 24bps BELOW it.** Both correct. ✅ **Ruled (definition, zero levels moved): grade on PMMS; an MND cross is an EARLY WARNING only.** Resolves WALTER SIG-008.
-5. **⛔ I DECLINED PROME'S CALCULATEDRISK "DEAD SOURCE" SWEEP ON EVIDENCE.** It **moved to Substack and publishes daily** — including the 9/11 ICE Mortgage Monitor and 9/10 NAR EHS posts I used today. **Annotated zero of 11; blocking packet sent.** ~12 desks / 23 files were asked to retire a live feed.
-6. **A6 partly closed, against my own caveat:** the **ICE First Look DOES publish cure activity with MoM % changes** (+7% serious, +12% total, best since Oct-2025). **The Cure Rates band has a feed and it grades** (+12% fires nothing = *"cures improved"*).
-7. **Hygiene:** `STATUS.md` **31,282 → 22,773 B**, clearing the rule-5 STOP (<22,785 B) — **not stopping at the 75% trigger**. Pre-rotation file preserved byte-for-byte (crc `2001460695` verified by recompute). §B split to `OBLIGATIONS_OTHERS.md`. `LESSONS_COLD_2.md` opened (shard 1 is crc-pinned and frozen; **its crc re-verified intact: 3365692365**).
+1. **🔴🔴 PMMS 7.03% [9/24] — RED (>7.0%) CROSSED on the registered instrument, +3bps.** Graded under my letter (strict, no sustain), committed early (`1c9372bf6`) so PROME could carry it into the 9/25 HEARTBEAT. Spread flat (~192bps survey-matched) ⇒ all Treasury. **FOMC 9/16 HIKED 25bp** to 3.75–4.00%.
+2. **Freddie MF August 0.64%** (+4bps, fourth straight rise, 14bps over RED; letter frozen per WQ-248 C). Fannie August not out (404).
+3. **Trepp August at ISSUER PRIMARY** (trepp.com reachable today): MF DQ 7.69% flat, MF SS 8.37%. Closes the §C Trepp-SS item.
+4. **NAHB Sept 32; price cutters 38% = ORANGE.** NHS Aug 684K (July revised 607→643K); average price −8.8% YoY is the only significant change. NRC Aug: July starts revised +70K; completions −27% YoY significant. PHSI 71.2.
+5. **Four self-corrections:** Cure Rates band re-graded on its native YoY basis = **YELLOW** (9/14 used the MoM count) · Freddie "fifth consecutive" → third · Trepp "Feb 7.12" → Oct-2025 (Feb = 6.85) · **two 9/14 packets never left my outbox** — REGINALD + WALTER re-delivered into their inboxes; charter fixed (outbox = record, not delivery).
+6. **Docket:** 8 recurring rows added — the GSE monthlies, NAHB, FMHPI, EHS, PHSI, Trepp, MBA Q3 NDS and ICE Mortgage Monitor had existed only as RESOLVED one-offs, invisible to the boot sweep (LESSONS §50).
+7. **Hygiene:** `NEXUS_BRIEF.md` rotated 109,239 B → under the rule-5 stop (pre-rotation file byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md`, crc 267930108 = PROME's measurement). LESSONS 24,803 → 22,721 B after adding §48–50. B1 re-cut (courier dead). KB-HOMER-026 captures marked UNDATED. Boot step 9 now uses a grep membership test (SIG-022).
 
 ## 🔴 FIRST WORK NEXT SESSION
 
 | # | Item | Why |
 |---|---|---|
-| **1** | **⛔ ICE Mortgage Monitor (Sept, published 9/11) — UNREAD** | **The highest-value unread item on this desk.** Confirming pull for the Cure Rates band (A6); also carries August home-price growth 1.5% |
-| **2** | **⛔ Trepp AUGUST special servicing — SEARCH-NOT-FOUND** | The **named successor** to the unreachable mat-adj leg is itself unreached. trepp.com unreachable, MHN 403. → CREED (B1) |
-| **3** | **PMMS 9/17 and 9/24** | ★ **RED may cross on the registered instrument.** ⚠️ 9/17 is **confounded by the 9/16 FOMC**; the clean read is **9/24** |
-| **4** | **Fannie + Freddie AUGUST MF (~9/25–30)** | Does Freddie extend past 0.60%? Both August files **path-tested 404** today |
-| **5** | **THE FOUR APPROVED QUEUE ITEMS (A2–A5), now 22 days deferred** | The catch-up consumed this session, as L331 ordered. **A3/A4 grade NOTHING until ruled** |
+| **1** | **⛔ A5 leg 1 — thesis-level DATED KILL RAIL file, DUE 2026-09-30** (DAEDALUS PR6 ask) | 32 days deferred; CORAL's `thesis/THESIS.md:63-118` is the cohort exemplar (frozen criteria, scoring rule, first score, dated next grade) |
+| **2** | **PMMS 10/01** — first print after the cross | Treasury +7bps and MND +19bps on 9/24 AFTER the survey window |
+| **3** | **Fannie MF August** (~9/25–30) + **ICE First Look August** (~9/25–26) | Does Fannie follow Freddie? 4bps to Orange |
+| **4** | **Trepp maturity-adjusted MF — re-test at trepp.com** before the dated kill executes | The "unreachable" premise failed today |
+| **5** | A2–A4 (rider ratification, two retunes — LEVELS Will-gated) | 32 days deferred |
 
 ## ⚠️ OPEN / UNSETTLED
-1. **A1 GSE MF band re-spec — now overdue on EVIDENCE, not just calendar** (Fannie pinned at the bottom, Freddie topped out; only the DQ/provision pairing held the Q2 signal).
-2. **HOM-02** is the only open HOMER-native prediction, and **today's ICE data cuts against it** — logged against myself.
-3. **B7 (new):** PROME's CalculatedRisk census — **time-sensitive**, every hour it stands another desk may execute it.
-4. **`NEXUS_BRIEF.md` is 102,145 B** — far above any boot budget for CARL/REGINALD/HENRY who read it. ⚠️ **Schema-owned (NEXUS); B4 says do NOT cut brief content against the unenforced ceiling. Flagged, not touched.**
-5. **MBA 403 site-wide** (re-confirmed 9/14) · **ICE 403** · **Trepp unreachable** · **Google Trends 429 (4th)**. Four primaries gated at this box.
-6. **CORAL's ask** — a constant-quality statewide FL CONDO index: still SEARCH-NOT-FOUND at HOMER.
-
-## OPEN THREADS
-- **Restated marquee:** CMBS MF is **flat at a high level and lumpy (it cures)**; **both GSE books are grinding up** on a book that does not cure that way. ⚠️ **Scale discipline: 0.60% vs 7.69% is an order of magnitude — the finding is the two GSE books converging with EACH OTHER, never with CMBS.**
-- **"Inflow cooling / conversion accelerating"** now has a third datapoint and remains the domain's cleanest sentence — **and it cuts against HOM-02. Say both.**
-- **New central tension: PRICES FIRMING INTO COLLAPSING VOLUME AND RECORD SUPPLY.** Three price instruments up, four supply instruments at multi-year extremes, EHS through RED. ⇒ **Likely COMPOSITION, not a price bid.**
+1. **HOM-02** — evidence cuts both ways: inflow improving vs FHA cure rate −39% YoY and HUD ML 2026-08 in force since 9/21. Q3 NDS (~mid-Nov) decides.
+2. **B7** — PROME's CalculatedRisk "dead source" sweep: my halt packet was consumed, no withdrawal found. Disposition unknown.
+3. **Existing-home sales 3.98M** — the LEVEL was seen at CalculatedRisk; NAR's own page confirmed only −2.0% and 4.9 months. Re-confirm at NAR with the September print.
+4. **Morgan Stanley 7.1%** — unresolved perimeter; needs the MS report.
+5. **Primaries gated at this box:** MBA 403 site-wide · ice.com First Look pages 404/403 (Mortgage Monitor PDF was 200 today) · Google Trends 429. trepp.com was **200** today.
