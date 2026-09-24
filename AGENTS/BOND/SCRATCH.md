@@ -24,6 +24,7 @@
 9. 🟡 `DEALER_CAPACITY.md` BODY refresh (header carries 9/16; body is 8/26-era). `KB-BND-307`'s cadence claim is wrong (lag is 8 days); correct it with a CORRECTED status when next touching the row.
 
 ## OPEN THREADS / KNOWN GAPS
+- ✅ **Auction corpus refreshed 9/24 ~17:0x** (`data/auction_history_v2_prome-spawned.csv` 390→405 rows, through 9/24): all 15 new rows match TA_WS on BTC/indirect/dealer; 0 of 390 old grading cells changed; FRN rows excluded (45); 9/23 5Y regrade reproduces exactly; grader selftest 29/29. **Every coupon auction since 8/13 was already graded (KB)** — the file had simply not been re-run since 8/18, masked by the TA_WS overlay (cap reaches back to 2025-04-10, so no benchmark gap occurred). 🟡 **Re-run the refresh at each quarterly `I'` refresh (next 10/1)** — nothing else triggers it.
 - 🟠 **Replies owed TO BOND:** LIQUID (funding 9/23–25) · ZHAO (custody/TIC). Delivered 9/24, both desks unrun since.
 - 🟡 9/2 per-tenor base-rating + the WQ-157 join used pre-`KB-BND-314`-fix pools. Not re-run; disclose if re-cited. (Now ALSO subject to `KB-BND-327`.)
 - ⚠️ `NEXUS_BRIEF.md` 73 KB, over the read cap if any boot reads it whole (flagged to PROME). No FR2004 line in its live 9/24 re-pin; not refreshed this session.
