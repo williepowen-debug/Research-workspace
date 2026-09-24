@@ -106,3 +106,4 @@ The RETIRE rule (`STATUS.md` §EXIT RULES, written 2026-07-25) requires "ACL/NPL
 ## 9. Pre-print annotations (dated; permitted until the print lands)
 
 - *2026-09-24: frame registered. Print date not announced. Re-check the WAL IR feed from ~10/2 and pin the date here.*
+- *2026-09-24 ~00:5x ET (PROME round-2 add-on, capped at ONE pull): tried to re-verify the §6 Barclays quotes at a primary. The WAL IR events page (`investors.westernalliancebancorporation.com/News-and-Presentations/events/default.aspx`) returned **HTTP 404**. No IR-posted transcript was reached, and the webcast replay is audio. ⇒ **All four §6 quotes (NPL $567M → ~$500M; charge-offs under Q2; ACL well over 100% vs 95%; "four down, two to go") REMAIN B2, NOT VERIFIED.** Reason: primary unreachable on the single allowed pull. The requirement to verify before grading still stands and falls to the print session. The Q3 release's own numbers grade §6 regardless; the quotes only set the benchmark.*

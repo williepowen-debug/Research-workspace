@@ -27,9 +27,9 @@
 
 | Date | Event | What it tests |
 |---|---|---|
-| ⏱ **TUE Oct 13** | ✅ **Q3 PRINT FRAME WRITTEN 2026-09-24 → `Q3_PRINT_GRADING_FRAME_2026-09-24.md`** (L170, 19 days before the earliest plausible date). **Still owed: the Q3 10-Q frame (L171, earliest plausible 10/24)** | Pin the print date in the frame's §9 when announced. **Every leg names the FILING that carries its metric + a NO-VERDICT band.** **New inputs 9/24: mgmt's 9/16 Q3 guidance as the benchmark (KB-194) + pin the coverage DENOMINATOR (RETIRE spec gap).** Q2's frame leg graded EXPIRED-UNWRITTEN / VOID — do not repeat. **19 days out.** |
+| ⏱ **TUE Oct 13** | ✅ **Q3 PRINT FRAME WRITTEN 2026-09-24 → `Q3_PRINT_GRADING_FRAME_2026-09-24.md`** (L170, 19 days before the earliest plausible date). ✅ **Q3 10-Q FRAME WRITTEN 9/24 too → `Q3_10Q_GRADING_FRAME_2026-09-24.md`** (L171, 30 days early) | Pin the print date in the frame's §9 when announced. **Every leg names the FILING that carries its metric + a NO-VERDICT band.** **New inputs 9/24: mgmt's 9/16 Q3 guidance as the benchmark (KB-194) + pin the coverage DENOMINATOR (RETIRE spec gap).** Q2's frame leg graded EXPIRED-UNWRITTEN / VOID — do not repeat. **19 days out.** |
 | ~3rd-4th **Wed of Oct** — **date NOT announced** (IR feed 9/24; inference from pattern) | Q3 print + deck slide 12 | Migration N=2 test; office-classified (WAL-01, deck slide 12 = the ONLY carrier); ex-fraud NCO (WAL-02); "charge-offs have peaked" guide |
-| ~late Oct | **Q3 10-Q** | WAL-01/02 backstop; Cantor ledger tie-out; NPL / restructured / OREO trajectory |
+| ~late Oct (EDGAR ≥ Mon 10/26) | **Q3 10-Q**: frame pre-registered | WAL-01 cross-check (classified loans + OREO basis) · WAL-02 confirm/correct · Cantor tie-out + the $64M candidate tie · $99M bucket · RETIRE coverage leg (needs the unfunded ACL) · NDFI share vs 25.9% (V3 decider) |
 | *undated* | **$99M life-sci appraisal** | **Carrier ranking (9/2): 8-K possible NOT expected (0-for-1) · Q3 call MODAL · Q3 10-Q backstop.** Weekly 8-K sweep from 9/15. ⛔ **NO-VERDICT band: an 8-K-silent window resolves NOTHING.** |
 | ~Oct-Nov | **Q3 FFIEC Call Report** | MI3 standing quarterly pull (desktop) + NDFI nonaccrual `RCONPV25` 2nd quarter |
 | **Fri Dec 04** | Dec-18 $70P **time stop** | TERRY/Will lane |
