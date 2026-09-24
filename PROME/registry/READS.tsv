@@ -6,8 +6,8 @@
 #   TWO DIFFERENT TOOLS, never call either one "the checker":
 #     · `PROME/tools/reads_check.py`  — consumes THIS file today. Validates + measures what is DECLARED.
 #     · `scripts/read_cap_check.py`   — the fleet read-cap instrument; reads this file when `--require-manifest` is given (since 2026-09-12).
-#   ⇒ Ruling ④'s interim convention ("READ-CAP 0 within N discovered whole-read files; heuristic perimeter")
-#     REMAINS LIVE for every read_cap_check verdict. It retires only when read_cap_check consumes this file.
+#   ⇒ Ruling ④'s interim convention ("READ-CAP 0 within N discovered whole-read files; heuristic perimeter") is RETIRED for
+#     read_cap_check verdicts run with `--require-manifest` (since 2026-09-12); a verdict run WITHOUT the manifest still travels with its perimeter. Ruling 4 below is quoted as ruled; its condition is now met.
 # Canon for the byte budget stays AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md; this file never restates a constant.
 # ⚠️ DATE BASIS: filenames and `declared_on` are ET (PROME's clock). Will's rulings below are stamped
 #   2026-09-01 UTC and were made the same evening, 2026-08-31 ~20:5x ET. Same night, two clocks.
