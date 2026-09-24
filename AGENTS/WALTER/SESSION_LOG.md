@@ -1,3 +1,5 @@
+## 2026-09-24 Thu ~18:29–19:5xZ — `walter-f9` LATER LEG (Will: "please process your work queue", then "double check we completed the work"). `light-closeout — full deferred`. `-016` crack below 50 into the settle · WQ-254 D4 prune / D5 kill_strings / D6 pointer · staleness sweep (2 tags) · REGISTRY ×8 · `-017` grocery correction · CHECKLIST v0.49 (HAWK F3) · `-018` yen + SAM doorbell. **An independent Opus review then found 3 ❌ and 8 ⚠️; all fixed the same leg, incl. `-019` correcting `-018`'s timing.** Full record: `LAST_COMPLETION.md` LATER LEG.
+
 ## 2026-09-24 Thu 18:20Z — `walter-f9` **TIER-2 CLOSEOUT** (Will: "close out here"). Clears both 9/24 `light-closeout — full deferred` breadcrumbs below. MEMORY handoff + finding #28; OPEN DESIGN DECISION (k) (independent review at every Tier-2) raised to Will. ⛔ Staleness sweep SKIPPED, named (7d past cadence). All 54 handoffs delivered.
 
 ## 2026-09-24 Thu ~17:3x–17:5xZ (13:3x–13:5x ET) — `walter-f9` PM leg: Iran FULL sweep + independent review of the day's work. **Supersedes the AM entry below on counts and on "full sweep still OWED".** `light-closeout — full deferred`

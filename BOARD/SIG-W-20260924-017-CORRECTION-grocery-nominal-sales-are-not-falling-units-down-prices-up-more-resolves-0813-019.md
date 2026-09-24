@@ -17,7 +17,8 @@ confidence_language: verified by WALTER at the Bain release and the Census/BLS s
 signal_type: correction
 corrects: SIG-W-20260813-019
 corrects_direction: "FLIPS the relayed CNBC leg ('grocery sales are declining as weakening unit sales are now outweighing rising prices'): nominal grocery sales are UP; units down about 2%, prices up 2-3%. -0813-019's own INDETERMINATE verdict and its 'real vs nominal' test HOLD; this runs that test."
-kill_strings: ["grocery sales are declining as weakening unit sales are now outweighing rising prices", "Weakening unit sales are now outweighing rising prices", "units now outweigh price"]
+kill_strings: ["grocery sales are declining as weakening unit sales are now outweighing rising prices", "Weakening unit sales are now outweighing rising prices", "Units now outweigh price"]
+erratum: "2026-09-24 — kill_strings[3] re-cased to the verbatim source literal 'Units now outweigh price' (was lower-case, 0 case-sensitive hits; caught by the 9/24 independent review). No claim changes; the recipient handoffs carry the old casing."
 verdict: "The claim relayed in -0813-019 (per CNBC via @unusual_whales) that grocery sales are DECLINING because falling units outweigh rising prices is NOT supported. The Bain/NielsenIQ release says units fell 1.8% YoY in June while grocery prices rose 2-3%, and says nominal spending is being 'kept afloat'; it never says dollar sales fell. Census grocery-store sales (RSGCS) are UP in dollars: +0.97% YoY June, +0.52% August. Deflated by CPI food-at-home (+2.70% / +2.13%), they are DOWN about 1.7% / 1.6% in real terms. Volume is soft; nominal is not falling."
 ---
 

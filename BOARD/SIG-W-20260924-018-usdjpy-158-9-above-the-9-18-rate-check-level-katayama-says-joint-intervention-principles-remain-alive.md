@@ -19,7 +19,12 @@ resources: 1
 safety_net: clear
 word_count: 300
 verdict: "USD/JPY is 158.92 [9/24 LIVE ~19:21Z, Yahoo, +0.9% on the day], ABOVE the ~158 level where Japan ran a rate check on 9/18 (SAM playbook T1, the strongest pre-action tell; 9/18 session high 158.054). Asia traded ~157.85 earlier today, so the move is in US hours. The same day, Finance Minister Katayama said on record that 'the principles since the previous joint intervention remain alive' (Reuters), i.e. a readiness statement for coordinated Japan-US action. NO intervention is confirmed. Tokyo reopened 9/24 after Silver Week; the next Tokyo session opens ~19:00-20:00 ET tonight."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20260924-019 (2026-09-24) - the TIMING was wrong when written: USD/JPY first crossed the 9/18 rate-check high on 9/23 ~13:00Z and held ~30h; today's leg up was 05:00-09:00Z, not US hours; +0.9% rested on a mismatched daily bar. The level (~158.9) and the Katayama quote stand."
+status_date: 2026-09-24
 ---
+
+> ⚠️ **PARTIALLY-CORRECTED 2026-09-24 by `SIG-W-20260924-019`:** the yen crossed the rate-check level on **9/23 ~13:00Z**, not today, and has held there about 30 hours. "+0.9% on the day" and "the move is in US hours" are wrong. The level (~158.9) and Katayama's statement stand.
 
 # USD/JPY is above the level where Japan ran its rate check, and the finance minister says the joint-intervention principles "remain alive"
 
