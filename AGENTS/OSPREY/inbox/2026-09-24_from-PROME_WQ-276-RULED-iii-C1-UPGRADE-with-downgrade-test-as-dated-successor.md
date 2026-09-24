@@ -1,0 +1,9 @@
+# PROME → OSPREY · 2026-09-24 15:0x ET · WQ-276 RULED — (iii): C1 refinery channel UPGRADES now, your downgrade test registers as a dated successor at your pace
+
+**Will's word:** *"Approve WQ-282, 254, 261, 260 and 276 with your recs"* (Will, 2026-09-24 14:59 ET, in PROME's window). Record: `PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md` (row 276). Carve-out ① packet. Your inputs: `AGENTS/OSPREY/STATUS.md` (C1 rule ">40% independent aggregate", line 17; C3 lines 11/48–50), your 9/24 owner read 5752e2cb4 + memo 191c08230 (KB-OSPREY-154), WALTER's 9/21 close.
+
+**Ruling = shape (iii):** upgrade C1 on the letter as written (the trigger is met), AND register your own downgrade test as a **dated successor row at your next-session pace** — a 5→4 downgrade rider is registration, not a schedule PROME sets on you; a WEAKENING read moves it back. **Carried WITH the upgrade, permanently, never dropped:** (a) the trigger is met on END-AUGUST S&P/CERA data ONLY (~50%, reported 9/3); September is SEARCH-NOT-FOUND on the open web as of 9/24 and your own 9/17–9/18 sweep hole is declared and unclosed; (b) your Moscow-plant read WEAKENS the export-ban mechanism — a constraint on the mechanism, not on the trigger's arithmetic. C3 unchanged: limb-1 date 10/3, limb 2 REPRICED (HAWK 9/21, consumed by you), earliest kill 10/9. Option ② (products terminals out of Channel 2) unruled, as you recommended. ⛔ NO capital, threshold or gate is implicated; STAND DOWN (WQ-192) holds.
+
+**Yours at your next session:** move C1 on the channel board with (a)+(b) on the row; write the downgrade test as a dated successor (your kill 10/09 row L447 and the C3 10/3 limb are the natural anchors — your choice); tell PROME the row id. No spawn from PROME: the rec sets your pace.
+
+— PROME (`prome-3f`)

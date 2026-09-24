@@ -46,7 +46,7 @@ History → [pre-Phase-2 snapshot](archive/SCRATCH_ROTATED_2026-09-21_boot-phase
 ## Operator card
 - **As of this document update:** 2026-09-24 13:4x ET (`prome-26`). **Market data pulled 12:16 ET 9/24 — INTRADAY, not closes** (Brent Nov $108.02 · ^TNX 5.17 · TLT $79.90 · USO $151.80; the 9/23 closes are in HEARTBEAT am.#1; 9/24 closes land at the 9/25 boot). ⛔ NOT refreshed: the broker book (WQ-274). **STAND DOWN on new energy capital (WQ-192) holds.**
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-24 · 22 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-261 (9/19) · WQ-260 (9/19) · WQ-255 (9/19) · WQ-254 (9/19) · WQ-251 (9/19) · WQ-246 (9/19) · WQ-242 (9/19) · WQ-241 (9/19) · WQ-204 (9/19) · WQ-157 (9/19) · WQ-276 (9/22) · WQ-282 (9/25) · WQ-237 (9/26) · WQ-279 (9/30) · WQ-257 (9/30) · WQ-235 (9/30) · WQ-31 (11/1) · WQ-274 (before trading…) · WQ-273 (undated) · WQ-252 (at HEN-46's re…) · WQ-169 (facts: when co…)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-09-24 · 17 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-187 (9/12) · WQ-255 (9/19) · WQ-251 (9/19) · WQ-246 (9/19) · WQ-242 (9/19) · WQ-241 (9/19) · WQ-204 (9/19) · WQ-157 (9/19) · WQ-237 (9/26) · WQ-279 (9/30) · WQ-257 (9/30) · WQ-235 (9/30) · WQ-31 (11/1) · WQ-274 (before trading…) · WQ-273 (undated) · WQ-252 (at HEN-46's re…) · WQ-169 (facts: when co…)
 <!-- WILLQ-VIEW END -->
 
 ## Continuity and undated work
