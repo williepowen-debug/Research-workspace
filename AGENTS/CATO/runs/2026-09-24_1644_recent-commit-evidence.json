@@ -1,0 +1,145 @@
+{
+  "terry_selftest": "paper_book_mark.py SELFTEST: PASS",
+  "terry_independent_cases": {
+    "stale_quote": [
+      350.0,
+      "2026-09-01 18:00 local",
+      "last/regular (delay 15m)"
+    ],
+    "missing_time": [
+      null,
+      null,
+      "NO-QUOTE-TIME"
+    ],
+    "missing_price": [
+      null,
+      null,
+      "NO-QUOTE"
+    ],
+    "nan_price": [
+      null,
+      null,
+      "NO-QUOTE"
+    ]
+  },
+  "nexus_counterexample": {
+    "anchor": 2.7,
+    "first": [
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0,
+      2.4,
+      3.0
+    ],
+    "reanchor": 3.0,
+    "second": [
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3,
+      2.7,
+      3.3
+    ],
+    "grades": [
+      "C",
+      "C"
+    ],
+    "every_cell_outside_own_band": true,
+    "squared_marginals": [
+      0.31584400000000007,
+      0.1296
+    ],
+    "joint_rate_not_established": true
+  },
+  "oracle_dry_run": {
+    "returncode": 0,
+    "stdout": "Disruption-vs-Supply spread \u2014 2026-09-24T19:07Z  [v5-wti110-vintage-break]\n  Disruption leg: P(PortWatch 7dMA stays <60/day)      78.5%   (= 100 - 21.5% normal-by-Dec31; liq $368,933)\n     ^ NOT 'disruption persists' \u2014 this leg grades on an IMF PortWatch PRINT, and PortWatch's war-regime\n       coverage is impeached (BRENT 8/17, ext. corroboration 8/20). Undercount \u21d2 this leg, and the\n       spread, read WIDE. Do not quote it as a throughput or disruption probability.\n  Supply leg:     WTI $110 war premium [v5]             3.9%   (liq $29,895, slug=will-wti-reach-110-in-september-2026)\n  Spread = 78.5 - 3.9 = +74.7pp\n  [context] Hormuz 0-ships closure tail: 33.0%  (bridge between regimes \u2014 NOT in the arithmetic)\n  [context] Kalshi Iran crude (NOT in the arithmetic, never differenced): KXIRANCRUDE-26OCT13-T2.0=51.5% OI=0.0 [thin; mid if no trade]\n  Read: WIDE = premium not shortage \u00b7 COLLAPSING = supply fear catching up (check WHICH leg moved)\n",
+    "stderr": ""
+  },
+  "carl_ledger": {
+    "events": 140,
+    "new_events": 5,
+    "miss_brier_change": 0.7175,
+    "parser": "literal TSV, QUOTE_NONE; generator uses tab-join, not CSV quoting",
+    "all_14_fields": true
+  },
+  "walter_paths": {
+    "rows": 64,
+    "unique_paths": 64,
+    "states": [
+      "delivered"
+    ],
+    "missing": [],
+    "moved": [
+      {
+        "original": "AGENTS/BOND/inbox/WALTER/SIG-W-20260924-004.md",
+        "found": [
+          "AGENTS/BOND/inbox/WALTER/processed/SIG-W-20260924-004.md"
+        ]
+      },
+      {
+        "original": "AGENTS/CARL/inbox/WALTER/SIG-W-20260924-005.md",
+        "found": [
+          "AGENTS/CARL/inbox/WALTER/processed/SIG-W-20260924-005.md"
+        ]
+      },
+      {
+        "original": "AGENTS/OTTO/inbox/WALTER/SIG-W-20260924-005.md",
+        "found": [
+          "AGENTS/OTTO/inbox/WALTER/processed/SIG-W-20260924-005.md"
+        ]
+      },
+      {
+        "original": "AGENTS/BOND/inbox/WALTER/SIG-W-20260924-008.md",
+        "found": [
+          "AGENTS/BOND/inbox/WALTER/processed/SIG-W-20260924-008.md"
+        ]
+      },
+      {
+        "original": "AGENTS/CARL/inbox/WALTER/SIG-W-20260924-013.md",
+        "found": [
+          "AGENTS/CARL/inbox/WALTER/processed/SIG-W-20260924-013.md"
+        ]
+      },
+      {
+        "original": "AGENTS/OTTO/inbox/WALTER/SIG-W-20260924-013.md",
+        "found": [
+          "AGENTS/OTTO/inbox/WALTER/processed/SIG-W-20260924-013.md"
+        ]
+      },
+      {
+        "original": "AGENTS/MARCO/inbox/WALTER/SIG-W-20260924-017.md",
+        "found": [
+          "AGENTS/MARCO/inbox/WALTER/processed/SIG-W-20260924-017.md"
+        ]
+      }
+    ]
+  },
+  "bond_author_tests": {
+    "commit": "bbd1d8d1e",
+    "returncode": 0,
+    "stdout": "   \u2705 9/10 accepted total = $5,187,000,000 (details sum == ops row)\n   \u2705 9/10 legacy (coupon<=2.50) share = 75.09%\n   \u2705 9/10 top-3 share = 71.39%\n   \u2705 9/10 23 of 40 accepted\n   \u2705 9/10 recent_share = 12.55% on the VINTAGE rank (cut 2023-05-31) -> OFF-THE-RUN\n   \u2705 \u26a0\ufe0f3: three 2016 30Ys bought -> recent 0% on the vintage rank (was 100% FIRES by maturity), legacy 100% -> OFF\n   \u2705 \u26a0\ufe0f3 control: the SAME buy ranked by maturity reproduces the defect (100% FIRES) -- the fixture discriminates\n   \u2705 missing vintage for one CUSIP -> recent_share None, verdict None, CUSIP named\n   \u2705 missing vintage on an UNROUTED published op -> GAP + NO VERDICT, not owed/graded\n   \u2705 original_issue_date() = earliest issueDate across reopenings (RQ3 records -> 2016-02-16)\n   \u2705 9/10 cover vs cap 1.75x\n   \u2705 9/10 in scope\n   \u2705 TIPS op out of scope\n   \u2705 7Y-10Y op out of scope\n   \u2705 cash-management op out of scope\n   \u2705 announced op: not published\n   \u2705 announced op TODAY -> pending, not owed, no gap\n   \u2705 announced op PAST with null results -> a DATA GAP, not an owed read\n   \u2705 published in-scope op, no ledger row -> OWED (gaps 0)\n   \u2705 published in-scope op WITH a VALID ledger row (path resolves via inbox/processed/) -> routed, not owed (overlap)\n   \u2705 ledger row with ONLY op_date does NOT discharge -> still OWED\n   \u2705 ledger row whose packet_path resolves nowhere -> still OWED\n   \u2705 two ops on one date -> GAP, no verdict, nothing 'routed' or 'fires'\n   \u2705 details sum != ops row -> BLOCKED as a GAP, no verdict\n   \u2705 null bucket on an in-window op -> UNCLASSIFIED GAP\n   \u2705 whitespace/case-variant bucket still classifies IN scope\n   \u2705 security_details rows with no ops row -> GAP (not invisible)\n   \u2705 announced op with null cap -> reported, no crash\n   \u2705 past WINDOW end -> \u26d4 WINDOW EXPIRED gap, never rc=0\n   \u2705 synthetic recent_share = 0.00% exactly (q=4 distinct vintages -> idx 3 -> cut 2056-02-15, whose par is 0)\n   \u2705 synthetic 75% newest-quartile -> ON-THE-RUN fires\n   \u2705 synthetic exactly 50% -> does NOT fire (strict >)\n   \u2705 schedule: 6 future in-scope ops listed \ud83d\udcc5\n   \u2705 schedule: a PAST scheduled op missing from the feed is a GAP \ud83d\udd34 (not an owed read)\n   \u2705 full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 6 scheduled\n   \u2705 full schedule on 2026-09-17 with an EMPTY ledger: 9/10 is OWED (the L401 state before this tool)\n   \u2705 9/10 fixture is COMPLETE (40 rows == nbr_issues_eligible 40, ops total present)\n   \u2705 partial rows (38 of 40 null) -> NOT complete\n   \u2705 ops-row total null -> NOT complete\n   \u2705 missing eligible row (39 of 40) -> NOT complete\n   \u2705 partial publication in the report -> GAP + NO VERDICT, never owed/graded\n[buyback_f2] selftest: 0 failure(s)\n",
+    "stderr": "",
+    "setup_note": "Isolated suite also requires pinned live-ledger and packet artifacts; initial incomplete snapshots failed setup/one ledger-path case. Complete snapshot rerun below."
+  },
+  "review_cutoff": "fab239e7f"
+}

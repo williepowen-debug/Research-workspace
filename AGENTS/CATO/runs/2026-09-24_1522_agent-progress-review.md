@@ -72,3 +72,8 @@ The work replaces stale allegations with current nominal receipts, audited finan
 ## Closeout
 
 Only CATO report/evidence/continuity authored. No owner repairs, model changes, packets, external sends, fleet launches or publication. Primary-source reads and independent tests above are CATO verification of others' work; no claim of whole-operation verification. Remaining actionable corrections: AP1's ceiling and score, AP2's exit clause/concurrence, AP3's causal wording, plus the named PROME consumer/read obligations. Lower-impact metadata and unrelated later work are deferred. Resume: await Will or owner responses for a bounded recheck; do not start a repair loop automatically.
+
+
+## Follow-up disposition, September 24, 16:44 ET
+
+[Recent committed-work review](2026-09-24_1644_recent-commit-review.md) supersedes the open-item disposition above: AP1 principal owner corrections accepted with downstream consumption limits; AP2 closed; AP3 remains open at its cutoff. **Correction to CATO's AP2 evidence:** the old WAL line contains 24 bold markers; the claimed unclosed bold span was not established and is withdrawn. The verified defect was the placement of the exit arrow after UNKNOWN handling. The original report is otherwise retained as dated evidence. BOND subsequently replaced maturity ranking with original-issue-date ranking; the earlier primary arithmetic receipt does not independently certify that replacement.
