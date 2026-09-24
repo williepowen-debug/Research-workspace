@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-09-24 PM — ⚖️ CRL-08 bar RULED (WQ-281): sustained governs
+
+WQ-281 RULED 2026-09-24 13:17 ET, Will verbatim "Approve WQ-280 and WQ-281 with your recs" (in PROME session prome-26; record PROME/WILL_QUEUE.md row 281): the SUSTAINED 2-week bar governs (two weekly EIA GASREGW prints >=$4.50 in-window); the touch bar does not. Consequence on the letter: CRL-08 resolves MISSED on 9/30 whatever the w/e 9/28 print does. Probability stays 7% as-priced until graded (no pre-resolution re-mark). The touch-bar language in the row's Confidence cell is now historical.
+
 ## 2026-09-24 — Evidence refresh (V2, V12); no model change, no probability moved
 
 V12 cell: 9/16 presser reviewed (no easing; dots one more hike), so the un-fire count stays 0 of 2 and the score stays 5. V2 cell: August broad tier 0 of 3 improving (mean +1.09pp vs July +1.00pp), so August cannot count toward L3. Score 53/70, v2.6.6, unchanged. **CRL-08 deliberately NOT re-priced** (7%) although its priced sustained-2wk bar became unreachable in-window on 9/24: a re-mark six days before resolution is the confidence-walk pattern (ROADMAP #34). It resolves 9/30 under the bar Will names (touch vs sustained; registration asked of PROME 9/24). Source: `domain/sources/2026-09-24_data-catchup.md`.

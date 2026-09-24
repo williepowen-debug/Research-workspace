@@ -29,7 +29,7 @@ Human-readable twin of `docket/CATALYSTS.tsv`. **The two must not diverge** — 
 | **Tue 9/29** | **Carnival Q3 FY26** *(added 9/24, CRUISE)* | Did post-7/1 Caribbean discounting reach realised pricing? Price-driven miss = consumer read; capacity-driven = supply | 🟡 |
 | **Tue 9/29** | **SAVE→RAP first switch deadlines** *(added 9/24, secondary)* | Non-responders moved to Standard; CRL-13/CRL-28 windows open 10/1 | 🟠 |
 | **Tue 9/29** | **Conference Board Consumer Confidence (Sept)** *(added 9/24)* | Expectations vs 80 line (Aug 68.2, secondary); context only | 🟡 |
-| 🔴 **Wed 9/30** | **CRL-08 WINDOW CLOSES** *(added 9/24)* | Resolve on 9/28 GASREGW + AAA through 9/30. Sustained-2wk bar unreachable in-window; touch bar live ($4.4825 9/24). **Will rules which bar governs before this date.** Not re-priced before resolution | 🔴 |
+| 🔴 **Wed 9/30** | **CRL-08 WINDOW CLOSES** *(added 9/24)* | Resolve on 9/28 GASREGW + AAA through 9/30. **RULED 9/24 (WQ-281, Will 13:17 ET): the sustained bar governs ⇒ MISSED.** Grade at the EIA primary; not re-priced before resolution | 🔴 |
 | **Wed 9/30** | **BEA August Personal Income & Outlays + Q2 GDP third estimate (08:30)** *(added 9/24; corrects '~9/25')* | Saving rate vs 3.0%; real PCE vs real DPI; PCE/core | 🟠 |
 | **Fri 10/2** | **STUE grades ES-01/04/06 on FSA FY26-Q3** *(added 9/24, harvested child deferral)* | If STUE has not booted, CARL spawns or flags | 🟠 |
 

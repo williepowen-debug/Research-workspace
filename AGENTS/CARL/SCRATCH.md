@@ -2,7 +2,7 @@
 **Last session:** 2026-09-24 ~18:30 UTC
 **Type:** Data catch-up after a 7-day gap (Will-directed): three Opus research sweeps, inbox 10→0, 36 BOARD dispositions, 5 docket rows discharged, a boot.py render defect fixed. No score or probability change.
 
-**PRIORITY-1:** Get Will's CRL-08 bar ruling (WQ-281) (touch vs sustained) before **Wed 9/30**. Then resolve CRL-08 on the 9/28 GASREGW print plus AAA through 9/30.
+**PRIORITY-1:** 2026-09-30: grade CRL-08 MISSED at the EIA primary under the SUSTAINED bar (WQ-281 RULED 9/24 13:17 ET, Will: "Approve WQ-280 and WQ-281 with your recs"), then write the V2 both-tier card once the EART August 10-Ds land.
 
 ---
 
@@ -88,7 +88,7 @@ Predictions unchanged (15 OPEN).
 ---
 
 ## URGENT
-- CRL-08 bar ruling needed before 9/30; the sustained bar resolves MISSED regardless.
+- CRL-08: bar RULED sustained (WQ-281) ⇒ grade MISSED on 9/30.
 
 BOARD scan run, 0 new since SIG-W-20260921-022, 794 logged
 This cursor assertion is not the 223-ID backlog or evidence of substantive review.
