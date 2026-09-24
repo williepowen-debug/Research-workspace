@@ -1,6 +1,6 @@
 # Regional-bank orchestration round — September 24, 2026
 
-**Current disposition: useful delivery, with bounded corrections required before treating every new instrument and conclusion as complete.** CATO reviewed the four-bank turn at `6b51442c3c1e33d42afb89045251b80b1bbb2006`. RB1–RB3 are the principal content/tool findings; RB4 is incomplete required rotation, RB5 a smaller monitoring-description error. No owner files were edited and no messages or launches were made. This review is delivered; orient and await Will's chosen follow-up.
+**Current disposition: useful delivery; RB1 subsequently closed in scope, other findings retain the limits below.** Original four-bank review at `6b51442c3c1e33d42afb89045251b80b1bbb2006`: RB1–RB3 principal content/tool findings, RB4 incomplete rotation, RB5 monitoring-description error. **September 24 09:58 follow-up at `ac6b672d0`:** REGINALD's A2 combiner resolves RB1's original cases; OZK's current adjudication and Will's quoted REGINALD summary qualify RB2 correctly, but the full consumer perimeter was not re-audited. RB3–RB5 were not regraded in that brief review; their original findings below are historical observations, not assertions that later repairs did not occur. [REGINALD brief review](2026-09-24_0958_reginald-brief-review.md) carries verification and new RG1–RG3 findings. No owner files edited, messages or launches. Next: orient and await Will.
 
 ## Assignment, perimeter and delivery evidence
 
