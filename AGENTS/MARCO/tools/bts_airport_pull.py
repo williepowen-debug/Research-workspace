@@ -44,6 +44,7 @@ USAGE
 """
 import json
 import re
+import calendar
 import sys
 import time
 from pathlib import Path
@@ -100,6 +101,10 @@ def pull(airport, carrier="All", session=None):
 
 def main():
     args = [a for a in sys.argv[1:]]
+    if "-h" in args or "--help" in args:
+        # Before 2026-09-24 '--help' fell through to the airport list and was POSTed as an IATA code.
+        print(__doc__)
+        return
     carrier = "All"
     if "--carrier" in args:
         i = args.index("--carrier")
@@ -127,16 +132,25 @@ def main():
 
     airports = args or ["MCO", "FLL", "MIA"]
     s = requests.Session()
-    lines = [f"# MARCO BTS T-100 airport enplanements | carrier={carrier} | "
-             f"pulled={time.strftime('%Y-%m-%d')}",
-             "# ⚠️ ENPLANEMENTS (departing), NOT airport-reported enplaned+deplaned totals —",
-             "#   BTS runs ~HALF the airport figure. Compare YoY/stacks WITHIN this series only.",
-             "# Last real data refresh: " + time.strftime("%Y-%m-%d"),
-             "airport\tyear\tmonth\tdomestic\tinternational\ttotal"]
+    pulled = {}
     for ap in airports:
         d = pull(ap, carrier, s)
         latest = max(d)
         print(f"  {ap}: {len(d)} monthly rows, latest {latest[0]}-{latest[1]:02d}")
+        pulled[ap] = d
+    # PAT-044: the two-clock header's data clock is the newest DATA MONTH, not the pull date
+    # (fixed 2026-09-24 — it used to stamp today, so a re-pull of unchanged BTS data read as
+    # fresh). Freshness = the STALEST airport's newest month, stamped as that month's last day.
+    y, m = min(max(d) for d in pulled.values())
+    vintage = f"{y}-{m:02d}-{calendar.monthrange(y, m)[1]:02d}"
+    lines = [f"# MARCO BTS T-100 airport enplanements | carrier={carrier} | "
+             f"pulled={time.strftime('%Y-%m-%d')}",
+             "# ⚠️ ENPLANEMENTS (departing), NOT airport-reported enplaned+deplaned totals —",
+             "#   BTS runs ~HALF the airport figure. Compare YoY/stacks WITHIN this series only.",
+             f"# Last real data refresh: {vintage}   <- newest data month common to all airports "
+             "(month-end); the pull date is on line 1",
+             "airport\tyear\tmonth\tdomestic\tinternational\ttotal"]
+    for ap, d in pulled.items():
         for (y, m) in sorted(d):
             dom, intl, tot = d[(y, m)]
             lines.append(f"{ap}\t{y}\t{m}\t{dom}\t{intl}\t{tot}")

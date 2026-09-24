@@ -48,6 +48,21 @@ maintained for weeks:**
    *(Related: the same audit found the wording admitted three readings whose
    false-positive rates were 45% / 30% / 10% — see
    [[finding_spec_that_is_both_falsifier_and_trigger_permits_only_disambiguation]].)*
+   ⚠️ **CORRECTED 2026-09-24 (carried from CATO's 9/19 review of the source figures):**
+   those three numbers are **historical crossing frequencies over a period that contained
+   real deterioration, NOT calibrated false-positive rates**, and the "45%" was measured
+   over single-month transitions — on matched two-month windows the either-month /
+   both-months frequencies are **80% / 10%** (n=10). The lesson is unchanged and stronger;
+   the numbers as first written were wrong.
+
+6. **A letter keyed on a cell the agency never published — CAUGHT at spec time (MARCO
+   2026-09-24, n=6).** A re-specified energy→airfare test was about to be written on
+   CPI airline-fares **YoY** for Sep and Oct 2026. Pulling the base cells first showed
+   BLS's **Oct-2025 value is `-`** (2025 shutdown — never collected), so an Oct-2026 YoY
+   **cannot be computed in any state of the world**. Switched to the 2-yr stack (base
+   Oct-2024 exists). ⇒ **Before writing a letter, pull every BASE cell it will divide by,
+   not just the numerator series** — a data hole in the comparison period is defect #2
+   one level down. This is the check working, recorded so the cheap step stays habitual.
 
 **What both share with 1–3: the instrument looked fine.** Nothing was stale, no check
 failed, and in each case the defect was visible for free in the artifact the spec

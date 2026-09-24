@@ -1,7 +1,7 @@
 # MARCO BTS T-100 airport enplanements | carrier=All | pulled=2026-09-19
 # ⚠️ ENPLANEMENTS (departing), NOT airport-reported enplaned+deplaned totals —
 #   BTS runs ~HALF the airport figure. Compare YoY/stacks WITHIN this series only.
-# Last real data refresh: 2026-09-19
+# Last real data refresh: 2026-06-30   <- newest data month common to all airports (month-end); restamped 2026-09-24 from the pull date (tool fix)
 airport	year	month	domestic	international	total
 MCO	2002	10	963671	66591	1030262
 MCO	2002	11	959769	63435	1023204
