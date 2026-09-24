@@ -374,6 +374,23 @@ def leg_gates(ctx):
 
 
 WQ_ROW_RE = re.compile(r"^\|\s*(\d+)\s*\|")
+_ESCAPED = "\x00"          # stand-in for a literal `\|` while we split
+
+
+def split_cells(line: str) -> list:
+    """Split one markdown table line into its cells, the way a renderer does.
+
+    COPIED from PROME/tools/table_check.py::split_cells (2026-09-24; root scripts must not
+    import from PROME/tools).  Escaped pipes (`\\|`) are held out of the split; every other
+    pipe separates, code spans included.  ONE leading and ONE trailing pipe are structural
+    and contribute no cell.  The old `line.strip("|").split("|")` split on `\\|` (WQ-157
+    typed as 8 cells) and stripped EVERY edge pipe, so an empty edge cell vanished."""
+    s = line.strip().replace("\\|", _ESCAPED)
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.replace(_ESCAPED, "\\|") for c in s.split("|")]
 
 
 def leg_will_queue(ctx):
@@ -388,7 +405,7 @@ def leg_will_queue(ctx):
         line = raw.strip()
         if not line.startswith("|"):
             continue
-        cells = [c for c in line.strip("|").split("|")]
+        cells = split_cells(line)
         if set("".join(cells).strip()) <= set("-: "):
             continue                                  # the |---|---| separator
         if want is None and not WQ_ROW_RE.match(line):
@@ -399,7 +416,8 @@ def leg_will_queue(ctx):
             continue                                   # a table elsewhere in the doc
         rows += 1
         if want is not None and len(cells) != want:
-            defects.append(f"L{lineno}: {len(cells)} cell(s), want {want} (id {m.group(1)})")
+            defects.append(f"L{lineno}: SHIFTED ROW — {len(cells)} cell(s), header has {want} (id {m.group(1)}); "
+                           f"every cell right of the break is mis-columned (needed-by etc.) — escape a literal pipe as \\|")
         wid = m.group(1)
         if wid in ids:
             defects.append(f"L{lineno}: duplicate WQ id {wid} (first at L{ids[wid]})")
@@ -447,6 +465,9 @@ def leg_commit_subjects(ctx):
     return Result(None, ADVISORY if over else PASS, head, detail, len(over))
 
 
+KB_COMMENT_RE = re.compile(r'^\s*"?#')
+
+
 def leg_kb_stale_by(ctx):
     root = ctx["root"]
     today = ctx["today"]
@@ -458,7 +479,15 @@ def leg_kb_stale_by(ctx):
     for f in files:
         try:
             with f.open(encoding="utf-8") as fh:
-                head = fh.readline().rstrip("\n").split("\t")
+                # The header is the first line that is not blank and not a `#` comment (bare or
+                # TSV-quoted `"#`, OSPREY L4).  A bare readline() took the PAT-044 two-clock line
+                # `# Last real data refresh: …` as the header, landed the KB in no_col, and dropped
+                # every row from supervision (ZHAO 2026-09-24; 10 live KBs were in that state).
+                head = []
+                for raw in fh:
+                    if raw.strip() and not KB_COMMENT_RE.match(raw):
+                        head = raw.rstrip("\n").split("\t")
+                        break
                 cols = {c.strip(): i for i, c in enumerate(head)}
                 if "Stale_By" not in cols:
                     no_col.append(f.parent.parent.name)
@@ -932,7 +961,7 @@ def _fixture_repo(tmp: Path, *, docket_ok=True, gates_ok=True, wq_ok=True,
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_DRILLS = 38
+EXPECTED_DRILLS = 42
 
 
 def selftest():
@@ -981,6 +1010,32 @@ def selftest():
     drill("B3 capable: duplicate id + short row -> FINDINGS, rc1",
           with_fixture(wq_ok=False)("B3"), FINDINGS, 1)
     drill("B3 clean -> PASS, rc0", with_fixture()("B3"), PASS, 0)
+
+    # --- B3 markdown pipe semantics (2026-09-24): `\|` is a literal pipe, a bare `|` separates
+    def b3_wq(row):
+        def _run():
+            with tempfile.TemporaryDirectory() as td:
+                root = _fixture_repo(Path(td))
+                _write(root / "PROME" / "WILL_QUEUE.md",
+                       "| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
+                       "|---|---|---|---|---|---|---|\n" + row + "\n")
+                res, g, e, gs, gn, t = run_suite(root, only={"B3"}, today="2026-09-10", baseline={})
+                r = res[0]
+                label = r.state if (r.state != FINDINGS or any("SHIFTED ROW" in d for d in (r.detail or []))) \
+                    else "FINDINGS-WITHOUT-SHIFTED-LABEL"
+                return label, verdict(res, e, gs), (r.detail or [r.headline])[0]
+        return _run
+    drill("B3 escaped pipe `a \\| b` inside a cell keeps 7 cells -> PASS, rc0 (WQ-157 shape)",
+          b3_wq("| 157 | a \\| b | [Approve] | 2026-09-19 | 9/9 | rec | n |"), PASS, 0)
+    drill("B3 UNescaped pipe inside a cell -> SHIFTED ROW, FINDINGS rc1 (never silently mis-parsed)",
+          b3_wq("| 158 | a | b | [Approve] | 2026-09-19 | 9/9 | rec | n |"), FINDINGS, 1)
+
+    def b3_needed_by_column():
+        cells = split_cells("| 157 | `x \\| y` | [Approve] | 2026-09-19 (note) | 9/9 | rec | n |")
+        ok = len(cells) == 7 and cells[3].strip().startswith("2026-09-19") and "\\|" in cells[1]
+        return ("COLUMNED" if ok else "MIS-COLUMNED"), 0, f"{len(cells)} cells; needed-by={cells[3].strip()!r}"
+    drill("split_cells: needed-by lands in col 4 when Item carries `\\|` in a code span",
+          b3_needed_by_column, "COLUMNED", 0)
 
     # --- B1 instrument failure: an EMPTY ledger must never read as clean
     def b1_empty():
@@ -1064,6 +1119,22 @@ def selftest():
             return res[0].state, verdict(res, e, gs), res[0].headline
     drill("C2 positive control FAILS (0 dated cells) -> CANNOT-CERTIFY, rc2",
           c2_control, CANNOT, 2)
+
+    # --- C2 comment-headed KB (2026-09-24, ZHAO): the PAT-044 two-clock line (and a TSV-quoted
+    #     `"#` line, OSPREY L4) precede the column header; the rows must still be supervised.
+    def c2_comment_header():
+        with tempfile.TemporaryDirectory() as td:
+            root = _fixture_repo(Path(td))
+            kb = root / "AGENTS" / "TESTDESK" / "workbook" / "KB.tsv"
+            kb.write_text("# LIVE ledger. Last real data refresh: 2026-09-18\n"
+                          "\"# quoted comment line\"\n\n"
+                          "ID\tFact\tStatus\tStale_By\n"
+                          "KB-1\tx\tACTIVE\t2026-01-01\n", encoding="utf-8")
+            res, g, e, gs, gn, t = run_suite(root, only={"C2"}, today="2026-09-10",
+                                             baseline={"C2_kb_stale_by": 0})
+            return res[0].state, verdict(res, e, gs), res[0].headline
+    drill("C2 `# Last real data refresh` header line -> row still supervised, FINDINGS rc1 over baseline 0",
+          c2_comment_header, FINDINGS, 1)
 
     # --- A-leg: a sub-check that RETURNS rc2 must take the run to rc2
     def a_leg_cannot():

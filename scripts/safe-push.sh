@@ -30,6 +30,15 @@
 # Canonical fleet copy (PROME-owned). CARL/scripts/safe-push.sh is the original reference.
 #
 # Usage: safe-push.sh [--dry-run]      # --dry-run does everything EXCEPT the final push
+#
+# RC CONTRACT (this script's own exit code — distinct from the `git push` SUBCOMMAND's rc,
+#   which the messages below always label as the subcommand's): 0 confirmed on origin (or
+#   nothing to push / --dry-run) · 1 NOT pushed / aborted · 2 CANNOT-CONFIRM.
+# KILLED RUN: rc 124 (timeout) or any external kill = CANNOT-CONFIRM — neither failure nor
+#   success; the git ref-update line printed before the kill is the SUBCOMMAND reporting, not
+#   this script certifying. Re-run; do not infer from the ref-update line. Any fallback check
+#   must be ONE `git ls-remote` call captured once and compared from the same value (CRUISE
+#   9/19: two calls, display failed, compare succeeded, green ✅ beside an empty ref).
 
 set -euo pipefail
 
@@ -96,16 +105,16 @@ fi
 push_rc=0
 git push "$REMOTE" "HEAD:$BRANCH" || push_rc=$?
 if ! git fetch -q "$REMOTE" "$BRANCH"; then
-  echo "CANNOT-CONFIRM: git push exited $push_rc, but the post-push fetch of $REMOTE/$BRANCH FAILED — the receipt cannot be issued either way."
+  echo "CANNOT-CONFIRM (safe-push rc=2): the \`git push\` subcommand exited $push_rc, but the post-push fetch of $REMOTE/$BRANCH FAILED — the receipt cannot be issued either way."
   echo "  Re-run scripts/safe-push.sh once the remote is reachable; do not read this as pushed OR as not pushed."
   exit 2
 fi
 if git merge-base --is-ancestor HEAD "$REMOTE/$BRANCH"; then
   echo "Pushed. CONFIRMED: HEAD $(git rev-parse --short HEAD) is on $REMOTE/$BRANCH (fresh fetch)."
-  [ "$push_rc" -ne 0 ] && echo "  (note: git push exited $push_rc but the ref IS on origin — a concurrent train carried it)"
+  [ "$push_rc" -ne 0 ] && echo "  (note: the \`git push\` subcommand exited $push_rc, but the ref IS on origin — a concurrent train carried it; safe-push rc=0)"
   exit 0
 fi
-echo "NOT PUSHED: HEAD $(git rev-parse --short HEAD) is NOT on $REMOTE/$BRANCH after the push (git push rc=$push_rc)."
+echo "NOT PUSHED: HEAD $(git rev-parse --short HEAD) is NOT on $REMOTE/$BRANCH after the push (the \`git push\` subcommand's rc=$push_rc; safe-push rc=1)."
 echo "  Do not read any 'Pushed.' above this line as a receipt."
 echo "  RECOVERY — run the DIRTY-PATH OVERLAP CHECK FIRST (root CLAUDE.md session-end step 3):"
 echo "    git fetch origin && git diff --name-only \"\$(git merge-base HEAD origin/master)..origin/master\""

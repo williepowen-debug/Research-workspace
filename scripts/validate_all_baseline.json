@@ -1,5 +1,7 @@
 {
-  "swept": "2026-09-10",
-  "C2_kb_stale_by": 534,
-  "D1_read_cap_over_budget": 6
+  "swept": "2026-09-24",
+  "C2_kb_stale_by": 1345,
+  "D1_read_cap_over_budget": 2,
+  "recheck_by": "2026-10-15",
+  "note": "A baseline only catches RISES: a backlog that shrinks and then regrows up to the old level never flips, so re-sweep with `validate_all.py --only C2,D1 --rebaseline` on or before recheck_by and re-set recheck_by by hand (the rebaseline writer does not move it)."
 }

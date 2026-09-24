@@ -53,6 +53,31 @@ command lines. The defect this guard exists for never appears in that corpus by 
 lives in shell typed at the moment of use, which is why a 0% FP rate here says nothing at all about
 the TRUE-positive rate in the place it will actually run.
 
+PERIMETER — v4, 2026-09-24 (WQ-244, PROME packet 2026-09-18: five findings from independent readers).
+  FIXED in v4 (each drilled in --selftest, labels `V4-F1/F2/F4`):
+   F1 recogniser 1 now requires the gate in COMMAND POSITION of its own pipeline segment — the command
+      word, or an interpreter's first non-flag argument, after walking env assignments, reserved words,
+      `(`/`{ `, prefix commands (`time env nice sudo timeout nohup stdbuf exec`, `command` unless it is
+      a `-v/-V/-p` lookup) and into `bash -c "…"` / `eval "…"` bodies. A gate NAME as an argument of
+      grep/ls/sed/find/git no longer fires. Both recognisers share ONE token walk (`_invocation_spans`).
+   F2 PIPESTATUS/pipefail exempt only when USED (`${PIPESTATUS…}`, `set [-x] -o pipefail`, `set -eo
+      pipefail`), outside a shell comment — a MENTION no longer disables either recogniser.
+   F4 `|&` is a pipe to recogniser 1 and ONE separator to recogniser 2's segment split.
+  DECLARED UNSEEN — a clean line from this guard says NOTHING about these (pinned as PERIMETER drills):
+   F3 `if <gate> | tail -1; then …` (tail's status tested, no `$?` read) and `<gate> && echo ok || echo
+      FAILED` (the `||` belongs to echo, yet rc 1 and rc 2 both land on FAILED).
+   F5 process substitution around a gate — `tail -1 <(<gate>); echo $?` loses the gate's rc; `<(…)`/`>(…)`
+      are not recognised as a gate's pipeline at all.
+   ALSO: the allowlists still exempt a USE-construct inside a single-quoted string (`echo 'set -o
+      pipefail'`) — single quotes are not paired (apostrophes); a `;` inside a double-quoted string can
+      open a false segment in recogniser 1 standalone (PROME's wrapper blanks quoted separators first);
+      `sudo -u <user> <gate>` judges `<user>` as the command word; the `$?` may belong to a LATER command
+      (`gate | tail; git status; echo $?` still fires here — the wrapper's r3 ❌7 layer suppresses it).
+  CORPUS DELTA (2026-09-24, 1,121 committed .md/.sh/.tsv lines holding a pipe AND `$?`/`||`): v3 6 hits
+  -> v4 1 hit, 0 new. The 5 removed were prose quoting the F1 reader's own commands; the 1 kept is the
+  2026-09-12 `verify_push.sh … || { … NOT ON ORIGIN …}` instance quoted verbatim — a true-positive SHAPE.
+  PAT-083 still applies: the corpus cannot measure the true-positive rate at typed call sites.
+
 Exit contract (CHECK_STANDARD §9): 0 always in hook mode (warn-only, fail-open by design).
                                    --selftest: 0 = every drill behaved · 1 = a drill failed.
 
@@ -89,15 +114,48 @@ PIPE_THEN_RC = re.compile(
     # instances, because each carried `2>&1` before the pipe and `&` was in the exclusion class.
     # The guard's own v1 failed on the two cases it was written from — caught only because the
     # selftest drives the VERBATIM commands, not paraphrases of them (CHECK_STANDARD §3).
-    rf"[^|;\n]*"                       # its args and redirections, up to the pipe
-    rf"\|\s*(?:{SWALLOWERS})\b"        # piped into something that swallows the status
+    # v4 (2026-09-24): `&&` is excluded too — a pipe after `gate && other | tail` belongs to OTHER.
+    rf"(?:(?!&&)[^|;\n])*"             # its args and redirections, up to the pipe
+    # v4 (2026-09-24, WQ-244 finding 4): `|&` is bash's spelling of `2>&1 |` — the FOUNDING shape
+    # of this file — and v1-v3 did not read it as a pipe, so `gate |& tail -1; echo $?` was unseen.
+    rf"\|&?\s*(?:{SWALLOWERS})\b"      # piped (`|` or `|&`) into something that swallows the status
     rf"[^\n]*?"                        # rest of the pipeline
     rf"(?:;|&&|\|\||\n)\s*[^\n]*?"     # then a following command
     rf"(?:{RC_READ})",                 # which reads $?
     re.I | re.S,
 )
-# The two correct forms — if either is present the author already knows.
-ALREADY_SAFE = re.compile(r"PIPESTATUS|pipefail", re.I)
+# ⚠️ PIPE_THEN_RC IS NOT THE WHOLE RECOGNISER SINCE v4 — `_pipe_then_rc_hit()` also requires the
+# matched gate to sit in COMMAND POSITION of its own pipeline segment (WQ-244 finding 1: five
+# ordinary read-only commands — `grep -rn "read_cap_check" … | head; echo $?`, `ls scripts/*_check.py
+# | wc -l; echo $?`, … — fired because the gate NAME was an ARGUMENT). The regex stays exported
+# under its old name because PROME's wrapper `PROME/tools/hooks/pipeline_rc_block.py` imports it.
+_GATE_RE = re.compile(GATE_TOKENS, re.I)
+
+# The two correct forms — if either is USED the author already knows.
+# ⛔ v4 (2026-09-24, WQ-244 finding 2): v1-v3 matched the BARE WORDS `PIPESTATUS|pipefail` anywhere
+# in the command, so a MENTION — `gate | tail -1; echo $?  # remember PIPESTATUS next time` —
+# disabled BOTH recognisers. Same class as the `CANNOT` allowlist removal of 2026-09-14 below:
+# naming a mechanism in a comment is not using it. Only a construct that USES it exempts:
+# `${PIPESTATUS…}` / `$PIPESTATUS` (unescaped) or `set [-flags] -o pipefail` / `set -eo pipefail`.
+# `set +o pipefail` TURNS IT OFF and must not exempt. Shell comments are stripped first (see
+# `_strip_comments`), so the construct written inside a `# …` comment does not exempt either.
+ALREADY_SAFE = re.compile(
+    r"(?<!\\)\$\{?PIPESTATUS\b|"
+    r"\bset\s+(?:-[a-zA-Z]+\s+)*-[a-zA-Z]*o\s+pipefail\b")
+
+
+def _strip_comments(cmd):
+    """The command with shell COMMENTS removed: a `#` at line start or after whitespace, outside a
+    double-quoted run (single quotes are not paired here — `don't` would mispair them). Used only
+    for the SAFE allowlists, so a mis-strip can only make the guard fire, never go silent."""
+    out = []
+    for line in cmd.split("\n"):
+        for m in re.finditer(r"(?:(?<=\s)|^)#", line):
+            if line.count('"', 0, m.start()) % 2 == 0:
+                line = line[:m.start()]
+                break
+        out.append(line)
+    return "\n".join(out)
 
 # ── SECOND RECOGNISER: A THREE-STATE rc COLLAPSED BY A TWO-VALUED IDIOM ──────────────────────
 # ADDED 2026-09-14 (DOCKET L355, the rule the row generalises). SAME FAMILY, SAME REASON THIS FILE
@@ -174,14 +232,81 @@ THREE_STATE_TOKENS = (
 # lines it showed 8 hits, but that corpus contains almost no `||`-beside-a-tool-PATH lines and is
 # blind to this class by construction — PAT-083, the same caveat the pipeline census carries.
 # ⇒ PARSE the segment rather than pattern-match it: strip env assignments, take the COMMAND WORD.
-_INTERPRETERS = ("python3", "python", "bash", "sh", "zsh", "exec", "command", "time", "source", ".")
+_INTERPRETERS = ("python3", "python", "bash", "sh", "zsh", "dash", "source", ".")
+_SH_LIKE = ("bash", "sh", "zsh", "dash")
+# v4 (2026-09-24): `exec`/`command`/`time` moved OUT of _INTERPRETERS into a PREFIX walk — as
+# "interpreters" they promoted only ONE token, so `time python3 <tool>` judged `python3` and missed
+# the tool, and `command -v <tool> || echo missing` (a LOOKUP) fired on the tool. Prefix commands
+# and their flag/number arguments are now walked past before the command word is judged; `command`
+# is walked past unless its next token is a lookup flag (`-v`/`-V`/`-p`). Ported from PROME's
+# wrapper v4-v6 so ONE command-position test serves both recognisers here.
+_PREFIX_CMDS = ("time", "env", "nice", "sudo", "timeout", "nohup", "stdbuf", "exec")
+_PREFIX_ARG = re.compile(r"^(?:-|\d+[smhd]?$)")
+_RESERVED = ("if", "then", "do", "else", "elif", "while", "until", "!", "{")
 _ENV_ASSIGN = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*=")
 _TOOL_RE = re.compile(THREE_STATE_TOKENS, re.I)
+
+
+def _is_interp(word):
+    return word in _INTERPRETERS or re.fullmatch(r"python[\d.]*", word) is not None
 
 
 def _quoted(seg, pos):
     """True if `pos` falls inside a quoted run in `seg` — a name inside quotes is an ARGUMENT."""
     return seg.count('"', 0, pos) % 2 == 1 or seg.count("'", 0, pos) % 2 == 1
+
+
+def _invocation_spans(seg, lift_c=False):
+    """[(start, end, token)] — the tokens this SEGMENT RUNS, as offsets into `seg`.
+
+    The COMMAND WORD (after walking env assignments, reserved words, a subshell `(`, and prefix
+    commands with their arguments), plus — when that word is an interpreter — its first non-flag
+    argument (`python3 x/tool.py`, `bash verify_push.sh`, `python3 -m pytest`). Every other token is
+    an ARGUMENT: `ls`, `cat`, `grep`, `sed`, `find`, `git show`, `[ -f … ]` RUN nothing they name.
+    `lift_c=True` (recogniser 1 only) additionally descends into a `bash -c "…"` / `eval "…"` body,
+    so a real defect inside one is judged by the body's own command word."""
+    toks = [[m.start(), m.end(), m.group(0)] for m in re.finditer(r"\S+", seg)]
+    i = 0
+    while i < len(toks):
+        n = len(toks[i][2]) - len(toks[i][2].lstrip("("))
+        toks[i] = [toks[i][0] + n, toks[i][1], toks[i][2][n:]]
+        t = toks[i][2]
+        base = os.path.basename(t)
+        if not t or t in _RESERVED or _ENV_ASSIGN.match(t):
+            i += 1
+            continue
+        if base == "command":
+            if i + 1 < len(toks) and toks[i + 1][2].startswith(("-v", "-V", "-p")):
+                break                                  # a LOOKUP: `command` itself is the command word
+            i += 1
+            continue
+        if base == "eval":
+            i += 1
+            if lift_c and i < len(toks) and toks[i][2][:1] in ("'", '"'):
+                toks[i] = [toks[i][0] + 1, toks[i][1], toks[i][2][1:]]
+            continue
+        if base in _PREFIX_CMDS:
+            i += 1
+            while i < len(toks) and (_PREFIX_ARG.match(toks[i][2]) or _ENV_ASSIGN.match(toks[i][2])):
+                i += 1
+            continue
+        break
+    if i >= len(toks):
+        return []
+    out = [tuple(toks[i])]
+    head = os.path.basename(toks[i][2])
+    if _is_interp(head):
+        for j in range(i + 1, len(toks)):
+            t = toks[j][2]
+            if t.startswith("-"):
+                if (lift_c and head in _SH_LIKE and re.fullmatch(r"-[a-zA-Z]*c[a-zA-Z]*", t)
+                        and j + 1 < len(toks) and toks[j + 1][2][:1] in ("'", '"')):
+                    off = toks[j + 1][0] + 1
+                    return out + [(s + off, e + off, w) for s, e, w in _invocation_spans(seg[off:], True)]
+                continue
+            out.append(tuple(toks[j]))
+            break
+    return out
 
 
 def _command_word_tool(seg):
@@ -190,39 +315,66 @@ def _command_word_tool(seg):
     INVOKED means: the tool is the segment's command word (`./verify_push.sh`, `verify_push.sh`),
     or the first non-flag argument of an interpreter (`bash verify_push.sh`, `python3 x/tool.py`).
     A tool appearing anywhere else is an ARGUMENT — `ls`, `cat`, `git show`, `cp`, `[ -f … ]` —
-    and is NOT an invocation."""
-    raw = seg.strip()
-    toks = [t for t in raw.split() if t]
-    while toks and _ENV_ASSIGN.match(toks[0]):
-        toks.pop(0)
-    if not toks:
-        return None
-    head = toks[0].lstrip("(")
-    cands = [head]
-    if head in _INTERPRETERS or os.path.basename(head) in _INTERPRETERS:
-        for t in toks[1:]:
-            if not t.startswith("-"):
-                cands.append(t)
-                break
-    for c in cands:
-        if c.startswith(("'", '"')):
+    and is NOT an invocation. v4: the token walk is `_invocation_spans`, shared with recogniser 1."""
+    for s, _e, c in _invocation_spans(seg):
+        if c.startswith(("'", '"')) or _quoted(seg, s):
             continue                       # a quoted command word is a literal, not an invocation
-        pos = raw.find(c)
-        if pos >= 0 and _quoted(raw, pos):
-            continue
         m = _TOOL_RE.search(c)
         if m:
             return m.group(0)
     return None
 
 
+# Recogniser 1's segment boundaries. `&` only when it is not part of a redirection (`2>&1`, `&>f`,
+# `>&2`); `{` only as a brace GROUP (`{ cmd; }`), never a brace EXPANSION (`{a,b}.py`); `(` covers
+# subshells and `$(…)`. `|&` is listed before `|` so it is consumed as ONE separator.
+_SEG_SEP = re.compile(r"\|&|\|\||&&|\||;|\n|(?<![<>])&(?!>)|`|\(|\{(?=\s)")
+
+
+def _gate_in_command_position(cmd, gs, ge, gate):
+    """WQ-244 finding 1: is the gate matched at cmd[gs:ge] RUN by its own pipeline segment?
+
+    Name-shaped gates (`read_cap_check`, `_check.py`, `pytest`, …) must lie inside a token that
+    `_invocation_spans` returns. Flag-shaped gates (`--selftest`, `--check`) must follow a command
+    word that runs a SCRIPT — an interpreter, or a `.py`/`.sh` path — so `git diff --check | head`
+    and `grep -- --selftest f | head` stay clean."""
+    seg_start = 0
+    for m in _SEG_SEP.finditer(cmd, 0, gs):
+        seg_start = m.end()
+    nxt = _SEG_SEP.search(cmd, ge)
+    seg = cmd[seg_start:nxt.start() if nxt else len(cmd)]
+    rs, re_ = gs - seg_start, ge - seg_start
+    spans = _invocation_spans(seg, lift_c=True)
+    if not spans:
+        return False
+    if gate.startswith("-"):
+        head = os.path.basename(spans[0][2])
+        runs_script = (_is_interp(head) or head.endswith((".py", ".sh"))
+                       or any(w.endswith((".py", ".sh")) for _s, _e, w in spans[1:]))
+        return runs_script and rs >= spans[0][1]
+    return any(s <= rs and re_ <= e for s, e, _w in spans)
+
+
+def _pipe_then_rc_hit(cmd):
+    """The first PIPE_THEN_RC match whose gate is in COMMAND POSITION, or None. EVERY gate token in
+    the command is tried (anchored at its own position), so an argument-position mention earlier on
+    the line can neither fire the guard nor consume a real defect after it."""
+    for g in _GATE_RE.finditer(cmd):
+        m = PIPE_THEN_RC.match(cmd, g.start())
+        if m and _gate_in_command_position(cmd, m.start("gate"), m.end("gate"), m.group("gate")):
+            return m
+    return None
+
+
 def _segments_before(cmd, sep_re):
     """Each segment IMMEDIATELY preceding an occurrence of `sep_re`.
 
-    ⛔ Split on `;`, `&&` and a single `|` — NEVER on a bare `&`: `2>&1` would cut the segment down
-    to the string `1`. This file's other recogniser carries that warning from its own v1; I read it
-    and wrote the bug anyway, and only a drill on the VERBATIM instance caught it."""
-    return [re.split(r";|&&|(?<!\|)\|(?!\|)", part)[-1] for part in re.split(sep_re, cmd)[:-1]]
+    ⛔ Split on `;`, `&&`, `|&` and a single `|` — NEVER on a bare `&`: `2>&1` would cut the segment
+    down to the string `1`. This file's other recogniser carries that warning from its own v1; I read
+    it and wrote the bug anyway, and only a drill on the VERBATIM instance caught it.
+    v4: `|&` is split as ONE separator (before the single-`|` alternative), so `x |& y || z` leaves
+    `y`, not `& y`, as the segment left of `||`."""
+    return [re.split(r";|&&|\|&|(?<!\|)\|(?!\|)", part)[-1] for part in re.split(sep_re, cmd)[:-1]]
 
 
 # The author already knows if they NAME THE STATES or capture the code for later comparison.
@@ -231,9 +383,12 @@ def _segments_before(cmd, sep_re):
 # collapsing both states — `tool || echo "CANNOT-CERTIFY: it failed"` went clean. **Naming a state
 # in a message is not branching on it**, which is this guard's entire thesis, inverted by its own
 # allowlist. Only a construct that TESTS a state earns the exemption.
+# v4 (2026-09-24, WQ-244 finding 2): the bare words `PIPESTATUS|pipefail` that closed this list
+# were the same MENTION-exempts class as `CANNOT` — replaced by ALREADY_SAFE's USE-constructs, and
+# the list is searched over the COMMENT-STRIPPED command, like ALREADY_SAFE.
 THREE_STATE_SAFE = re.compile(
     r"-eq\s*2|==\s*2|!=\s*2|returncode\s*==|\brc\s*=\s*\$\?|case\s+\$\?|"
-    r"PIPESTATUS|pipefail", re.I)
+    + ALREADY_SAFE.pattern, re.I)
 # A two-valued COMPARISON on `$?` — merges rc 1 and rc 2 into one branch exactly as `||` does.
 _TWO_VALUED_RC_TEST = re.compile(
     r"\[\[?\s*\$\?\s*(?:-ne|-gt|!=|>)\s*0|\(\(\s*\$\?\s*\)\)|"
@@ -245,9 +400,9 @@ def diagnose(cmd):
     independently of the hook plumbing — `finding_test_the_guard_not_just_the_guarded`."""
     if not cmd or not isinstance(cmd, str):
         return False, ""
-    if ALREADY_SAFE.search(cmd):
+    if ALREADY_SAFE.search(_strip_comments(cmd)):
         return False, ""
-    m = PIPE_THEN_RC.search(cmd)
+    m = _pipe_then_rc_hit(cmd)
     if not m:
         return _diagnose_three_state(cmd)
     gate = m.group("gate")
@@ -276,7 +431,7 @@ def _diagnose_three_state(cmd):
     covered here — it lives in committed files, where a repo lint can reach it, and claiming it
     here would be a guard whose clean line means less than a reader thinks (PAT-074).
     """
-    if THREE_STATE_SAFE.search(cmd):
+    if THREE_STATE_SAFE.search(_strip_comments(cmd)):
         return False, ""
     tool = None
     # (1) `||` — the verdict-consuming idiom. Only the segment IMMEDIATELY left of it counts.
@@ -331,7 +486,7 @@ def _diagnose_three_state(cmd):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_DRILLS = 53
+EXPECTED_DRILLS = 85   # v4 2026-09-24: 53 -> 85 (+32 WQ-244 finding drills, incl. 4 PERIMETER pins)
 
 
 def selftest():
@@ -447,6 +602,77 @@ def selftest():
          "CLEAN — `-eq 2` names the state; that is the whole fix"),
         ('python3 scripts/validate_all.py; rc=$?; case $rc in 0|1|2) ;; esac', False,
          "CLEAN — captured and cased"),
+
+        # ── v4 (2026-09-24, WQ-244 PROME packet 2026-09-18) — independent readers' findings ─────
+        # FINDING 1 — recogniser 1 had no command-word test. The reader's five VERBATIM commands;
+        # every one FIRED under v3 (measured 2026-09-24 against the v3 file before editing).
+        ('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?', False,
+         "V4-F1 — gate NAME is grep's search argument"),
+        ('ls scripts/*_check.py | wc -l; echo "rc=$?"', False, "V4-F1 — `ls` of a glob"),
+        ('git log --oneline -50 | grep validate_all | head -3; echo $?', False,
+         "V4-F1 — gate NAME is grep's argument mid-pipeline"),
+        ('sed -n "1,40p" scripts/read_cap_check.py | head -20; echo $?', False, "V4-F1 — `sed -n` of the gate's source"),
+        ('find . -name "*_gate.py" | wc -l; echo $?', False, "V4-F1 — `find -name` pattern"),
+        # …and command position still reaches the gate through prefixes, -c/eval bodies, flags.
+        ('time python3 scripts/validate_all.py 2>&1 | tail -1; echo $?', True,
+         "V4-F1 CAPABLE — `time` prefix walked past (PROME wrapper r3 ❌5)"),
+        ('bash -c "python3 scripts/validate_all.py 2>&1 | tail -1; echo $?"', True,
+         "V4-F1 CAPABLE — defect inside a `bash -c` body (wrapper r2 ❌8)"),
+        ("eval 'python3 scripts/validate_all.py | tail -1; echo $?'", True,
+         "V4-F1 CAPABLE — defect inside an `eval` body"),
+        ('python3 PROME/tools/measure.py --selftest 2>&1 | tail -1; echo "RC=$?"', True,
+         "V4-F1 CAPABLE — flag-shaped gate on a script (wrapper B1)"),
+        ('grep -rn "read_cap_check" AGENTS/ | head -20; echo $?; python3 scripts/validate_all.py 2>&1 | tail -1; echo $?',
+         True, "V4-F1 CAPABLE — an argument mention FIRST must not consume the real defect after it"),
+        ('(cd /x && python3 scripts/validate_all.py | tail -1); echo $?', True,
+         "V4-F1 CAPABLE — subshell + cwd guard before the gate"),
+        ('git diff --check | head; echo $?', False, "V4-F1 — `--check` on git is not a script's flag"),
+        ('grep -- --selftest notes.md | head; echo $?', False, "V4-F1 — `--selftest` as grep's pattern"),
+        ('command -v pytest | head -1; echo $?', False, "V4-F1 — `command -v` is a LOOKUP (wrapper r4 ❌6)"),
+        ('ls scripts/{read_cap_check,validate_all}.py | wc -l; echo $?', False,
+         "V4-F1 — brace EXPANSION is not a brace group (wrapper r5 ❌5)"),
+        # The shared token walk changed recogniser 2 too: one FP gone, one miss closed.
+        ('command -v verify_push.sh || echo missing', False,
+         "V4 r2 — `command -v` lookup; FIRED under v3 (`command` was an 'interpreter')"),
+        ('time python3 scripts/read_cap_check.py --agent X || echo bad', True,
+         "V4 r2 CAPABLE — `time` prefix; MISSED under v3 (judged `python3`, not the tool)"),
+
+        # FINDING 2 — a MENTION of PIPESTATUS/pipefail exempted both recognisers.
+        ('python3 scripts/validate_all.py 2>&1 | tail -1; echo $?  # remember PIPESTATUS next time', True,
+         "V4-F2 CAPABLE — the word in a COMMENT is not a use"),
+        ('python3 scripts/read_cap_check.py --fleet | tail -1; echo "rc=$? (use PIPESTATUS)"', True,
+         "V4-F2 CAPABLE — the word in a STRING is not a use"),
+        ('python3 scripts/validate_all.py | tail -1; echo $?  # set -o pipefail next time', True,
+         "V4-F2 CAPABLE — even the full construct, inside a comment, is not a use"),
+        ('set +o pipefail; python3 scripts/validate_all.py | tail -1; echo $?', True,
+         "V4-F2 CAPABLE — `set +o pipefail` turns it OFF"),
+        ('python3 scripts/validate_all.py || echo "failed; check PIPESTATUS"', True,
+         "V4-F2 CAPABLE — recogniser 2's allowlist had the same bare words"),
+        ('set -eo pipefail; python3 scripts/validate_all.py | tail -1; echo $?', False,
+         "V4-F2 CLEAN — `set -eo pipefail` is a use"),
+        ('set -e -o pipefail; python3 scripts/validate_all.py | tail -1; echo $?', False,
+         "V4-F2 CLEAN — `set -e -o pipefail` is a use"),
+
+        # FINDING 4 — `|&` (bash's `2>&1 |`) was not a pipe to recogniser 1.
+        ('python3 scripts/validate_all.py |& tail -1; echo $?', True,
+         "V4-F4 CAPABLE — `|&` VERBATIM (wrapper r5 ❌10, pinned there as a declared miss)"),
+        ('python3 scripts/validate_all.py |& tail -1; echo "rc=${PIPESTATUS[0]}"', False,
+         "V4-F4 CLEAN — `|&` with PIPESTATUS read"),
+        ('python3 scripts/validate_all.py |& tail -1 || echo bad', False,
+         "V4-F4 CLEAN — `||` acts on TAIL here; `|&` must not be split as `|`+`&`"),
+        ('printf "%s\\n" "$s" |& bash AGENTS/DAEDALUS/scripts/verify_push.sh || echo "NOT ON ORIGIN"', True,
+         "V4-F4 r2 CAPABLE — the tool after `|&` IS left of `||`; v3 read the segment as `& bash …`"),
+
+        # FINDINGS 3 + 5 — DECLARED OUT OF PERIMETER, pinned want=False so that silent coverage
+        # (or a silent claim of it) shows up as a drill change, never as an unexplained verdict.
+        ('if python3 scripts/validate_all.py | tail -1; then echo ok; fi', False,
+         "PERIMETER (F3) — `if <gate> | tail` tests TAIL's status; no `$?` read, unseen"),
+        ('python3 scripts/validate_all.py && echo ok || echo FAILED', False,
+         "PERIMETER (F3) — `&& … || …` on a three-state tool; the `||` belongs to echo, unseen"),
+        ('tail -1 <(python3 scripts/validate_all.py); echo $?', False,
+         "PERIMETER (F5) — process substitution `<(gate)`; the gate's rc is unreachable, unseen"),
+        ('python3 scripts/validate_all.py > >(tail -1); echo $?', False,
+         "PERIMETER (F5) — `> >(tail)` reads the gate's rc correctly TODAY; unseen either way"),
     ]
     fails = []
     for cmd, want, label in cases:

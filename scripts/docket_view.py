@@ -179,7 +179,10 @@ def render(rows, as_of, window=21, detail_days=7, full_chars=90, brief_chars=48,
     if overdue:
         def tag(r):
             st = r["state"].upper()
-            return ("ᶜ" if "COVERED" in st else "") + ("ᵒ" if "OVERDUE" in st else "")
+            # ᶜ = the COVERED annotation TOKEN: case-sensitive word on the RAW cell, so "recovered" /
+            # "covered()" never tag (PROME 9/18 packet), and "Not COVERED" is a negation, not a tag.
+            cov = re.search(r"(?<![Nn]ot )(?<!NOT )\bCOVERED\b", r["state"])
+            return ("ᶜ" if cov else "") + ("ᵒ" if "OVERDUE" in st else "")
         out.append(f"**⚠️ OVERDUE {len(overdue)} — PENDING rows dated before {as_of.isoformat()} with no terminal "
                    f"disposition (safety net: resolve, re-date, or tombstone; ᶜ = COVERED-annotated, ᵒ = OVERDUE-annotated):** "
                    + " · ".join(f"L{r['line']} {r['end'].month}/{r['end'].day}{tag(r)} {short(r['owners'].split('/')[0].split(' ')[0], 9)}"
@@ -686,6 +689,18 @@ def selftest():
         open(v9, "w", encoding="utf-8").write(BEGIN + "\n**8/25:** AEOLUS Colorado ROD (Will ruled 8/25) (L3)\n" + END + "\nhand line: nothing dated\n")
         rc17, out17 = _run(["--check", v9, "--docket", dk] + asof)
         drill("check: dates INSIDE the generated block are skipped (constraint 1), zero claims matched", rc17 == 0 and "ZERO claims matched" in out17, f"rc={rc17}")
+        # 9i. ᶜ tag = the COVERED token, never a substring (PROME 9/18: "recovered" rendered ᶜ)
+        cv = os.path.join(td, "COV.tsv")
+        open(cv, "w", encoding="utf-8").write(
+            "# LIVE ledger — fixture\n"
+            "date\tcatalyst\towners\tstate\tartifacts_citing\tnotes\n"
+            "2026-08-10\trow A\tSAM\tPENDING · only the archive cut recovered anything; spawn_list.covered()\t-\t-\n"
+            "2026-08-11\trow B\tSAM\tPENDING · COVERED: BRENT — owner holds it\t-\t-\n"
+            "2026-08-12\trow C\tSAM\tPENDING — Not COVERED, not re-dated\t-\t-\n")
+        rc18, out18 = _run(["--write", pr, "--docket", cv, "--dry-run"] + asof)
+        drill("OVERDUE ᶜ: 'recovered'/'covered()' do NOT tag (L3)", rc18 == 0 and "L3 8/10 " in out18 and "L3 8/10ᶜ" not in out18, f"rc={rc18}")
+        drill("OVERDUE ᶜ: 'PENDING · COVERED: BRENT' DOES tag (L4); 'Not COVERED' does NOT (L5)",
+              "L4 8/11ᶜ" in out18 and "L5 8/12 " in out18 and "L5 8/12ᶜ" not in out18, f"rc={rc18}")
         # 10. zero-match surface says so
         v4 = os.path.join(td, "view_none.md")
         open(v4, "w", encoding="utf-8").write("nothing dated relevant 1/1\n")
@@ -694,7 +709,7 @@ def selftest():
     if fails:
         print(f"DOCKET-VIEW SELFTEST ✗ {fails} drill(s) FAILED — do not trust the tool")
         return 1
-    print("DOCKET-VIEW SELFTEST ✓ 24/24 drills behaved")
+    print("DOCKET-VIEW SELFTEST ✓ 26/26 drills behaved")
     return 0
 
 
