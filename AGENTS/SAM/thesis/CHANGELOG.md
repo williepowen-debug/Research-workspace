@@ -8,6 +8,15 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-24 — Silver Week catch-up: rate-check level taken out with no strike; JGB 10Y at a 1996 high uncapped; spec yen longs at the largest 2-week build on record. **THESIS v1.7 UNCHANGED.**
+
+**TIMELINE:** new 2026-09-24 block. **THESIS:** no edit — nothing structural moved.
+- **Intervention (Channel 3):** old view "T1 fired 9/18; strike window hours-to-~1-day runs into Silver Week" → new view **window LAPSED, level taken out (9/23 close 158.266), ~30h+ with no strike; ladder step unchanged; the timing heuristic failed, the risk did not fall.** Two readings (speed warning vs standing aside) separated only by the next fast leg on the registered disorder watch. Playbook 2026-09-24 entry.
+- **Pillar 2 / SAM-33:** first real stress day of the activated test (10Y 3.075%, super-long ~+7–10bp, OSE circuit breaker) — **BOJ did not cap** (ops record audited through 9/24). Falsifier un-fired; below the disorder bar. PREDICTIONS.tsv Notes appended; sidecar re-stamped after a field-level diff (Notes only).
+- **Positioning (observation, NOT a channel):** CFTC Sep-15 net +120,359 long; 2-week swing +212,586 = series record (n=1,360). ⛔ Channel 4 stays DEAD — THESIS forbids re-arming on a rebuild without a fresh argued thesis, and a LONG-yen crowd is the mirror object, not the retired one. Recorded, not framed.
+- **Pillar 1:** US–JP 10Y gap WIDENED on BOJ hike day (+8bp); OIS path repriced hawkish (cum 1.94 → 2.18) while the yen fell ⇒ the rate path is not what is weakening the yen. SAM-41 0/5 unchanged.
+- **VECTOR-5:** leg (c) met in letter 9/23, spirit confounded (differential widened); (b) not met ⇒ NONE stands. Packet to PROME.
+
 ## 2026-09-20 (2nd) — BOJ meeting OIS RESTORED after 5 dark days; five CATO rounds, 13 points, all upheld. **THESIS v1.7 UNCHANGED.**
 
 **Change class:** instrument restoration + correction of published characterizations. **No channel, conviction, probability or position change.**

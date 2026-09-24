@@ -6,7 +6,7 @@
       "due_date": "2026-12-31",
       "timezone": "America/New_York",
       "boundary_rule": "Through the named date; exact cutoff not specified in the original row. SAM reviews; no automatic grade.",
-      "condition_sha256": "025749a0e95611353bb31f140a3fdd6c4c9f37bbf1b138cffac2f40c498e062c"
+      "condition_sha256": "a8d37fed052b92bd25c028a2bb3303d4e22afafc7999997f95a8dc1cc570f935"
     }
   }
 }

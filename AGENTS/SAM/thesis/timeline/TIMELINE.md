@@ -1,5 +1,19 @@
 # SAM TIMELINE
 
+## 2026-09-24 — The level the authorities warned at was taken out, and nobody came
+
+Japan came back from a five-day holiday into the sharpest bond day in thirty years and a yen that had already slipped past the level where, six days earlier, the authorities had phoned dealers for quotes.
+
+**The yen.** The rate check on September 18 came near ¥158. This desk's playbook says such a check historically precedes a strike by hours to about a day, and the last entry worried that the window would run into the holiday. The window ran out and nothing happened. The dollar went through the check's level on the 23rd, closed there at 158.266, and was near 158.9 on the 24th with a high of 159.04 — about thirty hours above the warning with no operation. The finance minister said the principles behind the last joint intervention "remain alive". That is a reminder that the framework exists, not a threat. What the episode refutes is the timing rule, not the risk: the move since has been an orderly grind of about 1% a session at most, and this desk's own model says the authorities react to speed, not to a number. Whether the check was a speed warning or a sign they are standing aside will be decided by the next fast move, measured on the disorder bar already on file.
+
+**The bonds.** On the reopen the 10-year yield touched 3.075%, the highest since 1996, and futures trading tripped a circuit breaker, as a global selloff pushed the US 30-year to its highest since 2004. The BOJ's own operations record for the day shows only its routine securities-lending facility. This was the first real stress day for SAM-33, the bet that the BOJ will not cap a gradual rise in long yields, and the BOJ did not cap. At seven to ten basis points it was sharp but not the disorder the prediction exempts, so it counts.
+
+**The crowd.** The last futures report before the holiday showed speculators had flipped from short yen to long it: net +120,359 contracts on September 15, after a two-week swing of +212,586, the largest in 1,360 weekly reports since 2000. The yen has since fallen about three yen against them. It is tempting to see new fuel for a squeeze, and that is exactly the sort of frame this thesis refuses to adopt the night it appears. It is recorded as an observation. The retired positioning channel stays dead.
+
+**The rate path.** BOJ pricing moved more hawkish while the yen fell, and the US–Japan ten-year gap widened on the day Japan hiked. The rate path is not what is driving the yen weaker. The pre-registered VECTOR-5 test met one more leg in letter, but not in spirit, and still answers NONE.
+
+**Consequences to the thesis: none.** v1.7 stands, no successor, book flat.
+
 ## 2026-09-20 (2nd) — The numbers that were checked held, and the sentences about them broke
 
 The BOJ pricing came back the same evening it was reported as blocked, and the way it came back is the finding. My own README sets `review_method` to *"SAM visual transcription"* — the image review was always this desk's job. I had told Will it needed a minute of his time. It needed none of his time, and a reviewer had to point at my own instructions to establish that.

@@ -51,6 +51,8 @@ cites these section names (the `↪️ MOVED:` redirects that peers DO cite deli
 
 **Funding — unresolved, and the 9/6 Bloomberg story does not resolve it.** MOF officially reported **¥15,399.3B for Jul-30–Aug-26** (rel Aug-28): Japan-side aggregate only, no daily split and no U.S. euro-leg amount. Earlier official windows: Apr-28–May-27 ¥11,734.9B; Jun-29–Jul-29 ¥0. August reserve **securities fell $87.773B** and deposits $6.868B (rel Sep-8) — a securities-funding *hypothesis*, **not identified UST sales**, given valuation/FX effects and mismatched stock/intervention windows. 🆕 **The $87.8B fall is ~$10.8B SHORT of the ~$98.6B intervention** — consistent with a joint US leg AND with mark-to-market on a rising-yield month. The FIMA-funded claim was retracted; the historical H.4.1 test found no foreign-official repo use. FRBNY Q3 (~Nov-13) addresses the U.S. account split; MOF's quarterly per-op disclosure (~Nov-9) gives the Japan-side per-op record. Details: KB-SAM-209. Monthly path uses `reference/feio/monthly/`, not `feint`; BOJ projections `jp`, provisional `jx`, final `jd`.
 
+**2026-09-24:** Sep-21→24 had NO spike to semi-confirm (largest session range 0.98 yen; 9/18 close → 9/24 live +1.3%). T1 (9/18 rate check) window lapsed without a strike; detail → STATUS § INTERVENTION + playbook 2026-09-24.
+
 **Aug-3 detector disagreement remains an ambiguity:** 2.67y range exceeded the >2.5y detector bar while final settlement −¥3.29T read ordinary. Post-operation elevated ranges and the invisible U.S.-only route prevent attribution. Unchanged disorder watch: ≥1.5–2% in a day or ~2–3 yen over 1–2 sessions. **Silence is not a safety signal.** Frozen confirmation ladder and preregistered bands → `thesis/INTERVENTION_2026-07-30_CONFIRMATION.md` (registered before reads, commit `aa3ad1980`); full history → `STATUS_ARCHIVE.md`. Preserve these external citation targets.
 
 ---
@@ -71,20 +73,24 @@ Canonical mechanism and policy interpretation → `thesis/THESIS.md` and Septemb
 
 ---
 
-## CARRIED SEP-14/15 VINTAGES (not live state)
+## CARRIED MARKET CONTEXT — refreshed 2026-09-24 (was "CARRIED SEP-14/15 VINTAGES")
 
-**Rotated out of `STATUS.md` LIVE MARKET DATA on 2026-09-18 under the read-cap rule.** ⛔ **Every figure here PRE-DATES both the Sep-16 FOMC hike and the Sep-18 BOJ hike. Carried, NOT re-marked — do not read or cite as current.** They are kept because they are the last observed values, not because they are true now.
+**Refreshed in the 9/24 catch-up session; every figure carries its own date. These are context rows, not thresholds.** ⚠️ yfinance returned **no US daily bar for Tue 9/22** on any equity/ETF/UST ticker — a vendor gap, not a market closure (US markets were open); FRED has 9/22.
 
-| ⚠️ **NOT refreshed — Sep-14/15 vintages** | ADRs MUFG 23.89 / SMFG 27.24 / MFG 11.33 · DXY 99.583 · VIX 17.10 · S&P 7,619.98 · FXY ATM IV 16.24% (Oct-16) / 18.97% (Sep-18) · MOF Aug lifer LT −¥137.3B / trust +¥2,332.6B | **Carried, NOT re-marked — all pre-date both hikes; do not read as current.** Later tape at its own basis in WALTER SIG-004 (VIXCLS 17.71 [9/16]; ^VIX 15.44 intraday [9/17]). Thin ETF proxy ≠ FX vol; trust ≠ GPIF; LT debt ≠ UST. |
-
-Caveats travelling with the row: thin ETF proxy ≠ FX vol; trust ≠ GPIF; LT debt ≠ UST. Later tape at its own basis in WALTER SIG-W-20260917-004 (VIXCLS 17.71 [9/16]; ^VIX 15.44 intraday [9/17]).
-
----
+| Item | Level / vintage | Note |
+|---|---|---|
+| Japan bank ADRs | MUFG **22.57** / SMFG **25.51** / MFG **10.56** [9/24 close] | Were 23.89 / 27.24 / 11.33 [Sep-14/15] — down ~5–7% across both hikes while USD/JPY weakened. Confounded by US rates; no mechanism read. |
+| DXY / VIX / S&P | **101.31** / **15.67** / **7,704.13** [9/24] | DXY was 99.58 [9/14] — the dollar leg is part of the USD/JPY move, not all of it (EURJPY 178.29 → 180.75, 9/15→9/24). |
+| UST 10Y / 30Y | **5.11% / 5.40%** [FRED 9/23]; ^TNX 5.162 / ^TYX 5.461 [9/24 vendor] | Never blend FRED constant-maturity with vendor yields. The 10Y is above 5% — the "two-decade high" wire claim is WALTER's (SIG-012), not verified here. |
+| FXY ATM IV (proxy) | **10.99%** Oct-16 expiry / 11.77% Dec-18 [9/24] | Was 16.24% (Oct-16) [Sep-14/15] — the event premium bled out after the 9/18 decision. ⚠️ KB-183: read the proxy's SIGN, not its level; FXY ETF options ≠ CME CVOL/OTC. |
+| Japan-ETF tape | EWJ **95.81** / DXJ **179.03** / YCS **54.76** [9/24] | YCS (2× short yen) +5.1% since 9/15 (52.12). |
+| MOF Aug lifer / trust | lifer LT −¥137.3B / trust +¥2,332.6B [Aug, published Sep] | Unchanged — monthly; next with the September release. Trust ≠ GPIF; LT debt ≠ UST. |
 
 ## FUNDING (U.S. / Japan)
 
-**Rotated from `STATUS.md` 2026-09-18 (read-cap rule); current and citable, not boot-read.**
+**Refreshed 2026-09-24 (FRED). Current and citable, not boot-read.**
 
-| U.S. / Japan funding | Sep-11 SOFR **3.62%**, IORB **3.65%**, spread **−3bp**; HY **265bp**, IG **80bp** | Sep-14 Japan O/N provisional **0.977%**, repo T+1 **1.000%**. GC T/N ~1.005% is separate; none measures offshore swaps. |
+| U.S. / Japan funding | **SOFR 3.87% / IORB 3.90% ⇒ −3bp** [FRED 9/23]; HY OAS **273bp** / IG **77bp** [9/23] | Post-FOMC hike (IORB 3.65 → 3.90). Spread unchanged at −3bp across the hike ⇒ **no U.S. funding stress.** HY 265 → 273bp [9/11 → 9/23], widening 8bp into two-decade-high UST yields; IG 80 → 77bp. Japan O/N / repo last recorded Sep-14 (0.977% / 1.000%) — **pre-hike, stale; not refreshed this session.** |
 
-⚠️ GC T/N ~1.005% is a separate instrument. **None of these measures offshore FX swaps** — that gap is what RED salvage ④ (a real JPY xccy-basis instrument) is owed for.
+⚠️ GC T/N ~1.005% (pre-hike) is a separate instrument. **None of these measures offshore FX swaps** — that gap is what RED salvage ④ (a real JPY xccy-basis instrument) is owed for.
+
