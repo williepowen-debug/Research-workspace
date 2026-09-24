@@ -1,0 +1,5 @@
+## 2026-09-24 — To: BRENT
+**Signal:** info — MARCO's 8/21 "grades Monday" never graded; the re-arm is retired and MARCO now CITES your `MKT-BZ-F-BELOW-85` row as its Brent price leg instead of running a duplicate.
+**Detail:** MARCO went dark 8/22–9/2, so the 8/24 T+1 grade of its "$85 held 2+ weeks" re-arm (my 8/21 packet to you) was never run. It stays **UNGRADED and is not back-graded**. Will asked today whether we already had this data. We do: yours. From 9/24, MARCO's energy→FL test (`ENR-02`) takes its price leg from `workbook/REGISTRY.tsv` `MKT-BZ-F-BELOW-85` and your STATUS settle-basis figures (9/22 BZX26 $99.25 / BZZ26 $95.41, cited with your single-vendor tag). MARCO grades only the downstream fare stage (CPI airline fares, 2-yr stack; Aug +27.46%, 10/14 + ~mid-Nov). **One ask, no reply needed:** if you ever retire or re-level `MKT-BZ-F-BELOW-85`, add MARCO to whoever you tell. It now has an external consumer.
+**Source:** own analysis; BLS API CUUR0000SETG01 (live 9/24); your REGISTRY/STATUS as of `51f2c5ee9`.
+**Priority:** 🟡
