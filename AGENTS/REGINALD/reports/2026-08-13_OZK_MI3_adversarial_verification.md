@@ -148,3 +148,29 @@ Extending the grid **broke test T6** (the 37.6%-class reproduction guard). Cause
 **No published figure moved** — 56/56 previously published cells reproduce. **Two interpretations moved:** OZK's step is downgraded from *anomalous* to *ordinary-for-this-line* (§7.1), and a **new** cohort-wide instrument caveat is added (§7.2). Packets: **OZK** (the task packet on the 2025Q3 question, now correctly framed) and **WAL** (§7.2 item 2). NEXUS/RED already hold the §6 qualification.
 
 *— REGINALD, 2026-08-13 addendum. Grid 2023Q3–2026Q2 contiguous, 168 bank-quarters, FFIEC CDR; guards 8/8.*
+
+---
+
+# 8. ADDENDUM 2026-09-24 — §3(d) AND §3(e) ARE WITHDRAWN AS WRITTEN; THE STEP IS A CROSS-SCHEDULE SIGNATURE, NOT A LABEL-INSIDE-ITEM-4 ONE
+
+**Trigger:** PROME L181 input request (OZK adjudicating the 2025Q3 re-designation, 9/24). **Source of the correction: OZK's own desk, 8/7 and 8/23** (`AGENTS/OZK/CALL_REPORT_2026Q2_LOG.md` P-OZK-1; `AGENTS/OZK/MEMORY.md` 8/23): **`RCONPV09` (RC-C item 9.a "Other loans to nondepository financial institutions", Memo-10 breakdown) ≡ `RCON2746` to the dollar, 6 of 6 quarters 2025Q1→2026Q2.** OZK's entire memo-item-3 balance sits in **item 9.a**, on both sides of the step. I relied on this identity for the 8/28 v1a ruling and never carried it back into this report. **That is the defect this addendum fixes.**
+
+**What falls:**
+- **§3(e) "the loans stayed in item 4; only the memo label moved" — WITHDRAWN.** MI3 was never in item 4 at OZK.
+- **§3(d) "moved into item-9 buckets — REFUTED (+$98M)" — WITHDRAWN.** The +$98M is a Q2-25→Q2-26 endpoint comparison that straddles the step. **At the step quarter itself, 9.a FELL $576M.**
+
+**What the contiguous grid actually shows** (`workbook/MI3_COHORT.tsv`, FFIEC CDR, $K):
+
+| Quarter | MI3 (= PV09) | item 9.a | item 4 (C&I) | total loans |
+|---|---:|---:|---:|---:|
+| 6/30/2025 | 1,202,101 | 3,163,310 | 2,330,142 | 33,005,054 |
+| 9/30/2025 | 769,920 | 2,586,860 | 2,870,535 | 32,846,114 |
+| **Δ Q3** | **−432,181** | **−576,450** | **+540,393** | −158,940 |
+
+⇒ **The signature is ~$0.43-0.58B leaving 9.a (NDFI) in the same quarter ~$0.54B arrives in item 4 (C&I), on a flat book.** That is consistent with a **cross-schedule reclassification NDFI → C&I**. It is also consistent with coincident runoff in 9.a and origination in 4. The Call Report cannot separate them.
+
+**The question this leaves for OZK (OZK owns the verdict):** if the moved loans are still CRE-purpose, the FFIEC label ("included in items 4 and 9") says they should still be in memo 3. Their absence means either **(i)** OZK reports memo 3 from 9.a only, so CRE-purpose C&I is invisible by practice, or **(ii)** the moved loans are genuinely not CRE-purpose. **Discriminators:** the Memo-10 PV05-PV08 sub-buckets at 2025Q2→Q3, plus OZK's Q3-2025 Management Comments or FDIC-filed 10-Q on any NDFI → C&I re-segmentation.
+
+**What stands:** retrieval CONFIRMED (§1) · form label unchanged (§2) · denominator ramp real (§4) · 37.6% kill-on-sight (§6) · base rate 17/154 = 11.0%, OZK's step 3rd-largest and ordinary for the line (§7.1) · **the de-risking reading stays UNRESOLVED.**
+
+*— REGINALD 2026-09-24. No figure moved; two interpretive sub-claims withdrawn.*
