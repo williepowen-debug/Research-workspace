@@ -18,6 +18,12 @@ at closeout, is. [[finding_a_ruling_governs_the_next_write_not_the_existing_stat
 ★ AND IT IS GRADE-BEARING: the dated demote trigger (record §4) names "twin calendar event
 set" disagreement at the cycle closing the 9/11 Friday pair -> L4 at PR#6.
 
+⚑ GUARD SCOPE, NAMED 2026-09-23 (DAEDALUS PR6 ask 2, 2026-09-17): this guards the NARROW class
+ONLY — twin calendar EVENT-SET disagreement between CATALYSTS.tsv and the STATUS render. It does
+NOT guard the BROAD class DAEDALUS's demote row names ("any derived-pointer disagreement", e.g.
+RULINGS.md:310 vs board_log.tsv:315, fixed 28b5dfebd). No mechanism on this desk covers the
+broad class; a clean --check says nothing about it.
+
 Modes:
   --check   fail-closed. rc=1 if STATUS's rendered block differs from what CATALYSTS implies.
             Use at closeout. A generator nobody verifies is a hand-edited file with extra steps.

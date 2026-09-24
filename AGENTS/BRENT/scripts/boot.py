@@ -170,6 +170,9 @@ BOOT_SEQUENCE = [
     # docket's own 1-week retention. A rule saying "must not diverge" is not a mechanism.
     # ★ GRADE-BEARING: the dated demote trigger names "twin calendar event set" disagreement at
     # the cycle closing the 9/11 Friday pair. This check is what makes that unfailable.
+    # ⚑ SCOPE NAMED 2026-09-23 (DAEDALUS PR6 ask 2): it guards the NARROW class — twin calendar
+    # EVENT-SET disagreement only — NOT "any derived-pointer disagreement" (the broad class,
+    # e.g. RULINGS.md:310 vs board_log.tsv:315). No boot check covers the broad class.
     # ⛔ PATH FIXED 2026-09-07 (CODEX P1 verification). Registered as "scripts/render_calendar.py"
     # and boot resolved it to WORKSPACE/scripts/ (repo root) — see the dispatch at the bottom of
     # this file: a name CONTAINING "/" resolves against the REPO, a BARE name against

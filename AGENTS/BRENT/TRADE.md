@@ -13,7 +13,9 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 **⛔ NOT MET.** Reported Petroline strike 2026-09-10 ~17:56 UTC: six FIRMS hotspots, FRP >70 MW, ~8 h [VERIFIED as thermal data]. **Historical September 11 assessment; the statement-absence assertion was RETRACTED September 12. Current grounds are in BG-02 RE-GRADE 2026-09-12 below; the September 11 paragraph is not a current evidence assessment.** FIRMS shows fire, not barrels. Adjudication: [2026-09-11 note](setups/2026-09-11_petroline-frame-breaker-adjudication.md).
 
-**📌 PRE-REGISTERED RESOLVER — an owner READING STANDARD, not an amendment. No registered level moved; BG-02's text is unchanged and remains Will's.**
+> ⚑ **2026-09-23 — WQ-234 RULED C (Will 2026-09-22 19:20 ET, verbatim *"C"*), ENCODED ON THE LETTER: [BG-02 § AIS-derived instruments corroborate, never fire](setups/SPECS_GATES.md#bg-02--frame-breaker-prospective-capacity-floor-and-constraints) (C1–C6).** **R2/R3 below are now CORROBORATING-ONLY — they can never meet the head clause alone; a fire needs R1 or R4.** Dual-tracker rules 1–4 below now govern whether a tracker read carries ANY corroborating weight (fail ⇒ zero weight, `NO-CORROBORATION`); rule 6 `R-CURVE-VETO` applies to any R1+tracker pair whose throughput quantity comes from the tracker. The table and rules below are kept as written (dated record) — where they say R2/R3 can meet the floor, the letter now overrides them. Prospective; no level, floor, MA or window moved; $0.
+
+**📌 PRE-REGISTERED RESOLVER — an owner READING STANDARD, not an amendment. No registered level moved; BG-02's text is unchanged and remains Will's.** *(2026-09-23: R2/R3 firing role superseded by BG-02 C1–C6 — banner above.)*
 
 | | |
 |---|---|
@@ -46,7 +48,7 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 **⇒ ALL FOUR REQUIRED, and each can only ever REFUSE a fire:** ① both trackers clear the floor, conservative figure governs, sign disagreement ⇒ NO-VERDICT (rules 1–3) · ② AIS-dark-share disclosure or NO-VERDICT (rule 4) · ③ **`R-CURVE-VETO` (rule 6)** · ④ **R1 (operator statement) is PREFERRED — cheapest, cleanest, statement-based, wholly unaffected by this defect. Watch Aramco/SPA/MoE FIRST.**
 
-⚠️ **AND THE LAPSE CASE IS NOW THE MODAL ONE, not the fallback.** Both export-side instruments are the impeached ones; the window sits inside the outage; **lapse = NOT MET = premium, not destroyed capacity — closed, and ⛔ NOT re-opened on a later relay of the same satellite data.** ⛔ **BG-02's letter is Will's and is UNCHANGED throughout. `WQ-234` remains open with Will, needed-by 9/18.**
+⚠️ **AND THE LAPSE CASE IS NOW THE MODAL ONE, not the fallback.** Both export-side instruments are the impeached ones; the window sits inside the outage; **lapse = NOT MET = premium, not destroyed capacity — closed, and ⛔ NOT re-opened on a later relay of the same satellite data.** ⛔ **BG-02's letter is Will's and is UNCHANGED throughout. `WQ-234` remains open with Will, needed-by 9/18.** *(Closed 2026-09-22: Will ruled C; the letter was amended 2026-09-23 — BG-02 C1–C6.)*
 
 ⇒ **Practical consequence, stated plainly: R2/R3 can no longer fire BG-02 on their own in a contested week.** Given the floor is smaller than the routine inter-vendor spread, that is the only honest form. **Earliest gradeable date on the 7-day MA is ~2026-09-17/18** (the shut began 9/11) — **which is exactly where FALCON's independently-written FAL-05 7-consecutive-day bar lands.** Window closes **2026-09-25 17:00 ET** ⇒ **BG-02 is more likely to LAPSE than to resolve on a number, and lapse = NOT MET = premium, not destroyed capacity.**
 
