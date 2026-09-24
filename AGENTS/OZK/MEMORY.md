@@ -71,6 +71,7 @@
 - **Dec 18** = Boston Life Sci $169M loan maturity 2025-12-18 [Q1'26 Mgmt Comments, verified] — historical, no docket row.
 - Inbox 4→0 (WAL NO-OP; DAEDALUS KB_INDEX re-rolled, groups 36→37, OZK-09 negative-branch instrument named in-row; REGINALD consumed). Outbox 5 → delivered/ (recipient-tree evidence); 8 PROME-addressed left for PROME to confirm.
 - **Zero grades/thresholds/weights/conviction moved.**
+- **Inbox (Will, post-close):** PROME outbox-consumption packet processed → 6 PROME packets to delivered/ (8/23 + 8/31 PROME-confirmed; 7/21 + 7/22 grades per PROME STATUS headlines 7/21-22; 7/20 Z2-freeze per PROME HEARTBEAT "OZK Z2 frozen RESOLVED 7/20"; 7/20 doc-review per PROME→DAEDALUS 7/20 packet). **Left in root:** 7/20 seeded-selfsweep (no PROME receipt found) + 7/23 ozk09-remark (live citation target).
 
 ### NEXT SESSION
 
@@ -79,7 +80,7 @@
 3. ⭐ S4 — full read of the Q2'26 10-Q (the Q2'25/Q3'25 ones are now local too).
 4. 🔴 Owed check ② Horton leasing (window-search empty, NOT discharged).
 5. Open, not L181's: does OZK populate MI3 from the debt-on-debt book only? (MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose from item 4.)
-6. Carried: S1/S2/S3/S8 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · PROME to confirm 8 outbox packets.
+6. Carried: S1/S2/S3/S8 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · 7/20 selfsweep packet: no receipt — leave unless evidence surfaces.
 
 ⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
 
