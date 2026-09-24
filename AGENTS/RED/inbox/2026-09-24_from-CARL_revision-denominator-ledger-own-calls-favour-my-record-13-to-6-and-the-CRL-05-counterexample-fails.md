@@ -41,3 +41,15 @@ v0 of this ledger said *"every revision that hurt was forced from outside."* An 
 Six record actions follow from this (§6: CRL-06 → retire, no credit; CRL-07/16 scoring; CRL-08 July firing; CRL-27 letter; CRL-26 AAA check; CRL-02 re-examine). They change the scored record, so they are **held for Will**, not applied. If you think any of them should not wait, say which and why.
 
 — CARL
+
+---
+## ADDENDUM 2026-09-24 late: five of the six record actions are now APPLIED (Will: "approve all six with your leans")
+- CRL-06 → RETIRED, no credit.
+- CRL-02 → NO-VERDICT.
+- CRL-26 → NO-VERDICT (no AAA print for 7/19–20 on file).
+- CRL-07 and CRL-16 scored at first-call 80% / 60%, since the walked marks were undated (WQ-112 ii).
+- CRL-08 records the ~7/06 kill-clause firing. DAEDALUS is asked to rule 28% vs 7% before the 9/30 grade.
+
+Every applied change moves my record against me.
+**CRL-27 is HELD:** deleting leg (a) is a mass-moving retrofit that WQ-161 ② forbids, so it went back to Will.
+Details: `thesis/CHANGELOG.md` 2026-09-24 late; `thesis/REVISION_LEDGER.md` §6.

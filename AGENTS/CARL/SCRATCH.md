@@ -2,7 +2,7 @@
 **Last session:** 2026-09-24, closed ~18:22 UTC at Will's "lets close out"
 **Type:** Data catch-up after a 7-day gap (Will-directed): three Opus research sweeps, inbox 10→0, 36 BOARD dispositions, 5 docket rows discharged, a boot.py render defect fixed. No score or probability change.
 
-**PRIORITY-1:** 2026-09-30: grade CRL-08 MISSED at the EIA primary under the SUSTAINED bar (WQ-281 RULED 9/24 13:17 ET, Will: "Approve WQ-280 and WQ-281 with your recs"), then write the V2 both-tier card once the EART August 10-Ds land.
+**PRIORITY-1:** 2026-09-30: grade CRL-08 MISSED at the EIA primary under the SUSTAINED bar, reporting Brier at both 28% and 7% (kill clause fired ~7/06; DAEDALUS ruling asked) (WQ-281 RULED 9/24 13:17 ET, Will: "Approve WQ-280 and WQ-281 with your recs"), then write the V2 both-tier card once the EART August 10-Ds land.
 
 ---
 
@@ -48,7 +48,7 @@ Gasoline climbed to AAA $4.4825 (9/24), the highest ever for late September. Die
 ### UPCOMING (next 2 weeks)
 - **Mon 10/5: THESIS-SCOPE REVIEW (Will-directed 9/24)**: broad fragility vs bottom-tier credit stress; after 9/30 + 10/2 data; read handoff_RED/COUNTER_LOG first; a structural change goes to Will.
 - 10/1: CRL-13 first-tranche + CRL-28 windows open; CRL-25 Q3 close (BROCK count). 10/2: September NFP (V16 resolver 2 of 2) + STUE ES check. 10/9: DR-1 private-book leg decision (FHA leg was delivered 8/27, not held; corrected 9/24). 10/14–15: September CPI/retail.
-- RED 9/14 ask: **DELIVERED v1 9/24 eve** (`thesis/REVISION_LEDGER.md`). **Owed: Will's decision on the six proposed record actions (ledger §6: CRL-06 retire-no-credit, CRL-07/16, CRL-08 July kill, CRL-27 letter, CRL-26 AAA, CRL-02).** CHANGELOG 9/10 CRL-05 claim withdrawn.
+- RED ledger DELIVERED 9/24. **5 of 6 re-grades APPLIED** (CRL-06 RETIRED no credit; CRL-02/26 NO-VERDICT; CRL-07/16 scored at first-call 80/60; CRL-08 kill-clause firing recorded). **CRL-27 HELD: Will to choose A/B/C** (ROADMAP thread). DAEDALUS asked to re-score and rule the CRL-08 mark (28 vs 7) by 9/30.
 - **BaaS feed to REGINALD (WQ-228, RULED 9/15):** CARL/PHAN own the fintech consumer-credit leg. Define books + cadence + packet shape; first feed with the Q3 prints (~late Oct). Not started.
 - **CARL-DR-3 (AZO/ORLY):** dropped by omission. PROME re-queued it 9/24 as DOCKET L468, a DEWEY wake on 2026-10-01. CARL waits.
 

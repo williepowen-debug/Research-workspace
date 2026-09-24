@@ -43,7 +43,7 @@
 
 ### Predictions confirmed/near-confirmed (with ex-ante confidence — Brier audit deferred to v2.5.1)
 
-- **CRL-02** Subprime Auto 60+ DQ >7.0% — ex-ante 80%, **CONFIRMED*** at 6.9% ATR (at threshold)
+- **CRL-02** Subprime Auto 60+ DQ >7.0% — ex-ante 80%, **CONFIRMED*** at 6.9% ATR (at threshold) — ⛔ *[RE-GRADED 2026-09-24 → NO-VERDICT, not scored: resolved before its window, 6.9% is below a >7.0% bar. Historical line kept; see PREDICTIONS.tsv.]*
 - **CRL-01** Gas pump peak Mar 14-21 — ex-ante 70%, **MISSED** (direction right, magnitude wrong — peak shifted later under sustained Brent)
 - **Legacy (pre-TSV):** CC 90+ >2019 peak ✅, FL Foreclosures +100% YoY ✅, Hardship 401k >5.5% ✅
 - **Near-confirmed:** CRL-04 (SL 90+ DQ >10%, ~9.8% FICO Spring), CRL-08 (Gas $4.50, 92% confidence at $4.392)
