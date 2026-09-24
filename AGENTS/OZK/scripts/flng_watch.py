@@ -38,6 +38,8 @@ def evaluate(rows, since, baseline=BASELINE_ID, min_rows=MIN_ROWS):
     if bad:
         return 2, f"UNKNOWN: {len(bad)} row(s) lack an integer instFlngId (first at index {bad[0]}) — malformed response", []
     ids = {r["instFlngId"] for r in rows}
+    if len(ids) < min_rows:
+        return 2, f"UNKNOWN: only {len(ids)} unique filing ids among {len(rows)} rows (floor {min_rows}) — duplicated/incomplete response", []
     if baseline not in ids and max(ids) < baseline:
         return 2, f"UNKNOWN: baseline FLNG {baseline} absent and newest id {max(ids)} is older — response does not cover the baseline", []
     new = sorted((r for r in rows if r["instFlngId"] > since), key=lambda r: r["instFlngId"])
@@ -63,6 +65,7 @@ def selftest():
         ("malformed: string id", base[:-1] + [dict(row(0), instFlngId="11981")], 2),
         ("malformed: non-dict row", base + ["oops"], 2),
         ("coverage: baseline absent and all ids older", [row(i) for i in range(11000, 11000 + 182)], 2),
+        ("coverage: 182 copies of the baseline row (1 unique id)", [row(BASELINE_ID) for _ in range(182)], 2),
     ]
     fails = 0
     for name, data, want in cases:

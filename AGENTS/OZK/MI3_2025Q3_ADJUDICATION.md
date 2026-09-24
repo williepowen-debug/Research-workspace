@@ -163,7 +163,7 @@ REGINALD's 9/24 packet (`inbox/…_from-REGINALD_L181-mi3-input-delta…`) withd
 ### 6.3 What remains true, and what this does NOT say
 
 - **Scope fence (unchanged):** MI3 = CRE-purpose **not secured** by real estate. Nothing here touches RESG secured credit, IQHQ/RaDD, classified balances or OZK-09.
-- **Thesis relevance flips from "disclosure" to "book":** the debt-on-debt book (the P-OZK-2 successor pillar, ruled 8/23 as SUBJECT) **shrank 64% in 18 months ($1.20B → $0.43B)** and **then** began charging off — `RIAD5409` **$42.4M H1-26, the first nonzero in 18 quarters**, on a $0.43-0.49B residual ⇒ ~9% of the residual in six months. That is the **adverse-selection shape** the RESERVOIR thesis predicts (good credits refinance out, the residue sours) — recorded as a **description**, moving no number.
+- **Thesis relevance flips from "disclosure" to "book":** the debt-on-debt book (the P-OZK-2 successor pillar, ruled 8/23 as SUBJECT) **shrank 64% in 12 months (6/25 → 6/26) ($1.20B → $0.43B)** and **then** began charging off — `RIAD5409` **$42.4M H1-26, the first nonzero in 18 quarters**, on a $0.43-0.49B residual ⇒ ~9% of the residual in six months. That is the **adverse-selection shape** the RESERVOIR thesis predicts (good credits refinance out, the residue sours) — recorded as a **description**, moving no number.
 - REGINALD's *"disclosing less about a larger book"*: the debt-on-debt book **is** disclosed in the 10-Q every quarter, and the C&I growth is **most likely** a different book (item 4, CIB, in-trend) — ⚠️ *but with NDFI→C&I not excluded (§6.5), "most likely" is the claim, not "is".*
 
 ### 6.4 What would change this verdict

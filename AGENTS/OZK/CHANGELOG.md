@@ -2,6 +2,16 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-09-24 (later) — CATO review corrections OZ1-OZ4 (NO VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
+
+| Area | Old view | New view |
+|---|---|---|
+| **Kill-§1 disposition (OZ2)** | "FIRED-LITERAL / ADJUDICATED **NON-DISCONFIRMING**-ON-MECHANISM" — the 30-89 bucket "emptied **into** NPA, not a cure" | **FIRED-LITERAL · mechanism UNDETERMINED.** OBSERVED: literal fire + NPA +31.9%. INFERRED only: migration-through. CATO's counterexample fits every endpoint with **zero** transfer from the Q1 30-89 bucket. ⚠️ **The thesis's own warning fired and is not shown harmless — only ambiguous.** Criterion text and P-OZK-4 unchanged (Will-gated) |
+| **Invalidation §4 — sub-notes (OZ1)** | redemption "removes the interest headwind **and the Tier 2 −20% haircut**" | Three branches, each recalculated: retain/reset (base) · **redeem without replacement removes the notes' whole remaining Tier 2 (~$280M → $0)** — a larger capital hit than the haircut · refinance = new coupon + new eligibility. Confidence read = labeled inference |
+| **Debt-on-debt pillar** | charge-offs "distinguish loss-driven contraction from deliberate runoff"; "64% in 18 months" | Sentence retracted (residual losses say nothing about why the earlier balance left); span is **12 months** (6/25 → 6/26) |
+
+*Also corrected outside THESIS: STATUS / CALL_REPORT_2026Q2_LOG / LESSONS / KB-222 (OZ2 wording) · CALENDAR 10/2 rc1 branch (OZ1) · Affinius maturity marked **UNVERIFIED EVENT, not actionable** in CALENDAR / STATUS / boot.py / IQHQ_PLAYBOOK (OZ3) · PREDICTIONS OZK-03 invalidation date + OZK-09 attribution guard (OZ4: completed searches ≠ FALSE; no RaDD attribution → STUCK) · flng_watch unique-ID coverage (11/11).*
+
 ## 2026-09-24 — Factual refresh (Will-directed review) · L181 folded in (NO THESIS VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
 
 **Scope:** bring THESIS.md's narrative in line with data it already relied on. Nothing re-derived, re-graded or re-marked.

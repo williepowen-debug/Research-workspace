@@ -42,8 +42,8 @@ All three can coexist. On the live evidence OZK's primary vectors are **(1) mark
 **Watch for:** foreclosed transfers at prior-appraisal values; substandard accrual with no specific reserve; SpecMention "churn" that migrates into classified.
 
 ### A threshold on a transit bucket is mis-specified
-**Mistake:** THESIS kill-§1 thresholds *past-due* — a bucket credits pass **through** — and "fired" at Q2'26 when 30-89 emptied −88% **into** nonaccrual/OREO/charge-off and NPA rose +31.9% QoQ. Literal condition and stated meaning pointed opposite ways.
-**Rule:** threshold a **stock**, not a transit bucket. Ask: *can this fall because things got better AND because they got worse?* If yes, pair it with the destination buckets (30-89 + nonaccrual + OREO). When such a criterion fires, adjudicate the mechanism first — the decomposition is in the Call Report, not the supplement. (Re-spec = P-OZK-4, Will-gated.)
+**Mistake:** THESIS kill-§1 thresholds *past-due* — a bucket credits pass **through** — and "fired" at Q2'26 when 30-89 fell −88% while NPA rose +31.9% QoQ. The fall can mean cures **or** migration, and balances can't tell which. **Second mistake, same case (CATO OZ2, 9/24):** we then dismissed the fired warning as "migration-through" on an implied roll-forward — but the same endpoints fit a flow with zero migration from the bucket. A dismissal built on an inference leaves the warning ambiguous, not harmless.
+**Rule:** threshold a **stock**, not a transit bucket. Ask: *can this fall because things got better AND because they got worse?* If yes, pair it with the destination buckets (30-89 + nonaccrual + OREO). When such a criterion fires, record it as **fired**; call it harmless only on credit-level or disclosed roll-forward evidence, never on balance endpoints (see §"Net endpoints"). (Re-spec = P-OZK-4, Will-gated.)
 
 ### Reproduce the baseline before you grade against it
 **Mistake (2026-08-07, n=2 desks):** OZK's 37.6% and WAL's "+8.7pp over 2 quarters" (really 6) were both load-bearing for months with the recipe written down the whole time.

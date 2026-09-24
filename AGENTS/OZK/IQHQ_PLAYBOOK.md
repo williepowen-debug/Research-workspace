@@ -261,7 +261,7 @@ The Apr-Aug position reads that stood here are retired (text → git history). *
 3. **Aimco MTD outcome** — no ruling found as of 9/24; direct docket pull owed (TODO C3).
 4. **Campus at Horton leasing** — owed, unrun (TODO C1).
 5. **Bioterra ($202M OZK loan, Sorrento Mesa)** — a second SD life-sci data point if it needs restructuring.
-6. **Affinius $2.7B maturity** — exposure still unverified since Apr (TODO C5).
+6. **Affinius "$2.7B maturity"** — the **event itself** is unverified (issuer/amount/date unsourced; possible USAA Capital conflation) — not a catalyst until sourced (TODO C5).
 
 *Resolved: IQHQ exposure beyond RaDD — none (Rossow, sole credit; KB-178) · WAL IQHQ exposure — WAL is not an IQHQ lender (though it carries its own life-sci CRE, per WAL 8/28).*
 

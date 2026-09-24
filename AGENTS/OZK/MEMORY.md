@@ -58,16 +58,17 @@
 - **⚖️ L181 RESOLVED — LEGITIMATE, narrowed:** reported debt-on-debt decline **OBSERVED** (10-Q ≡ `RCON2746`, 5/5 qtrs; never in item 4) · runoff **INFERRED** · reclassification out of the book **NOT EXCLUDED** (CATO RB2). → `MI3_2025Q3_ADJUDICATION.md` §6/§6.5, KB-OZK-230; corrections sent to REGINALD + BROCK.
 - **L126 sub-notes:** `scripts/flng_watch.py` (schema + coverage validated, rc 2 on bad data, `--selftest` 10/10), in boot.py. Benchmark = **3M term SOFR + 209bp** (issuer release); drag ≈+$11.2M/yr (was $12.8M). PROME runs the watch at its boots to 10/1.
 - Housekeeping: inbox → 0 · KB 230/37 · OZK-09 negative-branch instrument named · outbox 11 → delivered/ on evidence (left: 7/20 selfsweep, no receipt; 7/23 ozk09-remark, live citation) · TODO re-baselined · +2 LESSONS · MEMORY condensed (this pass).
+- **CATO review (Will-relayed, afternoon): OZ1-OZ4 applied.** ⚠️ **Kill-§1 narrowed to FIRED-LITERAL · mechanism UNDETERMINED** — the "migration-through" dismissal was an inference (a zero-migration flow fits every endpoint). Sub-note redemption now = recalculate (redeem removes ~$280M Tier 2, not just the haircut). Affinius maturity = UNVERIFIED EVENT. OZK-09 attribution guard added (clean searches + no RaDD attribution → STUCK). CATO's next-step advice: **evidence work (Q2 10-Q read, Horton) before more restructuring.**
 - **Zero grades/thresholds/weights/conviction moved.**
 
 ### NEXT SESSION
 
 1. **Fri 10/2 AM — the 10/1 read (DOCKET L463):** `flng_watch.py` → rc 0 = record **SCHEDULED-UNCONTRADICTED** (never "confirmed"; log rc + row count + date) · rc 1 = read the filing · rc 2 = UNKNOWN, re-run. Benchmark answered: **3M term SOFR + 209bp** (issuer release); call/notice terms still unread (indenture).
 2. **Q3 date** (~9/30) → replace boot.py/CALENDAR `~2026-10-21`; build Q3 scoring card pre-print.
-3. ⭐ S4 — full read of the Q2'26 10-Q (the Q2'25/Q3'25 ones are now local too).
-4. 🔴 Owed check ② Horton leasing (window-search empty, NOT discharged).
+3. ⭐ **FIRST (CATO priority):** TODO D4 — full read of the Q2'26 10-Q (Q2 8-K text already extracted in scratch; SEVEN_CREDIT roster needs the Q2 problem-credit table — foreclosed $154M → $293M) (the Q2'25/Q3'25 ones are now local too).
+4. 🔴 TODO C1 — Horton leasing (window-search empty, NOT discharged).
 5. Open, not L181's: does OZK populate MI3 from the debt-on-debt book only? (MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose from item 4.)
-6. Carried: S1/S2/S3/S8 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · 7/20 selfsweep packet: no receipt — leave unless evidence surfaces.
+6. Carried: TODO R1/R2/R3 · BPRE 10/6 webinar · P-OZK-1/4/5 Will-gated · FFIEC JWT 2026-11-05 · 7/20 selfsweep packet: no receipt — leave unless evidence surfaces.
 
 ⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
 
