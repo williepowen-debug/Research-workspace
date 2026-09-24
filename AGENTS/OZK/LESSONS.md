@@ -1,85 +1,98 @@
 # LESSONS.md — OZK Mistake Patterns & Rules
 
-*Read at boot. Learn once, prevent forever. This file is for verified mistakes that burned us — each with a prevention rule. For Will's working preferences and data source learnings, see `MEMORY.md` (Feedback + Findings sections). Seeded from REGINALD/LESSONS.md during OZK spinout 2026-04-24: 6 rules copied verbatim, 1 rewritten for OZK (NDFI), 1 skipped (hub-agent-only).*
+*Read at boot. Learn once, prevent forever. Verified mistakes that burned us, each with a prevention rule. Will's preferences and data-source recipes live in `MEMORY.md` (Feedback + Findings). Seeded from REGINALD/LESSONS.md at the 2026-04-24 spinout; restructured 2026-09-24 (grouped by type, retraction banners folded into clean rules — prior wording in git history).*
 
 ---
 
-### [Data] — Verify Agent Data Against Primary Filings
-**Mistake:** PSEC was reported at 35% PIK — actual was 8.6% per SEC filing. Consumer finance names (SYF, BFH, ALLY) were assumed stressed but SEC filings showed improvement.
-**Rule:** Before any metric informs a trade, verify against the 10-K/10-Q. Agent research is a starting point, not ground truth.
+## A. Data & sources
 
-### [Data] — OZK CIB/NDFI Is Not Monolithic
-**Mistake pattern:** Treating OZK's CIB segment or NDFI exposure as a single risk bucket misses that the sub-segments behave very differently. Fund Finance (capital call subscriptions to PE funds), Lender Finance Group (lending to non-bank lenders), Indirect Lending, and other CIB lines have different collateral, credit, and competitive dynamics.
-**Evidence:** Q1 2026 — Jake Munn (CIB President) disclosed OZK is *pulling back* from Fund Finance due to non-bank lender + insurance-company price/structure competition; Lender Finance Group also showing compression. Two of four CIB sub-segments in managed retreat. Meanwhile written Mgmt Comments show Fund Finance growing $210M → $1.275B YoY — no commentary on margin erosion.
-**Rule 1:** Decompose OZK CIB/NDFI by sub-segment before assessing risk. Don't treat it as monolithic.
-**Rule 2:** Verbal-only disclosures (earnings call transcript) that don't appear in written Mgmt Comments PDFs are the leading signal. Watch for disclosures that vanish between spoken and written form — they're telling you what management doesn't want formalized.
+### Verify agent data against primary filings
+**Mistake:** PSEC was reported at 35% PIK — actual 8.6% per filing; consumer-finance names assumed stressed showed improvement in their filings.
+**Rule:** before any metric informs a trade or a grade, verify it against the 10-K/10-Q. For OZK that means the **FDIC-filed** 10-Q (cert 110) — agent research is a starting point, not ground truth.
 
-### [Analysis] — Hidden CRE Methodology ⚠️ **RECIPE DEFECTIVE FOR OZK — read the amendment below before using**
-**How to screen:** Pull FFIEC Call Report Schedule RC-C Part I. Item 4 = C&I loans. Memo Item 3 (RCON2746) = "Loans to finance CRE not secured by RE." Ratio = Memo3/Item4. Flag if >20%.
-**Key finding:** ~~OZK worst in screen at 37.6%.~~ ⚠️ ***[RETRACTED 2026-08-23 — BOTH HALVES, by the screen's own owner.* **(i) The `37.6%` number is dead on four independent paths:** it reproduces at no quarter of OZK's own 18-qtr FFIEC series (either basis), at no quarter of REGINALD's 14-bank cohort re-run, at no quarter of the FDIC's own API at a different agency, and at no quarter of the 14-qtr FDIC ratio series. Live: **9.35% at Q2-26**, *below the screen's own >20% flag for two straight quarters.* **(ii) "Worst in the screen" is FORMALLY RETRACTED by REGINALD** (8/13 cohort re-run, 14 banks × 4 qtrs, 56/56 sourced): **OZK ranks 5th of 14 on BOTH bases** — below WAL, CUBI, MTB and EGBN on the legacy basis. OZK is instead the cohort's **fastest faller**, MI3 dollars **−64% YoY**. ⚠️ **And the guard's stated rationale was itself wrong:** this is a **single-cell data defect** at OZK's 12/31/2025 vintage (the other four legacy cells reproduce to 2dp), **not** the screen-level item-9.a defect the 8/7 banner asserted. The number stays kill-on-sight; the reason it is dead changed. ⛔ **Scope fence: MI3 is CRE NOT SECURED by real estate — RESG and every secured book are a different object and are UNTOUCHED by this retraction.** Sources: `inbox/processed/2026-08-13*_from-REGINALD_*` · `MI3_2025Q3_ADJUDICATION.md` · `CALL_REPORT_2026Q2_LOG.md` §3.]*** WAL ratio is GROWING (15.5% → 24.2%), only bank with upward trend *(WAL's leg re-confirmed at the 8/13 re-run: 24.24% at 12/31/25 reproduced to 2dp, live 21.20% Q2-26 and falling — **WAL is the only name the legacy >20% screen still catches, and on the uniform basis it catches nobody**)*.
+### Verify real-time prices before building narratives
+**Mistake:** STATUS carried Brent $118-125 and built an FL energy-shock cascade on it; actual was $81.40.
+**Rule:** confirm levels from a live source, with the vintage label, before modeling anything downstream. A 45% input error produces garbage on every output.
 
-> **⚠️ AMENDMENT 2026-08-07 — the recipe above has a denominator defect, and its OZK result does not reproduce.**
-> **(1) The denominator is wrong for OZK.** `RCON2746`'s own FFIEC definition places its balance in RC-C items **4 AND 9**. For OZK the whole balance is in **item 9.a**: `RCONPV09` ("Other loans to nondepository financial institutions") ≡ `RCON2746` **to the dollar in all six quarters the Memo-10 breakdown exists** (Q1-25 → Q2-26). Dividing by item 4 divides the numerator by a base that contains ~none of it. **Always report BOTH bases, labeled.** *(WAL hit the same defect the same day — its proposal P8. There it over-states; here it is a category mismatch.)*
-> **(2) The 37.6% does not reproduce at any of 18 quarters, on either basis.** Recipe basis: 294.93% (Q1-22) → **9.35%** (Q2-26). Fuller basis: 67.00% → **5.46%**. OZK is now **below the screen's own >20% flag** for two consecutive quarters.
-> **(3) Scope guard.** MI3 measures CRE-purpose lending **NOT secured by real estate**. It says nothing about the secured book — RESG, IQHQ/RaDD, classified balances, the 11 tracked credits. **Do not read a MI3 collapse as a CRE-thesis weakening.**
-> Working → `CALL_REPORT_2026Q2_LOG.md` §3 · series → `workbook/CALL_REPORT_SERIES.tsv`. Disposition of the 37.6% line is REGINALD's (they own the screen) — proposals P-OZK-1/2, Will/PROME-gated, not applied.
+### Date your data
+**Rule:** every metric carries a date and a basis ("Q2'26 Call Report", "as of 9/23 close"). An undated number in STATUS will be read as current.
 
-### [Process] — Reproduce the Baseline Before You Grade Against It
-**Mistake:** Two independent 2026-08-07 first-run Call Report pulls each found their recorded baseline wrong — OZK's 37.6% MI3 unreproducible at 18 quarters; WAL's "+8.7pp over **2** quarters" actually **6** quarters, making the trend look 3× steeper than it was. Both had been load-bearing for months, in multiple surfaces, with the recipe written down the whole time.
-**Rule:** Before a number grades anything, recompute it from the primary on its stated basis. If the levels don't reproduce, the correct output is a **basis dispute, not a verdict.** Two-endpoint claims ("X → Y, fastest in cohort") must carry the **interval** and be checked against the full series — the shape of a series is not recoverable from its endpoints. **The recipe being recorded is not the check being run.**
-
-### [Process] — Root `CLAUDE.md` and `AGENTS/OZK/CLAUDE.md` Are Two Different Files — Cite the Path, Don't Cite From Memory
-**Mistake (2026-08-07):** I reported the disproved "37.6% MI3" figure as living in **root `CLAUDE.md`** — a Will-gated fleet doc — in the THESIS banner, the log, TODO, the REGINALD packet and the PROME delivery. It does not: root has **zero** occurrences of "37.6". Every quote was from **`AGENTS/OZK/CLAUDE.md:16`**, which auto-loads *alongside* root when the session launches in-folder, so both were in context and I merged them. PROME caught it with one grep. The error **inflated the blast radius of a Will-facing proposal** (fleet-doc exposure → OZK-local only) and I had recommended sequencing P-OZK-2 first partly because of it.
-**Rule:** before attributing a quote to a **shared/root** doc, `grep` that exact path. Two `CLAUDE.md` files are in context at all times and neither is labeled in the injected text. **Cite `file:line`, never "root CLAUDE.md says" from recall** — and the stakes are asymmetric: mis-crediting *upward* (agent-local → root) escalates something into Will's gated surface that was never there. *(Generalizes: this is the doc-mirror class — the same figure legitimately living in several surfaces is exactly what makes the misattribution easy and expensive.)*
-
-### [Process] — A Threshold on a Transit Bucket Is Mis-Specified
-**Mistake:** THESIS kill-criterion §1 graded *past-due* (a bucket credits pass **through**) and fired at Q2-2026 — in a quarter when the 30-89 bucket emptied −88% **into** nonaccrual, OREO and charge-off, with NPA **+31.9% QoQ**. The criterion's literal condition and its stated meaning ("the migration pipeline is not flowing") pointed in **opposite directions**.
-**Rule:** Threshold a **stock**, not a **transit bucket**. Before pre-registering a level, ask: *can this measure fall because the underlying got better, AND fall because it got worse?* If yes, it cannot grade. Pair it with a bucket-invariant companion (30-89 + nonaccrual + OREO), or with the destination buckets, so the direction is recoverable. ⚠️ **And when such a criterion does fire, adjudicate the mechanism before recording the kill — the decomposition that settles it is usually in the Call Report and absent from the supplement.**
-
-### [Analysis] — Distinguish Classification Levels
-Three levels of CRE masking:
-1. Extend-and-pretend (don't force refinancing)
-2. Mark-to-model (don't write down)
-3. Classification (call CRE "C&I" if unsecured) ← Memo Item 3
-All three can coexist at the same bank. ~~OZK's 37.6% MI3 baseline means classification masking is the primary vector~~ ***[RETRACTED 2026-08-23 — the baseline is dead (see §Hidden CRE Methodology) and with it the claim that classification masking is OZK's PRIMARY vector. That ranking was derived from the ratio, so it does not survive the ratio. On the live evidence the primary vector reads as **(1) mark-to-model** — nonaccrual $296.6M carried at collateral FV $281.5M of which **$250.4M carries $0 ALL**, marked to appraisal rather than market severity — and **(2) extend-and-pretend**, which management described on its own 7/22 call (RaDD multi-year extension + recap, interest paid from interest reserves, "will remain a pass-rated credit"). ⚠️ Stated as a re-read of vector ORDERING, not a thesis move: no weight, grade or probability changes on it.]*** Watch for extend-and-pretend + mark-to-model signals (e.g., foreclosed asset transfers at prior-appraisal values, substandard accrual without specific reserve).
-
-### [Process] — Compressing a Finding Drops Its Qualifier, and the Qualifier IS the Finding
-**Mistake (written 2026-08-23, caught 2026-08-28):** MEMORY carried a correct 7/04 finding — *"as an FDIC state non-member bank OZK files 10-K/10-Q/8-K with the **FDIC**, not SEC EDGAR. **There is no SEC 10-Q for OZK.**"* On 8/23 it was restated as **"OZK files no 10-Q — there is no MD&A… Do not plan a research step around an MD&A that does not exist."** Dropping the word **SEC** converted a *routing* fact into a *non-existence* claim, and turned a live primary source into a closed door.
-**Why it was expensive:** the 10-Q exists (`raw/Q1_2026_10Q.pdf`, cover page *"FEDERAL DEPOSIT INSURANCE CORPORATION · FORM 10-Q · FDIC Certificate No. 110"*), was **read 7/18**, and is where the **~$490M debt-on-debt book** came from — the figure Will/PROME later ruled the **P-OZK-2 successor pillar** — plus NCO 0.57% and the $250.4M-at-$0-ALL deferral-engine finding. **The desk wrote a false negative over its own most productive primary, four days after that primary produced the replacement pillar.** Both the correct and the degraded row then coexisted in MEMORY for 5 days; the newer wins on a grep.
-**Rule 1:** When you compress or restate an existing finding, **re-read the row you are compressing first.** The qualifier (`SEC` / `as-reported` / `segment` / `average-basis`) is usually the entire content — a compression that drops it does not lose precision, it reverses meaning.
-**Rule 2:** **Never let a compression stand beside its source.** Replace the old row or cross-link them. A file that argues with itself resolves by recency, not by correctness.
-**Rule 3:** An **absence** claim needs the counterparty standard: *"not at source X"* is never *"does not exist."* Before writing "there is no Y," grep `raw/` and your own KB — for this desk the refutation was a 783KB PDF already on disk. [[finding_scope_negative_needs_the_counterparty_standard]]
-
-### [Process] — Banner Vocabulary in a Machine-Scanned Header Is a TOKEN, Not Prose
-**Mistake (2026-08-28, mine, caught within the minute):** adding a PAT-044 two-clock header to `workbook/PREDICTIONS.tsv`, I wrote *"re-anchored to the **frozen** Option-2 window"* — descriptive prose. `scripts/ledger_staleness.py` scans the pre-data block for `FROZEN/RETIRED/SUPERSEDED/ARCHIVED` as **tokens**, so a LIVE ledger was silently reclassified **FROZEN** and exempted from all future staleness tracking. Every other check still passed clean.
-**Rule:** the header block above a TSV's data boundary is a **machine-read namespace, not prose.** Never write banner vocabulary there, even descriptively — and **re-run the consuming tool after editing a file that a tool classifies.** The edit looked correct; only the tool's own output disclosed the effect. [[finding_test_the_guard_not_just_the_guarded]]
-
-### [Process] — A Negative Finding Must Carry Its Window IN THE SENTENCE, and a ✅ Is Where It Goes to Rot
-**The rule (WAL + OZK, independently, same day 2026-08-28, n=2 desks):** a scoped negative — *"no ruling"*, *"no fresh mark"*, *"no identified catalyst"*, *"zero buys"* — decays into a **general claim** the moment its window becomes implicit. **The window must be inside the sentence, not in the surrounding context, because the context is exactly what gets dropped when the claim travels.** WAL's instance: a "no identified catalyst" finding covering 8/13–8/20 while 8/20–8/28 sat unswept — a reader citing it for the current week would be *citing a gap as a finding*. OZK's instance: **"Zero buys continue"**, present tense, off a **53-day-old** insider pull.
-**The OZK-specific amplifier — the ✅ is the trap.** Two negatives here were closed with `[x]` + a ✅ *and a re-check trigger*: Bluerock TI+ NAV (*"standing watch"*) and Aimco MTD (*"re-check docket with Q2 prep"*). **The Q2-prep trigger fired on 7/21 and nobody acted, because the tick made the item look settled.** A checkbox records that *a check happened*, never that *its answer is still true* — so ticking a negative is what stops it from ever being re-run. [[finding_dated_carry_item_has_no_expiry_check]]
-**Rule 1:** write the window into the claim — *"no ruling **as of 7/4**"*, never *"no ruling"*. Never use a bare present tense (*"continue"*, *"remains"*, *"still"*) for a negative sourced from a dated check.
-**Rule 2:** **never `[x]` a negative that has a re-check trigger.** Leave it `[ ]` with the trigger date visible, or give it an explicit expiry. A ✅ on a negative is a claim about the *past* wearing the costume of a claim about the *present*.
-**Rule 3:** distinguish **UNSWEPT** from **SWEPT-AND-EMPTY** every time, in the words themselves. They are opposite epistemic states and both render as silence. *(Live case: OZK's August IQHQ window — the desk holds only a CALENDAR negative, and nothing anywhere may say "August passed quiet" until the 8-K/FLNG sweep actually runs.)*
-**⚠️ Cross-desk corollary, also n=2 same day:** a **self-audit keyed on your own canonical tokens is structurally blind to claims about someone else's book.** OZK ran a 22-finding sweep and missed a false negative about WAL's book that WAL found the same day; WAL's sweep had the mirror-image hole. **Neither desk can find this class alone — cross-desk claims want a periodic pass by the CITED desk, not the citing one.**
-
-### [Analysis] — Net Endpoints Cannot Exclude a Transfer Offset by Runoff
-**Mistake (2026-09-24, caught same day by CATO RB2):** the L181 verdict first called within-NDFI reclassification **REFUTED** because the other Memo-10 buckets grew only +$68M and "9.a would stay flat." Both are NET quarter-end comparisons. A transfer of 432,181 PV09→PV06 plus 409,544 of PV06 runoff fits every reported cell exactly. One of my stated reasons ("9.a would stay flat") was simply false.
-**Rule:** quarter-end balances show **stocks**, not **flows**. A branch that moves money between buckets can always hide behind simultaneous runoff. Unless you have gross flow evidence (originations/payoffs/transfers by bucket) or an issuer statement, the strongest honest token is **"not supported by endpoints, not excluded."** Write the verdict in layers: **OBSERVED** (reported balances) / **INFERRED** (favoured mechanism) / **NOT EXCLUDED** (what the data cannot rule out). A matching commitments line (PV16) doesn't discriminate either, because a relabelled facility carries its commitment with it.
-
-### [Process] — A Watch Script Must Fail Closed on Missing Data
-**Mistake (2026-09-24, CATO RB3):** the first `flng_watch.py` printed QUIET (rc 0) on an empty list or object and crashed with rc 1 (the NEW code) on a row missing its id. An incomplete response could have advanced a real-world claim ("the reprice happened").
-**Rule:** validate schema + coverage (row floor, baseline present) **before** any quiet verdict; malformed or incomplete → UNKNOWN; wrap `__main__` so a crash can never emit a meaningful rc; ship fixture tests (`--selftest`). And word rc 0 as "no newer filing RETURNED", never "confirmed". [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
-
-### [Process] — Date Your Data
-**Rule:** Every metric must have a date. "Office DQ is 12.34%" means nothing without "as of Jan 2026." Stale data in STATUS.md causes wrong analysis.
-
-### [Process] — STATUS.md Is Not a Research Report
-**Rule:** STATUS.md is a dashboard — current state, thresholds, positions. Research detail belongs in archive/, workbook/, or source files. If STATUS.md exceeds 10KB, it needs pruning.
-
-### [Data] — Verify Real-Time Prices Before Building Narratives
-**Mistake:** STATUS.md stated Brent $118-125 and built an entire FL energy shock cascade on that figure. Actual was $81.40. The error propagated through multiple sections before being caught.
-**Rule:** Always confirm price levels from a live source before modeling downstream effects. A 45% error on an input produces garbage on all outputs.
+### Resolve dates must be anchored to the event and checked against its history
+**Mistake (found 2026-09-24):** PREDICTIONS carried OZK-02/03/04 as resolving at the "Feb 27 2027 earnings" — a **Saturday**, while OZK's Q4 prints landed **Jan 16-20** in 2023-26 (FDIC FLNG). It sat there for months because the weekday checker was never pointed at PREDICTIONS.
+**Rule:** write resolve dates as the **event** ("the Q4'26 print") plus an estimate grounded in the filer's own history ("~mid/late Jan; Q4 prints Jan 16-20, 2023-26"). Include `workbook/PREDICTIONS.tsv` in every `claim_check.py --check weekday` run.
 
 ---
 
-*Last reviewed: 2026-09-24 (+2 rules from CATO RB2/RB3). Prior: 2026-08-07 (Q2 Call Report LOG-ONLY session — MI3 recipe amendment + 2 new process rules). Prior: 2026-04-24 (seeded from REGINALD/LESSONS.md during spinout).*
+## B. Analysis
+
+### OZK CIB/NDFI is not monolithic
+**Mistake pattern:** treating CIB or NDFI as one bucket. Fund Finance, Lender Finance, Indirect and the RESG debt-on-debt book have different collateral, credit and competitive dynamics (Q1'26: Munn said OZK is *pulling back* from Fund Finance while written Mgmt Comments showed it growing $210M → $1.275B YoY; Q3'25: PE-fund NDFI loans −$213M in one quarter).
+**Rule 1:** decompose by sub-segment (Call Report Memo-10 `PV05-09` ≡ the 10-Q's NDFI breakdown) before assessing risk.
+**Rule 2:** disclosures that appear on the call but vanish from the written Mgmt Comments are the leading signal.
+
+### MI3 ("hidden CRE") for OZK — what the recipe measures, and why the 37.6% died
+**The recipe:** FFIEC RC-C Memo item 3 (`RCON2746`, CRE-purpose loans **not secured** by RE) ÷ item 4 C&I; flag >20%.
+**What went wrong:** (1) "OZK 37.6%, worst in screen" was carried for months and **reproduces at no quarter** on four independent paths (OZK's 18-qtr FFIEC series, REGINALD's 14-bank re-run, FDIC API, FDIC ratio series); REGINALD retracted it 8/23 — **OZK ranks 5th of 14**, live **9.35%** (Q2'26). The cause was a single-cell defect at the 12/31/2025 vintage. (2) The **denominator is a category mismatch for OZK**: its entire MI3 balance sits in item **9.a** (`RCONPV09` ≡ `RCON2746` every quarter), not item 4.
+**What MI3 actually is for OZK:** the **RESG debt-on-debt book** — `RCON2746` equals management's 10-Q debt-on-debt balance at 5/5 quarters checked ($1.20B 6/25 → $0.77B 9/25 → $0.43B 6/26). → `MI3_2025Q3_ADJUDICATION.md` §6.
+**Rules:** report **both bases, labeled** (÷ item 4 and ÷ items 4+9). **37.6% is kill-on-sight.** ⛔ **Scope fence:** MI3 says nothing about the **secured** book (RESG, IQHQ/RaDD, classified, the 11 tracked credits) — never read an MI3 fall as a CRE-thesis weakening.
+
+### Distinguish the three masking levels — and rank them from live evidence
+1. **Extend-and-pretend** (don't force refinancing) · 2. **Mark-to-model** (don't write down) · 3. **Classification** (carry CRE as C&I).
+All three can coexist. On the live evidence OZK's primary vectors are **(1) mark-to-model** — nonaccrual $296.6M carried at collateral FV $281.5M, **$250.4M of it with $0 ALL** (Q1'26 10-Q) — and **(2) extend-and-pretend**, described by management itself on 7/22 (RaDD extension + recap, interest from reserves, "will remain a pass-rated credit"). The old "classification is primary" ranking was derived from the dead 37.6% and died with it.
+**Watch for:** foreclosed transfers at prior-appraisal values; substandard accrual with no specific reserve; SpecMention "churn" that migrates into classified.
+
+### A threshold on a transit bucket is mis-specified
+**Mistake:** THESIS kill-§1 thresholds *past-due* — a bucket credits pass **through** — and "fired" at Q2'26 when 30-89 emptied −88% **into** nonaccrual/OREO/charge-off and NPA rose +31.9% QoQ. Literal condition and stated meaning pointed opposite ways.
+**Rule:** threshold a **stock**, not a transit bucket. Ask: *can this fall because things got better AND because they got worse?* If yes, pair it with the destination buckets (30-89 + nonaccrual + OREO). When such a criterion fires, adjudicate the mechanism first — the decomposition is in the Call Report, not the supplement. (Re-spec = P-OZK-4, Will-gated.)
+
+### Reproduce the baseline before you grade against it
+**Mistake (2026-08-07, n=2 desks):** OZK's 37.6% and WAL's "+8.7pp over 2 quarters" (really 6) were both load-bearing for months with the recipe written down the whole time.
+**Rule:** recompute from the primary on the stated basis before a number grades anything; if it doesn't reproduce, the output is a **basis dispute, not a verdict.** Two-endpoint claims carry their interval — the shape of a series is not recoverable from its endpoints. **Recording a recipe is not running it.**
+
+### Net endpoints cannot exclude a transfer offset by runoff
+**Mistake (2026-09-24, CATO RB2):** the L181 verdict first called within-NDFI reclassification **REFUTED** because the other buckets grew only +$68M and "9.a would stay flat." A transfer of 432,181 PV09→PV06 plus 409,544 of PV06 runoff fits every reported cell exactly; "9.a would stay flat" was simply false.
+**Rule:** quarter-end balances show **stocks, not flows**. Without gross flow evidence or an issuer statement, the strongest honest token is **"not supported by endpoints, not excluded."** Write verdicts in layers — **OBSERVED / INFERRED / NOT EXCLUDED**. A commitments line moving the same way doesn't discriminate either.
+
+---
+
+## C. Records, claims & surfaces
+
+### Compressing a finding drops its qualifier — and the qualifier IS the finding
+**Mistake (written 8/23, caught 8/28):** "OZK files 10-Q with the **FDIC**… there is no **SEC** 10-Q" was restated as "OZK files no 10-Q — do not plan research around an MD&A that does not exist." Dropping **SEC** turned a routing fact into a non-existence claim and closed this desk's most productive primary (the source of the debt-on-debt pillar) for 5 days.
+**Rule 1:** re-read the row you are compressing first; the qualifier (`SEC`, `as-reported`, `segment`, `average-basis`) is usually the whole content.
+**Rule 2:** never let a compression stand beside its source — replace or cross-link; a file that argues with itself resolves by recency, not correctness.
+**Rule 3:** "not at source X" is never "does not exist" — grep `raw/` and the KB before writing "there is no Y." [[finding_scope_negative_needs_the_counterparty_standard]]
+
+### A negative finding carries its window IN THE SENTENCE — and a ✅ is where it rots
+**The rule (WAL + OZK, independently, 2026-08-28):** "no ruling", "zero buys", "no catalyst" decay into general claims once the window is implicit. OZK's instance: "zero buys continue" off a 53-day-old pull.
+**Rule 1:** write the window into the claim — "no ruling **as of 9/24**" — never a bare present tense for a dated check.
+**Rule 2:** never tick ✅ a negative that has a re-check trigger (the Aimco "re-check with Q2 prep" trigger fired 7/21 and nobody acted because the tick made it look settled).
+**Rule 3:** say **UNSWEPT** vs **SWEPT-AND-EMPTY** in the words themselves — both render as silence. (The Aug RaDD window was held as a calendar negative until the 8/31 sweep actually ran.)
+**Cross-desk corollary:** a self-audit keyed on your own tokens is blind to claims about another desk's book — OZK missed a false negative about WAL's book that WAL found the same day. Cross-desk claims want a pass by the **cited** desk.
+
+### A queue that keeps its finished items hides its open ones
+**Mistake (found 2026-09-24):** TODO had grown since April in layered sections, ~25 ✅/obsolete items interleaved with open ones. Two real opens went unworked for months inside it: the severity-comp refresh (due 7/31) and the Affinius maturity verification (open since 4/22). STATUS had the same shape — a ~2 KB session log in its header, five resolved Open Items, a "Recent Developments" table two months stale.
+**Rule:** a queue or dashboard holds **only live state**. When an item closes, it leaves (one-line retired list + git history), it isn't struck through in place. Rebuild, don't append, when a surface's sections start carrying dates older than its own cadence.
+
+### STATUS is a dashboard, not a log
+**Rule:** STATUS holds current state, thresholds, positions and forward dates. The header is a **stamp** (date + pointer), never a session narrative — session history goes to MEMORY, evidence to `research/`, header history to git. Charter cap ≤250 lines; keep it well under the 32,550 B read-cap (rebuilt 9/24 to ~14 KB).
+
+### Root `CLAUDE.md` and `AGENTS/OZK/CLAUDE.md` are two different files — cite the path
+**Mistake (2026-08-07):** the 37.6% was reported as living in **root** `CLAUDE.md` (Will-gated) in five surfaces; root had zero hits — every quote was `AGENTS/OZK/CLAUDE.md:16`, which auto-loads alongside root. It inflated a Will-facing proposal's blast radius.
+**Rule:** grep the exact path before attributing a quote to a shared doc; cite `file:line`, never from recall. Mis-crediting *upward* (agent-local → root) escalates into Will's gated surface.
+
+---
+
+## D. Tools & machine-read surfaces
+
+### Banner vocabulary in a machine-scanned header is a TOKEN, not prose
+**Mistake (2026-08-28):** writing "re-anchored to the **frozen** Option-2 window" in `PREDICTIONS.tsv`'s header silently reclassified a LIVE ledger as FROZEN in `ledger_staleness.py`.
+**Rule:** the block above a TSV's data boundary is a machine-read namespace — no banner words (FROZEN/RETIRED/SUPERSEDED/ARCHIVED) even descriptively; **re-run the consuming tool after editing a file a tool classifies.** [[finding_test_the_guard_not_just_the_guarded]]
+
+### A watch script must fail closed on missing data
+**Mistake (2026-09-24, CATO RB3):** the first `flng_watch.py` printed QUIET on an empty list/object and crashed with rc 1 (the NEW code) on a row missing its id — an incomplete response could have advanced a real-world claim.
+**Rule:** validate schema + coverage before any quiet verdict; malformed/incomplete → UNKNOWN; wrap `__main__` so a crash can't emit a meaningful rc; ship fixture tests (`--selftest`); word rc 0 as "no newer filing RETURNED", never "confirmed". [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
+
+---
+
+*Last reviewed: 2026-09-24 — restructured into A-D; MI3 + masking-level sections rewritten as clean rules (retraction history → git); +2 rules (resolve dates; queues hold only live state); STATUS rule re-based to the charter (the old "10KB" figure conflicted with ≤250 lines). Prior: 2026-08-07 · 2026-04-24 (seeded from REGINALD).*
