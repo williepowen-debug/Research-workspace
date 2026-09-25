@@ -4,10 +4,12 @@
 
 ## CROSS-DOMAIN
 
-🔴 **HENRY / LIQUID / BOND: rates-vol shock is now a two-day follow-through, not a one-day print.**
-- MOVE 78.56 [9/22] → 95.45 [9/23] → **104.58 [9/24]**, cumulative **+33.1%** over two sessions, ledger-max both days. Margins **+32.17 over F1**, **+29.08 over confirm-3**.
-- The vol-side signature is **loading, not firing**: VVIX 83.17 → 88.60 → **90.57** (crossed the 90 cheap-line for the first time this run); VIX3M/VIX 1.2393 → 1.193 → **1.1761** (compressing 2 sessions, still contango, no inversion); VIX 14.21 → 15.18 → **15.67** (+10.3% cumulative).
-- **The direction of transmission I have not attributed.** Rates substance is HENRY/BOND. My hypothesis for the vol side: if MOVE holds ≥100 and VIX3M/VIX compresses toward 1.10 with VVIX toward 100, that is the transmission signature. Right now none of those thresholds is met.
+🔴 **HENRY / LIQUID / BOND: two-day bond selloff — rates vol pricing it in full, equity vol has moved less.**
+- **Rates side** (yours to interpret): 10Y yield 4.963 [9/22] → 5.114 [9/23] → **5.162 [9/24]** = **+20bp 2d**. TLT 81.75 → 80.46 → **79.42** = **−2.9% 2d**, 59M vol on 9/24 (elevated).
+- **Rates vol:** MOVE 78.56 → 95.45 → **104.58** (+33.1% cumulative). p98.3 of my 58-row ledger — that is a short window (2026-07-06→9/24); MOVE regularly printed 140-200 in 2022-2023, so the "record" shape is a sample artifact of a short ledger.
+- **Equity vol side:** VVIX 83.17 → 88.60 → **90.57** (crossed the 90 cheap-line for the first time this run, watch level is >100); VIX3M/VIX 1.2393 → 1.193 → **1.1761** (compressing 2 sessions, still contango, no inversion); VIX 14.21 → 15.18 → **15.67** (+10.3% cumulative).
+- **The observation is a spread, not a lead-lag:** rates vol repriced further than equity vol on the same catalyst. MOVE and VIX moved SAME DAY both sessions (MOVE +21.5% & VIX +6.83% on 9/23; MOVE +9.55% & VIX +3.23% on 9/24) — MOVE is doing what MOVE does when duration sells off, at its usual amplitude. Whether equity vol follows depends on the bond selloff's driver, which is yours to attribute.
+- ⚠️ **Prior draft framed this as "rates vol leading equity vol" and named signature thresholds (VVIX 100, VIX3M/VIX 1.10, MOVE ≥100).** Walked back mid-session: "leading" is a temporal claim the data doesn't support, and those thresholds are intuition — no base-rate calibration behind them. A real study is registered as VIOLET RQ #8.
 - ⚠️ **9/23 and 9/24 CBOE history is not yet published.** VIX-complex cells are CBOE delayed-quote + yfinance readings; provisional. `backfill.py --spot-only` yielded 0 corrections this session — the readings are trusted enough to grade against but not enough to close leg 2 formally (margin holds at 2+ points either way).
 
 🟠 **LIQUID: credit tail firmed.** FRED 9/23 readings: HY **2.72**, CCC **10.93** (from 10.75 [9/22]), IG **0.78**, CCC−BB **9.34 pp**. BIN-B block active. The MOVE-plus-CCC pattern is the historical setup for a "credit non-confirmation" event (KB-VIO-071 Path B), not the credit-led Path A. The interpretation is yours.
@@ -26,7 +28,9 @@
 
 ## CALIBRATION
 
-- ⭐ **Two consecutive ledger-max prints on a canary is not a "one-day shock" and it is not "a regime."** It is what a canary is for — signal building without VIOLET declaring the ceiling. The move belongs in NEXUS CROSS-DOMAIN, not the 🔴 outbox lane. (WQ-303 class, applied.)
+- ⭐ **A ledger-max claim is scoped to the ledger.** MOVE p98.3 in the 58-row ledger is real, but calling it "record" reads as a historical claim it isn't — MOVE 100 is elevated but nowhere near the 2022-2023 highs. Same pattern the KB-VIO-032 percentile discussion warns about: quote the scope, not the shape.
+- ⭐ **"Rates vol leading equity vol" was a lead-lag claim I asserted without empirics.** Both moved same-day at their usual amplitudes; the observation is a spread (rates vol has repriced further than equity vol on the same catalyst), not a temporal one. Fixed mid-session before it hardened into the brief. Class: `finding_verified_figures_do_not_verify_the_shape_claim` — the levels are right, the shape word (leading) was wrong.
+- ⭐ **Unmotivated signature thresholds should be labeled intuition, not written on a dashboard.** Prior draft named "VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥100" as a "transmission signature" — with no base rate behind them. Registered as RQ #8; a proper cohort study around MOVE +30% 2-day events is what would validate or replace those numbers.
 - ⭐ **A leg that borrows a conditioned base rate must also borrow the condition's void clause.** Leg 1 was voided because VIX was above 16. Leg 2 used the same cohort's 88% prior with no void clause; the level cohort that actually applied (n=34) had a 53% prior. Acceptance condition ⑤ for the next letter.
 - ⭐ **A correction can sit unread in your own inbox.** WALTER's 9/19 signal carrying the 9/18 MOVE print sat 5 days until a due-row spawn drained the inbox. (KB-VIO-309.)
 - **A publisher's delayed-quote "close" is not the settle for every series.** VVIX was 87.63 at the 16:05 stamp against 87.38 in the history file. Grade VVIX on the history file only.

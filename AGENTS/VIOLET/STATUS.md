@@ -6,15 +6,19 @@
 
 ## BOTTOM LINE
 
-🔴 **9/24 confirmed the 9/23 rates-vol shock was NOT one-day.** MOVE 78.56 [9/22] → 95.45 [9/23] → **104.58 [9/24]** — a second consecutive jump, +9.13 in one day, cumulative +33.1% over two sessions. Ledger-max on 9/23, ledger-max again on 9/24. Margins: **+32.17 over F1 (72.41)** and **+29.08 over confirm-3 (75.50)**. This is now a follow-through, not a shock.
+🔴 **Two-day bond selloff with rates vol pricing it in full; equity vol has moved less.** 10Y yield 4.963 [9/22] → 5.114 [9/23] → **5.162 [9/24]** = **+20bp over 2 sessions**. TLT 81.75 → 80.46 → **79.42** = **−2.9% cumulative** on 59M volume 9/24. MOVE 78.56 → 95.45 → **104.58** = +33.1% cumulative. **MOVE and the rates move are COINCIDENT, not leading** — same-day jumps both sessions (MOVE +21.5% & VIX +6.83% on 9/23; MOVE +9.55% & VIX +3.23% on 9/24); MOVE is doing what MOVE does when duration sells off. Rates substance is HENRY / BOND, not mine.
 
-🟠 **VVIX crossed above 90 for the first time in the post-FOMC run.** 83.17 [9/22] → 88.60 [9/23] → **90.57 [9/24]**. Below the >100 watch level but into the caveat band. The **VIX3M/VIX ratio compressed further** — 1.2393 [9/22] → 1.193 [9/23] → **1.1761 [9/24]** — the compression flagged in SCRATCH NEXT-SESSION #2 has confirmed for a second bar. Curve is still in contango; no inversion.
+⚠️ **Scope note on the "ledger max" language:** the MOVE ledger is 58 rows starting 2026-07-06 (2.7 months). MOVE 104.58 is p98.3 of THAT window; it is not "record" in any historical sense (MOVE routinely printed 140-200 in the 2022-2023 regime). The direction is real; the "record" shape is a sample artifact of a short ledger.
 
-🟠 **VIX rose 3.23% on the day to 15.67** (from 15.18), the regime shifted from COMPLACENCY back to LOW_VOL, and **the rates-vol channel is leading equity vol.** MOVE is up 33% in 2d, VVIX is up 8.9% in 2d, VIX is up only 10.3% in 2d, curve compressed but not inverted. This is a cross-domain read.
+🟠 **VVIX crossed above 90 for the first time in the post-FOMC run.** 83.17 [9/22] → 88.60 [9/23] → **90.57 [9/24]**. Below the >100 watch level. The **VIX3M/VIX ratio compressed further** — 1.2393 [9/22] → 1.193 [9/23] → **1.1761 [9/24]** — the compression flagged in SCRATCH NEXT-SESSION #2 has confirmed for a second bar. Curve is still in contango; no inversion.
+
+🟠 **VIX rose 3.23% on the day to 15.67** (from 15.18), regime shifted COMPLACENCY → LOW_VOL. The vol-complex response over 2d: VIX +10.3%, VVIX +8.9%, VIX3M/VIX −5.1%. **The observation is a SPREAD: rates vol has repriced further than equity vol on the same catalyst.** Whether equity vol follows depends on the bond selloff's driver (HENRY/BOND). ⚠️ **Prior draft said "rates-vol is leading equity vol" — walked back;** that is a temporal claim the data doesn't support.
 
 🟠 **CCC widened 10.75 [9/22] → 10.93 [9/23 FRED].** BIN-B block active (CCC ≥ 9.55). CCC−BB 9.34 pp. Tight-tail cohort with rates-vol firing is the pattern that historically preceded credit non-confirmation; LIQUID owns the interpretation.
 
 **Thesis v4.1.1 stands. Book flat, no trade proposed, no threshold moved. Convergence 27 → 28/50 (VVIX and front-curve up 1 each, JPY down 1). NEXUS CROSS-DOMAIN to HENRY / LIQUID / BRENT / BOND updated below.**
+
+⚠️ **Prior draft called out "signature thresholds" (VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥100) — walked back.** Those are intuitions with no base rate behind them and should not have been written as if they were calibrated. Building a real base rate ("MOVE 30%+ jump in 2d ⇒ VIX +X% in Y days") is a separate research task, not a claim on this dashboard.
 
 **WQ-259 refresh (Will-approved 2026-09-24) — CONDITION NOT MET.** The packet gates republish on CBOE confirming the 9/23 close; CBOE has not published it. Deferred to the next post-close boot after CBOE catches up. **Rider (CLAUDE.md:194) — DONE this session.**
 
@@ -31,7 +35,7 @@
 | SKEW daily | **146.04** [9/24] · 146.15 [9/23] · **144.80** [9/22 CBOE SETTLE] | Sep 22–24 | 9/18 CBOE SETTLE 148.10. Below 150 on every bar since 9/15 |
 | SKEW 20-session mean | **147.46** (8/25→9/22) | Sep 22 | [CONF] VX_DAILY CBOE bars; will refresh after CBOE publishes 9/23–9/24 |
 | Adjusted M1:M2 | **+4.17%** [9/24 SETTLE], VX/V6/VX/X6 | Sep 24 settle | [CONF] `thresholds.py`. **BELOW_AVG** vs the 5.6 average (KB-VIO-310); rising from +3.679% at 9/18 |
-| MOVE | **104.58**; +9.13 (+9.55%) vs 95.45 | Sep 24 | [CONF] investing.com PRIMARY. **Ledger max, second consecutive day.** Margins: +32.17 over F1 (72.41) · +29.08 over confirm-3 (75.50) |
+| MOVE | **104.58**; +9.13 (+9.55%) vs 95.45 | Sep 24 | [CONF] investing.com PRIMARY, yfinance secondary agrees. p98.3 of the **58-row ledger** (2026-07-06→9/24) — not "record" historically (MOVE regularly printed 140-200 in 2022-2023 SVB regime). Margins: +32.17 over F1 (72.41) · +29.08 over confirm-3 (75.50) |
 | OVX | **54.45**, ratio **3.47** (p97.0), p89.7 · FIRE | Sep 24 | [CONF] `ovx_read.py` boot leg. Gap 38.78 (p94.5). Oil-vol → equity-vol channel LOADED |
 | JPY RV10 | **6.5%**, p29.1, CALM | Sep 24 | [CONF] `jpy_carry_vol.py`. USDJPY 158.26. Down sharply from 11.1% p72.6 [9/18] |
 | COR1M / COR3M | **9.17 / 10.66** (COR30D 7.91) | Sep 24 SETTLE | [CONF] `implied_corr.py`. Constituent-vol[EST] 51.7 — DISPERSED |
@@ -64,7 +68,7 @@
 
 | Vector | Score | Current reasoning |
 |---|---|---|
-| Rates vol | 🔴🔴 **5** | MOVE **104.58** [9/24], ledger-max 2 consecutive days, +33.1% cumulative. Sustained follow-through |
+| Rates vol | 🔴🔴 **5** | MOVE **104.58** [9/24], p98.3 in 58-row ledger, +33.1% 2d cumulative. 10Y +20bp 2d; TLT −2.9% 2d on 59M vol. Substance HENRY/BOND |
 | SKEW / tail bid | 🔴 **4** | 20-session mean 147.46 elevated; latest bars 144.80 [CBOE 9/22] → 146.15/146.04 [yf 9/23–24], under 150 |
 | Oil vol | 🔴 **4** | OVX 54.45, ratio 3.47 p97.0, gap 38.78 p94.5, FIRE. Sustained since 9/18 |
 | Credit | 🟠 **3** | CCC 10.93 distressed tail (widened from 10.75 [9/22]); HY 2.72 tight |
@@ -91,13 +95,14 @@ Last recorded VIOLET book: **FLAT**. `TRY-VIOLET-VIXCS` closed July 30; FORGE's 
 ## RESEARCH QUEUE
 
 1. **Next post-close boot: re-pull CBOE history** and stamp 9/23 and 9/24 with SETTLE. Leg 2 KILL cannot flip (VIX 15.67 [9/24] still >2 points inside the KILL margin).
-2. **Read MOVE follow-through and any 3rd-day print.** Two days of ledger-max is a signal — is the 10Y yield the driver (HENRY/BOND own)? Watch whether VIX3M/VIX compresses toward 1.10 with MOVE above 100; that is the transmission signature.
+2. **Read MOVE follow-through and any 3rd-day print.** Two p98-of-ledger prints in a row plus the underlying rates selloff (10Y +20bp 2d, TLT −2.9% 2d) is real; HENRY/BOND own the rates driver. Watch whether VIX3M/VIX and VVIX continue to reprice — but note that "MOVE above 100 + VIX3M/VIX toward 1.10" as a transmission signature is intuition, not a calibrated threshold; a real base-rate study is a separate research task (see RQ #8).
 3. **Write the next pre-registered letter against the FIVE acceptance conditions** (part 3 §5): partition state space · every cell fails against T-1 · fallback + exhaustion for no-SLA sources · FOMC-date base rate built from federalreserve.gov (verify 2024-09-18) · void-clause on any cohort-borrowing leg.
 4. **L441 follow-through:** PROME implements the FORGE `AVG_STEEPNESS` vintage and re-check (spec in KB-VIO-310). Build the KB-VIO-032 rolling percentile alongside the static band; additive.
 5. **WQ-259 half-satisfied:** rider (CLAUDE.md:194) fixed this session; artifact republish deferred to the next post-close boot after CBOE confirms 9/23–9/24.
 6. Regular-hours VIX options OI (H-new, untested).
 7. Tooling debt: pre-open TICK-row defect not fixed in code · no guard contract on `m1m2_settle_date` · false-zero COR1M d/d · cheap-tail use-time mirror check unwired · yfinance malformed index bars (9/22–9/23) handled by backfill's CBOE authority but a yfinance-only consumer would fail.
-8. Research: Path-A F2 audit; H-carry event-conditioned RV study; L342 holiday-counter audit before Nov 26.
+8. **Rates-vol → equity-vol base-rate study (NEW this session, from the cross-domain read walk-back):** what does VIX / VIX3M/VIX / VVIX do in the N sessions after a MOVE 2-day change ≥30% (or MOVE crossing 100 from below)? Cohort membership, lead-lag empirics, and whether the "signature" thresholds I wrote from intuition (VVIX toward 100, VIX3M/VIX toward 1.10) survive contact with data. Would replace intuition-quoted numbers on the dashboard.
+9. Research: Path-A F2 audit; H-carry event-conditioned RV study; L342 holiday-counter audit before Nov 26.
 
 ## OPERATING LIMITS
 

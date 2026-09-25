@@ -4,7 +4,8 @@
 
 ## CHANGES SINCE (this morning's pre-open → 9/24 close)
 
-- ⭐ **MOVE 9/24: 104.58, +9.13 (+9.55%) vs 95.45.** Second consecutive ledger-max close. Cumulative +33.1% over two sessions. Margins vs F1 +32.17, vs confirm-3 +29.08. **This is a follow-through, not a shock.**
+- ⭐ **MOVE 9/24: 104.58, +9.13 (+9.55%) vs 95.45.** Cumulative +33.1% over two sessions. Second p98-of-ledger print in a row in the 58-row ledger — **"record" is a sample artifact; historically MOVE printed 140-200 in 2022-2023.** yfinance secondary agrees.
+- **10Y yield 4.963 → 5.114 → 5.162 [9/24] = +20bp 2d.** TLT 81.75 → 80.46 → 79.42 = **−2.9% 2d, 59M vol on 9/24**. Bond selloff is real; MOVE is a coincident response, not a leading indicator (same-day moves both sessions).
 - **VVIX crossed the 90 cheap-line for the first time in the post-FOMC run:** 83.17 → 88.60 → 90.57.
 - **VIX3M/VIX compressed a second session:** 1.2393 → 1.193 → 1.1761. Curve still contango.
 - **VIX +3.23% to 15.67**, regime shifted COMPLACENCY → LOW_VOL. Off the 9/16 event close, VIX is now −11.52% (was −14.29% on 9/23). Leg 2 KILL cannot flip.
@@ -43,7 +44,7 @@
 
 ## OPEN HYPOTHESES
 
-- **H-carry-vs-transmission** (new framing, this session): rates-vol MOVE spiked +33% over 2 days with limited equity-vol confirmation. Historically the transmission lag is variable and often short. **Watch VIX3M/VIX toward 1.10 and VVIX toward 100 while MOVE holds ≥100.** Not a threshold, an observation. If it plays out, it belongs in the FOMC-analog corpus, not the letter's tape.
+- **H-transmission-spread** (framing corrected mid-session): after a bond selloff prints (10Y +20bp 2d, MOVE +33% 2d), does the equity-vol complex reprice with it, ahead of it, or after it? The 9/24 read is a SPREAD observation — rates vol repriced more than equity vol on the same catalyst — not a lead-lag claim. Prior draft named "signature thresholds" (VVIX 100, VIX3M/VIX 1.10, MOVE ≥100) as if calibrated; they are intuition. The base-rate study is STATUS RQ #8.
 - **H-resolution-vs-stress:** n=1 event; needs the FOMC-date base rate before grading.
 - **H-approach-vs-delivery:** weakened. 9/18 observation became +5.80% once MOVE printed (KB-VIO-309). MOVE's 9/23–24 spike had no event to approach, so it is not evidence either way.
 - **H-new (opex tail demand):** unchanged and untested.
