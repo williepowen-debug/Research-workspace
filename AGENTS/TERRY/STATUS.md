@@ -9,6 +9,29 @@
 
 > ## ⤵️ **2026-09-19 Sat cruise block ROTATED 2026-09-24 → `archive/STATUS_ARCHIVE_2026-09-24.md`** (pre-rotation lines 9–42, crc32 `5ad593d1`, 22,547 B — verbatim, contiguous, body only). Forced: STATUS opened 9/24 at 32,535 B, 15 B under the READ-CAP. ⛔ No live state moved — legs verified on other live surfaces first, listed in the archive header.
 
+> ## ★ 2026-09-25 Fri 02:58–03:2x ET — PROME spawn (prome-fa, Tier-2 on Will's word 02:55), DOCKET **L477** six-question set. **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED · NO NEW THRESHOLD.**
+>
+> **Q1 (LEAD) DELIVERED → `research/2026-09-25_Q1_book-exposure-map.md`.** 14 held lines + 2 staged VLO, with a scenario column set and the existing rule per line.
+> - **Worst scenario: (b) oil↓ AND yields↓.** It is 39 of 56 oil-down sessions (4/1–9/24). Every directional line loses together; GLD and AAPL offset.
+> - **§9 "one bet" verdict:** CONFIRMED for the directional sleeve. REFUTED for the whole book by dollars (GLD + AAPL = $10,018 of ~$18.5k). REFUTED for the rates leg's current driver, which is real-yield-led.
+> - **10 of 14 lines have NO management rule**, and they hold ~$18.0k of the ~$18.5k.
+> - **HBAN 16P and TLT 82P are now ITM** (Oct-16). This is a card fact, not proposed.
+>
+> **Q5 exposure leg (BRENT leads; `brent-fa` messaged 03:0x).** Basis: 9/24 closes, settlement-basis crack per card ⑨-bis/⑨-ter.
+>
+> | expression | held (9/24c) | how it decouples while stress stays elevated | ITS OWN invalidation, on an existing instrument | now |
+> |---|---|---|---|---|
+> | **CRUDE** | USO 37 sh, $5,664 | Barrels flow again while attacks and rhetoric continue: Petroline restarted, and Yanbu loadings resume (SIG-W-20260924-021: NOT resumed as of 9/24; 2 liftings missed 9/23; ~6 due 9/24–27) | **None on the line** (WQ-200 declined, hand-managed). The thesis-side instrument is BRENT's **BG-02** (window 9/25 17:00 ET, floor ≥0.7 mb/d 7d-MA, C1–C6). Supply response = **BRT-26** (rigs <457 by end-Q3) | Realized de-escalation analogs: USO −14.3% (5/27) and −14.9% (6/17) over 5 sessions |
+> | **REFINING** | VLO 1 held, $383 (−$29.14 vs $412) + 2 staged | The crack collapses on product demand while crude holds. **ALREADY HAPPENING:** the settlement-basis crack went $109.49 (9/22) → $95.36 (9/24), −$14.13 (−12.9%), while `CLX26` went 90.52 → 94.61 | **`GATE-TERRY-VLO-SCALE` F1** (matched Nov `HOX26×42−CLX26` settlement `<$95`) stands down the **staged** shares only. **Held share: NONE** (§ ⑦). HEN-46 is HENRY's (airline equity face; the crack is its evidence variable) | F1 NOT FIRED 9/24 (buffer ~$0.36 est / ~$0.57 unaccepted row). Grades at today's settle |
+> | **RATES** | TLT 77P ×20 (≤$40) · TLT 82P ×2 (~$630) · TBT 10 ($408) | Real yields fall on a growth scare while oil holds. The reverse is already visible: 9/23 was real-yield-led (DFII10 +13bp to 2.76; T10YIE 2.33 9/24), so the leg pays on a **non-oil** driver and gains in scenario (a) when oil falls | 004: `GATE-TERRY-007` RESOLVED MOOT 9/24; the **9/30 expiry** is its only live terminus, NO ADD (WQ-280). **TLT 82P and TBT: NONE** | TLT $79.42 9/24c; 004 needs −3.05% in 4 sessions |
+>
+> **VLO stand-down vs the HELD share:** they are the **same bet**. The staged rule is a timing filter on the same distillate-strong thesis. An F1 fire says the card's own variable fell below the level at which the desk would add, so it is evidence against the held share's thesis too. The card attaches no action to the held share (§ ⑦).
+> - Since 9/23, VLO has moved with crude, not the crack (rule #23 driver read; corr with USO +0.51 over 120 sessions). **The held share is currently a crude proxy that DUPLICATES USO rather than diversifying it.**
+> - An F1 fire would be a fact for a Will card on the held share, never an automatic action.
+> - **GAPS:** BRENT's mechanism read (lead) and the BG-02 17:00 ET grade are not in yet. The HENRY crack leg = its 9/24 F1 basis ruling (`90fa9a4c1`).
+>
+> **Also this session:** inbox drained (see `board_log.tsv` 9/25 rows). **Owed 9/25 ① DONE (card ⑨-ter):** the finalized 9/24 row is $95.57, NOT accepted (it is $0.21 off and carries 9/23's duplicated volume), so the ③ $95.36 stands. **Owed today ②:** grade the 9/25 Nov settlement vs $95 (±$0.15 ⇒ UNKNOWN). L391 and the SETUPS/TRADE_BOOK rotations are still open.
+
 > ## ★ CURRENT STATE — 2026-09-24 Thu, Will-directed catch-up (boot 13:50 ET; owed-work pass to ~14:4x). **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED.**
 >
 > | book (live 13:51 ET, vendor = screening) | state |
