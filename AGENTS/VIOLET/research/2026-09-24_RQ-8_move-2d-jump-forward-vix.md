@@ -232,9 +232,23 @@ Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge 
 - **RQ #8c — Setup vs event:** the pre-committed 3-td de-dup treats each first event as the "setup"; the second event is the "amplifier." Is there predictable structure in T+0 → next-cohort-event timing?
 - **RQ #8d — Credit conditioning:** does CCC widening on the MOVE-spike day (like 9/23-9/24) change the forward VIX distribution?
 
-## §5. Verdict on the intuition thresholds
+---
 
-### On the letter of the pre-registration
+**Report data artifacts:** `research/rq8_cohort.csv`, `rq8_forward.csv`, `rq8_cohort_summary.csv`, `rq8_baseline.csv` (re-cut 2026-09-25 with matched-clock columns).
+**Reproduction:** `python3 AGENTS/VIOLET/scripts/rq8_study.py`.
+**Pre-registration §1 frozen at commit `949fd172b` before §2+ was written; §1a amendment dated 2026-09-25 00:5x ET.**
+
+---
+
+## §7. v1 as shipped — SUPERSEDED (kept for record)
+
+⛔ **EVERYTHING FROM HERE TO END OF FILE IS THE v1 §5/§6 AS ORIGINALLY SHIPPED (2026-09-24 commit `bc33b3861`).** Superseded 2026-09-25 by §4-§6 above and §1a amendment. **Do NOT read the v1 verdict as live.** Retained so the git-log record + §1a class attributions can point at what actually shipped. The PASSES claim below is exactly the retroactive-branch-selection defect §1a-B names; the "opposite direction from my intuition" argument below is the exploratory n=1 subsegment §1a-D names.
+
+*Corrected verdict is: on matched T→T+k forward windows the cohort's forward VIX medians sit at or below the unconditional baseline at every horizon (T+1 +0.005σ, T+3 −0.28σ, T+5 −0.41σ, T+10 −0.24σ); the v1 "+12.4% / 1.68σ at T+1" was the +8.9% event-day co-movement carried into a two-session return. See §5 (re-cut) above.*
+
+### v1 §5. Verdict on the intuition thresholds  ⛔ SUPERSEDED
+
+#### On the letter of the pre-registration  ⛔ SUPERSEDED
 
 **PASSES.** The pre-committed PASS rule required either:
 - (a) VVIX > 100 at T+5 in ≥ 60% of cohort AND VIX3M/VIX < 1.10 at T+5 in ≥ 60% — observed 80% and 100% respectively; **PASS**, or
@@ -242,13 +256,13 @@ Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge 
 
 Whole-cohort clause (a) is satisfied.
 
-### On the honest interpretation
+#### On the honest interpretation  ⛔ SUPERSEDED
 
 **INCONCLUSIVE for the current setup.** The whole-cohort PASS is driven by 9/10 events that had VIX ≥ 25 at T+0 — those events had the "signature" already active on day zero because they were coincident with equity vol stress, not because the signature loaded in advance.
 
 **The pre-committed subsegment INCONCLUSIVE rule (n < 8) applies to the applicable subsegment.** Only 1 of 10 events (2007-06-08) started with VIX < 20 like the current 9/24 setup — n=1 is far below the n=8 threshold, so the base rate for THIS shape is inconclusive on the letter of the pre-registration as well.
 
-### Substantive read
+#### Substantive read  ⛔ SUPERSEDED
 
 The n=1 analog (2007-06-08) points the OPPOSITE direction from my intuition thresholds:
 
@@ -258,9 +272,9 @@ The n=1 analog (2007-06-08) points the OPPOSITE direction from my intuition thre
 
 **This does not prove my intuition wrong** — n=1 cannot prove anything on its own. But it removes the "intuition is directionally right" defense. The one available analog fades rather than confirms.
 
-## §6. What replaces the intuition thresholds
+### v1 §6. What replaces the intuition thresholds  ⛔ SUPERSEDED
 
-### Concrete replacement for the walked-back thresholds
+#### Concrete replacement for the walked-back thresholds  ⛔ SUPERSEDED
 
 **None this session.** The honest replacement is not another number — it is:
 
@@ -268,8 +282,4 @@ The n=1 analog (2007-06-08) points the OPPOSITE direction from my intuition thre
 2. The event-day co-movement (~+9% median VIX) is real but tautological — it is what "MOVE 2d ≥30%" contains at T=0, not a signature that loaded in advance.
 3. Patient observation of VIX regime changes; the 9/24 STATUS cross-domain read as it stands (spread observation, no lead-lag claim, HENRY/BOND own the rates driver) survives this correction; the "T+1 real signal" line does not.
 
----
-
-**Report data artifacts:** `research/rq8_cohort.csv`, `rq8_forward.csv`, `rq8_cohort_summary.csv`, `rq8_baseline.csv` (re-cut 2026-09-25 with matched-clock columns).
-**Reproduction:** `python3 AGENTS/VIOLET/scripts/rq8_study.py`.
-**Pre-registration §1 frozen at commit `949fd172b` before §2+ was written; §1a amendment dated 2026-09-25 00:5x ET.**
+*(Note on v1 §6: the "Concrete replacement" content above was itself already a partial re-write on peer-read discovery. The point-3 "the 9/24 STATUS cross-domain read... survives this correction" is compatible with the corrected §6; the point-1/2 framing is superseded by the re-cut §4-§6.)*
