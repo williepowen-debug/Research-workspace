@@ -1,6 +1,6 @@
 ## 2026-09-25 — BRT-26 RESOLVED CONFIRMED; COT #7 graded; v5.9 unchanged
 
-Old: BRT-26 OPEN at 85% (9/18: oil 452, headroom 5, one print left). New: 9/25 Baker Hughes primary oil **455 (+3)**, final in-window print, 457 not reached ⇒ **CONFIRMED** (Brier 0.0225 at 85%; first call 60% ⇒ 0.16). Horizontal −1: the mechanism is unchanged, not proven, and part of the win is lag timing (see note). COT-FUEL-35B vintage #7 (as-of 9/22, raw f_disagg): MM shorts 121,362 / OI-share 6.5893% ⇒ **JOINT NOT-SPENT**. This ends five consecutive NO-VERDICTs; it is a sizing descriptor only. No thesis version, threshold or trade change.
+Old: BRT-26 OPEN at 85% (9/18: oil 452, headroom 5, one print left). New: 9/25 Baker Hughes primary oil **455 (+3)**, final in-window print, 457 not reached ⇒ **CONFIRMED** (Brier 0.0225 at 85%; first call 60% ⇒ 0.16). Horizontal −1: the mechanism is unchanged, not proven, and part of the win is lag timing (see note). COT-FUEL-35B vintage #7 (as-of 9/22, raw f_disagg): MM shorts 121,362 / OI-share 6.5893% ⇒ **JOINT NOT-SPENT**. This ends five consecutive NO-VERDICTs; it is a sizing descriptor only. BG-02 instance (4) Petroline frame-breaker window **LAPSED 17:0x ET ⇒ NOT MET** (no on-record Saudi figure, no FAL-01; a lapse is not evidence the outage was small). No thesis version, threshold or trade change.
 
 ## 2026-09-18 — evidence log; v5.9 unchanged, no grade or calibration change
 

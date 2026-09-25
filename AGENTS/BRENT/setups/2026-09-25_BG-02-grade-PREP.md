@@ -31,3 +31,20 @@
 ⚠️ **Honest limit, carried into the grade:** in substance Gulf export throughput through Yanbu **is** reduced — zero crude liftings 9/23–24 on every wire and tracker that speaks. The letter cannot fire on it because no operator has put a number on record and the only quantity is a single AIS vendor's. A NOT MET here is **"not established on the letter"**, not **"no barrels were lost"** — the NO-VERDICT/NOT-MET distinction Will ruled (WQ-234 C) is working as designed, and a lapse is not evidence the outage was small.
 
 **$0. No trade, threshold, floor, MA or window moved. WQ-192 STAND DOWN holds.**
+
+---
+
+## ✅ GRADED 2026-09-25 17:0x ET (live session brent-f6): branch 3 — **NOT MET, LAPSED**
+
+The tree above was applied as written. Nothing in it was changed after the fact.
+
+| Branch | Check at 16:1x–17:0x ET | Result |
+|---|---|---|
+| 1 (R1) | SPA/MoE newsroom search + wire bodies. The only September on-record statement is SPA N2674017 (MoE, 9/10: precautionary shut, injuries, no quantity). OilPrice 9/25 body read: **no named Aramco/Saudi official quoted**; "targeting ~4 mb/d" is relayed; Aramco "did not immediately respond". Arabian Business "Yanbu exports resume": **body UNREAD** (HTTP 403 to WebFetch and curl); the headline carries no figure | **No** |
+| 2 (R4) | No FALCON FAL-01 in FALCON's commits or on WALTER's 9/25 board (SIG-W-20260925-001…012 carry no Saudi item) | **No** |
+| 3 | Default | **LAPSED ⇒ NOT MET** |
+| 4 (C6) | No admissible tracker read (Kpler single-vendor, C5) | no NO-VERDICT return owed |
+
+**New since 03:0x, record-only:** Industrial Info Resources satellite imagery shows vessels taking on crude at Yanbu this week (via OilPrice 9/25). Its direction is partial restoration, and it is not an instrument of BG-02.
+
+**The honest limit stands as pre-registered.** NOT MET means "not established on the letter", not "no barrels were lost". The window is closed, **NOT re-opened** on a later relay of the same satellite data and **NOT extended** (WQ-264 ③). The successor restart resolver is registered only after the shadow run (2026-09-25 → 10-24). **$0. WQ-192 STAND DOWN holds.**
