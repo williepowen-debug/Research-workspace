@@ -14,6 +14,8 @@
 
 **NEXT SESSION entry point:** `scripts/boot.py`, then the NEXT SESSION table below (re-cut 9/25).
 
+**Addendum 02:57–03:09 ET (Will L477 via PROME `c29e4ca60`, LIQUID leads Q2 + Q4):** **Q2 → `LIQ-07` SPREAD-B registered pre-data at `93814e531` (03:03:32 ET):** B 15-session change ≥ +28bp ×3 obs with CCC ≥ 0; S1 loop / S2 repricing / S3 reversed / S4 contained; window obs 9/24→11/6; P(spreading) 15%. **Q4 → leaning isolated ~70/30**; only D1 (= `LIQ-07`) discriminates. BOND's side is folded in (`8163ad57d` → `f24a3608d`): only CCC is real-yield-sensitive, plus one leading-edge warning (dealer HY build at the 96th pct). **Durable in-sample findings:** B at its p90 arrives WITH BB/BBB/IG (6 of 7), so there is no "B only" stage; when B followed an isolated-CCC episode it did so within 13 sessions (4 of 8); the CCC−B and B−BB gap paths do not discriminate; the largest repricing (Apr-2025) had no funding leg. Candidate KB row at the `LIQ-07` resolution, not before (n=7/8, calm window). Reply packet `5353aaef0`.
+
 ### PRIOR SESSION (2026-09-24 Thu ~21:3x–22:xx ET — Will boot, "update our data with new figures or news". STANDARD: WALTER lane 7 → 0 · 1 correction receipted · BOND 🔴 ask answered · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. *(Sessions 9/12, 9/17, 9/22, 9/23, 9/24-AM wrote no MEMORY block. Their records are `reports/2026-09-17_session.md`, `reports/2026-09-22_session.md` and the STATUS rotation files. This block restarts the chain.)*
@@ -319,6 +321,8 @@
 | 7 | ✅ ~~Re-cut the STATUS BOTTOM LINE~~ DONE 9/25 (`227417176`). | — |
 | 8 | 🔴 **Grade the 9/24 ICE cells** (FRED ~9/25 16:15 ET) and each print after, with `scripts/transmission_check.py` on the report §1c rule (REVERSES / BROADENS / CONTINUES / STALLS). Rate-up day ⇒ also the row-5 check. | 9/25 16:15 ET → |
 | 9 | 🔴 **Q3-end persistence verdict:** P1–P5 on the 10/1–10/8 prints (report §3b, KB-LIQ-136). The 9/30 spike is the NULL. | 10/8 |
+| 11 | 🔴 **`LIQ-07` SPREAD-B: grade every published obs 9/24→11/6** (report `2026-09-25_Q2_first-observation-of-spreading.md` §3; as-first-published; resolve by 11/10). The 9/24 cells are the first read (with row 8). | daily → 11/10 |
+| 12 | 🟠 **Q4 dated discriminators (BOND-owned, read at LIQUID):** FR2004 below-IG build Thu 10/1 and 10/8 · B-tier real-yield β by 10/28 · pulled HY deal before 10/14 (`reports/2026-09-25_Q4_ccc-isolated-vs-leading-edge.md` D6–D8). | 10/1 → 10/28 |
 | 10 | 🟠 **Repair `gate069_legs.py` cross-date pairing** (T+1 HY obs vs latest equity session; KB-LIQ-126 class). Date-match the cohort session to the HY obs date. | before the next L4 read |
 
 ### NEXT SESSION — 8/27 RE-CUT (SUPERSEDED 2026-09-24; history only)
