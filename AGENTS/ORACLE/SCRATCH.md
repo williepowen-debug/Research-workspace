@@ -23,7 +23,7 @@
 
 1. **🔴 Mon 2026-09-28 — DOCKET L299, October WTI $110 re-pin.** Search for an October $110 market; if listed, pin + **name the within-v5 roll rule before rolling** (v4 precedent: month rolls bumped REGIME). If none by the **2026-10-01T03:59Z** September close, **v5 dies — write it down; a new strike is Will's call.** Verify the inferred Active-Month switch (~Fri 10/16; CLX26 last trade Tue 10/20) at the contract. Script strings now say $110 (fixed 9/24).
 2. **🔴 Re-read the Fed Oct legs** — VX-ORC-08 Alert cell (>66%) met on ONE PM print (66.5) and ~1pt short on Kalshi. Second read before any re-grade.
-3. **🔴 READ `KXRECSSNBER-26` RULES TEXT — 4th carry, and the gap WIDENED (~3 → ~4.5pp).** One public call. Top mechanical item.
+3. ✅ **DONE 9/24 late boot (2026-09-25T03:39Z) — `KXRECSSNBER-26` rules read: NO NBER leg** (2 consecutive negative BEA GDP quarters in 2025/2026). PM = same GDP rule OR NBER ⇒ gap structural. KB-ORC-099; 096 CORRECTED; watchlist relabelled; packet → RED (KB-RED-096 inherited the label). **Open:** does Kalshi count ADVANCE estimates? Neither rules field says — check the contract-terms PDF if a GDP print goes negative.
 4. **🟠 Propose v5 thresholds to PROME** (VX-ORC-04 Alert/Critical UNSET) — on the October leg, not the expiring September one. DAEDALUS PR#6 ① due **9/30** is sequenced on this.
 5. **🟠 ~9/28 roll Hormuz weekly → wk-of-9/28** (listed, $7.1K). **9/30–10/01:** 10Y/30Y Sept ladders, Houthi 9/30, Hormuz Sept ladders, Saudi on-date, Kalshi Brent Sep-30 all resolve — roll or retire each.
 6. **🟠 Sat 2026-10-10 (T-4) — re-read Sept CPI ladder** for the clean like-for-like vs August's T-4 (63.0 / 25.0 / 10.0). "+73pp" not quotable until done.
@@ -61,6 +61,6 @@
 
 - **Iran — three axes, not two (updated 9/24).** Talks **opened** (first round 9/22; next by Dec 69%), the year-end Hormuz leg **ticked up** (17.5 → 22.5), yet near-term tempo **rose** (targeting settled/near-settled 9/18, 9/21, 9/23; 0–5 transits band 88.5%). Candidate read: attacks as leverage around the talks, priced as a near-term cost with a slightly better year-end. **Not a finding** — HAWK owns the reality; PortWatch caveat applies to every transit leg.
 - **What bid the oil supply tail? — partly answered by BRENT 9/23:** CLV26 closed >$100 on 9/14 (real price move). Cause INFERRED (Petroline strike 9/10–11; Yanbu loadings stopped from 9/11, single vendor Kpler). The $68.7M invasion contract still never reacted (14.5%, Δ30d −1).
-- **Recession gap = disjunction premium?** PM (disjunction) 10.5 vs Kalshi NBER-only 6.0 — widening. Unresolvable until the Kalshi rules text is read.
+- **Recession gap = PM's extra NBER leg — STRUCTURALLY SUPPORTED (9/25).** Kalshi is the GDP rule alone; PM adds NBER-by-Q4-advance. ~5.0pp (10.5 vs 5.5 mid) is one venue's price on that leg + noise — not decomposed.
 - **NEH — complacency or a very high bar?** 82.5%, Δ30d +1, through a hike, $105 oil, a hot CPI and 10Y >5.1%. Resolution text unread.
 - **8/27 complacency decoupling — regime change, tilting further.** Best-asset S&P leg 53.5 (Δ30d +0), still ~14pp below August. The registered tell (gold retaking the lead) has not fired, and the NEH half of VX-ORC-09's tell is un-fireable.

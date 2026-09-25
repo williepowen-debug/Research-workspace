@@ -4,7 +4,7 @@
 # Prices are last-trade (cents->prob); depth proxy = open interest (OI), since macro markets often show $0 resting liquidity but large OI.
 #
 # ===== CORROBORATION SET (cross-check vs Polymarket) =====
-Recession 2026 (NBER)	market	KXRECSSNBER-26	T1	HENRY,LABOR,RED
+Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	market	KXRECSSNBER-26	T1	HENRY,LABOR,RED
 # ⛔ RETIRED 2026-09-04 — both July Fed legs FINALIZED on the 7/29 hold and had been pulling as dead weight every session since (flagged 8/27, cleared today). Coverage retained in full by KXFED-26SEP-T3.75 below, which is the live decision. No September successor needed for the ">4.00%" leg: the Sept complex is a single 25bp question and the >4.00% path requires a 50bp move, priced 0.5% on Polymarket.
 # Fed hike by July (>3.75%)	market	KXFED-26JUL-T3.75	T1	LIQUID,HENRY
 # Fed >4.00% after July	market	KXFED-26JUL-T4.00	T1	LIQUID,HENRY

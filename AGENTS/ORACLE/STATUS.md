@@ -2,7 +2,7 @@
 
 **Live dashboard — prediction-market probabilities, divergences, alerts.**
 **Last pull:** 2026-09-25T01:35–01:48Z (= 2026-09-24 21:35–21:48 ET). Polymarket `pull --log` 51 rows + 4 new-pin rows · Kalshi `pull --log` 13 → 14 tickers after rolls (**authed lane LIVE, rc=0**) · `history --write` 8,155 daily rows · `movers` · `coverage` · `disruption_supply_spread.py` (v5 row 2). **Box:** DESKTOP. Lane state is per-box, never a fleet fact.
-**Session:** 2026-09-24 (Thu evening) full update at Will's direction — *"We need to update."* First **full** re-tabulation since 9/17 (the 9/24 afternoon session refreshed v5 rows only).
+**Session:** 2026-09-24 (Thu evening) full update; **late boot 23:38 ET** cleared the KXRECSSNBER-26 rules read (Alert 6 only — other rows unchanged since 01:48Z) at Will's direction — *"We need to update."* First **full** re-tabulation since 9/17 (the 9/24 afternoon session refreshed v5 rows only).
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price — re-pull. Every figure carries platform/date/volume; thin (<$5K liq) is flagged ⚠️ and is never marked on one print.
 > **Δ7d** below = Polymarket's own 7-day change (Gamma). **Δ30d** = CLOB daily series (`history`). Kalshi Δ = vs the prior session's price. Depth proxy on Kalshi = **open interest**.
@@ -38,7 +38,7 @@ PM hike-25 at the 10/28 meeting **66.5%** (Δ7d **+16.0**, Δ30d **+42**; $3.4M 
 **5. 🟠 SEPTEMBER CPI — MODAL BAND IS 3.6%.** (prints **2026-10-14**)
 Kalshi `KXCPIYOY-26SEP`: `>3.5%` 84.0 last / **82.0 mid** (4¢, OI 34.7K) · **`>3.6%` 46.0%** (1¢, OI 44.5K) · `>3.7%` 13.0 last / **15.0 mid** (4¢). ⇒ (3.5, 3.6] ≈ 36–38%. PM headline modal: **3.6% 46.5%** · 3.7% 31.0% · 3.5% 13.5% (every rung ⚠️ <$5K liq — **cite Kalshi**, PM corroborates). August landed in (3.3, 3.4]. **The "+73pp vs August" figure is still not quotable — clean T-4 re-read due 2026-10-10.** → HENRY, LIQUID, BOND, LABOR · KB-ORC-085
 
-**6. 🟠 RECESSION CROSS-VENUE GAP WIDENED TO ~4.5pp.** PM **10.5%** (Δ1d +3.0, Δ7d +2.0; $2.1M; **disjunction** contract) vs Kalshi `KXRECSSNBER-26` **6.0** (1¢, OI 957.3K; NBER-only). Was ~3pp on 9/17. Third read of a persistent gap; **rules text still unread (4th carry)** — not asserted as the disjunction premium. Both inside RED's 4–12%. → RED, HENRY, LABOR · **KB-ORC-096** · VX-ORC-02
+**6. 🟠 RECESSION — THE KALSHI "NBER" CONTRACT HAS NO NBER LEG (rules read 2026-09-25T03:39Z).** `KXRECSSNBER-26` resolves YES on **two consecutive negative BEA GDP quarters in 2025 or 2026** — the ticker says NBER, the rules never do. PM `us-recession-by-end-of-2026` = the **same GDP rule OR an NBER announcement** made by the Q4-2026 advance release ⇒ PM is a near-superset, so **PM ≥ Kalshi is structurally expected**; the gap is the crowd's price on "NBER declares by ~late Jan 2027 without two negative quarters," plus noise. Fresh pair 03:39Z: PM **10.5%** ($2.1M / $75.6K liq) vs Kalshi **5.5 mid** (5/6¢, OI 957.4K; last 7.0 printed above the ask) ⇒ **gap ~5.0pp**. ⚠️ **Neither venue is an NBER-dated read** — RED's object (NBER recession *beginning* in 2026) is matched in kind by neither. My "NBER-only" label (since 6/27) reached RED's KB-RED-096 — correction packet sent. → RED, HENRY, LABOR · **KB-ORC-099** (096 CORRECTED) · VX-ORC-02
 
 ---
 
@@ -57,7 +57,7 @@ Kalshi `KXCPIYOY-26SEP`: `>3.5%` 84.0 last / **82.0 mid** (4¢, OI 34.7K) · **`
 | Fed funds end-2026 (≥4.5% upper) | PM | 50.3% | +22.9 | — | $2.4M | 4.25% bucket 40.9 |
 | Fed: NO cuts 2026 | PM | 97.0% | +1.6 | — | $8.5M | |
 | **US recession 2026** | PM | **10.5%** | +2.0 | +2 | $2.1M | ⚠️ disjunction |
-| Recession 2026 (NBER) | Kalshi | 6.0 | — | — | 957.3K OI | gap ~4.5pp |
+| Recession 2025-26 (2Q neg GDP — **no NBER leg**) | Kalshi | 5.5m | — | — | 957.4K OI | gap ~5.0pp · @03:39Z |
 | **10Y hits 5.2% before 2027** | PM | **91.6%** | **+57.1** | — | $136.1K | ⚠️ $4.0K liq · 5.1% SETTLED |
 | 10Y hits 5.5% before 2027 | PM | 29.1% | +15.8 | — | $102.3K | |
 | Sept CPI `>3.5%` / `>3.6%` / `>3.7%` | Kalshi | 82.0m / **46.0** / 15.0m | — | — | 34.7K / 44.5K / 15.8K OI | ★ rolled from August |
@@ -124,7 +124,7 @@ Kalshi `KXCPIYOY-26SEP`: `>3.5%` 84.0 last / **82.0 mid** (4¢, OI 34.7K) · **`
 | **Fed path (Dec / count)** | 2 more hikes by Dec **50%** both venues | — | agree | 🟠 |
 | **Rates (10Y)** | 5.1% crossed; 5.2% 91.6% (thin) | BOND/TERRY own | par==DGS10 unconfirmed | 🔴 |
 | **Inflation (Sept CPI)** | modal 3.6%; `>3.5` 82 mid | HENRY owns the print | — | 🔴 |
-| **Recession 2026** | PM 10.5 / Kalshi 6.0 | RED 4–12% | cross-venue ~4.5pp, widening | 🟠 |
+| **Recession 2026** | PM 10.5 / Kalshi 5.5m | RED 4–12% (NBER-dated) | ~5.0pp = PM's extra NBER leg (structural); neither venue is NBER-dated | 🟠 |
 | **Oil: premium vs shortage** | v5 +74.10pp (Sept leg expiring) | premium ≠ shortage | meaningful from Oct leg | 🟠 |
 | **Iran: talks vs tempo** | talks happened, next by Dec 69%; attacks up; Dec-normal +5 | HAWK owns the reality | three axes, not two | 🟠 |
 | Bank failure / bailout | bailout 5.0%, any-bank 53.5% (⚠️ thin) | REGINALD | fading | 🟢 |
@@ -152,4 +152,4 @@ Kalshi `KXCPIYOY-26SEP`: `>3.5%` 84.0 last / **82.0 mid** (4¢, OI 34.7K) · **`
 
 **Iran got more complicated, not calmer.** The first US–Iran round of the war happened at the UN on 9/22, with Qatar mediating — though the US says it was through mediators, not face-to-face. The crowd gives a second meeting 69% by year-end, and the year-end Hormuz-normal leg ticked up 5pp. At the same time, ships were hit on 9/18, 9/21 and 9/23, and near-term transit markets deteriorated. **Near term worse, year-end slightly better** — that is the crowd's read, and HAWK owns whether it is right.
 
-**What's owed next:** the October WTI $110 re-pin on **9/28** (L299), without which v5 dies at the 10/01 close; and the `KXRECSSNBER-26` rules-text read, now carried four sessions while the recession gap widens.
+**What's owed next:** the October WTI $110 re-pin on **9/28** (L299), without which v5 dies at the 10/01 close. The `KXRECSSNBER-26` rules-text read is **done** (9/25 03:39Z): the Kalshi recession contract has no NBER leg, so the cross-venue gap is structural — correction owed to RED, sent.
