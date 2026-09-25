@@ -1,12 +1,12 @@
 {
  "channels": {
   "AI capex": "elev",
-  "Credit": "watch",
+  "Credit": "elev",
   "Energy": "crit",
   "Equity-vol": "elev",
-  "Japan / carry": "elev",
+  "Japan / carry": "crit",
   "Metals": "elev",
-  "Rates": "elev",
+  "Rates": "crit",
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
@@ -59,6 +59,7 @@
   "274": "\ud83d\udd34 POSITION RECORD \u2014 TRANSACTION RECONCILE + CURRENT-BOOK VERIFICATION\u2026",
   "279": "NYSCEF DOCKET PULL \u2014 *Kenilworth Holdings LLC et al. v. NYC Rent Guid\u2026",
   "287": "\u2696\ufe0f CRL-27 RE-TOKEN \u2014 CARL's approved leg-(a) deletion conflicts with\u2026",
+  "288": "\u2696\ufe0f PREDICTION CANON \u2014 a registered Invalidation that is MET at its pr\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
