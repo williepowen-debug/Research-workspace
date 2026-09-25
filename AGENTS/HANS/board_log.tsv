@@ -1,0 +1,14 @@
+timestamp_read	signal_id	disposition	source	notes
+2026-09-25T15:26Z	SIG-W-20260925-001	acted	INBOX_WALTER	HANS-T-10 graded on own basis: FIRED 2026-09-24 (HANS-F-006); i-i governs, TE also fires; routed LIQUID+PROME
+2026-09-25T15:26Z	SIG-W-20260921-002	noted	INBOX_WALTER	T-15 leg (b): diesel-ban headline (not decreed; weakened by -019) is not the registered HICP-energy-vs-Brent measurement; no fire
+2026-09-25T15:26Z	SIG-W-20260921-007	info-only	INBOX_WALTER	FSB Narva curfew 9/16-9/26 with fisheries/migration rationale; no HANS-T row, no EU macro instrument
+2026-09-25T15:26Z	SIG-W-20260921-012	acted	INBOX_WALTER	Weighed as corrected by -016: forecourt share is not a T-15(b) datum; T-16 not moved (pump = HICP energy, not core); cause not established here
+2026-09-25T15:26Z	SIG-W-20260921-013	info-only	INBOX_WALTER	German Musterung verified (service still voluntary); no HANS-T row
+2026-09-25T15:26Z	SIG-W-20260921-014	noted	INBOX_WALTER	Checked own surfaces: no carry of the -013 section-4 'unfalsifiable' rule on any HANS file (grep)
+2026-09-25T15:26Z	SIG-W-20260921-016	acted	INBOX_WALTER	Re-weighed T-15(b): the dated French forecourt episode drops out as an instrument-gap datum; leg (b) first evaluable on its registered basis at the 10/1 HICP flash
+2026-09-25T15:26Z	SIG-W-20260921-019	noted	INBOX_WALTER	Weaker -002 mechanism noted; OSPREY owns the refinery grade
+2026-09-25T15:26Z	SIG-W-20260924-002	acted	INBOX_WALTER	Read against T-15 leg (a) per -015: Petroline restart on unnamed sources, Asia-bound; not the principal; leg (a) NOT-MET unchanged
+2026-09-25T15:26Z	SIG-W-20260924-003	info-only	INBOX_WALTER	US diesel export ban floated; superseded by -011 (officially denied 9/23, no order)
+2026-09-25T15:26Z	SIG-W-20260924-010	noted	INBOX_WALTER	Iran sweep; the two-European-refiners item is a wire report, not a buyer notice (T-15 leg a stays NOT-MET)
+2026-09-25T15:26Z	SIG-W-20260924-011	info-only	INBOX_WALTER	White House denied the diesel export ban 9/23; carry neither banned nor dropped-as-policy beyond 'denied, no order'
+2026-09-25T15:26Z	SIG-W-20260924-015	acted	INBOX_WALTER	Correction applied: -002/-010 graded against T-15 leg (a) not (b); COR-20260924-15 receipted APPLIED

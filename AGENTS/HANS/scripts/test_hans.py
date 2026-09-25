@@ -866,7 +866,7 @@ class TestDocAuditC9C12C13(unittest.TestCase):
         trip line; it matched only because BOE_BANK_RATE_PCT once stood at 4.50.
         A BAND IS A LINE, NOT A LEVEL — flag the yardstick, never the line."""
         self.assertNotIn("C9-STATUS-SUPERSEDED",
-                         self._inject_status("| France 10Y OAT | 4.47 | >4.50 level leg | x |"))
+                         self._inject_status("| France 10Y OAT | (level) | >4.50 level leg | x |"))  # 2026-09-25: was 4.47 — a LIVE value that went stale when T-10 fired; the fixture must isolate the BAND, never borrow a level
 
     def test_C9_band_suppression_reads_the_registry_not_a_hardcoded_list(self):
         """If the suppression were a literal list it would rot the moment a band moved."""
@@ -1295,7 +1295,7 @@ class TestCATOSecondPass(unittest.TestCase):
             importlib.reload(self.da)
             return sum(1 for c, _ in self.da.audit() if c == "C9-STATUS-SUPERSEDED")
         base = n("")
-        self.assertEqual(n("\n| France OAT | 4.47 | >4.50 level leg |\n"), base,
+        self.assertEqual(n("\n| France OAT | (level) | >4.50 level leg |\n"), base,   # 2026-09-25: was 4.47, retired by the T-10 fire — data-coupled fixture
                          "a band POSITION was read as a stale level")
         self.assertEqual(n("\nBoE Bank Rate stands at 4.50 today.\n"), base + 1,
                          "a bare stale level was suppressed by another metric's band")
@@ -1411,6 +1411,27 @@ class TestCATOSecondPass(unittest.TestCase):
         self.assertTrue(cc._ok(0, "SELF mode: 103 files\n" + "=" * 20, contract),
                         "the completion contract must still accept a real completed run")
 
+
+
+class TestTTFNamedContract(unittest.TestCase):
+    """L429 (2026-09-25): HANS-T-07 must be graded on a NAMED contract, never a continuation."""
+    def test_ordinary_mid_month_picks_front(self):
+        self.assertEqual(boot.ttf_named(date(2026, 9, 25))[0], "TTFV26.NYM")
+    def test_overlap_expiry_day_is_still_front(self):
+        self.assertEqual(boot.ttf_named(date(2026, 9, 29))[0], "TTFV26.NYM")
+    def test_day_after_expiry_rolls_to_next(self):
+        self.assertEqual(boot.ttf_named(date(2026, 9, 30))[0], "TTFX26.NYM")
+    def test_missing_calendar_exhausted_fails_closed(self):
+        self.assertIsNone(boot.ttf_named(date(2027, 1, 1)))
+    def test_graded_ttf_row_is_never_a_continuation(self):
+        graded = [sym for lbl, sym, band in boot.LIVE if band is boot._ttf]
+        self.assertEqual(len(graded), 1)
+        self.assertFalse(graded[0] is not None and graded[0].endswith("=F"),
+                         "HANS-T-07 evaluator re-pointed at a continuation ticker")
+    def test_calendar_is_ordered_and_named(self):
+        exps = [e for _, e in boot.TTF_CALENDAR]
+        self.assertEqual(exps, sorted(exps))
+        self.assertTrue(all(s.endswith(".NYM") and "=F" not in s for s, _ in boot.TTF_CALENDAR))
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -117,8 +117,35 @@ def _dxy(v):
 def _ctx(_v):
     return "⚪", "context only — no HANS band"
 
+# 🔴 L429 FIX 2026-09-25 (PROME packet 9/23): HANS-T-07 is a LEVEL ladder with L1+L2 FIRED and
+# was graded on the yfinance CONTINUATION "TTF=F", which rolls to the next month with zero change
+# in the world (mode ii). The registry named TTFV26.NYM; the evaluator did not.
+# ⇒ T-07 is now graded on a NAMED contract from this explicit calendar. Expiry = ICE Endex rule,
+# close of the 2nd UK business day before the delivery month (V26 9/29 matches our own records;
+# X26/Z26 are COMPUTED from the rule, not read off an exchange notice — re-verify before relying
+# on the exact day). ⛔ NO FALLBACK TO "TTF=F": when the calendar is exhausted the row says so and
+# boot exits ATTENTION — extend the calendar, never silently re-point at the continuation.
+TTF_CALENDAR = [            # (named contract, last trading day)
+    ("TTFV26.NYM", date(2026, 9, 29)),
+    ("TTFX26.NYM", date(2026, 10, 29)),
+    ("TTFZ26.NYM", date(2026, 11, 27)),
+]
+TTF_ROLL_WARN_DAYS = 3
+
+def ttf_named(today=None):
+    """(symbol, expiry) of the front NAMED TTF contract still trading on `today`, else None.
+    A contract IS the front on its own expiry day (it trades through that close)."""
+    today = today or date.today()
+    for sym, exp in TTF_CALENDAR:
+        if today <= exp:
+            return sym, exp
+    return None
+
+_TTF_FRONT = ttf_named()
+
 LIVE = [
-    ("TTF front-month (EUR/MWh)", "TTF=F",     _ttf),
+    ("TTF front-month (EUR/MWh)", _TTF_FRONT[0] if _TTF_FRONT else None, _ttf),
+    ("TTF continuation (TTF=F)",  "TTF=F",     _ctx),   # context only: shows the roll gap, never graded
     ("EUR/USD",                   "EURUSD=X",  _eurusd),
     ("DXY",                       "DX-Y.NYB",  _dxy),
     ("GBP/USD",                   "GBPUSD=X",  _ctx),
@@ -171,7 +198,17 @@ def main():
         print("  🔴 yfinance missing — run with .venv/bin/python")
         yf = None
     if yf:
+        if _TTF_FRONT is None:
+            print("  🔴 TTF NAMED-CONTRACT CALENDAR EXHAUSTED — HANS-T-07 NOT GRADED. Extend "
+                  "TTF_CALENDAR in boot.py; never fall back to the TTF=F continuation.")
+            pull_fails += 1
+        else:
+            _d = (_TTF_FRONT[1] - date.today()).days
+            print(f"  ℹ️  HANS-T-07 graded on NAMED {_TTF_FRONT[0]} (expires {_TTF_FRONT[1]}, {_d}d)"
+                  + ("  ⚠️ ROLL WINDOW — never grade a rung crossing across the roll" if _d <= TTF_ROLL_WARN_DAYS else ""))
         for label, sym, band in LIVE:
+            if sym is None:
+                continue
             try:
                 px = yf.Ticker(sym).fast_info.get("lastPrice")
                 if px is None: raise ValueError("no lastPrice")

@@ -20,6 +20,24 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ---
 
+## 🆕 SESSION 5 (2026-09-25) — PROME Tier-1 spawn (WQ-294): `T-10` fire graded, whole inbox drained, `T-07` pinned to a named contract. Records → `registry/HANS_T_FIRED_LOG.tsv` `HANS-F-006` · `workbook/2026-09-25_INBOX_DISPOSITIONS.md` · `KB-HANS-097`–`099`
+
+**How the `T-10` basis was settled:** pulled ideal-investisseur (both legs one screen), TradingEconomics (both legs), the ECB AAA 10Y primary via `fetch_eu`, and the Bundesbank BBSIS Svensson 10Y (keyless, a zero-coupon basis — direction only). The i-i Bund leg matched the ECB primary within 0.4bp; TE ran ~5bp (Bund) / ~8bp (OAT) higher. Tried to reach a Banque de France daily OAT primary: Webstat's Opendatasoft TEC10 dataset exists but returns 0 records keyless, and ECB FM has no FR benchmark — **recorded as a gap, not a verdict** (third time a 'manual' row may merely be unfetched).
+
+**How `T-07`'s fix was tested:** acceptance conditions written first — graded on a NAMED contract on every covered date; the expiry day itself still grades the expiring contract; an exhausted calendar fails LOUD with no `TTF=F` fallback; the continuation stays visible as context. Neighbours: ordinary (mid-month) · overlap (expiry day) · missing information (calendar exhausted) tested; wrong-owner and concurrency N/A (single-owner script, no shared state). The 'never a continuation' test was falsified by injecting the 9/23 defect — it fails. **IMPLEMENTED + TESTED by the author; NOT independently verified.** ⚠️ **The fire broke two old C9 tests**: their fixtures borrowed the then-live OAT 4.47 as a 'current' level, and publishing 4.67 retired it — a test coupled to live ledger data fails when the world moves. Fixtures now isolate the band with a non-numeric level.
+
+---
+
+## 📦 STATUS ROTATION 2026-09-25 — VERBATIM from STATUS §ENERGY (9/19 text), rotated for the read cap (77.5% → under 70%)
+
+✅ **THE 9/10 RULING IS VINDICATED.** WALTER asked whether −14.7pp exited the fire; I ruled **NOT AN EXIT** — 0.3pp was inside the cross-source error. **Ten days later it had widened further** — to −19.7pp on the then-current GEF-norm basis, since re-based to **−15.99pp** single-source `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`.
+✅ **9/19 LATE — WILL PROVISIONED THE AGSI KEY AND THE PICTURE CHANGED TWICE.** The exit condition (owed #9) is registered AND its single-source precondition is now satisfied. 🔴 **But the first single-source pull found the instrument had been wrong in BOTH directions:** my carried **−19.7** used a GEF **88.0** norm; `fetch_eu.py` carried a **hardcoded 82.0 frozen on 2026-08-28** and printed **−12.9**. The AGSI-native truth is **−15.99** (fill 69.06% [gas day 09-17] vs an AGSI norm of **85.05%** = mean of 09-17 across 2021–25; median basis −16.61). 🔴 **The frozen constant was the dangerous one: the true norm RISES through the injection season, so a frozen denominator makes the gap read BETTER as time passes — fail-OPEN drift, and it had the fire on the wrong side of its own −15 band.** Fixed: `agsi_norm()` computes the norm from AGSI history and **fails closed — no norm ⇒ NO GAP PRINTED**, never a constant fallback. → `ML-HANS-467`, `KB-HANS-094`
+⛔ **DO NOT READ −19.7 → −15.99 AS IMPROVEMENT.** ~80% of it is the denominator. **The fire stays OPEN** by 1.0pp (mean) / 1.6pp (median). 🔑 **AND A SECOND FAILURE MODE, from PROME's negative control, verified by reproducing it:** **a REJECTED AGSI key returns HTTP 200 with an EMPTY array — shape-identical to an unpublished gas day**, so silent expiry prints exactly the message that means *come back tomorrow*, and a desk defers its checkpoint forever. **Now that the norm is AGSI-native a dead key blinds BOTH legs.** Discriminator wired (empty-`x-key` probe ⇒ REJECTED / no-data / BLIND), quirk-dependent, **re-check 2026-12-19** → `KB-HANS-095`.
+⚠️ **I nearly refuted that control with a probe that never left my machine** — `curl -H "x-key: "` DROPS the header, so I silently re-tested the ABSENT case and got a reproducible wrong answer twice. **Reproducibility did not rescue it; varying the client did** → `ML-HANS-468`. An injection test then found **two key-resolution paths** I had created an hour earlier → `ML-HANS-469`.
+✅ **This morning's fail-closed exit clause earned itself on its first live pull** — had I taken the cross-source −12.9, the row would have looked 2.1pp from an exit on a norm AGSI's own history contradicts.
+
+---
+
 ## 🆕 SESSION 4 (2026-09-19) — OWED-BOARD CATCH-UP. **Full read → `workbook/2026-09-19_ESRB_REPORT202602_PRIMARY_READ.md`** · `KB-HANS-090`–`093`
 
 **🔴 ESRB `esrb.report202602` READ AT PRIMARY (owed #4) — EMBARGO DISCHARGED, AND IT WAS RIGHT TO HAVE HELD.** ECB/ESRB joint workstream, Feb-2026, 82pp full-text PDF — not the press release.
