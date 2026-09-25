@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# ⛔ FROZEN 2026-07-09 (legacy suite; see boot.py lines 1-16) — NOT run by HAWK's boot
+# protocol and invoked by nothing live (grep 2026-09-25: only frozen boot.py calls it).
+# DECLARED 2026-09-25 per PROME L429/L441 census item 3: BASELINE_METRICS below are
+# PLACEHOLDERS of unknown vintage presented as baselines; any alert this script prints
+# is computed against them and is not evidence. Re-check date: NONE while frozen —
+# revival requires replacing every constant with a dated, sourced value first.
 """
 HAWK Sanctions Tracker — Shadow Fleet & Insurance Monitor
 

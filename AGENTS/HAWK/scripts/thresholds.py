@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+# ⛔ FROZEN 2026-07-09 (legacy suite; see boot.py lines 1-16) — NOT run by HAWK's boot
+# protocol and invoked by nothing live (grep 2026-09-25: only frozen boot.py calls it).
+# DECLARED 2026-09-25 per PROME L429/L441 census (packet 2026-09-23):
+#   - L429: every level below is keyed on the GENERIC continuation BZ=F, which rolls to
+#     the next contract month; a level can move by the calendar spread with zero change
+#     in the world (live instance: WALTER SIG-W-20260925-008, BZ=F Nov->Dec roll printed
+#     'Brent -7.8%' on 9/25). The Brent-WTI line mixes two continuations with different
+#     expiries (mode iii).
+#   - L441: BRENT_PEAK = 116.38 is a FROZEN yardstick, vintage 'Apr 2026' as written,
+#     source not recorded, never recomputed. Re-check date: NONE while frozen — any
+#     revival must first recompute it from a named dated source and move the ladder to
+#     a named dated contract month, per boot.py's live-data-audit condition.
+#   - The scenario bands (D-EXTREME/C/B...) are July-era thesis labels, not current marks.
+# Do not cite any output of this script. Prices come from FORGE/tools/market-data/fetch.py.
 """
 HAWK Threshold Monitor — Brent Price & Scenario Triggers
 

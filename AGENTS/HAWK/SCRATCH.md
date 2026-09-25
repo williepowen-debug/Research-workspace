@@ -1,61 +1,49 @@
 # HAWK SCRATCH — handoff to next session
 
-> **2026-09-22 (~17:3x ET) addendum, PROME Tier-1 L432 follow-up:** 9/21 class-rule SUPERSEDED → `research/2026-09-22_covert-claim-rule-revision.md` (KB-HAWK-407). WALTER lane 5/5 drained (SIG-014/-020/-021/-022/-022-ADDENDUM). v0.47 review returned to WALTER inbox. KB-HAWK-408 = Musterung datum (item 2's KB half; **the VX-EURMIL evidence cell is still unedited**). Item 3 below is DONE in revised form, so do NOT write the old form. Items 1, 2 (VX half) and 4–7 carry. **Late add:** two ZHAO correction packets (routed by PROME 9/22) consumed; KB-HAWK-404 → SUPERSEDED by KB-HAWK-409 — all three US–China lapse legs land **2026-11-10** (no 11/09 leg), and MOFCOM scope includes batteries/LFP/superhard materials. Mail: inbox 0·0.
-
-**Written:** 2026-09-21 (Mon, US markets open, ~12:0x ET) · **Session:** PROME Tier-1 spawn under WQ-184 outcome ①, DOCKET L432 dated today.
-**$0. No mark, band, threshold, confidence or standing approval moved. `STAND DOWN` (WQ-192) untouched. No trade view anywhere.**
+**Written:** 2026-09-25 (Fri, ~12:4x ET) · **Session:** PROME Tier-1 WQ-184 due-row spawn (prome-2e) on DOCKET L321 + L433, with an L0 drain of the whole inbox and the WQ-295 answer.
+**$0. No mark, band, threshold, confidence, score or standing approval moved. No trade view anywhere.**
 
 ---
 
-## CHANGES SINCE LAST SESSION
+## CHANGES SINCE LAST SESSION (9/22)
 
-- **L432 GRADED at the primaries** as the row was written to be graded. Card: `research/2026-09-21_L432_GRADE.md`. Verdict: **⬛ NOT DECIDED — PERIMETER PARTIAL.** Three-valued space preserved per PROME/CATO 9/19 packet.
-- **L434 by-catch:** Указ № 674 от 21.09.2026 is another Decree-302 amendment — same custodial instrument as № 661. L434 remains OPEN, still custodial-not-conversion.
-- **Suwałki/Druskininkai tweet:** UNCHECKABLE at primaries. WALTER's refusal-to-dispatch reasoning held; do NOT propagate.
-- **OSPREY Channel-3 limb 2 GRADED** — YES to repricing (Swedish Club 452/2026 + JWLA-035 constitute war-risk-premium repricing without a numeric AWRP print). Channel 3 not killable on evidence today. Packet delivered to OSPREY inbox.
-- **HANS Ukraine-refinery vector DECLINED.** Reply in HANS inbox; courtesy cc in OSPREY inbox.
-- **New HAWK class-rule adopted** (SIG-013 ask ③): *"we are acting undisclosed"* claims stay REPORTED, no relay-count upgrade. To be logged to KB at closeout under `Group: METHOD_GUARD`.
-- **Inbox drained 8/8** (3 top-level + 5 WALTER, incl. two that arrived mid-session).
+- **YURI is wired** (DAEDALUS 9/24). L432/L434 are now YURI's, with HAWK as NAMED CONSUMER; L433 stays HAWK outright. YURI extended L432 on 9/25: NOT-DECIDED — PERIMETER PARTIAL stands.
+- **ZHAO correction:** the US IEEPA 11/10 leg has been VOID since EO 14389. The 11/10 cluster has TWO live clocks (BIS Affiliates Rule, MOFCOM No. 70). New separate clock: MOFCOM 2024 No. 46 clause 2 → 2026-11-27, content unverified.
+- **OSPREY:** the C3 kill date is limb-1 **10/03**, with both limbs clear no earlier than **10/09**. The C2 letter changed (Black/Azov/Baltic only).
+- **Gulf (WALTER):** Petroline restart REPORTED 9/22 on unnamed sources; Rubio names Kataib Hezbollah. Houthi missiles at Yanbu were INTERCEPTED. BZ=F rolled Nov→Dec overnight 9/24–25, so "Brent −7.8%" is an artefact.
 
 ## WHAT I DID
 
-1. **Booted HAWK's own desk** (CLAUDE.md + STATUS + SCRATCH + WALTER packet + L432 card + OSPREY/HANS/PROME inbox items).
-2. **Ran the L432 instrument** as written on the 9/19 card: `curl` on the presidential block (200, zero `мобилизац`, highest № 674 with title "Decree-302 amendment"), `kremlin.ru` (three items — Uzbekistan/FCS/Kazakhstan diplomatic, zero `мобилизац/призыв`), `duma.gov.ru` (front page dominated by Volodin post-election commentary, no military-term hits), ISW 2026-09-20 corroboration via WebFetch.
-3. **Graded L432 NOT DECIDED — PERIMETER PARTIAL**, with mil.ru and hidden-decrees № 671/№ 673 named as unread paths; the class of thing hidden in the numbering gap does not match a September-2022-shape public call-up decree.
-4. **Wrote the SIG-007 Narva reading** — enforcement-favoured with fisheries clause traveling verbatim; L432 bearing near-zero.
-5. **Wrote the Suwałki/Druskininkai disposition** — UNCHECKABLE at primaries; watch list on named primaries; refuse to propagate.
-6. **Answered OSPREY's limb-2 grade request** with a YES on structural repricing.
-7. **Declined HANS's Ukraine-refinery vector** (theater subject); cc'd OSPREY.
-8. **Adopted WALTER SIG-013 ask ③'s undisclosed-claims rule** into HAWK's own method guard set.
-9. **Board_log rows appended** for SIG-004 / -007 / -009 / -010 / -013.
-10. **Delivered a receipt to prome-ce** and wrote LAST_COMPLETION.
+1. **L321 — successor NOT REGISTERED.** The approved dual-vendor letter's own stop condition fired. R1 redesign drafted in full, unregistered: `research/2026-09-25_L321_HAW19-successor_NOT-REGISTERED.md` (KB-HAWK-412). **Will's A/B/C owed by 9/30.**
+2. **L433 — GRADED UNDETERMINED** at the Belarus MoD primary (mil.by 184312/184317 + listing 15–25.09): battalion-per-brigade CPX, below Vienna Document parameters, "no large-scale movements", no return-to-bases item. Search-layer contamination caught twice. `research/2026-09-25_L433_GRADE.md` (KB-HAWK-411). Recommended close with no re-date.
+3. **Inbox 6 + WALTER 4 = 10/10 drained**, board_log rows written, files `git mv`'d to processed/.
+4. **Corrections:** KB-409 → SUPERSEDED by KB-410 (IEEPA void; my own KB-317 had it right on 9/8). L432 card decree № 638 → № 642 (№ 642 existence verified at pravo). Kill-clock 9/24 struck on the war-risk aggregate and STATUS. NEXUS_BRIEF WATCH row still carried the withdrawn "declined ≥4× … cleared the 2025 bar twice"; now struck.
+5. **PROME L429/L441:** FROZEN declarations written at the top of `scripts/thresholds.py` and `scripts/sanctions_tracker.py`.
+6. **WQ-295:** CADENCE WEEKLY + 12 WATCH_FOR phrases, pre-tested on WALTER's harness → `PROME/inbox/2026-09-25_from-HAWK_cadence-and-watch-terms.md` (cc WALTER).
+7. **CATALYSTS:** L432 → TRANSFERRED; L433 → GRADED-UNDETERMINED.
 
 ## ⛔ NEXT SESSION — DO THESE FIRST
 
-1. 🟠 **Consumer read at OSPREY's next commit** — my Black Sea row in `domain/war-risk/CROSS_THEATER_WAR_RISK.md` promised "REPRICED, non-quantified" at next closeout. **This session ran out of time before I edited that surface.** Do it at the next boot's closeout.
-2. 🟠 **Update `VX-HAWK-EURMIL-01`** with the Musterung datum (Germany started mandatory military medical exams August 2026, ~1,000 examined by end-August, 9 months ahead of formal 2027-07-01 start — both halves travel: mandatory exam, voluntary service). VX mark stays ORANGE; the row's evidence set grows.
-3. ✅ DONE 2026-09-22 in REVISED form (KB-HAWK-407); the old task text follows, do not apply: **Register the class-rule in KB** as a `Group: METHOD_GUARD` row: undisclosed-content claims stay REPORTED indefinitely; specific block on Le Monde French-undisclosed.
-4. 🟠 **WATCH:** if the St Petersburg consulate closure claim (SIG-013 ③) re-surfaces from Auswärtiges Amt or Federal Foreign Office, dispatch it as a diplomatic-escalation datum.
-5. 🟠 **WATCH:** OSPREY's kill-clock on Channel 3 is 2026-09-24. Fold any numeric AWRP print or new counter-evidence the same session it lands.
-6. 🟠 **WATCH:** UNGA opens 2026-09-22, runs to 09-29. A Trump–Pezeshkian sidelines meeting or a Pezeshkian address that names a framework would move FALCON's anchor; not HAWK's until it touches oil-risk cross-war synthesis.
-7. 🟡 **L434 due 2026-10-02:** now has TWO Decree-302 amendments (№ 661, № 674) — both custodial. If a THIRD amendment or an actual conversion instrument lands, that is the change.
+1. 🔴 **9/30 — HAW-19 resolves as DEFECTIVE INSTRUMENT** (WQ-212). Encode it on the row with no calibration credit. LEG B is still adjudicated on its own evidence, and a dated search log is required. **If Will ruled A on L321, register R1 as HAW-22 the same session, before 10/1, letter verbatim from the finding file.**
+2. 🟠 **War-risk aggregate is only PARTIALLY refreshed** (9/25). Ages were not re-stamped and every leg is older than shown. A real refresh (boot 13a) is owed.
+3. 🟠 **VX-HAWK-EURMIL-01 evidence cell** still lacks the Musterung datum (KB-HAWK-408). Carried since 9/21.
+4. 🟠 **Dormant re-sweep:** IRAQ + FININFRA crossed the 45-day cadence (last full review 8/10). The 9/24 review backstop was NOT run.
+5. 🟡 **Derived-fingerprint record** (boot 6a-3 / 13a-2) was not re-run after the aggregate edit. Ran 9/25 16:3x UTC: 8 changed edges. They include my own aggregate edit AND owner changes (OSPREY WARRISK.tsv, OSPREY and FALCON NEXUS_BRIEFs), so it is not only my edit. Read and reconcile those owner changes before `--record`.
+6. 🟡 WATCH: OSPREY C3 limb-1 **10/03**; L434 (YURI's now) **10/02**; 11/10 two clocks; MOFCOM No. 46 **11/27**.
 
 ## OPEN THREADS
 
-- **WQ-267 (Will's)** — where a Russian action drawing no NATO response should live. Unchanged. **Do NOT build a new decision-class ledger before it is ruled.**
-- **The fourth `Rung` value** for `INCURSIONS.tsv` (OSPREY's cap extension, adopted) — **not to be added before WQ-267.**
-- **OCR of publication `0001202609170018`** — L434's named unchecked fallback. Now also owed for the analogous № 674 publication. Body remains a scanned image PDF; no OCR available.
-- **My KB `Status` enum uses `CORRECTED` in two incompatible senses.** Declared, still not fixed. Wants a retroactive-sweep session of its own.
-- **Article 4 negative:** primary-closed through 2026-06-17; the 06-18→09-18 residual is still open; blocked by NATO's 2026 official-texts listing (JS interface).
-- **Cross-war oil section of STATUS is still unchanged from the 2026-09-16 review and was NOT re-verified today.** Three consecutive war-risk passes have not advanced a premium date.
-- **SIG-013 ⑥ (nine-pin NATO/Russia map) individual pin checks** — not run this session; queue for future WALTER dispatches if pins arrive on their own named-outlet rows.
+- **WQ-267-class ledger / fourth `Rung` value:** unchanged, not before a ruling.
+- **KB `Status` enum `CORRECTED` ambiguity:** declared, still unfixed.
+- **Article 4 negative 06-18 → 09-18:** still blocked on NATO's JS listing.
+- **OCR of pravo 0001202609170018 (№ 661):** L434's named fallback, now YURI's row.
+- **Cross-war oil section of STATUS:** not re-verified since 9/16, apart from the Petroline restart-REPORTED add.
 
 ## PENDING DECISIONS
 
-- **Will:** the **YURI ROSTER seat**. Still awaiting.
-- **Will:** **WQ-267.**
-- **PROME:** already ruled the boundary. **L432 grade portable to YURI byte-identically when YURI wires.**
+- **Will:** L321 A/B/C (via PROME), by 9/30.
+- **PROME:** close L433 UNDETERMINED (no re-date recommended); land the WATCH_FOR list after WALTER's R3 test.
 
 ## MAIL STATE
 
-**Inbox 0 top-level · 0 WALTER · BOARD lane: not re-scanned this session (session focused on ACTION items; next boot resumes the scan).** Sent today: 1 to `PROME/inbox/`, 2 to `AGENTS/OSPREY/inbox/` (Channel-3 limb-2 grade + HANS-vector cc), 1 to `AGENTS/HANS/inbox/` (decline). All committed by me under carve-out ①.
+**Inbox 0 top-level · 0 WALTER.** BOARD `info:` lane NOT re-scanned this session (scope: the due rows + the inbox). Sent: `PROME/inbox/` ×2 (the completion memo and the cadence/watch-terms packet), `AGENTS/WALTER/inbox/` ×1 (cc pointer). All committed under carve-out ①.

@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-09-19. Derived from owner WARRISK ledgers, briefs and commissioned reports; NO FRESH NEGOTIATED PREMIUM OBTAINED — this pass re-stamps ages and folds two dated owner/primary items; it does not advance a single premium data date.** ⚠️ **2026-09-19: this session's directed work was the YURI boundary ruling and the L432 Monday arming, so NO INSURANCE CANVASS WAS RUN AGAIN — two consecutive passes have re-stamped ages without advancing a premium date.** Re-stamped per the standing rule that a derived surface rots at the cadence of its own REGENERATION, not on its own. Current matched cross-theater premium ratio **UNKNOWN**; missing quotes do not prove no repricing.
+**Refreshed: 2026-09-19** · ⚠️ **2026-09-25 PARTIAL pass only (PROME Tier-1 spawn, inbox corrections): the Black Sea row gains the REPRICED-non-quantified state and the Channel-3 date is corrected. Ages in the table were NOT re-stamped (all legs are older than shown). This is not a refresh.** Prior stamp text: **Refreshed: 2026-09-19. Derived from owner WARRISK ledgers, briefs and commissioned reports; NO FRESH NEGOTIATED PREMIUM OBTAINED — this pass re-stamps ages and folds two dated owner/primary items; it does not advance a single premium data date.** ⚠️ **2026-09-19: this session's directed work was the YURI boundary ruling and the L432 Monday arming, so NO INSURANCE CANVASS WAS RUN AGAIN — two consecutive passes have re-stamped ages without advancing a premium date.** Re-stamped per the standing rule that a derived surface rots at the cadence of its own REGENERATION, not on its own. Current matched cross-theater premium ratio **UNKNOWN**; missing quotes do not prove no repricing.
 
 | Leg / owner | Last recovered quoted level [CONF owner record; historical] | Evidence date / age at September18 | Current interpretation |
 |---|---|---|---|
@@ -8,7 +8,7 @@
 | Southern Red Sea / FALCON |>1% of hull; Reuters relays |July23 /**58 days** |STALE |
 | Bab / FALCON |~0.5% of hull; Al Jazeera |July23 /**58 days** |STALE; coverage comparability unresolved |
 | West Saudi, loading without transit / FALCON |0.1% of hull; owner compilation |July23 /**58 days** |STALE; no fresh origin-risk test |
-| Black Sea / OSPREY |1% of hull; Noah citing Gibson |August21 relay /**29 days**; original assessment date UNKNOWN |STALE; no current matched comparison |
+| Black Sea / OSPREY |1% of hull; Noah citing Gibson |August21 relay /**29 days at 9/19**; original assessment date UNKNOWN |STALE as a NUMBER. ✅ **2026-09-25: REPRICED, non-quantified**: HAWK's 9/21 limb-2 grade (Swedish Club circular 452/2026, 9/18, effective 10/1 = the same act; JWLA-035 16 Sep) was integrated by OSPREY as KB-OSPREY-152, packet 9/24. No numeric AWRP print. |
 
 All five legs exceed HAWK's 10-day bar, and every one is now 1 day staler than at the last pass — **the ages moved, the evidence did not.** Historical ratios are not current ratios or lower bounds. Quote comparison needs matched hull, route, cover, exclusions, deductible and assessment date. Earlier statements suggesting the missing quote must mean an unpublished quote or that a new JWC listing would close the premium gap are withdrawn: access and publication are different questions, and geography is not price.
 
@@ -34,7 +34,7 @@ Latest commissioned synthesis: `research/2026-09-16_cross-war-oil-review.md`. FA
 
 ## ⛔ 2026-09-19 — THE BLACK SEA LEG IS CIRCULAR, AND IT IS LOAD-BEARING ON A LIVE KILL CLOCK
 
-OSPREY asked HAWK today whether HAWK holds **anything dated after 2026-08-21 on Black Sea AWRP or P&I withdrawal**, because its **Channel-3 limb 2** reads *“no war-risk-premium repricing (insurer/P&I reporting, **via HAWK's cross-war enforcement read**)”* and its kill date is **2026-09-24**.
+OSPREY asked HAWK today whether HAWK holds **anything dated after 2026-08-21 on Black Sea AWRP or P&I withdrawal**, because its **Channel-3 limb 2** reads *“no war-risk-premium repricing (insurer/P&I reporting, **via HAWK's cross-war enforcement read**)”* and its kill date is ~~**2026-09-24**~~ ⛔ **CORRECTED 2026-09-25 on OSPREY's 9/24 packet: the 9/24 date was superseded on 9/19 by OSPREY's own backfill. The limb-1 anchor is `ARMADA LEADER` 9/12, giving limb-1 date 2026-10-03. The 9/18 repricing sits inside the 21-day window, so no C3 kill is writable on 10/3, and the earliest both-limbs-clear date is 2026-10-09 absent new repricing (OSPREY's computation; HAWK concurs that the 10/1 effective date is the same act, not a fresh repricing). Do not carry 9/24 anywhere.**
 
 **Answer: NO — and the pointer is a CIRCLE.** The Black Sea row in the table above is owned by **OSPREY** and IS the 8/21 relay OSPREY is citing, with its original assessment date **UNKNOWN**. ⇒ **OSPREY's limb 2 points at HAWK; HAWK's Black Sea cell points at OSPREY; neither desk holds the evidence, and both ends behave correctly.** `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`.
 
