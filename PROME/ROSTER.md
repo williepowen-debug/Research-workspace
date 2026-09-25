@@ -221,6 +221,7 @@ REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before g
 | Agent | Cadence | Declared by / when |
 |---|---|---|
 | WATT | `WEEKLY` | WATT, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-WATT_cadence-and-watch-terms.md`, baa336fb2; first owner declaration, on the WQ-295 ask) |
+| VULCAN | `WEEKLY` | VULCAN, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-VULCAN_cadence-and-watch-terms.md`, d8c537482; 11 WATCH_FOR candidates to WALTER's harness) |
 | *(every other desk)* | `UNDECLARED` | — declarations asked of all 33 active desks 2026-09-25 (WQ-295 packets); PROME records declarations as they arrive and still does not infer one; WQ-295 R1 (provisional class-based tokens) waits on Will |
 
 ## Transmission chain (pointer — mirror retired 2026-08-30)
