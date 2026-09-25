@@ -15,22 +15,21 @@
 
 **2026-09-10 — NINTH SESSION (rotated verbatim 2026-09-11 → `archive/SCRATCH_ARCHIVE_2026-09-10_ninth-session.md`).** Survives in four lines: ① **DOCKET L249 graded (d) QUIET LAPSE** — 202-26-41 expired 23:59 9/8 unreplaced; limb (c) UNKNOWN (para-E report never published); NEXUS owns M-09 ARMED→COUNTED. ② **P1 5→3 graded + ARMED, deliberately not executed** — the 7-clear-day clock had two readings (clock vs calendar, L-51); graded on the registered letter "end of 9/10". ③ Inbox 7 items drained; SIG-013's "6,831 MW backstop" phrasing NOT adopted (shortfall ≠ RBP filing). ④ 16,298 B rotated; the "hot/cold split" ask was a denominator error (DOCKET L319 corrected it 9/10 20:2x).
 
-**2026-09-11 10:37 → 10:5x ET — TENTH SESSION (PROME-spawned Tier-1 under WQ-184; DOCKET L319 due today).**
+**2026-09-11 — TENTH SESSION (rotated verbatim 2026-09-25 → `archive/SCRATCH_ARCHIVE_2026-09-11_tenth-session.md`).** Survives in two lines: ① P1 5→3 executed on the registered letter (composite 16→14). ② 9/10's "zero ≥$500" was a noon read — L-52 (a negative over a window including TODAY carries its read-time everywhere it is quoted).
+
+**2026-09-25 09:41 ET — ELEVENTH SESSION (Will-directed boot + catch-up; desk DARK 9/12–9/24).**
 
 ## ▶ WHAT CHANGED
-- **P1 5→3 EXECUTED; composite 16→14/20.** Override gates checked FIRST and clear: **DOE** — index newest still 202-26-43 (Duke Carolinas, 9/3), no 202-26-44+, 41's page unamended [VERIFIED] · **board** — 7 postings, 0 emergency-class, newest #105511 DOM 9/10 13:05, no HWA [VERIFIED] · **tape** — 9/10 full day n=288, **0 ≥$1,000** [VERIFIED]. Limbs ①②③ all paid. → KB-118, VX-P1, STATUS matrix/triad/composite/BOTTOM LINE, TRADE.md P1 row.
-- ⚠️ **9/10 printed ONE 5-min interval ≥$500: $672.38 @15:45.** Yesterday's "zero ≥$500 on any day 9/4–9/10" was a to-12:05 read that my three summaries carried as a day claim. Transient, not a re-arm (L-29). → **KB-119, L-52**, report addendum (table untouched).
-- ⚠️ **Board ID #105506 absent** at both the 9/10 and 9/11 reads (gap 9/8 15:38 → 9/9 10:56) — **UNKNOWN class**; tape shows no scarcity either day. Not resolvable from the board.
-- **Inbox drained (2):** SIG-W-20260910-008 ERRATUM confirms my 6,831-MW split (closes PROME ask ②) · SIG-014 gas-production record → KB-120 (P4 backdrop, relay). **COR-20260908-02 receipted NO-OP** (`registry/corrections_receipts.tsv`, created).
-- **STATUS: five rotation passes, Blocks L–AC verbatim to `status_archive/` with crc** — booted 82%, closed under the 75% trigger; read the figure from `boot.py` leg 3. The hot/cold-split ask is WITHDRAWN (denominator error).
-- DM2 spend: 5 calls (2×2 boot runs + 1 deliberate). Spaced.
+- 🔴 **PJM's 4th emergency of 2026 happened while I was dark: 9/16 ~$3,710/MWh plateau (29 intervals ≥$1,000), 9/17 EEA-1 + DR + DOE 202-26-45 (9/17–9/18, lapsed unrenewed).** Found by boot (a single 9/25 $1,009 print) → a 9/11–9/25 tape pull. **No fleet route delivered it** (L-53). Cause = **maintenance season**: planned outages 0 → 16 GW on 9/12, forced ordinary, load only ~128 GW. → KB-121…125, FL-WATT-15.
+- **P1 3→5 recorded (spent), composite 14→16. `WATT-11` MISS** (archived, with post-mortem) · **`WATT-12` registered** (≥1 5-min ≥$1,000, 9/26–10/31; coverage duty = boots ≤14 days apart).
+- **KILL_MEMO A1** (C1 rationale; 7/3 EEA-2 tape = UNKNOWN, pre-DM2) · **VULCAN seam CLOSED** at its artifact · **B1 battery channel registered TRIGGERED** (ZHAO wording; T2 ≥10/19, T1 11/10–11/11) · COR-20260915-01 NO-OP · inbox drained (4 + 6 WALTER) · STATUS rotated to 69.5% (Blocks AD–BD).
+- Packets: HENRY 🔴 · AEOLUS (heat leg) · BRENT (Appalachian basis) · DAEDALUS (asks done) · PROME 🔴 (routing gap).
+- DM2 spend: ~6 calls over ~30 min (2 boot + tape range + outages + 2 boot re-run for the read-cap check — **don't re-run boot.py just to read leg 3; use `scripts/read_cap_check.py --agent WATT`**).
 
 ## ▶ PICK UP HERE (priority order)
-
-1. ✅ **P1 5→3 EXECUTED 9/11.** Next P1 movers: **→4** on EEA-1 / Max-Gen Alert / new §202(c) naming PJM; **→2** if `WATT-11` (opens **9/15**) runs quiet 3+ sessions with 0 prints ≥$500. **Duration unit convention = calendar days (L-51) — now written INTO the matrix row.**
-2. **🟠 The para-E utilisation report** — the ONLY document that can move limb (c) off UNKNOWN. Now more valuable, not less: the authority has lapsed, so this is the last chance to learn whether it was ever exercised.
-3. **🟠 8/13–8/16 spark elevation** — still unexplained, still no answer from BRENT/AEOLUS since 9/6. **Do not attach a cause without measuring one.**
-4. **🔴 Owed to VULCAN: hedged-vs-floating.** It is the SWITCH on the ~Dec 2026 CRWV DSCR branch — resolve the split before any date is registered.
-5. ✅ **STATUS hot/cold split — WITHDRAWN** (denominator error, DOCKET L319). Rotation is the lever; five passes this session. **#105506 board-ID gap** — UNKNOWN; check whether PJM's message archive (not the board) resolves it.
-6. **🟡 Unchanged:** EL26-67 relationship (4 sources, still unestablished) · 6.5 GW gap (use the DM2 generation-outage series) · KB-WATT-034 metered-vs-DR split (PJM official was due "~early Sept") · ERCOT Cal-27 · NG=F settlement clock.
-7. **⚠️ WATT-11's window opens 9/15** — this week's quiet is **corroboration, not a resolved leg.** Do not score it early.
+1. 🔴 **P1 de-escalation 5→3 — execute at the first boot ≥9/26** IF the board and the FULL 9/25 tape show no EEA-class posting / no new §202(c) (the 08:10 $1,009 single print is already logged). Same letter as 9/11 (L-51 calendar days).
+2. 🟠 **`WATT-12` coverage duty** — the 5-min feed keeps ~15 days. **Next boot no later than 10/9**; every boot pulls the tape back to the last covered day.
+3. 🟠 **FERC on IRAS** — a secondary claims the effective deadline is **Fri 10/9** (10/12 = Columbus Day); **verify at FERC rules/eLibrary** before touching WATT-10's date.
+4. 🟠 **Answers owed TO me:** AEOLUS (heat leg 9/16–17 → classifies WATT-11 step 2) · BRENT (Appalachian basis; 8/13–8/16 still open).
+5. 🟠 **202-26-45 reports** — PJM "expected to file reports under the order": the first possible utilisation record for backup generation at large loads (limb (c)).
+6. 🟡 **Unchanged carry:** verified hourly `rt_hrl_lmps` for 9/16–9/17 (settlement-grade confirmation of the 5-min plateau) · 🔴 owed to VULCAN hedged-vs-floating · 6.5 GW gap (now one instance of L-53 (ii)) · EL26-67 · KB-034 metered-vs-DR (PJM overdue) · ERCOT Cal-27.

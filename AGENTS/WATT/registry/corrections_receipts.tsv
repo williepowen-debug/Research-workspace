@@ -1,2 +1,3 @@
 receipt_date	correction_id	action	note
 2026-09-11T14:40Z	COR-20260908-02	NO-OP	SIG-W-20260908-002 processed 9/10 (ninth session): grep over every WATT surface excluding inbox/ returns zero carriers of the HBM 4-5x multiple, the Samsung 70% lock or the NVDA memory share. Not a WATT figure; nothing to correct. Receipt written 9/11 at boot leg 7a.
+2026-09-25T13:13Z	COR-20260915-01	NO-OP	WATT dark 9/12-9/24; 9/14 gas NOTE never consumed; grep of AGENTS/WATT surfaces (excl inbox) for 4.16/GASREGW/Gas (wkly) = 0 hits 2026-09-25

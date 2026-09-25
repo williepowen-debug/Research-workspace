@@ -1,12 +1,13 @@
 # WATT — KILL_MEMO (pre-written cascade ladder)
 
-**Created 2026-08-17.** *Mandated by `CLAUDE.md` §THRESHOLDS — *"KILL_MEMO for any cascade trigger (pre-written ladder, decoupled from STATUS rewrites)"* — and absent since this seat was built (DAEDALUS §3 invalidation inventory, 8/7: **"KILL_MEMO absent"**).*
+**Created 2026-08-17 · last amended 2026-09-25 (A1).** *Mandated by `CLAUDE.md` §THRESHOLDS — *"KILL_MEMO for any cascade trigger (pre-written ladder, decoupled from STATUS rewrites)"* — and absent since this seat was built (DAEDALUS §3 invalidation inventory, 8/7: **"KILL_MEMO absent"**).*
 
 **Why it exists, in one line:** *when the thing fires, I will be composing under time pressure and with the tape in front of me — which is exactly when a threshold gets renegotiated.* This file is written **cold**, on a quiet day, so that the ladder is a **lookup** rather than a judgment.
 
 > ⚠️ **THIS FILE IS DECOUPLED FROM STATUS ON PURPOSE.** It must **not** be rewritten as part of a normal closeout. Change it only by a **deliberate, dated amendment** with a reason — and never while a trigger is live. **If you find yourself editing this file during an event, stop: that is the failure it was written to prevent.**
 >
-> **Amendment log:** *(none yet — created 8/17)*
+> **Amendment log:**
+> - **A1 — 2026-09-25 (quiet day; no trigger live — the 9/16–9/18 episode lapsed 23:59 9/18).** C1's *rationale* cell only; **no trigger letter changed.** Its base-rate sentence *"the pair has never co-occurred"* went false on **9/2** (EEA-1 #105479 live + 8 consecutive 5-min ≥$1,000, peak $1,868.78) and again on **9/17** (EEA-1 Max Gen Alert + 24 intervals ≥$1,000). What is still true is narrower: **EEA-2+ together with a sustained ≥$1,000 5-min tape has never been OBSERVED in this seat's record** — ⚠️ *not* "never co-occurred": the season's one EEA-2 (**7/3**) pre-dates the DM2 5-min feed (live 7/16), so its intraday tape is **UNKNOWN**; the only price read is the ICE daily proxy ($365.85 deliv 7/3, KB-021), and a daily average cannot rule out a sustained 5-min run. Asked by DAEDALUS PR-6 (R4 §WATT-5, 9/17). ⚠️ **Recorded, not reconciled:** C1 here (`EEA2+ AND LMP`) and the STATUS →5 RED conjunction (`EEA2+ OR (LMP AND [posting OR demand ≥97%])`) are **different boolean shapes for the same phenomenon** — on 9/2, 9/16 and 9/17 the STATUS rule fired and C1 did not, both correctly by their own letters. **The STATUS rule scores the channel; C1 triggers this ladder.** Do not read one as the other.
 
 ---
 
@@ -22,7 +23,7 @@
 
 | # | Trigger (ALL limbs required) | Why a conjunction |
 |---|---|---|
-| **C1** | **EEA2+ posting live** **AND** RT LMP ≥$1,000 sustained 2+ consecutive 5-min intervals | Either alone is common enough to be noise. EEA-1 happened twice in July with no RED price; **$1,217.52 printed 8/16 with no posting at all.** The pair has never co-occurred in this seat's record |
+| **C1** | **EEA2+ posting live** **AND** RT LMP ≥$1,000 sustained 2+ consecutive 5-min intervals | Either alone is common enough to be noise. EEA-1 happened twice in July with no RED price; **$1,217.52 printed 8/16 with no posting at all.** *(Amended A1, 9/25:)* EEA-**1** + sustained ≥$1,000 **has** co-occurred (9/2, 9/17) — **EEA-2+ with a RED 5-min tape has never been observed** (7/3's EEA-2 pre-dates the 5-min feed — tape UNKNOWN) |
 | **C2** | **DOE §202(c) emergency order** naming PJM **AND** a named large-load / data-center curtailment | §202(c) orders issue for many reasons; the *curtailment of a data center* is the specific event the whole P1→P3 coupling predicts |
 | **C3** | Demand **≥97% of trailing 24h peak** **AND** an emergency-class posting **AND** the 24h peak itself **≥158,000 MW** | The third limb stops a 97% reading on a *low* peak (an August Sunday) from masquerading as a July-grade event. **This limb was added because of 8/16** |
 | **C4** | **Spark spread NEGATIVE on ONE consistent basis, sustained 3+ sessions** | Gas-fired uneconomic = supply withdrawal. ⚠️ **One basis.** A level change between the ICE OTC proxy and DM2 RT on-peak is a **basis change, not a market move** (L-17) |
