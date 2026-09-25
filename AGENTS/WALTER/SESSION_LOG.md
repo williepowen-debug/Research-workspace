@@ -1,3 +1,30 @@
+## 2026-09-25 Fri — `walter-9c` **TIER-2 CLOSEOUT** (~22:1xZ, Will: "Okay lets close out here"). Clears the 9/25 `light-closeout — full deferred` breadcrumb below. BOARD 1042 → 1056 (14 dispatches: HANS-T-10 fire, #8 correction, gilts near-trigger, HY 280 at-line + X1-CLOSED correction, GATE-BRK-R2 fire, Brightline → CORAL, and relays). WQ-295 R3 harness built; watch lists tested for 8 desks; `intake_scan` WATCH_HIT fix. Independent end-of-session review SKIPPED (not adopted, OPEN DESIGN DECISION (k)).
+
+> **Rotated VERBATIM from STATUS at the 9/25 Tier-2 (the morning header, bottom line and network-awareness blocks):**
+>
+> **Updated 2026-09-25 13:42Z at a BOOT (`walter-9c`, Claude Opus 5.5, Will via Telegram "please boot up"; Tier-1 light closeout).** 🟢 **MARKETS OPEN. Live-level rows below were re-cut ~13:33Z (09:3x ET, first minutes of the session) and EACH CELL SAYS ITS BASIS.** ⛔ **Nothing here is a settlement. FRED is T+1: HY/CCC reach 9/23, T5YIFR/SOFR 9/24, VIXCLS 9/22.** Current obligations: [LAST_COMPLETION.md](LAST_COMPLETION.md). *(The 9/24 header and bottom line rotated VERBATIM to `SESSION_LOG.md`.)*
+>
+> ## BOTTOM LINE
+>
+> **Friday 2026-09-25. BOARD 1042 → 1052: 10 dispatches, 4 kills** (boot `-001`…`-005`; then Will's 5-image batch BM-20260925-01, CLOSED 5/5: `-006` breadth S5TH 45.12 [9/24] 6-mo low, `-007` Oracle financing loop → LIQUID, 5Y auction DUP, QQQ streak KILL; plus `-008` BRENT's BZ=F/RB=F overnight-roll warning; then batch BM-20260925-02 CLOSED 6/6: `-009` Miami-Dade Aug sales **−1 to −3% YoY** (the circulating −47% is vs the 2021 peak) → CORAL, three OddStats/curve items KILLED, the Barchart repeat DUP). The PJM WATCH_FOR[WATT] term is ENCODED in the lane (`ff21407`). 🔴 **NEW FIRE: `HANS-T-10` (France compound) FIRED 9/24.** OAT-Bund 109.9bp (>100) AND OAT 4.67% (>4.50), both legs on the same day for the first time; still both over 9/25 intraday (105.4 / 4.63) (`SIG-W-20260925-001`, IMMEDIATE → LIQUID + HANS; PROME via packet). ⚠️ The spread leg is ONE aggregator (ideal-investisseur); the level leg is corroborated (TradingEconomics, and PROME's own pre-fetch 4.6696%). ✅ **HANS was spawned on WQ-294 and GRADED T-10 FIRED on its own basis (HANS-F-006, 11:36 ET).** 🟡 **NEW NEAR-TRIGGER (`-010`): UK gilts 10Y 5.39–5.40 / 30Y 5.88–5.89 [TE 9/25 intraday], each ~11bp under HANS's orange lines (T-06 >5.50, T-13 >6.00). The gap has halved since 9/18, and HANS's registry still reads "moved AWAY".**
+>
+> **Boundary #8 GRADED by BRENT (WQ-252 interim: November governs through 10/14):** the 9/15–9/23 Nov crossing STANDS; 9/24 = $50.12 on the settle proxy, NOT MEASURABLE. **`-016`'s 'below $50 at the settle' used post-settle bars and is CORRECTED (`-002`).** December does not count. 9/25 intraday: all three months are below $50. Other relays: 10Y first close >5% was **9/16** (`-003`); CRMT fourth bridge to 10/1 → OTTO (`-004`); Feb-2026 MF CMBS DQ was **6.85, not 7.12** (`-005`). **Push DEFERRED** (VULCAN live and writing; PROME/VULCAN local commits in the train). Handoffs are committed locally.
+>
+>
+> ### Today's routing + stale agents (REGENERATED 2026-09-24 from REGISTRY.tsv after an 11-row header-only refresh)
+>
+> **Liveness re-read 2026-09-24 ~20:4xZ:** `ListAgents` live = `prome-f5`, `terry-db`, `bond-b0`, `carl-a7` + one unnamed bg session; **SAM's dir being written (boot-run 20:39Z) ⇒ IN-FLIGHT, not doorbelled**; foreign dirty tree CARL/CATO/TERRY/SAM/DAEDALUS ⇒ push deferred. *Earlier read, kept for the record —* **Liveness (9b, read 2026-09-24 ~16:2xZ; re-read it, never carry it):** `ListAgents` live = **`prome-26`, `marco-2a`**. `ORCH_INFLIGHT.md` **0 IN-FLIGHT** (generated 9/21). Foreign working tree: **MARCO and BOND writing** (MARCO had a staged rename in the shared index at boot) ⇒ pathspec-only commits.
+>
+> **REGISTRY refresh — 11 rows** (FLG, OZK, WAL, REGINALD, TERRY, LIQUID, VIOLET, FERT, FALCON, OSPREY, PROME), header-only per RULE 4. **REGINALD's 9/21 header-vs-commit divergence is CLOSED** (header now 9/24). ⛔ **TERRY stays divergent:** CURRENT STATE header 9/19 vs last commit 9/22. A header that has not moved cannot close the doctor's commit-keyed lag row. **TERRY's stamp, TERRY's desk.**
+>
+> **Dark-and-carrying-ACTION from today's 15 dispatches (`DOORBELL_LOG` +19 rows, 1 doorbelled):** BRENT `-001`/`-002`/`-003` **🔴 DOORBELLED on `-002`** (BG-02 window 9/25 17:00 ET; PROME receipt: BRENT spawns Tier-1 9/25 morning) · FALCON `-002` · HANS `-002` · RED `-004` (+ named correction COR-20260924-04, blocks RED's boot until receipted) · CARL `-005` · LIQUID `-006` · HENRY `-007` · BOND `-008`. Later rows: FALCON/BRENT `-010`, REGINALD `-009`, BRENT `-011`, LIQUID `-012`, CARL `-013`, HENRY `-014`, FALCON+HANS `-015`, all NOT doorbelled (named correction rows force receipts at boot). **The 18 non-doorbelled rows are the miss counter's denominator, each with its reasoning.**
+>
+> **Unconsumed backlog (doctor, boot):** 87 handoffs >2d across 17 desks, **24 ACTION, oldest ACTION 10d** (basis `delivery_log.timestamp_routed`). **Only the recipient closes that.**
+>
+> **Unregistered dir:** `AGENTS/CATO/` (manual-only reviewer, excluded from routing; WQ-255 with Will) — row NOT added. **Header dates are metadata freshness, never liveness.**
+>
+>
+
 ## 2026-09-25 Fri ~13:32–13:4xZ — `walter-9c` BOOT (Will via Telegram: "please boot up"). `light-closeout — full deferred`. Boot PARTIAL. `-001` 🔴 HANS-T-10 France compound FIRED 9/24 (OAT-Bund 109.9bp / OAT 4.67%; single aggregator on the spread leg) → LIQUID+HANS, PROME packet, HANS doorbelled → PROME WQ-294 · `-002` CORRECTION to `-016` (BRENT graded #8: Nov crossing stands; 9/24 50.12 not measurable) · `-003` 10Y first close >5% was 9/16 · `-004` CRMT 4th bridge → OTTO · `-005` CORRECTION Feb-2026 MF DQ 6.85 not 7.12. Inbox 8 consumed; REGISTRY 8 rows + YURI added; register banner struck. Push DEFERRED (VULCAN live, foreign commits in train).
 
 > **Rotated VERBATIM from STATUS `## BOTTOM LINE` (the 9/24 version), 2026-09-25:**

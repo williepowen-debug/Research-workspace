@@ -1,154 +1,120 @@
 # WALTER — LAST COMPLETION
 
-Session: **2026-09-25 Fri, Claude Opus 5.5 as WALTER (`walter-9c`)**, Will via Telegram ("please boot up", ~13:32Z). **Closeout tier: TIER 1 (light; mid-day boot, full deferred).** The 9/24 `walter-f9` record follows verbatim below this block.
-
-## BOOT — 2026-09-25 ~13:32–13:4xZ (`walter-9c`)
-
-**Boot PARTIAL.**
-- **Run:** 0 (no pull needed: 0/0 vs origin after fetch; foreign dirty tree) · 0.5 doctor **0 HIGH / 12 MED** (8 were registry lag, cleared at step 8) · 1–4 · 6 (both routing files whole) · 6b (RED scan sha256 == canon; counted 12/8/11/17; no registry commit since the 9/24 read) · 6c (FRED CSV, Yahoo named contracts, EIA Cushing; **HANS-T-10 checked by web and FIRED**) · 7 (BOARD: no ids after 9/24-025) · 7b CLOSED · 7d clear · **7g BEFORE 7e** (8 packets read whole, all dispositioned) · 7e (lane OK, 0 NEW) · 7e(f) phone lane not enacted · 7f empty · 8 (8 rows + YURI added; CATO excluded per WQ-255) · 9 (LIAISONs dormant; 0 REQ files) · 9a rc 0 · 9b.
-- **Not run:** CREED-T-08a · HANS gilts (`T-06`/`T-13`), Italy (`T-09`), storage (`T-08`) · FILTER_SPEC Boot Context scoped reads · BOARD per-signal read checks (no new ids) · FLG rent-freeze manual search (FOLLOW-UP #5).
-- **Checks:** `reads_check` UNKNOWN (attestation stale) · `boot_basis_check` REVIEW ×12 · `read_cap_check` rc 1 = **1 manifest defect** (the `RESEARCH-INTAKE/phone_inbox/signal_*.md` READS row has never matched a committed file; DAEDALUS flagged it too) — READ-CAP 0 over budget within 28 declared reads, heuristic perimeter.
-- **9b readiness:** live = `prome-2e`, `brent-f6`, `vulcan-90`, `watt-a7`, `midas-69`. IN-FLIGHT per PROME (09:4x ET): BROCK, RED, YURI, ZHAO due-row spawns. `ORCH_INFLIGHT.md` generated 9/21 (0 rows): stale as an instrument. **Dark and carrying ACTION: HANS** (last authored commit 9/19; 12 older WALTER handoffs + `-001`), doorbelled. The doctor's aged backlog: 36 handoffs >2d across 4 desks, 4 ACTION (basis `delivery_log.timestamp_routed`).
-
-**Dispatched (BOARD 1042 → 1047), all committed LOCAL, push DEFERRED:**
-- `-001` 🔴 IMMEDIATE — **HANS-T-10 FIRED 9/24** (OAT-Bund 109.9bp / OAT 4.67%) → LIQUID + HANS action; PROME packet (`1fe4e0e7f`). Doorbell HANS YES → **PROME registered WQ-294 (HANS spawn) for Will's word** (the WQ-184 cap was used by BROCK/RED/YURI/ZHAO). PROME's pre-fetch corroborates the level leg (TE 4.6696%). The spread leg is single-aggregator.
-- `-002` CORRECTION of `-016` (COR-20260925-02 → HENRY, REGINALD): BRENT graded #8, the Nov crossing stands, and 9/24 = 50.12 NOT MEASURABLE.
-- `-003` 10Y first close >5% was 9/16; HENRY/BROCK red rungs; **BROCK ACTION: its "premise true when written" is wrong** (9/16 5.01 was published by 9/21).
-- `-004` CRMT fourth bridge to 10/1 → OTTO action.
-- `-005` CORRECTION of `-0921-005` (COR-20260925-05 → CREED, REGINALD): Feb-2026 MF DQ was 6.85, not 7.12.
-- Back-markers on `-0924-016` and `-0921-005`. `CORRECTIONS.tsv` banner: D4 checker shipped (`7ae7fa833`); stale lines REPLACED. My first note wrongly said "SAM now reads rc 1"; SAM had receipted APPLIED 9/24 21:33Z, so rc 0 is correct. Caught by running the checker before commit; fixed.
-- **Push DEFERRED (charter 16):** VULCAN is live and writing, and the train carries PROME and VULCAN local commits. PROME said "push when your protocol allows"; the protocol says defer. The doctor showed the 9/25 handoffs committed-not-on-origin; they were delivered later the same morning (see receipt addendum). All desks run on this box, so local spawns read the working tree.
-
-**LATER (~14:14–14:2xZ): Will's 5-image batch BM-20260925-01 CLOSED 5/5.** `-006` ROUTINE breadth (S5TH 45.12 [9/24]; Marlin's '0.5% from a record' is the 9/22 figure, the March-2000 analog is unverified) · `-007` PRIORITY Oracle financing loop (post unattributed, figures are the author's LSEG model) + VULCAN's Jupiter FM / CDS record (single-source) / 10-Q leases → **LIQUID ACTION** (GATE-LIQ-069) · item 4 5Y auction DUP of `-0924-009` · item 5 QQQ streak KILL (played out 9/23, −0.84%). Plus `-008` ROUTINE: BRENT's BZ=F/RB=F overnight roll (9/25 −7.8%/−9.8% fabricated). 12 new handoffs, LOCAL until the next push. Reply to Will: msg 4671 (no Oracle position in the 9/20 FORGE mirror).
-
-**LATER (~14:25–14:2xZ): batch BM-20260925-02 CLOSED 6/6.** `-009` PRIORITY → **CORAL ACTION**: Miami-Dade Aug closed sales ~1,770–1,900 by compiler, **−1 to −3% YoY** (MIAMI REALTORS county line −3.1%, read at the release; PBP/BeachesMLS 1,825). The post's −47% is vs the Aug 2021 peak; 'lowest since the crash' and the $5,000/$80,000 math are unverified; 'exodus' = buyers, not migration (MARCO info). CORAL dark since 9/13, NOT doorbelled (no dated referent). Kills: the OddStats analog tables (selection decides the sign), the 76-day streak (resolved 9/22), the 2s10s doji (stale; the curve bear-steepened to 0.31 [9/24]). The Barchart image is a byte-identical repeat → DUP. 3 handoffs LOCAL.
-
-**LATER (~15:3xZ): WQ-295 harness work + a 6c gap found through it.** HANS (spawned on WQ-294) **CONFIRMED T-10 FIRED** (HANS-F-006); DOORBELL_LOG consumed_at filled; HANS's `-001` handoff file is still unmoved (HANS's to move). While testing HANS's phrases, the live European corpus showed gilts moving; **gilts were NOT pulled at boot**. WALTER pulled TradingEconomics and dispatched **`-010` PRIORITY near-trigger → HANS ACTION**: UK 10Y 5.39–5.40 / 30Y 5.88–5.89 [9/25 intraday], ~11bp under T-06/T-13, the gap halved since 9/18. The WQ-295 tests are done for WATT (8 phrases to land), VULCAN (9 of 11) and HANS (10 of 12, and **HANS has no lane query**, so its list is near-inert until one lands). Packets `45100b0fd`, `49a5aa5ae`, `f61d5c0ed`.
-
-**Telegram to Will:** boot report sent (msg 4663). It said "no decision today". ⚠️ **PROME has since registered WQ-294 (the HANS spawn) for Will's word, so a follow-up line owes him that.**
-
-## BOOT LEG (9/24, 20:34Z) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25 ②" (2031 B, crc32 5be16217). Superseded by the 9/25 boot; its open items are carried in FOLLOW-UP.
-
-## LATER LEG (9/24, ~18:30–19:3xZ) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25" (4938 B, crc32 9f988ce8) for the read-cap budget. Its open items are already carried in FOLLOW-UP / OPEN DESIGN DECISIONS below.
+Session: **2026-09-25 Fri, Claude Opus 5.5 as WALTER (`walter-9c`)**, booted ~13:32Z on Will's Telegram "please boot up"; **TIER-2 CLOSEOUT ~22:1xZ on Will's "Okay lets close out here"**. It supersedes the 9/24 `walter-f9` record (in git history; `git log -p -- AGENTS/WALTER/LAST_COMPLETION.md`).
 
 ## STATUS
 
-Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HIGH / 17 MED**) · 1–4 · 6 (both routing files whole, v0.38) · 6b (all four registries; **RED scan-view sha256 matched canon**; counts off the files: RED-FT **12**, REG-T **8**, CREED-T **11**, HANS-T **17**) · 6c (live scan, markets open — **CREED-T-08a not computed; HANS Bund/gilts/storage not pulled**) · 7 (BOARD: no signals after 9/21; **FILTER_SPEC Boot Context scoped reads NOT run**) · 7b CLOSED · 7d clear · **7g before 7e** (4 packets read whole) · 7e (lane OK, 1 missed weekday run) · 7e(f) phone lane not enacted · 7f (1 image) · 8 fs-scan · 9 (both LIAISON dormant; 0 REQ files) · 9a rc=0 · 9b.
-⚠️ **`reads_check` = READS-CAP UNKNOWN** (attestation 9/15; `dashboard.py` committed 9/23 after it). **`boot_basis_check` REVIEW REQUIRED ×11 paths.** ✅ `read_cap_check` rc=0 — **READ-CAP 0 within 19 cap-bearing reads in the desk's ATTESTED manifest; perimeter = the desk's declaration, not a scan.** Iran guard corpus (62,992 B) read by SECTION for the dispatch-relevant blocks, not whole.
+**Boot: PARTIAL, gaps named.**
+- **Run:** 0 (no pull needed, 0/0) · 0.5 doctor (0 HIGH / 12 MED) · 1–4 · 6 (both routing files whole) · 6b (RED scan sha == canon; 12/8/11/17) · 6c · 7 · 7b CLOSED · 7d clear · 7g before 7e (8 packets) · 7e · 7e(f) not enacted · 7f empty · 8 (8 rows + YURI) · 9 · 9a rc 0 · 9b.
+- **Not run at boot:**
+  - CREED-T-08a;
+  - HANS gilts (found later, `-010`), Italy and storage;
+  - the FILTER_SPEC Boot Context scoped reads;
+  - the FLG manual search. (The lane's 9/24 FLG watch hits were already covered by `-0924-023`.)
+
+**Closeout:** Tier 2.
+- Done: 13 REGISTRY (11 rows) · 12(a)/(b)/(d)/(e) STATUS regenerated to 9/25 CLOSES (the morning blocks went VERBATIM to SESSION_LOG) · 12(f) budget · 14 MEMORY · 15 this file · 16 commit/push/reconcile (see receipt).
+- ⚠️ **SKIPPED, reported as skipped:** the independent end-of-session review, which is OPEN DESIGN DECISION (k) and not adopted. Today's session self-corrected 4 of its own errors (below); **an independent reader was NOT run.**
 
 ## CHANGED
 
-**BOARD 1017 → 1032:** `SIG-W-20260924-001` … `-015` (`-011`…`-015` are corrections from an independent review of this session's work) · `BOARD/INDEX.md` regenerated · `route_log` **+15** · `delivery_log` **+54** · **54 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+19** (1 YES) · `CORRECTIONS.tsv` **+7 named rows** (COR-20260924-04 RED · -09 REGINALD · -11 BRENT · -12 LIQUID · -13 CARL · -14 HENRY · -15 FALCON+HANS) · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead re-stamped twice (originals VERBATIM in HISTORY § "Rotated 2026-09-24" and "Rotated 2026-09-24 ②") · guard **ADD#26** · backward markers on `-001`/`-002`/`-003`/`-005`/`-006`/`-007`/`-008`/`-010` · `REGISTRY.tsv` 12 rows (11 desks + WALTER's own) · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
+- **BOARD 1042 → 1056:** `SIG-W-20260925-001`…`-014`. Kills +4 · 3 batch manifests CLOSED (BM-20260925-01 5/5, -02 6/6, -03 6/6).
+- **CORRECTIONS.tsv +3 named rows:** COR-20260925-02 (HENRY/REGINALD), -05 (CREED/REGINALD), -13 (ALL).
+- **DOORBELL_LOG:** +12 rows (HANS doorbelled → WQ-294 → spawned and consumed) · **8 PENDING rows back-filled** from owner board_logs (staleness #5).
+- **REGISTRY.tsv:** 8 rows at boot + YURI added + 11 at closeout.
+- **Tools:**
+  - 🆕 `tools/watch_for_harness.py` (WQ-295 R3; `--live` + a lane-only warning; self-tested);
+  - ⛔ `tools/intake_scan.py` **now surfaces NEW_WATCH_HIT (ACTION → the owning desk) and DEVELOPMENT (INFO) per item.** It never had.
+- **Charter:** 7e(d) HY line corrected to LIQUID's letter (`>280` strict + conjunctive; at-line = PRIORITY).
+- **CORRECTIONS.tsv header:** the D4 banner struck (DAEDALUS 7ae7fa833).
+- **MEMORY:** findings #30–#32. **STATUS / SESSION_LOG / LAST_COMPLETION:** re-cut; three verbatim rotations (crc-stamped) for the read-cap budget.
+- **PROME inbox packets (carve-out ①):** 13 today (HANS-T-10 · PJM term · cadence · watch-term verdicts WATT/VULCAN/HANS/BRENT/MIDAS/HAWK/BROCK/TERRY · VULCAN correction · live rechecks · intake_scan defect).
 
-## RESULT (9/24 session) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25 ③" (3384 B, crc32 9dc88907). Its open items are carried in FOLLOW-UP / OPEN DESIGN DECISIONS.
+## RESULT
+
+1. 🔴 **`HANS-T-10` France FIRED 9/24** (OAT 4.67% / OAT-Bund 109.9bp, both legs): `-001` IMMEDIATE. HANS was doorbelled → WQ-294 → HANS confirmed it on its own basis (HANS-F-006).
+2. **Boundary #8 graded by BRENT** (`-002`, a CORRECTION of `-016`): the Nov crossing 9/15–9/23 stands; 9/24 = 50.12, not measurable. 9/25 close ~49.27, also inside the vendor spread. **BRENT's BG-02 instance LAPSED 17:0x ET (NOT MET).**
+3. **Relays and corrections:**
+   - `-003`: 10Y first close >5% was 9/16.
+   - `-004`: CRMT fourth bridge to 10/1 → OTTO (CRMT $1.06 close 9/25, −22%).
+   - `-005`: CORRECTION, Feb-2026 MF CMBS DQ 6.85, not 7.12.
+   - `-008`: BZ=F/RB=F roll artefacts.
+4. **Will's image batches:**
+   - `-006` breadth (S5TH 45.12);
+   - `-007` Oracle financing loop → LIQUID;
+   - `-009` Miami-Dade sales −1 to −3% YoY (the −47% is vs the 2021 peak) → CORAL;
+   - kills: OddStats ×3, the 2s10s doji, QQQ streak.
+5. 🟡 **`-010`:** UK gilts ~11bp under HANS's orange lines (10Y 5.40 / 30Y 5.89, TE intraday). HANS's registry still says 9/18.
+6. **`-011` HY OAS 280 [9/24] = AT the line** (RED-FT-01 exit day 1/3). **CORRECTED by `-013`:** X1 CLOSED (decided 8/28, KB-BRK-219), not "pending arbiter".
+7. **`-012` GATE-BRK-R2 (a) FIRED** (North Haven PIF, 3rd prorated quarter; a queue, not flight) → LIQUID + OTTO.
+8. **`-014` Brightline Florida prearranged Ch.11** (9/24, $490M RSA; trains running; impaired debt unstated) → CORAL.
+9. **Fleet infrastructure (PROME-orchestrated WQ-295, R3 = WALTER's harness):**
+   - PJM WATCH_FOR[WATT] root-caused and landed;
+   - lists tested for WATT, VULCAN, HANS, BRENT, MIDAS, HAWK, BROCK and TERRY (the tally is in FOLLOW-UP #3);
+   - the MIDAS PGM query and the BRENT Aramco-OSP query were live-tested;
+   - the matcher question was answered with data (stay substring; a suffix-aware boundary is measured at 1 byline false removed, 0 true lost).
+10. ⛔ **`intake_scan` defect fixed:** the whole WATCH_FOR → WALTER path had been dead (17 WATCH_HIT + 8 DEVELOPMENT lost on 9/18–9/24; the loss check found the owners had them).
+
+⛔ **No WALTER-scanned registered trigger moved except via its owner. $0.**
 
 ## GAPS
 
-- 🔴 **TIMESTAMP DEFECT, THIRD SESSION IN THREE:** `-003` was stamped **17:16:00Z by estimate** while the clock read **17:13:23Z**. Caught by reading `date -u` for the next stamp, not by any check. Corrected before commit. **Decision (g) stands and is now n=3.**
-- 🔴 **A FALSE CONTAMINATION CALL, RETRACTED:** WALTER logged the "White House no longer considering the diesel ban" line as search-summary contamination because ONE fetched Fox article lacked it. **The denial was on the record in Reuters and The Hill (9/23).** An absence in one article is not an absence. Corrected by `-011`. The "blamed on Iraqi militia" item was also superseded: Rubio named Kataib Hezbollah on the record (`-010`).
-- **Three diesel-ban bodies unread** (Axios/CNBC 403, US News timeout). `-003` confidence is set to 0.55 for that reason.
-- **6c incomplete:** CREED-T-08a not computed; HANS Bund / gilts / storage not pulled; Cushing taken from BRENT's 9/23 read, not re-pulled; SPR not refreshed.
-- **Doorbell MISS candidate to grade:** SAM `-0921-018` is still UNCONSUMED, and Tokyo reopened today. On 9/21 WALTER logged this as the "closest NO".
-- **`reads_check` UNKNOWN; `boot_basis_check` REVIEW ×11.** CARL-DR-1 deep-research flag 6d past deadline.
-- **Consumed vs not, the 9/21 ACTION lines:** HAWK `-014`/`-020`/`-021` ✅ · LIQUID `-017` ✅ · BRENT `-019` ✅ · **HOMER `-015` · HANS `-016` · SAM `-017`/`-018` · BROCK `-017` UNCONSUMED.** Only the recipient closes that.
+- 🔴 **Four WALTER errors today, each self-caught and corrected:**
+  1. VULCAN phrases passed lane-only then failed live (and 8 more across desks). The lesson is now an R3-letter clause.
+  2. `intake_scan` described from the producer's code (MEMORY #32).
+  3. The `-011` stale arbiter state was relayed without checking the memo it cited (`-013`).
+  4. Two register-note / byte-budget slips were fixed before or at the next commit.
+- 🔴 **INBOX RE-SCAN GAP:** two LIQUID packets (the `-011` correction; Brightline) were committed at 13:14 ET and sat **UNREAD ~5h**. WALTER did not re-scan `inbox/` during the afternoon's harness work, and no doorbell came. Will was told the stale arbiter caveat at ~13:1x and corrected at ~18:0x (Telegram 4682).
+- **The morning's HANS gilt rows were skipped at 6c** and found by accident (`-010`). Now in MEMORY NEXT SESSION as a promise to Will.
+- **A shared-repo rebase rewrote some of WALTER's unpushed commit hashes today** (e.g. the TERRY verdict `bcbbc6107` → `47d8532ee`). Commit hashes quoted in today's messages may not resolve; verify by subject.
+- **Doctor MED:** 29 handoffs >2d unconsumed (SHADE 17, CREED 10, CORAL 2; 2 ACTION, oldest 11d) · the delivery_log NOTE/AMENDMENT rows · CARL-DR-1 7d past deadline.
+- `reads_check` UNKNOWN (attestation stale) · `boot_basis_check` REVIEW ×12.
 
 ## WILL_NEEDS
 
-1. ⚠️ **UPDATED 9/25: an INTERIM ruling exists (WQ-252: November governs through 10/14; the permanent choice goes to the 10/06 sitting). BRENT graded on it.** **#6/#8 contract-month basis — now decisive:** on November, #8 was above $50 on 8 sessions (9/15–9/23) and fell to ~$49.4 into the 9/24 settle window (`-016`); on December the run was 2 sessions (9/22–9/23), so **sustain-3 was not met**; on January it never fired. Vendor bars, not settlements (BRENT settles it 9/25). Pending since 9/14. WALTER recommends no month and does not pick one.
-2. **CATO** registration — still with Will (WQ-255). No REGISTRY row added.
-3. **WQ-275** — FALCON doorbell disposition, with Will/PROME. Not WALTER's call.
-4. 🆕 **HAWK F1/F2 (CHECKLIST verdict table), structural, proposal owed to Will under RULE 8:** F1 — the (a)/(b)/(c) INDETERMINATE reasons are exclusive per PRIMARY, not per CLAIM; F2 — no rule for CONFLICTING primaries. WALTER has not yet drafted the proposal.
+1. **WQ-295** (the dark-desk class: R1 cadence table, R2 wake, R4 SL-6). R3 is running without a ruling. **The R3 addenda (the corpus clause; the consumer-described-from-producer finding) are in the record.**
+2. **#6/#8 contract-month basis:** interim WQ-252 (November governs to 10/14); **the permanent choice is at the 10/06 sitting.**
+3. **WALTER cadence declared DAILY** (15/45 weekdays missed, 7/27–9/25). WALTER is Will-launched, so it implies a WALTER session most weekdays. Will can overrule it.
+4. CATO registration (WQ-255) · WQ-275 FALCON doorbell · **HAWK F1/F2 CHECKLIST proposal (owed by WALTER, RULE 8, not drafted).**
 
 ## FOLLOW-UP
 
-1. ✅ **Iran FULL sweep DONE 9/24 17:3xZ (`SIG-W-20260924-010`; next ~10/01).** Limits: UKMTO primaries unread (403); the 9/23 vessel is unnamed; transit vendors disagree by an order of magnitude; no fresh war-risk quote. New guard **ADD#26**. `-002` back-marked (its 9/21 LPG line was wrong on date). **Watch the 9/23 hull that is adrift and on fire: if it sinks, check which sea before which gate.** 🆕 **At the ~10/01 sweep, reconcile the 8/28 headlines "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" (FOX 10, Economic Times). They are NOT in the anchor; write a guard if they turn out real-then-reversed, since they are a live date trap.**
-2. 🔴 **(9/24 later leg: computed; Nov fell below 50 into the settle, `-016`.)** **Scanner leg for boundary #6/#8** — see OPEN DESIGN DECISION (j). Until one exists, **compute the matched Nov/Dec/Jan 3:2:1 and the gasoline crack at every 6c** (recipe in `-001`: yfinance named contracts `BZ/RB/HO` + `X26/Z26/F27`).
-3. ✅ **DONE 9/25 (BRENT grade → `-002`).** **Grade the #8 dispatch's outcome:** BRENT spawns 9/25 AM (PROME receipt), grades BG-02 at 17:00 ET, and settles #8 on a settlement source. **Check at next boot: did BRENT confirm or un-fire December?**
-4. **(F3 ✅ FIXED v0.49, 9/24. F1/F2 STILL OWED as a proposal to Will. F4 is an observation.)** **HAWK's four v0.47 verdict-table flags (F1–F4)** are WALTER's to fix in CHECKLIST: per-primary vs per-claim exclusivity · no rule for conflicting primaries · INDETERMINATE row vs note = two live instructions · covered vs uncovered absence share a label. **A spec change under RULE 8.** F3 is an inline clarification; F1/F2 are structural and go to Will as a proposal.
-5. **(9/24 20:4xZ search → `-023`: no stay; merits ruling by year-end; 9/29 production.)** **FLG rent-freeze watch — manual search at each WALTER boot through 10/07** (Kenilworth v. RGB, Index 85199/2026; PRIORITY → FLG, info REGINALD/HOMER). The PROME encode is carried on PROME SCRATCH.
-6. **Reconcile the remaining rows after the next push** (see receipt).
-7. **Carried, re-checked:** BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` and CARL `-0911-008` closure proofs unchecked · four event ledgers undeclared EVENT-DRIVEN · **`fetch.py`'s FRED mirror trailed the FRED CSV on release day** (MORTGAGE30US showed 6.95 at 16:45 ET while the CSV had 7.03; PROME, 9/24). Quote release-day FRED levels off the CSV endpoint. · **`fetch.py` identity: `BZ*.NYM` and `TTF=F` still resolve `contract: UNKNOWN` (re-observed 9/24).** · Multifamily ~6.85% vs 7.12% (HOMER, via `-015`, **still unconsumed**) · Reuters 9/13 vs MoE 9/11 Petroline shutdown date (unresolved; the anchor keeps 9/11).
-7b. ✅ **DONE 9/24 later leg (`-017`, WALTER-verified).** **DEWEY correction candidate (CARL-DR-5):** the *"unit volume outweighs price ⇒ nominal grocery sales FALLING"* sub-claim riding `SIG-W-20260813-019` is **SEARCH-NOT-FOUND in the Bain release** per DEWEY, and is contradicted by Census/BEA nominal series. **WALTER has NOT re-verified it.** Open the Bain release, then decide on a correction signal (recipients of `-0813-019`). DEWEY suggests LABOR as an info route for DR-5. **CARL-DR-1 stays PARTIAL, 2 of 6 legs; the 9/18 deadline has passed; run or drop is CARL/PROME's.**
-8. **The 9/20 RESEARCH-INTAKE breach (13 NEW_WATCH) deferred on 9/21 LAPSED unrouted** — the lane's later run superseded it and `--mark` reconciled the baseline. **Recorded as a lapse, not a routing.**
-10. ✅ **DONE 9/24 (prune run 1; see LATER LEG). Remaining: DAEDALUS's checker edit.** **WQ-254 RULED (P4 sitting; Will 2026-09-24 14:59 ET, verbatim in `PROME/proposals/2026-09-24_wq-batch-282-254-261-260-276-RULED.md` row 254; packet consumed 19:05Z). D4(a) APPROVED: a passed cap never clears a NAMED target's block. WALTER's leg: the FIRST PRUNE of `registry/CORRECTIONS.tsv`** against the package's control table (`AGENTS/DAEDALUS/runs/2026-09-17_P4_SITTING_RULING_PACKAGE.md` §3: **10 RECEIPTED · 1 DEAD-AT-CAP · 7 LIVE · 0 RETIRED**). ⚠️ **That control was taken 9/17 08:3x ET on 18 rows; the register has 25 now.** Diff the 18 against the control first, then prune the 7 added since. **No prune tool exists**, because `corrections_boot_check.py` has no prune mode. ⚠️ **Sequencing:** the checker at L139 skips DEAD-AT-CAP rows. Marking SAM's `-0826-02` DEAD-AT-CAP left SAM's rc at 0 (unchanged), **but it HID SAM's 'INFO 1 dead-at-cap' line** because the L139 skip runs first — observed at the prune, recorded in the register header, packeted to DAEDALUS. It BLOCKS only once DAEDALUS ships the A3 checker edit.
-11. ✅ **DONE (FORMAT_SPEC v0.22).** **D5: WALTER's own spec, and Will gave no word.** A `KILL-STRINGS:` line (field ④, the literals a consumer greps for) on every CORRECTION-class SIG-W, in the BOARD template, forward-only. Rec (a). Adopt, reshape or decline. Tell PROME only if it changes how a consumer reads. RULE 8: an optional field is an inline change in the OWNING spec.
-12. ✅ **DONE (`CORRECTIONS.tsv` header).** **D6 RATIFIED: one pointer line in WALTER's spec.** *A correction that never crossed BOARD still gets its row from the corrector: the retirement block EMITS it*, citing `CORRECTION_FORM.md`.
-13. **Push the local train** once the tree is clean (step 16), then run `reconcile_delivery_log.py --apply`. **As of the boot leg: `-019`'s rows were reconciled delivered (`4b67f913d`, itself local), and the 12 new handoffs for `-020`…`-024` are `pending`.**
-14. ✅ **REGISTRY rows NEXUS + ORACLE refreshed ~19:4xZ.** (The first deferral called them mid-write; the independent review found both had committed and were clean, so the reason was stale.)
-15. ✅ **9/25: USD/JPY 157.05, back below the rate-check level; no intervention found; SAM consumed 9/24.** **Next boot:** did PROME spawn SAM before Tokyo, and did an intervention happen? Did BRENT grade #8 on SETTLEMENTS (Nov was below 50 at the 9/24 settle; December's sustain is 2)?
-16. 🆕 **(9/25) YURI routing row** — DAEDALUS ASK: a `RUSSIA_STATE_ACTION`-shaped row → YURI primary, OSPREY/HAWK info. **RULE 8: the domain code goes into FORMAT_SPEC first; adding an enum value plus a routing row is an inline change, but check the Domain Vocabulary owner first.** Until then YURI has a REGISTRY row with no domain code, so no domain route can reach it.
-17. 🆕 **(9/25) WQ-286 ④ RULED (PROME packet):** add the spec line "a RETIRED row does not discharge a NAMED target without that target's receipt; the prune record lists, per RETIRED row, the named targets lacking a receipt" to the `CORRECTIONS.tsv` header (WALTER's spec). **Receipt to `PROME/inbox/` when it lands.**
-18. 🆕 **(9/25) READS.tsv manifest defect:** the row `RESEARCH-INTAKE/phone_inbox/signal_*.md` (7e-f, `whole`) never matched a committed file (the path is in the off-repo lane). Re-declare it (mode/notes = off-repo intake git cannot certify) in `PROME/registry/READS.tsv`. **PROME-owned file ⇒ packet PROME, do not edit.**
-19. 🆕 **(9/25) HENRY now cites Barr's "further policy adjustments are likely" at primary** (STATUS 9/25). `-009` told REGINALD "Barr UNVERIFIED". Consider a small update to REGINALD.
-20. 🆕 **(9/25) HEN-46 F1 / GATE-TERRY-VLO-SCALE:** Nov ULSD crack 95.57 [9/24], $0.57 above `<$95` (BRENT STATUS). This is a HENRY/TERRY grade; watch it.
-21. ✅ **DONE ~13:5xZ: WATT's push carried the train; reconcile flipped 19 → delivered** (the "20" was a miscount; the true count is 19). Commits made after `7b1029fa5` are local until the next push.
-22. ✅ **(9/25) Staleness #5 DONE:** 8 DOORBELL_LOG rows back-filled from owner `board_log.tsv`s; all consumed by their referent except **L22 = MISS (letter), cause PRE-DISPATCH** (WALTER's 4-day lag). 🆕 **Owed: a `walter_doctor` step reading `consumed_at` from recipients' `board_log.tsv`** (DAEDALUS rec). P2 FP-rate proposal still carried.
-23. ✅ **DONE (9/25) PJM intake term: PROPOSED (`04de1dac6`), CONFIRMED by WATT (`72e14592b`), 3 extra candidates TESTED clean, ENCODED by PROME in RESEARCH-INTAKE `ff21407`.** Verified by WALTER at the lane: 14 terms, exact match; both missed 9/16–18 headlines now classify NEW_WATCH_HIT; an ordinary PJM headline stays NEW. DOCKET 10/02 half (a) DONE; the DAEDALUS census half stays open. **Watch: if `DOE emergency order PJM` pages on a plant must-run order, drop it first.** WATT confirms 9/1–3 is in its count (caught live); **that miss was WALTER-side routing only.** Root cause: the lane caught the 9/16–18 PJM emergency, but `WATCH_FOR["WATT"]` does not exist, so the items classed as plain NEW and never reached `intake_scan`. New BOARD rule declined (POWER_GRID row + RULE 13 already cover it). Also: WALTER never routed the **9/1–9/3** PJM emergency either; that is WATT's to count. 14/22 query-agents have no WATCH_FOR (census to DAEDALUS via PROME). READS row 153 wording sent (recommend retire). **FOLLOW-UP #18 is thereby discharged to PROME.**
-24. 🆕 **(9/25) WQ-295 R3: WALTER = the harness (`tools/watch_for_harness.py --live`).** Tally (the census PROME/DAEDALUS L487 needs): WATT 21 · VULCAN 11 · HANS 10 (no query) · BRENT 9 (Hormuz off-ramp: no clean phrase) · MIDAS 11 · HAWK 8 · **BROCK 6 landed** · **TERRY 1 clean (+1 owner call; 6 rejected)** · queries aramco-osp + pgm. Pending re-tests from the 9 other pre-WQ-295 owners (PROME asked, due 10/02). ⛔ The lane-only method failed 12 phrases, all removed. The R3 corpus clause is in the WQ-295 record.
-25. 🆕 **(9/25) `intake_scan` WATCH_HIT fix (`cc9c14017`):** NEW_WATCH_HIT → ACTION to the owning desk, DEVELOPMENT → INFO, per item. **At every 7e now expect ~1.6 hits a day from the pre-WQ-295 lists** (HENRY `refinery attack`/`Hormuz reopening`, SAM's broken `USD/JPY above 162`). Triage by hand until the owners' R3 re-tests land (asked of PROME).
-26. 🆕 **(9/25) HY OAS 280 [9/24] → `-011` PRIORITY (at the line; FT-01 exit 1/3; X1 not met).** ⛔ **When the lane's 9/25 run lands, its `fred:BAMLH0A0HYM2` RED onset is COVERED by `-011`: `--mark` it, do NOT re-push.** Watch the 9/25–9/26 prints: FT-01 exit, and X1 on a print >280.
-9. **Watch:** **9/25** BG-02 17:00 ET · Baker Hughes (BRT-26) · **9/26** FSB Narva · **9/22–29** UNGA · **9/30** Russia diesel ban expiry (HEN-46 F3) · Brent Nov expiry ~9/30–10/01 · Iraq pullout · the standing size-check block · **10/01** NYC rent freeze effective.
+1. **Next boot, 7e:**
+   - The lane's 9/25 run: **its `fred:BAMLH0A0HYM2` RED onset is COVERED by `-011`/`-013`. `--mark` it, do NOT re-push.**
+   - Expect ~1.6 hits a day from the pre-WQ-295 lists (HENRY `refinery attack` / `Hormuz reopening`, SAM's broken `USD/JPY above 162`). Triage by hand until the owners' R3 re-tests land (due 10/02).
+2. **Re-scan `inbox/` at every task boundary, not only at boot.** Today's 5h gap is the instance.
+3. **WQ-295 R3 tally** (the census PROME/DAEDALUS L487 needs): WATT 21 · VULCAN 11 · HANS 10 (no lane query) · BRENT 9 (Hormuz off-ramp has NO clean phrase) · MIDAS 11 · HAWK 8 · BROCK 6 · TERRY 1 (+1 owner call) · queries aramco-osp + pgm (pgm PASS, landing is PROME's).
+   - Pending owner words: BROCK (2 replacements + a key question), TERRY (replacements), HAWK (replacements), VULCAN (§1 replacements).
+   - Pending re-tests: HENRY · SAM · CARL · FLG · REGINALD · LABOR · LIQUID · MARCO · OTTO (by 10/02).
+4. **CORAL:** dark since 9/13, now holding `-009` and `-014` (both Florida ACTION). Flagged to PROME; **re-run the doorbell gate at the next boot with CORAL's p75 cadence computed.**
+5. **HY watch:** the 9/25 and 9/26 FRED prints decide RED-FT-01's exit (≥280 s3). X1 opens only on a print **>280** (and BROCK's conjunct).
+6. **HANS gilts:** re-pull T-06/T-13 at 6c (a promise to Will, MEMORY). HANS's registry still reads 9/18.
+7. **Iran full sweep ~10/01:** reconcile the **8/28 "Hormuz reopens" / "US clears mines"** headlines (not in the anchor; a date trap). Watch the 9/23 adrift hull.
+8. **Boundary #6/#8:** compute the matched Nov/Dec/Jan 3:2:1 at every 6c until OPEN DESIGN DECISION (j) lands. **BZX26 expires 9/30**, so the November basis loses its Brent leg.
+9. **Owed by WALTER:**
+   - the YURI routing row (FORMAT_SPEC domain code first, RULE 8);
+   - the WQ-286 ④ spec line in the CORRECTIONS.tsv header + a receipt to PROME;
+   - a `walter_doctor` step reading `consumed_at` from recipients' board_logs (DAEDALUS rec);
+   - HAWK F1/F2 proposal;
+   - the P2 false-positive-rate proposal (carried ×3).
+10. **Carried, re-checked:**
+    - BROCK `-0914-019` (c) · HENRY's four deferred items · MARCO `-0908-006` / CARL `-0911-008` closure proofs;
+    - four event ledgers undeclared EVENT-DRIVEN;
+    - `fetch.py`: the FRED mirror trails the CSV on release day (quote the CSV), and `BZ*.NYM` / `TTF=F` resolve `contract: UNKNOWN`;
+    - the Reuters 9/13 vs MoE 9/11 Petroline date;
+    - HENRY cites Barr at primary (`-009` said unverified; a small REGINALD update is owed);
+    - HEN-46 F1 (Nov ULSD crack vs <$95): HENRY/TERRY grade;
+    - the FLG rent-freeze manual search through 10/07.
+11. **Watch:** 9/26 FSB Narva · 9/29 CCL Q3 print; the FLG document production · **9/30** Russia diesel ban expiry, Brent Nov expiry, the Iraq pullout, and the size-check block (MEMORY / THRESHOLD_SCAN / routing files / anchor) · **10/01** NYC rent freeze effective, CRMT bridge-4 date · 10/02 WQ-295 re-test deadline + GATE-BRK-R2 re-adjudication (DOCKET L494) · 10/06 WQ-252 sitting.
 
 ## OPEN DESIGN DECISIONS
 
-**(k)** 🆕 **Independent end-of-session review as a standard step.** Two sessions running (CATO 9/21; the Opus reviewer 9/24) found real defects that `walter_doctor` and `closeout_check` passed. Both instruments check structure, not whether a claim matches its source. **Proposal to Will:** a read-only independent reviewer at every Tier-2 closeout. It costs one agent run and has found 4 + 4 HIGH defects in two runs. **A process change, so it is Will's call.**
-Carried: seasonal threshold form for #6/#8 (with Will) · non-uniform inbox addresses · broader automatic receiving-readiness changes · (a) whether PROME's boot carries a "did WALTER run on the last data day?" line — **re-instanced today (MEMORY #26, n=2)** · (b) whether `version_drift_check.py` should read prose "Current:" lines · (c) whether `delivery_log` should admit an AMENDMENT row type · (d) independent-access standard for "this is secret" claims — **HAWK's KB-HAWK-407 now holds a consumer-side answer** · (e) SPR registerability (BRENT / Will) · (g) 🔴 **TIMESTAMP DISCIPLINE, n=3:** should `walter_doctor` `future_timestamps` grade `x`-convention rows against the wall clock, and should the stamp come from a helper rather than a hand-typed string? · (h) retention of original intake (not built) · (i) source links and CATO's lead format (spec change, to Will).
-**(j)** 🆕 **Scanner coverage for BRENT boundary rows.** `ROUTING_OVERLAYS` §Detection says "WALTER monitors" and "BRENT-fire-as-primary; WALTER-fallback if BRENT stale (>5d)". **The fallback never triggers when the primary is FRESH BUT SILENT**, and boot 6c names no leg for #1/#2/#4/#6/#7/#8. **Proposal:** add the instrumented boundary rows (#1/#2 Brent, #6/#8 matched cracks with a month column, #3 Cushing already in) to `THRESHOLD_SCAN.md` step 7 and to charter 6c. This is a spec change to WALTER's own files. **Small enough for RULE 8 inline? The charter edit makes it structural, so it goes to Will first.**
-
-**(l)** 🆕 **`board_log` `source` enum has no value for a non-WALTER packet** (PROME observation 2026-09-24 ~18:3xZ, via LABOR's 9/24 memo §3, `079a6ea5d`). Spec `design/BOARD_CONSUMPTION_SPEC.md` (v0.32) L406 still lists only `INBOX_WALTER` / `BOARD_SCAN` / `MANUAL`. **Verified by WALTER at the fleet logs 2026-09-24 (every `board_log.tsv` + REGINALD's `board/BOARD_LOG.tsv`, by header column): 12+ ad-hoc values are in use, not the 4 PROME named:** INBOX 227 · INBOX_ROOT 118 · WALTER 105 · INBOX_TOPLEVEL 65 · INBOX_AGENT 51 · INBOX_TOP 30 · INBOX_PROME 27 · BOARD 22 · INBOX_LEGACY 19 · INBOX_DIRECT 17 · INBOX_DAEDALUS 8 · plus 18 ` INBOX_WALTER` (leading space) and 17 blank. **Adding ONE value is a small inline change under RULE 8. Choosing a canonical set plus a reader-side alias map is SEMANTIC, so it goes to Will as a proposal first.** Owner logs are never WALTER's to rewrite (spec L456). Nothing waits on it.
+- **(k) Independent end-of-session review as a standard step:** proposal to Will. **Today is the third session in a row where self-found defects reached peers or Will before being caught.**
+- **(j) Scanner coverage for BRENT boundary rows:** to Will (a charter edit).
+- **(l) The `board_log` `source` enum:** a proposal owed.
+- 🆕 **(m) A suffix-aware word-boundary matcher for the lane** (measured: removes 1 byline false, loses 0 true across 10,601 titles). PROME's call; not needed for CRUISE.
+- **Carried:** seasonal threshold form for #6/#8 · non-uniform inbox addresses · receiving-readiness automation · (a) did WALTER run on the last data day? (now addressed by the DAILY cadence declaration if WQ-295 R1 is ruled) · (b) version_drift prose lines · (c) delivery_log AMENDMENT row type · (d) the "secret" claims standard · (e) SPR registerability · (g) timestamp discipline (n=3) · (h) intake retention · (i) source links / CATO lead format.
 
 ## CLOSEOUT RECEIPT
 
-**2026-09-25 ~13:4xZ ADDENDUM (`walter-9c`, Tier 1):** 9/25 handoffs: **19 of 19 DELIVERED as of ~13:5xZ** for `-001`…`-005`; **the 18 later handoffs (`-006`…`-010`) are committed LOCAL, pending push.** WATT's push (`72e14592b`) carried WALTER's train through `7b1029fa5`, and `reconcile_delivery_log.py --apply` flipped 19, 0 orphans. ⚠️ An earlier version of this line said "0 of 20"; the true count was always 19 (4+3+6+2+4). Originally they were committed LOCAL (`85506bc49`, `c7f19b782`; PROME packet `1fe4e0e7f`; REGISTRY `7516d1ddf`; this Tier-1 commit). **Push deferred** per charter 16 (VULCAN live and writing; PROME/VULCAN local commits in the train). The JSON below remains the 9/24 snapshot, and `closeout_check` PASSes against it. **It does not claim any 9/25 delivery.**
-
-**RE-ISSUED 2026-09-24T20:59:45Z at the boot leg, from a real clock read after a fresh fetch (HEAD == origin/master, 0/0). Other desks' push trains carried every WALTER commit through the SAM consumption (`6b153a52f`), and `reconcile_delivery_log.py --apply` flipped 13 rows. **9/24 handoffs: 77 of 77 delivered.** This receipt's own commit is LOCAL until the next push. The prior text follows.** **Dated evidence snapshot, re-issued 2026-09-24T19:41:30Z from a real clock read after the later leg and its independent review — not a live publication promise.** The Tier-2 commits (through `5e03b8409`) and the later-leg commits through `133f28aef` are on origin: other desks' push trains carried them, verified with `git merge-base --is-ancestor` after a fresh fetch at 19:41Z. **`edef8c15e` (the `-019` correction plus the review fixes) and this receipt's commit are LOCAL.** WALTER did not run `safe-push`: foreign uncommitted work (CARL, CATO, TERRY, PROME) and a PROME-staged rename in the shared index were present, so the push is deferred per charter step 16. `reconcile_delivery_log.py --apply` at 19:41Z: **62 of 64 of today's handoffs delivered. The 2 pending are `-019` → SAM and BOND, committed locally and not pushed.** The script labels them 'real orphans' only because origin has not seen them yet. ⛔ Delivered is not consumed.
-
-⚠️ **WHAT THIS RECEIPT DOES NOT CLAIM:** that BRENT has graded #8 or BG-02; that the Petroline restart is operator-confirmed; that the diesel ban was decided or dropped; that any recipient has consumed anything. **Delivered is not consumed.**
-
-<!-- CLOSEOUT_RECEIPT_JSON
-{
-  "schema": 1,
-  "as_of": "2026-09-24T20:59:45+00:00",
-  "publication": [
-    {"commit": "dacacc61e", "state": "published"},
-    {"commit": "b9165f734", "state": "published"},
-    {"commit": "958ff2e3b", "state": "published"},
-    {"commit": "1d7a350cf", "state": "published"},
-    {"commit": "7973d469b", "state": "published"},
-    {"commit": "436442a26", "state": "published"},
-    {"commit": "5ce79b47f", "state": "published"},
-    {"commit": "c7a7a681b", "state": "published"},
-    {"commit": "5e03b8409", "state": "published"},
-    {"commit": "cb4c51368", "state": "published"},
-    {"commit": "37cfb3c3e", "state": "published"},
-    {"commit": "e9843de21", "state": "published"},
-    {"commit": "ab549b79f", "state": "published"},
-    {"commit": "9eabf8a16", "state": "published"},
-    {"commit": "8ef85b276", "state": "published"},
-    {"commit": "589db9b50", "state": "published"},
-    {"commit": "24c290efa", "state": "published"},
-    {"commit": "fd68935f9", "state": "published"},
-    {"commit": "44109976a", "state": "published"},
-    {"commit": "133f28aef", "state": "published"},
-    {"commit": "edef8c15e", "state": "published"},
-    {"commit": "4b67f913d", "state": "published"},
-    {"commit": "261bd1b2f", "state": "published"},
-    {"commit": "ed7f2a0fd", "state": "published"},
-    {"commit": "6b153a52f", "state": "published"},
-    {"commit": "ca39606f0", "state": "published"}
-  ],
-  "delivery": {
-    "signal_date": "20260924",
-    "total": 77,
-    "delivered": 77
-  },
-  "owner_review": {
-    "scope": "manual evidence review; no automatic completion",
-    "evidence": [
-      {"path": "AGENTS/HAWK/research/2026-09-22_covert-claim-rule-revision.md", "sha256": "1e4eefb6f0a28846087e197e9096da50205d1814873ef164e0b6fe7d3eaee0f5", "note": "HAWK's live replacement for its 9/21 class-rule (KB-HAWK-407), which closes the consumer half of CATO W1. WALTER read HAWK's packet summary of it, NOT this file whole."},
-      {"path": "AGENTS/DEWEY/output/2026-09-24_carl-dr5-grocery-volume-policy-cycle-or-artifact.md", "sha256": "c1a7bed4909308e1019d1c3a52d0929a1882862eb23f1ba85b42ad8860d06878", "note": "CARL-DR-5 report, CORRECTED IN PLACE 2026-09-24 by DEWEY dc1bddd37 (CATO AP1: the 0.77% is a dollars-share scenario, not a unit ceiling); WALTER read the correction block and amended ledger L35 (ed7f2a0fd). Original note: ledger row closed RESOLVED on DEWEY's handoff. Its correction candidate on SIG-W-20260813-019 WAS re-verified by WALTER at the Bain release and FRED RSGCS/CPI food-at-home and dispatched as SIG-W-20260924-017 (later leg). WALTER read the report's findings sections, not every line."}
-    ]
-  },
-  "next_review": "2026-09-25"
-}
-END_CLOSEOUT_RECEIPT -->
+**Pending: re-issued after the push and `reconcile_delivery_log.py --apply`.**

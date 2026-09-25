@@ -79,17 +79,17 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-24 Thu, Full WALTER (Claude Opus 5.5, `walter-f9`), Tier-2, after two dark weekdays (9/22–9/23)
+### CHANGES SINCE LAST SESSION — 2026-09-25 Fri, Full WALTER (Claude Opus 5.5, `walter-9c`), Tier-2
 
-- **BOARD 1017 → 1032: 15 dispatches, 54 handoffs (all delivered), 4 kills, 7 named corrections.** Boundary #8 (Brent 3:2:1 >$50) found fired UNSEEN on matched Nov since 9/15 (`-001`, finding #27). Iran FULL sweep (`-010`): Rubio names Kataib Hezbollah; Hormuz hits, no sinking; ADD#26 guard written.
-- **An independent Opus review of the session's own work found 13 defects (4 HIGH) that the doctor and `closeout_check` passed clean.** Five corrections `-011`…`-015`. This is the second session running (after CATO 9/21). → OPEN DESIGN DECISION (k).
-- Previous session (2026-09-21, CATO review) → `SESSION_LOG.md`.
+- **BOARD 1042 → 1056 (14 dispatches, 4 kills).** Fires: `HANS-T-10` France (`-001`, HANS-confirmed) · GATE-BRK-R2 (a) North Haven (`-012`). HY OAS 280 at the line (`-011`; X1 CLOSED per `-013`). Gilt near-trigger `-010`. Brightline FL Ch.11 → CORAL (`-014`).
+- **Built the WQ-295 R3 harness** (`tools/watch_for_harness.py --live`) and tested 8 desks' watch lists. **Fixed `intake_scan`, which had NEVER surfaced WATCH_FOR hits.**
+- **Self-caught errors:** 12 lane-only false passes; the consumer described from the producer's code; a stale arbiter relayed; a 5h inbox gap. Findings #30–#32. The previous session (9/24) is in `SESSION_LOG.md`.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **9/25:** did BRENT (spawned AM by PROME) grade BG-02 at 17:00 ET, and settle boundary #8 on a SETTLEMENT source (does December un-fire)? Check the receipts on COR-20260924-11…15.
-3. **Compute the matched Nov/Dec/Jan Brent 3:2:1 at 6c** until a scanner leg exists (recipe in `-001`).
-3b. 🔴 **PULL ALL SIX HANS scannable-daily rows at 6c, gilts included (T-06 UK 10Y, T-13 UK 30Y: TradingEconomics pages = HANS's basis).** The charter already requires this and boots kept skipping it. On 9/25 both gilts were ~11bp under orange (`-010`) and it was found by accident. **Promised to Will 9/25 (Telegram msg 4679).** Italy T-09 and storage T-08 too, or name them as NOT pulled.
-4. **FLG rent-freeze manual search** (Kenilworth v. RGB, Index 85199/2026) at every boot through 10/07.
-5. FRED is T+1: re-pull HY after ~16:15 ET before quoting a distance.
-6. 9/30: size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor at 23,980 B, rotate at ≥24,412), Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout. Next Iran full sweep ~10/01.
+2. **7e:** the lane's 9/25 HY red onset is COVERED by `-011`/`-013`: **`--mark`, do not re-push.** Watch hits now surface per item (~1.6/day from the old lists), so triage them.
+3. **Compute the matched Nov/Dec/Jan Brent 3:2:1 at 6c** until a scanner leg exists (recipe in `-0924-001`). BZX26 expires 9/30.
+3b. 🔴 **PULL ALL SIX HANS scannable-daily rows at 6c, gilts included (T-06 UK 10Y, T-13 UK 30Y: TradingEconomics pages = HANS's basis).** The charter already requires this and boots kept skipping it. On 9/25 both gilts were ~11bp under orange (`-010`), found by accident. **Promised to Will 9/25 (Telegram msg 4679).** Italy T-09 and storage T-08 too, or name them as NOT pulled.
+4. **Re-scan `inbox/` at every task boundary** (the 9/25 5h gap).
+5. **FLG rent-freeze manual search** through 10/07. FRED is T+1: quote the print date with any distance.
+6. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Russia diesel-ban expiry, Brent Nov expiry. **Next Iran full sweep ~10/01** (+ the 8/28 Hormuz date trap).

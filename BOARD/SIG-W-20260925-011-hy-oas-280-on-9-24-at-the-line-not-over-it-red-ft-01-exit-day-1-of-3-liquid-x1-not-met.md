@@ -16,9 +16,12 @@ precedence: PRIORITY
 action: ["RED"]
 info: ["LIQUID", "BROCK", "HENRY", "REGINALD", "PROME"]
 confidence: 0.95
+status: PARTIALLY-CORRECTED
 ---
 
 # High-yield spreads hit 280 on 9/24: at the line, not over it. RED-FT-01's exit count starts; LIQUID's X1 is not met
+
+> ⚠️ **PARTIALLY-CORRECTED 2026-09-25 by `SIG-W-20260925-013`:** the "GUARD-HELD-PENDING-ARBITER" state below is STALE. The X1 arbiter answered 2026-08-28 (BROCK KB-BRK-219, wrapper half NOT ARMED), so **X1 is CLOSED** and a 280 touch returns that decided answer. The at-line grade and the FT-01 exit count stand.
 
 **Short version:** HY OAS printed **280 bp for 9/24** (FRED `BAMLH0A0HYM2`, published 9/25; T+1). It was 273 on 9/23 and 266 on 9/21. CCC OAS was **1112** (1093 on 9/23). **It is exactly AT the 280 line, not over it**, and every owner letter that keys on 280 grades it that way:
 
