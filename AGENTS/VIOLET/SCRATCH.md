@@ -44,7 +44,7 @@
 
 ## OPEN HYPOTHESES
 
-- **H-transmission-spread** (framing corrected mid-session, base rate now in): after a bond selloff prints (10Y +22bp 2d [H.15], MOVE +33% 2d), does the equity-vol complex reprice with it? **RQ #8 (KB-VIO-311, report `research/2026-09-24_RQ-8_move-2d-jump-forward-vix.md`) finds:** cohort n=10 over 24y with MOVE 2d ≥30% — 9/10 already had VIX ≥25 at T+0 (whole-cohort +12.4% at T+1, 1.68σ). Only 1 analog for the current low-VIX shape (2007-06-08); it FADED −18% to T+5 and did not transmit for 62 td. **Intuition thresholds (VVIX 100, ratio 1.10, MOVE ≥100) have no base-rate support for this shape.** They stay off the dashboard.
+- **H-transmission-spread** (framing corrected mid-session; RQ #8 done + immediately corrected on peer-read): after a bond selloff prints (10Y +22bp 2d [H.15], MOVE +33% 2d), does the equity-vol complex reprice with it? **RQ #8 v1 (KB-VIO-311) SUPERSEDED by KB-VIO-312** — return-clock defect: cohort forward returns compared against a differently-clocked baseline; the "T+1 +12.4% / 1.68σ" was the +8.9% event-day co-move carried into a two-session return. **Matched-clock verdict: no measurable forward VIX signal** across T+1/3/5/10 (all under 0.5σ, at or below unconditional). Event-day co-move ~+9% is real but tautological. Intuition thresholds remain unsupported.
 - **H-resolution-vs-stress:** n=1 event; needs the FOMC-date base rate before grading.
 - **H-approach-vs-delivery:** weakened. 9/18 observation became +5.80% once MOVE printed (KB-VIO-309). MOVE's 9/23–24 spike had no event to approach, so it is not evidence either way.
 - **H-new (opex tail demand):** unchanged and untested.
