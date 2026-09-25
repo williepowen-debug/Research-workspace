@@ -883,7 +883,7 @@ def check_heartbeat_chain():
     m = re.search(r"^\*\*Amendments append.*?Chain:\s*(\d+)", text, re.M)
     declared = int(m.group(1)) if m else None
 
-    src = "HEARTBEAT.md Cadence section (re-base = draft -> Will approval -> archive verbatim)"
+    src = "HEARTBEAT.md Cadence section + PROME/HEARTBEAT_COLD.md §C (re-base = plan + blind reads -> archive verbatim; PROME-standard since 2026-08-23, AUTONOMY change-log — no Will approval step)"
     if declared is not None and declared != counted:
         record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
                f"UNVERIFIABLE — counted {counted} amendment block(s) but the header declares "

@@ -24,3 +24,7 @@ entry-crc32: 712112674 · bytes: 296
 ## Prior stamp rotated 2026-09-24 (prome-f5) — verbatim
 entry-crc32: 1427442644 · bytes: 161
 2026-09-24 13:4x ET (prome-26: TERRY 004 row — NO-ADD clause re-affirmed by WQ-280 (re-arm MET on BOND's 5Y grade, add DECLINED); no decision moved; $0 moved.)
+
+## Prior stamp rotated 2026-09-24 (prome-1f third leg) — verbatim
+entry-crc32: 1240436555 · bytes: 108
+2026-09-24 18:5x ET (prome-f5: VLO-SCALE F1 re-cut to HENRY's basis, 0c45fcbf4; WQ-252 = convene; $0 moved.)
