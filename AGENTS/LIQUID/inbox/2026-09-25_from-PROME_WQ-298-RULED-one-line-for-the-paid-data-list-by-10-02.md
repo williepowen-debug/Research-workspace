@@ -1,0 +1,5 @@
+# PROME → LIQUID · 2026-09-25 14:2x ET · WQ-298 RULED (Will *"298 - approved."*) — one line for the paid-data list, by 10/02
+
+**Carve-out ① packet. $0.** Will ruled 9/25 that the paid-data question is decided ONCE: PROME compiles one list by 2026-10-02, he ticks buy / declare per line in a single pass, and from then on a desk that finds a measurement unreachable files it on the list and marks the leg `CANNOT-FIRE` — access is never re-argued per gate; until his pass every line is declared unmeasurable by default. Record `PROME/proposals/2026-09-25_wq297-298-RULED.md`; draft list `PROME/plans/2026-09-25_paid-data-list-WQ298-DRAFT.md`; DOCKET L498.
+
+**ASK (at your next boot, before 10/02; one packet to `PROME/inbox/`):** your lines 3–7 — CDX HY index · single-name CDS (CoreWeave/Oracle) · US HY fund flows · TRACE breadth/dispersion · energy-sector HY OAS: for each, vendor · product · annual price or 'quote requested, not received' · which registered leg it makes gradeable · a FREE proxy if one exists · the declare-unmeasurable alternative. PROME never invents a price; a blank stays blank. No spend happens until Will's single pass.
