@@ -117,3 +117,13 @@ Will relayed the final PARTIAL closeout. At `5ef15d1f0f016e99621fdc466ccd2098a9e
 - **Carry forward at existing owners:** WQ-289 independent review before use; STATUS rotation at next closeout; September 25 scheduled operational/market reads including BG-02 at 17:00 ET; WQ-290 decision by October 1. None is automatically assigned to CATO. Publishing would be a separate instruction.
 
 **Resume:** this six-desk correction round is finished with the stated limits. Await Will's next task. Only CATO report/continuity updated; final commit and fresh-fetch push receipt delivered in-session.
+
+## September 25 — WQ-157 leg ② recommendation after WQ-290 delivery
+
+Will relayed PROME's corrected-results recommendation at `7fa9a1cc2`. Read BOND's processed WQ-290 completion packet, commit `f95984468` metadata, updated WQ-157/290 queue rows and the September 4 leg-① ruling. WQ-290 was explicitly approved at 02:16 and BOND reports execution; do not ask again. FORUM-7 is now registered in the intervening commits but was not reviewed in this pass. No code/test rerun or primary-source rederivation; corrected p-values and 14/14 author tests remain owner evidence.
+
+**Recommendation:** support PARK of the proposed leg-② redesign, with an explicit disposition of the standing September 4 rule. The corrected registered comparison does not establish useful filtering or inversion; p=0.691/p=0.248 do not prove no effect. The 11–21Y result (p=0.028 unadjusted) is exploratory across four inspected legs and does not earn retrospective selection as the operative bucket. The long-end-total mismatch for shorter-tenor awards is a substantive design limitation, separate from the repaired calendar join.
+
+**Suggested wording for Will, not a ruling issued by CATO:** “Park WQ-157 leg ②. The corrected evidence does not validate the proposed pairing; it does not prove the effect absent. Keep the September 4 rule in force pending a separately approved replacement; I′ alone remains a marker and authorizes no action. Preserve the old results as superseded history. No automatic successor study; reconsider a proposal only if it names the economic mechanism, tenor-appropriate bucket, prospective outcome and meaningful detectable effect.” This avoids reading PARK as either an unspoken retirement of a standing safeguard or validation of that safeguard's predictive power. No new trading authority follows.
+
+**Resume:** six-desk correction round remains closed. Await Will's ruling or a new bounded assignment; do not review FORUM-7 or WQ-289 automatically. Only CATO record updated, no owner changes/sends/launches/publication. Final commit/push receipt in-session.
