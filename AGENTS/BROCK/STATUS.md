@@ -48,7 +48,7 @@
 | Non-traded BDC redemption gates | **🔴🔴(5)** | — | ⚠️ **at ceiling — BRK-30 SPENT (9/3).** Live instrument = **`GATE-BRK-R2`** (registered 9/3, owner BROCK, review **2026-10-31**, tag JUDGEMENT; definition + P1–P12 population record in `workbook/PC_REDEMPTION_REGISTER.tsv`): **(a)** 3rd consecutive sub-100% at ONE vehicle — earliest OCIC Q3 final `SC TO-I/A` ~late Oct, then **BCRED Q4 letter ~2026-12-03** · **(b)** <25% single-Q satisfaction, prospective from 9/3. **0 fired. DOWNGRADE** on a named fund clearing ≥80% two Qs running | **9/3** |
 | Blue Owl liquidity | 🔴🔴(5) | — | OTF Q3 NII still < div = forced cut | 8/28 |
 | PIK rates | **🟠(3)** | **🔻 4→3** | Industry median >20% sustained | **9/3** |
-| BDC NAV discount | 🔴(4) | — | **>35% median sustained** — sole leg after 2nd leg RETIRED 9/9 under WQ-173 (Will 9/4; small-fund <50¢ overlap 1-of-15 ⇒ ungradable AS WRITTEN, KB-BRK-169/261/277). ⚠️ Any replacement leg must declare same-borrower sample + n IN ADVANCE. **4 holds; convergence 57/70; exit §3 count unchanged.** | **9/9** |
+| BDC NAV discount | 🔴(4) | — | **>35% median sustained** — sole leg after 2nd leg RETIRED 9/9 under WQ-173 (Will 9/4; small-fund <50¢ overlap 1-of-15 ⇒ ungradable AS WRITTEN, KB-BRK-169/261/277). ⚠️ Any replacement leg must declare same-borrower sample + n IN ADVANCE. **4 holds; convergence was 57/70 at 9/9 (58/70 since 9/25, Duration 3→4); exit §3 count unchanged.** | **9/9** |
 | Default rates | 🔴(4) | — | >7% Q2 at a non-CDLI top-tier name; OR CDLI NA breaks >1% | 8/28 |
 | Athene / insurance | 🟠(3) | — | Athene RBC breach; or a named insurer-lender appears on a gated fund's facility | 8/28 |
 | Software sector marks | 🔴🔴(5) | — | Forced sub-90¢ markdown event, US universe | 8/28 |
