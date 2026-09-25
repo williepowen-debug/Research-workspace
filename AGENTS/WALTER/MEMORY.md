@@ -85,6 +85,7 @@
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
 2. **9/25:** did BRENT (spawned AM by PROME) grade BG-02 at 17:00 ET, and settle boundary #8 on a SETTLEMENT source (does December un-fire)? Check the receipts on COR-20260924-11…15.
 3. **Compute the matched Nov/Dec/Jan Brent 3:2:1 at 6c** until a scanner leg exists (recipe in `-001`).
+3b. 🔴 **PULL ALL SIX HANS scannable-daily rows at 6c, gilts included (T-06 UK 10Y, T-13 UK 30Y: TradingEconomics pages = HANS's basis).** The charter already requires this and boots kept skipping it. On 9/25 both gilts were ~11bp under orange (`-010`) and it was found by accident. **Promised to Will 9/25 (Telegram msg 4679).** Italy T-09 and storage T-08 too, or name them as NOT pulled.
 4. **FLG rent-freeze manual search** (Kenilworth v. RGB, Index 85199/2026) at every boot through 10/07.
 5. FRED is T+1: re-pull HY after ~16:15 ET before quoting a distance.
 6. 9/30: size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor at 23,980 B, rotate at ≥24,412), Russia diesel-ban expiry, Brent Nov expiry, Iraq pullout. Next Iran full sweep ~10/01.
