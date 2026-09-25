@@ -8,7 +8,7 @@
 > **★ THE ONE THING — THE CROWD NOW PRICES A SECOND FED HIKE SOON, ON BOTH VENUES.**
 > October hike: PM **66.5%** (Δ7d +16.0, $3.4M) / Kalshi `KXFED-26OCT` differenced **≈65.0** (OI 33.3K) — agreement ~1.5pp. Two more hikes by December: Kalshi `KXFED-26DEC >4.25` **50.0%** / PM end-2026 ≥4.5% **50.3%**. Hike-count "3 hikes in 2026" **41.9% (Δ7d +23.4)**. VX-ORC-08's Alert cell (>66%) is met on Polymarket on one print. (KB-ORC-093)
 >
-> ⚠️ **CME FedWatch reportedly 77.5% on Thu 9/24** (secondary, time unmatched) ⇒ venues ~11–12pp **under** futures, as in September before they converged. Drivers: Barr + flash PMI (9/23), Williams (9/24). (KB-ORC-097)
+> ⚠️ **Aligned with HENRY (9/25):** at 15:00 ET 9/24 in expected bp — futures ZQX26 **+18.0bp** · PM **+16.5** · Kalshi **+16.1–16.6** ⇒ venues ~1.5–2bp under, **inside the event basis** (Nov-avg EFFR vs upper bound) — not a lag finding. The earlier "~11–12pp under CME 77.5%" (secondary, time-unmatched) is **superseded**. P(hike) cannot be matched to futures. Drivers: Barr + flash PMI (9/23), Williams (9/24). (KB-ORC-100; 097 SUPERSEDED)
 >
 > **★ THE 10-YEAR CROSSED 5.1%.** PM before-2027 ladder: **5.1% SETTLED** (72.5% on 9/17) · **5.2% 91.6%** (⚠️ $4.0K liq — do not mark a touch) · 5.5% 29.1%. `^TNX` 5.16 / `^TYX` 5.46 (2026-09-24, proxies — the contract resolves on the Treasury par curve). Par==DGS10 still unconfirmed. (KB-ORC-094)
 >

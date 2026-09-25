@@ -14,7 +14,7 @@
 **1. 🔴🔴 THE OCTOBER FED HIKE WENT FROM A COIN FLIP TO ~2-IN-3 IN A WEEK, AND BOTH VENUES AGREE.**
 PM hike-25 at the 10/28 meeting **66.5%** (Δ7d **+16.0**, Δ30d **+42**; $3.4M vol / $546.6K liq) vs no-change **32.5%**. Kalshi `KXFED-26OCT` differenced: `>4.00` 67.0 − `>4.25` 2.0 ⇒ **hike ≈ 65.0** (OI 33.3K, 1¢ book) ⇒ **cross-venue gap ~1.5pp**.
 **December:** Kalshi `>4.25` **50.0%** (OI 24.7K) = **two more hikes by 12/09** · PM end-2026 upper bound ≥4.5% **50.3%**. "Another hike in 2026": PM **90.5%** / Kalshi Dec `>4.00` **90.0%**. Hike-count ladder: 2 hikes **48.5%** (Δ7d −13.0) · **3 hikes 41.9% (Δ7d +23.4)** · 1 hike 8.5%.
-⚠️ **CME FedWatch reportedly 73% (after 9/23) → 77.5% (Thu 9/24)** — secondary (Reuters/CNBC via Yahoo), time unmatched ⇒ venues sit ~11–12pp **under** futures, as they did in September before converging (n=1). **Drivers:** 9/16 dots (16/18 see ≥1 more) · 9/23 Barr + flash PMI 58.4 (62-mo high) + 10Y ~5.12% (since 2007) · 9/24 Williams "reasonable". Daily PM path: 37.5 (9/16) → 54.5 (9/19) → 52.5 (9/23) → 64.5 → 66.5. Oct × Dec priced ~independent (not "one and done"). **KB-ORC-097**
+⚠️ **Aligned with HENRY's futures read (9/25, KB-ORC-100, supersedes the ~11–12pp in KB-ORC-097):** at **15:00 ET 9/24**, in **expected bp** — futures ZQX26 **+18.0bp** (HENRY) · PM **+16.5bp** · Kalshi **+16.1–16.6bp** ⇒ venues **~1.5–2bp under** (≈6–8pp in P terms), **inside the event basis** (Nov-avg EFFR vs upper bound) — **not quotable as a lag.** P(hike) itself cannot be matched (futures price only an expected change). → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`. The press 73–77.5% figures are secondary, time-unmatched. **Drivers:** 9/16 dots (16/18 see ≥1 more) · 9/23 Barr + flash PMI 58.4 (62-mo high) + 10Y ~5.12% (since 2007) · 9/24 Williams "reasonable". Daily PM path: 37.5 (9/16) → 54.5 (9/19) → 52.5 (9/23) → 64.5 → 66.5. Oct × Dec priced ~independent (not "one and done"). **KB-ORC-097**
 ⇒ **VX-ORC-08 Alert cell (>66%) is met on Polymarket and ~1pt short on Kalshi** — one print, not a re-grade. Third episodic cross-venue agreement (9/07 0.5pp · 9/17 0.0pp · 9/24 ~1.5pp); **still not a standing-basis claim**. ⚠️ Four different questions (Oct meeting / another hike / count / end-rate) — cite the named contract. → LIQUID, HENRY, BOND, RED, PROME · **KB-ORC-093**
 
 **2. 🔴 THE 10-YEAR CROSSED 5.1% SINCE 9/17; THE CROWD PRICES 5.2% AS NEAR-CERTAIN.**
@@ -56,8 +56,8 @@ Kalshi `KXCPIYOY-26SEP`: `>3.5%` 84.0 last / **82.0 mid** (4¢, OI 34.7K) · **`
 | Fed: hike count (2 / **3**) | PM | 48.5 / **41.9** | −13.0 / **+23.4** | — | $677.0K event | 1 hike 8.5 |
 | Fed funds end-2026 (≥4.5% upper) | PM | 50.3% | +22.9 | — | $2.4M | 4.25% bucket 40.9 |
 | Fed: NO cuts 2026 | PM | 97.0% | +1.6 | — | $8.5M | |
-| **US recession 2026** | PM | **10.5%** | +2.0 | +2 | $2.1M | ⚠️ disjunction |
-| Recession 2025-26 (2Q neg GDP — **no NBER leg**) | Kalshi | 5.5m | — | — | 957.4K OI | gap ~5.0pp · @03:39Z |
+| **US recession 2026** | PM | **10.5%** | +2.0 | +2 | $2.1M | ⚠️ **DIFFERENT DEFINITION from the Kalshi row** — GDP rule OR NBER; the gap is structural, not a disagreement |
+| Recession 2025-26 (2Q neg GDP — **no NBER leg**) | Kalshi | 5.5m | — | — | 957.4K OI | ⚠️ **DIFFERENT DEFINITION from the PM row** — GDP rule only · gap ~5.0pp @03:39Z |
 | **10Y hits 5.2% before 2027** | PM | **91.6%** | **+57.1** | — | $136.1K | ⚠️ $4.0K liq · 5.1% SETTLED |
 | 10Y hits 5.5% before 2027 | PM | 29.1% | +15.8 | — | $102.3K | |
 | Sept CPI `>3.5%` / `>3.6%` / `>3.7%` | Kalshi | 82.0m / **46.0** / 15.0m | — | — | 34.7K / 44.5K / 15.8K OI | ★ rolled from August |

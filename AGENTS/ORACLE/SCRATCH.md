@@ -19,7 +19,7 @@
 
 ## NEXT SESSION (dated, priority-flagged)
 
-0. **🔴 ~Tue 2026-09-29 — Iran's 5-day deadline.** Re-read the new ceasefire (thru 9/30 85.5%) and blockade-end (by 9/30 8.5%) ladders with `event` — the dashboard top leg is wrong for both (settled 9/20 rung / thin Mar-2027 rung). Also re-read Fed Oct vs the CME figure (KB-ORC-097) — do the venues converge up toward ~77% as in September?
+0. **🔴 ~Tue 2026-09-29 — Iran's 5-day deadline.** Re-read the new ceasefire (thru 9/30 85.5%) and blockade-end (by 9/30 8.5%) ladders with `event` — the dashboard top leg is wrong for both (settled 9/20 rung / thin Mar-2027 rung). Fed Oct vs futures: **compare in EXPECTED bp at a matched time, never P(hike) vs a press FedWatch %** (KB-ORC-100, 9/25: 15:00 ET futures +18.0 / PM +16.5 / Kalshi +16.1–16.6bp; residual inside the event basis; 097 SUPERSEDED). HENRY owns the futures half.
 
 1. **🔴 Mon 2026-09-28 — DOCKET L299, October WTI $110 re-pin.** Search for an October $110 market; if listed, pin + **name the within-v5 roll rule before rolling** (v4 precedent: month rolls bumped REGIME). If none by the **2026-10-01T03:59Z** September close, **v5 dies — write it down; a new strike is Will's call.** Verify the inferred Active-Month switch (~Fri 10/16; CLX26 last trade Tue 10/20) at the contract. Script strings now say $110 (fixed 9/24).
 2. **🔴 Re-read the Fed Oct legs** — VX-ORC-08 Alert cell (>66%) met on ONE PM print (66.5) and ~1pt short on Kalshi. Second read before any re-grade.
@@ -38,6 +38,8 @@
 15. **⚪ Archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`** (mutual-reference pair).
 
 ## CARRY-FORWARD
+
+- **9/25 ~01:0x ET, PROME item 4 (Will-directed):** Oct-hike alignment with HENRY done → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`; reply `PROME/inbox/2026-09-25_from-ORACLE_item-4-COMPLETION-…`. RED correction packet delivered, **unconsumed** (RED dark since 9/18). Staying live until PROME asks for closeout.
 
 - **Push state (9/24 evening):** `e6a46f4db` (update) and `e89abef2c` (deeper pass) both PUSHED — safe-push CONFIRMED on origin/master. The closeout commit (NEXUS stamp, SCRATCH, auto-memory extension) is pushed at closeout; receipt in the message to Will. Nothing unpushed carried.
 - **Auto-memory extended:** `finding_truncation_returns_a_plausible_answer_not_an_error` (+ Gamma 100-row cap instance). HOT tier, so no promotion flag is owed.

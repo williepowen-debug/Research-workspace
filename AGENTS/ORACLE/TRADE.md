@@ -57,7 +57,7 @@
 | Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) |
 |---|---|---|---|---|---|---|---|
 | Recession 2026 (PM) | 12.0 | 12.5 | 7.5 | 8.5 | 7.5 | **8.5** | 7.5–12.5 |
-| Recession 2026 (Kalshi NBER) | 13.0 | 7.0 | 6.0 | 10.0 | 6.0 | **7.0** | **6.0–14.0** |
+| Recession 2025-26 (Kalshi — **2Q neg GDP only, NO NBER leg**; ⚠️ different definition from the PM row, KB-ORC-099) | 13.0 | 7.0 | 6.0 | 10.0 | 6.0 | **7.0** | **6.0–14.0** |
 
 **Implication: crowd calm, and calmer than in July** — both platforms roughly halved off their 7/22 levels and have gone flat. If the crowd is right, equity-stress positions are early/oversized.
 ⚠️ **A caveat the old single-point row hid:** TRADE.md has called these *"converged, ~1.5pp cross-platform."* The trajectory shows **Kalshi is the noisy leg** — 13.0 → 7.0 → 10.0 → 6.0 → 7.0, swinging 4pp between pulls on a contract with no resting book (depth = OI). **The convergence is real on average and unstable print-to-print.** Do not treat a single-day cross-platform gap as signal. **RED still owed a current fleet recession number — carried since 6/13.**
