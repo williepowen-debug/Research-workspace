@@ -1,6 +1,6 @@
 # Q4 — Is CCC weakness an isolated problem or the leading edge? (LIQUID, lead)
 
-**Asked by:** Will 02:55 ET 9/25, relayed by PROME (`c29e4ca60`; DOCKET L477). **BOND (bond-d3) supplies the dealer and sovereign side** in `AGENTS/BOND/analysis/2026-09-25_Q4_CCC-isolated-vs-leading-edge_BOND-side.md`. **Not yet received when this was committed: a named gap.** I agreed with BOND that the tier figures live here only, so there is one set, not two.
+**Asked by:** Will 02:55 ET 9/25, relayed by PROME (`c29e4ca60`; DOCKET L477). **BOND (bond-d3) supplies the dealer and sovereign side** in `AGENTS/BOND/analysis/2026-09-25_Q4_CCC-isolated-vs-leading-edge_BOND-side.md`. **Received after the first commit and folded in below** (`8163ad57d`, KB-BND-336; verified at the artifact). BOND dropped its own tier figures, so the tier set here is the only one, and nothing in BOND's file contradicts it.
 **Data:** FRED ICE BofA OAS, latest-revised, bp; 15-session changes ranked against their own history 2023-10-02..2026-09-23 (KB-LIQ-128 method). Latest obs **9/23**. The 9/24 cells publish ~9/25 16:15 ET and are the first data point for both explanations.
 ⚠️ **Caveat, stated once:** FRED carries only a rolling ~3 years of ICE history (earliest 2023-09-25). Every percentile and episode count below comes from a calm window with no 2020 or 2022 stress, and n is small (8 complete episodes).
 
@@ -30,13 +30,16 @@
 | D2 | **Which stronger tier moves next** | None beyond noise: B stays under its p75 (+9) on the 15-session change | **B and BB together**, not B alone. B led BB only once in-sample (2026-02-12, by 16 days) | Same as D1 |
 | D3 | **CCC−B gap** | Keeps widening or holds (15-session change ≥ 0) while B is flat | **Not a reliable separator in this sample.** 30 sessions after the episode start it moved +10 / −157 / −1 / +2 in the followed cases and −23 / +17 / −46 / +69 in the not-followed ones, so it overlaps completely | Read it; do not decide on it |
 | D4 | **CCC−BB and B−BB gaps** | CCC−BB widens ≈ one-for-one with CCC−B; B−BB flat | **Also not a separator.** B−BB changed −12 / +3 / −9 / −17 over 30 sessions even when B followed, because BB widened with B | Read it; do not decide on it |
-| D5 | **Funding and dealers** | Overnight rates quiet (z < 4); dealer inventory unchanged | Under (B) with a feedback loop: sofr-dispersion z ≥ 4 off-calendar, 079 ARM, or SRF ≥ $50B (the `LIQ-07` S1 legs). **BOND carries dealer inventory and the sovereign driver: GAP until BOND's file lands** | Q3-end persistence verdict **10/8** (KB-LIQ-136) · `LIQ-07` to 11/6 |
+| D5 | **Funding** | Overnight rates quiet (z < 4) | Under (B) with a feedback loop: sofr-dispersion z ≥ 4 off-calendar, 079 ARM, or SRF ≥ $50B (the `LIQ-07` S1 legs) | Q3-end persistence verdict **10/8** (KB-LIQ-136) · `LIQ-07` to 11/6 |
+| D6 | **Dealer HY inventory** (BOND: FR2004 below-IG corporates, `PDPOSCSBND-BEL*`). Today: **+$2.2B in 4 weeks to 9/16 = 96th pct** (n=242 since 2022), in 13m–5y; level $2.9B ordinary; no rating split, so it covers all HY, not CCC only | Build stalls or reverses and stays in ≤5y buckets | Build continues (another positive 4-week change) **and spreads into 5–10y / >10y** | **FR2004 Thu 10/1 (as-of 9/23) and Thu 10/8 (as-of 9/30)** |
+| D7 | **Real-yield sensitivity by tier** (BOND: 20-session beta of daily OAS to DFII10). Today: **CCC +0.56 (81st pct) · B +0.03 · BB −0.11 · IG −0.04**, so only CCC reacts | B-tier beta stays near its median (−0.16) through the **10/14 CPI** | B-tier beta reaches its own p90 (+0.49) | **by the 10/28 FOMC** |
+| D8 | **HY primary market** (BOND) | No pulled HY deals | A pulled or postponed HY deal | **before 10/14** |
 
 **Plain reading:** only D1 separates the two explanations in this data. The gap paths (D3, D4) look like discriminators but did not separate the cases that followed from the ones that did not. Under (B), the next move is not a gentle climb one tier at a time. It has been B, BB, BBB and IG crossing their own 90th percentiles within days of each other.
 
 ## Where the weight sits today
 
-**Leaning (A), isolated, at roughly 70/30.** The same prior is registered on `LIQ-07` (P(S4 CONTAINED) = 70%). Three reasons:
+**Leaning (A), isolated, at roughly 70/30.** The same prior is registered on `LIQ-07` (P(S4 CONTAINED) = 70%). **BOND's dealer and sovereign read agrees on the mechanism** (only CCC is real-yield-sensitive) **and adds one (B)-consistent warning: the unusually fast dealer HY build (96th pct).** Its first dated test is FR2004 on Thu 10/1. Three reasons for the lean:
 1. The isolation is measured, not assumed: three weeks of CCC +40 against IG/BBB −4.
 2. In-sample, a follow-through came within 13 sessions or not at all, and the current episode is at 37 sessions from its 8/03 start.
 3. The primary market is open to a record-size HY deal.

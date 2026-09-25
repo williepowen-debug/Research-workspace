@@ -4,7 +4,7 @@
 
 ## COMPLETION
 
-**STATUS:** Q2 DONE · Q4 DONE with one named co-owner gap (BOND's dealer/sovereign file had not landed at commit).
+**STATUS:** Q2 DONE · Q4 DONE; BOND's side folded in after the first commit (addendum below).
 
 **CHANGED:**
 - `AGENTS/LIQUID/reports/2026-09-25_Q2_first-observation-of-spreading.md` (NEW; the test letter + base rate)
@@ -20,7 +20,7 @@
 | **Q4** | **Leaning (A) ISOLATED, about 70/30** (the same prior as `LIQ-07` S4). For (A): CCC +40 vs IG/BBB −4 over three weeks; the 8/26→9/16 rate shock widened nothing above CCC (KB-LIQ-127); SoftBank ~$11.1B priced inside talk. **In-sample, B followed an isolated-CCC episode in 4 of 8 cases, always within 2–13 sessions, and the current episode is 37 sessions from 8/03.** For (B): 2026-high tail (CCC 1,093 · CCC−BB 934 [9/23]); the 9/23 one-day reach into B (+7, 90th pct of days) on a real-yield-led day; hiking Fed. **Discriminator: only D1 (= `LIQ-07`) separates them.** Under (B), B and BB move together, and BBB/IG within days. **The CCC−B and B−BB gap paths overlapped completely between the followed and not-followed cases, so they are not discriminators.** First data point: the 9/24 cells ~16:15 ET today; resolution 11/6 |
 
 **GAPS:**
-1. **BOND's Q4 dealer/sovereign side** had not landed at commit. BOND agreed the tier figures live in LIQUID's file only.
+1. ~~BOND's Q4 dealer/sovereign side had not landed at commit.~~ **CLOSED:** landed at `8163ad57d` (KB-BND-336) and was folded into the Q4 file as D6–D8. BOND agrees on the mechanism, since only CCC is real-yield-sensitive (β +0.56, 81st pct). It flags one (B) warning: dealer below-IG inventory +$2.2B in 4 weeks to 9/16, 96th pct. Dated tests: FR2004 10/1 and 10/8 · B-tier β by 10/28 · a pulled HY deal before 10/14. The tier figures exist once, in LIQUID's file.
 2. **No public-HY CCC maturity/issuance series on the fleet.** BROCK's walls (KB-BRK-007/114) are March-2026 private credit/BDC; REGINALD's $875B is all-CRE. (A)'s refinancing mechanism is ASSUMED.
 3. Rolling ~3-year FRED ICE history (earliest 2023-09-25): a calm-window base rate with small n (7 and 8 episodes).
 4. The funding blind spots from item 3 still stand (tri-party volumes · sponsored repo · dealer balance sheets · FX basis).
