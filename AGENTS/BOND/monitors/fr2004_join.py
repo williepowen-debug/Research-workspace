@@ -17,13 +17,24 @@ THE QUESTION THAT MATTERS, stated before the numbers so it cannot be reverse-fit
 
 JOIN CONVENTION — the load-bearing design choice, declared
 ----------------------------------------------------------
-Dealer warehousing from an auction is a POST-auction effect: the dealer takes the
-paper at 1PM, and the inventory shows up in the NEXT weekly FR2004 snapshot. So the
-join is a DELTA ACROSS the auction, not a level beside it:
+Dealer warehousing from an auction is a POST-auction effect, measured as a DELTA
+ACROSS the auction, not a level beside it. FR 2004A is TRADE-DATE: an allotment is
+in the dealer's position FROM THE AWARD DATE (FR 2004 Instructions eff. Jan 2022,
+GEN-6 §II.C "Include allotments that are awarded on a report date in that day's
+positions"; A-1 trade-date accounting). So the one-week window that CONTAINS the
+award is:
 
-    PRE  = the last FR2004 as-of ON OR BEFORE the auction date
-    POST = the first FR2004 as-of STRICTLY AFTER the auction date
+    PRE  = the last FR2004 as-of STRICTLY BEFORE the auction date
+    POST = the first FR2004 as-of ON OR AFTER the auction date
     delta = POST - PRE      (in $B, per bucket and for the long-end TOTAL)
+
+⚠️ CHANGED 2026-09-25 (WQ-290, Will "Approve WQ-290 with your rec", 02:16 ET).
+Until then PRE was ON-OR-BEFORE and POST STRICTLY AFTER, which put a WEDNESDAY
+auction's award inside PRE (75 of 228 joined rows) and measured a delta that
+excluded it. The as-shipped figures stay in the KB as history (KB-BND-306 /
+KB-BND-332); analysis/2026-09-25_fr2004_join_window_sensitivity.py reproduces them.
+⚠️ SCOPE (not changed here): LONG_END = 7Y+ buckets; a 2Y/3Y/5Y/7Y award books in a
+shorter bucket (A-5) and is NOT in this total — which bucket counts is WQ-157 leg ②.
 
 A level-beside-it join would measure the stock the dealer held BEFORE the auction
 it is supposed to be grading, which is the wrong quantity. Both are computed; the
@@ -146,8 +157,8 @@ def auctions_with_iprime():
 def join(aucs, fr):
     asofs = sorted(fr)
     for a in aucs:
-        pre = [d for d in asofs if d <= a["date"]]
-        post = [d for d in asofs if d > a["date"]]
+        pre = [d for d in asofs if d < a["date"]]     # trade-date window (WQ-290)
+        post = [d for d in asofs if d >= a["date"]]
         a["pre"] = pre[-1] if pre else None
         a["post"] = post[0] if post else None
         if a["pre"] is None or a["post"] is None:
@@ -262,18 +273,26 @@ def selftest():
     # rate()
     chk("rate zero-den is nan", rate(1, 0) != rate(1, 0))
     chk("rate basic", abs(rate(1, 4) - 25.0) < 1e-9)
-    # join convention: POST must be STRICTLY after, PRE on-or-before
-    fr = {dt.date(2026, 1, 7): {"7-11Y": 1.0, "11-21Y": 2.0, ">21Y": 3.0, "LONG_END": 6.0},
+    # join convention (WQ-290, trade-date): PRE strictly before, POST on-or-after
+    fr = {dt.date(2025, 12, 31): {"7-11Y": 1.0, "11-21Y": 1.0, ">21Y": 3.0, "LONG_END": 5.0},
+          dt.date(2026, 1, 7): {"7-11Y": 1.0, "11-21Y": 2.0, ">21Y": 3.0, "LONG_END": 6.0},
           dt.date(2026, 1, 14): {"7-11Y": 1.0, "11-21Y": 4.0, ">21Y": 3.0, "LONG_END": 8.0}}
-    a = [{"date": dt.date(2026, 1, 7), "fired": True, "ind": 1, "dlr": 1, "btc": 1,
-          "bar": 1, "dlr_max": 1, "ind_min": 1, "cusip": "X", "term": "10-Year",
-          "old_fired": False}]
-    out = join(a, fr)
+    def auc(d, c):
+        return {"date": d, "fired": True, "ind": 1, "dlr": 1, "btc": 1, "bar": 1,
+                "dlr_max": 1, "ind_min": 1, "cusip": c, "term": "10-Year",
+                "old_fired": False}
+    # WEDNESDAY auction (1/7 = an as-of date): the award is IN the 1/7 print, so the
+    # window is 12/31 -> 1/7. The pre-WQ-290 join returned 1/7 -> 1/14 here.
+    out = join([auc(dt.date(2026, 1, 7), "W")], fr)
     chk("join produced a row", len(out) == 1)
-    chk("PRE is on-or-before", out[0]["pre"] == dt.date(2026, 1, 7))
-    chk("POST is strictly after", out[0]["post"] == dt.date(2026, 1, 14))
-    chk("delta is POST-PRE", abs(out[0]["d_long"] - 2.0) < 1e-9)
-    chk("bucket delta", abs(out[0]["d_1121"] - 2.0) < 1e-9)
+    chk("WED: PRE is strictly before", out[0]["pre"] == dt.date(2025, 12, 31))
+    chk("WED: POST is the award-day as-of", out[0]["post"] == dt.date(2026, 1, 7))
+    chk("delta is POST-PRE", abs(out[0]["d_long"] - 1.0) < 1e-9)
+    chk("bucket delta", abs(out[0]["d_1121"] - 1.0) < 1e-9)
+    # TUESDAY auction (1/13): unchanged by WQ-290 — window 1/7 -> 1/14
+    out_t = join([auc(dt.date(2026, 1, 13), "T")], fr)
+    chk("TUE: PRE", out_t and out_t[0]["pre"] == dt.date(2026, 1, 7))
+    chk("TUE: POST", out_t and out_t[0]["post"] == dt.date(2026, 1, 14))
     # an auction with no POST print must DROP, never impute
     out2 = join([{"date": dt.date(2026, 1, 20), "fired": True, "ind": 1, "dlr": 1,
                   "btc": 1, "bar": 1, "dlr_max": 1, "ind_min": 1, "cusip": "Y",

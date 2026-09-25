@@ -102,5 +102,5 @@ For the 9/15 20Y-R (a **Tuesday** auction), the join's window (PRE 9/09 → POST
 ## 5 · GAPS
 - ACM 9/24 and KW 9/21+ not yet published, so the 9/23–9/24 decomposition is incomplete.
 - The 9/17 p=0.009 script was never saved; my reproduction differs (n and p), as disclosed.
-- `fr2004_join.py` is not fixed (PROME/Will call). The 9/2 per-tenor base-rating also used this join's pools and was not re-run.
+- `fr2004_join.py` is not fixed (PROME/Will call). ~~The 9/2 per-tenor base-rating also used this join's pools and was not re-run.~~ ⚠️ **Corrected 9/25 ~03:xx: FALSE. That base-rating (`matrix_v2_base_rate.py`, `KB-BND-222`) uses no FR2004 data; the window fix cannot touch it. The error conflated it with the unrelated `KB-BND-314` grader-pool fix.**
 - A-5 bucket rule applies to when-issued at report time; for a REOPENING (existing CUSIP), the award is booked to the existing issue's maturity bucket. Same 11–21Y bucket here, so it doesn't matter for 9/15, but it has not been separately verified.
