@@ -64,6 +64,8 @@
 
 30. **An intake WATCH_FOR phrase silently COLLAPSES to its entity token when its other words are ≤3 chars** — `match_watch_for()` drops short words, so `PJM Max Gen` = `PJM` = 150 false hits in 6,677 headlines. And an owner with NO WATCH_FOR list is invisible to `intake_scan` by construction: its events land as plain NEW (the 9/16–18 PJM emergency was CAPTURED by the lane and never surfaced). **Test every proposed term against lane history with the real matcher before proposing.** → RESEARCH-INTAKE `ff21407` config comment; LAST_COMPLETION FOLLOW-UP #23; census (14/22 desks without a list) with DAEDALUS via PROME
 
+31. **A 0-hit test on a corpus that CANNOT contain the event is not a clean result. It certifies noise-freedom against the wrong reference.** 9/25: WALTER passed 4 VULCAN watch phrases lane-only (the lane ended before the Oracle FM story and never fetches export-control/Taiwan news); live they hit 76/77/2/6 false. The lesson had been written for HANS an hour earlier and not re-applied. → mechanized: `tools/watch_for_harness.py --live` + the lane-only warning. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
