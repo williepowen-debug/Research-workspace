@@ -24,6 +24,8 @@ verdict: "A widely-shared post is circulating 'multifamily CMBS delinquency jump
 
 # The multifamily CMBS "7.1%" in circulation today is a stale vintage — Trepp's August is 7.69%
 
+> ⚠️ **PARTIALLY-CORRECTED 2026-09-25 by `SIG-W-20260925-005`:** February 2026 was **6.85%, not 7.12%** (7.12% is October 2025; HOMER's ledger error). The circulating 7.1% is a **Morgan Stanley series of unresolved perimeter**, not stale Trepp (the 'stale' framing was already withdrawn by `-015`).
+
 ## THE CLAIM AS IT IS TRAVELLING
 
 **@danjmcnamara, 8:18 AM ET 2026-09-21**, quoting a **Morgan Stanley** report, above a **WSJ** link headlined *"Apartment Landlords Have a \$2 Trillion Debt…"*:

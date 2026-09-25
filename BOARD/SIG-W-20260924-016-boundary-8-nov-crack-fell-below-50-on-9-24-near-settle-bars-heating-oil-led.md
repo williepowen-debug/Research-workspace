@@ -19,9 +19,12 @@ resources: 1
 safety_net: clear
 word_count: 330
 verdict: "UPDATE to -001, whose 9/24 row was intraday (~16:2xZ). By the 14:30 ET settle window the matched-NOVEMBER Brent 3:2:1 crack fell to ~$49.34-49.44, BELOW $50 for the first time since 9/15 (Dec ~$47.8, Jan ~$46.8-47.0). Heating oil led: HOX26 fell ~$0.17/gal (4.654 -> 4.480) between 13:30 and 14:45 ET while Brent held ~$106.4. Cause UNSOURCED. The 9/15-9/23 crossing is unchanged; what changes is that the Nov level is no longer above the bar going into BRENT's 9/25 grade, and Dec's 3-session run ended at 2."
+status: CORRECTED
 ---
 
 # Update to -001: the November crack fell below $50 into today's settle
+
+> ⚠️ **CORRECTED 2026-09-25 by `SIG-W-20260925-002`:** the 'below $50 at the 9/24 settle' read used the 14:30/14:45 ET bars, which come AFTER the settlement. On BRENT's settle proxy, 9/24 November was **$50.12, NOT MEASURABLE**. The 9/15–9/23 November crossing STANDS (BRENT's grade, WQ-252 interim).
 
 **Short version:** `-001` showed today's November crack at **$54.24**. That was a mid-session read. **By the 2:30 PM ET settle window it was about $49.4, below $50 for the first time since 9/15.** December (~$47.8) and January (~$46.8–47.0) are also below. **The 9/15–9/23 crossing record does not change.** What changes is the level going into BRENT's grade tomorrow.
 
