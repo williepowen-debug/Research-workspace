@@ -25,4 +25,4 @@
 
 **WAITING-FOR:** **AEOLUS** — heat leg 9/16–9/17 · **BRENT** — 8/13–8/16 only · **FERC** — IRAS order (~10/12; a secondary claims 10/9 — unverified) · **PJM/DOE** — 202-26-41 / -45 utilisation reports · **PROME** — the routing-gap ruling.
 *Closed this session: WATT-11 (MISS) · DAEDALUS PR-6 asks · VULCAN seam · B1 registration · the whole inbox · COR-20260915-01.*
-*I owe: **VULCAN** hedged-vs-floating · **P1 de-escalation** at the first boot ≥9/26 · **next boot ≤10/9** (WATT-12 coverage).*
+*I owe: **VULCAN** hedged-vs-floating · **P1 de-escalation** at the first boot ≥9/26 · **next boot by 10/2** (cadence **WEEKLY**, declared 9/25 under WQ-295; WATT-12 coverage needs ≤14 days).* · *`WATCH_FOR["WATT"]` LANDED (intake repo `ff21407`, 14 terms, verified at the file); WATT-10 phrases with WALTER to test.*
