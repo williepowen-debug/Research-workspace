@@ -230,6 +230,7 @@ REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before g
 | HAWK | `WEEKLY` | HAWK, 2026-09-25 (packet `PROME/inbox/2026-09-25_from-HAWK_cadence-and-watch-terms.md`; two OPEN predictions + the 45-day dormant-book re-sweep; 12 WATCH_FOR phrases owner-pretested; WALTER R3 test 12:3x ET: 8 landed in RESEARCH-INTAKE, 4 rejected by name on live evidence — Kharg Island · Hormuz toll · Canada retaliatory tariffs · Taiwan blockade) |
 | LIQUID | `WEEKLY` | LIQUID, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-LIQUID_cadence-and-watch-terms.md`, b9e4f93de; a primary-market-stress phrase gap named; pre-WQ-295 list R3 re-test owed 10/02) |
 | BROCK | `WEEKLY` | BROCK, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-BROCK_cadence-and-watch-terms.md`, 0210d8213; replacement WATCH_FOR list WALTER live-tested 13:1x: 6 landed, 3 rejected by name, 2 wait on BROCK's word; the pre-WQ-295 list retired) |
+| TERRY | `WEEKLY` | TERRY, 2026-09-25 (live spawn terry-2e3, memo pending; 8 phrases owner-pretested, WALTER live-tested 14:1x: 1 clean + 7 event-form replacements adopted, 6 rejected by name, "distillate inventories" dropped — 8 landed) |
 | *(every other desk)* | `UNDECLARED` | — declarations asked of all 33 active desks 2026-09-25 (WQ-295 packets); PROME records declarations as they arrive and still does not infer one; WQ-295 R1 (provisional class-based tokens) waits on Will |
 
 ## Transmission chain (pointer — mirror retired 2026-08-30)
