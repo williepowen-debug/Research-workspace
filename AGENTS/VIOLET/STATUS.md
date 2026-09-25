@@ -14,7 +14,7 @@
 
 🟠 **CCC widened 10.75 [9/22] → 10.93 [9/23 FRED].** BIN-B block active (CCC ≥ 9.55). CCC−BB 9.34 pp. Tight-tail cohort with rates-vol firing is the pattern that historically preceded credit non-confirmation; LIQUID owns the interpretation.
 
-**Thesis v4.1.1 stands. Book flat, no trade proposed, no threshold moved, no score changed. NEXUS CROSS-DOMAIN to HENRY / LIQUID / BRENT / BOND updated below.**
+**Thesis v4.1.1 stands. Book flat, no trade proposed, no threshold moved. Convergence 27 → 28/50 (VVIX and front-curve up 1 each, JPY down 1). NEXUS CROSS-DOMAIN to HENRY / LIQUID / BRENT / BOND updated below.**
 
 **WQ-259 refresh (Will-approved 2026-09-24) — CONDITION NOT MET.** The packet gates republish on CBOE confirming the 9/23 close; CBOE has not published it. Deferred to the next post-close boot after CBOE catches up. **Rider (CLAUDE.md:194) — DONE this session.**
 
@@ -60,7 +60,7 @@
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 27/50** (10 vectors × 5), **unchanged in score**. **What changed is qualitative:** the rates-vol vector is no longer a one-day print, the VVIX vector moved from ⚪ 1 → 🟡 2 (crossed 90), the JPY vector eased 🟡 2 → ⚪ 1, and the front-curve vector moved from ⚪ 1 → 🟡 2 (compression across 2 sessions). Net score unchanged.
+**Convergence Score: 28/50** (10 vectors × 5), **+1 vs prior 27/50**. VVIX ⚪ 1 → 🟡 2 (crossed 90); front-curve ⚪ 1 → 🟡 2 (compression across 2 sessions); JPY 🟡 2 → ⚪ 1 (RV10 collapsed). Rates-vol stays 5, no longer one-day.
 
 | Vector | Score | Current reasoning |
 |---|---|---|

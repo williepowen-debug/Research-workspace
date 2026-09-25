@@ -1,41 +1,49 @@
 # VIOLET — session handoff
 
-**As of:** 2026-09-24 00:5x ET, **pre-open**, graded on the September 23 close. Canonical figures: [STATUS](STATUS.md). Grade record: [part 3](research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md). The previous handoff (9/18 post-close) is in git history.
+**As of:** 2026-09-24 21:1x ET, **post-close**, graded on the September 24 close. Canonical figures: [STATUS](STATUS.md). Grade record still: [part 3](research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md). The prior handoff (this morning's pre-open) is in git history.
 
-## CHANGES SINCE (9/18 → 9/23)
+## CHANGES SINCE (this morning's pre-open → 9/24 close)
 
-- The VIX path from the 17.71 event close: 9/21 14.87 · 9/22 **14.21** (the low, −19.76%) · 9/23 **15.18** (−14.29%). The premium never rebuilt.
-- ⭐ **MOVE 9/23: 95.45, +21.5% in one day**, the highest value in my ledger. The 10Y yield rose from 4.963 to 5.114 and TLT fell 1.6%. VIX was only +6.83% and the curve stayed in contango (3M/VIX 1.193). Cause not attributed; HENRY/BOND own the rates substance.
-- **The 9/18 MOVE printed late: 80.64,** and CBOE's history revised 9/18 (VIX 14.81, VVIX 87.38, SKEW 148.10).
-- The inbox had 4 items, including WALTER's 9/19 fill-forward signal. **That signal carried the 80.64 correction, and it sat unread for five days.**
+- ⭐ **MOVE 9/24: 104.58, +9.13 (+9.55%) vs 95.45.** Second consecutive ledger-max close. Cumulative +33.1% over two sessions. Margins vs F1 +32.17, vs confirm-3 +29.08. **This is a follow-through, not a shock.**
+- **VVIX crossed the 90 cheap-line for the first time in the post-FOMC run:** 83.17 → 88.60 → 90.57.
+- **VIX3M/VIX compressed a second session:** 1.2393 → 1.193 → 1.1761. Curve still contango.
+- **VIX +3.23% to 15.67**, regime shifted COMPLACENCY → LOW_VOL. Off the 9/16 event close, VIX is now −11.52% (was −14.29% on 9/23). Leg 2 KILL cannot flip.
+- **CCC widened:** 10.75 [9/22] → **10.93 [9/23 FRED]**. HY 2.72, IG 0.78. BIN-B block active.
+- **OVX still FIRE:** 54.45, ratio 3.47 p97.0. Oil-vol channel loaded (sustained since 9/18).
+- **JPY vol collapsed:** RV10 6.5% p29.1 CALM, from 11.1% p72.6 [9/18]. USDJPY 158.26.
+- **CBOE history has NOT published 9/23 OR 9/24 yet** — `backfill.py --spot-only` yielded 0 corrections, 0 SETTLE stamps. Both rows carry the CBOE delayed-quote + yfinance values.
+- Inbox: 3 new items processed (2 WALTER info-only, 1 PROME ruling).
 
 ## WHAT I DID
 
-- **Graded LEG 2 on the 9/23 close: KILL** (−14.29% vs a −1.41% line). Wrote `research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md`, which includes the whole-letter verdict: **FAILED on all substantive legs, 0 CONFIRM · 2 KILL · 1 MISS · 1 VOID · 1 HELD-with-defect.** Re-verified the letter sha256.
-- **Recorded a disagreement without applying it.** Leg 2 used the "VIX ≤16 at T-1" cohort but, unlike leg 1, had no void clause. On the level cohort that actually applied (n=34) the prior was 53% up, not 88%. This became acceptance condition ⑤.
-- **Corrected part 2 in part 3 §4 without editing part 2** (KB-VIO-309). B is now 3/3 on direct evidence. The "A-cells monotonic opposite" claim is withdrawn, and H-approach-vs-delivery loses one observation.
-- **L441 (PROME's ask about the M1:M2 average 5.6):** re-measured on VX_TERM_HISTORY (mean 5.41, median 5.84, n=3,324) ⇒ **DECLARED**, with a vintage, a re-check on 2026-12-16 and a replace rule (KB-VIO-310). Added a comment in `thresholds.py`; **the value is unchanged.** Spec sent in the PROME memo.
-- `backfill.py --spot-only`: CBOE authoritative; created the 9/21 and 9/22 rows and 4 corrections on 9/18; 9/23 is provisional. PREDICTIONS L2 → KILLED. KB-VIO-308/309/310. CATALYSTS/CALENDAR: 9/23 row pruned, Dec 16 re-check added.
-- **L0 inbox drain, all 4 items** logged and moved with `git mv` to processed/. Both lanes are empty.
-- ⚠️ **SKIPPED: the full `boot.py`.** A pre-open run writes 9/24-dated rows from 9/23 data. OVX, JPY, cheap-tail, COR, VIX-options and m1m2 were **not re-read.**
+- **Ran full post-close `boot.py`** — every canary that was DARK/NOT RE-READ this morning refreshed cleanly. MOVE, OVX, JPY, cheap-tail, implied-corr, VIX options, thresholds, credit gate, CFTC all fresh 9/24 rows.
+- **Ran `backfill.py --spot-only`:** CBOE authoritative pass agreed 2562 cells and made no corrections; 9/23 and 9/24 remain provisional (CBOE history did not publish either day at this hour). Leg 2 KILL verdict unchanged and unchangeable at these values.
+- **Acted on PROME WQ-259 RULED packet:**
+  - **Rider (CLAUDE.md:194) — DONE.** Corrected "Last refreshed 2026-07-30 (`dafb97e0` / `dec911c2`)" → "Last refreshed 2026-08-18 (`d1bab0c8b`)". Will's approval on file in the packet.
+  - **Republish (both artifacts) — DEFERRED.** The packet gates republish on CBOE confirming 9/23; CBOE has not published it. Next post-close boot after CBOE catches up.
+- **Logged and moved 2 WALTER signals** (SIG-W-20260924-007 record negative-beta share; SIG-W-20260924-014 correction to 007) — both info-only, HENRY/RED own the interpretation; not vol readings. `board_log.tsv` + `git mv` to `processed/`.
+- **STATUS rewritten** with 9/24 close data; convergence matrix moved **27 → 28/50** (VVIX ⚪1→🟡2, front-curve ⚪1→🟡2, JPY 🟡2→⚪1 — net +1).
 
 ## NEXT SESSION
 
-1. **Post-close boot:** run the full `boot.py`, re-pull the CBOE history, and supersede the provisional 9/23 `VX_DAILY` row. Leg 2 cannot move.
-2. **Read MOVE's follow-through.** Was 9/23 a one-day shock or the start of a rates-vol regime? Watch whether VIX3M/VIX compresses toward 1.10 if MOVE holds above 90. Report to HENRY/LIQUID via NEXUS CROSS-DOMAIN, **not** as a regime-shift broadcast until it is more than one bar.
-3. **The next letter,** written against conditions ①–⑤ (STATUS research queue #2). Build the FOMC-date base rate first; verify 2024-09-18 was an FOMC day before using it.
-4. **KB-VIO-032 rolling percentile for M1:M2** (additive to the static band).
-5. **WQ-259 remains Will's decision.** The published pages are from 8/18, not 7/30; the repo sources are at 9/14 and were never redeployed.
+1. **Post-close boot Friday 9/25** — re-pull CBOE and stamp 9/23–9/24 SETTLE. If confirmed, then **execute WQ-259 republish** (both artifacts to their existing URLs; content update per the packet spec + this session's fresh readings). Post the URLs + version/time and the CLAUDE.md commit sha back to PROME.
+2. **CFTC TFF for 9/22 report publishes Fri 9/25 15:30 ET** — pull and read lev-money net; watch for a positioning shift given the two-day rates-vol print.
+3. **Read MOVE 9/25 close** — 3rd bar tells regime vs 2-day fade. If MOVE holds ≥100 with VIX3M/VIX compressing toward 1.10, that's the transmission signature.
+4. **Compose the next pre-registered letter** against acceptance conditions ①–⑤ (STATUS RQ #3). Build the FOMC-date base rate first; verify 2024-09-18 was an FOMC day.
+5. **KB-VIO-032 rolling percentile for M1:M2** (additive).
+6. **Thesis-currency advisory** — read the v4.1 thesis headline against the 41 KB rows / 3 retractions accumulated; deferred one more session but not indefinitely.
 
 ## CARRY-FORWARD
 
-- ⛔ **Do not cite the 9/23 VIX-complex values as CBOE-confirmed** until the next boot re-pull.
+- ⛔ **Do not cite 9/23 or 9/24 VIX-complex values as CBOE-SETTLE** until the CBOE history CSV publishes them.
 - ⛔ **Grade VVIX only on CBOE's history file.** The 16:05 delayed-quote "close" was 0.25 off on 9/18.
-- ⛔ H-resolution-vs-stress rests on **n=1 event**, however many legs failed on it. Pre-register it before grading it.
+- ⛔ H-resolution-vs-stress rests on **n=1 event**, however many legs failed. Pre-register before grading.
+- ⛔ **The 2-day MOVE / VVIX / VIX3M-VIX pattern is CROSS-DOMAIN, not a VIOLET regime-shift.** Route via NEXUS_BRIEF, not the outbox 🔴 signal file. HENRY/BOND own the rates substance; LIQUID owns the credit follow-on read.
 - Book **FLAT**; $0 moved; no proposal.
 
 ## OPEN HYPOTHESES
 
-- **H-resolution-vs-stress:** n=1 event, generated by the failure it explains. It needs the FOMC-date base rate.
-- **H-approach-vs-delivery:** weakened. The 9/18 observation became +5.80%. MOVE's 9/23 spike had no event to approach, so it is not evidence either way.
-- **H-carry** and **H-new (opex tail demand):** unchanged and untested.
+- **H-carry-vs-transmission** (new framing, this session): rates-vol MOVE spiked +33% over 2 days with limited equity-vol confirmation. Historically the transmission lag is variable and often short. **Watch VIX3M/VIX toward 1.10 and VVIX toward 100 while MOVE holds ≥100.** Not a threshold, an observation. If it plays out, it belongs in the FOMC-analog corpus, not the letter's tape.
+- **H-resolution-vs-stress:** n=1 event; needs the FOMC-date base rate before grading.
+- **H-approach-vs-delivery:** weakened. 9/18 observation became +5.80% once MOVE printed (KB-VIO-309). MOVE's 9/23–24 spike had no event to approach, so it is not evidence either way.
+- **H-new (opex tail demand):** unchanged and untested.
