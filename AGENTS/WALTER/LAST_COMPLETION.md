@@ -119,6 +119,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 20. 🆕 **(9/25) HEN-46 F1 / GATE-TERRY-VLO-SCALE:** Nov ULSD crack 95.57 [9/24], $0.57 above `<$95` (BRENT STATUS). This is a HENRY/TERRY grade; watch it.
 21. 🆕 **(9/25) Push the local train** once VULCAN and PROME are clean, then run `reconcile_delivery_log.py --apply` (20 handoffs pending: `-001`…`-005`).
 22. 🆕 **(9/25) DAEDALUS staleness #5:** 6 `DOORBELL_LOG` rows are PENDING past their referent date (BROCK L22, OSPREY L91, FALCON L92, HAWK L149, BRENT L144/L145). Close them. The P2 false-positive-rate proposal has been carried twice.
+23. 🆕 **(9/25) PJM intake term — PROPOSED to PROME (`04de1dac6`), awaiting WATT's confirmation, then PROME encodes it in the lane.** Root cause: the lane caught the 9/16–18 PJM emergency, but `WATCH_FOR["WATT"]` does not exist, so the items classed as plain NEW and never reached `intake_scan`. New BOARD rule declined (POWER_GRID row + RULE 13 already cover it). Also: WALTER never routed the **9/1–9/3** PJM emergency either; that is WATT's to count. 14/22 query-agents have no WATCH_FOR (census to DAEDALUS via PROME). READS row 153 wording sent (recommend retire). **FOLLOW-UP #18 is thereby discharged to PROME.**
 9. **Watch:** **9/25** BG-02 17:00 ET · Baker Hughes (BRT-26) · **9/26** FSB Narva · **9/22–29** UNGA · **9/30** Russia diesel ban expiry (HEN-46 F3) · Brent Nov expiry ~9/30–10/01 · Iraq pullout · the standing size-check block · **10/01** NYC rent freeze effective.
 
 ## OPEN DESIGN DECISIONS
