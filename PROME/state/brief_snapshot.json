@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-09-24": "L247 LEG",
   "2026-09-25": "\ud83d\udfe0 **DID THE SUWA\u0141KI-GAP EXERCISE EQUIPMENT GO HOME?",
   "2026-09-26": "FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d\u2026",
   "2026-09-28": "ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure (successor to\u2026",
   "2026-09-30": "\ud83d\udd34 **L409 SCOPE WIDENED",
-  "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)"
+  "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)",
+  "2026-10-02": "L126 10/2 READ"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -59,6 +59,7 @@
   "274": "\ud83d\udd34 POSITION RECORD \u2014 TRANSACTION RECONCILE + CURRENT-BOOK VERIFICATION\u2026",
   "279": "NYSCEF DOCKET PULL \u2014 *Kenilworth Holdings LLC et al. v. NYC Rent Guid\u2026",
   "287": "\u2696\ufe0f CRL-27 RE-TOKEN \u2014 CARL's approved leg-(a) deletion conflicts with\u2026",
+  "290": "\u2696\ufe0f FIX THE FR2004 JOIN WINDOW BEFORE YOU RULE ON WQ-157 LEG \u2461? BOND r\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
