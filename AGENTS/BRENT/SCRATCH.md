@@ -1,37 +1,46 @@
-# BRENT SCRATCH — September 25, 2026 (Friday; live session, Will-directed, boot 09:05 ET, closeout ~11:50 ET, BEFORE the afternoon prints)
+# BRENT SCRATCH — September 25, 2026 (Friday; live PM session brent-f6, Will-directed, boot 12:15 ET, closeout ~17:2x ET)
 
-## CHANGES SINCE LAST SESSION (02:58 ET spawn → 09:05)
-- **Three continuous tickers rolled overnight:** `BZ=F` Nov→Dec, `RB=F` Oct→Nov, `NG=F` Oct→Nov. BZ=F printed a fake −7.8%; named BZX26 was −1.60% at 104.89 (09:07 ET, intraday).
-- **TCO Mountaineer XPress force majeure** (WV, 9/24 leak, MXPSEG to zero from the 9/25 cycle, ~1.8 MMDth/d firm) [secondary]. NGV26 2.831 (9/11) → 3.297 (9/24), then −5.2% intraday 9/25.
-- JWLA-035 is still the newest JWC circular. No new Saudi on-record figure seen by 11:4x ET.
+## CHANGES SINCE LAST SESSION (AM closeout ~11:50 → 12:15, and while waiting)
+- **Friday routine ran ~14:1x** (`c4a4419d6`, `friday_2026-09-25.md`). It read rigs 455 off aggregators; the BH primary reset in its container only. Its flags packet went to PROME. Also: no `.venv` in the container, and a 4th shallow-clone/detached-HEAD recurrence (PROME's to root-cause).
+- **TERRY graded F1 9/25 = UNKNOWN** (settle-window crack $95.0014, inside ±$0.15). The gate is HELD (A ✗, B ✗); nothing on VLO fired.
 
 ## WHAT I DID THIS SESSION
-- **Boot:** boot.py rc=2 (the standing set). The JWC blocking STALE is now CLEARED: re-read at IUA + LMA, NOT FIRED. I also moved the 9/18 note that was mis-placed in `probe_scope` (`56be75521`).
-- **Mail:** WALTER roll-artefact packet (relayed -008). WATT P4 basis ASK answered (`f7bbdc42e`; WATT integrated `a6b641a1a`). HENRY blind-read ASK for BRT-12 (due 9/29), doorbelled to PROME per rule 6b because HENRY is dark.
-- **Research:** crack seasonality 2010–25 on EIA spot (`research/2026-09-25_crack-seasonality/`, reproducible script). 3:2:1 Nov→Jan median −10.6% vs the forward's −10.3%. ULSD forward flat Nov/Dec/Jan.
-- **Q3 PREP:** `setups/2026-09-25_Q3-predictions-grade-PREP.md` (BRT-26 / BRT-29 / BRT-12). Grades nothing.
-- **Negative control:** PortWatch cannot see the Yanbu crude terminals (TRACKER). CME settlements block scripts and their terms forbid scraping, so don't automate. EIA NGWU ended 2026-01-22.
-- **Closeout:** rotated the 02:58 STATUS block (3,454 B, crc `bba0f236`); STATUS 70%. TRACKER re-stamped SCOPED-PARTIAL. No trade, band, threshold, prediction or thesis change. $0.
+- **Boot:** rc=2, the standing set (TRADE.md + INCIDENTS 9d stale). Inbox drained: WALTER -002 info-only; PROME WQ-295 acted.
+- **WQ-295:** cadence **WEEKLY**. WATCH_FOR went 10 → 12 → **9 landed**: WALTER rejected "East-West pipeline" (R3), then live-retested and removed "Hormuz reopened/reopens" + "IEA emergency release" (conditionals). **The Hormuz-reopening off-ramp has no clean phrase**; its detectors are my sessions + WALTER's Iran anchor. Aramco OSP lane query proposed (`e1ede5e96`).
+- **Grades:**
+  - **BRT-26 ✅ CONFIRMED** (BH primary 455 vs 457, 3 retrievals, horizontal −1; `72ac567ab`).
+  - **COT #7 ⇒ JOINT NOT-SPENT** (121,362 / 6.5893%; the streak of 5 NO-VERDICTs ends).
+  - **BG-02 (4) ⇒ NOT MET, LAPSED** (`4312dc2c6`).
+- **TERRY packets:** the intraday F1 read plus the `fast_info.previous_close` trap (`7fbcff999`); the dated-row $99.82 that fails the $0.15 test after a post-settle HO rally (`35b7e5641`).
+- **Closeout:**
+  - STATUS: PM block; AM block rotated (1,392 B `62d23c83`); 6 standing rows re-read and re-stamped (archive CRCs re-reproduced); 73%.
+  - TRACKER re-stamped SCOPED-PARTIAL.
+- **$0. No trade, threshold, band or thesis change.**
+
+## ⚠️ MY ERRORS THIS SESSION (for the lesson file)
+- **Absence claimed from the wrong reader:** I told PROME that Cushing was not ingested, having scanned HEADLINES only. The lane's EIA numeric feed carries it with alerts. WALTER caught it.
+- **Pre-test on lane history + clean synthetic headlines passed 3 phrases that failed live:** conditionals ("could be reopened if…") and outlet bylines aren't in synthetic controls. WALTER's live harness is the real test.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Fri 9/25 ≥17:00 ET — BG-02 GRADE (closed out ARMED; PROME re-touches).** Use the decision tree in `setups/2026-09-25_BG-02-grade-PREP.md`. Check first for any Aramco/MoE/SPA on-record figure or a FALCON FAL-01. Modal outcome: LAPSE = NOT MET. Close the CATALYSTS row and PROME L329.
-2. **Fri 9/25 — UNGRADED at this closeout:** rigs (~13:00, the final BRT-26 print, 457 line; grade per the PREP tree with two retrievals of the primary) and COT #7 (as-of 9/22, ~15:30, `cot_grade.py --expect 2026-09-22`, raw f_disagg). **Grade both before the 10/2 prints.**
-3. **After the BG-02 grade — answer PROME WQ-295** (packet in the inbox, DEFERRED): `CADENCE: WEEKLY` plus 5–12 WATCH_FOR phrases. The draft list is in the session report: Petroline/East-West pipeline, Yanbu loadings, Hormuz closure, OPEC+ emergency meeting, JWC listed areas, Aramco OSP, Cushing inventory, US diesel export ban, Russian fuel export ban, Bab al-Mandab tanker attack. Send to `PROME/inbox/`, cc WALTER.
-4. **Tue 9/29:** HENRY's blind BRT-12 verdict due. **Wed 9/30:** grade BRT-29 at the ~10:30 WPSR (wk-9/25; T needs ≤7,555 kb/d) and BRT-12 (8/13 rule).
-5. **9/26–9/30:** DAEDALUS PR6 (BOUNDARIES register #5/#6/#8/BG-02, BRT-26 split).
-6. **Mon 9/28:** check that the routine wrote `yanbu_berth_2026-09-28.tsv`; if not, ask PROME. **9/29:** last BZX26 settle; L461 re-pin to BZZ26 from the 9/30 session (PROME edits FORGE).
-7. 10/4 OPEC+ · ~10/5 Aramco Nov OSP · **10/06 WQ-252 sitting** (seasonality note is an input; PROME pointer sent) · ~10/14 IEA OMR.
+1. **Mon 9/28:** check that the routine wrote `yanbu_berth_2026-09-28.tsv` (WQ-264 shadow run); if not, ask PROME. F1 restarts at the 9/28 settle (post-settle 9/25 crack ~$99.9; TERRY grades).
+2. **Tue 9/29:** HENRY's blind BRT-12 verdict due. Last BZX26 settle; L461 re-pins to BZZ26 from 9/30 (PROME edits FORGE).
+3. **Wed 9/30 ~10:30:**
+   - Grade **BRT-29** at the WPSR wk-9/25 (T needs ≤7,555 kb/d; modal MISS on T).
+   - Grade **BRT-12** under the 8/13 rule (modal VOID + two spec defects).
+   - PREP: `setups/2026-09-25_Q3-predictions-grade-PREP.md`.
+4. **Fri 10/2:** COT #8 (as-of 9/29) — grade the same day.
+5. 10/4 OPEC+ · ~10/5 Aramco Nov OSP (**date-check any OSP headline**: an "August OSP cut" story is circulating dated 9/24–25) · **10/06 WQ-252** (seasonality note `research/2026-09-25_crack-seasonality/` is an input) · ~10/14 IEA OMR · **10/24 WQ-264 shadow run ends** ⇒ BG-02 successor registration question.
+6. 9/26–9/30: DAEDALUS PR6 (BOUNDARIES register, BRT-26 split).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Yanbu liftings:** ~6 due 9/24–27 (Kpler, single vendor). There is no free second daily lineage (PortWatch fails its negative control). The next independent source is JODI September, ~mid-Nov.
-- 🔴 **F1:** Nov ULSD crack ~97.6 intraday 9/25 vs the $95 line (HENRY/TERRY grade on the CME settle). No roll step, because Dec/Jan are flat.
-- 🟠 **OSPREY refinery tape** (Moscow; Kuibyshev/Ufa 9/22): INCIDENTS rows are owed after a primary check. 14 INCIDENTS rows are past 60d.
-- 🟠 **Data-gap options with Will:** a paid EOD futures feed vs Will glancing at CME on tight-margin days. No decision taken.
-- 🟡 **TRADE.md** is 9d stale and at 81%: rotate the pre-9/12 frame-breaker history.
+- 🔴 **Yanbu:** IIR satellite shows vessels loading this week; Kpler (single vendor) had ~6 liftings due 9/24–27. The next independent source is JODI September (~mid-Nov).
+- 🟠 **OSPREY refinery tape** (Kuibyshev/Ufa 9/22): INCIDENTS rows owed after a primary check. 9 ACTIVE rows past 60d.
+- 🟠 **TRADE.md** is 9d stale at 81%: rotate the pre-9/12 history. I offered this to Will twice this session; he gave no answer and it was not done.
+- 🟡 Data-gap options with Will (paid EOD futures feed vs a manual CME glance): no decision.
 
 ## POSITION DECISIONS PENDING
-- None new. USO 37 sh (no exit rule; WQ-200 declined). VLO 1 held + 2 staged (TERRY/Will). WQ-192 stand-down holds.
+- None new. USO 37 sh (no exit rule; WQ-200 declined). VLO 1 held + 2 staged (TERRY/Will; gate HELD 9/25). WQ-192 stand-down holds.
 
 ## MAIL STATE
-- Inbox: **1 DEFERRED** — PROME WQ-295 (cadence + watch terms; PROME asked for it after 17:00).
-- Sent: WALTER (roll) · WATT (P4 basis) · HENRY (BRT-12 blind read) · PROME closeout memo. Outbox: clear.
+- Inbox: **empty** (2 consumed = 2 board_log rows).
+- Sent: PROME (WQ-295 ×2, OSP query, three grades by message) · WALTER (cc pointer) · TERRY ×2 (F1). Outbox: clear.
