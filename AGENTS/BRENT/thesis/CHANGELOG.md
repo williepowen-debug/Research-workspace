@@ -1,3 +1,7 @@
+## 2026-09-25 — BRT-26 RESOLVED CONFIRMED; COT #7 graded; v5.9 unchanged
+
+Old: BRT-26 OPEN at 85% (9/18: oil 452, headroom 5, one print left). New: 9/25 Baker Hughes primary oil **455 (+3)**, final in-window print, 457 not reached ⇒ **CONFIRMED** (Brier 0.0225 at 85%; first call 60% ⇒ 0.16). Horizontal −1: the mechanism is unchanged, not proven, and part of the win is lag timing (see note). COT-FUEL-35B vintage #7 (as-of 9/22, raw f_disagg): MM shorts 121,362 / OI-share 6.5893% ⇒ **JOINT NOT-SPENT**. This ends five consecutive NO-VERDICTs; it is a sizing descriptor only. No thesis version, threshold or trade change.
+
 ## 2026-09-18 — evidence log; v5.9 unchanged, no grade or calibration change
 
 Old: demand destruction inferred from US weekly gauges only; Japan carried as ~90% ME-dependent (frozen ledgers); Petroline restart gradeable only via impeached AIS trackers or an operator statement. New: IEA Sept OMR puts 2026 world demand at −2.5 mb/d with observed stocks still drawing 2.8 mb/d since February (supply loss dominates the balance); Japan's July intake is 37% US crude with Kuwait/Qatar at zero (Hormuz tell; SAM correction verified at METI); an AIS-independent Yanbu berth-occupancy observation exists and a two-of-three restart resolver is PROPOSED (not registered). BRT-26 452 (one print left); COT-35B vintage #6 NO-VERDICT (5th); 4.909% bar reproduced; JWLA-035 leaves the Gulf listed. No probability, band, threshold, falsifier or phase moved. Record: research/2026-09-18_news-catchup/REPORT.md.
