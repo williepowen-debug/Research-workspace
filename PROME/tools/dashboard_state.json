@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-24 23:10",
+ "built": "2026-09-24 23:49",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -27,6 +27,7 @@
   "2026-09-25 MECHANISE THE GATE-CITABILITY CHECK as a prome_gate.py boot ",
   "2026-09-25 PETROLINE FRAME-BREAKER RESOLVER WINDOW CLOSES (BRENT BG-02,",
   "2026-09-25 WQ-259 EXECUTION \u2014 VIOLET refreshes + republishes its two Wi",
+  "2026-09-25 WQ-289 (b) ENCODE \u2014 the narrow L367 form in PROME/tools/argu",
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-09-25 \ud83d\udfe0 **A METRIC-NAME SPLIT IN PUBLISHED.tsv ORPHANS THE NEW VAL",
   "2026-09-25 \ud83d\udfe0 CLOSEOUT STEP 12 STRANDS A FILE AND THE SWITCHING CHECKLIS",
@@ -92,7 +93,7 @@
   "AEOLUS": "watch",
   "BOND": "ok",
   "BRENT": "ok",
-  "BROCK": "ok",
+  "BROCK": "watch",
   "CARL": "ok",
   "CORAL": "elev",
   "CRUISE": "watch",
