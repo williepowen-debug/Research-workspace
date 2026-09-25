@@ -117,4 +117,95 @@ Session: **2026-09-25 Fri, Claude Opus 5.5 as WALTER (`walter-9c`)**, booted ~13
 
 ## CLOSEOUT RECEIPT
 
-**Pending: re-issued after the push and `reconcile_delivery_log.py --apply`.**
+**Issued 2026-09-25T22:10:06Z after `safe-push` (receipt: "Pushed. CONFIRMED: HEAD dff492367 is on origin/master (fresh fetch)") and `reconcile_delivery_log.py --apply` (33 flipped; 0 real orphans).**
+- **9/25 handoffs: 52 of 52 DELIVERED.** Delivered is not consumed.
+- ⚠️ **This receipt does NOT claim:**
+  - that any recipient consumed anything (HANS consumed `-001`, verified at HANS-F-006; the others are unknown);
+  - that PROME landed the pending watch-term replacements;
+  - that BROCK / TERRY / HAWK / VULCAN adopted them.
+- The commit list below is a verified subset of today's ~40 WALTER commits. **A mid-day shared-repo rebase rewrote some earlier hashes, so verify by subject.**
+
+<!-- CLOSEOUT_RECEIPT_JSON
+{
+  "schema": 1,
+  "as_of": "2026-09-25T22:10:06+00:00",
+  "publication": [
+    {
+      "commit": "dff492367",
+      "state": "published"
+    },
+    {
+      "commit": "47d8532ee",
+      "state": "published"
+    },
+    {
+      "commit": "396b80c3e",
+      "state": "published"
+    },
+    {
+      "commit": "15fcc40ea",
+      "state": "published"
+    },
+    {
+      "commit": "cc9c14017",
+      "state": "published"
+    },
+    {
+      "commit": "2a8c407cb",
+      "state": "published"
+    },
+    {
+      "commit": "6dec637cd",
+      "state": "published"
+    },
+    {
+      "commit": "c77acfe5d",
+      "state": "published"
+    },
+    {
+      "commit": "4d4c2b38a",
+      "state": "published"
+    },
+    {
+      "commit": "513e3f1d0",
+      "state": "published"
+    },
+    {
+      "commit": "45100b0fd",
+      "state": "published"
+    },
+    {
+      "commit": "04de1dac6",
+      "state": "published"
+    },
+    {
+      "commit": "c7f19b782",
+      "state": "published"
+    },
+    {
+      "commit": "7516d1ddf",
+      "state": "published"
+    },
+    {
+      "commit": "0dfad79be",
+      "state": "published"
+    }
+  ],
+  "delivery": {
+    "signal_date": "20260925",
+    "total": 52,
+    "delivered": 52
+  },
+  "owner_review": {
+    "scope": "manual evidence review; no automatic completion",
+    "evidence": [
+      {
+        "path": "AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md",
+        "sha256": "a543c9fbc18009eff441e6af6967ec33316a2b31f2504c9ce2e83fd57cfd8c8e",
+        "note": "Basis for correction SIG-W-20260925-013: L15 records the X1 wrapper half ADJUDICATED NOT ARMED 2026-08-28 (BROCK KB-BRK-219) and the contested branch SPENT. WALTER read L15 and section D, not the whole memo."
+      }
+    ]
+  },
+  "next_review": "2026-09-28"
+}
+END_CLOSEOUT_RECEIPT -->
