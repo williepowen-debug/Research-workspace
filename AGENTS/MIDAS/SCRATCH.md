@@ -28,7 +28,7 @@
 >
 > **▶ CLOSEOUT 2026-09-25 ~11:44 ET:** NEXUS_BRIEF re-based **72,126 → ~7 KB**; the old brief is verbatim at `analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md`, and its live obligations are carried in the "STANDING ROWS" table · VX M1/M2/I2/M1-POS refreshed · cadence **WEEKLY** declared + 12 WATCH_FOR phrases to PROME (WQ-295) · consumer check on the beta: 12 🟠 candidates, 0 🔴 (PROME HEARTBEAT quotes the dated 9/11 −0.186, and PROME has the −0.1551 packet).
 >
-> **▶ POST-CLOSEOUT 9/25:** WALTER tested the watch terms (4da1313d1). Adopted `Central bank gold statistics` for #1; #12 withdrawn; 10 phrases final. **A PGM lane query was proposed to PROME**: without it the PGM-outage phrases can never fire.
+> **▶ POST-CLOSEOUT 9/25:** WALTER tested the watch terms (4da1313d1). Adopted `Central bank gold statistics` for #1; #12 withdrawn. **11 phrases final (9 registered-trigger + 2 conditional)**: my packet said 10, a miscount WALTER caught. WALTER live-tested the PGM lane query: PASS (0 hits on 4 Sibanye strike stories and a mine-closure warning, so the precursor filter holds). Recall on a real SA/Russia event is UNPROVEN because none happened in the window. **A PGM lane query was proposed to PROME**: without it the PGM-outage phrases can never fire.
 >
 > **⏳ STILL OWED:** ① **Will's ruling on the silver/PGM bands** (OPEN_ITEMS 25). ② ~~NEXUS_BRIEF rotation~~ DONE 9/25. ③ Roll `PLV26`→`PLF27` when volume crosses. ④ The 9/30 triple. ⑤ M1 successor (register the beta). ⑥ Wire `cot_metals.py` as a boot leg: deliberately NOT done yet; needs a consumed-vintages ledger per metal first.
 
