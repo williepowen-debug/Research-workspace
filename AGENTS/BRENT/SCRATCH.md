@@ -1,36 +1,38 @@
-# BRENT SCRATCH — September 23, 2026 (Wednesday; PROME Tier-1 spawn `prome-7a`, WQ-184 outcome ①, boot 20:43 ET, after the close)
+# BRENT SCRATCH — September 25, 2026 (Friday; PROME Tier-1 due-row spawn `prome-fa` + Will-directed Q5 lead, boot 02:58 ET, pre-open)
 
 ## CHANGES SINCE LAST SESSION
-- **Will ruled WQ-234 = C (2026-09-22 19:20 ET):** AIS-derived resolvers corroborate only, never fire a capital gate alone.
-- **PROME L429 census (9/23):** REGISTRY:57's "FINE FOR A LEVEL" premise refuted; BZX26 (dashboard pin) expires 9/30.
-- **EIA wk-9/18 graded earlier today** by the 15:12 ET session (`cc6106cc8`): Cushing +2.266M to 23.748M, utilization 94.0%; PROME consumed the packet.
-- **Tape:** 9/22 settle-basis BZX26 $99.25 · BZZ26 $95.41 (Nov−Dec +$3.84). 9/23 day session ~+$3.9 on Nov (intraday bars; settle not readable after 18:00 ET).
+- Brent settle-proxies: BZX26 **103.08 (9/23) / 106.60 (9/24)**, BZZ26 98.12 / 100.22; M1−M3 re-widened to +10.18 (9/10 pre-shut +9.27).
+- Petroline RESTARTED 9/22 into Red Sea refineries (Reuters, unnamed); Yanbu crude tanker loadings NOT resumed as of 9/24 (Reuters/Kpler); no Aramco/MoE figure on record.
+- Will ruled WQ-264 (9/24 08:50): shadow run approved, BG-02 lapses on its letter, no extension. WQ-252 (9/24 18:30): month-basis sitting 10/06; November governs through 10/14.
+- US diesel-export ban floated 9/22–23, denied on record 9/23, no order. Nov ULSD crack 109.49 → 95.57 (9/22→9/24).
 
 ## WHAT I DID THIS SESSION
-- Ran `boot.py` (rc=2: standing Threshold/Instrument FINDINGS — GASREGW, COT-35B STALE, 9 ACTIVE incidents past 60d; none new).
-- **WQ-234 encoded** on BG-02 (C1–C6) + TRADE pointers. Drafting call: dual-tracker rules 1–4 = admission test for corroborating weight. 9/25 grade NOT run.
-- **L429:** REGISTRY header premise replaced; L23 amended (C2, `--prose` rc=0); NG=F rows got the roll caveat. Word to PROME on the FORGE pin (memo).
-- **DAEDALUS PR6** ask 2a done (guard scope named narrow). **ORACLE** pins ruled relevant, keep both. **WALTER -012/-013/-014/-016** noted; **-019** re-weighed (Russia diesel barrels leg weaker).
-- STATUS rotated 18,119 B verbatim (9/18+9/21 blocks) → `archive/STATUS_dated_2026-09-18_21.md`; now 71% of budget.
-- Second-vendor Brent test: CME public endpoint 403 + ToS bars automated access → NOT RUN.
+- boot.py rc=2 (standing: GASREGW, COT-35B stale, TANKER-LIVENESS dead/stale, 9+5 INCIDENTS rows stale; NEW blocking: KILL-LEG2-JWC-LISTING stale 10d vs 9d budget — not re-read).
+- Drained 12 (8 WALTER + 4 top-level); board_log 12 rows = 12 git mv. COR-20260924-11 receipted APPLIED.
+- Published 9/23–9/24 settle-proxies (STATUS). Graded boundary #8 on Nov: crossing 9/15–9/23 STANDS; 9/24 NOT MEASURABLE; Dec 2 sessions.
+- BG-02 PREP armed (`setups/2026-09-25_BG-02-grade-PREP.md`); NOT graded — window closes 17:00 ET.
+- WQ-264 shadow run STARTED: window 9/25 → 10/24; first read logged; TRACKER block instructs Mon/Fri routines.
+- Q5 lead delivered (`research/2026-09-25_L477_Q5_energy-thesis-vs-held-expressions.md`); HENRY leg in (`0d8616964`).
+- Packets: WALTER (#8 grade), SAM (9/24 figure is post-settle), OSPREY (Novorossiysk cause UNESTABLISHED). REGISTRY: MARCO consumer on MKT-BZ-F-BELOW-85. Rotated the 9/23 STATUS block (2722 B, crc `2343a42e`).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Fri 9/25 17:00 ET — BG-02 window CLOSES.** Grade on the AMENDED letter (C1–C6). State the C2/C3 interaction explicitly: does any R1 meet its own row; is any tracker read admissible (both vendors, dark-share disclosure) — Kpler-only currently carries ZERO weight. Lapse = NOT MET. Do not extend without Will's word. Same day: rigs BRT-26 FINAL (457 line) · COT as-of 9/22.
-2. **9/26–9/30 (DAEDALUS PR6):** build the boundary register (#5/#6/#8/BG-02 machine-readable, Status/Date_Graded) and split BRT-26 into its two tests (457 · trough+50) — after the 9/25 final print.
-3. **By 9/30:** BRT-12 / BRT-26 / BRT-29 resolutions (timeframes end 9/30); PROME's L429 owner disposition check.
-4. **9/29–9/30:** confirm PROME re-pinned `config.py` to `BZZ26.NYM` for the 9/30 session (BZX26 last trade 9/30).
-5. **Second-vendor Brent:** no free licensed route found; next step is asking PROME whether the fleet has any licensed settle feed — else declare the L430 class un-resolvable without a paid feed.
-6. ~10/2 METI Aug · ~10/5 Aramco Nov OSP · ~10/14 IEA OMR.
+1. **Fri 9/25 ≥17:00 ET — BG-02 GRADE** on the PREP file's decision tree. First check for any Aramco/MoE/SPA on-record figure or a FALCON FAL-01. Modal: LAPSE = NOT MET. Close CATALYSTS row + PROME L329; confirm WQ-264 to PROME.
+2. **Fri 9/25 — rigs (BRT-26 final September print, 457 line; two pulls) and COT #7 as-of 9/22 (~15:30 ET, `cot_grade.py --expect 2026-09-22`, raw f_disagg).** Grade both BEFORE the 10/2 prints.
+3. **By 9/30:** resolve BRT-12 / BRT-26 / BRT-29. 9/26–9/30: DAEDALUS PR6 boundary register + BRT-26 split.
+4. **9/29:** last BZX26 settle; L461 re-pin to BZZ26 effective the 9/30 session (PROME edits FORGE).
+5. **Mon 9/28:** check the Monday routine wrote `yanbu_berth_2026-09-28.tsv`. If not, the routine is not following the TRACKER instruction → ask PROME for a prompt update (RemoteTrigger is PROME's path).
+6. 10/4 OPEC+ · ~10/5 Aramco Nov OSP · 10/6 WQ-252 sitting (#8 Brent leg ends 9/30) · ~10/14 IEA OMR.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Saudi export recovery ~4 mb/d Sep vs 2.4 Aug still un-audited (load-bearing on the SIG-010 split).
-- 🔴 Petroline restart-resolver PROPOSAL with Will (via PROME).
-- 🟠 Russia diesel ban extension INFERRED (L140 on-publication).
-- 🟡 STATUS 71% (258 B above the 70% stop) — rotate the 9/23 block after the 9/25 grade. TRADE.md 81% (rotate-tier, pre-existing + ~1 KB WQ-234 banner) — rotate the pre-9/12 frame-breaker history next session.
+- 🔴 Yanbu liftings: ~6 due 9/24–27 (Kpler). Resumption = the export-recovery leg; carry it as tracker evidence (C5), never as R1.
+- 🔴 F1 ULSD crack at $95.57 (settle proxy) vs the $95 line: HENRY/TERRY grade on the CME settlement. Q5: the held VLO share has no numeric exit.
+- 🟠 KILL-LEG2-JWC-LISTING instrument stale (JWLA-035, 9/15 datapoint): re-read the LMA/IUA index next session.
+- 🟠 OSPREY refinery tape (Moscow halt; Kuibyshev/Ufa 9/22): INCIDENTS rows owed after a primary check.
+- 🟡 STATUS at 73% (not breached 75%; nothing owed). TRADE.md 81%: rotate the pre-9/12 frame-breaker history.
 
 ## POSITION DECISIONS PENDING
-- None new. TRADE owns: USO 37 shares; USO Sep-16 165C disposition is Will's. WQ-192 stand-down holds. No construction authorized.
+- None new. USO 37 sh (no exit rule; WQ-200 declined). VLO 1 held + 2 staged (TERRY/Will). WQ-192 stand-down holds.
 
 ## MAIL STATE
-- Inbox top-level: **CLEAR** · WALTER lane: **CLEAR** (9 items this session, board_log reconciled 9 rows = 9 moves).
-- Sent: ORACLE ×1 (relevance ruling) · PROME memo (`PROME/inbox/2026-09-23_from-BRENT_wq234-encoded-l0-drain.md`).
+- Inbox: **CLEAR** (top-level + WALTER lane).
+- Sent: WALTER · SAM · OSPREY packets; PROME memo `PROME/inbox/2026-09-25_from-BRENT_settles-b8-bg02-armed-q5.md`.

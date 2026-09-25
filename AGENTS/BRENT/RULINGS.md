@@ -335,3 +335,11 @@ Will selected retaining the existing routines after distinguishing BRENT files, 
 
 **Letter:** `workbook/REGISTRY.tsv` header (L23 paragraph) + `LESSONS.md` L23. **Why:** the prior text said a =F ticker is "FINE FOR A LEVEL"; the calendar spread moves the level at the roll (CL=F Oct→Nov $4.06, 9/21 L427), so a level test can be crossed by the roll alone. The per-row roll rule (Will-ruled convention 2026-08-13) was already the real protection; the header now says so.
 
+
+## R-2026-09-25-WQ264 — shadow run approved, BG-02 not extended (Will 2026-09-24 08:50 ET, verbatim "Approve WQ-264 and WQ-256 with your recs")
+
+**Letter:** ① the shadow run is recorded in `demand_destruction/TRACKER.md` (9/25 re-stamp, routine instruction) and `demand_destruction/data/yanbu_berth_*.tsv`, window 2026-09-25 → 2026-10-24 · ③ BG-02's window closes on its own letter (`setups/SPECS_GATES.md` § BG-02, unchanged). **Why:** a window whose throughput legs cannot fire by construction (C1) should not be extended. The AIS-independent optical leg has no error bands, so it needs a base rate before any level is registered. The restart resolver is registered AFTER the run, never in place of the lapsed window.
+
+## R-2026-09-25-WQ252 — crack month basis: sitting convened, November governs meanwhile (Will 2026-09-24 18:30 ET)
+
+**Letter:** WALTER `ROUTING_OVERLAYS.md` rows #6/#8 (letters unchanged); interim basis = November fixed through 10/14 (`PROME/WILL_QUEUE.md` WQ-252). **Why BRENT graded #8 on November on 9/25:** the interim rule governs the F1 instruments that share the crack, and a Brent-desk month choice would be the beneficiary choosing its own basis. ⚠️ The November Brent leg (BZX26) stops trading 9/30 while the product legs run to end-October. That gap is for the 10/06 sitting.

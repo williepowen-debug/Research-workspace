@@ -1,0 +1,9 @@
+# WQ-264 SHADOW RUN — Yanbu crude-terminal berth occupancy (leg A, AIS-independent). RECORD-ONLY: no threshold, no grade, no gate.
+# Window: 2026-09-25 -> 2026-10-24 (30 days), set by BRENT at first read after consuming the WQ-264 ruling (Will 2026-09-24 08:50 ET). Nothing backdated.
+# Source: https://hormuzstraittracker.com/data/red-sea (LLC; no published error bands; history paywalled). Method = vessels at berth x assumed cargo ("Est. barrels") — HULLS, not loadings.
+# Fail-closed: a NO-READ (cloud, page down, no new pass) is logged as NO-READ and is NEVER scored as zero. Crude terminals only (Al Muajjiz; North Crude Pt1/Pt2); SAMREF/refinery berths excluded.
+# in_window: N = the pass predates the window start; logged as entry baseline, NOT counted in the base rate.
+read_at_et	obs_date	site	est_barrels	pass_avg_2025	sensor	read_status	in_window	reader	notes
+2026-09-25 03:01	2026-09-22	Yanbu South Al Muajjiz Crude Terminal	476000	1140000	UNSTATED	READ	N	BRENT live session	page: '8 of 8 sites represented · as of Sep 25, 2026' but only a 9/22 snapshot; sensor not stated on page
+2026-09-25 03:01	2026-09-22	Yanbu North Crude Terminal Part 2	1050000	598000	UNSTATED	READ	N	BRENT live session	hull(s) at berth on 9/22 while Reuters/Kpler report NO crude tanker loadings 9/23-9/24: a hull at berth is not a loading (proposal §3 limit)
+2026-09-25 03:01	2026-09-22	Yanbu North Crude Terminal Part 1	0	35000	UNSTATED	READ	N	BRENT live session	
