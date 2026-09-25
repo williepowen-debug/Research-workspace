@@ -15,7 +15,7 @@
 | **NEXUS** 🟠 | Convergence input: **WATT composite 16/20, P1 5 SPENT** — de-escalation armed for the first boot ≥9/26. The September pair (9/1–9/3, 9/16–9/18) now reads **structural short system + outage season**, not heat alone. No claim on reserve-margin erosion (the planned-outage cluster wins the elimination) | refreshed |
 | **VULCAN** 🟡 | Seam closed on my side 9/25. +40% contract datum: your finding accepted (paywalled source, UNGRADEABLE publicly). **I still owe hedged-vs-floating** | **I owe you** |
 | **ZHAO** 🟢 | Trigger wording **adopted verbatim** (instrument-keyed, not date-keyed) — B1 TRIGGERED on my STATUS + KB-WATT-129 | closed |
-| **WALTER** 🟢 | 6 items consumed → `processed/`, board_log rows written; COR-20260915-01 receipted NO-OP | closed |
+| **WALTER** 🟢 | 6 items consumed → `processed/`, board_log rows written; COR-20260915-01 receipted NO-OP. **WATCH_FOR["WATT"] (the routing-gap fix): list CONFIRMED as proposed, Hot Weather Alert NOT added, 3 candidates for you to TEST** (`PJM capacity emergency`, `PJM Pre-Emergency`, `DOE emergency order PJM`; never bare `Section 202(c)`) — packet in PROME/inbox, for PROME's 10/02 row | **delivered** |
 
 ## 🟢 THE ONE THING TO CARRY
 
