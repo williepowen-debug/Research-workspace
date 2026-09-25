@@ -213,6 +213,45 @@ def collect_alerts(live):
                              gate=gate, owners=["(per-item agents field)"], info_cc=[],
                              precedence=prec, raw=f"{n} {cls} item(s) — read {nw.get('saved','data/<date>/news.json')}",
                              label=f"{n} {cls}"))
+
+    # NEW_WATCH_HIT + DEVELOPMENT — PER ITEM, owned by the desk that registered the term.
+    # Added 2026-09-25 (walter-9c): until today this function read only the NEW_ALERT/NEW_WATCH
+    # COUNTS, so every WATCH_FOR hit (the owner-registered wake terms: FLG rent freeze, HENRY,
+    # BROCK, SAM, and the WQ-295 R3 lists) was classified by the lane and NEVER reached WALTER's
+    # worklist. The lane's own alert list (fetch_newsweep.py) already treats these two classes as
+    # alerts; this aligns the consumer with it. Per-item keys, so a dark owner's hit can carry the
+    # rule-6b doorbell recommendation. Onset keys are the title hash (the news feed is deduped
+    # lane-side, so an item is one onset).
+    saved = nw.get("saved")
+    if saved and (byc.get("NEW_WATCH_HIT") or byc.get("DEVELOPMENT")):
+        try:
+            items = json.loads((LANE / saved).read_text(encoding="utf-8")).get("items", [])
+        except Exception as e:
+            items = []
+            recs.append(dict(feed="newsweep", key=f"news:UNREADABLE:{saved}", band=None, gate="INFO",
+                             owners=["WALTER"], info_cc=[], precedence="ROUTINE",
+                             raw=f"{saved} unreadable ({type(e).__name__}); watch hits UNKNOWN",
+                             label="news.json unreadable — watch hits UNKNOWN"))
+        import hashlib
+        for it in items:
+            cls = it.get("classification")
+            if cls not in ("NEW_WATCH_HIT", "DEVELOPMENT"):
+                continue
+            title = it.get("title", "")
+            h = hashlib.sha1(title.encode("utf-8")).hexdigest()[:12]
+            if cls == "NEW_WATCH_HIT":
+                hits = it.get("watch_hits") or []
+                owners = sorted({hw[0] for hw in hits if isinstance(hw, (list, tuple)) and hw}) or ["(unknown)"]
+                phrases = "; ".join(f"{hw[0]}:'{hw[1]}'" for hw in hits if isinstance(hw, (list, tuple)) and len(hw) > 1)
+                recs.append(dict(feed="newsweep", key=f"news:WATCH_HIT:{h}", band=None, gate="ACTION",
+                                 owners=owners, info_cc=[], precedence="PRIORITY", raw=title[:160],
+                                 label=f"WATCH_HIT [{phrases}]"))
+            else:
+                ents = it.get("entity") or "?"
+                recs.append(dict(feed="newsweep", key=f"news:DEVELOPMENT:{h}", band=None, gate="INFO",
+                                 owners=list(it.get("agents") or []) or ["(per-item agents field)"],
+                                 info_cc=[], precedence="ROUTINE", raw=title[:160],
+                                 label=f"DEVELOPMENT [known entity {ents} + escalation qualifier]"))
     return recs
 
 
