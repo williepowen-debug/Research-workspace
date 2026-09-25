@@ -26,6 +26,13 @@
 
 ---
 
+<!-- ASSERTION_CHECK: LIVE-REGION-ENDS — everything below this line is explicitly superseded/retained-verbatim.
+     Added 2026-08-21: the banner told HUMANS the layer was dead and told the CHECKER nothing, so the 7/24 marks
+     below kept surfacing as live-looking findings. A banner is a warning, not a machine-readable boundary.
+     MOVED UP 2026-09-25 (was below the 7/28 body): every block from the 9/17 re-pin down is bannered SUPERSEDED,
+     but sat above the sentinel, so its past-dated clauses aged into EXPIRED-PENDING flags as each crossed the
+     10-day floor (first: a 9/15 clause, 9/25). The live region is the 9/24 re-pin only. -->
+
 > ## ⛔ RE-PIN 2026-09-17 — **SUPERSEDED IN FULL BY THE 2026-09-24 RE-PIN ABOVE. DATED RECORD ONLY — DO NOT CITE ANY FIGURE BELOW THIS LINE AS CURRENT** · *(was: ~09:0x ET, PRE-PRINT — READ THIS FIRST · supersedes EVERY block below, including the 9/14 re-pin)*
 > **Data vintage:** FRED cache-busted **2026-09-17 08:27 ET** — nominals + `DFII10` through **9/15**, breakevens through **9/16**; FR2004 as-of **9/2** `[STALE — 9/9 as-of due; the weekly join is DUE 9/18]`. Vendor closes 9/16 via the repo venv. **No 9/16 Treasury cell exists yet (~16:15 ET).**
 >
@@ -294,9 +301,6 @@ If NEXUS runs a 3-way-convergence check on policy-path, **the honest count is 2 
 ## ⚠️ A third hypothesis NEXUS should hold open (neither policy-path nor term-premium)
 The **Treasury cash-futures basis trade shrank ~$1.3T → ~$1.0T** since January (Morgan Stanley via Bloomberg). Basis traders are a major *provider* of cash-Treasury auction demand; withdrawing ~$250–300B of repo-levered bid produces **exactly the 7/27 signature — thin cover, unchanged composition** — because the departing bidder is neither foreign nor a dealer. If this carries weight, the 5Y BTC is **partly a leveraged-demand artifact and not a duration-demand verdict at all**, and it is orthogonal to both sides of HEN-42. Logged ESTIMATE (KB-BND-092); **LIQUID owns the call.** Testable: it predicts thin cover *with intact composition* at the 7Y that does **not** resolve after FOMC.
 
-<!-- ASSERTION_CHECK: LIVE-REGION-ENDS — everything below this line is explicitly superseded/retained-verbatim.
-     Added 2026-08-21: the banner told HUMANS the layer was dead and told the CHECKER nothing, so the 7/24 marks
-     below kept surfacing as live-looking findings. A banner is a warning, not a machine-readable boundary. -->
 ## ⛔ SUPERSEDED LAYER — 7/24–7/28 VINTAGE, NOT LIVE (bannered 2026-08-20)
 > 🔴 **This section was titled "Live rates state" while carrying 7/24 marks — for 27 days, on the surface NEXUS consumes.** **Current rates/credit live in §4 of the re-pin at the top of this file and, canonically, in `AGENTS/BOND/STATUS.md`.** Three specific traps in the table below, left in place as the record rather than silently edited: the **"2.43 SERIES HIGH"** label is **RETRACTED** (`KB-BND-108` — all-time max 3.15, 2008-11-21; correct label post-2023 high), the **"7bp from the 2.5 re-arm gate"** distance is stale (**9bp** as of 8/18 and it moved AWAY), and the **"29-day run"** figure is the twice-corrected one (**31 consecutive / 47 days in 2026**). ⚠️ **A banner is a warning, not a fix** — `rewrite-or-archive by: 2026-08-27`.
 

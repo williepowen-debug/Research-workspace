@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-24 (Thu), THIRD session ~21:37 → ~22:xx ET, post-close (Will boot: "catch up to all live figures and new data/intel"). Second ~15:07→17:1x (owed-work + cleanup + FR2004 9/16). First `bond-b0` ~13:00→14:1x after a six-day dark gap (9/18–9/23).
+# BOND SCRATCH — 2026-09-25 (Fri) ~01:03→02:xx ET: PROME item 2 (Will-directed) — FR2004 timing RESOLVED + rates-move columns with HENRY (`analysis/2026-09-25_rates-move-TP-columns_and_FR2004-timing-RESOLVED.md`). Before that, 2026-09-24 THIRD session ~21:37 → ~22:1x ET, post-close (Will boot: "catch up to all live figures and new data/intel"). Second ~15:07→17:1x (owed-work + cleanup + FR2004 9/16). First `bond-b0` ~13:00→14:1x after a six-day dark gap (9/18–9/23).
 
 **Purpose:** ephemeral handoff. Read at boot, rewritten at closeout. Durable → `MEMORY.md`; evidence → `workbook/`. Executable COLD.
 
@@ -20,11 +20,11 @@
 
 ## 🔴 NEXT SESSION (dated, future-verifiable)
 1. ✅ **DONE 9/24 21:37 — FRED carries 9/23 (5.40 / 2.76).** 🟡 **Fri 9/25 evening:** FRED should carry the 9/24 cells (DGS30 5.47 / DFII10 2.85 per Treasury) — the STATUS "through by 35bp" is on the Treasury cell; if boot_recompute flags it before FRED updates, that is the known two-basis split, not drift.
-2. 🔴 **By 10/1: resolve `KB-BND-327`.** Read the FR 2004A instructions (Fed reporting forms) for when-issued/unsettled reopening treatment. If awards appear only at issue: re-run `monitors/fr2004_join.py` with POST keyed to issue date, and tell PROME before WQ-157 leg ② is ruled. **Thu 10/1 ~16:15: as-of 9/23 publishes = the settlement-aligned POST for the 9/15 20Y-R.**
+2. ✅ **`KB-BND-327` RESOLVED 9/25 ~01:1x (`KB-BND-332`): trade-date; award counted on award date.** 🔴 **Owed follow-up (PROME/Will call, NOT self-executed): `fr2004_join.py:149` PRE ≤ auction mis-windows Wednesday auctions (75/228); recommended fix PRE < auction ≤ POST; on that window the WQ-157 headline is −4.5bp p=0.248. The 9/2 per-tenor base-rating used the same pools — not re-run.**
 3. 🔴 **Wed 9/30:** `BND-27` window closes (CCC 1093 [9/23], 7bp from 1100); quarter-end; PCE + GDP 3rd; TLT expiry (TERRY).
 4. ✅ **F2 10Y–20Y vintage fix DONE 9/24 ~16:3x** (`KB-BND-328`): rank = original issue date (TreasuryDirect, cached `registry/cusip_vintage.tsv`); selftest 41/41, mutant caught; **re-base-rate 1 of 53** (2026-05-06 75.00%, a 2023 20Y — definition question to RED; NOT re-tuned). Packets RED + PROME (DOCKET L406 / HEARTBEAT_COLD:438 stale). 🔴 **10/1:** at boot, confirm the op's eligible CUSIPs resolve (a missing vintage = GAP, no verdict); then quarterly `I'` refresh · TIPS-`I'` question (PROME DOCKET L410) · degenerate-row guard · `VX-19` "disorderly".
 5. 🟠 **By 9/30: `READS.tsv` declaration** (BOND has 0 rows in `PROME/registry/READS.tsv`; DAEDALUS ask).
-6. 🟠 **Thu 10/8 ~16:15: as-of 9/30 = POST print for the 9/23 5Y and 9/24 7Y** (both conventions agree), i.e. the dealer half of the paired kill for the 5Y.
+6. 🔴 **Thu 10/1 ~16:15: as-of 9/23 = POST for the 9/23 (Wednesday) 5Y on the trade-date window** (award in that day's print, `KB-BND-332`) — the dealer half of the paired kill. **Thu 10/8: as-of 9/30 = POST for the 9/24 7Y** (and the as-shipped-join POST for the 5Y — read both; which counts rides with WQ-157).
 7. 🟠 **By 10/21:** register the 10/28 FOMC curve-shape prediction with a base rate.
 8. 🟡 **`check_fr2004` pattern gap:** it matches the as-of phrasing but NOT the bare "FR2004 m/d:" form (the 9/24 `NEXUS_BRIEF.md:19` case). `consumer_check --self` caught `NEXUS_BRIEF.md:19` carrying 9/9 in the LIVE 9/24 block while both boot and closeout read clean (fixed by hand 9/24). Add the `FR2004 m/d` form with a selftest fixture (this exact line).
 9. 🟡 `DEALER_CAPACITY.md` BODY refresh (header carries 9/16; body is 8/26-era). `KB-BND-307`'s cadence claim is wrong (lag is 8 days); correct it with a CORRECTED status when next touching the row.
