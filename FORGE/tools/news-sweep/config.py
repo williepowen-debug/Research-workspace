@@ -17,10 +17,19 @@ GOOGLE_NEWS_QUERIES = [
     # unfed channel, the CARL-exemption shape). CRUISE re-classed active 8/21; Big 3 = CCL / RCL / NCLH.
     # Flood watch: "cruise" alone is a travel-section magnet, so the query is operator- and demand-keyed.
     {
-        "query": '"Carnival Corp" OR "Carnival Cruise Line" OR "Royal Caribbean" OR "Norwegian Cruise" OR "cruise bookings" OR "cruise demand" OR "cruise fares"',
+        # encoded 2026-09-25 (PROME, CRUISE lane encode v2; mirror of the RESEARCH-INTAKE row — the live lane is the clock, not this file)
+        "query": '"Carnival Corp" OR "Carnival Cruise Line" OR "Royal Caribbean" OR "Norwegian Cruise" OR NCLH OR "cruise bookings" OR "cruise demand" OR "cruise fares" OR "cruise capacity" OR "cruise fuel surcharge" OR "cruise itinerary cancellation" OR "Carnival earnings" OR "Royal Caribbean earnings" OR "Norwegian Cruise earnings" OR "cruise line guidance"',
         "agents": ["CRUISE"],
         "priority": "medium",
         "label": "cruise-operators",
+    },
+    {
+        # encoded 2026-09-25 with the row above (mirror)
+        # `when:7d` = Google News recency operator (mirror of the lane; measured there 9/25: without it 15/15 items aged 36–1,508 days)
+        "query": '("Carnival Corp" OR "Royal Caribbean" OR "Norwegian Cruise") AND ("net yields" OR "booking pace" OR "occupancy" OR "load factor" OR "customer deposits" OR "dry dock" OR "onboard spending") when:7d',
+        "agents": ["CRUISE"],
+        "priority": "medium",
+        "label": "cruise-fundamentals",
     },
     # FLG domain — NYC rent-freeze litigation (Kenilworth Holdings LLC et al. v. NYC Rent Guidelines
     # Board, Art. 78, Index 85199/2026, Richmond -> NY County 8/21, Justice Lantry; prayer (f) injunction
@@ -245,9 +254,11 @@ NOISE_TITLE_PATTERNS = [
 
 ENTITY_INDEX = {
     # CRUISE domain (added 2026-09-11 — see the cruise-operators query note)
-    "Carnival":       {"agents": ["CRUISE"], "aliases": ["CCL", "Carnival Corp", "Carnival Cruise Line", "Carnival Corporation"]},
-    "Royal Caribbean": {"agents": ["CRUISE"], "aliases": ["RCL", "Royal Caribbean Group", "Royal Caribbean Cruises"]},
-    "Norwegian Cruise": {"agents": ["CRUISE"], "aliases": ["NCLH", "Norwegian Cruise Line", "NCL"]},
+    # deliver_known (2026-09-25, CRUISE lane encode v2 — mirror of the RESEARCH-INTAKE lane; PROME/proposals/2026-09-21_cruise-lane-encode-PROPOSAL.md).
+    # ⚠️ This mirror's match_entity/match_watch_for lack the lane's 2026-07-30 ticker word-boundary logic (declared residue, not fixed here).
+    "Carnival Corp":  {"agents": ["CRUISE"], "aliases": ["CCL", "Carnival Cruise Line", "Carnival Corporation", "Carnival plc"], "deliver_known": True},
+    "Royal Caribbean": {"agents": ["CRUISE"], "aliases": ["RCL", "Royal Caribbean Group", "Royal Caribbean Cruises"], "deliver_known": True},
+    "Norwegian Cruise": {"agents": ["CRUISE"], "aliases": ["NCLH", "Norwegian Cruise Line", "NCL"], "deliver_known": True},
     # BROCK domain
     "Blue Owl":     {"agents": ["BROCK", "LIQUID"], "aliases": ["OWL", "OBDC", "Owl Rock", "Blue Owl Capital"]},
     "ARES":         {"agents": ["BROCK"], "aliases": ["ARCC", "ARES Capital", "ARES Management", "Ares Capital", "Ares Management"]},
@@ -629,7 +640,8 @@ def classify_article(title, description=""):
             result["suppressed"] = False
         else:
             result["classification"] = "KNOWN"
-            result["suppressed"] = True
+            # deliver_known (2026-09-25, CRUISE lane encode v2): opt-in per entity; every other entity keeps KNOWN -> suppressed.
+            result["suppressed"] = not bool((entity_info or {}).get("deliver_known"))
     elif level == "alert":
         result["classification"] = "NEW_ALERT"
         result["suppressed"] = False
