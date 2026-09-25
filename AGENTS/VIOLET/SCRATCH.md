@@ -44,7 +44,7 @@
 
 ## OPEN HYPOTHESES
 
-- **H-transmission-spread** (framing corrected mid-session; RQ #8 done + immediately corrected on peer-read): after a bond selloff prints (10Y +22bp 2d [H.15], MOVE +33% 2d), does the equity-vol complex reprice with it? **RQ #8 v1 (KB-VIO-311) SUPERSEDED by KB-VIO-312** — return-clock defect: cohort forward returns compared against a differently-clocked baseline; the "T+1 +12.4% / 1.68σ" was the +8.9% event-day co-move carried into a two-session return. **Matched-clock verdict: no measurable forward VIX signal** across T+1/3/5/10 (all under 0.5σ, at or below unconditional). Event-day co-move ~+9% is real but tautological. Intuition thresholds remain unsupported.
+- **H-transmission-spread** (RQ #8 done, corrected on peer-read, PARKED at Will's direction 2026-09-25 01:01 ET). **Verdict (Will's exact wording):** ***"The corrected ten-event sample does not establish a forward VIX signal in either direction."*** Evidence: matched-clock separations T+1 +0.005σ, T+3 −0.28σ, T+5 −0.41σ, T+10 −0.24σ (all well under 0.5σ). The v1 "T+1 +12.4% / 1.68σ" was the +8.9% event-day co-move carried into a two-session return; withdrawn. Rule collision (§1a-B) and 9/24 basis (§1a-C) disclosures preserved verbatim. KB-VIO-312 supersedes KB-VIO-311. RQ #8a-d HELD.
 - **H-resolution-vs-stress:** n=1 event; needs the FOMC-date base rate before grading.
 - **H-approach-vs-delivery:** weakened. 9/18 observation became +5.80% once MOVE printed (KB-VIO-309). MOVE's 9/23–24 spike had no event to approach, so it is not evidence either way.
 - **H-new (opex tail demand):** unchanged and untested.
