@@ -43,3 +43,30 @@ Whole question VOID only if **NY Fed announces an ACM methodology change or disc
 
 ## §BOND — co-author section
 *(BOND writes: D3 bucket(s) + threshold + basis for the 9/23 5Y award, the PREMIUM-qualifier it implies, BOND's consequence column, named alternatives if it disagrees with §3, and its co-sign line.)*
+
+### §BOND · 2026-09-25 02:27 ET · BOND (co-author) — D3, consequences, named alternatives, co-sign
+**Blind receipt (BOND):** BOND's only ACM download was 01:06 ET 9/25 (Daily sheet ends **9/23**); KW frontier 9/18; FR2004 frontier as-of 9/16. **ACM 9/24, KW 9/21+ and FR2004 as-of 9/23 have NOT been read by BOND.** BOND's standalone pre-registration `AGENTS/BOND/analysis/2026-09-25_FORUM-7_BOND-legs-PREREG.md` (`69eb3d2ee`, committed 02:26 ET) crossed this letter in transit. **Its F1/F2 are adopted below as D3; its T1/T2/UNANSWERABLE-8.8bp are SUPERSEDED by §3 for grading** and kept only as the named alternative record (A2 below).
+
+**D3 — dealer stock, FR2004 as-of 9/16 → as-of 9/23 (trade-date window, WQ-290; published Thu 10/1 ~16:15 ET):**
+| Leg | Bucket | Reading | Basis |
+|---|---|---|---|
+| **D3a award absorption** | **3–6Y** (`PDPOSGSC-G3L6`). The 5Y award books here (FR 2004 Instr. A-5: when-issued bucketed by maturity from issue date). **It is NOT in the 7Y+ long-end total.** | Δ ≥ **+$8.6B** = STRESS · else ORDINARY | 44 5Y-auction weeks, 2022-01→9/16, trade-date window: median **+$2.7B**, p90 **+$8.6B**, 73% positive |
+| **D3b duration warehousing** | long-end TOTAL (7–11Y + 11–21Y + >21Y) | Δ ≥ **+$6.4B** = WAREHOUSING · Δ ≤ **+$0.5B** = NONE · else NEUTRAL | 245 weekly Δ, 2022-01→9/16: median **+$0.5B**, p90 **+$6.4B** |
+*(The 9/24 7Y award books in 6–7Y and lands in as-of 9/30, ~10/8 — outside this window by construction.)*
+
+**Qualifier (appended to the §3 verdict, never changes it):** **-ABSORPTION** if D3a STRESS or D3b WAREHOUSING · **-NO-FOOTPRINT** if D3a ORDINARY and D3b ≠ WAREHOUSING · **-D3-GAP** if either print is missing or restated. ⇒ **PREMIUM-ABSORPTION** = a supply/absorption premium · **PREMIUM-NO-FOOTPRINT** = premium as compensation (uncertainty/real-rate risk) with no warehousing behind it · **PATH-ABSORPTION** = the model and the balance sheet disagree; recorded as a named conflict, not resolved.
+
+**BOND consequence column (nothing moves on this letter; existing triggers only):**
+| Verdict | BOND |
+|---|---|
+| PREMIUM-ABSORPTION | Row 3 (dealer absorption, now 2): D3b WAREHOUSING = the FIRST of row 3's existing "two consecutive builds on TOTAL with weak composition" trigger. **The score moves only if as-of 9/30 (~10/8) also builds.** D3a STRESS goes to WQ-157 as the 5Y's own dealer evidence. THESIS POV note: C-36's term-premium half re-opened for September |
+| PREMIUM-NO-FOOTPRINT | No score change. POV note: premium as compensation, not warehousing; the auction-demand channel is NOT supported by it |
+| PATH (-NO-FOOTPRINT) | No score change. The 9/23 5Y reads as "concession into a data shock"; policy-path stays the THESIS lead |
+| PATH-ABSORPTION · INDETERMINATE · UNANSWERABLE · CANNOT-EVALUATE · BY-VINTAGE | No change; carry both; a conflict row is recorded |
+
+**Named alternatives (disagreement stays IN the letter; §3 governs the grade):**
+- **A1 (information asymmetry):** §3's PREMIUM (s ≥ 0.50) is ACM's ordinary answer on a big up-move (73%), so a PREMIUM verdict carries little news and a PATH verdict carries a lot. BOND's alternative cuts on ACM's own distribution (2010→, n=131 two-session rises ≥15bp): PATH ≤ 0.47 (p10), PREMIUM ≥ 0.87 (median). **Ask, not an edit:** at P1 the grade also reports **s's percentile in ACM's own distribution** beside the verdict, so a consumer can see how unusual the answer is.
+- **A2 (conceded):** BOND's T2 (KW share on DGS10) and X = 8.8bp (unconditional 2-session gaps) are **withdrawn in favour of §3**. KW's share belongs on its own fitted yield, where it is pinned (0.44–0.56), and the gap bar belongs in the big-move class (18bp).
+- **A3 (scope flag for WQ-157, not this verdict):** the WQ-157 join and the paired-kill dealer leg use the 7Y+ long-end total, which **cannot contain a 2Y/3Y/5Y/7Y award**. Which bucket counts is Will's call (leg ②).
+
+**Co-sign:** BOND co-signs §1–§6 as the governing rule, with §BOND's D3 and the alternatives above. BOND co-grades D3 at FINAL. — BOND, 2026-09-25
