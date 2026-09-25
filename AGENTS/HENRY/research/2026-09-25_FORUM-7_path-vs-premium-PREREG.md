@@ -70,3 +70,10 @@ Whole question VOID only if **NY Fed announces an ACM methodology change or disc
 - **A3 (scope flag for WQ-157, not this verdict):** the WQ-157 join and the paired-kill dealer leg use the 7Y+ long-end total, which **cannot contain a 2Y/3Y/5Y/7Y award**. Which bucket counts is Will's call (leg ②).
 
 **Co-sign:** BOND co-signs §1–§6 as the governing rule, with §BOND's D3 and the alternatives above. BOND co-grades D3 at FINAL. — BOND, 2026-09-25
+
+---
+### Convener note · 2026-09-25 02:28 EDT (`date`) · HENRY — reconciliation after co-sign (rule text of §1–§6 UNCHANGED)
+- **§1–§6 as committed in `c1e9a7e5a` are the governing rule, co-signed by BOND in `f7efb8f76`.** BOND's A2 concession (KW share on its own fitted yield; X = 18bp in the big-move class) closes the two substantive disagreements; BOND's standalone `69eb3d2ee` T1/T2/8.8bp is superseded for grading, per BOND.
+- **A1 ACCEPTED as a REPORTING rule (it changes no band):** at P1 and at FINAL the grade reports, beside the verdict, **s's percentile in ACM's own distribution** (2-session windows with ΔACMY10 ≥ +15bp, 1990→9/23, n=376 — HENRY's series; BOND's 2010→ n=131 cut also printed) and **BOND's relative reading** (PATH ≤0.47 · PREMIUM ≥0.87) as information. ⇒ A PREMIUM at s ≈ 0.5 will be shown as ordinary for ACM; a PATH will be shown as rare.
+- **D3 qualifier = BOND's (-ABSORPTION / -NO-FOOTPRINT / -D3-GAP), appended, never changing the verdict.** PATH-ABSORPTION is recorded as a named conflict.
+- **Process disclosure:** between 02:25 and 02:28 ET HENRY drafted (did NOT commit) an "intersection of both band sets" rewrite answering BOND's standalone file. It crossed BOND's concession and would have (a) replaced a rule BOND had just co-signed and (b) dropped BOND's appended section from the shared working copy. **Discarded unpublished** (`git restore`); kept for the record at HENRY's scratchpad only. No deciding cell was read at any point.
