@@ -190,9 +190,15 @@ The v1 whole-cohort claims about VVIX>100 at T+5 (80%) and VIX3M/VIX<1.10 at T+5
 
 Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge fund stress. The next cohort event (2007-08-09 BNP freeze) was 62 trading days later. **This is a single-event narrative, not a base rate.** Any weight it carries for the current 9/24 setup rests on it being the only available analog, not on statistical power.
 
-## §5. Verdict on the intuition thresholds (re-cut — supersedes v1)
+## §5. Verdict on the intuition thresholds (re-cut — supersedes v1) — HEADLINE per Will 2026-09-25 01:01 ET
 
-### On the letter of the pre-registration — RULES COLLIDE
+### HEADLINE VERDICT (verbatim per Will)
+
+> ***"The corrected ten-event sample does not establish a forward VIX signal in either direction."***
+
+The evidence table and rule-collision disclosure below stand; the headline no longer implies a sign. Under-the-headline language on other surfaces was updated to match this wording; the σ figures remain as evidence, not as directional claim.
+
+### On the letter of the pre-registration — RULES COLLIDE (§1a-B disclosure, kept verbatim)
 
 - **PASS clause (a)** — VVIX > 100 at T+5 in ≥ 60% (observed 80%) AND VIX3M/VIX < 1.10 at T+5 in ≥ 60% (observed 100%): **satisfied**.
 - **PASS clause (b)** — T+5 forward VIX ≥ 1σ above unconditional: **not satisfied** (matched: −0.41σ; even under the mis-windowed v1 clock: 0.55σ, still below 1σ).
@@ -202,21 +208,31 @@ Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge 
 
 ### Substantive verdict (after honest disclosure of the collision)
 
-**On matched forward windows, the cohort produces no measurable forward VIX signal.** The "signature-thresholds fire at T+5" fact (PASS-a) is descriptive of cohort STATE at T+5, driven by 9 of 10 events being already in stress at T+0. The FAIL rule captures what the study was actually trying to test — whether the cohort's forward VIX moves distinctly from unconditional — and finds it does not.
+**The corrected ten-event sample does not establish a forward VIX signal in either direction.** The "signature-thresholds fire at T+5" fact (PASS-a) is descriptive of cohort STATE at T+5, driven by 9 of 10 events being already in stress at T+0. The FAIL rule captures what the study was actually trying to test — whether the cohort's forward VIX moves distinctly from unconditional — and observes matched-clock separations well within the noise band (T+1 +0.005σ, T+3 −0.28σ, T+5 −0.41σ, T+10 −0.24σ). The evidence does not support a positive forward signature; it also does not support a firm negative claim from n=10 alone. It supports the headline: nothing is established either way from this sample.
 
 ### Where the v1 "T+1 +12.4% is real" claim went
 
-**Withdrawn.** The +12.4% was `VIX[T+1]/VIX[T-1] − 1`, a two-session return that includes the +8.91% event-day co-move. On the matched T→T+1 window the cohort median is −0.58%, indistinguishable from the unconditional median of −0.62%.
+**Withdrawn.** The +12.4% was `VIX[T+1]/VIX[T-1] − 1`, a two-session return that includes the +8.91% event-day co-move. On the matched T→T+1 window the cohort median is −0.58%, which the corrected ten-event sample does not distinguish from the unconditional median of −0.62%.
 
 **What CAN honestly be said:** MOVE 2d ≥30% events are *coincident* with a ~+9% VIX event-day co-move (cohort median T-1 → T0). This is not a forward signal and does not license the "MOVE-leads-VIX" framing that the walk-back passes already rejected.
 
-## §6. What replaces the intuition thresholds (re-cut)
+## §6. What replaces the intuition thresholds (re-cut) — HEADLINE per Will
+
+### HEADLINE (verbatim per Will)
+
+> ***"The corrected ten-event sample does not establish a forward VIX signal in either direction."***
 
 ### On the STATUS dashboard
 
-**The intuition thresholds (VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥ 100) do not have base-rate support** — neither as forward transmission signatures (matched forward returns are indistinguishable from unconditional at every horizon) nor as pre-registered pattern claims (§1 did not register any such thresholds; they were named intuition-first in the 9/24 STATUS/NEXUS_BRIEF that the pass-1 walk-back removed). They stay off the dashboard.
+**The intuition thresholds (VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥ 100) do not have base-rate support** — neither as forward transmission signatures (the corrected ten-event sample does not establish either direction) nor as pre-registered pattern claims (§1 did not register any such thresholds; they were named intuition-first in the 9/24 STATUS/NEXUS_BRIEF that the pass-1 walk-back removed). They stay off the dashboard.
 
 **The v1 "T+1 whole-cohort signal is real" line is WITHDRAWN in all downstream state.**
+
+### RQ #8 status: PARKED (Will 2026-09-25 01:01 ET)
+
+- The main study is CLOSED at this verdict. No further work on RQ #8 itself is scheduled without a new instruction.
+- RQ #8a-d (extended cohort, time-to-transmission, setup-vs-amplifier, credit-conditioning) remain **HELD**: registered as candidate follow-ons, none started, none scheduled.
+- If any future work reopens the question, it starts on the corrected base (matched clocks, labelled event-day co-move separated from post-event returns, PASS/FAIL precedence explicitly specified in a new pre-registration).
 
 ### Facts that survive the correction
 
