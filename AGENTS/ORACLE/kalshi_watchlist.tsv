@@ -9,16 +9,25 @@ Recession 2026 (NBER)	market	KXRECSSNBER-26	T1	HENRY,LABOR,RED
 # Fed hike by July (>3.75%)	market	KXFED-26JUL-T3.75	T1	LIQUID,HENRY
 # Fed >4.00% after July	market	KXFED-26JUL-T4.00	T1	LIQUID,HENRY
 # ADDED 2026-08-18 (PROME-directed, BOND's T6 checkpoint 8/19) — the Kalshi Sept-specific leg was previously fetched ad hoc (never pinned), so it rode outside the normal pull/log cycle. Current target upper bound = 3.75%, so >3.75% = >=1 net hike at the Sept mtg (same basis as the Polymarket Sept-specific leg above). Pinning closes that gap. -> LIQUID,HENRY,BOND
-Fed hike at Sept mtg (>3.75%)	market	KXFED-26SEP-T3.75	T1	LIQUID,HENRY,BOND
+# ⛔ RETIRED 2026-09-24 — KXFED-26SEP-T3.75 settled result:yes, expiration_value 4.00% (the 9/16 hike). ★ ROLLED to the OCTOBER leg at the NEW current upper bound (4.00% ⇒ >4.00% = a hike at the 10/28 meeting) + the DECEMBER >4.25% rung (= TWO more hikes by 12/09). ENTRY READ 2026-09-25T01:3xZ: Oct >4.00% 67.0% (OI 33.3K, 1¢) · Oct >4.25% 2.0% ⇒ hike-25 at Oct ≈65 (PM 66.5%). Dec >4.00% 90.0% · Dec >4.25% 50.0% (OI 24.7K, 1¢) · Dec >4.50% 9.0% (⚠mid 6.0).
+# Fed hike at Sept mtg (>3.75%)	market	KXFED-26SEP-T3.75	T1	LIQUID,HENRY,BOND
+Fed hike at Oct mtg (>4.00%)	market	KXFED-26OCT-T4.00	T1	LIQUID,HENRY,BOND
+Fed 2 more hikes by Dec (>4.25%)	market	KXFED-26DEC-T4.25	T1	LIQUID,HENRY,BOND
 # ADDED 2026-08-18 (PROME-directed, closing the 8/17 20-day coverage miss) — KXCBDECISIONJAPAN was open since 2026-07-28 and absent here; `kalshi.py search "Bank of Japan"` returned 0 that day (tool defect, now fixed same session) despite this exact event supplying the KALSHI LEG of the 8/17 three-instrument BOJ convergence (Kalshi mid 74.5% vs Polymarket 73.5% vs TFX 72.2%, max spread 2.3pp — the leg that refuted SAM's 51.0% boj_ois.py read). Pinning so it never again depends on search, fixed or not. 8/18 15:37Z top leg: Hike 25bp 76.0% (OI 21.2K, vol 32.0K lifetime — see `kalshi.py event` for the full 5-leg ladder incl. Hold 24.0% / Hike-more 3.0% / Cut legs ~1-2%). -> SAM,BOND
-BOJ September decision (Kalshi)	event	KXCBDECISIONJAPAN-26SEP17	T2	SAM,BOND
+# ⛔ RETIRED 2026-09-24 — Sept MPM finalized 9/18. ROLLED to the October 10/29 event. ENTRY READ 2026-09-25T01:3xZ: HOLD 83.0% (OI 3.3K) · H25 15.0% (5¢) · H25P 5.0% (⚠mid 2.5). PM October corroborates (top 83.0%).
+# BOJ September decision (Kalshi)	event	KXCBDECISIONJAPAN-26SEP17	T2	SAM,BOND
+BOJ October decision (Kalshi)	event	KXCBDECISIONJAPAN-26OCT29	T2	SAM,BOND
 # TRIED + REVERTED 2026-08-18 — KXNIKKEI-26DEC31 (also surfaced by the 8/17 series enumeration) was pinned then pulled back same session: it's a threshold ladder (¥70K-¥80K "at least" rungs) where several low rungs are already-cleared/[finalized] at 99% and the fetcher's "top = highest-prob leg" logic picks one of THOSE, not a live rung — same display-quirk class documented elsewhere in this file for Hormuz/Iran ladders, but undiagnosed HERE and out of this session's pin-only scope to fix. Re-pin with an explicit rung (not "top") if wanted; don't re-add via `(top)` selection as-is. KXJPYINT (yen-intervention) and KXJPCPIYOY have ZERO open events right now — nothing exists to pin either; re-check when/if either opens.
 # ROLLED 2026-07-22 (sweep) — June CPI (printed 7/14) + June U3 (printed 7/2) both FINALIZED, pulling as [finalized] dead weight every session. Rolled to the OPEN July events: July CPI resolves 8/12, July U3 resolves 8/07. July CPI prices a disinflation step-down vs June's ~3.7%: >3.3% 70% / >3.4% 28% (near coin-flip, the informative rung) / >3.5% 10%. July U3: >4.2% 57% / >4.3% 13%.
 # ★ ROLLED 2026-09-04 — July CPI ladder finalized 8/12; rolled to the OPEN August event (prints 2026-09-11, ⏳7d). This ladder is far DEEPER than the Polymarket August-CPI modal market we also track ($87.3K contracts vs $2.5K liq ⚠thin) — **cite Kalshi as the CPI instrument and Polymarket only as corroboration.**
 # 🔴 ENTRY READ 2026-09-04 12:5xZ — the August CPI ladder REPRICED HAWKISH ON THE NFP SESSION ITSELF: >3.3% **60.0% (Δ +17.0)** · >3.4% **24.0% (Δ +10.0)** · >3.5% 5.0% (Δ +0.0). Δ basis = Kalshi `previous_price_dollars` (prior session), tight 1¢ books on the two that moved. Same-session, same-direction as the Fed repricing. → HENRY, LABOR, LIQUID
-August CPI YoY >3.3%	market	KXCPIYOY-26AUG-T3.3	T1	HENRY
-August CPI YoY >3.4%	market	KXCPIYOY-26AUG-T3.4	T1	HENRY
-August CPI YoY >3.5%	market	KXCPIYOY-26AUG-T3.5	T1	HENRY
+# ⛔ RETIRED 2026-09-24 — August ladder finalized 9/11 (>3.3 YES / >3.4 NO / >3.5 NO ⇒ Aug YoY in (3.3, 3.4]). ★ ROLLED to the SEPTEMBER ladder (prints 2026-10-14), re-centred on where the crowd now sits: >3.5 / >3.6 / >3.7. ENTRY READ 2026-09-25T01:3xZ: >3.5% 84.0 last (4¢ ⇒ cite MID 82.0, OI 34.7K) · >3.6% 46.0% (1¢, OI 44.5K — the modal boundary) · >3.7% 13.0 last (4¢ ⇒ MID 15.0, OI 15.8K). ⚠️ T-3 WEEKS: the like-for-like vs August's T-4 read is due 2026-10-10.
+# August CPI YoY >3.3%	market	KXCPIYOY-26AUG-T3.3	T1	HENRY
+# August CPI YoY >3.4%	market	KXCPIYOY-26AUG-T3.4	T1	HENRY
+# August CPI YoY >3.5%	market	KXCPIYOY-26AUG-T3.5	T1	HENRY
+September CPI YoY >3.5%	market	KXCPIYOY-26SEP-T3.5	T1	HENRY
+September CPI YoY >3.6%	market	KXCPIYOY-26SEP-T3.6	T1	HENRY
+September CPI YoY >3.7%	market	KXCPIYOY-26SEP-T3.7	T1	HENRY
 # ★ ROLLED 2026-09-04 — July U3 finalized 8/07. Skipped straight past August, which **CLOSED ON TODAY'S 08:30 PRINT**: KXU3-26AUG-T4.2 last-traded 24.0% and closed with the book collapsed to bid 0.0 / ask 1.0 ⇒ **settling NO, i.e. U-3 came in at or below 4.2%** (T4.3 1.0%, T4.4 1.0%). Labor did NOT weaken — the hawkish leg of today's repricing. Pinned the live SEPTEMBER event (prints 2026-10-02).
 # ⚠️ ENTRY READ: >4.2% last 49.0% but the book is 9¢ wide — **cite the MID 41.5** (KB-ORC-069; the ⚠mid marker fired). >4.3% 19.0% on a 3¢ book. → LABOR, HENRY
 September U3 unemployment >4.2%	market	KXU3-26SEP-T4.2	T1	LABOR,HENRY

@@ -75,10 +75,10 @@ INPUTS (from workbook/ODDS_LOG.tsv, written by scripts/polymarket.py pull --log)
     Deepest market on the axis (~$5.3M vol / ~$258K liq, 2026-07-17) and dated
     Dec-31 so it does not roll mid-regime. Inverted so the leg reads in the
     "more disruption = higher number" direction, same sign as the supply leg.
-  - supply leg: WTI $100 war premium, current month.
+  - supply leg: WTI $110 war premium, current month (v5, WQ-260; v1-v4 = $100).
     !! MONTH-ROLL (owed action): the WTI leg is month-stamped and auto-rolls by
     family prefix ONLY once a fresher month's market is pinned in watchlist.tsv
-    and pulled. When the front month turns over, RE-PIN the new month's WTI $100
+    and pulled. When the front month turns over, RE-PIN the new month's WTI $110
     market or this leg silently ages out. Guarded below: a supply leg staler than
     --max-leg-age-days (default 3) vs the disruption leg is a hard exit.
   - context: 0-ships Hormuz closure proxy (not part of the arithmetic).
@@ -235,7 +235,7 @@ def main():
         if delta_days > args.max_leg_age_days and not args.allow_stale:
             raise SystemExit(
                 f"{msg}\n  Legs are >{args.max_leg_age_days}d apart — likely an un-rolled WTI month. "
-                f"Re-pin the current-month WTI $100 market, or pass --allow-stale to override.")
+                f"Re-pin the current-month {SUPPLY_PREFIX}<month> market, or pass --allow-stale to override.")
         if not args.allow_stale:
             notes.append(msg)
             print(f"WARNING: {msg}")
