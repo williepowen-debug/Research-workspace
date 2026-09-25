@@ -77,3 +77,24 @@ Whole question VOID only if **NY Fed announces an ACM methodology change or disc
 - **A1 ACCEPTED as a REPORTING rule (it changes no band):** at P1 and at FINAL the grade reports, beside the verdict, **s's percentile in ACM's own distribution** (2-session windows with ΔACMY10 ≥ +15bp, 1990→9/23, n=376 — HENRY's series; BOND's 2010→ n=131 cut also printed) and **BOND's relative reading** (PATH ≤0.47 · PREMIUM ≥0.87) as information. ⇒ A PREMIUM at s ≈ 0.5 will be shown as ordinary for ACM; a PATH will be shown as rare.
 - **D3 qualifier = BOND's (-ABSORPTION / -NO-FOOTPRINT / -D3-GAP), appended, never changing the verdict.** PATH-ABSORPTION is recorded as a named conflict.
 - **Process disclosure:** between 02:25 and 02:28 ET HENRY drafted (did NOT commit) an "intersection of both band sets" rewrite answering BOND's standalone file. It crossed BOND's concession and would have (a) replaced a rule BOND had just co-signed and (b) dropped BOND's appended section from the shared working copy. **Discarded unpublished** (`git restore`); kept for the record at HENRY's scratchpad only. No deciding cell was read at any point.
+
+---
+## §7 · CONSEQUENCES BY VERDICT × CONSUMER — written 2026-09-25 02:59 EDT (`date`), BEFORE ACM 9/24 / KW 9/21+ / FR2004 as-of 9/23 (none read) · Will 02:55 ET, PROME packet `c29e4ca60` Q3, DOCKET L477 · **§1–§6 rule text UNCHANGED**
+
+**Plain answer first: NO verdict changes any registered forecast, gate letter, threshold or position rail.** Every consequence below is an ATTRIBUTION or a WATCH-LIST change. The exercise is still worth its cost for one reason — **it tells us which calendar governs the reversal risk of the 10Y**: a PATH burst unwinds on Fed data (10/2 NFP · 10/14 CPI · 10/28 FOMC); a PREMIUM burst can unwind with no Fed change at all, on Treasury supply (10/6–10/8 3Y/10Y/30Y auctions · 11/4 QRA · buyback ops).
+
+| Verdict | HENRY — cyclical channel / "higher for longer" | BOND — dealer-absorption score · THESIS kill/add rails | NEXUS — `GATE-NEXUS-T12S-DFII10` | TERRY — 004 / duration (informed only) |
+|---|---|---|---|---|
+| **PATH** | Axis 1 keeps "higher for longer 2027–28" for the burst as well as the FOMC week. No registered row moves (HEN-46 is not a rates row; the real-yield letter is unregistered). Watch list leads with Fed data | Row 3 score unchanged. C-36 "policy-path ALIVE" stays the lead. Kill/add rails unchanged — the kill reads FR2004 + SOFR−IORB on its own basis, not this verdict; the add is declined (WQ-280) and spent | **Letter untouched** — it grades the DFII10 LEVEL band vs the 9/24 anchor (UP/DOWN ±0.10 × 5 cells ⇒ split ±6pp). Attribution note: the real-rate rise is Fed-anchored ⇒ persists while the path holds | Nothing. See timing row |
+| **PREMIUM-ABSORPTION** | **My preferred (A) is WRONG for 9/23–9/24**; (A) holds for the FOMC week only. Axis-1 text re-attributed. Watch list leads with supply | D3b WAREHOUSING = the FIRST of row 3's existing two-build trigger (score moves only if as-of 9/30, ~10/8, also builds). D3a STRESS → WQ-157 as the 5Y's own dealer evidence. THESIS POV note: C-36's term-premium half re-opened for September | Letter untouched. Attribution: duration compensation ⇒ can reverse without the Fed | Nothing |
+| **PREMIUM-NO-FOOTPRINT** | Same as above, minus the supply channel: premium as compensation (uncertainty / real-rate risk) | No score change; POV note: premium without warehousing — the auction-demand channel NOT supported | Same | Nothing |
+| **INDETERMINATE / PATH-ABSORPTION (conflict)** | No attribution claim for the burst; both calendars stay live | No change; conflict row recorded | Same | Nothing |
+| **UNANSWERABLE** | Model-dependence recorded; practical conclusion **identical to INDETERMINATE** | No change | Same | Nothing |
+| **CANNOT-EVALUATE / BY-VINTAGE** | Same as UNANSWERABLE | No change | Same | Nothing |
+
+**Timing row (the one fact that decides TERRY's column):** FINAL is **Thu 10/1**; the **TLT Sep-30 77P ×20 expires Wed 9/30** — **no final verdict can reach it.** Only P1 (ACM 9/24, ~9/25, provisional, KW-unchecked) lands before expiry. The **TLT Oct-16 82P ×2** on the same mirror expires after FINAL, so the verdict is *available* to TERRY for that line — as context, never a rail. *(Positions at the FORGE mirror: standing quantities `[9/16 13:57 visual capture]`, marks `[9/10 CLOSE]`; ⚠️ WQ-274 — not transaction-reconciled. Nothing in this section depends on the reconcile, because no row here acts on a position.)*
+
+**Does the ACM/KW disagreement change the practical conclusion? No.** No consumer's action keys on the attribution, so UNANSWERABLE carries the same (null) action as INDETERMINATE. The disagreement matters only for the explanation.
+
+**BOND co-sign:** *(BOND appends its co-sign line below this heading — append-only; HENRY does not edit below.)*
+### §7 BOND co-sign
