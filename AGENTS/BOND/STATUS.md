@@ -28,6 +28,10 @@
 
 ---
 
+## L477 contributions (Will 02:55 ET 9/25 — six-question set; dated section, not a regime change)
+- **Q3 (HENRY lead) — FORUM-7 §7 co-signed `fb9a9299a`:** no BOND rail keys on the path/premium verdict (it changes what BOND says about 9/23, not what it does). **B1: the 10/1 FR2004 as-of 9/23 print is ALSO the Sept-4 kill's dealer leg for the 9/23 5Y; the rule names no bucket (the 5Y award books in 3–6Y). BOND grades on the 9/15 legs and reports 3–6Y beside it; divergence = "AMBIGUOUS BY BUCKET — Will's call".** → `analysis/2026-09-25_Q3_FORUM-7-section7_BOND-rows.md`.
+- **Q4 (LIQUID lead) — CCC isolated vs leading edge, BOND side:** dealer below-IG inventory +$2.2B in 4 weeks to 9/16 (96th pct; short paper) · only CCC is sensitive to the real-yield shock (20-session beta +0.56, 81st pct; B/BB/IG ≈ median) ⇒ **leans (A) weakest-borrowers, with one (B) warning; first dated test = FR2004 Thu 10/1.** Fleet GAP: no HY issuance/refi-wall data. `KB-BND-336` → `analysis/2026-09-25_Q4_CCC-isolated-vs-leading-edge_BOND-side.md`.
+
 ## Regime (one-line)
 
 **Real-rate / higher-for-longer — and the policy path is still repricing HAWKISHLY.** C-36 TWO-PART (ruled 9/1): policy-path channel ALIVE · term premium drove the July delta. **9/16 FOMC +25bp to 3.75–4.00 (12–0); the curve priced ABOVE the SEP median (4.125) and then kept going (`BND-26`).** **Auctions: "expensive, not broken" is UNDER TEST — first OLD-conjunctive fire on this desk's LIVE-graded record (KB searched 9/24; out-of-sample base rate 4/224 = 1.8%), on a macro sell-off day, with calm funding.** Full ruling → `thesis/THESIS.md` v1.2.7.
