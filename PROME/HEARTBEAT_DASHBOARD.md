@@ -9,6 +9,35 @@ levels. Hash agreement proves synchronization, not semantic completeness.
 At a HEARTBEAT re-base, remove projections for amendments folded into the base.
 This companion keeps render metadata outside the boot-read byte budget.
 
+*Twenty-first base 2026-09-24 — amendment #1 (2026-09-25 pre-close, `prome-2e`): projection below.*
+
+```dashboard-amendment
+{
+  "amendment": 1,
+  "source_sha256": "8552b6a2df8bc825392d66e7e9d849f03c0139a9dccc62629f73918a61eb0068",
+  "set": {
+    "one": "September 25, morning (pre-close): three Thursday-night beliefs corrected by their owners — CRMT's lenders signed a FOURTH bridge at 16:05 ET 9/24 (next cliff 10/1); the US IEEPA 'November 10 snapback' has been VOID since 2/24/2026 (the two real 11/10 clocks are the BIS Affiliates Rule and MOFCOM 公告70; the summit produced no document); PJM ran a grid emergency 9/16–18 while WATT was dark (P1 spent at 5, composite 16/20; the wake term is now live in the lane). HANS-T-10 FIRED 9/24 at a dark HANS (WQ-294). BRENT published the 9/23–9/24 settle-proxies (Nov $103.08 / $106.60); the Nov ULSD crack proxy sits $0.57 over the F1 line — TERRY grades the settle. $0 moved; STAND DOWN holds.",
+    "channels": {
+      "Energy": {
+        "headline": "🔴 BRENT published: Nov $106.60 [9/24 settle-proxy, single vendor]; the crack buffer is $0.57, not $0.36",
+        "body": "BZX26 Nov $103.08 [9/23] / $106.60 [9/24] · BZZ26 $98.12 / $100.22 [yfinance daily close reconciled to the 14:15–14:30 bar, single vendor, not exchange-authenticated; BRENT 1179e9480]. SAM's $107.31 = post-settle trade, not adopted. Nov ULSD crack (HOX26×42−CLX26) settle-proxy $95.57 [9/24] ⇒ buffer $0.57 to the $95 F1 line (supersedes the $95.36 ESTIMATE); the proxy does not fire F1 — TERRY/HENRY grade the CME settle at 14:28–14:30 ET. BG-02 grades 17:00 ET; COT #7 ~15:30; rigs final print today. Pre-open vendor [09:06]: Brent Nov $104.91."
+      },
+      "War theaters + tariffs + housing": {
+        "headline": "🔴 CRMT filed bridge 4 (STD 10/1); the IEEPA 11/10 leg is VOID since February; PJM's 4th emergency reached nobody",
+        "body": "CRMT 8-K accepted 16:05 ET 9/24 (0001171843-26-006216): STD and liquidity/CCR relief extended 9/24 → 10/1; 'significant progress towards a transaction'; events of default experienced or anticipated; the $1.36 (−18.56%) close printed BEFORE the filing — the 9/25 open is the first price reflecting it (BROCK; DOCKET 10/1 + 10/7). The US IEEPA reciprocal-tariff suspension (EO 14358, 11/10) sits inside a framework EO 14389 TERMINATED on 2/24/2026 after Learning Resources v. Trump (2/20) — nothing reverts on 11/10 under IEEPA (ZHAO KB-183, PROME-verified at the opinion + the EO); the 11/10 cluster = BIS Affiliates Rule + MOFCOM 公告70, plus a separate 11/27 Chinese clock (公告46 cl.2, unverified). Xi–Trump summit HELD 9/23–25: 'a new joint arrangement', no terms, no instrument moved at WH/FR/MOFCOM; Bessent's 2027-01-10 extension is verbal only; ZHA-16 grades 9/30 by the letter. PJM 9/16–18: EEA-1 + emergency DR + DOE 202-26-45 (lapsed 9/18), PJM-RTO 5-min ~$3,710/MWh for 85 min on 9/16 — WATT dark 9/12–9/24; P1 3→5 SPENT, composite 16/20, WATT-11 MISS, WATT-12 registered; routing gap → DOCKET 10/02, WATCH_FOR[WATT] landed. France: HANS-T-10 FIRED 9/24 (OAT–Bund 109.9bp >100 [one aggregator]; OAT 4.67% >4.50 [TE corroborates]); HANS dark → WQ-294."
+      },
+      "AI capex": {
+        "headline": "🟠 ORCL's own 10-Q: off-balance-sheet DC leases $288B, a first force-majeure claim on a lease",
+        "body": "ORCL Q1 10-Q (filed 9/11): off-BS data-centre lease commitments $260B → $288B in one quarter; notes fair value 84.6% of carrying (from 89.3%); the $3.3B lessor guarantee maturing this month has 0 mentions ⇒ UNKNOWN; 9/24 force majeure on Project Jupiter (Blue Owl, 2.45 GW) to shield lease payments — first exercise of the off-BS lease risk-transfer clause seen (VULCAN KB-167/168; no band tripped). GATE-LIQ-069 (ORCL ladder, ARMED 1-of-2) is LIQUID's — consumer read owed. VULCAN's S2 re-arm rule resolves UNGRADEABLE 9/30 by construction."
+      }
+    },
+    "ticker": {
+      "Brent": "Brent Nov $106.60 [9/24 settle-proxy, SINGLE-VENDOR, BRENT-published 03:08 ET 9/25; contract BZX26; 9/23 $103.08] · F1 crack proxy $95.57 [9/24; TERRY grades the settle]"
+    }
+  }
+}
+```
+
 *⛔ **SUPERSEDED 2026-09-24 ~21:3x ET AT THE TWENTY-FIRST RE-BASE — its projection is REMOVED per this file's own rule.** The twentieth base's Amendment #1 (007 sealed in substance · the 9/22 Brent settle · WPSR wk-9/18 · WQ-234 encoded · the 9/23 tape) was FOLDED INTO THE TWENTY-FIRST BASE (post-close 9/24); the amendment block is verbatim at `PROME/HEARTBEAT_COLD.md` §A22 (entry-crc32 1102137542). **Twenty-first base = chain 0, so this file carries ZERO projections** (the builder requires len(amendments) == len(projections); a surviving block fails the build exactly as a missing one does — the recorded nineteenth-base failure at the foot of this file). **Nothing is projected until the next `> **AMENDMENT #1` block is appended to the twenty-first base.***
 
 

@@ -334,6 +334,78 @@ class ReaderRound2(_Base):
         rc, out = self.verify(ref="HEAD"); self.assertEqual(rc, 1, out); self.assertFalse(any("R100-CONSUMED" in l for l in out), out)
 
     # ❌B R2-1 — assume-unchanged: the working-tree file differs from the index blob
+    # ── round-3 reader (2026-09-25): three holes, one edit
+    def test_r3_1_git_replace_cannot_make_an_unpushed_edit_read_as_on_origin(self):
+        """❌1 P3: `git replace <origin blob> <local blob>` is honoured by every git object read."""
+        write(self.repo, ORIGIN, "packet body LOCAL EDIT\n"); commit(self.repo, "PROME: local edit", [ORIGIN])
+        self.move(); self.freeze({DEST: ORIGIN})
+        rc0, _ = self.verify(); self.assertEqual(rc0, 1)
+        X = sh("git", "rev-parse", f"origin/master:{ORIGIN}", cwd=self.repo).strip()
+        Y = sh("git", "rev-parse", f":{DEST}", cwd=self.repo).strip()
+        sh("git", "replace", X, Y, cwd=self.repo)
+        rc, out = self.verify()
+        self.assertEqual(rc, 1, out); self.assertFalse(any("R100-CONSUMED-MOVE" in l for l in out), out)
+        rc_ref, out_ref = self.verify(ref="HEAD")          # the committed form too
+        self.assertEqual(rc_ref, 1, out_ref)
+
+    def test_r3_2_manifest_only_form_never_fetches_and_prints_the_same_lines(self):
+        """❌2 P7: paths=None (`--mark-reviewed`, prome_gate) must not run the declared block."""
+        self.move()
+        calls = []
+        real = A._fetch_origin_sha
+        def spy():
+            calls.append(1); return real()
+        with patch.object(A, "_fetch_origin_sha", spy):
+            self.freeze(None); base = A.verify_review(paths=None); n0 = len(calls)
+            self.freeze({DEST: ORIGIN}); n1 = len(calls)
+            after = A.verify_review(paths=None); n2 = len(calls)
+            sh("git", "remote", "set-url", "origin", str(Path(self.tmp.name) / "gone.git"), cwd=self.repo)
+            down = A.verify_review(paths=None)
+        self.assertEqual((n0, n1 - n0, n2 - n1), (0, 0, 0), calls)     # zero fetches in the manifest-only form
+        self.assertEqual(base, after)                                     # a declaration changes nothing there
+        self.assertEqual(down, after)                                     # …and neither does a dead remote
+        self.assertFalse(any("CANNOT-ESTABLISH" in l for l in down[1]), down)
+
+    def test_r3_3_without_a_remote_named_origin_a_nested_clone_at_dot_origin_cannot_certify(self):
+        """❌3 P6: `git fetch origin` falls back to a PATH when no such remote exists."""
+        pk = "2026-09-25_from-LOCAL_unpushed.md"; o, dd = f"PROME/inbox/{pk}", f"PROME/inbox/processed/{pk}"
+        commit(self.repo, "LOCAL -> PROME", [write(self.repo, o, "local only\n")])       # never pushed
+        sh("git", "remote", "remove", "origin", cwd=self.repo)
+        sh("git", "clone", "-q", self.repo, str(Path(self.repo) / "origin"), cwd=self.repo)
+        (Path(self.repo) / ".git/info/exclude").write_text("origin/\n")
+        self.move(o, dd); self.freeze({dd: o})
+        rc, out = self.verify(("PROME/SCRATCH.md", o, dd))
+        self.assertEqual(rc, 1, out)
+        self.assertTrue(any("CANNOT-ESTABLISH" in l and "remote" in l for l in out), out)
+        self.assertFalse(any("R100-CONSUMED-MOVE" in l for l in out), out)
+
+    # ── round-4 reader (2026-09-25): the push URL is the origin that matters
+    def test_r4_1_a_pushurl_pointing_elsewhere_refuses_the_exemption(self):
+        """❌1: fetch from a mirror that holds an unpushed packet, push to the real origin that lacks it."""
+        mirror = str(Path(self.tmp.name) / "mirror.git")
+        sh("git", "clone", "-q", "--mirror", self.bare, mirror, cwd=self.tmp.name)
+        pk = "2026-09-25_from-LOCAL_unpushed.md"; o, dd = f"PROME/inbox/{pk}", f"PROME/inbox/processed/{pk}"
+        commit(self.repo, "LOCAL -> PROME", [write(self.repo, o, "mirror only\n")])
+        sh("git", "push", "-q", mirror, "master", cwd=self.repo)          # the packet reaches the MIRROR only
+        sh("git", "remote", "set-url", "origin", mirror, cwd=self.repo)
+        sh("git", "remote", "set-url", "--push", "origin", self.bare, cwd=self.repo)
+        self.move(o, dd); self.freeze({dd: o})
+        rc, out = self.verify(("PROME/SCRATCH.md", o, dd))
+        self.assertEqual(rc, 1, out)
+        self.assertTrue(any("differ from push URL" in l for l in out), out)
+        self.assertFalse(any("R100-CONSUMED-MOVE" in l for l in out), out)
+
+    def test_r4_2_a_symref_tracking_ref_is_refused_and_head_does_not_move(self):
+        """⚠️2: refs/remotes/origin/master as a SYMREF onto the checked-out branch must never be fetched through."""
+        self.move(); self.freeze({DEST: ORIGIN})
+        commit(self.repo, "PROME: unpushed", [write(self.repo, "PROME/HANDOFF.md", "h\n")])
+        head = sh("git", "rev-parse", "HEAD", cwd=self.repo).strip()
+        sh("git", "symbolic-ref", "refs/remotes/origin/master", "refs/heads/master", cwd=self.repo)
+        rc, out = self.verify(("PROME/SCRATCH.md", ORIGIN, DEST))
+        self.assertEqual(rc, 1, out)
+        self.assertTrue(any("SYMBOLIC ref" in l for l in out), out)
+        self.assertEqual(sh("git", "rev-parse", "HEAD", cwd=self.repo).strip(), head)     # HEAD untouched
+
     def test_r2_1_assume_unchanged_worktree_edit_blocks(self):
         self.move(); sh("git", "update-index", "--assume-unchanged", DEST, cwd=self.repo)
         write(self.repo, DEST, "packet body v2\n"); self.freeze({DEST: ORIGIN})

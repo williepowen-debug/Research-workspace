@@ -231,7 +231,8 @@ def _committed_content_id(path, ref="HEAD"):
     `_content_id` reads the working tree, which answers a different question: a
     path can be edited-then-reverted, or staged differently from the file on disk."""
     try:
-        blob = subprocess.run(["git", "show", f"{ref}:{path}"], cwd=ROOT,
+        blob = subprocess.run(["git", "--no-replace-objects", "show", f"{ref}:{path}"], cwd=ROOT,
+                              env={**os.environ, "GIT_NO_REPLACE_OBJECTS": "1"},
                               capture_output=True, check=True).stdout
     except subprocess.CalledProcessError:
         return None
@@ -243,6 +244,16 @@ def _committed_content_id(path, ref="HEAD"):
 ORIGIN_REMOTE, ORIGIN_BRANCH = "origin", "master"
 ORIGIN_FULLREF = f"refs/remotes/{ORIGIN_REMOTE}/{ORIGIN_BRANCH}"
 ORIGIN_REF = f"{ORIGIN_REMOTE}/{ORIGIN_BRANCH}"     # display name only — never resolved by this short form
+# ⛔ Round-3 reader ❌1 (2026-09-25): `git replace <origin blob> <local blob>` is honoured by EVERY git
+# object read, so an unpushed local edit read as "bytes on origin" with a clean R100 receipt. Every
+# git call on the exemption path runs with replace refs DISABLED.
+_NOREPLACE_ENV = {**os.environ, "GIT_NO_REPLACE_OBJECTS": "1"}
+
+
+def _xgit(*args, check=True, timeout=None):
+    """git on the EXEMPTION PATH: cwd=ROOT, replace refs disabled, bytes out. Raises CalledProcessError."""
+    return subprocess.run(["git", "--no-replace-objects", *args], cwd=ROOT, env=_NOREPLACE_ENV,
+                          capture_output=True, check=check, timeout=timeout)
 
 
 def _fetch_origin_sha():
@@ -257,15 +268,33 @@ def _fetch_origin_sha():
     ⛔ Round-1 reader ❌6: the fetch itself is load-bearing — CLOSEOUT step 10 runs before
     safe-push.sh, so the tracking ref can be stale. Failure ⇒ refusal, never a pass."""
     try:
-        subprocess.run(["git", "fetch", "-q", ORIGIN_REMOTE,
-                        f"+refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}"],
-                       cwd=ROOT, capture_output=True, check=True, timeout=60)
-        sha = git("rev-parse", "--verify", f"{ORIGIN_FULLREF}^{{commit}}").strip()
+        # ⛔ Round-3 reader ❌3: with NO remote named `origin`, `git fetch origin` treats the word as a
+        # PATH — a nested clone at ./origin certified an unpushed packet. The remote must EXIST as a
+        # configured remote (a URL, read-only) before anything is fetched from it.
+        step = f"git remote get-url {ORIGIN_REMOTE}"
+        url = _xgit("remote", "get-url", "--all", ORIGIN_REMOTE).stdout.decode("utf-8", "replace").split()
+        if not url:
+            return None, f"remote `{ORIGIN_REMOTE}` has no URL configured"
+        # ⛔ Round-4 reader ❌1: the FETCH URL is not the PUSH URL. A `pushurl`/`pushInsteadOf` can point
+        # safe-push.sh at a server that never held the packet while the fetch reads a mirror that did —
+        # "on origin" must mean the server the closeout PUSHES to. Fetch set == push set, or refuse.
+        push = _xgit("remote", "get-url", "--push", "--all", ORIGIN_REMOTE).stdout.decode("utf-8", "replace").split()
+        if sorted(url) != sorted(push):
+            return None, f"remote `{ORIGIN_REMOTE}` fetch URL(s) {url} differ from push URL(s) {push} — 'on origin' cannot mean one server for the read and another for the push"
+        # ⛔ Round-4 reader ⚠️2: if the tracking ref is a SYMREF onto the checked-out branch, the forced
+        # fetch below rewinds HEAD and strands the unpushed commit in the reflog. Refuse; never fetch.
+        step = f"git symbolic-ref {ORIGIN_FULLREF}"
+        if _xgit("symbolic-ref", "-q", ORIGIN_FULLREF, check=False).returncode == 0:
+            return None, f"`{ORIGIN_FULLREF}` is a SYMBOLIC ref — a fetch through it would move a local branch; repair the ref before verifying"
+        step = f"git fetch {ORIGIN_REMOTE} +refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}"
+        _xgit("fetch", "-q", ORIGIN_REMOTE, f"+refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}", timeout=60)
+        step = f"git rev-parse --verify {ORIGIN_FULLREF}"
+        sha = _xgit("rev-parse", "--verify", f"{ORIGIN_FULLREF}^{{commit}}").stdout.decode().strip()
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
         err = getattr(e, "stderr", b"") or b""
         if isinstance(err, bytes):
             err = err.decode("utf-8", "replace")
-        return None, f"`git fetch {ORIGIN_REMOTE} +refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}` failed ({err.strip()[:80] or type(e).__name__})"
+        return None, f"`{step}` failed ({err.strip()[:80] or type(e).__name__})"   # round-4 ⚠️3: name the step that failed
     return sha, None
 
 
@@ -273,8 +302,7 @@ def _origin_blob_id(path, origin_sha):
     """sha256 of `<origin_sha>:path` — the blob at the FETCHED commit, addressed by sha, never by
     a name. Returns (hexdigest, None) or (None, why)."""
     try:
-        blob = subprocess.run(["git", "cat-file", "-p", f"{origin_sha}:{path}"], cwd=ROOT,
-                              capture_output=True, check=True).stdout
+        blob = _xgit("cat-file", "-p", f"{origin_sha}:{path}").stdout
     except subprocess.CalledProcessError as e:
         err = (e.stderr or b"").decode("utf-8", "replace").strip()
         return None, f"`{ORIGIN_FULLREF}@{origin_sha[:9]}:{path}` is not readable ({err[:80] or 'no such object'})"
@@ -286,8 +314,7 @@ def _index_content_id(path):
     working-tree file can differ from the index under assume-unchanged / skip-worktree / line-
     ending filters while `git diff --name-only` stays quiet). None if not in the index."""
     try:
-        blob = subprocess.run(["git", "cat-file", "-p", f":{path}"], cwd=ROOT,
-                              capture_output=True, check=True).stdout
+        blob = _xgit("cat-file", "-p", f":{path}").stdout
     except subprocess.CalledProcessError:
         return None
     return hashlib.sha256(blob).hexdigest()
@@ -305,9 +332,9 @@ def _git_sees_r100(origin, dest, ref):
     else:
         args = ["diff", "--name-status", "-M100%", "--diff-filter=R", "--cached", "--", origin, dest]
     try:
-        out = git(*args)
+        out = _xgit(*args).stdout.decode("utf-8", "replace")
     except subprocess.CalledProcessError as e:
-        return False, f"git could not evaluate the rename ({(e.stderr or '').strip()[:80]})"
+        return False, f"git could not evaluate the rename ({(e.stderr or b'').decode('utf-8', 'replace').strip()[:80]})"
     for line in out.splitlines():
         cells = line.split("\t")
         if len(cells) == 3 and cells[0] == "R100" and cells[1] == origin and cells[2] == dest:
@@ -382,6 +409,7 @@ def verify_review(paths=None, ref=None):
     is not a pass: with no manifest nothing was established.
     `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`"""
     f = ROOT / REVIEW_FILE
+    explicit = paths is not None     # round-3 reader ❌2: the exemption belongs to the EXPLICIT-list form only
     if not f.exists():
         return 2, [f"CANNOT-EVALUATE: no review manifest at {REVIEW_FILE} — "
                    f"record one with --record-review before the audit"]
@@ -476,7 +504,11 @@ def verify_review(paths=None, ref=None):
                    "otherwise. (Content comparison above remains a diagnostic.)")
         return 2, out
     if paths is not None:
-        declared = d.get("consumed_moves") or {}
+        # ⛔ Round-3 reader ❌2: after discovery filled `paths`, this block ALSO ran for the manifest-only
+        # form (`--mark-reviewed`, prome_gate) — a network fetch on every declared move, and a
+        # contradictory CANNOT-ESTABLISH line beside rc 0 with the remote down. P7 says that form is
+        # untouched: the declared block runs ONLY when the caller supplied --paths.
+        declared = (d.get("consumed_moves") or {}) if explicit else {}
         if not isinstance(declared, dict) or not all(isinstance(k, str) and isinstance(v, str)
                                                      for k, v in declared.items()):
             return 2, out + ["CANNOT-EVALUATE: manifest `consumed_moves` must be a mapping of DEST → ORIGIN strings"]

@@ -101,18 +101,78 @@ def read_text(spec: str) -> str:
     return (p if p.is_absolute() else ROOT / p).read_text(encoding="utf-8")
 
 
+SUBJECT_TAIL = r"(?=$|[^A-Za-z0-9_])"          # the desk name ends at a word boundary: `WAL` never matches `WALTER:`
+_PROME_PERIMETER = ("PROME/", "FORGE/", "HEARTBEAT.md", "CLAUDE.md", "AGENTS.md", "USER.md", "KERNEL/", "MESSAGING/", "AGENTS/_",
+                    ".claude/", "docs/", "BOARD/", "reviews/")            # L455 reader ❌3: root/shared dirs a desk never owns (scripts/ is NOT here — DAEDALUS's grant)
+_PACKET = re.compile(r"^(AGENTS/[^/]+|PROME)/inbox/(?!processed/)[^/]+(/[^/]+)?$")   # a delivered packet (top level or a lane), never processed/
+_SHARED_LOGS = ("AGENTS/SIGNALS.md", "AGENTS/WALTER/registry/CORRECTIONS.tsv", "AGENTS/SELF_RULINGS.tsv")   # carve-out ② rows (self-authored)
+STRONG = lambda desk: re.compile(rf"^{re.escape(desk)}( ->|:)")   # the fleet's authorship convention (`<YOU> -> <RECIPIENT>: …`, `<YOU>: …`)
+
+
+def subject_pattern(desk: str):
+    return re.compile(rf"^{re.escape(desk)}{SUBJECT_TAIL}")
+
+
+def grep_pattern(desk: str) -> str:
+    """The git --extended-regexp prefilter (matches ANY message line; the subject is re-checked in Python)."""
+    return f"^{re.escape(desk)}([^A-Za-z0-9_]|$)"
+
+
+def attributed(desk: str, subject: str, paths) -> bool:
+    """Is this commit the DESK's own? Subject = the candidate filter; PATHS decide (root CLAUDE.md Git Protocol:
+    a desk commits inside its own directory, plus carve-outs ① packets into other inboxes, ③ memory/auto/, and
+    scripts/-class grants that sit under no desk's home). DOCKET L455 (2026-09-25):
+      · any path under the desk's home ⇒ its own;
+      · the convention form `DESK:` / `DESK ->` ⇒ its own by subject (pre-L455 behaviour preserved, old-only = 0);
+      · loose forms: a path under ANOTHER desk's home (outside a delivered packet / carve-out ② log) ⇒ NOT its own (MIDAS's `ZHAO refuted …`);
+      · a path in PROME's perimeter — PROME/ incl. inbox/processed/ moves, FORGE/, root docs, AGENTS/_*.md — ⇒ NOT
+        a domain desk's (PROME's `BOND … packet -> processed`, `YURI registered on the shared routing surfaces`);
+      · only packets / memory/auto/ / un-homed paths / no paths at all ⇒ its own (nothing on the path side refutes it).
+    Ambiguity fails toward DARK (a spurious spawn is visible; a missed one is not)."""
+    if STRONG(desk).match(subject):
+        return True          # the convention form is the author's word — the pre-L455 behaviour, kept exactly (old-only = 0)
+    if not subject_pattern(desk).match(subject):
+        return False
+    # loose forms (`DESK closeout …`, `DESK <date>`, `DESK packet -> processed`) need the PATHS to corroborate
+    if any(p.startswith('"') for p in paths):
+        return False         # L455 reader ❌2: core.quotePath renders a non-ASCII path quoted; it matches no prefix — refuse, never fall through
+    home = "PROME/" if desk == "PROME" else f"AGENTS/{desk}/"
+    # L455 reader ❌1: mail INTO the desk's own inbox is the SENDER's act — home evidence is a home path that is not a packet
+    if any(p.startswith(home) and not _PACKET.match(p) for p in paths):
+        return True
+    if paths and all(_PACKET.match(p) and p.startswith(home) for p in paths):
+        return False         # only packets into its own inbox ⇒ somebody else's delivery
+    for p in paths:
+        if _PACKET.match(p) or p.startswith("memory/auto/") or p in _SHARED_LOGS:
+            continue
+        if p.startswith("AGENTS/") and not p.startswith("AGENTS/_"):
+            return False
+        if desk != "PROME" and p.startswith(_PROME_PERIMETER):
+            return False
+    return True
+
+
+def parse_log_records(stdout: str):
+    """Records from `git log --format=%x1e<hdr> --name-only`: yields (header_line, [paths])."""
+    for rec in stdout.split("\x1e"):
+        if not rec.strip():
+            continue
+        lines = rec.split("\n")
+        yield lines[0], [l for l in lines[1:] if l.strip()]
+
+
 class Liveness:
     def __init__(self, until: str | None):
         self.until, self._c = until, {}
 
     def last_self_commit(self, desk: str):
-        """(date, sha) of the newest commit (optionally --until) whose SUBJECT starts with the desk's name — or None.
+        """(date, sha) of the newest commit (optionally --until) that is the desk's OWN — subject starts with the
+        desk's name at a word boundary AND the touched paths are the desk's (`attributed`, L455) — or None.
         `--grep` matches anywhere in the message (a PROME closeout body line "MIDAS: …" false-matched as a MIDAS
         commit on the 9/5 vintage — caught by the selftest), so the subject is re-checked in Python."""
         if desk not in self._c:
-            pat = re.compile(rf"^{re.escape(desk)}( ->|:)")
-            cmd = ["git", "-C", str(ROOT), "log", "-n", "40", "--format=%cs\t%h\t%s", "--extended-regexp",
-                   f"--grep=^{re.escape(desk)}( ->|:)"]
+            cmd = ["git", "-C", str(ROOT), "log", "-n", "40", "--no-merges", "--format=%x1e%cs\t%h\t%s", "--name-only",
+                   "--extended-regexp", f"--grep={grep_pattern(desk)}"]
             if self.until:
                 cmd.append(f"--until={self.until}")
             hit = None
@@ -124,9 +184,9 @@ class Liveness:
                 # on the shared .git while several desks commit. (DAEDALUS, L294 sweep, 2026-09-12.)
                 hit = ("!ERR", (r.stderr or "").strip().split("\n")[0][:120] or f"git log rc={r.returncode}")
             else:
-                for line in r.stdout.split("\n"):
-                    parts = line.split("\t", 2)
-                    if len(parts) == 3 and pat.match(parts[2]):
+                for header, paths in parse_log_records(r.stdout):
+                    parts = header.split("\t", 2)
+                    if len(parts) == 3 and attributed(desk, parts[2], paths):
                         hit = (parts[0], parts[1]); break
             self._c[desk] = hit
         return self._c[desk]

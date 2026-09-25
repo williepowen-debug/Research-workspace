@@ -94,14 +94,18 @@ def fingerprint(root, relative, budget):
 
 
 def last_commit(root, owner):
-    pattern = rf"^{re.escape(owner)}( ->|:)"
-    raw = git(root, "log", "-n", "40", "--extended-regexp", f"--grep={pattern}",
-              "--format=%H%x09%cI%x09%s").decode("utf-8", "replace")
-    for line in raw.splitlines():
-        fields = line.split("\t", 2)
-        if len(fields) == 3 and re.match(pattern, fields[2]):
+    """The desk's newest OWN commit — the same attribution rule as spawn_list.py (DOCKET L455: subject at a word
+    boundary as the candidate filter, PATHS decide), so the two readers cannot disagree on one commit."""
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from spawn_list import attributed, grep_pattern, parse_log_records   # noqa: E402 — fail LOUD if it moves
+    raw = git(root, "log", "-n", "40", "--no-merges", "--extended-regexp", f"--grep={grep_pattern(owner)}",
+              "--format=%x1e%H%x09%cI%x09%s", "--name-only").decode("utf-8", "replace")
+    for header, paths in parse_log_records(raw):
+        fields = header.split("\t", 2)
+        if len(fields) == 3 and attributed(owner, fields[2], paths):
             return {"sha": fields[0], "committed_at": fields[1], "subject": fields[2],
-                    "basis": "desk-named commit subject; not proof of current activity"}
+                    "basis": "desk-named commit subject + desk-owned paths (L455); not proof of current activity"}
     return None
 
 

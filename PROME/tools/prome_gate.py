@@ -456,6 +456,116 @@ def scan_gates_rows(rows, today):
     return out
 
 
+CITABILITY_TOKENS = re.compile(r"production UNVERIFIED|realisation UNKNOWN")   # SL-4(b) · SL-5(e)
+CITABILITY_LEAD = "LIVE / NOT ARMED —"                                            # the only lead a hit may carry
+CITABILITY_NEVER_SCAN = ("PROME/GATES_README.md",)                                # the rule's own prose carries both tokens
+_DEF_PATH = re.compile(r"[\w./-]+\.(?:md|tsv)")
+_DEF_DIRLIKE = re.compile(r"(?<![\w./-])(?:AGENTS|PROME|FORGE|KERNEL)/[\w./-]*")   # a path-like token with NO file extension (L417 reader ❌1)
+GATES_COLS = {"gate_id": 0, "condition": 3, "state": 5, "definition_surface": 10}    # asserted against the header by check_gates_tsv
+
+
+def _never_scan(root, p):
+    """L417 reader ⚠️7: compare RESOLVED paths, so `./PROME/GATES_README.md` is the README too."""
+    try:
+        rp = (Path(root) / p).resolve()
+    except OSError:
+        return False
+    return any(rp == (Path(root) / n).resolve() for n in CITABILITY_NEVER_SCAN)
+
+
+def scan_gate_citability(rows, root):
+    """DOCKET L417 (WQ-250 ③, GATE-CITABILITY RULE): pure scan. For every LIVE row read the tokens over its
+    definition_surface FILE(S) (col 10) AND its own condition cell (col 3 — the WQ-162 two-homes exception),
+    never over PROME/GATES_README.md (the rule's prose; the PLAN reader's ❌1 was a scan pointed there).
+    Returns {"violations": [gate → surface (token)], "hits": [(surface, count, [gates])], "condition_hits": [gates],
+    "files": M, "unreachable": [(gate, path)], "live": N, "read": K, "unread": [gates], "short": [gates]}.
+    A hit is a VIOLATION unless the row leads `LIVE / NOT ARMED —`. UNREACHABLE (missing file, a directory or a
+    directory-style pointer with no usable file — L417 reader ❌1: three live rows were silently unread) and a
+    SHORT row (fewer than 11 cells — reader ⚠️1) are reported, never skipped: the caller records ERROR (rc 2)."""
+    out = {"violations": [], "hits": [], "condition_hits": [], "files": 0, "unreachable": [],
+           "live": 0, "read": 0, "unread": [], "short": []}
+    root = Path(root)
+    gi, ci, si, di = (GATES_COLS[k] for k in ("gate_id", "condition", "state", "definition_surface"))
+    live = []
+    for r in rows:
+        if len(r) > si and r[si].startswith("LIVE"):
+            if len(r) <= di:
+                out["short"].append(r[gi]); continue
+            live.append(r)
+    out["live"] = len(live) + len(out["short"])
+    files = {}                                                       # path → [gates citing it]
+    for r in live:
+        gate, cond, surf = r[gi], r[ci], r[di]
+        if CITABILITY_TOKENS.search(cond):
+            tok = CITABILITY_TOKENS.search(cond).group(0)
+            out["condition_hits"].append(gate)
+            if not r[si].startswith(CITABILITY_LEAD):
+                out["violations"].append(f"{gate} → condition cell ({tok})")
+        got_file = False
+        for p in dict.fromkeys(_DEF_PATH.findall(surf)):
+            if _never_scan(root, p):
+                continue
+            if not (root / p).is_file():
+                out["unreachable"].append((gate, p)); continue
+            files.setdefault(p, []).append(gate); got_file = True
+        if not got_file:
+            # a directory-style pointer (`AGENTS/LIQUID/workbook (KB-LIQ-069)`) names a place, not a letter:
+            # the letter was NOT read and the row must say so, never pass as "no file to check"
+            dirlike = [t for t in _DEF_DIRLIKE.findall(surf) if not _DEF_PATH.fullmatch(t)]
+            if dirlike:
+                out["unreachable"].append((gate, dirlike[0] + " (directory-style pointer, no letter file)"))
+            elif not any(g == gate for g, _ in out["unreachable"]):
+                out["read"] += 0     # NONE / prose cell: nothing to read, not an error
+        if got_file:
+            out["read"] += 1
+    out["files"] = len(files)
+    for p, gates in sorted(files.items()):
+        try:
+            text = (root / p).read_text(encoding="utf-8", errors="replace")
+        except OSError as e:
+            for g in gates:
+                out["unreachable"].append((g, f"{p} ({type(e).__name__})"))
+            continue
+        n = len(CITABILITY_TOKENS.findall(text))
+        if n:
+            out["hits"].append((p, n, gates))
+            tok = CITABILITY_TOKENS.search(text).group(0)
+            for g in dict.fromkeys(gates):
+                # every row citing this file (a duplicated gate_id would hide a second row — reader ⚠️2)
+                for row in (x for x in live if x[gi] == g):
+                    if not row[si].startswith(CITABILITY_LEAD):
+                        out["violations"].append(f"{g} → {p} ({tok})")
+    out["unread"] = sorted({g for g, _ in out["unreachable"]} | set(out["short"]))
+    return out
+
+
+def citability_detail(o):
+    """Condition 7: count · file total · hit→row mapping · COVERAGE (reader ❌1); never bare filenames."""
+    total_hits = sum(n for _, n, _ in o["hits"]) + len(o["condition_hits"])
+    cov = f"{o['read']} of {o['live']} LIVE rows' letters read" + (f" · UNREAD: {', '.join(o['unread'])}" if o["unread"] else "")
+    if not total_hits:
+        return f"0 hits over {o['files']} files · condition cells: 0 · {cov}"
+    parts = [f"{p} ({n}) → {', '.join(g)}" for p, n, g in o["hits"]]
+    cond = ", ".join(o["condition_hits"]) or "0"
+    return (f"{total_hits} hits over {o['files']} files · " + " · ".join(parts) + f" · condition: {cond}"
+            + (f" · VIOLATIONS: {'; '.join(o['violations'])}" if o["violations"] else " · all hit rows lead 'LIVE / NOT ARMED —'")
+            + f" · {cov}")
+
+
+def record_gate_citability(rows, root=None):
+    """The leg: BLOCKING on a violation; ERROR (rc 2) on an unread LIVE row (unreachable / directory-style / short)."""
+    o = scan_gate_citability(rows, root or ROOT)
+    record(BLOCK, "GATES gate-citability (WQ-250 ③, L417)", not o["violations"], citability_detail(o),
+           "PROME/GATES_README.md GATE-CITABILITY RULE (re-cut the row's state cell to 'LIVE / NOT ARMED — attestation pending: …', "
+           "or the owner records the attestation at the letter)")
+    if o["unreachable"] or o["short"]:
+        record(ERROR, "GATES gate-citability — LIVE row letter NOT READ", False,
+               "; ".join(f"{g} → {p}" for g, p in o["unreachable"]) + ("; SHORT rows: " + ", ".join(o["short"]) if o["short"] else "")
+               + " (the letter was NOT read; the check established nothing for these rows — re-point definition_surface at the letter FILE)",
+               "PROME/GATES.tsv definition_surface cell (repair the path)")
+    return o
+
+
 def check_gates_tsv():
     """Token vocabulary + FIRED-UNEXECUTED + LIVE consumed_by + review_by. The
     silent-blank class (bare-date cells 7/28, bare ARMED 7/28, SAM-30 7/11) becomes
@@ -470,6 +580,13 @@ def check_gates_tsv():
     with open(path, encoding="utf-8") as f:
         rows = [r for r in csv.reader(f, delimiter="\t")
                 if r and not r[0].startswith("#") and r[0] != "gate_id"]
+    with open(path, encoding="utf-8") as f:
+        hdr = next((r for r in csv.reader(f, delimiter="\t") if r and r[0] == "gate_id"), None)
+    if hdr:
+        # L417 reader ⚠️8: the citability leg uses fixed columns; a header insertion must be LOUD, never a silent divergence
+        for k, i in GATES_COLS.items():
+            if len(hdr) <= i or hdr[i] != k:
+                raise RuntimeError(f"GATES.tsv header drift: column {i} is {hdr[i] if len(hdr) > i else 'ABSENT'!r}, expected {k!r}")
     o = scan_gates_rows(rows, today)
     record(BLOCK, "GATES fired-unexecuted", not o["fired"],
            "; ".join(o["fired"]) or "none", "PROME/GATES.tsv (clear or escalate SAME session)")
@@ -489,6 +606,7 @@ def check_gates_tsv():
     record(ADVISE, "GATES last_checked blank on LIVE INSTRUMENT rows", not o["instrument_unchecked"],
            "; ".join(o["instrument_unchecked"]) or "every live INSTRUMENT row carries a last_checked",
            "PROME/GATES.tsv (fill from the owner's latest grade; a blank reads as never-graded)")
+    record_gate_citability(rows)          # L417: the GATE-CITABILITY RULE, mechanised (was a README one-liner)
 
 
 def check_docket_overdue():
