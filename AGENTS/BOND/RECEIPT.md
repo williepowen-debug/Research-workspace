@@ -1,4 +1,4 @@
-# BOND RECEIPT — 2026-09-25 (Fri) ~01:03 → ~03:2x ET · three Will-directed PROME asks
+# BOND RECEIPT — 2026-09-25 (Fri) ~01:03 → ~03:4x ET · five Will-directed PROME asks
 
 *(Prior: `git show ad8bfdb3c:AGENTS/BOND/RECEIPT.md`.)*
 
@@ -11,3 +11,5 @@
 | **Inbox** | 3 PROME packets → `inbox/processed/` |
 | **Checks** | kb_lint clean · closeout_check rc=0 · join selftest 14/14 |
 | **Position** | TLT 77P ×20 HOLD, `$0`, no trade |
+| **WQ-157 ② PARK** (L476) | KB-BND-335 stamped INCONCLUSIVE (text; SCHEMA lacks the token — DAEDALUS question per PROME) · `I'` alone = MARKER on TRADE + STATUS · `fb9a9299a` |
+| **L477 Q3/Q4** | §7 co-sign `fb9a9299a` · Q4 BOND side `8163ad57d` (`KB-BND-336`), folded into LIQUID's report as D6–D8 · WILL_NEEDS → **WQ-291** (bucket for the kill's dealer leg; D3a +$8.6B caveat relayed) |
