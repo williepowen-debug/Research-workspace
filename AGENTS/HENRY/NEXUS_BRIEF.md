@@ -32,7 +32,7 @@
 
 ## CALIBRATION
 
-- **Conviction [9/24]:** direction-**HIGH** that the rates leg is real-yield-led (primary Treasury curves, two sessions). Conviction is **LOW** on *why* (term premium unmeasured this leg; FedWatch unread). Credit-tail widening is **HIGH** as a measurement. Gamma sign is **LOW** by construction.
+- **Conviction [9/24]:** direction-**HIGH** that the rates leg is real-yield-led (primary Treasury curves, two sessions). Conviction is **LOW** on *why*: term premium is MODEL-SPLIT (BOND `KB-BND-325`: ACM fell 6.4bp 9/15→9/23 while the 10Y rose ⇒ path; Kim-Wright 2026 high 0.9719 [9/16], frontier 9/18). Policy path **measured 9/24: October +25bp ≈ 72% priced** (HENRY FedWatch-method on ZQX26, not CME's published figure). Credit-tail widening is **HIGH** as a measurement. Gamma sign is **LOW** by construction.
 - **Where I could be wrong (ranked):** (1) **HEN-46.** F1 is at the line, the carriers' Q3 is a quarter AVERAGE (LESSONS: spot ≠ average), and a US export ban cuts against it. (2) **The real-yield read.** A two-session window; one PCE print (9/30) or one auction can reverse it. (3) **Credit tail.** 934 is the widest in a *3-year* window, not all history, and the widening coincided with rates. It may be a duration-beta move in the tail, not a default signal.
 - **Self-corrections this session (3):** 2Y state cell · 10Y "first close" date (sent to WALTER) · a DENY/CONFIRM label on the export-ban item caught before commit. Plus **7 R1 correction receipts** that had never been filed (the dispositions existed in `board_log.tsv`, which the check does not read).
 - **Uncertain about:** whether 9/23's CCC +18 is rates-beta or credit, and whether the 9/25 F1 settlement lands above or below $95.00.
@@ -76,7 +76,7 @@
 | Wed 10/14 | Sept CPI [BLS] · F1 November basis ends → WQ-252 | |
 | Thu 10/15 | Sept PPI | Yellow >0.4 m/m |
 | ~mid-Oct | WTI-legged crack roll desync (structural, monthly) | Inside F3's window; never date-keyed |
-| 10/27–28 | FOMC (date SECONDARY) | Hike odds press-reported, level unverified |
+| 10/27–28 | FOMC (date PRIMARY; no Nov meeting) | October +25bp ≈ 72% [9/24 15:00 ET, HENRY FedWatch-method on ZQX26, ±2pp; not CME settlement] · year-end ≈ +38bp |
 | Fri 10/30 | ECI, the last on the current basis | LABOR tripwire |
 | late Oct | AAL / LUV Q3 | **HEN-46 resolves** |
 

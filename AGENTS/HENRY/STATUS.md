@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Signal Status:** 🟠 **9/24 CLOSE CATCH-UP (Will-directed): RATES ARE THE STORY — the 10Y closed 5.18% [Treasury 9/24], +22bp in two sessions, and ALL of it is real yield (10Y TIPS 2.63→2.85, breakeven flat 2.33).** The 2Y has been through its red line since 9/11 (my STATUS said otherwise — corrected below); the 30Y is **3bp** from red at 5.47. Driver stack at primaries: **flash PMI composite 58.4 (62-month high) · weak 5Y auction · Barr "further policy adjustments are likely"**; October-hike odds up (press-only, level UNVERIFIED). ⚪ **Gamma: spot ON the flip** (7,704 vs band 7,702–7,707), net ≈ 0, sign indeterminate, no wall publishable. 🔴 **Credit tail: CCC−BB 934 [FRED 9/23] = widest in FRED's 3-year window**; HY 273, 13bp from 260. 🇯🇵 **Yen-gap window CLOSED at the 9/24 Tokyo re-open with NO carry-unwind signature** — yen weaker (USD/JPY ~158.3–158.6, THROUGH the 158.054 rate-check level), Nikkei up, JGB 10Y 3.07%. ⛔ **$0 moved. No card, no order, no trade. No threshold set, moved or re-specced.** **Last Updated:** 2026-09-24 ~21:4x ET (post-close; `date` 21:19 at boot). *Prior:* 2026-09-24 16:4x ET (prome-f5, F1 basis), 2026-09-21 11:2x ET.
+**Signal Status:** 🟠 **9/24 CLOSE CATCH-UP (Will-directed): RATES ARE THE STORY — the 10Y closed 5.18% [Treasury 9/24], +22bp in two sessions, and ALL of it is real yield (10Y TIPS 2.63→2.85, breakeven flat 2.33).** The 2Y has been through its red line since 9/11 (my STATUS said otherwise — corrected below); the 30Y is **3bp** from red at 5.47. Driver stack at primaries: **flash PMI composite 58.4 (62-month high) · weak 5Y auction · Barr "further policy adjustments are likely"**; October-hike odds **~72% [HENRY FedWatch-method on ZQX26, 9/24 15:00 ET]**, up from 56% [9/22]. ⚪ **Gamma: spot ON the flip** (7,704 vs band 7,702–7,707), net ≈ 0, sign indeterminate, no wall publishable. 🔴 **Credit tail: CCC−BB 934 [FRED 9/23] = widest in FRED's 3-year window**; HY 273, 13bp from 260. 🇯🇵 **Yen-gap window CLOSED at the 9/24 Tokyo re-open with NO carry-unwind signature** — yen weaker (USD/JPY ~158.3–158.6, THROUGH the 158.054 rate-check level), Nikkei up, JGB 10Y 3.07%. ⛔ **$0 moved. No card, no order, no trade. No threshold set, moved or re-specced.** **Last Updated:** 2026-09-24 ~21:4x ET (post-close; `date` 21:19 at boot). *Prior:* 2026-09-24 16:4x ET (prome-f5, F1 basis), 2026-09-21 11:2x ET.
 
 ---
 
@@ -127,7 +127,7 @@
 | Wed 10/14 | **Sept CPI** [BLS] · `GATE-TERRY-VLO-SCALE` review_by / F1 November-fixed basis ends | WQ-252 (Will) decides the post-10/14 F1 pair |
 | Thu 10/15 | Sept PPI [BLS] | PPI yellow row |
 | ~mid-Oct | **WTI-legged crack roll desync (structural, monthly)** | Inside F3's window — never date-keyed |
-| Tue–Wed 10/27–28 | **FOMC** (SECONDARY date) | October-hike odds press-reported 64–77.5% (CME FedWatch NOT read — level UNVERIFIED) |
+| Tue–Wed 10/27–28 | **FOMC** (date PRIMARY, federalreserve.gov; next is 12/8–9, no Nov meeting) | 🆕 **October +25bp ≈ 72% priced [9/24 15:00 ET]** — 58% [9/21] · 56% [9/22] · 68% [9/23]. **Year-end ≈ +38bp (~1.5 hikes)** from Dec ZQZ26. ⚠️ **Basis: HENRY computation, FedWatch method** — P = (100 − ZQX26 − EFFR 3.88 [FRED 9/23]) / 0.25; vendor last-trade at 15:00 ET, **NOT CME settlement and NOT CME's published figure** (CME blocks automated reads). Precision ±2pp (price quoted to 0.005). Assumes 25bp-or-hold and a stable EFFR-in-range. Press 9/24: 69.7–77.5% (secondary) — consistent. → `research/2026-09-24_fedwatch-method-october-odds.md` |
 | Fri 10/30 | ECI — last on the current basis | LABOR tripwire |
 | late Oct | AAL / LUV Q3 prints | **HEN-46 proper** |
 
@@ -168,7 +168,7 @@
 
 **6. ✅ VIX kill leg satisfied 3 straight sessions (9/18–9/22); joint sessions still 0** — HY never under 260.
 
-**7. ⛔ KILL ON SIGHT:** *"2Y 4bp under red"* (red since 9/11) · *"10Y first closed >5% on 9/18"* (9/16) · **any HENRY wall dated before 9/24** · *"positive gamma / dealers dampening"* (≈0 tonight) · *"the 10Y is an inflation scare"* (breakevens flat) · *"BOJ intervened"* (no confirmation; press-reported rate check only) · *"October hike odds X%"* as a verified figure (FedWatch not read) · *"Russia extended the diesel ban"* (report, no decree) · *"PCE came out this week"* (it is 9/30).
+**7. ⛔ KILL ON SIGHT:** *"2Y 4bp under red"* (red since 9/11) · *"10Y first closed >5% on 9/18"* (9/16) · **any HENRY wall dated before 9/24** · *"positive gamma / dealers dampening"* (≈0 tonight) · *"the 10Y is an inflation scare"* (breakevens flat) · *"BOJ intervened"* (no confirmation; press-reported rate check only) · *"October hike odds X%"* **without its basis** (72% is a HENRY futures computation, not CME's published FedWatch) · *"Russia extended the diesel ban"* (report, no decree) · *"PCE came out this week"* (it is 9/30).
 
 **8. Watch order:** **Fri 9/25** F1 settlement + board re-measure at the close · **Wed 9/30** PCE + GDP + Russian ban expiry (F3) + MOF intervention total + MU · **Thu 10/1** ISM Mfg · **Fri 10/2** NFP · **10/14** CPI + F1 November basis ends (WQ-252).
 
