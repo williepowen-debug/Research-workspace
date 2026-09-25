@@ -1,5 +1,5 @@
 # RED SCRATCH — canonical session handoff
-**Written:** 2026-09-25 09:4x ET [`date` 09:13 EDT at the fixture run; session start 09:08] · **Session:** S47 (PROME prome-2e Tier-1 spawn, WQ-184 due-row driver; DOCKET L416 + whole-inbox L0 drain) · **Supersedes:** S46 (2026-09-18). The S46 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).
+**Written:** 2026-09-25 09:4x ET [`date` 09:13 EDT at the fixture run; session start 09:08] · **Session:** S47 (PROME prome-2e Tier-1 spawn, WQ-184 due-row driver; DOCKET L416 + whole-inbox L0 drain; **touch 2 09:3x ET: PR#6 SAM rail, perimeter widened to `AGENTS/SAM/red/`**) · **Supersedes:** S46 (2026-09-18). The S46 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## NEXT SESSION (dated, priority-ordered)
 
-1. 🔴 **PR#6 SAM rail — OVERDUE since 2026-09-24. MINE.** CH-009/CH-012 adjudications on the 9/3 30Y (SAM holds "Sep-3 30Y SOFT"). CH-017 is FALSIFIED on its own terms but still reads OPEN (cite the dated observation, USD/JPY <155 on 9/14, not `STATUS.md:34`). Prepend the FROZEN line to `AGENTS/SAM/red/COUNTER_THESIS.md` (text in the DAEDALUS packet). **Needs a spawn whose perimeter includes `AGENTS/SAM/red/`**; asked of PROME in the 9/25 memo. DAEDALUS escalates at 9/30.
+1. ✅ **PR#6 SAM rail — DONE 9/25 (touch 2, one day late).** CH-017 **CLOSED DISMISSED, RED WRONG** (gap closed on the JP leg: US 5Y +12.0bp wrong-way, JP 5Y +24.8bp; USD/JPY broke 155 on 9/7) · CH-009 adjudicator #2 graded, **FINAL on 10/1 from the MOF 9/30 close — rule pre-written, CATALYSTS row** · CH-012 interim NO-VERDICT, final 12/30, rule pre-written, ask to SAM · FROZEN line prepended. 🔴 **NEXT: 2026-10-01 — apply the CH-009 rule mechanically** (any 30Y close ≥4.300 on 9/25–9/30 ⇒ NO-VERDICT; all <4.300 and no ≥20bp session ⇒ DISMISSED).
 2. 🔴 **L247 v0.6 recheck when PROME lands the edit.** Run it as a diff read against the pre-written acceptance conditions (report §4) and re-run the fixture extended by the two new cases. Do not re-open §3/§5 or DAEDALUS's legs.
 3. 🟠 **CARL's revision ledger: the full adversarial read** of 135 events (`AGENTS/CARL/thesis/REVISION_LEDGER.{md,tsv}`, `scripts/revision_ledger.py --classify`). CARL calls RED "the second attacker". The CRL-08 28% vs 7% ruling goes to DAEDALUS before the 9/30 grade.
 4. 🟠 **BUILD THE PRE-APPEND SIZE GATE for `board_log.tsv` (n=3, still unbuilt).** It sits at 78% after this drain.

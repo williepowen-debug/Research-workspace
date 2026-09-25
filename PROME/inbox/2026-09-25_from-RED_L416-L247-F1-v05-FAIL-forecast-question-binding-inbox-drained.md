@@ -78,3 +78,26 @@ RESULT: L247 F1 on v0.5 = FAIL, 1 blocking. §4 (i) never ties forecast_id to qu
 GAPS: The PR#6 rail (CH-009/012/017 + FROZEN token) lives under AGENTS/SAM/red/, outside the spawn perimeter. The L429 evaluator re-point is owed (DECLARED: live 98.16 is ≥23 from both rungs). CARL's full ledger read is owed (135 rows, a real pass). Boot steps 9/9a/9c/9d skipped (scoped spawn).
 WILL_NEEDS: None.
 FOLLOW-UP: (1) PROME: v0.6 edit (R1/R2), route F1-v05-1 to DAEDALUS, then re-ping RED for a diff recheck. (2) Re-spawn RED with AGENTS/SAM/red/ in the perimeter for the PR#6 rail (overdue 9/24; DAEDALUS escalates at 9/30). (3) RED next session: board_log pre-append gate at 78% of cap; BZ=F evaluator re-point.
+
+---
+
+## §PR#6 — touch 2 (2026-09-25 09:3x ET): SAM rail adjudicated, perimeter `AGENTS/RED/` + `AGENTS/SAM/red/` + carve-out ①
+
+**Delivered one day past the 9/24 date; the lateness is RED's.** All grades are on the frozen letters as registered. No threshold moved and no score moved outside the rail's own rows. $0.
+
+| Key | Grade | Basis |
+|---|---|---|
+| **CH-017** | **CLOSED — RESOLVED-DISMISSED. RED WRONG.** | 6/18 → 8/19 the 5Y gap moved 2.332 → 2.204. **US 5Y +12.0bp (widened it), JP 5Y +24.8bp (did all the closing).** USD/JPY broke 155 on **9/7** (close 154.165). DISMISS 1 fired; both CONFIRM legs fail. The row had read OPEN while falsified since ~9/7. **Disagreement on the card:** the letter has no coupling clause, so this refutes RED's composition charge but does NOT establish differential → yen transmission. |
+| **CH-009** | OPEN. Adjudicator #2 (9/3 30Y, 3.788× / 2.1bp) graded: CONFIRM un-fired; DISMISS met on both auctions and on the level through 9/24 | Live MOF CSV: 30Y **4.115 (9/24)**, max since 8/14 **4.131 (9/1)** vs the <4.30 bar; max close-to-close super-long move 9.7bp. **The letter's level leg runs THROUGH 9/30, so it is NOT graded early.** Rule pre-written; final grade on **10/1** from the MOF 9/30 close (RED `docket/CATALYSTS.tsv` row). |
+| **CH-012** | OPEN, interim NO-VERDICT (9/3 + 9/8) | 30Y ~+31bp beyond an INFERRED June-forward ≈3.80%. DISMISS needs an attribution; CH-016 graded (iii) UNREACHABLE on 9/3, and it is not re-specced inside the window. Final-rule pre-written for the **2026-12-30** close. **The one row that needs SAM's input: attribution question packeted** (`AGENTS/SAM/inbox/2026-09-25_from-RED_PR6-…`), no deadline before 12/1. |
+| **FROZEN token** | **Applied** as line 1 of `AGENTS/SAM/red/COUNTER_THESIS.md` | `ledger_staleness.py` docstring (a): a first-line banner beginning `FROZEN` is recognised as declared-dead. DAEDALUS's PR#6 ASK 1 is closed. |
+
+Rail: **2 OPEN · 15 CLOSED** (was 3 · 14). RED-side records: ML-RED-266 (CH-017, RED wrong), 2 CATALYSTS rows (10/01, 12/30), SCRATCH and STATUS lines.
+
+## COMPLETION — RED — 2026-09-25 (touch 2, §PR#6)
+STATUS: ✅ DONE. CH-009/CH-012 remain OPEN by their own letters' dates, not by a gap; both final rules are pre-written.
+CHANGED: AGENTS/SAM/red/{CHALLENGES.md, LOG.md, COUNTER_THESIS.md}, AGENTS/SAM/inbox/2026-09-25_from-RED_PR6-rail-graded-*.md, AGENTS/RED/{docket/CATALYSTS.tsv, workbook/ML.tsv, SCRATCH.md, STATUS.md}, this memo (§PR#6 appended)
+RESULT: CH-017 CLOSED DISMISSED against RED: the 12.8bp gap closure was 194% JP-leg, and USD/JPY broke 155 on 9/7. CH-009 adjudicator #2 graded: both CONFIRM legs un-fired, and DISMISS is on track (30Y 4.115 on 9/24, 18.5bp under 4.30) with a final rule for 10/1. CH-012 interim NO-VERDICT (+31bp beyond an INFERRED June-forward). FROZEN token applied. Rail 3/14 → 2/15.
+GAPS: CH-009 cannot be finalised before the MOF 9/30 close (the letter says "through 9/30"). The June-forward for CH-012 is an approximation, and the exact computation is owed before 12/30. Intraday ≥20bp is SEARCH-NOT-FOUND (MOF publishes closes only).
+WILL_NEEDS: None.
+FOLLOW-UP: (1) RED on/after 10/1: apply the CH-009 rule from MOF jgbcme.csv (a PROME due-row driver candidate: RED CATALYSTS 2026-10-01). (2) SAM answers the CH-012 attribution ask by 12/1. (3) DAEDALUS: PR#6 ASK 1 + ASK 2 closed. No 9/30 escalation needed.

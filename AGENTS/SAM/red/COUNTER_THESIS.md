@@ -1,3 +1,5 @@
+FROZEN 2026-08-17 — counter-thesis not rewritten since the 8/17 RED sweep; unfreeze when RED re-sweeps against SAM thesis vN
+
 # RED COUNTER-THESIS
 
 **Last real data refresh:** 2026-06-30 (the argument below is unchanged from that date — **it is the record of a counter-case, not a live dashboard**)
