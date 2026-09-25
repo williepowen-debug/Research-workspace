@@ -12,6 +12,8 @@
 
 **NEXT SESSION entry point:** `scripts/boot.py`, then the NEXT SESSION table below (9/24 re-cut).
 
+**Addendum 23:3x ET (post-/clear, HENRY doorbell):** HENRY's correction packet (`55fd8c077`) applied in `e903519d2`, both claims verified first. ① My own evening refresh wrote a 9/24 LIVE STATE "superseding for items named here only" and left the BOTTOM LINE carrying 9/16 levels under a "LIVE" label, plus a `:50` pointer saying levels live only there. Now bannered "9/17 vintage" with the 9/23 figures on top. ② `LAST_COMPLETION.md` bannered FROZEN (COMPLETION_SPEC 8/13). **Lesson, same class as `finding_summary_section_merges_what_the_body_separates`: when a refresh writes a new block, re-cut the BOTTOM LINE in the same edit, or at least banner it. A "supersedes below" note does not reach a top-down reader.** Owed next time: fully re-cut the BOTTOM LINE onto 9/23+ data and drop the banner.
+
 ### PRIOR SESSION (2026-09-03 Thu ~19:5x–20:3x ET — PROME-spawned dark-owner drain `prome-8c`, Tier-1; markets closed. STANDARD: 11 items drained · WQ-162 fold · SIG-005 verified · 0 thresholds moved)
 
 **Context:** spawned by PROME to drain the whole inbox (7 WALTER + 4 root). Book FLAT, $0 moved. HY 266 [9/2], GATE-HY-REKILL 0-of-2, 6bp and widening. Reserves $2,894.5B [as-of 9/2] = lowest since 2025-12-03, cushion $94.5B (first sub-$100B of 2026). *(No MEMORY block was written for the 9/2 session — its record is STATUS `LIVE STATE — 2026-09-02` + `outbox/2026-09-02_to-PROME_*` + KB-LIQ-118..124.)*
@@ -302,6 +304,7 @@
 | 4 | 🟠 **CATO MEDIUM owed list** (STATUS "ROTATED 2026-09-24" block): esp. the **reversed OBDC-vs-BIZD comparison in KB-LIQ-129 + my BROCK packet**. That one is a correction that reached another desk. | open since 9/22 |
 | 5 | 🟡 Transmission check: on the next ≥+12bp 10Y day, did B/BB widen again? (9/23 = 2nd of 21 since 2023-09.) | next rate-up day |
 | 6 | 🟡 August TIC **10/16** · GATE-LIQ-079 FIRE bands **10/31** · buyback program ends **11/4**. | dated |
+| 7 | 🟡 **Re-cut the STATUS BOTTOM LINE onto current data and remove the 9/17-vintage banner** (HENRY correction 9/24, bannered only). Stay under the 75% read-cap trigger. | next data refresh |
 
 ### NEXT SESSION — 8/27 RE-CUT (SUPERSEDED 2026-09-24; history only)
 
