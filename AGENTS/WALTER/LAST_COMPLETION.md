@@ -37,29 +37,7 @@ Session: **2026-09-25 Fri, Claude Opus 5.5 as WALTER (`walter-9c`)**, Will via T
 - **DEWEY dc1bddd37:** the DR-5 ledger note is corrected (dollars-share, not a unit ceiling), and the handoff is filed.
 - **SAM (sam-61, Will-launched) CONSUMED its lane and answered at 20:58Z (`bb0c0da2f`):** ladder UNCHANGED, Nippon Life immaterial by bound, UBS carried narrowly. The packet is filed. `-025` relays SAM's CFTC datum (info). DOORBELL_LOG consumed_at is filled. **The 9/21 `-018` deliberate NO now computes as a MISS** (referent: Tokyo reopen 9/24, before consumption).
 
-## LATER LEG — same session, after the 18:20Z Tier-2 (Will: "please process your work queue"), ~18:30–19:3xZ
-
-Light boot at 18:29Z: pull clean; doctor 0 HIGH / 9 MED; inbox, DEWEY and drop-zone empty; lane 0 NEW; 9a rc 0. **Boot PARTIAL:** 6/6b/6c/7 and the anchor were not re-read (the session ~2h earlier ran them). Commits `cb4c51368` · `37cfb3c3e` · `e9843de21` · `ab549b79f` · `9eabf8a16` · `8ef85b276` · (registry) · `24c290efa` · (F3) · `44109976a`. **Carried to origin by other desks' push trains through `24c290efa` (verified with `git merge-base --is-ancestor` after a fresh fetch, 19:3xZ). `44109976a` (`-018`) and this file's update are LOCAL. WALTER's own push is deferred: MARCO, NEXUS, ORACLE, PROME, CARL and TERRY had uncommitted work in the tree.** `reconcile_delivery_log.py --apply` flipped the `-016`/`-017` rows.
-- **`-016` → BRENT (ACTION):** by the 14:30 ET settle window, the matched-Nov Brent 3:2:1 crack fell to **~$49.34–49.44, BELOW $50 for the first time since 9/15** (Dec ~47.8, Jan ~46.8–47.0). Heating-oil led; cause UNSOURCED. **December's run is 2 sessions, not 3.** `-001` back-marked.
-- **WQ-254 packet consumed** (Will's word verified at the RULED record). **D4 prune run 1 DONE:** control reproduced 10/1/7/0 row-for-row; 25 rows today = 12 RECEIPTED · 1 DEAD-AT-CAP (SAM `-0826-02`) · 12 LIVE · 0 RETIRED. ⚠️ **Side effect: the checker's L139 skip now HIDES SAM's INFO line** (rc 0 before and after). Packet to DAEDALUS. **D5 DONE:** FORMAT_SPEC **v0.22** `kill_strings:` mandatory on corrections, forward-only. **D6 DONE:** intake pointer line in the `CORRECTIONS.tsv` header.
-- **Staleness sweep DONE** (`registry/STALENESS_SWEEP_2026-09-24.tsv`): 231 candidates, judged by mechanism. 2 tags: `-0911-004` SUPERSEDED (tell #2 fired) · `-0910-021` PARTIALLY-SUPERSEDED. Carry (c) `-0716-004` CLOSED.
-- **REGISTRY:** 6 rows refreshed (CARL BOND MARCO TERRY OTTO LABOR). **NEXUS and ORACLE deferred**, because both were mid-write.
-- **`-017` CORRECTION** (first use of `kill_strings`): the grocery "sales declining" claim relayed in `-0813-019` is refuted **in dollars** (Census `RSGCS` +0.97%/+0.52% YoY Jun/Aug; real −1.69%/−1.58%). WALTER verified it at the Bain release and FRED. `-0813-019` back-marked. Info to CARL/HENRY/MARCO/RED/LABOR.
-- **CHECKLIST v0.49:** HAWK F3 fixed (the INDETERMINATE row no longer opens with "Route"); the v0.47 banner now points at HAWK's returned review.
-- **`-018` → SAM (ACTION), DOORBELLED to PROME:** USD/JPY **158.92** live 19:21Z, above the 9/18 rate-check level (~158). Katayama 9/24 (Reuters): joint-intervention principles "remain alive". **No intervention confirmed.** Grade note on the 9/21 `-018` deliberate NO: its referent passed unconsumed; MISS computes at consumption.
-- **Design (l) raised:** the `board_log` `source` enum has 12+ ad-hoc values fleet-wide (below).
-
-- 🔴 **INDEPENDENT REVIEW of this later leg (Opus, read-only, Will: "double check we completed the work"):** the substantive work reproduced (crack table to the cent, prune 12/1/12/0 and the 10/1/7/0 control, FRED figures, handoffs, logs, scope). **It found 3 ❌ and 8 ⚠️, ALL of them closing-the-loop failures, and every one was re-verified by WALTER and fixed the same leg:**
-  - ❌ STATUS still carried the refuted crack levels (Nov 54.24 / Dec "3 sessions"). **Re-cut**, plus a USD/JPY row and a SESSION_LOG breadcrumb.
-  - ❌ The closeout receipt was stale (54 handoffs vs 62+; the DR-5 "not re-verified" note was false after `-017`). **Receipt re-issued** after reconcile.
-  - ❌ This file contradicted itself (the sweep shown as both skipped and done; WILL_NEEDS #1 said December was "borderline"). **Fixed.**
-  - ⚠️ **`-018`'s TIMING was wrong** (verified at hourly bars): USD/JPY first crossed 158.054 on **9/23 ~13:00Z** and held for ~30h; "+0.9% on the day" and "US hours" were wrong. → **`-019` CORRECTION to SAM (ACTION) + BOND, COR-20260924-19 (SAM).** `-018` back-marked PARTIALLY-CORRECTED.
-  - ⚠️ The register header defined RETIRED wrongly ("ALL-row past cap"; the package says VERIFIED closure) and kept the old prune line beside the new one. **Replaced, not annotated.**
-  - ⚠️ `-017` kill string 3 was not verbatim (case). **Re-cased, `erratum:` added.**
-  - ⚠️ The `-0910-021` tag overstated the ministry ("attack on the pipeline" → "precautionary SHUT after attacks in the regions"). **Narrowed** in the tag and the sweep record.
-  - ⚠️ A CHECKLIST L122 residue still glossed INDETERMINATE as "route at lowered confidence". **Fixed.**
-  - ⚠️ FOLLOW-UP #10 said the prune "changes nothing today", contradicting the observed side effect. **Fixed.** NEXUS and ORACLE rows were deferred on a stale reason. **Refreshed.** HAWK F1/F2 was missing from WILL_NEEDS. **Added (#4).**
-  - Not checkable by the reviewer: exchange settlements, SAM/BRENT liveness, NEXUS/ORACLE working-tree history.
+## LATER LEG (9/24, ~18:30–19:3xZ) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25" (4938 B, crc32 9f988ce8) for the read-cap budget. Its open items are already carried in FOLLOW-UP / OPEN DESIGN DECISIONS below.
 
 ## STATUS
 
