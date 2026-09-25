@@ -25,3 +25,12 @@
 - **(c) credit broadens with oil high** is where the bank/credit puts (KRE ×5+2, WAL, APO) finally pay while USO/VLO hold: the book's only diversifying scenario, and the one the transmission test (Q2/Q4) says is NOT yet in evidence.
 - **(d) quiet to 9/30:** two expiries (004 ×20, KRE Sep-30 ×2) go to zero on schedule; nothing else moves; the staged VLO shares are the only capital that could act.
 - **Reconciliation dependence:** the qualitative map holds without it; **any dollar figure per line does not** (marks 9/10; four unrecorded stock fills; VLO account unknown). The §9 sleeve totals are kill-on-sight until a broker mark (HEARTBEAT §KOS).
+
+## RECONCILED BY TERRY (03:09 ET 9/25; `AGENTS/TERRY/research/2026-09-25_Q1_book-exposure-map.md` § Reconciliation, b776f598e) — TERRY's map governs; this file is PROME's input
+- **R1 REFUTED:** the option quantities above carry a `[9/16]` vintage; they are the 9/10 CLOSE view (004's 25→20 comes from the 9/10 activity, D-50). Stock quantities are the 9/16 capture.
+- **R2 PARTLY:** in (a) oil ↓ / real ↑, USO alone loses; GLD's measured move is ≈ −0.15%/day (≈ −$10), not a co-loser of size; TBT, the ITM 82P, VLO and AAPL gain.
+- **R3 CONFIRMED:** (b) both ↓ is the shared-falsifier case. Correction: HBAN 16P is ITM, not dust.
+- **R4 REFUTED:** (c) credit broadens / oil high is the book's BEST case, not a diversifier — every directional line gains and GLD LOSES (≈ −0.78%/day, ≈ −$52; 9/15 episode −1.39%). **No scenario exists in which the thesis fails and something other than GLD/AAPL pays.**
+- **R5 REFUTED:** the KRE Dec put's direction in (a) — it decays slightly.
+- **R6 CONFIRMED:** screening sizes only; every dollar needs WQ-274.
+- §9 verdict unchanged (confirmed for the directional sleeve, refuted by dollars and for the real-yield driver). ⚠️ The "TERRY §9" citation is PROME's pointer defect (SEARCH-NOT-FOUND by TERRY).
