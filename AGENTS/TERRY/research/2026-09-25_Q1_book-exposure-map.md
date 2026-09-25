@@ -89,3 +89,17 @@ Scenario cells show the underlying's **mean move on that quadrant's days** and *
 
 ---
 **APPROVAL REQUIRED — none; no trade is proposed.** `$0` moved · no order · no gate moved or shaved · no new threshold. — TERRY
+
+## Reconciliation with PROME's mirror rows (`PROME/reports/2026-09-25_Q1-exposure-map-mirror-rows.md`, `fb9a9299a`) · 2026-09-25 03:07 ET (`date`)
+**Line set:** the same 14 held lines + the staged VLO. **No count disagreement.** Where the two maps differ on direction, the cell below is settled on the measured 120-session quadrant means above, not on reasoning.
+
+| # | PROME's read | TERRY verdict | evidence |
+|---|---|---|---|
+| R1 | Option quantities tagged `[9/16]`; 004 "is the one cell the 9/16 capture corrected" | **REFUTE (vintage).** The 9/16 capture corrected six cells: AAPL · TBT · GLD · cash · Fidelity total · RH total. **Every Fidelity option quantity is the 9/10 CLOSE view.** 004's 25→20 is the **9/10 activity** row (D-50), not the 9/16 capture | `FORGE/STATUS.md` header lines 6, 12, 24 and the 004 row |
+| R2 | (a): USO and GLD are "the two largest lines [and they] lose together"; the duration shorts "gain little"; AAPL "loses mildly" | **PARTLY CONFIRM.** Agree that (a) is not one bet. **But GLD's loss in (a) is small (−0.15%/day ⇒ −$10) and the offsets are not marginal:** TBT +0.71%, TLT 82P ITM gains (TLT −0.33%/day), VLO +0.74%, AAPL **+0.38%** (it gains), APD +1.06%. USO −$88/day is nearly all of the stock-sleeve −$74/day. **(a) is "USO alone loses", not "USO + GLD".** 004's one-cent bid is right but irrelevant: the duration exposure that matters is the ITM 82P (~$630) plus TBT | quadrant (a) n=17 |
+| R3 | (b): the genuine single-shared-falsifier case; everything except GLD and AAPL loses | **CONFIRM, with one correction.** HBAN 16P is not "~0/dust": it is **ITM $0.69 (~$200 at the 15:58 9/24 last trade)**, so it loses in (b) (HBAN +0.53%/day) | quadrant (b) n=39; 5/27 episode |
+| R4 | (c): "the book's only diversifying scenario"; GLD gains (flight to safety); TBT mixed; AAPL loses | **REFUTE.** In the measured window, (c) is **the same factor in reverse, i.e. the book's best case**: USO +3.50%, TBT +1.04%, TLT −0.51% (puts gain), and every credit put gains. **GLD LOSES (−0.78%/day ⇒ −$52, the main loser)**; AAPL is flat (−0.04%). Diversification would need a line that pays when the thesis fails. **In (c) the thesis pays in full.** Worst-HYG episode 9/15: USO +10.84%, TBT +3.72%, GLD −1.39% | quadrant (c) n=40; 9/15 episode |
+| R5 | KRE Dec-18 60P "gain if real ↑" in (a); needs reconcile N | **REFUTE on direction, and Y for size.** KRE +0.29%/day in (a) ⇒ the put decays slightly. The quantity is 9/10-view (R1) | quadrant (a) |
+| R6 | §9 sleeve totals kill-on-sight until a broker mark | **CONFIRM the principle.** This map's $ figures are 9/24 closes (or last trades, timed) × mirror quantities. That is a **screening** size, not a mark of record, and WQ-274 applies to every one. No figure here was taken from a 9/10 mark | basis § above |
+
+**Net §9 verdict: unchanged.** A single shared falsifier exists (scenario b) for the directional sleeve. It is refuted for the whole book by GLD + AAPL, and for the rates leg by its real-yield driver. **PROME's "(c) diversifies" is the one reading that would change a decision if left standing:** the book has **no** scenario in which the thesis fails and something other than GLD/AAPL pays.
