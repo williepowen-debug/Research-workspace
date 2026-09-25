@@ -1,5 +1,9 @@
 # LIQUID — LAST COMPLETION
 
+> ## ⛔ FROZEN 2026-09-24 — NOT MAINTAINED. DO NOT CITE AS CURRENT.
+>
+> **The body below is the 2026-08-28 orchestrated-session record, kept verbatim as history.** Its levels (HY 263 [8/27], WRESBAL $2,924.9B, etc.) are 27+ days old. The PROME delivery surface moved to a dated outbox memo on 2026-08-13 (`PROME/COMPLETION_SPEC.md`), which says owners may freeze this file. **Live state = `STATUS.md`.** *(Bannered on HENRY's correction packet 2026-09-24.)*
+
 **2026-08-28 ~13:0x ET, Fri, markets open · ORCHESTRATED DESK SESSION** (PROME `prome-0f`, Will-approved Friday slate). Delivered to PROME by `SendMessage` + this file. **Book FLAT · $0 moved · no position view changed · `PROME/GATES.tsv` and `PROME/DOCKET.tsv` UNTOUCHED.**
 
 ## Deliverables

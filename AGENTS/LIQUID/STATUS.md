@@ -3,7 +3,9 @@
 
 ## BOTTOM LINE
 
-**LIVE BOTTOM LINE — own FRED/yfinance pull 2026-09-17 ~21:5x ET; FRED latest obs 2026-09-16, equities 9/17 close.** FRED publishes T+1 ⇒ **the 9/17 spread session is `UNGRADEABLE-PENDING-PUBLICATION`, never `NOT-FIRED`.** *Prior BOTTOM LINE + LIVE STATE blocks rotated verbatim → `archive/status_snapshots/STATUS_PROSE_2026-09-17_rotation.md` (crc32 `12ee3144` / `1f45e995` / `6a146aea`).*
+> ⚠️ **VINTAGE 9/16 OBS — NOT THE LATEST LEVELS (HENRY correction 2026-09-24, applied same night).** The 9/24 LIVE STATE below supersedes every level in this block: **HY 273 · CCC 1,093 · CCC−BB 934 · reserves $2,930.2B (−$83.6B w/w), cushion $130B, not $213.8B · 10Y 5.11 · 30Y 5.40 · 2Y 4.85 [all FRED obs 9/23].** The "two builds running" reserves read below was overtaken by the 9/23 TGA drain. The mechanism reads (KB-LIQ-127/128/129, the hike, the X1/sizing posture) still stand.
+
+**BOTTOM LINE (9/17 vintage) — own FRED/yfinance pull 2026-09-17 ~21:5x ET; FRED latest obs 2026-09-16, equities 9/17 close.** FRED publishes T+1 ⇒ **the 9/17 spread session is `UNGRADEABLE-PENDING-PUBLICATION`, never `NOT-FIRED`.** *Prior BOTTOM LINE + LIVE STATE blocks rotated verbatim → `archive/status_snapshots/STATUS_PROSE_2026-09-17_rotation.md` (crc32 `12ee3144` / `1f45e995` / `6a146aea`).*
 
 ★ **THE REGIME ITEM: the Fed HIKED 25bp on 9/16 to 3.75–4.00%, vote 12–0.** My 9/12 note said the sell side had flipped to a hike (16 of 20 shops) while guarding that a **consensus-of-forecasters is not a priced probability**. **The forecasters were right; the guard was still correct and I am keeping it** — being right about the outcome does not retire the distinction between the two observables. **The last PRICED figure this desk holds is now history too** (61% [CNBC 9/3], ~85% post-CPI [9/14]).
 
@@ -47,7 +49,7 @@
 
 ### LIVE STATE — 2026-09-17, catch-up session. *(6th prose rotation 2026-09-22: four settled paragraphs — pull-blocked note, eight-defects ledger, the read-cap-matcher self-correction, Boston Fed PIK basis — moved verbatim → `archive/status_snapshots/STATUS_PROSE_2026-09-22_rotation.md`, crc32 `212a94cd`.)* Book FLAT · $0 moved · no position view changed · no new research thread opened.
 
-**⛔ LEVELS, THE HIKE, THE LADDER, RESERVES, DURATION AND THE PRIVATE-CREDIT READ ARE STATED ONCE IN THE BOTTOM LINE ABOVE AND ARE NOT REPEATED HERE.** *(A figure living in two places is where a later correction lands in one and not the other. `[[finding_summary_section_merges_what_the_body_separates]]`.)*
+**⛔ THE HIKE, THE LADDER AND THE PRIVATE-CREDIT READ ARE STATED ONCE IN THE BOTTOM LINE ABOVE AND ARE NOT REPEATED HERE. LEVELS, RESERVES AND DURATION: the 9/24 LIVE STATE above is latest (the BOTTOM LINE carries 9/16 obs).** *(A figure living in two places is where a later correction lands in one and not the other. `[[finding_summary_section_merges_what_the_body_separates]]`.)*
 
 **DAEDALUS GATE-BASIS SWEEP (9/17) — 5 dated asks REGISTERED, none due tonight.** GATE-HY-REKILL **BASIS-NAMED (the fleet's only one)**; LIQ-069/072/076/079 **BASIS-UNNAMED**. Stranger read: 076 NOT FIRED 0-of-3; **079 never ARMED, 0/43 days ≥+30bp**. Due **9/24**: re-point `KILL_MEMO:59` item 6 (its *"ALFRED 404s"* reason is **REFUTED** — the AS-FIRST-PUBLISHED rule stands, its reason does not, and it sits on 3 mirrors) + pin LIQ-072's SpaceX endpoints. Due **9/30**: LIQ-069 precision/tie/reset · LIQ-076 keyids + a definition of "record" (**flips leg (a) today**) · LIQ-079 `non-calendar` list + rounding order. ⚠️ **`fetch.py` sends no `realtime_*` ⇒ every figure I quote is LATEST-REVISED, not as-first-published** — stated, not silently inherited. *→ §3.*
 
