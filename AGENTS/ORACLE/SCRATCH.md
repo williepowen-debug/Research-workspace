@@ -14,9 +14,12 @@
 3. **Dual-venue pull:** Polymarket `pull --log` 51 + new-pin rows; Kalshi 13 → 14 tickers; `history --write` 8,155 rows; `movers` (11 hits → one pinned); **`coverage` run** (5 hits, same themes as 9/17, nothing pinned; next due ~10/01); `metrics.py collapse` clean; spread **v5 row 2 +74.10pp**.
 4. **Rolls:** PM — Aug CPI → Sept CPI · Hormuz weekly → wk-of-9/21 · Saudi by-date → on-date (basis change) · BOJ Sept retired. Kalshi — Fed Sept → Oct `>4.00` + Dec `>4.25` · Aug CPI ×3 → Sept `>3.5/>3.6/>3.7` · BOJ Sept → Oct. **New pin:** US–Iran next senior meeting.
 5. **Records:** KB-ORC-093 (Fed), 094 (10Y), 095 (Iran talks vs tempo), 096 (recession gap). VX-ORC-02/04/08 refreshed (08: Alert cell >66% met on PM, one print, not re-graded). STATUS fully re-tabulated (51% of read-cap), NEXUS_BRIEF rewritten, MAINTENANCE appended.
+7. **"Go deeper" pass (Will):** Fed drivers + CME gap (KB-ORC-097); Iran ultimatum + two new ladders (KB-ORC-098); **fixed `coverage`/`movers` silent 100-row cap** (MAINTENANCE late entry); outbox signals → LIQUID/BOND/HENRY/RED and HAWK/BRENT/FALCON. A second full `pull --log` re-logged the watchlist ~40 min after the first (10-min guard expired) — duplicate snapshot rows, harmless.
 6. **Verified externally:** 9/22 talks — Axios, Times of Israel, Israel Hayom, ANI. ⚠️ Witkoff: US side talked **through mediators**; PM resolved "attend" YES anyway.
 
 ## NEXT SESSION (dated, priority-flagged)
+
+0. **🔴 ~Tue 2026-09-29 — Iran's 5-day deadline.** Re-read the new ceasefire (thru 9/30 85.5%) and blockade-end (by 9/30 8.5%) ladders with `event` — the dashboard top leg is wrong for both (settled 9/20 rung / thin Mar-2027 rung). Also re-read Fed Oct vs the CME figure (KB-ORC-097) — do the venues converge up toward ~77% as in September?
 
 1. **🔴 Mon 2026-09-28 — DOCKET L299, October WTI $110 re-pin.** Search for an October $110 market; if listed, pin + **name the within-v5 roll rule before rolling** (v4 precedent: month rolls bumped REGIME). If none by the **2026-10-01T03:59Z** September close, **v5 dies — write it down; a new strike is Will's call.** Verify the inferred Active-Month switch (~Fri 10/16; CLX26 last trade Tue 10/20) at the contract. Script strings now say $110 (fixed 9/24).
 2. **🔴 Re-read the Fed Oct legs** — VX-ORC-08 Alert cell (>66%) met on ONE PM print (66.5) and ~1pt short on Kalshi. Second read before any re-grade.

@@ -8,9 +8,13 @@
 > **★ THE ONE THING — THE CROWD NOW PRICES A SECOND FED HIKE SOON, ON BOTH VENUES.**
 > October hike: PM **66.5%** (Δ7d +16.0, $3.4M) / Kalshi `KXFED-26OCT` differenced **≈65.0** (OI 33.3K) — agreement ~1.5pp. Two more hikes by December: Kalshi `KXFED-26DEC >4.25` **50.0%** / PM end-2026 ≥4.5% **50.3%**. Hike-count "3 hikes in 2026" **41.9% (Δ7d +23.4)**. VX-ORC-08's Alert cell (>66%) is met on Polymarket on one print. (KB-ORC-093)
 >
+> ⚠️ **CME FedWatch reportedly 77.5% on Thu 9/24** (secondary, time unmatched) ⇒ venues ~11–12pp **under** futures, as in September before they converged. Drivers: Barr + flash PMI (9/23), Williams (9/24). (KB-ORC-097)
+>
 > **★ THE 10-YEAR CROSSED 5.1%.** PM before-2027 ladder: **5.1% SETTLED** (72.5% on 9/17) · **5.2% 91.6%** (⚠️ $4.0K liq — do not mark a touch) · 5.5% 29.1%. `^TNX` 5.16 / `^TYX` 5.46 (2026-09-24, proxies — the contract resolves on the Treasury par curve). Par==DGS10 still unconfirmed. (KB-ORC-094)
 >
 > **★ IRAN: FIRST US–IRAN ROUND HAPPENED 9/22 (UN, New York, Qatar mediating) WHILE SHIP ATTACKS INTENSIFIED.** Attendance legs settled YES (Kushner/Witkoff/Araghchi, Δ7d ~+70). ⚠️ Witkoff says the US side talked **through mediators**, not face-to-face — do not cite the settle as proof of direct talks. Next meeting: by 9/30 29.0% · by 10/31 45.5% · **by 12/31 69.0%**. Hormuz-normal-by-Dec **22.5% (+5.0/7d)** — but "shipping targeted" settled YES 9/18, 92.8% 9/21, 98.0% 9/23 (thin books, real volume), and the end-Sept 0–5 transits band is 88.5% (+24.5). **Near term worse, year-end slightly better.** ⚠️ Hormuz legs resolve on the IMF PortWatch PRINT. HAWK owns the reality. (KB-ORC-095)
+>
+> **★ IRAN'S 5-DAY ULTIMATUM (9/24, ≈9/29) IS PRICED AS LEVERAGE:** ceasefire holds thru 9/30 **85.5%** ($830K vol) / 10/31 56.5% / 12/31 41.0%; US ends blockade by 9/30 **8.5%** / 10/31 30.5% / 12/31 61.5%. Both ladders newly pinned — invisible to ORACLE's coverage sweep until a same-night fix (Gamma caps requests at 100 rows, silently). (KB-ORC-098)
 >
 > **★ v5 SUPPLY SPREAD +74.10pp @ 2026-09-25T01:35Z** (77.5 − WTI-$110-Sept 3.4%, liq $85.2K). The September leg decays to 0 by expiry — **meaningful from the October leg**, which is **not yet listed** (L299 9/28; v5 dies at the 10/01 close if none lists — a new strike is Will's call). Never compare to v4.
 
@@ -29,6 +33,7 @@
 
 | Date | Event | Instrument | Note |
 |---|---|---|---|
+| **~Tue 9/29** | **Iran's 5-day deadline for the US to accept its road map** | ceasefire thru 9/30 85.5% · blockade-end by 9/30 8.5% | → HAWK, BRENT, FALCON |
 | **Mon 9/28** | **DOCKET L299 — October WTI $110 re-pin** | `polymarket.py search` | name the within-v5 roll rule before rolling |
 | ~Mon 9/28 | Hormuz weekly → wk-of-9/28 roll | listed, $7.1K | |
 | Wed 9/30 | Sept Hormuz ladders · 10Y/30Y Sept ladders · Houthi · Saudi on-date · Kalshi Brent Sep-30 resolve | | → BRENT, HAWK, FALCON, BOND |

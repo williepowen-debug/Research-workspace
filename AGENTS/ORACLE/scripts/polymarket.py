@@ -43,6 +43,25 @@ def _get(path, params=None, tries=3):
     raise last
 
 
+GAMMA_PAGE = 100  # Gamma /markets silently caps `limit` at 100 (verified 2026-09-24): a larger limit returns 100 rows, no error.
+
+
+def _get_paged(path, params, total):
+    """Fetch up to `total` rows via offset paging. Gamma truncates any single request to
+    GAMMA_PAGE rows WITHOUT an error, so a bare `limit=250` returned the top 100 and looked
+    complete — coverage's effective liquidity floor was ~$959K, and it could never see a
+    $2.8M event whose legs carry $95–141K each (US-Iran ceasefire, found 2026-09-24)."""
+    out = []
+    for off in range(0, total, GAMMA_PAGE):
+        page = _get(path, dict(params, limit=min(GAMMA_PAGE, total - off), offset=off))
+        if not page:
+            break
+        out.extend(page)
+        if len(page) < min(GAMMA_PAGE, total - off):
+            break
+    return out
+
+
 def _f(x):
     try:
         return float(x)
@@ -518,8 +537,8 @@ def cmd_movers(args):
     for field in ("oneDayPriceChange", "oneWeekPriceChange"):
         for asc in ("false", "true"):
             try:
-                d = _get("/markets", {"closed": "false", "active": "true",
-                                      "order": field, "ascending": asc, "limit": args.scan})
+                d = _get_paged("/markets", {"closed": "false", "active": "true",
+                                             "order": field, "ascending": asc}, args.scan)
             except Exception:  # noqa: BLE001
                 continue
             for m in (d or []):
@@ -592,8 +611,8 @@ def cmd_coverage(args):
     seen, rows = set(), {}
     for field in ("liquidityNum", "volumeNum"):
         try:
-            d = _get("/markets", {"closed": "false", "active": "true",
-                                  "order": field, "ascending": "false", "limit": args.scan})
+            d = _get_paged("/markets", {"closed": "false", "active": "true",
+                                         "order": field, "ascending": "false"}, args.scan)
         except Exception:  # noqa: BLE001
             continue
         for m in (d or []):
@@ -647,7 +666,7 @@ def main():
     s = sub.add_parser("movers")
     s.add_argument("--min", type=float, default=5.0, help="min 1d|7d move in pp (default 5)")
     s.add_argument("--top", type=int, default=30, help="rows to show (default 30)")
-    s.add_argument("--scan", type=int, default=250, help="markets per Gamma query (default 250)")
+    s.add_argument("--scan", type=int, default=250, help="markets per ordering, paged 100 at a time (default 250; was silently 100 before 2026-09-24)")
     s.add_argument("--min-liq", type=float, default=5000.0, dest="min_liq")
     s.add_argument("--min-vol", type=float, default=30000.0, dest="min_vol")
     s.add_argument("--all", action="store_true", help="drop the domain filter (still skips sports/elections)")
@@ -656,7 +675,7 @@ def main():
     s = sub.add_parser("coverage", help="INVERSE of movers: deepest UN-tracked markets by liquidity (find new themes)")
     s.add_argument("--min-liq", type=float, default=25000.0, dest="min_liq", help="liquidity floor (default $25K)")
     s.add_argument("--top", type=int, default=30, help="rows to show (default 30)")
-    s.add_argument("--scan", type=int, default=400, help="markets per Gamma query (default 400)")
+    s.add_argument("--scan", type=int, default=1000, help="markets per ordering, paged 100 at a time (default 1000; 250-400 missed the $2.8M US-Iran ceasefire event 2026-09-24)")
     s.add_argument("--domain", action="store_true", help="restrict to known domain keywords (default: ALL themes)")
     s.add_argument("--tracked", action="store_true", help="include markets already in watchlist")
     s.set_defaults(fn=cmd_coverage)
