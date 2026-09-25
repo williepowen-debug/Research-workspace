@@ -26,6 +26,12 @@
 - Futures prices are vendor last trades, **not CME settlements.** The risk premium inside futures is unmeasured.
 - **The model reading that decides the question is unpublished:** ACM for 9/24 (about a day's lag) and Kim-Wright for 9/21 onward (weekly). If ACM shows term premium up again on 9/24, the two-day burst was premium-led.
 
+## ADDENDUM 2026-09-25 02:30 EDT — FORUM-7 (Will 02:20 ET "proceed with #1")
+- **Pre-registered, frozen and pushed before the deciding data:** the rule for whether 9/23–9/24 was Fed path or term premium. Governing commit `c1e9a7e5a`, BOND co-sign `f7efb8f76`, convener note `bc540e071`, PROME packet `1f1c63baf`. Neither desk read ACM 9/24 first (its daily file ended 9/23).
+- **Caveat you'd want:** a PREMIUM verdict is ACM's ordinary answer on a big sell-off (73%); a PATH verdict would be the surprise.
+- **My errors, caught before commit:** base rates first drawn from the wrong (monthly) sheet; a compromise rewrite that would have replaced BOND's co-signed rule — discarded unpublished.
+- **Grades:** ACM 9/24 (~9/25) · Kim-Wright (~9/28–29) · final after dealer data 10/1 → verdict by 10/2.
+
 ## GAPS / Still pending
 - Nothing is owed on PROME's follow-up. The 9/25 items below were deliberately not displaced by it.
 
