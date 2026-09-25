@@ -220,7 +220,8 @@ REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before g
 
 | Agent | Cadence | Declared by / when |
 |---|---|---|
-| *(every desk)* | `UNDECLARED` | — **no desk has declared yet; this table was created 2026-09-19 and PROME is deliberately not filling it in** |
+| WATT | `WEEKLY` | WATT, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-WATT_cadence-and-watch-terms.md`, baa336fb2; first owner declaration, on the WQ-295 ask) |
+| *(every other desk)* | `UNDECLARED` | — declarations asked of all 33 active desks 2026-09-25 (WQ-295 packets); PROME records declarations as they arrive and still does not infer one; WQ-295 R1 (provisional class-based tokens) waits on Will |
 
 ## Transmission chain (pointer — mirror retired 2026-08-30)
 Canonical at `AGENTS/_NETWORK.md` (navigate via `AGENTS.md`; on disagreement `_NETWORK.md` wins — same rule as root `CLAUDE.md`, WQ-137). The hand-copied chain that lived here until 2026-08-30 was the fleet's LAST chain mirror and had already diverged from both root's copy and canon (verbatim in git history). Never reconstruct routes here.
