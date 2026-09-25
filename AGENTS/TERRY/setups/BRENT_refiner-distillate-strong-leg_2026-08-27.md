@@ -607,3 +607,35 @@ PROME flagged, correctly, that *"the crack is collapsing"* is a **thesis-side** 
 ⚠️ **HENRY disclosed it against its own interest:** matched **December** read **`$94.60`** in the same window, already under `$95`. The Nov−Dec step (~`$0.76`) can by itself decide `F1`. That is **WQ-252, Will's decision**; HENRY is routing it via PROME. Not advanced here. **Grade for 9/25:** `F1` fires on a 9/25 Nov settlement `< $95.00`, which is **`$0.36` away, a small fraction of 9/24's move.** ⚠️ **§ ⑨'s move figures (−`$6.15` to −`$6.42`; two-session −`$13.2`) are on the same wrong last-trade basis. On settlement: 9/24 Δ = `95.36 − 102.45` = **−`$7.09` (−6.9%)**; two-session `109.49 → 95.36` = **−`$14.13` (−12.9%)**.** The driver read in § ⑨ is unchanged in direction: crude-led, crack collapsing. `$0` moved · no gate moved or shaved.
 
 **⑨-ter · 9/25 AM check (owed by ⑨-bis) · 2026-09-25 03:00 ET (`date`) · `F1` for 9/24 stays NOT FIRED; the source-② row was NOT accepted.** I read the yfinance daily row dated 2026-09-24 for the named contracts (`auto_adjust=False`): `HOX26` Close `4.5280`, `CLX26` Close `94.61` ⇒ **`$95.57`**. That is **`$0.21`** from the ③ estimate `$95.36`, **outside the `$0.15` acceptance band**. The row's volume is also identical to 9/23's on both legs (`145,155` / `370,714`), so **the row is probably not finalized** — rule #19 (a vendor row carrying a prior session's field). ⇒ ③ `$95.36` stays the 9/24 basis (buffer ~`$0.36`, outside the ±`$0.15` UNKNOWN band); ② would give ~`$0.57`. **Either basis ⇒ 9/24 `F1` NOT FIRED.** Re-read the 9/24 row once more before grading 9/25; ① CME settlement stays Will-readable only. Overnight 9/25 ~03:00 ET, `HOX26 4.5034×42 − CLX26 92.95` = `$96.19` — **a live quote, not a grade**. ⚠️ The continuous `HO=F` "−4.80%" change shown by `fetch.py` is not a matched move; do not cite it. `$0` moved · no gate moved.
+
+### ⑩ WATCHER GRADE — `GATE-TERRY-VLO-SCALE` on the 9/25 session · graded 2026-09-25 Fri 14:42 (F1) and 16:03 (A/B) ET (`date` wall clock, copied) · **NOT MET: (A ✗ OR B ✗). `F1` = UNKNOWN, held and never skipped. The row is NOT terminal. `$0` MOVED.**
+
+**Letter:** `PROME/GATES.tsv` row 23, TERRY `5fae05da9` + HENRY basis `90fa9a4c1`. Pulls are TERRY's own yfinance, `auto_adjust=False`.
+
+| leg | 9/25 | reference | verdict |
+|---|---:|---|---|
+| **A** gate day | VLO **`387.145`** (+1.12%) · USO **`148.39`** (−3.07%) | VLO prior `382.86` · USO prior `153.09` | ✗ **on both halves**: refiner GREEN, crude RED |
+| **B** pullback | VLO **`387.145`** | **20-session SMA ending 9/24 = `380.66`** (8/27→9/24, 20 bars). The vendor now HAS a 9/22 bar, `377.14`; the labelled substitute `377.22` moves the SMA by <$0.01 (construction rule #19: coverage is a property of the pull) | ✗ (+`$6.49`). ⚠️ Intraday at 14:1x it read `379.73`, which is ≤ SMA. **The close is the letter, not the intraday read** |
+| **F1** Nov crack `<$95` | **③ settle-window VWAP 14:28–14:30 ET: `HOX26 4.4591 × 42 − CLX26 92.2827` = `$95.0014`** (3 bars/leg, vol 2,797 / 9,468; the 2-bar form 14:28–14:29 gives `$94.9990`) | `$95.00`, ±`$0.15` band | **UNKNOWN.** Only ③ is available and it sits `$0.00` from the line |
+
+**Sources.**
+- **① CME settlement:** `cmegroup.com` returned **HTTP 403 (scrape block)** at 14:15 ET. It was not retried or circumvented, so ① stays Will-readable only.
+- **② The 9/25 dated row:** not finalized at 16:03. Its `HOX26` Close reads `4.5646`, which is **post-settlement trading**. The 9/24 row, re-read at 16:03 as ⑨-ter asked, still shows `95.57` with 9/23's volume, so it is still not finalized.
+- **One `HOX26` tick (`0.0001`) = `$0.0042` of crack**, so F1 is a coin-flip decided at the tick.
+- **Matched December** read `$95.0038` in the same window. It does not govern (Nov through 10/14, WQ-252) and is recorded only.
+
+**What resolves F1, and why it still matters on a NOT-MET day:** F1 alone makes the row terminal.
+- **If the CME Nov settles give `HO×42 − CL < $95.00`,** both staged shares stand down and the row goes terminal.
+- **If they give `≥ $95.00`,** the row stays LIVE to its 10/14 review_by.
+
+Resolvers, fastest first:
+- **Will reads CME's official 9/25 settles** for NY Harbor ULSD Nov-26 (`HOX26`) and WTI Nov-26 (`CLX26`).
+- **Or the ② row once finalized.** It is accepted only if within `$0.15` of `$95.0014`. ⚠️ A row carrying the post-settle last trade (~`$99.5` at 16:03) fails acceptance, and then F1 stays UNKNOWN for 9/25 permanently. In that case the next session's settle grades the row forward. UNKNOWN is held, never skipped, and never back-filled by a later session's number.
+
+**Driver read (construction rule #23; recorded only, nothing fired).**
+- **Settle to settle,** the crack barely moved: `95.36` (9/24 ③) → `95.00` (9/25 ③), −`$0.36` (−0.4%), after −`$14.13` over 9/22–9/24.
+- **At the close,** VLO +1.12% on a crude-RED day (USO −3.07%, `CLX26` `94.61` → `92.24` row). The refiner decoupled **upward from crude** for the first session since 9/22, which is the direction of the driver this card underwrites.
+- **After 14:30,** `HOX26` ran `4.4545` → `~4.565` (+2.5%). That is a **quote, not a grade**; F1 is settlement-based.
+- **⇒ One session is not a regime.** It is recorded so the next grade can see whether the crack-led read persists.
+
+**Held share:** `$387.145` vs `$412.00` = **−`$24.86` / −6.0%** (vendor close, screening). **No rule exists on the held share** (§ ⑦). WQ-297 A (Will 2026-09-25 14:16 ET) accepted the book's concentration in writing: no offset card, no trim. **Both staged shares stay STAGED. `$0` moved · no order · no gate moved or shaved.**

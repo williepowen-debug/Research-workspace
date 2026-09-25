@@ -9,6 +9,23 @@
 
 > ## ⤵️ **2026-09-19 Sat cruise block ROTATED 2026-09-24 → `archive/STATUS_ARCHIVE_2026-09-24.md`** (pre-rotation lines 9–42, crc32 `5ad593d1`, 22,547 B — verbatim, contiguous, body only). Forced: STATUS opened 9/24 at 32,535 B, 15 B under the READ-CAP. ⛔ No live state moved — legs verified on other live surfaces first, listed in the archive header.
 
+> ## ★ CURRENT STATE — 2026-09-25 Fri 14:12–16:1x ET · PROME spawn (`prome-2e`, Tier 1, the post-settle re-touch owed by WQ-282/WQ-213). **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED.** This supersedes the "Owed today ②" line in the 02:58 block below.
+>
+> | line | state (own pulls, vendor = screening) |
+> |---|---|
+> | **VLO-SCALE** (2 staged) | **9/25: NOT MET** (A ✗: VLO +1.12% green, USO −3.07% red · B ✗: `387.145` > SMA-20 ending 9/24 `380.66`). **`F1` = UNKNOWN:** ③ settle-window VWAP `$95.0014` (2-bar `$94.9990`), `$0.00` from the line. ① CME is 403-blocked; ② is not finalized. **The row is NOT terminal; it is held.** Resolver: Will reads the CME 9/25 settles for `HOX26`/`CLX26`. If `HO×42−CL < 95.00`, the row goes terminal and both staged shares stand down. Card § ⑩. |
+> | **004** TLT 77P ×20 | 16:03: `0.03/0.04` (last trade 15:21), TLT `79.32` ⇒ ~`$60–80` vs `$231.26` basis. **Card unchanged:** harvest ≥`$0.3469` is out of reach (it needs TLT ~−3%), NO ADD (WQ-280), expiry Wed 9/30. |
+> | **Book concentration** | **WQ-297 A — Will ACCEPTED it in writing, 2026-09-25 14:16 ET** (`PROME/proposals/2026-09-25_wq297-298-RULED.md`). No offset card, no trim, no line's rule changes. Carried on the Q1 map. |
+> | **WQ-292** (TLT Oct-16 82P ×2 + HBAN 16P ×2, ITM) | Will's ruling. Not carded. |
+>
+> **Inbox drained 3/3** (`board_log.tsv` 9/25 14:17 + 16:0x rows). **WQ-295:** CADENCE `WEEKLY` declared. The 8 phrases I proposed were live-tested by WALTER: 1 landed, 6 rejected, and on my word 7 replacements were adopted and `distillate inventories` dropped (memo). **MIDAS:** the 77P delta was delivered 9/11. At 14:14 ET 9/25 it was `−0.0708`, above MIDAS's `0.0504`, a moment property; packet sent.
+>
+> **Carried, with reason:**
+> - **DOCKET L372** (cold class-fix proposal: gates with no thesis/channel condition) needs its own sitting.
+> - **L391** (`boot.py` read-cap flag) is not urgent: STATUS has headroom (`read_cap_check --agent TERRY` rc=0).
+> - 🔴 **SETUPS/TRADE_BOOK rotations are still owed.** `SETUPS.tsv` sat at the rotate tier, near its cap, at 16:0x 9/25, so **no SETUPS row was appended this session.** The next session rotates FIRST.
+> - **CCL prints Tue 9/29:** grade `FL-CRU-10`.
+
 > ## ★ 2026-09-25 Fri 02:58–03:2x ET — PROME spawn (prome-fa, Tier-2 on Will's word 02:55), DOCKET **L477** six-question set. **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED · NO NEW THRESHOLD.**
 >
 > **Q1 (LEAD) DELIVERED → `research/2026-09-25_Q1_book-exposure-map.md`.** 14 held lines + 2 staged VLO, with a scenario column set and the existing rule per line.
