@@ -58,6 +58,8 @@
 
 ### NEXT SESSION — in this order
 
+0. ⚠️ **STATUS ROTATION OWED FIRST** — 31,120 B = 96% of the 32,550 budget (read_cap_check rotate-tier ≥75%; rotate to <70% ≈ 22,785 B) BEFORE adding the 9/25 close. Candidates: the 9/24 SESSION rows 1–10 + superseded catalyst rows → archive block 37, verbatim, gates enumerated by grep.
+
 1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): HEN-46 F1 at the CME settlement** (HOX26×42 − CLX26, matched Nov; <$95.00 fires; TERRY grades). Also read the finalized 9/24 row. `date` before every stamp.
 2. 🔴 **Re-measure the gamma board on the 9/25 close** (14d + 35d).
 3. 🔴 **FORUM-7 P1 — ACM 9/24 when posted (~9/25):** grade s per the FROZEN letter `research/2026-09-25_FORUM-7_path-vs-premium-PREREG.md` (c1e9a7e5a + BOND f7efb8f76) — NO re-spec; report s's ACM percentile + BOND's 0.47/0.87 beside it (A1); tag KW-UNCHECKED. P2 KW ~9/28–29 (g > 18bp ⇒ UNANSWERABLE). FINAL 10/1 FR2004 → verdict by 10/2 boot; packet PROME. ⚠️ Lesson from drafting it: pulled the MONTHLY ACM sheet first (8/31 frontier, 2-month 'sessions') — check the sheet/frequency before any base rate.
