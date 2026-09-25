@@ -21,3 +21,13 @@ RESULT: Q1 map: worst case = oil↓ AND yields↓ (39/56 oil-down sessions), wit
 GAPS: PROME mirror rows not yet received (build was independent). BRENT Q5 mechanism + BG-02 grade pending. The "TERRY §9" source is SEARCH-NOT-FOUND. Option values are last-trade references, not marks. Every $ size needs WQ-274.
 WILL_NEEDS: None new. The ITM Oct-16 puts and the 10 rule-less lines are card facts, only if Will wants a card.
 FOLLOW-UP: TERRY grades VLO-SCALE F1 at today's settle (±$0.15 ⇒ UNKNOWN). Reconcile PROME's rows on receipt. 004 expires Wed 9/30.
+
+**ADDENDUM 03:07 ET: PROME's mirror rows (`fb9a9299a`) reconciled.** See the Q1 file § Reconciliation.
+- Line set: same 14 + staged VLO.
+- **Refuted:**
+  - R1: option vintages are 9/10, not 9/16.
+  - R4: **(c) is the book's BEST case, NOT a diversifier.** Every directional line gains and GLD loses (−0.78%/day).
+  - R5: KRE Dec put direction in (a).
+- **Partly confirmed:** R2, since (a) is "USO alone loses" (GLD −$10/day; TBT, the ITM 82P, VLO and AAPL gain).
+- **Confirmed:** R3 (b) with a correction (HBAN 16P is ITM, not dust); R6 (screening sizes only).
+- §9 verdict unchanged. BRENT's Q5 asks were answered by message 03:0x.
