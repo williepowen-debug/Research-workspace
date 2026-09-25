@@ -58,7 +58,7 @@
 
 ### NEXT SESSION — in this order
 
-0. ⚠️ **STATUS ROTATION OWED FIRST** — 31,120 B = 96% of the 32,550 budget (read_cap_check rotate-tier ≥75%; rotate to <70% ≈ 22,785 B) BEFORE adding the 9/25 close. Candidates: the 9/24 SESSION rows 1–10 + superseded catalyst rows → archive block 37, verbatim, gates enumerated by grep.
+0. ✅ **STATUS rotation DONE 2026-09-25 03:32 EDT** — 31,152 → 22,741 B (69.9%), settled blocks → archive block 37 verbatim (crc32 per block; lossless-checked vs a pre-rotation copy); 17/17 threshold rows kept. Stay <75% when adding the 9/25 close. Lessons: window-net line → LESSONS (now 74.8%, at its trip line — rotate LESSONS before the next addition); typed-clock n=2 → fleet memory `finding_a_stamp_written_from_narrative…`.
 
 1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): HEN-46 F1 at the CME settlement** (HOX26×42 − CLX26, matched Nov; <$95.00 fires; TERRY grades). Also read the finalized 9/24 row. `date` before every stamp.
 2. 🔴 **Re-measure the gamma board on the 9/25 close** (14d + 35d).

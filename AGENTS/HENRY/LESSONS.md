@@ -43,6 +43,7 @@
 - **[Statistics] — A Size-Dependent Penalty Must Be MEASURED ACROSS SIZES, Not at One Size and Not From Its Asymptote.** One size gives you a point, not a slope; the asymptote gives you the limit, not the behaviour in the range you trade. Measure across the range or report no penalty.
 - **[Authority] — When Your Own Instrument Disagrees With a Publisher of Record, Deferring SILENTLY Propagates the Error.** A stronger disclaimer is NOT the fix. Carry BOTH figures with BOTH bases named in the cell, AND route the disagreement back to the publisher the SAME session — a measured discrepancy that stays inside your own file is a caught error you chose not to spend. `[[finding_owner_of_record_means_authoritative_not_correct]]`
 
+- **[Verification] — A Window NET Is Not the Path Inside It.** "ACM TP fell over 9/15→9/23" was true and hid **+7.0bp on 9/23**, the day the claim was about (2026-09-25, caught before PROME acted). Quote the sub-window that carries the claim, not the net around it.
 ---
 
 ### [Process] — A Session That REVERSES a Regime Must Grep Its Own File for the OLD Regime Before Commit
