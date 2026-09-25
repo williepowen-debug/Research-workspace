@@ -1,6 +1,6 @@
 # MIDAS — STATUS
 
-**Last Updated:** 2026-09-25 ~10:xx ET (Fri). **WILL-DIRECTED BOOT after 14 dark days: news catch-up, silver/Pt/Pd made first-class coverage (Will's word), full-page STATUS re-base.** The 9/11 page is preserved verbatim at `analysis/STATUS_ARCHIVE_2026-09.md` §⑩, off the boot path, and every obligation on it is re-homed below. **M1 holds 4. Composite 8/20 UNCHANGED. Zero capital. No card, no order, no band or threshold moved.**
+**Last Updated:** 2026-09-25 ~11:44 ET (Fri), CLOSEOUT. **WILL-DIRECTED BOOT after 14 dark days: news catch-up, silver/Pt/Pd made first-class coverage (Will's word), full-page STATUS re-base.** The 9/11 page is preserved verbatim at `analysis/STATUS_ARCHIVE_2026-09.md` §⑩, off the boot path, and every obligation on it is re-homed below. **M1 holds 4. Composite 8/20 UNCHANGED. Zero capital. No card, no order, no band or threshold moved.**
 **Class:** Market-agent (metals as macro tells) · **Spawnable by:** PROME or Will · **Fleet maturity: L4** (FLEET_MAP since 2026-09-08; DAEDALUS PR6 9/17 — this line read L3 until today) · **Cadence: WEEKLY** (declared 9/25, WQ-295) · **Instrument coverage: tier 2** *(spot/yield/GSR/LME + the contract-identity guard via `metals_watch.py`; gold COT via `cot_gold.py` = boot leg 3; **silver/Pt/Pd COT via `cot_metals.py`, new 9/25, on-demand**; one-shot graders on-demand by design)*
 
 > ### 🔴 LIVE MARKS — explicit contract months, settled closes [9/24 unless stated]. Never the `=F` pointer.

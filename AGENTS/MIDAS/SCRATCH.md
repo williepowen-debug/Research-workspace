@@ -26,7 +26,9 @@
 >
 > **▶ ✅ DONE LATER THE SAME SESSION (Will: "okay go ahead"):** charter bottom-line rule now needs one line per metal · THESIS §M2/§I2 re-based (silver = four mechanisms; PGMs carry a precious leg). The two DAEDALUS stale cells were re-cut, and I2's wrong "AD duty priced" claim corrected (USITC negative 5/29) · **`cot_metals.py`** built (Ag 084691 / Pt 076651 / Pd 075651) + history FROZEN at `sources/cot_metals_history_2010_2026.tsv` · **MIDAS-09/10 registered** (resolve 10/30) · **STATUS re-based 32,158 → 16,945 B**; the old page is verbatim in archive §⑩ · band DRAFT for Will · explicit-month GSR line in `metals_watch.py` · KB-118, L-52 · replies to PROME (L429 + VECTOR-3 falsifier) and DAEDALUS (PR6).
 >
-> **⏳ STILL OWED:** ① **Will's ruling on the silver/PGM bands** (OPEN_ITEMS 25). ② **NEXUS_BRIEF.md 72,126 B → <22,785 B** (PROME 9/24): rotate or decline by name at closeout. ③ Roll `PLV26`→`PLF27` when volume crosses. ④ The 9/30 triple. ⑤ M1 successor (register the beta). ⑥ Wire `cot_metals.py` as a boot leg: deliberately NOT done yet; needs a consumed-vintages ledger per metal first.
+> **▶ CLOSEOUT 2026-09-25 ~11:44 ET:** NEXUS_BRIEF re-based **72,126 → ~7 KB**; the old brief is verbatim at `analysis/NEXUS_BRIEF_ARCHIVE_2026-09.md`, and its live obligations are carried in the "STANDING ROWS" table · VX M1/M2/I2/M1-POS refreshed · cadence **WEEKLY** declared + 12 WATCH_FOR phrases to PROME (WQ-295) · consumer check on the beta: 12 🟠 candidates, 0 🔴 (PROME HEARTBEAT quotes the dated 9/11 −0.186, and PROME has the −0.1551 packet).
+>
+> **⏳ STILL OWED:** ① **Will's ruling on the silver/PGM bands** (OPEN_ITEMS 25). ② ~~NEXUS_BRIEF rotation~~ DONE 9/25. ③ Roll `PLV26`→`PLF27` when volume crosses. ④ The 9/30 triple. ⑤ M1 successor (register the beta). ⑥ Wire `cot_metals.py` as a boot leg: deliberately NOT done yet; needs a consumed-vintages ledger per metal first.
 
 > ⛔ **SPAWNED SESSION 2026-09-11 ~00:3x–01:5x ET (Fri). PROME, DOCKET L327 (Will's five-vector list, 00:21 + 00:29 ET). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
 >
