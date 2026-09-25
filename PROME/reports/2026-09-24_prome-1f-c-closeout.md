@@ -16,3 +16,14 @@
 **Landed:** ACTIVE_DECISIONS byte-flow rotation (rows 33/35/38 → `PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-09-24.md`; plan, both blind reads and residue in `PROME/plans/2026-09-24_ad-rotation-PLAN.md`; file ~70.6% of budget — read the figure from `measure.py`; **over the <70% stop by under 200 B, closed** — next append re-trips, scope rows 35/38) · VIOLET packet consumed · NAR 3.98M verified at HOMER · `prome_gate.py:886` label · WQ-287 explainer + queue row (rec A) · WQ-289 registered.
 
 **Owed at next boot (9/25 morning, PROME's):** ~~WQ-289 word → push~~ (DONE at the tail, 23:37/23:38) · DOCKET L473 (the narrow-L367 encode) · VIOLET's RQ #8 delivery packet (arrived 23:4x, unconsumed) · the 9/25 spawn set (BRENT L329 · BROCK L420 · RED L416 · YURI L432/L434; BG-02 grades 17:00 ET) · `GATE-FLG-T08` pre-fire check · `flng_watch.py` · HEARTBEAT 9/25 amendment queue (SCRATCH, incl. the 77P one-cent-bid wording) · HANDOFF rotation to ≤5 entries.
+
+## § Tail receipt (2026-09-24 23:5x ET)
+
+| State | Result |
+|---|---|
+| **COMMITTED** | ✅ tail commit `c87769344` — 11 paths, intent ↔ commit exact; ARGUS `argus-1f-d` REVIEWED over 17 frozen paths (17 claims, 4 ❌ / 4 ⚠️ / 9 ✅ → all ❌ applied and re-checked → GO); `prome_gate closeout --tier standard` PASS (11 blocking / 21 advisory); `--verify-review --ref HEAD --paths` UNCHANGED. Plus this bookkeeping commit (baseline + this section + ORCH_LOG close row). |
+| **PUSHED** | ✅ `Pushed. CONFIRMED: HEAD c87769344 is on origin/master (fresh fetch).` — ancestry re-verified. |
+| **PUBLISHED** | ✅ **Decision Deck (Owed view)** republished at its existing private ruling artifact → **Version 43** (version id 1790308243-5522), `capabilities db` carried forward (the `rulings` store stays attached; stored contract 0.2.44 unchanged). ✅ **Decision reference** republished at its existing private URL → **Version 9** (version id 1790308245-0e14). Both generated at step 7 with `--owed-url`/`--reference-url` (link_mode hosted), reciprocal links present in the generated HTML; both live pages read in full this session before the republish (the guard's prerequisite). Helm / Fleet-Ops dashboard NOT republished (not authorized; hosted vintage 9/14). |
+
+**Declared residue (tail):** SCRATCH's second-leg paragraph rotated verbatim (CUT 5, crc self-recomputed 1380895141 / 2,346 B) AFTER ARGUS's re-check — ARGUS was told and had not replied at commit; its CUT 5 read, if it arrives, lands in the 9/25 boot record · HANDOFF:7 and :50 'no ruling' are the prior legs' own entries, not corrected tonight · WQ-249 spawn-inventory check UNKNOWN (standing advisory) · VIOLET's RQ #8 packet (23:4x) unconsumed → 9/25 drain · DOCKET L473 (the narrow-L367 encode) owed 9/25, needed-by 9/26.
+
