@@ -32,6 +32,11 @@
 - **My errors, caught before commit:** base rates first drawn from the wrong (monthly) sheet; a compromise rewrite that would have replaced BOND's co-signed rule — discarded unpublished.
 - **Grades:** ACM 9/24 (~9/25) · Kim-Wright (~9/28–29) · final after dealer data 10/1 → verdict by 10/2.
 
+## ADDENDUM 2026-09-25 03:09 EDT — Will's six questions (L477): HENRY led Q3, contributed Q2 and Q5
+- **Q3:** no FORUM-7 verdict changes any registered forecast, gate or position rule. It tells us which calendar can reverse the 10-year: Fed data, or Treasury supply. **The final verdict (10/1) lands after your TLT 77P expire (9/30).** BOND co-signed. **BOND's caveat, now DOCKET L478:** the 10/1 dealer-inventory print, not the verdict, is what could trigger BOND's duration exit rule. That rule does not say which maturity bucket counts, so if the buckets disagree it becomes your call.
+- **Q2:** 9/22–9/24 looks mostly like ordinary repricing. 9/24 was loop-shaped, and regional banks falling as yields rose is the one loop-like signal from another market.
+- **Q5:** Brent rose 7% while inflation expectations stayed flat, so the duration shorts are not an oil bet this week. The diesel trigger fits a refining-margin thesis better than the airline prediction.
+
 ## GAPS / Still pending
 - Nothing is owed on PROME's follow-up. The 9/25 items below were deliberately not displaced by it.
 
