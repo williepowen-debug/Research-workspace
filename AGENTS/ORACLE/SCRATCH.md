@@ -1,6 +1,14 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-09-24 (Thu) ~21:50 ET (2026-09-25T01:5xZ) · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: full update at Will's direction (*"We need to update"*).
+**Last updated:** 2026-09-25 (Fri) ~01:2x ET (05:1xZ) · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Sessions: 9/24 evening full update (below) **+ late boot 9/24 23:38 ET → 9/25 closeout at PROME's ask (WQ-249)**.
+
+## LATE SESSION (9/24 23:38 ET → 9/25 ~01:2x ET) — no re-pull, market levels unchanged
+
+1. **Boot:** 0 behind origin; PROME + VIOLET dirty, so no pull. Corrections rc=0; Kalshi rc=0; inbox empty.
+2. **KXRECSSNBER-26 rules read (4th-carry item, closed):** no NBER leg, GDP rule only. KB-ORC-099; 096 CORRECTED; watchlist relabelled; packet → RED `89363b3b7` (on origin, UNCONSUMED; RED on PROME's 9/25 L416 spawn set). Commits `101b762c0`, `89363b3b7`.
+3. **PROME item 4 (Will-directed 01:01 ET):** Oct-hike aligned with HENRY in expected bp at 15:00 ET 9/24: futures +18.0 / PM +16.5 / Kalshi +16.1–16.6bp; P(hike) + event basis unmatchable → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`, KB-ORC-100 (097 SUPERSEDED). Recession rows flagged different-definition (STATUS, TRADE). Reply → PROME/inbox. Commits `c3695ad88`, `10dd58929`.
+4. **Auto-memory extended:** `finding_instrument_reports_clean_against_the_wrong_reference` (15th instance: ticker ≠ resolution rule). HOT, so no promotion flag owed.
+5. **Ledger nudge (5 behind):** no pull this session, so ODDS_LOG/KALSHI/SPREAD/VX/TRADE_MARKS were not refreshed by design. TRADE_MARKS (7 behind) stays on the NEXT list.
 
 ## CHANGES SINCE LAST SESSION (9/24 afternoon drain → 9/24 evening)
 
@@ -39,7 +47,7 @@
 
 ## CARRY-FORWARD
 
-- **9/25 ~01:0x ET, PROME item 4 (Will-directed):** Oct-hike alignment with HENRY done → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`; reply `PROME/inbox/2026-09-25_from-ORACLE_item-4-COMPLETION-…`. RED correction packet delivered, **unconsumed** (RED dark since 9/18). Staying live until PROME asks for closeout.
+- **9/25 ~01:0x ET, PROME item 4 (Will-directed):** Oct-hike alignment with HENRY done → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`; reply `PROME/inbox/2026-09-25_from-ORACLE_item-4-COMPLETION-…`. RED correction packet delivered, **unconsumed** (RED dark since 9/18). Staying live until PROME asks for closeout. **PROME (prome-fa msg, ~01:2x ET) read the reply:** nothing further owed; RED is on PROME's 9/25 L416 spawn set (whole-inbox drain), so ORACLE owes no separate RED touch.
 
 - **Push state (9/24 evening):** `e6a46f4db` (update) and `e89abef2c` (deeper pass) both PUSHED — safe-push CONFIRMED on origin/master. The closeout commit (NEXUS stamp, SCRATCH, auto-memory extension) is pushed at closeout; receipt in the message to Will. Nothing unpushed carried.
 - **Auto-memory extended:** `finding_truncation_returns_a_plausible_answer_not_an_error` (+ Gamma 100-row cap instance). HOT tier, so no promotion flag is owed.

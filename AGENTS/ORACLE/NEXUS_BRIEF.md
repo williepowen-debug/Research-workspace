@@ -1,6 +1,6 @@
 # ORACLE — NEXUS Brief
 
-**As of:** 2026-09-25T01:35–01:48Z (**2026-09-24 21:35–21:48 ET**) — full update, both venues | **STATUS commit:** `e89abef2c` (+ closeout commit carries no STATUS change) | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
+**As of:** market levels 2026-09-25T01:35–01:48Z (**2026-09-24 21:35–21:48 ET**, full update, both venues) · **amended 2026-09-25 ~01:2x ET**: KXRECSSNBER-26 rules read (no NBER leg, KB-ORC-099) + Oct-hike aligned with HENRY in expected bp (KB-ORC-100) — no re-pull | **STATUS commit:** `c3695ad88` | **Box:** DESKTOP, authed Kalshi lane LIVE (rc=0).
 **Status:** 🔴 — rates and Fed repricing hawkish; Iran theater got more complicated, not calmer.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi) — crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No new gate registered.
