@@ -8,6 +8,39 @@
 >
 > ✅ **Iran anchor: FULL sweep DONE 17:3xZ (`-010`).** Rubio named **Kataib Hezbollah** for Petroline (9/22). Hormuz hits 9/18, 9/20, 9/21, and 9/23 (a hull adrift and on fire), **no sinking**. Houthi missiles fired at Riyadh and Yanbu were **intercepted per the coalition**. Diplomacy mediated only. **Limit: UKMTO primaries unread.** ✅ **BRENT's BG-02 window (9/25 17:00 ET) was doorbelled; PROME will spawn BRENT tomorrow morning.** ✅ **CATO W1 consumer half CLOSED: HAWK revised its rule.** ✅ **WALTER's own 9/17 `-011` mechanism is WITHDRAWN** (`-004`, originator LIQUID, verified at FRED's series notes) — the "provisional T5YIFR" cells this file carried on 9/19 and 9/21 were wrong.
 
+## LAST_COMPLETION rotation 2026-09-25 ③ (`walter-9c`) — verbatim block, 3384 B, crc32 9dc88907
+
+## RESULT
+
+1. 🔴 **Boundary #8 (Brent 3:2:1 > $50, IMMEDIATE) had fired unseen.** On matched NOVEMBER it has been above every session since 9/15 (52.29 → 57.64 → 54.24 intraday). On DECEMBER it has held 3 sessions (≈$0.7–1.4 over, inside vendor-bar noise). **JANUARY is below.** Zero of the move is roll (named contracts). Dispatched ~7 sessions late to BRENT (ACTION). **The month basis is Will's, pending since 9/14, and it decides the grade.**
+2. **Iran anchor: a PARTIAL (AM, `-002`), then the FULL sweep (PM, `-010`: Rubio names Kataib Hezbollah; Hormuz hits every 1–2 days, no sinking; ADD#26 guard written).** AM partial: Petroline **RESTART REPORTED 9/22** (Reuters, 3 unnamed sources, Aramco silent; **not a BG-02 R1**) · UNGA talks 9/22 **MEDIATED** · Fars 9/24 Indian-Ocean threat (unnamed official). No sinking, mine, strike on Iranian territory, or FM declaration found. **(Discharged by the PM full sweep.)**
+3. **Catch-up for the dark window:** US diesel export ban floated 9/22–9/23 (`-003`, no decision found, walk-back unverified) · 10Y 5.11% on 9/23, highest since 2007 (`-008`).
+4. **Correction `-004`:** the `-0917-011` "provisional derived FRED cell" mechanism is WITHDRAWN, verified at FRED's T5YIFR series notes. WALTER's own STATUS repeats of it were removed.
+5. **Late: BOND's reply to `-008` (read whole, verified at Treasury's par/real curve CSVs) → `-009` CORRECTION to REGINALD (ACTION; COR-20260924-09):** the 9/23 move is confirmed and was **real-yield-led** (10Y real 2.63→2.76, breakeven ~+2bp). **Cause weakened:** 5Y auction confirmed (BOND), flash-PMI secondary only, **Gov. Barr unverified**. BOND fired two of its own rows; Will had already declined the add (WQ-280).
+6. **Lane + Will's image:** Credit Acceptance $694M 41-state settlement (`-005`, primary AG releases from 9/18) · SoftBank record ~$11.1B junk bond (`-006`) · negative-beta record chart (`-007`, originator unnamed). **4 kills** with reasons.
+7. **INDEPENDENT REVIEW of this session's own work (Opus, read-only, at Will's direction):** 13 findings, 4 HIGH, **each re-verified by WALTER at the source before acceptance.** Five corrections dispatched:
+   - `-011`: the White House DENIED the diesel ban on the record.
+   - `-012`: SoftBank's final pricing was 8.625 / 9.25 / 9.75%, plus two euro tranches; `-006` had carried the price talk.
+   - `-013`: the Credit Acceptance forward terms were mis-scoped.
+   - `-014`: Evercore's count does not corroborate the negative-beta chart.
+   - `-015`: HANS-T-15 leg (a), not (b); AL MARYAH 9/20 sourced to India's maritime directorate; the missiles were intercepted, not landed; the Brent price cause is unsourced.
+
+   **Clean on the reviewer's recompute:**
+   - the -001 crack table (to the cent);
+   - the -009 Treasury table (exact);
+   - -004's 5y5y;
+   - all 36 handoffs at review time vs delivery_log, 1:1;
+   - every stamp earlier than its commit;
+   - the verbatim rotations.
+
+   **Minor, noted and not dispatched:**
+   - -008's "5Y reached 5.00%": Treasury par is 4.99, and -009 has it right.
+   - The BRENT handoff for -001 dropped the `contract: UNKNOWN` caveat on BZX26.
+   - -005/-006/-007 and four kill rows share one clock read (17:16:46Z), earlier than their commit.
+
+⛔ **No WALTER-scanned registered trigger changed state apart from boundary #8's crossing. No mark, band or score moved. $0.**
+
+
 ## LAST_COMPLETION rotation 2026-09-25 ② (`walter-9c`) — verbatim block, 2031 B, crc32 5be16217
 
 ## BOOT LEG — 2026-09-24 20:34Z, after /clear (Will via Telegram: "please boot up"), same `walter-f9` session name

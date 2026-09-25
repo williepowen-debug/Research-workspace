@@ -40,35 +40,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 **BOARD 1017 → 1032:** `SIG-W-20260924-001` … `-015` (`-011`…`-015` are corrections from an independent review of this session's work) · `BOARD/INDEX.md` regenerated · `route_log` **+15** · `delivery_log` **+54** · **54 handoffs** to BRENT, HENRY, REGINALD, FALCON, HANS, HAWK, SAM, OSPREY, RED, BOND, LIQUID, CARL, OTTO, VULCAN, BROCK, VIOLET · `kill_log` **+4** · `DOORBELL_LOG` **+19** (1 YES) · `CORRECTIONS.tsv` **+7 named rows** (COR-20260924-04 RED · -09 REGINALD · -11 BRENT · -12 LIQUID · -13 CARL · -14 HENRY · -15 FALCON+HANS) · backward marker on `-0917-011` · `BATCH_MANIFEST` BM-20260924-01 **CLOSED 7/7** · `intake_seen.json` marked · inbox 4 → `processed/` + `.consumed.tsv` ×4 · anchor lead re-stamped twice (originals VERBATIM in HISTORY § "Rotated 2026-09-24" and "Rotated 2026-09-24 ②") · guard **ADD#26** · backward markers on `-001`/`-002`/`-003`/`-005`/`-006`/`-007`/`-008`/`-010` · `REGISTRY.tsv` 12 rows (11 desks + WALTER's own) · STATUS regenerated (the 9/21 block went VERBATIM to `SESSION_LOG.md`) · MEMORY finding #27 · **7d (late arrival 13:21 ET): DEWEY CARL-DR-5 handoff → ledger row created RESOLVED, CARL stub verified landed and consumed, handoff `git mv`'d to `processed/`.**
 
-## RESULT
-
-1. 🔴 **Boundary #8 (Brent 3:2:1 > $50, IMMEDIATE) had fired unseen.** On matched NOVEMBER it has been above every session since 9/15 (52.29 → 57.64 → 54.24 intraday). On DECEMBER it has held 3 sessions (≈$0.7–1.4 over, inside vendor-bar noise). **JANUARY is below.** Zero of the move is roll (named contracts). Dispatched ~7 sessions late to BRENT (ACTION). **The month basis is Will's, pending since 9/14, and it decides the grade.**
-2. **Iran anchor: a PARTIAL (AM, `-002`), then the FULL sweep (PM, `-010`: Rubio names Kataib Hezbollah; Hormuz hits every 1–2 days, no sinking; ADD#26 guard written).** AM partial: Petroline **RESTART REPORTED 9/22** (Reuters, 3 unnamed sources, Aramco silent; **not a BG-02 R1**) · UNGA talks 9/22 **MEDIATED** · Fars 9/24 Indian-Ocean threat (unnamed official). No sinking, mine, strike on Iranian territory, or FM declaration found. **(Discharged by the PM full sweep.)**
-3. **Catch-up for the dark window:** US diesel export ban floated 9/22–9/23 (`-003`, no decision found, walk-back unverified) · 10Y 5.11% on 9/23, highest since 2007 (`-008`).
-4. **Correction `-004`:** the `-0917-011` "provisional derived FRED cell" mechanism is WITHDRAWN, verified at FRED's T5YIFR series notes. WALTER's own STATUS repeats of it were removed.
-5. **Late: BOND's reply to `-008` (read whole, verified at Treasury's par/real curve CSVs) → `-009` CORRECTION to REGINALD (ACTION; COR-20260924-09):** the 9/23 move is confirmed and was **real-yield-led** (10Y real 2.63→2.76, breakeven ~+2bp). **Cause weakened:** 5Y auction confirmed (BOND), flash-PMI secondary only, **Gov. Barr unverified**. BOND fired two of its own rows; Will had already declined the add (WQ-280).
-6. **Lane + Will's image:** Credit Acceptance $694M 41-state settlement (`-005`, primary AG releases from 9/18) · SoftBank record ~$11.1B junk bond (`-006`) · negative-beta record chart (`-007`, originator unnamed). **4 kills** with reasons.
-7. **INDEPENDENT REVIEW of this session's own work (Opus, read-only, at Will's direction):** 13 findings, 4 HIGH, **each re-verified by WALTER at the source before acceptance.** Five corrections dispatched:
-   - `-011`: the White House DENIED the diesel ban on the record.
-   - `-012`: SoftBank's final pricing was 8.625 / 9.25 / 9.75%, plus two euro tranches; `-006` had carried the price talk.
-   - `-013`: the Credit Acceptance forward terms were mis-scoped.
-   - `-014`: Evercore's count does not corroborate the negative-beta chart.
-   - `-015`: HANS-T-15 leg (a), not (b); AL MARYAH 9/20 sourced to India's maritime directorate; the missiles were intercepted, not landed; the Brent price cause is unsourced.
-
-   **Clean on the reviewer's recompute:**
-   - the -001 crack table (to the cent);
-   - the -009 Treasury table (exact);
-   - -004's 5y5y;
-   - all 36 handoffs at review time vs delivery_log, 1:1;
-   - every stamp earlier than its commit;
-   - the verbatim rotations.
-
-   **Minor, noted and not dispatched:**
-   - -008's "5Y reached 5.00%": Treasury par is 4.99, and -009 has it right.
-   - The BRENT handoff for -001 dropped the `contract: UNKNOWN` caveat on BZX26.
-   - -005/-006/-007 and four kill rows share one clock read (17:16:46Z), earlier than their commit.
-
-⛔ **No WALTER-scanned registered trigger changed state apart from boundary #8's crossing. No mark, band or score moved. $0.**
+## RESULT (9/24 session) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25 ③" (3384 B, crc32 9dc88907). Its open items are carried in FOLLOW-UP / OPEN DESIGN DECISIONS.
 
 ## GAPS
 
@@ -89,7 +61,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 
 ## FOLLOW-UP
 
-1. ✅ **Iran FULL sweep DONE 9/24 17:3xZ (`SIG-W-20260924-010`; next ~10/01).** Limits: UKMTO primaries unread (403); the 9/23 vessel is unnamed; transit vendors disagree by an order of magnitude; no fresh war-risk quote. New guard **ADD#26**. `-002` back-marked (its 9/21 LPG line was wrong on date). **Watch the 9/23 hull that is adrift and on fire: if it sinks, check which sea before which gate.**
+1. ✅ **Iran FULL sweep DONE 9/24 17:3xZ (`SIG-W-20260924-010`; next ~10/01).** Limits: UKMTO primaries unread (403); the 9/23 vessel is unnamed; transit vendors disagree by an order of magnitude; no fresh war-risk quote. New guard **ADD#26**. `-002` back-marked (its 9/21 LPG line was wrong on date). **Watch the 9/23 hull that is adrift and on fire: if it sinks, check which sea before which gate.** 🆕 **At the ~10/01 sweep, reconcile the 8/28 headlines "Hormuz reopens" / "US forces clear Iranian sea mines; shipping reopens" (FOX 10, Economic Times). They are NOT in the anchor; write a guard if they turn out real-then-reversed, since they are a live date trap.**
 2. 🔴 **(9/24 later leg: computed; Nov fell below 50 into the settle, `-016`.)** **Scanner leg for boundary #6/#8** — see OPEN DESIGN DECISION (j). Until one exists, **compute the matched Nov/Dec/Jan 3:2:1 and the gasoline crack at every 6c** (recipe in `-001`: yfinance named contracts `BZ/RB/HO` + `X26/Z26/F27`).
 3. ✅ **DONE 9/25 (BRENT grade → `-002`).** **Grade the #8 dispatch's outcome:** BRENT spawns 9/25 AM (PROME receipt), grades BG-02 at 17:00 ET, and settles #8 on a settlement source. **Check at next boot: did BRENT confirm or un-fire December?**
 4. **(F3 ✅ FIXED v0.49, 9/24. F1/F2 STILL OWED as a proposal to Will. F4 is an observation.)** **HAWK's four v0.47 verdict-table flags (F1–F4)** are WALTER's to fix in CHECKLIST: per-primary vs per-claim exclusivity · no rule for conflicting primaries · INDETERMINATE row vs note = two live instructions · covered vs uncovered absence share a label. **A spec change under RULE 8.** F3 is an inline clarification; F1/F2 are structural and go to Will as a proposal.
@@ -112,7 +84,7 @@ Boot **PARTIAL**, gaps named. **Run:** 0 pull (up to date) · 0.5 doctor (**0 HI
 21. ✅ **DONE ~13:5xZ: WATT's push carried the train; reconcile flipped 19 → delivered** (the "20" was a miscount; the true count is 19). Commits made after `7b1029fa5` are local until the next push.
 22. ✅ **(9/25) Staleness #5 DONE:** 8 DOORBELL_LOG rows back-filled from owner `board_log.tsv`s; all consumed by their referent except **L22 = MISS (letter), cause PRE-DISPATCH** (WALTER's 4-day lag). 🆕 **Owed: a `walter_doctor` step reading `consumed_at` from recipients' `board_log.tsv`** (DAEDALUS rec). P2 FP-rate proposal still carried.
 23. ✅ **DONE (9/25) PJM intake term: PROPOSED (`04de1dac6`), CONFIRMED by WATT (`72e14592b`), 3 extra candidates TESTED clean, ENCODED by PROME in RESEARCH-INTAKE `ff21407`.** Verified by WALTER at the lane: 14 terms, exact match; both missed 9/16–18 headlines now classify NEW_WATCH_HIT; an ordinary PJM headline stays NEW. DOCKET 10/02 half (a) DONE; the DAEDALUS census half stays open. **Watch: if `DOE emergency order PJM` pages on a plant must-run order, drop it first.** WATT confirms 9/1–3 is in its count (caught live); **that miss was WALTER-side routing only.** Root cause: the lane caught the 9/16–18 PJM emergency, but `WATCH_FOR["WATT"]` does not exist, so the items classed as plain NEW and never reached `intake_scan`. New BOARD rule declined (POWER_GRID row + RULE 13 already cover it). Also: WALTER never routed the **9/1–9/3** PJM emergency either; that is WATT's to count. 14/22 query-agents have no WATCH_FOR (census to DAEDALUS via PROME). READS row 153 wording sent (recommend retire). **FOLLOW-UP #18 is thereby discharged to PROME.**
-24. 🆕 **(9/25) WQ-295 R3: WALTER = the harness (`tools/watch_for_harness.py`, now with `--live`).** Clean-to-land: WATT 22 landed · BRENT 12 landed · MIDAS 11 landed + PGM query PASS · HANS 10 (no lane query) · HAWK 8 (4 rejected live) · Aramco-OSP query landed. ⛔ **WALTER ERROR, corrected (`513e3f1d0`): 4 landed VULCAN phrases passed lane-only failed live (76/77/2/6 false); removal asked of PROME, replacements to VULCAN.** Cadence: DAILY.
+24. 🆕 **(9/25) WQ-295 R3: WALTER = the harness (`tools/watch_for_harness.py --live`).** Lane after today: WATT 21 · VULCAN final 11 · HANS 10 (no query) · BRENT 9 (Hormuz off-ramp has NO clean phrase) · MIDAS 11 · HAWK 8 · queries aramco-osp + pgm. ⛔ **The lane-only method passed 12 phrases that live headlines then failed; all were removed.** The R3 corpus clause is in the WQ-295 record. Matcher: stay substring (suffix-aware boundary measured: 1 byline false, 0 true lost).
 9. **Watch:** **9/25** BG-02 17:00 ET · Baker Hughes (BRT-26) · **9/26** FSB Narva · **9/22–29** UNGA · **9/30** Russia diesel ban expiry (HEN-46 F3) · Brent Nov expiry ~9/30–10/01 · Iraq pullout · the standing size-check block · **10/01** NYC rent freeze effective.
 
 ## OPEN DESIGN DECISIONS
