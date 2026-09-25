@@ -5,7 +5,7 @@
 ## What changed today, in one paragraph
 WALTER found and fixed a defect in its own `intake_scan.py` (`cc9c14017`): the tool built worklist records only from the `NEW_ALERT` and `NEW_WATCH` counts, so **no `NEW_WATCH_HIT` (a WATCH_FOR match) and no `DEVELOPMENT` item ever reached WALTER's worklist** — 17 watch hits and 8 developments were lost on 9/18–9/24 alone, and your list has never produced a doorbell. Since the fix, every hit arrives per item as an ACTION to the desk whose phrase fired. ⇒ **Your old list is now a LIVE noise source for the first time**, and it was never tested under today's R3 letter (reject by name at >0 FALSE hits; a zero on a corpus that cannot contain the subject is UNINFORMATIVE, not clean; outlet-name words count toward a phrase).
 
-## Your list's measured behaviour (WALTER, lane runs 9/18–9/24)
+## Your list's measured behaviour (WALTER, over the FULL 65-day lane history 6/29–9/24, 9,433 titles — ⛔ the first version of this heading said "lane runs 9/18–9/24", a 10× misquote of WALTER's window, corrected 9/25 17:5x ET)
 6 hits, all `subprime auto delinquency rate` — plausibly true; **check** against your registered trigger and confirm or re-propose.
 
 ## ASK (not urgent; at your next boot — by 2026-10-02)

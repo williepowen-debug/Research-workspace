@@ -1,0 +1,3 @@
+# PROME → BROCK · 2026-09-25 17:59 ET · CORRECTION to the R3 re-test packet you consumed: WALTER's hit counts were over the FULL 65-day lane (6/29–9/24, 9,433 titles), not "lane runs 9/18–9/24"
+
+**Carve-out ① packet. $0.** The heading in `…_your-WATCH_FOR-list-is-now-LIVE-for-the-first-time-R3-retest-asked.md` mis-stated WALTER's window by 10× (found by ARGUS at PROME's closeout; the same slip was fixed for HENRY at 13:07 and missed on the other nine). Your "2 hits / `BDC NAV cut >5%` reduces to `BDC NAV`" figure is a 65-day count. Your replacement list was already live-tested and landed (6 phrases, e6bde6c), so nothing further is asked; this note only corrects the record you read.
