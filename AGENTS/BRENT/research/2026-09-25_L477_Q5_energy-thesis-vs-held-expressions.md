@@ -1,6 +1,6 @@
 # Q5 — Does the energy thesis still support each held expression? (BRENT lead · DOCKET L477)
 
-**Written:** 2026-09-25 03:00–03:07 ET by BRENT (spawned by prome-fa on Will's 02:55 ET word *"Please direct agents to investigate these"*). **Co-legs:** HENRY crack/rates, content of record `AGENTS/HENRY/research/2026-09-25_L477_Q2-Q5-HENRY-legs.md` §Q5 (`0d8616964`), cited not restated · TERRY exposure leg, asked via terry-fa at 03:0x ET (state at delivery in § Gaps).
+**Written:** 2026-09-25 03:00–03:07 ET by BRENT (spawned by prome-fa on Will's 02:55 ET word *"Please direct agents to investigate these"*). **Co-legs:** HENRY crack/rates, content of record `AGENTS/HENRY/research/2026-09-25_L477_Q2-Q5-HENRY-legs.md` §Q5 (`0d8616964`), cited not restated · TERRY exposure leg, received 03:09 ET (`b93800740`; § Gaps).
 **Constraints honoured:** only existing instruments; ⛔ no new threshold; ⛔ no trade line (a management change is a TERRY card under root rule #5).
 **Position basis:** FORGE mirror `FORGE/STATUS.md` — quantities from the 9/16 13:57 ET visual capture; VLO from the 9/18 fill receipt (account unknown, D-55); marks from 9/10. ⚠️ **WQ-274: not transaction-reconciled.** The conclusions below are about MECHANISM and do not depend on quantities. **The claim that each line is still HELD does depend on the reconciliation.**
 **Prices:** yfinance daily closes (single vendor), pulled 03:0x ET 9/25. For futures the daily close matches the 14:15–14:30 ET 15-min bar to within $0.08 on 9/23 and 9/24, so it is a settle proxy, not an exchange settlement.
@@ -46,8 +46,8 @@
 - **Thesis (BRENT's, carried on the card §8):** *"distillate crack rolls over hard; refiner runs destroyed by higher crude or demand destruction."* ⚠️ **This is prose with no number attached.**
 - **Staging filter `GATE-TERRY-VLO-SCALE` F1:** ULSD crack settlement below $95 on matched November HOX26×42 − CLX26, November fixed through 10/14 (WQ-252 interim). On 9/24 the settle proxy reads **$95.57**. **Not fired. CME grade owed after today's close** (HENRY/TERRY).
 - **HEN-46 F1, the same instrument:** below $95 = stand down; **below $90.16 = thesis dead** (HENRY's airline-short row; the crack is the shared driver).
-- **Construction (TERRY's, card §8):** the refiner-vs-XLE 30-day spread compresses toward zero while distillate holds. It reads **+9.8pp** on 9/24 (VLO +10.65% vs XLE +0.87%, 21 sessions, yfinance closes). ⇒ **not invalidated.** The spread still says the market prices VLO as a margin story and not as oil beta.
-- VLO $382.86 (9/24 close) against the $412.00 fill = −7.1%. Not a rule, recorded for scale.
+- **Construction (TERRY's, card §8):** the refiner-vs-XLE 30-day spread compresses toward zero while distillate holds. It reads **+9.8pp** on 9/24 (VLO +10.65% vs XLE +0.87%, 21 sessions, yfinance closes) ⇒ **not invalidated on its letter.** ⚠️ **Corrected 03:09 ET after TERRY's leg: that spread does NOT show VLO trading as a margin story right now.** From 9/23 to 9/24 VLO rose **+1.9%** (375.84 → 382.86) with USO **+2.9%**, while the Nov ULSD crack fell **$6.88**. TERRY's rule-#23 driver read agrees: since 9/23 VLO has moved with crude, not with the crack, and it runs at corr **+0.51** with USO over 120 sessions.
+- VLO $382.86 (9/24 close) against the $412.00 fill = −7.1%. Not a rule, recorded for scale. (The vendor has no 9/22 VLO bar.)
 
 **What a staging STAND-DOWN would say about the share already held.** The held share and the staged shares are the **same bet** (the distillate crack) bought under **different entry rules**:
 - The held share filled 9/18 at $412.00 under WQ-213's condition: a day the refiners were red against oil. **There was no crack filter.**
@@ -60,17 +60,23 @@
 **Mechanism (as originally expressed):** an oil shock lifts inflation expectations and term premium, so long duration falls.
 **Measured now (HENRY, `0d8616964`):** Brent +7.0% from 9/22 to 9/24 with **T10YIE flat at 2.33**. ⇒ **The short is running on real rates and term premium, not on oil.** Energy is not its current driver.
 **Decoupling:** a growth scare drives real yields down (DFII10 falling) while breakevens rise and Brent holds. The existing gate that would register it is the NEXUS `GATE-NEXUS-T12S-DFII10` DOWN band (≤ anchor − 0.10 on 5 published cells).
-**Own invalidation:** BOND THESIS §2 (10Y < 4.15 AND 30Y < 5.0 ×3 AND a clean refunding), HENRY's reading, far away. For the TLT $77P Sep-30 ×20 (FORGE D-31, 9/10 vintage): `GATE-TERRY-007` (five sub-4.50 official 10Y closes), expiring 9/30. Held status is unreconciled (WQ-274).
+**Own invalidation:** BOND THESIS §2 (10Y < 4.15 AND 30Y < 5.0 ×3 AND a clean refunding), HENRY's reading, far away. **Per line (TERRY, `b93800740`):**
+- **TLT $77P Sep-30 ×20** (TRY-FIRE-004): HOLD to the 9/30 expiry (WQ-168④/WQ-217), harvest ≥ $0.3469, no add (WQ-280). ⚠️ **Corrected: its thesis exit `GATE-TERRY-007` RESOLVED MOOT on 9/24, so the expiry is its only live end.**
+- **TLT $82P Oct-16 ×2:** no card, no rule.
+- **TBT 10 sh:** no card, no rule.
+- Held status is unreconciled (WQ-274).
 
 ## Book-level read (energy lens only — Q1's map is TERRY/PROME)
 
-- **The three lines do not respond to the same thing today.** USO rises with crude. VLO fell this week because crude rose. The duration shorts are indifferent to oil.
-- So the book is **not three copies of one Mideast bet at the mechanism level**. The refiner line is currently **a partial hedge against the crude line, not an amplifier**. That diversification is working as TERRY's card intended, but it is working through the refiner's thesis weakening, not through the refiner's thesis succeeding.
+- **The three MECHANISMS respond to different things today.** Crude drives USO. The crack drives VLO's thesis, and the crack fell as crude rose. The duration shorts run on real rates, not oil.
+- ⛔ **CORRECTED 03:09 ET (TERRY's measurement refutes my first draft, which called the refiner line "a partial hedge against the crude line"):** the MECHANISMS differ, but the PRICES do not diverge. VLO the equity moved with crude, **+0.51 correlation to USO over 120 sessions** (TERRY).
+  - On TERRY's oil-down/yields-down days (4/1–9/24: USO/TLT daily-return corr −0.55; TLT up on 39 of 56 oil-down days), **USO, VLO, TBT and every put lose together; only GLD and AAPL offset.**
+  - ⇒ At the price level the book **is** largely one bet. The refiner's own thesis (the crack) is weakening underneath a share that trades as oil beta. That is the construction-invalidation shape TERRY's card §8 names (*"correlated oil beta wearing a different ticker"*), even though its XLE-spread letter has not fired.
 - **Dates on which each read changes:** 9/25 after the close → F1 CME grade (HENRY/TERRY) · 9/25 15:30 ET → COT #7 · 9/25 BH → BRT-26 final September print · 9/25 17:00 ET → BG-02 lapse/grade · 9/29 → last BZX26 settle before expiry (Brent-leg basis ends 9/30; WQ-252 sitting 10/06) · 9/30 → TLT $77P expiry, Russia diesel-ban decision date (HEN-46 F3 clock) · 10/04 → OPEC+ November decision.
 
 ## Gaps
 
-- **TERRY exposure leg:** asked at 03:0x ET. Its state at delivery is recorded in the PROME memo. Card paths above were read by BRENT directly.
+- **TERRY exposure leg:** RECEIVED 03:09 ET. Content of record: `AGENTS/TERRY/STATUS.md` 2026-09-25 block (`b93800740`) + `AGENTS/TERRY/research/2026-09-25_Q1_book-exposure-map.md`. Its figures are cited above, not re-derived. TERRY also did not accept the finalized 9/24 row at $95.57: it sits $0.21 from the $95.36 settlement-window estimate, outside the $0.15 acceptance band, and the vendor duplicated its volume. F1 NOT FIRED on either basis.
 - **No CME settlement.** Every futures figure here is a single-vendor settle proxy. F1 and boundary #8 grade on exchange settlement where the letter says so.
 - **USO and the held VLO share have no numeric exit.** This is named, not filled. Filling it would be a card for Will.
 
