@@ -2,24 +2,24 @@
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
-  "Energy": "crit",
-  "Equity-vol": "elev",
-  "Japan / carry": "crit",
+  "Energy": "elev",
+  "Equity-vol": "watch",
+  "Japan / carry": "elev",
   "Metals": "elev",
   "Rates": "crit",
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-09-25": "\ud83d\udfe0 **DID THE SUWA\u0141KI-GAP EXERCISE EQUIPMENT GO HOME?",
+  "2026-09-25": "\ud83d\udfe0 **TWO CODE PATHS THAT AGREE IN EVERY NORMAL RUN AND DIVERGE EXACTLY AT\u2026",
   "2026-09-26": "FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grade legs a/b/d\u2026",
   "2026-09-28": "ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure (successor to\u2026",
+  "2026-09-29": "HENRY BLIND VERDICT on BRT-12",
   "2026-09-30": "\ud83d\udd34 **L409 SCOPE WIDENED",
-  "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)",
-  "2026-10-02": "L126 10/2 READ"
+  "2026-10-01": "OZK $350M sub-notes reprice (2.75% \u2192 SOFR+209)"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
-  "GATE-BRK-R2": "LIVE",
+  "GATE-BRK-R2": "FIRED",
   "GATE-CORAL-MSI-01": "LIVE",
   "GATE-FALCON-001": "LIVE",
   "GATE-FERT-G3": "LIVE",
@@ -61,7 +61,8 @@
   "291": "\u2696\ufe0f WHICH FR2004 BUCKET COUNTS FOR THE SEPTEMBER-4 KILL'S DEALER-STOCK\u2026",
   "292": "\u2696\ufe0f TWO PUTS ARE NOW IN THE MONEY INTO OCT-16 WITH NO RULE THAT CONSID\u2026",
   "293": "\u2696\ufe0f RE-SCOPE THE L432 MOBILISATION-WINDOW PERIMETER SO THAT 'NOT DECID\u2026",
-  "294": "\u2696\ufe0f SPAWN HANS (5th desk spawn this boot, beyond the cap of 4) TO GRAD\u2026",
+  "295": "\u2696\ufe0f THE DARK-DESK CLASS \u2014 four rulings in one record (PROME/proposals/\u2026",
+  "296": "\u2696\ufe0f HAW-19 SUCCESSOR CANNOT BE REGISTERED AS APPROVED \u2014 pick A / B / C\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026"
  }
 }
