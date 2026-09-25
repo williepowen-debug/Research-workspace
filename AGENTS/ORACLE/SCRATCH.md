@@ -39,7 +39,8 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** this session's commit(s) → see `git log AGENTS/ORACLE/`; pushed via `scripts/safe-push.sh` at closeout (receipt line recorded in the closeout message to Will). PROME's `6f2c3a38a` rides out with it.
+- **Push state (9/24 evening):** `e6a46f4db` (update) and `e89abef2c` (deeper pass) both PUSHED — safe-push CONFIRMED on origin/master. The closeout commit (NEXUS stamp, SCRATCH, auto-memory extension) is pushed at closeout; receipt in the message to Will. Nothing unpushed carried.
+- **Auto-memory extended:** `finding_truncation_returns_a_plausible_answer_not_an_error` (+ Gamma 100-row cap instance). HOT tier, so no promotion flag is owed.
 - **Concurrent sessions live on this box** (PROME `prome-1f`, HENRY dirty at boot). Path-scoped commits only.
 - **Standing framing — do not re-derive:**
   - **Fed hiked 25bp to 3.75–4.00% on 2026-09-16** (Kalshi settle `result: yes`, 86.0¢ last; 12-0). KB-ORC-083.
