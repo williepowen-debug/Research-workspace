@@ -12,7 +12,7 @@
 
 | Row | Dated result and limit |
 |---|---|
-| RED-FT-01 / -12 (HY OAS) | **273 bp [FRED 9/23; still latest at 9/25 ~13:4xZ]**, up from 266 [9/21] / 268 [9/22]. FT-01 `<280 s3` FIRING-BANKED (still under 280). FT-12 `<260 s3` **13 bp away as of the 9/23 print**, AT THE EDGE of the 5% band and moving AWAY (was 8 bp on 9/18). FT-02 / REG-T-03 `>320` 47 bp away; REG-T-04 `>350` 77 bp |
+| RED-FT-01 / -12 (HY OAS) | 🔴 **280 bp [FRED 9/24, published 9/25]** (273 [9/23], 268 [9/22]). **AT the line:** FT-01 exit `≥280 s3` **day 1 of 3** (RED counts) · LIQUID X1 `>280` strict + conjunctive **NOT met** · LIQUID's watcher went zone-red 9/24 → Will-directed LIQUID+BROCK spawns (`-011`). FT-12 `<260` 20 bp · FT-02/REG-T-03 `>320` 40 bp · REG-T-04 `>350` 70 bp. CCC **1112 [9/24]** |
 | RED-FT-07 (CCC OAS) | **1093 bp [FRED 9/23]**; FIRING-BANKED; exit `<930 s3` not started |
 | RED-FT-06 (VIX) | **VIXCLS 14.21 [FRED 9/22, no 9/23 print yet]; `^VIX` 15.67 [9/24 close] / 15.18 [9/25 ~08:15 ET bar, Yahoo]**; FIRED-BANKED, exit `≥18 s5` at 0 |
 | RED-FT-10 (SKEW) | **146.04 [9/24, Yahoo mirror, PROVISIONAL]** (146.15 [9/23]). 🟡 NEAR-TRIGGER: 3.96 pts under `≥150`. CBOE is publisher of record; RED owns the count |
