@@ -74,7 +74,19 @@ def identify_cohort(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def forward_paths(df: pd.DataFrame, cohort: pd.DataFrame) -> pd.DataFrame:
-    """For each event, extract VIX/VIX3M-ratio/VVIX at T+0 through T+10."""
+    """For each event, extract VIX/VIX3M-ratio/VVIX at T+0 through T+10.
+
+    Reports TWO return clocks (corrected 2026-09-25 after PROME-relayed CATO
+    finding on the 2026-09-24 v1 study — SG1: the v1 baseline used T->T+k
+    while the v1 cohort used T-1->T+k, so the +12.4% at T+1 double-counted
+    the +8.9% event-day co-movement):
+
+    - vix_pct_vs_tm1  = 100 * (VIX[T+k]/VIX[T-1] - 1)    # event-inclusive
+    - vix_pct_vs_t0   = 100 * (VIX[T+k]/VIX[T]   - 1)    # post-event ONLY
+
+    The post-event clock is what compares against the unconditional
+    pct_change(k) baseline on matched windows.
+    """
     dates = df.index.tolist()
     date_to_pos = {d: i for i, d in enumerate(dates)}
     rows = []
@@ -83,9 +95,8 @@ def forward_paths(df: pd.DataFrame, cohort: pd.DataFrame) -> pd.DataFrame:
         p0 = date_to_pos[d0]
         if p0 - 1 < 0:
             continue
-        # T-1 baseline (session before the 2d window began = T-2 relative to T0)
-        d_baseline = dates[p0 - 1]
         vix_tm1 = df["^VIX"].iloc[p0 - 1]
+        vix_t0 = df["^VIX"].iloc[p0]
 
         for k in HORIZONS:
             p = p0 + k
@@ -106,6 +117,7 @@ def forward_paths(df: pd.DataFrame, cohort: pd.DataFrame) -> pd.DataFrame:
                     vix3m_over_vix=ratio,
                     vvix=vvix_val,
                     vix_pct_vs_tm1=(vix_val / vix_tm1 - 1) * 100 if pd.notna(vix_tm1) and vix_tm1 > 0 else float("nan"),
+                    vix_pct_vs_t0=(vix_val / vix_t0 - 1) * 100 if pd.notna(vix_t0) and vix_t0 > 0 else float("nan"),
                 )
             )
     return pd.DataFrame(rows)
@@ -135,7 +147,7 @@ def unconditional_baseline(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def cohort_summary(forward: pd.DataFrame) -> pd.DataFrame:
-    """Per-horizon cohort summary."""
+    """Per-horizon cohort summary. Reports BOTH return clocks."""
     rows = []
     for k in HORIZONS:
         sub = forward[forward["k"] == k]
@@ -145,9 +157,10 @@ def cohort_summary(forward: pd.DataFrame) -> pd.DataFrame:
                 k=k,
                 n_events=sub["event_date"].nunique(),
                 vix_median=sub["vix"].median(),
-                vix_pct_median=sub["vix_pct_vs_tm1"].median(),
-                vix_pct_p25=sub["vix_pct_vs_tm1"].quantile(0.25),
-                vix_pct_p75=sub["vix_pct_vs_tm1"].quantile(0.75),
+                vix_pct_vs_tm1_median=sub["vix_pct_vs_tm1"].median(),
+                vix_pct_vs_t0_median=sub["vix_pct_vs_t0"].median(),
+                vix_pct_vs_t0_p25=sub["vix_pct_vs_t0"].quantile(0.25),
+                vix_pct_vs_t0_p75=sub["vix_pct_vs_t0"].quantile(0.75),
                 ratio_median=sub["vix3m_over_vix"].median(),
                 ratio_below_110_pct=(sub["vix3m_over_vix"] < 1.10).mean() * 100,
                 vvix_median=sub["vvix"].median(),

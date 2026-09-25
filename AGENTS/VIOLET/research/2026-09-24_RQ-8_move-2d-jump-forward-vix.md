@@ -61,6 +61,38 @@ For comparison: median forward VIX change over ALL sessions in the same universe
 
 ---
 
+## §1a. Pre-registration defects discovered during execution (amendment, dated 2026-09-25 00:5x ET)
+
+*Written after PROME relayed a CATO peer-read (`AGENTS/CATO/runs/2026-09-24_2343_six-desk-context.md` §SG1/§SG2, commit `c93a66608`; PROME verified SG1 at my own saved CSVs before sending). §1 above stays verbatim per PROME's ask; this section names what §1 got wrong and what the re-cut §4-§6 reflect.*
+
+**Defect A — the metric line and the baseline line don't share a clock.**
+- §1 says the per-event metric is "percent change of each vs T-1 (session before the 2d window began)". The v1 implementation computed `VIX[T+k] / VIX[T-1] − 1` — a (k+1)-session return that INCLUDES the event-day co-movement.
+- §1 says the baseline is "median forward VIX change over ALL sessions in the same universe (matched for series availability)" — but does NOT specify the return clock. The v1 implementation used `pct_change(k)` = `VIX[T+k] / VIX[T] − 1` — a k-session return.
+- **Result:** the v1 cohort's T+1 +12.42% was compared against a T+1 baseline of −0.62% — different windows, not comparable. On matched T→T+k windows the two series are indistinguishable; details in the re-cut §4.
+- Class: `finding_verify_reader_before_source` — my own §1 language wasn't unambiguous, and the code diverged from one reading of it silently.
+
+**Defect B — PASS and FAIL rules can be simultaneously true, and §1 registers no precedence.**
+- PASS clause (a): VVIX>100 in ≥60% at T+5 AND VIX3M/VIX<1.10 in ≥60% at T+5.
+- FAIL: forward VIX <0.5σ separation vs unconditional at ANY T+1/3/5/10.
+- Even on the ORIGINAL (mis-windowed) numbers, T+3 was 0.30σ and T+10 was 0.17σ — both under 0.5σ, so FAIL was already met while (a) was passing. On the corrected matched-window numbers, FAIL is met at every horizon (see §4).
+- **Result:** the v1 §5 verdict "PASSES on the letter" was a selection of the favourable branch; a rigorous reading of §1 says the rules collided and no verdict was defined. The re-cut §5 discloses the collision and reports both branches separately without selecting one.
+- Class: `finding_gate_pass_is_not_evidence_it_found_the_best_reason` — the v1 §5 named a PASS route but did not test whether a FAIL route was simultaneously open.
+
+**Defect C — the study was commissioned by an event that its own cohort did not include.**
+- yfinance ^MOVE is **missing the 2026-09-22 bar entirely** — the series jumps 9/21 (81.20) → 9/23 (95.45) → 9/24 (104.58).
+- The v1 `identify_cohort()` therefore computed 9/24's `pct_change(2)` as 104.58/81.20 − 1 = 28.79% (below the 30% threshold), and 9/24 was omitted.
+- My VIOLET ledger (investing.com PRIMARY) carries 9/22 = 78.56. On that basis 9/24 is 104.58/78.56 − 1 = **33.11%**, and would qualify.
+- **Result:** the qualification of 9/24 is basis-dependent. The re-cut §3 discloses both; forward T+k cells for 9/24 don't exist yet regardless, so cohort statistics don't shift, but the report no longer claims coverage through 2026-09-24 without qualifying which source.
+- Class: `finding_negative_reachability_is_a_claim_about_your_request` — yfinance rewrote my request silently by not having the 9/22 bar; the cohort scan against the yfinance series returned "not a member" for the event that motivated the whole study.
+
+**Defect D — the low-starting-VIX subsegment stratification in the v1 §5 was NOT pre-registered.**
+- §1 registered a whole-cohort verdict and an INCONCLUSIVE-if-n<8 rule for the whole cohort. It did NOT register a "stratify by starting VIX" analysis.
+- The subsegment result in v1 §5 is EXPLORATORY. It is kept in the re-cut §5 with that label; it cannot be treated as a pre-registered finding.
+
+**Scope of the amendment:** §1 remains as written (that is the pre-registration record). §4-§6 below are re-cut on the matched-window analysis, with PASS/FAIL collision disclosed, 9/24 basis discrepancy disclosed, and the subsegment analysis labelled EXPLORATORY. The v1 §5 verdict "PASSES on the letter" is WITHDRAWN. The v1 KB row (KB-VIO-311) is being superseded by a corrected KB-VIO-312.
+
+---
+
 ## §2. Data pull
 
 `scripts/rq8_study.py` executed 2026-09-24 23:1x ET. yfinance history:
@@ -97,61 +129,108 @@ Every event maps to a known rates or credit stress episode:
 | 9 | 2023-03-13 | 129.28 | 140.06 | 173.59 | +34.3% | SVB failure |
 | 10 | 2026-03-20 | 81.25 | 84.88 | 108.84 | +34.0% | March 2026 stress episode |
 
-## §4. Forward-window results
+## §4. Forward-window results (re-cut on matched clocks — supersedes v1)
 
-### Whole-cohort summary (all 10 events)
+*The v1 table under this heading compared a (k+1)-session cohort return (T-1 → T+k) against a k-session unconditional return (T → T+k). §1a defect A. Both clocks are now reported side by side; the σ-separation is on matched T→T+k windows only.*
 
-| Horizon | n | median VIX | median VIX % vs T-1 | p25/p75 | median VIX3M/VIX | ratio<1.10 | median VVIX | VVIX>100 |
-|---|---:|---:|---:|---|---:|---:|---:|---:|
-| T+0 | 10 | 28.13 | +8.9% | 5.5 / 19.8 | 0.96 | 100% | 114.13 | 70% |
-| T+1 | 10 | 28.18 | +12.4% | 2.4 / 28.4 | 0.95 | 100% | 109.96 | 80% |
-| T+3 | 10 | 26.51 | +3.2% | −9.8 / 17.5 | 1.02 | 90% | 112.36 | 80% |
-| T+5 | 10 | 28.44 | +8.0% | −4.8 / 25.0 | 1.03 | 100% | 113.55 | 80% |
-| T+10 | 10 | 26.27 | +2.3% | −5.6 / 19.6 | 1.03 | 80% | 106.43 | 50% |
+### CONTEMPORANEOUS RESPONSE (T-1 → T event day)
 
-### Unconditional baseline (all 5,901 sessions)
+This is the event-day co-movement — MOVE spiked AND VIX moved on the same close. It is not a forward signal; it is what "MOVE 2d ≥30%" tautologically includes on the event day.
 
-| Horizon | n | median | p25/p75 | std |
+- **Cohort VIX % change T-1 → T0: median +8.91%** (p25 5.5% / p75 19.8%). By construction, unconditional day-to-day median VIX % change is close to 0.
+- This is the fact my pass-1 walk-back already established ("MOVE +21.5% & VIX +6.83% on 9/23; MOVE +9.55% & VIX +3.23% on 9/24 — same-day"). The re-cut §4 confirms it as a cohort median across 24 years.
+
+### POST-EVENT forward returns (T → T+k), matched clocks
+
+| Horizon | n | median VIX | cohort VIX %  vs T (matched) | p25 / p75 | vs T-1 (v1, retained for context) |
+|---|---:|---:|---:|---|---:|
+| T+0 | 10 | 28.13 | **0.00%** by construction | 0 / 0 | +8.91% |
+| T+1 | 10 | 28.18 | **−0.58%** | −3.5 / +16.4 | +12.42% |
+| T+3 | 10 | 26.51 | **−4.28%** | −13.6 / +3.2 | +3.22% |
+| T+5 | 10 | 28.44 | **−7.50%** | −11.1 / +16.3 | +7.95% |
+| T+10 | 10 | 26.27 | **−6.28%** | −16.1 / +24.0 | +2.33% |
+
+### Unconditional baseline (matched clock, all 5,901 sessions)
+
+| Horizon | n | median (T→T+k) | p25 / p75 | std |
 |---|---:|---:|---|---:|
 | T+1 | 5,900 | −0.62% | −3.97 / 3.41 | 7.79 |
 | T+3 | 5,898 | −0.68% | −6.47 / 5.96 | 12.88 |
 | T+5 | 5,896 | −0.94% | −7.91 / 7.33 | 16.08 |
 | T+10 | 5,891 | −1.32% | −10.16 / 9.26 | 20.90 |
 
-### Cohort vs unconditional, σ-separation
+### Cohort vs unconditional, σ-separation (matched clock — canonical)
 
-- **T+1: cohort +12.4% vs unconditional −0.62% → 1.68σ.** Strongest signal.
-- T+3: cohort +3.2% vs unconditional −0.68% → 0.30σ.
-- T+5: cohort +8.0% vs unconditional −0.94% → 0.55σ.
-- T+10: cohort +2.3% vs unconditional −1.32% → 0.17σ.
+- **T+1: cohort −0.58% vs unconditional −0.62%; σ std 7.79 → separation +0.005σ. Noise, not signal.**
+- T+3: cohort −4.28% vs −0.68%; std 12.88 → **−0.28σ.**
+- T+5: cohort −7.50% vs −0.94%; std 16.08 → **−0.41σ.**
+- T+10: cohort −6.28% vs −1.32%; std 20.90 → **−0.24σ.**
 
-**The forward VIX signal peaks at T+1 and decays fast.**
+**On matched forward windows, the cohort median VIX % change is at or below the unconditional median at every horizon.** The v1 finding that "T+1 is a +12.4% signal at 1.68σ" was the +8.91% event-day co-movement carried into a two-session return; it is WITHDRAWN.
 
-### The critical stratification: starting VIX regime
+The v1 whole-cohort claims about VVIX>100 at T+5 (80%) and VIX3M/VIX<1.10 at T+5 (100%) still hold as descriptive facts about the cohort's *state* at T+5. But they no longer support a forward transmission claim; the cohort's forward VIX is not moving above unconditional. Those facts describe events that were already in stress AT T+0 (VVIX median 114 and ratio 0.96 at T+0), not a signature that loaded in advance.
+
+### EXPLORATORY (not pre-registered — §1a defect D): stratification by starting VIX regime
 
 | VIX at T+0 | n | VIX median | ratio median | VVIX median |
 |---|---:|---:|---:|---:|
-| < 20 | **1** | 14.84 | 1.020 | 70.69 |
+| < 20 | 1 | 14.84 | 1.020 | 70.69 |
 | 20–30 | 5 | 26.52 | 1.005 | 114.54 |
 | ≥ 30 | 4 | 33.41 | 0.866 | 119.54 |
 
-**9 of 10 cohort events had VIX ≥ 25 at T+0.** The whole-cohort forward-VIX numbers are dominated by events that were already IN stress.
+**9 of 10 cohort events had VIX ≥ 25 at T+0.** Only one event started with VIX < 20 like the current 9/24 setup — 2007-06-08. Its forward path (retained as narrative, n=1, EXPLORATORY):
 
-**Only one event started with VIX below 20 — the direct analog to the current 9/24 setup (VIX 15.67):**
-
-### The 2007-06-08 analog (n=1)
-
-| horizon | date | VIX | ratio | VVIX | VIX % vs T-1 |
+| horizon | date | VIX | ratio | VVIX | matched % (T→T+k) |
 |---|---|---:|---:|---:|---:|
-| T+0 | 2007-06-08 | 14.84 | 1.020 | 70.69 | −13.0% |
-| T+1 | 2007-06-11 | 14.71 | 1.027 | 68.73 | −13.8% |
-| T+3 | 2007-06-13 | 14.73 | 1.024 | 68.81 | −13.7% |
-| T+5 | 2007-06-15 | 13.94 | 1.077 | 64.03 | −18.3% |
-| T+10 | 2007-06-22 | 15.75 | 1.032 | 78.35 | −7.7% |
+| T+0 | 2007-06-08 | 14.84 | 1.020 | 70.69 | 0.00% |
+| T+1 | 2007-06-11 | 14.71 | 1.027 | 68.73 | −0.88% |
+| T+3 | 2007-06-13 | 14.73 | 1.024 | 68.81 | −0.74% |
+| T+5 | 2007-06-15 | 13.94 | 1.077 | 64.03 | −6.06% |
+| T+10 | 2007-06-22 | 15.75 | 1.032 | 78.35 | +6.13% |
 
-**In the one low-VIX-at-T+0 analog, VIX FADED (not rose), VVIX FELL to 64, and the curve STEEPENED (ratio 1.02 → 1.08) rather than compressing.** The rates event did not propagate to equity vol on any horizon out to T+10.
+Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge fund stress. The next cohort event (2007-08-09 BNP freeze) was 62 trading days later. **This is a single-event narrative, not a base rate.** Any weight it carries for the current 9/24 setup rests on it being the only available analog, not on statistical power.
 
-Historical note: 2007-06-08 was a rates-only event driven by Bear Stearns hedge fund stress. The equity vol complex did not break until **2007-08-09** (the next cohort event, 62 trading days later), when BNP Paribas froze funds.
+## §5. Verdict on the intuition thresholds (re-cut — supersedes v1)
+
+### On the letter of the pre-registration — RULES COLLIDE
+
+- **PASS clause (a)** — VVIX > 100 at T+5 in ≥ 60% (observed 80%) AND VIX3M/VIX < 1.10 at T+5 in ≥ 60% (observed 100%): **satisfied**.
+- **PASS clause (b)** — T+5 forward VIX ≥ 1σ above unconditional: **not satisfied** (matched: −0.41σ; even under the mis-windowed v1 clock: 0.55σ, still below 1σ).
+- **FAIL rule** — forward VIX <0.5σ separation at ANY of T+1/3/5/10: **satisfied at every horizon** on matched clocks (0.005 / −0.28 / −0.41 / −0.24). On the v1 clocks it was also met at T+3 (0.30σ) and T+10 (0.17σ).
+- **§1 registers no precedence for PASS-a vs FAIL when both are met. Rules collide. §1a defect B.**
+- **The correct disclosure is that the rules collided and neither branch is selected.** The v1 §5 selecting the PASS branch was a retroactive selection of the favourable side.
+
+### Substantive verdict (after honest disclosure of the collision)
+
+**On matched forward windows, the cohort produces no measurable forward VIX signal.** The "signature-thresholds fire at T+5" fact (PASS-a) is descriptive of cohort STATE at T+5, driven by 9 of 10 events being already in stress at T+0. The FAIL rule captures what the study was actually trying to test — whether the cohort's forward VIX moves distinctly from unconditional — and finds it does not.
+
+### Where the v1 "T+1 +12.4% is real" claim went
+
+**Withdrawn.** The +12.4% was `VIX[T+1]/VIX[T-1] − 1`, a two-session return that includes the +8.91% event-day co-move. On the matched T→T+1 window the cohort median is −0.58%, indistinguishable from the unconditional median of −0.62%.
+
+**What CAN honestly be said:** MOVE 2d ≥30% events are *coincident* with a ~+9% VIX event-day co-move (cohort median T-1 → T0). This is not a forward signal and does not license the "MOVE-leads-VIX" framing that the walk-back passes already rejected.
+
+## §6. What replaces the intuition thresholds (re-cut)
+
+### On the STATUS dashboard
+
+**The intuition thresholds (VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥ 100) do not have base-rate support** — neither as forward transmission signatures (matched forward returns are indistinguishable from unconditional at every horizon) nor as pre-registered pattern claims (§1 did not register any such thresholds; they were named intuition-first in the 9/24 STATUS/NEXUS_BRIEF that the pass-1 walk-back removed). They stay off the dashboard.
+
+**The v1 "T+1 whole-cohort signal is real" line is WITHDRAWN in all downstream state.**
+
+### Facts that survive the correction
+
+1. Between 2002 and 2026, ten MOVE 2d ≥30% events, all named crises (subprime start, BNP freeze, Lehman, Flash Crash, Bund tantrum, COVID, post-COVID election, 75bp hike week, SVB, 2026-03).
+2. MOVE 2d ≥30% events are contemporaneously accompanied by an event-day VIX co-move (cohort median +8.91%, T-1 → T0). This is not a forward signal.
+3. Post-event, at every horizon T+1 through T+10, cohort forward VIX is not distinguishable from (and slightly weaker than) unconditional.
+4. The single analog for the current 9/24 setup (2007-06-08, VIX<20 at T+0) is EXPLORATORY, n=1, and cannot ground a base-rate claim by itself.
+
+### Follow-on studies (retained; NONE started on the corrected base yet, per PROME/CATO)
+
+- **RQ #8a — Extended cohort:** MOVE 2d ≥ 20% (or ≥ 25%) to get more low-starting-VIX analogs. Question: does the "starting-VIX-regime" stratification survive a larger cohort?
+- **RQ #8b — Time-to-transmission:** given a low-VIX MOVE spike, what is the median session count until VIX itself moves ≥ 25 (if ever)? The 2007-06-08 → 2007-08-09 gap was 62 td; is that typical, or an artifact of subprime specifically?
+- **RQ #8c — Setup vs event:** the pre-committed 3-td de-dup treats each first event as the "setup"; the second event is the "amplifier." Is there predictable structure in T+0 → next-cohort-event timing?
+- **RQ #8d — Credit conditioning:** does CCC widening on the MOVE-spike day (like 9/23-9/24) change the forward VIX distribution?
 
 ## §5. Verdict on the intuition thresholds
 
@@ -181,31 +260,16 @@ The n=1 analog (2007-06-08) points the OPPOSITE direction from my intuition thre
 
 ## §6. What replaces the intuition thresholds
 
-### On the STATUS dashboard
-
-**The "signature thresholds" (VVIX toward 100, VIX3M/VIX toward 1.10, MOVE ≥ 100) do not have base-rate support** for the current-setup shape (low starting VIX). They should stay off the dashboard and out of NEXUS_BRIEF cross-domain reads until either (a) the study is extended and the base rate improves, or (b) VIX itself moves into the ≥ 25 cohort where the whole-cohort signature is applicable.
-
-**The T+1 whole-cohort signal (+12.4% VIX, 1.68σ vs unconditional) is real but not applicable to the current setup** — it comes from events that were already in stress. It is a valid claim for FUTURE MOVE 2d ≥ 30% events that occur while VIX is already elevated; it is not a claim about the current 9/24 event.
-
-### Follow-on studies (registered here for the next work session)
-
-- **RQ #8a — Extended cohort:** MOVE 2d ≥ 20% (or ≥ 25%) to get more low-VIX analogs. Question: does the "starting-VIX-regime" stratification survive a larger cohort?
-- **RQ #8b — Time-to-transmission:** given a low-VIX MOVE spike, what is the median session count until VIX itself moves ≥ 25 (if ever)? The 2007-06-08 → 2007-08-09 gap was 62 td; is that typical, or an artifact of subprime specifically?
-- **RQ #8c — Setup vs event:** the pre-committed 3-td de-dup treats each first event as the "setup"; the second event is the "amplifier." Is there predictable structure in T+0 → next-cohort-event timing?
-- **RQ #8d — Credit conditioning:** does CCC widening on the MOVE-spike day (like 9/23-9/24) change the forward VIX distribution?
-
 ### Concrete replacement for the walked-back thresholds
 
-**None this session.** The honest replacement is not another number — it is the discipline that:
+**None this session.** The honest replacement is not another number — it is:
 
-1. A rates-vol spike from a low-VIX base is a rare configuration (n=1 in 24 years of MOVE 2d ≥ 30% events).
-2. The one available analog says equity vol did not follow rates vol in that configuration.
-3. The right monitoring pose is patient observation of VIX regime changes, not chasing "signatures" that were named from intuition.
-
-The 9/24 cross-domain read as it now stands — spread observation, no lead-lag claim, HENRY/BOND own the rates driver — is what this study supports. The intuition thresholds it was originally hung on are removed and stay removed.
+1. On matched forward windows, the MOVE 2d ≥30% cohort does not produce a distinguishable forward VIX signal over 5,901 sessions of universe.
+2. The event-day co-movement (~+9% median VIX) is real but tautological — it is what "MOVE 2d ≥30%" contains at T=0, not a signature that loaded in advance.
+3. Patient observation of VIX regime changes; the 9/24 STATUS cross-domain read as it stands (spread observation, no lead-lag claim, HENRY/BOND own the rates driver) survives this correction; the "T+1 real signal" line does not.
 
 ---
 
-**Report data artifacts:** `research/rq8_cohort.csv`, `rq8_forward.csv`, `rq8_cohort_summary.csv`, `rq8_baseline.csv`.
+**Report data artifacts:** `research/rq8_cohort.csv`, `rq8_forward.csv`, `rq8_cohort_summary.csv`, `rq8_baseline.csv` (re-cut 2026-09-25 with matched-clock columns).
 **Reproduction:** `python3 AGENTS/VIOLET/scripts/rq8_study.py`.
-**Pre-registration frozen at commit `949fd172b` before §2+ was written.**
+**Pre-registration §1 frozen at commit `949fd172b` before §2+ was written; §1a amendment dated 2026-09-25 00:5x ET.**
