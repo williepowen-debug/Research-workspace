@@ -213,9 +213,11 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `cot_gold.py` · `grade_cot3.py` · `settle_check.py` · `grade_midas07.py` | COT puller + three ONE-SHOT graders bound to closed questions. Only `cot_gold.py` is boot-wired (leg 3); the other three are on-demand **by design** — see `boot.py`'s docstring for why. |
 | `sources/cot_vintages_consumed.tsv` | Which gold COT vintages this desk has **read and written into a surface** — the reference boot leg 3 grades freshness against. Append-only, one row per vintage consumed. A row means READ, not merely published. |
 | `sources/cot_gold_history_2010_2026.tsv` | **FROZEN reference distribution** (n=868 levels / 867 WoW deltas, 2010-01-05 → 2026-08-18), frozen 2026-08-28 BEFORE the vintage-#3 print so it cannot be re-fit after a release. Never re-fit it; add a new frozen file if a new window is ever needed. |
+| `cot_metals.py` | **Silver / platinum / palladium COT puller** (CFTC legacy codes 084691 / 076651 / 075651), built 2026-09-25 after Will's first-class-coverage directive. Same five guards as `cot_gold.py` plus an exact-name match and a short-side identity. stdlib-only and importable. **Not boot-wired yet:** it needs a per-metal consumed-vintages ledger first. `cot_gold.py` stays gold's canonical puller. |
+| `sources/cot_metals_history_2010_2026.tsv` | **FROZEN reference** for Ag/Pt/Pd positioning (n=872 per metal, 2010-01-05 → 2026-09-15), frozen 2026-09-25 before any band or row grades against it. Never re-fit it. ⚠️ Pt and Pd are regime-shifted since 2022; see `analysis/2026-09-25_cot-metals-history-summary.md`. |
 | `sources/SOURCES.md` | Data-access register — per-source access method, cadence, and documented walls (FRED/yfinance/westmetall/CFTC/WGC/FedReg/NBS/PBoC) + the raw-pull golden rule. |
 
 ---
 
 ## BOTTOM LINE (update every session)
-End STATUS.md with 2–4 plain-language sentences: metals-macro state now (monetary + industrial), the single most important channel reading, what's next. If it hasn't changed, your session produced no signal.
+End STATUS.md with 2–4 plain-language sentences: metals-macro state now (monetary + industrial), the single most important channel reading, what's next. **Then one line each for gold, silver, platinum and palladium: price on the explicit contract month [date], the move since the last session, and the driver** (Will 2026-09-25, see §DOMAIN SCOPE). If it hasn't changed, your session produced no signal.

@@ -165,3 +165,15 @@ I wrote L-48 as a rule about **registrations**: *a spec is not registered until 
 ⚠️ **And when a relationship is conditional, never publish its unconditional mean without the split beside it** — the split is not extra detail, it is the finding.
 
 → KB-114. Companion to L-35 (name the construction) and L-13(a) (a band that cannot score the direction you are in).
+
+---
+
+## L-52 — 2026-09-25 — A ratio band is blind to a crash in both its legs; a channel that tracks a metal only through a pair does not track the metal
+
+**What happened.** SLV fell **−45.4%** from its 1/28/2026 high to 9/24. M2 ("silver + gold/silver ratio") scored **1 ⚪ dormant** the whole way down. Its only registered band was the GSR (>85/90/95), and gold fell too (−21.0%), so the ratio stayed benign (about 64–72). I2 had the same shape: its only trigger was a confirmed SA/Russia outage, so PPLT −37.0% and PALL −38.1% could not move it. Will caught it by asking for silver/PGM news. No instrument caught it.
+
+**The rule.** A pair statistic measures the RELATIVE move, and it reads calm exactly when both legs move together, which is what a macro liquidation does. **Every metal the desk claims to cover needs its own level band.** A channel scored only through a ratio must say `BAND-BLIND` in its cell, never ⚪.
+
+**Second half (found while designing the fix).** A trend band (d200) is structurally LATE after a parabolic run: silver's 2026 fall would have tripped it 92–116 sessions after the top, because the run-up dragged the average up. A drawdown band catches the crash in days but stays on for a year. ⇒ the trend leg is a STATE and the crash leg is an EVENT with decay (draft: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`).
+
+**Cousins:** L-13(a) (bands that can only move one way) · `finding_level_and_rate_look_like_agreement_until_you_name_which`. → KB-118

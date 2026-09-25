@@ -5,17 +5,15 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-11 ~01:4x ET (Fri) — **item 24 CLOSED** (the contract-identity guard is built, tested and boot-wired; KB-047's 7th instance closed with it). Items 20/22/23 unchanged and still open.
+**Last updated:** 2026-09-25 (Fri): **item 25 OPENED** (silver/PGM bands with Will) · item 22 **median basis DECLARED** · item 24's closed record rotated to the archive §⑪. Items 20/22/23 are otherwise unchanged. ⚠️ Item 23's premise is overtaken: **WQ-161 is canon since 9/14** (`FORGE/PREDICTION_DISCIPLINE.md`, read 9/25).
 
 ---
 
-## 23. ⛔ THE AMENDMENT RULE IS **NOT SETTLED CANON** — WQ-161 is with Will, due 2026-09-15
+## 25. 🔴 SILVER / PGM ALARM BANDS: **WILL'S DECISION**, draft filed 2026-09-25
 
-⚠️ **Do NOT cite the mass-moving test or my clause 3 as canon. Two desks converging is not a ruling.** PROME registered the MIDAS↔ZHAO prediction-canon exchange as **WQ-161, due 2026-09-15** (cites ZHAO `083fbc4f5` / KB-ZHAO-137 and my L-48), recommending both clauses be encoded in `FORGE/PREDICTION_DISCIPLINE.md`.
+Will 9/25: silver, platinum and palladium are first-class coverage (charter §DOMAIN SCOPE). **M2 and I2 have no price bands**, so silver's −45.4% fall from its high and Pt/Pd's −37/−38% could not move a score. **Draft:** `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`: a trend leg (state), a crash leg (event, 21-session decay) and a spike leg, per-metal lines with historical fire rates. **If adopted as drafted, M2 moves 1 → 3 and the composite 8 → 10 by RULE CHANGE, not market event.** Nothing moves until Will rules. Positioning stays context only, because two of three metals are regime-shifted (frozen reference `sources/cot_metals_history_2010_2026.tsv`).
 
-🔴 **My clause 3 POSTDATES the registration and is not in WQ-161's text** — addendum routed to `PROME/inbox/` 9/2 so it reaches Will before the decision. **Clause 3 is the operative half:** the mass-moving test is a *judgment*, and it is the judgment a desk wanting to patch resolves in its own favour; requiring **the proof written into the row at patch time** makes it a checkable claim made *before* the act.
-
-**Until 9/15 the standing behaviour is the conservative one: prospective-only, and flag rather than patch.**
+## 23. ✅ **CLOSED 2026-09-25: the amendment rule IS canon.** WQ-161 ①②③ + WQ-163 ③ were encoded 2026-09-14 in `FORGE/PREDICTION_DISCIPLINE.md` § Grading & re-marking (read by MIDAS 9/25, before registering MIDAS-09/10). Operative: a non-resolution branch carries NO mass (it is a STATUS) · the retrofit test is mass-moving vs mass-neutral, never the calendar · the proof of mass-neutrality is written into the row at patch time. **MIDAS-08's historical (d) P=0.02 is preserved, not redistributed.** Pre-canon body → `analysis/STATUS_ARCHIVE_2026-09.md` §⑫.
 
 ## 22. 🟠 MIDAS-01 / MIDAS-02 CARRY NO NON-RESOLUTION CASE — found 9/2 by running ZHAO's sweep on my own book (n=2 of 2)
 
@@ -26,6 +24,8 @@ Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if t
 ⛔ **NOT APPLIED: WQ-91 (Will, 9/1) rules this class "no edit to the live rows" and names MIDAS-01/02 explicitly.** A self-derived rule does not outrank an operator ruling that names the row. **Routed to PROME/Will:** *does "no edit" bar a mass-neutral non-resolution status, or only the referent re-keying it was ruled about?*
 
 ⚠️ **STANDING INSTRUCTION TO THE 9/30 GRADER, placed here because this is the surface you read (L-48 applied to itself): if the data is unavailable, record STUCK, not MISS.**
+
+🔎 **DECLARED 2026-09-25 (DAEDALUS PR6 ask ②, a reading of the letter, NOT an edit):** MIDAS-02's RED leg reads *"grades vs the 2yr median (=479kt)"*. It names a rolling median AND pins a number. **Operative basis = the PINNED 479kt (FROZEN at registration)**, per WQ-91's forward rule *"freeze baseline VALUE and DATE"*. **The grade PRINTS BOTH** (479kt frozen, and 2× the rolling median on 9/30; that median was 234,750t on 9/24, so the floating bar is about 469.5kt). **Materiality: nil.** LME 251,175t [9/24] needs about +87% to reach either bar, and copper `HGZ26` $6.79 is +18% ABOVE the $5.75 anchor. Also print `HGZ26` + CPER beside `HG=F` (PROME L429 ①).
 
 ## 24. ✅ **CLOSED 2026-09-11 — the contract-identity guard is BUILT, TESTED and BOOT-WIRED (route (i)). KB-047's 7th instance is closed with it.**
 
@@ -39,17 +39,7 @@ Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if t
 
 ---
 
-### Record of the 9/5 finding (preserved — this is what the guard was built against)
-
-**`metals_watch.py` had no contract-identity guard and its spot block printed five dying contracts.**
-
-Verified at the settled **9/4** bars by volume: `GC=F` **16** vs `GCZ26` **209,167** · `SI=F` 57 vs `SIZ26` 41,845 · `HG=F` **890 (= HGU26)** vs `HGZ26` 33,325 · `PL=F` 0 vs `PLV26` 19,047 · `PA=F` **11 (= PAU26)** vs `PAZ26` 4,896. **Level spreads 0.27%–1.30%.** ⛔ Standing warning ② was written as a *gold* fact; it is a property of **every** `=F` pointer this desk quotes. → **KB-112, L-50**
-
-⛔ **DELIBERATELY NOT PATCHED 9/5, and the reason is my own precedent.** A guard needs a **volume** field; FORGE's `fetch.py` `price_fetch` returns price/prev/change only. Two routes: **(i)** a local yfinance volume pull inside `metals_watch.py` — mine to build — or **(ii)** extending `fetch.py`, which is **PROME/FORGE-gated and is the 7th instance of KB-047.** Blind-patching a 28 KB instrument at session end is exactly how the 8/23 fix ended up **certifying** a second contamination (L-45).
-
-**Harm assessment, stated honestly:** **zero to anything graded** — MIDAS-08 is COT data, the M1 kill-rail leg has been graded on **GLD (no-roll arbiter)** since the 9/2 repair, and GSR is basis-robust across the roll (KB-067). **The exposure is the DISPLAY line** — which is the surface a mislabelled figure reached Will from on 8/20. ⇒ real, bounded, and named.
-
-**⚠️ Interim rule until the guard exists:** quote the **explicit contract month** (`GCZ26`/`SIZ26`/`HGZ26`/`PLV26`/`PAZ26`), never the `=F` pointer, and identify a contract from the **prior session's** row — the latest futures row's volume field is stale and self-heals.
+### Record of the 9/5 finding → rotated verbatim 2026-09-25 to `analysis/STATUS_ARCHIVE_2026-09.md` §⑪ (closed item; the interim rule it carried, *quote the explicit month, identify a contract from the prior session's row*, is now mechanised and restated in STATUS warning ②).
 
 ---
 

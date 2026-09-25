@@ -42,8 +42,8 @@
 
 **What CONFIRMS v2 (testable dates):**
 1. **CPI 7/14 (MIDAS-03): ✅ RESOLVED HIT 2026-07-17.** The print was *cool* (not the hypothetical hot print), yet real yields refused to fall (DFII10 2.36 [7/13]→2.32 [7/15]) and gold got no disinflation/premium bid — the re-coupled cyclical layer behaved exactly as v2 expects. Confirmed.
-2. **WGC Q2 GDT (~late July):** CB net buying ≥150t = structural layer intact. *(Still pending — kill-cond #2.)*
-3. Gold basing in **$3,700–4,300** while DFII10 holds 2.2–2.5 = the floor forming well above the pre-run shelf. **✅ roughly where we are** (gold $4,021.90, DFII10 2.32).
+2. **WGC Q2 GDT (~late July):** CB net buying ≥150t = structural layer intact. **✅ GRADED 2026-08-07: Q2 = 288.9t net, 2.89× the 100t kill line — kill-cond #2 NOT FIRED, confirm-leg MET** (KB-034). *(Re-cut 2026-09-25 per DAEDALUS PR6: the line read "still pending" for 41 days after the grade.)*
+3. Gold basing in **$3,700–4,300** while DFII10 holds 2.2–2.5 = the floor forming well above the pre-run shelf. *Was inside on 2026-07-12 (gold $4,021.90, DFII10 2.32).* ⛔ **TICK WITHDRAWN 2026-09-25 — the from-state has LEFT this regime on the rate leg:** DFII10 **2.76 [FRED 9/23]** is 26bp above the 2.2–2.5 range (and the highest since 2008-11-25), while gold `GCZ26` **$4,298.00 [9/24]** sits at the band's top. ⇒ gold is holding the floor through a real-yield regime **higher** than this condition assumed, which is the premium re-asserting (see KB-115), not the stated confirm-shape. *(DAEDALUS PR6 caught the stale ✅ on 9/17.)*
 
 **What KILLS v2:**
 1. **Structural-floor failure:** gold closes below **$3,317** (7/10/25 pre-blow-off close) without a major real-yield spike (DFII10 still <2.6) → the CB floor isn't where v2 says; re-derive again, escalate BOND/LIQUID.
@@ -87,6 +87,24 @@
 | 3 | GSR spike (>95) = risk-off / monetary-fear regime | open — no spike |
 
 **Repricing:** GSR as a risk-appetite/monetary gauge (→ LIQUID). First pull closed 2026-07-12 (round 1); wired into `metals_watch.py`.
+
+#### M2 re-base 2026-09-25 — silver as a metal in its own right (Will's directive: silver/Pt/Pd are first-class coverage)
+
+⚠️ **Why this block exists:** silver fell **−45.4% from its 2026 high (SLV $105.60 [1/28] → $57.62 [9/24])** and M2 stayed scored **1 ⚪ dormant** the whole way down. The only M2 band is the gold/silver ratio, and a ratio cannot see a crash in which both legs fall (gold −21.0% on GLD over the same span). **The channel was band-blind, not calm.** Standalone silver bands are a threshold decision and are **Will's** — draft in `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`.
+
+**Silver is four mechanisms, not one — and they send different messages:**
+
+| # | Mechanism | Tell | Discriminator | State [2026-09-25] |
+|---|---|---|---|---|
+| S1 | **Monetary beta** — silver trades as high-beta gold | silver and gold move the SAME direction; GSR roughly flat | GSR stable while both move | LIVE: 9/10 liquidation hit both, GSR 64.98 → 67.88 in one session |
+| S2 | **Industrial demand** — solar PV, electronics, AI/data-centre, EVs (~half of demand; PROVISIONAL, secondary) | silver moves AGAINST gold; GSR moves opposite to silver | GSR up while silver falls = industrial weakness | 🟠 **Solar thrifting is the live headwind:** PV silver demand forecast **−19% in 2026** as panel makers switch paste to copper (Crux 7/31, secondary). JPM cut FY forecast to **$60–65 from $81** (7/31) |
+| S3 | **Investment / physical stock** — ETFs, coin/bar, COMEX registered metal | squeeze risk when registered stock is thin vs open interest | silver outruns gold with GSR FALLING fast + lease-rate spike | COMEX registered **97.3 Moz [9/18]** (secondary, UNSOURCED). ⛔ **No lease-rate or registered-stock instrument here — a gap** |
+| S4 | **Supply** — mostly a by-product of lead/zinc/copper/gold mining, so supply barely responds to silver's price (PROVISIONAL) | persistent deficits do not self-correct via new mines | — | 2026 deficit **46.3 Moz, sixth straight year** (secondary). Structural, slow |
+
+**The read, 2026-09-25:** the January blow-off and its unwind were **S1 + S3** (speculative, high-beta, all four precious metals peaked 1/23–1/29). Since 9/10 silver has held **better** than gold (`SIZ26` −1.43% vs `GCZ26` −2.48%), so S2 weakness is **not** currently dominating the tape. **GSR 67.16 [9/24]** is benign.
+
+**Instruments:** `SIZ26` + SLV + GSR in `metals_watch.py` · **silver COT (CFTC code 084691) via `cot_metals.py` — NEW 2026-09-25** · ⛔ **not held:** COMEX registered/eligible series, lease rates, India import data, Silver Institute/Metals Focus primary balance.
+**Falsifiers (both directions):** the S2 read (industrial drag) is wrong if silver outperforms gold while copper falls; the S1 read (silver = high-beta gold) is wrong if a >5% gold move comes with GSR moving >5 points against it.
 
 ---
 
@@ -132,10 +150,26 @@
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | PGM demand = auto catalysts + industrial | open; price leg LIVE (2026-07-12): Pt $1,629.00 (+0.6%), Pd $1,276.30 (+2.6%, 90d strength) |
-| 2 | Supply concentrated in South Africa + Russia = structural fragility | confirmed (structural); **Russia-Pd antidumping now CONF (round-3): final margin 132.83%, Russia-Wide Entity, Fed Reg 2026-08487 [5/1/26]** — resolves the round-2 132.83/828 conflict (828 was preliminary). WPIC ~240koz 2026 Pt deficit + SA power/flooding STAY PROVISIONAL (WebSearch, not primary-verified this round) |
-| 3 | SA/Russia supply disruption/sanction → PGM supply shock | sanctions leg RESOLVED: the AD determination is *final* (132.83%, priced) — not an acute-outage/new-shock event. No confirmed acute SA/Russia *production* outage. Separate CVD final (doc 2026-10342, 5/22) + USITC injury (2026-12219, 6/18) |
+| 2 | Supply concentrated in South Africa + Russia = structural fragility | confirmed (structural). ⛔ **CORRECTED 2026-09-25: there is NO US duty on Russian palladium.** Commerce's final AD margin (132.83%, Fed Reg 2026-08487 [5/1/26]) and CVD (109.1%) stood, but **USITC voted NO INJURY on 2026-05-29 ⇒ no order was ever issued** (KB-101, found 9/2). The round-3 text here said "CONF … priced" and survived three weeks after KB-101. WPIC Pt balance + SA power/flooding STAY PROVISIONAL |
+| 3 | SA/Russia supply disruption/sanction → PGM supply shock | **duty channel CLOSED (not "priced") — USITC negative 5/29, no order** (KB-101). No confirmed acute SA/Russia *production* outage [no-news sweep 9/2, KB-101]. ⛔ **BIS export controls still unprobed.** *(Fed Reg docs cited in round 3: CVD final 2026-10342 [5/22], USITC 2026-12219 [6/18] — the latter is the publication of the NEGATIVE determination)* |
 
 **Repricing:** PGM supply consequence of SA/Russia events (→ HAWK geopol, HENRY auto/industrial). Price leg closed 2026-07-12; **MIDAS still owes** primary-source verification of the supply backdrop (currently PROVISIONAL) + a HAWK cross-flag.
+
+#### I2 re-base 2026-09-25 — platinum and palladium as precious metals too (Will's directive)
+
+⚠️ **Same band-blindness as silver:** PPLT **−37.0%** from its 2026 high ($25.23 [1/23] → $15.90 [9/24]) and PALL **−38.1%** ($37.18 [1/28] → $23.00 [9/24]). I2 stayed at **2 🟡** because its only registered trigger is a confirmed SA/Russia outage. **Price and positioning bands = Will's decision** (draft: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`).
+
+**PGMs carry a precious leg as well as an industrial one.** They peaked with gold and silver in the same January week, which the industrial frame cannot explain.
+
+| Metal | Demand mechanisms | Supply | Live read [2026-09-25] |
+|---|---|---|---|
+| **Platinum** | diesel + heavy-duty autocatalyst · jewellery (China) · industrial/glass/chemical · **investment (bars, ETFs, China)** · hydrogen/fuel-cell (small, long-dated) | SA ≈70% (HAWK figure) | `PLV26` **$1,752.0 [9/24]**, −8.70% since 9/9, the weakest of the four. No dated September supply event found. WPIC balance **PROVISIONAL** (secondary: small 2026 surplus, H2 deficit). ⚠️ **`PLV26`→`PLF27` roll is close** — `FRONT_MONTHS` is hand-maintained |
+| **Palladium** | gasoline autocatalyst (>80%) · **hybrids carry higher loadings** (supportive) · BEVs carry none (the long-run bear) | Russia ≈40% (Nornickel), SA ≈34% of exports | `PAZ26` **$1,282.1 [9/24]**, −7.16% since 9/9, but only −0.97% since 9/10. **UBS 9/21 raised targets +$200/oz (Dec-26, Mar-27), +$100 (Jun-27)** on falling mine supply (Russian grades, SA capital discipline). US duty channel CLOSED (above) |
+
+**Pair tells:** **Pt/Pd ratio 1.37 [9/24]** — substitution economics in autocatalysts (a rising ratio makes Pd cheaper to use in gasoline cats, per UBS) · **Pt/Au 0.408** — platinum's discount to gold, a precious-leg valuation read.
+**The three Pd-led tail events (the third on 8/28, +4.03σ; KB-094/095)** stay **residually unexplained**. The three instruments that could explain them (PGM lease rates · NYMEX PGM stocks · PPLT/PALL flows) are **still ABSENT** (OPEN_ITEMS 20).
+**Instruments:** `PLV26`/`PAZ26` + PPLT/PALL in `metals_watch.py` · **Pt (076651) and Pd (075651) COT via `cot_metals.py` — NEW 2026-09-25**.
+**Falsifiers (both directions):** the precious-leg read is wrong if Pt/Pd stop moving with gold on >2σ gold days. The supply read is wrong if a confirmed SA/Russia outage fails to lift the affected metal over the other.
 
 ---
 

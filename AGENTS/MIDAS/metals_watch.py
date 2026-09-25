@@ -318,6 +318,7 @@ def main():
 
     # --- 3b. Contract-identity guard (KB-112) — are the `=F` pointers alive? ---
     dying_pointers = []
+    ci_rows = []
     try:
         ci_rows, dying_pointers = check_contract_identity()
         print(f"\n  CONTRACT IDENTITY — `=F` pointer vs explicit front month "
@@ -345,6 +346,15 @@ def main():
                     "ORANGE" if gsr >= GSR_ORANGE else
                     "YELLOW" if gsr >= GSR_YELLOW else "benign")
         print(f"\n  GOLD/SILVER RATIO: {gsr:.2f}  (bands: Y{GSR_YELLOW}/O{GSR_ORANGE}/R{GSR_RED} — currently {gsr_band})")
+        # PROME L429 item 2 (2026-09-25): GC=F / SI=F can sit on DIFFERENT expiries (mode iii).
+        # Print the same-basis ratio on the EXPLICIT front months, prior settled session. Additive only:
+        # the band call above is unchanged; this line shows whether the pointer ratio mixes months.
+        ci = {r[0]: r for r in ci_rows if r[2] is not None}
+        if "GC=F" in ci and "SI=F" in ci and ci["GC=F"][2] == ci["SI=F"][2] and ci["SI=F"][6]:
+            g, s_ = ci["GC=F"], ci["SI=F"]
+            gsr_x = g[6] / s_[6]
+            mixed = "MIXED MONTHS — cite the explicit line" if (g[8] != "OK" or s_[8] != "OK") else "same basis"
+            print(f"    explicit months {g[1]}/{s_[1]} [{g[2]} prior session]: {gsr_x:.2f}  ({mixed})")
     else:
         failures.append("GSR: could not compute (gold or silver futures leg failed)")
         print(f"\n  ERROR GSR not computed — gold/silver futures leg failed", file=sys.stderr)
