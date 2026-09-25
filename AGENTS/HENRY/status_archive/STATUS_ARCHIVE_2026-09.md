@@ -720,3 +720,103 @@ SKEW mirror-defect clause: ⚠️ **Mirror defect rate: 0.40% on 253 sessions / 
 - 🔑 **A ZERO ON A VOL MARK IS A TELL, not always fill-forward.** 9/18 SKEW served at `+0.00%` WAS fill-forward (bar not yet posted); 9/21 SKEW served at `-0.00%` is the mirror sitting on a real 9/18 print until the 9/21 close bar posts. **Same signature, different underlying state — check the publisher, don't assume from the signature alone.**
 
 ---
+
+## Block 34 — rotated verbatim 2026-09-24 ~21:3x ET by HENRY (catch-up session, Will-directed). Source: `STATUS.md` 9/21 vintage — the # Signal Status line, § "9/21 — SESSION" table, § "GEX / GAMMA REGIME" (9/21 intraday board), § "NAMED DATA GAPS" (Silver Week window, CLOSED at the 9/24 Tokyo re-open), and § BOTTOM LINE. Superseded by the 9/24 close board. Nothing retired; historical only — ⛔ do NOT cite its levels or walls as current (the 9/21 walls call 7,750 / put 7,700 are VOID).
+
+### Signal Status (9/21 vintage)
+
+**Signal Status:** 🟢 **9/21 INTRADAY POST-OPEX RE-MEASURE (WALTER `SIG-W-20260921-001` doorbell, PROME Tier-1 L0 touch): GAMMA SIGN FLIPPED POSITIVE ON SESSION #1 PAST 9/18's SHELF LIFE — an ordinary +0.94% up-session did it, exactly as 9/18 said would happen.** Flip **~7,669 at BOTH horizons**, Net GEX **+$33.7B / +$41.2B** per 1%, SPX **7,722.38 [intraday]**, spot **+53pt ABOVE** the flip. **14d walls PUBLISHABLE (call 7,750 · put 7,700, both clean #1);** 35d walls put==call==8,000 UNPUBLISHABLE. 🇯🇵 **NAMED DATA GAP REGISTERED — Silver Week: Tokyo shut 9/21–9/23, JGB/Nikkei DARK, MOF curve dark through Thu 9/24; USD/JPY 157.47 walking toward 158.054 (0.58 yen from the ¥158 rate-check level).** ⚠️ **Yen-gap window does NOT change today's read** — Japan carry-unwind → SPX equity-vol channel not visible in dealer positioning, skew or VIX-VVIX signature. **But the flip is thin; a Thursday Tokyo re-open ambush would meet DAMPENING (weak, $34–41B/1%) dealers, not amplifying ones. Amplifier is OFF, not "gone."** ✅ **VIX kill leg GRADED — VIXCLS 14.81 [FRED 9/18] < 15 SATISFIED 1 SESSION.** ⛔ Nothing fires/banks: HY 268 [FRED 9/18], 8bp from <260, joint sessions **0**; 8/27 still closest approach. ⛔ **$0 moved. No card, no order, no trade. MEASUREMENT + one data-gap registration.** **Last Updated:** 2026-09-21 11:2x ET — **INTRADAY** (PROME Tier-1 / WALTER `-001`). *Prior:* 2026-09-18 16:4x ET.
+
+## 9/21 — SESSION *(PROME Tier-1 doorbell touch under WALTER `SIG-W-20260921-001` P0.L1.L2.L3b-PASS · Tokyo Silver Week closure 9/21–9/23, item worthless after Thu 9/24 · US markets OPEN, intraday · **9/18 SESSION table (rows 1–10) + its # header paragraph rotated VERBATIM → `status_archive/STATUS_ARCHIVE_2026-09.md` block 32** to hold this file under the 32,550 B read cap while adding the intraday block)*
+
+**$0 spent. No card, no order, no trade proposed. NO THRESHOLD SET, MOVED, RE-SPECCED OR FIRED. Tier-1 measurement + one named data-gap registration.**
+
+| # | What happened | Where |
+|---|---|---|
+| 1 | 🟢 **GAMMA SIGN FLIPPED POSITIVE INTRADAY 9/21.** `HENRY 2026-09-21 15:1xZ intraday: flip ~7,669 (14d) / ~7,669 (35d); sign POSITIVE; 14d walls PUBLISHABLE (call 7,750, put 7,700); 35d walls NOT PUBLISHABLE (put == call == 8,000 degeneracy).` SPX **7,722.38**, Net GEX **+$33.7B / +$41.2B per 1%**. **Spot +53 pts (+0.69%) ABOVE the flip.** ✅ **PREDICTIVE WIN: 9/18 said *"a single ordinary up-session flips the sign positive"*; today's SPX +0.94% did exactly that. Confirming the 9/18 finding — the negative-gamma regime was the least entrenched of the four, mechanically weak.** | § GEX / GAMMA REGIME |
+| 2 | 🇯🇵 **NAMED DATA GAP REGISTERED — full text at § NAMED DATA GAPS.** Silver Week Tokyo shut 9/21–9/23 (WALTER-corroborated at exchange calendars); ¥158 rate check reported ~15:00 UTC 9/18 (SAM T1 tell); MOF JGB curve dark through Thu 9/24. **Caveats travel verbatim (never dropped): unconfirmed press-reported inquiry, tell fired 3–4 yen BELOW its registered ~¥161–162 T1 zone (unresolved), spike-and-reverse non-identifying on SAM canon, ¥160 gate VOID, SAM FLAT, $0.** | § NAMED DATA GAPS |
+| 3 | 📌 **SUBSTANTIVE ANSWER — YEN-GAP WINDOW vs POST-OPEX GAMMA READ: THE WINDOW DOES NOT CHANGE TODAY'S READ, AND THAT IS ITSELF THE FINDING.** Today's flip is mechanically explained by (a) ~$6T opex expiring 9/18 + (b) SPX +0.94% on 9/21. **Japan carry-unwind → SPX equity-vol channel is NOT visible:** LONG gamma, no put-skew stress (SKEW 148.10 < 150), clean contango, VVIX/VIX 5.88. ⚠️ **BUT the flip is thin ($34–41B/1%, spot +53pt above); a Thu Tokyo re-open ambush would meet DAMPENING (weak) dealers, not amplifying. The amplifier is OFF, not "gone" — symmetric to today's up-flip, an ordinary down-session flips it back.** ⇒ **State the two-tape geometry; refuse a mechanism claim about a channel with one leg DARK.** Fuller detail → § GEX. | § GEX / GAMMA REGIME |
+| 4 | ✅ **VIX KILL LEG GRADED — VIXCLS 9/18 = 14.81 [FRED, published overnight]. `<15, 1 session` SATISFIED FOR 1 SESSION.** Prior PENDING (9/18) closed. ⛔ **Nothing fires and nothing banks:** H-1 is simultaneity + non-latching and HY OAS **268 [FRED 9/18]** is still 8bp from <260 ⇒ joint sessions remain **0**. ⚠️ **NOT a new closest approach: 8/27 (VIX 14.51 · HY 263) is still closer on BOTH legs — VIX leg is 0.30 worse, HY leg is 5bp worse.** | § INVALIDATION TRIAD |
+| 5 | 📊 **CREDIT: HY 268 · CCC 1,083 · BB 155 · gap 928 [FRED 9/18]** (from 9/17: HY 270 · CCC 1,076 · BB 156 · gap 920). HY tightened 2bp, CCC widened 7bp — **the tail is still the only leg that has never softened, and gap +8 vs 9/17 = the bifurcation resumed widening after last week's plateau at 920.** ⛔ **Blended HY 268 is reached by COMPOSITION — never read the tail off HY.** | § CREDIT · § ACTIVE THRESHOLDS |
+| 6 | 🟡 **SKEW UPDATE — CBOE 9/18 = 148.10 (real print, +2.40 vs 9/17=145.70).** 9/18 was NOT fill-forwarded after all — publisher posted overnight. Row updated. ⛔ **Still under the >150 RED-FT-10 line by 1.90 pts; RED owns the letter, I mirror no count.** ⚠️ Today's yfinance pull served 148.10 dated 9/18 at `-0.00%` — the mirror is now on the correct value but still shows the fill-forward signature until 9/21 posts. Grade off `SKEW_History.csv`, not the wire. | § VOL REGIME · § ACTIVE THRESHOLDS |
+| 7 | ✅ **INBOX: 8 packets flagged at triage (3 HANS · 5 ZHAO · none touching yen/gamma/opex/VIX/Fed/carry).** 4 carry CORRECTION markers — obligated to open under §MAIL (a)/(d), scope-checked to NOT touch this doorbell's subject. **Deferred to next session (recorded, not processed) — the deferral is written so the next boot cannot claim ignorance (per 8/23 self-ruling on flagged-not-opened).** | `inbox/` |
+| 8 | ⚠️ **INSTRUMENT NOTE — STATUS refs archive "blocks 26–31" but the archive file's `## Block N` headers stop at 18 in one style, continuing under `## [ROTATED VERBATIM]` in another.** Content exists (verified by tail-read); block-NUMBERING is inconsistent across two rotation styles. **NOT REPAIRED THIS SESSION — flagged for next full closeout.** | `status_archive/STATUS_ARCHIVE_2026-09.md` |
+
+### 🟢 GEX / GAMMA REGIME — **RE-MEASURED 2026-09-21 INTRADAY (15:1xZ, US markets OPEN). SIGN FLIPPED POSITIVE ON THE FIRST SESSION PAST 9/18's SHELF LIFE — dealers now DAMPEN, weakly.**
+
+`HENRY 2026-09-21 15:1xZ intraday: flip ~7,669 (14d) / ~7,669 (35d); sign POSITIVE; 14d walls PUBLISHABLE (call 7,750, put 7,700); 35d walls NOT PUBLISHABLE (put == call == 8,000).`
+
+| | 14d (3,611 contracts) | 35d (7,324 contracts) | Cross-horizon |
+|---|---|---|---|
+| **Zero-gamma flip** | **~7,669** | **~7,669** | ✅ **AGREE EXACTLY** |
+| **Spot vs flip** (SPX **7,722.38**, gamma_flip intraday spot) | +53 pts (**+0.69%**) | +53 pts (**+0.69%**) | ✅ agree |
+| **Sign** | **POSITIVE** | **POSITIVE** | ✅ **AGREE — dealers DAMPEN, weakly** |
+| **Net GEX** | **+$33.7B / 1%** | **+$41.2B / 1%** | agree in sign; deeper at 35d |
+| **Call wall** | **7,750 — clean #1, +19% over #2** | 8,000 — clean #1, +34% over #2 | ⚠️ 250 pts apart |
+| **Put wall** | **7,700 — clean #1, +13% over #2** | 8,000 ⛔ **put == call degeneracy** | ⛔ **35d UNRESOLVED** |
+
+✅ **14d walls PUBLISHABLE.** Both clean #1 with adequate #2 gaps; cross-horizon 14d↔35d call is 250pt apart, inside audit-E2's tolerance when the 14d side is clean and the 35d side is put==call degenerate. ⛔ **35d walls NOT PUBLISHABLE — put == call == 8,000, the same failure mode as 9/17 at that horizon.**
+
+📌 **SIGN TRAJECTORY:** +$20.4B [8/28] → −$16.3B [9/2] → +$39.4B [9/4] → −$16B/−$22B [9/11] → −$28B/−$38B [9/14] → −$49B/−$53B [9/17] → **−$10B/−$12B [9/18 post-opex]** → **+$34B/+$41B [9/21 intraday]**. **Sign flip on session #1 past shelf life, on SPX +0.94% — the 9/18 prediction (*"a single ordinary up-session flips the sign positive"*) confirmed at the shortest possible horizon.**
+
+⚠️ **VIOLET's competing mechanism (uncertainty-REMOVING relief read) STILL UNADJUDICATED.** Today's flip is EQUALLY consistent with (a) opex-reset weakness completing into a positive-gamma regime and (b) a relief tape continuing to absorb the telegraphed hike into a buyable-dip regime. **Board cannot separate them one session later; dead-discriminator rule (`KB-VIO-307`) still binds; do not re-run it.** State the measurement, refuse the mechanism.
+
+🇯🇵 **YEN-GAP WINDOW vs THIS BOARD — see § NAMED DATA GAPS for the registration; the substance for this section:** the Japan carry-unwind → SPX equity-vol transmission would show up as short-gamma dealer positioning, tail put-skew stress (SKEW >150 sustained), or a divergent VIX-VVIX signature. **None fire today:** dealers LONG gamma; put wall 7,700 is 22pt below spot (ordinary near-money hedging, not tail); SKEW 148.10 under the 150 line; VVIX/VIX 5.88 (elevated, not stressed); term structure clean contango. ⚠️ **BUT: this reads the US side WHILE the JGB tape is DARK through Thu 9/24. Absence this week is NOT absence of transmission — it is publication holiday. The flip is thin (spot +53pt above, $34–41B/1%) so a Thu re-open ambush would meet DAMPENING (weak) dealers, not amplifying ones. The amplifier is OFF, not "gone" — an ordinary down-session flips it back symmetrically.**
+
+⚠️ **SHELF LIFE ONE SESSION.** ⛔ **Re-measure at 9/21 official close (post 16:00 ET) or 9/22.** This is INTRADAY 15:1xZ; the day is not done.
+
+⚠️ **Free-tier: sign + flip are robust; $B magnitudes are assumption-dependent, NOT SpotGamma-grade.** Sign flip is method-consistent with the 9/18 measurement (same script, same assumptions, one session apart) so direction and rough scale are robust; exact $B is not.
+
+## NAMED DATA GAPS  ·  *what NOT to read as a market fact this week*
+
+- 🇯🇵 **SILVER WEEK TOKYO CLOSURE — Mon 2026-09-21 · Tue 2026-09-22 · Wed 2026-09-23.** JGB + Nikkei tapes DARK. `^N225` returns 9/18 `⚠stale` on a 9/21 pull; WALTER independently verified at exchange-calendar sources (`SIG-W-20260921-001`). **MOF JGB curve 9/18 unpublished as of 9/20, likely through Thu 9/24.**
+- 🇯🇵 **¥158 RATE-CHECK (SAM T1 tell, unresolved) — reported ~15:00 UTC 2026-09-18, hours after the BOJ hiked to 1.25%.** SAM's playbook classes a rate check as its single strongest pre-action tell, historically hours to ~1 day ahead of a strike. **The window elapses this week with no Tokyo market and no way to observe an ambush at its native venue** (S1-A doctrine: gap event with zero lead-in). USD/JPY **157.47 [WALTER pull 2026-09-21T15:0xZ, HENRY re-verified 15:1xZ]**, 0.58 yen from the 158.054 Sep-18 high the check fired against, moving *toward* it. ⛔ **Not confirmed intervention; press-reported inquiry; not logged to strike history; ¥160 gate VOID; SAM book FLAT; no threshold fires.** The tell fired 3–4 yen BELOW its own registered ~¥161–162 T1 zone — unresolved by SAM and by WALTER; not confirmation of the playbook. **Spike-and-reverse is non-identifying on SAM's canon.**
+- 🔑 **CONSEQUENCE FOR HENRY: a quiet US equity-vol / gamma tape this week is NOT calm on the Japan-transmission axis — the channel has one leg DARK.** See § GEX for the current post-opex read; the yen-gap window does not change today's read but changes the confidence with which any "no transmission" statement can be made about the week. **Re-check Thu 9/24 at the Tokyo re-open.**
+
+---
+
+## BOTTOM LINE
+
+**[9/21 intraday] The gamma sign flipped POSITIVE on the very first session past 9/18's shelf life — exactly what 9/18 said would happen on a single ordinary up-session — and a Japan transmission-channel data gap opened this week that must not be consumed as calm.**
+
+**1. 🟢 GAMMA SIGN FLIPPED — DEALERS NOW DAMPEN, WEAKLY.** Flip **~7,669 at both horizons (exact agreement, essentially unchanged from 9/18's 7,668)**, SPX **7,722.38** (intraday 15:1xZ), Net GEX **+$33.7B / +$41.2B** per 1%. **Spot +53pt (+0.69%) ABOVE the flip.** ✅ **9/18 predictive win:** *"a single ordinary up-session flips the sign positive"* — today's SPX +0.94% did exactly that. **The 9/18 finding is confirmed at the shortest possible horizon.**
+
+**2. ✅ 14d WALLS PUBLISHABLE: call 7,750 (+19% clean), put 7,700 (+13% clean).** 35d walls NOT publishable — put == call == 8,000 degeneracy at that horizon. **Every HENRY wall dated before 2026-09-21 is VOID.**
+
+**3. 🇯🇵 NAMED DATA GAP REGISTERED — SILVER WEEK TOKYO CLOSURE + FRI ¥158 RATE CHECK.** Tokyo shut Mon–Wed; MOF JGB curve dark through Thu 9/24; USD/JPY 157.47, 0.58 yen from the 158.054 rate-check level, walking toward it. **A quiet US equity-vol tape this week is NOT calm on the Japan-transmission axis — the channel has one leg DARK.** ⛔ No intervention confirmed, press-reported inquiry, tell fired 3–4 yen below its own registered T1 zone (unresolved), spike-and-reverse non-identifying on SAM's canon, ¥160 gate VOID, SAM book FLAT, $0.
+
+**4. 📌 YEN-GAP WINDOW vs POST-OPEX GAMMA READ — no change today, and that is the finding.** Japan carry-unwind → SPX equity-vol channel not visible (LONG gamma, no put-skew stress, VVIX/VIX 5.88 elevated-not-stressed, clean contango). **BUT the flip is thin ($34–41B/1%); a Thu re-open ambush meets DAMPENING dealers, not amplifying — amplifier OFF, not "gone."** Fuller detail → § GEX.
+
+**5. ✅ VIX <15 KILL LEG GRADED — `VIXCLS` 14.81 [FRED 9/18] < 15 = SATISFIED FOR 1 SESSION.** Closes the 9/18 PENDING. ⛔ Nothing banks (H-1 non-latching); nothing fires (HY 268 [FRED 9/18] is 8bp from <260). Joint sessions still **0**. **8/27 (VIX 14.51 · HY 263) is still the closest approach — today's HY leg is 5bp worse, VIX leg is 0.30 worse.**
+
+**6. 🔴 CREDIT TAIL STILL THE ONLY LEG THAT HAS NEVER SOFTENED: CCC 1,083 · BB 155 · HY 268 · gap 928 [FRED 9/18].** **CCC +127/3mo while BB −6** — bifurcation signature intact and the gap resumed widening after last week's 920 plateau. **The blended HY headline masks it; never read the tail off HY.**
+
+**7. 🟡 SKEW UPDATE — 9/18 = 148.10 [CBOE, posted overnight].** +2.40 vs 9/17=145.70. My 9/18 fill-forward finding SUPERSEDED — the 9/18 bar is a real print now, not fill-forward. Still 1.90 below the >150 line; RED-FT-10 unchanged.
+
+**8. ⛔ KILL ON SIGHT:** *"the negative-gamma squeeze is building"* (**flipped positive today — the opposite**) · *"FT-10 fired"* (RED's letter; **I mirror no count**) · **any HENRY wall level dated before 2026-09-21** · *"~$6.2T"* quoted as a MEASURED single-session figure (always INFERRED) · *"BOJ intervention on 9/18"* (**press-reported rate CHECK, not intervention; not confirmed; not logged to strike history**) · *"the Japan transmission channel is quiet this week"* (**the JGB tape is DARK, not quiet; absence is publication holiday, not market fact**).
+
+**9. Watch order:** **🔴 re-measure the board at the 9/21 official close (post 16:00 ET) or first thing 9/22 — this is INTRADAY, shelf life still ONE SESSION** · **🇯🇵 Thu 9/24 Tokyo re-open: first observation of any Japan-transmission signal from the yen-gap week** · **Wed 9/30** Russian diesel/gasoil ban expiry = **`HEN-46` F3**, whose 10-session window runs into the **mid-October roll-desync** (structural, monthly, never date-keyed) · **late Oct** AAL/LUV Q3 prints = HEN-46 proper.
+
+**$0 moved. No card, no order, no trade proposed. No threshold set, moved, re-specced or fired.**
+
+
+## Block 35 — rotated verbatim 2026-09-24 ~22:0x ET by HENRY. Source: `MEMORY.md` § Session Notes, the 2026-09-24 16:40 ET prome-f5 session (CHANGES / NEXT). Rotated to make room for the 9/24 evening catch-up session. Nothing retired; its NEXT items 1–5 are carried or dispositioned in the new block.
+
+### CHANGES SINCE LAST SESSION (2026-09-24 Thu 16:40–16:5x ET — PROME `prome-f5` Tier-1 spawn, outcome ①: GATE-TERRY-VLO-SCALE names HENRY for the F1 basis; TERRY ASKs 7a8c291a0 + be312801d; whole-inbox L0 drain. US cash closed; futures still trading.)
+
+- 🔴 **F1/F3 BASIS NAMED** (`reports/2026-09-24_F1-basis-named.md`, TERRY packet `90fa9a4c1`): named matched `HOX26×42 − CLX26` at the **CME SETTLEMENT**, Nov FIXED through 10/14, the month advance after that = **WQ-252 (Will), not pre-named**. Sources in order: CME (blocked to us) > finalized vendor row DATED to the session (≤$0.10 vs the 14:28–14:30 1-min VWAP on 9/21–9/23, INFERRED = settle) > VWAP ESTIMATE. Tier-3 within ±$0.15 of $95 ⇒ UNKNOWN.
+- 🔴 **9/24: settlement-window ESTIMATE $95.36 ⇒ NOT FIRED, buffer ~$0.36** (TERRY's live-bar $1.03–1.30 was the post-settle LAST TRADE). Matched **Dec $94.60** = already under $95 (disclosed: holding Nov cuts in my favour). The Nov−Dec step is now ~$0.76 (was ~$4.5 on 9/14).
+- 🔴 **10Y RED >5.0% CROSSED** — DGS10 5.01 [9/18], 5.11 [9/23]; ^TNX 5.16 live 9/24. STATUS row updated; a CROSS, not a regime (no sustain clause). WALTER packeted (its "no row keys on the 10Y level" misses mine).
+- ✅ **L238 T3v2: CONCUR** that the 9/16 hike is a declared marker (my letter §3's first example). VOID stands.
+- ✅ **INBOX 38 → 0** (13 general + 25 WALTER-lane; -021/-024 arrived mid-session, were moved by my glob before being read, then read and logged; ⚠️ lesson: glob-moving an inbox moves what arrived after you read it. List it, read it, then move by name), all logged in board_log + moved with `git mv`. SIG-W-20260921-001 retro-logged (acted 9/21, never moved).
+- ✅ **L429/L441 census dispositioned:** L429 #28 (HEN-46 crack) FIXED by the basis naming · #18 (VX.tsv BZ=F) DECLARED, frozen ledger · #32 (FORGE config BZX26, HENRY tile) DECLARED, PROME-owned re-pin, no HENRY grade keys on it · B display rows (boot.py BZ=F, update_data.py → MARKET_DATA Brent column, contract unnamed) DECLARED, no threshold. L441: credit_monitor.py:160 SOURCED; VOL_SURGE LINE; nothing to fix.
+- ⚠️ **OWN DEFECT: TIMESTAMPS WRITTEN FROM AN ESTIMATE.** I stamped "~17:0x/17:1x ET" when `date` read 16:47. The committed TERRY packet `90fa9a4c1` carries the wrong stamp (content unaffected); the others were fixed before commit. **Run `date` before every stamp, not once at boot.**
+
+### NEXT SESSION — in this order
+
+1. 🔴 **Read the FINALIZED 9/24 dated row** (HOX26/CLX26 `history()`, select the row by date) and record the settlement-basis F1 grade in place of the $95.36 ESTIMATE. At 16:47 the row was still live (4.5516/95.22).
+2. 🔴 **9/25 F1 grade (TERRY grades, on my basis):** a Nov settlement < $95.00 fires F1. Estimate within $94.85–$95.15 ⇒ UNKNOWN until the dated row finalizes.
+3. **WQ-252 is live in substance now:** the Nov−Dec step (~$0.76) alone decides F1. Will's call; PROME carries it.
+4. **F3:** the Russian ban is reported SET TO EXTEND (not decreed). Its anchor is a CONFIRMED lapse at a primary, never 9/30 by date.
+5. Carried from 9/21 (block 33): archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008; a new-direction proposal, Will's).
+

@@ -48,23 +48,26 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-24 Thu 16:40–16:5x ET — PROME `prome-f5` Tier-1 spawn, outcome ①: GATE-TERRY-VLO-SCALE names HENRY for the F1 basis; TERRY ASKs 7a8c291a0 + be312801d; whole-inbox L0 drain. US cash closed; futures still trading.)
+### CHANGES SINCE LAST SESSION (2026-09-24 Thu 21:19–22:1x ET — Will-directed catch-up, launched in-folder; US cash closed)
 
-- 🔴 **F1/F3 BASIS NAMED** (`reports/2026-09-24_F1-basis-named.md`, TERRY packet `90fa9a4c1`): named matched `HOX26×42 − CLX26` at the **CME SETTLEMENT**, Nov FIXED through 10/14, the month advance after that = **WQ-252 (Will), not pre-named**. Sources in order: CME (blocked to us) > finalized vendor row DATED to the session (≤$0.10 vs the 14:28–14:30 1-min VWAP on 9/21–9/23, INFERRED = settle) > VWAP ESTIMATE. Tier-3 within ±$0.15 of $95 ⇒ UNKNOWN.
-- 🔴 **9/24: settlement-window ESTIMATE $95.36 ⇒ NOT FIRED, buffer ~$0.36** (TERRY's live-bar $1.03–1.30 was the post-settle LAST TRADE). Matched **Dec $94.60** = already under $95 (disclosed: holding Nov cuts in my favour). The Nov−Dec step is now ~$0.76 (was ~$4.5 on 9/14).
-- 🔴 **10Y RED >5.0% CROSSED** — DGS10 5.01 [9/18], 5.11 [9/23]; ^TNX 5.16 live 9/24. STATUS row updated; a CROSS, not a regime (no sustain clause). WALTER packeted (its "no row keys on the 10Y level" misses mine).
-- ✅ **L238 T3v2: CONCUR** that the 9/16 hike is a declared marker (my letter §3's first example). VOID stands.
-- ✅ **INBOX 38 → 0** (13 general + 25 WALTER-lane; -021/-024 arrived mid-session, were moved by my glob before being read, then read and logged; ⚠️ lesson: glob-moving an inbox moves what arrived after you read it. List it, read it, then move by name), all logged in board_log + moved with `git mv`. SIG-W-20260921-001 retro-logged (acted 9/21, never moved).
-- ✅ **L429/L441 census dispositioned:** L429 #28 (HEN-46 crack) FIXED by the basis naming · #18 (VX.tsv BZ=F) DECLARED, frozen ledger · #32 (FORGE config BZX26, HENRY tile) DECLARED, PROME-owned re-pin, no HENRY grade keys on it · B display rows (boot.py BZ=F, update_data.py → MARKET_DATA Brent column, contract unnamed) DECLARED, no threshold. L441: credit_monitor.py:160 SOURCED; VOL_SURGE LINE; nothing to fix.
-- ⚠️ **OWN DEFECT: TIMESTAMPS WRITTEN FROM AN ESTIMATE.** I stamped "~17:0x/17:1x ET" when `date` read 16:47. The committed TERRY packet `90fa9a4c1` carries the wrong stamp (content unaffected); the others were fixed before commit. **Run `date` before every stamp, not once at boot.**
+- 🔴 **OWN DEFECTS (2), same class:** 2Y row said "4bp under red" while DGS2 >4.60 every close since 9/11 (level cell updated, STATE adjective not); 10Y cell + my 9/24 WALTER packet said "first close >5% on 9/18" — DGS10 9/16 was 5.01. Both fixed; WALTER correction packet sent. LESSONS corollary added.
+- 🔴 **Rates:** 10Y 5.18 / 2Y 4.87 / 30Y 5.47 [Treasury par 9/24]; 9/22→9/24 10Y +22bp = real +22bp, T10YIE flat 2.33. Drivers at primaries: flash PMI 58.4, weak 5Y (5.033%, BTC 2.21), Barr. FedWatch NOT read (press 64–77.5%).
+- ⚪ **Gamma ≈ 0 on the 9/24 close:** flip 7,707 (14d, −$2.0B) / 7,702 (35d, +$1.6B), spot 7,704.13; no wall. ⚠️ 9/21's re-measure-at-close was never executed (3 sessions unmeasured — disclosed).
+- 🔴 **Credit:** CCC−BB 934 [FRED 9/23] = widest in FRED 3y window (series-checked); CCC 1,093 = 2026 high.
+- 🇯🇵 **Yen gap CLOSED** — Tokyo re-open showed carry-build (yen weaker through 158.054, Nikkei +0.76%, JGB 10Y 3.073%). MOF ~9/30 total still pending.
+- 🟡 **F1 9/24 NOT finalizable tonight:** the yfinance "9/24" row = live 9/25 evening tick at 21:10 ET (fails the finalization test). Estimate $95.36 stands; evening crack ~$95.1–95.2.
+- ✅ **R1 corrections 7 → 0** (1 APPLIED, 6 NO-OP). **`registry/corrections_receipts.tsv` did not exist before tonight** — earlier dispositions lived only in board_log, which the check does not read.
+- ✅ STATUS rewritten (33.4→27.8 KB, under cap; 9/21 blocks → archive block 34); NEXUS_BRIEF fully refreshed (old → `status_archive/NEXUS_BRIEF_ROTATED_2026-09-24.md`); news sweep → `research/2026-09-24_news_sweep.md`; KB ML-HEN-170..172; PUBLISHED 14d rows; MARKET_DATA 9/24 row.
 
 ### NEXT SESSION — in this order
 
-1. 🔴 **Read the FINALIZED 9/24 dated row** (HOX26/CLX26 `history()`, select the row by date) and record the settlement-basis F1 grade in place of the $95.36 ESTIMATE. At 16:47 the row was still live (4.5516/95.22).
-2. 🔴 **9/25 F1 grade (TERRY grades, on my basis):** a Nov settlement < $95.00 fires F1. Estimate within $94.85–$95.15 ⇒ UNKNOWN until the dated row finalizes.
-3. **WQ-252 is live in substance now:** the Nov−Dec step (~$0.76) alone decides F1. Will's call; PROME carries it.
-4. **F3:** the Russian ban is reported SET TO EXTEND (not decreed). Its anchor is a CONFIRMED lapse at a primary, never 9/30 by date.
-5. Carried from 9/21 (block 33): archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008; a new-direction proposal, Will's).
+1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): read the FINALIZED dated rows for 9/24 AND 9/25** (HOX26/CLX26, select by date, test vs the 14:28–14:30 VWAP ±$0.15). A 9/25 settlement <$95.00 fires F1 — TERRY grades on my basis. Run `date` before every stamp.
+2. 🔴 **Re-measure the gamma board on the 9/25 close** (both horizons). Shelf life is one session — the 9/21 miss is the reason to do it the same evening.
+3. **Wed 9/30 release-day log:** Aug PCE + Q2 GDP 3rd (BEA 08:30); Russian ban lapse vs decree (F3 leg 1 — anchor = CONFIRMED lapse at a primary); MOF monthly FX total; MU AMC context.
+4. **Watch 30Y 5.50 (3bp away) and T10YIE >2.40** (would re-attribute the leg to expectations). Consider registering a real-yield letter ONLY with the outcome space enumerated.
+5. Carried: archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008, Will's) · own `CLAUDE.md` FILES row: KB count stale (says 132 rows / last ML-HEN-160; last is now ML-HEN-172) — fix at next doc pass.
+
+### Prior session (2026-09-24 16:40 ET, prome-f5) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 35. Its NEXT #1 (finalized 9/24 row) is carried as #1 above; #2 (9/25 F1) carried; #3 WQ-252 Will's; #4 F3 anchor carried in #3; #5 carried.
 
 ### Prior session (2026-09-21) — CHANGES / NEXT / CARRY rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 33. Kill-on-sight list and carry rules live there; nothing retired.
 
