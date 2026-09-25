@@ -53,7 +53,7 @@
 > 4. **PGM mechanism (n=3)** — blocked on three ABSENT instruments; HAWK 5th asking; **BIS export controls still unprobed.**
 > 5. **9/30 is a triple:** MIDAS-01 + MIDAS-02 on their frozen letters **BOTH BASES** (WQ-91, DOCKET 231) — **STUCK, not MISS, if unavailable** — plus China's September construction, the settler ZHAO and I share.
 > 6. 📏 **READ-CAP, HONESTLY: STATUS is at 98.8% of the 32,550 B budget after rotating EIGHT blocks** to `analysis/STATUS_ARCHIVE_2026-09.md`. `analysis/` is OFF the boot path so the boot-read total FELL — **but the rotation only bought back what this session added.** ⛔ **Rotation candidates at the closed/duplicate tier are now genuinely exhausted: the next session that needs space must cut LIVE material, which is a different decision and should go to PROME, not be taken quietly at a session end.** Measure with `scripts/read_cap_check.py --agent MIDAS`, never from a figure in prose.
-> 7. 🟠 **TERRY owes a number this read is conditional on: the TLT $77P delta vs 0.0504.** I have no options chain. **Not chased, not assumed.**
+> 7. ✅ **CLOSED 9/25: TERRY delivered 9/11 (−0.0354, `c0f4e5d35`, to PROME, not recorded here); 9/25 = −0.0708, above 0.0504, a moment property expiring 9/30.** ~~TERRY owes a number this read is conditional on: the TLT $77P delta vs 0.0504.~~ I have no options chain. **Not chased, not assumed.**
 
 > ⛔ **SPAWNED OWNER SESSION 2026-09-05 ~19:4x–20:4x ET (Sat). PROME `prome-86`, AUTONOMY Tier 1, Will's word *"go ahead and spawn all three"*. THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
 >
