@@ -76,7 +76,7 @@ Current regime + scenario weights → `HEARTBEAT.md` (7/18 re-base + amendment #
 
 | Ticker | Strike | Expiry | Qty | Cost | Mark | Value | P&L | Note |
 |--------|--------|--------|-----|------|------|-------|-----|------|
-| APO | $95P | Dec-18 | 1 | $11.85 | $0.85 | $85.00 | −$1,099.67 / −92.83% | BROCK thesis vehicle. 0.60 [9/3] → 0.85 (today −$19). 99 DTE. No ruling on file |
+| APO | $95P | Dec-18 | 1 | $11.85 | $0.85 | $85.00 | −$1,099.67 / −92.83% | BROCK thesis vehicle. 0.60 [9/3] → 0.85 (today −$19). 99 DTE. Will ruled HOLD 2026-08-13 (record `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` §②; BROCK owner; vehicle-mismatch flag live) — corrected 2026-09-25 from 'No ruling on file' on BROCK's flag, PROME-verified at the record |
 | HBAN | $16P | Oct-16 | 2 | $0.96 | $0.25 | $50.00 | −$141.34 / −73.87% | EXIT-THESIS dust (Will 7/18) — rides to expiry, zero effort. 0.20 [9/3] → 0.25 (today −$14). 36 DTE |
 
 ## Robinhood — satellite account (Individual)
