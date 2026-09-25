@@ -22,6 +22,8 @@
 >
 > **▶ COT 9/15 consumed:** net/OI **56.19%** (+1.25pp), **99.31th pct**; as-of the day BEFORE the hike. 9/22 vintage publishes 9/25 15:30 ET.
 >
+> **▶ ⭐ WILL 9/25: silver, platinum and palladium are FIRST-CLASS coverage, not gold footnotes** — encoded in `CLAUDE.md` §DOMAIN SCOPE (verbatim). The catch-up is in **KB-117**. Since the January peak: silver **−45%**, Pd **−38%**, Pt **−37%**, gold **−21%** (ETF closes). ⚠️ **The `PLV26`→`PLF27` roll is close; `FRONT_MONTHS` has to be rolled by hand.**
+>
 > **⏳ OWED (inbox, unprocessed — each is a live ask):** ① **DAEDALUS PR6:** STATUS:5 → L4; rotate STATUS to <22,785 B (needs −9,374 B); re-cut 2 stale letter cells (due **9/24 — MISSED**); declare MIDAS-02 median frozen vs floating by **9/30**. ② **PROME NEXUS_BRIEF 72,126 B → <22,785 B.** ③ **PROME L429:** one-line dispositions on MIDAS-01/02 generic tickers + GSR roll proof. ④ **WQ-161 canon:** read the four bullets in `FORGE/PREDICTION_DISCIPLINE.md` before any prediction edit. ⑤ **9/30 triple** unchanged. ⚠️ **`GC=F` now = `GCZ26` (100% vol) — the other four pointers still DYING.**
 
 > ⛔ **SPAWNED SESSION 2026-09-11 ~00:3x–01:5x ET (Fri). PROME, DOCKET L327 (Will's five-vector list, 00:21 + 00:29 ET). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
