@@ -6,7 +6,7 @@
 
 ## BOTTOM LINE
 
-🔴 **Two-day bond selloff with rates vol pricing it in full; equity vol has moved less.** 10Y yield 4.963 [9/22] → 5.114 [9/23] → **5.162 [9/24]** = **+20bp over 2 sessions**. TLT 81.75 → 80.46 → **79.42** = **−2.9% cumulative** on 59M volume 9/24. MOVE 78.56 → 95.45 → **104.58** = +33.1% cumulative. **MOVE and the rates move are COINCIDENT, not leading** — same-day jumps both sessions (MOVE +21.5% & VIX +6.83% on 9/23; MOVE +9.55% & VIX +3.23% on 9/24); MOVE is doing what MOVE does when duration sells off. Rates substance is HENRY / BOND, not mine.
+🔴 **Two-day bond selloff with rates vol pricing it in full; equity vol has moved less.** 10Y yield **4.96 [9/22] → 5.11 [9/23] → 5.18 [9/24] = +22bp over 2 sessions** [CONF HENRY/BOND per Treasury H.15]. TLT 81.75 → 80.46 → **79.42** = **−2.9% cumulative** on 59M volume 9/24. MOVE 78.56 → 95.45 → **104.58** = +33.1% cumulative. **MOVE and the rates move are COINCIDENT, not leading** — same-day jumps both sessions (MOVE +21.5% & VIX +6.83% on 9/23; MOVE +9.55% & VIX +3.23% on 9/24); MOVE is doing what MOVE does when duration sells off. Rates substance is HENRY / BOND, not mine. *(Prior draft carried the ^TNX vendor series unlabeled at +20bp 2d; corrected to H.15 basis per HENRY peer-read 9/24.)*
 
 ⚠️ **Scope note on the "ledger max" language:** the MOVE ledger is 58 rows starting 2026-07-06 (2.7 months). MOVE 104.58 is p98.3 of THAT window; it is not "record" in any historical sense (MOVE routinely printed 140-200 in the 2022-2023 regime). The direction is real; the "record" shape is a sample artifact of a short ledger.
 
@@ -14,7 +14,7 @@
 
 🟠 **VIX rose 3.23% on the day to 15.67** (from 15.18), regime shifted COMPLACENCY → LOW_VOL. The vol-complex response over 2d: VIX +10.3%, VVIX +8.9%, VIX3M/VIX −5.1%. **The observation is a SPREAD: rates vol has repriced further than equity vol on the same catalyst.** Whether equity vol follows depends on the bond selloff's driver (HENRY/BOND). ⚠️ **Prior draft said "rates-vol is leading equity vol" — walked back;** that is a temporal claim the data doesn't support.
 
-🟠 **CCC widened 10.75 [9/22] → 10.93 [9/23 FRED].** BIN-B block active (CCC ≥ 9.55). CCC−BB 9.34 pp. Tight-tail cohort with rates-vol firing is the pattern that historically preceded credit non-confirmation; LIQUID owns the interpretation.
+🟠 **CCC widened 10.75 [9/22] → 10.93 [9/23 FRED] = +18bp (~2.6σ, 60d daily std 6.9bp).** Above p95 of the 519d FRED series (10.49) and a 30d high (prior 10.85 on 9/15). BIN-B block already active (CCC ≥ 9.55, standing). CCC−BB 9.34 pp. **The rest of the tail did not move meaningfully:** HY 2.68 → 2.73 (+5bp, ~1.5σ), BB 1.56 → 1.59 (+3bp, ~1σ), IG 0.77 → 0.77 flat. HY at 2.73 is p25 of the 519d series — historically tight. **Only CCC moved.** LIQUID owns the interpretation. ⚠️ **Prior draft said "tight-tail cohort with rates-vol firing preceded credit non-confirmation" — walked back;** no base rate behind that claim, and KB-VIO-071 Path B is defined by credit NOT widening, so the citation would have been wrong even if the base rate existed.
 
 **Thesis v4.1.1 stands. Book flat, no trade proposed, no threshold moved. Convergence 27 → 28/50 (VVIX and front-curve up 1 each, JPY down 1). NEXUS CROSS-DOMAIN to HENRY / LIQUID / BRENT / BOND updated below.**
 
@@ -39,8 +39,8 @@
 | OVX | **54.45**, ratio **3.47** (p97.0), p89.7 · FIRE | Sep 24 | [CONF] `ovx_read.py` boot leg. Gap 38.78 (p94.5). Oil-vol → equity-vol channel LOADED |
 | JPY RV10 | **6.5%**, p29.1, CALM | Sep 24 | [CONF] `jpy_carry_vol.py`. USDJPY 158.26. Down sharply from 11.1% p72.6 [9/18] |
 | COR1M / COR3M | **9.17 / 10.66** (COR30D 7.91) | Sep 24 SETTLE | [CONF] `implied_corr.py`. Constituent-vol[EST] 51.7 — DISPERSED |
-| HY / CCC / BB OAS | **2.72 / 10.93 / 1.58%** | Sep 23 FRED | [CONF] `fred_fetch.py`. CCC−BB **9.34 pp**. BIN-B block active. LIQUID owns |
-| IG OAS | **0.78%** | Sep 23 FRED | [CONF] |
+| HY / CCC / BB OAS | **2.73 / 10.93 / 1.59%** | Sep 23 FRED | [CONF] FRED direct read. CCC−BB **9.34 pp**. BIN-B block standing. LIQUID owns. *(Prior draft carried 2.72/1.58 — 1bp rounding errors from summary output; corrected against series.)* |
+| IG OAS | **0.77%** | Sep 23 FRED | [CONF] FRED direct. *(Prior draft carried 0.78 — 1bp error, corrected.)* |
 | COT VIX positioning | Lev money net **−16,504**, p69.9; OI 446,060 | Sep 15 report | [CONF] CFTC TFF. Next report 9/22 publishes Fri 9/25 15:30 ET |
 | VIX options C/P OI (forward 5) | 0.00 (post-close artifact) | Sep 24 after-hours | ⚠️ post-close OI=0 artifact (KB-VIO known caveat); use intraday runs for OI. Call vol 397k, Put vol 145k this run |
 
@@ -68,10 +68,10 @@
 
 | Vector | Score | Current reasoning |
 |---|---|---|
-| Rates vol | 🔴🔴 **5** | MOVE **104.58** [9/24], p98.3 in 58-row ledger, +33.1% 2d cumulative. 10Y +20bp 2d; TLT −2.9% 2d on 59M vol. Substance HENRY/BOND |
+| Rates vol | 🔴🔴 **5** | MOVE **104.58** [9/24], p98.3 in 58-row ledger, +33.1% 2d cumulative. 10Y +22bp 2d [H.15 via HENRY/BOND]; TLT −2.9% 2d on 59M vol. Substance HENRY/BOND |
 | SKEW / tail bid | 🔴 **4** | 20-session mean 147.46 elevated; latest bars 144.80 [CBOE 9/22] → 146.15/146.04 [yf 9/23–24], under 150 |
 | Oil vol | 🔴 **4** | OVX 54.45, ratio 3.47 p97.0, gap 38.78 p94.5, FIRE. Sustained since 9/18 |
-| Credit | 🟠 **3** | CCC 10.93 distressed tail (widened from 10.75 [9/22]); HY 2.72 tight |
+| Credit | 🟠 **3** | CCC 10.93 (+18bp, ~2.6σ, above p95 519d, 30d high); HY 2.73, BB 1.59, IG 0.77 all noise-band or flat — **only CCC moved** |
 | Positioning | 🟠 **3** | ⚠️ 9/15 report: lev money p69.9. New report Fri 9/25 |
 | Implied correlation | 🟡 **2** | COR1M 9.17, COR3M 10.66, dispersed; constituent-vol[EST] 51.7 |
 | Equity concentration | 🟡 **2** | VULCAN's structural watch; WALTER SIG-007/014 negative-beta chart is INFO (HENRY/RED own) |
@@ -84,7 +84,7 @@
 - **Price classification: LOW_VOL** (VIX 15.67 [9/24], from COMPLACENCY 14.21–14.87 across 9/18–9/22). No terminated regime of ≥60 sessions is asserted.
 - **The post-FOMC vol path, from the 9/16 close (VIX 17.71):** −12.82% (9/17) → −16.37% (9/18) → −16.04% (9/21) → −19.76% (9/22 low) → −14.29% (9/23) → **−11.52% (9/24)**. **The vol premium is rebuilding — quietly and slowly — while rates-vol is running.** Not a stress event; not a resolution event; a cross-market read.
 - 🔴 **The graded finding, final form:** the letter's legs 2, 3, 4 all failed on one event because the letter modelled a stress event. n=1 for **H-resolution-vs-stress**. Needs the FOMC-date base rate before it is graded again.
-- 🟠 **9/23–9/24 confirm rates vol is leading, not one-day.** Two consecutive MOVE limit-breaks, VIX3M/VIX compression across two sessions, VVIX crossing 90 — every one within-bounds so far (no inversion, no VVIX>120, no VIX>20) but the direction is loading. **Broadcast this as CROSS-DOMAIN only, not as a VIOLET regime-shift.**
+- 🟠 **9/23–9/24 confirm the rates-vs-equity-vol spread is not one-day.** Two consecutive p98-of-ledger MOVE prints, VIX3M/VIX compression across two sessions, VVIX crossing 90 — every one within-bounds so far (no inversion, no VVIX>120, no VIX>20). **Rates vol repriced further than equity vol on the same catalyst; MOVE and VIX moved SAME-DAY both sessions — not lead-lag.** Broadcast as CROSS-DOMAIN only, not as a VIOLET regime-shift. *(This line missed the walk-back in the first pass; HENRY peer-read caught it. Fixed 2026-09-24 22:5x ET.)*
 - 🟠 **H-approach-vs-delivery** loses its 9/18 observation to +5.80% (KB-VIO-309). MOVE's 9/23–24 spike had no event to approach, so it is not evidence either way for that hypothesis.
 - **Unadjudicated:** whether the 9/18 opex removed the dealer amplifier (HENRY) or a relief tape absorbed it (mine). KB-VIO-307 stands.
 
@@ -95,7 +95,7 @@ Last recorded VIOLET book: **FLAT**. `TRY-VIOLET-VIXCS` closed July 30; FORGE's 
 ## RESEARCH QUEUE
 
 1. **Next post-close boot: re-pull CBOE history** and stamp 9/23 and 9/24 with SETTLE. Leg 2 KILL cannot flip (VIX 15.67 [9/24] still >2 points inside the KILL margin).
-2. **Read MOVE follow-through and any 3rd-day print.** Two p98-of-ledger prints in a row plus the underlying rates selloff (10Y +20bp 2d, TLT −2.9% 2d) is real; HENRY/BOND own the rates driver. Watch whether VIX3M/VIX and VVIX continue to reprice — but note that "MOVE above 100 + VIX3M/VIX toward 1.10" as a transmission signature is intuition, not a calibrated threshold; a real base-rate study is a separate research task (see RQ #8).
+2. **Read MOVE follow-through and any 3rd-day print.** Two p98-of-ledger prints in a row plus the underlying rates selloff (10Y +22bp 2d [H.15 via HENRY/BOND], TLT −2.9% 2d) is real; HENRY/BOND own the rates driver. Watch whether VIX3M/VIX and VVIX continue to reprice — but note that "MOVE above 100 + VIX3M/VIX toward 1.10" as a transmission signature is intuition, not a calibrated threshold; a real base-rate study is a separate research task (see RQ #8).
 3. **Write the next pre-registered letter against the FIVE acceptance conditions** (part 3 §5): partition state space · every cell fails against T-1 · fallback + exhaustion for no-SLA sources · FOMC-date base rate built from federalreserve.gov (verify 2024-09-18) · void-clause on any cohort-borrowing leg.
 4. **L441 follow-through:** PROME implements the FORGE `AVG_STEEPNESS` vintage and re-check (spec in KB-VIO-310). Build the KB-VIO-032 rolling percentile alongside the static band; additive.
 5. **WQ-259 half-satisfied:** rider (CLAUDE.md:194) fixed this session; artifact republish deferred to the next post-close boot after CBOE confirms 9/23–9/24.
