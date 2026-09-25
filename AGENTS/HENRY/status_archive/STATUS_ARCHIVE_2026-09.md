@@ -820,3 +820,25 @@ SKEW mirror-defect clause: ⚠️ **Mirror defect rate: 0.40% on 253 sessions / 
 4. **F3:** the Russian ban is reported SET TO EXTEND (not decreed). Its anchor is a CONFIRMED lapse at a primary, never 9/30 by date.
 5. Carried from 9/21 (block 33): archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008; a new-direction proposal, Will's).
 
+
+
+## Block 36 — rotated verbatim 2026-09-25 01:15 ET (`date`) by HENRY. Source: `MEMORY.md` § Session Notes, the 2026-09-24 21:19–22:1x ET catch-up session (CHANGES / NEXT). Rotated for the 9/24 22:41 → 9/25 01:15 ET session. Nothing retired; NEXT #1–#2 (9/25 F1 + gamma) carried as #1–#2 of the new block, #3–#5 carried.
+
+### CHANGES SINCE LAST SESSION (2026-09-24 Thu 21:19–22:1x ET — Will-directed catch-up, launched in-folder; US cash closed)
+
+- 🔴 **OWN DEFECTS (2), same class:** 2Y row said "4bp under red" while DGS2 >4.60 every close since 9/11 (level cell updated, STATE adjective not); 10Y cell + my 9/24 WALTER packet said "first close >5% on 9/18" — DGS10 9/16 was 5.01. Both fixed; WALTER correction packet sent. LESSONS corollary added.
+- 🔴 **Rates:** 10Y 5.18 / 2Y 4.87 / 30Y 5.47 [Treasury par 9/24]; 9/22→9/24 10Y +22bp = real +22bp, T10YIE flat 2.33. Drivers at primaries: flash PMI 58.4, weak 5Y (5.033%, BTC 2.21), Barr. FedWatch NOT read (press 64–77.5%).
+- ⚪ **Gamma ≈ 0 on the 9/24 close:** flip 7,707 (14d, −$2.0B) / 7,702 (35d, +$1.6B), spot 7,704.13; no wall. ⚠️ 9/21's re-measure-at-close was never executed (3 sessions unmeasured — disclosed).
+- 🔴 **Credit:** CCC−BB 934 [FRED 9/23] = widest in FRED 3y window (series-checked); CCC 1,093 = 2026 high.
+- 🇯🇵 **Yen gap CLOSED** — Tokyo re-open showed carry-build (yen weaker through 158.054, Nikkei +0.76%, JGB 10Y 3.073%). MOF ~9/30 total still pending.
+- 🟡 **F1 9/24 NOT finalizable tonight:** the yfinance "9/24" row = live 9/25 evening tick at 21:10 ET (fails the finalization test). Estimate $95.36 stands; evening crack ~$95.1–95.2.
+- ✅ **R1 corrections 7 → 0** (1 APPLIED, 6 NO-OP). **`registry/corrections_receipts.tsv` did not exist before tonight** — earlier dispositions lived only in board_log, which the check does not read.
+- ✅ STATUS rewritten (33.4→27.8 KB, under cap; 9/21 blocks → archive block 34); NEXUS_BRIEF fully refreshed (old → `status_archive/NEXUS_BRIEF_ROTATED_2026-09-24.md`); news sweep → `research/2026-09-24_news_sweep.md`; KB ML-HEN-170..172; PUBLISHED 14d rows; MARKET_DATA 9/24 row.
+
+### NEXT SESSION — in this order
+
+1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): read the FINALIZED dated rows for 9/24 AND 9/25** (HOX26/CLX26, select by date, test vs the 14:28–14:30 VWAP ±$0.15). A 9/25 settlement <$95.00 fires F1 — TERRY grades on my basis. Run `date` before every stamp.
+2. 🔴 **Re-measure the gamma board on the 9/25 close** (both horizons). Shelf life is one session — the 9/21 miss is the reason to do it the same evening.
+3. **Wed 9/30 release-day log:** Aug PCE + Q2 GDP 3rd (BEA 08:30); Russian ban lapse vs decree (F3 leg 1 — anchor = CONFIRMED lapse at a primary); MOF monthly FX total; MU AMC context.
+4. **Watch 30Y 5.50 (3bp away) and T10YIE >2.40** (would re-attribute the leg to expectations). Consider registering a real-yield letter ONLY with the outcome space enumerated.
+5. Carried: archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008, Will's) · own `CLAUDE.md` FILES row: KB count stale (says 132 rows / last ML-HEN-160; last is now ML-HEN-172) — fix at next doc pass.

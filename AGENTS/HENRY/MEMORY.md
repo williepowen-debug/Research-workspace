@@ -48,24 +48,23 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-24 Thu 21:19–22:1x ET — Will-directed catch-up, launched in-folder; US cash closed)
+### CHANGES SINCE LAST SESSION (2026-09-24 Thu 22:41 ET → 9/25 Fri 01:15 ET (`date`) — Will-directed, then PROME items 2+4; launched in-folder)
 
-- 🔴 **OWN DEFECTS (2), same class:** 2Y row said "4bp under red" while DGS2 >4.60 every close since 9/11 (level cell updated, STATE adjective not); 10Y cell + my 9/24 WALTER packet said "first close >5% on 9/18" — DGS10 9/16 was 5.01. Both fixed; WALTER correction packet sent. LESSONS corollary added.
-- 🔴 **Rates:** 10Y 5.18 / 2Y 4.87 / 30Y 5.47 [Treasury par 9/24]; 9/22→9/24 10Y +22bp = real +22bp, T10YIE flat 2.33. Drivers at primaries: flash PMI 58.4, weak 5Y (5.033%, BTC 2.21), Barr. FedWatch NOT read (press 64–77.5%).
-- ⚪ **Gamma ≈ 0 on the 9/24 close:** flip 7,707 (14d, −$2.0B) / 7,702 (35d, +$1.6B), spot 7,704.13; no wall. ⚠️ 9/21's re-measure-at-close was never executed (3 sessions unmeasured — disclosed).
-- 🔴 **Credit:** CCC−BB 934 [FRED 9/23] = widest in FRED 3y window (series-checked); CCC 1,093 = 2026 high.
-- 🇯🇵 **Yen gap CLOSED** — Tokyo re-open showed carry-build (yen weaker through 158.054, Nikkei +0.76%, JGB 10Y 3.073%). MOF ~9/30 total still pending.
-- 🟡 **F1 9/24 NOT finalizable tonight:** the yfinance "9/24" row = live 9/25 evening tick at 21:10 ET (fails the finalization test). Estimate $95.36 stands; evening crack ~$95.1–95.2.
-- ✅ **R1 corrections 7 → 0** (1 APPLIED, 6 NO-OP). **`registry/corrections_receipts.tsv` did not exist before tonight** — earlier dispositions lived only in board_log, which the check does not read.
-- ✅ STATUS rewritten (33.4→27.8 KB, under cap; 9/21 blocks → archive block 34); NEXUS_BRIEF fully refreshed (old → `status_archive/NEXUS_BRIEF_ROTATED_2026-09-24.md`); news sweep → `research/2026-09-24_news_sweep.md`; KB ML-HEN-170..172; PUBLISHED 14d rows; MARKET_DATA 9/24 row.
+- **Peer read VIOLET/LIQUID/BOND** → `research/2026-09-24_peer-read_VIOLET-LIQUID-BOND.md`. 4 peer defects packeted; **both desks applied within the hour** (LIQUID `e903519d2`, VIOLET `a16aa90f1`).
+- **October odds MEASURED: ~72% [ZQX26 15:00 ET 9/24], FedWatch method** (CME blocks automated reads — 403, not circumvented). Replaced every "UNVERIFIED" cell. ⚠️ Futures give **expected bp only** (+18.0) — P exists only under 25-or-hold.
+- **PROME item 2 (with BOND):** move is **2027–28 "higher for longer"** — 9/22→9/24 post-Oct/post-Dec EFFR +4.0 vs SR3Z27 +19.0 / SR3Z28 +22.5. **Contested days:** 9/23 ACM path +8.2 / TP +7.0 [BOND]; 9/24 10Y +7 vs futures path +1–2. FR2004 timing RESOLVED by BOND (award IN the print, trade-date). ⛔ Don't cite BOND's WQ-157 p=0.009 (window defect, BOND).
+- **PROME item 4 (with ORACLE `c3695ad88`):** aligned in expected bp at 15:00 ET — futures +18.0 vs PM +16.5 / Kalshi +16.1–16.6; residual inside basis ⇒ no disagreement.
+- 🔴 **OWN DEFECTS (2), caught before consequence:** (1) "both TP models show no rise" — true of the WINDOW NET, false on 9/23 (a net hides the day); (2) **typed a clock** (~01:4x) into a packet header at 01:10 — `date` was in the same command and I didn't copy it. **It RECURRED at closeout: I wrote a guessed END time ("~01:2x") into 5 files at 01:15.** A closeout stamp is written BEFORE the session ends, so it is always a forecast — stamp the `date` of the write, never the expected finish. Both fixed.
 
 ### NEXT SESSION — in this order
 
-1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): read the FINALIZED dated rows for 9/24 AND 9/25** (HOX26/CLX26, select by date, test vs the 14:28–14:30 VWAP ±$0.15). A 9/25 settlement <$95.00 fires F1 — TERRY grades on my basis. Run `date` before every stamp.
-2. 🔴 **Re-measure the gamma board on the 9/25 close** (both horizons). Shelf life is one session — the 9/21 miss is the reason to do it the same evening.
-3. **Wed 9/30 release-day log:** Aug PCE + Q2 GDP 3rd (BEA 08:30); Russian ban lapse vs decree (F3 leg 1 — anchor = CONFIRMED lapse at a primary); MOF monthly FX total; MU AMC context.
-4. **Watch 30Y 5.50 (3bp away) and T10YIE >2.40** (would re-attribute the leg to expectations). Consider registering a real-yield letter ONLY with the outcome space enumerated.
-5. Carried: archive block-numbering audit · >$3.1tn off-balance-sheet overlay (`SIG-W-20260910-013`) · confidence backfill for 38 rows · breadth instrument gap (SIG-W-20260921-008, Will's) · own `CLAUDE.md` FILES row: KB count stale (says 132 rows / last ML-HEN-160; last is now ML-HEN-172) — fix at next doc pass.
+1. 🔴 **Fri 9/25 after ~16:00 ET (before 18:00): HEN-46 F1 at the CME settlement** (HOX26×42 − CLX26, matched Nov; <$95.00 fires; TERRY grades). Also read the finalized 9/24 row. `date` before every stamp.
+2. 🔴 **Re-measure the gamma board on the 9/25 close** (14d + 35d).
+3. **ACM 9/24 when posted** (BOND owns; ≈T+1) — TP up again ⇒ the burst is premium-led and my (A) holds only for the FOMC week. KW 9/21+ next weekly.
+4. **Wed 9/30 release-day log:** PCE + GDP 3rd · Q-end $183B settle (LIQUID/BOND funding test) · Russian ban lapse (F3) · MOF total · MU AMC. Thu 10/1 ISM · Fri 10/2 NFP.
+5. Carried: 30Y 5.50 (3bp) / T10YIE >2.40 watch · real-yield letter ONLY with outcome space enumerated — **now must name BOTH TP models (ACM vs KW split) and the SR3 premium caveat** · archive block-numbering audit · `SIG-W-20260910-013` overlay · confidence backfill · breadth gap (Will's) · own `CLAUDE.md` KB count stale (last ML-HEN-172).
+
+### Prior session (2026-09-24 21:19 ET catch-up) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 36. NEXT #1–#2 carried as #1–#2 above; #3–#5 carried.
 
 ### Prior session (2026-09-24 16:40 ET, prome-f5) — CHANGES / NEXT rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 35. Its NEXT #1 (finalized 9/24 row) is carried as #1 above; #2 (9/25 F1) carried; #3 WQ-252 Will's; #4 F3 anchor carried in #3; #5 carried.
 
