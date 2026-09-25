@@ -2,7 +2,19 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-09-24 Thu ~21:3x–22:xx ET — Will boot, "update our data with new figures or news". STANDARD: WALTER lane 7 → 0 · 1 correction receipted · BOND 🔴 ask answered · 0 thresholds moved)
+### CURRENT SESSION (2026-09-25 Fri 01:03–01:14 ET — PROME `prome-fa` Will-directed item 3, "does credit transmission persist?". STANDARD: 4 of 4 asks DONE · 1 new instrument · KB-LIQ-136 · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. Continued the same session after the 9/24 closeout (`61f9c4323`). The PROME packet (`40915c8c0`) arrived at 01:03 ET; closeout requested by PROME (WQ-249).
+
+**Delivered:** `reports/2026-09-25_credit-transmission-persistence.md` + `scripts/transmission_check.py` (`227417176`) · **grade on obs 9/23: CONTINUES at the bottom rung, ordinary pace** (15-session, n=765: CCC +40 = 81.8th pct, CCC−B +38 = 85.9th; B +2, BB +6, BBB/IG −4) · funding clean where observed, blind spots named · **Q-end base rate n=10 → KB-LIQ-136**, persistence rule P1–P5 registered for the 10/5–10/8 prints (CATALYSTS + CALENDAR row 2026-10-08) · **BOTTOM LINE re-cut to obs 9/23**, 8th rotation (crc32 `d9a1fee7` / `7dfd6acb`), STATUS 66% of budget · reply packet `53a86c4a8`; PROME confirmed receipt.
+
+**Found:** ① GATE-LIQ-069 L4 HY leg met for the first time (+5 [9/23]); equity leg failed date-matched (APLD −4.6%) ⇒ NOT FIRED. `gate069_legs.py` pairs the T+1 HY obs with the latest equity session: **repair owed.** ② FRED ICE BofA history is a rolling ~3 years (earliest 2023-09-25), so every tier percentile is ranked against a calm window. ③ RPONTSYD is the Treasury leg only; use RPONTTLD (boot.py already sums both legs).
+
+**Self-correction:** the reply-packet header read "~01:4x ET"; it was committed at 01:11:26. A narrative stamp, the same class as `finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock` one day after the fleet flagged it. Fixed in `e700183b2`. **Take every stamp from `date` in the same command that writes it.**
+
+**NEXT SESSION entry point:** `scripts/boot.py`, then the NEXT SESSION table below (re-cut 9/25).
+
+### PRIOR SESSION (2026-09-24 Thu ~21:3x–22:xx ET — Will boot, "update our data with new figures or news". STANDARD: WALTER lane 7 → 0 · 1 correction receipted · BOND 🔴 ask answered · 0 thresholds moved)
 
 **Context:** Book FLAT, $0. *(Sessions 9/12, 9/17, 9/22, 9/23, 9/24-AM wrote no MEMORY block. Their records are `reports/2026-09-17_session.md`, `reports/2026-09-22_session.md` and the STATUS rotation files. This block restarts the chain.)*
 
@@ -294,7 +306,7 @@
 
 ### NEXT SESSION
 
-**RE-CUT 2026-09-24 (Will boot + closeout). This replaces the 8/27 table below, which is kept as history only. Do not work from it.**
+**RE-CUT 2026-09-24 (Will boot + closeout); rows 7–10 updated 2026-09-25. This replaces the 8/27 table below, which is kept as history only. Do not work from it.**
 
 | # | Item | Clock |
 |---|---|---|
@@ -304,7 +316,10 @@
 | 4 | 🟠 **CATO MEDIUM owed list** (STATUS "ROTATED 2026-09-24" block): esp. the **reversed OBDC-vs-BIZD comparison in KB-LIQ-129 + my BROCK packet**. That one is a correction that reached another desk. | open since 9/22 |
 | 5 | 🟡 Transmission check: on the next ≥+12bp 10Y day, did B/BB widen again? (9/23 = 2nd of 21 since 2023-09.) | next rate-up day |
 | 6 | 🟡 August TIC **10/16** · GATE-LIQ-079 FIRE bands **10/31** · buyback program ends **11/4**. | dated |
-| 7 | 🟡 **Re-cut the STATUS BOTTOM LINE onto current data and remove the 9/17-vintage banner** (HENRY correction 9/24, bannered only). Stay under the 75% read-cap trigger. | next data refresh |
+| 7 | ✅ ~~Re-cut the STATUS BOTTOM LINE~~ DONE 9/25 (`227417176`). | — |
+| 8 | 🔴 **Grade the 9/24 ICE cells** (FRED ~9/25 16:15 ET) and each print after, with `scripts/transmission_check.py` on the report §1c rule (REVERSES / BROADENS / CONTINUES / STALLS). Rate-up day ⇒ also the row-5 check. | 9/25 16:15 ET → |
+| 9 | 🔴 **Q3-end persistence verdict:** P1–P5 on the 10/1–10/8 prints (report §3b, KB-LIQ-136). The 9/30 spike is the NULL. | 10/8 |
+| 10 | 🟠 **Repair `gate069_legs.py` cross-date pairing** (T+1 HY obs vs latest equity session; KB-LIQ-126 class). Date-match the cohort session to the HY obs date. | before the next L4 read |
 
 ### NEXT SESSION — 8/27 RE-CUT (SUPERSEDED 2026-09-24; history only)
 
