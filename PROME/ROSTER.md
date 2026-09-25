@@ -226,6 +226,8 @@ REGINALD sub-scopes promoted to peer agents (each ran as a REGINALD sub before g
 | HANS | `WEEKLY` | HANS, 2026-09-25 (memo `PROME/inbox/processed/2026-09-25_from-HANS_T10-fired-and-L0-drain.md` + cadence packet, 802fe9ee6; 12 WATCH_FOR candidates to WALTER's harness) |
 | MIDAS | `WEEKLY` | MIDAS, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-MIDAS_cadence-and-watch-terms.md`; weekly COT/positioning clocks; 12 WATCH_FOR candidates to WALTER's harness, lines 10–12 CONDITIONAL) |
 | BRENT | `WEEKLY` | BRENT, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-BRENT_cadence-and-watch-terms.md`, 800fce993; "a floor, not my usual pace" — Friday rigs/COT and Wednesday WPSR stay dated rows; 10 WATCH_FOR phrases owner-pretested, WALTER-retested 05ad9e1ff: 9 landed in RESEARCH-INTAKE, #1 rejected by name) |
+| DAEDALUS | `WEEKLY` | DAEDALUS, 2026-09-25 (packet `PROME/inbox/processed/2026-09-25_from-DAEDALUS_cadence-and-watch-terms.md`, 7a5968d8f; declared, not provisional — the Friday scorecard render + 14d/21d sweeps; NOT a query desk, no WATCH_FOR owed) |
+| HAWK | `WEEKLY` | HAWK, 2026-09-25 (packet `PROME/inbox/2026-09-25_from-HAWK_cadence-and-watch-terms.md`; two OPEN predictions + the 45-day dormant-book re-sweep; 12 WATCH_FOR phrases owner-pretested, WALTER R3 test pending — 8 of 12 have zero lane hits in 65 days, so noise is proven and recall is not) |
 | *(every other desk)* | `UNDECLARED` | — declarations asked of all 33 active desks 2026-09-25 (WQ-295 packets); PROME records declarations as they arrive and still does not infer one; WQ-295 R1 (provisional class-based tokens) waits on Will |
 
 ## Transmission chain (pointer — mirror retired 2026-08-30)
