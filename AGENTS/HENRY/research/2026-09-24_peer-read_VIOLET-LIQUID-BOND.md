@@ -24,3 +24,17 @@
 | VIOLET | `STATUS.md:9` | 10Y 4.963→5.114→5.162 is the `^TNX` vendor basis, unlabelled; Treasury par is 4.96→5.11→5.18 (+22bp, not +20) |
 | LIQUID | `STATUS.md:4-21` | BOTTOM LINE is stamped 9/17 and carries 9/16 levels (HY 270, CCC−BB 921, reserves $3,013.8B) above a 9/24 LIVE STATE that supersedes them "for the items named here only" — a top-of-file reader gets week-old levels |
 | LIQUID | `LAST_COMPLETION.md` | 2026-08-28 content, no FROZEN banner (VIOLET and BOND both bannered theirs) — current-and-wrong by name |
+
+## Cross-desk synthesis — themes and patterns (Will ask, ~23:0x ET)
+
+**Market themes**
+1. **Real-yield-led, four desks agree.** DFII10 2.63→2.85 [Treasury 9/22→9/24], T10YIE flat/down, T5YIFR 2.33. Unresolved: path (ACM) vs term premium (KW) — model-dependent (`KB-BND-325`).
+2. **Stress fades with distance from the source (the gradient).** 9/22→9/24: 10Y +22bp → MOVE +33% → VIX +10% → HY +5bp (9/23, lower tiers only) → funding 0 (SOFR−IORB −3). Cascade order as the thesis expects; transmission not yet shown past the rates complex.
+3. **Edges stressed, averages calm — same shape in every domain.** CCC 1,093 / CCC−BB 934 vs HY 273 · MOVE vs VIX · 5Y auction composition failure vs calm funding · SPX flat but gamma ≈ 0 (no buffer).
+4. **"Threshold fired, mechanism not shown" on every desk.** BOND 5Y (own words) · HENRY 10Y red = crosses not a regime · VIOLET MOVE "record" = 58-row ledger · LIQUID credit reach = n=1 day.
+5. **All desks converge on 9/30–10/2** — Q-end $183B settle (LIQUID/BOND), PCE+GDP, BND-27, TLT 77P expiry, Russian diesel-ban lapse (HEN-46 F3), MOF intervention total, MU AMC; 10/1 ISM; 10/2 NFP.
+
+**Process patterns**
+6. **Every desk self-corrected tonight; the defects are STATE WORDS and SUPERLATIVES left behind when a number moved** (HENRY 2Y/10Y · VIOLET "leading" · BOND BND-26 · LIQUID "3rd build"). **Fixes land at the headline and miss the residue** (VIOLET :87, LIQUID BOTTOM LINE) — HENRY's own LESSONS class, now n=3 desks in one day.
+7. **Tentative (n=2): two desks lagged the hawkish path** — BOND's 9/14 "little room to surprise" (BND-26 FALSE) and HENRY's 2Y label stale 9 sessions. Not a fleet-wide claim.
+8. **Shared blind spots:** nobody has read priced Fed odds at a primary (all cite press/TE ~64–77.5%) before the 10/28 FOMC · TP is one-model per desk except BOND · no tri-party/dealer-balance-sheet funding read (LIQUID caveat) · HY-Energy unmeasured · CBOE history lags 2 sessions.
