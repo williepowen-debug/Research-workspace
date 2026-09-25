@@ -175,8 +175,14 @@ def _current_baseline_sha():
         return None
 
 
-def record_review(paths, verdict=FROZEN):
+def record_review(paths, verdict=FROZEN, consumed_moves=None):
     """Freeze the identity of the candidate.
+
+    `consumed_moves` — {DEST: ORIGIN} pairs PROME DECLARES as byte-identical `git mv`
+    consumptions of its own inbound packets (WQ-289 (b), DOCKET L473). Declared here so
+    ARGUS can confirm each at the artifact; `verify_review()` re-establishes the bytes
+    itself and never trusts the declaration (P1/P3 in
+    tests/ACCEPTANCE_argus_r100_consumed_move_WQ289.md).
 
     ⛔ The default verdict is FROZEN, never REVIEWED. Freezing is something PROME
     does to its own work; being reviewed is something ARGUS does to it. An earlier
@@ -192,6 +198,7 @@ def record_review(paths, verdict=FROZEN):
         "recorded_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "recorded_by": os.environ.get("PROME_SESSION", "PROME"),
         "paths": entries,
+        "consumed_moves": dict(consumed_moves or {}),
     }, indent=2) + "\n", encoding="utf-8")
     return entries
 
@@ -229,6 +236,141 @@ def _committed_content_id(path, ref="HEAD"):
     except subprocess.CalledProcessError:
         return None
     return hashlib.sha256(blob).hexdigest()
+
+
+# ---------------------------------------------------------------- WQ-289 (b): the narrow L367 form
+
+ORIGIN_REMOTE, ORIGIN_BRANCH = "origin", "master"
+ORIGIN_FULLREF = f"refs/remotes/{ORIGIN_REMOTE}/{ORIGIN_BRANCH}"
+ORIGIN_REF = f"{ORIGIN_REMOTE}/{ORIGIN_BRANCH}"     # display name only — never resolved by this short form
+
+
+def _fetch_origin_sha():
+    """ONE fetch per verify, by EXPLICIT refspec into the FULL remote-tracking ref, then the
+    commit sha of that full ref. Returns (sha, None) or (None, why).
+
+    ⛔ Round-2 reader ❌A (2026-09-25): `git fetch origin master` + `cat-file origin/master:path`
+    read the SHORT name, which a local branch or tag called `origin/master` shadows (git warns
+    "refname is ambiguous" and picks the wrong one), and a repo with no matching fetch refspec
+    updates only FETCH_HEAD, leaving the tracking ref stale — both passed a packet that was
+    never on origin. The refspec pins what is fetched; the full ref pins what is read.
+    ⛔ Round-1 reader ❌6: the fetch itself is load-bearing — CLOSEOUT step 10 runs before
+    safe-push.sh, so the tracking ref can be stale. Failure ⇒ refusal, never a pass."""
+    try:
+        subprocess.run(["git", "fetch", "-q", ORIGIN_REMOTE,
+                        f"+refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}"],
+                       cwd=ROOT, capture_output=True, check=True, timeout=60)
+        sha = git("rev-parse", "--verify", f"{ORIGIN_FULLREF}^{{commit}}").strip()
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
+        err = getattr(e, "stderr", b"") or b""
+        if isinstance(err, bytes):
+            err = err.decode("utf-8", "replace")
+        return None, f"`git fetch {ORIGIN_REMOTE} +refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}` failed ({err.strip()[:80] or type(e).__name__})"
+    return sha, None
+
+
+def _origin_blob_id(path, origin_sha):
+    """sha256 of `<origin_sha>:path` — the blob at the FETCHED commit, addressed by sha, never by
+    a name. Returns (hexdigest, None) or (None, why)."""
+    try:
+        blob = subprocess.run(["git", "cat-file", "-p", f"{origin_sha}:{path}"], cwd=ROOT,
+                              capture_output=True, check=True).stdout
+    except subprocess.CalledProcessError as e:
+        err = (e.stderr or b"").decode("utf-8", "replace").strip()
+        return None, f"`{ORIGIN_FULLREF}@{origin_sha[:9]}:{path}` is not readable ({err[:80] or 'no such object'})"
+    return hashlib.sha256(blob).hexdigest(), None
+
+
+def _index_content_id(path):
+    """sha256 of the INDEX blob `:path` — what a pathspec commit ships (round-2 reader ❌B: the
+    working-tree file can differ from the index under assume-unchanged / skip-worktree / line-
+    ending filters while `git diff --name-only` stays quiet). None if not in the index."""
+    try:
+        blob = subprocess.run(["git", "cat-file", "-p", f":{path}"], cwd=ROOT,
+                              capture_output=True, check=True).stdout
+    except subprocess.CalledProcessError:
+        return None
+    return hashlib.sha256(blob).hexdigest()
+
+
+def _git_sees_r100(origin, dest, ref):
+    """Does GIT record ORIGIN→DEST as a 100%-similar rename? (reader ❌1/❌3/❌4: byte
+    equality with origin/master is not a rename — an addition, or a delete+add whose bytes
+    happen to match a NEWER origin blob, satisfies it; only git's own rename detection
+    proves the local tree HELD the origin and moved it unchanged.)
+    ref=None ⇒ the STAGED move (`git mv` stages it; an unstaged mv is refused);
+    ref given ⇒ the move must be inside that commit (`ref^..ref`)."""
+    if ref:
+        args = ["diff", "--name-status", "-M100%", "--diff-filter=R", f"{ref}^", ref, "--", origin, dest]
+    else:
+        args = ["diff", "--name-status", "-M100%", "--diff-filter=R", "--cached", "--", origin, dest]
+    try:
+        out = git(*args)
+    except subprocess.CalledProcessError as e:
+        return False, f"git could not evaluate the rename ({(e.stderr or '').strip()[:80]})"
+    for line in out.splitlines():
+        cells = line.split("\t")
+        if len(cells) == 3 and cells[0] == "R100" and cells[1] == origin and cells[2] == dest:
+            return True, None
+    where = f"in {ref}^..{ref}" if ref else "in the index (is the move staged?)"
+    return False, f"git does not record ORIGIN→DEST as an R100 rename {where}"
+
+
+def _clean_relpath(p):
+    return (isinstance(p, str) and p and not p.startswith(("/", "./", "../")) and "/../" not in p
+            and not p.endswith("/..") and os.path.normpath(p) == p and "\\" not in p)
+
+
+def _consumed_move_exemption(dest, origin, ref, manifest, listed, origin_sha):
+    """WQ-289 (b), DOCKET L473 — the ONLY exemption from UNREVIEWED, and it is narrow:
+
+    a DECLARED (P1), ARGUS-confirmed (P2: manifest verdict REVIEWED) `git mv` that GIT ITSELF
+    records as R100 (P3/P4: rename source in the parent, identical bytes, staged or committed),
+    whose ORIGIN bytes are on a FRESHLY FETCHED origin/master (P3), of PROME's OWN inbound packet
+    into PROME's OWN processed/ (P5: by PATH, never by subject or filename), with BOTH halves in
+    the candidate list (P8). Anything else returns (False, why) and the caller keeps blocking.
+    Missing information (P6) is a refusal with the reason, never a pass.
+    Returns (True, receipt_line) or (False, why)."""
+    if manifest.get("verdict") != REVIEWED:
+        return False, "declared consumed move but the manifest is not REVIEWED — ARGUS has not confirmed it"
+    if not (_clean_relpath(origin) and _clean_relpath(dest)):
+        return False, "ORIGIN/DEST must be plain normalised repo-relative paths (no `..`, `./`, leading `/`)"
+    if not (_match("PROME/inbox/**", origin) and not _match("PROME/inbox/processed/**", origin)):
+        return False, f"ORIGIN {origin} is not an unconsumed packet in PROME's own inbox"
+    if not _match("PROME/inbox/processed/**", dest):
+        return False, f"DEST {dest} is not under PROME/inbox/processed/ — a move elsewhere is not consumption"
+    if Path(origin).name != Path(dest).name:
+        return False, f"basename changed ({Path(origin).name} → {Path(dest).name}) — not a pure consume-move"
+    if origin not in listed or dest not in listed:
+        return False, "both halves of the pair must be in the --paths candidate list (the origin's disappearance and the destination's appearance are one fact)"
+    if not ref:
+        if os.path.lexists(ROOT / origin):
+            return False, f"ORIGIN {origin} is still present in the working tree (file or link) — a copy, not a move"
+        if os.path.islink(ROOT / dest):
+            return False, f"DEST {dest} is a symlink — git would ship the link text, not the packet"
+        if git("diff", "--name-only", "--", dest).strip():
+            return False, f"DEST {dest} has unstaged changes — the shipped bytes are not the staged bytes"
+    ok, why = _git_sees_r100(origin, dest, ref)
+    if not ok:
+        return False, why
+    # the bytes that SHIP: the commit's blob in the --ref form, the INDEX blob otherwise (never the
+    # working-tree file — round-2 ❌B); and the working-tree file must still equal the index blob
+    now_dest = _committed_content_id(dest, ref) if ref else _index_content_id(dest)
+    if now_dest is None:
+        return False, f"DEST {dest} is absent {('in ' + ref) if ref else 'from the index'}"
+    if not ref and _content_id(dest) != now_dest:
+        return False, f"DEST {dest} on disk differs from its index blob — the shipped bytes are not the bytes on disk"
+    if origin_sha is None:
+        return False, "cannot establish that ORIGIN's bytes are on origin — the fetch/resolve of the remote-tracking ref failed (see the CANNOT-ESTABLISH line above)"
+    on_origin, why = _origin_blob_id(origin, origin_sha)
+    if on_origin is None:
+        return False, f"cannot establish that ORIGIN's bytes are on origin — {why}"
+    if on_origin != now_dest:
+        return False, (f"DEST bytes differ from `{ORIGIN_FULLREF}@{origin_sha[:9]}:{origin}` "
+                       f"({on_origin[:12]} vs {now_dest[:12]}) — not R100; a rename with any content change blocks")
+    return True, (f"R100-CONSUMED-MOVE: {origin} → {dest} — git records R100; byte-identical to `{origin}` at "
+                  f"{ORIGIN_FULLREF} = {origin_sha[:12]} (fetched this verify; blob {on_origin[:12]}); "
+                  f"declared at freeze, manifest REVIEWED (WQ-289 (b), L473)")
 
 
 def verify_review(paths=None, ref=None):
@@ -334,9 +476,45 @@ def verify_review(paths=None, ref=None):
                    "otherwise. (Content comparison above remains a diagnostic.)")
         return 2, out
     if paths is not None:
+        declared = d.get("consumed_moves") or {}
+        if not isinstance(declared, dict) or not all(isinstance(k, str) and isinstance(v, str)
+                                                     for k, v in declared.items()):
+            return 2, out + ["CANNOT-EVALUATE: manifest `consumed_moves` must be a mapping of DEST → ORIGIN strings"]
+        # a declared move exempts BOTH of its paths, and only as a pair: the origin's
+        # disappearance is half of the same fact as the destination's appearance
+        listed = set(paths)
+        origin_sha = None
+        if declared:
+            origin_sha, why = _fetch_origin_sha()
+            if origin_sha is None:
+                out.append(f"CANNOT-ESTABLISH origin state for the declared consumed move(s) — {why}; every declared pair is refused")
+        origins = list(declared.values())
+        dup_origins = {o for o in origins if origins.count(o) > 1}
+        exempt = {}
+        for dest, origin in declared.items():
+            if origin in dup_origins:
+                ok, msg = False, f"ORIGIN {origin} is declared against more than one DEST — the second is a copy"
+            else:
+                ok, msg = _consumed_move_exemption(dest, origin, ref, d, listed, origin_sha)
+            if ok:
+                exempt[dest] = msg
+                exempt[origin] = None   # receipt printed once, on the destination
+            else:
+                exempt[dest] = False, msg
+                exempt[origin] = False, msg
         for path in sorted(set(paths) - set(reviewed) - RECEIPT_PATHS):
+            e = exempt.get(path, "undeclared")
+            if e is None:
+                continue                      # origin half of an exempt pair
+            if isinstance(e, str) and e != "undeclared":
+                out.append(e)                 # the R100 receipt (P8)
+                continue
             bad = True
-            out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed")
+            if isinstance(e, tuple):
+                out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed — "
+                           f"declared consumed move REFUSED: {e[1]}")
+            else:
+                out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed")
     if not bad:
         where = f"in {ref}" if ref else "in the working tree"
         out.append(f"{len(reviewed)} path(s) {where} byte-identical to the frozen candidate "
@@ -444,10 +622,21 @@ def main(argv=None):
     ap.add_argument("--ref", metavar="REF",
                     help="with --verify-review: verify the contents IN THIS COMMIT (e.g. HEAD) rather than "
                          "the working tree — the actual delivery")
+    ap.add_argument("--consumed-move", nargs=2, action="append", metavar=("ORIGIN", "DEST"), default=None,
+                    help="with --record-review: DECLARE a byte-identical git mv of PROME's own inbound packet "
+                         "into PROME/inbox/processed/ (repeatable). WQ-289 (b): the only path an EXCLUDED "
+                         "rename pair can pass --verify-review --paths, and only after ARGUS confirms it "
+                         "(manifest REVIEWED); the tool re-checks the bytes against origin/master itself")
     ap.add_argument("--mark-reviewed", metavar="NOTE", nargs="?", const="",
                     help="promote FROZEN -> REVIEWED after the audit actually ran; refuses if the frozen "
                          "candidate changed")
     args = ap.parse_args(argv)
+    if args.consumed_move and not args.record_review:
+        ap.error("--consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)")
+    if args.consumed_move:
+        dests = [d for _o, d in args.consumed_move]
+        if len(set(dests)) != len(dests):
+            ap.error("the same DEST is declared more than once — one declaration per destination")
 
     if args.record_baseline:
         sha, subj = record_baseline(args.record_baseline)
@@ -479,7 +668,10 @@ def main(argv=None):
     total = len(audited)
 
     if args.record_review:
-        entries = record_review([e["path"] for e in audited])
+        moves = {dest: origin for origin, dest in (args.consumed_move or [])}
+        entries = record_review([e["path"] for e in audited], consumed_moves=moves)
+        for dest, origin in sorted(moves.items()):
+            print(f"  \u21b3 declared consumed move: {origin} \u2192 {dest} (ARGUS confirms at the artifact)")
         missing = [p for p, h in entries.items() if h is None]
         print(f"ARGUS-SCOPE \u00b7 review candidate frozen: {len(entries)} path(s) \u2192 {REVIEW_FILE}")
         if missing:
