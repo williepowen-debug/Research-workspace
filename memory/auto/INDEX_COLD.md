@@ -26,7 +26,6 @@
 - project_phone_signal_architecture — Will wants reliable phone→fleet signal ingestion (Telegram drops)
 
 ## Tool gotchas — embed-pending → tool headers
-- finding_crlf_textmode_tsv_flip — two silent whole-file TSV rewrites; guard = git diff --stat vs an EXPECTED count written first *(n=4)*
 - finding_printf_format_tsv_append_corruption — shell printf corrupts a TSV/log row when the data contains [embedded→scripts/tsv_append.py — DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]
 - finding_market_data_venv_invocation — market-data scripts need repo .venv python; system python3 fails (embed-pending)
 - finding_subdir_launch_hooks_dont_fire — root .claude/settings.json hooks do NOT fire for subdir-launched sessions [embedded→PROME/BOOT.md step 0 — cited by slug; DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]
@@ -374,3 +373,16 @@
 - finding_remote_control_rows_are_own_subagents_under_aliases — Remote Control rows on this host = your OWN subagents; count Teammates first [demoted from HOT 2026-09-19, prome-92 flow pass]
 - finding_grep_respects_gitignore_so_ignored_zones_are_invisible — root sweeps silently skip ignored paths — a zero there is not an absence [demoted from HOT 2026-09-19, prome-92 flow pass]
 - finding_flat_pdf_parse_returns_a_perfectly_counted_wrong_alignment — flat multi-page PDF extract: counts match, alignment WRONG — check a KNOWN row [demoted from HOT 2026-09-19, prome-92 flow pass]
+
+### Demoted 2026-09-24 (PROME flow pass at the prome-1f closeout — hot index hit 75%; predictable-trigger rows; ZERO slugs deleted)
+- finding_the_calendar_tracks_events_and_never_asks_if_the_market_is_open — a docket of RELEASES has no row for the market being SHUT
+- finding_term_hit_absence_check_needs_a_pre_event_baseline — boilerplate hits every time; baseline the term pre-event
+- finding_a_file_that_examples_its_own_structure_is_ambiguous — a template quoting its own headings: anchored edits write INTO the example
+- finding_anchor_splice_deletes_everything_between_nested_anchors — rotation success and failure look identical; census the union (n=3)
+- finding_a_read_only_agent_is_the_one_you_assume_has_nothing_to_lose — a read-only spawn writes nothing, so its loss is invisible; ask it anyway
+- finding_a_rescue_instruction_ages_faster_than_the_finding — escalating guarantees concurrent work; the fix rots before the diagnosis
+- finding_route_by_decay_rate_not_by_confidence — sort by DECAY RATE not confidence; a stated caveat makes fast routing safe
+- finding_declared_data_wall_needs_fleet_memory_check — at 3 identical negatives the finding is ACCESS, not data
+- finding_an_exit_legs_justification_expires_unwatched — nothing owns the RATIO between a row's two legs
+- finding_a_scope_rule_allocates_visibility_not_superior_judgement — a scope rule names who can SEE the population, never who judges better
+- finding_an_amendment_read_for_one_item_leaves_the_others_derived_from_the_original_live — a SELF-authored refutation has no trigger at all (n=3)
