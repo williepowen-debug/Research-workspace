@@ -1,8 +1,8 @@
 {
   "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
   "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
-  "sha": "c877693449f0c12c1abaa1c84a0b37e9163172cd",
-  "subject": "PROME prome-1f tail closeout: WQ-289 pushed, VIOLET walk-backs queued, Deck republish authorized",
-  "recorded_at": "2026-09-24T23:50:34-04:00",
+  "sha": "aa840d5873bf49d7ffb1a73eef328bde9030fdde",
+  "subject": "PROME prome-fa closeout: six-desk corner delivered; WQ-290 registered; WQ-289 (b) unverified",
+  "recorded_at": "2026-09-25T02:02:47-04:00",
   "recorded_by": "PROME"
 }
