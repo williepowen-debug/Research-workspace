@@ -845,3 +845,24 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 ### Block BD — OPEN-table 'closed 9/10 / 9/11' history note, 9/11 vintage (STATUS line 83)
 
 *Closed 9/10 and rotated off: **#1** §202(c) expiry → **GRADED (d) quiet lapse**, full evidence `reports/2026-09-10_DOCKET-L249_202c-lapse-grade.md` · **#6** VULCAN both legs · **#7** GPU-instrument ruling + its 9/6 amendment (consumed this session) → archive Block J. · **Closed 9/11:** **#2** P1 de-escalation → EXECUTED (Blocks L–S rotated).*
+
+### Blocks BE–BF — closeout read-cap pass, same 9/25 session (BRENT correction pushed STATUS back to 71.4%)
+
+| block | STATUS source line(s) | bytes | crc32 |
+|---|---|---:|---|
+| Block BE | 53 | 331 | 2041413691 |
+| Block BF | 77 | 432 | 1675532761 |
+
+### Block BE — WITHDRAWN-section preamble, 9/10–9/11 vintage (STATUS line 53)
+
+**14 claims withdrawn or scoped (13 in the 2026-09-06 five-round review; a 14th — the P4 headline word "de-contaminated" — found still standing and fixed 9/10).** Register verbatim → archive § `CORRECTIONS_LEDGER_FULL_2026-09-06`; reasoning → `LESSONS.md` **L-46…L-51**, `workbook/KB.tsv` **KB-103/105/106/107/110-113**.
+
+### Block BF — INSTRUMENT operative-facts paragraph, 9/11 vintage (STATUS line 77)
+
+① `rt_unverified_fivemin_lmps` retains **~15 days** and returns short windows with NO error — `read_pjm_onpeak_mean` asserts per-day COVERAGE (held 9/11: n=288 on 9/10). ② The contamination flag is a **single-day outlier detector**, not a window classifier — silence ≠ clean. ③ `rt_hrl_lmps` retains **≥67 days**; when one feed's horizon blocks a question, probe the siblings. *Full text verbatim → archive Block U.*
+
+| Block BG | 5 | 253 | 1953479411 |  *(closeout pass, 9/25)*
+
+### Block BG — header read-cap-budget line, 9/11 vintage (STATUS line 5)
+
+**Read-cap budget (root `CLAUDE.md` §Data Hygiene — fleet rule, binding above any owner-set number):** **32,550 B** per boot-read surface. **⛔ The old "64,000 B" line is RETIRED** — reasoning → archive § `WATT-02_GRADE_AND_READCAP_2026-09-03`.

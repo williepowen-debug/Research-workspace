@@ -2,10 +2,10 @@
 
 **Last Updated:** 2026-09-25 09:36 ET (eleventh session — Will-directed boot + catch-up; **desk was DARK 9/12–9/24**) · **Status:** 🔴 **P1 3→5 RECORDED 9/25 on the registered RED letter — PJM ran a second autumn capacity emergency 9/16–9/18 while this desk was dark.** 9/16 evening PJM-RTO 5-min held **~$3,710/MWh** (29 intervals ≥$1,000); 9/17 **EEA-1** (Max Gen / Load Mgmt Alert) + Pre-Emergency/Emergency DR + DOE §202(c) **202-26-45** (9/17–9/18, lapsed unrenewed). **WATT-11 MISS.** The fire is SPENT — de-escalation eligible at the first boot ≥9/26. Composite **14→16/20**
 **Class:** Market-agent (grid stress → power price → power cost) · **Spawnable by:** PROME or Will · **Maturity:** **L4 (Conf H)** *(DAEDALUS 2026-09-05)*
-**Read-cap budget (root `CLAUDE.md` §Data Hygiene — fleet rule, binding above any owner-set number):** **32,550 B** per boot-read surface. **⛔ The old "64,000 B" line is RETIRED** — reasoning → archive § `WATT-02_GRADE_AND_READCAP_2026-09-03`.
+**Read-cap budget:** **32,550 B** per boot-read surface (root `CLAUDE.md` §Data Hygiene; binding above any owner number). Old "64,000 B" line retired → archive Block BG.
 **Superseded content →** `status_archive/STATUS_ARCHIVE_2026-09.md` (Sept rotations, per-block bytes + crc32 in its manifests; Blocks L–AC moved 9/11; **AD–AW moved 9/25**) · `status_archive/STATUS_ARCHIVE_2026-08.md` (**CLOSED**) · `archive/SCRATCH_ARCHIVE_2026-07-08.md`
 
-**Read-cap:** read the current figure from `boot.py` leg 3 / `PROME/tools/measure.py`, never from this sentence. 9/25: 20 lines rotated verbatim (Blocks AD–AW, bytes + crc32 in the archive manifest) BEFORE the emergency write-back replaced them. Rotation, never deletion; never trim live state to hit the number.
+**Read-cap:** read the figure from `boot.py` leg 3 / `PROME/tools/measure.py`, never from this sentence. 9/25 rotations: Blocks AD–BG verbatim, bytes + crc32 in the archive manifest. Rotation, never deletion.
 
 > **Eleventh session, 2026-09-25 — catch-up after 13 dark days.** ⚠️ **The desk missed a live P1 emergency inside its own registered test window (`WATT-11` opened 9/15; no WATT session 9/12–9/24), and no fleet route delivered it** — HENRY, AEOLUS and NEXUS surfaces carry nothing on it. Recorded 8 days late, from primaries: DM2 5-min tape (pulled 9/25 — the feed's ~15-day retention still reached 9/11), EIA-930, PJM Inside Lines 9/16 + 9/17, DOE 202-26-45 (PDF read by a sweep agent). **Driver = maintenance season, not breakdowns:** PJM-RTO planned outages **0 → 16,056 MW overnight 9/11→9/12**, forced outages ordinary (~10.5 GW); load peaked only **127.7 GW** (July's EEA-1: 159.0 GW). → KB-121…129, **L-53**, FL-WATT-15, `WATT-12`.
 
@@ -50,7 +50,7 @@
 
 ## ⛔ WITHDRAWN — do not re-assert (full 11-row register → archive)
 
-**14 claims withdrawn or scoped (13 in the 2026-09-06 five-round review; a 14th — the P4 headline word "de-contaminated" — found still standing and fixed 9/10).** Register verbatim → archive § `CORRECTIONS_LEDGER_FULL_2026-09-06`; reasoning → `LESSONS.md` **L-46…L-51**, `workbook/KB.tsv` **KB-103/105/106/107/110-113**.
+**14 claims withdrawn or scoped (9/6 review + 9/10)** — register verbatim → archive Blocks BE + § `CORRECTIONS_LEDGER_FULL_2026-09-06`; reasoning → `LESSONS.md` L-46…L-51.
 
 **The standing do-not-reassert list, in one line each:**
 ⛔ **Do-not-reassert, in eight words each (full list verbatim → archive Block V):** backup generation *authorised, not observed* (authority lapsed, record still ❌) · 55 GW seam agreed on the *number* · P2/P3 *linked* roots · 28/29 cleared at *100%* of its own cap · 9/1 = *episode* peak, not season · spark neither *widened* nor *never moved* · reconstruction = *sensitivity analysis* · autumn non-heat emergency *opens an investigation*.
@@ -74,7 +74,7 @@
 
 ## INSTRUMENT — the two operative facts (reasoning → **L-44**, KB-WATT-101/104; long form → archive)
 
-① `rt_unverified_fivemin_lmps` retains **~15 days** and returns short windows with NO error — `read_pjm_onpeak_mean` asserts per-day COVERAGE (held 9/11: n=288 on 9/10). ② The contamination flag is a **single-day outlier detector**, not a window classifier — silence ≠ clean. ③ `rt_hrl_lmps` retains **≥67 days**; when one feed's horizon blocks a question, probe the siblings. *Full text verbatim → archive Block U.*
+① 5-min feed keeps **~15 days**, short windows return NO error (assert per-day coverage) · ② contamination flag = single-day detector, silence ≠ clean · ③ `rt_hrl_lmps` keeps **≥67 days**. *Full text → archive Blocks BF + U.*
 
 ---
 

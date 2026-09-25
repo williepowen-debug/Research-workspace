@@ -1,6 +1,6 @@
 # WATT — NEXUS_BRIEF (curated cross-agent sync)
 
-**As of 2026-09-25 09:42 ET — SESSION CLOSING** *(eleventh session; Will-directed boot + catch-up after the desk was **dark 9/12–9/24**. Folded as the session's LAST write, after the final STATUS write — amendment 10.)* Composite **16/20 (was 14)** · status **🔴 on the letter, SPENT in state** · **P1 5 / P2 5 / P3 4 / P4 2** · **fired-count 2 of 4** *(P1's is a **spent** fire)*. **No deploy-posture change, no trade proposed.**
+**As of 2026-09-25 11:44 ET — SESSION CLOSED** *(eleventh session; Will-directed boot + catch-up after the desk was **dark 9/12–9/24**. Folded as the session's LAST write, after the final STATUS write — amendment 10.)* Composite **16/20 (was 14)** · status **🔴 on the letter, SPENT in state** · **P1 5 / P2 5 / P3 4 / P4 2** · **fired-count 2 of 4** *(P1's is a **spent** fire)*. **No deploy-posture change, no trade proposed.**
 *Prior brief (2026-09-11, tenth session) → `archive/NEXUS_BRIEF_2026-09-11.md`.*
 
 ## ROUTING — who needs what from this session

@@ -26,6 +26,8 @@
 - Packets: HENRY 🔴 · AEOLUS (heat leg) · BRENT (Appalachian basis) · DAEDALUS (asks done) · PROME 🔴 (routing gap).
 - DM2 spend: ~6 calls over ~30 min (2 boot + tape range + outages + 2 boot re-run for the read-cap check — **don't re-run boot.py just to read leg 3; use `scripts/read_cap_check.py --agent WATT`**).
 
+- **Later same session (peer exchanges, all committed + pushed):** WATCH_FOR["WATT"] 14 PJM-emergency terms LANDED (intake repo `ff21407`) · cadence **WEEKLY** declared (WQ-295) · WATT-10 phrases: 4 WALTER-tested ADOPTED ("FERC approves/rejects PJM Interim Resource Adequacy / data center"), 2 "accepts" variants with WALTER to test — PROME lands · ⚠️ **BRENT corrected my P4 basis claim** (KB-130): the WV force majeure is a TAKEAWAY cut ⇒ production-area basis likely WEAKENS vs Henry — **sign UNKNOWN, no free primary; do not fire or un-fire P4 on it.** NG=F rolled Oct→Nov 9/25 — label the contract on any roll-week spark.
+
 ## ▶ PICK UP HERE (priority order)
 1. 🔴 **P1 de-escalation 5→3 — execute at the first boot ≥9/26** IF the board and the FULL 9/25 tape show no EEA-class posting / no new §202(c) (the 08:10 $1,009 single print is already logged). Same letter as 9/11 (L-51 calendar days).
 2. 🟠 **`WATT-12` coverage duty** — the 5-min feed keeps ~15 days. **Next boot no later than 10/9**; every boot pulls the tape back to the last covered day. **Cadence DECLARED `WEEKLY` 9/25** (WQ-295 packet to PROME) — next boot due by **10/2**. `WATCH_FOR["WATT"]` (14 PJM-emergency wake terms) verified LANDED in the intake repo (`ff21407`); WATT-10 phrases (`FERC PJM large load`, `FERC PJM co-location`) sent to WALTER to test.
