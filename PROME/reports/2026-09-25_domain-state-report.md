@@ -1,9 +1,9 @@
 # Domain state report — Friday 2026-09-25, pre-open (written ~02:4x ET, `prome-fa`)
 
-**Basis:** HEARTBEAT twenty-first base (post-close Thu 9/24; equities/ETFs/vol `[9/24c]`, FRED cells `[9/23]`, futures settles owner-owed) plus tonight's five-desk deliveries (VIOLET · HENRY · LIQUID · ORACLE · BOND) and FORUM-7. **Nothing here is live** (root rule #4): Friday's open supersedes every level. No new decision for Will; the two rulings of the night (WQ-290, WQ-157 leg ②) are encoded.
+**Corrected 02:5x ET on CATO's read (`21ea55045`): gamma already re-measured 9/24 · HY '7bp' is a level distance, sizing closed · 9/28 is a checkpoint not the expiry · VLO buffer is Thursday's provisional estimate · 14 held lines.** **Basis:** HEARTBEAT twenty-first base (post-close Thu 9/24; equities/ETFs/vol `[9/24c]`, FRED cells `[9/23]`, futures settles owner-owed) plus tonight's five-desk deliveries (VIOLET · HENRY · LIQUID · ORACLE · BOND) and FORUM-7. **Nothing here is live** (root rule #4): Friday's open supersedes every level. No new decision for Will; the two rulings of the night (WQ-290, WQ-157 leg ②) are encoded.
 
 ## The whole picture in one paragraph
-The one regime-level fact is a rates break: the 10-year rose 22bp between the 9/22 and 9/24 closes, all real yield, with the 2027–28 futures curve moving as much while the October meeting moved four. Two desks attribute the week to a repriced policy path and have pre-committed (FORUM-7) how the two contested days will be judged when the term-premium models publish. Everything downstream is still a same-day co-move, not a transmission: credit is unusual only at the CCC rung, funding is clean on every gauge we can see, equity vol is low, mortgages crossed 7% by three basis points, and the yen broke a rate-check level with no intervention. The book is unchanged, defined-risk, and its only live line is TERRY's VLO stand-down watcher at about 36 cents of buffer as of Wednesday.
+The one regime-level fact is a rates break: the 10-year rose 22bp between the 9/22 and 9/24 closes, all real yield, with the 2027–28 futures curve moving as much while the October meeting moved four. Two desks attribute the week to a repriced policy path and have pre-committed (FORUM-7) how the two contested days will be judged when the term-premium models publish. Everything downstream is still a same-day co-move, not a transmission: credit is unusual only at the CCC rung, funding is clean on every gauge we can see, equity vol is low, mortgages crossed 7% by three basis points, and the yen broke a rate-check level with no intervention. The book is unchanged, defined-risk, and its only live line is TERRY's VLO stand-down watcher at about 36 cents of buffer on Thursday 9/24's PROVISIONAL estimate (not a settled figure; TERRY grades at the settle).
 
 ## Rates — 🔴 the driver, attribution contested (HENRY · BOND · NEXUS)
 - **Observed:** 10Y 5.18 [Treasury 9/24], +22bp over two sessions = real +22 (2.63→2.85), breakeven flat 2.33; 30Y 5.40 [9/23 H.15], a 2004 high; 2Y 4.87 [9/24], red above 4.60 every close since 9/11. Futures: post-Oct EFFR +4.0bp, post-Dec +4.0, SOFR Dec-27 +19.0, Dec-28 +22.5 (vendor last trade 15:00 ET 9/24, not CME settlement). October hike ~72% on HENRY's FedWatch-method computation, ±2pp.
@@ -15,7 +15,7 @@ The one regime-level fact is a rates break: the 10-year rose 22bp between the 9/
 ## Credit — 🟠 bottom rung only, transmission unproven (LIQUID · BOND)
 - **Observed [FRED 9/23]:** HY 273 · CCC 1,093 (2026 high, 7bp from 1,100) · B 278 · BB 159 · BBB 95 · IG 77. Three-week: CCC +40 (82nd percentile of its own history), everything above CCC ordinary, IG/BBB tighter.
 - **LIQUID's grade:** CONTINUES at the bottom rung at an ordinary pace; not BROADENS, not REVERSES. The reach into B was one day. Caveat that travels: FRED's ICE history is a rolling ~3 years, so every percentile is ranked against a calm window.
-- **Gates:** HY re-arm ≥280 is 7bp away; re-kill <260 ×2 is 13bp away, 0-of-2. IG >94 (`GATE-LIQ-072`) 17bp under, drifting tighter.
+- **Gates:** HY OAS is 7bp under the ≥280 re-arm LEVEL, but the re-arm needs sustained readings (s=3) and the separate wrapper-leading condition, which is adjudicated NOT ARMED — the sizing gate stays CLOSED regardless of a single print. Re-kill <260 ×2 is 13bp away, 0-of-2. IG >94 (`GATE-LIQ-072`) 17bp under, drifting tighter.
 - **Next:** the 9/24 ICE cells at ~16:15 today, graded on LIQUID's pre-registered rule (a fourth outcome, STALLS, added).
 
 ## Funding and quarter-end — 🟡 clean where observed (LIQUID)
@@ -26,7 +26,7 @@ The one regime-level fact is a rates break: the 10-year rose 22bp between the 9/
 ## Equity volatility — 🟠 a rates-vol shock, not an equity-vol one (VIOLET)
 - **Observed [9/24c, delayed quotes — CBOE has published neither 9/23 nor 9/24 history as of 01:08 ET]:** VIX 15.67 · VVIX 90.57 · SKEW 146.04 · MOVE 104.58 [investing.com primary], +33% in two sessions but p98.3 of VIOLET's 58-row ledger, not a historic record.
 - **What was withdrawn tonight:** the RQ #8 claim that MOVE shocks predict a VIX jump had a return-clock defect; corrected and parked with Will's wording — the ten-event sample does not establish a forward VIX signal in either direction. Rates-vs-equity vol is a spread that moved on the same days, never a lead. The "signature thresholds" stay off the dashboard.
-- **Gamma:** no current gamma-sign claim is publishable until HENRY's board re-measures at today's close (last published board 9/21 intraday).
+- **Gamma:** HENRY re-measured at the 9/24 close (committed 21:44 ET; STATUS row 4): net gamma ≈ 0 (14d −$2.0B, 35d +$1.6B), sign INDETERMINATE, spot ON the flip band 7,702–7,707 — no directional gamma claim is publishable either way; the board re-measures at today's close.
 - **Next:** CBOE history for 9/23–9/24 (gates the WQ-259 page republish); CFTC TFF VIX positioning as-of 9/22 at ~15:30 ET today.
 
 ## Energy — 🔴 Friday grades three lines at once (BRENT · HENRY · TERRY · FALCON)
@@ -53,9 +53,9 @@ The one regime-level fact is a rates break: the 10-year rose 22bp between the 9/
 - GLD $391.69 [9/24c] vs $398.38 [9/21c]; DFII10 +13bp d/d [9/23] and MIDAS's beta implies a fall of that sign. `GCZ26` settle owner-owed. MIDAS has not re-read since 9/11. The book is net long duration through GLD 17.
 
 ## Prediction markets — 🟡 aligned, no disagreement to trade (ORACLE)
-- October hike: futures +18.0bp vs Polymarket +16.5 / Kalshi +16.1–16.6 expected change at 15:00 ET 9/24, before basis adjustments — no "venues lag futures" claim survives. Recession: Polymarket 10.5% vs Kalshi 5.5% are different contracts (Kalshi has no NBER leg), so the gap is structural. Oil: the v5 $110 October leg must be re-pinned by 9/28 (L299) or v5 dies and a new strike is Will's call.
+- October hike: futures +18.0bp vs Polymarket +16.5 / Kalshi +16.1–16.6 expected change at 15:00 ET 9/24, before basis adjustments — no "venues lag futures" claim survives. Recession: Polymarket 10.5% vs Kalshi 5.5% are different contracts (Kalshi has no NBER leg), so the gap is structural. Oil: Monday 9/28 is the re-pin CHECKPOINT for the v5 $110 October leg (L299); v5 dies only if no October $110 market is listed by the September close (2026-10-01T03:59Z), and a new strike is then Will's call.
 
-## Book (mirror `FORGE/STATUS.md`, three vintages; ⛔ WQ-274: not transaction-reconciled, not current-book-verified)
+## Book — 14 held lines + 2 staged VLO shares (mirror `FORGE/STATUS.md`, three vintages; ⛔ WQ-274: not transaction-reconciled, not current-book-verified)
 Fidelity options: 004 TLT Sep-30 77P ×20 · TLT Oct-16 82P ×2 · KRE Dec-18 60P ×5 · KRE Sep-30 60P ×2 (lapse) · APO Dec-18 95P ×1 · HBAN Oct-16 16P ×2. Robinhood: WAL Dec-18 70P ×1 · KRE Jan-15-2027 25P ×1. Stock: USO 37 · GLD 17 · TBT 10 · AAPL 10 · APD 2 · VLO 1 (+2 staged). $0 moved by PROME 8/28–9/25. Concentration: the active book is one "Mideast stays hot" bet with a single shared falsifier (TERRY §9).
 
 ## What decides the next 24h, by owner
