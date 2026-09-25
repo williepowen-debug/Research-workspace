@@ -27,21 +27,7 @@ Session: **2026-09-25 Fri, Claude Opus 5.5 as WALTER (`walter-9c`)**, Will via T
 
 **Telegram to Will:** boot report sent (msg 4663). It said "no decision today". ⚠️ **PROME has since registered WQ-294 (the HANS spawn) for Will's word, so a follow-up line owes him that.**
 
-## BOOT LEG — 2026-09-24 20:34Z, after /clear (Will via Telegram: "please boot up"), same `walter-f9` session name
-
-**Boot PARTIAL.**
-- **Run:** 0 (no pull, 0 behind origin; foreign dirty tree) · 0.5 doctor 0 HIGH / 4 MED · 1–4 · 6 both routing files whole · 6b (RED scan sha matched canon; 12/8/11/17 rows, no registry commit since the prior read) · 6c post-close Yahoo daily bars for Brent/cracks, VIX, KRE/WAL, 10Y/30Y, JPY, TTF, EURUSD · 7 (no new BOARD ids since -019) · 7b CLOSED · 7d DEWEY correction handled · 7e/7e(f) · 7f empty · 7g empty · 8 · 9 · 9a rc 0 · 9b.
-- **Not run:** CREED-T-08a; HANS Bund/gilts/storage; Cushing; SKEW 9/24; FILTER_SPEC Boot Context scoped reads; REGISTRY refresh beyond BOND.
-- **Checks:** `boot_basis_check` REVIEW ×11 and `reads_check` UNKNOWN (both unchanged).
-
-**Lane batch BM-20260924-02 CLOSED 17/17:** 5 DISPATCH, 3 FOLD, 6 DUP, 3 KILL. Commits `261bd1b2f` (dispatch) and `ed7f2a0fd` (the DR-5 note), both LOCAL. **PROME registered WQ-284 on the HOMER doorbell (`c56b1fbc5`).**
-- `-020` IMMEDIATE → **HOMER**: PMMS 7.03% crosses HOMER's 7.0% RED band. **Doorbelled to PROME (prome-f5)** on 3b.
-- `-021` PRIORITY → **BRENT**: Yanbu tanker loadings NOT resumed as of 9/24 (Reuters via Baird). Bears on the BG-02 grade tomorrow.
-- `-022` PRIORITY → **BROCK**: APO record put volume ~94:1 (AI-assisted source).
-- `-023` PRIORITY → **FLG**: rent freeze, **no stay 9/24**, merits ruling by year-end. This is the FOLLOW-UP #5 search.
-- `-024` ROUTINE info: HY OAS 273 [9/23].
-- **DEWEY dc1bddd37:** the DR-5 ledger note is corrected (dollars-share, not a unit ceiling), and the handoff is filed.
-- **SAM (sam-61, Will-launched) CONSUMED its lane and answered at 20:58Z (`bb0c0da2f`):** ladder UNCHANGED, Nippon Life immaterial by bound, UBS carried narrowly. The packet is filed. `-025` relays SAM's CFTC datum (info). DOORBELL_LOG consumed_at is filled. **The 9/21 `-018` deliberate NO now computes as a MISS** (referent: Tokyo reopen 9/24, before consumption).
+## BOOT LEG (9/24, 20:34Z) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25 ②" (2031 B, crc32 5be16217). Superseded by the 9/25 boot; its open items are carried in FOLLOW-UP.
 
 ## LATER LEG (9/24, ~18:30–19:3xZ) — ROTATED VERBATIM 2026-09-25 to `SESSION_LOG.md` § "LAST_COMPLETION rotation 2026-09-25" (4938 B, crc32 9f988ce8) for the read-cap budget. Its open items are already carried in FOLLOW-UP / OPEN DESIGN DECISIONS below.
 
