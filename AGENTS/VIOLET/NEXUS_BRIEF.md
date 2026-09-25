@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-24 21:1x ET, graded on the **September 24 session close** (post-close catch-up session; Will's ask "get caught up with fresh data"). **STATUS commit:** `c1b35405b`. Framework v4.1.1 (**unchanged**). Numerical dashboard: [STATUS](STATUS.md). FOMC grade records: [part 1](research/2026-09-17_VIO-FOMC-0916_GRADE_part1.md) · [part 2](research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md) · **[part 3: LEG 2 + WHOLE LETTER](research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md)**.
+**As of:** 2026-09-24 21:1x ET, graded on the **September 24 session close** (post-close catch-up session; Will's ask "get caught up with fresh data"). **STATUS commit:** `0d8616964` (adds Q2 contribution section for LIQUID's prospective test, DOCKET L477; no vol-complex value changes since prior STATUS). Framework v4.1.1 (**unchanged**). Numerical dashboard: [STATUS](STATUS.md). FOMC grade records: [part 1](research/2026-09-17_VIO-FOMC-0916_GRADE_part1.md) · [part 2](research/2026-09-18_VIO-FOMC-0916_GRADE_part2.md) · **[part 3: LEG 2 + WHOLE LETTER](research/2026-09-24_VIO-FOMC-0916_GRADE_part3.md)**.
 
 ## CROSS-DOMAIN
 

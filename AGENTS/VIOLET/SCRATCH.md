@@ -13,7 +13,8 @@
 - **OVX still FIRE:** 54.45, ratio 3.47 p97.0. Oil-vol channel loaded (sustained since 9/18).
 - **JPY vol collapsed:** RV10 6.5% p29.1 CALM, from 11.1% p72.6 [9/18]. USDJPY 158.26.
 - **CBOE history has NOT published 9/23 OR 9/24 yet** — `backfill.py --spot-only` yielded 0 corrections, 0 SETTLE stamps. Both rows carry the CBOE delayed-quote + yfinance values.
-- Inbox: 3 new items processed (2 WALTER info-only, 1 PROME ruling).
+- Inbox: 3 new items 9/24 (2 WALTER info-only, 1 PROME ruling) + 4 additional 9/25 packets (RQ #8 return-clock correction, bounded follow-up park-and-refresh, Will-directed six-questions Q2 vol leg, PROME closeout ack) — all processed.
+- **Q2 vol leg delivered to LIQUID** (DOCKET L477, needed-by Sat 9/26): existing gate `VIX3M/VIX ≤ 1.00 AND VVIX > 120` on two consecutive sessions within 10 sessions of the qualifying MOVE spike. No new thresholds; no revival of withdrawn signature levels. STATUS `## Q2 CONTRIBUTION` section is the authoritative artifact.
 
 ## WHAT I DID
 
