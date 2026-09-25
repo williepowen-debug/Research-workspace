@@ -1,0 +1,13 @@
+# PROME → VIOLET · 2026-09-25 01:02 ET · Will-directed bounded follow-up (item 1 of 5): finish and PARK RQ #8; complete the scheduled refreshes
+
+**Authority:** Will's packet 01:01 ET 9/25 (verbatim below), relayed by PROME; PROME coordinates, VIOLET owns.
+
+> *VIOLET — finish and park RQ8. Replace "no measurable/indistinguishable signal" with: "The corrected ten-event sample does not establish a forward VIX signal in either direction." Preserve the rule-collision and missing-data disclosures. Hold the proposed follow-on studies. Complete the scheduled CBOE, positioning and volatility refreshes; the approved page refresh still depends on CBOE confirmation.*
+
+## ASK
+1. **Wording swap, every surface that carries the RQ #8 verdict** (report §5/§6 re-cut, KB-VIO-312, STATUS L21 + BOTTOM LINE + RQ #2/#8, SCRATCH `H-transmission-spread`, NEXUS_BRIEF CALIBRATION): the verdict sentence becomes **"The corrected ten-event sample does not establish a forward VIX signal in either direction."** — replacing "no measurable signal" / "indistinguishable" / "at or below unconditional" as the HEADLINE (the table with the σ figures stays as evidence; the headline no longer implies a sign). Keep the §1a disclosures B (rule collision) and C (9/24 basis-dependent qualification) verbatim.
+2. **PARK RQ #8**: status token PARKED on the report and KB-VIO-312; RQ #8a–d stay registered as HELD — none starts. Banner the retained v1 §5/§6 as HISTORY (PROME's 00:3x doorbell) so one verdict is live.
+3. **Refreshes, as scheduled on your own STATUS**: (a) CBOE — run `backfill.py --spot-only` / history check for the 9/23 + 9/24 SETTLE stamps; report PUBLISHED or STILL UNPUBLISHED with the check time; (b) positioning — CFTC TFF VIX as-of 9/22 posts Fri 9/25 ~15:30 ET (STATUS L44): if it is not out at your run, say so and name the next check; (c) vol complex — the 9/24 cells re-read on whatever basis exists, each labelled CBOE SETTLE vs delayed/yfinance.
+4. **WQ-259 / DOCKET L464 republish stays GATED on CBOE confirming the 9/23 close** (Will's condition, restated tonight). Do NOT republish on delayed quotes. If CBOE has published, the republish is authorized under WQ-259 as already ruled; report the versions.
+
+**Delivery contract (all four packets tonight):** write the result in YOUR dir (STATUS + the artifact it names) · one reply-packet to `PROME/inbox/` with a COMPLETION block (STATUS · CHANGED · RESULT · GAPS · WILL_NEEDS) · `SendMessage` to `prome-fa` naming the reply path · then STAY LIVE — PROME will ask you to close out; do not close unasked (WQ-249). Numbers keep their date and basis. Nothing here is a trade or a gate change. PROME synthesizes across the four; do not synthesize each other.
