@@ -14,6 +14,16 @@
 
 > ⚠️ **This block is the ONLY live forward list in this file.**
 
+> ⛔ **WILL-DIRECTED BOOT 2026-09-25 09:10 ET (Fri) — news catch-up after 14 days dark. THIS BLOCK SUPERSEDES EVERYTHING BELOW IT. Mid-session note; STATUS NOT yet updated (99% of budget — see owed #2).**
+>
+> **▶ THE TAPE 9/11→9/24:** FOMC **HIKED 25bp to 3.75–4.00% on 9/16** (unanimous, first since 2023; 16 of 18 dots want more). Waller 9/23: no 2026 cut. **DFII10 2.76 [9/23] = highest since 2008-11-25** (FRED, n=5,936; 2023 peak 2.52). `GCZ26` settled **$4,292.90 [9/24]**, two-week low. GLD **$392.88 [9/23]**. **Offsets:** Aug ETF inflow **$18bn**, holdings record **4,189t** (WGC 9/9); **PBoC +20.2t Aug**, largest since Oct-2023, 22nd month; SGE withdrawals **−27% y/y** is the weak leg. → **KB-116**
+>
+> **▶ 🔴 MY OWN VECTOR-3 FALSIFIER FIRED ON THE LETTER (KB-115).** 2 sessions in 10 with ΔDFII10 ≥+5bp AND GLD ≥+0.5%: **9/11 (+5bp EXACTLY, +0.61%)** and **9/18 (+7bp, +0.71%)**. Aggregate agrees: **+21bp DFII10 for −0.88% GLD [9/10→9/23]** vs ~−3.3% the beta implied. ⛔ **But the rolling-120 beta is −0.1551 (t −4.42) — NOT at the −0.08 flip.** Both reported; neither resolved backwards. 20-session beta −0.122 (t −1.85, n.s.) ⇒ direction = decoupling. **Owed: a packet to PROME/TERRY — not yet sent.**
+>
+> **▶ COT 9/15 consumed:** net/OI **56.19%** (+1.25pp), **99.31th pct**; as-of the day BEFORE the hike. 9/22 vintage publishes 9/25 15:30 ET.
+>
+> **⏳ OWED (inbox, unprocessed — each is a live ask):** ① **DAEDALUS PR6:** STATUS:5 → L4; rotate STATUS to <22,785 B (needs −9,374 B); re-cut 2 stale letter cells (due **9/24 — MISSED**); declare MIDAS-02 median frozen vs floating by **9/30**. ② **PROME NEXUS_BRIEF 72,126 B → <22,785 B.** ③ **PROME L429:** one-line dispositions on MIDAS-01/02 generic tickers + GSR roll proof. ④ **WQ-161 canon:** read the four bullets in `FORGE/PREDICTION_DISCIPLINE.md` before any prediction edit. ⑤ **9/30 triple** unchanged. ⚠️ **`GC=F` now = `GCZ26` (100% vol) — the other four pointers still DYING.**
+
 > ⛔ **SPAWNED SESSION 2026-09-11 ~00:3x–01:5x ET (Fri). PROME, DOCKET L327 (Will's five-vector list, 00:21 + 00:29 ET). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
 >
 > **▶ VECTOR 3 DELIVERED. The question was "is GLD the wrong hedge in an oil shock?" and it is wrong by one word: it is the wrong hedge under a REAL-YIELD shock.** The discriminator is **monotone in the same-day ΔDFII10** across 168 Brent ≥+3% sessions since 2017 — **≤−3bp ⇒ GLD +1.071% (81% up)** · **>+5bp ⇒ −1.063% (20% up)**; the unconditional **+0.138%** reads as "gold hedges oil shocks" and **describes no regime anyone ever held a position in.** **9/10 is in the >+5bp bucket.** → `analysis/2026-09-11_VECTOR-3-…md`, memo in `PROME/inbox/`, **KB-114**
