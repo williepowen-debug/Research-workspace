@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-09-03 Thu ~19:5x–20:3x ET — PROME-spawned dark-owner drain `prome-8c`, Tier-1; markets closed. STANDARD: 11 items drained · WQ-162 fold · SIG-005 verified · 0 thresholds moved)
+### CURRENT SESSION (2026-09-24 Thu ~21:3x–22:xx ET — Will boot, "update our data with new figures or news". STANDARD: WALTER lane 7 → 0 · 1 correction receipted · BOND 🔴 ask answered · 0 thresholds moved)
+
+**Context:** Book FLAT, $0. *(Sessions 9/12, 9/17, 9/22, 9/23, 9/24-AM wrote no MEMORY block. Their records are `reports/2026-09-17_session.md`, `reports/2026-09-22_session.md` and the STATUS rotation files. This block restarts the chain.)*
+
+**Delivered:** own FRED + TreasuryDirect refresh (obs 9/23; 7Y 9/24) → STATUS LIVE STATE 9/24-PM · **the 9/23 real-yield-led rate shock reached credit: BB +3 / B +7 / CCC +18 (95.4th pct), IG/BBB flat; CCC 1,093 and CCC−BB 934 = 2026 highs; HY 273, no line crossed** · reserves $2,930.2B (−$83.6B) explained by TGA +$100.1B, repo did not reprice · BOND's 🔴 5Y funding-leg ask answered NONE (`630933b0b`; BOND integrated as KB-BND-330, verified at `fded178ee`) · SoftBank read on final coupons (COR-20260924-12 APPLIED) · STATUS 7th prose rotation (27,874 → 22,784 B).
+
+**Open follow-ups:** no KB row written: the 9/23 transmission is n=1 day. **If B or BB widens again on the next rate-up day, it becomes a KB candidate against KB-LIQ-127.**
+
+**NEXT SESSION entry point:** `scripts/boot.py`, then the NEXT SESSION table below (9/24 re-cut).
+
+### PRIOR SESSION (2026-09-03 Thu ~19:5x–20:3x ET — PROME-spawned dark-owner drain `prome-8c`, Tier-1; markets closed. STANDARD: 11 items drained · WQ-162 fold · SIG-005 verified · 0 thresholds moved)
 
 **Context:** spawned by PROME to drain the whole inbox (7 WALTER + 4 root). Book FLAT, $0 moved. HY 266 [9/2], GATE-HY-REKILL 0-of-2, 6bp and widening. Reserves $2,894.5B [as-of 9/2] = lowest since 2025-12-03, cushion $94.5B (first sub-$100B of 2026). *(No MEMORY block was written for the 9/2 session — its record is STATUS `LIVE STATE — 2026-09-02` + `outbox/2026-09-02_to-PROME_*` + KB-LIQ-118..124.)*
 
@@ -281,6 +291,19 @@
 ---
 
 ### NEXT SESSION
+
+**RE-CUT 2026-09-24 (Will boot + closeout). This replaces the 8/27 table below, which is kept as history only. Do not work from it.**
+
+| # | Item | Clock |
+|---|---|---|
+| 1 | 🔴 **Q3 quarter-end + ~$183B coupon settlement (2Y/5Y/7Y all settle 9/30).** Read SOFR / SOFR99−IORB / SRF for 9/30 (publishes **Thu 10/1**) **and the next two non-Q-end sessions**. A Q-end spike alone is the NULL (KB-LIQ-051). BOND carries this on its own 9/30 docket row. Reserves start $84B lower (TGA). | 9/30 → 10/1–10/5 |
+| 2 | 🔴 **GATE-HY-REKILL + GATE-LIQ-076 `review_by` 9/30.** HY 273 [9/23], 0-of-2. | 9/30 |
+| 3 | 🟠 **DAEDALUS asks #1 + #3 — were due 9/24, NOT DONE:** re-point `KILL_MEMO:59` item 6 · pin GATE-LIQ-072 SpaceX endpoints or declare that leg `UNGRADEABLE-until-pinned`. Asks #2/#4/#5 due 9/30. | OVERDUE / 9/30 |
+| 4 | 🟠 **CATO MEDIUM owed list** (STATUS "ROTATED 2026-09-24" block): esp. the **reversed OBDC-vs-BIZD comparison in KB-LIQ-129 + my BROCK packet**. That one is a correction that reached another desk. | open since 9/22 |
+| 5 | 🟡 Transmission check: on the next ≥+12bp 10Y day, did B/BB widen again? (9/23 = 2nd of 21 since 2023-09.) | next rate-up day |
+| 6 | 🟡 August TIC **10/16** · GATE-LIQ-079 FIRE bands **10/31** · buyback program ends **11/4**. | dated |
+
+### NEXT SESSION — 8/27 RE-CUT (SUPERSEDED 2026-09-24; history only)
 
 **⚠️ RE-CUT 2026-08-27 after a HEAVY session. Nothing is time-critical: book flat, HY 267, no threshold fired. Items 1-3 have real clocks; 4-7 are owed work.**
 
