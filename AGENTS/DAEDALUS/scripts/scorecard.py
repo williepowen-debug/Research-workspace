@@ -48,7 +48,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 sys.path.insert(0, HERE)
 import orch_log                                   # strict ORCH_LOG schema helper (single owner of COLS)
 
-VERSION = "scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)"
+VERSION = "scorecard.py v1.2 (2026-09-25, WILL_QUEUE title-form stamps; v1.1 2026-09-04 L262 hot + archives)"
 DOCKET = os.path.join(ROOT, "PROME", "DOCKET.tsv")
 WQ = os.path.join(ROOT, "PROME", "WILL_QUEUE.md")
 CORR = os.path.join(ROOT, "AGENTS", "WALTER", "registry", "CORRECTIONS.tsv")
@@ -162,12 +162,41 @@ STAMP = re.compile(r"\b(RULED|DONE|RETRACTED|CORRECTED|REVERSED|WITHDRAWN|AMENDE
 DOCKET_REF = re.compile(r"DOCKET\s*(?:L|row\s*|row-)(\d+)|\bL(\d{2,3})\b(?=[^/]{0,3}(?:\)|,|;|\s|$))")
 
 
-def col5_rulings(start, end):
+TITLE_VERB = re.compile(r"\b(RULED|DONE|RETRACTED|CORRECTED|REVERSED|WITHDRAWN|AMENDED)\b")
+ISO_LEAD = re.compile(r"\s*(2026-\d\d-\d\d)\b")
+
+
+def title_form_stamp(text):
+    """v1.2 (2026-09-25): the RECENTLY-DONE table puts the verb in the bold TITLE cell and the date in the
+    SECOND cell — `| **294 … — RULED: APPROVED …** | 2026-09-25 (…) |` — which STAMP's 14-char gap never
+    reaches. Returns (kind, iso_date_or_None) or None. Bold-titled rows only (A5: `| 295 | …` open rows
+    never qualify); first stamp verb in the title wins; a non-ISO second cell returns date None (A6)."""
+    cells = text.split("|")
+    if len(cells) < 3 or not re.match(r"\s*\*\*\d+\b", cells[1]):
+        return None
+    m = TITLE_VERB.search(cells[1])
+    if not m:
+        return None
+    d = ISO_LEAD.match(cells[2])
+    return (m.group(1), d.group(1) if d else None)
+
+
+def col5_rulings(start, end, undated=None):
     """WQ rows with a RULED stamp inside the window (rows AND stamps counted); DONE stamps separately;
-    RETRACTED/CORRECTED/REVERSED/WITHDRAWN/AMENDED stamps → column 4 input."""
+    RETRACTED/CORRECTED/REVERSED/WITHDRAWN/AMENDED stamps → column 4 input.
+    v1.2: + title-form stamps (A1), counted once per row when the same verb+date is also inline (A3);
+    title-form verbs whose second cell is not ISO go to `undated` (A6), never counted, never guessed."""
     ruled, done, amended = [], [], []
     for n, ln, text in wq_rows():
-        for kind, d in STAMP.findall(text):
+        stamps = STAMP.findall(text)
+        tf = title_form_stamp(text)
+        if tf:
+            if tf[1] is None:
+                if undated is not None and not any(k == tf[0] for k, _d in stamps):
+                    undated.append((n, ln, tf[0]))
+            elif tf not in stamps:
+                stamps.append(tf)
+        for kind, d in stamps:
             if not in_window(d, start, end):
                 continue
             refs = sorted({a or b for a, b in re.findall(r"DOCKET\s*(?:L|row\s*|row-)(\d+)|(?!)(\d+)", text)})
@@ -339,7 +368,8 @@ def render(week_ending, orch_path=orch_log.LEDGER):
     touches, orch_files, orch_dups = orch_window(start, end, orch_path)
     caught, scored_zero, unscored_prose = col3_catches(touches)
     corr_total, corr = col4_corrections(start, end)
-    ruled, done, amended, props = col5_rulings(start, end)
+    undated = []
+    ruled, done, amended, props = col5_rulings(start, end, undated)
     commits, author_days, desk_days, prome_only, gitq = col6_git(start, end)
 
     resolved_all = sum(len(l["in_window"]) for l in ledgers)
@@ -448,7 +478,9 @@ def render(week_ending, orch_path=orch_log.LEDGER):
 
     # ---- col 5
     P("\n## 5. `operator_burden`\n")
-    P("query: WILL_QUEUE table rows whose text carries `RULED YYYY-MM-DD` in window (a row may carry several stamps — rows and stamps both printed); `PROME/proposals/*RULED.md` files dated in window as a second provenance; Will-minutes has no instrument → NOT-SEEN.")
+    P("query: WILL_QUEUE table rows whose text carries `RULED YYYY-MM-DD` in window (a row may carry several stamps — rows and stamps both printed); **v1.2:** + the title form `| **N … RULED …** | YYYY-MM-DD |` (verb in the bold title cell, date leading the second cell), counted once where the same verb+date is also inline; `PROME/proposals/*RULED.md` files dated in window as a second provenance; Will-minutes has no instrument → NOT-SEEN.")
+    P(f"\ntitle-form verbs with NO ISO date in the second cell (window unknowable → NOT counted, never guessed): {len(undated)}"
+      + (" — " + " · ".join(f"WQ {n} {k} (:{ln})" for n, ln, k in undated) if undated else ""))
     P(f"\nprovenance — RULED stamps ({len(ruled)}):")
     for n, ln, d, refs in ruled:
         P(f"- WQ row {n} · RULED {d}" + (f" · cites DOCKET L{','.join(refs)}" if refs else "") + f" (WILL_QUEUE.md:{ln})")
@@ -559,11 +591,13 @@ def selftest():
     (c) unregistered-header ⇒ CANNOT-EVALUATE; (d) source-named regex positive + negative; (e) window arithmetic."""
     import tempfile
     fails = 0
+    total = 0
 
     def chk(ok, msg):
-        nonlocal fails
+        nonlocal fails, total
         print(f"  {'✓' if ok else '✗'} {msg}")
         fails += not ok
+        total += 1
 
     with tempfile.TemporaryDirectory() as td:
         p = os.path.join(td, "L.tsv")
@@ -597,7 +631,33 @@ def selftest():
         rows = tsv_rows(bad)
         h = rows[0][1]
         chk("Status" not in h, "adapter precondition: a header lacking `Status` is CANNOT-EVALUATE (checked by name, never positionally)")
-    print("SCORECARD SELFTEST " + ("✓ %d/%d" % (13 - fails, 13) if not fails else f"✗ {fails}/13 FAILED"))
+    # (f) v1.2 title-form stamps — acceptance conditions A1–A7 (runs/2026-09-25_SCORECARD_V1_2_REPAIR.md)
+    global WQ
+    saved = WQ
+    with tempfile.TemporaryDirectory() as td:
+        WQ = os.path.join(td, "WQ.md")
+        open(WQ, "w", encoding="utf-8").write("\n".join([
+            "| **294 SPAWN HANS — RULED: APPROVED with PROME's rec** | 2026-09-25 (Will in-session) | ✅ done |",      # A1
+            "| **214 LABOR charter** | 9/10 | **RULED 2026-09-22 16:45 ET — Will APPROVE** |",                          # A2 inline only
+            "| **256 gate-basis — RULED: (b) APPROVED** | 2026-09-24 (x) | **RULED 2026-09-24 18:00 ET** |",            # A3 both forms, same date
+            "| **277 Licensed feed — DECLINED** | 2026-09-23 (Will) | ✅ |",                                               # A4 verb outside set
+            "| **284 WAKE HOMER — OVERTAKEN by Will's own launch** | 2026-09-24 | ✅ |",                                   # A4
+            "| 295 | ⚖️ four rulings — see the RULED.md record, awaiting Will's word on each leg | 2026-09-25 | open |",   # A5 open row
+            "| **194 LABOR vintage — WITHDRAWN** | 9/7 | closed by PROME |",                                               # A6 undated
+            "| **266 Channel-2 — RULED: YES** | 2026-09-12 (terminal) | ✅ |",                                              # A7 out of window
+        ]) + "\n")
+        und = []
+        r, dn, am, _p = col5_rulings("2026-09-19", "2026-09-25", und)
+        got = sorted((n, d) for n, _ln, d, _refs in r)
+        chk(got == [(214, "2026-09-22"), (256, "2026-09-24"), (294, "2026-09-25")],
+            f"A1+A2+A3+A5+A7: title-form 294 counted, inline 214 unchanged, 256 both-forms once, open 295 and out-of-window 266 excluded (got {got})")
+        chk(not any(n in (277, 284) for n, *_x in r + dn) and not any(n in (277, 284) for n, *_x in am),
+            "A4: DECLINED / OVERTAKEN titles are not stamps of any v1 kind")
+        chk([(n, k) for n, _ln, k in und] == [(194, "WITHDRAWN")] and not any(n == 194 for n, *_x in am),
+            "A6: a title verb with a non-ISO second cell is listed UNDATED and not counted")
+        chk(title_form_stamp("| 295 | RULED | 2026-09-25 |") is None, "A5: a number-in-its-own-cell row never qualifies as title-form")
+    WQ = saved
+    print("SCORECARD SELFTEST " + ("✓ %d/%d" % (total - fails, total) if not fails else f"✗ {fails}/{total} FAILED"))
     return 1 if fails else 0
 
 
