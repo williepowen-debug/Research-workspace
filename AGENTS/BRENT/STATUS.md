@@ -1,32 +1,24 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-25 — scoped:** named Brent/RB/HO/CL contracts (Nov/Dec/Jan) daily + 15-min bars via yfinance and `fetch.py`, pulled 02:59–03:05 ET; 9/23–9/24 settle-proxies published; boundary #8 graded; BG-02 prep armed; inbox drained (12). Not re-verified this session: every other STANDING STATE row (rigs/COT print later today).
+**Last real data refresh: 2026-09-25 — scoped:** named Brent/RB/HO/CL/NG contracts (Nov/Dec/Jan) via yfinance + `fetch.py` 09:06–10:20 ET (intraday, not settles); EIA daily spot 2010–2026-09-22 + weekly `WGFUPUS2`/`WKJUPUS2` through wk-9/18; FRED HY/CCC OAS through 9/24; JWC index re-read 10:1x ET. Not re-verified this session: rigs (9/25 print ~13:00) and COT #7 (~15:30), both UNGRADED at this closeout; every other STANDING STATE row.
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Dated blocks follow newest first; STANDING STATE is the hot half; ARCHIVE INDEX is history.*
 
 
-## September 25 — Brent 9/23–9/24 settles published · boundary #8 graded · BG-02 ARMED for 17:00 ET · inbox drained (PROME Tier-1 spawn prome-fa, 02:58 ET)
+## September 25 (AM live, Will-directed, 09:05–11:4x ET) — rolls · JWC · WATT · seasonality · Q3 PREP · CLOSED OUT ARMED
 
-**Brent, SETTLE BASIS (L430), single vendor [CONF yfinance daily close — matches the 14:15–14:30 ET 15-min bar within $0.08 both days; not an exchange-authenticated settle]:**
+**⚑ BG-02 NOT GRADED AT THIS CLOSEOUT — still ARMED for 17:00 ET** ([prep](setups/2026-09-25_BG-02-grade-PREP.md)); PROME re-touches at or after 17:00. **Rigs (BRT-26 final September print) and COT #7 are also UNGRADED here** and must be graded before the 10/2 prints.
+**Roll artefacts 9/25** [09:07 ET, intraday]: `BZ=F` Nov→Dec, `RB=F` Oct→Nov, `NG=F` Oct→Nov; BZX26 **104.89 (−1.60%)**, BZZ26 98.30 (−1.92%); BZ=F −7.8% / RB=F −9.8% are cross-contract; `MKT-BZ-F-ABOVE-100` flips on roll alone (WALTER -008).
+**JWC re-read:** JWLA-035 still newest (IUA + LMA) ⇒ NOT FIRED; blocking STALE cleared (`56be75521`).
+**Crack seasonality** ([note](research/2026-09-25_crack-seasonality/NOTE.md), EIA spot 2010–25): 3:2:1 Nov→Jan median **−10.6%** (12/16 winters down) vs the forward's −10.3% ⇒ a rolling-month #8 read below $50 is not evidence of eased stress. ULSD Dec/Jan forward flat to Nov ⇒ no F1 roll step. Input to the 10/06 WQ-252 sitting.
+**Q3 PREP, ungraded** ([prep](setups/2026-09-25_Q3-predictions-grade-PREP.md)): BRT-26 on today's print (+5 breaches) · BRT-29 modal MISS on T (wk-9/25 gasoline must be ≤7,555 kb/d, −14.6% WoW) · BRT-12 modal VOID; HENRY blind read asked, due 9/29.
+**WATT P4:** Appalachian basis UNMEASURED (no free primary); MXP force majeure in effect [secondary]; sign likely inverted. PortWatch cannot corroborate Yanbu (TRACKER). **$0; nothing moved.**
 
-| Session | BZX26 (Nov) | BZZ26 (Dec) | BZF27 (Jan) | Nov−Dec | Nov−Jan (M1−M3) | Nov day |
-|---|---|---|---|---|---|---|
-| 9/22 | 99.25 | 95.41 | 92.74 | +3.84 | +6.51 | — |
-| **9/23** | **103.08** | **98.12** | 95.03 | +4.96 | +8.05 | +3.83 |
-| **9/24** | **106.60** | **100.22** | 96.42 | +6.38 | **+10.18** (pre-shut 9/10: +9.27) | +3.52 |
+> **Kept from the rotated 9/25 02:58 block (figures stay live here):** Brent settle-proxies [yfinance close, single vendor] **BZX26 103.08 (9/23) / 106.60 (9/24)**, BZZ26 98.12 / 100.22, Nov−Jan +10.18 (9/24) · **#8 on Nov: 9/15–9/23 crossing STANDS (7 sessions); 9/24 50.12 NOT MEASURABLE** · Nov ULSD crack 109.49 → 95.57 (9/22→9/24), F1 $0.57 above $95 on proxy (CME grade = HENRY/TERRY) · WQ-264 shadow run 9/25→10/24 · L461: BZX26 to the 9/29 settle.
 
-⚠️ The vendor printed IDENTICAL daily volumes on 9/23 and 9/24 for every contract pulled (e.g. BZX26 51,561 both days), so volume is a vendor artefact; the closes differ and reconcile to the 15-min bars. **SAM's "$107.31 / $100.77 [9/24 close]" = the 16:00–16:15 ET post-settle trade, +$0.71/+$0.55 vs settle (packet sent).** The 9/23 [INFERRED] ~$103.1–103.2 is now settle-proxy **$103.08**. Pre-open 9/25 03:00 ET BZX26 $105.53 (−1.00%, `fetch.py`; the evening session, not a close). **L461 re-pin word unchanged:** BZX26 through the 9/29 settle, BZZ26 from the 9/30 session.
-
-**⚑ Boundary #8 (Brent 3:2:1 > $50, matched months) — GRADED ON NOVEMBER (WQ-252 interim):** 52.29 · 54.70 · 54.59 · 55.11 · 55.04 · **57.64 (9/22)** · 55.32 · **50.12 (9/24)** ⇒ **9/15–9/23 crossing STANDS, 7 sessions, margins $2.29–7.64 ≫ ~$0.80 vendor spread; zero roll.** **9/24 = NOT MEASURABLE** ($0.12 above the bar; WALTER -016's 49.34–49.44 used post-settle 14:30/14:45 bars). December 51.43/51.22/48.32 = 2 sessions, does not count. ⚠️ The Nov Brent leg ends 9/30 while RBX26/HOX26 run to end-October — basis gap for the 10/06 WQ-252 sitting.
-**Refining decoupling (Q5):** Nov ULSD crack HOX26×42−CLX26 **109.49 (9/22) → 102.45 → 95.57 (9/24)** while Brent +$7.35 ⇒ crude-led shock compresses the margin. ⚠️ The VLO EQUITY still trades with crude (+1.9% 9/23→9/24; TERRY corr +0.51 to USO) — the mechanisms differ, the prices do not. `GATE-TERRY-VLO-SCALE`/HEN-46 F1 (<$95) **$0.57 above, NOT FIRED on proxy**; CME grade = HENRY/TERRY after today's close. [Q5 memo](research/2026-09-25_L477_Q5_energy-thesis-vs-held-expressions.md).
-
-**⚑ BG-02 — ARMED, NOT GRADED** ([prep + decision tree](setups/2026-09-25_BG-02-grade-PREP.md)): no R1 (every restart/damage item is unnamed-source wire, C4), no R4, Kpler single-vendor ⇒ C5 NO-CORROBORATION. **Modal: LAPSE = NOT MET at 17:00 ET, not extended (WQ-264 ③).** In substance Yanbu crude liftings are ZERO 9/23–24 (Reuters/Kpler); a lapse is "not established on the letter", not "no barrels lost".
-**⚑ WQ-264 shadow run STARTED:** window **2026-09-25 → 2026-10-24**; first read 03:01 ET ([log](demand_destruction/data/yanbu_berth_2026-09-25.tsv)) — page snapshot dated 9/22 (Al Muajjiz est. 476k · North Pt2 1.05m · Pt1 0) = pre-window baseline, not scored; routines instructed via the TRACKER block.
-**Also:** diesel-export ban floated 9/22–23, denied on record 9/23, no order (-003/-011; US product legs of #8 and F1 exposed) · OSPREY C2 letter change noted; Novorossiysk halt cause UNESTABLISHED (reply sent) · MARCO registered as consumer of `MKT-BZ-F-BELOW-85` · COR-20260924-11 receipted. **No trade, band, threshold or score change. $0.**
-
-> **Rotated verbatim (historical, not today's assessment; payload = after first standalone `---`, outer whitespace stripped):** [9/23](archive/STATUS_dated_2026-09-23.md) 2722 B crc32 `2343a42e` · [9/18+9/21 blocks + clocks](archive/STATUS_dated_2026-09-18_21.md) 18119 B crc32 `7c5deb8e` · [9/14](archive/STATUS_dated_2026-09-14.md) 8757 B crc32 `45833649` · [9/15 header notes](archive/STATUS_dated_2026-09-15_header-notes.md) 650 B crc32 `f8c51d75`.
+> **Rotated verbatim (historical, not today's assessment; payload = after first standalone `---`, outer whitespace stripped):** [9/25 02:58](archive/STATUS_dated_2026-09-25_0258.md) 3454 B crc32 `bba0f236` · [9/23](archive/STATUS_dated_2026-09-23.md) 2722 B crc32 `2343a42e` · [9/18+9/21 blocks + clocks](archive/STATUS_dated_2026-09-18_21.md) 18119 B crc32 `7c5deb8e` · [9/14](archive/STATUS_dated_2026-09-14.md) 8757 B crc32 `45833649` · [9/15 header notes](archive/STATUS_dated_2026-09-15_header-notes.md) 650 B crc32 `f8c51d75`.
 
 
 ## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
@@ -110,4 +102,4 @@
 
 ## SUMMARY FOR WILL
 
-*(2026-09-25, 03:07 ET)* November Brent settled about $103.08 on 9/23 and $106.60 on 9/24 (one data vendor, not exchange-certified). The Saudi pipeline restarted into local refineries, but no crude tankers loaded at Yanbu on 9/23–24, and no Aramco or ministry figure is on record — so the 5 pm frame-breaker window will most likely close NOT MET today, which means 'not proven', not 'no barrels lost'. The refining margin fell ~$14 in two days while crude rose, bringing the VLO scale-in filter within $0.57 of its $95 stand-down line (graded on today's settlement). Positions unchanged; $0 moved.
+*(2026-09-25, 11:45 ET)* The overnight roll makes the generic Brent ticker show a fake −7.8% today; November Brent is really about −1.6%. Sixteen years of margin history show the curve's winter decline is normal, which matters for your 10/06 month-basis decision. The three predictions due by 9/30 are staged: the rig-count one grades on today's print, the gasoline one will almost certainly miss, and the refiner-first one will likely be voided pending HENRY's independent read. This session closed before the 17:00 Saudi pipeline grade, the rig count and the positioning report, so those are still open; PROME re-checks at 17:00. Positions unchanged; $0 moved.
