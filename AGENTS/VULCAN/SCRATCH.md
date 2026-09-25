@@ -1,4 +1,24 @@
-> # ⛔ 2026-09-13 (Sun) — READ THIS BLOCK FIRST. PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, PENDING through two PROME boots — the 9/12 sweep printed DARK owners only and I had self-committed 9/11). ~20:2x → 21:5x ET. Markets shut since the Fri 09-11 close.
+> # ⛔ 2026-09-25 (Fri) — READ THIS BLOCK FIRST. Will-launched in-folder session, boot 09:07 → closeout ~10:3x ET (`date`). **12 dark days before it (9/14 → 9/24).**
+>
+> ## ONE LINE: in the dark period, the AI buildout's stress **moved from prices into financing structure** (ORCL leases $260B → $288B; Jupiter force majeure; ORCL CDS record; SB Energy — NVDA's $105B guaranty counterparty — IPO postponed). **No band fired, no score moved.** The S2 re-arm rule is now **UNGRADEABLE** (6 of 8 slots lost). Today's post-close slot is **UNCOVERED** at closeout.
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **Did anyone run the 9/25 post-close slot?** Check `S2_SERIES.tsv` / `MAG7_SERIES.tsv` / `GPU_SERIES.tsv` for 2026-09-25 rows. If none: mark the 9/25 CATALYSTS rows MISSED (semi_watch slot 7, mag7 slot 3, GPU reading 3). **Never cure off-cadence** [L-21].
+> 2. 🔴 **9/29 post-close:** `semi_watch.py` slot 8 (the last pre-committed slot; the re-arm rule is ungradeable regardless, but take it so the series resumes).
+> 3. 🔴 **9/30 → 10/01:** MU FQ4 16:30 ET. Grade **VULCAN-02/-11/-12/-14** on 10/01. **VULCAN-12 geometry pre-stated:** guide ~86% sits inside the 84.6–86.6 gap ⇒ the **FQ1 guide decides** (below = CONFIRMED; flat/mixed = NO-VERDICT). Record the S2 re-arm rule as **UNGRADEABLE**. **Rewrite `EXIT_PROTOCOL.md`** — it must add a **structure leg** or say in writing why the thesis cannot be killed on that axis (9/25 §7 entry).
+> 4. **Watch items (no clock):** SB Energy S-1 (**withdrawn = PULLED**, pre-stated) · ORCL $3.3B guarantee (8-K by month-end, else FY27 10-K; 0 mentions in the 10-Q) · Jupiter post-notice loan price (the 89–91¢ print is 9/18, pre-notice) · OpenAI's largest training run reportedly paused since August.
+> 5. **10/02** GPU reading 4 + `mag7.py`; **10/05** compute-futures re-decide (two tracks).
+>
+> ## WHAT THIS SESSION DID
+> - **News:** `reports/2026-09-25_news-catchup_0913-0925.md` + `_live-sweep_1015ET.md` + two raw Opus sweeps. KB-166..175; FL-VULCAN-13 (tenant force majeure → developer/lender carry → AI-infra financing capacity, n=1).
+> - **Own filing reads:** ORCL 10-Q (acc `…389274`): leases $288B, **$3.3B guarantee 0 mentions**, notes FV 84.6%, servers still 6-yr useful life (S1 sub-read 0 of 4 holds) · CRWV $4.2B 2.875% converts (upsized) + 35M-share ATM with collared forwards · ORCL 8-K: Ellison cancelled his 10b5-1.
+> - **Inbox 18 → 0:** WALTER ×9 in `board_log.tsv` with reasons · replies committed to DAEDALUS (L4 done; EXIT_PROTOCOL freshness line; the "9/12 tripwire" is DAEDALUS's own agenda item), ZHAO (both asks: **"it does not"** — no entity or BOM map here), PROME (receipts + the three findings). PROME doorbelled; it has the 9/25 slot as VULCAN's unless Will hands it over.
+> - **Corrections made BEFORE commit:** KB-171 first carried "truce extended → IEEPA row moves" and three 11/10 clocks; ZHAO's primary shows the extension is **verbal only** and the IEEPA leg VOID since 2/24 ⇒ **two live clocks** [L-35]. And a glob `git mv` swept a packet that arrived after my read (read afterwards, duplicate) [L-36].
+> - **READ-CAP:** STATUS **30,476 → 16,076 B** (old file verbatim → `CHANNEL_DETAIL.md` §E, crc `0x02b4969e`) · NEXUS_BRIEF **137,282 B → rotated** (see its header).
+>
+> ## ❌ STILL OPEN (carried): hyperscaler long-dated-issuance check (KB-096) · QQQ sector variant (Invesco 406s) · PROME's disinflationary-productivity falsifier, now paired with the structure-leg gap · `data.ornn.com/preview` as a source of record · `CLAUDE.md` auto-load ~79 KB (watch, don't rotate) · `edgar_watch.py` still derives MU's earnings window as 9/17–9/24 on the refuted 52-week model (display defect; the register carries the confirmed 9/30).
+
+> # 2026-09-13 (Sun) — *(previous session; the 9/25 block above supersedes its ▶ START HERE)*. PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, PENDING through two PROME boots — the 9/12 sweep printed DARK owners only and I had self-committed 9/11). ~20:2x → 21:5x ET. Markets shut since the Fri 09-11 close.
 >
 > ## ONE LINE: **`GPU-PANEL-01` IS FROZEN** — and the reconnaissance that unblocked it returned a **NEGATIVE that is worth more than the panel**: there is no publicly quoted 12-month H100 price at ANY of the four vendors, so tier `contract` is an EMPTY SET and the on-demand-minus-contract spread the instrument was designed around is **UNGRADEABLE**. Three misses recorded, none cured off-cadence. **Nothing was read tonight, and that is correct.** No score, band, threshold or capital path moved; `GPU_SERIES.tsv` still holds ZERO rows.
 >
@@ -31,41 +51,6 @@
 >
 > ## ❌ STILL OPEN (carried): hyperscaler long-dated-issuance check (KB-096) · QQQ sector variant (Invesco 406s) · PROME's Q3 disinflationary-productivity falsifier (8/21) · **whether `data.ornn.com/preview` is a source of record** (a preview page is not established as one — re-check every reading) · `CLAUDE.md` auto-load cost, now ~79 KB (watch, don't rotate).
 
-> # 2026-09-11 (Fri) — *(previous session; the 9/13 block above supersedes its ▶ START HERE)*. PROME-spawned Tier-1 session (DOCKET L323; Will *"ok approved"* 9/10 19:25), 10:37 ET → pre-close. 4 dark days before it (9/7 → 9/10).
->
-> ## ONE LINE: DEWEY REQ-002 integrated into ONE instrument — **`VULCAN-17`, NVDA's guarantee-COMMITMENT level by quarter**, baseline VERIFIED at five filings by my own pulls, reading rule pre-committed (first FLAT/DOWN quarter with no successor = the signal; the fall is CLASSIFIED before it is read). Inbox **14 → 0**. TSMC August + ORCL Q1 swept. **No score, band or threshold moved.** Two misses recorded honestly: today's post-close readings (not this pre-close session's to take) and **GPU-PANEL-01 not frozen ⇒ reading 1 MISSED.**
->
-> ## 🔑 THE INSTRUMENT, AND WHY IT IS THE ONE DEWEY SAID NOBODY WOULD PICK
-> - Lucent/Nortel (n=2, DEWEY at the primaries): **the commitment level turning down was the only thing that LED** (Lucent peak 1999-12-31 → first warning 3 weeks later → full break ~12 mo); drawn balance unreliable BOTH signs (Nortel's fell by WRITE-OFF); provisions lagged [KB-154]. **Converges with REQ-001 (order books led 0 of 3; the marginal uncontracted unit's PRICE led)** — in both, what led was a *forward-looking supply decision*.
-> - NVDA's series, **verified today at Q2 FY26 / Q3 FY26 / FY26 10-K / Q1 FY27 / Q2 FY27:** $0 → $860M (54.7% escrowed + capacity-sale + assume-lease option + warrants) → $3,530M → $3.5B → $3,529M (20.2% escrowed) **+ $105,000M Aug-2026 (0% escrowed; OpenAI indemnity)** = $108.5B max gross [KB-153]. DEWEY's §2 table holds at every point. ⇒ **BUILD phase, not break phase.**
-> - **The letter:** ≥ $108,529M at the Q3 FY27 10-Q (~11/19, `publication` anchor; the August cap enters the period-end table) = HIT. **Below ⇒ classify first:** (i) transfer to a definitive third-party platform (T1, bull) · (ii) termination on an OpenAI IG rating (T5, bull) · (iii) a CALL (S5 red-band question) · (iv) WITHDRAWAL with no successor = **the Lucent signal** ⇒ level-to-Will via PROME WQ. FLAT within ±2% (the $3,530→$3,500→$3,529 rounding wobble) with no transfer = (iv). **The rule outlives the row: re-register as VULCAN-18 at grading.** [L-33]
-> - **NOT done, on purpose:** no revenue-quality discount. **The share of financed revenue is NOT COMPUTABLE by disclosure asymmetry** (financing named/capped/phased; revenue attributed as *"one AI research and deployment company … a meaningful amount"*; the two named counterparties appear only in the guarantee note) [KB-155]. Direction supportable, size not — FL-VULCAN-12's disease, different note. **"AI research and deployment company" = OpenAI is INFERRED** (DEWEY's flag, carried).
-> - **COR-20260910-01 → NO-OP:** the commission's *"$29B cloud agreements"* is NVDA's own-use R&D line; **KB-124 reconciled the two 10-Q tables AT THE FILING on 8/27** and NEXUS_BRIEF has carried *"use $36B for S5"* since. DEWEY's §1B is an independent second read (n=2, agreeing). Receipt written (`registry/corrections_receipts.tsv`, created today — this desk's first).
->
-> ## 📥 INBOX 14 → 0, EVERY SENDER
-> - **PROME 9/6 amendment (GPU ruling para. 3) ENCODED** — spec §3 and the ruling now agree; `term_normalized` + segment accepted; the cc reached WATT/DEWEY as files this time [KB-159].
-> - **DEWEY ×2:** REQ-002 (above) + the Ex-99.2 confirmation — my 9/6 contested correction upheld at DEWEY's own pull; **the mechanism is transferable: `edgar_doc.py doc` without `--doc` silently returns the FIRST document of a multi-exhibit 8-K, exit 0** — never assert a filing-level absence from a bare doc-grep; enumerate exhibits first.
-> - **WALTER ×11, all in `board_log.tsv` with reasons:** 4 acted (DRAM +59.5% is REVENUE not price; CXMT 16 GB package / 16 Gb die — 0 wrong carriers here; Kioxia CEO resisting NAND hikes = a stance consistent with the presold-ceiling mechanism, tested at MU 9/30; ASML–TSMC 12-inch masks 2031/2033 = horizon only; PJM IRAS docket **ER26-3515-000** now on the ~10/12 row for VULCAN-15(a); **MS $3.1T = REPACKAGING** — NVDA leg verified: the $500B is the MoU *target* in the 10-Q MD&A, the **$125B "25% RVS" is NOT filed** (0 hits) [KB-158]) · 5 noted with reasons · 1 info-only (Mistral €3B — LIQUID's mechanism).
->
-> ## 📡 TWO FILINGS SWEPT (the EDGAR sweep was 8d stale; 46 rows added)
-> - **TSMC August:** NT$514,806M, +10.1% MoM, +53.3% YoY, **cum Jan-Aug +39.3%** (from +37.0%) ⇒ decel NOT met, no-stress [KB-157]. Consistent with VULCAN-14 HIT at 9/30 — graded then.
-> - **ORCL Q1 FY27 (8-K 9/10):** capex **$28.5B in one quarter**, FCF **−$5B**, **$20B ATM equity** completed, **$11.4B customer prepayments with a significant financing component**, RPO $664B; **0 hits on "guarantee" — the $3.3B is a 10-Q question (latest ~9/19; row registered)** [KB-156]. No band: equity is not a new-issue print. Deliberately NOT claimed for VULCAN-13 (prepayments fire on demand, not the balance sheet).
-> - **NVDA 8-K 9/2:** Hugging Face ~$11.9B + $1.0B retention, close 1H27 — S1 context only [KB-160].
->
-> ## 🔴 THE TWO MISSES, RECORDED
-> 1. **`semi_watch.py` slot 4 + `mag7.py` slot 1 are POST-CLOSE today; this session ran 10:37 → pre-close.** Flagged to PROME for a post-close run. If none: slot 4 = 4th miss, recorded at the next boot, **never cured off-cadence** [L-21].
-> 2. **`GPU-PANEL-01` NOT frozen.** Reason (spec §4 addendum): the contract tier has no vendor reconnaissance, and freezing blind mints a panel from an unspecified composition — §4's own failure. **Freeze in a dedicated pass before 09-18.**
->
-> ## ✅ SELF-GRADE CHECKS 1-3 (frozen 8/21, due today): CHECK 1 YES (n=5, L-26 — correction and instruction in one cell) · CHECK 2 **7 < 11 but WEAK** (axes differ; not a cold reviewer; the strong YEYOU/RAV version has not run — UNGRADED-STRONG, not a pass) · CHECK 3 YES (2b caught the 31× cell 8/27 and the §317 supersession today; 4b caught the FILES row 9/6). Row SPENT in CATALYSTS.
->
-> ## ▶ START HERE NEXT SESSION
-> 1. 🔴 **If booting after 16:00 ET on 9/11: run `semi_watch.py` + `mag7.py` NOW** (slot 4 / slot 1). If booting 9/12+: record slot 4 MISSED, do not run off-cadence.
-> 2. 🔴 **Freeze `GPU-PANEL-01` before Fri 09-18** (vendor probes → freeze → reading 2). Spec §3/§3b/§5 + the 9/11 addendum say what must be specified.
-> 3. **ORCL 10-Q by ~09-19** — `edgar_watch.py`; read the commitments note for the $3.3B guarantee.
-> 4. **`VULCAN-17` first reading ~11/19**; re-register the next quarter as VULCAN-18 at grading. A (iv) reading ⇒ PROME WQ the same session.
-> 5. **9/15 GATE-LIQ-069 review (LIQUID's)** · **9/16 ZHAO BIS re-check** · **9/30 = 10/01 stack.**
->
-> ## ❌ STILL OPEN (carried): hyperscaler long-dated-issuance check (KB-096) · QQQ sector variant (Invesco 406s) · PROME's Q3 disinflationary-productivity falsifier (8/21) · `CLAUDE.md` 74 KB auto-load cost (watch, don't rotate).
 
 # VULCAN — SCRATCH (next-session pickup)
 
