@@ -1,6 +1,8 @@
-# VULCAN — SCRATCH ARCHIVE 2026-08 (session continuity blocks, 2026-07-17 → 2026-08-27 AM)
+# VULCAN — SCRATCH ARCHIVE 2026-08 (session continuity blocks, 2026-07-17 → 2026-08-27 PM)
 
 > **FROZEN 2026-09-02 — not maintained; `SCRATCH.md` is canonical, do not cite rows as current.**
+>
+> ⚠️ **RANGE RESTATED 2026-09-25 (DAEDALUS Staleness Sweep #5, option (a)).** The title said *"→ 2026-08-27 AM"*; **one block was appended AFTER the freeze** — the **2026-08-27 PM closeout**, rotated here on **2026-09-06** (line ~627, crc32 `0x1f658437`, 8,190 B). It lives in this file, not `SCRATCH_ARCHIVE_2026-09.md`, because its CONTENT is August (8/27 PM) and the September archive did not exist until 9/11. **The freeze date is unchanged; the range now names every block the file holds.** Content not moved, only the banner.
 >
 > **Why this file exists:** the 2026-09-02 READ-CAP split. `SCRATCH.md` measured **153,247 B = 282% of the 54,250 B physical cap** — the fleet's worst single boot read — and could not be read whole. The blocks below (2026-08-27 AM back to 2026-07-17) are discharged continuity state.
 >

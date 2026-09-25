@@ -1,6 +1,7 @@
 # VULCAN — Exit Protocol & Falsification Rail
 
-**Kill rail re-derived: 2026-08-13** *(first authored — VULCAN carried no kill tree, no EXIT_PROTOCOL and no dated falsification surface across its 16-file inventory from build 2026-07-10 until today. Flagged by DAEDALUS at the 8/7 Production Review as the one genuine F5 gap in the fleet; Market-L3 requires one, blueprint §4 ★. Reference shape: FALCON `workbook/EXIT_PROTOCOL.md` 7/30.)*
+**Newest entry: 2026-09-13** (§7 thesis-kill re-evaluation, L330) — **this is the freshness claim; bump it whenever an entry lands** *(DAEDALUS PR#6 / Falsification #3, 2026-09-17: the provenance line below was standing where the freshness claim belongs, so the surface certified itself stale)*.
+**Kill rail first derived: 2026-08-13** *(provenance, not freshness — first authored — VULCAN carried no kill tree, no EXIT_PROTOCOL and no dated falsification surface across its 16-file inventory from build 2026-07-10 until today. Flagged by DAEDALUS at the 8/7 Production Review as the one genuine F5 gap in the fleet; Market-L3 requires one, blueprint §4 ★. Reference shape: FALCON `workbook/EXIT_PROTOCOL.md` 7/30.)*
 
 **This file holds kill/exit conditions and nothing else.** `STATUS.md` is canonical for scores and live reads; `workbook/PREDICTIONS.tsv` is canonical for registered prediction text. **Where a kill condition is also a registered prediction, this file REFERENCES it by ID and does NOT restate it** — a condition written in two places drifts in one of them.
 

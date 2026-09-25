@@ -123,7 +123,7 @@ A first row taken from an unspecified panel **silently becomes the series' basel
 
 ## 9. 🟢 `GPU-PANEL-01` — **FROZEN 2026-09-13** (the dedicated freeze pass §4's addendum demanded)
 
-**Frozen:** 2026-09-13 ~20:2x–21:0x ET, PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, COVERED annotations all SPENT). **Markets closed since the Fri 2026-09-11 close.**
+**Frozen:** 2026-09-13, **freeze commit `d437a068d` at 20:29:43 ET** (git commit time — the only clock on this record that was machine-taken). ~~*~20:2x–21:0x ET*~~ **RE-STAMPED 2026-09-25 per PROME's 9/13 receipt §3:** the narrative stamp ran up to ~80 min AHEAD of the wall clock (the whole session sat inside ~20:25–20:35 ET). **The STAMP is amended; the SEAL is not reopened** — §9.1's integrity claim is an ORDERING claim (criteria to disk before the first fetch), and the ordering is unaffected. PROME-spawned Tier-1 session (DOCKET **L330**, dated 2026-09-11, COVERED annotations all SPENT). **Markets closed since the Fri 2026-09-11 close.**
 **`panel_spec_id` = `GPU-PANEL-01`.** Any later change to §9.3 mints a NEW id; old rows keep the old one (§5 closing rule).
 **What unblocked it:** the 9/11 addendum named ONE blocker — *the contract tier has no reconnaissance behind it.* That reconnaissance was run this session (§9.2). **It returned a negative, and the negative is the finding (§9.4).** A panel cannot wait forever on a tier that does not publicly exist.
 
