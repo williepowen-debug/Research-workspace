@@ -38,7 +38,7 @@ Between the 9/22 and 9/24 closes the 10-year Treasury yield rose 22bp, every bas
 | Was 9/23–9/24 path or premium? | BOND · HENRY | ACM 10Y for 9/24 (≈T+1); KW for 9/21–9/25 (weekly) | ~9/25 · next KW post |
 | Did dealers absorb the failed 5Y? | BOND | FR2004 as-of **9/23** (the corrected window; not 9/30) | ~Thu 10/1 16:15 ET |
 | Does credit transmission broaden, stall or reverse? | LIQUID | the 9/24 ICE OAS cells, graded on the pre-registered §1c rule (fourth outcome STALLS added) | ~9/25 16:15 ET |
-| Quarter-end: seasonal turn or persistent pressure? | LIQUID | P1–P5 registered: SOFR−IORB ≥+1 on 10/5 AND ≥0 on 10/7 · SOFR99−IORB ≥+22 on 10/2 · SRF >$1B 10/1–10/5 · reserves <$2.8T — **PERSISTENT = (P1∧P2) ∨ P3 ∨ P4 ∨ P5, else SEASONAL** | verdict on the 10/8 prints |
+| Quarter-end: seasonal turn or persistent pressure? | LIQUID | P1–P5 registered: SOFR−IORB ≥+1 on 10/5 AND ≥0 on 10/7 · SOFR99−IORB ≥+22 on 10/2 · SRF >$1B 10/1–10/5 · reserves <$2.8T — **PERSISTENT = (P1∧P2) ∨ P3 ∨ P4 ∨ P5, else SEASONAL** | verdict on the 10/8 prints (P4/P5 can fire from 10/1) |
 | Is the vol complex where the delayed quotes say? | VIOLET | CBOE history CSVs for 9/23 + 9/24; CFTC TFF VIX as-of 9/22 | next post-close boot · Fri 15:30 ET |
 | Is the real-rate leg a regime? | NEXUS (BOND data) | the 9/24 DFII10 cell = `GATE-NEXUS-T12S-DFII10` anchor (±10bp band over 15 cells) | ~9/25 16:15 ET |
 | Does WQ-157 leg ② survive the corrected instrument? | Will (WQ-290) · BOND | BOND's re-run is already on file; the fix is the decision | by 10/1 |
@@ -58,7 +58,7 @@ Between the 9/22 and 9/24 closes the 10-year Treasury yield rose 22bp, every bas
 - **Not quotable:** "72% October" without its basis (HENRY computation, FedWatch method, vendor last trade, ±2pp); "venues lag futures by X"; any Brent 9/23–9/24 level not published by BRENT; any current gamma sign.
 
 ## 6. Verification repair (Will's item 5, WQ-289 (b), DOCKET L473)
-IMPLEMENTED · TESTED (16 new tests + 84 existing pass) · **independent-reader state and residue are recorded in the closeout receipt, not asserted here in advance.**
+IMPLEMENTED · TESTED (32 new tests + 84 existing pass) · INDEPENDENTLY VERIFIED: NO (two reader rounds; round-2 fixes unread) · **independent-reader state and residue are recorded in the closeout receipt, not asserted here in advance.**
 
 ## Coverage gaps that survive (owners' own lists, not softened)
 FRED ICE history is a rolling ~3 years, so every credit percentile is ranked against a calm window (LIQUID) · tri-party volumes/haircuts, sponsored repo, dealer balance sheets, MMF flows, FX basis not observed (LIQUID) · futures prices are vendor last trade, CME settlement blocked (HENRY) · ACM 9/24 and KW 9/21+ unpublished (BOND) · the 9/17 p=0.009 came from an unsaved script at n=224; the as-shipped reproduction at n=228 gives p=0.019 (BOND) · CBOE 9/23–9/24 history unpublished; delayed quotes can differ from the history close by up to 0.25 (VIOLET) · the RQ #8 low-VIX analog rests on n=1 (VIOLET).
