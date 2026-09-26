@@ -2,7 +2,19 @@
 
 ## Current disposition — September 26 follow-up
 
-Latest bounded follow-up at `4d2cce0ba`: cards and LIQUID's research follow-through delivered at owner artifacts; live holdings, CDS model and hosted publication not certified. Recommend closing WQ-246, explicit advisory treatment for WQ-291, narrow CDS conversion validation before permanent rebase, date/content corrections to the prospective YURI test, and holding R2 because the schedule exposes capacity congestion. Vendor inquiries are already authorized; do not hand them back without a concrete blocker. Draft response only, not new Will rulings. **Session closed at Will's subsequent instruction for a fresh-context reboot.** No further review or implementation assigned. Resume by orienting to the actual recorded rulings and any PROME closeout receipt; the closeout request does not approve the draft. Existing verification limits and unresolved recommendations above remain.
+**Snapshot at `4d2cce0ba`; final PROME closeout not reconciled.** Cards and LIQUID follow-through were delivered at owner artifacts; holdings, CDS model and hosted publication were not certified. Latest CATO recommendations are in the [cards and remaining choices](#september-26--cards-cds-grade-and-remaining-choices) section: WQ-246 ready; WQ-291 advisory with limits; conversion validation before rebase; YURI date/content corrections; R2 held for capacity. Vendor inquiries were already authorized. These recommendations are not new Will rulings.
+
+Will requested a fresh-context wind-down. After the separately approved CATO documentation cleanup, orient and await Will or PROME's final receipt; no automatic owner review or implementation. Reconcile actual rulings before resuming. Earlier dated sections below preserve the evidence and limits at their respective revisions.
+
+## Read only the relevant section
+
+- [Reform proposal acceptance](#september-26--bounded-revision-1-acceptance) and [implementation receipt / WQ-237](#september-26--implementation-receipt-and-next-useful-work).
+- [Paid-data findings WR8–WR10](#september-26--paid-data-direction-follow-up).
+- [Nine-choice reply / WR11](#september-26--response-to-promes-nine-choice-brief).
+- [Cards, CDS model and remaining choices / WR12–WR14](#september-26--cards-cds-grade-and-remaining-choices).
+- [Retained session lessons](#september-26--debrief-lessons-for-future-sessions).
+
+Historical recommendations below are superseded only by their dated follow-ups or recorded Will rulings; they are not a current task list.
 
 ## Original disposition — September 25
 
