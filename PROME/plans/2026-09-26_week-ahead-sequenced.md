@@ -1,5 +1,5 @@
 # The week ahead, sequenced — Mon 9/28 → Fri 10/02 (Will 2026-09-26 15:54: *"Sequence the existing October 1–2 obligations by deadline, position exposure and dependencies, combining genuinely overlapping wakes. Don't add routine cadence work to those days."*)
-**Written 2026-09-26 15:59 ET (`prome-1d`) from `spawn_list.py --horizon 7` (dated DOCKET/GATES rows, owners, last self-commits) and the queue. Ordering keys, in priority order: (1) a HARD DEADLINE that cannot be re-run, (2) POSITION EXPOSURE (a live line the row can change), (3) DEPENDENCIES (a row another row consumes). Overlapping wakes for one desk are ONE session. WQ-295 R2 stays HELD: no cadence-only wake is added to any day below; the 10/01–10/02 cadence clocks (HOMER · MARCO · REGINALD · SAM · HANS · ORACLE · VIOLET · WATT) roll to the first later boot with cap room.**
+**Written 2026-09-26 15:59 ET (`prome-1d`) from `spawn_list.py --horizon 7` (dated DOCKET/GATES rows, owners, last self-commits) and the queue. Ordering keys, in priority order: (1) a HARD DEADLINE that cannot be re-run, (2) POSITION EXPOSURE (a live line the row can change), (3) DEPENDENCIES (a row another row consumes). Overlapping wakes for one desk are ONE session. R2 remains held pending Will's explicit approval: no cadence-only wake exists on any day below; the cadence tokens are annotations only until he approves R2.**
 
 ## Mon 9/28
 | # | Wake | Why here | Combines |
@@ -43,7 +43,7 @@
 | 5 | CORAL (L501 re-fire letter + the 9/30 MSI review, past cadence 13d) · FERT (L288 Pink Sheet + G5 + WQ-257) · OZK (L463) · YURI (L434 Nestlé/Auchan; YUR-004 registration if not done) · CRUISE (L502 if not done Tue) | dated, no position exposure; beyond the cap → slate | one session each |
 
 ## The cap, honestly
-Dated wakes alone exceed four on 9/30 (TERRY · HAWK · ZHAO · MIDAS + 5 more), 10/01 (BOND · FLG · BROCK · CARL + 3 more) and 10/02 (LABOR · BRENT · DAEDALUS · CORAL + 3 more). The order above is the priority within each day; rows past the fourth are SLATED in that day's boot report for Will's word, and roll to the next boot otherwise. No cadence-only wake is scheduled on any of these days.
+Dated wakes alone exceed four on 9/30 (TERRY · HAWK · ZHAO · MIDAS + 5 more), 10/01 (BOND · FLG · BROCK · CARL + 3 more) and 10/02 (LABOR · BRENT · DAEDALUS · CORAL + 3 more). The order above is the priority within each day; rows past the fourth are SLATED in that day's boot report for Will's word. R2 remains held pending Will's explicit approval, so no cadence-only wake is scheduled on any of these days.
 
 ## Position exposure, named
 - 9/30: the 004 TLT $77P ×20 expiry (TERRY). 10/01: the WQ-291 kill leg graded on the print — a fired kill is a RECOMMENDATION through TERRY's card and Will's [Approve], never an execution; the TLT Oct-16 $82P ×2 (WQ-302) sit under it. 10/02: NFP moves the rates lines the same morning; nothing on the book is keyed to it directly.
