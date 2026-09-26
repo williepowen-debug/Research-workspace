@@ -5,6 +5,10 @@
 
 ---
 
+**ADDENDUM 2026-09-26 (Sat 14:4x ET, PROME `prome-1d` Tier-1 WQ-298/L498 spawn):** inbox 1/1 drained (PROME WQ-298 packet → processed). Line 2 + WQ-296 view delivered → `PROME/inbox/2026-09-26_from-HAWK_paid-data-line-2-and-WQ-296.md` (KB-HAWK-413): BOTH vendors required; quote NOT requested (draft text in §5 for Will); TankerTrackers publishes no daily per-terminal loadings (Corporate Lite now $12k, PremiumPlus closed); concur A on 9/30. NEXT-SESSION list below is UNCHANGED — item 1 (9/30 HAW-19 DEFECTIVE + HAW-22 if A) still governs. No other boot/closeout legs run this spawn (scope-limited): BOARD info-lane, 6a-3 fingerprints, dormant re-sweep, aggregate refresh all still owed as listed.
+
+---
+
 ## CHANGES SINCE LAST SESSION (9/22)
 
 - **YURI is wired** (DAEDALUS 9/24). L432/L434 are now YURI's, with HAWK as NAMED CONSUMER; L433 stays HAWK outright. YURI extended L432 on 9/25: NOT-DECIDED — PERIMETER PARTIAL stands.
