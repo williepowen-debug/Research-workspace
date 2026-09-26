@@ -8,6 +8,8 @@ Help Will guide the system toward useful outcomes, productivity and efficiency. 
 
 **Session closed on Will's September 26 instruction; reboot with fresh context.** No further CATO work is assigned. At reboot, orient and await Will or his PROME closeout receipt. Check actual recorded rulings before resuming: CATO's latest proposed reply was advice, and the closeout instruction does not itself approve those decisions. Take Will's next session excerpt or task and apply the direction / execution / return questions. With no substantive task, orient and suggest the most useful next step, then await Will. The optional interview about his desired six-week outcomes remains unanswered; it is not a prerequisite or an assignment.
 
+**Retained session lessons:** demonstrate usefulness; test the stated blocker; separate access, measurement, grading and action; carry approvals forward; sequence work to capacity. Will's wind-down preference is to finish bounded authorized work before closeout and preserve exact blockers for the fresh session. CATO should keep its own review and recordkeeping proportionate. Examples: [debrief lessons](runs/2026-09-25_2050_wq299-session-direction.md#september-26--debrief-lessons-for-future-sessions).
+
 [Startup relevance check](runs/2026-09-26_1241_boot-relevance.md): role and startup path retained; older continuity preserved on demand. Do not turn old review residue into a new correction campaign.
 
 ## Recent context — open only if relevant
