@@ -1,6 +1,8 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-08-27 (THIRD block: a real trigger fire, a band re-base, SEC access, and a live Kernel submission).** ⛔ **A GATE C SITTING WAS IN PROGRESS AT CLOSEOUT** — `PREDICTIONS.tsv` is pin-locked, see `SCRATCH.md` §STANDING HAZARD. *(§⑪ below.)*
+**STATUS:** DONE — **2026-09-26 (Will-launched catch-up; dark 9/02→9/26).** `CREED-T-08a` FIRED (rate fire, S8a score awaiting Will) · Aug SS graded, `T-01b` not fired · `T-08b` not fired · gates positive-controlled, count 1 · WQ-215 + WQ-100 encoded · `PRED-004`/`007` met their Kernel rules → PROME · 18-item inbox drained · STATUS hot/cold split. Detail: `catchups/2026-09-26.md`. Stamped contemporaneously at closeout.
+
+**PRIOR:** DONE — **2026-08-27 (THIRD block: a real trigger fire, a band re-base, SEC access, and a live Kernel submission).** ⛔ **A GATE C SITTING WAS IN PROGRESS AT CLOSEOUT** — `PREDICTIONS.tsv` is pin-locked, see `SCRATCH.md` §STANDING HAZARD. *(§⑪ below.)*
 
 **PRIOR:** DONE — **2026-08-27 (SECOND session: crash-recovery → band revisit → CORAL feed → trap widening).** Four work items, all closed, **stamped contemporaneously at closeout — not retroactively.** *(§⑩ below. The QBP-window entry it supersedes is retained as §⑨.)*
 

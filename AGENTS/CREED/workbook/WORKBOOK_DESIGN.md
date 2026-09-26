@@ -109,7 +109,7 @@ Columns: `Pred_ID, Date_Made, Prediction, Confidence, Timeframe, Status, Date_Re
 ## 8. `VX_HISTORY.tsv` — seed the monthly series
 
 Columns: `Vector_ID, Date, Value, Status, Notes`. Seed the two load-bearing series:
-- **Office CMBS DQ:** Jan 12.34 · Feb 11.4 · (Mar) · Apr 11.69 · May 11.53 · **Jun 11.57**
+- **Office CMBS DQ:** Jan 12.34 · Feb 11.4 *[→ 11.20, corrected 2026-09-26, `KB-CREED-035`]* · (Mar) · Apr 11.69 · May 11.53 · **Jun 11.57**
 - **MF CMBS DQ:** Mar 7.15 · Apr 7.71 (ATH) · May 6.95 (cure) · **Jun 7.23**
 - (add SS + maturity-adj DQ as prints accrue)
 

@@ -79,13 +79,12 @@ BASIS_BLOCKS = {
     # Removing it from BASIS_BLOCKS without that suspension would have made a stale 3.40 read
     # as a live comparable bar -- the exact "cleared a block, created a worse state" move this
     # scan exists to prevent.
-    "CREED-T-08a": (
-        "BASIS UNDECLARED IN THE BAND -- '< -10' does not say total-return or price-only, and "
-        "VX-7.01 currently carries BOTH (+0.07pp TR / -0.58pp price-only, 0.65pp apart = ~6.5% "
-        "of the 10pp band). An undeclared basis POSITIONS the trigger, so no single number can "
-        "grade it. PROPOSED, AWAITING WILL. "
-        "CLEARS WHEN: Will declares which basis is canonical."
-    ),
+    # CREED-T-08a's basis block was CLEARED 2026-09-26: Will RULED the basis TOTAL-RETURN on
+    # 2026-09-10 (WQ-215, prospective; re-anchor rider adopted), encoded at THRESHOLDS header (B)
+    # on 2026-09-26. VX-7.01's value cell LEADS with the TR figure, so the first-number parse
+    # reads the ruled basis. The row fired 2026-09-24 on that basis (CREED_T_FIRED_LOG.tsv).
+    # The block sat 16 days past the ruling because CREED was dark -- the stale-entry failure
+    # mode the header warns about, bounded here only by the desk being asleep too.
 }
 
 

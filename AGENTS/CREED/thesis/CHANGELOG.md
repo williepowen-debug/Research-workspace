@@ -1,5 +1,15 @@
 # CREED Thesis Changelog
 
+## 2026-09-26 · **SECOND TRIGGER FIRE.** `CREED-T-08a` (S8a) FIRED — a RATE fire; composite HELD at 25/45 pending Will
+
+1. **`CREED-T-08a` FIRED, effective 2026-09-24.** VNQ vs SPY 3-mo **total-return −10.12pp (9/24) / −13.06pp (9/25)** on the basis Will ruled 9/10. Sector-wide (XLRE/IYR). Confirming leg met on both Signal-8a branches: **rates/refi** (10y 4.38 → 5.18%; **FOMC +25bp 9/16**) and **property** (Trepp Aug SS **11.42%, highest since Feb 2013**). **Score not moved by CREED — Will's call; rec 2 → 4, not 5.** A rate fire confirms the maturity/coupon root; it is **not** a tenant-demand read (S7 was improving), so the independent-root count stays ~4–5.
+2. **August's −1bp headline was a net over a worsening maturity book** — confirmed at the full PDF: maturity-adjusted 9.81 (+19), seriously delinquent 7.69 (+12), performing matured balloon 1.76 → 1.96% of balance, SS transfers ~2× July. `T-01b` NOT FIRED (16.90).
+3. **Lender tape: GPMT cut + formal review; `T-08b` NOT FIRED** — cuts 4/11, erosion concentrated in 4 names.
+4. **Two Kernel-pinned predictions met their rules** (`PRED-007` at 15%, `PRED-004` at 60%) — resolution with PROME. ⚠️ **Calibration: `007` was priced on a 1.2% base rate with no rate-hike path in the model — n=1, do not over-learn.**
+5. **Method self-critique:** the SS−DQ spread's sign is not an instrument (`KB-CREED-034`); history corrected from Trepp's own lookbacks (`KB-CREED-035`).
+
+**⚠️ What did NOT change:** no band/op/value/sustain; base case unchanged; still **pre-bank-transmission**; no capital path.
+
 ## 2026-08-27 · `CREED-T-03` **GRADED NOT FIRED** on the FDIC Q2 QBP — and grading it impeached its own baseline
 
 **The second trigger grade in CREED's history, and the first CLEAN one.** Convergence **UNCHANGED at 25/45**; **S3 held at 2 on the evidence.** The thesis did not move — but it moved from *assumed* to *tested*, which is the point of the window.

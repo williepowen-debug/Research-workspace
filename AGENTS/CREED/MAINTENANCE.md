@@ -15,6 +15,13 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 
 
+## 2026-09-26 — STATUS hot/cold split (obligation 21), a new pre-registration, and the pin hazard resolved
+
+- **Split executed.** `STATUS.md` is now the HOT file (header, standing obligations, thesis, rails, BOTTOM LINE; ~13 KB). **Each spawn's catch-up goes to `catchups/YYYY-MM-DD.md`**; `catchups/INDEX.md` names the current one and carries the old archive-pointer stubs verbatim (crc32 `9e34fa19`); the 9/02 section moved verbatim to `catchups/2026-09-02.md` (crc32 `388bb300`). **Why:** six byte rotations each bought 116–2,300 B against ~7–9 KB growth per spawn. **The `CLAUDE.md` boot pointer (6.1) now names the INDEX, not a dated section** — re-aimed in the same commit, so the next catch-up cannot orphan it. Obligations audited row-by-row; none removed.
+- **`registry/PREREG_2026-10_TREPP_PRINT.md`** — the September-print pre-registration, frozen on commit.
+- **PREDICTIONS pin hazard RESOLVED:** Sitting 2 closed 9/02; pins are **row-scoped** (`PRED-001/004/007` at `e390ccbb28`, sha256 of row bytes). Rule going forward: **edit other rows freely; re-verify the three pinned rows' sha256 after any write; never edit them — resolution is a Kernel act.**
+- **`workbook/VX.tsv` notes hot/cold split (obligation 26):** it had reached 58,030 B = 107% of the HARD cap (unreadable whole). Every Notes cell moved verbatim + crc32 to `notes/VX_NOTES.md` (on-demand, grep by vector ID); hot cells truncated to ~150 chars + pointer, and **16 caveat-critical cells hand-written** so the load-bearing caveat survives in the hot cell (a mechanical cut had dropped e.g. VX-7.01's 'rate fire, not tenant stress'). VX.tsv → 20,778 B = 64%. **Rule: new notes go to `notes/VX_NOTES.md`; the cell stays a short current-state summary.** Also: `threshold_scan.py`'s stale T-08a BASIS_BLOCK removed (Will ruled 9/10).
+
 ## 2026-08-20 (Phase 3) — `COVERAGE.md` lanes rebuilt; a REFRESH-TRIGGER column added so a vintage stamp cannot rot silently
 
 **All 12 lanes rebuilt.** Lanes 1–4, 6 and 9 carry new data; the rest re-verified and re-dated. The 8/20 known-stale banner was **removed because the rebuild it promised landed** — not because it aged out.
