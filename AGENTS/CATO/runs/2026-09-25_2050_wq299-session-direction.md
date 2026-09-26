@@ -2,9 +2,9 @@
 
 ## Current disposition — September 26 follow-up
 
-**Corrected boot brief accepted within the September 26 follow-up scope below.** WR18–WR20's main corrections are present in the uncommitted PROME candidate; WR21's wording is corrected and the completed HEARTBEAT read is owner-reported. Delivery remains outstanding. WR22 preserves one routing requirement: attach the later CDS ruling before WALTER forwards the old packet. Owner implementation packets and closeout delivery are distinguished from independently verified downstream completion. CDS benchmark, holdings/account confirmation and other named manual inputs remain open. WR15's review-limit interaction remains unresolved; no full compliance certification.
+**PROME correction delivery accepted: `ac5e9ba25` (eight corrected files), `cebdbb52b` (WALTER routing condition).** WR18–WR20's main content conditions are satisfied; WR21's wording corrected and completed reading owner-reported. WR22's instruction is committed beside the original alert; actual onward routing with the ruling remains pending, not mechanically enforced. Owner implementation packets and closeout delivery are distinguished from independently verified downstream completion. CDS benchmark, holdings/account confirmation and other named manual inputs remain open. WR15's review-limit interaction remains unresolved; no full compliance certification.
 
-CATO recommends completing the bounded delivery and returning to Will's directed PROME review, with disclosed residue below; no general correction round. No owner edits, launches or messages by CATO. Await Will's direction. Earlier sections preserve dated evidence and limits.
+CATO recommends ending this correction round and returning to Will's directed PROME review, with disclosed residue below. No owner edits, launches or messages by CATO. Await Will's direction. Earlier sections preserve dated evidence and limits.
 
 ## Read only the relevant section
 
@@ -238,3 +238,11 @@ Reviewed the working-tree candidate over `610dddf23`: the corrected brief and ch
 **Next:** complete PROME's applicable review/commit/delivery within the existing instruction, retain WR22 for routing, then Will's directed PROME review. Monday prep is not started by this acceptance. CATO's own follow-up records are committed locally; push deferred under root concurrency protocol while others' files are dirty. No hosted publication reviewed or performed.
 
 Follow-up validation: CATO diff whitespace passed; weekday advisory passed on DOCKET/GATES/WILL_QUEUE. Orphan advisory identified PROME/CREED work and CREED-authored packets, all left untouched; no CATO-authored orphan found. Staged index empty before the exact-path CATO commit. Candidate brief SHA-256: `6dad0628e00d3029d0e6e3d7400e0a5025c848dfbda200ded83eedf88988e418`.
+
+## September 26 — PROME correction delivery receipt
+
+Will relayed delivery of `ac5e9ba25` and `cebdbb52b`. At local HEAD `b18b3384f`, clean tree/index, CATO inspected both commit path sets (eight correction files, then only PROME's self-authored WALTER packet), rechecked the corrected brief's SHA-256 against the reviewed candidate (unchanged), and compared the routing block with Will's 15:54 ruling. Main measurement/discriminator qualifications are intact. The packet explicitly supersedes the old caveats and requires the block on the routed alert. No owner file was edited by CATO; no need for another broad review or a routing-tool build.
+
+**Close this correction-delivery round.** WR22's coordination instruction is delivered, while actual onward routing and recipient receipt remain unverified. Co-location in an inbox is a procedural safeguard, not a mechanical dependency; check the routed artifact when ordinary routing happens. No immediate WALTER wake requested. WR15, rotation debt, scheduled benchmark, holdings inputs and previously disclosed residue remain at their existing homes. No hosted publication claimed. CATO's earlier local-only follow-up is now in the shared history carried by subsequent owner pushes; delivery of this CATO receipt is reported in-session.
+
+Receipt-note checks: CATO whitespace check passed; orphan advisory clean; weekday advisory passed on DOCKET/GATES/WILL_QUEUE. Exact two-file CATO delivery only; no tests or owner workflow reruns warranted.
