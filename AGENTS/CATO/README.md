@@ -33,7 +33,8 @@ Model availability still depends on the installed client/account. Verification e
 | [AGENTS.md](AGENTS.md) | Startup and closeout entry point |
 | [CHARTER.md](CHARTER.md) | Role, authority and report contract |
 | [CONTINUITY.md](CONTINUITY.md) | Current assignment, approvals and resume links |
-| [Continuity archive](CONTINUITY_2026-09-21_ARCHIVE.md) | Verbatim September 21 snapshot; cold history, not a startup read or current assignment |
+| [Latest continuity archive](CONTINUITY_2026-09-26_ARCHIVE.md) | Verbatim pre-trim September 26 snapshot; past task dispositions and approvals, read on demand |
+| [Earlier continuity archive](CONTINUITY_2026-09-21_ARCHIVE.md) | September 21 history; neither archive is a startup read or current assignment |
 | `runs/` | On-demand task evidence; one report per continuing task with current disposition and dated follow-ups |
 
 Root operating instructions still apply. RAV’s reports retain their historical authorship; CATO does not inherit its maturity or unverified backlog.
