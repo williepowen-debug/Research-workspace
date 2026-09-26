@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-26 15:21",
+ "built": "2026-09-26 16:32",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -22,6 +22,7 @@
   "2026-09-25 FORUM-7 \u2014 PATH vs PREMIUM pre-registered verdict rule for th",
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-09-28 LIQUID WAKE ~16:15 ET \u2014 grade the 9/25 HY OAS cell (FRED BAM",
+  "2026-09-28 LIQUID \u2014 ONE TARGETED VALIDATION before any anchor re-base (",
   "2026-09-28 ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure ",
   "2026-09-28 OTTO FULL-SESSION WAKE \u2014 the work the 9/24 WQ-206 drain (730",
   "2026-09-28 WQ-256 (a) SL-5 CANON AMENDMENT \u2014 draft the EXACT clause: a ",
@@ -169,17 +170,14 @@
  "pending": [
   "WQ-187 (9/12)",
   "WQ-204 (9/19)",
-  "WQ-301 (9/29)",
   "WQ-295 (9/29)",
-  "WQ-293 (9/30)",
-  "WQ-291 (9/30)",
   "WQ-279 (9/30)",
-  "WQ-246 (10/1)",
   "WQ-302 (10/14)",
   "WQ-31 (11/1)",
   "WQ-274 (before trading\u2026)",
   "WQ-273 (undated)",
   "WQ-169 (facts: when co\u2026)",
+  "\u26d4 WQ-301 (10/2)",
   "\u26d4 WQ-242 (10/9)",
   "\u26d4 WQ-241 (10/9)"
  ],

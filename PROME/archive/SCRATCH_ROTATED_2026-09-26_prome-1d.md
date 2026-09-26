@@ -1,4 +1,4 @@
-# SCRATCH rotation — `prome-1d`, 2026-09-26 13:22 ET (three verbatim cuts; per-block crc32 over the exact bytes of each block, no heading)
+# SCRATCH rotation — `prome-1d`, 2026-09-26 13:22 ET (six verbatim cuts — CUTs 1–3 at 13:2x, 4–5 at 16:01, 6 at 16:21; per-block crc32 over the exact bytes of each block, no heading)
 
 ## CUT 1 — ★ NEXT leg-3 block — crc32 1583422549 · 3569 B
 
@@ -17,3 +17,23 @@
 - **As of this document update:** 2026-09-25 17:4x ET (`prome-2e` leg 3). **Market data: 9/25 CLOSES in HEARTBEAT (22nd base, post-close) — equities/ETFs/vol complex [9/25c], FRED [9/24 cells]; futures settles owner-owed** (TLT $79.32 · VLO $387.145 [TERRY] · MOVE 96.00 · 10Y 5.18 [9/24] · HY OAS 280 [9/24]). ⛔ NOT refreshed: the broker book (WQ-274). **STAND DOWN on new energy capital (WQ-192) holds; concentration ACCEPTED (WQ-297 A).**
 
 ---
+## CUT 4 — ★ NEXT tail-1 sentence (14:0x–14:2x) — crc32 785092088 · 622 B
+
+**TAIL 14:0x–14:1x ET on Will's 14:06 word:** Deck Owed **v46** (db carried) · reference **v10** · Helm **v30** PUBLISHED (a second 'The Helm' artifact dated 9/14 sits in the gallery untouched — ask which he opens) · **WQ-237 → done/L503** (RULED 9/17 by tap; PROME had left it OPEN and re-presented it — slip owned; scope executes at the spine-audit #15 root-doc sitting; L419 separately gated) · **L498 DELIVERED as WQ-300** (ranked plan v2; $0 today; two quotes + one page; WQ-296 A on 9/30 as the interim) · **L504** CATO freshness-consumer repair registered as the next PROCESS slot, after domain rows ·
+
+---
+
+## CUT 5 — ★ NEXT tail-2 sentence (14:33–14:5x) — crc32 871182093 · 1249 B
+
+**TAIL 2 (14:33 → 14:4x ET, Will: *"Continue domain work. Use the already-requested owner responses…"*): four Tier-1 desk spawns (HAWK · LIQUID · BROCK · DEWEY, the boot's cap), all delivered 14:5x and closed out under WQ-249 (4 ASKED→RECEIPT). WQ-300 REVISED — nothing to buy; the tanker letter needs BOTH vendors and no quote was ever sent (the send is Will's word with WQ-296 on 9/30); **the free DTCC CDS path is VERIFIED and `GATE-LIQ-069` leg 2 reads ≈+370–410bp over its anchor since ~7/29 — LIQUID's owner grade Monday (L505, rides L492), anchor question to Will only if a basis change is proposed**; rating agencies DON'T BUY (re-scope 7/25 to the free tier); ranks 4–8 DECLARE with two LIQUID desk lines kept CANNOT-FIRE; WQ-235 closed under F2 (already ruled 8/13, BROCK's stale premise). DEWEY cadence ON-DEMAND recorded. Queue in the gate's labels: open 18 · blocked 2 · actionable 16. Deck/Helm republish with the settled package + WQ-300 = this tail's step; canonical Helm = `https://claude.ai/artifact/WPpL1wzzBg3geo1wFhzCXj`; PUBLISHED 14:5x — Owed v47 · reference v11 · Helm v31 · Fleet-Ops v34 (receipts + the repaired duplicate-Helm slip → STATUS publication row and memory/2026-09-26.md § Tail 2).**
+
+---
+
+*(CUTs 4–5 appended at the 16:01 ET closeout rotation, same session; CUTs 1–3 are the 13:2x rotation.)*
+## CUT 6 — ★ NEXT tail-3 sentence (15:04–16:0x) — crc32 1832121229 · 1563 B
+
+**TAIL 3 (15:04 → 15:2x ET, Will's batch ruling, record `proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md`): 292 · 296 · 300 · 287 · 257 RULED; 295 R1 encoded (24 provisional tokens) + R2 demonstration `plans/2026-09-26_wq295-R2-wake-schedule.md` (R2 HELD); five desk spawns on his word (TERRY · LIQUID · HAWK · BOND · YURI) + TERRY re-spawned 15:5x for the card update — ten desk spawns today, all delivered and closed out (10 ASKED→RECEIPT). 🔑 **`GATE-LIQ-069` leg 2 FIRED on the letter's basis (CRWV 5Y 847bp [9/24 DTCC] vs >552/>666.5) → gate 2-of-2, follow-through done (discriminator NOT FIRED; NEXUS flagged); GATES mirrored; WQ-301 (proxy · anchor · LIQUID's energy-row charter edit — (a)(c) RULED 15:54, (b) HELD → ⛔ waits: LIQUID's L510 benchmark Monday; needed-by 10/02).** HAW-22 REGISTERED (WQ-296 A). Two ITM-put cards on file → WQ-302 (10/14). BOND's exact WQ-291 letter + WQ-246 count and YURI's YUR-004 letter on file → 291/246/293 actionable again. 235 closed (already ruled 8/13). Queue: see the generated block. Will's 15:54 ruling encoded (record `proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md` § Second ruling; 291 · 246 · 293 RULED; 301 a/c ruled, b held → LIQUID's ISDA benchmark L510; 295 R2 HELD → `plans/2026-09-26_week-ahead-sequenced.md`); TERRY's cards updated with Fidelity's published policy + the narrowed question (30fc177c2); Kpler inquiry SENT by email (Gmail 1a0df4d64f13afb1), Vortexa = Will's form; Deck republished at this closeout (receipt in STATUS).**
+
+---
+
+*(CUT 6 appended at the 16:21 ET closeout rotation.)*
