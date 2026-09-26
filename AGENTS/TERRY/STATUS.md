@@ -9,6 +9,12 @@
 
 > ## ⤵️ **2026-09-19 Sat cruise block ROTATED 2026-09-24 → `archive/STATUS_ARCHIVE_2026-09-24.md`** (pre-rotation lines 9–42, crc32 `5ad593d1`, 22,547 B — verbatim, contiguous, body only). Forced: STATUS opened 9/24 at 32,535 B, 15 B under the READ-CAP. ⛔ No live state moved — legs verified on other live surfaces first, listed in the archive header.
 
+> ## ★ CURRENT STATE — 2026-09-26 Sat 15:08–15:3x ET · PROME spawn (`prome-1d`, Tier 1, WQ-292 RULED 15:04 ET: *"prepare the two position-management cards … preparation, not trades"*). **`$0` MOVED · NO PROPOSAL · NO GATE OR THRESHOLD MOVED.** This supersedes the WQ-292 row ("Not carded") in the 9/25 block below.
+> - **Carded:** `setups/TLT_oct16-82P_ITM-management-card_2026-09-26.md` (`MGMT-TLT82P-OCT16`) · `setups/HBAN_oct16-16P_ITM-management-card_2026-09-26.md` (`MGMT-HBAN16P-OCT16`). 9/25 close (Sat): TLT `79.32` ⇒ 82P ITM `$2.68`, bid `3.00` ⇒ ×2 `$600` vs cost `$336`. HBAN `15.64` ⇒ 16P ITM `$0.36`, bid `0.45`/ask `0.80` (56% wide) ⇒ ×2 `$90` vs `$192`. Screening marks.
+> - **Named UNKNOWN on both:** Fidelity's handling of an ITM long put with no shares in an IRA. Its public pages give only auto-exercise at ≥$0.01 and a DNE deadline of 16:15 ET; the IRA-short branch is SEARCH-NOT-FOUND. One question for Will to ask Fidelity, on both cards. Decision point **Wed 10/14 close**; backstop Fri 10/16 before 16:00.
+> - **HBAN 7/18 ruling:** the letter stands; its premise (dust, commission ≈ proceeds) failed ($1.30 vs ~$90). Re-rule options R-A/R-B are listed, not recommended. HBAN Q3 print is **10/22 BMO**, after expiry (HBAN IR). **TLT 82P:** DOCKET 10/1 FR2004 names it under BOND's unresolved kill rail (WQ-291 HELD).
+> - Inbox drained 1/1 (BRENT F1 packet, `noted`). BOARD scan: 21 action-line, all logged. SETUPS/TRADE_BOOK rotations still owed, so the cards use `MGMT-` ids (no SETUPS row) and are registered in `setups/INDEX.md`.
+
 > ## ★ CURRENT STATE — 2026-09-25 Fri 14:12–16:1x ET · PROME spawn (`prome-2e`, Tier 1, the post-settle re-touch owed by WQ-282/WQ-213). **`$0` MOVED · NO PROPOSAL · NO GATE MOVED OR SHAVED.** This supersedes the "Owed today ②" line in the 02:58 block below.
 >
 > | line | state (own pulls, vendor = screening) |

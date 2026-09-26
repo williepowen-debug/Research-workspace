@@ -1,3 +1,4 @@
+> ➡️ **2026-09-26: the put is now IN THE MONEY. Live management card is `HBAN_oct16-16P_ITM-management-card_2026-09-26.md` (WQ-292).** This stub is unchanged below.
 > # 🪦 RETIRED — DUST-RIDER (Will 2026-07-18: EXIT-THESIS)
 > **Decision (Will, 7/18 via PROME + REGINALD decision brief `AGENTS/REGINALD/reports/2026-07-18_HBAN_thesis-or-exit_decision-brief.md`):** **no bank-system thesis behind the name.** The Oct-16 $16P ×2 **rides to expiry as dust** (~$20 mark; commission ≈ proceeds → **do NOT pay to close**). **Zero further analytic effort. No re-entry as a stress vehicle.** DOCKET 7/23 row flipped MONITOR-ONLY.
 > **Status: CLOSED / dust-rider.** Dropped from live-monitoring lists (INDEX row banners this). Nothing below is actionable — kept for the record only. The 7/16 governance content is superseded by this exit decision.
