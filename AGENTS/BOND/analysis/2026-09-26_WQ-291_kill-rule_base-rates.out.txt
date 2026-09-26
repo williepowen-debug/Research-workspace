@@ -1,0 +1,43 @@
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+FR2004 as-of span 2022-01-05 -> 2026-09-16 n 246 breaks {'SBN2022': 130, 'SBN2024': 116}
+[grade] corpus: 360 rows through 2026-09-24 | +0 newer print(s) overlaid from TA_WS
+[grade] corpus: 360 rows through 2026-09-24 | +0 newer print(s) overlaid from TA_WS
+
+5Y auctions joined n=32  span 2024-01-24 -> 2026-08-26
+3-6Y delta: median +2.74  p75 +6.98  p90 +8.62  max +21.18  min -14.08
+  share >0 21/32  >1 18/32  >=8.6 4/32
+LONG-END delta on 5Y weeks: median +1.29  share >0 22/32  >1 17/32  >=6.4 5/32
+  3-6Y>=8.6 True   long>1 True : 3
+  3-6Y>=8.6 True   long>1 False: 1
+  3-6Y>=8.6 False  long>1 True : 14
+  3-6Y>=8.6 False  long>1 False: 14
+
+ALL weeks 3-6Y w/w n=245: median +0.43 p90 +6.20  share >=8.6 7/245
+NON-5Y weeks 3-6Y w/w n=213: median +0.19 p90 +5.65  share >=8.6 3/213
+
+corr(dealer % of competitive, 3-6Y delta) over n=32: r=-0.10
+  top-quintile dealer-take auctions: 3-6Y median +0.41 vs rest +6.03
+
+I' 5Y fires: 9  of which 3-6Y>=8.6: 0  long>0: 7  long>1: 4
+OLD-conjunctive 5Y fires: [('2024-01-24', 2.81, 5.27)]
+
+weekday of 5Y auctions: {0: 7, 1: 8, 2: 17, 3: 0, 4: 0}
+last 6 rows:
+  2026-03-25 2026-03-18 2026-03-25 d36 +6.20 d67 -3.00 dlong -1.51 dlr 15.61 fired False
+  2026-04-27 2026-04-22 2026-04-29 d36 -10.80 d67 +1.67 dlong -11.50 dlr 12.68 fired False
+  2026-05-27 2026-05-20 2026-05-27 d36 +21.18 d67 +0.96 dlong +6.35 dlr 12.80 fired False
+  2026-06-24 2026-06-17 2026-06-24 d36 +7.14 d67 +5.68 dlong +0.51 dlr 12.89 fired False
+  2026-07-27 2026-07-22 2026-07-29 d36 -6.38 d67 +0.85 dlong +2.11 dlr 13.53 fired True
+  2026-08-26 2026-08-19 2026-08-26 d36 +8.26 d67 +3.29 dlong +5.43 dlr 10.05 fired False
+
+corr(dealer $B awarded, 3-6Y delta) n=31: r=-0.08; dealer $B median 8.7
+I' fires 3-6Y>0: 5 / 9 | I' fire rows: [('2024-01-24', 2.8, 5.3), ('2024-11-26', 5.9, 16.9), ('2025-01-27', -0.7, 1.0), ('2025-04-23', -3.8, 0.1), ('2025-07-28', 6.6, 3.0), ('2025-08-27', -14.1, -33.5), ('2025-09-24', 7.2, -7.7), ('2025-12-23', 4.4, 0.9), ('2026-07-27', -6.4, 2.1)]
+FULL-corpus 5Y n=44 span 2023-01-25->2026-08-26: 3-6Y median +2.74 p90 +8.62 share>0 32/44 >=8.6 5/44
+  long-end on those weeks: >0 31/44 >1 25/44
+  2x2 (3-6Y>=8.6, long>1): {(True, True): 4, (True, False): 1, (False, True): 21, (False, False): 18}
+9/16 levels: 3-6Y 47.986  6-7Y 27.845  long 144.37
+  Wed: n=24 3-6Y median +2.74 p90 +8.26 >=8.6 2
+  Mon/Tue: n=20 3-6Y median +3.07 p90 +9.41 >=8.6 3
