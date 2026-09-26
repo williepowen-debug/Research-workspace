@@ -2,9 +2,9 @@
 
 ## Current disposition — September 26 follow-up
 
-**Snapshot at `4d2cce0ba`; final PROME closeout not reconciled.** Cards and LIQUID follow-through were delivered at owner artifacts; holdings, CDS model and hosted publication were not certified. Latest CATO recommendations are in the [cards and remaining choices](#september-26--cards-cds-grade-and-remaining-choices) section: WQ-246 ready; WQ-291 advisory with limits; conversion validation before rebase; YURI date/content corrections; R2 held for capacity. Vendor inquiries were already authorized. These recommendations are not new Will rulings.
+**Final closeout received at `5562955c3`; see [reconciliation](#september-26--final-prome-closeout-reconciled).** Will's 15:54 rulings are recorded, replacing the earlier recommendation-only snapshot. Owner implementation packets and closeout delivery are distinguished from independently verified downstream completion. CDS benchmark, holdings/account confirmation and other named manual inputs remain open. Eight continuity reads expose an unresolved interaction between WQ-165 and the WQ-299 cap (WR15); no full compliance certification.
 
-Will requested a fresh-context wind-down. After the separately approved CATO documentation cleanup, orient and await Will or PROME's final receipt; no automatic owner review or implementation. Reconcile actual rulings before resuming. Earlier dated sections below preserve the evidence and limits at their respective revisions.
+CATO startup cleanup is delivered. Orient and await Will in the fresh context; no new owner work or correction round is assigned. Earlier sections preserve dated evidence and limits.
 
 ## Read only the relevant section
 
@@ -177,3 +177,16 @@ Will asked what learned behavior to retain while PROME winds down. These are pra
 6. **Wind down by finishing bounded work.** Will clarified that winding down means completing already-authorized tasks that can finish cleanly, preserving exact blockers and resume points for the rest, then closing out. It does not mean an abrupt stop or launching new work to clear every item. Apply the same discipline to CATO: concise advice, targeted verification, existing records, and stop when the useful decision is ready.
 
 Saved this short lesson set and one startup cue only. No new policy, owner edits or operational task. PROME is actively editing shared files during closeout; do not pull or include its paths. CATO notes are committed locally, with push deferred while the shared tree is busy; a later shared push may carry them, but receipt must be verified. After this debrief, orient and await Will.
+
+
+## September 26 — final PROME closeout reconciled
+
+Will relayed final receipt: main closeout `b169887b3`, ARGUS bookkeeping `b867249f7`, Deck receipt `5562955c3`; fresh-fetch push confirmation quoted. CATO observed a clean tree at that HEAD matching the local origin tracking ref, read the recorded 15:54 ruling and its encode map, closeout commit/ORCH_LOG, week plan and publication receipt. No live hosted-page or broker inspection, model execution or comprehensive downstream encode review. This completes the state refresh left pending by CATO's approved cleanup.
+
+**Actual rulings:** WQ-291/246/293 approved with the previously proposed riders; BOND/YURI encodes packeted. WQ-301(a) instrument and (c) exact energy-charter edit approved; (b) held for one ISDA/trusted-model benchmark, not a guaranteed ±25bp bound. WQ-295 R2 held; existing obligations sequenced. WQ-302 stays open pending holdings/account and Will's choice, updated Fidelity-policy cards delivered by TERRY. These are recorded operator rulings, no longer merely CATO draft advice. Kpler send has an owner receipt/Gmail id; Vortexa is blocked at the script-rendered form requiring Will's identity fields. CATO did not independently access sent mail.
+
+**Delivery/resume:** owner reports Owed v49, reference v12, Helm v32, Fleet-Ops v34 published. Monday's scheduled LIQUID/OTTO work remains with PROME, no new ruling needed before it per owner. Will's manual list: NYSCEF by September 30; Vortexa form; Fidelity handling/timing/cost question and confirm quantities/account. WQ-274 transaction/current-book reconcile still needs broker views. Token/credential tasks remain separate. No new trade, send or owner work authorized by this CATO reconciliation.
+
+**WR15 — unresolved review-rule interaction (material process residue):** ORCH_LOG records eight successive continuity-file reads, 16:04–16:23, followed by ARGUS 16:23–16:32 and a corrected Deck publication at 16:34. `PROME/CLOSEOUT_PROCEDURES.md:14` still instructs repeat reads until zero errors or two consecutive basis-only reads (WQ-165); `PROME/CLAUDE.md:80` contains WQ-299's three-independent-read repair-episode cap and named-override requirement. The log cites WQ-165 to continue; no reconciliation or named override was found in the inspected ruling/log perimeter. Exact defect/episode accounting has not been audited, so do not claim eight reads alone proves eight reads of one defect. Nevertheless full compliance is not established, and the owner's “no control skipped; one deviation” does not settle this interaction. Completion condition: at the next authorized process sitting, state which stopping rule governs these rotations and preserve an explicit unresolved disposition at the limit. Do not launch another closeout repair round now.
+
+PROME also declares rotations stopped at 72–75%, above the 70% target: owed reductions SCRATCH 1,170 B, HANDOFF 629 B, STATUS 1,551 B carried to next closeout. No waiver or repaired state inferred. Only CATO report/continuity and the cleanup completion note updated. Resume: orient and await Will.
