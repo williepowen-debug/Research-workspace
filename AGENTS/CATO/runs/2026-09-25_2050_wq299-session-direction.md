@@ -2,7 +2,7 @@
 
 ## Current disposition — September 26 follow-up
 
-Latest check at `65a78ef4aa62092cf2a6b9a7b54cb8215f07a644` after Will relayed PROME's closeout. **Principal encodings accepted within the artifact comparison; stop this reform round and prioritize useful delivery.** WQ-299/C1, WQ-255 SPECIAL and WQ-251 withdrawal are now ruled and recorded. Required-review completeness and hosted publication are not certified by CATO. New WR7: WQ-237 is already approved in its own row, contrary to the renewed ask. Detailed follow-up below; prior proposal-stage dispositions remain history.
+Latest check at `6941e4dead4869e212eca4483e9878cfbfaf2666`, including the ranked paid-data plan. Reform remains accepted within earlier limits. PROME now reports publication and has removed the renewed WQ-237 ask; implementation of its root edits remains owed. Direction is improved, but recommend no blanket WQ-300 approval before bounded source-fit and priority corrections (WR8–WR10 below). No owner work is assigned to CATO; await Will.
 
 ## Original disposition — September 25
 
@@ -94,3 +94,28 @@ The CATO freshness defect is confirmed by source inspection: `manual_only_names(
 WR5's count-label residue survives: parser gives **19 OPEN, 2 blocked, 17 unblocked, 14 dated/unblocked**, with WQ-274/273/169 undated. “17 actionable in the gate's own labels” does not match the canonical dated/unblocked cap definition. Correct on the next normal queue touch; no extra review cycle. L210 remains owner-reported partial; its remaining legs were not assessed here.
 
 Saved only CATO's continuing report/continuity and updated its own identity pointers to the now-ruled SPECIAL classification, preserving manual use and pending DAEDALUS integration. Whitespace, weekday and orphan checks passed. Resume: await Will's next task; reform implementation is not pending permission again. No owner edits, sends, launches or publication.
+
+
+## September 26 — paid-data direction follow-up
+
+Will supplied PROME's next receipt and requested thoughts. Read the ranked v2 plan, WQ-300/279/296 and the LIQ-069 gate definition, HAWK's September 25 registration finding, and delivery metadata at the revision above. External checks were limited to DTCC dissemination documentation and SOLVE's vendor description; no complete price, ratings-access, FRED or market audit. Tree/index clean and pull already current before CATO edits.
+
+**Direction:** useful progress toward decision-linked research and preserving prior declines. Support holding new purchases pending evidence; do not interpret zero expenditure or fewer registered gates as proof of maximum value. The next useful deliverable is demonstrated source fitness for the priority questions, using the already-requested owner replies, not another general review or controls build. Owner replies must be allowed to change coverage and recommendation cells, not only prices.
+
+### WR8 — material: access is not demonstrated measurement readiness
+
+Plan ranks 1–3 (lines 9–11) overstate sufficiency. HAWK's `research/2026-09-25_L321_HAW19-successor_NOT-REGISTERED.md` requires BOTH vendors, a matched fixture, terminal/path inventory and calibration; access alone does not deliver registration. Option A measures disclosed loss, not measured throughput; select it for the question it actually answers, not merely to keep a forecast on the ledger. Close by qualifying option C with all readiness conditions and presenting A's blind spot in the ruling brief.
+
+DTCC does publish transaction data: [DTCC rulebook section 5.1.3](https://www.dtcc.com/-/media/Files/Downloads/legal/rule-filings/2024/DDR/DDR-Amendment-1-2024.pdf). That establishes a promising free route, not a usable CoreWeave five-year spread comparison. LIQ-069 leg 2 calls for two named-source quotes. LIQUID should demonstrate two comparable observations matching the instrument/tenor and spread basis, or retain the unresolved access/fitness condition. One successful browser open is insufficient, and a failed open does not refute availability. The plan's automatic shrink from five legs to four is a definition change; retain the missing leg's explicit state absent separately authorized amendment. DEWEY should demonstrate the required named-issuer actions on the free service against its owed spec before the earlier access ruling is re-scoped. CATO did not independently test those logins.
+
+### WR9 — material direction correction: registered gates are too narrow a value test
+
+The plan uses absence of a registered gate to justify declaring ranks 4–8. Research can improve warning time, falsification or discovery before it has a registered trigger. Ask the existing owners to name the decision or uncertainty improved and the practical cost; keep low-value lines deferred without claiming universal uselessness. No new scoring framework or open-ended vendor study recommended.
+
+Rank 8's universal claim that every vendor uses only quarterly BDC filings is unsupported. [SOLVE's direct-lending page](https://solvefixedincome.com/who-we-serve/direct-lending-bdcs/) advertises loan/bond quotes and predictive pricing alongside BDC data. This does NOT establish coverage of BROCK's specific holdings or satisfy its Q3 reporting condition. Close by separating the exact reporting-dependent condition from unverified earlier market evidence; BROCK should confirm whether any such evidence would change its research judgment. Preserve the registered reporting condition.
+
+### WR10 — material scheduling correction: another earlier decision input exists
+
+Plan line 23 says rank 1 is the only dated decision before October 2, but WQ-279 asks for optional court-record access by September 30 for GATE-FLG-T08's October 1 grade. Rank 12 itself names that grade. Surface this existing low-cost input alongside WQ-296, retain its optional status and press-source fallback; do not bury it because it is not a purchase. The headline that only two lines support registered gates also excludes the plan's own rank 3 (LIQ-069 leg 5) and rank 12 (FLG-T08). Correct these summaries at the same ordinary plan touch.
+
+**Delivery and stopping point:** queue header confirms WQ-237 moved to implementation tracking, L419 separate; renewed-ask portion of WR7 corrected, root execution not verified. Deck/Helm publication is owner-reported, not inspected live. WQ-300 explicitly remains absent from the published Deck; include the settled package at the next authorized publish and identify the canonical Helm link, without making Will manage duplicate artifacts. No owner edits, sends, launches, gate changes, purchases or publications by CATO. Recommended corrections are advisory, not rulings. Save this continuing record and resume map only; no code tests warranted. Await Will's next direction.
