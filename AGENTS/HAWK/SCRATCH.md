@@ -5,6 +5,8 @@
 
 ---
 
+**ADDENDUM 2026-09-26 (Sat 15:1x ET, PROME `prome-1d` Tier-1, WQ-296 RULED A 15:04 ET):** ✅ **HAW-22 REGISTERED** (thesis/PREDICTIONS.tsv; KB-HAWK-414) — R1 verbatim, 65% UNCALIBRATED, windows 10/01–10/31 · cutoff 12/21 · resolves 12/22; warning verbatim on the row and in the grade carry rule: *undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity*. Kpler/Vortexa inquiry text for Will's hands → `PROME/inbox/2026-09-26_from-HAWK_HAW-22-registered-and-inquiry-text.md`; nothing sent. Inbox 0/0 at spawn. NEXT-SESSION item 1 now = HAW-19 DEFECTIVE encode on 9/30 only (HAW-22 part DONE).
+
 **ADDENDUM 2026-09-26 (Sat 14:4x ET, PROME `prome-1d` Tier-1 WQ-298/L498 spawn):** inbox 1/1 drained (PROME WQ-298 packet → processed). Line 2 + WQ-296 view delivered → `PROME/inbox/2026-09-26_from-HAWK_paid-data-line-2-and-WQ-296.md` (KB-HAWK-413): BOTH vendors required; quote NOT requested (draft text in §5 for Will); TankerTrackers publishes no daily per-terminal loadings (Corporate Lite now $12k, PremiumPlus closed); concur A on 9/30. NEXT-SESSION list below is UNCHANGED — item 1 (9/30 HAW-19 DEFECTIVE + HAW-22 if A) still governs. No other boot/closeout legs run this spawn (scope-limited): BOARD info-lane, 6a-3 fingerprints, dormant re-sweep, aggregate refresh all still owed as listed.
 
 ---
@@ -28,7 +30,7 @@
 
 ## ⛔ NEXT SESSION — DO THESE FIRST
 
-1. 🔴 **9/30 — HAW-19 resolves as DEFECTIVE INSTRUMENT** (WQ-212). Encode it on the row with no calibration credit. LEG B is still adjudicated on its own evidence, and a dated search log is required. **If Will ruled A on L321, register R1 as HAW-22 the same session, before 10/1, letter verbatim from the finding file.**
+1. 🔴 **9/30 — HAW-19 resolves as DEFECTIVE INSTRUMENT** (WQ-212). Encode it on the row with no calibration credit. LEG B is still adjudicated on its own evidence, and a dated search log is required. ~~If Will ruled A on L321, register R1 as HAW-22~~ **DONE 2026-09-26 (WQ-296 A) — HAW-22 registered.**
 2. 🟠 **War-risk aggregate is only PARTIALLY refreshed** (9/25). Ages were not re-stamped and every leg is older than shown. A real refresh (boot 13a) is owed.
 3. 🟠 **VX-HAWK-EURMIL-01 evidence cell** still lacks the Musterung datum (KB-HAWK-408). Carried since 9/21.
 4. 🟠 **Dormant re-sweep:** IRAQ + FININFRA crossed the 45-day cadence (last full review 8/10). The 9/24 review backstop was NOT run.
@@ -45,7 +47,7 @@
 
 ## PENDING DECISIONS
 
-- **Will:** L321 A/B/C (via PROME), by 9/30.
+- ~~**Will:** L321 A/B/C (via PROME), by 9/30.~~ RULED A 2026-09-26 (WQ-296). **Will's hands:** submit the Kpler/Vortexa inquiry forms (inquiries only).
 - **PROME:** close L433 UNDETERMINED (no re-date recommended); land the WATCH_FOR list after WALTER's R3 test.
 
 ## MAIL STATE

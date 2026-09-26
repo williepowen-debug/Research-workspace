@@ -1,5 +1,7 @@
 # DOCKET L321 — HAW-19 capacity-only successor · REGISTRATION FINDING
 
+> ✅ **OVERTAKEN 2026-09-26:** Will ruled **A** (WQ-296, 15:04 ET). R1 below is now **registered as HAW-22** in `thesis/PREDICTIONS.tsv` (KB-HAWK-414), 65% UNCALIBRATED, with the undisclosed-damage warning on the row. This file's verdict is the dated 9/25 record; the filename is kept for pointer stability.
+
 **Written:** 2026-09-25 12:3x ET, HAWK, PROME Tier-1 WQ-184 due-row spawn (prome-2e). **Ruling served:** WQ-212 (Will APPROVE 2026-09-10 20:45Z). It requires a prospective capacity-only successor with separate event/observation windows 2026-10-01 → 2026-12-22, its own disclosure test on the row, and D3 left unparameterized (A.2 satisfiable by (a) alone), registered before 10/1. $0 · no score, confidence or threshold moved · `thesis/PREDICTIONS.tsv` NOT edited.
 
 ## Verdict: ⛔ NOT REGISTERED. The successor as proposed and approved CANNOT be registered from this desk. This is a finding for Will, not a slipped deadline.
