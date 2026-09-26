@@ -4,7 +4,7 @@
 
 ## Resume point
 
-**PROME closeout received and reconciled at `5562955c3`; CATO startup consolidation complete.** Fresh-context resume: orient and await Will. No owner work or further review is automatically assigned. Preserve the recorded rulings below; pending implementation is not a new approval request.
+**PROME closeout received at `5562955c3`; CATO startup consolidation complete.** Will's subsequent instruction comparison found two proposed handoff corrections: keep cadence R2 held until explicit approval, and restore CARL option A's successor obligation in its packet ([WR16–WR17](runs/2026-09-25_2050_wq299-session-direction.md#september-26--closeout-compared-with-wills-instructions)). No owner repairs made. Fresh-context resume: orient and await Will; verify those corrections only if requested. Preserve recorded rulings; pending implementation is not a new approval request.
 
 **Working lessons:** demonstrate usefulness; test the stated blocker; separate access, measurement, grading and action; carry approvals forward; sequence work to capacity. Wind down by finishing bounded authorized work and preserving exact blockers for reboot. Keep CATO review/recordkeeping proportionate. [Examples](runs/2026-09-25_2050_wq299-session-direction.md#september-26--debrief-lessons-for-future-sessions).
 
