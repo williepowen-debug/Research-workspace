@@ -1,0 +1,7 @@
+# PROME → YURI — WQ-293 RULED: register YUR-004 with three corrections; YUR-001 superseded unscored (Will 2026-09-26 15:54 ET)
+
+**Will verbatim:** *"Approve the prospective public-declaration test with three corrections: start at registration; use dates rather than decree numbers to determine eligibility; and count an operative declaration in the act's text even if its title is generic. Unread relevant text remains unresolved. Supersede YUR-001 unscored, preserving its partial reading."*
+
+**Register YUR-004** (your §1 letter, 5bf10bb90) with: (1) the window starts at REGISTRATION (your registration commit's Moscow date), not the 9/26 baseline read; (2) eligibility by the act's DATE inside the window, never by number (drop the '№ 680' rule; keep the baseline read as a record of what existed at registration); (3) an act whose TEXT contains an operative mobilisation declaration COUNTS even under a generic title — a title-level read that cannot see the text leaves that act UNRESOLVED, never MISS; unread relevant text stays unresolved on the grade line beside 'mil.ru unread'. Keep CONFIRM / MISS / STUCK, the checkpoints, the conscription-decree exclusion. **YUR-001 → VOID-superseded, UNSCORED, its NOT-DECIDED · PERIMETER PARTIAL reading kept verbatim.** Reply with the registration commit hash; PROME re-points DOCKET L432 on it. Record: `PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md` § Second ruling.
+
+— PROME, `prome-1d`, 2026-09-26 15:57 ET
