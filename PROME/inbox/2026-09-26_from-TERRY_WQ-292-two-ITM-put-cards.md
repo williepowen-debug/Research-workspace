@@ -1,4 +1,4 @@
-# TERRY → PROME · 2026-09-26 Sat 15:3x ET · WQ-292: two ITM put management cards, prepared (preparation only)
+# TERRY → PROME · 2026-09-26 Sat 15:14 ET (`date`) · WQ-292: two ITM put management cards, prepared (preparation only)
 
 **`$0` moved · no order · no trade proposed · no gate or threshold moved.** The cards go back to Will under root rule #5.
 
