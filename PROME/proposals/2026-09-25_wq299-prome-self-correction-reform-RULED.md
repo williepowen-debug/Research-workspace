@@ -63,3 +63,45 @@
 
 ## What PROME did without a ruling and what waits
 DONE at revision: this record · WQ-299 row revised · WQ-241 → `⛔ waits: CORAL` + DOCKET L501 · WQ-242 → `⛔ waits: CRUISE` + DOCKET L502 · WQ-246 re-dated 2026-10-01 · SCRATCH pending-Will view regenerated. **Nothing built, no charter edited, no packet sent.** WAITS ON WILL, each its own word: R1–R4 as revised (*"approve 299"* covers the four) · WQ-255 · WQ-251 withdraw/keep · 187 and 204 (a day for the tokens; 204 may be declined) · WQ-246 at 10/01.
+
+---
+
+## RULING — Will, 2026-09-26 13:07 ET, delivered as pasted text in the `prome-1d` session (verbatim; the record renamed PROPOSAL → RULED at 13:12 ET)
+> Approve WQ-299 R1–R4 with the clarifications below. Implement the approved package as one bounded change, complete the existing required review, and close it out. No further proposal rewrite.
+>
+> Due domain and position obligations that you can advance take priority. Record externally blocked work clearly; it should neither disappear nor create a permanent prohibition on necessary maintenance.
+>
+> Approve C1, preserving both measurement duties and their pointers. C2–C4 remain proposals for the scheduled audit. Keep the brief checker and stamp/heredoc tools held.
+>
+> Approve WQ-255: SPECIAL, with CATO remaining my manual adviser and independent reviewer, without automatic launch or signal-routing eligibility.
+>
+> Withdraw WQ-251 as overtaken, preserving the historical finding and existing restrictions. This adopts no replacement market interpretation. Return with a fresh question only if LIQUID's scheduled work establishes a decision I actually need to make.
+>
+> Keep WQ-187's existing approval and WQ-204's separate disposition intact; I'll address the hands-on setup separately.
+>
+> The objective is to improve useful research delivery and reduce the supervision the system requires from me. Once this implementation is complete, return to the existing domain priorities. Recommend the most valuable next action, explain what it will resolve, and identify anything we should defer or stop to make room.
+>
+> Your closeout should briefly state what was implemented, what remains materially unresolved, and what useful work comes next. Correct the queue-count label at its next update; it does not need another review round.
+
+## Implementation receipt (one bounded change, 2026-09-26 13:12 ET)
+- `PROME/CLAUDE.md` — ONE edit: header stamp · § Session Process Controls header gains the R3 freeze sentence · C1: the Measurement and No-live-measurements bullets merged into one (both duties, both pointers, the error numbers and the root-rule-#4 lesson all kept) · the R2 repair-episode sentence appended to the Read-budget (WQ-178) bullet, with the externally-blocked clause · the R1 process-ceiling bullet added at the section's end, paired with C1 (bullet count 12 before, 12 after). Size per `measure.py` at write: see the commit body, never this line.
+- `PROME/WILL_QUEUE.md` — rule W2 (soft cap) gains R4; rows 299 · 255 · 251 OPEN → RECENTLY DONE with Will's words verbatim; 187/204 untouched. Counts in the gate's labels: open 19 · blocked 2 (241 CORAL, 242 CRUISE) · actionable 17.
+- `PROME/tools/tests/README.md` — the `reads:` line contract (R2's carrier).
+- `PROME/ROSTER.md` — CATO moved CLASSIFICATION PENDING → SPECIAL with Will's ruling verbatim (WQ-255); DAEDALUS packet for FLEET_MAP / directory / checklist.
+- Tools T1 and T2: HELD, per the ruling. Nothing built.
+- Result read: coldreader (opus) on `PROME/CLAUDE.md`, ledger `scratchpad/wq299result.md`, ORCH_LOG row at spawn — this is read 2 of this episode (read 1 = CATO's plan read); the episode's `reads:` count is carried here, not in an acceptance file, because the change is canon text, not a tool.
+
+## Result read and declared residue (read 2 of the episode; coldreader, opus; ledger `scratchpad/wq299result.md`, 30 claims: 20 ✅ · 10 ⚠️ · 0 ❌; verdict *"yes, a cold reader would act correctly"*)
+No ❌ ⇒ no further edit of `PROME/CLAUDE.md` this session (canon-drafts rule; read budget: ❌ only). Every ⚠️, un-fixed on purpose, each named:
+1. **Line-2 stamp written to the minute (13:12 ET)** — against the merged bullet's own letter (a to-the-minute stamp of itself); the file's convention is the x-masked minute. Fix at the spine-audit #15 C2 pass, which rewrites the header stamp chain anyway.
+2. The stamp omits that R4 was encoded in `PROME/WILL_QUEUE.md`, not this file — the record and the WQ row say so; the header does not.
+3. The stamp omits the second appended sentence (externally blocked repairs).
+4. **A clause is printed twice in the merged Measurement bullet** — the connector phrase repeats the first words of the merged duty ("a document never carries a figure a reader can recompute from an instrument"). A concatenation blemish, no meaning change; fix with C1's wording at the C2 pass.
+5. A repair outside the Pre-edit-cold-read class gets its third read without the "only when a ❌ fix changed a rule's meaning" condition — the cap conditions the old third-read rule rather than contradicting it (reader's own reading); left as written, R2 is the ceiling.
+6. Whether a NEW repair episode reopens a file "closed for the session" — unstated; intent: a new episode is a new session's work, never the same sitting's.
+7. Where a canon-text edit carries its `reads:` count (no acceptance file exists) — this record carries it (read 1 = CATO's plan read, read 2 = this result read).
+8. "One change" in the process ceiling has no unit — intent: one process instrument or one canon amendment, whichever docket row names it; the 10/25 review is where a unit is measured, not asserted.
+9. "The 2026-10-25 review" is defined only here (§ Sequence step 5): re-measure the ten basis numbers; decide R1's unit.
+10. "Charter" = `PROME/CLAUDE.md`; spine audit #15 has no fixed date — STATUS's *Last spine audit* 9/20 + 7d ⇒ due from 9/27.
+
+Episode disposition (R2, WQ-229 states): **IMPLEMENTED · TESTED (checks: willq_view/docket_view/claim_check/read_cap all rc 0) · INDEPENDENTLY VERIFIED-WITH-RESIDUE (one blind result read, 0 ❌) · STILL UNRESOLVED: items 1 and 4 above (wording; next touch).**

@@ -40,6 +40,16 @@ tested nor explicitly dismissed.
 one counterexample of their own. `finding_adoption_is_not_validation` — consumed, confident and consistent means
 nobody tested it.
 
+## The `reads:` line — one repair episode, three reads (WQ-299 R2, Will-ruled 2026-09-26)
+
+Every acceptance file carries **`reads: N`** — the count of INDEPENDENT reads in the CURRENT repair episode (parallel
+readers each count), with a dated one-line entry per read under it. The third read ENDS the episode with an explicit
+disposition — IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED — and STILL UNRESOLVED stays that; the
+last unreviewed fix is never promoted. A file WITHOUT the line is UNKNOWN: take a baseline read before any further round;
+never infer a count. A materially different defect in the same artifact starts a new episode (`reads: 0`). Will may
+authorize a specific further read by name. An externally blocked repair is recorded as blocked — it neither disappears
+nor forbids later necessary maintenance.
+
 ## Fixture rules
 
 - **Throwaway repos only.** No assertion may read the live tree, or the test certifies nothing past the next
