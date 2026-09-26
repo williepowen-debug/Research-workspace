@@ -81,7 +81,7 @@ A move in HY from here is only "recognition of the closure" if it carries the **
 | Band break >275, ≥3 sessions | ✅ **FIRED** (8 sessions) |
 | CCC leads / gap toward cycle high | ✅ **FIRED, strong form** — survived the index round-trip; gap at a 787-obs maximum |
 | Survives an oil round-trip | ⚠️ **UNGRADEABLE — no round-trip occurred** (Brent +23%) |
-| Energy-HY sector widens | ⚠️ **UNMEASURED** — no free sector series exists (KB-LIQ-058, positive-controlled 7/23: FRED returns count=0 for US HY industry sub-indices). **Treat as unmeasured, never as "no dislocation."** |
+| Energy-HY sector widens | ⛔ **CANNOT-FIRE (declared 2026-09-26, WQ-300 RULED — paid lines declined). Unavailable input: energy-sector HY OAS: no reachable source, declared 2026-09-26.** Leg kept in the letter, not deleted. Prior state: UNMEASURED — no free sector series exists (KB-LIQ-058, positive-controlled 7/23: FRED returns count=0 for US HY industry sub-indices). **Treat as unmeasured, never as "no dislocation."** |
 | Composition-clean | 🔴 **NO** — 45% of the gap move sits on the 7/31 rebalance date |
 
 **What would settle it:** the gap holding **>850 through mid-September** with **no rebalance date in the window** — a clean-tape persistence test that the 7/31 artifact cannot reach. **Registered here as the successor test.**
