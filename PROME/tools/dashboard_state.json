@@ -1,6 +1,6 @@
 {
  "attention_errors": [],
- "built": "2026-09-26 14:09",
+ "built": "2026-09-26 14:47",
  "channels": {
   "AI capex": "elev",
   "Credit": "elev",
@@ -21,6 +21,7 @@
   "2026-09-24 F2 PER-OP BUYBACK READ \u2014 STANDING CARRIER LIVE (the class fi",
   "2026-09-25 FORUM-7 \u2014 PATH vs PREMIUM pre-registered verdict rule for th",
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
+  "2026-09-28 LIQUID OWNER GRADE of GATE-LIQ-069 leg 2 ON THE FREE DTCC PR",
   "2026-09-28 LIQUID WAKE ~16:15 ET \u2014 grade the 9/25 HY OAS cell (FRED BAM",
   "2026-09-28 ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure ",
   "2026-09-28 OTTO FULL-SESSION WAKE \u2014 the work the 9/24 WQ-206 drain (730",
@@ -177,8 +178,8 @@
   "WQ-287 (9/30)",
   "WQ-279 (9/30)",
   "WQ-257 (9/30)",
-  "WQ-235 (9/30)",
   "WQ-246 (10/1)",
+  "WQ-300 (10/2)",
   "WQ-292 (10/2)",
   "WQ-31 (11/1)",
   "WQ-274 (before trading\u2026)",
