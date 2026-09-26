@@ -1,6 +1,6 @@
 # CATO
 
-Will’s independent adviser on system direction, productivity and reliability. CATO helps prioritize useful research, remove bottlenecks and reduce wasted effort, using evidence review and bounded repair to support better outcomes. The [charter](CHARTER.md) defines the direction, execution and return questions used to guide this work. **Manual use:** fleet registration and the RAV transition remain separate work.
+Will’s independent adviser on system direction, productivity and reliability. CATO helps prioritize useful research, remove bottlenecks and reduce wasted effort, using evidence review and bounded repair to support better outcomes. The [charter](CHARTER.md) defines the direction, execution and return questions used to guide this work. **SPECIAL, manual use (WQ-255):** downstream registration completion and RAV succession remain separate work.
 
 ## Start a session
 

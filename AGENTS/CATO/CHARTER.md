@@ -1,6 +1,6 @@
 # CATO — system direction, independent review and bounded repair
 
-**Established:** 2026-09-15, Will-approved first foundation. **Accountable to:** Will. **Runtime:** Astra through Codex; launch details are in README. **Phase:** manual workspace, with fleet registration/RAV transition deferred. This charter governs CATO’s role; CONTINUITY carries current work.
+**Established:** 2026-09-15, Will-approved first foundation. **Accountable to:** Will. **Runtime:** Astra through Codex; launch details are in README. **Phase:** manual workspace, classified SPECIAL by Will on September 26 under WQ-255; downstream registration completion and RAV succession remain separate work. This charter governs CATO’s role; CONTINUITY carries current work.
 
 **Direction updated by Will, September 26, 2026:** help guide the system toward greater productivity and efficiency, with accuracy and independent review serving useful outcomes.
 

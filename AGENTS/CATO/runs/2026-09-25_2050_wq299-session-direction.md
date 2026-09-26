@@ -2,7 +2,7 @@
 
 ## Current disposition — September 26 follow-up
 
-Reviewed Revision 1 at `7cadfeec1d266a7614ff8c235a474ff22d20783e` after Will relayed PROME's revised receipt. **Principal corrections accepted; stop the proposal rewrite loop. Recommend approval of R1–R4 with explicit implementation boundaries in Will's ruling, not another broad revision.** This accepts the revised design within the limits below; it is neither an operator ruling nor implementation acceptance. The original findings and recommendation below are retained as dated history.
+Latest check at `65a78ef4aa62092cf2a6b9a7b54cb8215f07a644` after Will relayed PROME's closeout. **Principal encodings accepted within the artifact comparison; stop this reform round and prioritize useful delivery.** WQ-299/C1, WQ-255 SPECIAL and WQ-251 withdrawal are now ruled and recorded. Required-review completeness and hosted publication are not certified by CATO. New WR7: WQ-237 is already approved in its own row, contrary to the renewed ask. Detailed follow-up below; prior proposal-stage dispositions remain history.
 
 ## Original disposition — September 25
 
@@ -72,3 +72,25 @@ Read the complete revised proposal, affected queue rows, DOCKET physical lines 5
 - **WR6 unchanged:** SPECIAL is compatible with manual-only CATO; it remains a separate Will classification decision, not independent validation of this reviewer.
 
 Checks: `willq_view.py --check PROME/SCRATCH.md` passes; direct read-only invocation of its parser reproduces the counts above. An initial `--dry-run` invocation without `--write` returned usage only and changed nothing; it was not a validation. No code or market tests performed. Only this CATO report and its continuity entry are authored. No owner edits, sends, launches or publication. Recommend a short ruling that sets the two implementation boundaries, then existing domain work. Await Will's next excerpt or bounded assignment; do not start a new rewrite, tool build, implementation review or owner research automatically.
+
+## September 26 — implementation receipt and next useful work
+
+Will relayed PROME's closeout for `fd885ee7b` plus bookkeeping `65a78ef4a`. Read the ruling and implementation record, main encoded clauses, queue rulings, ROSTER CATO row, paid-data DOCKET L498, publication instructions and closeout commit receipt. This is a bounded delivery/direction check, not a new full audit.
+
+**Implementation:** R1 purpose/ceiling and externally blocked-work qualification, R2 episode cap, R3 freeze/C2–C4 proposal boundary, C1 retaining both measurement duties, R4 in queue rules and the tests README `reads:` contract are present. WQ-255 is SPECIAL in ROSTER with the manual-only restriction; its DAEDALUS packet is committed (`bb256896a`), downstream registry completion not verified. WQ-251 withdrawal records Will's exact restriction against adopting a replacement interpretation. T1/T2 remain held. The two disclosed charter wording blemishes can wait for the assigned audit touch.
+
+**Verification limits:** PROME reports a blind result read and ARGUS review; the result ledger is session-local and only its summarized disposition is durable in the ruled record. CATO's earlier contextual proposal read did not certify a blind read of final implementation text; do not upgrade that to complete procedural verification. No fresh broad reader round is commissioned by this advisory. The changed receipt/baseline paths in `65a78ef4a` match the disclosed bookkeeping class, but their contents and the entire frozen candidate were not independently re-audited. Hosted pages were not inspected. Publication remains owner-reported NOT ATTEMPTED and overall delivery PARTIAL under current CLOSEOUT rules. The commit says the local Deck candidate is in local-link mode, so publication still needs the existing hosted-generation/review prerequisites, not just uploading those bytes.
+
+### WR7 — MEDIUM: WQ-237 is already approved, not an unruled decision
+
+`PROME/WILL_QUEUE.md` row 237 Notes records an APPROVE tap at **2026-09-17T22:33:51Z**, consumed September 17 at 18:37 ET, specifically authorizing the two root YEYOU-exception removals and naming the extended batch. The current WQ ledger also preserves this approval text. Presenting it as unruled wastes Will's attention and keeps an implementation obligation in his decision queue. **Correction/closure:** carry the existing approval into the execution disposition, remove the renewed approval ask, and perform only its recorded scope at the next root-doc sitting. An independently gated L419 change does not inherit that approval. No new checker or policy is needed; use existing leave-at-ruling and per-presentation artifact checks.
+
+### Next action and disclosed residue
+
+Recommend Will authorize the current Deck/Helm publication through existing checks so his decision surfaces reflect the rulings. No publication or message was sent by CATO. Then maintain the dated OTTO/LIQUID/FALCON obligations and deliver **L498 as a ranked decision on access**, not an undifferentiated vendor list: which decision usable coverage would unblock, price/terms when obtainable, and the consequence of declining. Separate purchasable missing access from lagged/structurally unavailable data and unresolved analytical questions; buying data is not proof a gate becomes gradeable. Preserve prior declines rather than silently reopening them.
+
+The CATO freshness defect is confirmed by source inspection: `manual_only_names()` reads only CLASSIFICATION PENDING, while CATO now lives in SPECIAL. This affects manual labeling and clearance cues, not a grant of launch authority. Keep manual restrictions explicit until PROME's bounded repair; a process allowance is a ceiling, so the repair does not automatically outrank due work. No script execution or downstream launch-consumer audit performed.
+
+WR5's count-label residue survives: parser gives **19 OPEN, 2 blocked, 17 unblocked, 14 dated/unblocked**, with WQ-274/273/169 undated. “17 actionable in the gate's own labels” does not match the canonical dated/unblocked cap definition. Correct on the next normal queue touch; no extra review cycle. L210 remains owner-reported partial; its remaining legs were not assessed here.
+
+Saved only CATO's continuing report/continuity and updated its own identity pointers to the now-ruled SPECIAL classification, preserving manual use and pending DAEDALUS integration. Whitespace, weekday and orphan checks passed. Resume: await Will's next task; reform implementation is not pending permission again. No owner edits, sends, launches or publication.
