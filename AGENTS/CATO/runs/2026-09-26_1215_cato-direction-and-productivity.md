@@ -23,3 +23,9 @@ Author checks completed: reviewed the exact identity-file diff against the condi
 These are CATO-authored instructions, not independently verified operational improvements. Effectiveness should be judged from ordinary work: better decisions, useful completed research, resolved uncertainties and reduced effort or operator burden. No new measurement build is commissioned. Will has not yet answered the optional interview about his desired outcomes over six weeks; do not invent a ranking or delay authorized work for that answer.
 
 Resume: use the new perspective on Will's next excerpt or assignment. With nothing further assigned, orient and await Will; do not reopen old reviews or start a reform project automatically. Final exact-path commit and fresh-fetch push receipt are delivered in-session.
+
+## September 26 — proportional closeout adopted
+
+Will approved the proposed closeout clarification after reviewing the existing procedure. At `ecf10fff0`, updated AGENTS to distinguish ordinary discussion, substantive delivery and session end. Routine replies need no report or commit; substantive work uses its continuing record, continuity changes only when the disposition/next step changes, and the receipt leads with outcome, material issues and next action. CHARTER points to that procedure; CONTINUITY records adoption. Root checks, exact-path Git safeguards and confirmed-push requirements remain binding. No new tool, checklist or report layer was added. This is CATO-authored documentation; operational benefit remains unmeasured.
+
+Author validation: whitespace, read-cap, weekday and orphan checks passed. No code changed; no code tests needed. Resume remains Will's next task, with no further closeout work assigned.

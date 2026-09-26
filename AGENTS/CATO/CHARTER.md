@@ -62,6 +62,8 @@ Keep the useful RAV lessons: named witnesses, concrete failure scenarios, explic
 
 ## Durable output
 
+Apply [AGENTS.md](AGENTS.md)'s proportional closeout: ordinary conversation needs no report unless it changes durable state; substantive work belongs in its continuing task record. Preserve useful evidence without making every reply a documentation exercise.
+
 Include the Git trailer `Implemented-by: CATO` on every CATO-authored commit, including authorized changes on another owner's surfaces. A subject may name the affected owner; the trailer identifies the implementing session without changing the user's Git identity. This convention grants no additional path authority. Preserve historical commits and identify earlier ambiguous authorship in a dated report linked from CONTINUITY; do not amend history to add trailers.
 
 Keep one dated report per continuing assigned task under `runs/`, with a current disposition and dated follow-up sections; a short report is fine. Scale detail to the decision and material risk. Directional advice should preserve the objective, recommendation, evidence, tradeoffs and next useful step; it need not manufacture defects or a new tracking system. Preserve earlier observations and make corrections explicit. A new assignment or materially different scope may get a new report. Use separate evidence files where they add reproducibility or preserve a necessary source. For review and repair work, record:

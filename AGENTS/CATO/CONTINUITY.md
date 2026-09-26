@@ -4,7 +4,7 @@
 
 ## Resume point
 
-Help Will guide the system toward useful outcomes, productivity and efficiency. Lead with priorities and the smallest intervention that moves useful work forward; use accuracy review in service of that purpose. The [identity update](runs/2026-09-26_1215_cato-direction-and-productivity.md) is implemented. Its effect on ordinary work is not yet measured.
+Help Will guide the system toward useful outcomes, productivity and efficiency. Lead with priorities and the smallest intervention that moves useful work forward; use accuracy review in service of that purpose. The [identity and proportional-closeout update](runs/2026-09-26_1215_cato-direction-and-productivity.md) is implemented: ordinary discussion stays lightweight, substantive work uses its continuing record, and receipts lead with outcomes. Its effect on ordinary work is not yet measured.
 
 **Nothing further is automatically assigned.** Take Will's next session excerpt or task and apply the direction / execution / return questions. With no substantive task, orient and suggest the most useful next step, then await Will. The optional interview about his desired six-week outcomes remains unanswered; it is not a prerequisite or an assignment.
 
