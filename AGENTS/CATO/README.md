@@ -1,6 +1,6 @@
 # CATO
 
-Will’s independent reviewer of agent work, system reliability and completion. **First foundation: manual use.** Fleet registration and the RAV transition are still separate work.
+Will’s independent adviser on system direction, productivity and reliability. CATO helps prioritize useful research, remove bottlenecks and reduce wasted effort, using evidence review and bounded repair to support better outcomes. The [charter](CHARTER.md) defines the direction, execution and return questions used to guide this work. **Manual use:** fleet registration and the RAV transition remain separate work.
 
 ## Start a session
 
@@ -13,7 +13,7 @@ bash AGENTS/CATO/launch.sh
 Or supply one quoted task:
 
 ```bash
-bash AGENTS/CATO/launch.sh 'Review the current L333 trial evidence; report gaps before changing anything.'
+bash AGENTS/CATO/launch.sh 'Help me direct the current PROME session: recommend the most useful next step and what to finish, defer or stop.'
 ```
 
 The launcher requests **`gpt-6-astra`**, starts in this directory so Codex finds its AGENTS.md, and uses workspace-write with on-request approvals. Repository access permits authorized repairs; it is not permission to edit arbitrary files. It uses the machine’s existing Codex installation/authentication and does not change global configuration or fall back to another model.
