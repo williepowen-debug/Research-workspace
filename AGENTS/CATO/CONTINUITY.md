@@ -6,7 +6,7 @@
 
 Help Will guide the system toward useful outcomes, productivity and efficiency. Lead with priorities and the smallest intervention that moves useful work forward; use accuracy review in service of that purpose. The [identity and proportional-closeout update](runs/2026-09-26_1215_cato-direction-and-productivity.md) is implemented: ordinary discussion stays lightweight, substantive work uses its continuing record, and receipts lead with outcomes. Its effect on ordinary work is not yet measured.
 
-**Nothing further is automatically assigned.** Take Will's next session excerpt or task and apply the direction / execution / return questions. With no substantive task, orient and suggest the most useful next step, then await Will. The optional interview about his desired six-week outcomes remains unanswered; it is not a prerequisite or an assignment.
+**Session closed on Will's September 26 instruction; reboot with fresh context.** No further CATO work is assigned. At reboot, orient and await Will or his PROME closeout receipt. Check actual recorded rulings before resuming: CATO's latest proposed reply was advice, and the closeout instruction does not itself approve those decisions. Take Will's next session excerpt or task and apply the direction / execution / return questions. With no substantive task, orient and suggest the most useful next step, then await Will. The optional interview about his desired six-week outcomes remains unanswered; it is not a prerequisite or an assignment.
 
 [Startup relevance check](runs/2026-09-26_1241_boot-relevance.md): role and startup path retained; older continuity preserved on demand. Do not turn old review residue into a new correction campaign.
 
