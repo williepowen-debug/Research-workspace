@@ -172,7 +172,8 @@ ATHENA (reading / knowledge). *(FERT removed 2026-08-16 → ACTIVE/EVENT-DRIVEN 
   ④ **No STATUS.md · no inbox/outbox · no FLEET_MAP row · no WALTER REGISTRY row · no NEXUS read obligation · no transmission-chain position · no GATES/DOCKET rows.** All absent on purpose.
   ⑤ **DESKTOP-ONLY** — gitignored ⇒ does not travel on push (see the `WILL/private/` row in `PROME/MACHINE_LOCAL.md`).
   **PROME's only standing interest:** VIRGIL may doorbell PROME over cross-session messaging at milestones. ⛔ **Never route fleet signals to it, and never carry Will's personal material into fleet files.**
-## CLASSIFICATION PENDING — not a class, a deliberate hold (0) *(CATO classified SPECIAL by Will 2026-09-26 13:07 ET, WQ-255 — moved to § SPECIAL; the hold mechanism stays for the next unresolved row.)*
+## CLASSIFICATION PENDING — not a class, a deliberate hold (0)
+*(CATO classified SPECIAL by Will 2026-09-26 13:07 ET, WQ-255 — moved to § SPECIAL; the hold mechanism stays for the next unresolved row.)*
 *(A registered row whose CLASS is unresolved. It exists so the restriction is discoverable where PROME reads, WITHOUT forcing a premature label. ⛔ **Do NOT file these under ARCHIVE SOURCES / TOOL-CLASS / OFF-FLEET / SPECIAL to tidy the file** — the absence of a fitting class IS the finding, and resolving it is the integration pass's job.)*
 
 

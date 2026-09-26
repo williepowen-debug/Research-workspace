@@ -1,4 +1,4 @@
-# WQ-299 — PROME SELF-CORRECTION REFORM: a process ceiling · a repair-episode read cap · a rule freeze with named consolidations · over-cap means triage owed — PROPOSAL, REVISION 1 (2026-09-25 21:04 ET, `prome-1d`)
+# WQ-299 — PROME SELF-CORRECTION REFORM: a process ceiling · a repair-episode read cap · a rule freeze with named consolidations · over-cap means triage owed — RULED 2026-09-26 13:07 ET (§ RULING below; encoded `ac8158d84`) — was PROPOSAL, REVISION 1 (2026-09-25 21:04 ET, `prome-1d`)
 
 **Provenance.** Drafted 2026-09-25 20:32 ET on Will's word *"Okay how would we begin to address some of these?"* (20:28), after a self-analysis session he opened at 18:23. **Revision 1 at 2026-09-25 21:04 ET on CATO's review `AGENTS/CATO/runs/2026-09-25_2050_wq299-session-direction.md` (WR1–WR6), taken as the plan read under the WQ-178 read budget** — every WR is a meaning-changing flag and each is fixed below; the un-fixed remainder is in § Declared residue. Draft 0 is `git show 121805063:` this path. **No second revision** (read budget; the two-correction stop binds this file).
 
@@ -62,7 +62,7 @@
 - WR4 "R1/R4 add bullets while the freeze demands replacement" — resolved by construction (R1 pairs with C1; R4 leaves the charter), not by a further rule.
 
 ## What PROME did without a ruling and what waits
-DONE at revision: this record · WQ-299 row revised · WQ-241 → `⛔ waits: CORAL` + DOCKET L501 · WQ-242 → `⛔ waits: CRUISE` + DOCKET L502 · WQ-246 re-dated 2026-10-01 · SCRATCH pending-Will view regenerated. **Nothing built, no charter edited, no packet sent.** WAITS ON WILL, each its own word: R1–R4 as revised (*"approve 299"* covers the four) · WQ-255 · WQ-251 withdraw/keep · 187 and 204 (a day for the tokens; 204 may be declined) · WQ-246 at 10/01.
+*(Superseded by § RULING, 2026-09-26 13:07 ET — kept as the revision's own closing line.)* DONE at revision: this record · WQ-299 row revised · WQ-241 → `⛔ waits: CORAL` + DOCKET L501 · WQ-242 → `⛔ waits: CRUISE` + DOCKET L502 · WQ-246 re-dated 2026-10-01 · SCRATCH pending-Will view regenerated. **Nothing built, no charter edited, no packet sent.** WAITS ON WILL, each its own word: R1–R4 as revised (*"approve 299"* covers the four) · WQ-255 · WQ-251 withdraw/keep · 187 and 204 (a day for the tokens; 204 may be declined) · WQ-246 at 10/01.
 
 ---
 
@@ -105,3 +105,8 @@ No ❌ ⇒ no further edit of `PROME/CLAUDE.md` this session (canon-drafts rule;
 10. "Charter" = `PROME/CLAUDE.md`; spine audit #15 has no fixed date — STATUS's *Last spine audit* 9/20 + 7d ⇒ due from 9/27.
 
 Episode disposition (R2, WQ-229 states): **IMPLEMENTED · TESTED (checks: willq_view/docket_view/claim_check/read_cap all rc 0) · INDEPENDENTLY VERIFIED-WITH-RESIDUE (one blind result read, 0 ❌) · STILL UNRESOLVED: items 1 and 4 above (wording; next touch).**
+
+**Count correction (13:28 ET 9/26, byte-flow reader 2):** the basis line's *"28 OVERDUE (20 PROME-owned)"* is 21 PROME-owned by a row-by-row count of the 9/25 view; PROME's tally miscounted by one. The fortnight statistics remain PROME's own unreplicated measurements, as declared.
+
+
+**Ledger-path check (13:38 ET 9/26, ARGUS ❌7):** ARGUS reported `scratchpad/wq299result.md` absent; PROME checked the path at closeout — the file exists in the session scratchpad (`wc -c` receipt in the closeout commit body). The scratchpad is session-local and not in the repo, so the durable evidence is the short-form report quoted in § Result read above and the ORCH_LOG row; the path is a pointer for this session only.
