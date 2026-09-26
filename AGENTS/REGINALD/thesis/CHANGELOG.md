@@ -14,6 +14,19 @@
 
 > ⚠️ **STRUCTURAL FIX 2026-09-02, and it was a real navigation defect:** this file declares *"reverse chronological"* at the top, and the **newest entry (2026-09-01) was sitting at the very BOTTOM — below the file's footer and below a banner reading `THIS CHANGELOG IS CLOSED FOR THESIS-DOCUMENT ENTRIES`.** A reader travelling top-down hit *CLOSED*, read it as the end of the file, and never reached the live entries. **The banner is scoped to thesis-DOCUMENT entries and these are STATUS thesis-STATE entries — a different class that the container silently suppressed.** `[[finding_live_claim_in_a_closed_container_is_invisible]]` Post-retirement entries now sit at the TOP where the stated ordering says they belong.
 
+## 2026-09-26 — WHICH names carry CRE vulnerability: FLG · EGBN · OZK (AMTB out). Thesis-STATE refinement on `STATUS.md` §THESIS
+
+**Authority:** Will-asked analysis, REGINALD at FFIEC primary (`workbook/CRE_RCN_COHORT.tsv`) plus SEC-primary dossiers → `reports/2026-09-26_CRE_vulnerability_top3.md`.
+
+| | Old (8/20 → 9/24) | **New (9/26)** |
+|---|---|---|
+| Live claim | severity CONCENTRATED at "FLG/EGBN/AMTB on instruments" | **Concentrated, unchanged, but for CRE specifically the three are FLG · EGBN · OZK.** AMTB's elevated score is mostly non-CRE credit. |
+| Kind of risk | one ranked list | **three different kinds:** FLG = losses large vs reserve/earnings (stress 1.78× ACL, 7.9 yrs PPNR, CET1 stays > its 10.5% floor) · EGBN = office done, multifamily under-reserved · OZK = recognition/marks, earnings-absorbable (stress 0.4 yrs PPNR) |
+| Matrix | coverage on nonaccrual only | **defect found:** foreclosed property invisible (OZK $288M OREO); fix at 11/07 (matrix §3d) |
+| EGBN runway 0.53yr | "disposition artifact, never rank on it" | **Split at primary:** ≥67% sale marks; retained-book runway ≥1.59yr TTM but 1.26yr on Q2 alone and rising |
+
+**No score, threshold or position moved. The eight-channel framing stays retired.**
+
 ## 2026-09-14 — Stagflation Trap channel 🟠→🔴: BOTH LEGS STANDING for the first time — thesis-STATE change on `STATUS.md` §THESIS
 
 **Authority:** owner re-grade, REGINALD, at my own instruments (yfinance daily bars + FRED primary pulls, 2026-09-14). Logged here because §THESIS of the thesis-canonical `STATUS.md` carries this channel's status token and the claim itself moved, not merely a price.

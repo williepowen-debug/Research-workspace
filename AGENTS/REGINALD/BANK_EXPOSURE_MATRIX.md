@@ -152,6 +152,13 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 
 ---
 
+## 3d. ⚠️ TWO DEFECTS FOUND 2026-09-26 (CRE-vulnerability cut, `reports/2026-09-26_CRE_vulnerability_top3.md`). No score moved; fix at the 11/07 re-score.
+
+1. **The credit leg cannot see foreclosed property.** It reads nonaccrual (`RCON1403`), and OREO (`RCON2150`) is not nonaccrual. **OZK: $288.1M OREO [6/30/26], up from $150M in one quarter**; counting it, OZK's reserve covers 78% of nonaccrual + OREO, not 154% of nonaccrual. WAL's $126M OREO is also invisible. **Fix: score coverage on nonaccrual + OREO.** Data already in `workbook/CRE_RCN_COHORT.tsv`.
+2. **The credit leg is not CRE-specific.** AMTB's 3 credit points come mostly from C&I, owner-occupied and residential nonaccruals (CRE = $50M of $169M on the Call Report). As a *bank-wide* credit score that is correct. **As a CRE-vulnerability ranking it misleads.** Decide at the re-score whether to add a CRE-specific credit leg (RC-N by property type is in the same ledger) or to keep the matrix bank-wide and say so in the header.
+
+---
+
 ## 4. 🔴 REPORTED, NOT SCORED — and a 0 here is NOT a clean bill of health
 
 **These are measured at the primary and carried on every row, but they DO NOT enter the score, because no defensible band exists.** Scoring them would be inventing a threshold.
