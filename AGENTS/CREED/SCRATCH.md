@@ -91,7 +91,7 @@ Sitting 2 closed and revoked 2026-09-02 (CONTINUE). **Pins are ROW-scoped:** `PR
 | 26 | 🆕 **Render the Trepp PDF charts** | The one unchecked shape for the August newly-delinquent $ total (`VX-3.05`). |
 
 ## 📬 MAIL STATE
-- 9/27: **3 read, logged at READ time** — PROME Nano packet (acted) · WALTER `SIG-W-20260927-004` (dup) · `-005` (correction, already applied). Both filed to `processed/` at 9/27 closeout after a fresh re-list (trap #21).
+- 9/27: **3 read, logged at READ time** — PROME Nano packet (acted) · WALTER `SIG-W-20260927-004` (dup) · `-005` (correction, already applied) · `-006` (correction 2, already consistent; arrived after the first push). All filed to `processed/` at 9/27 closeout after a fresh re-list (trap #21).
 - 9/26: 18 read and filed.
 - **Out 9/27:** PROME ×1 (Nano DELIVERED, `ae1b68938`) · doorbells to REGINALD (§2a basis questions, adopted) and prome-09.
 - **Out 9/26 — 9 packets:** PROME ×2 (cadence + WATCH_FOR; Kernel resolutions + T-08a + Will decision) · WALTER (mirror evidence, DC CMBS, public PDFs, T-08a) · DAEDALUS (WQ-100 encoded) · HOMER (MF SS back-fill) · SHADE (Athene column period, Z.1 lean) · CORAL (FL zeros cycle 3) · REGINALD (T-08a info, BCB note sale, 100 Summer) · LIQUID (lender census, gates, T-08a).
