@@ -1,0 +1,44 @@
+# Nano Banc failure (closed Fri 2026-09-25) — investigation PLAN
+**Written:** 2026-09-27 12:1x ET (`prome-09`, Will present; REGINALD `reginald-ec` · CREED `creed-ad` · WALTER `walter-42` live on this box per `ListAgents` 11:5x ET). **Status: PROPOSED — awaits Will's word; no packet sent, no desk touched.** Will: *"my concept for our session today is going to be investigating this bank fail … I do have REGINALD and CREED both online … First lets just come up with a plan."*
+
+## 0. The one question
+**Is Nano Banc the CRE transmission chain reaching the bank layer, or a fraud-born idiosyncrasy — and what does the FDIC's loss estimate say about Southern-California CRE marks?** Everything below serves that question; nothing here is a trade.
+
+## 1. Facts established by PROME at the primaries (12:0x ET; every figure dated)
+| Fact | Figure | Source |
+|---|---|---|
+| Closed by | California DFPI, Fri 2026-09-25; FDIC receiver; **Fed was the primary federal regulator (state member bank, RSSD 3635029)** | FDIC PR 9/25 · BankFind cert 58590 |
+| Acquirer | Sunwest Bank (Sandy UT, private; its 6th FDIC deal) — "substantially all deposits" (~$605M) + ~$476M of assets (loans ~$227M); **FDIC retains ~$260M for later disposition**; no loss-share stated | FDIC PR · American Banker 9/25 21:17 ET |
+| Size (6/30/26) | assets $736M · deposits $686M · **uninsured $390M (57%)** · gross loans $479M · RE loans $363M (76% of loans): nonres CRE $129M · multifamily $71M · construction $47M · C&I $28M | FDIC financials API (Call Report 2026-06-30) |
+| Credit | **noncurrent loans $123M = 25.7% of loans**; ALLL $19.9M (16% of noncurrent); path: 0.2% (12/24) → 1.8% (3/25) → 10.2% (6/25) → 15.4% (9/25) → 24.3% (12/25) → 25.7% (6/26) | same |
+| Capital | equity $115M (3/25) → $39M (6/30/26) = 5.3% of assets; DFPI: fell **below the 3% statutory floor** by seizure; FY2025 net loss **−$75.3M**; DFPI March-2026 order demanded 9.5% tangible equity or sale/liquidation — not met | DFPI PR 9/25 · Call Reports |
+| Loss to the DIF | **~$114M = 15.5% of assets** — vs Metropolitan Capital (1/30/26) $19.6M = 8%; **> $50M ⇒ a Material Loss Review is mandatory (Fed OIG, ~6 months ⇒ ~late March 2027)** | FDIC PR · FDIC OIG (REV-26-01) |
+| Deposit behaviour | deposits $870M (3/25) → $686M (6/26), −21% over 15 months — a bleed, not a run; no depositor loss; branch reopens Mon 9/28 as Sunwest | Call Reports · FDIC PR |
+| Governance chain | Fed action Feb 2021 (**CRE concentration**) · DFPI C&D Dec 2021 (CEO appointed without notice) · Fed C&D Jan 2022 (insider lending, governance) — **terminated Apr 2025** · co-founder/interim CEO Gressak fined + banned 2024 ($15.5M PPP fraud) · DFPI: "executive self-dealing", "unauthorized changes to the board and C-suite" | American Banker · DFPI PR |
+| 2026 failure set | 6 = Metropolitan Capital (IL, $235M) · Community B&T West GA ($293M) · Kentland FS&L (IN, $3.7M) · Small Business Bank (KS, $73M) · Tioga-Franklin (PA, $68M) · **Nano Banc ($736M — the only one > $300M)**; count 3× 2024/2025, aggregate assets ≈ $1.4B | FDIC failed-bank list · BankFind |
+| **The fleet already had it** | REGINALD KB `ML-REG-039`/`ML-REG-044` (2026-02-02, RQ-REG-A02/A02B): Nano Banc = **co-conspirator in the Stupin–Marcil syndicate ($270M+; WAL ~$100M · ZION ~$60M · BANC+EFSC ~$108M exposed)**, found liable for fraudulent inducement (Honarkar arbitration, partial final award 5/23/25), "DEATH SPIRAL … facing receivership" — cross-linked to `VX-REG-6.04` (WAL bellwether); WAL's 9/24 fraud-corpus review flagged the receivership line **UNVERIFIED current status** — it is now TRUE. No `PREDICTIONS.tsv` row exists (an un-scored call, not a graded forecast) | `AGENTS/REGINALD/workbook/KB.tsv` · `AGENTS/WAL/FRAUD/STUPIN_CRE.md:92` |
+
+**PROME's provisional read (a working model, not the finding):** origin idiosyncratic (fraud-born founders, self-dealing), **mechanism generic** — a 76%-RE book migrating from 0% to 26% noncurrent in 18 months while the regulator's order ran out. The number that matters for the thesis is the **15.5% loss severity on a SoCal CRE-heavy book** — an FDIC mark, not a press estimate. Not systemic by size; a tell by severity.
+
+## 2. Workstreams (owner · asks · deliverable) — Tier 1 (follow-ups inside approved workstreams: REGINALD REG-006 fraud arc + MI3 cohort; CREED S3/S6); both desks are LIVE ⇒ doorbell, never spawn
+**A. REGINALD — bank forensics + cohort read** (`AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md`)
+1. **Grade the fleet's own call**: ML-REG-044 "facing receivership" → CONFIRMED (date, source); record what the KB got right and what it did not predict (the timing, the 15.5% severity). No back-scored forecast.
+2. **Failure anatomy from the Call Reports** (FFIEC CDR, JWT live to 11/05; `mi3_cohort_screen.py` machinery): the noncurrent migration by loan class (nonres CRE vs multifamily vs construction vs C&I) quarter by quarter; charge-offs vs provisions; the C&I → RE shift ($228M C&I 12/23 → $28M 6/26 — reclassification or runoff? the **Metropolitan "hidden CRE" pattern** REGINALD found in Jan applies or not); where the $114M loss sits relative to book (equity $39M + ALLL $20M ⇒ the FDIC expects ~$170M+ of loss on ~$736M of assets, concentrated in the ~$260M retained).
+3. **Lookalike screen**: which banks in the MI3 cohort / the FAU >300% CRE-to-equity screen share ≥2 of {CRE-concentration enforcement action · noncurrent >10% · uninsured >50% · equity <6%}? Name them; say which are in Will's book perimeter (KRE puts, WAL Dec 70P).
+4. **Contagion to the syndicate exposures**: what the FDIC receivership does to claims against Nano (FIRREA claims bar; the Honarkar/MOM CA Investco Ch.11, ~$382M) and whether WAL's / ZION's Stupin recoveries change — route the WAL leg to the WAL desk by packet (WAL is DARK since 9/25; not spawned unless Will says).
+**B. CREED — the collateral and the mark** (`AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md`)
+1. What is in the ~$260M the FDIC kept (loan classes, likely geography — Orange County / Laguna Beach hospitality-retail via the Honarkar assets; sources: the arbitration award, the MOM CA Investco docket, DFPI orders) and what the implied haircut is (the $114M against that pool).
+2. **Register the forced-sale comp**: the FDIC's disposition of the retained assets (structured/loan sale, typically 3–9 months) will print SoCal CRE marks — a CREED S6 forced-sale evidence source; propose the DOCKET row and the WATCH_FOR terms.
+3. Does a $736M failure touch any CREED letter? Expected answer: **no** (S3 = FDIC large-bank PDNA; T-03 quarterly QBP) — say so explicitly rather than let it be inferred; note the Q3 QBP (~late Nov) will carry the failure.
+**C. WALTER (Will-launched, live) — signal + watch terms** — PROME sends the source pointer as a doorbell; WALTER routes (never PROME): the BOARD signal to REGINALD/CREED/WAL/LIQUID; WATCH_FOR: `Nano Banc` · `Sunwest Bank` · `material loss review` · `FDIC loan sale` · `MOM CA Investco`.
+**D. PROME** — DOCKET rows: Fed OIG MLR (~2027-03-25, PENDING, owner REGINALD) · FDIC retained-asset disposition (undated → `on-FDIC-publishing-the-sale`, CREED) · FDIC Q3 QBP (~2026-11-25, REGINALD); the synthesis to Will (§0 answered, in plain language, with the severity number and its basis); KB/HEARTBEAT amendment only if the read changes a regime line (it should not).
+
+## 3. Sequence and clock
+1. Will's word on this plan (+ the two options in §4). 2. PROME writes the two packets (A, B) into the desks' inboxes, commits (carve-out ①), doorbells `reginald-ec` and `creed-ad` (messaging rule 6), doorbells `walter-42` with the source pointer; ORCH_LOG rows. 3. Desks work in parallel (~60–120 min; each ends with a packet to `PROME/inbox/` + a closeout on the WQ-249 ask). 4. PROME reads both at the artifact, reconciles the one shared figure (the loss-severity / implied-haircut number — one figure, not two), writes the synthesis, registers the DOCKET rows, and reports. 5. Closeout: Deck republish carries the corrected WQ-304 card too.
+
+## 4. Two choices only Will can make (registered on his word, not before)
+- **WAL desk**: include the Stupin-recovery leg now (a Tier-1 follow-up in WAL's own fraud arc; WAL dark since 9/25 ⇒ a spawn) or leave it as a packet for WAL's next boot. PROME rec: **packet only** today; the receivership's effect on WAL's recovery is months out.
+- **Scope guard**: this is research; no card, no trade. If a lookalike screen names a bank in the book, TERRY gets a packet, not a proposal.
+
+## 5. What this is NOT
+Not a position event (no public equity; Sunwest private); not a re-arm of anything (no gate keys on failure counts); not evidence about the large-bank S3 letter. "Six failures, three times 2024" is a COUNT tell — aggregate failed assets ≈ $1.4B; five of six are under $300M.
