@@ -18,7 +18,10 @@ resources: 2
 safety_net: clear
 word_count: 300
 verdict: "2026-09-24, Manhattan Supreme Court: Justice Brendan Lantry DECLINED to stay or enjoin the NYC rent freeze, so it takes effect for rent-stabilized leases beginning 10/01 or later. He ordered the Mamdani administration to produce screenshots of communications by 9/29, with complete documentation within 30 days, and said he would rule on the merits before year-end ('I'm not going to operate with a shotgun to my head'). This resolves the pre-10/01 no-stay question on FLG's T-08 leg. The merits ruling, and whether the rent-setting process must restart, remain open."
+status: PARTIALLY-CORRECTED
 ---
+
+> ⚠️ **PARTIALLY-CORRECTED 2026-09-27 (FLG's reviewer note, `AGENTS/WALTER/inbox/2026-09-27_from-FLG_WATCH_FOR-R3-retest-list.md`; verified by WALTER at THE CITY/Brownstoner, Crain's and Gothamist, 9/27; `COR-20260927-07`):** "**declined to stay or enjoin**" below is STRONGER than the sources. THE CITY: Lantry "**did not commit to deciding**" on the lawsuit, so the freeze "**will for now stay in place**" for leases starting on or after 10/01. Crain's: the judge is "**unlikely to rule** before Oct. 1." Gothamist: "keeps rent freeze in place." **No source reports a ruled denial of a stay motion; the prayer-(f) injunction is formally UNRULED.** Practical effect unchanged (no stay before 10/01). FLG grades `GATE-FLG-T08`'s 'order in force on 10/01' leg itself.
 
 # NYC rent freeze: the judge declined a stay, so it starts 10/01; the merits ruling is due by year-end
 
