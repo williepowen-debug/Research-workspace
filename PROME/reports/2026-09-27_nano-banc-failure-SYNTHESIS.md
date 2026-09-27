@@ -60,7 +60,7 @@ No 2026 failure-count market exists on Kalshi (CERTIFIED over 13,018 open events
 | DOCKET **L514** | FDIC Q3-2026 QBP — first print carrying the failure; REGINALD + CREED (`CREED-T-03`) read one print | REGINALD/CREED | ~2026-11-25 (modeled) |
 | DOCKET **L515** | FDIC disposition of the retained assets — the S6 forced-sale comp, recorded by lien position | CREED / REGINALD info / WAL consumes | check-by 2027-06-25 |
 | DOCKET **L516** | FDIC posts the Sunwest P&A agreement — allocates the loss; REGINALD re-runs §3 | REGINALD/CREED/WAL/DEWEY | check-by 2026-10-09 |
-| DOCKET **L517** | Plaza Continental (Ontario) stipulation hearing — the first docket where FDIC-as-receiver or Sunwest appears for a Nano lien (answers Ontario on WAL O1) | WAL consumes / DEWEY reads / CREED info | Tue 2026-09-29 13:30 PT (hard) |
+| DOCKET **L517** | Plaza Continental (Ontario) stipulation hearing — the first scheduled docket where FDIC-as-receiver or Sunwest MAY appear for a Nano lien — a possible evidence source on WAL O1, not an answer (corrected 14:1x ET on DEWEY's flag; unreviewed) | WAL consumes / DEWEY reads / CREED info | Tue 2026-09-29 13:30 PT (hard) |
 | DOCKET **L518** | US v. Makhijani trial (C.D. Cal.; WAL = the victim bank) | WAL / REGINALD info | 2027-01-12 (hard, dkt 52) |
 | WATCH_FOR (WALTER R3 queue, untested) | Nano Banc receivership · FDIC loan sale / structured transaction · Sunwest Bank · the four addresses · Makhijani · Cantor Group V · Preferred Bank nonaccrual · Nano Banc notice to creditors / claims bar date · Honarkar / Laguna Beach | WALTER | tested by 10/02 |
 | BOARD | SIG-W-20260927-004 (INFO) + **-005 CORRECTION** (the direct-lien framing; COR-20260927-05) | WALTER | done |
