@@ -76,7 +76,7 @@ Legend: **✓** match · **~** partial · **✗** no match · **n/a** not applic
 | OREO life-sci (5/27.5); OREO LA land (0/30) | "near conversion value" / "LOI at/above carrying" | ~ | ~ | | | | Soft anchors; assumption-grade. LA land: LOI, 3 years in OREO, one failed buyer. |
 | Other nonaccrual (10/25); Tahoe SS (10/25) | **"ASSUMPTION"** (composition not disclosed) | n/a | | | | | **NO COMPARABLE.** |
 | Special mention (3/12) | pool's own — condo at 105.6% LTV | ✓ | ~ | | ~ | ✓(accruing) | In-kind; the named condo is already underwater on its appraisal. |
-| **RaDD life-science pass (0/65)** | **OZK desk severity 65–70%** — collateral condition (≈3.3% leased; interest from reserves; IQHQ deed-in-lieu analog) | ✓ | ~ | ~ | n/a | ✓ | **The one case a distressed severity on a PASS-rated loan transfers** — justified by *collateral condition* (empty building), not a borrowed sale haircut. It's an internal desk model, not a market print. Moves the OZK stress by ~$250M — more than every other OZK pool combined. |
+| **RaDD life-science pass (0/65)** | **OZK desk severity 50–65% (stress taken at the top, 65%)** — collateral condition (≈3.3% leased; interest from reserves; IQHQ deed-in-lieu analog) | ✓ | ~ | ~ | n/a | ✓ | **The one case a distressed severity on a PASS-rated loan transfers** — justified by *collateral condition* (empty building), not a borrowed sale haircut. It's an internal desk model, not a market print. Moves the OZK stress by ~$250M — more than every other OZK pool combined. |
 
 ### B4. Nano Banc retained pool (my own §2 scenario, re-tested)
 
