@@ -79,7 +79,7 @@ Grades use PROME's vocabulary. **"Loss rate" is DOES NOT INFORM for all seven**,
 
 ---
 
-## ADDENDUM 2026-09-27 ~18:1x ET — a closer comparator than Signature exists: FLG's own Pinnacle disposition (KB-FLG-067). Grades above unchanged
+## ADDENDUM 2026-09-27 17:59 ET (commit cd03d16be; stamp corrected from a hand-typed "~18:1x") — a closer comparator than Signature exists: FLG's own Pinnacle disposition (KB-FLG-067). Grades above unchanged
 
 - **What:** Flagstar's own rent-stabilized problem relationship (Pinnacle, ~5,100 NYC units) cleared in bankruptcy at **$451.3M (~$88K/unit)** on **2026-03-31**, against Flagstar debt of **>$564M** (press). **Flagstar financed the buyer at ~75% of the price ($338.5M).** This partly answers §E row 2 ("FLG discloses the loss on its own RR dispositions"). It comes from the press, not the issuer, and is one relationship.
 - **How it compares:** same lender, same collateral class, 2026 regime (after HSTPA, before the freeze took effect), a defaulted relationship. That beats Signature on type, market, vintage **and** performing status. It shares Signature's defect: **seller financing** (here ~75% from Flagstar) likely **inflates** the clearing price, so "price ≤80% of debt" is, if anything, a **flattering** recovery.
@@ -89,7 +89,7 @@ Grades use PROME's vocabulary. **"Loss rate" is DOES NOT INFORM for all seven**,
 
 ---
 
-## §F. RE-TOUCH 2026-09-27 ~18:3x ET (WQ-309, PROME; CREED §D c0461e5b5) — rows 1–3 re-reasoned, grades unchanged
+## §F. RE-TOUCH 2026-09-27 18:06 ET (commit 9e3dcdf5a; stamp corrected from a hand-typed "~18:3x") (WQ-309, PROME; CREED §D c0461e5b5) — rows 1–3 re-reasoned, grades unchanged
 
 **New input (CREED §D; PROME re-read the FDIC page at 18:0x ET):** in the FDIC bid summary for SIG RCRS A/B (Santander, $9.0B rent-stabilized), the winning bid is **$1,086,445,000 for 20% equity, leverage "N/A"**; cover and other bids read "1:1". **No legend defines "N/A."** Read as unlevered, it grosses up to **≈$5.43B equity ≈ 60% of the $9.0B balance (~40% implied discount), Dec-2023.** CREED's "not a loss rate" stands.
 

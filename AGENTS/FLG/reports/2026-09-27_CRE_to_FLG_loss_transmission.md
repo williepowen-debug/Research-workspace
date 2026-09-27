@@ -117,7 +117,7 @@
 
 ---
 
-## ADDENDUM 2026-09-27 ~18:1x ET — news sweep found the Q1 bankruptcy resolution (KB-FLG-067). Changes §(1) U3 and §(3) A1; the body above is left as delivered
+## ADDENDUM 2026-09-27 17:59 ET (commit cd03d16be; stamp corrected from a hand-typed "~18:1x") — news sweep found the Q1 bankruptcy resolution (KB-FLG-067). Changes §(1) U3 and §(3) A1; the body above is left as delivered
 
 - **What:** the Pinnacle Group portfolio (~93 buildings, ~5,100 mostly rent-stabilized NYC units; Chapter 11 since May 2025; Flagstar debt ">$564M" / ">$600M" in press) was sold to Summit Properties for **$451.3M**, closing **2026-03-31**. **Flagstar financed the buyer: $338.5M, ~75% of the price** (Multifamily Dive 2026-01-20; TRD 2026-03-31). This is a **strong candidate, not issuer-confirmed**, for the 10-Q's Q1 "single borrower relationship undergoing bankruptcy." The borrower is unnamed in the 10-Q and the docket was not read.
 - **§(1) U3 (identity):** answered to candidate grade.
