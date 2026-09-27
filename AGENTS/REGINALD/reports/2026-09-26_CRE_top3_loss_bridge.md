@@ -192,7 +192,7 @@
 
 ## 5. Metric changes — RECOMMENDED, NOT APPLIED (each needs a decision; none changes a score today)
 
-*CATO's directions are a reviewer's recommendations relayed to me. They are **not** Will's approval, so nothing here is applied. The one change made is the M2 **wording** clarification in the matrix header, which describes the existing measure's scope and moves no score. **None of these needs deciding tonight** (CATO); the Q3 prints come first.*
+*CATO's directions are a reviewer's recommendations relayed to me. They are **not** Will's approval, so nothing here is applied. The one change made is the M2 **wording** clarification in the matrix header, which describes the existing measure's scope and moves no score. CATO's timing (second note): **score changes and permanent new instruments can wait; accurate matrix labelling (done) and EGBN's existing sale-adjusted diagnostics (M3) are useful now.** Q3 is the next test of the analysis, not a reason to defer everything. Using M3 as the desk's measure still needs Will's own word.*
 
 | # | Recommendation | Why | Cost / risk | CATO's recommended direction (9/26) |
 |---|---|---|---|---|
