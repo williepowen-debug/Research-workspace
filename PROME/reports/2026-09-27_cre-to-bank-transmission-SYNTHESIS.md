@@ -122,3 +122,32 @@ Six-dimension grade (property type · market · vintage · appraisal date · lie
 5. **The alternatives are weaker.** "Which bank is worst" is already answered three ways and agrees on "not tier-wide". FLG's capacity question turns mostly on the earnings path (a management question, answered by prints). The mid-pack breadth test is the right tripwire but cannot be read before late October.
 
 **Defer:** new screens or tools (a national leading CRE screen is the obvious gap, but it is a build — it comes back separately if Will wants it) · scoring changes (REGINALD's matrix re-score stays at 11/07).
+
+---
+
+## 9. WQ-309 — the Signature Bank sale: integrated conclusion (17:5x ET)
+
+**Authorization:** Will 17:44 ET (WQ-309), within `PROME/plans/2026-09-27_signature-sale-relevance-SCOPE.md`; no model or loss-rate change. **Inputs:** CREED `AGENTS/CREED/analysis/2026-09-27_signature-bank-2023-sale-economics.md` (515d18483, transaction economics from four primary FDIC releases) · FLG `AGENTS/FLG/reports/2026-09-27_signature-sale-vs-FLG-pools.md` (b119666fd, pool-by-pool). PROME re-read pr23105 and pr23107 at fdic.gov 17:5x ET: figures match CREED verbatim (FLG also re-read both).
+
+**Conclusion: the sale gives no usable loss-rate comparison for any of FLG's seven pools.** The two desks agree; no disagreement to resolve.
+
+**What the sale establishes (OBSERVED, FDIC primaries):**
+- It was not a loan sale. The FDIC-Receiver sold **minority equity stakes in joint ventures** and kept the majority: market-rate venture $16.8B (office, retail, market-rate MF; *"does not hold any"* rent-stabilized loans), 20% for $1.2B, FDIC 80% **plus FDIC financing of 50% of venture value (~$6B note)** (pr23105, 12/14/2023) · rent-stabilized, Santander, $9.0B, 20% for $1.1B, FDIC 80%, no financing stated (pr23107, 12/20/2023) · rent-stabilized, CPC, $5.8B, 5% for $129M + $42M, FDIC 95% (pr23106, 12/15/2023). $16.8B + $9.0B + $5.8B = $31.6B of the ~$33B marketed.
+- The prices are **levered minority-equity checks, not clearing prices for loans.** The only imputable value — ≈71% of book on the market-rate venture ($6.0B equity + ~$6B note ≈ $12B on $16.8B) — is a strike the FDIC sold 20% at, inflated by its own financing (direction assumed, not quantified), and it covers the property types that exclude rent-stabilized loans. For the two rent-stabilized ventures, leverage is undisclosed, so **no value is computable at all.**
+
+**Which FLG pools it informs:**
+| FLG pool (6/30/26) | Grade | Why |
+|---|---|---|
+| MF nonaccrual NYC ≥50% RR $1,737M | PARTIAL — directional only | Best type + market match, but Signature's performing/non-performing split is undisclosed and this pool is 100% nonaccrual; priced Dec-2023, pre-freeze; no computable value |
+| MF criticized NYC RR $2,665M | PARTIAL — directional only | Same; "criticized-accruing" cannot be isolated |
+| MF pass NYC RR $4,089M | PARTIAL — directional only | Weak evidence a performing rent-stabilized book had bidders pre-freeze; not a mark |
+| MF nonaccrual other $395M · MF criticized other $4,274M | DOES NOT INFORM | Mostly non-NYC; an undisclosed NYC market-rate slice meets only the levered, blended ≈71% strike |
+| CRE nonaccrual $471M · CRE criticized $1,367M | DOES NOT INFORM | 40% industrial (no analogue); NY office/retail slice meets only the levered strike |
+
+The scope's expectation (relevance concentrates in the NYC rent-regulated pools) **held on collateral resemblance and inverted on numbers**: the only number that exists relates to the pools ranked least relevant, and even there it is not a clearing price.
+
+**What it cannot tell us (named gaps; research stopped here per the authorization):** the FDIC's **realised recoveries** on the rent-stabilized ventures, 2024–26 (receivership / DIF reporting; the only route to a rate) · leverage on the CPC and Santander ventures · Signature's performing/non-performing, vintage and count mix · FLG-side splits not disclosed (geography by grade for "other" MF, property type by grade for CRE).
+
+**New link found by FLG:** FLG itself bought **$1,680M of Signature CRE loans at fair value, and no multifamily**, in March 2023 (10-K FY2024, acc 0000910073-25-000038). So FLG's multifamily pools hold no disclosed Signature loans; its CRE pools may, measured from the acquisition fair-value mark, not par. Remaining balance and grade: not disclosed.
+
+**Effect on this synthesis:** §8 item 4's candidate is **closed as no usable comparison**. The highest-value question in §8 is unchanged, and the sharper observation for FLG's NYC rent-regulated pools is now **FLG's own disposition pricing** (sale price vs carrying on its rent-regulated exits) at the Q3 call (~10/23) or 10-Q (~11/9) — same lender, same book, 2026 regime. The FDIC's realised Signature-venture recoveries are a possible later corroboration of direction, never a transferable rate; pursuing them is new research and needs Will's word.
