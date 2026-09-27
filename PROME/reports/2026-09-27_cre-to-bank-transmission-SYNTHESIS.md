@@ -190,3 +190,32 @@ The CPC ventures (C/D) went to a mission-driven bidder **below its cover bids** 
 **Pinnacle vs Signature:** ~~biased in opposite directions … They bracket the collateral in direction only~~ **WITHDRAWN 18:5x ET on CATO's review.** That seller financing inflated Pinnacle's price, and that an unlevered minority stake depressed Santander's, are **HYPOTHESES** — neither financing terms nor the minority-stake pricing were examined. The two observations cover different loan populations, dates (Dec-2023 vs Mar-2026) and valuation bases (a minority-equity bid vs a whole-portfolio sale against reported debt), so they are **not upper and lower bounds** and do not bracket collateral value.
 
 **Net for the synthesis (corrected 18:5x ET on CATO's review):** the conditional Santander valuation (≈60% of book, Dec-2023) and FLG's Pinnacle exit (≤80% of reported debt, 3/2026) are **imperfect valuation references worth investigating, not a measured carrying-value gap.** Their numbers sit below FLG's ~79.6% carrying basis on its nonaccrual rent-regulated pool, but different populations, dates and bases mean the comparison does not measure how far FLG's marks are from clearing prices. WQ-309 is complete; no further Signature research is proposed.
+
+---
+
+## 13. WQ-311 — Valley National (VLY): integrated assessment (19:1x ET)
+
+**Authorization:** Will 19:04 ET (WQ-311). **Inputs:** REGINALD `AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md` (part 1 6e21a2c37, parts 2–4 b4c2147ed; VLY Q2-26 8-K acc 0000714310-26-000036, 10-Q acc 0000714310-26-000041, Call Reports) · CREED `AGENTS/CREED/analysis/2026-09-27_VLY_property_comparable_challenge.md` (7415801fb). Both read in full at their commits.
+
+**Assessment: NEITHER — VLY is not evidence of broader CRE-to-bank transmission, and not yet a bank-specific problem at the loss level. It carries one bank-specific early flag that its Q3 print (est. Thu 10/22, not announced) resolves.** The desks agree; no disagreement to resolve.
+
+**Composition (OBSERVED, 6/30/26):** CRE ex-construction $27.9B, LTV 59%, DSCR 1.67×; Florida/Alabama 28% · NYC 25% · NJ 19% · national 21%. The national stress channels are small here: office $3.0B (11%; Manhattan $0.2B; average loan $3.5M; DSCR 1.83×) · NYC >50% rent-regulated **$559M (1.1% of loans)**, ~$1.5B counting 21–50%-regulated buildings — about 1/16 of FLG's $8.9B on the narrow definition, ~1/6 on the broad one; NYC multifamily DSCR 1.24× vs FLG's 1.01×. The 320% SR 07-1 concentration includes ~25pp of co-ops at 12% LTV (~292% ex-co-ops) and has fallen from 474% (12/23). **VLY is not a small FLG.**
+
+**Deterioration vs mechanics (Will's distinction):**
+| Effect | Finding |
+|---|---|
+| Loan sales / held-for-sale transfers | **None in H1-26** (one $9.1M sale in Q1) — nothing flatters 2026 |
+| Charge-offs | Small; they **understate** new problems (gross CRE nonaccrual inflow ≥ ~$42M vs net +$30.7M) |
+| Denominator | Loan growth (+$649M CRE in Q2) flatters every ratio — ~40% of the criticized-CRE ratio improvement is denominator |
+| **Genuine Q2 deterioration** | CRE nonaccrual +$30.7M (non-owner-occupied +$20.8M) · **multifamily 30–89 days past due $9.4M → $101.5M** · **CRE payment-delay modifications $108M (8-month deferral; 16× the year-ago quarter)** · one $25.8M office loan to nonaccrual at maturity |
+| **Genuine improvement** | Criticized CRE **−$0.6B** year on year in dollars · classified −$131M in H1 · 12-month modification stock −44% |
+
+**The flag (bank-specific, early):** the Q2 flow jump arrived in the same quarter **VLY released general CRE reserve**; payment deferrals keep loans current, so nonaccrual (+), charge-offs (0.17%) and foreclosed property ($4.1M) **understate stress by construction** until the deferrals end (~Q1-27); ACL/nonaccrual fell 164% → 128% in a year. Stock measures say improving, flow measures say a cluster of larger loans went bad, and the reserve followed the stock.
+
+**Strongest contrary evidence:**
+- *For stress:* multifamily past-dues and $108M of deferrals appeared together while the general reserve fell; NYC multifamily carries VLY's weakest coverage (1.24×).
+- *Against stress:* criticized CRE down $0.6B in dollars, not only ratio; concentration 474% → 317%; no loan sales dressing the numbers; LTV 59%; pre-provision revenue ~$1.0B a year (covers a ~3.2% loss on the whole CRE book in a year, DERIVED).
+
+**The decisive unknown — NOT in the filings:** where the $101.5M of late multifamily loans and the $108M of deferrals sit (NYC rent-regulated? Florida? one or two credits?), and whether they are the same loans. The two desks frame it on two axes: **whether the cohort rolls** into nonaccrual at Q3 (REGINALD: roll + another reserve cut → bank-specific; cure → neither confirmed), and **where it sits** (CREED: spread across the NYC rent-regulated or Florida multifamily book → a weak corroborant of the national multifamily cash-flow channel, still small; concentrated in one or two credits → bank-specific). No further desk work can place it before VLY discloses.
+
+**Effect on the breadth question (§1, §6):** VLY does not move the synthesis off "concentrated at named banks". It is one of the mid-pack names in REGINALD's Q3 breadth test (≥3 of WAL · VLY · SSB · BKU · SBCF with CRE bad loans up >50% QoQ or a foreclosure build → broader); its Q3 multifamily roll is now the most specific single item in that test. Next: VLY Q3 release + deck (est. 10/22) · Q3 10-Q modifications and re-defaults (~early Nov) · Q3 Call Report (REGINALD run 11/07) · deferral end ~Q1-27.
