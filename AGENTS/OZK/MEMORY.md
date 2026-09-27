@@ -32,7 +32,7 @@
 
 **Domain facts**
 - [2026-04-22] **IQHQ exposure is ONE credit** — "one credit with IQHQ… the senior secured loan on their San Diego RaDD project" (Rossow, OZK CCO, Bisnow 3/19/26). Boynton Yards is **not** IQHQ (Leggat McCall/DLJ/Deutsche Finance). Other IQHQ lenders: Fenway→JPM $165M · Elco Yards→KREF $581M · **Spur Ph I→Apollo $275M (deed-in-lieu to Apollo 9/17/26, single-source TRD)** · 155 N. Beacon→Citizens $486.5M.
-- [2026-07-04 · 09-24] **⛔ Vintage trap — seen 4×:** search surfaces a "two-year RaDD extension → Aug 2028" and a "Citi downgrade" as current; both trace to **Jun-2024 Bisnow / May-2024 Citi**. Maturity = **Aug 2026**, from the primary Q1'26 transcript (Mealor, Gleason). Check article dates; check the local primary before re-opening. RaDD funded static at $555M since May 2024.
+- [2026-07-04 · 09-24] **⛔ Vintage trap — seen 5× (5th: 9/27 search summary, via Bisnow 3/19/26 restating the 2024 extension):** search surfaces a "two-year RaDD extension → Aug 2028" and a "Citi downgrade" as current; both trace to **Jun-2024 Bisnow / May-2024 Citi**. Maturity = **Aug 2026**, from the primary Q1'26 transcript (Mealor, Gleason). Check article dates; check the local primary before re-opening. RaDD funded static at $555M since May 2024.
 - [2026-07-04] **RESG concentration (6-qtr primary):** share of unfunded 71→60% (Q4'24→Q1'26; ~79% peak), commitments $34.5B→$27.8B; "88%" is a phantom. [KB-196]
 - [2026-07-04 s2] **Bluerock = Bluerock Total Income+ (now BPRE), not "Bluerock Homes."** PIK loans real ($160M@13.5% + $86M@14%); first-loss equity ~$488M; its NAV mark leads RaDD credit. Trade press can confirm a figure while misnaming the entity — verify both. [KB-197/198]
 - [2026-07-06] **Sterling Bay: one loss (Lincoln Yards, foreclosed, 320K SF), one PAR exit (Pacific Center, full repayment per Q4'25 Mgmt Comments).** Grep our own quarterly extracts before banking a severity claim from trade press. [KB-199]
@@ -53,7 +53,11 @@
 
 **CHANGES SINCE:** *(leave blank — next boot populates via boot.py)*
 
-### LAST SESSION (2026-09-24 — Will's catch-up, PROME's 5 tasks, CATO fixes, AM re-check, save-state)
+### LAST SESSION (2026-09-27 Sun — Will: boot + news catch-up)
+- Boot clean (pull up to date; corrections rc 0; 2 inbox unprocessed — DAEDALUS market.py FYI, **PROME WQ-295 cadence ask: owes a `PROME/inbox/` packet, PROME suggests `EVENT-DRIVEN`**).
+- Sweep 9/24→9/27: **quiet.** FLNG rc 0 (none after 11981) · no insider forms after 8/14 · OZK $46.89 / KRE $71.55 (9/25 close) · SI 16.51M @9/15, DTC 17.6 (rising) · no analyst action after 9/8 · Q3 date unannounced · Spur→Apollo still TRD-only · BPRE ~38% below NAV · Horton still UNKNOWN (only listing is stale). → `research/threads/2026-09-27_CATCHUP_SWEEP.md`. STATUS tokens refreshed; **nothing moved.**
+
+### PRIOR SESSION (2026-09-24 — Will's catch-up, PROME's 5 tasks, CATO fixes, AM re-check, save-state)
 
 - **Catch-up (dark 8/31→9/24):** FDIC filings none since 8/5 10-Q · Hicks (CFO) + Wolfe sold ≈$574K 8/12-13, zero buys · SI 16.2M / ~16% float @8/31 · $49.08→$46.09 (−6.1% vs KRE −3.8%) · MS→UW 9/8 · Fed +25bp 9/16 · IQHQ Spur deed-in-lieu [single-source] · RaDD nothing. AM re-check 9/24: nothing new. → `research/threads/2026-09-24_CATCHUP_SWEEP.md`.
 - **⚖️ L181 RESOLVED — LEGITIMATE, narrowed:** reported debt-on-debt decline **OBSERVED** (10-Q ≡ `RCON2746`, 5/5 qtrs; never in item 4) · runoff **INFERRED** · reclassification out of the book **NOT EXCLUDED** (CATO RB2). → `MI3_2025Q3_ADJUDICATION.md` §6/§6.5, KB-OZK-230; corrections sent to REGINALD + BROCK.

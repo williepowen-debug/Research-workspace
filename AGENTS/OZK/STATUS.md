@@ -1,9 +1,9 @@
 # OZK — Dashboard
 
-**Updated:** 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
-**Price:** **$46.07** [Thu 2026-09-24 ~11:50 ET **intraday** — FORGE fetch.py asof 2026-09-24; −0.04%; prior close $46.09 9/23] · <$45 band **2.3% away, NOT fired** · −6.1% since 8/31 ($49.08) vs KRE −4.0% ($70.22 intraday) | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.95×** (on $46.07)
+**Updated:** 2026-09-27 (Sun catch-up 9/24→9/27: quiet — price/SI/tape refreshed, **nothing moved** → `research/threads/2026-09-27_CATCHUP_SWEEP.md`) · prior 2026-09-24 (catch-up + PROME tasks + STATUS rebuild + CATO fixes + **Q2 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md`; **zero grades/thresholds/weights/conviction moved**) — session detail → `MEMORY.md` · evidence → `research/threads/2026-09-24_CATCHUP_SWEEP.md` · older header history → `git log -p -- AGENTS/OZK/STATUS.md`
+**Price:** **$46.89** [**Fri 2026-09-25 close** — FORGE fetch.py asof 2026-09-25; +0.62%; read Sun 9/27, not live] · <$45 band **4.0% away, NOT fired** · −4.5% since 8/31 ($49.08) vs KRE ≈−2.2% ($71.55) | **TBV:** **$48.41** [Q2'26, 8-K bundle] | **P/TBV:** **~0.97×** (on $46.89)
 **Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **OZK-09** 45% · A30/B45/C8/D17 · Option-2 window FROZEN | **KB:** 235 rows / 37 groups
-**Short interest:** **~16.0% of float** (16.21M sh, **8/31/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 16.0** — up from 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
+**Short interest:** **~16.3% of float** (16.51M sh, **9/15/26** FINRA via Nasdaq API; float % derived on the 6/30 basis), **DTC 17.6** — up from 16.21M / 16.0 (8/31) and 14.7% / 11.7 (6/30); 12-mo peak 18.3%. Crowded into Q3 (C8). [refresh at each settlement]
 **Next:** **Oct 1** sub-notes reprice (watch armed; read **Fri 10/2**) · **~Sep 30** Q3 date announcement · **Oct 6** Bluerock BPRE webinar · **~mid/late Oct** Q3 earnings + call = mgmt's "~92-day" RaDD report-back · **~Nov 1-10** Q3 Call Report (FFIEC JWT expires **11/5**)
 
 ---
@@ -22,11 +22,11 @@ Both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 R
 | **9/16** | **Fed +25bp to 3.75–4.00%** [federalreserve.gov] | Sets the floater the $350M sub notes step into on 10/1 (**3M term SOFR + 209bp**, issuer release) → drag ≈+$11.2M/yr |
 | **9/8** | **Morgan Stanley Equal Weight → Underweight**, PT $56 unchanged (Ryan Kenny) | 🟠 OZK −2.3% vs KRE −1.3% — the window's one clearly idiosyncratic day |
 | **9/1** | **Raymond James initiates Market Perform** — "substandard assets and charge-offs both elevated"; ~8× 2027 EPS, ~1.0× TBV | 🟡 Street language moving toward the credit read |
-| **8/12-13** | **CFO Tim Hicks sold 5,000 sh @ ~$52.6; Cynthia Wolfe sold 6,000 @ ~$51.9** (≈$574K) [FDIC EFR] | 🟡 Continues the selling pattern; **zero open-market buys 7/6→9/24**; nothing filed after 8/14 → `INSIDERS/SELLING.md` |
-| **8/6 → 9/24** | **FDIC filings: none** since the 8/5 Q2'26 10-Q [VERIFIED, `scripts/flng_watch.py`] | No 8-K, no Q3-date notice, no sub-note redemption notice |
+| **8/12-13** | **CFO Tim Hicks sold 5,000 sh @ ~$52.6; Cynthia Wolfe sold 6,000 @ ~$51.9** (≈$574K) [FDIC EFR] | 🟡 Continues the selling pattern; **zero open-market buys 7/6→9/27**; nothing filed after 8/14 [FDIC API, 9/27] → `INSIDERS/SELLING.md` |
+| **8/6 → 9/27** | **FDIC filings: none** since the 8/5 Q2'26 10-Q [flng_watch rc 0, 9/27 16:41 ET — none RETURNED after id 11981] | No 8-K, no Q3-date notice, no sub-note redemption notice |
 | **8/31** | IQHQ RaDD Aug-2026 window **closed SWEPT-AND-EMPTY** (FDIC FLNG, 10-Q keyword pass, press ×3; SD recorder leg UNKNOWN) | Quiet close = the pre-registered v1.5 modal path; OZK-09's Option-2 window runs to the Q4'26 print, so it resolves nothing → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md` |
 
-*Tape read:* −6.1% since 8/31 vs KRE −3.8% = **mostly beta** (9/16 hike, 9/23 financials selloff) + ~2pts on the MS day. No OZK-specific credit headline. Pre-August developments → `CALENDAR.md` RESOLVED + git history.
+*Tape read (9/27):* −4.5% since 8/31 vs KRE ≈−2.2% = **mostly beta** (9/25 bounce was cohort-wide) (9/16 hike, 9/23 financials selloff) + ~2pts on the MS day. No OZK-specific credit headline. Pre-August developments → `CALENDAR.md` RESOLVED + git history.
 
 ---
 
@@ -85,16 +85,16 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$46.07** [9/24 ~11:50 ET intraday] | <$45 / <$40 | 🟢 Neither fired — <$45 is 2.3% away. $52.49 (8/14) → $49.08 (8/31) → $46.09 (9/23 close) → $46.07 |
+| OZK price | **$46.89** [9/25 close] | <$45 / <$40 | 🟢 Neither fired — <$45 is 4.0% away. $52.49 (8/14) → $49.08 (8/31) → $46.09 (9/23) → $46.89 (9/25) |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 OZK-05 TRUE — above kill-line |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising while RESG falls = adverse selection |
-| RaDD leased % | ~3.3% (JCVI 50K SF, May 2025) | Any signing >100K SF | none found through 9/24 |
+| RaDD leased % | ~3.3% (JCVI 50K SF, May 2025) | Any signing >100K SF | none found through 9/27 (web) |
 | IQHQ specific reserve | **None Q2 — OZK-08 FALSE** | Any positive disclosure | Next read: Q3 call |
-| Sub notes reprice | **Oct 1** — 3M term SOFR + 209bp | Pre-reprice refi/redemption announcement | Watch ARMED (`scripts/flng_watch.py`, in boot.py); FLNG quiet through 9/24 · drag ≈+$11.2M/yr (≈$0.08 EPS) · Tier 2 −20% |
-| Insider buying | **Zero** open-market buys 7/6→9/24 | Any buy | CFO + 1 officer sold 8/12-13 |
+| Sub notes reprice | **Oct 1** — 3M term SOFR + 209bp | Pre-reprice refi/redemption announcement | Watch ARMED (`scripts/flng_watch.py`, in boot.py); FLNG quiet through 9/27 · drag ≈+$11.2M/yr (≈$0.08 EPS) · Tier 2 −20% |
+| Insider buying | **Zero** open-market buys 7/6→9/27 | Any buy | CFO + 1 officer sold 8/12-13 |
 
-**Cross-feed (ref only — REGINALD owns):** KRE **$70.38** [9/23 close, own pull] (was $76.69 on 7/20). HY OAS / Brent / claims → read `../REGINALD/STATUS.md`; not refreshed here.
+**Cross-feed (ref only — REGINALD owns):** KRE **$71.55** [9/25 close, own pull] (was $76.69 on 7/20). HY OAS / Brent / claims → read `../REGINALD/STATUS.md`; not refreshed here.
 
 ---
 
@@ -102,7 +102,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 | Date | Event | Thesis Impact |
 |---|---|---|
-| **~Sep 30** | Q3 earnings-date announcement | Sets the grading date; not announced as of 9/24 |
+| **~Sep 30** | Q3 earnings-date announcement | Sets the grading date; not announced as of 9/27 |
 | **Oct 1** | $350M sub notes reprice (2.75% → 3M term SOFR + 209bp) | ≈+$11.2M/yr interest · Tier 2 −20% for 12mo. **Read Fri 10/2:** `flng_watch.py` rc 0 = SCHEDULED-UNCONTRADICTED (never "confirmed") · rc 1 = read filing · rc 2 = UNKNOWN |
 | **Oct 6** | Bluerock BPRE (ex-TI+) roadmap webinar | IQHQ mark or exit language = sponsor-stress context (not a grade) |
 | **~mid/late Oct** | **Q3 earnings + call** — the "~92-day" RaDD report-back | Extension terms (executed? curtailment? new equity?) · SpecMention $616M reversal rate · NCO vs "back under industry" · provision "drift down" |
@@ -114,10 +114,10 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 
 ## Open Items (live queue → `TODO.md`)
 
-1. 🔴 **Campus at Horton leasing check** — owed since late July; a window search on 9/24 found nothing, which does **not** discharge it. The still-empty branch is what holds RaDD severity at 65-70%.
+1. 🔴 **Campus at Horton leasing check** — owed since late July; web searches on 9/24 and 9/27 found no lease, which does **not** discharge it (the only listing — Cushman, Bldg 200, 204,842 SF "Available" — is undated and still names pre-foreclosure owner Stockdale; needs SD trade press). The still-empty branch is what holds RaDD severity at 65-70%.
 2. 🟠 **Full read of the Q2'26 10-Q** (`raw/Q2_2026_10Q.pdf`) before the Q3 print.
 3. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
-4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; BPRE webinar 10/6. **Aimco v. IQHQ** — no ruling found (as of 9/24 search).
+4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; BPRE webinar 10/6. **Aimco v. IQHQ** — no ruling found (as of 9/27 web search; docket pull owed). BPRE trades ~38% below NAV.
 5. ⚖️ Will-gated, not applied: **P-OZK-1 / P-OZK-4 / P-OZK-5**.
 
 *Resolved July items (RESG "88%" phantom, Bluerock entity, 7/2 selloff, Boston sponsor, WAL-not-an-IQHQ-lender) → git history of this file + KB-195/196/197/198.*
