@@ -15,6 +15,7 @@
 4. **Watchlist:** any-bank pin retired, and the 7/02, 7/22, 8/27 "delisted/relisted" notes corrected to **resolutions** · Hormuz weekly → wk-of-9/28.
 5. **WQ-295 reply to PROME:** `CADENCE: WEEKLY`. **WATCH_FOR coverage check SKIPPED** (list not located), carried below.
 6. **Closeout:** STATUS full rewrite (14.2 KB), NEXUS_BRIEF rewrite, this file.
+7. **Closeout completion pass (Will: "did you run the full ORACLE close out?" → no, then "go ahead", ~13:30 ET):** NEXUS `STATUS commit:` placeholder → `c1d4b4a98` · `history --write` 8,223 rows / 52 markets · **KB overdue sweep: 4 SUPERSEDED (005/030/031 → 101; 082 → 084/091) + 30 STALE** (ACTIVE past own Stale_By, not re-verified) + 9/27 notes on 093/098 · MAINTENANCE 2026-09-27 entry · auto-memory `finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect` extended (n=2, HOT, index hook updated; `memory_index_check --slug` 0 blocking; MEMORY.md 71% of byte cap) · orphan check: 0 mine outside my dir besides the memory pair · claim check 8 files clean (incl. PROME DOCKET/GATES/WILL_QUEUE) · consumer check 66.5→64.5: 0 🔴, 72 bare-needle 🟠, none the same series ⇒ no packets.
 
 ## NEXT SESSION (dated, priority-flagged)
 
@@ -35,7 +36,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** closeout commit + `db4c7a588` + `0ccb6c527` pushed via safe-push at this closeout; receipt in the reply to PROME/Will. Nothing else unpushed.
+- **Push state:** `db4c7a588`, `0ccb6c527`, `c1d4b4a98`, `d59ecb124` PUSHED. safe-push CONFIRMED HEAD `d59ecb124` on origin/master 2026-09-27 ~12:4x ET. The completion-pass commit is pushed next; its receipt is in the reply to Will.
 - **Concurrent sessions live on this box** (PROME `prome-09`, REGINALD, CREED, WALTER). Path-scoped commits only.
 - **Standing framing (do not re-derive):**
   - Fed hiked 25bp to 3.75–4.00% on 2026-09-16 (KB-ORC-083). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
