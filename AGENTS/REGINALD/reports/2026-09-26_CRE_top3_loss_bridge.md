@@ -36,7 +36,7 @@
 | **ARI's ~$9B book cleared at 99.7% of par**: strongest contrary fact | Performing books *can* clear at par. It bears on FLG's par payoffs (still ~40% from substandard) and caps how harsh a pass-book stress should be. | **Adopted as the reason pass books are stressed lightly or not at all** |
 | **Hotels: 30% of 2026 balances mature**, the most under-watched refinancing book | EGBN holds **$373M of hotel loans**, which my first report missed. It is included in "other income-producing CRE" with a 1% stress on the pass book. | **Gap closed partly** (no hotel-specific grade split is disclosed) |
 | CREED's lender table lists **AMTB** among concentrated CRE names | That label came from my matrix. AMTB's score is mostly **non-CRE** credit. | **Disagree → correction packet to CREED** |
-| **Fix 1:** OZK RaDD stress 20% vs the OZK desk's **65–70%** | Adopted: the stress uses **65%**; 70% adds ~$28M. | **Accepted** |
+| **Fix 1:** OZK RaDD stress 20% vs the OZK desk's ~~**65–70%**~~ **50–65%** | Adopted: the stress uses **65%**, the **top** of OZK's band. ~~70% adds ~$28M~~ (70% sits above OZK's band). *(label corrected 9/27 per OZK packet 2b4c996f4: OZK's band is 50–65% = $275–360M on $555M funded; 65% is its top)* | **Accepted** |
 | **Fix 2:** FLG office comps were sale-vs-2017-purchase, not vs peak, and not loss rates | FLG CRE pools are now labelled **ASSUMPTION ONLY**, with no market anchor. | **Accepted** |
 | **Fix 3:** EGBN 39.6% haircut "probably office", applied to a MF-heavy pool | Adopted the split by type. ⚠️ The EGBN evidence pack found **no office loan went to held-for-sale after 9/30/25**; office was ≤41% of FY-25 transfer value. **So "office-driven" is not established either.** The non-office anchor is EGBN's **13.3%** H1-26 haircut, which is now the base. | **Accepted, with a qualification sent back to CREED** |
 | FLG's "~20.5% already recognised" should be **~17.5%** on the original balance | ~~Adopted.~~ ⛔ **WITHDRAWN 9/27: the fix double-counted.** $2,088M is already pre-charge-off (2,088 − 351 = 1,737); (351+76)/2,088 = **20.45%**, confirmed by FLG at deck s16. | ~~Accepted~~ **Rejected on re-check** |
@@ -134,7 +134,7 @@
 | **OREO: life-sci** (Seattle, Chicago) / **LA land** | 96.0 / 54.5 | none | 5/27.5 · 0/30% | Near office-conversion value / LOI at or above carrying |
 | Tahoe substandard accruing | 29.4 | 7.3 specific | 10% / 25% | Assumption |
 | Special mention | 616.2 | 8.4 general | 3% / 12% | Includes a condo at 105.6% LTV |
-| **RaDD life-science, pass-rated** | 555.0 | 7.6 general | **0% / 65%** | OZK desk severity 65–70%; ~3.3% leased; interest paid from reserves |
+| **RaDD life-science, pass-rated** | 555.0 | 7.6 general | **0% / 65%** | OZK desk severity **50–65%** (stress at the top) *(label corrected 9/27 per OZK packet 2b4c996f4: OZK's band is 50–65% = $275–360M on $555M funded; 65% is its top)*; ~3.3% leased; interest paid from reserves |
 
 | Bridge | Base | Stress |
 |---|---:|---:|

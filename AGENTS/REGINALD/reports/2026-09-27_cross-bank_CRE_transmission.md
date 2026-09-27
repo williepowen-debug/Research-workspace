@@ -70,7 +70,7 @@
 | Assumption | Where it bites | Basis |
 |---|---|---|
 | Pool loss rates (FLG nonaccrual multifamily 8% / 20%; FLG CRE pools 10% / 25% etc.) | The FLG 8.4–10.5× multiple | **FLG CRE pools: assumption only, no market anchor.** The multifamily stress is cross-checked against BCB's NJ/NY problem-pool sale at ≤79% of face (8-K 9/25), a small bank's self-selected pool. |
-| OZK lab (RaDD) loss **65%** | OZK $656M stress | **OZK desk's figure** (65–70%), adopted 9/26 |
+| OZK lab (RaDD) loss **65%** | OZK $656M stress | **Top of the OZK desk's band, 50–65% ($275–360M on $555M funded)**, adopted 9/26 *(label corrected 9/27 per OZK packet 2b4c996f4: OZK's band is 50–65% = $275–360M on $555M funded; 65% is its top)* |
 | EGBN non-office haircut **13.3%** | EGBN multifamily | EGBN's own H1-26 exit haircut |
 | General reserve allocated pro-rata by pool | High end of each reserve-credit range | Banks do not disclose it by grade; **my allocation** |
 | PPNR = trailing four quarters, no forward growth; losses land with no earnings offset | The multiples and CET1 figures | Simplification. Read as multiples, never as a yes/no. |

@@ -90,7 +90,7 @@ BANKS = {
       ("Special mention (5 RESG credits $529.2M + other)", 616.2, 0, 8.4, .03, .12, "ACL",
        "incl. a condo at 105.6% LTV (commitment $147M); collective 1.37% pro-rata"),
       ("RaDD life-science, pass-rated", 555.0, 0, 7.6, .0, .65, "ACL",
-       "OZK desk severity 65-70% (AGENTS/OZK/STATUS.md:117; ~3.3% leased; interest from reserves); base 0 = extension/recap in negotiation"),
+       "OZK desk severity band 50-65% = $275-360M, stress at the top (AGENTS/OZK/IQHQ_PLAYBOOK.md s3; label corrected 9/27 from 65-70%; ~3.3% leased; interest from reserves); base 0 = extension/recap in negotiation"),
     ],
     excluded="pass RESG book (~$14.7B construction + non-owner-occupied less named credits); RaDD's ~$360M UNFUNDED commitment (only $555M funded is in the pool); the $430M debt-on-debt book (indirect CRE, first charge-offs $42.4M YTD) except where already nonaccrual; the $40.4M C&I hardship loan",
   ),
