@@ -1,0 +1,132 @@
+# Nano Banc receivership → the WAL Stupin/Cantor recovery leg
+
+**Written:** 2026-09-27 (Sun), WAL session #8 (Will-launched; PROME packet `17a205519`, `prome-09`). **Research only — no card, no trade.** Budget 60–120 min; delivered **COMPLETE** on WAL's four asks, with named open items (§6).
+**Shared fact base:** `PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md` §1 — not re-derived here. **Loss severity / implied haircut = REGINALD's figure** (`AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md` — landed mid-session, consumed in §7; this file carries no second number). DEWEY's document pull — not landed at write time either.
+
+---
+
+## 0. Bottom line (four asks, four answers)
+
+| Ask | Answer | Basis |
+|---|---|---|
+| **1. Arc** | "Facing receivership" → **CONFIRMED 9/25/2026** (DFPI closure, FDIC receiver, Sunwest acquirer). But **two of the corpus's other Nano claims are wrong or stale**: the "Fed C&D [Mar-4-2025]" (ML-REG-044 wording) was actually the **termination** (3/20/2025) of the 1/18/2022 order; and the MOM Investcos Ch.11 was **dismissed in 2025**, so it is not a live venue | §1 |
+| **2. Recovery mechanics** | ★ **The fleet framing "the WAL link is indirect, not a WAL loan to Nano" is incomplete.** WAL's own verified complaint (8/18/2025) shows **Nano Banc holds deeds of trust SENIOR to WAL on 5 of the 10 collateral loans it pleads — 4 DOTs, $28.04M face.** Those liens (if Nano still held them) are now receivership assets. **Net for WAL: slower near-term, potentially better on the senior-lien leg, marginally worse on the guaranty leg. No new loss mechanism; everything sits inside the existing $72.4M gross residual (Q1 10-Q).** | §2–§3 |
+| **3. Peer facts** | REGINALD's forensics landed mid-session and are consumed in §7 (consistent; no conflict). DEWEY's pull had not landed by delivery. Nothing here depends on it. Two items were routed to them (§6) | §6 |
+| **4. WAL-01 / WAL-02 / ROLL70-EXIT** | **NO CHANGE (2026-09-27).** WAL-01 = office-classified at deck slide 12, and WAL-02 = ex-fraud NCO; **a Cantor charge-off is EXCLUDED from WAL-02 under W2 only when the filing EXPLICITLY attributes it to Cantor** (it did in Q1; no inferred adjustment). ROLL70-EXIT is a price letter (≥$81.90 ×3), and no filing or price rule keys on a third-party failure. **Q3 frames untouched.** The 10-Q frame §8 gets a dated, non-gating annotation (allowed until filing) | §4 |
+
+---
+
+## 1. The arc — what the corpus said vs what is true
+
+| Corpus claim (`FRAUD/STUPIN_CRE.md:92-96`, from REGINALD `ML-REG-044`, "External Research Agent", 2026-02-02) | Truth, dated | Source | Tier |
+|---|---|---|---|
+| "Facing receivership" | **CONFIRMED:** closed by DFPI **Fri 2026-09-25**; FDIC receiver; Sunwest Bank (Sandy UT) assumes substantially all deposits and ~$476M of assets; DIF cost ≈ **$114M**. Equity fell below the 3% statutory floor; FY2025 net loss ≈ $75.3M; a March-2026 DFPI order demanding 9.5% tangible equity was not met | [FDIC PR 9/25/2026](https://www.fdic.gov/news/press-releases/2026/sunwest-bank-assumes-all-deposits-and-certain-assets-nano-banc-irvine) · [DFPI PR 9/25/2026](https://dfpi.ca.gov/press_release/california-seizes-nano-banc/) | A1 |
+| "Fed C&D issued [Mar-4-2025]" | ⛔ **WRONG, inverted.** The Fed's C&D was issued **1/18/2022** and **TERMINATED effective 3/20/2025** (Fed release 4/1/2025). The corpus read a termination as an issuance. The DFPI's 9/25 release also says the Fed action ended in April 2025. **This settles the discrepancy PROME declared in plan correction `f53bc8bd1`.** | [Fed enforcement PR 4/1/2025](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20250401a.htm) · [Fed C&D 1/18/2022](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20220118a.htm) | A1 |
+| "Found liable for fraudulent inducement" (Honarkar arbitration) | **Narrow it.** JAMS No. 5220003126: the **partial interim award (2/21/2025)** found Makhijani/Continuum liable for fraudulent inducement and **Nano liable for CONSPIRACY and AIDING-AND-ABETTING** that inducement; the **partial final award is dated 5/23/2025**. Separately, Nano **WON a complete defense verdict** in *Security National Guaranty v. Evariste Group* (OC Superior, Judge Nelson, jury, announced 12/18/2025): $0 against Nano, $83.25M against the other defendants. **Nano was liable in one forum and cleared in another.** "Participant, not victim" is the arbitrator's finding in ONE proceeding, not a settled fact | [award excerpt (claimant-published)](https://issuu.com/savelaguna/docs/jams_arbitration_no._5220003126_partial_interim_aw) · [Jus Mundi index of the 5/23/25 award](https://jusmundi.com/en/document/decision/en-mohammad-honarkar-and-4g-wireless-inc-individually-and-on-behalf-of-mom-as-investco-llc-mom-bs-investco-llc-and-mom-ca-investco-llc-v-mahender-makhijani-continuum-analytics-inc-mom-as-investor-group-llc-mom-bs-investor-group-llc-mom-ca-investor-group-llc-mom-as-manager-llc-mom-bs-manager-llc-mom-ca-manager-llc-and-nano-banc-partial-final-award-friday-23rd-may-2025) (403 to fetch) · [Hunton release 12/18/2025](https://www.hunton.com/news/hunton-wins-significant-defense-verdict-for-nano-banc-defining-limits-of-aiding-and-abetting-liability-for-banks) | B2 (award text is claimant-published; award amount against Nano NOT established) |
+| "Officers permanently banned. FBI warrants executed." | Two former executives were prohibited (DFPI 9/25). Co-founder Gressak was banned in 2024 over $15.5M of PPP fraud (American Banker). The FBI searched **Continuum Analytics**, not Nano (KB-WAL-137, Reuters 10/20/2025). "FBI warrants" attached to Nano is **not supported** by anything this desk holds | DFPI PR · [American Banker 9/25/2026](https://www.americanbanker.com/news/embattled-california-bank-is-latest-to-fail) · KB-WAL-137 | A1 / A2 |
+| MOM CA Investco Ch.11 (~$382M) as a live venue (PROME ask 2c) | **STALE PREMISE: the MOM Investcos Ch.11 cases (D. Del., filed 2/28/2025) were DISMISSED.** The dismissal was on Honarkar's motion, "allowing Honarkar and 4G to return to California state court to pursue damages under the arbitration award." The date is August 2025 per a secondary source; Polsinelli's news item is dated 10/15/2025. **Confirm at the docket (DEWEY)** | [Polsinelli 10/15/2025](https://www.polsinelli.com/news/polsinelli-represents-mo-honarkar-4g-wireless-in-dismissal-of-bankruptcy-cases) · [Bondoro case summary](https://bondoro.com/mom-investcos/) | B2 |
+
+**What the corpus did NOT have, and it is the WAL arc's biggest omission:** ★ **Mahender Makhijani** (Continuum; per the complaint, the person running Cantor Group V day to day) was **arrested on a federal criminal complaint in early June 2026: bank fraud and falsified loan documents, "defrauded bank out of nearly $100 million"**. "Bank #1" is Western Alliance. The alleged scheme ran 9/2024–4/2025. He pleaded not guilty in Santa Ana, and trial was set for **8/11/2026** before Judge David O. Carter (C.D. Cal.). **Current status (continued? plea?) is UNKNOWN — DEWEY/PACER.** No WAL KB row existed before this session → `KB-WAL-203`. Sources: [DOJ C.D. Cal. release](https://www.justice.gov/usao-cdca/pr/orange-county-man-arrested-federal-criminal-complaint-alleging-he-defrauded-bank-out) (403 to fetch; content via secondaries) · [American Banker 6/11/2026](https://www.americanbanker.com/news/california-financier-arrested-for-100-million-bank-fraud) · [OC Lawyers 8/4/2026](https://www.orangecountylawyers.com/news/trial-set-for-oc-financier-in-100m-fraud-case/). The investigating agencies include **FDIC-OIG** and the **Fed/CFPB OIG**.
+
+---
+
+## 2. ★ The direct WAL–Nano link: Nano's liens sit AHEAD of WAL's collateral
+
+**Primary:** *Western Alliance Bank v. Cantor Group V, LLC, Gerald J. Marcil, Andrew Stupin*, **Verified Complaint**, LA Superior (25STCV24263, KB-WAL-137), dated **2025-08-18** (Ballard Spahr; verified by Al Thuma for WAB). Copy retrieved from Bloomberg's document host (`assets.bwbx.io/…/rNbUA3uuSlq0`); text extracted locally with pdfminer. Tier **A2** (court filing via a third-party host, not the court portal).
+
+The complaint pleads 10 "Fraudulent Title Report" collateral loans. For each, Cantor's employee supplied a title policy showing **WAB first**, and the title insurer's own copy showed older, still-of-record deeds of trust:
+
+| Collateral loan | Property | Senior DOT(s) the doctored policy omitted | Nano? |
+|---|---|---|---|
+| 26 | 2522 S. Grove Ave, Ontario | Preferred Bank $10.4M (7/11/2017) | — |
+| **32** | 23750 Alessandro Blvd, Bldg G/H/I, Moreno Valley | **Nano Banc $9,720,000 (dated 8/29/2019, rec. 9/9/2019), FIRST priority** | ✅ |
+| **33** | 23750 Alessandro Blvd, Bldg A/B/O/N, Moreno Valley | **Nano Banc $9,720,000 (same DOT), FIRST priority**; **Notice of Default recorded 5/20/2025** | ✅ |
+| 35 | 2460 S. Grove Ave, Ontario | Preferred Bank $10.4M (7/11/2017) | — |
+| 37 / 38 / 39 | 28207 / 28251 / 28301 Newhall Ranch Rd, Valencia | Preferred Bank $48.93M (2/28/2017) + $1.5M (12/4/2023) | — |
+| **43** | 3700 Inland Empire Blvd, Ontario | Preferred $25.9M (3/30/2022) 1st; **Nano $4,333,151.35 (11/10/2022)** 2nd; **NOD on the Nano DOT recorded 5/20/2025** | ✅ |
+| **44** | 12233 Central Ave, Chino | Preferred $22.4M (8/4/2016) 1st; **Nano $5,990,000 (1/26/2023)** 2nd | ✅ |
+| **45** | 9826 Cedar St, Bellflower | Umpqua $6.47M (11/6/2018) 1st; **Nano $8,000,000 (9/16/2024)** 2nd | ✅ |
+
+**Nano count: 4 distinct DOTs ($9.72M + $4.33M + $5.99M + $8.00M = $28.04M ORIGINAL FACE) ahead of WAL on 5 of the 10 pleaded collateral loans.** ⚠️ These are face amounts at origination, not current balances, and the pleaded list is the complaint's examples, not necessarily the whole collateral pool. The other senior holder is **Preferred Bank** (a public bank: PFBC). Per American Banker 6/11/2026 it carries **$115M of nonaccrual loans** tied to Makhijani entities. That is REGINALD's lane, flagged in §6.
+
+**Does WAL still sit behind Nano on 9/25/2026? UNKNOWN, and nothing public says who sold WAL its liens.** WAL bought a **$13M non-performing senior-lien loan in Q1-26** and "plans to acquire additional non-performing senior lien loans" (Q1 10-Q, KB-WAL-143). Senior protective liens reached **$64M by Q2** (Q2 deck fn, KB-WAL-123). **The filings name no seller.** Three states are possible, and nothing distinguishes them today:
+
+| State | What the receivership does to it | Evidence for |
+|---|---|---|
+| (a) WAL already bought Nano's senior liens (they'd fit inside the $64M) | Nothing. WAL is already senior on those properties; the failure is irrelevant to them | Magnitudes allow it ($28.04M face < $64M). **Inference only, never promoted** |
+| (b) Nano still held them at failure | They pass to **FDIC as receiver** or to Sunwest. Noncurrent/foreclosure-stage loans are typically retained (~$260M retained pool — PROME plan §1). The FDIC must dispose of them: a structured or loan sale, typically 3–9 months | NODs on Nano's DOTs (5/20/2025) = Nano was enforcing, not selling, as of mid-2025 |
+| (c) Nano foreclosed before failure | A senior trustee's sale extinguishes WAL's junior interest in that property unless WAL bid or bought. Loss would already be inside the Q1 $26.1M charge-off ("updated as-is appraisals") | NODs recorded 5/20/2025, so a trustee's sale was legally possible from ~late 2025 |
+
+---
+
+## 3. Receivership mechanics → the WAL-specific consequence
+
+**Mechanisms (FIRREA, 12 U.S.C. §1821). This is the statutory frame, not legal advice; DEWEY owns the documents.**
+
+| Mechanism | What it does | Nano status |
+|---|---|---|
+| **Succession** §1821(d)(2)(A) | FDIC-R succeeds to all of Nano's rights, powers and assets: its **deeds of trust, its guaranty claims against Marcil/Stupin, its lawsuits** — and its liabilities | Automatic 9/25 |
+| **Administrative claims process** §1821(d)(3)–(6), (d)(13)(D) | Anyone with a claim against Nano (Honarkar's award, Marcil's C.D. Cal. suit) must file with the receiver by a **bar date ≥90 days after first published notice**. The receiver has 180 days to decide. Courts lack jurisdiction until the process is exhausted | **Bar date NOT published** in the FDIC FAQ (checked 9/27). Claims go to FDIC-R Nano Banc, Dallas, or the FBCSC portal |
+| **90-day stay** §1821(d)(12) | The receiver may stay any pending action where Nano is a party | Applies to Marcil v. Nano (C.D. Cal. 8:26-cv-01143, filed 5/11/2026), Nano's suits against Stupin/Marcil, and the Honarkar confirmation proceedings |
+| **Depositor preference** §1821(d)(11) | Admin expenses → deposits (the FDIC stands in for the transferred deposits) → general unsecured → subordinated → equity | DIF loss ≈ $114M ⇒ **general unsecured creditors of Nano ≈ zero recovery.** A money award against Nano is now worth ~nothing |
+| **Repudiation** §1821(e) | The receiver may disaffirm burdensome contracts; damages are limited to actual direct compensatory damages as of 9/25 | Relevant to any intercreditor, subordination or standstill Nano signed with other lenders on shared collateral. **None is known for WAL** |
+| **No injunctions** §1821(j) | No court may restrain the receiver's exercise of its powers | WAL cannot enjoin an FDIC foreclosure or sale of the Nano senior liens |
+| **D'Oench / §1823(e)** | Unwritten or unrecorded side agreements can't diminish the FDIC's interest in an asset | Weakens any equitable-subordination theory ("Nano's liens should rank behind WAL because Nano was in on it") against the FDIC as holder. The arbitrator's conspiracy finding runs to Honarkar, not WAL |
+
+**WAL-specific consequence by leg.** Every dollar sits inside the **$72.4M gross residual / $3.5M specific allowance (Q1 10-Q, KB-WAL-143)** plus the $64M liens bought on top (KB-WAL-123). **No new exposure is created.**
+
+| Leg | Direction | Why |
+|---|---|---|
+| **(a) WAL claims running through Nano** (PROME ask 2a; the "contribution-agreement loop", `ML-REG-039`) | **NEUTRAL, since nothing is carried.** WAL's suit names Cantor V, Marcil and Stupin, not Nano. No primary this desk holds shows a WAL claim against Nano. If one exists it is a general unsecured claim ⇒ ~0 recovery, and it must be filed by the bar date. **The "contribution-agreement loop" is a secondhand Feb-2026 characterization that no WAL primary supports** | Complaint caption; §1821(d)(11) |
+| **(b) Senior liens on WAL collateral** (state (b) above) | **Potentially BETTER, and possibly FASTER.** WAL's stated plan to buy senior NPL liens now faces a counterparty that must sell for cash, doesn't litigate the fraud narrative, and runs a known disposition process. **Risk side:** §1821(j) + D'Oench mean WAL can't block an FDIC foreclosure, so WAL must buy or bid, not sue. **Observable bonus:** an FDIC sale of Nano's Stupin-web loans would **print a market price on liens against the same properties as WAL's collateral** (Moreno Valley, Ontario, Chino, Bellflower). That is the closest outside mark WAL's 26.5% loss-to-date (vs ZION 83%) will ever get | Complaint ¶¶44–88; FDIC P&A |
+| **(c) Guaranty leg: Stupin 45% / Marcil 5% of the Credit, payment guaranties** (complaint ¶¶113–115) | **Marginally WORSE / SLOWER.** The FDIC-R inherits Nano's pursuit of Marcil (Nano made demand; Marcil sued Nano 5/11/2026), and it is a persistent, well-funded competing creditor for the same guarantor assets. **Honarkar's award against Nano is now worth ~0**, so Honarkar's collection pressure turns fully onto Makhijani/Continuum/Stupin, the same pockets. The receiver's stays add months | §1821(d)(12); Justia/PACER docket 8:26-cv-01143 |
+| **(d) Honarkar / MOM CA properties** (ask 2b–c) | **NOT a WAL leg.** The Laguna Beach / MOM properties are **not** among WAL's pleaded collateral (Inland Empire / LA County / Santa Clarita). The Laguna deed "assigned to Nano Banc" collided with **ZION's** expected first lien (ZeroHedge relaying Bloomberg/court filings, Oct 2025), which is **ZION → REGINALD's lane.** The Nano $20M loan on Honarkar's properties is now an FDIC-R or Sunwest asset; its fight is Honarkar-vs-FDIC | Complaint collateral list; B3 secondary on ZION |
+| **(e) Criminal case (Makhijani)** | **Two-way, slow.** A conviction supports WAL's fraud-policy and title claims and brings a restitution order. Restitution rarely makes a lender whole, and **FDIC-OIG and Fed OIG investigate the same scheme that now includes a failed Fed member bank**, so it may broaden. Trial status unknown | §1 |
+
+**Net (2026-09-27): slower near-term, potentially better on the senior-lien leg, marginally worse on the guaranty leg. No change to the magnitude this desk carries. No P&L event expected in Q3 from the failure itself.** Any Q3 effect shows up in the Q3 10-Q "Legal Disputes → Cantor Group V" paragraph, which the frame already grades (§4).
+
+---
+
+## 4. WAL-01 / WAL-02 / ROLL70-EXIT / the Q3 frames — dated statement
+
+**2026-09-27: NO CHANGE to any of the four.**
+- **WAL-01** (office classified >$500M at deck slide 12): unrelated. The Cantor collateral is retail, commercial and multifamily in the Inland Empire, financed through the Note Finance line (the complaint's notice address is notefinancing@westernalliancebank.com), not office.
+- **WAL-02** (ex-fraud NCO >40bps): **W2 subtracts only charge-offs the filing EXPLICITLY attributes to Cantor/LAM** (10-Q frame :25; print frame :31). An explicitly attributed Q3 Cantor charge-off (should one follow an FDIC sale mark) moves the excluded line, not the graded one. An UNattributed one would count, exactly as the frame already says. Nothing here changes that.
+- **`GATE-TERRY-ROLL70-EXIT`** (close ≥$81.90 ×3): a price letter. The tape moved +2.7% 9/23→9/25 ($75.60 → $77.61, Fri close) with the failure announced after the close on 9/25. **0-of-3**, per REGINALD's exit log through 9/25.
+- **Q3 frames (L170/L171):** not edited in any grading cell. **`Q3_10Q_GRADING_FRAME_2026-09-24.md` §8 gets one dated, NON-GATING annotation** (permitted until the filing lands): if the Q3 10-Q names the seller of any senior-lien purchase, or a Nano/FDIC counterparty, log it. **It does not change the §3 "$64M candidate tie" rule** (explicit connection only; never by inference).
+
+---
+
+## 5. What this file changes on WAL surfaces (this session)
+
+| Surface | Change |
+|---|---|
+| `FRAUD/STUPIN_CRE.md` §Nano Banc | The UNVERIFIED "facing receivership" line and the inverted Fed-C&D date are replaced by the dated facts; a pointer to this file is added |
+| `workbook/KB.tsv` | **+4 rows:** KB-WAL-201 (receivership, A1) · KB-WAL-202 (Nano senior DOTs on WAL collateral, A2) · KB-WAL-203 (Makhijani criminal case, A2) · KB-WAL-204 (Fed C&D terminated 3/20/2025, A1; corrects the corpus) |
+| `workbook/RETIRED_CLAIMS.tsv` | +1: "Fed C&D [Mar-4-2025]" (ML-REG-044 wording) (issuance) — dead |
+| `Q3_10Q_GRADING_FRAME_2026-09-24.md` §8 | One dated non-gating annotation |
+| `board_log.tsv` | WALTER SIG-W-20260927-004 rowed; framing correction noted |
+
+## 6. Open items and routing
+
+| # | Item | Owner | Why it matters to WAL |
+|---|---|---|---|
+| O1 | **Were Nano's four DOTs still Nano's at 9/25?** Recorder assignments or reconveyances (Riverside / San Bernardino / LA County), and whether they sit in the FDIC-retained pool | **DEWEY** (documents) | Decides state (a)/(b)/(c) in §2 |
+| O2 | Makhijani C.D. Cal. docket: trial held 8/11? continued? plea? restitution? | **DEWEY** (PACER) | Criminal leg (§3e) |
+| O3 | MOM Investcos Ch.11 dismissal date and docket (D. Del.) | **DEWEY** | Closes PROME's stale premise (ask 2c) |
+| O4 | FIRREA bar date once the FDIC publishes notice | DEWEY / WALTER WATCH_FOR | Deadline for any WAL claim against Nano (none carried) |
+| O5 | **ML-REG-044 correction:** "Fed C&D [Mar-4-2025]" (ML-REG-044 wording) = the termination (3/20/2025) of the 1/18/2022 order; "found liable" = conspiracy/aiding-abetting in ONE forum, cleared in *Security National* (12/2025); "FBI warrants" not supported for Nano | **REGINALD** (owner of the row; this desk does not edit it) | Their row is the fleet's upstream |
+| O6 | **Preferred Bank (PFBC)** is the larger senior holder on WAL's collateral ($10.4M, $50.4M, $25.9M, $22.4M DOT face) with $115M of Makhijani-linked nonaccrual (AB 6/11/2026) | **REGINALD** (peer bank) | Cohort read; an FDIC sale of Nano's liens also marks PFBC's collateral |
+| O7 | FDIC retained-asset sale of Nano's Stupin-web loans, as a mark on WAL-collateral properties | **CREED** (S6 forced-sale comp) + WAL consumes | §3(b) observable bonus; WATCH_FOR `Nano Banc loan sale` |
+| O8 | Loss severity / implied haircut | **REGINALD** (sole owner) | Cite only; not produced here |
+
+*Sources not fetched (403/timeout), used only via secondaries and labelled as such: DOJ C.D. Cal. release, Jus Mundi award page, Justia/PACER docket, Real Deal, CNBC, US News/Reuters.*
+
+---
+
+## 7. Peer file consumed (landed during this session)
+
+**REGINALD `reports/2026-09-27_nano-banc-failure-forensics.md`** (read ~13:4x ET, **uncommitted at read time**; cite by path, figures owner-canonical, NOT restated as WAL's):
+- Severity = REGINALD's figures: DIF cost **15.5% of assets**, highest of the six 2026 failures. The retained-pool haircut is published **only as a ceiling (≤ ~60%, "unallocable without the bid terms")**, adopting CREED §2a. ⇒ **There is no point estimate yet for any mark on Stupin-web collateral.** §3(b)'s "observable bonus" waits for an actual FDIC sale print, not this ceiling.
+- His grade of `ML-REG-044`: direction right; timing, cause-mix and severity not predicted. **The capital drain was litigation-driven; credit provisions were 22% of the 2025 loss.** ⇒ the corpus's "death spiral via inability to collect Stupin loans" is NOT what the Call Reports show. That supports this file's §1 narrowing. He independently traced the March-2025 date to an advocacy page (Issuu) and agrees the Fed order was terminated (my KB-WAL-204 has the Fed primary).
+- Lookalike screen: **WAL meets 0 of the 4 Nano legs** (book perimeter: no TERRY packet). Consistent with §4.

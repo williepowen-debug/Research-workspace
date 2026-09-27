@@ -91,11 +91,17 @@ WAL is posting record earnings while carrying a 30% reserve on a fraud where ZIO
 
 ## Nano Banc — The Co-Conspirator (ML-REG-044)
 
-Nano Banc wasn't a victim — it was a **participant** in the Stupin fraud. Found liable for fraudulent inducement. Fed C&D issued March 4, 2025. Officers permanently banned. FBI warrants executed.
+> ✅ **RE-BASED 2026-09-27 (WAL session #8). The 3/25 text of this section was replaced, not annotated: it asserted an inverted Fed date and an unverified status.** The 3/25 wording is in git history and quoted in `../research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §1. Full analysis → that file.
 
-**Death spiral:** Capital depletion + regulatory strangulation + criminal exposure → facing receivership.
+| Item | State (dated) | Source | Tier |
+|---|---|---|---|
+| **Receivership** | ✅ **CONFIRMED: closed by DFPI Fri 2026-09-25; FDIC receiver; Sunwest Bank assumed deposits + ~$476M assets; DIF cost ~$114M** | FDIC PR + DFPI PR 9/25/2026 · KB-WAL-201 | A1 |
+| **Fed C&D** | Issued **1/18/2022**, **TERMINATED effective 3/20/2025** (Fed release 4/1/2025). ⛔ The earlier "C&D issued [Mar-4-2025]" (from `ML-REG-044`) read the termination as an issuance | KB-WAL-204 | A1 |
+| **Liability** | Honarkar arbitration (JAMS 5220003126; interim 2/21/2025, partial final 5/23/2025): Nano liable for **conspiracy / aiding-abetting** fraudulent inducement (of Honarkar, not WAL). **But cleared on every claim** in *Security National Guaranty v. Evariste* (OC Superior jury, 12/2025). "Participant" = one arbitrator's finding | claimant-published award; Hunton 12/18/2025 | B2 |
+| ★ **Direct WAL link** | **Nano holds 4 deeds of trust ($28.04M original face) SENIOR to WAL on 5 of the 10 collateral loans pleaded in WAL's verified complaint (8/18/2025)**: Moreno Valley ×2, Ontario, Chino, Bellflower; NODs on two recorded 5/20/2025. Whether WAL had already bought them (inside its $64M of senior liens) is **UNKNOWN**; if not, they are now FDIC-receivership assets | WAL v. Cantor Group V verified complaint ¶¶44–88 · KB-WAL-202 | A2 |
+| **Recovery read** | Slower near-term; potentially better on the senior-lien leg (the FDIC must sell); marginally worse on the guaranty leg (the FDIC-R competes for Marcil/Stupin assets). **No new exposure; all inside the $72.4M gross residual** | research file §3 | derived |
 
-This matters for WAL because it shows the fraud ring had institutional enablers, not just individual bad actors.
+**Why it matters for WAL (re-stated 9/27):** not "institutional enablers" as colour. Nano's **liens sit ahead of WAL's collateral**, so its failure hands those liens to a forced seller.
 
 ---
 
