@@ -55,7 +55,8 @@
 
 ### LAST SESSION (2026-09-27 Sun — Will: boot + news catch-up)
 - Boot clean (pull up to date; corrections rc 0; 2 inbox unprocessed — DAEDALUS market.py FYI, **PROME WQ-295 cadence ask: owes a `PROME/inbox/` packet, PROME suggests `EVENT-DRIVEN`**).
-- Sweep 9/24→9/27: **quiet.** FLNG rc 0 (none after 11981) · no insider forms after 8/14 · OZK $46.89 / KRE $71.55 (9/25 close) · SI 16.51M @9/15, DTC 17.6 (rising) · no analyst action after 9/8 · Q3 date unannounced · Spur→Apollo still TRD-only · BPRE ~38% below NAV · Horton still UNKNOWN (only listing is stale). → `research/threads/2026-09-27_CATCHUP_SWEEP.md`. STATUS tokens refreshed; **nothing moved.**
+- Sweep 9/24→9/27: **quiet.** FLNG rc 0 (none after 11981) · no insider forms after 8/14 · OZK $46.89 / KRE $71.55 (9/25 close) · SI 16.51M @9/15, DTC 17.6 (rising) · no analyst action after 9/8 · Q3 date unannounced · Spur→Apollo still TRD-only · BPRE ~47% below NAV @9/3 (derived; "38%" was Dec-25 vintage, corrected same day) · Horton still UNKNOWN (only listing is stale). → `research/threads/2026-09-27_CATCHUP_SWEEP.md`. STATUS tokens refreshed; **nothing moved.**
+- **PM re-sweep (Will, 17:56 ET):** nothing new — FLNG rc 0, no insider forms, no Q3 date (aggregators still say 10/15, estimate), no IQHQ/Bisnow items after 6/22. Only change: the BPRE discount vintage fix.
 
 ### PRIOR SESSION (2026-09-24 — Will's catch-up, PROME's 5 tasks, CATO fixes, AM re-check, save-state)
 

@@ -117,7 +117,7 @@ Q2 partial charge-offs on 4 RESG loans = **$49.3M** (Seattle $22.3M + $3.7M, Atl
 1. 🔴 **Campus at Horton leasing check** — owed since late July; web searches on 9/24 and 9/27 found no lease, which does **not** discharge it (the only listing — Cushman, Bldg 200, 204,842 SF "Available" — is undated and still names pre-foreclosure owner Stockdale; needs SD trade press). The still-empty branch is what holds RaDD severity at 65-70%.
 2. 🟠 **Full read of the Q2'26 10-Q** (`raw/Q2_2026_10Q.pdf`) before the Q3 print.
 3. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
-4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; BPRE webinar 10/6. **Aimco v. IQHQ** — no ruling found (as of 9/27 web search; docket pull owed). BPRE trades ~38% below NAV.
+4. 🟡 **Bluerock/IQHQ marks** — last documented marks are H2'25 vintage; BPRE webinar 10/6. **Aimco v. IQHQ** — no ruling found (as of 9/27 web search; docket pull owed). BPRE traded **~47% below NAV** on 9/3 (derived from its 9/3 distribution release: 7.3% on NAV vs 13.8% on $11.91 → NAV ≈ $22.5; the "38%" is Bisnow's **Dec-2025** listing-day figure — corrected 9/27 PM).
 5. ⚖️ Will-gated, not applied: **P-OZK-1 / P-OZK-4 / P-OZK-5**.
 
 *Resolved July items (RESG "88%" phantom, Bluerock entity, 7/2 selloff, Boston sponsor, WAL-not-an-IQHQ-lender) → git history of this file + KB-195/196/197/198.*
