@@ -16,7 +16,10 @@ precedence: IMMEDIATE
 action: []
 info: ["REGINALD", "WAL", "CREED", "LIQUID", "DEWEY", "ORACLE", "PROME", "TERRY", "RED"]
 confidence: 0.85
+status: PARTIALLY-CORRECTED
 ---
+
+> ⚠️ **PARTIALLY-CORRECTED 2026-09-27 by `SIG-W-20260927-005`:** the WAL framing below is INCOMPLETE. Per WAL's own verified complaint (LA Superior 25STCV24263), **Nano Banc holds 4 deeds of trust ($28.04M original face) SENIOR to WAL on 5 of the 10 collateral loans WAL pleads**, so the link is direct, not only through the fraud (current holder of those liens UNKNOWN). Also corrected: "participant, not victim" (liable in one forum, cleared in another); the MOM CA Investco Ch.11 was dismissed in 2025 (not live); the Fed C&D was issued 1/18/2022 and terminated 3/20/2025. Closure, acquirer, size and DIF cost stand.
 
 # Nano Banc (Irvine, CA) failed Friday: a $736M bank, a ~$114M loss to the FDIC fund, and a fraud-ring link to WAL that is indirect
 
