@@ -13,7 +13,7 @@
 > ### ✅ RAISE WITH WILL AT BOOT — **nothing is Will-gated today.**
 > ⏱ **FFIEC PWS JWT expires 2026-11-05** (`PROME/WILL_QUEUE.md` row 31) — lands inside the Q3 10-Q window, so a lapse re-darks MI3 exactly when the Q3 re-test is due. **Raise from ~mid-October (≈10/13, with the print-date pin), not before.** Creds are on the **DESKTOP** only.
 
-**KB:** **204 rows / 20 distinct Group values** (+4 on 9/27: 201-204, Nano Banc — see §NANO BANC; +13 on 9/24: 188-200). **Q2 13F aggregate RUN 9/24** (KB-199: institutional ownership 84.7% → 90.0%, AQR-led; `research/Q2_13F_AGGREGATE_2026-09-24.md`). **Expiry backlog 61 → 0 past `Stale_By`** (all judged row-by-row 9/24: 37 SUPERSEDED with successor named, 24 extended with reasons; 41 rows still have a BLANK `Stale_By`; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
+**KB:** **207 rows / 20 distinct Group values** (+7 on 9/27: 201-207, Nano Banc + DEWEY fold — see §NANO BANC; +13 on 9/24: 188-200). **Q2 13F aggregate RUN 9/24** (KB-199: institutional ownership 84.7% → 90.0%, AQR-led; `research/Q2_13F_AGGREGATE_2026-09-24.md`). **Expiry backlog 61 → 0 past `Stale_By`** (all judged row-by-row 9/24: 37 SUPERSEDED with successor named, 24 extended with reasons; 41 rows still have a BLANK `Stale_By`; ⚠️ **KB-WAL-048 'loans pledged 74%' has a BASIS DEFECT — do not cite**). **Standing:** cohort RANK UNVERIFIED until REGINALD's 11/07 refresh · **KB-WAL-002/-003/-007 SUPERSEDED, incl. CRE/Tier-1 474% — NOT re-derived, do not cite** · ⚠️ `KB-WAL-180`'s "$79.89 close 8/20" is corrected by `KB-WAL-190` (settled close **$79.15**). | **Consensus:** Mod Buy | **Assets:** **$98.7B** (6/30/26 10-Q)
 
 ---
 
@@ -38,16 +38,17 @@
 
 ## NANO BANC FAILURE → CANTOR RECOVERY LEG (2026-09-27, PROME commission `17a205519`)
 
-**Record → `research/2026-09-27_nano-banc-receivership-stupin-recovery.md`** (accepted COMPLETE by PROME; KB-WAL-201…204).
+**Record → `research/2026-09-27_nano-banc-receivership-stupin-recovery.md`** (accepted COMPLETE by PROME; KB-WAL-201…207; DEWEY O1–O3 folded at §8).
 
 | Finding | Tier | Read |
 |---|---|---|
 | Nano Banc (Irvine; the Stupin/Makhijani-linked bank) **closed 9/25**, FDIC receiver, Sunwest acquirer, DIF ≈ $114M | A1 · KB-201 | Corpus "facing receivership" → CONFIRMED. Loss figure = REGINALD-owned → `../REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md` §3 (verified 9/27); never restated here |
-| ★ **Nano holds 4 deeds of trust ($28.04M original face) SENIOR to WAL on 5 of the 10 collateral loans in WAL's verified complaint (8/18/2025)** | A2 · KB-202 | **Direct lien-priority link**, not only "via the fraud". Whether WAL already bought them (inside its $64M senior liens) is **UNKNOWN** → DEWEY O1, the decision-bearing open item. If Nano-held at 9/25 → FDIC forced seller |
-| **Makhijani (Cantor V) arrested ~June 2026, ~$100M bank fraud on WAL**; trial set 8/11/2026 (C.D. Cal.) | A2 · KB-203 | Gap closed late. Status → DEWEY O2 |
+| ★ **Nano holds 4 deeds of trust ($28.04M original face) SENIOR to WAL on 5 of the 10 collateral loans in WAL's verified complaint (8/18/2025)** | A2 · KB-202/205 | **Direct lien link.** **DEWEY O1 (9/27): Ontario + Chino STILL NANO** ⇒ FDIC receiver's (Ontario ahead of WAL; on Chino WAL appears SENIOR, inference). Moreno Valley + Bellflower UNKNOWN. Observable: **Tue 9/29 1:30pm** Plaza Continental hearing |
+| ★ **WAL's Cantor suit was removed to bankruptcy court 6/25/2026 (remand motion 7/27); guarantor Stupin in Ch.11 since 4/17/2026, WAL claim ≈ $173.0M (unreconciled vs $98.6M); two debtors investigating avoidance of the Cantor V liens WAL holds; the FDIC now holds ~$27.7M of Marcil loans** | A2 · KB-206/207 | **Guaranty leg WORSE, collateral leg carries a NEW avoidance risk.** The 9/24 "no docket development" searched the wrong court |
+| **Makhijani (Cantor V) arrested ~June 2026, ~$100M bank fraud on WAL** | A2 · KB-203 | Trial **continued to 1/12/2027**; detained pending trial |
 | Fed C&D on Nano **terminated 3/20/2025** (issued 1/18/2022), not issued then | A1 · KB-204 | Corrects corpus/ML-REG-044; RETIRED_CLAIMS row |
 
-**WAL net:** slower near-term · potentially better on the senior-lien leg · marginally worse on the guaranty leg. **No new exposure; all inside the $72.4M gross residual (Q1 10-Q).** **WAL-01/02 + ROLL70-EXIT: NO CHANGE (9/27).** Q3 frames: no grading cell touched; the 10-Q frame §8 has one non-gating annotation.
+**WAL net (revised after DEWEY O1–O3):** slower · senior-lien leg MIXED · guaranty leg WORSE · NEW collateral-avoidance risk. **No new exposure; all inside the $72.4M gross residual (Q1 10-Q).** **WAL-01/02 + ROLL70-EXIT: NO CHANGE (9/27).** Q3 frames: no grading cell touched; the 10-Q frame §8 has one non-gating annotation.
 
 ---
 

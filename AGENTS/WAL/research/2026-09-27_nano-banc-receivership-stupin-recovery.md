@@ -10,7 +10,7 @@
 | Ask | Answer | Basis |
 |---|---|---|
 | **1. Arc** | "Facing receivership" → **CONFIRMED 9/25/2026** (DFPI closure, FDIC receiver, Sunwest acquirer). But **two of the corpus's other Nano claims are wrong or stale**: the "Fed C&D [Mar-4-2025]" (ML-REG-044 wording) was actually the **termination** (3/20/2025) of the 1/18/2022 order; and the MOM Investcos Ch.11 was **dismissed in 2025**, so it is not a live venue | §1 |
-| **2. Recovery mechanics** | ★ **The fleet framing "the WAL link is indirect, not a WAL loan to Nano" is incomplete.** WAL's own verified complaint (8/18/2025) shows **Nano Banc holds deeds of trust SENIOR to WAL on 5 of the 10 collateral loans it pleads — 4 DOTs, $28.04M face.** Those liens (if Nano still held them) are now receivership assets. **Net for WAL: slower near-term, potentially better on the senior-lien leg, marginally worse on the guaranty leg. No new loss mechanism; everything sits inside the existing $72.4M gross residual (Q1 10-Q).** | §2–§3 |
+| **2. Recovery mechanics** | ★ **The fleet framing "the WAL link is indirect, not a WAL loan to Nano" is incomplete.** WAL's own verified complaint (8/18/2025) shows **Nano Banc holds deeds of trust SENIOR to WAL on 5 of the 10 collateral loans it pleads — 4 DOTs, $28.04M face.** Those liens (if Nano still held them) are now receivership assets. **Net for WAL: slower near-term, potentially better on the senior-lien leg, marginally worse on the guaranty leg. No new loss mechanism; everything sits inside the existing $72.4M gross residual (Q1 10-Q).** ⤵ **UPDATED same day by DEWEY O1–O3 (§8): guaranty leg WORSE than "marginal" (Stupin in Ch.11 since 4/17/2026; the FDIC now holds ~$27.7M of accelerated Marcil loans), plus a NEW risk: two borrower debtors are investigating avoidance of the Cantor V liens WAL holds.** | §2–§3 |
 | **3. Peer facts** | REGINALD's forensics landed mid-session and are consumed in §7 (consistent; no conflict). DEWEY's pull had not landed by delivery. Nothing here depends on it. Two items were routed to them (§6) | §6 |
 | **4. WAL-01 / WAL-02 / ROLL70-EXIT** | **NO CHANGE (2026-09-27).** WAL-01 = office-classified at deck slide 12, and WAL-02 = ex-fraud NCO; **a Cantor charge-off is EXCLUDED from WAL-02 under W2 only when the filing EXPLICITLY attributes it to Cantor** (it did in Q1; no inferred adjustment). ROLL70-EXIT is a price letter (≥$81.90 ×3), and no filing or price rule keys on a third-party failure. **Q3 frames untouched.** The 10-Q frame §8 gets a dated, non-gating annotation (allowed until filing) | §4 |
 
@@ -130,3 +130,29 @@ The complaint pleads 10 "Fraudulent Title Report" collateral loans. For each, Ca
 - **The ONE shared figure REGINALD owns (his §3), CURRENT CITE (verified at his report :109, 2026-09-27 ~14:3x ET): the FDIC expects to lose ≈ $120M on Nano's assets beyond what the bank had booked by 9/22/26 ≈ 17% of $690.9M (9/22 books, net of allowance; range $110–120M).** Retained pool ≈ $215M; haircut **ceiling ≤ ~51–56%, unallocable** without the FDIC's bid terms (CREED §2a). *The 6/30 basis (≈ $153M ≈ 21%) is trajectory only; the $33M gap is Q3 loss the bank booked itself. Correction trail, same day: my first draft credited him with "DIF cost 15.5% of assets", which is the FDIC's $114M ÷ $736M; he then gave the 6/30 figure, then superseded it with the 9/22 base. Always name the base.* ⇒ **There is still no point estimate for any mark on Stupin-web collateral**; §3(b)'s "observable bonus" waits for an actual FDIC sale print, not this ceiling.
 - His grade of `ML-REG-044`: direction right; timing, cause-mix and severity not predicted. **The capital drain was litigation-driven; credit provisions were 22% of the 2025 loss.** ⇒ the corpus's "death spiral via inability to collect Stupin loans" is NOT what the Call Reports show. That supports this file's §1 narrowing. He independently traced the March-2025 date to an advocacy page (Issuu) and agrees the Fed order was terminated (my KB-WAL-204 has the Fed primary).
 - Lookalike screen: **WAL meets 0 of the 4 Nano legs** (book perimeter: no TERRY packet). Consistent with §4.
+
+---
+
+## 8. DEWEY O1–O3 folded (same day, ~15:xx ET) — `AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md` §4c/§4x (commit `6a90ca732`)
+
+*Read at DEWEY's artifact. DEWEY quotes the bankruptcy documents verbatim with doc numbers; WAL did not re-read PACER ⇒ tier A2. DEWEY's inferences stay labelled.*
+
+**O1 — the §2 state table resolved for two of four (KB-WAL-205):**
+
+| Nano DOT | State at ~9/11–9/25/2026 | Consequence |
+|---|---|---|
+| Ontario (3700 Inland Empire) | **STILL NANO, state (b).** Owed ~$5,131,969 behind Preferred ~$23,131,053. Nano was foreclosing (rents receiver Dec 2025) until the borrower's Ch.11 of 3/30/2026 stopped it | Passes to the FDIC receiver ⇒ **forced seller**, and WAL sits BEHIND it |
+| Chino (12233 Central) | **STILL NANO, state (b)** — but **junior to WAL**: liens "in favor of Western Alliance Bank and Nano Banc … ~$19.1 million"; Preferred "was then the senior lender" (2/2025) | *DEWEY inference:* WAL bought Preferred's senior Chino loan = the Q1 "$13M non-performing senior lien loan". On Chino the FDIC holds a JUNIOR position under WAL, which is favourable to WAL |
+| Moreno Valley (Alessandro, $9.72M 1st) | UNKNOWN. Owner Ch.11 8/18/2026 to halt a trustee sale; beneficiary unconfirmed | — |
+| Bellflower ($8.0M 2nd) | UNKNOWN (no LA online index) | — |
+
+**New facts this desk did NOT have (KB-WAL-206/-207):**
+1. ★ **WAL's Cantor suit left LA Superior on 6/25/2026:** removed as adversary **8:26-ap-01076-SC**; WAL moved to remand 7/27. KB-137's "no development found" searched the wrong court.
+2. ★ **Stupin (45% payment guarantor) has been in Ch.11 since 4/17/2026** (8:26-bk-11202-SC). **WAL Claim No. 5 ≈ $173,021,165.87.** Collection on the guaranty is stayed. ⚠️ The claim vs the $98,643,500 balance is **UNRECONCILED**; never infer the bridge.
+3. **Nano is Marcil's lender:** $19.18M + $8.5M, accelerated 5/1/2026. The FDIC-R now competes with WAL's 5% Marcil guaranty for the same assets (plus the $24.25M Security National judgment against Marcil).
+4. ⚠️ **Collateral-avoidance risk (NEW):** the Ontario and Chino debtors are investigating avoidance of the **Cantor V liens WAL holds as pledgee**. That is a direct, two-way risk to WAL's own collateral, independent of Nano.
+5. **O2:** Makhijani trial **continued to 1/12/2027** (status conf. 11/30/2026); detained pending trial 8/17. **O3:** MOM Investcos **dismissed 8/18/2025** (dkt 769).
+
+**Revised WAL net (2026-09-27, supersedes §3's net line):** **slower** (guarantor Ch.11 + a removed suit + receiver stays) · **senior-lien leg MIXED:** Ontario = an FDIC forced seller ahead of WAL (buyable); Chino = WAL already senior with the FDIC junior · **guaranty leg WORSE** (Stupin in Ch.11; the FDIC holds Marcil's loans) · **collateral leg: NEW avoidance risk**. **Still no new exposure beyond the carrying value ($72.4M gross, Q1 10-Q). WAL-01/02 + ROLL70-EXIT: NO CHANGE. Q3 frames: no grading cell touched.** V2 is excluded from the composite, so no score or weight moves; this raises the bar for any Q3 Cantor *recovery* cell without pre-judging it.
+
+**Observables / open:** Tue **9/29 1:30pm** Plaza Continental hearing (8:26-bk-10986): who appears for Nano's lien, the FDIC or Sunwest? · WAL's remand motion (8:26-ap-01076) · the $173.0M claim bridge · a **2-minute human recorder check** (Riverside + San Bernardino; reCAPTCHA-gated, spec in DEWEY §4x) for Moreno Valley · Bellflower needs an in-person LA RR/CC search.
