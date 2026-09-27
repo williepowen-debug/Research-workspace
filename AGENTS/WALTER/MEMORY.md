@@ -68,6 +68,9 @@
 
 32. **Describe a CONSUMER from the consumer's own code, never from the producer's.** 9/25: WALTER told PROME `intake_scan` surfaces NEW_WATCH_HIT because the LANE's alert list includes it. WALTER's own tool read only two classes, so every WATCH_FOR hit (FLG, HENRY, BROCK, SAM, then the WQ-295 lists) had never reached the worklist. Found only when PROME's KNOWN-key note sent WALTER to read its own call site. → fixed `tools/intake_scan.py` `cc9c14017`. `[[finding_verify_reader_before_source]]`
 
+33. **When a signal characterizes a SINGLE-NAME desk's exposure, read THAT desk's own record before stating the link, not the hub's KB row about it.** 9/27: `-004` framed WAL↔Nano Banc as "fraud exposure, NOT a loan to Nano, no new loss by itself" off REGINALD's secondhand Feb-2026 KB row; WAL's own verified complaint (on WAL's surfaces since 2025) showed Nano liens SENIOR to WAL on 5 of 10 pleaded loans. Two corrections in 40 minutes (`-005`, `-006`). Same class as #7 (grep the owners), one level finer: the RIGHT owner is the one whose exposure is being described. → `[[finding_verify_reader_before_source]]`
+34. **Never type a dispatch time into a Write-tool signal.** 9/27: all 7 dispatches stamped +8 to +73 min AHEAD of their own commits; the doctor caught it at closeout, and only because some were still in the future. → `[[finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock]]` (n+1 appended 9/27)
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -79,17 +82,16 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-25 Fri, Full WALTER (Claude Opus 5.5, `walter-9c`), Tier-2
+### CHANGES SINCE LAST SESSION — 2026-09-27 Sun, Full WALTER (Claude Opus 5.5, `walter-42`), Tier-2
 
-- **BOARD 1042 → 1056 (14 dispatches, 4 kills).** Fires: `HANS-T-10` France (`-001`, HANS-confirmed) · GATE-BRK-R2 (a) North Haven (`-012`). HY OAS 280 at the line (`-011`; X1 CLOSED per `-013`). Gilt near-trigger `-010`. Brightline FL Ch.11 → CORAL (`-014`).
-- **Built the WQ-295 R3 harness** (`tools/watch_for_harness.py --live`) and tested 8 desks' watch lists. **Fixed `intake_scan`, which had NEVER surfaced WATCH_FOR hits.**
-- **Self-caught errors:** 12 lane-only false passes; the consumer described from the producer's code; a stale arbiter relayed; a 5h inbox gap. Findings #30–#32. The previous session (9/24) is in `SESSION_LOG.md`.
+- **BOARD 1056 → 1063 (7 dispatches, 0 kills).** `-001` GATE-LIQ-069 (with Will's WQ-301 block) · `-002` CCC/HY re-arm · `-003` CREED-T-08a · `-004` Nano Banc failure, **corrected twice** (`-005` WAL liens, `-006` $108M/retained/loss basis) · `-007` Iran 7-day plan / Trump "not acceptable".
+- Iran anchor: diplomacy-limb re-verify + verbatim size rotation (ADD#27 lifted first). R3 queue opened (`research/2026-09-27_R3-watch-for-test-queue.md`, 5 sets).
+- **Self-caught errors:** the -004 WAL framing (#33); 7 future timestamps (#34). The previous session (9/25) is in `SESSION_LOG.md`.
 
 ### NEXT SESSION
 1. `LAST_COMPLETION.md` FOLLOW-UP + OPEN DESIGN DECISIONS = the complete obligation list.
-2. **7e:** the lane's 9/25 HY red onset is COVERED by `-011`/`-013`: **`--mark`, do not re-push.** Watch hits now surface per item (~1.6/day from the old lists), so triage them.
-3. **Compute the matched Nov/Dec/Jan Brent 3:2:1 at 6c** until a scanner leg exists (recipe in `-0924-001`). BZX26 expires 9/30.
-3b. 🔴 **PULL ALL SIX HANS scannable-daily rows at 6c, gilts included (T-06 UK 10Y, T-13 UK 30Y: TradingEconomics pages = HANS's basis).** The charter already requires this and boots kept skipping it. On 9/25 both gilts were ~11bp under orange (`-010`), found by accident. **Promised to Will 9/25 (Telegram msg 4679).** Italy T-09 and storage T-08 too, or name them as NOT pulled.
-4. **Re-scan `inbox/` at every task boundary** (the 9/25 5h gap).
-5. **FLG rent-freeze manual search** through 10/07. FRED is T+1: quote the print date with any distance.
-6. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Russia diesel-ban expiry, Brent Nov expiry. **Next Iran full sweep ~10/01** (+ the 8/28 Hormuz date trap).
+2. **7e: the 9/26 lane worklist was NOT routed and NOT `--mark`ed.** Route/kill: Perm + Ukraine refinery strikes (OSPREY action, HENRY watch hit), UMich 51.7 (HENRY info), stale kills (Tlaib Jun, SVB review, CMBS Apr, Novorossiysk Jul, TrendForce Jun, layoffs settlement). The Iran/Yanbu items went in `-007`. HY 280 is covered by `-0925-011/-013`. Then `--mark`.
+3. **7f: TWO drop-zone items** — `BESSENT bond buying context.JPG` (triaged: the face-value debt-limit mechanism is sound; the statute image's $14.29T is stale; RED-FT-11 buyback lane → BOND) and a NEW `AI Agent bank run.jfif` (unread).
+4. **R3 queue due 10/02** (5 sets). **HY 9/25 print Mon 9/28** (FT-01 exit day 2?). **Stamp from `date` in the same command.**
+5. **6c: pull all six HANS rows** (done 9/27 via TE page descriptions — works with a browser UA; storage T-08 still unpulled). Compute the matched Nov 3:2:1 until BZX26 expires ~9/30.
+6. **9/30:** size checks (MEMORY / THRESHOLD_SCAN / routing files / anchor), Russia diesel-ban expiry, Brent Nov expiry. **Iran full sweep ~10/01.**

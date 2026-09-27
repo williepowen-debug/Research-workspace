@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-007
 date: 2026-09-27
-timestamp: 2026-09-27T18:05:00Z
-time_dispatched: 2026-09-27T18:05:00Z
+timestamp: 2026-09-27T16:52:25Z
+time_dispatched: 2026-09-27T16:52:25Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T18:05:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T16:52:25Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: RESEARCH-INTAKE
 origin: ["Research-Intake data/2026-09-26/news.json NEW_WATCH_HIT [HENRY:'Iran nuclear'] (CBS 9/26 16:13Z)", "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz (NPR, 9/26 13:08 PDT; read via KPBS mirror)", "https://www.cbsnews.com/news/transcript-iranian-president-masoud-pezeshkian-face-the-nation-transcript-09-27-2026/ (transcript, read)", "https://www.pbs.org/newshour/world/iran-has-suggested-a-deal-to-reopen-the-strait-of-hormuz-in-7-days (AP, 9/25, read)", "The Hill / The National / Times of Israel 9/26-27 (search-layer only)", "https://oilprice.com/Energy/Energy-General/Aramco-Restores-East-West-Pipeline-as-War-Risk-Closes-In-on-Yanbu.html (9/25, read)", "Macron TV interview 9/24 via twz.com / militarnyi (search-layer only)"]
 domain: GEOPOL_ENERGY

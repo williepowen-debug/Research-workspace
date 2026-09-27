@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-004
 date: 2026-09-27
-timestamp: 2026-09-27T16:35:00Z
-time_dispatched: 2026-09-27T16:35:00Z
+timestamp: 2026-09-27T16:27:03Z
+time_dispatched: 2026-09-27T16:27:03Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T16:35:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T16:27:03Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: PROME
 origin: ["cross-session message prome-09 -> walter-42, 2026-09-27 ~16:2xZ (signal-source pointer; PROME routes nothing)", "https://www.fdic.gov/news/press-releases/2026/sunwest-bank-assumes-all-deposits-and-certain-assets-nano-banc-irvine (read by WALTER 9/27)", "https://dfpi.ca.gov/press_release/california-seizes-nano-banc/ (read by WALTER 9/27)", "PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md §1 (PROME's primary reads: BankFind, Call Reports, American Banker 9/25 21:17 ET)", "AGENTS/REGINALD/workbook/KB.tsv ML-REG-039, ML-REG-044"]
 domain: BANK_CRE

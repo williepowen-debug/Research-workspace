@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-003
 date: 2026-09-27
-timestamp: 2026-09-27T16:05:00Z
-time_dispatched: 2026-09-27T16:05:00Z
+timestamp: 2026-09-27T15:57:35Z
+time_dispatched: 2026-09-27T15:57:35Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T16:05:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T15:57:35Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: CREED
 origin: ["AGENTS/WALTER/inbox/2026-09-26_from-CREED_mirror-reconciled-2-cells-fixed-DC-CMBS-unresolved-source-and-the-August-Trepp-PDFs-are-PUBLIC.md §4 (afbf56264)", "AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv (CREED-T-08a row, 2026-09-26)", "AGENTS/CREED/registry/THRESHOLDS.tsv CREED-T-08a"]
 domain: BANK_CRE

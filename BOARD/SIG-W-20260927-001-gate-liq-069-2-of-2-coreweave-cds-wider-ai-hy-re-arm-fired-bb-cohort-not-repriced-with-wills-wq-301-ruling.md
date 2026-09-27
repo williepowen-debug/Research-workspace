@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-001
 date: 2026-09-27
-timestamp: 2026-09-27T16:05:00Z
-time_dispatched: 2026-09-27T16:05:00Z
+timestamp: 2026-09-27T15:57:35Z
+time_dispatched: 2026-09-27T15:57:35Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T16:05:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T15:57:35Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: LIQUID
 origin: ["AGENTS/WALTER/inbox/2026-09-26_from-LIQUID_GATE-LIQ-069-2of2-NEXUS-flag.md (63b77a55b, 15:16 ET 9/26)", "AGENTS/WALTER/inbox/2026-09-26_from-PROME_LIQ-069-flag-must-carry-WQ-301-ruling-before-forwarding.md (cebdbb52b, Will's word 18:38 ET 9/26)", "PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md (WQ-301 ruling text, verified by WALTER)", "AGENTS/LIQUID/analysis/2026-09-26_liq069-leg2-grade.md"]
 domain: FUNDING_LIQUIDITY

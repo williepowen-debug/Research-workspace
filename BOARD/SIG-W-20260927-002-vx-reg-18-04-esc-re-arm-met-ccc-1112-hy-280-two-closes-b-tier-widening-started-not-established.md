@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-002
 date: 2026-09-27
-timestamp: 2026-09-27T16:05:00Z
-time_dispatched: 2026-09-27T16:05:00Z
+timestamp: 2026-09-27T15:57:35Z
+time_dispatched: 2026-09-27T15:57:35Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T16:05:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T15:57:35Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: REGINALD
 origin: ["AGENTS/WALTER/inbox/2026-09-26_from-REGINALD_SIGNAL-VX-REG-18.04-ESC-RE-ARM-MET-9-24-CCC-1112-HY-280-escalation-to-LIQUID-BROCK.md (052e847ff, ~18:3x ET 9/26)", "AGENTS/REGINALD/reports/2026-08-13_ccc-hy-escalation-standdown.md §2", "FRED BAMLH0A3HYC + BAMLH0A0HYM2, WALTER pull 2026-09-27 (API and fredgraph CSV agree; latest observation 9/24)"]
 domain: FUNDING_LIQUIDITY

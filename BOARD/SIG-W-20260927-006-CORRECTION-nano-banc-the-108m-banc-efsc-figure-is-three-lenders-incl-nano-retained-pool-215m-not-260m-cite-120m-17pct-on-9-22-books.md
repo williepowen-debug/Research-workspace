@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-006
 date: 2026-09-27
-timestamp: 2026-09-27T17:25:00Z
-time_dispatched: 2026-09-27T17:25:00Z
+timestamp: 2026-09-27T16:45:18Z
+time_dispatched: 2026-09-27T16:45:18Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T17:25:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T16:45:18Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: REGINALD
 origin: ["AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md (d8010b97f) L15-16, L110-118, L176, L189 (read by WALTER 9/27)", "cross-session pointer prome-09 -> walter-42, 2026-09-27"]
 domain: BANK_CRE

@@ -1,8 +1,9 @@
 ---
 signal_id: SIG-W-20260927-005
 date: 2026-09-27
-timestamp: 2026-09-27T17:05:00Z
-time_dispatched: 2026-09-27T17:05:00Z
+timestamp: 2026-09-27T16:37:39Z
+time_dispatched: 2026-09-27T16:37:39Z
+timestamp_note: "re-stamped 2026-09-27 at closeout from 2026-09-27T17:05:00Z (typed from felt time, AFTER the commit) to the first-commit time 2026-09-27T16:37:39Z, the clock-true upper bound; walter_doctor future-timestamp HIGH"
 source: WAL
 origin: ["cross-session pointer prome-09 -> walter-42, 2026-09-27 (relaying WAL's delivery)", "AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md §0-§3 (WAL-local commit 75ae6f693, not yet on origin; read by WALTER in the shared tree 9/27)", "Western Alliance Bank v. Cantor Group V et al., Verified Complaint, LA Superior 25STCV24263, 2025-08-18 (per WAL, tier A2 via a third-party document host)"]
 domain: BANK_CRE
