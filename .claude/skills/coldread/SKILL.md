@@ -6,6 +6,8 @@ user-invocable: true
 
 # /coldread — blind cold-reader pass (PROME)
 
+> ⛔ **WITHHELD (Will 2026-09-26 20:16 ET, L511):** steps 2, 4 and 5 below were changed after the final independent read and are UNVERIFIED — do not rely on their wording; **`PROME/CLAUDE.md` § Session Process Controls → Review budget governs**. The read-only execution check of this runner is INCOMPLETE (4 of 6 steps passed on the version checked). Record `PROME/proposals/2026-09-26_L511-review-budget-RULED.md`.
+
 The reader knows nothing by design. Its value is that ignorance. Do NOT brief it on the system.
 
 1. **Spawn `coldreader`** with exactly: the artifact path, and (optionally) the list of claims you expect it to carry (numbered). Nothing else. `isolation` not needed — it is read-only.

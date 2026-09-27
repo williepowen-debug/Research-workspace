@@ -121,3 +121,30 @@ Each post-read edit narrows toward the canon text that read 3 verified, so none 
 13. The step-5 spawn doesn't name opus (exec Q5).
 
 Full reader ledger: session scratchpad `l511result.md` (session-local; this section is the durable summary).
+
+## Acceptance (Will, verbatim, 2026-09-26 20:16 ET, pasted in-session)
+
+> Accept the delivery and stop this review episode. No fifth read or further repair round.
+>
+> Preserve the separate dispositions:
+>
+> - Canon: independently verified with the declared residue.
+> - Runner and closeout changes after the final read: implemented, independently unverified.
+> - Required execution validation: incomplete; four of six steps passed on the version checked.
+>
+> Withhold the affected unverified guidance from operational use and use the verified canonical rule as the governing reference. Carry that limitation and the incomplete execution check in the next authorized continuity write. L511① may be marked implemented, but must not imply the whole procedure is verified or executable.
+>
+> At the next rotation, the canonical requirement for a plan read still applies even though the closeout recipe omits it. Declaring that omission as a warning does not waive the requirement.
+>
+> No new process project follows from the remaining residue.
+
+**Applied 20:1x ET:**
+- ⛔ WITHHELD markers added at the top of `/coldread` (both copies, identical) and on the "Stop and budget" sentence in `CLOSEOUT_PROCEDURES.md:14`. Each points to `PROME/CLAUDE.md` § Review budget as the governing rule.
+- The withheld wording is left in place, marked. It is neither deleted nor re-worked, per "no further repair round".
+- DOCKET L511 ① now reads IMPLEMENTED, with the three dispositions kept separate, the carry obligation and the plan-read requirement.
+
+**Carried to the next authorized continuity write (SCRATCH/STATUS at closeout):**
+- the withholding and the incomplete execution check;
+- the plan-read requirement at the next rotation.
+
+The episode is CLOSED.
