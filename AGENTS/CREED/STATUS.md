@@ -51,7 +51,7 @@
 | 24 | 🆕 **`PRED-CREED-005` — ARI liquidation vote 2026-09-29** | 🟠 grade on the 8-K Item 5.07 | `workbook/PREDICTIONS.tsv` |
 | 25 | 🆕 **Grade the September Trepp print on `registry/PREREG_2026-10_TREPP_PRINT.md`** (DQ ~10/01; SS ~mid-Oct). September **cannot fire `T-01a`** | 🟠 dated | the PREREG §6 |
 | 26 | **`workbook/VX.tsv` read-cap breach** (58,030 B = 178% of budget, 107% of the HARD cap at 9/26 boot-of-closeout) | ✅ **FIXED 2026-09-26 — notes hot/cold split:** full notes verbatim + crc to `notes/VX_NOTES.md` (on-demand); VX.tsv **20,778 B = 64%**; 16 caveat-critical hot cells hand-written. **Write new notes to `notes/VX_NOTES.md`, not the cell** | `CLAUDE.md` step 7 · `MAINTENANCE.md` |
-| 27 | 🆕 **Nano Banc re-check** — REGINALD's forensics §3 and DEWEY's possession-order read were UNCOMMITTED when CREED consumed them. If either changes at commit, re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1b/§2a (PROME will signal). Then the FDIC sale → grade as an S6 comp by lien position | 🟠 open · DOCKET **L515** (check-by 2027-06-25) | `KB-CREED-042` |
+| 27 | 🆕 **Nano Banc re-check** — REGINALD's forensics §3 and DEWEY's possession-order read were UNCOMMITTED when CREED consumed them. If either changes at commit, re-check `analysis/2026-09-27_nano-banc-collateral-read.md` §1b/§2a (PROME will signal). Then the FDIC sale → grade as an S6 comp by lien position | ✅ **re-check DISCHARGED 9/27** — REGINALD `d8010b97f` + DEWEY `6a90ca732` committed figures match (analysis §6). 🟠 **Still open:** the FDIC sale → DOCKET **L515** (check-by 2027-06-25); the 9/29 Ontario hearing (8:26-bk-10986) shows retained vs sold for one lien; P&A ~10/05–10/09 | `KB-CREED-042` · analysis §6 |
 
 ---
 

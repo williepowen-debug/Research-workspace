@@ -13,7 +13,7 @@
 2. **The loans that can be named are litigated fraud-web credits**, several of them **second liens**, on Inland Empire and LA County **neighbourhood retail, medical office and a small 1964 apartment building**. They are not Laguna Beach hotels (a stale premise, now corrected) and not office towers. **None is confirmed to be in the retained pool.**
 3. **The loss:** REGINALD's figure, cited: **≈ $120M beyond the bank's own 9/22 books, ≈ 17% of assets.** On the retained pool that is a **ceiling of ≤ ~56%**, not a haircut. It sits inside the 2026 distressed-CRE range (CMBS dispositions 35% all types / ~49% office YTD). But the property types, lien positions and fraud origin do not match any comp, so **it is consistent with the 2026 severity distribution, not confirmation of it.**
 4. **The thing to wait for** is the FDIC's sale of the pool, typically 3–9 months out: an actual clearing price on California bank-held CRE. It will be recorded **by lien position**, because a second lien's price is not a property mark. **Draft DOCKET row and WATCH_FOR terms: §3.**
-5. **Refinancing at 10Y 5.18%:** at least **27%** of September's maturing CMBS loans fall below 1.0× coverage on any spread assumption, and **~36–51%** do on an amortizing loan. 2027 is not answerable from what is held. A Nano-style sale does not move this read (§4).
+5. **Refinancing at 10Y 5.18%:** at least **27%** of September's maturing CMBS loans fall below 1.0× coverage on any spread assumption. **~51%** do on an amortizing loan at the middle/high spreads (slightly fewer at 175bp); the full-year ~36% is June-vintage and its count-vs-balance basis is unknown. *(Bounded on CATO NB4, 9/27.)* 2027 is not answerable from what is held. A Nano-style sale does not move this read (§4).
 6. **No CREED letter, score, band or trigger moves** (§5).
 
 ## §1. What is in the assets the FDIC kept (≈$215M on the 9/22 base; ≈$260M on 6/30)
@@ -165,7 +165,7 @@ Honarkar | Laguna Beach (Nano's ~$20M loan, B3) | CREED info + REGINALD (ZION li
 
 ⇒ **Answer, bounded:**
 - **Below 1.0× on ANY assumption in the band (interest-only or amortizing):** at least the debt-yield-<6% bucket. That is **27% of the September cohort**. No full-year figure is held.
-- **Below 1.0× on an amortizing refinance at every spread in the band:** approximately the debt-yield-<8% bucket. That is **~36% of the 2026 hard-maturity wall** (June-vintage figure, count-vs-balance unstated) and **51% of the September cohort**. On interest-only terms the 7–8% slice straddles 1.0×, so this is an upper-side reading for IO.
+- **Below 1.0× on an amortizing refinance at the MIDDLE and HIGH spreads (225bp and 275bp; break-even 8.33% and 8.75%):** the whole debt-yield-<8% bucket, i.e. **51% of the September cohort** and **~36% of the 2026 hard-maturity wall** (June vintage; **count vs balance is an explicit unknown**). ⚠️ **NOT at every spread:** at 175bp the amortizing break-even is 7.93%, so the 7.93–8.00% slice covers at up to ≈ 1.008×. At the low spread the 8% bucket is therefore a slight OVER-count. On interest-only terms the 7–8% slice straddles 1.0× at every spread. *(Corrected 2026-09-27 on CATO NB4, `AGENTS/CATO/runs/2026-09-27_1300_nano-banc-fleet-review.md`, relayed by PROME. The original said "at every spread in the band", which the table's own 7.93% contradicts.)*
 - **Cannot refinance at the same balance at a normal 1.25× lender test:** everything below a ~9.9–10.9% debt yield. That is **more than half the September cohort by construction**, but CREED holds no <10% bucket, so the true share is **not measurable from what is on file**. These loans need cash-in paydowns, extensions, or they default at maturity. That is the maturity mechanism behind `CREED-T-02` and the August special-servicing transfers.
 - **2026–2027 combined: NOT answerable.** No 2027 cohort data is held.
 
@@ -189,3 +189,15 @@ Honarkar | Laguna Beach (Nano's ~$20M loan, B3) | CREED info + REGINALD (ZION li
 | **Any `PRED-CREED-*` row** | **No** | No CREED prediction references a bank failure |
 
 **No CREED letter, score, band or trigger moves on Nano Banc.** What changes is one watch item (§3) and, if REGINALD's severity figure holds (§2), one more data point that small-bank CRE marks in SoCal are deep where the book went bad.
+
+---
+
+## §6. Addendum 2026-09-27 (after delivery): DEWEY committed (`6a90ca732`)
+
+*Appended, not edited above. §1–§5 stand.*
+
+- **Re-check discharged.** The 9/22 balance-sheet figures CREED cited in §1b/§2a are **identical** in DEWEY's committed file ($690.9M · loans held for sale $97.1M · held for investment $322.1M · ACL $9.2M · equity $5.66M). REGINALD's committed §3 (`d8010b97f`) also matches (≈ $120M ≈ 17%; ≈ $215M; ≤ ~51–56%). **Nothing above changes.**
+- **§1c upgraded for two liens (DEWEY §4, from the borrowers' own Ch.11 filings, PRIMARY):** **Ontario (3700 Inland Empire Blvd) and Chino (12233 Central Ave) were STILL NANO's liens less than three weeks before the failure.** Moreno Valley is "leaning still-Nano" and Bellflower is UNKNOWN. That is **still not proof that they are in the retained pool** (the P&A settles it, expected ~10/05–10/09), but it removes the "sold before failure" branch for those two.
+- **Debtor-side marks (not FDIC marks; DEWEY §5):** Chino Towne Center, Feb-2025 appraisal ~$29M vs a **2026 broker range of $23.5–26.5M** (−9% to −19%), total liens ~$19.1M. Nano's second lien there looks **covered at the broker range**, unlike Bellflower (§1c). Hotel Laguna: a $27.0M first lien (Banc of California) against an $82.0M value (MOM CRO table), a lien CREED does not attribute to Nano.
+- **DEWEY's named total is ≈ $93M face/stated** (Marcil $19.18M + $8.5M; MOM JV $20M, which the arbitrator says may be set aside; the Stupin-web liens). ⚠️ **§1c's "do not sum" still applies.** It is face or stated, not current balance.
+- **🔴 Observable in 2 days, added to the §3 watch:** the **Plaza Continental hearing, Tue 2026-09-29 1:30 pm (C.D. Cal. Bankr. 8:26-bk-10986, Judge Houle).** If "FDIC as Receiver for Nano Banc" appears for the Ontario lien, that lien is in the **retained** pool. If Sunwest appears, it was **sold**. This is the first per-loan answer to §1, before the P&A.
