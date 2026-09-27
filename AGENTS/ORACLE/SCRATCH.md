@@ -1,76 +1,58 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-09-25 (Fri) ~01:2x ET (05:1xZ) · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Sessions: 9/24 evening full update (below) **+ late boot 9/24 23:38 ET → 9/25 closeout at PROME's ask (WQ-249)**.
+**Last updated:** 2026-09-27 (Sun) 12:3x ET (16:3xZ) · **Box:** DESKTOP, authed Kalshi lane LIVE (`kalshi.py status` rc=0) · Session: boot 12:20 ET at Will's ask ("catch up … pull updated numbers … report back"), then a PROME-commissioned bounded read (`prome-09`, Nano Banc), closed out at PROME's WQ-249 ask.
 
-## LATE SESSION (9/24 23:38 ET → 9/25 ~01:2x ET) — no re-pull, market levels unchanged
+## CHANGES SINCE LAST SESSION (9/25 ~01:2x ET → 9/27)
 
-1. **Boot:** 0 behind origin; PROME + VIOLET dirty, so no pull. Corrections rc=0; Kalshi rc=0; inbox empty.
-2. **KXRECSSNBER-26 rules read (4th-carry item, closed):** no NBER leg, GDP rule only. KB-ORC-099; 096 CORRECTED; watchlist relabelled; packet → RED `89363b3b7` (on origin, UNCONSUMED; RED on PROME's 9/25 L416 spawn set). Commits `101b762c0`, `89363b3b7`.
-3. **PROME item 4 (Will-directed 01:01 ET):** Oct-hike aligned with HENRY in expected bp at 15:00 ET 9/24: futures +18.0 / PM +16.5 / Kalshi +16.1–16.6bp; P(hike) + event basis unmatchable → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`, KB-ORC-100 (097 SUPERSEDED). Recession rows flagged different-definition (STATUS, TRADE). Reply → PROME/inbox. Commits `c3695ad88`, `10dd58929`.
-4. **Auto-memory extended:** `finding_instrument_reports_clean_against_the_wrong_reference` (15th instance: ticker ≠ resolution rule). HOT, so no promotion flag owed.
-5. **Ledger nudge (5 behind):** no pull this session, so ODDS_LOG/KALSHI/SPREAD/VX/TRADE_MARKS were not refreshed by design. TRADE_MARKS (7 behind) stays on the NEXT list.
-
-## CHANGES SINCE LAST SESSION (9/24 afternoon drain → 9/24 evening)
-
-- **PROME packet** (committed `6f2c3a38a`): three "$100" strings in `tools/disruption_supply_spread.py` → **fixed** (L78, L81, L238). Doorbell received from `prome-1f`.
-- **Tape:** Fed Oct hike 50.5 → **66.5** (PM) / ≈65 (Kalshi); 10Y **5.1% rung settled**; first **US–Iran round 9/22** (UN, Qatar-mediated); Hormuz ship-targeting legs settled/near-settled 9/18, 9/21, 9/23; recession PM 8.5 → **10.5**.
+- **Nano Banc (Irvine CA, $736M) failed Fri 9/25**, the 6th US failure of 2026. PROME/REGINALD/CREED investigation live today (`PROME/plans/2026-09-27_nano-banc-failure-investigation-PLAN.md`).
+- **Tape:** Fed Oct hike PM 66.5 → 64.5 / Kalshi 67 → 63 · Sept CPI `>3.6` 46 → 36.5 mid · recession PM 10.5 → 8.5 · ceasefire-thru-9/30 85.5 → 94.5 · next US–Iran meeting by 12/31 69 → 77.5 · October WTI ladder listed ($110 24.5%).
 
 ## WHAT I DID
 
-1. **Boot:** no pull needed — 0 behind origin (1 ahead = PROME's unpushed `6f2c3a38a`); other desks dirty (HENRY, PROME, HEARTBEAT) so pull was barred anyway. Corrections check **rc=0**. Inbox 1 → 0 (`processed/`, board_log row).
-2. **Script fix** (PROME ASK) — see MAINTENANCE 2026-09-24 (evening).
-3. **Dual-venue pull:** Polymarket `pull --log` 51 + new-pin rows; Kalshi 13 → 14 tickers; `history --write` 8,155 rows; `movers` (11 hits → one pinned); **`coverage` run** (5 hits, same themes as 9/17, nothing pinned; next due ~10/01); `metrics.py collapse` clean; spread **v5 row 2 +74.10pp**.
-4. **Rolls:** PM — Aug CPI → Sept CPI · Hormuz weekly → wk-of-9/21 · Saudi by-date → on-date (basis change) · BOJ Sept retired. Kalshi — Fed Sept → Oct `>4.00` + Dec `>4.25` · Aug CPI ×3 → Sept `>3.5/>3.6/>3.7` · BOJ Sept → Oct. **New pin:** US–Iran next senior meeting.
-5. **Records:** KB-ORC-093 (Fed), 094 (10Y), 095 (Iran talks vs tempo), 096 (recession gap). VX-ORC-02/04/08 refreshed (08: Alert cell >66% met on PM, one print, not re-graded). STATUS fully re-tabulated (51% of read-cap), NEXUS_BRIEF rewritten, MAINTENANCE appended.
-7. **"Go deeper" pass (Will):** Fed drivers + CME gap (KB-ORC-097); Iran ultimatum + two new ladders (KB-ORC-098); **fixed `coverage`/`movers` silent 100-row cap** (MAINTENANCE late entry); outbox signals → LIQUID/BOND/HENRY/RED and HAWK/BRENT/FALCON. A second full `pull --log` re-logged the watchlist ~40 min after the first (10-min guard expired) — duplicate snapshot rows, harmless.
-6. **Verified externally:** 9/22 talks — Axios, Times of Israel, Israel Hayom, ANI. ⚠️ Witkoff: US side talked **through mediators**; PM resolved "attend" YES anyway.
+1. **Boot:** 0 behind origin; WALTER + PROME + CREED dirty ⇒ no pull (none needed). Corrections rc=0 (1 ALL-row broadcast warn, COR-20260925-13, warn-never-block). Kalshi rc=0.
+2. **Dual-venue pull** 16:20Z: PM 52 rows, Kalshi 14/14, v5 row 3 **+78.2pp** (Sept leg decay). Iran ×3, Fed count, CPI, 10Y, 30Y, end-rate and named-bank event drill-ins.
+3. **Bank-failure read (PROME packet 12:24 ET):** NONE priced on either venue; the any-bank Dec-31 market resolved YES on Nano, reactive (19:08 ET first repricing trade), priced below the 2026 base rate on a $4.1K book. → `analysis/2026-09-27_bank-failure-markets.md`, KB-ORC-101, PROME packet. **PROME consumed it and accepted it as delivered** (note added: Sunwest release 19:45 ET; regulator time stays unverified). Commits `db4c7a588`, `0ccb6c527`.
+4. **Watchlist:** any-bank pin retired, and the 7/02, 7/22, 8/27 "delisted/relisted" notes corrected to **resolutions** · Hormuz weekly → wk-of-9/28.
+5. **WQ-295 reply to PROME:** `CADENCE: WEEKLY`. **WATCH_FOR coverage check SKIPPED** (list not located), carried below.
+6. **Closeout:** STATUS full rewrite (14.2 KB), NEXUS_BRIEF rewrite, this file.
 
 ## NEXT SESSION (dated, priority-flagged)
 
-0. **🔴 ~Tue 2026-09-29 — Iran's 5-day deadline.** Re-read the new ceasefire (thru 9/30 85.5%) and blockade-end (by 9/30 8.5%) ladders with `event` — the dashboard top leg is wrong for both (settled 9/20 rung / thin Mar-2027 rung). Fed Oct vs futures: **compare in EXPECTED bp at a matched time, never P(hike) vs a press FedWatch %** (KB-ORC-100, 9/25: 15:00 ET futures +18.0 / PM +16.5 / Kalshi +16.1–16.6bp; residual inside the event basis; 097 SUPERSEDED). HENRY owns the futures half.
-
-1. **🔴 Mon 2026-09-28 — DOCKET L299, October WTI $110 re-pin.** Search for an October $110 market; if listed, pin + **name the within-v5 roll rule before rolling** (v4 precedent: month rolls bumped REGIME). If none by the **2026-10-01T03:59Z** September close, **v5 dies — write it down; a new strike is Will's call.** Verify the inferred Active-Month switch (~Fri 10/16; CLX26 last trade Tue 10/20) at the contract. Script strings now say $110 (fixed 9/24).
-2. **🔴 Re-read the Fed Oct legs** — VX-ORC-08 Alert cell (>66%) met on ONE PM print (66.5) and ~1pt short on Kalshi. Second read before any re-grade.
-3. ✅ **DONE 9/24 late boot (2026-09-25T03:39Z) — `KXRECSSNBER-26` rules read: NO NBER leg** (2 consecutive negative BEA GDP quarters in 2025/2026). PM = same GDP rule OR NBER ⇒ gap structural. KB-ORC-099; 096 CORRECTED; watchlist relabelled; packet → RED (KB-RED-096 inherited the label). **Open:** does Kalshi count ADVANCE estimates? Neither rules field says — check the contract-terms PDF if a GDP print goes negative.
-4. **🟠 Propose v5 thresholds to PROME** (VX-ORC-04 Alert/Critical UNSET) — on the October leg, not the expiring September one. DAEDALUS PR#6 ① due **9/30** is sequenced on this.
-5. **🟠 ~9/28 roll Hormuz weekly → wk-of-9/28** (listed, $7.1K). **9/30–10/01:** 10Y/30Y Sept ladders, Houthi 9/30, Hormuz Sept ladders, Saudi on-date, Kalshi Brent Sep-30 all resolve — roll or retire each.
-6. **🟠 Sat 2026-10-10 (T-4) — re-read Sept CPI ladder** for the clean like-for-like vs August's T-4 (63.0 / 25.0 / 10.0). "+73pp" not quotable until done.
-7. **🟠 Kalshi Fed pins are keyed to the 4.00% upper bound** — re-key after the next Fed move (a cumulative rung is only a meeting proxy relative to the current bound).
-8. **🟠 Roll the Kalshi Iran-crude context column monthly** (next: October-production event when listed). OI 0 — never cite as a probability.
-9. **🟠 Sweep past ORACLE surfaces for a 50.0-mid citation off a settled Kalshi rung** (KB-ORC-086) — open check, not a clean bill.
-10. **🟠 DAEDALUS F-1** — make `CLAUDE.md:201` executable (Brier per resolved market). Inputs exist (`ODDS_LOG`, `HISTORY` 8,155 rows, `TRADE_MARKS`). Best test case: the 9/07 Fed coin flip vs the 86¢ settle. Declare the short-dated-leg bias in its header.
-11. **🟡 Read NEH's resolution text** (open hypothesis below).
-12. **🟡 Recommend demoting the four Kalshi gap-fills to a DATED QUARTERLY re-check** (KB-ORC-089) — needs a CLAUDE.md edit ⇒ flag to PROME, do not self-edit.
-13. **🟡 `T6_PIN.tsv` — freeze it or drop it from `LEDGER_GLOB`** (5th slip; DAEDALUS F-2).
-14. **🟡 Owed to DAEDALUS (Tier-2): the spec-has-implementation prototype.**
-15. **⚪ Archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`** (mutual-reference pair).
+0. **🔴 Mon 2026-09-28: DOCKET L299, the October WTI $110 roll.** Market exists: `will-wti-reach-110-in-october-2026` (24.5% @9/27, $9.1K event, **thin**). ⚠️ **Pinning it auto-rolls the supply leg** (`SUPPLY_PREFIX` match in `tools/disruption_supply_spread.py`) **without a REGIME bump**. So in ONE edit: pin + bump `REGIME` (v4 precedent: every month roll bumped it; a fresh month-start contract is structurally higher) + a MAINTENANCE entry. Verify the Active-Month switch (~10/16; CLX26 last trade 10/20) at the contract. The thin October book affects the spread's quality; state it on the first row.
+1. **🔴 ~Tue 9/29: Iran deadline.** Re-read the ceasefire / blockade-end / next-meeting ladders with `event` (the dashboard top leg is wrong for all three). The 9/30 legs resolve Wed.
+2. **🟠 Every pull: re-search for a relisted any-bank successor** (`search "bank fail"` + Gamma `public-search` active). Past relist gaps: 58d / 10d / 3d. When one lists, pin it AND send WALTER the `bank failure` watch phrase (PROME's 9/27 condition). Monday 9/28 open read of the named-bank legs was asked "if you run again".
+3. **🟠 By 2026-10-04: WQ-295 WATCH_FOR coverage check**. Locate ORACLE's WATCH_FOR list (not in `AGENTS/ORACLE/`; try WALTER's watch registry / `SIGNAL_INTAKE.md`) and confirm each registered trigger (CLAUDE.md CROSS-AGENT SIGNALS table) has a phrase. Reported to PROME as SKIPPED.
+4. **🟠 9/30–10/02 resolutions:** 10Y/30Y Sept ladders, Houthi 9/30, Hormuz Sept ladders (avg transits, any-day), ceasefire-9/30, Saudi on-date (event ends 9/30), Kalshi Brent Sep-30, Kalshi Sept U3 (10/02). Roll or retire each.
+5. **🟠 ~10/01 coverage sweep** (`--domain` first) + `history --write` (not run 9/27) + `movers`.
+6. **🟠 Propose v5 thresholds to PROME** (VX-ORC-04 Alert/Critical UNSET), on the October leg. DAEDALUS PR#6 ① due **9/30**.
+7. **🟠 Sat 10/10: Sept CPI T-4 re-read** (like-for-like vs August's 63.0 / 25.0 / 10.0).
+8. **🟠 Kalshi Fed pins keyed to the 4.00% upper bound**: re-key after the next move. Pin `KXFED-26OCT >4.25` again if the differenced read is wanted (not in this pull).
+9. **🟠 Roll the Kalshi Iran-crude context column** monthly (OI 0: never a probability).
+10. **🟠 KB-ORC-086 sweep** (50.0-mid citations off settled Kalshi rungs). Open check.
+11. **🟠 DAEDALUS F-1**: Brier per resolved market. **New test case: the bank-failure family** (4 YES resolutions in 2026 with logged pre-failure prices).
+12. **🟡 Read NEH's resolution text.** 🟡 Demote the four Kalshi gap-fills to a quarterly re-check (flag PROME; CLAUDE.md edit). 🟡 Spec-has-implementation prototype owed to DAEDALUS. ⚪ Archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`.
+13. **🟡 TRADE_MARKS refresh** (`tools/trade_marks.py --write`), 7+ sessions behind.
 
 ## CARRY-FORWARD
 
-- **9/25 ~01:0x ET, PROME item 4 (Will-directed):** Oct-hike alignment with HENRY done → `research/2026-09-25_oct-hike-alignment-with-HENRY.md`; reply `PROME/inbox/2026-09-25_from-ORACLE_item-4-COMPLETION-…`. RED correction packet delivered, **unconsumed** (RED dark since 9/18). Staying live until PROME asks for closeout. **PROME (prome-fa msg, ~01:2x ET) read the reply:** nothing further owed; RED is on PROME's 9/25 L416 spawn set (whole-inbox drain), so ORACLE owes no separate RED touch.
-
-- **Push state (9/24 evening):** `e6a46f4db` (update) and `e89abef2c` (deeper pass) both PUSHED — safe-push CONFIRMED on origin/master. The closeout commit (NEXUS stamp, SCRATCH, auto-memory extension) is pushed at closeout; receipt in the message to Will. Nothing unpushed carried.
-- **Auto-memory extended:** `finding_truncation_returns_a_plausible_answer_not_an_error` (+ Gamma 100-row cap instance). HOT tier, so no promotion flag is owed.
-- **Concurrent sessions live on this box** (PROME `prome-1f`, HENRY dirty at boot). Path-scoped commits only.
-- **Standing framing — do not re-derive:**
-  - **Fed hiked 25bp to 3.75–4.00% on 2026-09-16** (Kalshi settle `result: yes`, 86.0¢ last; 12-0). KB-ORC-083.
-  - **v4 is history** ($100 leg settled YES; last valid +36.0pp 9/07). ⛔ Never compute `82.5 − 100 = −17.5pp`. **v5 at $110 since 9/24** (WQ-260).
-  - **Hormuz legs resolve on the IMF PortWatch PRINT, not throughput** (KB-ORC-079) — a detection failure and a real stoppage resolve identically.
-  - **Kalshi mid rule:** only when `result` empty AND OI > 0 (KB-ORC-086).
-  - **`⛔RESOLVED` flag is trustworthy since the 9/17 selector fix** (KB-ORC-090); `PINNED BUT NOT FOUND` still can't tell resolved from bad slug.
-  - **Three published σ remain retracted** (KB-ORC-064 → `CORRECTED`; `metrics.py verify`).
-  - **No lead-lag claimed** between Fed venues; CME FedWatch unreachable — do NOT re-attempt `WebFetch`.
-  - **Treasury par curve == DGS10 is unconfirmed** — BOND/TERRY own.
-- **`ledger_staleness` counts `HISTORY.tsv` but prints no row for it** — PROME's tool; reported, not patched.
-- **RED's transferable point, adopted:** a coverage gap and a delinquent owner look identical from outside — any matrix row with an empty "our thesis" cell >60 days gets a STRUCTURE question to the owner before another chase.
-- **NEXUS + RED owed the 71.5%→aggregate relabel** — NEXUS applied 8/28; RED's side still open.
-- **DAEDALUS owes me the three-window vocabulary; profile clock → 2026-10-20.**
-- **The coverage lesson (9/17), kept:** a pre-commitment to re-check is worth nothing without a session to honour it in — a deferral should name the date it becomes invalid or be escalated to someone awake.
+- **Push state:** closeout commit + `db4c7a588` + `0ccb6c527` pushed via safe-push at this closeout; receipt in the reply to PROME/Will. Nothing else unpushed.
+- **Concurrent sessions live on this box** (PROME `prome-09`, REGINALD, CREED, WALTER). Path-scoped commits only.
+- **Standing framing (do not re-derive):**
+  - Fed hiked 25bp to 3.75–4.00% on 2026-09-16 (KB-ORC-083). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
+  - v4 is history; ⛔ never compute `82.5 − 100`. v5 at $110 since 9/24 (WQ-260).
+  - Hormuz legs resolve on the IMF PortWatch PRINT (KB-ORC-079).
+  - Kalshi mid only when `result` empty AND OI > 0 (KB-ORC-086).
+  - **`PINNED BUT NOT FOUND` → query Gamma `closed=true` before calling it delisted** (the bank family's not-founds were all resolutions, KB-ORC-101).
+  - Recession venues use different definitions (KB-ORC-099); the RED correction packet is still unconsumed.
+  - Three published σ remain retracted (KB-ORC-064). CME FedWatch unreachable: do NOT re-attempt `WebFetch`. Treasury par == DGS10 unconfirmed (BOND/TERRY).
+  - Polymarket `prices-history` returns **empty for long spans at fidelity=60** (n=0 for month-long windows 9/27). Use ≤~10-day windows or ORACLE's ODDS_LOG. Python `urllib` gets **403** from CLOB (user-agent), so use `curl`.
+- `ledger_staleness` counts `HISTORY.tsv` but prints no row for it (PROME's tool; reported, not patched).
+- DAEDALUS owes the three-window vocabulary; profile clock → 2026-10-20.
 
 ## OPEN HYPOTHESES
 
-- **Iran — three axes, not two (updated 9/24).** Talks **opened** (first round 9/22; next by Dec 69%), the year-end Hormuz leg **ticked up** (17.5 → 22.5), yet near-term tempo **rose** (targeting settled/near-settled 9/18, 9/21, 9/23; 0–5 transits band 88.5%). Candidate read: attacks as leverage around the talks, priced as a near-term cost with a slightly better year-end. **Not a finding** — HAWK owns the reality; PortWatch caveat applies to every transit leg.
-- **What bid the oil supply tail? — partly answered by BRENT 9/23:** CLV26 closed >$100 on 9/14 (real price move). Cause INFERRED (Petroline strike 9/10–11; Yanbu loadings stopped from 9/11, single vendor Kpler). The $68.7M invasion contract still never reacted (14.5%, Δ30d −1).
-- **Recession gap = PM's extra NBER leg — STRUCTURALLY SUPPORTED (9/25).** Kalshi is the GDP rule alone; PM adds NBER-by-Q4-advance. ~5.0pp (10.5 vs 5.5 mid) is one venue's price on that leg + noise — not decomposed.
-- **NEH — complacency or a very high bar?** 82.5%, Δ30d +1, through a hike, $105 oil, a hot CPI and 10Y >5.1%. Resolution text unread.
-- **8/27 complacency decoupling — regime change, tilting further.** Best-asset S&P leg 53.5 (Δ30d +0), still ~14pp below August. The registered tell (gold retaking the lead) has not fired, and the NEH half of VX-ORC-09's tell is un-fireable.
+- **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Four 2026 instances priced 55–73% for multi-month windows while the realized pace implied ~90%+. Test in F-1 (Brier). Caveat: all $4–14K books.
+- **Iran: three axes.** Deadline priced as leverage; talks odds rising (next meeting by 12/31 77.5); near-term tempo legs thin. HAWK owns the reality.
+- **Recession gap = PM's extra NBER leg** (structural, not decomposed).
+- **NEH: complacency or a very high bar?** 82.5% flat through a hike cycle; resolution text unread.
+- **8/27 complacency decoupling:** S&P best-asset 56.5 (+2.0/7d); the registered tell (gold retaking the lead) has not fired.

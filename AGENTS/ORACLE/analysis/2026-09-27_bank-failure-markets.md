@@ -27,6 +27,8 @@
 | Named: US Bank fails by EOY 2026 | $9.1K vol · $2.4K liq | 3.2 | 4.3 @03:00 ET 9/26 | 4.3% | +1.1pp — inside noise |
 | Other 17 named legs (JPM, BAC, C, WFC, GS, MS, Truist, BNY, UBS, HSBC, DB, BNP, Santander, Lloyds, RBC, BMO, Scotia) | $509–$10.4K vol each | 0.9–3.2% | — | Δ7d −0.8 to +0.2 | **No** |
 
+**Timing anchors (added after PROME's consumer read):** the 19:08 ET first repricing trade also precedes **Sunwest Bank's own release (19:45 ET, prnewswire, per PROME)**. The FDIC/DFPI release time stays **unverified** by ORACLE.
+
 **Monday 9/28 open:** not yet observed. The any-bank contract no longer exists; re-read the named event and re-search for a relisted successor at the next pull.
 
 ## 3. The contract family in 2026: it pays out at each failure and gets relisted
