@@ -5,17 +5,40 @@
 
 ---
 
-## Key finding
+## BRIEF (read this first; everything below it is the evidence appendix)
 
-**The regulators' own orders describe two different failures in sequence.**
-- **2021–22 was governance and insider dealing.** The Fed's 2022 cease-and-desist cites "unsecured loans made to shareholders" and Section 23A/23B / Regulation W violations, and freezes all insider and CRE lending.
-- **2026 was capital and credit.** The March 2026 consent order covers CRE plus "unsecured loans to finance real estate", classified assets, late loss recognition, CECL, and wholesale funding.
-- **The seizure rests on capital alone.** The 9/25 order cites tangible equity of **$5.644M = 0.82% of assets on 9/22/2026**, below the 3% statutory floor, and the missed 120-day deadline. It makes **no governance or fraud finding**.
-- **"Self-dealing" appears only in the DFPI press release.** None of the nine DFPI orders or the five Fed orders uses the phrase, or names a borrower, a counterparty or a loan amount.
-- **The FDIC has not published the purchase-and-assumption agreement.** No loss-share is stated anywhere.
-- **The Material Loss Review is mandatory and belongs to the Fed Board OIG** ($114M > $50M, 12 U.S.C. 1831o(k)). Nothing is posted yet.
+*Structure note (2026-09-27, post-delivery): this brief is the only summary of findings in this file. The appendix (§§ Corrections, 1–5) holds the document extracts, verbatim quotes, chronology and sources that support it. Section numbers are unchanged from the delivered version, so existing citations to §1a, §4x and so on still resolve. If the brief and the appendix ever disagree, the appendix's primary quotes govern and the brief is the defect.*
+
+> ⚠️ **Correction, same day:** the O1 lien findings were overstated in the delivered version (see §4x). Nano's liens on Ontario and Chino are **dated observations (9/8–9/11 and 8/26), not proof of ownership at the 9/25 failure**. O1 is **NOT PROVEN** for all four DOTs.
+
+### What the documents establish
+- **The orders describe two problems in sequence.**
+  - 2021–22 was governance and insider dealing. The Fed's 2022 C&D cites "unsecured loans made to shareholders" and 23A/23B/Reg W violations, and freezes insider and CRE lending.
+  - 2026 was capital and credit. The March 2026 consent order covers CRE plus "unsecured loans to finance real estate", classified assets, late loss recognition, CECL and wholesale funding. §5(a)
+- **The seizure rests on capital alone.** Tangible equity was **$5.644M = 0.82% of assets on 9/22/2026**, below the 3% floor, and the 120-day deadline was missed. **No governance or fraud finding.** §1a
+- **"Self-dealing" appears only in the DFPI press release.** No DFPI or Fed order uses it, or names a borrower, counterparty or loan amount. §1g
+- **The only adjudicated finding that the bank joined the fraud is an arbitrator's:** Nano is J&S liable for **conspiracy / aiding-and-abetting** (Honarkar; confirmed 12/5/2025). The arbitrator also found the founder-shareholders "have borrowed over $100 million from the bank." §4a
+- **The Material Loss Review is mandatory** (Fed Board OIG; $114M > $50M). Nothing is posted. §3b
+- **Timeline:** the insider conduct (2020–21) preceded the Q2-2025 noncurrent break by ~4 years. The break coincides with the fraud's exposure. This is **medium confidence, by quarter-level timing, not loan-level linkage.** §5(c)
+
+### Per consumer: conclusion · uncertainty · where
+| Consumer | Conclusion | Uncertainty that could change it | Evidence |
+|---|---|---|---|
+| **REGINALD** (loss severity, owner) | The 9/22 balance sheet postdates every Call Report: equity $5.66M, other liabilities $8.4M, loans held for sale $97.1M. On 9/22 books the retained pool is ~$215M vs ~$260M on 6/30 | Which base the FDIC's "remaining assets" uses is unknown until the P&A. **DEWEY computes no haircut** | §1a, §3 |
+| **CREED** (collateral) | Named Nano exposures ≈ $93M face/stated (overlapping, not additive). Debtor-side marks: Chino $29M (2/2025) → $23.5–26.5M; Hotel Laguna $27.0M lien vs $82.0M value | **Retained vs sold is NOT ANSWERED.** Face amounts ≠ balances. Debtor figures ≠ FDIC marks | §5(b) |
+| **WAL** (recovery) | **O1 NOT PROVEN.** Ontario Nano-held per filings 9/8–9/11; Chino "Nano Banc" lien per 8/26 filing; Moreno Valley and Bellflower unknown. **No state (a)/(b)/(c) is proven.** Treat "passes to the receiver" as the conditional default, not a finding | A post-observation transfer isn't ruled out. **Chino's property/TIC match and priority are unresolved.** WAL-bought-Preferred's-Chino-senior is an unconfirmed inference. Loan-level proof needed: recorded assignment (by instrument no. + APN), proof of claim / Rule 3001(e) transfer notice, title report | §4x |
+| **WAL** (O2/O3) | Makhijani trial continued to **1/12/2027**; MOM Ch.11 **dismissed 8/18/2025 (dkt 769)** | Entries after 8/18/2026 unchecked | §4d, §4b |
+| **PROME** (synthesis) | (a) both, in sequence, seizure capital-only · (b) exposures named, pool unknown · (c) conduct first; break co-timed with exposure | Nano's share of the ~$1.34B Final Award is **NOT FOUND**, the largest open item. The H1-26 ~$40M accrual reversal is unexplained | §5, §4a |
+
+### Next observables (possible evidence, not guaranteed answers)
+- **Tue 9/29 1:30 PT:** Plaza Continental hearing (8:26-bk-10986). Watch for an FDIC-R or Sunwest appearance.
+- **~10/05–10/09:** P&A posting. Likely category-level.
+- **Unscheduled:** the FIRREA claims bar date; Fed OIG MLR work-plan entry (~6 months).
+- **1/12/2027:** Makhijani trial.
 
 ---
+
+# APPENDIX: evidence archive
 
 ## Corrections this pull makes to fleet surfaces (verified at the issuer)
 
@@ -79,7 +102,7 @@ What the balance sheet shows (DEWEY arithmetic on the exhibit; not the order's w
 - **Deposits fell $59M in 84 days** ($686M at 6/30 → $627M at 9/22, −9%).
 - **Equity went $39M → $5.7M in one quarter.** The shared fact base's 6/30 equity figure ($39M) is therefore **stale by ~$33M**. The Q3 loss is not in any Call Report.
 - **Other liabilities were only $8.4M.** No large litigation liability (e.g. an arbitration award against Nano) was **carried on the bank's books** at 9/22. See §4 for what that means for the $1.34B award.
-- ⚠️ **Denominator note for REGINALD / CREED (the one shared figure):** the FDIC's "$476M purchased / remainder retained" is framed on the **6/30** $736M balance sheet. On the **9/22** books ($690.9M), $476M purchased leaves **~$215M**, not ~$260M. Which denominator the retained pool is measured against moves the implied haircut. **This file does not compute it; REGINALD owns it.** The P&A agreement (§3) will settle it.
+- ⚠️ **Denominator note for REGINALD / CREED (the one shared figure):** the FDIC's "$476M purchased / remainder retained" is framed on the **6/30** $736M balance sheet. On the **9/22** books ($690.9M), $476M purchased leaves **~$215M**, not ~$260M. Which denominator the retained pool is measured against moves the implied haircut. **This file does not compute it; REGINALD owns it.** The P&A agreement (§3) may clarify the base. It is not guaranteed to.
 
 ### 1b. Consent Order, 3/6/2026 (the capital order)
 - **Consented:** the Board "executed a Waiver and Consent to the issuance of an order … dated March 6, 2026."
@@ -199,7 +222,7 @@ Chung: same CARES entity group; "participated in making materially false represe
 **P&A agreement: NOT YET POSTED (checked 9/27 ~12:3x ET).**
 - The failed-bank page carries no agreement link.
 - Guessed URLs on the FDIC's pattern (`/bank-failures/purchase-assumption-agreement-nano-banc-irvine-ca.pdf` and variants) return 404.
-- **Precedent for timing:** Metropolitan Capital (closed 1/30/2026) has its P&A at `/bank-failures/purchase-assumption-agreement-metropolitan-capital-bank-trust-chicago-il.pdf`, with a server `last-modified` of **2026-02-12**, 13 days after closing. `last-modified` is only an upper bound on first posting. On that analog, expect the Nano P&A around **~10/05–10/09**. It will show the asset schedule (what Sunwest bought vs what the FDIC kept), the bid premium or discount, and whether any loss-share exists.
+- **Precedent for timing:** Metropolitan Capital (closed 1/30/2026) has its P&A at `/bank-failures/purchase-assumption-agreement-metropolitan-capital-bank-trust-chicago-il.pdf`, with a server `last-modified` of **2026-02-12**, 13 days after closing. `last-modified` is only an upper bound on first posting. On that analog, expect the Nano P&A around **~10/05–10/09**. It should show whether any loss-share exists and the bid terms, and it typically describes purchased vs excluded assets **by category**. **It is not guaranteed to identify individual loans.**
 - **WATCH_FOR for WALTER:** `purchase-assumption-agreement-nano-banc`.
 
 ---
@@ -320,26 +343,41 @@ Sources are court filings retrieved from **CourtListener RECAP** (`storage.court
 
 **O1: were Nano's four deeds of trust on WAL's collateral still Nano's at 9/25/2026?** (WAL `research/2026-09-27_nano-banc-receivership-stupin-recovery.md` §2, §6)
 
+> ⚠️ **CORRECTED 2026-09-27 (same day, after delivery).** As first delivered, this section said Ontario and Chino were "STILL NANO", that WAL's state (a) was "contradicted", and that "State (b) holds … they pass to the receiver". **That extended dated observations into ownership at failure, which the evidence does not prove.** The rows below now state **only what each filing shows, on its date**. **O1 remains NOT PROVEN for all four DOTs.** Reviewer-flagged, with a CATO caution carried by PROME. The recipient correction is at `AGENTS/WAL/inbox/2026-09-27b_from-DEWEY_CORRECTION-O1-lien-status-is-dated-observation-not-ownership-at-failure.md`.
+
 | # | DOT (face) · property · county | State | Evidence (tier) | As of |
 |---|---|---|---|---|
-| 1 | $9.72M · 23750 Alessandro Blvd, Moreno Valley · Riverside · **1st** | **UNKNOWN, leaning still-Nano and not foreclosed.** The owner, **Alessandro Group LLC, filed Ch.11 on 8/18/2026** (C.D. Cal. Bankr. **8:26-bk-12516-SC**, Judge Clarkson), reportedly "to halt California property foreclosures" after "scheduled trustee sales". **The foreclosing beneficiary is not confirmed as Nano.** WAL's complaint ¶52 records an NOD on 5/20/2025 without saying under which DOT | Docket exists, last entry a 9/25/2026 MOR [PRIMARY-index]; purpose and $9M balance [UNVERIFIED: search snippets of a paywalled post] | 8/18/2026 |
-| 2 | $4,333,151.35 · 3700 Inland Empire Blvd, Ontario · San Bernardino · 2nd (behind Preferred) | **STILL NANO.** "subject to two liens: (1) a lien in favor of Preferred Bank, which is owed approximately $23,131,053 and (2) **a lien in favor of Nano Banc, which is owed approximately $5,131,969**." "In December 2025, Nano Banc obtained the appointment of Douglas Wilson as a rents and profits receiver … pending a nonjudicial foreclosure proceeding. The Debtor's chapter 11 petition was filed on March 30, 2026, to prevent the foreclosure sale from proceeding." Nano still filed as "Creditor Nano Banc" on **9/11/2026** (Doc 90) | *In re Plaza Continental Group LLC*, **8:26-bk-10986-MH**, Doc 88 (status report, 9/8/2026) [PRIMARY] | 9/11/2026 |
-| 3 | $5.99M · 12233 Central Ave, Chino · San Bernardino · 2nd | **STILL NANO.** "The Property is encumbered by liens in favor of **Western Alliance Bank and Nano Banc** in the total estimated amount of approximately $19.1 million." Also: "In February 2025, Preferred Bank, **which was then the senior lender**, obtained an appraisal … as-is value of approximately $29 million." Broker estimate now "between $23.5 million and $26.5 million" | *In re Chino Central Group, LLC*, **8:26-bk-10925-SC**, Doc 122 (8/26/2026) [PRIMARY]. ⚠ The filing's address is 12125 Central Ave (Chino Towne Center, a 65.91% TIC interest), not 12233. Same owner; likely the same center; **not verified** | 8/26/2026 |
+| 1 | $9.72M · 23750 Alessandro Blvd, Moreno Valley · Riverside · **1st** | **UNKNOWN.** Holder unconfirmed; no trustee's deed found (so no evidence of a completed foreclosure). The owner, **Alessandro Group LLC, filed Ch.11 on 8/18/2026** (C.D. Cal. Bankr. **8:26-bk-12516-SC**, Judge Clarkson), reportedly "to halt California property foreclosures" after "scheduled trustee sales". **The foreclosing beneficiary is not confirmed as Nano.** WAL's complaint ¶52 records an NOD on 5/20/2025 without saying under which DOT | Docket exists, last entry a 9/25/2026 MOR [PRIMARY-index]; purpose and $9M balance [UNVERIFIED: search snippets of a paywalled post] | 8/18/2026 |
+| 2 | $4,333,151.35 · 3700 Inland Empire Blvd, Ontario · San Bernardino · 2nd (behind Preferred) | **NANO-HELD PER DEBTOR AS OF 9/8/2026; Nano still appearing as creditor 9/11/2026. Ownership at 9/25 NOT PROVEN** (a transfer between 9/11 and 9/25, or one not yet reflected on the docket, is not ruled out). "subject to two liens: (1) a lien in favor of Preferred Bank, which is owed approximately $23,131,053 and (2) **a lien in favor of Nano Banc, which is owed approximately $5,131,969**." "In December 2025, Nano Banc obtained the appointment of Douglas Wilson as a rents and profits receiver … pending a nonjudicial foreclosure proceeding. The Debtor's chapter 11 petition was filed on March 30, 2026, to prevent the foreclosure sale from proceeding." Nano still filed as "Creditor Nano Banc" on **9/11/2026** (Doc 90) | *In re Plaza Continental Group LLC*, **8:26-bk-10986-MH**, Doc 88 (status report, 9/8/2026) [PRIMARY] | 9/11/2026 |
+| 3 | $5.99M · 12233 Central Ave, Chino · San Bernardino · 2nd *(priority per the 2025 complaint; current priority NOT stated in the 2026 filing)* | **A "Nano Banc" lien reported by the debtor AS OF 8/26/2026 (filing date). Ownership at 9/25 NOT PROVEN**: a transfer after 8/26 (e.g. 8/28) fits this evidence. **The property match is also unresolved** (next column), so it is not established that this lien *is* the $5.99M DOT. "The Property is encumbered by liens in favor of **Western Alliance Bank and Nano Banc** in the total estimated amount of approximately $19.1 million." Also: "In February 2025, Preferred Bank, **which was then the senior lender**, obtained an appraisal … as-is value of approximately $29 million." Broker estimate now "between $23.5 million and $26.5 million" | *In re Chino Central Group, LLC*, **8:26-bk-10925-SC**, Doc 122 (8/26/2026) [PRIMARY]. ⚠ The filing's address is 12125 Central Ave (Chino Towne Center, a 65.91% TIC interest), not 12233. Same owner; likely the same center; **not verified** | 8/26/2026 |
 | 4 | $8.0M · 9826 Cedar St, Bellflower · Los Angeles · 2nd | **UNKNOWN.** No NOD, trustee-sale notice or bankruptcy found for Cedar Street Group LLC. (*Bellflower Cedar, LLC*, 2:24-bk-11656, is a different property.) LA County RR/CC: "Our office does not provide online access to real estate records or indexes." | — | — |
 
 - **No assignment of any of the four to WAL, no reconveyance and no trustee's deed was found.**
-- ⇒ **WAL's state (a) "WAL already bought Nano's liens" is contradicted for Ontario and Chino.** Nano was still the lienholder, actively litigating, less than three weeks before failure.
-- **State (b) holds for those two:** they pass to the receiver.
-- **Chino inference (DEWEY; not stated in any document):** "Preferred … was then the senior lender" (2/2025), and the current liens are "Western Alliance Bank and Nano Banc". So **WAL appears to have bought Preferred's senior Chino loan**: $19.1M − Nano's ~$6M ≈ $13M, which matches WAL's Q1-26 10-Q: "management completed the purchase of a $13 million non-performing senior lien loan during the three months ended March 31, 2026" [PRIMARY: EDGAR `wal-20260331.htm`]. **On Chino, WAL is now senior and Nano (→ FDIC) is junior to it.**
+- ⇒ **What the evidence does and does not show about WAL's three states (§2 of WAL's file):**
+  - **Ontario:** the debtor described Nano as the second lienholder on 9/8, and Nano appeared as a creditor on 9/11. That is **evidence against state (a) (WAL bought it) as of 9/11 only**. It does not prove state (b) (Nano still held it at 9/25) or rule out a later transfer.
+  - **Chino:** the debtor described a "Nano Banc" lien on 8/26. That is evidence against state (a) **as of 8/26 only**; a transfer on, say, 8/28 fits. It is also unproven that this lien is the $5.99M DOT on 12233 Central (address/TIC mismatch).
+  - **Moreno Valley, Bellflower:** no evidence either way.
+  - ⇒ **No state is proven for any of the four.** Do not carry "passes to the receiver" into the recovery assessment as a finding. It is the default *if* Nano held the lien at failure, and that is the open question.
+- **Chino inference (DEWEY; not stated in any document):** "Preferred … was then the senior lender" (2/2025), and the current liens are "Western Alliance Bank and Nano Banc". So **WAL may have bought Preferred's senior Chino loan**: $19.1M − Nano's ~$6M ≈ $13M, which matches WAL's Q1-26 10-Q: "management completed the purchase of a $13 million non-performing senior lien loan during the three months ended March 31, 2026" [PRIMARY: EDGAR `wal-20260331.htm`]. ⚠ **This is arithmetic coincidence plus sequence, not identification.** The 10-Q names no property or seller. The 8/26 filing lists the two lienholders **without stating their priority**. And the property match to 12233 Central is unresolved. **WAL-senior-to-Nano on Chino is an unconfirmed inference.** It is not a finding.
 - A second senior-note buyer is **not** WAL. On 2460 S. Grove Ave, Ontario (WAL complaint loan 35), "The senior lienholder is Conejo Loan Investors, LLC, which purchased the loan from Preferred Bank, and which is owed approximately $10.3 million" (*In re Conejo Riverside Group*, 8:26-bk-11647-MH, Doc 77, 9/8/2026) [PRIMARY].
 - **Both the Ontario and Chino debtors are investigating avoidance of the Cantor Group V liens that WAL holds as pledgee** (Docs 88, 122) [PRIMARY].
 - The Ontario docket also shows "the Debtor has asserted claims for **lender liability** and Nano Banc has asserted claims for breach of lending documents" (Orange County Superior; stayed). That is a claim **against the receivership asset**.
 - **Other Stupin-web debtors where Nano is a creditor** (C.D. Cal. Bankr.) [PRIMARY-index]: Raymond Group LLC (8:26-bk-10834; Nano 2nd lien owed ~$4,532,415 behind BofA ~$17,329,603) · Ramanujan Group · Ynez Shops · Andrew & Julie Stupin (8:26-bk-11202, filed 4/17/2026).
-- **FDIC-retained vs Sunwest: no per-loan evidence.** The FAQ says only that "Certain lines of credit have been transferred to Sunwest Bank." *Inference:* nonperforming liens inside borrower Ch.11s, one carrying a lender-liability counterclaim, are the class the FDIC typically retains. **The P&A asset schedule (§3) will settle it.**
-- **Observable in 2 days:** the Plaza Continental stipulation hearing (Nano is a stipulating party with Preferred) is **Tue 9/29/2026 1:30 pm, Ctrm 6C, Judge Houle**. A substitution or appearance by "FDIC as Receiver for Nano Banc" (or by Sunwest) on 8:26-bk-10986 answers Ontario. Watch 8:26-bk-10925 (Chino) and 8:26-bk-12516 (Moreno Valley) the same way.
+- **FDIC-retained vs Sunwest: no per-loan evidence.** The FAQ says only that "Certain lines of credit have been transferred to Sunwest Bank." *Inference:* nonperforming liens inside borrower Ch.11s, one carrying a lender-liability counterclaim, are the class the FDIC typically retains.
+- **Possible evidence sources, none guaranteed to answer:**
+  - **The P&A agreement (§3).** Posted P&A agreements typically describe *categories* of purchased and excluded assets, not a per-loan list. It may narrow the question without resolving any single loan.
+  - **The Plaza Continental stipulation hearing, Tue 9/29/2026 1:30 pm (Ctrm 6C, Judge Houle, 8:26-bk-10986).** Nano is a stipulating party with Preferred. An appearance or substitution by "FDIC as Receiver for Nano Banc" (or by Sunwest) *would* be evidence about Ontario, but the hearing may simply be continued or proceed without one. The same applies to the Chino (8:26-bk-10925) and Moreno Valley (8:26-bk-12516) dockets.
+- **What documentation WOULD establish ownership, priority or transfer, loan by loan:**
+  - (1) A **recorded Assignment of Deed of Trust** (or trustee's deed or reconveyance) identifying the DOT by its **recording instrument number**, with parties and date. Matched on the property's **APN / legal description**, not the street address.
+  - (2) In each borrower's Chapter 11: a **proof of claim** (Official Form 410) by Nano, FDIC-R or Sunwest attaching the note and DOT; or a **notice of transfer of claim under Fed. R. Bankr. P. 3001(e)**.
+  - (3) A **title report** or recorded **subordination agreement** for priority.
+  - (4) For Chino: the parcel records reconciling 12125 vs 12233 Central Ave and the 65.91% TIC interest to the DOT's legal description.
 - **The recorder check a human can do in ~2 minutes (DEWEY could not):**
   - Riverside (`webselfservice.rivcoacr.org`) and San Bernardino (`arcselfservice.sbcounty.gov`) both run Tyler Self-Service behind a Google reCAPTCHA. Scripted searches return HTTP 500. **DEWEY did not attempt to get around it.**
-  - Name Search "NANO BANC", 01/01/2025–09/25/2026; look for ASSIGNMENT OF DEED OF TRUST / SUBSTITUTION OF TRUSTEE / NOTICE OF TRUSTEE SALE / RECONVEYANCE / TRUSTEE'S DEED.
+  - **Start from each DOT's recording instrument number** (from WAL's complaint or a title report), not a name search. Then search for later instruments referencing it, and match APN/legal description, parties and dates. A "NANO BANC" name search, 01/01/2025–09/25/2026, is a secondary sweep: ASSIGNMENT OF DEED OF TRUST / SUBSTITUTION OF TRUSTEE / NOTICE OF TRUSTEE SALE / RECONVEYANCE / TRUSTEE'S DEED.
+  - **Save the recorded documents, not the index hits.** An index line does not identify the parcel or the instrument assigned.
+  - **Bellflower (LA County) is not covered** by either portal: in-person at Norwalk or a paid request.
+  - **Completion condition:** each DOT reaches a state backed by a recorded document or a docket filing (item 1 or 2 above). A clean name search alone does **not** settle ownership.
 - **Recording-date corrections** (WAL complaint ¶¶75, 81, 86; the dates on WAL's §2 table are the DOT *dates*): Ontario recorded **1/13/2023** · Chino **6/30/2023** · Bellflower **9/27/2024**.
 
 **O2 (Makhijani criminal docket):** indictment 8:26-cr-00087-DOC. **Trial continued from 8/11/2026 to 1/12/2027** (dkt 52). No plea agreement, verdict or restitution order. Detail in §4d.
@@ -376,7 +414,7 @@ Sources are court filings retrieved from **CourtListener RECAP** (`storage.court
 - **These identified items total ≈ $93M of face or stated balance** (DEWEY sum, excluding the "$100M+" aggregate they partly overlap): Marcil $27.7M + MOM $20.0M + Stupin-web DOTs $45.4M. That equals **≈ 29% of the $322M held-for-investment book at 9/22** (a further $97M was held for sale).
 - ⚠️ **Overlap and staleness warning:** face amounts are at origination, only two rows are current balances, and the "$100M+" insider figure contains some of the other rows. **Do not add them.**
 - **Retained pool: NOT ANSWERED.** No per-loan evidence exists yet. *Inference:* nonperforming, litigated liens inside borrower Ch.11s, with set-aside and lender-liability claims attached, are the asset class the FDIC typically keeps rather than sells to an acquirer.
-- **Two observables:** the **P&A agreement** (expected ~10/05–10/09) and the **9/29 Ontario hearing** (who appears for Nano's lien).
+- **Two possible evidence sources, neither guaranteed to answer:** the **P&A agreement** (expected ~10/05–10/09; typically category-level, not per-loan) and the **9/29 Ontario hearing** (if the FDIC-R or Sunwest appears for Nano's lien). Loan-level proof would be the documents listed in §4x.
 - **For CREED's collateral read:**
   - The Chino filing gives a live mark on a Nano-lien property: a Feb-2025 as-is appraisal of ~$29M against a 2026 broker range of **$23.5–26.5M** (−9% to −19%), with liens of ~$19.1M (WAL senior + Nano junior).
   - Hotel Laguna: $27.0M first lien (Banc of California) against an $82.0M value, per the MOM Ch.11 CRO table.
