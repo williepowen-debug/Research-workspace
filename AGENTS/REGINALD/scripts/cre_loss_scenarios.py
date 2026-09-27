@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""CRE loss scenarios for the 2026-09-26 top-3 CRE-vulnerability report (FLG / OZK / EGBN).
+"""⛔ SUPERSEDED 2026-09-26 by scripts/cre_loss_bridge.py (this version did not net reserves held, mixed bases, and carried three anchors CREED showed wrong). Kept for the record only.
+
+CRE loss scenarios for the 2026-09-26 top-3 CRE-vulnerability report (FLG / OZK / EGBN).
 
 ILLUSTRATIVE, NOT A FORECAST. Every pool balance is a disclosed 6/30/2026 figure (source in POOLS);
 every loss rate is an ASSUMPTION stated here with its anchor, so a reader can change it and re-run.

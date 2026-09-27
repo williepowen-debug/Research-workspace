@@ -27,6 +27,8 @@
 
 **No score, threshold or position moved. The eight-channel framing stays retired.**
 
+⚠️ **Corrected same evening (CREED property test, verified at the OZK desk's file):** OZK stress is **0.6 yrs PPNR / $620–636M after reserves** with RaDD at the desk's 65% severity, not 0.4 yrs; **'smallest threat to capital' withdrawn**. The reserve-netted bridge supersedes the scenario figures above → `reports/2026-09-26_CRE_top3_loss_bridge.md`.
+
 ## 2026-09-14 — Stagflation Trap channel 🟠→🔴: BOTH LEGS STANDING for the first time — thesis-STATE change on `STATUS.md` §THESIS
 
 **Authority:** owner re-grade, REGINALD, at my own instruments (yfinance daily bars + FRED primary pulls, 2026-09-14). Logged here because §THESIS of the thesis-canonical `STATUS.md` carries this channel's status token and the claim itself moved, not merely a price.
