@@ -74,7 +74,7 @@
 | EGBN non-office haircut **13.3%** | EGBN multifamily | EGBN's own H1-26 exit haircut |
 | General reserve allocated pro-rata by pool | High end of each reserve-credit range | Banks do not disclose it by grade; **my allocation** |
 | PPNR = trailing four quarters, no forward growth; losses land with no earnings offset | The multiples and CET1 figures | Simplification. Read as multiples, never as a yes/no. |
-| Nano ≈$120M loss / 17% | Nano's lesson for asset marks | Equity + estimated FDIC loss on 9/22 books; a **zero-adjustment scenario** until the FDIC–Sunwest purchase agreement (P&A) posts |
+| Nano ≈$120M loss / 17% | Nano's own loss only. **NOT a mark for any cohort pool** (no type or lien match; CREED §B4) | Equity + estimated FDIC loss on 9/22 books; a **zero-adjustment scenario** until the FDIC–Sunwest purchase agreement (P&A) posts |
 
 ---
 
@@ -97,7 +97,7 @@
 |---|---|---|
 | **Q3 CRE nonaccrual / charge-offs at the mid-pack names** (WAL, VLY 320% concentration, SSB, BKU, SBCF): ≥3 of them with CRE bad-loan rate up >50% QoQ or a new foreclosure build | Earnings ~10/20–28 (estimates); Call Reports → my run **11/07** | **BROADER** |
 | **FDIC Q3 QBP:** a second consecutive rise in regional foreclosed CRE **and** `CREED-T-03` firing | ~late Nov | **BROADER** |
-| **Nano P&A / FDIC loss estimate** revised up materially from $114M | check-by **Fri 10/9**; the Fed OIG loss review ~3/2027 | Harsher market marks on small-bank CRE → **raises every scenario rate**, not the ranking |
+| **Nano P&A / FDIC loss estimate** revised up materially from $114M | check-by **Fri 10/9**; the Fed OIG loss review ~3/2027 | **Evidence about small-bank Southern California CRE values only. By itself it moves no bank's scenario rate.** At most it is weak directional evidence, pool by pool, and only where a type-and-lien match is shown. ~~Harsher market marks on small-bank CRE → raises every scenario rate, not the ranking~~ *(amended 9/27 on CATO's review via Will/PROME, and CREED transfer test §B4 cd4674c5e: Nano's pool is neighbourhood retail, medical office, small multifamily and several second liens, and it matches no FLG, EGBN or OZK pool on type or lien)* |
 | **EGBN's 4 criticized multifamily loans ($155.8M, Aug–Dec maturities)** pay off or extend at par; FLG multifamily special mention ≤ $2,757M | EGBN Q3 10-Q ~early Nov; FLG Q3 | **CONCENTRATED holds, and the scenarios overstate.** If they go to held-for-sale at a haircut, EGBN/FLG severity rises, but still concentrated. |
 | **OZK foreclosed-property sale** priced near 58% rather than 86–100% of appraisal | Any OZK 8-K / Q3 | OZK severity **up** (concentrated) |
 | Freddie multifamily delinquency through ~0.75% while the cohort's multifamily bad-loan rate stays flat | Monthly | The **lag widens**. Transmission is pending, not absent. |
