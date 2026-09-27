@@ -151,3 +151,16 @@ The scope's expectation (relevance concentrates in the NYC rent-regulated pools)
 **New link found by FLG:** FLG itself bought **$1,680M of Signature CRE loans at fair value, and no multifamily**, in March 2023 (10-K FY2024, acc 0000910073-25-000038). So FLG's multifamily pools hold no disclosed Signature loans; its CRE pools may, measured from the acquisition fair-value mark, not par. Remaining balance and grade: not disclosed.
 
 **Effect on this synthesis:** §8 item 4's candidate is **closed as no usable comparison**. The highest-value question in §8 is unchanged, and the sharper observation for FLG's NYC rent-regulated pools is now **FLG's own disposition pricing** (sale price vs carrying on its rent-regulated exits) at the Q3 call (~10/23) or 10-Q (~11/9) — same lender, same book, 2026 regime. The FDIC's realised Signature-venture recoveries are a possible later corroboration of direction, never a transferable rate; pursuing them is new research and needs Will's word.
+
+---
+
+## 10. Addendum — FLG's Pinnacle disposition (17:59 ET, FLG cd03d16be, KB-FLG-067; not a PROME assignment)
+
+**The largest H1 exit from FLG's rent-regulated problem book was very likely below the debt and mostly financed by Flagstar itself.** [PRESS-GRADE: the 10-Q does not name the borrower; FLG rates the identification "very likely".] Pinnacle Group (~93 buildings, ~5,100 mostly rent-stabilized NYC units, Ch.11 since May 2025) sold to Summit Properties for **$451.3M**, closing 2026-03-31, against Flagstar debt reported at **>$564M** (so at least ~20% below the debt); **Flagstar lent the buyer $338.5M (~75% of the price)** (Multifamily Dive 2026-01-20; TRD).
+
+**What it changes:**
+- **FLG's case against stress (§3 A1, "self-liquidation at par") is overstated for the nonaccrual schedule's payoff leg.** The separately reported $1.1B/quarter CRE par payoffs are a different issuer series and are not contradicted.
+- **It is the closest comparator on file for FLG's NYC rent-regulated nonaccrual pool** — same lender, same asset class, defaulted, 2026 — closer than Signature (§9). **It is still not a loss rate:** Flagstar's carrying value at sale is undisclosed, the debt figure is press-reported, and seller financing at ~75% likely flatters the price (the same objection §9 raised against the FDIC's financed venture).
+- It fits the synthesis's central finding (§1, §8): the one observed exit from this book did not clear at the loan's face, and the price that exists is financed by the lender.
+
+**What would settle it:** Flagstar's carrying value and realized charge-off on the relationship (Q3 10-Q ~11/9 or the call ~10/23, if disclosed) — the "FLG's own disposition pricing" observation named in §9. No score, rate or grade changed.
