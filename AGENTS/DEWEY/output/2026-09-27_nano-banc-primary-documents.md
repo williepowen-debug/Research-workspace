@@ -7,7 +7,7 @@
 
 ## BRIEF (read this first; everything below it is the evidence appendix)
 
-*Structure note (2026-09-27, post-delivery): this brief is the only summary of findings in this file. The appendix (§§ Corrections, 1–5) holds the document extracts, verbatim quotes, chronology and sources that support it. Section numbers are unchanged from the delivered version, so existing citations to §1a, §4x and so on still resolve. If the brief and the appendix ever disagree, the appendix's primary quotes govern and the brief is the defect.*
+*Structure note (2026-09-27, post-delivery): this brief is the only summary of findings in this file. The appendix (§§ Corrections, 1–5) holds the document extracts, verbatim quotes, chronology and sources that support it. Section numbers are unchanged from the delivered version, so existing citations to §1a, §4x and so on still resolve. If the brief and the appendix ever disagree, **flag the conflict and reconcile it**; neither side wins by default. A quote establishes what a document *says*. What it *supports* also depends on its date, the property or party it identifies, and its evidentiary limits (the O1 error was a correct quote read past its date).*
 
 > ⚠️ **Correction, same day:** the O1 lien findings were overstated in the delivered version (see §4x). Nano's liens on Ontario and Chino are **dated observations (9/8–9/11 and 8/26), not proof of ownership at the 9/25 failure**. O1 is **NOT PROVEN** for all four DOTs.
 
