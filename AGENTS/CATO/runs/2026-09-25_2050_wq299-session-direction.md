@@ -2,7 +2,9 @@
 
 ## Current disposition — September 26 follow-up
 
-**CRE follow-up:** the new REGINALD bridge's stress arithmetic reproduces, but earnings/valuation conclusions still need the narrow qualifications in WR28–WR29 below. M1–M5 remain proposals; recommend targeted use of existing research and a Q3 update before score changes or permanent new instruments. No owner/model edits or sends by CATO.
+**CATO session CLOSED for reboot on Will's instruction.** No assignment remains active; orient and await Will at next boot. Later owner closeout/follow-up commits are visible but not independently audited (latest closeout below). Check their current disposition if assigned rather than treating earlier findings as unchanged.
+
+**CRE follow-up:** the reviewed REGINALD bridge's stress arithmetic reproduces; corrections to WR28–WR29 are now owner-reported, not independently verified by CATO. M1–M5 remain proposals; recommend targeted use of existing research and a Q3 update before score changes or permanent new instruments. No owner/model edits or sends by CATO.
 
 **PROME correction delivery accepted: `ac5e9ba25` (eight corrected files), `cebdbb52b` (WALTER routing condition).** WR18–WR20's main content conditions are satisfied; WR21's wording corrected and completed reading owner-reported. WR22's instruction is committed beside the original alert; actual onward routing with the ruling remains pending, not mechanically enforced. Owner implementation packets and closeout delivery are distinguished from independently verified downstream completion. CDS benchmark, holdings/account confirmation and other named manual inputs remain open. WR15's historical accounting remains unaudited; L511's later consolidation has the qualified disposition below.
 
@@ -356,3 +358,17 @@ Delivery validation: scoped CATO whitespace check, root orphan advisory and week
 **Recommendation:** accept the bridge as an improved conditional research deliverable, make the narrow interpretation/label corrections, retain open decisions separately, and avoid turning five proposals into five urgent approval tasks. Additional loss-rate changes are not authorized by this assessment. Only CATO evidence/resume records updated; delivery checks follow.
 
 Validation: scoped CATO whitespace and root weekday advisories passed. Orphan advisory identified PROME's concurrent closeout/rotation and daily-memory work; no CATO-authored orphan found, all other paths untouched. Index empty before exact-path CATO commit. No market refresh or operational run; script calculations evaluated read-only. Commit/push receipt follows in-session.
+
+## September 26 — CATO closeout for reboot
+
+Will explicitly directed closeout and reboot. No remaining CATO assignment, owner repair, new audit or deferred research was started. Saved the current resume point in CONTINUITY; no separate closeout report created.
+
+**Later receipts, not newly verified implementation:** REGINALD reports corrections applied and closeout pushed (03ec58b52), CREED reports closed/pushed (231127c5c). Local history through 5925f57b2 also includes REGINALD correction 37af6ef19, follow-up 585c31a12 (consumer check / KRE wording by subject), CREED follow-up 5925f57b2 (ARI/Q3 qualifications by subject), and PROME closeout 068c062f7 with bookkeeping d1106d873. These commits' contents were not audited at CATO closeout. This preserves owner-reported progress without certifying WR28–WR29 closure or treating the previously skipped consumer check as still unperformed after the follow-up. Likewise, WR22's earlier missing carry reminder may be superseded by PROME's closeout; actual routed-artifact evidence is still unverified by CATO. Inspect only if Will assigns that follow-up.
+
+**Surviving boundaries and decisions:** CREED S8a and Kernel activation are separate, nonblocking decisions; M1–M5 unapplied proposals. The broad refinancing model and realized-loss ledger stay deferred. No automatic fresh desk launch, owner re-review or score change. L511 withholding and incomplete execution remain the last checked operational limitations; this closeout neither lifts them nor resets its prior read history. Existing WQ approvals/holds and manual input priorities stay in CONTINUITY. Reviewer-owner communication preference has a later memory commit (1bcaa6dbe, metadata observed), not a grant from CATO's advice; consult the actual approved scope if a future assignment needs messaging.
+
+**Late-session advice retained:** observe KRE's actual expiry/broker outcome rather than pre-deciding worthless expiry; direct notification of one consumer is not proof of consumer completeness; accurate matrix labeling and EGBN diagnostics need not all wait until Q3; ARI's approximate price adjustment is an expectation rather than a guaranteed move, and Q3 disclosures may answer research questions only partly. These were discussion qualifications, not new owner assignments or financial-source verification.
+
+**Delivery scope:** only the continuing report and CONTINUITY. Entry tree/index clean; no foreign edits staged or committed. Root orphan/weekday advisories and scoped whitespace checks recorded below. No publication, market refresh, operational boot/closeout or new code tests required. Reboot action: read CATO startup files, summarize current disposition briefly, and await Will.
+
+Closeout validation: scoped whitespace passed; orphan advisory clean; weekday advisory passed on DOCKET/GATES/WILL_QUEUE; only the two intended CATO records modified and index empty before the exact-path commit. Delivery receipt follows in-session.
