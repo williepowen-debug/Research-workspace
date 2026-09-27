@@ -8,7 +8,9 @@
 
 ---
 
-**⚠️ Open question #1 — THE SHORT'S MARGIN OF SAFETY IS GONE, AND IT WENT ON PRICE.** Spot **$75.60 [Wed 9/23 close]** vs v2.4 EV **$75.96** ⇒ **0.47% BELOW EV**, first time this cycle. EV has not moved since 8/20; no score moved. The fall was **sector + rates** (Fed +25bp 9/16; 10Y 5.11% 9/23; 9/22 "Meta Muse" AI-deposit scare) — WAL **beat** KRE over 9/2→9/23 (−4.45% vs −5.20%) and 8/20→9/23 (−4.49% vs −5.80%), though it traded with the CRE-heavy names (ZION/OZK) over 9/21→9/23 (−3.88% vs KRE −2.24%). ⇒ **The bear is priced; what is left is a resolution trade on the Q3 print + $99M appraisal.** `REG-T-02` stays FIRED (cycle 2), exit `≥$81.90 ×3` 0-of-3 — REGINALD grades; sub-$78 closes (9/16, 9/22, 9/23) are suppressed re-entries.
+**⚠️ Open question #1 — THE SHORT'S MARGIN OF SAFETY IS ~NIL, AND EVERY MOVE SINCE 8/20 IS PRICE.** Spot **$77.61 [Fri 9/25 close]** vs v2.4 EV **$75.96** ⇒ **+2.17%** (it dipped 0.47% BELOW on the 9/23 close $75.60, first time this cycle, then recovered in two sessions). EV unmoved since 8/20; no score moved. The 9/2→9/23 fall was **sector + rates** (Fed +25bp 9/16; 10Y 5.11% 9/23; 9/22 "Meta Muse" scare), and WAL **beat** KRE over both windows. ⇒ **The bear is priced; what is left is a resolution trade on the Q3 print + $99M appraisal.** `REG-T-02` FIRED (cycle 2) and terminal; exit `≥$81.90 ×3` 0-of-3 through 9/25 (+5.53%) — REGINALD grades. **Nano Banc failed after the 9/25 close ⇒ Mon 9/28 is the first tape read** (no rule keys on it).
+
+**⚠️ Open question #1b (NEW 9/27) — who holds Nano's four senior liens on WAL's Cantor collateral?** WAL's verified complaint (8/18/2025) puts **4 Nano DOTs ($28.04M original face) AHEAD of WAL on 5 of 10 pleaded loans** (KB-WAL-202). WAL bought $13M (Q1) → $64M (Q2) of senior liens, **seller unnamed**. (a) WAL already owns them ⇒ the failure is irrelevant; (b) Nano still held them ⇒ now FDIC-receiver assets, a forced seller; (c) Nano foreclosed ⇒ already inside the Q1 charge-off. **DEWEY O1 (recorders) is the decision-bearing item; PROME ranked it first.** ⛔ Never promote a tie by magnitude ($28M < $64M proves nothing).
 
 **⚠️ Open question #2 — the CEO pre-guided Q3 credit BETTER, and the thesis's own retire rule can't tell which basis he meant.** Barclays 9/16 (B2, third-party transcript, model-extracted): NPLs **$567M → ~$500M**, NCO rate + dollars **< Q2**, ACL **"well over 100%"** vs 95%, **"six credits … four down, two to go."** **$567M/95% is our NONACCRUAL basis** ($562M/96%) — on full NPL ($781M) coverage was **69.1%**. The Thesis-RETIRE rule says "ACL/NPL >100%" with **no denominator** ⇒ **~~pin it in the Q3 frame before the print~~ ✅ PINNED 9/24 (Q3 print frame §7): (funded + unfunded ACL) ÷ total nonaccrual; full-NPL reported alongside, non-gating.** ⛔ Guidance, not data: no weight moved; it is the Q3 benchmark. **Silent on the $99M loan.**
 
@@ -18,28 +20,20 @@
 
 ---
 
-**LAST SESSION (2026-09-24 — WAL session #7, Will-directed "update WAL files and metrics"; Thu 00:05–~01:xx ET, LAPTOP; desk dark 22 days 9/2→9/24):**
+**LAST SESSION (2026-09-27 Sun — WAL session #8, Will-launched boot, then a PROME commission `17a205519`, ~12:14–14:xx ET, LAPTOP):**
 
-- **Re-based every live surface on named closes.** $75.60 [9/23]; the 9/22 daily bar is **missing at yfinance** though the market was open (SPY/KRE have one) — used REGINALD's graded $77.75 (previous-close field; my last 30-min bar ~$77.76). `KB-WAL-188/189`.
-- ★ **STATUS rotated the honest way, and MEMORY with it.** STATUS was 32,547 B (3 B headroom); the whole 9/2 surface went VERBATIM to `STATUS_ARCHIVE.md` (`sha256(first16)=6ef10add72c95e2d`, = the committed file at `399944561`), then STATUS rewritten lean → **~14 KB** (under the 22,785 B rule-5 STOP). MEMORY same pattern (`df422725ae3056a4`).
-- ★ **The two-session-slipped catalyst sweep RAN** (Opus subagent, record `research/CATALYST_SWEEP_2026-09-24.md`): EDGAR clean (no 8-K/144/13G, 9 RSU-only Form 4s @ $79.03 — KB-193); Barclays pre-guide (KB-194/196); Crestline lender role (KB-195); Q3 date NOT announced, analysts, sector drivers (KB-197). **Closes MEMORY N-2.**
-- **Positions:** Sep-18 $67.5P + $70P **finished OTM 9/18** ($78.54) — tape read; **broker booking UNRECORDED** (FORGE D-58). Dec-18 $70P **broker-verified 9/10** (D-47). **Live book = 1 leg.** `KB-WAL-191`, POSITIONS.md rewritten.
-- **KB expiry backlog 61 → 0** over three row-by-row passes (first pass 61 → 41: 10 SUPERSEDED with successor named, 10 extended with a reason). ⚠️ **Found: KB-WAL-048 "74% of loans pledged ($23.9B)" does not tie to any loan total ($23.9B/74% = $32.3B vs $58.7B HFI) — marked DO-NOT-CITE.**
-- **Found: KB-WAL-180's "$79.89 close 8/20" is wrong — the settled close is $79.15** (likely an unsettled bar read as a close). Corrected by a new row, `KB-WAL-190`; 180 untouched; the 9/2 cohort math already used $79.15.
-- **Corrections / inbox:** COR-20260915-02 receipted **NO-OP** (the bad "new cycle" instruction was never carried here) — **8 days late, desk dark**. WALTER ×2 rowed + `git mv`; DAEDALUS ×2 info-only; PROME L441 → answered (drift baseline re-measured + a re-check date the script now ENFORCES — `BASE_RECHECK_BY`, overdue branch tested).
-- **yfinance short-interest fields are garbage** (2,659 shares short) — `KB-WAL-192`; never refresh KB-061 from that route.
-
-- **LATER THE SAME DAY (PROME rounds 1-2 + Will-directed housekeeping, ~00:30–~15:00 ET):**
-  - **Both Q3 frames pre-registered** — print (L170) and 10-Q (L171). ⚖️ Two self-ruled measurement pins, flagged to PROME: RETIRE coverage leg = (funded+unfunded ACL) ÷ nonaccrual; 10-Q classified cross-check = classified LOANS + OREO (Q2: 1,002 + 126 = deck 1,128). **PROME's L171 premise was stale** (P2/P3 were ruled 8/12, repaired 8/20) — disputed with evidence, not re-asked of Will.
-  - **Housekeeping, all four items:** KB expiry 61 → 0 · 7 root files + 7 FRAUD files archived (`Q1_2026_ANALYSIS.md` held) · FRAUD/ re-based (live homes FIRST_BRANDS + STUPIN_CRE) · Q2 13F aggregate (84.7% → 90.0%, AQR-led).
-  - ★ **Numbers that were wrong and are now fixed:** the "~$46M Cantor residual" had no source → **$72.4M gross / $3.5M allowance** (THESIS, WEAKNESSES, CLAUDE.md on Will's OK) · Cantor loss recognized = **26.5%** of exposure, NOT "89% ≈ ZION 83%" (I repeated that error myself in the morning; retracted) · Q2 share count **flat (−0.08%)**, not −1.7% ⇒ the H2 buyback is UNEVIDENCED · **8/20 KB rows 173-177 corrupted by an unquoted heredoc** (`$`+digit eaten; NDFI nonaccrual read $22.5M, is $122.5M) — restored from REGINALD's cohort file; fleet memory extended (`finding_printf_format_tsv_append_corruption`, n=3).
-  - **REGINALD Cat-IV packet:** 4Q-average assets $95.3B vs $100B; corrected his "managing below the line" inference (CEO expects to cross by end-Q1 2027 ⇒ average clears ~Q3-2027, after every carrier).
-  - **Boot card + live-surface sweep (Will: "do a sweep")**: CLAUDE.md re-based; 76 stale items applied across THESIS/SCENARIOS/INDEX/KB_INDEX/NEXUS (worst: INDEX said FFIEC creds were on the laptop). ⚠️ **`derived_drift_check.py` saw NONE of the 15 HIGH items** — it only matches version/EV/PT/KB-count tokens + RETIRED_CLAIMS patterns; stale POSITION and DATE claims are invisible to it. Candidate build: a position/date-token check.
-  - **Q3 date re-checked 08:49 ET: still not announced.** PROME flagged on ROSTER:107 (stale WAL line, their file).
----
+- **Boot:** no pull needed (origin == HEAD). Checks clean except PREDICTIONS header +35d (sweep clock refreshed, no row changed) and one fleet ALL-row correction warning (COR-20260925-13, HY 280 arbiter, not WAL). Nothing Will-gated.
+- ★ **Nano Banc (closed 9/25, FDIC receiver) — the Stupin recovery leg, delivered COMPLETE, accepted by PROME.** Record `research/2026-09-27_nano-banc-receivership-stupin-recovery.md`; KB-WAL-201…204.
+  - **The finding that changed the fleet's fact base:** WAL's own verified complaint (Bloomberg-hosted copy, pdfminer) shows **Nano senior DOTs on half the pleaded collateral**. The fleet (WALTER -004, PROME plan) had framed the link as "indirect". **Nobody had read the primary; four secondaries agreed.** WALTER issued a correction (-005); PROME re-based plan §1.
+  - **Corrections:** the Fed C&D was **terminated** 3/20/2025, not issued (A1, KB-204; RETIRED_CLAIMS row) · Nano "liable" in ONE forum, **cleared** in another · the MOM Investcos Ch.11 was **dismissed** in 2025 (PROME's premise stale).
+  - **Own-arc gap closed late:** **Makhijani arrested ~June 2026 for ~$100M bank fraud on WAL**; trial set 8/11/2026 (C.D. Cal., Judge Carter). The desk held NO row for ~3.5 months (KB-WAL-203).
+  - **My own error, caught by REGINALD:** §7 credited him with the FDIC's 15.5% DIF/assets; his owned figure is ≈$153M ≈ 21% of assets (his §3). Re-pointed after verifying at his artifact; STATUS/channel carry pointers only (seam rule).
+  - WAL-01/02 + ROLL70-EXIT **no change**; 10-Q frame §8 has one non-gating annotation (no grading cell touched).
+- **STATUS re-based** on the 9/25 close; INDEX mirror-synced; inbox drained (WALTER -004/-005 rowed; PROME WQ-295 → **cadence declared EVENT-DRIVEN** + 5 watch terms; DAEDALUS market.py note filed).
 
 **NEXT SESSION — re-ranked 2026-09-24 closeout (session #7):**
 
+**★N-0. Fold DEWEY's O1–O3** (`AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md`, "O1–O3 for WAL"): O1 = holder of Nano's 4 DOTs (decides Open question #1b → update KB-WAL-202 + research §2) · O2 = Makhijani docket status (KB-WAL-203) · O3 = MOM dismissal date. Also watch for the FDIC claims bar date and any Nano loan-sale notice (CREED S6).
 **★N-1. ⏱ From ~Fri 10/2: check the WAL IR feed for the Q3 date EVERY business day; on announcement pin it in `Q3_PRINT_GRADING_FRAME_2026-09-24.md` §9 and re-pin WAL-01/02 `Resolve_By`.** (Checked 9/24 08:49 ET: not announced.) Then watch EDGAR from ~10/24 for the 10-Q and pin it in the 10-Q frame §8.
 **★N-2. Before the print: re-verify the Barclays 9/16 quotes at the IR webcast replay** (still B2; the one IR pull 404'd). They are the print frame §6 benchmark.
 **★N-3. Weekly EDGAR 8-K sweep for the $99M appraisal** (clean to 9/24 04:10 UTC). ⛔ Silence grades nothing (0-for-1 base rate). The $99M is NOT one of mgmt's six credits (KB-112).
@@ -50,6 +44,8 @@
 **★N-8. Book the Sep-18 expiry as a realized loss** when the broker capture lands (ANVIL/FORGE D-58); then check POSITIONS.md History against it.
 **★N-9. FRAUD/ open primaries:** Jefferies 3/8 release (guarantee direction) · NYSCEF (WAL v. JEF motions) · LA Superior portal (25STCV24263) · PACER/SCAC (class action) · 2026 DEF 14A.
 **★N-10. Two stale token classes to watch at the next thesis bump:** INDEX line 7 and NEXUS carry the KB count and price — re-derive, never carry.
+
+**Known residual:** `derived_drift_check.py` reads **14/13**; the +1 is `research/LIVE_SURFACE_SWEEP_2026-09-24.md:46` quoting "200 rows" (a dated record, correct when written). Re-baseline at the 10/13 BASE_RECHECK_BY, never by editing the record.
 
 **Carried / lower:** identify the $99M building (LEED × gateway-market press) · read the 2026 DEF 14A · Cantor ledger tie-out at the Q3 10-Q · the second $60M credit (Q3 deck roll-forward) · Form 4 + 144 monthly (always both) · SCENARIOS strike-by-strike rebuild (May-vintage; now only one leg to rebuild for) · `boot.py` (wire into CLAUDE.md the same session) · never examined: FR Y-9C, life-science lab vacancy as the appraisal base rate, AOCI Cat III/IV rule watch (**10Y at 5.11% makes the AFS mark worse**).
 
